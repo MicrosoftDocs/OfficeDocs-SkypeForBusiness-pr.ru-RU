@@ -1,7 +1,7 @@
 ---
 title: Управление политиками команд в Microsoft Teams
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: jastark
 ms.topic: article
@@ -24,48 +24,48 @@ ms.custom:
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discover
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.create
 description: Узнайте, как использовать политики команд и управлять ими в организации, чтобы контролировать то, что пользователи могут делать в командах и каналах.
-ms.openlocfilehash: 0b4664c36f24a057a7c8237823b7eafaad8ea6ba
-ms.sourcegitcommit: 44bd56f67b1ad85ef8c21bb30d5b0d47e5a80339
+ms.openlocfilehash: a05aaf65418e46f7b631bac6f7d88d8bbdf4c806
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "49772031"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49802369"
 ---
-# <a name="manage-teams-policies-in-microsoft-teams"></a><span data-ttu-id="edd32-103">Управление политиками команд в Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="edd32-103">Manage teams policies in Microsoft Teams</span></span>
+# <a name="manage-teams-policies-in-microsoft-teams"></a><span data-ttu-id="93acf-103">Управление политиками команд в Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="93acf-103">Manage teams policies in Microsoft Teams</span></span>
 
-<span data-ttu-id="edd32-104">Как администратор вы можете использовать политики teams в Microsoft Teams для управления тем, что пользователи в вашей организации могут делать в командах и каналах.</span><span class="sxs-lookup"><span data-stu-id="edd32-104">As an admin, you can use teams policies in Microsoft Teams to control what users in your organization can do in teams and channels.</span></span> <span data-ttu-id="edd32-105">Например, можно разрешить пользователям создавать частные каналы.</span><span class="sxs-lookup"><span data-stu-id="edd32-105">For example, you can set whether users are allowed to create private channels.</span></span>
+<span data-ttu-id="93acf-104">Как администратор вы можете использовать политики teams в Microsoft Teams для управления тем, что пользователи в вашей организации могут делать в командах и каналах.</span><span class="sxs-lookup"><span data-stu-id="93acf-104">As an admin, you can use teams policies in Microsoft Teams to control what users in your organization can do in teams and channels.</span></span> <span data-ttu-id="93acf-105">Например, можно разрешить пользователям создавать частные каналы.</span><span class="sxs-lookup"><span data-stu-id="93acf-105">For example, you can set whether users are allowed to create private channels.</span></span>
 
-<span data-ttu-id="edd32-106">Вы управляете политиками **команд,** переходить к политикам Teams  >   в Центре администрирования Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="edd32-106">You manage teams policies by going to **Teams** > **Teams policies** in the Microsoft Teams admin center.</span></span> <span data-ttu-id="edd32-107">Вы можете использовать глобальную (по умолчанию в организации) политику или создать и назначить настраиваемые политики.</span><span class="sxs-lookup"><span data-stu-id="edd32-107">You can use the global (Org-wide default) policy or create and assign custom policies.</span></span> <span data-ttu-id="edd32-108">Пользователи вашей организации автоматически получают глобальную политику, если вы не создали и не назначили настраиваемую политику.</span><span class="sxs-lookup"><span data-stu-id="edd32-108">Users in your organization will automatically get the global policy unless you create and assign a custom policy.</span></span>
+<span data-ttu-id="93acf-106">Вы управляете политиками **команд,** переходить к политикам Teams  >  **в** Центре администрирования Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="93acf-106">You manage teams policies by going to **Teams** > **Teams policies** in the Microsoft Teams admin center.</span></span> <span data-ttu-id="93acf-107">Вы можете использовать глобальную (по умолчанию в организации) политику или создать и назначить настраиваемые политики.</span><span class="sxs-lookup"><span data-stu-id="93acf-107">You can use the global (Org-wide default) policy or create and assign custom policies.</span></span> <span data-ttu-id="93acf-108">Пользователи вашей организации автоматически получают глобальную политику, если вы не создали и не назначили настраиваемую политику.</span><span class="sxs-lookup"><span data-stu-id="93acf-108">Users in your organization will automatically get the global policy unless you create and assign a custom policy.</span></span>
 
-<span data-ttu-id="edd32-109">Вы можете изменить глобальную политику или создать и назначить настраиваемую политику.</span><span class="sxs-lookup"><span data-stu-id="edd32-109">You can edit the global policy or create and assign a custom policy.</span></span> <span data-ttu-id="edd32-110">После изменения глобальной политики или назначения политики может занять несколько часов, чтобы изменения вступили в силу.</span><span class="sxs-lookup"><span data-stu-id="edd32-110">After you edit the global policy or assign a policy, it can take a few hours for changes to take effect.</span></span>
+<span data-ttu-id="93acf-109">Вы можете изменить глобальную политику или создать и назначить настраиваемую политику.</span><span class="sxs-lookup"><span data-stu-id="93acf-109">You can edit the global policy or create and assign a custom policy.</span></span> <span data-ttu-id="93acf-110">После изменения глобальной политики или назначения политики может занять несколько часов, чтобы изменения вступили в силу.</span><span class="sxs-lookup"><span data-stu-id="93acf-110">After you edit the global policy or assign a policy, it can take a few hours for changes to take effect.</span></span>
 
-## <a name="create-a-custom-teams-policy"></a><span data-ttu-id="edd32-111">Создание настраиваемой политики teams</span><span class="sxs-lookup"><span data-stu-id="edd32-111">Create a custom teams policy</span></span>
+## <a name="create-a-custom-teams-policy"></a><span data-ttu-id="93acf-111">Создание настраиваемой политики teams</span><span class="sxs-lookup"><span data-stu-id="93acf-111">Create a custom teams policy</span></span>
 
-1. <span data-ttu-id="edd32-112">В левой области навигации Центра администрирования Microsoft Teams перейдите к политикам **Teams.**  >  </span><span class="sxs-lookup"><span data-stu-id="edd32-112">In the left navigation of the Microsoft Teams admin center, go to **Teams** > **Teams policies**.</span></span>
-2. <span data-ttu-id="edd32-113">Нажмите **Добавить**.</span><span class="sxs-lookup"><span data-stu-id="edd32-113">Click **Add**.</span></span>
-3. <span data-ttu-id="edd32-114">Введите имя и описание для политики.</span><span class="sxs-lookup"><span data-stu-id="edd32-114">Enter a name and description for the policy.</span></span>
+1. <span data-ttu-id="93acf-112">В левой области навигации Центра администрирования Microsoft Teams перейдите к политикам **Teams.**  >  </span><span class="sxs-lookup"><span data-stu-id="93acf-112">In the left navigation of the Microsoft Teams admin center, go to **Teams** > **Teams policies**.</span></span>
+2. <span data-ttu-id="93acf-113">Нажмите **Добавить**.</span><span class="sxs-lookup"><span data-stu-id="93acf-113">Click **Add**.</span></span>
+3. <span data-ttu-id="93acf-114">Введите имя и описание для политики.</span><span class="sxs-lookup"><span data-stu-id="93acf-114">Enter a name and description for the policy.</span></span>
 
     ![Снимок экрана: параметры политики teams](media/teams-policies.png)
-4. <span data-ttu-id="edd32-116">Включите или **отключите** <a name="createchannels"></a> создание частных каналов в зависимости от того, хотите ли вы разрешить пользователям создавать частные каналы.</span><span class="sxs-lookup"><span data-stu-id="edd32-116">Turn on or turn off **Create private channels**, <a name="createchannels"> </a> depending on whether you want to allow users to create private channels.</span></span>
+4. <span data-ttu-id="93acf-116">Включите или **отключите** <a name="createchannels"></a> создание частных каналов в зависимости от того, хотите ли вы разрешить пользователям создавать частные каналы.</span><span class="sxs-lookup"><span data-stu-id="93acf-116">Turn on or turn off **Create private channels**, <a name="createchannels"> </a> depending on whether you want to allow users to create private channels.</span></span>
 
-5. <span data-ttu-id="edd32-117">Щелкните **Сохранить**.</span><span class="sxs-lookup"><span data-stu-id="edd32-117">Click **Save**.</span></span>
+5. <span data-ttu-id="93acf-117">Щелкните **Сохранить**.</span><span class="sxs-lookup"><span data-stu-id="93acf-117">Click **Save**.</span></span>
 
-## <a name="edit-a-teams-policy"></a><span data-ttu-id="edd32-118">Изменение политики teams</span><span class="sxs-lookup"><span data-stu-id="edd32-118">Edit a teams policy</span></span>
+## <a name="edit-a-teams-policy"></a><span data-ttu-id="93acf-118">Изменение политики teams</span><span class="sxs-lookup"><span data-stu-id="93acf-118">Edit a teams policy</span></span>
 
-<span data-ttu-id="edd32-119">Вы можете изменить глобальную политику или любые настраиваемые политики, которые вы создаете.</span><span class="sxs-lookup"><span data-stu-id="edd32-119">You can edit the global policy or any custom policies that you create.</span></span>
+<span data-ttu-id="93acf-119">Вы можете изменить глобальную политику или любые настраиваемые политики, которые вы создаете.</span><span class="sxs-lookup"><span data-stu-id="93acf-119">You can edit the global policy or any custom policies that you create.</span></span>
 
-1. <span data-ttu-id="edd32-120">В левой области навигации Центра администрирования Microsoft Teams перейдите к политикам **Teams.**  >  </span><span class="sxs-lookup"><span data-stu-id="edd32-120">In the left navigation of the Microsoft Teams admin center, go to **Teams** > **Teams policies**.</span></span>
-2. <span data-ttu-id="edd32-121">Выберите политику, щелкнув слева от ее имени и нажав кнопку **"Изменить".**</span><span class="sxs-lookup"><span data-stu-id="edd32-121">Select the policy by clicking to the left of the policy name, and then click **Edit**.</span></span>
-3. <span data-ttu-id="edd32-122">Включите или отключите нужные параметры, а затем нажмите кнопку **"Сохранить".**</span><span class="sxs-lookup"><span data-stu-id="edd32-122">Turn on or turn off the settings that you want, and then click **Save**.</span></span>
+1. <span data-ttu-id="93acf-120">В левой области навигации Центра администрирования Microsoft Teams перейдите к политикам **Teams.**  >  </span><span class="sxs-lookup"><span data-stu-id="93acf-120">In the left navigation of the Microsoft Teams admin center, go to **Teams** > **Teams policies**.</span></span>
+2. <span data-ttu-id="93acf-121">Выберите политику, щелкнув слева от ее имени и нажав кнопку **"Изменить".**</span><span class="sxs-lookup"><span data-stu-id="93acf-121">Select the policy by clicking to the left of the policy name, and then click **Edit**.</span></span>
+3. <span data-ttu-id="93acf-122">Включите или отключите нужные параметры, а затем нажмите кнопку **"Сохранить".**</span><span class="sxs-lookup"><span data-stu-id="93acf-122">Turn on or turn off the settings that you want, and then click **Save**.</span></span>
 
-## <a name="assign-a-custom-teams-policy-to-users"></a><span data-ttu-id="edd32-123">Назначение настраиваемой политики команд пользователям</span><span class="sxs-lookup"><span data-stu-id="edd32-123">Assign a custom teams policy to users</span></span>
+## <a name="assign-a-custom-teams-policy-to-users"></a><span data-ttu-id="93acf-123">Назначение настраиваемой политики команд пользователям</span><span class="sxs-lookup"><span data-stu-id="93acf-123">Assign a custom teams policy to users</span></span>
 
 [!INCLUDE [assign-policy](includes/assign-policy.md)]
 
-## <a name="related-topics"></a><span data-ttu-id="edd32-124">Статьи по теме</span><span class="sxs-lookup"><span data-stu-id="edd32-124">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="93acf-124">Статьи по теме</span><span class="sxs-lookup"><span data-stu-id="93acf-124">Related topics</span></span>
 
-[<span data-ttu-id="edd32-125">Закрытые каналы в Teams</span><span class="sxs-lookup"><span data-stu-id="edd32-125">Private channels in Teams</span></span>](private-channels.md)
+[<span data-ttu-id="93acf-125">Закрытые каналы в Teams</span><span class="sxs-lookup"><span data-stu-id="93acf-125">Private channels in Teams</span></span>](private-channels.md)
 
-[<span data-ttu-id="edd32-126">Назначение политик пользователям в Teams</span><span class="sxs-lookup"><span data-stu-id="edd32-126">Assign policies to your users in Teams</span></span>](assign-policies.md)
+[<span data-ttu-id="93acf-126">Назначение политик пользователям в Teams</span><span class="sxs-lookup"><span data-stu-id="93acf-126">Assign policies to your users in Teams</span></span>](assign-policies.md)
 
-[<span data-ttu-id="edd32-127">New-CsTeamsChannelsPolicy</span><span class="sxs-lookup"><span data-stu-id="edd32-127">New-CsTeamsChannelsPolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/new-csteamschannelspolicy?view=skype-ps)
+[<span data-ttu-id="93acf-127">New-CsTeamsChannelsPolicy</span><span class="sxs-lookup"><span data-stu-id="93acf-127">New-CsTeamsChannelsPolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/new-csteamschannelspolicy?view=skype-ps)

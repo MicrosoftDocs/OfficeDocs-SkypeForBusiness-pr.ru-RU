@@ -1,8 +1,8 @@
 ---
-title: Серверное приложение Topology
+title: Серверная топология
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,30 +14,30 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8c95b160-3d88-46c7-987c-38384bac3e51
-description: На странице Topology (серверное приложение) в развертывании отображаются серверные приложения.
-ms.openlocfilehash: 1a7cd0bb67d88a3ba352c6b887be3a7532757cdf
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'На странице Топология: Серверное приложение отображаются серверные приложения в вашем развертывании.'
+ms.openlocfilehash: 6090873d583123627f99cbf3bb25921969894cd3
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41822021"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49819009"
 ---
-# <a name="topology-server-application"></a><span data-ttu-id="b3a87-103">Топология: серверное приложение</span><span class="sxs-lookup"><span data-stu-id="b3a87-103">Topology: Server Application</span></span>
+# <a name="topology-server-application"></a><span data-ttu-id="15f4c-103">Топология: серверное приложение</span><span class="sxs-lookup"><span data-stu-id="15f4c-103">Topology: Server Application</span></span>
 
-<span data-ttu-id="b3a87-104">На странице **Topology**( **серверное приложение** ) в развертывании отображаются серверные приложения.</span><span class="sxs-lookup"><span data-stu-id="b3a87-104">The **Topology**: **Server Application** page displays the server applications in your deployment.</span></span>
+<span data-ttu-id="15f4c-104">На странице **Топология**: **Серверное приложение** отображаются серверные приложения в вашем развертывании.</span><span class="sxs-lookup"><span data-stu-id="15f4c-104">The **Topology**: **Server Application** page displays the server applications in your deployment.</span></span>
 
-## <a name="tasks-you-can-perform"></a><span data-ttu-id="b3a87-105">Задачи, которые вы можете выполнить</span><span class="sxs-lookup"><span data-stu-id="b3a87-105">Tasks you can perform</span></span>
+## <a name="tasks-you-can-perform"></a><span data-ttu-id="15f4c-105">Задачи, которые вы можете выполнить</span><span class="sxs-lookup"><span data-stu-id="15f4c-105">Tasks you can perform</span></span>
 
-<span data-ttu-id="b3a87-106">На странице " **топология**" можно выполнять следующие задачи. Страница **серверного приложения** :</span><span class="sxs-lookup"><span data-stu-id="b3a87-106">You can perform the following tasks on the **Topology**: **Server Application** page:</span></span>
+<span data-ttu-id="15f4c-106">На странице **Топология**: **Серверное приложение** можно выполнить следующие задачи:</span><span class="sxs-lookup"><span data-stu-id="15f4c-106">You can perform the following tasks on the **Topology**: **Server Application** page:</span></span>
 
-- <span data-ttu-id="b3a87-107">Просмотр серверных приложений в развертывании</span><span class="sxs-lookup"><span data-stu-id="b3a87-107">View the server applications in your deployment</span></span>
+- <span data-ttu-id="15f4c-107">Просмотр серверных приложений в развертывании</span><span class="sxs-lookup"><span data-stu-id="15f4c-107">View the server applications in your deployment</span></span>
 
-- <span data-ttu-id="b3a87-108">Включение и отключение серверного приложения</span><span class="sxs-lookup"><span data-stu-id="b3a87-108">Enable or disable a server application</span></span>
+- <span data-ttu-id="15f4c-108">включить или отключить серверное приложение;</span><span class="sxs-lookup"><span data-stu-id="15f4c-108">Enable or disable a server application</span></span>
 
-- <span data-ttu-id="b3a87-109">Выбор и отменить выбор приложения в качестве критического</span><span class="sxs-lookup"><span data-stu-id="b3a87-109">Select or unselect an application as critical</span></span>
+- <span data-ttu-id="15f4c-109">выбрать приложение в качестве критического или отменить такой выбор.</span><span class="sxs-lookup"><span data-stu-id="15f4c-109">Select or unselect an application as critical</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="b3a87-110">См. также</span><span class="sxs-lookup"><span data-stu-id="b3a87-110">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="15f4c-110">См. также</span><span class="sxs-lookup"><span data-stu-id="15f4c-110">See also</span></span>
 
-[<span data-ttu-id="b3a87-111">Включение и отключение серверного приложения на языке обработки Microsoft SIP (МСПЛ)</span><span class="sxs-lookup"><span data-stu-id="b3a87-111">Enable or Disable a Microsoft SIP Processing Language (MSPL) Server Application</span></span>](https://technet.microsoft.com/library/b20af38d-224a-4459-991d-0b7eabb3ca7c.aspx)
+[<span data-ttu-id="15f4c-111">Включение и отключение серверного приложения MSPL</span><span class="sxs-lookup"><span data-stu-id="15f4c-111">Enable or Disable a Microsoft SIP Processing Language (MSPL) Server Application</span></span>](https://technet.microsoft.com/library/b20af38d-224a-4459-991d-0b7eabb3ca7c.aspx)
 
-[<span data-ttu-id="b3a87-112">Пометка приложения языка обработки Microsoft SIP (МСПЛ) как критической или некритической</span><span class="sxs-lookup"><span data-stu-id="b3a87-112">Mark a Microsoft SIP Processing Language (MSPL) Application as Critical or Not Critical</span></span>](https://technet.microsoft.com/library/df68fdc6-b7e6-4f07-acdc-0cd4c2c888a1.aspx)
+[<span data-ttu-id="15f4c-112">Отметка приложения MSPL как очень важного или или не очень важного</span><span class="sxs-lookup"><span data-stu-id="15f4c-112">Mark a Microsoft SIP Processing Language (MSPL) Application as Critical or Not Critical</span></span>](https://technet.microsoft.com/library/df68fdc6-b7e6-4f07-acdc-0cd4c2c888a1.aspx)

@@ -1,8 +1,8 @@
 ---
-title: тестировать
+title: test
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 ms.date: 1/1/2010
 manager: serdars
 audience: ITPro
@@ -12,16 +12,16 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: ''
-description: Вставить введение здесь.
-ms.openlocfilehash: f98e0c40a9c0d3f9a2f087bd1dc3a214a8895bfb
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Вставьте здесь введение.
+ms.openlocfilehash: afc20fda33d92ac58ae77154d6890d7354dfbed6
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41819021"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49817799"
 ---
-# <a name="testing-sfb-csh"></a><span data-ttu-id="d9642-103">Тестирование SfB КШ</span><span class="sxs-lookup"><span data-stu-id="d9642-103">Testing SfB CSH</span></span>
+# <a name="testing-sfb-csh"></a><span data-ttu-id="6dd82-103">Тестирование SfB CSH</span><span class="sxs-lookup"><span data-stu-id="6dd82-103">Testing SfB CSH</span></span>
 
-<span data-ttu-id="d9642-104">Это может быть КШ тема, которая скрыта от поиска.</span><span class="sxs-lookup"><span data-stu-id="d9642-104">This would be a CSH topic that's hidden from search.</span></span>
+<span data-ttu-id="6dd82-104">Это будет раздел CSH, скрытый от поиска.</span><span class="sxs-lookup"><span data-stu-id="6dd82-104">This would be a CSH topic that's hidden from search.</span></span>
 
 
