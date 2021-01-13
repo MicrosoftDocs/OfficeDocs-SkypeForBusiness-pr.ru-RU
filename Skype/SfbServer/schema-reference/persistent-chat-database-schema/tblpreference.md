@@ -1,8 +1,8 @@
 ---
 title: tblPreference
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,32 +12,32 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: f94eb128-f782-42ff-a568-ed3529573bc8
-description: Тблпреференце включает клиентские настройки пользователей. Обычно используется клиентами, предшествующими Lync 2013.
-ms.openlocfilehash: 426a9f6aebe6cc6e510e2a75093b9210d3a0ba46
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: tblPreference содержит настройки клиента пользователей. Обычно это используется клиентами, предшествующими Lync 2013.
+ms.openlocfilehash: 96cd017dd67a05f3240269f5bdcbd23f30fffd28
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814557"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49815909"
 ---
 # <a name="tblpreference"></a>tblPreference
 
-Тблпреференце включает клиентские настройки пользователей. Обычно используется клиентами, предшествующими Lync 2013.
+tblPreference содержит настройки клиента пользователей. Обычно это используется клиентами, предшествующими Lync 2013.
 
-**Столбцов**
+**Columns**
 
 
 | **Столбец**            | **Тип**                        | **Описание**                                                 |
 |:----------------------|:--------------------------------|:----------------------------------------------------------------|
-| префлабел  <br/>      | nvarchar (255), NOT NULL  <br/> | Метка с таким же форматом, \<как URL-адрес пользователя SIP\>                   |
-| префсекид  <br/>      | int, NOT NULL  <br/>            | Последовательный номер (на метку) для целей управления версиями.  <br/> |
-| префконтент  <br/>    | nvarchar (max)  <br/>           | Закодированное содержимое.  <br/>                                         |
-| ластмодифиедби  <br/> | int, NOT NULL  <br/>            | Идентификатор участника, который обновил предпочтение.  <br/>         |
+| prefLabel  <br/>      | nvarchar (255), не равно null  <br/> | Метка в таком формате, как: \<user sip uri\>                   |
+| prefSeqID  <br/>      | int, не равно null  <br/>            | Порядковый номер (каждой отдельной метки) для управления версиями.  <br/> |
+| prefContent  <br/>    | nvarchar (max)  <br/>           | Зашифрованное содержимое.  <br/>                                         |
+| lastModifiedBy  <br/> | int, не равно null  <br/>            | Идентификатор субъекта, обновившего параметр.  <br/>         |
 
-**Ключ**
+**Раздел**
 
 |**Столбец**|**Описание**|
 |:-----|:-----|
-|\<Префлабел, Префсекид\>  <br/> |Первичный ключ.  <br/> |
+|\<prefLabel, prefSeqID\>  <br/> |Первичный ключ.  <br/> |
 
 

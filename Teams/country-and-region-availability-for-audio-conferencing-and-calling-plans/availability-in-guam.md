@@ -1,7 +1,7 @@
 ---
 title: Доступность в Гуаме
-author: LanaChin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Вот службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Гуама.
-ms.openlocfilehash: c8b7812387b0efc9b29794eda133e4105048565d
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+ms.openlocfilehash: 611b67e3e69848204da2696cee36daf4f7726389
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44230787"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49814689"
 ---
 # <a name="availability-in-guam"></a>Доступность в Гуаме
 

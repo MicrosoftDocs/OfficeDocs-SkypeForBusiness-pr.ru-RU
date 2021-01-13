@@ -1,7 +1,7 @@
 ---
 title: Срок действия и продление подписки команды в Microsoft Teams
-author: LanaChin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -11,17 +11,17 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-description: Узнайте о сроках действия и продлении команды, а также о том, как использовать политику срока действия групп Microsoft 365 для автоматической очистки неиспользимных команд в Microsoft Teams.
+description: Узнайте об истечении и продлении команды, а также о том, как использовать политику срока действия групп Microsoft 365 для автоматического очистки неиспользимных команд в Microsoft Teams.
 f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 16da525051e09f4ed1a7acaf3e9906f59b8b30af
-ms.sourcegitcommit: b23d3d583910aa21a62ea69b554ab614c1ae8079
+ms.openlocfilehash: b111ddd6b874fef22a7d221f6eb932c4c14c7b70
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46648590"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49809409"
 ---
 # <a name="team-expiration-and-renewal-in-microsoft-teams"></a>Срок действия и продление подписки команды в Microsoft Teams
 
@@ -33,9 +33,9 @@ ms.locfileid: "46648590"
 
 ![Снимок экрана: кнопка "Продлить сейчас", которая обновляет команду в параметрах команды](media/team-expiration.png "Снимок экрана: кнопка "Продлить сейчас", которая обновляет команду в параметрах команды")
 
-Если владелец команды не продлевает ее и никаких дополнительных действий с ней не будет вплоть до окончания срока действия политики, то команда будет переналожена в состояние "Неявное удаление", т. е. его можно будет восстановить в течение 30 дней.
+Если владелец команды не продлевает ее и никаких дополнительных действий с ней не будет вплоть до окончания срока действия политики, команда перенается в состояние "Soft-deleted", т. е. его можно восстановить в течение 30 дней.
 
-## <a name="team-auto-renewal"></a>Автоматическое продление подписки команды
+## <a name="team-auto-renewal"></a>Автоматическое возобновление работы команды
 
 Иногда владелец команды не может продлить ее, например из-за того, что забыл продлить подписку или не смог ее продлить. В таких случаях активное использование группы может быть удалено из-за политик срока действия, которые применяются к группе.  
 

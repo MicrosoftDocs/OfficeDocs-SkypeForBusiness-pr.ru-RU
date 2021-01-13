@@ -2,8 +2,8 @@
 title: "\"Смены\" для Teams"
 description: Получите руководство администратора, необходимое для создания и управления сменами, средством управления расписанием в Teams.
 ms.topic: conceptual
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 audience: admin
 manager: serdars
 f1.keywords:
@@ -21,12 +21,12 @@ searchScope:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: eea5b36e9941872b5a0dbc4ce34d03b39b850dd3
-ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
+ms.openlocfilehash: 71238c4ec0ae2e413732bd289bbb868bedd573b7
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48878733"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49815739"
 ---
 # <a name="shifts-for-teams"></a>"Смены" для Teams
 
@@ -36,7 +36,7 @@ Teams предоставляет сотрудникам без компьюте�
 
 |               |               |               |               |
 | ------------- | ------------- | ------------- | ------------- |
-|![task-checklist-planning-teams](../media/task-checklist-planning-teams-small.svg) | **[Управление сменами в организации](/microsoftteams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams)** |![оформление](../media/Help-small.svg)  | **[Справка по сменам для сотрудников без телефонов](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b#PickTab=Specific_apps)** |
+|![task-checklist-planning-teams](../media/task-checklist-planning-teams-small.svg) | **[Управление сменами в организации](/microsoftteams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams)** |![дизайн](../media/Help-small.svg)  | **[Справка по сменам для сотрудников без телефонов](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b#PickTab=Specific_apps)** |
 
 ### <a name="shifts-extensions"></a>Расширения смен
 

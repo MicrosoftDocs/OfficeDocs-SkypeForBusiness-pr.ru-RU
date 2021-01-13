@@ -1,7 +1,7 @@
 ---
 title: Просмотр аналитики в Teams
-author: LanaChin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -16,12 +16,12 @@ MS.collection:
 description: Узнайте о аналитике для разных команд, аналитике по группам и аналитике по каналам в Teams, которая позволяет пользователям видеть данные об использовании команд или каналов, в которых они находятся.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9261678848589028155d58449bf84d083ff756c2
-ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
+ms.openlocfilehash: 00ac44638a3f1b79ba98d1b2ebc6cf3645ef44bd
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43940983"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49809179"
 ---
 # <a name="view-analytics-in-teams"></a>Просмотр аналитики в Teams
 
@@ -48,7 +48,7 @@ ms.locfileid: "43940983"
     |**Люди**   |Общее количество участников группы за указанный период времени. Это касается владельцев, членов команды и гостей.|
     |**Гости**   |Количество гостей в команде в течение указанного периода. |
     |**Записи**   |Количество новых сообщений, опубликованных в чате группы в указанный период времени. |
-    |**Ответы**   |Количество ответов в чате группы в течение заданного периода времени. |
+    |**Ответы**   |Количество ответов в чате группы в указанный период времени. |
     |**Тип**   |Является ли команда закрытой или открытой.|
 
 ## <a name="view-per-team-analytics"></a>Просмотр аналитики по группе

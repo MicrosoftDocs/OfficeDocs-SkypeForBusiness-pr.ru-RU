@@ -1,8 +1,8 @@
 ---
 title: Таблица EndpointSubnet
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -12,21 +12,21 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: d62e51d6-2117-4c41-adce-08f8d9d75ce0
-description: Таблица Ендпоинтсубнет является вспомогательной таблицей. Каждая запись соответствует одной подсети, захваченной из конечных точек.
-ms.openlocfilehash: dcb80256a8a1fb1fb880021e140a0f037142087f
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Таблица EndpointSubnet — вспомогательная. Каждая запись представляет одну подсеть, записанную с конечных точек.
+ms.openlocfilehash: 9671c7dc269b7f13f0679c6da12b46ea7d7c8b5f
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41809347"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49815829"
 ---
 # <a name="endpointsubnet-table"></a>Таблица EndpointSubnet
  
-Таблица Ендпоинтсубнет является вспомогательной таблицей. Каждая запись соответствует одной подсети, захваченной из конечных точек. 
+Таблица EndpointSubnet — вспомогательная. Каждая запись представляет одну подсеть, записанную с конечных точек. 
   
-|**Столбец**|**Тип данных**|**Ключ/индекс**|**Сведения**|
+|**Столбец**|**Тип данных**|**Ключ/индекс**|**Details**|
 |:-----|:-----|:-----|:-----|
-|**субнетип** <br/> |целое  <br/> |Основной, внешний  <br/> |Целочисленное представление для подсети.  <br/> |
-|**некступдатетс** <br/> |datetime  <br/> ||Только для внутреннего использования.  <br/> |
+|**SubnetIP** <br/> |int  <br/> |Основной, внешний  <br/> |Целое число, представляющее подсеть.  <br/> |
+|**NextUpdateTS** <br/> |datetime  <br/> ||Только для внутреннего использования.  <br/> |
    
 

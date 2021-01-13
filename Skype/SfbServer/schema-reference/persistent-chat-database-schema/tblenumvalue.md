@@ -1,8 +1,8 @@
 ---
 title: tblEnumValue
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,42 +12,42 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: a33df20c-d19d-4f5c-b012-29dab8fb9200
-description: Тбленумвалуе — это жесткая таблица, содержащая значения видимости и поведения атрибутов, используемых в таблице node.
-ms.openlocfilehash: accb9cb4801984bd4b3839cd44e5b7feb8d06baa
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: tblEnumValue — это встроенная таблица, которая содержит значения отображения и поведения атрибутов, используемых в таблице Node.
+ms.openlocfilehash: a13bfbe79d1eb118f0727f390816a26d35a508d0
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814607"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49816029"
 ---
 # <a name="tblenumvalue"></a>tblEnumValue
  
-Тбленумвалуе — это жесткая таблица, содержащая значения видимости и поведения атрибутов, используемых в таблице node.
+tblEnumValue — это встроенная таблица, которая содержит значения отображения и поведения атрибутов, используемых в таблице Node.
   
-**Столбцов**
+**Columns**
 
 |**Столбец**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|валуеид  <br/> |smallint, NOT NULL  <br/> |Идентификатор значения.  <br/> |
-|attributeID  <br/> |smallint, NOT NULL  <br/> |Идентификатор атрибута.  <br/> |
-|attributeValue  <br/> |nvarchar (256), NOT NULL  <br/> |Имя значения.  <br/> |
+|valueID  <br/> |smallint, not null  <br/> |ИД значения.  <br/> |
+|attributeID  <br/> |smallint, не может быть null  <br/> |ИД атрибута.  <br/> |
+|attributeValue  <br/> |nvarchar (256), not null  <br/> |Имя значения.  <br/> |
    
-**Параметры**
+**Keys**
 
 |**Столбец**|**Описание**|
 |:-----|:-----|
-|валуеид  <br/> |Первичный ключ.  <br/> |
-|attributeID  <br/> |Внешний ключ с подстановкой в таблице Тбленуматтрибуте. attributeID.  <br/> |
+|valueID  <br/> |Первичный ключ.  <br/> |
+|attributeID  <br/> |Внешний ключ с поиском в таблице tblEnumAttribute.attributeID.  <br/> |
    
 **Значения таблицы**
 
-|**валуеид**|**attributeID**|**attributeValue**|
+|**valueID**|**attributeID**|**attributeValue**|
 |:-----|:-----|:-----|
-|2  <br/> |1  <br/> |закрытые  <br/> |
-|3  <br/> |1  <br/> |област  <br/> |
-|4  <br/> |2  <br/> |нормальный  <br/> |
-|5  <br/> |2  <br/> |аудиториум  <br/> |
-|6  <br/> |1  <br/> |запуска  <br/> |
+|2   <br/> |1   <br/> |private  <br/> |
+|3   <br/> |1   <br/> |scope  <br/> |
+|4   <br/> |2   <br/> |normal  <br/> |
+|5   <br/> |2   <br/> |аудитория  <br/> |
+|6   <br/> |1   <br/> |open  <br/> |
    
 ## <a name="see-also"></a>См. также
 

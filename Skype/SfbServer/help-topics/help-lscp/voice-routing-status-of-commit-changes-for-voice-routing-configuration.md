@@ -1,8 +1,8 @@
 ---
-title: Состояние отправки голосовой почты изменений для настройки голосовой маршрутизации
+title: Voice Routing Status of Commit Changes for Voice Routing Configuration
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,18 +14,18 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2e5086fb-3c3b-432a-9eab-a9b12cb79d76
-description: Если изменения не были выполнены, просмотрите сообщения в этом диалоговом окне, измените конфигурацию голосовой маршрутизации и повторите попытку.
-ms.openlocfilehash: feaf1851830541265428403bf14cabdc4d982075
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Если изменения не были завершены, просмотрите сообщения в данном диалоговом окне, измените конфигурацию маршрутизации голосовых данных и повторите попытку.
+ms.openlocfilehash: e38fc9bf131bc66e46efbad5692d828da1e6cefb
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41821631"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49815319"
 ---
 # <a name="voice-routing-status-of-commit-changes-for-voice-routing-configuration"></a>Маршрутизация голосовых данных: состояние фиксации изменений для конфигурации маршрутизации голосовых данных
  
-Если изменения не были выполнены, просмотрите сообщения в этом диалоговом окне, измените конфигурацию голосовой маршрутизации и повторите попытку.
+Если изменения не были завершены, просмотрите сообщения в данном диалоговом окне, измените конфигурацию маршрутизации голосовых данных и повторите попытку.
   
-Сведения о различных процедурах, которые можно выполнить с помощью панели управления "Skype для бизнеса Server", приведены в статье [Управление Skype для бизнеса server 2015](../../manage/manage.md).
+Подробные сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнеса Server, см. в под управлением Skype для бизнеса [Server 2015.](../../manage/manage.md)
   
 

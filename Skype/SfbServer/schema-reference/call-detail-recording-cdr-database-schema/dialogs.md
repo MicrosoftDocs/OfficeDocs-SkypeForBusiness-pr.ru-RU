@@ -1,8 +1,8 @@
 ---
-title: Таблица диалогов в Skype для бизнеса Server 2015
+title: Таблица Dialogs в Skype для бизнеса Server 2015
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,23 +12,23 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 487a430b-af66-4ea6-b28e-4e33cfdb7f9e
-description: Таблица диалогов — это вспомогательная таблица, в которой хранятся сведения о Диалогидс для одноранговых сеансов.
-ms.openlocfilehash: f6cfc3e078ee8f4492d6f5baf65f66df77d7aedf
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Таблица Dialogs — это вспомогательная таблица, в которую хранится информация о DialogID для одноранговых сеансов.
+ms.openlocfilehash: a4f0bb8c63e165985ef09af8f9aafa071529bf1f
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815277"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49816049"
 ---
-# <a name="dialogs-table-in-skype-for-business-server-2015"></a>Таблица диалогов в Skype для бизнеса Server 2015
+# <a name="dialogs-table-in-skype-for-business-server-2015"></a>Таблица Dialogs в Skype для бизнеса Server 2015
  
-Таблица диалогов — это вспомогательная таблица, в которой хранятся сведения о Диалогидс для одноранговых сеансов.
+Таблица Dialogs — это вспомогательная таблица, в которую хранится информация о DialogID для одноранговых сеансов.
   
-|**Столбец**|**Тип данных**|**Ключ/индекс**|**Сведения**|
+|**Столбец**|**Тип данных**|**Ключ/индекс**|**Details**|
 |:-----|:-----|:-----|:-----|
-|**сессионидтиме** <br/> |datetime  <br/> |Primary  <br/> |Время запроса сеанса; используется в сочетании с Сессионидсек для уникальной идентификации сеанса.  <br/> |
-|**сессионидсек** <br/> |целое  <br/> |Primary  <br/> |ИДЕНТИФИКАЦИОНный номер для идентификации сеанса. Используется в сочетании с Сессионидтиме для уникальной идентификации сеанса.  <br/> |
-|**екстерналчекксум** <br/> |целое  <br/> | <br/> |Контрольная сумма Екстерналид. Это поле используется для увеличения скорости поиска в базе данных.  <br/> |
-|**екстерналид** <br/> |varbinary (775)  <br/> | <br/> |ИДЕНТИФИКАТОР диалогового окна SIP, сохраненный в виде двоичного файла. Двоичный формат:  <br/> диалоговое окно; тег "from-Tag"  <br/> Эти данные можно преобразовать в текстовый формат, используя следующий синтаксис:  <br/>  `cast(cast(ExternalId as varbinary(max)) as varchar(max))` <br/> |
+|**SessionIdTime** <br/> |datetime  <br/> |Primary  <br/> |Время запроса сеанса; используется в сочетании с SessionIDSeq для уникальной идентификации сеанса.  <br/> |
+|**SessionIdSeq** <br/> |int  <br/> |Primary  <br/> |Идентификатор сеанса. Используется в сочетании с SessionIDTime для уникальной идентификации сеанса.  <br/> |
+|**ExternalChecksum** <br/> |int  <br/> | <br/> |Контрольная контрольнаямбла ExternalID. Это поле используется для повышения скорости поиска в базе данных.  <br/> |
+|**ExternalId** <br/> |varbinary(775)  <br/> | <br/> |Код диалога SIP, хранимый в двоичном файле. Двоичный формат:  <br/> dialog;from-tag;to-tag  <br/> Эти данные можно преобразовать в текстовый формат, используя следующий синтаксис:  <br/>  `cast(cast(ExternalId as varbinary(max)) as varchar(max))` <br/> |
    
 

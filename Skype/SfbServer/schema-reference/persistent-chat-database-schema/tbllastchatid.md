@@ -1,8 +1,8 @@
 ---
 title: tblLastChatId
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,31 +12,31 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 17a4ffbe-cca9-4ec5-ae46-38a15274889a
-description: Тблластчатид включает последний идентификатор чата, который был создан (и использован в таблице Тблчат) для каждого пользователя.
-ms.openlocfilehash: 95498f077948e1b400d0a370762c121def703e8c
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Таблица tblLastChatId содержит последние идентификаторы чатов, которые были созданы (и использованы в таблице tblChat) для каждого пользователя.
+ms.openlocfilehash: 80664d6b296fce9b4909674f9d21b1aa13285826
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814587"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49816009"
 ---
 # <a name="tbllastchatid"></a>tblLastChatId
  
-Тблластчатид включает последний идентификатор чата, который был создан (и использован в таблице Тблчат) для каждого пользователя.
+Таблица tblLastChatId содержит последние идентификаторы чатов, которые были созданы (и использованы в таблице tblChat) для каждого пользователя.
   
-**Столбцов**
+**Columns**
 
 |**Столбец**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|нодеид  <br/> |int, NOT NULL  <br/> |Идентификатор узла (комната чата — только тип).  <br/> |
-|ластчатид  <br/> |bigint, NOT NULL  <br/> |НОМЕР последнего использованного чата.  <br/> |
+|nodeID  <br/> |int, not null  <br/> |Идентификатор узла (только типа комнаты чата).  <br/> |
+|lastChatID  <br/> |bigint, not null  <br/> |Идентификатор последнего чата.  <br/> |
    
-**Параметры**
+**Keys**
 
 |**Столбец**|**Описание**|
 |:-----|:-----|
-|\<Нодеид, Ластчатид\>  <br/> |Первичный ключ (для обработки достаточно просто Нодеид).  <br/> |
-|нодеид  <br/> |Внешний ключ с подстановкой в таблице Тблноде. Нодеид.  <br/> |
+|\<nodeID, lastChatID\>  <br/> |Первичный ключ (для обработки достаточно nodeID).  <br/> |
+|nodeID  <br/> |Внешний ключ с поиском в таблице tblNode.nodeID.  <br/> |
    
 ## <a name="see-also"></a>См. также
 

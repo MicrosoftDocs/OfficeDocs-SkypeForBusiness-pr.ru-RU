@@ -1,8 +1,8 @@
 ---
 title: Просмотр шлюзов (импорт конфигурации)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,18 +14,18 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0cdb0a42-c682-42f7-907e-667f934cb7e0
-description: В развернутом шлюзе выберите шлюз, на который вы хотите импортировать выбранный файл конфигурации голосовой почты.
-ms.openlocfilehash: 1ee381a30970c2e690f3d027ad046520756e90bc
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: В окне Развернутый шлюз щелкните шлюз, в который требуется импортировать выбранный файл конфигурации голосовой связи.
+ms.openlocfilehash: 5b265bb4158d71ff2ff41320ee285019386173e9
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41821691"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49814529"
 ---
 # <a name="view-gateways-import-configuration"></a>Просмотр шлюзов (импорт конфигурации)
  
-В **развернутом шлюзе**выберите шлюз, на который вы хотите импортировать выбранный файл конфигурации голосовой почты.
+В окне **Развернутый шлюз** щелкните шлюз, в который требуется импортировать выбранный файл конфигурации голосовой связи.
   
-Сведения о различных процедурах, которые можно выполнить с помощью панели управления "Skype для бизнеса Server", приведены в статье [Управление Skype для бизнеса server 2015](../../manage/manage.md).
+Подробные сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнеса Server, см. в под управлением Skype для бизнеса [Server 2015.](../../manage/manage.md)
   
 

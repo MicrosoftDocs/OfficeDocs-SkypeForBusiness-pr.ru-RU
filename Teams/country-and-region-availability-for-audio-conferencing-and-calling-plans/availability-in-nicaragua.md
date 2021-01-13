@@ -1,7 +1,7 @@
 ---
 title: Доступность в Никарагуа
-author: LanaChin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
 ms.topic: reference
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Ниже 2010 г. доступны службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Никарагуа.
-ms.openlocfilehash: b365fcc906ee685caffdcbd742347c168c8d474f
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+ms.openlocfilehash: 64b4070d446bfdfa64593aa0222a62071918601f
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44230367"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49814609"
 ---
 # <a name="availability-in-nicaragua"></a>Доступность в Никарагуа
 
@@ -72,7 +72,7 @@ ms.locfileid: "44230367"
 |Доступны ли платные номера?  <br/> |Да[(по запросу)](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) <br/> |
 |Доступны ли бесплатные номера?  <br/> |Нет  <br/> |
    
- Если вы хотите получить платные и бесплатные номера телефонов для аудиоконференций, автоотетарей и очередей звонков, см. получение номеров телефонов служб для Skype для бизнеса и [Microsoft Teams.](/microsoftteams/getting-service-phone-numbers)
+ Если вы хотите получить платные и бесплатные номера телефонов для аудиоконференции, автоотетаря и очередей звонков, см. в этом видео. [](/microsoftteams/getting-service-phone-numbers)
   
 ## <a name="communications-credits"></a>Кредиты на связь
 

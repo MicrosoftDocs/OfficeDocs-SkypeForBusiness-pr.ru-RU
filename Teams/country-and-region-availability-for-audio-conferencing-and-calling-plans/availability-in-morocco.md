@@ -1,7 +1,7 @@
 ---
 title: Доступность в Марокко
-author: LanaChin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Ниже 2010 г. доступны службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Марокко.
-ms.openlocfilehash: af7c23039571f072b9c5a030d02eabe76c990f02
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+ms.openlocfilehash: c35db0e95e53b441d07af6397d1ec0dd765f73e4
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44230377"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49814649"
 ---
 # <a name="availability-in-morocco"></a>Доступность в Марокко
 

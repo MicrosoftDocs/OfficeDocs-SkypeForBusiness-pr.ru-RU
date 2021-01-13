@@ -1,8 +1,8 @@
 ---
 title: tblPrincipalAffiliations
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,33 +12,33 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 45fd8484-5837-44d2-85bb-45c83546607c
-description: ТблпринЦипалаффилиатионс содержит основные сведения о членстве в расположениях, в том числе о группах безопасности доменных служб Active Directory, в контейнерах Active Directory в доменах.
-ms.openlocfilehash: 542bcc333d815b0577aec1fb11d4070540150d3c
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: tblPrincipalAffiliations содержит членство в расположениях, включая группы безопасности доменных служб Active Directory, в контейнерах Active Directory, в доменах.
+ms.openlocfilehash: 149bb1b4603fa0f0e1909298659b881000464275
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814477"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49815869"
 ---
 # <a name="tblprincipalaffiliations"></a>tblPrincipalAffiliations
  
-ТблпринЦипалаффилиатионс содержит основные сведения о членстве в расположениях, в том числе о группах безопасности доменных служб Active Directory, в контейнерах Active Directory в доменах.
+tblPrincipalAffiliations содержит членство в расположениях, включая группы безопасности доменных служб Active Directory, в контейнерах Active Directory, в доменах.
   
-**Столбцов**
+**Columns**
 
 |**Столбец**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|принЦипалид  <br/> |int, NOT NULL  <br/> |Идентификатор присоединенного участника.  <br/> |
-|аффилиатионид  <br/> |int, NOT NULL  <br/> |Идентификатор участника, представляющего назначение. Каждый принципал (за исключением системных типов пользователей) также имеет свое Самоназначение.  <br/> |
-|индекса  <br/> |int, NOT NULL  <br/> |Индекса. Значение для самостоятельных принадлежностей —-1, а для других — для других — в пределах от 1 в каждом \<ПринЦипалид, аффилиатионид\> сегмент.  <br/> |
-|упдатедби  <br/> |int, NOT NULL  <br/> |Основной участник, который обновил Последнее обновление. Обычно это 1, что означает синхронизацию Active Directory.  <br/> |
+|principalID  <br/> |int, NOT NULL  <br/> |Идентификатор присоединенного субъекта.  <br/> |
+|affiliationID  <br/> |int, NOT NULL  <br/> |Идентификатор субъекта, представляющего присоединение. Каждый субъект (за исключением типов пользователей системы) также присоединен сам к себе.  <br/> |
+|index  <br/> |int, NOT NULL  <br/> |Индекс. Значение для самостоятельного присоединения — -1, а для других присоединений оно последовательно увеличивается с 1 в каждом \<principalID, affiliationId\> сегменте.  <br/> |
+|updatedBy  <br/> |int, NOT NULL  <br/> |Субъект, выполнивший последнее обновление. Обычно это 1, что означает синхронизацию с Active Directory.  <br/> |
    
-**Параметры**
+**Keys**
 
-|**Столбцов**|**Описание**|
+|**Columns**|**Описание**|
 |:-----|:-----|
-|\<ПринЦипалид, index, Аффилиатионид\>  <br/> |Первичный ключ.  <br/> |
-|принЦипалид  <br/> |Внешний ключ с подстановкой в таблице ТблпринЦипал. Принид.  <br/> |
-|аффилиатионид  <br/> |Внешний ключ с подстановкой в таблице ТблпринЦипал. Принид.  <br/> |
+|\<principalID, index, affiliationID\>  <br/> |Первичный ключ.  <br/> |
+|principalID  <br/> |Внешний ключ с поиском в таблице tblPrincipal.prinID.  <br/> |
+|affiliationID  <br/> |Внешний ключ с поиском в таблице tblPrincipal.prinID.  <br/> |
    
 

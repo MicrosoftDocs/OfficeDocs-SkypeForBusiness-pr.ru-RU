@@ -1,7 +1,7 @@
 ---
 title: Доступность в Кувейте
-author: LanaChin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Ниже 2010 г. доступны службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Кувейта.
-ms.openlocfilehash: 53c1771ea78e70c8ae15cb34a56bc19c39999a9d
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+ms.openlocfilehash: a92bfe300f4920d0121fc66207b4ccf4e8bdfe33
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44231108"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49814669"
 ---
 # <a name="availability-in-kuwait"></a>Доступность в Кувейте
 
