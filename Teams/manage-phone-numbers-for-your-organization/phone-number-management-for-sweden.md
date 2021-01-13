@@ -1,7 +1,7 @@
 ---
 title: Управление номерами телефонов для Швеции
-author: LanaChin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: davlick,krkilaru
 ms.topic: reference
@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Эта таблица используется для поиска сведений о получении номеров телефонов в Швеции для Microsoft Teams и управлении им.
-ms.openlocfilehash: bcd94680a7f03818c2b127aeb898390f12b77323
-ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
+ms.openlocfilehash: 6dc156b475e1cd2d38d314552cdaf19873d0a40a
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48361689"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49822789"
 ---
 # <a name="phone-number-management-for-sweden"></a>Управление номерами телефонов для Швеции
 
@@ -38,7 +38,7 @@ ms.locfileid: "48361689"
 Перенаправь нам номера телефонов.  <br/> |Скачайте эту форму. <br/>[Досье (LOA) для Швеции (все номера) (v.5.0) (sv-se)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-sweden-(all-numbers)-(v.5.0)-(sv-se).pdf?raw=true)<br/><br/> Заполните ее и [отправьте его нам](mailto:ptneu@microsoft.com). <br/> |
 |Публикация и публикация номеров телефонов в национальном телефонном каталоге.  <br/> |[Отправьте нам](mailto:ptneu@microsoft.com) список номеров телефонов для публикации или отмены публикации.      <br/> |
 |Изменение номера пользователя на номер службы.  <br/> |[Отправьте нам](mailto:ptneu@microsoft.com) список номеров пользователей, которые необходимо преобразовать в номера служб. <br/> |
-|Обновление службы каталогов для номеров очереди вызовов или номеров автозавода|Чтобы добавить или изменить номера очереди вызовов или номера автоотетаря, обратитесь в службу [поддержки ННР.](contact-pstn-service-desk.md) |
+|Обновление службы каталогов для номеров очереди вызовов или номеров автозавода|Чтобы добавить или изменить номера очереди вызовов или номера автозавода, обратитесь в службу [поддержки ННР.](contact-pstn-service-desk.md) |
 
 
 ## <a name="related-topics"></a>См. также:

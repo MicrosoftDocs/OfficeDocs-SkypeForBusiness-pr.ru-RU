@@ -1,7 +1,7 @@
 ---
 title: 'Пример сценария PowerShell: создание групп безопасности для преподавателей и учащихся в вашем учебном за учебных заведениях'
-author: LanaChin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: article
 ms.reviewer: angch
@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 4b468ae05139571f395962b96f2963c7bb77b2e6
-ms.sourcegitcommit: dc3e8ae454c42981f037f4de2e48005428b6078e
+ms.openlocfilehash: 4eb7e482552b5013b6b220c4244ee4ecf114780c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "46534122"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49809469"
 ---
 # <a name="powershell-script-sample---create-security-groups-for-educators-and-students-in-your-school"></a>Пример сценария PowerShell: создание групп безопасности для преподавателей и учащихся в вашем учебном за учебных заведениях
 
@@ -33,7 +33,7 @@ ms.locfileid: "46534122"
 Этот сценарий делает следующее:
 
 - Определяет сотрудников и преподавателей, которым назначен SKU для преподавателей, создает группу безопасности, а затем добавляет в нее сотрудников и преподавателей.
-- Определяет учащихся, которым назначен SKU учащихся, создает группу безопасности, а затем добавляет их в нее.
+- Определяет учащихся, которым назначен SKU учащегося, создает группу безопасности, а затем добавляет их в нее.
 - Обновляет состав каждой группы безопасности, добавляя или удаляя сотрудников, преподавателей и учащихся в зависимости от того, есть ли у них лицензия.
 
 Вам потребуется регулярно запускать этот сценарий, чтобы группы безопасности не обновлялись.

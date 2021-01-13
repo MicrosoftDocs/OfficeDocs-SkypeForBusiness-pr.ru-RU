@@ -1,8 +1,8 @@
 ---
-title: Политика закрепления создание новых или изменение существующих
+title: Создание или изменение существующей политики ПИН-кодов
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,17 +14,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 344b9be6-dd37-46bc-bfa4-5c06f6666aa7
-description: Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
-ms.openlocfilehash: 4ce6330ea453e83890c77562a73d4bd2e6806b5a
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
+ms.openlocfilehash: 6762ece5913b074711deb7afc022796373843104
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41822502"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49819289"
 ---
 # <a name="pin-policy-create-new-or-edit-existing"></a>Политика ПИН-кодов: создание новой или редактирование существующей
 
-Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
+Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
 
 - [Создание новой политики ПИН-кодов в Skype для бизнеса Server 2015](../../manage/authentication/create-a-new-pin-policy.md)
 
@@ -32,11 +32,11 @@ ms.locfileid: "41822502"
 
 - [Удаление политики ПИН-кодов в Skype для бизнеса Server 2015](../../manage/authentication/delete-a-pin-policy.md)
 
-- [Create or Modify Dial-in Conferencing PIN Settings for a Site or Group of Users](https://technet.microsoft.com/library/c29bab5c-2b93-48e0-ae0b-29564daaff9a.aspx)
+- [Создание или изменение параметров ПИН-кода для конференц-связи с телефонным подключением для сайта или группы пользователей](https://technet.microsoft.com/library/c29bab5c-2b93-48e0-ae0b-29564daaff9a.aspx)
 
-- [Modify the Default Dial-in Conferencing PIN Settings](https://technet.microsoft.com/library/2d110e94-ad29-4755-b17f-d8c2da9b78a4.aspx)
+- [Изменение параметров ПИН-кодов по умолчанию для конференц-связи с телефонным подключением](https://technet.microsoft.com/library/2d110e94-ad29-4755-b17f-d8c2da9b78a4.aspx)
 
-- [Delete Dial-in Conferencing PIN Settings for a Site or Group of Users](https://technet.microsoft.com/library/15a9faee-d024-4c0e-b2a0-fe7e7dc00589.aspx)
+- [Удаление параметров ПИН-кода для параметров ПИН-кода для сайта или группы пользователей](https://technet.microsoft.com/library/15a9faee-d024-4c0e-b2a0-fe7e7dc00589.aspx)
 
-Сведения о различных процедурах, которые можно выполнить с помощью панели управления "Skype для бизнеса Server", приведены в статье [Управление Skype для бизнеса server 2015](../../manage/manage.md).
+Подробные сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнеса Server, см. в под управлением Skype для бизнеса [Server 2015.](../../manage/manage.md)
 

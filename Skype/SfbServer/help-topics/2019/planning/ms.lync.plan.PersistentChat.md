@@ -1,8 +1,8 @@
 ---
-title: Persistent Chat (Planning Tool)
+title: Сохраняемая беседа (средство планирования)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,16 +15,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ec111e2e-15dd-4b9b-ba9c-6125139319a1
 ROBOTS: NOINDEX, NOFOLLOW
-description: Сервер сохраняемого чата позволяет принимать участие в многокомпонентных беседах, которые сохраняются с течением времени.
-ms.openlocfilehash: 1f321edbe5936c9e10164ef3762ad279d01b531e
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Сервер сохраняемого чата позволяет пользователям участвовать в многостолбных тематических беседах, которые со временем сохраняются.
+ms.openlocfilehash: 505495010d1270a632771202f4d96c6a56b27349
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41797110"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49819699"
 ---
-# <a name="persistent-chat-planning-tool"></a>Persistent Chat (Planning Tool)
+# <a name="persistent-chat-planning-tool"></a>Сохраняемая беседа (средство планирования)
 
 > [!NOTE] 
-> Сохраняемый чат доступен в Skype для бизнеса Server 2015, но больше не поддерживается в Skype для бизнеса Server 2019. Такие же функции доступны в Teams. Дополнительные сведения можно найти [в разделе Skype для бизнеса и Microsoft Teams Upgrade](https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here). Если вы хотите использовать сохраняемый чат, вы можете либо перенести пользователей, которым нужны эти функции, в Teams, либо продолжить работу в Skype для бизнеса Server 2015.
+> Сохраняемая беседа доступна в Skype для бизнеса Server 2015, но больше не поддерживается в Skype для бизнеса Server 2019. Такие же функции доступны в Teams. Дополнительные сведения см. в [обновлении Skype для бизнеса до Microsoft Teams.](https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here) Если необходимо использовать сохраняемого чата, вы можете либо перенести пользователей, которым требуются эти функции, в Teams, либо продолжить использовать Skype для бизнеса Server 2015.
 

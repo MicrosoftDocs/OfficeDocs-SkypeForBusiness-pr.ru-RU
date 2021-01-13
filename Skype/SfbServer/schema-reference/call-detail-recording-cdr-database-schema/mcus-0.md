@@ -1,8 +1,8 @@
 ---
-title: Представление мкус
+title: Представление Mcus
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,22 +12,22 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 8e8bbb1b-993b-4b66-862b-7e7654777203
-description: В представлении Мкус хранятся сведения о Мкус, которые участвовали в сеансах конференц-связи. Это представление было представлено в Microsoft Lync Server 2013.
-ms.openlocfilehash: eee2438e9a4c6b222f2c9b77e3b02a1a733acbb0
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: В представлении Mcus хранятся сведения о блоках MCU, которые участвовали в сеансах конференц-связи. Это представление впервые было введено в Microsoft Lync Server 2013.
+ms.openlocfilehash: 3b16505337c241f08b1da99ca2e9e7f8a17a4eaa
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815077"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49821469"
 ---
-# <a name="mcus-view"></a>Представление мкус
+# <a name="mcus-view"></a>Представление Mcus
  
-В представлении Мкус хранятся сведения о Мкус, которые участвовали в сеансах конференц-связи. Это представление было представлено в Microsoft Lync Server 2013.
+В представлении Mcus хранятся сведения о блоках MCU, которые участвовали в сеансах конференц-связи. Это представление впервые было введено в Microsoft Lync Server 2013.
   
-|**Столбец**|**Тип данных**|**Сведения**|
+|**Столбец**|**Тип данных**|**Details**|
 |:-----|:-----|:-----|
-|**мкуид** <br/> |целое  <br/> |Уникальный номер, показывающий MCU.  <br/> |
-|**мкуури** <br/> |nvarchar (450)  <br/> |Универсальный код ресурса (URI) для MCU.  <br/> |
-|**мкууритипе** <br/> |nvarchar(256)  <br/> |Тип URI MCU. Для получения дополнительных сведений ознакомьтесь с [таблицей уритипес](uritypes.md) . <br/> |
+|**McuId** <br/> |int  <br/> |Уникальный номер, идентифицирующий MCU.  <br/> |
+|**McuUri** <br/> |nvarchar(450)  <br/> |URI блока MCU.  <br/> |
+|**McuUriType** <br/> |nvarchar(256)  <br/> |Тип URI блока MCU. Дополнительные сведения см. в таблице [UriTypes.](uritypes.md) <br/> |
    
 

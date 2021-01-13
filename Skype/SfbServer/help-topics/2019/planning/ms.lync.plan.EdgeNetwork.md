@@ -1,8 +1,8 @@
 ---
 title: Edge Network (Planning Tool)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,30 +15,30 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d7f85abf-2045-4b08-ba29-c6211a3f6ff6
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Большинство пограничных компонентов развертывается в сети периметра. Указанные ниже компоненты составляют пограничную топологию этой сети. За исключением случаев, когда отмечено, компоненты являются частью сценариев пограничного сервера в Skype для бизнеса Server и находятся в сети периметра. К пограничным компонентам относятся следующие:'
-ms.openlocfilehash: 85e859f19e0513313176820621b9dd706170deee
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 'Большинство пограничных компонентов развертывается в сети периметра. Следующие компоненты составляют по периметру топологию сети периметра. За исключением случаев, когда эти компоненты являются частью сценариев использования edge Server в Skype для бизнеса Server и находятся в сети периметра. К пограничным компонентам относятся следующие:'
+ms.openlocfilehash: 73f908905980a03ece98725fad480d33e775d06c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41797320"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49819899"
 ---
-# <a name="edge-network-planning-tool-in-skype-for-business"></a>Пограничная сеть (средство планирования) в Skype для бизнеса 
+# <a name="edge-network-planning-tool-in-skype-for-business"></a>Edge Network (Planning Tool) in Skype for Business 
  
-Большинство пограничных компонентов развертывается в сети периметра. Указанные ниже компоненты составляют пограничную топологию этой сети. За исключением случаев, когда отмечено, компоненты являются частью [сценариев пограничного сервера в Skype для бизнеса Server](../../../plan-your-deployment/edge-server-deployments/scenarios.md) и находятся в сети периметра. К пограничным компонентам относятся следующие:
+Большинство пограничных компонентов развертывается в сети периметра. Следующие компоненты составляют по периметру топологию сети периметра. За исключением случаев, когда эти компоненты являются частью сценариев использования edge Server в [Skype для](../../../plan-your-deployment/edge-server-deployments/scenarios.md) бизнеса Server и находятся в сети периметра. К пограничным компонентам относятся следующие:
   
-- пограничные серверы;
+- Edge Server(s)
     
-- Сертификат обратного прокси-сервера
+- обратный прокси-сервер.
     
 - Брандмауэр
     
-- Директоры (не являются обязательными и логически расположены во внутренней сети);
+- Директоры (необязательные и логически расположенные во внутренней сети)
     
 - Балансировка нагрузки для масштабируемых пограничных топологий (балансировка нагрузки DNS или подсистема аппаратной балансировки нагрузки)
     
 ## <a name="see-also"></a>См. также
 
-[Планирование развертывания пограничного сервера в Skype для бизнеса Server](../../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md)
+[Планирование развертывание edge Server в Skype для бизнеса Server](../../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md)
   
-[Требования к системе пограничного сервера в Skype для бизнеса Server](../../../plan-your-deployment/edge-server-deployments/system-requirements.md)
+[Требования к системе для сервера Edge Server в Skype для бизнеса Server](../../../plan-your-deployment/edge-server-deployments/system-requirements.md)

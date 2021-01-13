@@ -1,8 +1,8 @@
 ---
-title: Таблица изготовителей в Skype для бизнеса Server 2015
+title: Таблица Manufacturers в Skype для бизнеса Server 2015
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,21 +12,21 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 734608b3-5a3a-4b61-87dc-9a8551401d06
-description: Таблица изготовителей является вспомогательной таблицей. Каждая запись содержит информацию об одном производителе устройства (стационарном телефоне).
-ms.openlocfilehash: 9d7c23db061e5c307340c9a2d93a53d715de3b2e
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Таблица Manufacturers является вспомогательной. В каждой записи хранится информация об одном изготовителе устройства (настольный телефон).
+ms.openlocfilehash: f3cdd6e33732eb226cc2d99ff403495ac19f5567
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815107"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49821489"
 ---
-# <a name="manufacturers-table-in-skype-for-business-server-2015"></a>Таблица изготовителей в Skype для бизнеса Server 2015
+# <a name="manufacturers-table-in-skype-for-business-server-2015"></a>Таблица Manufacturers в Skype для бизнеса Server 2015
  
-Таблица изготовителей является вспомогательной таблицей. Каждая запись содержит информацию об одном производителе устройства (стационарном телефоне).
+Таблица Manufacturers является вспомогательной. В каждой записи хранится информация об одном изготовителе устройства (настольный телефон).
   
-|**Столбец**|**Тип данных**|**Ключ/индекс**|**Сведения**|
+|**Столбец**|**Тип данных**|**Ключ/индекс**|**Details**|
 |:-----|:-----|:-----|:-----|
-|**ManufacturerId** <br/> |целое  <br/> |Primary  <br/> |Уникальный номер, идентифицирующий этого производителя.  <br/> |
-|**Производитель** <br/> |nvarchar(256)  <br/> | <br/> |Название изготовителя.  <br/> |
+|**ManufacturerId** <br/> |int  <br/> |Primary  <br/> |Уникальный номер, идентифицирующий этого производителя.  <br/> |
+|**Изготовитель** <br/> |nvarchar(256)  <br/> | <br/> |Имя изготовителя.  <br/> |
    
 

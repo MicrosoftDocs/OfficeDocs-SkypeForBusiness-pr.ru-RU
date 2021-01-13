@@ -1,8 +1,8 @@
 ---
 title: Настройка локального развертывания для трансляции собраний Skype
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,60 +16,60 @@ ms.collection:
 - IT_Skype16
 - IT_Skype4B_Hybrid
 ms.assetid: 2979802e-fc6b-4555-bc43-7cd48f6a1d88
-description: 'Сводка: Узнайте, какие действия необходимо выполнить, чтобы настроить трансляцию собраний Skype для локального гибридного развертывания Skype для бизнеса Server.'
-ms.openlocfilehash: 8bdbb163f5ef867711ce109bc923ba0ec8401ffa
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Сводка. Сведения о действиях, необходимых для настройки трансляции собраний Skype для локального гибридного развертывания Skype для бизнеса Server.
+ms.openlocfilehash: c016d60b416c7b6d935b15718f3f1a10f439b9ab
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41790947"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49820709"
 ---
-# <a name="configure-your-on-premises-deployment-for-skype-meeting-broadcast"></a>Configure your on-premises deployment for Skype Meeting Broadcast
+# <a name="configure-your-on-premises-deployment-for-skype-meeting-broadcast"></a>Настройка локального развертывания для трансляции собраний Skype
  
-**Сводка:** Узнайте, какие действия необходимо выполнить, чтобы настроить трансляцию собраний Skype для локального гибридного развертывания Skype для бизнеса Server.
+**Сводка:** Узнайте о действиях, которые необходимо выполнить для настройки трансляции собраний Skype для локального гибридного развертывания Skype для бизнеса Server.
   
-Трансляция собрания Skype — это веб-служба, которая входит в состав Office 365. Если вы используете локальную версию Skype для бизнеса Server и хотите использовать трансляцию собраний Skype в своей среде, необходимо выполнить действия по настройке, описанные в этой статье. Прежде чем приступить к работе, необходимо настроить гибридную среду в Skype для бизнеса Online. Дополнительные сведения см. в разделах [Plan hybrid connectivity between Skype for Business Server and Skype for Business Online](../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json) и [Deploy hybrid connectivity between Skype for Business Server and Skype for Business Online](../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity.md).
+Трансляция собраний Skype — это веб-служба, которая входит в состав Office 365. If you are running Skype for Business Server on-premises and want to use Skype Meeting Broadcast in your environment, you'll need to follow the configuration steps in this topic. Перед началом работы необходимо настроить среду для гибридной среды со Skype для бизнеса Online. Дополнительные сведения см. в сведениях о планировании гибридного подключения [между Skype](../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json) для бизнеса Server и Skype для бизнеса Online и развертывании гибридного подключения между Skype для бизнеса Server и Skype для бизнеса [Online.](../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity.md)
   
 ## <a name="configure-your-hybrid-environment-for-skype-meeting-broadcast"></a>Настройка гибридной среды для трансляции собраний Skype
 
-Для подготовки среды для трансляции собраний Skype вам потребуется выполнить следующие действия:
+Для подготовки среды к трансляции собраний Skype необходимо сделать следующее:
   
-- Настройка Федерации с помощью ресурсов Skype для бизнеса Online
+- Настройка федерации с ресурсами Skype для бизнеса Online
     
-- Настройка федеративных доменов SIP
+- Настройка федераированных доменов SIP
     
-### <a name="configure-federation-with-skype-for-business-online-resources"></a>Настройка Федерации с помощью ресурсов Skype для бизнеса Online
+### <a name="configure-federation-with-skype-for-business-online-resources"></a>Настройка федерации с ресурсами Skype для бизнеса Online
 
-Чтобы включить федерацию для ресурсов Skype для бизнеса Online, вам нужно настроить внешний доступ для поставщика федерации SIP. Чтобы сделать это с помощью панели управления Skype для бизнеса Server, выполните указанные ниже действия.
+Чтобы включить федерацию с ресурсами Skype для бизнеса Online, необходимо настроить внешний доступ для федератного поставщика SIP. Для этого с помощью панели управления Skype для бизнеса Server выполните следующие действия.
   
-1. Откройте панель управления Skype для бизнеса Server и выберите **внешний доступ** слева.
+1. Запустите панель управления Skype для бизнеса Server и выберите **внешний доступ** слева.
     
-2. Выберите **Федеративные поставщики SIP** и нажмите кнопку **Создать**.
+2. Выберите **федеражных поставщиков SIP** и нажмите кнопку **"Новый".**
     
-3. Задайте для нового поставщика следующие параметры.
+3. Настройте нового поставщика с помощью следующих параметров:
     
 |||
 |:-----|:-----|
-|**Включите связь с этим поставщиком:** <br/> |выбрано  <br/> |
+|**В связи с этим поставщиком:** <br/> |выбрано  <br/> |
 |**Имя поставщика:** <br/> |LyncOnlineResources  <br/> |
-|**Служба пограничного доступа (полное доменное имя):** <br/> |sipfed.online.lync.com  <br/> |
-|**Уровень проверки по умолчанию:** <br/> |Разрешить пользователям взаимодействовать со всеми, кто работает с тем же поставщиком.  <br/> |
+|**Служба пограничного доступа (полное доменное имя):** <br/> |sipfed.resources.lync.com  <br/> |
+|**Уровень проверки по умолчанию:** <br/> |Разрешить пользователям взаимодействовать со всеми, кто использует этого поставщика.  <br/> |
    
-Вы также можете включить федерацию с ресурсами Skype для бизнеса Online, выполнив следующий командлет в командной консоли управления Skype для бизнеса Server:
+Вы также можете включить федерацию с ресурсами Skype для бизнеса Online, задав следующий cmdlet в оболочке управления Skype для бизнеса Server:
   
 ```powershell
 New-CsHostingProvider -Identity LyncOnlineResources -ProxyFqdn sipfed.resources.lync.com -VerificationLevel AlwaysVerifiable -Enabled $True -EnabledSharedAddressSpace $True -HostsOCSUsers $True -IsLocal $False
 ```
 
-### <a name="configure-sip-federated-domains"></a>Настройка федеративных доменов SIP
+### <a name="configure-sip-federated-domains"></a>Настройка федераированных доменов SIP
 
-Затем необходимо добавить федеративные домены SIP в список разрешенных доменов. Повторите эти шаги для каждого из четырех указанных доменов, создав четыре новых федеративных домена SIP. Эти домены относятся к региональным центрам обработки данных, используемым в Skype для бизнеса Online.
+Далее необходимо добавить федераированные домены SIP в список разрешенных доменов. Повторите эти действия для каждого из указанных доменов, создав 4 новых федераированных домена SIP. Эти домены относятся к региональным центрам обработки данных, используемым в Skype для бизнеса Online.
   
-1. Откройте панель управления Skype для бизнеса Server и выберите **внешний доступ** слева.
+1. Запустите панель управления Skype для бизнеса Server и выберите **внешний доступ** слева.
     
-2. Выберите **Федеративные поставщики SIP** и нажмите кнопку **Создать**.
+2. Выберите **федераированные** домены SIP и нажмите кнопку **"Новый".**
     
-3. В поле **Имя домена (или полное доменное имя)** введите домен, повторив этот шаг для каждого из указанных ниже доменов.
+3. Для имени **домена (или FQDN):** введите домен, повторив эту процедуру для каждого из следующих доменов:
     
    - noammeetings.lync.com
     
@@ -79,7 +79,7 @@ New-CsHostingProvider -Identity LyncOnlineResources -ProxyFqdn sipfed.resources.
     
    - resources.lync.com
     
-Вы также можете настроить внешний доступ для федеративных доменов SIP, выполнив следующие командлеты в командной консоли управления Skype для бизнеса Server:
+Вы также можете настроить внешний доступ для федераированных доменов SIP, задав следующие команды в оболочке управления Skype для бизнеса Server:
   
 ```powershell
 New-CsAllowedDomain -Identity "noammeetings.lync.com"
@@ -88,6 +88,6 @@ New-CsAllowedDomain -Identity "apacmeetings.lync.com"
 New-CsAllowedDomain -Identity "resources.lync.com"
 ```
 
-После выполнения этих шагов настройки вы сможете начать использование трансляции собраний Skype в развертывании. Дополнительные сведения о трансляции собраний Skype можно найти [в статье что такое трансляция собраний Skype](https://go.microsoft.com/fwlink/?LinkId=617071) и [Руководство администратора трансляции собраний Skype](https://go.microsoft.com/fwlink/?LinkId=617075).
+После завершения этих действий по настройке можно приступить к использованию трансляции собраний Skype в развертывании. Дополнительные сведения о трансляции собраний Skype см. в руководстве администратора по трансляции собраний [Skype.](https://go.microsoft.com/fwlink/?LinkId=617071) [](https://go.microsoft.com/fwlink/?LinkId=617075)
   
 

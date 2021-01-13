@@ -1,8 +1,8 @@
 ---
-title: Таблица шлюзов в Skype для бизнеса Server 2015
+title: Таблица Gateways в Skype для бизнеса Server 2015
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,21 +12,21 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: a909daad-d137-45e0-b149-1de9f8e1e029
-description: Таблица Gateways является вспомогательной таблицей. Каждая запись содержит сведения об одном шлюзе, который участвует в звонках по коммутируемой телефонной сети (PSTN), которые содержат записи в базе данных.
-ms.openlocfilehash: ce85b36d5ad587a096c99ca3f3f496642d3a3dd5
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Таблица Gateways является вспомогательной. В каждой записи хранится информация об одном шлюзе, который участвует в вызовах телефонной сети общего звонков (PSTN), в базе данных которых есть записи.
+ms.openlocfilehash: e945e5464093eb0eb58965fa1ef8a734ea0afa75
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815167"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49821589"
 ---
-# <a name="gateways-table-in-skype-for-business-server-2015"></a>Таблица шлюзов в Skype для бизнеса Server 2015
+# <a name="gateways-table-in-skype-for-business-server-2015"></a>Таблица Gateways в Skype для бизнеса Server 2015
  
-Таблица Gateways является вспомогательной таблицей. Каждая запись содержит сведения об одном шлюзе, который участвует в звонках по коммутируемой телефонной сети (PSTN), которые содержат записи в базе данных.
+Таблица Gateways является вспомогательной. В каждой записи хранится информация об одном шлюзе, который участвует в вызовах телефонной сети общего звонков (PSTN), в базе данных которых есть записи.
   
-|**Столбец**|**Тип данных**|**Ключ/индекс**|**Сведения**|
+|**Столбец**|**Тип данных**|**Ключ/индекс**|**Details**|
 |:-----|:-----|:-----|:-----|
-|**гатевайид** <br/> |целое  <br/> |Primary  <br/> |Уникальный номер, идентифицирующий этот шлюз.  <br/> |
+|**GatewayId** <br/> |int  <br/> |Primary  <br/> |Уникальный номер, идентифицирующий этот шлюз.  <br/> |
 |**Шлюз** <br/> |nvarchar(256)  <br/> | <br/> |Имя шлюза.  <br/> |
    
 

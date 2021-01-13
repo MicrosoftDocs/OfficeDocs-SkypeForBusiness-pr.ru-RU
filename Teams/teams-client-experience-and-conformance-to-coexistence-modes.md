@@ -1,7 +1,7 @@
 ---
 title: Взаимодействие с клиентом Teams и соответствие режимам сосуществования
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0c67046128c79608f19a4a1f4474164a949f37ef
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 20d1ff52fa59f31b796d2580a0e2819c80caaf42
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43903364"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49821029"
 ---
 # <a name="teams-client-experience-and-conformance-to-coexistence-modes"></a>Взаимодействие с клиентом Teams и соответствие режимам сосуществования
 
@@ -43,7 +43,7 @@ ms.locfileid: "43903364"
 
 |Режим действия пользователя|Опыт работы в клиенте Teams|
 |---|---|
-|Любой режим Skype для бизнеса|Отключаются вызовы, чат и само присутствие.|
+|Любой режим Skype для бизнеса|Отключайтесь вызовы, чат и само присутствие.|
 |SfBWithTeamsCollabAndMeetings|Доступно планирование собраний|
 |SfBWithTeamsCollab или SfBOnly<sup>1</sup>|Планирование собраний не доступно|
 |||
@@ -52,7 +52,7 @@ ms.locfileid: "43903364"
 
 ![Сравнение режимов Teams](media/teams-mode-comparison.png)
 
-Кроме того, в других режимах присутствие самообнаправления недоступно, как показано здесь.
+Кроме того, в других режимах самообнаправление недоступно, как показано ниже.
 
 ![Снимок экрана: самообнахождение на первом собрании](media/meetings-first-no-self-presence-general.png)
  
@@ -61,7 +61,7 @@ ms.locfileid: "43903364"
 
 
 ## <a name="impact-of-mode-on-other-policy-settings"></a>Влияние режима на другие параметры политики
-Как описано выше, режим сосуществования влияет на функции, доступные в клиенте Teams пользователя. Это означает, что значение режима может иметь приоритет над значением других параметров политики в зависимости от режима. В частности, режим сосуществования влияет на то, будут ли соблюдаться следующие параметры политики:
+Как описано выше, режим сосуществования пользователя влияет на функции, доступные в клиенте Teams пользователя. Это означает, что значение режима может иметь приоритет над значением других параметров политики в зависимости от этого режима. В частности, режим сосуществования влияет на то, будут ли соблюдаться следующие параметры политики:
 
 |**Modality (App)**|**Policy.Setting**|
 |---|---|

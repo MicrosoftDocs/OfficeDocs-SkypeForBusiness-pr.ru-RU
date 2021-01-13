@@ -1,7 +1,7 @@
 ---
 title: Ограничения на бесплатный набор номеров в Австрии
-ms.author: v-lanac
-author: LanaChin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.reviewer: davlick, krkilaru
 ms.topic: reference
@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Это поможет вам узнать, как звонить на бесплатные номера в каждой стране или регионе. После выбора страны или региона вы будете перена границу страницы с подробными сведениями, ограничениями и ограничениями на доступность бесплатных служб, на которых доступна бесплатная служба. Форматы набора показывают коды доступа, необходимые для набора бесплатного номера в каждой стране или регионе.
-ms.openlocfilehash: f918f94df2a5346987a4d5fc684fdff20e80eff5
-ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
+ms.openlocfilehash: 510792e131a89ac09a0de0c537f8a742d4ee9b5b
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48321601"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49815619"
 ---
 # <a name="toll-free-dialing-restrictions-in-austria"></a>Ограничения на бесплатный набор номеров в Австрии
 

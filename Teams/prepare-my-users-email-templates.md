@@ -1,7 +1,7 @@
 ---
 title: Шаблоны уведомлений пользователей для сетевой телефонной системы
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.date: 03/31/2018
 ms.topic: article
@@ -16,12 +16,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 0382f8033d9faf925d5d5cd4023bf43e543b7b86
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: e224f12a2c2aa7f41ee772980ffea24a907197c5
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137519"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49812649"
 ---
 # <a name="facilitate-user-adoption-of-your-new-online-phone-system"></a>Упрощение внедрения новой телефонной системы через Интернет
 
@@ -37,7 +37,7 @@ ms.locfileid: "43137519"
 IMPORTANT ANNOUNCEMENT about your office desk phone
 ```
 
-Тело сообщения электронной почты:
+Сообщение электронной почты:
 
 ```
 Instant messaging and online meetings have become a common way to communicate
@@ -183,7 +183,7 @@ Regards,
 FEEDBACK REQUESTED: Your new phone system
 ```
 
-Тело сообщения электронной почты:
+Сообщение электронной почты:
 
 ```
 It's been a few weeks since you started using Microsoft Teams to

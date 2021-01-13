@@ -1,8 +1,8 @@
 ---
 title: Страница публикации пула сброса топологии
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,19 +14,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: de13aab5-ac3c-44ac-9484-f97cafcf203a
 ROBOTS: NOINDEX, NOFOLLOW
-description: Это предварительная редакция документации и она может меняться. Пустые разделы добавлены в качестве заполнителей.
-ms.openlocfilehash: d228c572df78d9795dc7f170b80d7d6dc2407d7b
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Это предварительная документация, которая может быть измениться. Пустые разделы включены в качестве заполнителей.
+ms.openlocfilehash: d70eb3cc314b5a5404c462f1ada9b3204da614ea
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41795430"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49822179"
 ---
 # <a name="publish-topology-reset-pool-page"></a>Страница публикации пула сброса топологии
  
-Это предварительная редакция документации и она может меняться. Пустые разделы добавлены в качестве заполнителей.
+Это предварительная документация, которая может быть измениться. Пустые разделы включены в качестве заполнителей.
   
-Для добавления новых компьютеров к существующему пулу необходимо выполнить сброс пула, в ходе которого с помощью Windows Fabric заново задаются соединения между всеми членами пула с помощью. Для этого выберите пул, к которому добавлены серверы, затем нажмите кнопку **Далее**.
+Для добавления новых компьютеров в существующий пул необходимо сбросить пул, чтобы переопределить связи между всеми членами пула с помощью Windows Fabric. Для этого выберите пул, в который были добавлены серверы, а затем нажмите кнопку **Далее**.
   
 ## <a name="see-also"></a>См. также
 
