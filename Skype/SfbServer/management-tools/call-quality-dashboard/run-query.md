@@ -1,8 +1,8 @@
 ---
-title: Выполнение запроса
+title: Запуск запроса
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,34 +12,34 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 45a77f7e-b137-462b-9146-3a0f43d8e0c7
-description: 'Сводка: сведения о выполнении операции запроса, которая входит в API данных для панели мониторинга качества звонков. Панель мониторинга качества звонков — это средство для Skype для бизнеса Server.'
-ms.openlocfilehash: 4e520921496a1650af12b342fd5a0244fe9eb7a5
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Сводка. Сведения об операции "Выполнить запрос", которая входит в состав API данных для панели мониторинга качества вызовов. Панель мониторинга качества звонков — это инструмент для Skype для бизнеса Server.
+ms.openlocfilehash: bff24ca5a4d651ba276b4b0d795afabce3c6d0dd
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816688"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49803119"
 ---
-# <a name="run-query"></a><span data-ttu-id="78406-104">Выполнение запроса</span><span class="sxs-lookup"><span data-stu-id="78406-104">Run Query</span></span>
+# <a name="run-query"></a><span data-ttu-id="07e66-104">Запуск запроса</span><span class="sxs-lookup"><span data-stu-id="07e66-104">Run Query</span></span>
 
-<span data-ttu-id="78406-105">**Сводка:** Сведения о выполнении операции запроса, которая входит в API данных для панели мониторинга качества звонков.</span><span class="sxs-lookup"><span data-stu-id="78406-105">**Summary:** Learn about the Run Query operation, which is part of the Data API for Call Quality Dashboard.</span></span> <span data-ttu-id="78406-106">Панель мониторинга качества звонков — это средство для Skype для бизнеса Server.</span><span class="sxs-lookup"><span data-stu-id="78406-106">Call Quality Dashboard is a tool for Skype for Business Server.</span></span>
+<span data-ttu-id="07e66-105">**Сводка:** Сведения об операции "Выполнить запрос", которая является частью API данных для панели мониторинга качества вызовов.</span><span class="sxs-lookup"><span data-stu-id="07e66-105">**Summary:** Learn about the Run Query operation, which is part of the Data API for Call Quality Dashboard.</span></span> <span data-ttu-id="07e66-106">Панель мониторинга качества звонков — это инструмент для Skype для бизнеса Server.</span><span class="sxs-lookup"><span data-stu-id="07e66-106">Call Quality Dashboard is a tool for Skype for Business Server.</span></span>
 
-<span data-ttu-id="78406-107">Операция выполнения запроса входит в API данных для панели мониторинга качества звонков.</span><span class="sxs-lookup"><span data-stu-id="78406-107">The Run Query operation is part of the Data API for Call Quality Dashboard.</span></span>
+<span data-ttu-id="07e66-107">Операция "Выполнить запрос" является частью API данных для панели мониторинга качества вызовов.</span><span class="sxs-lookup"><span data-stu-id="07e66-107">The Run Query operation is part of the Data API for Call Quality Dashboard.</span></span>
 
-## <a name="run-query"></a><span data-ttu-id="78406-108">Выполнение запроса</span><span class="sxs-lookup"><span data-stu-id="78406-108">Run Query</span></span>
+## <a name="run-query"></a><span data-ttu-id="07e66-108">Запуск запроса</span><span class="sxs-lookup"><span data-stu-id="07e66-108">Run Query</span></span>
 
-<span data-ttu-id="78406-109">Операция выполнения запроса предоставляет возможность выполнения запроса для куба на основе указанных размеров, измерений и фильтров, а также возврата данных.</span><span class="sxs-lookup"><span data-stu-id="78406-109">Run Query operation provides the ability to run a query on the cube based on specified dimensions, measurements, and filters and return back the data.</span></span>
+<span data-ttu-id="07e66-109">Операция "Выполнить запрос" позволяет выполнять запрос к кубу на основе указанных измерений, измерений и фильтров, а также возвращать данные.</span><span class="sxs-lookup"><span data-stu-id="07e66-109">Run Query operation provides the ability to run a query on the cube based on specified dimensions, measurements, and filters and return back the data.</span></span>
 
 
-|<span data-ttu-id="78406-110">**Способов**</span><span class="sxs-lookup"><span data-stu-id="78406-110">**Method**</span></span>|<span data-ttu-id="78406-111">**URI запроса**</span><span class="sxs-lookup"><span data-stu-id="78406-111">**Request URI**</span></span>|<span data-ttu-id="78406-112">**Версия HTTP**</span><span class="sxs-lookup"><span data-stu-id="78406-112">**HTTP Version**</span></span>|
+|<span data-ttu-id="07e66-110">**Способ**</span><span class="sxs-lookup"><span data-stu-id="07e66-110">**Method**</span></span>|<span data-ttu-id="07e66-111">**URI запроса**</span><span class="sxs-lookup"><span data-stu-id="07e66-111">**Request URI**</span></span>|<span data-ttu-id="07e66-112">**Версия HTTP**</span><span class="sxs-lookup"><span data-stu-id="07e66-112">**HTTP Version**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="78406-113">Поместить</span><span class="sxs-lookup"><span data-stu-id="78406-113">POST</span></span>  <br/> |<span data-ttu-id="78406-114">/Коедатасервице/рункуери\<портала\>HTTPS://</span><span class="sxs-lookup"><span data-stu-id="78406-114">https://\<portal\>/QoEDataService/RunQuery</span></span>  <br/> |<span data-ttu-id="78406-115">HTTP/1.1</span><span class="sxs-lookup"><span data-stu-id="78406-115">HTTP/1.1</span></span>  <br/> |
+|<span data-ttu-id="07e66-113">POST</span><span class="sxs-lookup"><span data-stu-id="07e66-113">POST</span></span>  <br/> |<span data-ttu-id="07e66-114">https:// \<portal\> /QoEDataService/RunQuery</span><span class="sxs-lookup"><span data-stu-id="07e66-114">https://\<portal\>/QoEDataService/RunQuery</span></span>  <br/> |<span data-ttu-id="07e66-115">HTTP/1.1</span><span class="sxs-lookup"><span data-stu-id="07e66-115">HTTP/1.1</span></span>  <br/> |
 
- <span data-ttu-id="78406-116">**Параметры универсального кода ресурса** (None).</span><span class="sxs-lookup"><span data-stu-id="78406-116">**URI Parameters** - None.</span></span>
+ <span data-ttu-id="07e66-116">**Параметры URI** — нет.</span><span class="sxs-lookup"><span data-stu-id="07e66-116">**URI Parameters** - None.</span></span>
 
- <span data-ttu-id="78406-117">**Заголовки запроса** — без дополнительных заголовков.</span><span class="sxs-lookup"><span data-stu-id="78406-117">**Request Headers** - No additional headers.</span></span>
+ <span data-ttu-id="07e66-117">**Request Headers** - No additional headers.</span><span class="sxs-lookup"><span data-stu-id="07e66-117">**Request Headers** - No additional headers.</span></span>
 
- <span data-ttu-id="78406-118">**Тело запроса** — образец полезных данных запроса в JSON.</span><span class="sxs-lookup"><span data-stu-id="78406-118">**Request Body** - Here is a sample request payload in JSON.</span></span> <span data-ttu-id="78406-119">Она включает измерения, фильтры и измерения, необходимые для запроса.</span><span class="sxs-lookup"><span data-stu-id="78406-119">It contains dimensions, filters, and measurement required for a query.</span></span>
+ <span data-ttu-id="07e66-118">**Тело запроса.** Вот пример полезной нагрузки запроса в JSON.</span><span class="sxs-lookup"><span data-stu-id="07e66-118">**Request Body** - Here is a sample request payload in JSON.</span></span> <span data-ttu-id="07e66-119">Он содержит измерения, фильтры и измерения, необходимые для запроса.</span><span class="sxs-lookup"><span data-stu-id="07e66-119">It contains dimensions, filters, and measurement required for a query.</span></span>
 
 ```json
 {
@@ -74,21 +74,21 @@ ms.locfileid: "41816688"
 }
 ```
 
- <span data-ttu-id="78406-120">*Filters* — список применяемых фильтров, в результате которого результирующий набор данных будет показывать только подмножество данных, которые будут представлять собой.</span><span class="sxs-lookup"><span data-stu-id="78406-120">*Filters*  - A list of filter expressions to be applied such that the resulting data set will reflect only the subset of the data that are of interest.</span></span>
+ <span data-ttu-id="07e66-120">*Фильтры*  — список выражений фильтра, которые необходимо применить таким образом, чтобы полученный набор данных отображал только подмножество интересующих их данных.</span><span class="sxs-lookup"><span data-stu-id="07e66-120">*Filters*  - A list of filter expressions to be applied such that the resulting data set will reflect only the subset of the data that are of interest.</span></span>
 
- <span data-ttu-id="78406-121">*Измерения* — список измерений, которые будут использоваться для статистической обработки данных.</span><span class="sxs-lookup"><span data-stu-id="78406-121">*Dimensions*  - A list of dimensions that will be used for aggregating the data.</span></span> <span data-ttu-id="78406-122">Требуется хотя бы одно измерение, но для получения дополнительных уровней вложенных агрегатов может быть указано несколько измерений.</span><span class="sxs-lookup"><span data-stu-id="78406-122">At least one dimension is required but multiple dimensions may be specified to obtain additional level of sub-aggregations.</span></span>
+ <span data-ttu-id="07e66-121">*Измерения —*  список измерений, которые будут использоваться для агрегации данных.</span><span class="sxs-lookup"><span data-stu-id="07e66-121">*Dimensions*  - A list of dimensions that will be used for aggregating the data.</span></span> <span data-ttu-id="07e66-122">Требуется по крайней мере одно измерение, но для получения дополнительного уровня под агрегации может быть указано несколько измерений.</span><span class="sxs-lookup"><span data-stu-id="07e66-122">At least one dimension is required but multiple dimensions may be specified to obtain additional level of sub-aggregations.</span></span>
 
- <span data-ttu-id="78406-123">*Измерения* — список измерений, также называемых фактами, которые представляют собой необходимые метрики, которые должны быть агрегированы на основе указанных вами измерений.</span><span class="sxs-lookup"><span data-stu-id="78406-123">*Measurements*  - A list of measurements, also known as facts, that are the desired metrics to be aggregated based on the dimensions you specified.</span></span>
+ <span data-ttu-id="07e66-123">*Измерения —*  список измерений, также известных как факты, которые являются нужными метриками, которые необходимо агрегировать на основе указанных измерений.</span><span class="sxs-lookup"><span data-stu-id="07e66-123">*Measurements*  - A list of measurements, also known as facts, that are the desired metrics to be aggregated based on the dimensions you specified.</span></span>
 
- <span data-ttu-id="78406-124">*Тенденция* — дополнительные инструкции по настройке результирующих данных.</span><span class="sxs-lookup"><span data-stu-id="78406-124">*Trend*  - Additional control instructions to customize the result data.</span></span>
+ <span data-ttu-id="07e66-124">*Trend*  — дополнительные инструкции по контролю для настройки данных результатов.</span><span class="sxs-lookup"><span data-stu-id="07e66-124">*Trend*  - Additional control instructions to customize the result data.</span></span>
 
- <span data-ttu-id="78406-125">**Response (ответ** ) — ответ включает код состояния HTTP и набор заголовков ответа.</span><span class="sxs-lookup"><span data-stu-id="78406-125">**Response** - The response includes an HTTP status code and a set of response headers.</span></span>
+ <span data-ttu-id="07e66-125">**Ответ.** Ответ включает код состояния HTTP и набор загодеров отклика.</span><span class="sxs-lookup"><span data-stu-id="07e66-125">**Response** - The response includes an HTTP status code and a set of response headers.</span></span>
 
- <span data-ttu-id="78406-126">**Код состояния** — успешная операция возвращает код состояния 200 (ОК).</span><span class="sxs-lookup"><span data-stu-id="78406-126">**Status Code** - A successful operation returns status code 200 (OK).</span></span>
+ <span data-ttu-id="07e66-126">**Код состояния** — успешная операция возвращает код состояния 200 (OK).</span><span class="sxs-lookup"><span data-stu-id="07e66-126">**Status Code** - A successful operation returns status code 200 (OK).</span></span>
 
- <span data-ttu-id="78406-127">**Заголовки ответа** — без дополнительных заголовков.</span><span class="sxs-lookup"><span data-stu-id="78406-127">**Response Headers** - No additional headers.</span></span>
+ <span data-ttu-id="07e66-127">**Response Headers** - No additional headers.</span><span class="sxs-lookup"><span data-stu-id="07e66-127">**Response Headers** - No additional headers.</span></span>
 
- <span data-ttu-id="78406-128">**Тело ответа** — ниже показан пример полезных данных ответа в JSON.</span><span class="sxs-lookup"><span data-stu-id="78406-128">**Response Body** - Below is a sample response payload in JSON.</span></span> <span data-ttu-id="78406-129">Она содержит таблицу данных, содержащую данные, также содержит метаданные, которые показывают время выполнения запроса и сведения о том, находятся ли данные из кэша.</span><span class="sxs-lookup"><span data-stu-id="78406-129">It contains a data table which contains the data, also it will contain a meta data, which shows query execution time and whether or not the data is from the cache.</span></span>
+ <span data-ttu-id="07e66-128">**Тело ответа.** Ниже приведен пример полезной нагрузки ответа в JSON.</span><span class="sxs-lookup"><span data-stu-id="07e66-128">**Response Body** - Below is a sample response payload in JSON.</span></span> <span data-ttu-id="07e66-129">Она содержит таблицу данных, которая содержит данные, а также метаданные, в которой показано время выполнения запроса и указывает, являются ли данные из кэша.</span><span class="sxs-lookup"><span data-stu-id="07e66-129">It contains a data table which contains the data, also it will contain a meta data, which shows query execution time and whether or not the data is from the cache.</span></span>
 
 ```json
 {
@@ -123,8 +123,8 @@ ms.locfileid: "41816688"
 }
 ```
 
- <span data-ttu-id="78406-130">*Время выполнения* — общее время, затраченное сервером на возврат данных.</span><span class="sxs-lookup"><span data-stu-id="78406-130">*Execution Time*  - The total time it took for the server to return the data.</span></span> <span data-ttu-id="78406-131">Это может вызвать или не включать кэширование.</span><span class="sxs-lookup"><span data-stu-id="78406-131">This may or may not involve cache.</span></span>
+ <span data-ttu-id="07e66-130">*Время выполнения*  — общее время, необходимое серверу для возврата данных.</span><span class="sxs-lookup"><span data-stu-id="07e66-130">*Execution Time*  - The total time it took for the server to return the data.</span></span> <span data-ttu-id="07e66-131">Это может включать или не включать кэш.</span><span class="sxs-lookup"><span data-stu-id="07e66-131">This may or may not involve cache.</span></span>
 
- <span data-ttu-id="78406-132">*Результат данных* — результат запроса.</span><span class="sxs-lookup"><span data-stu-id="78406-132">*Data Result*  - The result of the query.</span></span> <span data-ttu-id="78406-133">Это двухмерный массив, который содержит все перестановки членов измерений и каждый элемент, содержащий имена членов измерения, а также агрегированные значения указанных измерений.</span><span class="sxs-lookup"><span data-stu-id="78406-133">It is a two-dimensional array containing all permutations of the dimensions' members, and each element containing the dimensions' member names as well as the aggregated values of the specified Measurements.</span></span>
+ <span data-ttu-id="07e66-132">*Результат данных*  — результат запроса.</span><span class="sxs-lookup"><span data-stu-id="07e66-132">*Data Result*  - The result of the query.</span></span> <span data-ttu-id="07e66-133">Это двумерный массив, содержащий все перенастройки элементов измерений и каждый элемент, содержащий имена членов измерений, а также агрегированные значения указанных измерений.</span><span class="sxs-lookup"><span data-stu-id="07e66-133">It is a two-dimensional array containing all permutations of the dimensions' members, and each element containing the dimensions' member names as well as the aggregated values of the specified Measurements.</span></span>
 
- <span data-ttu-id="78406-134">*Результаты из кэша* — для диагностики.</span><span class="sxs-lookup"><span data-stu-id="78406-134">*Result is From Cache*  - For diagnostics.</span></span> <span data-ttu-id="78406-135">Указывает, получен ли результат из кэша или из куба QoE.</span><span class="sxs-lookup"><span data-stu-id="78406-135">Indicates whether the result came from the cache or from the QoE Cube.</span></span>
+ <span data-ttu-id="07e66-134">*Результат : Из кэша*  — для диагностики.</span><span class="sxs-lookup"><span data-stu-id="07e66-134">*Result is From Cache*  - For diagnostics.</span></span> <span data-ttu-id="07e66-135">Указывает, поступил ли результат из кэша или куба QoE.</span><span class="sxs-lookup"><span data-stu-id="07e66-135">Indicates whether the result came from the cache or from the QoE Cube.</span></span>
