@@ -1,8 +1,8 @@
 ---
-title: Серверное приложение Topology
+title: Серверная топология
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,30 +14,30 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 8c95b160-3d88-46c7-987c-38384bac3e51
 ROBOTS: NOINDEX, NOFOLLOW
-description: На странице Topology (серверное приложение) в развертывании отображаются серверные приложения.
-ms.openlocfilehash: 6e7c726646a0a477754fc969753d1fb27f83d163
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 'На странице Топология: Серверное приложение отображаются серверные приложения в вашем развертывании.'
+ms.openlocfilehash: 4c76e2abc488e650819d5fe6fa19f9b0abbd6d36
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41795550"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49836279"
 ---
 # <a name="topology-server-application"></a>Топология: серверное приложение
 
-На странице **Topology**( **серверное приложение** ) в развертывании отображаются серверные приложения.
+На странице **Топология**: **Серверное приложение** отображаются серверные приложения в вашем развертывании.
 
 ## <a name="tasks-you-can-perform"></a>Задачи, которые вы можете выполнить
 
-На странице " **топология**" можно выполнять следующие задачи. Страница **серверного приложения** :
+На странице **Топология**: **Серверное приложение** можно выполнить следующие задачи:
 
 - Просмотр серверных приложений в развертывании
 
-- Включение и отключение серверного приложения
+- включить или отключить серверное приложение;
 
-- Выбор и отменить выбор приложения в качестве критического
+- выбрать приложение в качестве критического или отменить такой выбор.
 
 ## <a name="see-also"></a>См. также
 
-[Включение и отключение серверного приложения на языке обработки Microsoft SIP (МСПЛ)](https://technet.microsoft.com/library/b20af38d-224a-4459-991d-0b7eabb3ca7c.aspx)
+[Включение и отключение серверного приложения MSPL](https://technet.microsoft.com/library/b20af38d-224a-4459-991d-0b7eabb3ca7c.aspx)
 
-[Пометка приложения языка обработки Microsoft SIP (МСПЛ) как критической или некритической](https://technet.microsoft.com/library/df68fdc6-b7e6-4f07-acdc-0cd4c2c888a1.aspx)
+[Отметка приложения MSPL как очень важного или или не очень важного](https://technet.microsoft.com/library/df68fdc6-b7e6-4f07-acdc-0cd4c2c888a1.aspx)

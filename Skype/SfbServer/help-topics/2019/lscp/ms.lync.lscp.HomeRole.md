@@ -1,8 +1,8 @@
 ---
 title: Административные роли и панель управления Skype для бизнеса Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,16 +14,16 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 7d1ff1e0-eb89-4703-be50-71e94329d8b2
 ROBOTS: NOINDEX, NOFOLLOW
-description: Для делегирования административных задач при высоком стандарте обеспечения безопасности в Skype для бизнеса Server поддерживается управление доступом на основе ролей (RBAC).
-ms.openlocfilehash: 172e88cfcf15872552baf1ef6fdb75bcf07ce252
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Чтобы вы могли делегировать административные задачи при сохранении высоких стандартов безопасности, Skype для бизнеса Server поддерживает управление доступом на основе ролей (RBAC).
+ms.openlocfilehash: f24f55a262c7dafe297956435b94ba51112c3249
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41797630"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49836609"
 ---
 # <a name="administrative-roles-and-skype-for-business-server-control-panel"></a>Административные роли и панель управления Skype для бизнеса Server
 
-Для делегирования административных задач при высоком стандарте обеспечения безопасности в Skype для бизнеса Server поддерживается управление доступом на основе ролей (RBAC). При использовании RBAC административные привилегии выдаются с помощью назначения пользователям предварительно заданных административных ролей. Skype для бизнеса Server включает обширный набор встроенных административных ролей, а также позволяет создавать новые роли и определять настраиваемый список командлетов для каждой новой роли. Также можно добавлять скрипты командлетов в разрешенные задачи как предварительно заданных, так и настраиваемых ролей RBAC. Дополнительные сведения, в том числе предопределенные административные роли, доступные в Skype для бизнеса Server, можно найти в разделе [Управление доступом на основе ролей](https://technet.microsoft.com/library/41204ba3-ce5b-41a8-a6c3-b444468fa328.aspx).
+Чтобы вы могли делегировать административные задачи при сохранении высоких стандартов безопасности, Skype для бизнеса Server поддерживает управление доступом на основе ролей (RBAC). При использовании RBAC административные привилегии выдаются с помощью назначения пользователям предварительно заданных административных ролей. Skype для бизнеса Server включает в себя богатый набор встроенных административных ролей, а также позволяет создавать новые роли и указывать настраиваемый список cmdlets для каждой новой роли. Вы можете также добавлять сценарии командлетов в разрешенные задачи как предопределенных, так и пользовательских ролей RBAC. For details, including the predefined administrative roles available in Skype for Business Server, see [Role-Based Access Control.](https://technet.microsoft.com/library/41204ba3-ce5b-41a8-a6c3-b444468fa328.aspx)
 
 

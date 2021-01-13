@@ -1,8 +1,8 @@
 ---
 title: Подготовка текущего леса (введение)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,16 +14,16 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 71314efe-136b-4970-a411-6282d1cb5b87
 ROBOTS: NOINDEX, NOFOLLOW
-description: Для запуска задачи Подготовка леса нажмите Далее. При выполнении задачи подготовки леса создаются глобальные параметры и создаются универсальные группы для использования в Skype для бизнеса Server.
-ms.openlocfilehash: 4810cd7b5ce162f782f90d0542b31dcfec22e631
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Чтобы начать выполнение задачи Подготовка леса, нажмите кнопку Далее. При запуске задачи "Подготовка леса" создаются глобальные параметры и универсальные группы для использования в Skype для бизнеса Server.
+ms.openlocfilehash: 2e4b2838d8a863c6c17a75b70395dffaec6bfe14
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41798406"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49836749"
 ---
 # <a name="prepare-current-forrest-intro"></a>Подготовка текущего леса (введение)
  
-Для запуска задачи **Подготовка леса** нажмите **Далее**. При выполнении задачи **подготовки леса** создаются глобальные параметры и создаются универсальные группы для использования в Skype для бизнеса Server.
+Чтобы начать выполнение задачи **Подготовка леса**, нажмите кнопку **Далее**. При **запуске задачи "Подготовка** леса" создаются глобальные параметры и универсальные группы для использования в Skype для бизнеса Server.
   
 

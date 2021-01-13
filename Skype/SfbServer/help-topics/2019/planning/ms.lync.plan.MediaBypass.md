@@ -1,8 +1,8 @@
 ---
-title: Media Bypass (Planning Tool)
+title: Обход посредника (средство планирования)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,16 +15,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4c6417ea-a87d-4524-ba46-20e6c895d14c
 ROBOTS: NOINDEX, NOFOLLOW
-description: Обойтись обозначает удаление сервера обновлений из пути к носителю, если это возможно, для звонков, сигнализация которых проходит на сервер обновлений. Дополнительные сведения можно найти в разделе Планирование обхода мультимедиа в Skype для бизнеса.
-ms.openlocfilehash: 7e28c5f699be99319d77753b6463a9733375ba83
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Обход сервера-посредника означает исключение сервера-посредника из пути (когда это возможно) для звонков, сигналы которых проходят через сервер-посредник. Дополнительные сведения см. в подсети Plan for media bypass in Skype for Business.
+ms.openlocfilehash: c20a755a150ee4755b0b3805b6999e0386936456
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41797150"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49836079"
 ---
-# <a name="media-bypass-planning-tool"></a>Media Bypass (Planning Tool)
+# <a name="media-bypass-planning-tool"></a>Обход посредника (средство планирования)
  
-Обойтись обозначает удаление сервера обновлений из пути к носителю, если это возможно, для звонков, сигнализация которых проходит на сервер обновлений. Дополнительные сведения можно найти [в разделе Планирование обхода мультимедиа в Skype для бизнеса](../../../plan-your-deployment/enterprise-voice-solution/media-bypass.md).
+Обход сервера-посредника означает исключение сервера-посредника из пути (когда это возможно) для звонков, сигналы которых проходят через сервер-посредник. Дополнительные сведения см. в [подсети "Планирование обхода мультимедиа" в Skype для бизнеса.](../../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)
   
 

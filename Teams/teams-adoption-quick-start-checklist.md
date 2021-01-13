@@ -1,7 +1,7 @@
 ---
 title: Краткий контрольный список по внедрению Microsoft Teams
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.date: 11/09/2018
 audience: Admin
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9cdea5f7e6bce5e348fa2a85feb93f733bf46c24
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 49cf3656b5ea48f8c23c33ac2ccc3b57de5bdb58
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905091"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49809319"
 ---
 # <a name="microsoft-teams-adoption-quick-start-checklist"></a>Краткий контрольный список по внедрению Microsoft Teams
 

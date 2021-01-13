@@ -1,8 +1,8 @@
 ---
-title: Настройка музыкального сопровождения для приема звонков на удержание в Skype для бизнеса
+title: Настройка музыки для парковки вызовов на удержании вSkype для бизнеса
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,39 +15,39 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 3d78e6f9-a4ae-49f4-a89f-4515acb49dac
-description: Настройка музыкального сопровождения для остановки звонка на удержании в корпоративной голосовой связи Skype для бизнеса Server.
-ms.openlocfilehash: 61c82a9ba6c817eb3c61e93ae28d76208855e089
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: Настройка музыки при удержании при парковке вызовов в Skype для бизнеса Server Корпоративная голосовая связь.
+ms.openlocfilehash: 766b51895acda27c0558352968d21a39764b13a6
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41767742"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49837079"
 ---
-# <a name="customize-call-park-music-on-hold-inskype-for-business"></a>Настройка музыкального сопровождения для приема звонков на удержание в Skype для бизнеса
+# <a name="customize-call-park-music-on-hold-inskype-for-business"></a>Настройка музыки для парковки вызовов на удержании вSkype для бизнеса
  
-Настройка музыкального сопровождения для остановки звонка на удержании в корпоративной голосовой связи Skype для бизнеса Server.
+Настройка музыки при удержании при парковке вызовов в Skype для бизнеса Server Корпоративная голосовая связь.
   
-Вы можете указать свой музыкальный файл, который будет использоваться для сохранения музыки, вместо музыкального файла по умолчанию, который входит в состав Skype для бизнеса Server. Чтобы настроить музыку, воспроизводимую при удержании вызова, используйте командлет **Set-CsCallParkServiceMusicOnHoldFile**.
+You can specify your own music file to use for music on hold, instead of the default music file that ships with Skype for Business Server. Чтобы настроить музыку, воспроизводимую при удержании вызова, используйте командлет **Set-CsCallParkServiceMusicOnHoldFile**.
   
 > [!NOTE]
-> Если вы настроите музыку на удержании и хотите использовать одну и ту же музыку для нескольких сайтов, необходимо настроить музыкальный файл для каждого сайта, на котором запущено приложение для парковки звонков. 
+> Если вы настраивали музыку при удержании и хотите, чтобы она была одинаковой для нескольких сайтов, необходимо настроить файл музыки для каждого сайта, на которых выполняется приложение парковки вызовов. 
   
 ### <a name="to-customize-the-music-file"></a>Чтобы настроить файл музыки, выполните следующие действия
 
-1. Войдите в систему на компьютере, на котором установлена консоль управления Skype для бизнеса Server, в качестве участника группы Рткуниверсалсерверадминс или с необходимыми правами пользователя, описанными в разделе **Делегирование разрешений на настройку**.
+1. Войдите на компьютер, на котором установлена оболочка управления Skype для бизнеса Server, в качестве члена группы RTCUniversalServerAdmins или с необходимыми правами пользователя, как описано в делегирования разрешений на **установку.**
     
-2. Запустите командную консоль Skype для бизнеса: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Skype для бизнеса 2015** и щелкните элемент **Командная консоль Skype для бизнеса**.
+2. Запустите оболочку управления Skype для бизнеса Server: нажмите кнопку "Начните", выберите "Все программы", "Skype для бизнеса **2015",** а затем щелкните "Skype для бизнеса Server Management **Shell".**
     
-3. Выполните следующую команду:
+3. Запустите:
     
    ```powershell
    Set-CsCallParkServiceMusicOnHoldFile -Service <ServiceID where the Call Park application resides> -Content <Byte >
    ```
 
     > [!TIP]
-    > Используйте командлет **Get-CsService** для идентификации службы. Подробности можно найти в [статьях Get-кссервице](https://docs.microsoft.com/powershell/module/skype/get-csservice?view=skype-ps). 
+    > Используйте командлет **Get-CsService** для идентификации службы. Подробные сведения см. в [get-CsService.](https://docs.microsoft.com/powershell/module/skype/get-csservice?view=skype-ps) 
   
-    В следующем примере показано, как получить содержимое файла soothingmusic.wma в виде байтового массива и назначить его переменной. Затем аудиофайл назначается для режима приостановки вызовов в качестве музыки, воспроизводимой при удержании вызова. Подробности можно найти в разделе [Set-кскаллпарксервицемусиконхолдфиле](https://docs.microsoft.com/powershell/module/skype/set-cscallparkservicemusiconholdfile?view=skype-ps).
+    В следующем примере показано, как получить содержимое файла soothingmusic.wma в виде байтового массива и назначить его переменной. Затем аудиофайл назначается для режима приостановки вызовов в качестве музыки, воспроизводимой при удержании вызова. For details, see [Set-CsCallParkServiceMusicOnHoldFile](https://docs.microsoft.com/powershell/module/skype/set-cscallparkservicemusiconholdfile?view=skype-ps).
     
    ```powershell
    $a = Get-Content -ReadCount 0 -Encoding byte "C:\MoHFiles\soothingmusic.wma"

@@ -1,8 +1,8 @@
 ---
 title: Добавление внешнего адреса IPv6 пограничного сервера
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,16 +14,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c9c43d46-374e-4dc9-858c-54a021b69947
 ROBOTS: NOINDEX, NOFOLLOW
-description: Во внешнем IPv6-адресе введите внешний IP-адрес, указывающий на службу пограничного доступа, службу Edge для веб-конференций и службу Edge-V.
-ms.openlocfilehash: f07ac1829882d26d75aace27be9615e65b588ddd
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Во внешнем IPv6-адресе введите внешний IP-адрес, который указывает на побереговую службу доступа, по краям веб-служб и службу A/V Edge.
+ms.openlocfilehash: a800d550ec95f363c358e30fcbb2541b8c311c4b
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41798226"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49835939"
 ---
 # <a name="add-edge-server-external-ipv6"></a>Добавление внешнего адреса IPv6 пограничного сервера
  
-Во **внешнем IPv6-адресе**введите внешний IP-адрес, указывающий на службу пограничного доступа, службу Edge для веб-конференций и службу Edge-V.
+Во **внешнем IPv6-адресе** введите внешний IP-адрес, который указывает на побереговую службу доступа, поехавную службу веб-служб и службу A/V Edge.
   
 

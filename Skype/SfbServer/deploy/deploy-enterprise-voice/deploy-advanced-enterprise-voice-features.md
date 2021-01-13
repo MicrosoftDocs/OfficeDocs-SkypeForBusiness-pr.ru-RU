@@ -1,8 +1,8 @@
 ---
-title: Развертывание улучшенных функций голосовой связи в Skype для бизнеса Server
+title: Развертывание расширенных Корпоративная голосовая связь в Skype для бизнеса Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,33 +15,33 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 286d9c0b-9442-448f-a6e5-95b3034278fe
-description: Развертывание улучшенных функций голосовой связи в Skype для бизнеса Server.
-ms.openlocfilehash: 27d09f842555d008edc96d5b61838508df6836a8
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: Развертывание расширенных Корпоративная голосовая связь в Skype для бизнеса Server.
+ms.openlocfilehash: c3c551e7c0ba7dc8871791141e55d666578a411c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41767682"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49836899"
 ---
-# <a name="deploy-advanced-enterprise-voice-features-in-skype-for-business-server"></a>Развертывание улучшенных функций голосовой связи в Skype для бизнеса Server
+# <a name="deploy-advanced-enterprise-voice-features-in-skype-for-business-server"></a>Развертывание расширенных Корпоративная голосовая связь в Skype для бизнеса Server
  
-Развертывание улучшенных функций голосовой связи в Skype для бизнеса Server.
+Развертывание расширенных Корпоративная голосовая связь в Skype для бизнеса Server.
   
 После настройки базовых функций Enterprise Voice для организации можно при необходимости развернуть одну или несколько расширенных функций Enterprise Voice, выполнив процедуры, описанные в этом разделе. 
   
 - [Планирование обхода мультимедиа в Skype для бизнеса](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)
     
-- [Планирование управления допуском звонков в Skype для бизнеса Server](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)
+- [Планирование контроля допуска звонков в Skype для бизнеса Server](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)
     
-- [Планирование служб экстренной помощи в Skype для бизнеса Server](../../plan-your-deployment/enterprise-voice-solution/emergency-services.md)
+- [Планирование экстренных служб в Skype для бизнеса Server](../../plan-your-deployment/enterprise-voice-solution/emergency-services.md)
     
-## <a name="in-this-section"></a>В этом разделе
+## <a name="in-this-section"></a>В этом разделе:
 
-- [Развертывание регионов сети, сайтов и подсетей в Skype для бизнеса](deploy-network.md)
+- [Развертывание областей сети, сайтов и подсетей в Skype для бизнеса](deploy-network.md)
     
-- [Обходной пропускной рекламы в Skype для бизнеса Server](deploy-media-bypass.md)
+- [Развертывание обхода сервера-посредника в Skype для бизнеса Server](deploy-media-bypass.md)
     
-- [Развертывание элемента управления допуском звонков в Skype для бизнеса Server](deploy-call-admission-control.md)
+- [Развертывание контроля допуска звонков в Skype для бизнеса Server](deploy-call-admission-control.md)
     
 - [Развертывание экстренных служб в Skype для бизнеса Server](deploy-emergency-services.md)
     

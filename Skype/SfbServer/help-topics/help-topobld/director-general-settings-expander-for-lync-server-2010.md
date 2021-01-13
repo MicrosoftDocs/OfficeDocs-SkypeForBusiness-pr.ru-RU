@@ -1,8 +1,8 @@
 ---
 title: Расширитель общих параметров директора для Lync Server 2010
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,29 +14,29 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 67bd625d-f093-4218-a869-768813c54dad
-description: 'Чтобы настроить общие свойства директора или пула директоров:'
-ms.openlocfilehash: d61bc52500c254ed43a1804d3094623dd0c8be1b
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+description: 'Настройка общих свойств директора или пула директоров:'
+ms.openlocfilehash: e31dcf72297bfcbc9afd4f45e232de71c5620b7b
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48219030"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49835359"
 ---
 # <a name="director-general-settings-expander-for-lync-server-2010"></a>Расширитель общих параметров директора для Lync Server 2010
  
-Чтобы настроить **Общие** свойства директора или пула директоров:
+Настройка **общих** свойств директора или пула директоров:
   
- **Полное**доменное имя: введите полное доменное имя директора или пула директоров.
+ **Полное доменное имя:** введите полное доменное имя директора или пула директоров
   
- **Связанных**
+ **Связи**
   
- **Хранилище файлов**: выберите в списке хранилище файлов для директора или пула директоров.
+ **Хранилище файлов:** выберите в списке хранилище файлов для директора или пула директоров
   
 Щелкните **Создать** для определения нового хранилища файлов
   
-Установите флажок **сопоставить сервер мониторинга** и выберите сервер мониторинга из списка.
+Select the **Associate Monitoring Server** check box and select a Monitoring Server from the list
   
-Нажмите кнопку **создать** , чтобы определить новый сервер мониторинга
+Нажмите **кнопку** "Новое", чтобы определить новый сервер мониторинга
   
  При нажатии кнопки **ОК** выполняется принятие и сохранение изменений в этом диалоговом окне.
   
