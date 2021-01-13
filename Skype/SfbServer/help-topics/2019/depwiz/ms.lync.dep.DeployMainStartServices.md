@@ -1,8 +1,8 @@
 ---
 title: Запуск служб
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,19 +14,19 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: efaf7b2a-257f-4aef-9c25-40ea93b03ef4
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Чтобы запустить службы на развернутой роли сервера, нажмите кнопку выполнить на шаге 4: запуск служб. Вы должны войти в систему в качестве члена локальной группы администраторов или эквивалента.'
-ms.openlocfilehash: 2f80e613d79613fb3e03837a9059306196638b84
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Чтобы запустить службы в развернутой роли сервера, нажмите кнопку "Выполнить в шаге 4. Запуск служб". Вы должны войти в систему в качестве члена локальной группы администраторов или эквивалента.
+ms.openlocfilehash: 73dd906ff5cc86a5c3606d82ca665bb6c689a928
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794788"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49833769"
 ---
-# <a name="start-services"></a><span data-ttu-id="d12f9-104">Запуск служб</span><span class="sxs-lookup"><span data-stu-id="d12f9-104">Start Services</span></span>
+# <a name="start-services"></a><span data-ttu-id="2d269-104">Запуск служб</span><span class="sxs-lookup"><span data-stu-id="2d269-104">Start Services</span></span>
  
-<span data-ttu-id="d12f9-105">Чтобы запустить службы на развернутой роли сервера, нажмите кнопку **выполнить** на **шаге 4: запуск служб**.</span><span class="sxs-lookup"><span data-stu-id="d12f9-105">To start the services on the deployed server role, click **Run** in **Step 4: Start Services**.</span></span> <span data-ttu-id="d12f9-106">Вы должны войти в систему в качестве члена локальной группы администраторов или эквивалента.</span><span class="sxs-lookup"><span data-stu-id="d12f9-106">You must be logged on as a member of the local Administrators group or an equivalent.</span></span> 
+<span data-ttu-id="2d269-p102">Чтобы запустить службы для развернутой роли сервера, нажмите кнопку **Выполнить** в окне **Шаг 4. Запустить службы**. Вы должны войти как участник локальной группы администраторов или пользователь с эквивалентными правами.</span><span class="sxs-lookup"><span data-stu-id="2d269-p102">To start the services on the deployed server role, click **Run** in **Step 4: Start Services**. You must be logged on as a member of the local Administrators group or an equivalent.</span></span> 
   
 > [!NOTE]
-> <span data-ttu-id="d12f9-107">Если запущены **службы starting Services** , вы можете повторно запустить ее, нажав кнопку **выполнить еще раз**.</span><span class="sxs-lookup"><span data-stu-id="d12f9-107">If **Start Services** has been run, you can rerun the command by clicking **Run Again**.</span></span> 
+> <span data-ttu-id="2d269-107">Если задача **Запустить службы** уже была запущена, вы можете перезапустить ее, нажав кнопку **Перезапуск**.</span><span class="sxs-lookup"><span data-stu-id="2d269-107">If **Start Services** has been run, you can rerun the command by clicking **Run Again**.</span></span> 
   
 

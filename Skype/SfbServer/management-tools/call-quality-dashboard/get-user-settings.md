@@ -1,8 +1,8 @@
 ---
 title: Получение параметров пользователя
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,44 +12,44 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: bdfe063b-e808-4f3c-884a-acbbabb9be0a
-description: 'Сводка: сведения о команде "получить параметры пользователя", которая входит в состав службы параметров пользователя. Служба параметров пользователя входит в API репозитория для панели мониторинга качества звонков. Панель мониторинга качества звонков — это средство для Skype для бизнеса Server.'
-ms.openlocfilehash: 5b5ad679387866ba6562e031b6d3a42cc68851a0
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Сводка. Сведения об операции "Получить параметры пользователя", которая входит в состав службы параметров пользователей. Служба параметров пользователя является частью API репозитория для панели мониторинга качества вызовов. Панель мониторинга качества звонков — это инструмент для Skype для бизнеса Server.
+ms.openlocfilehash: e2ebf39ba5a7de5d36a8b1ea0441808b6e71f97b
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816748"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49832479"
 ---
-# <a name="get-user-settings"></a><span data-ttu-id="4783f-105">Получение параметров пользователя</span><span class="sxs-lookup"><span data-stu-id="4783f-105">Get User Settings</span></span>
+# <a name="get-user-settings"></a><span data-ttu-id="85ce2-105">Получение параметров пользователя</span><span class="sxs-lookup"><span data-stu-id="85ce2-105">Get User Settings</span></span>
  
-<span data-ttu-id="4783f-106">**Сводка:** Сведения о выполнении операции получения параметров пользователя, которая входит в состав службы параметров пользователя.</span><span class="sxs-lookup"><span data-stu-id="4783f-106">**Summary:** Learn about the Get User Settings operation, which is part of the User Settings Service.</span></span> <span data-ttu-id="4783f-107">Служба параметров пользователя входит в API репозитория для панели мониторинга качества звонков.</span><span class="sxs-lookup"><span data-stu-id="4783f-107">The User Settings Service is part of the Repository API for Call Quality Dashboard.</span></span> <span data-ttu-id="4783f-108">Панель мониторинга качества звонков — это средство для Skype для бизнеса Server.</span><span class="sxs-lookup"><span data-stu-id="4783f-108">Call Quality Dashboard is a tool for Skype for Business Server.</span></span>
+<span data-ttu-id="85ce2-106">**Сводка:** Узнайте об операции "Получить параметры пользователя", которая входит в состав службы параметров пользователей.</span><span class="sxs-lookup"><span data-stu-id="85ce2-106">**Summary:** Learn about the Get User Settings operation, which is part of the User Settings Service.</span></span> <span data-ttu-id="85ce2-107">Служба параметров пользователя является частью API репозитория для панели мониторинга качества вызовов.</span><span class="sxs-lookup"><span data-stu-id="85ce2-107">The User Settings Service is part of the Repository API for Call Quality Dashboard.</span></span> <span data-ttu-id="85ce2-108">Панель мониторинга качества звонков — это инструмент для Skype для бизнеса Server.</span><span class="sxs-lookup"><span data-stu-id="85ce2-108">Call Quality Dashboard is a tool for Skype for Business Server.</span></span>
   
-<span data-ttu-id="4783f-109">Операция "получить параметры пользователя" входит в состав службы параметров пользователя в API репозитория для панели мониторинга качества звонков.</span><span class="sxs-lookup"><span data-stu-id="4783f-109">The Get User Settings operation is part of the User Settings Service in the Repository API for Call Quality Dashboard.</span></span>
+<span data-ttu-id="85ce2-109">Операция "Получить параметры пользователя" является частью службы пользовательских параметров в API репозитория для панели мониторинга качества вызовов.</span><span class="sxs-lookup"><span data-stu-id="85ce2-109">The Get User Settings operation is part of the User Settings Service in the Repository API for Call Quality Dashboard.</span></span>
   
-## <a name="get-user-settings"></a><span data-ttu-id="4783f-110">Получение параметров пользователя</span><span class="sxs-lookup"><span data-stu-id="4783f-110">Get User Settings</span></span>
+## <a name="get-user-settings"></a><span data-ttu-id="85ce2-110">Получение параметров пользователя</span><span class="sxs-lookup"><span data-stu-id="85ce2-110">Get User Settings</span></span>
 
-<span data-ttu-id="4783f-111">Получить параметры пользователя возвращает список параметров для указанного пользователя.</span><span class="sxs-lookup"><span data-stu-id="4783f-111">Get User Settings returns a list of settings for a specified user.</span></span>
+<span data-ttu-id="85ce2-111">При этом возвращается список параметров для указанного пользователя.</span><span class="sxs-lookup"><span data-stu-id="85ce2-111">Get User Settings returns a list of settings for a specified user.</span></span>
   
 
-|<span data-ttu-id="4783f-112">**Способов**</span><span class="sxs-lookup"><span data-stu-id="4783f-112">**Method**</span></span>|<span data-ttu-id="4783f-113">**URI запроса**</span><span class="sxs-lookup"><span data-stu-id="4783f-113">**Request URI**</span></span>|<span data-ttu-id="4783f-114">**Версия HTTP**</span><span class="sxs-lookup"><span data-stu-id="4783f-114">**HTTP Version**</span></span>|
+|<span data-ttu-id="85ce2-112">**Способ**</span><span class="sxs-lookup"><span data-stu-id="85ce2-112">**Method**</span></span>|<span data-ttu-id="85ce2-113">**URI запроса**</span><span class="sxs-lookup"><span data-stu-id="85ce2-113">**Request URI**</span></span>|<span data-ttu-id="85ce2-114">**Версия HTTP**</span><span class="sxs-lookup"><span data-stu-id="85ce2-114">**HTTP Version**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="4783f-115">Получить</span><span class="sxs-lookup"><span data-stu-id="4783f-115">GET</span></span>  <br/> |<span data-ttu-id="4783f-116">/Коерепоситорисервице/репоситори/Усер/{усерид}/сеттинг\<портала\>HTTPS://</span><span class="sxs-lookup"><span data-stu-id="4783f-116">https://\<portal\>/QoERepositoryService/repository/user/{userId}/setting</span></span>  <br/> |<span data-ttu-id="4783f-117">HTTP/1.1</span><span class="sxs-lookup"><span data-stu-id="4783f-117">HTTP/1.1</span></span>  <br/> |
+|<span data-ttu-id="85ce2-115">GET</span><span class="sxs-lookup"><span data-stu-id="85ce2-115">GET</span></span>  <br/> |<span data-ttu-id="85ce2-116">https:// \<portal\> /QoERepositoryService/repository/user/{userId}/setting</span><span class="sxs-lookup"><span data-stu-id="85ce2-116">https://\<portal\>/QoERepositoryService/repository/user/{userId}/setting</span></span>  <br/> |<span data-ttu-id="85ce2-117">HTTP/1.1</span><span class="sxs-lookup"><span data-stu-id="85ce2-117">HTTP/1.1</span></span>  <br/> |
    
- <span data-ttu-id="4783f-118">**Параметры URI**</span><span class="sxs-lookup"><span data-stu-id="4783f-118">**URI Parameters**</span></span>
+ <span data-ttu-id="85ce2-118">**Параметры URI**</span><span class="sxs-lookup"><span data-stu-id="85ce2-118">**URI Parameters**</span></span>
   
-- <span data-ttu-id="4783f-119">*эффективная* — необязательный.</span><span class="sxs-lookup"><span data-stu-id="4783f-119">*effective*  - Optional.</span></span> <span data-ttu-id="4783f-120">Этот параметр применяется только в том случае, если используется специальный идентификатор пользователя по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="4783f-120">This parameter applies only when the special user ID default is used.</span></span> <span data-ttu-id="4783f-121">В других случаях оно будет игнорироваться.</span><span class="sxs-lookup"><span data-stu-id="4783f-121">In other cases, it will be ignored.</span></span> <span data-ttu-id="4783f-122">`True`Возвращает действующие пользовательские параметры и `false` возвращает только пользовательские параметры (по умолчанию).</span><span class="sxs-lookup"><span data-stu-id="4783f-122">`True` returns effective user settings and `false` returns just user settings (default).</span></span>
+- <span data-ttu-id="85ce2-119">*effective*  — необязательный.</span><span class="sxs-lookup"><span data-stu-id="85ce2-119">*effective*  - Optional.</span></span> <span data-ttu-id="85ce2-120">Этот параметр применяется, только если используется специальный ИД пользователя по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="85ce2-120">This parameter applies only when the special user ID default is used.</span></span> <span data-ttu-id="85ce2-121">В других случаях он будет игнорироваться.</span><span class="sxs-lookup"><span data-stu-id="85ce2-121">In other cases, it will be ignored.</span></span> <span data-ttu-id="85ce2-122">`True` возвращает эффективные параметры пользователя и `false` возвращает только параметры пользователя (по умолчанию).</span><span class="sxs-lookup"><span data-stu-id="85ce2-122">`True` returns effective user settings and `false` returns just user settings (default).</span></span>
     
-  <span data-ttu-id="4783f-123">**Заголовки запроса** — без дополнительных заголовков.</span><span class="sxs-lookup"><span data-stu-id="4783f-123">**Request Headers** - No additional headers.</span></span>
+  <span data-ttu-id="85ce2-123">**Request Headers** - No additional headers.</span><span class="sxs-lookup"><span data-stu-id="85ce2-123">**Request Headers** - No additional headers.</span></span>
   
-  <span data-ttu-id="4783f-124">**Запросить текст** -None.</span><span class="sxs-lookup"><span data-stu-id="4783f-124">**Request Body** - None.</span></span>
+  <span data-ttu-id="85ce2-124">**Тело запроса** — нет.</span><span class="sxs-lookup"><span data-stu-id="85ce2-124">**Request Body** - None.</span></span>
   
-  <span data-ttu-id="4783f-125">**Response (ответ** ) — ответ включает код состояния HTTP и набор заголовков ответа.</span><span class="sxs-lookup"><span data-stu-id="4783f-125">**Response** - The response includes an HTTP status code and a set of response headers.</span></span>
+  <span data-ttu-id="85ce2-125">**Ответ.** Ответ включает код состояния HTTP и набор загодеров отклика.</span><span class="sxs-lookup"><span data-stu-id="85ce2-125">**Response** - The response includes an HTTP status code and a set of response headers.</span></span>
   
-  <span data-ttu-id="4783f-126">**Код состояния** — успешная операция возвращает код состояния 200 (ОК).</span><span class="sxs-lookup"><span data-stu-id="4783f-126">**Status Code** - A successful operation returns status code 200 (OK).</span></span>
+  <span data-ttu-id="85ce2-126">**Код состояния** — успешная операция возвращает код состояния 200 (OK).</span><span class="sxs-lookup"><span data-stu-id="85ce2-126">**Status Code** - A successful operation returns status code 200 (OK).</span></span>
   
-  <span data-ttu-id="4783f-127">**Заголовки ответа** — без дополнительных заголовков.</span><span class="sxs-lookup"><span data-stu-id="4783f-127">**Response Headers** - No additional headers.</span></span>
+  <span data-ttu-id="85ce2-127">**Response Headers** - No additional headers.</span><span class="sxs-lookup"><span data-stu-id="85ce2-127">**Response Headers** - No additional headers.</span></span>
   
-  <span data-ttu-id="4783f-128">**Тело ответа** — ниже показан пример полезных данных ответа в JSON.</span><span class="sxs-lookup"><span data-stu-id="4783f-128">**Response Body** - Below is a sample response payload in JSON.</span></span>
+  <span data-ttu-id="85ce2-128">**Тело ответа.** Ниже приведен пример полезной нагрузки ответа в JSON.</span><span class="sxs-lookup"><span data-stu-id="85ce2-128">**Response Body** - Below is a sample response payload in JSON.</span></span>
   
 ```json
 [{

@@ -1,8 +1,8 @@
 ---
 title: Получение последних данных интеграции
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,44 +12,44 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: e7967dd9-0d6a-4a80-8b59-b8fc2e5615f8
-description: 'Сводка: сведения о функции "получить последнюю интеграцию данных", которая входит в API данных для панели мониторинга качества звонков. Панель мониторинга качества звонков — это средство для Skype для бизнеса Server.'
-ms.openlocfilehash: a4b455a543dd77f0edce223f43d64fe5c03e4bcb
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+description: Сводка. Сведения об операции "Получить последние данные интеграции", которая является частью API данных для панели мониторинга качества вызовов. Панель мониторинга качества звонков — это инструмент для Skype для бизнеса Server.
+ms.openlocfilehash: c40041e41e04d2bdc62a9eb9fa1eb699697a5b3d
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888798"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49832519"
 ---
-# <a name="get-last-integration-data"></a><span data-ttu-id="15be4-104">Получение последних данных интеграции</span><span class="sxs-lookup"><span data-stu-id="15be4-104">Get Last Integration Data</span></span>
+# <a name="get-last-integration-data"></a><span data-ttu-id="69c34-104">Получение последних данных интеграции</span><span class="sxs-lookup"><span data-stu-id="69c34-104">Get Last Integration Data</span></span>
  
-<span data-ttu-id="15be4-105">**Сводка:** Узнайте о том, как получить последнюю операцию с данными интеграции, которая входит в API данных для панели мониторинга качества звонков.</span><span class="sxs-lookup"><span data-stu-id="15be4-105">**Summary:** Learn about the Get Last Integration Data operation, which is part of the Data API for Call Quality Dashboard.</span></span> <span data-ttu-id="15be4-106">Панель мониторинга качества звонков — это средство для Skype для бизнеса Server.</span><span class="sxs-lookup"><span data-stu-id="15be4-106">Call Quality Dashboard is a tool for Skype for Business Server.</span></span>
+<span data-ttu-id="69c34-105">**Сводка:** Сведения об операции "Получить данные последней интеграции", которая входит в API данных для панели мониторинга качества вызовов.</span><span class="sxs-lookup"><span data-stu-id="69c34-105">**Summary:** Learn about the Get Last Integration Data operation, which is part of the Data API for Call Quality Dashboard.</span></span> <span data-ttu-id="69c34-106">Панель мониторинга качества звонков — это инструмент для Skype для бизнеса Server.</span><span class="sxs-lookup"><span data-stu-id="69c34-106">Call Quality Dashboard is a tool for Skype for Business Server.</span></span>
   
-<span data-ttu-id="15be4-107">Операция "получить последнюю интеграцию данных" входит в API данных для панели мониторинга качества звонков.</span><span class="sxs-lookup"><span data-stu-id="15be4-107">The Get Last Integration Data operation is part of the Data API for Call Quality Dashboard.</span></span>
+<span data-ttu-id="69c34-107">Операция "Получить последние данные интеграции" является частью API данных для панели мониторинга качества вызовов.</span><span class="sxs-lookup"><span data-stu-id="69c34-107">The Get Last Integration Data operation is part of the Data API for Call Quality Dashboard.</span></span>
   
-## <a name="get-last-integration-data"></a><span data-ttu-id="15be4-108">Получение последних данных интеграции</span><span class="sxs-lookup"><span data-stu-id="15be4-108">Get Last Integration Data</span></span>
+## <a name="get-last-integration-data"></a><span data-ttu-id="69c34-108">Получение последних данных интеграции</span><span class="sxs-lookup"><span data-stu-id="69c34-108">Get Last Integration Data</span></span>
 
-<span data-ttu-id="15be4-109">Функция "получить последнюю интеграцию данных" возвращает список последних 5 успешных и неудачных операций архивации и обработки кубов.</span><span class="sxs-lookup"><span data-stu-id="15be4-109">Get Last Integration Data operation returns the list of last 5 success/failure of archiving and cube processing.</span></span>
+<span data-ttu-id="69c34-109">Операция "Получить данные последней интеграции" возвращает список последних 5 успешных или неудачных операций архивации и обработки куба.</span><span class="sxs-lookup"><span data-stu-id="69c34-109">Get Last Integration Data operation returns the list of last 5 success/failure of archiving and cube processing.</span></span>
   
-<span data-ttu-id="15be4-110">Эта функция отключена по умолчанию, и ее необходимо включить, настроив API данных.</span><span class="sxs-lookup"><span data-stu-id="15be4-110">This feature is disabled by default and it needs to be enabled by configuring the Data API.</span></span>
+<span data-ttu-id="69c34-110">Эта функция по умолчанию отключена, и ее необходимо включить, настроив API данных.</span><span class="sxs-lookup"><span data-stu-id="69c34-110">This feature is disabled by default and it needs to be enabled by configuring the Data API.</span></span>
   
 
-|<span data-ttu-id="15be4-111">**Способов**</span><span class="sxs-lookup"><span data-stu-id="15be4-111">**Method**</span></span>|<span data-ttu-id="15be4-112">**URI запроса**</span><span class="sxs-lookup"><span data-stu-id="15be4-112">**Request URI**</span></span>|<span data-ttu-id="15be4-113">**Версия HTTP**</span><span class="sxs-lookup"><span data-stu-id="15be4-113">**HTTP Version**</span></span>|
+|<span data-ttu-id="69c34-111">**Способ**</span><span class="sxs-lookup"><span data-stu-id="69c34-111">**Method**</span></span>|<span data-ttu-id="69c34-112">**URI запроса**</span><span class="sxs-lookup"><span data-stu-id="69c34-112">**Request URI**</span></span>|<span data-ttu-id="69c34-113">**Версия HTTP**</span><span class="sxs-lookup"><span data-stu-id="69c34-113">**HTTP Version**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="15be4-114">Получить</span><span class="sxs-lookup"><span data-stu-id="15be4-114">GET</span></span>  <br/> |<span data-ttu-id="15be4-115">/Коедатасервице/интегратионлог/статус\<портала\>HTTPS://</span><span class="sxs-lookup"><span data-stu-id="15be4-115">https://\<portal\>/QoEDataService/IntegrationLog/Status</span></span>  <br/> |<span data-ttu-id="15be4-116">HTTP/1.1</span><span class="sxs-lookup"><span data-stu-id="15be4-116">HTTP/1.1</span></span>  <br/> |
+|<span data-ttu-id="69c34-114">GET</span><span class="sxs-lookup"><span data-stu-id="69c34-114">GET</span></span>  <br/> |<span data-ttu-id="69c34-115">https:// \<portal\> /QoEDataService/IntegrationLog/Status</span><span class="sxs-lookup"><span data-stu-id="69c34-115">https://\<portal\>/QoEDataService/IntegrationLog/Status</span></span>  <br/> |<span data-ttu-id="69c34-116">HTTP/1.1</span><span class="sxs-lookup"><span data-stu-id="69c34-116">HTTP/1.1</span></span>  <br/> |
    
- <span data-ttu-id="15be4-117">**Параметры универсального кода ресурса** (None).</span><span class="sxs-lookup"><span data-stu-id="15be4-117">**URI Parameters** - None.</span></span>
+ <span data-ttu-id="69c34-117">**Параметры URI** — нет.</span><span class="sxs-lookup"><span data-stu-id="69c34-117">**URI Parameters** - None.</span></span>
   
- <span data-ttu-id="15be4-118">**Заголовки запроса** — без дополнительных заголовков.</span><span class="sxs-lookup"><span data-stu-id="15be4-118">**Request Headers** - No additional headers.</span></span>
+ <span data-ttu-id="69c34-118">**Request Headers** - No additional headers.</span><span class="sxs-lookup"><span data-stu-id="69c34-118">**Request Headers** - No additional headers.</span></span>
   
- <span data-ttu-id="15be4-119">**Запросить текст** -None.</span><span class="sxs-lookup"><span data-stu-id="15be4-119">**Request Body** - None.</span></span>
+ <span data-ttu-id="69c34-119">**Тело запроса** — нет.</span><span class="sxs-lookup"><span data-stu-id="69c34-119">**Request Body** - None.</span></span>
   
- <span data-ttu-id="15be4-120">**Response (ответ** ) — ответ включает код состояния HTTP и набор заголовков ответа.</span><span class="sxs-lookup"><span data-stu-id="15be4-120">**Response** - The response includes an HTTP status code and a set of response headers.</span></span>
+ <span data-ttu-id="69c34-120">**Ответ.** Ответ включает код состояния HTTP и набор загодеров отклика.</span><span class="sxs-lookup"><span data-stu-id="69c34-120">**Response** - The response includes an HTTP status code and a set of response headers.</span></span>
   
- <span data-ttu-id="15be4-121">**Код состояния** — успешная операция возвращает код состояния 200 (ОК).</span><span class="sxs-lookup"><span data-stu-id="15be4-121">**Status Code** - A successful operation returns status code 200 (OK).</span></span>
+ <span data-ttu-id="69c34-121">**Код состояния** : успешная операция возвращает код состояния 200 (OK).</span><span class="sxs-lookup"><span data-stu-id="69c34-121">**Status Code** - A successful operation returns status code 200 (OK).</span></span>
   
- <span data-ttu-id="15be4-122">**Заголовки ответа** — без дополнительных заголовков.</span><span class="sxs-lookup"><span data-stu-id="15be4-122">**Response Headers** - No additional headers.</span></span>
+ <span data-ttu-id="69c34-122">**Response Headers** - No additional headers.</span><span class="sxs-lookup"><span data-stu-id="69c34-122">**Response Headers** - No additional headers.</span></span>
   
- <span data-ttu-id="15be4-123">**Текст ответа** — ниже показан пример состояния журнала.</span><span class="sxs-lookup"><span data-stu-id="15be4-123">**Response Body** - Below is a sample log status.</span></span>
+ <span data-ttu-id="69c34-123">**Тело ответа** — ниже приведен пример состояния журнала.</span><span class="sxs-lookup"><span data-stu-id="69c34-123">**Response Body** - Below is a sample log status.</span></span>
   
 ```json
 {

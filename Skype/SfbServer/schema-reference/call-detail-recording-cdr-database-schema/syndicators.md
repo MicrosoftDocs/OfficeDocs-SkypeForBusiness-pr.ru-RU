@@ -1,8 +1,8 @@
 ---
-title: Таблица "синдикации"
+title: Таблица Syndicators
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -12,16 +12,16 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 98739cb8-829e-4baf-90f4-597cb894521e
-description: Синдикаторстабле только для внутреннего использования. Эта таблица введена в Microsoft Lync Server 2013.
-ms.openlocfilehash: 907af7bbc7563a8867fa0a2380df255b8aad2b47
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Таблица SyndicatorsTable предназначена для внутреннего использования. Эта таблица была представлена в Microsoft Lync Server 2013.
+ms.openlocfilehash: c1aaadba404a1f3a82ef5a4e7b4b0108697ef79a
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814887"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49831799"
 ---
-# <a name="syndicators-table"></a><span data-ttu-id="5df77-104">Таблица "синдикации"</span><span class="sxs-lookup"><span data-stu-id="5df77-104">Syndicators table</span></span>
+# <a name="syndicators-table"></a><span data-ttu-id="3e137-104">Таблица Syndicators</span><span class="sxs-lookup"><span data-stu-id="3e137-104">Syndicators table</span></span>
  
-<span data-ttu-id="5df77-105">Синдикаторстабле только для внутреннего использования.</span><span class="sxs-lookup"><span data-stu-id="5df77-105">The SyndicatorsTable is for internal use only.</span></span> <span data-ttu-id="5df77-106">Эта таблица введена в Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="5df77-106">This table was introduced in Microsoft Lync Server 2013.</span></span>
+<span data-ttu-id="3e137-105">Таблица SyndicatorsTable предназначена для внутреннего использования.</span><span class="sxs-lookup"><span data-stu-id="3e137-105">The SyndicatorsTable is for internal use only.</span></span> <span data-ttu-id="3e137-106">Эта таблица была представлена в Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="3e137-106">This table was introduced in Microsoft Lync Server 2013.</span></span>
   
 

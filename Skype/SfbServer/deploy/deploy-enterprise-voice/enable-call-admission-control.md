@@ -1,8 +1,8 @@
 ---
-title: Включение управления допуском звонков в Skype для бизнеса Server
+title: Включить контроль допуска звонков в Skype для бизнеса Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,57 +15,57 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 80201105-18f7-4c02-9c71-8df5a952f6c7
-description: Включите управление допуском звонков в корпоративной голосовой связи Skype для бизнеса Server.
-ms.openlocfilehash: c5fc500b4e0839b4db43bd229087b3a6bcc7e644
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: Включить контроль допуска звонков в Skype для бизнеса Server Корпоративная голосовая связь.
+ms.openlocfilehash: 9ea8b03b48827abbb73e3d6e93ffb88ab93ad1ff
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41767292"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49831019"
 ---
-# <a name="enable-call-admission-control-in-skype-for-business-server"></a><span data-ttu-id="1a2f2-103">Включение управления допуском звонков в Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="1a2f2-103">Enable call admission control in Skype for Business Server</span></span>
+# <a name="enable-call-admission-control-in-skype-for-business-server"></a><span data-ttu-id="cafa1-103">Включить контроль допуска звонков в Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="cafa1-103">Enable call admission control in Skype for Business Server</span></span>
  
-<span data-ttu-id="1a2f2-104">Включите управление допуском звонков в корпоративной голосовой связи Skype для бизнеса Server.</span><span class="sxs-lookup"><span data-stu-id="1a2f2-104">Enable call admission control in Skype for Business Server Enterprise Voice.</span></span> 
+<span data-ttu-id="cafa1-104">Включить контроль допуска звонков в Skype для бизнеса Server Корпоративная голосовая связь.</span><span class="sxs-lookup"><span data-stu-id="cafa1-104">Enable call admission control in Skype for Business Server Enterprise Voice.</span></span> 
   
-<span data-ttu-id="1a2f2-105">Чтобы политики пропускной способности сети вступили в силу, необходимо включить службу контроля допуска звонков (после настройки параметров сети для развертывания этой службы).</span><span class="sxs-lookup"><span data-stu-id="1a2f2-105">After you have configured your network settings for call admission control deployment, you must enable CAC to put your bandwidth policies into effect.</span></span>
+<span data-ttu-id="cafa1-105">Чтобы политики пропускной способности сети вступили в силу, необходимо включить службу контроля допуска звонков (после настройки параметров сети для развертывания этой службы).</span><span class="sxs-lookup"><span data-stu-id="cafa1-105">After you have configured your network settings for call admission control deployment, you must enable CAC to put your bandwidth policies into effect.</span></span>
   
-### <a name="to-enable-call-admission-control-by-using-skype-for-business-server-management-shell"></a><span data-ttu-id="1a2f2-106">Включение управления допуском звонков с помощью командной консоли Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="1a2f2-106">To enable call admission control by using Skype for Business Server Management Shell</span></span>
+### <a name="to-enable-call-admission-control-by-using-skype-for-business-server-management-shell"></a><span data-ttu-id="cafa1-106">To enable call admission control by using Skype for Business Server Management Shell</span><span class="sxs-lookup"><span data-stu-id="cafa1-106">To enable call admission control by using Skype for Business Server Management Shell</span></span>
 
-1. <span data-ttu-id="1a2f2-107">Запустите командную консоль Skype для бизнеса: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Skype для бизнеса 2015** и щелкните элемент **Командная консоль Skype для бизнеса**.</span><span class="sxs-lookup"><span data-stu-id="1a2f2-107">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
+1. <span data-ttu-id="cafa1-107">Запустите оболочку управления Skype для бизнеса Server: нажмите кнопку "Начните", выберите "Все программы", "Skype для бизнеса **2015",** а затем щелкните "Skype для бизнеса Server Management **Shell".**</span><span class="sxs-lookup"><span data-stu-id="cafa1-107">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
     
-2. <span data-ttu-id="1a2f2-p101">Чтобы включить службу контроля допуска звонков в сети, выполните командлет Set-CsNetworkConfiguration. Пример:</span><span class="sxs-lookup"><span data-stu-id="1a2f2-p101">Run the Set-CsNetworkConfiguration cmdlet to enable CAC in your network. For example, run:</span></span>
+2. <span data-ttu-id="cafa1-p101">Чтобы включить службу контроля допуска звонков в сети, выполните командлет Set-CsNetworkConfiguration. Пример:</span><span class="sxs-lookup"><span data-stu-id="cafa1-p101">Run the Set-CsNetworkConfiguration cmdlet to enable CAC in your network. For example, run:</span></span>
     
    ```powershell
    Set-CsNetworkConfiguration -EnableBandwidthPolicyCheck 1
    ```
 
-    <span data-ttu-id="1a2f2-110">Чтобы отключить службу контроля допуска звонков в сети, выполните следующий командлет:</span><span class="sxs-lookup"><span data-stu-id="1a2f2-110">If you want to disable CAC in your network, run the following:</span></span>
+    <span data-ttu-id="cafa1-110">Чтобы отключить службу контроля допуска звонков в сети, выполните следующий командлет:</span><span class="sxs-lookup"><span data-stu-id="cafa1-110">If you want to disable CAC in your network, run the following:</span></span>
     
    ```powershell
    Set-CsNetworkConfiguration -EnableBandwidthPolicyCheck 0
    ```
 
-### <a name="to-enable-call-admission-control-by-using-skype-for-business-server-control-panel"></a><span data-ttu-id="1a2f2-111">Включение управления допуском звонков с помощью панели управления "Skype для бизнеса" на сервере</span><span class="sxs-lookup"><span data-stu-id="1a2f2-111">To enable call admission control by using Skype for Business Server Control Panel</span></span>
+### <a name="to-enable-call-admission-control-by-using-skype-for-business-server-control-panel"></a><span data-ttu-id="cafa1-111">Чтобы включить контроль допуска звонков с помощью панели управления Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="cafa1-111">To enable call admission control by using Skype for Business Server Control Panel</span></span>
 
-1. <span data-ttu-id="1a2f2-112">Откройте панель управления Skype для бизнеса Server.</span><span class="sxs-lookup"><span data-stu-id="1a2f2-112">Open Skype for Business Server Control Panel.</span></span>
+1. <span data-ttu-id="cafa1-112">Откройте панель управления Skype для бизнеса Server.</span><span class="sxs-lookup"><span data-stu-id="cafa1-112">Open Skype for Business Server Control Panel.</span></span>
     
-2. <span data-ttu-id="1a2f2-113">В левой области навигации щелкните элемент **Конфигурация сети**.</span><span class="sxs-lookup"><span data-stu-id="1a2f2-113">In the left navigation bar, click **Network Configuration**.</span></span>
+2. <span data-ttu-id="cafa1-113">В левой панели навигации щелкните **Network Configuration** (Параметры сети).</span><span class="sxs-lookup"><span data-stu-id="cafa1-113">In the left navigation bar, click **Network Configuration**.</span></span>
     
-3. <span data-ttu-id="1a2f2-114">Нажмите кнопку навигации **Глобальные**.</span><span class="sxs-lookup"><span data-stu-id="1a2f2-114">Click the **Global** navigation button.</span></span>
+3. <span data-ttu-id="cafa1-114">Нажмите кнопку навигации **Global** (Глобальные).</span><span class="sxs-lookup"><span data-stu-id="cafa1-114">Click the **Global** navigation button.</span></span>
     
-4. <span data-ttu-id="1a2f2-115">Выберите **Глобальные** в списке и затем в меню **Изменить** выберите **Показать сведения**.</span><span class="sxs-lookup"><span data-stu-id="1a2f2-115">Click **Global** in the list, and then select **Show Details** on the **Edit** menu.</span></span>
+4. <span data-ttu-id="cafa1-115">Выберите **Global** (Глобальные) в списке и затем в меню **Edit** (Изменить) выберите **Show Details** (Показать сведения).</span><span class="sxs-lookup"><span data-stu-id="cafa1-115">Click **Global** in the list, and then select **Show Details** on the **Edit** menu.</span></span>
     
-5. <span data-ttu-id="1a2f2-116">На странице **Изменение глобальных параметров** установите флажок **Включить контроль допуска звонков**.</span><span class="sxs-lookup"><span data-stu-id="1a2f2-116">On the **Edit Global Settings** page, select the **Enable call admission control** check box.</span></span>
+5. <span data-ttu-id="cafa1-116">На странице **Edit Global Settings** (Изменение глобальных параметров) установите флажок **Enable call admission control** (Включить службу контроля допуска звонков).</span><span class="sxs-lookup"><span data-stu-id="cafa1-116">On the **Edit Global Settings** page, select the **Enable call admission control** check box.</span></span>
     
     > [!NOTE]
-    > <span data-ttu-id="1a2f2-117">Чтобы отключить службу контроля допуска звонков во всем развертывании, снимите этот флажок.</span><span class="sxs-lookup"><span data-stu-id="1a2f2-117">If you want to disable call admission control throughout your deployment, clear this check box.</span></span> 
+    > <span data-ttu-id="cafa1-117">Чтобы отключить службу контроля допуска звонков во всем развертывании, снимите этот флажок.</span><span class="sxs-lookup"><span data-stu-id="cafa1-117">If you want to disable call admission control throughout your deployment, clear this check box.</span></span> 
   
-6. <span data-ttu-id="1a2f2-118">Нажмите **Исполнить**.</span><span class="sxs-lookup"><span data-stu-id="1a2f2-118">Click **Commit**.</span></span> 
+6. <span data-ttu-id="cafa1-118">Щелкните **Commit** (Применить).</span><span class="sxs-lookup"><span data-stu-id="cafa1-118">Click **Commit**.</span></span> 
     
-## <a name="see-also"></a><span data-ttu-id="1a2f2-119">См. также</span><span class="sxs-lookup"><span data-stu-id="1a2f2-119">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="cafa1-119">См. также</span><span class="sxs-lookup"><span data-stu-id="cafa1-119">See also</span></span>
 
-[<span data-ttu-id="1a2f2-120">Get-Кснетворкконфигуратион</span><span class="sxs-lookup"><span data-stu-id="1a2f2-120">Get-CsNetworkConfiguration</span></span>](https://docs.microsoft.com/powershell/module/skype/get-csnetworkconfiguration?view=skype-ps)
+[<span data-ttu-id="cafa1-120">Get-CsNetworkConfiguration</span><span class="sxs-lookup"><span data-stu-id="cafa1-120">Get-CsNetworkConfiguration</span></span>](https://docs.microsoft.com/powershell/module/skype/get-csnetworkconfiguration?view=skype-ps)
   
-[<span data-ttu-id="1a2f2-121">Set-CsNetworkConfiguration</span><span class="sxs-lookup"><span data-stu-id="1a2f2-121">Set-CsNetworkConfiguration</span></span>](https://docs.microsoft.com/powershell/module/skype/set-csnetworkconfiguration?view=skype-ps)
+[<span data-ttu-id="cafa1-121">Set-CsNetworkConfiguration</span><span class="sxs-lookup"><span data-stu-id="cafa1-121">Set-CsNetworkConfiguration</span></span>](https://docs.microsoft.com/powershell/module/skype/set-csnetworkconfiguration?view=skype-ps)
   
-[<span data-ttu-id="1a2f2-122">Remove-CsNetworkConfiguration</span><span class="sxs-lookup"><span data-stu-id="1a2f2-122">Remove-CsNetworkConfiguration</span></span>](https://docs.microsoft.com/powershell/module/skype/remove-csnetworkconfiguration?view=skype-ps)
+[<span data-ttu-id="cafa1-122">Remove-CsNetworkConfiguration</span><span class="sxs-lookup"><span data-stu-id="cafa1-122">Remove-CsNetworkConfiguration</span></span>](https://docs.microsoft.com/powershell/module/skype/remove-csnetworkconfiguration?view=skype-ps)

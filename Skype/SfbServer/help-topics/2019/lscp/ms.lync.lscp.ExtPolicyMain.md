@@ -1,8 +1,8 @@
 ---
 title: Политика внешнего доступа
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,24 +14,24 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 336ef724-ab2f-4215-b689-60248a90917f
 ROBOTS: NOINDEX, NOFOLLOW
-description: Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
-ms.openlocfilehash: 6cbb34744d475cc8a8cf9cbc2e3a4619979bd8cf
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
+ms.openlocfilehash: 888367fa7037199baa3567b18213b8e4097e117c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41797690"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49833749"
 ---
-# <a name="external-access-policy"></a><span data-ttu-id="1f4b6-104">Политика внешнего доступа</span><span class="sxs-lookup"><span data-stu-id="1f4b6-104">External Access Policy</span></span>
+# <a name="external-access-policy"></a><span data-ttu-id="f0b89-104">Политика внешнего доступа</span><span class="sxs-lookup"><span data-stu-id="f0b89-104">External Access Policy</span></span>
 
-<span data-ttu-id="1f4b6-105">Что требуется сделать?</span><span class="sxs-lookup"><span data-stu-id="1f4b6-105">What do you want to do?</span></span> <span data-ttu-id="1f4b6-106">Щелкните ссылку на задачу, которую нужно выполнить.</span><span class="sxs-lookup"><span data-stu-id="1f4b6-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="f0b89-105">Что нужно сделать</span><span class="sxs-lookup"><span data-stu-id="f0b89-105">What do you want to do?</span></span> <span data-ttu-id="f0b89-106">Щелкните ссылку на задачу, которую необходимо выполнить.</span><span class="sxs-lookup"><span data-stu-id="f0b89-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="1f4b6-107">Manage Remote User Access</span><span class="sxs-lookup"><span data-stu-id="1f4b6-107">Manage Remote User Access</span></span>](https://technet.microsoft.com/library/8f556849-692b-44a0-9514-4468fc9a39d0.aspx)
+- [<span data-ttu-id="f0b89-107">Управление удаленным доступом пользователей</span><span class="sxs-lookup"><span data-stu-id="f0b89-107">Manage Remote User Access</span></span>](https://technet.microsoft.com/library/8f556849-692b-44a0-9514-4468fc9a39d0.aspx)
 
-- [<span data-ttu-id="1f4b6-108">Configure Policies to Control Federated User Access</span><span class="sxs-lookup"><span data-stu-id="1f4b6-108">Configure Policies to Control Federated User Access</span></span>](https://technet.microsoft.com/library/5485e208-81e4-4e59-9aeb-1232c11dd8a2.aspx)
+- [<span data-ttu-id="f0b89-108">Настройка политик для управления доступом федераированных пользователей</span><span class="sxs-lookup"><span data-stu-id="f0b89-108">Configure Policies to Control Federated User Access</span></span>](https://technet.microsoft.com/library/5485e208-81e4-4e59-9aeb-1232c11dd8a2.aspx)
 
-- [<span data-ttu-id="1f4b6-109">Configure Policies to Control Access by Users of IM Service Providers</span><span class="sxs-lookup"><span data-stu-id="1f4b6-109">Configure Policies to Control Access by Users of IM Service Providers</span></span>](https://technet.microsoft.com/library/5321598c-1ab1-40e3-b739-4b2e6d0a3a3b.aspx)
+- [<span data-ttu-id="f0b89-109">Настройка политик для управления доступом пользователей поставщиков услуг im</span><span class="sxs-lookup"><span data-stu-id="f0b89-109">Configure Policies to Control Access by Users of IM Service Providers</span></span>](https://technet.microsoft.com/library/5321598c-1ab1-40e3-b739-4b2e6d0a3a3b.aspx)
 
-- [<span data-ttu-id="1f4b6-110">Reset or Delete External User Access Policies</span><span class="sxs-lookup"><span data-stu-id="1f4b6-110">Reset or Delete External User Access Policies</span></span>](https://technet.microsoft.com/library/5f9b4528-f4f1-4d52-816d-156c3c7298ad.aspx)
+- [<span data-ttu-id="f0b89-110">Сброс или удаление политик доступа внешних пользователей</span><span class="sxs-lookup"><span data-stu-id="f0b89-110">Reset or Delete External User Access Policies</span></span>](https://technet.microsoft.com/library/5f9b4528-f4f1-4d52-816d-156c3c7298ad.aspx)
 
 

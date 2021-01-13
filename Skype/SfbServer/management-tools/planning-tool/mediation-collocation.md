@@ -1,8 +1,8 @@
 ---
-title: Выровненное размещение исправлений (средство планирования)
+title: Mediation Collocation (Planning Tool)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 4/8/2016
 audience: ITPro
@@ -13,20 +13,20 @@ f1.keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5ddc2ad3-9275-408a-a0ab-cc7a2c2d2fdc
-description: 'По умолчанию сервер-посредник размещен на сервере переднего плана. Сервер-посредник также может быть развернут в изолированном пуле по соображениям производительности или при развертывании магистральной магистрали SIP, в этом случае настоятельно рекомендуется использовать автономный пул. Совместное размещение в Skype для бизнеса Server работает так же, как и в Lync Server 2013. Дополнительные сведения см. в следующих разделах:'
-ms.openlocfilehash: 29bf9ac043b037112cdd6c7560756ac59caec086
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+description: 'Сервер-посредник по умолчанию размещен вместе с сервером переднего сервера. Сервер-посредник также можно развернуть в отдельном пуле из соображений производительности или при развертывании магистрали SIP. В этом случае настоятельно рекомендуется использовать автономный пул. Выполнимые в Skype для бизнеса Server функции, как и в Lync Server 2013. Дополнительные сведения см. в следующих разделах:'
+ms.openlocfilehash: d4a29a2708b9774a65ed0d2f34bf3bc90717e01c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48216320"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49834659"
 ---
-# <a name="mediation-collocation-planning-tool"></a><span data-ttu-id="83088-106">Выровненное размещение исправлений (средство планирования)</span><span class="sxs-lookup"><span data-stu-id="83088-106">Mediation Collocation (Planning Tool)</span></span>
+# <a name="mediation-collocation-planning-tool"></a><span data-ttu-id="06563-106">Mediation Collocation (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="06563-106">Mediation Collocation (Planning Tool)</span></span>
  
-<span data-ttu-id="83088-107">По умолчанию сервер-посредник размещен на сервере переднего плана.</span><span class="sxs-lookup"><span data-stu-id="83088-107">The Mediation Server is collocated with the Front End Server by default.</span></span> <span data-ttu-id="83088-108">Сервер-посредник также может быть развернут в изолированном пуле по соображениям производительности или при развертывании магистральной магистрали SIP, в этом случае настоятельно рекомендуется использовать автономный пул.</span><span class="sxs-lookup"><span data-stu-id="83088-108">The Mediation Server can also be deployed in a stand-alone pool for performance reasons, or if you deploy SIP trunking, in which case the stand-alone pool is strongly recommended.</span></span> <span data-ttu-id="83088-109">Совместное размещение в Skype для бизнеса Server работает так же, как и в Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="83088-109">Collocation in Skype for Business Server functions just as it did in Lync Server 2013.</span></span> <span data-ttu-id="83088-110">Дополнительные сведения см. в следующих разделах:</span><span class="sxs-lookup"><span data-stu-id="83088-110">For details, see the following topics:</span></span>
+<span data-ttu-id="06563-107">Сервер-посредник по умолчанию размещен вместе с сервером переднего сервера.</span><span class="sxs-lookup"><span data-stu-id="06563-107">The Mediation Server is collocated with the Front End Server by default.</span></span> <span data-ttu-id="06563-108">Сервер-посредник также можно развернуть в отдельном пуле из соображений производительности или при развертывании магистрали SIP. В этом случае настоятельно рекомендуется использовать автономный пул.</span><span class="sxs-lookup"><span data-stu-id="06563-108">The Mediation Server can also be deployed in a stand-alone pool for performance reasons, or if you deploy SIP trunking, in which case the stand-alone pool is strongly recommended.</span></span> <span data-ttu-id="06563-109">Выполнимые в Skype для бизнеса Server функции, как и в Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="06563-109">Collocation in Skype for Business Server functions just as it did in Lync Server 2013.</span></span> <span data-ttu-id="06563-110">Дополнительные сведения см. в следующих разделах:</span><span class="sxs-lookup"><span data-stu-id="06563-110">For details, see the following topics:</span></span>
   
-- [<span data-ttu-id="83088-111">Поддерживаемое выровненное размещение серверов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="83088-111">Supported server collocation in Lync Server 2013</span></span>](https://technet.microsoft.com/library/gg425885%28v=ocs.15%29.aspx)
+- [<span data-ttu-id="06563-111">Поддерживаемый выстоячив сервер в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="06563-111">Supported server collocation in Lync Server 2013</span></span>](https://technet.microsoft.com/library/gg425885%28v=ocs.15%29.aspx)
     
-- [<span data-ttu-id="83088-112">Компонент сервера-посредника в Skype для бизнеса Server 2015</span><span class="sxs-lookup"><span data-stu-id="83088-112">Mediation Server component in Skype for Business Server 2015</span></span>](../../plan-your-deployment/enterprise-voice-solution/mediation-server.md)
+- [<span data-ttu-id="06563-112">Компонент сервера-посредника в Skype для бизнеса Server 2015</span><span class="sxs-lookup"><span data-stu-id="06563-112">Mediation Server component in Skype for Business Server 2015</span></span>](../../plan-your-deployment/enterprise-voice-solution/mediation-server.md)
     
 

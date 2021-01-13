@@ -1,8 +1,8 @@
 ---
-title: Таблица "устройства" в Skype для бизнеса Server 2015
+title: Таблица Devices в Skype для бизнеса Server 2015
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,23 +12,23 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 532e2280-4bbc-4a6c-93da-45d9f80a30a0
-description: Таблица "устройства" является вспомогательной таблицей. Каждая запись хранит информацию об одном устройстве (стационарном телефоне).
-ms.openlocfilehash: e53a8947d106d6a92d7cf5cb881f20022e1bac69
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Таблица устройств является вспомогательной. В каждой записи хранится информация об одном устройстве (стационарный телефон).
+ms.openlocfilehash: da0d6ea8143fb8c81225e885fba1f05a90e2fda5
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815287"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49831819"
 ---
-# <a name="devices-table-in-skype-for-business-server-2015"></a><span data-ttu-id="56a86-104">Таблица "устройства" в Skype для бизнеса Server 2015</span><span class="sxs-lookup"><span data-stu-id="56a86-104">Devices table in Skype for Business Server 2015</span></span>
+# <a name="devices-table-in-skype-for-business-server-2015"></a><span data-ttu-id="c36bc-104">Таблица Devices в Skype для бизнеса Server 2015</span><span class="sxs-lookup"><span data-stu-id="c36bc-104">Devices table in Skype for Business Server 2015</span></span>
  
-<span data-ttu-id="56a86-105">Таблица "устройства" является вспомогательной таблицей.</span><span class="sxs-lookup"><span data-stu-id="56a86-105">The Devices table is a supporting table.</span></span> <span data-ttu-id="56a86-106">Каждая запись хранит информацию об одном устройстве (стационарном телефоне).</span><span class="sxs-lookup"><span data-stu-id="56a86-106">Each record stores information about one device (desk phone).</span></span>
+<span data-ttu-id="c36bc-105">Таблица устройств является вспомогательной.</span><span class="sxs-lookup"><span data-stu-id="c36bc-105">The Devices table is a supporting table.</span></span> <span data-ttu-id="c36bc-106">В каждой записи хранится информация об одном устройстве (стационарный телефон).</span><span class="sxs-lookup"><span data-stu-id="c36bc-106">Each record stores information about one device (desk phone).</span></span>
   
-|<span data-ttu-id="56a86-107">**Столбец**</span><span class="sxs-lookup"><span data-stu-id="56a86-107">**Column**</span></span>|<span data-ttu-id="56a86-108">**Тип данных**</span><span class="sxs-lookup"><span data-stu-id="56a86-108">**Data Type**</span></span>|<span data-ttu-id="56a86-109">**Ключ/индекс**</span><span class="sxs-lookup"><span data-stu-id="56a86-109">**Key/Index**</span></span>|<span data-ttu-id="56a86-110">**Сведения**</span><span class="sxs-lookup"><span data-stu-id="56a86-110">**Details**</span></span>|
+|<span data-ttu-id="c36bc-107">**Столбец**</span><span class="sxs-lookup"><span data-stu-id="c36bc-107">**Column**</span></span>|<span data-ttu-id="c36bc-108">**Тип данных**</span><span class="sxs-lookup"><span data-stu-id="c36bc-108">**Data Type**</span></span>|<span data-ttu-id="c36bc-109">**Ключ/индекс**</span><span class="sxs-lookup"><span data-stu-id="c36bc-109">**Key/Index**</span></span>|<span data-ttu-id="c36bc-110">**Details**</span><span class="sxs-lookup"><span data-stu-id="c36bc-110">**Details**</span></span>|
 |:-----|:-----|:-----|:-----|
-|<span data-ttu-id="56a86-111">**Устройства**</span><span class="sxs-lookup"><span data-stu-id="56a86-111">**DeviceId**</span></span> <br/> |<span data-ttu-id="56a86-112">целое</span><span class="sxs-lookup"><span data-stu-id="56a86-112">int</span></span>  <br/> |<span data-ttu-id="56a86-113">Primary</span><span class="sxs-lookup"><span data-stu-id="56a86-113">Primary</span></span>  <br/> |<span data-ttu-id="56a86-114">Уникальный номер, идентифицирующий эту аппаратную версию.</span><span class="sxs-lookup"><span data-stu-id="56a86-114">Unique number identifying this hardware version.</span></span>  <br/> |
-|<span data-ttu-id="56a86-115">**ManufacturerId**</span><span class="sxs-lookup"><span data-stu-id="56a86-115">**ManufacturerId**</span></span> <br/> |<span data-ttu-id="56a86-116">целое</span><span class="sxs-lookup"><span data-stu-id="56a86-116">int</span></span>  <br/> |<span data-ttu-id="56a86-117">Другом</span><span class="sxs-lookup"><span data-stu-id="56a86-117">Foreign</span></span>  <br/> |<span data-ttu-id="56a86-118">Производитель этого устройства.</span><span class="sxs-lookup"><span data-stu-id="56a86-118">Manufacturer of this device.</span></span> <span data-ttu-id="56a86-119">Более подробную информацию вы увидите [в таблице изготовителей в Skype для бизнеса Server 2015](manufacturers.md) .</span><span class="sxs-lookup"><span data-stu-id="56a86-119">See the [Manufacturers table in Skype for Business Server 2015](manufacturers.md) for more information.</span></span> <br/> |
-|<span data-ttu-id="56a86-120">**хардвареверсионид**</span><span class="sxs-lookup"><span data-stu-id="56a86-120">**HardwareVersionId**</span></span> <br/> |<span data-ttu-id="56a86-121">целое</span><span class="sxs-lookup"><span data-stu-id="56a86-121">int</span></span>  <br/> |<span data-ttu-id="56a86-122">Другом</span><span class="sxs-lookup"><span data-stu-id="56a86-122">Foreign</span></span>  <br/> |<span data-ttu-id="56a86-123">Аппаратная версия этого устройства.</span><span class="sxs-lookup"><span data-stu-id="56a86-123">Hardware version of this device.</span></span> <span data-ttu-id="56a86-124">Для получения дополнительных сведений ознакомьтесь с [таблицей хардвареверсионс в Skype для бизнеса Server 2015](hardwareversions.md) .</span><span class="sxs-lookup"><span data-stu-id="56a86-124">See the [HardwareVersions table in Skype for Business Server 2015](hardwareversions.md) for more information.</span></span> <br/> |
-|<span data-ttu-id="56a86-125">**MacAddress**</span><span class="sxs-lookup"><span data-stu-id="56a86-125">**MacAddress**</span></span> <br/> |<span data-ttu-id="56a86-126">bigint</span><span class="sxs-lookup"><span data-stu-id="56a86-126">bigint</span></span>  <br/> ||<span data-ttu-id="56a86-127">MAC-адрес</span><span class="sxs-lookup"><span data-stu-id="56a86-127">MAC Address</span></span>  <br/> |
+|<span data-ttu-id="c36bc-111">**DeviceId**</span><span class="sxs-lookup"><span data-stu-id="c36bc-111">**DeviceId**</span></span> <br/> |<span data-ttu-id="c36bc-112">int</span><span class="sxs-lookup"><span data-stu-id="c36bc-112">int</span></span>  <br/> |<span data-ttu-id="c36bc-113">Primary</span><span class="sxs-lookup"><span data-stu-id="c36bc-113">Primary</span></span>  <br/> |<span data-ttu-id="c36bc-114">Уникальный номер, идентифицирующий версию оборудования.</span><span class="sxs-lookup"><span data-stu-id="c36bc-114">Unique number identifying this hardware version.</span></span>  <br/> |
+|<span data-ttu-id="c36bc-115">**ManufacturerId**</span><span class="sxs-lookup"><span data-stu-id="c36bc-115">**ManufacturerId**</span></span> <br/> |<span data-ttu-id="c36bc-116">int</span><span class="sxs-lookup"><span data-stu-id="c36bc-116">int</span></span>  <br/> |<span data-ttu-id="c36bc-117">Внешняя</span><span class="sxs-lookup"><span data-stu-id="c36bc-117">Foreign</span></span>  <br/> |<span data-ttu-id="c36bc-118">Производитель этого устройства.</span><span class="sxs-lookup"><span data-stu-id="c36bc-118">Manufacturer of this device.</span></span> <span data-ttu-id="c36bc-119">Дополнительные сведения см. в таблице [Manufacturers в Skype для бизнеса Server 2015.](manufacturers.md)</span><span class="sxs-lookup"><span data-stu-id="c36bc-119">See the [Manufacturers table in Skype for Business Server 2015](manufacturers.md) for more information.</span></span> <br/> |
+|<span data-ttu-id="c36bc-120">**HardwareVersionId**</span><span class="sxs-lookup"><span data-stu-id="c36bc-120">**HardwareVersionId**</span></span> <br/> |<span data-ttu-id="c36bc-121">int</span><span class="sxs-lookup"><span data-stu-id="c36bc-121">int</span></span>  <br/> |<span data-ttu-id="c36bc-122">Внешняя</span><span class="sxs-lookup"><span data-stu-id="c36bc-122">Foreign</span></span>  <br/> |<span data-ttu-id="c36bc-123">Версия оборудования этого устройства.</span><span class="sxs-lookup"><span data-stu-id="c36bc-123">Hardware version of this device.</span></span> <span data-ttu-id="c36bc-124">Дополнительные сведения см. в таблице [HardwareVersions в Skype для бизнеса Server 2015.](hardwareversions.md)</span><span class="sxs-lookup"><span data-stu-id="c36bc-124">See the [HardwareVersions table in Skype for Business Server 2015](hardwareversions.md) for more information.</span></span> <br/> |
+|<span data-ttu-id="c36bc-125">**MacAddress**</span><span class="sxs-lookup"><span data-stu-id="c36bc-125">**MacAddress**</span></span> <br/> |<span data-ttu-id="c36bc-126">bigint</span><span class="sxs-lookup"><span data-stu-id="c36bc-126">bigint</span></span>  <br/> ||<span data-ttu-id="c36bc-127">MAC-адрес</span><span class="sxs-lookup"><span data-stu-id="c36bc-127">MAC Address</span></span>  <br/> |
    
 
