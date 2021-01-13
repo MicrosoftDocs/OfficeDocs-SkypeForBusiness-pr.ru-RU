@@ -1,8 +1,8 @@
 ---
 title: Сопоставление устройства для обеспечения связи в филиалах с пограничным сервером
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,19 +14,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3f02e4bd-f86f-4a84-9c04-28d2a53b10b1
 ROBOTS: NOINDEX, NOFOLLOW
-description: Если вы развернули пограничные серверы и хотите предоставить доступ к службам мультимедиа для внешнего использования, выберите Пограничный сервер или пул, которые будут связаны с бесперебойно используемым устройством филиала или с бесперебойной подразделением, выбрав его в раскрывающемся списке. Для продолжения нажмите кнопку Далее.
-ms.openlocfilehash: 1a79c3b6e099b06611a66207b5227e4d6bd65366
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Если развернуты edge Servers и необходимо предоставить службы мультимедиа для внешнего использования, выберите его или пул, который будет связан с устройством для обеспечения связи в филиалах или сервером для обеспечения связи в филиалах, выбрав его в выпадаемом списке. Для продолжения нажмите кнопку Далее.
+ms.openlocfilehash: 8a6857a91a441ed5cc098268976d579ee356db7b
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794037"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49811479"
 ---
-# <a name="associate-branch-office-appliance-with-edge"></a><span data-ttu-id="b58cd-104">Сопоставление устройства для обеспечения связи в филиалах с пограничным сервером</span><span class="sxs-lookup"><span data-stu-id="b58cd-104">Associate Branch Office Appliance With Edge</span></span>
+# <a name="associate-branch-office-appliance-with-edge"></a><span data-ttu-id="56754-104">Связывание устройства для обеспечения связи в филиалах с пограничным сервером</span><span class="sxs-lookup"><span data-stu-id="56754-104">Associate Branch Office Appliance With Edge</span></span>
  
-<span data-ttu-id="b58cd-105">Если вы развернули пограничные серверы и хотите предоставить доступ к службам мультимедиа для внешнего использования, выберите Пограничный сервер или пул, которые будут связаны с бесперебойно используемым устройством филиала или с бесперебойной подразделением, выбрав его в раскрывающемся списке.</span><span class="sxs-lookup"><span data-stu-id="b58cd-105">If you have Edge Servers deployed and must provide media services for external use, choose the Edge Server or pool that will be associated with the Survivable Branch Appliance or Survivable Branch Server by selecting it in the drop-down list.</span></span> <span data-ttu-id="b58cd-106">Для продолжения нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="b58cd-106">Click **Next** to continue.</span></span>
+<span data-ttu-id="56754-105">Если развернуты edge Servers и необходимо предоставить службы мультимедиа для внешнего использования, выберите этот сервер или пул, который будет связан с устройством для обеспечения связи в филиалах или сервером для обеспечения связи в филиалах, выбрав его в выпадаемом списке.</span><span class="sxs-lookup"><span data-stu-id="56754-105">If you have Edge Servers deployed and must provide media services for external use, choose the Edge Server or pool that will be associated with the Survivable Branch Appliance or Survivable Branch Server by selecting it in the drop-down list.</span></span> <span data-ttu-id="56754-106">Для продолжения нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="56754-106">Click **Next** to continue.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="b58cd-107">Если у вас нет пула пограничного сервера или граничного сервера Edge Server, определенного в вашей топологии, вы можете пропустить этот шаг.</span><span class="sxs-lookup"><span data-stu-id="b58cd-107">If you do not have an Edge Server or Edge Server pool defined in your topology, you can skip this step.</span></span> <span data-ttu-id="b58cd-108">При определении нового пограничного сервера или пула пограничного сервера или при редактировании страниц свойств работающего устройства филиала или его бесперебойной работы вы сможете связать работающее устройство филиала или его бесперебойный сервер с пограничным сервером или пулом пограничного сервера. Сервер подразделения после того, как в топологии указан сервер граничного сервера или пул пограничного сервера.</span><span class="sxs-lookup"><span data-stu-id="b58cd-108">You will be able to associate the Survivable Branch Appliance or Survivable Branch Server with an Edge Server or Edge Server pool when you define a new Edge Server or Edge Server pool, or when you edit the property pages of the Survivable Branch Appliance or Survivable Branch Server after an Edge Server or Edge Server pool is defined in the topology.</span></span> 
+> <span data-ttu-id="56754-107">При отсутствии определенного в топологии пограничного сервера или пула, можно пропустить это действие.</span><span class="sxs-lookup"><span data-stu-id="56754-107">If you do not have an Edge Server or Edge Server pool defined in your topology, you can skip this step.</span></span> <span data-ttu-id="56754-108">Вы сможете связать устройство или сервер для survivable Branch Server с edge server или пулом edge server при определении нового пула или пула серверов или при редактировании страниц свойств устройства или сервера для survivable Branch Server после определения в топологии пула.</span><span class="sxs-lookup"><span data-stu-id="56754-108">You will be able to associate the Survivable Branch Appliance or Survivable Branch Server with an Edge Server or Edge Server pool when you define a new Edge Server or Edge Server pool, or when you edit the property pages of the Survivable Branch Appliance or Survivable Branch Server after an Edge Server or Edge Server pool is defined in the topology.</span></span> 
   
 

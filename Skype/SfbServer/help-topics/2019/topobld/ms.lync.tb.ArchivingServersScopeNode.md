@@ -1,8 +1,8 @@
 ---
 title: Узел области серверов архивации
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,29 +14,29 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0c5f46c7-67bf-4daa-b7a9-4b59fd7792a0
 ROBOTS: NOINDEX, NOFOLLOW
-description: Для выполнения в построителе топологий задач, относящихся к отдельному серверу архивации, можно щелкнуть правой кнопкой мыши Сервер архивации и выбрать Действие на панели инструментов или щелкнуть задачу на панели действий, затем щелкнуть один из следующих параметров сервера архивации.
-ms.openlocfilehash: 899b2d52dd37f9768d0e46613bff7fd87d2c8148
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: В построителе топологий можно выполнять задачи, связанные с отдельным сервером архива, щелкнув правой кнопкой мыши сервер архива в дереве консоли, щелкнув "Действие" на панели инструментов или щелкнув задачу в области действий, а затем щелкнув следующий параметр сервера архива.
+ms.openlocfilehash: 415456751b4ec553b63201ce547fff39e5663808
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794057"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49811509"
 ---
-# <a name="archiving-servers-scope-node"></a><span data-ttu-id="c3c53-103">Узел области серверов архивации</span><span class="sxs-lookup"><span data-stu-id="c3c53-103">Archiving Servers Scope Node</span></span>
+# <a name="archiving-servers-scope-node"></a><span data-ttu-id="759c5-103">Узел области серверов архивации</span><span class="sxs-lookup"><span data-stu-id="759c5-103">Archiving Servers Scope Node</span></span>
  
-<span data-ttu-id="c3c53-104">Для выполнения в построителе топологий задач, относящихся к отдельному серверу архивации, можно щелкнуть правой кнопкой мыши **Сервер архивации** и выбрать **Действие** на панели инструментов или щелкнуть задачу на панели действий, затем щелкнуть один из следующих параметров сервера архивации.</span><span class="sxs-lookup"><span data-stu-id="c3c53-104">In Topology Builder, you can perform tasks related to an individual Archiving Server by either right-clicking the **Archiving Server** in the console tree, clicking **Action** in the toolbar, or clicking a task in the Actions pane, and then clicking the following Archiving Server option.</span></span>
+<span data-ttu-id="759c5-104">В построителе топологий можно выполнять задачи, связанные с отдельным  сервером архива, щелкнув  правой кнопкой мыши сервер архива в дереве консоли, щелкнув "Действие" на панели инструментов или щелкнув задачу в области действий, а затем щелкнув следующий параметр сервера архива.</span><span class="sxs-lookup"><span data-stu-id="759c5-104">In Topology Builder, you can perform tasks related to an individual Archiving Server by either right-clicking the **Archiving Server** in the console tree, clicking **Action** in the toolbar, or clicking a task in the Actions pane, and then clicking the following Archiving Server option.</span></span>
   
-- <span data-ttu-id="c3c53-p101">**Создать сервер архивации**. Запуск мастера **Определение нового сервера архивации** для задания параметров нового сервера архивации, включая полное доменное имя, базу данных SQL Server для архивации, хранилище файлов для архивации и связывание с пулом.</span><span class="sxs-lookup"><span data-stu-id="c3c53-p101">**New Archiving Server**. Starts the **Define New Archiving Server** wizard, where you specify the settings for a new Archiving Server, including the fully qualified domain name (FQDN), archiving SQL Server database, archiving file store, and pool association.</span></span>
+- <span data-ttu-id="759c5-p101">**Новый сервер архивации**. Служит для запуска мастера **Определение нового сервера архивации**, в котором можно указать параметры нового сервера архивации, включая полное доменное имя, базу данных SQL Server сервера архивации, хранилище файлов архивации и сопоставление с пулом.</span><span class="sxs-lookup"><span data-stu-id="759c5-p101">**New Archiving Server**. Starts the **Define New Archiving Server** wizard, where you specify the settings for a new Archiving Server, including the fully qualified domain name (FQDN), archiving SQL Server database, archiving file store, and pool association.</span></span>
     
 > [!NOTE]
-> <span data-ttu-id="c3c53-107">Узел серверов архивации содержит сервер архивации, если он ранее был добавлен к топологии с помощью построителя топологий.</span><span class="sxs-lookup"><span data-stu-id="c3c53-107">The Archiving Servers node contains an Archiving Server, if you have previously added an Archiving Server to the topology in Topology Builder.</span></span> <span data-ttu-id="c3c53-108">Однако обмен мгновенными сообщениями и веб-конференции невозможно архивировать, пока вы не настроили сервер архивации, который включает в себя установку сервера Skype для бизнеса на сервере, который вы хотите использовать в качестве сервера архивации, а также настройку поддержки архивации.</span><span class="sxs-lookup"><span data-stu-id="c3c53-108">However, instant messaging or web conferencing (messaging) cannot be archived until you also set up the Archiving Server, which includes installing Skype for Business Server on the server that you want to use as an Archiving Server and configuring support for archiving.</span></span> 
+> <span data-ttu-id="759c5-107">Узел серверов архивации содержит сервер архивации, если ранее сервер архивации был добавлен в топологию с помощью построителя топологий.</span><span class="sxs-lookup"><span data-stu-id="759c5-107">The Archiving Servers node contains an Archiving Server, if you have previously added an Archiving Server to the topology in Topology Builder.</span></span> <span data-ttu-id="759c5-108">Однако архивировать мгновенные сообщения или веб-службы (обмен сообщениями) невозможно, пока не будет настроен сервер архива, который включает установку Skype для бизнеса Server на сервере, который вы хотите использовать в качестве сервера архива, и настройку поддержки архива.</span><span class="sxs-lookup"><span data-stu-id="759c5-108">However, instant messaging or web conferencing (messaging) cannot be archived until you also set up the Archiving Server, which includes installing Skype for Business Server on the server that you want to use as an Archiving Server and configuring support for archiving.</span></span> 
   
-<span data-ttu-id="c3c53-p103">Помимо приведенных выше в этом разделе параметров сервера архивации имеются общие параметры узла "Серверы архивации", которые также доступны в других узлах дерева консоли. Сюда входят следующие параметры:</span><span class="sxs-lookup"><span data-stu-id="c3c53-p103">In addition to the Archiving Server options described earlier in this topic, you have general options from the Archiving Servers node that are also available from other nodes in the console tree. These include the following options:</span></span>
+<span data-ttu-id="759c5-p103">Помимо приведенных выше в этом разделе параметров сервера архивации имеются общие параметры узла "Серверы архивации", которые также доступны в других узлах дерева консоли. Сюда входят следующие параметры:</span><span class="sxs-lookup"><span data-stu-id="759c5-p103">In addition to the Archiving Server options described earlier in this topic, you have general options from the Archiving Servers node that are also available from other nodes in the console tree. These include the following options:</span></span>
   
-- <span data-ttu-id="c3c53-111">**Топология**.</span><span class="sxs-lookup"><span data-stu-id="c3c53-111">**Topology**.</span></span> <span data-ttu-id="c3c53-112">Используйте этот параметр, чтобы определить новую топологию, открыть существующую топологию, загрузить текущую топологию, сохранить копию топологии, опубликовать топологию, установить базу данных, объединить компоненты или удалить развертывание.</span><span class="sxs-lookup"><span data-stu-id="c3c53-112">Use this option to define a new topology, open an existing topology, download the current topology, save a copy of the topology, publish the topology, install a database, merge components, or remove the deployment.</span></span>
+- <span data-ttu-id="759c5-111">**Топология.**</span><span class="sxs-lookup"><span data-stu-id="759c5-111">**Topology**.</span></span> <span data-ttu-id="759c5-112">Используйте этот параметр, чтобы определить новую топологию, открыть существующую топологию, загрузить текущую топологию, сохранить копию топологии, опубликовать топологию, установить базу данных, объединить компоненты или удалить развертывание.</span><span class="sxs-lookup"><span data-stu-id="759c5-112">Use this option to define a new topology, open an existing topology, download the current topology, save a copy of the topology, publish the topology, install a database, merge components, or remove the deployment.</span></span>
     
-- <span data-ttu-id="c3c53-p105">**Вид**. Эта команда позволяет настроить представление построителя топологий путем выбора элементов для отображения и скрытия в представлениях дерева консоли.</span><span class="sxs-lookup"><span data-stu-id="c3c53-p105">**View**. Use this option to customize the view of in Topology Builder by selecting the items to show and hide in the console tree views.</span></span>
+- <span data-ttu-id="759c5-p105">**Вид**. Данный параметр можно использовать для настройки представления в построителе топологий, выбирая элементы для скрытия и отображения в представлениях дерева консоли.</span><span class="sxs-lookup"><span data-stu-id="759c5-p105">**View**. Use this option to customize the view of in Topology Builder by selecting the items to show and hide in the console tree views.</span></span>
     
-- <span data-ttu-id="c3c53-p106">**Справка**. Эта команда обеспечивает доступ к справке по активному узлу.</span><span class="sxs-lookup"><span data-stu-id="c3c53-p106">**Help**. Use this option to access Help for the active node.</span></span>
+- <span data-ttu-id="759c5-p106">**Справка**. Данный параметр можно использовать для доступа к справке по активному узлу.</span><span class="sxs-lookup"><span data-stu-id="759c5-p106">**Help**. Use this option to access Help for the active node.</span></span>
     
 
