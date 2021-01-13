@@ -1,7 +1,7 @@
 ---
 title: Зоны страны и региона для аудиоконференции
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.reviewer: tonysmit
 ms.topic: conceptual
@@ -19,13 +19,13 @@ f1.keywords:
 - CSH
 ms.custom:
 - seo-marvel-mar2020
-description: Зоны для аудиоконференции, страны и регионы в каждой из них.
-ms.openlocfilehash: cf3e1df5b89fcf287d1c5c79faa8d1c6a48914d5
-ms.sourcegitcommit: ee217e1d7188842c7becd19387fd421b485c3575
+description: Здесь перечислены зоны для аудиоконференции, а также страна и регионы в каждой из них.
+ms.openlocfilehash: 046888646644b819ec7950e0eaada2398cb09f42
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48908790"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49821279"
 ---
 # <a name="country-and-region-zones-for-audio-conferencing"></a>Зоны страны и региона для аудиоконференции
 
@@ -84,6 +84,6 @@ ms.locfileid: "48908790"
 
 - [Доступность аудиоконференций и планов звонков в различных странах и регионах](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 - [Бесплатный период исходящих звонков для аудиоконференций](complimentary-dial-out-period.md)
-- [Подписка на аудиоконференцию с преимуществом "Звонок на мой номер" (с минутами на звонок)](audio-conferencing-subscription-dial-out.md)
+- [Подписка на аудиоконференцию с подпиской на аудиоконференцию с преимуществом "Звонок на мой номер" (с минутами на звонок)](audio-conferencing-subscription-dial-out.md)
 - [Политики ограничений для исходящих звонков аудиоконференций и пользовательских звонков по ТСОП](outbound-calling-restriction-policies.md)
 - [Что такое кредиты на связь?](what-are-communications-credits.md)
