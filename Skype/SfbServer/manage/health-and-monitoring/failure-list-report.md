@@ -1,8 +1,8 @@
 ---
-title: Отчет о списке отказов в Skype для бизнеса Server
+title: Failure List Report in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,56 +11,56 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: b6f3a605-e0c6-461e-b17a-41d8039ace9d
-description: 'Сводка: сведения об отчете о списке отказов в Skype для бизнеса Server.'
-ms.openlocfilehash: 8d0ca503f1a7883ab9ec1dd4ded8556b2ee3ab0f
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Сводка. Сведения об отчете failure List (Список сбоев) в Skype для бизнеса Server.
+ms.openlocfilehash: 48654ee827f0d7efcb50bcccc4e1d2f3fdb5422e
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41817949"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49816849"
 ---
-# <a name="failure-list-report-in-skype-for-business-server"></a><span data-ttu-id="0f8b5-103">Отчет о списке отказов в Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="0f8b5-103">Failure List Report in Skype for Business Server</span></span> 
+# <a name="failure-list-report-in-skype-for-business-server"></a><span data-ttu-id="b3bab-103">Failure List Report in Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="b3bab-103">Failure List Report in Skype for Business Server</span></span> 
  
-<span data-ttu-id="0f8b5-104">**Сводка:** Сведения о отчете "список отказов" в Skype для бизнеса Server.</span><span class="sxs-lookup"><span data-stu-id="0f8b5-104">**Summary:** Learn about the Failure List Report in Skype for Business Server.</span></span>
+<span data-ttu-id="b3bab-104">**Сводка:** Learn about the Failure List Report in Skype for Business Server.</span><span class="sxs-lookup"><span data-stu-id="b3bab-104">**Summary:** Learn about the Failure List Report in Skype for Business Server.</span></span>
   
-<span data-ttu-id="0f8b5-p101">Отчет Failure List (Список ошибок) предоставляет сведения об участниках однорангового сеанса (конференции), завершившегося с ошибкой. Эти сведения содержат URI пользователя, у которого возникла ошибка, а также код ответа SIP и ИД диагностики, связанные с ошибкой.</span><span class="sxs-lookup"><span data-stu-id="0f8b5-p101">The Failure List report provides information about the individual participants who took part in a failed peer-to-peer or conferencing session. This information includes the URI of the user who experienced the problem, as well as the SIP Response code and Diagnostic ID associated with the failure.</span></span>
+<span data-ttu-id="b3bab-p101">Отчет Failure List (Список ошибок) предоставляет сведения об участниках однорангового сеанса (конференции), завершившегося с ошибкой. Эти сведения содержат URI пользователя, у которого возникла ошибка, а также код ответа SIP и ИД диагностики, связанные с ошибкой.</span><span class="sxs-lookup"><span data-stu-id="b3bab-p101">The Failure List report provides information about the individual participants who took part in a failed peer-to-peer or conferencing session. This information includes the URI of the user who experienced the problem, as well as the SIP Response code and Diagnostic ID associated with the failure.</span></span>
   
-## <a name="accessing-the-failure-list-report"></a><span data-ttu-id="0f8b5-107">Доступ к отчету Failure List (Список ошибок)</span><span class="sxs-lookup"><span data-stu-id="0f8b5-107">Accessing the Failure List Report</span></span>
+## <a name="accessing-the-failure-list-report"></a><span data-ttu-id="b3bab-107">Доступ к отчету Failure List (Список ошибок)</span><span class="sxs-lookup"><span data-stu-id="b3bab-107">Accessing the Failure List Report</span></span>
 
-<span data-ttu-id="0f8b5-108">Для доступа к отчету список отказов выберите один из указанных ниже метрик в [отчете о распределении неисправностей в Skype для бизнеса Server](failure-distribution-report.md).</span><span class="sxs-lookup"><span data-stu-id="0f8b5-108">The Failure List Report is accessed by clicking any of the following metrics on the [Failure Distribution Report in Skype for Business Server](failure-distribution-report.md):</span></span>
+<span data-ttu-id="b3bab-108">The Failure List Report is accessed by clicking any of the following metrics on the [Failure Distribution Report in Skype for Business Server:](failure-distribution-report.md)</span><span class="sxs-lookup"><span data-stu-id="b3bab-108">The Failure List Report is accessed by clicking any of the following metrics on the [Failure Distribution Report in Skype for Business Server](failure-distribution-report.md):</span></span>
   
-- <span data-ttu-id="0f8b5-109">Top diagnostic reasons (sessions) (Основные причины диагностики (сеансы))</span><span class="sxs-lookup"><span data-stu-id="0f8b5-109">Top diagnostic reasons (sessions)</span></span>
+- <span data-ttu-id="b3bab-109">Top diagnostic reasons (sessions) (Основные причины диагностики (сеансы))</span><span class="sxs-lookup"><span data-stu-id="b3bab-109">Top diagnostic reasons (sessions)</span></span>
     
-- <span data-ttu-id="0f8b5-110">Top modalities (sessions) (Основные условия (сеансы))</span><span class="sxs-lookup"><span data-stu-id="0f8b5-110">Top modalities (sessions)</span></span>
+- <span data-ttu-id="b3bab-110">Top modalities (sessions) (Основные условия (сеансы))</span><span class="sxs-lookup"><span data-stu-id="b3bab-110">Top modalities (sessions)</span></span>
     
-- <span data-ttu-id="0f8b5-111">Top pools (sessions) (Основные пулы (сеансы))</span><span class="sxs-lookup"><span data-stu-id="0f8b5-111">Top pools (sessions)</span></span>
+- <span data-ttu-id="b3bab-111">Top pools (sessions) (Основные пулы (сеансы))</span><span class="sxs-lookup"><span data-stu-id="b3bab-111">Top pools (sessions)</span></span>
     
-- <span data-ttu-id="0f8b5-112">Top sources (sessions) (Основные источники (сеансы))</span><span class="sxs-lookup"><span data-stu-id="0f8b5-112">Top sources (sessions)</span></span>
+- <span data-ttu-id="b3bab-112">Top sources (sessions) (Основные источники (сеансы))</span><span class="sxs-lookup"><span data-stu-id="b3bab-112">Top sources (sessions)</span></span>
     
-- <span data-ttu-id="0f8b5-113">Top components (sessions) (Основные компоненты (сеансы))</span><span class="sxs-lookup"><span data-stu-id="0f8b5-113">Top components (sessions)</span></span>
+- <span data-ttu-id="b3bab-113">Top components (sessions) (Основные компоненты (сеансы))</span><span class="sxs-lookup"><span data-stu-id="b3bab-113">Top components (sessions)</span></span>
     
-- <span data-ttu-id="0f8b5-114">Top from users (sessions) (Основные пользователи с ошибками исходящей связи (сеансы))</span><span class="sxs-lookup"><span data-stu-id="0f8b5-114">Top from users (sessions)</span></span>
+- <span data-ttu-id="b3bab-114">Top from users (sessions) (Основные пользователи с ошибками исходящей связи (сеансы))</span><span class="sxs-lookup"><span data-stu-id="b3bab-114">Top from users (sessions)</span></span>
     
-- <span data-ttu-id="0f8b5-115">Top to users (sessions) (Основные пользователи с ошибками входящей связи (сеансы))</span><span class="sxs-lookup"><span data-stu-id="0f8b5-115">Top to users (sessions)</span></span>
+- <span data-ttu-id="b3bab-115">Top to users (sessions) (Основные пользователи с ошибками входящей связи (сеансы))</span><span class="sxs-lookup"><span data-stu-id="b3bab-115">Top to users (sessions)</span></span>
     
-- <span data-ttu-id="0f8b5-116">Top from user agents (sessions) (Основные агенты пользователей, используемые в сеансах, завершившихся с ошибками (сеансы))</span><span class="sxs-lookup"><span data-stu-id="0f8b5-116">Top from user agents (sessions)</span></span>
+- <span data-ttu-id="b3bab-116">Top from user agents (sessions) (Основные агенты пользователей, используемые в сеансах, завершившихся с ошибками (сеансы))</span><span class="sxs-lookup"><span data-stu-id="b3bab-116">Top from user agents (sessions)</span></span>
     
-<span data-ttu-id="0f8b5-117">В отчете "список сбоев" можно получить доступ к [подробному отчету о одноранговых сеансах в Skype для бизнеса Server](peer-to-peer-session-detail-report.md) , щелкнув метрику подробности сеанса для однорангового сеанса.</span><span class="sxs-lookup"><span data-stu-id="0f8b5-117">From the Failure List Report you can access the [Peer-to-Peer Session Detail Report in Skype for Business Server](peer-to-peer-session-detail-report.md) by clicking the Session detail metric for a peer-to-peer session.</span></span> <span data-ttu-id="0f8b5-118">Чтобы открыть отчет сведений о конференции, нажмите показатель «Конференция» для конференции.</span><span class="sxs-lookup"><span data-stu-id="0f8b5-118">You can also access the Conference Detail Report by clicking the Conference metric for a conference.</span></span>
+<span data-ttu-id="b3bab-117">From the Failure List Report you can access the [Peer-to-Peer Session Detail Report in Skype for Business Server](peer-to-peer-session-detail-report.md) by clicking the Session detail metric for a peer-to-peer session.</span><span class="sxs-lookup"><span data-stu-id="b3bab-117">From the Failure List Report you can access the [Peer-to-Peer Session Detail Report in Skype for Business Server](peer-to-peer-session-detail-report.md) by clicking the Session detail metric for a peer-to-peer session.</span></span> <span data-ttu-id="b3bab-118">Чтобы открыть отчет Conference Detail (Сведения о конференции), щелкните показатель Conference (Конференция) для конференции.</span><span class="sxs-lookup"><span data-stu-id="b3bab-118">You can also access the Conference Detail Report by clicking the Conference metric for a conference.</span></span>
   
-## <a name="making-the-best-use-of-the-failure-list-report"></a><span data-ttu-id="0f8b5-119">Рекомендации по использованию отчета Failure List (Список ошибок)</span><span class="sxs-lookup"><span data-stu-id="0f8b5-119">Making the Best Use of the Failure List Report</span></span>
+## <a name="making-the-best-use-of-the-failure-list-report"></a><span data-ttu-id="b3bab-119">Рекомендации по использованию отчета Failure List (Список ошибок)</span><span class="sxs-lookup"><span data-stu-id="b3bab-119">Making the Best Use of the Failure List Report</span></span>
 
-<span data-ttu-id="0f8b5-p103">Чтобы просмотреть описание кода ответа или ИД диагностики, наведите указатель мыши на значение. Например, если вы наведете указатель мыши на Diagnostic ID (ИД диагностики) 7 025, то вы увидите следующую всплывающую подсказку:</span><span class="sxs-lookup"><span data-stu-id="0f8b5-p103">In the Failure List Report, you can view a description for each Response code or each Diagnostic ID simply by holding your mouse over that value. For example, if you hold your mouse over Diagnostic ID 7025 you'll see the following displayed in a tooltip:</span></span>
+<span data-ttu-id="b3bab-p103">Чтобы просмотреть описание кода ответа или ИД диагностики, наведите указатель мыши на значение. Например, если вы наведете указатель мыши на Diagnostic ID (ИД диагностики) 7 025, то вы увидите следующую всплывающую подсказку:</span><span class="sxs-lookup"><span data-stu-id="b3bab-p103">In the Failure List Report, you can view a description for each Response code or each Diagnostic ID simply by holding your mouse over that value. For example, if you hold your mouse over Diagnostic ID 7025 you'll see the following displayed in a tooltip:</span></span>
   
-<span data-ttu-id="0f8b5-122">Internal server error creating media for user (Внутренняя ошибка сервера при создании среды для пользователя).</span><span class="sxs-lookup"><span data-stu-id="0f8b5-122">Internal server error creating media for user.</span></span>
+<span data-ttu-id="b3bab-122">Internal server error creating media for user (Внутренняя ошибка сервера при создании среды для пользователя).</span><span class="sxs-lookup"><span data-stu-id="b3bab-122">Internal server error creating media for user.</span></span>
   
-<span data-ttu-id="0f8b5-123">Важно отметить, что отчет по списку ошибок не предоставляет прямой способ получения списка всех пользователей, принимавших участие в хотя бы одном сеансе, закончившемся с ошибкой, или способ определения пользователей, которые наиболее часто участвовали в сеансах, закончившихся с ошибками.</span><span class="sxs-lookup"><span data-stu-id="0f8b5-123">It's important to note that the Failure List Report does not provide a straightforward way to directly retrieve a list of all the users who participated in at least one failed session, nor does it provide a way to determine which users were most-often involved in a failed session.</span></span> <span data-ttu-id="0f8b5-124">(В одном случае у отчета "список отказов" нет возможностей фильтрации.) Однако если вы экспортируете данные, а затем преобразуете их в файл с разделителями-запятыми, вы можете использовать Windows PowerShell для поиска ответов на такие вопросы, как, например,.</span><span class="sxs-lookup"><span data-stu-id="0f8b5-124">(For one thing, the Failure List Report has no filtering capabilities.) However, if you export the data and then convert it to a comma-separated values file, you can use Windows PowerShell to find the answers to questions like those.</span></span> <span data-ttu-id="0f8b5-125">Предположим, что вы сохранили данные в CSV-файле C:\Data\Failure_List.csv.</span><span class="sxs-lookup"><span data-stu-id="0f8b5-125">For example, suppose you save the data to a .CSV file named C:\Data\Failure_List.csv.</span></span> <span data-ttu-id="0f8b5-126">Чтобы получить список пользователей, принимавших участие в хотя бы одном сеансе, закончившемся с ошибкой, используйте следующие команды:</span><span class="sxs-lookup"><span data-stu-id="0f8b5-126">Based on the data saved in that file, this command lists all the users who were involved in at least one failed session:</span></span> 
+<span data-ttu-id="b3bab-p104">Важно отметить, что отчет Failure List (Список ошибок) не предоставляет прямой способ получения списка всех пользователей, принимавших участие в хотя бы одном сеансе, закончившемся с ошибкой, или способ определения пользователей, которые наиболее часто участвовали в сеансах, закончившихся с ошибками. (К примеру, отчет Failure List (Список ошибок) не предоставляет функции фильтрации данных.) Однако если вы экспортируете данные и затем преобразуете их в файл данных с разделителями-запятыми, то для ответа на вышеуказанные вопросы можно использовать Windows PowerShell. Предположим, что вы сохранили данные в CSV-файле C:\Data\Failure_List.csv. Чтобы получить список пользователей, принимавших участие в хотя бы одном сеансе, закончившемся с ошибкой, используйте следующие команды:</span><span class="sxs-lookup"><span data-stu-id="b3bab-p104">It's important to note that the Failure List Report does not provide a straightforward way to directly retrieve a list of all the users who participated in at least one failed session, nor does it provide a way to determine which users were most-often involved in a failed session. (For one thing, the Failure List Report has no filtering capabilities.) However, if you export the data and then convert it to a comma-separated values file, you can use Windows PowerShell to find the answers to questions like those. For example, suppose you save the data to a .CSV file named C:\Data\Failure_List.csv. Based on the data saved in that file, this command lists all the users who were involved in at least one failed session:</span></span> 
   
 ```PowerShell
 $failures = Import-Csv -Path " C:\Data\Failure_List.csv"
 $failure |Sort-Object "From user" | Select-Object "From user" -Unique
 ```
 
-<span data-ttu-id="0f8b5-127">Эти команды возвращают сведения, схожие со следующими:</span><span class="sxs-lookup"><span data-stu-id="0f8b5-127">That command will return a list similar to this:</span></span>
+<span data-ttu-id="b3bab-127">Эти команды возвращают сведения, схожие со следующими:</span><span class="sxs-lookup"><span data-stu-id="b3bab-127">That command will return a list similar to this:</span></span>
   
 <pre>
     From user
@@ -72,14 +72,14 @@ $failure |Sort-Object "From user" | Select-Object "From user" -Unique
     Ken.Myer@litwareinc.com
 </pre>
 
-<span data-ttu-id="0f8b5-128">Следующие команды возвращают общее число сеансов каждого пользователя, завершившихся с ошибкой:</span><span class="sxs-lookup"><span data-stu-id="0f8b5-128">These two commands report back the total number of failed sessions that each user was involved in:</span></span>
+<span data-ttu-id="b3bab-128">Следующие команды возвращают общее число сеансов каждого пользователя, завершившихся с ошибкой:</span><span class="sxs-lookup"><span data-stu-id="b3bab-128">These two commands report back the total number of failed sessions that each user was involved in:</span></span>
   
 ```PowerShell
 $failures = Import-Csv -Path "C:\Data\Failure_List.csv"
 $failures | Group-Object "From user" | Select-Object Count, Name | Sort-Object -Property Count -Descending
 ```
 
-<span data-ttu-id="0f8b5-129">Эти команды возвращают сведения, схожие со следующими:</span><span class="sxs-lookup"><span data-stu-id="0f8b5-129">That will return data similar to this:</span></span>
+<span data-ttu-id="b3bab-129">Эти команды возвращают сведения, схожие со следующими:</span><span class="sxs-lookup"><span data-stu-id="b3bab-129">That will return data similar to this:</span></span>
   
 <pre>
 Count    Name
@@ -91,25 +91,25 @@ Count    Name
     14    Henrik.Jensen@litwareinc.com
 </pre>
 
-## <a name="filters"></a><span data-ttu-id="0f8b5-130">Фильтры</span><span class="sxs-lookup"><span data-stu-id="0f8b5-130">Filters</span></span>
+## <a name="filters"></a><span data-ttu-id="b3bab-130">Фильтры</span><span class="sxs-lookup"><span data-stu-id="b3bab-130">Filters</span></span>
 
-<span data-ttu-id="0f8b5-p105">Нет. В отчете Failure List (Список ошибок) нельзя использовать фильтр.</span><span class="sxs-lookup"><span data-stu-id="0f8b5-p105">None. You cannot filter the Failure List Report.</span></span>
+<span data-ttu-id="b3bab-p105">Нет. В отчете Failure List (Список ошибок) нельзя использовать фильтр.</span><span class="sxs-lookup"><span data-stu-id="b3bab-p105">None. You cannot filter the Failure List Report.</span></span>
   
-## <a name="metrics"></a><span data-ttu-id="0f8b5-133">Показатели</span><span class="sxs-lookup"><span data-stu-id="0f8b5-133">Metrics</span></span>
+## <a name="metrics"></a><span data-ttu-id="b3bab-133">Метрики</span><span class="sxs-lookup"><span data-stu-id="b3bab-133">Metrics</span></span>
 
-<span data-ttu-id="0f8b5-134">В следующей таблице приведены сведения, содержащиеся в отчете Failure List (Список ошибок) для каждого звонка, завершившегося с ошибкой.</span><span class="sxs-lookup"><span data-stu-id="0f8b5-134">The following table lists the information provided in the Failure List Report for each failed call.</span></span>
+<span data-ttu-id="b3bab-134">В следующей таблице приведены сведения, содержащиеся в отчете Failure List (Список ошибок) для каждого звонка, завершившегося с ошибкой.</span><span class="sxs-lookup"><span data-stu-id="b3bab-134">The following table lists the information provided in the Failure List Report for each failed call.</span></span>
   
-<span data-ttu-id="0f8b5-135">**Показатели отчета Failure List (Список ошибок)**</span><span class="sxs-lookup"><span data-stu-id="0f8b5-135">**Failure List Report Metrics**</span></span>
+<span data-ttu-id="b3bab-135">**Показатели отчета Failure List (Список ошибок)**</span><span class="sxs-lookup"><span data-stu-id="b3bab-135">**Failure List Report Metrics**</span></span>
 
-|<span data-ttu-id="0f8b5-136">**Имя**</span><span class="sxs-lookup"><span data-stu-id="0f8b5-136">**Name**</span></span>|<span data-ttu-id="0f8b5-137">**Поддержка сортировки**</span><span class="sxs-lookup"><span data-stu-id="0f8b5-137">**Can you sort on this item?**</span></span>|<span data-ttu-id="0f8b5-138">**Описание**</span><span class="sxs-lookup"><span data-stu-id="0f8b5-138">**Description**</span></span>|
+|<span data-ttu-id="b3bab-136">**Название**</span><span class="sxs-lookup"><span data-stu-id="b3bab-136">**Name**</span></span>|<span data-ttu-id="b3bab-137">**Возможность сортировки по этому показателю**</span><span class="sxs-lookup"><span data-stu-id="b3bab-137">**Can you sort on this item?**</span></span>|<span data-ttu-id="b3bab-138">**Описание**</span><span class="sxs-lookup"><span data-stu-id="b3bab-138">**Description**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="0f8b5-139">**Время создания отчета**</span><span class="sxs-lookup"><span data-stu-id="0f8b5-139">**Reported time**</span></span> <br/> |<span data-ttu-id="0f8b5-140">Нет</span><span class="sxs-lookup"><span data-stu-id="0f8b5-140">No</span></span>  <br/> |<span data-ttu-id="0f8b5-141">Дата и время создания отчета.</span><span class="sxs-lookup"><span data-stu-id="0f8b5-141">Date and time the report was recorded.</span></span>  <br/> |
-|<span data-ttu-id="0f8b5-142">**Запрос**</span><span class="sxs-lookup"><span data-stu-id="0f8b5-142">**Request**</span></span> <br/> |<span data-ttu-id="0f8b5-143">Нет</span><span class="sxs-lookup"><span data-stu-id="0f8b5-143">No</span></span>  <br/> |<span data-ttu-id="0f8b5-p106">Тип запроса SIP, завершившегося с ошибкой. Например, INVITE или BYE.</span><span class="sxs-lookup"><span data-stu-id="0f8b5-p106">SIP request type that failed. For example, INVITE or BYE.</span></span>  <br/> |
-|<span data-ttu-id="0f8b5-146">**Код ответа**</span><span class="sxs-lookup"><span data-stu-id="0f8b5-146">**Response code**</span></span> <br/> |<span data-ttu-id="0f8b5-147">Нет</span><span class="sxs-lookup"><span data-stu-id="0f8b5-147">No</span></span>  <br/> |<span data-ttu-id="0f8b5-148">Код ответа SIP, отправленный при сбое конференции.</span><span class="sxs-lookup"><span data-stu-id="0f8b5-148">SIP response code sent when the conference failed.</span></span>  <br/> |
-|<span data-ttu-id="0f8b5-149">**ИД диагностики**</span><span class="sxs-lookup"><span data-stu-id="0f8b5-149">**Diagnostic ID**</span></span> <br/> |<span data-ttu-id="0f8b5-150">Нет</span><span class="sxs-lookup"><span data-stu-id="0f8b5-150">No</span></span>  <br/> |<span data-ttu-id="0f8b5-151">Прикрепленный к SIP-сообщению уникальный идентификатор (в форме заголовка ms-diagnostics), который часто содержит информацию, полезную при поиске и устранении ошибок.</span><span class="sxs-lookup"><span data-stu-id="0f8b5-151">Unique identifier (in the form of an ms-diagnostics header) attached to a SIP message that often provides information useful in troubleshooting errors.</span></span>  <br/> |
-|<span data-ttu-id="0f8b5-152">**Время присоединения (мс)**</span><span class="sxs-lookup"><span data-stu-id="0f8b5-152">**Join cost time (ms)**</span></span> <br/> |<span data-ttu-id="0f8b5-153">Нет</span><span class="sxs-lookup"><span data-stu-id="0f8b5-153">No</span></span>  <br/> |<span data-ttu-id="0f8b5-154">Период времени (в миллисекундах), требуемый для присоединения пользователя к конференции.</span><span class="sxs-lookup"><span data-stu-id="0f8b5-154">Amount of time (in milliseconds) required for the user to join the conference.</span></span>  <br/> |
-|<span data-ttu-id="0f8b5-155">**Пользователь-отправитель**</span><span class="sxs-lookup"><span data-stu-id="0f8b5-155">**From user**</span></span> <br/> |<span data-ttu-id="0f8b5-156">Нет</span><span class="sxs-lookup"><span data-stu-id="0f8b5-156">No</span></span>  <br/> |<span data-ttu-id="0f8b5-157">SIP-адрес пользователя, инициировавшего вызов.</span><span class="sxs-lookup"><span data-stu-id="0f8b5-157">SIP address of the user who initiated the call.</span></span>  <br/> |
-|<span data-ttu-id="0f8b5-158">**Агент пользователя, инициатора сеанса**</span><span class="sxs-lookup"><span data-stu-id="0f8b5-158">**From user agent**</span></span> <br/> |<span data-ttu-id="0f8b5-159">Нет</span><span class="sxs-lookup"><span data-stu-id="0f8b5-159">No</span></span>  <br/> |<span data-ttu-id="0f8b5-160">Программное обеспечение, используемое конечной точкой пользователя, инициировавшего звонок.</span><span class="sxs-lookup"><span data-stu-id="0f8b5-160">Software used by the endpoint of the user who initiated the call.</span></span>  <br/> |
-|<span data-ttu-id="0f8b5-161">**Пользователь-получатель**</span><span class="sxs-lookup"><span data-stu-id="0f8b5-161">**To user**</span></span> <br/> |<span data-ttu-id="0f8b5-162">Нет</span><span class="sxs-lookup"><span data-stu-id="0f8b5-162">No</span></span>  <br/> |<span data-ttu-id="0f8b5-163">SIP-адрес пользователя, принявшего звонок.</span><span class="sxs-lookup"><span data-stu-id="0f8b5-163">SIP address of the user who was being called.</span></span>  <br/> |
+|<span data-ttu-id="b3bab-139">**Reported time** (Время создания отчета)</span><span class="sxs-lookup"><span data-stu-id="b3bab-139">**Reported time**</span></span> <br/> |<span data-ttu-id="b3bab-140">Нет</span><span class="sxs-lookup"><span data-stu-id="b3bab-140">No</span></span>  <br/> |<span data-ttu-id="b3bab-141">Дата и время создания отчета.</span><span class="sxs-lookup"><span data-stu-id="b3bab-141">Date and time the report was recorded.</span></span>  <br/> |
+|<span data-ttu-id="b3bab-142">**Запрос**</span><span class="sxs-lookup"><span data-stu-id="b3bab-142">**Request**</span></span> <br/> |<span data-ttu-id="b3bab-143">Нет</span><span class="sxs-lookup"><span data-stu-id="b3bab-143">No</span></span>  <br/> |<span data-ttu-id="b3bab-p106">Тип запроса SIP, завершившегося с ошибкой. Например, INVITE или BYE.</span><span class="sxs-lookup"><span data-stu-id="b3bab-p106">SIP request type that failed. For example, INVITE or BYE.</span></span>  <br/> |
+|<span data-ttu-id="b3bab-146">**Response code** (Код ответа)</span><span class="sxs-lookup"><span data-stu-id="b3bab-146">**Response code**</span></span> <br/> |<span data-ttu-id="b3bab-147">Нет</span><span class="sxs-lookup"><span data-stu-id="b3bab-147">No</span></span>  <br/> |<span data-ttu-id="b3bab-148">Код ответа SIP, отправленный при сбое конференции.</span><span class="sxs-lookup"><span data-stu-id="b3bab-148">SIP response code sent when the conference failed.</span></span>  <br/> |
+|<span data-ttu-id="b3bab-149">**Diagnostic ID** (ИД диагностики)</span><span class="sxs-lookup"><span data-stu-id="b3bab-149">**Diagnostic ID**</span></span> <br/> |<span data-ttu-id="b3bab-150">Нет</span><span class="sxs-lookup"><span data-stu-id="b3bab-150">No</span></span>  <br/> |<span data-ttu-id="b3bab-151">Уникальный идентификатор (в виде заголовка ms-diagnostics), добавленный к сообщению SIP, который предоставляет полезные сведения для устранения ошибок.</span><span class="sxs-lookup"><span data-stu-id="b3bab-151">Unique identifier (in the form of an ms-diagnostics header) attached to a SIP message that often provides information useful in troubleshooting errors.</span></span>  <br/> |
+|<span data-ttu-id="b3bab-152">**Join cost time (ms)** (Время присоединения (мс))</span><span class="sxs-lookup"><span data-stu-id="b3bab-152">**Join cost time (ms)**</span></span> <br/> |<span data-ttu-id="b3bab-153">Нет</span><span class="sxs-lookup"><span data-stu-id="b3bab-153">No</span></span>  <br/> |<span data-ttu-id="b3bab-154">Период времени (в миллисекундах), требуемый для присоединения пользователя к конференции.</span><span class="sxs-lookup"><span data-stu-id="b3bab-154">Amount of time (in milliseconds) required for the user to join the conference.</span></span>  <br/> |
+|<span data-ttu-id="b3bab-155">**From user** (От пользователя)</span><span class="sxs-lookup"><span data-stu-id="b3bab-155">**From user**</span></span> <br/> |<span data-ttu-id="b3bab-156">Нет</span><span class="sxs-lookup"><span data-stu-id="b3bab-156">No</span></span>  <br/> |<span data-ttu-id="b3bab-157">SIP-адрес пользователя, инициировавшего звонок.</span><span class="sxs-lookup"><span data-stu-id="b3bab-157">SIP address of the user who initiated the call.</span></span>  <br/> |
+|<span data-ttu-id="b3bab-158">**From user agent** (От агента пользователя)</span><span class="sxs-lookup"><span data-stu-id="b3bab-158">**From user agent**</span></span> <br/> |<span data-ttu-id="b3bab-159">Нет</span><span class="sxs-lookup"><span data-stu-id="b3bab-159">No</span></span>  <br/> |<span data-ttu-id="b3bab-160">Программное обеспечение, используемое конечной точкой пользователя, инициировавшего звонок.</span><span class="sxs-lookup"><span data-stu-id="b3bab-160">Software used by the endpoint of the user who initiated the call.</span></span>  <br/> |
+|<span data-ttu-id="b3bab-161">**To user** (К пользователю)</span><span class="sxs-lookup"><span data-stu-id="b3bab-161">**To user**</span></span> <br/> |<span data-ttu-id="b3bab-162">Нет</span><span class="sxs-lookup"><span data-stu-id="b3bab-162">No</span></span>  <br/> |<span data-ttu-id="b3bab-163">SIP-адрес пользователя, принявшего звонок.</span><span class="sxs-lookup"><span data-stu-id="b3bab-163">SIP address of the user who was being called.</span></span>  <br/> |
    
 

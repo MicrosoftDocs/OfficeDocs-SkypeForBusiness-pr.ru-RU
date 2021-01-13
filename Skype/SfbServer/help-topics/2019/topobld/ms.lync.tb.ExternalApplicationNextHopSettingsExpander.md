@@ -1,8 +1,8 @@
 ---
 title: Расширитель параметров следующего скачка для внешних приложений
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,16 +14,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: be7857e4-9a75-4de5-91b0-bcb241930a0c
 ROBOTS: NOINDEX, NOFOLLOW
-description: Вы можете задать сервер следующего прыжка для пула серверов приложений, выбрав на нем определенный пул переднего плана Enterprise Edition или стандартный сервер переднего плана из раскрывающегося списка. Пул режиссера или режиссера не является допустимым выбором для доверенного сервера приложений для следующего прыжка, и он не появится в списке. Нажмите кнопку ОК, чтобы сохранить изменения. Для отмены изменений и закрытия страницы свойств нажмите кнопку Отмена.
-ms.openlocfilehash: 6642826eb9924f0cdf0b36abf7427bbdc19951d2
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Можно указать сервер следующего прыжка пула серверов доверенных приложений, выбрав в выпадаемом списке определенный пул переднего сервера Enterprise Edition или сервер переднего сервера Standard Edition. Директор или пул директоров нельзя выбрать для следующего перехода доверенного пула серверов приложений, поэтому они отсутствуют в списке. Нажмите кнопку "ОК", чтобы принять и сохранить изменения. Нажмите кнопку Отмена, чтобы отменить изменения и покинуть страницу свойств.
+ms.openlocfilehash: 195d5395200837d385afbe1cd1da77ed7f58f78d
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41793737"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49815509"
 ---
-# <a name="external-application-next-hop-settings-expander"></a><span data-ttu-id="28bf8-106">Расширитель параметров следующего скачка для внешних приложений</span><span class="sxs-lookup"><span data-stu-id="28bf8-106">External Application Next Hop Settings Expander</span></span>
+# <a name="external-application-next-hop-settings-expander"></a><span data-ttu-id="8bff9-106">Расширитель параметров следующего перехода для внешних приложений</span><span class="sxs-lookup"><span data-stu-id="8bff9-106">External Application Next Hop Settings Expander</span></span>
  
-<span data-ttu-id="28bf8-107">Вы можете задать сервер следующего прыжка для пула серверов приложений, выбрав на нем определенный пул переднего плана Enterprise Edition или стандартный сервер переднего плана из раскрывающегося списка.</span><span class="sxs-lookup"><span data-stu-id="28bf8-107">You can specify the Trusted Application server pool's next hop server by selecting the defined Enterprise Edition Front End pool or Standard Edition Front End Server from the drop-down list.</span></span> <span data-ttu-id="28bf8-108">Пул режиссера или режиссера не является допустимым выбором для доверенного сервера приложений для следующего прыжка, и он не появится в списке.</span><span class="sxs-lookup"><span data-stu-id="28bf8-108">A Director or Director pool is not a valid selection for a Trusted Application server next hop, and it will not appear in the list.</span></span> <span data-ttu-id="28bf8-109">Нажмите кнопку **ОК** , чтобы сохранить изменения.</span><span class="sxs-lookup"><span data-stu-id="28bf8-109">Click **OK** to accept and save your changes.</span></span> <span data-ttu-id="28bf8-110">Для отмены изменений и закрытия страницы свойств нажмите кнопку **Отмена**.</span><span class="sxs-lookup"><span data-stu-id="28bf8-110">Click **Cancel** to discard your changes and exit the properties page.</span></span>
+<span data-ttu-id="8bff9-107">Можно указать сервер следующего прыжка пула серверов доверенных приложений, выбрав определенный пул переднего сервера Enterprise Edition или сервер переднего сервера Standard Edition в выпадаемом списке.</span><span class="sxs-lookup"><span data-stu-id="8bff9-107">You can specify the Trusted Application server pool's next hop server by selecting the defined Enterprise Edition Front End pool or Standard Edition Front End Server from the drop-down list.</span></span> <span data-ttu-id="8bff9-108">Директор или пул директоров нельзя выбрать для следующего перехода доверенного пула серверов приложений, поэтому они отсутствуют в списке.</span><span class="sxs-lookup"><span data-stu-id="8bff9-108">A Director or Director pool is not a valid selection for a Trusted Application server next hop, and it will not appear in the list.</span></span> <span data-ttu-id="8bff9-109">Нажмите **кнопку** "ОК", чтобы принять и сохранить изменения.</span><span class="sxs-lookup"><span data-stu-id="8bff9-109">Click **OK** to accept and save your changes.</span></span> <span data-ttu-id="8bff9-110">Нажмите кнопку **Отмена**, чтобы отменить изменения и покинуть страницу свойств.</span><span class="sxs-lookup"><span data-stu-id="8bff9-110">Click **Cancel** to discard your changes and exit the properties page.</span></span>
   
 
