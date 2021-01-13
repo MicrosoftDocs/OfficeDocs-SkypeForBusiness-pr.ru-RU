@@ -1,8 +1,8 @@
 ---
 title: Добавление следующего скачка для пограничного сервера
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,18 +14,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8ef7235d-626c-4cc9-b6ec-9dfeab495cc0
 ROBOTS: NOINDEX, NOFOLLOW
-description: Следующим прыжком для пограничного пула является пул переднего плана (который может быть корпоративным или стандартным), или, если в развертывании есть режиссер, следующий прыжок — это режиссер.
-ms.openlocfilehash: 500e867402fd5dbe91feeaa04fef389048c382dd
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Узлом следующего перехода для пограничного пуля является интерфейсный пул (который может быть пулом Enterprise или Standard Edition) или директор, если этот компонент задействуется в развертывании.
+ms.openlocfilehash: 366ca9ffa090f59943752519607db0437e747ad5
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41798166"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49800979"
 ---
-# <a name="add-edge-server-next-hop"></a>Добавление следующего скачка для пограничного сервера
+# <a name="add-edge-server-next-hop"></a>Добавление следующего перехода для пограничного сервера
 
-Следующим прыжком для пограничного пула является пул переднего плана (который может быть корпоративным или стандартным), или, если в развертывании есть режиссер, следующий прыжок — это режиссер.
+Узлом следующего перехода для пограничного пуля является интерфейсный пул (который может быть пулом Enterprise или Standard Edition) или директор, если этот компонент задействуется в развертывании.
 
-Поддержку внешнего доступа пользователей можно настроить при развертывании начальной топологии или позднее. Дополнительные сведения о добавлении пограничных серверов к существующей топологии см. в разделе [Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx) документации по развертыванию пограничного сервера.
+Поддержку внешнего доступа пользователей можно добавить при развертывании начальной топологии или позднее. Дополнительные сведения о добавлении пограничных серверов в существующую топологию см. в разделе [Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx) документации по развертыванию пограничного сервера.
 
 

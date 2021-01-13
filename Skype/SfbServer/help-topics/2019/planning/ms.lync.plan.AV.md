@@ -1,8 +1,8 @@
 ---
-title: Audio Video Conferencing (Planning Tool)
+title: Аудиоконференция (средство планирования)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,20 +15,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 466f5d2e-0e70-434c-8318-dfdefe679a31
 ROBOTS: NOINDEX, NOFOLLOW
-description: Skype для бизнеса Server аудио-и видеоконференции (A/V) позволяет пользователям принимать участие в голосовых и видеоконференциях в режиме реального времени.
-ms.openlocfilehash: ad0934ff8f2467dac2df3ec80d596624208fd675
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Аудио- и видеоконференции Skype для бизнеса Server позволяют пользователям участвовать в аудио- или видеоконференции в режиме реального времени.
+ms.openlocfilehash: c2d491308a3886a172ba800ba39ca9a5f637be02
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796128"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49801169"
 ---
-# <a name="audio-video-conferencing-planning-tool"></a>Audio Video Conferencing (Planning Tool)
+# <a name="audio-video-conferencing-planning-tool"></a>Аудиоконференция (средство планирования)
  
-Skype для бизнеса Server аудио-и видеоконференции (A/V) позволяет пользователям принимать участие в голосовых и видеоконференциях в режиме реального времени.
+Аудио- и видеоконференции Skype для бизнеса Server позволяют пользователям участвовать в аудио- или видеоконференции в режиме реального времени.
   
-Сведения о планировании включения аудио- и видеоконференций в вашей организации см. в следующих статьях и разделах: 
+Подробные сведения о планировании включения видео- и видеоконференций в организации см. в следующей теме и ее подп. 
   
-- [Планирование конференций в Skype для бизнеса Server](../../../plan-your-deployment/conferencing/conferencing.md)
+- [Планирование для работы сконференцией в Skype для бизнеса Server](../../../plan-your-deployment/conferencing/conferencing.md)
     
 

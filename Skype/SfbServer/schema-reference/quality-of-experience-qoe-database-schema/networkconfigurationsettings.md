@@ -1,8 +1,8 @@
 ---
-title: Представление Нетворкконфигуратионсеттингс
+title: Представление NetworkConfigurationSettings
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,22 +12,22 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 279ea5d1-5d07-44d4-8133-2557446914ca
-description: В представлении Нетворкконфигуратионсеттингс хранятся сведения о конфигурации сети. Это представление было представлено в Microsoft Lync Server 2013.
-ms.openlocfilehash: d33111ec8d9be155e8189cf7876b6d9d293eb678
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: В представлении NetworkConfigurationSettings содержатся сведения о конфигурации сети. Это представление впервые было введено в Microsoft Lync Server 2013.
+ms.openlocfilehash: f3c03c286b9593d004f0849669a6c089be5111b0
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41807717"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49806319"
 ---
-# <a name="networkconfigurationsettings-view"></a>Представление Нетворкконфигуратионсеттингс
+# <a name="networkconfigurationsettings-view"></a>Представление NetworkConfigurationSettings
  
-В представлении Нетворкконфигуратионсеттингс хранятся сведения о конфигурации сети. Это представление было представлено в Microsoft Lync Server 2013.
+В представлении NetworkConfigurationSettings содержатся сведения о конфигурации сети. Это представление впервые было введено в Microsoft Lync Server 2013.
   
-|**Столбец**|**Тип данных**|**Сведения**|
+|**Столбец**|**Тип данных**|**Details**|
 |:-----|:-----|:-----|
-|субнетип  <br/> |целое  <br/> |IP-адрес подсети (поддерживаются только адреса IPv4).  <br/> |
-|усерситенаме  <br/> |nvarchar(128  <br/> |Имя сайта пользователя.  <br/> |
-|регионнаме  <br/> |nvarchar(128  <br/> |Название страны или региона пользователя.  <br/> |
+|SubnetIP  <br/> |int  <br/> |IP-адрес подсети (поддерживаются только адреса IPv4).  <br/> |
+|UserSiteName  <br/> |nvarchar(128)  <br/> |Имя сайта пользователя.  <br/> |
+|RegionName  <br/> |nvarchar(128)  <br/> |Имя страны или региона пользователя.  <br/> |
    
 

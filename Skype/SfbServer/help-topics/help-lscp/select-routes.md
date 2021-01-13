@@ -1,8 +1,8 @@
 ---
 title: Выбор маршрутов
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,21 +14,21 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d136adcd-6659-4113-941c-cca75033318e
-description: Используйте диалоговое окно Выбор маршрутов для поиска существующих голосовых маршрутов, которые вы можете использовать.
-ms.openlocfilehash: ace250fab09bf6d4ada34d94bdd531a10a12ae74
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Используйте диалоговое окно Выбор маршрутов для поиска существующих пригодных для использования маршрутов голосовых данных.
+ms.openlocfilehash: 76a7927ec4e73ab8462f307e42477ab53030e399
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41822132"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49803739"
 ---
 # <a name="select-routes"></a>Выбор маршрутов
  
-Используйте диалоговое окно **выбор маршрутов** для поиска существующих голосовых маршрутов, которые вы можете использовать.
+Используйте диалоговое окно **Выбор маршрутов** для поиска существующих пригодных для использования маршрутов голосовых данных.
   
 > [!NOTE]
-> Чтобы получить все доступные Голосовые маршруты, не вводите ничего в поле поиска, а затем щелкните значок поиска. 
+> Чтобы получить все доступны маршруты голосовых данных, ничего не вводите в поле поиска и нажмите значок поиска. 
   
-Сведения о различных процедурах, которые можно выполнить с помощью панели управления "Skype для бизнеса Server", приведены в статье [Управление Skype для бизнеса server 2015](../../manage/manage.md).
+For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).
   
 

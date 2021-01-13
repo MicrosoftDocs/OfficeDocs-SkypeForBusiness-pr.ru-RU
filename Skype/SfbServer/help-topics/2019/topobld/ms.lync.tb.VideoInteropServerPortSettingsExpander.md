@@ -1,8 +1,8 @@
 ---
 title: Расширитель параметров порта сервера видеовзаимодействия
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,25 +14,25 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 416ba609-5a32-4c60-b346-ef3119932c91
 ROBOTS: NOINDEX, NOFOLLOW
-description: Инструкции по определению нового шлюза ВИС или видеоролика в построителе топологии описаны в статье Создание пула ВИС в Skype для бизнеса Server в Интернете.
-ms.openlocfilehash: e0125f51164a5f82df99c1f83fd560cce538cfbe
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: The steps needed to define a new VIS or Video Gateway in Topology Builder are described online in Create a VIS pool in Skype for Business Server.
+ms.openlocfilehash: 178c449feb610b07dd22e9a76d38448d230706b1
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41795260"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49805469"
 ---
 # <a name="video-interop-server-port-settings-expander"></a>Расширитель параметров порта сервера видеовзаимодействия
  
-Инструкции по определению нового шлюза ВИС или видеоролика в построителе топологии описаны в статье [Создание пула ВИС в Skype для бизнеса Server](../../../deploy/deploy-video-interop-server/create-a-vis-pool.md)в Интернете.
+The steps needed to define a new VIS or Video Gateway in Topology Builder are described online in [Create a VIS pool in Skype for Business Server.](../../../deploy/deploy-video-interop-server/create-a-vis-pool.md)
   
-Действия, которые необходимо выполнить для назначения роли сервера видеосвязи на сервере с помощью Windows PowerShell, описаны в статье Online на сайте [развертывание роли сервера ВИС в Skype для бизнеса Server](../../../deploy/deploy-video-interop-server/deploy-the-vis-server-role.md)
+The steps needed to assign a Video Interop Server role on a server using Windows PowerShell are described online at [Deploy the VIS server role in Skype for Business Server](../../../deploy/deploy-video-interop-server/deploy-the-vis-server-role.md)
   
-Этапы настройки нового сервера видеосвязи с помощью Windows PowerShell описаны в статье [Настройка сервера видеосвязи в Skype для бизнеса Server](../../../deploy/deploy-video-interop-server/configure-the-vis.md)в Интернете.
+Действия по настройке нового сервера video Interop Server с Windows PowerShell описаны в Интернете на веб-сайте [Configure the Video Interop Server in Skype for Business Server.](../../../deploy/deploy-video-interop-server/configure-the-vis.md)
   
- Параметры видеошлюза, которые необходимо настроить в GUI-интерфейсе Cisco для взаимодействия с ВИС, описаны в разделе [Настройка КУКМ для взаимодействия с Skype для бизнеса Server](../../../deploy/deploy-video-interop-server/configure-cucm-for-interoperation.md).
+ Параметры видео шлюза, которые необходимо настроить в GUI Cisco для связи с VIS, описаны в Интернете на веб-сайте [Configure CUCM for Interoperation with Skype for Business Server.](../../../deploy/deploy-video-interop-server/configure-cucm-for-interoperation.md)
   
- Параметры для ВТК, которые должны быть установлены в GUI-интерфейсе Cisco для взаимодействия с видеошлюзом и ВИС, описаны в разделе " [Настройка ВТК для взаимодействия с Skype для бизнеса Server](../../../deploy/deploy-video-interop-server/configure-a-vtc-for-interoperation.md)".
+ Параметры VTC, которые необходимо настроить в GUI Cisco для работы с видео шлюзом и viS, описаны в Интернете на веб-сайте ["Настройка VTC](../../../deploy/deploy-video-interop-server/configure-a-vtc-for-interoperation.md)для связи со Skype для бизнеса Server".
   
 ## <a name="see-also"></a>См. также
 
