@@ -1,8 +1,8 @@
 ---
-title: Отслеживание файлов журнала трассировки запросов служб IIS в Skype для бизнеса Server 2015
+title: Мониторинг файлов журнала трасситуры запросов IIS в Skype для бизнеса Server 2015
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,24 +11,24 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: b6730e92-6d74-4fa7-a83f-50b7bdadbffa
-description: 'Сводка: сведения о службе Mobility Service (МККС) в Skype для бизнеса Server 2015, поддерживающем устаревшие клиенты.'
-ms.openlocfilehash: 982e5842499e5cb2f6ff21ff884d1baa45075627
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Сводка. Сведения о поддержке службы Mobility Service (Mcx) в Skype для бизнеса Server 2015 для устаревших клиентов.
+ms.openlocfilehash: 5fb9e66efa468e8755fe369c3ce4f2a4b8979e57
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41817929"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49823509"
 ---
-# <a name="monitoring-iis-request-tracing-log-files-in-skype-for-business-server-2015"></a>Отслеживание файлов журнала трассировки запросов служб IIS в Skype для бизнеса Server 2015
+# <a name="monitoring-iis-request-tracing-log-files-in-skype-for-business-server-2015"></a>Мониторинг файлов журнала трасситуры запросов IIS в Skype для бизнеса Server 2015
  
-**Сводка:** Узнайте о службе Mobility Service (МККС) в Skype для бизнеса Server 2015, поддерживающем устаревшие клиенты.
+**Сводка:** Learn about the Mobility Service (Mcx) in Skype for Business Server 2015 support for legacy clients.
   
-В этом разделе описываются развертывания с поддержкой только для клиентов Lync 2010 Lync Mobile, он предназначен только для службы Mobility Service (Mcx).
+Этот раздел относится к развертываниям, поддерживающих только клиенты Lync 2010 Lync Mobile, и предназначен для службы Mobility Service (Mcx).
 
 > [!NOTE]
-> Поддержка МККС (служба Mobility Service) для устаревших мобильных клиентов больше не доступна в Skype для бизнеса Server 2019. На всех текущих мобильных клиентах Skype для бизнеса уже используется веб-API единой системы обмена сообщениями (УКВА) для поддержки мгновенных сообщений, присутствия и контактов. Пользователи с устаревшими клиентами, использующими МККС, должны обновиться до текущего клиента.
+> Поддержка MCX (Mobility Service) для устаревших мобильных клиентов больше недоступна в Skype для бизнеса Server 2019. Все текущие мобильные клиенты Skype для бизнеса уже используют веб-API объединенных коммуникаций (UCWA) для поддержки обмена мгновенными сообщениями, присутствия и контактов. Пользователям с устаревшими клиентами, использующими MCX, потребуется обновиться до текущего клиента.
   
-При включении трассировки запросов служб IIS для службы Mobility Service в Skype для бизнеса Server (МККС) создаваемые файлы журнала могут занимать до 3 ГБ дискового пространства за день. IIS trace logging is enabled by default. Убедитесь, что на серверах переднего плана не осталось свободного места. 
+Если включить трассировку запросов служб IIS для Службы Skype для бизнеса Server Mobility Service (Mcx), созданные файлы журнала могут потреблять до трех гигабайт дискового пространства в день. Ведение журнала трассировки служб IIS включено по умолчанию. Необходимо отслеживать серверы переднего сервера, чтобы убедиться, что на них не заканчивается место на диске. 
   
 По умолчанию службы IIS используют для хранения файлов журнала папку %SystemDrive%\inetpub\logs\LogFiles.
   
@@ -38,6 +38,6 @@ ms.locfileid: "41817929"
 %SystemDrive%\Windows\System32\inetsrv\appcmd set config /section:httpLogging /dontLog:True
 ```
 
-Подробные сведения о команде **хттплоггинг** можно найти [в справочнике по командам](https://go.microsoft.com/fwlink/p/?linkId=234927).
+Подробные сведения о **команде httpLogging** см. [в справке по команде.](https://go.microsoft.com/fwlink/p/?linkId=234927)
   
 

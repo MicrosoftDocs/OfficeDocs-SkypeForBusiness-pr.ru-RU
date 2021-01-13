@@ -1,8 +1,8 @@
 ---
 title: Узел области применения сервера Office Communications
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,22 +14,22 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ec5088ec-71b5-42cb-9f04-242716877178
-description: Это Предварительная документация, которая может быть изменена. Пустые разделы включены в качестве заполнителей.
-ms.openlocfilehash: feed152cb42bece0abffd62d781a10836109475e
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+description: Это предварительная документация, которая может быть измениться. Пустые разделы включены в качестве заполнителей.
+ms.openlocfilehash: 3b3d25559e280187a2b6931323434485436abaa0
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48215580"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49823919"
 ---
-# <a name="office-communications-server-scope-node"></a>Узел области применения сервера Office Communications
+# <a name="office-communications-server-scope-node"></a>Узел области сервера Office Communications
 
-Это Предварительная документация, которая может быть изменена. Пустые разделы включены в качестве заполнителей.
+Это предварительная документация, которая может быть измениться. Пустые разделы включены в качестве заполнителей.
 
-Нажмите кнопку **Office Communications Server 2007 R2** , чтобы развернуть разделы под узлом, или щелкните правой кнопкой мыши, чтобы получить доступ к параметрам **топологии** , или к этой странице **справки** .
+Щелкните **Office Communications Server 2007 R2,** чтобы развернуть разделы  в узле, или щелкните правой кнопкой мыши для доступа к параметрам топологии или для доступа к этой странице **справки.**
 
 ## <a name="see-also"></a>См. также
 
-[Объединение с помощью мастера объединения в построителе топологий](https://technet.microsoft.com/library/c3f3c425-dab6-4dcd-bf0e-d7fde05f2ebf.aspx)
+[Мастер объединения с помощью построщика топологий](https://technet.microsoft.com/library/c3f3c425-dab6-4dcd-bf0e-d7fde05f2ebf.aspx)
 
 [Проверка сведений о топологии](https://technet.microsoft.com/library/aa4c424e-f87c-4be6-8df6-a0cd193b11fc.aspx)

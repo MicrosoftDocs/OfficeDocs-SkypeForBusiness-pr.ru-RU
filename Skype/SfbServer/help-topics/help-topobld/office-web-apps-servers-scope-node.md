@@ -1,8 +1,8 @@
 ---
 title: Узел области серверов Office Web Apps
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
@@ -14,23 +14,23 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 087ca1f2-2329-4fa1-b6bb-685f2f4ba296
-description: Чтобы открыть мастер, щелкните Серверы Office Web Apps правой кнопкой мыши и выберите пункт Создать сервер Office Web Apps.
-ms.openlocfilehash: 6cc31249f2ac7245fd279dc562f61ac5ad24cd1a
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+description: Щелкните правой кнопкой мыши серверы Office Web Apps и выберите новый сервер Office Web Apps, чтобы открыть мастер.
+ms.openlocfilehash: c070432d5cc9136293c3e6c454275b6d632ee9bc
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48216100"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49823899"
 ---
 # <a name="office-web-apps-servers-scope-node"></a>Узел области серверов Office Web Apps
 
-Чтобы открыть мастер, щелкните **серверы Office Web Apps** правой кнопкой мыши и выберите пункт **создать сервер Office Web Apps** .
+Щелкните правой **кнопкой мыши серверы Office Web Apps** и выберите **новый сервер Office Web Apps,** чтобы открыть мастер.
 
-![Узел области "серверы OfficeWebApps"](../../media/OfficeWebApps_Servers_Scope_Node.jpg)
+![Узел области серверов OfficeWebApps](../../media/OfficeWebApps_Servers_Scope_Node.jpg)
 
-- **Topology (топология**). Вы можете использовать этот параметр, чтобы определить новую топологию, открыть существующую топологию, скачать текущую топологию, сохранить копию топологии, опубликовать топологию, установить базу данных, объединить компоненты из предыдущих версий или удалить развертывание.
+- **Топология.** С помощью этого параметра можно определить новую топологию, открыть существующую топологию, загрузить текущую топологию, сохранить копию топологии, опубликовать топологию, установить базу данных, объединить компоненты из предыдущих версий или удалить развертывание.
 
-- **Справка**. Вы можете использовать данный параметр для доступа к справке по активному узлу.
+- **Справка.** Вы можете использовать данный параметр для доступа к справке по активному узлу.
 
 ## <a name="see-also"></a>См. также
 

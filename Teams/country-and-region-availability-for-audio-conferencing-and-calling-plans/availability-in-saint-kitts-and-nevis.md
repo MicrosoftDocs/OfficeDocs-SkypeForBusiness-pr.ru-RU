@@ -1,7 +1,7 @@
 ---
 title: Доступность в Сент-Китс и Невис
-author: LanaChin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Вот службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Сент-Китс и Невис.
-ms.openlocfilehash: 8dbca02d417844d1f8ba87fffefbe5fa938db78b
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+ms.openlocfilehash: 366a52a7f6ab3d3d6f2c2b639bc7bb261df8c467
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44231078"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49825469"
 ---
 # <a name="availability-in-saint-kitts-and-nevis"></a>Доступность в Сент-Китс и Невис
 

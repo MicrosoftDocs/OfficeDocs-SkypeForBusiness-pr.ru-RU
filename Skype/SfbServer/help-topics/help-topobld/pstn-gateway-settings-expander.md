@@ -1,8 +1,8 @@
 ---
 title: Расширитель настроек шлюза ТСОП
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
@@ -15,14 +15,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0fd103df-150d-4ea8-b522-18dbc50f5061
 description: Чтобы изменить или отредактировать параметры телефонной сети общего пользования, измените значения следующих полей.
-ms.openlocfilehash: 10669d4355acc8d2ea1a8546275116660c1ac7a7
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: 56f26a4113841b7563e42180aa51a80eedb2f859
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48216590"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49823729"
 ---
-# <a name="pstn-gateway-settings-expander"></a>Расширитель настроек шлюза ТСОП
+# <a name="pstn-gateway-settings-expander"></a>Расширитель параметров шлюза ТСОП
  
 Чтобы изменить или отредактировать параметры телефонной сети общего пользования, измените значения следующих полей.
   
