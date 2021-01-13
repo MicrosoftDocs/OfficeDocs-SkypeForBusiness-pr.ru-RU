@@ -1,7 +1,7 @@
 ---
 title: Управление политиками экстренных вызовов в Microsoft Teams
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: jastark, roykuntz
 ms.topic: article
@@ -20,16 +20,16 @@ description: Узнайте, как использовать политики э
 ms.custom:
 - seo-marvel-apr2020
 - ms.teamsadmincenter.voice.emergencycallingpolicies.overview
-ms.openlocfilehash: ac2c06e9ba93e650909ee776383f1cebd9da1a9d
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: 1e516252317a0e5f14e705b674255048fb3defb5
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48217670"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49804689"
 ---
 # <a name="manage-emergency-calling-policies-in-microsoft-teams"></a>Управление политиками экстренных вызовов в Microsoft Teams
 
-Если в [](set-up-calling-plans.md) вашей организации используются планы звонков или развернута прямая маршрутия телефонной [системы,](direct-routing-landing-page.md)вы можете использовать политики экстренных вызовов в Microsoft Teams, чтобы определить, что происходит, когда пользователь Teams в вашей организации звонит в экстренные службы. Вы можете настроить, кому и каким образом уведомлять пользователя, которому назначена политика, в экстренные службы. Например, вы можете настроить параметры политики, чтобы служба безопасности организации автоматически уведомляла сотрудников службы безопасности и прослушивала экстренные вызовы.  
+Если в [](set-up-calling-plans.md) вашей организации используются планы звонков или развернута прямая маршрутия телефонной [системы,](direct-routing-landing-page.md)вы можете использовать политики экстренных вызовов в Microsoft Teams, чтобы определить, что происходит, когда пользователь Teams в вашей организации звонит в экстренные службы. Вы можете настроить, кому и каким образом уведомлять пользователя, которому назначена политика, в экстренные службы. Например, вы можете настроить параметры политики для автоматического уведомления службы безопасности организации и для того, чтобы они могли прослушивать звонки в экстренные службы.  
 
 Вы управляете политиками экстренных вызовов, переходить к политикам голосового экстренного вызова в Центре администрирования Microsoft Teams или с помощью   >   Windows PowerShell. Политики могут быть назначены пользователям и [сетевым сайтам.](cloud-voice-network-settings.md)
 
@@ -68,7 +68,7 @@ ms.locfileid: "48217670"
 
 ### <a name="using-powershell"></a>С помощью PowerShell
 
-См. [Set-CsTeamsEmergencyCallingPolicy.](https://docs.microsoft.com/powershell/module/skype/set-csteamsemergencycallingpolicy)
+См. [set-CsTeamsEmergencyCallingPolicy.](https://docs.microsoft.com/powershell/module/skype/set-csteamsemergencycallingpolicy)
 
 ## <a name="assign-a-custom-emergency-calling-policy-to-users"></a>Назначение пользователям настраиваемой политики экстренных вызовов
 

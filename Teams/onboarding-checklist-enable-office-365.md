@@ -1,7 +1,7 @@
 ---
 title: 'Контрольный список для регистрации: включить службу Microsoft 365 или Office 365'
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.date: 08/21/2018
 ms.topic: article
@@ -16,12 +16,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 28a89502a628c3cc9dcdf2c910371bb37568f194
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: 9f9d9e40968d8d94f92b3fee5807d0d16bd2c0e9
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085175"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49802299"
 ---
 # <a name="enable-microsoft-365-or-office-365"></a>Включить Microsoft 365 или Office 365
  

@@ -1,7 +1,7 @@
 ---
 title: Управление топологией сети для функций облачного голосового управления в Microsoft Teams
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: jastark, roykuntz
 ms.topic: article
@@ -19,12 +19,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Узнайте, как настроить параметры сети для функций облачного голосового связи в Microsoft Teams.
-ms.openlocfilehash: 2414010a6e7098a18954067dad659cb8c9912736
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 7d8bc7f06934134538fca59a3f19285d97756e2f
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031105"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49802579"
 ---
 # <a name="manage-your-network-topology-for-cloud-voice-features-in-microsoft-teams"></a>Управление топологией сети для функций облачного голосового управления в Microsoft Teams
 
@@ -100,7 +100,7 @@ New-CsTenantNetworkRegion -NetworkRegionID "India"
 
 ### <a name="define-network-sites"></a>Определение сетевых сайтов
 
-Для определения сетевых сайтов [используйте командлет New-CsTenantNetworkSite.](https://docs.microsoft.com/powershell/module/skype/new-cstenantnetworksite?view=skype-ps) Каждый сетевой сайт должен быть связан с сетевым регионом.
+Для определения сетевых сайтов используйте командлет [New-CsTenantNetworkSite.](https://docs.microsoft.com/powershell/module/skype/new-cstenantnetworksite?view=skype-ps) Каждый сетевой сайт должен быть связан с сетевым регионом.
 
 ```PowerShell
 New-CsTenantNetworkSite -NetworkSiteID <site ID> -NetworkRegionID <region ID>
@@ -165,7 +165,7 @@ Identity, Mask, SiteID
 
 ### <a name="define-external-subnets-external-trusted-ip-addresses"></a>Определение внешних подсетей (внешних доверенных IP-адресов)
 
-Чтобы определить внешние подсети и назначить их для клиента, используйте для этого [cmdlet New-CsTenantTrustedIPAddress.](https://docs.microsoft.com/powershell/module/skype/new-cstenanttrustedipaddress?view=skype-ps) Для клиента можно определить неограниченное количество внешних подсетей.
+Чтобы определить внешние подсети и назначить их клиенту, воспользуйтесь этим [cmdlet: New-CsTenantTrustedIPAddress.](https://docs.microsoft.com/powershell/module/skype/new-cstenanttrustedipaddress?view=skype-ps) Для клиента можно определить неограниченное количество внешних подсетей.
 
 ```PowerShell
 New-CsTenantTrustedIPAddress -IPAddress <External IP address> -MaskBits <Subnet bitmask> -Description <description> 

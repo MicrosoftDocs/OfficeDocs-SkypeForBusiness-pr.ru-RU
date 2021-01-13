@@ -1,7 +1,7 @@
 ---
 title: Ограничения набора бесплатных номеров в Португалии
-ms.author: v-lanac
-author: LanaChin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.reviewer: davlick, krkilaru
 ms.topic: reference
@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Это поможет вам узнать, как звонить на бесплатные номера в каждой стране или регионе. После выбора страны или региона вы будете перена границу страницы с подробными сведениями, ограничениями и ограничениями на доступность бесплатных служб, на которых доступна бесплатная служба. В формате набора вы сможете использовать коды доступа, необходимые для набора бесплатного номера в каждой стране или регионе.
-ms.openlocfilehash: 11b3664f0b25967143dc029e65a11f80117595b8
-ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
+ms.openlocfilehash: cdaa8761e55ac2ad85775c81c4726bb42c5ba489
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48322268"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49809119"
 ---
 # <a name="toll-free-dialing-restrictions-in-portugal"></a>Ограничения набора бесплатных номеров в Португалии
 

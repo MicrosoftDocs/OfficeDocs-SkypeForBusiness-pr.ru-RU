@@ -1,7 +1,7 @@
 ---
 title: Ограничения на бесплатный набор номеров в Швейцарии
-ms.author: v-lanac
-author: LanaChin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.reviewer: davlick, krkilaru
 ms.topic: reference
@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Это поможет вам узнать, как звонить на бесплатные номера в каждой стране или регионе. После выбора страны или региона вы будете перена границу страницы с подробными сведениями, ограничениями и ограничениями на доступность бесплатных служб, на которых доступна бесплатная служба. Форматы набора показывают коды доступа, необходимые для набора бесплатного номера в каждой стране или регионе.
-ms.openlocfilehash: a83d5ab3b050d6f38ce4fed812ebaf234fc5f9e2
-ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
+ms.openlocfilehash: fad581272b1470fec0fe061a41759aa325e27fc9
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48321598"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49802339"
 ---
 # <a name="toll-free-dialing-restrictions-in-switzerland"></a>Ограничения на бесплатный набор номеров в Швейцарии
 

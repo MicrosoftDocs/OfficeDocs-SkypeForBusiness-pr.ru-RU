@@ -1,8 +1,8 @@
 ---
-title: Параметры следующего скачка сервера видеовзаимодействия
+title: Параметры следующего перехода сервера видеовзаимодействия
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
@@ -14,26 +14,26 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5a161404-b294-47fa-ad62-0e12bffcd8e4
-description: Действия, необходимые для определения нового VIS или видеошлюза в построителе топологий, описаны в статье Создание пула VIS в Skype для бизнеса Server 2015.
-ms.openlocfilehash: 8ae7746a61c3d92353ae1c96b1d7653a1ece3dc0
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+description: The steps needed to define a new VIS or Video Gateway in Topology Builder are described online in Create a VIS pool in Skype for Business Server 2015.
+ms.openlocfilehash: f1413ed9e1ea584d8367b37dd72a917e86f42c34
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48215750"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49817869"
 ---
-# <a name="video-interop-server-next-hop-settings"></a>Параметры следующего скачка сервера видеовзаимодействия
+# <a name="video-interop-server-next-hop-settings"></a>Параметры следующего перехода сервера видеовзаимодействия
  
-Действия, необходимые для определения нового VIS или видеошлюза в построителе топологий, описаны в статье [Создание пула Vis в Skype для бизнеса Server 2015](../../deploy/deploy-video-interop-server/create-a-vis-pool.md).
+The steps needed to define a new VIS or Video Gateway in Topology Builder are described online in [Create a VIS pool in Skype for Business Server 2015.](../../deploy/deploy-video-interop-server/create-a-vis-pool.md)
   
-Действия, необходимые для назначения роли сервера видеовзаимодействия на сервере с помощью Windows PowerShell, описаны в статье [развертывание роли сервера Vis в Skype для бизнеса server 2015](../../deploy/deploy-video-interop-server/deploy-the-vis-server-role.md)
+The steps needed to assign a Video Interop Server role on a server using Windows PowerShell are described online at [Deploy the VIS server role in Skype for Business Server 2015](../../deploy/deploy-video-interop-server/deploy-the-vis-server-role.md)
   
-Действия по настройке нового сервера видеовзаимодействия с помощью Windows PowerShell описаны в статье [Настройка сервера видеовзаимодействия в Skype для бизнеса server 2015](../../deploy/deploy-video-interop-server/configure-the-vis.md).
+The configuration steps for a new Video Interop Server using Windows PowerShell are described online at [Configure the Video Interop Server in Skype for Business Server 2015.](../../deploy/deploy-video-interop-server/configure-the-vis.md)
   
- Параметры видеошлюза, которые необходимо настроить в графическом интерфейсе Cisco для взаимодействия с VIS, описаны в статье Online On On The [Configure CUCM for Business to Skype for Business Server 2015](../../deploy/deploy-video-interop-server/configure-cucm-for-interoperation.md).
+ Параметры видео шлюза, которые необходимо настроить в GUI Cisco для связи с VIS, описаны в Интернете на веб-сайте [Configure CUCM for Interoperation with Skype for Business Server 2015.](../../deploy/deploy-video-interop-server/configure-cucm-for-interoperation.md)
   
- Параметры VTC, которые необходимо задать в графическом интерфейсе Cisco для взаимодействия с видеошлюзом и VIS, описаны в статье Online on the [Configure a VTC for for Skype for Business Server 2015](../../deploy/deploy-video-interop-server/configure-a-vtc-for-interoperation.md).
+ Параметры VTC, которые необходимо настроить в GUI Cisco для связи с видео шлюзом и VIS, описаны в Интернете на веб-сайте "Настройка VTC для связи со [Skype для бизнеса Server 2015".](../../deploy/deploy-video-interop-server/configure-a-vtc-for-interoperation.md)
   
 ## <a name="see-also"></a>См. также
 
-[Планирование сервера видеовзаимодействия в Skype для бизнеса Server 2015](../../plan-your-deployment/video-interop-server.md)
+[Планирование сервера видеосвязи в Skype для бизнеса Server 2015](../../plan-your-deployment/video-interop-server.md)

@@ -1,7 +1,7 @@
 ---
 title: Ограничения набора бесплатных номеров в Швеции
-ms.author: v-lanac
-author: LanaChin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.reviewer: davlick, krkilaru
 ms.topic: reference
@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Это поможет вам узнать, как звонить на бесплатные номера в каждой стране или регионе. После выбора страны или региона вы будете перена границу страницы с подробными сведениями, ограничениями и ограничениями на доступность бесплатных служб, на которых доступна бесплатная служба. В формате набора вы сможете использовать коды доступа, необходимые для набора бесплатного номера в каждой стране или регионе.
-ms.openlocfilehash: 63d6e1a987c0fe12f4bdbd81b02f27340456c9bb
-ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
+ms.openlocfilehash: c5458dd661262eb8a5be4462fcc005d94e2bd121
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48321902"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49809129"
 ---
 # <a name="toll-free-dialing-restrictions-in-sweden"></a>Ограничения набора бесплатных номеров в Швеции
 

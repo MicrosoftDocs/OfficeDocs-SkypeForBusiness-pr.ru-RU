@@ -1,7 +1,7 @@
 ---
 title: Блокировать входящие звонки в Microsoft Teams
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -14,12 +14,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ms.custom: Learn how to use PowerShell to manage inbound call blocking.
-ms.openlocfilehash: 3bb1222f0662228e5c0de7b2253cbac162571b1e
-ms.sourcegitcommit: a36514c7c8ea47bde4edb09c11ff99061b1f74c0
+ms.openlocfilehash: ca2f8de5962572a08ab2a0ae7127446d14334c83
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "45094685"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49799909"
 ---
 # <a name="block-inbound-calls"></a>Блокировать входящие звонки
 
@@ -28,9 +28,9 @@ ms.locfileid: "45094685"
 Эта функция блокировки входящие звонков работает только для входящие звонков из ННР и работает только на уровне клиента. Она недоступна для каждого пользователя.  
 
 >[!NOTE]
-> Заблокированные вызыватели могут несколько отличаться в действиях, если они заблокированы. Это зависит от того, как оператор связи заблокированного вызова обрабатывает уведомление о том, что звонок не разрешен для успешного завершения. Примерами может быть сообщение о том, что звонок не может быть выполнен в качестве набора номера, или просто перетащение звонка.
+> Заблокированные вызыватели могут несколько отличаться в действиях, если они заблокированы. Это зависит от того, как оператор связи заблокированного вызова обрабатывает уведомление о том, что звонок не разрешен для успешного завершения. Примерами могут быть сообщения о том, что звонок не может быть выполнен в качестве набора номера, или просто перетащение звонка.
 
-## <a name="call-blocking-admin-controls-and-information"></a>Средства контроля и сведения о блокировании вызовов администратором
+## <a name="call-blocking-admin-controls-and-information"></a>Средства контроля и сведения о блокировке вызовов администратора
 
 Элементы управления блокировкой номеров администратора предоставляются только с помощью PowerShell. Шаблоны блоков номеров определяются как шаблоны регулярных выражений. Порядок выражений не совпадает — первый шаблон, совпадающий с шаблоном в списке, приводит к блокировке вызова. Для того чтобы шаблон стал активным, может потребоваться до 24 часов, чтобы новый номер или шаблон, который был добавлен или удален в списке заблокированных вызывающих пользователей.
 
@@ -46,7 +46,7 @@ ms.locfileid: "45094685"
 Просмотром и активацией всей функции блокировки вызовов управляется с помощью управления get **,** **Set**  - **CsTenantBlockingCallingNumbers.**
 
 - [Get-CsTenantBlockedCallingNumbers](https://docs.microsoft.com/powershell/module/skype/get-cstenantblockedcallingnumbers) возвращает параметры для глобального списка заблокированных номеров, включая Enabled (True/False). Существует одна глобальная политика клиента, которую нельзя изменить вручную, кроме как включить или отключить функцию.
-- [Set-CsTenantBlockedCallingNumbers](https://docs.microsoft.com/powershell/module/skype/set-cstenantblockedcallingnumbers) позволяет изменять заблокированные клиентом звонки на уровне клиента.
+- [Set-CsTenantBlockedCallingNumbers](https://docs.microsoft.com/powershell/module/skype/set-cstenantblockedcallingnumbers) позволяет изменять параметры звонков, заблокированных глобальным клиентом, на уровне клиента.
 
 ### <a name="examples"></a>Примеры
 
@@ -62,7 +62,7 @@ New-CsInboundBlockedNumberPattern -Name “<name>” -Enabled $True -Description
 
 Рекомендуется дать понятное имя, чтобы легко понять, почему был добавлен шаблон. В случае блокирования нежелательных номеров следует именовать правило точно так же, как шаблон совме-числом, и при необходимости добавить в описание дополнительные сведения.
 
-Совпадения с шаблонами можно использовать с помощью регулярных выражений. Разрешить время репликации перед проверкой и проверкой.
+Совпадения с шаблонами можно использовать с помощью регулярных выражений. Время репликации перед проверкой и проверкой.
 
 #### <a name="allow-a-number"></a>Разрешить номер
 
@@ -72,9 +72,9 @@ New-CsInboundBlockedNumberPattern -Name “<name>” -Enabled $True -Description
 Remove-CsInboundBlockedNumberPattern -Identity “<identity>”
 ```
  
-Если нужное удостоверение неизвестно, сначала найдите нужный шаблон и заметьте его с помощью **cmdlet Get-CsInboundBlockedNumberPattern.** Затем запустите cmdlet **Remove-CsTenantBlockedNumberPattern** и передайте соответствующее значение удостоверения.
+Если нужное удостоверение неизвестно, сначала найдите нужный шаблон и обратите внимание на его идентификатор с помощью **cmdlet Get-CsInboundBlockedNumberPattern.** Затем запустите cmdlet **Remove-CsTenantBlockedNumberPattern** и передайте соответствующее значение удостоверения.
 
-Разрешить время репликации перед проверкой и проверкой.
+Время репликации перед проверкой и проверкой.
 
 #### <a name="view-all-number-patterns"></a>Просмотр всех шаблонов номеров
 
@@ -111,7 +111,7 @@ New-CsTenantBlockedNumberExceptionPattern -Identity InternationalPrefix -Tenant 
 
 #### <a name="view-all-number-exceptions"></a>Просмотр всех числных исключений
 
-В этом примере параметр **Identity** является необязательным. Если параметр **Identity** не задан, этот cmdlet возвращает список всех шаблонов числового исключения, указанных для клиента.
+В этом примере параметр **Identity** является необязательным. Если параметр **Identity** не указан, этот cmdlet возвращает список всех шаблонов числового исключения, указанных для клиента.
  
 ```powershell
 Get-CsTenantBlockedNumberExceptionPattern -Identity <XdsGlobalRelativeIdentity> -Tenant <GUID>
@@ -135,7 +135,7 @@ Set-CsTenantBlockedNumberExceptionPattern -Identity InternationalPrefix -Tenant 
 
 #### <a name="remove-a-number-exception"></a>Удаление числого исключения
 
-В этом примере параметр **Identity** является required. Этот cmdlet удалит заданный шаблон номера из списка клиентов.  Если нужное удостоверение неизвестно, сначала найдите нужный шаблон и заметьте его с помощью **cmdlet Get-CsInboundBlockedNumberPattern.** Затем запустите cmdlet **Remove-CsTenantBlockedNumberExceptionPattern** и передайте соответствующее значение удостоверения.Разрешить время репликации перед проверкой и проверкой.  
+В этом примере параметр **Identity** является required. Этот cmdlet удалит заданный шаблон номера из списка клиентов.  Если нужное удостоверение неизвестно, сначала найдите нужный шаблон и обратите внимание на его идентификатор с помощью **cmdlet Get-CsInboundBlockedNumberPattern.** Затем запустите cmdlet **Remove-CsTenantBlockedNumberExceptionPattern** и передайте соответствующее значение удостоверения.Время репликации перед проверкой и проверкой.  
 
 ```powershell
 Remove-CsTenantBlockedNumberExceptionPattern -Identity <XdsGlobalRelativeIdentity> -Tenant <GUID>
@@ -147,9 +147,9 @@ Remove-CsTenantBlockedNumberExceptionPattern -Identity InternationalPrefix -Tena
 
 ### <a name="test-whether-a-number-is-blocked"></a>Проверка блокировки номера
 
-С помощью **cmdlet Test-CsInboundBlockedNumberPattern** проверьте, заблокировано ли число в клиенте.
+С помощью **cmdlet Test-CsInboundBlockedNumberPattern проверьте,** заблокировано ли число в клиенте.
  
-В этом примере **требуются параметры PhoneNumber** и **Tenant.** Параметр **PhoneNumber должен** быть числовой строкой без дополнительных символов, таких как + или -. В TRPS параметр **Tenant является необязательным.** В результате параметр **IsNumberBlocked** возвращает значение True, если число заблокировано в клиенте, и False, если оно не заблокировано.
+В этом примере **требуются параметры PhoneNumber** и **Tenant.** Параметр **PhoneNumber должен** быть числовой строкой без дополнительных символов, таких как + или -. В TRPS параметр **Tenant является необязательным.** В результате **параметрNumberBlocked** возвращает значение True, если число заблокировано в клиенте, и False, если оно не заблокировано.
 
 ```powershell
 Test-CsInboundBlockedNumberPattern –Tenant <GUID> -PhoneNumber <String>
@@ -173,4 +173,4 @@ Test-CsInboundBlockedNumberPattern -Tenant e09ad6bc-1d3c-4650-8cae-02f6c5a04b45 
 
 ## <a name="a-note-about-regex"></a>Примечание об Regex
 
-Как было сказано ранее, для блокировки вызывающих вызовов соответствие шаблонам используется Regex. В Интернете доступно несколько инструментов для проверки совпадения с шаблоном регулярного регулярного вехи. Если вы не знакомы с шаблонами Regex, рекомендуем ознакомиться с базовыми задачами в течение некоторого времени. Чтобы получить ожидаемые результаты, используйте инструмент для проверки совпадений с шаблонами перед добавлением новых заблокированных совпадений в клиенте.
+Как говорилось ранее, для блокирования вызывающих вызовов используется Regex. В Интернете доступно несколько инструментов для проверки совпадения с шаблоном регулярного регулярного вехи. Если вы не знакомы с шаблонами Regex, рекомендуем ознакомиться с базовыми задачами в течение некоторого времени. Чтобы получить ожидаемые результаты, используйте инструмент для проверки совпадений с шаблонами перед добавлением новых заблокированных совпадений в клиенте.

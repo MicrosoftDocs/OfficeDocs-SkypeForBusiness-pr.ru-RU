@@ -1,7 +1,7 @@
 ---
 title: Обновление гибридного развертывания Skype для бизнеса до Teams
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 72786dc2ef5cefe7c3c87c5a376cc01d93a2c22c
-ms.sourcegitcommit: b07938c0b6edafacaeaaef205a1be00c4c1693ba
+ms.openlocfilehash: 67bb6c10bb8cc5f37d332459d8e147f4f626497d
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47940519"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49802349"
 ---
 # <a name="upgrade-from-a-skype-for-business-hybrid-deployment-to-teams"></a>Обновление гибридного развертывания Skype для бизнеса до Teams
 
@@ -36,7 +36,7 @@ ms.locfileid: "47940519"
 - [Привлечение заинтересованных лиц проекта](upgrade-enlist-stakeholders.md)
 - [Определение области проекта](https://aka.ms/SkypetoTeams-Scope)
 - [Понимание сосуществования и совместной работы Skype для бизнеса и Teams](https://aka.ms/SkypeToTeams-Coexist)
-- [Выбранный путь обновления](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [Вы решили перейти на нее](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 - [Подготовлена среда](https://aka.ms/SkypeToTeams-TechnicalReadiness)
 - [Подготовив организацию](https://aka.ms/SkypeToTeams-UserReadiness)
 - [Проводится пилотный проект](https://aka.ms/SkypeToTeams-Pilot)
@@ -52,13 +52,13 @@ ms.locfileid: "47940519"
 
 ## <a name="step-2-assign-a-coexistence-and-upgrade-mode"></a>Шаг 2. Назначение режима сосуществования и обновления
 
-После того как вы переместите пользователей в Skype для бизнеса Online, вы можете назначить им соответствующий режим сосуществования в зависимости от выбранного в организации пути обновления. Дополнительные сведения см. в настройках сосуществования и обновления [и](https://aka.ms/SkypeToTeams-SetCoexistence) [TeamsUpgradePolicy,](upgrade-to-teams-on-prem-tools.md)управляющих миграцией и сосуществованием.
+После того как вы переместите пользователей в Skype для бизнеса Online, вы можете назначить им соответствующий режим сосуществования в зависимости от выбранного в организации пути обновления. Дополнительные сведения [](https://aka.ms/SkypeToTeams-SetCoexistence) см. в настройках сосуществования и обновления, а также [TeamsUpgradePolicy:](upgrade-to-teams-on-prem-tools.md)управление миграцией и сосуществованием.
 
 > [!NOTE]
 > С помощью Skype для бизнеса Server 2019 и будущим накопительным обновлением Skype для бизнеса Server 2015 вы сможете выполнить этапы 1 (перемещение пользователей в Skype для бизнеса Online) и шаг 2 (обновление пользователей до Teams) одним шагом. Дополнительные сведения будут предоставлены после выпуска Skype для бизнеса Server 2019.
 
 ## <a name="phone-system-and-teams-upgrade"></a>Обновление телефонной системы и Teams
 
-Если вы переходите с гибридного развертывания Skype для бизнеса на телефонную систему с планами звонков, а вашим поставщиком услуг телефонной сети ЗВОНКОВ будет Майкрософт и предполагается, что вы выполнили перенос номеров телефонов, обновление пользователей до Teams автоматически переключит входящие звонки по STN в Teams.
+Если вы переходите с гибридного развертывания Skype для бизнеса на телефонную систему с планами звонков, а вашим поставщиком услуг телефонной сети ЗВОНКОВ будет Майкрософт и предполагается, что вы выполнили перенос номеров телефонов, при обновлении пользователей в Teams входящие звонки по STN будут автоматически переносимы в Teams.
 
-Если планы звонков недоступны или вы намерены использовать существующего поставщика услуг связи через ПС, необходимо перейти с корпоративного голосового развертывания (или гибридного голосового развертывания, которое использует существующее локальное развертывание или Cloud Connector Edition) на прямую маршрутизовку телефонной системы Майкрософт. Чтобы обновить пользователей до Teams, см. дополнительные соображения по прямой маршрутике телефонной [системы.](2-envision-make-my-service-decisions-direct-routing.md)
+Если планы звонков недоступны или вы намерены использовать существующего поставщика услуг связи через ПС, необходимо перейти с корпоративного голосового развертывания (или гибридного голосового развертывания, которое использует существующее локальное развертывание или Cloud Connector Edition) на прямую маршрутизовку телефонной системы Майкрософт. О том, как обновить пользователей до Teams, см. дополнительные соображения по прямой маршрутике телефонной [системы.](2-envision-make-my-service-decisions-direct-routing.md)

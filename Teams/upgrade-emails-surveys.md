@@ -1,13 +1,13 @@
 ---
 title: 'Переход microsoft Teams: сообщения электронной почты и опросы | Базовое обновление'
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: Примеры сообщений электронной почты и опросов, которые можно использовать в судебных решениях, в том числе с помощью усовершенствования десятишагового плана действий по переходу со Skype для бизнеса на Teams
+description: 'Примеры сообщений электронной почты и опросов, которые можно использовать в плане действий с десятью шагами, которые нужно использовать в разных решениях: переход со Skype для бизнеса на Teams'
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 31dfb96d4ad883593e49b71aa8ec86a86b25e660
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: e0b462488bd9faa1ef52e2e610a0ed7892898018
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665951"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49809079"
 ---
 # <a name="sample-emails-and-surveys-for-upgrade-basic-communications"></a>Образцы сообщений электронной почты и опросов для связи в upgrade Basic
 
@@ -39,7 +39,7 @@ ms.locfileid: "44665951"
 IMPORTANT ANNOUNCEMENT Regarding Skype for Business
 ```
 
-Тело сообщения электронной почты:
+Сообщение электронной почты:
 
 ````
 As Microsoft [announced](https://blogs.office.com/2017/09/25/a-new-vision-for-intelligent-communications-in-office-365/) in September 2017, Skype for Business and Microsoft Teams will be coming together into one solution. Teams builds on the great capabilities of Skype for Business and offers chat (IM), meetings, audio/video calling, file management, and a project workspace in one collaboration tool.
@@ -61,7 +61,7 @@ Microsoft has provided an upgrade checklist outlining the essential tasks we sho
 IMPORTANT ANNOUNCEMENT Regarding Skype for Business
 ```
 
-Тело сообщения электронной почты:
+Сообщение электронной почты:
 
 ````
 From instant messaging to meetings to audio calling, we understand how much you rely on technologies like Skype for Business to get your job done. We’re excited to announce that we’ll be transitioning to Microsoft Teams, which provides one solution for your communication and collaboration needs. Teams leverages much of what you know and love about Skype for Business and expands what’s possible, integrating chat (IM), online meetings, calling, file management and a project workspace all into one interface.
@@ -156,7 +156,7 @@ Regards,
 ACTION REQUESTED: Tell us about your Microsoft Teams experience
 ```
 
-Тело сообщения электронной почты:
+Сообщение электронной почты:
 
 ````
 We upgraded to Microsoft Teams just over a week ago and want to hear from you.
@@ -178,7 +178,7 @@ Should you have questions, contact <<insert alias or contact info>>.
 CALL TO ACTION: Give teams and channels a try
 ```
 
-Тело сообщения электронной почты:
+Сообщение электронной почты:
 
 ````
 Now that you’re up and running with Microsoft Teams, learn what else Teams can do for you. More than just enabling chat and meetings, Teams serves as a hub for teamwork—where you can chat, collaborate, and share content with the people you work with. Using the teams and channels functionality enables you to organize your projects and conversations in a way that works for you.
@@ -201,20 +201,20 @@ Should you have questions, contact <<insert alias or contact info>>.
 
 ## <a name="sample-surveys"></a>Образцы опросов
 
-Указать, насколько вы квалифицированы в следующих действиях в Teams и хотите ли вы узнать больше об одном или более действиях.
+Указать, насколько вы квалифицированы в следующих действиях в Teams, а также о том, есть ли одно или несколько действий, о которые вы хотите узнать подробнее.
 
-| &nbsp; | Очень опытный | Несколько квалифицированных | Совсем не опытный | Хотите узнать больше | Недоступно | Не знаю/не знаю | | | | |
+| &nbsp; | Очень опытный | Несколько квалифицированных | Совсем не профессиональный | Хотите узнать больше | Н/Д | Не знаю/не знаю | | | | |
 |---|---|---|---|---|---|---|---|---|---|---|
 | Используйте Teams для мгновенных бесед и общения с другими людьми | | | | | | | | | | |
 | Использование Teams для собраний по сети | | | | | | | | | | |
 | Использование Teams для совместной работы (команд и каналов) | | | | | | | | | | |
 | Использование Teams на мобильном устройстве | | | | | | | | | | |
 
-| **Что мешает вам использовать Microsoft Teams?** | **Выберите все применимые** |
+| **Что мешает вам использовать Microsoft Teams?** | **Выберите все, что применимо** |
 |---|---|
 | Я никогда не слышали об этом | &#9744; |
 | На моем компьютере она не установлена | &#9744; |
-| Я не понимаю, как это было бы полезно мне или людям, с которых я работаю | &#9744; |
+| Я не понимаю, чем это было бы полезно для меня или людей, с которых я работаю | &#9744; |
 | У меня не было времени, чтобы оценить его в моих потребностях | &#9744; |
 | Я уже использую другие приложения, которые отвечают моим потребностям для общения и совместной работы | &#9744; |
 | Перед использованием программы мне потребуется обучение | &#9744; |

@@ -1,8 +1,8 @@
 ---
 title: Параметры безопасности регистратора
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,23 +14,23 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dd3c9b37-607e-445f-9e15-b6c92adcfb87
-description: Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
-ms.openlocfilehash: 44dc4492174a49b99a2ab3a69154f865777d5f28
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
+ms.openlocfilehash: 2bac87964339e8da2dcc3f60da11f073e513992c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41822412"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49819199"
 ---
 # <a name="registrar-security-settings"></a>Параметры безопасности регистратора
 
-Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
+Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
 
-- [Manage Registrar configuration settings in Skype for Business Server 2015](../../manage/authentication/registrar-configuration-settings.md)
+- [Управление настройками регистратора в Skype для бизнеса Server 2015](../../manage/authentication/registrar-configuration-settings.md)
 
 - [Изменение существующего регистратора](https://technet.microsoft.com/library/a8931511-3e66-49ed-a3ec-03bcd61ce1f0.aspx)
 
 - [Удаление регистратора](https://technet.microsoft.com/library/ae43cd75-cae4-4f78-b037-779a2cdb583b.aspx)
 
-Сведения о различных процедурах, которые можно выполнить с помощью панели управления "Skype для бизнеса Server", приведены в статье [Управление Skype для бизнеса server 2015](../../manage/manage.md).
+Подробные сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнеса Server, см. в под управлением Skype для бизнеса [Server 2015.](../../manage/manage.md)
 

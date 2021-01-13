@@ -1,7 +1,7 @@
 ---
 title: 'Краткое руководство: настройка планов звонков'
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.date: 8/21/2018
 ms.topic: article
@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: eed9ec99445c2f632f1443343b7076aadfbb70a8
-ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
+ms.openlocfilehash: c43decd3b3f7d5e23e0e7937a93b4663a80aa583
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "48739047"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49799769"
 ---
 <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>Краткое руководство по началу работы. Настройка планов звонков в Microsoft Teams
 ==============================================================
@@ -34,7 +34,7 @@ ms.locfileid: "48739047"
 Ознакомьтесь с объявлением о планах звонков в Teams от 12 декабря 2017 г.: [Intelligent Communications takes the next step with calling in Teams (Звонки в Teams как новый этап интеллектуальных коммуникаций)](https://aka.ms/ipyqus)
 
 > [!NOTE]
-> Рекомендуем параллельно с этим кратким руководством прочитать [](calling-plan-landing-page.md) телефонную систему с планами звонков и [fastTrack,](https://aka.ms/cloudvoice) чтобы спланировать успешный разкат.
+> Советуем параллельно с этим кратким руководством прочитать телефонную систему с планами звонков и [fastTrack,](https://aka.ms/cloudvoice) чтобы спланировать успешное раздатку. [](calling-plan-landing-page.md)
 
 Добавив планы звонков — функции Microsoft 365 и Office 365, которые работают на платформе Skype для бизнеса, — теперь вы можете использовать Teams для телефонных звонков на мобильные и на мобильные и на мобильные телефоны или на мобильные телефоны по телефонной сети общего пользования (ПС).
 
@@ -47,11 +47,11 @@ ms.locfileid: "48739047"
 
 ## <a name="prerequisites-for-enabling-the-dial-pad-in-teams"></a>Необходимые условия для включения панели **набора номера** в Teams
 Чтобы включить **вкладку "Панель** набора номера" в Teams и разрешить пользователям делать и принимать звонки по ТЕЛЕФОННОЙ СЕТИ, необходимо обу числеть пользователей к телефонной системе и планам звонков. Чтобы узнать, как настроить планы звонков, прочитайте [статью "Настройка планов звонков".](https://docs.microsoft.com/microsoftteams/set-up-calling-plans)
-Кроме того, для пользователей Teams необходимо включить в политике звонков Teams разрешение личных звонков. Дополнительные [сведения см. в центре](https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center) администрирования Microsoft Teams во время перехода на новый центр администрирования.
+Кроме того, для пользователей Teams необходимо включить в политике звонков Teams разрешение личных звонков. Дополнительные [сведения см. в сведениях](https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center) об управлении Teams во время перехода на новый Центр администрирования Microsoft Teams.
 > [!NOTE]
-> Вы также можете использовать прямую маршрутику, чтобы разрешить пользователям делать и принимать звонки по ННР. Чтобы узнать, как настроить прямую маршрутику, ознакомьтесь с тем, [как настроить прямую маршрутику.](https://docs.microsoft.com/microsoftteams/direct-routing-configure)
+> Вы также можете использовать прямую маршрутику, чтобы разрешить пользователям звонить и принимать звонки по ННР. Чтобы узнать, как настроить прямую маршрутику, прочитайте статью ["Настройка прямой маршрутинга".](https://docs.microsoft.com/microsoftteams/direct-routing-configure)
 
-## <a name="using-teamsupgradepolicy-to-control-where-calls-land"></a>Использование TeamsUpgradePolicy для управления участком звонков
+## <a name="using-teamsupgradepolicy-to-control-where-calls-land"></a>Использование TeamsUpgradePolicy для управления местом звонков
 Чтобы управлять тем, должны ли входящие звонки (и чаты) понищаться в Teams или Skype для бизнеса, администраторы используют TeamsUpgradePolicy, используя центр администрирования [Microsoft Teams](https://aka.ms/teamsadmincenter) или удаленный Windows PowerShell с командлетами [Skype](https://docs.microsoft.com/powershell/module/skype) для бизнеса.
 
 

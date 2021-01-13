@@ -1,7 +1,7 @@
 ---
 title: Добавление, изменение и удаление местоположений для экстренного устранения
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: jastark, roykuntz
 ms.topic: article
@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 'Узнайте, как добавить, изменить или удалить расположение для экстренного устранения экстренных служб для вашей организации в Центре администрирования Microsoft Teams. '
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 762246630d245acf92c16aff8df2c9392a307b07
-ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
+ms.openlocfilehash: a470a75d367bc47d4063a2a99171a4a09e052fca
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46788573"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49799949"
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>Добавление, изменение и удаление местоположения организации для экстренного реагирования
 

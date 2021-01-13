@@ -1,8 +1,8 @@
 ---
-title: Данные о соотношении качества (QoE) создание новых и изменение существующих
+title: Данные качества обслуживания (QoE) создают новые или редактирует существующие
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,25 +14,25 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 19d34703-be01-4969-9eae-9d107d7b3408
-description: Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
-ms.openlocfilehash: da6726f073e32b85db539746c675c407ac7ee62a
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
+ms.openlocfilehash: 7b45e50b457fb13c0c585d6c146afecdebe27a77
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41822442"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49819239"
 ---
 # <a name="quality-of-experience-qoe-data-create-new-or-edit-existing"></a>Данные о качестве взаимодействия: создание новых или редактирование существующих
  
-Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
+Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
   
-- [Включение функции отслеживания качества взаимодействия в Skype для бизнеса Server 2015](../../manage/health-and-monitoring/enable-qoe.md)
+- [Enable Quality of Experience in Skype for Business Server 2015](../../manage/health-and-monitoring/enable-qoe.md)
     
-- [Изменение параметров качества взаимодействия в Skype для бизнеса Server 2015](../../manage/health-and-monitoring/modify-qoe-settings.md)
+- [Изменение параметров качества работы в Skype для бизнеса Server 2015](../../manage/health-and-monitoring/modify-qoe-settings.md)
     
-- [Создание параметров настройки для качества взаимодействия в Skype для бизнеса Server 2015](../../manage/health-and-monitoring/create-qoe-configuration-settings.md)
+- [Создание параметров конфигурации качества обслуживания в Skype для бизнеса Server 2015](../../manage/health-and-monitoring/create-qoe-configuration-settings.md)
     
-- [Удаление параметров настройки, применяемых при отслеживании качества взаимодействия в Skype для бизнеса Server 2015](../../manage/health-and-monitoring/delete-qoe-configuration-settings.md)
+- [Удаление параметров конфигурации качества обслуживания в Skype для бизнеса Server 2015](../../manage/health-and-monitoring/delete-qoe-configuration-settings.md)
     
-Сведения о различных процедурах, которые можно выполнить с помощью панели управления "Skype для бизнеса Server", приведены в статье [Управление Skype для бизнеса server 2015](../../manage/manage.md).
+Подробные сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнеса Server, см. в под управлением Skype для бизнеса [Server 2015.](../../manage/manage.md)
 

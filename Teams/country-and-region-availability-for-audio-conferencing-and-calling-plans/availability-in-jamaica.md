@@ -1,7 +1,7 @@
 ---
 title: Доступность в Ямайке
-author: LanaChin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Вот службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Ямайки.
-ms.openlocfilehash: a2282aad83c7e07411010416b4a40b8dd280542c
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+ms.openlocfilehash: 28cf9fb50c2fec8e40087bb38e11914fd934b8f2
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44229236"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49799889"
 ---
 # <a name="availability-in-jamaica"></a>Доступность в Ямайке
 
@@ -72,7 +72,7 @@ ms.locfileid: "44229236"
 |Доступны ли платные номера?  <br/> |Нет <br/> |
 |Доступны ли бесплатные номера?  <br/> |Да  <br/> |
    
- Если вы хотите получить платные и бесплатные номера телефонов для аудиоконференций, автоотетарей и очередей звонков, см. получение номеров телефонов служб для Skype для бизнеса и [Microsoft Teams.](/microsoftteams/getting-service-phone-numbers)
+ Если вы хотите получить платные и бесплатные номера телефонов для аудиоконференции, автоотетаря и очередей звонков, см. в этом видео. [](/microsoftteams/getting-service-phone-numbers)
   
 ## <a name="communications-credits"></a>Кредиты на связь
 

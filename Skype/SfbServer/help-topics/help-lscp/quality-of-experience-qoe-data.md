@@ -1,8 +1,8 @@
 ---
 title: Данные о качестве взаимодействия
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,23 +14,23 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2b030ced-0aae-4023-bb26-544d14bdd2f0
-description: Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
-ms.openlocfilehash: e9891fdc47db8770973c68958912f3d4a32f72da
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
+ms.openlocfilehash: c10035729ebb69d101b9a901b7dc427fea9d5f95
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41822432"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49819229"
 ---
 # <a name="quality-of-experience-qoe-data"></a>Данные о качестве взаимодействия
  
-Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
+Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
   
-- [Включение функции отслеживания качества взаимодействия в Skype для бизнеса Server 2015](../../manage/health-and-monitoring/enable-qoe.md)
+- [Enable Quality of Experience in Skype for Business Server 2015](../../manage/health-and-monitoring/enable-qoe.md)
     
-- [Изменение параметров качества взаимодействия в Skype для бизнеса Server 2015](../../manage/health-and-monitoring/modify-qoe-settings.md)
+- [Изменение параметров качества работы в Skype для бизнеса Server 2015](../../manage/health-and-monitoring/modify-qoe-settings.md)
     
-- [Создание параметров настройки для качества взаимодействия в Skype для бизнеса Server 2015](../../manage/health-and-monitoring/create-qoe-configuration-settings.md)
+- [Создание параметров конфигурации качества обслуживания в Skype для бизнеса Server 2015](../../manage/health-and-monitoring/create-qoe-configuration-settings.md)
     
-Сведения о различных процедурах, которые можно выполнить с помощью панели управления "Skype для бизнеса Server", приведены в статье [Управление Skype для бизнеса server 2015](../../manage/manage.md).
+For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).
 

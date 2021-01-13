@@ -5,8 +5,8 @@ ms:assetid: 8207e1b1-de9e-461f-975f-fcc5c526849a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182545(v=OCS.15)
 ms:contentKeyID: 48184675
 mtps_version: v=OCS.15
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,14 +15,14 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Вы не можете полностью удалить глобальную политику. При использовании команды **Удалить** для глобальной политики восстанавливаются параметры по умолчанию, не поддерживающие какие-либо параметры доступа внешних пользователей.
-ms.openlocfilehash: acb275ac924dbb5b7e9ad377ab4d287a0734f752
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: be4f99c5b98ca46e7fed57781cf1661a2755a4ff
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42043661"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49817249"
 ---
-# <a name="reset-the-global-policy-for-external-user-access-in-skype-for-business-server"></a>Сброс глобальной политики для доступа внешних пользователей в Skype для бизнеса Server 
+# <a name="reset-the-global-policy-for-external-user-access-in-skype-for-business-server"></a>Сброс глобальной политики доступа внешних пользователей в Skype для бизнеса Server 
 
 Если были созданы или настроены политики внешнего доступа пользователей, которые больше не нужно использовать, выполните следующие действия.
 
@@ -34,9 +34,9 @@ ms.locfileid: "42043661"
 
 ## <a name="to-reset-the-global-policy-to-the-default-settings"></a>Восстановление параметров глобальной политики по умолчанию
 
-1.  Из учетной записи пользователя, которая является членом группы RTCUniversalServerAdmins (или имеет эквивалентные права пользователя) или назначается роли CsAdministrator, войдите на любой компьютер во внутреннем развертывании.
+1.  Из учетной записи пользователя, которая является членом группы RTCUniversalServerAdmins (или имеет эквивалентные права пользователя) или назначена роли CsAdministrator, войдите на любой компьютер во внутреннем развертывании.
 
-2.  Откройте окно браузера и введите URL-адрес администрирования, чтобы открыть панель управления Skype для бизнеса Server.
+2.  Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Skype для бизнеса Server.
 
 3.  В левой панели навигации щелкните элемент **Доступ внешних пользователей**, а затем выберите **Политика внешнего доступа**.
 
@@ -45,9 +45,9 @@ ms.locfileid: "42043661"
 5.  При отображении запроса на подтверждение нажмите кнопку **ОК**. В верхней части страницы появится сообщение о сбросе глобальной политики.
 
 
-## <a name="resetting-the-global-external-access-policy-by-using-windows-powershell-cmdlets"></a>Сброс глобальной политики внешнего доступа с помощью командлетов Windows PowerShell
+## <a name="resetting-the-global-external-access-policy-by-using-windows-powershell-cmdlets"></a>Сброс глобальной политики внешнего доступа с помощью Windows PowerShell
 
-Глобальную политику внешнего доступа можно сбросить с помощью Windows PowerShell и командлета Remove – CsExternalAccessPolicy. Этот командлет можно запустить либо из командной консоли Skype для бизнеса Server, либо из удаленного сеанса Windows PowerShell. 
+Глобальную политику внешнего доступа можно сбросить с помощью Windows PowerShell и Remove-CsExternalAccessPolicy управления. Этот cmdlet можно запустить либо из оболочки управления Skype для бизнеса Server, либо из удаленного сеанса Windows PowerShell. 
 
 ## <a name="to-reset-the-global-external-access-policy"></a>Сброс глобальной политики внешнего доступа
 
@@ -55,6 +55,6 @@ ms.locfileid: "42043661"
     
         Remove-CsExternalAccessPolicy -Identity "global"
 
-Для получения дополнительных сведений обратитесь к разделу "Справка" для командлета [Remove – CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsExternalAccessPolicy) .
+Дополнительные сведения см. в разделе справки по [cmdlet Remove-CsExternalAccessPolicy.](https://docs.microsoft.com/powershell/module/skype/Remove-CsExternalAccessPolicy)
 
 

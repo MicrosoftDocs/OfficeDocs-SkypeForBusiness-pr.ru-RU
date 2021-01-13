@@ -1,8 +1,8 @@
 ---
 title: Экспорт архивных данных в Skype для бизнеса Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,38 +11,38 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 8214bb0a-baa7-414f-9eee-313b65223fa3
-description: 'Общие сведения: экспорт архивных данных для Skype для бизнеса Server.'
-ms.openlocfilehash: 12ba59ff11a988fd95eb2207cd826a4399db2779
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Сводка. Узнайте, как экспортировать архивные данные для Skype для бизнеса Server.
+ms.openlocfilehash: caff65e829b24dc83760c7a505e344905c9e09e1
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41818911"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49817569"
 ---
 # <a name="export-archived-data-in-skype-for-business-server"></a>Экспорт архивных данных в Skype для бизнеса Server
 
-**Сводка:** Сведения о том, как экспортировать архивные данные для Skype для бизнеса Server.
+**Сводка:** Узнайте, как экспортировать архивные данные для Skype для бизнеса Server.
   
-Данные, заархивированные в архивных базах данных, не доступны для поиска или чтения, но можно использовать командлет **Export-CsArchivingData** для извлечения записей из базы данных и их сохранения в виде файла EML (Outlook Electronic Mail).
+Данные, архивируемые в базах данных архива, недоступны для поиска или в формате, который можно читать, но можно использовать для извлечения записей из базы данных и сохранения записей в виде **EML-файла** Outlook.
   
-При включении интеграции с Microsoft Exchange данные архивируются в хранилищах Exchange. Данные, архивированные в Exchange, можно искать и находить. Подробные сведения о доступе к данным, архивированным в Exchange, можно найти в документации по Exchange.
+Если включить интеграцию с Microsoft Exchange, данные будут архивироваться в хранилищах Exchange. Данные, архивируемые в Exchange, можно искать и обнаруживать. Подробные сведения о доступе к данным, архивным в Exchange, см. в документации Exchange.
   
-## <a name="exporting-archiving-data-by-using-windows-powershell-cmdlets"></a>Экспорт данных архивации с помощью командлетов Windows PowerShell
+## <a name="exporting-archiving-data-by-using-windows-powershell-cmdlets"></a>Экспорт данных архива с помощью Windows PowerShell
 
-Архивированные данные можно экспортировать с помощью командлета Export-CSArchivingData. 
+Вы можете экспортировать архивные данные с помощью Export-CSArchivingData управления. 
   
-Следующая команда экспортирует все данные atl-sql-001.contoso.com, архивированные с 1 июня 2012 г. Файл результатов будет сохранен в папке C:\ArchivingExports.
+Следующая команда экспортирует все данные архива, написанные в базу данных atl-sql-001.contoso.com с 1 июня 2012 г. Файл результатов будет сохранен в папке C:\ArchivingExports.
   
 ```PowerShell
 Export-CsArchivingData -Identity "ArchivingDatabase:atl-sql-001.contoso.com" -StartDate 6/1/2012 -OutputFolder "C:\ArchivingExports"
 ```
 
-Следующая команда экспортирует архивированные данные для одного пользователя: kenmyer@contoso.com. Это можно сделать, добавив параметр Усерури, а затем — адрес SIP пользователя. Например: 
+Следующая команда экспортирует данные архива для одного пользователя: kenmyer@contoso.com. Это делается путем включив параметр UserUri, за которым следует SIP-адрес пользователя. Например: 
   
 ```PowerShell
 Export-CsArchivingData -Identity "ArchivingDatabase:atl-sql-001.contoso.com" -StartDate 6/1/2012 -OutputFolder "C:\ArchivingExports" -UserUri "sip:kenmyer@contoso.com"
 ```
 
-Дополнительные сведения можно найти в разделе справки по командлету [Export-ксарчивингдата](https://docs.microsoft.com/powershell/module/skype/export-csarchivingdata?view=skype-ps) .
+Дополнительные сведения см. в разделе справки по [cmdlet Export-CsArchivingData.](https://docs.microsoft.com/powershell/module/skype/export-csarchivingdata?view=skype-ps)
   
 
