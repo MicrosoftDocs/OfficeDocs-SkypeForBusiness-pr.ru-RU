@@ -1,8 +1,8 @@
 ---
 title: Добавление связей для пограничного сервера
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,20 +14,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a58b6ba8-f491-4c37-ad45-aa46206fac51
 ROBOTS: NOINDEX, NOFOLLOW
-description: На этой странице можно выбрать, какие из пулов переднего плана и серверов стандартных выпусков будут использовать этот пул пограничных ресурсов для трафика/V.
-ms.openlocfilehash: 5a67829de4cc56cf8512513e040b5427b676ca8a
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Используйте эту страницу, чтобы выбрать интерфейсные пулы и серверы Standard Edition, которые будут использовать этот пограничный пул для трафика аудио- и видеоданных.
+ms.openlocfilehash: 6e2274b706df06bb82ff1d96ccf30a000725003d
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794077"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49819499"
 ---
-# <a name="add-edge-server-associations"></a><span data-ttu-id="351f6-103">Добавление связей для пограничного сервера</span><span class="sxs-lookup"><span data-stu-id="351f6-103">Add Edge Server Associations</span></span>
+# <a name="add-edge-server-associations"></a><span data-ttu-id="8f800-103">Добавление связей для пограничного сервера</span><span class="sxs-lookup"><span data-stu-id="8f800-103">Add Edge Server Associations</span></span>
  
-<span data-ttu-id="351f6-104">На этой странице можно выбрать, какие из пулов переднего плана и серверов стандартных выпусков будут использовать этот пул пограничных ресурсов для трафика/V.</span><span class="sxs-lookup"><span data-stu-id="351f6-104">Use this page to select which Front End pools and Standard Edition servers will use this Edge pool for A/V traffic.</span></span> 
+<span data-ttu-id="8f800-104">Используйте эту страницу, чтобы выбрать интерфейсные пулы и серверы Standard Edition, которые будут использовать этот пограничный пул для трафика аудио- и видеоданных.</span><span class="sxs-lookup"><span data-stu-id="8f800-104">Use this page to select which Front End pools and Standard Edition servers will use this Edge pool for A/V traffic.</span></span> 
   
-<span data-ttu-id="351f6-105">Каждый пул интерфейсов переднего плана может быть связан только с одним пулом Edge.</span><span class="sxs-lookup"><span data-stu-id="351f6-105">Each Front End pool can be associated with only one Edge pool.</span></span> <span data-ttu-id="351f6-106">Если вы выбрали пул, уже связанный с другим пулом пограничных, он изменит связь от прежнего пула Edge.</span><span class="sxs-lookup"><span data-stu-id="351f6-106">If you select a pool that is already associated with another Edge pool, it will change the association away from the previous Edge pool.</span></span>
+<span data-ttu-id="8f800-p101">Каждый интерфейсный пул можно сопоставить всего с одним пограничным пулом. Если выбрать пул, который уже сопоставлен с другим пограничным пулом, сопоставление с предыдущим пограничным пулом будет отменено.</span><span class="sxs-lookup"><span data-stu-id="8f800-p101">Each Front End pool can be associated with only one Edge pool. If you select a pool that is already associated with another Edge pool, it will change the association away from the previous Edge pool.</span></span>
   
-<span data-ttu-id="351f6-107">Вы также можете связать этот граничный сервер или пул Edge с серверами или пулами пограничного сервера исправлений, чтобы настроить и включить корпоративную голосовую связь для внешних пользователей.</span><span class="sxs-lookup"><span data-stu-id="351f6-107">You can also choose to associate this Edge Server or Edge pool with Mediation Servers or Mediation Server pools to configure and enable Enterprise Voice for external users.</span></span>
+<span data-ttu-id="8f800-107">Этот сервер или пул также можно связать с серверами-посредниками или пулами серверов-посредников, чтобы настроить и включить Корпоративная голосовая связь для внешних пользователей.</span><span class="sxs-lookup"><span data-stu-id="8f800-107">You can also choose to associate this Edge Server or Edge pool with Mediation Servers or Mediation Server pools to configure and enable Enterprise Voice for external users.</span></span>
   
 

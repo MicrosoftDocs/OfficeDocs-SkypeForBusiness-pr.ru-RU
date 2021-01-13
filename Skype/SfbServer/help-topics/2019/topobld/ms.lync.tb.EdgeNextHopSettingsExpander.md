@@ -1,8 +1,8 @@
 ---
 title: Расширитель параметров следующего пограничного перехода
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,18 +14,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7bb385b7-18c2-42a3-b8a9-cea7bf0c8fc9
 ROBOTS: NOINDEX, NOFOLLOW
-description: Для задания или изменения параметра Пул узла следующего перехода, определяющего пул для обмена данными между пограничными серверами и внутренней инфраструктурой, выберите в списке директор, пул директоров, сервер переднего плана или пул серверов переднего плана. В списке отображаются только режиссеры и серверы переднего плана, настроенные в построителе топологии.
-ms.openlocfilehash: 5b4f404319241c41c82c5ca2a6ddab42c32f04fd
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Чтобы настроить или изменить пул следующего прыжка, который будет применяться для связи с внутренней инфраструктурой, выберите в списке директор, пул директоров, сервер переднего сервера или пул серверов переднего сервера. В списке отображаются только директоры или серверы переднего сервера, настроенные в построителье топологий.
+ms.openlocfilehash: 322e5255205b47932fc6577562da8727635ede25
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41793797"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49822559"
 ---
-# <a name="edge-next-hop-settings-expander"></a><span data-ttu-id="fe893-104">Расширитель параметров следующего пограничного перехода</span><span class="sxs-lookup"><span data-stu-id="fe893-104">Edge Next Hop Settings Expander</span></span>
+# <a name="edge-next-hop-settings-expander"></a><span data-ttu-id="90bc0-104">Расширитель параметров следующего перехода пограничного сервера</span><span class="sxs-lookup"><span data-stu-id="90bc0-104">Edge Next Hop Settings Expander</span></span>
 
-<span data-ttu-id="fe893-105">Для задания или изменения параметра **Пул узла следующего перехода**, определяющего пул для обмена данными между пограничными серверами и внутренней инфраструктурой, выберите в списке директор, пул директоров, сервер переднего плана или пул серверов переднего плана.</span><span class="sxs-lookup"><span data-stu-id="fe893-105">To set or modify the **Next hop pool** that the Edge Servers will use to communicate to the internal infrastructure, select a Director, Director pool, Front End Server, or Front End Server pool, from the list.</span></span> <span data-ttu-id="fe893-106">В списке отображаются только режиссеры и серверы переднего плана, настроенные в построителе топологии.</span><span class="sxs-lookup"><span data-stu-id="fe893-106">Only Directors or Front End Servers that have been configured in Topology Builder appear in the list.</span></span>
+<span data-ttu-id="90bc0-105">Чтобы настроить или изменить пул **следующего** прыжка, который будет применяться для связи с внутренней инфраструктурой, выберите в списке директор, пул директоров, сервер переднего сервера или пул серверов переднего сервера.</span><span class="sxs-lookup"><span data-stu-id="90bc0-105">To set or modify the **Next hop pool** that the Edge Servers will use to communicate to the internal infrastructure, select a Director, Director pool, Front End Server, or Front End Server pool, from the list.</span></span> <span data-ttu-id="90bc0-106">В списке отображаются только директоры или серверы переднего сервера, настроенные в построителье топологий.</span><span class="sxs-lookup"><span data-stu-id="90bc0-106">Only Directors or Front End Servers that have been configured in Topology Builder appear in the list.</span></span>
 
-<span data-ttu-id="fe893-107">О задании и настройке параметров пограничных служб см. в разделе [Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx).</span><span class="sxs-lookup"><span data-stu-id="fe893-107">For details about defining and configuring the settings for Edge services, see [Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx).</span></span>
+<span data-ttu-id="90bc0-107">Дополнительные сведения по определению и настройке параметров для пограничных служб см. в разделе [Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx).</span><span class="sxs-lookup"><span data-stu-id="90bc0-107">For details about defining and configuring the settings for Edge services, see [Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx).</span></span>
 
 
