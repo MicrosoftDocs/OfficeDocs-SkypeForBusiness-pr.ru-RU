@@ -77,9 +77,9 @@ Set-CsTeamsMeetingBroadcastPolicy -identity Global -AllowBroadcastScheduling $fa
 Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
 ```
 
-**Вы хотите, чтобы большое количество пользователей могли планировать трансляции и не допустить их планирование для части пользователей**
+**Вы хотите, чтобы большое количество пользователей могли планировать трансляции и не допустить их планирование для набора пользователей**
 
-Запустите и убедитесь, что для *allowBroadcastScheduling* установлено *true:*
+Запустите и убедитесь, что *для allowBroadcastScheduling* установлено *true:*
 ```PowerShell
 Get-CsTeamsMeetingBroadcastPolicy -Identity Global
 ```
@@ -88,7 +88,7 @@ Get-CsTeamsMeetingBroadcastPolicy -Identity Global
 Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
 ```
 
-Создайте политику, которая не позволяет запланировать трансляции, запустите 4
+Создайте политику, которая не позволяет запланировать трансляции, запустите 3
 ```PowerShell
 New-CSTeamsMeetingBroadcastPolicy -Identity DisabledBroadcastSchedulingPolicy
 ```
@@ -100,7 +100,7 @@ Set-CsTeamsMeetingBroadcastPolicy -Identity DisabledBroadcastSchedulingPolicy -A
 ```PowerShell
 Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName DisabledBroadcastSchedulingPolicy -Verbose
 ```
-**Вы хотите отключить планирование трансляций для большого количества пользователей и разрешить им планировать трансляции.**
+**Вы хотите отключить планирование трансляций для большого количества пользователей и разрешить набору пользователей планировать их**
 
 Отключите планирование трансляций, запустите:
 ```PowerShell
@@ -110,7 +110,7 @@ Set-CsTeamsMeetingBroadcastPolicy -identity Global -AllowBroadcastScheduling $fa
 ```PowerShell
 Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
 ```
-Создайте политику, чтобы разрешить планирование трансляций, запустите 4
+Создайте политику, чтобы разрешить планирование трансляций, запустите:
 ```PowerShell
 New-CSTeamsMeetingBroadcastPolicy -identity EnableBroadcastSchedulingpolicy
 ```

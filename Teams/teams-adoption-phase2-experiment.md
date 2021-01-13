@@ -1,7 +1,7 @@
 ---
 title: Внедрение Microsoft Teams. Этап 2 — эксперименты
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 818189b1ed676c8936ac602022376863e0f13a03
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 6f5eee1414a7b69a9f2fb03b6819e8269b3c9c62
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905661"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49831219"
 ---
 # <a name="microsoft-teams-adoption-phase-2---experiment"></a>Внедрение Microsoft Teams. Этап 2 — эксперименты
 

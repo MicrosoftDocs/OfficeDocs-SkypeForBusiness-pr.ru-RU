@@ -48,14 +48,14 @@ ms.locfileid: "49802349"
 
 ## <a name="step-1-move-users-to-skype-for-business-online"></a>Шаг 1. Перемещение пользователей в Skype для бизнеса Online
 
-Этот шаг относится к пользователям, которые сейчас находятся на локальном компьютере. Дополнительные сведения о перемещении этих пользователей в Skype для бизнеса Online см. в теме "Перемещение пользователей из локальной сети в [Skype для бизнеса Online".](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/move-users-from-on-premises-to-skype-for-business-online)
+Этот шаг относится к пользователям, которые сейчас находятся в локальной сети. Дополнительные сведения о перемещении этих пользователей в Skype для бизнеса Online см. в теме "Перемещение пользователей из локальной сети в [Skype для бизнеса Online".](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/move-users-from-on-premises-to-skype-for-business-online)
 
 ## <a name="step-2-assign-a-coexistence-and-upgrade-mode"></a>Шаг 2. Назначение режима сосуществования и обновления
 
 После того как вы переместите пользователей в Skype для бизнеса Online, вы можете назначить им соответствующий режим сосуществования в зависимости от выбранного в организации пути обновления. Дополнительные сведения [](https://aka.ms/SkypeToTeams-SetCoexistence) см. в настройках сосуществования и обновления, а также [TeamsUpgradePolicy:](upgrade-to-teams-on-prem-tools.md)управление миграцией и сосуществованием.
 
 > [!NOTE]
-> С помощью Skype для бизнеса Server 2019 и будущим накопительным обновлением Skype для бизнеса Server 2015 вы сможете выполнить этапы 1 (перемещение пользователей в Skype для бизнеса Online) и шаг 2 (обновление пользователей до Teams) одним шагом. Дополнительные сведения будут предоставлены после выпуска Skype для бизнеса Server 2019.
+> С помощью Skype для бизнеса Server 2019 и будущим накопительным обновлением Skype для бизнеса Server 2015 вы сможете выполнить шаг 1 (перемещение пользователей в Skype для бизнеса Online) и шаг 2 (обновление пользователей до Teams) одним шагом. Дополнительные сведения будут предоставлены после выпуска Skype для бизнеса Server 2019.
 
 ## <a name="phone-system-and-teams-upgrade"></a>Обновление телефонной системы и Teams
 

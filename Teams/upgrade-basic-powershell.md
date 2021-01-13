@@ -1,5 +1,5 @@
 ---
-title: PowerShell для базового обновления| Microsoft Teams| Предоставление политики обновления для interop
+title: PowerShell для базового обновления| Microsoft Teams| Политика предоставления обновления для interop
 author: cichur
 ms.author: v-cichur
 manager: serdars

@@ -1,7 +1,7 @@
 ---
 title: Доступность на Каймановых островах
-author: LanaChin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Вот службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные на Островах Кайман.
-ms.openlocfilehash: 06d83dc2f9d33a02e3d68301446186ca89370052
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+ms.openlocfilehash: 8394e4f211b71ae9664896e759b697399fcbe9fa
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44230747"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49822979"
 ---
 # <a name="availability-in-the-cayman-islands"></a>Доступность на Каймановых островах
 

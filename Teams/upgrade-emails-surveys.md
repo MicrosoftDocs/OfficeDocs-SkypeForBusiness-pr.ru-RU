@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: 'Примеры сообщений электронной почты и опросов, которые можно использовать в плане действий с десятью шагами, которые нужно использовать в разных решениях: переход со Skype для бизнеса на Teams'
+description: Примеры сообщений электронной почты и опросов, которые можно использовать в судебных решениях, в том числе с помощью усовершенствования десятишагового плана действий по переходу со Skype для бизнеса на Teams
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -25,7 +25,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49809079"
 ---
-# <a name="sample-emails-and-surveys-for-upgrade-basic-communications"></a>Образцы сообщений электронной почты и опросов для связи в upgrade Basic
+# <a name="sample-emails-and-surveys-for-upgrade-basic-communications"></a>Образцы сообщений электронной почты и опросов для взаимодействия в upgrade Basic
 
 ## <a name="sample-emails"></a>Образцы сообщений электронной почты
 
@@ -90,7 +90,7 @@ If you have questions or need help, please reach out to <<insert company support
 ACTION REQUIRED: Host your next online meeting in Teams
 ```
 
-Тело сообщения электронной почты:
+Сообщение электронной почты:
 ````
 We’re just <<X weeks/days>> away from the transition to Microsoft Teams and want to make sure that you’re ready. Online meetings are part of our everyday life, so take time this week to get acquainted with online meetings in Teams. Complete the following steps for the smoothest experience:
 
@@ -121,7 +121,7 @@ Should you have questions about this upgrade, contact <<insert alias or contact 
 PLEASE READ: Skype for Business is now Microsoft Teams
 ```
 
-Тело сообщения электронной почты:
+Сообщение электронной почты:
 
 ````
 Let me be the first to officially welcome you to Microsoft Teams. Your Skype for Business client will be decommissioned, and Teams is your default application for chat and meetings. In case you missed it, let’s review what Microsoft Teams can do for you:
@@ -170,7 +170,7 @@ Should you have questions, contact <<insert alias or contact info>>.
 
 <a name="step-10-email"></a>
 
-### <a name="email-to-ask-users-to-give-teams-and-channels-a-try-for-step-10"></a>Сообщение электронной почты с запросом пользователей о том, как попробовать команды и каналы, для шага 10
+### <a name="email-to-ask-users-to-give-teams-and-channels-a-try-for-step-10"></a>Сообщение электронной почты с вопросом о том, как предоставить пользователям попробовать команды и каналы, для шага 10
 
 Строка темы:
 
@@ -201,20 +201,20 @@ Should you have questions, contact <<insert alias or contact info>>.
 
 ## <a name="sample-surveys"></a>Образцы опросов
 
-Указать, насколько вы квалифицированы в следующих действиях в Teams, а также о том, есть ли одно или несколько действий, о которые вы хотите узнать подробнее.
+Указать, насколько вы квалифицированы в следующих действиях в Teams и хотите ли вы узнать больше об одном или более действиях.
 
-| &nbsp; | Очень опытный | Несколько квалифицированных | Совсем не профессиональный | Хотите узнать больше | Н/Д | Не знаю/не знаю | | | | |
+| &nbsp; | Очень опытный | Несколько квалифицированных | Совсем не профессиональный | Хотите узнать больше | Н/Д | Не знаю(-а) | | | | |
 |---|---|---|---|---|---|---|---|---|---|---|
 | Используйте Teams для мгновенных бесед и общения с другими людьми | | | | | | | | | | |
 | Использование Teams для собраний по сети | | | | | | | | | | |
 | Использование Teams для совместной работы (команд и каналов) | | | | | | | | | | |
 | Использование Teams на мобильном устройстве | | | | | | | | | | |
 
-| **Что мешает вам использовать Microsoft Teams?** | **Выберите все, что применимо** |
+| **Что если что-то мешает вам использовать Microsoft Teams?** | **Выберите все применимые** |
 |---|---|
 | Я никогда не слышали об этом | &#9744; |
 | На моем компьютере она не установлена | &#9744; |
-| Я не понимаю, чем это было бы полезно для меня или людей, с которых я работаю | &#9744; |
+| Я не понимаю, как это было бы полезно мне или людям, с которых я работаю | &#9744; |
 | У меня не было времени, чтобы оценить его в моих потребностях | &#9744; |
 | Я уже использую другие приложения, которые отвечают моим потребностям для общения и совместной работы | &#9744; |
 | Перед использованием программы мне потребуется обучение | &#9744; |

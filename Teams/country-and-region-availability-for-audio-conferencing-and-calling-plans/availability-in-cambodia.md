@@ -23,7 +23,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Вот службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные в Камбодже.
+description: Ниже 365 доступны службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Камбоджи.
 ms.openlocfilehash: 8d1627e0b088337af7842102bd7c360ba91dbad5
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT

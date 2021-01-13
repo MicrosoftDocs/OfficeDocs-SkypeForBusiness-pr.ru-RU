@@ -37,7 +37,7 @@ ms.locfileid: "49812649"
 IMPORTANT ANNOUNCEMENT about your office desk phone
 ```
 
-Сообщение электронной почты:
+Тело сообщения электронной почты:
 
 ```
 Instant messaging and online meetings have become a common way to communicate
@@ -102,7 +102,7 @@ If you have questions concerning this change, contact <INSERT NAME/EMAIL>.
 ACTION REQUESTED: Are you ready for your new phone system?
 ```
 
-Тело сообщения электронной почты:
+Сообщение электронной почты:
 
 ```
 Your new phone calling capabilities are almost here. As explained in our initial
@@ -146,7 +146,7 @@ Regards,
 IMPORTANT NOTICE: Your new phone system is live
 ```
 
-Тело сообщения электронной почты:
+Сообщение электронной почты:
 
 ```
 Welcome to your new phone system. Your Microsoft Teams application
@@ -183,7 +183,7 @@ Regards,
 FEEDBACK REQUESTED: Your new phone system
 ```
 
-Сообщение электронной почты:
+Тело сообщения электронной почты:
 
 ```
 It's been a few weeks since you started using Microsoft Teams to
