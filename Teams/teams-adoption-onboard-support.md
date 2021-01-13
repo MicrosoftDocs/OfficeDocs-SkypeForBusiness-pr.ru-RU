@@ -1,7 +1,7 @@
 ---
 title: Подключение службы поддержки по Microsoft Teams
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: Используйте интернет-учебные ресурсы, чтобы привлечь сотрудников службы поддержки к эксперименту по внедрению Teams.
+description: Воспользуйтесь интернет-учебными ресурсами, чтобы привлечь сотрудников службы поддержки к эксперименту по внедрению Teams.
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 76f7cdc48fdea339bfbef81f56eba629e8937abf
-ms.sourcegitcommit: 4b01e4091d22d925d22a2e921963843175a4180b
+ms.openlocfilehash: d61c407e8f969084c1f3775ddd9ede9070a61dc1
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "48929520"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49806139"
 ---
 # <a name="onboard-support-for-microsoft-teams"></a>Подключение службы поддержки по Microsoft Teams
 

@@ -1,7 +1,7 @@
 ---
 title: Доступность в Доминиканской области
-ms.author: v-lanac
-author: LanaChin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, fafan
 ms.topic: reference
@@ -25,18 +25,18 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Ниже 2010 г. доступны службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Учетной записи Майкрософт.
-ms.openlocfilehash: 079486a0927e5fafc5dd3b9e4e360fed38489a1c
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+ms.openlocfilehash: 11b2f5fe51629fdac22425f9c045dcdb02252f50
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44230277"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49804719"
 ---
 # <a name="availability-in-dominica"></a>Доступность в Доминиканске
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже 2010 г. доступны службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Учетной записи Майкрософт.
+Вот службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Учетной записи Майкрософт.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 

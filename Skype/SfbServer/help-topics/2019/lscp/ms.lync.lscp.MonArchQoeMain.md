@@ -1,8 +1,8 @@
 ---
 title: Данные о качестве взаимодействия
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,23 +14,23 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 2b030ced-0aae-4023-bb26-544d14bdd2f0
 ROBOTS: NOINDEX, NOFOLLOW
-description: Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
-ms.openlocfilehash: ab99a89d0a3610f5e0658cb4f32e3e2452283453
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
+ms.openlocfilehash: 9793f94cc724dad15cecc8f9c8b65be16bc77224
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41795038"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49830149"
 ---
 # <a name="quality-of-experience-qoe-data"></a>Данные о качестве взаимодействия
  
-Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
+Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
   
-- [Обеспечение качества взаимодействия в Skype для бизнеса Server](../../../manage/health-and-monitoring/enable-qoe.md)
+- [Включить качество работы в Skype для бизнеса Server](../../../manage/health-and-monitoring/enable-qoe.md)
     
 - [Изменение параметров качества работы в Skype для бизнеса Server](../../../manage/health-and-monitoring/modify-qoe-settings.md)
     
-- [Создание параметров конфигурации качества взаимодействия в Skype для бизнеса Server](../../../manage/health-and-monitoring/create-qoe-configuration-settings.md)
+- [Создание параметров конфигурации качества обслуживания в Skype для бизнеса Server](../../../manage/health-and-monitoring/create-qoe-configuration-settings.md)
     
  
 

@@ -1,8 +1,8 @@
 ---
-title: Удаление параметров конфигурации собрания в Skype для бизнеса Server
+title: Удаление параметров конфигурации собраний в Skype для бизнеса Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,48 +11,48 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 8ebafb86-13b9-468e-beda-f85f6786da85
-description: 'Сводка: сведения о том, как удалить параметры конфигурации собрания в Skype для бизнеса Server.'
-ms.openlocfilehash: dd07d3239b212f09391e9bc8c66f29bca62b2c3f
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Сводка. Узнайте, как удалить параметры конфигурации собраний в Skype для бизнеса Server.
+ms.openlocfilehash: 418ce7418be5a09658626491121dd2e2b3542110
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41818590"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49828186"
 ---
-# <a name="delete-meeting-configuration-settings-in-skype-for-business-server"></a>Удаление параметров конфигурации собрания в Skype для бизнеса Server
+# <a name="delete-meeting-configuration-settings-in-skype-for-business-server"></a>Удаление параметров конфигурации собраний в Skype для бизнеса Server
  
-**Сводка:** Сведения о том, как удалить параметры конфигурации собрания в Skype для бизнеса Server.
+**Сводка:** Узнайте, как удалить параметры конфигурации собраний в Skype для бизнеса Server.
   
-Вы можете удалить параметры конфигурации собрания с помощью панели управления Skype для бизнеса Server или консоли управления Skype для бизнеса Server.
+You can delete meeting configuration settings by using Skype for Business Server Control Panel or by using Skype for Business Server Management Shell.
   
-Можно удалить конфигурацию сайта или пользователя. Глобальную конфигурацию невозможно удалить. При попытке удалить глобальной конфигурации она автоматически восстанавливает значения по умолчанию.
+Вы можете удалить конфигурацию сайта или пользователя, но не глобальную конфигурацию. При попытке удалить глобальную конфигурацию она автоматически сбрасывается до значений по умолчанию.
   
-## <a name="delete-meeting-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Удаление параметров конфигурации собрания с помощью панели управления Skype для бизнеса Server
+## <a name="delete-meeting-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Удаление параметров конфигурации собраний с помощью панели управления Skype для бизнеса Server
 
 1. Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи пользователя, назначенной роли CsUserAdministrator или CsAdministrator.
     
 2.  Откройте панель управления Skype для бизнеса Server.
     
-3. В левой области навигации щелкните **Конференц-связь**, затем **Конфигурация собрания**.
+3. В левой панели навигации щелкните **"Conferencing"**(Конфигурация собрания) и выберите **"Конфигурация собрания".**
     
-4. В списке конфигураций собрания выберите конфигурацию сайта или пула, щелкните **Изменить**, а затем **Удалить**.
+4. В списке конфигураций собраний выберите конфигурацию сайта или пула, которую нужно удалить, нажмите кнопку "Изменить", а затем выберите **"Удалить".**
     
-## <a name="delete-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>Удаление параметров конфигурации собрания с помощью командной консоли Skype для бизнеса Server
+## <a name="delete-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>Удаление параметров конфигурации собраний с помощью оболочки управления Skype для бизнеса Server
 
-Для удаления параметров собраний используйте командлет **Remove-CsMeetingConfiguration**.
+Чтобы удалить параметры собрания, используйте **cmdlet Remove-CsMeetingConfiguration.**
   
-Следующая команда удаляет параметры конфигурации собраний в сайте Redmond:
+Следующая команда удаляет параметры конфигурации собраний, применяемые к сайту Redmond:
   
 ```PowerShell
 Remove-CsMeetingConfiguration -Identity "site:Redmond"
 ```
 
-Следующая команда удаляет все параметры конфигурации собрания, примененные к области сайта:
+Следующая команда удаляет все параметры конфигурации собраний, примененные к области сайта:
   
 ```PowerShell
 Get-CsMeetingConfiguration -Filter "site:*" | Remove-CsMeetingConfiguration
 ```
 
-Дополнительные сведения, включая полный список параметров, можно найти в разделе [Remove-ксмитингконфигуратион](https://docs.microsoft.com/powershell/module/skype/remove-csmeetingconfiguration?view=skype-ps).
+Дополнительные сведения, включая полный список параметров, см. в подстроке [Remove-CsMeetingConfiguration.](https://docs.microsoft.com/powershell/module/skype/remove-csmeetingconfiguration?view=skype-ps)
   
 

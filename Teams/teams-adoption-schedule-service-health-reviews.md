@@ -1,7 +1,7 @@
 ---
 title: Планирование проверок работоспособности служб при внедрении Microsoft Teams
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.date: 11/09/2018
 audience: Admin
@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: Узнайте, как использовать проверки о состоянии обслуживания при внедрении Teams, чтобы поделиться информацией об использовании, здоровье, возможностях и дорожной карте проекта, а также других обновлениях.
+description: Узнайте, как использовать проверки о состоянии обслуживания при внедрении Teams, чтобы поделиться информацией об использовании, здоровье, возможностях и дорожной карте проекта, а также другими обновлениями.
 f1.keywords:
 - CSH
 ms.custom: Adopt
@@ -20,12 +20,12 @@ ms.collection:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1279d9f9d9b8afc66dc64ac9ded524d1340c2a1f
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 6447404b0fe7944808e02b2a73ebee03c2393f53
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905081"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49806099"
 ---
 # <a name="schedule-service-health-reviews-for-your-microsoft-teams-adoption"></a>Планирование проверок работоспособности служб при внедрении Microsoft Teams
 

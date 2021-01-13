@@ -1,8 +1,8 @@
 ---
-title: Расширитель настроек компьютеров сохраняемого чата
+title: Расширитель параметров компьютеров сохраняемого чата
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,15 +14,15 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 15bc1c8f-71bd-4d66-bba1-cac0f2fe90bf
 ROBOTS: NOINDEX, NOFOLLOW
-description: Вы активируете или деактивизируете развернутый сервер сохраняемого чата или пул серверов сохраняемого чата с помощью серверов или пулов, указанных в параметрах состояния компьютера. Для перевода сервера или пула в активное состояние следует выбрать его в списке и нажать кнопку Сделать активным.
-ms.openlocfilehash: f1a214828093846823e9e3e6f99287b165f96299
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Развернутый сервер сохраняемой беседы или пул серверов сохраняемой беседы активируется или деактивируется с помощью серверов или пулов, перечисленных в параметрах состояния компьютера. Выберите сервер или пул в списке и нажмите кнопку "Сделать активным", чтобы сделать сервер или пул активным.
+ms.openlocfilehash: 7c7839684204a8df4fb1d1bb2c22f0571fe40fb4
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41795138"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49829889"
 ---
-# <a name="persistent-chat-machines-expander"></a>Расширитель настроек компьютеров сохраняемого чата
+# <a name="persistent-chat-machines-expander"></a>Расширитель параметров компьютеров сохраняемого чата
 
 > [!NOTE] 
-> Сохраняемый чат доступен в Skype для бизнеса Server 2015, но больше не поддерживается в Skype для бизнеса Server 2019. Такие же функции доступны в Teams. Дополнительные сведения можно найти [в разделе Skype для бизнеса и Microsoft Teams Upgrade](https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here). Если вы хотите использовать сохраняемый чат, вы можете либо перенести пользователей, которым нужны эти функции, в Teams, либо продолжить работу в Skype для бизнеса Server 2015.
+> Сохраняемая беседа доступна в Skype для бизнеса Server 2015, но больше не поддерживается в Skype для бизнеса Server 2019. Такие же функции доступны в Teams. Дополнительные сведения см. в [обновлении Skype для бизнеса до Microsoft Teams.](https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here) Если необходимо использовать сохраняемого чата, вы можете либо перенести пользователей, которым требуются эти функции, в Teams, либо продолжить использовать Skype для бизнеса Server 2015.

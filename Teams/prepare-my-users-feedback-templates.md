@@ -1,7 +1,7 @@
 ---
 title: Опросы отзывов в Teams или Skype для бизнеса
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.date: 03/31/2018
 ms.topic: article
@@ -16,12 +16,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: dff5fc154d55dac208f451e4ddec392167c08975
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 379455f036876a36944bc4fc9c762f5ed98b6ec3
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137449"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49812619"
 ---
 # <a name="user-feedback-surveys"></a>Опросы пользователей 
 
@@ -41,7 +41,7 @@ ms.locfileid: "43137449"
 | Мне удалось успешно звонить и принимать звонки на мобильном устройстве.                                                   |                      |                    |             |                       |                         |                        |
 | Новая телефонная система соответствует всем требованиям к звонкам (передача, удержание, голосовая почта и так далее)                                      |                      |                    |             |                       |                         |                        |
 | Я вижу значение интеграции телефонной системы с Teams.                                                 |                      |                    |             |                       |                         |                        |
-| Использование Teams в качестве телефона упрощает мне работу.                                          |                      |                    |             |                       |                         |                        |
+| Использование Teams в качестве телефона упростит мне работу.                                          |                      |                    |             |                       |                         |                        |
 | Качество звука в Teams не меньше, чем в старой телефонной системе.                   |                      |                    |             |                       |                         |                        |
 
 Если вы выбрали **несколько не согласен** (или полностью не согласен) для любого из вышеперечисленного, объясните.  (Открыть текст)

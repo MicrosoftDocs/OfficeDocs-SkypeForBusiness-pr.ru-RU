@@ -1,8 +1,8 @@
 ---
-title: Изменение параметров настройки собраний в Skype для бизнеса Server
+title: Изменение параметров конфигурации собраний в Skype для бизнеса Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,19 +11,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 11d1f9ac-0029-429b-be2b-d7591abfc192
-description: 'Сводка: сведения о том, как изменить параметры конфигурации собрания в Skype для бизнеса Server.'
-ms.openlocfilehash: 893e3fb8c9c441f8dc515eaf3a8a4aaa1ff04620
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Сводка. Узнайте, как изменить параметры конфигурации собраний в Skype для бизнеса Server.
+ms.openlocfilehash: 80ba12266ebc45fdae3256f5238ecf18415734c8
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41818500"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49827999"
 ---
-# <a name="modify-meeting-configuration-settings-in-skype-for-business-server"></a>Изменение параметров настройки собраний в Skype для бизнеса Server
+# <a name="modify-meeting-configuration-settings-in-skype-for-business-server"></a>Изменение параметров конфигурации собраний в Skype для бизнеса Server
  
-**Сводка:** Сведения о том, как изменить параметры конфигурации собрания в Skype для бизнеса Server.
+**Сводка:** Узнайте, как изменить параметры конфигурации собраний в Skype для бизнеса Server.
   
-Параметры конфигурации собрания можно изменить с помощью панели управления Skype для бизнеса Server или с помощью командной консоли Skype для бизнеса Server.
+Изменить параметры конфигурации собраний можно с помощью панели управления Skype для бизнеса Server или с помощью skype для бизнеса Server Management Shell.
   
 ## <a name="modify-meeting-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Изменение параметров конфигурации собраний с помощью панели управления Skype для бизнеса Server
 
@@ -31,24 +31,24 @@ ms.locfileid: "41818500"
     
 2.  Откройте панель управления Skype для бизнеса Server.
     
-3. В левой области навигации щелкните **Конференц-связь**, затем **Конфигурация собрания**.
+3. В левой панели навигации щелкните **"Conferencing"**(Конфигурация собрания) и выберите **"Конфигурация собрания".**
     
-4. В списке конфигураций собрания выберите конфигурацию, которую необходимо изменить, щелкните **Изменить**, а затем выберите **Показать подробности**.
+4. В списке конфигураций собраний выберите конфигурацию, которую нужно изменить, нажмите кнопку "Изменить" и выберите **"Показать подробности".**
     
-5. В области **Изменение конфигурации собрания** можно изменить любые параметры конфигурации, за исключением имени конфигурации, которое не подлежит изменению.
+5. В **области "Изменение конфигурации** собрания" измените любые параметры конфигурации, за исключением имени конфигурации, которое нельзя изменить.
     
-6. Нажмите **Исполнить**.
+6. Щелкните **Исполнить**.
     
-## <a name="modify-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>Изменение параметров конфигурации собрания с помощью командной консоли Skype для бизнеса Server
+## <a name="modify-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>Изменение параметров конфигурации собраний с помощью оболочки управления Skype для бизнеса Server
 
-Для изменения параметров конфигурации собрания используется командлет **Set-CsMeetingConfiguration**.
+Чтобы изменить параметры конфигурации собрания, используйте **cmdlet Set-CsMeetingConfiguration.**
   
-Приведенная в примере ниже команда изменяет назначенные сайту Redmond (-Identity site:Redmond) параметры конфигурации собраний. В данном случае свойству DesignateAsPresenter задается значение Everyone.
+Команда, показанная в следующем примере, изменяет параметры конфигурации собраний, присвоенные сайту Redmond (-Identity site:Redmond). В этом случае свойству DesignateAsPresenter задается значение Everyone:
   
 ```PowerShell
 Set-CsMeetingConfiguration -Identity "site:Redmond" -DesignateAsPresenter "Everyone"
 ```
 
-Дополнительные сведения, в том числе полный список параметров, можно найти в разделе [Set-ксмитингконфигуратион](https://docs.microsoft.com/powershell/module/skype/set-csmeetingconfiguration?view=skype-ps).
+Дополнительные сведения, включая полный список параметров, см. в подстроке [Set-CsMeetingConfiguration.](https://docs.microsoft.com/powershell/module/skype/set-csmeetingconfiguration?view=skype-ps)
   
 

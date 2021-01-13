@@ -1,7 +1,7 @@
 ---
 title: Внедрение Microsoft Teams. Этап 3 — масштабирование
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: Ознакомьтесь с обзором этапов, необходимых для поддержки широкого круга поддержки Teams в организации.
+description: Ознакомьтесь с обзором этапов, которые необходимо изучить для поддержки широкого спектра команд в организации.
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bfccc3338589c6a90025024b373c917de58ebeee
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 602d820b245b096a8c0f8470f08ba7fd9529d070
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904604"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49806109"
 ---
 # <a name="microsoft-teams-adoption-phase-3---scale"></a>Внедрение Microsoft Teams. Этап 3 — масштабирование
 

@@ -1,8 +1,8 @@
 ---
 title: Добавление сервера Office Web Apps
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
@@ -15,25 +15,25 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8825dfb1-4b3d-4e01-ba4a-2bd800c6de3b
 description: Мастер определения нового сервера Office Web Apps определяет новый сервер Office Web Apps в развертывании. Следует указать следующие сведения.
-ms.openlocfilehash: 9e1726ea4b536e46fdbca5ec3eddce25358cbbbb
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: a0d0543576b75e0572abf3fd043a73369d2af136
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48218730"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49828599"
 ---
 # <a name="add-office-web-apps-server"></a>Добавление сервера Office Web Apps
 
 Мастер **определения нового сервера Office Web Apps** определяет новый сервер Office Web Apps в развертывании. Следует указать следующие сведения.
 
- ПОЛНОЕ доменное имя **сервера Office Web Apps**: введите полное доменное имя сервера, на котором будет размещаться сервер Office Web Apps.
+ **Полное доменное имя** сервера Office Web Apps: введите полное доменное имя сервера, на который будет работать сервер Office Web Apps
 
- **URL-адрес обнаружения сервера Office Web Apps**: введите полный URL-адрес сервера Office Web Apps (URL-адрес)
+ **URL-адрес обнаружения Сервера Office Web Apps:** введите полный URL-адрес сервера Office Web Apps
 
 > [!TIP]
-> По умолчанию URL- **адрес обнаружения сервера Office Web Apps** используется для создания URL-адреса на основе полного доменного имени сервера Office Web Apps в формате: `https://<FQDN of the Office Web Apps Server/hosting/discovery` . В большинстве случаев нет необходимости изменять формат по умолчанию. Возможно, потребуется изменить формат по умолчанию в случае, если сервер Office Web Apps и URL-адрес обнаружения сервера Office Web Apps должны различаться. Например, сервер Office Web Apps размещается в сети периметра и будет иметь другой URL-адрес на основе расположения.
+> По умолчанию URL-адрес обнаружения **Сервера Office Web Apps** создается на основе FQDN сервера Office Web Apps в формате: `https://<FQDN of the Office Web Apps Server/hosting/discovery` . В большинстве случаев нет необходимости изменять формат по умолчанию. Вам может потребоваться изменить формат по умолчанию, если сервер Office Web Apps и URL-адрес обнаружения Сервера Office Web Apps должны быть другими. Например, сервер Office Web Apps помещается в сеть периметра и будет иметь другой URL-адрес в зависимости от расположения.
 
- **Сервер Office Web Apps развернут во внешней сети (периметр/Интернет)**: Установите этот флажок, если сервер Office Web Apps размещен за пределами внутреннего брандмауэра, такого как демилитаризованная зона, внешняя сеть или другая зона сети, не совпадающую с внутренней сетью.
+ **Сервер Office Web Apps** развертывается во внешней сети (то есть в периметре или Интернете). Если сервер Office Web Apps расположен за пределами внутреннего брандмауэра, например сети периметра, внешней сети или другой зоны сети, которая не является той же, что и внутренняя сеть.
 
 ## <a name="see-also"></a>См. также
 
