@@ -1,7 +1,7 @@
 ---
 title: Обзор команд и каналов в Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
+author: MikePlumleyMSFT
+ms.author: mikeplum
 ms.reviewer: ''
 manager: serdars
 ms.topic: conceptual
@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a6c4e8f37a00ddfb464630eeb644db3d550781d1
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: c6f6b3cbb80fb209c519593c28077b03e4a13ed9
+ms.sourcegitcommit: ab566ddab9d26440bac1716a975f30e075d0c7b5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48534956"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "49865173"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Обзор команд и каналов в Microsoft Teams
 
@@ -80,7 +80,7 @@ ms.locfileid: "48534956"
 
    > [!VIDEO https://www.youtube.com/embed/kalV4dG-oFo]
 
-Если вы администратор Microsoft Teams в Microsoft 365 или Office 365, у вас есть доступ к системным настройкам в Центре администрирования Microsoft Teams. Они могут затрагивать настройки и значения по умолчанию, которые владельцы видят у себя в параметрах команды. Например, вы можете включить во всех командах канал по умолчанию "Общий" для объявлений, обсуждений и ресурсов, общих для всей команды.
+Если вы администратор Microsoft Teams в Microsoft 365 или Office 365, то у вас есть доступ к системным настройкам в Центре администрирования Microsoft Teams. Они могут затрагивать настройки и значения по умолчанию, которые владельцы видят у себя в параметрах команды. Например, вы можете включить во всех командах канал по умолчанию "Общий" для объявлений, обсуждений и ресурсов, общих для всей команды.
 
 По умолчанию создать команду в Microsoft Teams разрешено всем пользователям (чтобы изменить эту настройку, см. раздел [Назначение ролей и разрешений в Teams](assign-roles-permissions.md)). Пользователи существующей группы Microsoft 365 также могут расширить свои разрешения с помощью Команд.
 
