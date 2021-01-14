@@ -1,8 +1,8 @@
 ---
-title: Таблица "расположения" в Skype для бизнеса Server 2015
+title: Таблица Locations в Skype для бизнеса Server 2015
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,22 +12,22 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 78dc1b14-5394-4f8e-89d3-4ba593272a04
-description: Каждая запись представляет одну ссылку на расположение в экстренном звонке, например, в вызове E9-1-1.
-ms.openlocfilehash: a1dd7dfdf84ef196b24fa97b1b24950c326b0241
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Каждая запись представляет одну ссылку на расположение в экстренном звонке, например звонке E9-1-1.
+ms.openlocfilehash: b177e79217f8586d7655b2a4645a603bd8e2f97f
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815117"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49821519"
 ---
-# <a name="locations-table-in-skype-for-business-server-2015"></a>Таблица "расположения" в Skype для бизнеса Server 2015
+# <a name="locations-table-in-skype-for-business-server-2015"></a>Таблица Locations в Skype для бизнеса Server 2015
  
-Каждая запись представляет одну ссылку на расположение в экстренном звонке, например, в вызове E9-1-1.
+Каждая запись представляет одну ссылку на расположение в экстренном звонке, например звонке E9-1-1.
   
-|**Столбец**|**Тип данных**|**Ключ/индекс**|**Сведения**|
+|**Столбец**|**Тип данных**|**Ключ/индекс**|**Details**|
 |:-----|:-----|:-----|:-----|
-|**сессионидтиме** <br/> |datetime  <br/> |Основной, внешний  <br/> |Время запроса сеанса. Используется в сочетании с **сессионидсек** для уникальной идентификации сеанса. Дополнительные сведения приведены [в таблице диалоговые окна в Skype для бизнеса Server 2015](dialogs.md) . <br/> |
-|**сессионидсек** <br/> |целое  <br/> |Основной, внешний  <br/> |ИДЕНТИФИКАЦИОНный номер для идентификации сеанса. Используется в сочетании с **сессионидтиме** для уникальной идентификации сеанса. Дополнительные сведения приведены [в таблице диалоговые окна в Skype для бизнеса Server 2015](dialogs.md) . <br/> |
-|**Расположение** <br/> |nvarchar (max)  <br/> ||Место вызова экстренной помощи.  <br/> |
+|**SessionIdTime** <br/> |datetime  <br/> |Основной, внешний  <br/> |Время запроса сеанса. В сочетании с параметром **SessionIdSeq** определяет сеанс уникальным образом. Дополнительные сведения см. в таблице [Dialogs в Skype для бизнеса Server 2015.](dialogs.md) <br/> |
+|**SessionIdSeq** <br/> |int  <br/> |Основной, внешний  <br/> |Идентификатор для идентификации сеанса. В сочетании с параметром **SessionIdTime** определяет сеанс уникальным образом. Дополнительные сведения см. в таблице [Dialogs в Skype для бизнеса Server 2015.](dialogs.md) <br/> |
+|**Location** <br/> |nvarchar(max)  <br/> ||Расположение экстренного звонка.  <br/> |
    
 
