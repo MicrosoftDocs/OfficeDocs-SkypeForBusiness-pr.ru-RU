@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c4fdfddfe43fd977099a02df61bb74146afcb05d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 7d49b27de8fe6c6d13ef6ac626764b13e1fe36a0
+ms.sourcegitcommit: 4e648c3dd71d9c38cbcb81fab9e8cb9d241fe79c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49804409"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "49871018"
 ---
 # <a name="manage-user-access-to-teams"></a>Управление доступом пользователей к Teams
 
@@ -40,17 +40,17 @@ ms.locfileid: "49804409"
 
 ## <a name="using-the-microsoft-365-admin-center"></a>Использование Центра администрирования Microsoft 365
 
-Управление лицензиями на уровне пользователей Teams напрямую через интерфейсы Управления пользователями в Центре администрирования Microsoft 365. Администратор может назначать лицензии для новых пользователей при создании их учетных записей, а также для пользователей с существующими учетными записями. 
+Управление лицензиями на уровне пользователей Teams напрямую через интерфейсы управления пользователями в Центре администрирования Microsoft 365. Администратор может назначать лицензии для новых пользователей при создании их учетных записей, а также для пользователей с существующими учетными записями. 
 
 > [!IMPORTANT]
 > Администратор должен иметь права глобального администратора или администратора управления пользователями для управления лицензиями Microsoft Teams.
-С помощью Центра администрирования Microsoft 365 можно управлять лицензиями Teams для отдельных пользователей или небольших наборов пользователей одновременно. Вы можете управлять лицензиями Teams на странице **"Лицензии"** (одновременно до 20 пользователей) или на странице **"Активные пользователи".** Выбор метода зависит от того, хотите ли вы управлять лицензиями на продукты для определенных пользователей или лицензиями пользователей для определенных продуктов.
+С помощью Центра администрирования Microsoft 365 можно управлять лицензиями Teams для отдельных пользователей или небольших наборов пользователей за раз. Вы можете управлять лицензиями Teams на странице **"Лицензии"** (одновременно до 20 пользователей) или на странице **"Активные пользователи".** Выбор метода зависит от того, хотите ли вы управлять лицензиями на продукты для определенных пользователей или лицензиями пользователей для определенных продуктов.
 
 Если вам нужно управлять лицензиями Teams для большого количества пользователей, например сотен или тысяч пользователей, используйте [PowerShell](#using-powershell) или групповое лицензирование в [Azure Active Directory (Azure AD).](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-groups-assign) 
 
 ### <a name="assign-a-teams-license"></a>Назначение лицензии Teams
 
-Действия зависят от того, используете ли вы страницу **"Лицензии"** или **"Активные пользователи".**  Пошаговую инструкцию см. в инструкции по [назначению лицензий пользователям.](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users)
+Действия зависят от того, используете ли вы страницу **"Лицензии"** или **"Активные пользователи".**  Пошаговую инструкцию см. в инструкциях по [назначению лицензий пользователям.](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users)
 
 |||
 |---------|---------|
@@ -74,7 +74,7 @@ ms.locfileid: "49804409"
 
 ### <a name="assign-teams-licenses-in-bulk"></a>Массовое назначение лицензий Teams
 
-Подробные инструкции см. в описании назначения лицензий учетным записям пользователей [с помощью PowerShell.](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell)
+Подробные инструкции см. в описании назначения лицензий учетным [записям пользователей с помощью PowerShell.](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell)
 
 ### <a name="remove-teams-licenses-in-bulk"></a>Массовое удаление лицензий Teams
 
@@ -82,19 +82,19 @@ ms.locfileid: "49804409"
 
 #### <a name="example"></a>Пример 
 
-Ниже приводится пример использования командлетов [New-MsolLicenseOptions](https://docs.microsoft.com/powershell/module/msonline/new-msollicenseoptions) и [Set-MsolUserLicense](https://docs.microsoft.com/powershell/module/msonline/set-msoluserlicense) для отключения Teams для пользователей с определенным планом лицензирования. Например, выполните эти действия, чтобы сначала отключить Teams для всех пользователей с определенным планом лицензирования. Затем в течение этого действия в teams можно включить Teams для каждого отдельного пользователя, которому должен быть доступ к Teams.
+Ниже приводится пример использования командлетов [New-MsolLicenseOptions](https://docs.microsoft.com/powershell/module/msonline/new-msollicenseoptions) и [Set-MsolUserLicense,](https://docs.microsoft.com/powershell/module/msonline/set-msoluserlicense) чтобы отключить Teams для пользователей с определенным планом лицензирования. Например, выполните эти действия, чтобы сначала отключить Teams для всех пользователей с определенным планом лицензирования. Затем в течение этого времени в teams можно включить Teams для каждого отдельного пользователя, которому должен быть доступ к Teams.
 
 > [!IMPORTANT]
-> С [помощью cmdlet New-MsolLicenseOptions](https://docs.microsoft.com/powershell/module/msonline/new-msollicenseoptions) можно включить все службы, которые ранее были отключены, если они не были явно определены в настраиваемом сценарии. Например, если вы хотите оставить отключенными и Exchange, и Sway, а также отключить Teams, вам потребуется включить это в сценарий либо для этих пользователей будут включены Exchange и Sway.
+> С [помощью cmdlet New-MsolLicenseOptions](https://docs.microsoft.com/powershell/module/msonline/new-msollicenseoptions) можно включить все службы, которые ранее были отключены, если они не были явно определены в настраиваемом сценарии. Например, если вы хотите оставить отключенными и Exchange, и Sway, а также отключить Teams, вам потребуется включить это в сценарий или для этих пользователей будут включены Exchange и Sway.
 
-Чтобы отобразить все доступные планы лицензирования в вашей организации, запустите следующую команду: Подробнее см. в [лицензиях и службах PowerShell.](https://docs.microsoft.com/office365/enterprise/powershell/view-licenses-and-services-with-office-365-powershell)
+Чтобы отобразить все доступные в вашей организации планы лицензирования, запустите следующую команду: Дополнительные действия см. [в лицензиях и службах PowerShell.](https://docs.microsoft.com/office365/enterprise/powershell/view-licenses-and-services-with-office-365-powershell)
 
 
 ```powershell
 Get-MsolAccountSku
 ```
 
-Запустите следующие команды: название организации и идентификатор для плана лицензирования, который вы извлечь на более \<CompanyName:License> ранней этапе. Например, ContosoSchool:ENTERPRISEPACK_STUDENT.
+Запустите следующие команды: название организации и идентификатор плана лицензирования, который вы извлекли на \<CompanyName:License> предыдущих шагах. Например, ContosoSchool:ENTERPRISEPACK_STUDENT.
 
 ```powershell
 $acctSKU="<CompanyName:License>
@@ -106,10 +106,6 @@ $x = New-MsolLicenseOptions -AccountSkuId $acctSKU -DisabledPlans "TEAMS1"
 ```powershell
 Get-MsolUser | Where-Object {$_.licenses[0].AccountSku.SkuPartNumber -eq  ($acctSKU).Substring($acctSKU.IndexOf(":")+1,  $acctSKU.Length-$acctSKU.IndexOf(":")-1) -and $_.IsLicensed -eq $True} |  Set-MsolUserLicense -LicenseOptions $x
 ```
-
-## <a name="manage-teams-at-the-organization-level"></a>Управление командами на уровне организации
-
-[!INCLUDE [global-switch-expiry-note](includes/global-switch-expiry-note.md)]
 
 ## <a name="related-topics"></a>Статьи по теме
 

@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Эта таблица используется для поиска информации о получении номеров телефонов в Ирландии для Microsoft Teams и управлении им.
-ms.openlocfilehash: 6380f10cec804e56ad17b233868ff72936634037
-ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
+ms.openlocfilehash: 8795dd57e165f354318d780da1ccee4d87cff9a4
+ms.sourcegitcommit: 9787b84ab15ee2e14890151e966c81b4a4d43e62
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48361409"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "49868294"
 ---
 # <a name="phone-number-management-for-ireland"></a>Управление номерами телефонов в Ирландии
 
@@ -35,11 +35,11 @@ ms.locfileid: "48361409"
   
 |**Требуемое действие**|**Загрузка подходящих форм**|
 |:-----|:-----|
-|Получите новые номера телефонов пользователей или служб, которые не указаны в Центре администрирования Microsoft Teams. <br/> |В Ирландии вы не можете получить телефонные номера для своей организации с помощью Центра администрирования Microsoft Teams. Необходимо отправить запрос на получение номеров телефонов. <br/><br/>Скачайте эту форму.<br/>[Новый запрос на номер телефона для Ирландии (5.0) (en-us).](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-ireland-(v.5.0)-(en-us).pdf?raw=true) <br/><br/> Заполните его и [отправьте нам.](mailto:ptneu@microsoft.com)  <br/> |
-|Перенаправь нам номера телефонов.  <br/> | Скачайте эту форму. <br/>[Досье (LoA) для Ирландии (все номера) (v.5.0) (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-ireland-(all-numbers)-(v.5.0)-(en-us).pdf?raw=true) <br/> <br/>Заполните ее и [отправьте его нам](mailto:ptneu@microsoft.com). <br/> |
+|Получите новые номера телефонов пользователей или служб, которые не указаны в Центре администрирования Microsoft Teams. <br/> |В Ирландии получить номера телефонов для своей организации с помощью Центра администрирования Microsoft Teams нельзя. Необходимо отправить запрос на получение номеров телефонов. <br/><br/>Скачайте эту форму.<br/>[Новый запрос на номер телефона для Ирландии (5.0) (en-us).](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-ireland-(v.5.0)-(en-us).pdf?raw=true) <br/><br/> Заполните его и [отправьте нам.](mailto:ptneu@microsoft.com)  <br/> |
+|Перенаправь нам номера телефонов.  <br/> | Скачайте эту форму. <br/>[Досье (LoA) для Ирландии (все номера) (v.6.0) (en-us)](https://download.microsoft.com/download/d/a/f/daf4edb9-69c7-4d3d-a483-e0c4427abb50/letter-of-authorization-(loa)-for-ireland-(all-numbers)-(v.6.0)-(en-us).pdf) <br/> <br/>Заполните ее и [отправьте его нам](mailto:ptneu@microsoft.com). <br/> |
 |Публикация и публикация номеров телефонов в национальном телефонном каталоге.  <br/> |[Отправьте нам](mailto:ptneu@microsoft.com) список номеров телефонов для публикации или отмены публикации. <br/> |
-|Изменение номера пользователя на номер службы.  <br/> |[Отправьте нам](mailto:ptneu@microsoft.com) список номеров пользователей, которые необходимо преобразовать в номера служб. <br/> |
-|Обновление службы каталогов для номеров очереди вызовов или номеров автозавода|Чтобы добавить или изменить номера очереди вызовов или номера автоотетаря, обратитесь в службу [поддержки ННР.](contact-pstn-service-desk.md) |
+|Измените номер пользователя на номер службы.  <br/> |[Отправьте нам](mailto:ptneu@microsoft.com) список номеров пользователей, которые необходимо преобразовать в номера служб. <br/> |
+|Обновление службы каталогов для вызова очереди или номеров автозавода|Чтобы добавить или изменить номера очереди вызовов или номера автоотетаря, обратитесь в службу [поддержки ННР.](contact-pstn-service-desk.md) |
    
 ## <a name="related-topics"></a>См. также:
 
