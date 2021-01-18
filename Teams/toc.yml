@@ -256,6 +256,8 @@
               href: rooms/rooms-prep.md
             - name: Требования
               href: rooms/requirements.md
+            - name: Безопасность
+              href: rooms/security.md
             - name: Интернет-лицензирование
               href: rooms/rooms-licensing.md
             - name: Планирование управления с помощью Azure Monitor
@@ -354,6 +356,8 @@
       href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
     - name: Управление Доской в Teams
       href: manage-whiteboard.md
+    - name: Настройка надстройки "Собрание Teams" для рабочей области Google
+      href: google-workspace-addon-teams.md
     - name: Аудиоконференции
       items:
         - name: Планирование развертывания
@@ -656,7 +660,7 @@
           href: manage-your-network-topology.md
     - name: Экстренные вызовы
       items:
-        - name: Общие сведения
+        - name: Обзор
           href: what-are-emergency-locations-addresses-and-call-routing.md
         - name: Настройка динамических экстренных вызовов
           href: configure-dynamic-emergency-calling.md
@@ -732,7 +736,7 @@
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md
         - name: Ограничения и запреты для бесплатных номеров
           items:
-            - name: Общие сведения
+            - name: Обзор
               href: toll-free-dialing-limitations-and-restrictions.md
             - name: Аргентина
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-argentina.md
