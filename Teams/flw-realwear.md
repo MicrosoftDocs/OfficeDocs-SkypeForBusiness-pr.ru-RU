@@ -18,16 +18,16 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d72007a4bde0db2890a889580ee92c8dab72ad1e
-ms.sourcegitcommit: 8924cd77923ca321de72edc3fed04425a4b13044
+ms.openlocfilehash: 67f595e6b037eb6091d3b4e03e3258a13e12a4d1
+ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "48262516"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "49909393"
 ---
 # <a name="microsoft-teams-for-realwear"></a>Microsoft Teams для RealWear
 
-В этой статье рассказывается о клиенте Microsoft Teams для носимых головных устройств RealWear. Работники FirstLine, использующие RealWear HMT-1 и HMT-1Z1, теперь могут сотрудничать с удаленным экспертом, используя видеосвязь в Teams. С помощью голосового интерфейса пользователя Teams для RealWear позволяют работникам на местах оставаться на 100% свободными от рук, сохраняя ситуационную осведомленность в шумной и опасной обстановке. Показывая то, что они видят в режиме реального времени, полевые работники могут ускорить решение проблем и снизить риск дорогостоящих простоев.
+В этой статье рассказывается о клиенте Microsoft Teams для носимых головных устройств RealWear. Сотрудники без компьютеров, использующие RealWear HMT-1 и HMT-1Z1, теперь могут взаимодействовать с удаленным экспертом, используя видеозвонки в Teams. С помощью голосового интерфейса пользователя Teams для RealWear позволяют работникам на местах оставаться на 100% свободными от рук, сохраняя ситуационную осведомленность в шумной и опасной обстановке. Показывая то, что они видят в режиме реального времени, полевые работники могут ускорить решение проблем и снизить риск дорогостоящих простоев.
 
 ## <a name="how-to-deploy-microsoft-teams-for-realwear"></a>Как развернуть Microsoft Teams для RealWear
 
