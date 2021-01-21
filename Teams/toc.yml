@@ -1077,14 +1077,10 @@
           href: business-voice/policy-packages.md
         - name: Создание дополнительных пользователей
           href: business-voice/create-users.md
-        - name: 'Пример: настройка очереди вызовов'
-          href: /SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
-        - name: Настройка очередей вызовов
-          href: business-voice/set-up-call-queues.md
-        - name: 'Пример: настройка автосекретаря'
-          href: tutorial-org-aa.yml
-        - name: Настройка автосекретарей
-          href: business-voice/set-up-auto-attendants.md
+        - name: Настройка очереди вызовов
+          href: business-voice/create-a-phone-system-call-queue-smb.md
+        - name: Настройка автосекретаря
+          href: business-voice/create-a-phone-system-auto-attendant-smb.md
     - name: Управление настройкой
       items:
         - name: Создание одного или нескольких пользователей
@@ -1178,7 +1174,7 @@
     - name: Teams для сотрудников без компьютеров
       items:
         - name: Краткое руководство для сотрудников без компьютеров
-          href: firstline-workers-quickstart.yml
+          href: flw-quickstart.yml
         - name: Развертывание с помощью скрипта для сотрудников без компьютеров
           href: flw-scripted-deployment.md
         - name: Управление доступом на основе смен для сотрудников без компьютеров
