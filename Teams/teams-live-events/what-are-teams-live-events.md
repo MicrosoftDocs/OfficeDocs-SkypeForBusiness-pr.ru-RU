@@ -21,12 +21,13 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7133c5a1a0cf9fd67ec23b51f8e177aeb80532fa
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+localization_priority: Normal
+ms.openlocfilehash: 78e2fdb6b205316dfd8a715c12613be1486302f5
+ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49802429"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "49918995"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Что такое трансляции Microsoft Teams
 
@@ -60,6 +61,9 @@ Teams обеспечивает совместную работу в чате, з
 С помощью Teams организаторы могут создать событие с соответствующими разрешениями участников, назначить участников команды события, выбрать метод работы и пригласить участников. Если трансляция создана в группе Yammer, участники могут использовать беседу Yammer для взаимодействия в рамках события.
 
 ![экран "новые трансляции"](../media/teams-live-events-schedule.png "Снимок экрана, показывающий создание экрана трансляции для создания и планирования новой трансляции")
+
+> [!IMPORTANT]
+> Teams не позволит пользователям планировать собрания и трансляции, если они не в сети или работают с ограниченной пропускной способностью.
 
 ### <a name="production"></a>Производство
 

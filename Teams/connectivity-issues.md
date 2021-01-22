@@ -4,7 +4,6 @@ ms.reviewer: ''
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
-ms.date: 08/21/2018
 ms.topic: troubleshooting
 ms.service: msteams
 audience: admin
@@ -17,34 +16,37 @@ description: Сведения о поиске и устранении пробл
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 52097d78a3eae14bcaba98fb1613092af97d302e
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 59041734887a667eca325a3d2650425d6d336b78
+ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581140"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "49918545"
 ---
 <a name="troubleshoot-connectivity-issues-with-the-microsoft-teams-client"></a>Устранение проблем связи с клиентом Microsoft Teams
 ==============================================================
 
 Большинство проблем с клиентом Microsoft Teams вызваны подключением к брандмауэру или прокси-серверу. Проверив, открыты ли нужные порты, URL- и IP-адреса брандмауэра или прокси-севера, вы минимизируете вероятность неполадок. Дополнительные сведения о URL-адресах и IP-адресах, необходимых для Microsoft Teams, см. в статье поддержки URL-адресов и IP-адресов [Microsoft 365 и Office 365.](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2) В описанных ниже сценариях требуется открыть определенные URL-адреса и порты в брандмауэре.
 
--   Проверка подлинности
+- Проверка подлинности
 
--   Взаимодействие с клиентом Microsoft Teams
+- Взаимодействие с клиентом Microsoft Teams
 
--   Совместная работа
+- Совместная работа
 
--   Мультимедиа
+- Мультимедиа
 
--   Общие службы
+- Общие службы
 
--   Интеграция со сторонними решениями
+- Интеграция со сторонними решениями
 
--   Взаимодействие со Skype для бизнеса
+- Взаимодействие со Skype для бизнеса
 
--   Взаимодействие с клиентом Skype для бизнеса
+- Взаимодействие с клиентом Skype для бизнеса
 
+## <a name="when-teams-is-offline-or-in-low-bandwidth-conditions"></a>Если Teams работает в автономном режиме или при низкой пропускной способности
+
+Хорошая новость заключается в том, что Teams продолжает работать даже в автономном режиме или при низкой пропускной способности. Teams сохраняет все неуправляемые сообщения в существующих чатах (в течение 24 часов) и отправляет их, как только вы снова будете в сети. Если вы работаете в автономном режиме более 24 часов, Teams позволяет повторно отправить или удалить неуданные сообщения. Мы работаем над добавлением этой функции в новые чаты и обновим эту документацию, когда она будет доступна.
 
 ## <a name="related-topics"></a>Статьи по теме
 

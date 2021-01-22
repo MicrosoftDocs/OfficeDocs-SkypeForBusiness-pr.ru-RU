@@ -14,16 +14,16 @@ ms.reviewer: nakulm
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Практические рекомендации по развертыванию функций облачного голосового звонка в Teams для записи собраний и групповых звонков Teams для записи аудио- и видеосвязи, а также обмена экранами.
+description: Практические рекомендации по развертыванию функций облачного голосового управления в Teams для записи собраний и групповых звонков Teams для записи аудио- и видеосвязи, а также обмена экранами.
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2942de5e824d0553ba9d92f445d3635d73f0fe83
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 40fad38d8c77d8194d2bf24a451fb9438f10c586
+ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031035"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "49918975"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Запись облачного собрания в Teams
 
@@ -42,20 +42,20 @@ ms.locfileid: "49031035"
 Для записи собраний пользователя Teams необходимо включить Для клиента Microsoft Stream. Кроме того, для организатора собрания и лица, инициирующего запись, необходимы следующие предварительные условия:
 
 - У пользователя есть Office 365 E1, E3, E5, A1, A3, A5, Microsoft 365 бизнес премиум, бизнес стандартный или Бизнес базовый<sup>1</sup>
-- Для Microsoft Stream 2 у пользователя должна быть<sup>лицензия</sup> 
-- Пользователь имеет права на загрузку видео в Microsoft Stream.
 - Пользователь согласился с правилами компании, если они установлены администратором
 - У пользователя достаточно места в Microsoft Stream для сохранения записей
-- У пользователя для параметра TeamsMeetingPolicy-AllowCloudRecording установлено значение true
+- Для записи собраний и групповых звонков пользователь установил для параметра CsTeamsMeetingPolicy -AllowCloudRecording true (Разрешить запись собраний и групповых звонков).
+- Для записи звонков 1:1 пользователь установил для параметра CsTeamsCallingPolicy -AllowCloudRecordingForCalls параметр true
 - Пользователь не является анонимным, гостевым или федеративным пользователем на собрании
 - Чтобы включить транскрибцию для собрания пользователя, в назначенной ему политике собраний Teams должен быть установлен параметр -AllowTranscription true.
 
 <sup>1</sup> 20 августа 2020 г. доступ к файлу записи собрания истекает через 21 день у пользователей с A1. Дополнительные сведения см. в [записи собрания Microsoft Teams в Stream.](https://docs.microsoft.com/stream/portal-upload-teams-meeting-recording)
 
-<sup>2</sup> У пользователя должна быть лицензия на отправку и скачивание собраний в Microsoft Stream, но для записи собрания им не нужна лицензия. Если вы хотите запретить пользователю записывать собрание Microsoft Teams, вы должны предоставить TeamsMeetingPolicy, для которого AllowCloudRecording установлено значение $False.
-
 > [!IMPORTANT] 
-> Пользователям не нужно иметь лицензию Microsoft Stream, если вы хотите, чтобы они могли только создавать и скачивать записи. Это означает, что записи хранятся не в Microsoft Stream, а в службах мультимедиа Azure (AMS) с ограничением в 21 день до удаления. В этом случае администратор не может ни управлять записями, ни удалять их.
+> Пользователям не нужно иметь лицензию Microsoft Stream, если вы хотите, чтобы они могли только создавать и скачивать записи. Это означает, что записи хранятся не в Microsoft Stream, а в службах мультимедиа Async (AMS) с ограничением в 21 день до удаления. В этом случае администратор не может ни управлять записями, ни удалять их.
+
+> [!IMPORTANT]
+> Кроме того, на записи, которые находятся в AMS, влияет само сообщение чата. Таким образом, удаление исходного сообщения чата записи AMS помешает пользователям получить доступ к записи. Существует два сценария, которые могут повлиять на эту ситуацию. 1) Пользователь вручную удаляет сообщение чата. В этом случае, когда исходное сообщение исчезнет, пользователи больше не смогут получить доступ к записи и больше не смогут скачивать его. Однако сами записи могут храниться во внутренних системах Майкрософт в течение определенного времени (не превышающий исходный 21-дневный период). 2) Запись сообщения чата удаляется с помощью политики хранения чата. Записи AMS связаны непосредственно с политикой хранения чата. Таким образом, хотя записи в AMS по умолчанию сохраняются в течение 21 дня перед удалением, если сообщение чата удаляется до 21-дневного периода, из-за политик хранения сообщений чата запись также будет удалена. После этого восстановить запись будет не удалось.
 
 ## <a name="set-up-teams-cloud-meeting-recording-for-users-in-your-organization"></a>Настройка записи облачных собраний Teams для пользователей в вашей организации
 
@@ -112,46 +112,44 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $false
 |                                                                                                                                          |                                                                                                                                                                                                                                                                                                                                                  |
 #### <a name="where-your-meeting-recordings-are-stored"></a>Где хранятся записи вашей встречи
 
-Записи собраний хранятся в облачном хранилище Microsoft Stream. Записи сохраняются и доступны для просмотра и скачивания в течение 21 дней. В настоящее время функция записи собрания отключена для клиентов, чьи данные Teams хранятся в стране, если Microsoft Stream недоступен в регионе расположения данных в стране, где хранятся данные. В будущем функция записи собрания будет включена для клиентов, чьи данные хранятся внутри страны, даже если Microsoft Stream недоступен в регионе расположения данных внутри страны.
+Записи собраний хранятся в облачном хранилище Microsoft Stream. В настоящее время функция записи собрания отключена для клиентов, чьи данные Teams хранятся в стране, если Microsoft Stream недоступен в регионе расположения данных в стране, где хранятся данные. Возможность записи собрания может быть включена для клиентов, данные которых должны храниться в стране, даже если Microsoft Stream не доступен в этом регионе. Для этого можно разрешить хранение записей в ближайшем географическом регионе Microsoft Stream. 
 
-Когда это изменение вступит в силу, записи собраний будут по умолчанию сохранены в ближайшем географическом регионе для Microsoft Stream. Если данные ваших Teams хранятся внутри страны, и вы предпочитаете хранить записи собраний внутри страны, мы рекомендуем отключить эту функцию, а затем включить ее после развертывания Microsoft Stream в вашем регионе проживания данных в стране. Чтобы отключить эту функцию для всех пользователей  в организации, отключите параметр "Разрешить облачную запись" в политике собраний Глобальной группы, которая находится в Центре администрирования Microsoft Teams. Однако если вы хотите, чтобы записи хранились в ближайшем географическом регионе Microsoft Stream, перед  изменением необходимо включить как разрешение облачной записи, так и разрешение хранения за пределами этого региона. 
+Если данные ваших Teams хранятся внутри страны, и вы предпочитаете хранить записи собраний внутри страны, мы рекомендуем отключить эту функцию, а затем включить ее после развертывания Microsoft Stream в вашем регионе проживания данных в стране. Чтобы отключить эту функцию для всех пользователей  в организации, отключите параметр "Разрешить облачную запись" в политике собраний Глобальной группы, которая находится в Центре администрирования Microsoft Teams. Однако если вы хотите, чтобы записи хранились в ближайшем географическом регионе Microsoft Stream, перед  изменением необходимо включить как разрешение облачной записи, так и разрешение хранения за пределами этого региона. 
 
-Чтобы включить записи в регионе, в соответствии с глобальной политикой, используйте следующий cmdlet:
+Чтобы включить запись в регионе в глобальной политике, используйте следующий cmdlet:
 
 ```powershell
-Set-CsTeamsMeetingPolicy -Identity Global – AllowCloudRecording $true -AllowRecordingStorageOutsideRegion $true
-```
+Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $true -AllowRecordingStorageOutsideRegion $true
 
+Here's a summary of what happens when you turn on meeting recording when this change takes effect:
 
-Вот краткое описание того, что происходит, когда вы включаете запись собрания, когда это изменение вступает в силу:
-
-|Если включить записи собраний...|Записи собраний хранятся... |
+|If you turn on meeting recordings...|Meeting recordings are stored... |
 |---|---|
-|До того как Microsoft Stream будет доступен в вашем регионе, размещении данных в стране |В ближайшем регионе Microsoft Stream|
-|После того как Microsoft Stream будет доступен в вашем регионе, размещении данных в стране |В вашем регионе, где будут проживания данных в вашей стране|
+|Before Microsoft Stream is available in your in-country data residency region |In the nearest Microsoft Stream region|
+|After Microsoft Stream is available in your in-country data residency region |In your in-country data residency region|
 
-Для новых и существующих арендаторов, которые еще не включили запись собрания, новые записи сохраняются в стране после того, как Microsoft Stream станет доступным в регионе расположения данных в стране. Однако любой клиент, который включает запись собраний до того, как Microsoft Stream станет доступен в регионе, размещении данных в стране, будет продолжать использовать хранилище Microsoft Stream для существующих и новых записей, даже если Microsoft Stream доступен в регионе, размещении данных в стране.
+For new and existing tenants that haven't yet turned on meeting recording, new recordings are stored in-country after Microsoft Stream is available in the in-country data residency region. However, any tenant that enables meeting recording before Microsoft Stream is available in the in-country data residency region will continue to use the Microsoft Stream storage for existing and new recordings, even after Microsoft Stream is available in the in-country data residency region.
 
-Чтобы найти регион, в котором хранятся ваши данные Microsoft Stream, в Microsoft Stream нажмите **?** в правом верхнем углу нажмите **О Microsoft Stream**, а затем нажмите **Ваши данные хранятся в**.  Чтобы узнать больше о регионах, где Microsoft Stream хранит данные, см. [Вопросы-Ответы по Microsoft Stream](https://docs.microsoft.com/stream/faq#which-regions-does-microsoft-stream-host-my-data-in).
+To find the region where your Microsoft Stream data is stored, in Microsoft Stream, click **?** in the upper-right corner, click **About Microsoft Stream**, and then click **Your data is stored in**.  To learn more about the regions where Microsoft Stream stores data, see [Microsoft Stream FAQ](https://docs.microsoft.com/stream/faq#which-regions-does-microsoft-stream-host-my-data-in).
 
-Дополнительные сведения о том, где хранятся данные в службах Microsoft 365 или Office 365, см. в этой [веб-сайте.](https://products.office.com/where-is-your-data-located?rtc=1)
+To learn more about where data is stored across services in Microsoft 365 or Office 365, see [Where is your data located?](https://products.office.com/where-is-your-data-located?rtc=1)
 
-### <a name="turn-on-or-turn-off-recording-transcription"></a>Включить или отключить запись транскрипции
+### Turn on or turn off recording transcription
 
-Этот параметр управляет доступом субтитров и транскрибации во время воспроизведения записей собраний. Если отключить эту функцию,  параметры **поиска** и укаймы будут недоступны во время воспроизведения записи собрания. Этот параметр должен быть включен для того, чтобы запись также включала запись разговоров.
+This setting controls whether captions and transcription features are available during playback of meeting recordings. If you turn this off, the **Search** and **CC** options won't be available during playback of a meeting recording. The person who started the recording needs this setting turned on so that the recording also includes transcription.
 
 > [!NOTE]
-> Запись разговоров для записанных собраний в настоящее время поддерживается только для пользователей, у которых в Teams установлен английский язык и если на собрании ведется английский. Они хранятся вместе с записями собраний в облачном хранилище Microsoft Stream.
+> That transcription for recorded meetings is currently only supported for users who have the language in Teams set to English and when English is spoken in the meeting. They are stored together with the meeting recordings in Microsoft Stream cloud storage.
 
-Вы можете использовать центр администрирования Microsoft Teams или PowerShell, чтобы установить политику собраний Teams, чтобы контролировать, получает ли инициатор записи возможность транскрибировать запись собрания.
+You can use the Microsoft Teams admin center or PowerShell to set a Teams meeting policy to control whether the recording initiator gets a choice to transcribe the meeting recording.
 
-В Центре администрирования Microsoft Teams включите или отключите параметр **Разрешить транскрипцию** в политике собрания. Чтобы узнать больше, см. [Управление политиками собраний в Teams](meeting-policies-in-teams.md#allow-transcription).
+In the Microsoft Teams admin center, turn on or turn off the **Allow transcription** setting in the meeting policy. To learn more, see [Manage meeting policies in Teams](meeting-policies-in-teams.md#allow-transcription).
 
-Используя PowerShell, вы настраиваете параметр AllowTranscription в TeamsMeetingPolicy. Чтобы узнать больше, см. [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy)и [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy).
+Using PowerShell, you configure the AllowTranscription setting in TeamsMeetingPolicy. To learn more, see [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) and [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy).
 
-Если пользователь не назначил пользовательскую политику, пользователи получают глобальную политику, в которой по умолчанию отключена AllowTranscription.
+Unless you have assigned a custom policy to the users, users get the Global policy, which has AllowTranscription disabled by default.
 
-Чтобы пользователь мог вернуться к Глобальной политике, используйте следующий командлет, чтобы удалить конкретное назначение политики для пользователя:
+For a user to fall back to Global policy, use the following cmdlet to remove a specific policy assignment for a user:
 
 ```powershell
 Grant-CsTeamsMeetingPolicy -Identity {user} -PolicyName $null -Verbose

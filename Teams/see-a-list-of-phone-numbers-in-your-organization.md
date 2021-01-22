@@ -23,12 +23,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: Узнайте, как использовать Центр администрирования Microsoft Teams, чтобы увидеть список всех номеров телефонов в организации и всех номеров, которые назначены пользователям или не назначены.
-ms.openlocfilehash: 8ad4e0ce2949e2aa72d387aff167a433ec7c8150
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 61e1fb59ba5b68aeb2ab2af51b2ef91202e43678
+ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691175"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "49918905"
 ---
 # <a name="see-a-list-of-phone-numbers-in-your-organization"></a>Просмотр списка телефонных номеров в организации
 
@@ -43,7 +43,7 @@ ms.locfileid: "44691175"
 2. На панели навигации слева перейдите в раздел **Голосовая связь** > **Номера телефонов**.
 
     > [!IMPORTANT]
-    > Для того чтобы в левой области навигации Центра администрирования Skype для бизнеса вы увидите параметр  "Голосовая почта",  необходимо сначала приобрести по крайней мере одну лицензию на корпоративный **E5,** одну лицензию на надстройку телефонной системы или одну лицензию на надстройку аудиоконференции. 
+    > Для того чтобы  в левой области навигации Центра администрирования Skype для бизнеса была отписна  возможность голосовой связи, необходимо  сначала приобрести по крайней мере одну лицензию на корпоративный **E5,** одну лицензию на надстройку телефонной системы или одну лицензию на надстройку для аудиоконференции.
 
 3. Чтобы просмотреть номера телефонов, которые назначены, см. **столбец "Состояние".**
 
@@ -105,6 +105,22 @@ ms.locfileid: "44691175"
 
    - **Сбой обновления**
 
+## <a name="using-the-teams-powershell-module"></a>Использование модуля Teams PowerShell
+
+С помощью модуля Teams PowerShell можно получить те же сведения из предыдущих разделов, но для этого требуется версия 1.1.6 или более поздней версии, которая включает интеграцию соединитела Skype для бизнеса Online. Дополнительные сведения о модуле см. в обзоре [Microsoft Teams PowerShell.](teams-powershell-overview.md)
+
+Список всех номеров телефонов для организации можно увидеть с помощью [cmdlet Get-CsOnlineTelephoneNumber.](https://docs.microsoft.com/powershell/module/skype/get-csonlinetelephonenumber) Например, чтобы увидеть номер телефона и его состояние, можно выполнить следующую команду:
+
+```PowerShell
+Get-CsOnlineTelephoneNumber | ft Id,ActivationState
+```
+
+Вы можете увидеть все телефонные номера, которые назначены пользователям, с помощью cmdlet [Get-CsOnlineUser.](https://docs.microsoft.com/powershell/module/skype/get-csonlineuser) Например, можно выполнить следующую команду, чтобы увидеть всех пользователей с номером телефона:
+
+```PowerShell
+Get-CsOnlineUser | Where-Object  { $_.LineURI -notlike $null } | ft DisplayName,UserPrincipalName,LineURI
+```
+
 ## <a name="related-topics"></a>См. также:
 [Общие вопросы по передаче номеров телефонов](/microsoftteams/transferring-phone-numbers-common-questions)
 
@@ -118,4 +134,4 @@ ms.locfileid: "44691175"
 
 [Get-CsOnlineTelephoneNumber](https://docs.microsoft.com/powershell/module/skype/get-csonlinetelephonenumber)
   
- 
+[Get-CsOnlineUser](https://docs.microsoft.com/powershell/module/skype/get-csonlineuser)
