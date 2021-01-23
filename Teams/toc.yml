@@ -56,8 +56,6 @@
       href: create-manager-directs-teams.md
     - name: Управление командами и политиками каналов
       href: teams-policies.md
-    - name: Метки конфиденциальности для Teams
-      href: sensitivity-labels.md
     - name: Настройка модерации канала в Teams
       href: manage-channel-moderation-in-teams.md
     - name: Общий доступ к файлам в Teams
@@ -1241,6 +1239,8 @@
           href: communication-compliance.md
         - name: Запись на основе политики для звонков и собраний
           href: teams-recording-policy.md
+        - name: Метки конфиденциальности
+          href: sensitivity-labels.md
         - name: Защита от потери данных
           href: 'https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
         - name: Обнаружение электронных данных
