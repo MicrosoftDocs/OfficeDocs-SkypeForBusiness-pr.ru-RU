@@ -12,14 +12,14 @@ ms.collection:
 - remotework
 ms.reviewer: vinbel
 search.appverid: MET150
-description: Вы можете использовать существующий сайт или страницу SharePoint Online, а также создать отдельную статическую вкладку, которую можно использовать в вашей организации в качестве портала интрасети.
+description: Вы можете использовать существующий сайт или страницу SharePoint Online, а также создать отдельную персональную вкладку, которую можно использовать в своей организации в качестве портала интрасети.
 localization_priority: Priority
-ms.openlocfilehash: 080adc58059a88e585f5c975972399e552640e3d
-ms.sourcegitcommit: b12ec4703b164c545d17b02815edd6ee28d40bed
+ms.openlocfilehash: 7989478bf7fb81abdbd6ad9e553845302953c8cd
+ms.sourcegitcommit: 5473b9fcd2bfe8adeb05a4a8d23e4350c7970fb6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 01/22/2021
-ms.locfileid: "49923811"
+ms.locfileid: "49937511"
 ---
 # <a name="create-a-teams-intranet-portal-app-from-a-sharepoint-online-site-or-page"></a>Создание приложения портала интрасети Teams с сайта или страницы SharePoint Online
 
@@ -37,15 +37,26 @@ ms.locfileid: "49923811"
 Подготовка.
 
 1. Необходимо знать URL-адрес сайта или страницы современного обмена данными SharePoint Online или Team.
-    - В путях к этим сайтам всегда будет присутствовать элемент */teams/* или */sites/*.
+
+   В путях к этим сайтам всегда будет присутствовать элемент */teams/* или */sites/*.
 
 2. Необходимо знать поддомен клиента, который будет использоваться в заполнителе **{{поддомен}}**.
 
 3. Эта статья будет использовать **{{siteUrl}}** в качестве заполнителя для *URL* выбранного вами сайта или страницы.
-    - Примеры *URL-адресов*: `https://contoso.sharepoint.com/teams/Contoso`
-        *или* `https://contoso.sharepoint.com/sites/Contoso`
+
+   Примеры *URL-адресов*:
+   
+   - `https://contoso.sharepoint.com/teams/Contoso`
+      <br/>*или*
+   - `https://contoso.sharepoint.com/sites/Contoso`
+        
 4. Кроме того, заполнитель **{{sitePath}}** будет использоваться для обозначения *пути* URL-адреса (например, /teams/Contoso).
-    - Примеры *путей*:   /teams/Contoso   *или* /sites/Contoso
+
+   Примеры *путей*:
+   
+   - /teams/Contoso
+     <br/>*или*
+   - /sites/Contoso
 
 Чтобы начать, выполните указанные ниже действия.
 
@@ -69,10 +80,13 @@ ms.locfileid: "49923811"
 
 10. Заполните поле **URL-адрес контента и URL-адрес веб-сайта**.
 
-- **URL-адрес контента**: {{siteUrl}}/_layouts/15/teamslogon.aspx?SPFX=true&dest={{sitePath}}  
-- **URL-адрес веб-сайта**: {{siteUrl}}
+    - **URL-адрес контента**: {{siteUrl}}/_layouts/15/teamslogon.aspx?SPFX=true&dest={{sitePath}}  
+    
+    - **URL-адрес веб-сайта**: {{siteUrl}}
 
-    Например, **URL-адрес контента**: `https://contoso.sharepoint.com/sites/ContosoHub/_layouts/15/teamslogon.aspx?SPFX=true&dest=/sites/ContosoHub`
+      Например, **URL-адрес контента**: 
+      
+      `https://contoso.sharepoint.com/sites/ContosoHub/_layouts/15/teamslogon.aspx?SPFX=true&dest=/sites/ContosoHub`
 
 11. Перейдите в раздел **Домены и разрешения**. Убедитесь в том, что в разделе "Допустимые домены" указано ваше доменное имя SharePoint Online.
 
@@ -80,20 +94,24 @@ ms.locfileid: "49923811"
 
 12. Добавьте указанные ниже свойства **единого входа** веб-приложения.
 
-     Например,  **AAD application ID**: 00000003-0000-0ff1-ce00-000000000000  **Resource Url**: {{subdomain}}.sharepoint.com
+    Пример.
+    
+    - **Идентификатор приложения AAD**: 00000003-0000-0ff1-ce00-000000000000
+    
+    - **Resource Url**: {{subdomain}}.sharepoint.com
 
-    ![Единый вход в веб-приложение, с идентификатором и URL-адресом.](media/personal-app.png)
+      ![Единый вход в веб-приложение, с идентификатором и URL-адресом.](media/personal-app.png)
 
 13. Выберите **Сохранить** эти свойства, а затем перейдите в раздел **Тестирование и распространение**.
 
 14. Установите приложение, чтобы лично протестировать его.
 
-> [!IMPORTANT]
-> Если вы не используете приложение App Studio Teams, вам будет необходимо заархивировать в формате zip-созданный вами файл manifest.JSON, перейти в магазин приложений в Teams и нажать  **Отправка пользовательского приложения** по ссылке (в правом нижнем углу магазина приложений). После этого приложение станет доступным для вас.
+    > [!IMPORTANT]
+    > Если вы не используете приложение App Studio Teams, вам будет необходимо заархивировать в формате zip-созданный вами файл manifest.JSON, перейти в магазин приложений в Teams и нажать  **Отправка пользовательского приложения** по ссылке (в правом нижнем углу магазина приложений). После этого приложение станет доступным для вас.
 
-15. Теперь приложение доступно в виде статической вкладки, которую можно загружать и просматривать в Teams.
+15. Теперь приложение доступно в виде персональной вкладки, которую можно загружать и просматривать в Teams.
 
-## <a name="test-and-view-your-new-static-tab"></a>Проверка и просмотр новой статической вкладки
+## <a name="test-and-view-your-new-personal-tab"></a>Проверка и просмотр новой персональной вкладки
 
 Чтобы открыть вкладку на рабочем столе Teams, нажмите на многоточие (**...**) в левой части панели приложения. Найдите новое приложение, загрузите его и протестируйте ваше отдельное приложение в Teams.
 
@@ -105,7 +123,7 @@ ms.locfileid: "49923811"
 
 Созданный вами файл JSON будет выглядеть примерно так, как показано ниже.
 
-```JSON'
+```json
 {
 
     "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json",
