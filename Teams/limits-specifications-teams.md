@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: dc3a2597c82bfce0f920f511677f9d6a0bf7e6fa
-ms.sourcegitcommit: def4b475b785a7b963f499cf9a1044e842ff66a5
+ms.openlocfilehash: ebdadd024de9e12ec242ab76189eb611520ceb59
+ms.sourcegitcommit: d6e97621b1bfe9c3fbd8bc41b30a94bafd17b28f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "49786791"
+ms.lasthandoff: 01/25/2021
+ms.locfileid: "49973073"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Ограничения и спецификации для Microsoft Teams
 
@@ -39,7 +39,7 @@ ms.locfileid: "49786791"
 |Количество участников в команде | 10 000<sup>5</sup>     |
 |Количество владельцев на команду | 100   |
 |Количество команд для всей организации, разрешенное в клиенте | 5     |
-|Количество участников в [команде для всей организации](create-an-org-wide-team.md) | 5 000       |
+|Количество участников в [команде для всей организации](create-an-org-wide-team.md) | 10 000       |
 |Количество команд, которые может создавать глобальный администратор        |  500 000   |
 |Количество команд, которое может иметь организация, использующая Microsoft 365 или Office 365    | 500 000&sup2;     |
 |Количество каналов на команду    | 200 (включая удаленные каналы)&sup3;         |
@@ -57,7 +57,7 @@ ms.locfileid: "49786791"
 
 <sup>4</sup> 28 КБ — это приблизительное ограничение, так как оно включает само сообщение (текст, ссылки на изображения и т. д.), @упоминания, число соединителей и реакции.
 
-<sup>5</sup> Команды в GCC могут состоять только из 5 000 участников, а в GCCH или DoD только из 2 500.
+<sup>5</sup> Команды в GCC могут состоять только из участников, а в GCCH или DoD — только из 2 500 участников.
 
 ## <a name="messaging"></a>Обмен сообщениями
 

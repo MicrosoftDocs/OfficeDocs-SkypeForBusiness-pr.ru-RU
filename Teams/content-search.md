@@ -14,17 +14,17 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
-description: Узнайте, как использовать поиск контента в Microsoft Teams для запроса сведений Microsoft Teams из Exchange, SharePoint Online, OneDrive для бизнеса и OneNote.
+description: Узнайте, как с помощью поиска контента в Центре соответствия требованиям Microsoft 365 искать содержимое Microsoft Teams, которое хранится в Exchange Online, SharePoint Online, OneDrive для бизнеса и OneNote.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d05d815a74fc395c06763920014b7de453847bec
-ms.sourcegitcommit: 113e3a7314505cf78da57917ff62642125fb11fd
+ms.openlocfilehash: f91e630b6f0666def3e64e40e68a6a3f18097152
+ms.sourcegitcommit: 0b584d40e95cbde33cee3691edadb12156d72fb5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45121529"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "49980443"
 ---
-<a name="use-content-search-in-microsoft-teams"></a>Поиск контента в Microsoft Teams
+<a name="use-content-search-in-microsoft-teams"></a>Использование поиска контента в Microsoft Teams
 =====================================
 
 > [!NOTE]
@@ -32,14 +32,14 @@ ms.locfileid: "45121529"
 
 Поиск контента позволяет запрашивать сведения в Microsoft Teams, охватывающих Exchange, SharePoint Online и OneDrive для бизнеса.
 
-Чтобы узнать больше, ознакомьтесь с [поиском контента в Microsoft 365 или Office 365.](https://support.office.com/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a)
+Подробнее см. в [поиске контента в Microsoft 365.](https://docs.microsoft.com/microsoft-365/compliance/content-search)
 
 Например, используя  поиск контента для почтового ящика производственной спецификации и сайта SharePoint по производственным спецификациям, вы можете искать беседы стандартных каналов Teams из Exchange, отправку файлов и изменения из SharePoint Online и OneNote.
 
 Вы также можете добавить условия запроса для **Поиска контента**, чтобы сузить возвращаемые результаты. В примере выше можно найти содержимое, в котором использовались ключевые слова **"New Factory Specs".**
 
 > [!TIP]
-> После добавления условий поиска вы можете экспортировать отчет или данные на компьютер для анализа.
+> После добавления условий поиска вы можете экспортировать отчет или фактическое содержимое на компьютер для анализа.
 
 ## <a name="content-search-of-private-channels"></a>Поиск контента в закрытых каналах
 
