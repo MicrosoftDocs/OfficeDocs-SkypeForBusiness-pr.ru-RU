@@ -1155,8 +1155,12 @@
           href: edu-remote-low-bandwidth.md
         - name: Мастер политики Teams для образования
           href: easy-policy-setup-edu.md
-        - name: Начало работы с Аналитикой
-          href: class-insights.md
+        - name: Аналитика образования
+          items:
+            - name: Начало работы с Аналитикой
+              href: class-insights.md
+            - name: Синхронизация данных SIS с помощью Аналитики
+              href: education-insights-sis-data-sync.md
         - name: Задания в Teams для образования
           href: expand-teams-across-your-org/assignments-in-teams.md
         - name: Ресурсы Teams для образования (администраторы)
