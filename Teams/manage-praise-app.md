@@ -3,17 +3,18 @@ title: Управление приложением "Praise" в Центре ад
 author: cichur
 ms.author: v-cichur
 manager: serdars
+ms.reviewer: adotey
 audience: admin
 ms.topic: article
 ms.service: msteams
 localization_priority: Normal
 description: Параметры администрирования в приложении "Praise" в Центре администрирования Microsoft Teams
-ms.openlocfilehash: 122e7f0ffad914e62ede56ebd1811d1504f3fcd7
-ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
+ms.openlocfilehash: acb9d000aeec61daa35421c5ded389888032873f
+ms.sourcegitcommit: d2e67f2eed7b817c2c5f76015ec11582d0e0cb9e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49909193"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "50037855"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>Управление приложением "Praise" в Центре администрирования Microsoft Teams
 
@@ -22,9 +23,9 @@ ms.locfileid: "49909193"
 
 Приложение "Благодарность" в Microsoft Teams помогает пользователям продемонстрировать признательность сотрудникам своей организации или класса. Благодаря набору эмблем на выбор и возможности создавать собственные эмблемы praise помогает распознать усилия, которые делают пользователи Teams: от преподавателей до сотрудников, работающих прямой телефон. Для получения дополнительных информации, ознакомьтесь с [отправкой praise to people.](https://support.microsoft.com/office/send-praise-to-people-50f26b47-565f-40fe-8642-5ca2a5ed261e)
 
-Администраторы могут управлять тем, какие эмблемы доступны в организации, в Центре администрирования Microsoft Teams. На левой области навигации перейдите в приложения **Teams и > управление приложениями.** В списке приложений щелкните **"Praise"** и выберите **"Параметры".**  Здесь вы можете включить наборы эмблем по умолчанию и встроенные, а также создать собственные эмблемы.
+Администраторы могут управлять тем, какие эмблемы доступны для организации в Центре администрирования Microsoft Teams. В левой области навигации перейдите в приложения **Teams и > управление приложениями.** В списке приложений нажмите кнопку **"Praise"** и выберите **"Параметры".**  Здесь вы можете включить наборы эмблем по умолчанию и встроенные, а также создать собственные эмблемы.
 
-![Снимок экрана: вкладка "Параметры" для приложения "Praise"](media/manage-praise-app-settings.png)
+![Снимок экрана вкладки "Параметры" для приложения "Praise"](media/manage-praise-app-settings.png)
 
 > [!NOTE]
 > Приложение "Praise" не доступно для облачных облаков государственных органов США.
@@ -37,15 +38,15 @@ ms.locfileid: "49909193"
 
 ### <a name="default-badges"></a>Эмблемы по умолчанию
 
-Набор эмблем по умолчанию помогает пользователям Teams распознавать своих коллег, чтобы они не только работали, но и вне себя.
+Набор эмблем по умолчанию помогает пользователям Teams распознавать своих коллег, чтобы затем работать над ними и за их пределами.
 
 ![Предварительный просмотр набора эмблем по умолчанию](media/default-set-praise.png)
 
 <a name="sel-edu-badges"></br></a>
 
-### <a name="social-and-emotional-learning-badges-for-education"></a>Эмблемы социального и эмоциональных обучения для образовательных сфере
+### <a name="social-and-emotional-learning-badges-for-education"></a>Социальные и эмоциональные индикаторы обучения для образовательных сфере
 
-Преподаватели могут распознать отдельных учащихся для достижения и поведения в области социального и эмоциональных обучения (SEL) с помощью эмблем, которые показывают эти понятия.
+Преподаватели могут распознать отдельных учащихся для достижения и поведения в социальных и эмоциональных сетях (SEL) с помощью эмблем, которые показывают эти понятия.
 
 ![Предварительный просмотр социальных и эмоциональных индикаторов обучения для образовательных сфере](media/sel-edu-set-praise.png)
 
@@ -69,7 +70,7 @@ ms.locfileid: "49909193"
 
 4. Локализование имени эмблемы: В **локализованных именах эмблем** выберите **"Добавить".** Выберите нужный локализованный в списке. Затем введите имя эмблемы на назначенном языке.
 
-5. Исключите эмблему из определенных локали: В области **"Исключение эмблемы из этих локали"** выберите **"Добавить".** Выберите в списке региональные органы, которые нужно исключить.
+5. Исключите эмблему из определенных стран: в области **"Исключение эмблемы из этих локали"** выберите **"Добавить".** Выберите в списке региональные органы, которые нужно исключить.
 
 6. Выберите **"Применить".** Новый значок появится в таблице настраиваемой эмблемы.
 
@@ -82,9 +83,9 @@ ms.locfileid: "49909193"
 
 ## <a name="specify-colors-with-hex-values"></a>Указание цветов с помощью hex-значений
 
-Шестн.значения цветов — это строки из шести шестеренки, которые представляют интенсивность красного (RR), зеленого (GG) и синего (BB) цвета в масштабе от 00 до FF. При сложении значений всех трех цветов вы получаете hex value: #RRGGBB
+Шестн.значения цветов — это строки из шести шестеренки, которые представляют интенсивность красного (RR), зеленого (GG) и синего (BB) цвета определенного цвета в масштабе от 00 до FF. При сложении значений всех трех цветов вы получаете hex value: #RRGGBB
 
-Например, hex значение красного цвета #FF0000 потому что красный — это максимально возможное значение, FF и зеленый и синий — имеют минимальное возможное значение 00.
+Например, значение в hex красного цвета #FF0000 так как красный — максимально возможное значение, FF и зеленый и синий — имеют минимальное возможное значение 00.
 
 Чтобы изучить различные цвета и их hex-значения, ознакомьтесь с палитрой [цветов Bing.](https://www.bing.com/search?q=color+picker)
 
@@ -105,11 +106,11 @@ ms.locfileid: "49909193"
 
 **Отправьте все эмблемы одновременно.** Так как обработка новых эмблем занимает некоторое время, лучше всего добавить в таблицу все настраиваемые эмблемы перед их отправкой.
 
-**При выборе цветов помните о доступности.** Одни цвета лучше остальных.  Создайте контраст между цветами текста и фона, чтобы имя эмблемы было легко читать. Например, если вы выбрали темный цвет фона, выберите светлый цвет текста.
+**При выборе цветов помните о доступности.** Одни цвета лучше остальных.  Создайте контраст между текстом и цветами фона, чтобы имя эмблемы было легко читать. Например, если вы выбрали темный цвет фона, выберите светлый цвет текста.
 
 **При выборе изображения не нужно помнить о размерах эмблемы.** Для лучшего качества рекомендуется добавить файл изображения размером 216 x 216 пикселей (это максимальный размер). Избегайте растяжения или искажения изображения в таких размерах.
 
-**Если изображение эмблемы не прямоугольное, сделайте его прозрачным.** Это необходимо сделать перед отправкой файла изображения на сайт Praise.
+**Если изображение эмблемы не прямоугольное, сделайте его прозрачным.** Это необходимо сделать перед отправкой файла изображения в praise.
 
 ![Слева: эмблема с непрозрачным изображением, справа: эмблема с прозрачным изображением](media/praise-app-best-practices.png)
 
@@ -126,7 +127,7 @@ ms.locfileid: "49909193"
 |Achiever       |[Achiever PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/achiever-badge.png)|#D36E70    |#E3F4FC|
 |Замечательно        |[Отличный PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/awesome-badge.png)</a>|#8283B2    |#D1EFF2|
 |Тренер          |[Coach PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/coach-badge.png)</a>|#6AA55A    |#DBF1D6|
-|Заме жел        |[PNG-по-разнойной (PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/courage-badge.png)</a>|#DC5041    |#FCF6C8|
+|Заметь        |[PNG-png Изве-ва](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/courage-badge.png)</a>|#DC5041    |#FCF6C8|
 |Творческий       |[Creative PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/creative-badge.png) |#CF9D50    |#FCF6C8|
 |Включительно      |[Включительно PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/inclusive-badge.png)</a>|#3C77BB    |#E2F4FC|
 |Kind Heart     |[Kind Heart PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/kind-heart-badge.png)</a>|#D36D6E    |#F4DEDE|
@@ -144,10 +145,10 @@ ms.locfileid: "49909193"
 
 |Имя эмблемы        |Файл изображения  |Цвет текста | Цвет фона |
 |------------------|------------|---------- |--------|
-|Связь     |[PNG для связи](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/communication-badge.png)|#FFFFFF    |#173B65|
+|Связь     |[Связь PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/communication-badge.png)|#FFFFFF    |#173B65|
 |Критическое мысли |[Критический анализ PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/critical-thinking-badge.png)|#FFFFFF    |#084D26|
-|1а         |[PNG-png](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/curiosity-badge.png)|#FFFFFF    |#008078|
-|Эмомбю           |[Эмопсимия PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/empathy-badge.png)|#FFFFFF    |#650B35|
+|Амино         |[PNG-png](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/curiosity-badge.png)|#FFFFFF    |#008078|
+|Эмомития           |[Эмопсийский PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/empathy-badge.png)|#FFFFFF    |#650B35|
 |Цель      |[Goal в PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/goal-pursuit-badge.png)|#FFFFFF    |#006F95|
 |Мотивация        |[Мотивация PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/motivation-badge.png)|#FFFFFF    |#C52127|
 |Сохраняемость       |[Сохранение PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/persistence-badge.png)|#FFFFFF    |#167D3E|
