@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Администратор может узнать, какие граничные контроллеры сеанса сертифицированы для прямой маршрутики.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: dc9079701fdf34ff5b48aee5f127f9f0af4a8aae
-ms.sourcegitcommit: bf4dde013689bc3e76ffb03fe763cd9ff90e0add
+ms.openlocfilehash: ab409ccc93d08c20bb4498e39f26e1cd9bde6dcb
+ms.sourcegitcommit: 2639da2c9f903a9a82866be9db2b69a705c54200
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/27/2021
-ms.locfileid: "49992430"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "50055671"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Список пограничных контроллеров сеансов, сертифицированных для прямой маршрутизации
 
@@ -85,6 +85,8 @@ ms.locfileid: "49992430"
 |                     [Ericsson](https://www.ericsson.com/en/portfolio/digital-services/cloud-communication/enterprise-communication/business-communication-services-and-enablers/sip-trunking)|    vSBC 2.16     |     &#10004;     |           |              |     |    | 
 |                     [Cataleya](https://cataleya.com/orchidplatforms/)|    Ссылка "Orchid"    |     &#10004;     |           |      3.1        |     |    | 
 |                     [ULTATEL](https://www.ultatel.com/services/direct-routing-teams-sbc)|    Teams SBC    |     &#10004;     |     &#10004;      |      1.6        |     |    | 
+|                     [Atos](https://unify.com/en/solutions/voice-platforms/session-border-controller)|    Atos Unify OpenScape Session Border Controller   |     &#10004;     |          |      10R1.2       |     |    | 
+
 
 <br/>
 <br/>
