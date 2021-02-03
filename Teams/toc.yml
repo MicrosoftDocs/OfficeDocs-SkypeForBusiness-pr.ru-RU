@@ -31,6 +31,206 @@ items:
         href: get-started-with-teams-monitor-usage-and-feedback.md
       - name: 'Шаг 4: планирование развертывания во всей организации'
         href: get-started-with-teams-resources-for-org-wide-rollout.md
+  - name: 'Безопасность, конфиденциальность и соответствие требованиям'
+    items:
+      - name: Обзор
+        href: security-compliance-overview.md
+      - name: Безопасность
+        items:
+          - name: Руководство по безопасности
+            href: teams-security-guide.md
+          - name: Azure Sentinel и Teams
+            href: teams-sentinel-guide.md
+          - name: Модели удостоверений и проверка подлинности
+            href: identify-models-authentication.md
+          - name: Вход в Microsoft Teams
+            href: sign-in-teams.md
+          - name: Безопасные ссылки в Teams
+            href: 'https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links-for-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
+          - name: Политики управления приложениями AppLocker
+            href: applocker-in-teams.md
+          - name: Блокировка доступа к SharePoint
+            href: block-access-sharepoint.md
+      - name: Соответствие требованиям
+        items:
+          - name: Информационные барьеры
+            href: information-barriers-in-teams.md
+          - name: Политики хранения
+            href: retention-policies.md
+          - name: Соответствие требованиям к обмену данными
+            href: communication-compliance.md
+          - name: Запись на основе политики для звонков и собраний
+            href: teams-recording-policy.md
+          - name: Метки конфиденциальности
+            href: sensitivity-labels.md
+          - name: Защита от потери данных
+            href: 'https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
+          - name: Обнаружение электронных данных
+            href: ediscovery-investigation.md
+          - name: Удержание по юридическим причинам
+            href: legal-hold.md
+          - name: Поиск контента
+            href: content-search.md
+          - name: Аудит
+            href: audit-log-events.md
+          - name: Ключ клиента на уровне клиента для Teams
+            href: 'https://docs.microsoft.com/microsoft-365/compliance/customer-key-tenant-level?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
+      - name: Конфиденциальность
+        items:
+          - name: Конфиденциальность и Microsoft Teams
+            href: teams-privacy.md
+          - name: Принципы сбора данных
+            href: data-collection-practices.md
+          - name: Расположение данных в Teams
+            href: location-of-data-in-teams.md
+          - name: Блокировка доступа к SharePoint Online для определенных пользователей
+            href: block-access-sharepoint.md
+          - name: Общие сведения об управлении политикой
+            href: policy-control-overview.md
+          - name: Диагностические данные мобильных устройств
+            href: policy-control-diagnostic-data-mobile.md
+          - name: Диагностические данные клиента для настольных ПК
+            href: policy-control-diagnostic-data-desktop.md
+          - name: Необязательные подключенные возможности
+            href: teams-privacy-oce-overview.md
+  - name: Управление и отслеживание Teams
+    items:
+      - name: Обзор
+        href: manage-teams-overview.md
+      - name: Роли администратора
+        href: using-admin-roles.md
+      - name: "Управление Teams при переходе на новую версию Центра администрирования Microsoft\_Teams"
+        href: manage-teams-skypeforbusiness-admin-center.md
+      - name: "Управление Teams в Центре администрирования Microsoft\_Teams"
+        href: manage-teams-in-modern-portal.md
+      - name: Управление параметрами Teams в организации
+        href: enable-features-office-365.md
+      - name: Управление политиками
+        items:
+          - name: Назначение политик пользователям
+            href: assign-policies.md
+          - name: Просмотр назначений политик в журнале действий
+            href: activity-log.md
+          - name: Управление политиками разрешений для приложений в Teams
+            href: teams-app-permission-policies.md
+          - name: Управление политиками настройки приложений в Teams
+            href: teams-app-setup-policies.md
+          - name: Управление пользовательскими политиками и параметрами приложений в Teams
+            href: teams-custom-app-policies-and-settings.md
+          - name: Управление политиками отзывов в Teams
+            href: manage-feedback-policies-in-teams.md
+          - name: Управление пакетами политик в Teams
+            href: manage-policy-packages.md
+      - name: Общение с внешними пользователями
+        items:
+          - name: Общение с пользователями из других организаций
+            href: communicate-with-users-from-other-organizations.md
+          - name: Внешний доступ (федерация)
+            items:
+              - name: Управление внешним доступом
+                href: manage-external-access.md
+              - name: Встроенный чат Teams для внешних пользователей
+                href: native-chat-for-external-users.md
+              - name: Взаимодействие Teams и Skype
+                href: teams-skype-interop.md
+          - name: Гостевой доступ
+            items:
+              - name: О гостевом доступе
+                href: guest-access.md
+              - name: Контрольный список гостевого доступа
+                href: 'https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team'
+              - name: Работа в режиме гостевого доступа
+                href: guest-experience.md
+              - name: Авторизация гостевого доступа
+                href: teams-dependencies.md
+              - name: Включение и отключение гостевого доступа
+                href: set-up-guests.md
+              - name: Добавление гостя в команду
+                href: view-guests.md
+              - name: Изменение сведений гостевого пользователя
+                href: edit-guests-information.md
+              - name: Устранение неполадок гостевого доступа
+                href: troubleshoot-guest-access.md
+      - name: Отслеживание качества звонка и управление им
+        items:
+          - name: Отслеживание и улучшение качества звонка
+            href: monitor-call-quality-qos.md
+          - name: Панель мониторинга качества звонка (ПМКЗ)
+            items:
+              - name: Что такое ПМКЗ?
+                href: CQD-what-is-call-quality-dashboard.md
+              - name: Настройка ПМКЗ
+                href: turning-on-and-using-call-quality-dashboard.md
+              - name: Отправка клиента и создание данных
+                href: CQD-upload-tenant-building-data.md
+              - name: Данные и отчеты ПМКЗ
+                href: CQD-data-and-reports.md
+              - name: Использование ПМКЗ для управления качеством звонков и собраний
+                href: quality-of-experience-review-guide.md
+              - name: Вопросы и ответы
+                href: CQD-frequently-asked-questions.md
+              - name: Измерения и меры на ПМКЗ
+                href: dimensions-and-measures-available-in-call-quality-dashboard.md
+              - name: Классификация потоков в ПМКЗ
+                href: stream-classification-in-call-quality-dashboard.md
+              - name: Создание карты здания
+                href: CQD-building-mapping.md
+              - name: Использование Power BI для анализа данных ПМКЗ
+                items:
+                  - name: Использование Power BI для анализа данных ПМКЗ
+                    href: CQD-Power-BI-query-templates.md
+                  - name: Установка соединителя Power BI для использования шаблонов запросов ПМКЗ
+                    href: CQD-Power-BI-connector.md
+                  - name: Получение данных ПМКЗ об использовании Teams
+                    href: CQD-teams-utilization-report.md
+                  - name: Использование отчета прямой маршрутизации ПМКЗ по ТСОП
+                    href: CQD-PSTN-report.md
+          - name: Аналитика звонков
+            items:
+              - name: Настройка аналитики звонков
+                href: set-up-call-analytics.md
+              - name: Использование аналитики звонков для устранения проблем с качеством звонка
+                href: use-call-analytics-to-troubleshoot-poor-call-quality.md
+          - name: Качество обслуживания (QoS)
+            items:
+              - name: Настройка качества обслуживания в Teams
+                href: QoS-in-Teams.md
+              - name: Настройка качества обслуживания в клиентах Windows
+                href: QoS-in-Teams-clients.md
+      - name: Использование службы
+        href: upgrade-operate-my-service.md
+      - name: Улучшение службы
+        href: upgrade-enhance-my-service.md
+      - name: Использование встроенного перевода сообщений
+        href: inline-message-translation-teams.md
+      - name: "Область поиска в каталоге Microsoft\_Teams"
+        href: teams-scoped-directory-search.md
+      - name: 'Вопросы и ответы: поддержка удаленных сотрудников'
+        href: FAQ-support-remote-workforce.md
+      - name: Отчеты
+        items:
+          - name: Отчеты об активности в Центре администрирования Microsoft 365
+            href: teams-activity-reports.md
+          - name: Аналитика и отчеты в центре администрирования Teams
+            items:
+              - name: Обзор
+                href: teams-analytics-and-reports/teams-reporting-reference.md
+              - name: Отчет об использовании Teams
+                href: teams-analytics-and-reports/teams-usage-report.md
+              - name: Отчет по активности пользователей Teams
+                href: teams-analytics-and-reports/user-activity-report.md
+              - name: Отчет об использовании приложения Teams
+                href: teams-analytics-and-reports/app-usage-report.md
+              - name: Отчет об использовании устройств в Teams
+                href: teams-analytics-and-reports/device-usage-report.md
+              - name: Отчет о заблокированных пользователях ТСОП
+                href: teams-analytics-and-reports/pstn-blocked-users-report.md
+              - name: 'Отчет о пулах минут, затраченных по ТСОП'
+                href: teams-analytics-and-reports/pstn-minute-pools-report.md
+              - name: Отчет об использовании ТСОП
+                href: teams-analytics-and-reports/pstn-usage-report.md
+              - name: Отчет об использовании трансляций в Teams
+                href: teams-analytics-and-reports/teams-live-event-usage-report.md
   - name: 'Чат, команды и каналы'
     items:
       - name: Планирование развертывания
@@ -129,110 +329,6 @@ items:
                 href: troubleshoot-guest-access.md
       - name: Кортана в Teams
         href: cortana-in-teams.md
-      - name: Управление Teams
-        items:
-          - name: Роли администратора
-            href: using-admin-roles.md
-          - name: Управление параметрами Teams в организации
-            href: enable-features-office-365.md
-          - name: "Управление Teams при переходе на новую версию Центра администрирования Microsoft\_Teams"
-            href: manage-teams-skypeforbusiness-admin-center.md
-          - name: "Управление Teams в Центре администрирования Microsoft\_Teams"
-            href: manage-teams-in-modern-portal.md
-          - name: Назначение владельцев и участников команд в Teams
-            href: assign-roles-permissions.md
-          - name: Назначение политик пользователям
-            href: assign-policies.md
-          - name: Просмотр назначений политик в журнале действий
-            href: activity-log.md
-          - name: Управление политиками разрешений для приложений в Teams
-            href: teams-app-permission-policies.md
-          - name: Управление политиками настройки приложений в Teams
-            href: teams-app-setup-policies.md
-          - name: Управление пользовательскими политиками и параметрами приложений в Teams
-            href: teams-custom-app-policies-and-settings.md
-          - name: Управление политиками отзывов в Teams
-            href: manage-feedback-policies-in-teams.md
-          - name: Управление пакетами политик в Teams
-            href: manage-policy-packages.md
-          - name: Настройка приложения "Собрания Skype" для работы с Teams
-            href: configure-skype-meetings-app-to-work-with-teams.md
-          - name: Управление внешним доступом
-            href: manage-external-access.md
-          - name: Использование встроенного перевода сообщений
-            href: inline-message-translation-teams.md
-          - name: "Область поиска в каталоге Microsoft\_Teams"
-            href: teams-scoped-directory-search.md
-          - name: Аналитика и отчеты в центре администрирования Teams
-            items:
-              - name: Обзор
-                href: teams-analytics-and-reports/teams-reporting-reference.md
-              - name: Отчет об использовании Teams
-                href: teams-analytics-and-reports/teams-usage-report.md
-              - name: Отчет по активности пользователей Teams
-                href: teams-analytics-and-reports/user-activity-report.md
-              - name: Отчет об использовании приложения Teams
-                href: teams-analytics-and-reports/app-usage-report.md
-              - name: Отчет об использовании устройств в Teams
-                href: teams-analytics-and-reports/device-usage-report.md
-              - name: Отчет о заблокированных пользователях ТСОП
-                href: teams-analytics-and-reports/pstn-blocked-users-report.md
-              - name: 'Отчет о пулах минут, затраченных по ТСОП'
-                href: teams-analytics-and-reports/pstn-minute-pools-report.md
-              - name: Отчет об использовании ТСОП
-                href: teams-analytics-and-reports/pstn-usage-report.md
-              - name: Отчет об использовании трансляций в Teams
-                href: teams-analytics-and-reports/teams-live-event-usage-report.md
-          - name: Отчеты об активности Teams в Центре администрирования Microsoft 365
-            href: teams-activity-reports.md
-  - name: 'Приложения, боты и соединители'
-    items:
-      - name: Обзор
-        href: deploy-apps-microsoft-teams-landing-page.md
-      - name: Интеграция с Power Platform
-        href: teams-power-platfom-integration.md
-      - name: Управление приложениями для Teams
-        href: manage-apps.md
-      - name: Параметры администратора для приложений в Teams
-        href: admin-settings.md
-      - name: Использование встроенных и настраиваемых вкладок
-        href: built-in-custom-tabs.md
-      - name: "Использование Microsoft 365 или Office\_365 и настраиваемых соединителей"
-        href: Office-365-custom-connectors.md
-      - name: Согласие для определенных ресурсов
-        href: resource-specific-consent.md
-      - name: Пользовательские приложения
-        items:
-          - name: 'Публикация настраиваемого приложения, отправленного с помощью API передачи приложений Teams'
-            href: submit-approve-custom-apps.md
-          - name: "Управление приложениями Power Platform в Центре администрирования Microsoft\_Teams."
-            href: manage-power-platform-apps.md
-          - name: Публикация настраиваемого приложения путем отправки пакета приложений
-            href: upload-custom-apps.md
-          - name: Магазин настраиваемых приложений
-            href: customize-your-app-store.md
-      - name: Сертификация приложения
-        href: /teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
-      - name: Просмотр разрешений для приложений и предоставление разрешения администратора в центре администрирования Microsoft Teams
-        href: app-permissions-admin-center.md
-      - name: Разрешения и рекомендации для приложений
-        href: app-permissions.md
-      - name: Приобретение услуг для сторонних приложений Teams
-        href: purchase-third-party-apps.md
-      - name: Шаблоны приложений для Teams
-        href: 'https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
-      - name: Управление приложением Lists для организации в Teams
-        href: manage-lists-app.md
-      - name: Управление приложением "Задачи" для организации
-        href: manage-tasks-app.md
-      - name: Настройка иерархии целей для команды
-        href: set-up-your-team-hierarchy.md
-      - name: Управление приложением "Благодарность" в Центре администрирования Teams
-        href: manage-praise-app.md
-      - name: Настройка приложения "Собрания Skype" для работы с Teams
-        href: configure-skype-meetings-app-to-work-with-teams.md
-      - name: Доступность приложения "Утверждения" Teams
-        href: approval-admin.md
   - name: Собрания и конференции
     items:
       - name: "Краткое руководство\_— собрания и трансляции"
@@ -347,6 +443,8 @@ items:
         href: teams-contact-center.md
       - name: "Использование надстройки \"Собрание\_Teams\" в\_Outlook"
         href: teams-add-in-for-outlook.md
+      - name: Настройка приложения "Собрания Skype" для работы с Teams
+        href: configure-skype-meetings-app-to-work-with-teams.md
       - name: Настройка функции "Позвонить мне" для пользователей
         href: set-up-the-call-me-feature-for-your-users.md
       - name: Получение отчета о присутствии на собрании
@@ -882,6 +980,102 @@ items:
             items:
               - name: Планирование взаимодействия с пользователями
                 href: 5-envision-plan-my-users-experience.md
+  - name: Голосовая связь Microsoft 365 бизнес
+    items:
+      - name: Что такое голосовая связь Microsoft 365 бизнес?
+        href: business-voice/whats-business-voice.md
+      - name: Доступность в странах и регионах
+        href: business-voice/country-region-availability.md
+      - name: Что нужно знать перед приобретением
+        items:
+          - name: 'Что нужно приобрести, чтобы получить корпоративную голосовую связь'
+            href: business-voice/what-to-buy.md
+          - name: Обратитесь за помощью к торговому посреднику или партнеру
+            href: business-voice/reseller-partner-support.md
+          - name: Проверка подключения к Интернету
+            href: business-voice/get-ready-internet.md
+          - name: Подготовка пользователей
+            href: business-voice/prepare-users.md
+      - name: Запуск мастера начальной настройки
+        href: business-voice/use-getting-started-wizard.md
+      - name: Что необходимо сделать
+        href: business-voice/things-to-try.md
+      - name: Настройка установки
+        items:
+          - name: Параметры настройки
+            href: business-voice/customize-business-voice.md
+          - name: Перенос номеров телефонов
+            href: business-voice/port-phone-numbers.md
+          - name: Настройка политик звонков
+            href: business-voice/set-up-policies.md
+          - name: Управление пакетами политик
+            href: business-voice/policy-packages.md
+          - name: Создание дополнительных пользователей
+            href: business-voice/create-users.md
+          - name: Настройка очереди вызовов
+            href: business-voice/create-a-phone-system-call-queue-smb.md
+          - name: Настройка автосекретаря
+            href: business-voice/create-a-phone-system-auto-attendant-smb.md
+      - name: Управление настройкой
+        items:
+          - name: Создание одного или нескольких пользователей
+            href: business-voice/create-users.md
+          - name: Управление устройствами
+            href: business-voice/manage-devices.md
+          - name: Отслеживание качества звонка
+            href: business-voice/monitor-quality.md
+          - name: Панель мониторинга качества звонка
+            href: business-voice/analytics-dashboard.md
+      - name: Ресурсы партнеров
+        href: business-voice/partner-resources.md
+  - name: 'Приложения, боты и соединители'
+    items:
+      - name: Обзор
+        href: deploy-apps-microsoft-teams-landing-page.md
+      - name: Интеграция с Power Platform
+        href: teams-power-platfom-integration.md
+      - name: Управление приложениями для Teams
+        href: manage-apps.md
+      - name: Параметры администратора для приложений в Teams
+        href: admin-settings.md
+      - name: Использование встроенных и настраиваемых вкладок
+        href: built-in-custom-tabs.md
+      - name: "Использование Microsoft 365 или Office\_365 и настраиваемых соединителей"
+        href: Office-365-custom-connectors.md
+      - name: Согласие для определенных ресурсов
+        href: resource-specific-consent.md
+      - name: Пользовательские приложения
+        items:
+          - name: 'Публикация настраиваемого приложения, отправленного с помощью API передачи приложений Teams'
+            href: submit-approve-custom-apps.md
+          - name: "Управление приложениями Power Platform в Центре администрирования Microsoft\_Teams."
+            href: manage-power-platform-apps.md
+          - name: Публикация настраиваемого приложения путем отправки пакета приложений
+            href: upload-custom-apps.md
+          - name: Магазин настраиваемых приложений
+            href: customize-your-app-store.md
+      - name: Сертификация приложения
+        href: /teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
+      - name: Просмотр разрешений для приложений и предоставление разрешения администратора в центре администрирования Microsoft Teams
+        href: app-permissions-admin-center.md
+      - name: Разрешения и рекомендации для приложений
+        href: app-permissions.md
+      - name: Приобретение услуг для сторонних приложений Teams
+        href: purchase-third-party-apps.md
+      - name: Шаблоны приложений для Teams
+        href: 'https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
+      - name: Управление приложением Lists для организации в Teams
+        href: manage-lists-app.md
+      - name: Управление приложением "Задачи" для организации
+        href: manage-tasks-app.md
+      - name: Настройка иерархии целей для команды
+        href: set-up-your-team-hierarchy.md
+      - name: Управление приложением "Благодарность" в Центре администрирования Teams
+        href: manage-praise-app.md
+      - name: Настройка приложения "Собрания Skype" для работы с Teams
+        href: configure-skype-meetings-app-to-work-with-teams.md
+      - name: Доступность приложения "Утверждения" Teams
+        href: approval-admin.md
   - name: Внедрение
     items:
       - name: Обзор
@@ -1044,54 +1238,6 @@ items:
             href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-aad-connect'
       - name: Интеграция с Exchange и SharePoint
         href: 'https://docs.microsoft.com/SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint'
-  - name: Голосовая связь Microsoft 365 бизнес
-    items:
-      - name: Что такое голосовая связь Microsoft 365 бизнес?
-        href: business-voice/whats-business-voice.md
-      - name: Доступность в странах и регионах
-        href: business-voice/country-region-availability.md
-      - name: Что нужно знать перед приобретением
-        items:
-          - name: 'Что нужно приобрести, чтобы получить корпоративную голосовую связь'
-            href: business-voice/what-to-buy.md
-          - name: Обратитесь за помощью к торговому посреднику или партнеру
-            href: business-voice/reseller-partner-support.md
-          - name: Проверка подключения к Интернету
-            href: business-voice/get-ready-internet.md
-          - name: Подготовка пользователей
-            href: business-voice/prepare-users.md
-      - name: Запуск мастера начальной настройки
-        href: business-voice/use-getting-started-wizard.md
-      - name: Что необходимо сделать
-        href: business-voice/things-to-try.md
-      - name: Настройка установки
-        items:
-          - name: Параметры настройки
-            href: business-voice/customize-business-voice.md
-          - name: Перенос номеров телефонов
-            href: business-voice/port-phone-numbers.md
-          - name: Настройка политик звонков
-            href: business-voice/set-up-policies.md
-          - name: Управление пакетами политик
-            href: business-voice/policy-packages.md
-          - name: Создание дополнительных пользователей
-            href: business-voice/create-users.md
-          - name: Настройка очереди вызовов
-            href: business-voice/create-a-phone-system-call-queue-smb.md
-          - name: Настройка автосекретаря
-            href: business-voice/create-a-phone-system-auto-attendant-smb.md
-      - name: Управление настройкой
-        items:
-          - name: Создание одного или нескольких пользователей
-            href: business-voice/create-users.md
-          - name: Управление устройствами
-            href: business-voice/manage-devices.md
-          - name: Отслеживание качества звонка
-            href: business-voice/monitor-quality.md
-          - name: Панель мониторинга качества звонка
-            href: business-voice/analytics-dashboard.md
-      - name: Ресурсы партнеров
-        href: business-voice/partner-resources.md
   - name: Руководство для отраслей и государственных организаций
     items:
       - name: Обзор
@@ -1214,124 +1360,9 @@ items:
             href: audio-conferencing-with-direct-routing-for-gcch-and-dod.md
           - name: Пакеты политик Teams для государственных организаций
             href: policy-packages-gov.md
-  - name: 'Безопасность, конфиденциальность и соответствие требованиям'
+  - name: Устранение неполадок
+    href: 'https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams'
     items:
-      - name: Обзор
-        href: security-compliance-overview.md
-      - name: Безопасность
-        items:
-          - name: Руководство по безопасности
-            href: teams-security-guide.md
-          - name: Azure Sentinel и Teams
-            href: teams-sentinel-guide.md
-          - name: Модели удостоверений и проверка подлинности
-            href: identify-models-authentication.md
-          - name: Вход в Microsoft Teams
-            href: sign-in-teams.md
-          - name: Безопасные ссылки в Teams
-            href: 'https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links-for-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
-          - name: Политики управления приложениями AppLocker
-            href: applocker-in-teams.md
-          - name: Блокировка доступа к SharePoint
-            href: block-access-sharepoint.md
-      - name: Соответствие требованиям
-        items:
-          - name: Информационные барьеры
-            href: information-barriers-in-teams.md
-          - name: Политики хранения
-            href: retention-policies.md
-          - name: Соответствие требованиям к обмену данными
-            href: communication-compliance.md
-          - name: Запись на основе политики для звонков и собраний
-            href: teams-recording-policy.md
-          - name: Метки конфиденциальности
-            href: sensitivity-labels.md
-          - name: Защита от потери данных
-            href: 'https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
-          - name: Обнаружение электронных данных
-            href: ediscovery-investigation.md
-          - name: Удержание по юридическим причинам
-            href: legal-hold.md
-          - name: Поиск контента
-            href: content-search.md
-          - name: Аудит
-            href: audit-log-events.md
-          - name: Экспорт контента с помощью API экспорта Microsoft Teams
-            href: export-teams-content.md
-          - name: Ключ клиента на уровне клиента для Teams
-            href: 'https://docs.microsoft.com/microsoft-365/compliance/customer-key-tenant-level?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
-      - name: Конфиденциальность
-        items:
-          - name: Конфиденциальность и Microsoft Teams
-            href: teams-privacy.md
-          - name: Принципы сбора данных
-            href: data-collection-practices.md
-          - name: Расположение данных в Teams
-            href: location-of-data-in-teams.md
-          - name: Блокировка доступа к SharePoint Online для определенных пользователей
-            href: block-access-sharepoint.md
-          - name: Общие сведения об управлении политикой
-            href: policy-control-overview.md
-          - name: Диагностические данные мобильных устройств
-            href: policy-control-diagnostic-data-mobile.md
-          - name: Диагностические данные клиента для настольных ПК
-            href: policy-control-diagnostic-data-desktop.md
-          - name: Необязательные подключенные возможности
-            href: teams-privacy-oce-overview.md
-  - name: 'Отслеживание, управление и устранение неполадок'
-    items:
-      - name: Использование службы
-        href: upgrade-operate-my-service.md
-      - name: Улучшение службы
-        href: upgrade-enhance-my-service.md
-      - name: Отслеживание качества звонка и управление им
-        items:
-          - name: Отслеживание и улучшение качества звонка
-            href: monitor-call-quality-qos.md
-          - name: Панель мониторинга качества звонка (ПМКЗ)
-            items:
-              - name: Что такое ПМКЗ?
-                href: CQD-what-is-call-quality-dashboard.md
-              - name: Настройка ПМКЗ
-                href: turning-on-and-using-call-quality-dashboard.md
-              - name: Отправка клиента и создание данных
-                href: CQD-upload-tenant-building-data.md
-              - name: Данные и отчеты ПМКЗ
-                href: CQD-data-and-reports.md
-              - name: Использование ПМКЗ для управления качеством звонков и собраний
-                href: quality-of-experience-review-guide.md
-              - name: Вопросы и ответы
-                href: CQD-frequently-asked-questions.md
-              - name: Измерения и меры на ПМКЗ
-                href: dimensions-and-measures-available-in-call-quality-dashboard.md
-              - name: Классификация потоков в ПМКЗ
-                href: stream-classification-in-call-quality-dashboard.md
-              - name: Создание карты здания
-                href: CQD-building-mapping.md
-              - name: Использование Power BI для анализа данных ПМКЗ
-                items:
-                  - name: Использование Power BI для анализа данных ПМКЗ
-                    href: CQD-Power-BI-query-templates.md
-                  - name: Установка соединителя Power BI для использования шаблонов запросов ПМКЗ
-                    href: CQD-Power-BI-connector.md
-                  - name: Получение данных ПМКЗ об использовании Teams
-                    href: CQD-teams-utilization-report.md
-                  - name: Использование отчета прямой маршрутизации ПМКЗ по ТСОП
-                    href: CQD-PSTN-report.md
-          - name: Аналитика звонков
-            items:
-              - name: Настройка аналитики звонков
-                href: set-up-call-analytics.md
-              - name: Использование аналитики звонков для устранения проблем с качеством звонка
-                href: use-call-analytics-to-troubleshoot-poor-call-quality.md
-          - name: Качество обслуживания (QoS)
-            items:
-              - name: Настройка качества обслуживания в Teams
-                href: QoS-in-Teams.md
-              - name: Настройка качества обслуживания в клиентах Windows
-                href: QoS-in-Teams-clients.md
-      - name: Устранение неполадок с Teams
-        href: 'https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams'
       - name: Устранение неполадок при установке и обновлении
         href: troubleshoot-installation.md
       - name: Устранение проблем связи с клиентом Teams
@@ -1340,8 +1371,6 @@ items:
         href: legacy-login-issues.md
       - name: Использование файлов журналов для устранения неполадок в Teams
         href: log-files.md
-      - name: 'Вопросы и ответы: поддержка удаленных сотрудников'
-        href: FAQ-support-remote-workforce.md
       - name: Проверка работоспособности службы для Teams
         href: service-health.md
       - name: Обращение в службу поддержки продуктов для бизнеса. Справка для администраторов

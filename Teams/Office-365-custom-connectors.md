@@ -17,12 +17,12 @@ description: Соединители предоставляют команде а
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 3b7847ce2aba9a155622e83a6c0449cc1b6b1a39
-ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
+ms.openlocfilehash: 908469913944aea2a27feb8a35b0e5e5620aae3f
+ms.sourcegitcommit: 44de1da5617f57f8c37780ad3451c0128f60b1f8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48177219"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "50076421"
 ---
 <a name="use-microsoft-365-and-custom-connectors-in-microsoft-teams"></a>Использование Microsoft 365 и настраиваемые соединители в Microsoft Teams
 =======================================================
@@ -58,7 +58,21 @@ ms.locfileid: "48177219"
     > [!div class="mx-imgBorder"]
     > ![Снимок экрана интерфейса Teams с беседой в канале.](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image4.png)
 
+<!---Delete this section after customer migration to new Webhook URL is complete--->
+> [!IMPORTANT]
+> **Уведомление об обновлении URL-адреса соединителя**
+>
+> Соединители Teams переходят на новый URL-адрес для повышения безопасности. В ходе этого перехода вы будете получать определенные уведомления об обновлении настроенного соединителя для использования нового URL-адреса. Настоятельно рекомендуется немедленно обновить соединители, чтобы предотвратить прерываемую работы служб соединитегории. Чтобы обновить URL-адрес, необходимо предпринять следующие действия:
+> 1. На странице конфигурации соединитеителей под кнопкой "Управление" для подключений, которые необходимо обновить, отобразилось сообщение "Требуется внимание".
+> ![Снимок экрана: сообщение "Требуется внимание".](media/Teams_Attention_Required_message.png)
+> 2. При входящих соединителях webhook пользователи могут  воссоздать подключение, просто выбрав "Обновить URL-адрес" и используя только что созданный URL-адрес веб-сайта.
+> ![Снимок экрана: кнопка "Обновить URL-адрес".](media/Teams_update_URL_button.png)
+> 3. Для других типов соединитегорий пользователю потребуется удалить соедините отчетность и воссоздать конфигурацию.
+> 4. После успешного обновления URL-адреса вы увидите сообщение "URL-адрес обновлен".
+> ![Снимок экрана: сообщение "URL-адрес является последние".](media/Teams_URL_up_to_date.png)
+
+
 <a name="develop-custom-connectors"></a>Разработка настраиваемых соединителей
 ----------------------------
 
-Вы также можете создавать пользовательские соединители, а также входящие и исходящую веб-службы. Дополнительные сведения см. в [документации для разработчиков](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors).
+Вы также можете создавать пользовательские соединители, а также входящие и исходяющие веб-сайты. Дополнительные сведения см. в [документации для разработчиков](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors).
