@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f4ea2d747d40c221d9e99b51fc7b15da8e2cdd12
-ms.sourcegitcommit: 04eba352d9e203aa9cd1282c4f4c7158a0469678
+ms.openlocfilehash: 9c99bed1ef9a1862b469dd5214b8d829bde8479b
+ms.sourcegitcommit: 15c45befbee35e69f9ec82493151cb82e61da4fb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/23/2021
-ms.locfileid: "49944604"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "50096932"
 ---
 # <a name="export-content-with-the-microsoft-teams-export-apis"></a>Экспорт контента с помощью API экспорта Microsoft Teams
 
@@ -37,7 +37,7 @@ API экспорта Teams позволяют экспортировать 1:1, 
 ## <a name="what-is-supported-by-the-teams-export-apis"></a>Какие API экспорта Teams поддерживаются?
 
 - **Массовый экспорт сообщений Teams:** С помощью API-приложений Teams можно экспортировать до 200 RPS на одного клиента и до 600 RPS для приложения, при этом вы сможете массово экспортировать сообщения Teams.
-- **Контекст приложения.** Чтобы позвонить в Microsoft Graph, приложение должно получить маркер доступа на платформе удостоверений Майкрософт. Маркер доступа содержит сведения о вашем приложении и его разрешениях для ресурсов и API, доступных в Microsoft Graph. Чтобы получить маркер доступа, ваше приложение должно быть зарегистрировано в платформе удостоверений Майкрософт и авторизованно пользователем или администратором для доступа к нужным ресурсам Microsoft Graph.
+- **Контекст приложения.** Чтобы позвонить в Microsoft Graph, приложение должно получить маркер доступа на платформе удостоверений Майкрософт. Маркер доступа содержит сведения о вашем приложении и его разрешениях для ресурсов и API, которые доступны в Microsoft Graph. Чтобы получить маркер доступа, ваше приложение должно быть зарегистрировано в платформе удостоверений Майкрософт и авторизованно пользователем или администратором для доступа к нужным ресурсам Microsoft Graph.
 
     Если вы уже знакомы с интеграцией приложения с платформой удостоверений [](https://docs.microsoft.com/graph/auth/auth-concepts?view=graph-rest-1.0#next-steps) Майкрософт для получения маркеров, ознакомьтесь с информацией и образцами для Microsoft Graph в разделе "Дальнейшие действия".
 - **Гибридная среда:** Экспорт API поддерживают сообщения, отправленные пользователями, которые работают в гибридной среде (локальной среде Exchange и Teams). Все сообщения, отправленные пользователями, настроенными для гибридной среды, будут доступны с помощью API экспорта.
@@ -50,37 +50,37 @@ API экспорта Teams позволяют экспортировать 1:1, 
 - **Пример 1** — это простой запрос для извлечения всех сообщений пользователя или группы без фильтров:
 
     ```HTTP
-    GET https://graph.microsoft.com/beta/users/{id}/chats/allMessages
+    GET https://graph.microsoft.com/beta/users/{id}/chats/getallMessages
     ```
      ```HTTP
-    GET https://graph.microsoft.com/beta/teams/{id}/channels/allMessages
+    GET https://graph.microsoft.com/beta/teams/{id}/channels/getallMessages
     ```
 
-- **Пример 2** — это пример запроса для извлечения всех сообщений пользователя или группы с помощью фильтров по дате и первых 50 сообщений:
+- **Пример 2** — это пример запроса для извлечения всех сообщений пользователя или группы с помощью фильтров по дате и первых 50 сообщений.
 
     ```HTTP
-    GET https://graph.microsoft.com/beta/users/{id}/chats/allMessages?$top=50&$filter=lastModifiedDateTime gt 2020-06-04T18:03:11.591Z and lastModifiedDateTime lt 2020-06-05T21:00:09.413Z
+    GET https://graph.microsoft.com/beta/users/{id}/chats/getallMessages?$top=50&$filter=lastModifiedDateTime gt 2020-06-04T18:03:11.591Z and lastModifiedDateTime lt 2020-06-05T21:00:09.413Z
     ```
-```HTTP
-    GET https://graph.microsoft.com/beta/teams/{id}/channels/allMessages?$top=50&$filter=lastModifiedDateTime gt 2020-06-04T18:03:11.591Z and lastModifiedDateTime lt 2020-06-05T21:00:09.413Z
+    ```HTTP
+    GET https://graph.microsoft.com/beta/teams/{id}/channels/getallMessages?$top=50&$filter=lastModifiedDateTime gt 2020-06-04T18:03:11.591Z and lastModifiedDateTime lt 2020-06-05T21:00:09.413Z
     ```
 >[!NOTE]
->The API returns response with next page link in case of multiple results. For getting next set of results, simply call GET on the url from @odata.nextlink. If @odata.nextlink is not present or null then all messages are retrieved.
+>API возвращает ответ со ссылкой на следующую страницу на случай нескольких результатов. Чтобы получить следующий набор результатов, просто позвоните get по URL-адресу @odata.nextlink. Если @odata.nextlink нет или NULL, будут восстановлены все сообщения.
 
-## Prerequisites to access Teams Export APIs 
+## <a name="prerequisites-to-access-teams-export-apis"></a>Необходимые условия для доступа к API экспорта Teams 
 
-- Teams Export APIs are currently in preview. It will only be available to users and tenants that have the [required licenses](https://aka.ms/teams-changenotification-licenses) for APIs. In the future, Microsoft may require you or your customers to pay additional fees based on the amount of data accessed through the API.
-- Microsoft Teams APIs in Microsoft Graph that access sensitive data are considered protected APIs. Export APIs require that you have additional validation, beyond permissions and consent, before you can use them. To request access to these protected APIs, complete the [request form](https://aka.ms/teamsgraph/requestaccess).
-- Application permissions are used by apps that run without a signed-in user present; application permissions can only be consented by an administrator. The following permissions are needed:
+- API экспорта Teams в настоящее время находятся в предварительной версии. Оно будет доступно только пользователям и клиентам с [требуемой лицензией](https://aka.ms/teams-changenotification-licenses) на API. В будущем корпорация Майкрософт может потребовать от вас или ваших клиентов оплаты дополнительных сборов в зависимости от объема данных, полученных через API.
+- API Microsoft Teams в Microsoft Graph, которые имеют доступ к конфиденциальным данным, считаются защищенными API. Для экспорта API требуется дополнительная проверка, помимо разрешений и согласия, перед использованием. Чтобы запросить доступ к этим защищенным API, заполните [форму запроса.](https://aka.ms/teamsgraph/requestaccess)
+- Разрешения приложений используются приложениями, которые работают без участия пользователя, в который не был в сети пользователь. разрешения на использование приложений может получить только администратор. Необходимы следующие разрешения:
 
-    - *Chat.Read.All*: enables access to all 1:1 and Group chat messages 
-    - *User.Read.All*: enables access to the list of users for a tenant 
+    - *Chat.Read.All*: позволяет получать доступ ко всем 1:1 и групповым чатам 
+    - *User.Read.All:* доступ к списку пользователей для клиента 
 
-## JSON representation
+## <a name="json-representation"></a>Представление JSON
 
-The following example is a JSON representation of the resource:
+Следующий пример — представление ресурса Скайп Скайп по JSON:
 
-Namespace: microsoft.graph
+Пространство имен: microsoft.graph
 
 ```JSON
 {
