@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ebdadd024de9e12ec242ab76189eb611520ceb59
-ms.sourcegitcommit: d6e97621b1bfe9c3fbd8bc41b30a94bafd17b28f
+ms.openlocfilehash: 103cee02138cbfef4c4e19b5c75a1741d1bf62ed
+ms.sourcegitcommit: ac73536f790f83a61eeb2eb8c6b71662f7bd26fc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2021
-ms.locfileid: "49973073"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50110212"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Ограничения и спецификации для Microsoft Teams
 
@@ -57,7 +57,7 @@ ms.locfileid: "49973073"
 
 <sup>4</sup> 28 КБ — это приблизительное ограничение, так как оно включает само сообщение (текст, ссылки на изображения и т. д.), @упоминания, число соединителей и реакции.
 
-<sup>5</sup> Команды в GCC могут состоять только из участников, а в GCCH или DoD — только из 2 500 участников.
+<sup>5</sup> Команды в GCC могут состоять только из 5 000 участников, а в GCCH или DoD только из 2 500.
 
 ## <a name="messaging"></a>Обмен сообщениями
 
