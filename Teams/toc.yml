@@ -201,6 +201,8 @@ items:
         href: upgrade-operate-my-service.md
       - name: Улучшение службы
         href: upgrade-enhance-my-service.md
+      - name: Общедоступная предварительная версия в Microsoft Teams
+        href: public-preview-doc-updates.md
       - name: Использование встроенного перевода сообщений
         href: inline-message-translation-teams.md
       - name: "Область поиска в каталоге Microsoft\_Teams"
@@ -413,8 +415,6 @@ items:
                 href: rooms/xml-config-file.md
               - name: Использование средства восстановления
                 href: rooms/recovery-tool.md
-      - name: Руководство. Собрания в Teams
-        href: Tutorial-Meetings-in-Teams.yml
       - name: Управление политиками собраний
         href: meeting-policies-in-teams.md
       - name: Удаление политики собраний RestrictedAnonymousAccess для пользователей
@@ -465,8 +465,6 @@ items:
             href: audio-conferencing-on-network.md
           - name: Общие вопросы об аудиоконференциях
             href: audio-conferencing-common-questions.md
-          - name: Руководство. Аудиоконференции в Teams
-            href: Tutorial-Audio-Conferencing.yml
           - name: Платная или пробная версия аудиоконференций в Microsoft 365
             href: try-or-purchase-audio-conferencing-in-office-365-for-teams.md
           - name: Дополнительные минуты исходящих звонков для США и Канады
@@ -975,11 +973,6 @@ items:
                 href: add-funds-and-manage-communications-credits.md
           - name: Потоки звонков Microsoft Teams
             href: microsoft-teams-online-call-flows.md
-          - name: Руководство. Звонки в Teams
-            href: Tutorial-calling-in-teams.yml
-            items:
-              - name: Планирование взаимодействия с пользователями
-                href: 5-envision-plan-my-users-experience.md
   - name: Голосовая связь Microsoft 365 бизнес
     items:
       - name: Что такое голосовая связь Microsoft 365 бизнес?
@@ -1375,6 +1368,8 @@ items:
         href: service-health.md
       - name: Обращение в службу поддержки продуктов для бизнеса. Справка для администраторов
         href: 'https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products'
+      - name: Как найти ПИН-код поддержки
+        href: support-pin.md
   - name: Справочные материалы
     items:
       - name: Ограничения и спецификации для Teams
@@ -1508,16 +1503,10 @@ items:
             href: 'https://docs.microsoft.com/powershell/module/teams/?view=teams-ps'
       - name: Документация разработчиков для Teams
         href: 'https://docs.microsoft.com/microsoftteams/platform'
-      - name: Получение справки в Teams
-        href: get-help-in-microsoft-teams.md
       - name: Обновления контента Teams
         href: teams-updates.md
-      - name: Как найти ПИН-код поддержки
-        href: support-pin.md
       - name: Доступность аудиоконференций и планов звонков в различных странах и регионах
         items:
-          - name: Обзор
-            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
           - name: Албания
             href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-albania.md
           - name: Алжир
@@ -1760,5 +1749,3 @@ items:
         href: upgrade-plan-journey-discovery-questionnaire.md
       - name: Заметки о выпуске для функций администрирования Teams
         href: release-notes/release-notes.md
-      - name: Общедоступная предварительная версия в Microsoft Teams
-        href: public-preview-doc-updates.md
