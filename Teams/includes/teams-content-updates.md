@@ -3,6 +3,52 @@
 
 
 
+## <a name="week-of-february-01-2021"></a>Неделя на 1 февраля 2021 г.
+
+
+| Дата публикации |Название статьи | Изменение |
+|------|------------|--------|
+| 2/1/2021 | [Отправка данных о клиенте и здании на панели мониторинга качества звонка (CQD)](/MicrosoftTeams/cqd-upload-tenant-building-data) | Изменено |
+| 2/1/2021 | [Руководство для ИТ-администраторов по Insights в Microsoft Teams для образования](/MicrosoftTeams/class-insights) | Изменено |
+| 2/1/2021 | [Синхронизация сведений системы данных об учащихся (SIS) с помощью Аналитики образования](/MicrosoftTeams/education-insights-sis-data-sync) | Изменено |
+| 2/1/2021 | [Информационные барьеры в Microsoft Teams](/MicrosoftTeams/information-barriers-in-teams) | Изменено |
+| 2/1/2021 | [Управление и мониторинг Teams](/MicrosoftTeams/manage-teams-overview) | Добавлено |
+| 2/1/2021 | [Заметки о выпуске Microsoft Teams](/MicrosoftTeams/release-notes/release-notes) | Изменено |
+| 2/2/2021 | [Использование Microsoft 365 и настраиваемые соединители](/MicrosoftTeams/office-365-custom-connectors) | Изменено |
+| 2/2/2021 | [Управление пакетами политики в Microsoft Teams](/MicrosoftTeams/manage-policy-packages) | Изменено |
+| 2/2/2021 | [Центр контактов Teams](/MicrosoftTeams/teams-contact-center) | Изменено |
+| 2/3/2021 | [Экспорт контента с помощью API экспорта Microsoft Teams](/MicrosoftTeams/export-teams-content) | Изменено |
+| 2/3/2021 | [Управление номерами телефонов для Швейцарии](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-switzerland) | Изменено |
+| 2/3/2021 | [Подключение граничного контроллера сеанса (SBC) к прямой маршрутике](/MicrosoftTeams/direct-routing-connect-the-sbc) | Изменено |
+| 2/3/2021 | Microsoft Teams \| Environment Readiness \| Adoption, Discovery | Удалено |
+| 2/3/2021 | [Teams для виртуальных посещений](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin) | Изменено |
+| 2/3/2021 | [Заметки о выпуске](/MicrosoftTeams/rooms/rooms-release-note) | Изменено |
+| 2/4/2021 | [Центр контактов Teams](/MicrosoftTeams/teams-contact-center) | Изменено |
+| 2/4/2021 | [Панель мониторинга качества звонка (CQD) — вопросы и ответы](/MicrosoftTeams/cqd-frequently-asked-questions) | Изменено |
+| 2/4/2021 | [Переход со Skype для бизнеса на Teams: вопросы и ответы](/MicrosoftTeams/faq-journey) | Изменено |
+| 2/4/2021 | [Общие вопросы об аудиоконференциях](/MicrosoftTeams/audio-conferencing-common-questions) | Изменено |
+| 2/4/2021 | [Измерения и измерения для панели мониторинга качества звонка (CQD)](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | Изменено |
+| 2/4/2021 | [Настройка граничного контроллера сеанса — несколько клиентов](/MicrosoftTeams/direct-routing-sbc-multiple-tenants) | Изменено |
+| 2/4/2021 | [Документация для администраторов Microsoft Teams # < 60 chars](/MicrosoftTeams/index) | Изменено |
+| 2/4/2021 | [Ограничения и спецификации для Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | Изменено |
+| 2/4/2021 | [Отправка и утверждение пользовательских приложений с помощью API отправки приложений Teams](/MicrosoftTeams/submit-approve-custom-apps) | Изменено |
+| 2/4/2021 | [Teams для инфраструктуры виртуальных рабочих столов](/MicrosoftTeams/teams-for-vdi) | Изменено |
+| 2/4/2021 | [Введение в запись на основе политик Teams для & звонков](/MicrosoftTeams/teams-recording-policy) | Изменено |
+| 2/4/2021 | [Настройка панели мониторинга качества звонка (CQD)](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard) | Изменено |
+| 2/4/2021 | [Начало обновления Skype для бизнеса до Teams](/MicrosoftTeams/upgrade-start-here) | Изменено |
+| 2/5/2021 | [Общие сведения о безопасности и соответствии требованиям](/MicrosoftTeams/security-compliance-overview) | Изменено |
+| 2/5/2021 | [Отчет об использовании Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/teams-usage-report) | Изменено |
+| 2/5/2021 | [Возможности Teams в среде с поддержкой нескольких служб Microsoft 365](/MicrosoftTeams/teams-experience-o365odb-spo-multi-geo) | Изменено |
+| 2/5/2021 | [Управление шаблонами Teams в Центре администрирования](/MicrosoftTeams/templates-policies) | Добавлено |
+| 2/5/2021 | [Создание очереди вызовов в Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | Изменено |
+| 2/5/2021 | [Teams для виртуальных посещений](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin) | Изменено |
+| 2/5/2021 | [Начало работы с Teams для медицинских организаций](/MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc) | Изменено |
+| 2/5/2021 | [Ограничения и спецификации для Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | Изменено |
+| 2/5/2021 | [Управление политиками собрания](/MicrosoftTeams/meeting-policies-in-teams) | Изменено |
+| 2/5/2021 | [Установите Microsoft Teams с помощью Microsoft Endpoint Configuration Manager](/MicrosoftTeams/msi-deployment) | Изменено |
+| 2/5/2021 | [Планирование автоотетарей и очередей вызовов в Teams](/MicrosoftTeams/plan-auto-attendant-call-queue) | Изменено |
+
+
 ## <a name="week-of-january-25-2021"></a>Неделя от 25 января 2021 г.
 
 
@@ -23,7 +69,7 @@
 | 1/26/2021 | [Граничные контроллеры сеанса, сертифицированные для прямой маршрутинга](/MicrosoftTeams/direct-routing-border-controllers) | Изменено |
 | 1/27/2021 | [Надстройка Advanced Communications для Microsoft Teams](/MicrosoftTeams/teams-add-on-licensing/advanced-communications) | Изменено |
 | 1/27/2021 | [Лицензии на надстройки Microsoft Teams](/MicrosoftTeams/teams-add-on-licensing/microsoft-teams-add-on-licensing) | Изменено |
-| 1/27/2021 | [Измерения и измерения для панели мониторинга качества звонка (CQD)](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | Изменено |
+| 1/27/2021 | [Измерения и измерения— панель мониторинга качества звонка (CQD)](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | Изменено |
 | 1/27/2021 | [Планирование использования групп Microsoft 365 при создании команд](/MicrosoftTeams/plan-office-365-groups) | Изменено |
 | 1/27/2021 | [Телефоны и устройства для Microsoft Teams](/MicrosoftTeams/devices/usb-devices) | Изменено |
 | 1/28/2021 | [Использование надстройки собраний Microsoft Teams в Outlook](/MicrosoftTeams/teams-add-in-for-outlook) | Изменено |
@@ -46,7 +92,7 @@
 | Дата публикации |Название статьи | Изменение |
 |------|------------|--------|
 | 1/21/2021 | [Планирование прямой маршрутизации](/MicrosoftTeams/direct-routing-plan) | Изменено |
-| 1/21/2021 | [Настройка граничного геймпада сеанса — несколько клиентов](/MicrosoftTeams/direct-routing-sbc-multiple-tenants) | Изменено |
+| 1/21/2021 | [Настройка граничного контроллера сеанса — несколько клиентов](/MicrosoftTeams/direct-routing-sbc-multiple-tenants) | Изменено |
 | 1/21/2021 | [Управление номерами телефонов во Франции](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-france) | Изменено |
 | 1/21/2021 | [Установка, управление и назначение разрешений для приложения Teams Learning (частная предварительная версия)](/MicrosoftTeams/teams-learning-app-overview) | Изменено |
 | 1/21/2021 | [Создание приложения портала интрасети Teams с сайта или страницы SharePoint Online](/MicrosoftTeams/teams-standalone-static-tabs-using-spo-sites) | Изменено |
@@ -66,14 +112,14 @@
 | 1/21/2021 | [Граничные контроллеры сеанса, сертифицированные для прямой маршрутинга](/MicrosoftTeams/direct-routing-border-controllers) | Изменено |
 | 1/21/2021 | [Добавление и обновление наклеек для отчетов](/MicrosoftTeams/learn-more-about-site-upload) | Изменено |
 | 1/21/2021 | [Управление политиками собрания](/MicrosoftTeams/meeting-policies-in-teams) | Изменено |
-| 1/21/2021 | [Планирование для автоотетарей и очередей вызовов в Teams](/MicrosoftTeams/plan-auto-attendant-call-queue) | Изменено |
+| 1/21/2021 | [Планирование автоотетарей и очередей вызовов в Teams](/MicrosoftTeams/plan-auto-attendant-call-queue) | Изменено |
 | 1/21/2021 | [Сброс ПИН-кода аудиоконференций в Microsoft Teams](/MicrosoftTeams/reset-the-audio-conferencing-pin-in-teams) | Изменено |
 | 1/21/2021 | [Требования к комнатам Microsoft Teams](/MicrosoftTeams/rooms/requirements) | Изменено |
 | 1/21/2021 | [Просмотр списка телефонных номеров в организации](/MicrosoftTeams/see-a-list-of-phone-numbers-in-your-organization) | Изменено |
 | 1/21/2021 | [Использование отчетов об активности в Microsoft Teams](/MicrosoftTeams/teams-activity-reports) | Изменено |
 | 1/21/2021 | [Что такое трансляции Microsoft Teams?](/MicrosoftTeams/teams-live-events/what-are-teams-live-events) | Изменено |
 | 1/21/2021 | Пример для малого бизнеса: настройка автосекретарь | Удалено |
-| 1/21/2021 | [Пример дела с голосовой командой Contoso](/MicrosoftTeams/voice-case-study-call-queues) | Изменено |
+| 1/21/2021 | [Пример дела с голосовой почтой Contoso в Teams](/MicrosoftTeams/voice-case-study-call-queues) | Изменено |
 | 1/21/2021 | [Что представляют собой облачные автосекретари?](/MicrosoftTeams/what-are-phone-system-auto-attendants) | Изменено |
 | 1/19/2021 | [Настройка автозавода для Microsoft Teams — учебник для малого бизнеса](/MicrosoftTeams/business-voice/create-a-phone-system-auto-attendant-smb) | Добавлено |
 | 1/19/2021 | [Создание очереди вызовов в Microsoft Teams — учебник для малого бизнеса](/MicrosoftTeams/business-voice/create-a-phone-system-call-queue-smb) | Добавлено |
@@ -146,7 +192,7 @@
 | 1/14/2021 | [Управление номерами телефонов в Ирландии](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-ireland) | Изменено |
 | 1/14/2021 | [Управление номерами телефонов для Италии](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-italy) | Изменено |
 | 1/14/2021 | [Управление номерами телефонов для Великобритании](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-k) | Изменено |
-| 1/14/2021 | [Настройка иерархии целевого уровня группы](/MicrosoftTeams/set-up-your-team-hierarchy) | Изменено |
+| 1/14/2021 | [Настройка иерархии целевой аудитории группы](/MicrosoftTeams/set-up-your-team-hierarchy) | Изменено |
 | 1/14/2021 | [Teams для инфраструктуры виртуальных рабочих столов](/MicrosoftTeams/teams-for-vdi) | Изменено |
 | 1/14/2021 | [Управление параметрами для организации](/MicrosoftTeams/enable-features-office-365) | Изменено |
 | 1/14/2021 | [Первое собрание — Microsoft Teams](/MicrosoftTeams/meetings-first) | Изменено |
@@ -166,8 +212,8 @@
 | 12/15/2020 | [Планирование голосового решения в Microsoft Teams](/MicrosoftTeams/cloud-voice-landing-page) | Изменено |
 | 12/15/2020 | [Голосовая помощь Кортаны в Microsoft Teams](/MicrosoftTeams/cortana-in-teams) | Изменено |
 | 12/15/2020 | [Direct Routing Local Media Optimization](/MicrosoftTeams/direct-routing-media-optimization) | Изменено |
-| 12/15/2020 | [При переходе с локального развертывания Skype для бизнеса на Teams необходимо УЧЕСТЬ ННР](/MicrosoftTeams/upgrade-to-teams-on-prem-pstn-considerations) | Изменено |
-| 12/16/2020 | [Планирование автоотетарей и очередей вызовов в Teams](/MicrosoftTeams/plan-auto-attendant-call-queue) | Изменено |
+| 12/15/2020 | [При переходе с локального развертывания Skype для бизнеса на Teams следует УЧЕСТЬ ННР](/MicrosoftTeams/upgrade-to-teams-on-prem-pstn-considerations) | Изменено |
+| 12/16/2020 | [Планирование для автоотетарей и очередей вызовов в Teams](/MicrosoftTeams/plan-auto-attendant-call-queue) | Изменено |
 | 12/16/2020 | [Планирование голосового решения в Microsoft Teams](/MicrosoftTeams/cloud-voice-landing-page) | Изменено |
 | 12/16/2020 | [Измерения и измерения для панели мониторинга качества звонка (CQD)](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | Изменено |
 | 12/16/2020 | [Настройка прямой маршрутизации](/MicrosoftTeams/direct-routing-configure) | Изменено |
@@ -185,7 +231,7 @@
 | 12/18/2020 | [Центр контактов Teams](/MicrosoftTeams/teams-contact-center) | Изменено |
 | 12/18/2020 | [Телефоны и устройства для Teams](/MicrosoftTeams/devices/teams-ip-phones) | Изменено |
 | 12/18/2020 | [Телефоны и устройства для Microsoft Teams](/MicrosoftTeams/devices/usb-devices) | Изменено |
-| 12/18/2020 | [Мастер политики Teams для образования для простого применения политик безопасного обучения](/MicrosoftTeams/easy-policy-setup-edu) | Изменено |
+| 12/18/2020 | [Мастер политики Teams для образовательных сфере для простого применения политик безопасного обучения](/MicrosoftTeams/easy-policy-setup-edu) | Изменено |
 | 12/18/2020 | [Управление политиками собрания](/MicrosoftTeams/meeting-policies-in-teams) | Изменено |
 | 12/18/2020 | [Требования к комнатам Microsoft Teams](/MicrosoftTeams/rooms/requirements) | Изменено |
 | 12/18/2020 | [Что такое абонентские группы?](/MicrosoftTeams/what-are-dial-plans) | Изменено |
@@ -197,15 +243,15 @@
 | Дата публикации |Название статьи | Изменение |
 |------|------------|--------|
 | 1/4/2021 | [Настройка автозавода для Microsoft Teams](/MicrosoftTeams/create-a-phone-system-auto-attendant) | Изменено |
-| 1/4/2021 | [Справочник по автоотзыву и очереди зовов и справочнику по распознаванию речи](/MicrosoftTeams/dial-voice-reference) | Изменено |
+| 1/4/2021 | [Справочник по автоотзыву и очереди звонка и распознаванию речи](/MicrosoftTeams/dial-voice-reference) | Изменено |
 | 1/4/2021 | [Граничные контроллеры сеанса, сертифицированные для прямой маршрутинга](/MicrosoftTeams/direct-routing-border-controllers) | Изменено |
-| 1/4/2021 | [Настройка граничного контроллера сеанса — несколько клиентов](/MicrosoftTeams/direct-routing-sbc-multiple-tenants) | Изменено |
+| 1/4/2021 | [Настройка граничного геймпада сеанса — несколько клиентов](/MicrosoftTeams/direct-routing-sbc-multiple-tenants) | Изменено |
 | 1/5/2021 | [Создание очереди вызовов в Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | Изменено |
 | 1/5/2021 | [Расширение существующих групп Microsoft 365](/MicrosoftTeams/enhance-office-365-groups) | Изменено |
 | 1/5/2021 | [Взаимодействие SharePoint Online и OneDrive для бизнеса с Microsoft Teams](/MicrosoftTeams/sharepoint-onedrive-interact) | Изменено |
 | 1/5/2021 | [Возможности Teams в среде с поддержкой нескольких служб Microsoft 365](/MicrosoftTeams/teams-experience-o365odb-spo-multi-geo) | Изменено |
 | 1/5/2021 | [Планирование трансляций в Microsoft Teams](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | Изменено |
-| 1/5/2021 | [Введение в запись на основе политик Teams для & звонков](/MicrosoftTeams/teams-recording-policy) | Изменено |
+| 1/5/2021 | [Введение в запись на основе политик Teams для & собраний](/MicrosoftTeams/teams-recording-policy) | Изменено |
 | 1/5/2021 | [Использование файлов журналов для устранения неполадок в Microsoft Teams](/MicrosoftTeams/log-files) | Изменено |
 | 1/6/2021 | [Ограничения и спецификации для Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | Изменено |
 | 1/6/2021 | [Управление частными каналами в Microsoft Teams с помощью API Graph](/MicrosoftTeams/private-channels-life-cycle-management) | Изменено |

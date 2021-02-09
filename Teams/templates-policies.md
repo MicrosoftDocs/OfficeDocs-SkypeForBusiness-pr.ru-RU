@@ -19,18 +19,18 @@ localization_priority: Normal
 search.appverid: MET150
 description: Управление шаблонами Teams в Центре администрирования
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: ef765013541ae740211cc5666da3544f1cd5b528
-ms.sourcegitcommit: 1b11a2b74b8db6ed9e5da9b04cf3ed9c02a1d892
+ms.openlocfilehash: 9704fdb92689031d44fa692383c701ec47877fc6
+ms.sourcegitcommit: 27bfa015413bc7742bca4ea227e0324da0c740d7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "50125906"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50145886"
 ---
 # <a name="create-and-manage-teams-templates-in-the-admin-center"></a>Создание шаблонов Teams и управление ими в Центре администрирования
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-Для управления шаблонами Teams, которые вы показываете пользователям, создайте политики шаблонов в Центре администрирования. В каждой политике шаблонов можно узначить, какие шаблоны должны быть показаны или скрыты.
+Чтобы управлять шаблонами Teams, которые вы показываете пользователям, создайте политики шаблонов в Центре администрирования. В каждой политике шаблонов можно узначить, какие шаблоны должны быть показаны или скрыты.
 Назначайте разным пользователям различные политики шаблонов, чтобы пользователи просматривали только указанные подмножество шаблонов Teams.
 
 ## <a name="create-template-policies-and-assign-available-templates"></a>Создание политик шаблонов и назначение доступных шаблонов
@@ -101,7 +101,7 @@ ms.locfileid: "50125906"
 
 **Вопрос. Что происходит при удалении шаблона?**
 
-О. Удаленные шаблоны больше не будут присутствовать в политиках шаблонов.
+О. Все удаленные шаблоны больше не будут присутствовать в политиках шаблонов.
 
 **Вопрос. Можно ли назначить нескольким пользователям политику шаблонов в Центре администрирования Teams?**
 
@@ -111,11 +111,11 @@ ms.locfileid: "50125906"
 1. В таблице списка "Пользователи" выберите пользователей, которые хотите назначить определенной политике шаблонов.
 1. Выберите "Изменить параметры" и измените поле "Политики шаблонов".
 1. Выберите "Применить".
-   Узнайте, как назначать политики пользователям в [Microsoft Teams — Microsoft \| Teams, Microsoft Docs.](https://docs.microsoft.com/microsoftteams/assign-policies#assign-a-policy-to-a-batch-of-users)
+   Подробнее о назначении политик пользователям [в Microsoft Teams — Microsoft Teams в Microsoft \| Docs.](https://docs.microsoft.com/microsoftteams/assign-policies#assign-a-policy-to-a-batch-of-users)
 
 **Вопрос. Как просмотреть всех пользователей, которые назначены определенной политике?**
 
-О. В Центре администрирования:
+А. В Центре администрирования:
 
 1. Перейдите в **раздел "Пользователи".**
 2. Выберите фильтр в таблице списка пользователей и фильтрацию политики шаблонов команд.
@@ -143,4 +143,4 @@ ms.locfileid: "50125906"
 
 - [Назначение политик пользователям в Microsoft Teams — Microsoft Teams \| Microsoft Docs](https://docs.microsoft.com/microsoftteams/assign-policies)
 
-- [TeamsTemplatePermissionPolicy](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation?view=teams-ps)
+- [Пакетное назначение пользователей политике](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation?view=teams-ps)
