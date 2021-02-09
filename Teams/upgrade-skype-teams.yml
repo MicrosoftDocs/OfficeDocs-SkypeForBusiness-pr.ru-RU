@@ -22,12 +22,12 @@ metadata:
   search.appverid: MET150
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 7d64720c1e72c20be1bed51ee961a59068eafd4f
-  ms.sourcegitcommit: ac73536f790f83a61eeb2eb8c6b71662f7bd26fc
+  ms.openlocfilehash: 8e77ac547d41e10c006c321555db8b850d648983
+  ms.sourcegitcommit: d9b95da1f4a2b7460fc67daf4011382ffa40c05e
   ms.translationtype: MT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 02/05/2021
-  ms.locfileid: "50110379"
+  ms.lasthandoff: 02/09/2021
+  ms.locfileid: "50150875"
 highlightedContent:
   items:
   - title: Использование проверенных средств обновления
@@ -41,7 +41,7 @@ highlightedContent:
     url: https://play.vidyard.com/uc42D4WD4byc3sHTiKEEEk
 productDirectory:
   title: Ресурсы для планирования успешного обновления Teams и его использования
-  summary: Правильная техническая среда, стабильное внедрение пользователей и реализация бизнес-целей начинаются с надлежащего планирования.
+  summary: Правильная техническая среда, стабильное внедрение пользователей и реализация бизнес-целей начинаются с правильного планирования.
   items:
   - title: Путешествие к Teams
     imageSrc: https://docs.microsoft.com/office/media/icons/get-started-teams.svg
@@ -70,9 +70,9 @@ productDirectory:
     - url: https://customers.microsoft.com/story/765513-trek-retailers-teams
       text: Путь — Из Skype для бизнеса Online в Teams
     - url: https://customers.microsoft.com/story/765520-dentsu-aegis-network-media-entertainment-teams
-      text: Denя Aegis Network — Из Skype для бизнеса Online в Teams
+      text: Denя Aegis Network — из Skype для бизнеса Online в Teams
     - url: https://customers.microsoft.com/story/764851-berkshire-healthcare-nhs-foundation-trust-health-provider-teams
-      text: Berkrk Healthcare — из Skype для бизнеса Online в Teams
+      text: Berkrk Healthcare — Из Skype для бизнеса Online в Teams
   - title: Интерактивные семинары, чтобы получить все необходимое от Teams
     imageSrc: https://docs.microsoft.com/office/media/icons/best-practices-teams.svg
     links:
@@ -99,7 +99,7 @@ productDirectory:
   - title: 'Ignite Session: проектирование пути к Teams'
     imageSrc: https://docs.microsoft.com/office/media/icons/walkthrough-map-teams.svg
     summary: Этот сеанс с Ignite 2020 поможет вам найти подход, который больше всего подходит для внедрения и целей Skype для бизнеса.
-    url: https://myignite.microsoft.com/sessions/48e53fab-37ea-4b89-bdde-21bdefff6e0e
+    url: https://go.microsoft.com/fwlink/?linkid=2154668
   - title: Планы и цены Microsoft Teams
     imageSrc: https://docs.microsoft.com/office/media/icons/sign-up-teams.svg
     summary: Найдите под себя Microsoft Teams для своей компании.
@@ -112,13 +112,13 @@ additionalContent:
   sections:
   - items:
     - title: Прекращение поддержки Skype для бизнеса Online
-      summary: Подготовьтесь к этому 31 июля 2021 г. и узнайте, как спланировать успешный переход на Teams.
+      summary: Подготовьтесь к переходу на Teams 31 июля 2021 г. и узнайте, как спланировать успешный переход на Teams.
       url: https://docs.microsoft.com/microsoftteams/skype-for-business-online-retirement
     - title: Составление диаграммы для курса в Teams
       summary: Скачайте эту полезную и полезную инфографику, которая поможет вам скачать все этапы обновления Teams.
       url: https://download.microsoft.com/download/6/b/f/6bfda7ac-3a2b-4156-9c2f-6dc1878d048f/Chart Your Journey from Skype to Teams Infographic.pdf
     - title: Помощь по развертыванию с помощью Программы Engage FastTrack
-      summary: Если для проектов развертывания Teams требуется более подробная помощь, клиенты с подходящими подписками могут получить поддержку по FastTrack.
+      summary: Если для проектов развертывания Teams требуется более подробная помощь, клиенты с подходящими подписками могут получить поддержку в FastTrack.
       url: https://www.microsoft.com/fasttrack
     - title: Поиск партнера Майкрософт
       summary: Нужны дополнительные рекомендации? Поставщики решений Майкрософт могут помочь вам управлять технической и логистикой при обновлении.
