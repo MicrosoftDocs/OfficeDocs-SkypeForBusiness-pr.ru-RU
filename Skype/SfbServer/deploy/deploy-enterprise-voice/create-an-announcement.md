@@ -84,7 +84,7 @@ ms.locfileid: "49824909"
    New-CsAnnouncement -Parent service:ApplicationServer:pool0.contoso.com -Name "Help Desk Announcement" -TextToSpeechPrompt "The Help Desk number has changed. Please dial 5550100." -Language "en-US"
    ```
 
-   Дополнительные информацию об этих cmdlets, а также список кодов языка для использования в **параметре TextToSpeechPrompt** см. в [new-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/new-csannouncement?view=skype-ps).
+   Дополнительные подробные данные об этих cmdlets и список кодов языка для использования в **параметре TextToSpeechPrompt** см. в [new-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/new-csannouncement?view=skype-ps).
 
 ## <a name="delete-an-announcement-for-unassigned-numbers"></a>Удаление объявления для ненаписаных номеров
 

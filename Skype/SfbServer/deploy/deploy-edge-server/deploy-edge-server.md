@@ -26,7 +26,7 @@ ms.locfileid: "49804389"
  
 **Сводка:** Learn how to deploy an Edge Server or an Edge pool into your Skype for Business Server environment.
   
-Зачем развертывать в среде Skype для бизнеса Server edge Server или пул? Это необходимо, если внешние пользователи, которые не вошли во внутреннюю сеть организации, должны иметь возможность взаимодействовать с внутренними пользователями. Эти внешние пользователи могут быть аутентификацией и анонимными удаленными пользователями, федератерными партнерами или другими мобильными клиентами.
+Зачем развертывать в среде Skype для бизнеса Server edge Server или пул? Это необходимо, если внешние пользователи, которые не вошли во внутреннюю сеть организации, должны иметь возможность взаимодействовать с внутренними пользователями. Эти внешние пользователи могут быть аутентификацией и анонимными удаленными пользователями, федератными партнерами или другими мобильными клиентами.
   
 ## <a name="deployment-checklist-for-the-edge-for-skype-for-business-server"></a>Контрольный список развертывания для edge для Skype для бизнеса Server
 
@@ -40,7 +40,7 @@ ms.locfileid: "49804389"
   
 - [Требования к системе для сервера Edge Server в Skype для бизнеса Server](../../plan-your-deployment/edge-server-deployments/system-requirements.md)
     
-- [Требования к среде для edge Server в Skype для бизнеса Server](../../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md)
+- [Требования к среде edge Server в Skype для бизнеса Server](../../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md)
     
 - [Создание топологии edge для Skype для бизнеса Server](create-your-edge-topology.md)
     

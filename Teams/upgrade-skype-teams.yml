@@ -70,7 +70,7 @@ productDirectory:
     - url: https://customers.microsoft.com/story/765513-trek-retailers-teams
       text: Путь — Из Skype для бизнеса Online в Teams
     - url: https://customers.microsoft.com/story/765520-dentsu-aegis-network-media-entertainment-teams
-      text: Denя Aegis Network — из Skype для бизнеса Online в Teams
+      text: Denя Aegis Network — Из Skype для бизнеса Online в Teams
     - url: https://customers.microsoft.com/story/764851-berkshire-healthcare-nhs-foundation-trust-health-provider-teams
       text: Berkrk Healthcare — Из Skype для бизнеса Online в Teams
   - title: Интерактивные семинары, чтобы получить все необходимое от Teams
@@ -79,7 +79,7 @@ productDirectory:
     - url: https://microsoftteams.eventbuilder.com/ChalkTalksCalling
       text: Итак, вот так... вы хотите звонить в Teams
     - url: https://microsoftteams.eventbuilder.com/ChalkTalksQuality
-      text: Берет на себя ответственность за качество звука и видео в Teams
+      text: Зарядка качества звука и видео в Teams
     - url: https://microsoftteams.eventbuilder.com/ChalkTalksApps
       text: Приложения в основах Teams
     - url: https://aka.ms/ChalkTalkKeyApps
@@ -112,7 +112,7 @@ additionalContent:
   sections:
   - items:
     - title: Прекращение поддержки Skype для бизнеса Online
-      summary: Подготовьтесь к переходу на Teams 31 июля 2021 г. и узнайте, как спланировать успешный переход на Teams.
+      summary: Подготовьтесь к этому 31 июля 2021 г. и узнайте, как спланировать успешный переход на Teams.
       url: https://docs.microsoft.com/microsoftteams/skype-for-business-online-retirement
     - title: Составление диаграммы для курса в Teams
       summary: Скачайте эту полезную и полезную инфографику, которая поможет вам скачать все этапы обновления Teams.

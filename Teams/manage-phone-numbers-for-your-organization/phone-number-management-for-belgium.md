@@ -29,7 +29,7 @@ ms.locfileid: "50150865"
 ---
 # <a name="phone-number-management-for-belgium"></a>Управление номерами телефонов в Бельгии
 
-Эта таблица используется для поиска сведений о получении номеров телефонов в Бельгии для Microsoft Teams и управлении им. 
+Эта таблица используется для поиска информации о получении номеров телефонов в Бельгии для Microsoft Teams и управлении им. 
   
 Дополнительные сведения см. в статье [Управление номерами телефонов для организации](manage-phone-numbers-for-your-organization.md).
   
@@ -39,7 +39,7 @@ ms.locfileid: "50150865"
 |Перенаправь нам номера телефонов.  <br/> | Скачайте одну из этих форм. <br/>[Досье для Бельгии (все номера) (v.5.0) (de-be)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-belgium-(all-numbers)-(v.5.0)-(de-be).pdf?raw=true) <br/> [Досье для Бельгии (все номера) (v.6.0) (fr-be)](https:download.microsoft.com/download/d/f/3/df304a78-db38-41f9-98d2-0b590cf8c68f/letter-of-authorization-(loa)-for-belgium-(all-numbers)-(v.6.0)-(fr-be).pdf)<br/> [Досье для Бельгии (все номера) (v.6.0) (nl-be)](https://download.microsoft.com/download/4/b/a/4bacc856-3bf2-45f7-ade2-8b1d81fc09c6/letter-of-authorization-(loa)-for-belgium-(all-numbers)-(v.6.0)-(nl-be).pdf) <br/>   <br/>   Заполните ее и [отправьте его нам](mailto:ptneu@microsoft.com). <br/> |
 |Публикация и публикация номеров телефонов в национальном телефонном каталоге.  <br/> |[Отправьте нам](mailto:ptneu@microsoft.com) список номеров телефонов для публикации или отмены публикации.      <br/> |
 |Изменение номера пользователя на номер службы.  <br/> |[Отправьте нам](mailto:ptneu@microsoft.com) список номеров пользователей, которые необходимо преобразовать в номера служб. <br/> |
-|Обновление службы каталогов для номеров очереди вызовов или номеров автозавода|Чтобы добавить или изменить номера очереди вызовов или номера автозавода, обратитесь в службу [поддержки ННР.](contact-pstn-service-desk.md) |
+|Обновление службы каталогов для номеров очереди вызовов или номеров автозавода|Чтобы добавить или изменить номера очереди вызовов или номера автоотетаря, обратитесь в службу [поддержки ННР.](contact-pstn-service-desk.md) |
 
 ## <a name="related-topics"></a>См. также:
 

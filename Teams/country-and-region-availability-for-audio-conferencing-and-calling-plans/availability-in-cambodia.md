@@ -23,7 +23,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже 365 доступны службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Камбоджи.
+description: Вот службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные в Камбодже.
 ms.openlocfilehash: 8d1627e0b088337af7842102bd7c360ba91dbad5
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
@@ -72,7 +72,7 @@ ms.locfileid: "49804729"
 |Доступны ли платные номера?  <br/> |Да <br/> |
 |Доступны ли бесплатные номера?  <br/> |Нет <br/> |
    
- Если вы хотите получить платные и бесплатные номера телефонов для аудиоконференции, автоотетаря и очередей звонков, см. в этом видео. [](/microsoftteams/getting-service-phone-numbers)
+ Если вы хотите получить платные и бесплатные номера телефонов для аудиоконференций, автоотетарей и очередей звонков, см. получение номеров телефонов служб для Skype для бизнеса и [Microsoft Teams.](/microsoftteams/getting-service-phone-numbers)
   
 ## <a name="communications-credits"></a>Кредиты на связь
 

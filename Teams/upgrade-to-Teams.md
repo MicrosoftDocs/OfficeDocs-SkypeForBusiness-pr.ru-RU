@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: Определите оптимальный путь обновления До Microsoft Teams на основе текущего развертывания Skype для бизнеса.
+description: Определите оптимальный путь обновления Microsoft Teams на основе текущего развертывания Skype для бизнеса.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -44,7 +44,7 @@ ms.locfileid: "49578362"
 - [Привлечение заинтересованных лиц проекта](upgrade-enlist-stakeholders.md)
 - [Определение области проекта](https://aka.ms/SkypetoTeams-Scope)
 - [Понимание сосуществования и совместной работы Skype для бизнеса и Teams](https://aka.ms/SkypeToTeams-Coexist)
-- [Выбранный путь обновления](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [Вы решили перейти на нее](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 - [Запланировано пилотное проект пользователя](pilot-essentials.md)
 - [Подготовлена среда](https://aka.ms/SkypeToTeams-TechnicalReadiness)
 - [Подготовив организацию](https://aka.ms/SkypeToTeams-UserReadiness)

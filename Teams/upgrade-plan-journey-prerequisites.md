@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: Используйте это руководство, чтобы узнать о предварительных условиях и зависимостей среды для развертывания Teams в организации.
+description: Используйте это руководство, чтобы узнать о предварительных и зависимостей среды для развертывания Teams в организации.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -25,7 +25,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 12/05/2020
 ms.locfileid: "49578282"
 ---
-# <a name="prerequisites-and-environmental-dependencies-for-teams"></a>Предварительные условия и зависимости среды для Teams
+# <a name="prerequisites-and-environmental-dependencies-for-teams"></a>Необходимые условия и зависимости от среды для Teams
 
 ![Схема пути обновления с акцентом на этапе технической готовности](media/upgrade-banner-tech-readiness.png "Этапы пути обновления с акцентом на этапе технической готовности")
 

@@ -22,11 +22,11 @@ ms.locfileid: "49825319"
 ---
 # <a name="teams-for-government"></a>Teams для государственных организаций
 
-Используйте эти ресурсы, чтобы узнать о конкретных соображениях по развертыванию Teams в среде Microsoft 365 для государственных органов. Когда будете готовы, следуйте тому же рекомендуемом пути развертывания для Teams, как описано в описании [развертывания Microsoft Teams.](../How-to-roll-out-teams.md)
+Используйте эти ресурсы, чтобы узнать о конкретных соображениях по развертыванию Teams в среде Microsoft 365 для государственных органов. Когда будете готовы, следуйте тому же рекомендуемом пути развертывания для Teams, который описан в описании [развертывания Microsoft Teams.](../How-to-roll-out-teams.md)
 
 |               |               |
 | ------------- | ------------- |
-| ![list-123-teams](../media/list-123-teams.svg)  |  [Планирование развертывания Microsoft 365 government — GCC](https://docs.microsoft.com/MicrosoftTeams/plan-for-government-gcc) |
+| ![list-123-teams](../media/list-123-teams.svg)  |  [Планирование развертывания Microsoft 365 для государственных органов — GCC](https://docs.microsoft.com/MicrosoftTeams/plan-for-government-gcc) |
 | ![tasks-teams](../media/tasks-teams.svg) | [Планирование развертываний Microsoft 365 для государственных организаций — GCC High](https://docs.microsoft.com/microsoftteams/plan-for-government-gcc-high) |
 | ![task-list-planning-teams](../media/task-list-planning-teams.svg)  |  [Планирование развертывания Microsoft 365 для государственных органов — DOD](https://docs.microsoft.com/microsoftteams/plan-for-government-dod) |
 | ![arrow-right-2-teams](../media/arrow-right-2-teams.svg)  |  [Аудиоконференции с прямой маршрутизацией для GCC High и DoD](https://docs.microsoft.com/microsoftteams/audio-conferencing-with-direct-routing-for-gcch-and-dod) |
