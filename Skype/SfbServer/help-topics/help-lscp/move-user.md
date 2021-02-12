@@ -22,10 +22,10 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49803929"
 ---
-# <a name="move-user"></a><span data-ttu-id="16920-103">Перемещение пользователя</span><span class="sxs-lookup"><span data-stu-id="16920-103">Move User</span></span>
+# <a name="move-user"></a><span data-ttu-id="4fda8-103">Перемещение пользователя</span><span class="sxs-lookup"><span data-stu-id="4fda8-103">Move User</span></span>
 
-<span data-ttu-id="16920-104">На странице **"Перемещение пользователей"** можно выбрать пул назначения для перемещения выбранного пользователя.</span><span class="sxs-lookup"><span data-stu-id="16920-104">On the **Move Users** page, you can select a destination pool to move the selected user to.</span></span>
+<span data-ttu-id="4fda8-104">На странице **"Перемещение пользователей"** можно выбрать пул назначения для перемещения выбранного пользователя.</span><span class="sxs-lookup"><span data-stu-id="4fda8-104">On the **Move Users** page, you can select a destination pool to move the selected user to.</span></span>
 
-<span data-ttu-id="16920-105">Дополнительные сведения о перемещении пользователей см. в разделе [Move Users to Another Pool](https://technet.microsoft.com/library/e7b4968c-0e9d-4d56-b5f1-9edf0f7206f8.aspx).</span><span class="sxs-lookup"><span data-stu-id="16920-105">For more information about moving users, see [Move Users to Another Pool](https://technet.microsoft.com/library/e7b4968c-0e9d-4d56-b5f1-9edf0f7206f8.aspx).</span></span>
+<span data-ttu-id="4fda8-105">Дополнительные сведения о перемещении пользователей см. в разделе [Move Users to Another Pool](https://technet.microsoft.com/library/e7b4968c-0e9d-4d56-b5f1-9edf0f7206f8.aspx).</span><span class="sxs-lookup"><span data-stu-id="4fda8-105">For more information about moving users, see [Move Users to Another Pool](https://technet.microsoft.com/library/e7b4968c-0e9d-4d56-b5f1-9edf0f7206f8.aspx).</span></span>
 
 

@@ -22,8 +22,8 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49825089"
 ---
-# <a name="deployment-wizard-path-to-msi-installer"></a><span data-ttu-id="bde67-103">Мастер развертывания: путь к установщику MSI</span><span class="sxs-lookup"><span data-stu-id="bde67-103">Deployment Wizard: Path to MSI installer</span></span>
+# <a name="deployment-wizard-path-to-msi-installer"></a><span data-ttu-id="43cf5-103">Мастер развертывания: путь к установщику MSI</span><span class="sxs-lookup"><span data-stu-id="43cf5-103">Deployment Wizard: Path to MSI installer</span></span>
  
-<span data-ttu-id="bde67-104">Дополнительные сведения об использовании мастера развертывания для установки Skype для бизнеса Server см. в сведениях [об установке Skype для бизнеса Server.](../../../deploy/install/install.md)</span><span class="sxs-lookup"><span data-stu-id="bde67-104">For details about using Deployment Wizard to install Skype for Business Server, see [Install Skype for Business Server](../../../deploy/install/install.md).</span></span>
+<span data-ttu-id="43cf5-104">Дополнительные сведения об использовании мастера развертывания для установки Skype для бизнеса Server см. в сведениях [об установке Skype для бизнеса Server.](../../../deploy/install/install.md)</span><span class="sxs-lookup"><span data-stu-id="43cf5-104">For details about using Deployment Wizard to install Skype for Business Server, see [Install Skype for Business Server](../../../deploy/install/install.md).</span></span>
   
 

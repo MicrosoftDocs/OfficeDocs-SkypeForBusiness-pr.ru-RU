@@ -22,13 +22,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49803899"
 ---
-# <a name="network-configuration-global-setting"></a><span data-ttu-id="0073d-104">Конфигурация сети: глобальная настройка</span><span class="sxs-lookup"><span data-stu-id="0073d-104">Network Configuration: Global Setting</span></span>
+# <a name="network-configuration-global-setting"></a><span data-ttu-id="e526e-104">Конфигурация сети: глобальная настройка</span><span class="sxs-lookup"><span data-stu-id="e526e-104">Network Configuration: Global Setting</span></span>
 
-<span data-ttu-id="0073d-105">Что нужно сделать</span><span class="sxs-lookup"><span data-stu-id="0073d-105">What do you want to do?</span></span> <span data-ttu-id="0073d-106">Щелкните ссылку на задачу, которую необходимо выполнить.</span><span class="sxs-lookup"><span data-stu-id="0073d-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="e526e-105">Что нужно сделать</span><span class="sxs-lookup"><span data-stu-id="e526e-105">What do you want to do?</span></span> <span data-ttu-id="e526e-106">Щелкните ссылку на задачу, которую необходимо выполнить.</span><span class="sxs-lookup"><span data-stu-id="e526e-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="0073d-107">Включение контроля допуска звонков</span><span class="sxs-lookup"><span data-stu-id="0073d-107">Enabling Call Admission Control</span></span>](https://technet.microsoft.com/library/015f5c8f-2f90-4b9e-8149-b33767e90582.aspx)
+- [<span data-ttu-id="e526e-107">Включение контроля допуска звонков</span><span class="sxs-lookup"><span data-stu-id="e526e-107">Enabling Call Admission Control</span></span>](https://technet.microsoft.com/library/015f5c8f-2f90-4b9e-8149-b33767e90582.aspx)
 
-- [<span data-ttu-id="0073d-108">Включение обхода мультимедиа</span><span class="sxs-lookup"><span data-stu-id="0073d-108">Enabling Media Bypass</span></span>](https://technet.microsoft.com/library/95c4fa06-49d3-41ac-acdc-7dcda66e5508.aspx)
+- [<span data-ttu-id="e526e-108">Включение обхода мультимедиа</span><span class="sxs-lookup"><span data-stu-id="e526e-108">Enabling Media Bypass</span></span>](https://technet.microsoft.com/library/95c4fa06-49d3-41ac-acdc-7dcda66e5508.aspx)
 
-<span data-ttu-id="0073d-109">Подробные сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнеса Server, см. в под управлением Skype для бизнеса [Server 2015.](../../manage/manage.md)</span><span class="sxs-lookup"><span data-stu-id="0073d-109">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="e526e-109">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="e526e-109">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
 
