@@ -22,11 +22,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49800679"
 ---
-# <a name="start-services"></a><span data-ttu-id="9b1b3-104">Запуск служб</span><span class="sxs-lookup"><span data-stu-id="9b1b3-104">Start Services</span></span>
+# <a name="start-services"></a><span data-ttu-id="3ec54-104">Запуск служб</span><span class="sxs-lookup"><span data-stu-id="3ec54-104">Start Services</span></span>
  
-<span data-ttu-id="9b1b3-p102">Чтобы запустить службы для развернутой роли сервера, нажмите кнопку **Выполнить** в окне **Шаг 4. Запустить службы**. Вы должны войти как участник локальной группы администраторов или пользователь с эквивалентными правами.</span><span class="sxs-lookup"><span data-stu-id="9b1b3-p102">To start the services on the deployed server role, click **Run** in **Step 4: Start Services**. You must be logged on as a member of the local Administrators group or an equivalent.</span></span> 
+<span data-ttu-id="3ec54-p102">Чтобы запустить службы для развернутой роли сервера, нажмите кнопку **Выполнить** в окне **Шаг 4. Запустить службы**. Вы должны войти как участник локальной группы администраторов или пользователь с эквивалентными правами.</span><span class="sxs-lookup"><span data-stu-id="3ec54-p102">To start the services on the deployed server role, click **Run** in **Step 4: Start Services**. You must be logged on as a member of the local Administrators group or an equivalent.</span></span> 
   
 > [!NOTE]
-> <span data-ttu-id="9b1b3-107">Если задача **Запустить службы** уже была запущена, вы можете перезапустить ее, нажав кнопку **Перезапуск**.</span><span class="sxs-lookup"><span data-stu-id="9b1b3-107">If **Start Services** has been run, you can rerun the command by clicking **Run Again**.</span></span> 
+> <span data-ttu-id="3ec54-107">Если задача **Запустить службы** уже была запущена, вы можете перезапустить ее, нажав кнопку **Перезапуск**.</span><span class="sxs-lookup"><span data-stu-id="3ec54-107">If **Start Services** has been run, you can rerun the command by clicking **Run Again**.</span></span> 
   
 

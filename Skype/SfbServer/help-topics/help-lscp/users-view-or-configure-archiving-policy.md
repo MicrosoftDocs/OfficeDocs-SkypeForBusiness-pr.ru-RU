@@ -22,13 +22,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49800349"
 ---
-# <a name="users-view-or-configure-archiving-policy"></a><span data-ttu-id="7a6f5-104">Пользователи: просмотр или настройка политики архивирования</span><span class="sxs-lookup"><span data-stu-id="7a6f5-104">Users: View or Configure Archiving Policy</span></span>
+# <a name="users-view-or-configure-archiving-policy"></a><span data-ttu-id="55a89-104">Пользователи: просмотр или настройка политики архивирования</span><span class="sxs-lookup"><span data-stu-id="55a89-104">Users: View or Configure Archiving Policy</span></span>
 
-<span data-ttu-id="7a6f5-105">Что нужно сделать</span><span class="sxs-lookup"><span data-stu-id="7a6f5-105">What do you want to do?</span></span> <span data-ttu-id="7a6f5-106">Щелкните ссылку на задачу, которую необходимо выполнить.</span><span class="sxs-lookup"><span data-stu-id="7a6f5-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="55a89-105">Что нужно сделать</span><span class="sxs-lookup"><span data-stu-id="55a89-105">What do you want to do?</span></span> <span data-ttu-id="55a89-106">Щелкните ссылку на задачу, которую необходимо выполнить.</span><span class="sxs-lookup"><span data-stu-id="55a89-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="7a6f5-107">Назначение политики архивирования уровня пользователя</span><span class="sxs-lookup"><span data-stu-id="7a6f5-107">Assign a Per-User Archiving Policy</span></span>](https://technet.microsoft.com/library/a12ca483-b235-460f-b3fe-130fb3087264.aspx)
+- [<span data-ttu-id="55a89-107">Назначение политики архивирования уровня пользователя</span><span class="sxs-lookup"><span data-stu-id="55a89-107">Assign a Per-User Archiving Policy</span></span>](https://technet.microsoft.com/library/a12ca483-b235-460f-b3fe-130fb3087264.aspx)
 
-- [<span data-ttu-id="7a6f5-108">Применение политики архива к пользователю или группе пользователей</span><span class="sxs-lookup"><span data-stu-id="7a6f5-108">Apply an Archiving Policy to a User or User Group</span></span>](https://technet.microsoft.com/library/624a7d3e-389d-403a-97e5-f7bb17023ef3.aspx)
+- [<span data-ttu-id="55a89-108">Применение политики архива к пользователю или группе пользователей</span><span class="sxs-lookup"><span data-stu-id="55a89-108">Apply an Archiving Policy to a User or User Group</span></span>](https://technet.microsoft.com/library/624a7d3e-389d-403a-97e5-f7bb17023ef3.aspx)
 
-<span data-ttu-id="7a6f5-109">Подробные сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнеса Server, см. в под управлением Skype для бизнеса [Server 2015.](../../manage/manage.md)</span><span class="sxs-lookup"><span data-stu-id="7a6f5-109">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="55a89-109">Подробные сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнеса Server, см. в под управлением Skype для бизнеса [Server 2015.](../../manage/manage.md)</span><span class="sxs-lookup"><span data-stu-id="55a89-109">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
 

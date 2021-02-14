@@ -22,12 +22,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49800219"
 ---
-# <a name="add-edge-server-associations"></a><span data-ttu-id="edbfe-103">Добавление связей для пограничного сервера</span><span class="sxs-lookup"><span data-stu-id="edbfe-103">Add Edge Server Associations</span></span>
+# <a name="add-edge-server-associations"></a><span data-ttu-id="bb3ba-103">Добавление связей для пограничного сервера</span><span class="sxs-lookup"><span data-stu-id="bb3ba-103">Add Edge Server Associations</span></span>
  
-<span data-ttu-id="edbfe-104">Используйте эту страницу, чтобы выбрать интерфейсные пулы и серверы Standard Edition, которые будут использовать этот пограничный пул для трафика аудио- и видеоданных.</span><span class="sxs-lookup"><span data-stu-id="edbfe-104">Use this page to select which Front End pools and Standard Edition servers will use this Edge pool for A/V traffic.</span></span> 
+<span data-ttu-id="bb3ba-104">Используйте эту страницу, чтобы выбрать интерфейсные пулы и серверы Standard Edition, которые будут использовать этот пограничный пул для трафика аудио- и видеоданных.</span><span class="sxs-lookup"><span data-stu-id="bb3ba-104">Use this page to select which Front End pools and Standard Edition servers will use this Edge pool for A/V traffic.</span></span> 
   
-<span data-ttu-id="edbfe-p101">Каждый интерфейсный пул можно сопоставить всего с одним пограничным пулом. Если выбрать пул, который уже сопоставлен с другим пограничным пулом, сопоставление с предыдущим пограничным пулом будет отменено.</span><span class="sxs-lookup"><span data-stu-id="edbfe-p101">Each Front End pool can be associated with only one Edge pool. If you select a pool that is already associated with another Edge pool, it will change the association away from the previous Edge pool.</span></span>
+<span data-ttu-id="bb3ba-p101">Каждый интерфейсный пул можно сопоставить всего с одним пограничным пулом. Если выбрать пул, который уже сопоставлен с другим пограничным пулом, сопоставление с предыдущим пограничным пулом будет отменено.</span><span class="sxs-lookup"><span data-stu-id="bb3ba-p101">Each Front End pool can be associated with only one Edge pool. If you select a pool that is already associated with another Edge pool, it will change the association away from the previous Edge pool.</span></span>
   
-<span data-ttu-id="edbfe-107">Этот сервер или пул также можно связать с серверами-посредниками или пулами серверов-посредников, чтобы настроить и включить Корпоративная голосовая связь для внешних пользователей.</span><span class="sxs-lookup"><span data-stu-id="edbfe-107">You can also choose to associate this Edge Server or Edge pool with Mediation Servers or Mediation Server pools to configure and enable Enterprise Voice for external users.</span></span>
+<span data-ttu-id="bb3ba-107">Этот сервер или пул также можно связать с серверами-посредниками или пулами серверов-посредников, чтобы настроить и включить Корпоративная голосовая связь для внешних пользователей.</span><span class="sxs-lookup"><span data-stu-id="bb3ba-107">You can also choose to associate this Edge Server or Edge pool with Mediation Servers or Mediation Server pools to configure and enable Enterprise Voice for external users.</span></span>
   
 
