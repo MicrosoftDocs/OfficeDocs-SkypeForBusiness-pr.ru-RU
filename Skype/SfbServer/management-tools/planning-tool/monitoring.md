@@ -21,10 +21,10 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49802949"
 ---
-# <a name="monitoring-planning-tool"></a><span data-ttu-id="7e0b9-103">Мониторинг (средство планирования)</span><span class="sxs-lookup"><span data-stu-id="7e0b9-103">Monitoring (Planning Tool)</span></span>
+# <a name="monitoring-planning-tool"></a><span data-ttu-id="997d4-103">Мониторинг (средство планирования)</span><span class="sxs-lookup"><span data-stu-id="997d4-103">Monitoring (Planning Tool)</span></span>
 
-<span data-ttu-id="7e0b9-104">В Skype для бизнеса Server 2015 мониторинг используется для сбора сведений об использовании и качестве взаимодействия (QoE) о сеансах связи, в которые вовлечены пользователи.</span><span class="sxs-lookup"><span data-stu-id="7e0b9-104">In Skype for Business Server 2015, monitoring is used to collect usage information and Quality of Experience (QoE) data about the communication sessions that your users are involved in.</span></span>
+<span data-ttu-id="997d4-104">В Skype для бизнеса Server 2015 мониторинг используется для сбора сведений об использовании и качестве взаимодействия (QoE) о сеансах связи, в которые вовлечены пользователи.</span><span class="sxs-lookup"><span data-stu-id="997d4-104">In Skype for Business Server 2015, monitoring is used to collect usage information and Quality of Experience (QoE) data about the communication sessions that your users are involved in.</span></span>
 
-<span data-ttu-id="7e0b9-105">Дополнительные сведения о планировании сервера мониторинга см. в [этой теме.](https://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx)</span><span class="sxs-lookup"><span data-stu-id="7e0b9-105">For more details about planning for Monitoring Server, see [Planning for Monitoring](https://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx).</span></span>
+<span data-ttu-id="997d4-105">Дополнительные сведения о планировании сервера мониторинга см. в [этой теме.](https://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx)</span><span class="sxs-lookup"><span data-stu-id="997d4-105">For more details about planning for Monitoring Server, see [Planning for Monitoring](https://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx).</span></span>
 
 

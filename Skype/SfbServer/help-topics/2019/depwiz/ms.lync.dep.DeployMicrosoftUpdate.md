@@ -22,8 +22,8 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49801539"
 ---
-# <a name="deployment-wizard-windows-update"></a><span data-ttu-id="e2480-103">Мастер развертывания: Центр обновления Windows</span><span class="sxs-lookup"><span data-stu-id="e2480-103">Deployment Wizard: Windows Update</span></span>
+# <a name="deployment-wizard-windows-update"></a><span data-ttu-id="90344-103">Мастер развертывания: Центр обновления Windows</span><span class="sxs-lookup"><span data-stu-id="90344-103">Deployment Wizard: Windows Update</span></span>
  
-<span data-ttu-id="e2480-104">Дополнительные сведения об использовании мастера развертывания для установки Skype для бизнеса Server см. в сведениях [об установке Skype для бизнеса Server.](../../../deploy/install/install.md)</span><span class="sxs-lookup"><span data-stu-id="e2480-104">For details about using Deployment Wizard to install Skype for Business Server, see [Install Skype for Business Server](../../../deploy/install/install.md).</span></span>
+<span data-ttu-id="90344-104">Дополнительные сведения об использовании мастера развертывания для установки Skype для бизнеса Server см. в сведениях [об установке Skype для бизнеса Server.](../../../deploy/install/install.md)</span><span class="sxs-lookup"><span data-stu-id="90344-104">For details about using Deployment Wizard to install Skype for Business Server, see [Install Skype for Business Server](../../../deploy/install/install.md).</span></span>
   
 

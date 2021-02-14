@@ -22,13 +22,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49801339"
 ---
-# <a name="normalization-rule-create-new-or-edit-existing"></a><span data-ttu-id="f205d-104">Правило нормализации: создание нового или редактирование существующего</span><span class="sxs-lookup"><span data-stu-id="f205d-104">Normalization Rule: Create New or Edit Existing</span></span>
+# <a name="normalization-rule-create-new-or-edit-existing"></a><span data-ttu-id="7946d-104">Правило нормализации: создание нового или редактирование существующего</span><span class="sxs-lookup"><span data-stu-id="7946d-104">Normalization Rule: Create New or Edit Existing</span></span>
 
-<span data-ttu-id="f205d-105">Что нужно сделать</span><span class="sxs-lookup"><span data-stu-id="f205d-105">What do you want to do?</span></span> <span data-ttu-id="f205d-106">Щелкните ссылку на задачу, которую необходимо выполнить.</span><span class="sxs-lookup"><span data-stu-id="f205d-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="7946d-105">Что нужно сделать</span><span class="sxs-lookup"><span data-stu-id="7946d-105">What do you want to do?</span></span> <span data-ttu-id="7946d-106">Щелкните ссылку на задачу, которую необходимо выполнить.</span><span class="sxs-lookup"><span data-stu-id="7946d-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="f205d-107">Создание или изменение правила нормализации в Skype для бизнеса</span><span class="sxs-lookup"><span data-stu-id="f205d-107">Create or modify a normalization rule in Skype for Business</span></span>](../../../deploy/deploy-enterprise-voice/normalization-rules.md)
+- [<span data-ttu-id="7946d-107">Создание или изменение правила нормализации в Skype для бизнеса</span><span class="sxs-lookup"><span data-stu-id="7946d-107">Create or modify a normalization rule in Skype for Business</span></span>](../../../deploy/deploy-enterprise-voice/normalization-rules.md)
 
-- [<span data-ttu-id="f205d-108">Создание или изменение правила нормализации вручную</span><span class="sxs-lookup"><span data-stu-id="f205d-108">Create or Modify a Normalization Rule Manually</span></span>](https://technet.microsoft.com/library/fc0335e6-8830-4cfb-8c64-6aeb98c0a992.aspx)
+- [<span data-ttu-id="7946d-108">Создание или изменение правила нормализации вручную</span><span class="sxs-lookup"><span data-stu-id="7946d-108">Create or Modify a Normalization Rule Manually</span></span>](https://technet.microsoft.com/library/fc0335e6-8830-4cfb-8c64-6aeb98c0a992.aspx)
 
 
 

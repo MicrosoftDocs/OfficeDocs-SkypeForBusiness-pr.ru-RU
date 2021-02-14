@@ -1,5 +1,5 @@
 ---
-title: API unified Communications мастера развертывания
+title: API объединенных коммуникаций мастера развертывания
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -22,8 +22,8 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49801699"
 ---
-# <a name="deployment-wizard-unified-communications-api"></a><span data-ttu-id="f778f-103">Мастер развертывания: API унифицированных коммуникаций</span><span class="sxs-lookup"><span data-stu-id="f778f-103">Deployment Wizard: Unified Communications API</span></span>
+# <a name="deployment-wizard-unified-communications-api"></a><span data-ttu-id="e4f05-103">Мастер развертывания: API унифицированных коммуникаций</span><span class="sxs-lookup"><span data-stu-id="e4f05-103">Deployment Wizard: Unified Communications API</span></span>
  
-<span data-ttu-id="f778f-104">Дополнительные сведения об использовании мастера развертывания для установки Skype для бизнеса Server см. в сведениях [об установке Skype для бизнеса Server.](../../../deploy/install/install.md)</span><span class="sxs-lookup"><span data-stu-id="f778f-104">For details about using Deployment Wizard to install Skype for Business Server, see [Install Skype for Business Server](../../../deploy/install/install.md).</span></span>
+<span data-ttu-id="e4f05-104">Дополнительные сведения об использовании мастера развертывания для установки Skype для бизнеса Server см. в сведениях [об установке Skype для бизнеса Server.](../../../deploy/install/install.md)</span><span class="sxs-lookup"><span data-stu-id="e4f05-104">For details about using Deployment Wizard to install Skype for Business Server, see [Install Skype for Business Server](../../../deploy/install/install.md).</span></span>
   
 

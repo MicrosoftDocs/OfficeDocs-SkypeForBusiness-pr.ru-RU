@@ -22,13 +22,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49801399"
 ---
-# <a name="file-filter"></a><span data-ttu-id="80a10-104">Фильтр файлов</span><span class="sxs-lookup"><span data-stu-id="80a10-104">File Filter</span></span>
+# <a name="file-filter"></a><span data-ttu-id="2126e-104">Фильтр файлов</span><span class="sxs-lookup"><span data-stu-id="2126e-104">File Filter</span></span>
 
-<span data-ttu-id="80a10-105">Что нужно сделать</span><span class="sxs-lookup"><span data-stu-id="80a10-105">What do you want to do?</span></span> <span data-ttu-id="80a10-106">Щелкните ссылку на задачу, которую необходимо выполнить.</span><span class="sxs-lookup"><span data-stu-id="80a10-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="2126e-105">Что нужно сделать</span><span class="sxs-lookup"><span data-stu-id="2126e-105">What do you want to do?</span></span> <span data-ttu-id="2126e-106">Щелкните ссылку на задачу, которую необходимо выполнить.</span><span class="sxs-lookup"><span data-stu-id="2126e-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="80a10-107">Изменение фильтра передачи файлов по умолчанию</span><span class="sxs-lookup"><span data-stu-id="80a10-107">Modify the Default File Transfer Filter</span></span>](https://technet.microsoft.com/library/791774a2-0bb6-4b5b-aeb0-ff69abb170f4.aspx)
+- [<span data-ttu-id="2126e-107">Изменение фильтра передачи файлов по умолчанию</span><span class="sxs-lookup"><span data-stu-id="2126e-107">Modify the Default File Transfer Filter</span></span>](https://technet.microsoft.com/library/791774a2-0bb6-4b5b-aeb0-ff69abb170f4.aspx)
 
-- [<span data-ttu-id="80a10-108">Создание нового фильтра передачи файлов для определенного сайта</span><span class="sxs-lookup"><span data-stu-id="80a10-108">Create a New File Transfer Filter for a Specific Site</span></span>](https://technet.microsoft.com/library/d0006487-5217-491c-b730-e6c551cd9825.aspx)
+- [<span data-ttu-id="2126e-108">Создание нового фильтра передачи файлов для определенного сайта</span><span class="sxs-lookup"><span data-stu-id="2126e-108">Create a New File Transfer Filter for a Specific Site</span></span>](https://technet.microsoft.com/library/d0006487-5217-491c-b730-e6c551cd9825.aspx)
 
 
 

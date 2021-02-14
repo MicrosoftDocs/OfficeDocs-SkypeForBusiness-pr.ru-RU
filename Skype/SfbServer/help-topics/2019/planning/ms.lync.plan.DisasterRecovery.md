@@ -23,10 +23,10 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49801089"
 ---
-# <a name="disaster-recovery-planning-tool"></a><span data-ttu-id="a5c07-103">Аварийное восстановление (средство планирования)</span><span class="sxs-lookup"><span data-stu-id="a5c07-103">Disaster Recovery (Planning Tool)</span></span>
+# <a name="disaster-recovery-planning-tool"></a><span data-ttu-id="343c6-103">Аварийное восстановление (средство планирования)</span><span class="sxs-lookup"><span data-stu-id="343c6-103">Disaster Recovery (Planning Tool)</span></span>
  
-<span data-ttu-id="a5c07-104">Skype для бизнеса Server включает меры аварийного восстановления путем сопряжения пулов переднего сервера, расположенных в двух центрах обработки данных.</span><span class="sxs-lookup"><span data-stu-id="a5c07-104">Skype for Business Server includes disaster recovery measures by enabling you to pair Front End pools located in two data centers.</span></span>
+<span data-ttu-id="343c6-104">Skype для бизнеса Server включает меры аварийного восстановления путем сопряжения пулов переднего сервера, расположенных в двух центрах обработки данных.</span><span class="sxs-lookup"><span data-stu-id="343c6-104">Skype for Business Server includes disaster recovery measures by enabling you to pair Front End pools located in two data centers.</span></span>
   
-<span data-ttu-id="a5c07-105">Подробные сведения о подготовке среды к аварийному восстановлению см. в плане высокой доступности и аварийного [восстановления в Skype для бизнеса Server.](../../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)</span><span class="sxs-lookup"><span data-stu-id="a5c07-105">For details about preparing your environment for disaster recovery, see [Plan for high availability and disaster recovery in Skype for Business Server](../../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).</span></span>
+<span data-ttu-id="343c6-105">Подробные сведения о подготовке среды к аварийному восстановлению см. в плане высокой доступности и аварийного [восстановления в Skype для бизнеса Server.](../../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)</span><span class="sxs-lookup"><span data-stu-id="343c6-105">For details about preparing your environment for disaster recovery, see [Plan for high availability and disaster recovery in Skype for Business Server](../../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).</span></span>
   
 

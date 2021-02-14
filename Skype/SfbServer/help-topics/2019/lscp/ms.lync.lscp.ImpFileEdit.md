@@ -1,5 +1,5 @@
 ---
-title: Фильтр файлов создает новые или редактирует существующие
+title: Создание или изменение существующего фильтра файлов
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -22,13 +22,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49801459"
 ---
-# <a name="file-filter-create-new-or-edit-existing"></a><span data-ttu-id="b3262-104">Фильтр файлов: создание нового или редактирование существующего</span><span class="sxs-lookup"><span data-stu-id="b3262-104">File Filter: Create New or Edit Existing</span></span>
+# <a name="file-filter-create-new-or-edit-existing"></a><span data-ttu-id="13964-104">Фильтр файлов: создание нового или редактирование существующего</span><span class="sxs-lookup"><span data-stu-id="13964-104">File Filter: Create New or Edit Existing</span></span>
 
-<span data-ttu-id="b3262-105">Что нужно сделать</span><span class="sxs-lookup"><span data-stu-id="b3262-105">What do you want to do?</span></span> <span data-ttu-id="b3262-106">Щелкните ссылку на задачу, которую необходимо выполнить.</span><span class="sxs-lookup"><span data-stu-id="b3262-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="13964-105">Что нужно сделать</span><span class="sxs-lookup"><span data-stu-id="13964-105">What do you want to do?</span></span> <span data-ttu-id="13964-106">Щелкните ссылку на задачу, которую необходимо выполнить.</span><span class="sxs-lookup"><span data-stu-id="13964-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="b3262-107">Изменение фильтра передачи файлов по умолчанию</span><span class="sxs-lookup"><span data-stu-id="b3262-107">Modify the Default File Transfer Filter</span></span>](https://technet.microsoft.com/library/791774a2-0bb6-4b5b-aeb0-ff69abb170f4.aspx)
+- [<span data-ttu-id="13964-107">Изменение фильтра передачи файлов по умолчанию</span><span class="sxs-lookup"><span data-stu-id="13964-107">Modify the Default File Transfer Filter</span></span>](https://technet.microsoft.com/library/791774a2-0bb6-4b5b-aeb0-ff69abb170f4.aspx)
 
-- [<span data-ttu-id="b3262-108">Создание нового фильтра передачи файлов для определенного сайта</span><span class="sxs-lookup"><span data-stu-id="b3262-108">Create a New File Transfer Filter for a Specific Site</span></span>](https://technet.microsoft.com/library/d0006487-5217-491c-b730-e6c551cd9825.aspx)
+- [<span data-ttu-id="13964-108">Создание нового фильтра передачи файлов для определенного сайта</span><span class="sxs-lookup"><span data-stu-id="13964-108">Create a New File Transfer Filter for a Specific Site</span></span>](https://technet.microsoft.com/library/d0006487-5217-491c-b730-e6c551cd9825.aspx)
 
 
 

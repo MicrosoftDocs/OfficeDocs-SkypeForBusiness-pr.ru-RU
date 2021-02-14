@@ -22,12 +22,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49801279"
 ---
-# <a name="select-routes"></a><span data-ttu-id="df51e-103">Выбор маршрутов</span><span class="sxs-lookup"><span data-stu-id="df51e-103">Select Routes</span></span>
+# <a name="select-routes"></a><span data-ttu-id="e7199-103">Выбор маршрутов</span><span class="sxs-lookup"><span data-stu-id="e7199-103">Select Routes</span></span>
  
-<span data-ttu-id="df51e-104">Используйте диалоговое окно **Выбор маршрутов** для поиска существующих пригодных для использования маршрутов голосовых данных.</span><span class="sxs-lookup"><span data-stu-id="df51e-104">Use the **Select Routes** dialog box to find existing voice routes that you can use.</span></span>
+<span data-ttu-id="e7199-104">Используйте диалоговое окно **Выбор маршрутов** для поиска существующих пригодных для использования маршрутов голосовых данных.</span><span class="sxs-lookup"><span data-stu-id="e7199-104">Use the **Select Routes** dialog box to find existing voice routes that you can use.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="df51e-105">Чтобы получить все доступны маршруты голосовых данных, ничего не вводите в поле поиска и нажмите значок поиска.</span><span class="sxs-lookup"><span data-stu-id="df51e-105">To retrieve all available voice routes, do not type anything in the search box and then click the search icon.</span></span> 
+> <span data-ttu-id="e7199-105">Чтобы получить все доступны маршруты голосовых данных, ничего не вводите в поле поиска и нажмите значок поиска.</span><span class="sxs-lookup"><span data-stu-id="e7199-105">To retrieve all available voice routes, do not type anything in the search box and then click the search icon.</span></span> 
   
  
   

@@ -22,11 +22,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49803139"
 ---
-# <a name="remove-deployment"></a><span data-ttu-id="5c62c-103">Удаление развертывания</span><span class="sxs-lookup"><span data-stu-id="5c62c-103">Remove Deployment</span></span>
+# <a name="remove-deployment"></a><span data-ttu-id="5028b-103">Удаление развертывания</span><span class="sxs-lookup"><span data-stu-id="5028b-103">Remove Deployment</span></span>
  
-<span data-ttu-id="5c62c-104">Нажмите **кнопку** "Готово", чтобы создать пустую топологию в качестве первого шага при выводе из эксплуатации всего развертывания.</span><span class="sxs-lookup"><span data-stu-id="5c62c-104">Click **Finish** to create an empty topology as the first step in decommissioning your entire deployment.</span></span>
+<span data-ttu-id="5028b-104">Нажмите **кнопку** "Готово", чтобы создать пустую топологию в качестве первого шага при выводе из эксплуатации всего развертывания.</span><span class="sxs-lookup"><span data-stu-id="5028b-104">Click **Finish** to create an empty topology as the first step in decommissioning your entire deployment.</span></span>
   
 > [!CAUTION]
-> <span data-ttu-id="5c62c-105">Это действие невозможно отменить.</span><span class="sxs-lookup"><span data-stu-id="5c62c-105">You cannot undo this step.</span></span> 
+> <span data-ttu-id="5028b-105">Это действие невозможно отменить.</span><span class="sxs-lookup"><span data-stu-id="5028b-105">You cannot undo this step.</span></span> 
   
 

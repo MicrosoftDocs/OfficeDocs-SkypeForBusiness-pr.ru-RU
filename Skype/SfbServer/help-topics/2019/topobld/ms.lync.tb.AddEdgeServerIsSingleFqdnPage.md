@@ -22,10 +22,10 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49800999"
 ---
-# <a name="add-edge-server-with-single-fqdn-page"></a><span data-ttu-id="9d9e9-103">Страница добавления пограничного сервера с единым полным доменным именем</span><span class="sxs-lookup"><span data-stu-id="9d9e9-103">Add Edge Server With Single FQDN Page</span></span>
+# <a name="add-edge-server-with-single-fqdn-page"></a><span data-ttu-id="6152c-103">Страница добавления пограничного сервера с единым полным доменным именем</span><span class="sxs-lookup"><span data-stu-id="6152c-103">Add Edge Server With Single FQDN Page</span></span>
  
-<span data-ttu-id="9d9e9-104">Сведения о странице с одним FQDN сервера.</span><span class="sxs-lookup"><span data-stu-id="9d9e9-104">Information on Edge Server Single FQDN Page.</span></span>
+<span data-ttu-id="6152c-104">Сведения о странице с одним FQDN сервера.</span><span class="sxs-lookup"><span data-stu-id="6152c-104">Information on Edge Server Single FQDN Page.</span></span>
   
-<span data-ttu-id="9d9e9-105">For information on the Edge Deployment, see [Deploy Edge Server in Skype for Business Server](../../../deploy/deploy-edge-server/deploy-edge-server.md)</span><span class="sxs-lookup"><span data-stu-id="9d9e9-105">For information on the Edge Deployment, see [Deploy Edge Server in Skype for Business Server](../../../deploy/deploy-edge-server/deploy-edge-server.md)</span></span>
+<span data-ttu-id="6152c-105">For information on the Edge Deployment, see [Deploy Edge Server in Skype for Business Server](../../../deploy/deploy-edge-server/deploy-edge-server.md)</span><span class="sxs-lookup"><span data-stu-id="6152c-105">For information on the Edge Deployment, see [Deploy Edge Server in Skype for Business Server](../../../deploy/deploy-edge-server/deploy-edge-server.md)</span></span>
   
 

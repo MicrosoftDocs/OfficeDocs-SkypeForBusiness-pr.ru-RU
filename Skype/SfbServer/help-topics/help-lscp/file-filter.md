@@ -22,13 +22,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49804919"
 ---
-# <a name="file-filter"></a><span data-ttu-id="f1024-104">Фильтр файлов</span><span class="sxs-lookup"><span data-stu-id="f1024-104">File Filter</span></span>
+# <a name="file-filter"></a><span data-ttu-id="2e18a-104">Фильтр файлов</span><span class="sxs-lookup"><span data-stu-id="2e18a-104">File Filter</span></span>
 
-<span data-ttu-id="f1024-105">Что нужно сделать</span><span class="sxs-lookup"><span data-stu-id="f1024-105">What do you want to do?</span></span> <span data-ttu-id="f1024-106">Щелкните ссылку на задачу, которую необходимо выполнить.</span><span class="sxs-lookup"><span data-stu-id="f1024-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="2e18a-105">Что нужно сделать</span><span class="sxs-lookup"><span data-stu-id="2e18a-105">What do you want to do?</span></span> <span data-ttu-id="2e18a-106">Щелкните ссылку на задачу, которую необходимо выполнить.</span><span class="sxs-lookup"><span data-stu-id="2e18a-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="f1024-107">Изменение фильтра передачи файлов по умолчанию</span><span class="sxs-lookup"><span data-stu-id="f1024-107">Modify the Default File Transfer Filter</span></span>](https://technet.microsoft.com/library/791774a2-0bb6-4b5b-aeb0-ff69abb170f4.aspx)
+- [<span data-ttu-id="2e18a-107">Изменение фильтра передачи файлов по умолчанию</span><span class="sxs-lookup"><span data-stu-id="2e18a-107">Modify the Default File Transfer Filter</span></span>](https://technet.microsoft.com/library/791774a2-0bb6-4b5b-aeb0-ff69abb170f4.aspx)
 
-- [<span data-ttu-id="f1024-108">Создание нового фильтра передачи файлов для определенного сайта</span><span class="sxs-lookup"><span data-stu-id="f1024-108">Create a New File Transfer Filter for a Specific Site</span></span>](https://technet.microsoft.com/library/d0006487-5217-491c-b730-e6c551cd9825.aspx)
+- [<span data-ttu-id="2e18a-108">Создание нового фильтра передачи файлов для определенного сайта</span><span class="sxs-lookup"><span data-stu-id="2e18a-108">Create a New File Transfer Filter for a Specific Site</span></span>](https://technet.microsoft.com/library/d0006487-5217-491c-b730-e6c551cd9825.aspx)
 
-<span data-ttu-id="f1024-109">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="f1024-109">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="2e18a-109">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="2e18a-109">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
 
