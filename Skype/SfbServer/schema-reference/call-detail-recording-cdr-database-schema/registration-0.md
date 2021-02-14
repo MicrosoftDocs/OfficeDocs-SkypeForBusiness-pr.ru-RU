@@ -31,7 +31,7 @@ ms.locfileid: "49823129"
 |**RegisterTime** <br/> |datetime  <br/> |Время регистрации.  <br/> |
 |**UserUri** <br/> |nvarchar(450)  <br/> |URI зарегистрировавшегося пользователя.  <br/> |
 |**UserUriType** <br/> |nvarchar(256)  <br/> |Тип URI зарегистрировавшегося пользователя. Дополнительные сведения см. в таблице [UriTypes.](uritypes.md) <br/> |
-|**UserTenant** <br/> |nvarchar(256)  <br/> |Клиент зарегистрировавшегося пользователя. Дополнительные [сведения см. в](tenants.md) таблице Tenants. <br/> |
+|**UserTenant** <br/> |nvarchar(256)  <br/> |Клиент зарегистрировавшегося пользователя. Дополнительные [сведения см.](tenants.md) в таблице Tenants. <br/> |
 |**EndpointId** <br/> |uniqueidentifier  <br/> |Уникальный идентификатор конечной точки зарегистрировавшегося пользователя.  <br/> |
 |**EndpointEra** <br/> |uniqueidentifier  <br/> |Уникальный идентификатор для различия регистраций с одним пользователем и одной конечной точкой.  <br/> |
 |**DeRegisterType** <br/> |datetime  <br/> |Время отмены регистрации.  <br/> |

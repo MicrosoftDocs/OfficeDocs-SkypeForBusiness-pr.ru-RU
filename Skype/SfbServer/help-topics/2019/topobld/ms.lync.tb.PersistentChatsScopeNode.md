@@ -14,7 +14,7 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c5f2873f-6601-4483-850d-c135b530392a
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Щелкните правой кнопкой мыши пул сохраняемой беседы в построитель топологий, чтобы выполнить следующее:'
+description: 'Щелкните правой кнопкой мыши пул сохраняемой беседы в построитель топологий, чтобы выполнить следующие работы:'
 ms.openlocfilehash: 9708a425511ba53c3e465d40103bb3e276e8c68f
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT

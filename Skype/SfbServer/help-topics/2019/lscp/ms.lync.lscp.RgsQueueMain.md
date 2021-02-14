@@ -44,7 +44,7 @@ ms.locfileid: "49824679"
 
 - **Новый** Запускает новую очередь.
 
-- **Правка** Открывает выбранную очередь для ее изменения, выбирает всю очередь в списке или удаляет выбранную очередь.
+- **Правка** Открывает выбранную очередь для ее редактирования, выбирает все очереди в списке или удаляет выбранную очередь.
 
 - **Обновление** Обновляет список очередей.
 
@@ -56,6 +56,6 @@ ms.locfileid: "49824679"
 
 - **Описание** Описание очереди.
 
-For details about Response Group features and capabilities, see [Plan for the Response Group application in Skype for Business Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) in the Planning documentation. Подробные сведения о работе с [](https://technet.microsoft.com/library/1e91720c-ab67-4dfb-b30c-0ef2a8012310.aspx) очередями группы ответа см. в документации по управлению очередями группы ответа.
+For details about Response Group features and capabilities, see [Plan for the Response Group application in Skype for Business Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) in the Planning documentation. Подробные сведения о работе с [](https://technet.microsoft.com/library/1e91720c-ab67-4dfb-b30c-0ef2a8012310.aspx) очередями группы ответа см. в документации по управлению очередями группы ответа в документации по операциям.
 
 

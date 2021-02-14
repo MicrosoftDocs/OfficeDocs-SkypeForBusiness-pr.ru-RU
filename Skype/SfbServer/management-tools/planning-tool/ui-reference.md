@@ -69,7 +69,7 @@ ms.locfileid: "49823310"
     
 - [Edge Network (Planning Tool)](../../help-topics/help-planning/edge-network.md)
     
-- [Обход посредника (средство планирования)](../../help-topics/help-planning/media-bypass.md)
+- [Обход мультимедиа (средство планирования)](../../help-topics/help-planning/media-bypass.md)
     
 - [Инфраструктура голосовой связи (средство планирования)](../../help-topics/help-planning/voice-infrastructure.md)
     

@@ -32,6 +32,6 @@ ms.locfileid: "49823069"
 |**CPUName** <br/> |nvarchar(128)  <br/> ||Имя ЦП конечной точки.  <br/> |
 |**CPUNumberOfCores** <br/> |smallint  <br/> ||Количество ядер ЦП конечной точки.  <br/> |
 |**CPUProcessorSpeed** <br/> |int  <br/> ||Скорость процессора ЦП конечной точки.  <br/> |
-|**VirtualizationFlag** <br/> |tinyint  <br/> || Флаг бита, который указывает, запущена ли система в виртуализированной среде: <br/>  0x0000 — нет <br/>  0x0001 — HyperV <br/>  0x0002 — VMWare <br/>  0x0004 — виртуальный КОМПЬЮТЕР <br/>  0x0008 — Xen PC <br/> |
+|**VirtualizationFlag** <br/> |tinyint  <br/> || Флаг бита, который указывает, работает ли система в виртуализированной среде: <br/>  0x0000 - Нет <br/>  0x0001 — HyperV <br/>  0x0002 VMWare <br/>  0x0004 виртуальный КОМПЬЮТЕР <br/>  0x0008 Xen PC <br/> |
    
 

@@ -1,5 +1,5 @@
 ---
-title: Отчет о распределении сбоев в Skype для бизнеса Server
+title: Отчет по распределению сбоев в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -19,7 +19,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49823529"
 ---
-# <a name="failure-distribution-report-in-skype-for-business-server"></a>Отчет о распределении сбоев в Skype для бизнеса Server
+# <a name="failure-distribution-report-in-skype-for-business-server"></a>Отчет по распределению сбоев в Skype для бизнеса Server
  
 **Сводка:** Learn about the Failure Distribution Report in Skype for Business Server.
   
@@ -148,7 +148,7 @@ UCCAPI/4.0.7400.0 OC/4.0.7400.0 (Microsoft Ly...
    
 ## <a name="metrics-for-top-components"></a>Показатели для самых распространенных компонентов
 
-В следующей таблице перечислены сведения, которые предоставляются в отчете распределения сбоев на основе компонентов, у которые больше всего сбоев.
+В следующей таблице перечислены сведения, которые предоставляются в отчете распределения сбоев на основе компонентов, в которые было вылилось больше всего сбоев.
   
 **Показатели для самых распространенных компонентов**
 

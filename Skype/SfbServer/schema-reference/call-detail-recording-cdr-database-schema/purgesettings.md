@@ -28,13 +28,14 @@ ms.locfileid: "49823169"
 Get-CsCdrConfiguration
 ```
 
-Администраторам следует рассматривать таблицу PurgeSettings как только для чтения: изменения параметров очистки подробных вызовов следует вносить только с помощью [new-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/new-cscdrconfiguration?view=skype-ps) или [Set-CsCdrConfiguration.](https://docs.microsoft.com/powershell/module/skype/set-cscdrconfiguration?view=skype-ps)
+Администраторам следует рассматривать таблицу PurgeSettings как только для чтения: изменения параметров очистки детализации вызовов следует вносить только с помощью [new-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/new-cscdrconfiguration?view=skype-ps) или [Set-CsCdrConfiguration.](https://docs.microsoft.com/powershell/module/skype/set-cscdrconfiguration?view=skype-ps)
   
 Эта таблица была представлена в Microsoft Lync Server 2013.
   
 |**Столбец**|**Тип данных**|**Ключ/индекс**|**Details**|
 |:-----|:-----|:-----|:-----|
-|**Id** <br/> |int  <br/> |Primary  <br/> |Уникальный идентификатор для набора параметров очистки CDR.  <br/> |
+|
+  **Id** <br/> |int  <br/> |Primary  <br/> |Уникальный идентификатор для набора параметров очистки CDR.  <br/> |
 |**EnablePurge** <br/> |bit  <br/> ||Если установлено true (1), Skype для бизнеса Server 2015 будет периодически очищать устаревшие записи из базы данных CDR. Очистка будет происходить каждый день во время, установленное с помощью параметра PurgeHour. Если задано значение False (0), записи не будут очищаться автоматически. Значение по умолчанию — True.  <br/> |
 |**KeepCallDetailForDays** <br/> |int  <br/> ||Задает возраст записей CDR (в днях), которые будут удаляться из базы данных: если очистка включена, то все записи, возраст которых больше указанного, будут удаляться из базы данных. Значение по умолчанию — 60 дней.  <br/> |
 |**KeepErrorReportForDays** <br/> |int  <br/> ||Задает возраст записей отчета об ошибках (в днях), которые будут удаляться из базы данных: если очистка включена, то все записи отчета об ошибках, возраст которых больше указанного, будут удаляться из базы данных. Значение по умолчанию — 60 дней.  <br/> |

@@ -44,7 +44,7 @@ ms.locfileid: "49822479"
    New-CsNetworkInterSitePolicy -InterNetworkSitePolicyID Reno_Albuquerque -NetworkSiteID1 Reno -NetworkSiteID2 Albuquerque -BWPolicyProfileID 20Mb_Link
    ```
 
-3. Повторите шаг 2, если это необходимо, чтобы создать сетевые политики межсайтов для всех пар сетевых сайтов с прямым перекрестным соединением.
+3. Повторите шаг 2 по мере необходимости, чтобы создать сетевые политики межсайтов для всех пар сетевых сайтов с прямым перекрестным соединением.
     
 ## <a name="see-also"></a>См. также
 
