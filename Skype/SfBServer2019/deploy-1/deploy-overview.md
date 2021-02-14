@@ -16,7 +16,7 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: ''
-description: Сводка. Изучите эти ссылки, чтобы узнать, как установить и настроить Skype для бизнеса Server 2019.
+description: Сводка. Ознакомьтесь с этими ссылками, чтобы узнать, как установить и настроить Skype для бизнеса Server 2019.
 ms.openlocfilehash: 4f486c06280b72aab83996d2aba1df68146bee3c
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT

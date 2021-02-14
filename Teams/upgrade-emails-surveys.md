@@ -25,7 +25,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49809079"
 ---
-# <a name="sample-emails-and-surveys-for-upgrade-basic-communications"></a>Образцы сообщений электронной почты и опросов для взаимодействия в upgrade Basic
+# <a name="sample-emails-and-surveys-for-upgrade-basic-communications"></a>Образцы сообщений электронной почты и опросов для связи в upgrade Basic
 
 ## <a name="sample-emails"></a>Образцы сообщений электронной почты
 
@@ -39,7 +39,7 @@ ms.locfileid: "49809079"
 IMPORTANT ANNOUNCEMENT Regarding Skype for Business
 ```
 
-Сообщение электронной почты:
+Тело сообщения электронной почты:
 
 ````
 As Microsoft [announced](https://blogs.office.com/2017/09/25/a-new-vision-for-intelligent-communications-in-office-365/) in September 2017, Skype for Business and Microsoft Teams will be coming together into one solution. Teams builds on the great capabilities of Skype for Business and offers chat (IM), meetings, audio/video calling, file management, and a project workspace in one collaboration tool.
@@ -61,7 +61,7 @@ Microsoft has provided an upgrade checklist outlining the essential tasks we sho
 IMPORTANT ANNOUNCEMENT Regarding Skype for Business
 ```
 
-Сообщение электронной почты:
+Тело сообщения электронной почты:
 
 ````
 From instant messaging to meetings to audio calling, we understand how much you rely on technologies like Skype for Business to get your job done. We’re excited to announce that we’ll be transitioning to Microsoft Teams, which provides one solution for your communication and collaboration needs. Teams leverages much of what you know and love about Skype for Business and expands what’s possible, integrating chat (IM), online meetings, calling, file management and a project workspace all into one interface.
@@ -90,7 +90,7 @@ If you have questions or need help, please reach out to <<insert company support
 ACTION REQUIRED: Host your next online meeting in Teams
 ```
 
-Сообщение электронной почты:
+Тело сообщения электронной почты:
 ````
 We’re just <<X weeks/days>> away from the transition to Microsoft Teams and want to make sure that you’re ready. Online meetings are part of our everyday life, so take time this week to get acquainted with online meetings in Teams. Complete the following steps for the smoothest experience:
 
@@ -121,7 +121,7 @@ Should you have questions about this upgrade, contact <<insert alias or contact 
 PLEASE READ: Skype for Business is now Microsoft Teams
 ```
 
-Сообщение электронной почты:
+Тело сообщения электронной почты:
 
 ````
 Let me be the first to officially welcome you to Microsoft Teams. Your Skype for Business client will be decommissioned, and Teams is your default application for chat and meetings. In case you missed it, let’s review what Microsoft Teams can do for you:
@@ -156,7 +156,7 @@ Regards,
 ACTION REQUESTED: Tell us about your Microsoft Teams experience
 ```
 
-Сообщение электронной почты:
+Тело сообщения электронной почты:
 
 ````
 We upgraded to Microsoft Teams just over a week ago and want to hear from you.
@@ -170,7 +170,7 @@ Should you have questions, contact <<insert alias or contact info>>.
 
 <a name="step-10-email"></a>
 
-### <a name="email-to-ask-users-to-give-teams-and-channels-a-try-for-step-10"></a>Сообщение электронной почты с вопросом о том, как предоставить пользователям попробовать команды и каналы, для шага 10
+### <a name="email-to-ask-users-to-give-teams-and-channels-a-try-for-step-10"></a>Сообщение электронной почты с запросом пользователей о том, как попробовать команды и каналы, для шага 10
 
 Строка темы:
 
@@ -178,7 +178,7 @@ Should you have questions, contact <<insert alias or contact info>>.
 CALL TO ACTION: Give teams and channels a try
 ```
 
-Сообщение электронной почты:
+Тело сообщения электронной почты:
 
 ````
 Now that you’re up and running with Microsoft Teams, learn what else Teams can do for you. More than just enabling chat and meetings, Teams serves as a hub for teamwork—where you can chat, collaborate, and share content with the people you work with. Using the teams and channels functionality enables you to organize your projects and conversations in a way that works for you.
@@ -203,14 +203,14 @@ Should you have questions, contact <<insert alias or contact info>>.
 
 Указать, насколько вы квалифицированы в следующих действиях в Teams и хотите ли вы узнать больше об одном или более действиях.
 
-| &nbsp; | Очень опытный | Несколько квалифицированных | Совсем не профессиональный | Хотите узнать больше | Н/Д | Не знаю(-а) | | | | |
+| &nbsp; | Очень опытный | Несколько квалифицированных | Совсем не опытный | Хотите узнать больше | Н/Д | Не знаю/не знаю | | | | |
 |---|---|---|---|---|---|---|---|---|---|---|
 | Используйте Teams для мгновенных бесед и общения с другими людьми | | | | | | | | | | |
 | Использование Teams для собраний по сети | | | | | | | | | | |
 | Использование Teams для совместной работы (команд и каналов) | | | | | | | | | | |
 | Использование Teams на мобильном устройстве | | | | | | | | | | |
 
-| **Что если что-то мешает вам использовать Microsoft Teams?** | **Выберите все применимые** |
+| **Что мешает вам использовать Microsoft Teams?** | **Выберите все применимые** |
 |---|---|
 | Я никогда не слышали об этом | &#9744; |
 | На моем компьютере она не установлена | &#9744; |

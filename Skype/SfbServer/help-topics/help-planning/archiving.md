@@ -15,7 +15,7 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 45580eaa-4c59-47c6-9e64-9221a3a352b4
-description: Архивировать в Skype для бизнеса Server можно с помощью архивных сообщений, которые отправляются через Skype для бизнеса Server.
+description: Архивировать сообщения, отправленные через Skype для бизнеса Server, можно с помощью Skype для бизнеса Server.
 ms.openlocfilehash: 053924727c43d43387bd759797754ba2ff45c4c1
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT

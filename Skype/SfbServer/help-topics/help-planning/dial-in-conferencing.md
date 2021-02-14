@@ -29,6 +29,6 @@ ms.locfileid: "49810569"
   
 Сведения о планировании включения в организации телефонной связи см. в следующих разделах и разделах, на которые он ссылается: 
   
-- [Plan for conferencing in Skype for Business Server 2015](../../plan-your-deployment/conferencing/conferencing.md)
+- [Планирование звонков в Skype для бизнеса Server 2015](../../plan-your-deployment/conferencing/conferencing.md)
     
 

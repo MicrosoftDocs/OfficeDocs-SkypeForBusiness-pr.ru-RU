@@ -28,11 +28,11 @@ ms.locfileid: "49810509"
 Веб-трансляции Skype для бизнеса Server 2015 включают совместную работу с документами, общий доступ к приложениям и общий доступ к рабочему столу.
   
 > [!NOTE]
-> Skype для бизнеса Server 2015 использует Office Web Apps и сервер Office Web Apps для обработки общего доступа и отображения презентаций PowerPoint. Функции веб-conferencing работают точно так же, как и в Microsoft Lync 2013. Дополнительные сведения об установке и настройке сервера Office Web Apps см. в сведениях о настройке интеграции с сервером Office Web Apps и [Lync Server 2013.](https://technet.microsoft.com/library/jj204792%28v=ocs.15%29.aspx) 
+> Skype для бизнеса Server 2015 использует Office Web Apps и сервер Office Web Apps для обработки общего доступа и отображения презентаций PowerPoint. Функции веб-conferencing работают точно так же, как и в Microsoft Lync 2013. Дополнительные сведения об установке и настройке сервера Office Web Apps см. в настройке интеграции с [сервером Office Web Apps и Lync Server 2013.](https://technet.microsoft.com/library/jj204792%28v=ocs.15%29.aspx) 
   
 Сведения о планировании включения веб-conferencing в организации см. в следующих темах: 
   
-- [Plan for conferencing in Skype for Business Server 2015](../../plan-your-deployment/conferencing/conferencing.md)
+- [Планирование звонков в Skype для бизнеса Server 2015](../../plan-your-deployment/conferencing/conferencing.md)
     
 - [Требования к оборудованию и программному обеспечению для видеоконференций в Skype для бизнеса Server 2015](../../plan-your-deployment/conferencing/hardware-and-software-requirements.md)
     
