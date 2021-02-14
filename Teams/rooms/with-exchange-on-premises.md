@@ -26,11 +26,11 @@ ms.locfileid: "49662324"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>Развертывание комнаты Microsoft Teams в локальной среде Exchange
 
-Сведения о том, как развернуть комнаты Microsoft Teams в гибридной среде с локальной средой Exchange и Microsoft Teams или Skype для бизнеса Online, можно найти в этой теме.
+Сведения о том, как развернуть комнаты Microsoft Teams в гибридной среде с локальной средой Exchange и Microsoft Teams или Skype для бизнеса Online, можно прочитать в этой теме.
   
 Если в вашей организации имеется сочетание служб, одни из которых локально, а другие — в Интернете, то конфигурация будет зависеть от того, где именно. В этой теме описывается гибридное развертывание комнат Microsoft Teams с локальной службой Exchange. Так как в развертывании такого типа много разных вариантов, предоставить подробные инструкции для всех из них невозможно. Для многих конфигураций будет работать следующий процесс: Если процесс не подстроен для вашей настройки, рекомендуем использовать Windows PowerShell для достижения того же результата, что и здесь, а также для других параметров развертывания.
 
-Корпорация Майкрософт [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), сценарий, который помогает создавать новые учетные записи пользователей или проверять существующие учетные записи ресурсов, чтобы превратить их в совместимые учетные записи пользователей комнат Microsoft Teams. При этом вы можете настроить учетные записи, которые будут использовать ваше устройство Microsoft Teams Rooms, следуя этим шагам.
+Корпорация Майкрософт [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), сценарий, который помогает создавать новые учетные записи пользователей или проверять существующие учетные записи ресурсов, чтобы превратить их в совместимые учетные записи пользователей комнат Microsoft Teams. При этом вы можете настроить учетные записи, которые будут использовать устройства с комнатами Microsoft Teams, следуя этим шагам.
   
 ## <a name="requirements"></a>Требования
 
@@ -65,7 +65,7 @@ ms.locfileid: "49662324"
 3. Введите пароль учетной записи. Подтвердите пароль. Убедитесь, что выбран только параметр **Срок действия пароля не ограничен**.
 
     > [!NOTE]
-    > Выбор пароля **"Срок действия не истекает"** является требованием к серверу Skype для бизнеса в комнатах Microsoft Teams. В некоторых случаях пароли с неограниченным сроком действия могут быть запрещены правилами домена. В этом случае необходимо создать исключение для каждой учетной записи устройства в microsoft Teams Rooms.
+    > Выбор пароля **"Срок действия не истекает"** является требованием для сервера Skype для бизнеса в комнатах Microsoft Teams. В некоторых случаях пароли с неограниченным сроком действия могут быть запрещены правилами домена. В этом случае необходимо создать исключение для каждой учетной записи устройства в microsoft Teams Rooms.
   
 4. После создания учетной записи выполните синхронизацию каталогов. После этого перейдите на страницу пользователей в Центре администрирования Microsoft 365 и убедитесь, что учетная запись, созданная на предыдущих шагах, была создана в Интернете.
 
@@ -73,7 +73,7 @@ ms.locfileid: "49662324"
 
 1. [Откройте управляющую оболочку Exchange или](https://docs.microsoft.com/powershell/exchange/exchange-server/open-the-exchange-management-shell) подключите ее к [серверу Exchange с помощью удаленной оболочки PowerShell.](https://docs.microsoft.com/powershell/exchange/exchange-server/connect-to-exchange-servers-using-remote-powershell)
 
-2. В Exchange PowerShell создайте почтовый ящик для учетной записи (в том числе для этой учетной записи), выляв следующую команду:
+2. В Exchange PowerShell создайте почтовый ящик для учетной записи (в том числе для этой учетной записи) с помощью следующей команды:
 
    ```PowerShell
    Enable-Mailbox PROJECTRIGEL01@contoso.com -Room
@@ -132,7 +132,7 @@ ms.locfileid: "49662324"
    Set-AzureADUserLicense -UserPrincipalName $acctUpn -AddLicenses $strLicense
    ```  -->
 
-   Подробные инструкции см. в описании назначения лицензий учетным записям пользователей с помощью [Office 365 PowerShell.](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell)
+   Подробные инструкции см. в описании назначения лицензий учетным записям пользователей с [помощью Office 365 PowerShell.](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell)
 
 ### <a name="enable-the-device-account"></a>Включить учетную запись устройства
 

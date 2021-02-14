@@ -28,7 +28,7 @@ The steps needed to define a new VIS or Video Gateway in Topology Builder are de
   
 The steps needed to assign a Video Interop Server role on a server using Windows PowerShell are described online at [Deploy the VIS server role in Skype for Business Server](../../../deploy/deploy-video-interop-server/deploy-the-vis-server-role.md)
   
-Действия по настройке нового сервера video Interop Server с Windows PowerShell описаны в Интернете на веб-сайте [Configure the Video Interop Server in Skype for Business Server.](../../../deploy/deploy-video-interop-server/configure-the-vis.md)
+Действия по настройке нового сервера видеосвязи с использованием Windows PowerShell описаны в Интернете на веб-сайте "Настройка сервера видеосвязи" [в Skype для бизнеса Server.](../../../deploy/deploy-video-interop-server/configure-the-vis.md)
   
  Параметры видео шлюза, которые необходимо настроить в GUI Cisco для связи с VIS, описаны в Интернете на веб-сайте [Configure CUCM for Interoperation with Skype for Business Server.](../../../deploy/deploy-video-interop-server/configure-cucm-for-interoperation.md)
   

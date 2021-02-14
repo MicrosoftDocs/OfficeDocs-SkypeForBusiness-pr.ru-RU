@@ -27,7 +27,7 @@ ms.locfileid: "49772042"
 ---
 # <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>Управление жизненным циклом закрытых каналов в Microsoft Teams
 
-Здесь вы найдете рекомендации, необходимые для управления использованием Graph API для управления частными каналами [Teams](https://docs.microsoft.com/microsoftteams/private-channels) в вашей организации.
+Здесь вы найдете руководство, необходимое для управления использованием Graph API для управления частными каналами [Teams](https://docs.microsoft.com/microsoftteams/private-channels) в вашей организации.
 
 ## <a name="set-whether-team-members-can-create-private-channels"></a>Укажите, могут ли участники команды создавать закрытые каналы
 

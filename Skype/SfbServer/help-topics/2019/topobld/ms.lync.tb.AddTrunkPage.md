@@ -42,4 +42,4 @@ ms.locfileid: "49800899"
 
 [Магистраль M:N в Skype для бизнеса Server](../../../plan-your-deployment/enterprise-voice-solution/m-n-trunk.md)
 
-[Как реализовать транкинг SIP?](https://technet.microsoft.com/library/273a22b1-8a4c-4187-acf8-c57d5c6598ce.aspx)
+[Как реализовать магистрали SIP?](https://technet.microsoft.com/library/273a22b1-8a4c-4187-acf8-c57d5c6598ce.aspx)

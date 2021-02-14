@@ -25,7 +25,7 @@ ms.locfileid: "49662584"
 
 Управление учетными записями для устройств комнат Microsoft Teams обрабатывается на уровне приложения. Приложение подключается к Microsoft Teams, Skype для бизнеса и Exchange, чтобы получить ресурсы для учетной записи комнаты, чтобы обеспечить возможность звонков и собраний. На устройстве хранится учетная запись с agnostic, что позволяет использовать всегда возможности, сценарии звонков (для устройств, настроенных с помощью плана звонков), а также настраиваемые механизмы блокировки, реализованные на этих устройствах. Это означает, что проверка подлинности на этих устройствах происходит не так, как на устройствах пользователей.  
 
-Современная проверка подлинности рекомендуется для всех клиентов, использующих устройства комнат Microsoft Teams с Microsoft 365 или Office 365. Если у вас развернут сервер Exchange Server или Skype для [](https://docs.microsoft.com/office365/enterprise/hybrid-modern-auth-overview) бизнеса, настройте гибридную современную проверку подлинности с помощью Azure Active Directory (Azure AD), чтобы использовать современную проверку подлинности.
+Современная проверка подлинности рекомендуется для всех клиентов, использующих устройства комнат Microsoft Teams с Microsoft 365 или Office 365. Если у вас имеется локальное развертывание exchange Server или [](https://docs.microsoft.com/office365/enterprise/hybrid-modern-auth-overview) сервера Skype для бизнеса, настройте гибридную современную проверку подлинности с помощью Azure Active Directory (Azure AD), чтобы использовать современную проверку подлинности.
 
 Современная проверка подлинности поддерживается в комнатах Microsoft Teams версии 4.4.25.0 и более поздних.
 
@@ -61,11 +61,11 @@ ms.locfileid: "49662584"
 
 ## <a name="prepare-your-environment-for-modern-authentication"></a>Подготовка среды к современной проверке подлинности
 
-Прежде чем начать, убедитесь, что вы понимаете модели удостоверений, которые используются в Office 365 и Azure AD. Дополнительные сведения можно найти в моделях [удостоверений Office 365, Azure Active Directory,](https://docs.microsoft.com/Office365/Enterprise/about-office-365-identity) а также при синхронизации гибридных удостоверений и каталогов [для Microsoft 365 или Office 365.](https://docs.microsoft.com/Office365/Enterprise/plan-for-directory-synchronization)
+Прежде чем начать, убедитесь, что вы знаете модели удостоверений, которые используются в Office 365 и Azure AD. Дополнительные сведения можно найти в моделях [удостоверений Office 365, Azure Active Directory,](https://docs.microsoft.com/Office365/Enterprise/about-office-365-identity) а также при синхронизации гибридных удостоверений и каталогов [для Microsoft 365 или Office 365.](https://docs.microsoft.com/Office365/Enterprise/plan-for-directory-synchronization)
 
 ### <a name="enable-modern-authentication-in-microsoft-365-or-office-365"></a>Включить современную проверку подлинности в Microsoft 365 или Office 365
 
-Чтобы включить современную проверку подлинности для Exchange Online, см. в этом видео. [](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/enable-or-disable-modern-authentication-in-exchange-online) Если вы используете Skype для бизнеса Online, убедитесь, что включена современная проверка подлинности для Skype для бизнеса Online. Дополнительные узнать см. в skype для бизнеса Online: "Как включить современную проверку [подлинности для клиента".](https://aka.ms/SkypeModernAuth)
+Чтобы включить современную проверку подлинности для Exchange Online, см. в этом видео. [](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/enable-or-disable-modern-authentication-in-exchange-online) При использовании Skype для бизнеса Online необходимо также убедиться, что включена современная проверка подлинности для Skype для бизнеса Online. Дополнительные информации см. в [skype для бизнеса Online: "Как включить современную проверку подлинности для клиента".](https://aka.ms/SkypeModernAuth)
 
 Мы рекомендуем не удалять базовые политики проверки подлинности для Exchange Online и не отключать базовую проверку подлинности для клиента до тех пор, пока не будет проверено, что устройства комнат Microsoft Teams могут успешно войти с помощью Exchange Online, Teams и Skype для бизнеса Online.
 
@@ -83,22 +83,22 @@ ms.locfileid: "49662584"
 
 ### <a name="prerequisites-specific-to-microsoft-teams-rooms"></a>Предварительные условия для комнат Microsoft Teams
 
-Необходимые условия для того, чтобы включить современную проверку подлинности в гибридной топологии, можно найти в обзоре гибридной современной проверки подлинности и предварительных условия для ее использования с локальной версией Skype для бизнеса и [серверами Exchange.](https://docs.microsoft.com/office365/enterprise/hybrid-modern-auth-overview) Применяются все необходимые условия, рассмотренные в этой статье.
+Необходимые условия для того, чтобы включить современную проверку подлинности в гибридной топологии, можно найти в обзоре гибридной современной проверки подлинности и предварительные условия для ее использования с локальной версией Skype для бизнеса и [серверами Exchange.](https://docs.microsoft.com/office365/enterprise/hybrid-modern-auth-overview) Применяются все необходимые условия, рассмотренные в этой статье.
 
 Однако поскольку в комнатах Microsoft Teams используется авторизация паролей владельцев ресурсов и а также API REST, которые используются при современной проверке подлинности, следует помнить о следующих важных различиях, которые специфичные для Microsoft Teams Rooms. [](https://tools.ietf.org/html/rfc6749#section-1.3.3)
 
 - Необходимо иметь Exchange Server 2016 с 8 или более поздней либо Exchange Server 2019 с 1 или более поздней.
 - У вас должна быть skype для бизнеса Server 2015 с cu5 или более поздней либо Skype для бизнеса Server 2019 или более поздней.
 - MFA не поддерживается независимо от топологии.
-- Комнаты Microsoft Teams не поддерживают несоответствия SIP и UPN. Для работы комнат Microsoft Teams необходимо создать учетную запись с одинаковыми upN и SIP.
+- Комнаты Microsoft Teams не поддерживают несоответствия SIP и UPN. Для работы комнат Microsoft Teams необходимо создать учетную запись с одинаковыми ИНН и SIP.
 - Если вы используете стороннее поставщик проверки подлинности, который поддерживает Azure AD, он должен поддерживать активный поток проверки подлинности через WS-Trust.
 - Не используйте политики условного доступа на уровне устройств для учетной записи ресурса, настроенной в приложении. Это приведет к сбоям при входе. Вместо этого зарегистрировать устройство в Microsoft Intune и применить политики соответствия требованиям с помощью инструкций, опубликованных в области управления комнатами собраний [Teams с помощью Intune.](https://techcommunity.microsoft.com/t5/intune-customer-success/managing-teams-meeting-rooms-with-intune/ba-p/1069230)
 
 ### <a name="configure-exchange-server"></a>Настройка Exchange Server
 
-Чтобы включить гибридную современную проверку подлинности в Exchange Server, см. Exchange Server настройки локальной проверки для [использования гибридной современной проверки подлинности.](https://docs.microsoft.com/Office365/Enterprise/configure-exchange-server-for-hybrid-modern-authentication)
+Чтобы включить гибридную современную проверку подлинности в Exchange Server, см. Exchange Server настройки локальной проверки подлинности для [использования гибридной современной проверки подлинности.](https://docs.microsoft.com/Office365/Enterprise/configure-exchange-server-for-hybrid-modern-authentication)
 
-### <a name="configure-skype-for-business-server"></a>Настройка сервера Skype для бизнеса
+### <a name="configure-skype-for-business-server"></a>Настройка Сервера Skype для бизнеса
 
 О том, как включить гибридную современную проверку подлинности в Skype для бизнеса Server, см. в локальной настройке Skype для бизнеса для использования [гибридной современной проверки подлинности.](https://docs.microsoft.com/Office365/Enterprise/configure-exchange-server-for-hybrid-modern-authentication)
 

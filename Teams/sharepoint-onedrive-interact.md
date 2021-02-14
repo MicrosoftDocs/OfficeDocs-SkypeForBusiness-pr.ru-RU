@@ -63,7 +63,7 @@ ms.locfileid: "49757784"
 
 ![Схема папки OneDrive с именем "Файлы чата Microsoft Teams"](media/Understand_how_SharePoint_Online_and_OneDrive_for_Business_interact_with_Microsoft_Teams_image2.png)
 
-Обратите внимание, что для общедоступных команд сайт группы SharePoint имеет доступ "Все, кроме внешних пользователей". Общедоступные команды не отображаются в Teams для людей, которые не являются членами этой команды. Однако они могут получать доступ к контенту на сайте группы SharePoint, используя URL-адрес сайта группы SharePoint. 
+Обратите внимание, что для общедоступных команд сайт группы SharePoint имеет доступ "Все, кроме внешних пользователей". Эта команда не отображается в Teams для людей, которые не являются ее членами. Однако они могут получать доступ к контенту на сайте группы SharePoint, используя URL-адрес сайта группы SharePoint. 
 
 ## <a name="channel-files-tab"></a>Вкладка "Файлы канала"
 
@@ -85,11 +85,11 @@ ms.locfileid: "49757784"
 
 ## <a name="default-link-type-setting"></a>Тип ссылки по умолчанию
 
-В SharePoint и OneDrive есть параметр для администратора, который указывает тип ссылок по умолчанию для ссылок, созданных для файла. В Teams используется тот же подход, благодаря повторному использованию параметров, которые администратор устанавливает для SharePoint и OneDrive. Дополнительные сведения об этом способе описаны в разделе "Изменение типа ссылки по [умолчанию", когда пользователи получают ссылки для общего доступа.](https://docs.microsoft.com/sharepoint/change-default-sharing-link) 
+В SharePoint и OneDrive есть параметр для администратора, который указывает тип ссылок по умолчанию для ссылок, созданных для файла. В Teams используется тот же подход, что и для SharePoint и OneDrive. Дополнительные сведения об этом способе описаны в разделе "Изменение типа ссылки по [умолчанию", когда пользователи получают ссылки для общего доступа.](https://docs.microsoft.com/sharepoint/change-default-sharing-link) 
 
 ## <a name="more-information"></a>Дополнительные сведения
 
-Дополнительные сведения о том, как SharePoint работает с Teams, см. в совместной работе с [SharePoint и Teams.](https://techcommunity.microsoft.com/t5/Microsoft-SharePoint-Blog/SharePoint-and-Teams-Better-Together/ba-p/189593)
+Дополнительные сведения о работе SharePoint с Teams см. в совместной работе с [SharePoint и Teams.](https://techcommunity.microsoft.com/t5/Microsoft-SharePoint-Blog/SharePoint-and-Teams-Better-Together/ba-p/189593)
 
 Чтобы узнать больше о гостевом впечатлениях в Teams, ознакомьтесь [с их впечатлениями.](guest-experience.md)
 
