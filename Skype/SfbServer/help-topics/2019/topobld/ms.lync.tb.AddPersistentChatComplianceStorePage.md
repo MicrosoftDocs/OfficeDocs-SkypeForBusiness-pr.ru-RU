@@ -14,7 +14,7 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b9771b53-e19a-4a12-bf01-24bae6f7e482
 ROBOTS: NOINDEX, NOFOLLOW
-description: Настраиваются хранилища SQL Server соответствия требованиям, которые будут предоставлять базы данных для функции соответствия для сервера сохраняемой беседы или сервера сохраняемой беседы.
+description: Настройте хранилища соответствия SQL Server, которые будут предоставлять базы данных для функции соответствия для сервера сохраняемой беседы или сервера сохраняемой беседы.
 ms.openlocfilehash: 146604ddbdcc35e6df511e40c5cae32482af4a70
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT

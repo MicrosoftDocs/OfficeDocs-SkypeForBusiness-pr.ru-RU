@@ -41,7 +41,7 @@ _Веб-страница загрузки_ и обновления Skype для 
     - [История обновлений Skype для бизнеса Server 2019](sfb-server-updates.md#skype-for-business-server-2019-update-history)
     - [История обновлений Skype для бизнеса Server 2015](sfb-server-updates.md#skype-for-business-server-2015-update-history)
     - [История обновлений Lync Server 2013](sfb-server-updates.md#lync-server-2013-update-history)
-        - [Средства разработчика Lync Server 2013](sfb-server-updates.md#lync-server-2013-dev-tools)
+        - [Средства для разработчиков Lync Server 2013](sfb-server-updates.md#lync-server-2013-dev-tools)
         - [Предварительно настроенные VHD](sfb-server-updates.md#pre-configured-vhds)
         - [Средства Lync 2013](sfb-server-updates.md#lync-2013-tools)
         - [Загружаемая документация по Lync 2013](sfb-server-updates.md#lync-2013-downloadable-documentation)

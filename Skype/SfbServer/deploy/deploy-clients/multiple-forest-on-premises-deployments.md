@@ -28,7 +28,7 @@ ms.locfileid: "49805749"
   
 После создания почтового ящика можно использовать Set-CalendarProcessing для настройки почтового ящика. Дополнительные сведения можно найти в шагах с 3 по 6 в рамках локального развертывания с одним лесом. After creating an Exchange Resource mailbox for Skype Room System, enable the account for Skype for Business by following the steps in Enabling Skype Room System Accounts for Skype for Business under Single forest on-premises deployments.
   
-## <a name="option-1-create-a-new-resource-mailbox"></a>Вариант 1. Создание нового почтового ящика ресурса
+## <a name="option-1-create-a-new-resource-mailbox"></a>Вариант 1. Создание почтового ящика ресурса
 
 Развертывание системы комнат Skype в среде с несколькими лесами
   

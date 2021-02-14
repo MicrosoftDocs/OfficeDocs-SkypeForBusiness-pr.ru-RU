@@ -1,5 +1,5 @@
 ---
-title: Развертывание подключаемого модуль VDI Lync в Skype для бизнеса Server
+title: Развертывание подключаемого модуль Lync VDI со Skype для бизнеса Server
 ms.author: v-cichur
 author: cichur
 manager: serdars
@@ -19,7 +19,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49805939"
 ---
-# <a name="deploy-the-lync-vdi-plug-in-with-skype-for-business-server"></a>Развертывание подключаемого модуль VDI Lync в Skype для бизнеса Server
+# <a name="deploy-the-lync-vdi-plug-in-with-skype-for-business-server"></a>Развертывание подключаемого модуль Lync VDI со Skype для бизнеса Server
  
 В этом разделе обсуждаются процедуры развертывания Skype для бизнеса при подключении к удаленному виртуальному рабочему столу. Вопросы планирования рассматриваются в [планировании Skype для бизнеса в средах VDI.](../../plan-your-deployment/clients-and-devices/vdi-environments.md)
   

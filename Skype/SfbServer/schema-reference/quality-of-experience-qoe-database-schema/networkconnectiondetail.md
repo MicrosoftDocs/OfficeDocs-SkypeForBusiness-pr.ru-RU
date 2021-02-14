@@ -27,6 +27,6 @@ ms.locfileid: "49806309"
 |**Столбец**|**Тип данных**|**Ключ/индекс**|**Details**|
 |:-----|:-----|:-----|:-----|
 |**NetworkConnectionDetailKey** <br/> |tinyint  <br/> |Primary  <br/> |Уникальный идентификатор типа сетевого подключения.  <br/> |
-|**NetworkConnectionDetail** <br/> |varchar(256)  <br/> |Уникальные  <br/> |Тип сетевого подключения, который соответствует значению NetworkConnectionDetailKey. Допускаются следующие значения:  <br/> 0 — проводное  <br/> 1 — беспроводное  <br/> 2 — Ethernet  <br/> 3 — MobileBB  <br/> 4 — другое  <br/> 5 — туннель  <br/> |
+|**NetworkConnectionDetail** <br/> |varchar(256)  <br/> |Уникальные  <br/> |Тип сетевого подключения, который соответствует значению NetworkConnectionDetailKey. Допускаются следующие значения:  <br/> 0 — проводное  <br/> 1 — беспроводное  <br/> 2 — Ethernet  <br/> 3 — MobileBB  <br/> 4 — другие  <br/> 5 — туннель  <br/> |
    
 

@@ -25,7 +25,7 @@ ms.locfileid: "49805759"
   
 ## <a name="skype-for-business-on-mac-client-preference-settings"></a>Параметры параметров клиента Skype для бизнеса на Mac
 
-Некоторые функции и поведение, доступные клиентам Skype для бизнеса на Mac, определяются настройками параметров клиента. Настройки Skype для бизнеса на Mac находятся в файле, расположенном на компьютере Mac, где установлен клиент Skype для бизнеса, расположенный по следующему пути: 
+Некоторые функции и поведение, доступные клиентам Skype для бизнеса на Mac, определяются настройками параметров клиента. Параметры Skype для бизнеса на Mac находятся в файле, расположенном на компьютере Mac с установленным клиентом Skype для бизнеса, расположенным по следующему пути: 
   
  **~/Library/Containers/com.microsoft.SkypeForBusiness/Data/Library/Preferences/com.microsoft.SkypeForBusiness.plist**
   
@@ -36,14 +36,14 @@ ms.locfileid: "49805759"
 
 | Key | Тип | Значение | Описание |
 |:-----|:-----|:-----|:-----|
-|autoDetectAutoDicoveryURLs    |Логический    |0 = конфигурация сервера вручную  <br/> 1 = автоматическое обнаружение сервера (по умолчанию)    |Укажите, как Skype для бизнеса определяет транспортный сервер и сервер, которые будут использовать при входе. Если этот параметр политики включается, необходимо указать **internalAutoDiscoveryURL** и **externalAutoDiscoveryURL.**   |
+|autoDetectAutoDicoveryURLs    |Логический    |0 = конфигурация сервера вручную  <br/> 1 = автоматическое обнаружение сервера (по умолчанию)    |Укажите, как Skype для бизнеса определяет транспорт и сервер для использования во время входов. Если этот параметр политики включается, необходимо указать **internalAutoDiscoveryURL** и **externalAutoDiscoveryURL.**   |
 |internalAutoDiscoveryURL    |String    |ПОЛНЫЙ URL-адрес автооружия    |ВНУТРЕННИЙ URL-адрес автооружия    |
 |externalAutoDiscoveryURL    |String    |ПОЛНЫЙ URL-адрес автооружия    |Внешний URL-адрес автооружия    |
 |httpProxyDomain    |String    ||Домен прокси-сервера HTTP    |
 |httpProxyUserName    |String    ||HTTP Proxy Username    |
 |httpProxyPassword    |String    ||Пароль прокси-сервера HTTP    |
 |trustedDomainList    |Массив    ||Список доверенных доменов для перенаправлений HTTP.    |
-|autoAcceptTimeout    |Числовой    |300 (по умолчанию)    |Auto-Accept timeout for users without Server-side Conversation History.    |
+|autoAcceptTimeout    |Номер    |300 (по умолчанию)    |Auto-Accept timeout for users without Server-side Conversation History.    |
 |warnWhenUnknownLocationForE911    |Логический    |0 = отключено  <br/> 1 = включено    |Предупреждает пользователя при наборе номера экстренной службы из неизвестного расположения.    |
 |sipAddress    |String    ||SIP-адрес (электронная почта), используемый для входов в Skype для бизнеса.    |
 |userName    |String    ||Имя пользователя, используемого для входов в Skype для бизнеса.    |
@@ -59,9 +59,9 @@ defaults write com.microsoft.SkypeForBusiness trustedDomainList -array-add "Cont
   
 defaults write com.microsoft.SkypeForBusiness trustedDomainList -array-add "sfb.com" "abc.com" "test.org"
   
-### <a name="sample-unedited-settings"></a>Пример неоконченных параметров
+### <a name="sample-unedited-settings"></a>Пример невысвеченных параметров
 
-Для справки вот пример файла параметров, использующий только параметры по умолчанию: 
+Для справки вот пример файла параметров с использованием только параметров по умолчанию: 
   
 ```console
 {

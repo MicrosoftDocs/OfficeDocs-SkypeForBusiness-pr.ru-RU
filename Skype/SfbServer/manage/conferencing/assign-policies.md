@@ -39,6 +39,6 @@ Grant-CsConferencingPolicy -identity "Ken Myer" -PolicyName SalesConferencingPol
 Get-CsUser -OU "ou=Finance,dc=litwareinc,dc=com" | Grant-CsConferencingPolicy -PolicyName FinanceConferencingPolicy
 ```
 
-Дополнительные сведения, включая полный синтаксис и список параметров, см. в списке [Grant-CsConferencingPolicy.](https://docs.microsoft.com/powershell/module/skype/grant-csconferencingpolicy?view=skype-ps)
+Дополнительные сведения, включая полный синтаксис и список параметров, см. в поле [Grant-CsConferencingPolicy.](https://docs.microsoft.com/powershell/module/skype/grant-csconferencingpolicy?view=skype-ps)
   
 

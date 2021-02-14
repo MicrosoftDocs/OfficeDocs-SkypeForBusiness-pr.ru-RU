@@ -34,7 +34,7 @@ ms.locfileid: "49804969"
 
 4. На странице **Выполнение команд** найдите запись **Состояние задачи: Завершено**, затем нажмите кнопку **Просмотреть журнал**.
 
-5. В столбце **"Действие"** разйдите "Подготовка домена" **и** найдите результат выполнения в конце каждой задачи, чтобы убедиться, что подготовка домена успешно завершена, закроем журнал и нажмите кнопку **\<Success\>** **"Готово".**
+5. В **столбце "Действие"** разйдите "Подготовка домена" **и** найдите результат выполнения в конце каждой задачи, чтобы убедиться, что подготовка домена успешно завершена, закроем журнал и нажмите кнопку **\<Success\>** **"Готово".**
 
 > [!TIP]
 > If you need to review the log files that are created by the Skype for Business Server Deployment Wizard, you can find them on the computer where the Deployment Wizard was run in the Users directory of the Active Directory Domain Services user who ran the step. Например, если пользователь вошел с учетной записью администратора домена в домене Contoso.net, файлы журнала будут расположены в папке C:\Users\Administrator.Contoso\AppData\Local\Temp.

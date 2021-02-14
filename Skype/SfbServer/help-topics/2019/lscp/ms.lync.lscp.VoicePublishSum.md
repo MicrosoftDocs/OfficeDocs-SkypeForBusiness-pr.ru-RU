@@ -1,5 +1,5 @@
 ---
-title: Состояние маршрутации голосовой почты для фиксации изменений в конфигурации маршрутации голосовой почты
+title: Voice Routing Status of Commit Changes for Voice Routing Configuration
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur

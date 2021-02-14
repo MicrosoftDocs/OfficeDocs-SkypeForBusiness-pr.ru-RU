@@ -27,7 +27,7 @@ ms.locfileid: "49806279"
 ---
 # <a name="add-change-or-remove-a-place-for-an-emergency-location-in-your-organization"></a>Добавление, изменение и удаление места для расположения для экстренного реагирования для организации
 
-В зависимости от числа физических расположений в организации вы можете добавить здания, этажи и офисы, чтобы создать более конкретное местоположение для экстренного экстренного ситуация. Дополнительные [сведения см. в подмносях "Управление](what-are-emergency-locations-addresses-and-call-routing.md) экстренным вызовом".
+В зависимости от числа физических расположений в организации вы можете добавить здания, этажи и офисы, чтобы создать более конкретное местоположение для экстренного нахождения. Дополнительные [сведения см. в подмносях "Управление](what-are-emergency-locations-addresses-and-call-routing.md) экстренным вызовом".
   
 Чтобы узнать, как получить план звонков и сколько они стоят, см. лицензирование [надстройки Teams.](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 
@@ -46,7 +46,7 @@ ms.locfileid: "49806279"
 
 См. [new-CsOnlineLisLocation.](https://docs.microsoft.com/powershell/module/skype/new-csonlinelislocation)
     
-## <a name="change-a-place-for-an-emergency-location"></a>Изменение места для экстренного расположения
+## <a name="change-a-place-for-an-emergency-location"></a>Изменение места для экстренного размещения
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>С помощью Центра администрирования Microsoft Teams
 

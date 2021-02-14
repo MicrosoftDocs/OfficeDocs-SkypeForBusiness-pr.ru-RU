@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: Воспользуйтесь интернет-учебными ресурсами, чтобы привлечь сотрудников службы поддержки к эксперименту по внедрению Teams.
+description: Используйте интернет-учебные ресурсы, чтобы привлечь сотрудников службы поддержки к эксперименту по внедрению Teams.
 f1.keywords:
 - CSH
 ms.custom:
@@ -37,4 +37,4 @@ ms.locfileid: "49806139"
 - [Известные проблемы и устранение неполадок](https://aka.ms/TeamsKnownIssues)
 - [Обучение работе с Microsoft Teams](https://docs.microsoft.com/microsoftteams/training-microsoft-teams-landing-page)
 
-![Значок, представляющий следующий ](media/teams-adoption-next-icon.png) этап: [внедрение Microsoft Teams, этап 3: масштаб.](teams-adoption-phase3-enable.md)
+![Значок, представляющий следующий ](media/teams-adoption-next-icon.png) этап: [внедрение Microsoft Teams, этап 3. Масштаб.](teams-adoption-phase3-enable.md)

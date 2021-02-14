@@ -14,7 +14,7 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0e298963-cc86-445a-87f4-d611ef2167ee
-description: При миграции Microsoft Office Communications Server 2007 R2 в Lync Server 2013 для объединения существующих топологий используются функции построитель топологий. На экране сводки указаны все действия и настройки, сделанные при настройке слияния Office Communications Server 2007 R2 в конфигурацию построитель топологий Lync Server 2013.
+description: При миграции Microsoft Office Communications Server 2007 R2 на Lync Server 2013 для объединения существующих топологий используются функции построитель топологий. На экране сводки указаны все действия и настройки, сделанные при настройке слияния Office Communications Server 2007 R2 в конфигурацию построитель топологий Lync Server 2013.
 ms.openlocfilehash: ce6885f6a980c32e66b90fd2ba9129653a9a43bf
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
@@ -24,7 +24,7 @@ ms.locfileid: "49806739"
 ---
 # <a name="legacy-merge-summary-page"></a>Страница сводки по объединению с устаревшей версией
 
-При миграции Microsoft Office Communications Server 2007 R2 в Lync Server 2013 для объединения существующих топологий используются функции построитель топологий. На экране сводки указаны все действия и настройки, сделанные при настройке слияния Office Communications Server 2007 R2 в конфигурацию построитель топологий Lync Server 2013.
+При миграции Microsoft Office Communications Server 2007 R2 на Lync Server 2013 для объединения существующих топологий используются функции построитель топологий. На экране сводки указаны все действия и настройки, сделанные при настройке слияния Office Communications Server 2007 R2 в конфигурацию построитель топологий Lync Server 2013.
 
 Просмотрите эти сводные сведения и оцените приемлемость собственных настроек. Продолжите объединение, если выбранные параметры, приведенные на этом экране, не вызывают сомнений.
 

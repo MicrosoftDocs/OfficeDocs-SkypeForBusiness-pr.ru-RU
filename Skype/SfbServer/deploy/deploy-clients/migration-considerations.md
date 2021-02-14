@@ -27,7 +27,7 @@ ms.locfileid: "49805789"
 
 В этом разделе содержатся рекомендации по развертыванию системы комнат Skype в среде с несколькими пулами, которая включает различные версии Skype для бизнеса Server или Lync Server. 
   
-Компонент репликатора пользовательских данных (UR) в Lync Server получает объекты пользователей из Active Directory и помещает их в серверную SQL Server Lync Server. Только URL-адрес в Lync Server 2013 знает об объектах системы комнат Skype. URL-адрес в предыдущих версиях Lync Server и Office Communications Server не определяет атрибуты Active Directory, которые обозначают объекты LRS, и поэтому не знает о них. 
+Компонент репликатора пользовательских данных (UR) в Lync Server получает объекты пользователей из Active Directory и помещает их в серверную SQL Server Lync Server. Только URL-адрес в Lync Server 2013 знает об объектах системы комнат Skype. URL-адрес в предыдущих версиях Lync Server и Office Communications Server не обнаруживает атрибуты Active Directory, которые обозначают объекты LRS, и поэтому не знает о них. 
   
 If a Skype Room System account tries to sign in to Lync , and performs auto discovery based on SRV record or DNS A record look up, and if those accounts point to a previous version of Lync Server or Office Communications Server, LRS will receive a 404 Not Found response from the legacy pool. Устаревший пул не сможет перенаправлять систему комнат Skype в домашний пул Lync Server 2013. 
   
@@ -43,7 +43,7 @@ If a Skype Room System account tries to sign in to Lync , and performs auto disc
 
 Если во время миграции пользователь, который находится в пуле Lync Server 2010, запланировать собрание и пригласить учетную запись системы комнат Skype, клиент системы комнат Skype будет иметь ограниченную функциональность при посещении собрания. 
   
-When the Skype Room System client joins a scheduled conference call that has been organized by a user homed on Lync Server 2010, Skype Room System has the following in-meeting limitations: 
+Когда клиент системы комнат Skype присоединяется к запланированному конференц-вызову, организованному пользователем, который работает в Lync Server 2010, система комнат Skype имеет следующие ограничения в собрании: 
   
 - Система комнат Skype не может показывать видеогалерею с несколькими представлениями.
     

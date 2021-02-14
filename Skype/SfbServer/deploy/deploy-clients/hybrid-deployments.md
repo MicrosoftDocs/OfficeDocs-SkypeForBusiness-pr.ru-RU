@@ -35,15 +35,15 @@ ms.locfileid: "49805899"
    New-Mailbox -room -name "LRS Test 5" -RoomMailboxPassword (ConvertTo-SecureString <password> -AsPlainText -Force) -EnableRoomMailboxAccount $true 
    ```
 
-    Проверить подключение OWA можно с помощью lrstest5@LyncSample.ccsctp.net входа.
+    Вы можете проверить подключение OWA с помощью lrstest5@LyncSample.ccsctp.net входа.
     
 2. В Центре администрирования Microsoft 365 или Office 365 Exchange добавьте адрес электронной почты lrstest5@LyncSample.com (наемный домен) и установите его в качестве адреса ответа.
     
 3. Создайте учетную lrstest5@LyncSample.com Active Directory, установите для адреса электронной почты lrstest5@LyncSample.com и за установите для целевого адреса lrstest5@LyncSample.com.
     
-4. Запуск синхронизации службы каталогов и проверка объединения пользователей в AAD и невозможности изменения свойств в ресурсах получателей в Центре администрирования Microsoft 365 или Office 365 Exchange.
+4. Активировать синхронизацию службы каталогов и после завершения синхронизации убедитесь, что пользователи объединены в AAD и что вы не можете изменить свойства в ресурсах получателей в Центре администрирования Microsoft 365 или Office 365 Exchange.
     
-5. Проверьте подключение OWA с помощью lrstest5@LyncSample.com. (Ранее вы проверили подключение OWA с помощью интернет-домена.)
+5. Проверьте подключение OWA с помощью lrstest5@LyncSample.com. (Ранее вы проверяли подключение OWA с помощью интернет-домена.)
     
     После создания почтового ящика можно использовать Set-CalendarProcessing в exchange Online Management Shell для настройки почтового ящика. Дополнительные сведения можно найти в действиях с 3 по 6 в статье "Развертывание с одним лесом на предварительном этапе".
     
@@ -52,7 +52,7 @@ ms.locfileid: "49805899"
   
     Если вы хотите, чтобы почтовый ящик системы комнат Skype был в Exchange Online, эти действия в exchange Management Shell не требуются, и вы можете перейти к шагу 6.
     
-6. Чтобы включить учетную запись системы комнат Skype для бизнеса, в оболочке управления Skype для бизнеса с помощью следующего:
+6. В включить учетную запись системы комнат Skype для Skype для бизнеса с помощью следующего команды в оболочке управления Skype для бизнеса:
     
    ```powershell
    Enable-CsMeetingRoom -SipAddress 'sip: lrstest5@LyncSample.com' -RegistrarPool pool1.child.corp.LyncSample.com -Identity lrstest5@LyncSample.com
@@ -60,6 +60,6 @@ ms.locfileid: "49805899"
    ```
 
 > [!NOTE]
-> Если в вышеуказанном сценарии вместо Skype для бизнеса Server имеется Skype для бизнеса Online, то после предоставления почтового ящика ресурса Exchange подучет учетной записи Skype для бизнеса, как описано в подучете Skype для бизнеса Online. 
+> Если в вышеуказанном сценарии вместо Skype для бизнеса Server имеется Skype для бизнеса Online, то после предоставления почтового ящика ресурса Exchange подымену учетной записи Skype для бизнеса, как описано в подукладке Skype для бизнеса Online. 
   
 
