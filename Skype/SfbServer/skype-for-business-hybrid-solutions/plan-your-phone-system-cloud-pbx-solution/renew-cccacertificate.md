@@ -12,7 +12,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 44da2f8d-0bf5-4f3e-b2e7-bb181dbbe646
-description: Командлет Renew-CcCACertificate продлевает сертификат корневого центра сертификации Skype для бизнеса Cloud Connector Edition, срок действия которого истекает или уже истек. Эта команда была изменена на Update-Кккацертификате в облачном соединителе 2,0 и более поздних версиях.
+description: Этот Renew-CcCACertificate обновляет сертификат корневого ЦС Skype для бизнеса Cloud Connector Edition, срок действия которого истекает или уже истек. Эта команда была изменена Update-CcCACertificate в Cloud Connector 2.0 и более поздних выпусках.
 ms.openlocfilehash: e92709cd1da0ffccd2b356000dbd2345ba56a1d9
 ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
@@ -20,57 +20,57 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 02/06/2020
 ms.locfileid: "41824275"
 ---
-# <a name="renew-cccacertificate"></a><span data-ttu-id="60dd8-104">Renew-CcCACertificate</span><span class="sxs-lookup"><span data-stu-id="60dd8-104">Renew-CcCACertificate</span></span>
+# <a name="renew-cccacertificate"></a><span data-ttu-id="715c1-104">Renew-CcCACertificate</span><span class="sxs-lookup"><span data-stu-id="715c1-104">Renew-CcCACertificate</span></span>
  
-<span data-ttu-id="60dd8-105">Командлет Renew-CcCACertificate продлевает сертификат корневого центра сертификации Skype для бизнеса Cloud Connector Edition, срок действия которого истекает или уже истек.</span><span class="sxs-lookup"><span data-stu-id="60dd8-105">The Renew-CcCACertificate cmdlet renews the Skype for Business Cloud Connector Edition root CA certificate that is near expiration or already expired.</span></span> <span data-ttu-id="60dd8-106">Эта команда была изменена на Update-Кккацертификате в облачном соединителе 2,0 и более поздних версиях.</span><span class="sxs-lookup"><span data-stu-id="60dd8-106">This command was changed to Update-CcCACertificate in Cloud Connector 2.0 and later releases.</span></span>
+<span data-ttu-id="715c1-105">Этот Renew-CcCACertificate обновляет сертификат корневого ЦС Skype для бизнеса Cloud Connector Edition, срок действия которого истекает или уже истек.</span><span class="sxs-lookup"><span data-stu-id="715c1-105">The Renew-CcCACertificate cmdlet renews the Skype for Business Cloud Connector Edition root CA certificate that is near expiration or already expired.</span></span> <span data-ttu-id="715c1-106">Эта команда была изменена Update-CcCACertificate в Cloud Connector 2.0 и более поздних выпусках.</span><span class="sxs-lookup"><span data-stu-id="715c1-106">This command was changed to Update-CcCACertificate in Cloud Connector 2.0 and later releases.</span></span>
   
 ```powershell
 Renew-CcCACertificate
 ```
 
-## <a name="parameters"></a><span data-ttu-id="60dd8-107">Параметры</span><span class="sxs-lookup"><span data-stu-id="60dd8-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="715c1-107">Параметры</span><span class="sxs-lookup"><span data-stu-id="715c1-107">Parameters</span></span>
 
-<span data-ttu-id="60dd8-108">Нет</span><span class="sxs-lookup"><span data-stu-id="60dd8-108">None</span></span>
+<span data-ttu-id="715c1-108">Нет</span><span class="sxs-lookup"><span data-stu-id="715c1-108">None</span></span>
   
-## <a name="examples"></a><span data-ttu-id="60dd8-109">Примеры</span><span class="sxs-lookup"><span data-stu-id="60dd8-109">Examples</span></span>
-<span data-ttu-id="60dd8-110"><a name="Examples"> </a></span><span class="sxs-lookup"><span data-stu-id="60dd8-110"><a name="Examples"> </a></span></span>
+## <a name="examples"></a><span data-ttu-id="715c1-109">Примеры</span><span class="sxs-lookup"><span data-stu-id="715c1-109">Examples</span></span>
+<span data-ttu-id="715c1-110"><a name="Examples"> </a></span><span class="sxs-lookup"><span data-stu-id="715c1-110"><a name="Examples"> </a></span></span>
 
-### <a name="example-1"></a><span data-ttu-id="60dd8-111">Пример 1</span><span class="sxs-lookup"><span data-stu-id="60dd8-111">Example 1</span></span>
+### <a name="example-1"></a><span data-ttu-id="715c1-111">Пример 1</span><span class="sxs-lookup"><span data-stu-id="715c1-111">Example 1</span></span>
 
-<span data-ttu-id="60dd8-112">В следующем примере продлевается сертификат корневого центра сертификации. </span><span class="sxs-lookup"><span data-stu-id="60dd8-112">The following example renews the root CA certificate:</span></span> 
+<span data-ttu-id="715c1-112">В следующем примере обновляется сертификат корневого ЦС:</span><span class="sxs-lookup"><span data-stu-id="715c1-112">The following example renews the root CA certificate:</span></span> 
   
 ```powershell
 Renew-CcCACertificate 
 ```
 
-## <a name="detailed-description"></a><span data-ttu-id="60dd8-113">Подробное описание</span><span class="sxs-lookup"><span data-stu-id="60dd8-113">Detailed Description</span></span>
-<span data-ttu-id="60dd8-114"><a name="DetailedDescription"> </a></span><span class="sxs-lookup"><span data-stu-id="60dd8-114"><a name="DetailedDescription"> </a></span></span>
+## <a name="detailed-description"></a><span data-ttu-id="715c1-113">Подробное описание</span><span class="sxs-lookup"><span data-stu-id="715c1-113">Detailed Description</span></span>
+<span data-ttu-id="715c1-114"><a name="DetailedDescription"> </a></span><span class="sxs-lookup"><span data-stu-id="715c1-114"><a name="DetailedDescription"> </a></span></span>
 
-<span data-ttu-id="60dd8-115">Сертификат корневого центра сертификации Cloud Connector действует в течение пяти лет с момента установки службы центра сертификации.</span><span class="sxs-lookup"><span data-stu-id="60dd8-115">The Cloud Connector root CA certificate is valid for five years from the date that the Certificate Authority service is installed.</span></span>
+<span data-ttu-id="715c1-115">Сертификат корневого ЦС Cloud Connector действителен в течение пяти лет с даты установки службы ЦС.</span><span class="sxs-lookup"><span data-stu-id="715c1-115">The Cloud Connector root CA certificate is valid for five years from the date that the Certificate Authority service is installed.</span></span>
   
-<span data-ttu-id="60dd8-p103">Если срок действия корневого сертификата истекает или уже истек, выполните командлет Renew-CcCACertificate для его продления. После продления корневого сертификата серверу Active Directory, серверу центрального хранилища управления (CMS) и пограничному серверу автоматически будут выданы новые сертификаты.</span><span class="sxs-lookup"><span data-stu-id="60dd8-p103">If the root certificate is near expiration or already expired, run the Renew-CcCACertificate cmdlet to renew the certificate. After the root certificate is renewed, the AD Server, Central Management Store, and Edge Server will be issued new certificates automatically.</span></span>
+<span data-ttu-id="715c1-116">Если срок действия корневого сертификата истекает или уже истек, запустите Renew-CcCACertificate для его продления.</span><span class="sxs-lookup"><span data-stu-id="715c1-116">If the root certificate is near expiration or already expired, run the Renew-CcCACertificate cmdlet to renew the certificate.</span></span> <span data-ttu-id="715c1-117">После продления корневого сертификата серверу AD Server, центральному окню управления и edge Server автоматически будут выданы новые сертификаты.</span><span class="sxs-lookup"><span data-stu-id="715c1-117">After the root certificate is renewed, the AD Server, Central Management Store, and Edge Server will be issued new certificates automatically.</span></span>
   
-<span data-ttu-id="60dd8-118">Если на одном сайте ТСОП используется несколько устройств, выполните командлет Renew-CcCACertificate на всех устройствах этого сайта ТСОП.</span><span class="sxs-lookup"><span data-stu-id="60dd8-118">If there are multiple appliances in the same PSTN site, run the Renew-CcCACertificate cmdlet in all appliances of the same PSTN site.</span></span>
+<span data-ttu-id="715c1-118">Если на одном сайте STN несколько устройств, запустите Renew-CcCACertificate на всех устройствах одного сайта STN.</span><span class="sxs-lookup"><span data-stu-id="715c1-118">If there are multiple appliances in the same PSTN site, run the Renew-CcCACertificate cmdlet in all appliances of the same PSTN site.</span></span>
   
-<span data-ttu-id="60dd8-119">Наконец, выполните командлет Export-CcRootCertificate, чтобы экспортировать корневой сертификат в локальный файл на первом устройстве, а затем скопируйте и установите экспортированный сертификат на шлюзы ТСОП.</span><span class="sxs-lookup"><span data-stu-id="60dd8-119">As the last step, run Export-CcRootCertificate to export the root certificate to a local file in the first appliance, then copy and install the exported certificate to your PSTN gateways.</span></span>
+<span data-ttu-id="715c1-119">На последнем этапе запустите Export-CcRootCertificate для экспорта корневого сертификата в локальный файл на первом устройстве, а затем скопируйте и установите экспортный сертификат на шлюзы STN.</span><span class="sxs-lookup"><span data-stu-id="715c1-119">As the last step, run Export-CcRootCertificate to export the root certificate to a local file in the first appliance, then copy and install the exported certificate to your PSTN gateways.</span></span>
   
-## <a name="input-types"></a><span data-ttu-id="60dd8-120">Типы входных данных</span><span class="sxs-lookup"><span data-stu-id="60dd8-120">Input Types</span></span>
-<span data-ttu-id="60dd8-121"><a name="InputTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="60dd8-121"><a name="InputTypes"> </a></span></span>
+## <a name="input-types"></a><span data-ttu-id="715c1-120">Типы входных данных</span><span class="sxs-lookup"><span data-stu-id="715c1-120">Input Types</span></span>
+<span data-ttu-id="715c1-121"><a name="InputTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="715c1-121"><a name="InputTypes"> </a></span></span>
 
-<span data-ttu-id="60dd8-p104">Нет. Командлет Renew-CcCACertificate не принимает входные данные по конвейеру.</span><span class="sxs-lookup"><span data-stu-id="60dd8-p104">None. The Renew-CcCACertificate cmdlet does not accept pipelined input.</span></span>
+<span data-ttu-id="715c1-122">Нет.</span><span class="sxs-lookup"><span data-stu-id="715c1-122">None.</span></span> <span data-ttu-id="715c1-123">Этот Renew-CcCACertificate не принимает конвейерные входные данные.</span><span class="sxs-lookup"><span data-stu-id="715c1-123">The Renew-CcCACertificate cmdlet does not accept pipelined input.</span></span>
   
-## <a name="return-types"></a><span data-ttu-id="60dd8-124">Типы возвращаемых данных</span><span class="sxs-lookup"><span data-stu-id="60dd8-124">Return Types</span></span>
-<span data-ttu-id="60dd8-125"><a name="ReturnTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="60dd8-125"><a name="ReturnTypes"> </a></span></span>
+## <a name="return-types"></a><span data-ttu-id="715c1-124">Типы возвращаемых данных</span><span class="sxs-lookup"><span data-stu-id="715c1-124">Return Types</span></span>
+<span data-ttu-id="715c1-125"><a name="ReturnTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="715c1-125"><a name="ReturnTypes"> </a></span></span>
 
-<span data-ttu-id="60dd8-126">Отсутствуют</span><span class="sxs-lookup"><span data-stu-id="60dd8-126">None</span></span>
+<span data-ttu-id="715c1-126">Нет</span><span class="sxs-lookup"><span data-stu-id="715c1-126">None</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="60dd8-127">См. также</span><span class="sxs-lookup"><span data-stu-id="60dd8-127">See also</span></span>
-<span data-ttu-id="60dd8-128"><a name="ReturnTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="60dd8-128"><a name="ReturnTypes"> </a></span></span>
+## <a name="see-also"></a><span data-ttu-id="715c1-127">См. также</span><span class="sxs-lookup"><span data-stu-id="715c1-127">See also</span></span>
+<span data-ttu-id="715c1-128"><a name="ReturnTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="715c1-128"><a name="ReturnTypes"> </a></span></span>
 
-[<span data-ttu-id="60dd8-129">Reset-CcCACertificate</span><span class="sxs-lookup"><span data-stu-id="60dd8-129">Reset-CcCACertificate</span></span>](reset-cccacertificate.md)
+[<span data-ttu-id="715c1-129">Reset-CcCACertificate</span><span class="sxs-lookup"><span data-stu-id="715c1-129">Reset-CcCACertificate</span></span>](reset-cccacertificate.md)
   
-[<span data-ttu-id="60dd8-130">Renew-CcServerCertificate</span><span class="sxs-lookup"><span data-stu-id="60dd8-130">Renew-CcServerCertificate</span></span>](renew-ccservercertificate.md)
+[<span data-ttu-id="715c1-130">Renew-CcServerCertificate</span><span class="sxs-lookup"><span data-stu-id="715c1-130">Renew-CcServerCertificate</span></span>](renew-ccservercertificate.md)
   
-[<span data-ttu-id="60dd8-131">Export-CcRootCertificate</span><span class="sxs-lookup"><span data-stu-id="60dd8-131">Export-CcRootCertificate</span></span>](export-ccrootcertificate.md)
+[<span data-ttu-id="715c1-131">Export-CcRootCertificate</span><span class="sxs-lookup"><span data-stu-id="715c1-131">Export-CcRootCertificate</span></span>](export-ccrootcertificate.md)
   
 
