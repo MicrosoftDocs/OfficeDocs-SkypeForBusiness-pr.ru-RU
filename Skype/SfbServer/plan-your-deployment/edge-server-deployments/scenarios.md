@@ -1,5 +1,5 @@
 ---
-title: Сценарии использования edge Server в Skype для бизнеса Server
+title: Сценарии работы с edge-серверами в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -23,7 +23,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49813799"
 ---
-# <a name="edge-server-scenarios-in-skype-for-business-server"></a>Сценарии использования edge Server в Skype для бизнеса Server
+# <a name="edge-server-scenarios-in-skype-for-business-server"></a>Сценарии работы с edge-серверами в Skype для бизнеса Server
  
 **Сводка:** Просмотрите эти сценарии, чтобы помочь вам спланировать топологию edge Server в Skype для бизнеса Server.
   
@@ -31,7 +31,7 @@ We have some scenarios diagrams to assist with visualizing and deciding on what 
   
 Эти рисунки, которые показаны только для примера (и поэтому содержат примеры данных IPv4 и IPv6), представляют не фактический поток связи, а высокоуровневый вид возможного трафика. Сведения о портах также можно увидеть на схемах портов для каждого сценария ниже.
   
-На схемах покажите .com для внешнего интерфейса и .net для внутреннего, который также является образцом материала; Конечно, ваши собственные записи могут сильно меняться, если вы совместите свой окончательный план Edge.
+На схемах покажите .com для внешнего интерфейса и .net для внутреннего, который также является образцом материала; Конечно, ваши собственные записи могут сильно меняться, если вы объединяете свой окончательный план Edge.
   
 Мы не включаем директора (который является необязательным компонентом) в схемы, но вы можете прочитать об этом отдельно (это упоминается в других темах планирования).
   
@@ -44,7 +44,7 @@ There are NAT devices that allow for NAT64 (IPv6 to IPv4) and NAT66 (IPv6 to IPv
   
 ## <a name="single-consolidated-skype-for-business-server-edge-server-with-private-ip-addresses-and-nat"></a>Single consolidated Skype for Business Server Edge Server with private IP addresses and NAT
 
-В этом сценарии нет возможности для высокой доступности. Это означает, что вы будете тратить меньше на оборудование и упротите развертывание. Если высокая доступность является обязательной, ознакомьтесь со сценариями с масштабированными консолидированными данными ниже.
+В этом сценарии нет возможности для высокой доступности. Это означает, что вы будете тратить меньше на оборудование и упротите развертывание. Если высокая доступность является обязательной, ознакомьтесь с масштабированными консолидированными сценариями ниже.
   
 ![Сценарий edge для единой консолидированной границы с закрытым IP-адресом с использованием NAT](../../media/Plan_LyncServer_Edge_Scenario_SingleConsolidatedEdgePrivateIP.jpg)
   
@@ -66,7 +66,7 @@ There are NAT devices that allow for NAT64 (IPv6 to IPv4) and NAT66 (IPv6 to IPv
   
 ![Сетевой периметр для сценария с одним консолидированным периметром](../../media/Plan_LyncServer_Edge_NetPerimeter_SingleConsolidatedEdge.jpg)
   
-## <a name="scaled-consolidated-skype-for-business-server-edge-pool-with-dns-load-balancing-and-private-ip-addresses-and-nat"></a>Масштабированный консолидированный пул skype для бизнеса Server Edge с балансировка нагрузки на DNS, частными IP-адресами и NAT
+## <a name="scaled-consolidated-skype-for-business-server-edge-pool-with-dns-load-balancing-and-private-ip-addresses-and-nat"></a>Масштабированный консолидированный пул Skype для бизнеса Server Edge, балансировка нагрузки на DNS, частные IP-адреса и NAT
 
 В этом сценарии обеспечивается высокая доступность в развертывании Edge, что дает преимущества масштабируемости и поддержки от сбойов.
   
@@ -74,13 +74,13 @@ There are NAT devices that allow for NAT64 (IPv6 to IPv4) and NAT66 (IPv6 to IPv
   
 ### <a name="port-diagram"></a>Схема порта
 
-Кроме того, имеется схема масштабированных консолидированных пулов с балансировка нагрузки на DNS.
+Также имеется схема масштабированных консолидированных пулов с балансировка нагрузки на DNS.
   
 ![Сетевой периметр для масштабированного консолидированного периметра по периметру с помощью DNS LB](../../media/Plan_LyncServer_Edge_NetPerimeter_ScaledConsolidatedEdgeDNSLB.jpg)
   
 ## <a name="scaled-consolidated-skype-for-business-server-edge-pool-with-dns-load-balancing-and-public-ip-addresses"></a>Масштабированный консолидированный пул Skype для бизнеса Server Edge с балансировка нагрузки на DNS и общедоступными IP-адресами
 
-В этом сценарии вы можете иметь высокую доступность в развертывании Edge, что дает преимущества масштабируемости и поддержки от сбойов.
+В этом сценарии обеспечивается высокая доступность в развертывании Edge, что дает преимущества масштабируемости и поддержки от сбойов.
   
 ![Сценарий edge для масштабированной консолидированной границы, DNS LB с общедоступным IP-адресом](../../media/Plan_LyncServer_Edge_Scenario_ScaledConsolidatedEdgeDNSLBPublicIP.jpg)
   
@@ -92,7 +92,7 @@ There are NAT devices that allow for NAT64 (IPv6 to IPv4) and NAT66 (IPv6 to IPv
   
 ## <a name="scaled-consolidated-skype-for-business-server-edge-pool-with-hardware-load-balancing"></a>Масштабированный консолидированный пул Skype для бизнеса Server Edge с аппаратной балансировка нагрузки
 
-В этом сценарии вы можете иметь высокую доступность в развертывании Edge, что дает преимущества масштабируемости и поддержки от сбойов.
+В этом сценарии обеспечивается высокая доступность в развертывании Edge, что дает преимущества масштабируемости и поддержки от сбойов.
   
-![Сценарий edge для масштабированного консолидированного края с HLB](../../media/Plan_LyncServer_Edge_Scenario_ScaledConsolidatedEdgeHLB.jpg)
+![Сценарий edge для масштабированной консолидированной границы с HLB](../../media/Plan_LyncServer_Edge_Scenario_ScaledConsolidatedEdgeHLB.jpg)
  

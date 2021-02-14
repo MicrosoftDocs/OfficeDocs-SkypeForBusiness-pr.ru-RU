@@ -34,14 +34,14 @@ ms.locfileid: "49814579"
 
 - [Новые функции сервера сохраняемого чата](https://technet.microsoft.com/library/c3ec6f33-6261-4bf5-aa31-baa8ab2a87d8.aspx)
 
-Подробные сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнеса Server, см. в под управлением Skype для бизнеса [Server 2015.](../../manage/manage.md)
+For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).
 
 ## <a name="to-configure-categories-for-chat-rooms"></a>Настройка категорий для комнат чата
 
 В **разделе**"Отказано **в** членстве" добавьте или удалите пользователей и других участников Active Directory, связанных с участниками, отказано в доступе к комнате.
 
 
-Подробные сведения о возможностях и [](https://technet.microsoft.com/library/23f7c886-304d-495a-ae70-3cbb44241acd.aspx) возможностях сервера сохраняемого чата см. в обзоре сервера сохраняемого чата в документации по планированию. Подробные сведения о работе с конфигурациями сервера сохраняемой беседы см. в документации по развертыванию и управлении сервером сохраняемой беседы [](https://technet.microsoft.com/library/d90a4049-b268-4e8e-9f24-0cef08c8d9ed.aspx) [Lync Server 2013](https://technet.microsoft.com/library/82befdc6-5d32-45f1-bfd7-aaedffed1ab8.aspx) в документации по операциям.
+Подробные сведения о возможностях и возможностях сервера сохраняемого чата см. в обзоре сервера сохраняемого [чата](https://technet.microsoft.com/library/23f7c886-304d-495a-ae70-3cbb44241acd.aspx) в документации по планированию. Подробные сведения о работе с конфигурациями сервера сохраняемой беседы см. в документации по развертыванию и управлении сервером сохраняемой беседы [](https://technet.microsoft.com/library/d90a4049-b268-4e8e-9f24-0cef08c8d9ed.aspx) [Lync Server 2013](https://technet.microsoft.com/library/82befdc6-5d32-45f1-bfd7-aaedffed1ab8.aspx) в документации по операциям.
 
 ## <a name="see-also"></a>См. также
 

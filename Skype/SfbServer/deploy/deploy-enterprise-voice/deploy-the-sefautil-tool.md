@@ -30,7 +30,7 @@ ms.locfileid: "49812389"
 Для развертывания группового средства группового вызова и управления им необходимо использовать версию средства SEFAUtil в Skype для бизнеса Server. 
   
 > [!IMPORTANT]
-> Microsoft Unified Communications Managed API (UCMA) 5 Runtime must be installed on any computer where you plan to run the SEFAUtil tool. Скачайте его здесь: [unified Communications Managed API 5.0 Runtime](https://www.microsoft.com/download/details.aspx?id=47344). Вы также можете скачать SDK UCMA 5, который включает time runtime, здесь: [UCMA 5.0 SDK](https://www.microsoft.com/download/details.aspx?id=47345).
+> Microsoft Unified Communications Managed API (UCMA) 5 Runtime must be installed on any computer where you plan to run the SEFAUtil tool. Скачайте его здесь: [unified Communications Managed API 5.0 Runtime](https://www.microsoft.com/download/details.aspx?id=47344). Вы также можете скачать UCMA 5 SDK, который включает time runtime, здесь: [UCMA 5.0 SDK](https://www.microsoft.com/download/details.aspx?id=47345).
   
 Средство SEFAUtil можно запустить в любом пуле переднего входа в развертывании. Чтобы запустить средство SEFAUtil, необходимо выполнить шаги 1, 2 и 3 в мастере развертывания Skype для бизнеса на компьютере доверенного приложения. ДЛЯ SEFAUtil требуется локальное хранилище конфигурации, а также сертификат.
   
@@ -49,7 +49,7 @@ ms.locfileid: "49812389"
    New-CsTrustedApplicationPool -id <Pool FQDN> -Registrar <Pool Registrar FQDN> -site Site:<Pool Site>
    ```
     > [!NOTE]
-    > FQDN пула: FQDN сервера или пула, на который будет работать приложение SEFAUtil (обычно это сервер или пул переднего сервера Skype для бизнеса).
+    > FQDN пула: FQDN сервера или пула, на который будет работать приложение SEFAUtil (обычно это сервер переднего сервера или пул Skype для бизнеса).
     > FQDN регистратора пулов: FQDN сервера переднего сервера или пула Skype для бизнеса, связанного с этим пулом приложений.
     > Сайт пула: ИД сайта, на котором находится этот пул.
 

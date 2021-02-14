@@ -11,7 +11,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: c0fd6056-87bc-4136-902a-f1b37cd3a1ca
-description: Сводка. Узнайте, как управлять данными регистрации вызовов (CDR) для Skype для бизнеса Server.
+description: Сводка. Сведения об управлении данными регистрации вызовов (CDR) для Skype для бизнеса Server.
 ms.openlocfilehash: 01b4765a9fa98a898255c1374115e17c4966e797
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
@@ -50,7 +50,7 @@ ms.locfileid: "49814219"
     
 ## <a name="specifying-cdr-retention-by-using-windows-powershell-cmdlets"></a>Указание хранения CDR с помощью Windows PowerShell управления
 
-Параметры хранения CDR можно создать с помощью Windows PowerShell и командлета Set-CsCdrConfiguration. Вы можете запустить этот Windows PowerShell из оболочки управления Skype для бизнеса Server. Подробные сведения об использовании удаленного Windows PowerShell для подключения к Skype для бизнеса Server см. в статье [блога "Краткое руководство. Управление Microsoft Lync Server 2010 с](https://go.microsoft.com/fwlink/p/?linkId=255876)помощью удаленной powerShell". В Skype для бизнеса Server этот процесс тот же.
+Параметры хранения CDR можно создать с помощью Windows PowerShell и командлета Set-CsCdrConfiguration. Вы можете запустить этот Windows PowerShell из оболочки управления Skype для бизнеса Server. Подробные сведения об использовании удаленного Windows PowerShell для подключения к Skype для бизнеса Server см. в статье [блога "Краткое руководство. Управление Microsoft Lync Server 2010 с помощью удаленной службы PowerShell".](https://go.microsoft.com/fwlink/p/?linkId=255876) В Skype для бизнеса Server этот процесс тот же.
   
 ### <a name="to-specify-cdr-retention-for-a-specific-location"></a>Задание параметров хранения CDR для конкретного расположения
 

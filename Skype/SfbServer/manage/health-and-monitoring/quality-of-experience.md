@@ -35,7 +35,7 @@ ms.locfileid: "49814359"
     
 - [Удаление параметров конфигурации качества обслуживания в Skype для бизнеса Server](delete-qoe-configuration-settings.md)
     
-- [Ручная очистка баз данных регистрации вызовов и качества обслуживания в Skype для бизнеса Server](../../deploy/deploy-monitoring/purgecall-detail-recording-and-qoe.md)
+- [Ручная очистка баз данных регистрации вызовов и качества работы в Skype для бизнеса Server](../../deploy/deploy-monitoring/purgecall-detail-recording-and-qoe.md)
     
 ## <a name="see-also"></a>См. также
 

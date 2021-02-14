@@ -100,7 +100,7 @@ ms.locfileid: "49813379"
     
 - [Таблица Roles](roles.md)
     
-- [Таблица Servers](servers.md)
+- [Таблица "Серверы"](servers.md)
     
 - [Таблица SessionDetails](sessiondetails.md)
     
@@ -110,7 +110,7 @@ ms.locfileid: "49813379"
     
 - [Таблица SyndicatorsTenantMap](syndicatorstenantmap.md)
     
-- [Таблица задач](task.md)
+- [Таблица Task](task.md)
     
 - [Таблица Tenants](tenants.md)
     

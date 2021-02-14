@@ -102,7 +102,7 @@ If you have questions concerning this change, contact <INSERT NAME/EMAIL>.
 ACTION REQUESTED: Are you ready for your new phone system?
 ```
 
-Сообщение электронной почты:
+Тело сообщения электронной почты:
 
 ```
 Your new phone calling capabilities are almost here. As explained in our initial
@@ -146,7 +146,7 @@ Regards,
 IMPORTANT NOTICE: Your new phone system is live
 ```
 
-Сообщение электронной почты:
+Тело сообщения электронной почты:
 
 ```
 Welcome to your new phone system. Your Microsoft Teams application

@@ -72,7 +72,7 @@ ms.locfileid: "49814609"
 |Доступны ли платные номера?  <br/> |Да[(по запросу)](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) <br/> |
 |Доступны ли бесплатные номера?  <br/> |Нет  <br/> |
    
- Если вы хотите получить платные и бесплатные номера телефонов для аудиоконференции, автоотетаря и очередей звонков, см. в этом видео. [](/microsoftteams/getting-service-phone-numbers)
+ Если вы хотите получить платные и бесплатные номера телефонов для аудиоконференций, автоотетарей и очередей звонков, см. получение номеров телефонов служб для Skype для бизнеса и [Microsoft Teams.](/microsoftteams/getting-service-phone-numbers)
   
 ## <a name="communications-credits"></a>Кредиты на связь
 

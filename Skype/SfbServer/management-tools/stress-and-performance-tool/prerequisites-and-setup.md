@@ -1,5 +1,5 @@
 ---
-title: Prerequisites and setup for the Skype for Busines Stress and Performance Tool
+title: Необходимые условия и настройка средства "Нагрузка и производительность Skype для шин"
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur

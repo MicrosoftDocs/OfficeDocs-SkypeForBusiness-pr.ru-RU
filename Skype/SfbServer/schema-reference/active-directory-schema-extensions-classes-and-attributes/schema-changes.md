@@ -53,7 +53,7 @@ Skype для бизнеса Server требует нескольких новы�
 
 В следующей таблице описываются атрибуты Active Directory, добавленные Skype для бизнеса Server.
   
-**Атрибуты, добавленные Skype для бизнеса Server**
+**Атрибуты, добавленные в Skype для бизнеса Server**
 
 |**Атрибут**|**Описание**|
 |:-----|:-----|
@@ -69,7 +69,7 @@ Skype для бизнеса Server требует нескольких новы�
 
 |**Class**|**Изменение**|**Класс или атрибут**|
 |:-----|:-----|:-----|
-|User  <br/> |add: mayContain  <br/> add: mayContain  <br/> |ProxyAddresses  <br/> msRTCSIP-UserRoutingGroupId  <br/> |
+|Пользователь  <br/> |add: mayContain  <br/> add: mayContain  <br/> |ProxyAddresses  <br/> msRTCSIP-UserRoutingGroupId  <br/> |
 |Контакт  <br/> |add: mayContain  <br/> add: mayContain  <br/> |ProxyAddresses  <br/> msRTCSIP-UserRoutingGroupId  <br/> |
 |Mail-Recipient  <br/> |add: mayContain  <br/> |msExchUserHoldPolicies  <br/> |
 |msRTCSIP-GlobalTopologySetting  <br/> |add: mayContain  <br/> |msRTCSIP-MirrorBackEndServer  <br/> |

@@ -23,7 +23,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49812329"
 ---
-# <a name="deployment-process-for-response-group-in-skype-for-business"></a>Процесс развертывания группы ответа в Skype для бизнеса
+# <a name="deployment-process-for-response-group-in-skype-for-business"></a>Процесс развертывания для группы ответа в Skype для бизнеса
 
 Процесс развертывания и действия для группы ответа в Skype для бизнеса Server Корпоративная голосовая связь.
 
@@ -43,7 +43,7 @@ ms.locfileid: "49812329"
 |**CsViewOnlyAdministrator** <br/> |√(4)  <br/> |√(4)  <br/> |√(4)  <br/> |√(4)  <br/> |√(4)  <br/> |√(4)  <br/> |
 
 > [!NOTE]
-> **(1)** Объект пользователя доменных служб Active Directory должен быть членом указанной группы безопасности Active Directory в списке. Администратор или другой делегированный участник группы Active Directory с соответствующими разрешениями для добавления пользователей в группу безопасности (например, администратор, операторы учетных записей) должен добавить объект пользователя в указанную группу безопасности или группу, чтобы пользователь мог выполнять перечисленные функции. **(2)** Только для рабочего процесса, назначенного CsResponseGroupAdministrator для CsResponseGroupManager. **(3)** Менеджер группы ответа может назначить другого члена CsResponseGroupManager для рабочего процесса, который текущий менеджер уже управляет. **(4)** CsViewOnlyAdministrator может запускать только команды Get.
+> **(1)** Объект пользователя доменных служб Active Directory должен быть членом указанной группы безопасности Active Directory в списке. Администратор или другой делегированный член группы Active Directory с соответствующими разрешениями для добавления пользователей в группу безопасности (например, администратор, операторы учетных записей) должен добавить объект пользователя в указанную группу безопасности или группу, чтобы пользователь мог выполнять перечисленные функции. **(2)** Только для рабочего процесса, назначенного CsResponseGroupAdministrator для CsResponseGroupManager. **(3)** Менеджер группы ответа может назначить другого члена CsResponseGroupManager для рабочего процесса, который текущий менеджер уже управляет. **(4)** CsViewOnlyAdministrator может запускать только команды Get.
 
 ## <a name="response-group-configuration-prerequisites"></a>Необходимые условия для настройки группы ответа
 
@@ -71,7 +71,7 @@ ms.locfileid: "49812329"
 
 ### <a name="enabling-users"></a>Включение пользователей
 
-Первым шагом в настройке группы ответа является создание групп агентов. Перед созданием группы агентов необходимо включить пользователей, которые будут агентами группы ответа для Skype для бизнеса и Корпоративная голосовая связь. Включение пользователей Skype для бизнеса обычно является этапом развертывания сервера Enterprise Edition или Standard Edition. For details about enabling users for Skype for Business, see [Enable or Disable Users for Lync Server 2013 Preview.](https://technet.microsoft.com/library/12497d00-f665-4a97-be68-854c5a8be4fc.aspx) Включение пользователей для Корпоративная голосовая связь обычно является этапом Корпоративная голосовая связь развертывания. For details, see [Enable users for Корпоративная голосовая связь in Skype for Business Server](enable-users-for-enterprise-voice.md).
+Первым шагом в настройке группы ответа является создание групп агентов. Перед созданием группы агентов необходимо включить пользователей, которые будут агентами группы ответа для Skype для бизнеса и Корпоративная голосовая связь. Включение пользователей Skype для бизнеса обычно является этапом развертывания сервера Enterprise Edition или standard Edition. For details about enabling users for Skype for Business, see [Enable or Disable Users for Lync Server 2013 Preview.](https://technet.microsoft.com/library/12497d00-f665-4a97-be68-854c5a8be4fc.aspx) Включение пользователей для Корпоративная голосовая связь обычно является этапом Корпоративная голосовая связь развертывания. For details, see [Enable users for Корпоративная голосовая связь in Skype for Business Server](enable-users-for-enterprise-voice.md).
 
 ### <a name="complying-with-fips-requirements"></a>Соответствие требованиям стандарта FIPS
 

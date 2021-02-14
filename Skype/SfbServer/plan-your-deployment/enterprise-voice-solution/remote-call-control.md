@@ -45,5 +45,5 @@ ms.locfileid: "49813519"
   
 [Сравнение функций классических клиентов в Skype для бизнеса](../../plan-your-deployment/clients-and-devices/desktop-feature-comparison.md)
 
-[Позвонить в Skype для бизнеса, но использовать настольный телефон УАКСИ для аудиосвязи](https://support.office.com/article/Make-a-Skype-for-Business-call-but-use-your-PBX-desk-phone-for-audio-6a316c11-a05e-460c-b969-32ff0ad848e6)
+[Сделайте звонок в Skype для бизнеса, но используйте настольный телефон УАКСИ для звука](https://support.office.com/article/Make-a-Skype-for-Business-call-but-use-your-PBX-desk-phone-for-audio-6a316c11-a05e-460c-b969-32ff0ad848e6)
 
