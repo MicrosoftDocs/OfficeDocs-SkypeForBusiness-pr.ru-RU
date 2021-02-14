@@ -36,7 +36,7 @@ ms.locfileid: "44230317"
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Вот службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Уругвая.
+Ниже 2010 г. доступны службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Уругвая.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 

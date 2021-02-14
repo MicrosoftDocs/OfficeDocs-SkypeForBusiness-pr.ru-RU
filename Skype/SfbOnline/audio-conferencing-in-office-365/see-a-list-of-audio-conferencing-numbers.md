@@ -52,15 +52,15 @@ If there is only one phone number available in your organization, it will be use
 
 ## <a name="to-view-your-audio-conferencing-phone-numbers"></a>Просмотр номеров телефона для аудиоконференций
 
-1. Войдите в свою рабочую или учебную учетную запись.
+1. Войте свою учетную запись с помощью своей учебной или учебной учетной записи.
     
-2. Перейдите в центр администрирования > **Skype для бизнеса**.
+2. Перейдите в Центр администрирования > **Skype для бизнеса.**
     
-3. В **центре администрирования Skype для бизнеса**на панели навигации слева перейдите в раздел **видеоконференции** > **Microsoft Bridge**, а затем:
+3. В Центре **администрирования Skype** для бизнеса на левой навигации перейдите к мосту аудиоконференции  >  **Майкрософт,** а затем:
     
-   - Вы можете просматривать телефонные номера, доступные для голосовой конференции.
+   - Вы можете просмотреть телефонные номера, доступные для аудиоконференции.
     
-   - Кроме того, вы можете просмотреть расположение и основной и дополнительный языки, которые будут использоваться автосекретарем по голосовой конференции.
+   - Вы также можете просмотреть расположение, а также основной и дополнительный языки, которые будут использоваться автопочетом аудиоконференции.
     
 > [!NOTE]
 > You can go to **Audio conferencing** > **Users** and select the user's properties to change the default number by choosing a new number from the list of available numbers in your organization. See [Set the phone numbers included on invites](set-the-phone-numbers-included-on-invites.md). 
@@ -68,15 +68,15 @@ If there is only one phone number available in your organization, it will be use
   
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Сведения по управлению с помощью Windows PowerShell
 
-- Для экономии времени или автоматизации процесса можно воспользоваться командлетом [Get-CsOnlineDialInConferencingServiceNumber](https://go.microsoft.com/fwlink/?LinkId=617691) .
+- Чтобы сэкономить время и автоматизировать процесс, используйте для этого [cmdlet Get-CsOnlineDialInConferencingServiceNumber.](https://go.microsoft.com/fwlink/?LinkId=617691)
     
-- Windows PowerShell — это все, что нужно для управления пользователями, а также для пользователей, которым разрешено или не разрешено выполнять эти действия. С помощью Windows PowerShell можно управлять Microsoft 365 или Office 365, используя единую точку администрирования, которая позволяет упростить повседневную работу, если у вас есть несколько задач. Чтобы приступить к работе с Windows PowerShell, ознакомьтесь со следующими разделами:
+- Windows PowerShell все о том, как управлять пользователями, а также о том, какие пользователи разрешены или не разрешены. С Windows PowerShell вы можете управлять Microsoft 365 или Office 365, используя единый пункт администрирования, который упростит выполнение ваших повседневных задач. Чтобы начать работу с Windows PowerShell, см. указанные здесь разделы.
     
-  - [Зачем использовать Microsoft 365 или Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Зачем нужно использовать Microsoft 365 или Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-  - [Лучшие способы управления Microsoft 365 и Office 365 с помощью Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Лучшие способы управления Microsoft 365 или Office 365 с помощью Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell обладает многими преимуществами для ускорения, простоты и продуктивности только при использовании центра администрирования Microsoft 365, например при одновременном изменении параметров для нескольких пользователей. Ознакомьтесь с этими преимуществами в указанных ниже разделах.
+- Windows PowerShell имеет множество преимуществ в скорости, простоте и эффективности работы по сравнению с использованием только Центра администрирования Microsoft 365, например при внесении изменений для множества пользователей одновременно. Подробнее об этих преимуществах можно узнать в следующих темах:
     
   - [Введение в Windows PowerShell и Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
@@ -87,7 +87,7 @@ If there is only one phone number available in your organization, it will be use
     > [!NOTE]
     > Модуль Windows PowerShell для Skype для бизнеса online позволяет запускать удаленные сеансы Windows PowerShell с подключением к Skype для бизнеса online. Этот модуль для 64-разрядных систем можно загрузить из Центра загрузки Microsoft здесь: [Модуль Windows PowerShell для Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=294688).
   
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 
-[Попробуйте или купите голосовую конференцию в Microsoft 365 или Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Попробуйте или приобретйте аудиоконференцию в Microsoft 365 или Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
   

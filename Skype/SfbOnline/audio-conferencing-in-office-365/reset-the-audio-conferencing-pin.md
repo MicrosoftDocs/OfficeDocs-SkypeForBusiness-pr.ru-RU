@@ -1,5 +1,5 @@
 ---
-title: Сброс ПИН-кода голосовой конференции в Skype для бизнеса Online
+title: Сброс ПИН-кода аудиоконференции в Skype для бизнеса Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,7 +20,7 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
-description: 'Узнайте о том, что нужно знать о контактах и о том, как сбросить их в Skype для бизнеса Online. '
+description: 'Узнайте, что вам следует знать о ПИН-сах и как сбросить их в Skype для бизнеса Online. '
 ms.openlocfilehash: 21e2742653e72919df0647c0539fdb335585cc84
 ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
@@ -28,7 +28,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/08/2020
 ms.locfileid: "44164698"
 ---
-# <a name="reset-the-audio-conferencing-pin-in-skype-for-business-online"></a>Сброс ПИН-кода голосовой конференции в Skype для бизнеса Online
+# <a name="reset-the-audio-conferencing-pin-in-skype-for-business-online"></a>Сброс ПИН-кода аудиоконференции в Skype для бизнеса Online
 
 > [!Note]
 > Информацию о сбросе ПИН-кодов аудиоконференций в Microsoft Teams см. в разделе [Сброс ПИН-кода аудиоконференций в Microsoft Teams](/MicrosoftTeams/reset-the-audio-conferencing-pin-in-teams).
@@ -39,13 +39,13 @@ Meetings can be started when an authenticated user joins using the Skype for Bus
   
 ## <a name="reset-a-users-pin"></a>Сброс ПИН-кода пользователя
 
-1. Войдите в свою рабочую или учебную учетную запись.
+1. Войте свою учетную запись с помощью своей учебной или учебной учетной записи.
     
-2. Перейдите в центр администрирования > **Skype для бизнеса**, а затем на панели навигации слева выберите пункт **звуковые конференции**.
+2. Перейдите в Центр администрирования > **Skype** для бизнеса и на левой навигации щелкните "Аудиоконференция". 
     
-3. Щелкните **Пользователи**, выберите пользователя, для которого вы хотите сбросить PIN-код.
+3. Щелкните **"Пользователи"** и выберите пользователя, для который вы хотите сбросить ПИН-код.
     
-4. На панели действий в разделе **ПИН-код**нажмите кнопку **Сброс**.
+4. На области действий в области **"ПИН-код"** нажмите кнопку **"Сброс".**
  
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
@@ -66,13 +66,13 @@ A user can reset a PIN by using the **Reset PIN** option on the **Dial-in Confer
     
 - Когда начинается собрание, к нему автоматически присоединяются все пользователи, находящиеся в зале ожидания. Пример: если два участника попытаются присоединиться к собранию, когда оно еще не началось, эти участники будут перенаправлены в зал ожидания. Когда с телефона присоединяется организатор собрания под собственным ПИН-кодом, собрание начинается, и к нему подключаются все участники, находящиеся в зале ожидания.
     
-- По умолчанию собрание не разрешается запускать с помощью анонимных абонентов.
+- По умолчанию анонимные звонки не могут начать собрание.
     
-- При включении пользователя для голосовой конференции по умолчанию отправляются сообщения электронной почты, содержащие сведения о конференциях и ПИН-код. У пользователя должен быть почтовый ящик Microsoft 365 или Office 365, так как при сбросе ПИН-кода в сообщении электронной почты будет отправлен новый ПИН-код для основного SMTP-адреса (псевдонима), установленного для пользователя.
+- Если пользователю включена аудиоконференция, по умолчанию ему отправляются сообщения электронной почты, включающие данные для аудиоконференции и ПИН-код. У пользователя должен быть почтовый ящик Microsoft 365 или Office 365, так как при сбросе ПИН-кода новый ПИН-код отправляется пользователю по электронной почте на его основной SMTP-адрес (псевдоним), установленный для пользователя.
     
 - When you set up audio conferencing, you set the digits that are required for the PINs in your organization. PINs can be from 4 to 12 digits - the default is 5. If you change the PIN length setting, the setting is only applied on newly generated PINs and isn't applied to the PIN setting for existing users that are enabled for audio conferencing. See [Set the length of the PIN for Audio Conferencing meetings](Set-the-PIN-length-for-Audio-Conferencing-meetings.md).
     
-- Для электронной почты по умолчанию будет установлен основной SMTP-адрес Microsoft 365 или Office 365. Вы можете отправить сообщение электронной почты на адрес, отличный от Microsoft 365, или не Office 365 (например, адрес электронной почты Hotmail или MSN). Вы можете переопределить адрес электронной почты по умолчанию с помощью Windows PowerShell. Это полезно, если у пользователей нет почтового ящика Exchange в Microsoft 365 или Office 365.
+- По умолчанию для электронной почты устанавливается основной SMTP-адрес Microsoft 365 или Office 365 пользователя. Вы можете отправить сообщение электронной почты на адрес, не отправляемый на Microsoft 365 или не на office 365, например на Hotmail или MSN. Адрес электронной почты, заданный по умолчанию, можно Windows PowerShell. Это полезно, если у пользователей нет почтового ящика Exchange в Microsoft 365 или Office 365.
     
 - To override the default user address where the email is sent, the tenant admin can use the following cmdlet: Set-CsOnlineDialInConferencingUser -amos.marble -ResetLeaderPIN -SendEmail -SendEmailToAddress "u@hotmail.com". The SendEmail parameter is required to override the email address of the user.
     
@@ -86,13 +86,13 @@ A user can reset a PIN by using the **Reset PIN** option on the **Dial-in Confer
   Set-CsOnlineDialInConferencingUser -id amos.marble@contoso.com -ResetLeaderPIN
   ```
 
-- Windows PowerShell — это все, что нужно для управления пользователями, а также для пользователей, которым разрешено или не разрешено выполнять эти действия. С помощью Windows PowerShell можно управлять Microsoft 365 или Office 365, используя единую точку администрирования, которая позволяет упростить повседневную работу, если у вас есть несколько задач. Чтобы приступить к работе с Windows PowerShell, ознакомьтесь со следующими разделами:
+- Windows PowerShell все о том, как управлять пользователями, а также о том, какие пользователи разрешены или не разрешены. С Windows PowerShell вы можете управлять Microsoft 365 или Office 365, используя единый пункт администрирования, который упростит выполнение ваших повседневных задач. Чтобы начать работу с Windows PowerShell, см. указанные здесь разделы.
     
-  - [Зачем использовать Microsoft 365 или Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Зачем нужно использовать Microsoft 365 или Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-  - [Лучшие способы управления Microsoft 365 и Office 365 с помощью Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Лучшие способы управления Microsoft 365 или Office 365 с помощью Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell обладает многими преимуществами для ускорения, простоты и продуктивности при использовании только в центре администрирования Microsoft 365, например при изменении параметров для нескольких пользователей за один раз. Ознакомьтесь с этими преимуществами в указанных ниже разделах.
+- Windows PowerShell имеет множество преимуществ в скорости, простоте и эффективности работы по сравнению с использованием только Центра администрирования Microsoft 365, например при внесении изменений для множества пользователей одновременно. Подробнее об этих преимуществах можно узнать в следующих темах:
     
   - [Введение в Windows PowerShell и Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
@@ -103,6 +103,6 @@ A user can reset a PIN by using the **Reset PIN** option on the **Dial-in Confer
     > [!NOTE]
     > Модуль Windows PowerShell для Skype для бизнеса online позволяет запускать удаленные сеансы Windows PowerShell с подключением к Skype для бизнеса online. Этот модуль для 64-разрядных систем можно загрузить из Центра загрузки Microsoft здесь: [Модуль Windows PowerShell для Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=294688).
   
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 
 [Сброс идентификатора конференции для пользователя](reset-a-conference-id-for-a-user.md)

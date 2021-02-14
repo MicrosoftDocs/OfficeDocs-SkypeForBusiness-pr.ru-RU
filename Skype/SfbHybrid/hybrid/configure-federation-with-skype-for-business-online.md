@@ -17,7 +17,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 ms.custom: ''
-description: Сводка. Узнайте, как настроить взаимодействие между локальным развертыванием и Skype для бизнеса Online.
+description: Сводка. Сведения о настройке взаимодействия между локальной развертыванием и Skype для бизнеса Online.
 ms.openlocfilehash: 0df507fcc47157a9290018a199e1362cb203048b
 ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
@@ -29,56 +29,56 @@ ms.locfileid: "44221453"
 
 Чтобы настроить гибридную среду Skype для бизнеса, необходимо выполнить следующие действия.
 
-- [Настройте локальную пограничной службу для Федерации с Microsoft 365 или Office 365](#configure-your-on-premises-edge-service-to-federate-with-microsoft-365-or-office-365).
-- [Настройте локальную среду так, чтобы она доверяла Microsoft 365 или Office 365 и включила общее адресное пространство SIP](#configure-your-on-premises-environment-to-enable-shared-sip-address-space-with-microsoft-365-or-office-365).
-- [Включите общее адресное пространство SIP в организации Microsoft 365 или Office 365](#enable-shared-sip-address-space-in-your-organization).
+- Настройка локальной службы Edge для федерации с [Microsoft 365 или Office 365.](#configure-your-on-premises-edge-service-to-federate-with-microsoft-365-or-office-365)
+- [Настройка локальной среды для доверия Microsoft 365 или Office 365](#configure-your-on-premises-environment-to-enable-shared-sip-address-space-with-microsoft-365-or-office-365)и включить общее адресное пространство SIP.
+- [Включить общее адресное пространство SIP в организации Microsoft 365 или Office 365.](#enable-shared-sip-address-space-in-your-organization)
 
-Обратите внимание на то, что если у вас есть локальная служба Exchange, может потребоваться настроить OAuth между локальной средой Exchange и средой Skype для бизнеса Online. Дополнительные сведения можно найти [в статье Управление проверкой подлинности между серверами в Skype для бизнеса Server](https://docs.microsoft.com/SkypeForBusiness/manage/authentication/server-to-server-and-partner-applications) и [Планирование интеграции Skype для бизнеса и Exchange](https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/integrate-with-exchange/integrate-with-exchange#feature_support). 
+Обратите внимание, что если у вас есть локальное приложение Exchange, может потребоваться настроить OAuth между локальной средой Exchange и средой Skype для бизнеса Online. Дополнительные сведения см. в управлении проверкой подлинности ["сервер-сервер"](https://docs.microsoft.com/SkypeForBusiness/manage/authentication/server-to-server-and-partner-applications) в Skype для бизнеса Server и планировании интеграции Skype для бизнеса [и Exchange.](https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/integrate-with-exchange/integrate-with-exchange#feature_support) 
   
-## <a name="configure-your-on-premises-edge-service-to-federate-with-microsoft-365-or-office-365"></a>Настройка локальной службы пограничной службы для Федерации с Microsoft 365 или Office 365
+## <a name="configure-your-on-premises-edge-service-to-federate-with-microsoft-365-or-office-365"></a>Настройка локальной службы edge для федерации с Microsoft 365 или Office 365
 
-Федерация позволяет пользователям в локальном развертывании общаться с Microsoft 365 или Office 365 для пользователей в вашей организации. Чтобы настроить федерацию, выполните следующий командлет в командной консоли Skype для бизнеса Server:
+Федерация позволяет пользователям в локальном развертывании взаимодействовать с пользователями Microsoft 365 или Office 365 в организации. Чтобы настроить федерацию, запустите следующий cmdlet в оболочке управления Skype для бизнеса Server:
   
 ```PowerShell
 Set-CSAccessEdgeConfiguration -AllowOutsideUsers $True -AllowFederatedUsers $True -EnablePartnerDiscovery $True -UseDnsSrvRouting
 ```
 
-Если параметру "-EnablePartnerDiscovery" присвоено значение $True, Skype для бизнеса Server будет использовать DNS-записи для попытки обнаружения доменных доменов, не указанных в списке Алловеддомаинс. Если параметру присвоено значение $False, Skype для бизнеса Server будет использовать только Федерацию с доменами, обнаруженными в списке Алловеддомаинс. Этот параметр необходим, если используется маршрутизация службы DNS.
+Если для значения "-EnablePartnerDiscovery" установлено значение $True, Skype для бизнеса Server будет использовать записи DNS для обнаружения доменов партнеров, не указанных в списке AllowedDomains. Если задается значение $False, Skype для бизнеса Server будет федерации только с домены, найденные в списке AllowedDomains. Этот параметр необходим, если используется маршрутизация службы DNS.
 
 > [!NOTE]
-> Дополнительные сведения о включении Федерации между пользователями локального развертывания Skype для бизнеса и пользователей в Организации Skype для бизнеса Online приведены [в статье Настройка поддержки федерации для клиента Skype для бизнеса Online в Skype для бизнеса Server](https://docs.microsoft.com/skypeforbusiness/manage/federation-and-external-access/federation-support/configuring-federation-support).
+> Дополнительные сведения о включите федерацию между пользователями локального развертывания Skype для бизнеса и пользователями организации Skype для бизнеса Online, см. в настройках поддержки федерации для клиента Skype для бизнеса Online в [Skype для бизнеса Server.](https://docs.microsoft.com/skypeforbusiness/manage/federation-and-external-access/federation-support/configuring-federation-support)
 
 
-## <a name="configure-your-on-premises-environment-to-enable-shared-sip-address-space-with-microsoft-365-or-office-365"></a>Настройка локальной среды для включения общего адресного пространства SIP с помощью Microsoft 365 или Office 365
+## <a name="configure-your-on-premises-environment-to-enable-shared-sip-address-space-with-microsoft-365-or-office-365"></a>Настройка локальной среды для обеспечения общего адресного пространства SIP в Microsoft 365 или Office 365
 
-Кроме того, необходимо настроить локальную среду, чтобы доверять Microsoft 365 или Office 365 и разрешить общее адресное пространство SIP. Это означает, что Microsoft 365 или Office 365 потенциально могут размещать учетные записи пользователей для того же набора доменов SIP, что и в локальной среде, а сообщения могут маршрутизироваться между пользователями, размещенными в локальной среде и в сети.  Для этого необходимо настроить поставщика услуг хостинга с ProxyFqdn = sipfed. Online. Lync. com, как описано ниже.
+Кроме того, необходимо настроить в локальной среде доверие к Microsoft 365 или Office 365 и включить общее адресное пространство SIP. Это означает, что Microsoft 365 или Office 365 потенциально могут использовать учетные записи пользователей для того же набора доменов SIP, что и в локальной среде, а сообщения могут маршрутиться между пользователями, которые были установлены в локальной и сетевой среде.  Это можно сделать, настроив поставщика услуг размещения с proxyFqdn=sipfed.online.lync.com, как описано ниже.
 
-Сначала убедитесь, что у вас уже есть поставщик услуг хостинга с ProxyFqdn = sipfed. Online. Lync. com. Если он существует, удалите его с помощью следующей команды:
+Сначала проверьте, есть ли у вас поставщик услуг размещения с ProxyFqdn=sipfed.online.lync.com. Если он существует, удалите его с помощью следующей команды:
 
 ```PowerShell
 Get-CsHostingProvider | ?{ $_.ProxyFqdn -eq "sipfed.online.lync.com" } | Remove-CsHostingProvider
 ```
 
-Затем создайте нового поставщика услуг хостинга, используя командлет New – CsHostingProvider, как показано ниже. 
+Затем создайте нового поставщика услуг размещения, используйте New-CsHostingProvider следующим образом: 
 
 ```PowerShell
 New-CsHostingProvider -Identity Office365 -ProxyFqdn "sipfed.online.lync.com" -Enabled $true -EnabledSharedAddressSpace $true -HostsOCSUsers $true -VerificationLevel UseSourceVerification -IsLocal $false -AutodiscoverUrl https://webdir.online.lync.com/Autodiscover/AutodiscoverService.svc/root 
 ```
 
- ## <a name="enable-shared-sip-address-space-in-your-organization"></a>Включение общего адресного пространства SIP в Организации
+ ## <a name="enable-shared-sip-address-space-in-your-organization"></a>Включить общее адресное пространство SIP в организации
   
-В дополнение к изменениям, внесенным в локальном развертывании, необходимо внести соответствующие изменения в организации Microsoft 365 или Office 365, чтобы она включала общее адресное пространство SIP с локальным развертыванием.  
+Помимо изменений, сделанных в локальном развертывании, необходимо внести соответствующие изменения в организацию Microsoft 365 или Office 365, чтобы включить общее адресное пространство SIP в локальном развертывании.  
 
-Чтобы включить общее адресное пространство SIP в Организации, установите удаленный сеанс PowerShell с помощью Skype для бизнеса Online, а затем выполните следующий командлет:
+Чтобы включить общее адресное пространство SIP в организации, создайте удаленный сеанс PowerShell со Skype для бизнеса Online и запустите следующий cmdlet:
   
 ```PowerShell
 Set-CsTenantFederationConfiguration -SharedSipAddressSpace $true
 ```
 
 > [!NOTE]
-> Атрибут SharedSipAddressSpace должен иметь значение true до тех пор, пока не будет выполнен переход в оперативный режим, и пользователи не будут сохраняться в локальной среде. 
+> Атрибут SharedSipAddressSpace должен оставаться "True", пока переход на веб-сайт не будет окончательным, и никакие пользователи не останутся в локальной сети. 
   
-Чтобы установить удаленный сеанс PowerShell с Teams или Skype для бизнеса Online, сначала необходимо установить модуль соединителя Skype для бизнеса Online для Windows PowerShell, который вы можете получить [здесь](https://go.microsoft.com/fwlink/p/?LinkId=391911).
+Чтобы установить удаленный сеанс PowerShell с Teams или Skype для бизнеса Online, сначала необходимо установить модуль соединителя Skype для бизнеса Online для Windows PowerShell, который можно [получить здесь.](https://go.microsoft.com/fwlink/p/?LinkId=391911)
   
 После установки модуля можно установить удаленный сеанс со следующими командлетами:
   
@@ -87,10 +87,10 @@ $cred = Get-Credential
 Import-PSSession (New-CsOnlineSession -Credential $cred) -AllowClobber
 ```
 
-Дополнительные сведения о том, как установить удаленный сеанс PowerShell с помощью Skype для бизнеса Online, а также как использовать модуль соединителя Skype для бизнеса Online можно в разделе [Настройка компьютера для Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
+Дополнительные сведения о создании удаленного сеанса PowerShell со Skype для бизнеса Online и использовании модуля соединителю Skype для бизнеса Online см. в [Windows PowerShell.](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
   
 
 
 ## <a name="see-also"></a>См. также
 
-[New — CsHostingProvider](https://docs.microsoft.com/powershell/module/skype/new-cshostingprovider?view=skype-ps)
+[New-CsHostingProvider](https://docs.microsoft.com/powershell/module/skype/new-cshostingprovider?view=skype-ps)

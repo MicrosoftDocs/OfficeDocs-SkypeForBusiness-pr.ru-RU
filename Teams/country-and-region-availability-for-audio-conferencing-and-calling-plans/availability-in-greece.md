@@ -24,7 +24,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Вот службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные в Греция.
+description: Ниже 365 доступны службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные в Греция.
 ms.openlocfilehash: 22b362d85dc3de996c86d22c06f48274bcb34a8c
 ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
@@ -36,7 +36,7 @@ ms.locfileid: "44230807"
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Вот службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные в Греция.
+Ниже 365 доступны службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные в Греция.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 

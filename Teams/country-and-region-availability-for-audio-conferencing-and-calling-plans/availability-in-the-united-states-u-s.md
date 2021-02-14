@@ -24,7 +24,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже находятся службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные в США.
+description: Вот службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные в США.
 ms.openlocfilehash: 1a33ad9909b7caa76acb2b4e042b24aa98cc86f1
 ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
@@ -36,7 +36,7 @@ ms.locfileid: "44230337"
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже находятся службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные в США. Дополнительные [сведения см.](../calling-plans-for-office-365.md) в сведениях о покупке плана звонков.
+Вот службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные в США. Дополнительные [сведения см.](../calling-plans-for-office-365.md) в сведениях о покупке плана звонков.
 
 ## <a name="audio-conferencing"></a>Аудиоконференции
 
@@ -67,7 +67,7 @@ ms.locfileid: "44230337"
 > Звонки в Канаду рассматриваются как внутренние.
 
 >[!Note] 
-> Внутренние звонки в США включают звонки во все 50 штатов США и Пуэрто-Рико. У пользователей, у пользователей, которые назначены место использования лицензий в США или Пуэрто-Рико, одинаковый пул минут.
+> Внутренние звонки в США включают звонки во все 50 штатов США и Пуэрто-Рико. У пользователей, которые назначены место использования лицензий в США или Пуэрто-Рико, одинаковый пул минут.
 
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Платные и бесплатные номера служб
 

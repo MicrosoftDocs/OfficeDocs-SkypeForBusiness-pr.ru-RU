@@ -24,7 +24,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Вот службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Гонконга.
+description: Вот службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные в Гонконге.
 ms.openlocfilehash: b6b73a1965fb25fc43a20524aa5e1b618c9e018a
 ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT

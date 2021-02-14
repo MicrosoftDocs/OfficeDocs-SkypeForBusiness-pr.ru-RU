@@ -24,7 +24,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Вот службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Венгрии.
+description: Ниже 2010 г. доступны службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Венгрии.
 ms.openlocfilehash: f1d1460bead9230024129a72650f17eef3f51400
 ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
@@ -36,7 +36,7 @@ ms.locfileid: "44230447"
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Вот службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Венгрии.
+Ниже 2010 г. доступны службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Венгрии.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 

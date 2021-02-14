@@ -55,7 +55,7 @@ There are two types of audio conferencing phone numbers that can be assigned to 
   
  **Выделенные телефонные номера**  это номера, доступные только для пользователей внутри организации. Вы можете изменить языки, которые используются при звонках на эти номера.
   
- **Общие номера телефонов** — это номера телефонов, которые можно использовать совместно с другими учетными записями Microsoft 365 или Office 365. Вы не можете изменить языки, которые используются при звонках на один из этих номеров.
+ **Общие номера телефонов** — это номера телефонов, которые можно использовать совместно с другими учетными записьми Microsoft 365 или Office 365. Языки, которые используются при звонках на эти номера, изменить нельзя.
   
 While the default audio conferencing number that is assigned to an organizer is only included in the meeting invite, a caller can use any of the phone numbers that are assigned to your conferencing bridge to join a meeting. The list of phone numbers that can be used to join a meeting is available using the **Find a local number** link that is included on every meeting invite.
   
@@ -67,7 +67,7 @@ Shared audio conferencing phone numbers are automatically assigned to organizati
 > Страна или регион, в котором находится ваша организация, можно найти, войдя в центр администрирования Microsoft 365 и просмотрев раздел **Профиль организации**. 
   
 > [!CAUTION]
-> Из-за ограниченной доступности платных телефонных номеров в Венесуэла, Индонезия, Вьетнаме и Объединенных Арабских ОАЭ (ОАЭ) в организации из этих стран или регионов не будет автоматически назначен номер для голосовой конференции. Бесплатные номера из этих местоположений доступны в зависимости от имеющихся запасов. 
+> Из-за ограниченной доступности платных номеров телефонов в Венесуэле, Индонезии, Вьетнаме и ОАЭ организации из этих стран не получают платный номер для аудиоконференции автоматически. Бесплатные номера доступны в этих расположениях в зависимости от доступных запасов. 
   
 Dedicated audio conferencing phone numbers are service numbers that you can get and then assign to your organization. Service numbers can be found by using the **Skype for Business admin center**. For details, see [Getting service phone numbers](/microsoftteams/getting-service-phone-numbers).
   
@@ -75,18 +75,18 @@ Dedicated audio conferencing phone numbers are service numbers that you can get 
   
 ## <a name="what-else-should-you-know"></a>Дополнительные сведения
 
-- Список поддерживаемых языков для голосовой конференции можно найти в разделе [Поддерживаемые языки голосовой конференции](/MicrosoftTeams/audio-conferencing-supported-languages).
+- Список поддерживаемых языков для аудиоконференции см. в списке поддерживаемых языков [аудиоконференции.](/MicrosoftTeams/audio-conferencing-supported-languages)
     
-- Вы можете использовать командлет [Get-CsOnlineDialInConferencingServiceNumber](https://go.microsoft.com/fwlink/?LinkId=617691) , чтобы просмотреть выделенные телефонные номера для голосовой конференции для вашей организации.
+- С помощью командалета [Get-CsOnlineDialInConferencingServiceNumber](https://go.microsoft.com/fwlink/?LinkId=617691) можно посмотреть выделенные номера телефонов для аудиоконференции для вашей организации.
     
 - Можно использовать командлет [Get-CsOnlineDialInConferencingLanguagesSupported](https://go.microsoft.com/fwlink/?LinkId=617684), чтобы просмотреть список языков, поддерживаемых в выделенных телефонных номерах для конференц-связи с подключением.
     
 - You can set up to four languages for each audio conferencing phone number - one primary and three secondary. And you can also set languages on a dedicated audio conferencing phone number.
     
-- Чтобы установить телефонный номер для подключения для пользователя, ознакомьтесь с разделами [Настройка номеров телефонов, включенных в приглашения](set-the-phone-numbers-included-on-invites.md).
+- Чтобы узнать, как настроить номер телефона для телефонного звонка для пользователя, см. в этом окте " Настройка телефонных номеров, включенных [в приглашения".](set-the-phone-numbers-included-on-invites.md)
     
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
    
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 
-[Попробуйте или купите голосовую конференцию в Microsoft 365 или Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Попробуйте или приобретйте аудиоконференцию в Microsoft 365 или Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

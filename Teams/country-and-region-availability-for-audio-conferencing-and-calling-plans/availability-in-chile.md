@@ -24,7 +24,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Вот службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные в Чили.
+description: Ниже 2010 г. доступны службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные в Чили.
 ms.openlocfilehash: 4704c72671b1c4c64c11bce2d5616da04d269799
 ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
@@ -36,7 +36,7 @@ ms.locfileid: "44230587"
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Вот службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные в Чили.
+Ниже 2010 г. доступны службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные в Чили.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 

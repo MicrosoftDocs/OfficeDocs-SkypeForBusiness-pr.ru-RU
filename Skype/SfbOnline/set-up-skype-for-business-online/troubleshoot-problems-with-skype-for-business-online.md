@@ -18,7 +18,7 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
-description: Сведения о том, как устранять проблемы, связанные с администраторами и пользователями Skype для бизнеса в Microsoft 365 и Office 365.
+description: Узнайте, как устранять проблемы для администраторов и пользователей Skype для бизнеса в Microsoft 365 и Office 365.
 ms.openlocfilehash: 79f4f9f2ac8d1cd2e6b65486089b212c076d272d
 ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
@@ -32,7 +32,7 @@ ms.locfileid: "44164318"
 
 ## <a name="troubleshoot-admin-issues-for-skype-for-business-online"></a>Устранение проблем, возникающих при администрировании Skype для бизнеса Online
 
-Вы можете получить ответы на все вопросы, касающиеся Skype для бизнеса Online, в статье [Проверка распространенных причин ошибок входа в Skype для бизнеса Online](troubleshooting-sign-in-errors-for-admins.md#toc323194094). В следующей статье базы знаний также приводится множество ресурсов по устранению неполадок и ссылки на коды ошибок: [Устранение неполадок при входе в Skype для бизнеса Online для администраторов](https://docs.microsoft.com/skypeforbusiness/set-up-skype-for-business-online/troubleshooting-sign-in-errors-for-admins).
+Ответы на большинство вопросов по Skype для бизнеса Online можно найти в статье "Проверка распространенных причин ошибок при входе в Skype для бизнеса [Online".](troubleshooting-sign-in-errors-for-admins.md#toc323194094) Следующая статья КБ также содержит множество ресурсов для устранения неполадок и ссылок на коды ошибок: устранение неполадок при входе в Skype для бизнеса [Online для администраторов.](https://docs.microsoft.com/skypeforbusiness/set-up-skype-for-business-online/troubleshooting-sign-in-errors-for-admins)
 
 Сведения о проблемах конференц-связи с телефонным подключением см. в статье [Известные проблемы аудиоконференций и устранение неполадок](../audio-conferencing-in-office-365/audio-conferencing-troubleshooting-and-known-issues.md).
 
@@ -75,9 +75,9 @@ ms.locfileid: "44164318"
 ## <a name="still-need-help-contact-support"></a>Есть дополнительные вопросы? Обратитесь за поддержкой.
 <a name="BK_SupportBridge_1"> </a>
 
-Как администратор приложений Microsoft 365 для бизнеса, вы получаете бесплатный доступ к нашим специалистам по поддержке для получения информации о продажах, учетных записях и выставлении счетов, а также о том, как решить технические проблемы. Вы также можете [обратиться в службу поддержки](https://go.microsoft.com/fwlink/p/?LinkID=518322) от имени Microsoft 365 и Office 365 для пользователей вашей организации.
+Как администратор приложений Microsoft 365 для бизнеса вы можете бесплатно получить помощь опытных агентов службы поддержки по вопросам предварительных продаж, учетных записей и вы выставлению счетов, а также для устранения технических проблем. Вы также можете [обратиться в службу](https://go.microsoft.com/fwlink/p/?LinkID=518322) поддержки от имени пользователей Microsoft 365 и Office 365 в организации.
 
-- [Получение справки с форумов сообщества Microsoft 365 и Office 365](https://go.microsoft.com/fwlink/p/?LinkId=518605)
+- [Справка на форумах сообщества Microsoft 365 и Office 365](https://go.microsoft.com/fwlink/p/?LinkId=518605)
 
 - [Администраторы: поддержка по телефону](https://go.microsoft.com/fwlink/p/?LinkID=518322)
 

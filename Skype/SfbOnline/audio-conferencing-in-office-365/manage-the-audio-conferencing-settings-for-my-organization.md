@@ -20,7 +20,7 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
-description: 'В статье Skype для бизнеса Online вы можете назначать лицензии для конференц-связи с телефонным подключением и ИДЕНТИФИКАТОРом конференции для пользователя и многих других параметров конференц-связи с телефонным подключением. '
+description: 'См. по шагам Skype для бизнеса Online, чтобы назначить пользователю лицензию на конференц-вызов и ИД конференции, а также другие параметры конференц-зала. '
 ms.openlocfilehash: aa8e9cbaf063ebf1780e3f8ce45b7bd54ced474f
 ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
@@ -33,19 +33,19 @@ ms.locfileid: "44164148"
 > [!NOTE]
 > Для получения информации о том, как управлять этими параметрами с помощью Microsoft Teams, см. [Управление параметрами аудиоконференций для организаций в Microsoft Teams](/MicrosoftTeams/manage-the-audio-conferencing-settings-for-my-organization-in-teams).
 
-Вы сможете более легко увидеть все настройки голосовой конференции Skype для бизнеса в одном приложении.
+Возможно, вам будет проще увидеть все параметры аудиоконференции для Skype для бизнеса в одном месте.
 
 
 ## <a name="assign-an-audio-conferencing-license"></a>Назначение лицензии на аудиоконференцию
 
 > [!NOTE]
-> Вы не можете назначать лицензии с помощью **центра администрирования Skype для бизнеса**. Необходимо использовать центр администрирования Microsoft 365. Смотрите раздел [Назначение лицензий Skype для бизнеса](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).
+> В Центре администрирования Skype для бизнеса нельзя **назначать лицензии.** Необходимо использовать Центр администрирования Microsoft 365. См. ["Назначение лицензий Skype для бизнеса".](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)
 
- **Назначение лицензии для пользователя**
+ **Назначение лицензии пользователю**
 
-1. Войдите в свою рабочую или учебную учетную запись.
+1. Войте свою учетную запись с помощью своей учебной или учебной учетной записи.
 
-2. На панели навигации в центре администрирования перейдите в раздел**Активные пользователи** **пользователей** > и выберите пользователя или пользователей из списка доступных пользователей.
+2. В левой области навигации Центра администрирования перейдите к списку "Пользователи активных пользователей", а затем выберите пользователя или пользователей из списка  >  доступных.
 
     > [!NOTE]
     > If you are assigning licenses to up to 20 users at the same time, you can use the **Select a view** drop-down then choose one of the options or create your own view. Then click **Edit**, **Next** twice then select the license and click **Submit**. You can also assign licenses to multiple users by using Windows Powershell. For instructions and sample PowerShell scripts, see [Assign Skype for Business licenses](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).
@@ -55,19 +55,19 @@ ms.locfileid: "44164148"
 4. On the **Product Licenses** page, turn on **Audio Conferencing** and then click **Save**. For more on licensing, see [Skype for Business add-on licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
 
 > [!NOTE]
-> После назначения лицензии Майкрософт может не отображаться в списке в качестве поставщика видеоконференций. Если это случится, выйдите из центра администрирования или нажмите клавиши CTRL + F5, чтобы обновить окно браузера.
+> После назначения лицензии Майкрософт может не отображаться в списке в качестве поставщика аудиоконференций. В этом случае выйдите из Центра администрирования или нажмите CTRL+F5, чтобы обновить окно браузера.
 
-## <a name="enable-or-disable-emails-sent-to-audio-conferencing-users"></a>Включение и отключение электронных писем, отправляемых пользователям голосовой конференции
+## <a name="enable-or-disable-emails-sent-to-audio-conferencing-users"></a>Включить или отключить сообщения электронной почты, отправленные пользователям аудиоконференции
 
 ![Значок с логотипом Skype для бизнеса](../images/sfb-logo-30x30.png) **Использование центра администрирования Skype для бизнеса**
 
-1. Войдите в свою рабочую или учебную учетную запись.
+1. Войте свою учетную запись с помощью своей учебной или учебной учетной записи.
 
-2. Перейдите в центр администрирования > **Skype для бизнеса** и на панели навигации слева выберите пункт **Голосовая конференция**.
+2. Перейдите в Центр администрирования > Skype для бизнеса **и** на левой навигации щелкните "Аудиоконференция". 
 
 3. На странице **Параметры моста Microsoft** поставьте или снимите флажок **Автоматически отправлять сообщения пользователям при изменении их параметров аудиоконференций**.
 
-4. Нажмите кнопку **Сохранить**.
+4. Щелкните **Сохранить**.
 
     You can also send emails to the user with the audio conferencing settings by going to the user's audio conferencing properties and clicking **Send conference info via email**. The conference ID and default audio conferencing phone number is included on the meeting invite but not the PIN.
 
@@ -84,13 +84,13 @@ ms.locfileid: "44164148"
   Set-CsOnlineDialInConferencingTenantSettings -AutomaticallySendEmailsToUsers $true|$false
   ```
 
-    С помощью [Set-csonlinedialinconferencingtenantsettingshttp](https://docs.microsoft.com/powershell/module/skype/set-csonlinedialinconferencingtenantsettings?view=skype-ps) можно управлять другими параметрами организации, включая электронную почту.
+    С помощью [set-CsOnlineDialInConferencingTenantSettings](https://docs.microsoft.com/powershell/module/skype/set-csonlinedialinconferencingtenantsettings?view=skype-ps) можно управлять другими настройками для организации, включая электронную почту.
 
-## <a name="change-the-senders-contact-information-in-email-messages-sent-to-users"></a>Изменение контактных данных отправителя в сообщениях электронной почты, отправляемых пользователям
+## <a name="change-the-senders-contact-information-in-email-messages-sent-to-users"></a>Изменение контактных данных отправитель в сообщениях электронной почты, отправляемых пользователям
 
-Вы можете вносить изменения в сообщение электронной почты, которое автоматически отправляется пользователям, включая реальный адрес электронной почты и отображаемое имя контактной информации отправителя. По умолчанию отправитель сообщения электронной почты — это Microsoft 365 или Office 365, но вы можете изменить адрес электронной почты и отображаемое имя с помощью Windows PowerShell и командлета [Set-csonlinedialinconferencingtenantsettingshttp](https://docs.microsoft.com/powershell/module/skype/set-csonlinedialinconferencingtenantsettings?view=skype-ps) . Чтобы внести изменения в адрес электронной почты, который отправляет пользователям сообщение электронной почты, необходимо выполнить следующие действия.
+Вы можете внести изменения в электронные письма, которые автоматически отправляются пользователям, включая фактический адрес электронной почты и отображаемую информацию о контактных данных отправщика. По умолчанию отправитель электронных писем — Microsoft 365 или Office 365, но вы можете изменить адрес электронной почты и отображаемого имени с помощью Windows PowerShell [и cmdlet Set-CsOnlineDialInConferencingTenantSettings.](https://docs.microsoft.com/powershell/module/skype/set-csonlinedialinconferencingtenantsettings?view=skype-ps) Чтобы изменить адрес электронной почты, отправляемый пользователям, необходимо:
 
-- Введите адрес электронной почты в параметре _SendEmailFromAddress_ .
+- Введите адрес электронной почты в параметр _SendEmailFromAddress._
 
 - Введите отображаемое имя в параметр  _SendEmailFromDisplayName_.
 
@@ -104,17 +104,17 @@ Set-CsOnlineDialInConferencingTenantSettings -SendEmailOverride $true -SendEmail
 
 Чтобы изменить адрес электронной почты, нужно убедиться в том, что применяемая организацией политика входящих сообщений позволяет принимать сообщения, отправленные с настраиваемого адреса электронной почты.
 
-Вы можете использовать командлет [Set-csonlinedialinconferencingtenantsettingshttp](https://docs.microsoft.com/powershell/module/skype/set-csonlinedialinconferencingtenantsettings?view=skype-ps) для управления другими настройками организации, включая электронную почту.
+Для управления другими настройками для организации, включая электронную почту, можно использовать [cmdlet Set-CsOnlineDialInConferencingTenantSettings.](https://docs.microsoft.com/powershell/module/skype/set-csonlinedialinconferencingtenantsettings?view=skype-ps)
 
-Просмотр [сообщений, которые автоматически отправляются пользователям при изменении параметров голосовой конференции](emails-sent-to-users-when-their-settings-change.md).
+См. [электронные письма, которые автоматически отправляются пользователям](emails-sent-to-users-when-their-settings-change.md)при изменении параметров аудиоконференции.
 
 ## <a name="reset-the-meeting-conference-id"></a>Войдите в Office 365 под своей учебной или рабочей учетной записью.
 
-1. Войдите в свою рабочую или учебную учетную запись.
+1. Войте свою учетную запись с помощью своей учебной или учебной учетной записи.
 
-2. Перейдите в центр администрирования > **Skype для бизнеса**.
+2. Перейдите в Центр администрирования > **Skype для бизнеса.**
 
-3. На панели навигации слева в **центре администрирования Skype для бизнеса** перейдите к секции **Аудиоконференции** и на панели действий в области**Идентификатор конференции** нажмите на кнопку **Сброс**.
+3. На панели навигации слева в **центре администрирования Skype для бизнеса** перейдите к секции **Аудиоконференции** и на панели действий в области **Идентификатор конференции** нажмите на кнопку **Сброс**.
 
 4. In the **Reset conference ID?** window, click **Yes**. A conference ID will be automatically created and an email sent to the user with the new conference ID if sending email to your users is enabled. It's enabled by default.
 
@@ -128,141 +128,141 @@ See [Reset a conference ID for a user](reset-a-conference-id-for-a-user.md).
 Each meeting that a user schedules will get assigned a unique conference ID. Although a conference ID will be automatically created and assigned to a user, there may be times when a user doesn't want to use this one and you want to set it to a certain number, or your users can't remember or have lost their conference ID. You can use the Skype for Business admin center and Windows PowerShell to view, change, and reset their conference ID.
 
 
-1. Войдите в свою рабочую или учебную учетную запись.
+1. Войте свою учетную запись с помощью своей учебной или учебной учетной записи.
 
-2. Перейдите в центр администрирования > **Skype для бизнеса** и на панели навигации слева выберите пункт **Голосовая конференция**.
+2. Перейдите в Центр администрирования > Skype для бизнеса **и** на левой навигации щелкните "Аудиоконференция". 
 
-3. Нажмите кнопку **Пользователи**, а затем выберите пользователя, для которого вы хотите сбросить PIN-код.
+3. Щелкните **"Пользователи"** и выберите пользователя, для который вы хотите сбросить ПИН-код.
 
-4. На панели действий в разделе **ПИН-код**нажмите кнопку **Сброс**.
+4. На области действий в области **"ПИН-код"** нажмите кнопку **"Сброс".**
 
 Users will receive an email with their PIN when they're enabled for audio conferencing or when the PIN is reset. But if you have disabled automatically sending emails, a PIN reset email won't be sent and you will have to manually send the PIN to the user. The PIN will only be shown once after it has been reset. After it's displayed just after being reset, the PIN won't be shown anymore on the user properties; instead, ***** will be shown.
 
-Посмотрите [, как сбросить ПИН-код голосовых конференций](reset-the-audio-conferencing-pin.md).
+См. ["Сброс ПИН-кода аудиоконференции".](reset-the-audio-conferencing-pin.md)
 
-## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>Отправка пользователю сообщения электронной почты с данными голосовой конференции
+## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>Отправка пользователю сообщения электронной почты со сведениями об аудиоконференции
 
-1. Войдите в свою рабочую или учебную учетную запись.
+1. Войте свою учетную запись с помощью своей учебной или учебной учетной записи.
 
-2. Перейдите в центр администрирования > **Skype для бизнеса** и на панели навигации слева выберите пункт **Голосовая конференция**.
+2. Перейдите в Центр администрирования > Skype для бизнеса **и** на левой навигации щелкните "Аудиоконференция". 
 
-3. Нажмите кнопку **Пользователи**, а затем выберите пользователя, для которого вы хотите сбросить PIN-код.
+3. Щелкните **"Пользователи"** и выберите пользователя, для который вы хотите сбросить ПИН-код.
 
 4. На панели действий щелкните **Отправить информацию о конференции по электронной почте**.
 
     > [!NOTE]
-    > После этого ПИН-код для голосовой конференции не отправляется пользователю.
+    > При этом ПИН-код аудиоконференции не отправляется пользователю.
 
 See [Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-dial-in-information.md).
 
 ## <a name="setting-the-phone-numbers-included-on-invites"></a>Настройка номеров телефонов, включенных в приглашения
 
-1. Войдите в свою рабочую или учебную учетную запись.
+1. Войте свою учетную запись с помощью своей учебной или учебной учетной записи.
 
-2. Перейдите в центр администрирования > **Skype для бизнеса**.
+2. Перейдите в Центр администрирования > **Skype для бизнеса.**
 
 3. In the left navigation, go to **Audio conferencing** > **Users**. Select the user that you want to enable for Audio Conferencing.
 
 4. На панели «Действия» можно указать **Платный номер** и, если разрешено, **Бесплатный номер**.
 
-5. Нажмите кнопку **Сохранить**.
+5. Щелкните **Сохранить**.
 
-Ознакомьтесь [с разделами Настройка номеров телефонов, включенных в приглашения](set-the-phone-numbers-included-on-invites.md).
+См. ["Настройка номеров телефонов, включенных в приглашения".](set-the-phone-numbers-included-on-invites.md)
 
 
 ## <a name="choosing-audio-conferencing-bridge-settings"></a>Выбор параметров моста аудиоконференций
 
-**Настройка процесса собрания, когда абоненты присоединяются к собранию**
+**Настройка окна собрания, когда звоня люди присоединяются к собранию**
 
 
-1. Войдите в свою рабочую или учебную учетную запись.
+1. Войте свою учетную запись с помощью своей учебной или учебной учетной записи.
 
-2. Перейдите в центр администрирования > **Skype для бизнеса**.
+2. Перейдите в Центр администрирования > **Skype для бизнеса.**
 
-3. В **центре администрирования Skype для бизнеса**на панели навигации слева перейдите к разделу**Настройка моста** **видеоконференций** > Microsoft.
+3. В Центре **администрирования Skype для бизнеса** на левой навигации перейдите к настройкам моста аудиоконференции  >  **Майкрософт.**
 
-4. В разделе **Присоединение к собранию**выберите указанные ниже действия.
+4. В **области "Присоединиться к собранию"** выберите следующие действия:
 
    - **Enable meeting entry and exit notifications to be turned on** This is selected by default. If you clear this check box, users who have already joined the meeting by default won't be notified when someone enters or leaves the meeting.
 
-     Это может быть задано для каждого собрания, когда пользователь присоединяется к собранию с помощью приложения Skype для бизнеса, и при **входе или выходе** пользователей из него в меню **параметров** собрания Skype на собрании вы можете изменить параметр объявлять.
+     Этот параметр можно настроить на основе собраний, когда пользователь присоединяется к собранию с  помощью приложения Skype для бизнеса  и может изменить параметр "Объявлять" при входе или выходе пользователей в меню параметров собрания Skype.
 
    - **Ask callers to record their name before joining the meeting** This is selected by default. If you clear this check box, callers won't be asked to record their name before they join a meeting.
 
 5. См. статью **Изменение параметров моста аудиоконференций**.
     
-Ознакомьтесь [с разрешениями изменение параметров для моста видеоконференций](/MicrosoftTeams/change-the-settings-for-an-audio-conferencing-bridge).
+См. [статью "Изменение параметров моста аудиоконференций".](/MicrosoftTeams/change-the-settings-for-an-audio-conferencing-bridge)
   
- **Установка длины ПИН-кода для собраний**
+ **Настройка длины ПИН-кода для собраний**
 
-1. Войдите в свою рабочую или учебную учетную запись.
+1. Войте свою учетную запись с помощью своей учебной или учебной учетной записи.
 
-2. Перейдите в центр администрирования > **Skype для бизнеса**.
+2. Перейдите в Центр администрирования > **Skype для бизнеса.**
 
-3. В **центре администрирования Skype для бизнеса**на панели навигации слева перейдите к разделу**Настройка моста** **видеоконференций** > Microsoft.
+3. В Центре **администрирования Skype для бизнеса** на левой навигации перейдите к настройкам моста аудиоконференции  >  **Майкрософт.**
 
-4. В разделе **Безопасность**введите нужное количество цифр для ПИН-кода в списке **длина ПИН** -кода и нажмите кнопку **сохранить**.
+4. В **области "Безопасность"** введите в списке  длины ПИН-кода нужное количество цифр и нажмите кнопку **"Сохранить".**
 
     The PIN must be between 4 and 12 digits. The default is 5.
     
-Ознакомьтесь [с разрешениями изменение параметров для моста видеоконференций](/MicrosoftTeams/change-the-settings-for-an-audio-conferencing-bridge).
+См. [статью "Изменение параметров моста аудиоконференций".](/MicrosoftTeams/change-the-settings-for-an-audio-conferencing-bridge)
   
- **Включение и отключение отправки электронной почты пользователям с аудио**
+ **Включить или отключить отправку электронной почты пользователям аудиосвязи**
 
-1. Войдите в свою рабочую или учебную учетную запись.
+1. Войте свою учетную запись с помощью своей учебной или учебной учетной записи.
 
-2. Перейдите в центр администрирования > **Skype для бизнеса** и на панели навигации слева выберите пункт **Голосовая конференция**.
+2. Перейдите в Центр администрирования > Skype для бизнеса **и** на левой навигации щелкните "Аудиоконференция". 
 
 3. На странице **Параметры моста Microsoft** поставьте или снимите флажок **Автоматически отправлять сообщения пользователям при изменении их параметров аудиоконференций**.
 
-4. Нажмите кнопку **Сохранить**.
+4. Щелкните **Сохранить**.
 
-    Кроме того, вы можете отправлять электронную почту пользователю с помощью параметров голосовой конференции, перейдя к свойствам голосовой конференции пользователя и выбрав команду **отправить сведения о конференции по электронной почте**.
+    Вы также можете отправить сообщение электронной почты пользователю с помощью параметров аудиоконференции, щелкнув ссылку "Отправить сведения о конференции по электронной почте".
 
     В этом случае, пользователям отправляются сообщения, содержащие идентификатор конференции и номер телефона, но не включающие в себя ПИН-код.
 
     See [Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-dial-in-information.md).
 
-## <a name="see-and-set-the-primary-default-and-secondary-alternate-languages-on-an-audio-conferencing-bridge"></a>Просмотр и установка основных (по умолчанию) и дополнительных (альтернативных) языков для моста голосовой конференц-связи
+## <a name="see-and-set-the-primary-default-and-secondary-alternate-languages-on-an-audio-conferencing-bridge"></a>См. и установите основной (по умолчанию) и дополнительный (альтернативный) языки на мосте аудиоконференции
 
 
-1. Войдите в свою рабочую или учебную учетную запись.
+1. Войте свою учетную запись с помощью своей учебной или учебной учетной записи.
 
-2. Перейдите в центр администрирования > **Skype для бизнеса**.
+2. Перейдите в Центр администрирования > **Skype для бизнеса.**
 
-3. В **центре администрирования Skype для бизнеса**на панели навигации слева выберите пункт " **звуковые конференции**", а затем — **Microsoft Bridge**.
+3. В Центре **администрирования Skype** для бизнеса на левой навигации перейдите к аудиоконференции **и** выберите мост **Microsoft.**
 
-4. Выберите номер телефона в списке, нажмите кнопку **задать языки** на панели действий, а затем на странице Set Languages ( **настроить языки** ) нажмите кнопку использовать **основной язык** , чтобы просмотреть полный список поддерживаемых языков.
+4. Выберите номер телефона в списке, щелкните "Выбрать языки"  в области действий,  а затем на странице "Выбор языков" щелкните список "Использовать основной язык", чтобы просмотреть полный список поддерживаемых языков. 
 
     You can also set the primary and secondary languages that are supported when you select Microsoft as the audio conferencing provider. The order that you select in the lists is the same order in which languages will be presented to callers.
 
 See [Set auto attendant languages for Audio Conferencing](set-auto-attendant-languages-for-audio-conferencing.md).
 
-## <a name="see-audio-conferencing-dial-in-numbers"></a>Просмотр номеров для телефонной конференции
+## <a name="see-audio-conferencing-dial-in-numbers"></a>См. номера для аудиоконференции с телефонным номером
 
-1. Войдите в свою рабочую или учебную учетную запись.
+1. Войте свою учетную запись с помощью своей учебной или учебной учетной записи.
 
-2. Перейдите в центр администрирования > **Skype для бизнеса**.
+2. Перейдите в Центр администрирования > **Skype для бизнеса.**
  
 3. In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing** > **Microsoft bridge**. Here you can:
 
-   - Просмотрите номера телефонов, заданные Microsoft 365 или Office 365, которые будут использоваться для голосовой конференции.
+   - Просмотр телефонных номеров, которые настроены Microsoft 365 или Office 365 для использования для аудиоконференции.
 
-   - Просмотрите расположение и основной и дополнительный языки, которые будут использоваться автосекретарем по голосовой конференции.
+   - Просмотр местоположения, основного и дополнительных языков, который будет использовать автофиденс аудиоконференции.
 
    - Select the default phone number that will be given to users when they are enabled for Audio Conferencing. However, if the default phone number of the audio conferencing bridge changes, the default phone number for existing users won't change.
 
-Вы можете перейти в раздел**Пользователи** **голосовой конференции** > и выбрать свойства пользователя, чтобы изменить номер по умолчанию для пользователя, выбрав новый номер из списка номеров, доступных в вашей организации.
+Вы можете перейти на сайт "Пользователи аудиоконференции" и выбрать свойства пользователя, чтобы изменить номер по умолчанию для пользователя, выбрав новый номер в списке номеров, доступных в вашей  >   организации.
 
-Посмотрите [список номеров звуковых конференций](see-a-list-of-audio-conferencing-numbers.md).
+См. список номеров для [аудиоконференций.](see-a-list-of-audio-conferencing-numbers.md)
 
 ## <a name="see-a-list-of-users-that-are-enabled"></a>Войдите в Office 365 под своей учебной или рабочей учетной записью.
 
-1. Войдите в свою рабочую или учебную учетную запись.
+1. Войте свою учетную запись с помощью своей учебной или учебной учетной записи.
 
-2. Перейдите в центр администрирования > **Skype для бизнеса**.
+2. Перейдите в Центр администрирования > **Skype для бизнеса.**
 
-3. В **центре администрирования Skype для бизнеса**на панели навигации слева перейдите в раздел " **звуковые конференции**> и нажмите **пользователей**.
+3. В Центре **администрирования Skype** для бизнеса на  левой навигации перейдите в меню "Аудиоконференция" и> **"Пользователи".**
 
 See [See a list of users that are enabled for Audio Conferencing](see-a-list-of-users-that-are-enabled-for-audio-conferencing.md).
 
@@ -272,7 +272,7 @@ There are several settings that you can manage at the organization level using W
 
 To get more help on each cmdlet, see [Skype for Business Online cmdlets](https://go.microsoft.com/fwlink/?LinkId=627324).
 
-Ниже указаны параметры на уровне Организации.
+Ниже параметров на уровне организации.
 
 - **Настройка уведомлений о входе и выходе** Значением по умолчанию является _$true_.
   ```PowerShell
@@ -315,13 +315,13 @@ To get more help on each cmdlet, see [Skype for Business Online cmdlets](https:/
   ```
 
   ## <a name="want-to-know-more-about-windows-powershell"></a>Хотите узнать больше о Windows PowerShell
-- Windows PowerShell — это все, что нужно для управления пользователями, а также для пользователей, которым разрешено или не разрешено выполнять эти действия. С помощью Windows PowerShell можно управлять Microsoft 365 или Office 365, используя единую точку администрирования, которая позволяет упростить повседневную работу, если у вас есть несколько задач. Чтобы приступить к работе с Windows PowerShell, ознакомьтесь со следующими разделами:
+- Windows PowerShell все о том, как управлять пользователями, а также о том, какие пользователи разрешены или не разрешены. С Windows PowerShell вы можете управлять Microsoft 365 или Office 365, используя единый пункт администрирования, который упростит выполнение ваших повседневных задач. Чтобы начать работу с Windows PowerShell, см. указанные здесь разделы.
 
-  - [Зачем использовать Microsoft 365 или Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Зачем нужно использовать Microsoft 365 или Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
 
-  - [Лучшие способы управления Microsoft 365 и Office 365 с помощью Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Лучшие способы управления Microsoft 365 или Office 365 с помощью Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
 
-- Windows PowerShell обладает многими преимуществами для ускорения, простоты и продуктивности с помощью центра администрирования, например при изменении параметров для нескольких пользователей одновременно. Ознакомьтесь с этими преимуществами в указанных ниже разделах.
+- Windows PowerShell имеет множество преимуществ в скорости, простоте и эффективности работы по сравнению с использованием только центра администрирования, например при внесении изменений для множества пользователей одновременно. Подробнее об этих преимуществах можно узнать в следующих темах:
 
   - [Введение в Windows PowerShell и Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=525039)
 
@@ -331,7 +331,7 @@ To get more help on each cmdlet, see [Skype for Business Online cmdlets](https:/
 
     Модуль Windows PowerShell для Skype для бизнеса online позволяет запускать удаленные сеансы Windows PowerShell с подключением к Skype для бизнеса online. Этот модуль для 64-разрядных систем можно загрузить из Центра загрузки Microsoft здесь: [Модуль Windows PowerShell для Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=294688).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 
 [Управление настройками аудиоконференции для пользователя](manage-the-audio-conferencing-settings-for-a-user.md)
 

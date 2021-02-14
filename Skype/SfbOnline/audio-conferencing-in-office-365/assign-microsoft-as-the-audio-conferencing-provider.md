@@ -31,7 +31,7 @@ ms.locfileid: "44164525"
 ---
 # <a name="assign-microsoft-as-the-audio-conferencing-provider"></a>Назначение Майкрософт в качестве поставщика услуг аудиоконференций
 
-Чтобы использовать голосовую конференцию в Microsoft 365 или Office 365 с помощью Skype для бизнеса и Microsoft Teams, пользователям в вашей организации должна быть назначена лицензия на голосовую конференцию. Узнайте больше о том, как [использовать голосовые конференции в Microsoft 365 или Office 365](try-or-purchase-audio-conferencing-in-office-365.md) , чтобы получить дополнительные сведения о лицензировании и о том, сколько стоимость ИТ.
+Чтобы использовать аудиоконференцию в Microsoft 365 или Office 365 со Skype для бизнеса и Microsoft Teams, пользователям в вашей организации должна быть назначена лицензия на аудиоконференцию. Дополнительные сведения о лицензировании и их стоимости см. в сведениях о попробовать или приобрести аудиоконференцию в [Microsoft 365 или Office 365.](try-or-purchase-audio-conferencing-in-office-365.md)
 
 Microsoft Audio Conferencing supplies dial-in phone numbers, PINs, and conference IDs that can be used by meeting participants to join the meetings of your organization. You only need to assign Microsoft as the audio conferencing provider to people who are going to schedule or lead Skype for Business or Microsoft Teams meetings.
 
@@ -40,20 +40,20 @@ Microsoft Audio Conferencing supplies dial-in phone numbers, PINs, and conferenc
   
 ## <a name="assign-microsoft-as-the-audio-conferencing-provider"></a>Назначение Майкрософт в качестве поставщика услуг аудиоконференций
 
-### <a name="an-icon-showing-the-skype-for-business-logo-using-the-skype-for-business-admin-center"></a>![Значок, показывающий логотип Skype для бизнеса](../images/sfb-logo-30x30.png) Использование Центра администрирования Skype для бизнеса
+### <a name="an-icon-showing-the-skype-for-business-logo-using-the-skype-for-business-admin-center"></a>![Значок с логотипом Skype для бизнеса](../images/sfb-logo-30x30.png) Использование Центра администрирования Skype для бизнеса
 
-1. Откройте > **устаревший портал** **центра администрирования Microsoft Teams**.
+1. Перейдите на устаревший портал **Центра администрирования Microsoft**  >  **Teams.**
     
-2. В **центре администрирования Skype для бизнеса**на панели навигации слева перейдите в раздел " **звуковые конференции**".
+2. В Центре **администрирования Skype** для бизнеса на левой навигации перейдите к аудиоконференции. 
     
 3. If you see a banner notifying you that there are users who have an **Audio Conferencing** license assigned but don't have Microsoft set as their audio conferencing provider yet, click **Click here to move them**. If you don't see the banner, in the **Skype for Business admin center** click **Users**, and then select the **Users ready to be moved to Audio Conferencing** filter.
     
-4. На странице свойств пользователя в разделе **имя поставщика**выберите **Microsoft** в раскрывающемся списке.
+4. На странице свойств пользователя в списке **"Имя** поставщика" выберите **Microsoft** в списке.
     
     > [!NOTE]
-    > Так как вы используете Microsoft в качестве поставщика видеоконференций и есть несколько телефонных номеров, вы можете использовать раскрывающийся список **платный номер** по умолчанию для выбора звукового номера по умолчанию для пользователя.
+    > Поскольку в качестве поставщика аудиоконференций вы используете Майкрософт и у  вас несколько номеров телефонов, в списке платных номеров по умолчанию можно выбрать звуковой номер по умолчанию для пользователя.
   
-5. Нажмите кнопку **Сохранить**.
+5. Щелкните **Сохранить**.
 
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
@@ -66,7 +66,7 @@ Microsoft Audio Conferencing supplies dial-in phone numbers, PINs, and conferenc
 > При смене поставщика на **Майкрософт** сведения об аудиоконференции (идентификатор конференции, платные и бесплатные телефонные номера) будут изменены. Сохраните эти данные перед сменой поставщика. 
 
   
-Чтобы сменить поставщика на Microsoft для небольшого количества пользователей, можно использовать командлет [Enable-CsOnlineDialInConferencingUser](https://technet.microsoft.com/library/mt243813.aspx) .
+Чтобы сменить поставщика на Майкрософт для небольшого количества пользователей, можно использовать [cmdlet Enable-CsOnlineDialInConferencingUser.](https://technet.microsoft.com/library/mt243813.aspx)
   
 
 ### <a name="using-a-windows-powershell-script-for-a-large-number-of-users"></a>Применение сценария Windows PowerShell для большого количества пользователей
@@ -90,7 +90,7 @@ Script.ps1 -CsvFile <Path of the csv file>
 ./Script.ps1 -CsvFile ".\\CsvFile.csv"
   ```
 
-**Пример 3:** В этом примере вы можете использовать этот сценарий, чтобы изменить поставщика голосовой конференц-связи (или другого поставщика) до **Microsoft** для большого числа пользователей в вашей организации.
+**Пример 3.** В этом примере с помощью этого сценария можно изменить поставщика услуг аудиоконференций с Intercall (или другого поставщика) на **Майкрософт** для большого количества пользователей в организации.
     
   ```PowerShell
   Script.ps1 -ACPProviderName <Provider>
@@ -195,7 +195,7 @@ Script.ps1 -CsvFile <Path of the csv file>
   ```
 Дополнительные сведения об использовании Windows PowerShell см. в статье [Использование возможностей Windows PowerShell для выполнения стандартных задач управления средой Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=525038).
   
-## <a name="related-topics"></a>См. также
-[Попробуйте или купите голосовую конференцию в Microsoft 365 или Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
-[Настройка Skype для бизнеса Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
+## <a name="related-topics"></a>Статьи по теме
+[Попробуйте или приобретйте аудиоконференцию в Microsoft 365 или Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md) 
+ [Настройка Skype для бизнеса Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
 

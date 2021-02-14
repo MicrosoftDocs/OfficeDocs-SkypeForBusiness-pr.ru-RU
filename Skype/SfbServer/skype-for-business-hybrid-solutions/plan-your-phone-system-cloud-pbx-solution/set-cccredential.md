@@ -12,7 +12,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 784ff94a-4b33-4dbd-ba74-27acc3eb6954
-description: Командлет Set-CcCredential задает учетные данные текущего развертывания Skype для бизнеса Cloud Connector Edition.
+description: Этот Set-CcCredential задает учетные данные текущего развертывания Skype для бизнеса Cloud Connector Edition.
 ms.openlocfilehash: 3717eb0dcaa46bb6708f40ecb7f94869f24774a2
 ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
@@ -22,9 +22,9 @@ ms.locfileid: "44221573"
 ---
 # <a name="set-cccredential"></a>Set-CcCredential
  
-Командлет Set-CcCredential задает учетные данные текущего развертывания Skype для бизнеса Cloud Connector Edition. 
+Этот Set-CcCredential задает учетные данные текущего развертывания Skype для бизнеса Cloud Connector Edition. 
   
-С помощью Cloud Connector версии 2,0 и более поздних версий этот командлет также может задавать сведения об учетной записи для администратора виртуальной машины и администратора домена.
+С помощью Cloud Connector версии 2.0 и более поздних версий этот cmdlet также может устанавливать сведения об учетной записи для администратора виртуальной машины и администратора домена.
   
 ```powershell
 Set-CcCredential [[-AccountType] <string> {TenantAdmin}]
@@ -35,7 +35,7 @@ Set-CcCredential [[-AccountType] <string> {TenantAdmin}]
 
 ### <a name="example-1"></a>Пример 1
 
-В следующем примере задаются имя и пароль учетной записи для администратора клиента:
+В следующем примере указывается имя и пароль учетной записи для администратора клиента:
   
 ```powershell
 Set-CcCredential -AccountType "TenantAdmin"
@@ -44,19 +44,19 @@ Set-CcCredential -AccountType "TenantAdmin"
 ## <a name="detailed-description"></a>Подробное описание
 <a name="DetailedDescription"> </a>
 
-Командлет Set – CcCredential задает имя и пароль учетной записи для администратора клиента. Для выпусков до 2,0 этот администратор должен быть глобальным администратором. Cloud Connector использует эту учетную запись для получения сведений о конфигурации, установки параметров конфигурации и обновления состояния устройства до конфигурации Microsoft 365 или Office 365 для организаций. С выпуском 2,0 и более поздних версий можно также использовать этот командлет, чтобы обновить пароли для учетных записей VmAdmin и DomainAdmin.
+Этот Set-CcCredential задает имя и пароль учетной записи для администратора клиента. Для выпусков до версии 2.0 этот администратор должен быть глобальным администратором. Cloud Connector использует эту учетную запись для получения сведений о конфигурации, настройки параметров конфигурации и обновления состояния устройства в конфигурации организации Microsoft 365 или Office 365. В выпуске 2.0 и более поздних версиях этот cmdlet также можно использовать для обновления паролей учетных записей VmAdmin и DomainAdmin.
   
 ## <a name="parameters"></a>Параметры
 <a name="DetailedDescription"> </a>
 
 |**Параметр**|**Required**|**Тип**|**Описание**|
 |:-----|:-----|:-----|:-----|
-| AccountType <br/> | Обязательный <br/> |System.String  <br/> | Параметр должен иметь значение "TenantAdmin", "VmAdmin" или "DomainAdmin". <br/> |
+| AccountType <br/> | Обязательный <br/> |System.String  <br/> | Значение параметра должно быть "TenantAdmin", "VmAdmin" или "DomainAdmin". <br/> |
    
 ## <a name="input-types"></a>Типы входных данных
 <a name="InputTypes"> </a>
 
-Отсутствуют. Командлет Set – CcCredential не принимает входные данные по конвейеру.
+Нет. Этот Set-CcCredential не принимает конвейерные входные данные.
   
 ## <a name="return-types"></a>Типы возвращаемых данных
 <a name="ReturnTypes"> </a>

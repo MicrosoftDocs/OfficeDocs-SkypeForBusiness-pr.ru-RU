@@ -1,5 +1,5 @@
 ---
-title: Видео о внешней связи в Skype для бизнеса Online
+title: 'Видео: внешняя связь в Skype для бизнеса Online'
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -18,7 +18,7 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
-description: 'Сведения о настройке внешней связи в Skype для бизнеса Online для пользователей, которые могут общаться с внешними контактами Skype. '
+description: 'Узнайте, как настроить внешнюю связь в Skype для бизнеса Online, чтобы ваши пользователи могли общаться с внешними контактами Skype. '
 ms.openlocfilehash: 52b43ea21f9f0aa56b923355cfc936f334f1607f
 ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
@@ -28,7 +28,7 @@ ms.locfileid: "44164488"
 ---
 # <a name="video-skype-for-business-online-external-communications"></a>Видео: Внешняя связь в Skype для бизнеса Online
 
-Настройте внешнюю связь в Skype для бизнеса Online, чтобы ваши пользователи могли общаться с внешними контактами Skype для бизнеса, Lync и Skype.
+Настройка внешней связи в Skype для бизнеса Online для общения пользователей с внешними контактами Skype для бизнеса, Lync и Skype.
 
  **Аудитория:** Администраторы Microsoft 365 и Office 365
 
@@ -37,8 +37,8 @@ ms.locfileid: "44164488"
 
 ***
   
-## <a name="related-topics"></a>См. также
-[Настройка внешней связи в Skype для бизнеса Online](https://support.microsoft.com/help/10041/set-up-lync-online-external-communications) (пошаговое руководство)
+## <a name="related-topics"></a>Статьи по теме
+[Настройка внешней связи в Skype для бизнеса Online](https://support.microsoft.com/help/10041/set-up-lync-online-external-communications) (поведение в интерактивном поведении)
 
 [Разрешение пользователям связываться с внешними пользователями Skype для бизнеса](allow-users-to-contact-external-skype-for-business-users.md)
 

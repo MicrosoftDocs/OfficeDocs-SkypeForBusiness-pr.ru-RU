@@ -91,7 +91,7 @@ ms.locfileid: "44610298"
   
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Сведения по управлению с помощью Windows PowerShell
 
-- Чтобы сэкономить время или автоматизировать процесс, воспользуйтесь [cmdlets Get-CsOnlineDialInConferencingLanguagesSupported](https://go.microsoft.com/fwlink/?LinkId=617684) или [Set-CsOnlineDialInConferencingServiceNumber.](https://go.microsoft.com/fwlink/?LinkId=617689)
+- Чтобы сэкономить время или автоматизировать процесс, используйте для этого [cmdlets Get-CsOnlineDialInConferencingLanguagesSupported](https://go.microsoft.com/fwlink/?LinkId=617684) или [Set-CsOnlineDialInConferencingServiceNumber.](https://go.microsoft.com/fwlink/?LinkId=617689)
     
 - Windows PowerShell is all about managing users and what users are allowed or not allowed to do. С Windows PowerShell вы можете управлять Microsoft 365 или Office 365, используя единый пункт администрирования, который упростит выполнение ваших повседневных задач. Для начала работы с Windows PowerShell ознакомьтесь с приведенными ниже разделами.
     
