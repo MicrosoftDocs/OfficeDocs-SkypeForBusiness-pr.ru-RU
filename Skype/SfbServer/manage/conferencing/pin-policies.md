@@ -43,7 +43,7 @@ ms.locfileid: "49827959"
     
 3. В левой панели навигации щелкните элемент **Conferencing** (Конференц-связь), а затем щелкните элемент **PIN Policy** (Политика ПИН-кодов).
     
-4. На странице **"Политика ПИН-кодов"** щелкните политику ПИН-кодов, которую необходимо просмотреть, нажмите кнопку "Изменить" и выберите **"Показать подробности".**
+4. На странице **"Политика** ПИН-кодов" выберите политику ПИН-кодов, которую необходимо просмотреть, нажмите кнопку "Изменить", а затем щелкните **"Показать сведения".**
     
 ### <a name="view-information-about-pin-policies-by-using-skype-for-business-server-management-shell"></a>Просмотр сведений о политиках ПИН-кодов с помощью оболочки управления Skype для бизнеса Server
 
@@ -171,7 +171,7 @@ New-CsPinPolicy -Identity "site:Redmond" -MinPasswordLength 7
     
 ### <a name="modify-a-user-or-site-pin-policy-by-using-skype-for-business-server-management-shell"></a>Изменение политики ПИН-кодов пользователей или сайтов с помощью оболочки управления Skype для бизнеса Server
 
-Чтобы изменить политику ПИН-кодов для телефонной видеоконференции, используйте cmdlet **Set-CsPinPolicy.**
+Чтобы изменить политику ПИН-кодов для телефонной видеоконференции, используйте **cmdlet Set-CsPinPolicy.**
   
 Следующая команда изменяет политику ПИН-кодов, назначенную сайту Redmond. В этом случае команда изменяет значение свойства MinPasswordLength на 10; это означает, что новые ПИН-коды должны содержать не менее 10 цифр:
   
@@ -195,7 +195,7 @@ You can delete a user or site PIN policy by using Skype for Business Server Cont
     
 4. На странице **"Политика ПИН-кодов"** щелкните политику ПИН-кодов, которую необходимо изменить, нажмите кнопку "Изменить" и выберите **"Удалить".**
     
-### <a name="delete-a-user-or-site-pin-policy-by-using-skype-for-business-server-management-shell"></a>Удаление политики ПИН-кодов пользователей или сайтов с помощью skype для бизнеса Server Management Shell
+### <a name="delete-a-user-or-site-pin-policy-by-using-skype-for-business-server-management-shell"></a>Delete a user or site PIN policy by using Skype for Business Server Management Shell
 
 Чтобы удалить политику ПИН-кодов пользователей или сайтов, используйте **cmdlet Remove-CsPinPolicy.**
   

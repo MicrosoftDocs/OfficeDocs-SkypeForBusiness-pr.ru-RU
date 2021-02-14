@@ -12,7 +12,7 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7c378927-2e41-418e-9721-327021bd2e45
-description: Сводка. Удаление ПИН-кода для телефонной комференции пользователя для Skype для бизнеса Server.
+description: Сводка. Удаление ПИН-кода пользователя для телефонной сети для Skype для бизнеса Server.
 ms.openlocfilehash: 6cf93d2ade053ba6e4bdbe7aabf0138206fdff88
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
@@ -22,7 +22,7 @@ ms.locfileid: "49828399"
 ---
 # <a name="delete-a-pin-policy-in-skype-for-business-server"></a>Удаление политики ПИН-кодов в Skype для бизнеса Server
  
-**Сводка:** Удаление ПИН-кода пользователя для телефонной комконференции для Skype для бизнеса Server.
+**Сводка:** Удаление ПИН-кода для телефонной комференции пользователя для Skype для бизнеса Server.
   
 Чтобы удалить политику персональных идентификационных номеров (политику ПИН-кодов), выполните следующие действия.
   
@@ -45,7 +45,7 @@ ms.locfileid: "49828399"
     
 ## <a name="removing-pin-policies-by-using-windows-powershell-cmdlets"></a>Удаление политик ПИН-кодов с помощью Windows PowerShell-кодов
 
-Политики ПИН-кодов можно удалить с помощью Windows PowerShell и Remove-CsPinPolicy управления. Вы можете запустить этот Windows PowerShell из оболочки управления Skype для бизнеса Server. Подробные сведения об использовании удаленного Windows PowerShell для подключения к Skype для бизнеса Server см. в статье [блога "Краткое руководство. Управление Microsoft Lync Server 2010 с помощью удаленной службы PowerShell".](https://go.microsoft.com/fwlink/p/?linkId=255876) В Skype для бизнеса Server этот процесс тот же.
+Политики ПИН-кодов можно удалить с помощью Windows PowerShell и Remove-CsPinPolicy управления. Вы можете запустить этот Windows PowerShell из оболочки управления Skype для бизнеса Server. Подробные сведения об использовании удаленного Windows PowerShell для подключения к Skype для бизнеса Server см. в статье [блога "Краткое руководство. Управление Microsoft Lync Server 2010 с](https://go.microsoft.com/fwlink/p/?linkId=255876)помощью удаленной powerShell". В Skype для бизнеса Server этот процесс тот же.
   
 ### <a name="to-remove-a-specific-pin-policy"></a>Удаление определенной политики ПИН-кодов
 

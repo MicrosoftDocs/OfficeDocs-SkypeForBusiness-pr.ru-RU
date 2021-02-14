@@ -29,7 +29,7 @@ ms.locfileid: "49829169"
 > [!NOTE]
 > Чтобы получить все доступные сайты, ничего не вводите в поле поиска и нажмите значок поиска.
 
-For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).
+Подробные сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнеса Server, см. в под управлением Skype для бизнеса [Server 2015.](../../manage/manage.md)
 
 ## <a name="tasks-you-can-perform"></a>Задачи, которые вы можете выполнить
 
@@ -39,15 +39,15 @@ For details about the different procedures that you can perform by using the Sky
 
 - [Создание политики сайта для сохраняемого чата](https://technet.microsoft.com/library/1327ff5c-b859-4010-a240-e0b2b084b5bd.aspx)
 
-For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).
+Подробные сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнеса Server, см. в под управлением Skype для бизнеса [Server 2015.](../../manage/manage.md)
 
 ## <a name="to-configure-persistent-chat-options-globally"></a>Глобальная настройка параметров сохраняемой беседы
 
-В **области "Выбор сайта"** выберите сайт, который будет настроен для конфигурации сайта сервера сохраняемой беседы.
+В **области "Выбор сайта"** выберите сайт, который необходимо настроить для конфигурации сайта сервера сохраняемой беседы.
 
 ## <a name="to-create-a-persistent-chat-policy-for-a-site"></a>Создание политики сохраняемого чата для сайта
 
 В окне **Выбор сайта** щелкните сайт, к которому будет применена политика.
 
-Подробные сведения о возможностях и [](https://technet.microsoft.com/library/23f7c886-304d-495a-ae70-3cbb44241acd.aspx) возможностях сервера сохраняемого чата см. в обзоре сервера сохраняемого чата в документации по планированию. Подробные сведения о работе с конфигурациями сервера сохраняемой беседы см. в документации по развертыванию и управлении сервером сохраняемой беседы [](https://technet.microsoft.com/library/d90a4049-b268-4e8e-9f24-0cef08c8d9ed.aspx) [Lync Server 2013](https://technet.microsoft.com/library/82befdc6-5d32-45f1-bfd7-aaedffed1ab8.aspx) в документации по операциям.
+Подробные сведения о возможностях и возможностях сервера сохраняемого чата см. в обзоре сервера сохраняемого [чата](https://technet.microsoft.com/library/23f7c886-304d-495a-ae70-3cbb44241acd.aspx) в документации по планированию. Подробные сведения о работе с конфигурациями сервера сохраняемой беседы см. в документации по развертыванию и управлении сервером сохраняемой беседы [](https://technet.microsoft.com/library/d90a4049-b268-4e8e-9f24-0cef08c8d9ed.aspx) [Lync Server 2013](https://technet.microsoft.com/library/82befdc6-5d32-45f1-bfd7-aaedffed1ab8.aspx) в документации по операциям.
 

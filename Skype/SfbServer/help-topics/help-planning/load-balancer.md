@@ -27,7 +27,7 @@ ms.locfileid: "49828999"
  
 Если у вас есть пулы переднего сервера, пулы директоров или пулы серверов, необходимо развернуть балансировку нагрузки для этих пулов. Балансировка нагрузки позволяет распределять трафик между серверами пула. Дополнительные сведения см. в следующих статьях:
   
-- [Требования к балансировку нагрузки для Skype для бизнеса](../../plan-your-deployment/network-requirements/load-balancing.md)
+- [Требования балансировки нагрузки для Skype для бизнеса](../../plan-your-deployment/network-requirements/load-balancing.md)
     
 - [Требования К DNS для Skype для бизнеса Server 2015](../../plan-your-deployment/network-requirements/dns.md)
     

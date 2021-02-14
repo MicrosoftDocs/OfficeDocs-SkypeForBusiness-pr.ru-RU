@@ -11,7 +11,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 14c2b4fd-f612-4909-808d-09c655fc9f8a
-description: Сводка. Узнайте, как управлять с помощью Skype для бизнеса Server, чтобы управлять процессом с помощью архивных данных.
+description: Сводка. Узнайте, как управлять процессом с помощью skype для бизнеса Server, чтобы управлять процессом с помощью архивных данных.
 ms.openlocfilehash: aecc78f84b3cd4b745a96e534535c98c1739c156
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
@@ -49,9 +49,9 @@ ms.locfileid: "49828539"
     
 5. Нажмите кнопку **Сохранить**.
     
-## <a name="manage-purging-of-data-by-using-windows-powershell"></a>Управление purging данных с помощью Windows PowerShell
+## <a name="manage-purging-of-data-by-using-windows-powershell"></a>Управление с помощью Windows PowerShell
 
-Вы можете управлять purging архивных данных с помощью следующих Windows PowerShell:
+Вы можете управлять с помощью следующих Windows PowerShell данных:
   
 - **С помощью cmdlet Set-CsArchivingConfiguration** с параметром EnablePurging можно включить или отключить дефис архивных данных.
     
@@ -69,7 +69,7 @@ Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $True
 Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $True -PurgeExportedArchivesOnly $True
 ```
 
-После запуска этой команды Skype для бизнеса Server будет очищать только записи архивации, которые соответствуют двум критериям: 1) они старше значения, указанного для параметра KeepArchivingDataForDays; и 2) они экспортируются с помощью **cmdlet Export-CsArchivingData.**
+После запуска этой команды Skype для бизнеса Server будет очищать только записи архивации, которые соответствуют двум критериям: 1) они старше значения, указанного для параметра KeepArchivingDataForDays; и 2) они были экспортироваться с помощью **cmdlet Export-CsArchivingData.**
   
 Чтобы отключить автоматическую purging записей архива, установите для параметра EnablePurging $False:
   
@@ -77,7 +77,7 @@ Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $True -Purg
 Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $False
 ```
 
-В следующем примере используется cmdlet **Invoke-CsArchivingDatabasePurge** для очистки всех записей старше 24 часов из базы данных архивов в atl-sql-001.contoso.com. Чтобы убедиться, что все записи удалены, в том числе не экспортируются, параметру PurgeExportedArchivesOnly задано $False):
+В следующем примере используется cmdlet **Invoke-CsArchivingDatabasePurge** для очистки всех записей старше 24 часов из базы данных архивов в atl-sql-001.contoso.com. Чтобы убедиться, что все записи удалены, в том числе не экспортируются, параметру PurgeExportedArchivesOnly задано $False:
   
 ```PowerShell
 Invoke-CsArchivingDatabasePurge -Identity "service:ArchivingDatabase:atl-sql-001.contoso.com" -PurgeArchivingDataOlderThanHours 24 -PurgeExportedArchivesOnly $False

@@ -1,5 +1,5 @@
 ---
-title: Создание политикконференций в Skype для бизнеса Server
+title: Создание политик в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -19,7 +19,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49828239"
 ---
-# <a name="create-conferencing-policies-in-skype-for-business-server"></a>Создание политикконференций в Skype для бизнеса Server
+# <a name="create-conferencing-policies-in-skype-for-business-server"></a>Создание политик в Skype для бизнеса Server
  
 **Сводка:** Узнайте, как создавать политики в Skype для бизнеса Server.
   
@@ -31,7 +31,7 @@ You can create conferencing policies by using Skype for Business Server Control 
     
 2. Откройте панель управления Skype для бизнеса Server.
     
-3. В левой панели навигации щелкните **"Conferencing" (Conferencing),** а затем щелкните **"Conferencing Policy" (Политика).**
+3. В левой панели навигации щелкните **"Conferencing" (Conferencing),** а затем выберите **"Conferencing Policy" (Политика).**
     
 4. Нажмите кнопку **Создать**, а затем выполните одно из следующих действий:
     
@@ -120,7 +120,7 @@ You can create conferencing policies by using Skype for Business Server Control 
 
 Чтобы создать политики для conferencing, используйте **cmdlet New-CsConferencingPolicy.**
   
-В следующем примере создается новая политика с удостоверением SalesConferencingPolicy. Эта политика будет использовать все значения по умолчанию для политики conferencing, кроме одного: MaxMeetingSize. В этом примере максимальный размер собрания будет иметь значение 50 вместо значения по умолчанию 250:
+В следующем примере создается новая политика с идентификатором SalesConferencingPolicy. Эта политика будет использовать все значения по умолчанию для политики conferencing, кроме одного: MaxMeetingSize. В этом примере максимальный размер собрания будет иметь значение 50 вместо значения по умолчанию 250:
   
 ```PowerShell
 New-CsConferencingPolicy -Identity SalesConferencingPolicy -MaxMeetingSize 50

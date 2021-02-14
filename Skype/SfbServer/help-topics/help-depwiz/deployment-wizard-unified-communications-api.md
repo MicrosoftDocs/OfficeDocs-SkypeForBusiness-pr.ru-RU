@@ -1,5 +1,5 @@
 ---
-title: API объединенных коммуникаций мастера развертывания
+title: API unified Communications мастера развертывания
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur

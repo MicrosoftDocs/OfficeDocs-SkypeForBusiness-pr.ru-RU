@@ -75,7 +75,7 @@ $TenantID = (Get-CsTenant -Filter {DisplayName -eq "Fabrikam.com"}).TenantId
 Для выполнения этого сценария необходимо установить модуль PowerShell Skype для бизнеса Online и подключиться к вашему арендатору с помощью этого модуля. Если эти cmdlets не установлены, то сценарий не будет работать, так как Get-CsTenant не будет доступен. После выполнения сценария необходимо настроить отношение доверия между Skype для бизнеса Server и сервером авторизации, а также второе отношение доверия между Exchange 2013/2016 и сервером авторизации. Это можно выполнить только с помощью командлетов Microsoft Online Services.
 
 > [!NOTE]
-> Если вы не установили Microsoft Online Services, необходимо установить его из репозитория PowerShell с помощью этого. `install-module MSOnline` Подробные сведения об установке и использовании модуля Microsoft Online Services можно найти на веб-сайте Microsoft 365. В этих инструкциях также поется, как настроить единый вход, федерацию и синхронизацию между Microsoft 365 или Office 365 и Active Directory. 
+> Если вы не установили Microsoft Online Services, необходимо установить его из репозитория PowerShell с помощью этого. `install-module MSOnline` Подробные сведения об установке и использовании модуля Microsoft Online Services можно найти на веб-сайте Microsoft 365. В этих инструкциях также посясят, как настроить единый вход, федерацию и синхронизацию между Microsoft 365 или Office 365 и Active Directory. 
 
 
 
@@ -156,7 +156,7 @@ Remove-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-00
 
 Помимо назначения сертификата, необходимо также настроить основное приложение-службу Exchange Online и url-адреса внешних веб-служб Skype для бизнеса Server в качестве основного сервера-службы Microsoft 365 или Office 365. Для этого можно использовать следующие две команды. 
 
-В следующем примере Pool1ExternalWebFQDN.contoso.com url-адрес внешних веб-служб для пула Skype для бизнеса Server. Повторите эти действия, чтобы добавить все внешние URL-адреса веб-служб в развертывании.
+В следующем примере Pool1ExternalWebFQDN.contoso.com url-адрес внешних веб-служб для пула Skype для бизнеса Server. Повторите эти действия, чтобы добавить все ВНЕШНИЕ URL-адреса веб-служб в развертывании.
 
 ```PowerShell
 Set-MSOLServicePrincipal -AppPrincipalID 00000002-0000-0ff1-ce00-000000000000 -AccountEnabled $true

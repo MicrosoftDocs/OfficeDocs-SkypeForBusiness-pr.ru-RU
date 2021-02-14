@@ -30,7 +30,7 @@ ms.locfileid: "49826279"
 
 1.  Войдите в систему компьютера, на котором построитель топологий установлен как член группы администраторов доменов и группы RTCUniversalServerAdmins.
 
-2.  Start Topology Builder: Click **Start,** click **All Programs,** click **Skype for Business Server**, and then click Skype for Business Server **Topology Builder**.
+2.  Запустите построитель топологий: нажмите кнопку "Начните", выберите "Все программы", "Skype для бизнеса **Server"** и **"Построитель топологий Skype** для бизнеса Server".
 
 3.  Выберите **Download topology from existing deployment** (Загрузить топологию из существующего развертывания) и затем нажмите кнопку **ОК**.
 
@@ -53,9 +53,9 @@ ms.locfileid: "49826279"
 
 Панель управления Skype для бизнеса Server можно использовать для просмотра списка доверенных приложений, развернутых в среде Skype для бизнеса Server. Доверенного приложения это приложение на основе Microsoft Unified Communications Managed API (UCMA) 3.0 Core SDK, которому доверяет Skype для бизнеса Server. В списке ниже приведены сведения об этом отношении доверия.
 
-  - Перед доверенными приложениями не требуется проверка подлинности в Skype для бизнеса Server.
+  - Доверенные приложения не будут подавлять заявки на проверку подлинности в Skype для бизнеса Server.
 
-  - В Skype для бизнеса Server не регулирование доверенных приложений для транзакций SIP, подключений и исходяющих вызовов по протоколу VoIP.
+  - Skype для бизнеса Server не отрегулжимает доверенные приложения для транзакций SIP, подключений и исходяющих вызовов по протоколу VoIP.
 
   - Доверенные приложения могут олицетворять любого пользователя и присоединиться к конференциям, минуя списки.
 
@@ -82,7 +82,7 @@ In the Skype for Business Server Control Panel, you can see the name of the appl
 
 ### <a name="to-view-trusted-applications"></a>Просмотр доверенных приложений
 
-To view all of your trusted applications, type the following command in the Skype for Business Server Management Shell, and then press ENTER:
+Чтобы просмотреть все доверенные приложения, введите следующую команду в командной оболочке Skype для бизнеса Server и нажмите ввод:
     
         Get-CsConferenceDisclaimer
     

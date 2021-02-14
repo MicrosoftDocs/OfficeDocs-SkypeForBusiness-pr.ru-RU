@@ -29,6 +29,6 @@ ms.locfileid: "49829209"
 > [!NOTE]
 > Чтобы получить все доступные связи между областями, ничего не вводите в поле поиска и нажмите значок поиска. 
   
-Подробные сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнеса Server, см. в под управлением Skype для бизнеса [Server 2015.](../../manage/manage.md)
+For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).
   
 

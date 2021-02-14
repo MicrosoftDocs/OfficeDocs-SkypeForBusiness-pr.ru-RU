@@ -46,7 +46,7 @@ ms.locfileid: "49827799"
 
 7. Щелкните **Зафиксировать**.
 
-## <a name="specifying-qoe-retention-by-using-windows-powershell-cmdlets"></a>Указание хранения QoE с помощью Windows PowerShell
+## <a name="specifying-qoe-retention-by-using-windows-powershell-cmdlets"></a>Указание хранения данных о Windows PowerShell с помощью Windows PowerShell данных
 
 Параметры хранения QoE можно создать с помощью Windows PowerShell и с помощью Windows PowerShell **Set-CsQoEConfiguration.** Вы можете запустить этот Windows PowerShell из оболочки управления Skype для бизнеса Server. Подробные сведения об использовании удаленного Windows PowerShell для подключения к Skype для бизнеса Server см. в статье [блога "Краткое руководство. Управление Microsoft Lync Server 2010 с](https://go.microsoft.com/fwlink/p/?linkId=255876)помощью удаленной powerShell". В Skype для бизнеса Server этот процесс тот же.
 

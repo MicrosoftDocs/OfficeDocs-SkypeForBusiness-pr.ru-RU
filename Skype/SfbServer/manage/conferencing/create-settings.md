@@ -83,7 +83,7 @@ New-CsMeetingConfiguration -Identity "site:Redmond"
 New-CsMeetingConfiguration -Identity "site:Redmond" -DesignateAsPresenter "Everyone"
 ```
 
-Несколько значений свойств можно установить, включив несколько параметров. Например, следующая команда допускает всех участников собрания в качестве presenter, а также заставляет пользователей PSTN ждать в "ожиданиях" до тех пор, пока они не будут официально допущены к собранию:
+Несколько значений свойств можно установить, включив несколько параметров. Например, следующая команда допускает всех участников собрания в качестве presenter, а также заставляет пользователей STN ждать в "ожиданиях" до тех пор, пока они не будут официально допущены к собранию:
   
 ```PowerShell
 New-CsMeetingConfiguration -Identity "site:Redmond" -DesignateAsPresenter "Everyone" -PSTNUCallersBypassLobby $True

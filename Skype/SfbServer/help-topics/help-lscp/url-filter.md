@@ -30,5 +30,5 @@ ms.locfileid: "49826809"
 
 - [Создание нового фильтра URL-адресов для управления гиперссылками в сеансах обмена мгновенными сообщениями](https://technet.microsoft.com/library/d0ee01e5-f039-4a34-ac9d-659fe4e9e879.aspx)
 
-Подробные сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнеса Server, см. в под управлением Skype для бизнеса [Server 2015.](../../manage/manage.md)
+For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).
 

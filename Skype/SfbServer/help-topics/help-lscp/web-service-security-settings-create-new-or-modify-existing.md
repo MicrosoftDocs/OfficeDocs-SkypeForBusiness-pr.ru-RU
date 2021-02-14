@@ -32,5 +32,5 @@ ms.locfileid: "49826709"
 
 - [Удаление веб-службы](https://technet.microsoft.com/library/c2b96f4c-4b07-48e6-9ca6-55bc0e0cf5a1.aspx)
 
-Подробные сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнеса Server, см. в под управлением Skype для бизнеса [Server 2015.](../../manage/manage.md)
+For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).
 

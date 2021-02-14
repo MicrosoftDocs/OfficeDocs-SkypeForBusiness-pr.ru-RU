@@ -48,5 +48,5 @@ ms.locfileid: "49826729"
 
 - [Назначение политики сохраняемого сеанса беседы уровня пользователя](https://technet.microsoft.com/library/e22168f2-fde1-4f0a-b194-1fc881436822.aspx)
 
-Подробные сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнеса Server, см. в под управлением Skype для бизнеса [Server 2015.](../../manage/manage.md)
+For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).
 

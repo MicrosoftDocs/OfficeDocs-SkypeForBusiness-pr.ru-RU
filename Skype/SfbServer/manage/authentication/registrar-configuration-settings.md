@@ -37,7 +37,7 @@ ms.locfileid: "49828329"
   
 Если вы будете использовать клиенты приложений Магазина Windows Lync, необходимо включить проверку подлинности на сертификате.
   
-### <a name="to-create-new-registrar-configuration-settings"></a>Создание новых параметров конфигурации Регистратора
+### <a name="to-create-new-registrar-configuration-settings"></a>Создание новых параметров конфигурации регистратора
 
 1.  Из учетной записи пользователя, которая является членом группы RTCUniversalServerAdmins (или имеет эквивалентные права пользователя) или которой назначена роль CsServerAdministrator или CsAdministrator, войдите на любой компьютер в сети, в которой развернут Skype для бизнеса Server.
     
@@ -88,7 +88,7 @@ ms.locfileid: "49828329"
     
 6. Нажмите кнопку **Зафиксировать**.
     
-### <a name="to-delete-registrar-configuration-settings"></a>Удаление параметров конфигурации регистратора
+### <a name="to-delete-registrar-configuration-settings"></a>Удаление параметров конфигурации Регистратора
 
 1. Из учетной записи пользователя, которая является членом группы RTCUniversalServerAdmins (или имеет эквивалентные права пользователя) или которой назначена роль CsServerAdministrator или CsAdministrator, войдите на любой компьютер в сети, в которой развернут Skype для бизнеса Server.
     
@@ -104,7 +104,7 @@ ms.locfileid: "49828329"
     
 ## <a name="removing-registrar-configuration-settings-by-using-windows-powershell-cmdlets"></a>Удаление параметров конфигурации регистратора с помощью Windows PowerShell
 
-Параметры конфигурации регистратора можно удалить с помощью Windows PowerShell и с помощью Windows PowerShell **Remove-CsProxyConfiguration.** Вы можете запустить этот командлет из командной консоли Skype для бизнеса Server или из удаленного сеанса Windows PowerShell. Подробные сведения об использовании удаленного Windows PowerShell для подключения к Skype для бизнеса Server см. в статье [блога "Краткое руководство. Управление Microsoft Lync Server 2010 с](https://go.microsoft.com/fwlink/p/?linkId=255876)помощью удаленной powerShell". В Skype для бизнеса Server этот процесс тот же.
+Параметры конфигурации Регистратора можно удалить с помощью Windows PowerShell и с помощью Windows PowerShell **Remove-CsProxyConfiguration.** Вы можете запустить этот командлет из командной консоли Skype для бизнеса Server или из удаленного сеанса Windows PowerShell. Подробные сведения об использовании удаленного Windows PowerShell для подключения к Skype для бизнеса Server см. в статье [блога "Краткое руководство. Управление Microsoft Lync Server 2010 с](https://go.microsoft.com/fwlink/p/?linkId=255876)помощью удаленной powerShell". В Skype для бизнеса Server этот процесс тот же.
   
 ### <a name="to-remove-a-specific-set-of-registrar-security-settings"></a>Удаление определенного набора параметров безопасности Регистратора
 

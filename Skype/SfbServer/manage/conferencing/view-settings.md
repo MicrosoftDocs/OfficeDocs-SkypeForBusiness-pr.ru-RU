@@ -11,7 +11,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 932c7e2d-6de3-4176-ac6e-ec230f8230f2
-description: Сводка. Узнайте, как просматривать параметры конфигурации собраний в Skype для бизнеса Server.
+description: Сводка. Сведения о просмотре параметров конфигурации собраний в Skype для бизнеса Server.
 ms.openlocfilehash: e30543c566775d38e20e2103c4cc0f41278c1020
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT

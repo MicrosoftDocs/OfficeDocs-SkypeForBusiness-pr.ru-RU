@@ -53,7 +53,7 @@ Export-CsPersistentChatData [-FileName <String>] <COMMON PARAMETERS>
 Export-CsPersistentChatData [-AsBytes <SwitchParameter>] <COMMON PARAMETERS>
 ```
 
-Например, следующая команда экспортирует данные сохраняемой беседы из базы данных сохраняемой беседы, расположенной на сервере atl-sql-001.contoso.com; экспортные данные будут сохранены в файле C:\Logs\PersistentChatData.zip. Так как параметр Level не указан, команда будет полностью экспортировать сведения о сохраняемом чате:
+Например, следующая команда экспортирует данные Persistent Chat из базы данных Persistent Chat, расположенной на сервере atl-sql-001.contoso.com; экспортные данные будут сохранены в файле C:\Logs\PersistentChatData.zip. Так как параметр Level не указан, команда будет полностью экспортировать сведения о сохраняемом чате:
   
 ```PowerShell
 Export-CsPersistentChatData -DBInstance "atl-sql-001.contoso.com\rtc" -FileName "C:\Logs\PersistentChatData.zip"

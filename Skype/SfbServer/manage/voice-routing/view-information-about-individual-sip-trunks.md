@@ -24,7 +24,7 @@ ms.locfileid: "49826179"
 
 The Get-CsTrunk cmdlet can be run either from the Skype for Business Server Management Shell or from a remote session of Windows PowerShell.
 
-**Просмотр сведений для всех магистральных полосы SIP**
+**Просмотр сведений о всех магистрали SIP**
 
 Следующая команда возвращает сведения о всех магистралях SIP, используемых в организации.
 

@@ -21,7 +21,7 @@ ms.locfileid: "49826479"
 ---
 # <a name="conference-summary-subreport-in-skype-for-business-server"></a>Сводный отчет о конференции в Skype для бизнеса Server
  
-**Сводка:** Сведения о сводном отчете о конференциях в Skype для бизнеса Server.
+**Сводка:** Learn about the Conference Summary Subreport in Skype for Business Server.
   
 Вложенный сводный отчет о конференции содержит обзор неудачных сеансов конференц-связи. Такие неудачные сеансы дополнительно делятся по типу — сеансы Focus и сеансы MCU.
   

@@ -33,7 +33,7 @@ ms.locfileid: "49828555"
 Политики архива можно настроить на глобальном уровне, на уровне сайта или пользователя.
   
 > [!NOTE]
-> Если для развертывания включена интеграция с Microsoft Exchange, политики Exchange контролируют, включена ли архивация для пользователей, которые размещены в Exchange и для их почтовых ящиков включено In-Place удержание. For details, [see Plan for archiving in Skype for Business Server](../../plan-your-deployment/archiving/archiving.md) and [Configure integration with Exchange storage for Skype for Business Server.](../../deploy/deploy-archiving/configure-integration-with-exchange-storage.md) 
+> Если для развертывания включена интеграция с Microsoft Exchange, политики Exchange контролируют, включена ли архивация для пользователей, которые размещены в Exchange и для их почтовых ящиков включено In-Place удержание. For details, see [Plan for archiving in Skype for Business Server](../../plan-your-deployment/archiving/archiving.md) and [Configure integration with Exchange storage for Skype for Business Server.](../../deploy/deploy-archiving/configure-integration-with-exchange-storage.md) 
   
 ## <a name="manage-archiving-policies-by-using-the-control-panel"></a>Управление политиками архива с помощью панели управления
 
@@ -47,7 +47,7 @@ ms.locfileid: "49828555"
     
 ## <a name="manage-archiving-policies-by-using-windows-powershell"></a>Управление политиками архива с помощью Windows PowerShell
 
-Вы также можете настроить политики архива с помощью Windows PowerShell, перечисленных в следующей таблице. Подробные сведения о синтаксис, включая все доступные параметры, см. в руководстве [Skype для бизнеса Server Management Shell.](../management-shell.md)
+Вы также можете настроить политики архива с помощью Windows PowerShell, перечисленных в следующей таблице. Подробные сведения о синтаксисе, включая все доступные параметры, см. в руководстве [Skype для бизнеса Server Management Shell.](../management-shell.md)
   
 
 |**Командлет**|**Описание**|

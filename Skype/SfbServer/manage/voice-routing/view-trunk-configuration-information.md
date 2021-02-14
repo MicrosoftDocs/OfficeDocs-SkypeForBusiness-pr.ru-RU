@@ -40,7 +40,7 @@ ms.locfileid: "49826169"
 
 **Просмотр сведений о конфигурации магистрали SIP**
 
-To view information about all your SIP trunk configuration settings, type the following command in the Skype for Business Server Management Shell, and then press ENTER:
+Чтобы просмотреть сведения обо всех параметрах конфигурации магистрали SIP, введите следующую команду в командной оболочке Skype для бизнеса Server и нажмите ввод:
 
 ```powershell
 Get-CsTrunkConfiguration
