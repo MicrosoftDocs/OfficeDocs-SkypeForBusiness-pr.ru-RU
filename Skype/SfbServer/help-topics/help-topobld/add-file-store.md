@@ -22,12 +22,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49824269"
 ---
-# <a name="add-file-store"></a><span data-ttu-id="325ff-103">Добавление хранилища файлов</span><span class="sxs-lookup"><span data-stu-id="325ff-103">Add File Store</span></span>
+# <a name="add-file-store"></a><span data-ttu-id="07a9d-103">Добавление хранилища файлов</span><span class="sxs-lookup"><span data-stu-id="07a9d-103">Add File Store</span></span>
  
-<span data-ttu-id="325ff-104">Чтобы определить новую общую папку файлов, укажите следующие значения.</span><span class="sxs-lookup"><span data-stu-id="325ff-104">To define a new file store, specify the following:</span></span>
+<span data-ttu-id="07a9d-104">Чтобы определить новую общую папку файлов, укажите следующие значения.</span><span class="sxs-lookup"><span data-stu-id="07a9d-104">To define a new file store, specify the following:</span></span>
   
-- <span data-ttu-id="325ff-105">Полное доменное имя сервера, на котором будет размещено новое хранилище файлов.</span><span class="sxs-lookup"><span data-stu-id="325ff-105">The fully qualified domain name (FQDN) of the server that will host the new file store.</span></span> <span data-ttu-id="325ff-106">Перед публикацией топологии имя FQDN сервера должно существовать в системе доменных имен (DNS).</span><span class="sxs-lookup"><span data-stu-id="325ff-106">The server's FQDN must exist in the Domain Name System (DNS) before you publish the topology.</span></span>
+- <span data-ttu-id="07a9d-105">Полное доменное имя сервера, на котором будет размещено новое хранилище файлов.</span><span class="sxs-lookup"><span data-stu-id="07a9d-105">The fully qualified domain name (FQDN) of the server that will host the new file store.</span></span> <span data-ttu-id="07a9d-106">Перед публикацией топологии имя FQDN сервера должно существовать в системе доменных имен (DNS).</span><span class="sxs-lookup"><span data-stu-id="07a9d-106">The server's FQDN must exist in the Domain Name System (DNS) before you publish the topology.</span></span>
     
-- <span data-ttu-id="325ff-p102">Имя общей папки файлов на сервере узла. Общая папка файлов должна существовать до публикации топологии.</span><span class="sxs-lookup"><span data-stu-id="325ff-p102">The name of the file share on the host server. The file share must exist before you publish the topology.</span></span> 
+- <span data-ttu-id="07a9d-p102">Имя общей папки файлов на сервере узла. Общая папка файлов должна существовать до публикации топологии.</span><span class="sxs-lookup"><span data-stu-id="07a9d-p102">The name of the file share on the host server. The file share must exist before you publish the topology.</span></span> 
     
 

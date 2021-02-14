@@ -22,11 +22,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49824379"
 ---
-# <a name="users-view-or-configure-conferencing-policy"></a><span data-ttu-id="a29b3-104">Пользователи: просмотр или настройка политики конференц-связи</span><span class="sxs-lookup"><span data-stu-id="a29b3-104">Users: View or Configure Conferencing Policy</span></span>
+# <a name="users-view-or-configure-conferencing-policy"></a><span data-ttu-id="b932f-104">Пользователи: просмотр или настройка политики конференц-связи</span><span class="sxs-lookup"><span data-stu-id="b932f-104">Users: View or Configure Conferencing Policy</span></span>
 
-<span data-ttu-id="a29b3-105">Что нужно сделать</span><span class="sxs-lookup"><span data-stu-id="a29b3-105">What do you want to do?</span></span> <span data-ttu-id="a29b3-106">Щелкните ссылку на задачу, которую необходимо выполнить.</span><span class="sxs-lookup"><span data-stu-id="a29b3-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="b932f-105">Что нужно сделать</span><span class="sxs-lookup"><span data-stu-id="b932f-105">What do you want to do?</span></span> <span data-ttu-id="b932f-106">Щелкните ссылку на задачу, которую необходимо выполнить.</span><span class="sxs-lookup"><span data-stu-id="b932f-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="a29b3-107">Назначение политики проведения собраний для изменения пользовательского интерфейса собрания по умолчанию</span><span class="sxs-lookup"><span data-stu-id="a29b3-107">Assign a Conferencing Policy to Modify a User's Default Meeting Experience</span></span>](https://technet.microsoft.com/library/72f12c72-65f7-44fe-ab81-0f57cb2f87d1.aspx)
+- [<span data-ttu-id="b932f-107">Назначение политики проведения собраний для изменения пользовательского интерфейса собрания по умолчанию</span><span class="sxs-lookup"><span data-stu-id="b932f-107">Assign a Conferencing Policy to Modify a User's Default Meeting Experience</span></span>](https://technet.microsoft.com/library/72f12c72-65f7-44fe-ab81-0f57cb2f87d1.aspx)
 
-<span data-ttu-id="a29b3-108">Подробные сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнеса Server, см. в под управлением Skype для бизнеса [Server 2015.](../../manage/manage.md)</span><span class="sxs-lookup"><span data-stu-id="a29b3-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="b932f-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="b932f-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
 

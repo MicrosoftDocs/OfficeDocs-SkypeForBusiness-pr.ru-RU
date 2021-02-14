@@ -22,11 +22,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49824329"
 ---
-# <a name="users-view-or-configure-external-access-policy"></a><span data-ttu-id="0dbae-104">Пользователи: просмотр или настройка политики внешнего доступа</span><span class="sxs-lookup"><span data-stu-id="0dbae-104">Users: View or Configure External Access Policy</span></span>
+# <a name="users-view-or-configure-external-access-policy"></a><span data-ttu-id="9af44-104">Пользователи: просмотр или настройка политики внешнего доступа</span><span class="sxs-lookup"><span data-stu-id="9af44-104">Users: View or Configure External Access Policy</span></span>
 
-<span data-ttu-id="0dbae-105">Что нужно сделать</span><span class="sxs-lookup"><span data-stu-id="0dbae-105">What do you want to do?</span></span> <span data-ttu-id="0dbae-106">Щелкните ссылку на задачу, которую необходимо выполнить.</span><span class="sxs-lookup"><span data-stu-id="0dbae-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="9af44-105">Что нужно сделать</span><span class="sxs-lookup"><span data-stu-id="9af44-105">What do you want to do?</span></span> <span data-ttu-id="9af44-106">Щелкните ссылку на задачу, которую необходимо выполнить.</span><span class="sxs-lookup"><span data-stu-id="9af44-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="0dbae-107">Настройка федерации, удаленного доступа пользователей и подключения к общедоступным мгновенным данным для пользователей</span><span class="sxs-lookup"><span data-stu-id="0dbae-107">Configure Federation, Remote User Access, and Public IM Connectivity for Users</span></span>](https://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
+- [<span data-ttu-id="9af44-107">Настройка федерации, удаленного доступа пользователей и подключения к общедоступным мгновенным данным для пользователей</span><span class="sxs-lookup"><span data-stu-id="9af44-107">Configure Federation, Remote User Access, and Public IM Connectivity for Users</span></span>](https://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
 
-<span data-ttu-id="0dbae-108">Подробные сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнеса Server, см. в под управлением Skype для бизнеса [Server 2015.](../../manage/manage.md)</span><span class="sxs-lookup"><span data-stu-id="0dbae-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="9af44-108">Подробные сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнеса Server, см. в под управлением Skype для бизнеса [Server 2015.](../../manage/manage.md)</span><span class="sxs-lookup"><span data-stu-id="9af44-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
 

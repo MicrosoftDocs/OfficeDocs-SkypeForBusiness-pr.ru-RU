@@ -22,8 +22,8 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49823969"
 ---
-# <a name="add-mediation-server-nexthop"></a><span data-ttu-id="ffe77-104">Добавление следующего перехода для серверов-посредников</span><span class="sxs-lookup"><span data-stu-id="ffe77-104">Add Mediation Server NextHop</span></span>
+# <a name="add-mediation-server-nexthop"></a><span data-ttu-id="80919-104">Добавление следующего перехода для серверов-посредников</span><span class="sxs-lookup"><span data-stu-id="80919-104">Add Mediation Server NextHop</span></span>
  
-<span data-ttu-id="ffe77-105">Чтобы определить следующий переход для определяемого сервера-посредника, выберите в выпадаемом списке пула следующего прыжка сервер Enterprise Edition или сервер Standard Edition, который будет выступать в качестве следующего прыжка для сервера-посредника. </span><span class="sxs-lookup"><span data-stu-id="ffe77-105">To define the next hop for a Mediation Server that you are defining, select from the **Next hop pool** drop-down list the Enterprise Edition server or Standard Edition server that will act as the next hop for the Mediation Server.</span></span> <span data-ttu-id="ffe77-106">Нажмите кнопку **Далее**, чтобы продолжить.</span><span class="sxs-lookup"><span data-stu-id="ffe77-106">Click **Next** to continue.</span></span>
+<span data-ttu-id="80919-105">Чтобы определить следующий переход для определяемого сервера-посредника, выберите в выпадаемом списке пула следующего перехода сервер Enterprise Edition или сервер Standard Edition, который будет выступать в качестве следующего прыжка для сервера-посредника. </span><span class="sxs-lookup"><span data-stu-id="80919-105">To define the next hop for a Mediation Server that you are defining, select from the **Next hop pool** drop-down list the Enterprise Edition server or Standard Edition server that will act as the next hop for the Mediation Server.</span></span> <span data-ttu-id="80919-106">Нажмите кнопку **Далее**, чтобы продолжить.</span><span class="sxs-lookup"><span data-stu-id="80919-106">Click **Next** to continue.</span></span>
   
 

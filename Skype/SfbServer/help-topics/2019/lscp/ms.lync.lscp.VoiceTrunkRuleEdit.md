@@ -22,13 +22,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49824529"
 ---
-# <a name="translation-rule-create-new-or-edit-existing"></a><span data-ttu-id="61bfe-104">Правило преобразования: создание нового или редактирование существующего</span><span class="sxs-lookup"><span data-stu-id="61bfe-104">Translation Rule: Create New or Edit Existing</span></span>
+# <a name="translation-rule-create-new-or-edit-existing"></a><span data-ttu-id="69279-104">Правило преобразования: создание нового или редактирование существующего</span><span class="sxs-lookup"><span data-stu-id="69279-104">Translation Rule: Create New or Edit Existing</span></span>
 
-<span data-ttu-id="61bfe-105">Что нужно сделать</span><span class="sxs-lookup"><span data-stu-id="61bfe-105">What do you want to do?</span></span> <span data-ttu-id="61bfe-106">Щелкните ссылку на задачу, которую необходимо выполнить.</span><span class="sxs-lookup"><span data-stu-id="61bfe-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="69279-105">Что нужно сделать</span><span class="sxs-lookup"><span data-stu-id="69279-105">What do you want to do?</span></span> <span data-ttu-id="69279-106">Щелкните ссылку на задачу, которую необходимо выполнить.</span><span class="sxs-lookup"><span data-stu-id="69279-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="61bfe-107">Create or modify a translation rule for called ID presentation in Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="61bfe-107">Create or modify a translation rule for called ID presentation in Skype for Business Server</span></span>](../../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
+- [<span data-ttu-id="69279-107">Create or modify a translation rule for called ID presentation in Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="69279-107">Create or modify a translation rule for called ID presentation in Skype for Business Server</span></span>](../../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
 
-- [<span data-ttu-id="61bfe-108">Создание или изменение правила преобразования вручную</span><span class="sxs-lookup"><span data-stu-id="61bfe-108">Create or Modify a Translation Rule Manually</span></span>](https://technet.microsoft.com/library/049d1db3-af58-48c5-be89-52e1d068a4bd.aspx)
+- [<span data-ttu-id="69279-108">Создание или изменение правила преобразования вручную</span><span class="sxs-lookup"><span data-stu-id="69279-108">Create or Modify a Translation Rule Manually</span></span>](https://technet.microsoft.com/library/049d1db3-af58-48c5-be89-52e1d068a4bd.aspx)
 
 
 

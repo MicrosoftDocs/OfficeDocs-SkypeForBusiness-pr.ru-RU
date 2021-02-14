@@ -22,14 +22,14 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49824519"
 ---
-# <a name="select-calling-number-rules-translation"></a><span data-ttu-id="8f3d3-104">Выбор правил преобразования вызывающего номера</span><span class="sxs-lookup"><span data-stu-id="8f3d3-104">Select Calling Number Rules Translation</span></span>
+# <a name="select-calling-number-rules-translation"></a><span data-ttu-id="3f567-104">Выбор правил преобразования вызывающего номера</span><span class="sxs-lookup"><span data-stu-id="3f567-104">Select Calling Number Rules Translation</span></span>
 
-<span data-ttu-id="8f3d3-105">Диалоговое **окно "Выбор правил** трансляции вызываемого номера" отображает правила трансляции, настроенные для развертывания.</span><span class="sxs-lookup"><span data-stu-id="8f3d3-105">The **Select Calling Number Translation Rules** dialog displays the translation rules configured for your deployment.</span></span> <span data-ttu-id="8f3d3-106">Дополнительные сведения о правилах преобразования см. в следующих разделах:</span><span class="sxs-lookup"><span data-stu-id="8f3d3-106">For details about translation rules, see the following topics:</span></span>
+<span data-ttu-id="3f567-105">Диалоговое **окно "Выбор правил** трансляции вызываемого номера" отображает правила трансляции, настроенные для развертывания.</span><span class="sxs-lookup"><span data-stu-id="3f567-105">The **Select Calling Number Translation Rules** dialog displays the translation rules configured for your deployment.</span></span> <span data-ttu-id="3f567-106">Дополнительные сведения о правилах преобразования см. в следующих разделах:</span><span class="sxs-lookup"><span data-stu-id="3f567-106">For details about translation rules, see the following topics:</span></span>
 
-1. [<span data-ttu-id="8f3d3-107">Правила трансляции в Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="8f3d3-107">Translation rules in Skype for Business Server</span></span>](../../../plan-your-deployment/enterprise-voice-solution/translation-rules.md)
+1. [<span data-ttu-id="3f567-107">Правила трансляции в Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="3f567-107">Translation rules in Skype for Business Server</span></span>](../../../plan-your-deployment/enterprise-voice-solution/translation-rules.md)
 
-2. [<span data-ttu-id="8f3d3-108">Правила настройки и перевода магистрали</span><span class="sxs-lookup"><span data-stu-id="8f3d3-108">Trunk Configuration and Translation Rules</span></span>](https://technet.microsoft.com/library/0c339511-a185-484e-94f0-dbe918b7e48a.aspx)
+2. [<span data-ttu-id="3f567-108">Правила настройки и перевода магистрали</span><span class="sxs-lookup"><span data-stu-id="3f567-108">Trunk Configuration and Translation Rules</span></span>](https://technet.microsoft.com/library/0c339511-a185-484e-94f0-dbe918b7e48a.aspx)
 
-3. [<span data-ttu-id="8f3d3-109">Create or modify a translation rule for called ID presentation in Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="8f3d3-109">Create or modify a translation rule for called ID presentation in Skype for Business Server</span></span>](../../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
+3. [<span data-ttu-id="3f567-109">Create or modify a translation rule for called ID presentation in Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="3f567-109">Create or modify a translation rule for called ID presentation in Skype for Business Server</span></span>](../../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
 
 

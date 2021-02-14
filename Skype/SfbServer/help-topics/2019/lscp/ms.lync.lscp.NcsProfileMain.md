@@ -22,11 +22,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49824749"
 ---
-# <a name="bandwidth-policy-profile"></a><span data-ttu-id="8980e-104">Профиль политики пропускной способности</span><span class="sxs-lookup"><span data-stu-id="8980e-104">Bandwidth Policy Profile</span></span>
+# <a name="bandwidth-policy-profile"></a><span data-ttu-id="56bf7-104">Профиль политики пропускной способности</span><span class="sxs-lookup"><span data-stu-id="56bf7-104">Bandwidth Policy Profile</span></span>
 
-<span data-ttu-id="8980e-105">Что нужно сделать</span><span class="sxs-lookup"><span data-stu-id="8980e-105">What do you want to do?</span></span> <span data-ttu-id="8980e-106">Щелкните ссылку на задачу, которую необходимо выполнить.</span><span class="sxs-lookup"><span data-stu-id="8980e-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="56bf7-105">Что нужно сделать</span><span class="sxs-lookup"><span data-stu-id="56bf7-105">What do you want to do?</span></span> <span data-ttu-id="56bf7-106">Щелкните ссылку на задачу, которую необходимо выполнить.</span><span class="sxs-lookup"><span data-stu-id="56bf7-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="8980e-107">Настройка профиля политики пропускной способности</span><span class="sxs-lookup"><span data-stu-id="8980e-107">Configuring Bandwidth Policy Profile</span></span>](https://technet.microsoft.com/library/08a2e18f-9b0d-4a2f-aa14-13bbf79ec745.aspx)
+- [<span data-ttu-id="56bf7-107">Настройка профиля политики пропускной способности</span><span class="sxs-lookup"><span data-stu-id="56bf7-107">Configuring Bandwidth Policy Profile</span></span>](https://technet.microsoft.com/library/08a2e18f-9b0d-4a2f-aa14-13bbf79ec745.aspx)
 
 
 

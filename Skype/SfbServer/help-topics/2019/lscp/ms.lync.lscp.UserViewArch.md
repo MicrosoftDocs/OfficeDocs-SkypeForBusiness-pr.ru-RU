@@ -22,13 +22,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49824569"
 ---
-# <a name="users-view-or-configure-archiving-policy"></a><span data-ttu-id="1fb79-104">Пользователи: просмотр или настройка политики архивирования</span><span class="sxs-lookup"><span data-stu-id="1fb79-104">Users: View or Configure Archiving Policy</span></span>
+# <a name="users-view-or-configure-archiving-policy"></a><span data-ttu-id="b650c-104">Пользователи: просмотр или настройка политики архивирования</span><span class="sxs-lookup"><span data-stu-id="b650c-104">Users: View or Configure Archiving Policy</span></span>
 
-<span data-ttu-id="1fb79-105">Что нужно сделать</span><span class="sxs-lookup"><span data-stu-id="1fb79-105">What do you want to do?</span></span> <span data-ttu-id="1fb79-106">Щелкните ссылку на задачу, которую необходимо выполнить.</span><span class="sxs-lookup"><span data-stu-id="1fb79-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="b650c-105">Что нужно сделать</span><span class="sxs-lookup"><span data-stu-id="b650c-105">What do you want to do?</span></span> <span data-ttu-id="b650c-106">Щелкните ссылку на задачу, которую необходимо выполнить.</span><span class="sxs-lookup"><span data-stu-id="b650c-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="1fb79-107">Назначение политики архивирования уровня пользователя</span><span class="sxs-lookup"><span data-stu-id="1fb79-107">Assign a Per-User Archiving Policy</span></span>](https://technet.microsoft.com/library/a12ca483-b235-460f-b3fe-130fb3087264.aspx)
+- [<span data-ttu-id="b650c-107">Назначение политики архивирования уровня пользователя</span><span class="sxs-lookup"><span data-stu-id="b650c-107">Assign a Per-User Archiving Policy</span></span>](https://technet.microsoft.com/library/a12ca483-b235-460f-b3fe-130fb3087264.aspx)
 
-- [<span data-ttu-id="1fb79-108">Применение политики архива к пользователю или группе пользователей</span><span class="sxs-lookup"><span data-stu-id="1fb79-108">Apply an Archiving Policy to a User or User Group</span></span>](https://technet.microsoft.com/library/624a7d3e-389d-403a-97e5-f7bb17023ef3.aspx)
+- [<span data-ttu-id="b650c-108">Применение политики архива к пользователю или группе пользователей</span><span class="sxs-lookup"><span data-stu-id="b650c-108">Apply an Archiving Policy to a User or User Group</span></span>](https://technet.microsoft.com/library/624a7d3e-389d-403a-97e5-f7bb17023ef3.aspx)
 
 
 

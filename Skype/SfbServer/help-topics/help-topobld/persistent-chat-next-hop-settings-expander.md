@@ -22,18 +22,18 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49823829"
 ---
-# <a name="persistent-chat-next-hop-settings-expander"></a><span data-ttu-id="7f4d1-103">Расширитель параметров следующего перехода сохраняемого чата</span><span class="sxs-lookup"><span data-stu-id="7f4d1-103">Persistent Chat Next Hop Settings Expander</span></span>
+# <a name="persistent-chat-next-hop-settings-expander"></a><span data-ttu-id="b63a8-103">Расширитель параметров следующего перехода сохраняемого чата</span><span class="sxs-lookup"><span data-stu-id="b63a8-103">Persistent Chat Next Hop Settings Expander</span></span>
  
-<span data-ttu-id="7f4d1-104">Пул следующего прыжка  сохраняемой беседы настраивается путем выбора сервера переднего или переднего сервера в списке.</span><span class="sxs-lookup"><span data-stu-id="7f4d1-104">You configure the Persistent Chat **Next hop pool** by selecting a Front End Server or Front End pool from the list.</span></span>
+<span data-ttu-id="b63a8-104">Пул следующего прыжка  сохраняемой беседы настраивается путем выбора в списке сервера переднего или переднего сервера.</span><span class="sxs-lookup"><span data-stu-id="b63a8-104">You configure the Persistent Chat **Next hop pool** by selecting a Front End Server or Front End pool from the list.</span></span>
   
- <span data-ttu-id="7f4d1-105">При нажатии кнопки **ОК** выполняется принятие и сохранение изменений в этом диалоговом окне.</span><span class="sxs-lookup"><span data-stu-id="7f4d1-105">**OK** Accepts and commits changes to the dialog.</span></span>
+ <span data-ttu-id="b63a8-105">При нажатии кнопки **ОК** выполняется принятие и сохранение изменений в этом диалоговом окне.</span><span class="sxs-lookup"><span data-stu-id="b63a8-105">**OK** Accepts and commits changes to the dialog.</span></span>
   
- <span data-ttu-id="7f4d1-106">При нажатии кнопки **Отмена** изменения отменяются, а диалоговое окно закрывается.</span><span class="sxs-lookup"><span data-stu-id="7f4d1-106">**Cancel** Discards changes and closes the dialog.</span></span>
+ <span data-ttu-id="b63a8-106">При нажатии кнопки **Отмена** изменения отменяются, а диалоговое окно закрывается.</span><span class="sxs-lookup"><span data-stu-id="b63a8-106">**Cancel** Discards changes and closes the dialog.</span></span>
   
- <span data-ttu-id="7f4d1-107">При нажатии кнопки **Справка** отображается данный экран справки.</span><span class="sxs-lookup"><span data-stu-id="7f4d1-107">**Help** Displays this help screen.</span></span>
+ <span data-ttu-id="b63a8-107">При нажатии кнопки **Справка** отображается данный экран справки.</span><span class="sxs-lookup"><span data-stu-id="b63a8-107">**Help** Displays this help screen.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="7f4d1-108">См. также</span><span class="sxs-lookup"><span data-stu-id="7f4d1-108">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="b63a8-108">См. также</span><span class="sxs-lookup"><span data-stu-id="b63a8-108">See also</span></span>
 
-[<span data-ttu-id="7f4d1-109">Планирование сервера сохраняемой беседы в Skype для бизнеса Server 2015</span><span class="sxs-lookup"><span data-stu-id="7f4d1-109">Plan for Persistent Chat Server in Skype for Business Server 2015</span></span>](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
+[<span data-ttu-id="b63a8-109">Планирование сервера сохраняемой беседы в Skype для бизнеса Server 2015</span><span class="sxs-lookup"><span data-stu-id="b63a8-109">Plan for Persistent Chat Server in Skype for Business Server 2015</span></span>](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   
-[<span data-ttu-id="7f4d1-110">Добавление сервера сохраняемой беседы в топологию Skype для бизнеса Server 2015</span><span class="sxs-lookup"><span data-stu-id="7f4d1-110">Add Persistent Chat Server to your Skype for Business Server 2015 topology</span></span>](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
+[<span data-ttu-id="b63a8-110">Добавление сервера сохраняемой беседы в топологию Skype для бизнеса Server 2015</span><span class="sxs-lookup"><span data-stu-id="b63a8-110">Add Persistent Chat Server to your Skype for Business Server 2015 topology</span></span>](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)

@@ -22,11 +22,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49824689"
 ---
-# <a name="configure-a-network-region-link"></a><span data-ttu-id="2cb0a-104">Настройка связи области сети</span><span class="sxs-lookup"><span data-stu-id="2cb0a-104">Configure a Network Region Link</span></span>
+# <a name="configure-a-network-region-link"></a><span data-ttu-id="0ecbc-104">Настройка связи области сети</span><span class="sxs-lookup"><span data-stu-id="0ecbc-104">Configure a Network Region Link</span></span>
 
-<span data-ttu-id="2cb0a-105">Что нужно сделать</span><span class="sxs-lookup"><span data-stu-id="2cb0a-105">What do you want to do?</span></span> <span data-ttu-id="2cb0a-106">Щелкните ссылку на задачу, которую необходимо выполнить.</span><span class="sxs-lookup"><span data-stu-id="2cb0a-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="0ecbc-105">Что нужно сделать</span><span class="sxs-lookup"><span data-stu-id="0ecbc-105">What do you want to do?</span></span> <span data-ttu-id="0ecbc-106">Щелкните ссылку на задачу, которую необходимо выполнить.</span><span class="sxs-lookup"><span data-stu-id="0ecbc-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="2cb0a-107">Настройка связей между сетевыми областями</span><span class="sxs-lookup"><span data-stu-id="2cb0a-107">Configuring Network Region Links</span></span>](https://technet.microsoft.com/library/952bc93e-e6aa-4539-85c7-2b15f14eb382.aspx)
+- [<span data-ttu-id="0ecbc-107">Настройка связей между сетевыми областями</span><span class="sxs-lookup"><span data-stu-id="0ecbc-107">Configuring Network Region Links</span></span>](https://technet.microsoft.com/library/952bc93e-e6aa-4539-85c7-2b15f14eb382.aspx)
 
 
 
