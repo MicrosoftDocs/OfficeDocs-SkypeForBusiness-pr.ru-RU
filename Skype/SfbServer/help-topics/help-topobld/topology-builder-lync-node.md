@@ -21,5 +21,5 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49818079"
 ---
-# <a name="topology-builder-lync-node"></a><span data-ttu-id="89567-102">Узел Lync в построителе топологий</span><span class="sxs-lookup"><span data-stu-id="89567-102">Topology Builder Lync Node</span></span>
+# <a name="topology-builder-lync-node"></a><span data-ttu-id="d6ade-102">Узел Lync в построителе топологий</span><span class="sxs-lookup"><span data-stu-id="d6ade-102">Topology Builder Lync Node</span></span>
  

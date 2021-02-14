@@ -1,5 +1,5 @@
 ---
-title: Voice Routing Status of Commit Changes for Voice Routing Configuration
+title: Состояние маршрутации голосовой почты для фиксации изменений в конфигурации маршрутации голосовой почты
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -22,10 +22,10 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49815319"
 ---
-# <a name="voice-routing-status-of-commit-changes-for-voice-routing-configuration"></a><span data-ttu-id="957c8-103">Маршрутизация голосовых данных: состояние фиксации изменений для конфигурации маршрутизации голосовых данных</span><span class="sxs-lookup"><span data-stu-id="957c8-103">Voice Routing: Status of Commit Changes for Voice Routing Configuration</span></span>
+# <a name="voice-routing-status-of-commit-changes-for-voice-routing-configuration"></a><span data-ttu-id="2a44e-103">Маршрутизация голосовых данных: состояние фиксации изменений для конфигурации маршрутизации голосовых данных</span><span class="sxs-lookup"><span data-stu-id="2a44e-103">Voice Routing: Status of Commit Changes for Voice Routing Configuration</span></span>
  
-<span data-ttu-id="957c8-104">Если изменения не были завершены, просмотрите сообщения в данном диалоговом окне, измените конфигурацию маршрутизации голосовых данных и повторите попытку.</span><span class="sxs-lookup"><span data-stu-id="957c8-104">If the changes were not completed, review the messages in this dialog box, change your voice routing configuration, and try again.</span></span>
+<span data-ttu-id="2a44e-104">Если изменения не были завершены, просмотрите сообщения в данном диалоговом окне, измените конфигурацию маршрутизации голосовых данных и повторите попытку.</span><span class="sxs-lookup"><span data-stu-id="2a44e-104">If the changes were not completed, review the messages in this dialog box, change your voice routing configuration, and try again.</span></span>
   
-<span data-ttu-id="957c8-105">Подробные сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнеса Server, см. в под управлением Skype для бизнеса [Server 2015.](../../manage/manage.md)</span><span class="sxs-lookup"><span data-stu-id="957c8-105">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="2a44e-105">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="2a44e-105">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
   
 

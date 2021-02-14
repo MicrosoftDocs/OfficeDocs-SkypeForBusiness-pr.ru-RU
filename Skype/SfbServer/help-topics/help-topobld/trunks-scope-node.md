@@ -22,18 +22,18 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49818024"
 ---
-# <a name="trunks-scope-node"></a><span data-ttu-id="4e95d-103">Узел области магистральных линий связи</span><span class="sxs-lookup"><span data-stu-id="4e95d-103">Trunks Scope Node</span></span>
+# <a name="trunks-scope-node"></a><span data-ttu-id="6424b-103">Узел области магистральных линий связи</span><span class="sxs-lookup"><span data-stu-id="6424b-103">Trunks Scope Node</span></span>
  
-<span data-ttu-id="4e95d-104">Щелкните правой **кнопкой мыши магистрали** в построителье топологий, чтобы выполнить следующее:</span><span class="sxs-lookup"><span data-stu-id="4e95d-104">Right-click **Trunks** in Topology Builder to perform the following:</span></span>
+<span data-ttu-id="6424b-104">Щелкните правой **кнопкой мыши магистрали** в построителье топологий, чтобы выполнить следующее:</span><span class="sxs-lookup"><span data-stu-id="6424b-104">Right-click **Trunks** in Topology Builder to perform the following:</span></span>
   
-- <span data-ttu-id="4e95d-105">**Новая магистральная линия связи**. Запускает мастер **Определение новой линии связи** для определения новой магистрали SIP.</span><span class="sxs-lookup"><span data-stu-id="4e95d-105">**New Trunk**: Starts the **Define New Trunk** wizard used to define a new SIP trunk.</span></span>
+- <span data-ttu-id="6424b-105">**Новая магистральная линия связи**. Запускает мастер **Определение новой линии связи** для определения новой магистрали SIP.</span><span class="sxs-lookup"><span data-stu-id="6424b-105">**New Trunk**: Starts the **Define New Trunk** wizard used to define a new SIP trunk.</span></span>
     
-<span data-ttu-id="4e95d-106">Помимо создания новой магистральной линии связи, можно выполнить следующие задачи общего характера.</span><span class="sxs-lookup"><span data-stu-id="4e95d-106">In addition to the New Trunk option, you can perform the following general tasks:</span></span>
+<span data-ttu-id="6424b-106">Помимо создания новой магистральной линии связи, можно выполнить следующие задачи общего характера.</span><span class="sxs-lookup"><span data-stu-id="6424b-106">In addition to the New Trunk option, you can perform the following general tasks:</span></span>
   
 ![Узел области магистральных линий связи](../../media/Trunks_Scope_Node.jpg)
   
-- <span data-ttu-id="4e95d-108">**Топология.**</span><span class="sxs-lookup"><span data-stu-id="4e95d-108">**Topology**.</span></span> <span data-ttu-id="4e95d-109">С помощью этого параметра можно определить новую топологию, открыть существующую топологию, загрузить текущую топологию, сохранить копию топологии, опубликовать топологию, установить базу данных, объединить компоненты из предыдущих версий или удалить развертывание.</span><span class="sxs-lookup"><span data-stu-id="4e95d-109">You can use this option to define a new topology, open an existing topology, download the current topology, save a copy of the topology, publish the topology, install a database, merge components from previous versions, or remove the deployment.</span></span>
+- <span data-ttu-id="6424b-108">**Топология.**</span><span class="sxs-lookup"><span data-stu-id="6424b-108">**Topology**.</span></span> <span data-ttu-id="6424b-109">С помощью этого параметра можно определить новую топологию, открыть существующую топологию, загрузить текущую топологию, сохранить копию топологии, опубликовать топологию, установить базу данных, объединить компоненты из предыдущих версий или удалить развертывание.</span><span class="sxs-lookup"><span data-stu-id="6424b-109">You can use this option to define a new topology, open an existing topology, download the current topology, save a copy of the topology, publish the topology, install a database, merge components from previous versions, or remove the deployment.</span></span>
     
-- <span data-ttu-id="4e95d-p102">**Справка**. Вы можете использовать данный параметр для доступа к справке по активному узлу.</span><span class="sxs-lookup"><span data-stu-id="4e95d-p102">**Help**. You can use this option to access Help for the active node.</span></span>
+- <span data-ttu-id="6424b-p102">**Справка**. Вы можете использовать данный параметр для доступа к справке по активному узлу.</span><span class="sxs-lookup"><span data-stu-id="6424b-p102">**Help**. You can use this option to access Help for the active node.</span></span>
     
 
