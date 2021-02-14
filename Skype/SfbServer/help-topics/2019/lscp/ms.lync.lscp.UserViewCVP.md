@@ -22,11 +22,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49808159"
 ---
-# <a name="users-view-or-configure-client-version-policy"></a><span data-ttu-id="597dd-104">Пользователи: просмотр или настройка политики версий клиентов</span><span class="sxs-lookup"><span data-stu-id="597dd-104">Users: View or Configure Client Version Policy</span></span>
+# <a name="users-view-or-configure-client-version-policy"></a><span data-ttu-id="0f32e-104">Пользователи: просмотр или настройка политики версий клиентов</span><span class="sxs-lookup"><span data-stu-id="0f32e-104">Users: View or Configure Client Version Policy</span></span>
 
-<span data-ttu-id="597dd-105">Что нужно сделать</span><span class="sxs-lookup"><span data-stu-id="597dd-105">What do you want to do?</span></span> <span data-ttu-id="597dd-106">Щелкните ссылку на задачу, которую необходимо выполнить.</span><span class="sxs-lookup"><span data-stu-id="597dd-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="0f32e-105">Что нужно сделать</span><span class="sxs-lookup"><span data-stu-id="0f32e-105">What do you want to do?</span></span> <span data-ttu-id="0f32e-106">Щелкните ссылку на задачу, которую необходимо выполнить.</span><span class="sxs-lookup"><span data-stu-id="0f32e-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="597dd-107">Указание версий клиентов, поддерживаемых пользователем при входе</span><span class="sxs-lookup"><span data-stu-id="597dd-107">Specify Client Versions Supported for Sign-in by a User</span></span>](https://technet.microsoft.com/library/f7e8ba2f-62dc-4e7d-8b63-682986f10240.aspx)
+- [<span data-ttu-id="0f32e-107">Указание версий клиентов, поддерживаемых пользователем при входе</span><span class="sxs-lookup"><span data-stu-id="0f32e-107">Specify Client Versions Supported for Sign-in by a User</span></span>](https://technet.microsoft.com/library/f7e8ba2f-62dc-4e7d-8b63-682986f10240.aspx)
 
 
 

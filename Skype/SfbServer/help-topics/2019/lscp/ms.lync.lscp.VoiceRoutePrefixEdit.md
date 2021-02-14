@@ -22,9 +22,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49807879"
 ---
-# <a name="prefix-edit"></a><span data-ttu-id="104b2-104">Редактирование префиксов</span><span class="sxs-lookup"><span data-stu-id="104b2-104">Prefix Edit</span></span>
+# <a name="prefix-edit"></a><span data-ttu-id="c82c7-104">Редактирование префиксов</span><span class="sxs-lookup"><span data-stu-id="c82c7-104">Prefix Edit</span></span>
  
-<span data-ttu-id="104b2-p102">Чтобы задать префиксы или начальные цифры, добавьте числовые префиксы, которые должны обрабатываться этим маршрутом, включая знак "+", если необходимо. Например, можно сопоставить все номера, начинающиеся с "+123".</span><span class="sxs-lookup"><span data-stu-id="104b2-p102">To define prefixes or starting digits, add number prefixes that this route should handle, including the + if necessary. For example, you can match all numbers starting with +123.</span></span>
+<span data-ttu-id="c82c7-p102">Чтобы задать префиксы или начальные цифры, добавьте числовые префиксы, которые должны обрабатываться этим маршрутом, включая знак "+", если необходимо. Например, можно сопоставить все номера, начинающиеся с "+123".</span><span class="sxs-lookup"><span data-stu-id="c82c7-p102">To define prefixes or starting digits, add number prefixes that this route should handle, including the + if necessary. For example, you can match all numbers starting with +123.</span></span>
   
  
   

@@ -22,30 +22,30 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49807799"
 ---
-# <a name="add-director-monitoring"></a><span data-ttu-id="20666-103">Добавление мониторинга директора</span><span class="sxs-lookup"><span data-stu-id="20666-103">Add Director Monitoring</span></span>
+# <a name="add-director-monitoring"></a><span data-ttu-id="c826e-103">Добавление мониторинга директора</span><span class="sxs-lookup"><span data-stu-id="c826e-103">Add Director Monitoring</span></span>
  
-<span data-ttu-id="20666-104">Вы можете выполнить **Определение хранилища SQL Server для мониторинга**, настроив следующие свойства:</span><span class="sxs-lookup"><span data-stu-id="20666-104">You can **Define the Monitoring SQL Server store** by configuring the following properties:</span></span>
+<span data-ttu-id="c826e-104">Вы можете выполнить **Определение хранилища SQL Server для мониторинга**, настроив следующие свойства:</span><span class="sxs-lookup"><span data-stu-id="c826e-104">You can **Define the Monitoring SQL Server store** by configuring the following properties:</span></span>
   
-- <span data-ttu-id="20666-105">**Хранилище SQL Server** мониторинга: выберите SQL Server полное доменное имя (FQDN) (и, при желании, именуемой SQL Server экземпляр) в списке.</span><span class="sxs-lookup"><span data-stu-id="20666-105">**Monitoring SQL Server store**: Select a SQL Server fully qualified domain name (FQDN) (and, optionally, a named SQL Server instance) from the list.</span></span>
+- <span data-ttu-id="c826e-105">**Хранилище SQL Server** мониторинга: выберите SQL Server полное доменное имя (FQDN) (и, при желании, именуемой SQL Server экземпляр) в списке.</span><span class="sxs-lookup"><span data-stu-id="c826e-105">**Monitoring SQL Server store**: Select a SQL Server fully qualified domain name (FQDN) (and, optionally, a named SQL Server instance) from the list.</span></span>
     
-    <span data-ttu-id="20666-106">Нажмите **кнопку** "Создать", чтобы SQL Server определения FQDN и при желании имя экземпляра для хранения сервера мониторинга.</span><span class="sxs-lookup"><span data-stu-id="20666-106">Click **New** to create a new SQL Server FQDN definition, and optionally, an instance name for the Monitoring Server store.</span></span>
+    <span data-ttu-id="c826e-106">Нажмите **кнопку** "Создать", чтобы SQL Server определения FQDN, а при желании — имя экземпляра для хранения сервера мониторинга.</span><span class="sxs-lookup"><span data-stu-id="c826e-106">Click **New** to create a new SQL Server FQDN definition, and optionally, an instance name for the Monitoring Server store.</span></span>
     
-- <span data-ttu-id="20666-107">Если вы хотите **добавить зеркальное отражение** базы данных для сервера мониторинга, выберите SQL Server включить зеркальное отражение для хранения данных.</span><span class="sxs-lookup"><span data-stu-id="20666-107">Select the **Enable SQL Server store mirroring** check box if you want to add database mirroring for the Monitoring Server.</span></span>
+- <span data-ttu-id="c826e-107">Если вы хотите **добавить зеркальное отражение** базы данных для сервера мониторинга, выберите SQL Server включить зеркальное отражение для хранения данных.</span><span class="sxs-lookup"><span data-stu-id="c826e-107">Select the **Enable SQL Server store mirroring** check box if you want to add database mirroring for the Monitoring Server.</span></span>
     
-    <span data-ttu-id="20666-108">Выберите в списке существующее **Зеркало хранилища данных наблюдения SQL Server**.</span><span class="sxs-lookup"><span data-stu-id="20666-108">Select an existing **Monitoring SQL Server store mirror** from the list.</span></span>
+    <span data-ttu-id="c826e-108">Выберите в списке существующее **Зеркало хранилища данных наблюдения SQL Server**.</span><span class="sxs-lookup"><span data-stu-id="c826e-108">Select an existing **Monitoring SQL Server store mirror** from the list.</span></span>
     
-    <span data-ttu-id="20666-109">Нажмите **кнопку** "Создать", чтобы SQL Server определения FQDN и при желании имя экземпляра для зеркального хранения.</span><span class="sxs-lookup"><span data-stu-id="20666-109">Click **New** to create a new SQL Server FQDN definition, and optionally, an instance name for the mirror store.</span></span>
+    <span data-ttu-id="c826e-109">Нажмите **кнопку** "Создать", чтобы SQL Server определения FQDN, а при желании — имя экземпляра для зеркального хранения.</span><span class="sxs-lookup"><span data-stu-id="c826e-109">Click **New** to create a new SQL Server FQDN definition, and optionally, an instance name for the mirror store.</span></span>
     
-- <span data-ttu-id="20666-110">Если вы выбрали **"Включить зеркальное SQL Server** хранения", при желании выберите "Использовать свидетель зеркального SQL Server", чтобы включить автоматическую отключку, чтобы выбрать в списке SQL Server зеркального зеркального хранения. </span><span class="sxs-lookup"><span data-stu-id="20666-110">If you selected **Enable SQL Server store mirroring**, optionally select **Use SQL Server mirroring witness to enable automatic failover** to select a SQL Server mirroring witness store from the list.</span></span>
+- <span data-ttu-id="c826e-110">Если выбран вариант **"Включить зеркальное SQL Server** хранения", при желании выберите "Использовать свидетель зеркального SQL Server", чтобы включить автоматическую отключку, чтобы выбрать в списке SQL Server зеркального зеркального хранения. </span><span class="sxs-lookup"><span data-stu-id="c826e-110">If you selected **Enable SQL Server store mirroring**, optionally select **Use SQL Server mirroring witness to enable automatic failover** to select a SQL Server mirroring witness store from the list.</span></span>
     
-    <span data-ttu-id="20666-111">Нажмите **кнопку** "Создать", чтобы создать новое SQL Server FQDN и при желании имя экземпляра для зеркального хранения свидетеля.</span><span class="sxs-lookup"><span data-stu-id="20666-111">Click **New** to create a new SQL Server FQDN definition, and optionally, an instance name for the mirroring witness store.</span></span>
+    <span data-ttu-id="c826e-111">Нажмите **кнопку** "Создать", чтобы создать новое SQL Server FQDN и при желании имя экземпляра для зеркального хранения свидетеля.</span><span class="sxs-lookup"><span data-stu-id="c826e-111">Click **New** to create a new SQL Server FQDN definition, and optionally, an instance name for the mirroring witness store.</span></span>
     
-<span data-ttu-id="20666-112">Нажмите кнопку **Назад**, чтобы вернуться в предыдущее диалоговое окно определения пула.</span><span class="sxs-lookup"><span data-stu-id="20666-112">Click **Back** to go back to the previous pool definition dialog.</span></span>
+<span data-ttu-id="c826e-112">Нажмите кнопку **Назад**, чтобы вернуться в предыдущее диалоговое окно определения пула.</span><span class="sxs-lookup"><span data-stu-id="c826e-112">Click **Back** to go back to the previous pool definition dialog.</span></span>
   
-<span data-ttu-id="20666-113">После завершения ввода значений в этом диалоговом окне нажмите кнопку **Далее**, чтобы продолжить настройку.</span><span class="sxs-lookup"><span data-stu-id="20666-113">Click **Next** after you have finished entering the options for this dialog to proceed with the configuration.</span></span>
+<span data-ttu-id="c826e-113">После завершения ввода значений в этом диалоговом окне нажмите кнопку **Далее**, чтобы продолжить настройку.</span><span class="sxs-lookup"><span data-stu-id="c826e-113">Click **Next** after you have finished entering the options for this dialog to proceed with the configuration.</span></span>
   
-<span data-ttu-id="20666-114">Нажмите кнопку **Отмена**, чтобы отменить все изменения и завершить работу мастера.</span><span class="sxs-lookup"><span data-stu-id="20666-114">Click **Cancel** to discard all changes and end the wizard.</span></span>
+<span data-ttu-id="c826e-114">Нажмите кнопку **Отмена**, чтобы отменить все изменения и завершить работу мастера.</span><span class="sxs-lookup"><span data-stu-id="c826e-114">Click **Cancel** to discard all changes and end the wizard.</span></span>
   
-<span data-ttu-id="20666-115">Нажмите кнопку **Справка**, чтобы открыть контекстно-зависимую справку, аналогичную данной странице.</span><span class="sxs-lookup"><span data-stu-id="20666-115">Click **Help** to access context-sensitive help, such as this page.</span></span>
+<span data-ttu-id="c826e-115">Нажмите кнопку **Справка**, чтобы открыть контекстно-зависимую справку, аналогичную данной странице.</span><span class="sxs-lookup"><span data-stu-id="c826e-115">Click **Help** to access context-sensitive help, such as this page.</span></span>
   
 

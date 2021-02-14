@@ -22,40 +22,40 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49807329"
 ---
-# <a name="device-configuration"></a><span data-ttu-id="e6329-104">Конфигурация устройств</span><span class="sxs-lookup"><span data-stu-id="e6329-104">Device Configuration</span></span>
+# <a name="device-configuration"></a><span data-ttu-id="0b19b-104">Конфигурация устройств</span><span class="sxs-lookup"><span data-stu-id="0b19b-104">Device Configuration</span></span>
  
-<span data-ttu-id="e6329-105">Конфигурация устройства — это коллекция параметров, используемых для управления устройствами Skype для бизнеса Phone Edition на глобальном уровне или на уровне сайта.</span><span class="sxs-lookup"><span data-stu-id="e6329-105">A device configuration is a collection of settings used to manage Skype for Business Phone Edition devices, either globally or within a site.</span></span> <span data-ttu-id="e6329-106">Эти настройки позволяют настраивать такие параметры, как требуемый режим безопасности, уровень ведения журнала на устройстве, качество обслуживания голосовой связи (QoS), и определять необходимость автоматической блокировки телефонов по истечении заданного периода неактивности.</span><span class="sxs-lookup"><span data-stu-id="e6329-106">These settings enable you to configure such things as the required security mode, device logging level, Voice Quality of Service (QoS) settings, and whether or not phones should automatically lock after a specified period of inactivity.</span></span> 
+<span data-ttu-id="0b19b-105">Конфигурация устройства — это коллекция параметров, используемых для управления устройствами Skype для бизнеса Phone Edition на глобальном уровне или на уровне сайта.</span><span class="sxs-lookup"><span data-stu-id="0b19b-105">A device configuration is a collection of settings used to manage Skype for Business Phone Edition devices, either globally or within a site.</span></span> <span data-ttu-id="0b19b-106">Эти настройки позволяют настраивать такие параметры, как требуемый режим безопасности, уровень ведения журнала на устройстве, качество обслуживания голосовой связи (QoS), и определять необходимость автоматической блокировки телефонов по истечении заданного периода неактивности.</span><span class="sxs-lookup"><span data-stu-id="0b19b-106">These settings enable you to configure such things as the required security mode, device logging level, Voice Quality of Service (QoS) settings, and whether or not phones should automatically lock after a specified period of inactivity.</span></span> 
   
-## <a name="tasks-you-can-perform"></a><span data-ttu-id="e6329-107">Задачи, которые вы можете выполнить</span><span class="sxs-lookup"><span data-stu-id="e6329-107">Tasks you can perform</span></span>
+## <a name="tasks-you-can-perform"></a><span data-ttu-id="0b19b-107">Задачи, которые вы можете выполнить</span><span class="sxs-lookup"><span data-stu-id="0b19b-107">Tasks you can perform</span></span>
 
-<span data-ttu-id="e6329-108">На странице **Настройки устройств** можно выполнить следующие задачи:</span><span class="sxs-lookup"><span data-stu-id="e6329-108">You can perform the following tasks on the **Device Configuration** page:</span></span>
+<span data-ttu-id="0b19b-108">На странице **Настройки устройств** можно выполнить следующие задачи:</span><span class="sxs-lookup"><span data-stu-id="0b19b-108">You can perform the following tasks on the **Device Configuration** page:</span></span>
   
-- <span data-ttu-id="e6329-109">добавить настройку устройства на глобальном уровне или для отдельного сайта;</span><span class="sxs-lookup"><span data-stu-id="e6329-109">Add a device configuration globally or for a particular site.</span></span>
+- <span data-ttu-id="0b19b-109">добавить настройку устройства на глобальном уровне или для отдельного сайта;</span><span class="sxs-lookup"><span data-stu-id="0b19b-109">Add a device configuration globally or for a particular site.</span></span>
     
-- <span data-ttu-id="e6329-110">изменить значения для существующей настройки устройства.</span><span class="sxs-lookup"><span data-stu-id="e6329-110">Modify the options for an existing device configuration.</span></span>
+- <span data-ttu-id="0b19b-110">изменить значения для существующей настройки устройства.</span><span class="sxs-lookup"><span data-stu-id="0b19b-110">Modify the options for an existing device configuration.</span></span>
     
-## <a name="ui-reference"></a><span data-ttu-id="e6329-111">Ссылка на пользовательский интерфейс</span><span class="sxs-lookup"><span data-stu-id="e6329-111">UI Reference</span></span>
+## <a name="ui-reference"></a><span data-ttu-id="0b19b-111">Ссылка на пользовательский интерфейс</span><span class="sxs-lookup"><span data-stu-id="0b19b-111">UI Reference</span></span>
 
-<span data-ttu-id="e6329-112">В следующих списках описываются меню, команды, поля и свойства на этой странице.</span><span class="sxs-lookup"><span data-stu-id="e6329-112">The following lists describe the menus, commands, fields, and properties on the page.</span></span>
+<span data-ttu-id="0b19b-112">В следующих списках описываются меню, команды, поля и свойства на этой странице.</span><span class="sxs-lookup"><span data-stu-id="0b19b-112">The following lists describe the menus, commands, fields, and properties on the page.</span></span>
   
-- <span data-ttu-id="e6329-113">**Новый** Вы можете добавить новую конфигурацию устройства со следующей областью:</span><span class="sxs-lookup"><span data-stu-id="e6329-113">**New** You can add a new device configuration with the following scope:</span></span>
+- <span data-ttu-id="0b19b-113">**Новый** Вы можете добавить новую конфигурацию устройства со следующей областью:</span><span class="sxs-lookup"><span data-stu-id="0b19b-113">**New** You can add a new device configuration with the following scope:</span></span>
     
-  - <span data-ttu-id="e6329-114">Глобальные</span><span class="sxs-lookup"><span data-stu-id="e6329-114">Global</span></span>
+  - <span data-ttu-id="0b19b-114">Глобальные</span><span class="sxs-lookup"><span data-stu-id="0b19b-114">Global</span></span>
     
-  - <span data-ttu-id="e6329-115">Site</span><span class="sxs-lookup"><span data-stu-id="e6329-115">Site</span></span>
+  - <span data-ttu-id="0b19b-115">Site</span><span class="sxs-lookup"><span data-stu-id="0b19b-115">Site</span></span>
     
-- <span data-ttu-id="e6329-116">**Правка** В списке можно изменить параметры конфигурации устройства.</span><span class="sxs-lookup"><span data-stu-id="e6329-116">**Edit** You can change the options of a device configuration in the list.</span></span> <span data-ttu-id="e6329-117">С помощью этой команды можно выполнить следующие действия:</span><span class="sxs-lookup"><span data-stu-id="e6329-117">Using this option, you can do the following:</span></span>
+- <span data-ttu-id="0b19b-116">**Правка** В списке можно изменить параметры конфигурации устройства.</span><span class="sxs-lookup"><span data-stu-id="0b19b-116">**Edit** You can change the options of a device configuration in the list.</span></span> <span data-ttu-id="0b19b-117">С помощью этой команды можно выполнить следующие действия:</span><span class="sxs-lookup"><span data-stu-id="0b19b-117">Using this option, you can do the following:</span></span>
     
-  - <span data-ttu-id="e6329-118">**Показать подробности** Этот параметр открывает диалоговое окно, в котором можно изменить параметры конфигурации устройства.</span><span class="sxs-lookup"><span data-stu-id="e6329-118">**Show details** This option opens a dialog box in which you can change the options for a device configuration.</span></span>
+  - <span data-ttu-id="0b19b-118">**Показать подробности** Этот параметр открывает диалоговое окно, в котором можно изменить параметры конфигурации устройства.</span><span class="sxs-lookup"><span data-stu-id="0b19b-118">**Show details** This option opens a dialog box in which you can change the options for a device configuration.</span></span>
     
-  - <span data-ttu-id="e6329-119">**Выбрать все** Этот параметр выбирает все конфигурации устройств в списке.</span><span class="sxs-lookup"><span data-stu-id="e6329-119">**Select All** This option selects all device configurations in the list.</span></span>
+  - <span data-ttu-id="0b19b-119">**Выбрать все** Этот параметр выбирает все конфигурации устройств в списке.</span><span class="sxs-lookup"><span data-stu-id="0b19b-119">**Select All** This option selects all device configurations in the list.</span></span>
     
-  - <span data-ttu-id="e6329-120">**Delete** Этот параметр удаляет все выбранные конфигурации устройств.</span><span class="sxs-lookup"><span data-stu-id="e6329-120">**Delete** This option deletes all selected device configurations.</span></span>
+  - <span data-ttu-id="0b19b-120">**Delete** Этот параметр удаляет все выбранные конфигурации устройств.</span><span class="sxs-lookup"><span data-stu-id="0b19b-120">**Delete** This option deletes all selected device configurations.</span></span>
     
-- <span data-ttu-id="e6329-121">**Обновление** Вы можете обновить список конфигураций устройств, чтобы проверить состояние параметров всех конфигураций устройств.</span><span class="sxs-lookup"><span data-stu-id="e6329-121">**Refresh** You can refresh the device configuration list to verify the status of the options of all device configurations.</span></span>
+- <span data-ttu-id="0b19b-121">**Обновление** Вы можете обновить список конфигураций устройств, чтобы проверить состояние параметров всех конфигураций устройств.</span><span class="sxs-lookup"><span data-stu-id="0b19b-121">**Refresh** You can refresh the device configuration list to verify the status of the options of all device configurations.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="e6329-122">См. также</span><span class="sxs-lookup"><span data-stu-id="e6329-122">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="0b19b-122">См. также</span><span class="sxs-lookup"><span data-stu-id="0b19b-122">See also</span></span>
 
-[<span data-ttu-id="e6329-123">Конфигурация устройств: создание новой или редактирование существующей</span><span class="sxs-lookup"><span data-stu-id="e6329-123">Device Configuration: Create New or Edit Existing</span></span>](device-configuration-create-new-or-edit-existing.md)
+[<span data-ttu-id="0b19b-123">Конфигурация устройств: создание новой или редактирование существующей</span><span class="sxs-lookup"><span data-stu-id="0b19b-123">Device Configuration: Create New or Edit Existing</span></span>](device-configuration-create-new-or-edit-existing.md)
 
-[<span data-ttu-id="e6329-124">Set-CsUCPhoneConfiguration</span><span class="sxs-lookup"><span data-stu-id="e6329-124">Set-CsUCPhoneConfiguration</span></span>](https://docs.microsoft.com/powershell/module/skype/set-csucphoneconfiguration?view=skype-ps)
+[<span data-ttu-id="0b19b-124">Set-CsUCPhoneConfiguration</span><span class="sxs-lookup"><span data-stu-id="0b19b-124">Set-CsUCPhoneConfiguration</span></span>](https://docs.microsoft.com/powershell/module/skype/set-csucphoneconfiguration?view=skype-ps)

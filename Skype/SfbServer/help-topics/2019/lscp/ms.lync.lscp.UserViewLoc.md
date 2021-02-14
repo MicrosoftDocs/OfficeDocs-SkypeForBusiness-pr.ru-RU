@@ -22,11 +22,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49808119"
 ---
-# <a name="users-view-or-configure-location-policy"></a><span data-ttu-id="e545f-104">Пользователи: просмотр или настройка политики определения местонахождения</span><span class="sxs-lookup"><span data-stu-id="e545f-104">Users: View or Configure Location Policy</span></span>
+# <a name="users-view-or-configure-location-policy"></a><span data-ttu-id="0cf86-104">Пользователи: просмотр или настройка политики определения местонахождения</span><span class="sxs-lookup"><span data-stu-id="0cf86-104">Users: View or Configure Location Policy</span></span>
 
-<span data-ttu-id="e545f-105">Что нужно сделать</span><span class="sxs-lookup"><span data-stu-id="e545f-105">What do you want to do?</span></span> <span data-ttu-id="e545f-106">Щелкните ссылку на задачу, которую необходимо выполнить.</span><span class="sxs-lookup"><span data-stu-id="e545f-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="0cf86-105">Что нужно сделать</span><span class="sxs-lookup"><span data-stu-id="0cf86-105">What do you want to do?</span></span> <span data-ttu-id="0cf86-106">Щелкните ссылку на задачу, которую необходимо выполнить.</span><span class="sxs-lookup"><span data-stu-id="0cf86-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="e545f-107">Назначение политики расположения пользователю</span><span class="sxs-lookup"><span data-stu-id="e545f-107">Assign a Location Policy to a User</span></span>](https://technet.microsoft.com/library/343f2de3-a0ae-4403-8456-6e520b579d32.aspx)
+- [<span data-ttu-id="0cf86-107">Назначение политики расположения пользователю</span><span class="sxs-lookup"><span data-stu-id="0cf86-107">Assign a Location Policy to a User</span></span>](https://technet.microsoft.com/library/343f2de3-a0ae-4403-8456-6e520b579d32.aspx)
 
 
 

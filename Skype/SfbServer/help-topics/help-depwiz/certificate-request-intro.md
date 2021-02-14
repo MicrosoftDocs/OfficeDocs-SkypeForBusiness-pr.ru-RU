@@ -22,8 +22,8 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49805279"
 ---
-# <a name="certificate-request-intro"></a><span data-ttu-id="4138a-104">Запрос сертификата (введение)</span><span class="sxs-lookup"><span data-stu-id="4138a-104">Certificate Request (Intro)</span></span>
+# <a name="certificate-request-intro"></a><span data-ttu-id="a2b19-104">Запрос сертификата (введение)</span><span class="sxs-lookup"><span data-stu-id="a2b19-104">Certificate Request (Intro)</span></span>
  
-<span data-ttu-id="4138a-p102">Чтобы продолжить процесс запроса сертификата, нажмите кнопку **Далее**. Чтобы завершить процесс без внесения изменений в систему, нажмите кнопку **Отмена**.</span><span class="sxs-lookup"><span data-stu-id="4138a-p102">To continue with the certificate request process, click **Next**. To exit the process with no changes to the system, click **Cancel**.</span></span>
+<span data-ttu-id="a2b19-p102">Чтобы продолжить процесс запроса сертификата, нажмите кнопку **Далее**. Чтобы завершить процесс без внесения изменений в систему, нажмите кнопку **Отмена**.</span><span class="sxs-lookup"><span data-stu-id="a2b19-p102">To continue with the certificate request process, click **Next**. To exit the process with no changes to the system, click **Cancel**.</span></span>
   
 

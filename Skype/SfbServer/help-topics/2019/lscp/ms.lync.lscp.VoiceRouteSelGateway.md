@@ -22,12 +22,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49807859"
 ---
-# <a name="select-trunk"></a><span data-ttu-id="4351e-103">Выбор магистральной линии связи</span><span class="sxs-lookup"><span data-stu-id="4351e-103">Select Trunk</span></span>
+# <a name="select-trunk"></a><span data-ttu-id="5d5f6-103">Выбор магистральной линии связи</span><span class="sxs-lookup"><span data-stu-id="5d5f6-103">Select Trunk</span></span>
  
-<span data-ttu-id="4351e-104">Используйте диалоговое окно **Выберите магистральную линию связи** для поиска существующей пригодной для использования магистральной линии связи.</span><span class="sxs-lookup"><span data-stu-id="4351e-104">Use the **Select Trunk** dialog box to find an existing trunk that you can use.</span></span>
+<span data-ttu-id="5d5f6-104">Используйте диалоговое окно **Выберите магистральную линию связи** для поиска существующей пригодной для использования магистральной линии связи.</span><span class="sxs-lookup"><span data-stu-id="5d5f6-104">Use the **Select Trunk** dialog box to find an existing trunk that you can use.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="4351e-105">Чтобы получить все доступные магистральные линии связи, ничего не вводите в поле поиска и нажмите значок поиска.</span><span class="sxs-lookup"><span data-stu-id="4351e-105">To retrieve all available trunks, do not type anything in the search box, and then click the search icon.</span></span> 
+> <span data-ttu-id="5d5f6-105">Чтобы получить все доступные магистральные линии связи, ничего не вводите в поле поиска и нажмите значок поиска.</span><span class="sxs-lookup"><span data-stu-id="5d5f6-105">To retrieve all available trunks, do not type anything in the search box, and then click the search icon.</span></span> 
   
  
   

@@ -22,8 +22,8 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49805729"
 ---
-# <a name="legacy-merge-add-machine"></a><span data-ttu-id="692ec-103">Добавление компьютера при объединении с устаревшей версией</span><span class="sxs-lookup"><span data-stu-id="692ec-103">Legacy Merge Add Machine</span></span>
+# <a name="legacy-merge-add-machine"></a><span data-ttu-id="b1f51-103">Добавление компьютера при объединении с устаревшей версией</span><span class="sxs-lookup"><span data-stu-id="b1f51-103">Legacy Merge Add Machine</span></span>
  
-<span data-ttu-id="692ec-104">Чтобы определить компьютеры, в которые входит пул edge Server, введите полное доменное имя хотя бы одного компьютера, который является частью устаревшего консолидированного пула с балансой нагрузки.</span><span class="sxs-lookup"><span data-stu-id="692ec-104">To define the computers that make up the Edge Server pool, enter the fully qualified domain name (FQDN) of at least one computer that is part of the legacy load-balanced, consolidated Edge pool.</span></span> 
+<span data-ttu-id="b1f51-104">Чтобы определить компьютеры, которые составляют пул серверов, введите полное доменное имя хотя бы одного компьютера, который является частью устаревшего консолидированного пула с балансой нагрузки.</span><span class="sxs-lookup"><span data-stu-id="b1f51-104">To define the computers that make up the Edge Server pool, enter the fully qualified domain name (FQDN) of at least one computer that is part of the legacy load-balanced, consolidated Edge pool.</span></span> 
   
 

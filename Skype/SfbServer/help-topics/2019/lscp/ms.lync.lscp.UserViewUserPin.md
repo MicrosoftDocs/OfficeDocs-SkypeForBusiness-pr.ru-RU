@@ -22,11 +22,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49807999"
 ---
-# <a name="users-view-or-configure-pin-policy"></a><span data-ttu-id="1ad50-104">Пользователи: просмотр или настройка политики ПИН-кодов</span><span class="sxs-lookup"><span data-stu-id="1ad50-104">Users: View or Configure PIN Policy</span></span>
+# <a name="users-view-or-configure-pin-policy"></a><span data-ttu-id="5647c-104">Пользователи: просмотр или настройка политики ПИН-кодов</span><span class="sxs-lookup"><span data-stu-id="5647c-104">Users: View or Configure PIN Policy</span></span>
  
-<span data-ttu-id="1ad50-105">Что нужно сделать</span><span class="sxs-lookup"><span data-stu-id="1ad50-105">What do you want to do?</span></span> <span data-ttu-id="1ad50-106">Щелкните ссылку на задачу, которую необходимо выполнить.</span><span class="sxs-lookup"><span data-stu-id="1ad50-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="5647c-105">Что нужно сделать</span><span class="sxs-lookup"><span data-stu-id="5647c-105">What do you want to do?</span></span> <span data-ttu-id="5647c-106">Щелкните ссылку на задачу, которую необходимо выполнить.</span><span class="sxs-lookup"><span data-stu-id="5647c-106">Click the link to the task that you want to perform.</span></span>
   
-- [<span data-ttu-id="1ad50-107">Set a user's dial-in conferencing PIN in Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="1ad50-107">Set a user's dial-in conferencing PIN in Skype for Business Server</span></span>](../../../manage/authentication/set-a-user-s-dial-in-conferencing-pin.md)
+- [<span data-ttu-id="5647c-107">Set a user's dial-in conferencing PIN in Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="5647c-107">Set a user's dial-in conferencing PIN in Skype for Business Server</span></span>](../../../manage/authentication/set-a-user-s-dial-in-conferencing-pin.md)
     
  
 

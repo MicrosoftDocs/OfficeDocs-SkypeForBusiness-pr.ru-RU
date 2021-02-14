@@ -22,8 +22,8 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49807599"
 ---
-# <a name="add-site-name"></a><span data-ttu-id="bfcc8-104">Добавление имени сайта</span><span class="sxs-lookup"><span data-stu-id="bfcc8-104">Add Site Name</span></span>
+# <a name="add-site-name"></a><span data-ttu-id="f47bd-104">Добавление имени сайта</span><span class="sxs-lookup"><span data-stu-id="f47bd-104">Add Site Name</span></span>
  
-<span data-ttu-id="bfcc8-p102">Чтобы определить первый сайт в развертывании, укажите имя первого сайта. Дополнительно можно указать описание первого сайта.</span><span class="sxs-lookup"><span data-stu-id="bfcc8-p102">To define the first site in your deployment, specify the name of the first site. Optionally, you can specify a description for the first site.</span></span>
+<span data-ttu-id="f47bd-p102">Чтобы определить первый сайт в развертывании, укажите имя первого сайта. Дополнительно можно указать описание первого сайта.</span><span class="sxs-lookup"><span data-stu-id="f47bd-p102">To define the first site in your deployment, specify the name of the first site. Optionally, you can specify a description for the first site.</span></span>
   
 

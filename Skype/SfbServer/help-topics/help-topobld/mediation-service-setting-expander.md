@@ -22,8 +22,8 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49806679"
 ---
-# <a name="mediation-service-setting-expander"></a><span data-ttu-id="d11b5-103">Расширитель параметров службы посредника</span><span class="sxs-lookup"><span data-stu-id="d11b5-103">Mediation Service Setting Expander</span></span>
+# <a name="mediation-service-setting-expander"></a><span data-ttu-id="2221f-103">Расширитель параметров службы посредника</span><span class="sxs-lookup"><span data-stu-id="2221f-103">Mediation Service Setting Expander</span></span>
  
-<span data-ttu-id="d11b5-104">Используйте эту страницу для определения портов прослушивания на этом сервере-посреднике, а также для определения связи со шлюзами в ТСОП.</span><span class="sxs-lookup"><span data-stu-id="d11b5-104">Use this page to set the listening ports for this Mediation Server, and set its associations with public switched telephone network (PSTN) gateways.</span></span> 
+<span data-ttu-id="2221f-104">Используйте эту страницу для определения портов прослушивания на этом сервере-посреднике, а также для определения связи со шлюзами в ТСОП.</span><span class="sxs-lookup"><span data-stu-id="2221f-104">Use this page to set the listening ports for this Mediation Server, and set its associations with public switched telephone network (PSTN) gateways.</span></span> 
   
 

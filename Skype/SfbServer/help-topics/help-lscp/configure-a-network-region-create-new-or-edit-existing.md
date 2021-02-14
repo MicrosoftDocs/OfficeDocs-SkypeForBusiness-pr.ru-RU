@@ -22,11 +22,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49807339"
 ---
-# <a name="configure-a-network-region-create-new-or-edit-existing"></a><span data-ttu-id="661fd-104">Настройка области сети: создание новых или редактирование существующих</span><span class="sxs-lookup"><span data-stu-id="661fd-104">Configure a Network Region: Create New or Edit Existing</span></span>
+# <a name="configure-a-network-region-create-new-or-edit-existing"></a><span data-ttu-id="8bdab-104">Настройка области сети: создание новых или редактирование существующих</span><span class="sxs-lookup"><span data-stu-id="8bdab-104">Configure a Network Region: Create New or Edit Existing</span></span>
 
-<span data-ttu-id="661fd-105">Что нужно сделать</span><span class="sxs-lookup"><span data-stu-id="661fd-105">What do you want to do?</span></span> <span data-ttu-id="661fd-106">Щелкните ссылку на задачу, которую необходимо выполнить.</span><span class="sxs-lookup"><span data-stu-id="661fd-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="8bdab-105">Что нужно сделать</span><span class="sxs-lookup"><span data-stu-id="8bdab-105">What do you want to do?</span></span> <span data-ttu-id="8bdab-106">Щелкните ссылку на задачу, которую необходимо выполнить.</span><span class="sxs-lookup"><span data-stu-id="8bdab-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="661fd-107">Настройка областей сети</span><span class="sxs-lookup"><span data-stu-id="661fd-107">Configuring Network Regions</span></span>](https://technet.microsoft.com/library/bd08bb66-5976-4ece-b45c-7de19569f814.aspx)
+- [<span data-ttu-id="8bdab-107">Настройка областей сети</span><span class="sxs-lookup"><span data-stu-id="8bdab-107">Configuring Network Regions</span></span>](https://technet.microsoft.com/library/bd08bb66-5976-4ece-b45c-7de19569f814.aspx)
 
-<span data-ttu-id="661fd-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="661fd-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="8bdab-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="8bdab-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
 

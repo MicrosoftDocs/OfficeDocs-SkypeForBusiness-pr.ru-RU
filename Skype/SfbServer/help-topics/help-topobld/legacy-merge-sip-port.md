@@ -22,10 +22,10 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49806799"
 ---
-# <a name="legacy-merge-sip-port"></a><span data-ttu-id="da515-104">Порт SIP для объединения с устаревшей версией</span><span class="sxs-lookup"><span data-stu-id="da515-104">Legacy Merge SIP Port</span></span>
+# <a name="legacy-merge-sip-port"></a><span data-ttu-id="edc6f-104">Порт SIP для объединения с устаревшей версией</span><span class="sxs-lookup"><span data-stu-id="edc6f-104">Legacy Merge SIP Port</span></span>
  
-<span data-ttu-id="da515-p102">По умолчанию для связи с клиентами, устаревшими интерфейсными пулами и серверами используется TCP-порт SIP 5061. Если значение по умолчанию не использовалось, выберите **Порт SIP для всех пулов и серверов:** и введите новое значение.</span><span class="sxs-lookup"><span data-stu-id="da515-p102">The default Transmission Control Protocol (TCP) SIP port for communicating with clients, legacy Front End pools, and servers is 5061. If the default value was not used, select **SIP port for all pools and servers:** and enter the new value.</span></span>
+<span data-ttu-id="edc6f-p102">По умолчанию для связи с клиентами, устаревшими интерфейсными пулами и серверами используется TCP-порт SIP 5061. Если значение по умолчанию не использовалось, выберите **Порт SIP для всех пулов и серверов:** и введите новое значение.</span><span class="sxs-lookup"><span data-stu-id="edc6f-p102">The default Transmission Control Protocol (TCP) SIP port for communicating with clients, legacy Front End pools, and servers is 5061. If the default value was not used, select **SIP port for all pools and servers:** and enter the new value.</span></span>
   
-<span data-ttu-id="da515-107">Если в устаревшем развертывании настроен автоматический вход клиента, выберите автоматическое обнаружение **конфигурации порта SIP** для каждого пула и нажмите кнопку "Далее", чтобы продолжить. </span><span class="sxs-lookup"><span data-stu-id="da515-107">If your legacy deployment is configured for Automatic Client sign-in, select **Automatic discovery of SIP port configuration for each pool** and click **Next** to continue.</span></span>
+<span data-ttu-id="edc6f-107">Если в устаревшем развертывании настроен автоматический вход клиента, выберите автоматическое обнаружение **конфигурации порта SIP** для каждого пула и нажмите кнопку "Далее", чтобы продолжить. </span><span class="sxs-lookup"><span data-stu-id="edc6f-107">If your legacy deployment is configured for Automatic Client sign-in, select **Automatic discovery of SIP port configuration for each pool** and click **Next** to continue.</span></span>
   
 

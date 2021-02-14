@@ -22,11 +22,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49807359"
 ---
-# <a name="configure-a-network-region-link-create-new-or-edit-existing"></a><span data-ttu-id="5d0fb-104">Настройка связи области сети: создание новых или редактирование существующих</span><span class="sxs-lookup"><span data-stu-id="5d0fb-104">Configure a Network Region Link: Create New or Edit Existing</span></span>
+# <a name="configure-a-network-region-link-create-new-or-edit-existing"></a><span data-ttu-id="ba5ab-104">Настройка связи области сети: создание новых или редактирование существующих</span><span class="sxs-lookup"><span data-stu-id="ba5ab-104">Configure a Network Region Link: Create New or Edit Existing</span></span>
 
-<span data-ttu-id="5d0fb-105">Что нужно сделать</span><span class="sxs-lookup"><span data-stu-id="5d0fb-105">What do you want to do?</span></span> <span data-ttu-id="5d0fb-106">Щелкните ссылку на задачу, которую необходимо выполнить.</span><span class="sxs-lookup"><span data-stu-id="5d0fb-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="ba5ab-105">Что нужно сделать</span><span class="sxs-lookup"><span data-stu-id="ba5ab-105">What do you want to do?</span></span> <span data-ttu-id="ba5ab-106">Щелкните ссылку на задачу, которую необходимо выполнить.</span><span class="sxs-lookup"><span data-stu-id="ba5ab-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="5d0fb-107">Настройка связей между сетевыми областями</span><span class="sxs-lookup"><span data-stu-id="5d0fb-107">Configuring Network Region Links</span></span>](https://technet.microsoft.com/library/952bc93e-e6aa-4539-85c7-2b15f14eb382.aspx)
+- [<span data-ttu-id="ba5ab-107">Настройка связей между сетевыми областями</span><span class="sxs-lookup"><span data-stu-id="ba5ab-107">Configuring Network Region Links</span></span>](https://technet.microsoft.com/library/952bc93e-e6aa-4539-85c7-2b15f14eb382.aspx)
 
-<span data-ttu-id="5d0fb-108">Подробные сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнеса Server, см. в под управлением Skype для бизнеса [Server 2015.](../../manage/manage.md)</span><span class="sxs-lookup"><span data-stu-id="5d0fb-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="ba5ab-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="ba5ab-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
 

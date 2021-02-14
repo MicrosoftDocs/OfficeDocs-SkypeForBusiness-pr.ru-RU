@@ -22,8 +22,8 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49804979"
 ---
-# <a name="prepare-current-domain-intro"></a><span data-ttu-id="a7ef6-104">Подготовка текущего домена (введение)</span><span class="sxs-lookup"><span data-stu-id="a7ef6-104">Prepare Current Domain (Intro)</span></span>
+# <a name="prepare-current-domain-intro"></a><span data-ttu-id="b9ed4-104">Подготовка текущего домена (введение)</span><span class="sxs-lookup"><span data-stu-id="b9ed4-104">Prepare Current Domain (Intro)</span></span>
  
-<span data-ttu-id="a7ef6-105">На **странице "Подготовка** домена" начинается процесс подготовки домена для Skype для бизнеса Server 2015.</span><span class="sxs-lookup"><span data-stu-id="a7ef6-105">The **Prepare Domain** page begins the process of preparing the domain for Skype for Business Server 2015.</span></span> <span data-ttu-id="a7ef6-106">Чтобы начать подготовку домена, нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="a7ef6-106">Click **Next** to begin preparing the domain.</span></span>
+<span data-ttu-id="b9ed4-105">На **странице "Подготовка** домена" начинается процесс подготовки домена для Skype для бизнеса Server 2015.</span><span class="sxs-lookup"><span data-stu-id="b9ed4-105">The **Prepare Domain** page begins the process of preparing the domain for Skype for Business Server 2015.</span></span> <span data-ttu-id="b9ed4-106">Чтобы начать подготовку домена, нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="b9ed4-106">Click **Next** to begin preparing the domain.</span></span>
   
 
