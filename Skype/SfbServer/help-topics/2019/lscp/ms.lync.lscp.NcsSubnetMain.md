@@ -22,11 +22,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49808459"
 ---
-# <a name="associate-a-subnet"></a><span data-ttu-id="c650d-104">Связывание подсети</span><span class="sxs-lookup"><span data-stu-id="c650d-104">Associate a Subnet</span></span>
+# <a name="associate-a-subnet"></a><span data-ttu-id="e5a05-104">Связывание подсети</span><span class="sxs-lookup"><span data-stu-id="e5a05-104">Associate a Subnet</span></span>
 
-<span data-ttu-id="c650d-105">Что нужно сделать</span><span class="sxs-lookup"><span data-stu-id="c650d-105">What do you want to do?</span></span> <span data-ttu-id="c650d-106">Щелкните ссылку на задачу, которую необходимо выполнить.</span><span class="sxs-lookup"><span data-stu-id="c650d-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="e5a05-105">Что нужно сделать</span><span class="sxs-lookup"><span data-stu-id="e5a05-105">What do you want to do?</span></span> <span data-ttu-id="e5a05-106">Щелкните ссылку на задачу, которую необходимо выполнить.</span><span class="sxs-lookup"><span data-stu-id="e5a05-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="c650d-107">Настройка сетевых подсетей</span><span class="sxs-lookup"><span data-stu-id="c650d-107">Configuring Network Subnets</span></span>](https://technet.microsoft.com/library/1ba8c4e3-fbc7-4758-88ac-d651fef17bed.aspx)
+- [<span data-ttu-id="e5a05-107">Настройка сетевых подсетей</span><span class="sxs-lookup"><span data-stu-id="e5a05-107">Configuring Network Subnets</span></span>](https://technet.microsoft.com/library/1ba8c4e3-fbc7-4758-88ac-d651fef17bed.aspx)
 
 
 

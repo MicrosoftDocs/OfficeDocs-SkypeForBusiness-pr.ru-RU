@@ -22,12 +22,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49810949"
 ---
-# <a name="dial-in-access-number"></a><span data-ttu-id="d4f8a-104">Номер доступа для телефонного подключения</span><span class="sxs-lookup"><span data-stu-id="d4f8a-104">Dial-in Access Number</span></span>
+# <a name="dial-in-access-number"></a><span data-ttu-id="7df66-104">Номер доступа для телефонного подключения</span><span class="sxs-lookup"><span data-stu-id="7df66-104">Dial-in Access Number</span></span>
 
-<span data-ttu-id="d4f8a-105">Что нужно сделать</span><span class="sxs-lookup"><span data-stu-id="d4f8a-105">What do you want to do?</span></span> <span data-ttu-id="d4f8a-106">Щелкните ссылку на задачу, которую необходимо выполнить.</span><span class="sxs-lookup"><span data-stu-id="d4f8a-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="7df66-105">Что нужно сделать</span><span class="sxs-lookup"><span data-stu-id="7df66-105">What do you want to do?</span></span> <span data-ttu-id="7df66-106">Щелкните ссылку на задачу, которую необходимо выполнить.</span><span class="sxs-lookup"><span data-stu-id="7df66-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="d4f8a-107">Create or Modify a Dial-in Conferencing Access Number</span><span class="sxs-lookup"><span data-stu-id="d4f8a-107">Create or Modify a Dial-in Conferencing Access Number</span></span>](https://technet.microsoft.com/library/06f55c28-57f8-4d4e-8313-9740846796d9.aspx)
+- [<span data-ttu-id="7df66-107">Create or Modify a Dial-in Conferencing Access Number</span><span class="sxs-lookup"><span data-stu-id="7df66-107">Create or Modify a Dial-in Conferencing Access Number</span></span>](https://technet.microsoft.com/library/06f55c28-57f8-4d4e-8313-9740846796d9.aspx)
 
-- [<span data-ttu-id="d4f8a-108">Удаление номера доступа к конференц-связи с телефонным подключением</span><span class="sxs-lookup"><span data-stu-id="d4f8a-108">Delete a Dial-in Conferencing Access Number</span></span>](https://technet.microsoft.com/library/199c5d9c-0489-4ad5-a7f1-ca59fe0e6ac7.aspx)
+- [<span data-ttu-id="7df66-108">Удаление номера доступа к конференц-связи с телефонным подключением</span><span class="sxs-lookup"><span data-stu-id="7df66-108">Delete a Dial-in Conferencing Access Number</span></span>](https://technet.microsoft.com/library/199c5d9c-0489-4ad5-a7f1-ca59fe0e6ac7.aspx)
 
 

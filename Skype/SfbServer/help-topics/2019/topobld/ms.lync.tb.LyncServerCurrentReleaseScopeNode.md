@@ -22,8 +22,8 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49811129"
 ---
-# <a name="skype-for-business-server-create-new-expander"></a><span data-ttu-id="ed6a1-103">Skype для бизнеса Server Create New Expander</span><span class="sxs-lookup"><span data-stu-id="ed6a1-103">Skype for Business Server Create New Expander</span></span>
+# <a name="skype-for-business-server-create-new-expander"></a><span data-ttu-id="dfef0-103">Skype для бизнеса Server Create New Expander</span><span class="sxs-lookup"><span data-stu-id="dfef0-103">Skype for Business Server Create New Expander</span></span>
  
-<span data-ttu-id="ed6a1-104">Вы можете создать новые роли сервера в построитель топологий, щелкнув правой кнопкой мыши Skype для бизнеса **Server,** выбрав "Создать" и выбрав роль сервера для создания.</span><span class="sxs-lookup"><span data-stu-id="ed6a1-104">You can create new server roles in the Topology Builder by right-clicking **Skype for Business Server**, selecting **New**, and selecting the server role to create.</span></span>
+<span data-ttu-id="dfef0-104">Вы можете создать новые роли сервера в построитель топологий, щелкнув правой кнопкой мыши Skype для бизнеса **Server,** выбрав "Создать" и выбрав роль сервера для создания.</span><span class="sxs-lookup"><span data-stu-id="dfef0-104">You can create new server roles in the Topology Builder by right-clicking **Skype for Business Server**, selecting **New**, and selecting the server role to create.</span></span>
   
 

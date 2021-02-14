@@ -22,8 +22,8 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49808699"
 ---
-# <a name="select-languages"></a><span data-ttu-id="849eb-104">Выбор языков</span><span class="sxs-lookup"><span data-stu-id="849eb-104">Select Languages</span></span>
+# <a name="select-languages"></a><span data-ttu-id="5e747-104">Выбор языков</span><span class="sxs-lookup"><span data-stu-id="5e747-104">Select Languages</span></span>
 
-<span data-ttu-id="849eb-105">Выберите языки, которые требуется использовать для номера доступа к конференц-связи с телефонным подключением.</span><span class="sxs-lookup"><span data-stu-id="849eb-105">Select the languages that you want to use for your dial-in conferencing access number.</span></span> <span data-ttu-id="849eb-106">Дополнительные сведения см. в разделе [Create or Modify a Dial-in Conferencing Access Number](https://technet.microsoft.com/library/06f55c28-57f8-4d4e-8313-9740846796d9.aspx).</span><span class="sxs-lookup"><span data-stu-id="849eb-106">For details, see [Create or Modify a Dial-in Conferencing Access Number](https://technet.microsoft.com/library/06f55c28-57f8-4d4e-8313-9740846796d9.aspx).</span></span>
+<span data-ttu-id="5e747-105">Выберите языки, которые требуется использовать для номера доступа к конференц-связи с телефонным подключением.</span><span class="sxs-lookup"><span data-stu-id="5e747-105">Select the languages that you want to use for your dial-in conferencing access number.</span></span> <span data-ttu-id="5e747-106">Дополнительные сведения см. в разделе [Create or Modify a Dial-in Conferencing Access Number](https://technet.microsoft.com/library/06f55c28-57f8-4d4e-8313-9740846796d9.aspx).</span><span class="sxs-lookup"><span data-stu-id="5e747-106">For details, see [Create or Modify a Dial-in Conferencing Access Number](https://technet.microsoft.com/library/06f55c28-57f8-4d4e-8313-9740846796d9.aspx).</span></span>
 
 

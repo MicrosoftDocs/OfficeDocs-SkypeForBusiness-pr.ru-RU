@@ -22,11 +22,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49810339"
 ---
-# <a name="add-survivable-branch-appliance-pool"></a><span data-ttu-id="04c53-104">Добавление пула устройств обеспечения связи в филиалах</span><span class="sxs-lookup"><span data-stu-id="04c53-104">Add Survivable Branch Appliance Pool</span></span>
+# <a name="add-survivable-branch-appliance-pool"></a><span data-ttu-id="205ed-104">Добавление пула устройств обеспечения связи в филиалах</span><span class="sxs-lookup"><span data-stu-id="205ed-104">Add Survivable Branch Appliance Pool</span></span>
  
-<span data-ttu-id="04c53-105">Чтобы определить полное доменное имя устройства для обеспечения обеспечения в филиалах, введите в текстовом поле полное доменное имя (как определено в  системе доменных имен (DNS) устройства или сервера обеспечения обеспечения ветвей в филиалах. </span><span class="sxs-lookup"><span data-stu-id="04c53-105">To **Define the Survivable Branch Appliance FQDN**, type the fully qualified domain name (FQDN) (as defined in Domain Name System (DNS)) of the Survivable Branch Appliance or Survivable Branch Server in the **FQDN** text box.</span></span> <span data-ttu-id="04c53-106">Для продолжения нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="04c53-106">Click **Next** to continue.</span></span>
+<span data-ttu-id="205ed-105">Чтобы определить полное доменное имя устройства для обеспечения обеспечения в филиалах, введите в текстовом поле полное доменное имя (как определено в  системе доменных имен (DNS) устройства или сервера обеспечения обеспечения ветвей в филиалах. </span><span class="sxs-lookup"><span data-stu-id="205ed-105">To **Define the Survivable Branch Appliance FQDN**, type the fully qualified domain name (FQDN) (as defined in Domain Name System (DNS)) of the Survivable Branch Appliance or Survivable Branch Server in the **FQDN** text box.</span></span> <span data-ttu-id="205ed-106">Для продолжения нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="205ed-106">Click **Next** to continue.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="04c53-107">Если не указано иное, определение устройства или сервера для survivable Branch Server является одной и той же процедурой.</span><span class="sxs-lookup"><span data-stu-id="04c53-107">Unless it is stated otherwise, defining a Survivable Branch Appliance or a Survivable Branch Server is the same procedure.</span></span> 
+> <span data-ttu-id="205ed-107">Если не указано иное, определение устройства или сервера для survivable Branch Server является одной и той же процедурой.</span><span class="sxs-lookup"><span data-stu-id="205ed-107">Unless it is stated otherwise, defining a Survivable Branch Appliance or a Survivable Branch Server is the same procedure.</span></span> 
   
 

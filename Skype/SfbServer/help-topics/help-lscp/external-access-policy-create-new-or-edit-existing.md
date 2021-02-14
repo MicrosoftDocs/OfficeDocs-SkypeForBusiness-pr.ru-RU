@@ -22,16 +22,16 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49810929"
 ---
-# <a name="external-access-policy-create-new-or-edit-existing"></a><span data-ttu-id="0d946-104">Политика внешнего доступа: создание новой или редактирование существующей</span><span class="sxs-lookup"><span data-stu-id="0d946-104">External Access Policy: Create New or Edit Existing</span></span>
+# <a name="external-access-policy-create-new-or-edit-existing"></a><span data-ttu-id="35d56-104">Политика внешнего доступа: создание новой или редактирование существующей</span><span class="sxs-lookup"><span data-stu-id="35d56-104">External Access Policy: Create New or Edit Existing</span></span>
 
-<span data-ttu-id="0d946-105">Что нужно сделать</span><span class="sxs-lookup"><span data-stu-id="0d946-105">What do you want to do?</span></span> <span data-ttu-id="0d946-106">Щелкните ссылку на задачу, которую необходимо выполнить.</span><span class="sxs-lookup"><span data-stu-id="0d946-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="35d56-105">Что нужно сделать</span><span class="sxs-lookup"><span data-stu-id="35d56-105">What do you want to do?</span></span> <span data-ttu-id="35d56-106">Щелкните ссылку на задачу, которую необходимо выполнить.</span><span class="sxs-lookup"><span data-stu-id="35d56-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="0d946-107">Сброс или удаление политик доступа внешних пользователей</span><span class="sxs-lookup"><span data-stu-id="0d946-107">Reset or Delete External User Access Policies</span></span>](https://technet.microsoft.com/library/5f9b4528-f4f1-4d52-816d-156c3c7298ad.aspx)
+- [<span data-ttu-id="35d56-107">Сброс или удаление политик доступа внешних пользователей</span><span class="sxs-lookup"><span data-stu-id="35d56-107">Reset or Delete External User Access Policies</span></span>](https://technet.microsoft.com/library/5f9b4528-f4f1-4d52-816d-156c3c7298ad.aspx)
 
-- [<span data-ttu-id="0d946-108">Настройка политик для управления доступом федераированных пользователей</span><span class="sxs-lookup"><span data-stu-id="0d946-108">Configure Policies to Control Federated User Access</span></span>](https://technet.microsoft.com/library/5485e208-81e4-4e59-9aeb-1232c11dd8a2.aspx)
+- [<span data-ttu-id="35d56-108">Настройка политик для управления доступом федераированных пользователей</span><span class="sxs-lookup"><span data-stu-id="35d56-108">Configure Policies to Control Federated User Access</span></span>](https://technet.microsoft.com/library/5485e208-81e4-4e59-9aeb-1232c11dd8a2.aspx)
 
-- [<span data-ttu-id="0d946-109">Управление удаленным доступом пользователей</span><span class="sxs-lookup"><span data-stu-id="0d946-109">Manage Remote User Access</span></span>](https://technet.microsoft.com/library/8f556849-692b-44a0-9514-4468fc9a39d0.aspx)
+- [<span data-ttu-id="35d56-109">Управление удаленным доступом пользователей</span><span class="sxs-lookup"><span data-stu-id="35d56-109">Manage Remote User Access</span></span>](https://technet.microsoft.com/library/8f556849-692b-44a0-9514-4468fc9a39d0.aspx)
 
-- [<span data-ttu-id="0d946-110">Настройка политик для управления доступом пользователей поставщиков услуг im</span><span class="sxs-lookup"><span data-stu-id="0d946-110">Configure Policies to Control Access by Users of IM Service Providers</span></span>](https://technet.microsoft.com/library/5321598c-1ab1-40e3-b739-4b2e6d0a3a3b.aspx)
+- [<span data-ttu-id="35d56-110">Настройка политик для управления доступом пользователей поставщиков услуг im</span><span class="sxs-lookup"><span data-stu-id="35d56-110">Configure Policies to Control Access by Users of IM Service Providers</span></span>](https://technet.microsoft.com/library/5321598c-1ab1-40e3-b739-4b2e6d0a3a3b.aspx)
 
 

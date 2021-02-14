@@ -23,12 +23,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49810569"
 ---
-# <a name="dial-in-conferencing-planning-tool"></a><span data-ttu-id="65e2a-103">Dial-in Conferencing (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="65e2a-103">Dial-in Conferencing (Planning Tool)</span></span>
+# <a name="dial-in-conferencing-planning-tool"></a><span data-ttu-id="42a7b-103">Dial-in Conferencing (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="42a7b-103">Dial-in Conferencing (Planning Tool)</span></span>
  
-<span data-ttu-id="65e2a-104">Конференц-связь с телефонным доступом в Skype для бизнеса Server 2015 позволяет пользователям присоединяться к аудиоконференции Skype для бизнеса Server 2015 с помощью телефона телефонной сети общего звонков (PSTN) без необходимости использования стороннее поставщика аудиоконференции.</span><span class="sxs-lookup"><span data-stu-id="65e2a-104">Skype for Business Server 2015 dial-in conferencing enables users to join the audio portion of a Skype for Business Server 2015 conference by using a public switched telephone network (PSTN) phone without requiring a third-party audio conferencing provider.</span></span>
+<span data-ttu-id="42a7b-104">Конференц-связь с телефонным доступом в Skype для бизнеса Server 2015 позволяет пользователям присоединяться к аудиоконференции Skype для бизнеса Server 2015 с помощью телефона телефонной сети общего звонков (PSTN) без необходимости использования стороннее поставщика аудиоконференции.</span><span class="sxs-lookup"><span data-stu-id="42a7b-104">Skype for Business Server 2015 dial-in conferencing enables users to join the audio portion of a Skype for Business Server 2015 conference by using a public switched telephone network (PSTN) phone without requiring a third-party audio conferencing provider.</span></span>
   
-<span data-ttu-id="65e2a-105">Сведения о планировании включения в организации телефонной связи см. в следующих разделах и разделах, на которые он ссылается:</span><span class="sxs-lookup"><span data-stu-id="65e2a-105">For planning details about enabling dial-in conferencing for your organization, see the following topic and the topics it links to:</span></span> 
+<span data-ttu-id="42a7b-105">Сведения о планировании включения в организации телефонной связи см. в следующих разделах и разделах, на которые он ссылается:</span><span class="sxs-lookup"><span data-stu-id="42a7b-105">For planning details about enabling dial-in conferencing for your organization, see the following topic and the topics it links to:</span></span> 
   
-- [<span data-ttu-id="65e2a-106">Plan for conferencing in Skype for Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="65e2a-106">Plan for conferencing in Skype for Business Server 2015</span></span>](../../plan-your-deployment/conferencing/conferencing.md)
+- [<span data-ttu-id="42a7b-106">Планирование звонков в Skype для бизнеса Server 2015</span><span class="sxs-lookup"><span data-stu-id="42a7b-106">Plan for conferencing in Skype for Business Server 2015</span></span>](../../plan-your-deployment/conferencing/conferencing.md)
     
 

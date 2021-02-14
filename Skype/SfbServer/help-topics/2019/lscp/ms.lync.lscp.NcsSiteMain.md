@@ -22,11 +22,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49808489"
 ---
-# <a name="configure-a-network-site"></a><span data-ttu-id="6573f-104">Настройка сетевого сайта</span><span class="sxs-lookup"><span data-stu-id="6573f-104">Configure a Network Site</span></span>
+# <a name="configure-a-network-site"></a><span data-ttu-id="57872-104">Настройка сетевого сайта</span><span class="sxs-lookup"><span data-stu-id="57872-104">Configure a Network Site</span></span>
 
-<span data-ttu-id="6573f-105">Что нужно сделать</span><span class="sxs-lookup"><span data-stu-id="6573f-105">What do you want to do?</span></span> <span data-ttu-id="6573f-106">Щелкните ссылку на задачу, которую необходимо выполнить.</span><span class="sxs-lookup"><span data-stu-id="6573f-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="57872-105">Что нужно сделать</span><span class="sxs-lookup"><span data-stu-id="57872-105">What do you want to do?</span></span> <span data-ttu-id="57872-106">Щелкните ссылку на задачу, которую необходимо выполнить.</span><span class="sxs-lookup"><span data-stu-id="57872-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="6573f-107">Настройка сетевых сайтов</span><span class="sxs-lookup"><span data-stu-id="6573f-107">Configuring Network Sites</span></span>](https://technet.microsoft.com/library/358aa08a-c5bc-45fc-8017-19e6202f88c5.aspx)
+- [<span data-ttu-id="57872-107">Настройка сетевых сайтов</span><span class="sxs-lookup"><span data-stu-id="57872-107">Configuring Network Sites</span></span>](https://technet.microsoft.com/library/358aa08a-c5bc-45fc-8017-19e6202f88c5.aspx)
 
 
 

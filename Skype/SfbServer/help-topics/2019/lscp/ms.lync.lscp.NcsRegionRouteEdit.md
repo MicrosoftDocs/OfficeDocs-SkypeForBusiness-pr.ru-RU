@@ -22,11 +22,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49808519"
 ---
-# <a name="configure-a-network-region-route-create-new-or-edit-existing"></a><span data-ttu-id="72b89-104">Настройка маршрута области сети: создание новых или редактирование существующих</span><span class="sxs-lookup"><span data-stu-id="72b89-104">Configure a Network Region Route: Create New or Edit Existing</span></span>
+# <a name="configure-a-network-region-route-create-new-or-edit-existing"></a><span data-ttu-id="b8e72-104">Настройка маршрута области сети: создание новых или редактирование существующих</span><span class="sxs-lookup"><span data-stu-id="b8e72-104">Configure a Network Region Route: Create New or Edit Existing</span></span>
 
-<span data-ttu-id="72b89-105">Что нужно сделать</span><span class="sxs-lookup"><span data-stu-id="72b89-105">What do you want to do?</span></span> <span data-ttu-id="72b89-106">Щелкните ссылку на задачу, которую необходимо выполнить.</span><span class="sxs-lookup"><span data-stu-id="72b89-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="b8e72-105">Что нужно сделать</span><span class="sxs-lookup"><span data-stu-id="b8e72-105">What do you want to do?</span></span> <span data-ttu-id="b8e72-106">Щелкните ссылку на задачу, которую необходимо выполнить.</span><span class="sxs-lookup"><span data-stu-id="b8e72-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="72b89-107">Настройка маршрутов между областями сети</span><span class="sxs-lookup"><span data-stu-id="72b89-107">Configuring Network Region Routes</span></span>](https://technet.microsoft.com/library/76993daa-76c2-4cec-8363-de8aebef0145.aspx)
+- [<span data-ttu-id="b8e72-107">Настройка маршрутов между областями сети</span><span class="sxs-lookup"><span data-stu-id="b8e72-107">Configuring Network Region Routes</span></span>](https://technet.microsoft.com/library/76993daa-76c2-4cec-8363-de8aebef0145.aspx)
 
 
 

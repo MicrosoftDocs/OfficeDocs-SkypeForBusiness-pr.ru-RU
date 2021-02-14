@@ -22,12 +22,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49811829"
 ---
-# <a name="add-nexthop-trusted-application-server"></a><span data-ttu-id="99868-103">Добавление сервера доверенных приложений следующего переходв</span><span class="sxs-lookup"><span data-stu-id="99868-103">Add NextHop Trusted Application Server</span></span>
+# <a name="add-nexthop-trusted-application-server"></a><span data-ttu-id="042bf-103">Добавление сервера доверенных приложений следующего переходв</span><span class="sxs-lookup"><span data-stu-id="042bf-103">Add NextHop Trusted Application Server</span></span>
  
-<span data-ttu-id="99868-104">Чтобы задать узел следующего перехода для сервера или пула доверенных приложений, выполните следующие действия.</span><span class="sxs-lookup"><span data-stu-id="99868-104">To set the next hop for the Trusted Applications Server or pool, do the following:</span></span>
+<span data-ttu-id="042bf-104">Чтобы задать узел следующего перехода для сервера или пула доверенных приложений, выполните следующие действия.</span><span class="sxs-lookup"><span data-stu-id="042bf-104">To set the next hop for the Trusted Applications Server or pool, do the following:</span></span>
   
-<span data-ttu-id="99868-105">В раскрывающемся списке **Пул следующего перехода** выберите пул Enterprise Edition или интерфейсный сервер Standard Edition, который должен использоваться пулом доверенных приложений в качестве узла следующего перехода.</span><span class="sxs-lookup"><span data-stu-id="99868-105">In the **Next Hop pool** drop-down list, select the Enterprise Edition pool or Standard Edition Front End Server that you want the Trusted Application pool to use as a next hop.</span></span>
+<span data-ttu-id="042bf-105">В раскрывающемся списке **Пул следующего перехода** выберите пул Enterprise Edition или интерфейсный сервер Standard Edition, который должен использоваться пулом доверенных приложений в качестве узла следующего перехода.</span><span class="sxs-lookup"><span data-stu-id="042bf-105">In the **Next Hop pool** drop-down list, select the Enterprise Edition pool or Standard Edition Front End Server that you want the Trusted Application pool to use as a next hop.</span></span>
   
-<span data-ttu-id="99868-106">Нажмите кнопку **Готово**, чтобы завершить создание пула доверенных приложений.</span><span class="sxs-lookup"><span data-stu-id="99868-106">Click **Finish** to complete the Trusted Application pool creation.</span></span>
+<span data-ttu-id="042bf-106">Нажмите кнопку **Готово**, чтобы завершить создание пула доверенных приложений.</span><span class="sxs-lookup"><span data-stu-id="042bf-106">Click **Finish** to complete the Trusted Application pool creation.</span></span>
   
 
