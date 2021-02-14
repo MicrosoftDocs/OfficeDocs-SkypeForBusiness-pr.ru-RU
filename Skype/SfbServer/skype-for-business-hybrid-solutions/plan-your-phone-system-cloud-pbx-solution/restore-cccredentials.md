@@ -12,7 +12,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: aeca610b-db0a-45cf-95b9-ae9a6bbccb45
-description: Командлет Restore CC-Credential восстанавливает все учетные данные текущего развертывания Skype для бизнеса Cloud Connector Edition.
+description: С помощью Cc-Credentials восстановления восстанавливаются все учетные данные текущего развертывания Skype для бизнеса Cloud Connector Edition.
 ms.openlocfilehash: b2cd35b284bcd7e49aabbaa3055c397915565d09
 ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
@@ -22,9 +22,9 @@ ms.locfileid: "41824245"
 ---
 # <a name="restore-cccredentials"></a>Restore-CcCredentials
  
-Командлет Restore CC-Credential восстанавливает все учетные данные текущего развертывания Skype для бизнеса Cloud Connector Edition. 
+С помощью Cc-Credentials восстановления восстанавливаются все учетные данные текущего развертывания Skype для бизнеса Cloud Connector Edition. 
   
-Этот командлет применим к Skype для бизнеса Cloud Connector Edition 2,1.
+Этот cmdlet применяется к Skype для бизнеса Cloud Connector Edition 2.1.
   
 ```powershell
 Restore-CcCredentials 
@@ -32,7 +32,7 @@ Restore-CcCredentials
 
 ## <a name="detailed-description"></a>Подробное описание
 
-Командлет Restore-Кккредентиалс удаляет все учетные данные и предлагает вам повторно ввести все учетные данные, которые используются для текущего развертывания облачного соединителя Skype для бизнеса.
+Этот Restore-CcCredentials очищает все учетные данные и вам будет предложено повторно ввести все учетные данные, используемые для текущего развертывания Skype для бизнеса Cloud Connector.
   
 ## <a name="parameters"></a>Параметры
 
@@ -40,15 +40,15 @@ Restore-CcCredentials
   
 ## <a name="input-types"></a>Типы входных данных
 
-Отсутствуют. Командлет Restore-Кккредентиалс не поддерживает конвейерный вход.
+Нет. Этот Restore-CcCredentials не принимает конвейерные входные данные.
   
 ## <a name="return-types"></a>Типы возвращаемых данных
 
-Нет. 
+Нет.
   
 ## <a name="example"></a>Пример
 
-В следующем примере восстанавливаются все учетные данные для текущего развертывания облачного соединителя:
+В следующем примере восстанавливаются все учетные данные текущего развертывания Cloud Connector:
   
 ```powershell
     PS C:\>Restore-CcCredentials

@@ -12,7 +12,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 19338a34-1bfb-4787-b057-5e34a333711d
-description: Командлет Start-CcDownload синхронно скачивает части выпуска облачного соединителя Skype для бизнеса и MSI-файл.
+description: The Start-CcDownload cmdlet downloads the Skype for Business Cloud Connector Edition bits and msi file synchronously.
 ms.openlocfilehash: 3298b02fbb792392860f05ebb15a9221b45e47b4
 ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
@@ -22,9 +22,9 @@ ms.locfileid: "41824183"
 ---
 # <a name="start-ccdownload"></a>Start-CcDownload
  
-Командлет Start-CcDownload синхронно скачивает части выпуска облачного соединителя Skype для бизнеса и MSI-файл.
+The Start-CcDownload cmdlet downloads the Skype for Business Cloud Connector Edition bits and msi file synchronously.
   
-В Cloud Connector версии 2.0 и более поздних также можно задать параметр DownloadBitsOnly.
+В Cloud Connector версии 2.0 и более поздних версий можно также указать параметр DownloadBitsOnly.
   
 ```powershell
 Start-CcDownload [[-DownloadUrlRoot] <string>] [-DownloadBitsOnly]  [<CommonParameters>]
@@ -35,7 +35,7 @@ Start-CcDownload [[-DownloadUrlRoot] <string>] [-DownloadBitsOnly]  [<CommonPara
 
 ### <a name="example-1"></a>Пример 1
 
-В следующем примере синхронизирующие биты и MSI-файл загружаются синхронно из общедоступного сайта скачивания облачного соединителя:
+В следующем примере синхронно загружаются биты Cloud Connector и MSI-файл с общего сайта загрузки Cloud Connector:
   
 ```powershell
 Start-CcDownload
@@ -43,7 +43,7 @@ Start-CcDownload
 
 ### <a name="example-2"></a>Пример 2
 
-В следующем примере синхронизирующие биты и MSI-файл загружаются синхронно из закрытого сайта скачивания.
+Следующий пример синхронно скачивает биты Cloud Connector и MSI-файл с частного сайта загрузки:
   
 ```powershell
 Start-CcDownload -DownloadUrlRoot "http://downloadserver/cloudconnector/latest"
@@ -51,7 +51,7 @@ Start-CcDownload -DownloadUrlRoot "http://downloadserver/cloudconnector/latest"
 
 ### <a name="example-3"></a>Пример 3
 
-В третьем примере синхронно скачиваются файлы BITS и MSI Cloud Connector с закрытого сайта для скачивания.
+Третий пример синхронно скачивает биты Cloud Connector и MSI-файл с частного сайта для скачивания.
   
 ```powershell
 Start-CcDownload -DownloadBitsOnly
@@ -60,25 +60,25 @@ Start-CcDownload -DownloadBitsOnly
 ## <a name="detailed-description"></a>Подробное описание
 <a name="DetailedDescription"> </a>
 
-Если на сайте загрузки доступна новая версия, запустите-Ккдовнлоад, чтобы скачать и установить MSI-файл с сайта загрузки, а затем синхронно Скачайте биты из облака. Если новая версия MSI-файла отсутствует, командлет Start-CcDownload скачает только BITS-файл Cloud Connector. Если BITS-файл Cloud Connector уже скачан, командлет Start-CcDownload не выполняется.
+Если на сайте загрузки доступна новая версия, Start-CcDownload скачивает и устанавливает MSI-файл с сайта загрузки, а затем синхронно скачивает биты Cloud Connector. Если новая версия MSI-файла не существует, Start-CcDownload скачать только биты Cloud Connector. Если биты Cloud Connector уже загружены, Start-CcDownload не выполняется.
   
 ## <a name="parameters"></a>Параметры
 <a name="DetailedDescription"> </a>
 
-|**Параметр**|**Обязательный**|**Тип**|**Описание**|
+|**Параметр**|**Required**|**Тип**|**Описание**|
 |:-----|:-----|:-----|:-----|
-|DownloadUrlRoot   <br/> |  Необязательно <br/> |System.String  <br/> | Полный URL-адрес конкретной версии облачного соединителя на закрытом сайте скачивания. Используйте этот параметр с осторожностью, убедитесь, что вы знаете, какую версию облачного соединителя вы скачиваете. <br/> |
-|DownloadBitsOnly   <br/> |Необязательно  <br/> |System.Management.Automation.SwitchParameter  <br/> |Пропустите скачивание и установку MSI-файла с сайта для скачивания. Скачайте только BITS-файл Cloud Connector.  <br/> |
+|DownloadUrlRoot  <br/> | Необязательный <br/> |System.String  <br/> | Полный URL-адрес определенной версии Cloud Connector на частном сайте загрузки. Используйте этот параметр с осторожностью— убедитесь, что вы знаете, какую версию Cloud Connector вы скачиваете. <br/> |
+|DownloadBitsOnly  <br/> |Необязательный  <br/> |System.Management.Automation.SwitchParameter  <br/> |Пропустите этот шаг, чтобы скачать и установить MSI с сайта загрузки, скачайте только биты Cloud Connector.  <br/> |
    
 ## <a name="input-types"></a>Типы входных данных
 <a name="InputTypes"> </a>
 
-Нет. Командлет Start-CcDownload не принимает входные данные по конвейеру.
+Нет. Этот Start-CcDownload не принимает конвейерные входные данные.
   
 ## <a name="return-types"></a>Типы возвращаемых данных
 <a name="ReturnTypes"> </a>
 
-Отсутствуют
+Нет
   
 ## <a name="see-also"></a>См. также
 <a name="ReturnTypes"> </a>

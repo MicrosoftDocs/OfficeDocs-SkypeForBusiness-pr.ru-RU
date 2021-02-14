@@ -12,7 +12,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 461361a0-9aa9-469d-ace0-dc70b95cd4a3
-description: Импорт конфигурации облачного соединителя Skype для бизнеса из локального файла на хост-сервер облачного соединителя.
+description: Импортирует конфигурацию Skype для бизнеса Cloud Connector Edition из локального файла на хост-сервер Cloud Connector.
 ms.openlocfilehash: 626ba52d4d67f99dd67d3d1f91d26d6e6d03f95e
 ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
@@ -22,7 +22,7 @@ ms.locfileid: "41799859"
 ---
 # <a name="import-ccconfiguration"></a>Import-CcConfiguration
  
-Импорт конфигурации облачного соединителя Skype для бизнеса из локального файла на хост-сервер облачного соединителя.
+Импортирует конфигурацию Skype для бизнеса Cloud Connector Edition из локального файла на хост-сервер Cloud Connector.
   
 ```powershell
 Import-CcConfiguration [-Force] [<CommonParameters>]
@@ -33,7 +33,7 @@ Import-CcConfiguration [-Force] [<CommonParameters>]
 
 ### <a name="example-1"></a>Пример 1
 
-В следующем примере копируется Клаудконнектор. ini из каталога устройства в экземпляре облачного соединителя в каталог%Системдриве%\програмдата\клаудконнектор:
+В следующем примере CloudConnector.ini из каталога устройства экземпляра Cloud Connector в каталог %SystemDrive%\ProgramData\CloudConnector:
   
 ```powershell
 Import-CcConfiguration
@@ -42,19 +42,19 @@ Import-CcConfiguration
 ## <a name="detailed-description"></a>Подробное описание
 <a name="Examples"> </a>
 
-Этот командлет копирует Клаудконнектор. ini из каталога управляющего устройства облачного соединителя в каталог%Системдриве%\програмдата\клаудконнектор. Каталог Appliance (устройство) задается с помощью командлета Set-Ккапплианцедиректори. Командлет перезапишет существующий файл в%Системдриве%\програмдата\клаудконнектор. Эта команда применима к Cloud Connector Edition версии 2.0.1 и более поздних версий.
+Этот cmdlet копирует CloudConnector.ini из каталога устройства устройства Cloud Connector в каталог %SystemDrive%\ProgramData\CloudConnector. Каталог устройства указывается с помощью Set-CcApplianceDirectory устройства. Он перезапишет существующий файл в папке %SystemDrive%\ProgramData\CloudConnector. Эта команда применяется к Cloud Connector Edition версии 2.0.1 и более поздних версий.
   
 ## <a name="parameters"></a>Параметры
 <a name="Examples"> </a>
 
-|**Параметр**|**Обязательный**|**Тип**|**Описание**|
+|**Параметр**|**Required**|**Тип**|**Описание**|
 |:-----|:-----|:-----|:-----|
-|Force  <br/> |Необязательно  <br/> |System.Management.Automation.SwitchParameter  <br/> |Перезаписать существующий файл в%Системдриве%\програмдата\клаудконнектор без уведомления.  <br/> |
+|Force  <br/> |Необязательный  <br/> |System.Management.Automation.SwitchParameter  <br/> |Перезаписать существующий файл в папке %SystemDrive%\ProgramData\CloudConnector без уведомления.  <br/> |
    
 ## <a name="input-types"></a>Типы входных данных
 <a name="Examples"> </a>
 
-Нет. Командлет Import-Ккконфигуратион не поддерживает конвейерные входные данные.
+Нет. Этот Import-CcConfiguration не принимает конвейерные входные данные.
   
 ## <a name="return-types"></a>Типы возвращаемых данных
 <a name="Examples"> </a>

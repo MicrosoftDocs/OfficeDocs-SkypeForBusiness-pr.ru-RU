@@ -12,7 +12,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: b2b5aefb-a08d-4bec-9204-76597d413849
-description: Командлет Get-CcCredential возвращает учетные данные текущего развертывания Skype для бизнеса Cloud Connector Edition.
+description: Этот Get-CcCredential возвращает учетные данные текущего развертывания Skype для бизнеса Cloud Connector Edition.
 ms.openlocfilehash: c4e2d47ffc31eb7afef76c710fc93024ce2c593e
 ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
@@ -22,9 +22,9 @@ ms.locfileid: "41800399"
 ---
 # <a name="get-cccredential"></a>Get-CcCredential
  
-Командлет Get-CcCredential возвращает учетные данные текущего развертывания Skype для бизнеса Cloud Connector Edition. 
+Этот Get-CcCredential возвращает учетные данные текущего развертывания Skype для бизнеса Cloud Connector Edition. 
   
-В версии 2,0 и более поздних версиях можно также использовать параметр-Дисплайпассворд, чтобы показать пароли для администратора клиента, Домаинадмин и Вмадмин.
+В версиях 2.0 и более поздних версий можно также использовать параметр -DisplayPassword для отображения паролей для TenantAdmin, DomainAdmin и VMAdmin.
   
 ```powershell
 Get-CcCredential [[-AccountType] <string> {VmAdmin | DomainAdmin | SafeModeAdmin | ExternalCert | TenantAdmin}]
@@ -44,11 +44,11 @@ Get-CcCredential -AccountType DomainAdmin
 ## <a name="detailed-description"></a>Подробное описание
 <a name="DetailedDescription"> </a>
 
-Командлет Get-CcCredential возвращает сведения об учетных данных для указанного типа учетной записи. Эти учетные данные задаются администратором, который выполняет командлеты Register-CcAppliance и Install-CcAppliance при развертывании текущего устройства.  
+Этот Get-CcCredential возвращает учетные данные об указанном типе учетной записи. Эти учетные данные заданы администратором, который запускает Register-CcAppliance и Install-CcAppliance при развертывании текущего устройства. 
   
-Командлет Get-CcCredential возвращает экземпляр объекта System.Management.Automation.PSCredential. Свойство password возвращаемого объекта имеет тип System.Security.SecureString.
+Этот Get-CcCredential возвращает экземпляр объекта System.Management.Automation.PSCredential. Свойство password возвращаемого объекта — System.Security.SecureString.
   
-Если вы хотите получить пароль администратора домена в открытом виде, введите пароль текущей учетной записи для входа на сервере узла, после чего откройте консоль PowerShell от имени администратора и выполните следующий скрипт:
+Если вы хотите получить понятный текст пароля администратора домена, убедитесь, что пароль введен текущей учетной записью входа на сервере хост-сервера, а затем откройте консоль PowerShell от имени администратора и запустите сценарий ниже:
   
 ```powershell
 $cred = Get-CcCredential -AccountType DomainAdmin
@@ -62,19 +62,19 @@ Write-Host $text
 ## <a name="parameters"></a>Параметры
 <a name="DetailedDescription"> </a>
 
-|**Параметр**|**Обязательный**|**Тип**|**Описание**|
+|**Параметр**|**Required**|**Тип**|**Описание**|
 |:-----|:-----|:-----|:-----|
-| AccountType <br/> |Обязательный  <br/> | System.String <br/> | Параметр AccountType может иметь следующие значения. <br/>  Вмадмин: локальный администратор виртуальных машин облачного соединителя. <br/>  DomainAdmin. Администратор домена виртуальных машин Cloud Connector. <br/>  SafeModeAdmin. Администратор безопасного режима для контроллера домена виртуальных машин Cloud Connector. <br/>  ExternalCert. Учетная запись для внешнего сертификата, установленного на пограничном сервере. <br/>  TenantAdmin. Администратор клиента O365. <br/> |
+| AccountType <br/> |Обязательный  <br/> | System.String <br/> | Значение AccountType может быть одним из следующих значений: <br/>  VmAdmin: локальный администратор виртуальных машин Cloud Connector. <br/>  DomainAdmin: администратор домена виртуальной машины Cloud Connector. <br/>  SafeModeAdmin: SafeModeAdmin контроллера домена виртуальной машины Cloud Connector. <br/>  ExternalCert: учетная запись внешнего сертификата, установленного на edge Server. <br/>  TenantAdmin: администратор клиента O365. <br/> |
    
 ## <a name="input-types"></a>Типы входных данных
 <a name="InputTypes"> </a>
 
-Нет. Командлет Get-CcCredential не принимает входные данные по конвейеру.
+Нет. Этот Get-CcCredential не принимает конвейерные входные данные.
   
 ## <a name="return-types"></a>Типы возвращаемых данных
 <a name="ReturnTypes"> </a>
 
-Командлет Get-CcCredential возвращает экземпляр объекта System.Management.Automation.PSCredential.
+Этот Get-CcCredential возвращает экземпляр объекта System.Management.Automation.PSCredential.
   
 ## <a name="see-also"></a>См. также
 <a name="ReturnTypes"> </a>

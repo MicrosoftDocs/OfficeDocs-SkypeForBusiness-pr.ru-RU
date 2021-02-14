@@ -12,7 +12,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: ff21cecb-5035-48fd-9705-11ea81ce7df6
-description: Командлет Remove-CcLegacyServerCertificate удаляет прежние версии сертификатов сервера центрального хранилища управления, сервера-посредника и пограничного сервера после выполнения командлетов Renew-CcCACertificate или Renew CcServerCertificate.
+description: Этот Remove-CcLegacyServerCertificate удаляет устаревшие сертификаты сервера в центральном хранилище управления, сервере-посреднике и на сервере-посреднике после выполнения Renew-CcCACertificate или обновления CcServerCertificate.
 ms.openlocfilehash: f3fe17e8c6c559d1a2c8ab14543807f82c4b6813
 ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
@@ -22,7 +22,7 @@ ms.locfileid: "41824285"
 ---
 # <a name="remove-cclegacyservercertificate"></a>Remove-CcLegacyServerCertificate
  
-Командлет Remove-CcLegacyServerCertificate удаляет прежние версии сертификатов сервера центрального хранилища управления, сервера-посредника и пограничного сервера после выполнения командлетов Renew-CcCACertificate или Renew CcServerCertificate.
+Этот Remove-CcLegacyServerCertificate удаляет устаревшие сертификаты сервера в центральном хранилище управления, сервере-посреднике и на сервере-посреднике после выполнения Renew-CcCACertificate или обновления CcServerCertificate.
   
 ```powershell
 Remove-CcLegacyServerCertificate [[-Roles] <array> {Cms | MS | Edge}] 
@@ -33,7 +33,7 @@ Remove-CcLegacyServerCertificate [[-Roles] <array> {Cms | MS | Edge}]
 
 ### <a name="example-1"></a>Пример 1
 
-В следующем примере удаляются прежние версии сертификатов сервера центрального хранилища управления, сервера-посредника и пограничного сервера после продления сертификатов.
+В следующем примере удаляются устаревшие сертификаты, выданные для центрального банка управления, сервера-посредника и сервера-посредника после продления сертификатов:
   
 ```powershell
 Remove-CcLegacyServerCertificate
@@ -41,7 +41,7 @@ Remove-CcLegacyServerCertificate
 
 ### <a name="example-2"></a>Пример 2
 
-В следующем примере удаляются прежние версии сертификатов сервера-посредника и пограничного сервера после продления сертификатов.  
+В следующем примере удаляются сертификаты, выданные для сервера-посредника и сервера-посредника, после их продления: 
   
 ```powershell
 Remove-CcLegacyServerCertificate -Roles @("MS", "Edge") 
@@ -50,14 +50,14 @@ Remove-CcLegacyServerCertificate -Roles @("MS", "Edge")
 ## <a name="parameters"></a>Параметры
 <a name="Examples"> </a>
 
-|**Параметр**|**Обязательный**|**Тип**|**Описание**|
+|**Параметр**|**Required**|**Тип**|**Описание**|
 |:-----|:-----|:-----|:-----|
-| Роли <br/> |Необязательно   <br/> |System.Array  <br/> |  Массив ролей сервера Cloud Connector. <br/> |
+| Roles <br/> |Необязательна  <br/> |System.Array  <br/> | Массив ролей сервера Cloud Connector. <br/> |
    
 ## <a name="input-types"></a>Типы входных данных
 <a name="InputTypes"> </a>
 
-Нет. Командлет Remove-CcLegacyServerCertificate не принимает входные данные по конвейеру.
+Нет. Этот Remove-CcLegacyServerCertificate не принимает конвейерные входные данные.
   
 ## <a name="return-types"></a>Типы возвращаемых данных
 <a name="ReturnTypes"> </a>

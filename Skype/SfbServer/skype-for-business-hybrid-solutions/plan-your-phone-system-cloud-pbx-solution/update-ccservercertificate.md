@@ -12,7 +12,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: cd2889c4-0eb1-4752-9274-93a5a68a8080
-description: 'Командлет Update-CcServerCertificate продлевает сертификаты Skype для бизнеса Cloud Connector Edition, срок действия которых истекает или уже истек. '
+description: The Update-CcServerCertificate cmdlet renews the certificates for Skype for Business Cloud Connector Edition when they are near expiration or already expired.
 ms.openlocfilehash: da52efcd3fdf6a0793e085098bf6f72725115e9c
 ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
@@ -22,7 +22,7 @@ ms.locfileid: "41824113"
 ---
 # <a name="update-ccservercertificate"></a>Update-CcServerCertificate
  
-Командлет Update-CcServerCertificate продлевает сертификаты Skype для бизнеса Cloud Connector Edition, срок действия которых истекает или уже истек.  
+The Update-CcServerCertificate cmdlet renews the certificates for Skype for Business Cloud Connector Edition when they are near expiration or already expired. 
   
 ```powershell
 Update-CcServerCertificate [[-Roles] <array> {Cms | MS | Edge}]
@@ -33,7 +33,7 @@ Update-CcServerCertificate [[-Roles] <array> {Cms | MS | Edge}]
 
 ### <a name="example-1"></a>Пример 1
 
-В следующем примере продлеваются сертификаты сервера центрального хранилища управления (CMS), сервера-посредника или пограничного сервера, срок действия которых истекает или уже истек.
+В следующем примере обновляются сертификаты центрального банка управления, сервера-посредника и сервера-посредника, когда срок действия сертификатов истекает или уже истек:
   
 ```powershell
 Update-CcServerCertificate
@@ -41,7 +41,7 @@ Update-CcServerCertificate
 
 ### <a name="example-2"></a>Пример 2
 
-В следующем примере продлеваются сертификаты сервера-посредника или пограничного сервера, срок действия которых истекает или уже истек.
+В следующем примере обновляются сертификаты для сервера-посредника и сервера-посредника, когда срок их действия истекает или уже истек:
   
 ```powershell
 Update-CcServerCertificate-Roles @("MS", "Edge")
@@ -50,21 +50,21 @@ Update-CcServerCertificate-Roles @("MS", "Edge")
 ## <a name="detailed-description"></a>Подробное описание
 <a name="DetailedDescription"> </a>
 
-Внутренние сертификаты облачного соединителя, выданные для хранилища центрального управления, сервера-посредника и пограничного сервера, действительны в течение двух лет после того, как они были выпущены в службе сертификации. Если срок действия сертификатов истекает или уже истек, выполните командлет Update-CcServerCertificate для их продления. 
+Внутренние сертификаты Cloud Connector, выдавамые центральному окне управления, серверу-посреднику и серверу-посреднику, действуют в течение двух лет после их выдачи службой центра сертификации. Если срок действия сертификатов истекает или уже истек, запустите Update-CcServerCertificate для их продления. 
   
-Эта команда заменяет командлет Renew-CcServerCertificate в Cloud Connector 2.0 и более поздних выпусков.
+Эта команда заменяет командлет Renew-CcServerCertificate Cloud Connector 2.0 и более поздних версий.
   
 ## <a name="parameters"></a>Параметры
 <a name="DetailedDescription"> </a>
 
-|**Параметр**|**Обязательный**|**Тип**|**Описание**|
+|**Параметр**|**Required**|**Тип**|**Описание**|
 |:-----|:-----|:-----|:-----|
-|Роли  <br/> |Необязательно   <br/> |System.Array  <br/> |  Массив ролей сервера Cloud Connector. <br/> |
+|Roles  <br/> |Необязательна  <br/> |System.Array  <br/> | Массив ролей сервера Cloud Connector. <br/> |
    
 ## <a name="input-types"></a>Типы входных данных
 <a name="InputTypes"> </a>
 
-Нет. Командлет Update-CcServerCertificate не принимает входные данные по конвейеру.
+Нет. Этот Update-CcServerCertificate не принимает конвейерные входные данные.
   
 ## <a name="return-types"></a>Типы возвращаемых данных
 <a name="ReturnTypes"> </a>

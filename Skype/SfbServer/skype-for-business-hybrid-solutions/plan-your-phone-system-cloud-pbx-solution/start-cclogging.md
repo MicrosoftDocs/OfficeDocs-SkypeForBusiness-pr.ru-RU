@@ -12,7 +12,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 01b62253-2aaf-43ed-9d63-804e31edc522
-description: Командлет Start-CcLogging запускает ведение журналов входящих и исходящих звонков для устройства Skype для бизнеса Cloud Connector Edition.
+description: Этот Start-CcLogging создает журнал входящих и исходяющих звонков для устройства Skype для бизнеса Cloud Connector Edition.
 ms.openlocfilehash: bf84b55484e7f1d4f557730408676e337063a040
 ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
@@ -22,7 +22,7 @@ ms.locfileid: "41824173"
 ---
 # <a name="start-cclogging"></a>Start-CcLogging
  
-Командлет Start-CcLogging запускает ведение журналов входящих и исходящих звонков для устройства Skype для бизнеса Cloud Connector Edition. 
+Этот Start-CcLogging создает журнал входящих и исходяющих звонков для устройства Skype для бизнеса Cloud Connector Edition. 
   
 ```powershell
 Start-CcLogging
@@ -37,7 +37,7 @@ Start-CcLogging
 
 ### <a name="example-1"></a>Пример 1
 
-В следующем примере создаются журналы входящих и исходящих звонков:
+В следующем примере создается журнал входящих и исходяющих вызовов:
   
 ```powershell
 Start-CcLogging
@@ -46,17 +46,17 @@ Start-CcLogging
 ## <a name="detailed-description"></a>Подробное описание
 <a name="DetailedDescription"> </a>
 
-Командлет Start-Кклоггинг предоставляет администраторам способ начать ведение журнала входящих и исходящих вызовов на устройстве облачного соединителя. По умолчанию ведение журналов автоматически прекращается через четыре часа.
+Этот Start-CcLogging позволяет администраторам начать ведение журнала входящих и исходяющих вызовов на устройстве Cloud Connector. По умолчанию ведение журнала автоматически останавливается через четыре часа.
   
 ## <a name="input-types"></a>Типы входных данных
 <a name="InputTypes"> </a>
 
-Нет. Командлет Start-CcLogging не принимает входные данные по конвейеру.
+Нет. Этот Start-CcLogging не принимает конвейерные входные данные.
   
 ## <a name="return-types"></a>Типы возвращаемых данных
 <a name="ReturnTypes"> </a>
 
-Отсутствуют
+Нет
   
 ## <a name="see-also"></a>См. также
 <a name="ReturnTypes"> </a>

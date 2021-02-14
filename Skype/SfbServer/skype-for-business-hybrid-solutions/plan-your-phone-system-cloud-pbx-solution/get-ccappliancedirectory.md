@@ -12,7 +12,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: c2fda202-db2f-4122-b630-7df11a697c5f
-description: 'Командлет Get-CcApplianceDirectory извлекает рабочий каталог на сервере узла Skype для бизнеса Cloud Connector Edition. В этом каталоге хранятся все файлы развертывания.  '
+description: The Get-CcApplianceDirectory cmdlet retrieves the working directory on the Skype for Business Cloud Connector Edition host server. Все файлы развертывания хранятся в этом каталоге.
 ms.openlocfilehash: 04764f312138132fb34c0979423da5dc4696ee63
 ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
@@ -22,9 +22,9 @@ ms.locfileid: "41800849"
 ---
 # <a name="get-ccappliancedirectory"></a>Get-CcApplianceDirectory
  
-Командлет Get-CcApplianceDirectory извлекает рабочий каталог на сервере узла Skype для бизнеса Cloud Connector Edition. В этом каталоге хранятся все файлы развертывания.   
+The Get-CcApplianceDirectory cmdlet retrieves the working directory on the Skype for Business Cloud Connector Edition host server. Все файлы развертывания хранятся в этом каталоге. 
   
-Этот командлет применяется к версии Skype для бизнеса Cloud Connector Edition 1.4.1, 1.4.2.
+Этот cmdlet применяется к Skype для бизнеса Cloud Connector Edition 1.4.1, 1.4.2.
   
 ```powershell
 Get-CcApplianceDirectory
@@ -39,7 +39,7 @@ Get-CcApplianceDirectory
 
 ### <a name="example-1"></a>Пример 1
 
-В следующем примере показана текущая папка, в которой хранятся файлы конфигурации и виртуальных машин в компонентах облачного соединителя.
+В следующем примере показана текущая папка, в которой хранятся файлы конфигурации и виртуальных машин компонентов Cloud Connector:
   
 ```powershell
 Get-CcApplianceDirectory
@@ -48,14 +48,14 @@ Get-CcApplianceDirectory
 ## <a name="detailed-description"></a>Подробное описание
 <a name="DetailedDescription"> </a>
 
-Командлет Get-Ккапплианцедиректори показывает, какие файлы конфигурации и виртуальных машин, журналы и внешние сертификаты хранятся для устройства облачного соединителя.
+В Get-CcApplianceDirectory показано, где хранятся все файлы конфигурации и виртуальных машин, журналы и внешние сертификаты для устройства Cloud Connector.
   
-У каждого устройства облачного соединителя есть четыре компонента: сервер-посредник, хранилище Центрального управления, пограничный сервер и контроллер домена. По умолчанию используется папка\%к:\усерс усерпрофиле%\клаудконнектор\апплианцерут. Чтобы изменить этот каталог, выполните командлет Set-CcApplianceDirectory.
+Каждое устройство Cloud Connector имеет четыре компонента: сервер-посредник, центральное хранилище управления, edge server и контроллер домена. Папка по умолчанию C:\Users \% userprofile%\CloudConnector\ApplianceRoot. Эту папку можно изменить с помощью Set-CCApplianceDirectory управления.
   
 ## <a name="input-types"></a>Типы входных данных
 <a name="InputTypes"> </a>
 
-Нет. Командлет Get-CCApplianceDirectory не принимает входные данные по конвейеру.
+Нет. Этот Get-CCApplianceDirectory не принимает конвейерные входные данные.
   
 ## <a name="return-types"></a>Типы возвращаемых данных
 <a name="ReturnTypes"> </a>

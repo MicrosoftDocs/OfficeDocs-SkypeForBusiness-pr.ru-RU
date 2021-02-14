@@ -1,5 +1,5 @@
 ---
-title: План обслуживания Skype для бизнеса Online пользователя недействителен
+title: План обслуживания Skype для бизнеса Online пользователя не действует
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -20,7 +20,7 @@ f1.keywords:
 ms.custom:
 - Setup
 - ms.lync.lac.ServicePlanNotValid
-description: 'Просмотр места назначения действующего плана обслуживания для пользователя после недействительной ошибки в плане обслуживания Skype для бизнеса Online. '
+description: 'Узнайте, где назначить пользователю допустимый план обслуживания после ошибки "План обслуживания Skype для бизнеса Online не является допустимым". '
 ms.openlocfilehash: a3f7ac1a0816845b24d8580f63165b73ea9c99e9
 ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
@@ -28,11 +28,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 02/04/2020
 ms.locfileid: "41769582"
 ---
-# <a name="the-users-skype-for-business-online-service-plan-isnt-valid"></a>План обслуживания Skype для бизнеса Online пользователя недействителен
+# <a name="the-users-skype-for-business-online-service-plan-isnt-valid"></a>План обслуживания Skype для бизнеса Online пользователя не действует
 
-К сожалению, план обслуживания Skype для бизнеса Online, назначенный этому пользователю, не распознан или является недопустимым.
+К сожалению, план обслуживания Skype для бизнеса Online, который назначен этому пользователю, не распознан или недействителен.
   
-Перейдите в *центр администрирования Microsoft 365** > **Активные пользователи** и назначьте допустимый план обслуживания для этого пользователя.
+Перейдите в *Центр администрирования Microsoft 365** > **активных пользователей** и назначьте этому пользователю действительный план обслуживания.
 
 ## <a name="related-topics"></a>Статьи по теме
 [Настройка Skype для бизнеса Online](set-up-skype-for-business-online.md)

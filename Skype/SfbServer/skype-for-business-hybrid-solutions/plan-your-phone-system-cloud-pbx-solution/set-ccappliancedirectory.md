@@ -12,7 +12,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 6da93ddb-ca99-4b5d-9b33-3d70659730b2
-description: Командлет Set-CcApplianceDirectory задает рабочий каталог на сервере узла Skype для бизнеса Cloud Connector Edition. В этом каталоге хранятся все файлы развертывания.
+description: Этот Set-CcApplianceDirectory задает рабочий каталог на сервере хост-сервера Skype для бизнеса Cloud Connector Edition. Все файлы развертывания хранятся в этом каталоге.
 ms.openlocfilehash: a410d20c41fbb0bfef88449aaac96be727218add
 ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
@@ -22,7 +22,7 @@ ms.locfileid: "41824225"
 ---
 # <a name="set-ccappliancedirectory"></a>Set-CcApplianceDirectory
  
-Командлет Set-CcApplianceDirectory задает рабочий каталог на сервере узла Skype для бизнеса Cloud Connector Edition. В этом каталоге хранятся все файлы развертывания.
+Этот Set-CcApplianceDirectory задает рабочий каталог на сервере хост-сервера Skype для бизнеса Cloud Connector Edition. Все файлы развертывания хранятся в этом каталоге.
   
 ```powershell
 Set-CcApplianceDirectory[[-Path] <string>]
@@ -33,7 +33,7 @@ Set-CcApplianceDirectory[[-Path] <string>]
 
 ### <a name="example-1"></a>Пример 1
 
-В следующем примере задается рабочий каталог на сервере узла: c:\cloudconnector\applianceroot.
+В следующем примере рабочий каталог на хост-сервере устанавливается в c:\cloudconnector\applianceroot:
   
 ```powershell
 Set-CcApplianceDirectory -Path "c:\cloudconnector\applianceroot"
@@ -42,19 +42,19 @@ Set-CcApplianceDirectory -Path "c:\cloudconnector\applianceroot"
 ## <a name="parameters"></a>Параметры
 <a name="Examples"> </a>
 
-|**Параметр**|**Обязательный**|**Тип**|**Описание**|
+|**Параметр**|**Required**|**Тип**|**Описание**|
 |:-----|:-----|:-----|:-----|
-| Путь <br/> | Обязательно <br/> |System.String  <br/> |  Указывает путь к каталогу, где будут храниться все файлы развертывания. <br/> |
+| Path <br/> | Обязательный <br/> |System.String  <br/> | Указывает путь, в котором хранятся все файлы развертывания. <br/> |
    
 ## <a name="input-types"></a>Типы входных данных
 <a name="InputTypes"> </a>
 
-Отсутствуют. Set-CcApplianceDirectory не принимает входные данные по конвейеру.
+Нет. Этот Set-CcApplianceDirectory не принимает конвейерные входные данные.
   
 ## <a name="return-types"></a>Типы возвращаемых данных
 <a name="ReturnTypes"> </a>
 
-Отсутствуют
+Нет
   
 ## <a name="see-also"></a>См. также
 <a name="ReturnTypes"> </a>

@@ -12,7 +12,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 47ed4559-fb63-42cd-8ecd-b7d1617e91d3
-description: Командлет Backup-CcCertificationAuthority выполняет резервное копирование службы центра сертификации Skype для бизнеса Cloud Connector Edition в файл и сохраняет папку CA в общем каталоге сайта.
+description: The Backup-CcCertificationAuthority cmdlet backs up the Skype for Business Cloud Connector Edition certification authority service to a file and saves it to the CA folder under the site share directory.
 ms.openlocfilehash: 4e12b2349f5834866fc69442fb2947425416fe23
 ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
@@ -22,7 +22,7 @@ ms.locfileid: "41803809"
 ---
 # <a name="backup-cccertificationauthority"></a>Backup-CcCertificationAuthority
  
-Командлет Backup-CcCertificationAuthority выполняет резервное копирование службы центра сертификации Skype для бизнеса Cloud Connector Edition в файл и сохраняет папку CA в общем каталоге сайта.
+The Backup-CcCertificationAuthority cmdlet backs up the Skype for Business Cloud Connector Edition certification authority service to a file and saves it to the CA folder under the site share directory.
   
 ```powershell
 Backup-CcCertificationAuthority 
@@ -37,7 +37,7 @@ Backup-CcCertificationAuthority
 
 ### <a name="example-1"></a>Пример 1
 
-В следующем примере выполняется резервное копирование службы центра сертификации в файл и сохранение папки CA в общем каталоге сайта.
+В следующем примере архивация службы центра сертификации в файл и сохранение его в папку ЦС в каталоге для совместной работы сайта:
   
 ```powershell
 Backup-CcCertificationAuthority 
@@ -46,17 +46,17 @@ Backup-CcCertificationAuthority
 ## <a name="detailed-description"></a>Подробное описание
 <a name="DetailedDescription"> </a>
 
-Резервное копирование центра сертификации может быть полезно, если вы планируете повторное развертывание устройства облачного соединителя с помощью того же сертификата в случае аварии или вы хотите переместить устройство на новое оборудование. С помощью этой команды можно сохранить копию службы центра сертификации облачного соединителя с AD на сервере "\<СИТЕРУТДИРЕКТОРИ\>\ка\сфб кце root. p12".
+Резервное копирование в сертификационных органах может оказаться полезным, если вы планируете использовать устройство Cloud Connector с тем же сертификатом в случае аварии или если вы хотите переместить его на новое оборудование. Команда сохраняет копию службы сертификации Cloud Connector с сервера AD Server в \< "SiteRootDirectory \> \CA\SfB CCE Root.p12".
   
 ## <a name="input-types"></a>Типы входных данных
 <a name="InputTypes"> </a>
 
-Нет. Командлет Backup-CcCertificationAuthority не принимает входные данные по конвейеру.
+Нет. Этот Backup-CcCertificationAuthority не принимает конвейерные входные данные.
   
 ## <a name="return-types"></a>Типы возвращаемых данных
 <a name="ReturnTypes"> </a>
 
-Отсутствуют
+Нет
   
 ## <a name="see-also"></a>См. также
 <a name="ReturnTypes"> </a>

@@ -12,7 +12,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: bbae05f9-d8de-40dc-8968-d225dcde80e4
-description: Командлет Search-CcLog выполняет поиск журналов входящих и исходящих звонков в каталоге журнала устройства Skype для бизнеса Cloud Connector Edition.
+description: Этот Search-CcLog ищет журналы входящих и исходяющих звонков в каталоге журналов устройств Skype для бизнеса Cloud Connector Edition.
 ms.openlocfilehash: a512d715f1640184217ce07e0b666954a6541fd2
 ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
@@ -22,7 +22,7 @@ ms.locfileid: "41824235"
 ---
 # <a name="search-cclog"></a>Search-CcLog
  
-Командлет Search-CcLog выполняет поиск журналов входящих и исходящих звонков в каталоге журнала устройства Skype для бизнеса Cloud Connector Edition.
+Этот Search-CcLog ищет журналы входящих и исходяющих звонков в каталоге журналов устройств Skype для бизнеса Cloud Connector Edition.
   
 ```powershell
 Search-CcLog [[-StartTime] <datetime>] [[-EndTime] <datetime>] [[-FileName] <string>]
@@ -33,7 +33,7 @@ Search-CcLog [[-StartTime] <datetime>] [[-EndTime] <datetime>] [[-FileName] <str
 
 ### <a name="example-1"></a>Пример 1
 
-В следующем примере выполняется поиск журналов входящих и исходящих звонков в каталоге журнала устройства с использованием имени файла по умолчанию.
+В следующем примере выполняется поиск журналов входящих и исходяющих вызовов в каталоге журнала устройств с использованием имени файла по умолчанию:
   
 ```powershell
 Search-CcLog -StartTime "8/31/2012 8:00AM" -EndTime "8/31/2012 6:00PM"
@@ -41,7 +41,7 @@ Search-CcLog -StartTime "8/31/2012 8:00AM" -EndTime "8/31/2012 6:00PM"
 
 ### <a name="example-2"></a>Пример 2
 
-В следующем примере выполняется поиск журналов входящих и исходящих звонков с использованием указанных имени файла и пути к нему.
+В следующем примере выполняется поиск журналов входящих и исходяющих вызовов с использованием заданного пути и имени файла:
   
 ```powershell
 Search-CcLog -StartTime "8/31/2012 8:00AM" -EndTime "8/31/2012 6:00PM" -FileName "C:\Log\LogFile.log"
@@ -50,21 +50,21 @@ Search-CcLog -StartTime "8/31/2012 8:00AM" -EndTime "8/31/2012 6:00PM" -FileName
 ## <a name="detailed-description"></a>Подробное описание
 <a name="DetailedDescription"> </a>
 
-Командлет  Search-CsClsLogging предоставляет параметр командной строки для поиска файлов журнала, созданных службой централизованного ведения журналов.
+Командлет Search-CsClsLogging предоставляет параметр командной строки для поиска файлов журнала, генерируемых службой централизованного ведения журнала.
   
 ## <a name="parameters"></a>Параметры
 <a name="DetailedDescription"> </a>
 
-|**Параметр**|**Обязательный**|**Тип**|**Описание**|
+|**Параметр**|**Required**|**Тип**|**Описание**|
 |:-----|:-----|:-----|:-----|
-|StartTime  <br/> | Обязательно <br/> |System.Datetime  <br/> | Начальные дата и время для искомых записей журнала. Указываются в местном часовом поясе. <br/> |
-|EndTime  <br/> |Обязательно  <br/> |System.Datetime  <br/> |Конечные дата и время для искомых записей журнала. Указываются в местном часовом поясе.  <br/> |
-|FileName  <br/> |Обязательный  <br/> |System.String  <br/> |Указывает полный путь к текстовому файлу, содержащему результаты поиска.  <br/> |
+|StartTime  <br/> | Обязательна <br/> |System.Datetime  <br/> | Начальные дата и время для искомых записей журнала. Указываются в местном часовом поясе. <br/> |
+|EndTime  <br/> |Обязательна  <br/> |System.Datetime  <br/> |Конечные дата и время для искомых записей журнала. Указываются в местном часовом поясе.  <br/> |
+|FileName  <br/> |Обязательный  <br/> |System.String  <br/> |Указывает полный путь к текстовом файлу, содержащего результаты поиска.  <br/> |
    
 ## <a name="input-types"></a>Типы входных данных
 <a name="InputTypes"> </a>
 
-Нет. Командлет Search-CcLog не принимает входные данные по конвейеру.
+Нет. Этот Search-CcLog не принимает конвейерные входные данные.
   
 ## <a name="return-types"></a>Типы возвращаемых данных
 <a name="ReturnTypes"> </a>

@@ -12,7 +12,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 0aaacc05-3430-4579-acbf-d7c7670c3864
-description: Командлет Export-CcConfigurationSampleFile экспортирует образец файла конфигурации Skype для бизнеса Cloud Connector Edition (INI) в каталог устройства на устройстве Cloud Connector. Вы можете изменить и переименовать этот файл, чтобы использовать его в своем развертывании.
+description: The Export-CcConfigurationSampleFile cmdlet exports a Skype for Business Cloud Connector Edition sample configuration file (.ini) to the appliance directory of a Cloud Connector appliance. Вы можете изменить и переименовать файл для развертывания.
 ms.openlocfilehash: a29a3db8e77ee239263d015bd7a3efcf4f3f7c5c
 ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
@@ -22,9 +22,9 @@ ms.locfileid: "41801009"
 ---
 # <a name="export-ccconfigurationsamplefile"></a>Export-CcConfigurationSampleFile
  
-Командлет Export-CcConfigurationSampleFile экспортирует образец файла конфигурации Skype для бизнеса Cloud Connector Edition (INI) в каталог устройства на устройстве Cloud Connector. Вы можете изменить и переименовать этот файл, чтобы использовать его в своем развертывании.
+The Export-CcConfigurationSampleFile cmdlet exports a Skype for Business Cloud Connector Edition sample configuration file (.ini) to the appliance directory of a Cloud Connector appliance. Вы можете изменить и переименовать файл для развертывания.
   
-Этот командлет применяется к версии Skype для бизнеса Cloud Connector Edition 1.4.1, 1.4.2.
+Этот cmdlet применяется к Skype для бизнеса Cloud Connector Edition 1.4.1, 1.4.2.
   
 ```powershell
 Export-CcConfigurationSampleFile
@@ -39,7 +39,7 @@ Export-CcConfigurationSampleFile
 
 ### <a name="example-1"></a>Пример 1
 
-В следующем примере файл конфигурации примера загружается с сайта Майкрософт и записывается в каталог управляющего устройства облачного соединителя:
+В следующем примере скачивает пример файла конфигурации с сайта Майкрософт и записывает его в каталог устройства устройства Cloud Connector:
   
 ```powershell
 Export-CcConfigurationSampleFile
@@ -48,19 +48,19 @@ Export-CcConfigurationSampleFile
 ## <a name="detailed-description"></a>Подробное описание
 <a name="DetailedDescription"> </a>
 
-Для текущей версии облачного соединителя требуется предоставить несколько параметров в ini-файле. Например, такие параметры, как IP-адреса виртуальных машин для компонентов облачного соединителя, имена компонентов, параметры шлюза и т. д.
+В текущей версии Cloud Connector необходимо укажет несколько параметров в INI-файле; например, такие параметры, как IP-адреса виртуальных машин для компонентов Cloud Connector, имена компонентов, параметры шлюза и так далее.
   
-Этот командлет при запуске на главном компьютере облачного соединителя, загружает образец ini-файла с примерами конфигурации на сайте Майкрософт. Командлет записывает файл в каталог управляющего устройства облачного соединителя. Каталог Appliance (устройство) задается с помощью командлета Set-Ккапплианцедиректори.
+Этот cmdlet при запуске на хост-компьютере Cloud Connector скачивает пример INI-файла с примерами конфигурации с сайта Майкрософт. Этот файл записывается в каталог устройств устройства Cloud Connector. Каталог устройства указывается с помощью Set-CcApplianceDirectory устройства.
   
 ## <a name="input-types"></a>Типы входных данных
 <a name="InputTypes"> </a>
 
-Нет. Командлет Export-CcConfigurationSampleFile не принимает входные данные по конвейеру. 
+Нет. Этот Export-CcConfigurationSampleFile не принимает конвейерные входные данные. 
   
 ## <a name="return-types"></a>Типы возвращаемых данных
 <a name="ReturnTypes"> </a>
 
-Отсутствуют
+Нет
   
 ## <a name="see-also"></a>См. также
 <a name="ReturnTypes"> </a>

@@ -12,7 +12,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 463dce1e-fb60-487d-bcf1-69e7b03ecd14
-description: Командлет Exit-CcUpdate обновляет режим обслуживания на сервере узла Skype для бизнеса Cloud Connector Edition.
+description: The Exit-CcUpdate cmdlet exits update maintenance mode on the Skype for Business Cloud Connector Edition host server.
 ms.openlocfilehash: 315d6b7dccb6708901128bf8faa29a60f712e833
 ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
@@ -22,9 +22,9 @@ ms.locfileid: "41801769"
 ---
 # <a name="exit-ccupdate"></a>Exit-CcUpdate
  
-Командлет Exit-CcUpdate обновляет режим обслуживания на сервере узла Skype для бизнеса Cloud Connector Edition. 
+The Exit-CcUpdate cmdlet exits update maintenance mode on the Skype for Business Cloud Connector Edition host server. 
   
-Этот командлет применяется к версии Skype для бизнеса Cloud Connector Edition 1.4.1, 1.4.2. 
+Этот cmdlet применяется к Skype для бизнеса Cloud Connector Edition 1.4.1, 1.4.2. 
   
 ```powershell
 Exit-CcUpdate
@@ -39,7 +39,7 @@ Exit-CcUpdate
 
 ### <a name="example-1"></a>Пример 1
 
-Следующая команда переводит устройство, на котором она выполняется, в рабочий режим: 
+Следующая команда помещает устройство, на котором оно выполняется, обратно в производственный режим: 
   
 ```powershell
 Exit-CcUpdate
@@ -48,19 +48,19 @@ Exit-CcUpdate
 ## <a name="detailed-description"></a>Подробное описание
 <a name="DetailedDescription"> </a>
 
-Если вы перевели какие-либо устройства в режим обслуживания с помощью командлета Enter-CcUpdate, командлет Exit-CcUpdate позволит вернуть их в рабочий режим. 
+Если у вас есть устройства, которые были поставлены в режим обслуживания, указав Enter-CcUpdate, Exit-CcUpdate снова в режиме эксплуатации. 
   
-Дополнительные сведения о переводе устройств в режим обслуживания см. в описании командлета Enter-CcUpdate.
+Дополнительные сведения о переводить устройства в режим обслуживания см. в enter-CcUpdate.
   
 ## <a name="input-types"></a>Типы входных данных
 <a name="InputTypes"> </a>
 
-Нет. Командлет Exit-CcUpdate не принимает входные данные по конвейеру.
+Нет. Этот Exit-CcUpdate не принимает конвейерные входные данные.
   
 ## <a name="return-types"></a>Типы возвращаемых данных
 <a name="ReturnTypes"> </a>
 
-Отсутствуют 
+Нет 
   
 ## <a name="see-also"></a>См. также
 <a name="ReturnTypes"> </a>

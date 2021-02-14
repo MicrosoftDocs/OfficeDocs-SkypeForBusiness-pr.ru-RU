@@ -1,5 +1,5 @@
 ---
-title: 'Microsoft 365 Business Стандартный '
+title: 'Microsoft 365 бизнес стандарт '
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,7 +20,7 @@ f1.keywords:
 ms.custom:
 - Licensing
 - LIL_Placement
-description: 'Узнайте о лицензиях и возможностях надстроек, а также о том, как приобрести их для Microsoft 365 Business Standard. '
+description: 'Узнайте о лицензиях на надстройки, особенностях и о том, как приобрести планы Microsoft 365 бизнес стандартный. '
 ms.openlocfilehash: 18e0e16def82354339948f63f958025924e17d1e
 ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
@@ -28,9 +28,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/22/2020
 ms.locfileid: "43777414"
 ---
-# <a name="microsoft-365-business-standard"></a>Microsoft 365 Business Стандартный
+# <a name="microsoft-365-business-standard"></a>Microsoft 365 бизнес стандарт
 
-Если у вас есть [Microsoft 365 Business Standard](https://products.office.com/en/business/office-365-business-premium), вы можете использовать Skype для бизнеса, чтобы звонить другим людям в вашей организации, которые используют вашу подписку. Например, если в вашей компании 10 человек, вы можете позвонить и обмениваться мгновенными сообщениями через Skype для бизнеса.
+Если у вас [есть Microsoft 365](https://products.office.com/en/business/office-365-business-premium)бизнес стандартный, вы можете использовать Skype для бизнеса для звонков другим людям в вашей компании, которые находятся в вашей подписке. Например, если в вашей компании 10 человек, вы можете звонить друг другу и звонить друг другу с помощью Skype для бизнеса.
 
  **Существует два способа совершать и принимать звонки от людей за пределами вашей организации**.
 
@@ -44,7 +44,7 @@ ms.locfileid: "43777414"
     > You have to set a toggle to allow your employees to use Skype for Business to search for Skype users. See [Let Skype for Business users add Skype contacts](../../set-up-skype-for-business-online/let-skype-for-business-users-add-skype-contacts.md).
 
 
-- **Вариант 2. Обновите план и купите телефонную систему, а также внутренний или внутренний и Международный план звонков**.
+- **Вариант 2. Обновите план и приобретите телефонную систему и** план внутренних или международных и внутренних звонков.
 
     > [!Important]
     > Although Skype for Business Online Plan 2 is included with the Office Business Premium subscription, **you can’t add cloud voice calling features**. So, we recommend that you evaluate an Enterprise E5 (or Enterprise E3) plan to see if it is more cost effective.
@@ -53,20 +53,20 @@ ms.locfileid: "43777414"
 
 2. Приобретите надстройку **телефонной системы**.
     
-3. Купите [план звонков для Office 365](/MicrosoftTeams/calling-plans-for-office-365): вы можете купить его только после приобретения надстройки **телефонной системы** .
+3. Приобрести [план звонков для Office 365](/MicrosoftTeams/calling-plans-for-office-365)можно только  после покупки надстройки "Телефонная система".
     
     Второй вариант отлично подойдет для организаций с несколькими сотрудниками, которые совершают и принимают внешние телефонные звонки.
 
-## <a name="how-to-see-prices-and-buy"></a>Как посмотреть цены и купить
+## <a name="how-to-see-prices-and-buy"></a>Как посмотреть цены и приобрести
 <a name="bkmk_buypremium"> </a>
 
  **Получение функции аудиоконференции и кредитов на связь:**
 
-1. Войдите в центр администрирования.
+1. Войдите в Центр администрирования.
 
 2. Перейдите в раздел **Выставление счетов** > **Подписки** > **Дополнения** > **Купить дополнения**.
 
-   ![Чтобы приобрести лицензию на надстройку, выберите пункт Купить надстройки.](../../images/fc4d7506-4ee9-4e39-be54-0622edffb77a.png)
+   ![Чтобы приобрести лицензию на надстройку, выберите "Купить надстройки".](../../images/fc4d7506-4ee9-4e39-be54-0622edffb77a.png)
 
 3. После этого появится возможность просмотреть цены и приобрести функцию аудиоконференции, а также настроить кредиты на связь.
 
@@ -74,7 +74,7 @@ ms.locfileid: "43777414"
 
 1. Перейдите на план E1 или E3.
 
-2. Перейдите в центр администрирования >**подписок**на **выставление счетов** > .
+2. Перейдите в Центр администрирования > **подписок на**  >  **выставление счета.**
 
 3. Choose **Add-ons**. You'll now see the prices for Phone System, and the option to buy it.
 

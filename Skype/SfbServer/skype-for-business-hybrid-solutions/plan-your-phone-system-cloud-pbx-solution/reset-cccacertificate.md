@@ -12,7 +12,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 5ada7e55-df9b-4b4e-b752-2468f4e28b8a
-description: Командлет Reset-CcCACertificate переустанавливает сервер Active Directory службы центра сертификации для создания нового сертификата корневого центра сертификации.
+description: Этот Reset-CcCACertificate переустановит сервер AD Службы сертификации для создания нового корневого сертификата ЦС.
 ms.openlocfilehash: 6a7f377642ca8aa8722933e503a6c0c2f2613544
 ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
@@ -22,7 +22,7 @@ ms.locfileid: "41824255"
 ---
 # <a name="reset-cccacertificate"></a>Reset-CcCACertificate
  
-Командлет Reset-CcCACertificate переустанавливает сервер Active Directory службы центра сертификации для создания нового сертификата корневого центра сертификации.
+Этот Reset-CcCACertificate переустановит сервер AD Службы сертификации для создания нового корневого сертификата ЦС.
   
 ```powershell
 Reset-CcCACertificate
@@ -37,7 +37,7 @@ Reset-CcCACertificate
 
 ### <a name="example-1"></a>Пример 1
 
-В следующем примере переустанавливается сервер Active Directory службы центра сертификации для создания нового сертификата корневого центра сертификации.
+В следующем примере переустановка сервера AD Server службы сертификации для создания нового сертификата корневого ЦС:
   
 ```powershell
 Reset-CcCACertificate
@@ -46,30 +46,30 @@ Reset-CcCACertificate
 ## <a name="detailed-description"></a>Подробное описание
 <a name="DetailedDescription"> </a>
 
-Если сертификат корневого центра сертификации скомпрометирован или не обеспечивает нужный уровень безопасности, необходимо обновить его и все остальные сертификаты, выданные корневым центром сертификации. Командлет Reset-CcCACertificate отзывает все сертификаты, удаляет и переустанавливает центр сертификации, после чего очищает все сертификаты, связанные со старой службой центра сертификации. 
+Если сертификат корневого ЦС скомпрометирован или больше не защищен, необходимо обновить сертификат корневого ЦС и все сертификаты, выданные корневым ЦС. Этот Reset-CcCACertificate отзывает все сертификаты, отменяет и переустанавлетирует ЦС сертификации, а затем очищает все сертификаты, связанные со старой службой центра сертификации. 
   
-Дополнительные сведения можно найти в разделе сертификаты центра сертификации или внутренние сертификаты, выданные серверу CMS, сервер-посредника, а также на пограничном сервере и нарушающие его срок действия, которые устраняют проблемы с развертыванием облачного соединителя.
+Дополнительные сведения см. в подключении "Срок действия сертификатов из ЦС, сервера-посредника и сервера-посредника истекает или они скомпрометированы" в устранении неполадок развертывания Cloud Connector.
   
 ## <a name="input-types"></a>Типы входных данных
 <a name="InputTypes"> </a>
 
-Нет. Командлет Reset-CcCACertificate не принимает входные данные по конвейеру.
+Нет. Этот Reset-CcCACertificate не принимает конвейерные входные данные.
   
 ## <a name="return-types"></a>Типы возвращаемых данных
 <a name="ReturnTypes"> </a>
 
-Нет. 
+Нет.
   
 ## <a name="see-also"></a>См. также
 <a name="ReturnTypes"> </a>
 
-[Renew-CcCACertificate](renew-cccacertificate.md) Только для версии 1.4.2
+[Renew-CcCACertificate](renew-cccacertificate.md) Только версия 1.4.2
   
-[Renew-CcServerCertificate](renew-ccservercertificate.md) Только для версии 1.4.2
+[Renew-CcServerCertificate](renew-ccservercertificate.md) Только версия 1.4.2
   
-[Update-CcCACertificate](update-cccacertificate.md) Версия 2.0 и более поздние версии
+[Update-CcCACertificate](update-cccacertificate.md) Версия 2.0 и более поздние
   
-[Продление подписки на кксерверцертификате](renew-ccservercertificate.md) Версия 2,0 и более поздние версии
+[Renew-CcServerCertificate](renew-ccservercertificate.md) Версия 2.0 и более поздние
   
 [Export-CcRootCertificate](export-ccrootcertificate.md)
   
