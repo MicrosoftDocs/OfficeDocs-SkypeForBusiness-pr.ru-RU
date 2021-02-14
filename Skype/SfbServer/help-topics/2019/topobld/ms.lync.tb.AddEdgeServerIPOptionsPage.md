@@ -14,7 +14,7 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f458287f-e7a5-45f2-8393-3e1377be81d9
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Skype для бизнеса Server позволяет настраивать IPv4- и IPv6-адреса для каждого интерфейса для edge server и edge pool. Для этого выполните следующие действия:'
+description: 'Skype для бизнеса Server позволяет настраивать IPv4- и IPv6-адреса для каждого интерфейса для edge Server и пула. Для этого выполните следующие действия:'
 ms.openlocfilehash: f940e0480c51b1a2541386401a71f0d7d9818566
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
@@ -26,7 +26,7 @@ ms.locfileid: "49801079"
  
 Skype для бизнеса Server позволяет настраивать IPv4- и IPv6-адреса для каждого интерфейса для edge server и edge pool. Для этого выполните следующие действия:
   
-- **Включить IPv4 на** внутреннем интерфейсе: выберите этот ящик, чтобы применить IPv4-адрес к внутреннему интерфейсу сервера или пула.
+- **Включить IPv4 во** внутреннем интерфейсе: если нужно применить IPv4-адрес к внутреннему интерфейсу edge Server или пула edge
     
 - **Включить IPv6 во** внутреннем интерфейсе: если нужно применить IPv6-адрес к внутреннему интерфейсу edge Server или пула edge
     

@@ -15,7 +15,7 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0f0a866a-b85d-4fb6-843b-90bb3c977498
 ROBOTS: NOINDEX, NOFOLLOW
-description: Функция мобильности в Skype для бизнеса Server 25 поддерживает функции Skype для бизнеса на мобильных устройствах. Подробные сведения см. в планировании мобильности.
+description: Функция мобильности в Skype для бизнеса Server 25 поддерживает функции Skype для бизнеса на мобильных устройствах. Подробные сведения см. в средстве планирования мобильности.
 ms.openlocfilehash: b3facf5dc9696f8e417109865a65cafab6580058
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT

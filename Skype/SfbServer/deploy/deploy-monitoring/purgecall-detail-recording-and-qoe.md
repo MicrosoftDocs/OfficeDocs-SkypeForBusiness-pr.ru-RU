@@ -1,5 +1,5 @@
 ---
-title: Ручная очистка баз данных регистрации вызовов и качества работы в Skype для бизнеса Server
+title: Ручная очистка баз данных регистрации вызовов и качества обслуживания в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -19,11 +19,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49802149"
 ---
-# <a name="manually-purge-the-call-detail-recording-and-quality-of-experience-databases-in-skype-for-business-server"></a>Ручная очистка баз данных регистрации вызовов и качества работы в Skype для бизнеса Server
+# <a name="manually-purge-the-call-detail-recording-and-quality-of-experience-databases-in-skype-for-business-server"></a>Ручная очистка баз данных регистрации вызовов и качества обслуживания в Skype для бизнеса Server
  
 **Сводка:** Узнайте, как вручную очищать записи из баз данных CDR и QoE, используемых Skype для бизнеса Server.
   
-Базы данных CDR и QoE можно вручную или автоматически сыметь записи. Это может быть важно, чтобы данные не устарели или при необходимости сбросить отчеты из исходного базового плана.
+Базы данных CDR и QoE можно вручную или автоматически сыметь записи. Purging records can be important so that data doesn't become stale or when needing to reset reports from a starting baseline.
   
 ## <a name="manually-purge-records-from-cdr-and-qoe-databases"></a>Ручная очистка записей из баз данных CDR и QoE
 

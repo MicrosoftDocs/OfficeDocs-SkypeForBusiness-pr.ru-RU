@@ -64,7 +64,7 @@ ms.locfileid: "49802739"
 |**Exchange Server версии**|**Поддержка Skype для бизнеса**|
 |:-----|:-----|
 |Exchange Server 2019 (только Skype для бизнеса Server 2019) |То же, Exchange Server 2013    |
-|Exchange Server 2016    |То же, что Exchange Server 2013  <br/> |
+|Exchange Server 2016    |То же, Exchange Server 2013  <br/> |
 |Exchange Server 2013  <br/> |То же, Exchange Server 2010, с добавлением  <br/>&bull;&nbsp;&nbsp;Единое хранилище контактов  <br/>&bull;&nbsp;&nbsp;Изображения с высоким разрешением  <br/>&bull;&nbsp;&nbsp;Интеграция архивации  <br/> **Примечание.** For details, see [Integrate Skype for Business Server with Exchange Server.](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md)  <br/> |
 |Exchange Server 2010  <br/>(Только Skype для бизнеса Server 2015) |Следующие функции доступны только через EWS:  <br/>&bull;&nbsp;&nbsp;Чтение и удаление элементов в папке "История бесед"  <br/>&bull;&nbsp;&nbsp;Чтение и удаление элементов голосовой почты  <br/>&bull;&nbsp;&nbsp;Отображение расширенных сведений о занятости, теме и расположении собрания  <br/>&bull;&nbsp;&nbsp;Синхронизация контактов Exchange  <br/> Общедоступные папки являются необязательными в Exchange Server 2010.  <br/> |
    

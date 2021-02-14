@@ -69,7 +69,7 @@ ms.locfileid: "49802579"
 
 1. В левой области навигации Центра администрирования Microsoft Teams перейдите в топологию **сети** locations и перейдите на вкладку  >  "Надежные **адреса IPs".**
 2. Выберите **Создать**.
-3. В области **"Добавление** доверенных IP-адресов" укажите версию IP-адреса, IP-адрес, диапазон сети, добавьте описание и нажмите кнопку **"Применить".**
+3. В области "Добавление надежного **IP-адреса"** укажите версию IP-адреса, IP-адрес, диапазон сети, добавьте описание и нажмите кнопку **"Применить".**
 
     ![Снимок экрана: области "Добавление доверенных IP-адресов"](media/manage-network-topology-add-trusted-ip.png)
 
@@ -106,7 +106,7 @@ New-CsTenantNetworkRegion -NetworkRegionID "India"
 New-CsTenantNetworkSite -NetworkSiteID <site ID> -NetworkRegionID <region ID>
 ```
 
-В этом примере мы создадим два новых сетевых сайта— "Кузьмина" и "Кузьмина" в Индии.
+В этом примере мы создадим два новых сетевых сайта — "Алехи" и "Приодерха" в Индии.
 
 ```PowerShell
 New-CsTenantNetworkSite -NetworkSiteID "Delhi" -NetworkRegionID "India"
@@ -165,7 +165,7 @@ Identity, Mask, SiteID
 
 ### <a name="define-external-subnets-external-trusted-ip-addresses"></a>Определение внешних подсетей (внешних доверенных IP-адресов)
 
-Чтобы определить внешние подсети и назначить их клиенту, воспользуйтесь этим [cmdlet: New-CsTenantTrustedIPAddress.](https://docs.microsoft.com/powershell/module/skype/new-cstenanttrustedipaddress?view=skype-ps) Для клиента можно определить неограниченное количество внешних подсетей.
+Чтобы определить внешние подсети и назначить их для клиента, используйте для этого [cmdlet New-CsTenantTrustedIPAddress.](https://docs.microsoft.com/powershell/module/skype/new-cstenanttrustedipaddress?view=skype-ps) Для клиента можно определить неограниченное количество внешних подсетей.
 
 ```PowerShell
 New-CsTenantTrustedIPAddress -IPAddress <External IP address> -MaskBits <Subnet bitmask> -Description <description> 

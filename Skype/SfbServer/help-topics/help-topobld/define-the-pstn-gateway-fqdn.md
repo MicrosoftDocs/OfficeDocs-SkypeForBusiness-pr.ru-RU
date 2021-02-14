@@ -14,7 +14,7 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c6135e2a-5d44-4046-bd53-fac4fdf52238
-description: Вы указываете полное доменное имя шлюза телефонной сети общего пользования (PSTN), который будет подключать компоненты Корпоративная голосовая связь к PSTN или УАПС.
+description: Вы указываете полное доменное имя шлюза телефонной сети общего пользования (PSTN), который будет подключать компоненты Корпоративная голосовая связь к PSTN или УАЧС.
 ms.openlocfilehash: 39715f807c65914ab75815cbeffd072686e87f15
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT

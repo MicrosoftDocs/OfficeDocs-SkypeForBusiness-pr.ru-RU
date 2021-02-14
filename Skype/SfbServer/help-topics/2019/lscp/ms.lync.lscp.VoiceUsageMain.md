@@ -26,7 +26,7 @@ ms.locfileid: "49801299"
 
 Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
 
-- [Просмотр записей об использовании ЗВОНКОВ в Skype для бизнеса](../../../deploy/deploy-enterprise-voice/view-pstn-usage-records.md)
+- [Просмотр записей использования PSTN в Skype для бизнеса](../../../deploy/deploy-enterprise-voice/view-pstn-usage-records.md)
 
 - [Create or modify a voice policy and configure PSTN usage records in Skype for Business](../../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md)
 

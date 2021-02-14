@@ -27,7 +27,7 @@ ms.locfileid: "49802289"
   
 ## <a name="configure-cdr-and-qoe"></a>Настройка CDR и QoE
 
-После того как вы связали хранилище мониторинга с пулом переднего сервера, настроили хранилище мониторинга, а затем установили и настроили отчеты SQL Server Reporting Services and Monitoring Reports, вы можете управлять мониторингом регистрации вызовов (CDR) и качества обслуживания (QoE) с помощью skype для бизнеса Server Management Shell. С помощью cmdlets skype for Business Server Management Shell можно включить и отключить мониторинг CDR и /или QoE для определенного сайта или всего развертывания Skype для бизнеса Server; это можно сделать с помощью команды, которая так же проста, как эта:
+После того как вы связали хранилище мониторинга с пулом переднего сервера, настроили хранилище мониторинга, а затем установили и настроили отчеты SQL Server Reporting Services and Monitoring Reports, вы можете управлять мониторингом регистрации вызовов (CDR) и качества обслуживания (QoE) с помощью skype для бизнеса Server Management Shell. С помощью cmdlets skype for Business Server Management Shell можно включить и отключить мониторинг CDR и /или QoE для определенного сайта или всего развертывания Skype для бизнеса Server; это можно сделать с помощью такой простой команды:
   
 ```powershell
 Set-CsQoEConfiguration -Identity "global" -EnableQoE $False
