@@ -61,7 +61,7 @@ ms.locfileid: "49820849"
   
 ## <a name="identify-a-new-conference-room"></a>Определение нового конференц-зала
 
-Возможно, у вас уже есть почтовый ящик помещения ресурсов в Exchange, который предоставляет функцию планирования, или вы можете создать почтовый ящик ресурса в первый раз, чтобы упростить развертывание системы комнат Skype. В любом случае необходимо определить учетную запись помещения, которая будет использоваться в клиенте. Разделы "Подготовка Exchange Online" и "Подготовка Skype для бизнеса" предоставляют руководство по обоим типам учетных записей. Например, предположим, что у вас есть две следующие комнаты, и вы хотите развернуть систему комнат Skype для обеих комнат:
+Возможно, у вас уже есть почтовый ящик помещения ресурсов в Exchange, который предоставляет функцию планирования, или вы можете создать почтовый ящик ресурса в первый раз для упрощения развертывания системы комнат Skype. В любом случае необходимо определить учетную запись помещения, которая будет использоваться в клиенте. Разделы "Подготовка Exchange Online" и "Подготовка Skype для бизнеса" предоставляют руководство по обоим типам учетных записей. Например, предположим, что у вас есть две следующие комнаты, и вы хотите развернуть систему комнат Skype для обеих комнат:
   
 - Существующая учетная запись почтового ящика ресурса: confrm1@contoso.onmicrosoft.com
     
@@ -79,7 +79,7 @@ $newpass='pass@word1'
 Set-Mailbox -Identity $rm  -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString $newpass -AsPlainText -Force)
 ```
 
-Чтобы создать учетную запись почтового ящика ресурса Exchange для системы комнат Skype, в Exchange Online PowerShell запустите следующие команды:
+Чтобы создать новую учетную запись почтового ящика ресурса Exchange для системы комнат Skype, в Exchange Online PowerShell запустите следующие команды:
   
 ```powershell
 $rm="confrm2@contoso.onmicrosoft.com"
@@ -95,7 +95,7 @@ New-Mailbox -Name "Conf Room 2" -MicrosoftOnlineServicesID $rm -Room  -EnableRoo
 
 Теперь вы можете назначить лицензию на Skype для бизнеса Online (план 2) или Skype для бизнеса Online (план 3) с помощью портала администрирования Microsoft 365, как описано в описании назначения или удаления лицензий для [Microsoft 365](https://support.office.com/article/Assign-or-remove-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc?ui=en-US&amp;rs=en-US&amp;ad=US) для бизнеса или лицензирования надстройки [Skype](https://support.office.com/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7)для бизнеса. 
   
-После назначения лицензии для Skype для бизнеса Online вы сможете войти в систему и проверить, активна ли учетная запись с помощью любого клиента Skype для бизнеса.
+После назначения лицензии для Skype для бизнеса Online вы сможете войти в систему и проверить, активна ли учетная запись, с помощью любого клиента Skype для бизнеса.
   
 ## <a name="skype-for-business-online-provisioning"></a>Подготовка Skype для бизнеса Online
 
@@ -115,7 +115,7 @@ New-Mailbox -Name "Conf Room 2" -MicrosoftOnlineServicesID $rm -Room  -EnableRoo
    Enable-CsMeetingRoom -Identity $rm -RegistrarPool "sippoolbl20a04.infra.lync.com" -SipAddressType EmailAddress
    ```
 
-    Вы можете получить адрес RegistrarPool, где ваши пользователи Skype для бизнеса находятся в одной из существующих учетных записей, используя следующую команду, чтобы вернуть это свойство:
+    Чтобы получить это свойство, вы можете получить адрес RegistrarPool, на котором находятся пользователи Skype для бизнеса, из одной из существующих учетных записей, используя следующую команду:
     
    ```powershell
    Get-CsOnlineUser -Identity 'alice@contoso.onmicrosoft.com'| fl *registrarpool*
@@ -135,7 +135,7 @@ New-Mailbox -Name "Conf Room 2" -MicrosoftOnlineServicesID $rm -Room  -EnableRoo
     Connect-MsolService -Credential $cred
     ```
 
-2. Установите параметр "Срок действия пароля не истекает" для учетной записи комнаты системы комнат Skype, созданной ранее, с помощью следующей команды:
+2. Установите параметр "Срок действия пароля не истекает" для учетной записи системы комнат Skype, созданной ранее, с помощью следующей команды:
     
    ```powershell
    Set-MsolUser -UserPrincipalName confrm1@skypelrs.onmicrosoft.com -PasswordNeverExpires $true

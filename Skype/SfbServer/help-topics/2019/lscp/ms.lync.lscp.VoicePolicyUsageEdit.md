@@ -1,5 +1,5 @@
 ---
-title: Политика голосовой почты создает или редактирует существующую запись использования PSTN
+title: Политика голосовой почты создает или редактирует существующую запись использования STN
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -30,7 +30,7 @@ UNRESOLVED_TOKEN_VAL(bigfin_UI_help_intro)
 
 - [Изменение голосовой политики и настройка записей использования ТСОП](https://technet.microsoft.com/library/6c53aaf5-218b-4bd4-8cea-31bc9d53f1bd.aspx)
 
-- [Просмотр записей об использовании ЗВОНКОВ в Skype для бизнеса](../../../deploy/deploy-enterprise-voice/view-pstn-usage-records.md)
+- [Просмотр записей использования PSTN в Skype для бизнеса](../../../deploy/deploy-enterprise-voice/view-pstn-usage-records.md)
 
 
 

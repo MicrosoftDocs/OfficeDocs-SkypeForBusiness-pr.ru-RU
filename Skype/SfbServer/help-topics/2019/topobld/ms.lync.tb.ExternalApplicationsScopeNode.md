@@ -14,7 +14,7 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 73b422d6-1582-4a76-aceb-690004fa02a3
 ROBOTS: NOINDEX, NOFOLLOW
-description: Узел Серверы доверенных приложений отображает пулы доверенных приложений в этом сайте. Пулы доверенных приложений содержат серверы, на которых работают доверенные приложения microsoft Unified Communications, но не запускаются роли Skype для бизнеса Server. Здесь можно выполнить следующее действие.
+description: Узел Серверы доверенных приложений отображает пулы доверенных приложений в этом сайте. Пулы доверенных приложений содержат серверы, на которых работают доверенные приложения объединенных коммуникаций Майкрософт, но не запускаются роли Skype для бизнеса Server. Здесь можно выполнить следующее действие.
 ms.openlocfilehash: 399292b721c5d19f00398ad05aaf26fabb89dc22
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT

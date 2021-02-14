@@ -55,7 +55,7 @@ ms.locfileid: "49820709"
 |**Служба пограничного доступа (полное доменное имя):** <br/> |sipfed.resources.lync.com  <br/> |
 |**Уровень проверки по умолчанию:** <br/> |Разрешить пользователям взаимодействовать со всеми, кто использует этого поставщика.  <br/> |
    
-Вы также можете включить федерацию с ресурсами Skype для бизнеса Online, задав следующий cmdlet в оболочке управления Skype для бизнеса Server:
+Вы также можете включить федерацию с ресурсами Skype для бизнеса Online, выдав следующий cmdlet в оболочке управления Skype для бизнеса Server:
   
 ```powershell
 New-CsHostingProvider -Identity LyncOnlineResources -ProxyFqdn sipfed.resources.lync.com -VerificationLevel AlwaysVerifiable -Enabled $True -EnabledSharedAddressSpace $True -HostsOCSUsers $True -IsLocal $False
@@ -67,7 +67,7 @@ New-CsHostingProvider -Identity LyncOnlineResources -ProxyFqdn sipfed.resources.
   
 1. Запустите панель управления Skype для бизнеса Server и выберите **внешний доступ** слева.
     
-2. Выберите **федераированные** домены SIP и нажмите кнопку **"Новый".**
+2. Выберите **федеражные домены SIP** и нажмите кнопку **"Новый".**
     
 3. Для имени **домена (или FQDN):** введите домен, повторив эту процедуру для каждого из следующих доменов:
     

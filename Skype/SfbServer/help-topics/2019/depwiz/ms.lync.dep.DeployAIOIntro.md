@@ -14,7 +14,7 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: fe11d380-54c9-47e7-a676-02b9a59dc93f
 ROBOTS: NOINDEX, NOFOLLOW
-description: To begin the installation of a Skype for Business Server Standard Edition server that will hold the Central Management store and other collocated services that you select, you must be logged in as a member of the local Administrators group on the server that will become the Standard Edition server. На странице "Подготовка одного сервера Standard Edition" подробно приводится информация о требованиях к начальной установке. Компьютер должен быть членом домена, в котором он будет развернут, и необходимо успешно завершить подготовку схемы, леса и домена для леса.
+description: To begin the installation of a Skype for Business Server Standard Edition server that will hold the Central Management store and other collocated services that you select, you must be logged in as a member of the local Administrators group on the server that will become the Standard Edition server. На странице "Подготовка одного сервера Standard Edition" подробно приводится информация о требованиях к начальной установке. Компьютер должен быть членом домена, в котором он будет развернут, и необходимо успешно завершить подготовку к схеме, лесу и домену для леса.
 ms.openlocfilehash: 08ea84c0d136339e782c32785c1c4fb536f877cd
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
@@ -24,7 +24,7 @@ ms.locfileid: "49820629"
 ---
 # <a name="prepare-single-standard-edition-server-intro"></a>Подготовка отдельного сервера Standard Edition (введение)
  
-To begin the installation of a Skype for Business Server Standard Edition server that will hold the Central Management store and other collocated services that you select, you must be logged in as a member of the local Administrators group on the server that will become the Standard Edition server. На **странице "Подготовка одного сервера Standard Edition"** подробно приводится информация о требованиях к начальной установке. Компьютер должен быть членом домена, в котором он будет развернут, и необходимо успешно завершить подготовку к схеме, лесу и домену для леса.
+To begin the installation of a Skype for Business Server Standard Edition server that will hold the Central Management store and other collocated services that you select, you must be logged in as a member of the local Administrators group on the server that will become the Standard Edition server. На **странице "Подготовка одного сервера Standard Edition"** подробно приводится информация о требованиях к начальной установке. Компьютер должен быть членом домена, в котором он будет развернут, и необходимо успешно завершить подготовку схемы, леса и домена для леса.
   
 Эта конкретная задача предназначена для установки сервера Standard Edition в качестве первого сервера в инфраструктуре. Эта задача устанавливает центральное хранилище управления, которое SQL Server Express, на сервер Standard Edition. Если у вас уже развернут другой сервер Standard Edition или интерфейсный пул, нажмите кнопку **Отмена**.
   

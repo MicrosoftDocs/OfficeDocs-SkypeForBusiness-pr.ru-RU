@@ -11,7 +11,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: b7e9149e-bf16-4120-afe0-3ee09c88f5eb
-description: Сводка. В этом разделе вы узнаете, как настроить интеграцию между Сервер Office Web Apps и Skype для бизнеса Server, чтобы включить презентации PowerPoint для веб-трансляций.
+description: Сводка. В этом разделе вы узнаете, как настроить интеграцию между Сервер Office Web Apps и Skype для бизнеса Server, чтобы включить презентации PowerPoint для веб-служб.
 ms.openlocfilehash: 005bd9fe7d7fece7d488935002e7146fc5a9ffe4
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
@@ -25,7 +25,7 @@ ms.locfileid: "49820469"
   
 Skype для бизнеса Server использует Сервер Office Web Apps для обработки презентаций PowerPoint для веб-трансляций. Сведения о преимуществах этого подхода см. в подпункте "Планирование использования услуг для связи в [Skype для бизнеса Server".](../../plan-your-deployment/conferencing/conferencing.md)
   
-Перед настройкой Skype для бизнеса Server на использование сервера Office Web Apps необходимо убедиться, что сервер Office Web Apps уже развернут и настроен. Дополнительные сведения о сервере Office Web Apps см. в статье ["Развертывание инфраструктуры Office Online Server".](https://go.microsoft.com/fwlink/p/?linkid=257525) 
+Перед настройкой Skype для бизнеса Server для использования сервера Office Web Apps необходимо убедиться, что сервер Office Web Apps уже развернут и настроен. Дополнительные сведения о сервере Office Web Apps см. в статье ["Развертывание инфраструктуры Office Online Server".](https://go.microsoft.com/fwlink/p/?linkid=257525) 
   
 После успешной установки Сервера Office Web Apps и правильной настройки веб-фермы необходимо настроить Skype для бизнеса Server для связи с новым сервером, добавив URL-адрес обнаружения Сервера Office Web Apps в топологию Skype для бизнеса Server. 
   
@@ -72,7 +72,7 @@ Skype для бизнеса Server использует Сервер Office Web 
   
 ## <a name="validate-the-configuration"></a>Проверка конфигурации
 
-После того как сервер Office Web Apps был добавлен в топологию и опубликована эта топология, в журнале событий Skype для бизнеса Server должны отвести два новых события журнала событий. Сначала необходимо добавить событие LS Data MCU (событие с ид 41034); это событие сообщает об обнаружении сервера Office Web Apps:
+После того как сервер Office Web Apps был добавлен в топологию и опубликована эта топология, в журнале событий Skype для бизнеса Server должны отвести два новых события журнала событий. Сначала необходимо добавить событие LS Data MCU (с ид. 41034). это событие сообщает об обнаружении сервера Office Web Apps:
   
  **Обнаружен сервер веб-conferencing Server Office Web Apps, включен контент PowerPoint.**
   
@@ -88,7 +88,7 @@ Skype для бизнеса Server использует Сервер Office Web 
   
  **Страница внешнего препроверщика Сервера Office Web Apps: https://atl-officewebapps-001.litwareinc.com/m/Presenter.aspx?a=0&amp ;embed**
   
- **Внутренняя страница участника Сервера Office Web <https://atl-officewebapps-001.litwareinc.com/m/ParticipantFrame.aspx?a=0&amp;embed=true&amp> Apps:**
+ **Внутренняя страница участника сервера Office Web <https://atl-officewebapps-001.litwareinc.com/m/ParticipantFrame.aspx?a=0&amp;embed=true&amp> Apps:**
   
 Если событие LS Data MCU отображается с идентификатором события 41033, это означает, что произошел сбой обнаружения сервера Office Web Apps Server. В этом случае Skype для бизнеса Server будет пытаться найти только что настроенный сервер Office Web Apps столько раз, сколько необходимо. Если происходит многократный сбой процесса обнаружения, следует удалить сервер Office Web Apps из документа топологии, опубликовать обновленную топологию, а затем снова попробовать добавить сервер Office Web Apps в топологию после устранения неполадок, связанных с подключением.
   

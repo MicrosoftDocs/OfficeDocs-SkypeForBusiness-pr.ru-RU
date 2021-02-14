@@ -28,7 +28,7 @@ ms.locfileid: "49819099"
 
 Чтобы создать собственный ПИН-код, выберите **Вручную ввести определенный ПИН-код**, а затем введите в текстовое поле ПИН-код, который удовлетворяет требованиям к ПИН-кодам, заданным в параметрах политики ПИН-кодов.
 
-Подробные сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнеса Server, см. в под управлением Skype для бизнеса [Server 2015.](../../manage/manage.md)
+For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).
 
 ## <a name="see-also"></a>См. также
 
