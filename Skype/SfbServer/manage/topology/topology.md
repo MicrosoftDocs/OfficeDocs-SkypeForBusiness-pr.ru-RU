@@ -19,21 +19,21 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49826289"
 ---
-# <a name="manage-your-topology-in-skype-for-business-server"></a><span data-ttu-id="e911c-103">Управление топологией в Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="e911c-103">Manage your topology in Skype for Business Server</span></span> 
+# <a name="manage-your-topology-in-skype-for-business-server"></a><span data-ttu-id="ac6df-103">Управление топологией в Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="ac6df-103">Manage your topology in Skype for Business Server</span></span> 
  
-<span data-ttu-id="e911c-104">**Сводка:** Узнайте о действиях по управлению топологией в Skype для бизнеса Server.</span><span class="sxs-lookup"><span data-stu-id="e911c-104">**Summary:** Learn about the steps to manage your topology in Skype for Business Server.</span></span>
+<span data-ttu-id="ac6df-104">**Сводка:** Узнайте о действиях по управлению топологией в Skype для бизнеса Server.</span><span class="sxs-lookup"><span data-stu-id="ac6df-104">**Summary:** Learn about the steps to manage your topology in Skype for Business Server.</span></span>
   
-<span data-ttu-id="e911c-105">В следующих подушаниях указаны пошаговая инструкция по задачам, которые связаны с управлением топологией Skype для бизнеса Server и серверами переднего сервера.</span><span class="sxs-lookup"><span data-stu-id="e911c-105">The following topics provide step-by-step instructions on tasks involved with managing your Skype for Business Server topology and your Front End Servers.</span></span>
+<span data-ttu-id="ac6df-105">В следующих подушаниях указаны пошаговая инструкция по задачам, которые связаны с управлением топологией Skype для бизнеса Server и серверами переднего сервера.</span><span class="sxs-lookup"><span data-stu-id="ac6df-105">The following topics provide step-by-step instructions on tasks involved with managing your Skype for Business Server topology and your Front End Servers.</span></span>
   
-- [<span data-ttu-id="e911c-106">Управление серверами переднего плана</span><span class="sxs-lookup"><span data-stu-id="e911c-106">Manage Front End Servers</span></span>](manage-front-end-servers.md)
+- [<span data-ttu-id="ac6df-106">Управление серверами переднего плана</span><span class="sxs-lookup"><span data-stu-id="ac6df-106">Manage Front End Servers</span></span>](manage-front-end-servers.md)
     
-- [<span data-ttu-id="e911c-107">Управление базами данных с помощью группы доступности AlwaysOn</span><span class="sxs-lookup"><span data-stu-id="e911c-107">Manage databases with an AlwaysOn Availability Group</span></span>](manage-databases.md)
+- [<span data-ttu-id="ac6df-107">Управление базами данных с помощью группы доступности AlwaysOn</span><span class="sxs-lookup"><span data-stu-id="ac6df-107">Manage databases with an AlwaysOn Availability Group</span></span>](manage-databases.md)
 
-- [<span data-ttu-id="e911c-108">Исправление или обновление тыл сервера или сервера Standard Edition</span><span class="sxs-lookup"><span data-stu-id="e911c-108">Patch or update a Back End Server or Standard Edition server</span></span>](patch-or-update-a-back-end-or-standard-edition-server.md)
+- [<span data-ttu-id="ac6df-108">Исправление или обновление тыл сервера или сервера Standard Edition</span><span class="sxs-lookup"><span data-stu-id="ac6df-108">Patch or update a Back End Server or Standard Edition server</span></span>](patch-or-update-a-back-end-or-standard-edition-server.md)
     
-- [<span data-ttu-id="e911c-109">Перемещение данных из файлов в новое хранилище файлов</span><span class="sxs-lookup"><span data-stu-id="e911c-109">Move File Store Data to a New File Store</span></span>](../../help-topics/help-topobld/move-file-store-data.md)
+- [<span data-ttu-id="ac6df-109">Перемещение данных из файлов в новое хранилище файлов</span><span class="sxs-lookup"><span data-stu-id="ac6df-109">Move File Store Data to a New File Store</span></span>](../../help-topics/help-topobld/move-file-store-data.md)
 
-- [<span data-ttu-id="e911c-110">Управление службами</span><span class="sxs-lookup"><span data-stu-id="e911c-110">Manage services</span></span>](manage-services.md)
+- [<span data-ttu-id="ac6df-110">Управление службами</span><span class="sxs-lookup"><span data-stu-id="ac6df-110">Manage services</span></span>](manage-services.md)
 
     
 

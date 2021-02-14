@@ -22,8 +22,8 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49827219"
 ---
-# <a name="import-certificate-summary"></a><span data-ttu-id="a603f-104">Импорт сертификата (сводка)</span><span class="sxs-lookup"><span data-stu-id="a603f-104">Import Certificate (Summary)</span></span>
+# <a name="import-certificate-summary"></a><span data-ttu-id="aaf2a-104">Импорт сертификата (сводка)</span><span class="sxs-lookup"><span data-stu-id="aaf2a-104">Import Certificate (Summary)</span></span>
  
-<span data-ttu-id="a603f-p102">На странице **Сводка импорта сертификата** предоставляется такая информация, как имя файла, путь и наличие закрытого ключа. После просмотра сводной информации нажмите кнопку **Далее**, чтобы продолжить.</span><span class="sxs-lookup"><span data-stu-id="a603f-p102">On the **Import Certificate Summary** page, you are presented with a summary of the File Name, path, and presence of a private key. After you have reviewed the summary, click **Next** to continue.</span></span>
+<span data-ttu-id="aaf2a-p102">На странице **Сводка импорта сертификата** предоставляется такая информация, как имя файла, путь и наличие закрытого ключа. После просмотра сводной информации нажмите кнопку **Далее**, чтобы продолжить.</span><span class="sxs-lookup"><span data-stu-id="aaf2a-p102">On the **Import Certificate Summary** page, you are presented with a summary of the File Name, path, and presence of a private key. After you have reviewed the summary, click **Next** to continue.</span></span>
   
 

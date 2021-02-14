@@ -23,8 +23,8 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49828759"
 ---
-# <a name="media-bypass-planning-tool"></a><span data-ttu-id="d6908-104">Обход посредника (средство планирования)</span><span class="sxs-lookup"><span data-stu-id="d6908-104">Media Bypass (Planning Tool)</span></span>
+# <a name="media-bypass-planning-tool"></a><span data-ttu-id="890f0-104">Обход посредника (средство планирования)</span><span class="sxs-lookup"><span data-stu-id="890f0-104">Media Bypass (Planning Tool)</span></span>
  
-<span data-ttu-id="d6908-105">Обход сервера-посредника означает исключение сервера-посредника из пути (когда это возможно) для звонков, сигналы которых проходят через сервер-посредник.</span><span class="sxs-lookup"><span data-stu-id="d6908-105">Media bypass refers to removing the Mediation Server from the media path whenever possible for calls whose signaling traverses the Mediation Server.</span></span> <span data-ttu-id="d6908-106">For more details, see [Plan for media bypass in Skype for Business 2015](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md).</span><span class="sxs-lookup"><span data-stu-id="d6908-106">For more details, see [Plan for media bypass in Skype for Business 2015](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md).</span></span>
+<span data-ttu-id="890f0-105">Обход сервера-посредника означает исключение сервера-посредника из пути (когда это возможно) для звонков, сигналы которых проходят через сервер-посредник.</span><span class="sxs-lookup"><span data-stu-id="890f0-105">Media bypass refers to removing the Mediation Server from the media path whenever possible for calls whose signaling traverses the Mediation Server.</span></span> <span data-ttu-id="890f0-106">For more details, see [Plan for media bypass in Skype for Business 2015](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md).</span><span class="sxs-lookup"><span data-stu-id="890f0-106">For more details, see [Plan for media bypass in Skype for Business 2015](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md).</span></span>
   
 

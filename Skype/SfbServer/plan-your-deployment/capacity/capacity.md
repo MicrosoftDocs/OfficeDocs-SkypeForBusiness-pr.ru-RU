@@ -20,21 +20,21 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49827699"
 ---
-# <a name="capacity-planning-for-skype-for-business-server"></a><span data-ttu-id="7735f-103">Планирование емкости для Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="7735f-103">Capacity planning for Skype for Business Server</span></span>
+# <a name="capacity-planning-for-skype-for-business-server"></a><span data-ttu-id="d72da-103">Планирование емкости для Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="d72da-103">Capacity planning for Skype for Business Server</span></span>
  
-<span data-ttu-id="7735f-104">Разделы в этом разделе помогут вам понять, как планировать и развертывать Skype для бизнеса Server, чтобы вы могли адекватно спланировать количество пользователей в организации и спланировать нагрузку на сервер, генерируемую их действиями.</span><span class="sxs-lookup"><span data-stu-id="7735f-104">The topics in this section help you understand how to plan and deploy Skype for Business Server so that you can adequately plan for the number of users in your organization and plan for the server load that their activities generate.</span></span> 
+<span data-ttu-id="d72da-104">Разделы в этом разделе помогут вам понять, как планировать и развертывать Skype для бизнеса Server, чтобы вы могли адекватно спланировать количество пользователей в организации и спланировать нагрузку на сервер, генерируемую их действиями.</span><span class="sxs-lookup"><span data-stu-id="d72da-104">The topics in this section help you understand how to plan and deploy Skype for Business Server so that you can adequately plan for the number of users in your organization and plan for the server load that their activities generate.</span></span> 
   
 > [!NOTE]
-> <span data-ttu-id="7735f-105">Во всех рекомендациях этого раздела предполагается, что на серверах установлен накопительный обновления Skype для бизнеса за ноябрь 2015 г. или более поздней версии.</span><span class="sxs-lookup"><span data-stu-id="7735f-105">All recommendations in this section assume that you have installed Skype for Business Cumulative Update, November 2015, or later, on your servers.</span></span> 
+> <span data-ttu-id="d72da-105">Во всех рекомендациях этого раздела предполагается, что на серверах установлен накопительный обновления Skype для бизнеса за ноябрь 2015 г. или более поздней версии.</span><span class="sxs-lookup"><span data-stu-id="d72da-105">All recommendations in this section assume that you have installed Skype for Business Cumulative Update, November 2015, or later, on your servers.</span></span> 
   
-## <a name="in-this-section"></a><span data-ttu-id="7735f-106">В этом разделе:</span><span class="sxs-lookup"><span data-stu-id="7735f-106">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="d72da-106">В этом разделе:</span><span class="sxs-lookup"><span data-stu-id="d72da-106">In this section</span></span>
 
-- [<span data-ttu-id="7735f-107">Использование пользовательской модели планирования емкости для Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="7735f-107">Capacity planning user model usage for Skype for Business Server</span></span>](user-model.md)
+- [<span data-ttu-id="d72da-107">Использование пользовательской модели планирования емкости для Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="d72da-107">Capacity planning user model usage for Skype for Business Server</span></span>](user-model.md)
     
-- [<span data-ttu-id="7735f-108">Оценка использования голосовой почты и трафика для Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="7735f-108">Estimating voice usage and traffic for Skype for Business Server</span></span>](estimating-voice-traffic.md)
+- [<span data-ttu-id="d72da-108">Оценка использования голосовой почты и трафика для Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="d72da-108">Estimating voice usage and traffic for Skype for Business Server</span></span>](estimating-voice-traffic.md)
     
-- [<span data-ttu-id="7735f-109">Рекомендации по развертыванию сервера-посредника в Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="7735f-109">Deployment guidelines for Mediation Server in Skype for Business Server</span></span>](mediation-server-deployment-guidelines.md)
+- [<span data-ttu-id="d72da-109">Рекомендации по развертыванию сервера-посредника в Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="d72da-109">Deployment guidelines for Mediation Server in Skype for Business Server</span></span>](mediation-server-deployment-guidelines.md)
     
-- [<span data-ttu-id="7735f-110">Пользовательские модели в Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="7735f-110">User models in Skype for Business Server</span></span>](user-models.md)
+- [<span data-ttu-id="d72da-110">Пользовательские модели в Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="d72da-110">User models in Skype for Business Server</span></span>](user-models.md)
     
 

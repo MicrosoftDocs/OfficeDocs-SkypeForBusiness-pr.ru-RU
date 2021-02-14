@@ -22,13 +22,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49829089"
 ---
-# <a name="select-pstn-usage-record"></a><span data-ttu-id="6447d-103">Выбор записи использования ТСОП</span><span class="sxs-lookup"><span data-stu-id="6447d-103">Select PSTN Usage Record</span></span>
+# <a name="select-pstn-usage-record"></a><span data-ttu-id="19fb1-103">Выбор записи использования ТСОП</span><span class="sxs-lookup"><span data-stu-id="19fb1-103">Select PSTN Usage Record</span></span>
  
-<span data-ttu-id="6447d-104">Используйте диалоговое окно **Выбрать запись об использовании ТСОП** для поиска существующего режима работы с телефонной сетью общего пользования (ТСОП), который вы могли бы использовать.</span><span class="sxs-lookup"><span data-stu-id="6447d-104">Use the **Select PSTN Usage Record** dialog box to find an existing public switched telephone network (PSTN) usage record that you can use.</span></span>
+<span data-ttu-id="19fb1-104">Используйте диалоговое окно **Выбрать запись об использовании ТСОП** для поиска существующего режима работы с телефонной сетью общего пользования (ТСОП), который вы могли бы использовать.</span><span class="sxs-lookup"><span data-stu-id="19fb1-104">Use the **Select PSTN Usage Record** dialog box to find an existing public switched telephone network (PSTN) usage record that you can use.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="6447d-105">Чтобы получить все доступные режимы работы с ТСОП, ничего не вводите в поле поиска и нажмите значок поиска.</span><span class="sxs-lookup"><span data-stu-id="6447d-105">To retrieve all available PSTN usage records, do not type anything in the search box, and then click the search icon.</span></span> 
+> <span data-ttu-id="19fb1-105">Чтобы получить все доступные режимы работы с ТСОП, ничего не вводите в поле поиска и нажмите значок поиска.</span><span class="sxs-lookup"><span data-stu-id="19fb1-105">To retrieve all available PSTN usage records, do not type anything in the search box, and then click the search icon.</span></span> 
   
-<span data-ttu-id="6447d-106">Подробные сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнеса Server, см. в под управлением Skype для бизнеса [Server 2015.](../../manage/manage.md)</span><span class="sxs-lookup"><span data-stu-id="6447d-106">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="19fb1-106">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="19fb1-106">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
   
 

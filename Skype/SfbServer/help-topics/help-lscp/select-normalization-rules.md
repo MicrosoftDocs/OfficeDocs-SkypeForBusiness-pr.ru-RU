@@ -22,12 +22,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49829099"
 ---
-# <a name="select-normalization-rules"></a><span data-ttu-id="2b76a-104">Выбор правил нормализации</span><span class="sxs-lookup"><span data-stu-id="2b76a-104">Select Normalization Rules</span></span>
+# <a name="select-normalization-rules"></a><span data-ttu-id="27c4f-104">Выбор правил нормализации</span><span class="sxs-lookup"><span data-stu-id="27c4f-104">Select Normalization Rules</span></span>
  
-<span data-ttu-id="2b76a-105">Правила нормализации используют регулярные выражения .NET Framework для перевода набираемой телефонной связи в формат E.164.</span><span class="sxs-lookup"><span data-stu-id="2b76a-105">Normalization rules use .NET Framework regular expressions to translate dialed phone numbers to E.164 format.</span></span> <span data-ttu-id="2b76a-106">Каждой абонентской группе должно быть назначено одно или несколько правил нормализации.</span><span class="sxs-lookup"><span data-stu-id="2b76a-106">Each dial plan must be assigned one or more normalization rules.</span></span>
+<span data-ttu-id="27c4f-105">Правила нормализации используют регулярные выражения .NET Framework для перевода набираемой телефонной связи в формат E.164.</span><span class="sxs-lookup"><span data-stu-id="27c4f-105">Normalization rules use .NET Framework regular expressions to translate dialed phone numbers to E.164 format.</span></span> <span data-ttu-id="27c4f-106">Каждой абонентской группе должно быть назначено одно или несколько правил нормализации.</span><span class="sxs-lookup"><span data-stu-id="27c4f-106">Each dial plan must be assigned one or more normalization rules.</span></span>
   
-<span data-ttu-id="2b76a-107">Чтобы использовать существующее правило нормализации, щелкните правило в списке, а затем нажмите кнопку **ОК**.</span><span class="sxs-lookup"><span data-stu-id="2b76a-107">To use an existing normalization rule, click a rule in the list and then click **OK**.</span></span>
+<span data-ttu-id="27c4f-107">Чтобы использовать существующее правило нормализации, щелкните правило в списке, а затем нажмите кнопку **ОК**.</span><span class="sxs-lookup"><span data-stu-id="27c4f-107">To use an existing normalization rule, click a rule in the list and then click **OK**.</span></span>
   
-<span data-ttu-id="2b76a-108">Подробные сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнеса Server, см. в под управлением Skype для бизнеса [Server 2015.](../../manage/manage.md)</span><span class="sxs-lookup"><span data-stu-id="2b76a-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="27c4f-108">Подробные сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнеса Server, см. в под управлением Skype для бизнеса [Server 2015.](../../manage/manage.md)</span><span class="sxs-lookup"><span data-stu-id="27c4f-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
   
 

@@ -22,11 +22,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49826909"
 ---
-# <a name="associate-a-subnet"></a><span data-ttu-id="515f2-104">Связывание подсети</span><span class="sxs-lookup"><span data-stu-id="515f2-104">Associate a Subnet</span></span>
+# <a name="associate-a-subnet"></a><span data-ttu-id="06155-104">Связывание подсети</span><span class="sxs-lookup"><span data-stu-id="06155-104">Associate a Subnet</span></span>
 
-<span data-ttu-id="515f2-105">Что нужно сделать</span><span class="sxs-lookup"><span data-stu-id="515f2-105">What do you want to do?</span></span> <span data-ttu-id="515f2-106">Щелкните ссылку на задачу, которую необходимо выполнить.</span><span class="sxs-lookup"><span data-stu-id="515f2-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="06155-105">Что нужно сделать</span><span class="sxs-lookup"><span data-stu-id="06155-105">What do you want to do?</span></span> <span data-ttu-id="06155-106">Щелкните ссылку на задачу, которую необходимо выполнить.</span><span class="sxs-lookup"><span data-stu-id="06155-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="515f2-107">Настройка сетевых подсетей</span><span class="sxs-lookup"><span data-stu-id="515f2-107">Configuring Network Subnets</span></span>](https://technet.microsoft.com/library/1ba8c4e3-fbc7-4758-88ac-d651fef17bed.aspx)
+- [<span data-ttu-id="06155-107">Настройка сетевых подсетей</span><span class="sxs-lookup"><span data-stu-id="06155-107">Configuring Network Subnets</span></span>](https://technet.microsoft.com/library/1ba8c4e3-fbc7-4758-88ac-d651fef17bed.aspx)
 
-<span data-ttu-id="515f2-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="515f2-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="06155-108">Подробные сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнеса Server, см. в под управлением Skype для бизнеса [Server 2015.](../../manage/manage.md)</span><span class="sxs-lookup"><span data-stu-id="06155-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
 

@@ -23,10 +23,10 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49828949"
 ---
-# <a name="mobility-planning-tool"></a><span data-ttu-id="3725d-103">Mobility (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="3725d-103">Mobility (Planning Tool)</span></span>
+# <a name="mobility-planning-tool"></a><span data-ttu-id="b074f-103">Mobility (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="b074f-103">Mobility (Planning Tool)</span></span>
  
-<span data-ttu-id="3725d-104">Функция мобильности в Skype для бизнеса Server 2015 поддерживает функции Skype для бизнеса на мобильных устройствах.</span><span class="sxs-lookup"><span data-stu-id="3725d-104">The mobility feature in Skype for Business Server 2015 supports Skype for Business functionality on mobile devices.</span></span>
+<span data-ttu-id="b074f-104">Функция мобильности в Skype для бизнеса Server 2015 поддерживает функции Skype для бизнеса на мобильных устройствах.</span><span class="sxs-lookup"><span data-stu-id="b074f-104">The mobility feature in Skype for Business Server 2015 supports Skype for Business functionality on mobile devices.</span></span>
   
-<span data-ttu-id="3725d-105">Функциональность мобильности та же, что и в Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="3725d-105">Mobility functionality is the same as in Lync Server 2013.</span></span> <span data-ttu-id="3725d-106">Дополнительные сведения о подготовке среды для мобильной работы см. в планировании мобильности [в Lync Server 2013.](https://technet.microsoft.com/library/hh689981%28v=ocs.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="3725d-106">For more details about preparing your environment for mobility, see [Planning for mobility in Lync Server 2013](https://technet.microsoft.com/library/hh689981%28v=ocs.15%29.aspx).</span></span>
+<span data-ttu-id="b074f-105">Функциональность мобильности та же, что и в Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="b074f-105">Mobility functionality is the same as in Lync Server 2013.</span></span> <span data-ttu-id="b074f-106">Дополнительные сведения о подготовке среды для мобильной работы см. в планировании мобильности [в Lync Server 2013.](https://technet.microsoft.com/library/hh689981%28v=ocs.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="b074f-106">For more details about preparing your environment for mobility, see [Planning for mobility in Lync Server 2013](https://technet.microsoft.com/library/hh689981%28v=ocs.15%29.aspx).</span></span>
   
 
