@@ -58,7 +58,7 @@ ms.locfileid: "49817429"
         Set-CsAccessEdgeConfiguration -UseDnsSrvRouting -EnablePartnerDiscovery $True
 
 
-## <a name="to-disable-discovery-of-federation-partners"></a>Отключение обнаружения федератных партнеров
+## <a name="to-disable-discovery-of-federation-partners"></a>Отключение обнаружения партнеров федерации
 
   - Чтобы отключить обнаружение федеративных партнеров, задайте для свойства **EnablePartnerDiscovery** значение False ($False).
     

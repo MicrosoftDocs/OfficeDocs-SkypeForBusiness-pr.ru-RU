@@ -35,7 +35,7 @@ ms.locfileid: "49816639"
     
 ## <a name="viewing-cdr-configuration-information-by-using-windows-powershell-cmdlets"></a>Просмотр сведений о конфигурации CDR с помощью Windows PowerShell управления
 
-Параметры конфигурации CDR можно просмотреть с помощью Windows PowerShell и Get-CsCdrConfiguration управления. Вы можете запустить этот Windows PowerShell из оболочки управления Skype для бизнеса Server. Подробные сведения об использовании удаленного Windows PowerShell для подключения к Skype для бизнеса Server см. в статье [блога "Краткое руководство. Управление Microsoft Lync Server 2010 с](https://go.microsoft.com/fwlink/p/?linkId=255876)помощью удаленной powerShell". В Skype для бизнеса Server этот процесс тот же.
+Параметры конфигурации CDR можно просмотреть с помощью Windows PowerShell и Get-CsCdrConfiguration управления. Вы можете запустить этот Windows PowerShell. Подробные сведения об использовании удаленного Windows PowerShell для подключения к Skype для бизнеса Server см. в статье [блога "Краткое руководство. Управление Microsoft Lync Server 2010 с](https://go.microsoft.com/fwlink/p/?linkId=255876)помощью удаленной powerShell". В Skype для бизнеса Server этот процесс тот же.
   
 ### <a name="to-view-cdr-configuration-information"></a>Просмотр данных конфигурации CDR
 

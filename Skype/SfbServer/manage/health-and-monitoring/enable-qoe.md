@@ -42,7 +42,7 @@ ms.locfileid: "49816859"
 
 ## <a name="enabling-qoe-by-using-windows-powershell-cmdlets"></a>Включение QoE с помощью Windows PowerShell
 
-Включить QoE можно с помощью Windows PowerShell и с помощью Windows PowerShell **Set-CsQoEConfiguration.** Вы можете запустить этот Windows PowerShell из оболочки управления Skype для бизнеса Server. Подробные сведения об использовании удаленного Windows PowerShell для подключения к Skype для бизнеса Server см. в статье [блога "Краткое руководство. Управление Microsoft Lync Server 2010 с помощью удаленной службы PowerShell".](https://go.microsoft.com/fwlink/p/?linkId=255876) В Skype для бизнеса Server этот процесс тот же.
+Включить QoE можно с помощью Windows PowerShell и с помощью Windows PowerShell **Set-CsQoEConfiguration.** Вы можете запустить этот Windows PowerShell. Подробные сведения об использовании удаленного Windows PowerShell для подключения к Skype для бизнеса Server см. в статье [блога "Краткое руководство. Управление Microsoft Lync Server 2010 с](https://go.microsoft.com/fwlink/p/?linkId=255876)помощью удаленной powerShell". В Skype для бизнеса Server этот процесс тот же.
 
 ### <a name="to-enable-qoe-for-a-single-location"></a>Включение службы качества взаимодействия для одного расположения
 
@@ -68,7 +68,7 @@ ms.locfileid: "49816859"
   Get-CsQoEConfiguration | Set-CsQoEConfiguration "site:Redmond" -EnableQoE $True
   ```
 
-Подробные сведения см. в [подстроке Set-CsQoEConfiguration.](https://docs.microsoft.com/powershell/module/skype/set-csqoeconfiguration?view=skype-ps)
+Подробные сведения [см. в подстроке Set-CsQoEConfiguration.](https://docs.microsoft.com/powershell/module/skype/set-csqoeconfiguration?view=skype-ps)
 
 ## <a name="see-also"></a>См. также
 

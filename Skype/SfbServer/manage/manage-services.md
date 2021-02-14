@@ -48,14 +48,14 @@ ms.locfileid: "49816599"
 1. Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи пользователя, назначенной роли CsUserAdministrator или CsAdministrator.
 2. Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Skype для бизнеса Server. 
 3. In the left navigation bar, click **Topology**. 
-4. На странице **"Состояние"** отсортировать список или найти нужный компьютер, а затем щелкните имя компьютера.
+4. На странице **"Состояние"** отсортировать или найти нужный компьютер в списке, а затем щелкните имя компьютера.
 5. Do any of the following:
    - To see the latest status of services running on the computer, click **Get service status**.
    - Чтобы просмотреть список конкретных служб, запущенных на компьютере, и состояние каждой из них, щелкните **Свойства**, а затем нажмите кнопку **Закрыть** для возврата в список.
     
 ### <a name="viewing-service-status-with-windows-powershell-cmdlets"></a>Просмотр состояния службы с помощью cmdlets Windows Powershell
 
-Вы также можете просмотреть состояние службы с Windows PowerShell и с помощью Windows PowerShell **Get-CsWindowsService.** Вы можете запустить этот командлет из командной консоли Skype для бизнеса Server или из удаленного сеанса Windows PowerShell. Подробные сведения об использовании удаленного Windows PowerShell для подключения к Skype для бизнеса Server см. в статье [блога "Краткое руководство. Управление Microsoft Lync Server 2010 с помощью удаленной службы PowerShell".](https://go.microsoft.com/fwlink/p/?linkId=255876) В Skype для бизнеса Server этот процесс тот же.
+Вы также можете просмотреть состояние службы с Windows PowerShell и с помощью Windows PowerShell **Get-CsWindowsService.** Вы можете запустить этот командлет из командной консоли Skype для бизнеса Server или из удаленного сеанса Windows PowerShell. Подробные сведения об использовании удаленного Windows PowerShell для подключения к Skype для бизнеса Server см. в статье [блога "Краткое руководство. Управление Microsoft Lync Server 2010 с](https://go.microsoft.com/fwlink/p/?linkId=255876)помощью удаленной powerShell". В Skype для бизнеса Server этот процесс тот же.
   
 ### <a name="to-view-service-status"></a>Просмотр состояния службы
 
@@ -104,7 +104,7 @@ Get-CsWindowsService -ComputerName atl-cs-001.litwareinc.com | Select-Object Rol
   
 ### <a name="to-start-or-stop-all-skype-for-business-services-on-a-computer"></a>Запуск или остановка всех служб Skype для бизнеса на компьютере
 
-1. Из учетной записи пользователя, которая является членом группы RTCUniversalServerAdmins (или имеет эквивалентные права пользователя) или которой назначена роль CsServerAdministrator или CsAdministrator, войдите на любой компьютер в сети, в которой развернут Skype для бизнеса Server. Чтобы определить, назначена ли вам роль CsServerAdministrator или CsAdministrator RBAC, вы можете использовать следующую команду:
+1. Из учетной записи пользователя, которая является членом группы RTCUniversalServerAdmins (или имеет эквивалентные права пользователя) или которой назначена роль CsServerAdministrator или CsAdministrator, войдите на любой компьютер в сети, в которой развернут Skype для бизнеса Server. Чтобы определить, назначена ли вам роль CsServerAdministrator или CsAdministrator RBAC, можно использовать следующую команду:
     
    ```PowerShell
    Get-CsAdminRoleAssignment -Identity "kenmyer"

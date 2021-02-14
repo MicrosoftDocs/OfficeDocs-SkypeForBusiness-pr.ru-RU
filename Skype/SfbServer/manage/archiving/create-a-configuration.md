@@ -63,7 +63,7 @@ ms.locfileid: "49817659"
     
 ## <a name="configure-archiving-options-by-using-windows-powershell"></a>Настройка параметров архива с помощью Windows PowerShell
 
-Можно также настроить параметры архивации для определенного сайта или пула с помощью cmdlet **New-CsArchivingConfiguration.**
+Можно также настроить параметры архивации для определенного сайта или пула с помощью **cmdlet New-CsArchivingConfiguration.**
   
 Следующая команда создает новую коллекцию параметров конфигурации архивации для сайта Redmond:
   

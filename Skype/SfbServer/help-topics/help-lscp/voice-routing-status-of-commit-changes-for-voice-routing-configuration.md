@@ -1,5 +1,5 @@
 ---
-title: Voice Routing Status of Commit Changes for Voice Routing Configuration
+title: Состояние маршрутации голосовой почты для фиксации изменений в конфигурации маршрутации голосовой почты
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -26,6 +26,6 @@ ms.locfileid: "49815319"
  
 Если изменения не были завершены, просмотрите сообщения в данном диалоговом окне, измените конфигурацию маршрутизации голосовых данных и повторите попытку.
   
-Подробные сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнеса Server, см. в под управлением Skype для бизнеса [Server 2015.](../../manage/manage.md)
+For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).
   
 

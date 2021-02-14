@@ -26,7 +26,7 @@ ms.locfileid: "49817769"
 If you have created one or more user policies for archiving for users homed on Skype for Business Server, you can implement archiving support for specific users by applying the appropriate policies to those users or user groups. Например, если вы создаете политику для поддержки архива внутренних коммуникаций, вы можете применить ее по крайней мере к одному пользователю или группе пользователей для поддержки архива взаимодействия skype для бизнеса Server пользователя.
   
 > [!NOTE]
-> Если для развертывания включена интеграция с Microsoft Exchange, политики удержания exchange In-Place контролируют, включена ли архивация для пользователей, которые размещены в Exchange и для их почтовых ящиков включено In-Place удержание. For details, [see Plan for archiving in Skype for Business Server](../../plan-your-deployment/archiving/archiving.md) and [Configure integration with Exchange storage for Skype for Business Server.](../../deploy/deploy-archiving/configure-integration-with-exchange-storage.md) 
+> Если вы включили интеграцию Microsoft Exchange для развертывания, политики удержания exchange In-Place контролируют, включена ли архивация для пользователей, которые размещены в Exchange и для их почтовых ящиков включено In-Place удержание. For details, see [Plan for archiving in Skype for Business Server](../../plan-your-deployment/archiving/archiving.md) and [Configure integration with Exchange storage for Skype for Business Server.](../../deploy/deploy-archiving/configure-integration-with-exchange-storage.md) 
   
 ## <a name="apply-a-user-policy-by-using-the-control-panel"></a>Применение политики пользователя с помощью панели управления
 
@@ -69,6 +69,6 @@ Get-CsUser -Filter {RegistrarPool -eq "atl-cs-001.contoso.com"} | Grant-CsArchiv
 Grant-CsArchivingPolicy -Identity "Ken Myer" -PolicyName $Null
 ```
 
-Подробные сведения [см. в документации полету Grant-CsArchivingPolicy.](https://docs.microsoft.com/powershell/module/skype/grant-csarchivingpolicy?view=skype-ps)
+Подробные сведения см. в документации по [cmdlet Grant-CsArchivingPolicy.](https://docs.microsoft.com/powershell/module/skype/grant-csarchivingpolicy?view=skype-ps)
   
 

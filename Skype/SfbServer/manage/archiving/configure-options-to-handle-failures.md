@@ -43,7 +43,7 @@ ms.locfileid: "49817679"
     
 ## <a name="configure-critical-mode-by-using-windows-powershell"></a>Настройка критического режима с помощью Windows PowerShell
 
-Можно также указать, следует ли разрешить сеансы связи в случае сбоя, который помешает архивации, с помощью cmdlet **Set-CsArchivingConfiguration** с параметром BlockOnArchiveFailure.
+Можно также указать, следует ли разрешить сеансы связи в случае сбоя, который предотвратит архивацию, с помощью cmdlet **Set-CsArchivingConfiguration** с параметром BlockOnArchiveFailure.
   
 Например, следующая команда отключает связь в случае сбоя архива:
   

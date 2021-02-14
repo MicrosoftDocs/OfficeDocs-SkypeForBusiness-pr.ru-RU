@@ -34,6 +34,6 @@ ms.locfileid: "49815299"
 
 - Нажмите кнопку **Справка**, чтобы ознакомиться с данным разделом справки.
 
-Дополнительные сведения о добавлении серверов в существующую топологию см. в подметке ["Определение топологии по краям".](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx) Дополнительные сведения о переносе серверов см. в [этапе 5. Добавление Lync Server 2013 Preview Edge Server в пилотный пул.](https://technet.microsoft.com/library/d2fd0a2f-8fec-4f86-a5b0-7f7d03172016.aspx)
+Дополнительные сведения о добавлении edge Servers в существующую топологию см. в подметке ["Определение топологии по краям".](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx) Дополнительные сведения о переносе серверов см. в [этапе 5. Добавление Lync Server 2013 Preview Edge Server в пилотный пул.](https://technet.microsoft.com/library/d2fd0a2f-8fec-4f86-a5b0-7f7d03172016.aspx)
 
 

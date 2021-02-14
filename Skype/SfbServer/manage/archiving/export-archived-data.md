@@ -31,13 +31,13 @@ ms.locfileid: "49817569"
 
 Вы можете экспортировать архивные данные с помощью Export-CSArchivingData управления. 
   
-Следующая команда экспортирует все данные архива, написанные в базу данных atl-sql-001.contoso.com с 1 июня 2012 г. Файл результатов будет сохранен в папке C:\ArchivingExports.
+Следующая команда экспортирует все данные архива, которые были записаны в базу данных atl-sql-001.contoso.com с 1 июня 2012 г. Файл результатов будет сохранен в папке C:\ArchivingExports.
   
 ```PowerShell
 Export-CsArchivingData -Identity "ArchivingDatabase:atl-sql-001.contoso.com" -StartDate 6/1/2012 -OutputFolder "C:\ArchivingExports"
 ```
 
-Следующая команда экспортирует данные архива для одного пользователя: kenmyer@contoso.com. Это делается путем включив параметр UserUri, за которым следует SIP-адрес пользователя. Например: 
+Следующая команда экспортирует данные архива для одного пользователя: kenmyer@contoso.com. Это делается путем включив параметр UserUri, за которым следует SIP-адрес пользователя. Пример: 
   
 ```PowerShell
 Export-CsArchivingData -Identity "ArchivingDatabase:atl-sql-001.contoso.com" -StartDate 6/1/2012 -OutputFolder "C:\ArchivingExports" -UserUri "sip:kenmyer@contoso.com"

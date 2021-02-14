@@ -14,7 +14,7 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: You can delete any site or user policy that is listed in the Skype for Business Server Control Panel on the External Access Policy page.
+description: Вы можете удалить любую политику сайта или пользователя, указанную в панели управления Skype для бизнеса Server на странице "Политика внешнего доступа".
 ms.openlocfilehash: 0fbde98868bfe7f8dbe9f97db2350e02dba44560
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
@@ -31,7 +31,7 @@ ms.locfileid: "49817279"
   - Сбросьте глобальную политику до значений по умолчанию. Параметры глобальной политики по умолчанию запрещают любой внешний доступ пользователей. Саму глобальную политику удалить невозможно.
 
 
-Вы можете удалить любую политику сайта или пользователя, указанную в панели управления Skype для бизнеса Server на странице **"Политика внешнего** доступа". При удалении глобальной политики она на самом деле не удаляется, а восстанавливаются параметры по умолчанию, не включающие поддержку доступа внешних пользователей. Подробные сведения о сбросе глобальной политики см. в подзапуске глобальной политики [для доступа внешних пользователей.](reset-the-global-policy-for-external-user-access.md)
+You can delete any site or user policy that is listed in the Skype for Business Server Control Panel on the **External Access Policy** page. При удалении глобальной политики она на самом деле не удаляется, а восстанавливаются параметры по умолчанию, не включающие поддержку доступа внешних пользователей. Подробные сведения о сбросе глобальной политики см. в подзапуске глобальной политики [для доступа внешних пользователей.](reset-the-global-policy-for-external-user-access.md)
 
 
 ## <a name="to-delete-a-site-or-user-policy-for-external-user-access"></a>Удаление политика узла или пользователя для доступа внешних пользователей
@@ -49,7 +49,7 @@ ms.locfileid: "49817279"
 
 ## <a name="removing-pin-policies-by-using-windows-powershell-cmdlets"></a>Удаление политик ПИН-кодов с помощью Windows PowerShell-кодов
 
-Политики внешнего доступа можно удалить с помощью Windows PowerShell и Remove-CsExternalAccessPolicy управления. Этот cmdlet можно запустить либо из оболочки управления Skype для бизнеса Server, либо из удаленного сеанса Windows PowerShell. 
+Политики внешнего доступа можно удалить с помощью Windows PowerShell и Remove-CsExternalAccessPolicy управления. Этот cmdlet можно запустить в оболочке управления Skype для бизнеса Server или в удаленном сеансе Windows PowerShell. 
 
 
 ## <a name="to-remove-a-specific-external-access-policy"></a>Удаление определенной политики внешнего доступа

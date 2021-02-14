@@ -45,7 +45,7 @@ ms.locfileid: "49816329"
 ## <a name="removing-trunk-configuration-settings-by-using-windows-powershell-cmdlets"></a>Удаление параметров конфигурации магистрали с помощью Windows PowerShell-
 
 
-Параметры конфигурации магистрали можно удалить с Windows PowerShell и с помощью Windows PowerShell **Remove-CsTrunkConfiguration.** Вы можете запустить этот Windows PowerShell из оболочки управления Skype для бизнеса Server. 
+Параметры конфигурации магистрали можно удалить с Windows PowerShell и с помощью Windows PowerShell **Remove-CsTrunkConfiguration.** Вы можете запустить этот Windows PowerShell. 
 
 **Удаление указанной коллекции параметров**
 

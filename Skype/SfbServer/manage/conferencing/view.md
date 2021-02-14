@@ -31,7 +31,7 @@ You can view conferencing policies by using Skype for Business Server Control Pa
     
 2.  Откройте панель управления Skype для бизнеса Server.
     
-3. В левой панели навигации щелкните **"Conferencing" (Conferencing),** а затем щелкните **"Conferencing Policy" (Политика).**
+3. В левой панели навигации щелкните **"Conferencing" (Conferencing),** а затем выберите **"Conferencing Policy" (Политика).**
     
 4. На странице **Политика конференц-связи** дважды щелкните политику, которую вы хотите просмотреть.
     
@@ -43,7 +43,7 @@ You can view conferencing policies by using Skype for Business Server Control Pa
     
 ## <a name="view-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>View conferencing policies by using Skype for Business Server Management Shell
 
-Чтобы просмотреть политики, используйте **get-CsConferencingPolicy:**
+Чтобы просмотреть политики conferencing, используйте cmdlet **Get-CsConferencingPolicy:**
   
 ```PowerShell
 Get-CsConferencingPolicy

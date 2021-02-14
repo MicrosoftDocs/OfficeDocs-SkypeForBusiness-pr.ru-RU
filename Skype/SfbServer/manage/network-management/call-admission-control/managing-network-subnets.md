@@ -45,7 +45,7 @@ ms.locfileid: "49816399"
 
 ### <a name="view-network-subnet-configuration-information-by-using-windows-powershell-cmdlets"></a>Просмотр сведений о конфигурации подсети с помощью Windows PowerShell
 
-Сведения о подсети можно просмотреть с помощью Windows PowerShell и Get-CsNetworkSubnet сети. Этот cmdlet можно запустить либо из оболочки управления Skype для бизнеса Server, либо из удаленного сеанса Windows PowerShell. 
+Сведения о подсети можно просмотреть с помощью Windows PowerShell и Get-CsNetworkSubnet сети. Этот cmdlet можно запустить в оболочке управления Skype для бизнеса Server или в удаленном сеансе Windows PowerShell. 
 
 ### <a name="to-view-network-subnet-information"></a>Просмотр сведений о подсети
 
@@ -65,11 +65,11 @@ ms.locfileid: "49816399"
 Дополнительные сведения см. в разделе справки по командлету [Get-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkSubnet).
 
 
-## <a name="create-or-modify-network-subnets"></a>Создание или изменение подсетей 
+## <a name="create-or-modify-network-subnets"></a>Создание или изменение подсетей сети 
 
 Сеть должна быть сопоставлена с сетевым узлом для определения географического расположения узла, принадлежащего этой подсети. Для настройки подсетей можно использовать панель управления Skype для бизнеса Server. На панели управления Skype для бизнеса Server можно создавать, изменять или удалять сетевую подсеть. 
 
-В большинстве развертывании Skype для бизнеса Server, где реализован контроль допуска звонков (CAC), обычно имеется большое количество подсетей. По этой причине зачастую лучше всего настраивать подсети из оболочки управления Skype для бизнеса Server. Оттуда можно вызвать **Командлет New-CsNetworkSubnet** вместе с командлетом Windows PowerShell **Import-CSV.** Используя эти командлеты, вы можете считывать параметры подсетей из файла данных с разделителями-запятыми  (CSV) и одновременно создавать несколько сетей. Примеры создания подсетей из файла CSV см. в разделе [New-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkSubnet).
+В большинстве развертывании Skype для бизнеса Server, где реализован контроль допуска звонков (CAC), обычно имеется большое количество подсетей. По этой причине зачастую лучше всего настраивать подсети из оболочки управления Skype для бизнеса Server. Оттуда вы можете вызвать **New-CsNetworkSubnet** в сочетании с командлетом Windows PowerShell **Import-CSV.** Используя эти командлеты, вы можете считывать параметры подсетей из файла данных с разделителями-запятыми  (CSV) и одновременно создавать несколько сетей. Примеры создания подсетей из файла CSV см. в разделе [New-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkSubnet).
 
 
 ### <a name="to-create-a-network-subnet"></a>Создание подсети

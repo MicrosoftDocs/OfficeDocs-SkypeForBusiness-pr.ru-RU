@@ -29,11 +29,11 @@ ms.locfileid: "49815719"
 
 ## <a name="resources-for-remote-learning"></a>Ресурсы для дистанционного обучения
 
-Требуется ли учебному заму или университету включить Microsoft Teams для дистанционного обучения? Вы можете быстро прибегать к работе с помощью [одной страницы](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-for-education-getting-started-1-pager.pdf?raw=true) "Начало работы" и любого из приведенного ниже материалов по внедрению.
+Требуется ли учебному заму или университету включить Microsoft Teams для дистанционного обучения? Быстрая начало работы с помощью одной [страницы](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-for-education-getting-started-1-pager.pdf?raw=true) "Начало работы" и любого из материалов по внедрению ниже!
 
 ## <a name="adoption-content"></a>Материалы по внедрению
 
-С помощью электронных писем, плакатов, раздаток и дополнительных ресурсов, которые вы можете использовать сейчас, подумайте, как это сделать. Вы также можете связаться с учащимися в Интернете и в разных городах с помощью нового цифрового инструмента с баннерами, GIF-ссылками и видео. Начало работы уже сегодня!
+Получите от учебного заведения восторг от Microsoft Teams с помощью электронных писем, плакатов, раздаток и других ресурсов, которые вы можете использовать бесплатно сейчас. Вы также можете связаться с учащимися в Интернете и в разных городах с помощью нового цифрового инструмента с баннерами, GIF-ссылками и видео. Начало работы уже сегодня!
 
 Прежде чем использовать эти [материалы,](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/license_agreement_teams_for_education.pdf?raw=true) ознакомьтесь с условиями и их условиями.
 
@@ -42,7 +42,7 @@ ms.locfileid: "49815719"
 | |  |
 |---------|---------|
 |Афиши— [настраиваемые и](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters-customizable.zip?raw=true) [готовые к печати](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters-print-ready.zip?raw=true)<br>![Снимок экрана: афиша](media/edu-adoption-posters.png)     |[Раздатки](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/handouts.zip?raw=true)<br>![Снимок экрана: раздато](media/edu-adoption-handouts.png)|
-|[Листовки](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/flyers.zip?raw=true)<br>![Снимок экрана: листовка](media/edu-adoption-flyers.png)   |[Брошюра](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/book-adverts.zip?raw=true)<br>![Снимок экрана: книга](media/edu-adoption-book-adverts.png)         |
+|[Листовки](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/flyers.zip?raw=true)<br>![Снимок экрана: листовка](media/edu-adoption-flyers.png)   |[Брошюра](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/book-adverts.zip?raw=true)<br>![Снимок экрана: рекламная книга](media/edu-adoption-book-adverts.png)         |
 |[Брошюра "Советы и рекомендации"](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/get-started-tips-tricks.zip?raw=true)<br> ![Снимок экрана](media/edu-adoption-get-started.png)    |
 
 ### <a name="digital-assets"></a>Цифровые активы
@@ -53,7 +53,7 @@ ms.locfileid: "49815719"
 |---------|---------|
 |[Шаблоны сообщений электронной почты](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/email-templates.zip?raw=true)<br> ![Снимок экрана](media/edu-adoption-email-templates.png)    |[GIF-giF-gif](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/gifs.zip?raw=true) <br> ![Снимок экрана: GIF](media/edu-adoption-gifs.png)      |
 |[Веб-баннеры](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/web-banners.zip?raw=true)<br>![Снимок экрана: веб-баннер](media/edu-adoption-web-banners.png)    |[Видеоролики](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/videos.zip?raw=true)<br>![Снимок экрана](media/edu-adoption-videos.png)          |
-|[Цифровые экраны](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/digital-screen-adverts.zip?raw=true)<br>![Снимок экрана: цифровой экран](media/edu-adoption-digital-screen-adverts.png)   |      |
+|[Цифровые снимки экрана](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/digital-screen-adverts.zip?raw=true)<br>![Снимок экрана: цифровой экран](media/edu-adoption-digital-screen-adverts.png)   |      |
 
 ## <a name="call-to-action"></a>Призыв к действию
 

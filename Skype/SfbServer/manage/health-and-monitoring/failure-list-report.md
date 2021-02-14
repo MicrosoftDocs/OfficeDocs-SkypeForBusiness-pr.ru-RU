@@ -1,5 +1,5 @@
 ---
-title: Failure List Report in Skype for Business Server
+title: Отчет по списку сбоев в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -19,7 +19,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49816849"
 ---
-# <a name="failure-list-report-in-skype-for-business-server"></a>Failure List Report in Skype for Business Server 
+# <a name="failure-list-report-in-skype-for-business-server"></a>Отчет по списку сбоев в Skype для бизнеса Server 
  
 **Сводка:** Learn about the Failure List Report in Skype for Business Server.
   
