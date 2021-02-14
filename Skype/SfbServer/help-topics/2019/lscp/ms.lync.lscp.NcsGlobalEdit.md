@@ -22,13 +22,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49812189"
 ---
-# <a name="network-configuration-edit-global-setting"></a><span data-ttu-id="939fb-104">Конфигурация сети: изменение глобальной настройки</span><span class="sxs-lookup"><span data-stu-id="939fb-104">Network Configuration: Edit Global Setting</span></span>
+# <a name="network-configuration-edit-global-setting"></a><span data-ttu-id="8598b-104">Конфигурация сети: изменение глобальной настройки</span><span class="sxs-lookup"><span data-stu-id="8598b-104">Network Configuration: Edit Global Setting</span></span>
 
-<span data-ttu-id="939fb-105">Что нужно сделать</span><span class="sxs-lookup"><span data-stu-id="939fb-105">What do you want to do?</span></span> <span data-ttu-id="939fb-106">Щелкните ссылку на задачу, которую необходимо выполнить.</span><span class="sxs-lookup"><span data-stu-id="939fb-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="8598b-105">Что нужно сделать</span><span class="sxs-lookup"><span data-stu-id="8598b-105">What do you want to do?</span></span> <span data-ttu-id="8598b-106">Щелкните ссылку на задачу, которую необходимо выполнить.</span><span class="sxs-lookup"><span data-stu-id="8598b-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="939fb-107">Включение контроля допуска звонков</span><span class="sxs-lookup"><span data-stu-id="939fb-107">Enabling Call Admission Control</span></span>](https://technet.microsoft.com/library/015f5c8f-2f90-4b9e-8149-b33767e90582.aspx)
+- [<span data-ttu-id="8598b-107">Включение контроля допуска звонков</span><span class="sxs-lookup"><span data-stu-id="8598b-107">Enabling Call Admission Control</span></span>](https://technet.microsoft.com/library/015f5c8f-2f90-4b9e-8149-b33767e90582.aspx)
 
-- [<span data-ttu-id="939fb-108">Включение обхода мультимедиа</span><span class="sxs-lookup"><span data-stu-id="939fb-108">Enabling Media Bypass</span></span>](https://technet.microsoft.com/library/95c4fa06-49d3-41ac-acdc-7dcda66e5508.aspx)
+- [<span data-ttu-id="8598b-108">Включение обхода мультимедиа</span><span class="sxs-lookup"><span data-stu-id="8598b-108">Enabling Media Bypass</span></span>](https://technet.microsoft.com/library/95c4fa06-49d3-41ac-acdc-7dcda66e5508.aspx)
 
 
 

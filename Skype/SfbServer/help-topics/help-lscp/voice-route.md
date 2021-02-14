@@ -22,13 +22,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49814479"
 ---
-# <a name="voice-route"></a><span data-ttu-id="a9536-104">Маршрут голосовых данных</span><span class="sxs-lookup"><span data-stu-id="a9536-104">Voice Route</span></span>
+# <a name="voice-route"></a><span data-ttu-id="c6218-104">Маршрут голосовых данных</span><span class="sxs-lookup"><span data-stu-id="c6218-104">Voice Route</span></span>
 
-<span data-ttu-id="a9536-105">Что нужно сделать</span><span class="sxs-lookup"><span data-stu-id="a9536-105">What do you want to do?</span></span> <span data-ttu-id="a9536-106">Щелкните ссылку на задачу, которую необходимо выполнить.</span><span class="sxs-lookup"><span data-stu-id="a9536-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="c6218-105">Что нужно сделать</span><span class="sxs-lookup"><span data-stu-id="c6218-105">What do you want to do?</span></span> <span data-ttu-id="c6218-106">Щелкните ссылку на задачу, которую необходимо выполнить.</span><span class="sxs-lookup"><span data-stu-id="c6218-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="a9536-107">Создание или изменение маршрута голосовой почты в Skype для бизнеса 2015</span><span class="sxs-lookup"><span data-stu-id="a9536-107">Create or modify a voice route in Skype for Business 2015</span></span>](../../deploy/deploy-enterprise-voice/create-or-modify-a-voice-route.md)
+- [<span data-ttu-id="c6218-107">Создание или изменение маршрута голосовой почты в Skype для бизнеса 2015</span><span class="sxs-lookup"><span data-stu-id="c6218-107">Create or modify a voice route in Skype for Business 2015</span></span>](../../deploy/deploy-enterprise-voice/create-or-modify-a-voice-route.md)
 
-- [<span data-ttu-id="a9536-108">Изменение голосового маршрута</span><span class="sxs-lookup"><span data-stu-id="a9536-108">Modify a Voice Route</span></span>](https://technet.microsoft.com/library/afc562cc-8807-489b-8850-dbbe1c1ab9f5.aspx)
+- [<span data-ttu-id="c6218-108">Изменение голосового маршрута</span><span class="sxs-lookup"><span data-stu-id="c6218-108">Modify a Voice Route</span></span>](https://technet.microsoft.com/library/afc562cc-8807-489b-8850-dbbe1c1ab9f5.aspx)
 
-<span data-ttu-id="a9536-109">Подробные сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнеса Server, см. в под управлением Skype для бизнеса [Server 2015.](../../manage/manage.md)</span><span class="sxs-lookup"><span data-stu-id="a9536-109">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="c6218-109">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="c6218-109">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
 

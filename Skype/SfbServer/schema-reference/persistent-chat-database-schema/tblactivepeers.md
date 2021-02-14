@@ -20,23 +20,23 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49812939"
 ---
-# <a name="tblactivepeers"></a><span data-ttu-id="f5da2-103">tblActivePeers</span><span class="sxs-lookup"><span data-stu-id="f5da2-103">tblActivePeers</span></span>
+# <a name="tblactivepeers"></a><span data-ttu-id="60f18-103">tblActivePeers</span><span class="sxs-lookup"><span data-stu-id="60f18-103">tblActivePeers</span></span>
  
-<span data-ttu-id="f5da2-104">Таблица tblActivePeers содержит текущие одноранговые соединения между службами чата.</span><span class="sxs-lookup"><span data-stu-id="f5da2-104">tblActivePeers contains the current peer-to-peer connections between chat services.</span></span>
+<span data-ttu-id="60f18-104">Таблица tblActivePeers содержит текущие одноранговые соединения между службами чата.</span><span class="sxs-lookup"><span data-stu-id="60f18-104">tblActivePeers contains the current peer-to-peer connections between chat services.</span></span>
   
-<span data-ttu-id="f5da2-105">**Columns**</span><span class="sxs-lookup"><span data-stu-id="f5da2-105">**Columns**</span></span>
+<span data-ttu-id="60f18-105">**Columns**</span><span class="sxs-lookup"><span data-stu-id="60f18-105">**Columns**</span></span>
 
-|<span data-ttu-id="f5da2-106">**Столбец**</span><span class="sxs-lookup"><span data-stu-id="f5da2-106">**Column**</span></span>|<span data-ttu-id="f5da2-107">**Тип**</span><span class="sxs-lookup"><span data-stu-id="f5da2-107">**Type**</span></span>|<span data-ttu-id="f5da2-108">**Описание**</span><span class="sxs-lookup"><span data-stu-id="f5da2-108">**Description**</span></span>|
+|<span data-ttu-id="60f18-106">**Столбец**</span><span class="sxs-lookup"><span data-stu-id="60f18-106">**Column**</span></span>|<span data-ttu-id="60f18-107">**Тип**</span><span class="sxs-lookup"><span data-stu-id="60f18-107">**Type**</span></span>|<span data-ttu-id="60f18-108">**Описание**</span><span class="sxs-lookup"><span data-stu-id="60f18-108">**Description**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="f5da2-109">aplServerID</span><span class="sxs-lookup"><span data-stu-id="f5da2-109">aplServerID</span></span>  <br/> |<span data-ttu-id="f5da2-110">int, not null</span><span class="sxs-lookup"><span data-stu-id="f5da2-110">int, not null</span></span>  <br/> |<span data-ttu-id="f5da2-111">ИД сервера, добавившего запись.</span><span class="sxs-lookup"><span data-stu-id="f5da2-111">ID of the server that posted the entry.</span></span>  <br/> |
-|<span data-ttu-id="f5da2-112">aplPeerID</span><span class="sxs-lookup"><span data-stu-id="f5da2-112">aplPeerID</span></span>  <br/> |<span data-ttu-id="f5da2-113">int, not null</span><span class="sxs-lookup"><span data-stu-id="f5da2-113">int, not null</span></span>  <br/> |<span data-ttu-id="f5da2-114">ИД узла, к которому подключен сервер, добавивший запись.</span><span class="sxs-lookup"><span data-stu-id="f5da2-114">ID of the peer that the posting server is connected to.</span></span>  <br/> |
+|<span data-ttu-id="60f18-109">aplServerID</span><span class="sxs-lookup"><span data-stu-id="60f18-109">aplServerID</span></span>  <br/> |<span data-ttu-id="60f18-110">int, not null</span><span class="sxs-lookup"><span data-stu-id="60f18-110">int, not null</span></span>  <br/> |<span data-ttu-id="60f18-111">ИД сервера, добавившего запись.</span><span class="sxs-lookup"><span data-stu-id="60f18-111">ID of the server that posted the entry.</span></span>  <br/> |
+|<span data-ttu-id="60f18-112">aplPeerID</span><span class="sxs-lookup"><span data-stu-id="60f18-112">aplPeerID</span></span>  <br/> |<span data-ttu-id="60f18-113">int, not null</span><span class="sxs-lookup"><span data-stu-id="60f18-113">int, not null</span></span>  <br/> |<span data-ttu-id="60f18-114">ИД узла, к которому подключен сервер, добавивший запись.</span><span class="sxs-lookup"><span data-stu-id="60f18-114">ID of the peer that the posting server is connected to.</span></span>  <br/> |
    
-<span data-ttu-id="f5da2-115">**Keys**</span><span class="sxs-lookup"><span data-stu-id="f5da2-115">**Keys**</span></span>
+<span data-ttu-id="60f18-115">**Keys**</span><span class="sxs-lookup"><span data-stu-id="60f18-115">**Keys**</span></span>
 
-|<span data-ttu-id="f5da2-116">**Столбец**</span><span class="sxs-lookup"><span data-stu-id="f5da2-116">**Column**</span></span>|<span data-ttu-id="f5da2-117">**Описание**</span><span class="sxs-lookup"><span data-stu-id="f5da2-117">**Description**</span></span>|
+|<span data-ttu-id="60f18-116">**Столбец**</span><span class="sxs-lookup"><span data-stu-id="60f18-116">**Column**</span></span>|<span data-ttu-id="60f18-117">**Описание**</span><span class="sxs-lookup"><span data-stu-id="60f18-117">**Description**</span></span>|
 |:-----|:-----|
-|\<aplServerID, aplPeerID\>  <br/> |<span data-ttu-id="f5da2-118">Первичный ключ.</span><span class="sxs-lookup"><span data-stu-id="f5da2-118">Primary key.</span></span>  <br/> |
-|<span data-ttu-id="f5da2-119">aplServerID</span><span class="sxs-lookup"><span data-stu-id="f5da2-119">aplServerID</span></span>  <br/> |<span data-ttu-id="f5da2-120">Внешний ключ с поиском в таблице tblServerIdentity.serverID.</span><span class="sxs-lookup"><span data-stu-id="f5da2-120">Foreign key with lookup in tblServerIdentity.serverID table.</span></span>  <br/> |
-|<span data-ttu-id="f5da2-121">aplPeerID</span><span class="sxs-lookup"><span data-stu-id="f5da2-121">aplPeerID</span></span>  <br/> |<span data-ttu-id="f5da2-122">Внешний ключ с поиском в таблице tblServerIdentity.serverID.</span><span class="sxs-lookup"><span data-stu-id="f5da2-122">Foreign key with lookup in tblServerIdentity.serverID table.</span></span>  <br/> |
+|\<aplServerID, aplPeerID\>  <br/> |<span data-ttu-id="60f18-118">Первичный ключ.</span><span class="sxs-lookup"><span data-stu-id="60f18-118">Primary key.</span></span>  <br/> |
+|<span data-ttu-id="60f18-119">aplServerID</span><span class="sxs-lookup"><span data-stu-id="60f18-119">aplServerID</span></span>  <br/> |<span data-ttu-id="60f18-120">Внешний ключ с поиском в таблице tblServerIdentity.serverID.</span><span class="sxs-lookup"><span data-stu-id="60f18-120">Foreign key with lookup in tblServerIdentity.serverID table.</span></span>  <br/> |
+|<span data-ttu-id="60f18-121">aplPeerID</span><span class="sxs-lookup"><span data-stu-id="60f18-121">aplPeerID</span></span>  <br/> |<span data-ttu-id="60f18-122">Внешний ключ с поиском в таблице tblServerIdentity.serverID.</span><span class="sxs-lookup"><span data-stu-id="60f18-122">Foreign key with lookup in tblServerIdentity.serverID table.</span></span>  <br/> |
    
 

@@ -1,5 +1,5 @@
 ---
-title: Данные о качестве работы (QoE) создают новые или редактирует существующие
+title: Данные качества обслуживания (QoE) создают новые или редактирует существующие
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -22,17 +22,17 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49812299"
 ---
-# <a name="quality-of-experience-qoe-data-create-new-or-edit-existing"></a><span data-ttu-id="47933-104">Данные о качестве взаимодействия: создание новых или редактирование существующих</span><span class="sxs-lookup"><span data-stu-id="47933-104">Quality of Experience (QoE) Data: Create New or Edit Existing</span></span>
+# <a name="quality-of-experience-qoe-data-create-new-or-edit-existing"></a><span data-ttu-id="3adb9-104">Данные о качестве взаимодействия: создание новых или редактирование существующих</span><span class="sxs-lookup"><span data-stu-id="3adb9-104">Quality of Experience (QoE) Data: Create New or Edit Existing</span></span>
  
-<span data-ttu-id="47933-105">Что нужно сделать</span><span class="sxs-lookup"><span data-stu-id="47933-105">What do you want to do?</span></span> <span data-ttu-id="47933-106">Щелкните ссылку на задачу, которую необходимо выполнить.</span><span class="sxs-lookup"><span data-stu-id="47933-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="3adb9-105">Что нужно сделать</span><span class="sxs-lookup"><span data-stu-id="3adb9-105">What do you want to do?</span></span> <span data-ttu-id="3adb9-106">Щелкните ссылку на задачу, которую необходимо выполнить.</span><span class="sxs-lookup"><span data-stu-id="3adb9-106">Click the link to the task that you want to perform.</span></span>
   
-- [<span data-ttu-id="47933-107">Включить качество работы в Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="47933-107">Enable Quality of Experience in Skype for Business Server</span></span>](../../../manage/health-and-monitoring/enable-qoe.md)
+- [<span data-ttu-id="3adb9-107">Включить качество работы в Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="3adb9-107">Enable Quality of Experience in Skype for Business Server</span></span>](../../../manage/health-and-monitoring/enable-qoe.md)
     
-- [<span data-ttu-id="47933-108">Изменение параметров качества работы в Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="47933-108">Modify Quality of Experience settings in Skype for Business Server</span></span>](../../../manage/health-and-monitoring/modify-qoe-settings.md)
+- [<span data-ttu-id="3adb9-108">Изменение параметров качества работы в Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="3adb9-108">Modify Quality of Experience settings in Skype for Business Server</span></span>](../../../manage/health-and-monitoring/modify-qoe-settings.md)
     
-- [<span data-ttu-id="47933-109">Создание параметров конфигурации качества обслуживания в Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="47933-109">Create Quality of Experience configuration settings in Skype for Business Server</span></span>](../../../manage/health-and-monitoring/create-qoe-configuration-settings.md)
+- [<span data-ttu-id="3adb9-109">Создание параметров конфигурации качества обслуживания в Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="3adb9-109">Create Quality of Experience configuration settings in Skype for Business Server</span></span>](../../../manage/health-and-monitoring/create-qoe-configuration-settings.md)
     
-- [<span data-ttu-id="47933-110">Удаление параметров конфигурации качества обслуживания в Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="47933-110">Delete Quality of Experience configuration settings in Skype for Business Server</span></span>](../../../manage/health-and-monitoring/delete-qoe-configuration-settings.md)
+- [<span data-ttu-id="3adb9-110">Удаление параметров конфигурации качества обслуживания в Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="3adb9-110">Delete Quality of Experience configuration settings in Skype for Business Server</span></span>](../../../manage/health-and-monitoring/delete-qoe-configuration-settings.md)
     
  
 
