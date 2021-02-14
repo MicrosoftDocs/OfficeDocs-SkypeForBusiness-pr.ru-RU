@@ -26,7 +26,7 @@ ms.locfileid: "48456083"
 ---
 # <a name="microsoft-365-groups-and-microsoft-teams"></a>Группы Microsoft 365 и Microsoft Teams
 
-Группы Microsoft 365 — это служба, в составная служба для работы с перекрестным приложением Microsoft 365. На базовом уровне группа Microsoft 365 — это объект в Azure Active Directory со списком участников и списком связанных рабочих нагрузок, включая сайт группы SharePoint, общий почтовый ящик Exchange, Планировщик и рабочая область Power BI. Вы можете добавлять и удалять людей в группе, как и любые другие объекты безопасности на основе группы в Active Directory.
+Группы Microsoft 365 — это служба, в составная служба для перекрестных приложений Microsoft 365. На базовом уровне группа Microsoft 365 — это объект в Azure Active Directory со списком участников и списком связанных рабочих нагрузок, включая сайт группы SharePoint, общий почтовый ящик Exchange, Планировщик и рабочая область Power BI. Вы можете добавлять и удалять людей в группе, как и любые другие объекты безопасности на основе группы в Active Directory.
 
 ![Схема, показывающая Группы Microsoft 365 и связанные службы](https://docs.microsoft.com/microsoft-365/media/microsoft-365-groups-hub-spoke.png?view=o365-worldwide)
 
@@ -50,7 +50,7 @@ ms.locfileid: "48456083"
 
 При удалении группы Microsoft 365 удаляется псевдоним почтового ящика для сохраняемой беседы Outlook/OWA и приглашения на собрания Teams, а сайт SharePoint пометка для удаления. Удаление команды и ее действие в Outlook занимает около 20 минут. При удалении команды из клиента Teams она сразу же удаляется из представления для всех участников команды. При удалении участников группы Microsoft 365, для которых были включены функции Teams, в течение приблизительно двух часов команда может быть удалена из представления в клиенте Teams для затронутых людей.
 
-Подробные сведения о параметрах окончания жизненного цикла групп и команд см. в параметрах окончания жизненного цикла [групп, групп, Yammer](https://docs.microsoft.com/microsoft-365/solutions/end-life-cycle-groups-teams-sites-yammer) и архива либо удаления команды [в Microsoft Teams.](https://docs.microsoft.com/microsoftteams/archive-or-delete-a-team)
+Подробные сведения о параметрах жизненного цикла групп и групп см. в параметрах окончания жизненного цикла [групп, групп, Yammer](https://docs.microsoft.com/microsoft-365/solutions/end-life-cycle-groups-teams-sites-yammer) и архива либо удаления группы [в Microsoft Teams.](https://docs.microsoft.com/microsoftteams/archive-or-delete-a-team)
 
 ## <a name="related-topics"></a>Статьи по теме
 

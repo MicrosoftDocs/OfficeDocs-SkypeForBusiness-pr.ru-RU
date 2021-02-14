@@ -69,7 +69,7 @@ Get-CsTeamsUpgradePolicy|ft Identity, Mode, NotifySfbUsers
 Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams -Identity $user 
 ```
 
-Чтобы обновить локального пользователя Skype для бизнеса до режима TeamsOnly, Move-CsUser на локальном сервисном сайте:
+Чтобы обновить локального пользователя Skype для бизнеса до режима TeamsOnly, Move-CsUser в локальном средстве:
 
 ```PowerShell
 Move-CsUser -identity $user -Target sipfed.online.lync.com -MoveToTeams -credential $cred

@@ -84,11 +84,11 @@ ms.locfileid: "47814788"
   
 1. Нажмите **кнопку**  >  **"Windows PowerShell".**
     
-2. В **окне Windows PowerShell** подключения к Microsoft 365 или Office 365 с помощью:
+2. В **окне Windows PowerShell** подключения к Microsoft 365 или Office 365, вы работаете:
     
  
     > [!NOTE]
-    > Соединитель Skype для бизнеса Online сейчас входит в состав последнего модуля Teams PowerShell.
+    > Соединитель Skype для бизнеса Online сейчас является частью последнего модуля Teams PowerShell.
     >
     > Если вы используете последний общедоступный выпуск [Teams PowerShell,](https://www.powershellgallery.com/packages/MicrosoftTeams/)вам не нужно устанавливать соединитель Skype для бизнеса Online.
 

@@ -94,4 +94,4 @@ Afin d'offrir la meilleure expérience possible à tous nos clients, Microsoft p
 
 ## <a name="dclarations-de-conformit--la-norme-en-301-549"></a>Déclarations de conformité à la norme EN 301 549
 
-Pour aider ses clients à évaluer l'accessibilité, Корпорация Майкрософт предлагает une documentation qui décrit comment Skype Веб-сайт et Microsoft Teams se conforment à la norme européenne EN 301 549 relative aux exigences d'accessibilité applicables aux marchés publics des produits et services liés aux TIC (Technologies de l'Information et de la Communication) en Europe. Des copies des rapports EN 301 549 sont jointes en
+Pour aider ses clients à évaluer l'accessibilité, Корпорация Майкрософт предлагает une documentation qui décrit comment Skype Веб-сайт et Microsoft Teams se conforment à la norme européenne EN 301 549 relative aux exigences d'accessibilité applicables aux marchés publics des produits et services liés aux TIC (Technologies de l'Information et de la Communication) en Europe. Des copies des rapports EN 301 549 sont jointes en ветвей.

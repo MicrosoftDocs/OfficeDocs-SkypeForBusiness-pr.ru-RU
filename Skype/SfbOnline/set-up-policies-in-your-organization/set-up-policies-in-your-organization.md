@@ -1,5 +1,5 @@
 ---
-title: Настройка политик в Организации
+title: Настройка политик в организации
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -25,11 +25,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 10/07/2020
 ms.locfileid: "48376562"
 ---
-# <a name="set-up-policies-in-your-organization"></a>Настройка политик в Организации
+# <a name="set-up-policies-in-your-organization"></a>Настройка политик в организации
 
-Политики помогают определить возможности Skype для бизнеса Online, которые становятся доступными для пользователей. Ознакомьтесь со следующими статьями для получения подробных сведений.
+Политики помогают определять функции Skype для бизнеса Online, доступные пользователям. Подробные сведения см. в следующих статьях.
 
-- [Блокировка передачи файлов между точками](block-point-to-point-file-transfers.md)
+- [Блокировать передачу файлов по точкам](block-point-to-point-file-transfers.md)
 - [Создание настраиваемых политик внешнего доступа](create-custom-external-access-policies.md)
 - [Сохранение больших файлов, прикрепленных к собранию](retaining-large-files-attached-to-a-meeting.md)
 - [Настройка политик аудиоконференций в организации](set-up-conferencing-policies-for-your-organization.md)

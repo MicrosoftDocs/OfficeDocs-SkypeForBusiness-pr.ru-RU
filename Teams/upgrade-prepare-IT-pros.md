@@ -35,7 +35,7 @@ ms.locfileid: "49578462"
 - [Привлечение заинтересованных лиц проекта](upgrade-enlist-stakeholders.md)
 - [Определение области проекта](https://aka.ms/SkypetoTeams-Scope)
 - [Понимание сосуществования и совместной работы Skype для бизнеса и Teams](https://aka.ms/SkypeToTeams-Coexist)
-- [Выбранный путь обновления](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [Вы решили перейти на нее](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
 Администраторы microsoft 365 или Office 365, технические специалисты и служба поддержки должны учитывать качество работы пользователей. Это включает в себя обеспечение готовности сети к поддержке Teams, настройке Teams для пользователей, а также эффективному устранению возникающих неполадок и устранению возникающих проблем.
 

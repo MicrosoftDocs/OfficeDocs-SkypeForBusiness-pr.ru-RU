@@ -29,9 +29,9 @@ ms.locfileid: "47814568"
 # <a name="download-and-install-the-skype-for-business-online-connector-module"></a>Скачайте и установите модуль Skype для бизнеса Online Connector
 
 > [!NOTE]
-> Новейшая [общедоступная версия оболочки PowerShell для Teams](https://www.powershellgallery.com/packages/MicrosoftTeams/) поддерживается с помощью соединителя Skype для бизнеса Online, что обеспечивает единый модуль для управления оболочкой PowerShell.
+> Последний [общедоступный выпуск Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/) интегрирован со Skype для бизнеса Online Connector, что обеспечивает единый модуль для управления Teams PowerShell.
 
-Модуль соединителя Skype для бизнеса Online включает командлет **New-CsOnlineSession** , который позволяет создавать удаленные сеансы Windows PowerShell, которые подключаются к Skype для бизнеса Online. Этот модуль, поддерживаемый только на компьютерах 64 (более подробная информация содержится в разделе [Настройка компьютера для управления Skype для бизнеса Online с помощью Windows PowerShell](set-up-your-computer-for-windows-powershell.md) ), можно загрузить в центре загрузки Майкрософт по адресу [https://www.microsoft.com/download/details.aspx?id=39366](https://www.microsoft.com/download/details.aspx?id=39366) . Скачайте файл SkypeOnlinePowershell.exe, а затем выполните указанные ниже действия.
+Модуль Skype для бизнеса Online Connector включает командлет **New-CsOnlineSession,** который позволяет создавать удаленные сеансы Windows PowerShell подключения к Skype для бизнеса Online. Этот модуль, который поддерживается только на 64-битных компьютерах (дополнительные сведения см. в руководстве "Настройка компьютера для управления Skype для бизнеса Online с помощью [Windows PowerShell"),](set-up-your-computer-for-windows-powershell.md) можно скачать из Центра загрузки Майкрософт по [https://www.microsoft.com/download/details.aspx?id=39366](https://www.microsoft.com/download/details.aspx?id=39366) ссылке. Скачайте SkypeOnlinePowershell.exe и выполните следующую процедуру:
   
 1. Дважды щелкните файл **SkypeOnlinePowershell.exe**.
     
@@ -63,8 +63,8 @@ Import-Module SkypeOnlineConnector
   
 Чтобы проверить версию установленного на вашем компьютере модуля соединителя, откройте панель управления, выберите **Программы и компоненты** и просмотрите значение, представленное в разделе **Модуль Windows PowerShell для Skype для бизнеса Online**.
   
-## <a name="related-topics"></a>См. также
-[Настройка компьютера для управления Skype для бизнеса Online с помощью Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
+## <a name="related-topics"></a>Статьи по теме
+[Настройка компьютера для управления skype для бизнеса с помощью Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
 
   
  

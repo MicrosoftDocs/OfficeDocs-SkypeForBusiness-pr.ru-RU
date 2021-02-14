@@ -21,7 +21,7 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: Узнайте о microsoft 365 и стандартном номере вызываемого звонка Microsoft 365 и Office 365 (назначенном номере телефона пользователя), также называемом ИД строки звонков. Вы можете изменить или заблокировать ИД вызываемой точки пользователя.
+description: Узнайте о microsoft 365 и стандартном номере вызываемого звонка Office 365 (назначенном номере телефона пользователя), который также называется ИД строки звонков. Вы можете изменить или заблокировать ИД вызываемой точки пользователя.
 ms.openlocfilehash: ff8355b9435d0a21c032ee90b442884c0319221c
 ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
@@ -45,7 +45,7 @@ ms.locfileid: "47814328"
     > [!NOTE]
     > Чтобы использовать параметр  _Service_, необходимо указать допустимый номер службы.
   
-- **Блокировать ИД исходящие вызываемой вызовы** Вы можете заблокировать отправление исходя из этой службы ИД звонив пользователю при исходяющих звонках по ННР. В этом случае номер телефона не будет отображаться на телефоне звонимого.
+- **Блокировать ИД исходящие вызываемой вызовы** Вы можете заблокировать отправление исходя из этой службы ИД звонив пользователю во время исходяющих звонков по ДНР. В этом случае номер телефона не будет отображаться на телефоне звонимого.
     
 - **Блокировать его ИД входящих вызовов** Вы можете заблокировать получение ИД вызываемой службы во всех входящих звонках по ДНР.
     
@@ -79,7 +79,7 @@ ms.locfileid: "47814328"
     
 1. From the **Start Menu** > **Windows PowerShell**.
     
-2. В **окне Windows PowerShell** подключились к Microsoft 365 или Office 365, вы работающим с помощью:
+2. В **окне Windows PowerShell** подключения к Microsoft 365 или Office 365, вы работающим с помощью:
     
    > [!NOTE]
    >
@@ -106,7 +106,7 @@ ms.locfileid: "47814328"
 ### <a name="create-a-new-caller-id-policy-for-your-organization"></a>Создание политики идентификатора абонента для организации
 
 
-- Чтобы создать политику, которая задает анонимный ИД звоня, запустите 3.
+- Чтобы создать новую политику, которая задает анонимный ИД звоня, запустите 4.
     
   ```PowerShell
   New-CsCallingLineIdentity  -Identity Anonymous -Description "Anonymous policy" -CallingIDSubstitute Anonymous -EnableUserOverride $false
@@ -116,25 +116,25 @@ ms.locfileid: "47814328"
 
   См. другие примеры и подробные сведения о [New-CsCallingLineIdentity.](https://technet.microsoft.com/library/mt793855.aspx)
     
-- Чтобы применить новую политику, созданную для amos Marble, запустите 365:
+- Чтобы применить новую политику, созданную для amos Marble, запустите 3
     
   ```PowerShell
    Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName Anonymous
   ```
   Дополнительные сведения о командлете [Grant-CsCallingLineIdentity](https://technet.microsoft.com/library/mt793857.aspx).
     
-Если вы уже создали политику, вы можете внести изменения в существующую политику с помощью [cmdlet Set-CsCallingLineIdentity,](https://technet.microsoft.com/library/mt793854.aspx) а затем применить параметры к пользователям с помощью cmdletentity [Grant-CsCallingLineIdentity.](https://technet.microsoft.com/library/mt793857.aspx)
+Если политика уже создана, вы можете внести изменения в существующую политику с помощью [cmdlet Set-CsCallingLineIdentity,](https://technet.microsoft.com/library/mt793854.aspx) а затем применить параметры к пользователям с помощью cmdletentity [Grant-CsCallingLineIdentity.](https://technet.microsoft.com/library/mt793857.aspx)
   
 ### <a name="set-it-so-the-incoming-caller-id-is-blocked"></a>Блокировка идентификатора входящего абонента
 
-- Чтобы заблокировать ИД входящих звонив, запустите 4.
+- Чтобы заблокировать ИД входящих вызовов, запустите 4.
     
   ```PowerShell
   Set-CsCallingLineIdentity  -Identity "Block Incoming" -BlockIncomingPstnCallerID $true -EnableUserOverride $true
   ```
   См. другие примеры и подробные сведения о [Set-CsCallingLineIdentity.](https://technet.microsoft.com/library/mt793854.aspx)
     
-- Чтобы применить параметр политики, созданный для пользователя в организации, запустите 4
+- Чтобы применить параметр политики, созданный для пользователя в организации, запустите 3
     
   ```PowerShell
   Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName "Block Incoming"

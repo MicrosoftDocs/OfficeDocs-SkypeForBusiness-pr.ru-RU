@@ -28,10 +28,10 @@ ms.locfileid: "47814588"
 ---
 # <a name="turn-on-or-off-allowing-content-to-be-preloaded-for-meetings-using-outlook"></a>Включение и выключение разрешения предварительной загрузки содержимого для собраний с помощью Outlook
 
-Пользователи могут предварительно загрузить содержимое, файлы или вложения, вложенные в приглашение на собрание, в собрание Skype для бизнеса Online, но вы можете включать и отключать их. Она включена по умолчанию для всех организаций, использующих Skype для бизнеса Online. Узнайте, как [предварительно загрузить вложения для собрания Skype для бизнеса](https://support.office.com/article/fd3d9f9d-b448-4754-b813-02e49393f251).
+Пользователи могут заранее грузить содержимое, файлы или вложения, вложенные в приглашение на собрание Outlook, на собрание Skype для бизнеса Online, но вы можете включить или отключить эту возможность. Этот режим по умолчанию включен для всех организаций, использующих Skype для бизнеса Online. Узнайте, как [предварительно загрузка вложений для собрания Skype для бизнеса.](https://support.office.com/article/fd3d9f9d-b448-4754-b813-02e49393f251)
   
 > [!NOTE]
-> В настоящее время командлеты в Skype для бизнеса Online недоступны для настройки и просмотра значений Online для  _MaxContentStorageMB_ и _MaxUploadFileMB_. Они доступны только для локальных развертываний. Важно знать, что содержимое не будет отправлено на собрание, если его содержимое превышает  _MaxUploadFileSizeMB_ или если достигнуто ограничение _MaxContentStorageMB_ .
+> В настоящее время в Skype для бизнеса Online нет cmdlets для настройки и просмотра значений в сети для _MaxContentStorageMB_ и _MaxUploadFileMB._ Они доступны только для локальных развертываний. Важно знать, что содержимое не будет загружено на собрание, если вложенное содержимое превышает максимально допустимый предел _MaxUploadFileSizeMB_ или достигнуто ограничение _MaxContentStorageMB._
   
 ## <a name="to-get-you-started"></a>Чтобы начать работу, можно сделать следующее
 
@@ -43,11 +43,11 @@ ms.locfileid: "47814588"
     
 2. Проверьте версию, введя в окне _Windows PowerShell_ команду **Get-Host**.
     
-3. Если у вас более ранняя версия, вам необходимо скачать и установить обновления для Windows PowerShell. Чтобы скачать и обновить Windows PowerShell до версии 4,0, ознакомьтесь с разгрузкой [платформы Windows Management Framework 4,0](https://go.microsoft.com/fwlink/?LinkId=716845) . При появлении запроса перезагрузите компьютер.
+3. Если у вас более ранняя версия, вам необходимо скачать и установить обновления для Windows PowerShell. Чтобы [скачать Windows Management Framework 4.0](https://go.microsoft.com/fwlink/?LinkId=716845) и обновить Windows PowerShell до версии 4.0, см. Windows PowerShell 4.0. При появлении запроса перезагрузите компьютер.
     
 4. Вам также потребуется установить модуль Windows PowerShell для Skype для бизнеса online, с помощью которого можно создать удаленный сеанс Windows PowerShell с подключением к Skype для бизнеса online. Этот модуль, который поддерживается только на 64-разрядных компьютерах, можно скачать в Центре загрузки Майкрософт на странице [Модуль Windows PowerShell для Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=294688). При появлении запроса перезагрузите компьютер.
     
-Дополнительные сведения можно найти в разделе [подключение ко всем службам Microsoft 365 или Office 365 в одном окне Windows PowerShell](https://technet.microsoft.com/library/dn568015.aspx).
+Если вам нужно узнать больше, см. подключение к всем службам [Microsoft 365 или Office 365](https://technet.microsoft.com/library/dn568015.aspx)в одном окне Windows PowerShell окна.
   
 ### 
 
@@ -55,12 +55,12 @@ ms.locfileid: "47814588"
   
 1. From the **Start Menu** > **Windows PowerShell**.
     
-2. В окне **Windows PowerShell** подключитесь к службе Microsoft 365 или Office 365, выполнив следующие действия:
+2. В **окне Windows PowerShell** подключения к Microsoft 365 или Office 365, вы работающим с помощью:
     
 > [!NOTE]
-> Skype для бизнеса Online уже входит в состав последнего модуля PowerShell для Teams.
+> Соединитель Skype для бизнеса Online сейчас является частью последнего модуля Teams PowerShell.
 >
-> Если вы используете последнюю версию [общедоступной оболочки для Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/), вам не нужно устанавливать соединитель Skype для бизнеса Online.
+> Если вы используете последний общедоступный выпуск [Teams PowerShell,](https://www.powershellgallery.com/packages/MicrosoftTeams/)вам не нужно устанавливать соединитель Skype для бизнеса Online.
   
 ```PowerShell
 Import-Module -Name MicrosoftTeams
@@ -69,14 +69,14 @@ $session = New-CsOnlineSession -Credential $credential
 Import-PSSession $session
 ```
 
-Если вы хотите получить дополнительные сведения о запуске Windows PowerShell, ознакомьтесь со статьей [подключение ко всем службам Microsoft 365 или Office 365 в одном окне Windows PowerShell](https://technet.microsoft.com/library/dn568015.aspx) или [Настройка компьютера для Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
+Если вам нужна дополнительные сведения о запуске Windows PowerShell, см. сведения о подключении к всем службам [Microsoft 365 или Office 365](https://technet.microsoft.com/library/dn568015.aspx) в одном окне Windows PowerShell или настройка компьютера [для](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)Windows PowerShell.
   
 ## <a name="turning-it-on-or-off"></a>Включение и выключение функции
 
-Возможность предварительной загрузки содержимого, связанного с приглашением на собрание Outlook, для собраний по сети в Skype для бизнеса по умолчанию включено, но вам может потребоваться запретить пользователям в Организации предварительную загрузку содержимого на собраниях.
+Возможность предварительной загрузки содержимого, вложенного в приглашение на собрание Outlook, для собраний Skype для бизнеса Online включена по умолчанию, но может потребоваться запретить пользователям в вашей организации предварительной загрузки содержимого в своих собраниях.
   
 > [!IMPORTANT]
-> Этот параметр можно включить или выключить только для всей Организации; Вы не можете включить или отключить ее для одного пользователя. 
+> Этот параметр можно отключить только для всей организации. вы не можете включить или отключить ее для одного пользователя. 
   
  **Чтобы отключить функцию, откройте Windows PowerShell и выполните следующие действия:**
   
@@ -92,15 +92,15 @@ Grant-CsGraphPolicy -PolicyName GraphEnabled
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>Хотите узнать больше о Windows PowerShell?
 
-- Windows PowerShell is all about managing users and what users are allowed or not allowed to do. С помощью Windows PowerShell вы можете управлять Microsoft 365 или Office 365 и Skype для бизнеса Online, используя единую точку администрирования, которая позволяет упростить повседневную работу, если у вас есть несколько задач. Чтобы начать работу с Windows PowerShell, ознакомьтесь с приведенными ниже разделами.
+- Windows PowerShell is all about managing users and what users are allowed or not allowed to do. С Windows PowerShell вы можете управлять Microsoft 365, Office 365 и Skype для бизнеса Online, используя единый пункт администрирования, который упростит выполнение ваших повседневных задач. Чтобы начать работу с Windows PowerShell, ознакомьтесь с приведенными ниже разделами.
     
   - [Введение в Windows PowerShell и Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
-  - [Шесть причин, по которым вам может потребоваться использовать Windows PowerShell для управления Microsoft 365 или Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Шесть причин, по которым может потребоваться использовать Windows PowerShell для управления Microsoft 365 или Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-- Windows PowerShell обладает многими преимуществами для ускорения, простоты и продуктивности с помощью центра администрирования Microsoft 365, например при одновременном изменении параметров для нескольких пользователей. Подробнее об этих преимуществах можно узнать в следующих разделах:
+- Windows PowerShell имеет множество преимуществ в скорости, простоте и эффективности работы по сравнению с использованием только Центра администрирования Microsoft 365, например при внесении изменений для множества пользователей одновременно. Подробнее об этих преимуществах можно узнать в следующих разделах:
     
-  - [Лучшие способы управления Microsoft 365 и Office 365 с помощью Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Лучшие способы управления Microsoft 365 или Office 365 с помощью Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
   - [Использование Windows PowerShell для управления Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=525453)
     
