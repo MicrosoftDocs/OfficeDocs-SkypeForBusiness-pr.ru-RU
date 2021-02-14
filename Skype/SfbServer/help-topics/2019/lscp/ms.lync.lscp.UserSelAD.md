@@ -22,9 +22,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49820139"
 ---
-# <a name="select-from-active-directory"></a><span data-ttu-id="b73b1-105">Выбор в Active Directory</span><span class="sxs-lookup"><span data-stu-id="b73b1-105">Select from Active Directory</span></span>
+# <a name="select-from-active-directory"></a><span data-ttu-id="3490e-105">Выбор в Active Directory</span><span class="sxs-lookup"><span data-stu-id="3490e-105">Select from Active Directory</span></span>
  
-<span data-ttu-id="b73b1-106">Используйте **диалоговое окно "Выбор из Active Directory",** чтобы найти пользователей, которых вы хотите включить для Skype для бизнеса Server.</span><span class="sxs-lookup"><span data-stu-id="b73b1-106">Use the **Select from Active Directory** dialog box to find users who you want to enable for Skype for Business Server.</span></span> <span data-ttu-id="b73b1-107">В поле поиска введите SIP-адрес или отображаемое имя пользователя, которого требуется найти.</span><span class="sxs-lookup"><span data-stu-id="b73b1-107">In the search box, type the SIP address or display name of the user you want to find.</span></span> <span data-ttu-id="b73b1-108">Чтобы получить всех доступных пользователей, не вводите ничего в поле поиска.</span><span class="sxs-lookup"><span data-stu-id="b73b1-108">To retrieve all available users, do not type anything in the search box.</span></span>
+<span data-ttu-id="3490e-106">Используйте **диалоговое окно "Выбор** из Active Directory", чтобы найти пользователей, которых вы хотите включить для Skype для бизнеса Server.</span><span class="sxs-lookup"><span data-stu-id="3490e-106">Use the **Select from Active Directory** dialog box to find users who you want to enable for Skype for Business Server.</span></span> <span data-ttu-id="3490e-107">В поле поиска введите SIP-адрес или отображаемое имя пользователя, которого требуется найти.</span><span class="sxs-lookup"><span data-stu-id="3490e-107">In the search box, type the SIP address or display name of the user you want to find.</span></span> <span data-ttu-id="3490e-108">Чтобы получить всех доступных пользователей, не вводите ничего в поле поиска.</span><span class="sxs-lookup"><span data-stu-id="3490e-108">To retrieve all available users, do not type anything in the search box.</span></span>
   
  
   

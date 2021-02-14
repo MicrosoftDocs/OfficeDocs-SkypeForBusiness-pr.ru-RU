@@ -22,9 +22,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49819999"
 ---
-# <a name="normalization-rule-type-a-regular-expression"></a><span data-ttu-id="20dc8-103">Правило нормализации: ввод регулярного выражения</span><span class="sxs-lookup"><span data-stu-id="20dc8-103">Normalization Rule: Type a Regular Expression</span></span>
+# <a name="normalization-rule-type-a-regular-expression"></a><span data-ttu-id="41c2a-103">Правило нормализации: ввод регулярного выражения</span><span class="sxs-lookup"><span data-stu-id="41c2a-103">Normalization Rule: Type a Regular Expression</span></span>
  
-<span data-ttu-id="20dc8-104">Введите регулярное выражение .NET Framework, чтобы задать шаблон соответствия для конечных телефонных номеров, к которым применяется маршрут.</span><span class="sxs-lookup"><span data-stu-id="20dc8-104">Type a .NET Framework regular expression to specify the matching pattern for destination phone numbers to which the route is applied.</span></span> 
+<span data-ttu-id="41c2a-104">Введите регулярное выражение .NET Framework, чтобы задать шаблон соответствия для конечных телефонных номеров, к которым применяется маршрут.</span><span class="sxs-lookup"><span data-stu-id="41c2a-104">Type a .NET Framework regular expression to specify the matching pattern for destination phone numbers to which the route is applied.</span></span> 
   
  
   

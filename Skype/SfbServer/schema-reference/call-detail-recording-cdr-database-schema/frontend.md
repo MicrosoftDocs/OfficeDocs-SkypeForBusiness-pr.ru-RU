@@ -20,8 +20,8 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49821599"
 ---
-# <a name="frontend-table-in-skype-for-business-server-2015"></a><span data-ttu-id="ada44-104">Таблица FrontEnd в Skype для бизнеса Server 2015</span><span class="sxs-lookup"><span data-stu-id="ada44-104">FrontEnd table in Skype for Business Server 2015</span></span>
+# <a name="frontend-table-in-skype-for-business-server-2015"></a><span data-ttu-id="4bc50-104">Таблица FrontEnd в Skype для бизнеса Server 2015</span><span class="sxs-lookup"><span data-stu-id="4bc50-104">FrontEnd table in Skype for Business Server 2015</span></span>
  
-<span data-ttu-id="ada44-105">Таблица FrontEnd предназначена только для внутреннего использования.</span><span class="sxs-lookup"><span data-stu-id="ada44-105">The FrontEnd table is for internal use only.</span></span> <span data-ttu-id="ada44-106">Эта таблица была представлена в Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="ada44-106">This table was introduced in Microsoft Lync Server 2013.</span></span>
+<span data-ttu-id="4bc50-105">Таблица FrontEnd предназначена только для внутреннего использования.</span><span class="sxs-lookup"><span data-stu-id="4bc50-105">The FrontEnd table is for internal use only.</span></span> <span data-ttu-id="4bc50-106">Эта таблица была представлена в Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="4bc50-106">This table was introduced in Microsoft Lync Server 2013.</span></span>
   
 

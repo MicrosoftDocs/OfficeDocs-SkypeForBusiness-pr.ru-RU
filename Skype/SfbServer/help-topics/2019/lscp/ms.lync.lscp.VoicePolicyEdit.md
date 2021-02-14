@@ -22,13 +22,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49820069"
 ---
-# <a name="voice-policy-create-new-or-edit-existing"></a><span data-ttu-id="1025d-104">Политика голосовой связи: создание новой или редактирование существующей</span><span class="sxs-lookup"><span data-stu-id="1025d-104">Voice Policy: Create New or Edit Existing</span></span>
+# <a name="voice-policy-create-new-or-edit-existing"></a><span data-ttu-id="c146d-104">Политика голосовой связи: создание новой или редактирование существующей</span><span class="sxs-lookup"><span data-stu-id="c146d-104">Voice Policy: Create New or Edit Existing</span></span>
 
-<span data-ttu-id="1025d-105">Что нужно сделать</span><span class="sxs-lookup"><span data-stu-id="1025d-105">What do you want to do?</span></span> <span data-ttu-id="1025d-106">Щелкните ссылку на задачу, которую необходимо выполнить.</span><span class="sxs-lookup"><span data-stu-id="1025d-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="c146d-105">Что нужно сделать</span><span class="sxs-lookup"><span data-stu-id="c146d-105">What do you want to do?</span></span> <span data-ttu-id="c146d-106">Щелкните ссылку на задачу, которую необходимо выполнить.</span><span class="sxs-lookup"><span data-stu-id="c146d-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="1025d-107">Create or modify a voice policy and configure PSTN usage records in Skype for Business</span><span class="sxs-lookup"><span data-stu-id="1025d-107">Create or modify a voice policy and configure PSTN usage records in Skype for Business</span></span>](../../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md)
+- [<span data-ttu-id="c146d-107">Create or modify a voice policy and configure PSTN usage records in Skype for Business</span><span class="sxs-lookup"><span data-stu-id="c146d-107">Create or modify a voice policy and configure PSTN usage records in Skype for Business</span></span>](../../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md)
 
-- [<span data-ttu-id="1025d-108">Изменение голосовой политики и настройка записей использования ТСОП</span><span class="sxs-lookup"><span data-stu-id="1025d-108">Modify a Voice Policy and Configure PSTN Usage Records</span></span>](https://technet.microsoft.com/library/6c53aaf5-218b-4bd4-8cea-31bc9d53f1bd.aspx)
+- [<span data-ttu-id="c146d-108">Изменение голосовой политики и настройка записей использования ТСОП</span><span class="sxs-lookup"><span data-stu-id="c146d-108">Modify a Voice Policy and Configure PSTN Usage Records</span></span>](https://technet.microsoft.com/library/6c53aaf5-218b-4bd4-8cea-31bc9d53f1bd.aspx)
 
 
 

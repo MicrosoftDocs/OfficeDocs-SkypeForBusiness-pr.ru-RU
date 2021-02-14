@@ -22,15 +22,15 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49819199"
 ---
-# <a name="registrar-security-settings"></a><span data-ttu-id="2f411-104">Параметры безопасности регистратора</span><span class="sxs-lookup"><span data-stu-id="2f411-104">Registrar Security Settings</span></span>
+# <a name="registrar-security-settings"></a><span data-ttu-id="a97e6-104">Параметры безопасности регистратора</span><span class="sxs-lookup"><span data-stu-id="a97e6-104">Registrar Security Settings</span></span>
 
-<span data-ttu-id="2f411-105">Что нужно сделать</span><span class="sxs-lookup"><span data-stu-id="2f411-105">What do you want to do?</span></span> <span data-ttu-id="2f411-106">Щелкните ссылку на задачу, которую необходимо выполнить.</span><span class="sxs-lookup"><span data-stu-id="2f411-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="a97e6-105">Что нужно сделать</span><span class="sxs-lookup"><span data-stu-id="a97e6-105">What do you want to do?</span></span> <span data-ttu-id="a97e6-106">Щелкните ссылку на задачу, которую необходимо выполнить.</span><span class="sxs-lookup"><span data-stu-id="a97e6-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="2f411-107">Управление настройками регистратора в Skype для бизнеса Server 2015</span><span class="sxs-lookup"><span data-stu-id="2f411-107">Manage Registrar configuration settings in Skype for Business Server 2015</span></span>](../../manage/authentication/registrar-configuration-settings.md)
+- [<span data-ttu-id="a97e6-107">Управление настройками регистратора в Skype для бизнеса Server 2015</span><span class="sxs-lookup"><span data-stu-id="a97e6-107">Manage Registrar configuration settings in Skype for Business Server 2015</span></span>](../../manage/authentication/registrar-configuration-settings.md)
 
-- [<span data-ttu-id="2f411-108">Изменение существующего регистратора</span><span class="sxs-lookup"><span data-stu-id="2f411-108">Modify an Existing Registrar</span></span>](https://technet.microsoft.com/library/a8931511-3e66-49ed-a3ec-03bcd61ce1f0.aspx)
+- [<span data-ttu-id="a97e6-108">Изменение существующего регистратора</span><span class="sxs-lookup"><span data-stu-id="a97e6-108">Modify an Existing Registrar</span></span>](https://technet.microsoft.com/library/a8931511-3e66-49ed-a3ec-03bcd61ce1f0.aspx)
 
-- [<span data-ttu-id="2f411-109">Удаление регистратора</span><span class="sxs-lookup"><span data-stu-id="2f411-109">Delete a Registrar</span></span>](https://technet.microsoft.com/library/ae43cd75-cae4-4f78-b037-779a2cdb583b.aspx)
+- [<span data-ttu-id="a97e6-109">Удаление регистратора</span><span class="sxs-lookup"><span data-stu-id="a97e6-109">Delete a Registrar</span></span>](https://technet.microsoft.com/library/ae43cd75-cae4-4f78-b037-779a2cdb583b.aspx)
 
-<span data-ttu-id="2f411-110">Подробные сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнеса Server, см. в под управлением Skype для бизнеса [Server 2015.](../../manage/manage.md)</span><span class="sxs-lookup"><span data-stu-id="2f411-110">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="a97e6-110">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="a97e6-110">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
 

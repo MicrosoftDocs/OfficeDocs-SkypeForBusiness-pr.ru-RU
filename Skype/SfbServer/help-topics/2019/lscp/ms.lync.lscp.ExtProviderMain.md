@@ -22,10 +22,10 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49820329"
 ---
-# <a name="sip-federated-providers"></a><span data-ttu-id="01ab8-104">Федеративные поставщики SIP</span><span class="sxs-lookup"><span data-stu-id="01ab8-104">SIP Federated Providers</span></span>
+# <a name="sip-federated-providers"></a><span data-ttu-id="271cb-104">Федеративные поставщики SIP</span><span class="sxs-lookup"><span data-stu-id="271cb-104">SIP Federated Providers</span></span>
 
-<span data-ttu-id="01ab8-105">Что нужно сделать</span><span class="sxs-lookup"><span data-stu-id="01ab8-105">What do you want to do?</span></span> <span data-ttu-id="01ab8-106">Щелкните ссылку на задачу, которую необходимо выполнить.</span><span class="sxs-lookup"><span data-stu-id="01ab8-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="271cb-105">Что нужно сделать</span><span class="sxs-lookup"><span data-stu-id="271cb-105">What do you want to do?</span></span> <span data-ttu-id="271cb-106">Щелкните ссылку на задачу, которую необходимо выполнить.</span><span class="sxs-lookup"><span data-stu-id="271cb-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="01ab8-107">Управление федератными поставщиками SIP для организации</span><span class="sxs-lookup"><span data-stu-id="01ab8-107">Manage SIP Federated Providers for Your Organization</span></span>](https://technet.microsoft.com/library/c78d7e9b-c496-40c6-9249-06ced9cb87f3.aspx)
+- [<span data-ttu-id="271cb-107">Управление федератными поставщиками SIP для организации</span><span class="sxs-lookup"><span data-stu-id="271cb-107">Manage SIP Federated Providers for Your Organization</span></span>](https://technet.microsoft.com/library/c78d7e9b-c496-40c6-9249-06ced9cb87f3.aspx)
 
 

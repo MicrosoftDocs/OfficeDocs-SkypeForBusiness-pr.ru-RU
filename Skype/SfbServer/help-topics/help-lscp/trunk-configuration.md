@@ -22,17 +22,17 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49818819"
 ---
-# <a name="trunk-configuration"></a><span data-ttu-id="d6ec7-104">Конфигурация магистрали</span><span class="sxs-lookup"><span data-stu-id="d6ec7-104">Trunk Configuration</span></span>
+# <a name="trunk-configuration"></a><span data-ttu-id="09fe4-104">Конфигурация магистрали</span><span class="sxs-lookup"><span data-stu-id="09fe4-104">Trunk Configuration</span></span>
 
-<span data-ttu-id="d6ec7-105">Что нужно сделать</span><span class="sxs-lookup"><span data-stu-id="d6ec7-105">What do you want to do?</span></span> <span data-ttu-id="d6ec7-106">Щелкните ссылку на задачу, которую необходимо выполнить.</span><span class="sxs-lookup"><span data-stu-id="d6ec7-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="09fe4-105">Что нужно сделать</span><span class="sxs-lookup"><span data-stu-id="09fe4-105">What do you want to do?</span></span> <span data-ttu-id="09fe4-106">Щелкните ссылку на задачу, которую необходимо выполнить.</span><span class="sxs-lookup"><span data-stu-id="09fe4-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="d6ec7-107">Настройка магистрали с обходом сервера-посредника в Skype для бизнеса Server 2015</span><span class="sxs-lookup"><span data-stu-id="d6ec7-107">Configure a trunk with media bypass in Skype for Business Server 2015</span></span>](../../deploy/deploy-enterprise-voice/configure-trunk-with-media-bypass.md)
+- [<span data-ttu-id="09fe4-107">Настройка магистрали с обходом сервера-посредника в Skype для бизнеса Server 2015</span><span class="sxs-lookup"><span data-stu-id="09fe4-107">Configure a trunk with media bypass in Skype for Business Server 2015</span></span>](../../deploy/deploy-enterprise-voice/configure-trunk-with-media-bypass.md)
 
-- [<span data-ttu-id="d6ec7-108">Настройка магистрали без обхода сервера-посредника в Skype для бизнеса Server 2015</span><span class="sxs-lookup"><span data-stu-id="d6ec7-108">Configure a trunk without media bypass in Skype for Business Server 2015</span></span>](../../deploy/deploy-enterprise-voice/configure-trunk-without-media-bypass.md)
+- [<span data-ttu-id="09fe4-108">Настройка магистрали без обхода сервера-посредника в Skype для бизнеса Server 2015</span><span class="sxs-lookup"><span data-stu-id="09fe4-108">Configure a trunk without media bypass in Skype for Business Server 2015</span></span>](../../deploy/deploy-enterprise-voice/configure-trunk-without-media-bypass.md)
 
-- [<span data-ttu-id="d6ec7-109">Create or modify a translation rule for called ID presentation in Skype for Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="d6ec7-109">Create or modify a translation rule for called ID presentation in Skype for Business Server 2015</span></span>](../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
+- [<span data-ttu-id="09fe4-109">Create or modify a translation rule for called ID presentation in Skype for Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="09fe4-109">Create or modify a translation rule for called ID presentation in Skype for Business Server 2015</span></span>](../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
 
-- [<span data-ttu-id="d6ec7-110">Создание или изменение правила преобразования вручную</span><span class="sxs-lookup"><span data-stu-id="d6ec7-110">Create or Modify a Translation Rule Manually</span></span>](https://technet.microsoft.com/library/049d1db3-af58-48c5-be89-52e1d068a4bd.aspx)
+- [<span data-ttu-id="09fe4-110">Создание или изменение правила преобразования вручную</span><span class="sxs-lookup"><span data-stu-id="09fe4-110">Create or Modify a Translation Rule Manually</span></span>](https://technet.microsoft.com/library/049d1db3-af58-48c5-be89-52e1d068a4bd.aspx)
 
-<span data-ttu-id="d6ec7-111">Подробные сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнеса Server, см. в под управлением Skype для бизнеса [Server 2015.](../../manage/manage.md)</span><span class="sxs-lookup"><span data-stu-id="d6ec7-111">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="09fe4-111">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="09fe4-111">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
 

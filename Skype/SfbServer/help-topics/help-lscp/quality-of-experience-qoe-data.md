@@ -22,15 +22,15 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49819229"
 ---
-# <a name="quality-of-experience-qoe-data"></a><span data-ttu-id="b8aa9-104">Данные о качестве взаимодействия</span><span class="sxs-lookup"><span data-stu-id="b8aa9-104">Quality of Experience (QoE) Data</span></span>
+# <a name="quality-of-experience-qoe-data"></a><span data-ttu-id="3addf-104">Данные о качестве взаимодействия</span><span class="sxs-lookup"><span data-stu-id="3addf-104">Quality of Experience (QoE) Data</span></span>
  
-<span data-ttu-id="b8aa9-105">Что нужно сделать</span><span class="sxs-lookup"><span data-stu-id="b8aa9-105">What do you want to do?</span></span> <span data-ttu-id="b8aa9-106">Щелкните ссылку на задачу, которую необходимо выполнить.</span><span class="sxs-lookup"><span data-stu-id="b8aa9-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="3addf-105">Что нужно сделать</span><span class="sxs-lookup"><span data-stu-id="3addf-105">What do you want to do?</span></span> <span data-ttu-id="3addf-106">Щелкните ссылку на задачу, которую необходимо выполнить.</span><span class="sxs-lookup"><span data-stu-id="3addf-106">Click the link to the task that you want to perform.</span></span>
   
-- [<span data-ttu-id="b8aa9-107">Enable Quality of Experience in Skype for Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="b8aa9-107">Enable Quality of Experience in Skype for Business Server 2015</span></span>](../../manage/health-and-monitoring/enable-qoe.md)
+- [<span data-ttu-id="3addf-107">Enable Quality of Experience in Skype for Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="3addf-107">Enable Quality of Experience in Skype for Business Server 2015</span></span>](../../manage/health-and-monitoring/enable-qoe.md)
     
-- [<span data-ttu-id="b8aa9-108">Изменение параметров качества работы в Skype для бизнеса Server 2015</span><span class="sxs-lookup"><span data-stu-id="b8aa9-108">Modify Quality of Experience settings in Skype for Business Server 2015</span></span>](../../manage/health-and-monitoring/modify-qoe-settings.md)
+- [<span data-ttu-id="3addf-108">Изменение параметров качества работы в Skype для бизнеса Server 2015</span><span class="sxs-lookup"><span data-stu-id="3addf-108">Modify Quality of Experience settings in Skype for Business Server 2015</span></span>](../../manage/health-and-monitoring/modify-qoe-settings.md)
     
-- [<span data-ttu-id="b8aa9-109">Создание параметров конфигурации качества обслуживания в Skype для бизнеса Server 2015</span><span class="sxs-lookup"><span data-stu-id="b8aa9-109">Create Quality of Experience configuration settings in Skype for Business Server 2015</span></span>](../../manage/health-and-monitoring/create-qoe-configuration-settings.md)
+- [<span data-ttu-id="3addf-109">Создание параметров конфигурации качества обслуживания в Skype для бизнеса Server 2015</span><span class="sxs-lookup"><span data-stu-id="3addf-109">Create Quality of Experience configuration settings in Skype for Business Server 2015</span></span>](../../manage/health-and-monitoring/create-qoe-configuration-settings.md)
     
-<span data-ttu-id="b8aa9-110">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="b8aa9-110">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="3addf-110">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="3addf-110">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
 

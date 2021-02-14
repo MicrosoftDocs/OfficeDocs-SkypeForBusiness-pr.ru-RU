@@ -22,12 +22,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49820029"
 ---
-# <a name="select-pstn-usage-record"></a><span data-ttu-id="10d4c-103">Выбор записи использования ТСОП</span><span class="sxs-lookup"><span data-stu-id="10d4c-103">Select PSTN Usage Record</span></span>
+# <a name="select-pstn-usage-record"></a><span data-ttu-id="6169f-103">Выбор записи использования ТСОП</span><span class="sxs-lookup"><span data-stu-id="6169f-103">Select PSTN Usage Record</span></span>
  
-<span data-ttu-id="10d4c-104">Используйте диалоговое окно **Выбрать запись об использовании ТСОП** для поиска существующего режима работы с телефонной сетью общего пользования (ТСОП), который вы могли бы использовать.</span><span class="sxs-lookup"><span data-stu-id="10d4c-104">Use the **Select PSTN Usage Record** dialog box to find an existing public switched telephone network (PSTN) usage record that you can use.</span></span>
+<span data-ttu-id="6169f-104">Используйте диалоговое окно **Выбрать запись об использовании ТСОП** для поиска существующего режима работы с телефонной сетью общего пользования (ТСОП), который вы могли бы использовать.</span><span class="sxs-lookup"><span data-stu-id="6169f-104">Use the **Select PSTN Usage Record** dialog box to find an existing public switched telephone network (PSTN) usage record that you can use.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="10d4c-105">Чтобы получить все доступные режимы работы с ТСОП, ничего не вводите в поле поиска и нажмите значок поиска.</span><span class="sxs-lookup"><span data-stu-id="10d4c-105">To retrieve all available PSTN usage records, do not type anything in the search box, and then click the search icon.</span></span> 
+> <span data-ttu-id="6169f-105">Чтобы получить все доступные режимы работы с ТСОП, ничего не вводите в поле поиска и нажмите значок поиска.</span><span class="sxs-lookup"><span data-stu-id="6169f-105">To retrieve all available PSTN usage records, do not type anything in the search box, and then click the search icon.</span></span> 
   
  
   

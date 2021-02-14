@@ -22,11 +22,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49818979"
 ---
-# <a name="topology-trusted-application"></a><span data-ttu-id="3cc88-104">Топология: доверенное приложение</span><span class="sxs-lookup"><span data-stu-id="3cc88-104">Topology: Trusted Application</span></span>
+# <a name="topology-trusted-application"></a><span data-ttu-id="45c58-104">Топология: доверенное приложение</span><span class="sxs-lookup"><span data-stu-id="45c58-104">Topology: Trusted Application</span></span>
 
-<span data-ttu-id="3cc88-105">Что нужно сделать</span><span class="sxs-lookup"><span data-stu-id="3cc88-105">What do you want to do?</span></span> <span data-ttu-id="3cc88-106">Щелкните ссылку на задачу, которую необходимо выполнить.</span><span class="sxs-lookup"><span data-stu-id="3cc88-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="45c58-105">Что нужно сделать</span><span class="sxs-lookup"><span data-stu-id="45c58-105">What do you want to do?</span></span> <span data-ttu-id="45c58-106">Щелкните ссылку на задачу, которую необходимо выполнить.</span><span class="sxs-lookup"><span data-stu-id="45c58-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="3cc88-107">Просмотр списка доверенных приложений</span><span class="sxs-lookup"><span data-stu-id="3cc88-107">View a List of Trusted Applications</span></span>](https://technet.microsoft.com/library/f09300b3-67cf-4e70-a51a-23d62479b913.aspx)
+- [<span data-ttu-id="45c58-107">Просмотр списка доверенных приложений</span><span class="sxs-lookup"><span data-stu-id="45c58-107">View a List of Trusted Applications</span></span>](https://technet.microsoft.com/library/f09300b3-67cf-4e70-a51a-23d62479b913.aspx)
 
-<span data-ttu-id="3cc88-108">Подробные сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнеса Server, см. в под управлением Skype для бизнеса [Server 2015.](../../manage/manage.md)</span><span class="sxs-lookup"><span data-stu-id="3cc88-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="45c58-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="45c58-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
 

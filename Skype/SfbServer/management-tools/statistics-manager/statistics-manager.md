@@ -21,18 +21,18 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49821799"
 ---
-# <a name="statistics-manager-for-skype-for-business-server"></a><span data-ttu-id="65e9e-103">Диспетчер статистики в Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="65e9e-103">Statistics Manager for Skype for Business Server</span></span>
+# <a name="statistics-manager-for-skype-for-business-server"></a><span data-ttu-id="1e400-103">Диспетчер статистики в Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="1e400-103">Statistics Manager for Skype for Business Server</span></span>
  
-<span data-ttu-id="65e9e-104">**Сводка:** В этом разделе вы узнаете о диспетчере статистики для Skype для бизнеса Server, мощном средстве, которое позволяет просматривать данные о работоспособности и производительности Skype для бизнеса Server в режиме реального времени.</span><span class="sxs-lookup"><span data-stu-id="65e9e-104">**Summary:** Read this topic to learn about Statistics Manager for Skype for Business Server, a powerful tool that allows you to view Skype for Business Server health and performance data in real time.</span></span>
+<span data-ttu-id="1e400-104">**Сводка:** В этом разделе вы узнаете о диспетчере статистики для Skype для бизнеса Server, мощном средстве, которое позволяет просматривать данные о работоспособности и производительности Skype для бизнеса Server в режиме реального времени.</span><span class="sxs-lookup"><span data-stu-id="1e400-104">**Summary:** Read this topic to learn about Statistics Manager for Skype for Business Server, a powerful tool that allows you to view Skype for Business Server health and performance data in real time.</span></span>
   
-<span data-ttu-id="65e9e-105">В данном разделе рассматриваются следующие темы:</span><span class="sxs-lookup"><span data-stu-id="65e9e-105">This section contains the following topics:</span></span>
+<span data-ttu-id="1e400-105">В данном разделе рассматриваются следующие темы:</span><span class="sxs-lookup"><span data-stu-id="1e400-105">This section contains the following topics:</span></span>
   
-- [<span data-ttu-id="65e9e-106">Планирование диспетчера статистики в Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="65e9e-106">Plan for Statistics Manager for Skype for Business Server</span></span>](plan.md)
+- [<span data-ttu-id="1e400-106">Планирование диспетчера статистики в Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="1e400-106">Plan for Statistics Manager for Skype for Business Server</span></span>](plan.md)
     
-- [<span data-ttu-id="65e9e-107">Развертывание диспетчера статистики в Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="65e9e-107">Deploy Statistics Manager for Skype for Business Server</span></span>](deploy.md)
+- [<span data-ttu-id="1e400-107">Развертывание диспетчера статистики в Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="1e400-107">Deploy Statistics Manager for Skype for Business Server</span></span>](deploy.md)
     
-- [<span data-ttu-id="65e9e-108">Обновление диспетчера статистики в Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="65e9e-108">Upgrade Statistics Manager for Skype for Business Server</span></span>](upgrade.md)
+- [<span data-ttu-id="1e400-108">Обновление диспетчера статистики в Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="1e400-108">Upgrade Statistics Manager for Skype for Business Server</span></span>](upgrade.md)
     
-- [<span data-ttu-id="65e9e-109">Устранение проблем диспетчера статистики в Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="65e9e-109">Troubleshoot Statistics Manager for Skype for Business Server</span></span>](troubleshoot.md)
+- [<span data-ttu-id="1e400-109">Устранение проблем диспетчера статистики в Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="1e400-109">Troubleshoot Statistics Manager for Skype for Business Server</span></span>](troubleshoot.md)
     
 

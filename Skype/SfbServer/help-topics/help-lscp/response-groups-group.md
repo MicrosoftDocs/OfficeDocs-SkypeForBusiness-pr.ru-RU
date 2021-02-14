@@ -22,40 +22,40 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49819139"
 ---
-# <a name="response-groups-group"></a><span data-ttu-id="baf6a-104">Группы ответа: группа</span><span class="sxs-lookup"><span data-stu-id="baf6a-104">Response Groups: Group</span></span>
+# <a name="response-groups-group"></a><span data-ttu-id="852d6-104">Группы ответа: группа</span><span class="sxs-lookup"><span data-stu-id="852d6-104">Response Groups: Group</span></span>
 
-<span data-ttu-id="baf6a-105">Группы ответа состоят из агентов, очередей и рабочих процессов.</span><span class="sxs-lookup"><span data-stu-id="baf6a-105">Response groups consist of agent groups, queues, and workflows.</span></span> <span data-ttu-id="baf6a-106">Группа агентов — это группа людей, назначенных отвечать на звонки группы ответа.</span><span class="sxs-lookup"><span data-stu-id="baf6a-106">An agent group is a group of people who are designated to answer Response Group calls.</span></span>
+<span data-ttu-id="852d6-105">Группы ответа состоят из агентов, очередей и рабочих процессов.</span><span class="sxs-lookup"><span data-stu-id="852d6-105">Response groups consist of agent groups, queues, and workflows.</span></span> <span data-ttu-id="852d6-106">Группа агентов — это группа людей, назначенных отвечать на звонки группы ответа.</span><span class="sxs-lookup"><span data-stu-id="852d6-106">An agent group is a group of people who are designated to answer Response Group calls.</span></span>
 
-<span data-ttu-id="baf6a-107">На **странице**  -  **"Группа ответа"** отображается список всех групп агентов, определенных для организации.</span><span class="sxs-lookup"><span data-stu-id="baf6a-107">The **Response Groups** - **Group** page displays a list of all the agent groups that are defined for your organization.</span></span>
+<span data-ttu-id="852d6-107">На **странице**  -  **"Группа ответа"** отображается список всех групп агентов, определенных для организации.</span><span class="sxs-lookup"><span data-stu-id="852d6-107">The **Response Groups** - **Group** page displays a list of all the agent groups that are defined for your organization.</span></span>
 
-## <a name="tasks-you-can-perform"></a><span data-ttu-id="baf6a-108">Задачи, которые вы можете выполнить</span><span class="sxs-lookup"><span data-stu-id="baf6a-108">Tasks you can perform</span></span>
+## <a name="tasks-you-can-perform"></a><span data-ttu-id="852d6-108">Задачи, которые вы можете выполнить</span><span class="sxs-lookup"><span data-stu-id="852d6-108">Tasks you can perform</span></span>
 
-<span data-ttu-id="baf6a-109">На странице "Группа ответа" можно выполнить **следующие**  -   задачи:</span><span class="sxs-lookup"><span data-stu-id="baf6a-109">You can perform the following tasks from the **Response Groups** - **Group** page:</span></span>
+<span data-ttu-id="852d6-109">На странице "Группа ответа" можно выполнить **следующие**  -   задачи:</span><span class="sxs-lookup"><span data-stu-id="852d6-109">You can perform the following tasks from the **Response Groups** - **Group** page:</span></span>
 
-- <span data-ttu-id="baf6a-110">создать новую группу агентов;</span><span class="sxs-lookup"><span data-stu-id="baf6a-110">Create a new agent group</span></span>
+- <span data-ttu-id="852d6-110">создать новую группу агентов;</span><span class="sxs-lookup"><span data-stu-id="852d6-110">Create a new agent group</span></span>
 
-- <span data-ttu-id="baf6a-111">изменить существующую группу агентов;</span><span class="sxs-lookup"><span data-stu-id="baf6a-111">Change an existing agent group</span></span>
+- <span data-ttu-id="852d6-111">изменить существующую группу агентов;</span><span class="sxs-lookup"><span data-stu-id="852d6-111">Change an existing agent group</span></span>
 
-- <span data-ttu-id="baf6a-112">удалить группу агентов.</span><span class="sxs-lookup"><span data-stu-id="baf6a-112">Delete an agent group</span></span>
+- <span data-ttu-id="852d6-112">удалить группу агентов.</span><span class="sxs-lookup"><span data-stu-id="852d6-112">Delete an agent group</span></span>
 
-## <a name="ui-reference"></a><span data-ttu-id="baf6a-113">Ссылка на пользовательский интерфейс</span><span class="sxs-lookup"><span data-stu-id="baf6a-113">UI Reference</span></span>
+## <a name="ui-reference"></a><span data-ttu-id="852d6-113">Ссылка на пользовательский интерфейс</span><span class="sxs-lookup"><span data-stu-id="852d6-113">UI Reference</span></span>
 
-<span data-ttu-id="baf6a-114">В следующем списке описываются команды на странице.</span><span class="sxs-lookup"><span data-stu-id="baf6a-114">The following list describes the commands on the page.</span></span>
+<span data-ttu-id="852d6-114">В следующем списке описываются команды на странице.</span><span class="sxs-lookup"><span data-stu-id="852d6-114">The following list describes the commands on the page.</span></span>
 
-- <span data-ttu-id="baf6a-115">**Новый** Запускает новую группу агентов.</span><span class="sxs-lookup"><span data-stu-id="baf6a-115">**New** Starts a new agent group.</span></span>
+- <span data-ttu-id="852d6-115">**Новый** Запускает новую группу агентов.</span><span class="sxs-lookup"><span data-stu-id="852d6-115">**New** Starts a new agent group.</span></span>
 
-- <span data-ttu-id="baf6a-116">**Правка** Открывает выбранную группу агентов для ее редактирования, выбирает все группы агентов в списке или удаляет выбранные группы агентов.</span><span class="sxs-lookup"><span data-stu-id="baf6a-116">**Edit** Opens the selected agent group to edit it, selects all agent groups in the list, or deletes the selected agent groups.</span></span>
+- <span data-ttu-id="852d6-116">**Правка** Открывает выбранную группу агентов для ее редактирования, выбирает все группы агентов в списке или удаляет выбранные группы агентов.</span><span class="sxs-lookup"><span data-stu-id="852d6-116">**Edit** Opens the selected agent group to edit it, selects all agent groups in the list, or deletes the selected agent groups.</span></span>
 
-- <span data-ttu-id="baf6a-117">**Обновление** Обновляет список групп агентов.</span><span class="sxs-lookup"><span data-stu-id="baf6a-117">**Refresh** Refreshes the list of agent groups.</span></span>
+- <span data-ttu-id="852d6-117">**Обновление** Обновляет список групп агентов.</span><span class="sxs-lookup"><span data-stu-id="852d6-117">**Refresh** Refreshes the list of agent groups.</span></span>
 
-<span data-ttu-id="baf6a-118">В следующем списке описываются поля на странице.</span><span class="sxs-lookup"><span data-stu-id="baf6a-118">The following list describes the fields on the page.</span></span>
+<span data-ttu-id="852d6-118">В следующем списке описываются поля на странице.</span><span class="sxs-lookup"><span data-stu-id="852d6-118">The following list describes the fields on the page.</span></span>
 
-- <span data-ttu-id="baf6a-119">**Имя** Уникальное имя, идентифицирует группу агентов.</span><span class="sxs-lookup"><span data-stu-id="baf6a-119">**Name** The unique name that identifies the agent group.</span></span>
+- <span data-ttu-id="852d6-119">**Имя** Уникальное имя, идентифицирует группу агентов.</span><span class="sxs-lookup"><span data-stu-id="852d6-119">**Name** The unique name that identifies the agent group.</span></span>
 
-- <span data-ttu-id="baf6a-120">**Служба** Служба **ApplicationServer,** в котором размещена группа агентов.</span><span class="sxs-lookup"><span data-stu-id="baf6a-120">**Service** The **ApplicationServer** service that hosts the agent group.</span></span>
+- <span data-ttu-id="852d6-120">**Служба** Служба **ApplicationServer,** в котором размещена группа агентов.</span><span class="sxs-lookup"><span data-stu-id="852d6-120">**Service** The **ApplicationServer** service that hosts the agent group.</span></span>
 
-- <span data-ttu-id="baf6a-121">**Описание** Описание группы агентов.</span><span class="sxs-lookup"><span data-stu-id="baf6a-121">**Description** The description for the agent group.</span></span>
+- <span data-ttu-id="852d6-121">**Описание** Описание группы агентов.</span><span class="sxs-lookup"><span data-stu-id="852d6-121">**Description** The description for the agent group.</span></span>
 
-<span data-ttu-id="baf6a-122">For details about Response Group features and capabilities, see [Plan for the Response Group application in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/response-group.md) in the Planning documentation.</span><span class="sxs-lookup"><span data-stu-id="baf6a-122">For details about Response Group features and capabilities, see [Plan for the Response Group application in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/response-group.md) in the Planning documentation.</span></span> <span data-ttu-id="baf6a-123">Дополнительные сведения о работе с группами агентов см. в разделе [Managing Agent Groups](https://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx) документации по использованию.</span><span class="sxs-lookup"><span data-stu-id="baf6a-123">For details about working with agent groups, see [Managing Agent Groups](https://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx) in the Operations documentation.</span></span>
+<span data-ttu-id="852d6-122">For details about Response Group features and capabilities, see [Plan for the Response Group application in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/response-group.md) in the Planning documentation.</span><span class="sxs-lookup"><span data-stu-id="852d6-122">For details about Response Group features and capabilities, see [Plan for the Response Group application in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/response-group.md) in the Planning documentation.</span></span> <span data-ttu-id="852d6-123">Дополнительные сведения о работе с группами агентов см. в разделе [Managing Agent Groups](https://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx) документации по использованию.</span><span class="sxs-lookup"><span data-stu-id="852d6-123">For details about working with agent groups, see [Managing Agent Groups](https://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx) in the Operations documentation.</span></span>
 
 

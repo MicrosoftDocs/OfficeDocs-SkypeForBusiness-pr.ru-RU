@@ -22,9 +22,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49820089"
 ---
-# <a name="view-gateways-import-configuration"></a><span data-ttu-id="bb768-103">Просмотр шлюзов (импорт конфигурации)</span><span class="sxs-lookup"><span data-stu-id="bb768-103">View Gateways (Import Configuration)</span></span>
+# <a name="view-gateways-import-configuration"></a><span data-ttu-id="3e279-103">Просмотр шлюзов (импорт конфигурации)</span><span class="sxs-lookup"><span data-stu-id="3e279-103">View Gateways (Import Configuration)</span></span>
  
-<span data-ttu-id="bb768-104">В окне **Развернутый шлюз** щелкните шлюз, в который требуется импортировать выбранный файл конфигурации голосовой связи.</span><span class="sxs-lookup"><span data-stu-id="bb768-104">In **Deployed gateway**, click the gateway where you want to import the voice configuration file that you selected.</span></span>
+<span data-ttu-id="3e279-104">В окне **Развернутый шлюз** щелкните шлюз, в который требуется импортировать выбранный файл конфигурации голосовой связи.</span><span class="sxs-lookup"><span data-stu-id="3e279-104">In **Deployed gateway**, click the gateway where you want to import the voice configuration file that you selected.</span></span>
   
  
   

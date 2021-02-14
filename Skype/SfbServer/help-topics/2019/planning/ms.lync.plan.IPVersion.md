@@ -23,10 +23,10 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49819789"
 ---
-# <a name="ip-version-planning-tool"></a><span data-ttu-id="fa899-104">ВЕРСИЯ IP (средство планирования)</span><span class="sxs-lookup"><span data-stu-id="fa899-104">IP Version (Planning Tool)</span></span>
+# <a name="ip-version-planning-tool"></a><span data-ttu-id="de5c0-104">ВЕРСИЯ IP (средство планирования)</span><span class="sxs-lookup"><span data-stu-id="de5c0-104">IP Version (Planning Tool)</span></span>
  
-<span data-ttu-id="fa899-105">У вас есть три варианта настройки IP-адресов в Skype для бизнеса Server.</span><span class="sxs-lookup"><span data-stu-id="fa899-105">You have three options when configuring IP addresses in Skype for Business Server.</span></span> <span data-ttu-id="fa899-106">Skype для бизнеса Server можно настроить на поддержку только IP версии 4 (IPv4), только IP версии 6 (IPv6) или сочетания обоих вариантов (называется двойным стеком).</span><span class="sxs-lookup"><span data-stu-id="fa899-106">You can configure Skype for Business Server to support only IP version 4 (IPv4), only IP version 6 (IPv6), or a combination of both (known as a dual stack).</span></span>
+<span data-ttu-id="de5c0-105">У вас есть три варианта настройки IP-адресов в Skype для бизнеса Server.</span><span class="sxs-lookup"><span data-stu-id="de5c0-105">You have three options when configuring IP addresses in Skype for Business Server.</span></span> <span data-ttu-id="de5c0-106">Skype для бизнеса Server можно настроить на поддержку только IP версии 4 (IPv4), только IP версии 6 (IPv6) или сочетания обоих вариантов (называется двойным стеком).</span><span class="sxs-lookup"><span data-stu-id="de5c0-106">You can configure Skype for Business Server to support only IP version 4 (IPv4), only IP version 6 (IPv6), or a combination of both (known as a dual stack).</span></span>
   
-<span data-ttu-id="fa899-107">Дополнительные сведения о выборе инфраструктуры IP см. в плане [IPv6 в Skype для бизнеса.](../../../plan-your-deployment/network-requirements/ipv6.md)</span><span class="sxs-lookup"><span data-stu-id="fa899-107">For more details about choosing your IP infrastructure, see [Plan for IPv6 in Skype for Business](../../../plan-your-deployment/network-requirements/ipv6.md).</span></span>
+<span data-ttu-id="de5c0-107">Дополнительные сведения о выборе инфраструктуры IP см. в плане [IPv6 в Skype для бизнеса.](../../../plan-your-deployment/network-requirements/ipv6.md)</span><span class="sxs-lookup"><span data-stu-id="de5c0-107">For more details about choosing your IP infrastructure, see [Plan for IPv6 in Skype for Business](../../../plan-your-deployment/network-requirements/ipv6.md).</span></span>
   
 

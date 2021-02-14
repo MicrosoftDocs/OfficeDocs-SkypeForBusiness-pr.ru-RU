@@ -22,8 +22,8 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49820559"
 ---
-# <a name="deployment-wizard-using-the-admin-tools"></a><span data-ttu-id="60727-103">Мастер развертывания: использование средств администрирования</span><span class="sxs-lookup"><span data-stu-id="60727-103">Deployment Wizard: Using the Admin Tools</span></span>
+# <a name="deployment-wizard-using-the-admin-tools"></a><span data-ttu-id="afbd5-103">Мастер развертывания: использование средств администрирования</span><span class="sxs-lookup"><span data-stu-id="afbd5-103">Deployment Wizard: Using the Admin Tools</span></span>
  
-<span data-ttu-id="60727-104">Дополнительные сведения об использовании мастера развертывания для установки Skype для бизнеса Server см. в сведениях [об установке Skype для бизнеса Server.](../../../deploy/install/install.md)</span><span class="sxs-lookup"><span data-stu-id="60727-104">For details about using Deployment Wizard to install Skype for Business Server, see [Install Skype for Business Server](../../../deploy/install/install.md).</span></span>
+<span data-ttu-id="afbd5-104">Дополнительные сведения об использовании мастера развертывания для установки Skype для бизнеса Server см. в сведениях [об установке Skype для бизнеса Server.](../../../deploy/install/install.md)</span><span class="sxs-lookup"><span data-stu-id="afbd5-104">For details about using Deployment Wizard to install Skype for Business Server, see [Install Skype for Business Server](../../../deploy/install/install.md).</span></span>
   
 

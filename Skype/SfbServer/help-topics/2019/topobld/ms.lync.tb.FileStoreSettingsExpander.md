@@ -22,13 +22,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49819429"
 ---
-# <a name="file-store-settings-expander"></a><span data-ttu-id="6abb4-103">Расширитель параметров хранилища файлов</span><span class="sxs-lookup"><span data-stu-id="6abb4-103">File Store Settings Expander</span></span>
+# <a name="file-store-settings-expander"></a><span data-ttu-id="14889-103">Расширитель параметров хранилища файлов</span><span class="sxs-lookup"><span data-stu-id="14889-103">File Store Settings Expander</span></span>
  
-<span data-ttu-id="6abb4-104">Чтобы изменить свойства определенных файловых хранилищ, выполните следующие действия.</span><span class="sxs-lookup"><span data-stu-id="6abb4-104">To edit the properties of the defined file stores:</span></span>
+<span data-ttu-id="14889-104">Чтобы изменить свойства определенных файловых хранилищ, выполните следующие действия.</span><span class="sxs-lookup"><span data-stu-id="14889-104">To edit the properties of the defined file stores:</span></span>
   
-<span data-ttu-id="6abb4-p101">Можно определить имя новой общей папки файлов. Необходимо создать общую папку на сервере, указанном в свойстве полного доменного имени файлового сервера.</span><span class="sxs-lookup"><span data-stu-id="6abb4-p101">For the File Share name, you can define the name of a new share. You must then create the share on the server that is named in the File Server fully qualified domain name (FQDN) property.</span></span>
+<span data-ttu-id="14889-p101">Можно определить имя новой общей папки файлов. Необходимо создать общую папку на сервере, указанном в свойстве полного доменного имени файлового сервера.</span><span class="sxs-lookup"><span data-stu-id="14889-p101">For the File Share name, you can define the name of a new share. You must then create the share on the server that is named in the File Server fully qualified domain name (FQDN) property.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="6abb4-p102">Невозможно изменить полное доменное имя сервера, указанного в свойстве полного доменного имени файлового сервера. Если необходимо разместить общую папку файлов на другом сервере, необходимо создать новую запись общей папки файлов.</span><span class="sxs-lookup"><span data-stu-id="6abb4-p102">You cannot change the FQDN of the server that is specified in the File Server FQDN property. If you need to place the file store file share on a different server, you create a new file store entry.</span></span> 
+> <span data-ttu-id="14889-p102">Невозможно изменить полное доменное имя сервера, указанного в свойстве полного доменного имени файлового сервера. Если необходимо разместить общую папку файлов на другом сервере, необходимо создать новую запись общей папки файлов.</span><span class="sxs-lookup"><span data-stu-id="14889-p102">You cannot change the FQDN of the server that is specified in the File Server FQDN property. If you need to place the file store file share on a different server, you create a new file store entry.</span></span> 
   
 
