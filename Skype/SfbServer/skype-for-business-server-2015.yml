@@ -1,9 +1,9 @@
 ### YamlMime:Landing
 title: Документация по Skype для бизнеса Server 2015
-summary: Узнайте, как внедрить Skype для бизнеса Server 2015.
+summary: Узнайте, как реализовать Skype для бизнеса Server 2015.
 metadata:
   title: Документация по Skype для бизнеса Server 2015
-  description: Узнайте, как внедрить Skype для бизнеса Server 2015.
+  description: Узнайте, как реализовать Skype для бизнеса Server 2015.
   ms.service: skype-for-business-online
   audience: ITPro
   ms.topic: landing-page
@@ -18,13 +18,13 @@ metadata:
   ms.lasthandoff: 07/21/2020
   ms.locfileid: "45189366"
 landingContent:
-- title: Сведения о Skype для бизнеса Server 2015
+- title: О Skype для бизнеса Server 2015
   linkLists:
   - linkListType: overview
     links:
     - text: Требования к среде
       url: /SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment
-    - text: 'Требования к сети:'
+    - text: Требования к сети
       url: /SkypeForBusiness/plan-your-deployment/network-requirements/network-requirements
     - text: Трансляция собраний Skype
       url: https://support.office.com/article/what-is-a-skype-meeting-broadcast-c472c76b-21f1-4e4b-ab58-329a6c33757d
@@ -32,7 +32,7 @@ landingContent:
       url: /SkypeForBusiness/technical-diagrams
   - linkListType: download
     links:
-    - text: Загрузите его сейчас!
+    - text: Скачайте сейчас!
       url: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server
 - title: План
   linkLists:
@@ -42,9 +42,9 @@ landingContent:
       url: /SkypeForBusiness/plan-your-deployment/plan-your-deployment
     - text: Планирование гибридного подключения
       url: /SkypeForBusiness/skype-for-business-hybrid-solutions/plan-hybrid-connectivity
-    - text: Планирование для клиентов и устройств
+    - text: Планирование клиентов и устройств
       url: /SkypeForBusiness/plan-your-deployment/clients-and-devices/clients-and-devices
-    - text: Планирование решения корпоративной голосовой связи
+    - text: Планирование решения Корпоративная голосовая связь решения
       url: /SkypeForBusiness/plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution
 - title: Установка и управление
   linkLists:
@@ -68,7 +68,7 @@ landingContent:
   linkLists:
   - linkListType: overview
     links:
-    - text: Серия готовности Skype для бизнеса
+    - text: Серия "Готовность Skype для бизнеса"
       url: https://infopedia.eventbuilder.com/?landingpageid=7p1c8p
     - text: Документация по Skype для бизнеса Server 2019
       url: /SkypeForBusiness/skype-for-business-server-2019

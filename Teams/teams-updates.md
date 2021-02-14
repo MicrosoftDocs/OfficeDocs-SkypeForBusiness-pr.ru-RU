@@ -25,8 +25,8 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 08/06/2020
 ms.locfileid: "46583808"
 ---
-# <a name="microsoft-teams-content-updates"></a><span data-ttu-id="639ee-103">Обновления содержимого Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="639ee-103">Microsoft Teams content updates</span></span>
+# <a name="microsoft-teams-content-updates"></a><span data-ttu-id="22348-103">Обновления содержимого Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="22348-103">Microsoft Teams content updates</span></span>
 
-<span data-ttu-id="639ee-104">В этой теме перечислены недавно измененные темы Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="639ee-104">This topic lists Microsoft Teams topics that have been changed recently.</span></span>
+<span data-ttu-id="22348-104">В этой теме перечислены недавно измененные разделы Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="22348-104">This topic lists Microsoft Teams topics that have been changed recently.</span></span>
 
 > [!INCLUDE [teams-content-updates](includes/teams-content-updates.md)]

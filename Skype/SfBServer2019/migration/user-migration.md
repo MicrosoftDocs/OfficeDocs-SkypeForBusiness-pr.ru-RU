@@ -1,5 +1,5 @@
 ---
-title: Перенос пользователей
+title: Миграция пользователей
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -18,11 +18,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/16/2020
 ms.locfileid: "44753281"
 ---
-# <a name="user-migration"></a><span data-ttu-id="eb174-105">Перенос пользователей</span><span class="sxs-lookup"><span data-stu-id="eb174-105">User migration</span></span>
+# <a name="user-migration"></a><span data-ttu-id="fbb08-105">Миграция пользователей</span><span class="sxs-lookup"><span data-stu-id="fbb08-105">User migration</span></span>
 
-<span data-ttu-id="eb174-p102">Общепринятым методом миграции является создание нескольких тестовых пользователей и их использование для проведения испытаний систем. После успешного переноса и тестирования этих учетных записей следует выбрать группу пользователей рабочей среды для участия в пилотной программе. Перенесите их учетные записи и проведите для них проверочные тесты. Когда результаты будут удовлетворительными, вы можете перенести остальных пользователей в новую среду.</span><span class="sxs-lookup"><span data-stu-id="eb174-p102">A generally accepted best practice for migrations is to create several test users and use them to conduct systems tests. After you have successfully moved and tested those accounts, you should identify a group of pilot production users and move their accounts and conduct validation tests on them. When you get satisfactory results, you can move the rest of your users to the new deployment.</span></span>
+<span data-ttu-id="fbb08-p102">Общепринятым методом миграции является создание нескольких тестовых пользователей и их использование для проведения испытаний систем. После успешного переноса и тестирования этих учетных записей следует выбрать группу пользователей рабочей среды для участия в пилотной программе. Перенесите их учетные записи и проведите для них проверочные тесты. Когда результаты будут удовлетворительными, вы можете перенести остальных пользователей в новую среду.</span><span class="sxs-lookup"><span data-stu-id="fbb08-p102">A generally accepted best practice for migrations is to create several test users and use them to conduct systems tests. After you have successfully moved and tested those accounts, you should identify a group of pilot production users and move their accounts and conduct validation tests on them. When you get satisfactory results, you can move the rest of your users to the new deployment.</span></span>
   
-<span data-ttu-id="eb174-109">Дополнительные сведения о том, как включить пользователям Skype для бизнеса Server 2019, можно найти в документации по развертыванию Skype для бизнеса Server 2019.</span><span class="sxs-lookup"><span data-stu-id="eb174-109">For additional information on enabling users for Skype for Business Server 2019, see the Deploying Skype for Business Server 2019 documentation.</span></span> 
+<span data-ttu-id="fbb08-109">Дополнительные сведения о включании пользователей Skype для бизнеса Server 2019 см. в документации по развертыванию Skype для бизнеса Server 2019.</span><span class="sxs-lookup"><span data-stu-id="fbb08-109">For additional information on enabling users for Skype for Business Server 2019, see the Deploying Skype for Business Server 2019 documentation.</span></span> 
   
   <!-- the topic [Disable or re-enable user account for Skype for Business Server 2019](../../operations/managing-users-in-lync-server-2013/disable-or-re-enable-user-account-for-lync-server.md) in  -->
 

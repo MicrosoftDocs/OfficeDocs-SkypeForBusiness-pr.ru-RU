@@ -1,5 +1,5 @@
 ---
-title: Этап 2 Подготовка к миграции
+title: Этап 2. Подготовка к миграции
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -11,7 +11,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: fa6fef59-9d3a-4bda-acda-960734e4cb1a
-description: Прежде чем приступать к миграции на Skype для бизнеса Server 2019, выполните действия, описанные в этом разделе.
+description: Перед началом миграции в Skype для бизнеса Server 2019 выполните действия, описанные в этом разделе.
 ms.openlocfilehash: 74a59bb9f7617fd02f4b1f714e1f1d96dacac603
 ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
@@ -19,20 +19,20 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/16/2020
 ms.locfileid: "44752361"
 ---
-# <a name="phase-2-prepare-for-migration"></a><span data-ttu-id="409fe-103">Этап 2: подготовка к миграции</span><span class="sxs-lookup"><span data-stu-id="409fe-103">Phase 2: Prepare for migration</span></span>
+# <a name="phase-2-prepare-for-migration"></a><span data-ttu-id="6f2aa-103">Этап 2: подготовка к миграции</span><span class="sxs-lookup"><span data-stu-id="6f2aa-103">Phase 2: Prepare for migration</span></span>
 
-<span data-ttu-id="409fe-104">Прежде чем приступать к миграции на Skype для бизнеса Server 2019, выполните действия, описанные в этом разделе.</span><span class="sxs-lookup"><span data-stu-id="409fe-104">Before you begin your migration to Skype for Business Server 2019, follow the steps described in this section.</span></span>
+<span data-ttu-id="6f2aa-104">Перед началом миграции в Skype для бизнеса Server 2019 выполните действия, описанные в этом разделе.</span><span class="sxs-lookup"><span data-stu-id="6f2aa-104">Before you begin your migration to Skype for Business Server 2019, follow the steps described in this section.</span></span>
   
-## <a name="in-this-section"></a><span data-ttu-id="409fe-105">В этом разделе:</span><span class="sxs-lookup"><span data-stu-id="409fe-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="6f2aa-105">В этом разделе:</span><span class="sxs-lookup"><span data-stu-id="6f2aa-105">In this section</span></span>
 
-- [<span data-ttu-id="409fe-106">Применение обновлений</span><span class="sxs-lookup"><span data-stu-id="409fe-106">Apply updates</span></span>](apply-updates.md)
+- [<span data-ttu-id="6f2aa-106">Применение обновлений</span><span class="sxs-lookup"><span data-stu-id="6f2aa-106">Apply updates</span></span>](apply-updates.md)
     
-- [<span data-ttu-id="409fe-107">Настройка DNS-записей для развертывания пилотного пула</span><span class="sxs-lookup"><span data-stu-id="409fe-107">Configure DNS records for pilot pool deployment</span></span>](configure-dns-records-for-pilot-pool-deployment.md)
+- [<span data-ttu-id="6f2aa-107">Настройка DNS-записей для развертывания пилотного пула</span><span class="sxs-lookup"><span data-stu-id="6f2aa-107">Configure DNS records for pilot pool deployment</span></span>](configure-dns-records-for-pilot-pool-deployment.md)
     
-- [<span data-ttu-id="409fe-108">Резервное копирование систем и данных</span><span class="sxs-lookup"><span data-stu-id="409fe-108">Back up systems and data</span></span>](back-up-systems-and-data.md)
+- [<span data-ttu-id="6f2aa-108">Резервное копирование систем и данных</span><span class="sxs-lookup"><span data-stu-id="6f2aa-108">Back up systems and data</span></span>](back-up-systems-and-data.md)
     
-- [<span data-ttu-id="409fe-109">Настройка клиентов для миграции</span><span class="sxs-lookup"><span data-stu-id="409fe-109">Configure clients for migration</span></span>](configure-clients-for-migration.md)
+- [<span data-ttu-id="6f2aa-109">Настройка клиентов для миграции</span><span class="sxs-lookup"><span data-stu-id="6f2aa-109">Configure clients for migration</span></span>](configure-clients-for-migration.md)
     
-- [<span data-ttu-id="409fe-110">Проверка устаревшей среды</span><span class="sxs-lookup"><span data-stu-id="409fe-110">Verify the legacy environment</span></span>](verify-environment.md)
+- [<span data-ttu-id="6f2aa-110">Проверка устаревшей среды</span><span class="sxs-lookup"><span data-stu-id="6f2aa-110">Verify the legacy environment</span></span>](verify-environment.md)
     
 
