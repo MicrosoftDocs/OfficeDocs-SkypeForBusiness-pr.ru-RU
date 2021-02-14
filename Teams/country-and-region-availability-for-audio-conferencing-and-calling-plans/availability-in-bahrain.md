@@ -24,7 +24,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже 2010 г. доступны службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Бахрейна.
+description: Ниже 365 доступны службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Бахрейна.
 ms.openlocfilehash: 2b87e6545d8c24215f9d61c6b2f75ade95fa3266
 ms.sourcegitcommit: ca2faa1cd2b078e8d0389b5d2f49bfe6ddbcb9f6
 ms.translationtype: MT
@@ -36,7 +36,7 @@ ms.locfileid: "45391627"
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже 2010 г. доступны службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Бахрейна.
+Ниже 365 доступны службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Бахрейна.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 

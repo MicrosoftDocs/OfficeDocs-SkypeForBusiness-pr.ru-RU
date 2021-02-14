@@ -35,7 +35,7 @@ ms.locfileid: "44902234"
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже находятся службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные в Бангладеш.
+Ниже находятся службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Бангладеш.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 

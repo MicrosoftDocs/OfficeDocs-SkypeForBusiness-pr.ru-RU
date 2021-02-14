@@ -46,7 +46,7 @@ ms.locfileid: "46662099"
 ## <a name="transfer-or-port-your-existing-phone-numbers-to-microsoft-teams"></a>Перенос существующих номеров телефонов в Microsoft Teams
 Отправьте электронную почту на соответствующий псевдоним электронной почты из таблицы выше. Включив как можно больше сведений, например:
   - Ваш [ИД организации (ИД клиента)](https://docs.microsoft.com/onedrive/find-your-office-365-tenant-id)или активные домены Майкрософт.
-  - Типы номеров телефонов, по которые требуется помощь; например, пользователь, платный или бесплатный номер службы.
+  - Типы номеров телефонов, по которые требуется помощь; например, пользователь, платный доступ к службе или бесплатный доступ к службе.
   - Другие важные сведения, основанные на вашем запросе.
 
 ## <a name="get-new-phone-numbers-for-microsoft-teams"></a>Получить новые номера телефонов для Microsoft Teams
@@ -59,7 +59,7 @@ ms.locfileid: "46662099"
 
 - Справку по настройке и настройке номеров, лицензиям, [](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products?view=o365-worldwide&tabs=online)сборам или выставлению счета см. в справке для администраторов.
 - Сведения о планах звонков, доступных в вашей стране или регионе, см. в сведениях о доступности стран и регионов для аудиоконференций [и планов звонков.](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-- Сведения о том, как выбрать подходящие типы телефонных номеров для организации, см. в различных типах номеров, используемых для планов [звонков.](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
+- Сведения о том, как выбрать подходящие типы телефонных номеров для организации, см. в справке по различным типам номеров, используемых в [планах звонков.](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 - Сведения о том, как настроить номера телефонов для организации, см. в справке для администраторов в службе поддержки продуктов [для бизнеса.](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products?view=o365-worldwide&tabs=online)
 
 ## <a name="related-topics"></a>См. также:

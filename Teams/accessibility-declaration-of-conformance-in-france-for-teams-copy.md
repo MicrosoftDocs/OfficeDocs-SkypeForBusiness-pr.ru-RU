@@ -228,7 +228,7 @@ Définitions et abréviations [EN 301 549](http://mandate376.standards.eu/standa
 </tr>
 <tr class="even">
 <td><h3 id="taux-de-trame-vitesse-dimages">6.5.3 Taux de уолю (vitesse d'images)</h3>
-<p>Lorsqu'une TIC qui propose la communication voix bidirection у est dotée d'une fonctionnalité de vidéo en temps réel, cette TIC :</p>
+<p>Lorsqu'une TIC qui propose la communication voix bidirectionettee est dotée d'une fonctionnalité de vidéo en temps réel, cette TIC :</p>
 <p>a) prend en charge un t au de au moins 12 images par seconde (IPS) ;</p>
 <p>b) doit de préférence prendre en charge un taux de pare d'au moins 20 images par seconde (IPS) avec ou sans langue des signes dans le flux de données vidéo.</p></td>
 <td>Pris en charge</td>
@@ -258,15 +258,15 @@ Cette section ne s'applique pas à Skype Вебигры 2016.
 
 ### <a name="section-8-matriel-informatique"></a>Section 8 Matériel informatique
 
-Cette section ne s'applique pas à Skype Уапрise 2016.
+Cette section ne s'applique pas à Skype Вебигры 2016.
 
 ### <a name="section-9-web"></a>Раздел 9 в Интернете
 
-Cette section ne s'applique pas à Skype Уапрise 2016.
+Cette section ne s'applique pas à Skype Вебигры 2016.
 
 ### <a name="section-10-documents-non-bass-dans-le-web"></a>Section 10 Documents non basés dans le Web 
 
-Cette section ne s'applique pas à Skype Уапрise 2016.
+Cette section ne s'applique pas à Skype Вебигры 2016.
 
 ### <a name="section-11-logiciel"></a>Раздел 11 Logiciel
 
@@ -284,7 +284,7 @@ Cette section ne s'applique pas à Skype Уапрise 2016.
 <p>Tout le contenu non textuel qui est présenté à l'utilisateur est doté d'un équivalent textuel qui a la même fonction, sauf dans les situations suivantes :</p>
 <p>Commandes, saisie : Si le contenu non textuel est une commande ou s'il permet la saisie d'informations par l'utilisateur, alors il a un nom qui décrit sa fonction.</p>
 <p>Media limité dans le temps : Si le contenu non textuel est un media limité dans le temps, alors les équivalents textuels donnent au moins une identification de ce contenu non textuel.</p>
-<p>Test : Si le contenu non textuel est un test ou un exercice qui serait invalide s'il était présenté sous forme de texte, alors des équivalents textuels donnent au moins une identification descriptive du contenu non textuel.</p>
+<p>Test : Si le contenu non textuel est un test ou un exercice qui serait invalide s'il était présenté sous forme de texte, alors des équivalents textuels donnent au moins une identification de contenu non textuel.</p>
 <p>Contenu sensoriel : Si le contenu non textuel a pour principal objectif de créer une expérience sensorielle spécifique, alors des équivalents textuels donnent au moins une identification de ce contenu non textuel.</p>
 <p>CAPTCHA : Si le contenu non textuel sert à confirmer que c'est une personne et non ordinateur qui accède au contenu, alors des équivalents textuels qui identifient et décrivent à quoi sert ce contenu non textuel sont fournis, et des formes alternatives de CAPTCHA utilisant différents modes de sortie pour les différents types de sensorielle sont fournies afin de répondre aux besoins des différents—</p>
 <p>Décoration, formatage, invisible : Si le contenu non textuel est purement décoratif, s'il n'est utilisé que pour le formatage visuel ou s'il n'est pas présenté aux utilisateurs, alors il est mis en uvre de manière à être ignoré par la technologie d'assistance.</p></td>
@@ -331,7 +331,7 @@ Cette section ne s'applique pas à Skype Уапрise 2016.
 <tr class="even">
 <td><h3 id="informations-et-relations">11.2.1.7 Информация и связи</h3>
 <p>Dans le cas où la TIC est un logiciel non-web qui est doté d'une interface utilisateur et qui prend en charge l'accès aux technologies d'assistance pour la lecture d'écran, elle remplit les Critères de Succès indiqués dans le Tableau 11.7 : Informations et relationships :</p>
-<p>Les informations, la structure et les relations véhiculées par la présentation peuvent être déterminés par un programme informatique ou sont disponibles sous forme de texte.</p></td>
+<p>Les informations, la structure et les relationships véhiculées par la présentation peuvent être déterminés par un programme informatique ou sont disponibles sous forme de texte.</p></td>
 <td>Pris en charge</td>
 <td></td>
 </tr>
@@ -402,7 +402,7 @@ Cette section ne s'applique pas à Skype Уапрise 2016.
 <tr class="odd">
 <td><h3 id="pas-de-piège-au-clavier">11.2.1.16 Pas de piège au clavier</h3>
 <p>Dans le cas où la TIC est un logiciel non-web qui est doté d'une interface utilisateur, elle remplit les Critères de Succès indiqués dans le Tableau 11.16 : Pas de piège au clavier :</p>
-<p>Si le focus du clavier peut être positionné sur un composant du logiciel à l'aide d'une <a href="https://www.w3.org/Translations/NOTE-UNDERSTANDING-WCAG20-fr/keyboard-operation-trapping.html#keybrd-interfacedef">interface clavier</a>, réciproquement, il peut être déplacé l de ce même composant simplement à l'aide d'une interface clavier et, si ce déplacement exige plus que l'utilisation d'une simple touche flèche ou tabulation ou toute autre méthode standard de sortie, l'utilisateur est informé de la méthode permettant de déplacer le focus fls de ce composant.</p></td>
+<p>Si le focus du clavier peut être positionné sur un composant du logiciel à l'aide d'une <a href="https://www.w3.org/Translations/NOTE-UNDERSTANDING-WCAG20-fr/keyboard-operation-trapping.html#keybrd-interfacedef">interface clavier</a>, réciproquement, il peut être déplacé hors de ce même composant simplement à l'aide d'une interface clavier et, si ce déplacement exige plus que l'utilisation d'une simple touche flèche ou tabulation ou toute autre méthode standard de sortie, l'utilisateur est informé de la méthode permettant de déplacer le focus fls de ce composant.</p></td>
 <td>Pris en charge</td>
 <td></td>
 </tr>

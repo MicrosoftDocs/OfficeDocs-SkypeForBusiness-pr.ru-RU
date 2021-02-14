@@ -10,7 +10,7 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Если в устаревшем интерфейсном пуле размещается контроль допуска звонков (CAC), необходимо переместить размещение CAC в пул Skype для бизнеса Server 2019, прежде чем можно будет удалить устаревший интерфейсный пул.
+description: If a legacy Front End pool is hosting call admission control (CAC), you must move CAC hosting to a Skype for Business Server 2019 pool before you can remove the legacy Front End pool.
 ms.openlocfilehash: 850ab5c13483d024d52c483c63ef09468f8374b3
 ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
@@ -20,7 +20,7 @@ ms.locfileid: "44753301"
 ---
 # <a name="reset-call-admission-control"></a>Сброс контроля допуска звонков
 
-Если в устаревшем интерфейсном пуле размещается контроль допуска звонков (CAC), необходимо переместить размещение CAC в пул Skype для бизнеса Server 2019, прежде чем можно будет удалить устаревший интерфейсный пул.
+If a legacy Front End pool is hosting call admission control (CAC), you must move CAC hosting to a Skype for Business Server 2019 pool before you can remove the legacy Front End pool.
   
 ### <a name="to-reset-cac"></a>Чтобы сбросить контроль допуска звонков
 
@@ -30,7 +30,7 @@ ms.locfileid: "44753301"
     
 3. Убедитесь, что в разделе **Параметры контроля допуска звонков** выбран параметр **Включить контроль допуска звонков**. 
     
-4. В разделе **пул переднего плана для запуска контроля допуска звонков (CAC)** выберите пул Skype для бизнеса Server 2019, на котором размещается CAC, а затем нажмите кнопку **ОК**.
+4. Under **Front End pool to run call admission control (CAC)**, select the Skype for Business Server 2019 pool that is to host CAC, and then click **OK**.
     
 5. Опубликуйте топологию.
     

@@ -1,6 +1,6 @@
 ### YamlMime:Landing
 title: Администратор Skype для бизнеса Online
-summary: Skype для бизнеса Online не удаляется 31 июля 2021, когда доступ к службе завершается. Мы рекомендуем пользователям начать переход на Microsoft Teams, который является основным для работы в Microsoft 365.
+summary: Skype для бизнеса Online больше не будет работать 31 июля 2021 г., после чего доступ к службе закончится. Мы рекомендуем клиентам начать обновление до Microsoft Teams, концентратора для командной работы в Microsoft 365.
 metadata:
   title: Администратор Skype для бизнеса Online
   description: Узнайте, как управлять Skype для бизнеса Online в своей организации.
@@ -28,7 +28,7 @@ landingContent:
   linkLists:
   - linkListType: whats-new
     links:
-    - text: Skype для бизнеса Online, который должен быть снят в 2021
+    - text: С 2021 г. будет отменен Skype для бизнеса Online
       url: https://techcommunity.microsoft.com/t5/microsoft-teams-blog/skype-for-business-online-to-be-retired-in-2021/ba-p/777833
   - linkListType: get-started
     links:

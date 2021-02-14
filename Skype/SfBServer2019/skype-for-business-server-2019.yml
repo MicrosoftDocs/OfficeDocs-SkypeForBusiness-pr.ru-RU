@@ -1,9 +1,9 @@
 ### YamlMime:Landing
 title: Документация по Skype для бизнеса Server 2019
-summary: Узнайте, как внедрить Skype для бизнеса Server 2019.
+summary: Узнайте, как реализовать Skype для бизнеса Server 2019.
 metadata:
   title: Документация по Skype для бизнеса Server 2019
-  description: Узнайте, как внедрить Skype для бизнеса Server 2019.
+  description: Узнайте, как реализовать Skype для бизнеса Server 2019.
   ms.service: skype-for-business-online
   ms.topic: landing-page
   audience: ITPro
@@ -17,23 +17,23 @@ metadata:
   ms.lasthandoff: 07/21/2020
   ms.locfileid: "45189363"
 landingContent:
-- title: Сведения о Skype для бизнеса Server 2019
+- title: О Skype для бизнеса Server 2019
   linkLists:
   - linkListType: whats-new
     links:
-    - text: Что нового
+    - text: Новые возможности
       url: /skypeforbusiness/whats-new
   - linkListType: overview
     links:
     - text: Требования к системе
       url: /skypeforbusiness/plan/system-requirements
-    - text: 'Требования к сети:'
+    - text: Требования к сети
       url: /skypeforbusiness/plan-your-deployment/network-requirements/network-requirements
   - linkListType: download
     links:
-    - text: Загрузите его сейчас!
+    - text: Скачайте сейчас!
       url: https://www.microsoft.com/en-us/evalcenter/evaluate-skype-business-server-2019
-- title: План
+- title: Планирование
   linkLists:
   - linkListType: overview
     links:
@@ -41,7 +41,7 @@ landingContent:
       url: /skypeforbusiness/plan-your-deployment/topology-basics/topology-basics
     - text: Планирование гибридного подключения
       url: /skypeforbusiness/hybrid/plan-hybrid-connectivity
-    - text: Планирование корпоративной голосовой связи
+    - text: Планирование Корпоративная голосовая связь
       url: /skypeforbusiness/plan-your-deployment/enterprise-voice-solution/enterprise-voice
 - title: Установка и управление
   linkLists:

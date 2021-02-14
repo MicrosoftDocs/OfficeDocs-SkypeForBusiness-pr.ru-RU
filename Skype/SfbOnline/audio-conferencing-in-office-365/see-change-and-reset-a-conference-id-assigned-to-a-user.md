@@ -1,5 +1,5 @@
 ---
-title: Просмотр, изменение и сброс идентификатора конференц-связи, назначенного пользователю в Skype для бизнеса Online
+title: Просмотр, изменение и сброс назначенного пользователю конференц-зала в Skype для бизнеса Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -31,9 +31,9 @@ ms.locfileid: "46643609"
 # <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-skype-for-business-online"></a>Просмотр и сброс идентификатора конференции, присвоенного пользователю в Skype для бизнеса Online
 
 > [!Note]
-> Сведения об идентификаторах конференций пользователей в Microsoft Teams можно найти в разделе [Просмотр и сброс идентификатора конференц-связи, назначенного пользователю в Microsoft Teams](/MicrosoftTeams/see-change-and-reset-a-conference-id-assigned-to-a-user-in-teams).
+> Сведения об пользовательских ИД конференц-связи в Microsoft Teams см. в документе "Просмотр и сброс ИД конференции,назначенного [пользователю" в Microsoft Teams.](/MicrosoftTeams/see-change-and-reset-a-conference-id-assigned-to-a-user-in-teams)
 
-Идентификатор конференции автоматически назначается пользователю Skype для бизнеса, когда он настроен для голосовой конференции в Microsoft 365 или Office 365 и использует Microsoft в качестве поставщика голосовых конференций. Назначенный идентификатор конференции отправляется в приглашении на собрание при планировании собрания. Каждому собранию, которому назначено расписание пользователя, будет назначаться уникальный идентификатор конференции.
+Когда пользователь настроил аудиоконференцию в Microsoft 365 или Office 365 и в качестве поставщика услуг аудиоконференции, пользователю Skype для бизнеса автоматически будет назначен соответствующий номер. При этом назначенная конференция отправляется в приглашении на собрание. Каждому собранию, которое должен назначить пользователь, будет назначен уникальный ИД конференции.
 
 Although a conference ID will be automatically created and assigned to a user, there may be times when a user doesn't want to use this one and you want to set it to a certain number, or when your users can't remember or have lost their conference ID. You can use the **Skype for Business admin center** and Windows PowerShell to view, change, and reset their conference ID.
 
@@ -44,22 +44,22 @@ An email will be sent to the user with the conference ID and the default audio c
 
 ## <a name="view-and-reset-conference-ids"></a>Просмотр и сброс идентификатора конференции
 
-### <a name="to-view-the-conference-id"></a>Просмотр идентификатора конференции
+### <a name="to-view-the-conference-id"></a>Просмотр ИД конференции
 
 ![Значок с логотипом Skype для бизнеса](../images/sfb-logo-30x30.png) **Использование центра администрирования Skype для бизнеса**
 
 Вы можете посмотреть их идентификатор конференции и отправить его пользователям.
 
-1. Войдите в свою рабочую или учебную учетную запись.
+1. Войте свою учетную запись с помощью своей учебной или учебной учетной записи.
 
-2. Перейдите в центр администрирования > **Skype для бизнеса**.
+2. Перейдите в Центр администрирования > **Skype для бизнеса.**
 
 3. В **Центре администрирования Skype для бизнеса**> **Аудиоконференции** > **Пользователи**, выберите пользователя, которому необходим идентификатор конференции.
 
 4. На странице "Действия" найдите раздел **Идентификатор конференции**.
 
     > [!TIP]
-    > Вы можете отправить всем сведения о конференциях в сообщение электронной почты, которое содержит идентификатор конференции и звуковые номера, нажав кнопку **отправить сведения о конференции по электронной почте** , после того как вы выберете пользователя на странице **Пользователи** .
+    > Вы можете отправить пользователю по электронной почте все сведения о конференции, включая ее ИД  и номера телефонов для аудиосвязи,  щелкнув ссылку "Отправить сведения о конференции" по электронной почте после выбора пользователя на странице "Пользователи".
 
 **Использование Windows PowerShell**
 
@@ -69,22 +69,22 @@ You can use Windows PowerShell to view the conference ID for a user. To do so, r
   Get-CsOnlineDialInConferencingUser -Identity "Amos Marble"
   ```
 
-Чтобы узнать больше о командлете, ознакомьтесь со [статьей Get-CsOnlineDialInConferencingUser](https://go.microsoft.com/fwlink/?LinkId=617693 ) .
+Дополнительные [информацию о cmdlet см. в get-CsOnlineDialInConferencingUser.](https://go.microsoft.com/fwlink/?LinkId=617693 )
 
 
-### <a name="to-reset-the-conference-id"></a>Сброс идентификатора конференции
+### <a name="to-reset-the-conference-id"></a>Сброс ИД конференции
 
 Если, например, пользователь забыл идентификатор конференции, его можно сбросить.
 
 ![Значок с логотипом Skype для бизнеса](../images/sfb-logo-30x30.png) **Использование центра администрирования Skype для бизнеса**
 
-1. Войдите в свою рабочую или учебную учетную запись.
+1. Войте свою учетную запись с помощью своей учебной или учебной учетной записи.
 
-2. Перейдите в центр администрирования > **Skype для бизнеса**.
+2. Перейдите в Центр администрирования > **Skype для бизнеса.**
 
-3. В **центре администрирования Skype для бизнеса** >  **Audio conferencing**  >  , в разделе " **идентификатор конференции****",** в области "действия" нажмите кнопку **Сброс**.
+3. В Центре **администрирования Skype** для бизнеса для пользователей аудиоконференции в области действий в области "ИД конференции" нажмите кнопку >    >    **"Сброс".**
 
-4. В окне **Сброс ИД конференции?** нажмите кнопку **Да**. A conference ID will be automatically created and an email sent to the user with the new conference ID.
+4. В **окне "Сбросить ИД конференции?"** нажмите кнопку **"Да".** A conference ID will be automatically created and an email sent to the user with the new conference ID.
 
 **Использование Windows PowerShell**
 
@@ -97,26 +97,26 @@ You can use Windows PowerShell to view the conference ID for a user. To do so, r
 ## <a name="what-else-should-you-know"></a>Дополнительные сведения
 
    > [!IMPORTANT]
-   >  После создания нового идентификатора конференции или сброса номера старый идентификатор конференции нельзя использовать для вызывающих сторон. You should notify users to reschedule their existing meeting invites to make sure the new conference ID is added to the invitations. Пользователи могут использовать средство миграции собраний Skype для бизнеса для обновления существующих собраний. Сведения о том, как скачать, установить и запустить средство, можно найти в [статье: средство обновления собраний для Skype для бизнеса и Lync](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4), [Skype для бизнеса Online, инструмент переноса собраний (64-разрядная версия)](https://go.microsoft.com/fwlink/?LinkID=626047)и [Skype для бизнеса Online, средство миграции собраний (32-разр.)](https://www.microsoft.com/download/details.aspx?id=54079).
+   >  После создания нового или сброса нового ИД конференции звоня не смогут использовать старый. You should notify users to reschedule their existing meeting invites to make sure the new conference ID is added to the invitations. Пользователи могут использовать средство переноса собраний Skype для бизнеса для обновления существующих собраний. Чтобы узнать, как скачать, установить и запустить средство, см. :Средство обновления собраний для Skype для бизнеса и [Lync,](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4)Skype для бизнеса Online, средство переноса собраний [(64-битная версия)](https://go.microsoft.com/fwlink/?LinkID=626047)и Skype для бизнеса Online, средство переноса собраний [(32-битная версия).](https://www.microsoft.com/download/details.aspx?id=54079)
 
 - See [Set-CsOnlineDialInConferencingUser](https://go.microsoft.com/fwlink/?LinkId=617688 ) to learn more about the cmdlet.
 
 - Количество цифр идентификатора конференции должно соответствовать номеру Аудиоконференции. В идентификаторе конференции нельзя использовать буквы или специальные символы; можно использовать только цифры.
 
-- Идентификатор конференции для всех пользователей голосовой конференции по умолчанию будет состоять из 9 цифр, а количество цифр изменить нельзя.
+- По умолчанию всем пользователям аудиоконференции будет присвоено 9 цифр, а количество цифр изменить нельзя.
 
 
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Сведения по управлению с помощью Windows PowerShell
 
-- Windows PowerShell, дает возможность управлять пользователями, предоставляя им права на определенные действия. С помощью Windows PowerShell вы можете управлять Microsoft 365 или Office 365 и Skype для бизнеса Online, используя единую точку администрирования, которая позволяет упростить повседневную работу, если у вас есть несколько задач. Чтобы начать работу с Windows PowerShell, ознакомьтесь с приведенными ниже разделами.
+- Windows PowerShell, дает возможность управлять пользователями, предоставляя им права на определенные действия. С Windows PowerShell вы можете управлять Microsoft 365, Office 365 и Skype для бизнеса Online, используя единый пункт администрирования, который упростит выполнение ваших повседневных задач. Чтобы начать работу с Windows PowerShell, ознакомьтесь с приведенными ниже разделами.
 
   - [Введение в Windows PowerShell и Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=525039)
 
-  - [Зачем использовать Microsoft 365 или Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Зачем нужно использовать Microsoft 365 или Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
 
-- Windows PowerShell обладает многими преимуществами для ускорения, простоты и продуктивности с помощью центра администрирования Microsoft 365, например при одновременном изменении параметров для нескольких пользователей. Подробнее об этих преимуществах можно узнать в следующих разделах:
+- Windows PowerShell имеет множество преимуществ в скорости, простоте и эффективности работы по сравнению с использованием только Центра администрирования Microsoft 365, например при внесении изменений для множества пользователей одновременно. Подробнее об этих преимуществах можно узнать в следующих разделах:
 
-  - [Лучшие способы управления Microsoft 365 и Office 365 с помощью Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Лучшие способы управления Microsoft 365 или Office 365 с помощью Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
 
   - [Использование Windows PowerShell для управления Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=525453)
 
@@ -124,5 +124,5 @@ You can use Windows PowerShell to view the conference ID for a user. To do so, r
 
 ## <a name="related-topics"></a>Статьи по теме
 
-[Попробуйте или купите голосовую конференцию в Microsoft 365 или Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Попробуйте или приобретйте аудиоконференцию в Microsoft 365 или Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 

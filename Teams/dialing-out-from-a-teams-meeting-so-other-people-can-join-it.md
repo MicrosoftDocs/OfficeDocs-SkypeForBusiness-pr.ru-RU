@@ -53,7 +53,7 @@ ms.locfileid: "46788763"
     
 ## <a name="supported-countries-and-regions"></a>Поддерживаемые страны и регионы
 
-Dial-out is only available to some countries/regions. Полный список см. в списке стран и регионов для аудиоконференций и [планов звонков.](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+Dial-out is only available to some countries/regions. Полный список см. в записи о доступности стран и регионов для аудиоконференций [и планов звонков.](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
 ## <a name="allow-users-to-dial-in"></a>Разрешить пользователям звонить по телефонной сети
 

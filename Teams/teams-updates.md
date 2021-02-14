@@ -27,6 +27,6 @@ ms.locfileid: "46583808"
 ---
 # <a name="microsoft-teams-content-updates"></a>Обновления содержимого Microsoft Teams
 
-В этой теме перечислены недавно измененные темы Microsoft Teams.
+В этой теме перечислены недавно измененные разделы Microsoft Teams.
 
 > [!INCLUDE [teams-content-updates](includes/teams-content-updates.md)]

@@ -18,7 +18,7 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - PowerShell
-description: Используйте Windows PowerShell и командлеты Get-CsTenant и Get-CsTenantLicensingConfiguration для получения сведений о клиенте Skype для бизнеса Online.
+description: Используйте Windows PowerShell и Get-CsTenant и Get-CsTenantLicensingConfiguration для получения сведений о клиенте Skype для бизнеса Online.
 ms.openlocfilehash: 06597447edaf095be3df26b58e6210bb919ee0bd
 ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
@@ -28,30 +28,30 @@ ms.locfileid: "45085695"
 ---
 # <a name="manage-skype-for-business-online-organizations"></a>Управление организациями Skype для бизнеса Online
 > [!NOTE]
-> Новейшая [общедоступная версия оболочки PowerShell для Teams](https://www.powershellgallery.com/packages/MicrosoftTeams/) поддерживается с помощью соединителя Skype для бизнеса Online, что обеспечивает единый модуль для управления оболочкой PowerShell.
+> Последний [общедоступный предварительный выпуск Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/) интегрирован со Skype для бизнеса Online Connector, что обеспечивает единый модуль для управления Teams PowerShell.
 
-Вы можете найти сведения о клиенте Skype для бизнеса Online с помощью командлетов **Get-CsTenant** и **Get-CsTenantLicensingConfiguration** .
+Сведения о клиенте Skype для бизнеса Online можно найти с помощью **cmdlets Get-CsTenant** и **Get-CsTenantLicensingConfiguration.**
   
 ## <a name="manage-skype-for-business-online-tenants"></a>Управление клиентами Skype для бизнеса Online
 
-Чтобы получить сведения о клиенте Skype для бизнеса Online, вызовите командлет [Get-CsTenant](https://go.microsoft.com/fwlink/p/?linkid=849599) без дополнительных параметров.
+Чтобы получить сведения о клиенте Skype для бизнеса Online, позвоните в [cmdlet Get-CsTenant](https://go.microsoft.com/fwlink/p/?linkid=849599) без дополнительных параметров.
   
 ```PowerShell
 Get-CsTenant
 ```
 
-Чтобы возвратить только имя и идентификатор клиента, используйте эту команду.
+Чтобы получить только имя и ИД клиента, воспользуйтесь этой командой.
   
 ```PowerShell
 Get-CsTenant | Select-Object Name, TenantID
 ```
 
-Значение параметра _TenantID_ является обязательным при выполнении командлетов, таких как [Set-CsTenantPublicProvider](https://go.microsoft.com/fwlink/p/?linkid=849602) и [Set-CsTenantFederationConfiguration](https://technet.microsoft.com/library/jj994080.aspx).
+Значение параметра _TenantID_ является требоваться при запуске таких параметров, как [Set-CsTenantPublicProvider](https://go.microsoft.com/fwlink/p/?linkid=849602) и [Set-CsTenantFederationConfiguration.](https://technet.microsoft.com/library/jj994080.aspx)
   
-Чтобы найти сведения о том, доступны ли сведения о лицензировании для указанного клиента в центре администрирования Skype для бизнеса Online, используйте командлет [Get-CsTenantLicensingConfiguration](https://go.microsoft.com/fwlink/p/?linkid=849606) .
+Чтобы узнать, доступна ли информация о лицензировании для указанного клиента в Центре администрирования Skype для бизнеса Online, используйте cmdlet [Get-CsTenantLicensingConfiguration.](https://go.microsoft.com/fwlink/p/?linkid=849606)
   
-## <a name="related-topics"></a>Связанные статьи
-[Настройка компьютера для управления Skype для бизнеса Online с помощью Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
+## <a name="related-topics"></a>Статьи по теме
+[Настройка компьютера для управления skype для бизнеса с помощью Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
 
   
  

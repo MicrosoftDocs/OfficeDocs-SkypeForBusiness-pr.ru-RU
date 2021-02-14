@@ -1,5 +1,5 @@
 ---
-title: Пример дела с голосовой командой Contoso
+title: Пример дела с голосовой почтой Contoso в Teams
 author: CarolynRowe
 ms.author: crowe
 manager: serdars

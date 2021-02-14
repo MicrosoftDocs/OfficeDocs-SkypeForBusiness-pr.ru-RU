@@ -1,5 +1,5 @@
 ---
-title: Этап 7 выполнение задач, выполняемых после миграции
+title: Этап 7. Выполнение задач после миграции
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -10,7 +10,7 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: В подразделах этого раздела описываются задачи, которые необходимо выполнить после завершения миграции в Skype для бизнеса Server 2019.
+description: В этом разделе описываются задачи, которые необходимо выполнить после завершения миграции в Skype для бизнеса Server 2019.
 ms.openlocfilehash: c0c5c73212ab6f5ecb85383032ea9bdc97703eee
 ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
@@ -20,7 +20,7 @@ ms.locfileid: "44752301"
 ---
 # <a name="phase-7-complete-post-migration-tasks"></a>Этап 7: необходимые действия после миграции
 
-В подразделах этого раздела описываются задачи, которые необходимо выполнить после завершения миграции в Skype для бизнеса Server 2019.
+В этом разделе описываются задачи, которые необходимо выполнить после завершения миграции в Skype для бизнеса Server 2019.
   
 ## <a name="in-this-section"></a>В этом разделе:
 

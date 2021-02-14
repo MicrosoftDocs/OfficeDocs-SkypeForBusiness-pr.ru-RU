@@ -30,7 +30,7 @@ ms.locfileid: "44691465"
 ---
 # <a name="emergency-calling-labels"></a>Метки экстренных вызовов
 
-Это наклейки с заявлением об отказе от ответственности (911) для использования с наклейками адреса Avery 5160 (1" x 2 5/8) или наклеек другого типа.
+Это наклейки с заявлением об отказе от ответственности (911) для использования с наклейками адреса Avery 5160 (1" x 2 5/8) или наклеек других типов.
 
 [Щелкните, чтобы скачать ZIP-файл с](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)наклейками для экстренных вызовов (en-us).
 

@@ -26,7 +26,7 @@ ms.locfileid: "46582636"
 ---
 # <a name="set-up-cloud-video-interop-for-microsoft-teams"></a>Настройка взаимодействия Microsoft Teams с облачными видеослужбами
 
-После того как вы настроите партнеров [Cloud Video Interop,](cloud-video-interop.md)вам потребуется спланировать развертывание, настроить сведения о его подготовках и ключ клиента партнера, а также получить согласие на использование видеосвязи в вашей организации. На следующей схеме процесс описан на приведенной ниже схеме. 
+После того [](cloud-video-interop.md)как вы настроите партнеров по облачной видеосвязи, вам потребуется спланировать развертывание, настроить сведения о его подготовках и ключ клиента партнера, а также получить согласие на использование приложения для видеосвязи в вашей организации. На следующей схеме процесс описан на приведенной ниже схеме. 
 
 ![Развертывание CVI в организации](media/deploying-cvi.png)
 
@@ -38,7 +38,7 @@ ms.locfileid: "46582636"
 
 - Выберите модель развертывания или размещенную модель для своего использования
 - Выберите план лицензии, идеальный для вашей организации. 
-- Спланируйте мощность ВМ-телефонов — это размещенная у вас инфраструктура видео.
+- Спланируйте мощность ВМ-карт — в вашем размещении видео инфраструктуры.
 
 ## <a name="configure"></a>Настройка 
 
@@ -59,18 +59,18 @@ ms.locfileid: "46582636"
 
 ![Пример ключа клиента](media/tenant-key-example.png) 
 
-Для создания ключа клиента вам потребуется выполнить следующие cmdlets, а также позволить выбору пользователей или всей организации создавать собрания с координатами видеосвязи.
+Для создания ключа клиента вам потребуется выполнить следующие cmdlets, а также включить выбор пользователей или всю организацию для создания собраний с координатами видеосвязи.
 
  
-- **[Get-CsTeamsVideoInteropServicepolicy](https://docs.microsoft.com/powershell/module/skype/get-csteamsvideointeropservicepolicy):** Корпорация Майкрософт предоставляет предварительно заранее запланировать политики для каждого из поддерживаемых партнеров, которые позволяют назначать партнеров, которые будут использовать облачные видеосвязи.
+- **[Get-CsTeamsVideoInteropServicepolicy:](https://docs.microsoft.com/powershell/module/skype/get-csteamsvideointeropservicepolicy)** Корпорация Майкрософт предоставляет предварительно заранее запланировать политики для каждого из поддерживаемых партнеров, которые позволяют назначать партнеров, которые будут использовать облачные видеосвязи.
 
     С помощью этого cmdlet можно определить предварительно выстроив политики, которые можно использовать в вашей организации. Эту политику можно назначить одному или несколько пользователям, которые Grant-CsTeamsVideoInteropServicePolicy этим Grant-CsTeamsVideoInteropServicePolicy.
  
 - **[Grant-CsTeamsVideoInteropServicePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsvideointeropservicepolicy):** С Grant-CsTeamsVideoInteropServicePolicy вы можете назначить предварительно построенную политику, которая будет применяться в организации, или назначить ее определенным пользователям.
  
-- **[New-CsVideoInteropServiceProvider](https://docs.microsoft.com/powershell/module/skype/new-csvideointeropserviceprovider):** С помощью New-CsVideoInteropServiceProvider укажите сведения о поддерживаемом партнере CVI, который будет использовать в вашей организации.
+- **[New-CsVideoInteropServiceProvider](https://docs.microsoft.com/powershell/module/skype/new-csvideointeropserviceprovider):** С помощью New-CsVideoInteropServiceProvider укажите сведения о поддерживаемом партнере CVI, который будет использовать ваша организация.
  
-- **[Set-CsVideoInteropServiceProvider](https://docs.microsoft.com/powershell/module/skype/set-csvideointeropserviceprovider):** Используйте эту Set-CsVideoInteropServiceProvider для обновления сведений о поддерживаемых партнерах CVI, которые использует ваша организация.
+- **[Set-CsVideoInteropServiceProvider](https://docs.microsoft.com/powershell/module/skype/set-csvideointeropserviceprovider):** Используйте Set-CsVideoInteropServiceProvider для обновления сведений о поддерживаемых партнерах CVI, которые использует ваша организация.
  
 - **[Get-CsVideoInteropServiceProvider](https://docs.microsoft.com/powershell/module/skype/get-csvideointeropserviceprovider):** Получите все поставщики, настроенные для использования в организации.
  
