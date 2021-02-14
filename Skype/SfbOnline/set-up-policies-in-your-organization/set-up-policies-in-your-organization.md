@@ -1,5 +1,5 @@
 ---
-title: Настройка политик в Организации
+title: Настройка политик в организации
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -25,13 +25,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 10/07/2020
 ms.locfileid: "48376562"
 ---
-# <a name="set-up-policies-in-your-organization"></a><span data-ttu-id="7d38b-102">Настройка политик в Организации</span><span class="sxs-lookup"><span data-stu-id="7d38b-102">Set up policies in your organization</span></span>
+# <a name="set-up-policies-in-your-organization"></a><span data-ttu-id="d5f93-102">Настройка политик в организации</span><span class="sxs-lookup"><span data-stu-id="d5f93-102">Set up policies in your organization</span></span>
 
-<span data-ttu-id="7d38b-103">Политики помогают определить возможности Skype для бизнеса Online, которые становятся доступными для пользователей.</span><span class="sxs-lookup"><span data-stu-id="7d38b-103">Policies help determine the features of Skype for Business Online that are made available to users.</span></span> <span data-ttu-id="7d38b-104">Ознакомьтесь со следующими статьями для получения подробных сведений.</span><span class="sxs-lookup"><span data-stu-id="7d38b-104">See the following articles for complete details.</span></span>
+<span data-ttu-id="d5f93-103">Политики помогают определять функции Skype для бизнеса Online, доступные пользователям.</span><span class="sxs-lookup"><span data-stu-id="d5f93-103">Policies help determine the features of Skype for Business Online that are made available to users.</span></span> <span data-ttu-id="d5f93-104">Подробные сведения см. в следующих статьях.</span><span class="sxs-lookup"><span data-stu-id="d5f93-104">See the following articles for complete details.</span></span>
 
-- [<span data-ttu-id="7d38b-105">Блокировка передачи файлов между точками</span><span class="sxs-lookup"><span data-stu-id="7d38b-105">Block point-to-point file transfers</span></span>](block-point-to-point-file-transfers.md)
-- [<span data-ttu-id="7d38b-106">Создание настраиваемых политик внешнего доступа</span><span class="sxs-lookup"><span data-stu-id="7d38b-106">Create custom external access policies</span></span>](create-custom-external-access-policies.md)
-- [<span data-ttu-id="7d38b-107">Сохранение больших файлов, прикрепленных к собранию</span><span class="sxs-lookup"><span data-stu-id="7d38b-107">Retaining large files attached to a meeting</span></span>](retaining-large-files-attached-to-a-meeting.md)
-- [<span data-ttu-id="7d38b-108">Настройка политик аудиоконференций в организации</span><span class="sxs-lookup"><span data-stu-id="7d38b-108">Set up conferencing policies for your organization</span></span>](set-up-conferencing-policies-for-your-organization.md)
-- [<span data-ttu-id="7d38b-109">Настройка политик мобильных устройств в организации</span><span class="sxs-lookup"><span data-stu-id="7d38b-109">Set up mobile policies for your organization</span></span>](set-up-mobile-policies-for-your-organization.md)
-- [<span data-ttu-id="7d38b-110">Настройка политик клиента в организации</span><span class="sxs-lookup"><span data-stu-id="7d38b-110">Set up client policies for your organization</span></span>](set-up-client-policies-for-your-organization.md)
+- [<span data-ttu-id="d5f93-105">Блокировать передачу файлов по точкам</span><span class="sxs-lookup"><span data-stu-id="d5f93-105">Block point-to-point file transfers</span></span>](block-point-to-point-file-transfers.md)
+- [<span data-ttu-id="d5f93-106">Создание настраиваемых политик внешнего доступа</span><span class="sxs-lookup"><span data-stu-id="d5f93-106">Create custom external access policies</span></span>](create-custom-external-access-policies.md)
+- [<span data-ttu-id="d5f93-107">Сохранение больших файлов, прикрепленных к собранию</span><span class="sxs-lookup"><span data-stu-id="d5f93-107">Retaining large files attached to a meeting</span></span>](retaining-large-files-attached-to-a-meeting.md)
+- [<span data-ttu-id="d5f93-108">Настройка политик аудиоконференций в организации</span><span class="sxs-lookup"><span data-stu-id="d5f93-108">Set up conferencing policies for your organization</span></span>](set-up-conferencing-policies-for-your-organization.md)
+- [<span data-ttu-id="d5f93-109">Настройка политик мобильных устройств в организации</span><span class="sxs-lookup"><span data-stu-id="d5f93-109">Set up mobile policies for your organization</span></span>](set-up-mobile-policies-for-your-organization.md)
+- [<span data-ttu-id="d5f93-110">Настройка политик клиента в организации</span><span class="sxs-lookup"><span data-stu-id="d5f93-110">Set up client policies for your organization</span></span>](set-up-client-policies-for-your-organization.md)
