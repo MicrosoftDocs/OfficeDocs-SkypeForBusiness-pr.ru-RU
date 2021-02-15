@@ -22,8 +22,8 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49836569"
 ---
-# <a name="hybrid-wizard-edit-users"></a><span data-ttu-id="117f7-104">Мастер гибридной среды: редактирование пользователей</span><span class="sxs-lookup"><span data-stu-id="117f7-104">Hybrid Wizard: Edit Users</span></span>
+# <a name="hybrid-wizard-edit-users"></a><span data-ttu-id="1e0fa-104">Мастер гибридной среды: редактирование пользователей</span><span class="sxs-lookup"><span data-stu-id="1e0fa-104">Hybrid Wizard: Edit Users</span></span>
 
-<span data-ttu-id="117f7-105">Используйте мастер редактирования пользователей для изменения учетных записей пользователей в развертывании.</span><span class="sxs-lookup"><span data-stu-id="117f7-105">Use the Edit Users wizard to modify the user accounts in your deployment.</span></span> <span data-ttu-id="117f7-106">Дополнительные сведения см. в [мастере гибридного](https://technet.microsoft.com/library/d777f79b-a740-4aba-a9e2-c91f0315b6f8.aspx)управления.</span><span class="sxs-lookup"><span data-stu-id="117f7-106">For more information, see [Use the Hybrid Manageability wizard](https://technet.microsoft.com/library/d777f79b-a740-4aba-a9e2-c91f0315b6f8.aspx).</span></span>
+<span data-ttu-id="1e0fa-105">Используйте мастер редактирования пользователей для изменения учетных записей пользователей в развертывании.</span><span class="sxs-lookup"><span data-stu-id="1e0fa-105">Use the Edit Users wizard to modify the user accounts in your deployment.</span></span> <span data-ttu-id="1e0fa-106">Дополнительные сведения см. в [мастере гибридного](https://technet.microsoft.com/library/d777f79b-a740-4aba-a9e2-c91f0315b6f8.aspx)управления.</span><span class="sxs-lookup"><span data-stu-id="1e0fa-106">For more information, see [Use the Hybrid Manageability wizard](https://technet.microsoft.com/library/d777f79b-a740-4aba-a9e2-c91f0315b6f8.aspx).</span></span>
 
 

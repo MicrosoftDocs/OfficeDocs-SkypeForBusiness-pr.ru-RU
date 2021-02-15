@@ -22,21 +22,21 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49836159"
 ---
-# <a name="topology-status"></a><span data-ttu-id="6dbaa-103">Топология: состояние</span><span class="sxs-lookup"><span data-stu-id="6dbaa-103">Topology: Status</span></span>
+# <a name="topology-status"></a><span data-ttu-id="2c224-103">Топология: состояние</span><span class="sxs-lookup"><span data-stu-id="2c224-103">Topology: Status</span></span>
 
-<span data-ttu-id="6dbaa-104">The **Topology**: **Status** page displays the status of the servers in your Skype for Business topology.</span><span class="sxs-lookup"><span data-stu-id="6dbaa-104">The **Topology**: **Status** page displays the status of the servers in your Skype for Business topology.</span></span>
+<span data-ttu-id="2c224-104">The **Topology**: **Status** page displays the status of the servers in your Skype for Business topology.</span><span class="sxs-lookup"><span data-stu-id="2c224-104">The **Topology**: **Status** page displays the status of the servers in your Skype for Business topology.</span></span>
 
-## <a name="tasks-you-can-perform"></a><span data-ttu-id="6dbaa-105">Задачи, которые вы можете выполнить</span><span class="sxs-lookup"><span data-stu-id="6dbaa-105">Tasks you can perform</span></span>
+## <a name="tasks-you-can-perform"></a><span data-ttu-id="2c224-105">Задачи, которые вы можете выполнить</span><span class="sxs-lookup"><span data-stu-id="2c224-105">Tasks you can perform</span></span>
 
-<span data-ttu-id="6dbaa-106">На странице **Топология**: **Состояние** можно выполнить следующие задачи:</span><span class="sxs-lookup"><span data-stu-id="6dbaa-106">You can perform the following tasks on the **Topology**: **Status** page:</span></span>
+<span data-ttu-id="2c224-106">На странице **Топология**: **Состояние** можно выполнить следующие задачи:</span><span class="sxs-lookup"><span data-stu-id="2c224-106">You can perform the following tasks on the **Topology**: **Status** page:</span></span>
 
-- [<span data-ttu-id="6dbaa-107">Просмотр списка компьютеров со Skype для бизнеса Server или Lync Server</span><span class="sxs-lookup"><span data-stu-id="6dbaa-107">View a List of Computers Running Skype for Business Server or Lync Server</span></span>](https://technet.microsoft.com/library/44eeec27-8b99-44f0-b0bd-622c12393d34.aspx)
+- [<span data-ttu-id="2c224-107">Просмотр списка компьютеров со Skype для бизнеса Server или Lync Server</span><span class="sxs-lookup"><span data-stu-id="2c224-107">View a List of Computers Running Skype for Business Server or Lync Server</span></span>](https://technet.microsoft.com/library/44eeec27-8b99-44f0-b0bd-622c12393d34.aspx)
 
-- [<span data-ttu-id="6dbaa-108">Просмотр сведений о службе</span><span class="sxs-lookup"><span data-stu-id="6dbaa-108">View Details About a Service</span></span>](https://technet.microsoft.com/library/bc8e8202-cd68-47e4-95b2-bb36e51cc124.aspx)
+- [<span data-ttu-id="2c224-108">Просмотр сведений о службе</span><span class="sxs-lookup"><span data-stu-id="2c224-108">View Details About a Service</span></span>](https://technet.microsoft.com/library/bc8e8202-cd68-47e4-95b2-bb36e51cc124.aspx)
 
-- [<span data-ttu-id="6dbaa-109">Запуск или остановка служб</span><span class="sxs-lookup"><span data-stu-id="6dbaa-109">Start or Stop Services</span></span>](https://technet.microsoft.com/library/1c70b4ec-9de5-4f7a-a3c9-c0eb76710505.aspx)
+- [<span data-ttu-id="2c224-109">Запуск или остановка служб</span><span class="sxs-lookup"><span data-stu-id="2c224-109">Start or Stop Services</span></span>](https://technet.microsoft.com/library/1c70b4ec-9de5-4f7a-a3c9-c0eb76710505.aspx)
 
-- [<span data-ttu-id="6dbaa-110">Запретить новые подключения к службам</span><span class="sxs-lookup"><span data-stu-id="6dbaa-110">Prevent New Connections to Services</span></span>](https://technet.microsoft.com/library/977dcc5c-2aac-48ef-86a1-a8d47b4d9e74.aspx)
+- [<span data-ttu-id="2c224-110">Запретить новые подключения к службам</span><span class="sxs-lookup"><span data-stu-id="2c224-110">Prevent New Connections to Services</span></span>](https://technet.microsoft.com/library/977dcc5c-2aac-48ef-86a1-a8d47b4d9e74.aspx)
 
 
 

@@ -22,12 +22,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49836519"
 ---
-# <a name="select-time-out-queue"></a><span data-ttu-id="54ebb-103">Выбор времени ожидания для очереди</span><span class="sxs-lookup"><span data-stu-id="54ebb-103">Select Time-out Queue</span></span>
+# <a name="select-time-out-queue"></a><span data-ttu-id="8f35b-103">Выбор времени ожидания для очереди</span><span class="sxs-lookup"><span data-stu-id="8f35b-103">Select Time-out Queue</span></span>
  
-<span data-ttu-id="54ebb-104">Используйте диалоговое окно **Выберите время ожидания для очереди** для выбора очереди, в которую направляются звонки после истечения их времени ожидания.</span><span class="sxs-lookup"><span data-stu-id="54ebb-104">Use the **Select a time-out queue** dialog box to select a queue where calls are forwarded when they time out.</span></span>
+<span data-ttu-id="8f35b-104">Используйте диалоговое окно **Выберите время ожидания для очереди** для выбора очереди, в которую направляются звонки после истечения их времени ожидания.</span><span class="sxs-lookup"><span data-stu-id="8f35b-104">Use the **Select a time-out queue** dialog box to select a queue where calls are forwarded when they time out.</span></span>
   
-<span data-ttu-id="54ebb-p101">В поле поиска введите полное или частичное имя запроса, который вы хотите использовать. Чтобы получить все доступные запросы, оставьте поле поиска пустым и щелкните значок поиска.</span><span class="sxs-lookup"><span data-stu-id="54ebb-p101">In the search box, type all or part of the name of the queue you want to use. To return all available queues, leave the search box empty and click the search icon.</span></span>
+<span data-ttu-id="8f35b-p101">В поле поиска введите полное или частичное имя запроса, который вы хотите использовать. Чтобы получить все доступные запросы, оставьте поле поиска пустым и щелкните значок поиска.</span><span class="sxs-lookup"><span data-stu-id="8f35b-p101">In the search box, type all or part of the name of the queue you want to use. To return all available queues, leave the search box empty and click the search icon.</span></span>
   
-<span data-ttu-id="54ebb-107">В списке возвращенных в результате поиска очередей выберите ту очередь, которую хотите использовать для звонков с истекшим временем ожидания.</span><span class="sxs-lookup"><span data-stu-id="54ebb-107">In the list of queues returned by the search, select the queue you want to use for timed-out calls.</span></span>
+<span data-ttu-id="8f35b-107">В списке возвращенных в результате поиска очередей выберите ту очередь, которую хотите использовать для звонков с истекшим временем ожидания.</span><span class="sxs-lookup"><span data-stu-id="8f35b-107">In the list of queues returned by the search, select the queue you want to use for timed-out calls.</span></span>
   
 

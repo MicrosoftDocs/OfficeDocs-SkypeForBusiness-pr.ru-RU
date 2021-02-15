@@ -22,8 +22,8 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49836879"
 ---
-# <a name="deployment-wizard-request-a-certificate"></a><span data-ttu-id="17806-103">Мастер развертывания: запрос сертификата</span><span class="sxs-lookup"><span data-stu-id="17806-103">Deployment Wizard: Request a Certificate</span></span>
+# <a name="deployment-wizard-request-a-certificate"></a><span data-ttu-id="4c10a-103">Мастер развертывания: запрос сертификата</span><span class="sxs-lookup"><span data-stu-id="4c10a-103">Deployment Wizard: Request a Certificate</span></span>
  
-<span data-ttu-id="17806-104">Дополнительные сведения об использовании мастера развертывания для установки Skype для бизнеса Server см. в сведениях [об установке Skype для бизнеса Server.](../../../deploy/install/install.md)</span><span class="sxs-lookup"><span data-stu-id="17806-104">For details about using Deployment Wizard to install Skype for Business Server, see [Install Skype for Business Server](../../../deploy/install/install.md).</span></span>
+<span data-ttu-id="4c10a-104">Дополнительные сведения об использовании мастера развертывания для установки Skype для бизнеса Server см. в сведениях [об установке Skype для бизнеса Server.](../../../deploy/install/install.md)</span><span class="sxs-lookup"><span data-stu-id="4c10a-104">For details about using Deployment Wizard to install Skype for Business Server, see [Install Skype for Business Server](../../../deploy/install/install.md).</span></span>
   
 

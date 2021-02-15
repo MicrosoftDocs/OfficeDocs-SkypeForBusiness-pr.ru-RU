@@ -23,26 +23,26 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49836899"
 ---
-# <a name="deploy-advanced-enterprise-voice-features-in-skype-for-business-server"></a><span data-ttu-id="13e82-103">Развертывание расширенных Корпоративная голосовая связь в Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="13e82-103">Deploy advanced Enterprise Voice features in Skype for Business Server</span></span>
+# <a name="deploy-advanced-enterprise-voice-features-in-skype-for-business-server"></a><span data-ttu-id="107f3-103">Развертывание расширенных Корпоративная голосовая связь в Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="107f3-103">Deploy advanced Enterprise Voice features in Skype for Business Server</span></span>
  
-<span data-ttu-id="13e82-104">Развертывание расширенных Корпоративная голосовая связь в Skype для бизнеса Server.</span><span class="sxs-lookup"><span data-stu-id="13e82-104">Deploy advanced Enterprise Voice features in Skype for Business Server.</span></span>
+<span data-ttu-id="107f3-104">Развертывание расширенных Корпоративная голосовая связь в Skype для бизнеса Server.</span><span class="sxs-lookup"><span data-stu-id="107f3-104">Deploy advanced Enterprise Voice features in Skype for Business Server.</span></span>
   
-<span data-ttu-id="13e82-105">После настройки базовых функций Enterprise Voice для организации можно при необходимости развернуть одну или несколько расширенных функций Enterprise Voice, выполнив процедуры, описанные в этом разделе.</span><span class="sxs-lookup"><span data-stu-id="13e82-105">After you have configured basic Enterprise Voice functionality for your organization, you can optionally deploy one or more advanced Enterprise Voice features by following the procedures in this section.</span></span> 
+<span data-ttu-id="107f3-105">После настройки базовых функций Enterprise Voice для организации можно при необходимости развернуть одну или несколько расширенных функций Enterprise Voice, выполнив процедуры, описанные в этом разделе.</span><span class="sxs-lookup"><span data-stu-id="107f3-105">After you have configured basic Enterprise Voice functionality for your organization, you can optionally deploy one or more advanced Enterprise Voice features by following the procedures in this section.</span></span> 
   
-- [<span data-ttu-id="13e82-106">Планирование обхода мультимедиа в Skype для бизнеса</span><span class="sxs-lookup"><span data-stu-id="13e82-106">Plan for media bypass in Skype for Business</span></span>](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)
+- [<span data-ttu-id="107f3-106">Планирование обхода мультимедиа в Skype для бизнеса</span><span class="sxs-lookup"><span data-stu-id="107f3-106">Plan for media bypass in Skype for Business</span></span>](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)
     
-- [<span data-ttu-id="13e82-107">Планирование контроля допуска звонков в Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="13e82-107">Plan for call admission control in Skype for Business Server</span></span>](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)
+- [<span data-ttu-id="107f3-107">Планирование контроля допуска звонков в Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="107f3-107">Plan for call admission control in Skype for Business Server</span></span>](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)
     
-- [<span data-ttu-id="13e82-108">Планирование экстренных служб в Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="13e82-108">Plan for emergency services in Skype for Business Server</span></span>](../../plan-your-deployment/enterprise-voice-solution/emergency-services.md)
+- [<span data-ttu-id="107f3-108">Планирование экстренных служб в Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="107f3-108">Plan for emergency services in Skype for Business Server</span></span>](../../plan-your-deployment/enterprise-voice-solution/emergency-services.md)
     
-## <a name="in-this-section"></a><span data-ttu-id="13e82-109">В этом разделе:</span><span class="sxs-lookup"><span data-stu-id="13e82-109">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="107f3-109">В этом разделе:</span><span class="sxs-lookup"><span data-stu-id="107f3-109">In this section</span></span>
 
-- [<span data-ttu-id="13e82-110">Развертывание областей сети, сайтов и подсетей в Skype для бизнеса</span><span class="sxs-lookup"><span data-stu-id="13e82-110">Deploy network regions, sites and subnets in Skype for Business</span></span>](deploy-network.md)
+- [<span data-ttu-id="107f3-110">Развертывание областей сети, сайтов и подсетей в Skype для бизнеса</span><span class="sxs-lookup"><span data-stu-id="107f3-110">Deploy network regions, sites and subnets in Skype for Business</span></span>](deploy-network.md)
     
-- [<span data-ttu-id="13e82-111">Развертывание обхода сервера-посредника в Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="13e82-111">Deploy media bypass in Skype for Business Server</span></span>](deploy-media-bypass.md)
+- [<span data-ttu-id="107f3-111">Развертывание обхода сервера-посредника в Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="107f3-111">Deploy media bypass in Skype for Business Server</span></span>](deploy-media-bypass.md)
     
-- [<span data-ttu-id="13e82-112">Развертывание контроля допуска звонков в Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="13e82-112">Deploy call admission control in Skype for Business Server</span></span>](deploy-call-admission-control.md)
+- [<span data-ttu-id="107f3-112">Развертывание контроля допуска звонков в Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="107f3-112">Deploy call admission control in Skype for Business Server</span></span>](deploy-call-admission-control.md)
     
-- [<span data-ttu-id="13e82-113">Развертывание экстренных служб в Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="13e82-113">Deploy emergency services in Skype for Business Server</span></span>](deploy-emergency-services.md)
+- [<span data-ttu-id="107f3-113">Развертывание экстренных служб в Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="107f3-113">Deploy emergency services in Skype for Business Server</span></span>](deploy-emergency-services.md)
     
 

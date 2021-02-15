@@ -22,15 +22,15 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49836429"
 ---
-# <a name="registrar-security-settings"></a><span data-ttu-id="7050b-104">Параметры безопасности регистратора</span><span class="sxs-lookup"><span data-stu-id="7050b-104">Registrar Security Settings</span></span>
+# <a name="registrar-security-settings"></a><span data-ttu-id="91caa-104">Параметры безопасности регистратора</span><span class="sxs-lookup"><span data-stu-id="91caa-104">Registrar Security Settings</span></span>
 
-<span data-ttu-id="7050b-105">Что нужно сделать</span><span class="sxs-lookup"><span data-stu-id="7050b-105">What do you want to do?</span></span> <span data-ttu-id="7050b-106">Щелкните ссылку на задачу, которую необходимо выполнить.</span><span class="sxs-lookup"><span data-stu-id="7050b-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="91caa-105">Что нужно сделать</span><span class="sxs-lookup"><span data-stu-id="91caa-105">What do you want to do?</span></span> <span data-ttu-id="91caa-106">Щелкните ссылку на задачу, которую необходимо выполнить.</span><span class="sxs-lookup"><span data-stu-id="91caa-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="7050b-107">Управление настройками регистратора в Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="7050b-107">Manage Registrar configuration settings in Skype for Business Server</span></span>](../../../manage/authentication/registrar-configuration-settings.md)
+- [<span data-ttu-id="91caa-107">Управление настройками регистратора в Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="91caa-107">Manage Registrar configuration settings in Skype for Business Server</span></span>](../../../manage/authentication/registrar-configuration-settings.md)
 
-- [<span data-ttu-id="7050b-108">Изменение существующего регистратора</span><span class="sxs-lookup"><span data-stu-id="7050b-108">Modify an Existing Registrar</span></span>](https://technet.microsoft.com/library/a8931511-3e66-49ed-a3ec-03bcd61ce1f0.aspx)
+- [<span data-ttu-id="91caa-108">Изменение существующего регистратора</span><span class="sxs-lookup"><span data-stu-id="91caa-108">Modify an Existing Registrar</span></span>](https://technet.microsoft.com/library/a8931511-3e66-49ed-a3ec-03bcd61ce1f0.aspx)
 
-- [<span data-ttu-id="7050b-109">Удаление регистратора</span><span class="sxs-lookup"><span data-stu-id="7050b-109">Delete a Registrar</span></span>](https://technet.microsoft.com/library/ae43cd75-cae4-4f78-b037-779a2cdb583b.aspx)
+- [<span data-ttu-id="91caa-109">Удаление регистратора</span><span class="sxs-lookup"><span data-stu-id="91caa-109">Delete a Registrar</span></span>](https://technet.microsoft.com/library/ae43cd75-cae4-4f78-b037-779a2cdb583b.aspx)
 
 
 

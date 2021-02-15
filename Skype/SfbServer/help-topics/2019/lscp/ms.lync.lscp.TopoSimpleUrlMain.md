@@ -22,13 +22,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49836189"
 ---
-# <a name="topology-view-simple-url"></a><span data-ttu-id="8eadd-104">Топология: просмотр простых URL-адресов</span><span class="sxs-lookup"><span data-stu-id="8eadd-104">Topology: View Simple URL</span></span>
+# <a name="topology-view-simple-url"></a><span data-ttu-id="d18e5-104">Топология: просмотр простых URL-адресов</span><span class="sxs-lookup"><span data-stu-id="d18e5-104">Topology: View Simple URL</span></span>
 
-<span data-ttu-id="8eadd-105">Что нужно сделать</span><span class="sxs-lookup"><span data-stu-id="8eadd-105">What do you want to do?</span></span> <span data-ttu-id="8eadd-106">Щелкните ссылку на задачу, которую необходимо выполнить.</span><span class="sxs-lookup"><span data-stu-id="8eadd-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="d18e5-105">Что нужно сделать</span><span class="sxs-lookup"><span data-stu-id="d18e5-105">What do you want to do?</span></span> <span data-ttu-id="d18e5-106">Щелкните ссылку на задачу, которую необходимо выполнить.</span><span class="sxs-lookup"><span data-stu-id="d18e5-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="8eadd-107">Редактирование или настройка простых URL-адресов</span><span class="sxs-lookup"><span data-stu-id="8eadd-107">Edit or Configure Simple URLs</span></span>](https://technet.microsoft.com/library/0008aeea-4ae9-4e36-83cd-ef7ff7b6e128.aspx)
+- [<span data-ttu-id="d18e5-107">Редактирование или настройка простых URL-адресов</span><span class="sxs-lookup"><span data-stu-id="d18e5-107">Edit or Configure Simple URLs</span></span>](https://technet.microsoft.com/library/0008aeea-4ae9-4e36-83cd-ef7ff7b6e128.aspx)
 
-- [<span data-ttu-id="8eadd-108">Управление простыми URL-адресами</span><span class="sxs-lookup"><span data-stu-id="8eadd-108">Managing Simple URLs</span></span>](https://technet.microsoft.com/library/97ad8230-f422-462a-9ce4-6061fa7f2617.aspx)
+- [<span data-ttu-id="d18e5-108">Управление простыми URL-адресами</span><span class="sxs-lookup"><span data-stu-id="d18e5-108">Managing Simple URLs</span></span>](https://technet.microsoft.com/library/97ad8230-f422-462a-9ce4-6061fa7f2617.aspx)
 
 
 
