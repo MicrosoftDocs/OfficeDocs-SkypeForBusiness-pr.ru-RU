@@ -22,11 +22,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49835539"
 ---
-# <a name="add-director-association-for-lync-server-2010"></a><span data-ttu-id="51273-104">Добавление связи директора для Lync Server 2010</span><span class="sxs-lookup"><span data-stu-id="51273-104">Add Director Association for Lync Server 2010</span></span>
+# <a name="add-director-association-for-lync-server-2010"></a><span data-ttu-id="df562-104">Добавление связи директора для Lync Server 2010</span><span class="sxs-lookup"><span data-stu-id="df562-104">Add Director Association for Lync Server 2010</span></span>
  
-<span data-ttu-id="51273-105">Определяется, будет ли с директором или пулом директоров связан сервер мониторинга.</span><span class="sxs-lookup"><span data-stu-id="51273-105">You define whether the Director or Director pool will have a Monitoring Server associated with it.</span></span> <span data-ttu-id="51273-106">Чтобы связать сервер мониторинга с директором или пулом директоров, выберите его.</span><span class="sxs-lookup"><span data-stu-id="51273-106">Select the check box to associate a Monitoring Server with the Director or Director pool.</span></span>
+<span data-ttu-id="df562-105">Определяется, будет ли с директором или пулом директоров связан сервер мониторинга.</span><span class="sxs-lookup"><span data-stu-id="df562-105">You define whether the Director or Director pool will have a Monitoring Server associated with it.</span></span> <span data-ttu-id="df562-106">Чтобы связать сервер мониторинга с директором или пулом директоров, выберите его.</span><span class="sxs-lookup"><span data-stu-id="df562-106">Select the check box to associate a Monitoring Server with the Director or Director pool.</span></span>
   
 > [!TIP]
-> <span data-ttu-id="51273-107">Если вы еще не создали базу данных сервера мониторинга (и необязательный экземпляр), вам будет предоставлена возможность создать ее позже, если этот установлен, чтобы связать сервер мониторинга с директором или пулом директоров.</span><span class="sxs-lookup"><span data-stu-id="51273-107">If you have not yet created a Monitoring Server database (and optional instance), you will be given the opportunity to create it later if you select this check box to associate a Monitoring Server with the Director or Director pool.</span></span> 
+> <span data-ttu-id="df562-107">Если вы еще не создали базу данных сервера мониторинга (и необязательный экземпляр), вам будет предоставлена возможность создать ее позже, если этот установлен, чтобы связать сервер мониторинга с директором или пулом директоров.</span><span class="sxs-lookup"><span data-stu-id="df562-107">If you have not yet created a Monitoring Server database (and optional instance), you will be given the opportunity to create it later if you select this check box to associate a Monitoring Server with the Director or Director pool.</span></span> 
   
 

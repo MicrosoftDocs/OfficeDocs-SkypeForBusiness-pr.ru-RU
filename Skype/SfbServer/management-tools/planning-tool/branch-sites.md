@@ -21,8 +21,8 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49835029"
 ---
-# <a name="branch-sites-planning-tool"></a><span data-ttu-id="eacdf-103">Сайты филиалов (средство планирования)</span><span class="sxs-lookup"><span data-stu-id="eacdf-103">Branch Sites (Planning Tool)</span></span>
+# <a name="branch-sites-planning-tool"></a><span data-ttu-id="200b8-103">Сайты филиалов (средство планирования)</span><span class="sxs-lookup"><span data-stu-id="200b8-103">Branch Sites (Planning Tool)</span></span>
 
-<span data-ttu-id="eacdf-104">Подробные сведения о устойчивости сайта филиала см. в Branch-Site Планировании устойчивости [голосовой почты.](https://technet.microsoft.com/library/67713f57-3ded-4127-ac37-57d8099bf384.aspx)</span><span class="sxs-lookup"><span data-stu-id="eacdf-104">For details about branch-site resiliency, see [Planning for Branch-Site Voice Resiliency](https://technet.microsoft.com/library/67713f57-3ded-4127-ac37-57d8099bf384.aspx).</span></span>
+<span data-ttu-id="200b8-104">Подробные сведения о устойчивости сайта филиала см. в Branch-Site [.](https://technet.microsoft.com/library/67713f57-3ded-4127-ac37-57d8099bf384.aspx)</span><span class="sxs-lookup"><span data-stu-id="200b8-104">For details about branch-site resiliency, see [Planning for Branch-Site Voice Resiliency](https://technet.microsoft.com/library/67713f57-3ded-4127-ac37-57d8099bf384.aspx).</span></span>
 
 

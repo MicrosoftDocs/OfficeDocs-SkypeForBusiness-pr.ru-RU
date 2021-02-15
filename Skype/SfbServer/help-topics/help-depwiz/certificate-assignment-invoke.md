@@ -22,8 +22,8 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49835629"
 ---
-# <a name="certificate-assignment-invoke"></a><span data-ttu-id="54391-105">Назначение сертификата (вызов)</span><span class="sxs-lookup"><span data-stu-id="54391-105">Certificate Assignment (Invoke)</span></span>
+# <a name="certificate-assignment-invoke"></a><span data-ttu-id="6a159-105">Назначение сертификата (вызов)</span><span class="sxs-lookup"><span data-stu-id="6a159-105">Certificate Assignment (Invoke)</span></span>
  
-<span data-ttu-id="54391-p102">На странице **Выполнение команд** отображаются действия, выполняемые задачами для назначения сертификата серверу. По завершении задач можно просмотреть журнал, содержащий подробные сведения о процессе назначения сертификата. Для просмотра файла журнала нажмите кнопку **Просмотреть журнал**.</span><span class="sxs-lookup"><span data-stu-id="54391-p102">The **Executing Commands** page displays the actions taken by the tasks to assign the certificate to the server. When the tasks are complete, you can view the log that details the certificate assignment process. To view the log file, click **View Log**.</span></span>
+<span data-ttu-id="6a159-p102">На странице **Выполнение команд** отображаются действия, выполняемые задачами для назначения сертификата серверу. По завершении задач можно просмотреть журнал, содержащий подробные сведения о процессе назначения сертификата. Для просмотра файла журнала нажмите кнопку **Просмотреть журнал**.</span><span class="sxs-lookup"><span data-stu-id="6a159-p102">The **Executing Commands** page displays the actions taken by the tasks to assign the certificate to the server. When the tasks are complete, you can view the log that details the certificate assignment process. To view the log file, click **View Log**.</span></span>
   
 

@@ -21,16 +21,16 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49834849"
 ---
-# <a name="exchange-unified-messaging-settings-planning-tool"></a><span data-ttu-id="2d8d1-103">Параметры единой системы обмена сообщениями Exchange (средство планирования)</span><span class="sxs-lookup"><span data-stu-id="2d8d1-103">Exchange Unified Messaging Settings (Planning Tool)</span></span>
+# <a name="exchange-unified-messaging-settings-planning-tool"></a><span data-ttu-id="d5e7f-103">Параметры единой системы обмена сообщениями Exchange (средство планирования)</span><span class="sxs-lookup"><span data-stu-id="d5e7f-103">Exchange Unified Messaging Settings (Planning Tool)</span></span>
 
-<span data-ttu-id="2d8d1-104">Skype для бизнеса Server 2015 поддерживает интеграцию с единой системы обмена сообщениями Exchange для объединения голосовых сообщений и сообщений электронной почты в единую инфраструктуру обмена сообщениями.</span><span class="sxs-lookup"><span data-stu-id="2d8d1-104">Skype for Business Server 2015 supports integration with Exchange Unified Messaging (UM) for combining voice messaging and email messaging into a single messaging infrastructure.</span></span>
+<span data-ttu-id="d5e7f-104">Skype для бизнеса Server 2015 поддерживает интеграцию с единой системы обмена сообщениями Exchange для объединения голосовых сообщений и сообщений электронной почты в единую инфраструктуру обмена сообщениями.</span><span class="sxs-lookup"><span data-stu-id="d5e7f-104">Skype for Business Server 2015 supports integration with Exchange Unified Messaging (UM) for combining voice messaging and email messaging into a single messaging infrastructure.</span></span>
 
-<span data-ttu-id="2d8d1-105">Дополнительные сведения см. в следующих статьях:</span><span class="sxs-lookup"><span data-stu-id="2d8d1-105">For details, see:</span></span>
+<span data-ttu-id="d5e7f-105">Дополнительные сведения см. в следующих статьях:</span><span class="sxs-lookup"><span data-stu-id="d5e7f-105">For details, see:</span></span>
 
-- [<span data-ttu-id="2d8d1-106">Планирование интеграции единой системы обмена сообщениями Exchange</span><span class="sxs-lookup"><span data-stu-id="2d8d1-106">Planning for Exchange Unified Messaging Integration</span></span>](https://technet.microsoft.com/library/e7c63a71-2d99-4aa9-b649-36c1a431bdf1.aspx)
+- [<span data-ttu-id="d5e7f-106">Планирование интеграции единой системы обмена сообщениями Exchange</span><span class="sxs-lookup"><span data-stu-id="d5e7f-106">Planning for Exchange Unified Messaging Integration</span></span>](https://technet.microsoft.com/library/e7c63a71-2d99-4aa9-b649-36c1a431bdf1.aspx)
 
-- <span data-ttu-id="2d8d1-107">"Единая система обмена сообщениями" в [https://go.microsoft.com/fwlink/?LinkId=285341](https://go.microsoft.com/fwlink/?LinkId=285341)</span><span class="sxs-lookup"><span data-stu-id="2d8d1-107">"Unified Messaging" at [https://go.microsoft.com/fwlink/?LinkId=285341](https://go.microsoft.com/fwlink/?LinkId=285341)</span></span>
+- <span data-ttu-id="d5e7f-107">"Единая система обмена сообщениями" в [https://go.microsoft.com/fwlink/?LinkId=285341](https://go.microsoft.com/fwlink/?LinkId=285341)</span><span class="sxs-lookup"><span data-stu-id="d5e7f-107">"Unified Messaging" at [https://go.microsoft.com/fwlink/?LinkId=285341](https://go.microsoft.com/fwlink/?LinkId=285341)</span></span>
 
-- <span data-ttu-id="2d8d1-108">"Планирование единой системы обмена сообщениями" в [https://go.microsoft.com/fwlink/?LinkId=285344](https://go.microsoft.com/fwlink/?LinkId=285344) .</span><span class="sxs-lookup"><span data-stu-id="2d8d1-108">"Planning for Unified Messaging" at [https://go.microsoft.com/fwlink/?LinkId=285344](https://go.microsoft.com/fwlink/?LinkId=285344).</span></span>
+- <span data-ttu-id="d5e7f-108">"Планирование единой системы обмена сообщениями" в [https://go.microsoft.com/fwlink/?LinkId=285344](https://go.microsoft.com/fwlink/?LinkId=285344) .</span><span class="sxs-lookup"><span data-stu-id="d5e7f-108">"Planning for Unified Messaging" at [https://go.microsoft.com/fwlink/?LinkId=285344](https://go.microsoft.com/fwlink/?LinkId=285344).</span></span>
 
 

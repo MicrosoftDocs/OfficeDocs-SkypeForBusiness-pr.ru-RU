@@ -22,13 +22,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49833679"
 ---
-# <a name="call-detail-recording-create-new-or-edit-existing"></a><span data-ttu-id="8544f-104">Запись сведений о звонке: создание новой или редактирование существующей</span><span class="sxs-lookup"><span data-stu-id="8544f-104">Call Detail Recording: Create New or Edit Existing</span></span>
+# <a name="call-detail-recording-create-new-or-edit-existing"></a><span data-ttu-id="3298f-104">Запись сведений о звонке: создание новой или редактирование существующей</span><span class="sxs-lookup"><span data-stu-id="3298f-104">Call Detail Recording: Create New or Edit Existing</span></span>
  
-<span data-ttu-id="8544f-105">Что нужно сделать</span><span class="sxs-lookup"><span data-stu-id="8544f-105">What do you want to do?</span></span> <span data-ttu-id="8544f-106">Щелкните ссылку на задачу, которую необходимо выполнить.</span><span class="sxs-lookup"><span data-stu-id="8544f-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="3298f-105">Что нужно сделать</span><span class="sxs-lookup"><span data-stu-id="3298f-105">What do you want to do?</span></span> <span data-ttu-id="3298f-106">Щелкните ссылку на задачу, которую необходимо выполнить.</span><span class="sxs-lookup"><span data-stu-id="3298f-106">Click the link to the task that you want to perform.</span></span>
   
-- [<span data-ttu-id="8544f-107">Включить регистрацию вызовов в Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="8544f-107">Enable call detail recording in Skype for Business Server</span></span>](../../../manage/health-and-monitoring/enable-cdr.md)
+- [<span data-ttu-id="3298f-107">Включить регистрацию вызовов в Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="3298f-107">Enable call detail recording in Skype for Business Server</span></span>](../../../manage/health-and-monitoring/enable-cdr.md)
     
-- [<span data-ttu-id="8544f-108">Указание хранения данных CDR в Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="8544f-108">Specify retention of CDR data in Skype for Business Server</span></span>](../../../manage/health-and-monitoring/specify-retention-of-data.md)
+- [<span data-ttu-id="3298f-108">Указание хранения данных CDR в Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="3298f-108">Specify retention of CDR data in Skype for Business Server</span></span>](../../../manage/health-and-monitoring/specify-retention-of-data.md)
     
  
 

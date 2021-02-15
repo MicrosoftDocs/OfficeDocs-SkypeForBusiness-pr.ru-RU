@@ -22,8 +22,8 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49833339"
 ---
-# <a name="add-site-details"></a><span data-ttu-id="e4b57-104">Добавление сведений о сайте</span><span class="sxs-lookup"><span data-stu-id="e4b57-104">Add Site Details</span></span>
+# <a name="add-site-details"></a><span data-ttu-id="70f17-104">Добавление сведений о сайте</span><span class="sxs-lookup"><span data-stu-id="70f17-104">Add Site Details</span></span>
  
-<span data-ttu-id="e4b57-p102">Вы можете указать сведения о расположении для своего сайта, включая город, область и регион, а также код страны или региона. Все эти сведения не являются обязательными.</span><span class="sxs-lookup"><span data-stu-id="e4b57-p102">You can specify location details for your site, including a city, state/province, or country/region code. All of these location details are optional.</span></span>
+<span data-ttu-id="70f17-p102">Вы можете указать сведения о расположении для своего сайта, включая город, область и регион, а также код страны или региона. Все эти сведения не являются обязательными.</span><span class="sxs-lookup"><span data-stu-id="70f17-p102">You can specify location details for your site, including a city, state/province, or country/region code. All of these location details are optional.</span></span>
   
 

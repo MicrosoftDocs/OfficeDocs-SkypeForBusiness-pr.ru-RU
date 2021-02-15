@@ -19,17 +19,17 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49834319"
 ---
-# <a name="schema-reference-for-skype-for-business-server-2015"></a><span data-ttu-id="697a2-102">Справочник по схеме для Skype для бизнеса Server 2015</span><span class="sxs-lookup"><span data-stu-id="697a2-102">Schema reference for Skype for Business Server 2015</span></span>
+# <a name="schema-reference-for-skype-for-business-server-2015"></a><span data-ttu-id="8de16-102">Справочник по схеме для Skype для бизнеса Server 2015</span><span class="sxs-lookup"><span data-stu-id="8de16-102">Schema reference for Skype for Business Server 2015</span></span>
  
 
-## <a name="in-this-section"></a><span data-ttu-id="697a2-103">В этом разделе:</span><span class="sxs-lookup"><span data-stu-id="697a2-103">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="8de16-103">В этом разделе:</span><span class="sxs-lookup"><span data-stu-id="8de16-103">In this section</span></span>
 
-- [<span data-ttu-id="697a2-104">Схема базы данных регистрации вызовов (CDR) в Skype для бизнеса Server 2015</span><span class="sxs-lookup"><span data-stu-id="697a2-104">Call detail recording (CDR) database schema in Skype for Business Server 2015</span></span>](call-detail-recording-cdr-database-schema/call-detail-recording-cdr-database-schema.md)
+- [<span data-ttu-id="8de16-104">Схема базы данных регистрации вызовов (CDR) в Skype для бизнеса Server 2015</span><span class="sxs-lookup"><span data-stu-id="8de16-104">Call detail recording (CDR) database schema in Skype for Business Server 2015</span></span>](call-detail-recording-cdr-database-schema/call-detail-recording-cdr-database-schema.md)
     
-- [<span data-ttu-id="697a2-105">Схема базы данных качества взаимодействия (QoE)</span><span class="sxs-lookup"><span data-stu-id="697a2-105">Quality of Experience (QoE) database schema</span></span>](quality-of-experience-qoe-database-schema/quality-of-experience-qoe-database-schema.md)
+- [<span data-ttu-id="8de16-105">Схема базы данных качества взаимодействия (QoE)</span><span class="sxs-lookup"><span data-stu-id="8de16-105">Quality of Experience (QoE) database schema</span></span>](quality-of-experience-qoe-database-schema/quality-of-experience-qoe-database-schema.md)
     
-- [<span data-ttu-id="697a2-106">Схема базы данных сохраняемого чата</span><span class="sxs-lookup"><span data-stu-id="697a2-106">Persistent Chat database schema</span></span>](persistent-chat-database-schema/persistent-chat-database-schema.md)
+- [<span data-ttu-id="8de16-106">Схема базы данных сохраняемого чата</span><span class="sxs-lookup"><span data-stu-id="8de16-106">Persistent Chat database schema</span></span>](persistent-chat-database-schema/persistent-chat-database-schema.md)
     
-- [<span data-ttu-id="697a2-107">Расширения схемы Active Directory, классы и атрибуты</span><span class="sxs-lookup"><span data-stu-id="697a2-107">Active Directory schema extensions, classes, and attributes</span></span>](active-directory-schema-extensions-classes-and-attributes/active-directory-schema-extensions-classes-and-attributes.md)
+- [<span data-ttu-id="8de16-107">Расширения схемы Active Directory, классы и атрибуты</span><span class="sxs-lookup"><span data-stu-id="8de16-107">Active Directory schema extensions, classes, and attributes</span></span>](active-directory-schema-extensions-classes-and-attributes/active-directory-schema-extensions-classes-and-attributes.md)
     
 

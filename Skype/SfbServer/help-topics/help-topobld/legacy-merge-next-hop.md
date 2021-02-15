@@ -22,8 +22,8 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49835299"
 ---
-# <a name="legacy-merge-next-hop"></a><span data-ttu-id="ce30d-104">Следующий переход для объединения с устаревшей версией</span><span class="sxs-lookup"><span data-stu-id="ce30d-104">Legacy Merge Next Hop</span></span>
+# <a name="legacy-merge-next-hop"></a><span data-ttu-id="e20ab-104">Следующий переход для объединения с устаревшей версией</span><span class="sxs-lookup"><span data-stu-id="e20ab-104">Legacy Merge Next Hop</span></span>
  
-<span data-ttu-id="ce30d-p102">Параметр **Полное доменное имя следующего прыжка** определяет сервер для следующей прыжка, на который устаревший пограничный сервер маршрутизирует внутренний трафик. Введите полное доменное имя сервера для следующего прыжка, на который данный пограничный сервер маршрутизирует внутренний трафик, затем укажите является ли этот сервер **интерфейсным пулом** или **директором**.</span><span class="sxs-lookup"><span data-stu-id="ce30d-p102">The **Next Hop FQDN** identifies the next hop server to which the legacy Edge Server routes internal traffic. Type the fully qualified domain name (FQDN) of the next hop server to which this Edge Server routes internal traffic, and then select whether it is a **Front End pool** or a **Director**.</span></span> 
+<span data-ttu-id="e20ab-p102">Параметр **Полное доменное имя следующего прыжка** определяет сервер для следующей прыжка, на который устаревший пограничный сервер маршрутизирует внутренний трафик. Введите полное доменное имя сервера для следующего прыжка, на который данный пограничный сервер маршрутизирует внутренний трафик, затем укажите является ли этот сервер **интерфейсным пулом** или **директором**.</span><span class="sxs-lookup"><span data-stu-id="e20ab-p102">The **Next Hop FQDN** identifies the next hop server to which the legacy Edge Server routes internal traffic. Type the fully qualified domain name (FQDN) of the next hop server to which this Edge Server routes internal traffic, and then select whether it is a **Front End pool** or a **Director**.</span></span> 
   
 

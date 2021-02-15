@@ -22,8 +22,8 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49835649"
 ---
-# <a name="legacy-merge-start"></a><span data-ttu-id="fa467-103">Начало объединения с устаревшей версией</span><span class="sxs-lookup"><span data-stu-id="fa467-103">Legacy Merge Start</span></span>
+# <a name="legacy-merge-start"></a><span data-ttu-id="c83f6-103">Начало объединения с устаревшей версией</span><span class="sxs-lookup"><span data-stu-id="c83f6-103">Legacy Merge Start</span></span>
  
-<span data-ttu-id="fa467-104">Чтобы начать объединение устаревшего развертывания со Skype для бизнеса Server, нажмите кнопку **"Далее".**</span><span class="sxs-lookup"><span data-stu-id="fa467-104">To begin merging a legacy deployment with Skype for Business Server, click **Next**.</span></span> 
+<span data-ttu-id="c83f6-104">Чтобы начать объединение устаревшего развертывания со Skype для бизнеса Server, нажмите кнопку **"Далее".**</span><span class="sxs-lookup"><span data-stu-id="c83f6-104">To begin merging a legacy deployment with Skype for Business Server, click **Next**.</span></span> 
   
 

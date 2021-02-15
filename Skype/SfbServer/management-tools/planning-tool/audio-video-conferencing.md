@@ -21,12 +21,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49835039"
 ---
-# <a name="audio-video-conferencing-planning-tool"></a><span data-ttu-id="f19af-103">Аудиоконференция (средство планирования)</span><span class="sxs-lookup"><span data-stu-id="f19af-103">Audio Video Conferencing (Planning Tool)</span></span>
+# <a name="audio-video-conferencing-planning-tool"></a><span data-ttu-id="cc5df-103">Аудиоконференция (средство планирования)</span><span class="sxs-lookup"><span data-stu-id="cc5df-103">Audio Video Conferencing (Planning Tool)</span></span>
  
-<span data-ttu-id="f19af-104">Аудио- и видеоконференции Skype для бизнеса Server 2015 позволяют пользователям участвовать в аудио- или видеоконференции в режиме реального времени.</span><span class="sxs-lookup"><span data-stu-id="f19af-104">Skype for Business Server 2015 Audio/video (A/V) conferencing enables users to participate in real-time audio or video conferences.</span></span>
+<span data-ttu-id="cc5df-104">Аудио- и видеоконференции Skype для бизнеса Server 2015 позволяют пользователям участвовать в аудио- или видеоконференции в режиме реального времени.</span><span class="sxs-lookup"><span data-stu-id="cc5df-104">Skype for Business Server 2015 Audio/video (A/V) conferencing enables users to participate in real-time audio or video conferences.</span></span>
   
-<span data-ttu-id="f19af-105">Подробные сведения о планировании включения видео- и видеоконференций в организации см. в следующей теме и ее подп.</span><span class="sxs-lookup"><span data-stu-id="f19af-105">For planning details about enabling A/V conferencing in your organization, see the following topic and its subtopics:</span></span> 
+<span data-ttu-id="cc5df-105">Подробные сведения о планировании включения видео- и видеоконференций в организации см. в следующей теме и ее подп.</span><span class="sxs-lookup"><span data-stu-id="cc5df-105">For planning details about enabling A/V conferencing in your organization, see the following topic and its subtopics:</span></span> 
   
-- [<span data-ttu-id="f19af-106">Планирование звонков в Skype для бизнеса Server 2015</span><span class="sxs-lookup"><span data-stu-id="f19af-106">Plan for conferencing in Skype for Business Server 2015</span></span>](../../plan-your-deployment/conferencing/conferencing.md)
+- [<span data-ttu-id="cc5df-106">Планирование звонков в Skype для бизнеса Server 2015</span><span class="sxs-lookup"><span data-stu-id="cc5df-106">Plan for conferencing in Skype for Business Server 2015</span></span>](../../plan-your-deployment/conferencing/conferencing.md)
     
 
