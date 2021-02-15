@@ -29,7 +29,7 @@ ms.locfileid: "49841490"
 
 Когда пользователь совершает звонок с аналогового устройства, сигнальный поток и мультимедиа проходят через адаптер аналоговой телефонии (ATA) на SBC.  SBC отправляет звонок на конечную точку Microsoft Teams или в телефонную сеть общего перейти на основе внутренней таблицы маршрутов.  Когда устройство совершает звонок, маршрут, который он принимает, зависит от политик маршрутинга, созданных для устройства.
 
-На следующей схеме Прямая маршрутия настроена таким образом, что все звонки Teams на номера между +1425 4XX XX XX и +1425 5XX XX XX должны принимать красный маршрут (пунктирная линия), а все звонки по ННР между номерами между +1425 4XX XX и любыми другими номерами, кроме диапазона +1425 5XX XX, должны проходить синим маршрутом (сплошная линия). 
+На приведенной ниже схеме Прямая маршрутия настроена таким образом, что все звонки Teams на номера между +1425 4XX XX XX и +1425 5XX XX XX должны принимать красный маршрут (пунктирная линия), а все звонки по ННР между номерами между +1425 4XX XX XX XX и любыми другими номерами, кроме диапазона +1425 5XX XX XX XX, должны проходить по синей (сплошной линии). 
 
 > [!div class="mx-imgBorder"]
 > ![Схема с настройкой прямой маршрутации](media/direct-routing-analog-device.png)
@@ -50,7 +50,7 @@ ms.locfileid: "49841490"
 
 Сведения о том, как подключить ATA к SBC и настроить его, см. в руководстве производителя:
 
-- [Документация по конфигурации AudioCodes](https://www.audiocodes.com/media/14278/connecting-audiocodes-sbc-with-analog-device-to-microsoft-teams-direct-routing-enterprise-model-configuration-note.pdf)
+- [Документация по настройке AudioCodes](https://www.audiocodes.com/media/14278/connecting-audiocodes-sbc-with-analog-device-to-microsoft-teams-direct-routing-enterprise-model-configuration-note.pdf)
 
 - [Документация по конфигурации ленты](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Analog+Devices)
 - [Документация по конфигурации Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html#Link-MicrosoftTeams)
@@ -63,7 +63,7 @@ ms.locfileid: "49841490"
 - Сигнальный порт 5068
 - Режим обхода мультимедиа
 - Сведения из истории вызовов, переадваренные на SBC-
-- Заглавная точка с утвердитой идентификацией (PAI), перенаверенная вместе с вызовом 
+- Заглавная точка с заглавной темой P-Темы (PAI), перенаверенная вместе с вызовом 
 
 ```powershell
 PS C:\> New-CsOnlinePSTNGateway -FQDN sbc.contoso.com -SIPSignalingPort 5068 -ForwardCallHistory $true -ForwardPAI $true -MediaBypass $true -Enabled $true 
@@ -71,7 +71,7 @@ PS C:\> New-CsOnlinePSTNGateway -FQDN sbc.contoso.com -SIPSignalingPort 5068 -Fo
 
 ## <a name="step-2--create-the-pstn-usage"></a>Шаг 2. Создание службы ННР 
 
-Следующая команда создает пустое использование ННП. Использование сетевых ОКП — это строки значений, которые используются для авторизации вызовов. Использование онлайн-НН связывает веб-политику голосовой связи с маршрутом. В этом примере строка "Interop" добавляется в текущий список доступных использования ОКП. 
+Следующая команда создает пустое использование ННП. Использование сетевых ОКП — это строки значений, которые используются для авторизации вызовов. Использование веб-НН связывает веб-политику голосовой связи с маршрутом. В этом примере строка "Interop" добавляется в текущий список доступных использования ОКП. 
 
 ```powershell
 PS C:\> Set-CsOnlinePstnUsage -Identity global -Usage @{add="Interop"} 
@@ -85,7 +85,7 @@ PS C:\> Set-CsOnlinePstnUsage -Identity global -Usage @{add="Interop"}
 PS C:\> New-CsOnlineVoiceRoute -Identity analog-interop -NumberPattern "^\+1(425)(\d{7}])$" -OnlinePstnGatewayList sbc.contoso.com -Priority 1 -OnlinePstnUsages "Interop"
 ```
 
-## <a name="step-4-assign-the-voice-route-to-the-pstn-usage"></a>Шаг 4. Назначение голосового маршрута для использования ННР:
+## <a name="step-4-assign-the-voice-route-to-the-pstn-usage"></a>Шаг 4. Назначение голосового маршрута для использования ОКП:
 
 Эта команда создает новую политику сетевой маршрутизации голосовой связи "на пользователя" с идентификатором AnalogInteropPolicy. Этой политике назначено одно сетевое использование ННР: "Interop".
 
@@ -103,7 +103,7 @@ PS C:\> Set-CsUser -Identity "exampleuser@contoso.com" -EnterpriseVoiceEnabled $
 
 ## <a name="step-6-assign-the-voice-route-policy-to-a-user"></a>Шаг 6. Назначение пользователю политики голосового пути
 
-Эта команда назначает политику Голосовой маршрутизации для каждого пользователя через Интернет пользователю с идентификатором AnalogInteropPolicy, exampleuser@contoso.com.  Эту команду следует выполнить для каждого пользователя Teams (за исключением пользователей устройств ATA) в клиенте организации.
+Эта команда назначает политике голосовой маршрутизации для каждого пользователя в Интернете (AnalogInteropPolicy) пользователю с идентификатором exampleuser@contoso.com.  Эту команду следует выполнить для каждого пользователя Teams (за исключением пользователей устройств ATA) в клиенте компании.
 
 ```powershell
 PS C:\> Grant-CsOnlineVoiceRoutingPolicy -Identity "exampleuser@contoso.com" -PolicyName "AnalogInteropPolicy" 
@@ -111,7 +111,7 @@ PS C:\> Grant-CsOnlineVoiceRoutingPolicy -Identity "exampleuser@contoso.com" -Po
 
 ## <a name="step-7--create-a-voice-route-for-an-analog-device"></a>Шаг 7. Создание голосового маршрута для аналогового устройства
 
-Эта команда создает сетевой голосовой маршрут с идентификатором "аналог-interop" для диапазона номеров +1425 4XX XX XX, применимого к списку сетевых шлюзов sbc.contoso.com и связывает его с использованием интернет-ТСОП "Interop".  Эту команду следует выполнить для каждого аналогового устройства с соответствующим шаблоном номера телефона. Кроме того, при настройке сетевого голосового пути на одном из предыдущих этапов можно использовать правильный шаблон номера для аналоговых устройств.
+Эта команда создает сетевой голосовой маршрут с идентификатором "аналог-interop" для диапазона номеров +1425 4XX XX XX, применимого к списку сетевых шлюзов sbc.contoso.com и связывает его с использованием ТСОП через Интернет "Interop".  Эту команду следует выполнить для каждого аналогового устройства с соответствующим шаблоном номера телефона. Кроме того, при настройке сетевого голосового пути на одном из предыдущих этапов можно использовать правильный шаблон номеров для аналоговых устройств.
 
 ```powershell
 PS C:\> New-CsOnlineVoiceRoute -Identity analog-interop -NumberPattern "^\+1(4254)(\d{6}])$"  -OnlinePstnGatewayList sbc.contoso.com -Priority 1 -OnlinePstnUsages "Interop"
@@ -121,7 +121,7 @@ PS C:\> New-CsOnlineVoiceRoute -Identity analog-interop -NumberPattern "^\+1(425
 
 - Если не помните иное, аналоговое устройство — это любое устройство, которое может отправлять цифры DTMF для звонка. Например, аналоговые телефоны, факсы и накладные страницы.
 
-- В Teams недоступны для поиска аналоговые телефоны, подключенные к ATA. Пользователи Teams должны вручную ввести номер телефона, связанный с устройством, чтобы позвонить на это устройство.  
+- В Teams нет аналоговых телефонов, подключенных к ATA. Пользователи Teams должны вручную ввести номер телефона, связанный с устройством, чтобы позвонить на это устройство.  
  
 
 ## <a name="see-also"></a>См. также

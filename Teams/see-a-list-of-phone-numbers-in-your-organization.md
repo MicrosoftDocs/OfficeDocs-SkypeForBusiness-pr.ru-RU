@@ -76,7 +76,7 @@ ms.locfileid: "49918905"
 
    - **Назначено пользователю**
 
-   - **Мост конференций, который назначен мосту конференц-зала** 
+   - **Мост конференц-залов, который назначен** 
 
    - **Ненаписано**
 
@@ -115,7 +115,7 @@ ms.locfileid: "49918905"
 Get-CsOnlineTelephoneNumber | ft Id,ActivationState
 ```
 
-Вы можете увидеть все телефонные номера, которые назначены пользователям, с помощью cmdlet [Get-CsOnlineUser.](https://docs.microsoft.com/powershell/module/skype/get-csonlineuser) Например, можно выполнить следующую команду, чтобы увидеть всех пользователей с номером телефона:
+Вы можете увидеть все телефонные номера, которые назначены пользователям, с помощью cmdlet [Get-CsOnlineUser.](https://docs.microsoft.com/powershell/module/skype/get-csonlineuser) Например, чтобы увидеть всех пользователей с назначенным номером телефона, можно выполнить следующую команду:
 
 ```PowerShell
 Get-CsOnlineUser | Where-Object  { $_.LineURI -notlike $null } | ft DisplayName,UserPrincipalName,LineURI
