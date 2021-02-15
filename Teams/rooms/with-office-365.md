@@ -15,18 +15,18 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: В этой теме вы можете найти сведения о развертывании комнат Microsoft Teams с Microsoft 365 или Office 365, где обе службы Teams или Skype для бизнеса и Exchange находятся в сети.
-ms.openlocfilehash: 4b5bd3967d3a1fcc8859cf4da8b039418819cb4e
-ms.sourcegitcommit: 07afc959fec802db583e7111280d0035fdb6e412
+ms.openlocfilehash: 4ec54763379e4a13a69eb3e08019924708873faf
+ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49616893"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50196213"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-microsoft-365-or-office-365"></a>Развертывание комнат Microsoft Teams с Microsoft 365 или Office 365
 
 В этой теме вы можете найти сведения о развертывании комнат Microsoft Teams с Microsoft 365 или Office 365, где microsoft Teams или Skype для бизнеса и Exchange находятся в сети.
 
-Проще всего настроить учетные записи пользователей с помощью удаленной Windows PowerShell. Корпорация Майкрософт [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), сценарий, который помогает создавать новые учетные записи пользователей или проверять существующие учетные записи ресурсов, чтобы превратить их в совместимые учетные записи пользователей комнат Microsoft Teams. При этом вы можете настроить учетные записи, которые будут использовать устройства с комнатами Microsoft Teams, следуя этим шагам.
+Проще всего настроить учетные записи пользователей с помощью удаленного Windows PowerShell. Корпорация Майкрософт [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), сценарий, который помогает создавать новые учетные записи пользователей или проверять существующие учетные записи ресурсов, чтобы превратить их в совместимые учетные записи пользователей комнат Microsoft Teams. При этом вы можете настроить учетные записи, которые будут использовать ваше устройство Microsoft Teams Rooms, следуя этим шагам.
 
 ## <a name="requirements"></a>Требования
 
@@ -34,7 +34,7 @@ ms.locfileid: "49616893"
 
 Чтобы включить Skype для бизнеса, у вас должны быть следующие возможности:
 
-- Skype для бизнеса Online (план 2 или корпоративный) или более высокого уровня в вашем плане Microsoft 365 или Office 365. В плане должны быть разрешается использовать функции для работы с функцией телефонного дозвона.
+- Skype для бизнеса Online (план 2 или корпоративный) или более высокого уровня в вашем плане Microsoft 365 или Office 365. В плане должны быть разрешается использовать функции для работы сконференцией с dial-in.
 
 - Если на собрании вам нужны функции телефонного звонка, вам потребуется лицензия на аудиоконференцию и телефонную систему.  Если на собрании вам нужны функции телефонного дозвона, вам потребуется лицензия на аудиоконференцию.
 
@@ -146,6 +146,9 @@ ms.locfileid: "49616893"
    Set-AzureADUser -UserPrincipalName <Account> -PhoneNumber "<PhoneNumber>"
    ```  -->
 
+> [!NOTE]
+> Если для пароля не установлено действие "Никогда не истекает", учетная запись больше не будет вводиться на устройстве, когда срок действия учетной записи истечет. После этого потребуется изменить пароль для учетной записи, а также обновить его локально на устройстве MTR.
+
 6. У учетной записи устройства должна быть действительная лицензия Microsoft 365 или Office 365 либо exchange, Microsoft Teams или Skype для бизнеса не будут работать. При наличии лицензии вам необходимо назначить учетной записи устройства место использования, которое определяет, какие номера SKU лицензий будут доступны вашей учетной записи. Вы можете использовать `Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> чтобы получить список доступных skus для вашей организации Microsoft 365 или Office 365:
 
    ```Powershell
@@ -172,7 +175,7 @@ ms.locfileid: "49616893"
 
    Подробные инструкции см. в описании назначения лицензий учетным записям пользователей с [помощью Office 365 PowerShell.](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell)
 
-   Вы также можете добавить возможности телефонной системы в эту учетную запись, но сначала необходимо ее настроить. Дополнительные [сведения см.](../what-is-phone-system-in-office-365.md) в телефонной системе. В этом примере добавляется план внутренних и международных звонков по ПС:
+   Вы также можете добавить функции телефонной системы в эту учетную запись, но сначала необходимо ее настроить. Дополнительные [сведения см.](../what-is-phone-system-in-office-365.md) в телефонной системе. В этом примере добавляется план внутренних и международных звонков по ПС:
 
    ```PowerShell
    Set-MsolUserLicense -UserPrincipalName rigel1@contoso.onmicrosoft.com -AddLicenses "Contoso:MCOPSTN2"
@@ -180,7 +183,7 @@ ms.locfileid: "49616893"
 
 7. Затем необходимо включить учетную запись устройства в Skype для бизнеса. Убедитесь, что ваша среда соответствует требованиям, определенным в требованиях к комнатам [Microsoft Teams.](requirements.md)
 
-   Начните [удаленный Windows PowerShell (обязательно](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) установите компоненты Skype для бизнеса [Online PowerShell):](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector)
+   Начните [удаленный Windows PowerShell с](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) помощью таких компонентов (обязательно установите компоненты Skype для [бизнеса Online PowerShell):](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector)
 
 > [!NOTE]
 > Соединитель Skype для бизнеса Online сейчас является частью последнего модуля Teams PowerShell.

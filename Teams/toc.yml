@@ -333,6 +333,8 @@ items:
                 href: troubleshoot-guest-access.md
       - name: Кортана в Teams
         href: cortana-in-teams.md
+      - name: Настройка иерархии целей для команды
+        href: set-up-your-team-hierarchy.md
   - name: Собрания и конференции
     items:
       - name: "Краткое руководство\_— собрания и трансляции"
@@ -757,7 +759,7 @@ items:
             href: manage-your-network-topology.md
       - name: Экстренные вызовы
         items:
-          - name: Обзор
+          - name: Общие сведения
             href: what-are-emergency-locations-addresses-and-call-routing.md
           - name: Настройка динамических экстренных вызовов
             href: configure-dynamic-emergency-calling.md
@@ -833,7 +835,7 @@ items:
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md
           - name: Ограничения и запреты для бесплатных номеров
             items:
-              - name: Обзор
+              - name: Общие сведения
                 href: toll-free-dialing-limitations-and-restrictions.md
               - name: Аргентина
                 href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-argentina.md
@@ -1027,50 +1029,54 @@ items:
     items:
       - name: Обзор
         href: deploy-apps-microsoft-teams-landing-page.md
-      - name: Интеграция с Power Platform
-        href: teams-power-platfom-integration.md
-      - name: Управление приложениями для Teams
-        href: manage-apps.md
-      - name: Параметры администратора для приложений в Teams
-        href: admin-settings.md
-      - name: Использование встроенных и настраиваемых вкладок
-        href: built-in-custom-tabs.md
-      - name: "Использование Microsoft 365 или Office\_365 и настраиваемых соединителей"
-        href: Office-365-custom-connectors.md
-      - name: Согласие для определенных ресурсов
-        href: resource-specific-consent.md
-      - name: Пользовательские приложения
+      - name: Приложения от Майкрософт
         items:
+          - name: Управление приложением Lists
+            href: manage-lists-app.md
+          - name: Управление приложением "Задачи"
+            href: manage-tasks-app.md
+          - name: Управление приложением "Благодарность"
+            href: manage-praise-app.md
+          - name: Управление приложением "Утверждения" в Teams
+            href: approval-admin.md
+          - name: Управление приложением "Смены" для организации в Teams
+            href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
+      - name: Сторонние приложения
+        items:
+          - name: Сертификация приложения
+            href: 'https://docs.microsoft.com/en-us/microsoft-365-app-certification/overview'
+          - name: Приобретение сторонних приложений для Teams
+            href: purchase-third-party-apps.md
+      - name: Шаблоны приложений для Teams
+        href: 'https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
+      - name: Сборка и настройка собственных приложений
+        items:
+          - name: Интеграция с Power Platform
+            href: teams-power-platfom-integration.md
+          - name: "Управление приложениями Power Platform в Центре администрирования Microsoft\_Teams"
+            href: manage-power-platform-apps.md
           - name: 'Публикация настраиваемого приложения, отправленного с помощью API передачи приложений Teams'
             href: submit-approve-custom-apps.md
-          - name: "Управление приложениями Power Platform в Центре администрирования Microsoft\_Teams."
-            href: manage-power-platform-apps.md
           - name: Публикация настраиваемого приложения путем отправки пакета приложений
             href: upload-custom-apps.md
           - name: Магазин настраиваемых приложений
             href: customize-your-app-store.md
-      - name: Сертификация приложения
-        href: /teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
-      - name: Просмотр разрешений для приложений и предоставление разрешения администратора в центре администрирования Microsoft Teams
-        href: app-permissions-admin-center.md
-      - name: Разрешения и рекомендации для приложений
-        href: app-permissions.md
-      - name: Приобретение услуг для сторонних приложений Teams
-        href: purchase-third-party-apps.md
-      - name: Шаблоны приложений для Teams
-        href: 'https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
-      - name: Управление приложением Lists для организации в Teams
-        href: manage-lists-app.md
-      - name: Управление приложением "Задачи" для организации
-        href: manage-tasks-app.md
-      - name: Настройка иерархии целей для команды
-        href: set-up-your-team-hierarchy.md
-      - name: Управление приложением "Благодарность" в Центре администрирования Teams
-        href: manage-praise-app.md
-      - name: Настройка приложения "Собрания Skype" для работы с Teams
-        href: configure-skype-meetings-app-to-work-with-teams.md
-      - name: Доступность приложения "Утверждения" Teams
-        href: approval-admin.md
+      - name: Управление приложениями для Teams
+        items:
+          - name: Обзор
+            href: manage-apps.md
+          - name: Просмотр разрешений для приложений и предоставление согласия администратора в Центре администрирования Microsoft Teams
+            href: app-permissions-admin-center.md
+          - name: Согласие для определенных ресурсов
+            href: resource-specific-consent.md
+          - name: Разрешения и рекомендации для приложений
+            href: app-permissions.md
+          - name: Параметры администратора для приложений в Teams
+            href: admin-settings.md
+          - name: Использование встроенных и настраиваемых вкладок
+            href: built-in-custom-tabs.md
+          - name: "Использование Microsoft 365 или Office\_365 и настраиваемых соединителей"
+            href: Office-365-custom-connectors.md
   - name: Внедрение
     items:
       - name: Обзор

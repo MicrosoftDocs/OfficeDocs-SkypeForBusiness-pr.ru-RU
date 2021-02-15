@@ -27,29 +27,31 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: Узнайте, как получить номера пользователей (подписчиков) и служб (платных и бесплатных) номеров телефонов для Microsoft Teams для вашей организации и управлять ими.
-ms.openlocfilehash: 7d72bdd8f688d079ce3627935d837d94d9b1d5f6
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: f49911c8d916354ac0dce1d04710624ec07d592d
+ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031755"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50196263"
 ---
 # <a name="manage-phone-numbers-for-your-organization"></a>Управление номерами телефонов организации
 
 Получить пользовательские (абонентские) и сервисные (платные и бесплатные) номера телефонов для организации можно четырьмя способами:
+
 - [Получение новых номеров телефонов пользователей в Центре администрирования Microsoft Teams.](https://docs.microsoft.com/microsoftteams/getting-phone-numbers-for-your-users#get-new-phone-numbers-for-your-users)
 - [Получение номеров телефонов служб в Центре администрирования Microsoft Teams.](https://docs.microsoft.com/microsoftteams/getting-service-phone-numbers#get-new-service-numbers)
-- [Перенос существующих _номеров_ телефонов с помощью нас.](https://docs.microsoft.com/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams#create-a-port-order-and-transfer-your-phone-numbers-to-teams)
+- [Перенести или _перенести_ существующие телефонные номера у нас.](https://docs.microsoft.com/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams#create-a-port-order-and-transfer-your-phone-numbers-to-teams)
 - Для новых номеров телефонов, которые не указаны в Центре администрирования Microsoft Teams, используйте форму запроса.
 
 > [!IMPORTANT]
-> Для получения информации о новых номерах телефонов в Австралии, перейдите в раздел [Telstra Voice Services](https://aka.ms/TelstraVoicePlan). Новые номера телефонов в Японии см. в голосовых службах [SoftBank.](https://aka.ms/SoftBankVoicePlan)
+> Для получения информации о новых номерах телефонов в Австралии, перейдите в раздел [Telstra Voice Services](https://aka.ms/TelstraVoicePlan). Новые номера телефонов в Японии см. в службах голосовой связи [SoftBank.](https://aka.ms/SoftBankVoicePlan)
 
 ***
 Если вы знаете, какие формы вам нужно найти, выберите страну или регион, в которые хотите получить номера, с помощью drop-down.
 
 **Выберите страну или регион, чтобы найти скачиваемые формы PDF-досье, которые вам нужны**
 > [!div class="op_single_selector"]
+>
 > - [Австралия](phone-number-management-for-australia.md)
 > - [Австрия](phone-number-management-for-austria.md)
 > - [Бельгия](phone-number-management-for-belgium.md)
@@ -68,7 +70,8 @@ ms.locfileid: "49031755"
 > - [Соединенное Королевство](phone-number-management-for-the-u-k.md)
 > - [США & Пуэрто-Рико](phone-number-management-for-the-u-s.md)
 
-**_
+***
+
 ## <a name="heres-a-bit-more-information-about-these-number-request-forms"></a>Вот немного дополнительных сведений об этих формах для запроса номеров.
 
 ### <a name="request-forms-for-new-phone-numbers"></a>Формы запроса новых номеров телефонов
@@ -77,15 +80,16 @@ ms.locfileid: "49031755"
 
 Иногда (в зависимости от страны или региона) вы не сможете получить новые номера телефонов (абонентов) или служб (платных  или бесплатных) телефонных  номеров с помощью Центра администрирования Microsoft Teams или вам могут потребоваться определенные номера телефонов (иммерсные запросы) или коды определенных областей.
 
-В этом случае вам потребуется скачать правильную форму PDF-досье (по стране или региону и типу телефонных номеров) и отправить ее нам. Наша служба обслуживания отслужит ее и начнет обрабатывать ваш запрос.
+В этом случае вам потребуется скачать правильную форму PDF-досье (для каждой страны или региона и тип телефонных номеров) и отправить ее нам. Наша служба обслуживания отслужит ее и начнет обрабатывать ваш запрос.
 
-### <a name="letters-of-authorization-loas-to-transferport-existing-phone-numbers-from-another-service-provider-to-microsoft-teams"></a>Досье (LOAS) для переноса существующих номеров телефонов от другого поставщика услуг в Microsoft Teams
+### <a name="letters-of-authorization-loas-to-transferport-existing-phone-numbers-from-another-service-provider-to-microsoft-teams"></a>Досье (LOAS) для переноса существующих номеров телефонов другого поставщика услуг в Microsoft Teams
 
 Если вам нужно перенести или перенести существующие номера телефонов, необходимо скачать, заполнить и отправить нам досье, которое предоставляет нам разрешение на запрос и перенос от вашего имени существующих номеров от другого поставщика услуг в Microsoft Teams.
 
-Отправьте нам _ *LOA** если у вас есть следующую возможность у другого оператора связи:
+Отправьте нам  досье, если у вас есть следующую возможность для другого оператора связи:
+
 - Номера пользователей (подписчиков).
-- Номера служб (платные) для моста аудиоконференций, автоотетарей или очередей вызовов.
+- Номера служб (платные) для моста аудиоконференций, автоотетаря или очередей вызовов.
 - Toll-Free номеров телефонов.
 - Более 999 номеров телефонов пользователей, которые необходимо перенести или перенести, но которые не могут попасть в Центр администрирования Microsoft Teams с помощью локального мастера переноса номеров.
 
@@ -100,9 +104,9 @@ ms.locfileid: "49031755"
 - Чтобы _узнать, доступны_ ли и какие планы звонков доступны в вашей стране или регионе, ознакомьтесь с доступностью стран и регионов для аудиоконференций [и планов звонков](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 - Чтобы помочь вам выбрать правильный тип номеров телефонов, ознакомьтесь с различными типами номеров, используемых [для планов звонков.](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 - Чтобы получить помощь по настройке номеров телефонов для организации, прочитайте статью "Обратиться в службу поддержки продуктов для [бизнеса: справка для администраторов".](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products?view=o365-worldwide&tabs=online)
-    
-## <a name="related-topics"></a>Статьи по теме
+
+## <a name="related-topics"></a>Связанные статьи
 
 [Условия и положения, распространяющиеся на экстренные вызовы](../emergency-calling-terms-and-conditions.md)
 
-[Метка заявление об отказе для экстренных вызовов](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Метка заявление об отказе для экстренных вызовов](https://download.microsoft.com/download/a/8/0/a807c43d-2177-4fe0-8732-86b3784ae6e5/emergency-calling-label-(en-us)-(v.1.0).zip)
