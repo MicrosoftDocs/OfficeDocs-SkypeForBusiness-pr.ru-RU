@@ -20,14 +20,14 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49831419"
 ---
-# <a name="tblsystemrevision"></a><span data-ttu-id="371ce-103">tblSystemRevision</span><span class="sxs-lookup"><span data-stu-id="371ce-103">tblSystemRevision</span></span>
+# <a name="tblsystemrevision"></a><span data-ttu-id="af104-103">tblSystemRevision</span><span class="sxs-lookup"><span data-stu-id="af104-103">tblSystemRevision</span></span>
  
-<span data-ttu-id="371ce-104">Таблица tblSystemRevision содержит номер редакции, который используется с таблицей tblAdminLock для обеспечения согласованности между клиентами администраторов.</span><span class="sxs-lookup"><span data-stu-id="371ce-104">tblSystemRevision contains the revision number that is used with the tblAdminLock table to achieve consistency across multiple administrator clients.</span></span>
+<span data-ttu-id="af104-104">Таблица tblSystemRevision содержит номер редакции, который используется с таблицей tblAdminLock для обеспечения согласованности между клиентами администраторов.</span><span class="sxs-lookup"><span data-stu-id="af104-104">tblSystemRevision contains the revision number that is used with the tblAdminLock table to achieve consistency across multiple administrator clients.</span></span>
   
-<span data-ttu-id="371ce-105">**Columns**</span><span class="sxs-lookup"><span data-stu-id="371ce-105">**Columns**</span></span>
+<span data-ttu-id="af104-105">**Columns**</span><span class="sxs-lookup"><span data-stu-id="af104-105">**Columns**</span></span>
 
-|<span data-ttu-id="371ce-106">**Столбец**</span><span class="sxs-lookup"><span data-stu-id="371ce-106">**Column**</span></span>|<span data-ttu-id="371ce-107">**Тип**</span><span class="sxs-lookup"><span data-stu-id="371ce-107">**Type**</span></span>|<span data-ttu-id="371ce-108">**Описание**</span><span class="sxs-lookup"><span data-stu-id="371ce-108">**Description**</span></span>|
+|<span data-ttu-id="af104-106">**Столбец**</span><span class="sxs-lookup"><span data-stu-id="af104-106">**Column**</span></span>|<span data-ttu-id="af104-107">**Тип**</span><span class="sxs-lookup"><span data-stu-id="af104-107">**Type**</span></span>|<span data-ttu-id="af104-108">**Описание**</span><span class="sxs-lookup"><span data-stu-id="af104-108">**Description**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="371ce-109">sysRevision</span><span class="sxs-lookup"><span data-stu-id="371ce-109">sysRevision</span></span>  <br/> |<span data-ttu-id="371ce-110">bigint, не может быть null</span><span class="sxs-lookup"><span data-stu-id="371ce-110">bigint, not null</span></span>  <br/> |<span data-ttu-id="371ce-111">Номер редакции.</span><span class="sxs-lookup"><span data-stu-id="371ce-111">Revision number.</span></span>  <br/> |
+|<span data-ttu-id="af104-109">sysRevision</span><span class="sxs-lookup"><span data-stu-id="af104-109">sysRevision</span></span>  <br/> |<span data-ttu-id="af104-110">bigint, не может быть null</span><span class="sxs-lookup"><span data-stu-id="af104-110">bigint, not null</span></span>  <br/> |<span data-ttu-id="af104-111">Номер редакции.</span><span class="sxs-lookup"><span data-stu-id="af104-111">Revision number.</span></span>  <br/> |
    
 

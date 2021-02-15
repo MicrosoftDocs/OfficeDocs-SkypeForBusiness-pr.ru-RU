@@ -1,5 +1,5 @@
 ---
-title: Таблица задач
+title: Таблица Task
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -20,8 +20,8 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49831729"
 ---
-# <a name="task-table"></a><span data-ttu-id="631d6-104">Таблица задач</span><span class="sxs-lookup"><span data-stu-id="631d6-104">Task table</span></span>
+# <a name="task-table"></a><span data-ttu-id="02961-104">Таблица Task</span><span class="sxs-lookup"><span data-stu-id="02961-104">Task table</span></span>
  
-<span data-ttu-id="631d6-105">Таблица задач предназначена только для внутреннего использования.</span><span class="sxs-lookup"><span data-stu-id="631d6-105">The Task Table is for internal use only.</span></span> <span data-ttu-id="631d6-106">Эта таблица была представлена в Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="631d6-106">This table was introduced in Microsoft Lync Server 2013.</span></span>
+<span data-ttu-id="02961-105">Таблица задач предназначена только для внутреннего использования.</span><span class="sxs-lookup"><span data-stu-id="02961-105">The Task Table is for internal use only.</span></span> <span data-ttu-id="02961-106">Эта таблица была представлена в Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="02961-106">This table was introduced in Microsoft Lync Server 2013.</span></span>
   
 

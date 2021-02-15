@@ -22,8 +22,8 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49829739"
 ---
-# <a name="remove-certificate-intro"></a><span data-ttu-id="ba617-104">Удаление сертификата (введение)</span><span class="sxs-lookup"><span data-stu-id="ba617-104">Remove Certificate (Intro)</span></span>
+# <a name="remove-certificate-intro"></a><span data-ttu-id="c672c-104">Удаление сертификата (введение)</span><span class="sxs-lookup"><span data-stu-id="c672c-104">Remove Certificate (Intro)</span></span>
  
-<span data-ttu-id="ba617-p102">На начальной странице задачи **Удаление сертификата** внимательно прочитайте информацию о последствиях удаления сертификата. Затем нажмите кнопку **Далее**, чтобы продолжить.</span><span class="sxs-lookup"><span data-stu-id="ba617-p102">On the **Remove Certificate** introduction page, read the information carefully about the implications of removing a certificate. After you have read this information, click **Next** to continue.</span></span>
+<span data-ttu-id="c672c-p102">На начальной странице задачи **Удаление сертификата** внимательно прочитайте информацию о последствиях удаления сертификата. Затем нажмите кнопку **Далее**, чтобы продолжить.</span><span class="sxs-lookup"><span data-stu-id="c672c-p102">On the **Remove Certificate** introduction page, read the information carefully about the implications of removing a certificate. After you have read this information, click **Next** to continue.</span></span>
   
 

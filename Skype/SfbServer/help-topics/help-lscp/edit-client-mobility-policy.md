@@ -22,27 +22,27 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49829439"
 ---
-# <a name="edit-client-mobility-policy"></a><span data-ttu-id="96f09-103">Изменение политики мобильных устройств для клиентов</span><span class="sxs-lookup"><span data-stu-id="96f09-103">Edit Client Mobility Policy</span></span>
+# <a name="edit-client-mobility-policy"></a><span data-ttu-id="10fc8-103">Изменение политики мобильных устройств для клиентов</span><span class="sxs-lookup"><span data-stu-id="10fc8-103">Edit Client Mobility Policy</span></span>
 
-<span data-ttu-id="96f09-104">В диалоговом окне **Изменение политики мобильных устройств** вы можете изменить сведения о политике мобильных устройств.</span><span class="sxs-lookup"><span data-stu-id="96f09-104">On the **Edit Mobility Policy** dialog, you can edit the details of a mobility policy.</span></span>
+<span data-ttu-id="10fc8-104">В диалоговом окне **Изменение политики мобильных устройств** вы можете изменить сведения о политике мобильных устройств.</span><span class="sxs-lookup"><span data-stu-id="10fc8-104">On the **Edit Mobility Policy** dialog, you can edit the details of a mobility policy.</span></span>
 
-## <a name="ui-reference"></a><span data-ttu-id="96f09-105">Ссылка на пользовательский интерфейс</span><span class="sxs-lookup"><span data-stu-id="96f09-105">UI Reference</span></span>
+## <a name="ui-reference"></a><span data-ttu-id="10fc8-105">Ссылка на пользовательский интерфейс</span><span class="sxs-lookup"><span data-stu-id="10fc8-105">UI Reference</span></span>
 
-<span data-ttu-id="96f09-106">В следующих списках описываются меню, команды, поля и свойства на этой странице.</span><span class="sxs-lookup"><span data-stu-id="96f09-106">The following lists describe the menus, command, fields, and properties on the page.</span></span>
+<span data-ttu-id="10fc8-106">В следующих списках описываются меню, команды, поля и свойства на этой странице.</span><span class="sxs-lookup"><span data-stu-id="10fc8-106">The following lists describe the menus, command, fields, and properties on the page.</span></span>
 
 
-- <span data-ttu-id="96f09-107">**Фиксация** Щелкните, чтобы сохранить изменения в параметрах политики.</span><span class="sxs-lookup"><span data-stu-id="96f09-107">**Commit** Click to save the changes to the policy settings.</span></span>
+- <span data-ttu-id="10fc8-107">**Фиксация** Щелкните, чтобы сохранить изменения в параметрах политики.</span><span class="sxs-lookup"><span data-stu-id="10fc8-107">**Commit** Click to save the changes to the policy settings.</span></span>
 
-- <span data-ttu-id="96f09-108">**Отмена** Щелкните, чтобы остановить изменение политики и отменить все изменения, внесенные в параметры политики.</span><span class="sxs-lookup"><span data-stu-id="96f09-108">**Cancel** Click to stop editing the policy and discard any changes made to the policy settings.</span></span>
+- <span data-ttu-id="10fc8-108">**Отмена** Щелкните, чтобы остановить изменение политики и отменить все изменения, внесенные в параметры политики.</span><span class="sxs-lookup"><span data-stu-id="10fc8-108">**Cancel** Click to stop editing the policy and discard any changes made to the policy settings.</span></span>
 
-- <span data-ttu-id="96f09-109">**Имя** Имя политики мобильности.</span><span class="sxs-lookup"><span data-stu-id="96f09-109">**Name** The name of the mobility policy.</span></span>
+- <span data-ttu-id="10fc8-109">**Имя** Имя политики мобильности.</span><span class="sxs-lookup"><span data-stu-id="10fc8-109">**Name** The name of the mobility policy.</span></span>
 
-- <span data-ttu-id="96f09-110">**Описание** Описание политики мобильности.</span><span class="sxs-lookup"><span data-stu-id="96f09-110">**Description** A description of the mobility policy.</span></span>
+- <span data-ttu-id="10fc8-110">**Описание** Описание политики мобильности.</span><span class="sxs-lookup"><span data-stu-id="10fc8-110">**Description** A description of the mobility policy.</span></span>
 
-<span data-ttu-id="96f09-111">Дополнительные сведения о политиках мобильных устройств см. в разделе [Mobility Policies](https://technet.microsoft.com/library/8caa5525-e16a-4e38-b3cd-acc0ae9ea375.aspx).</span><span class="sxs-lookup"><span data-stu-id="96f09-111">For details about mobility policies, see [Mobility Policies](https://technet.microsoft.com/library/8caa5525-e16a-4e38-b3cd-acc0ae9ea375.aspx).</span></span>
+<span data-ttu-id="10fc8-111">Дополнительные сведения о политиках мобильных устройств см. в разделе [Mobility Policies](https://technet.microsoft.com/library/8caa5525-e16a-4e38-b3cd-acc0ae9ea375.aspx).</span><span class="sxs-lookup"><span data-stu-id="10fc8-111">For details about mobility policies, see [Mobility Policies](https://technet.microsoft.com/library/8caa5525-e16a-4e38-b3cd-acc0ae9ea375.aspx).</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="96f09-112">См. также</span><span class="sxs-lookup"><span data-stu-id="96f09-112">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="10fc8-112">См. также</span><span class="sxs-lookup"><span data-stu-id="10fc8-112">See also</span></span>
 
-[<span data-ttu-id="96f09-113">Планирование мобильной работы</span><span class="sxs-lookup"><span data-stu-id="96f09-113">Planning for Mobility</span></span>](https://technet.microsoft.com/library/12000359-09b5-48f0-986d-fab3a1487f9c.aspx)
+[<span data-ttu-id="10fc8-113">Планирование мобильной работы</span><span class="sxs-lookup"><span data-stu-id="10fc8-113">Planning for Mobility</span></span>](https://technet.microsoft.com/library/12000359-09b5-48f0-986d-fab3a1487f9c.aspx)
 
-[<span data-ttu-id="96f09-114">Развертывание поддержки мобильной работы</span><span class="sxs-lookup"><span data-stu-id="96f09-114">Deploying Mobility</span></span>](https://technet.microsoft.com/library/f41e6b25-d2cd-43fd-a17b-22cfda8bcd4f.aspx)
+[<span data-ttu-id="10fc8-114">Развертывание поддержки мобильной работы</span><span class="sxs-lookup"><span data-stu-id="10fc8-114">Deploying Mobility</span></span>](https://technet.microsoft.com/library/f41e6b25-d2cd-43fd-a17b-22cfda8bcd4f.aspx)

@@ -1,5 +1,5 @@
 ---
-title: Устранение угроз для основной инфраструктуры Skype для бизнеса Server
+title: Устранение угроз основной инфраструктуры Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -19,12 +19,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49832279"
 ---
-# <a name="addressing-threats-to-your-core-infrastructure-for-skype-for-business-server"></a><span data-ttu-id="451cf-103">Устранение угроз для основной инфраструктуры Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="451cf-103">Addressing threats to your core infrastructure for Skype for Business Server</span></span>
+# <a name="addressing-threats-to-your-core-infrastructure-for-skype-for-business-server"></a><span data-ttu-id="1dc63-103">Устранение угроз основной инфраструктуры Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="1dc63-103">Addressing threats to your core infrastructure for Skype for Business Server</span></span>
  
-<span data-ttu-id="451cf-104">В дополнение к следующим советам по развертыванию Skype для бизнеса Server вы можете обеспечить безопасность, просмотрев, осмыслев и усмотрев любые потребности в определенных областях развертывания.</span><span class="sxs-lookup"><span data-stu-id="451cf-104">In addition to following best practices for your Skype for Business Server deployment, you can help to ensure security by reviewing, understanding, and addressing any needs in specific areas of your deployment.</span></span>
+<span data-ttu-id="1dc63-104">В дополнение к следующим советам по развертыванию Skype для бизнеса Server вы можете обеспечить безопасность, просмотрев, осмыслев и усмотрев любые потребности в определенных областях развертывания.</span><span class="sxs-lookup"><span data-stu-id="1dc63-104">In addition to following best practices for your Skype for Business Server deployment, you can help to ensure security by reviewing, understanding, and addressing any needs in specific areas of your deployment.</span></span>
   
-## <a name="in-this-section"></a><span data-ttu-id="451cf-105">В этом разделе:</span><span class="sxs-lookup"><span data-stu-id="451cf-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="1dc63-105">В этом разделе:</span><span class="sxs-lookup"><span data-stu-id="1dc63-105">In this section</span></span>
 
-- [<span data-ttu-id="451cf-106">Best practices for your core infrastructure in Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="451cf-106">Best practices for your core infrastructure in Skype for Business Server</span></span>](best-practices.md)
+- [<span data-ttu-id="1dc63-106">Best practices for your core infrastructure in Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="1dc63-106">Best practices for your core infrastructure in Skype for Business Server</span></span>](best-practices.md)
     
 

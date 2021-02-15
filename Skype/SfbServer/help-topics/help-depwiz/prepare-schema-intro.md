@@ -22,8 +22,8 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49829849"
 ---
-# <a name="prepare-schema-intro"></a><span data-ttu-id="0b3bb-104">Подготовка схемы (введение)</span><span class="sxs-lookup"><span data-stu-id="0b3bb-104">Prepare Schema (Intro)</span></span>
+# <a name="prepare-schema-intro"></a><span data-ttu-id="ab896-104">Подготовка схемы (введение)</span><span class="sxs-lookup"><span data-stu-id="ab896-104">Prepare Schema (Intro)</span></span>
  
-<span data-ttu-id="0b3bb-105">Чтобы запустить задачу расширения схемы для Skype для бизнеса Server 2015, начните со страницы "Подготовка **схемы".**</span><span class="sxs-lookup"><span data-stu-id="0b3bb-105">To start the task to extend the schema for Skype for Business Server 2015, you begin on the **Prepare Schema** page.</span></span> <span data-ttu-id="0b3bb-106">Нажмите кнопку **Далее**, чтобы продолжить подготовку схемы.</span><span class="sxs-lookup"><span data-stu-id="0b3bb-106">Click **Next** to continue with the schema preparation.</span></span>
+<span data-ttu-id="ab896-105">Чтобы запустить задачу расширения схемы для Skype для бизнеса Server 2015, начните со страницы "Подготовка **схемы".**</span><span class="sxs-lookup"><span data-stu-id="ab896-105">To start the task to extend the schema for Skype for Business Server 2015, you begin on the **Prepare Schema** page.</span></span> <span data-ttu-id="ab896-106">Нажмите кнопку **Далее**, чтобы продолжить подготовку схемы.</span><span class="sxs-lookup"><span data-stu-id="ab896-106">Click **Next** to continue with the schema preparation.</span></span>
   
 

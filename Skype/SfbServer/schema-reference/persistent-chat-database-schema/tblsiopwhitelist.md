@@ -20,22 +20,22 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49831489"
 ---
-# <a name="tblsiopwhitelist"></a><span data-ttu-id="a3cfe-103">tblSiopWhiteList</span><span class="sxs-lookup"><span data-stu-id="a3cfe-103">tblSiopWhiteList</span></span>
+# <a name="tblsiopwhitelist"></a><span data-ttu-id="3be1d-103">tblSiopWhiteList</span><span class="sxs-lookup"><span data-stu-id="3be1d-103">tblSiopWhiteList</span></span>
  
-<span data-ttu-id="a3cfe-104">tblSiopWhiteList — это список зарегистрированных надстроек, которые могут быть связаны с узлами.</span><span class="sxs-lookup"><span data-stu-id="a3cfe-104">tblSiopWhiteList is the list of registered add-ins that can be associated with nodes.</span></span>
+<span data-ttu-id="3be1d-104">tblSiopWhiteList — это список зарегистрированных надстроек, которые могут быть связаны с узлами.</span><span class="sxs-lookup"><span data-stu-id="3be1d-104">tblSiopWhiteList is the list of registered add-ins that can be associated with nodes.</span></span>
   
-<span data-ttu-id="a3cfe-105">**Columns**</span><span class="sxs-lookup"><span data-stu-id="a3cfe-105">**Columns**</span></span>
+<span data-ttu-id="3be1d-105">**Columns**</span><span class="sxs-lookup"><span data-stu-id="3be1d-105">**Columns**</span></span>
 
-|<span data-ttu-id="a3cfe-106">**Столбец**</span><span class="sxs-lookup"><span data-stu-id="a3cfe-106">**Column**</span></span>|<span data-ttu-id="a3cfe-107">**Тип**</span><span class="sxs-lookup"><span data-stu-id="a3cfe-107">**Type**</span></span>|<span data-ttu-id="a3cfe-108">**Описание**</span><span class="sxs-lookup"><span data-stu-id="a3cfe-108">**Description**</span></span>|
+|<span data-ttu-id="3be1d-106">**Столбец**</span><span class="sxs-lookup"><span data-stu-id="3be1d-106">**Column**</span></span>|<span data-ttu-id="3be1d-107">**Тип**</span><span class="sxs-lookup"><span data-stu-id="3be1d-107">**Type**</span></span>|<span data-ttu-id="3be1d-108">**Описание**</span><span class="sxs-lookup"><span data-stu-id="3be1d-108">**Description**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="a3cfe-109">siopID</span><span class="sxs-lookup"><span data-stu-id="a3cfe-109">siopID</span></span>  <br/> |<span data-ttu-id="a3cfe-110">GUID, отлично от null</span><span class="sxs-lookup"><span data-stu-id="a3cfe-110">GUID, not null</span></span>  <br/> |<span data-ttu-id="a3cfe-111">GUID надстройки.</span><span class="sxs-lookup"><span data-stu-id="a3cfe-111">GUID of the add-in.</span></span>  <br/> |
-|<span data-ttu-id="a3cfe-112">siopName</span><span class="sxs-lookup"><span data-stu-id="a3cfe-112">siopName</span></span>  <br/> |<span data-ttu-id="a3cfe-113">nvarchar (50), отлично от null</span><span class="sxs-lookup"><span data-stu-id="a3cfe-113">nvarchar (50), not null</span></span>  <br/> |<span data-ttu-id="a3cfe-114">Отображаемое имя надстройки.</span><span class="sxs-lookup"><span data-stu-id="a3cfe-114">Display-name of the add-in.</span></span>  <br/> |
-|<span data-ttu-id="a3cfe-115">siopUrl</span><span class="sxs-lookup"><span data-stu-id="a3cfe-115">siopUrl</span></span>  <br/> |<span data-ttu-id="a3cfe-116">nvarchar (255), отлично от null</span><span class="sxs-lookup"><span data-stu-id="a3cfe-116">nvarchar (255), not null</span></span>  <br/> |<span data-ttu-id="a3cfe-117">URL-адрес надстройки.</span><span class="sxs-lookup"><span data-stu-id="a3cfe-117">URL of the add-in.</span></span>  <br/> |
+|<span data-ttu-id="3be1d-109">siopID</span><span class="sxs-lookup"><span data-stu-id="3be1d-109">siopID</span></span>  <br/> |<span data-ttu-id="3be1d-110">GUID, отлично от null</span><span class="sxs-lookup"><span data-stu-id="3be1d-110">GUID, not null</span></span>  <br/> |<span data-ttu-id="3be1d-111">GUID надстройки.</span><span class="sxs-lookup"><span data-stu-id="3be1d-111">GUID of the add-in.</span></span>  <br/> |
+|<span data-ttu-id="3be1d-112">siopName</span><span class="sxs-lookup"><span data-stu-id="3be1d-112">siopName</span></span>  <br/> |<span data-ttu-id="3be1d-113">nvarchar (50), отлично от null</span><span class="sxs-lookup"><span data-stu-id="3be1d-113">nvarchar (50), not null</span></span>  <br/> |<span data-ttu-id="3be1d-114">Отображаемое имя надстройки.</span><span class="sxs-lookup"><span data-stu-id="3be1d-114">Display-name of the add-in.</span></span>  <br/> |
+|<span data-ttu-id="3be1d-115">siopUrl</span><span class="sxs-lookup"><span data-stu-id="3be1d-115">siopUrl</span></span>  <br/> |<span data-ttu-id="3be1d-116">nvarchar (255), отлично от null</span><span class="sxs-lookup"><span data-stu-id="3be1d-116">nvarchar (255), not null</span></span>  <br/> |<span data-ttu-id="3be1d-117">URL-адрес надстройки.</span><span class="sxs-lookup"><span data-stu-id="3be1d-117">URL of the add-in.</span></span>  <br/> |
    
-<span data-ttu-id="a3cfe-118">**Раздел**</span><span class="sxs-lookup"><span data-stu-id="a3cfe-118">**Key**</span></span>
+<span data-ttu-id="3be1d-118">**Раздел**</span><span class="sxs-lookup"><span data-stu-id="3be1d-118">**Key**</span></span>
 
-|<span data-ttu-id="a3cfe-119">**Столбец**</span><span class="sxs-lookup"><span data-stu-id="a3cfe-119">**Column**</span></span>|<span data-ttu-id="a3cfe-120">**Описание**</span><span class="sxs-lookup"><span data-stu-id="a3cfe-120">**Description**</span></span>|
+|<span data-ttu-id="3be1d-119">**Столбец**</span><span class="sxs-lookup"><span data-stu-id="3be1d-119">**Column**</span></span>|<span data-ttu-id="3be1d-120">**Описание**</span><span class="sxs-lookup"><span data-stu-id="3be1d-120">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="a3cfe-121">siopID</span><span class="sxs-lookup"><span data-stu-id="a3cfe-121">siopID</span></span>  <br/> |<span data-ttu-id="a3cfe-122">Первичный ключ.</span><span class="sxs-lookup"><span data-stu-id="a3cfe-122">Primary key.</span></span>  <br/> |
+|<span data-ttu-id="3be1d-121">siopID</span><span class="sxs-lookup"><span data-stu-id="3be1d-121">siopID</span></span>  <br/> |<span data-ttu-id="3be1d-122">Первичный ключ.</span><span class="sxs-lookup"><span data-stu-id="3be1d-122">Primary key.</span></span>  <br/> |
    
 

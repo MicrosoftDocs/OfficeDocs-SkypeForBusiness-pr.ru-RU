@@ -22,10 +22,10 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49829349"
 ---
-# <a name="pin-set-successfully"></a><span data-ttu-id="020a6-104">Успешная настройка ПИН-кода</span><span class="sxs-lookup"><span data-stu-id="020a6-104">PIN Set Successfully</span></span>
+# <a name="pin-set-successfully"></a><span data-ttu-id="d4f56-104">Успешная настройка ПИН-кода</span><span class="sxs-lookup"><span data-stu-id="d4f56-104">PIN Set Successfully</span></span>
  
-<span data-ttu-id="020a6-p102">Чтобы использовать электронную почту для отправки ПИН-кодов пользователям, щелкните **Открыть приложение электронной почты для отправки нового ПИН-кода пользователю**. Чтобы скопировать ПИН-код в сообщение электронной почты, выберите **Показать ПИН-код**.</span><span class="sxs-lookup"><span data-stu-id="020a6-p102">To use email to send the PIN to the user, click **Open my email application to send the new PIN to the user**. To copy the PIN into the email message, select **Show PIN**.</span></span> 
+<span data-ttu-id="d4f56-p102">Чтобы использовать электронную почту для отправки ПИН-кодов пользователям, щелкните **Открыть приложение электронной почты для отправки нового ПИН-кода пользователю**. Чтобы скопировать ПИН-код в сообщение электронной почты, выберите **Показать ПИН-код**.</span><span class="sxs-lookup"><span data-stu-id="d4f56-p102">To use email to send the PIN to the user, click **Open my email application to send the new PIN to the user**. To copy the PIN into the email message, select **Show PIN**.</span></span> 
   
-<span data-ttu-id="020a6-107">Подробные сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнеса Server, см. в под управлением Skype для бизнеса [Server 2015.](../../manage/manage.md)</span><span class="sxs-lookup"><span data-stu-id="020a6-107">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="d4f56-107">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="d4f56-107">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
   
 
