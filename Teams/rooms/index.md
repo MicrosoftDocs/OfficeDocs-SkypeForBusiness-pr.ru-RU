@@ -1,5 +1,5 @@
 ---
-title: Виртуальные комнаты собраний Microsoft Teams
+title: Комнаты Microsoft Teams
 ms.reviewer: ''
 ms.author: dstrome
 author: dstrome
@@ -16,12 +16,12 @@ ms.collection:
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: Узнайте, как настроить комнаты Microsoft Teams, включая планирование, развертывание и управление системой для создания идеальной виртуальной комнаты для собраний.
 ms.custom: seo-marvel-may2020
-ms.openlocfilehash: 85c3da4b1c39c60454c4530a7e45ca0695eb70b5
-ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
+ms.openlocfilehash: b342c8081706355828e9854a46dd904d01f803e2
+ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49662034"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50196543"
 ---
 # <a name="microsoft-teams-rooms"></a>Комнаты Microsoft Teams
 

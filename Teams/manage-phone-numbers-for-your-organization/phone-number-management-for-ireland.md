@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Эта таблица используется для поиска информации о получении номеров телефонов в Ирландии для Microsoft Teams и управлении им.
-ms.openlocfilehash: 0526bd1827f838298a86498d93c3e24acb0e38be
-ms.sourcegitcommit: 8703d668949ae2004f8a9e576f5ffc9e3158db0e
+ms.openlocfilehash: def8a47ff77510597fc1f5a43cc1dd08509f7084
+ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "49876713"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50196813"
 ---
 # <a name="phone-number-management-for-ireland"></a>Управление номерами телефонов в Ирландии
 
@@ -40,7 +40,7 @@ ms.locfileid: "49876713"
 |Публикация и публикация номеров телефонов в национальном телефонном каталоге.  <br/> |[Отправьте нам](mailto:ptneu@microsoft.com) список номеров телефонов для публикации или отмены публикации. <br/> |
 |Изменение номера пользователя на номер службы.  <br/> |[Отправьте нам](mailto:ptneu@microsoft.com) список номеров пользователей, которые необходимо преобразовать в номера служб. <br/> |
 |Обновление службы каталогов для номеров очереди вызовов или номеров автозавода|Чтобы добавить или изменить номера очереди вызовов или номера автоотетаря, обратитесь в службу [поддержки ННР.](contact-pstn-service-desk.md) |
-   
+
 ## <a name="related-topics"></a>См. также:
 
 [Типы номеров телефонов, используемые в планах звонков](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
@@ -49,4 +49,4 @@ ms.locfileid: "49876713"
 
 [Условия и положения, распространяющиеся на экстренные вызовы](../emergency-calling-terms-and-conditions.md)
   
-[Метка заявление об отказе для экстренных вызовов](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Метка заявление об отказе для экстренных вызовов](https://download.microsoft.com/download/a/8/0/a807c43d-2177-4fe0-8732-86b3784ae6e5/emergency-calling-label-(en-us)-(v.1.0).zip)

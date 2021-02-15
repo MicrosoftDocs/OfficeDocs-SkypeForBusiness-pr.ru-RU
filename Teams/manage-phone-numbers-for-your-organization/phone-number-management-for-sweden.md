@@ -19,16 +19,16 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Эта таблица используется для поиска сведений о получении номеров телефонов в Швеции для Microsoft Teams и управлении им.
-ms.openlocfilehash: 6dc156b475e1cd2d38d314552cdaf19873d0a40a
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: bd3c262b402ab851f9cb58fa2f1bb8b36baf5fa6
+ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49822789"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50196663"
 ---
 # <a name="phone-number-management-for-sweden"></a>Управление номерами телефонов для Швеции
 
-Эта таблица используется для поиска сведений о получении номеров телефонов в Швеции для Microsoft Teams и управлении им. 
+Эта таблица используется для поиска сведений о получении номеров телефонов в Швеции для Microsoft Teams и управлении им.
   
 Дополнительные сведения см. в статье [Управление номерами телефонов для организации](manage-phone-numbers-for-your-organization.md).
   
@@ -38,8 +38,7 @@ ms.locfileid: "49822789"
 Перенаправь нам номера телефонов.  <br/> |Скачайте эту форму. <br/>[Досье (LOA) для Швеции (все номера) (v.5.0) (sv-se)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-sweden-(all-numbers)-(v.5.0)-(sv-se).pdf?raw=true)<br/><br/> Заполните ее и [отправьте его нам](mailto:ptneu@microsoft.com). <br/> |
 |Публикация и публикация номеров телефонов в национальном телефонном каталоге.  <br/> |[Отправьте нам](mailto:ptneu@microsoft.com) список номеров телефонов для публикации или отмены публикации.      <br/> |
 |Изменение номера пользователя на номер службы.  <br/> |[Отправьте нам](mailto:ptneu@microsoft.com) список номеров пользователей, которые необходимо преобразовать в номера служб. <br/> |
-|Обновление службы каталогов для номеров очереди вызовов или номеров автозавода|Чтобы добавить или изменить номера очереди вызовов или номера автозавода, обратитесь в службу [поддержки ННР.](contact-pstn-service-desk.md) |
-
+|Обновление службы каталогов для номеров очереди вызовов или номеров автозавода|Чтобы добавить или изменить номера очереди вызовов или номера автоотетаря, обратитесь в службу [поддержки ННР.](contact-pstn-service-desk.md) |
 
 ## <a name="related-topics"></a>См. также:
 
@@ -49,5 +48,4 @@ ms.locfileid: "49822789"
 
 [Условия и положения, распространяющиеся на экстренные вызовы](../emergency-calling-terms-and-conditions.md)
   
-[Метка заявление об отказе для экстренных вызовов](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true) 
- 
+[Метка заявление об отказе для экстренных вызовов](https://download.microsoft.com/download/a/8/0/a807c43d-2177-4fe0-8732-86b3784ae6e5/emergency-calling-label-(en-us)-(v.1.0).zip)

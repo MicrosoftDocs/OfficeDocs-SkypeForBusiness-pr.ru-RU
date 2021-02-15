@@ -19,16 +19,16 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Эта таблица используется для поиска информации о получении номеров телефонов в Японии для Microsoft Teams и управлении им.
-ms.openlocfilehash: 5cc9168b1ab0b881c2f7737f00369b5a286962b9
-ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
+ms.openlocfilehash: 3c16d05a1160e95777f6ee981ca7332a4555f10a
+ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48322258"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50196683"
 ---
 # <a name="phone-number-management-for-japan"></a>Управление номерами телефонов для Японии
 
-В Японии мы сотрудничаем с softBank для покупки и оплаты планов звонков для клиентов с адресом вы выставления счета в Японии. SoftBank будет продавать свои планы звонков, предоставлять номера пользователей для Японии и предоставлять поддержку управления номерами телефонов. Однако номера служб и лицензии для аудиоконференций, автоотетарей и очередей вызовов будут по-прежнему продаваться и управляться Microsoft 365 и Office 365.
+В Японии мы сотрудничаем с softBank для покупки и оплаты планов звонков для клиентов с адресом вы выставления счета в Японии. SoftBank будет продавать свои планы звонков, предоставлять номера пользователей для Японии и предоставлять поддержку управления номерами телефонов. Однако номера служб и лицензии для аудиоконференций, автоотетаря и очередей вызовов будут по-прежнему продаваться и управляться Microsoft 365 и Office 365.
 
 Дополнительные сведения о звонках [SoftBank.](https://aka.ms/SoftBankVoicePlan)
 
@@ -53,3 +53,5 @@ ms.locfileid: "48322258"
 [Управление номерами телефонов организации](manage-phone-numbers-for-your-organization.md)
 
 [Условия и положения, распространяющиеся на экстренные вызовы](../emergency-calling-terms-and-conditions.md)
+
+[Метка заявление об отказе для экстренных вызовов](https://download.microsoft.com/download/a/8/0/a807c43d-2177-4fe0-8732-86b3784ae6e5/emergency-calling-label-(en-us)-(v.1.0).zip)
