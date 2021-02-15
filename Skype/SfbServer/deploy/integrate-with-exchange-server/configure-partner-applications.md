@@ -33,13 +33,13 @@ ms.locfileid: "49834049"
   
 ## <a name="configuring-skype-for-business-server-to-be-a-partner-application-for-exchange-server"></a>Настройка Skype для бизнеса Server в качестве партнерского приложения для Exchange Server
 
-Самый простой способ настроить Skype для бизнеса Server в качестве партнерского приложения с Exchange Server 2016 или Exchange Server 2013 — запустить сценарий Configure-EnterprisePartnerApplication.ps1, который Windows PowerShell вместе с Exchange Server. Чтобы запустить этот сценарий, необходимо предоставить URL-адрес для документа метаданных проверки подлинности Skype для бизнеса Server; Обычно это полное доменное имя пула Skype для бизнеса Server, за которым следует суффикс /metadata/json/1. Например:
+Самый простой способ настроить Skype для бизнеса Server в качестве партнерского приложения с Exchange Server 2016 или Exchange Server 2013 — запустить сценарий Configure-EnterprisePartnerApplication.ps1, который Windows PowerShell вместе с Exchange Server. Чтобы запустить этот сценарий, необходимо предоставить URL-адрес для документа метаданных проверки подлинности Skype для бизнеса Server; Обычно это полное доменное имя пула Skype для бизнеса Server, за которым следует суффикс /metadata/json/1. Пример:
   
 ```console
 https://atl-cs-001.litwareinc.com/metadata/json/1
 ```
 
-Чтобы настроить Skype для бизнеса Server в качестве партнерского приложения, откройте командную оболочку Exchange и запустите команду, аналогичную этой (предполагается, что Exchange установлен на дискЕ C: и использует путь к папке по умолчанию):
+Чтобы настроить Skype для бизнеса Server в качестве партнерского приложения, откройте командную оболочку Exchange и запустите команду, аналогичную этой (предполагается, что Exchange установлен на диске C: и использует путь к папке по умолчанию):
   
 ```powershell
 "C:\Program Files\Microsoft\Exchange Server\V15\Scripts\Configure-EnterprisePartnerApplication.ps1 -AuthMetaDataUrl 'https://atl-cs-001.litwareinc.com/metadata/json/1' -ApplicationType Lync"
@@ -55,13 +55,13 @@ iisreset atl-exchange-001
   
 ## <a name="configuring-exchange-server-to-be-a-partner-application-for-skype-for-business-server"></a>Настройка Exchange Server в качестве партнерского приложения для Skype для бизнеса Server
 
-После настройки Skype для бизнеса Server в качестве партнерского приложения для Exchange Server 2016 или Exchange Server 2013 необходимо настроить Exchange Server в качестве партнерского приложения для Skype для бизнеса Server. Это можно сделать с помощью оболочки управления Skype для бизнеса Server и указания документа метаданных проверки подлинности для Exchange; Обычно это URI службы автообнаружия Exchange, за которым следует суффикс /metadata/json/1. Например:
+После настройки Skype для бизнеса Server в качестве партнерского приложения для Exchange Server 2016 или Exchange Server 2013 необходимо настроить Exchange Server в качестве партнерского приложения для Skype для бизнеса Server. Это можно сделать с помощью оболочки управления Skype для бизнеса Server и указания документа метаданных проверки подлинности для Exchange; Обычно это URI службы автообнаружия Exchange, за которым следует суффикс /metadata/json/1. Пример:
   
 ```console
 https://autodiscover.litwareinc.com/autodiscover/metadata/json/1
 ```
 
-В Skype для бизнеса Server партнерские приложения настраиваются с помощью [cmdlet New-CsPartnerApplication.](https://docs.microsoft.com/powershell/module/skype/new-cspartnerapplication?view=skype-ps) Помимо указания URI метаданных, необходимо также задать для уровня доверия приложения полное; Это позволит Exchange представлять как самого себя, так и любого авторизованного пользователя в области. Например:
+В Skype для бизнеса Server партнерские приложения настраиваются с помощью [cmdlet New-CsPartnerApplication.](https://docs.microsoft.com/powershell/module/skype/new-cspartnerapplication?view=skype-ps) Помимо указания URI метаданных необходимо также задать для уровня доверия приложения полное; Это позволит Exchange представлять как самого себя, так и любого авторизованного пользователя в области. Пример:
   
 ```powershell
 New-CsPartnerApplication -Identity Exchange -ApplicationTrustLevel Full -MetadataUrl "https://autodiscover.litwareinc.com/autodiscover/metadata/json/1"

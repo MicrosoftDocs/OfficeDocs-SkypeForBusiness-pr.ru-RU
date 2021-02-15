@@ -29,7 +29,7 @@ ms.locfileid: "49832849"
 
 ## <a name="description"></a>Описание
 
-По умолчанию только администраторы домена могут включить топологию Skype для бизнеса Server и внести существенные изменения в инфраструктуру Skype для бизнеса Server. This won't be a problem as long as your domain administrators and your Skype for Business Server administrators are one and the same. Во многих организациях администраторы Skype для бизнеса Server не имеют административных прав на весь домен. По умолчанию это означает, что эти администраторы (определенные как участники группы RTCUniversalServerAdmins) не могут вносить изменения в топологию Skype для бизнеса Server. Чтобы предоставить членам группы RTCUniversalServerAdmins право на внесение изменений в топологию, необходимо назначить необходимые разрешения Active Directory с помощью команды [Grant-CsSetupPermission.](https://docs.microsoft.com/powershell/module/skype/Grant-CsSetupPermission)
+По умолчанию только администраторы домена могут включить топологию Skype для бизнеса Server и внести существенные изменения в инфраструктуру Skype для бизнеса Server. This won't be a problem as long as your domain administrators and your Skype for Business Server administrators are one and the same. Во многих организациях администраторы Skype для бизнеса Server не имеют административных прав на весь домен. По умолчанию это означает, что эти администраторы (определенные как участники группы RTCUniversalServerAdmins) не могут вносить изменения в топологию Skype для бизнеса Server. Чтобы предоставить участникам группы RTCUniversalServerAdmins право на внесение изменений в топологию, необходимо назначить необходимые разрешения Active Directory с помощью команды [Grant-CsSetupPermission.](https://docs.microsoft.com/powershell/module/skype/Grant-CsSetupPermission)
  
 Этот Test-CsSetupPermission проверяет, настроены ли необходимые разрешения для установки Skype для бизнеса Server или одного из его компонентов в указанном контейнере Active Directory. Если разрешения не назначены, можно запустить Grant-CsSetupPermission, чтобы предоставить участникам группы RTCUniversalServerAdmins право на установку и разрешение Skype для бизнеса Server.
 
@@ -43,17 +43,17 @@ ms.locfileid: "49832849"
 
 ## <a name="determining-success-or-failure"></a>Определение успешности или сбоя
 
-Если Test-CsSetupPermission определяет, что необходимые разрешения уже установлены для контейнера Active Directory, то он возвращает значение True:
+Если Test-CsSetupPermission, что необходимые разрешения уже установлены для контейнера Active Directory, то он возвращает значение True:
 
 Верно 
 
-Если разрешения не за установлены, Test-CsSetupPermission возвращает значение False. Обратите внимание, что это значение обычно заключено во множество предупреждений. Например:
+Если разрешения не за установлены, Test-CsSetupPermission возвращает значение False. Обратите внимание, что это значение обычно заключено во множество предупреждений. Пример:
 
 ПРЕДУПРЕЖДЕНИЕ: запись управления доступом (ACE) atl-cs-001\RTCUniversalServerAdmins; Разрешить; ExtendedRight; Нет; Нет; 1131f6aa-9c07-11d1-f79f-00c04fc2dcd2 
 
 ПРЕДУПРЕЖДЕНИЕ. Элементы управления доступом (AES) в объекте "CN=Computers,DC=litwareinc,DC=com" не готовы. 
 
-False 
+Неверно 
 
 ПРЕДУПРЕЖДЕНИЕ: обработка Test-CsSetupPermission завершена с предупреждениями. Во время этого запуска были записаны предупреждения "2". 
 
@@ -61,7 +61,7 @@ False
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Причины, по которым мог произойть сбой теста
 
-Хотя существуют редкие исключения, Test-CsSetupPermission сбой, что обычно означает, что разрешения на установку не назначены для указанного контейнера Active Directory. Эти разрешения могут быть назначены с помощью Grant-CsSetupPermission управления. Например, эта команда предоставляет разрешения на установку контейнеру Computers в домене litwareinc.com:
+Хотя существуют редкие исключения, Test-CsSetupPermission не удается, что обычно означает, что разрешения на установку не назначены для указанного контейнера Active Directory. Эти разрешения могут быть назначены с помощью Grant-CsSetupPermission управления. Например, эта команда предоставляет разрешения на установку контейнеру Computers в домене litwareinc.com:
 
 `Grant-CsSetupPermission -ComputerOU "cn=Computers,dc=litwareinc,dc=com"`
 

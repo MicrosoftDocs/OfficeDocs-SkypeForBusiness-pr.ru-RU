@@ -28,7 +28,7 @@ ms.locfileid: "49835159"
 Служба централизованного ведения журналов управляется и настраивается параметрами, созданными и используемыми контроллером централизованной службы ведения журналов (CLSController) для отправки команд агенту централизованной службы ведения журналов (CLSAgent) отдельного компьютера. Агент обрабатывает команды, которые ему отправляются, и (в случае команды "Начните") использует конфигурацию сценариев, поставщиков, продолжительность трассировки и флаги, чтобы начать собирать журналы трассировки в соответствии с предоставленными сведениями о конфигурации.
 
 > [!IMPORTANT]
->  Не все Windows PowerShell, перечисленные для службы централизованного ведения журналов, предназначены для локального развертывания Skype для бизнеса Server 2015. Несмотря на то что они могут показаться работоудаными, следующие cmdlets не предназначены для работы с локальной развертыванием Skype для бизнеса Server 2015:
+>  Не все Windows PowerShell, перечисленные для службы централизованного ведения журналов, предназначены для локального развертывания Skype для бизнеса Server 2015. Несмотря на то что они могут показаться работоудаными, следующие cmdlets не предназначены для работы с локального развертывания Skype для бизнеса Server 2015:
 
 -  **CsClsRegion cmdlets:** [Get-CsClsRegion,](https://docs.microsoft.com/powershell/module/skype/get-csclsregion?view=skype-ps) [Set-CsClsRegion,](https://docs.microsoft.com/powershell/module/skype/set-csclsregion?view=skype-ps) [New-CsClsRegion](https://docs.microsoft.com/powershell/module/skype/new-csclsregion?view=skype-ps)и [Remove-CsClsRegion](https://docs.microsoft.com/powershell/module/skype/remove-csclsregion?view=skype-ps).
 -  **Командлеты CsClsSearchTerm:** [Get-CsClsSearchTerm](https://docs.microsoft.com/powershell/module/skype/get-csclssearchterm?view=skype-ps) и [Set-CsClsSearchTerm](https://docs.microsoft.com/powershell/module/skype/set-csclssearchterm?view=skype-ps).
@@ -38,20 +38,20 @@ ms.locfileid: "49835159"
 
 Централизованную службу ведения журналов можно запустить в области, которая включает один компьютер или пул компьютеров, на уровне сайта (то есть на определенном сайте, например на сайте Redmond, который содержит коллекцию компьютеров и пулов в развертывании) или на глобальном уровне (то есть на всех компьютерах и пулах в развертывании).
 
-Чтобы настроить область службы централизованного ведения журналов с помощью оболочки управления Skype для бизнеса Server, необходимо быть участником групп безопасности управления доступом на основе ролей (RBAC) CsAdministrator или CsServerAdministrator или настраиваемой роли RBAC, которая содержит какую-либо из этих двух групп. Чтобы получить список всех ролей RBAC, которые были назначены этому командлету (включая все самостоятельно созданные роли RBAC), запустите следующую команду в командной Windows PowerShell Командная Windows PowerShell Skype для бизнеса Server:
+Чтобы настроить область службы централизованного ведения журналов с помощью оболочки управления Skype для бизнеса Server, необходимо быть участником групп безопасности управления доступом на основе ролей (RBAC) CsAdministrator или CsServerAdministrator, а также настраиваемой роли RBAC, которая содержит какую-либо из этих двух групп. Чтобы получить список всех ролей RBAC, которые были назначены этому командлету (включая все самостоятельно созданные роли RBAC), запустите следующую команду в командной Windows PowerShell Командная Windows PowerShell Skype для бизнеса Server:
 
 ```PowerShell
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "<Skype for Business cmdlet>"}
 ```
 
-Например:
+Пример:
 
 ```PowerShell
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 ```
 
 > [!NOTE]
-> Существуют фундаментальные различия между командами командной строки, которые можно выполнить в Windows PowerShell clSController. Windows PowerShell предоставляет богатый метод для настройки и определения сценариев, а также для эффективного использования этих сценариев для сценариев устранения неполадок. Хотя CLSController позволяет быстро и эффективно выполнять команды и получать результаты, набор команд этого средства ограничен командами, доступными из командной строки. В отличие от Windows PowerShell командлетов CLSController не может определять новые сценарии, управлять областью на уровне сайта или на глобальном уровне и многими другими ограничениями ограниченного набора команд, который невозможно динамически настроить. Хотя CLSController предоставляет средства для быстрого выполнения, Windows PowerShell предоставляет средства для расширения функций службы централизованного ведения журналов за пределами возможностей CLSController.
+> Существуют фундаментальные различия между командами командной строки, которые можно выполнить в Windows PowerShell clSController. Windows PowerShell предоставляет богатый метод для настройки и определения сценариев, а также для эффективного использования этих сценариев для сценариев устранения неполадок. Хотя CLSController позволяет быстро и эффективно выполнять команды и получать результаты, набор команд этого средства ограничен командами, доступными из командной строки. В отличие от Windows PowerShell командлетов CLSController не может определять новые сценарии, управлять областью на уровне сайта или на глобальном уровне и многими другими ограничениями ограниченного набора команд, который не может быть динамически настроен. Хотя CLSController предоставляет средства для быстрого выполнения, Windows PowerShell предоставляет средства для расширения функций централизованной службы ведения журналов за пределами возможностей CLSController.
 
 Область одного компьютера может быть определена во время выполнения команды [Search-CsClsLogging,](https://docs.microsoft.com/powershell/module/skype/search-csclslogging?view=skype-ps) [Show-CsClsLogging,](https://docs.microsoft.com/powershell/module/skype/show-csclslogging?view=skype-ps) [Start-CsClsLogging,](https://docs.microsoft.com/powershell/module/skype/start-csclslogging?view=skype-ps) [Stop-CsClsLogging,](https://docs.microsoft.com/powershell/module/skype/stop-csclslogging?view=skype-ps) [Sync-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/sync-csclslogging?view=skype-ps) и [Update-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/update-csclslogging?view=skype-ps) с помощью параметра -Computers. Параметр -Computers принимает разделенный запятой список полного доменного имени (FQDNs) для целевого компьютера.
 
@@ -61,7 +61,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 Области сайта и глобальные области определяются в cmdlets **New-**, **Set-** и **Remove-Centralized** Logging Service. В следующих примерах показано, как задать область сайта и глобальную область.
 
 > [!IMPORTANT]
-> Показанные команды могут содержать параметры и концепции, описанные в других разделах. Примеры команд предназначены для демонстрации использования параметра **-Identity** для определения области, а остальные параметры включаются для полноты и для указания области. Дополнительные сведения о командлетах **Set-CsClsConfiguration** см. в описании командлета [Set-CsClsConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csclsconfiguration?view=skype-ps) в документации по применению.
+> Показанные команды могут содержать параметры и концепции, описанные в других разделах. Примеры команд предназначены для демонстрации использования параметра **-Identity** для определения области, а остальные параметры включаются для полноты и указания области. Дополнительные сведения о командлетах **Set-CsClsConfiguration** см. в описании командлета [Set-CsClsConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csclsconfiguration?view=skype-ps) в документации по применению.
 
 ### <a name="to-retrieve-the-current-centralized-logging-service-configuration"></a>Извлечение текущей конфигурации службы централизованного ведения журналов
 
@@ -73,7 +73,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
    Get-CsClsConfiguration
    ```
 
-Используйте для создания новой конфигурации или обновления существующей конфигурации с помощью cmdlets **New-CsClsConfiguration** и **Set-CsClsConfiguration.** При запуске **Get-CsClsConfiguration** отображается информация, аналогичная показанной на следующем снимке экрана, где в настоящее время в развертывании установлена глобальная конфигурация по умолчанию, но конфигурации сайта не определены:
+Используйте для создания новой конфигурации или обновления существующей конфигурации с помощью cmdlets **New-CsClsConfiguration** и **Set-CsClsConfiguration.** При запуске **Get-CsClsConfiguration** отображаются сведения, похожие на следующие снимки экрана, где в развертывании в настоящее время установлена глобальная конфигурация по умолчанию, но конфигурации сайта не определены:
 
 ![Пример выходных данных из get-CsClsConfiguration.](../../media/Ops_Get-CsClsConfiguration_Basic.jpg)
 
@@ -153,7 +153,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
    ```
 
     > [!NOTE]
-    > Командлет New-CsClsConfiguration предоставляет доступ к большому количеству необязательных параметров конфигурации. Подробные сведения о параметрах конфигурации см. в настройках [get-CsClsConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csclsconfiguration?view=skype-ps) и [Understanding Centralized Logging Service Configuration Settings.](https://technet.microsoft.com/library/3c34e600-0b91-43dc-b4cc-90b6a70ee12e.aspx)
+    > Командлет New-CsClsConfiguration предоставляет доступ к большому количеству необязательных параметров конфигурации. Подробные сведения о параметрах конфигурации см. в настройках [Get-CsClsConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csclsconfiguration?view=skype-ps) и [Understanding Centralized Logging Service Configuration Settings.](https://technet.microsoft.com/library/3c34e600-0b91-43dc-b4cc-90b6a70ee12e.aspx)
 
 Например, для создания новой конфигурации, которая определяет сетевую папку для файлов кэша, а также период и размер переключения для файлов журнала, введите следующую команду:
 

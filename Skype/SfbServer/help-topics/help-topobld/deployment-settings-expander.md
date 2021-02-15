@@ -73,7 +73,7 @@ ms.locfileid: "49835369"
 > [!IMPORTANT]
 > После определения, опубликовано ли и развернуто центральное хранилище управления для инфраструктуры, невозможно изменить местоположение центрального хранилища управления без переноса этого хранилище на другой интерфейсный сервер для внешней обработки.
 
-Подробные сведения о перемещении центрального хранения управления см. в справочнике по Windows PowerShell [Move-CsManagementServer.](https://docs.microsoft.com/powershell/module/skype/move-csmanagementserver?view=skype-ps)
+Подробные сведения о перемещении центрального банка управления см. в справочнике по Windows PowerShell [move-CsManagementServer.](https://docs.microsoft.com/powershell/module/skype/move-csmanagementserver?view=skype-ps)
 
 ## <a name="see-also"></a>См. также
 

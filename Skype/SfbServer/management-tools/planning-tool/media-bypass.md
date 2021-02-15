@@ -1,5 +1,5 @@
 ---
-title: Обход мультимедиа (средство планирования)
+title: Обход посредника (средство планирования)
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -21,7 +21,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49834526"
 ---
-# <a name="media-bypass-planning-tool"></a>Обход мультимедиа (средство планирования)
+# <a name="media-bypass-planning-tool"></a>Обход посредника (средство планирования)
  
 Обход сервера-посредника означает исключение сервера-посредника из пути (когда это возможно) для звонков, сигналы которых проходят через сервер-посредник. For more details, see [Plan for media bypass in Skype for Business 2015](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md).
   

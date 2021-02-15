@@ -35,7 +35,7 @@ ms.locfileid: "49833979"
 
 - Сочетания клавиш для процедур, описанных в этой статье, приведены в статье [Сочетания клавиш в Центре администрирования Exchange]( https://go.microsoft.com/fwlink/p/?LinkId=746512).
 
-- Сведения о совместимости см. в сведениях [о совместимости Skype для бизнеса с приложениями Office.](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/compatibility-with-office)
+- Сведения о совместимости см. в сведениях о совместимости Skype для [бизнеса с приложениями Office.](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/compatibility-with-office)
 
 ## <a name="configure-integration-between-exchange-server-and-o365"></a>Настройка интеграции между Exchange Server и O365
 
@@ -49,7 +49,7 @@ ms.locfileid: "49833979"
 
 Это делается на сервере Exchange Server. Он создаст пользователя почты и назначит ему соответствующие права роли управления. Эта учетная запись будет использоваться на следующем этапе.
 
-Укажите проверенный домен для организации Exchange. Этот домен должен быть тем же доменом, который используется в качестве основного домена SMTP, используемого для учетных записей локальной exchange. Этот домен называется в \<your Verified Domain\> следующей процедуре. Кроме того, \<DomainControllerFQDN\> должно быть FQDN контроллера домена.
+Укажите проверенный домен для организации Exchange. Этот домен должен быть тем же доменом, который используется в качестве основного домена SMTP, используемого для учетных записей локальной exchange. Этот домен называется в \<your Verified Domain\> следующей процедуре. Кроме того, \<DomainControllerFQDN\> это должно быть FQDN контроллера домена.
 
 ```powershell
 $user = New-MailUser -Name SfBOnline-ApplicationAccount -ExternalEmailAddress SfBOnline-ApplicationAccount@<your Verified Domain> -DomainController <DomainControllerFQDN>
@@ -81,7 +81,7 @@ New-PartnerApplication -Name SfBOnline -ApplicationIdentifier 00000004-0000-0ff1
 
 ### <a name="step-4-export-the-on-premises-authorization-certificate"></a>Шаг 4. Экспорт локального сертификата авторизации
 
-Запустите сценарий PowerShell, чтобы экспортировать сертификат локальной авторизации, который будет импортироваться в организацию Skype для бизнеса Online на следующем этапе.
+Запустите сценарий PowerShell, чтобы экспортировать сертификат локальной авторизации, который будет импортироваться в организацию Skype для бизнеса Online на следующем шаге.
 
 Сохраните следующий текст в файл сценария PowerShell с именем ExportAuthCert.ps1.
 
@@ -128,7 +128,7 @@ $CertFile = "$env:SYSTEMDRIVE\OAuthConfig\OAuthCert.cer"
 
 4. После запуска сценария откроется диалоговое окно учетных данных. Введите учетные данные для учетной записи администратора клиента вашей организации Microsoft Online Azure AD. После выполнения сценария оставьте сеанс Windows PowerShell для Azure AD открытым. Он понадобится для запуска сценария PowerShell на следующем этапе.
 
-### <a name="step-6-verify-that-the-certificate-has-uploaded-to-the-skype-for-business-service-principal"></a>Шаг 6. Проверка отправки сертификата в основное приложение-службу Skype для бизнеса
+### <a name="step-6-verify-that-the-certificate-has-uploaded-to-the-skype-for-business-service-principal"></a>Шаг 6. Убедитесь, что сертификат загружен в основное приложение-службу Skype для бизнеса
 1. В powerShell, открытой и с проверкой подлинности в Azure Active Directory, запустите следующую
 ```powershell
 Get-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-000000000000
@@ -138,7 +138,7 @@ Get-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-00000
 
 ### <a name="verify-your-success"></a>Проверка успешности
 
-Убедитесь, что конфигурация правильна, проверив, что некоторые функции работают успешно. 
+Проверьте правильность конфигурации, проверив, что некоторые функции работают успешно. 
 
 1. Подтвердим, что пользователи Skype для бизнеса со службой облачной голосовой почты в организации с гибридной конфигурацией Exchange Server могут успешно изменить приветствия голосовой почты.
 
@@ -150,7 +150,7 @@ Get-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-00000
 
 Если вы хотите убедиться, что вы успешно используете OAuth, убедитесь, что вы знаете, чего ожидать, и как должен выглядеть трафик. Вот чего [ожидать.](https://tools.ietf.org/html/draft-ietf-oauth-v2-23#page-34)Вот довольно стандартный пример трафика [OAuth](https://download.microsoft.com/download/8/5/8/858F2155-D48D-4C68-9205-29460FD7698F/[MS-SPS2SAUTH].pdf)  в приложении Майкрософт (действительно полезно читать, хотя в нем не используются маркеры обновления), и существуют расширения Fiddler, которые будут позволять вам посмотреть на ваш OAuth JWT (веб-маркер JSON).
 
-Вот пример настройки, [но](https://blogs.msdn.microsoft.com/kaevans/2015/03/30/updated-fiddler-oauth-inspector/)вы можете использовать любое средство сетевой трассии, чтобы предпринять этот процесс.
+Вот пример [настройки,](https://blogs.msdn.microsoft.com/kaevans/2015/03/30/updated-fiddler-oauth-inspector/)но вы можете использовать любое средство сетевой трассиации, для этого необходимо.
 
 ## <a name="related-topics"></a>Статьи по теме
 

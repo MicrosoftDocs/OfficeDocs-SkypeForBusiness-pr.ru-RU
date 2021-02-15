@@ -14,7 +14,7 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c9c43d46-374e-4dc9-858c-54a021b69947
 ROBOTS: NOINDEX, NOFOLLOW
-description: Во внешнем IPv6-адресе введите внешний IP-адрес, который указывает на побереговую службу доступа, по краям веб-служб и службу A/V Edge.
+description: Во внешнем IPv6-адресе введите внешний IP-адрес, который указывает на службу доступа, поехавную службу веб-служб и службу A/V Edge.
 ms.openlocfilehash: a800d550ec95f363c358e30fcbb2541b8c311c4b
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT

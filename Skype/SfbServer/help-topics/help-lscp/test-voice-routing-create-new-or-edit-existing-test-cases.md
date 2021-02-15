@@ -30,5 +30,5 @@ UNRESOLVED_TOKEN_VAL(bigfin_UI_help_intro)
 
 - [Запуск тестовых примеров маршрутизации голосовой связи](https://technet.microsoft.com/library/fb4d32df-b9ea-4944-8cd7-a6102c78c465.aspx)
 
-For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).
+Подробные сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнеса Server, см. в под управлением Skype для бизнеса [Server 2015.](../../manage/manage.md)
 

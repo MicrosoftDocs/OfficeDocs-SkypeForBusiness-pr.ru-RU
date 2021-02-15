@@ -23,14 +23,14 @@ ms.locfileid: "49835189"
 ---
 # <a name="configure-scenarios-for-the-centralized-logging-service-in-skype-for-business-server-2015"></a>Настройка сценариев для службы централизованного ведения журналов в Skype для бизнеса Server 2015
  
-**Сводка:** Learn how to create, modify, and remove scenarios for the Centralized Logging Service in Skype for Business Server 2015.
+**Сводка:** Узнайте, как создавать, изменять и удалять сценарии для службы централизованного ведения журналов в Skype для бизнеса Server 2015.
   
 Сценарии определяют область (глобальную область, сайт, пул или компьютер) и поставщиков, которые будут использовать в службе централизованного ведения журналов. С помощью сценариев вы включаете и отключаете трассировку поставщиков (например, S4, SIPStack, мгновенных сообщений и сведений о присутствии). Настроив сценарий вы можете сгруппировать все поставщики заданной логической коллекции, которые решают определенную проблему. Если вы нашли, что сценарий необходимо изменить для устранения неполадок и ведения журнала, средства отладки Skype для бизнеса Server 2015 предоставляют модуль Windows PowerShell с именем ClsScenarioEdit.psm1, содержащий функцию с именемEdit-CsClsScenario. Предназначение этого модуля — изменение свойств именованного сценария. Примеры работы этого модуля представлены в этом разделе. Скачайте средства отладки Skype [](https://go.microsoft.com/fwlink/p/?LinkId=285257) для бизнеса Server 2015, прежде чем ходить дальше.
   
 > [!IMPORTANT]
-> Для любой области действия (глобальной, области узла, пула и компьютера) одновременно можно использовать не больше двух сценариев. Чтобы определить, какие сценарии уже запущены, используйте Windows PowerShell [и Get-CsClsScenario.](https://docs.microsoft.com/powershell/module/skype/get-csclsscenario?view=skype-ps) С помощью Windows PowerShell [и Set-CsClsScenario](https://docs.microsoft.com/powershell/module/skype/set-csclsscenario?view=skype-ps)вы можете динамически изменять запущенные сценарии. Это можно сделать во время сеанса ведения журнала, чтобы скорректировать собираемые данные и поставщиков, от которых они собираются. 
+> Для любой области действия (глобальной, области узла, пула и компьютера) одновременно можно использовать не больше двух сценариев. Чтобы определить, какие сценарии уже запущены, используйте Windows PowerShell [и Get-CsClsScenario.](https://docs.microsoft.com/powershell/module/skype/get-csclsscenario?view=skype-ps) С помощью Windows PowerShell [и Set-CsClsScenario](https://docs.microsoft.com/powershell/module/skype/set-csclsscenario?view=skype-ps)можно динамически изменять запущенные сценарии. Это можно сделать во время сеанса ведения журнала, чтобы скорректировать собираемые данные и поставщиков, от которых они собираются. 
   
-Чтобы запустить функции службы централизованного ведения журналов с помощью оболочки управления Skype для бизнеса Server, необходимо быть участником групп безопасности управления доступом на основе ролей (RBAC) CsAdministrator или CsServerAdministrator или настраиваемой роли RBAC, которая содержит какую-либо из этих двух групп. Чтобы получить список всех ролей RBAC, которые были назначены этому командлету, включая все самостоятельно созданные роли RBAC, запустите следующую команду в командной Windows PowerShell Командная Windows PowerShell Skype для бизнеса Server:
+Для запуска функций службы централизованного ведения журналов с помощью оболочки управления Skype для бизнеса Server необходимо быть участником групп безопасности управления доступом на основе ролей (RBAC) CsAdministrator или CsServerAdministrator, а также настраиваемой роли RBAC, которая содержит какую-либо из этих двух групп. Чтобы получить список всех ролей RBAC, которые были назначены этому командлету, включая все самостоятельно созданные роли RBAC, запустите следующую команду в командной Windows PowerShell Командная Windows PowerShell Skype для бизнеса Server:
   
 ```PowerShell
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Skype for Business Server 2015 cmdlet"}
@@ -44,7 +44,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
 Остальная часть этого раздела посвящена определению сценария, изменению сценария, получению сведений о выполняемых сценариях, удалению сценария указанию содержимого сценария для оптимизации устранения неполадок. Для выдачи Windows PowerShell команд можно использовать командную Windows PowerShell Skype для бизнеса Server. При использовании Windows PowerShell можно определить новые сценарии для использования в сеансах ведения журнала.
   
-В службе централизованного ведения журналов в Skype для бизнеса [2015](centralized-logging-service.md)представлены элементы сценария:
+Как было введено в службе централизованного ведения журналов в Skype для бизнеса [2015,](centralized-logging-service.md)сценарий представлен в таких элементах:
   
 - **Поставщики** Если вы знакомы с OCSLogger, поставщики — это компоненты, из каких компонентов OCSLogger должен собирать журналы. Поставщики — это те же компоненты, а во многих случаях их имя совпадает с компонентами в OCSLogger. Если вы не знакомы с OCSLogger, поставщики — это компоненты роли сервера, из которые централизованная служба ведения журналов может собирать журналы. Подробные сведения о конфигурации поставщиков см. в сведениях о настройке поставщиков для службы централизованного ведения журналов [в Skype для бизнеса Server 2015.](configure-providers.md)
     
@@ -59,7 +59,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
 1. Запустите оболочку управления Skype для бизнеса Server: нажмите кнопку "Начните", выберите "Все программы", "Skype для бизнеса **2015",** а затем щелкните "Skype для бизнеса Server Management **Shell".**
     
-2. Чтобы создать новый сценарий для сеанса ведения журнала, используйте [New-CsClsProvider](https://docs.microsoft.com/powershell/module/skype/new-csclsprovider?view=skype-ps) и определите имя сценария (то есть, как он будет уникальным образом определен). Выберите тип формата ведения журнала в WPP (то есть в качестве препроцессора программной трасситуры Windows по умолчанию), EventLog (то есть в формате журнала событий Windows) или IISLog (то есть в формате ASCII на основе формата файла журнала IIS). Затем определите уровень (как определено в разделе "Уровни ведения журнала" в этом разделе) и флаги (как определено в разделе "Флаги" в этом разделе).
+2. Чтобы создать новый сценарий для сеанса ведения журнала, используйте [New-CsClsProvider](https://docs.microsoft.com/powershell/module/skype/new-csclsprovider?view=skype-ps) и определите имя сценария (т. е. способ его уникальной идентифицированной). Выберите тип формата ведения журнала в WPP (то есть в предпроцессоре программной трасситуры Windows по умолчанию), EventLog (то есть в формате журнала событий Windows) или IISLog (то есть в формате ASCII на основе формата файла журнала IIS). Затем определите уровень (как определено в разделе "Уровни ведения журнала" в этом разделе) и флаги (как определено в разделе "Флаги" в этом разделе).
     
     Для этого примера сценария мы используем LyssProvider как пример переменной поставщика.
     
@@ -92,7 +92,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
    ```
 
     > [!NOTE]
-    > Как известно в Windows PowerShell, соглашение о создании таблицы значений с использованием hash  `@{<variable>=<value1>, <value2>, <value>…}` называетсяsplatting. Подробные сведения о размещении в Windows PowerShell [https://go.microsoft.com/fwlink/p/?LinkId=267760](https://go.microsoft.com/fwlink/p/?LinkId=267760) см. в . 
+    > Как известно в Windows PowerShell, соглашение о создании таблицы значений с использованием hash  `@{<variable>=<value1>, <value2>, <value>…}` называетсяsplatting. Подробные сведения о размещении в Windows PowerShell см. в [https://go.microsoft.com/fwlink/p/?LinkId=267760](https://go.microsoft.com/fwlink/p/?LinkId=267760) . 
   
 ### <a name="to-modify-an-existing-scenario-with-the-set-csclsscenario-cmdlet"></a>Изменение существующего сценария с помощью командлета Set-CsClsScenario
 
@@ -168,7 +168,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
    ```
 
     > [!TIP]
-    > После успешной выгрузки модуля вы вернетесь в Windows PowerShell командной Windows PowerShell. Чтобы подтвердить выгрузку модуля, введите  `Get-Help Edit-CsClsScenario` . Windows PowerShell попытается найти справку для этого cmdlet и не удастся. 
+    > Успешная выгрузка модуля возвращает вас в Windows PowerShell командной Windows PowerShell. Чтобы подтвердить выгрузку модуля, введите  `Get-Help Edit-CsClsScenario` . Windows PowerShell попытается найти справку для этого cmdlet и не будет работать. 
   
 ### <a name="to-remove-an-existing-provider-from-a-scenario-with-the-edit-clscontroller-module"></a>Удаление существующего поставщика из сценария с помощью командлета Edit-ClsController
 

@@ -26,9 +26,9 @@ ms.locfileid: "49834349"
   
 |**Столбец**|**Тип данных**|**Описание**|
 |:-----|:-----|:-----|
-|SessionTime  <br/> |datetime  <br/> |Ссылка из [таблицы MediaLine.](medialine-0.md)  <br/> |
-|SessionSeq  <br/> |int  <br/> |Ссылка из [таблицы MediaLine.](medialine-0.md)  <br/> |
-|MediaLineLabel  <br/> |tinyint  <br/> |Ссылка из [таблицы MediaLine.](medialine-0.md)  <br/> |
+|SessionTime  <br/> |datetime  <br/> |Ссылка из таблицы [MediaLine.](medialine-0.md)  <br/> |
+|SessionSeq  <br/> |int  <br/> |Ссылка из таблицы [MediaLine.](medialine-0.md)  <br/> |
+|MediaLineLabel  <br/> |tinyint  <br/> |Ссылка из таблицы [MediaLine.](medialine-0.md)  <br/> |
 |StreamId  <br/> |int  <br/> |Уникальный идентификатор в линии мультимедиа.  <br/> |
 |StartTime  <br/> |datetime  <br/> |Время начала сеанса.  <br/> |
 |EndTime  <br/> |datetime  <br/> |Время окончания сеанса.  <br/> |
@@ -41,20 +41,20 @@ ms.locfileid: "49834349"
 |CallerUserAgentType  <br/> |smallint  <br/> |Тип агента пользователя вызываемого пользователя. Подробные сведения см. в таблице [UserAgent.](useragent.md) <br/> |
 |CallerUserAgentCategory  <br/> |nvarchar(64)  <br/> |Категория агента пользователя вызываемого пользователя. Подробные сведения см. в таблице [UserAgentDef (QoE).](useragentdef-qoe.md) <br/> |
 |CalleeUserAgent  <br/> |nvarchar(256)  <br/> |Строка агента пользователя вызываемой.  <br/> |
-|CalleeUserAgentType  <br/> |smallint  <br/> |Тип агента пользователя вызываемого вызываемого пользователя. Сведения [см. в таблице UserAgent.](useragent.md) <br/> |
+|CalleeUserAgentType  <br/> |smallint  <br/> |Тип агента пользователя вызываемого пользователя. Сведения [см. в таблице UserAgent.](useragent.md) <br/> |
 |CalleeUserAgentCategory  <br/> |nvarchar(64)  <br/> |Категория агента пользователя вызываемого пользователя. Сведения [см. в таблице UserAgentDef (QoE).](useragentdef-qoe.md) <br/> |
 |CallerEndpoint  <br/> |nvarchar(256)  <br/> |Имя конечной точки вызываемой точки.  <br/> |
 |CalleeEndpoint  <br/> |nvarchar(256)  <br/> |Имя конечной точки вызываемой.  <br/> |
-|CallerOS  <br/> |nvarchar(128)  <br/> |Операционная система конечной точки вызываемого.  <br/> |
+|CallerOS  <br/> |nvarchar(128)  <br/> |Операционная система конечной точки вызываемого вызываемого.  <br/> |
 |CalleeOS  <br/> |nvarchar(128)  <br/> |Операционная система конечной точки вызываемого вызываемого.  <br/> |
 |CallerCPUName  <br/> |nvarchar(128)  <br/> |Имя ЦП конечной точки вызываемого вызываемого.  <br/> |
 |CalleeCPUName  <br/> |nvarchar(128)  <br/> |Имя ЦП конечной точки вызываемого вызываемого.  <br/> |
 |CallerCPUNumberOfCores  <br/> |smallint  <br/> |Количество ядер ЦП конечной точки вызываемого вызываемого.  <br/> |
 |CalleeCPUNumberOfCores  <br/> |smallint  <br/> |Количество ядер ЦП конечной точки вызываемого вызываемого.  <br/> |
-|CallerCPUProcessorSpeed  <br/> |int  <br/> |Скорость процессора ЦП конечной точки вызываемого вызываемого.  <br/> |
+|CallerCPUProcessorSpeed  <br/> |int  <br/> |Скорость процессора ЦП конечной точки вызываемого вызываемого процессора.  <br/> |
 |CalleeCPUProcessorSpeed  <br/> |int  <br/> |Скорость процессора ЦП конечной точки вызываемого вызываемого.  <br/> |
 |CallerVirtualizationFlag  <br/> |tinyint  <br/> |Указывает, запущена ли система вызываемого в виртуализированной среде. Дополнительные сведения см. в таблице [Endpoint.](endpoint.md) <br/> |
-|CalleeVirtualizationFlag  <br/> |tinyint  <br/> |Указывает, запущена ли система вызываемого вызываемого в виртуализированной среде. Дополнительные сведения см. в таблице [Endpoint.](endpoint.md) <br/> |
+|CalleeVirtualizationFlag  <br/> |tinyint  <br/> |Указывает, работает ли система вызываемого вызываемого в виртуализированной среде. Дополнительные сведения см. в таблице [Endpoint.](endpoint.md) <br/> |
 |ConnectivityIce  <br/> |tinyint  <br/> |Информация о пути к носителю, например прямой или с ретрансляцией. Дополнительные сведения см. в таблице [MediaLine.](medialine-0.md) <br/> |
 |CallerIceWarningFlags  <br/> |int  <br/> |Сведения о технологии ICE (Interactive Connectivity Establishment), описанные в битовых флагах, для вызывающего абонента. Дополнительные сведения см. в спецификации протокола сервера мониторинга качества взаимодействия.  <br/> |
 |CalleeIceWarningFlags  <br/> |int  <br/> |Сведения о технологии ICE (Interactive Connectivity Establishment), описанные в битовых флагах, для вызываемого абонента. Дополнительные сведения см. в спецификации протокола сервера мониторинга качества взаимодействия.  <br/> |

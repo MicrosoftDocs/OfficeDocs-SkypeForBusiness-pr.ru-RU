@@ -28,7 +28,7 @@ ms.locfileid: "49833919"
 > Комнаты Microsoft Teams — это другой продукт с разными зависимостями и процедурами развертывания. Сведения о комнатах Microsoft Teams см. в обзоре развертывания комнат Microsoft [Teams.](room-systems-v2.md)
   
 > [!NOTE]
-> Подготовка учетной записи системы комнат Skype зависит от типа топологии в организации. Чтобы узнать больше о topologies Active Directory, см. требования к среде [для Skype для бизнеса Server 2015.](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) 
+> Подготовка учетной записи системы комнат Skype зависит от типа топологии, которая имеется в организации. Чтобы узнать больше о topologies Active Directory, см. требования к среде [для Skype для бизнеса Server 2015.](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) 
   
 ## <a name="provisioning-of-skype-room-system-exchange-amp-skype-for-business-accounts"></a>Подготовка учетных записей Skype для бизнеса в системе комнат &amp; Skype для бизнеса
 

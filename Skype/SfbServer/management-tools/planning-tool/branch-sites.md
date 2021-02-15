@@ -23,6 +23,6 @@ ms.locfileid: "49835029"
 ---
 # <a name="branch-sites-planning-tool"></a>Сайты филиалов (средство планирования)
 
-Подробные сведения о устойчивости сайта филиала см. в Branch-Site Планировании устойчивости [голосовой почты.](https://technet.microsoft.com/library/67713f57-3ded-4127-ac37-57d8099bf384.aspx)
+Подробные сведения о устойчивости сайта филиала см. в Branch-Site [.](https://technet.microsoft.com/library/67713f57-3ded-4127-ac37-57d8099bf384.aspx)
 
 
