@@ -28,7 +28,7 @@ ms.locfileid: "49831699"
 |:-----|:-----|:-----|
 |UserId  <br/> |int  <br/> |Уникальный номер, идентифицирующий этого пользователя.  <br/> |
 |UserUri  <br/> |nvarchar(450)  <br/> |URI пользователя.  <br/> |
-|TenantKey  <br/> |uniqueidentifier  <br/> |Клиент пользователя. Дополнительные [сведения см. в](tenants.md) таблице Tenants. <br/> |
+|TenantKey  <br/> |uniqueidentifier  <br/> |Клиент пользователя. Дополнительные [сведения см.](tenants.md) в таблице Tenants. <br/> |
 |UriType  <br/> |nvarchar(256)  <br/> |Тип URI пользователя. Дополнительные сведения см. в таблице [UriTypes.](uritypes.md) <br/> |
    
 

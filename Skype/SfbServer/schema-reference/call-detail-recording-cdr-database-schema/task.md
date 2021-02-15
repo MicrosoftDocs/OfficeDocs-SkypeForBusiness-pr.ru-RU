@@ -1,5 +1,5 @@
 ---
-title: Таблица задач
+title: Таблица Task
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -20,7 +20,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49831729"
 ---
-# <a name="task-table"></a>Таблица задач
+# <a name="task-table"></a>Таблица Task
  
 Таблица задач предназначена только для внутреннего использования. Эта таблица была представлена в Microsoft Lync Server 2013.
   

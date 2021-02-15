@@ -14,7 +14,7 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 91423153-746a-4f8a-9c7f-4102d3fdbb8a
 ROBOTS: NOINDEX, NOFOLLOW
-description: Пул следующего прыжка сохраняемой беседы настраивается путем выбора в списке сервера переднего или переднего сервера.
+description: Пул следующего прыжка сохраняемой беседы настраивается путем выбора сервера переднего или переднего сервера в списке.
 ms.openlocfilehash: a0594f59cd3f9b1846c8a996e813dc7f6acb89c6
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT

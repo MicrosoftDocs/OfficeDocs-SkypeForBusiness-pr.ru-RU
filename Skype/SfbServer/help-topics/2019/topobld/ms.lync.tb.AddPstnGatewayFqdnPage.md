@@ -14,7 +14,7 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c6135e2a-5d44-4046-bd53-fac4fdf52238
 ROBOTS: NOINDEX, NOFOLLOW
-description: Вы указываете полное доменное имя шлюза телефонной сети общего пользования (PSTN), который будет подключать компоненты Корпоративная голосовая связь к PSTN или УАПС.
+description: Вы указываете полное доменное имя шлюза телефонной сети общего пользования (PSTN), который будет подключать компоненты Корпоративная голосовая связь к PSTN или УАЧС.
 ms.openlocfilehash: c4046499f251421b9158c3932d0bf8de4c52c462
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
@@ -24,7 +24,7 @@ ms.locfileid: "49830089"
 ---
 # <a name="define-the-pstn-gateway-fqdn"></a>Определение полного доменного имени шлюза ТСОП
 
-Вы указываете полное доменное имя шлюза телефонной сети общего пользования (PSTN), который будет подключать компоненты Корпоративная голосовая связь к PSTN или УАПС.
+Вы указываете полное доменное имя шлюза телефонной сети общего пользования (PSTN), который будет подключать компоненты Корпоративная голосовая связь к PSTN или УАЧС.
 
 For details, see [PSTN connectivity components in Skype for Business Server](../../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity.md)
 

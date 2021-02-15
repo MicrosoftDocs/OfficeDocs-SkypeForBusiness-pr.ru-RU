@@ -1,5 +1,5 @@
 ---
-title: Устранение угроз для основной инфраструктуры Skype для бизнеса Server
+title: Устранение угроз основной инфраструктуры Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -19,7 +19,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49832279"
 ---
-# <a name="addressing-threats-to-your-core-infrastructure-for-skype-for-business-server"></a>Устранение угроз для основной инфраструктуры Skype для бизнеса Server
+# <a name="addressing-threats-to-your-core-infrastructure-for-skype-for-business-server"></a>Устранение угроз основной инфраструктуры Skype для бизнеса Server
  
 В дополнение к следующим советам по развертыванию Skype для бизнеса Server вы можете обеспечить безопасность, просмотрев, осмыслев и усмотрев любые потребности в определенных областях развертывания.
   

@@ -14,7 +14,7 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fe11d380-54c9-47e7-a676-02b9a59dc93f
-description: To begin the installation of a Skype for Business Server 2015 Standard Edition server that will hold the Central Management store and other collocated services that you select, you must be logged in as a member of the local Administrators group on the server that will become the Standard Edition server. На странице "Подготовка одного сервера Standard Edition" подробно приводится информация о требованиях к начальной установке. Компьютер должен быть членом домена, в котором он будет развернут, и необходимо успешно завершить подготовку схемы, леса и домена для леса.
+description: To begin the installation of a Skype for Business Server 2015 Standard Edition server that will hold the Central Management store and other collocated services that you select, you must be logged in as a member of the local Administrators group on the server that will become the Standard Edition server. На странице "Подготовка одного сервера Standard Edition" подробно приводится информация о требованиях к начальной установке. Компьютер должен быть членом домена, в котором он будет развернут, и необходимо успешно завершить подготовку к схеме, лесу и домену для леса.
 ms.openlocfilehash: 0523645350c6d6f2c0e42237b944f29193e06555
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT

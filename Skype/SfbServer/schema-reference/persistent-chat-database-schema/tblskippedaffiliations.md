@@ -12,7 +12,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 0b129b54-a7a8-42a6-9279-0e08410c06ec
-description: tblSkippedAffiliations содержит связи, которые не удалось прочитать (обычно из-за ошибок доступа к доменным службам Active Directory).
+description: tblSkippedAffiliations содержит присоединение, которое не удалось прочитать (обычно из-за ошибок доступа к доменным службам Active Directory).
 ms.openlocfilehash: 3061a399de804898d3dc2c616fb3766206c2d624
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT

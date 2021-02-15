@@ -29,7 +29,7 @@ ms.locfileid: "49831019"
   
 Чтобы политики пропускной способности сети вступили в силу, необходимо включить службу контроля допуска звонков (после настройки параметров сети для развертывания этой службы).
   
-### <a name="to-enable-call-admission-control-by-using-skype-for-business-server-management-shell"></a>To enable call admission control by using Skype for Business Server Management Shell
+### <a name="to-enable-call-admission-control-by-using-skype-for-business-server-management-shell"></a>Чтобы включить контроль допуска звонков с помощью оболочки управления Skype для бизнеса Server
 
 1. Запустите оболочку управления Skype для бизнеса Server: нажмите кнопку "Начните", выберите "Все программы", "Skype для бизнеса **2015",** а затем щелкните "Skype для бизнеса Server Management **Shell".**
     

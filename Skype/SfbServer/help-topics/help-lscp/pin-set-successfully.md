@@ -26,6 +26,6 @@ ms.locfileid: "49829349"
  
 Чтобы использовать электронную почту для отправки ПИН-кодов пользователям, щелкните **Открыть приложение электронной почты для отправки нового ПИН-кода пользователю**. Чтобы скопировать ПИН-код в сообщение электронной почты, выберите **Показать ПИН-код**. 
   
-Подробные сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнеса Server, см. в под управлением Skype для бизнеса [Server 2015.](../../manage/manage.md)
+For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).
   
 
