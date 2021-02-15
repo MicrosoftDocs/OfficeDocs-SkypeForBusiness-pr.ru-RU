@@ -1,5 +1,5 @@
 ---
-title: Виртуальные комнаты собраний Microsoft Teams
+title: Комнаты Microsoft Teams
 ms.reviewer: ''
 ms.author: dstrome
 author: dstrome
@@ -16,20 +16,20 @@ ms.collection:
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: Узнайте, как настроить комнаты Microsoft Teams, включая планирование, развертывание и управление системой для создания идеальной виртуальной комнаты для собраний.
 ms.custom: seo-marvel-may2020
-ms.openlocfilehash: 85c3da4b1c39c60454c4530a7e45ca0695eb70b5
-ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
+ms.openlocfilehash: b342c8081706355828e9854a46dd904d01f803e2
+ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49662034"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50196543"
 ---
-# <a name="microsoft-teams-rooms"></a><span data-ttu-id="076d5-103">Комнаты Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="076d5-103">Microsoft Teams Rooms</span></span>
+# <a name="microsoft-teams-rooms"></a><span data-ttu-id="d1b04-103">Комнаты Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="d1b04-103">Microsoft Teams Rooms</span></span>
 
 :::row:::
     :::column span="2":::
-       <span data-ttu-id="076d5-104">Преобразуя место для собраний, от небольших групп в большие конференц-залы, вы можете использовать, развертывать и управлять ими с помощью teams.</span><span class="sxs-lookup"><span data-stu-id="076d5-104">Transform meeting spaces ranging from small huddle areas to large conference rooms with a rich, collaborative Teams experience that's simple to use, deploy, and manage.</span></span> <br> 
-       <span data-ttu-id="076d5-105">Вовремя начните собрание, присоединитесь одним нажатием, а затем мгновенно проецйтесь на экран в комнате и поделитесь им с удаленными участниками.</span><span class="sxs-lookup"><span data-stu-id="076d5-105">Start meetings on time with one-touch join, then instantly project to the display in the room and share to remote participants.</span></span><br> 
-       <span data-ttu-id="076d5-106">Выберите нужные периферийные устройства системы и звука у одного из наших партнеров: Yealink, Logitech, Hp, Polycom, Lenovo и HP.</span><span class="sxs-lookup"><span data-stu-id="076d5-106">Select the right system and audio video peripherals from one of our partners: Yealink, Logitech, Crestron, Polycom, Lenovo, and HP.</span></span>
+       <span data-ttu-id="d1b04-104">Преобразуя место для собраний, от небольших групп в большие конференц-залы, вы можете использовать, развертывать и управлять ими с помощью teams.</span><span class="sxs-lookup"><span data-stu-id="d1b04-104">Transform meeting spaces ranging from small huddle areas to large conference rooms with a rich, collaborative Teams experience that's simple to use, deploy, and manage.</span></span> <br> 
+       <span data-ttu-id="d1b04-105">Вовремя начните собрание, присоединитесь одним нажатием, а затем мгновенно проецйтесь на экран в комнате и поделитесь им с удаленными участниками.</span><span class="sxs-lookup"><span data-stu-id="d1b04-105">Start meetings on time with one-touch join, then instantly project to the display in the room and share to remote participants.</span></span><br> 
+       <span data-ttu-id="d1b04-106">Выберите нужные периферийные устройства системы и звука у одного из наших партнеров: Yealink, Logitech, Hp, Polycom, Lenovo и HP.</span><span class="sxs-lookup"><span data-stu-id="d1b04-106">Select the right system and audio video peripherals from one of our partners: Yealink, Logitech, Crestron, Polycom, Lenovo, and HP.</span></span>
     :::column-end:::
     :::column:::
        ![Конференц-таблица с оборудованием комнат Microsoft Teams](../media/srs-room.jpg)
@@ -38,14 +38,14 @@ ms.locfileid: "49662034"
 
 |               |               |               |
 | ------------- | ------------- | ------------- |
-|<img src="https://docs.microsoft.com/office/media/icons/list-123-teams.svg" width="40 px" height="40 px"> <br> <span data-ttu-id="076d5-108">**[Планирование](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-plan)**</span><span class="sxs-lookup"><span data-stu-id="076d5-108">**[Plan](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-plan)**</span></span> |<img src="https://docs.microsoft.com/office/media/icons/deploy-teams.svg" width="40 px" height="40 px"> <br> <span data-ttu-id="076d5-109">**[Развертывание](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-deploy)**</span><span class="sxs-lookup"><span data-stu-id="076d5-109">**[Deploy](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-deploy)**</span></span> |<img src="https://docs.microsoft.com/office/media/icons/toolbox.svg" width="40 px" height="40 px"> <br> <span data-ttu-id="076d5-110">**[Управление](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-manage)**</span><span class="sxs-lookup"><span data-stu-id="076d5-110">**[Manage](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-manage)**</span></span> |
+|<img src="https://docs.microsoft.com/office/media/icons/list-123-teams.svg" width="40 px" height="40 px"> <br> <span data-ttu-id="d1b04-108">**[Планирование](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-plan)**</span><span class="sxs-lookup"><span data-stu-id="d1b04-108">**[Plan](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-plan)**</span></span> |<img src="https://docs.microsoft.com/office/media/icons/deploy-teams.svg" width="40 px" height="40 px"> <br> <span data-ttu-id="d1b04-109">**[Развертывание](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-deploy)**</span><span class="sxs-lookup"><span data-stu-id="d1b04-109">**[Deploy](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-deploy)**</span></span> |<img src="https://docs.microsoft.com/office/media/icons/toolbox.svg" width="40 px" height="40 px"> <br> <span data-ttu-id="d1b04-110">**[Управление](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-manage)**</span><span class="sxs-lookup"><span data-stu-id="d1b04-110">**[Manage](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-manage)**</span></span> |
 
 <br>
 
 > [!NOTE]
-> <span data-ttu-id="076d5-111">Комнаты Microsoft Teams предназначены для Microsoft Teams, Skype для бизнеса Online, Skype для бизнеса Server 2019 или Skype для бизнеса Server 2015.</span><span class="sxs-lookup"><span data-stu-id="076d5-111">Microsoft Teams Rooms is intended for use with Microsoft Teams, Skype for Business Online, Skype for Business Server 2019, or Skype for Business Server 2015.</span></span>  <br><br><span data-ttu-id="076d5-112">Более ранние платформы, такие как Lync Server 2013, не будут работать с комнатами Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="076d5-112">Earlier platforms like Lync Server 2013 aren't expected to work with Microsoft Teams Rooms.</span></span>
+> <span data-ttu-id="d1b04-111">Комнаты Microsoft Teams предназначены для Microsoft Teams, Skype для бизнеса Online, Skype для бизнеса Server 2019 или Skype для бизнеса Server 2015.</span><span class="sxs-lookup"><span data-stu-id="d1b04-111">Microsoft Teams Rooms is intended for use with Microsoft Teams, Skype for Business Online, Skype for Business Server 2019, or Skype for Business Server 2015.</span></span>  <br><br><span data-ttu-id="d1b04-112">Более ранние платформы, такие как Lync Server 2013, не будут работать с комнатами Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="d1b04-112">Earlier platforms like Lync Server 2013 aren't expected to work with Microsoft Teams Rooms.</span></span>
 
-<span data-ttu-id="076d5-113">Эти статьи предназначены для пользователей, у которых есть задачи по планированию, развертыванию и управлению этими устройствами, а не для пользователей системы.</span><span class="sxs-lookup"><span data-stu-id="076d5-113">These articles are intended for people tasked with planning, deploying, and managing these devices, and not for the users of the system.</span></span> <span data-ttu-id="076d5-114">Пользователям будет больше интересна веб-справка по комнатам Microsoft [Teams.](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)</span><span class="sxs-lookup"><span data-stu-id="076d5-114">Users will be more interested in the Microsoft Teams Rooms [online help](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2).</span></span>
+<span data-ttu-id="d1b04-113">Эти статьи предназначены для пользователей, у которых есть задачи по планированию, развертыванию и управлению этими устройствами, а не для пользователей системы.</span><span class="sxs-lookup"><span data-stu-id="d1b04-113">These articles are intended for people tasked with planning, deploying, and managing these devices, and not for the users of the system.</span></span> <span data-ttu-id="d1b04-114">Пользователям будет больше интересна веб-справка по комнатам Microsoft [Teams.](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)</span><span class="sxs-lookup"><span data-stu-id="d1b04-114">Users will be more interested in the Microsoft Teams Rooms [online help](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2).</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="076d5-115">[Система комнат Skype](../rooms/lrs-migration.md) (ранее — система комнат Lync) и комнаты Microsoft Teams — это разные продукты с разными зависимостями и процедурами развертывания.</span><span class="sxs-lookup"><span data-stu-id="076d5-115">[Skype Room System](../rooms/lrs-migration.md) (formerly Lync Room System) and Microsoft Teams Rooms are different products with different dependencies and deployment procedures.</span></span>
+> <span data-ttu-id="d1b04-115">[Система комнат Skype](../rooms/lrs-migration.md) (ранее — система комнат Lync) и комнаты Microsoft Teams — это разные продукты с разными зависимостями и процедурами развертывания.</span><span class="sxs-lookup"><span data-stu-id="d1b04-115">[Skype Room System](../rooms/lrs-migration.md) (formerly Lync Room System) and Microsoft Teams Rooms are different products with different dependencies and deployment procedures.</span></span>
