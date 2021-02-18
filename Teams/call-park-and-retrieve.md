@@ -21,12 +21,12 @@ ms.custom:
 - ms.teamsadmincenter.callparkpolicies.overview
 - seo-marvel-apr2020
 description: Узнайте, как использовать парк вызовов и восстановить для удержания звонка в Microsoft Teams.
-ms.openlocfilehash: 7474b80975c5fc78285a8bba5a90de782f24ba5b
-ms.sourcegitcommit: 774c2fdc71df430674493c33b609523af3cbda4c
+ms.openlocfilehash: d49e6a5a9bc25a0c7a3e25d548e2743b7f4584fb
+ms.sourcegitcommit: 414d077b16a0ae4ea6a49e3b3d0082858174cacb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/16/2021
-ms.locfileid: "50260331"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "50278719"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>Парковка и восстановление звонков в Microsoft Teams
 
@@ -68,9 +68,9 @@ ms.locfileid: "50260331"
 3. Выбирайте ранг по сравнению с другими назначениями групп.
 4. В **группе "Выберите политику"** выберите политику, которую вы хотите назначить этой группе.
 
-    ![](media/call-park-assign-policy-to-group.png)
+    ![Park policies image](media/call-park-assign-policy-to-group.png)
 
-5. Нажмите кнопку **Применить**.
+5. Выберите **"Применить".**
 
 ## <a name="related-topics"></a>Статьи по теме
 
