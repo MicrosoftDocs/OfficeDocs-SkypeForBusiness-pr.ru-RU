@@ -1272,12 +1272,8 @@ items:
                 href: expand-teams-across-your-org/healthcare/messaging-policies-hc.md
               - name: Делегирование сообщений
                 href: expand-teams-across-your-org/healthcare/hc-delegates.md
-          - name: Шаблоны Teams
-            items:
-              - name: Использование шаблонов Teams для здравоохранения
-                href: expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md
-              - name: Шаблоны Teams для здравоохранения
-                href: expand-teams-across-your-org/healthcare/healthcare-templates.md
+          - name: Использование шаблонов Teams для здравоохранения
+            href: expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md
           - name: Управление приложением Lists
             href: manage-lists-app.md
           - name: Управление приложением "Задачи"
@@ -1422,6 +1418,8 @@ items:
             href: office-365-urls-ip-address-ranges.md
           - name: Teams для инфраструктуры виртуальных рабочих столов (VDI)
             href: teams-for-vdi.md
+          - name: Teams для среды удаленных рабочих столов (RDP)
+            href: teams-for-rdp.md
           - name: Развертывание Teams для Surface Hub
             href: teams-surface-hub.md
           - name: Обновления клиента Teams
