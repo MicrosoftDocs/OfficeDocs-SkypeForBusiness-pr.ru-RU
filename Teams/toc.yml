@@ -1419,7 +1419,7 @@ items:
           - name: Teams для инфраструктуры виртуальных рабочих столов (VDI)
             href: teams-for-vdi.md
           - name: Teams для среды удаленных рабочих столов (RDP)
-            href: teams-for-rdp.md
+            href: teams-on-rdp.md
           - name: Развертывание Teams для Surface Hub
             href: teams-surface-hub.md
           - name: Обновления клиента Teams
