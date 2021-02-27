@@ -1,14 +1,13 @@
 ---
-title: Обновление до Teams из локального развертывания Skype для бизнеса — Microsoft Teams
-author: CarolynRowe
-ms.author: crowe
+title: Инструменты для обновления до Teams из локального развертывания Skype для бизнеса
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
-ms.date: 09/16/2020
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: bjwhalen
-description: Обновление Skype для бизнеса до Teams — инструменты для обновления
+description: Инструменты для обновления Skype для бизнеса до Teams
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -18,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 952214d615b62d0175841e2c7b24b45f1ae2d2b1
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 61dc34d56ebb10dc7319d855bbd0d98184f1e54a
+ms.sourcegitcommit: e72599d5437773322ae6ef985f804a19101ed84f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48533576"
+ms.lasthandoff: 02/26/2021
+ms.locfileid: "50347850"
 ---
 # <a name="tools-for-upgrading-to-teams-mdash-for-it-administrators"></a>Инструменты для обновления до Teams &mdash; для ИТ-администраторов
 
@@ -45,19 +44,22 @@ ms.locfileid: "48533576"
 
 ## <a name="tools-for-managing-the-upgrade"></a>Инструменты для управления обновлением
 
-Какой бы способ обновления вы ни выбрали, для пользователей, у которых уже есть Skype для бизнеса Online, вы управляете переходом на TeamsOnly с помощью [TeamsUpgradePolicy,](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)который управляет режимом сосуществования пользователей. Для пользователей с локальной учетной записью в Skype для бизнеса Server их также можно использовать для перемещения `Move-CsUser` [в облако.](https://docs.microsoft.com/skypeforbusiness/hybrid/move-users-between-on-premises-and-cloud)  Дополнительные сведения о каждом из режимов см. в режиме [сосуществования.](migration-interop-guidance-for-teams-with-skype.md)  
+Какой бы способ обновления вы ни выбрали, для пользователей, у которых уже есть Skype для бизнеса Online, вы управляете переходом на TeamsOnly с помощью [TeamsUpgradePolicy,](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)который управляет режимом сосуществования пользователей. Для пользователей с локальной учетной записью в Skype для бизнеса Server их также можно использовать для перемещения `Move-CsUser` [в облако.](https://docs.microsoft.com/skypeforbusiness/hybrid/move-users-between-on-premises-and-cloud)  Дополнительные сведения о каждом из режимов см. в режиме [сосуществования.](migration-interop-guidance-for-teams-with-skype.md)
 
-Независимо от того, выполняете ли вы переход с выбора возможностей в режимах Skype для бизнеса или просто переходите из конфигурации "Острова" в режим TeamsOnly по умолчанию, TeamsUpgradePolicy является основным инструментом для пользователей, у которых уже есть Skype для бизнеса Online. Как и любую другую политику в Teams, вы можете назначать TeamsUpgradePolicy напрямую пользователю. Вы также можете использовать политику по умолчанию для всего клиента. Любое назначение пользователю имеет приоритет над параметром клиента по умолчанию.  Вы можете управлять политикой в консоли администрирования Teams и PowerShell.
+> [!NOTE]
+> Если вы используете Соединитель Skype для бизнеса Online для управления службами, вам потребуется перейти в модуль Teams PowerShell и обновить существующие сценарии PowerShell. Дополнительные сведения см. в модуле [Teams PowerShell](teams-powershell-move-from-sfbo.md) для перемещения между соединительами Skype для бизнеса Online.
+
+Независимо от того, выполняете ли вы переход с выбора возможностей в режимах Skype для бизнеса или просто переходите из конфигурации "Острова" в режим TeamsOnly, TeamsUpgradePolicy является основным инструментом для пользователей, у которых уже есть Skype для бизнеса Online. Как и любую другую политику в Teams, вы можете назначать TeamsUpgradePolicy напрямую пользователю. Вы также можете использовать политику по умолчанию для всего клиента. Любое назначение пользователю имеет приоритет над параметром клиента по умолчанию.  Вы можете управлять политикой в консоли администрирования Teams и PowerShell.
 
 Кроме режима TeamsOnly, можно назначить любой режим TeamsUpgradePolicy пользователям, которые работают в локальной сети Skype для бизнеса. **Режим TeamsOnly можно** на условиях только для пользователя, который уже находится в Skype для бизнеса Online. Это нужно, так как функции телефонной системы и службы Федерации, Skype для бизнеса и Microsoft 365 возможны только в том случае, если пользователь находится в Skype для бизнеса Online. Кроме того, режим **TeamsOnly** невозможно назначить по умолчанию для всего клиента, если у вас развернуто локальное развертывание Skype для бизнеса (обнаружено наличием записи DNS lyncdiscover, которая указывает на расположение, которое не является Office 365).
 
 Пользователей с учетными записьми Skype для бизнеса, которые были домашней, необходимо перенаправить через Интернет [(в](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams) Skype для бизнеса Online или прямо в Teams), используя Move-CsUser в локальном средстве Skype для бизнеса. Этих пользователей можно 3 или 2 шага 3:
 
--   1 шаг. Указание переключателя -MoveToTeams в Move-CsUser. Для этого требуется Skype для бизнеса Server 2019 или Skype для бизнеса Server 2015 с CU8 или более поздней.
+-   1 шаг. Укажите переключатель -MoveToTeams в Move-CsUser. Для этого требуется Skype для бизнеса Server 2019 или Skype для бизнеса Server 2015 с CU8 или более поздней.
 
--   2 шага: после запуска Move-CsUser предоставить пользователю TeamsUpgradePolicy режим TeamsOnly.
+-   2 шага: после запуска Move-CsUser предоставить пользователю, использующему TeamsUpgradePolicy, режим TeamsOnly.
 
-В отличие от других политик, в Microsoft 365 и Office 365 невозможно создавать новые экземпляры TeamsUpgradePolicy. Все существующие экземпляры встроены в службу.  (Обратите внимание, что режим — это свойство в TeamsUpgradePolicy, а не имя экземпляра политики.) В некоторых случаях (но не для всех) имя экземпляра политики такое же, как в режиме. В частности, чтобы назначить пользователю режим TeamsOnly, вы предоставляете этому пользователю экземпляр UpgradeToTeams TeamsUpgradePolicy. Чтобы увидеть список всех экземпляров, можно выполнить следующую команду:
+В отличие от других политик, в Microsoft 365 и Office 365 невозможно создавать новые экземпляры TeamsUpgradePolicy. Все существующие экземпляры встроены в службу.  (Обратите внимание, что режим — это свойство в TeamsUpgradePolicy, а не имя экземпляра политики.) В некоторых случаях (но не для всех) имя экземпляра политики такое же, как в режиме. В частности, чтобы назначить пользователю режим TeamsOnly, вам будет предоставлен экземпляр UpgradeToTeams TeamsUpgradePolicy. Чтобы увидеть список всех экземпляров, можно выполнить следующую команду:
 
 ```PowerShell
 Get-CsTeamsUpgradePolicy|ft Identity, Mode, NotifySfbUsers
@@ -69,7 +71,7 @@ Get-CsTeamsUpgradePolicy|ft Identity, Mode, NotifySfbUsers
 Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams -Identity $user 
 ```
 
-Чтобы обновить локального пользователя Skype для бизнеса до режима TeamsOnly, Move-CsUser в локальном средстве:
+Чтобы обновить локального пользователя Skype для бизнеса до режима TeamsOnly, Move-CsUser на локальном сервисном сайте:
 
 ```PowerShell
 Move-CsUser -identity $user -Target sipfed.online.lync.com -MoveToTeams -credential $cred
@@ -83,7 +85,7 @@ Grant-CsTeamsUpgradePolicy -PolicyName SfbWithTeamsCollab -Global
 
 
 >[!NOTE]
->Если у вас есть пользователи с локальной учетной записью Skype для бизнеса, назначить режим TeamsOnly на уровне клиента невозможно. Их необходимо перемещать в облако по отдельности с помощью Move-CsUser.
+>Если у вас есть пользователи с локальной учетной записью Skype для бизнеса, назначить режим TeamsOnly на уровне клиента невозможно. С помощью Move-CsUser вы должны перемещать этих пользователей в облако по отдельности.
 
 
 ## <a name="using-notifications-in-skype-for-business-clients"></a>Использование уведомлений в клиентах Skype для бизнеса
