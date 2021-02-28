@@ -1481,6 +1481,10 @@ items:
             href: devices/phones-for-teams.md
           - name: Дисплеи Teams
             href: devices/teams-displays.md
+          - name: Панели Teams
+            href: devices/teams-panels.md
+          - name: Использование панелей Teams
+            href: devices/use-teams-panels.md
           - name: Обновление телефонов Teams до дисплеев Teams
             href: devices/upgrade-phones-to-displays.md
           - name: Развертывание телефонов Teams и дисплеев Teams с помощью Intune
