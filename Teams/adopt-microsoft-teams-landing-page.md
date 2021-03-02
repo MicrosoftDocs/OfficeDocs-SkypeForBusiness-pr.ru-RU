@@ -19,24 +19,24 @@ ms.custom:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9e731bbd4cd407b61de27db58d9b71b8b4f2c766
-ms.sourcegitcommit: 532205e5a3c28b44b86cd4d1376ebee9590b8266
+ms.openlocfilehash: a7d73cc376d0dbf09f6e6a72817b27eeff59e8dd
+ms.sourcegitcommit: 6785d7f1ef5d2010ab334ec8cc46884327a53662
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "48816099"
+ms.lasthandoff: 03/01/2021
+ms.locfileid: "50395321"
 ---
 # <a name="adopt-microsoft-teams"></a>Внедрение Microsoft Teams
 
 > [!NOTE]
 > Общие сведения о переходе на дистанционное обучение и ресурсы для начала работы см. на нашей [главной странице дистанционного обучения](https://www.microsoft.com/education/remote-learning).
 
-Если у вас малый бизнес или вы хотите использовать Teams, начиная с чата, команд & каналов и собраний, используйте наше предварительное руководство по началу [работы,](get-started-with-teams-quick-start.md)которое рассчитано на быстрое начало работы. Если у вас большая организация с гибридной или локальной конфигурацией Skype для бизнеса или вы хотите использовать голосовые функции (например, планы звонков Microsoft 365 или Office 365 или [](#deeper-adoption-guidance)телефонную систему), начните с нашего руководства по началу работы, но вам потребуется дополнительное руководство ниже в соответствии с более глубокой инструкцией по внедрению.
+Если вы хотите использовать Teams, начиная с чата, teams & каналов и собраний, используйте наше предварительное руководство по началу [работы,](get-started-with-teams-quick-start.md)которое рассчитано на быстрое начало работы. Если у вас большая организация с гибридной или локальной конфигурацией Skype для бизнеса или вы хотите использовать голосовые функции (например, планы звонков Microsoft 365 или Office 365 или [](#deeper-adoption-guidance)телефонную систему), начните с нашего руководства по началу работы, но вам потребуется дополнительное руководство ниже в соответствии с более глубокой инструкцией по внедрению.
 
 |               |               |               |               |               |               |
 | :-------------| :-------------| :-------------| :-------------| :-------------| :-------------|
 | <img src="https://docs.microsoft.com/office/media/icons/clock-teams.svg" alt="clock" width="40 px" height="40 px"> | [Краткое начало](/MicrosoftTeams/teams-adoption-quick-start-checklist) | <img src="https://docs.microsoft.com/office/media/icons/chat.svg" alt="chat bubbles" width="40 px" height="40 px"> | [Введение в команды и каналы](/MicrosoftTeams/teams-adoption-understand-teams-and-channels) | <img src="https://docs.microsoft.com/office/media/icons/task-checklist-planning-teams.svg" alt="checklist" width="40 px" height="40 px"> | [Планирование первых групп](/MicrosoftTeams/teams-adoption-your-first-teams) |
-| <img src="https://docs.microsoft.com//office/media/icons/best-practices-teams.svg" alt="best practices" width="40 px" height="40 px"> | [Совмеите своих друзей и друзей](/MicrosoftTeams/teams-adoption-create-champions-program) | <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg" alt="prize ribbon" width="40 px" height="40 px"> | [Обучение](https://docs.microsoft.com/MicrosoftTeams/training-microsoft-teams-landing-page) | <img src="https://docs.microsoft.com/office/media/icons/toolbox.svg" alt="wrench" width="40 px" height="40 px"> | [Инструменты и загрузки](/microsoftteams/adopt-tools-and-downloads) |
+| <img src="https://docs.microsoft.com//office/media/icons/best-practices-teams.svg" alt="best practices" width="40 px" height="40 px"> | [По возможности своих друзей и друзей](/MicrosoftTeams/teams-adoption-create-champions-program) | <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg" alt="prize ribbon" width="40 px" height="40 px"> | [Обучение](https://docs.microsoft.com/MicrosoftTeams/training-microsoft-teams-landing-page) | <img src="https://docs.microsoft.com/office/media/icons/toolbox.svg" alt="wrench" width="40 px" height="40 px"> | [Инструменты и загрузки](/microsoftteams/adopt-tools-and-downloads) |
 
 ### <a name="deeper-adoption-guidance"></a>[Более глубокое руководство по внедрению](#deeper-adoption-guidance)
 
