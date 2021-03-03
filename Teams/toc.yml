@@ -1,36 +1,254 @@
 items:
   - name: Добро пожаловать в Teams
     href: teams-overview.md
-  - name: Плакаты архитектуры и решений для телефонии
-    href: teams-architecture-solutions-posters.md
-  - name: Поддержка удаленных сотрудников (WFH)
-    href: support-remote-work-with-teams.md
-  - name: Учебные курсы
-    items:
-      - name: Обзор
-        href: training-microsoft-teams-landing-page.md
-      - name: "Обучение для администраторов\_Teams"
-        href: itadmin-readiness.md
-      - name: Сеансы Teams на Ignite 2020
-        href: ignite-2020-landing-page.md
-      - name: Интерактивное обучение Teams
-        href: instructor-led-training-teams-landing-page.yml
-      - name: Онлайн-обучение Teams
-        href: 'https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7'
-  - name: Способ развертывания Teams
-    href: How-to-roll-out-teams.md
   - name: Начало работы
     items:
-      - name: Обзор
-        href: get-started-with-teams-quick-start.md
-      - name: 'Шаг 1: создание первых команд и каналов'
-        href: get-started-with-teams-create-your-first-teams-and-channels.md
-      - name: 'Шаг 2: набор первых пользователей'
-        href: get-started-with-teams-onboard-early-adopters.md
-      - name: 'Шаг 3: мониторинг использования и отзывы'
-        href: get-started-with-teams-monitor-usage-and-feedback.md
-      - name: 'Шаг 4: планирование развертывания во всей организации'
-        href: get-started-with-teams-resources-for-org-wide-rollout.md
+      - name: Обзор развертывания
+        href: deploy-overview.md
+      - name: Краткое руководство
+        items:
+          - name: Обзор краткого руководства
+            href: get-started-with-teams-quick-start.md
+          - name: 'Шаг 1: создание первых команд и каналов'
+            href: get-started-with-teams-create-your-first-teams-and-channels.md
+          - name: 'Шаг 2: набор первых пользователей'
+            href: get-started-with-teams-onboard-early-adopters.md
+          - name: 'Шаг 3: мониторинг использования и отзывы'
+            href: get-started-with-teams-monitor-usage-and-feedback.md
+          - name: 'Шаг 4: планирование развертывания во всей организации'
+            href: get-started-with-teams-resources-for-org-wide-rollout.md
+          - name: Поддержка удаленных сотрудников (работа из дома)
+            href: support-remote-work-with-teams.md
+      - name: Настройка для малого бизнеса
+        href: deploy-small-business.md
+      - name: Настройка для предприятия
+        items:
+          - name: Обзор настройки для предприятия
+            href: deploy-enterprise-overview.md
+          - name: Плакаты архитектуры и решений для телефонии
+            href: teams-architecture-solutions-posters.md
+          - name: Подготовка организации
+            items:
+              - name: Подготовка сети организации к использованию Teams
+                href: prepare-network.md
+              - name: Развертывание Teams с помощью Помощника по Teams
+                href: use-advisor-teams-roll-out.md
+              - name: Использование планировщика сети для Teams
+                href: network-planner.md
+              - name: Пошаговое руководство по работе с планировщиком сети
+                href: tutorial-network-planner-example.yml
+              - name: Прокси-серверы для Teams или Skype для бизнеса Online
+                href: proxy-servers-for-skype-for-business-online.md
+              - name: "Планирование использования групп Microsoft 365 при создании команд в\_Teams"
+                href: plan-office-365-groups.md
+              - name: "Планирование управления жизненным циклом в\_Teams"
+                href: plan-teams-lifecycle.md
+              - name: Планирование управления в Teams
+                href: plan-teams-governance.md
+          - name: Настройка Teams в организации
+            href: deploy-enterprise-setup.md
+          - name: Внедрение
+            items:
+              - name: Обзор
+                href: adopt-microsoft-teams-landing-page.md
+              - name: Начало работы
+                href: teams-adoption-get-started.md
+              - name: Этап 1 — начало
+                items:
+                  - name: Начало
+                    href: teams-adoption-phase1.md
+                  - name: Ознакомление с командами и каналами
+                    href: teams-adoption-understand-teams-and-channels.md
+                  - name: Создание первых команд
+                    href: teams-adoption-your-first-teams.md
+                  - name: Насколько готова ваша организация к внедрению Teams?
+                    href: teams-adoption-assess-readiness.md
+              - name: Этап 2 — экспериментирование
+                items:
+                  - name: Эксперимент
+                    href: teams-adoption-phase2-experiment.md
+                  - name: Создание программы для лидеров
+                    href: teams-adoption-create-champions-program.md
+                  - name: Управление быстрым началом работы
+                    href: teams-adoption-governance-quick-start.md
+                  - name: Определение сценариев использования
+                    href: teams-adoption-define-usage-scenarios.md
+                  - name: Подключение ранних последователей и сбор отзывов
+                    href: teams-adoption-onboard-early-adopters.md
+                  - name: Поддержка адаптации
+                    href: teams-adoption-onboard-support.md
+              - name: Этап 3 — масштабирование
+                items:
+                  - name: Масштаб
+                    href: teams-adoption-phase3-enable.md
+                  - name: Определение результатов и успешного выполнения
+                    href: teams-adoption-define-outcomes.md
+                  - name: Оптимизация отзывов и отчетности
+                    href: teams-adoption-optimize-feedback-and-reporting.md
+                  - name: Информированность и внедрение обучения
+                    href: teams-adoption-drive-awareness.md
+                  - name: Планирование проверок работоспособности служб
+                    href: teams-adoption-schedule-service-health-reviews.md
+          - name: "Развертывание клиентов\_Teams"
+            items:
+              - name: Работа с клиентами для Teams
+                href: get-clients.md
+              - name: Получение Teams для Android в Китае
+                href: get-teams-android-in-china.md
+              - name: Аппаратные требования для приложения Teams
+                href: hardware-requirements-for-the-teams-app.md
+              - name: Рекомендации по драйверам аппаратного декодера и кодировщика
+                href: hardware-decoders-and-encoders.md
+              - name: Установка Teams с помощью MSI
+                href: msi-deployment.md
+              - name: Включение Teams в организации
+                href: Office-365-set-up.md
+              - name: Использование памяти в Microsoft Teams
+                href: teams-memory-usage-perf.md
+              - name: "URL-адреса и диапазоны IP-адресов в Microsoft 365 и Office\_365"
+                href: office-365-urls-ip-address-ranges.md
+              - name: Teams для инфраструктуры виртуальных рабочих столов (VDI)
+                href: teams-for-vdi.md
+              - name: Teams для среды удаленных рабочих столов (RDP)
+                href: teams-on-rdp.md
+              - name: Развертывание Teams для Surface Hub
+                href: teams-surface-hub.md
+              - name: Обновления клиента Teams
+                href: teams-client-update.md
+              - name: Устранение неполадок при установке и обновлении
+                href: troubleshoot-installation.md
+          - name: Обучение работе с Teams
+            items:
+              - name: Обзор
+                href: training-microsoft-teams-landing-page.md
+              - name: "Обучение для администраторов\_Teams"
+                href: itadmin-readiness.md
+              - name: Сеансы Teams на Ignite 2020
+                href: ignite-2020-landing-page.md
+              - name: Интерактивное обучение Teams
+                href: instructor-led-training-teams-landing-page.yml
+              - name: Онлайн-обучение Teams
+                href: 'https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7'
+  - name: Переход со Skype для бизнеса
+    items:
+      - name: Начало работы
+        href: upgrade-start-here.md
+      - name: Схема перехода
+        href: upgrade-framework.md
+      - name: Планирование процедуры обновления
+        items:
+          - name: Планирование проекта и требований
+            items:
+              - name: Обзор
+                href: upgrade-plan-journey.md
+              - name: Составление списка заинтересованных лиц проекта
+                href: upgrade-enlist-stakeholders.md
+              - name: Определение области проекта
+                href: upgrade-define-project-scope.md
+              - name: Общие сведения о сосуществовании и взаимодействии
+                href: teams-and-skypeforbusiness-coexistence-and-interoperability.md
+              - name: Рекомендации по ТСОП
+                href: upgrade-to-teams-on-prem-pstn-considerations.md
+              - name: Выбор процедуры обновления
+                href: upgrade-and-coexistence-of-skypeforbusiness-and-teams.md
+              - name: Планирование пилотного развертывания для пользователей
+                href: pilot-essentials.md
+          - name: Подготовка среды для Teams
+            items:
+              - name: Обзор технической готовности
+                href: upgrade-prepare-environment.md
+              - name: Подготовка ИТ-персонала к использованию Teams
+                href: upgrade-prepare-IT-pros.md
+              - name: Предварительные условия
+                href: upgrade-plan-journey-prerequisites.md
+              - name: Оценка среды
+                href: upgrade-plan-journey-evaluate-environment.md
+              - name: Подготовка службы
+                href: upgrade-prepare-environment-prepare-service.md
+          - name: Подготовка организации к использованию Teams
+            items:
+              - name: Обзор готовности организации
+                href: upgrade-prepare-organization.md
+              - name: Оценка готовности к организационным изменениям
+                href: upgrade-org-change-readiness.md
+              - name: Подготовка плана готовности пользователей
+                href: upgrade-user-readiness.md
+      - name: Реализация перехода
+        items:
+          - name: Обзор
+            href: upgrade-to-Teams.md
+          - name: "Переход со Skype для бизнеса Online на\_Teams"
+            href: upgrade-to-Teams-execute-SkypeforBusinessOnline.md
+          - name: Переход с локальной среды Skype для бизнеса на Teams
+            href: upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md
+      - name: 'Использование, внедрение и оптимизация'
+        href: continue-journey.md
+      - name: Прекращение поддержки Skype для бизнеса Online
+        href: skype-for-business-online-retirement.md
+      - name: Вопросы и ответы
+        href: FAQ-journey.yml
+      - name: Техническая библиотека
+        items:
+          - name: Руководство по обновлению для ИТ-администраторов
+            items:
+              - name: Обзор
+                href: upgrade-to-teams-on-prem-overview.md
+              - name: Способы обновления
+                href: upgrade-to-teams-on-prem-upgrade-methods.md
+              - name: Средства управления обновлением
+                href: upgrade-to-teams-on-prem-tools.md
+              - name: Рекомендации для организаций с локальным Skype для бизнеса
+                href: upgrade-to-teams-on-prem-considerations.md
+              - name: Реализация перехода
+                href: upgrade-to-teams-on-prem-implement.md
+              - name: Сосуществование Teams и Skype для бизнеса
+                href: upgrade-to-teams-on-prem-coexistence.md
+              - name: Режимы сосуществования — справочник
+                href: migration-interop-guidance-for-teams-with-skype.md
+              - name: Взаимодействие с клиентом Teams и соответствие режимам сосуществования
+                href: teams-client-experience-and-conformance-to-coexistence-modes.md
+          - name: Настройка сосуществования и обновления
+            href: setting-your-coexistence-and-upgrade-settings.md
+          - name: Сначала собрания
+            href: meetings-first.md
+  - name: Гибридное подключение
+    items:
+      - name: Планирование гибридного подключения
+        href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json'
+      - name: Настройка гибридного подключения
+        items:
+          - name: Обзор
+            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity'
+          - name: Настройка Azure AD Connect для гибридной среды
+            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-azure-ad-connect'
+          - name: Настройка гибридной среды Skype для бизнеса
+            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-federation-with-skype-for-business-online'
+      - name: Перемещение пользователей между локальной средой и облаком
+        items:
+          - name: Обзор
+            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud'
+          - name: Перемещение пользователей из локальной среды в Teams
+            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams'
+          - name: Перемещение пользователей из локальной среды в Skype для бизнеса Online
+            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-skype-for-business-online'
+          - name: Перемещение пользователей из облака в локальную среду
+            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-the-cloud-to-on-premises'
+          - name: Управление миграцией собраний
+            href: 'https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json'
+      - name: Отключение гибридной среды для завершения миграции в облако
+        href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid'
+      - name: Развертывание топологии леса ресурсов
+        href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-a-multi-forest-environment-for-hybrid'
+      - name: Консолидация облачных хранилищ для Teams и Skype для бизнеса Online
+        items:
+          - name: Обзор
+            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation'
+          - name: Обновление пограничного сертификата
+            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-edge-certificates'
+          - name: Обновление AAD Connect для включения нескольких лесов
+            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-aad-connect'
+      - name: Интеграция с Exchange и SharePoint
+        href: 'https://docs.microsoft.com/SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint'
   - name: 'Безопасность, конфиденциальность и соответствие требованиям'
     items:
       - name: Обзор
@@ -1079,168 +1297,6 @@ items:
             href: Office-365-custom-connectors.md
           - name: Поведение приложений Teams для нестандартных пользователей
             href: non-standard-users.md
-  - name: Внедрение
-    items:
-      - name: Обзор
-        href: adopt-microsoft-teams-landing-page.md
-      - name: Начало работы
-        href: teams-adoption-get-started.md
-      - name: Этап 1 — начало
-        items:
-          - name: Начало
-            href: teams-adoption-phase1.md
-          - name: Ознакомление с командами и каналами
-            href: teams-adoption-understand-teams-and-channels.md
-          - name: Создание первых команд
-            href: teams-adoption-your-first-teams.md
-          - name: Насколько готова ваша организация к внедрению Teams?
-            href: teams-adoption-assess-readiness.md
-      - name: Этап 2 — экспериментирование
-        items:
-          - name: Эксперимент
-            href: teams-adoption-phase2-experiment.md
-          - name: Создание программы для лидеров
-            href: teams-adoption-create-champions-program.md
-          - name: Управление быстрым началом работы
-            href: teams-adoption-governance-quick-start.md
-          - name: Определение сценариев использования
-            href: teams-adoption-define-usage-scenarios.md
-          - name: Подключение ранних последователей и сбор отзывов
-            href: teams-adoption-onboard-early-adopters.md
-          - name: Поддержка адаптации
-            href: teams-adoption-onboard-support.md
-      - name: Этап 3 — масштабирование
-        items:
-          - name: Масштаб
-            href: teams-adoption-phase3-enable.md
-          - name: Определение результатов и успешного выполнения
-            href: teams-adoption-define-outcomes.md
-          - name: Оптимизация отзывов и отчетности
-            href: teams-adoption-optimize-feedback-and-reporting.md
-          - name: Информированность и внедрение обучения
-            href: teams-adoption-drive-awareness.md
-          - name: Планирование проверок работоспособности служб
-            href: teams-adoption-schedule-service-health-reviews.md
-  - name: Переход на Teams
-    items:
-      - name: Начало работы
-        href: upgrade-start-here.md
-      - name: Схема перехода
-        href: upgrade-framework.md
-      - name: Планирование процедуры обновления
-        items:
-          - name: Планирование проекта и требований
-            items:
-              - name: Обзор
-                href: upgrade-plan-journey.md
-              - name: Составление списка заинтересованных лиц проекта
-                href: upgrade-enlist-stakeholders.md
-              - name: Определение области проекта
-                href: upgrade-define-project-scope.md
-              - name: Общие сведения о сосуществовании и взаимодействии
-                href: teams-and-skypeforbusiness-coexistence-and-interoperability.md
-              - name: Рекомендации по ТСОП
-                href: upgrade-to-teams-on-prem-pstn-considerations.md
-              - name: Выбор процедуры обновления
-                href: upgrade-and-coexistence-of-skypeforbusiness-and-teams.md
-              - name: Планирование пилотного развертывания для пользователей
-                href: pilot-essentials.md
-          - name: Подготовка среды для Teams
-            items:
-              - name: Обзор технической готовности
-                href: upgrade-prepare-environment.md
-              - name: Подготовка ИТ-персонала к использованию Teams
-                href: upgrade-prepare-IT-pros.md
-              - name: Предварительные условия
-                href: upgrade-plan-journey-prerequisites.md
-              - name: Оценка среды
-                href: upgrade-plan-journey-evaluate-environment.md
-              - name: Подготовка службы
-                href: upgrade-prepare-environment-prepare-service.md
-          - name: Подготовка организации к использованию Teams
-            items:
-              - name: Обзор готовности организации
-                href: upgrade-prepare-organization.md
-              - name: Оценка готовности к организационным изменениям
-                href: upgrade-org-change-readiness.md
-              - name: Подготовка плана готовности пользователей
-                href: upgrade-user-readiness.md
-      - name: Реализация перехода
-        items:
-          - name: Обзор
-            href: upgrade-to-Teams.md
-          - name: "Переход со Skype для бизнеса Online на\_Teams"
-            href: upgrade-to-Teams-execute-SkypeforBusinessOnline.md
-          - name: Переход с локальной среды Skype для бизнеса на Teams
-            href: upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md
-      - name: 'Использование, внедрение и оптимизация'
-        href: continue-journey.md
-      - name: Прекращение поддержки Skype для бизнеса Online
-        href: skype-for-business-online-retirement.md
-      - name: Вопросы и ответы
-        href: FAQ-journey.yml
-      - name: Техническая библиотека
-        items:
-          - name: Руководство по обновлению для ИТ-администраторов
-            items:
-              - name: Обзор
-                href: upgrade-to-teams-on-prem-overview.md
-              - name: Способы обновления
-                href: upgrade-to-teams-on-prem-upgrade-methods.md
-              - name: Средства управления обновлением
-                href: upgrade-to-teams-on-prem-tools.md
-              - name: Рекомендации для организаций с локальным Skype для бизнеса
-                href: upgrade-to-teams-on-prem-considerations.md
-              - name: Реализация перехода
-                href: upgrade-to-teams-on-prem-implement.md
-              - name: Сосуществование Teams и Skype для бизнеса
-                href: upgrade-to-teams-on-prem-coexistence.md
-              - name: Режимы сосуществования — справочник
-                href: migration-interop-guidance-for-teams-with-skype.md
-              - name: Взаимодействие с клиентом Teams и соответствие режимам сосуществования
-                href: teams-client-experience-and-conformance-to-coexistence-modes.md
-          - name: Настройка сосуществования и обновления
-            href: setting-your-coexistence-and-upgrade-settings.md
-          - name: Сначала собрания
-            href: meetings-first.md
-  - name: Гибридное подключение
-    items:
-      - name: Планирование гибридного подключения
-        href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json'
-      - name: Настройка гибридного подключения
-        items:
-          - name: Обзор
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity'
-          - name: Настройка Azure AD Connect для гибридной среды
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-azure-ad-connect'
-          - name: Настройка гибридной среды Skype для бизнеса
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-federation-with-skype-for-business-online'
-      - name: Перемещение пользователей между локальной средой и облаком
-        items:
-          - name: Обзор
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud'
-          - name: Перемещение пользователей из локальной среды в Teams
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams'
-          - name: Перемещение пользователей из локальной среды в Skype для бизнеса Online
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-skype-for-business-online'
-          - name: Перемещение пользователей из облака в локальную среду
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-the-cloud-to-on-premises'
-          - name: Управление миграцией собраний
-            href: 'https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json'
-      - name: Отключение гибридной среды для завершения миграции в облако
-        href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid'
-      - name: Развертывание топологии леса ресурсов
-        href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-a-multi-forest-environment-for-hybrid'
-      - name: Консолидация облачных хранилищ для Teams и Skype для бизнеса Online
-        items:
-          - name: Обзор
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation'
-          - name: Обновление пограничного сертификата
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-edge-certificates'
-          - name: Обновление AAD Connect для включения нескольких лесов
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-aad-connect'
-      - name: Интеграция с Exchange и SharePoint
-        href: 'https://docs.microsoft.com/SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint'
   - name: Руководство для отраслей и государственных организаций
     items:
       - name: Обзор
@@ -1380,52 +1436,6 @@ items:
     items:
       - name: Ограничения и спецификации для Teams
         href: limits-specifications-teams.md
-      - name: Подготовка к развертыванию Teams
-        items:
-          - name: Подготовка сети организации к использованию Teams
-            href: prepare-network.md
-          - name: Развертывание Teams с помощью Помощника по Teams
-            href: use-advisor-teams-roll-out.md
-          - name: Использование планировщика сети для Teams
-            href: network-planner.md
-          - name: Пошаговое руководство по работе с планировщиком сети
-            href: tutorial-network-planner-example.yml
-          - name: Прокси-серверы для Teams или Skype для бизнеса Online
-            href: proxy-servers-for-skype-for-business-online.md
-          - name: "Планирование использования групп Microsoft 365 при создании команд в\_Teams"
-            href: plan-office-365-groups.md
-          - name: "Планирование управления жизненным циклом в\_Teams"
-            href: plan-teams-lifecycle.md
-          - name: Планирование управления в Teams
-            href: plan-teams-governance.md
-      - name: Установка Teams
-        items:
-          - name: Работа с клиентами для Teams
-            href: get-clients.md
-          - name: Получение Teams для Android в Китае
-            href: get-teams-android-in-china.md
-          - name: Аппаратные требования для приложения Teams
-            href: hardware-requirements-for-the-teams-app.md
-          - name: Рекомендации по драйверам аппаратного декодера и кодировщика
-            href: hardware-decoders-and-encoders.md
-          - name: Установка Teams с помощью MSI
-            href: msi-deployment.md
-          - name: Включение Teams в организации
-            href: Office-365-set-up.md
-          - name: Использование памяти в Microsoft Teams
-            href: teams-memory-usage-perf.md
-          - name: "URL-адреса и диапазоны IP-адресов в Microsoft 365 и Office\_365"
-            href: office-365-urls-ip-address-ranges.md
-          - name: Teams для инфраструктуры виртуальных рабочих столов (VDI)
-            href: teams-for-vdi.md
-          - name: Teams для среды удаленных рабочих столов (RDP)
-            href: teams-on-rdp.md
-          - name: Развертывание Teams для Surface Hub
-            href: teams-surface-hub.md
-          - name: Обновления клиента Teams
-            href: teams-client-update.md
-          - name: Устранение неполадок при установке и обновлении
-            href: troubleshoot-installation.md
       - name: Лицензирование
         items:
           - name: Управление доступом пользователей к Teams
