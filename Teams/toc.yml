@@ -181,32 +181,22 @@ items:
             href: upgrade-to-Teams-execute-SkypeforBusinessOnline.md
           - name: Переход с локальной среды Skype для бизнеса на Teams
             href: upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md
+          - name: Стратегии обновления
+            href: upgrade-to-teams-on-prem-implement.md
       - name: 'Использование, внедрение и оптимизация'
         href: continue-journey.md
       - name: Прекращение поддержки Skype для бизнеса Online
         href: skype-for-business-online-retirement.md
       - name: Вопросы и ответы
         href: FAQ-journey.yml
-      - name: Техническая библиотека
+      - name: Справка
         items:
-          - name: Руководство по обновлению для ИТ-администраторов
-            items:
-              - name: Обзор
-                href: upgrade-to-teams-on-prem-overview.md
-              - name: Способы обновления
-                href: upgrade-to-teams-on-prem-upgrade-methods.md
-              - name: Средства управления обновлением
-                href: upgrade-to-teams-on-prem-tools.md
-              - name: Рекомендации для организаций с локальным Skype для бизнеса
-                href: upgrade-to-teams-on-prem-considerations.md
-              - name: Реализация перехода
-                href: upgrade-to-teams-on-prem-implement.md
-              - name: Сосуществование Teams и Skype для бизнеса
-                href: upgrade-to-teams-on-prem-coexistence.md
-              - name: Режимы сосуществования — справочник
-                href: migration-interop-guidance-for-teams-with-skype.md
-              - name: Взаимодействие с клиентом Teams и соответствие режимам сосуществования
-                href: teams-client-experience-and-conformance-to-coexistence-modes.md
+          - name: Средства управления обновлением
+            href: upgrade-to-teams-on-prem-tools.md
+          - name: Режимы сосуществования — справочник
+            href: migration-interop-guidance-for-teams-with-skype.md
+          - name: Взаимодействие с клиентом Teams и соответствие режимам сосуществования
+            href: teams-client-experience-and-conformance-to-coexistence-modes.md
           - name: Настройка сосуществования и обновления
             href: setting-your-coexistence-and-upgrade-settings.md
           - name: Сначала собрания
