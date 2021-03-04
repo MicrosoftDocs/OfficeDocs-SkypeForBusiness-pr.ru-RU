@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Узнайте, как включить прямую маршрутику по системе Microsoft Phone System.
-ms.openlocfilehash: 5739797649c639e3259c6972da665ae0ced4b4bf
-ms.sourcegitcommit: 0a9c5c01b37a93eecc369ca0ed49ae18f6a5065b
+ms.openlocfilehash: 972bd8d5e01a050a67978560b8de272439fda40d
+ms.sourcegitcommit: 6f7b91f573e2a034f8c5474be2c5cb2971f4b5ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "48655486"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50421314"
 ---
 # <a name="enable-users-for-direct-routing-voice-and-voicemail"></a>Включить для пользователей прямую маршрутику, голосовую и голосовую почту
 
@@ -44,7 +44,7 @@ ms.locfileid: "48655486"
 
 ## <a name="create-a-user-and-assign-the-license"></a>Создание пользователя и назначение лицензии 
 
-Существует два варианта создания пользователя в Microsoft 365 или Office 365. Однако корпорация Майкрософт рекомендует использовать один из вариантов, чтобы избежать проблем с маршрутией: 
+Существует два варианта создания пользователя в Microsoft 365 или Office 365. Однако корпорация Майкрософт рекомендует выбрать один из вариантов, чтобы избежать проблем с маршрутией: 
 
 - Создайте пользователя в локальной службе Active Directory и синхронизируйте его с облаком. Узнайте, [как интегрировать свои локальное каталоги с Azure Active Directory.](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect)
 - Создайте пользователя непосредственно в Центре администрирования Microsoft 365. См. ["Добавление пользователей по отдельности или массово в Microsoft 365 или Office 365 — справка для администраторов".](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec) 
@@ -117,11 +117,11 @@ ms.locfileid: "48655486"
 
 ## <a name="configuring-sending-calls-directly-to-voicemail"></a>Настройка отправки звонков непосредственно на голосовую почту
 
-Прямая маршрутия позволяет прекратить звонок пользователю и отправить его непосредственно в голосовую почту пользователя. Если вы хотите перенаправлять звонок напрямую в голосовую почту, вложите непрозрак=app:voicemail в закавляю URI запроса. Например: "sip:user@yourdomain.com;opaque=app:voicemail". В этом случае пользователь Teams не получит уведомление о вызове, звонок будет напрямую подключен к голосовой почте пользователя.
+Прямая маршрутия позволяет прекратить звонок пользователю и отправить его непосредственно в голосовую почту пользователя. Если вы хотите перенаправлять звонок непосредственно в голосовую почту, вложите непрозрак=app:voicemail в заглавный URI запроса. Например: "sip:user@yourdomain.com;opaque=app:voicemail". В этом случае пользователь Teams не получит уведомление о вызове, звонок будет напрямую подключен к голосовой почте пользователя.
 
 ## <a name="assign-teams-only-mode-to-users-to-ensure-calls-land-in-microsoft-teams"></a>Назначение пользователям режима "Только teams", чтобы обеспечить доступ к звонкам в Microsoft Teams
 
-Прямая маршрутка требует, чтобы пользователи были в режиме "Только Teams", чтобы входящие звонки направлялись в клиент Teams. Чтобы перейти в режим только Teams, назначьте им экземпляр UpgradeToTeams teamsUpgradePolicy. Дополнительные сведения см. в [руководстве по обновлению для ИТ-администраторов.](upgrade-to-teams-on-prem-overview.md) Если в вашей организации используется Skype для бизнеса Server или Skype для бизнеса Online, см. сведения о взаимодействиях между Skype и Teams в следующей статье: перенос и взаимодействия со Skype для [бизнеса.](migration-interop-guidance-for-teams-with-skype.md)
+Прямая маршрутия требует, чтобы пользователи были в режиме "Только Teams", чтобы входящие звонки направлялись в клиент Teams. Чтобы перейти в режим только Teams, назначьте им экземпляр UpgradeToTeams teamsUpgradePolicy. Дополнительные сведения см. в [стратегиях обновления для ИТ-администраторов.](upgrade-to-teams-on-prem-implement.md) Если в вашей организации используется Skype для бизнеса Server или Skype для бизнеса Online, см. сведения о взаимодействиях между Skype и Teams в следующей статье: перенос и взаимодействия со Skype для [бизнеса.](migration-interop-guidance-for-teams-with-skype.md)
 
 ## <a name="see-also"></a>См. также
 
