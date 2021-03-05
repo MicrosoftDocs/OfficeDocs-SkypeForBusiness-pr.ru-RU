@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Эта таблица используется для поиска сведений о получении номеров телефонов в Португалии для Microsoft Teams и управлении им.
-ms.openlocfilehash: e8db780320d3ccb1fa1498ee359ac641e4c5ff8a
-ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
+ms.openlocfilehash: a7df7688e4d2f7178d794158506560944923e265
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50196943"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50461039"
 ---
 # <a name="phone-number-management-for-portugal"></a>Управление номерами телефонов для Португалии
 
@@ -34,8 +34,8 @@ ms.locfileid: "50196943"
   
 |**Требуемое действие**|**Скачайте подходящие формы и отправьте их нам**|
 |:-----|:-----|
-|Получите новые номера телефонов пользователей или служб, которые не указаны в Центре администрирования Microsoft Teams.   <br/> |Скачайте одну из этих форм. <br/>  [Новый запрос на номер телефона для Португалии (5.0) (pt-pt)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-portugal-(v.5.0)-(pt-pt).pdf?raw=true) <br/>  [Новый запрос на номер телефона для Португалии (5.0) (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-portugal-(v.5.0)-(en-us).pdf?raw=true)<br/>  <br/>Заполните ее и [отправьте его нам](mailto:ptneu@microsoft.com).<br/><br/> Кроме того, необходимо заполнить сторонней соглашение, подписать его и [отправить нам.](mailto:ptneu@microsoft.com) Эта форма будет отправлена вам нашей командой службы ЗВОНКОВ после заказа на получения новых номеров телефонов. <br/><br/>|
-|Перенаправь нам номера телефонов.  <br/> | Скачайте эту форму. <br/>[Досье для Португалии (все номера) (v.5.0) (pt-pt)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-portugal-(all-numbers)-(v.5.0)-(pt-pt).pdf?raw=true) <br/> <br/>Заполните ее и [отправьте его нам](mailto:ptneu@microsoft.com). <br/><br/> Кроме того, необходимо заполнить сторонней соглашение, подписать его и [отправить нам.](mailto:ptneu@microsoft.com) Эта форма будет отправлена вам нашей службой обслуживания ЗВОНКОВ после заказа на перенос номеров телефонов.<br/><br/>|
+|Получите новые номера телефонов пользователей или служб, которые не указаны в Центре администрирования Microsoft Teams.   <br/> |Скачайте одну из этих форм. <br/>  [Новый запрос на номер телефона для Португалии (5.0) (pt-pt)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-portugal-(v.5.0)-(pt-pt).pdf?raw=true) <br/>  [Новый запрос на номер телефона для Португалии (0,5.0) (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-portugal-(v.5.0)-(en-us).pdf?raw=true)<br/>  <br/>Заполните ее и [отправьте его нам](mailto:ptneu@microsoft.com).<br/><br/> Кроме того, необходимо заполнить сторонней соглашение, подписать его и [отправить нам.](mailto:ptneu@microsoft.com) Эта форма будет отправлена вам нашей командой службы ЗВОНКОВ после заказа на получения новых номеров телефонов. <br/><br/>|
+|Перенаправь нам номера телефонов.  <br/> | Скачайте эту форму. <br/>[Досье для Португалии (все номера) (v.5.0) (pt-pt)](https://download.microsoft.com/download/1/b/d/1bd8641d-cfa5-4028-ba26-62e2430952fb/letter-of-authorization-(loa)-for-portugal-(all-numbers)-(v.5.0)-(pt-pt).pdf) <br/> <br/>Заполните ее и [отправьте его нам](mailto:ptneu@microsoft.com). <br/><br/> Кроме того, необходимо заполнить сторонней соглашение, подписать его и [отправить нам.](mailto:ptneu@microsoft.com) Эта форма будет отправлена вам нашей службой поддержки ЗВОНКОВ после заказа на перенос номеров телефонов.<br/><br/>|
 |Публикация и публикация номеров телефонов в национальном телефонном каталоге.  <br/> |[Отправьте нам](mailto:ptneu@microsoft.com) список номеров телефонов для публикации или отмены публикации.      <br/> |
 |Изменение номера пользователя на номер службы.  <br/> |[Отправьте нам](mailto:ptneu@microsoft.com) список номеров пользователей, которые необходимо преобразовать в номера служб. <br/> |
 |Обновление службы каталогов для номеров очереди вызовов или номеров автозавода|Чтобы добавить или изменить номера очереди вызовов или номера автоотетаря, обратитесь в службу [поддержки ННР.](contact-pstn-service-desk.md) |

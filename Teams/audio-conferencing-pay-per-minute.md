@@ -23,12 +23,12 @@ ms.custom:
 - Licensing
 - seo-marvel-mar2020
 description: Узнайте о функции поминутной оплаты, которая позволяет использовать аудиоконференцию для организаций, использующих корпоративное лицензирование Майкрософт.
-ms.openlocfilehash: 858b0f34075e2aa81e4c34794c96f37a2d5c9d36
-ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
+ms.openlocfilehash: 846c169206a96c4587ecee5bbb55215dd9dc4081
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46788683"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50460679"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>Поминутная оплата аудиоконференций
 
@@ -76,11 +76,11 @@ ms.locfileid: "46788683"
 
  **Ищете цены?** См. следующие темы:
   
-- [Тарифы на аудиоконференции](https://products.office.com/skype-for-business/audio-conferencing#Requirements)
+- [Тарифы на аудиоконференции](https://go.microsoft.com/fwlink/?linkid=799762&clcid=0x409)
     
-- [Тарифы для телефонной системы](https://products.office.com/skype-for-business/phone-system#Requirements)
+- [Тарифы для телефонной системы](https://go.microsoft.com/fwlink/?linkid=799761&clcid=0x409)
     
-- [Цены на Тарифные планы](https://products.office.com/skype-for-business/pstn-calling-plans#requirements)
+- [Цены на Тарифные планы](https://go.microsoft.com/fwlink/?linkid=799763)
     
 ## <a name="related-topics"></a>Статьи по теме
   

@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: ''
 search.appverid: ''
-description: ''
+description: Узнайте о политиках приложений Teams.
 audience: admin
 localization_priority: Normal
 MS.collection:
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 32c3fcfa803c433567d3be91f1f710afef5934b1
-ms.sourcegitcommit: e72599d5437773322ae6ef985f804a19101ed84f
+ms.openlocfilehash: 7e0c4f3e4c328dc6f90dddf66a7004b70c66a84e
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/26/2021
-ms.locfileid: "50348117"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50460799"
 ---
 # <a name="manage-app-policies-in-microsoft-teams"></a>Управление политиками приложений в Microsoft Teams
 
@@ -49,4 +49,4 @@ ms.locfileid: "50348117"
 * [Управление пользовательскими политиками и параметрами приложений в Teams](teams-custom-app-policies-and-settings.md)
 * [Управление политиками настройки приложений в Teams](teams-app-setup-policies.md)
 * [Управление политиками разрешений для приложений в Teams](teams-app-permission-policies.md)
-* [Управление teams с помощью политик](manage-teams-with-policies.md)
+* [Управление командами с помощью политик](manage-teams-with-policies.md)

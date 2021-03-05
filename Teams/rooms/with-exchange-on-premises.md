@@ -17,12 +17,12 @@ ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection:
 - M365-collaboration
 description: Сведения о том, как развернуть комнаты Microsoft Teams в гибридной среде с локальной средой Exchange, можно найти в этой теме.
-ms.openlocfilehash: f9f80f5b993b9be95e35c8178d996973558e2512
-ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
+ms.openlocfilehash: fcf7216a4fcadee1e81ef11b5310b9d0a88e378a
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49662324"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50460519"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>Развертывание комнаты Microsoft Teams в локальной среде Exchange
 
@@ -159,7 +159,7 @@ Skype для бизнеса Online PowerShell используется для у
 3. Чтобы включить учетную запись комнат Microsoft Teams, запустите эту команду:
 
    ``` Powershell
-   Enable-CsMeetingRoom -Identity $rm -RegistrarPool'sippoolbl20a04.infra.lync.com' -SipAddressType EmailAddress
+   Enable-CsMeetingRoom -Identity $rm -RegistrarPool 'sippoolbl20a04.infra.lync.com' -SipAddressType EmailAddress
    ```
 
    Если вы не знаете, какое значение нужно использовать для параметра RegistrarPool в вашей среде, вы можете получить значение от существующего пользователя с помощью этой команды:

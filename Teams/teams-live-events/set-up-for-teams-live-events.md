@@ -14,17 +14,18 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 - m365initiative-meetings
+- m365initiative-meetings-enabler
 - enabler-strategic
 description: Настройка трансляций в Teams, включая настройка сети, назначение лицензий, включите функции трансляций, а также планирование и решения для распространения видео.
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 64a5bf471a79de73be3900e6b52fee38ebc12423
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 108c6ba6730751c9858a3c4a45c8060c231be4a1
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809169"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50461009"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Подготовка к трансляциям в Microsoft Teams
 
@@ -82,7 +83,7 @@ ms.locfileid: "49809169"
 1. Включить Microsoft Stream для пользователей в организации. Stream доступен в рамках соответствующих подписок Microsoft 365, Office 365 или как автономные службы. Stream не входит в планы бизнес базовый и бизнес премиум. Дополнительные сведения см. в статье [Общие сведения о лицензировании Stream](https://docs.microsoft.com/stream/license-overview).
 
    >[!Note]
-   > Переход с использования Microsoft Stream на [OneDrive для бизнеса и SharePoint для записей собраний](../tmr-meeting-recording-change.md) будет поэтапным процессом. При запуске вы сможете согласиться на использование этого интерфейса. В ноябре вам потребуется отказаться от использования, если вы хотите продолжить применение Stream. В начале 2021 г. мы потребуем, чтобы все пользователи использовали OneDrive для бизнеса и SharePoint для новых записей собраний. Узнайте больше о том, как назначать [**лицензии**](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) пользователям, чтобы пользователи могли получать доступ к Stream. Убедитесь, что Stream не заблокирован для пользователей, как определено [**в этой статье.**](https://docs.microsoft.com/stream/disable-user-organization)
+   > Переход с использования Microsoft Stream на [OneDrive для бизнеса и SharePoint для записей собраний](../tmr-meeting-recording-change.md) будет поэтапным процессом. При запуске вы сможете согласиться на использование этого интерфейса. В ноябре вам потребуется отказаться от использования, если вы хотите продолжить применение Stream. В начале 2021 г. мы потребуем, чтобы все пользователи использовали OneDrive для бизнеса и SharePoint для новых записей собраний. Узнайте больше о том, как [**назначать лицензии**](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) пользователям, чтобы пользователи могли получать доступ к Stream. Убедитесь, что Stream не заблокирован для пользователей, как определено [**в этой статье.**](https://docs.microsoft.com/stream/disable-user-organization)
 
 2. Убедитесь, что у пользователей есть разрешение на создание трансляций в Stream. По умолчанию администраторы могут создавать трансляции с помощью внешнего приложения или устройства. Администратор Stream может [разрешить дополнительным пользователям создавать трансляции](https://docs.microsoft.com/stream/live-event-administration#enabling-and-restricting-users-to-creating) в Stream.
 

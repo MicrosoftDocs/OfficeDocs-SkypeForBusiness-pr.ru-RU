@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: ''
 search.appverid: ''
-description: ''
+description: Узнайте о политиках голосовой и голосовой почты Teams.
 audience: admin
 localization_priority: Normal
 MS.collection:
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7d0ea4db57fbfdc3ab76e8c6c9991e032103b260
-ms.sourcegitcommit: e72599d5437773322ae6ef985f804a19101ed84f
+ms.openlocfilehash: 9056c9b81fcda9c0e7408c63b4af00c1aabbffd0
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/26/2021
-ms.locfileid: "50348094"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50460589"
 ---
 # <a name="manage-voice-and-calling-policies-in-microsoft-teams"></a>Управление политиками голосовой и голосовой почты в Microsoft Teams
 
@@ -42,7 +42,7 @@ ms.locfileid: "50348094"
 
 [Политики, используемые для изменения](caller-id-policies.md) или блокировки этих политик, применяются для их изменения.
 
-![Снимок экрана: политика "ИД звоня"](media/caller-id-policy.png)
+![Снимок экрана: политика "ИД вызываемого вызова".](media/caller-id-policy.png)
 
 ## <a name="voice-routing-policies"></a>Политики маршрутинга голосовой почты
 
@@ -52,13 +52,13 @@ ms.locfileid: "50348094"
 
 ## <a name="calling-policies"></a>Политики звонков
 
-[Политики звонков](teams-calling-policy.md) контролируют, какие функции переад управление звонками и переад управлением звонками доступны пользователям, включая возможность частных звонков, отправки звонков в группы звонков и перенаправка звонков на голосовую почту.
+[Политики звонков](teams-calling-policy.md) контролируют, какие функции переадных вызовов и переадных вызовов доступны пользователям, в том числе возможность делать частные звонки, отправлять звонки в группы звонков и перенаправлять звонки на голосовую почту.
 
 ![Снимок экрана: политика звонков.](media/calling-policy.png)
 
 ## <a name="call-park-and-retrieve-policies"></a>Парковка вызовов и извлечение политик
 
-[Если сделать это,](call-park-and-retrieve.md) другие пользователи будут поставлены на удержание и смогут продолжать звонок тому же или другому пользователю.
+[При восстановлении](call-park-and-retrieve.md) парка вызовов другие пользователи могут поставить на удержание и продолжать звонок тому же или другому пользователю.
 
 ![Снимок экрана: парк вызовов и извлечение политики.](media/call-park-policy.png)
 
@@ -72,7 +72,7 @@ ms.locfileid: "50348094"
 
 * [Управление политиками экстренных вызовов в Microsoft Teams](manage-emergency-calling-policies.md)
 * [Управление политиками маршрутизации экстренных вызовов](manage-emergency-call-routing-policies.md)
-* [Управление политиками ИД звоня в Microsoft Teams](caller-id-policies.md)
+* [Управление политиками идентификации вызывающего абонента в Microsoft Teams](caller-id-policies.md)
 * [Управление политиками маршрутинга голосовой почты](manage-voice-routing-policies.md)
 * [Политики звонков в Microsoft Teams](teams-calling-policy.md)
 * [Парковка и восстановление звонков в Microsoft Teams](call-park-and-retrieve.md)

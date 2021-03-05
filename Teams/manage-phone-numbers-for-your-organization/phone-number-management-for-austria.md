@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Эта таблица используется для поиска сведений о получении номеров телефонов в Австрии и управлении им для Microsoft Teams.
-ms.openlocfilehash: 2efccd354553f4f7a4acd61e0017b45c2e92c669
-ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
+ms.openlocfilehash: b674db9df6b0c05757c912b83742717ed1456b59
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50196743"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50460669"
 ---
 # <a name="phone-number-management-for-austria"></a>Управление номерами телефонов для Австрии
 
@@ -35,7 +35,7 @@ ms.locfileid: "50196743"
 |**Требуемое действие**|**Скачайте подходящие формы и отправьте их нам**|
 |:-----|:-----|
 |Получите новые номера телефонов пользователей и служб, которых нет в центре администрирования Microsoft Teams.   <br/> |Скачайте одну из этих форм. <br/>  [Новый запрос на номер телефона для Австрии (v.5.0) (de-de)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-austria-(v.5.0)-(de-de).pdf?raw=true) <br/>  [Новый запрос на номер телефона для Австрии (v.5.0) (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-austria-(v.5.0)-(en-us).pdf?raw=true) <br/>  <br/>Заполните ее и [отправьте его нам](mailto:ptneu@microsoft.com). <br/>  <br/>Кроме того, необходимо включить в ст. счет с делового адреса, для которого вы хотите получить новые номера. <br/> 
-|Перенаправь нам номера телефонов.  <br/> | Скачайте эту форму. <br/>[Досье (LoA) для Австрии (все номера) (v.5.0) (de-at)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-austria-(all-numbers)-(v.5.0)-(de-at).pdf?raw=true) <br/> <br/>Заполните ее и [отправьте его нам](mailto:ptneu@microsoft.com).  <br/> <br/>Кроме того, необходимо включить в стюговую услугу счет с делового адреса, на который вы хотите перенести номера.<br/> |
+|Перенаправь нам номера телефонов.  <br/> | Скачайте эту форму. <br/>[Досье (LoA) для Австрии (все номера) (v.5.0) (de-at)](https://download.microsoft.com/download/3/e/2/3e27f3ee-0f38-4d73-b8e8-b43b9e1d1381/letter-of-authorization-(loa)-for-austria-(all-numbers)-(v.5.0)-(de-at).pdf) <br/> <br/>Заполните ее и [отправьте его нам](mailto:ptneu@microsoft.com).  <br/> <br/>Кроме того, необходимо включить в стюговую услугу счет с делового адреса, на который вы хотите перенести номера.<br/> |
 |Публикация и публикация номеров телефонов в национальном телефонном каталоге.  <br/> |[Отправьте нам](mailto:ptneu@microsoft.com) список номеров телефонов для публикации или отмены публикации.      <br/> |
 |Изменение номера пользователя на номер службы.  <br/> |[Отправьте нам](mailto:ptneu@microsoft.com) список номеров пользователей, которые необходимо преобразовать в номера служб. <br/> |
 |Обновление службы каталогов для номеров очереди вызовов или номеров автозавода|Чтобы добавить или изменить номера очереди вызовов или номера автоотетаря, обратитесь в службу [поддержки ННР.](contact-pstn-service-desk.md) |
