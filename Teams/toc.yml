@@ -315,16 +315,12 @@ items:
         href: enable-features-office-365.md
       - name: Управление политиками
         items:
+          - name: Обзор
+            href: manage-teams-with-policies.md
           - name: Назначение политик пользователям
             href: assign-policies.md
           - name: Просмотр назначений политик в журнале действий
             href: activity-log.md
-          - name: Управление политиками разрешений для приложений в Teams
-            href: teams-app-permission-policies.md
-          - name: Управление политиками настройки приложений в Teams
-            href: teams-app-setup-policies.md
-          - name: Управление пользовательскими политиками и параметрами приложений в Teams
-            href: teams-custom-app-policies-and-settings.md
           - name: Управление политиками отзывов в Teams
             href: manage-feedback-policies-in-teams.md
           - name: Управление пакетами политик в Teams
@@ -773,6 +769,8 @@ items:
     items:
       - name: Планирование голосового решения в Teams
         href: cloud-voice-landing-page.md
+      - name: Управление политиками голосовой связи и звонков в Teams
+        href: voice-and-calling-policies.md
       - name: Телефонная система
         items:
           - name: Что такое телефонная система?
@@ -1273,7 +1271,9 @@ items:
         items:
           - name: Обзор
             href: manage-apps.md
-          - name: Просмотр разрешений для приложений и предоставление согласия администратора в Центре администрирования Microsoft Teams
+          - name: Управление политиками приложений в Teams
+            href: app-policies.md
+          - name: Просмотр разрешений приложений и предоставление согласия администратора
             href: app-permissions-admin-center.md
           - name: Согласие для определенных ресурсов
             href: resource-specific-consent.md
@@ -1287,6 +1287,12 @@ items:
             href: Office-365-custom-connectors.md
           - name: Поведение приложений Teams для нестандартных пользователей
             href: non-standard-users.md
+          - name: Управление политиками разрешений для приложений в Teams
+            href: teams-app-permission-policies.md
+          - name: Управление политиками настройки приложений в Teams
+            href: teams-app-setup-policies.md
+          - name: Управление пользовательскими политиками и параметрами приложений в Teams
+            href: teams-custom-app-policies-and-settings.md
   - name: Руководство для отраслей и государственных организаций
     items:
       - name: Обзор
