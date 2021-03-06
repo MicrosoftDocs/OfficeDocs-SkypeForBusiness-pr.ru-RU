@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Priority
 description: Узнайте, как звонить, общаться в чатах и добавлять пользователей из-за пределов организации в Microsoft Teams с помощью внешнего доступа (федерации) и гостевого доступа.
-ms.openlocfilehash: e3524bfeb7e21e18d0d742c7208bbe307bdd16c8
-ms.sourcegitcommit: 6f7b91f573e2a034f8c5474be2c5cb2971f4b5ab
+ms.openlocfilehash: 10ce0e7f89872a7fda842871d17f8bd06481193f
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50421324"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50461049"
 ---
 # <a name="use-guest-access-and-external-access-to-collaborate-with-people-outside-your-organization"></a>Использование гостевого и внешнего доступа для совместной работы с людьми из-за пределов организации
 
@@ -43,6 +43,9 @@ ms.locfileid: "50421324"
 ![Снимок экрана: параметры внешнего доступа](media/external-access-federation-settings.png)
 
 Сведения о настройке внешнего доступа см. в статье [Управление внешним доступом](manage-external-access.md). 
+
+>[!NOTE]
+>Бесплатные лицензии Microsoft Teams не поддерживают внешний доступ.
 
 ## <a name="guest-access"></a>Гостевой доступ
 
@@ -65,8 +68,8 @@ ms.locfileid: "50421324"
 | Просмотр того, доступен ли кто-то из другой организации для звонков или общения в чате | Да | Да<sup>1</sup> |
 | Поиск людей в других организациях | Да<sup>2</sup> | Нет |
 | Совместное использование файлов | Нет | Да |
-| Просмотр сообщения об отсутствии на рабочем месте | Нет | Да |
-| Блокировка кого-либо из другой организации | Нет | Да |
+| Просмотр сообщения об отсутствии на рабочем месте пользователя из другой организации | Нет | Да |
+| Блокировка пользователя из другой организации  | Нет | Да |
 | Использование @упоминаний | Да<sup>3</sup> | Да |
 
 ### <a name="things-people-outside-your-organization-can-do"></a>Действия, которые могут выполнять люди из-за пределов вашей организации
