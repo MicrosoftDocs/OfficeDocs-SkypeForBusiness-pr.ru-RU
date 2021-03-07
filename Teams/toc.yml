@@ -501,8 +501,6 @@ items:
             href: general-teams-templates-in-the-admin-console.md
           - name: Шаблоны Teams производственной категории
             href: manufacturing-teams-templates-in-the-admin-console.md
-          - name: Создание шаблонов политик и управление ими
-            href: templates-policies.md
       - name: Общение с внешними пользователями
         items:
           - name: Общение с пользователями из других организаций
