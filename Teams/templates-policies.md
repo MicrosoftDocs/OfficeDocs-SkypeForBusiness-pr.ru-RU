@@ -18,18 +18,17 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Управление шаблонами Teams в Центре администрирования
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: bcb99538ebd129e02e511c8260dc3bfa101bff9d
-ms.sourcegitcommit: 113f587a1c09d42b7394ba1195c32cb054bdf31c
+ms.openlocfilehash: df734d175d521b5be3ef81bf9dd8a95d749812e2
+ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50507972"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "50569015"
 ---
-# <a name="create-and-manage-teams-templates-in-the-admin-center"></a>Создание шаблонов Teams и управление ими в Центре администрирования
+# <a name="manage-team-templates-in-the-admin-center"></a>Управление шаблонами групп в Центре администрирования
 
 Чтобы управлять шаблонами Teams, которые видят пользователи, создайте политики шаблонов в Центре администрирования. В каждой политике шаблонов можно узначить, какие шаблоны должны быть показаны или скрыты.
-Назначайте разным пользователям различные политики шаблонов, чтобы пользователи просматривали только указанные подмножество шаблонов Teams.
+Назначайте разным пользователям различные политики шаблонов, чтобы они просматривали только указанное подмножество шаблонов Teams.
 
 ## <a name="create-template-policies-and-assign-available-templates"></a>Создание политик шаблонов и назначение доступных шаблонов
 

@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.policies.naming.error
 - seo-marvel-mar2020
 description: Узнайте о проблемах со специальными знаками в именах политик и о том, как их устранить.
-ms.openlocfilehash: 899cffa45bc5ec7a36339e89e3cb97e35e6e4507
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: bc5a2fbb28e37602b21e6c519ea3b3b7cb9a0325
+ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814718"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "50569411"
 ---
 # <a name="what-are-the-special-character-restrictions-in-teams-policies"></a>Каковы ограничения для специальных знаков в политиках Teams?
 
@@ -47,18 +47,19 @@ ms.locfileid: "47814718"
 >
 > Если вы используете последний общедоступный выпуск [Teams PowerShell,](https://www.powershellgallery.com/packages/MicrosoftTeams/)вам не нужно устанавливать соединитель Skype для бизнеса Online.
 
-```PowerShell
- Import-Module -Name MicrosoftTeams
- $credential = Get-Credential
- $session = New-CsOnlineSession -Credential $credential
- Import-PSSession $session
+```powershell
+  # When using Teams PowerShell Module
+
+   Import-Module MicrosoftTeams
+   $credential = Get-Credential
+   Connect-MicrosoftTeams -Credential $credential
 ```
 
 
-**Шаг 2. Настройка старой политики и создание выходных данных.**
+**Шаг 2. Просмотр параметров старой политики и создание выходных данных.**
 
 > [!NOTE]
-> Этот пример — политика [обмена сообщениями.](https://docs.microsoft.com/powershell/module/skype/get-csteamsmessagingpolicy?view=skype-ps)  Действия будут одинаковыми для других типов политик, но необходимо использовать правильный cmdlet. 
+> Это пример для политики [обмена сообщениями.](https://docs.microsoft.com/powershell/module/skype/get-csteamsmessagingpolicy?view=skype-ps)  Действия будут одинаковыми для других типов политик, но необходимо использовать правильный cmdlet. 
 
   ```PowerShell
   Get-CsTeamsMessagingPolicy -id <old_policy_name>
@@ -69,7 +70,7 @@ ms.locfileid: "47814718"
 
 Новую политику с тем же параметром можно создать с помощью Центра администрирования Microsoft Teams или PowerShell.
 
-При запуске этой функции создается новая политика, но вам потребуется добавить правильные параметры, задав [параметры Set-CsTeamsMessagingPolicy,](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) а затем за запуск:
+При запуске этой функции создается новая политика, но вам потребуется добавить правильные параметры, задав [параметры Set-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) и заполав ее:
 
   ```PowerShell
   Set-CsTeamsMessagingPolicy -id <new_policy_name>

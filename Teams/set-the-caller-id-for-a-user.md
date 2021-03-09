@@ -21,13 +21,13 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: Узнайте о microsoft 365 и стандартном номере вызываемого звонка Office 365 (назначенном номере телефона пользователя), который также называется ИД строки звонков. Вы можете изменить или заблокировать ИД вызываемой точки пользователя.
-ms.openlocfilehash: ff8355b9435d0a21c032ee90b442884c0319221c
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+description: Узнайте о microsoft 365 и стандартном номере звоня в Office 365 (который назначен пользователю), который также называется ИД линии звонков. Вы можете изменить или заблокировать ИД вызываемой точки пользователя.
+ms.openlocfilehash: 1cc6221c0f4ca1642cc9422ed81e0e07ae1bfc91
+ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814328"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "50569421"
 ---
 # <a name="set-the-caller-id-for-a-user"></a>Настройка идентификатора абонента для пользователя
 Телефонная система в Microsoft 365 и Office 365 предоставляет номер телефона, который назначен пользователю по умолчанию. Можно изменить или заблокировать идентификатор абонента (также называемый идентификатором вызывающей линии) для пользователя. Дополнительные сведения об использовании идентификатора абонента в своей организации можно получить, перейдя к статье [Использование идентификатора абонента в организации](how-can-caller-id-be-used-in-your-organization.md).
@@ -45,7 +45,7 @@ ms.locfileid: "47814328"
     > [!NOTE]
     > Чтобы использовать параметр  _Service_, необходимо указать допустимый номер службы.
   
-- **Блокировать ИД исходящие вызываемой вызовы** Вы можете заблокировать отправление исходя из этой службы ИД звонив пользователю во время исходяющих звонков по ДНР. В этом случае номер телефона не будет отображаться на телефоне звонимого.
+- **Блокировать ИД исходящие вызываемой вызовы** Вы можете заблокировать отправление исходя из этой службы ИД звонив пользователю при исходяющих звонках по ННР. В этом случае номер телефона не будет отображаться на телефоне звонимого.
     
 - **Блокировать его ИД входящих вызовов** Вы можете заблокировать получение ИД вызываемой службы во всех входящих звонках по ДНР.
     
@@ -59,44 +59,23 @@ ms.locfileid: "47814328"
 ## <a name="set-your-caller-id-policy-settings"></a>Задание настроек политики идентификатора абонента
 
 > [!NOTE]
-> Для всех параметров " ИД звоня" в Skype для бизнеса Online  необходимо использовать Windows PowerShell и не использовать Центр администрирования **Skype для бизнеса.** 
+> Для всех параметров , задав параметры "ИД звоня" в  Skype для бизнеса Online, необходимо использовать Windows PowerShell и не использовать Центр администрирования **Skype для бизнеса.** 
   
-### <a name="verify-and-start-windows-powershell"></a>Проверка и запуск Windows PowerShell
+### <a name="start-powershell"></a>Запуск PowerShell
 
-- **Убедитесь в том, что у вас установлена оболочка Windows PowerShell 3.0 или более поздней версии**
-    
-1. To verify that you are running version 3.0 or higher: **Start Menu** > **Windows PowerShell**.
-    
-2. Проверьте версию, введя в окне _Windows PowerShell_ команду **Get-Host**.
-    
-3. Если у вас более ранняя версия, вам необходимо скачать и установить обновления для Windows PowerShell. Чтобы [скачать Windows Management Framework 4.0](https://go.microsoft.com/fwlink/?LinkId=716845) и обновить Windows PowerShell до версии 4.0, см. Windows PowerShell 4.0. При появлении запроса перезагрузите компьютер.
-    
-4. Вам также потребуется установить модуль Windows PowerShell для Skype для бизнеса online, с помощью которого можно создать удаленный сеанс Windows PowerShell с подключением к Skype для бизнеса online. Этот модуль, который поддерживается только на 64-разрядных компьютерах, можно скачать в Центре загрузки Майкрософт на странице [Модуль Windows PowerShell для Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=294688). При появлении запроса перезагрузите компьютер.
-    
-    Если вам нужно узнать больше, см. подключение к всем службам [Microsoft 365 или Office 365](https://technet.microsoft.com/library/dn568015.aspx)в одном окне Windows PowerShell окна.
-    
-- **Запуск сеанса Windows PowerShell**
-    
-1. From the **Start Menu** > **Windows PowerShell**.
-    
-2. В **окне Windows PowerShell** подключения к Microsoft 365 или Office 365, вы работающим с помощью:
-    
-   > [!NOTE]
-   >
-   > Соединитель Skype для бизнеса Online сейчас является частью последнего модуля Teams PowerShell.
-   > Если вы используете последний общедоступный выпуск [Teams PowerShell,](https://www.powershellgallery.com/packages/MicrosoftTeams/)вам не нужно устанавливать соединитель Skype для бизнеса Online.
-   ```PowerShell
-    Import-Module -Name MicrosoftTeams
-    $credential = Get-Credential
-    $session = New-CsOnlineSession -Credential $credential
-    Import-PSSession $session
-   ```
+- Откройте Windows PowerShell и запустите следующие команды:
 
-Если вам нужна дополнительные сведения о запуске Windows PowerShell, см. сведения о подключении к всем службам [Microsoft 365 или Office 365](https://technet.microsoft.com/library/dn568015.aspx) в одном окне Windows PowerShell или настройка компьютера [для](/skypeforbusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)Windows PowerShell.
+```powershell
+  # When using Teams PowerShell Module
+
+   Import-Module MicrosoftTeams
+   $credential = Get-Credential
+   Connect-MicrosoftTeams -Credential $credential
+```
     
 ### <a name="see-all-of-the-caller-id-policy-settings-in-your-organization"></a>Просмотр всех настроек политики идентификатора абонента в организации
 
-- Чтобы просмотреть все параметры политики "ИД звоня" в организации, запустите 4
+- Чтобы просмотреть все параметры политики ИД звоня в организации, запустите 365 параметров политики.
 
   ```PowerShell
   Get-CsCallingLineIdentity |fl
@@ -116,18 +95,18 @@ ms.locfileid: "47814328"
 
   См. другие примеры и подробные сведения о [New-CsCallingLineIdentity.](https://technet.microsoft.com/library/mt793855.aspx)
     
-- Чтобы применить новую политику, созданную для amos Marble, запустите 3
+- Чтобы применить новую политику, созданную для amos Marble, запустите 365:
     
   ```PowerShell
    Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName Anonymous
   ```
   Дополнительные сведения о командлете [Grant-CsCallingLineIdentity](https://technet.microsoft.com/library/mt793857.aspx).
     
-Если политика уже создана, вы можете внести изменения в существующую политику с помощью [cmdlet Set-CsCallingLineIdentity,](https://technet.microsoft.com/library/mt793854.aspx) а затем применить параметры к пользователям с помощью cmdletentity [Grant-CsCallingLineIdentity.](https://technet.microsoft.com/library/mt793857.aspx)
+Если вы уже создали политику, вы можете внести изменения в существующую политику с помощью [cmdlet Set-CsCallingLineIdentity,](https://technet.microsoft.com/library/mt793854.aspx) а затем применить параметры к пользователям с помощью cmdletentity [Grant-CsCallingLineIdentity.](https://technet.microsoft.com/library/mt793857.aspx)
   
 ### <a name="set-it-so-the-incoming-caller-id-is-blocked"></a>Блокировка идентификатора входящего абонента
 
-- Чтобы заблокировать ИД входящих вызовов, запустите 4.
+- Чтобы заблокировать ИД входящих зовите звонок, запустите 365.
     
   ```PowerShell
   Set-CsCallingLineIdentity  -Identity "Block Incoming" -BlockIncomingPstnCallerID $true -EnableUserOverride $true

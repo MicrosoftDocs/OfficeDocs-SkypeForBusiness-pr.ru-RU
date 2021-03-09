@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d18f6b5ef5b4668324a68b4456cd3ad5aa4b7364
-ms.sourcegitcommit: 113f587a1c09d42b7394ba1195c32cb054bdf31c
+ms.openlocfilehash: 0431b7ebd385f2ad17d659e238f54b4ebb1ab20a
+ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50507982"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "50569095"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Использование OneDrive для бизнеса и SharePoint или Stream для записей собраний
 
@@ -74,26 +74,25 @@ ms.locfileid: "50507982"
 > [!Note]
 > Распространение изменений в политике собраний Teams займет некоторое время. Проверьте по и после нескольких часов настройки, а затем выходить и снова входить в нее.
 
-1. Установите Skype для бизнеса Online PowerShell.
+1. Установите Teams PowerShell PowerShell.
 
    > [!NOTE]
    > Соединитель Skype для бизнеса Online сейчас входит в состав последнего модуля Teams PowerShell. Если вы используете последний общедоступный выпуск Teams PowerShell, вам не нужно устанавливать соединитель Skype для бизнеса Online. См. [управление Skype для бизнеса Online с помощью PowerShell.](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true)
 
-    1. Скачайте [Skype для бизнеса Online PowerShell.](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true)
+1. Запустите PowerShell в качестве администратора.
 
-    1. Следуйте запросам на установку.
+2. Установите [модуль Teams PowerShell.](https://docs.microsoft.com/microsoftteams/teams-powershell-install)
 
-    1. Перезагрузите компьютер.
+3. Импорт модуля MicrosoftTeams и вход в Teams в качестве администратора.
 
-2. Запустите PowerShell в качестве администратора.
 
-3. Импорт соединитела SkypeOnline Connector и вход в Teams в качестве администратора.
+```powershell
+  # When using Teams PowerShell Module
 
-   ```powershell
    Import-Module MicrosoftTeams
-   $sfbSession = New-CsOnlineSession
-   Import-PSSession $sfbSession
-   ```
+   $credential = Get-Credential
+   Connect-MicrosoftTeams -Credential $credential
+```
 
 4. Используйте [Set-CsTeamsMeetingPolicy,](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) чтобы настроить политику собраний Teams для перехода с хранилища Stream на OneDrive для бизнеса и SharePoint.
 

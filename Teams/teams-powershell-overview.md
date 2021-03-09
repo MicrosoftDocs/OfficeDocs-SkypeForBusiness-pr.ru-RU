@@ -13,16 +13,16 @@ ms.collection:
 description: Узнайте, как использовать элементы управления PowerShell для управления Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 12360110df90fb5de2e3e4547534c8569cc5537a
-ms.sourcegitcommit: 3f465eb6eb46db008f2b69fc4c6bb425d432dfcc
+ms.openlocfilehash: 6c2c626d61a10437fc5bb349dd128415d64448a7
+ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48852160"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "50569025"
 ---
 # <a name="microsoft-teams-powershell-overview"></a>Обзор Microsoft Teams PowerShell
 
-Microsoft Teams PowerShell — это набор командлетов для управления Teams непосредственно из командной строки PowerShell. Teams PowerShell, написанный в стандарте .NET, работает в PowerShell 5.1 для Windows, PowerShell 6.x и более высоких версиях на всех платформах, включая облачную оболочку Azure.
+Microsoft Teams PowerShell — это набор командлетов для управления Teams непосредственно из командной строки PowerShell. Командная оболочка PowerShell, написанная в стандарте .NET, работает в PowerShell 5.1 для Windows, PowerShell 6.x и более высоких версиях на всех платформах, включая облачную оболочку Azure.
 
 Прежде чем приступить к использованию PowerShell, необходимо [установить его.](teams-powershell-install.md) 
 
@@ -48,9 +48,9 @@ Teams PowerShell доступен в коллекции [PowerShell](https://www
 - [Модуль Microsoft Teams PowerShell:](https://www.powershellgallery.com/packages/MicrosoftTeams/)модуль Teams PowerShell содержит командлеты для управления командами, чатом и каналами.
 
 > [!NOTE]
-> Последний [общедоступный выпуск Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/) интегрирован со Skype для бизнеса Online Connector, что обеспечивает единый модуль для управления Teams PowerShell.
+> Общедоступный выпуск [Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/) версии 1.1.6 или более поздней интегрирован со Skype для бизнеса Online Connector, что обеспечивает единый модуль для управления Teams PowerShell.
 
-- [Соединитель Skype для бизнеса PowerShell Connector](https://www.microsoft.com/download/details.aspx?id=39366): соединитель Skype для бизнеса PowerShell теперь является частью модуля Teams PowerShell.
+- [Соединитель Skype для бизнеса PowerShell .](https://www.microsoft.com/download/details.aspx?id=39366)Соединитель Skype для бизнеса PowerShell теперь является частью модуля Teams PowerShell.
 
 Полное руководство по управлению Teams с помощью этих модулей см. в руководстве [Teams с помощью Teams PowerShell.](teams-powershell-managing-teams.md)
 

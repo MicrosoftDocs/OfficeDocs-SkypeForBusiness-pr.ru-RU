@@ -13,12 +13,12 @@ ms.collection:
 description: Узнайте, как использовать элементы управления PowerShell для управления Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cd5b38dd3a43a405794209a9dc7ac4a4468386ef
-ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
+ms.openlocfilehash: a99967df019a91460bde5fd4e3e6e7aee15444d3
+ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49662024"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "50569115"
 ---
 # <a name="install-microsoft-teams-powershell"></a>Установка Microsoft Teams PowerShell
 
@@ -34,10 +34,10 @@ ms.locfileid: "49662024"
 ## <a name="install-the-teams-powershell-module"></a>Установка модуля Teams PowerShell
 
 > [!NOTE]
-> Для лучшей работы используйте как общедоступные, так и общедоступные модули предварительной версии. Они не предназначены для совместной работы.
+> Для лучшей работы используйте как общедоступные, так и общедоступные модули предварительного просмотра. Они не предназначены для совместной работы.
 
 
-Используйте **командлеты PowerShellGet** для установки модуля Teams PowerShell. Установка модуля для всех пользователей в системе требует повышенных привилегий. Начните сеанс PowerShell с администратором **"Запуск"** в Windows или используйте команду `sudo` в macOS или Linux:
+Используйте **командлеты PowerShellGet** для установки модуля Teams PowerShell. Установка модуля для всех пользователей в системе требует повышенных привилегий. Начните сеанс PowerShell с использованием команды **"Запуск** от администратора" в Windows или воспользуйтесь командой `sudo` в macOS или Linux:
 
 ```powershell
 Install-Module MicrosoftTeams
@@ -61,7 +61,7 @@ Are you sure you want to install the modules from 'PSGallery'?
 ## <a name="install-teams-powershell-public-preview"></a>Установка открытой предварительной версии Teams PowerShell
 
 > [!NOTE]
-> Если вы используете общедоступный предварительный выпуск Teams PowerShell, настоятельно рекомендуем сначала удалить Соединитель Skype для бизнеса Online.
+> Если вы используете общедоступный предварительный выпуск Teams PowerShell, настоятельно рекомендуем сначала удалить соединитель Skype для бизнеса Online.
 
 Установка открытого предварительного модуля Teams PowerShell для всех пользователей в системе требует повышенных привилегий. Начните сеанс PowerShell с использованием команды **"Запуск** от администратора" в Windows или используйте команду `sudo` в macOS или Linux.
 
@@ -84,14 +84,16 @@ Install-Module MicrosoftTeams -AllowPrerelease -RequiredVersion "1.1.9-preview"
 
 > [!NOTE]
 >
-> Соединитель Skype для бизнеса Online сейчас является частью последнего модуля Teams PowerShell.
+> Соединитель Skype для бизнеса Online сейчас входит в состав последнего модуля Teams PowerShell.
 > Если вы используете последний общедоступный выпуск [Teams PowerShell,](https://www.powershellgallery.com/packages/MicrosoftTeams/)вам не нужно устанавливать соединитель Skype для бизнеса Online.
 
+
 ```powershell
-Import-Module -Name MicrosoftTeams
-$userCredential = Get-Credential
-$sfbSession = New-CsOnlineSession -Credential $userCredential
-Import-PSSession $sfbSession
+  # When using Teams PowerShell Module
+
+   Import-Module MicrosoftTeams
+   $credential = Get-Credential
+   Connect-MicrosoftTeams -Credential $credential
 ```
 
 ## <a name="sign-in"></a>Вход
@@ -99,7 +101,7 @@ Import-PSSession $sfbSession
 Чтобы приступить к работе с Teams PowerShell, войте учетные данные Azure.
 
 > [!NOTE]
-> Если вы используете последний общедоступный предварительный выпуск [Teams PowerShell,](https://www.powershellgallery.com/packages/MicrosoftTeams/)вам не нужно устанавливать соединитель Skype для бизнеса Online.
+> Если вы используете последний общедоступный предварительный выпуск [Teams PowerShell,](https://www.powershellgallery.com/packages/MicrosoftTeams/)вам не нужно устанавливать Соединитель Skype для бизнеса Online.
 
 ```powershell
 $credential = Get-Credential
@@ -121,7 +123,7 @@ Update-Module MicrosoftTeams
 ```
 
 > [!WARNING]
-> Если teams PowerShell уже импортируется в сеанс PowerShell, обновление модуля не будет работать. Закроем PowerShell и снова откройте новый сеанс PowerShell с повышенными уровнями.
+> Если teams PowerShell уже импортируется в сеанс PowerShell, обновление модуля будет невозмауэром. Закроем PowerShell и снова откройте новый сеанс PowerShell с повышенными уровнями.
 
 
 ## <a name="uninstall-teams-powershell"></a>Удалить Teams PowerShell
