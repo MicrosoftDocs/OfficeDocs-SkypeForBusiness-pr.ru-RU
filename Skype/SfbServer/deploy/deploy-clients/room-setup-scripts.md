@@ -1,5 +1,5 @@
 ---
-title: Сценарии настройки комнат системы комнат Skype
+title: Сценарии настройки комнат в Skype Room System
 ms.author: v-cichur
 author: cichur
 manager: serdars
@@ -11,21 +11,21 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: a66067d2-22b0-48f1-a5d0-e0cd0ece2e5a
-description: В этом разделе вы найдете примеры сценариев для предоставления учетных записей системы комнат Skype.
-ms.openlocfilehash: 0ea4466787099bfe24e6ddf53fac40073892aea8
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Ознакомьтесь с этой темой, чтобы найти примеры сценариев для создания учетных записей Skype Room System.
+ms.openlocfilehash: 93a97b42f3b800011030787ea39cfb503767e42c
+ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49820829"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "50569371"
 ---
-# <a name="skype-room-system-room-setup-scripts"></a>Сценарии настройки комнат системы комнат Skype
+# <a name="skype-room-system-room-setup-scripts"></a>Сценарии настройки комнат в Skype Room System
  
-В этом разделе вы найдете примеры сценариев для предоставления учетных записей системы комнат Skype.
+Ознакомьтесь с этой темой, чтобы найти примеры сценариев для создания учетных записей Skype Room System.
   
-В этом разделе иллюстрируют примеры сценариев, которые можно использовать для предоставления учетных записей системы комнат Skype. Эти сценарии используются исключительно в иллюстративных целях и должны использоваться только после консультации с ИТ-специалистом или администратором домена.
+В этом разделе иллюстрируют примеры сценариев, которые можно использовать для обеспечения учетных записей системы skype Room System. Эти скрипты только для иллюстративных целей. Их следует использовать только после консультации с ИТ-экспертом или администратором домена.
   
-## <a name="example-setup-script-skype-for-business-and-exchange-server-on-premises"></a>Пример сценария установки: Skype для бизнеса и Exchange Server (локально)
+## <a name="example-setup-script-skype-for-business-and-exchange-server-on-premises"></a>Пример сценария установки: Skype для бизнеса и Exchange Server (On Premises)
 
 ```powershell
 # On Exchange 
@@ -41,13 +41,13 @@ Set-CsMeetingRoom -Identity "conference room" -LineURI "tel:+14255551669;ext=166
 
 ## <a name="example-setup-script-skype-for-business-and-exchange-server-online"></a>Пример сценария установки: Skype для бизнеса и Exchange Server Online
 
-Перед запуском сценария обязательно просмотрите следующие предварительные условия:
+Убедитесь, что перед запуском сценария вы рассмотрели следующие условия:
   
 - Microsoft Online Services Sign-In для ИТ-специалистов BETA
     
-- Windows Azure active Directory module for Windows PowerShell (64-bit version) or (32-bit version)
+- Windows Azure Active Directory Module для Windows PowerShell (64-битная версия) или (32-битная версия)
     
-- Windows PowerShell модуля для Lync Online
+- Модуль Teams PowerShell
     
 - Перезагрузка при необходимости
     
@@ -59,9 +59,9 @@ $rmURI="$rm@$org"$newpass='MyPass@word1'# This Section Signs into Remote PowerSh
 $cred=Get-Credential admin@$org
 $sess=New-PSSession -ConfigurationName microsoft.exchange -Credential $cred -AllowRedirection -Authentication basic -ConnectionUri https://ps.outlook.com/powershell
 Import-PSSession $sess
-Import-Module LyncOnlineConnector
-$cssess=New-CsOnlineSession -Credential $cred
-Import-PSSession $cssess -AllowClobber
+Import-Module MicrosoftTeams
+$credential = Get-Credential
+Connect-MicrosoftTeams -Credential $credential
 Connect-MsolService -Credential $cred# This Section Create the Calendar Mailbox and Enables it for Lync
 New-Mailbox -MicrosoftOnlineServicesID $rmURI -room -Name $rm -RoomMailboxPassword (ConvertTo-SecureString $newpass -AsPlainText -Force)
  -EnableRoomMailboxAccount $true
@@ -74,5 +74,4 @@ Get-CsOnlineUser -Identity 'admin@YourTenantName.onmicrosoft.com' | fl *registra
 Enable-CsMeetingRoom -Identity $rmURI -RegistrarPool "sippoolsn20a07.infra.lync.com" -SipAddressType EmailAddress
 # If the previous command fails with an error regarding the account name not being found you might need to wait and try again in a few minutes. If you wait too long, you'll need to sign in again to remote PowerShell as detailed above.
 ```
-
 

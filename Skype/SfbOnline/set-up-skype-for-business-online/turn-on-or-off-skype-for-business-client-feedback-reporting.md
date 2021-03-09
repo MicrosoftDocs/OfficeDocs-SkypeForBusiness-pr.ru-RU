@@ -19,22 +19,22 @@ f1.keywords:
 ms.custom:
 - Setup
 description: Вы можете предоставить пользователям Skype для бизнеса возможность использования встроенного средства обратной связи в приложении Skype для бизнеса, позволяя пользователям сообщать о проблемах и напрямую сообщать майкрософт об их впечатлениях.
-ms.openlocfilehash: 3b91bc88c20450b7c0d9c5705bceec53af5f9edb
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: 9b9134f857be540a528ca12b51a4793c01f70fa4
+ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814188"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "50569005"
 ---
 # <a name="turn-on-or-off-skype-for-business-client-feedback-reporting"></a>Включение и выключение отчетов и отзывов клиентов в Skype для бизнеса
 
-Вы можете предоставить своим пользователям Skype для бизнеса Online возможность использования встроенного средства обратной связи в приложении Skype для бизнеса, позволяя пользователям сообщать о проблемах и напрямую сообщать майкрософт об их впечатлениях. 
+Вы можете предоставить пользователям Skype для бизнеса Online возможность использования встроенного средства обратной связи в приложении Skype для бизнеса, позволяя пользователям сообщать о проблемах и напрямую сообщать майкрософт об их впечатлениях. 
   
-![Skype for Business client reporting.](../images/eac13837-04d9-4da1-8e80-54612cf6650d.png)
+![Значок "Предоставить отзыв"](../images/eac13837-04d9-4da1-8e80-54612cf6650d.png)
   
 С помощью этого средства пользователь может скопировать журналы из приложения на своем устройстве, чтобы помочь корпорации Майкрософт лучше изучить и устранить проблемы, которые могут возникнуть у него. 
   
-![Skype for Business client reporting.](../images/2dfb5603-1d69-41fc-a43e-91a3379acbe0.png)
+![Сообщение о проблеме с помощью значка "Параметры"](../images/2dfb5603-1d69-41fc-a43e-91a3379acbe0.png)
   
 Кроме того, с помощью параметра  _EnableOnlineFeedbackScreenshot_ пользователи могут добавлять в отзывы снимки экранов своих устройств.
   
@@ -43,42 +43,26 @@ ms.locfileid: "47814188"
 > [!IMPORTANT]
 > Журналы, собранные средством обратной связи приложения, хранятся в США не более 90 дней, пока ведется работа по ее исследованию. В связи с этим просим не активировать данную функцию, если это условие нарушает действующую в вашей организации политику защиты данных. 
   
-## <a name="verify-and-start-windows-powershell"></a>Проверка и запуск Windows PowerShell
+## <a name="start-windows-powershell"></a>Начать Windows PowerShell
 
-- **Убедитесь в том, что у вас установлена оболочка Windows PowerShell 3.0 или более поздней версии**
+> [!NOTE]
+> Соединитель Skype для бизнеса Online сейчас входит в состав последнего модуля Teams PowerShell. Если вы используете последний общедоступный выпуск Teams PowerShell, вам не нужно устанавливать соединитель Skype для бизнеса Online.
+1. Установите модуль [Teams PowerShell.](https://docs.microsoft.com/microsoftteams/teams-powershell-install)
     
-1. To verify that you are running version 3.0 or higher: **Start Menu** > **Windows PowerShell**.
-    
-2. Проверьте версию, введя в окне _Windows PowerShell_ команду **Get-Host**.
-    
-3. Если у вас более ранняя версия, вам необходимо скачать и установить обновления для Windows PowerShell. Чтобы [скачать Windows Management Framework 4.0](https://go.microsoft.com/fwlink/?LinkId=716845) и обновить Windows PowerShell до версии 4.0, см. Windows PowerShell 4.0. При появлении запроса перезагрузите компьютер.
-    
-4. Вам также потребуется установить модуль Windows PowerShell для Teams, который позволяет создавать удаленные сеансы Windows PowerShell подключения к Skype для бизнеса Online. 
-    
-Если вам нужно узнать больше, см. подключение к всем службам [Microsoft 365 или Office 365](https://technet.microsoft.com/library/dn568015.aspx)в одном окне Windows PowerShell окна.
-    
-- **Запуск сеанса Windows PowerShell**
-    
-1. From the **Start Menu** > **Windows PowerShell**.
-    
-2. В **окне Windows PowerShell** подключения к Microsoft 365 или Office 365, вы работающим с помощью:
-    
-  > [!NOTE]
-  > Соединитель Skype для бизнеса Online сейчас является частью последнего модуля Teams PowerShell.
-  >
-  > Если вы используете последний общедоступный выпуск [Teams PowerShell,](https://www.powershellgallery.com/packages/MicrosoftTeams/)вам не нужно устанавливать соединитель Skype для бизнеса Online.
- 
-   ```PowerShell
-   Import-Module -Name MicrosoftTeams
-    $credential = Get-Credential
-    $session = New-CsOnlineSession -Credential $credential
-    Import-PSSession $session
+2. Откройте Windows PowerShell и запустите следующие команды: 
+
+   ```powershell
+   # When using Teams PowerShell Module
+
+   Import-Module MicrosoftTeams
+   $userCredential = Get-Credential
+   Connect-MicrosoftTeams -Credential $userCredential
    ```
-   Если вам нужна дополнительные сведения о запуске Windows PowerShell, см. сведения о подключении к всем службам [Microsoft 365 или Office 365](https://technet.microsoft.com/library/dn568015.aspx) в одном окне Windows PowerShell или настройка компьютера[для](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)Windows PowerShell.
-    
+   Если вам нужна дополнительные сведения о запуске Windows PowerShell, см. сведения о подключении к всем службам [Microsoft 365 или Office 365](https://technet.microsoft.com/library/dn568015.aspx) в одном окне Windows PowerShell или настройка компьютера [для](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)Windows PowerShell.
+   
 ## <a name="turn-on-client-app-feedback-reporting-for-all-the-users-in-your-organization"></a>Включение средства обратной связи в клиентском приложении для всех пользователей в организации
 
-Чтобы включить отчеты о отзывах для пользователей в организации и разрешить им отправлять снимки экрана устройств, запустите 2
+Чтобы включить отчеты о отзывах для пользователей в организации и разрешить им отправлять снимки экрана устройств, запустите 3
  
   ```PowerShell
   Set-CsClientPolicy -Identity EnableOnlineFeedback -EnableOnlineFeedback $true -EnableOnlineFeedbackScreenshots $true

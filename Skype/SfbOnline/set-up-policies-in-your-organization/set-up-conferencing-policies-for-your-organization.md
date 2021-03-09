@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: "Конференц-связь \x97 это важная часть Skype для бизнеса online: она позволяет группам пользователей объединяться, чтобы просматривать презентации и видео, делиться приложениями, обмениваться файлами, общаться и совместно работать другими способами."
-ms.openlocfilehash: f5b420b9a5f288a0c733d3dfdc7ebc45fb323f32
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: 9a2e18ad23eaa08813c87e83058ecc0dcd1dfec1
+ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814758"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "50569211"
 ---
 # <a name="set-up-conferencing-policies-for-your-organization"></a>Настройка политик аудиоконференций в организации
 
@@ -40,41 +40,24 @@ ms.locfileid: "47814758"
 
 > [!NOTE]
 > Для всех параметров политики конференц-связи в Skype для бизнеса online нужно использовать Windows PowerShell. **Нельзя использовать** **Центр администрирования Skype для бизнеса**. 
-  
-### <a name="verify-and-start-windows-powershell"></a>Проверка и запуск Windows PowerShell
 
-- **Убедитесь в том, что у вас установлена оболочка Windows PowerShell 3.0 или более поздней версии**
-    
-    1. To verify that you are running version 3.0 or higher: **Start Menu** > **Windows PowerShell**.
-        
-    2. Проверьте версию, введя в окне _Windows PowerShell_ команду **Get-Host**.
-        
-    3. Если у вас нет версии 3.0 или более высокой, необходимо скачать и установить обновления для Windows PowerShell. Чтобы [скачать Windows Management Framework 4.0](https://go.microsoft.com/fwlink/?LinkId=716845) и обновить Windows PowerShell до версии 4.0, см. Windows PowerShell 4.0. Перезагрузите компьютер, когда вам будет предложено.
-        
-    4. Вам также потребуется установить модуль Windows PowerShell для Teams, который позволяет создавать удаленные сеансы Windows PowerShell подключения к Skype для бизнеса Online.
-    
-    Если вам нужно узнать больше, см. подключение к всем службам [Microsoft 365 или Office 365](https://technet.microsoft.com/library/dn568015.aspx)в одном окне Windows PowerShell окна.
-    
-- **Запуск сеанса Windows PowerShell**
-    
-    1. From the **Start Menu** > **Windows PowerShell**.
-        
-    2. В **окне Windows PowerShell** подключения к Microsoft 365 или Office 365, вы работающим с помощью:
-        
-     > [!NOTE]
-     > Соединитель Skype для бизнеса Online сейчас является частью последнего модуля Teams PowerShell.
-     >
-     > Если вы используете последний общедоступный выпуск [Teams PowerShell,](https://www.powershellgallery.com/packages/MicrosoftTeams/)вам не нужно устанавливать соединитель Skype для бизнеса Online.
+### <a name="start-windows-powershell"></a>Начать Windows PowerShell
 
-       ```PowerShell      
-        Import-Module -Name MicrosoftTeams
-        $credential = Get-Credential
-        $session = New-CsOnlineSession -Credential $credential
-        Import-PSSession $session
-       ```
+ > [!Note]
+> Соединитель Skype для бизнеса Online сейчас входит в состав последнего модуля Teams PowerShell. Если вы используете последний общедоступный выпуск Teams PowerShell, вам не нужно устанавливать соединитель Skype для бизнеса Online.
+1. Установите модуль [Teams PowerShell.](https://docs.microsoft.com/microsoftteams/teams-powershell-install)
+    
+2. Откройте Windows PowerShell и запустите следующие команды: 
 
+   ```powershell
+   # When using Teams PowerShell Module 
+   
+   Import-Module MicrosoftTeams
+   $credential = Get-Credential
+   Connect-MicrosoftTeams -Credential $credential
+   ```
    Если вам нужна дополнительные сведения о запуске Windows PowerShell, см. сведения о подключении к всем службам [Microsoft 365 или Office 365](https://technet.microsoft.com/library/dn568015.aspx) в одном окне Windows PowerShell или настройка компьютера [для](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)Windows PowerShell.
-    
+      
 ### <a name="block-file-transfers-and-desktop-sharing-during-meetings"></a>Блокирование перемещения файлов и демонстрации рабочего стола во время собраний
 
 - Чтобы создать политику для настроек, запустите следующую команду:
@@ -109,7 +92,7 @@ ms.locfileid: "47814758"
    ```
    Подробнее о [cmdlet Grant-CsConferencingPolicy.](https://technet.microsoft.com/library/mt779156.aspx)
     
-Если вы уже создали политику, то можете изменить ее с помощью cmdlet [Set-CsConferencingPolicy,](https://technet.microsoft.com/library/mt779157.aspx) а затем применить параметры к пользователям с помощью cmdlet [Grant-CsConferencingPolicy.](https://technet.microsoft.com/library/mt779156.aspx)
+Если политика уже создана, вы можете изменить ее с помощью cmdlet [Set-CsConferencingPolicy,](https://technet.microsoft.com/library/mt779157.aspx) а затем применить параметры к пользователям с помощью cmdlet [Grant-CsConferencingPolicy.](https://technet.microsoft.com/library/mt779156.aspx)
   
 ### <a name="block-anonymous-participants-from-recording-meetings-and-external-users-from-saving-meeting-content"></a>Запрет записи собраний анонимными участниками и сохранения содержимого собрания внешними пользователями
 

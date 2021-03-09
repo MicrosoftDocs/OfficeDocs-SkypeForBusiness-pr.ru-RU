@@ -19,52 +19,31 @@ f1.keywords:
 ms.custom:
 - PowerShell
 description: Download, install, and then use the Skype for Business Online Connector to create a remote Windows PowerShell session that connects to Skype for Business Online.
-ms.openlocfilehash: 3928e77e5bac77dbfe89f7be5e762dd0d8ff93eb
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: 5883eba8dc4dd959e67e45aa27413624e0f5d941
+ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814568"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "50568945"
 ---
-# <a name="download-and-install-the-skype-for-business-online-connector-module"></a>Скачайте и установите модуль Skype для бизнеса Online Connector
+# <a name="download-and-install-the-teams-powershell-module"></a>Скачивание и установка модуля Teams PowerShell
 
 > [!NOTE]
-> Последний [общедоступный выпуск Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/) интегрирован со Skype для бизнеса Online Connector, что обеспечивает единый модуль для управления Teams PowerShell.
 
-Модуль Skype для бизнеса Online Connector включает командлет **New-CsOnlineSession,** который позволяет создавать удаленные сеансы Windows PowerShell подключения к Skype для бизнеса Online. Этот модуль, который поддерживается только на 64-битных компьютерах (дополнительные сведения см. в руководстве "Настройка компьютера для управления Skype для бизнеса Online с помощью [Windows PowerShell"),](set-up-your-computer-for-windows-powershell.md) можно скачать из Центра загрузки Майкрософт по [https://www.microsoft.com/download/details.aspx?id=39366](https://www.microsoft.com/download/details.aspx?id=39366) ссылке. Скачайте SkypeOnlinePowershell.exe и выполните следующую процедуру:
-  
-1. Дважды щелкните файл **SkypeOnlinePowershell.exe**.
+> Последний [общедоступный выпуск Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/) интегрирован со Skype для бизнеса Online Connector, что обеспечивает единый модуль для управления PowerShell в Teams и Skype для бизнеса Online.
+
+
+1. Установите модуль [Teams PowerShell.](https://docs.microsoft.com/microsoftteams/teams-powershell-install)
     
-2. В мастере установки Windows PowerShell для Skype для бизнеса online на странице **Условия лицензионного соглашения на использование программного обеспечения корпорации Майкрософт** щелкните **Я принимаю условия лицензионного соглашения** и нажмите кнопку **Установить**. Если появится диалоговое окно **Контроль учетных записей**, нажмите кнопку **Да** для продолжения установки.
-    
-3. На странице **Установка модуля Windows PowerShell для Skype для бизнеса Online завершена** нажмите кнопку **Готово**.
-    
-Программа установки копирует на ваш компьютер модуль Модуль соединителя Skype для бизнеса Online и командлет **New-CsOnlineSession**. Чтобы запустить этот модуль, откройте сеанс Windows PowerShell с правами администратора и выполните следующую команду:
-  
-```PowerShell
-Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
-```
+2. Откройте Windows PowerShell и запустите следующие команды: 
 
-Если вы не хотите вводить эту команду каждый раз при запуске Windows PowerShell, добавьте ее в свой профиль Windows PowerShell. Для этого в командной строке Windows PowerShell введите следующую команду и нажмите клавишу ВВОД:
-  
-```PowerShell
-notepad.exe $profile
-```
-
- В окне редактора "Блокнот" вставьте следующую строку после команд, уже добавленных в профиль (если таковые есть):
-  
-```PowerShell
-Import-Module SkypeOnlineConnector
-```
-
-Сохраните файл. В следующий раз при запуске Windows PowerShell модуль будет импортироваться автоматически Модуль соединителя Skype для бизнеса Online. Обратите внимание, что если запуск Windows PowerShell выполнен не от имени администратора, появится сообщение об ошибке и модуль не будет загружен.
-  
-Вместе с модулем Модуль соединителя Skype для бизнеса Online из файла SkypeOnlinePowershell.exe также устанавливаются следующие дополнительные компоненты: 1) Библиотека клиентской среды удостоверений (IDCRL), которая используется для проверки подлинности клиентов при доступе к Skype для бизнеса online. 2) Среда .NET Framework 4.5. 3) Распространяемый пакет Microsoft Visual C++ 2012 (x64) (версия 11.0.50727). Среда .NET Framework 4.5 реализует необходимую инфраструктуру для построения и выполнения приложений .NET, включая Windows PowerShell. Распространяемый пакет Visual C++ обеспечивает установку компонентов среды выполнения Visual C++ на компьютерах без среды Microsoft Visual Studio 2012.
-  
-Чтобы проверить версию установленного на вашем компьютере модуля соединителя, откройте панель управления, выберите **Программы и компоненты** и просмотрите значение, представленное в разделе **Модуль Windows PowerShell для Skype для бизнеса Online**.
+   ```powershell
+   # When using Teams PowerShell Module
+   Import-Module MicrosoftTeams
+   $credential = Get-Credential
+   Connect-MicrosoftTeams -Credential $credential
+   ```
+   Если вам нужна дополнительные сведения о запуске Windows PowerShell, см. сведения о подключении к всем службам [Microsoft 365 или Office 365](https://technet.microsoft.com/library/dn568015.aspx) в одном окне Windows PowerShell или настройка компьютера [для](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)Windows PowerShell.
   
 ## <a name="related-topics"></a>Статьи по теме
-[Настройка компьютера для управления skype для бизнеса с помощью Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
-
-  
- 
+[Настройка компьютера для управления интернет-приложением Skype для бизнеса с помощью Windows PowerShell](set-up-your-computer-for-windows-powershell.md)

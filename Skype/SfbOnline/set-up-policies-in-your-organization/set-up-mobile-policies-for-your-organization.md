@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: Можно настроить способ подключения к Skype для бизнеса Online с помощью приложения Skype для бизнеса на мобильных устройствах, например с помощью функции, которая позволяет пользователям совершать и принимать звонки по рабочим, а не личным номерам мобильных телефонов. Можно также использовать политики мобильных устройств, чтобы запросить подключение Wi-Fi при звонках.
-ms.openlocfilehash: 5094a536a636300ea70a7d358e24ee5c0f511379
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: 36162c64490edf58bbfac5c7022bebf6f39595ca
+ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814748"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "50569201"
 ---
 # <a name="set-up-mobile-policies-for-your-organization"></a>Настройка политик мобильных устройств в организации
 
@@ -37,40 +37,23 @@ ms.locfileid: "47814748"
 > [!NOTE]
 > Для всех параметров политики мобильных устройств в Skype для бизнеса online нужно использовать Windows PowerShell. **Нельзя использовать** **Центр администрирования Skype для бизнеса**. 
   
-### <a name="verify-and-start-windows-powershell"></a>Проверка и запуск Windows PowerShell
+### <a name="start-windows-powershell"></a>Начать Windows PowerShell
 
-- **Убедитесь в том, что у вас установлена оболочка Windows PowerShell 3.0 или более поздней версии**
+> [!NOTE]
+> Соединитель Skype для бизнеса Online сейчас входит в состав последнего модуля Teams PowerShell. Если вы используете последний общедоступный выпуск Teams PowerShell, вам не нужно устанавливать соединитель Skype для бизнеса Online.
+1. Установите модуль [Teams PowerShell.](https://docs.microsoft.com/microsoftteams/teams-powershell-install)
     
-    1. To verify that you are running version 3.0 or higher: **Start Menu** > **Windows PowerShell**.
-        
-    2. Проверьте версию, введя в окне _Windows PowerShell_ команду **Get-Host**.
-        
-    3. Если у вас нет версии 3.0 или более высокой, необходимо скачать и установить обновления для Windows PowerShell. Чтобы [скачать Windows Management Framework 4.0](https://go.microsoft.com/fwlink/?LinkId=716845) и обновить Windows PowerShell до версии 4.0, см. Windows PowerShell 4.0. Перезагрузите компьютер, когда вам будет предложено.
-        
-    4. Вам также потребуется установить модуль Windows PowerShell для Teams, который позволяет создавать удаленные сеансы Windows PowerShell подключения к Skype для бизнеса Online.
-    
-    Если вам нужно узнать больше, см. подключение к всем службам [Microsoft 365 или Office 365](https://technet.microsoft.com/library/dn568015.aspx)в одном окне Windows PowerShell окна.
-    
-- **Запуск сеанса Windows PowerShell**
-    
-    1. From the **Start Menu** > **Windows PowerShell**.
-        
-    2. В **окне Windows PowerShell** подключения к Microsoft 365 или Office 365, вы работающим с помощью:
-        
-       > [!NOTE]
-       > Соединитель Skype для бизнеса Online сейчас является частью последнего модуля Teams PowerShell.
-       >
-       > Если вы используете последний общедоступный выпуск [Teams PowerShell,](https://www.powershellgallery.com/packages/MicrosoftTeams/)вам не нужно устанавливать соединитель Skype для бизнеса Online.
+2. Откройте Windows PowerShell и запустите следующие команды: 
 
-       ```PowerShell      
-        Import-Module -Name MicrosoftTeams
-        $credential = Get-Credential
-        $session = New-CsOnlineSession -Credential $credential
-        Import-PSSession $session
-       ```
+   ```powershell
+   # When using Teams PowerShell Module
 
+   Import-Module MicrosoftTeams
+   $credential = Get-Credential
+   Connect-MicrosoftTeams -Credential $credential
+   ```
    Если вам нужна дополнительные сведения о запуске Windows PowerShell, см. сведения о подключении к всем службам [Microsoft 365 или Office 365](https://technet.microsoft.com/library/dn568015.aspx) в одном окне Windows PowerShell или настройка компьютера [для](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)Windows PowerShell.
-
+   
 ### <a name="require-a-wifi-connection-for-video-for-a-user"></a>Требование подключения Wi-Fi для видеосвязи с пользователем
 
 - Чтобы создать политику для настроек, запустите следующую команду:
@@ -104,7 +87,7 @@ ms.locfileid: "47814748"
    ```
    Подробнее о [cmdlet Grant-CsMobilityPolicy.](https://technet.microsoft.com/library/mt779149.aspx)
     
-  Если вы уже создали политику, то можете изменить ее с помощью cmdlet [Set-CsMobilityPolicy,](https://technet.microsoft.com/library/mt779147.aspx) а затем с помощью cmdlet [Grant-CsMobilityPolicy](https://technet.microsoft.com/library/mt779149.aspx) применить параметр к пользователям.
+  Если вы уже создали политику, вы можете изменить существующую политику с помощью cmdlet [Set-CsMobilityPolicy,](https://technet.microsoft.com/library/mt779147.aspx) а затем с помощью cmdlet [Grant-CsMobilityPolicy](https://technet.microsoft.com/library/mt779149.aspx) применить параметр к пользователям.
   
 ### <a name="prevent-a-user-from-making-voice-over-ip-calls-using-a-mobile-device"></a>Запрет звонков по VoIP на мобильных устройствах
 

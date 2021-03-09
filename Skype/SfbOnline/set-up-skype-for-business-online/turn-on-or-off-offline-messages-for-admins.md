@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: Learn how to send Skype for Business instant messages even when your contacts aren't signed in using PowerShell.
-ms.openlocfilehash: 12d5a6c736616cb9448dc1f75a6f67424d940d7f
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: ec5aad56ef7557c9b7854c6844d65ff3799d1d1c
+ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814608"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "50568759"
 ---
 # <a name="turn-on-or-off-offline-messages-for-admins"></a>Включение и отключение отправки сообщений в автономном режиме для администраторов
 
@@ -42,41 +42,20 @@ ms.locfileid: "47814608"
 
 ## <a name="to-get-you-started"></a>Чтобы начать работу, можно сделать следующее
 
-## #
+> [!NOTE]
+> Соединитель Skype для бизнеса Online сейчас входит в состав последнего модуля Teams PowerShell. Если вы используете последний общедоступный выпуск Teams PowerShell, вам не нужно устанавливать соединитель Skype для бизнеса Online.
+1. Установите модуль [Teams PowerShell.](https://docs.microsoft.com/microsoftteams/teams-powershell-install)
+    
+2. Откройте Windows PowerShell и запустите следующие команды: 
 
- **Убедитесь в том, что у вас установлена оболочка Windows PowerShell 3.0 или более поздней версии**
+   ```powershell
+   # When using Teams PowerShell Module
 
-1. To verify that you are running version 3.0 or higher: **Start Menu** > **Windows PowerShell**.
-
-2. Проверьте версию, введя в окне _Windows PowerShell_ команду **Get-Host**.
-
-3. Если у вас нет версии 3.0 или более высокой, необходимо скачать и установить обновления для Windows PowerShell. Чтобы [скачать Windows Management Framework 4.0](https://go.microsoft.com/fwlink/?LinkId=716845) и обновить Windows PowerShell до версии 4.0, см. Windows PowerShell 4.0. Перезагрузите компьютер, когда вам будет предложено.
-
-4. Вам также потребуется установить модуль Windows PowerShell для Teams, который позволяет создавать удаленные сеансы Windows PowerShell подключения к Skype для бизнеса Online.
-
-Больше информации приведено в статье [Подключение ко всем службам Office 365 с помощью единого окна Windows PowerShell](https://technet.microsoft.com/library/dn568015.aspx).
-
-## #
-
- **Запуск сеанса Windows PowerShell**
-
-1. From the **Start Menu** > **Windows PowerShell**.
-
-2. В **окне Windows PowerShell** подключения к Microsoft 365 или Office 365, вы работающим с помощью:
-
-   > [!NOTE]
-   > Соединитель Skype для бизнеса Online сейчас является частью последнего модуля Teams PowerShell.
-   >
-   > Если вы используете последний общедоступный выпуск [Teams PowerShell,](https://www.powershellgallery.com/packages/MicrosoftTeams/)вам не нужно устанавливать соединитель Skype для бизнеса Online.
-
-  ```PowerShell
-  Import-Module -Name MicrosoftTeams
-  $credential = Get-Credential
-  $session = New-CsOnlineSession -Credential $credential
-  Import-PSSession $session
-  ```
-
-Если вам нужна дополнительные сведения о запуске Windows PowerShell, см. сведения о подключении к всем службам [Office 365](https://technet.microsoft.com/library/dn568015.aspx) в одном окне Windows PowerShell или о том, как настроить компьютер [Windows PowerShell.](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
+   Import-Module MicrosoftTeams
+   $userCredential = Get-Credential
+   Connect-MicrosoftTeams -Credential $userCredential
+   ```
+Если вам нужна дополнительные сведения о запуске Windows PowerShell, см. сведения о подключении к всем службам [Office 365](https://technet.microsoft.com/library/dn568015.aspx) в одном окне Windows PowerShell или настройка компьютера [для](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)Windows PowerShell.
 
 ## <a name="turning-on-or-off-offline-im"></a>Включение и отключение обмена мгновенными сообщениями в автономном режиме
 
@@ -120,5 +99,3 @@ Set-CsClientPolicy -Identity Global -EnableIMAutoArchiving $False
 [Настройка Skype для бизнеса Online](set-up-skype-for-business-online.md)
 
 [Разрешение на добавление контактов Skype пользователям Skype для бизнеса](let-skype-for-business-users-add-skype-contacts.md)
-
-
