@@ -7,7 +7,7 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua
-localization_priority: Normal
+localization_priority: Priority
 search.appverid: MET150
 description: Microsoft Teams устанавливает в Outlook надстройку, которая позволяет пользователям планировать собрания Microsoft Teams из Outlook.
 f1.keywords:
@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3635d56b510c0ece55a0fdb9408c72a697436841
-ms.sourcegitcommit: 414d077b16a0ae4ea6a49e3b3d0082858174cacb
-ms.translationtype: MT
+ms.openlocfilehash: fe8b9192c9d1b85e23f2d17daa067630cebd15f2
+ms.sourcegitcommit: 31a585cc0fe6350efacf3a7771d1e590d5e4233c
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "50278559"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "50614935"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Использование надстройки "Собрание Teams" в Outlook
 =======================================
@@ -77,7 +77,7 @@ ms.locfileid: "50278559"
 
 ## <a name="authentication-requirements"></a>Требования к проверке подлинности
 
-Чтобы использовать надстройку "Собрание Teams", пользователи должны войти в Microsoft Teams с помощью современной проверки подлинности. Если пользователи не используют этот метод для входов, они по-прежнему смогут использовать клиент Teams, но не смогут планировать онлайн-собрания [Teams](https://www.microsoft.com/microsoft-teams/online-meetings) с помощью надстройки Outlook. Решить эту проблему можно одним из следующих способов:
+Чтобы использовать надстройку "Собрание Teams", пользователи должны войти в Microsoft Teams с помощью современной проверки подлинности. Если не использовать этот метод проверки подлинности для входа, работа с клиентом Teams будет возможна, но нельзя будет планировать [собрания Teams по сети](https://www.microsoft.com/microsoft-teams/online-meetings) с помощью надстройки Outlook. Решить эту проблему можно одним из следующих способов:
 
 - Если для вашей организации не настроена современная проверка подлинности, настройте ее.
 - Если современная проверка подлинности настроена, но отключена в диалоговом окне, попросите пользователей повторить вход с помощью многофакторной проверки подлинности.
@@ -182,4 +182,4 @@ ms.locfileid: "50278559"
 
 - [Устранение неполадок Teams](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
 
-- [Запланировать собрание Teams из Outlook](https://support.microsoft.com/office/schedule-a-teams-meeting-from-outlook-883cc15c-580f-441a-92ea-0992c00a9b0f)
+- [Планирование собраний Teams из Outlook](https://support.microsoft.com/office/schedule-a-teams-meeting-from-outlook-883cc15c-580f-441a-92ea-0992c00a9b0f)

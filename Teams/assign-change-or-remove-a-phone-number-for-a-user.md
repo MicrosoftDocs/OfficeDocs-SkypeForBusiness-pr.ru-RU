@@ -20,16 +20,16 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Узнайте, как назначить, изменить или удалить рабочий номер телефона для пользователей Teams, чтобы внешние организации и клиенты могли звонить.
-ms.openlocfilehash: 18c2cd710459e84f8dc7c0e09ed0fe6f8142bf2c
-ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
+ms.openlocfilehash: e606885aee1e87dfdfc9b36a5247eedba225a185
+ms.sourcegitcommit: 91fbc7c9cd43c2a5b7e6dfedf2388939f2f77d57
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46788673"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "50589623"
 ---
-# <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>Назначение, изменение и удаление номера телефона пользователя
+# <a name="assign-change-or-remove-a-phone-number-for-a-user-calling-plans"></a>Назначение, изменение или удаление номера телефона пользователя (планы звонков)
 
-При назначении планов звонков пользователям назначаются телефонные номера. В Microsoft Teams при нажатии кнопки "Звонки" будет указан номер телефона, который вы **назначаете.**
+При назначении планов звонков пользователям назначаются телефонные номера. В Microsoft Teams номер телефона, который вы назначаете, указан при нажатии кнопки **"Звонки".** Инструкции по назначению, изменению и удалению номера телефона пользователя в сценарии [](https://docs.microsoft.com/microsoftteams/direct-routing-enable-users)прямой маршрутки см. в инструкциях по прямой маршрутике, голосовой и голосовой почте.
 
 ![Номер телефона пользователя, отображаемого в Teams.](media/teams-phone-number.png)
 
@@ -47,11 +47,14 @@ ms.locfileid: "46788673"
 1. В области навигации слева щелкните **"Номера**  >  **голосовых телефонов".**
 2. На странице **"Номера телефонов"** выберите в списке ненаписаный номер и нажмите кнопку "Изменить".   
 3. В области **редактирования** в области "Назначено" найдите пользователя по отображаемом имени или имени пользователя, а затем нажмите кнопку "Назначить". 
-4. Чтобы назначить или изменить связанное местоположение для экстренного помощи, в области **"Местоположение** для экстренного помощи" наберите и выберите нужное расположение.
-5. В зависимости от того, хотите ли вы отправить пользователю сообщение электронной почты со сведениями о телефонном номере, отключите или включите для пользователя электронной почты сведения о **номере телефона.** По умолчанию этот режим уже существует. 
+4. Чтобы назначить или изменить связанное местоположение для экстренного помощи, в области **"Местоположение для** экстренного помощи" наберите и выберите нужное расположение.
+5. В зависимости от того, хотите ли вы отправить пользователю сообщение электронной почты со сведениями о номере телефона, отключите или включите для пользователя электронной почты сведения о **телефонном номере.** По умолчанию этот режим имеет значение "В этом режиме". 
 6. Щелкните **Сохранить**.
+
+Пример PowerShell см. в [примере Set-CsOnlineVoiceUser.](https://docs.microsoft.com/powershell/module/skype/set-csonlinevoiceuser?view=skype-ps)
+
     > [!NOTE]
-    > Из-за задержки между Microsoft 365 или Office 365 и Teams может быть включено до 24 часов. Если через 24 часа номер телефона не назначен правильно, обратитесь в службу поддержки продуктов для [бизнеса: справка для администраторов.](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products) Мы с радостью ответим на ваши вопросы.
+    > Because of the latency between Microsoft 365 or Office 365 and Teams, it can take up to 24 hours for users to be enabled. If the phone number isn't assigned correctly after 24 hours, [contact support for business products - Admin Help](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products). We're here to help!
 
   
 ## <a name="change-a-phone-number-for-a-user"></a>Изменение номера телефона пользователя
@@ -65,8 +68,10 @@ ms.locfileid: "46788673"
 5. Щелкните **Сохранить**.
 6. На странице **"Номера телефонов"** выберите в списке ненаписаный номер и нажмите кнопку "Изменить".   
 7. В области **редактирования** в области "Назначено" найдите пользователя по отображаемом имени или имени пользователя, а затем нажмите кнопку "Назначить". 
-8. Чтобы назначить или изменить связанное местоположение для экстренного помощи, в области **"Местоположение** для экстренного помощи" наберите и выберите нужное расположение.
+8. Чтобы назначить или изменить связанное местоположение для экстренного помощи, в области **"Местоположение для** экстренного помощи" наберите и выберите нужное расположение.
 9. Щелкните **Сохранить**.
+
+Пример PowerShell см. в [примере Set-CsOnlineVoiceUser.](https://docs.microsoft.com/powershell/module/skype/set-csonlinevoiceuser?view=skype-ps)
 
 ## <a name="remove-a-phone-number-from-a-user"></a>Удаление номера телефона пользователя
  
@@ -77,7 +82,9 @@ ms.locfileid: "46788673"
 3. На странице **"Номера телефонов"** выберите номер, который вы определили в шаге 2, и нажмите кнопку "Изменить".   
 4. В области **редактирования** в **области**"Назначено" щелкните **X,** чтобы удалить пользователя.
 5. Щелкните **Сохранить**.
-    
+
+Пример PowerShell см. в [примере Set-CsOnlineVoiceUser.](https://docs.microsoft.com/powershell/module/skype/set-csonlinevoiceuser?view=skype-ps)
+
 ## <a name="related-topics"></a>Статьи по теме
 
 [Что такое проверка адреса?](/skypeforbusiness/what-are-calling-plans-in-office-365/what-is-address-validation)
@@ -87,3 +94,7 @@ ms.locfileid: "46788673"
 [Условия и положения, распространяющиеся на экстренные вызовы](/microsoftteams/emergency-calling-terms-and-conditions)
 
 [Метка заявление об отказе для экстренных вызовов](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+
+[Set-CsOnlineVoiceUser](https://docs.microsoft.com/powershell/module/skype/set-csonlinevoiceuser?view=skype-ps)
+
+[Планы звонков для Microsoft 365](https://docs.microsoft.com/MicrosoftTeams/calling-plans-for-office-365)

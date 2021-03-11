@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f6183471d8266ff004e1028ec3102e21f73fff77
-ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
+ms.openlocfilehash: 7adc2d1cf040c778251784b19c92b1f79d7071fe
+ms.sourcegitcommit: c477aa1a7da0b6b9bea1f5d10f1395eef418bfdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49909123"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "50711646"
 ---
 <a name="sign-in-to-microsoft-teams"></a>Вход в Microsoft Teams
 ==========================
@@ -161,7 +161,7 @@ ms.locfileid: "49909123"
 Для Teams требуется подключение к Интернету. Для ознакомления с конечными точками, которые должны быть доступны для клиентов, использующих Teams в планах Office 365, государственных и других облаках, см. статью [URL-адреса и диапазоны IP-адресов Office 365](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges).
 
 > [!IMPORTANT]
-> В настоящее время Teams требуется доступ (порт TCP 443) к службе Google ssl.gstatic.com (<https://ssl.gstatic.com)> для всех пользователей, даже если вы не используете Gstatic. Скоро (в начале 2020 г.) это требование будет удалено из Teams, и мы обновим эту статью соответствующим образом.
+> В настоящее время Teams требуется доступ (порт TCP 443) к службе Google ssl.gstatic.com для всех пользователей, даже если вы не используете Gstatic. Скоро (в начале 2020 г.) это требование будет удалено из Teams, и мы обновим эту статью соответствующим образом.
 
 ## <a name="related-topics"></a>Статьи по теме
 

@@ -501,6 +501,8 @@ items:
             href: general-teams-templates-in-the-admin-console.md
           - name: Шаблоны Teams производственной категории
             href: manufacturing-teams-templates-in-the-admin-console.md
+          - name: Управление политиками шаблонов Teams
+            href: templates-policies.md
       - name: Общение с внешними пользователями
         items:
           - name: Общение с пользователями из других организаций
@@ -547,6 +549,12 @@ items:
         items:
           - name: Обзор
             href: rooms/index.md
+          - name: Управляемая служба "Комнаты Microsoft Teams"
+            items:
+              - name: Управление планированием
+                href: rooms/microsoft-teams-rooms-premium.md
+              - name: Управление доступом на основе ролей
+                href: rooms/microsoft-teams-rooms-premium-rbac.md
           - name: Планирование
             items:
               - name: Обзор планирования комнат Microsoft Teams
@@ -565,12 +573,6 @@ items:
                 href: rooms/rooms-licensing.md
               - name: Планирование управления с помощью Azure Monitor
                 href: rooms/azure-monitor-plan.md
-              - name: Управляемая служба "Комнаты Microsoft Teams"
-                items:
-                  - name: Планирование управления с помощью управляемой службы "Комнаты Microsoft Teams"
-                    href: rooms/microsoft-teams-rooms-premium.md
-                  - name: Управление доступом на основе ролей с помощью управляемой службы "Комнаты Microsoft Teams"
-                    href: rooms/microsoft-teams-rooms-premium-rbac.md
           - name: Развертывание
             items:
               - name: Обзор развертывания
@@ -1328,6 +1330,8 @@ items:
             href: manage-lists-app.md
           - name: Управление приложением "Задачи"
             href: manage-tasks-app.md
+          - name: Управление приложением "Утверждения" в Teams
+            href: approval-admin.md
           - name: '"Смены" для Teams'
             items:
               - name: '"Смены" для Teams'
@@ -1499,7 +1503,7 @@ items:
             href: devices/collab-bar-deploy.md
           - name: Комнатные устройства и решения для проведения собраний
             href: /skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
-          - name: 'IP-телефоны, сертифицированные для Microsoft Teams'
+          - name: Сертифицированные устройства Teams
             href: devices/teams-ip-phones.md
           - name: Телефоны для приложения Skype для бизнеса Online
             href: /SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
