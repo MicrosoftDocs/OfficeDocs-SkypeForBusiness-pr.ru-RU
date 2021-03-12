@@ -11,7 +11,7 @@ metadata:
   ms.date: 06/16/2020
   ms.openlocfilehash: 3a6ca55dfcc94f1370043e2fbb743b10473d106a
   ms.sourcegitcommit: 113f587a1c09d42b7394ba1195c32cb054bdf31c
-  ms.translationtype: MT
+  ms.translationtype: HT
   ms.contentlocale: ru-RU
   ms.lasthandoff: 03/05/2021
   ms.locfileid: "50508002"
@@ -34,27 +34,27 @@ productDirectory:
     url: https://aka.ms/GetstartedwithMSTeams
   - title: Использование чата и звонков в Teams
     imageSrc: https://docs.microsoft.com/office/media/icons/chat.svg
-    summary: 'Узнайте, как управлять всеми беседами на одной центральной платформе. (Аудитория: все)'
+    summary: 'Узнайте, как управлять всеми беседами с одной центральной платформы. (Аудитория: все)'
     url: https://aka.ms/ChatCallingInTeams
   - title: Проведение эффективных собраний в Teams
     imageSrc: https://docs.microsoft.com/office/media/icons/calendar-teams.svg
-    summary: 'Узнайте, как сделать собрания интереснее, продуктивнее и осмысленными. (Аудитория: все)'
+    summary: 'Узнайте, как сделать собрания более интересными, продуктивными и конструктивными. (Аудитория: все)'
     url: https://aka.ms/RunmeetingsTeams
   - title: Обзор команд и каналов в Teams
     imageSrc: https://docs.microsoft.com/office/media/icons/users-group.svg
     summary: 'Узнайте, как упростить совместную работу над проектами и в группах. (Аудитория: все)'
     url: https://aka.ms/TeamsandchannelsinTeams
-  - title: Создание пространства для совместной работы в Teams
+  - title: Создание рабочих областей совместной работы в Teams
     imageSrc: https://docs.microsoft.com/office/media/icons/structure-teams.svg
-    summary: 'Узнайте, как определить оптимальный подход к созданию рабочих области для проектов и рабочих групп. (Аудитория: все)'
+    summary: 'Обзор способов определения лучшего подхода к созданию рабочих областей для проектов и рабочих групп. (Аудитория: все)'
     url: https://aka.ms/CollaborateInTeams
   - title: Использование профессиональных советов в Teams
     imageSrc: https://docs.microsoft.com/office/media/icons/lightbulb-idea-capture-teams.svg
-    summary: 'Узнайте, как Teams помогает организовать ваш рабочий день и помогает оставаться на связи с коллегами. (Аудитория: все)'
+    summary: 'Узнайте, как Teams может помочь вам организовать свой рабочий день и оставаться на связи с коллегами. (Аудитория: все)'
     url: https://aka.ms/TeamsProTips
   - title: Освойте работу из дома с помощью Teams
     imageSrc: https://docs.microsoft.com/office/media/icons/headset-teams.svg
-    summary: 'Узнайте, как оставаться на связи с командой и поддерживать производительность. (Аудитория: все)'
+    summary: 'Рекомендации по поддержанию связи с командой и сохранению производительности. (Аудитория: все)'
     url: https://aka.ms/WFHTeams
   - title: Teams для образовательных учреждений - Вебинары
     imageSrc: https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg

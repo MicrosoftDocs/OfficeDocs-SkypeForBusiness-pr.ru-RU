@@ -765,6 +765,8 @@ items:
             href: teams-live-events/set-teams-live-events-policies-using-powershell.md
           - name: Настройка параметров прямых трансляций Teams
             href: teams-live-events/configure-teams-live-events.md
+          - name: Политики записи трансляций
+            href: teams-live-events/live-events-recording-policies.md
   - name: Голосовая связь — телефонная система и связь с ТСОП
     items:
       - name: Планирование голосового решения в Teams
