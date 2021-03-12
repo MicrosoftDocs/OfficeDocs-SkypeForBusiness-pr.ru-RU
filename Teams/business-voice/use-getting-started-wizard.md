@@ -18,12 +18,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 53636ada916fec05bf75ef8947cdab44e38644e2
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 3a3a5162f46631e00e6ffc22c19654908b4cb78b
+ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030615"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "50726240"
 ---
 # <a name="use-the-getting-started-wizard-to-set-up-business-voice"></a>Настройка корпоративной голосовой связи с помощью мастера начальной настройки
 
@@ -53,7 +53,7 @@ ms.locfileid: "49030615"
 <table>
     <tr>
         <td>Если нужно изменить адрес экстренных служб, щелкните <b>Изменить</b> и введите новый адрес. Введенный адрес будет проверен, чтобы убедиться в его правильности для вызова экстренных служб. Затем этот адрес будет назначен всем пользователям, которым вы назначаете номер на следующем этапе. Если у вас есть сотрудники в нескольких расположениях, см. <a href="./customize-business-voice.md">Настройка корпоративной голосовой связи</a> для получения сведений о добавлении и назначении дополнительных адресов экстренных служб после завершения работы мастера начальной настройки.</td>
-        <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-choose-number.png" width="400"></td></tr>
+        <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-choose-number.png" width="400" alt="wizard choose number"></td></tr>
 </table>
 
 Дополнительные сведения см. в статье [Что такое расположения для экстренного реагирования, адреса экстренных служб и маршрутизация экстренных вызовов?](../what-are-emergency-locations-addresses-and-call-routing.md)
@@ -64,7 +64,7 @@ ms.locfileid: "49030615"
     <tr>
         <td>Помимо нового местного телефонного номера можно приобрести номер для бесплатных звонков абонентов или перенести существующий номер в Microsoft 365. Чтобы настроить номер для бесплатных звонков, необходимо приобрести кредиты на связь. Чтобы перенести один или несколько номеров в Microsoft 365, перейдите в <a href="https://admin.teams.microsoft.com">Центр администрирования Teams</a> после завершения работы мастера.
         </td>
-        <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-choose-number.png" width="400">
+        <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-choose-number.png" width="400" alt="choose number">
         </td>
     </tr>
 </table>
@@ -78,7 +78,7 @@ ms.locfileid: "49030615"
     <tr>
         <td>Чтобы назначить пользовательские лицензии, выберите сотрудников организации, которым нужно совершать или принимать телефонные звонки вне Teams (например, звонить поставщикам). Количество назначаемых лицензий корпоративной голосовой связи не должно превышать доступное количество. Если нужно больше лицензий, можно приобрести дополнительные лицензии после завершения работы мастера.
         </td>
-        <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-get-numbers.png" width="400">
+        <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-get-numbers.png" width="400" alt="get numbers">
         </td>
     </tr>
 </table>
@@ -92,7 +92,7 @@ ms.locfileid: "49030615"
     <tr>
         <td>Можно отправить аудиофайл (MP3 или WAV) размером до 5 МБ, чтобы использовать его в качестве приветствия. Также можно ввести текст собственного приветствия, а система преобразования текста в речь в Microsoft 365 будет читать этот текст звонящим абонентам. Приветствие — то, что абоненты, позвонившие по номеру вашей компании, услышат в первую очередь. Для правильного звучания при использовании преобразования текста в речь может потребоваться использовать фонетическое написание.
         </td>
-        <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-greeting.png" width="400">
+        <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-greeting.png" width="400" alt="greeting">
         </td>
     </tr>
 </table>
@@ -104,7 +104,7 @@ ms.locfileid: "49030615"
         <td>Можно перенаправлять все звонки определенному пользователю или настроить голосовое меню, в котором абонент сможет выбрать нужный вариант. При создании голосового меню можно указать доступные для выбора варианты. Для выбора звонящий абонент должен нажать цифровую кнопку на клавиатуре телефона или произнести голосовую команду. При выборе каждого из вариантов в меню можно перенаправлять звонки определенному пользователю.<br><br>
         Можно отправить аудиофайл (MP3 или WAV) размером до 5 МБ с инструкциями для звонящих абонентов или ввести текст инструкций. Система преобразования текста в речь в Microsoft 365 будет читать этот текст звонящим абонентам. Вам может потребоваться написать слова фонетически, чтобы обеспечить правильное произношение.
         </td>
-        <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-call-forwarding-rules.png" width="400">
+        <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-call-forwarding-rules.png" width="400" alt="call forwarding">
         </td>
     </tr>
 </table>
@@ -117,7 +117,7 @@ ms.locfileid: "49030615"
         <td> <p>Мастер начальной настройки использует введенные вами сведения и настраивает корпоративную голосовую связь. На странице <b>Обзор</b> можно просмотреть, какие номера телефонов назначены пользователям, проверить голосовое меню, прослушать приветствие и т. д.</p>
              <p>Настройка занимает несколько минут. Если выбрать <b>Готово</b>, настройка корпоративной голосовой связи будет продолжена в фоновом режиме. Также можно просто дождаться завершения настройки. После ее завершения перейдите в раздел <b>Голосовая связь</b> в <a href="https://admin.teams.microsoft.com" target="_blank">Центре администрирования Teams</a>, чтобы настроить дополнительные функции корпоративной голосовой связи.</p>
         </td>
-        <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-finish-page.png" width="400">
+        <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-finish-page.png" width="400" alt="finish page">
         </td>
     </tr>
 </table>
