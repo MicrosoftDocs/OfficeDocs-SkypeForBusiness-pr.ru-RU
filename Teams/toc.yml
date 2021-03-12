@@ -201,44 +201,44 @@ items:
             href: setting-your-coexistence-and-upgrade-settings.md
           - name: Сначала собрания
             href: meetings-first.md
-  - name: Гибридное подключение
-    items:
-      - name: Планирование гибридного подключения
-        href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json'
-      - name: Настройка гибридного подключения
+      - name: Гибридное подключение
         items:
-          - name: Обзор
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity'
-          - name: Настройка Azure AD Connect для гибридной среды
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-azure-ad-connect'
-          - name: Настройка гибридной среды Skype для бизнеса
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-federation-with-skype-for-business-online'
-      - name: Перемещение пользователей между локальной средой и облаком
-        items:
-          - name: Обзор
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud'
-          - name: Перемещение пользователей из локальной среды в Teams
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams'
-          - name: Перемещение пользователей из локальной среды в Skype для бизнеса Online
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-skype-for-business-online'
-          - name: Перемещение пользователей из облака в локальную среду
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-the-cloud-to-on-premises'
-          - name: Управление миграцией собраний
-            href: 'https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json'
-      - name: Отключение гибридной среды для завершения миграции в облако
-        href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid'
-      - name: Развертывание топологии леса ресурсов
-        href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-a-multi-forest-environment-for-hybrid'
-      - name: Консолидация облачных хранилищ для Teams и Skype для бизнеса Online
-        items:
-          - name: Обзор
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation'
-          - name: Обновление пограничного сертификата
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-edge-certificates'
-          - name: Обновление AAD Connect для включения нескольких лесов
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-aad-connect'
-      - name: Интеграция с Exchange и SharePoint
-        href: 'https://docs.microsoft.com/SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint'
+          - name: Планирование гибридного подключения
+            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json'
+          - name: Настройка гибридного подключения
+            items:
+              - name: Обзор
+                href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity'
+              - name: Настройка Azure AD Connect для гибридной среды
+                href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-azure-ad-connect'
+              - name: Настройка гибридной среды Skype для бизнеса
+                href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-federation-with-skype-for-business-online'
+          - name: Перемещение пользователей между локальной средой и облаком
+            items:
+              - name: Обзор
+                href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud'
+              - name: Перемещение пользователей из локальной среды в Teams
+                href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams'
+              - name: Перемещение пользователей из локальной среды в Skype для бизнеса Online
+                href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-skype-for-business-online'
+              - name: Перемещение пользователей из облака в локальную среду
+                href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-the-cloud-to-on-premises'
+              - name: Управление миграцией собраний
+                href: 'https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json'
+          - name: Отключение гибридной среды для завершения миграции в облако
+            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid'
+          - name: Развертывание топологии леса ресурсов
+            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-a-multi-forest-environment-for-hybrid'
+          - name: Консолидация облачных хранилищ для Teams и Skype для бизнеса Online
+            items:
+              - name: Обзор
+                href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation'
+              - name: Обновление пограничного сертификата
+                href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-edge-certificates'
+              - name: Обновление AAD Connect для включения нескольких лесов
+                href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-aad-connect'
+          - name: Интеграция с Exchange и SharePoint
+            href: 'https://docs.microsoft.com/SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint'
   - name: 'Безопасность, конфиденциальность и соответствие требованиям'
     items:
       - name: Обзор
@@ -739,6 +739,8 @@ items:
                 href: set-the-phone-numbers-included-on-invites-in-teams.md
               - name: Начало аудиоконференции по телефону без ПИН-кода
                 href: start-an-audio-conference-over-the-phone-without-a-pin-in-teams.md
+              - name: Маскировка телефонных номеров в собраниях Teams
+                href: ptsn-mask-phone-numbers.md
           - name: Доступность аудиоконференций в различных странах и регионах
             href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
           - name: Справочные материалы
