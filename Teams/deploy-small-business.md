@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: bbadcd18050d098d9c602f7ba56da40ecafd89b4
-ms.sourcegitcommit: 6785d7f1ef5d2010ab334ec8cc46884327a53662
+ms.openlocfilehash: e93463b175c58e588cf982f17c8a83535c4b0c80
+ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/01/2021
-ms.locfileid: "50395463"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "50726220"
 ---
 # <a name="set-up-microsoft-teams-in-your-small-business"></a>Настройка Microsoft Teams в компаниях малого бизнеса
 
@@ -51,7 +51,7 @@ ms.locfileid: "50395463"
 > [!TIP]
 > Чтобы узнать, как управлять ролями команд, доступом и политиками обмена сообщениями, пройдите модуль [Управление Microsoft Teams](https://docs.microsoft.com/learn/modules/m365-teams-collab-manage-teams/) в Microsoft Learn.
 
-При планировании развертывания команд и каналов нужно решить, кто сможет создавать их, будут ли они доступны для гостевых пользователей, не входящих в состав вашей организации, и т. д. Статья [Чат, команды, каналы и приложения в Microsoft Teams](deploy-chat-teams-channels-microsoft-teams-landing-page.md) содержит немало информации о планировании чата, команд и каналов. Тем не менее, в первую очередь следует подумать о нескольких основных моментах. Щелкните решение для получения дополнительных сведений.
+При планировании развертывания команд и каналов нужно решить, кто сможет создавать их, будут ли они доступны для гостевых пользователей, не входящих в состав вашей организации, и т. д. Статья [Чат, команды, каналы и приложения в Microsoft Teams](deploy-chat-teams-channels-microsoft-teams-landing-page.md) содержит немало информации о планировании чата, команд и каналов. Тем не менее, в первую очередь следует подумать о нескольких основных моментах. Выберите решение для получения дополнительных сведений.
 
 | Решение | Описание |
 |--|--|
@@ -62,7 +62,7 @@ ms.locfileid: "50395463"
 Больше не требуется никаких действий, чтобы пользователи вашей организации смогли приступить к использованию чата, команд и каналов. Тем не менее, можно в широких пределах настраивать порядок использования Teams. Можно внести изменения сразу, а можно подождать, чтобы увидеть, как сотрудники используют Teams. Дополнительные сведения см. в следующих статьях:
 
 - [Управление политиками обмена сообщениями в Teams](messaging-policies-in-teams.md)
-- [Параметры Teams](enable-features-office-365#teams-settings)
+- [Параметры Teams](enable-features-office-365.md#teams-settings)
 
 ### <a name="meetings-and-conferencing"></a>Собрания и конференции
 
