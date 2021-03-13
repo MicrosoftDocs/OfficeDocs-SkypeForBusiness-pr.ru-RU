@@ -13,12 +13,12 @@ ms.collection:
 description: Узнайте, как управлять Microsoft Teams с помощью Teams PowerShell.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 09d11b2c697ba57ea161d0ce961cf5ba73794617
-ms.sourcegitcommit: 3f465eb6eb46db008f2b69fc4c6bb425d432dfcc
+ms.openlocfilehash: 4200c23f6320e67781353e62363d588c230fceb7
+ms.sourcegitcommit: da2a70a9b5e05d0fd7ecc150b451f5805667514c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48852180"
+ms.lasthandoff: 03/12/2021
+ms.locfileid: "50756164"
 ---
 # <a name="manage-teams-with-microsoft-teams-powershell"></a>Управление Teams с помощью Microsoft Teams PowerShell
 
@@ -45,7 +45,7 @@ New-Team -Name "Contoso Marketing" -Description "Collaboration space for Contoso
 >
 > - После подключения к Skype для бизнеса Online эти cmdlets будут доступны в сеансе PowerShell. Дополнительные сведения см. в управлении [Skype для бизнеса Online с помощью Office 365 PowerShell.](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)
 
-Найдите командлеты для управления политиками в модуле [командлетов Skype](https://www.microsoft.com/download/details.aspx?id=39366)для бизнеса.
+Найдите командлеты для управления политиками в модуле [командлетов Skype](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell)для бизнеса.
 
 Политика — это группа параметров, которые можно детально применять к отдельным пользователям. Каждый тип политики имеет собственный набор наборов для создания, просмотра, удаления и обновления сами политики, а затем назначение этих политик пользователям. Общая структура:
 
@@ -72,13 +72,13 @@ New-Team -Name "Contoso Marketing" -Description "Collaboration space for Contoso
 
 ## <a name="manage-configurations-via-powershell"></a>Управление конфигурациями с помощью PowerShell
 
-Найдите в модуле командлетов Skype для бизнеса командлеты для управления [конфигурацией.](https://www.microsoft.com/en-us/download/details.aspx?id=39366)
+Найдите в модуле командлетов Skype для бизнеса командлеты для управления [конфигурацией.](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell)
 
 Конфигурации — это сегменты параметров, которые сохраняются в службе, которые нельзя укадрять на уровне пользователя. Параметры всегда применяются во всей организации. Ваша глобальная конфигурация является единственной эффективной конфигурацией в организации. Каждый тип конфигурации имеет два основных cmdlets:
 
 - ``Get-Cs<ConfigurationName>`` (например, ``Get-CsTeamsClientConfiguration`` ):
 
-- Команды SET (например, ``Set-CsTeamsClientConfiguration`` ): настройка свойств в конфигурации этого типа. Укажите параметры, которые нужно изменить.
+- Команды SET (например, ``Set-CsTeamsClientConfiguration`` ): заведите свойства в конфигурации этого типа. Укажите параметры, которые вы хотите изменить.
    > Вы можете ссылаться на конфигурацию, которую вы хотите изменить, одним из двух способов: указать :**Identity Global** или путем ``Get-Cs<ConfigurationName>``  |  ``Set-Cs<ConfigurationName>`` запуска.
 
 ## <a name="what-can-each-admin-role-do"></a>Что может делать каждая роль администратора?

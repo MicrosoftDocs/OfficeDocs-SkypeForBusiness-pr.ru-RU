@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 90345578ceb6bbf8d8752b561511d8df85023bf1
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 52b1e50cfd29aa6916f7b816f3639953d27d6526
+ms.sourcegitcommit: da2a70a9b5e05d0fd7ecc150b451f5805667514c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46582666"
+ms.lasthandoff: 03/12/2021
+ms.locfileid: "50756245"
 ---
 <a name="manage-large-teams-in-microsoft-teams---best-practices"></a>Управление большими командами в Microsoft Teams — лучшие методики
 ======================================================
@@ -46,6 +46,12 @@ ms.locfileid: "46582666"
 **Импорт группы** в группу. При импорте в Teams группы с числом участников до 3500 человек Teams автоматически подсчитывает общее количество участников в группе. Это только разовая импорт, и будущие изменения в группе не будут автоматически обновляться в Teams.
 
 Создайте команду из большой группы **Microsoft 365.** При создании команды из большой группы Microsoft 365 ее участники  автоматически становятся частью группы Microsoft 365 и команды. В будущем, когда участники группы присоединяются к группе Microsoft 365 или покидают ее, они будут автоматически добавляться в нее или удаляться из нее.
+
+## <a name="bulk-importexportremove-members-in-a-team"></a>Массовый импорт, экспорт и удаление участников группы
+
+Портал Azure позволяет пользователям массово импортировать, экспортировать и удалять участников группы Microsoft 365. Дополнительные сведения см. в [теме "Массовый импорт участников группы".](https://docs.microsoft.com/azure/active-directory/enterprise-users/groups-bulk-import-members#to-bulk-import-group-members)
+
+Так как у каждой группы есть группа Microsoft 365, вы можете использовать портал Azure для выполнения этих операций в соответствующей группе. Операции участника будут отражены в группе в течение 24 часов.
 
 ## <a name="create-channels-to-focus-discussions"></a>Создать каналы для обсуждения
 

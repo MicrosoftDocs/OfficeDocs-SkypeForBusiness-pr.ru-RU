@@ -13,12 +13,12 @@ ms.collection:
 description: Узнайте о последних изменениях в Teams PowerShell.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3e464071252ebbd713495ba070ba3f9ae8a23c3b
-ms.sourcegitcommit: 74f12ed15e1aa1106fa47b95597bde451b0b37f4
+ms.openlocfilehash: 22688a6e4fbeb11e09eb0c2765a9de1408ce6484
+ms.sourcegitcommit: da2a70a9b5e05d0fd7ecc150b451f5805667514c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 03/12/2021
-ms.locfileid: "50741900"
+ms.locfileid: "50756175"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Заметки о выпуске Microsoft Teams PowerShell
 
@@ -27,13 +27,13 @@ ms.locfileid: "50741900"
 ## <a name="release-notes"></a>Заметки о выпуске
 
 > [!NOTE]
-> **-preview** в столбце версии ниже представляет обновления общедоступный предварительный просмотр Teams PowerShell.
+> **-preview** в столбце версии ниже представляет обновления для общедоступных предварительных версий Teams PowerShell.
 
 | Дата | Версия | Обновления |
 |------- | -------------------- | ------------------------------ |
 | Март 2021 г. | [2.0.0](https://www.powershellgallery.com/packages/MicrosoftTeams/2.0.0) | <li>Использование MSAL для проверки подлинности & авторизации</li><li>Refactored Policy Package cmdlets and adds group package assignment</li><li>Значительные улучшения производительности для Get-Team управления</li> <li>Улучшенные параметры ведения журнала и отладки для существующих cmdlets </li> <li>Добавлены команды для управления шаблонами</li> <li>Деprecation of New-CsOnlineSession</li>|
-| Февраль 2021 г. | [1.1.11-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.11-preview) | <li>Добавлены команды для управления шаблонами</li><li>Улучшения mezzo и пакетного пакета для Get-Team-управления</li> <li>Улучшенные параметры ведения журнала и отладки для существующих cmdlets </li> <li>Рефакторed Policy Package cmdlets</li>|
-| Декабрь 2020 г. | [1.1.10-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.10-preview) | <li>Обновления для командлета new-team с увеличенным количеством и длительностью спящий режим</li>|
+| Февраль 2021 г. | [1.1.11-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.11-preview) | <li>Добавлены команды для управления шаблонами</li><li>Улучшения mezzo и пакетных пакетов для Get-Team-управления</li> <li>Улучшенные параметры ведения журнала и отладки для существующих cmdlets </li> <li>Рефакторed Policy Package cmdlets</li>|
+| Декабрь 2020 г. | [1.1.10-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.10-preview) | <li>Обновления для командлета new-team с увеличенной ид. и длительностью спящий режим</li>|
 | Декабрь 2020 г. | [1.1.9-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.9-preview) | <li>Обновления интеграции Skype для бизнеса Online</li><li>Исправление запроса на дублирование в Connect-Microsoft Teams</li>|
 | Ноябрь 2020 г. | [1.1.8-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.8-preview) | <li>Добавляет настраиваемые пакеты политики</li><li>Исправления для команд отправки в иерархию targeting</li>|
 | Ноябрь 2020 г. | [1.1.7-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.7-preview) | <li>Использование MSAL для проверки подлинности & авторизации</li><li>Refactored Policy Package cmdlets and adds group package assignment</li><li>Рефакторed targeting hierarchy upload commands to use an asynchroned model</li> <li>При использовании параметра -credential пользователю будет дважды предложено сделать это при начальной проверке подлинности. Пользователи могут передавать учетные данные, используя параметр -credential, чтобы избежать дублирования запроса. Это будет исправлено в следующем выпуске.</li> |
@@ -59,8 +59,8 @@ ms.locfileid: "50741900"
 | [Connect-MicrosoftTeams](https://docs.microsoft.com/powershell/module/teams/connect-microsoftteams?view=teams-ps) | Да | Да |
 | [Disconnect-MicrosoftTeams](https://docs.microsoft.com/powershell/module/teams/disconnect-microsoftteams?view=teams-ps) | Да | Да |
 | [Get-CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/get-csbatchpolicyassignmentoperation?view=teams-ps) | Да | Да |
-| [Get-CsGroupPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/get-csgrouppolicyassignmentoperation?view=teams-ps) | Да | **Нет** |
-| [Get-CsOnlinePowerShellEndpoint](https://docs.microsoft.com/powershell/module/teams/get-csonlinepowershellendpoint?view=teams-ps) | Да | Да |
+| [Get-CsGroupPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/get-csgrouppolicyassignment?view=teams-ps) | Да | **Нет** |
+| [Get-CsOnlinePowerShellEndpoint](https://docs.microsoft.com/powershell/module/skype/get-csonlineapplicationendpoint?view=skype-ps) | Да | Да |
 | [Get-CsPolicyPackage](https://docs.microsoft.com/powershell/module/teams/get-cspolicypackage?view=teams-ps) | Да | Да |
 | [Get-CsUserPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/get-csuserpolicyassignment?view=teams-ps) | Да | Да |
 | [Get-CsUserPolicyPackage](https://docs.microsoft.com/powershell/module/teams/get-csuserpolicypackage?view=teams-ps) | Да | Да |
@@ -75,9 +75,9 @@ ms.locfileid: "50741900"
 | [New-CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation?view=teams-ps) | Да | Да |
 | [New-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/new-csgrouppolicyassignment?view=teams-ps) | Да | Да |
 | [New-CsBatchPolicyPackageAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicypackageassignmentoperation?view=teams-ps) | Да | Да |
-| [New-CsOnlineSession](https://docs.microsoft.com/powershell/module/teams/new-csonlinesession?view=teams-ps) | Да | Да |
+| [New-CsOnlineSession](https://docs.microsoft.com/powershell/module/skype/new-csonlinesession?view=skype-ps) | Да | Да |
 | [New-Team](https://docs.microsoft.com/powershell/module/teams/new-team?view=teams-ps) | Да | Да |
-| [New-TeamChannel](https://docs.microsoft.com/powershell/module/teams/new-channel?view=teams-ps) | Да | Да |
+| [New-TeamChannel](https://docs.microsoft.com/powershell/module/teams/new-teamchannel?view=teams-ps) | Да | Да |
 | [New-TeamsApp](https://docs.microsoft.com/powershell/module/teams/new-teamsapp?view=teams-ps) | Да | Да |
 | [Remove-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/remove-csgrouppolicyassignment?view=teams-ps) | Да | Да |
 | [Remove-Team](https://docs.microsoft.com/powershell/module/teams/remove-team?view=teams-ps) | Да | Да |
@@ -85,16 +85,16 @@ ms.locfileid: "50741900"
 | [Remove-TeamChannelUser](https://docs.microsoft.com/powershell/module/teams/remove-teamchanneluser?view=teams-ps) | Да | **Нет** |
 | [Remove-TeamsApp](https://docs.microsoft.com/powershell/module/teams/remove-teamsapp?view=teams-ps) | Да | Да |
 | [Remove-TeamsAppInstallation](https://docs.microsoft.com/powershell/module/teams/remove-teamsappinstallation?view=teams-ps) | Да | **Нет** |
-| [Remove-TeamTargetingHierarchy](https://docs.microsoft.com/powershell/module/teams/remove-teamtargetinghierarchy?view=teams-ps) | Да | **Нет**|
+| [Remove-TeamTargetingHierarchy](https://docs.microsoft.com/microsoftteams/set-up-your-team-hierarchy#remove-your-hierarchy) | Да | **Нет**|
 | [Remove-TeamUser](https://docs.microsoft.com/powershell/module/teams/remove-teamuser?view=teams-ps) | Да | Да |
 | [Set-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/set-csgrouppolicyassignment?view=teams-ps) | Да | **Нет** |
 | [Set-Team](https://docs.microsoft.com/powershell/module/teams/set-team?view=teams-ps) | Да | Да |
 | [Set-TeamArchivedState](https://docs.microsoft.com/powershell/module/teams/set-teamarchivedstate?view=teams-ps) | Да | Да |
 | [Set-TeamChannel](https://docs.microsoft.com/powershell/module/teams/set-teamchannel?view=teams-ps) | Да | Да |
 | [Set-TeamPicture](https://docs.microsoft.com/powershell/module/teams/set-teampicture?view=teams-ps) | Да | Да |
-| [Set-TeamsApp](https://docs.microsoft.com/powershell/module/teams/set-teamapp?view=teams-ps) | Да | Да |
-| [Set-TeamTargetingHierarchy](https://docs.microsoft.com/powershell/module/teams/set-teamtargetinghierarchy?view=teams-ps) | Да | **Нет** |
-| [Update-TeamsAppInstallation](https://docs.microsoft.com/powershell/module/teams/update-teamappinstallation?view=teams-ps) | Да | **Нет** |
+| [Set-TeamsApp](https://docs.microsoft.com/powershell/module/teams/set-teamsapp?view=teams-ps) | Да | Да |
+| [Set-TeamTargetingHierarchy](https://docs.microsoft.com/microsoftteams/set-up-your-team-hierarchy#apply-your-hierarchy) | Да | **Нет** |
+| [Update-TeamsAppInstallation](https://docs.microsoft.com/powershell/module/teams/update-teamsappinstallation?view=teams-ps) | Да | **Нет** |
 
 ## <a name="related-topics"></a>Статьи по теме
 

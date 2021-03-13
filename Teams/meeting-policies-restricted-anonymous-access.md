@@ -16,12 +16,12 @@ appliesto:
 f1.keywords: ''
 ms.custom: ''
 description: Узнайте, как удалить политику собраний RestrictedAnonymousAccess Teams для пользователей в вашей организации.
-ms.openlocfilehash: 55385cdd47f6b6c9882f8d4e8dcadc848f13755d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 16158be1c0550cf1753d8984f8760e267ab4af5c
+ms.sourcegitcommit: da2a70a9b5e05d0fd7ecc150b451f5805667514c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49806259"
+ms.lasthandoff: 03/12/2021
+ms.locfileid: "50756215"
 ---
 # <a name="remove-the-restrictedanonymousaccess-teams-meeting-policy-from-users"></a>Удаление политики собраний RestrictedAnonymousAccess Teams для пользователей
 
@@ -33,7 +33,7 @@ ms.locfileid: "49806259"
 
 ## <a name="before-you-start"></a>Перед началом работы
 
-Установите модуль Skype для бизнеса [PowerShell и подключите его.](https://www.microsoft.com/download/details.aspx?id=39366) Пошаговую инструкцию см. в [руководстве по установке Microsoft Teams PowerShell.](teams-powershell-install.md)
+Установите модуль Skype для бизнеса [PowerShell и подключите его.](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell) Пошаговую инструкцию см. в [руководстве по установке Microsoft Teams PowerShell.](teams-powershell-install.md)
 
 ## <a name="get-the-teams-meeting-policy-assignments-for-your-organization"></a>Получите назначения политики собраний Teams для вашей организации
 
