@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e8d0b51b577ca12bc454617e60671fcefe4da03d
-ms.sourcegitcommit: 6785d7f1ef5d2010ab334ec8cc46884327a53662
+ms.openlocfilehash: 22e2f243bfde3e4671727ce737ba62bc154adb0d
+ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/01/2021
-ms.locfileid: "50395466"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "50726200"
 ---
 # <a name="microsoft-teams-deployment-overview"></a>Обзор развертывания Microsoft Teams
 
@@ -40,7 +40,7 @@ ms.locfileid: "50395466"
 > Если у вас уже есть Skype для бизнеса Online или выполнено локальное развертывание Skype для бизнеса, в дополнение к разделу **Начало работы** ознакомьтесь со следующими темами.
 >
 > - [Переход со Skype для бизнеса](upgrade-start-here.md)
-> - [Планирование гибридного подключения](../Skype/SfbHybrid/hybrid/plan-hybrid-connectivity.md)
+> - Планирование гибридного подключения
 
 |Раздел  |Описание  |
 |---------|---------|
