@@ -1,6 +1,6 @@
 ---
 title: Teams для розничной торговли
-description: Узнайте о ресурсах администрирования, доступных для управления Teams и эффективного использования Teams для розничных магазинов и рабочих сотрудников.
+description: Узнайте о ресурсах администратора, доступных для управления и эффективного использования Teams для розничных магазинов и сотрудников.
 ms.topic: conceptual
 author: cichur
 ms.author: v-cichur
@@ -18,14 +18,14 @@ appliesto:
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: ab67f4e0851ac05f9d2d341c9b52407b594a3a34
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49802589"
 ---
 # <a name="teams-for-retail"></a>Teams для розничной торговли
 
-Используйте ресурсы администратора здесь, чтобы управлять Teams и использовать все возможности Teams для розничных магазинов и рабочих сотрудников.
+Используйте ресурсы администратора для управления и эффективного использования Teams для розничных магазинов и сотрудников.
 
 |               |               |
 | ------------- | ------------- |
