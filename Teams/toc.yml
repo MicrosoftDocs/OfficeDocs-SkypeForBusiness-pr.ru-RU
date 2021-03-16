@@ -469,6 +469,8 @@ items:
         href: sharing-files-in-teams.md
       - name: Teams и интеграция электронной почты Outlook
         href: teams-outlook-email-integration.md
+      - name: Поделиться в Teams из Outlook
+        href: teams-outlook-share-teams.md
       - name: Управление политиками обмена сообщениями
         href: messaging-policies-in-teams.md
       - name: "Присутствие пользователей в\_Teams"
@@ -1438,6 +1440,14 @@ items:
     items:
       - name: Ограничения и спецификации для Teams
         href: limits-specifications-teams.md
+      - name: Переход с Kaizala на Microsoft Teams
+        items:
+          - name: Начало работы
+            items:
+              - name: Планирование перехода
+              - name: Подготовка организации к использованию Teams
+              - name: Реализация перехода
+                href: implement-your-move.md
       - name: Лицензирование
         items:
           - name: Управление доступом пользователей к Teams
@@ -1511,6 +1521,10 @@ items:
             href: devices/teams-ip-phones.md
           - name: Телефоны для приложения Skype для бизнеса Online
             href: /SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
+          - name: Оповещения и мониторинг в Teams
+            href: alerts/teams-admin-alerts.md
+          - name: Мониторинг работоспособности устройств в Teams
+            href: alerts/device-health-status.md
       - name: PowerShell в Teams
         items:
           - name: Обзор
