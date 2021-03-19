@@ -18,16 +18,19 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9aa7b0a26e947eaa961db5d5be3b793d50474867
-ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
+ms.openlocfilehash: bb5e415128baae6bfc458b5d0000128010a9b5cd
+ms.sourcegitcommit: 71b9b5ec80014bd25758493bc06d633c4eac735c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50196473"
+ms.lasthandoff: 03/18/2021
+ms.locfileid: "50867048"
 ---
 # <a name="manage-the-microsoft-teams-exploratory-license"></a>Управление лицензией на Microsoft Teams Exploratory
 
-Предложение Microsoft Teams Exploratory позволяет пользователям в вашей организации, у которых есть лицензия на Azure Active Directory (Azure AD), но нет лицензии на Teams, оформить ознакомительную лицензию на Teams. Администраторы могут включать и отключать эту функцию для пользователей в организации. Предыдущая [пробная версия Microsoft Commercial Cloud](iw-trial-teams.md) теперь заменена предложением Teams Exploratory.
+Предложение Microsoft Teams Exploratory позволяет пользователям в вашей организации с лицензией на Azure Active Directory (Azure AD) и без лицензии на Teams оформить лицензию на Teams Exploratory. Администраторы могут включать и отключать эту функцию для пользователей в организации. Предыдущее предложение [Microsoft Commercial Cloud Trial](iw-trial-teams.md) заменено предложением Teams Exploratory.
+
+> [!NOTE]
+> Существует ограничение в 100 лицензий Microsoft Teams Exploratory на клиент.
 
 ## <a name="whats-in-the-teams-exploratory-experience"></a>Что включает предложение Teams Exploratory
 
@@ -131,8 +134,8 @@ ms.locfileid: "50196473"
 
 4. В области **Лицензии на продукты** установите переключатель для лицензии на это предложение в положение **Выкл**.
 
-    >[!Note]
-    >Переключатель для Teams Exploratory отобразится после того, как первый пользователь в организации запустит это предложение.
+    > [!NOTE]
+    > Переключатель для Teams Exploratory отобразится после того, как первый пользователь в организации запустит это предложение.
 
 ### <a name="manage-teams-for-users-who-have-the-teams-exploratory-license"></a>Управление Teams для пользователей с лицензией на Teams Exploratory
 
@@ -180,4 +183,9 @@ ms.locfileid: "50196473"
 
 По окончании подписки на 12 месяцев администраторам следует перевести всех пользователей версии Teams Exploratory на платную лицензию, в которую входит Microsoft Teams. Это необходимо сделать до окончания действия подписки на версию Teams Exploratory, чтобы не прерывать работу пользователей.
 
+
+> [!NOTE]
+> Возможность запуска клиентами новых лицензий на пробную версию Exploratory будет отключена и заблокирована в течение 3 месяцев после истечения срока действия предыдущей лицензии на пробную версию Exploratory.
+
 Дополнительные сведения см. в разделе [Повышение статуса пользователей с лицензией Teams Exploratory](#upgrade-users-from-the-teams-exploratory-license)) выше в этой статье.
+
