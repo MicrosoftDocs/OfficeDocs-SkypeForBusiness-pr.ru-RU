@@ -13,12 +13,12 @@ ms.collection:
 description: Узнайте, как использовать элементы управления PowerShell для управления Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a99967df019a91460bde5fd4e3e6e7aee15444d3
-ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
+ms.openlocfilehash: e6ba8545159f8b18ebe39e49356f64378f946b29
+ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50569115"
+ms.lasthandoff: 03/18/2021
+ms.locfileid: "50874809"
 ---
 # <a name="install-microsoft-teams-powershell"></a>Установка Microsoft Teams PowerShell
 
@@ -74,7 +74,7 @@ Install-Module PowerShellGet -Force -AllowClobber
 Чтобы установить общедоступный предварительный просмотр Teams PowerShell, запустите команду PowerShell ниже.
 
 > [!NOTE]
-> Последнюю предварительную версию можно найти в [коллекции PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams) или в PowerShell с помощью команд "Find-Module MicrosoftTeams -AllowPrerelease"
+> Последнюю предварительную версию можно найти в [коллекции PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams) или в PowerShell с помощью команд "Find-Module MicrosoftTeams -AllowPrerelease -AllVersions".
 
 ```powershell
 Install-Module MicrosoftTeams -AllowPrerelease -RequiredVersion "1.1.9-preview"
@@ -114,6 +114,19 @@ $session = New-CsOnlineSession -Credential $credential
 Import-PsSession $session
 ```
 
+## <a name="sign-in-using-mfa-and-modern-authentication"></a>Вход с использованием MFA и современной проверки подлинности
+
+ Если в вашей учетной записи используется многофакторная проверка подлинности, воспользуйтесь действиями, которые необходимо предпринять в этом разделе.
+
+```powershell
+#Connect to Microsoft Teams
+Connect-MicrosoftTeams -AccountId <UPN>
+
+#Connection to Skype for Business Online and import into Ps session
+$session = New-CsOnlineSession
+Import-PsSession $session
+```
+
 ## <a name="update-teams-powershell"></a>Обновление Teams PowerShell
 
 Чтобы обновить Teams PowerShell, откройте новую командную команду PowerShell с повышенными уровнями и запустите следующую команду:
@@ -142,7 +155,7 @@ Uninstall-Module MicrosoftTeams
 
 Теперь вы готовы управлять Teams с помощью Teams PowerShell. Для начала работы см. управление Teams с [помощью Teams PowerShell.](teams-powershell-managing-teams.md)
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 
 [Управление Teams с помощью Teams PowerShell](teams-powershell-managing-teams.md)
 

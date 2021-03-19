@@ -16,17 +16,17 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cf6787c3118ba36b71175f0ddb3360e980732a71
-ms.sourcegitcommit: 71b9b5ec80014bd25758493bc06d633c4eac735c
+ms.openlocfilehash: 6fc7838ac1f3235acf576d437e3dabccfc2a0b6f
+ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 03/18/2021
-ms.locfileid: "50867068"
+ms.locfileid: "50875059"
 ---
 # <a name="teams-view-only-meeting-experience"></a>Представление только для просмотра собраний Teams
 
 > [!Note]
-> Трансляции, доступные только для просмотра, будут доступны в Microsoft 365 E3/E5 и Microsoft 365 A3/A5. Эта функция будет включена 1 марта 2021 г. как выключена по умолчанию. Эта функция будет доступна в планах Microsoft 365 для государственных G3 и G5 позднее. Если вы хотите, чтобы эта функция была on, необходимо изменить политику по умолчанию после этой даты. Чтобы включить политику, используйте `Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Enabled` PowerShell.
+> Трансляции, доступные только для просмотра, доступны в Microsoft 365 E3/E5 и Microsoft 365 A3/A5. Эта функция будет включена 1 марта 2021 г. как выключена по умолчанию. Эта функция в Microsoft 365 Government Community Cloud (GCC) начнется в конце марта 2021 г. Облачный уровень сообщества государственных организаций (GCCH) и Отдел обороны (DoD) будут развернуты позднее. Если вы хотите, чтобы эта функция была on, необходимо изменить политику по умолчанию после этой даты. Чтобы включить политику, используйте `Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Enabled` PowerShell.
 
 > [!Note]
 > Если ваши собрания или вебинар похитят производительность, Teams без проблем масштабируется, чтобы вместить только просмотр в 10 000 человек. Кроме того, в это время, когда увеличивается объем удаленной работы, вы можете воспользоваться еще более крупными трансляциями с 20 000 человек в конце этого года.

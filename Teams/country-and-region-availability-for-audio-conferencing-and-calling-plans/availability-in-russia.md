@@ -27,7 +27,7 @@ ms.custom:
 description: Вот службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные в России.
 ms.openlocfilehash: e511aa0acd94efe2a865fc156e081b03eaf2e236
 ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 05/14/2020
 ms.locfileid: "44231088"

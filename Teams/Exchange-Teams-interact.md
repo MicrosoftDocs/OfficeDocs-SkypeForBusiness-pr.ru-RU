@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6e2e6af198c578279e2af8928e8a6ac299f262a5
-ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
-ms.translationtype: HT
+ms.openlocfilehash: 39b60bcd5913619efbf9dfd2aec22813e79921dd
+ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49661904"
+ms.lasthandoff: 03/18/2021
+ms.locfileid: "50874899"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Взаимодействие Exchange и Microsoft Teams
 
@@ -64,8 +64,7 @@ ms.locfileid: "49661904"
 
 <sup>6</sup> Только контакты из стандартной папки контактов. Доступ к другим папкам контактов или вложенным папкам не поддерживается.
 
-<sup>7</sup> Teams учитывает настроенный администраторами клиента параметр [политики почтовых ящиков Outlook в Интернете](https://docs.microsoft.com/powershell/module/exchange/client-access/set-owamailboxpolicy), используемый, чтобы управлять возможностью пользователей изменять свой аватар. Если в политике отключен параметр **-SetPhotoEnabled**, пользователи не могут добавлять, изменять или удалять свои аватары. Например, если пользователь добавляет аватар, одобренный ИТ-отделом или отделом кадров, никаких действий не требуется. Но если пользователь добавляет неуместное изображение, измените его согласно внутренним политикам организации.
-
+<sup>7</sup> Teams учитывает настроенный администраторами клиента параметр [политики почтовых ящиков Outlook в Интернете](https://docs.microsoft.com/powershell/module/exchange/client-access/set-owamailboxpolicy), используемый, чтобы управлять возможностью пользователей изменять свой аватар. Если параметр **-SetPhotoEnabled** в политике отключен, пользователи не смогут добавлять, изменять или удалять свои фотографии профилей, поэтому они не будут синхронизироваться с teams, если администратор изменит фотографию.
 <sup>8</sup> Вы должны соблюдать требования, указанные в разделе [Требования к созданию и просмотру собраний для почтовых ящиков, размещенных в локальной среде](#requirements-to-create-and-view-meetings-for-mailboxes-hosted-on-premises).
 
 ## <a name="requirements-to-get-the-most-out-of-microsoft-teams"></a>Требования для эффективного использования Microsoft Teams

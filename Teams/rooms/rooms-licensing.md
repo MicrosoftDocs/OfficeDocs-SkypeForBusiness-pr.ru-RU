@@ -22,12 +22,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: Узнайте о доступных лицензиях для различных типов звонков и функций собраний в комнатах Microsoft Teams.
-ms.openlocfilehash: 6f339136d6084046004506c30b6827aaed62971a
-ms.sourcegitcommit: 71b9b5ec80014bd25758493bc06d633c4eac735c
+ms.openlocfilehash: c01fafd6820b1ae62afccbfc2eab89c46c9d1598
+ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 03/18/2021
-ms.locfileid: "50867128"
+ms.locfileid: "50875159"
 ---
 # <a name="teams-meeting-room-licensing-update"></a>Обновление лицензирования комнаты собраний Teams
 
@@ -77,4 +77,6 @@ ms.locfileid: "50867128"
 > [!NOTE]
 > Если вам назначены существующие лицензии для систем комнат, они будут продолжать работать без каких-либо перерывов. По истечении срока действия существующих лицензий следует использовать новый номер SKU комнаты для собраний.  
 
- **Используйте под себя под себя windows 10:** для клиентов, которые хотят развернуть изображения Windows 10 на своих устройствах, см. в настройках консоли [комнат Microsoft Teams.](https://docs.microsoft.com/microsoftteams/room-systems/console) Вы можете получить копию из [Volume Licensing Service Center.](https://www.microsoft.com/Licensing/servicecenter/)
+ **Используйте под себя под себя windows 10:** для клиентов, которые хотят развернуть изображения Windows 10 на своих устройствах, см. в настройках консоли [комнат Microsoft Teams.](https://docs.microsoft.com/microsoftteams/room-systems/console) Вы можете получить копию из [Volume Licensing Service Center.](https://www.microsoft.com/Licensing/servicecenter/) 
+ 
+ См. также [отличные возможности комнат для собраний: познакомьтесь с новыми комнатами Microsoft Teams стандартный и премиум.](https://www.microsoft.com/microsoft-365/blog/2020/07/21/microsoft-teams-meetings-hybrid-workplace-options/)
