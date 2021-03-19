@@ -13,12 +13,12 @@ ms.collection:
 description: Узнайте о последних изменениях в Teams PowerShell.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 22688a6e4fbeb11e09eb0c2765a9de1408ce6484
-ms.sourcegitcommit: da2a70a9b5e05d0fd7ecc150b451f5805667514c
+ms.openlocfilehash: ef78d1a6be92ba3d7f4c84ce8012f84f40e58e96
+ms.sourcegitcommit: 71b9b5ec80014bd25758493bc06d633c4eac735c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "50756175"
+ms.lasthandoff: 03/18/2021
+ms.locfileid: "50867079"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Заметки о выпуске Microsoft Teams PowerShell
 
@@ -27,16 +27,19 @@ ms.locfileid: "50756175"
 ## <a name="release-notes"></a>Заметки о выпуске
 
 > [!NOTE]
-> **-preview** в столбце версии ниже представляет обновления для общедоступных предварительных версий Teams PowerShell.
+> **-preview** в столбце версии ниже представляет обновления общедоступный предварительный просмотр Teams PowerShell.
 
 | Дата | Версия | Обновления |
 |------- | -------------------- | ------------------------------ |
+| Март 2021 г. | [2.0](https://www.powershellgallery.com/packages/MicrosoftTeams/) | <li>Connect-MicrosoftTeams является точкой входа для всех cmdlets.</li><li>Новый-csOnlineSession больше не является avaiable. Она была заменена на Connect-MicrosoftTeams.</li><li>Enable-csonlinesessionforreconnection больше не требуется. Эта функция была реализована в модуле Teams PowerShell.</li>|
+| Ноябрь 2020 г. | [1.1.9-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.9-preview) | <li>Исправления и улучшения ошибок</li>|
+| Ноябрь 2020 г. | [1.1.8-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.8-preview) | <li>Исправления и улучшения ошибок</li>|
 | Март 2021 г. | [2.0.0](https://www.powershellgallery.com/packages/MicrosoftTeams/2.0.0) | <li>Использование MSAL для проверки подлинности & авторизации</li><li>Refactored Policy Package cmdlets and adds group package assignment</li><li>Значительные улучшения производительности для Get-Team управления</li> <li>Улучшенные параметры ведения журнала и отладки для существующих cmdlets </li> <li>Добавлены команды для управления шаблонами</li> <li>Деprecation of New-CsOnlineSession</li>|
-| Февраль 2021 г. | [1.1.11-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.11-preview) | <li>Добавлены команды для управления шаблонами</li><li>Улучшения mezzo и пакетных пакетов для Get-Team-управления</li> <li>Улучшенные параметры ведения журнала и отладки для существующих cmdlets </li> <li>Рефакторed Policy Package cmdlets</li>|
-| Декабрь 2020 г. | [1.1.10-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.10-preview) | <li>Обновления для командлета new-team с увеличенной ид. и длительностью спящий режим</li>|
+| Февраль 2021 г. | [1.1.11-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.11-preview) | <li>Добавлены команды для управления шаблонами</li><li>Улучшения mezzo и пакетного пакета для Get-Team-управления</li> <li>Улучшенные параметры ведения журнала и отладки для существующих cmdlets </li> <li>Рефакторed Policy Package cmdlets</li>|
+| Декабрь 2020 г. | [1.1.10-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.10-preview) | <li>Обновления для командлета new-team с увеличенным количеством и длительностью спящий режим</li>|
 | Декабрь 2020 г. | [1.1.9-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.9-preview) | <li>Обновления интеграции Skype для бизнеса Online</li><li>Исправление запроса на дублирование в Connect-Microsoft Teams</li>|
 | Ноябрь 2020 г. | [1.1.8-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.8-preview) | <li>Добавляет настраиваемые пакеты политики</li><li>Исправления для команд отправки в иерархию targeting</li>|
-| Ноябрь 2020 г. | [1.1.7-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.7-preview) | <li>Использование MSAL для проверки подлинности & авторизации</li><li>Refactored Policy Package cmdlets and adds group package assignment</li><li>Рефакторed targeting hierarchy upload commands to use an asynchroned model</li> <li>При использовании параметра -credential пользователю будет дважды предложено сделать это при начальной проверке подлинности. Пользователи могут передавать учетные данные, используя параметр -credential, чтобы избежать дублирования запроса. Это будет исправлено в следующем выпуске.</li> |
+| Ноябрь 2020 г. | [1.1.7-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.7-preview) | <li>Использование MSAL для проверки подлинности & авторизации</li><li>Refactored Policy Package cmdlets and adds group package assignment</li><li>Рефакторed targeting hierarchy upload commands to use an asynchroned model</li> <li>Если пользователь не использует параметр -credential, при начальной проверке подлинности пользователю будет дважды предложено сделать это. Пользователи могут передавать учетные данные, используя параметр -credential, чтобы избежать дублирования запроса. Это будет исправлено в следующем выпуске.</li> |
 | Сентябрь 2020 г. | [1.1.6](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.6) | <li>Интеграция Соединитела Skype для бизнеса Online</li> |
 | Сентябрь 2020 г. | [1.1.5-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.5-preview) | <li>Интеграция Соединитела Skype для бизнеса Online</li> |
 | Июль 2020 г. | [1.1.4](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.4) | <li>Добавлены [cmdlets назначения групповой политики](https://docs.microsoft.com/microsoftteams/assign-policies#assign-a-policy-to-a-group)</li> |
@@ -51,7 +54,7 @@ ms.locfileid: "50756175"
 > [!NOTE]
 > В приведенной ниже таблице содержатся только командлеты, которые являются частью модуля Teams PowerShell. Командлеты Teams в модуле соединителя S[kype для бизнеса Online](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps) не отображаются. Но так как эти командлеты перенесены в Teams PowerShell, мы добавим их в эту таблицу.
 
-| Командлет | Доступно в режиме предварительной версии | Доступно в ga |
+| Командлет | Доступно в режиме public Preview | Доступно в ga |
 | -| -- | --|
 | [Add-TeamChannelUser](https://docs.microsoft.com/powershell/module/teams/add-teamchanneluser?view=teams-ps) | Да | **Нет** |
 | [Add-TeamUser](https://docs.microsoft.com/powershell/module/teams/add-teamuser?view=teams-ps) | Да | Да |
@@ -96,7 +99,7 @@ ms.locfileid: "50756175"
 | [Set-TeamTargetingHierarchy](https://docs.microsoft.com/microsoftteams/set-up-your-team-hierarchy#apply-your-hierarchy) | Да | **Нет** |
 | [Update-TeamsAppInstallation](https://docs.microsoft.com/powershell/module/teams/update-teamsappinstallation?view=teams-ps) | Да | **Нет** |
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 
 [Обзор PowerShell в Teams](teams-powershell-overview.md)
 

@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: В этой статье представлены обзор и функции, поддерживаемые панелями Microsoft Teams.
-ms.openlocfilehash: 913924e62483c1a8d44bfade29e5bc700f92b646
-ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
+ms.openlocfilehash: effbb5d76220c98aee726efe66b41954c7fceb7a
+ms.sourcegitcommit: 71b9b5ec80014bd25758493bc06d633c4eac735c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50568925"
+ms.lasthandoff: 03/18/2021
+ms.locfileid: "50867087"
 ---
 # <a name="microsoft-teams-panels"></a>Панели Microsoft Teams
 
@@ -59,9 +59,7 @@ ms.locfileid: "50568925"
 Для использования панелей Teams необходима стандартная лицензия [на комнаты Microsoft Teams.](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-licensing)
 
 > [!Note]
->
-> - Если в месте собрания, где вы устанавливаете панели Teams, уже развернуты комнаты Microsoft Teams, дополнительная лицензия на использование панелей Teams не нужна.
-> - Для использования дополнительных функций расширенных панелей Teams, которые будут в ближайшее время, вам потребуется лицензия на Microsoft Teams Rooms Premium.
+> Если в месте собрания, где вы устанавливаете панели Teams, уже развернуты комнаты Microsoft Teams, дополнительная лицензия на использование панелей Teams не нужна.
 
 ## <a name="deploy-teams-panels-devices"></a>Развертывание устройств с панелями Teams
 
