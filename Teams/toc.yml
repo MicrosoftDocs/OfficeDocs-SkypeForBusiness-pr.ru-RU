@@ -541,130 +541,56 @@ items:
         href: cortana-in-teams.md
       - name: Настройка иерархии целей для команды
         href: set-up-your-team-hierarchy.md
-  - name: Собрания и конференции
+  - name: 'Собрания, телеконференции и трансляция мероприятий в реальном времени'
     items:
       - name: "Краткое руководство\_— собрания и трансляции"
         href: quick-start-meetings-live-events.md
       - name: Планирование развертывания
         href: deploy-meetings-microsoft-teams-landing-page.md
-      - name: Комнаты Microsoft Teams
+      - name: Собрания
         items:
-          - name: Обзор
-            href: rooms/index.md
-          - name: Управляемая служба "Комнаты Microsoft Teams"
-            items:
-              - name: Управление планированием
-                href: rooms/microsoft-teams-rooms-premium.md
-              - name: Управление доступом на основе ролей
-                href: rooms/microsoft-teams-rooms-premium-rbac.md
-          - name: Планирование
-            items:
-              - name: Обзор планирования комнат Microsoft Teams
-                href: rooms/rooms-plan.md
-              - name: Поддержка версии
-                href: rooms/rooms-lifecycle-support.md
-              - name: Заметки о выпуске
-                href: rooms/rooms-release-note.md
-              - name: Подготовка среды
-                href: rooms/rooms-prep.md
-              - name: Требования
-                href: rooms/requirements.md
-              - name: Безопасность
-                href: rooms/security.md
-              - name: Интернет-лицензирование
-                href: rooms/rooms-licensing.md
-              - name: Планирование управления с помощью Azure Monitor
-                href: rooms/azure-monitor-plan.md
-          - name: Развертывание
-            items:
-              - name: Обзор развертывания
-                href: rooms/rooms-deploy.md
-              - name: Настройка учетных записей
-                href: rooms/rooms-configure-accounts.md
-              - name: Surface Hub
-                items:
-                  - name: Настройка координированных собраний
-                    href: rooms/coordinated-meetings.md
-                  - name: Управление параметрами Microsoft Teams
-                    href: rooms/surface-hub-manage-config.md
-              - name: В Office 365
-                href: rooms/with-office-365.md
-              - name: В Skype для бизнеса Server
-                href: rooms/with-skype-for-business-server-2015.md
-              - name: В Exchange Online (гибридная среда)
-                href: rooms/with-exchange-online.md
-              - name: В локальном приложении Exchange (гибридная среда)
-                href: rooms/with-exchange-on-premises.md
-              - name: Настройка консоли
-                href: rooms/console.md
-              - name: Обновление устройства вручную
-                href: rooms/manual-update.md
-              - name: Настройка проверки подлинности
-                href: rooms/rooms-authentication.md
-              - name: Присоединение к сторонним собраниям
-                href: rooms/third-party-join.md
-              - name: С помощью Microsoft Endpoint Configuration Manager
-                href: rooms/rooms-scale.md
-              - name: Управление с помощью Azure Monitor
-                href: rooms/azure-monitor-deploy.md
-              - name: Перенос SRS версии 1 или LRS
-                href: rooms/lrs-migration.md
-              - name: Камеры содержимого
-                href: rooms/content-camera.md
-          - name: Управление
-            items:
-              - name: Обзор управления
-                href: rooms/rooms-manage.md
-              - name: Обслуживание и эксплуатация
-                href: rooms/rooms-operations.md
-              - name: Поддержка Teams в организации
-                href: rooms/known-issues.md
-              - name: Устройства с Azure Monitor
-                href: rooms/azure-monitor-manage.md
-              - name: Управление настройками с помощью XML-файла
-                href: rooms/xml-config-file.md
-              - name: Использование средства восстановления
-                href: rooms/recovery-tool.md
-      - name: Управление политиками собраний
-        href: meeting-policies-in-teams.md
-      - name: Удаление политики собраний RestrictedAnonymousAccess для пользователей
-        href: meeting-policies-restricted-anonymous-access.md
-      - name: Управление параметрами собраний
-        href: meeting-settings-in-teams.md
-      - name: 'Электронные письма, отправляемые пользователям при изменении параметров'
-        href: emails-sent-to-users-when-their-settings-change-in-teams.md
-      - name: Разрешение пользователям записывать свои имена при присоединении к собранию
-        href: enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md
-      - name: Включение и отключение объявлений о входе и выходе в собраниях
-        href: turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md
-      - name: Использование технологии NDI® в Teams
-        href: use-NDI-in-meetings.md
-      - name: Функция «поднимите руку» на собраниях Teams
-        href: raise-hand-meetings.md
-      - name: Собрания Teams в неподдерживаемых браузерах
-        href: unsupported-browsers.md
-      - name: Настройка совместного доступа к рабочему столу в Teams
-        href: configure-desktop-sharing.md
-      - name: Запись облачного собрания в Teams
-        href: cloud-recording.md
-      - name: Использование OneDrive для бизнеса и SharePoint или Stream для записи собраний
-        href: tmr-meeting-recording-change.md
-      - name: Интеграция центра контактов
-        href: teams-contact-center.md
-      - name: "Использование надстройки \"Собрание\_Teams\" в\_Outlook"
-        href: teams-add-in-for-outlook.md
-      - name: Настройка приложения "Собрания Skype" для работы с Teams
-        href: configure-skype-meetings-app-to-work-with-teams.md
-      - name: Настройка функции "Позвонить мне" для пользователей
-        href: set-up-the-call-me-feature-for-your-users.md
-      - name: Получение отчета о присутствии на собрании
-        href: teams-analytics-and-reports/meeting-attendance-report.md
-      - name: "Настройка службы переноса собраний\_(MMS)"
-        href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
-      - name: Управление Доской в Teams
-        href: manage-whiteboard.md
-      - name: Настройка надстройки "Собрание Teams" для рабочей области Google
-        href: google-workspace-addon-teams.md
+          - name: Управление политиками собраний
+            href: meeting-policies-in-teams.md
+          - name: Удаление политики собраний RestrictedAnonymousAccess для пользователей
+            href: meeting-policies-restricted-anonymous-access.md
+          - name: Управление параметрами собраний
+            href: meeting-settings-in-teams.md
+          - name: 'Электронные письма, отправляемые пользователям при изменении параметров'
+            href: emails-sent-to-users-when-their-settings-change-in-teams.md
+          - name: Разрешение пользователям записывать свои имена при присоединении к собранию
+            href: enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md
+          - name: Включение и отключение объявлений о входе и выходе в собраниях
+            href: turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md
+          - name: Использование технологии NDI® в Teams
+            href: use-NDI-in-meetings.md
+          - name: Функция «поднимите руку» на собраниях Teams
+            href: raise-hand-meetings.md
+          - name: Собрания Teams в неподдерживаемых браузерах
+            href: unsupported-browsers.md
+          - name: Настройка совместного доступа к рабочему столу в Teams
+            href: configure-desktop-sharing.md
+          - name: Запись облачного собрания в Teams
+            href: cloud-recording.md
+          - name: Использование OneDrive для бизнеса и SharePoint или Stream для записи собраний
+            href: tmr-meeting-recording-change.md
+          - name: Интеграция центра контактов
+            href: teams-contact-center.md
+          - name: "Использование надстройки \"Собрание\_Teams\" в\_Outlook"
+            href: teams-add-in-for-outlook.md
+          - name: Настройка приложения "Собрания Skype" для работы с Teams
+            href: configure-skype-meetings-app-to-work-with-teams.md
+          - name: Настройка функции "Позвонить мне" для пользователей
+            href: set-up-the-call-me-feature-for-your-users.md
+          - name: Получение отчета о присутствии на собрании
+            href: teams-analytics-and-reports/meeting-attendance-report.md
+          - name: "Настройка службы переноса собраний\_(MMS)"
+            href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
+          - name: Управление Доской в Teams
+            href: manage-whiteboard.md
+          - name: Настройка надстройки "Собрание Teams" для рабочей области Google
+            href: google-workspace-addon-teams.md
+          - name: Облако видеовзаимодействия
+            href: cloud-video-interop.md
       - name: Аудиоконференции
         items:
           - name: Планирование развертывания
@@ -755,8 +681,6 @@ items:
                 href: audio-conferencing-zones.md
               - name: Видео- и аудиоконференции в Teams
                 href: audio-conferencing-videos.md
-      - name: Облако видеовзаимодействия
-        href: cloud-video-interop.md
       - name: Трансляции
         items:
           - name: "Что такое прямые трансляции\_Teams?"
@@ -771,6 +695,84 @@ items:
             href: teams-live-events/configure-teams-live-events.md
           - name: Политики записи трансляций
             href: teams-live-events/live-events-recording-policies.md
+      - name: Комнаты Microsoft Teams
+        items:
+          - name: Обзор
+            href: rooms/index.md
+          - name: Управляемая служба "Комнаты Microsoft Teams"
+            items:
+              - name: Управление планированием
+                href: rooms/microsoft-teams-rooms-premium.md
+              - name: Управление доступом на основе ролей
+                href: rooms/microsoft-teams-rooms-premium-rbac.md
+          - name: Планирование
+            items:
+              - name: Обзор планирования комнат Microsoft Teams
+                href: rooms/rooms-plan.md
+              - name: Поддержка версии
+                href: rooms/rooms-lifecycle-support.md
+              - name: Заметки о выпуске
+                href: rooms/rooms-release-note.md
+              - name: Подготовка среды
+                href: rooms/rooms-prep.md
+              - name: Требования
+                href: rooms/requirements.md
+              - name: Безопасность
+                href: rooms/security.md
+              - name: Интернет-лицензирование
+                href: rooms/rooms-licensing.md
+              - name: Планирование управления с помощью Azure Monitor
+                href: rooms/azure-monitor-plan.md
+          - name: Развертывание
+            items:
+              - name: Обзор развертывания
+                href: rooms/rooms-deploy.md
+              - name: Настройка учетных записей
+                href: rooms/rooms-configure-accounts.md
+              - name: Surface Hub
+                items:
+                  - name: Настройка координированных собраний
+                    href: rooms/coordinated-meetings.md
+                  - name: Управление параметрами Microsoft Teams
+                    href: rooms/surface-hub-manage-config.md
+              - name: В Office 365
+                href: rooms/with-office-365.md
+              - name: В Skype для бизнеса Server
+                href: rooms/with-skype-for-business-server-2015.md
+              - name: В Exchange Online (гибридная среда)
+                href: rooms/with-exchange-online.md
+              - name: В локальном приложении Exchange (гибридная среда)
+                href: rooms/with-exchange-on-premises.md
+              - name: Настройка консоли
+                href: rooms/console.md
+              - name: Обновление устройства вручную
+                href: rooms/manual-update.md
+              - name: Настройка проверки подлинности
+                href: rooms/rooms-authentication.md
+              - name: Присоединение к сторонним собраниям
+                href: rooms/third-party-join.md
+              - name: С помощью Microsoft Endpoint Configuration Manager
+                href: rooms/rooms-scale.md
+              - name: Управление с помощью Azure Monitor
+                href: rooms/azure-monitor-deploy.md
+              - name: Перенос SRS версии 1 или LRS
+                href: rooms/lrs-migration.md
+              - name: Камеры содержимого
+                href: rooms/content-camera.md
+          - name: Управление
+            items:
+              - name: Обзор управления
+                href: rooms/rooms-manage.md
+              - name: Обслуживание и эксплуатация
+                href: rooms/rooms-operations.md
+              - name: Поддержка Teams в организации
+                href: rooms/known-issues.md
+              - name: Устройства с Azure Monitor
+                href: rooms/azure-monitor-manage.md
+              - name: Управление настройками с помощью XML-файла
+                href: rooms/xml-config-file.md
+              - name: Использование средства восстановления
+                href: rooms/recovery-tool.md
   - name: Голосовая связь — телефонная система и связь с ТСОП
     items:
       - name: Планирование голосового решения в Teams
@@ -1440,14 +1442,6 @@ items:
     items:
       - name: Ограничения и спецификации для Teams
         href: limits-specifications-teams.md
-      - name: Переход с Kaizala на Microsoft Teams
-        items:
-          - name: Начало работы
-            items:
-              - name: Планирование перехода
-              - name: Подготовка организации к использованию Teams
-              - name: Реализация перехода
-                href: implement-your-move.md
       - name: Лицензирование
         items:
           - name: Управление доступом пользователей к Teams
