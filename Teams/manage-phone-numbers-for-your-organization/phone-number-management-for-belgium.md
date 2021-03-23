@@ -19,27 +19,27 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: Эта таблица используется для поиска информации о получении номеров телефонов в Бельгии для Microsoft Teams и управлении им.
-ms.openlocfilehash: 10cb478ddd262bb6181af612ab1213ff6da842f5
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+description: Эта таблица используется для поиска сведений о получении номеров телефонов в Бельгии для Microsoft Teams и управлении им.
+ms.openlocfilehash: 4a347a81ce0725770c0db2516e55c7f87f566691
+ms.sourcegitcommit: 2eaf80bca6dfad367283e57662d81a809c9437e8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50460989"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "50997407"
 ---
 # <a name="phone-number-management-for-belgium"></a>Управление номерами телефонов в Бельгии
 
-Эта таблица используется для поиска информации о получении номеров телефонов в Бельгии для Microsoft Teams и управлении им.
+Эта таблица используется для поиска сведений о получении номеров телефонов в Бельгии для Microsoft Teams и управлении им.
   
 Дополнительные сведения см. в статье [Управление номерами телефонов для организации](manage-phone-numbers-for-your-organization.md).
   
 |**Требуемое действие**|**Скачайте подходящие формы и отправьте их нам**|
 |:-----|:-----|
-|Получите новые номера телефонов пользователей и служб, которых нет в центре администрирования Microsoft Teams.   <br/> |В Бельгии вы не можете получить номера телефонов для своей организации с помощью Центра администрирования Microsoft Teams, необходимо отправить новый запрос на номер телефона. <br/><br/>Скачайте одну из следующих форм:. <br/>  [Новый запрос на номер телефона для Бельгии (v.5.0) (de-be)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-belgium-(v.5.0)-(de-be).pdf?raw=true) <br/> [Новый запрос на номер телефона для Бельгии (5.0) (fr-be)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-belgium-(v.5.0)-(fr-be).pdf?raw=true) <br/> [Новый запрос на номер телефона для Бельгии (5.0) (nl-be)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-belgium-(v.5.0)-(nl-be).pdf?raw=true) <br/>   [Новый запрос на номер телефона для Бельгии (5.0) (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-belgium-(v.5.0)-(en-us).pdf?raw=true)<br/><br/>Заполните ее и [отправьте его нам](mailto:ptneu@microsoft.com). <br/>|
-|Перенаправь нам номера телефонов.  <br/> | Скачайте одну из этих форм. <br/>[Досье для Бельгии (все номера) (v.5.0) (de-be)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-belgium-(all-numbers)-(v.5.0)-(de-be).pdf) <br/> [Досье для Бельгии (все номера) (v.6.1) (fr-be)](https://download.microsoft.com/download/d/f/3/df304a78-db38-41f9-98d2-0b590cf8c68f/letter-of-authorization-(loa)-for-belgium-(all-numbers)-(v.6.1)-(fr-be).pdf)<br/> [Досье для Бельгии (все номера) (v.6.0) (nl-be)](https://download.microsoft.com/download/4/b/a/4bacc856-3bf2-45f7-ade2-8b1d81fc09c6/letter-of-authorization-(loa)-for-belgium-(all-numbers)-(v.6.0)-(nl-be).pdf) <br/>   <br/>   Заполните ее и [отправьте его нам](mailto:ptneu@microsoft.com). <br/> |
+|Получите новые номера телефонов пользователей и служб, которые не указаны в Центре администрирования Microsoft Teams.   <br/> |В Бельгии вы не можете получить номера телефонов для своей организации с помощью Центра администрирования Microsoft Teams, необходимо отправить новый запрос на номер телефона. <br/><br/>Скачайте одну из следующих форм:. <br/>  [Новый запрос на номер телефона для Бельгии (v.5.0) (de-be)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-belgium-(v.5.0)-(de-be).pdf?raw=true) <br/> [Новый запрос на номер телефона для Бельгии (5.0) (fr-be)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-belgium-(v.5.0)-(fr-be).pdf?raw=true) <br/> [Новый запрос на номер телефона для Бельгии (5.0) (nl-be)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-belgium-(v.5.0)-(nl-be).pdf?raw=true) <br/>   [Новый запрос на номер телефона для Бельгии (5.0) (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-belgium-(v.5.0)-(en-us).pdf?raw=true)<br/><br/>Заполните ее и [отправьте его нам](mailto:ptneu@microsoft.com). <br/>|
+|Перенаправь нам номера телефонов.  <br/> | Скачайте одну из этих форм. <br/>[Досье для Бельгии (все номера) (v.5.0) (de-be)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-belgium-(all-numbers)-(v.5.0)-(de-be).pdf) <br/> [Досье для Бельгии (все номера) (v.6.1) (fr-be)](https://download.microsoft.com/download/d/f/3/df304a78-db38-41f9-98d2-0b590cf8c68f/letter-of-authorization-(loa)-for-belgium-(all-numbers)-(v.6.1)-(fr-be).pdf)<br/> [Досье для Бельгии (все номера) (v.6.0) (nl-be)](https://www.microsoft.com/nl-nl/download/confirmation.aspx?id=102672) <br/>   <br/>   Заполните ее и [отправьте его нам](mailto:ptneu@microsoft.com). <br/> |
 |Публикация и публикация номеров телефонов в национальном телефонном каталоге.  <br/> |[Отправьте нам](mailto:ptneu@microsoft.com) список номеров телефонов для публикации или отмены публикации.      <br/> |
-|Изменение номера пользователя на номер службы.  <br/> |[Отправьте нам](mailto:ptneu@microsoft.com) список номеров пользователей, которые необходимо преобразовать в номера служб. <br/> |
-|Обновление службы каталогов для номеров очереди вызовов или номеров автозавода|Чтобы добавить или изменить номера очереди вызовов или номера автоотетаря, обратитесь в службу [поддержки ННР.](contact-pstn-service-desk.md) |
+|Измените номер пользователя на номер службы.  <br/> |[Отправьте нам](mailto:ptneu@microsoft.com) список номеров пользователей, которые необходимо преобразовать в номера служб. <br/> |
+|Обновление службы каталогов для вызова очереди или номеров автозавода|Чтобы добавить или изменить номера очереди вызовов или номера автозавода, обратитесь в службу [поддержки ННР.](contact-pstn-service-desk.md) |
 
 ## <a name="related-topics"></a>См. также:
 

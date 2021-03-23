@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Узнайте, как прямая маршрутия Microsoft Phone System позволяет подключить поддерживаемый клиентский пограничный контроллер сеанса (SBC) к телефонной системе Майкрософт.
-ms.openlocfilehash: 858d57fb210765a1223a68527b0aa1b37bf7800b
-ms.sourcegitcommit: 360c78c66386fe00afe535681f51254eda886edf
+ms.openlocfilehash: af7e288791b85aea3beaf67b0200acd017e3e514
+ms.sourcegitcommit: b431fc1a1802a8177109741b7c8e91bacb8c50c3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "50836996"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "50999831"
 ---
 # <a name="plan-direct-routing"></a>Планирование прямой маршрутизации
 
@@ -192,6 +192,9 @@ contoso.com|Да|**Допустимые имена:**<br/>sbc1.contoso.com<br/>s
 - TeliaSonera 
 - T-Systems International GmbH (Deutsche Telekom)
 - QuoVadis
+- Сертификация USERTrust RSA
+- Hongkong Post Root CA 1,2,3
+- Sectigo Root CA
 
 Чтобы использовать прямую маршрутику в средах GCCH и DoD Office 365, сертификат должен быть создан одним из следующих корневых органов сертификации:
 - DigiCert Global Root CA
