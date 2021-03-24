@@ -23,13 +23,13 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: Узнайте о наборе бесплатных номеров в Малайзии, в том числе о доступности, доступности с проводным или фиксированным номером и доступности мобильной сети, а также об ограничениях.
-ms.openlocfilehash: de80bcf4d33f8aa715584ec7922b97ab3d476eda
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+description: Узнайте о наборе бесплатных номеров в Малайзии, в том числе о доступности, доступности с проводным и фиксированным номером, а также об ограничениях для мобильной сети.
+ms.openlocfilehash: a3aa7b9c99b42a5a04bb1fc63fcaa83a6f36679e
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140338"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51097895"
 ---
 # <a name="toll-free-dialing-restrictions-in-malaysia"></a>Ограничения набора бесплатных номеров в Малайзии
 
@@ -51,7 +51,6 @@ ms.locfileid: "43140338"
 
 [Ограничения и запреты для бесплатных номеров](../toll-free-dialing-limitations-and-restrictions.md)
 
-[Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
+[Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](../getting-service-phone-numbers.md)
 
   
- 

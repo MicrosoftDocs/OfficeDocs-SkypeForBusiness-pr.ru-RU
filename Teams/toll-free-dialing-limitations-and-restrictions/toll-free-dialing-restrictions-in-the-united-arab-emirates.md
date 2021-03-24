@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: Узнайте о наборе бесплатных номеров в Объединенных Арабских Эмиратах, в том числе о доступности, доступности с использованием проводных и фиксированных телефонных подключений и ограничениях для мобильных сетей.
-ms.openlocfilehash: 7da543192b6e0fd0e3e4b710fd31ced50695813e
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 483165d439e8eefe10c665534d9ad1050331f4f8
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139748"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51097645"
 ---
 # <a name="toll-free-dialing-restrictions-in-the-united-arab-emirates"></a>Ограничения набора бесплатных номеров в ОАЭ
 
@@ -51,7 +51,6 @@ ms.locfileid: "43139748"
 
 [Ограничения и запреты для бесплатных номеров](../toll-free-dialing-limitations-and-restrictions.md)
 
-[Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
+[Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](../getting-service-phone-numbers.md)
 
   
- 

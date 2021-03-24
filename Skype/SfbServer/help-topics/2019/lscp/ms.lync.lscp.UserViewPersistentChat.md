@@ -1,5 +1,5 @@
 ---
-title: Пользователи просматривают сохраняемую беседу
+title: Пользователи просматривают постоянный чат
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -14,15 +14,15 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: c66c6689-28a2-4758-add1-0d0dff0d3eee
 ROBOTS: NOINDEX, NOFOLLOW
-description: Члены роли CsPersistentChatAdministrator (Администраторы сохраняемого чата) могут предоставлять права и разрешения диспетчера комнат чата другим пользователям и самим себе.
-ms.openlocfilehash: 36bd664f1bba680214eaf6315b2ed164e70ef7a4
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Члены роли CsPersistentChatAdministrator (Постоянные администраторы чата) могут предоставлять права и разрешения диспетчеру комнат чата другим пользователям и самим себе.
+ms.openlocfilehash: ef02c20c1b20bbb30ef5dcdf6271111272ee5fd6
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49808089"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51097215"
 ---
-# <a name="users-view-persistent-chat"></a>Пользователи просматривают сохраняемую беседу
+# <a name="users-view-persistent-chat"></a>Пользователи просматривают постоянный чат
 
 > [!NOTE] 
-> Сохраняемая беседа доступна в Skype для бизнеса Server 2015, но больше не поддерживается в Skype для бизнеса Server 2019. Такие же функции доступны в Teams. Дополнительные сведения см. в [обновлении Skype для бизнеса до Microsoft Teams.](https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here) Если необходимо использовать сохраняемого чата, вы можете либо перенести пользователей, которым требуются эти функции, в Teams, либо продолжить использовать Skype для бизнеса Server 2015.
+> Постоянный чат доступен в Skype для бизнеса Server 2015, но больше не поддерживается в Skype для бизнеса Server 2019. Такие же функции доступны в Teams. Дополнительные сведения см. в [обновлениях Skype для бизнеса до Microsoft Teams.](/MicrosoftTeams/upgrade-start-here) Если вам нужно использовать постоянный чат, вы можете либо перенести пользователей, требующих этой функции, в Teams, либо продолжить использование Skype для бизнеса Server 2015.

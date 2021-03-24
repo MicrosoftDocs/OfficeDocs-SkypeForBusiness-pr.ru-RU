@@ -1,5 +1,5 @@
 ---
-title: Удаление политики ПИН-кодов в Skype для бизнеса Server
+title: Удаление политики ПИН-кода в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,28 +12,28 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7c378927-2e41-418e-9721-327021bd2e45
-description: Сводка. Удаление ПИН-кода пользователя для телефонной сети для Skype для бизнеса Server.
-ms.openlocfilehash: 6cf93d2ade053ba6e4bdbe7aabf0138206fdff88
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Сводка. Удаление ПИН-кода телефонных разговоров пользователя для Skype для бизнеса Server.
+ms.openlocfilehash: b85d2bb29f8a1a28279a59f72957d201886d1dc4
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49828399"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51096795"
 ---
-# <a name="delete-a-pin-policy-in-skype-for-business-server"></a>Удаление политики ПИН-кодов в Skype для бизнеса Server
+# <a name="delete-a-pin-policy-in-skype-for-business-server"></a>Удаление политики ПИН-кода в Skype для бизнеса Server
  
-**Сводка:** Удаление ПИН-кода для телефонной комференции пользователя для Skype для бизнеса Server.
+**Сводка:** Удаление ПИН-кода телефонных разговоров пользователя для Skype для бизнес-сервера.
   
 Чтобы удалить политику персональных идентификационных номеров (политику ПИН-кодов), выполните следующие действия.
   
 > [!NOTE]
 > Глобальную политику ПИН-кодов удалить нельзя. 
   
-### <a name="to-delete-a-pin-policy-in-skype-for-business-server-control-panel"></a>Удаление политики ПИН-кодов на панели управления Skype для бизнеса Server
+### <a name="to-delete-a-pin-policy-in-skype-for-business-server-control-panel"></a>Удаление политики ПИН-кода в панели управления Skype для бизнес-серверов
 
-1.  Из учетной записи пользователя, которая является членом группы RTCUniversalServerAdmins (или имеет эквивалентные права пользователя) или которой назначена роль CsServerAdministrator или CsAdministrator, войдите на любой компьютер в сети, в которой развернут Skype для бизнеса Server.
+1.  С учетной записи пользователя, которая входит в группу RTCUniversalServerAdmins (или имеет эквивалентные права пользователя) или назначена роли CsServerAdministrator или CsAdministrator, войдите на любой компьютер, который находится в сети, в которой развернут Skype для бизнеса Server.
     
-2. Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Skype для бизнеса Server.  
+2. Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Skype для бизнес-серверов.  
     
 3. В левой панели навигации последовательно выберите пункты **Security (Безопасность)** и **PIN Policy (Политика ПИН-кодов)**.
     
@@ -43,11 +43,11 @@ ms.locfileid: "49828399"
     
 6. Нажмите кнопку **ОК**.
     
-## <a name="removing-pin-policies-by-using-windows-powershell-cmdlets"></a>Удаление политик ПИН-кодов с помощью Windows PowerShell-кодов
+## <a name="removing-pin-policies-by-using-windows-powershell-cmdlets"></a>Удаление политик ПИН-кода с помощью Windows PowerShell cmdlets
 
-Политики ПИН-кодов можно удалить с помощью Windows PowerShell и Remove-CsPinPolicy управления. Вы можете запустить этот Windows PowerShell из оболочки управления Skype для бизнеса Server. Подробные сведения об использовании удаленного Windows PowerShell для подключения к Skype для бизнеса Server см. в статье [блога "Краткое руководство. Управление Microsoft Lync Server 2010 с](https://go.microsoft.com/fwlink/p/?linkId=255876)помощью удаленной powerShell". В Skype для бизнеса Server этот процесс тот же.
+Политики ПИН-кода можно удалить с помощью Windows PowerShell и Remove-CsPinPolicy. Этот комлет можно выполнить либо из оболочки управления skype для бизнес-серверов, либо из удаленного сеанса Windows PowerShell. Сведения об использовании удаленных Windows PowerShell для подключения к Skype для бизнеса Server см. в статье блога ["Быстрый запуск: управление Microsoft Lync Server 2010 с](https://go.microsoft.com/fwlink/p/?linkId=255876)помощью удаленной powerShell". В Skype для бизнеса Server этот процесс является одинаковым.
   
-### <a name="to-remove-a-specific-pin-policy"></a>Удаление определенной политики ПИН-кодов
+### <a name="to-remove-a-specific-pin-policy"></a>Удаление определенной политики ПИН-кода
 
 - Эта команда удаляет политику ПИН-кода с идентификатором RedmondPinPolicy:
     
@@ -55,7 +55,7 @@ ms.locfileid: "49828399"
   Remove-CsPinPolicy -Identity "RedmondPinPolicy"
   ```
 
-### <a name="to-remove-all-the-pin-policies-applied-to-the-site-scope"></a>Удаление всех политик ПИН-кодов, применяемых к области сайта
+### <a name="to-remove-all-the-pin-policies-applied-to-the-site-scope"></a>Удаление всех политик ПИН-кода, примененных к области сайта
 
 - Эта команда удаляет все политики ПИН-кода, настроенные в области действия сайта:
     
@@ -63,7 +63,7 @@ ms.locfileid: "49828399"
   Get-CsPinPolicy -Filter "site:*" | Remove-CsPinPolicy
   ```
 
-### <a name="to-remove-all-the-pin-policies-that-allow-the-use-of-common-patterns"></a>Удаление всех политик ПИН-кодов, которые позволяют использовать общие шаблоны
+### <a name="to-remove-all-the-pin-policies-that-allow-the-use-of-common-patterns"></a>Удаление всех политик ПИН-кода, позволяющих использовать общие шаблоны
 
 - А эта команда удаляет все политики ПИН-кодов, допускающие использование общих шаблонов:
     
@@ -71,6 +71,4 @@ ms.locfileid: "49828399"
   et-CsPinPolicy | Where-Object {$_.AllowCommonPatterns -eq $True} | Remove-CsPinPolicy
   ```
 
-Дополнительные сведения см. в разделе справки по [cmdlet Remove-CsPinPolicy.](https://docs.microsoft.com/powershell/module/skype/remove-cspinpolicy?view=skype-ps)
-  
-
+Дополнительные сведения см. в разделе Справка для [cmdlet Remove-CsPinPolicy.](/powershell/module/skype/remove-cspinpolicy?view=skype-ps)

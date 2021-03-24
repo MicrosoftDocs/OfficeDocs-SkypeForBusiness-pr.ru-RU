@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0db2e752bb163f806c5dcba7aa56fc36bae7c2ef
-ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
+ms.openlocfilehash: 3eb6c65d414217810c795aa72701a8e546f30643
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "49578362"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51096033"
 ---
 # <a name="overview-of-implementing-your-upgrade"></a>Общие сведения о внедрении обновления
 
@@ -42,12 +42,12 @@ ms.locfileid: "49578362"
 
 
 - [Привлечение заинтересованных лиц проекта](upgrade-enlist-stakeholders.md)
-- [Определение области проекта](https://aka.ms/SkypetoTeams-Scope)
-- [Понимание сосуществования и совместной работы Skype для бизнеса и Teams](https://aka.ms/SkypeToTeams-Coexist)
-- [Вы решили перейти на нее](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [Определение области проекта](./upgrade-define-project-scope.md)
+- [Понимание сосуществования и совместной работы Skype для бизнеса и Teams](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+- [Выбранный путь обновления](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 - [Запланировано пилотное проект пользователя](pilot-essentials.md)
-- [Подготовлена среда](https://aka.ms/SkypeToTeams-TechnicalReadiness)
-- [Подготовив организацию](https://aka.ms/SkypeToTeams-UserReadiness)
+- [Подготовлена среда](./upgrade-prepare-environment.md)
+- [Подготовив организацию](./upgrade-prepare-organization.md)
 
 ## <a name="choose-your-upgrade-starting-point"></a>Выбор начальной точки обновления
 
@@ -55,9 +55,9 @@ ms.locfileid: "49578362"
 
 В зависимости от текущей среды выберите отправную точку:  
 
-- **Если вы обновляете Skype для** бизнеса Online до Teams, выполните действия по переходу со Skype для бизнеса [Online на Teams.](https://aka.ms/SkypeToTeams-UpgradeOnline)
+- **Если вы обновляете Skype для** бизнеса Online до Teams, выполните действия по переходу со Skype для бизнеса [Online на Teams.](./upgrade-to-teams-execute-skypeforbusinessonline.md)
 
--  **Если** вы выполняете переход с локальной среды Skype для бизнеса, вам потребуется выполнить некоторые дополнительные действия, чтобы настроить подключение между локальной и сетевой средами, прежде чем перемещать пользователей в Teams. Дополнительные сведения [см. в локальном обновлении Skype](upgrade-to-teams-execute-SkypeforBusinessHybridOnPrem.md)для бизнеса до Teams.
+-  Если вы выполняете переход с локальной среды **Skype** для бизнеса, вам потребуется выполнить некоторые дополнительные действия, чтобы настроить подключение между локальной и сетевой средами, прежде чем перемещать пользователей в Teams. Дополнительные сведения [см. в локальном обновлении Skype](upgrade-to-teams-execute-SkypeforBusinessHybridOnPrem.md)для бизнеса до Teams.
 
 
 

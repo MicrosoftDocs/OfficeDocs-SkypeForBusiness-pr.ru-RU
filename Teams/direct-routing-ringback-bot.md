@@ -16,12 +16,12 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 91cea9183a85a804ca43464aab08f417ccaff1e8
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 3ec53f1d4f9cd21d3b28c87c07c1bc91d48b9b58
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49827519"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51098425"
 ---
 # <a name="set-up-the-ringback-bot-for-direct-routing"></a>Настройка бота Ringback для прямой маршрутки
 
@@ -29,14 +29,14 @@ ms.locfileid: "49827519"
 
 Иногда входящие звонки из телефонной сети общего звонков (STN) на клиенты Teams могут занять больше времени, чем ожидалось. Это может произойти по разным причинам. В этом случае звонок может ничего не слышать, клиент Teams не звонит, а некоторые поставщики телекоммуникаций могут отменить звонок.
 
-В этом сценарии бот Ringback помогает избежать неожиданного тишины. Для входящие вызовы из PSTN в клиенты Teams, бот Ringback воспроизводит характерный звуковой сигнал для вызываемого звонка, чтобы показать, что Teams находится в процессе установления звонка.
+В этом сценарии бот Ringback помогает избежать неожиданного тишины. Для входящие звонки из STN в клиенты Teams, бот Ringback воспроизводит характерный звуковой сигнал для вызываемого звонка, чтобы показать, что Teams находится в процессе установления звонка.
 
 > [!NOTE]
-> Бот Ringback создает мультимедиа на ранних стадиях из backend Teams. В некоторых странах и регионах с вас может взиматься плата за звонок, когда начнется поток мультимедиа.
+> Бот Ringback создает мультимедиа на ранних стадиях из backend Teams. В некоторых странах и регионах при потоке мультимедиа с вас может взиматься плата за звонок.
 
 ## <a name="configure-the-ringback-bot"></a>Настройка бота Ringback
 
-Используйте cmdlet [Set-CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstngateway) для изменения ранее определенной конфигурации граничного контроллера сеанса (SBC) или для создания новой конфигурации SBC с параметром GenerateRingingWhileLocatingUser(New-CsOnlinePSTNGateway), чтобы создать новую конфигурацию SBC, а также параметр **GenerateRingingWhileLocatingUser** для настройки бота Ringback: [](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway)
+Используйте cmdlet [Set-CsOnlinePSTNGateway](/powershell/module/skype/set-csonlinepstngateway) для изменения ранее определенной конфигурации граничного контроллера сеанса (SBC) или для создания новой конфигурации SBC с параметром GenerateRingingWhileLocatingUser(New-CsOnlinePSTNGateway), чтобы создать новую конфигурацию SBC, а также параметр **GenerateRingingWhileLocatingUser** для настройки бота Ringback: [](/powershell/module/skype/new-csonlinepstngateway)
 
 - Чтобы включить бот Ringback, установите для параметра **GenerateRingingWhileLocatingUser** **$True.** Это значение по умолчанию. 
 

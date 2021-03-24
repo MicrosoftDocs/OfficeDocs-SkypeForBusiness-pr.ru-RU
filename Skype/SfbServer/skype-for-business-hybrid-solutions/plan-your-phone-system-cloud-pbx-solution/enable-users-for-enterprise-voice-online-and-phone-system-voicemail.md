@@ -19,17 +19,17 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 28daebcb-c2dc-4338-b2d1-04345ece9c19
 description: Узнайте, как включить голосовые службы телефонной системы для пользователей Skype для бизнеса.
-ms.openlocfilehash: bbcf8b35d91015067943eec2cbe43525e952a7f7
-ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
+ms.openlocfilehash: f1c59505073a7113407f28b7ebbe3a323724782e
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50569361"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51098575"
 ---
 # <a name="enable-users-for-enterprise-voice-online-and-phone-system-voicemail"></a>Предоставление пользователям доступа к корпоративной голосовой связи через сеть и к голосовой почте по телефонной линии
  
 > [!Important]
-> Skype для бизнеса Online будет отменен 31 июля 2021 г., после чего служба будет больше недоступна.  Кроме того, подключение PSTN между локальной средой, будь то Skype для бизнеса Server или Cloud Connector Edition и Skype для бизнеса Online, больше не будет поддерживаться.  Узнайте, как подключить сеть локальной телефонии к Teams с помощью [прямого маршрутного маршрутинга.](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)
+> Skype для бизнеса Online будет отменен 31 июля 2021 г., после чего служба будет больше недоступна.  Кроме того, подключение PSTN между локальной средой, будь то Skype для бизнеса Server или Cloud Connector Edition и Skype для бизнеса Online, больше не будет поддерживаться.  Узнайте, как подключить сеть локальной телефонии к Teams с помощью [прямого маршрутного маршрутинга.](/MicrosoftTeams/direct-routing-landing-page)
 
 Узнайте, как включить голосовые службы телефонной системы для пользователей Skype для бизнеса.
   
@@ -45,7 +45,7 @@ ms.locfileid: "50569361"
 > Соединитель Skype для бизнеса в Интернете в настоящее время является частью последнего модуля Teams PowerShell.
 > Если вы используете последний общедоступный [выпуск Teams PowerShell,](https://www.powershellgallery.com/packages/MicrosoftTeams/)вам не нужно устанавливать соединитель Skype для бизнеса в Интернете.
 
-1. Перед началом проверьте, установлен ли модуль Teams PowerShell на переднем сервере. Если это не так, установите, пожалуйста, с помощью инструкций по установке [модулей Teams PowerShell.](https://docs.microsoft.com/microsoftteams/teams-powershell-install)
+1. Перед началом проверьте, установлен ли модуль Teams PowerShell на переднем сервере. Если это не так, установите, пожалуйста, с помощью инструкций по установке [модулей Teams PowerShell.](/microsoftteams/teams-powershell-install)
     
 2. Начните Windows PowerShell в качестве администратора.
     
@@ -98,11 +98,11 @@ ms.locfileid: "50569361"
     
 ## <a name="update-the-dial-plan-using-on-premises-windows-powershell-cmdlets"></a>Обновление набора набора с помощью локального Windows PowerShell-кодлетов
 
-Вы можете назначить для каждого пользователя планы набора с помощью Windows PowerShell и [cmdlet Grant-CsDialPlan.](https://docs.microsoft.com/powershell/module/skype/grant-csdialplan?view=skype-ps) Этот комлет можно выполнить либо из Skype для бизнеса Server 2015, либо из удаленного сеанса Windows PowerShell.
+Вы можете назначить для каждого пользователя планы набора с помощью Windows PowerShell и [cmdlet Grant-CsDialPlan.](/powershell/module/skype/grant-csdialplan?view=skype-ps) Этот комлет можно выполнить либо из Skype для бизнеса Server 2015, либо из удаленного сеанса Windows PowerShell.
   
 ### <a name="to-assign-a-per-user-dial-plan-to-a-single-user"></a>Назначение набора для каждого пользователя одному пользователю
 
-- Чтобы назначить пользователю Кену Мьеру наборную плану RedmondDialPlan для каждого пользователя, используйте коммюнике [Grant-CsDialPlan:](https://docs.microsoft.com/powershell/module/skype/grant-csdialplan?view=skype-ps)
+- Чтобы назначить пользователю Кену Мьеру наборную плану RedmondDialPlan для каждого пользователя, используйте коммюнике [Grant-CsDialPlan:](/powershell/module/skype/grant-csdialplan?view=skype-ps)
     
   ```powershell
   Grant-CsDialPlan -Identity "Ken Myer" -PolicyName "RedmondDialPlan"
@@ -110,7 +110,7 @@ ms.locfileid: "50569361"
 
 ### <a name="to-assign-a-per-user-dial-plan-to-multiple-users"></a>Назначение набора для каждого пользователя нескольким пользователям
 
-- Следующая команда назначает для каждого пользователя наборную плану RedmondDialPlan всем пользователям, которые работают в городе Редмонд. Дополнительные сведения о параметре LdapFilter, используемом в этой команде, см. в документации для [командлета Get-CsUser:](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps)
+- Следующая команда назначает для каждого пользователя наборную плану RedmondDialPlan всем пользователям, которые работают в городе Редмонд. Дополнительные сведения о параметре LdapFilter, используемом в этой команде, см. в документации для [командлета Get-CsUser:](/powershell/module/skype/get-csuser?view=skype-ps)
     
   ```powershell
   Get-CsUser -LdapFilter "l=Redmond" | Grant-CsDialPlan -PolicyName "RedmondDialPlan"
@@ -121,7 +121,7 @@ ms.locfileid: "50569361"
   
 ### <a name="to-unassign-a-per-user-dial-plan"></a>Чтобы отоименить телефонную плану для каждого пользователя
 
-- Используйте [комлет Grant-CsDialPlan,](https://docs.microsoft.com/powershell/module/skype/grant-csdialplan?view=skype-ps) чтобы отогнать любую заданную ранее телефонную плану на одного пользователя Кену Myer. После того, как телефонная система для каждого пользователя не назначена, управление кеном Myer будет автоматически происходить с помощью глобальной шкалы или набора номера службы, назначенного его шлюзу Registrar или PSTN. Перед глобальной шкалой набора номеров области службы имеется преимущество:
+- Используйте [комлет Grant-CsDialPlan,](/powershell/module/skype/grant-csdialplan?view=skype-ps) чтобы отогнать любую заданную ранее телефонную плану на одного пользователя Кену Myer. После того, как телефонная система для каждого пользователя не назначена, управление кеном Myer будет автоматически происходить с помощью глобальной шкалы или набора номера службы, назначенного его шлюзу Registrar или PSTN. Перед глобальной шкалой набора номеров области службы имеется преимущество:
     
   ```powershell
   Grant-CsDialPlan -Identity "Ken Myer" -PolicyName $Null
@@ -131,14 +131,14 @@ ms.locfileid: "50569361"
 
 В этом разделе описывается обновление политик маршрутики голосовой связи для пользователей, включенных в телефонную систему.
   
-Пользователи телефонной системы должны иметь политику маршрутизов голосовой связи, назначенную им для успешного маршрута звонков. Это отличается от локального бизнеса голосовых пользователей, которым требуется, чтобы им была назначена голосовая политика для успешного маршрута вызовов. Политика маршрутизации голосовой связи должна содержать использование PSTN, определяющие разрешенные вызовы и маршруты для пользователей телефонной системы. Эти ПСПС можно скопировать из существующих голосовых политик в новые политики маршрутивки голосовой почты. Дополнительные сведения см. [в рублях New-CsVoiceRoutingPolicy.](https://docs.microsoft.com/powershell/module/skype/new-csvoiceroutingpolicy?view=skype-ps)
+Пользователи телефонной системы должны иметь политику маршрутизов голосовой связи, назначенную им для успешного маршрута звонков. Это отличается от локального бизнеса голосовых пользователей, которым требуется, чтобы им была назначена голосовая политика для успешного маршрута вызовов. Политика маршрутизации голосовой связи должна содержать использование PSTN, определяющие разрешенные вызовы и маршруты для пользователей телефонной системы. Эти ПСПС можно скопировать из существующих голосовых политик в новые политики маршрутивки голосовой почты. Дополнительные сведения см. [в рублях New-CsVoiceRoutingPolicy.](/powershell/module/skype/new-csvoiceroutingpolicy?view=skype-ps)
   
 > [!NOTE]
 > Всем пользователям телефонной системы назначена та же политика голосовой связи в Интернете с именем BusinessVoice, которая определяет разрешенные функции вызова; например, разрешить одновременное кольцо. 
   
 ### <a name="to-assign-a-per-user-voice-routing-policy-to-a-single-user"></a>Назначение политики маршрутинга голосовых данных для каждого пользователя одному пользователю
 
-- Используйте [кодлет Grant-CsVoiceRoutingPolicy,](https://docs.microsoft.com/powershell/module/skype/grant-csvoiceroutingpolicy?view=skype-ps) чтобы назначить политику маршрутизации голосовой маршрутизации для каждого пользователя RedmondVoiceRoutingPolicy пользователю Кену Мойеру:
+- Используйте [кодлет Grant-CsVoiceRoutingPolicy,](/powershell/module/skype/grant-csvoiceroutingpolicy?view=skype-ps) чтобы назначить политику маршрутизации голосовой маршрутизации для каждого пользователя RedmondVoiceRoutingPolicy пользователю Кену Мойеру:
     
   ```powershell
   Grant-CsVoiceRoutingPolicy -Identity "Ken Myer" -PolicyName "RedmondVoiceRoutingPolicy"
@@ -146,7 +146,7 @@ ms.locfileid: "50569361"
 
 ### <a name="to-assign-a-per-user-voice-routing-policy-to-multiple-users"></a>Назначение политики маршрутинга голосовой маршрутики для каждого пользователя нескольким пользователям
 
-- Следующая команда назначает политику маршрутизации голосовых данных для каждого пользователя RedmondVoiceRoutingPolicy всем пользователям, которые работают в городе Редмонд. Дополнительные сведения о параметре LdapFilter, используемом в этой команде, см. [в пункте Get-CsUser.](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps)
+- Следующая команда назначает политику маршрутизации голосовых данных для каждого пользователя RedmondVoiceRoutingPolicy всем пользователям, которые работают в городе Редмонд. Дополнительные сведения о параметре LdapFilter, используемом в этой команде, см. [в пункте Get-CsUser.](/powershell/module/skype/get-csuser?view=skype-ps)
     
   ```powershell
   Get-CsUser -LdapFilter "l=Redmond" | Grant-CsVoiceRoutingPolicy -PolicyName "RedmondVoiceRoutingPolicy"
@@ -163,6 +163,4 @@ ms.locfileid: "50569361"
   Grant-CsVoiceRoutingPolicy -Identity "Ken Myer" -PolicyName $Null
   ```
 
-    Дополнительные сведения см. [в рублях Grant-CsVoiceRoutingPolicy.](https://docs.microsoft.com/powershell/module/skype/grant-csvoiceroutingpolicy?view=skype-ps)
-    
-
+    Дополнительные сведения см. [в рублях Grant-CsVoiceRoutingPolicy.](/powershell/module/skype/grant-csvoiceroutingpolicy?view=skype-ps)

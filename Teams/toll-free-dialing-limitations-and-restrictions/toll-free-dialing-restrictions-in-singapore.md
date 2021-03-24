@@ -23,13 +23,13 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: Узнайте о наборе бесплатных номеров в Сингапуре, в том числе о доступности, доступности с использованием проводных и фиксированных номеров, а также об ограничениях для мобильных сетей.
-ms.openlocfilehash: f865408fe7de643e33f5466b1641b2f892b7a795
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+description: Узнайте о наборе бесплатных номеров в Сингапуре, в том числе о доступности, доступности с использованием проводных и фиксированных телефонных подключений и мобильных сетевых номерах, а также об ограничениях.
+ms.openlocfilehash: 1bd7449148ead13be1faec7151e384520b48a090
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139818"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51097745"
 ---
 # <a name="toll-free-dialing-restrictions-in-singapore"></a>Ограничения набора бесплатных номеров в Сингапуре
 
@@ -51,7 +51,6 @@ ms.locfileid: "43139818"
 
 [Ограничения и запреты для бесплатных номеров](../toll-free-dialing-limitations-and-restrictions.md)
 
-[Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
+[Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](../getting-service-phone-numbers.md)
 
   
- 

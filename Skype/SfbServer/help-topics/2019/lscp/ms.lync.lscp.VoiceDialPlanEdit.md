@@ -1,5 +1,5 @@
 ---
-title: Создание новой или редактирование существующей телефонной программы
+title: Dial Plan Create New or Edit Existing
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,24 +15,21 @@ localization_priority: Normal
 ms.assetid: 98e6372e-90e3-4939-b681-640f00d98ff1
 ROBOTS: NOINDEX, NOFOLLOW
 description: Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
-ms.openlocfilehash: 8a781336a735ed9fd84f342477cda91e6744af04
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 42fef3acffe83680df6e53a7797256e7068e1b5f
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49807929"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51097165"
 ---
 # <a name="dial-plan-create-new-or-edit-existing"></a>Абонентская группа : создание новой или редактирование существующей
 
 Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
 
-- [Создание или изменение телефонной плана в Skype для бизнеса Server](../../../deploy/deploy-enterprise-voice/dial-plans.md)
+- [Создание или изменение набора номера в Skype для бизнеса Server](../../../deploy/deploy-enterprise-voice/dial-plans.md)
 
-- [Изменение абонентской группы](https://technet.microsoft.com/library/a91f02df-cf60-40cf-82fe-e0342c118b91.aspx)
+- [Изменение абонентской группы](/previous-versions/office/lync-server-2013/lync-server-2013-modify-a-dial-plan)
 
 - [Создание или изменение правила нормализации в Skype для бизнеса](../../../deploy/deploy-enterprise-voice/normalization-rules.md)
 
-- [Создание или изменение правила нормализации вручную](https://technet.microsoft.com/library/fc0335e6-8830-4cfb-8c64-6aeb98c0a992.aspx)
-
-
-
+- [Создание или изменение правила нормализации вручную](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-a-normalization-rule-manually)

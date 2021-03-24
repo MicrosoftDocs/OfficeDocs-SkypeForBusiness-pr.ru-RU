@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Вот службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Шри-Ланка.
-ms.openlocfilehash: 96a700cfa7917ca4b51c3fd4e65c831f77fd950f
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+ms.openlocfilehash: 4e7f7b767df2f7b4baa89dd15b4d81195ba6d2be
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44230697"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51096469"
 ---
 # <a name="availability-in-sri-lanka"></a>Доступность в Шри-Ланке
 
@@ -43,7 +43,7 @@ ms.locfileid: "44230697"
 |**Функция**|**Details**|
 |:-----|:-----|
 |Доступно ли приобретение аудиоконференций?  <br/> |Да  <br/> |
-|Назначаются ли номера телефонов для аудиоконференций автоматически?  <br/> | Номера телефонов не связаны с конкретным городом или местоположением. Если вам нужны выделенные телефонные номера, см. получение номеров телефонов служб для Skype для[бизнеса и Microsoft Teams.](/microsoftteams/getting-service-phone-numbers)  <br/> |
+|Назначаются ли номера телефонов для аудиоконференций автоматически?  <br/> | Номера телефонов не связаны с конкретным городом или местоположением. Если вам нужны выделенные телефонные номера, см. получение номеров телефонов служб для Skype для[бизнеса и Microsoft Teams.](../getting-service-phone-numbers.md)  <br/> |
 |Возможность получить обратный звонок с функцией "Звонок на мой номер"  <br/> |Требуются кредиты связи  <br/> |
    
 ## <a name="phone-system"></a>Телефонная система
@@ -73,7 +73,7 @@ ms.locfileid: "44230697"
 |Доступны ли платные номера?  <br/> |Да  <br/> |
 |Доступны ли бесплатные номера?  <br/> |Нет  <br/> |
    
- Если вы хотите получить платные и бесплатные номера телефонов для аудиоконференций, автосекретарей и очередей звонков, см. статью [Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](/microsoftteams/getting-service-phone-numbers).
+ Если вы хотите получить платные и бесплатные номера телефонов для аудиоконференций, автосекретарей и очередей звонков, см. статью [Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](../getting-service-phone-numbers.md).
   
 ## <a name="communications-credits"></a>Кредиты на связь
 
@@ -85,9 +85,8 @@ ms.locfileid: "44230697"
   
 ## <a name="related-topics"></a>Статьи по теме
 
-[Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
+[Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](../getting-service-phone-numbers.md)
 
 [Доступность аудиоконференций и планов звонков в различных странах и регионах](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
   
- 

@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - PowerShell
 description: Troubleshoot creating a remote PowerShell session to connect to Skype for Business Online, including Import-Module, concurrent shell, Live ID, and permission errors.
-ms.openlocfilehash: 019ef023b325227be046aae1e855573449453864
-ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
+ms.openlocfilehash: 6edaa33244a3192f83289020fe12051ab5f9fb6b
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "44204880"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51097255"
 ---
 # <a name="diagnose-connection-problems-with-the-skype-for-business-online-connector"></a>Диагностика проблем подключения с помощью соединителя Skype для бизнеса Online
 
@@ -52,7 +52,7 @@ ms.locfileid: "44204880"
     
 
 > [!IMPORTANT]
-> По умолчанию сеансы PowerShell отстают после 60 минут. Чтобы подключиться повторно, необходимо закрыть сеанс и запустить новый сеанс PowerShell. Недавно выпущена новая версия Skype для бизнеса [Online Windows PowerShell module (2046.123 — опубликовано 02.10.2019),](https://www.microsoft.com/download/details.aspx?id=39366)которая включает новый командлет **Enable-CsOnlineSessionForReconnection,** который устраняет проблему с 60-минутным временем.
+> По умолчанию сеансы PowerShell отстают после 60 минут. Для повторного подключения необходимо закрыть сеанс и запустить новый сеанс PowerShell. Недавно выпущена новая версия Skype для бизнеса [Online Windows PowerShell module (2046.123 — опубликовано 02.10.2019),](https://www.microsoft.com/download/details.aspx?id=39366)которая включает новый командлет **Enable-CsOnlineSessionForReconnection,** который устраняет проблему с 60-минутным временем.
 > Сеанс PowerShell переподключает и аутентификацию, позволяя повторно использовать его без запуска нового экземпляра для повторного подключения.
 
 
@@ -62,13 +62,13 @@ ms.locfileid: "44204880"
 
 Политика выполнения PowerShell помогает определить, какие файлы конфигурации можно загрузить в консоль PowerShell и какие сценарии пользователь может запустить из этой консоли. Как минимум Модуль соединителя Skype для бизнеса Online невозможно импортировать, если политика выполнения имеет значение RemoteSigned. Если это не так, вы получите следующее сообщение об ошибке при попытке импортировать модуль:
   
-- Ошибка **:** <em>Import-Module : File C: \\ Program Files Common Files Microsoft \\ \\ Lync Server 2013 \\ Modules \\ LyncOnlineConnector \\ LyncOnlineConnectorStartup.psm1 не загружается, так как запуск сценариев отключен в этой системе. Дополнительные сведения см. в about_Execution_Policies https://go.microsoft.com/fwlink/?LinkID=135170 .</em>
+- Ошибка **:** <em>Import-Module : File C: \\ Program Files Common Files Microsoft \\ \\ Lync Server 2013 \\ Modules \\ LyncOnlineConnector \\ LyncOnlineConnectorStartup.psm1 не загружается, так как в этой системе отключены сценарии. Дополнительные сведения см. в about_Execution_Policies https://go.microsoft.com/fwlink/?LinkID=135170 .</em>
 
 - **Разрешение** Чтобы устранить эту проблему, запустите PowerShell с права администратора, а затем запустите следующую команду:
     ```PowerShell
     Set-ExecutionPolicy RemoteSigned
     ```
-    Сведения о политике выполнения см. в разделе [Сведения о политиках выполнения](https://go.microsoft.com/fwlink/?LinkID=135170).
+    Сведения о политике выполнения см. в разделе [Сведения о политиках выполнения](/powershell/module/microsoft.powershell.core/about/about_execution_policies).
   
 ## <a name="import-module-error-caused-by-incorrect-version-of-windows-powershell"></a>Ошибка Import-Module, вызванная неправильной версией Windows PowerShell
 <a name="BKMKIncorrectVersion"> </a>
@@ -84,14 +84,14 @@ ms.locfileid: "44204880"
 
 Последняя версия модуля Соединителя Skype для бизнеса Online использует современную проверку подлинности, но для основного клиента Windows Remote Management (WinRM) должна быть настроена возможность основной проверки подлинности.  Современная проверка подлинности использует маркеры проверки подлинности, которые обычно передаются в заглавной области проверки подлинности *: Bearer.* Windows PowerShell, на основе которой встроена Skype для бизнеса PowerShell, не позволяет использовать этот заме желтую.  Вместо этого Skype для бизнеса PowerShell использует *авторизацию: основной* заглавный знак для доступа к маркеру.
 
-Инструкции о том, как включить проверку подлинности WinRM для [basic,](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/download-and-install-windows-powershell-5-1) см. в Windows PowerShell и инструкциях по скачии и установке.
+Инструкции [о том,](./download-and-install-windows-powershell-5-1.md) как включить проверку подлинности WinRM для основных, см. в Windows PowerShell и инструкции по скачии и установке.
 
 ## <a name="failed-to-connect-to-live-id-server"></a>Не удалось подключиться к серверу Live ID
 <a name="BKMKFailedConnect"> </a>
 
 Обычно три причины могут вызвать сбой подключения со следующим сообщением об ошибке:
 
-  - **Ошибка:** *Get-CsWebTicket : Failed to connect live id servers. Убедитесь, что прокси-сервер* включен или компьютер подключен к серверам live id.
+  - **Ошибка**: *Get-CsWebTicket : Failed to connect live id servers. Убедитесь, что прокси-сервер* включен или компьютер подключен к серверам live id.
 
 - **Решение.** Часто эта ошибка означает, Microsoft Online Services помощник по входу не запущен. Вы можете проверить состояние этой службы, запустив следующую команду из командной строки PowerShell: 
     ```PowerShell
@@ -113,14 +113,14 @@ ms.locfileid: "44204880"
 
 - **Ошибка:** *Get-CsWebTicket : Не может загрузить модуль Live ID. Убедитесь, что установлена* правильная версия помощника по входу в Live Id.
 
-- **Решение:** помощник Microsoft Online Services по входу доступен в Центре загрузки Майкрософт на сайте Microsoft Online Services Sign-In для [ИТ-специалистов, RTW](https://www.microsoft.com/download/details.aspx?id=28177)
+- **Решение:** помощник Microsoft Online Services по входу доступен в Центре загрузки Майкрософт на сайте Microsoft Online Services Sign-In для ИТ-специалистов, [RTW](https://www.microsoft.com/download/details.aspx?id=28177)
 
 ## <a name="logon-failed-for-the-user"></a>Произошел сбой входа для пользователя
 <a name="BKMKLogonFailed"> </a>
 
 При попытке установить удаленное подключение к Skype для бизнеса online нужно предоставить имя пользователя и пароль допустимой учетной записи пользователя Skype для бизнеса online. Если вы этого не сделаете, произойдет сбой при входе с сообщением об ошибке, аналогичным следующему:
 
-- **Ошибка:** *Get-CsWebTicket : Ошибка при логотипе пользователя "kenmyer@litwareinc.com". Создайте новый объект PSCredential, убедившись,* что вы использовали правильное имя пользователя и пароль.
+- **Ошибка:** *Get-CsWebTicket : Ошибка при нее для пользователя "kenmyer@litwareinc.com". Создайте новый объект PSCredential, убедившись,* что вы использовали правильное имя пользователя и пароль.
 
 - **Решение:** если вы считаете, что используете допустимую учетную запись пользователя и у вас правильный пароль, попробуйте войти еще раз. При сбое используйте те же учетные данные и попробуйте войти на сайте [https://login.microsoftonline.com/](https://login.microsoftonline.com/). Если вам не удается войти в систему, обратитесь в службу поддержки Майкрософт. 
 
@@ -130,7 +130,7 @@ ms.locfileid: "44204880"
 
 Невозможно установить удаленное подключение PowerShell к Skype для бизнеса online, если вы не являетесь участником группы "Администраторы клиента", так как в этом случае произойдет сбой подключения и вы получите следующее сообщение об ошибке:
 
-- Ошибка **:** New-PSSession : [admin.vdomain.com] Обработка данных с удаленного сервера admin.vdomain.com со следующим сообщением об ошибке: у пользователя "user@foo.com" нет разрешения на управление этим *клиентом. Разрешения можно получить, назначив пользователю соответствующую роль RBAC. Дополнительные сведения см. в [удаленном устранении неполадок.](https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1)*
+- Ошибка **:** New-PSSession : [admin.vdomain.com] Обработка данных с удаленного сервера admin.vdomain.com со следующим сообщением об ошибке: у пользователя "user@foo.com" нет разрешения на управление этим *клиентом. Разрешения можно получить, назначив пользователю соответствующую роль RBAC. Дополнительные сведения см. в [удаленном устранении неполадок.](/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1)*
 
 - **Решение.** Если вы считаете, что вы входите в группу "Администраторы клиента" или должны быть в этой группе, обратитесь в службу поддержки Майкрософт.
   
@@ -139,7 +139,7 @@ ms.locfileid: "44204880"
 
 Чтобы использовать PowerShell для управления Skype для бизнеса online, для свойства EnableRemotePowerShellAccess политики клиента PowerShell нужно задать значение  `True`. Если оно не задано, произойдет сбой подключения и вы получите следующее сообщение об ошибке:
 
-- Ошибка **:** New-PSSession : [admin.vdomain.com] Обработка данных с удаленного сервера admin.vdomain.com со следующим сообщением об ошибке: Возможность подключения к этому клиенту с помощью удаленного сеанса *PowerShell отключена. Обратитесь в справку Lync, чтобы проверить политику клиента Powershell для этого клиента. Дополнительные сведения см. в [удаленном устранении неполадок.](https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1)*
+- Ошибка **:** New-PSSession : [admin.vdomain.com] Обработка данных с удаленного сервера admin.vdomain.com со следующим сообщением об ошибке: Возможность подключения к этому клиенту с помощью удаленного сеанса *PowerShell отключена. Обратитесь в справку Lync, чтобы проверить политику клиента Powershell для этого клиента. Дополнительные сведения см. в [удаленном устранении неполадок.](/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1)*
 
 - **Решение.** Если вы видите это сообщение об ошибке, вам потребуется обратиться в службу поддержки Майкрософт и включить удаленный доступ PowerShell.
   
@@ -148,7 +148,7 @@ ms.locfileid: "44204880"
 
 Каждый администратор может установить максимум три удаленных подключения к Skype для бизнеса online одновременно. Если у вас установлено три удаленных подключения PowerShell, при попытке четвертого подключения произойдет сбой со следующим сообщением об ошибке:
 
-- **Ошибка**: New-PSSession : [admin.vdomain.com] Не удалось подключиться к удаленному серверу admin.vdomain.com со следующим сообщением об ошибке: WS-Management служба не может *обработать запрос. Превышено максимальное количество одновременной оболочки для этого пользователя. Закроем существующие оболочки или поднимем квоту для этого пользователя. Дополнительные сведения см. в [удаленном https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1 устранении неполадок](*
+- **Ошибка**: New-PSSession : [admin.vdomain.com] Не удалось подключиться к удаленному серверу admin.vdomain.com со следующим сообщением об ошибке: служба WS-Management не может *обработать запрос. Превышено максимальное количество одновременной оболочки для этого пользователя. Закроем существующие оболочки или поднимем квоту для этого пользователя. Дополнительные сведения см. в [удаленном https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1 устранении неполадок](*
 
 - **Решение:** единственный способ устранить эту проблему — закрыть одно или несколько из предыдущих подключений. По окончании работы с Skype для бизнеса online рекомендуется использовать командлет **Remove-PSSession**, чтобы завершить сеанс. Это поможет предотвратить проблему.
   
@@ -157,12 +157,11 @@ ms.locfileid: "44204880"
 
 Хотя у каждого администратора может быть до трех одновременных подключений к клиенту Skype для бизнеса Online, одному клиенту запрещено иметь более 20 одновременных подключений. Например, шесть администраторов могут в каждом из трех открытых сеансов. Если четвертый администратор попытается создать более 2 подключений (21 одновременный), будет сбой со следующим сообщением об ошибке:
   
-- **Ошибка**: New-PSSession : [admin.vdomain.com] Не удалось подключиться к удаленному серверу admin.vdomain.com со следующим сообщением об ошибке: WS-Management служба не может *обработать запрос. Превышено максимальное количество одновременной оболочки для этого клиента. Закроем существующие оболочки или поднимем квоту для этого клиента. Дополнительные сведения см. в [удаленном https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1 устранении неполадок](*
+- **Ошибка**: New-PSSession : [admin.vdomain.com] Не удалось подключиться к удаленному серверу admin.vdomain.com со следующим сообщением об ошибке: служба WS-Management не может *обработать запрос. Превышено максимальное количество одновременной оболочки для этого клиента. Закроем существующие оболочки или поднимем квоту для этого клиента. Дополнительные сведения см. в [удаленном https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1 устранении неполадок](*
 
 - **Решение:** единственный способ устранить эту проблему — закрыть одно или несколько из предыдущих подключений. По окончании работы с Skype для бизнеса online рекомендуется использовать командлет **Remove-PSSession**, чтобы завершить сеанс. Это поможет предотвратить проблему.  
  
 ## <a name="related-topics"></a>Статьи по теме
-[Настройка компьютера для управления skype для бизнеса с помощью Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
+[Настройка компьютера для управления интернет-приложением Skype для бизнеса с помощью Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
 
   
- 

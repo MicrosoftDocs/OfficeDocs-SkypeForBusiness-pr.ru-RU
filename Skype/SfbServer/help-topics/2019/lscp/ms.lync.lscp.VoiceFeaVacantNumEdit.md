@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 58903e40-6b93-40d6-88f8-1201743cd9be
 ROBOTS: NOINDEX, NOFOLLOW
 description: Неназначенные номера — это телефонные номера, допустимые для вашей организации, но не назначенные пользователю или телефону. В таблице неназначенных номеров указывается, как обрабатываются такие номера.
-ms.openlocfilehash: 9cef4ae8075bf4982ab9c3ddd857062d4fa1a824
-ms.sourcegitcommit: c477aa1a7da0b6b9bea1f5d10f1395eef418bfdb
+ms.openlocfilehash: 49837269f81eaee09a0c191008234345d1d6d19f
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50711736"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51097055"
 ---
 # <a name="unassigned-phone-number-create-new-or-edit-existing"></a>Неназначенный номер телефона: создание нового или редактирование существующего
 
@@ -58,6 +58,4 @@ ms.locfileid: "50711736"
 
   - **автосекретарь номер телефона** Выберите номер телефона для обмена автосекретарь.
 
-Подробные сведения о возможностях и возможностях объявления см. в документации По планированию в Skype для бизнеса Plan [for the Announcement](../../../plan-your-deployment/enterprise-voice-solution/announcement.md) application. Дополнительные сведения о работе с диапазонами неназначенных номеров см. в разделе [Configure Routing of Unassigned Phone Numbers](https://technet.microsoft.com/library/a0650659-dce7-455f-8977-02454bbfa400.aspx) в документации по применению.
-
-
+Подробные сведения о возможностях и возможностях объявления см. в документации По планированию в Skype для бизнеса Plan [for the Announcement](../../../plan-your-deployment/enterprise-voice-solution/announcement.md) application. Дополнительные сведения о работе с диапазонами неназначенных номеров см. в разделе [Configure Routing of Unassigned Phone Numbers](/previous-versions/office/lync-server-2013/lync-server-2013-configure-unassigned-phone-numbers) в документации по применению.

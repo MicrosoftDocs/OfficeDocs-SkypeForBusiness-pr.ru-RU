@@ -18,16 +18,16 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Узнайте, как вручную отправить запрос на перенос.
-ms.openlocfilehash: 20596f740be99c32917e56c050cc4cc48281cff8
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 92b5754a78cb0949b2788b33000ecbfa5d1f2e53
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49802529"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51098265"
 ---
 # <a name="manually-submit-a-port-order"></a>Отправка заказа на перенос номера вручную
 
-В некоторых странах и регионах может потребоваться вручную отправить запрос на обслуживание для получения номеров телефонов, переноса номеров телефонов, освобождения номеров телефонов или изменения адресов. Чтобы узнать, что требуется для каждой страны или региона, или узнать больше о переносе номеров, см. управление номерами телефонов [для вашей организации.](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+В некоторых странах и регионах может потребоваться вручную отправить запрос на обслуживание для получения номеров телефонов, перевода номеров телефонов, освобождения номеров телефонов или изменения адресов. Чтобы узнать, что требуется для каждой страны или региона, или узнать больше о переносе номеров, см. управление номерами телефонов [для вашей организации.](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
 Воспользуйтесь действиями, указанными в этой статье, чтобы вручную отправить заказ на перенос, если ваша страна или регион не указаны в мастере переноса в Центре администрирования [Microsoft Teams.](transfer-phone-numbers-to-teams.md)
 
@@ -41,7 +41,7 @@ ms.locfileid: "49802529"
 
 ## <a name="what-else-should-you-know-about-number-porting"></a>Что еще следует знать о переносе номеров
 
-- Чтобы использовать планы звонков, необходимо приобрести и назначить лицензии пользователям. См. [лицензирование надстройки Teams.](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
+- Чтобы использовать планы звонков, необходимо приобрести и назначить лицензии пользователям. См. [лицензирование надстройки Teams.](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 
 - Каждому пользователю необходимо назначить новые телефонные номера. См. ["Назначение, изменение или удаление номера телефона для пользователя".](../assign-change-or-remove-a-phone-number-for-a-user.md)
 

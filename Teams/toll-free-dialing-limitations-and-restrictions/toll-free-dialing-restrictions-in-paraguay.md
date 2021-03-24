@@ -23,12 +23,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Это поможет вам узнать, как звонить на бесплатные номера в каждой стране или регионе. После выбора страны или региона вы будете перена границу страницы с подробными сведениями, ограничениями и ограничениями на доступность бесплатных служб, на которых доступна бесплатная служба. В формате набора вы сможете использовать коды доступа, необходимые для набора бесплатного номера в каждой стране или регионе.
-ms.openlocfilehash: dec6127e2a52ae729e7106d76fb27785cd6fbf09
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: b4272ac27391fc861d5b1c9b2d5e90aaccb7aff2
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41693484"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51097845"
 ---
 # <a name="toll-free-dialing-restrictions-in-paraguay"></a>Ограничения набора бесплатных номеров в Парагвае
 
@@ -50,7 +50,6 @@ ms.locfileid: "41693484"
 
 [Ограничения и запреты для бесплатных номеров](../toll-free-dialing-limitations-and-restrictions.md)
 
-[Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
+[Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](../getting-service-phone-numbers.md)
 
   
- 

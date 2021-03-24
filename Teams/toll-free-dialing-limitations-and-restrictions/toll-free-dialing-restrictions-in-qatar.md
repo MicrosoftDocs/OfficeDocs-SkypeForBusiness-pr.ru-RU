@@ -23,12 +23,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Это поможет вам узнать, как звонить на бесплатные номера в каждой стране или регионе. После выбора страны или региона вы будете перена границу страницы с подробными сведениями, ограничениями и ограничениями на доступность бесплатных служб, на которых доступна бесплатная служба. В формате набора вы сможете использовать коды доступа, необходимые для набора бесплатного номера в каждой стране или регионе.
-ms.openlocfilehash: f6b433722bb33493d95042033d5996bfbee7ccef
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: afc9a69a6e8f065ecfbd6b1b672d56e87d5b4dce
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41693384"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51097775"
 ---
 # <a name="toll-free-dialing-restrictions-in-qatar"></a>Ограничения набора бесплатных номеров в Катаре
 
@@ -50,7 +50,6 @@ ms.locfileid: "41693384"
 
 [Ограничения и запреты для бесплатных номеров](../toll-free-dialing-limitations-and-restrictions.md)
 
-[Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
+[Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](../getting-service-phone-numbers.md)
 
   
- 

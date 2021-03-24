@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Узнайте, как настроить прямую маршрутику из microsoft Phone System.
-ms.openlocfilehash: 7d48e9163dd5927cbeddf4a4104d2382e69e7e2b
-ms.sourcegitcommit: f9daef3213a305676127cf5140af907e3b96d046
+ms.openlocfilehash: 03abeed954a7760c7c53142380a8ca558c5b3761
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48369164"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51096379"
 ---
 # <a name="translate-phone-numbers-to-an-alternate-format"></a>Перевод номеров телефонов в другой формат
 
@@ -43,9 +43,9 @@ ms.locfileid: "48369164"
 
 Политика применяется на уровне SBC. Можно назначить СКА несколько правил перевода, которые применяются в порядке их упорядочения при их составлении списка в PowerShell. Вы также можете изменить порядок правил в политике.
 
-Для создания, изменения, просмотра и удаления правил обработки номеров используйте для управления числами [new-CsTeamsTranslationRule,](https://docs.microsoft.com/powershell/module/skype/new-csteamstranslationrule) [Set-CsTeamsTranslationRule,](https://docs.microsoft.com/powershell/module/skype/set-csteamstranslationrule) [Get-CsTeamsTranslationRule](https://docs.microsoft.com/powershell/module/skype/get-csteamstranslationrule)и [Remove-CsTeamsTranslationRule.](https://docs.microsoft.com/powershell/module/skype/remove-csteamstranslationrule)
+Для создания, изменения, просмотра и удаления правил обработки номеров используйте для управления числами [new-CsTeamsTranslationRule,](/powershell/module/skype/new-csteamstranslationrule) [Set-CsTeamsTranslationRule,](/powershell/module/skype/set-csteamstranslationrule) [Get-CsTeamsTranslationRule](/powershell/module/skype/get-csteamstranslationrule)и [Remove-CsTeamsTranslationRule.](/powershell/module/skype/remove-csteamstranslationrule)
 
-Чтобы назначать, настраивать и настраивать правила управления номерами списков на SBCs, используйте вместе с правилом InboundTeamsNumberTranslationRules для [New-CSOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway) и [Set-CSOnlinePSTNGateway.](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstngateway) InboundPSTNNumberTranslationRules, OutboundTeamsNumberTranslationRules, OutboundPSTNNumberTranslationRules, InboundTeamsNumberTranslationRules, InboundPSTNNumberTranslationRules, OutboundTeamsNumberTranslationRules и OutboundPSTNNumberTranslationRules.
+Чтобы назначать, настраивать и настраивать правила управления номерами списков на SBCs, используйте вместе с правилом InboundTeamsNumberTranslationRules для [New-CSOnlinePSTNGateway](/powershell/module/skype/new-csonlinepstngateway) и [Set-CSOnlinePSTNGateway.](/powershell/module/skype/set-csonlinepstngateway) InboundPSTNNumberTranslationRules, OutboundTeamsNumberTranslationRules, OutboundPSTNNumberTranslationRules, InboundTeamsNumberTranslationRules, InboundPSTNNumberTranslationRules, OutboundTeamsNumberTranslationRules и OutboundPSTNNumberTranslationRules.
 
 > [!NOTE]
 > Максимальное общее количество правил перевода — 400, максимальная длина имени параметра перевода — 100 символов, длина шаблона параметра перевода — 1024, а длина длины перевода — 256.
@@ -68,7 +68,7 @@ New-CSOnlinePSTNGateway -Identity sbc1.contoso.com -SipSignalingPort 5061 –Inb
 |AddSeattleAreaCode    |^(\d {4} )$          | 425555$1         |
 |ПолосаPlus1    |^+1(\d {10} )$          | $1         |
 
-В следующих примерах есть два пользователя: Андрей и Г. Он — пользователь Teams, номер которого + 1 206 555 0100. Он — пользователь ННР, номер которого + 1 425 555 0100.
+В следующих примерах есть два пользователя: Андрей и Г. Он — пользователь Teams, номер которого + 1 206 555 0100. Г.: пользователь ННР, номер которого + 1 425 555 0100.
 
 ## <a name="example-1-inbound-call-to-a-ten-digit-number"></a>Пример 1. Входящий звонок на десятизначный номер
 
@@ -76,7 +76,7 @@ New-CSOnlinePSTNGateway -Identity sbc1.contoso.com -SipSignalingPort 5061 –Inb
 В SBC используется 2065550100 в области requestURI и To, а в заглавной области "От" - 4255550100.
 
 
-|Заглавная  |Исходный текст |Заглавный текст с переводом |Параметр и правило  |
+|Заглавная  |Исходный текст |Заглавный текст с переводом |Параметр и правило применены  |
 |---------|---------|---------|---------|
 |RequestURI  |ПРИГЛАШЕНИЕ sip:2065550100@sbc.contoso.com|ПРИГЛАШЕНИЕ sip:+12065550100@sbc.contoso.com|InboundTeamsNumberTranslationRules 'AddPlus1'|
 |Кому    |Кому: \<sip:2065550100@sbc.contoso.com>|Кому: \<sip:+12065550100@sbc.contoso.com>|InboundTeamsNumberTranlationRules 'AddPlus1'|
@@ -84,11 +84,11 @@ New-CSOnlinePSTNGateway -Identity sbc1.contoso.com -SipSignalingPort 5061 –Inb
 
 ## <a name="example-2-inbound-call-to-a-four-digit-number"></a>Пример 2. Входящий звонок на четырехзначный номер
 
-Г-н Климов звонит по четырехзначным номерам. Bob dials 0100 to reach To Прил.
+Г-н Климов звонит по четырехзначным номерам. Bob dials 0100 to reach To To.
 В SBC используется 0100 в запросеURI и to headers, а в заглавной области "От" используется 4255550100.
 
 
-|Заглавная  |Исходный текст |Заглавный текст с переводом |Параметр и правило  |
+|Заглавная  |Исходный текст |Заглавный текст с переводом |Параметр и правило применены  |
 |---------|---------|---------|---------|
 |RequestURI  |ПРИГЛАШЕНИЕ sip:0100@sbc.contoso.com          |ПРИГЛАШЕНИЕ sip:+12065550100@sbc.contoso.com           |InboundTeamsNumberTranlationRules 'AddE164SeattleAreaCode'        |
 |Кому    |Кому: \<sip:0100@sbc.contoso.com>|Кому: \<sip:+12065550100@sbc.contoso.com>|InboundTeamsNumberTranlationRules 'AddE164SeattleAreaCode'         |
@@ -96,13 +96,13 @@ New-CSOnlinePSTNGateway -Identity sbc1.contoso.com -SipSignalingPort 5061 –Inb
 
 ## <a name="example-3-outbound-call-using-a-ten-digit-non-e164-number"></a>Пример 3. Исходящие вызовы с десятизначным номером без E.164
 
-Звонит Гюлену, используя десятизначный номер. Звонить по номеру 425 555 0100, чтобы связаться с Гомом.
+Он звонит Гюлену, используя десятизначный номер. Звонить по номеру 425 555 0100, чтобы связаться с Гомом.
 SBC настроен для использования десятизначных номеров, не от E.164, для пользователей Teams и STN.
 
-В этом сценарии номер переводится перед отправкой в интерфейс прямой маршрутки. При вводе в клиенте Teams номера 425 555 0100 преобразуются в +14255550100 в каждой стране. Итогом является совокупная нормализация правил набора и правил перевода Teams. Правила перевода Teams удаляют "+1", добавленное в наборную группу.
+В этом сценарии номер переводится перед отправкой в интерфейс прямой маршрутки. При вводе 425 555 0100 в клиенте Teams номер переводится в +14255550100 в стране или стране. Итогом является совокупная нормализация правил набора и правил перевода Teams. Правила перевода Teams удаляют "+1", добавленное в наборную группу.
 
 
-|Заглавная  |Исходный текст |Заглавный текст с переводом |Параметр и правило  |
+|Заглавная  |Исходный текст |Заглавный текст с переводом |Параметр и правило применены  |
 |---------|---------|---------|---------|
 |RequestURI  |ПРИГЛАШЕНИЕ sip:+14255550100@sbc.contoso.com          |ПРИГЛАШЕНИЕ sip:4255550100@sbc.contoso.com       |OutboundPSTNNumberTranlationRules 'StripPlus1'         |
 |Кому    |Кому: \<sip:+14255550100@sbc.contoso.com>|Кому: \<sip:4255555555@sbc.contoso.com>|OutboundPSTNNumberTranlationRules 'StripPlus1'       |
@@ -114,7 +114,7 @@ SBC настроен для использования десятизначны�
 В SBC настроено использование четырехзначных номеров, не влияемых на E.164, для пользователей Teams и десятизначных номеров для пользователей ННР. В этом сценарии набор номеров не применяется.
 
 
-|Заглавная  |Исходный текст |Заглавный текст с переводом |Параметр и правило  |
+|Заглавная  |Исходный текст |Заглавный текст с переводом |Параметр и правило применены  |
 |---------|---------|---------|---------|
 |RequestURI  |ПРИГЛАШЕНИЕ sip:0100@sbc.contoso.com           |ПРИГЛАШЕНИЕ sip:4255550100@sbc.contoso.com       |InboundTeamsNumberTranlationRules 'AddSeattleAreaCode'         |
 |Кому    |Кому: \<sip:0100@sbc.contoso.com>|Кому: \<sip:4255555555@sbc.contoso.com>|InboundTeamsNumberTranlationRulesList 'AddSeattleAreaCode'       |

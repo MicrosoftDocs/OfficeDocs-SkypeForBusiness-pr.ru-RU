@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Это поможет вам узнать, как звонить на бесплатные номера в каждой стране или регионе. После выбора страны или региона вы будете перена границу страницы с подробными сведениями, ограничениями и ограничениями на доступность бесплатных служб, на которых доступна бесплатная служба. В формате набора вы сможете использовать коды доступа, необходимые для набора бесплатного номера в каждой стране или регионе.
-ms.openlocfilehash: 4164bdbd16b40442789f801c4e84686fad1ba8e8
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: fbc6933c24ef119f4bb63a0c7f976034f831780b
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49815609"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51098165"
 ---
 # <a name="toll-free-dialing-restrictions-in-denmark"></a>Ограничения набора бесплатных номеров в Дании
 
@@ -48,7 +48,6 @@ ms.locfileid: "49815609"
 ## <a name="related-topics"></a>Статьи по теме
 [Ограничения и запреты для бесплатных номеров](../toll-free-dialing-limitations-and-restrictions.md)
 
-[Получение номеров телефонов служб](/microsoftteams/getting-service-phone-numbers)
+[Получение номеров телефонов служб](../getting-service-phone-numbers.md)
 
   
- 

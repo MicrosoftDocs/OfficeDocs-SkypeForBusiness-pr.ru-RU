@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Узнайте, как управлять использованием бесплатных номеров для собраний моста аудиоконференций.
-ms.openlocfilehash: 517ffea6a15cd625320f33e3eb4911f4a250d51d
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: f9ab09396778b221ad7f5c016dbf7db76fcba030
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904574"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51096349"
 ---
 # <a name="disabling-toll-free-numbers-for-specific-teams-users"></a>Отключение бесплатных номеров для отдельных пользователей Teams
 
@@ -45,17 +45,17 @@ ms.locfileid: "43904574"
 
  - Участники могут продолжать присоединяться к собраниям организатора с помощью бесплатных номеров. 
 
-## <a name="disabling-toll-free-numbers-for-specific-users"></a>Отключение бесплатных номеров для отдельных пользователей 
+## <a name="disabling-toll-free-numbers-for-specific-users"></a>Отключение бесплатных номеров для определенных пользователей 
 
 В Центре **администрирования Microsoft Teams:**
 
 1. В области навигации слева **щелкните**"Пользователи" и выберите пользователя в списке доступных пользователей.
 
-2. Щелкните **Изменить** рядом с элементом **Аудиоконференции**.
+2. Рядом с пунктом **Аудиоконференции** нажмите **Изменить**.
 
 3. Set **Include toll-free numbers in meeting requests from this user** to **Off.** 
 
-4. Нажмите кнопку **Сохранить**. 
+4. Нажмите **кнопку "Сохранить".** 
 
  
 > [!Note]
@@ -63,4 +63,4 @@ ms.locfileid: "43904574"
  
 **Использование PowerShell**  
 
-Дополнительные сведения см. в [справочнике по Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps).
+Дополнительные [сведения см. в справочнике по Microsoft Teams PowerShell.](/powershell/module/teams/?view=teams-ps)

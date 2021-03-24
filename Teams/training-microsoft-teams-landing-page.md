@@ -19,19 +19,19 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-may2020
-ms.openlocfilehash: ec03bd5ca416bd0780225529dad2a6254580396d
-ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
+ms.openlocfilehash: e8e9a7776058803f49364887cabd6b54a9040cb6
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50726250"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51097565"
 ---
 # <a name="microsoft-teams-training"></a>Обучение работе с Microsoft Teams
 
 |               |               |
 | ------------- | ------------- |
-| <img src="https://docs.microsoft.com/office/media/icons/walkthrough-map-teams.svg" width="40 px" height="40 px" alt="admin training"> | **[Обучение администраторов](/microsoftteams/itadmin-readiness)** </br> Используйте эти учебники, видео и другие учебные ресурсы для знакомства с Teams и внедрения использования в организации. 
-| <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg" width="40 px" height="40 px" alt="live training"> | **[Интерактивное обучение Teams](/microsoftteams/instructor-led-training-teams-landing-page)** </br> Размещенные на серверах Майкрософт бесплатные, интерактивные учебные занятия в Интернете предназначены для подготовки к работе с Teams. Присоединяйтесь к нам, чтобы увидеть Teams в действии, получить ответы на вопросы и взаимодействовать с нашими преподавателями в режиме реального времени. 
+| <img src="https://docs.microsoft.com/office/media/icons/walkthrough-map-teams.svg" width="40 px" height="40 px" alt="admin training"> | **[Обучение администраторов](./itadmin-readiness.md)** </br> Используйте эти учебники, видео и другие учебные ресурсы для знакомства с Teams и внедрения использования в организации. 
+| <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg" width="40 px" height="40 px" alt="live training"> | **[Интерактивное обучение Teams](./instructor-led-training-teams-landing-page.yml)** </br> Размещенные на серверах Майкрософт бесплатные, интерактивные учебные занятия в Интернете предназначены для подготовки к работе с Teams. Присоединяйтесь к нам, чтобы увидеть Teams в действии, получить ответы на вопросы и взаимодействовать с нашими преподавателями в режиме реального времени. 
 | <img src="https://docs.microsoft.com/office/media/icons/user.svg" width="40 px" height="40 px" alt="online training" > | **[Онлайн-обучение Teams](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)** </br> Используйте эти учебные ресурсы для изучения в своем темпе, чтобы помочь вашим пользователям максимально эффективно использовать Teams. |
 
 ## <a name="dont-miss-these-key-training-offerings"></a>Не пропустите эти ключевые учебные материалы
@@ -40,7 +40,7 @@ ms.locfileid: "50726250"
 
 :::row:::
    :::column:::
-   **[Поддержка удаленных сотрудников](https://aka.ms/TeamsForRemoteWork)** </br>
+   **[Поддержка удаленных сотрудников](./support-remote-work-with-teams.md)** </br>
    Получите необходимое руководство, включая ссылки на обучение, для поддержки пользователей, которые работают из дома.
 
    :::column-end:::
@@ -52,7 +52,7 @@ ms.locfileid: "50726250"
    :::column-end:::
 
    :::column:::
-   **[Командная работа](https://docs.microsoft.com/learn/paths/m365-manage-team-collaboration)** </br>
+   **[Командная работа](/learn/paths/m365-manage-team-collaboration)** </br>
    Курс. Командная работа с помощью Teams
 
    :::column-end:::
@@ -61,13 +61,13 @@ ms.locfileid: "50726250"
 
 :::row:::
    :::column:::
-   **[Сертификация специалистов по внедрению](https://aka.ms/AdoptionCert)** </br>
+   **[Сертификация специалистов по внедрению](/learn/paths/m365-service-adoption/)** </br>
    Курс "Сертификация специалистов по внедрению служб Майкрософт" включает Teams. Узнайте, как внедрять службы Майкрософт в своей организации.
 
    :::column-end:::
 
    :::column:::
-   **[Общие сведения о командной работе в Microsoft 365](https://docs.microsoft.com/learn/modules/intro-to-teamwork-in-m365/index)** </br>
+   **[Общие сведения о командной работе в Microsoft 365](/learn/modules/intro-to-teamwork-in-m365/index)** </br>
    Узнайте об инструментах Microsoft 365, повышающих эффективность командной работы всех сотрудников независимо от того, где они находятся и как подключаются к вашей организации.
 
    :::column-end:::

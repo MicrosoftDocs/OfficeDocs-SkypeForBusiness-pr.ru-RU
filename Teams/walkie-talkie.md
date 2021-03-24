@@ -18,12 +18,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eb00501a0c795f754c927dd9ed3bd5114f61fab7
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: 90d5135196de9ecf62085e88053d80299b6e5a58
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50875049"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51097465"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Приложение "Рация" в Microsoft Teams
 
@@ -45,7 +45,7 @@ ms.locfileid: "50875049"
 
 :::image type="content" source="media/deploy-walkie-talkie-1.png" alt-text="Показаны раздел "Закрепленные приложения" и нажимаемая кнопка "Добавить приложения".":::
 
-На панели **Добавить закрепленные приложения** справа поищите приложение "Рация" в текстовом поле **Поиск**. Если она есть в результатах  поиска, выберите кнопку "Добавить" справа от имени, чтобы добавить ее в список.
+На панели **Добавить закрепленные приложения** справа поищите приложение "Рация" в текстовом поле **Поиск**. Если она выбрана в качестве  результата поиска, выберите кнопку "Добавить" справа от имени, чтобы добавить ее в список.
 
 :::image type="content" source="media/deploy-walkie-talkie-2.png" alt-text="Показаны боковая панель "Добавить закрепленные приложения" с введенным в область поиска названием "Рация", приложение "Рация" в результатах поиска и кнопка "Добавить" рядом с ним.":::
 
@@ -88,7 +88,7 @@ ms.locfileid: "50875049"
 
 ### <a name="license-requirements"></a>Требования к лицензиям
 
-Приложение "Рация" включено во все платные лицензии Teams в [подписках на Office 365](https://docs.microsoft.com/MicrosoftTeams/office-365-licensing). Чтобы больше узнать о получении Teams, обратитесь к статье  [Как получить доступ к Microsoft Teams](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b).
+Приложение "Рация" включено во все платные лицензии Teams в [подписках на Office 365](/office365/servicedescriptions/teams-service-description). Чтобы больше узнать о получении Teams, обратитесь к статье  [Как получить доступ к Microsoft Teams](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b).
 
 > [!NOTE]
 > Для некоторых функций могут потребоваться дополнительные лицензии. Например, для интеграции с Samsung Galaxy XCover Pro требуется лицензия Knox.
