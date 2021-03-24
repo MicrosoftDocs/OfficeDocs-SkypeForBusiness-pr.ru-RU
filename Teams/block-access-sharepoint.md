@@ -18,19 +18,19 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Узнайте о блокировке доступа к SharePoint для определенных пользователей
-ms.openlocfilehash: e3cda9d6443c41abc7dfa736be03555690a3b0f1
-ms.sourcegitcommit: 31a585cc0fe6350efacf3a7771d1e590d5e4233c
+ms.openlocfilehash: dce6581abe4fee70a6622817be7aefb0e3379e2f
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50615085"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092897"
 ---
 # <a name="block-access-to-sharepoint-for-specific-users"></a>Блокировка доступа к SharePoint для определенных пользователей
 
 Применение политики условного доступа в SharePoint в Microsoft 365 также обеспечивает ее применение в Teams. Некоторые организации хотят блокировать доступ к файлам SharePoint (отправка, скачивание, просмотр, изменение, создание), но разрешать своим сотрудникам использовать классические, мобильные и веб-клиенты Teams на неуправляемых устройствах. В рамках правил политики условного доступа блокировка SharePoint также приведет к блокировке Teams. В этой статье описано, как обойти это ограничение и разрешить своим сотрудникам продолжать использование Teams при полной блокировке доступа к файлам, хранящимся в SharePoint.
 
 > [!Note]
-> Для блокирования или ограничения доступа на неуправляемых устройствах применяются политики условного доступа Azure AD. Сведения о [лицензировании Azure AD](https://azure.microsoft.com/pricing/details/active-directory/). Общие сведения о условном доступе в Azure AD см. в статье [Условный доступ в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/conditional-access/overview). Сведения о рекомендуемых политиках доступа SharePoint Online см. в статье рекомендации по [Рекомендации политики по защите сайтов и файлов SharePoint](https://docs.microsoft.com/microsoft-365/enterprise/sharepoint-file-access-policies). Если вы ограничили доступ на неуправляемых устройствах, пользователи управляемых устройств должны использовать [поддерживаемые сочетания ОС и браузера](https://docs.microsoft.com/azure/active-directory/conditional-access/technical-reference#client-apps-condition) или их доступ также будет ограничен.
+> Для блокирования или ограничения доступа на неуправляемых устройствах применяются политики условного доступа Azure AD. Сведения о [лицензировании Azure AD](https://azure.microsoft.com/pricing/details/active-directory/). Общие сведения о условном доступе в Azure AD см. в статье [Условный доступ в Azure Active Directory](/azure/active-directory/conditional-access/overview). Сведения о рекомендуемых политиках доступа SharePoint Online см. в статье рекомендации по [Рекомендации политики по защите сайтов и файлов SharePoint](/microsoft-365/enterprise/sharepoint-file-access-policies). Если вы ограничили доступ на неуправляемых устройствах, пользователи управляемых устройств должны использовать [поддерживаемые сочетания ОС и браузера](/azure/active-directory/conditional-access/technical-reference#client-apps-condition) или их доступ также будет ограничен.
 
 Можно заблокировать или ограничить доступ:
 
@@ -89,4 +89,4 @@ ms.locfileid: "50615085"
 
 ## <a name="related-topics"></a>Статьи по теме
 
-[Управление доступом для неуправляемым устройств в SharePoint](https://docs.microsoft.com/sharepoint/control-access-from-unmanaged-devices)
+[Управление доступом для неуправляемым устройств в SharePoint](/sharepoint/control-access-from-unmanaged-devices)

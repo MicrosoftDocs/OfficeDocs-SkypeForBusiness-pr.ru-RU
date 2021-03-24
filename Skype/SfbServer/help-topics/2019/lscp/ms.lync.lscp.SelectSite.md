@@ -14,17 +14,15 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 09472310-a40f-4360-b6f1-1a9ac8888965
 ROBOTS: NOINDEX, NOFOLLOW
-description: Используйте диалоговое окно "Выбор сайта", чтобы найти сайты, доступные в вашей среде. Чтобы использовать существующий сайт, щелкните сайт в списке, а затем нажмите кнопку ОК.
-ms.openlocfilehash: c37f59a0556b9244e92ae0db92bb4702b663d85e
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Чтобы найти сайты, доступные в среде, используйте диалоговое окно Select a Site. Чтобы использовать существующий сайт, щелкните сайт в списке, а затем нажмите кнопку ОК.
+ms.openlocfilehash: 37cc5ed26a432528cf3440026c8c5e8348a6c096
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49836309"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51108825"
 ---
 # <a name="select-a-site"></a>Выбор сайта
 
 > [!NOTE] 
-> Сохраняемая беседа доступна в Skype для бизнеса Server 2015, но больше не поддерживается в Skype для бизнеса Server 2019. Такие же функции доступны в Teams. Дополнительные сведения см. в [обновлении Skype для бизнеса до Microsoft Teams.](https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here) Если необходимо использовать сохраняемого чата, вы можете либо перенести пользователей, которым требуются эти функции, в Teams, либо продолжить использовать Skype для бизнеса Server 2015.
-
-
+> Постоянный чат доступен в Skype для бизнеса Server 2015, но больше не поддерживается в Skype для бизнеса Server 2019. Такие же функции доступны в Teams. Дополнительные сведения см. в [обновлениях Skype для бизнеса до Microsoft Teams.](/MicrosoftTeams/upgrade-start-here) Если вам нужно использовать постоянный чат, вы можете либо перенести пользователей, требующих этой функции, в Teams, либо продолжить использование Skype для бизнеса Server 2015.

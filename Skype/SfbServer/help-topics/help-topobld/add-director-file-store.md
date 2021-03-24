@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a15b69e0-d3d1-4648-af25-1c0f25e5da8e
 description: Необходимо указать общий файловый ресурс, который будет использоваться в качестве хранилища файлов для директоров. В качестве хранилища файлов можно использовать существующий общий файловый ресурс. Кроме того, можно добавить новый общий файловый ресурс, указав полное доменное имя файлового сервера, на котором расположен общий файловый ресурс, и имя папки для нового общего файлового ресурса.
-ms.openlocfilehash: 2c7ad609ea3e58f0368f8c1e3d8716223aa68700
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 8e110324dd1e19ae3dc6eca40aa272d7cdf72414
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49824289"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51114315"
 ---
 # <a name="add-director-file-store"></a>Добавление файлового хранилища директора
 
@@ -29,6 +29,4 @@ ms.locfileid: "49824289"
 > [!IMPORTANT]
 > При добавлении директоров в топологию для публикации топологии требуется доступ, позволяющий настроить хранилище файлов и сконфигурировать списки управления доступом на уровне пользователей (DACL) для общего файлового ресурса, который используется для хранилища файлов. При запуске построителя топологии и публикации новой топологии необходимо войти в систему с использованием учетной записи с полными правами на управление (чтение/запись/изменение) для общего файлового ресурса.
 
-Подробные сведения о поддержке хранилища [](https://technet.microsoft.com/library/ed66430d-3c19-4267-938c-956a51005073.aspx) для файловых файловых файлов см. в документации по поддержке хранилища SQL Server [и](https://technet.microsoft.com/library/67aa525b-8aa3-474f-827e-8e1d4697f30f.aspx) размещении данных и файлов журнала в документации по развертыванию. Дополнительные сведения о выровненном размещении общего файлового ресурса см. в разделе [Supported Server Collocation](https://technet.microsoft.com/library/3be990a1-5485-4b83-b73f-947ac97821f9.aspx) в документации по поддержке. Дополнительные сведения о разработке топологии для директоров см. в разделе [Define a Single Director in Topology Builder](https://technet.microsoft.com/library/8e9a659d-23b0-401d-b296-59c7df414d49.aspx) документации по развертыванию.
-
-
+Подробные сведения о поддержке хранения [](/previous-versions/office/lync-server-2013/lync-server-2013-file-storage-support) для файловых акций см. в документации по поддержке хранения файлов и [SQL Server](/previous-versions/office/lync-server-2013/lync-server-2013-sql-server-data-and-log-file-placement) и размещении файлов журнала в документации развертывания. Дополнительные сведения о выровненном размещении общего файлового ресурса см. в разделе [Supported Server Collocation](/previous-versions/office/lync-server-2013/lync-server-2013-supported-server-collocation) в документации по поддержке. Дополнительные сведения о разработке топологии для директоров см. в разделе [Define a Single Director in Topology Builder](/previous-versions/office/lync-server-2013/lync-server-2013-define-optional-director-topologies-in-your-topology) документации по развертыванию.

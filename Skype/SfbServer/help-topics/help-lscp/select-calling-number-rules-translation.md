@@ -15,21 +15,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b9009c02-6628-4038-bc80-650c7a2b8741
 description: 'В диалоговом окне "Выбор правил трансляции вызывающего номера" отображаются правила преобразования, настроенные для вашего развертывания. Дополнительные сведения о правилах преобразования см. в следующих разделах:'
-ms.openlocfilehash: e29d0306641f7323942bd21137fffd66410406f5
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 405149379a50c18692540a8ff151310f3475eaeb
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49821969"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51107985"
 ---
 # <a name="select-calling-number-rules-translation"></a>Выбор правил преобразования вызывающего номера
 
-Диалоговое **окно "Выбор правил** трансляции вызываемого номера" отображает правила трансляции, настроенные для развертывания. Дополнительные сведения о правилах преобразования см. в следующих разделах:
+Диалоговое **окно "Правила** перевода номеров звонков" отображает правила перевода, настроенные для развертывания. Дополнительные сведения о правилах преобразования см. в следующих разделах:
 
-1. [Правила трансляции в Skype для бизнеса Server 2015](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md)
+1. [Правила перевода в Skype для бизнеса Server 2015](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md)
 
-2. [Правила настройки и перевода магистрали](https://technet.microsoft.com/library/0c339511-a185-484e-94f0-dbe918b7e48a.aspx)
+2. [Правила конфигурации и перевода магистрали](/previous-versions/office/lync-server-2013/lync-server-2013-configuring-trunks)
 
-3. [Create or modify a translation rule for called ID presentation in Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
-
-
+3. [Создание или изменение правила перевода для презентации Скайпа для бизнеса Skype для бизнеса Server 2015](../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)

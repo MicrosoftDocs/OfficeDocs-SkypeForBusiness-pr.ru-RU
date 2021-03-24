@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: Сводка. Сведения о переносе параметров пользователей и переносе пользователей в Teams.
-ms.openlocfilehash: c84cdbe5f91816ddfabd476540e47f3d1871a427
-ms.sourcegitcommit: 360c78c66386fe00afe535681f51254eda886edf
+ms.openlocfilehash: 4a57d802d6405652724ce28ed2d26221dcc8db0f
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "50836986"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51110655"
 ---
 # <a name="move-users-from-on-premises-to-teams"></a>Перемещение пользователей из локальной среды в Teams
 
@@ -123,9 +123,9 @@ New-CsTeamsUpgradeConfiguration -Identity "site:redmond1"
 
 ## <a name="see-also"></a>См. также
 
-[Move-CsUser](https://docs.microsoft.com/powershell/module/skype/move-csuser)
+[Move-CsUser](/powershell/module/skype/move-csuser)
 
-[Grant-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy
+[Grant-CsTeamsUpgradePolicy](/powershell/module/skype/grant-csteamsupgradepolicy
 )
 
 [Руководство по миграции и взаимодействию для организаций, использующих Teams вместе со Skype для бизнеса](/microsoftteams/migration-interop-guidance-for-teams-with-skype)

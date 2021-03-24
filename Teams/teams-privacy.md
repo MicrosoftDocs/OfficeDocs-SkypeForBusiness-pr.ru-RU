@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9ea6fc3f27b5d97a2e890ec85e68a105acc44b42
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
+ms.openlocfilehash: ec3c035986d61dda78c6a940a7699fef7f4217a6
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44938498"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51094049"
 ---
 # <a name="privacy-and-microsoft-teams"></a>Конфиденциальность и Microsoft Teams
 
@@ -60,7 +60,7 @@ ms.locfileid: "44938498"
 
 При обращении представителей правоохранительных органов в корпорацию Майкрософт с требованием, корпорация Майкрософт направляет этих представителей к клиенту, чтобы они запросили личные данные непосредственно у него. Если корпорация Майкрософт вынуждена раскрыть личные данные по требованию представителей правоохранительных органов, она незамедлительно уведомляет об этом клиента и предоставляет ему копию соответствующего требования, если это не запрещено законом. Более подробную информацию о данных, которые мы раскрываем по запросам представителей правоохранительных и других государственных органов, можно найти в статье [Отчет о запросах правоохранительных органов](https://www.microsoft.com/corporate-responsibility/law-enforcement-requests-report).
 
-В [Руководстве по безопасности Teams](https://docs.microsoft.com/microsoftteams/security-compliance-overview#compliance-standards) приведены дополнительные сведения о наших стандартах соответствия требованиям.
+В [Руководстве по безопасности Teams](./security-compliance-overview.md#compliance-standards) приведены дополнительные сведения о наших стандартах соответствия требованиям.
 
 ## <a name="where-does-teams-transfer-and-store-personal-data"></a>Где служба Teams переносит и сохраняет личные данные?
 
