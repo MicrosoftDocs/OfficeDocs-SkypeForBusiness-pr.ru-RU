@@ -14,18 +14,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9c8b1c8e-5a3e-499b-9035-7d2f8e07b389
 ROBOTS: NOINDEX, NOFOLLOW
-description: Если вы хотите, чтобы пул директоров включал сервер мониторинга, выберите "Мониторинг" (CDR и показатели качества связи).
-ms.openlocfilehash: 4bb72a2919986cf79aaa94793c5c9cd4aa44ea6d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Если пул Директор должен включать сервер мониторинга, выберите Параметры мониторинга (CDR и QoE Metrics).
+ms.openlocfilehash: c3255648f9c5cd7718417d59548ceae7db1c1cf2
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49811899"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51100165"
 ---
 # <a name="add-director-features"></a>Добавление компонентов директора
 
-Если вы хотите, чтобы пул директоров включал сервер мониторинга, выберите **"Мониторинг" (CDR и показатели качества.)**.
+Если пул Директор должен включать сервер мониторинга, выберите Параметры мониторинга **(CDR и QoE Metrics).**
 
-Дополнительные сведения о добавлении [](https://technet.microsoft.com/library/d2cf384a-0860-4779-80ce-cba2543be322.aspx) пула директоров см. в сценариях для директора и [настройке директора.](https://technet.microsoft.com/library/408b76f7-6fdd-4e50-8a3e-e87db12c1394.aspx)
-
-
+Дополнительные сведения о добавлении пула директоров см. в материале [Scenarios for the Director](/previous-versions/office/lync-server-2013/lync-server-2013-scenarios-for-the-director) and [Setting Up the Director.](/previous-versions/office/lync-server-2013/lync-server-2013-setting-up-the-director)

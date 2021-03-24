@@ -13,27 +13,27 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 59e38117-8112-4851-82ac-a746ffa0f89d
 description: Сводка. Просмотр сведений о ПИН-коде пользователя в Skype для бизнеса Server.
-ms.openlocfilehash: fa5385c1ca318c4a41e17088368d9928fd6d0e0b
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: c016e6edf258f63166b930be833542bf9e730f15
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49806509"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51099225"
 ---
 # <a name="view-user-pin-information-in-skype-for-business-server"></a>Просмотр сведений о ПИН-коде пользователя в Skype для бизнеса Server
  
 **Сводка:** Просмотр сведений о ПИН-коде пользователя в Skype для бизнеса Server.
   
-Чтобы присоединиться к конференции с телефонным доступом в качестве пользователя с проверкой подлинности, пользователю Skype для бизнеса Server с учетными данными доменных служб Active Directory (AD DS) требуется персональный идентификационный номер (PIN-код). You can view a user's PIN information from Skype for Business Server Control Panel.
+Чтобы присоединиться к телефонной конференции в качестве пользователя с проверкой подлинности, пользователю Skype для бизнеса Server с учетными данными Active Directory Domain Services (AD DS) требуется личный идентификационный номер (PIN). Сведения о ПИН-коде пользователя можно просмотреть на панели управления Skype для бизнес-серверов.
   
 > [!NOTE]
-> Можно просмотреть сведения о состоянии ПИН, такие как когда ПИН был определен или когда был в последний раз изменен, однако сведения о состоянии не содержат самого ПИН. If a user has lost their PIN, you can reset it by following the procedures in [Set a user's dial-in conferencing PIN in Skype for Business Server](set-a-user-s-dial-in-conferencing-pin.md)
+> Можно просмотреть сведения о состоянии ПИН, такие как когда ПИН был определен или когда был в последний раз изменен, однако сведения о состоянии не содержат самого ПИН. Если пользователь потерял ПИН-код, его можно сбросить, следуя процедурам в Настройка [ПИН-кода](set-a-user-s-dial-in-conferencing-pin.md) телефонных разговоров пользователя в Skype для бизнеса Server
   
-### <a name="to-view-a-users-pin-in-skype-for-business-server-control-panel"></a>Просмотр ПИН-кода пользователя на панели управления Skype для бизнеса Server
+### <a name="to-view-a-users-pin-in-skype-for-business-server-control-panel"></a>Просмотр ПИН-кода пользователя в панели управления Skype для бизнес-серверов
 
 1. Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи пользователя, назначенной роли CsUserAdministrator или CsAdministrator.
     
-2. Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Skype для бизнеса Server.  
+2. Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Skype для бизнес-серверов.  
     
 3. В левой панели навигации щелкните **Пользователи**.
     
@@ -45,9 +45,9 @@ ms.locfileid: "49806509"
     
 5. (Необязательно) Укажите дополнительные критерии поиска, чтобы сузить результаты:
     
-   а. Нажмите кнопку **Добавить фильтр**.
+   а) Нажмите кнопку **Добавить фильтр**.
     
-   б. Введите свойство пользователя, набрав его или нажав кнопку стрелки в раскрывающемся списке, чтобы выбрать свойство.
+   б) Введите свойство пользователя, набрав его или нажав кнопку стрелки в раскрывающемся списке, чтобы выбрать свойство.
     
    в. В раскрывающемся списке **Равно** щелкните оператор (например, **Равно** или **Не равно**).
     
@@ -63,13 +63,13 @@ ms.locfileid: "49806509"
   
 6. Щелкните пользователя в результатах поиска, щелкните **Действие**, затем щелкните **Просмотреть состояние ПИН-кода**.
     
-## <a name="viewing-user-pin-information-by-using-windows-powershell-cmdlets"></a>Просмотр сведений о ПИН-коде пользователя с помощью Windows PowerShell
+## <a name="viewing-user-pin-information-by-using-windows-powershell-cmdlets"></a>Просмотр сведений о ПИН-коде пользователя с помощью Windows PowerShell-кодов
 
-Сведения о ПИН-коде пользователя можно просмотреть с помощью Get-CsClientPinInfo управления. Этот cmdlet можно запустить либо из оболочки управления Skype для бизнеса Server, либо из удаленного сеанса Windows PowerShell. Подробные сведения об использовании удаленного Windows PowerShell для подключения к Skype для бизнеса Server см. в статье [блога "Краткое руководство. Управление Microsoft Lync Server 2010 с](https://go.microsoft.com/fwlink/p/?linkId=255876)помощью удаленной powerShell". В Skype для бизнеса Server этот процесс тот же.
+Сведения о ПИН-коде пользователя можно просматривать с помощью Get-CsClientPinInfo. Этот комлет можно выполнить либо из оболочки управления skype для бизнес-серверов, либо из удаленного сеанса Windows PowerShell. Сведения об использовании удаленных Windows PowerShell для подключения к Skype для бизнеса Server см. в статье блога ["Быстрый запуск: управление Microsoft Lync Server 2010 с](https://go.microsoft.com/fwlink/p/?linkId=255876)помощью удаленной powerShell". В Skype для бизнеса Server этот процесс является одинаковым.
   
 ### <a name="to-view-user-pin-information"></a>Чтобы просмотреть сведения о ПИН пользователя
 
-Чтобы просмотреть сведения о ПИН-коде для пользователя, введите команду, аналогичную следующей, в командной оболочке Skype для бизнеса Server и нажмите ввод:
+Чтобы просмотреть сведения о ПИН-коде для пользователя, введите команду, аналогичную следующей в командной оболочке Skype для бизнес-серверов, а затем нажмите кнопку ENTER:
     
   ```PowerShell
   Get-CsClientPinInfo -Identity "Ken Myer"
@@ -85,10 +85,10 @@ LastPinChangeTime : 9/25/2012 1:35:03 PM
 PinExpirationTime :
 </pre>
 
-Дополнительные сведения см. в разделе справки по [cmdlet Get-CsConferenceDisclaimer.](https://docs.microsoft.com/powershell/module/skype/get-csconferencedisclaimer?view=skype-ps)
+Дополнительные сведения см. в разделе Справка для [cmdlet Get-CsConferenceDisclaimer.](/powershell/module/skype/get-csconferencedisclaimer?view=skype-ps)
   
 ## <a name="see-also"></a>См. также
 
-[Set a user's dial-in conferencing PIN in Skype for Business Server](set-a-user-s-dial-in-conferencing-pin.md)
+[Установите ПИН-код телефонных разговоров пользователя в Skype для бизнеса Server](set-a-user-s-dial-in-conferencing-pin.md)
   
-[Блокировка или разблокировка ПИН-кода пользователя в Skype для бизнеса Server](lock-or-unlock-a-user-pin.md)
+[Блокировка или разблокирование ПИН-кода пользователя в Skype для бизнеса Server](lock-or-unlock-a-user-pin.md)

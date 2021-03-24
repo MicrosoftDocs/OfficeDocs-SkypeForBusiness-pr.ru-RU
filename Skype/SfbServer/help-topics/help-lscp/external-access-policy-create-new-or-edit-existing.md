@@ -1,5 +1,5 @@
 ---
-title: Создание новой или редактирование существующей политики внешнего доступа
+title: Внешняя политика доступа создать новые или изменить существующие
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,23 +15,21 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6f8fa258-9a9d-44fe-b7e3-0b02604907e2
 description: Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
-ms.openlocfilehash: 9fc5fa1b0b89fd5b7f1f44b23e5b396b844f7403
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: c40d1e8eb81b832acc6b8e59aafd416fe0bfbb78
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49810929"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51099875"
 ---
 # <a name="external-access-policy-create-new-or-edit-existing"></a>Политика внешнего доступа: создание новой или редактирование существующей
 
 Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
 
-- [Сброс или удаление политик доступа внешних пользователей](https://technet.microsoft.com/library/5f9b4528-f4f1-4d52-816d-156c3c7298ad.aspx)
+- [Сброс или удаление политик внешнего доступа пользователей](/previous-versions/office/lync-server-2013/lync-server-2013-resetting-or-deleting-external-user-access-policies)
 
-- [Настройка политик для управления доступом федераированных пользователей](https://technet.microsoft.com/library/5485e208-81e4-4e59-9aeb-1232c11dd8a2.aspx)
+- [Настройка политик для управления федерадным доступом пользователей](/previous-versions/office/lync-server-2013/lync-server-2013-configure-policies-to-control-federated-user-access)
 
-- [Управление удаленным доступом пользователей](https://technet.microsoft.com/library/8f556849-692b-44a0-9514-4468fc9a39d0.aspx)
+- [Управление удаленным доступом пользователей](/previous-versions/office/lync-server-2013/lync-server-2013-configure-policies-to-control-remote-user-access)
 
-- [Настройка политик для управления доступом пользователей поставщиков услуг im](https://technet.microsoft.com/library/5321598c-1ab1-40e3-b739-4b2e6d0a3a3b.aspx)
-
-
+- [Настройка политик для управления доступом пользователей поставщиков услуг im](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-edit-public-sip-federated-providers)

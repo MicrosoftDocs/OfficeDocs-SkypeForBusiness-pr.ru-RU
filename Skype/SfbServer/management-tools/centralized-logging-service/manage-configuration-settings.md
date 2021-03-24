@@ -1,5 +1,5 @@
 ---
-title: Управление настройками службы централизованного ведения журналов в Skype для бизнеса Server 2015
+title: Управление настройками централизованной службы ведения журнала в Skype для бизнеса Server 2015
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,59 +13,59 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 93b9a354-9aea-4b3a-a4fe-68a89f436196
-description: Сводка. Узнайте, как извлекать, обновлять и создавать параметры конфигурации для службы централизованного ведения журналов в Skype для бизнеса Server 2015.
-ms.openlocfilehash: dd292465d65116dc1f497a733ca8e010e57b9137
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Сводка. Сведения о том, как извлекать, обновлять и создавать параметры конфигурации для централизованной службы ведения журнала в Skype для бизнеса Server 2015.
+ms.openlocfilehash: fb2d66e6ff72bc5fb5a4c8c987713f3ca7030ab5
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49835159"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51098865"
 ---
-# <a name="manage-centralized-logging-service-configuration-settings-in-skype-for-business-server-2015"></a>Управление настройками службы централизованного ведения журналов в Skype для бизнеса Server 2015
+# <a name="manage-centralized-logging-service-configuration-settings-in-skype-for-business-server-2015"></a>Управление настройками централизованной службы ведения журнала в Skype для бизнеса Server 2015
 
-**Сводка:** Learn how to retrieve, update, and create configuration settings for the Centralized Logging Service in Skype for Business Server 2015.
+**Сводка:** Узнайте, как извлекать, обновлять и создавать параметры конфигурации для централизованной службы ведения журнала в Skype для бизнеса Server 2015.
 
-Служба централизованного ведения журналов управляется и настраивается параметрами, созданными и используемыми контроллером централизованной службы ведения журналов (CLSController) для отправки команд агенту централизованной службы ведения журналов (CLSAgent) отдельного компьютера. Агент обрабатывает команды, которые ему отправляются, и (в случае команды "Начните") использует конфигурацию сценариев, поставщиков, продолжительность трассировки и флаги, чтобы начать собирать журналы трассировки в соответствии с предоставленными сведениями о конфигурации.
+Централизованная служба ведения журнала управляется и настраивается параметрами, созданными и используемыми диспетчером централизованной службы ведения журнала (CLSController) для отправки команд агенту централизованной службы ведения журнала на отдельном компьютере (CLSAgent). Агент обрабатывает команды, отправленные ему, и (в случае команды Начните) использует конфигурацию сценариев, поставщиков, продолжительность трассировки и флаги, чтобы начать сбор журналов трассировки в соответствии с предоставленной информацией о конфигурации.
 
 > [!IMPORTANT]
->  Не все Windows PowerShell, перечисленные для службы централизованного ведения журналов, предназначены для локального развертывания Skype для бизнеса Server 2015. Несмотря на то что они могут показаться работоудаными, следующие cmdlets не предназначены для работы с локального развертывания Skype для бизнеса Server 2015:
+>  Не все Windows PowerShell, перечисленные для централизованной службы ведения журнала, предназначены для использования в локальном развертывании Skype для бизнеса Server 2015. Несмотря на то, что они могут работать, следующие cmdlets не предназначены для работы с локальной развертыванием Skype для бизнеса Server 2015:
 
--  **CsClsRegion cmdlets:** [Get-CsClsRegion,](https://docs.microsoft.com/powershell/module/skype/get-csclsregion?view=skype-ps) [Set-CsClsRegion,](https://docs.microsoft.com/powershell/module/skype/set-csclsregion?view=skype-ps) [New-CsClsRegion](https://docs.microsoft.com/powershell/module/skype/new-csclsregion?view=skype-ps)и [Remove-CsClsRegion](https://docs.microsoft.com/powershell/module/skype/remove-csclsregion?view=skype-ps).
--  **Командлеты CsClsSearchTerm:** [Get-CsClsSearchTerm](https://docs.microsoft.com/powershell/module/skype/get-csclssearchterm?view=skype-ps) и [Set-CsClsSearchTerm](https://docs.microsoft.com/powershell/module/skype/set-csclssearchterm?view=skype-ps).
--  **CsClsSecurityGroup cmdlets:** [Get-CsClsSecurityGroup,](https://docs.microsoft.com/powershell/module/skype/get-csclssecuritygroup?view=skype-ps) [Set-CsClsSecurityGroup,](https://docs.microsoft.com/powershell/module/skype/set-csclssecuritygroup?view=skype-ps) [New-CsClsSecurityGroup](https://docs.microsoft.com/powershell/module/skype/new-csclssecuritygroup?view=skype-ps)и [Remove-CsClsSecurityGroup.](https://docs.microsoft.com/powershell/module/skype/remove-csclssecuritygroup?view=skype-ps)
+-  **CsClsRegion cmdlets:** [Get-CsClsRegion](/powershell/module/skype/get-csclsregion?view=skype-ps) ,[Set-CsClsRegion](/powershell/module/skype/set-csclsregion?view=skype-ps), [New-CsClsRegion](/powershell/module/skype/new-csclsregion?view=skype-ps)и [Remove-CsClsRegion](/powershell/module/skype/remove-csclsregion?view=skype-ps).
+-  **Командлеты CsClsSearchTerm:** [Get-CsClsSearchTerm](/powershell/module/skype/get-csclssearchterm?view=skype-ps) и [Set-CsClsSearchTerm](/powershell/module/skype/set-csclssearchterm?view=skype-ps).
+-  **Группы CsClsSecurityGroup:** [Get-CsClsSecurityGroup,](/powershell/module/skype/get-csclssecuritygroup?view=skype-ps) [Set-CsClsSecurityGroup,](/powershell/module/skype/set-csclssecuritygroup?view=skype-ps)  [New-CsClsSecurityGroup](/powershell/module/skype/new-csclssecuritygroup?view=skype-ps)и [Remove-CsClsSecurityGroup](/powershell/module/skype/remove-csclssecuritygroup?view=skype-ps).
 
-Параметры, определенные в этих cmdlets, не препятствуют работе и не вызывают никаких отрицательных последствий, но они предназначены для использования с Microsoft 365 или Office 365 и не дают ожидаемых результатов в локальном развертывании. Это не означает полную бесполезность таких командлетов в локальных развертываниях, но вопрос об их использовании выходит за рамки данной документации.
+Параметры, определенные в этих cmdlets, не будут препятствовать или вызывать любое неблагоприятное поведение, но они предназначены для использования в Microsoft 365 или Office 365 и не привратят ожидаемых результатов в локальном развертывании. Это не означает полную бесполезность таких командлетов в локальных развертываниях, но вопрос об их использовании выходит за рамки данной документации.
 
-Централизованную службу ведения журналов можно запустить в области, которая включает один компьютер или пул компьютеров, на уровне сайта (то есть на определенном сайте, например на сайте Redmond, который содержит коллекцию компьютеров и пулов в развертывании) или на глобальном уровне (то есть на всех компьютерах и пулах в развертывании).
+Централизованная служба ведения журнала может работать в области, которая включает один компьютер или пул компьютеров, в области сайта (то есть определенном сайте, например на сайте Redmond, который содержит коллекцию компьютеров и пулов в развертывании), или в глобальной области (то есть всех компьютерах и пулах в развертывании).
 
-Чтобы настроить область службы централизованного ведения журналов с помощью оболочки управления Skype для бизнеса Server, необходимо быть участником групп безопасности управления доступом на основе ролей (RBAC) CsAdministrator или CsServerAdministrator, а также настраиваемой роли RBAC, которая содержит какую-либо из этих двух групп. Чтобы получить список всех ролей RBAC, которые были назначены этому командлету (включая все самостоятельно созданные роли RBAC), запустите следующую команду в командной Windows PowerShell Командная Windows PowerShell Skype для бизнеса Server:
+Чтобы настроить область централизованной службы ведения журнала с помощью оболочки управления Skype для бизнес-серверов, необходимо быть членом группы безопасности CsAdministrator или группы управления ролями CsServerAdministrator (RBAC) или настраиваемой роли RBAC, которая содержит обе эти две группы. Чтобы вернуть список всех ролей RBAC, на которые был назначен этот командлет (включая настраиваемые роли RBAC, созданные самостоятельно), запустите следующую команду из командной команды Skype для бизнеса server или Windows PowerShell запроса:
 
 ```PowerShell
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "<Skype for Business cmdlet>"}
 ```
 
-Пример:
+Например:
 
 ```PowerShell
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 ```
 
 > [!NOTE]
-> Существуют фундаментальные различия между командами командной строки, которые можно выполнить в Windows PowerShell clSController. Windows PowerShell предоставляет богатый метод для настройки и определения сценариев, а также для эффективного использования этих сценариев для сценариев устранения неполадок. Хотя CLSController позволяет быстро и эффективно выполнять команды и получать результаты, набор команд этого средства ограничен командами, доступными из командной строки. В отличие от Windows PowerShell командлетов CLSController не может определять новые сценарии, управлять областью на уровне сайта или на глобальном уровне и многими другими ограничениями ограниченного набора команд, который не может быть динамически настроен. Хотя CLSController предоставляет средства для быстрого выполнения, Windows PowerShell предоставляет средства для расширения функций централизованной службы ведения журналов за пределами возможностей CLSController.
+> Существуют фундаментальные различия между командами командной строки, которые можно выполнить в Windows PowerShell CLSController. Windows PowerShell предоставляет богатый метод настройки и определения сценариев, а также эффективного использования этих сценариев для сценариев устранения неполадок. Хотя CLSController позволяет быстро и эффективно выполнять команды и получать результаты, набор команд этого средства ограничен командами, доступными из командной строки. В отличие Windows PowerShell командлетов CLSController не может определять новые сценарии, управлять областью на сайте или глобальном уровне и многими другими ограничениями конечного командного набора, который не может быть динамически настроен. Хотя CLSController предоставляет средство для быстрого выполнения, Windows PowerShell предоставляет средства для расширения функций службы централизованного ведения журнала за пределами возможностей CLSController.
 
-Область одного компьютера может быть определена во время выполнения команды [Search-CsClsLogging,](https://docs.microsoft.com/powershell/module/skype/search-csclslogging?view=skype-ps) [Show-CsClsLogging,](https://docs.microsoft.com/powershell/module/skype/show-csclslogging?view=skype-ps) [Start-CsClsLogging,](https://docs.microsoft.com/powershell/module/skype/start-csclslogging?view=skype-ps) [Stop-CsClsLogging,](https://docs.microsoft.com/powershell/module/skype/stop-csclslogging?view=skype-ps) [Sync-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/sync-csclslogging?view=skype-ps) и [Update-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/update-csclslogging?view=skype-ps) с помощью параметра -Computers. Параметр -Computers принимает разделенный запятой список полного доменного имени (FQDNs) для целевого компьютера.
+При выполнении команды [Search-CsClsLogging,](/powershell/module/skype/search-csclslogging?view=skype-ps) [Show-CsClsLogging,](/powershell/module/skype/show-csclslogging?view=skype-ps) [Start-CsClsLogging,](/powershell/module/skype/start-csclslogging?view=skype-ps) [Stop-CsClsLogging,](/powershell/module/skype/stop-csclslogging?view=skype-ps) [Sync-CsClsLogging](/powershell/module/skype/sync-csclslogging?view=skype-ps) и [Update-CsClsLogging](/powershell/module/skype/update-csclslogging?view=skype-ps) можно определить один компьютер. Параметр -Computers принимает разделенный запятой список полностью квалифицированных доменных имен (FQDNs) для целевого компьютера.
 
 > [!TIP]
-> Можно также определить пулы -Pools и разделенный запятой список пулов, в которые необходимо выполнить команды ведения журнала.
+> Вы также можете определить пулы и разделенный запятой список пулов, на которые необходимо выполнить команды ведения журнала.
 
-Области сайта и глобальные области определяются в cmdlets **New-**, **Set-** и **Remove-Centralized** Logging Service. В следующих примерах показано, как задать область сайта и глобальную область.
+Области site и Global определяются в октах **New-**, **Set-** и **Remove-Centralized** Logging Service. В следующих примерах показано, как задать область сайта и глобальную область.
 
 > [!IMPORTANT]
-> Показанные команды могут содержать параметры и концепции, описанные в других разделах. Примеры команд предназначены для демонстрации использования параметра **-Identity** для определения области, а остальные параметры включаются для полноты и указания области. Дополнительные сведения о командлетах **Set-CsClsConfiguration** см. в описании командлета [Set-CsClsConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csclsconfiguration?view=skype-ps) в документации по применению.
+> Показанные команды могут содержать параметры и концепции, описанные в других разделах. Команды в примере предназначены для демонстрации использования параметра **-Identity** для определения области, а остальные параметры включаются для полноты и для указания области. Дополнительные сведения о командлетах **Set-CsClsConfiguration** см. в описании командлета [Set-CsClsConfiguration](/powershell/module/skype/set-csclsconfiguration?view=skype-ps) в документации по применению.
 
-### <a name="to-retrieve-the-current-centralized-logging-service-configuration"></a>Извлечение текущей конфигурации службы централизованного ведения журналов
+### <a name="to-retrieve-the-current-centralized-logging-service-configuration"></a>Чтобы получить текущую конфигурацию централизованной службы ведения журнала
 
-1. Запустите оболочку управления Skype для бизнеса Server: нажмите кнопку "Начните", выберите "Все программы", "Skype для бизнеса **2015",** а затем щелкните "Skype для бизнеса Server Management **Shell".**
+1. Запустите оболочку управления Skype для бизнес-серверов: нажмите кнопку Начните, щелкните Все **программы,** щелкните Skype для бизнеса **2015,** а затем нажмите **кнопку Skype для управления бизнес-серверами.**
 
 2. Введите следующую команду в командной строке:
 
@@ -73,13 +73,13 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
    Get-CsClsConfiguration
    ```
 
-Используйте для создания новой конфигурации или обновления существующей конфигурации с помощью cmdlets **New-CsClsConfiguration** и **Set-CsClsConfiguration.** При запуске **Get-CsClsConfiguration** отображаются сведения, похожие на следующие снимки экрана, где в развертывании в настоящее время установлена глобальная конфигурация по умолчанию, но конфигурации сайта не определены:
+Для создания новой конфигурации или обновления существующей конфигурации используйте комлеты **New-CsClsConfiguration** и **Set-CsClsConfiguration.** При запуске **Get-CsClsConfiguration** отображаются сведения, аналогичные следующему снимку экрана, где развертывание в настоящее время имеет глобальную конфигурацию по умолчанию, но конфигурации сайтов не определены:
 
-![Пример выходных данных из get-CsClsConfiguration.](../../media/Ops_Get-CsClsConfiguration_Basic.jpg)
+![Пример вывода get-CsClsConfiguration.](../../media/Ops_Get-CsClsConfiguration_Basic.jpg)
 
-### <a name="to-retrieve-the-current-centralized-logging-service-configuration-from-the-computer-local-store"></a>Извлечение текущей конфигурации службы централизованного ведения журналов с локального компьютера
+### <a name="to-retrieve-the-current-centralized-logging-service-configuration-from-the-computer-local-store"></a>Извлечение текущей конфигурации централизованной службы ведения журнала из локального магазина компьютера
 
-1. Запустите оболочку управления Skype для бизнеса Server: нажмите кнопку "Начните", выберите "Все программы", "Skype для бизнеса **2015",** а затем щелкните "Skype для бизнеса Server Management **Shell".**
+1. Запустите оболочку управления Skype для бизнес-серверов: нажмите кнопку Начните, щелкните Все **программы,** щелкните Skype для бизнеса **2015,** а затем нажмите **кнопку Skype для управления бизнес-серверами.**
 
 2. Введите следующую команду в командной строке:
 
@@ -87,10 +87,10 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
    Get-CsClsConfiguration -LocalStore
    ```
 
-При использовании первого примера, в котором **get-CsClsConfiguration** не указывает никаких параметров, команда ссылается на центральное хранилище управления для данных. Если указан параметр -LocalStore, команда ссылается на компьютер LocalStore, а не центральное хранилище управления.
+При использовании первого примера, в котором **Get-CsClsConfiguration** не указывает никаких параметров, команда ссылается на центральный хранилище управления данными. Если указать параметр -LocalStore, команда ссылается на компьютер LocalStore, а не на центральный магазин управления.
 ### <a name="to-retrieve-a-listing-of-scenarios-currently-defined"></a>Получение листинга сценариев, определенных в текущий момент
 
-1. Запустите оболочку управления Skype для бизнеса Server: нажмите кнопку "Начните", выберите "Все программы", "Skype для бизнеса **2015",** а затем щелкните "Skype для бизнеса Server Management **Shell".**
+1. Запустите оболочку управления Skype для бизнес-серверов: нажмите кнопку Начните, щелкните Все **программы,** щелкните Skype для бизнеса **2015,** а затем нажмите **кнопку Skype для управления бизнес-серверами.**
 
 2. Введите следующую команду в командной строке:
 
@@ -104,10 +104,10 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
    Get-CsClsConfiguration -Identity "global" | Select-Object -ExpandProperty Scenarios
    ```
 
-Этот cmdlet **Get-CsClsConfiguration** всегда отображает сценарии, в которые входит конфигурация заданной области. В большинстве случаев отображаются не все сценарии, кроме того, отображаемые сценарии сокращаются. Используемая здесь команда отображает список всех сценариев и частичные сведения об используемых поставщиках, настройках и флагах.
-### <a name="to-update-a-global-scope-for-the-centralized-logging-service-by-using-windows-powershell"></a>Обновление глобальной области для службы централизованного ведения журналов с помощью Windows PowerShell
+В cmdlet **Get-CsClsConfiguration** всегда отображаются сценарии, которые являются частью конфигурации данной области. В большинстве случаев отображаются не все сценарии, кроме того, отображаемые сценарии сокращаются. Используемая здесь команда отображает список всех сценариев и частичные сведения об используемых поставщиках, настройках и флагах.
+### <a name="to-update-a-global-scope-for-the-centralized-logging-service-by-using-windows-powershell"></a>Обновление глобальной области для централизированной службы ведения журнала с помощью Windows PowerShell
 
-1. Запустите оболочку управления Skype для бизнеса Server: нажмите кнопку "Начните", выберите "Все программы", "Skype для бизнеса **2015",** а затем щелкните "Skype для бизнеса Server Management **Shell".**
+1. Запустите оболочку управления Skype для бизнес-серверов: нажмите кнопку Начните, щелкните Все **программы,** щелкните Skype для бизнеса **2015,** а затем нажмите **кнопку Skype для управления бизнес-серверами.**
 
 2. Введите следующую команду в командной строке:
 
@@ -122,9 +122,9 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
    ```
 
 При выполнении этой команды CLSAgent на каждом компьютере и в каждом пуле развертывания задает для размера переключения на новый файл трассировки значение 40 МБ. Эта команда влияет на компьютеры и пулы на всех сайтах и задает в качестве размера переключения на новый журнал трассировки значение 40 МБ.
-### <a name="to-update-a-site-scope-for-the-centralized-logging-service-by-using-windows-powershell"></a>Обновление области сайта для службы централизованного ведения журналов с помощью Windows PowerShell
+### <a name="to-update-a-site-scope-for-the-centralized-logging-service-by-using-windows-powershell"></a>Обновление области сайта для централизированной службы ведения журнала с помощью Windows PowerShell
 
-1. Запустите оболочку управления Skype для бизнеса Server: нажмите кнопку "Начните", выберите "Все программы", "Skype для бизнеса **2015",** а затем щелкните "Skype для бизнеса Server Management **Shell".**
+1. Запустите оболочку управления Skype для бизнес-серверов: нажмите кнопку Начните, щелкните Все **программы,** щелкните Skype для бизнеса **2015,** а затем нажмите **кнопку Skype для управления бизнес-серверами.**
 
 2. Введите следующую команду в командной строке:
 
@@ -142,9 +142,9 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 > Как отмечено в примере, расположением файлов журнала по умолчанию является каталог %TEMP%\Tracing. Однако, так как фактически файл записывает CLSAgent, который выполняется как сетевая служба, переменная %TEMP% расширяется до %WINDIR%\ServiceProfiles\NetworkService\AppData\Local.
 
 При выполнении этой команды CLSAgent на каждом компьютере и в каждом пуле сайта Redmond задает для размера переключения на новый файл трассировки значение 40 МБ. Эта команда не повлияет на компьютеры и пулы на других сайтах, которые продолжат использовать текущее значение размера переключения на новый журнал трассировки, определенное либо по умолчанию (20 МБ), либо во время запуска сеанса ведения журнала.
-### <a name="to-create-a-new-centralized-logging-service-configuration"></a>Создание новой конфигурации службы централизованного ведения журналов
+### <a name="to-create-a-new-centralized-logging-service-configuration"></a>Создание новой конфигурации централизованной службы ведения журнала
 
-1. Запустите оболочку управления Skype для бизнеса Server: нажмите кнопку "Начните", выберите "Все программы", "Skype для бизнеса **2015",** а затем щелкните "Skype для бизнеса Server Management **Shell".**
+1. Запустите оболочку управления Skype для бизнес-серверов: нажмите кнопку Начните, щелкните Все **программы,** щелкните Skype для бизнеса **2015,** а затем нажмите **кнопку Skype для управления бизнес-серверами.**
 
 2. Введите следующую команду в командной строке:
 
@@ -153,7 +153,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
    ```
 
     > [!NOTE]
-    > Командлет New-CsClsConfiguration предоставляет доступ к большому количеству необязательных параметров конфигурации. Подробные сведения о параметрах конфигурации см. в настройках [Get-CsClsConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csclsconfiguration?view=skype-ps) и [Understanding Centralized Logging Service Configuration Settings.](https://technet.microsoft.com/library/3c34e600-0b91-43dc-b4cc-90b6a70ee12e.aspx)
+    > Командлет New-CsClsConfiguration предоставляет доступ к большому количеству необязательных параметров конфигурации. Сведения о параметрах конфигурации см. в [материале Get-CsClsConfiguration](/powershell/module/skype/get-csclsconfiguration?view=skype-ps) and [Understanding Centralized Logging Service Configuration Settings.](/previous-versions/office/lync-server-2013/lync-server-2013-understanding-centralized-logging-service-configuration-settings)
 
 Например, для создания новой конфигурации, которая определяет сетевую папку для файлов кэша, а также период и размер переключения для файлов журнала, введите следующую команду:
 
@@ -161,10 +161,10 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
   New-CsClsConfiguration -Identity "site:Redmond" -CacheFileNetworkFolder "\\fs01.contoso.net\filestore\logfiles" -EtlFileRolloverMinutes 120 -EtlFileRolloverSizeMB 40
   ```
 
-Следует тщательно спланировать создание новых конфигураций и определение новых свойств для службы централизованного ведения журналов. Необходимо проявлять осторожность при изменениях и учитывать их влияние на возможность правильного ведения журналов в проблемных сценариях. В конфигурацию следует вносить такие изменения, которые улучшат возможности управления журналами и позволят задать такие значения размера и периода переключения, которые помогут устранить возможные проблемы.
-### <a name="to-remove-an-existing-centralized-logging-service-configuration"></a>Удаление существующей конфигурации службы централизованного ведения журналов
+Необходимо тщательно спланировать создание новых конфигураций и определить новые свойства для централизированной службы ведения журнала. Необходимо проявлять осторожность при изменениях и учитывать их влияние на возможность правильного ведения журналов в проблемных сценариях. В конфигурацию следует вносить такие изменения, которые улучшат возможности управления журналами и позволят задать такие значения размера и периода переключения, которые помогут устранить возможные проблемы.
+### <a name="to-remove-an-existing-centralized-logging-service-configuration"></a>Удаление существующей конфигурации централизованной службы ведения журнала
 
-1. Запустите оболочку управления Skype для бизнеса Server: нажмите кнопку "Начните", выберите "Все программы", "Skype для бизнеса **2015",** а затем щелкните "Skype для бизнеса Server Management **Shell".**
+1. Запустите оболочку управления Skype для бизнес-серверов: нажмите кнопку Начните, щелкните Все **программы,** щелкните Skype для бизнеса **2015,** а затем нажмите **кнопку Skype для управления бизнес-серверами.**
 
 2. Введите следующую команду в командной строке:
 
@@ -172,28 +172,28 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
    Remove-CsClsConfiguration -Identity <scope and name>
    ```
 
-Например, чтобы удалить конфигурацию службы централизованного ведения журналов, созданную для увеличения времени переката файла журнала, увеличить размер файла журнала отката и установить расположение кэша файлов журнала в сетевую папку следующим образом:
+Например, чтобы удалить конфигурацию службы централизованного ведения журнала, созданную для увеличения времени опрокидываемого файла журнала, увеличить размер файла журнала опрокидывательных журналов и установить расположение кэша файла журнала в сетевой совместной сети следующим образом:
 
   ```PowerShell
   Remove-CsClsConfiguration -Identity "site:Redmond"
   ```
 
 > [!NOTE]
-> Это новая конфигурация, созданная в процедуре "Создание новой конфигурации службы централизованного ведения журналов".
+> Это новая конфигурация, созданная в процедуре "Создание новой конфигурации централизованной службы ведения журнала".
 
 Если удалить конфигурацию уровня сайта, сайт будет использовать глобальные параметры.
 ## <a name="see-also"></a>См. также
 
-[Настройка поставщиков службы централизованного ведения журналов в Skype для бизнеса Server 2015](configure-providers.md)
+[Настройка поставщиков для централизованной службы ведения журнала в Skype для бизнеса Server 2015](configure-providers.md)
 
-[Настройка сценариев для службы централизованного ведения журналов в Skype для бизнеса Server 2015](configure-scenarios.md)
+[Настройка сценариев для централизованной службы ведения журнала в Skype для бизнеса Server 2015](configure-scenarios.md)
 
-[Служба централизованного ведения журналов в Skype для бизнеса 2015](centralized-logging-service.md)
+[Централизованная служба ведения журнала в Skype для бизнеса 2015](centralized-logging-service.md)
 
-[Set-CsClsConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csclsconfiguration?view=skype-ps)
+[Set-CsClsConfiguration](/powershell/module/skype/set-csclsconfiguration?view=skype-ps)
 
-[Get-CsClsConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csclsconfiguration?view=skype-ps)
+[Get-CsClsConfiguration](/powershell/module/skype/get-csclsconfiguration?view=skype-ps)
 
-[New-CsClsConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csclsconfiguration?view=skype-ps)
+[New-CsClsConfiguration](/powershell/module/skype/new-csclsconfiguration?view=skype-ps)
 
-[Remove-CsClsConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csclsconfiguration?view=skype-ps)
+[Remove-CsClsConfiguration](/powershell/module/skype/remove-csclsconfiguration?view=skype-ps)

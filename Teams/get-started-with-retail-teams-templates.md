@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5f226b60bfc3a054166eb48596c505ccd7fa5ac9
-ms.sourcegitcommit: df1eca90090c29eaaf7fd79bd8cc84c556f12b1e
-ms.translationtype: HT
+ms.openlocfilehash: e0fecf419f6fc3ac0ef15097fe54571d85018587
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "48424639"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101205"
 ---
 # <a name="get-started-with-teams-templates-in-retail"></a>Начало работы с шаблонами Teams для розничной торговли
 
@@ -34,7 +34,7 @@ ms.locfileid: "48424639"
 
 В этой статье вы познакомитесь с каждым шаблоном Teams и рекомендуемыми способами их использования.
 
-Эта статья предназначена для вас, если вы отвечаете за планирование, развертывание и управление несколькими командами в своей организации розничной торговли. Вы уже развернули службу Teams в своей организации. Если вы еще не развернули Teams, см. статью [Как развернуть Microsoft Teams](How-to-roll-out-teams.md).
+Эта статья предназначена для вас, если вы отвечаете за планирование, развертывание и управление несколькими командами в своей организации розничной торговли. Вы уже развернули службу Teams в своей организации. Если вы еще не развернули Teams, см. статью [Как развернуть Microsoft Teams](./deploy-overview.md).
 
 Другие общие сведения о шаблонах команд см. в статье [Начало работы с шаблонами Teams](get-started-with-teams-templates.md).
 
@@ -68,7 +68,7 @@ ms.locfileid: "48424639"
 
 ## <a name="how-to-use-first-party-templates"></a>Использование собственных шаблонов
 
-Чтобы использовать эти шаблоны, измените свойство template@odata.bind в тексте запроса со standard на TemplateID, указанные выше.  Дополнительные сведения о развертывании шаблонов Teams см. в статье Microsoft Graph о том, как [создать команду](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta).
+Чтобы использовать эти шаблоны, измените свойство template@odata.bind в тексте запроса со standard на TemplateID, указанные выше.  Дополнительные сведения о развертывании шаблонов Teams см. в статье Microsoft Graph о том, как [создать команду](/graph/api/team-post?view=graph-rest-beta).
 
 > [!NOTE]
 > Каналы в шаблоне будут автоматически созданы на вкладке "Общий".

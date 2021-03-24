@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 033906cd-385f-4b04-9607-376888ec414d
 description: 'Чтобы указать учетные данные для обращения служб SQL Server Reporting Services (SSRS) к базе данных мониторинга, сделайте следующее:'
-ms.openlocfilehash: cc7aa59027058c720fe258bdaadcf04f27f14a0c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 94ca96960da083bc910c530f40349a4a0b2c171a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49829609"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51100035"
 ---
 # <a name="sql-server-reporting-services-credentials"></a>Службы SQL Server Reporting Services (учетные данные)
  
@@ -29,8 +29,6 @@ ms.locfileid: "49829609"
 На странице **Определение учетных данных** укажите учетные данные пользователя, которые будут использоваться для обращения к базе данных мониторинга (QoEMetrics и LcsCDR). 
   
 > [!NOTE]
-> Подробные сведения см. в под теме "Указание учетных данных и сведений о подключениях для источников данных отчетов (SSRS)" по ссылке [https://go.microsoft.com/fwlink/p/?LinkId=263431](https://go.microsoft.com/fwlink/p/?LinkId=263431) . 
+> Подробные сведения см. в материале "Указание учетных данных и сведений о подключениях для источников данных отчетов (SSRS)" [https://go.microsoft.com/fwlink/p/?LinkId=263431](/sql/reporting-services/report-data/specify-credential-and-connection-information-for-report-data-sources) по ссылке . 
   
-Дополнительные сведения о развертывании отчетов Службы Reporting Services для сервера мониторинга см. в сведениях об установке отчетов мониторинга [в Skype для бизнеса Server 2015.](../../deploy/deploy-monitoring/install-monitoring-reports.md)
-  
-
+Дополнительные сведения о развертывании отчетов служб отчетности для сервера мониторинга см. в материале [Install Monitoring Reports in Skype for Business Server 2015.](../../deploy/deploy-monitoring/install-monitoring-reports.md)

@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Установка Power BI Connector для использования шаблонов запросов запросов качества звонка (CQD)
-ms.openlocfilehash: 188e030d4f1ef6eaff21bef83a09c22d29bb51c5
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: 7af8da203eb6a69bf5db443444c0ca35eff9bb70
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50875039"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101525"
 ---
 # <a name="install-power-bi-connector-to-use-cqd-query-templates"></a>Установка Power BI Connector для использования шаблонов запросов CQD
 
@@ -28,20 +28,20 @@ ms.locfileid: "50875039"
 
 Чтобы [изучить эти шаблоны, проанализируйте данные CQD](CQD-Power-BI-query-templates.md) для Teams с помощью Power BI.
 
-Убедитесь, что у вас есть права на доступ к отчетам Power BI с правильной ролью "Доступ к [CQD".](https://docs.microsoft.com/microsoftteams/turning-on-and-using-call-quality-dashboard#assign-roles-for-accessing-cqd)
+Убедитесь, что у вас есть права на доступ к отчетам Power BI с правильной ролью "Доступ к [CQD".](./turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd)
 
 > [!NOTE]
 > CQD Power BI Connector поддерживает только DirectQuery в Power BI. Режим импорта не поддерживается. 
 
 ## <a name="installation"></a>Установка
 
-Процесс установки пользовательского соединителя и настройки безопасности для его использования подробно описан в документации [Power BI.](https://docs.microsoft.com/power-bi/desktop-connector-extensibility) Для простоты при этом краткое объяснение:
+Процесс установки пользовательского соединителя и настройки безопасности для его использования подробно описан в документации [Power BI.](/power-bi/desktop-connector-extensibility) Для простоты при этом краткое объяснение:
 
 1. Проверьте, есть ли на компьютере папка пользовательских соединитеров *\[ Power BI Desktop \] \\ \\ Documents.* Если нет, создайте эту папку. <sup>1</sup>
 
 2. Скачайте файл соединитела *\* (mez-* или *\* PQX-файл)* и поместите его в каталог *пользовательских* соединитеителей.
 
-3. **Если это *\* MEZ-файл,*** вам также потребуется настроить параметры безопасности, как описано в документации по настройке [соединители.](https://docs.microsoft.com/power-bi/desktop-connector-extensibility#data-extension-security)
+3. **Если это *\* MEZ-файл,*** вам также потребуется настроить параметры безопасности, как описано в документации по настройке [соединители.](/power-bi/desktop-connector-extensibility#data-extension-security)
 
 Если выпущена новая версия Power BI Connector для Microsoft Teams, просто замените старый файл соединитела в каталоге *Custom Connectors* новым файлом.
 
@@ -65,7 +65,7 @@ ms.locfileid: "50875039"
 
 6. На этом этапе Power BI загрузит модель данных в правую часть окна. В противном случае страница останется пустой, а запросы не будут загружены по умолчанию. Чтобы создать **запрос** и вернуть данные, перенастройте его на приведенную ниже порядок создания запросов.
 
-Если какие-либо из шагов настройки не были полностью понятными, более подробное описание процесса можно найти в кратком описании процесса: подключение к данным в [Power BI Desktop.](https://docs.microsoft.com/power-bi/desktop-quickstart-connect-to-data)
+Если какие-либо из шагов настройки не были полностью понятными, более подробное описание процесса можно найти в кратком описании процесса: подключение к данным в [Power BI Desktop.](/power-bi/desktop-quickstart-connect-to-data)
 
 ## <a name="building-queries"></a>Запросы на создание
 
@@ -93,7 +93,7 @@ ms.locfileid: "50875039"
 
 ## <a name="creating-a-drillthrough-report"></a>Создание отчета drillthrough
 
-[С помощью drillthrough](https://docs.microsoft.com/power-bi/desktop-drillthrough) в Power BI можно создавать отфильтрованные отчеты, которые можно быстро фильтровать, используя значения других отчетов в качестве контекста. После того как вы узнаете, как создать первый запрос с помощью соединители CQD, процесс drillthrough будет еще проще.
+[С помощью drillthrough](/power-bi/desktop-drillthrough) в Power BI можно создавать отфильтрованные отчеты, которые можно быстро фильтровать, используя значения других отчетов в качестве контекста. После того как вы узнаете, как создать первый запрос с помощью соединители CQD, процесс drillthrough будет еще проще.
 
 1. Создайте еще одну страницу отчета, а затем добавьте на нее запросы.
 
@@ -171,8 +171,8 @@ ms.locfileid: "50875039"
 
 Дополнительные сведения см. в следующих статьях:
 
-- [Руководство по оптимизации для Power BI](https://docs.microsoft.com/power-bi/guidance/power-bi-optimization)
-- [Руководство по модели DirectQuery](https://docs.microsoft.com/power-bi/guidance/directquery-model-guidance)
+- [Руководство по оптимизации для Power BI](/power-bi/guidance/power-bi-optimization)
+- [Руководство по модели DirectQuery](/power-bi/guidance/directquery-model-guidance)
 
 ### <a name="i-find-that-i-routinely-run-into-the-10000-row-limit-when-running-queries-how-can-i-get-the-connector-to-return-more-than-10000-rows"></a>Я постоянно сжимаю предел в 10 000 строк при запуске запросов. Как получить соединителя для возврата более 10 000 строк
 
@@ -182,6 +182,6 @@ ms.locfileid: "50875039"
 
 
 
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Статьи по теме
 
 [Анализ данных CQD для Teams с помощью Power BI](CQD-Power-BI-query-templates.md)

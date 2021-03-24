@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: Политики клиента помогают определить функции Skype для бизнеса online, доступные пользователям. Например, вы можете предоставить одним пользователям право передавать файлы и запретить это другим пользователям.
-ms.openlocfilehash: 65a346f0f16892d5995b723431fc796e3faa1a3b
-ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
+ms.openlocfilehash: 3706e6b4fafe15aa8b799170001af61b837968da
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50569231"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51100535"
 ---
 # <a name="set-up-client-policies-for-your-organization"></a>Настройка политик клиента в организации
 
@@ -41,7 +41,7 @@ ms.locfileid: "50569231"
 
 > [!NOTE]
 > Соединитель Skype для бизнеса Online сейчас входит в состав последнего модуля Teams PowerShell. Если вы используете последний общедоступный выпуск Teams PowerShell, вам не нужно устанавливать соединитель Skype для бизнеса Online.
-1. Установите модуль [Teams PowerShell.](https://docs.microsoft.com/microsoftteams/teams-powershell-install)
+1. Установите модуль [Teams PowerShell.](/microsoftteams/teams-powershell-install)
     
 2. Откройте Windows PowerShell и запустите следующие команды: 
 
@@ -52,7 +52,7 @@ ms.locfileid: "50569231"
    $credential = Get-Credential
    Connect-MicrosoftTeams -Credential $credential
    ```
-   Если вам нужна дополнительные сведения о запуске Windows PowerShell, см. сведения о подключении к всем службам [Microsoft 365 или Office 365](https://technet.microsoft.com/library/dn568015.aspx) в одном окне Windows PowerShell или настройка компьютера [для](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)Windows PowerShell.
+   Если вам нужна дополнительные сведения о запуске Windows PowerShell, см. сведения о подключении к всем службам [Microsoft 365 или Office 365](/microsoft-365/enterprise/connect-to-all-microsoft-365-services-in-a-single-windows-powershell-window) в одном окне Windows PowerShell или настройка компьютера [для](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)Windows PowerShell.
  
 ### <a name="disable-emoticons-and-presence-notifications-and-prevent-saving-of-ims"></a>Отключение эмотиконов, уведомлений о присутствии и запрет на сохранение мгновенных сообщений
 
@@ -63,7 +63,7 @@ ms.locfileid: "50569231"
    New-CsClientPolicy -Identity ClientPolicy -DisableEmoticons $true -DisablePresenceNote -$true -DisableSavingIM $true
    ```
 
-  См. дополнительные [функции для new-CsClientPolicy.](https://technet.microsoft.com/library/mt779155.aspx)
+  См. дополнительные [функции для new-CsClientPolicy.](/powershell/module/skype/New-CsClientPolicy)
     
 - Чтобы предоставить новую политику всем пользователям в организации, запустите следующую команду:
     
@@ -72,9 +72,9 @@ ms.locfileid: "50569231"
    Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName ClientPolicy
    ```
 
-  Подробнее о [cmdlet Grant-CsClientPolicy.](https://technet.microsoft.com/library/mt779152.aspx)
+  Подробнее о [cmdlet Grant-CsClientPolicy.](/powershell/module/skype/Grant-CsClientPolicy)
     
-Если вы уже создали политику, то можете изменить существующую политику с помощью cmdlet [Set-CsClientPolicy,](https://technet.microsoft.com/library/mt779153.aspx) а затем применить параметры к пользователям с помощью cmdlet [Grant-CsClientPolicy.](https://technet.microsoft.com/library/mt779152.aspx)
+Если вы уже создали политику, то можете изменить существующую политику с помощью cmdlet [Set-CsClientPolicy,](/powershell/module/skype/Set-CsClientPolicy) а затем применить параметры к пользователям с помощью cmdlet [Grant-CsClientPolicy.](/powershell/module/skype/Grant-CsClientPolicy)
   
 ### <a name="enable-urls-or-hyperlinks-to-be-clickable-in-ims"></a>Разрешение перехода по URL-адресам или гиперссылкам в мгновенных сообщениях
 
@@ -85,7 +85,7 @@ ms.locfileid: "50569231"
    New-CsClientPolicy -Identity URLClientPolicy -EnableURL $true
    ```
 
-  См. дополнительные [функции для new-CsClientPolicy.](https://technet.microsoft.com/library/mt779155.aspx)
+  См. дополнительные [функции для new-CsClientPolicy.](/powershell/module/skype/New-CsClientPolicy)
     
 - Чтобы предоставить новую политику всем пользователям в организации, запустите следующую команду:
     
@@ -94,9 +94,9 @@ ms.locfileid: "50569231"
    Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName URLClientPolicy
    ```
 
-  Подробнее о [cmdlet Grant-CsClientPolicy.](https://technet.microsoft.com/library/mt779152.aspx)
+  Подробнее о [cmdlet Grant-CsClientPolicy.](/powershell/module/skype/Grant-CsClientPolicy)
     
-Если вы уже создали политику, то можете изменить существующую политику с помощью cmdlet [Set-CsClientPolicy,](https://technet.microsoft.com/library/mt779153.aspx) а затем применить параметры к пользователям с помощью cmdlet [Grant-CsClientPolicy.](https://technet.microsoft.com/library/mt779152.aspx)
+Если вы уже создали политику, то можете изменить существующую политику с помощью cmdlet [Set-CsClientPolicy,](/powershell/module/skype/Set-CsClientPolicy) а затем применить параметры к пользователям с помощью cmdlet [Grant-CsClientPolicy.](/powershell/module/skype/Grant-CsClientPolicy)
   
 ### <a name="prevent-showing-recent-contacts"></a>Запрет отображения последних контактов
 
@@ -106,7 +106,7 @@ ms.locfileid: "50569231"
    New-CsClientPolicy -Identity ContactsClientPolicy -ShowRecentContacts $false 
    ```
 
-  См. дополнительные [функции для new-CsClientPolicy.](https://technet.microsoft.com/library/mt779155.aspx)
+  См. дополнительные [функции для new-CsClientPolicy.](/powershell/module/skype/New-CsClientPolicy)
     
 - Чтобы предоставить новую политику Amos Marble, запустите следующую команду:
    
@@ -114,25 +114,25 @@ ms.locfileid: "50569231"
    Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName ContactsClientPolicy
    ```
 
-  Подробнее о [cmdlet Grant-CsClientPolicy.](https://technet.microsoft.com/library/mt779152.aspx)
+  Подробнее о [cmdlet Grant-CsClientPolicy.](/powershell/module/skype/Grant-CsClientPolicy)
     
-  Если вы уже создали политику, то можете изменить существующую политику с помощью cmdlet [Set-CsClientPolicy,](https://technet.microsoft.com/library/mt779153.aspx) а затем применить параметры к пользователям с помощью cmdlet [Grant-CsClientPolicy.](https://technet.microsoft.com/library/mt779152.aspx)
+  Если вы уже создали политику, то можете изменить существующую политику с помощью cmdlet [Set-CsClientPolicy,](/powershell/module/skype/Set-CsClientPolicy) а затем применить параметры к пользователям с помощью cmdlet [Grant-CsClientPolicy.](/powershell/module/skype/Grant-CsClientPolicy)
   
 ## <a name="want-to-know-more-about-windows-powershell"></a>Хотите узнать больше о Windows PowerShell?
 
 - Windows PowerShell is all about managing users and what users are allowed or not allowed to do. С Windows PowerShell вы можете управлять Microsoft 365, Office 365 и Skype для бизнеса Online, используя единый пункт администрирования, который упростит выполнение ваших повседневных задач. Чтобы начать работу с Windows PowerShell, ознакомьтесь с приведенными ниже разделами.
     
-  - [Введение в Windows PowerShell и Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=525039)
+  - [Введение в Windows PowerShell и Skype для бизнеса Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-  - [Шесть причин, по которым может потребоваться использовать Windows PowerShell для управления Microsoft 365 или Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Шесть причин, по которым может потребоваться использовать Windows PowerShell для управления Microsoft 365 или Office 365](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
 - Windows PowerShell имеет множество преимуществ в скорости, простоте и эффективности работы по сравнению с использованием только Центра администрирования Microsoft 365, например при внесении изменений для множества пользователей одновременно. Подробнее об этих преимуществах можно узнать в следующих разделах:
     
-  - [Лучшие способы управления Microsoft 365 или Office 365 с помощью Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Лучшие способы управления Microsoft 365 или Office 365 с помощью Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-  - [Использование Windows PowerShell для управления Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=525453)
+  - [Использование Windows PowerShell для управления Skype для бизнеса Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-  - [Использование возможностей Windows PowerShell для выполнения стандартных задач управления средой Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=525038)
+  - [Использование возможностей Windows PowerShell для выполнения стандартных задач управления средой Skype для бизнеса Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
 ## <a name="related-topics"></a>Статьи по теме
 [Создание настраиваемых политик внешнего доступа](create-custom-external-access-policies.md)
@@ -142,4 +142,3 @@ ms.locfileid: "50569231"
 [Настройка политик для организации](set-up-conferencing-policies-for-your-organization.md)
 
   
- 

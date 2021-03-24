@@ -15,20 +15,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ec043088-722b-4739-a460-3b07864cf5ea
 description: Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
-ms.openlocfilehash: 728c7d7da3625f04fe0df37bc3a3729e0ceb25bc
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: f8c904b5bf50adc0e9eeec976963da68b09ec7f4
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49814479"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51099255"
 ---
 # <a name="voice-route"></a>Маршрут голосовых данных
 
 Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
 
-- [Создание или изменение маршрута голосовой почты в Skype для бизнеса 2015](../../deploy/deploy-enterprise-voice/create-or-modify-a-voice-route.md)
+- [Создание или изменение голосового маршрута в Skype для бизнеса 2015](../../deploy/deploy-enterprise-voice/create-or-modify-a-voice-route.md)
 
-- [Изменение голосового маршрута](https://technet.microsoft.com/library/afc562cc-8807-489b-8850-dbbe1c1ab9f5.aspx)
+- [Изменение голосового маршрута](/previous-versions/office/lync-server-2013/lync-server-2013-modify-a-voice-route)
 
-For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).
-
+Сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнес-серверов, см. в материале Управление Skype для бизнеса [Server 2015.](../../manage/manage.md)

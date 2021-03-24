@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Optimization
 description: Рассматриваемые в этой статье требования имеют важное значение для успешной и долгосрочной работы всех функций Skype для бизнеса Online, настраиваемых в организации. Этот документ предназначен для пользователей, обладающих обширным техническим опытом. Но некоторые из вас не имеют таких глубоких знаний. Если вам нужна помощь в настройке Skype для бизнеса Online, прочтите эту статью, чтобы ознакомиться с моментами, которые необходимо учитывать. Здесь также выделяются моменты, которые нужно обсудить при работе с Microsoft FastTrack Center, отделами по работе с клиентами Майкрософт или с партнерами Майкрософт, чтобы выяснить, как выполнить эти требования.
-ms.openlocfilehash: eb8cf69ee7e8ea82d71ea088f5866b03e048a0ac
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+ms.openlocfilehash: ece99899400d8fca063f9b28c868ba94d4f72b99
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44164758"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51100685"
 ---
 # <a name="optimizing-your-network-for-skype-for-business-online"></a>Оптимизация сети для Skype для бизнеса Online
 
@@ -52,7 +52,7 @@ Skype для бизнеса позволяет выполнять следующ
 
 На качество мультимедийных данных, передаваемых в режиме реального времени (голосовая и видеосвязь, а также общий доступ к приложениям) по IP-протоколу, в значительной степени оказывает влияние качество сквозного сетевого подключения. Для достижения оптимального качества передачи данных при использовании Skype для бизнеса Online очень важно обеспечить максимально эффективное подключение между сетью организации и Skype для бизнеса Online. Наилучшим способом является настройка внутреннего сетевого и облачного подключения на основе производительности сети с целью поддержки Skype для бизнеса Online в периоды наибольшей нагрузки.
 
-Работая с партнером [Майкрософт,](https://partnercenter.microsoft.com/pcv/search)вы можете подключать различные приложения Microsoft 365 или Office 365, включая Skype для бизнеса Online в облаке, к своей сети, а также голосовую и видеосвязь в режиме реального времени для Skype для бизнеса. Для поддержки этих рабочих нагрузок Microsoft 365 и Office 365 в режиме реального времени необходимо отдельно настроить сетевые службы. Это сеть с достаточной пропускной способностью для выполнения необходимого объема трафика и поддержкой качества обслуживания (QoS) для бизнес-класса пользователей.
+Работая с партнером [Майкрософт,](https://partnercenter.microsoft.com/pcv/search)вы можете подключать различные приложения Microsoft 365 или Office 365, включая Skype для бизнеса Online в облаке, к своей сети, а также голосовую и видеосвязь в режиме реального времени для Skype для бизнеса требуется, чтобы сетевые службы были специально настроены для поддержки этих рабочих нагрузок Microsoft 365 и Office 365 в режиме реального времени. Это сеть с достаточной пропускной способностью для выполнения необходимого объема трафика и поддержкой качества обслуживания (QoS) для бизнес-класса пользователей.
 
 Кроме приведенной здесь информации существуют и другие ресурсы, которые помогут вам успешно спланировать и развернуть услуги и функции Skype для бизнеса Online и обеспечить соответствие сетевых служб этим требованиям.
 
@@ -76,7 +76,7 @@ Skype для бизнеса позволяет выполнять следующ
 
 Дополнительные сведения о качестве мультимедиа и качестве обслуживания (QoS) см. в статье [Качество медиаданных и производительность сетевого подключения в Skype для бизнеса Online](media-quality-and-network-connectivity-performance.md).
 
-Дополнительные сведения о настройке качества обслуживания и управления им см. в разделе [Управление качеством обслуживания](https://technet.microsoft.com/library/gg425841.aspx).
+Дополнительные сведения о настройке качества обслуживания и управления им см. в разделе [Управление качеством обслуживания](../../SfbServer/plan-your-deployment/network-requirements/network-requirements.md).
 
 ## <a name="bypass-proxies-and-wan-optimization-devices"></a>Обход прокси-серверов и устройств оптимизации WAN
 
@@ -92,7 +92,7 @@ Skype для бизнеса позволяет выполнять следующ
 
 - [Office 365 Proxy Pac generator (Генератор PAC-файла прокси Office 365)](https://gallery.technet.microsoft.com/Office-365-Proxy-Pac-60fb28f7)
 
-- [Использование контроллера оптимизации WAN или устройств проверки трафика и трафика с Microsoft 365 или Office 365](https://aka.ms/kb2690045)
+- [Использование контроллера оптимизации WAN или устройств проверки трафика и трафика с Microsoft 365 или Office 365](/office365/troubleshoot/miscellaneous/office-365-third-party-network-devices)
 
 - [Маршрутия с помощью ExpressRoute для Microsoft 365 или Office 365](https://support.office.com/article/e1da26c6-2d39-4379-af6f-4da213218408)
 
@@ -109,9 +109,9 @@ Skype для бизнеса позволяет выполнять следующ
 
 - [Enabling Lync Media to Bypass a VPN Tunnel (Включение Lync Media для обхода VPN-туннеля)](https://blogs.technet.microsoft.com/nexthop/2011/11/14/enabling-lync-media-to-bypass-a-vpn-tunnel/)
 
-- [More on Direct Access, Split Tunneling and Force Tunneling (Подробные сведения о DirectAccess, раздельном туннелировании и принудительном туннелировании)](https://blogs.technet.com/b/tomshinder/archive/2010/03/30/more-on-directaccess-split-tunneling-and-force-tunneling.aspx)
+- [More on Direct Access, Split Tunneling and Force Tunneling (Подробные сведения о DirectAccess, раздельном туннелировании и принудительном туннелировании)](/archive/blogs/tomshinder/more-on-directaccess-split-tunneling-and-force-tunneling)
 
-- [Enable Direct Access (Включение DirectAccess)](https://technet.microsoft.com/library/jj574163.aspx)
+- [Enable Direct Access (Включение DirectAccess)](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/jj574163(v=ws.11))
 
 ## <a name="ensure-the-right-ports-and-protocols-are-open"></a>Открытие нужных портов и протоколов
 
@@ -132,11 +132,11 @@ Skype для бизнеса позволяет выполнять следующ
 
 - [Телефоны, поддерживаемые в Skype для бизнеса Online](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online.md)
 
-- [Phones and Devices for Skype for Business (Телефоны и устройства для Skype для бизнеса)](https://technet.microsoft.com/office/dn947482.aspx)
+- [Phones and Devices for Skype for Business (Телефоны и устройства для Skype для бизнеса)](../../SfbPartnerCertification/certification/devices-ip-phones.md)
 
 - [Solutions Catalog for Personal Peripherals (Каталог решений для личных периферийных устройств)](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs)
 
-- [Phones and devices qualified for Microsoft Lync (Телефоны и устройства, сертифицированные для Microsoft Lync)](https://technet.microsoft.com/office/dn788944.aspx)
+- [Phones and devices qualified for Microsoft Lync (Телефоны и устройства, сертифицированные для Microsoft Lync)](../../SfbPartnerCertification/lync-cert/ip-phones.md)
 
 Другим важным фактором, от которого зависит качество звука и видео, является среда и окружающее пространство, где пользователи проводят свои встречи и используют аудио- и видеоустройства. Звук, принимаемый во время звонка от пользователей из шумной обстановки, будет приглушенным, нечетким или будет отдаваться эхом. А пользователи, находящиеся в условиях низкой освещенности, не смогут передавать яркое и четкое видеоизображение. При подготовке конференц-зала непосредственное влияние на качество получаемого звука и изображения оказывает расположение микрофона и видеоустройства.
 

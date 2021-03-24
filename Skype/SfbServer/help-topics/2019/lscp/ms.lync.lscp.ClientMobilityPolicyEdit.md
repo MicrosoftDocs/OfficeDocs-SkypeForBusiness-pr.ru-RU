@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 58bd0c10-f33a-451e-b131-bd251a1b8f50
 ROBOTS: NOINDEX, NOFOLLOW
 description: В диалоговом окне Изменение политики мобильных устройств вы можете изменить сведения о политике мобильных устройств.
-ms.openlocfilehash: 9034bc4b343fc68af862cfd01fa1db4aec9a985e
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 7c72a586cc2fee883206491b399a7bf7ea4f73aa
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49830239"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51100605"
 ---
 # <a name="edit-client-mobility-policy"></a>Изменение политики мобильных устройств для клиентов
 
@@ -33,16 +33,16 @@ ms.locfileid: "49830239"
 
 - **Фиксация** Щелкните, чтобы сохранить изменения в параметрах политики.
 
-- **Отмена** Щелкните, чтобы остановить изменение политики и отменить все изменения, внесенные в параметры политики.
+- **Отмена** Щелкните, чтобы остановить редактирование политики и отказаться от изменений, внесенных в параметры политики.
 
 - **Имя** Имя политики мобильности.
 
 - **Описание** Описание политики мобильности.
 
-Дополнительные сведения о политиках мобильных устройств см. в разделе [Mobility Policies](https://technet.microsoft.com/library/8caa5525-e16a-4e38-b3cd-acc0ae9ea375.aspx).
+Дополнительные сведения о политиках мобильных устройств см. в разделе [Mobility Policies](/previous-versions/office/lync-server-2013/lync-server-2013-mobility-policies).
 
 ## <a name="see-also"></a>См. также
 
-[Планирование мобильной работы](https://technet.microsoft.com/library/12000359-09b5-48f0-986d-fab3a1487f9c.aspx)
+[Планирование мобильной работы](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-mobility)
 
-[Развертывание поддержки мобильной работы](https://technet.microsoft.com/library/f41e6b25-d2cd-43fd-a17b-22cfda8bcd4f.aspx)
+[Развертывание поддержки мобильной работы](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-mobility)

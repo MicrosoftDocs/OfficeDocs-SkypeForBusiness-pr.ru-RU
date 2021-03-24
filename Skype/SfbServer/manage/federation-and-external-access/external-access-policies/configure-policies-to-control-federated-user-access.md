@@ -15,27 +15,27 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 'При настройке политик для поддержки связи с федеративными партнерами эти политики применяются к пользователям федеративных доменов. '
-ms.openlocfilehash: 2b7976492fe4f789c2f3130fb51deaaef44af701
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 6107615767d0360180baf9f22d5fddc6a5f8e565
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49817309"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51099045"
 ---
-# <a name="configure-policies-to-control-federated-user-access-in-skype-for-business-server"></a>Настройка политик для управления доступом федераированных пользователей в Skype для бизнеса Server
+# <a name="configure-policies-to-control-federated-user-access-in-skype-for-business-server"></a>Настройка политик для управления федерадным доступом пользователей в Skype для бизнеса Server
 
-При настройке политик для поддержки связи с федеративными партнерами эти политики применяются к пользователям федеративных доменов. Вы можете настроить одну или несколько политик доступа внешних пользователей, чтобы контролировать возможность совместной работы пользователей федераированных доменов с пользователями Skype для бизнеса Server. Для управления доступом федеративных пользователей можно настроить политики на глобальном уровне, уровне сайта и уровне пользователей. Параметры политики Skype для бизнеса Server, применяемые на одном уровне политики, могут переопределять параметры, применяемые на другом уровне политики. Приоритет политик в Skype для бизнеса Server: политика пользователя (наибольшее влияние) переопределяет политику сайта, а политика сайта переопределяет глобальную политику (наименьшее влияние).  То есть, чем ближе параметр политики к объекту, на который она влияет, тем больше влияния она оказывает на объект.
+При настройке политик для поддержки связи с федеративными партнерами эти политики применяются к пользователям федеративных доменов. Вы можете настроить одну или несколько внешних политик доступа к пользователю, чтобы определить, могут ли пользователи федерадных доменов сотрудничать с пользователями Skype для бизнеса Server. Для управления доступом федеративных пользователей можно настроить политики на глобальном уровне, уровне сайта и уровне пользователей. Параметры политики Skype для бизнеса Server, применяемые на одном уровне политики, могут переопределять параметры, применяемые на другом уровне политики. Приоритет политик в Skype для бизнеса Server: политика пользователя (наибольшее влияние) переопределяет политику сайта, а политика сайта переопределяет глобальную политику (наименьшее влияние).  То есть, чем ближе параметр политики к объекту, на который она влияет, тем больше влияния она оказывает на объект.
 
 
 > [!NOTE]  
-> Можно настроить политики для управления доступом федеративных пользователей, даже если федерация не была включена для данной организации. Однако настроенные политики вступают в силу только при включении федерации для организации. Подробные сведения о включаемой федерации см. в сведениях о [включаемом или отключаемом удаленном доступе пользователей.](../access-edge/enable-or-disable-remote-user-access.md)  Кроме того, если вы указываете политику пользователей для управления доступом федераированных пользователей, эта политика применяется только к пользователям, которые включены в Skype для бизнеса Server и настроены на использование этой политики.
+> Можно настроить политики для управления доступом федеративных пользователей, даже если федерация не была включена для данной организации. Однако настроенные политики вступают в силу только при включении федерации для организации. Сведения о включаемой федерации см. в материале [Включение или отключение удаленного доступа к пользователю.](../access-edge/enable-or-disable-remote-user-access.md)  Кроме того, если указать политику пользователя для управления федерадным доступом пользователей, эта политика применяется только к пользователям, которые включены для Skype для бизнес-сервера и настроены на использование политики.
 
 
 ## <a name="to-configure-a-policy-to-support-access-by-users-of-federated-domains"></a>Чтобы настроить политику для поддержку доступа пользователей федеративных доменов
 
-1.  Из учетной записи пользователя, которая является членом группы RTCUniversalServerAdmins (или имеет эквивалентные права пользователя) или назначена роли CsAdministrator, войдите на любой компьютер во внутреннем развертывании.
+1.  С учетной записи пользователя, которая входит в группу RTCUniversalServerAdmins (или имеет эквивалентные права пользователя) или назначена роли CsAdministrator, войдите на любой компьютер во внутреннем развертывании.
 
-2.  Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Skype для бизнеса Server.
+2.  Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Skype для бизнес-серверов.
 
 3.  На левой панели навигации щелкните **Внешний доступ пользователей**, затем щелкните **Политика внешнего доступа**.
 
@@ -59,17 +59,17 @@ ms.locfileid: "49817309"
 
 7.  Нажмите кнопку **Сохранить**.
 
-Чтобы включить доступ федеративных пользователей, необходимо также включить поддержку федераций в организации. Подробные сведения см. в сведениях о [включите или отключите федерацию и подключение к общедоступным системам im.](../access-edge/enable-or-disable-federation-and-public-im-connectivity.md)
+Чтобы включить доступ федеративных пользователей, необходимо также включить поддержку федераций в организации. Подробные сведения см. в материале [Enable or disable federation and public IM connectivity.](../access-edge/enable-or-disable-federation-and-public-im-connectivity.md)
 
-Если это политика пользователей, необходимо также применить эту политику к пользователям, которые должны работать совместно с федеративными пользователями. Дополнительные сведения см. в [дополнительных сведениях о назначении политики доступа внешних пользователей.](assign-an-external-user-access-policy.md)
+Если это политика пользователей, необходимо также применить эту политику к пользователям, которые должны работать совместно с федеративными пользователями. Дополнительные сведения см. в [материале Назначение внешней политики доступа к пользователю.](assign-an-external-user-access-policy.md)
 
-## <a name="to-configure-an-existing-policy-using-windows-powershell-to-support-access-by-users-of-federated-domains"></a>Настройка существующей политики с помощью Windows PowerShell для поддержки доступа пользователей федератных доменов
+## <a name="to-configure-an-existing-policy-using-windows-powershell-to-support-access-by-users-of-federated-domains"></a>Настройка существующей политики с Windows PowerShell для поддержки доступа пользователей федератированных доменов
 
-1.  Из учетной записи пользователя, которая является членом группы RTCUniversalServerAdmins (или имеет эквивалентные права пользователя) или назначена роли CsAdministrator, войдите на любой компьютер во внутреннем развертывании.
+1.  С учетной записи пользователя, которая входит в группу RTCUniversalServerAdmins (или имеет эквивалентные права пользователя) или назначена роли CsAdministrator, войдите на любой компьютер во внутреннем развертывании.
 
-2.  Запустите оболочку управления Skype для бизнеса Server: нажмите кнопку "Начните", выберите "Все программы", "Skype для бизнеса **Server",** а затем щелкните "Skype для бизнеса Server Management **Shell".**
+2.  Запустите оболочку управления серверами в Skype для Busines: нажмите кнопку Начните, щелкните Все **программы,** щелкните **Skype для** бизнес-сервера, а затем нажмите кнопку Skype для управления **бизнес-сервером.**
 
-3.  Введите следующую запись в оболочке управления Skype для бизнеса Server:
+3.  Введите следующее в оболочке управления skype для бизнес-серверов:
     
     ```PowerShell
     Set-CsExternalAccessPolicy -Identity <name of global, site or user policy - policy must exist when using Set-CsExternalAccessPolicy > -Description <descriptive name for policy> -EnableFederationAccess <$true, $false> -EnableXmppAccess <$true, $false> -EnablePublicCloudAcess <$true, $false> -EnablePublicCloudAudioVideoAcess <$true, $false> -EnableOutsideAcess <$true, $false>
@@ -77,16 +77,16 @@ ms.locfileid: "49817309"
        
 
     > [!TIP]  
-    > Параметр "EnablePublicCloudAudioVideoAccess" не имеет соответствующего выбора в панели управления Skype для бизнеса Server
+    > Параметр EnablePublicCloudAudioVideoAccess не имеет соответствующего выбора в панели управления Skype для бизнес-серверов
 
 
-## <a name="to-create-a-new-policy-using-windows-powershell-to-support-access-by-users-of-federated-domains"></a>Создание новой политики с помощью Windows PowerShell для поддержки доступа пользователей федератных доменов
+## <a name="to-create-a-new-policy-using-windows-powershell-to-support-access-by-users-of-federated-domains"></a>Создание новой политики с Windows PowerShell для поддержки доступа пользователей федератированных доменов
 
-1.  Из учетной записи пользователя, которая является членом группы RTCUniversalServerAdmins (или имеет эквивалентные права пользователя) или назначена роли CsAdministrator, войдите на любой компьютер во внутреннем развертывании.
+1.  С учетной записи пользователя, которая входит в группу RTCUniversalServerAdmins (или имеет эквивалентные права пользователя) или назначена роли CsAdministrator, войдите на любой компьютер во внутреннем развертывании.
 
-2.  Запустите оболочку управления Skype для бизнеса Server: нажмите кнопку "Начните", выберите "Все программы", "Microsoft Skype для бизнеса **Server",** а затем щелкните "Skype для бизнеса Server Management **Shell".**
+2.  Запустите оболочку управления Skype для бизнес-серверов: нажмите кнопку Начните, щелкните Все **программы,** щелкните **Microsoft Skype для** бизнес-сервера, а затем нажмите кнопку Skype для управления бизнес-сервером. 
 
-3.  Введите следующую запись в оболочке управления Skype для бизнеса Server:
+3.  Введите следующее в оболочке управления skype для бизнес-серверов:
     
     ```PowerShell
     New-CsExtenalAccessPolicy -Identity <name of site or user policy - you cannot create a new global policy using New-CsExternalAccessPolicy > -Description <descriptive name for policy> -EnableFederationAccess <$true, $false> -EnableXmppAccess <$true, $false> -EnablePublicCloudAccess <$true, $false> -EnablePublicCloudAudioVideoAccess <$true, $false> -EnableOutsideAccess <$true, $false>
@@ -99,11 +99,11 @@ ms.locfileid: "49817309"
     ```
 
 
-## <a name="to-delete-or-reset-a-policy-using-windows-powershell-to-support-access-by-users-of-federated-domains"></a>Удаление или сброс политики с Windows PowerShell для поддержки доступа пользователей федератных доменов
+## <a name="to-delete-or-reset-a-policy-using-windows-powershell-to-support-access-by-users-of-federated-domains"></a>Удаление или сброс политики с Windows PowerShell для поддержки доступа пользователей федератированных доменов
 
-1.  Из учетной записи пользователя, которая является членом группы RTCUniversalServerAdmins (или имеет эквивалентные права пользователя) или назначена роли CsAdministrator, войдите на любой компьютер во внутреннем развертывании.
+1.  С учетной записи пользователя, которая входит в группу RTCUniversalServerAdmins (или имеет эквивалентные права пользователя) или назначена роли CsAdministrator, войдите на любой компьютер во внутреннем развертывании.
 
-2.  Введите следующую запись в оболочке управления Skype для бизнеса Server
+2.  Введите следующее в оболочке управления Skype для бизнес-серверов
     
     `Remove-CsExternalAccessPolicy -Identity <name of global, site or user policy>`
     
@@ -131,10 +131,8 @@ ms.locfileid: "49817309"
  
 [Управление федеративными поставщиками SIP в организации](../sip-providers/manage-sip-federated-providers-for-your-organization.md)
 
-[Set-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsExternalAccessPolicy)  
-[New-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsExternalAccessPolicy)  
-[Get-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsExternalAccessPolicy)  
-[Remove-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsExternalAccessPolicy)  
-[Grant-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsExternalAccessPolicy)  
-  
-
+[Set-CsExternalAccessPolicy](/powershell/module/skype/Set-CsExternalAccessPolicy)  
+[New-CsExternalAccessPolicy](/powershell/module/skype/New-CsExternalAccessPolicy)  
+[Get-CsExternalAccessPolicy](/powershell/module/skype/Get-CsExternalAccessPolicy)  
+[Remove-CsExternalAccessPolicy](/powershell/module/skype/Remove-CsExternalAccessPolicy)  
+[Grant-CsExternalAccessPolicy](/powershell/module/skype/Grant-CsExternalAccessPolicy)  

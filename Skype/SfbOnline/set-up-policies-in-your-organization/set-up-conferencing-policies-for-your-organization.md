@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: "Конференц-связь \x97 это важная часть Skype для бизнеса online: она позволяет группам пользователей объединяться, чтобы просматривать презентации и видео, делиться приложениями, обмениваться файлами, общаться и совместно работать другими способами."
-ms.openlocfilehash: 9a2e18ad23eaa08813c87e83058ecc0dcd1dfec1
-ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
+ms.openlocfilehash: f4c8831408ed5c17073456306c0f48add73161ff
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50569211"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51100525"
 ---
 # <a name="set-up-conferencing-policies-for-your-organization"></a>Настройка политик аудиоконференций в организации
 
@@ -45,7 +45,7 @@ ms.locfileid: "50569211"
 
  > [!Note]
 > Соединитель Skype для бизнеса Online сейчас входит в состав последнего модуля Teams PowerShell. Если вы используете последний общедоступный выпуск Teams PowerShell, вам не нужно устанавливать соединитель Skype для бизнеса Online.
-1. Установите модуль [Teams PowerShell.](https://docs.microsoft.com/microsoftteams/teams-powershell-install)
+1. Установите модуль [Teams PowerShell.](/microsoftteams/teams-powershell-install)
     
 2. Откройте Windows PowerShell и запустите следующие команды: 
 
@@ -56,7 +56,7 @@ ms.locfileid: "50569211"
    $credential = Get-Credential
    Connect-MicrosoftTeams -Credential $credential
    ```
-   Если вам нужна дополнительные сведения о запуске Windows PowerShell, см. сведения о подключении к всем службам [Microsoft 365 или Office 365](https://technet.microsoft.com/library/dn568015.aspx) в одном окне Windows PowerShell или настройка компьютера [для](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)Windows PowerShell.
+   Если вам нужна дополнительные сведения о запуске Windows PowerShell, см. сведения о подключении к всем службам [Microsoft 365 или Office 365](/microsoft-365/enterprise/connect-to-all-microsoft-365-services-in-a-single-windows-powershell-window) в одном окне Windows PowerShell или настройка компьютера [для](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)Windows PowerShell.
       
 ### <a name="block-file-transfers-and-desktop-sharing-during-meetings"></a>Блокирование перемещения файлов и демонстрации рабочего стола во время собраний
 
@@ -65,16 +65,16 @@ ms.locfileid: "50569211"
    ```powershell
    New-CsConferencingPolicy -Identity DesktopConferencingPolicy -EnableAppDesktopSharing None  $true -EnableFileTransfer $false
    ```
-   См. дополнительные [функции для new-CsConferencingPolicy.](https://technet.microsoft.com/library/mt779148.aspx)
+   См. дополнительные [функции для new-CsConferencingPolicy.](/powershell/module/skype/New-CsConferencingPolicy)
     
 - Чтобы предоставить новую политику всем пользователям в организации, запустите следующую команду:
    
    ```powershell
    Grant-CsConferencingPolicy -Identity "amos.marble@contoso.com" -PolicyName DesktopConferencingPolicy
    ```
-   Подробнее о [cmdlet Grant-CsConferencingPolicy.](https://technet.microsoft.com/library/mt779156.aspx)
+   Подробнее о [cmdlet Grant-CsConferencingPolicy.](/powershell/module/skype/Grant-CsConferencingPolicy)
     
-  Если политика уже создана, используйте командлет [Set-CsConferencingPolicy](https://technet.microsoft.com/library/mt779157.aspx), чтобы внести в нее изменения. Затем используйте командлет [Grant-CsConferencingPolicy](https://technet.microsoft.com/library/mt779156.aspx), чтобы применить настройки к пользователям.
+  Если политика уже создана, используйте командлет [Set-CsConferencingPolicy](/powershell/module/skype/Set-CsConferencingPolicy), чтобы внести в нее изменения. Затем используйте командлет [Grant-CsConferencingPolicy](/powershell/module/skype/Grant-CsConferencingPolicy), чтобы применить настройки к пользователям.
   
 ### <a name="block-recording-of-conferences-and-prevent-anonymous-meeting-participants"></a>Блокирование записи конференций и запрет анонимных участников собрания
 
@@ -83,16 +83,16 @@ ms.locfileid: "50569211"
    ```powershell
    New-CsConferencingPolicy -Identity ConferencingPolicy -AllowAnonymousParticipantsInMeetings  $false -AllowConferenceRecording $false
    ```
-   См. дополнительные [функции для new-CsConferencingPolicy.](https://technet.microsoft.com/library/mt779148.aspx)
+   См. дополнительные [функции для new-CsConferencingPolicy.](/powershell/module/skype/New-CsConferencingPolicy)
     
 - Чтобы предоставить новую политику Amos Marble, запустите следующую команду:
    
    ```powershell
     Grant-CsConferencingPolicy -Identity "amos.marble@contoso.com" -PolicyName ConferencingPolicy
    ```
-   Подробнее о [cmdlet Grant-CsConferencingPolicy.](https://technet.microsoft.com/library/mt779156.aspx)
+   Подробнее о [cmdlet Grant-CsConferencingPolicy.](/powershell/module/skype/Grant-CsConferencingPolicy)
     
-Если политика уже создана, вы можете изменить ее с помощью cmdlet [Set-CsConferencingPolicy,](https://technet.microsoft.com/library/mt779157.aspx) а затем применить параметры к пользователям с помощью cmdlet [Grant-CsConferencingPolicy.](https://technet.microsoft.com/library/mt779156.aspx)
+Если вы уже создали политику, то можете изменить ее с помощью cmdlet [Set-CsConferencingPolicy,](/powershell/module/skype/Set-CsConferencingPolicy) а затем применить параметры к пользователям с помощью cmdlet [Grant-CsConferencingPolicy.](/powershell/module/skype/Grant-CsConferencingPolicy)
   
 ### <a name="block-anonymous-participants-from-recording-meetings-and-external-users-from-saving-meeting-content"></a>Запрет записи собраний анонимными участниками и сохранения содержимого собрания внешними пользователями
 
@@ -101,7 +101,7 @@ ms.locfileid: "50569211"
    ```powershell
    New-CsConferencingPolicy -Identity BlockedConferencingPolicy  -AllowExternalUsersToRecordMeeting  $false -AllowExternalUsersToSaveContent $false 
    ```
-   См. дополнительные [функции для new-CsConferencingPolicy.](https://technet.microsoft.com/library/mt779148.aspx)
+   См. дополнительные [функции для new-CsConferencingPolicy.](/powershell/module/skype/New-CsConferencingPolicy)
     
 - Чтобы предоставить новую политику всем пользователям в организации, запустите следующую команду:
     
@@ -110,25 +110,25 @@ ms.locfileid: "50569211"
    Grant-CsConferencingPolicy -Identity "amos.marble@contoso.com" -PolicyName BlockedConferencingPolicy
    ```
 
-Подробнее о [cmdlet Grant-CsConferencingPolicy.](https://technet.microsoft.com/library/mt779156.aspx)
+Подробнее о [cmdlet Grant-CsConferencingPolicy.](/powershell/module/skype/Grant-CsConferencingPolicy)
     
-Если политика уже создана, используйте командлет [Set-CsConferencingPolicy](https://technet.microsoft.com/library/mt779157.aspx), чтобы внести в нее изменения. Затем используйте командлет [Grant-CsConferencingPolicy](https://technet.microsoft.com/library/mt779156.aspx), чтобы применить настройки к пользователям.
+Если политика уже создана, используйте командлет [Set-CsConferencingPolicy](/powershell/module/skype/Set-CsConferencingPolicy), чтобы внести в нее изменения. Затем используйте командлет [Grant-CsConferencingPolicy](/powershell/module/skype/Grant-CsConferencingPolicy), чтобы применить настройки к пользователям.
   
 ## <a name="want-to-know-more-about-windows-powershell"></a>Хотите узнать больше о Windows PowerShell?
 
 - Windows PowerShell is all about managing users and what users are allowed or not allowed to do. С Windows PowerShell вы можете управлять Microsoft 365, Office 365 и Skype для бизнеса Online, используя единый пункт администрирования, который упростит выполнение ваших повседневных задач. Чтобы начать работу с Windows PowerShell, ознакомьтесь с приведенными ниже разделами.
     
-  - [Введение в Windows PowerShell и Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=525039)
+  - [Введение в Windows PowerShell и Skype для бизнеса Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-  - [Шесть причин, по которым может потребоваться использовать Windows PowerShell для управления Microsoft 365 или Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Шесть причин, по которым может потребоваться использовать Windows PowerShell для управления Microsoft 365 или Office 365](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
 - Windows PowerShell имеет множество преимуществ в скорости, простоте и эффективности работы по сравнению с использованием только Центра администрирования Microsoft 365, например при внесении изменений для множества пользователей одновременно. Подробнее об этих преимуществах можно узнать в следующих разделах:
     
-  - [Лучшие способы управления Microsoft 365 или Office 365 с помощью Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Лучшие способы управления Microsoft 365 или Office 365 с помощью Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-  - [Использование Windows PowerShell для управления Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=525453)
+  - [Использование Windows PowerShell для управления Skype для бизнеса Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-  - [Использование возможностей Windows PowerShell для выполнения стандартных задач управления средой Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=525038)
+  - [Использование возможностей Windows PowerShell для выполнения стандартных задач управления средой Skype для бизнеса Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
 
 ## <a name="related-topics"></a>Статьи по теме
 [Создание настраиваемых политик внешнего доступа](create-custom-external-access-policies.md)
@@ -138,4 +138,3 @@ ms.locfileid: "50569211"
 [Настройка политик клиента в организации](set-up-client-policies-for-your-organization.md)
 
   
- 

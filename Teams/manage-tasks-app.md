@@ -19,12 +19,12 @@ MS.collection:
 - microsoftcloud-healthcare
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2cc477b9589aeebb8dcd486e7f85ca04daf6ff4d
-ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
-ms.translationtype: HT
+ms.openlocfilehash: 1688d4791c3d20ef28e9ff2a44349c87293acea3
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49909403"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101155"
 ---
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>Управление приложением "Задачи" для вашей организации в Microsoft Teams
 
@@ -81,7 +81,7 @@ ms.locfileid: "49909403"
 
 ### <a name="a-users-my-tasks-is-visible-if-the-user-is-licensed-for-exchange-online"></a>"Мои задачи" пользователя отображаются только при наличии у него лицензии на Exchange Online
 
-Если вы не хотите, чтобы пользователь видел раздел **Мои задачи**, вы можете скрыть его. Чтобы сделать это, [удалите лицензию пользователя на Exchange Online](https://docs.microsoft.com/microsoft-365/admin/manage/remove-licenses-from-users). Важно знать, что после удаления лицензии на Exchange Online пользователь больше не будет иметь доступ к своему почтовому ящику.  Данные почтового ящика хранятся в течение 30 дней, после чего данные будут удалены и не смогут быть восстановлены, если для почтового ящика не будет установлено [удержание на месте или удержание для судебного разбирательства](https://docs.microsoft.com/exchange/security-and-compliance/in-place-and-litigation-holds).
+Если вы не хотите, чтобы пользователь видел раздел **Мои задачи**, вы можете скрыть его. Чтобы сделать это, [удалите лицензию пользователя на Exchange Online](/microsoft-365/admin/manage/remove-licenses-from-users). Важно знать, что после удаления лицензии на Exchange Online пользователь больше не будет иметь доступ к своему почтовому ящику.  Данные почтового ящика хранятся в течение 30 дней, после чего данные будут удалены и не смогут быть восстановлены, если для почтового ящика не будет установлено [удержание на месте или удержание для судебного разбирательства](/exchange/security-and-compliance/in-place-and-litigation-holds).
 
 Мы не рекомендуем использовать эту возможность для информационных работников, но в некоторых случаях может потребоваться использовать эту возможность, например для рядовых работников, которые не зависят от электронной почты.
 
@@ -123,5 +123,5 @@ Contoso выполняет развертывание новой акции по
 
 Задачи поддерживают Power Automate для To-Do и API Graph для Планировщика. Дополнительные сведения см. в статьях
 
-- [Обзор API планов и задач Планировщика](https://docs.microsoft.com/graph/planner-concept-overview)
+- [Обзор API планов и задач Планировщика](/graph/planner-concept-overview)
 - [Использование Microsoft To-Do с Power Automate](https://support.office.com/article/using-microsoft-to-do-with-power-automate-526e8f75-217b-46e0-9e06-44780b72c295)
