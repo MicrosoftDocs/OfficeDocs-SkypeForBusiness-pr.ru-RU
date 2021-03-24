@@ -15,18 +15,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a0d497d9-01ef-4b34-80dc-517622f9b260
 description: Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
-ms.openlocfilehash: a907c1896f14e1b2648316b25d7b41f4b5cf41d7
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: bbf45b059eb363f0319d3c7bd774e635bfb164a4
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49826909"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51095773"
 ---
-# <a name="associate-a-subnet"></a><span data-ttu-id="06155-104">Связывание подсети</span><span class="sxs-lookup"><span data-stu-id="06155-104">Associate a Subnet</span></span>
+# <a name="associate-a-subnet"></a><span data-ttu-id="0b1f1-104">Связывание подсети</span><span class="sxs-lookup"><span data-stu-id="0b1f1-104">Associate a Subnet</span></span>
 
-<span data-ttu-id="06155-105">Что нужно сделать</span><span class="sxs-lookup"><span data-stu-id="06155-105">What do you want to do?</span></span> <span data-ttu-id="06155-106">Щелкните ссылку на задачу, которую необходимо выполнить.</span><span class="sxs-lookup"><span data-stu-id="06155-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="0b1f1-105">Что нужно сделать</span><span class="sxs-lookup"><span data-stu-id="0b1f1-105">What do you want to do?</span></span> <span data-ttu-id="0b1f1-106">Щелкните ссылку на задачу, которую необходимо выполнить.</span><span class="sxs-lookup"><span data-stu-id="0b1f1-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="06155-107">Настройка сетевых подсетей</span><span class="sxs-lookup"><span data-stu-id="06155-107">Configuring Network Subnets</span></span>](https://technet.microsoft.com/library/1ba8c4e3-fbc7-4758-88ac-d651fef17bed.aspx)
+- [<span data-ttu-id="0b1f1-107">Настройка сетевых подсетей</span><span class="sxs-lookup"><span data-stu-id="0b1f1-107">Configuring Network Subnets</span></span>](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-network-subnets)
 
-<span data-ttu-id="06155-108">Подробные сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнеса Server, см. в под управлением Skype для бизнеса [Server 2015.](../../manage/manage.md)</span><span class="sxs-lookup"><span data-stu-id="06155-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
-
+<span data-ttu-id="0b1f1-108">Сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнес-серверов, см. в материале Управление Skype для бизнеса [Server 2015.](../../manage/manage.md)</span><span class="sxs-lookup"><span data-stu-id="0b1f1-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>

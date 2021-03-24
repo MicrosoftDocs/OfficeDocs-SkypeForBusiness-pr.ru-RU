@@ -1,5 +1,5 @@
 ---
-title: Создание связей между областями сети в Skype для бизнеса Server
+title: Создание ссылок сетевого региона в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,27 +15,27 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: f8163910-8935-475d-88a2-3aa44feb9dbe
-description: Создание или изменение связей между областями сети, которые используются Корпоративная голосовая связь контроля допуска звонков в Skype для бизнеса Server.
-ms.openlocfilehash: 1b891a299e85836e4a69b4a6c6e9df9a52cb0cdc
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Создание или изменение ссылок сетевого региона, которые используются Корпоративная голосовая связь управления приемом вызовов в Skype для бизнеса Server.
+ms.openlocfilehash: 5fd9657b3919e80552a82912550e7314297182cc
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49822469"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51093107"
 ---
-# <a name="create-network-region-links-in-skype-for-business-server"></a><span data-ttu-id="37e8e-103">Создание связей между областями сети в Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="37e8e-103">Create network region links in Skype for Business Server</span></span>
+# <a name="create-network-region-links-in-skype-for-business-server"></a><span data-ttu-id="a0663-103">Создание ссылок сетевого региона в Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="a0663-103">Create network region links in Skype for Business Server</span></span>
  
-<span data-ttu-id="37e8e-104">Создание или изменение связей между областями сети, которые используются Корпоративная голосовая связь контроля допуска звонков в Skype для бизнеса Server.</span><span class="sxs-lookup"><span data-stu-id="37e8e-104">Create or modify network region links, which are used by Enterprise Voice call admission control in Skype for Business Server.</span></span> 
+<span data-ttu-id="a0663-104">Создание или изменение ссылок сетевого региона, которые используются Корпоративная голосовая связь управления приемом вызовов в Skype для бизнеса Server.</span><span class="sxs-lookup"><span data-stu-id="a0663-104">Create or modify network region links, which are used by Enterprise Voice call admission control in Skype for Business Server.</span></span> 
   
-<span data-ttu-id="37e8e-105">Регионы в сети связываются с помощью физического подключения глобальной сети.</span><span class="sxs-lookup"><span data-stu-id="37e8e-105">Regions within a network are linked through physical WAN connectivity.</span></span> <span data-ttu-id="37e8e-106">Связь между областями сети создает связь между двумя областями, настроенными для контроля допуска вызовов (CAC), и устанавливает ограничения пропускной способности аудио- и видео-трафика между этими областями.</span><span class="sxs-lookup"><span data-stu-id="37e8e-106">A network region link creates a link between two regions configured for Call Admission Control (CAC) and sets the bandwidth limitations on audio and video traffic between these regions.</span></span>
+<span data-ttu-id="a0663-105">Регионы в сети связываются с помощью физического подключения глобальной сети.</span><span class="sxs-lookup"><span data-stu-id="a0663-105">Regions within a network are linked through physical WAN connectivity.</span></span> <span data-ttu-id="a0663-106">Ссылка в сетевом регионе создает связь между двумя регионами, настроенными для управления приемом вызовов (CAC), и устанавливает ограничения пропускной способности аудио- и видеопотока между этими регионами.</span><span class="sxs-lookup"><span data-stu-id="a0663-106">A network region link creates a link between two regions configured for Call Admission Control (CAC) and sets the bandwidth limitations on audio and video traffic between these regions.</span></span>
   
-<span data-ttu-id="37e8e-107">В примере топологии имеется связь между Северной Америкой и регионами APAC, а также связь между регионами EMEA и APAC.</span><span class="sxs-lookup"><span data-stu-id="37e8e-107">The example topology has a link between the North America and APAC regions, and a link between the EMEA and APAC regions.</span></span> <span data-ttu-id="37e8e-108">Каждая из этих областей ограничена пропускной способностью WAN, как описано в таблице сведений о пропускной способности связи между областями в [примере:](../../plan-your-deployment/enterprise-voice-solution/example-gathering-requirements.md)сбор требований для контроля допуска звонков в Skype для бизнеса Server.</span><span class="sxs-lookup"><span data-stu-id="37e8e-108">Each of these region links is constrained by WAN bandwidth, as described in Region Link Bandwidth Information table in [Example: Gathering requirements for call admission control in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/example-gathering-requirements.md).</span></span>
+<span data-ttu-id="a0663-107">В примере топология имеет связь между регионами Северной Америки и APAC, а также связь между регионами EMEA и APAC.</span><span class="sxs-lookup"><span data-stu-id="a0663-107">The example topology has a link between the North America and APAC regions, and a link between the EMEA and APAC regions.</span></span> <span data-ttu-id="a0663-108">Каждая из этих ссылок региона ограничена пропускной способностью WAN, как описано в таблице Сведения о пропускной способности региона [в примере:](../../plan-your-deployment/enterprise-voice-solution/example-gathering-requirements.md)сбор требований для управления приемом вызовов в Skype для бизнеса Server .</span><span class="sxs-lookup"><span data-stu-id="a0663-108">Each of these region links is constrained by WAN bandwidth, as described in Region Link Bandwidth Information table in [Example: Gathering requirements for call admission control in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/example-gathering-requirements.md).</span></span>
   
-### <a name="to-create-network-region-links-by-using-skype-for-business-server-management-shell"></a><span data-ttu-id="37e8e-109">Создание связей между областями сети с помощью оболочки управления Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="37e8e-109">To create network region links by using Skype for Business Server Management Shell</span></span>
+### <a name="to-create-network-region-links-by-using-skype-for-business-server-management-shell"></a><span data-ttu-id="a0663-109">Создание ссылок сетевого региона с помощью оболочки управления Skype для бизнес-серверов</span><span class="sxs-lookup"><span data-stu-id="a0663-109">To create network region links by using Skype for Business Server Management Shell</span></span>
 
-1. <span data-ttu-id="37e8e-110">Запустите оболочку управления Skype для бизнеса Server: нажмите кнопку "Начните", выберите "Все программы", "Skype для бизнеса **2015",** а затем щелкните "Skype для бизнеса Server Management **Shell".**</span><span class="sxs-lookup"><span data-stu-id="37e8e-110">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
+1. <span data-ttu-id="a0663-110">Запустите оболочку управления Skype для бизнес-серверов: нажмите кнопку Начните, щелкните Все **программы,** щелкните Skype для бизнеса **2015,** а затем нажмите **кнопку Skype для управления бизнес-серверами.**</span><span class="sxs-lookup"><span data-stu-id="a0663-110">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
     
-2. <span data-ttu-id="37e8e-111">Запустите командлет New-CsNetworkRegionLink, чтобы создать связи между областями и примените соответствующие профили политики пропускной способности.</span><span class="sxs-lookup"><span data-stu-id="37e8e-111">Run the New-CsNetworkRegionLink cmdlet to create the region links and apply appropriate bandwidth policy profiles.</span></span> <span data-ttu-id="37e8e-112">Например, выполните командлет:</span><span class="sxs-lookup"><span data-stu-id="37e8e-112">For example, run:</span></span>
+2. <span data-ttu-id="a0663-111">Запустите командлет New-CsNetworkRegionLink, чтобы создать связи между областями и примените соответствующие профили политики пропускной способности.</span><span class="sxs-lookup"><span data-stu-id="a0663-111">Run the New-CsNetworkRegionLink cmdlet to create the region links and apply appropriate bandwidth policy profiles.</span></span> <span data-ttu-id="a0663-112">Например, выполните командлет:</span><span class="sxs-lookup"><span data-stu-id="a0663-112">For example, run:</span></span>
     
    ```powershell
    New-CsNetworkRegionLink -NetworkRegionLinkID NA-EMEA-LINK -NetworkRegionID1 NorthAmerica -NetworkRegionID2 EMEA -BWPolicyProfileID 50Mb_Link
@@ -45,37 +45,37 @@ ms.locfileid: "49822469"
    New-CsNetworkRegionLink -NetworkRegionLinkID EMEA-APAC-LINK -NetworkRegionID1 EMEA -NetworkRegionID2 APAC -BWPolicyProfileID 25Mb_Link
    ```
 
-### <a name="to-create-network-region-links-by-using-skype-for-business-server-control-panel"></a><span data-ttu-id="37e8e-113">Создание связей между областями сети с помощью панели управления Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="37e8e-113">To create network region links by using Skype for Business Server Control Panel</span></span>
+### <a name="to-create-network-region-links-by-using-skype-for-business-server-control-panel"></a><span data-ttu-id="a0663-113">Создание ссылок сетевого региона с помощью панели управления Skype для бизнес-серверов</span><span class="sxs-lookup"><span data-stu-id="a0663-113">To create network region links by using Skype for Business Server Control Panel</span></span>
 
-1. <span data-ttu-id="37e8e-114">Откройте панель управления Skype для бизнеса Server.</span><span class="sxs-lookup"><span data-stu-id="37e8e-114">Open Skype for Business Server Control Panel.</span></span>
+1. <span data-ttu-id="a0663-114">Откройте панель управления Skype для бизнес-серверов.</span><span class="sxs-lookup"><span data-stu-id="a0663-114">Open Skype for Business Server Control Panel.</span></span>
     
-2. <span data-ttu-id="37e8e-115">В левой области навигации щелкните элемент **Конфигурация сети**.</span><span class="sxs-lookup"><span data-stu-id="37e8e-115">In the left navigation bar, click **Network Configuration**.</span></span>
+2. <span data-ttu-id="a0663-115">В левой области навигации щелкните элемент **Конфигурация сети**.</span><span class="sxs-lookup"><span data-stu-id="a0663-115">In the left navigation bar, click **Network Configuration**.</span></span>
     
-3. <span data-ttu-id="37e8e-116">Нажмите кнопку навигации **Region Link** (Связь между областями).</span><span class="sxs-lookup"><span data-stu-id="37e8e-116">Click the **Region Link** navigation button.</span></span>
+3. <span data-ttu-id="a0663-116">Нажмите кнопку навигации **Region Link** (Связь между областями).</span><span class="sxs-lookup"><span data-stu-id="a0663-116">Click the **Region Link** navigation button.</span></span>
     
-4. <span data-ttu-id="37e8e-117">Нажмите кнопку **Создать**.</span><span class="sxs-lookup"><span data-stu-id="37e8e-117">Click **New**.</span></span>
+4. <span data-ttu-id="a0663-117">Нажмите кнопку **Создать**.</span><span class="sxs-lookup"><span data-stu-id="a0663-117">Click **New**.</span></span>
     
-5. <span data-ttu-id="37e8e-118">На странице **New Region Link** (Создание связи между областями) щелкните поле **Имя** и введите имя для связи между областями сети.</span><span class="sxs-lookup"><span data-stu-id="37e8e-118">On the **New Region Link** page, click **Name** and then type a name for the network region link.</span></span>
+5. <span data-ttu-id="a0663-118">На странице **New Region Link** (Создание связи между областями) щелкните поле **Имя** и введите имя для связи между областями сети.</span><span class="sxs-lookup"><span data-stu-id="a0663-118">On the **New Region Link** page, click **Name** and then type a name for the network region link.</span></span>
     
-6. <span data-ttu-id="37e8e-119">Щелкните **Network Region #1** (Область сети 1), затем в списке выберите область сети, которую требуется связать с областью сети 2.</span><span class="sxs-lookup"><span data-stu-id="37e8e-119">Click **Network Region #1**, and then click the network region in the list that you want to link to Network Region #2.</span></span>
+6. <span data-ttu-id="a0663-119">Щелкните **Network Region #1** (Область сети 1), затем в списке выберите область сети, которую требуется связать с областью сети 2.</span><span class="sxs-lookup"><span data-stu-id="a0663-119">Click **Network Region #1**, and then click the network region in the list that you want to link to Network Region #2.</span></span>
     
-7. <span data-ttu-id="37e8e-120">Щелкните **Network Region #2** (Область сети 2), а затем выберите в списке область, которую требуется связать с областью сети 1.</span><span class="sxs-lookup"><span data-stu-id="37e8e-120">Click **Network Region #2**, and then click a network region in the list that you want to link to Network Region #1.</span></span>
+7. <span data-ttu-id="a0663-120">Щелкните **Network Region #2** (Область сети 2), а затем выберите в списке область, которую требуется связать с областью сети 1.</span><span class="sxs-lookup"><span data-stu-id="a0663-120">Click **Network Region #2**, and then click a network region in the list that you want to link to Network Region #1.</span></span>
     
-8. <span data-ttu-id="37e8e-121">Кроме того, можно щелкнуть элемент **Bandwidth policy** (Политика пропускной способности), а затем выбрать профиль политики пропускной способности, который требуется применить к связи между областями сети.</span><span class="sxs-lookup"><span data-stu-id="37e8e-121">Optionally, click **Bandwidth policy**, and then select the bandwidth policy profile that you want to apply to the network region link.</span></span>
+8. <span data-ttu-id="a0663-121">Кроме того, можно щелкнуть элемент **Bandwidth policy** (Политика пропускной способности), а затем выбрать профиль политики пропускной способности, который требуется применить к связи между областями сети.</span><span class="sxs-lookup"><span data-stu-id="a0663-121">Optionally, click **Bandwidth policy**, and then select the bandwidth policy profile that you want to apply to the network region link.</span></span>
     
     > [!NOTE]
-    > <span data-ttu-id="37e8e-122">Применять политику пропускной способности следует только в том случае, если для связи между областями сети имеются ограничения полосы пропускания и требуется использовать CAC для управления трафиком среды по этому каналу.</span><span class="sxs-lookup"><span data-stu-id="37e8e-122">Apply a bandwidth policy only if the network region link is bandwidth-constrained and you want to use CAC to control media traffic on that link.</span></span> 
+    > <span data-ttu-id="a0663-122">Применять политику пропускной способности следует только в том случае, если для связи между областями сети имеются ограничения полосы пропускания и требуется использовать CAC для управления трафиком среды по этому каналу.</span><span class="sxs-lookup"><span data-stu-id="a0663-122">Apply a bandwidth policy only if the network region link is bandwidth-constrained and you want to use CAC to control media traffic on that link.</span></span> 
   
-9. <span data-ttu-id="37e8e-123">Нажмите кнопку **Зафиксировать**.</span><span class="sxs-lookup"><span data-stu-id="37e8e-123">Click **Commit**.</span></span>
+9. <span data-ttu-id="a0663-123">Нажмите кнопку **Зафиксировать**.</span><span class="sxs-lookup"><span data-stu-id="a0663-123">Click **Commit**.</span></span>
     
-10. <span data-ttu-id="37e8e-124">Чтобы завершить создание связи между областями сети для топологии, повторите шаги с 4 по 9 с настройками для других областей.</span><span class="sxs-lookup"><span data-stu-id="37e8e-124">To finish creating network region links for your topology, repeat steps 4 through 9 with settings for other regions.</span></span>
+10. <span data-ttu-id="a0663-124">Чтобы завершить создание связи между областями сети для топологии, повторите шаги с 4 по 9 с настройками для других областей.</span><span class="sxs-lookup"><span data-stu-id="a0663-124">To finish creating network region links for your topology, repeat steps 4 through 9 with settings for other regions.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="37e8e-125">См. также</span><span class="sxs-lookup"><span data-stu-id="37e8e-125">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="a0663-125">См. также</span><span class="sxs-lookup"><span data-stu-id="a0663-125">See also</span></span>
 
-[<span data-ttu-id="37e8e-126">New-CsNetworkRegionLink</span><span class="sxs-lookup"><span data-stu-id="37e8e-126">New-CsNetworkRegionLink</span></span>](https://docs.microsoft.com/powershell/module/skype/new-csnetworkregionlink?view=skype-ps)
+[<span data-ttu-id="a0663-126">New-CsNetworkRegionLink</span><span class="sxs-lookup"><span data-stu-id="a0663-126">New-CsNetworkRegionLink</span></span>](/powershell/module/skype/new-csnetworkregionlink?view=skype-ps)
   
-[<span data-ttu-id="37e8e-127">Get-CsNetworkRegionLink</span><span class="sxs-lookup"><span data-stu-id="37e8e-127">Get-CsNetworkRegionLink</span></span>](https://docs.microsoft.com/powershell/module/skype/get-csnetworkregionlink?view=skype-ps)
+[<span data-ttu-id="a0663-127">Get-CsNetworkRegionLink</span><span class="sxs-lookup"><span data-stu-id="a0663-127">Get-CsNetworkRegionLink</span></span>](/powershell/module/skype/get-csnetworkregionlink?view=skype-ps)
   
-[<span data-ttu-id="37e8e-128">Set-CsNetworkRegionLink</span><span class="sxs-lookup"><span data-stu-id="37e8e-128">Set-CsNetworkRegionLink</span></span>](https://docs.microsoft.com/powershell/module/skype/set-csnetworkregionlink?view=skype-ps)
+[<span data-ttu-id="a0663-128">Set-CsNetworkRegionLink</span><span class="sxs-lookup"><span data-stu-id="a0663-128">Set-CsNetworkRegionLink</span></span>](/powershell/module/skype/set-csnetworkregionlink?view=skype-ps)
   
-[<span data-ttu-id="37e8e-129">Remove-CsNetworkRegionLink</span><span class="sxs-lookup"><span data-stu-id="37e8e-129">Remove-CsNetworkRegionLink</span></span>](https://docs.microsoft.com/powershell/module/skype/remove-csnetworkregionlink?view=skype-ps)
+[<span data-ttu-id="a0663-129">Remove-CsNetworkRegionLink</span><span class="sxs-lookup"><span data-stu-id="a0663-129">Remove-CsNetworkRegionLink</span></span>](/powershell/module/skype/remove-csnetworkregionlink?view=skype-ps)
