@@ -1,5 +1,5 @@
 ---
-title: Мониторинг (средство планирования)
+title: Средство мониторинга (средство планирования)
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,18 +15,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9bbe86d0-b51a-4787-9029-d59e73c7906a
-description: В Skype для бизнеса Server 2015 мониторинг используется для сбора сведений об использовании и качестве взаимодействия (QoE) о сеансах связи, в которые вовлечены пользователи.
-ms.openlocfilehash: 85398b80d982fdd443e920af9c50b212afe4cb90
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: В Skype for Business Server 2015 мониторинг используется для сбора данных об использовании и качества работы (QoE) о сеансах связи, в которые вовлечены пользователи.
+ms.openlocfilehash: 20f53374903d59957113a8dd86f4614dd2e3e5b0
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49828939"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101775"
 ---
-# <a name="monitoring-planning-tool"></a><span data-ttu-id="c09f1-103">Мониторинг (средство планирования)</span><span class="sxs-lookup"><span data-stu-id="c09f1-103">Monitoring (Planning Tool)</span></span>
+# <a name="monitoring-planning-tool"></a><span data-ttu-id="f4699-103">Средство мониторинга (средство планирования)</span><span class="sxs-lookup"><span data-stu-id="f4699-103">Monitoring (Planning Tool)</span></span>
 
-<span data-ttu-id="c09f1-104">В Skype для бизнеса Server 2015 мониторинг используется для сбора сведений об использовании и качестве взаимодействия (QoE) о сеансах связи, в которые вовлечены пользователи.</span><span class="sxs-lookup"><span data-stu-id="c09f1-104">In Skype for Business Server 2015, monitoring is used to collect usage information and Quality of Experience (QoE) data about the communication sessions that your users are involved in.</span></span>
+<span data-ttu-id="f4699-104">В Skype for Business Server 2015 мониторинг используется для сбора данных об использовании и качества работы (QoE) о сеансах связи, в которые вовлечены пользователи.</span><span class="sxs-lookup"><span data-stu-id="f4699-104">In Skype for Business Server 2015, monitoring is used to collect usage information and Quality of Experience (QoE) data about the communication sessions that your users are involved in.</span></span>
 
-<span data-ttu-id="c09f1-105">Дополнительные сведения о планировании сервера мониторинга см. в [этой теме.](https://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx)</span><span class="sxs-lookup"><span data-stu-id="c09f1-105">For more details about planning for Monitoring Server, see [Planning for Monitoring](https://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx).</span></span>
-
-
+<span data-ttu-id="f4699-105">Дополнительные сведения о планировании для monitoring Server см. в [материале Planning for Monitoring.](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-monitoring)</span><span class="sxs-lookup"><span data-stu-id="f4699-105">For more details about planning for Monitoring Server, see [Planning for Monitoring](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-monitoring).</span></span>

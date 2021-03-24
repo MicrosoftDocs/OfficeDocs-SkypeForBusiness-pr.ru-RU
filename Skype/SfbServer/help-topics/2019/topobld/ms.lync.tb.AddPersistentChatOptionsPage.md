@@ -14,15 +14,15 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f4914a44-2113-48f1-8299-4645fc7011b6
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Параметры сервера сохраняемой беседы или пула серверов сохраняемой беседы настраиваются путем определения следующих свойств:'
-ms.openlocfilehash: 354c3d50293ca1bec19f2d7c13af3aa26de918a5
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Настраивайте параметры для вашего пула стойких чат-серверов или настойчивых серверов чата, определяя следующие свойства:'
+ms.openlocfilehash: 5a5733427657cd024b4f2e5611d725215d7ed44a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49830119"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51103485"
 ---
-# <a name="define-properties-and-options-for-persistent-chat-pool"></a><span data-ttu-id="e4dd8-103">Определение свойств и параметров для пула сохраняемого чата</span><span class="sxs-lookup"><span data-stu-id="e4dd8-103">Define Properties and Options for Persistent Chat Pool</span></span>
+# <a name="define-properties-and-options-for-persistent-chat-pool"></a><span data-ttu-id="0168f-103">Определение свойств и параметров для пула сохраняемого чата</span><span class="sxs-lookup"><span data-stu-id="0168f-103">Define Properties and Options for Persistent Chat Pool</span></span>
 
 > [!NOTE] 
-> <span data-ttu-id="e4dd8-104">Сохраняемая беседа доступна в Skype для бизнеса Server 2015, но больше не поддерживается в Skype для бизнеса Server 2019.</span><span class="sxs-lookup"><span data-stu-id="e4dd8-104">Persistent chat is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019.</span></span> <span data-ttu-id="e4dd8-105">Такие же функции доступны в Teams.</span><span class="sxs-lookup"><span data-stu-id="e4dd8-105">The same functionality is available in Teams.</span></span> <span data-ttu-id="e4dd8-106">Дополнительные сведения см. в [обновлении Skype для бизнеса до Microsoft Teams.](https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here)</span><span class="sxs-lookup"><span data-stu-id="e4dd8-106">For more information, see [Skype for Business to Microsoft Teams upgrade](https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here).</span></span> <span data-ttu-id="e4dd8-107">Если необходимо использовать сохраняемого чата, вы можете либо перенести пользователей, которым требуются эти функции, в Teams, либо продолжить использовать Skype для бизнеса Server 2015.</span><span class="sxs-lookup"><span data-stu-id="e4dd8-107">If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams or continue using Skype for Business Server 2015.</span></span>
+> <span data-ttu-id="0168f-104">Постоянный чат доступен в Skype для бизнеса Server 2015, но больше не поддерживается в Skype для бизнеса Server 2019.</span><span class="sxs-lookup"><span data-stu-id="0168f-104">Persistent chat is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019.</span></span> <span data-ttu-id="0168f-105">Такие же функции доступны в Teams.</span><span class="sxs-lookup"><span data-stu-id="0168f-105">The same functionality is available in Teams.</span></span> <span data-ttu-id="0168f-106">Дополнительные сведения см. в [обновлениях Skype для бизнеса до Microsoft Teams.](/MicrosoftTeams/upgrade-start-here)</span><span class="sxs-lookup"><span data-stu-id="0168f-106">For more information, see [Skype for Business to Microsoft Teams upgrade](/MicrosoftTeams/upgrade-start-here).</span></span> <span data-ttu-id="0168f-107">Если вам нужно использовать постоянный чат, вы можете либо перенести пользователей, требующих этой функции, в Teams, либо продолжить использование Skype для бизнеса Server 2015.</span><span class="sxs-lookup"><span data-stu-id="0168f-107">If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams or continue using Skype for Business Server 2015.</span></span>

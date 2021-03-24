@@ -1,5 +1,5 @@
 ---
-title: Федерация (средство планирования)
+title: Federation (Средство планирования)
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,24 +15,22 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 63ea8a5e-a040-4892-9440-0fdbeef66fc0
 ROBOTS: NOINDEX, NOFOLLOW
-description: Можно настроить edge Servers, чтобы разрешить внутренним и внешним пользователям доступ к контактам в партнерских организациях или службах.
-ms.openlocfilehash: 3051461f50a511e959f73604a5049a0b58a51649
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Edge Servers можно настроить, чтобы позволить внутренним и внешним пользователям получать доступ к контактам в партнерских организациях или службах.
+ms.openlocfilehash: 4c6790ee5825e57a6c0bd41d85dae6b3c84a095e
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49819809"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51103545"
 ---
-# <a name="federation-planning-tool"></a><span data-ttu-id="a1e7c-103">Федерация (средство планирования)</span><span class="sxs-lookup"><span data-stu-id="a1e7c-103">Federation (Planning Tool)</span></span>
+# <a name="federation-planning-tool"></a><span data-ttu-id="9e099-103">Federation (Средство планирования)</span><span class="sxs-lookup"><span data-stu-id="9e099-103">Federation (Planning Tool)</span></span>
  
-<span data-ttu-id="a1e7c-104">Можно настроить edge Servers, чтобы разрешить внутренним и внешним пользователям доступ к контактам в партнерских организациях или службах.</span><span class="sxs-lookup"><span data-stu-id="a1e7c-104">Edge Servers can be configured to allow your internal and external users access to contacts at partner organizations or services.</span></span>
+<span data-ttu-id="9e099-104">Edge Servers можно настроить, чтобы позволить внутренним и внешним пользователям получать доступ к контактам в партнерских организациях или службах.</span><span class="sxs-lookup"><span data-stu-id="9e099-104">Edge Servers can be configured to allow your internal and external users access to contacts at partner organizations or services.</span></span>
   
- <span data-ttu-id="a1e7c-105">Федерация работает в Skype для бизнеса Server так же, как в Microsoft Lync 2013.</span><span class="sxs-lookup"><span data-stu-id="a1e7c-105">Federation works in Skype for Business Server like it did for Microsoft Lync 2013.</span></span> <span data-ttu-id="a1e7c-106">Дополнительные сведения о подготовке среды для федерации см. в следующих темах:</span><span class="sxs-lookup"><span data-stu-id="a1e7c-106">For more details about preparing your environment for Federation, see the following topics:</span></span>
+ <span data-ttu-id="9e099-105">Federation работает в Skype для бизнеса Server так же, как и для Microsoft Lync 2013.</span><span class="sxs-lookup"><span data-stu-id="9e099-105">Federation works in Skype for Business Server like it did for Microsoft Lync 2013.</span></span> <span data-ttu-id="9e099-106">Дополнительные сведения о подготовке среды для Федерации см. в следующих темах:</span><span class="sxs-lookup"><span data-stu-id="9e099-106">For more details about preparing your environment for Federation, see the following topics:</span></span>
   
-- [<span data-ttu-id="a1e7c-107">Планирование федерации Lync Server 2013 и Office Communications Server</span><span class="sxs-lookup"><span data-stu-id="a1e7c-107">Planning for Lync Server 2013 and Office Communications Server federation</span></span>](https://technet.microsoft.com/library/jj205335%28v=ocs.15%29.aspx)
+- [<span data-ttu-id="9e099-107">Планирование федерации Lync Server 2013 и Office Communications Server</span><span class="sxs-lookup"><span data-stu-id="9e099-107">Planning for Lync Server 2013 and Office Communications Server federation</span></span>](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-lync-server-and-office-communications-server-federation)
     
-- [<span data-ttu-id="a1e7c-108">Планирование подключения к общедоступным службам обмена мгновенными сообщениями в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a1e7c-108">Planning for public instant messaging connectivity in Lync Server 2013</span></span>](https://technet.microsoft.com/library/jj205349%28v=ocs.15%29.aspx)
+- [<span data-ttu-id="9e099-108">Планирование подключения к общедоступным мгновенным сообщениями в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9e099-108">Planning for public instant messaging connectivity in Lync Server 2013</span></span>](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-public-instant-messaging-connectivity)
     
-- [<span data-ttu-id="a1e7c-109">Планирование федерации XMPP в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a1e7c-109">Planning for extensible messaging and presence protocol (XMPP) federation in Lync Server 2013</span></span>](https://technet.microsoft.com/library/jj205107%28v=ocs.15%29.aspx)
-    
-
+- [<span data-ttu-id="9e099-109">Планирование федерации extensible messaging and presence protocol (XMPP) в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9e099-109">Planning for extensible messaging and presence protocol (XMPP) federation in Lync Server 2013</span></span>](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-extensible-messaging-and-presence-protocol-xmpp-federation)
