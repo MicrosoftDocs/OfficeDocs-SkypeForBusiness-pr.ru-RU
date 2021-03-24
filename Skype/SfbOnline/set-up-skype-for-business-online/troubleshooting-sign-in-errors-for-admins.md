@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 'Сведения о распространенных причинах ошибок входа в Skype для бизнеса Online и пошаговые инструкции по устранению этих проблем. '
-ms.openlocfilehash: ae5c2e5eb85ea7afb3033e7e6b769a607ab86601
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+ms.openlocfilehash: ec441528fb6805f4c2c1c47c50f2debd62675a8a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44164328"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51103845"
 ---
 # <a name="troubleshooting-skype-for-business-online-sign-in-errors-for-administrators"></a>Устранение проблем со входом в Skype для бизнеса Online для администраторов
 
@@ -170,7 +170,7 @@ ms.locfileid: "44164328"
 
 2. Если необходимо, включите параметр просмотра папок **Показывать скрытые файлы**.
 
-3. В адресную строку проводника введите следующее: **C:\\Documents and Settings\\ИмяПользователя\\Application Data\\Microsoft\\Crypto\\RSA**, где ***ИмяПользователя*** — это ваше имя для входа в Windows.
+3. В адресную строку проводника введите следующее: **C:\\Documents and Settings\\ИмяПользователя\\Application Data\\Microsoft\\Crypto\\RSA**, где **_ИмяПользователя_** — это ваше имя для входа в Windows.
 
 4. Удалите все папки с именами, состоящими из строки **S-1-5-21-**, за которой следует набор цифр.
 
@@ -195,7 +195,7 @@ ms.locfileid: "44164328"
 
 1. Установите значение **TRUE** для атрибута **msRTCSIP-UserEnabled** на компьютерах всех пользователей, у которых возникла проблема.
 
-2. Перезапустите средство синхронизации Microsoft Online Services со службой каталогов (DirSync). Дополнительные сведения см. в статье [Интеграция локальных каталогов с Azure Active Directory](https://technet.microsoft.com/library/hh967642.aspx).
+2. Перезапустите средство синхронизации Microsoft Online Services со службой каталогов (DirSync). Дополнительные сведения см. в статье [Интеграция локальных каталогов с Azure Active Directory](/azure/active-directory/hybrid/whatis-hybrid-identity).
 
 Устранение проблем со входом в Skype для бизнеса Online следует начать с исключения наиболее распространенных причин. Затем при необходимости можно выполнить определенные действия в зависимости от типа ошибки. Если пользователю по-прежнему не удается выполнить вход, соберите дополнительные сведения и обратитесь за помощью.
 ## <a name="use-the-microsoft-support-troubleshooting-guide"></a>Использование руководства по устранению неполадок службы технической поддержки корпорации Майкрософт
@@ -220,5 +220,3 @@ ms.locfileid: "44164328"
 [Настройка Skype для бизнеса Online](set-up-skype-for-business-online.md)
 
 [Разрешение на добавление контактов Skype пользователям Skype для бизнеса](let-skype-for-business-users-add-skype-contacts.md)
-
-

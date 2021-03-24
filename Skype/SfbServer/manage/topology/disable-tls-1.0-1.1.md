@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: Подготовка и реализация отключения TLS 1.0 и 1.1 в средах.
-ms.openlocfilehash: 214605f80c79d7ecb334aeca49d29210e888b511
-ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
+ms.openlocfilehash: b07b9b5319b858a20a8073de8c6a37dd4d3299ec
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50726400"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51103215"
 ---
 # <a name="disable-tls-1011-in-skype-for-business-server-2015"></a>Отключение TLS 1.0/1.1 в Skype для бизнеса Server 2015
 
@@ -51,7 +51,7 @@ ms.locfileid: "50726400"
 
 - Настольный клиент Lync 2013 (Skype для бизнеса), MSI и C2R, включая базовые [15.0.5023.1000 или более](https://support.microsoft.com/help/4018334/april-3-2018-update-for-skype-for-business-2015-lync-2013-kb4018334)
 - Настольный клиент Skype для бизнеса 2016, MSI [16.0.4678.1000 или](https://support.microsoft.com/help/4018323/april-3-2018-update-for-skype-for-business-2016-kb4018323)выше, включая Basic
-- Skype для бизнеса 2016 Нажмите кнопку Выполнить Требуй обновлений за [апрель 2018](https://docs.microsoft.com/officeupdates/release-notes-office365-proplus) г.: 
+- Skype для бизнеса 2016 Нажмите кнопку Выполнить Требуй обновлений за [апрель 2018](/officeupdates/release-notes-office365-proplus) г.: 
     - Ежемесячные и Semi-Annual, 16 \. 0 \. 9126 \. 2152 или более
     - Semi-Annual и отложенный канал, 16 \. 0 \. 8431 \. 2242 или более
 - Skype для бизнеса на Mac 16.15 или более
@@ -239,7 +239,7 @@ Windows Registry Editor Version 5.00
 "Enabled"=dword:00000001
 ```
 
-Для SQL для корпоративных пулов выпусков необходимо рассматривать предварительные условия и отключение TLS как любые обновления SQL или ОС; обратитесь к: [https://docs.microsoft.com/skypeforbusiness/manage/topology/patch-or-update-a-back-end-or-standard-edition-server](https://docs.microsoft.com/skypeforbusiness/manage/topology/patch-or-update-a-back-end-or-standard-edition-server)
+Для SQL для корпоративных пулов выпусков необходимо рассматривать предварительные условия и отключение TLS как любые обновления SQL или ОС; обратитесь к: [https://docs.microsoft.com/skypeforbusiness/manage/topology/patch-or-update-a-back-end-or-standard-edition-server](./patch-or-update-a-back-end-or-standard-edition-server.md)
 
 Хотя необходимое приложение и действия по отключению TLS можно объединить, мы настоятельно рекомендуем применять все необходимые условия перед началом работы с отключением TLS 1.0 и 1.1 на уровне операционной системы. Оптимальный подход заключается в подготовке среды путем развертывания всех необходимых условий, проверки правильности и правильности всех рабочих нагрузок, а затем отключения TLS 1.0/1.1 в более позднее время.
 
@@ -455,7 +455,7 @@ Windows Registry Editor Version 5.00
 
 1. Запуск Internet Explorer.
 2. Выберите **Параметры**  >  **Интернета Средства**.
-3. Выберите **вкладку Advanced.**
+3. Выберите вкладку **Дополнительно**.
 4. В **параметрах** прокрутите вниз.
 5. Убедитесь, что включены TLS 1.0, TLS 1.1 и TLS 1.2.
 6. Просмотрите URL-адрес внутренней веб-службы пула SfB 2015 (должен успешно подключиться).

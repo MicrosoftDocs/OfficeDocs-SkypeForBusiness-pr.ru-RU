@@ -21,23 +21,23 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - ms.lync.lac.PortOrderFinish
-description: Узнайте, что необходимо сделать после переноса номеров телефонов в Skype для бизнеса.
-ms.openlocfilehash: b96a0f62dc6c31de744786a47a7a7ef6d26c0937
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: Узнайте, что нужно сделать после переноса номеров телефонов в Skype для бизнеса.
+ms.openlocfilehash: 8dcb74cad8a745fd81b22c0aa68d4f3cedd3502a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769232"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101865"
 ---
 # <a name="what-do-you-need-to-do-after-you-have-ported-over-your-phone-numbers"></a>Что необходимо сделать после переноса номеров телефона?
 
-После отправки заказа на перенос мы свяемся с вашим оператором и разработать с ним подробные сведения. После того как будет установлена окончательная дата передачи, мы уведомим вас по электронной почте. Тем не менее, пока оператор должен принять заказ, создайте необходимые адреса для экстренного экстренного помощи, которые будете использовать с этими номерами.
+После отправки заказа на перенос мы свяемся с вашим оператором и разработать с ним подробные сведения. После того как будет установлена окончательная дата передачи, мы уведомим вас по электронной почте. Тем не менее, пока оператор должен принять заказ, создайте необходимые адреса для экстренного помощи, которые будете использовать с этими номерами.
   
-- Подробнее о [местоположениях для экстренного вызова, адресах для экстренного вызова и маршрутинге экстренных вызовов...](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing)
+- Узнайте больше о местоположениях для экстренного [вызова, адресах и маршрутах для экстренных вызовов?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing)
     
-- При необходимости [вы можете добавить](add-or-remove-an-emergency-address-for-your-organization.md) или удалить адрес для экстренного решения для своей организации.
+- При необходимости [вы можете добавить или](/MicrosoftTeams/add-change-remove-emergency-location-organization) удалить адрес для экстренного решения для своей организации.
     
-- Если на ваших номерах телефонов уже есть адрес для экстренного устранения проблем, добавьте, измените или удалите местоположение для [экстренного помощи вашей организации.](add-change-or-remove-an-emergency-location-for-your-organization.md)
+- Если на ваших номерах телефонов уже есть адрес для экстренного помощи, добавьте, измените или удалите местоположение для [экстренного экстренного помощи вашей организации.](/MicrosoftTeams/add-change-remove-emergency-place-organization)
     
 - [Назначение, изменение и удаление номера телефона пользователя](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user)
 
@@ -55,4 +55,3 @@ ms.locfileid: "41769232"
 [Skype для бизнеса Online: заявление об отказе для звонков в экстренные службы](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
- 

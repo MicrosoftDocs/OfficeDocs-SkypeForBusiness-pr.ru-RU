@@ -1,5 +1,5 @@
 ---
-title: Исключения антивирусной проверки для Skype для бизнеса Server
+title: Исключения для антивирусного сканирования для Skype для бизнес-сервера
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,25 +12,25 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 5d742259-ef3b-417a-920b-e1fa0e48f043
-description: Обзор меж антивирусного сканера со Skype для бизнеса Server.
-ms.openlocfilehash: b59a5c474a96d312ebe3a648536ebe827e684931
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Обзор межоперации антивирусного сканера с Skype для бизнеса Server.
+ms.openlocfilehash: 64646304b98de075fd9af0a82096da8c0bff2f12
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49832269"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51104245"
 ---
-# <a name="antivirus-scanning-exclusions-for-skype-for-business-server"></a>Исключения антивирусной проверки для Skype для бизнеса Server
+# <a name="antivirus-scanning-exclusions-for-skype-for-business-server"></a>Исключения для антивирусного сканирования для Skype для бизнес-сервера
 
-Обзор меж антивирусного сканера со Skype для бизнеса Server.
+Обзор межоперации антивирусного сканера с Skype для бизнеса Server.
 
-Чтобы антивирусная программа не помешала работе Skype для бизнеса Server, необходимо исключить определенные процессы и каталоги для каждого сервера или роли сервера Skype для бизнеса Server, на котором работает антивирусная программа. Следует исключить следующие процессы и каталоги:
+Чтобы антивирусный сканер не мешал работе Skype для бизнес-сервера, необходимо исключить определенные процессы и каталоги для каждого сервера Skype для бизнес-сервера или роли сервера, на котором вы запустите антивирусный сканер. Следует исключить следующие процессы и каталоги:
 
 > [!NOTE]
-> Папки и расположения файлов, перечисленные ниже, являются расположениями по умолчанию для Skype для бизнеса Server. Для всех местоположений, для которых вы не использовали значение по умолчанию, исключите расположения, указанные для организации, а не расположения по умолчанию, указанные в этом разделе.
+> Папки и расположения файлов, перечисленные ниже, являются расположениями по умолчанию для Skype для бизнеса Server. Для любых местоположений, для которых не используется значение по умолчанию, исключите расположения, указанные для организации, а не расположения по умолчанию, указанные в этой теме.
 
 > [!IMPORTANT]
-> Обратите внимание, что некоторым антивирусным программам могут потребоваться абсолютные, а не относительные пути, для списка исключений.
+> Обратите внимание, что некоторым антивирусным программам могут потребоваться абсолютные, а не относительные пути для списка исключений.
 
 - Процессы Skype для бизнеса Server:
 
@@ -82,7 +82,7 @@ ms.locfileid: "49832269"
 
   - XmppTGW.exe
 
-- Процессы службы windows Fabric Host Service:
+- Процессы службы хост-службы Windows Fabric:
 
   - Fabric.exe
 
@@ -96,7 +96,7 @@ ms.locfileid: "49832269"
 
   - %systemroot%\SysWOW64\inetsrv\w3wp.exe
 
-- SQL Server Back-End процессов:
+- SQL Server Back-End процессы:
 
     > [!NOTE]
     > Обратите внимание, что эти пути являются специфическими для SQL Server версии.
@@ -107,13 +107,13 @@ ms.locfileid: "49832269"
 
   - %ProgramFiles%\Microsoft SQL Server\MSAS11.MSSQLSERVER\OLAP\Bin\MSMDSrv.exe
 
-- SQL Server Front-End процессов:
+- SQL Server Front-End процессы:
 
   - %ProgramFiles%\Microsoft SQL Server\MSSQL12.LYNCLOCAL\MSSQL\Binn\SQLServr.exe
 
   - %ProgramFiles%\Microsoft SQL Server\MSSQL12.RTCLOCAL\MSSQL\Binn\SQLServr.exe
 
-  - Экземпляр RTC установки Standard Edition
+  - Экземпляр установки стандартного выпуска RTC
 
   - %ProgramFiles%\Microsoft SQL Server\MSSQL12.RTC\MSSQL\Binn\SQLServr.exe
 
@@ -126,22 +126,20 @@ ms.locfileid: "49832269"
   - %systemroot%\Microsoft.NET\assembly\GAC_MSIL
 
     > [!NOTE]
-    > Обратите внимание, что эти пути являются специфическими для версии Skype для бизнеса Server.
+    > Обратите внимание, что эти пути являются специфическими для версии Skype для бизнес-сервера.
 
-  - %programfiles%\Skype for Business Server 2015
+  - %programfiles%\Skype для бизнеса Server 2015
 
   - %programfiles%\Common Files\Skype for Business Server 2015\Watcher Node
 
   - %programfiles%\Common Files\Skype for Business Server 2015
 
-  - %programfiles%\Common Files\Skype for Business Online
+  - %programfiles%\Common Files\Skype для бизнеса Online
 
   - %SystemDrive%\RtcReplicaRoot
 
-  - Хранилище файлового файла (указано в построителе топологий). Хранилища файлов указаны в построителье топологий.
+  - Хранилище обмена файлами (указанное в topology Builder). Хранилища файлов указаны в Topology Builder.
 
-  - SQL Server данных и журналов, в том числе для тыловой базы данных, пользовательского хранения, архивного хранения, мониторинга и приложения. Файлы базы данных и журналов можно у указаны в построителье топологий. Подробные сведения о данных и файлах журналов для каждой базы данных, включая имена по умолчанию, см. в SQL Server [data and Log File Placement](https://technet.microsoft.com/library/67aa525b-8aa3-474f-827e-8e1d4697f30f.aspx) in the Deployment documentation.
+  - SQL Server данных и файлов журналов, в том числе для базы данных, магазина пользователей, архивного магазина, магазина мониторинга и магазина приложений. Файлы баз данных и журналов могут быть указаны в Topology Builder. Подробные сведения о данных и файлах журналов для каждой базы данных, включая имена по умолчанию, [см.](/previous-versions/office/lync-server-2013/lync-server-2013-sql-server-data-and-log-file-placement) в SQL Server data and Log File Placement in the Deployment documentation.
 
-  - SQL Server данных и журналов, в том числе для базы данных переднего входа, магазина Skype для бизнеса и RtcDatabase. Обычно они находятся в %localdrive%\CSData.
-
-
+  - SQL Server данных и файлов журналов, в том числе для базы данных front-end, магазина Skype для бизнеса и магазина RtcDatabase. Обычно они находятся под %localdrive%\CSData.

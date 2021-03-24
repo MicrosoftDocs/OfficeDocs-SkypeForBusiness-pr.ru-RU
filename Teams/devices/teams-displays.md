@@ -16,18 +16,18 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: В этой статье представлены общие сведения и функции, поддерживаемые Microsoft Teams.
-ms.openlocfilehash: ec2ea44272f29084a3130b591bb59ecd09406aba
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 8b91667265531833920e31a5ab99fca307d151d0
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49825369"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51102175"
 ---
 # <a name="microsoft-teams-displays"></a>Отображение Microsoft Teams
 
-Microsoft Teams — это категория всех специальных устройств Teams с сенсорным экраном окружающего мира и без помощи Кортаны. Эта статья содержит общие сведения о дисплеях Teams и помогает планировать, предоставлять и управлять дисплеями Teams в вашей организации.
+Microsoft Teams — это категория всех выделенных устройств Teams с сенсорным экраном окружающего мира и без помощи Кортаны. Эта статья содержит общие сведения о дисплеях Teams и помогает планировать, предоставлять и управлять дисплеями Teams в вашей организации.
 
-Отображает Teams объединяет ваши любимые возможности &ndash; чата, собраний, звонков, календаря и файлов &ndash; в одном устройстве. Благодаря дисплеям Teams пользователи могут использовать микрофон, камеру и динамики (или Bluetooth гарнитуру) для надежных звонков и собраний. Отображает Teams интегрируется с компьютерами с Windows пользователей, чтобы обеспечить сопутствующее взаимодействие между устройствами.
+Отображение Teams объединяет ваши любимые возможности &ndash; чата, собраний, звонков, календаря и файлов в &ndash; одно устройство. Благодаря дисплеям Teams пользователи могут использовать микрофон, камеру и динамики (или Bluetooth гарнитуру) для надежных звонков и собраний. Приложение Teams отображает интеграцию с компьютерами с Windows пользователей, чтобы обеспечить сопутствующий опыт, позволяющий легко взаимодействовать с другими устройствами.
 
 Чтобы узнать больше, ознакомьтесь со [ссылкой "Начало работы с дисплеями Teams".](https://support.microsoft.com/office/get-started-with-teams-displays-ff299825-7f13-4528-96c2-1d3437e6d4e6)
 
@@ -42,7 +42,7 @@ Microsoft Teams — это категория всех специальных у
 
 ## <a name="required-licenses"></a>Требуемая лицензия
 
-Лицензии Teams можно приобрести в рамках [подписок на Microsoft 365 и Office 365.](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description) Дополнительные информацию о необходимых лицензиях для использования дисплеев Teams см. в видео- и голосовых звонках [в Microsoft Teams.](https://products.office.com/microsoft-teams/voice-calling)
+Лицензии Teams можно приобрести в рамках [подписок на Microsoft 365 и Office 365.](/office365/servicedescriptions/teams-service-description) Дополнительные информацию о необходимых лицензиях для использования дисплеев Teams см. в видео- и голосовых звонках [в Microsoft Teams.](https://products.office.com/microsoft-teams/voice-calling)
 
 Дополнительные сведения о том, как получить Teams, можно найти в этой [службе.](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b) Как получить доступ к Microsoft Teams?
 
@@ -70,4 +70,4 @@ Microsoft Teams — это категория всех специальных у
 
 [Обновление IP-телефонов до отображения Teams](upgrade-phones-to-displays.md)
 
-[Голосовая помощь Кортаны в Teams](https://docs.microsoft.com/MicrosoftTeams/cortana-in-teams)
+[Голосовая помощь Кортаны в Teams](../cortana-in-teams.md)

@@ -1,5 +1,5 @@
 ---
-title: Установка SQL Server reporting Services в Skype для бизнеса Server
+title: Установка SQL Server отчетов в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,26 +11,24 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 638a1d0c-1ac7-4735-83f2-4df3d03c7cf9
-description: Сводка. Узнайте, где найти сведения о службах SQL Server Reporting Services, используемых Skype для бизнеса Server.
-ms.openlocfilehash: 123c417e88cea17c5af9d248818e64dc60215365
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Сводка. Сведения о том, куда идти, чтобы найти сведения о SQL Server службах отчетности, используемых Skype для бизнеса Server.
+ms.openlocfilehash: 449ca513503209f062b3e35fe7474bd11162790f
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49802179"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101965"
 ---
-# <a name="install-sql-server-reporting-services-in-skype-for-business-server"></a>Установка SQL Server reporting Services в Skype для бизнеса Server 
+# <a name="install-sql-server-reporting-services-in-skype-for-business-server"></a>Установка SQL Server отчетов в Skype для бизнеса Server 
  
-**Сводка:** Learn where to go to find information about SQL Server Reporting Services used by Skype for Business Server.
+**Сводка:** Узнайте, куда пойти, чтобы найти сведения о SQL Server службах отчетности, используемых Skype для бизнеса Server.
   
-Skype для бизнеса Server может использовать SQL Server Reporting Services (SSRS) для просмотра и мониторинга отчетов. Для использования этой функции необходимо установить и настроить службы Reporting Services.
+Skype для бизнеса Server может использовать SQL Server службы отчетности (SSRS) для просмотра и мониторинга отчетов. Для использования этой функции необходимо установить и настроить службы отчетности.
   
 ## <a name="install-sql-server-reporting-services"></a>Установка служб SQL Server Reporting Services
 
-Если вы собираетесь использовать отчеты мониторинга Skype для бизнеса Server (дополнительные сведения см. в следующей статье этой документации), необходимо сначала установить SQL Server Reporting Services; Службы Reporting Services можно установить одновременно с установкой Microsoft SQL Server или в любое время после SQL Server установки. Если вы не установили SQL Server, следуйте инструкциям, предоставленным ранее в этой документации. При установке SQL Server убедитесь, что на странице "Выбор функций" выбраны службы reporting Services. Будет устанавливаться SQL Server Reporting Services.
+Если вы собираетесь использовать отчеты по мониторингу Skype для бизнес-серверов (см. в следующей статье этой документации дополнительные сведения), сначала необходимо установить SQL Server службы отчетности; Службы отчетов можно установить одновременно с установкой Microsoft SQL Server или в любое время после SQL Server установки. Если вы не установили SQL Server, следуйте инструкциям, предоставленным ранее в этой документации. При установке SQL Server убедитесь, что на странице Выбор функций выберите службы отчетов. Это позволит установить SQL Server службы отчетности.
   
-Чтобы узнать, как установить SQL Server Reporting Services, см. [SQL Server Reporting Services (SSRS).](https://technet.microsoft.com/library/ms159106.aspx)
+Подробнее об установке служб SQL Server отчетов см. в [SQL Server Службы отчетов (SSRS).](/sql/reporting-services/create-deploy-and-manage-mobile-and-paginated-reports)
   
-Если вы уже установили SQL Server, но не установили SQL Server Reporting Services, можно добавить эту функцию, следуя соответствующему набору инструкций для SQL Server Reporting Services. 
-  
-
+Если вы уже установили SQL Server, но не SQL Server службы отчетности, вы можете добавить эту функцию, следуя соответствующему набору инструкций для служб SQL Server отчетов. 

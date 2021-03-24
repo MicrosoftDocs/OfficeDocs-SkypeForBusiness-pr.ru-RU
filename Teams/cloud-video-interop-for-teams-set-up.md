@@ -17,22 +17,22 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a1f45967b3e2737f6e2df74c505932ea69afe37f
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 64d790e775ac0d76de48a71de8d165656f2e6927
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46582636"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51102605"
 ---
 # <a name="set-up-cloud-video-interop-for-microsoft-teams"></a>Настройка взаимодействия Microsoft Teams с облачными видеослужбами
 
-После того [](cloud-video-interop.md)как вы настроите партнеров по облачной видеосвязи, вам потребуется спланировать развертывание, настроить сведения о его подготовках и ключ клиента партнера, а также получить согласие на использование приложения для видеосвязи в вашей организации. На следующей схеме процесс описан на приведенной ниже схеме. 
+После того как вы настроите партнеров [Cloud Video Interop,](cloud-video-interop.md)вам потребуется спланировать развертывание, настроить сведения о его подготовках и ключ клиента партнера, а также получить согласие на использование видеосвязи в вашей организации. На следующей схеме процесс описан на приведенной ниже схеме. 
 
 ![Развертывание CVI в организации](media/deploying-cvi.png)
 
 ## <a name="plan"></a>Планирование
 
-Сведения о том, как определить партнера или партнера для вашей организации, см. в видео с помощью [Cloud Video Interop](cloud-video-interop.md) для Microsoft Teams. 
+Сведения о том, как определить партнеров или партнеров для вашей организации, см. в записи Cloud Video Interop для [Microsoft Teams.](cloud-video-interop.md) 
 
 Чтобы спланировать возможность одновременной или пользовательской работы на сайте: 
 
@@ -50,31 +50,31 @@ ms.locfileid: "46582636"
     - Cisco VCS-e                  
     - Polycom RPAD
 
-3. Настройте интегрированные комнаты с помощью exchange и OTD. В большинстве случаев в вашей среде требуется настроить дополнительную ретранслятор.
+3. Настройте интегрированные комнаты с помощью Exchange и OTD. В большинстве случаев в вашей среде требуется настроить дополнительную ретранслятор.
 
 
 ## <a name="provision"></a>Подготовка
  
-Ключом клиента будет телефонное подавка в службу партнера. В следующем примере 813878896@t.plcm.vc является ключом клиента. 
+Ключом клиента будет телефонное подавка в службу партнера. В следующем примере 813878896@t.plcm.vc ключом клиента. 
 
 ![Пример ключа клиента](media/tenant-key-example.png) 
 
-Для создания ключа клиента вам потребуется выполнить следующие cmdlets, а также включить выбор пользователей или всю организацию для создания собраний с координатами видеосвязи.
+Для создания ключа клиента вам потребуется выполнить следующие cmdlets, а также позволить выбору пользователей или всей организации создавать собрания с координатами видеосвязи.
 
  
-- **[Get-CsTeamsVideoInteropServicepolicy:](https://docs.microsoft.com/powershell/module/skype/get-csteamsvideointeropservicepolicy)** Корпорация Майкрософт предоставляет предварительно заранее запланировать политики для каждого из поддерживаемых партнеров, которые позволяют назначать партнеров, которые будут использовать облачные видеосвязи.
+- **[Get-CsTeamsVideoInteropServicepolicy:](/powershell/module/skype/get-csteamsvideointeropservicepolicy)** Корпорация Майкрософт предоставляет предварительно заранее запланировать политики для каждого из наших поддерживаемых партнеров, которые позволяют назначать партнеров, которые будут использовать облачные видеосвязи.
 
     С помощью этого cmdlet можно определить предварительно выстроив политики, которые можно использовать в вашей организации. Эту политику можно назначить одному или несколько пользователям, которые Grant-CsTeamsVideoInteropServicePolicy этим Grant-CsTeamsVideoInteropServicePolicy.
  
-- **[Grant-CsTeamsVideoInteropServicePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsvideointeropservicepolicy):** С Grant-CsTeamsVideoInteropServicePolicy вы можете назначить предварительно построенную политику, которая будет применяться в организации, или назначить ее определенным пользователям.
+- **[Grant-CsTeamsVideoInteropServicePolicy:](/powershell/module/skype/grant-csteamsvideointeropservicepolicy)** С Grant-CsTeamsVideoInteropServicePolicy вы можете назначить предварительно проконтренную политику, которая будет применяться в вашей организации, или назначить ее определенным пользователям.
  
-- **[New-CsVideoInteropServiceProvider](https://docs.microsoft.com/powershell/module/skype/new-csvideointeropserviceprovider):** С помощью New-CsVideoInteropServiceProvider укажите сведения о поддерживаемом партнере CVI, который будет использовать ваша организация.
+- **[New-CsVideoInteropServiceProvider](/powershell/module/skype/new-csvideointeropserviceprovider):** С помощью New-CsVideoInteropServiceProvider укажите сведения о поддерживаемом партнере CVI, который будет использовать ваша организация.
  
-- **[Set-CsVideoInteropServiceProvider](https://docs.microsoft.com/powershell/module/skype/set-csvideointeropserviceprovider):** Используйте Set-CsVideoInteropServiceProvider для обновления сведений о поддерживаемых партнерах CVI, которые использует ваша организация.
+- **[Set-CsVideoInteropServiceProvider](/powershell/module/skype/set-csvideointeropserviceprovider):** Используйте эту Set-CsVideoInteropServiceProvider для обновления сведений о поддерживаемых партнерах CVI, которые использует ваша организация.
  
-- **[Get-CsVideoInteropServiceProvider](https://docs.microsoft.com/powershell/module/skype/get-csvideointeropserviceprovider):** Получите все поставщики, настроенные для использования в организации.
+- **[Get-CsVideoInteropServiceProvider](/powershell/module/skype/get-csvideointeropserviceprovider):** Получите все поставщики, настроенные для использования в организации.
  
-- **[Remove-CsVideoInteropServiceProvider](https://docs.microsoft.com/powershell/module/skype/remove-csvideointeropserviceprovider):** Используйте Remove-CsVideoInteropServiceProvider, чтобы удалить все сведения о поставщике, который больше не используется в вашей организации.  
+- **[Remove-CsVideoInteropServiceProvider](/powershell/module/skype/remove-csvideointeropserviceprovider):** Используйте Remove-CsVideoInteropServiceProvider, чтобы удалить все сведения о поставщике, который больше не используется в вашей организации.  
  
 ## <a name="consent"></a>Согласие
 
@@ -99,7 +99,7 @@ ms.locfileid: "46582636"
 
 ## <a name="join"></a>Join
 
-Присоединиться к собраниям Teams с помощью устройств VTC можно следующими способами:
+Присоединиться к собраниям Teams на устройствах VTC можно следующими способами:
  
 - IVR (интерактивный голосовой ответ)
     - Вы можете позвонить в IVR партнера с помощью tenantkey@domain. 
@@ -109,4 +109,4 @@ ms.locfileid: "46582636"
 - One-touch dial
     - Если у вас встроенная комната Teams, вы можете использовать возможности набора номера одним нажатием, предлагаемые вашим партнером (без необходимости ввести строку набора).
 
-Наконец, взаимодействовать с пользователями Teams на собраниях с помощью функций аудио- и видеосвязи, а также обмена содержимым. 
+Наконец, в ходе собраний можно взаимодействовать с пользователями Teams с помощью функций аудио- и видеосвязи, а также обмена содержимым.

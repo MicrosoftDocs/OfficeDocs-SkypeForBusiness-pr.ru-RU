@@ -13,41 +13,41 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 795dc1c6-524f-4012-8b66-103b55198044
-description: Сводка. Обзор этапов интеграции для Exchange Server 2016 или Exchange Server 2013 и Skype для бизнеса Server.
-ms.openlocfilehash: 6b5c63c0ad6783c11fd8fde25d1b00dc84d7e15a
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Сводка. Обзор действий по интеграции Exchange Server 2016 или Exchange Server 2013 г. и Skype для бизнеса Server.
+ms.openlocfilehash: b19aa73e62b12674551690b716144fb67b4cd715
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49833739"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51104855"
 ---
 # <a name="integrate-skype-for-business-server-with-exchange-server"></a>Интеграция Skype для бизнеса Server с Exchange Server
 
-**Сводка:** Просмотрите этапы интеграции Exchange Server 2013 или более поздней и Skype для бизнеса Server.
+**Сводка:** Просмотрите этапы интеграции Exchange Server 2013 или более позднего года и Skype для бизнеса Server.
 
-Exchange Server 2013 или более поздней и Skype для бизнеса Server совместимы и хорошо интегрируются. Например, сведения о присутствии пользователей Skype для бизнеса можно отчитаться в Microsoft Outlook; Кроме того, Skype для бизнеса может получить доступ к календарю пользователя Outlook, заметить, что у пользователя запланировано собрание, и показать его присутствие как "Занят" во время собрания. Хотя вам не нужно запускать Exchange Server, чтобы запустить Skype для бизнеса Server (или наоборот), эти два продукта вместе улучшают пользовательский интерфейс друг друга.
+Exchange Server 2013 или более поздней и Skype для бизнеса Server совместимы и хорошо интегрируются. Например, сведения о присутствии пользователей Skype для бизнеса можно отчитаться в Microsoft Outlook; Кроме того, Skype для бизнеса может получить доступ к календарю Outlook пользователя, заметить, что у пользователя запланирована встреча, и показать его присутствие как Занято во время собрания. Хотя вам не нужно запускать Exchange Server для запуска Skype для бизнес-сервера (или наоборот), эти два продукта вместе улучшают пользовательский интерфейс друг друга.
 
-В этой документации содержится информация об интеграции Skype для бизнеса Server и Exchange Server 2016 или Exchange Server 2013, но предполагается, что первоначальная настройка и настройка этих двух продуктов уже произошли. Дополнительные сведения о развертывании Skype для бизнеса Server см. в техническом [центре Skype для бизнеса Server.](https://go.microsoft.com/fwlink/p/?LinkId=246127) Дополнительные сведения о развертывании Exchange Server см. в документации по развертыванию для вашей версии Exchange.
+В этой документации содержится информация об интеграции Skype для бизнеса Server и Exchange Server 2016 или Exchange Server 2013 г., но предполагается, что первоначальная настройка и конфигурация этих двух продуктов уже произошли. Дополнительные сведения о развертывании Skype для бизнеса Server см. в техническом центре [Skype для бизнеса Server.](../../../Hub/index.yml) Дополнительные сведения о развертывании Exchange Server см. в документации по развертыванию для вашей версии Exchange.
 
-If you are integrating an on premises installation of Skype for Business Server with Microsoft Exchange Online, see [Configure integration between on-premises Skype for Business Server and Outlook Web App](outlook-web-app.md).
+Если вы интегрировали локальное устройство Skype для бизнеса Server с Microsoft Exchange Online, см. в примере Настройка интеграции между локальной установкой [Skype для](outlook-web-app.md)бизнеса Server и Outlook Web App .
 
-If you are integrating Skype for Business Online with Exchange Server on premises, see [Configure OAuth between Skype for Business Online and Exchange on premises](oauth-with-online-and-on-premises.md).
+Если вы интегрировали Skype для бизнеса Online с Exchange Server на месте, см. в рублях Настройка OAuth между Skype для бизнеса Online и [Exchange в помещениях.](oauth-with-online-and-on-premises.md)
 
 ## <a name="in-this-section"></a>В этом разделе:
 
 [Настройка партнерских приложений в Skype для бизнеса Server и Exchange Server](configure-partner-applications.md)
 
-[Настройка Skype для бизнеса Server для использования Exchange Server архива](use-exchange-archiving.md)
+[Настройка Skype для бизнес-сервера для использования Exchange Server архива](use-exchange-archiving.md)
 
 [Настройка SharePoint Server для поиска архивных данных Skype для бизнеса](sharepoint-to-search-for-archived-data.md)
 
-[Настройка Skype для бизнеса Server для использования единого магазина контактов](use-the-unified-contact-store.md)
+[Настройка Skype для бизнес-сервера для использования единого магазина контактов](use-the-unified-contact-store.md)
 
-[Настройка использования фотографий высокого разрешения в Skype для бизнеса Server](high-resolution-photos.md)
+[Настройка использования фотографий с высоким разрешением в Skype для бизнеса Server](high-resolution-photos.md)
 
 [Настройка единой Exchange Server для голосовой почты Skype для бизнеса Server](exchangeunified-messaging-for-voice-mail.md)
 
-[Интеграция Skype для бизнеса Server и Microsoft Outlook Web App 2013](https://technet.microsoft.com/library/513d4cc7-aa87-4f68-b99d-d58b63bdf242.aspx)
+[Интеграция Skype для бизнеса Server и Microsoft Outlook Web App 2013 г.](/previous-versions/office/communications/jj688055(v=ocs.16))
 
 [Настройка хранения личных контактов на клиентских компьютерах для Skype для бизнеса Server](personal-contacts-store.md)
 

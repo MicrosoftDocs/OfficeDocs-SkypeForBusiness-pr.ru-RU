@@ -14,20 +14,20 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c6135e2a-5d44-4046-bd53-fac4fdf52238
-description: Вы указываете полное доменное имя шлюза телефонной сети общего пользования (PSTN), который будет подключать компоненты Корпоративная голосовая связь к PSTN или УАЧС.
-ms.openlocfilehash: 39715f807c65914ab75815cbeffd072686e87f15
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Вы указываете полное доменное имя (FQDN) шлюза открытой телефонной сети (PSTN), который соединит ваши Корпоративная голосовая связь компоненты с PSTN или частным филиалом (PBX).
+ms.openlocfilehash: 3d5620ba9cf186ffb2b7c971683f299288302a1a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49804869"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51106885"
 ---
 # <a name="define-the-pstn-gateway-fqdn"></a>Определение полного доменного имени шлюза ТСОП
 
-Вы указываете полное доменное имя шлюза телефонной сети общего пользования (PSTN), который будет подключать компоненты Корпоративная голосовая связь к PSTN или УАЧС.
+Вы указываете полное доменное имя (FQDN) шлюза открытой телефонной сети (PSTN), который соединит ваши Корпоративная голосовая связь компоненты с PSTN или частным филиалом (PBX).
 
-For details, see [PSTN connectivity components in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity.md)
+Подробные сведения см. в материале Компоненты подключения [к PSTN в Skype для бизнеса Server 2015](../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity.md)
 
 ## <a name="see-also"></a>См. также
 
-[Параметры развертывания шлюза ТСОП](https://technet.microsoft.com/library/d1ab4f74-18aa-40c7-a8cf-ec806cf6e28a.aspx)
+[Параметры развертывания шлюза ТСОП](/previous-versions/office/lync-server-2013/lync-server-2013-pstn-gateway-deployment-options)

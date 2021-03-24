@@ -23,16 +23,16 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: Узнайте, как настроить Skype для бизнеса, чтобы использовать другой язык для приветствия голосовой почты вашей организации по умолчанию.
-ms.openlocfilehash: 988f09141913c72b9334b28d2c218b15bdbf3376
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: f6fb890d52e052afffccbfe753ab5b3b8a1bb338
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691395"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51102675"
 ---
 # <a name="change-the-default-language-for-greetings-and-emails"></a>Изменение языка по умолчанию для приветствий и электронных писем
 
-Глобальный [администратор](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)может настроить в Skype для бизнеса возможность воспроизведения приветствия голосовой почты по умолчанию на другом языке. По умолчанию в системе задано примерно следующее приветствие: "Оставьте сообщение для Александра Петрова. Запишите сообщение после сигнала. По окончании записи повесьте трубку или нажмите решетку для выбора других функций". 
+Глобальный [администратор](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)может настроить в Skype для бизнеса возможность воспроизведения приветствия голосовой почты по умолчанию на другом языке. По умолчанию в системе задано примерно следующее приветствие: "Оставьте сообщение для Александра Петрова. После сигнала запишите сообщение. По окончании записи повесьте трубку или нажмите решетку для перехода к дополнительным параметрам". 
   
  **Сначала ознакомьтесь со следующей важной информацией:**
   
@@ -45,7 +45,7 @@ ms.locfileid: "44691395"
   
 - **Вам требуется записывать исходящие сообщения голосовой почты?** См. статью [Проверка голосовой почты и параметров в Skype для бизнеса](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8). Для Microsoft Teams: пользователи могут изменять параметры голосовой почты в параметрах клиента [Teams для настольных ПК](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)
 
-- **Хотите изменить язык голосовой почты?** В Skype для бизнеса — [https://mysettings.lync.com/voicemail](https://mysettings.lync.com/voicemail) и выберите новый язык в области **"Язык подсказки".** Для Microsoft Teams: пользователи могут изменять приветствие голосовой почты в параметрах [клиента Teams для настольных ПК](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)
+- **Хотите изменить язык голосовой почты?** В Skype для бизнеса — [https://mysettings.lync.com/voicemail](https://mysettings.lync.com/voicemail) и выберите новый язык в области **"Язык запроса".** Для Microsoft Teams: пользователи могут изменять приветствие голосовой почты в параметрах [клиента Teams для настольных ПК](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)
     
 ## <a name="change-the-system-language-for-everyone-in-your-organization"></a>Изменение языка системы сразу для всех пользователей организации
 
@@ -69,7 +69,7 @@ ms.locfileid: "44691395"
     
 - [Настройка планов звонков](set-up-calling-plans.md)
     
-- [Планирование телефонной системы в Microsoft 365 или Office 365 с подключением к локальной ПС в Skype для бизнеса Server](https://go.microsoft.com/fwlink/?LinkId=717947)
+- [Планирование телефонной системы в Microsoft 365 или Office 365 с подключением к локальной ПС в Skype для бизнеса Server](/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity)
     
 ## <a name="related-topics"></a>Статьи по теме
 
@@ -80,4 +80,3 @@ ms.locfileid: "44691395"
 - [Включение или переключение языка раскладки клавиатуры](https://support.office.com/article/Enable-or-change-a-keyboard-layout-language-1c2242c0-fe15-4bc3-99bc-535de6f4f258)
     
   
- 

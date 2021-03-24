@@ -14,19 +14,19 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: adb2778d-fd46-4ab9-899d-f97f71493659
-description: Вы можете настроить свойства на этой странице, чтобы указать на сервере внешние расположения службы доступа, службы веб-службы и службы A/V Edge.
-ms.openlocfilehash: 92292c626f35e0bdaa4e4c88c9559506ded87bd0
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Вы можете настроить свойства на этой странице, чтобы указать edge Server на внешние расположения службы Access Edge, службы Web Conferencing Edge и службы A/V Edge.
+ms.openlocfilehash: b93330d1e3e93d516264748fedba1ad1b6bde4da
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49815299"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51103405"
 ---
 # <a name="add-edge-server-external-ip-2010"></a>Добавление внешнего IP-адреса пограничного сервера 2010
 
-Вы можете настроить свойства на этой странице, чтобы указать на сервере внешние расположения службы доступа, службы веб-службы и службы A/V Edge.
+Вы можете настроить свойства на этой странице, чтобы указать edge Server на внешние расположения службы Access Edge, службы Web Conferencing Edge и службы A/V Edge.
 
-- В **области внешних IPv4-адресов** введите внешние IPv4-адреса сервера в службе доступа, службе по **краям** веб-служб и службе **A/V Edge.** 
+- В **внешних адресах IPv4** введите внешние адреса IPv4 edge Server в службе **Access Edge,** службе Web **Conferencing Edge** и **службе A/V Edge.**
 
 - Нажмите кнопку **ОК**, чтобы принять и сохранить изменения в документе топологии.
 
@@ -34,6 +34,4 @@ ms.locfileid: "49815299"
 
 - Нажмите кнопку **Справка**, чтобы ознакомиться с данным разделом справки.
 
-Дополнительные сведения о добавлении edge Servers в существующую топологию см. в подметке ["Определение топологии по краям".](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx) Дополнительные сведения о переносе серверов см. в [этапе 5. Добавление Lync Server 2013 Preview Edge Server в пилотный пул.](https://technet.microsoft.com/library/d2fd0a2f-8fec-4f86-a5b0-7f7d03172016.aspx)
-
-
+Дополнительные сведения о добавлении edge Servers в существующую топологию см. в материале [Define Your Edge Topology.](/previous-versions/office/lync-server-2013/lync-server-2013-define-your-edge-topology) Дополнительные сведения о переносе edge Servers см. в материале [Phase 5: Add Lync Server 2013 Preview Edge Server to Pilot Pool.](/previous-versions/office/lync-server-2013/phase-5-add-lync-server-2013-edge-server-to-pilot-pool)

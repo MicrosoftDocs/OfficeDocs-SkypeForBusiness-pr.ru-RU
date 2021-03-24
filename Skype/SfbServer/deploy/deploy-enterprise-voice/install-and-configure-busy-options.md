@@ -1,5 +1,5 @@
 ---
-title: Установка и настройка параметров занятости для Skype для бизнеса Server
+title: Установка и настройка параметров занятости для Skype для бизнес-сервера
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,83 +15,83 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb0faac8-ca1c-4abb-9959-d19def294c64
 description: Узнайте, как установить и настроить параметры занятости в Skype для бизнеса Server.
-ms.openlocfilehash: e1480809eb1f14dd25837d11fd54ed6bb5cac534
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 04690e9f2c7fbf16b67432526fe5c8fd6e5b95af
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49830809"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51106315"
 ---
-# <a name="install-and-configure-busy-options-for-skype-for-business-server"></a>Установка и настройка параметров занятости для Skype для бизнеса Server
+# <a name="install-and-configure-busy-options-for-skype-for-business-server"></a>Установка и настройка параметров занятости для Skype для бизнес-сервера
 
 Узнайте, как установить и настроить параметры занятости в Skype для бизнеса Server.
 
-Параметры занятости — это новая политика голосовой почты, представленная в накопительном обновлении за июль 2016 г., которая позволяет настроить обработку входящих вызовов, когда пользователь уже находится в звонках или конференциях или находится на удержании. Новые или входящие вызовы можно отклонить с сигналом "занято" или переадлить на голосовую почту.
+Busy Options — это новая голосовая политика, введенная в накопительном обновлении за июль 2016 г., которая позволяет настроить обработку входящих вызовов, когда пользователь уже находится на вызове или конференции или приостановил вызов. Новые или входящие вызовы можно отклонить с помощью занятого сигнала или отправить на голосовую почту.
 
-Если для организации включены параметры занятости, все пользователи предприятия, как Корпоративная голосовая связь, так и пользователи, не Корпоративная голосовая связь, могут использовать следующие параметры конфигурации:
+Если для организации включены параметры занятости, все пользователи предприятия, как Корпоративная голосовая связь, так и Корпоративная голосовая связь, могут использовать следующие параметры конфигурации:
 
-- Занят в "Занят". При этом новые входящие вызовы будут отклониться с сигналом "занято", если пользователь занят.
+- Занят на busy - в котором новые входящие вызовы будут отклонены с занят сигналом, если пользователь занят.
 
-- Голосовая почта в службе "Занято". В которой новые входящие вызовы будут переадад частью голосовой почты, если пользователь занят.
+- Голосовая почта в Busy — в которой новые входящие вызовы будут перенаад- в голосовую почту, если пользователь занят.
 
-Независимо от того, как настроены параметры занятости, пользователям в звонках или конференциях или звонках на удержании не помешает инициировать новые вызовы или конференции.
+Независимо от того, как настраиваются их параметры занятости, пользователям на вызове или конференции или при удержании не мешает инициировать новые вызовы или конференции.
 
-Дополнительные сведения о функции "Параметры занятости" см. в дополнительных сведениях о параметрах занятости [Skype для бизнеса Server.](../../plan-your-deployment/enterprise-voice-solution/busy-options.md)
+Дополнительные сведения о функции Busy Options см. в меню [Plan for Busy Options for Skype for Business Server.](../../plan-your-deployment/enterprise-voice-solution/busy-options.md)
 
 ## <a name="install"></a>Установка
 
-Убедитесь, что установлена последняя версия Skype для бизнеса Server, а также установлено последнее исправление. Для этого сначала остановите все службы, а затем запустите установщик обновлений Skype для бизнеса Server следующим образом:
+Убедитесь, что установлена последняя версия Skype для бизнеса Server и установлен последний патч. Для этого сначала остановите все службы, а затем запустите установщик обновления Skype для бизнеса Server следующим образом:
 
-1. Запустите Stop-CsWindowsService команды.
+1. Запустите Stop-CsWindowsService команду.
 
-2. Запустите установщик SkypeServerUpdateInstaller.exe на каждом сервере переднего сервера в пуле.
+2. Запустите SkypeServerUpdateInstaller.exe установки на каждом переднем сервере в пуле.
 
-3. Запустите установщик SkypeServerUpdateInstaller.exe на каждом сервере survivable Branch Server (SBS), если вы хотите обеспечить поддержку отбойной передачи на SBS.
+3. Запустите SkypeServerUpdateInstaller.exe установщика на каждом выживаемом сервере филиала (SBS), если вы хотите обеспечить поддержку при сбойе на SBS.
 
-Установщик развернет последнюю версию приложения "Параметры занятости". Однако приложение по умолчанию не включено. Чтобы включить приложение, выполните следующие действия:
+Установщик развернет последнюю версию приложения Busy Options. Однако по умолчанию приложение не включено. Чтобы включить приложение, выполните следующие действия:
 
-1. Запустите [cmdlet Set-CsVoicePolicy,](https://docs.microsoft.com/powershell/module/skype/set-csvoicepolicy?view=skype-ps) чтобы включить параметры занятости глобально, как показано в следующем примере:
+1. Запустите [комлет Set-CsVoicePolicy,](/powershell/module/skype/set-csvoicepolicy?view=skype-ps) чтобы глобально включить параметры занятости, как показано в следующем примере:
 
    ```powershell
    Set-CsVoicePolicy -EnableBusyOptions $true
    ```
 
-2. Затем, если на сайте есть политика голосовой почты, необходимо включить параметры занятости для политики голосовой почты следующим образом:
+2. Далее, если на сайте имеется голосовая политика, необходимо включить параметры занятости для голосовой политики следующим образом:
 
-    Сначала [запустите get-CsSite,](https://docs.microsoft.com/powershell/module/skype/get-cssite?view=skype-ps) чтобы получить имя сайта:
+    Сначала [запустите Get-CsSite,](/powershell/module/skype/get-cssite?view=skype-ps) чтобы получить имя сайта:
 
    ```powershell
    Get-CsSite
    ```
 
-    Используйте значение Identity (например, Site:Redmond1), полученные из Get-CsSite, чтобы получить политику голосовой почты сайта следующим образом:
+    Используйте значение Identity (например: Site:Redmond1), извлеченный из Get-CsSite, чтобы получить голосовую политику сайта следующим образом:
 
    ```powershell
    Get-CsVoicePolicy -Identity Site:Redmond1
    ```
 
-    Если для сайта существует политика голосовой почты, запустите следующую команду:
+    Если для сайта существует голосовая политика, запустите следующую команду:
 
    ```powershell
    Set-CsVoicePolicy -Identity Site:Redmond1 -EnableBusyOptions $true
    ```
 
-3. Затем запустите cmdlet [New-CsServerApplication,](https://docs.microsoft.com/powershell/module/skype/new-csserverapplication?view=skype-ps) чтобы добавить параметры занятости в список серверных приложений, как показано в следующем примере:
+3. Далее запустите комлет [New-CsServerApplication,](/powershell/module/skype/new-csserverapplication?view=skype-ps) чтобы добавить параметры занятости в список серверных приложений, как показано в следующем примере:
 
    ```powershell
    New-CsServerApplication -Identity 'Service:Registrar:%FQDN%/BusyOptions' -Uri http://www.microsoft.com/LCS/BusyOptions -Critical $False -Enabled $True -Priority (Get-CsServerApplication -Identity 'Service:Registrar:%FQDN%/UserServices').Priority
    ```
 
     > [!NOTE]
-    > Необходимо заменить %FQDN% на полное доменное имя определенного пула.
+    > Необходимо заменить %FQDN% полностью квалифицированным доменным именем определенного пула.
 
-4. Затем запустите cmdlet [Update-CsAdminRole,](https://docs.microsoft.com/powershell/module/skype/update-csadminrole?view=skype-ps) чтобы обновить роли управления доступом на основе ролей (RBAC) для параметров занятости, как показано в следующем примере:
+4. Далее запустите комлет [Update-CsAdminRole](/powershell/module/skype/update-csadminrole?view=skype-ps) для обновления ролей управления доступом (RBAC) для cmdlets Busy Options, как показано в следующем примере:
 
    ```powershell
    Update-CsAdminRole
    ```
 
-5. Наконец, запустите службы Windows Skype для бизнеса Server на всех серверах переднего сервера во всех пулах, где были установлены и включены параметры занятости, с помощью команды [Start-CsWindowsService:](https://docs.microsoft.com/powershell/module/skype/start-cswindowsservice?view=skype-ps)
+5. Наконец, запустите службы Windows Skype для бизнеса Server на всех серверах переднего конца во всех пулах, где были установлены и включены параметры занятости, с помощью команды [Start-CsWindowsService:](/powershell/module/skype/start-cswindowsservice?view=skype-ps)
 
    ```powershell
    Start-CsWindowsService
@@ -99,37 +99,37 @@ ms.locfileid: "49830809"
 
 ## <a name="configure"></a>Настройка
 
-Чтобы настроить параметры занятости, используйте [cmdlet Set-CsBusyOptions.](https://technet.microsoft.com/library/8ffbb832-3e55-4d6c-9a7c-5ce2df22de2e.aspx)
+Чтобы настроить параметры занятости, используйте [комлет Set-CsBusyOptions.](https://technet.microsoft.com/library/8ffbb832-3e55-4d6c-9a7c-5ce2df22de2e.aspx)
 
-Например, следующая команда настраивает параметры занятости для пользователя "Ken Myer". В этой конфигурации при любом вызове "Ken Myer" будет возвращен сигнал "занято", когда он уже находится в вызове:
+Например, следующая команда настраивает параметры занятости для пользователя "Ken Myer". В этой конфигурации любой вызов "Ken Myer" возвращает сигнал занятости, когда он уже находится в вызове:
 
 ```powershell
 Set-CsBusyOptions -Identity "Ken Myer"  -ActionType BusyOnBusy
 ```
 
-В следующем примере команда настраивает параметры занятости для пользователя Chrystal Velasquez. В этой конфигурации новые входящие вызовы на "Chrystal Velasquez" будут переададации на голосовую почту, когда она уже находится в вызове:
+В следующем примере команда настраивает параметры занятости для пользователя "Chrystal Velasquez". В этой конфигурации новые входящие вызовы в "Chrystal Velasquez" будут пересылаться на голосовую почту, когда она уже находится в вызове:
 
 ```powershell
 Set-CsBusyOptions -Identity "Chrystal Velasquez" -ActionType VoicemailOnBusy
 ```
 
-Сведения о конфигурации параметров занятости можно получить с помощью [cmdlet Get-CsBusyOptions.](https://technet.microsoft.com/library/ff0e3b1c-c41d-41e4-9468-0cb057aef9fb.aspx) В следующем примере возвращается параметр "Параметры занятости" для параметра "KenMyer@Contoso.com":
+Сведения о параметрах занятости можно получить с помощью [cmdlet Get-CsBusyOptions.](https://technet.microsoft.com/library/ff0e3b1c-c41d-41e4-9468-0cb057aef9fb.aspx) В следующем примере возвращается параметр Busy Options для "KenMyer@Contoso.com":
 
 ```powershell
 Get-CsBusyOptions -Identity sip:KenMyer@Contoso.com
 ```
 
-Параметры занятости можно удалить с помощью [cmdlet Remove-CsBusyOptions.](https://technet.microsoft.com/library/159e5931-10f1-4226-bcc4-38548f88f0d4.aspx) Следующая команда удаляет параметры занятости для "Ken Myer":
+Вы можете удалить параметры занятости с помощью [cmdlet Remove-CsBusyOptions.](https://technet.microsoft.com/library/159e5931-10f1-4226-bcc4-38548f88f0d4.aspx) Следующая команда удаляет параметры занятости для "Ken Myer":
 
 ```powershell
 Remove-CsBusyOptions -Identity "Ken Myer"
 ```
 
-Подробные сведения о cmdlets, которые используются для настройки параметров занятости, см. в техническом справочнике по [set-CsBusyOptions,](https://technet.microsoft.com/library/8ffbb832-3e55-4d6c-9a7c-5ce2df22de2e.aspx) [Get-CsBusyOptions](https://technet.microsoft.com/library/ff0e3b1c-c41d-41e4-9468-0cb057aef9fb.aspx)и [Remove-CsBusyOptions.](https://technet.microsoft.com/library/159e5931-10f1-4226-bcc4-38548f88f0d4.aspx)
+Подробные сведения о cmdlets, которые вы используете для настройки Параметры занятости, см. в техническом справочном контенте [для Set-CsBusyOptions,](https://technet.microsoft.com/library/8ffbb832-3e55-4d6c-9a7c-5ce2df22de2e.aspx) [Get-CsBusyOptions](https://technet.microsoft.com/library/ff0e3b1c-c41d-41e4-9468-0cb057aef9fb.aspx)и [Remove-CsBusyOptions](https://technet.microsoft.com/library/159e5931-10f1-4226-bcc4-38548f88f0d4.aspx).
 
 ## <a name="enable-logging"></a>Включить ведение журнала
 
-Чтобы включить ведение журнала параметров занятости с помощью службы централизованного ведения журналов, укажите следующее:
+Чтобы включить ведение журнала для параметров занятости с помощью централизированной службы ведения журнала, укажите следующее:
 
 ```powershell
 $p1 = New-CsClsProvider -Name S4 -Type WPP -Level Info -Flags All
@@ -141,7 +141,7 @@ New-CsClsScenario -Parent Global -Name BusyOptions -Provider @{Add=$p1,$p2,$p3}
 
 ## <a name="verify-and-troubleshoot"></a>Проверка и устранение неполадок
 
-После установки параметров занятости вы можете убедиться, что установка прошла успешно, с помощью [cmdlet Get-CsServerApplication](https://docs.microsoft.com/powershell/module/skype/get-csserverapplication?view=skype-ps) для получения списка серверных приложений. Если параметры занятости установлены правильно, в выходных данных этого параметра должна быть установлена конфигурация параметров занятости следующим образом:
+После установки Параметры занятости можно убедиться, что установка была успешной с помощью [cmdlet Get-CsServerApplication](/powershell/module/skype/get-csserverapplication?view=skype-ps) для получения списка серверных приложений. Если параметры занятости установлены надлежащим образом, то в выходе этого комлета должна быть установлена конфигурация "Параметры занятости" следующим образом:
 
 <pre>
 Identity   : Service:Registrar:pool0.vdomain.com/BusyOptions
@@ -154,4 +154,4 @@ ScriptName :
 Script     :
 </pre>
 
-Кроме того, с помощью просмотра событий Windows можно проверить успешность установки параметров занятости и загрузку параметров занятости в Skype для бизнеса Server. To verify Busy Options, open **Event Viewer - \> Application and Services Logs - \> Skype (or Lync) Server** and search for Event ID = 30253.
+Вы также можете использовать Windows Event Viewer для проверки успешного использования установки "Параметры занятости" и успешной загрузки Параметры занятости в Skype для бизнеса Server. Чтобы проверить параметры занятости, откройте журналы просмотра событий — журналы приложений и служб **\> — Сервер Skype \> (или Lync) и** поиск по ID события = 30253.

@@ -1,5 +1,5 @@
 ---
-title: Управление настройками группы ответа на уровне приложения в Skype для бизнеса
+title: Управление настройками группы реагирования на уровне приложений в Skype для бизнеса
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,27 +15,27 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: aab749a1-fa2d-4ce8-a6c6-ebcfa37ce02a
-description: Managing application-level Response Group settings, such as music-on-hold and ringback settings, in Skype for Business Server Корпоративная голосовая связь.
-ms.openlocfilehash: d41211b83e5ce0c27bb9efe1d3d15a6289ae38fe
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Управление настройками группы реагирования на уровне приложений, такими как параметры "Музыка на удержание" и "Звон", в Skype для бизнеса Server Корпоративная голосовая связь.
+ms.openlocfilehash: 941164fb3a99f62303b45f587b64e7aff9cb1393
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49830789"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51103475"
 ---
-# <a name="managing-application-level-response-group-settings-in-skype-for-business"></a>Управление настройками группы ответа на уровне приложения в Skype для бизнеса
+# <a name="managing-application-level-response-group-settings-in-skype-for-business"></a>Управление настройками группы реагирования на уровне приложений в Skype для бизнеса
  
-Managing application-level Response Group settings, such as music-on-hold and ringback settings, in Skype for Business Server Корпоративная голосовая связь.
+Управление настройками группы реагирования на уровне приложений, такими как параметры "Музыка на удержание" и "Звон", в Skype для бизнеса Server Корпоративная голосовая связь.
   
-Параметры уровня приложения для приложения группы ответа включают конфигурацию музыки при удержании по умолчанию, аудиофайл музыки при удержании по умолчанию, льготный период воспроизведения агента и конфигурацию контекста вызова. Для каждого пула вы можете определить только один набор параметров уровня приложения. Чтобы просмотреть эти параметры, используйте командлет **Get-CsRgsConfiguration**. Чтобы изменить их, используйте командлет **Set-CsRgsConfiguration**.
+Параметры уровня приложений для приложения Response Group включают конфигурацию музыки на удержание по умолчанию, аудиофайл с музыкой на удержании по умолчанию, период благодати агента и конфигурацию контекста вызовов. Для каждого пула вы можете определить только один набор параметров уровня приложения. Чтобы просмотреть эти параметры, используйте командлет **Get-CsRgsConfiguration**. Чтобы изменить их, используйте командлет **Set-CsRgsConfiguration**.
   
 Музыкальный файл по умолчанию для режима удержания воспроизводится только в том случае, если не определен настраиваемый музыкальный файл. Контекст вызова доступен только для очередей, назначенных интерактивным рабочим процессам. Если контекст вызова включен, при получении вызова агент может просматривать такие сведения, как время ожидания ответа абонентом или вопросы и ответы в рамках рабочего процесса.
   
-### <a name="to-modify-response-group-application-level-settings"></a>Изменение параметров уровня приложения группы ответа
+### <a name="to-modify-response-group-application-level-settings"></a>Изменение параметров уровня приложений группы реагирования
 
-1. Войдите как член группы RTCUniversalServerAdmins или как член одной из предопределеных административных ролей, которые поддерживают группу ответа.
+1. Войдите в группу RTCUniversalServerAdmins или в качестве члена одной из предопределяемой административной роли, поддерживаемой группой реагирования.
     
-2. Запустите оболочку управления Skype для бизнеса Server: нажмите кнопку "Начните", выберите "Все программы", "Skype для бизнеса **2015",** а затем щелкните "Skype для бизнеса Server Management **Shell".**
+2. Запустите оболочку управления Skype для бизнес-серверов: нажмите кнопку Начните, щелкните Все **программы,** щелкните Skype для бизнеса **2015,** а затем нажмите **кнопку Skype для управления бизнес-серверами.**
     
 3. В командной строке выполните следующую команду:
     
@@ -58,8 +58,8 @@ Managing application-level Response Group settings, such as music-on-hold and ri
 
 ## <a name="see-also"></a>См. также
 
-[Get-CsRgsConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csrgsconfiguration?view=skype-ps)
+[Get-CsRgsConfiguration](/powershell/module/skype/get-csrgsconfiguration?view=skype-ps)
   
-[Set-CsRgsConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csrgsconfiguration?view=skype-ps)
+[Set-CsRgsConfiguration](/powershell/module/skype/set-csrgsconfiguration?view=skype-ps)
   
-[Import-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps)
+[Import-CsRgsAudioFile](/powershell/module/skype/import-csrgsaudiofile?view=skype-ps)

@@ -26,12 +26,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: 'Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization. '
-ms.openlocfilehash: 5d7a998619eb54e5c53b3c03fcaf0889ee2f328c
-ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
+ms.openlocfilehash: 87758995717a40136af6c03422eaf521285efc08
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49130420"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51102745"
 ---
 # <a name="calling-plans-for-microsoft-365"></a>Планы звонков для Microsoft 365
 
@@ -60,19 +60,19 @@ ms.locfileid: "49130420"
     ![Снимок экрана, на котором показана возможность приобрести план голосовых звонков.](media/5893fca0-292c-4cdf-9b43-c507a8b44b74.png)
   
     > [!NOTE]
-    > В зависимости от плана может потребоваться приобрести дополнительные надстройки, прежде чем вы сможете приобрести лицензии на телефонную систему. Дополнительные узнать см. в [лицензировании надстройки Microsoft Teams.](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
+    > В зависимости от плана может потребоваться приобрести дополнительные надстройки, прежде чем вы сможете приобрести лицензии на телефонную систему. Дополнительные узнать см. в [лицензировании надстройки Microsoft Teams.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   
 2. После приобретения лицензий на телефонную систему вы можете приобрести план звонков, войдите в Центр администрирования **Microsoft 365,** выберите подписки на надстройки "Приобретение служб вы выставлений счета" и нажмите кнопку   >    >   **"Купить".** Там вы увидите планы звонков.
     
     ![Снимок экрана с вариантами плана голосовых звонков.](media/ab2d6dce-56eb-4bbc-ac1a-430b0c065d18.png)
   
-В зависимости от потребностей организации вы можете приобрести и назначить разные планы звонков разным пользователям. После выбора нужного плана звонков продолжите работу, чтобы перейти к регистрации. План назначается каждому пользователю в Центре администрирования Microsoft 365. Чтобы узнать, как это сделать, см. дополнительные лицензии на назначение [надстройки Microsoft Teams.](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
+В зависимости от потребностей организации вы можете приобрести и назначить разные планы звонков разным пользователям. После выбора нужного плана звонков продолжите работу, чтобы перейти к иносяке. План назначается каждому пользователю в Центре администрирования Microsoft 365. Чтобы узнать, как это сделать, см. в записи назначения лицензий [на надстройки Microsoft Teams.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   
 ## <a name="do-you-have-a-service-provider-that-provides-on-premises-pstn-connectivity-for-hybrid-users"></a>У вас есть поставщик услуг, который обеспечивает локальное подключение по STN для гибридных пользователей?
 
-В этом случае вам не нужно приобретать план звонков. В состав Office 365  корпоративный E5 входит надстройка "Телефонная система", поэтому вы можете перейти к началу инак-офиса.
+В этом случае вам не нужно приобретать план звонков. В состав Office 365  корпоративный E5 входит надстройка "Телефонная система", поэтому вы можете перейти к началу ик-офиса.
   
-Затем назначьте пользователям  лицензии на надстройки "Корпоративный E5" или "Телефонная система" в Центре администрирования Microsoft 365. Чтобы узнать, как это сделать, см. дополнительные лицензии на назначение [надстройки Microsoft Teams.](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
+Затем назначьте пользователям  лицензии на надстройки "Корпоративный E5" или "Телефонная система" в Центре администрирования Microsoft 365. Чтобы узнать, как это сделать, см. дополнительные лицензии на назначение [надстройки Microsoft Teams.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   
 ## <a name="pricing-information"></a>Сведения о ценах
 
@@ -86,9 +86,9 @@ ms.locfileid: "49130420"
   
 - [Настройка планов звонков](set-up-calling-plans.md)
     
-- [Лицензирование надстроек Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
+- [Лицензирование надстроек Microsoft Teams](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
     
-- [Что можно получить с помощью телефонной системы в Microsoft 365 или Office 365](https://docs.microsoft.com/MicrosoftTeams/here-s-what-you-get-with-phone-system)
+- [Что можно получить с помощью телефонной системы в Microsoft 365 или Office 365](./here-s-what-you-get-with-phone-system.md)
     
    
 ## <a name="related-topics"></a>Статьи по теме
@@ -100,4 +100,3 @@ ms.locfileid: "49130420"
 - [Настройка планов звонков](set-up-calling-plans.md)
     
 - [Пополнение средств и управление кредитами на связь](add-funds-and-manage-communications-credits.md)
- 

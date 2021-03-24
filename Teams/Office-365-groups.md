@@ -17,18 +17,18 @@ appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
 description: Узнайте, как группы Microsoft 365 и членство в группах работают с Microsoft Teams.
-ms.openlocfilehash: a4227432ab3557ca5e74ee5a769641185c1e432c
-ms.sourcegitcommit: f18941b6dc17b6ea411e10970602aee271242d43
+ms.openlocfilehash: d258fa4252f6bbb02d2b9a8211dd5919c2d7a67b
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "48456083"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51105245"
 ---
 # <a name="microsoft-365-groups-and-microsoft-teams"></a>Группы Microsoft 365 и Microsoft Teams
 
 Группы Microsoft 365 — это служба, в составная служба для перекрестных приложений Microsoft 365. На базовом уровне группа Microsoft 365 — это объект в Azure Active Directory со списком участников и списком связанных рабочих нагрузок, включая сайт группы SharePoint, общий почтовый ящик Exchange, Планировщик и рабочая область Power BI. Вы можете добавлять и удалять людей в группе, как и любые другие объекты безопасности на основе группы в Active Directory.
 
-![Схема, показывающая Группы Microsoft 365 и связанные службы](https://docs.microsoft.com/microsoft-365/media/microsoft-365-groups-hub-spoke.png?view=o365-worldwide)
+![Схема, показывающая Группы Microsoft 365 и связанные службы](/microsoft-365/media/microsoft-365-groups-hub-spoke.png?view=o365-worldwide)
 
 По умолчанию пользователи в Microsoft 365 могут создавать группы и управлять ими. Дополнительные сведения о Группах Microsoft 365 см. в плакате "Группы [Microsoft 365](https://support.office.com/article/b565caa1-5c40-40ef-9915-60fdb2d97fa2) и Группы [в Microsoft 365 для ИТ-архитекторов".](teams-architecture-solutions-posters.md#groups-in-microsoft-365)
 
@@ -38,7 +38,7 @@ ms.locfileid: "48456083"
 
 Люди, которые создают команды, могут использовать существующую группу Microsoft 365, если они являются ее владельцем. У каждого канала команды есть отдельная папка в библиотеке документов. При создании папок непосредственно в библиотеке документов каналы в команде не создаются.
 
-При создании группы Microsoft 365 в Outlook или SharePoint почтовый ящик группы отображается в Outlook. При создании команды в Teams почтовый ящик группы по умолчанию скрыт. Чтобы сделать почтовый ящик видимым, можно использовать cmdlet [Set-UnifiedGroup](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/set-unifiedgroup) с параметром **HiddenFromExchangeClientsEnabled.**
+При создании группы Microsoft 365 в Outlook или SharePoint почтовый ящик группы отображается в Outlook. При создании команды в Teams почтовый ящик группы по умолчанию скрыт. Чтобы сделать почтовый ящик видимым, можно использовать cmdlet [Set-UnifiedGroup](/powershell/module/exchange/users-and-groups/set-unifiedgroup) с параметром **HiddenFromExchangeClientsEnabled.**
 
 ## <a name="group-membership"></a>Членство в группах
 
@@ -50,10 +50,10 @@ ms.locfileid: "48456083"
 
 При удалении группы Microsoft 365 удаляется псевдоним почтового ящика для сохраняемой беседы Outlook/OWA и приглашения на собрания Teams, а сайт SharePoint пометка для удаления. Удаление команды и ее действие в Outlook занимает около 20 минут. При удалении команды из клиента Teams она сразу же удаляется из представления для всех участников команды. При удалении участников группы Microsoft 365, для которых были включены функции Teams, в течение приблизительно двух часов команда может быть удалена из представления в клиенте Teams для затронутых людей.
 
-Подробные сведения о параметрах жизненного цикла групп и групп см. в параметрах окончания жизненного цикла [групп, групп, Yammer](https://docs.microsoft.com/microsoft-365/solutions/end-life-cycle-groups-teams-sites-yammer) и архива либо удаления группы [в Microsoft Teams.](https://docs.microsoft.com/microsoftteams/archive-or-delete-a-team)
+Подробные сведения о параметрах окончания жизненного цикла групп и команд см. в параметрах окончания жизненного цикла [групп, групп, Yammer](/microsoft-365/solutions/end-life-cycle-groups-teams-sites-yammer) и архива либо удаления команды [в Microsoft Teams.](./archive-or-delete-a-team.md)
 
 ## <a name="related-topics"></a>Статьи по теме
 
 [Основы Microsoft Teams (видео)](https://aka.ms/teams-foundations)
 
-[Восстановление удаленной группы](https://docs.microsoft.com/microsoft-365/admin/create-groups/restore-deleted-group)
+[Восстановление удаленной группы](/microsoft-365/admin/create-groups/restore-deleted-group)

@@ -25,12 +25,12 @@ no-loc:
 - Teams
 - Microsoft Teams
 - Office 365
-ms.openlocfilehash: e80c54ef46c72769e7a3b0d4e6e696fba1202e70
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 7175bc47cc3e9db1dde3d92c1b3024dcdcfd3e41
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030795"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51102825"
 ---
 # <a name="what-do-i-need-to-buy-to-use-microsoft-365-business-voice"></a>Что нужно приобрести, чтобы использовать корпоративную голосовую связь в Microsoft 365?
 
@@ -53,7 +53,7 @@ ms.locfileid: "49030795"
 
 Чтобы узнать, поддерживает ли ваша страна или регион план звонков, проверьте [доступность страны и региона для Business Voice](country-region-availability.md).
 
-Чтобы узнать о возможностях корпоративной голосовой связи, см. статью [Описание службы корпоративной голосовой связи Microsoft 365](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-business-voice-service-description).
+Чтобы узнать о возможностях корпоративной голосовой связи, см. статью [Описание службы корпоративной голосовой связи Microsoft 365](/office365/servicedescriptions/microsoft-365-business-voice-service-description).
 
 ## <a name="business-voice-with-calling-plan"></a>Деловой голос с тарифным планом
 

@@ -23,21 +23,21 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Узнайте, как назначить новый номер телефона службы мосту конференц-связи, чтобы расширить покрытие для пользователей.
-ms.openlocfilehash: e2e1aa3d5626f6592f22e0850a8c7419d7549b38
-ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
+ms.openlocfilehash: f477c583db36e6dee514a84f32de202361d01c11
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50569191"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51102665"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>Изменение номеров телефонов для моста аудиоконференций
 
 При покупке **лицензий на** аудиоконференцию корпорация Майкрософт размещения моста аудиоконференций для вашей организации. Мост аудиоконференции предоставляет номера телефонов для телефонного звонка из разных мест, чтобы организаторы и участники собрания могли использовать их для звонков в Skype для бизнеса или Microsoft Teams.
   
-Помимо номеров телефонов, уже назначенных мосту аудиоконференции, можно получить дополнительные номера служб [(платные](/microsoftteams/getting-service-phone-numbers) и бесплатные номера, используемые для аудиоконференации) из других мест, а затем назначить их мосту для аудиоконференции, чтобы расширить покрытие для пользователей.
+Помимо номеров телефонов, уже назначенных мосту аудиоконференции, можно получить дополнительные номера служб [(платные](./getting-service-phone-numbers.md) и бесплатные номера, используемые для аудиоконференации) из других мест, а затем назначить их мосту для аудиоконференции, чтобы расширить покрытие для пользователей.
   
 > [!NOTE]
-> Чтобы можно было назначить или отозначить номер телефона для моста conferencing,этот номер должен быть номером службы. Тип номера можно узнать в столбце "Тип номера" в Центре администрирования  >   Microsoft Teams.  Для того чтобы пользователи первыми настроили кредиты на связь Microsoft 365 или Office 365, пользователям нужно набрать бесплатный номер для моста.
+> Чтобы можно было назначить или отозначить номер телефона для моста conferencing,этот номер должен быть номером службы. Тип номера можно узнать в столбце "Тип номера" в Центре администрирования  >   Microsoft Teams.  Для того чтобы пользователи первыми настроили кредиты на связь Microsoft 365 или Office 365, пользователи смогут звонить на этот мост по бесплатному номеру.
 
 ## <a name="steps-when-you-are-assigning-a-new-service-phone-number-to-your-conference-bridge"></a>Шаги для назначения нового служебного номера мосту конференц-связи
 
@@ -55,7 +55,7 @@ ms.locfileid: "50569191"
 
 Номер телефона по умолчанию для моста конференц-связи определяет, который будет использоваться при звонке в исходящие звонки участниками или организаторами в рамках собрания.
 
-В качестве номера по умолчанию для моста conferencing можно установить только платный номер службы. **Бесплатные телефонные номера службы** нельзя сделать номером по умолчанию для моста. Если вы назначаете платный номер службы и хотите сделать его новым номером по умолчанию для моста аудиоконференций, выполните следующие действия:
+В качестве номера по умолчанию для моста conferencing можно установить только платный номер службы. **Бесплатные номера службы нельзя** сделать номером по умолчанию для моста услуг. Если вы назначаете платный номер службы и хотите сделать его новым номером по умолчанию для моста аудиоконференций, выполните следующие действия:
 
 ![Значок с логотипом Microsoft Teams](media/teams-logo-30x30.png) **Использование центра администрирования Microsoft Teams**
 
@@ -67,7 +67,7 @@ ms.locfileid: "50569191"
  
 ### <a name="step-3---change-the-default-phone-numbers-that-are-included-in-the-meeting-invites-of-users-optional"></a>Шаг 3. Изменение номеров телефонов по умолчанию, включенных в приглашения на собрания пользователей (необязательно)
 
-Телефонные номера пользователей по умолчанию включаются в приглашения на собрания при их расписании. Дополнительные сведения, в том числе о том, как новым пользователям назначены номера телефонов по умолчанию, см. в настройках телефонных номеров, включенных в приглашения в [Microsoft Teams,](set-the-phone-numbers-included-on-invites-in-teams.md) или в [приложениях Skype](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites)для бизнеса Online.
+Телефонные номера пользователей по умолчанию включаются в приглашения на собрания при их расписании. Дополнительные сведения, в том числе о том, как новым пользователям назначены номера телефонов по умолчанию, см. в настройках телефонных номеров, включенных в приглашения в [Microsoft Teams,](set-the-phone-numbers-included-on-invites-in-teams.md) или в настройках приглашений в Skype для [бизнеса Online.](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites)
 
 ![Значок с логотипом Microsoft Teams](media/teams-logo-30x30.png) **Использование центра администрирования Microsoft Teams**
 
@@ -83,7 +83,7 @@ ms.locfileid: "50569191"
 
 В первых двух шагах потребуется запустить Windows PowerShell.
   
-Если вы обновили номера телефонов по умолчанию, включенные в приглашения на собрания для некоторых или всех пользователей, вы можете обновить приглашения на собрания, которые уже были отправлены пользователям в вашей организации до изменения их номеров телефонов по умолчанию с помощью службы переноса собраний. Дополнительные сведения см. [в сведениях о настройке службы переноса собраний (MMS).](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)
+Если вы обновили номера телефонов по умолчанию, включенные в приглашения на собрания для некоторых или всех пользователей, вы можете обновить приглашения на собрания, которые уже были отправлены пользователям в вашей организации до изменения номеров телефонов по умолчанию с помощью службы переноса собраний. Дополнительные сведения см. [в сведениях о настройке службы переноса собраний (MMS).](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)
   
 - Запустите службу перемещения собраний (MMS) для пользователей, у которых на шаге 2 были изменены номера телефонов по умолчанию. Для этого выполните следующую команду:
 
@@ -102,7 +102,7 @@ ms.locfileid: "50569191"
 
 После отмены назначения номера телефона мосту конференц-связи пользователи не смогут присоединяться к собраниям с его помощью. Так как номер телефона изменяется, важно обновить всех пользователей, у которых может быть номер телефона по умолчанию, и существующие приглашения на собрания до того, как этот номер не будет назначен мосту аудиоконференции.
 
-Если удалить номер телефона, не обновив пользователей и их собрания, существующие приглашения на собрания могут содержать телефонный номер, который не будет работать для присоединения к собраниям.
+Если удалить номер телефона без обновления пользователей и их собраний, существующие приглашения на собрания могут содержать телефонный номер, который не будет работать для присоединения к собраниям.
 
 В первых трех шагах потребуется запустить Windows PowerShell. Чтобы узнать, как это сделать, щелкните "Хотите узнать, как управлять с помощью [Windows PowerShell?](change-the-phone-numbers-on-your-audio-conferencing-bridge.md#about-windows-powershell)
 
@@ -116,7 +116,7 @@ Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber <Number to be remove
  > [!IMPORTANT] 
  >Вы также можете изменить платный или бесплатный номер по умолчанию в Центре администрирования Microsoft Teams. Однако, это не повлечёт за собой автоматическую перепланировку их встреч. 
  
- Дополнительные сведения см. в настройках номеров телефонов, включенных в приглашения [в Microsoft Teams,](set-the-phone-numbers-included-on-invites-in-teams.md) или в настройках для приглашений [в Skype для бизнеса Online.](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites)
+ Дополнительные сведения см. в настройках номеров телефонов, включенных в приглашения [в Microsoft Teams,](set-the-phone-numbers-included-on-invites-in-teams.md) или в [приложениях Skype](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites)для бизнеса Online.
 
   > [!NOTE]
   > В зависимости от размера организации это может занять некоторое время.
@@ -137,7 +137,7 @@ Get-CsMeetingMigrationStatus -SummaryOnly
 
 1. На панели навигации слева перейдите в раздел **Голосовая связь** > **Номера телефонов**.
 
-2. Если номер телефона бесплатный, выберите его в списке и нажмите кнопку **"Освободить".** Если номер телефона является платным, [](https://go.microsoft.com/fwlink/?linkid=2091806) обратитесь в службу поддержки Майкрософт, чтобы он не был назначен.
+2. Если номер телефона бесплатный, выберите его в списке и нажмите кнопку **"Освободить".** Если номер телефона платный, обратитесь в службу поддержки [Майкрософт,](/microsoft-365/admin/contact-support-for-business-products) чтобы он не был назначен.
 
 3. Если номер телефона бесплатный, нажмите кнопку **"Да"** в окне подтверждения.
 
@@ -146,9 +146,9 @@ Get-CsMeetingMigrationStatus -SummaryOnly
 
 ### <a name="save-time-and-automate"></a>Экономия времени и автоматизация
 
-Чтобы сэкономить время за счет автоматизации этого процесса, можно воспользоваться cmdlets [Set-CsOnlineDialInConferencingUser](https://go.microsoft.com/fwlink/?LinkId=617688) или **Set-CsOnlineDialInConferencingUserDefaultNumber.**
+Чтобы сэкономить время за счет автоматизации этого процесса, можно воспользоваться cmdlets [Set-CsOnlineDialInConferencingUser](/powershell/module/skype/Set-CsOnlineDialInConferencingUser) или **Set-CsOnlineDialInConferencingUserDefaultNumber.**
 
-- Используйте командлет [Set-CsOnlineDialInConferencingUser](https://go.microsoft.com/fwlink/?LinkId=617688) для изменения платного или бесплатного номера по умолчанию для определенных пользователей.
+- Используйте командлет [Set-CsOnlineDialInConferencingUser](/powershell/module/skype/Set-CsOnlineDialInConferencingUser) для изменения платного или бесплатного номера по умолчанию для определенных пользователей.
 
   - Чтобы изменить бесплатный номер по умолчанию для определенного пользователя, выполните командлет
 
@@ -193,7 +193,7 @@ Get-CsMeetingMigrationStatus -SummaryOnly
 Get-CsOnlineDialInConferencingBridge -Name "Conference Bridge"
 ```
 
-В результатах, кроме других сведений, таких как Identity, Name и Region, также должна содержаться DefaultServiceNumber.
+В результатах, кроме других сведений, таких как Identity, Name и Region, также должен быть номер Службы по умолчанию.
 
 **Например,** чтобы отоименить номерСлужбы DefaultServiceNumber "8005551234",
 ```PowerShell
@@ -204,17 +204,17 @@ Unregister-CsOnlineDialInConferencingServiceNumber -BridgeName "Conference Bridg
 
 С помощью Windows PowerShell вы можете управлять пользователями и тем, что им можно и что нельзя делать. Windows PowerShell вы можете управлять Microsoft 365, Office 365 и Skype для бизнеса Online, используя единый пункт администрирования, который упростит выполнение ваших повседневных задач, особенно если у вас есть несколько задач. Чтобы начать работу с Windows PowerShell, ознакомьтесь с приведенными ниже разделами.
 
-  - [Введение в Windows PowerShell и Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=525039)
+  - [Введение в Windows PowerShell и Skype для бизнеса Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
-  - [Шесть причин использовать Windows PowerShell для управления Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Шесть причин использовать Windows PowerShell для управления Office 365](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
 
 Windows PowerShell имеет множество преимуществ в скорости, простоте и эффективности работы по сравнению с использованием только Центра администрирования Microsoft 365, например при внесении изменений для множества пользователей одновременно. Подробнее об этих преимуществах можно узнать в следующих разделах:
 
-  - [Лучшие способы управления Microsoft 365 или Office 365 с помощью Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Лучшие способы управления Microsoft 365 или Office 365 с помощью Windows PowerShell](/previous-versions//dn568025(v=technet.10))
 
-  - [Использование Windows PowerShell для управления Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=525453)
+  - [Использование Windows PowerShell для управления Skype для бизнеса Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
-  - [Использование возможностей Windows PowerShell для выполнения стандартных задач управления средой Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=525038)
+  - [Использование возможностей Windows PowerShell для выполнения стандартных задач управления средой Skype для бизнеса Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
 ## <a name="related-topics"></a>Статьи по теме
 [Изменение настроек для моста аудиоконференций](change-the-settings-for-an-audio-conferencing-bridge.md)

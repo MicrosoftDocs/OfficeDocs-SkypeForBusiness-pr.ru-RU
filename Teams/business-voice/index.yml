@@ -8,12 +8,12 @@ metadata:
   author: dstrome
   ms.author: dstrome
   ms.date: 06/17/2020
-  ms.openlocfilehash: f810d9249b979b7059811d54161d8d65641f14e3
-  ms.sourcegitcommit: 27fb021e46d775652a99d862b19d94f3fc020594
+  ms.openlocfilehash: 6cf78bac0d7fafee768641120116f8397b8566c8
+  ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
   ms.translationtype: MT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 08/17/2020
-  ms.locfileid: "46778119"
+  ms.lasthandoff: 03/23/2021
+  ms.locfileid: "51102955"
 productDirectory:
   items:
   - title: Обзор
@@ -23,12 +23,12 @@ productDirectory:
       text: Что такое корпоративная голосовая связь
     - url: https://www.microsoft.com/microsoft-365/business-voice
       text: Корпоративная голосовая связь Microsoft 365
-    - url: https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-business-voice-service-description
+    - url: /office365/servicedescriptions/microsoft-365-business-voice-service-description
       text: Описание служб
   - title: Настройка
     imageSrc: https://docs.microsoft.com/office/media/icons/deploy-blue.svg
     links:
-    - url: https://docs.microsoft.com/microsoftteams/business-voice/what-to-buy
+    - url: ./what-to-buy.md
       text: Как получить корпоративную голосовую связь
     - url: get-ready-internet.md
       text: Проверка подключения к Интернету
@@ -41,11 +41,11 @@ productDirectory:
     links:
     - url: port-phone-numbers.md
       text: Перенос существующих телефонных номеров
-    - url: set-up-auto-attendants.md
+    - url: ./create-a-phone-system-auto-attendant-smb.md
       text: Настройка автосекретарей
     - url: set-up-policies.md
       text: Настройка политик
-    - url: set-up-call-queues.md
+    - url: ./create-a-phone-system-call-queue-smb.md
       text: Настройка очередей звонков
   - title: Использование
     imageSrc: https://docs.microsoft.com/office/media/icons/get-started-blue.svg
@@ -61,7 +61,7 @@ productDirectory:
   - title: Ресурсы для партнеров
     imageSrc: https://docs.microsoft.com/office/media/icons/success-blue.svg
     links:
-    - url: https://docs.microsoft.com/partner-center/
+    - url: /partner-center/
       text: Получение Microsoft 365 бизнес в Центре партнеров
     - url: https://www.microsoft.com/microsoft-365/partners/businessvoice
       text: Корпоративная голосовая связь Microsoft 365 для партнеров
@@ -77,11 +77,11 @@ productDirectory:
   - title: Справочная документация
     imageSrc: https://docs.microsoft.com/office/media/icons/chat.svg
     links:
-    - url: /microsoftteams/cloud-voice-landing-page
+    - url: ../cloud-voice-landing-page.md
       text: Документы для администраторов Microsoft Teams
     - url: https://microsoftteams.uservoice.com/
       text: Отзывы на сайте UserVoice для Microsoft Teams
     - url: https://support.office.com/teams
       text: Документы по клиентам Microsoft Teams
-    - url: https://docs.microsoft.com/office365/admin/
+    - url: /office365/admin/
       text: Документы для администратора Microsoft 365 и Office 365

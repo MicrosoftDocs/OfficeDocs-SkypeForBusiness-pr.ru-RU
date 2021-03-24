@@ -19,12 +19,12 @@ description: Голосовая связь Microsoft 365 бизнес — это
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-may2020
-ms.openlocfilehash: ac79d8ad612d24c3db2cf9e1bfd276ef788bac5a
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 6071264efda73f129890ce4c43131a7580fe0595
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030785"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51102815"
 ---
 # <a name="what-is-microsoft-365-business-voice"></a>Что такое корпоративная голосовая связь Microsoft 365?
 
@@ -79,5 +79,4 @@ ms.locfileid: "49030785"
     </tr>
 </table>
 
-Информация о всех компонентах корпоративной голосовой связи доступна в статье [Описание службы корпоративной голосовой связи Microsoft 365](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-business-voice-service-description).
-
+Информация о всех компонентах корпоративной голосовой связи доступна в статье [Описание службы корпоративной голосовой связи Microsoft 365](/office365/servicedescriptions/microsoft-365-business-voice-service-description).

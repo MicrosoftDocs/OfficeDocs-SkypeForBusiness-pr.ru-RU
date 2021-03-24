@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - ms.lync.lac.PortOrderQuickViewPanelTransferAccepted
 description: 'What it means when your port order has been accepted, and what you need to do next to finish your Skype for Business set up. '
-ms.openlocfilehash: 8df625f27fcd9ecad593fc94b888cecd3bf2907e
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+ms.openlocfilehash: eaef2e9f66284db50ff85e5222cd11b4df433899
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769072"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101845"
 ---
 # <a name="your-port-order-was-accepted"></a>Ваш заказ на перенос номера принят
 
@@ -37,9 +37,9 @@ ms.locfileid: "41769072"
   
 После утверждения и готовности номеров телефонов вам потребуется сделать несколько вещей, чтобы настроить все.
   
-- Обязательно лицензируйте [надстройки Skype](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)для бизнеса и Microsoft Teams. Вам потребуется телефонная **система и** план **внутренних звонков** или **план международных звонков.**
+- Убедитесь, что у вас есть лицензии на надстройки Skype для бизнеса [и Microsoft Teams.](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md) Вам потребуется телефонная **система** и план **внутренних звонков** или **план международных звонков.**
     
-- Создайте [](add-or-remove-an-emergency-address-for-your-organization.md) адрес для добавления или удаления адреса для экстренного устранения экстренных случаев для своей организации и при возможности[добавьте,](add-change-or-remove-an-emergency-location-for-your-organization.md) измените или удалите местоположение для экстренного экстренного помощи для вашей организации (в некоторых странах и регионах адрес для экстренного экстренного помощи вы получаете вместе с номером телефона).
+- Создайте [](/MicrosoftTeams/add-change-remove-emergency-location-organization) адрес для добавления или удаления адреса для экстренного устранения экстренных служб для своей организации и при его создании[добавьте,](/MicrosoftTeams/add-change-remove-emergency-place-organization) измените или удалите местоположение для экстренного экстренного ситуации для вашей организации (в некоторых странах и регионах адрес для экстренного экстренного помощи вы получаете вместе с номером телефона).
     
 - Затем [назначьте, измените или удалите номер](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user)телефона пользователя.
 
@@ -56,4 +56,3 @@ ms.locfileid: "41769072"
 [Skype для бизнеса Online: заявление об отказе для звонков в экстренные службы](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
- 

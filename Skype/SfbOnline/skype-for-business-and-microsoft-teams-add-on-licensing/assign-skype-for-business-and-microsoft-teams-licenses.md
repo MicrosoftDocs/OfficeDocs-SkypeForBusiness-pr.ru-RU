@@ -21,19 +21,19 @@ f1.keywords:
 ms.custom:
 - Licensing
 description: 'Узнайте, как назначить лицензии Skype для бизнеса на телефонные системы, аудиоконференции, планы звонков и кредиты на связь. '
-ms.openlocfilehash: e17050c133643d44cd4811ddc5d70852f1ad50d5
-ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
+ms.openlocfilehash: beb4fa46133aa7a09ce3d0de0a08392dbf2d2591
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "44204850"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51106495"
 ---
 # <a name="assign-skype-for-business-licenses"></a>Назначение лицензий Skype для бизнеса
 
-This article gives you tips about assigning licenses to your users for features like Audio Conferencing, Phone System, and Calling Plans. It also provides scripts for assigning licenses in bulk.
+В этой статье представлены советы по назначению пользователям лицензий на такие функции, как аудиоконференция, телефонная система и планы звонков. Здесь также представлены сценарии для массового назначения лицензий.
 
 > [!IMPORTANT]
-> Сведения о том, какие лицензии необходимо приобрести и как  их приобрести ,в зависимости от плана Microsoft 365 или Office 365 см. в лицензировании надстройки [Skype](skype-for-business-and-microsoft-teams-add-on-licensing.md) для бизнеса, чтобы пользователи могли получить аудиоконференцию, бесплатные номера и возможность звонить на телефонные номера за пределы вашей компании.
+> Сведения о том, какие лицензии необходимо приобрести и как  их приобрести, см. в лицензировании надстройки [Skype](skype-for-business-and-microsoft-teams-add-on-licensing.md) для бизнеса (в зависимости от плана Microsoft 365 или Office 365), чтобы пользователи могли получить аудиоконференцию, бесплатные номера и возможность звонить на телефонные номера за пределы вашей компании.
 
 
 ## <a name="phone-system-and-calling-plans-tips-and-scripts-for-assigning-licenses"></a>Телефонные системы и планы звонков. Советы и сценарии по назначению лицензий
@@ -42,11 +42,11 @@ This article gives you tips about assigning licenses to your users for features 
 
 - **При использовании локальных подключений ТСОП для пользователей в гибридных средах** необходимо назначить только лицензию на **телефонную систему**. Назначать план звонков **НЕ НУЖНО**.
 
-- **Задержка** после назначения лицензий: из-за задержки между Microsoft 365 или Office 365 и Skype для бизнеса Online назначение пользователю плана звонков после назначения лицензии может занять до 24 часов. Если по и после 24 часов пользователю не назначен план звонков, обратитесь в службу поддержки по продуктам для [бизнеса— справку для администраторов.](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
+- **Задержка** после назначения лицензий. Из-за задержки между Microsoft 365 или Office 365 и Skype для бизнеса Online назначение пользователю плана звонков после назначения лицензии может занять до 24 часов. Если по прошествии 24 часов пользователю не назначен план звонков, пожалуйста, выполните [Обращение в службу поддержки Office 365 для бизнеса: справка для администраторов](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
 - **Сообщения об ошибках**. Если приобретено неправильное число лицензий, выдается сообщение об ошибке. Если требуется приобрести дополнительные лицензии на планы звонков, щелкните **Купить еще**.
     
-- **Next steps**: After you assign Calling Plan licenses to your users, you will need to get your phone numbers for your organization, and then assign those numbers to the people in your organization. For step-by-step instructions, see [Set up Calling Plans](/microsoftteams/set-up-calling-plans).
+- **Дальнейшие действия.** После назначения пользователям лицензий на план звонков вам потребуется получить номера телефонов для организации, а затем назначить их пользователям в организации. Пошаговые инструкции см. в статье [Настройка планов звонков](/microsoftteams/set-up-calling-plans).
     
 ### <a name="how-to-assign-a-phone-system-and-calling-plan-license-to-one-user"></a>Назначение лицензии на телефонную систему и план звонков одному пользователю
 
@@ -54,9 +54,9 @@ This article gives you tips about assigning licenses to your users for features 
 
 ### <a name="how-to-assign-phone-system-and-calling-plan-licenses-in-bulk"></a>Массовое назначение лицензий на телефонную систему и план звонков
 
-1. Install the **Microsoft Online Services Sign-In Assistant for IT Professionals RTW**. Don't have the module installed? See [Microsoft Online Services Sign-In Assistant for IT Professionals RTW](https://go.microsoft.com/fwlink/?LinkId=625123) to download it.
+1. Установите помощник **Microsoft Online Services Sign-In для ИТ-специалистов, RTW.** Не установлен модуль? Загрузите его со страницы [Помощника по входу в Microsoft Online Services для ИТ-специалистов, версия RTW](https://go.microsoft.com/fwlink/?LinkId=625123).
 
-2. Install the **Windows Azure Active Directory Module.** Don't have the module installed? See [Manage Azure AD using Windows PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=320628) for download instructions and cmdlet syntax.
+2. Установите **модуль Windows Azure Active Directory.** Не установлен модуль? Перейдите в раздел [Управление Azure AD с помощью Windows PowerShell](/previous-versions/azure/jj151815(v=azure.100)) для ознакомления с инструкцией по загрузки и синтаксисом командлета.
 
 3. После установки модулей назначьте пользователям лицензии с помощью командной строки Windows PowerShell и следующего синтаксиса.
 
@@ -129,7 +129,7 @@ This article gives you tips about assigning licenses to your users for features 
 
 1. Скачайте и установите [Помощник по входу в Microsoft Online Services для ИТ-специалистов, версия RTW ](https://go.microsoft.com/fwlink/?LinkId=625123).
 
-2. Загрузите и установите **модуль Windows Azure Active Directory**. Инструкции по установке и синтаксис командлетов см. в разделе [Управление службой Azure AD с помощью Windows PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=320628).
+2. Загрузите и установите **модуль Windows Azure Active Directory**. Инструкции по установке и синтаксис командлетов см. в разделе [Управление службой Azure AD с помощью Windows PowerShell](/previous-versions/azure/jj151815(v=azure.100)).
 
     После установки модулей назначьте пользователям лицензии с помощью командной строки Windows PowerShell и следующего синтаксиса.
 
@@ -188,7 +188,7 @@ This article gives you tips about assigning licenses to your users for features 
 
 ### <a name="what-you-need-to-know-before-assigning-communications-credits-licenses"></a>Что нужно знать перед назначением лицензий на кредиты на связь
 
-- **Корпоративные клиенты E5.** Даже если вашим пользователям назначены лицензии на корпоративный E5, мы по-прежнему рекомендуем назначать им лицензии на кредиты **на** связь.
+- **Корпоративные клиенты E5.** Даже если вашим пользователям назначены лицензии на корпоративный E5, мы по-прежнему рекомендуем назначать им **лицензии** на кредиты на связь.
     
 - **Дальнейшие действия.** После назначения этих лицензий вам потребуется получить номера телефонов для организации, а затем назначить их людям в организации. Пошаговые инструкции см. в статье [Настройка планов звонков](/microsoftteams/set-up-calling-plans).
     
@@ -207,4 +207,3 @@ This article gives you tips about assigning licenses to your users for features 
 [Пополнение средств и управление кредитами на связь](/microsoftteams/add-funds-and-manage-communications-credits)
   
   
- 

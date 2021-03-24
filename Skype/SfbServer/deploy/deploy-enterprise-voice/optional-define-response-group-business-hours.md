@@ -1,5 +1,5 @@
 ---
-title: (Необязательно) Определение часов работы группы ответа в Skype для бизнеса
+title: (Необязательный) Определение бизнес-часов группы ответов в Skype для бизнеса
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,24 +12,24 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d62551b2-1847-4e1b-abe8-683b72aa94d5
-description: Создание или изменение рабочих часов группы ответа в Skype для бизнеса Server Корпоративная голосовая связь.
-ms.openlocfilehash: dcd2f7174a75eb68ef8d35759a1e454ede976bde
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Создание или изменение рабочих часов группы реагирования в Skype для бизнеса Server Корпоративная голосовая связь.
+ms.openlocfilehash: d4a8101749e7fde06fc4c3d88ab343eb6e4d0f1d
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49830999"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51103675"
 ---
-# <a name="optional-define-response-group-business-hours-in-skype-for-business"></a>(Необязательно) Определение часов работы группы ответа в Skype для бизнеса 
+# <a name="optional-define-response-group-business-hours-in-skype-for-business"></a>(Необязательный) Определение бизнес-часов группы ответов в Skype для бизнеса 
  
-Создание или изменение рабочих часов группы ответа в Skype для бизнеса Server Корпоративная голосовая связь.
+Создание или изменение рабочих часов группы реагирования в Skype для бизнеса Server Корпоративная голосовая связь.
   
 ## <a name="defining-business-hours"></a>Определение рабочих часов
 
 Настройки рабочих часов определяют, когда рабочий процесс доступен для ответа на вызовы, и задают процессы обработки вызовов, поступающих в нерабочее время. Администраторы группы ответа могут использовать командлет **New-CsRgsHoursOfBusiness** для создания предварительно заданных расписаний, которые можно использовать для любого количества групп ответа.
   
 > [!TIP]
-> При создании или изменении рабочего процесса можно указать настраиваемый график, который применяется только к этому рабочего процесса. For details, see [Designing and creating response group workflows in Skype for Business](designing-and-creating-response-group-workflows.md). 
+> При создании или изменении рабочего процесса можно указать настраиваемый график, применимый только к этому рабочего процесса. Дополнительные сведения см. в материале [Designing and creating response group workflows in Skype for Business.](designing-and-creating-response-group-workflows.md) 
   
 > [!NOTE]
 > Если рабочий процесс был определен как управляемый, все пользователи, которым назначена роль CsResponseGroupManager, могут задавать и изменять рабочие часы для управляемых ими рабочих процессов. 
@@ -39,9 +39,9 @@ ms.locfileid: "49830999"
   
 ### <a name="to-create-a-predefined-business-hours-collection"></a>Создание предварительно определенной коллекции рабочих часов
 
-1. Войдите как член группы RTCUniversalServerAdmins или как член одной из предопределеных административных ролей, которые поддерживают группу ответа.
+1. Войдите в группу RTCUniversalServerAdmins или в качестве члена одной из предопределяемой административной роли, поддерживаемой группой реагирования.
     
-2. Запустите оболочку управления Skype для бизнеса Server: нажмите кнопку "Начните", выберите "Все программы", "Skype для бизнеса **2015",** а затем щелкните "Skype для бизнеса Server Management **Shell".**
+2. Запустите оболочку управления Skype для бизнес-серверов: нажмите кнопку Начните, щелкните Все **программы,** щелкните Skype для бизнеса **2015,** а затем нажмите **кнопку Skype для управления бизнес-серверами.**
     
 3. Для каждого уникального определяемого диапазона рабочих часов выполните команду:
     
@@ -66,6 +66,6 @@ ms.locfileid: "49830999"
 
 ## <a name="see-also"></a>См. также
 
-[New-CsRgsTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csrgstimerange?view=skype-ps)
+[New-CsRgsTimeRange](/powershell/module/skype/new-csrgstimerange?view=skype-ps)
   
-[New-CsRgsHoursOfBusiness](https://docs.microsoft.com/powershell/module/skype/new-csrgshoursofbusiness?view=skype-ps)
+[New-CsRgsHoursOfBusiness](/powershell/module/skype/new-csrgshoursofbusiness?view=skype-ps)
