@@ -22,26 +22,26 @@ metadata:
   search.appverid: MET150
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 74cc8ce21951f3ec6aaca032f92cd1280392e992
-  ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
+  ms.openlocfilehash: ffcafd40419de2c467370fed311ff94bd71bf04d
+  ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
   ms.translationtype: MT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 02/12/2021
-  ms.locfileid: "50196203"
+  ms.lasthandoff: 03/23/2021
+  ms.locfileid: "51096063"
 highlightedContent:
   items:
   - title: Использование проверенных рекомендаций для успешного обновления
     itemType: how-to-guide
-    url: https://docs.microsoft.com/microsoftteams/upgrade-framework
+    url: ./upgrade-framework.md
   - title: Регистрация для бесплатных семинаров по планированию обновления
     itemType: learn
-    url: https://aka.ms/upgradeworkshops
+    url: ./upgrade-workshops-landing-page.yml
   - title: Узнайте, как black & Veatch перешли на Teams за восемь недель
     itemType: video
     url: https://play.vidyard.com/uc42D4WD4byc3sHTiKEEEk
 productDirectory:
   title: Ресурсы для планирования успешного обновления Teams и его использования
-  summary: Правильная техническая среда, стабильное внедрение пользователей и реализация бизнес-целей начинаются с правильного планирования.
+  summary: Правильная техническая среда, стабильное внедрение пользователей и реализация бизнес-целей начинаются с надлежащего планирования.
   items:
   - title: Истории обновления Teams
     imageSrc: https://docs.microsoft.com/office/media/icons/users-people.svg
@@ -55,7 +55,7 @@ productDirectory:
     - url: https://customers.microsoft.com/story/765513-trek-retailers-teams
       text: Путь — Из Skype для бизнеса Online в Teams
     - url: https://customers.microsoft.com/story/765520-dentsu-aegis-network-media-entertainment-teams
-      text: Denя Aegis Network — из Skype для бизнеса Online в Teams
+      text: Denя Aegis Network — Из Skype для бизнеса Online в Teams
     - url: https://customers.microsoft.com/story/764851-berkshire-healthcare-nhs-foundation-trust-health-provider-teams
       text: Berkrk Healthcare — Из Skype для бизнеса Online в Teams
   - title: 'Ignite Session: проектирование пути к Teams'
@@ -69,19 +69,19 @@ productDirectory:
   - title: Документация для администраторов Teams
     imageSrc: https://docs.microsoft.com/office/media/icons/document-teams.svg
     summary: Узнайте, как развести Teams и управлять им, а также подготовить пользователей к новым средствам связи и совместной работы.
-    url: https://docs.microsoft.com/MicrosoftTeams/
+    url: ./index.yml
   - title: Обучение с инструктором по Teams
     imageSrc: https://docs.microsoft.com/office/media/icons/presenter-with-podium.svg
     summary: Бесплатные интерактивные учебные курсы, разработанные для подготовки к работе с Teams.
-    url: https://docs.microsoft.com/microsoftteams/instructor-led-training-teams-landing-page
+    url: ./instructor-led-training-teams-landing-page.yml
   - title: Расширйте сценарии Teams
     imageSrc: https://docs.microsoft.com/office/media/icons/best-practices-teams.svg
     summary: Наши интерактивные семинары Teams Chalk Talks предназначены для того, чтобы помочь ИТ-специалистов в работе с Teams с наибольшей возможностью.
-    url: http://aka.ms/TeamsChalkTalks
+    url: ./chalk-talks-landing-page.yml
   - title: Прекращение поддержки Skype для бизнеса Online
     imageSrc: https://docs.microsoft.com/office/media/icons/migration-teams.svg
     summary: Подготовьтесь к переходу на Teams 31 июля 2021 г. и узнайте, как спланировать успешный переход на Teams.
-    url: https://docs.microsoft.com/microsoftteams/skype-for-business-online-retirement
+    url: ./skype-for-business-online-retirement.md
   - title: Блог Microsoft Teams
     imageSrc: https://docs.microsoft.com/office/media/icons/blog-site-teams.svg
     summary: Изучите лучшие методики, новости и тенденции непосредственно от команды, которая стоит за Microsoft Teams.
@@ -98,7 +98,7 @@ additionalContent:
       summary: Если для проектов развертывания Teams требуется более подробная помощь, клиенты с подходящими подписками могут получить поддержку в FastTrack.
       url: https://www.microsoft.com/fasttrack
     - title: Поиск партнера Майкрософт
-      summary: Нужны дополнительные рекомендации? Поставщики решений Майкрософт могут помочь вам управлять технической и логистикой при обновлении.
+      summary: Нужны дополнительные рекомендации? Поставщики решений Майкрософт могут помочь вам управлять техническими и логистикой при обновлении.
       url: https://www.microsoft.com/solution-providers/home
     - title: Планы и цены Microsoft Teams
       summary: Найдите под себя Microsoft Teams для своей компании.

@@ -1,5 +1,5 @@
 ---
-title: Создание или изменение существующего фильтра файлов
+title: Фильтр файла Создать новые или изменить существующие
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,20 +15,17 @@ localization_priority: Normal
 ms.assetid: 2f6e54ef-2ff5-4cac-a3d4-80a101e8d177
 ROBOTS: NOINDEX, NOFOLLOW
 description: Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
-ms.openlocfilehash: b7a80beb9105adf7a416d3730db78be1220d2318
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 310f5a618b4f91b6a514177d573397c74ff748f3
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49801459"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51097275"
 ---
-# <a name="file-filter-create-new-or-edit-existing"></a><span data-ttu-id="13964-104">Фильтр файлов: создание нового или редактирование существующего</span><span class="sxs-lookup"><span data-stu-id="13964-104">File Filter: Create New or Edit Existing</span></span>
+# <a name="file-filter-create-new-or-edit-existing"></a><span data-ttu-id="17818-104">Фильтр файлов: создание нового или редактирование существующего</span><span class="sxs-lookup"><span data-stu-id="17818-104">File Filter: Create New or Edit Existing</span></span>
 
-<span data-ttu-id="13964-105">Что нужно сделать</span><span class="sxs-lookup"><span data-stu-id="13964-105">What do you want to do?</span></span> <span data-ttu-id="13964-106">Щелкните ссылку на задачу, которую необходимо выполнить.</span><span class="sxs-lookup"><span data-stu-id="13964-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="17818-105">Что нужно сделать</span><span class="sxs-lookup"><span data-stu-id="17818-105">What do you want to do?</span></span> <span data-ttu-id="17818-106">Щелкните ссылку на задачу, которую необходимо выполнить.</span><span class="sxs-lookup"><span data-stu-id="17818-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="13964-107">Изменение фильтра передачи файлов по умолчанию</span><span class="sxs-lookup"><span data-stu-id="13964-107">Modify the Default File Transfer Filter</span></span>](https://technet.microsoft.com/library/791774a2-0bb6-4b5b-aeb0-ff69abb170f4.aspx)
+- [<span data-ttu-id="17818-107">Изменение фильтра передачи файлов по умолчанию</span><span class="sxs-lookup"><span data-stu-id="17818-107">Modify the Default File Transfer Filter</span></span>](/previous-versions/office/lync-server-2013/lync-server-2013-modify-the-default-file-transfer-filter)
 
-- [<span data-ttu-id="13964-108">Создание нового фильтра передачи файлов для определенного сайта</span><span class="sxs-lookup"><span data-stu-id="13964-108">Create a New File Transfer Filter for a Specific Site</span></span>](https://technet.microsoft.com/library/d0006487-5217-491c-b730-e6c551cd9825.aspx)
-
-
-
+- [<span data-ttu-id="17818-108">Создание нового фильтра передачи файлов для определенного сайта</span><span class="sxs-lookup"><span data-stu-id="17818-108">Create a New File Transfer Filter for a Specific Site</span></span>](/previous-versions/office/lync-server-2013/lync-server-2013-create-a-new-file-transfer-filter-for-a-specific-site)

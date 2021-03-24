@@ -15,23 +15,21 @@ localization_priority: Normal
 ms.assetid: 336ef724-ab2f-4215-b689-60248a90917f
 ROBOTS: NOINDEX, NOFOLLOW
 description: Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
-ms.openlocfilehash: 888367fa7037199baa3567b18213b8e4097e117c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 61aeabe7852395123dbac9bbaa559ae463d301ef
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49833749"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51095843"
 ---
-# <a name="external-access-policy"></a><span data-ttu-id="0009d-104">Политика внешнего доступа</span><span class="sxs-lookup"><span data-stu-id="0009d-104">External Access Policy</span></span>
+# <a name="external-access-policy"></a><span data-ttu-id="b2165-104">Политика внешнего доступа</span><span class="sxs-lookup"><span data-stu-id="b2165-104">External Access Policy</span></span>
 
-<span data-ttu-id="0009d-105">Что нужно сделать</span><span class="sxs-lookup"><span data-stu-id="0009d-105">What do you want to do?</span></span> <span data-ttu-id="0009d-106">Щелкните ссылку на задачу, которую необходимо выполнить.</span><span class="sxs-lookup"><span data-stu-id="0009d-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="b2165-105">Что нужно сделать</span><span class="sxs-lookup"><span data-stu-id="b2165-105">What do you want to do?</span></span> <span data-ttu-id="b2165-106">Щелкните ссылку на задачу, которую необходимо выполнить.</span><span class="sxs-lookup"><span data-stu-id="b2165-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="0009d-107">Управление удаленным доступом пользователей</span><span class="sxs-lookup"><span data-stu-id="0009d-107">Manage Remote User Access</span></span>](https://technet.microsoft.com/library/8f556849-692b-44a0-9514-4468fc9a39d0.aspx)
+- [<span data-ttu-id="b2165-107">Управление удаленным доступом пользователей</span><span class="sxs-lookup"><span data-stu-id="b2165-107">Manage Remote User Access</span></span>](/previous-versions/office/lync-server-2013/lync-server-2013-configure-policies-to-control-remote-user-access)
 
-- [<span data-ttu-id="0009d-108">Настройка политик для управления доступом федераированных пользователей</span><span class="sxs-lookup"><span data-stu-id="0009d-108">Configure Policies to Control Federated User Access</span></span>](https://technet.microsoft.com/library/5485e208-81e4-4e59-9aeb-1232c11dd8a2.aspx)
+- [<span data-ttu-id="b2165-108">Настройка политик для управления федерадным доступом пользователей</span><span class="sxs-lookup"><span data-stu-id="b2165-108">Configure Policies to Control Federated User Access</span></span>](/previous-versions/office/lync-server-2013/lync-server-2013-configure-policies-to-control-federated-user-access)
 
-- [<span data-ttu-id="0009d-109">Настройка политик для управления доступом пользователей поставщиков услуг im</span><span class="sxs-lookup"><span data-stu-id="0009d-109">Configure Policies to Control Access by Users of IM Service Providers</span></span>](https://technet.microsoft.com/library/5321598c-1ab1-40e3-b739-4b2e6d0a3a3b.aspx)
+- [<span data-ttu-id="b2165-109">Настройка политик для управления доступом пользователей поставщиков услуг im</span><span class="sxs-lookup"><span data-stu-id="b2165-109">Configure Policies to Control Access by Users of IM Service Providers</span></span>](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-edit-public-sip-federated-providers)
 
-- [<span data-ttu-id="0009d-110">Сброс или удаление политик доступа внешних пользователей</span><span class="sxs-lookup"><span data-stu-id="0009d-110">Reset or Delete External User Access Policies</span></span>](https://technet.microsoft.com/library/5f9b4528-f4f1-4d52-816d-156c3c7298ad.aspx)
-
-
+- [<span data-ttu-id="b2165-110">Сброс или удаление политик внешнего доступа пользователей</span><span class="sxs-lookup"><span data-stu-id="b2165-110">Reset or Delete External User Access Policies</span></span>](/previous-versions/office/lync-server-2013/lync-server-2013-resetting-or-deleting-external-user-access-policies)

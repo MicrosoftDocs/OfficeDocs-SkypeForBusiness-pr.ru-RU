@@ -1,5 +1,5 @@
 ---
-title: Создание новой или редактирование существующей телефонной программы
+title: Dial Plan Create New or Edit Existing
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,24 +15,21 @@ localization_priority: Normal
 ms.assetid: 98e6372e-90e3-4939-b681-640f00d98ff1
 ROBOTS: NOINDEX, NOFOLLOW
 description: Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
-ms.openlocfilehash: 8a781336a735ed9fd84f342477cda91e6744af04
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 42fef3acffe83680df6e53a7797256e7068e1b5f
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49807929"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51097165"
 ---
-# <a name="dial-plan-create-new-or-edit-existing"></a><span data-ttu-id="df2e5-104">Абонентская группа : создание новой или редактирование существующей</span><span class="sxs-lookup"><span data-stu-id="df2e5-104">Dial Plan: Create New or Edit Existing</span></span>
+# <a name="dial-plan-create-new-or-edit-existing"></a><span data-ttu-id="94b02-104">Абонентская группа : создание новой или редактирование существующей</span><span class="sxs-lookup"><span data-stu-id="94b02-104">Dial Plan: Create New or Edit Existing</span></span>
 
-<span data-ttu-id="df2e5-105">Что нужно сделать</span><span class="sxs-lookup"><span data-stu-id="df2e5-105">What do you want to do?</span></span> <span data-ttu-id="df2e5-106">Щелкните ссылку на задачу, которую необходимо выполнить.</span><span class="sxs-lookup"><span data-stu-id="df2e5-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="94b02-105">Что нужно сделать</span><span class="sxs-lookup"><span data-stu-id="94b02-105">What do you want to do?</span></span> <span data-ttu-id="94b02-106">Щелкните ссылку на задачу, которую необходимо выполнить.</span><span class="sxs-lookup"><span data-stu-id="94b02-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="df2e5-107">Создание или изменение телефонной плана в Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="df2e5-107">Create or modify a dial plan in Skype for Business Server</span></span>](../../../deploy/deploy-enterprise-voice/dial-plans.md)
+- [<span data-ttu-id="94b02-107">Создание или изменение набора номера в Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="94b02-107">Create or modify a dial plan in Skype for Business Server</span></span>](../../../deploy/deploy-enterprise-voice/dial-plans.md)
 
-- [<span data-ttu-id="df2e5-108">Изменение абонентской группы</span><span class="sxs-lookup"><span data-stu-id="df2e5-108">Modify a Dial Plan</span></span>](https://technet.microsoft.com/library/a91f02df-cf60-40cf-82fe-e0342c118b91.aspx)
+- [<span data-ttu-id="94b02-108">Изменение абонентской группы</span><span class="sxs-lookup"><span data-stu-id="94b02-108">Modify a Dial Plan</span></span>](/previous-versions/office/lync-server-2013/lync-server-2013-modify-a-dial-plan)
 
-- [<span data-ttu-id="df2e5-109">Создание или изменение правила нормализации в Skype для бизнеса</span><span class="sxs-lookup"><span data-stu-id="df2e5-109">Create or modify a normalization rule in Skype for Business</span></span>](../../../deploy/deploy-enterprise-voice/normalization-rules.md)
+- [<span data-ttu-id="94b02-109">Создание или изменение правила нормализации в Skype для бизнеса</span><span class="sxs-lookup"><span data-stu-id="94b02-109">Create or modify a normalization rule in Skype for Business</span></span>](../../../deploy/deploy-enterprise-voice/normalization-rules.md)
 
-- [<span data-ttu-id="df2e5-110">Создание или изменение правила нормализации вручную</span><span class="sxs-lookup"><span data-stu-id="df2e5-110">Create or Modify a Normalization Rule Manually</span></span>](https://technet.microsoft.com/library/fc0335e6-8830-4cfb-8c64-6aeb98c0a992.aspx)
-
-
-
+- [<span data-ttu-id="94b02-110">Создание или изменение правила нормализации вручную</span><span class="sxs-lookup"><span data-stu-id="94b02-110">Create or Modify a Normalization Rule Manually</span></span>](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-a-normalization-rule-manually)
