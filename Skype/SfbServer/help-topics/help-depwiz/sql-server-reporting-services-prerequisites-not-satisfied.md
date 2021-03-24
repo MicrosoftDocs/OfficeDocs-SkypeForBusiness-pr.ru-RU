@@ -15,19 +15,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6be29df-b882-4ba8-ba40-8062eb3bb14d
 description: Эта страница появляется, если в вашей инфраструктуре не развернут сервер мониторинга. Это означает, что не соблюдены минимальные требования для развертывания сервера мониторинга.
-ms.openlocfilehash: f02c16aad683aa01340316ce32c4dfcd12b0ef04
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 792c9d3b6e7c398d517549eb55aaf85086badb64
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49811099"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51100015"
 ---
-# <a name="sql-server-reporting-services-prerequisites-not-satisfied"></a><span data-ttu-id="5fda7-104">Службы SQL Server Reporting Services (необходимые условия не соблюдены)</span><span class="sxs-lookup"><span data-stu-id="5fda7-104">SQL Server Reporting Services (Prerequisites Not Satisfied)</span></span>
+# <a name="sql-server-reporting-services-prerequisites-not-satisfied"></a><span data-ttu-id="45a9f-104">Службы SQL Server Reporting Services (необходимые условия не соблюдены)</span><span class="sxs-lookup"><span data-stu-id="45a9f-104">SQL Server Reporting Services (Prerequisites Not Satisfied)</span></span>
 
-<span data-ttu-id="5fda7-p102">Эта страница появляется, если в вашей инфраструктуре не развернут сервер мониторинга. Это означает, что не соблюдены минимальные требования для развертывания сервера мониторинга.</span><span class="sxs-lookup"><span data-stu-id="5fda7-p102">You will see this page if there is no Monitoring Server deployed in your infrastructure. This indicates that the minimum requirements for deploying Monitoring Server reports have not been met.</span></span>
+<span data-ttu-id="45a9f-p102">Эта страница появляется, если в вашей инфраструктуре не развернут сервер мониторинга. Это означает, что не соблюдены минимальные требования для развертывания сервера мониторинга.</span><span class="sxs-lookup"><span data-stu-id="45a9f-p102">You will see this page if there is no Monitoring Server deployed in your infrastructure. This indicates that the minimum requirements for deploying Monitoring Server reports have not been met.</span></span>
 
-<span data-ttu-id="5fda7-107">Чтобы устранить эту проблему, убедитесь, что к домену присоединился сервер мониторинга, что он определен в построитель топологий и что топология опубликована.</span><span class="sxs-lookup"><span data-stu-id="5fda7-107">To resolve this issue, make sure that you have a Monitoring Server joined to the domain, that it is defined in Topology Builder, and that the topology has been published.</span></span> <span data-ttu-id="5fda7-108">SQL Server Службы Reporting Services также должны быть доступны на SQL Server и установлены в качестве функции в базе данных сервера мониторинга на SQL Server.</span><span class="sxs-lookup"><span data-stu-id="5fda7-108">SQL Server Reporting Services must also be available on the SQL Server, and installed as a feature into the Monitoring Server database on the SQL Server.</span></span>
+<span data-ttu-id="45a9f-107">Чтобы устранить эту проблему, убедитесь, что к домену присоединился сервер мониторинга, что он определен в Topology Builder и топология была опубликована.</span><span class="sxs-lookup"><span data-stu-id="45a9f-107">To resolve this issue, make sure that you have a Monitoring Server joined to the domain, that it is defined in Topology Builder, and that the topology has been published.</span></span> <span data-ttu-id="45a9f-108">SQL Server службы отчетности также должны быть доступны в SQL Server и установлены в качестве функции в базе данных monitoring Server на SQL Server.</span><span class="sxs-lookup"><span data-stu-id="45a9f-108">SQL Server Reporting Services must also be available on the SQL Server, and installed as a feature into the Monitoring Server database on the SQL Server.</span></span>
 
-<span data-ttu-id="5fda7-109">For details, see [Install Monitoring Reports in Skype for Business Server 2015](../../deploy/deploy-monitoring/install-monitoring-reports.md) and [Deploying Monitoring.](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx)</span><span class="sxs-lookup"><span data-stu-id="5fda7-109">For details, see [Install Monitoring Reports in Skype for Business Server 2015](../../deploy/deploy-monitoring/install-monitoring-reports.md) and [Deploying Monitoring](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx).</span></span>
-
-
+<span data-ttu-id="45a9f-109">Дополнительные сведения см. [в материале Install Monitoring Reports in Skype for Business Server 2015](../../deploy/deploy-monitoring/install-monitoring-reports.md) и [Deploying Monitoring.](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-monitoring)</span><span class="sxs-lookup"><span data-stu-id="45a9f-109">For details, see [Install Monitoring Reports in Skype for Business Server 2015](../../deploy/deploy-monitoring/install-monitoring-reports.md) and [Deploying Monitoring](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-monitoring).</span></span>

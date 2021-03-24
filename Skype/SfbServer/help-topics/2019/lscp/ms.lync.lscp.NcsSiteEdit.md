@@ -1,5 +1,5 @@
 ---
-title: Настройка создания или изменения существующего сетевого сайта
+title: Настройка сетевого сайта Создание нового или редактирования существующих
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,18 +15,15 @@ localization_priority: Normal
 ms.assetid: 091aea61-22c2-4363-acd0-ccbc193755dd
 ROBOTS: NOINDEX, NOFOLLOW
 description: Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
-ms.openlocfilehash: 49ed9b9867cd5ace760c655ee77ad274d2fd229b
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 27e560c7893e46f12d2911886c25d931de5790eb
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49808499"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51100305"
 ---
-# <a name="configure-a-network-site-create-new-or-edit-existing"></a><span data-ttu-id="06227-104">Настройка сетевого сайта: создание нового или редактирование существующего</span><span class="sxs-lookup"><span data-stu-id="06227-104">Configure a Network Site: Create New or Edit Existing</span></span>
+# <a name="configure-a-network-site-create-new-or-edit-existing"></a><span data-ttu-id="0a61c-104">Настройка сетевого сайта: создание нового или редактирование существующего</span><span class="sxs-lookup"><span data-stu-id="0a61c-104">Configure a Network Site: Create New or Edit Existing</span></span>
 
-<span data-ttu-id="06227-105">Что нужно сделать</span><span class="sxs-lookup"><span data-stu-id="06227-105">What do you want to do?</span></span> <span data-ttu-id="06227-106">Щелкните ссылку на задачу, которую необходимо выполнить.</span><span class="sxs-lookup"><span data-stu-id="06227-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="0a61c-105">Что нужно сделать</span><span class="sxs-lookup"><span data-stu-id="0a61c-105">What do you want to do?</span></span> <span data-ttu-id="0a61c-106">Щелкните ссылку на задачу, которую необходимо выполнить.</span><span class="sxs-lookup"><span data-stu-id="0a61c-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="06227-107">Настройка сетевых сайтов</span><span class="sxs-lookup"><span data-stu-id="06227-107">Configuring Network Sites</span></span>](https://technet.microsoft.com/library/358aa08a-c5bc-45fc-8017-19e6202f88c5.aspx)
-
-
-
+- [<span data-ttu-id="0a61c-107">Настройка сетевых сайтов</span><span class="sxs-lookup"><span data-stu-id="0a61c-107">Configuring Network Sites</span></span>](/previous-versions/office/lync-server-2013/lync-server-2013-creating-or-modifying-network-sites)
