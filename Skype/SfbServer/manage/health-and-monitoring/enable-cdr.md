@@ -1,5 +1,5 @@
 ---
-title: Включить регистрацию вызовов в Skype для бизнеса Server
+title: Включить запись детализации вызовов в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,30 +11,30 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 3b28e432-596f-45a5-a070-577d6fa748d9
-description: Сводка. Узнайте, как включить записи регистрации вызовов (CDR) в Skype для бизнеса Server.
-ms.openlocfilehash: 48d21be6d377df24e859c3ffa6bb8b7858076d29
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Сводка. Сведения о том, как включить запись детализации вызовов (CDR) в Skype для бизнеса Server.
+ms.openlocfilehash: e2f652eeef77c336fb34be07c123f1ef026d458c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816889"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51095233"
 ---
-# <a name="enable-call-detail-recording-in-skype-for-business-server"></a>Включить регистрацию вызовов в Skype для бизнеса Server
+# <a name="enable-call-detail-recording-in-skype-for-business-server"></a>Включить запись детализации вызовов в Skype для бизнеса Server
 
-**Сводка:** Узнайте, как включить записи регистрации вызовов (CDR) в Skype для бизнеса Server.
+**Сводка:** Узнайте, как включить запись детализации вызовов (CDR) в Skype для бизнеса Server.
 
 Функция регистрации вызовов (CDR) записывает сведения об использовании и диагностические данные для одноранговых операций, включая обмен мгновенными сообщениями, звонки VoIP, общий доступ к приложениям, передачу файлов и собрания. С помощью данных об использовании можно вычислить рентабельность инвестиций, а диагностические данные можно использовать при поиске и устранении проблем с одноранговыми операциями и собраниями.
 
 Используйте следующую процедуру, чтобы включить регистрацию вызовов для всей своей организации или каждого ее сайта.
 
 > [!NOTE]
-> Чтобы включить CDR, необходимо сначала настроить мониторинг и базу данных мониторинга. Дополнительные сведения см. в разделе [Deploying Monitoring](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx).
+> Чтобы включить CDR, необходимо сначала настроить мониторинг и базу данных мониторинга. Дополнительные сведения см. в разделе [Deploying Monitoring](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-monitoring).
 
-### <a name="to-enable-cdr-with-skype-for-business-server-control-panel"></a>Чтобы включить CDR с помощью панели управления Skype для бизнеса Server
+### <a name="to-enable-cdr-with-skype-for-business-server-control-panel"></a>Включить cdR с панелью управления Skype для бизнес-серверов
 
-1.  Из учетной записи пользователя, которая является членом группы RTCUniversalServerAdmins (или имеет эквивалентные права пользователя) или которой назначена роль CsServerAdministrator или CsAdministrator, войдите на любой компьютер в сети, в которой развернут Skype для бизнеса Server.
+1.  С учетной записи пользователя, которая входит в группу RTCUniversalServerAdmins (или имеет эквивалентные права пользователя) или назначена роли CsServerAdministrator или CsAdministrator, войдите на любой компьютер, который находится в сети, в которой развернут Skype для бизнеса Server.
 
-2. Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Skype для бизнеса Server.
+2. Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Skype для бизнес-серверов.
 
 3. В левой панели навигации щелкните элемент **Мониторинг и архивация**, затем **Служба регистрации вызовов**.
 
@@ -43,9 +43,9 @@ ms.locfileid: "49816889"
     > [!NOTE]
     > По умолчанию функция CDR включена.
 
-## <a name="enabling-cdr-by-using-windows-powershell-cmdlets"></a>Включение CDR с помощью Windows PowerShell управления
+## <a name="enabling-cdr-by-using-windows-powershell-cmdlets"></a>Включение CDR с помощью Windows PowerShell-кодов
 
-Включить CDR можно с помощью Windows PowerShell и с помощью Windows PowerShell **Set-CsCdrConfiguration.** Вы можете запустить этот Windows PowerShell. Подробные сведения об использовании удаленного Windows PowerShell для подключения к Skype для бизнеса Server см. в статье [блога "Краткое руководство. Управление Microsoft Lync Server 2010 с](https://go.microsoft.com/fwlink/p/?linkId=255876)помощью удаленной powerShell". В Skype для бизнеса Server этот процесс тот же.
+Можно включить CDR с помощью Windows PowerShell **и комлета Set-CsCdrConfiguration.** Этот комлет можно выполнить либо из оболочки управления skype для бизнес-серверов, либо из удаленного сеанса Windows PowerShell. Сведения об использовании удаленных Windows PowerShell для подключения к Skype для бизнеса Server см. в статье блога ["Быстрый запуск: управление Microsoft Lync Server 2010 с](https://go.microsoft.com/fwlink/p/?linkId=255876)помощью удаленной powerShell". В Skype для бизнеса Server этот процесс является одинаковым.
 
 ### <a name="to-enable-cdr-for-a-single-location"></a>Включение CDR для отдельного места
 
@@ -57,7 +57,7 @@ ms.locfileid: "49816889"
 
 ### <a name="to-disable-cdr-for-a-single-location"></a>Чтобы отключить CDR для отдельного места
 
- Чтобы отключить CDR, задайте для параметра EnableCDR значение False ($False). Отключение CDR не означает, что мониторинг будет отключен. Приостанавливовка сбора и хранения данных CDR.
+ Чтобы отключить CDR, задайте для параметра EnableCDR значение False ($False). Отключение CDR не исключает мониторинг. Приостанавливется сбор и хранение данных CDR.
 
   ```PowerShell
   Set-CsCdrConfiguration -Identity "site:Redmond" -EnableCDR $False
@@ -71,10 +71,10 @@ ms.locfileid: "49816889"
   Get-CsCdrConfiguration | Set-CsCdrConfiguration -EnableCDR $True
   ```
 
-Дополнительные сведения см. в разделе справки по [cmdlet Set-CsCdrConfiguration.](https://docs.microsoft.com/powershell/module/skype/set-cscdrconfiguration?view=skype-ps)
+Дополнительные сведения см. в разделе справка для [cmdlet Set-CsCdrConfiguration.](/powershell/module/skype/set-cscdrconfiguration?view=skype-ps)
 
 ## <a name="see-also"></a>См. также
 
-[Планирование мониторинга](https://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx)
+[Планирование мониторинга](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-monitoring)
 
-[Мониторинг развертывания](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx)
+[Мониторинг развертывания](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-monitoring)

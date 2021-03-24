@@ -20,23 +20,23 @@ ms.custom:
 - Setup
 - O365P_OnlinePresenceDesc
 description: 'Learn how to set up Skype for Business so you can see the availability of your co-workers. '
-ms.openlocfilehash: f2b149a2b6277d356fe4478ee6de12ec6b078f48
-ms.sourcegitcommit: a5bc64abb02201cb5c2ff6696f6ef99064e1cae7
+ms.openlocfilehash: 807b2dd15b3bdbe1fac42192ed9052b26bf1f256
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "48753454"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51093493"
 ---
 # <a name="configure-presence-in-skype-for-business-online"></a>Настройка присутствия в Skype для бизнеса Online
 
 > [!IMPORTANT]
-> Центр администрирования Microsoft Teams заменил Центр администрирования Skype для бизнеса (устаревший портал). Все параметры управления Skype для бизнеса теперь находятся в Центре администрирования Teams. Чтобы управлять функциями Skype для бизнеса в Центре администрирования Teams, вам должна быть назначена роль администратора [Azure AD](https://docs.microsoft.com/azure/active-directory/roles/permissions-reference) глобального администратора или администратор Skype для бизнеса. Дополнительные сведения см. в статье [Управление параметрами Skype для бизнеса в Центре администрирования Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
+> Центр администрирования Microsoft Teams заменил Центр администрирования Skype для бизнеса (устаревший портал). Все параметры управления Skype для бизнеса теперь находятся в Центре администрирования Teams. Чтобы управлять функциями Skype для бизнеса в Центре администрирования Teams, вам должна быть назначена роль администратора [Azure AD](/azure/active-directory/roles/permissions-reference) глобального администратора или администратор Skype для бизнеса. Дополнительные сведения см. в статье [Управление параметрами Skype для бизнеса в Центре администрирования Microsoft Teams](/MicrosoftTeams/skype-for-business-settings?bc=%2fskypeforbusiness%2fbreadcrumb%2ftoc.json&toc=%2fskypeforbusiness%2fsfbotoc%2ftoc.json)
 
 По умолчанию все, кто может общаться с одним из пользователей в вашей организации с помощью Skype для бизнеса, также могут видеть, находится ли этот человек в сети. Skype для бизнеса показывает, доступен ли человек в сети, на собрании, в автономном режиме или по другому индикатору.
 
 ![Пример сетевого статуса человека в Skype для бизнеса.](../images/f0849132-1ddb-480f-bca6-cfe9eaa0486d.png)
 
-Как администратор **[для](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)** всех пользователей в вашей компании, вы можете выбрать, кто может увидеть их сетевое присутствие в Skype для бизнеса.
+Как администратор **[для](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)** всех пользователей в вашей компании, вы можете выбрать, кто видит их сетевое присутствие в Skype для бизнеса.
 
 ![Значок с логотипом Skype для бизнеса](../images/sfb-logo-30x30.png) **Использование центра администрирования Skype для бизнеса**
 
@@ -62,5 +62,3 @@ ms.locfileid: "48753454"
 [Настройка Skype для бизнеса Online](set-up-skype-for-business-online.md)
 
 [Разрешение на добавление контактов Skype пользователям Skype для бизнеса](let-skype-for-business-users-add-skype-contacts.md)
-
-

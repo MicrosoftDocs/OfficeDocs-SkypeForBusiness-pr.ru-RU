@@ -19,12 +19,12 @@ appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
 description: В этой статье описываются функции Microsoft Teams, доступные для гостей.
-ms.openlocfilehash: 25ea63de9bcdc85e0f7b81e382c2c9bcd057c629
-ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
-ms.translationtype: HT
+ms.openlocfilehash: 8eda5d3cabf497d105c0fd4a4610ba59db128bfc
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49661894"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092087"
 ---
 # <a name="guest-experience-in-teams"></a>Возможности гостя в Teams
 
@@ -105,8 +105,8 @@ ms.locfileid: "49661894"
 >  - Параметр **Гостевые доступы обладают ограниченным доступом к свойствам и участию объектов каталога** указывает, что у гостей нет разрешений на выполнение определенных задач в каталоге, например на перечисление пользователей, групп или других ресурсов каталога с помощью Microsoft Graph.
 >  - Параметр **Доступ гостевых пользователей ограничен свойствами и участием собственных объектов каталога (максимальное ограничение)** означает, что гости могут получать доступ только к собственным объектам каталога.
 >
->Дополнительные сведения см. в статье [Разрешения пользователя по умолчанию в Azure Active Directory](https://go.microsoft.com/fwlink/?linkid=2135493)
+>Дополнительные сведения см. в статье [Разрешения пользователя по умолчанию в Azure Active Directory](/azure/active-directory/fundamentals/users-default-permissions)
 
 ## <a name="related-topics"></a>Статьи по теме
 
-[Выход из организации в качестве гостя](https://docs.microsoft.com/azure/active-directory/b2b/leave-the-organization)
+[Выход из организации в качестве гостя](/azure/active-directory/b2b/leave-the-organization)

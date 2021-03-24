@@ -13,12 +13,12 @@ ms.collection:
 description: Узнайте, как использовать элементы управления PowerShell для управления Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e6ba8545159f8b18ebe39e49356f64378f946b29
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: e5526a7a7d782b8a30edd5b5169c3ba78953cc7c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50874809"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51094159"
 ---
 # <a name="install-microsoft-teams-powershell"></a>Установка Microsoft Teams PowerShell
 
@@ -34,10 +34,10 @@ ms.locfileid: "50874809"
 ## <a name="install-the-teams-powershell-module"></a>Установка модуля Teams PowerShell
 
 > [!NOTE]
-> Для лучшей работы используйте как общедоступные, так и общедоступные модули предварительного просмотра. Они не предназначены для совместной работы.
+> Для лучшей работы используйте как общедоступные, так и общедоступные модули предварительной версии. Они не предназначены для совместной работы.
 
 
-Используйте **командлеты PowerShellGet** для установки модуля Teams PowerShell. Установка модуля для всех пользователей в системе требует повышенных привилегий. Начните сеанс PowerShell с использованием команды **"Запуск** от администратора" в Windows или воспользуйтесь командой `sudo` в macOS или Linux:
+Используйте **командлеты PowerShellGet** для установки модуля Teams PowerShell. Установка модуля для всех пользователей в системе требует повышенных привилегий. Начните сеанс PowerShell с администратором **"Запуск"** в Windows или используйте команду `sudo` в macOS или Linux:
 
 ```powershell
 Install-Module MicrosoftTeams
@@ -84,7 +84,7 @@ Install-Module MicrosoftTeams -AllowPrerelease -RequiredVersion "1.1.9-preview"
 
 > [!NOTE]
 >
-> Соединитель Skype для бизнеса Online сейчас входит в состав последнего модуля Teams PowerShell.
+> Соединитель Skype для бизнеса Online сейчас является частью последнего модуля Teams PowerShell.
 > Если вы используете последний общедоступный выпуск [Teams PowerShell,](https://www.powershellgallery.com/packages/MicrosoftTeams/)вам не нужно устанавливать соединитель Skype для бизнеса Online.
 
 
@@ -101,7 +101,7 @@ Install-Module MicrosoftTeams -AllowPrerelease -RequiredVersion "1.1.9-preview"
 Чтобы приступить к работе с Teams PowerShell, войте учетные данные Azure.
 
 > [!NOTE]
-> Если вы используете последний общедоступный предварительный выпуск [Teams PowerShell,](https://www.powershellgallery.com/packages/MicrosoftTeams/)вам не нужно устанавливать Соединитель Skype для бизнеса Online.
+> Если вы используете последний общедоступный предварительный выпуск [Teams PowerShell,](https://www.powershellgallery.com/packages/MicrosoftTeams/)вам не нужно устанавливать соединитель Skype для бизнеса Online.
 
 ```powershell
 $credential = Get-Credential
@@ -114,7 +114,7 @@ $session = New-CsOnlineSession -Credential $credential
 Import-PsSession $session
 ```
 
-## <a name="sign-in-using-mfa-and-modern-authentication"></a>Вход с использованием MFA и современной проверки подлинности
+## <a name="sign-in-using-mfa-and-modern-authentication"></a>Вход с использованием многофационной проверки подлинности и современной проверки подлинности
 
  Если в вашей учетной записи используется многофакторная проверка подлинности, воспользуйтесь действиями, которые необходимо предпринять в этом разделе.
 
@@ -136,7 +136,7 @@ Update-Module MicrosoftTeams
 ```
 
 > [!WARNING]
-> Если teams PowerShell уже импортируется в сеанс PowerShell, обновление модуля будет невозмауэром. Закроем PowerShell и снова откройте новый сеанс PowerShell с повышенными уровнями.
+> Если teams PowerShell уже импортируется в сеанс PowerShell, обновление модуля не будет работать. Закроем PowerShell и снова откройте новый сеанс PowerShell с повышенными уровнями.
 
 
 ## <a name="uninstall-teams-powershell"></a>Удалить Teams PowerShell
@@ -155,12 +155,12 @@ Uninstall-Module MicrosoftTeams
 
 Теперь вы готовы управлять Teams с помощью Teams PowerShell. Для начала работы см. управление Teams с [помощью Teams PowerShell.](teams-powershell-managing-teams.md)
 
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Статьи по теме
 
 [Управление Teams с помощью Teams PowerShell](teams-powershell-managing-teams.md)
 
 [Заметки о выпуске Teams PowerShell](teams-powershell-release-notes.md)
 
-[Справочник по командлетам Microsoft Teams](https://docs.microsoft.com/powershell/teams/?view=teams-ps)
+[Справочник по командлетам Microsoft Teams](/powershell/teams/?view=teams-ps)
 
-[Справочник по cmdlet в Skype для бизнеса](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps)
+[Справочник по cmdlet в Skype для бизнеса](/powershell/skype/intro?view=skype-ps)

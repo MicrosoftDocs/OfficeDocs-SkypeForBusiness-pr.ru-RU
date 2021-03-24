@@ -1,5 +1,5 @@
 ---
-title: Пример дела с голосовой почтой Contoso в Teams
+title: Пример дела с голосовой командой Contoso
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -16,12 +16,12 @@ f1.keywords:
 description: Пример голосовой работы Teams для многоязычной корпорации
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 93f6d0877537a740dc867b44c3c4deb9bebb8441
-ms.sourcegitcommit: 6f7b91f573e2a034f8c5474be2c5cb2971f4b5ab
+ms.openlocfilehash: b0da56bc0da083654a0cd694bd5983f2fe4fe515
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50421294"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51093729"
 ---
 # <a name="contoso-case-study-teams-upgrade-plan"></a>Пример: план обновления Teams
 
@@ -31,11 +31,11 @@ ms.locfileid: "50421294"
 
 - [Начало перехода на Microsoft Teams](upgrade-start-here.md)
 - [Стратегии обновления для ИТ-администраторов](upgrade-to-teams-on-prem-implement.md) 
-- [Руководство по миграции и интерперсивности](migration-interop-guidance-for-teams-with-skype.md)
+- [Руководство по миграции и взаимосвязи](migration-interop-guidance-for-teams-with-skype.md)
  
 Компания Contoso также участвовала в сеансе Ignite 2019, в котором вы можете найти путь от Skype для бизнеса [к Teams.](https://myignite.techcommunity.microsoft.com/sessions/81820?source=sessions) Мы узнали о:
 
-- Основные понятия, такие как interoperability, федерация и поведение обновления 
+- Основные понятия, такие как взаимосвязи, федерация и обновление 
 
 - Режимы сосуществования и управление на основе TeamsUpgradePolicy 
 
@@ -47,14 +47,14 @@ ms.locfileid: "50421294"
 
   - Доступность функций совместной работы в клиентах Teams 
 
-Чтобы спланировать и настроить гибридное подключение, первым этапом перемещения локальной среды [](https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity) в облако является [](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity) contoso, прочитав статью "Планирование гибридного подключения" и "Настройка гибридного подключения", чтобы понять, как это сделать: 
+Чтобы спланировать и настроить гибридное подключение, первым этапом перемещения локальной среды [](/SkypeForBusiness/hybrid/plan-hybrid-connectivity) в облако contoso читайте статью "Планирование гибридного подключения" и "Настройка гибридного подключения", чтобы понять, как это сделать: [](/SkypeForBusiness/hybrid/configure-hybrid-connectivity) 
 
   - Настройка локальной службы среды для федерации с помощью Office 365. 
 
-  - Настройка доверия к Office 365 в локальной среде и настройка общего адресного пространства SIP с помощью Office 365 
+  - Настройка доверия к Office 365 в локальной среде и включить общее адресное пространство SIP в Office 365 
 
   - Включить общее адресное пространство SIP в клиенте Office 365.
 
   - Используйте режим "Острова" во время технического пилотного проекта.
 
-  - Переключение пользователей в режим TeamsOnly после включения телефонной системы. Режим TeamsOnly требуется для планов звонков и прямой маршрутации. 
+  - Переключение пользователей в режим TeamsOnly после включения телефонной системы. Режим TeamsOnly требуется для планов звонков и прямой маршрутации.

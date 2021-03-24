@@ -18,16 +18,16 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Управление шаблонами Teams в Центре администрирования
-ms.openlocfilehash: 27cf2d2d80f0e715e5ee9e9390ca86d81bd39d70
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: db28d1fa3c84210c3f1e2d80e74a59252f922258
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50875139"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51093929"
 ---
 # <a name="manage-teams-templates-in-the-admin-center"></a>Управление шаблонами Teams в Центре администрирования
 
-Чтобы управлять шаблонами Teams, которые видят пользователи, создайте политики шаблонов в Центре администрирования. В каждой политике шаблонов можно узначить, какие шаблоны должны быть показаны или скрыты.
+Чтобы управлять шаблонами Teams, которые видят пользователи, создайте политики шаблонов в Центре администрирования. В каждой политике шаблонов можно узначить, какие шаблоны будут показаны или скрыты.
 Назначайте разным пользователям различные политики шаблонов, чтобы они просматривали только указанное подмножество шаблонов Teams.
 
 Просмотрите этот короткий видеоролик, чтобы узнать, как управлять политиками шаблонов.
@@ -38,7 +38,7 @@ ms.locfileid: "50875139"
 
 1. Войдите в Центр администрирования Teams.
 
-2.   >  **Разорите политики шаблонов** Teams.
+2.   >  **Разорите политики шаблонов Teams.**
 
 3. Нажмите **Добавить**.
 
@@ -60,7 +60,7 @@ ms.locfileid: "50875139"
 
 2. Выберите шаблоны, которые нужно отобрать, и выберите **"Показать".**
 
-   ![Выбранные шаблоны, которые не скрыты](media/template-policies-3.png)
+   ![Не скрытые выбранные шаблоны](media/template-policies-3.png)
 
    Выбранные шаблоны появятся в таблице шаблонов **для** просмотра.
 3. Выберите **"Сохранить".**
@@ -90,7 +90,7 @@ ms.locfileid: "50875139"
 
 **Вопрос. Можно ли пакетно назначить пользователей политикам шаблонов группы?**
   
-Ответ. Да, мы поддерживаем пакетное назначение для политики шаблонов в PowerShell. Для этого действия тип политики TeamsTemplatePermissionPolicy. [Подробнее](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation)
+Ответ. Да, мы поддерживаем пакетное назначение для политики шаблонов в PowerShell. Для этого действия тип политики TeamsTemplatePermissionPolicy. [Подробнее](/powershell/module/teams/new-csbatchpolicyassignmentoperation)
 
 **Вопрос. Могут ли группы быть назначены политикам шаблонов групп?**
 
@@ -112,7 +112,7 @@ ms.locfileid: "50875139"
 1. В таблице списка "Пользователи" выберите пользователей, которые хотите назначить определенной политике шаблонов.
 1. Выберите "Изменить параметры" и измените поле "Политики шаблонов".
 1. Выберите "Применить".
-   Узнайте, как назначать политики пользователям в [Microsoft Teams — Microsoft \| Teams, Microsoft Docs.](https://docs.microsoft.com/microsoftteams/assign-policies#assign-a-policy-to-a-batch-of-users)
+   Подробнее о назначении политик пользователям [в Microsoft Teams — Microsoft Teams в Microsoft \| Docs.](./assign-policies.md#assign-a-policy-to-a-batch-of-users)
 
 **Вопрос. Как просмотреть всех пользователей, которые назначены определенной политике?**
 
@@ -132,16 +132,16 @@ ms.locfileid: "50875139"
 
 О. Нет, политики шаблонов для EDU не поддерживаются.
 
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Статьи по теме
 
-- [Начало работы с шаблонами групп в Центре администрирования](https://docs.microsoft.com/MicrosoftTeams/get-started-with-teams-templates-in-the-admin-console)
+- [Начало работы с шаблонами групп в Центре администрирования](./get-started-with-teams-templates-in-the-admin-console.md)
 
-- [Создание настраиваемой команды](https://docs.microsoft.com/MicrosoftTeams/create-a-team-template)
+- [Создание настраиваемой команды](./create-a-team-template.md)
 
-- [Создание шаблона из существующей команды](https://docs.microsoft.com/MicrosoftTeams/create-template-from-existing-team)
+- [Создание шаблона из существующей команды](./create-template-from-existing-team.md)
 
-- [Создание шаблона команды из существующего шаблона](https://docs.microsoft.com/MicrosoftTeams/create-template-from-existing-template)
+- [Создание шаблона команды из существующего шаблона](./create-template-from-existing-template.md)
 
-- [Назначение политик пользователям в Microsoft Teams — Microsoft Teams \| Microsoft Docs](https://docs.microsoft.com/microsoftteams/assign-policies)
+- [Назначение политик пользователям в Microsoft Teams — Microsoft Teams \| Microsoft Docs](./assign-policies.md)
 
-- [Пакетное назначение пользователей политике](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation)
+- [Пакетное назначение пользователей политике](/powershell/module/teams/new-csbatchpolicyassignmentoperation)

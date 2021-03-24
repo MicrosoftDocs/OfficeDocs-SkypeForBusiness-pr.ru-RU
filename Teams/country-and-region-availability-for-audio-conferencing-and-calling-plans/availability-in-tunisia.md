@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Вот службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Туниса.
-ms.openlocfilehash: 69e3359a56367a14429953dadb50639e497673fc
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: c95a143b6f5f76c37d9e9578a2b676adb91a58eb
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49825459"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51094581"
 ---
 # <a name="availability-in-tunisia"></a>Доступность в Тунисе
 
@@ -43,7 +43,7 @@ ms.locfileid: "49825459"
 |:-----|:-----|
 |Доступно ли приобретение аудиоконференций?  <br/> |Да, только с [поминутной оплатой](../audio-conferencing-pay-per-minute.md) <br/> |
 |Номера телефонов автоматически назначаются для аудио конференций?  <br/> |Нет  <br/> |
-|Возможность дозвона с помощью функции «Позвони мне»  <br/> | Требуются кредиты связи <br/> |
+|Возможность получить обратный звонок с функцией "Звонок на мой номер"  <br/> | Требуются кредиты связи <br/> |
    
 ## <a name="phone-system"></a>Телефонная система
 
@@ -72,7 +72,7 @@ ms.locfileid: "49825459"
 |Доступны ли платные номера?  <br/> |Да  <br/> |
 |Доступны ли бесплатные номера?  <br/> |Нет  <br/> |
    
- Если вы хотите получить платные и бесплатные номера телефонов для аудиоконференций, автоотетарей и очередей звонков, см. получение номеров телефонов служб для Skype для бизнеса и [Microsoft Teams.](/microsoftteams/getting-service-phone-numbers)
+ Если вы хотите получить платные и бесплатные номера телефонов для аудиоконференций, автоотетарей и очередей звонков, см. получение номеров телефонов служб для Skype для бизнеса и [Microsoft Teams.](../getting-service-phone-numbers.md)
   
 ## <a name="communications-credits"></a>Кредиты на связь
 
@@ -84,7 +84,6 @@ ms.locfileid: "49825459"
   
 ## <a name="related-topics"></a>Статьи по теме
 
-[Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
+[Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](../getting-service-phone-numbers.md)
 
 [Доступность аудиоконференций и планов звонков в различных странах и регионах](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-

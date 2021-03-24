@@ -25,26 +25,26 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Вот службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Уругвая.
-ms.openlocfilehash: 780a713673b40aee77ff9f517a863143cd06b6fc
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+ms.openlocfilehash: 8f316fc79b5c1dc8e9bb85fda30dc86dba23c13e
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44230317"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51094491"
 ---
 # <a name="availability-in-uruguay"></a>Доступность в Уругвае
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже 2010 г. доступны службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Уругвая.
+Вот службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Уругвая.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 
 |**Функция**|**Details**|
 |:-----|:-----|
 |Доступно ли приобретение аудиоконференций?  <br/> |Да  <br/> |
-|Номера телефонов автоматически назначаются для аудио конференций?  <br/> |Нет  <br/> |
-|Возможность дозвона с помощью функции «Позвони мне»  <br/> |Требуются кредиты связи  <br/> |
+|Назначаются ли номера телефонов для аудиоконференций автоматически?  <br/> |Нет  <br/> |
+|Возможность получить обратный звонок с функцией "Звонок на мой номер"  <br/> |Требуются кредиты связи  <br/> |
    
 ## <a name="phone-system"></a>Телефонная система
 
@@ -73,7 +73,7 @@ ms.locfileid: "44230317"
 |Доступны ли платные номера?  <br/> |Да[(по запросу)](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)  <br/> |
 |Доступны ли бесплатные номера?  <br/> |Да  <br/> |
    
- Если вы хотите получить платные и бесплатные номера телефонов для аудиоконференций, автосекретарей и очередей звонков, см. статью [Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](/microsoftteams/getting-service-phone-numbers).
+ Если вы хотите получить платные и бесплатные номера телефонов для аудиоконференций, автосекретарей и очередей звонков, см. статью [Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](../getting-service-phone-numbers.md).
   
 ## <a name="communications-credits"></a>Кредиты на связь
 
@@ -85,9 +85,8 @@ ms.locfileid: "44230317"
   
 ## <a name="related-topics"></a>Статьи по теме
 
-[Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
+[Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](../getting-service-phone-numbers.md)
 
 [Доступность аудиоконференций и планов звонков в различных странах и регионах](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
   
- 

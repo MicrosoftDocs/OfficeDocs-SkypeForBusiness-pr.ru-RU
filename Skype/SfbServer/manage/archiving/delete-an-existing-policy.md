@@ -11,27 +11,27 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 8b88bed9-2b37-4caf-b119-48688076e06a
-description: Сводка. Узнайте, как удалить политику архива для Skype для бизнеса Server.
-ms.openlocfilehash: 7d71fd9ca03f743cd51e0161cd1a3b437be43cb2
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Сводка. Сведения об удалении политики архива для Skype для бизнеса Server.
+ms.openlocfilehash: 2baad7d862b1b6739019a4459492bfb3b67e04cc
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49817619"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51095393"
 ---
 # <a name="delete-an-existing-archiving-policy-in-skype-for-business-server"></a>Удаление существующей политики архива в Skype для бизнеса Server
 
 **Сводка:** Узнайте, как удалить политику архива для Skype для бизнеса Server.
   
-Можно удалить политику пользователя или политику сайта, но не глобальную политику. При удалении глобальной политики Skype для бизнеса Server автоматически сбрасывает политику до значений по умолчанию.
+Можно удалить политику пользователя или политику сайта, но не глобальную политику. Если удалить глобальную политику, Skype для бизнеса Server автоматически сбрасывает политику к значениям по умолчанию.
   
 ## <a name="delete-a-policy-by-using-the-control-panel"></a>Удаление политики с помощью панели управления
 
 1. Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи пользователя, назначенной роли CsArchivingAdministrator или CsAdministrator. 
     
-2. Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Skype для бизнеса Server. 
+2. Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Skype для бизнес-серверов. 
     
-3. В левой панели навигации щелкните **"Мониторинг и** архивации" и выберите "Политика **архивации".**
+3. В левой панели навигации щелкните **Мониторинг** и архивации, а затем нажмите кнопку **Политика архивации**.
     
 4. В списке политик архивации щелкните политику пользователей или сайта, которую следует удалить, щелкните **Изменить**, затем **Удалить**.
     
@@ -41,13 +41,13 @@ ms.locfileid: "49817619"
 
 Вы также можете удалить политики архива с помощью **cmdlet Remove-CsArchivingPolicy.**
   
-Например, следующая команда удаляет политику с идентификатором site:Redmond. При удалении политики, настроенной на уровне сайта, пользователи, которыми ранее управляла политика сайта, будут автоматически управляться глобальной политикой архива:
+Например, следующая команда удаляет политику с помощью сайта Identity:Redmond. При удалении политики, настроенной на уровне сайта, пользователи, ранее управляемые политикой сайта, будут автоматически управляться глобальной политикой архива:
   
 ```PowerShell
 Remove-CsArchivingPolicy -Identity site:Redmond
 ```
 
-Эта команда удаляет все политики архива, применяемые на уровне пользователя:
+Эта команда удаляет все политики архива, применяемые к уровню каждого пользователя:
   
 ```PowerShell
 Get-CsArchivingPolicy -Filter "tag:*" | Remove-CsArchivingPolicy
@@ -59,4 +59,4 @@ Get-CsArchivingPolicy -Filter "tag:*" | Remove-CsArchivingPolicy
 Get-CsArchivingPolicy | Where-Object {$_.ArchiveInternal -eq $False} | Remove-CsArchivingPolicy
 ```
 
-Дополнительные сведения см. в разделе справки по [cmdlet Remove-CsArchivingPolicy.](https://docs.microsoft.com/powershell/module/skype/remove-csarchivingpolicy?view=skype-ps)
+Дополнительные сведения см. в разделе Справка для [cmdlet Remove-CsArchivingPolicy.](/powershell/module/skype/remove-csarchivingpolicy?view=skype-ps)

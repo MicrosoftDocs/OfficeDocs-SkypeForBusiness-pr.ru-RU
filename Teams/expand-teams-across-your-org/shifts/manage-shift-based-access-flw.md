@@ -15,17 +15,17 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 437902136bf72685dabf5bd6359dd6221c7467de
-ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
+ms.openlocfilehash: c69f5678b2a3884f52dd3dc676fce21e2ee67f4f
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49909473"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092547"
 ---
 # <a name="manage-shift-based-access-for-frontline-workers-in-teams"></a>Управление доступом сотрудников, работающих со сменами, в Teams
 
 > [!IMPORTANT]
-> С 30 июня 2020 г. больше не будет microsoft StaffHub. Мы строите возможности StaffHub в Microsoft Teams. На сегодняшний день в Teams есть приложение "Смены" для управления расписанием, а со временем будут отключаться дополнительные возможности. StaffHub перестал работать для всех пользователей 30 июня 2020 г. Всем, кто пытается открыть StaffHub, отображается сообщение с командой для скачивания Teams. Дополнительные информации см. в том, что служба [Microsoft StaffHub больше не была установлена.](microsoft-staffhub-to-be-retired.md)  
+> Поддержка Microsoft StaffHub прекращена с 30 июня 2020 г. Мы строите возможности StaffHub в Microsoft Teams. В настоящее время в состав Teams входит приложение "Смены" для управления расписанием, и со временем будут развернуты дополнительные возможности. Приложение StaffHub перестало работать для всех пользователей 30 июня 2020 г. При любой попытке открыть StaffHub отображается сообщение, ведущее на скачивание Teams. Дополнительные сведения см. в статье [Поддержка Microsoft StaffHub прекращена](microsoft-staffhub-to-be-retired.md).  
 
 ## <a name="overview"></a>Обзор
 
@@ -43,7 +43,7 @@ ms.locfileid: "49909473"
 
 В вашей организации есть сотрудники, которые работают в компании только в течение нескольких часов, запланировали и утвердили своего руководителя. За работу вне запланированной смены, включаемой в приложение Teams, не следует платить за время, проведенное за пределами запланированной смены. Вы настроили настраиваемое сообщение "Ваше время в Teams при выходе из смены не будет учитываться в часах оплаты", которое отображается, когда сотрудники, работающие с телефоном, пытаются получить доступ к Teams, когда они не работают в смену. Если они будут использовать Teams, они нажимают кнопку **"Я принимаю"** с пониманием, что на этот раз они не будут платить.
 
-В вашей организации также есть информационные работники, которые получают зарплату и не работают сменами. Информационные работники настраивают использование состояния присутствия по умолчанию в Teams, при этом предоставляя сотрудникам, работающим со сменой, присутствие на смене.
+В вашей организации также есть информационные работники, которые получают зарплату и не работают сменами. Информационные работники должны использовать стандартные состояния присутствия в Teams, при этом предоставляя сотрудникам, работающим со сменой, смену присутствия.
 
 ## <a name="shift-based-presence-states"></a>Состояния присутствия на основе смены
 
@@ -69,15 +69,15 @@ ms.locfileid: "49909473"
 
 Администраторы могут управлять присутствием сотрудников без компьютеров в организации с помощью политик. Для управления этими политиками можно использовать следующие cmdlets PowerShell:
 
-- [New-CsTeamsShiftsPolicy](https://docs.microsoft.com/powershell/module/teams/new-csteamsshiftspolicy)
-- [Get-CsTeamsShiftsPolicy](https://docs.microsoft.com/powershell/module/teams/get-csteamsshiftspolicy)
-- [Set-CsTeamsShiftsPolicy](https://docs.microsoft.com/powershell/module/teams/set-csteamsshiftspolicy)
-- [Grant-CsTeamsShiftsPolicy](https://docs.microsoft.com/powershell/module/teams/grant-csteamsshiftspolicy)
-- [Remove-CsTeamsShiftsPolicy](https://docs.microsoft.com/powershell/module/teams/remove-csteamsshiftspolicy)
+- [New-CsTeamsShiftsPolicy](/powershell/module/teams/new-csteamsshiftspolicy)
+- [Get-CsTeamsShiftsPolicy](/powershell/module/teams/get-csteamsshiftspolicy)
+- [Set-CsTeamsShiftsPolicy](/powershell/module/teams/set-csteamsshiftspolicy)
+- [Grant-CsTeamsShiftsPolicy](/powershell/module/teams/grant-csteamsshiftspolicy)
+- [Remove-CsTeamsShiftsPolicy](/powershell/module/teams/remove-csteamsshiftspolicy)
 
 Используйте New-CsTeamsShiftsPolicy для создания новой политики, настройки нужных параметров политики, а затем используйте Grant-CsTeamsShiftsPolicy для назначения политики пользователям.
 
-Вот несколько примеров. Подробные сведения о параметрах и параметрах политики, включая список предопределений сообщений о сменах, которые можно выбрать, см. в описании [new-CsTeamsShiftsPolicy.](https://docs.microsoft.com/powershell/module/teams/new-csteamsshiftspolicy)
+Вот несколько примеров. Подробные сведения о параметрах и параметрах политики, включая список предопределений сообщений о сменах, которые можно выбрать, см. в описании [new-CsTeamsShiftsPolicy.](/powershell/module/teams/new-csteamsshiftspolicy)
 
 ### <a name="example-1"></a>Пример 1
 
@@ -88,18 +88,18 @@ New-CsTeamsShiftsPolicy -Identity "Off Shift Teams Access Default Message" -En
 ```
 
 > [!NOTE]
-> С помощью **параметра ShiftNoticeMessageType** можно настроить сообщение, которое вы хотите отобразить. Список сообщений, которые можно выбрать для этого параметра, можно найти в [new-CsTeamsShiftsPolicy.](https://docs.microsoft.com/powershell/module/teams/new-csteamsshiftspolicy)
+> С помощью **параметра ShiftNoticeMessageType** можно настроить сообщение, которое вы хотите отобразить. Список сообщений, которые можно выбрать для этого параметра, можно найти в [new-CsTeamsShiftsPolicy.](/powershell/module/teams/new-csteamsshiftspolicy)
 
 ### <a name="example-2"></a>Пример 2 
 
-В этом примере мы создали новую политику Off Shift Teams Access Custom Message. В этой политике присутствие на основе смены включено, и пользователь, которому назначена эта политика, получает доступ к Teams каждый раз при смене. Пользователь может использовать Teams, если он принимает сообщение, и период отсрочки между первым началом и окончанием последней смены и ограничением доступа составляет 15 минут.  
+В этом примере мы создали новую политику Off Shift Teams Access Custom Message. В этой политике присутствие на основе смены включено, и пользователь, которому назначена эта политика, получает доступ к Teams каждый раз при смене. Пользователь может использовать Teams, если он принимает сообщение, и период отсрочки между первым началом и последней сменой и ограничением доступа составляет 15 минут.  
 
 ```powershell
 New-CsTeamsShiftsPolicy -Identity "Off Shift Teams Access Custom Message" -EnableShiftPresence $true -ShiftNoticeFrequency always -ShiftNoticeMessageType CustomMessage -ShiftNoticeMessageCustom "Your time on Teams when on off shift won't count toward payable hours" -AccessType UnrestrictedAccess_TeamsApp -AccessGracePeriodMinutes 15
 ```
 
 > [!NOTE]
-> С помощью **параметра ShiftNoticeMessageType** можно настроить сообщение, которое вы хотите отобразить. Подробнее см. в [теме New-CsTeamsShiftsPolicy.](https://docs.microsoft.com/powershell/module/teams/new-csteamsshiftspolicy)
+> С помощью **параметра ShiftNoticeMessageType** можно настроить сообщение, которое вы хотите отобразить. Подробнее см. в [new-CsTeamsShiftsPolicy.](/powershell/module/teams/new-csteamsshiftspolicy)
 
 ### <a name="example-3"></a>Пример 3
 
@@ -114,7 +114,7 @@ New-CsTeamsShiftsPolicy -Identity "Off Shift Teams Access Message1" -EnableShi
 ```
 
 > [!NOTE]
-> С помощью **параметра ShiftNoticeMessageType** можно настроить сообщение, которое вы хотите отобразить. Список сообщений, которые можно выбрать для этого параметра, можно найти в [new-CsTeamsShiftsPolicy.](https://docs.microsoft.com/powershell/module/teams/new-csteamsshiftspolicy)
+> С помощью **параметра ShiftNoticeMessageType** можно настроить сообщение, которое вы хотите отобразить. Список сообщений, которые можно выбрать для этого параметра, можно найти в [new-CsTeamsShiftsPolicy.](/powershell/module/teams/new-csteamsshiftspolicy)
 
 ### <a name="example-4"></a>Пример 4
 

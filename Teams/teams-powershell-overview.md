@@ -13,12 +13,12 @@ ms.collection:
 description: Узнайте, как использовать элементы управления PowerShell для управления Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3ec9c9062a26442ae03a332f7cdd6f1e9b56cee5
-ms.sourcegitcommit: da2a70a9b5e05d0fd7ecc150b451f5805667514c
+ms.openlocfilehash: 6d191d4d1dbb9c3d3d2f206bce76e9d3ddd7d78d
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "50756163"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51094119"
 ---
 # <a name="microsoft-teams-powershell-overview"></a>Обзор Microsoft Teams PowerShell
 
@@ -50,7 +50,7 @@ Teams PowerShell доступен в коллекции [PowerShell](https://www
 > [!NOTE]
 > Общедоступный выпуск [Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/) версии 1.1.6 или более поздней интегрирован со Skype для бизнеса Online Connector, что позволяет использовать один модуль для управления Teams PowerShell.
 
-- [Соединитель Skype для бизнеса PowerShell Connector](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell): соединитель Skype для бизнеса PowerShell теперь является частью модуля Teams PowerShell.
+- [Соединитель Skype для бизнеса PowerShell Connector](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell): соединитель Skype для бизнеса PowerShell теперь является частью модуля Teams PowerShell.
 
 Полное руководство по управлению Teams с помощью этих модулей см. в руководстве [Teams с помощью Teams PowerShell.](teams-powershell-managing-teams.md)
 
@@ -63,8 +63,8 @@ Teams PowerShell доступен в коллекции [PowerShell](https://www
 
 [Заметки о выпуске Teams PowerShell](teams-powershell-release-notes.md)
 
-[Справочник по командлетам Microsoft Teams](https://docs.microsoft.com/powershell/teams/?view=teams-ps)
+[Справочник по командлетам Microsoft Teams](/powershell/teams/?view=teams-ps)
 
-[Справочник по cmdlet в Skype для бизнеса](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps)
+[Справочник по cmdlet в Skype для бизнеса](/powershell/skype/intro?view=skype-ps)
 
 [Управление Microsoft Teams с ролями администратора](using-admin-roles.md)

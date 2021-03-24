@@ -20,23 +20,23 @@ ms.custom:
 - Setup
 - ms.lync.lac.OrgMobileNotification
 description: Узнайте, как включить или отключить уведомления на мобильном телефоне, чтобы пользователи могли получать оповещения о входящих сообщениях, голосовой почте и пропущенных мгновенных сообщениях.
-ms.openlocfilehash: f508c106d2ce2e95d8c7763e3360960beccfc958
-ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
+ms.openlocfilehash: 4eefd581da09c2767c0ab44b514d33e7a3fb4d8c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "48739217"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51093347"
 ---
 # <a name="turn-on-or-off-mobile-phone-notifications"></a>Включение и отключение уведомлений на мобильном телефоне
 
 > [!IMPORTANT]
-> Центр администрирования Microsoft Teams заменил Центр администрирования Skype для бизнеса (устаревший портал). Все параметры управления Skype для бизнеса теперь находятся в Центре администрирования Teams. Дополнительные сведения см. в статье [Управление параметрами Skype для бизнеса в Центре администрирования Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
+> Центр администрирования Microsoft Teams заменил Центр администрирования Skype для бизнеса (устаревший портал). Все параметры управления Skype для бизнеса теперь находятся в Центре администрирования Teams. Дополнительные сведения см. в статье [Управление параметрами Skype для бизнеса в Центре администрирования Microsoft Teams](/MicrosoftTeams/skype-for-business-settings?bc=%2fskypeforbusiness%2fbreadcrumb%2ftoc.json&toc=%2fskypeforbusiness%2fsfbotoc%2ftoc.json)
 
 Назначая роли администратора в приложениях **[Microsoft 365](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)** для бизнеса для своей организации, вы можете выбрать, будут ли пользователи Skype для бизнеса получать оповещения о входящих и пропущенных мгновенных сообщениях на мобильных телефонах и планшетных ПК.
   
 На телефонах с Android и Windows Phones уведомления Skype для бизнеса появляются в режиме реального времени. Однако на устройствах Windows Phone, iPhone и iPad для этого используется push-уведомление, если вы не используете Skype для бизнеса на телефоне или планшете.
   
-## <a name="turn-push-notifications-off-for-all-the-windows-phone-or-apple-devices-in-your-organization"></a>Отключение push-уведомлений для всех устройств с Windows Phone или Apple в организации
+## <a name="turn-push-notifications-off-for-all-the-windows-phone-or-apple-devices-in-your-organization"></a>Отключение push-уведомлений для всех устройств Windows Phone или Apple в организации
 <a name="__top"> </a>
 
 ![Значок с логотипом Skype для бизнеса](../images/sfb-logo-30x30.png) **Использование центра администрирования Skype для бизнеса**
@@ -65,4 +65,3 @@ ms.locfileid: "48739217"
 [Настройка Skype для бизнеса Online](set-up-skype-for-business-online.md)
 
   
- 

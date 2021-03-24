@@ -22,12 +22,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: e0fb125ede9300395e045a0c5640abd075547562
-ms.sourcegitcommit: 04eba352d9e203aa9cd1282c4f4c7158a0469678
-ms.translationtype: HT
+ms.openlocfilehash: aa26dd24fac90b023453e3834baf51da6f292082
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/23/2021
-ms.locfileid: "49944614"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092257"
 ---
 # <a name="manage-the-lists-app-for-your-organization-in-microsoft-teams"></a>Управление приложением Lists для организации в Microsoft Teams
 
@@ -70,7 +70,7 @@ ms.locfileid: "49944614"
 
 Данные Lists хранятся на сайте группы SharePoint Online. Дополнительные сведения о взаимодействии SharePoint Online и Teams см. в статье [Взаимодействие SharePoint Online и OneDrive для бизнеса с Teams](SharePoint-OneDrive-interact.md).
 
-Разрешения, установленные в SharePoint, применяются к спискам, созданным в приложении Lists. По умолчанию списки наследуют разрешения от сайта, к которому они относятся. Эти разрешения определяют типы действий, которые пользователи могут выполнять, например возможность создавать и редактировать списки. Подробнее см. в статьях [Уровни разрешений в SharePoint](https://docs.microsoft.com/sharepoint/understanding-permission-levels) и [Разрешения пользователей и уровни разрешений в SharePoint Server](https://docs.microsoft.com/sharepoint/sites/user-permissions-and-permission-levels).
+Разрешения, установленные в SharePoint, применяются к спискам, созданным в приложении Lists. По умолчанию списки наследуют разрешения от сайта, к которому они относятся. Эти разрешения определяют типы действий, которые пользователи могут выполнять, например возможность создавать и редактировать списки. Подробнее см. в статьях [Уровни разрешений в SharePoint](/sharepoint/understanding-permission-levels) и [Разрешения пользователей и уровни разрешений в SharePoint Server](/sharepoint/sites/user-permissions-and-permission-levels).
 
 В некоторых случаях может потребоваться ограничить действия, доступные пользователям в списках. Например, пользователь в команде редактирует представление списка, которое изменяет его для всех членов команды, и вы хотите, чтобы только владелец команды или определенные участники могли редактировать представления списка. Подробнее см. в статье [Настройка разрешений для списка или библиотеки SharePoint](https://support.microsoft.com/office/customize-permissions-for-a-sharepoint-list-or-library-02d770f3-59eb-4910-a608-5f84cc297782#ID0EAACAAA=Online,_2019,_2016,_2013).
 
@@ -105,15 +105,15 @@ ms.locfileid: "49944614"
 
 ## <a name="search-the-audit-log-for-list-events"></a>Поиск событий списка в журнале аудита
 
-В Lists включена функция аудита на уровне предприятия для поиска списков и их элементов в журнале аудита в Центре безопасности и соответствия требованиям. Подробнее см. в статье [Поиск по журналу аудита в Центре безопасности и соответствия требованиям](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance).
+В Lists включена функция аудита на уровне предприятия для поиска списков и их элементов в журнале аудита в Центре безопасности и соответствия требованиям. Подробнее см. в статье [Поиск по журналу аудита в Центре безопасности и соответствия требованиям](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance).
 
-Список событий аудита, относящихся к приложению Lists в Teams, см. в статье [Действия со списками SharePoint](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#sharepoint-list-activities).
+Список событий аудита, относящихся к приложению Lists в Teams, см. в статье [Действия со списками SharePoint](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#sharepoint-list-activities).
 
 Прежде чем выполнять поиск в журнале аудита, необходимо сначала включить функцию аудита в [Центре безопасности и соответствия требованиям](https://protection.office.com). Обратите внимание на то, что данные аудита доступны только с момента его включения.
 
 ## <a name="power-automate-power-apps-and-graph-api"></a>Power Automate, Power Apps и API Graph
 
-Приложение Lists поддерживает [Power Automate](https://docs.microsoft.com/power-automate/flow-types) для рабочих процессов и [Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/customize-list-form) для форм списков. Разработчики могут использовать [API Lists ](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/working-with-lists-and-list-items-with-rest) для подключения данных списка в качестве источника в Microsoft Graph.
+Приложение Lists поддерживает [Power Automate](/power-automate/flow-types) для рабочих процессов и [Power Apps](/powerapps/maker/canvas-apps/customize-list-form) для форм списков. Разработчики могут использовать [API Lists ](/sharepoint/dev/sp-add-ins/working-with-lists-and-list-items-with-rest) для подключения данных списка в качестве источника в Microsoft Graph.
 
 ## <a name="give-feedback-or-report-an-issue"></a>Отзывы и отчеты о неполадках
   

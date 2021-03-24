@@ -24,31 +24,31 @@ metadata:
   search.appverid: MET150
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 7909d77e2c8d6a99bdeb501172f528aeb78c142f
-  ms.sourcegitcommit: d6e97621b1bfe9c3fbd8bc41b30a94bafd17b28f
+  ms.openlocfilehash: 1fea5f1d806058d8b7ff6d37414543347ba6adf8
+  ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
   ms.translationtype: MT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 01/25/2021
-  ms.locfileid: "49973163"
+  ms.lasthandoff: 03/23/2021
+  ms.locfileid: "51093749"
 productDirectory:
   items:
   - title: Планирование перехода (начните отсюда!)
     imageSrc: https://docs.microsoft.com/office/media/icons/get-started-teams.svg
-    summary: Независимо от того, переходите ли вы на Teams до выхода из Skype для бизнеса Online (31 июля 2021 г.) или переходите ли вы на Teams из локальной среды Skype для бизнеса в Teams, успешный переход касается как технической, так и пользовательской готовности. Откройте для себя проверенные структуры, лучшие методики и ресурсы, которые помогут вам успешно перейти на Teams со Skype для бизнеса Online, Skype для бизнеса Server или гибридной среды. Аудитория — все (спонсоры бизнеса, ИТ-администраторы, менеджер по готовности пользователей и изменениям, интерес к проекту)
+    summary: Независимо от того, переходите ли вы на Teams до выхода из Skype для бизнеса Online (31 июля 2021 г.) или переходите ли вы на Teams из локальной среды Skype для бизнеса, успешное переходное решение адресовает как технические, так и пользовательские готовности. Откройте для себя проверенные структуры, лучшие методики и ресурсы, которые помогут вам успешно перейти на Teams со Skype для бизнеса Online, Skype для бизнеса Server или гибридной среды. Аудитория — все (спонсоры бизнеса, ИТ-администраторы, менеджер по готовности пользователей и изменениям, интерес к проекту)
     url: https://microsoftteams.eventbuilder.com/PlanYourUpgrade
   - title: Внедрение обновления Teams
     imageSrc: https://docs.microsoft.com/office/media/icons/hybrid-teams.svg
-    summary: Присоединяйтесь к нам, чтобы выявить и подготовиться к выполнению наилучшего технического подхода для перемещения всех рабочих нагрузок в Teams с учетом ваших целей и текущей среды Skype для бизнеса. Большинство клиентов, успешно выключивших переходы, включили Teams вместе с их текущей версией Skype для бизнеса Online, Skype для бизнеса Server или гибридной реализацией. В ходе этого сеанса будут делиться ключевыми советами и полезными ресурсами, которые помогут вам определить наилучшие стратегии миграции для вашей организации. Аудитория — ИТ-администраторы
+    summary: Присоединяйтесь к нам, чтобы выявить и подготовиться к выполнению наилучшего технического подхода для перемещения всех рабочих нагрузок в Teams с учетом ваших целей и текущей среды Skype для бизнеса. Большинство клиентов, успешно выключивших переходы, включили Teams вместе с текущим Skype для бизнеса Online, Skype для бизнеса Server или гибридной реализацией. В ходе этого сеанса будут делиться ключевыми советами и полезными ресурсами, которые помогут вам определить наилучшие стратегии миграции для вашей организации. Аудитория — ИТ-администраторы
     url: https://microsoftteams.eventbuilder.com/ImplementTeamsUpgrade
 additionalContent:
   sections:
   - items:
     - title: Просматривайте эти семинары в свое время
-      summary: Посетите веб-сайт по обновлению Microsoft Teams на YouTube.
+      summary: Посетите веб-сайт по обновлению Microsoft Teams на youTube.
       url: https://aka.ms/UpgradeOnDemand
     - title: Расширите сценарии Teams?
       summary: Ознакомьтесь с нашими семинарами по teams Chalk Talk Для ИТ-специалистов.
-      url: https://aka.ms/TeamsChalkTalks
+      url: ./chalk-talks-landing-page.yml
     - title: Используете Teams впервые?
       summary: Подробнее о том, как начать работу с Teams.
-      url: https://docs.microsoft.com/microsoftteams/teams-overview
+      url: ./teams-overview.md

@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: c36150bb-461c-4f1c-877b-fac7fb232f7c
 description: Ознакомьтесь с этой темой, чтобы узнать об обеспечении учетных записей skype Room System в Microsoft 365 или Office 365.
-ms.openlocfilehash: 8e44e648e12ec4db1e8acf9617c02937f9418c41
-ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
+ms.openlocfilehash: 94390effb246a37745d797289c1146ed3d347604
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50569381"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51093523"
 ---
 # <a name="provisioning-skype-room-system-accounts-in-microsoft-365-and-office-365"></a>Подготовка учетных записей skype Room System в Microsoft 365 и Office 365
  
@@ -29,7 +29,7 @@ ms.locfileid: "50569381"
 
 Ваш онлайн-клиент должен соответствовать следующим требованиям:
   
-- План Microsoft 365 или Office 365 должен включать Skype для бизнеса Online Plan 2 или Office 365 E1, E3 или E5. <br/>Подробные сведения о планах Skype для бизнеса в Интернете см. в описании [службы Skype для бизнеса Online.](https://technet.microsoft.com/library/jj822172.aspx)
+- План Microsoft 365 или Office 365 должен включать Skype для бизнеса Online Plan 2 или Office 365 E1, E3 или E5. <br/>Подробные сведения о планах Skype для бизнеса в Интернете см. в описании [службы Skype для бизнеса Online.](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description)
     
 - Клиент должен иметь возможность ведения телефонных разговоров с поддержкой Skype для бизнеса.
     
@@ -69,7 +69,7 @@ ms.locfileid: "50569381"
     
 ## <a name="exchange-online-provisioning"></a>Подготовка Exchange Online
 
-Во-первых, подключите к Exchange Online PowerShell, следуя инструкциям в этой теме, [подключите к Exchange Online PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=396554).
+Во-первых, подключите к Exchange Online PowerShell, следуя инструкциям в этой теме, [подключите к Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell).
   
 Чтобы установить существующую учетную запись почтового ящика комнаты ресурсов для системы номеров Skype, запустите следующие команды в Exchange Online PowerShell:
   
@@ -101,7 +101,7 @@ New-Mailbox -Name "Conf Room 2" -MicrosoftOnlineServicesID $rm -Room  -EnableRoo
 
 После создания и включения учетной записи почтового ящика комнаты ресурсов, как показано ранее, и вы лицензируете учетную запись Skype для бизнеса Online, учетная запись синхронизируется с лесом Exchange Online до леса Skype для бизнеса Online с помощью леса Windows Azure Active Directory. Для предоставления учетной записи Skype Room System в пуле Skype для бизнеса Online необходимы следующие действия. Эти действия одинаковы как для существующей учетной записи почтового ящика ресурса, так и для вновь созданной учетной записи (confrm1 или confrm2), так как после включения в Exchange Online обе эти учетные записи будут синхронизированы с Skype для бизнеса Online таким же образом:
   
-1. Создание сеанса Удаленной PowerShell. Обратите внимание, что вам потребуется скачать [модуль Teams PowerShell.](https://docs.microsoft.com/microsoftteams/teams-powershell-install)
+1. Создание сеанса Удаленной PowerShell. Обратите внимание, что вам потребуется скачать [модуль Teams PowerShell.](/microsoftteams/teams-powershell-install)
     
   ```powershell
   # When using Teams PowerShell Module
@@ -143,9 +143,8 @@ New-Mailbox -Name "Conf Room 2" -MicrosoftOnlineServicesID $rm -Room  -EnableRoo
    Set-MsolUser -UserPrincipalName confrm1@skypelrs.onmicrosoft.com -PasswordNeverExpires $true
    ```
 
-Дополнительные сведения см. в [Windows PowerShell.](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
+Дополнительные сведения см. в [Windows PowerShell.](../../../SfbOnline/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
   
 ## <a name="validate"></a>Проверка
 
 Для проверки необходимо использовать любой клиент Skype для бизнеса, чтобы войти в созданную учетную запись.
-

@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: Используйте это руководство, чтобы узнать о предварительных условиях и зависимостей среды для развертывания Teams в организации.
+description: Используйте это руководство, чтобы узнать о предварительных и зависимостей среды для развертывания Teams в организации.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b0ad5716dbbe1925a93f4fbfadca7084e39a9599
-ms.sourcegitcommit: e72599d5437773322ae6ef985f804a19101ed84f
+ms.openlocfilehash: 6ceca08be6d69a10fe84daa64d0da4e31c61c67c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/26/2021
-ms.locfileid: "50347810"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092197"
 ---
 # <a name="prerequisites-and-environmental-dependencies-for-teams"></a>Необходимые условия и зависимости от среды для Teams
 
@@ -32,9 +32,9 @@ ms.locfileid: "50347810"
 Эта статья является частью этапа технической готовности, которое вы завершаете параллельно с этапом подготовки пользователя. Прежде чем при этом подтверждать, что вы выполнили эти действия на предыдущих этапах:
 
 - [Привлечение заинтересованных лиц проекта](upgrade-enlist-stakeholders.md)
-- [Определение области проекта](https://aka.ms/SkypetoTeams-Scope)
-- [Понимание сосуществования и совместной работы Skype для бизнеса и Teams](https://aka.ms/SkypeToTeams-Coexist)
-- [Выбранный путь обновления](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [Определение области проекта](./upgrade-define-project-scope.md)
+- [Понимание сосуществования и совместной работы Skype для бизнеса и Teams](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+- [Вы решили перейти на нее](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
 Teams объединяет несколько служб Microsoft 365 и Office 365 и поэтому зависит от правильной реализации и работы этих служб. К таким службам относятся SharePoint Online, Exchange Online и OneDrive для бизнеса, но не ограничивайтесь ими.
 
@@ -54,7 +54,7 @@ Teams объединяет несколько служб Microsoft 365 и Office
 
 - Чтобы узнать, как [взаимодействуют группы Microsoft 365 и Microsoft Teams.](Office-365-groups.md)
 
-- Если ваша организация является учебным заведением и вы используете систему сведений об учащихся, см. статью "Добро пожаловать в [Microsoft School Data Sync](https://docs.microsoft.com/schooldatasync) перед развертыванием Microsoft Teams".
+- Если ваша организация является учебным заведением и вы используете систему сведений об учащихся, см. статью "Добро пожаловать в [Microsoft School Data Sync](/schooldatasync) перед развертыванием Microsoft Teams".
 
 - Если в вашей организации рассматриваются варианты звонков по телефонной сети общего звонков (МСК), см. параметры "Голосовая связь [—](cloud-voice-landing-page.md)телефонная система" и "Подключение к СТАНП", [](calling-plan-landing-page.md)"Какой план звонков вам подошел" и "Прямая маршрутия телефонной системы". [](direct-routing-landing-page.md)
 

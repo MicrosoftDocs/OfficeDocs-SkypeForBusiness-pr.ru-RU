@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: ''
 description: Приложение Bookings и виртуальные визиты в Microsoft Teams
-ms.openlocfilehash: 582c59b4c389d687c529a7db9d9f1825d488f9f3
-ms.sourcegitcommit: 1b11a2b74b8db6ed9e5da9b04cf3ed9c02a1d892
-ms.translationtype: HT
+ms.openlocfilehash: 5b10c7f320d4162b57dae18c736e26e1935a4107
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "50125752"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092787"
 ---
 # <a name="virtual-visits-with-microsoft-teams-and-the-bookings-app"></a>Виртуальные визиты с помощью Microsoft Teams и приложения Bookings
 
@@ -53,7 +53,7 @@ ms.locfileid: "50125752"
 
 ### <a name="control-access-to-bookings-within-your-organization"></a>Управление доступом к Bookings в организации
 
-Существует несколько способов управления доступом к приложению Bookings и определенным функциям приложения. Чтобы узнать, как включить или отключить Microsoft Bookings в Центре администрирования Microsoft 365, а также как создать политику приложения Bookings, чтобы разрешить выбранным пользователям создавать календари Bookings, см. [Получить доступ к Microsoft Bookings](https://support.microsoft.com/ru-RU/office/get-access-to-microsoft-bookings-5382dc07-aaa5-45c9-8767-502333b214ce). Вы также можете узнать, как [создать политику приложений Teams, чтобы закрепить приложение Bookings для выбранных пользователей](teams-app-setup-policies.md).
+Существует несколько способов управления доступом к приложению Bookings и определенным функциям приложения. Чтобы узнать, как включить или отключить Microsoft Bookings в Центре администрирования Microsoft 365, а также как создать политику приложения Bookings, чтобы разрешить выбранным пользователям создавать календари Bookings, см. [Получить доступ к Microsoft Bookings](https://support.microsoft.com/en-us/office/get-access-to-microsoft-bookings-5382dc07-aaa5-45c9-8767-502333b214ce). Вы также можете узнать, как [создать политику приложений Teams, чтобы закрепить приложение Bookings для выбранных пользователей](teams-app-setup-policies.md).
 
 ## <a name="recommended-meeting-policy-settings"></a>Рекомендуемые параметры политики собраний
 
@@ -73,7 +73,7 @@ ms.locfileid: "50125752"
 
 При настройке почтового ящика Bookings используется домен электронной почты по умолчанию вашей организации Microsoft 365 или Office 365. Однако это может привести к проблемам при отправке приглашений на собрание внешним получателям; ваше приглашение может быть помечено как спам и перемещено в папку нежелательной почты, и получатель может никогда не увидеть ваше приглашение.
 
-Перед созданием почтового ящика Bookings рекомендуется изменить домен по умолчанию. Сведения о том, как это сделать, см. в разделе [Вопросы и ответы по доменам](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq#how-do-i-set-or-change-the-default-domain-in-office-365).
+Перед созданием почтового ящика Bookings рекомендуется изменить домен по умолчанию. Сведения о том, как это сделать, см. в разделе [Вопросы и ответы по доменам](/microsoft-365/admin/setup/domains-faq#how-do-i-set-or-change-the-default-domain-in-office-365).
 
 Если после создания почтового ящика Bookings нужно изменить домен по умолчанию, это можно сделать с помощью PowerShell:
 
@@ -81,7 +81,7 @@ ms.locfileid: "50125752"
 Set-Mailbox -identity business@domain.onmicrosoft.com -WindowsEmailAddress business@domain.com -EmailAddresses business@domain.com
 ```
 
-Дополнительные сведения см. в документации по PowerShell для командлета [Set-Mailbox](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-mailbox).
+Дополнительные сведения см. в документации по PowerShell для командлета [Set-Mailbox](/powershell/module/exchange/mailboxes/set-mailbox).
 
 > [!NOTE]
 > Если вы используете гибридную конфигурацию Exchange, рекомендуем тщательно проверить движение почты между локальной версией Exchange и Exchange Online при изменении домена по умолчанию.

@@ -16,19 +16,19 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8e7de4f3a91375aee8d58d2a5164f995fee54f22
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: a813bef73bb58d9b61be33364c63387913398f9b
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49815709"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092517"
 ---
 # <a name="teams-for-healthcare"></a>Teams для сферы здравоохранения
 
-Teams предоставляет медицинским группам и специалистам сферы здравоохранения безопасный способ общения, координации обслуживания пациентов и повышения эффективности работы. Здесь вы найдете ресурсы администратора, необходимые для управления Командами для здравоохранения в вашей организации.
+Teams предоставляет командам здравоохранения и специалистам сферы здравоохранения безопасный способ общения, координации обслуживания пациентов и повышения эффективности работы. Здесь вы найдете ресурсы администратора, необходимые для управления Командами для здравоохранения в вашей организации.
 
 |               |               |
 | ------------- | ------------- |
-| ![get-started-teams](../media/get-started-teams.svg)  |  [Начало работы с Teams для организаций в сфере здравоохранения](https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/healthcare/teams-in-hc) |
-| ![walkthrough-map-teams](../media/walkthrough-map-teams.svg) | [Начало работы с шаблонами Teams для организаций в сфере здравоохранения](https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/healthcare/healthcare-templates) |
-| ![чат](../media/chat.svg)  |  [Начало работы с безопасным обменом сообщениями для организаций в сфере здравоохранения](https://docs.microsoft.com/MicrosoftTeams/expand-teams-across-your-org/healthcare/messaging-policies-hc) |
+| ![Снимок экрана: рука, указывкающий на значок стрелки](../media/get-started-teams.svg)  |  [Начало работы с Teams для организаций здравоохранения](./healthcare/teams-in-hc.md) |
+| ![Снимок экрана: значок карты](../media/walkthrough-map-teams.svg) | [Начало работы с шаблонами Teams для организаций в сфере здравоохранения](./healthcare/healthcare-templates-admin-console.md) |
+| ![Снимок экрана: значок пузырьков диалогов](../media/chat.svg)  |  [Начало работы с безопасным обменом сообщениями для организаций в сфере здравоохранения](./healthcare/messaging-policies-hc.md) |

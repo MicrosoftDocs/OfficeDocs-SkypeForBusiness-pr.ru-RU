@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Вот службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные в Швейцарии.
-ms.openlocfilehash: 5b896ae2cc7d0e0e1581a269c654603df5f11c57
-ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
+ms.openlocfilehash: 8fbcbe1e241817729e70f311e0187182b43fd663
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48320754"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092677"
 ---
 # <a name="availability-in-switzerland"></a>Доступность в Швейцарии
 
@@ -43,7 +43,7 @@ ms.locfileid: "48320754"
 |**Функция**|**Details**|
 |:-----|:-----|
 |Доступно ли приобретение аудиоконференций?  <br/> |Да  <br/> |
-|Назначаются ли номера телефонов для аудиоконференций автоматически?  <br/> |Да, для: <br/><ul><li> Zurich</ul>Если вам нужны выделенные телефонные номера, см. [получение номеров телефонов службы.](/microsoftteams/getting-service-phone-numbers)  <br/> |
+|Назначаются ли номера телефонов для аудиоконференций автоматически?  <br/> |Да, для: <br/><ul><li> Zurich</ul>Если вам нужны выделенные телефонные номера, см. [получение номеров телефонов службы.](../getting-service-phone-numbers.md)  <br/> |
 |Возможность получить обратный звонок с функцией "Звонок на мой номер"  <br/> |Доступно  <br/> |
    
 ## <a name="phone-system"></a>Телефонная система
@@ -72,7 +72,7 @@ ms.locfileid: "48320754"
 |Доступны ли платные номера?  <br/> |Да  <br/> |
 |Доступны ли бесплатные номера?  <br/> |Да  <br/> |
    
- Если вы хотите получить платные и бесплатные номера телефонов для аудиоконференций, автоотетарей и очередей звонков, см. получение номеров телефонов [службы.](/microsoftteams/getting-service-phone-numbers)
+ Если вы хотите получить платные и бесплатные номера телефонов для аудиоконференций, автоотетарей и очередей звонков, см. получение номеров телефонов [службы.](../getting-service-phone-numbers.md)
   
 ## <a name="communications-credits"></a>Кредиты на связь
 
@@ -84,10 +84,8 @@ ms.locfileid: "48320754"
   
 ## <a name="related-topics"></a>Статьи по теме
 
-[Получение номеров телефонов служб](/microsoftteams/getting-service-phone-numbers)
+[Получение номеров телефонов служб](../getting-service-phone-numbers.md)
 
 [Доступность аудиоконференций и планов звонков в различных странах и регионах](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
   
- 
-

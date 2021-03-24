@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: e5d97b27-5ae8-41e0-8ee9-0c3f6d5dd123
 ROBOTS: NOINDEX, NOFOLLOW
 description: Вы можете определить новый канал связи по протоколу SIP, указав следующие сведения.
-ms.openlocfilehash: db98c6d6f6aacf31b4e0b228dbe499f40ea01bdf
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 540076814d2916f74a5e11be42f99b57711da2b7
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49800899"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51093277"
 ---
 # <a name="define-a-new-trunk"></a>Определение новой линии связи
 
@@ -34,12 +34,12 @@ ms.locfileid: "49800899"
 
 - **Транспортный протокол SIP**. Выберите в списке TCP или TLS.
 
-- **Связанный сервер-посредник**: выберите в списке сервер-посредник, развернутый и настроенный в развертывании
+- **Связанный сервер-посредник:** выберите из списка сервер-посредник, развернутый и настроенный в развертывании.
 
-- **Связанный порт сервера-посредника:** установите значение порта, равное порту TCP или TLS сервера-посредника, который будет использовать эта магистраль SIP
+- **Связанный порт** сервера-посредника: установите значение порта, равное значению порта TCP или TLS сервера-посредника, которое будет использовать этот магистраль SIP
 
 ## <a name="see-also"></a>См. также
 
 [Магистраль M:N в Skype для бизнеса Server](../../../plan-your-deployment/enterprise-voice-solution/m-n-trunk.md)
 
-[Как реализовать магистрали SIP?](https://technet.microsoft.com/library/273a22b1-8a4c-4187-acf8-c57d5c6598ce.aspx)
+[Как реализовать магистральные SIP?.](/previous-versions/office/lync-server-2013/lync-server-2013-how-do-i-implement-sip-trunking)

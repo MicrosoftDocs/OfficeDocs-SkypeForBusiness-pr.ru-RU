@@ -15,23 +15,23 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a6fd5922-fe46-41ba-94e3-c76b1101a31b
-description: Создание или удаление объявлений для приложения "Объявления" в Skype для бизнеса Server Корпоративная голосовая связь. Это влияет на то, как обрабатываются вызовы на ненаписаные номера.
-ms.openlocfilehash: 9f2b4fcda8e98d4b939b6b443da875dbe153546c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Создание или удаление объявлений для приложения Объявления в Skype для бизнеса Server Корпоративная голосовая связь. Это влияет на обработку вызовов на ненанаписаные номера.
+ms.openlocfilehash: 571dce52366430c0e13f442de4917a2c51ed056f
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49824909"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51093287"
 ---
 # <a name="create-or-delete-an-announcement-in-skype-for-business-server"></a>Создание или удаление объявления в Skype для бизнеса Server
 
-Создание или удаление объявлений для приложения "Объявления" в Skype для бизнеса Server Корпоративная голосовая связь. Это влияет на то, как обрабатываются вызовы на ненаписаные номера.
+Создание или удаление объявлений для приложения Объявления в Skype для бизнеса Server Корпоративная голосовая связь. Это влияет на обработку вызовов на ненанаписаные номера.
 
 При настройке объявлений в действительности вы настраиваете то, как будут обрабатываться звонки на неназначенные номера. Можно воспроизводить подсказку — аудиофайл или TTS-файл синтезированной речи, или можно просто перевести вызов на указанный пункт назначения без подсказки.
 
 Для создания объявлений сначала нужно определить таблицу неназначенных номеров. Данную процедуру необходимо выполнить для всех объявлений, использующих звуковую подсказку, подсказку TTS, или объявлений, не использующих подсказку.
 
-В этом разделе описывается импорт и создание оповещений. Дополнительные сведения о назначении оповещений в таблице неназначенных номеров см. в разделе [Configure the Unassigned Number Table](https://technet.microsoft.com/library/eaa01986-e92f-4328-acf6-4e46c4306a04.aspx).
+В этом разделе описывается импорт и создание оповещений. Дополнительные сведения о назначении оповещений в таблице неназначенных номеров см. в разделе [Configure the Unassigned Number Table](/previous-versions/office/lync-server-2013/lync-server-2013-configure-the-unassigned-number-table).
 
 ## <a name="create-a-new-announcement-for-unassigned-numbers"></a>Создание нового объявления для ненаписаных номеров
 
@@ -52,9 +52,9 @@ ms.locfileid: "49824909"
 
 1. Если планируется использовать звуковые приглашения, создайте звуковой файл.
 
-2. Войдите на компьютер, на котором установлена оболочка управления Skype для бизнеса Server, в качестве члена группы RTCUniversalServerAdmins или с необходимыми правами пользователя, как описано в делегирования разрешений на **установку.**
+2. Войдите на компьютер, на котором установлена оболочка управления Skype для бизнес-серверов в качестве члена группы RTCUniversalServerAdmins или с необходимыми правами пользователя, как описано в разрешениях делегирования **установки.**
 
-3. Запустите оболочку управления Skype для бизнеса Server: нажмите кнопку "Начните", выберите "Все программы", "Skype для бизнеса **2015",** а затем щелкните "Skype для бизнеса Server Management **Shell".**
+3. Запустите оболочку управления Skype для бизнес-серверов: нажмите кнопку Начните, щелкните Все **программы,** щелкните Skype для бизнеса **2015,** а затем нажмите **кнопку Skype для управления бизнес-серверами.**
 
 4. Для звуковых приглашений выполните следующую команду:
 
@@ -62,7 +62,7 @@ ms.locfileid: "49824909"
    Import-CsAnnouncementFile -Parent <service of the Application Server running the Announcement application> -FileName <name for file in File Store> -Content Byte [<contents of file in byte array>]
    ```
 
-5. Запустите:
+5. Выполните команду: 
 
    ```powershell
    New-CsAnnouncement -Parent <service of Application Server running the Announcement application, in the form: service:ApplicationServer:<fqdn>> -Name <unique name to be used as destination in unassigned number table> [-AudioFilePrompt <FileName specified in Import-CsAnnouncementFile>] [-TextToSpeechPrompt <text string to be converted to speech>] [-Language <Language for playing the TTS prompt (required for PromptTts)>] [-TargetUri sip:SIPAddress for transferring caller after announcement]
@@ -84,15 +84,15 @@ ms.locfileid: "49824909"
    New-CsAnnouncement -Parent service:ApplicationServer:pool0.contoso.com -Name "Help Desk Announcement" -TextToSpeechPrompt "The Help Desk number has changed. Please dial 5550100." -Language "en-US"
    ```
 
-   Дополнительные подробные данные об этих cmdlets и список кодов языка для использования в **параметре TextToSpeechPrompt** см. в [new-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/new-csannouncement?view=skype-ps).
+   Дополнительные подробности об этих комлетах, а также список языковых кодов, которые необходимо использовать в параметре **TextToSpeechPrompt,** см. в документе [New-CsAnnouncement](/powershell/module/skype/new-csannouncement?view=skype-ps).
 
 ## <a name="delete-an-announcement-for-unassigned-numbers"></a>Удаление объявления для ненаписаных номеров
 
 ### <a name="to-delete-an-announcement"></a>Порядок удаления оповещения
 
-1. Войдите на компьютер, на котором установлена оболочка управления Skype для бизнеса Server, в качестве члена группы RTCUniversalServerAdmins или с необходимыми правами пользователя, как описано в делегирования разрешений на **установку.**
+1. Войдите на компьютер, на котором установлена оболочка управления Skype для бизнес-серверов в качестве члена группы RTCUniversalServerAdmins или с необходимыми правами пользователя, как описано в разрешениях делегирования **установки.**
 
-2. Запустите оболочку управления Skype для бизнеса Server: нажмите кнопку "Начните", выберите "Все программы", "Skype для бизнеса **2015",** а затем щелкните "Skype для бизнеса Server Management **Shell".**
+2. Запустите оболочку управления Skype для бизнес-серверов: нажмите кнопку Начните, щелкните Все **программы,** щелкните Skype для бизнеса **2015,** а затем нажмите **кнопку Skype для управления бизнес-серверами.**
 
 3. Получите список всех оповещений, используемых в организации. Выполните в командной строке следующую команду:
 
@@ -113,17 +113,16 @@ ms.locfileid: "49824909"
    ```
 
     > [!NOTE]
-    > Дополнительные сведения о дополнительных параметрах см. в дополнительных сведениях о [get-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/get-csannouncement?view=skype-ps) и [Remove-CsAnnouncement.](https://docs.microsoft.com/powershell/module/skype/remove-csannouncement?view=skype-ps)
+    > Дополнительные сведения см. в [материале Get-CsAnnouncement](/powershell/module/skype/get-csannouncement?view=skype-ps) и [Remove-CsAnnouncement.](/powershell/module/skype/remove-csannouncement?view=skype-ps)
 
 ## <a name="see-also"></a>См. также
 
 [Создание или удаление объявления в Skype для бизнеса Server](create-an-announcement.md)
 
-[Import-CsAnnouncementFile](https://docs.microsoft.com/powershell/module/skype/import-csannouncementfile?view=skype-ps)
+[Import-CsAnnouncementFile](/powershell/module/skype/import-csannouncementfile?view=skype-ps)
 
-[New-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/new-csannouncement?view=skype-ps)
+[New-CsAnnouncement](/powershell/module/skype/new-csannouncement?view=skype-ps)
 
-[Remove-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/remove-csannouncement?view=skype-ps)
+[Remove-CsAnnouncement](/powershell/module/skype/remove-csannouncement?view=skype-ps)
 
-[Get-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/get-csannouncement?view=skype-ps)
-
+[Get-CsAnnouncement](/powershell/module/skype/get-csannouncement?view=skype-ps)

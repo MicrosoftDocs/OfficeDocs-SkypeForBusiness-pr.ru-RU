@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: d4382fe5069095854713244b230ef04bd10f4ad0
-ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
+ms.openlocfilehash: c59220fe886d7301491909c0e099b8cd4c15ae75
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50726420"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092247"
 ---
 # <a name="get-started-with-microsoft-teams"></a>Начало работы с Microsoft Teams
 
@@ -54,7 +54,7 @@ ms.locfileid: "50726420"
 - [Подготовка сети организации к использованию Teams](prepare-network.md)
   - Это включает в себя настройку домена Microsoft 365 или Office 365, SharePoint Online, Exchange Online и OneDrive для бизнеса.
 
-- Получите лицензии Teams для всех. Ознакомьтесь с [планами Teams](https://www.microsoft.com/microsoft-365/microsoft-teams/compare-microsoft-teams-options) и [описанием услуг Microsoft Teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).
+- Получите лицензии Teams для всех. Ознакомьтесь с [планами Teams](https://www.microsoft.com/microsoft-365/microsoft-teams/compare-microsoft-teams-options) и [описанием услуг Microsoft Teams](/office365/servicedescriptions/teams-service-description).
 
 - [Знакомство с преимуществами установки классических, веб- и мобильных клиентов](get-clients.md)
 
@@ -63,7 +63,7 @@ ms.locfileid: "50726420"
 Если вы новичок, лучший способ познакомиться с Teams — сразу же начать использование. Одно из преимуществ Teams заключается в том, что настройка, которую вы выполните сейчас, не будет мешать никаким обновлениям или миграциям, которые могут потребоваться позже.
 
 > [!TIP]
-> Больше учебных материалов и модулей доступно в [Microsoft Learn для Teams](/learn/teams/). Здесь можно ознакомиться с [центром администрирования Teams](https://docs.microsoft.com/learn/modules/m365-teams-navigate-admin-portal/), узнать, как [настроить вашу сеть для использования Teams](/learn/modules/m365-teams-connectivity/), получить идеи для [подключения пользователей к Teams](/learn/modules/m365-teams-onboard-users/) и многое другое!
+> Больше учебных материалов и модулей доступно в [Microsoft Learn для Teams](/learn/teams/). Здесь можно ознакомиться с [центром администрирования Teams](/learn/modules/m365-teams-navigate-admin-portal/), узнать, как [настроить вашу сеть для использования Teams](/learn/modules/m365-teams-connectivity/), получить идеи для [подключения пользователей к Teams](/learn/modules/m365-teams-onboard-users/) и многое другое!
 
 Следуйте приведенным ниже инструкциям, чтобы создать несколько команд и подключить первых пользователей для знакомства с Teams.
 
@@ -79,5 +79,5 @@ ms.locfileid: "50726420"
 |  |Профиль вашей организации|Рекомендации  |
 |---------|---------|---------|
 |<IMG src="https://docs.microsoft.com/office/media/icons/migration-teams.svg" alt="Migration arrow symbol" height="50" width="50">|В настоящее время я использую Skype для бизнеса Online, и все готово к переходу на Teams. |Перейдите в раздел [Переход на Teams](upgrade-start-here.md).        |
-|<IMG SRC="https://docs.microsoft.com/office/media/icons/hybrid-teams.svg" alt="Hybrid symbol" height="50" width="50">|В настоящий момент моя организация использует Skype для бизнеса Server, и я хочу выполнить развертывание Teams. |Для полномасштабного развертывания Teams необходимо настроить гибридное соединение между вашей локальной средой и Microsoft 365. Начните со знакомства со статьей [Планирование гибридного соединения Skype для бизнеса Server и Microsoft 365 или Office 365](https://docs.microsoft.com/skypeforbusiness/hybrid/plan-hybrid-connectivity).<br><br>Вам также следует изучить [Переход на Teams](upgrade-start-here.md).   |
+|<IMG SRC="https://docs.microsoft.com/office/media/icons/hybrid-teams.svg" alt="Hybrid symbol" height="50" width="50">|В настоящий момент моя организация использует Skype для бизнеса Server, и я хочу выполнить развертывание Teams. |Для полномасштабного развертывания Teams необходимо настроить гибридное соединение между вашей локальной средой и Microsoft 365. Начните со знакомства со статьей [Планирование гибридного соединения Skype для бизнеса Server и Microsoft 365 или Office 365](/skypeforbusiness/hybrid/plan-hybrid-connectivity).<br><br>Вам также следует изучить [Переход на Teams](upgrade-start-here.md).   |
 |<IMG src="https://docs.microsoft.com/office/media/icons/on-premises-teams.svg" alt="On premises symbol" height="50" width="50">|У меня нет Skype для бизнеса Server, но я использую локальное решение телефонной сети общего пользования (ТСОП). Я хочу выполнить развертывание Teams, но хочу сохранить мое локальное решение ТСОП. |Выполните развертывание Teams, следуя инструкциям в этой статье.<br><br>Затем ознакомьтесь со статьей [Планирование прямой маршрутизация](direct-routing-plan.md), чтобы получить представление об использовании прямой маршрутизации телефонной системы для подключения локального решение PSTN к Teams.|

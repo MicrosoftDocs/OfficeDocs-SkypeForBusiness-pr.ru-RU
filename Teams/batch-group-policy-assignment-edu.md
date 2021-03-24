@@ -15,14 +15,14 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Узнайте, как назначать политики большому набору пользователей в вашем учебном заведении на основе членства в группах или прямо с помощью пакетного задания для удаленного учебного заведения (teleschool, tele-school).
+description: Узнайте, как назначать политики большому набору пользователей в вашем учебном заведении на основе участия в группах или прямо с помощью пакетного задания для удаленного учебного заведения (teleschool, tele-school).
 f1keywords: ''
-ms.openlocfilehash: afcaba9df0ff745977b84e34683c1bdfcaca0d01
-ms.sourcegitcommit: 07afc959fec802db583e7111280d0035fdb6e412
+ms.openlocfilehash: f2d36db6a96f6a9a42590ada6600ef38738b30a9
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49616943"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092907"
 ---
 # <a name="assign-policies-to-large-sets-of-users-in-your-school"></a>Назначение политик большому набору пользователей в учебном за учебных заведениях
 
@@ -41,7 +41,7 @@ ms.locfileid: "49616943"
 
 - **Используйте [назначение пакетной политики](assign-policies.md#assign-a-policy-to-a-batch-of-users) для массового назначения политики собраний пользователям.** Одновременно можно назначить политику для 5000 пользователей. Если у вас более 5000 пользователей, можно отправить несколько пакетов. При этом способе при новых пользователях потребуется повторно запустить пакетное назначение, чтобы назначить политику новым пользователям.
 
-Помните, что в Teams пользователи автоматически получают глобальную (по умолчанию в организации) политику для типа политики Teams, если вы не создали и не назначили ее. Так как среди учащихся часто самый большой набор пользователей и они часто получают самые строгие параметры, рекомендуем сделать следующее:
+Помните, что в Teams пользователи автоматически получают глобальную (по умолчанию в организации) политику для типа политики Teams, если вы не создали и не назначили ее. Так как численность учащихся часто является самым большим набором пользователей и они часто получают самые строгие параметры, рекомендуем сделать следующее:
 
 - Создайте настраиваемую политику, которая обеспечивает основные возможности, например приватный чат и планирование собраний, и назначьте ее сотрудникам и преподавателям.
 - Назначьте настраиваемую политику своим сотрудникам и преподавателям.
@@ -60,7 +60,7 @@ ms.locfileid: "49616943"
 ### <a name="before-you-get-started"></a>С чего начать
 
 > [!IMPORTANT]
-> При назначении политики группе назначение политики распространяется на ее участников в соответствии с правилами приоритета. Например, если пользователю непосредственно назначена политика (по отдельности или через пакетное назначение), она имеет приоритет над политикой, наследуемой от группы. Это также означает, что если пользователю назначена политика собрания, необходимо удалить ее, прежде чем он сможет наследовать политику собрания от группы безопасности.
+> При назначении политики группе назначение политики распространяется на ее участников в соответствии с правилами приоритета. Например, если пользователю непосредственно назначена политика (по отдельности или через пакетное назначение), она имеет приоритет над политикой, наследуемой от группы. Это также означает, что если пользователю назначена политика собрания, необходимо удалить ее, прежде чем наследовать политику собрания от группы безопасности.
 
 Прежде чем начать, важно разобраться [](assign-policies.md#precedence-rules) в правилах приоритета и ранжирования [заданий групп.](assign-policies.md#group-assignment-ranking) **Обязательно ознакомьтесь с понятиями, [](assign-policies.md#what-you-need-to-know-about-policy-assignment-to-groups)** которые необходимо знать о назначении политик группам.
 
@@ -74,7 +74,7 @@ ms.locfileid: "49616943"
 
 Сначала создайте группу безопасности для сотрудников и преподавателей.
 
-С [помощью School Data Sync](https://docs.microsoft.com/SchoolDataSync/) (SDS) вы можете легко создавать группы безопасности для преподавателей и [учащихся](https://docs.microsoft.com/SchoolDataSync/edu-security-groups) в вашем учебном за учебных заведениях. Мы рекомендуем использовать SDS для создания групп безопасности, необходимых для управления политиками для вашего учебного заведения.
+С [помощью School Data Sync](/SchoolDataSync/) (SDS) вы можете легко создавать группы безопасности для преподавателей и [учащихся](/SchoolDataSync/edu-security-groups) в вашем учебном за учебных заведениях. Мы рекомендуем использовать SDS для создания групп безопасности, необходимых для управления политиками для вашего учебного заведения.
 
 Если вам не удается развернуть SDS в своей среде, используйте этот сценарий [PowerShell,](scripts/powershell-script-security-groups-edu.md) чтобы создать две группы безопасности: одну для всех сотрудников и преподавателей, которым назначена преподавательская лицензия, а другую — для всех студентов, которым назначена лицензия. Вам потребуется регулярно запускать этот сценарий, чтобы группы всегда были в курсе всех.
 
@@ -85,7 +85,7 @@ ms.locfileid: "49616943"
 > [!NOTE]
 > В настоящее время назначение политик группам с помощью Центра администрирования Microsoft Teams доступно только для политик звонков Teams, политики в парке звонков Teams, политики Teams, политики трансляций Teams, политики собраний Teams и политики обмена сообщениями Teams. Для других типов политик используйте PowerShell.
 
-1. В левой области навигации Центра администрирования Microsoft Teams перейдите **к** политикам собраний  >  **собраний.**
+1. В левой области навигации Центра администрирования Microsoft Teams перейдите **к** политикам  >  **собраний собраний собраний.**
 2. Выберите **вкладку назначения групповой политики.**
 3. Выберите **"Добавить группу",** а затем в области "Назначение политики группе" сделайте следующее: 
 
@@ -102,7 +102,7 @@ ms.locfileid: "49616943"
 #### <a name="using-powershell"></a>С помощью PowerShell
 
 > [!NOTE]
-> В настоящее время назначение политик группам с помощью PowerShell доступно не для всех типов политик Teams. Список поддерживаемых типов политик см. в списке [New-CsGroupPolicyAssignment.](https://docs.microsoft.com/powershell/module/teams/new-csgrouppolicyassignment)
+> В настоящее время назначение политик группам с помощью PowerShell доступно не для всех типов политик Teams. Список поддерживаемых типов политик см. в списке [New-CsGroupPolicyAssignment.](/powershell/module/teams/new-csgrouppolicyassignment)
 
 ##### <a name="install-and-connect-to-the-microsoft-teams-powershell-module"></a>Установка и подключение к модуле Microsoft Teams PowerShell
 
@@ -122,7 +122,7 @@ Connect-MicrosoftTeams
 
 ##### <a name="assign-a-policy-to-a-group"></a>Назначение политики группе
 
-Чтобы назначить политику собрания EducatorMeetingPolicy группе безопасности, в которую входят ваши сотрудники и преподаватели, и установите для ранжирования заданий 1 следующую: Группу безопасности можно указать с помощью ИД объекта, SIP-адреса или адреса электронной почты. В этом примере используется адрес электронной почты (staff-faculty@contoso.com).
+Чтобы назначить политику собрания EducatorMeetingPolicy группе безопасности, в которую входят ваши сотрудники и преподаватели, и установите для ранжирования заданий 1: Группу безопасности можно указать с помощью ИД объекта, SIP-адреса или адреса электронной почты. В этом примере используется адрес электронной почты (staff-faculty@contoso.com).
 
 ```powershell
 New-CsGroupPolicyAssignment -GroupId staff-faculty@contoso.com -PolicyType TeamsMeetingPolicy -PolicyName "EducatorMeetingPolicy" -Rank 1
@@ -130,9 +130,9 @@ New-CsGroupPolicyAssignment -GroupId staff-faculty@contoso.com -PolicyType Teams
 
 ### <a name="remove-a-policy-that-was-directly-assigned-to-users"></a>Удаление политики, которая была непосредственно назначена пользователям
 
-Помните, что если пользователю была непосредственно назначена политика (по отдельности или с помощью пакетного назначения), она имеет приоритет. Это означает, что если пользователю назначена политика собрания, ее необходимо удалить, прежде чем наследовать политику собрания от группы безопасности.
+Помните, что если пользователю была непосредственно назначена политика (по отдельности или через пакетное назначение), она имеет приоритет. Это означает, что если пользователю назначена политика собрания, ее необходимо удалить, прежде чем наследовать политику собрания от группы безопасности.
 
-Чтобы узнать больше, узнайте, [что вам нужно знать о назначении](assign-policies.md#what-you-need-to-know-about-policy-assignment-to-groups)политик группам.
+Чтобы узнать больше, узнайте, [что вам нужно знать о назначении политик группам.](assign-policies.md#what-you-need-to-know-about-policy-assignment-to-groups)
 
 Выполните эти действия, чтобы удалить политику собраний, которая была непосредственно назначена вашим сотрудникам и преподавателям.
 
@@ -152,9 +152,9 @@ Connect-MicrosoftTeams
 
 Когда вам будет предложено, вопишите с помощью учетных данных администратора, которые вы использовали для подключения к Azure AD.
 
-#### <a name="unassign-a-policy-that-was-directly-assigned-to-users"></a>Отоменить политику, которая была непосредственно назначена пользователям
+#### <a name="unassign-a-policy-that-was-directly-assigned-to-users"></a>Отогнание политики, которая была непосредственно назначена пользователям
 
-Чтобы удалить политику для собраний пользователей, которым она напрямую назначена, следуя следующей политике: Вы можете указать пользователей по адресу электронной почты или ИД объекта.
+Чтобы удалить политику собраний для пользователей, которым она напрямую назначена, следуя следующей политике: Вы можете указать пользователей по адресу электронной почты или ИД объекта.
 
 В этом примере политика собрания удаляется для пользователей, указанных их адресами электронной почты.
 
@@ -189,7 +189,7 @@ Get-CsUserPolicyAssignment -Identity reda@contoso.com
 
 ## <a name="assign-a-policy-to-a-batch-of-users"></a>Назначение политики для пакета пользователей
 
-Выполните эти действия, чтобы массово назначить настраиваемую политику собраний educatorMeetingPolicy своим сотрудникам и преподавателям.
+Выполните эти действия, чтобы назначить настраиваемую политику собраний с именем EducatorMeetingPolicy напрямую вашим сотрудникам и преподавателям.
 
 ### <a name="using-powershell"></a>С помощью PowerShell
 
@@ -213,7 +213,7 @@ Connect-AzureAD
 
 Когда вам будет предложено, войте учетные данные администратора.
 
-Дополнительные данные [см. в модуле Graph "Подключение с помощью Azure Active Directory PowerShell".](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module)
+Дополнительные данные см. в модуле Graph Connect с [помощью модуля Azure Active Directory PowerShell](/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module)для Graph.
 
 ##### <a name="install-and-connect-to-the-microsoft-teams-powershell-module"></a>Установка и подключение к модуле Microsoft Teams PowerShell
 
@@ -233,7 +233,7 @@ Connect-MicrosoftTeams
 
 #### <a name="identify-your-users"></a>Определение пользователей
 
-Сначала запустите следующую, чтобы определить сотрудников и преподавателей по типу лицензии. Это указывает, какие skus используются в вашей организации. После этого вы сможете определить сотрудников и преподавателей, которые имеют SKU преподавателей.
+Сначала запустите следующую, чтобы определить сотрудников и преподавателей по типу лицензии. Это указывает, какие skus используются в вашей организации. После этого вы сможете определить сотрудников и преподавателей, у них есть SKU преподавателя.
 
 ```powershell
 Get-AzureAdSubscribedSku | Select-Object -Property SkuPartNumber,SkuId
@@ -263,7 +263,7 @@ $faculty = Get-AzureADUser -All $true | Where-Object {($_.assignedLicenses).SkuI
 
 Теперь мы массово назначаем пользователям подходящие политики. Максимальное количество пользователей, для которых можно назначить или обновить политики, составляет 5000 за раз. Например, если в компании более 5000 сотрудников и преподавателей, необходимо отправить несколько пакетов.
 
-Чтобы назначить сотрудникам и преподавателям настраиваемую политику собрания EducatorMeetingPolicy, следуйте следующей пометке:
+Чтобы назначить сотрудникам и преподавателям настраиваемую политику собраний EducatorMeetingPolicy, следуйте следующей политике:
 
 ```powershell
 New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMeetingPolicy -PolicyName EducatorMeetingPolicy -Identity $faculty.ObjectId
@@ -300,7 +300,7 @@ $faculty.count
 New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMeetingPolicy -PolicyName EducatorMeetingPolicy -Identity $faculty[0..19999].ObjectId
 ```
 
-Вы можете изменять диапазон ид пользователей, пока не достигнете полного списка пользователей. Например, можно ввести первый пакет, использовать второй пакет, второй — для третьего и так ```$faculty[0..4999``` ```$faculty[5000..9999``` ```$faculty[10000..14999``` далее.
+Вы можете изменять диапазон ид пользователей, пока не достигнете полного списка пользователей. Например, введите для первого пакета, для второго — второй, для третьего и так ```$faculty[0..4999``` ```$faculty[5000..9999``` ```$faculty[10000..14999``` далее.
 
 #### <a name="get-the-policies-assigned-to-a-user"></a>Получить политики, которые назначены пользователю
 
@@ -316,11 +316,11 @@ Get-CsUserPolicyAssignment -Identity hannah@contoso.com
 
 Обзор использования PowerShell для управления Teams см. в обзоре [Teams PowerShell.](teams-powershell-overview.md) Дополнительные сведения о используемых в этой статье cmdlets см. в статьях:
 
-- [New-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/new-csgrouppolicyassignment)
-- [Get-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/get-csgrouppolicyassignment)
-- [New-CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation)
-- [Get-CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/get-csbatchpolicyassignmentoperation)
-- [Get-CsUserPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/get-csuserpolicyassignment)
+- [New-CsGroupPolicyAssignment](/powershell/module/teams/new-csgrouppolicyassignment)
+- [Get-CsGroupPolicyAssignment](/powershell/module/teams/get-csgrouppolicyassignment)
+- [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation)
+- [Get-CsBatchPolicyAssignmentOperation](/powershell/module/teams/get-csbatchpolicyassignmentoperation)
+- [Get-CsUserPolicyAssignment](/powershell/module/teams/get-csuserpolicyassignment)
 
 ## <a name="related-topics"></a>Статьи по теме
 

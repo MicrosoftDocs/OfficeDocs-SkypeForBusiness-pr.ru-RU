@@ -11,13 +11,13 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: b389dbd9-f2e8-4184-93d0-2e504796ac16
-description: Сводка. Сведения о диагностическом отчете в Skype для бизнеса Server.
-ms.openlocfilehash: 89639c0c00081fa4dd01211cc33074585061ff57
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Сводка. Сведения о диагностических отчетах в Skype для бизнеса Server.
+ms.openlocfilehash: b7739214cf176336e47a5d2e11b36b52ea87eca7
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816899"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51095243"
 ---
 # <a name="diagnostic-report-in-skype-for-business-server"></a>Диагностический отчет в Skype для бизнеса Server
  
@@ -33,7 +33,7 @@ ms.locfileid: "49816899"
     
 ## <a name="accessing-the-diagnostic-report"></a>Доступ к диагностическому отчету
 
-Доступ к диагностического отчета можно получить, щелкнув метрику Diagnostic Report (Detail) в отчете по деталям одноранговых сеансов [в Skype](peer-to-peer-session-detail-report.md) для бизнеса Server или в подробном отчете по конференции.
+Диагностический отчет можно получить, щелкнув метрику Диагностический отчет (Подробно) в отчете о подробностях одноранговых сеансов в [Skype для](peer-to-peer-session-detail-report.md) бизнеса Server или в отчете о подробностях конференции.
   
 ## <a name="filters"></a>Фильтры
 
@@ -45,7 +45,7 @@ ms.locfileid: "49816899"
   
 **Показатели отчета Diagnostic Report (Диагностический отчет)**
 
-|**Название**|**Возможность сортировки по этому показателю**|**Описание**|
+|**имя**|**Возможность сортировки по этому показателю**|**Описание**|
 |:-----|:-----|:-----|
 |**Reported time** (Время создания отчета) <br/> |Нет  <br/> |Дата и время создания отчета.  <br/> |
 |**Response code** (Код ответа) <br/> |Нет  <br/> |Код ответа SIP, отправленный при сбое сеанса.  <br/> |
@@ -60,6 +60,4 @@ ms.locfileid: "49816899"
 |**Время присоединения к конференции (мс)** <br/> |Нет  <br/> |Период времени (в миллисекундах), требуемый для присоединения пользователя к конференции.  <br/> |
 |**Diagnostic header** (Заголовок диагностики) <br/> |Нет  <br/> |Описание ИД диагностики.  <br/> |
    
-Список ошибок диагностики можно найти на странице [ms-Diagnostics Header.](https://msdn.microsoft.com/library/gg132446%28v=office.12%29.aspx)
-  
-
+Список диагностических ошибок можно найти на странице [Ms-Diagnostics Header.](/openspecs/office_protocols/ms-ocer/f6787b39-0842-43ca-94a2-6afadda5f0a3)

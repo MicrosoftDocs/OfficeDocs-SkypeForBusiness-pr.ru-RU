@@ -1,6 +1,6 @@
 ---
 title: Teams для образовательных учреждений
-description: Узнайте о ресурсах администрирования, которые помогут вам успешно развернуть, использовать и управлять Teams в вашем учебном заведении или учебном заведении.
+description: Узнайте о ресурсах администрирования, которые помогут вам успешно развернуть, использовать Teams и управлять ими в вашем учебном заведении.
 ms.topic: conceptual
 author: cichur
 ms.author: v-cichur
@@ -19,12 +19,12 @@ appliesto:
 ms.custom:
 - seo-marvel-apr2020
 - ms.teamsadmincenter.assignments.overview
-ms.openlocfilehash: 85f1d16a258955e08086b851a503bfac87604bf8
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 1cf6cd94772b1364d94207a96e7ccd6eda08d72f
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49821129"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092507"
 ---
 # <a name="teams-for-education"></a>Teams для образовательных учреждений
 
@@ -33,9 +33,8 @@ ms.locfileid: "49821129"
 
 |               |               |
 | ------------- | ------------- |
-| ![arrow-right-2-teams](../media/arrow-right-2-teams.svg)  |  [Краткое руководство для администраторов — Teams для образовательных учреждений](https://docs.microsoft.com/microsoftteams/teams-quick-start-edu) |
-| ![sign-up-teams](../media/sign-up-teams.svg) | [Задания в Teams для образовательных учреждений](https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/assignments-in-teams) |
-| ![insights-teams](../media/insights-teams.svg) | [Insights in Teams for Education](https://docs.microsoft.com/microsoftteams/class-insights) |
-| ![toolbox](../media/toolbox.svg)  |  [Ресурсы для администраторов Teams для образовательных сфере](https://docs.microsoft.com/microsoftteams/resources-teams-edu) |
-| ![task-checklist-planning-teams](../media/task-checklist-planning-teams.svg)  |  [Вопросы и вопросы об управлении для администраторов Teams для образования](https://docs.microsoft.com/microsoftteams/plan-teams-governance-edu) |
-
+| ![Снимок экрана: значок стрелки вправо](../media/arrow-right-2-teams.svg)  |  [Краткое руководство для администраторов — Teams для образовательных учреждений](../teams-quick-start-edu.yml) |
+| ![Снимок экрана: значок бумаги и карандаша](../media/sign-up-teams.svg) | [Задания в Teams для образовательных учреждений](./assignments-in-teams.md) |
+| ![Снимок экрана: значок "Идеи"](../media/insights-teams.svg) | [Insights in Teams for Education](../class-insights.md) |
+| ![Снимок экрана: значок панели инструментов](../media/toolbox.svg)  |  [Ресурсы для администраторов Teams для образовательных сфере](../resources-teams-edu.md) |
+| ![Снимок экрана: значок контрольного списка](../media/task-checklist-planning-teams.svg)  |  [Вопросы и вопросы об управлении для администраторов Teams для образования](../plan-teams-governance-edu.md) |

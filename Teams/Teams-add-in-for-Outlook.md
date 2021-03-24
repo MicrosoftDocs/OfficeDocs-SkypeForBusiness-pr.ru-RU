@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fe8b9192c9d1b85e23f2d17daa067630cebd15f2
-ms.sourcegitcommit: 31a585cc0fe6350efacf3a7771d1e590d5e4233c
+ms.openlocfilehash: ddbdc84228011c4db3c0eab01bb1bab4f5d773c6
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50614935"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092607"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Использование надстройки "Собрание Teams" в Outlook
 =======================================
@@ -121,7 +121,7 @@ ms.locfileid: "50614935"
 
 Разработка функционала надстройки "Собрание Teams" продолжается, так что помните о следующем:
 
-- Надстройка собрания Teams требует почтовый ящик Exchange для основного пользователя, планирующего собрание. Убедитесь в том, что у вас есть по крайней мере один почтовый ящик Exchange, настроенный в профиле Outlook, и используйте его для планирования собрания Teams с помощью надстройки. Требования для использования Exchange см. в статье [Взаимодействие Exchange и Teams](https://docs.microsoft.com/microsoftteams/exchange-teams-interact).
+- Надстройка собрания Teams требует почтовый ящик Exchange для основного пользователя, планирующего собрание. Убедитесь в том, что у вас есть по крайней мере один почтовый ящик Exchange, настроенный в профиле Outlook, и используйте его для планирования собрания Teams с помощью надстройки. Требования для использования Exchange см. в статье [Взаимодействие Exchange и Teams](./exchange-teams-interact.md).
 - Надстройка предназначена для запланированных собраний с конкретными участниками, а не для собраний в канале. Собрания в канале нужно планировать в Microsoft Teams.
 - Эта надстройка не будет работать, если прокси-сервер проверки подлинности находится в сетевом пути компьютера пользователя и служб Teams.
 - Пользователь не может планировать трансляции из Outlook. Чтобы запланировать трансляции, перейдите в Teams. Дополнительные сведения см. в статье [Что такое трансляции Microsoft Teams?](teams-live-events/what-are-teams-live-events.md)
@@ -142,7 +142,7 @@ ms.locfileid: "50614935"
 
 - Чтобы надстройка "Собрание Teams" работала, пользователям Windows 7 требуется установить [обновление для универсальной среды выполнения C в Windows](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows).
 - Убедитесь в том, что у пользователя есть политика обновления Teams, которая позволяет планировать собрания в Teams. Дополнительные сведения см. в статье [Переход со Skype для бизнеса на Teams](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview#meetings).
-- Убедитесь в том, что у пользователя есть политика собрания Teams, в которой разрешена надстройка Outlook. Дополнительные сведения см. в статье [Управление политиками собраний в Teams](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#allow-the-outlook-add-in).
+- Убедитесь в том, что у пользователя есть политика собрания Teams, в которой разрешена надстройка Outlook. Дополнительные сведения см. в статье [Управление политиками собраний в Teams](./meeting-policies-in-teams.md#allow-the-outlook-add-in).
 - Убедитесь, что у пользователя установлено классическое приложение Teams. Надстройки собраний не будут устанавливаться только при использовании веб-клиента Teams.
 - Убедитесь, что у пользователя установлено приложение Outlook 2013 или более поздней версии.
 - Убедитесь, что у пользователя есть разрешение на выполнение программы regsvr32.exe.
@@ -175,11 +175,11 @@ ms.locfileid: "50614935"
 
 ### <a name="delegate-scheduling-does-not-work"></a>Делегированное планирование не работает
 
-Если ваш администратор настроил Microsoft Exchange для [управления доступом к Exchange Web Server (EWS)](https://docs.microsoft.com/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange), представитель не сможет запланировать собрание Teams от имени руководителя. Решение для этой конфигурации находится в процессе разработки и будет выпущено в будущем. В качестве обходного решения администратор может добавить в список разрешений EWS строку: "*SchedulingService*". 
+Если ваш администратор настроил Microsoft Exchange для [управления доступом к Exchange Web Server (EWS)](/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange), представитель не сможет запланировать собрание Teams от имени руководителя. Решение для этой конфигурации находится в процессе разработки и будет выпущено в будущем. В качестве обходного решения администратор может добавить в список разрешений EWS строку: "*SchedulingService*". 
 
 
 ## <a name="related-topics"></a>Статьи по теме
 
-- [Устранение неполадок Teams](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
+- [Устранение неполадок Teams](/MicrosoftTeams/troubleshoot/teams)
 
 - [Планирование собраний Teams из Outlook](https://support.microsoft.com/office/schedule-a-teams-meeting-from-outlook-883cc15c-580f-441a-92ea-0992c00a9b0f)

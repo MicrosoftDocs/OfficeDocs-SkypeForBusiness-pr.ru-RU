@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Поиск и управление обновлениями для Skype для бизнеса Server 2015/2019 и Lync 2013 в одном месте. Чтобы узнать больше об обновлениях и скачать их, воспользуйтесь ссылками на этой странице.
-ms.openlocfilehash: 2da3556286213498a2b14a6e4943b76641ecff4c
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: ea4976954f7f31043e4cbd21e4744f85dc2088ff
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50874939"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092857"
 ---
 # <a name="skype-for-business-server-updates"></a>Обновления Skype для бизнеса Server
 
@@ -234,7 +234,7 @@ KB 4470124 — это мастер КБ для Skype для бизнеса Serve
 Имя пакета/ссылка|Дата выпуска|
 |:--- |:--- |
 |[Файл справки о документации Lync Server 2010](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=9720c3f1-ddd4-426b-b98a-f1205561ce00)|Март 2012 г. |
-|[Страница Приветствие Lync Server 2010](https://technet.microsoft.com/library/gg398616(v=ocs.14).aspx)|Октябрь 2012 г. |
+|[Страница Приветствие Lync Server 2010](/previous-versions/office/skype-server-2010/gg398616(v=ocs.14))|Октябрь 2012 г. |
 |[Im эксперт по документации Microsoft Lync Server 2010](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=8E4546AA-9B24-435D-9043-A2181B4E6D06&displaylang=en)|Март 2012 г. |
 |[Lync 2010 Заметки о](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=d76f8027-d97f-4336-adbc-7979c2b069b3)выпуске .aspx)|Январь 2011 г. |
 |[Заметки о выпуске Lync Server 2010](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=782975c4-8610-46b6-9fc4-d1d30de7c76d)|Январь 2011 г. |
@@ -266,8 +266,8 @@ KB 4470124 — это мастер КБ для Skype для бизнеса Serve
 
 Обновления программного обеспечения включают любые обновления, накопительные пакеты обновления, пакеты обновления, пакеты дополнительных компонентов, критические обновления, обновления для системы безопасности и исправления. В статье базы знаний [KB 824684](https://support.microsoft.com/kb/824684) можно найти описание стандартной терминологии, касающейся обновления программного обеспечения Майкрософт.
 
-## <a name="related-topics"></a>Родственные темы
+## <a name="related-topics"></a>Статьи по теме
 
-- [Установка Skype для бизнеса Server 2015](https://docs.microsoft.com/SkypeForBusiness/deploy/install/install)
-- [Обновление до Skype для бизнеса Server 2015](https://docs.microsoft.com/SkypeForBusiness/deploy/upgrade-to-skype-for-business-server)
+- [Установка Skype для бизнеса Server 2015](./deploy/install/install.md)
+- [Обновление до Skype для бизнеса Server 2015](./deploy/upgrade-to-skype-for-business-server.md)
 - [Последние обновления для версий Skype для бизнеса с использованием установки Windows (MSI)](sfb-client-updates.md)

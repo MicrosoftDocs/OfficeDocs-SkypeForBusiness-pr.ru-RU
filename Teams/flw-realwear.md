@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 67f595e6b037eb6091d3b4e03e3258a13e12a4d1
-ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
+ms.openlocfilehash: 222cb12e38061c81a860092f90bf42d5412fdb63
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49909393"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092287"
 ---
 # <a name="microsoft-teams-for-realwear"></a>Microsoft Teams для RealWear
 
@@ -44,8 +44,8 @@ ms.locfileid: "49909393"
 
 Устройствами RealWear можно управлять в режиме администратора устройств Android. Поддержка управления через Android Enterprise ограничена, так как устройства в настоящее время не имеют мобильных сервисов Google (GMS).
 
-- Подробнее об управлении устройствами RealWear в Microsoft Endpoint Manager см. в разделе [Регистрация администраторов устройств Android в Intune](https://docs.microsoft.com/mem/intune/enrollment/android-enroll-device-administrator).
-- Подробнее о политиках см. в статье [Как использовать Intune в среде без мобильных служб Google](https://docs.microsoft.com/mem/intune/apps/manage-without-gms).
+- Подробнее об управлении устройствами RealWear в Microsoft Endpoint Manager см. в разделе [Регистрация администраторов устройств Android в Intune](/mem/intune/enrollment/android-enroll-device-administrator).
+- Подробнее о политиках см. в статье [Как использовать Intune в среде без мобильных служб Google](/mem/intune/apps/manage-without-gms).
 
 ### <a name="third-party-enterprise-mobility-managers-emms"></a>Сторонние менеджеры по корпоративной мобильности (EMM)
 

@@ -20,19 +20,19 @@ ms.custom:
 - Setup
 - ms.lync.lac.OrgPresencePrivacy
 description: 'Узнайте, как настроить режим конфиденциальности для пользователей, чтобы они могли лучше контролировать доступность. '
-ms.openlocfilehash: a2b4ed11f1d56927a4bc7eed6ce36b5b04411509
-ms.sourcegitcommit: a5bc64abb02201cb5c2ff6696f6ef99064e1cae7
+ms.openlocfilehash: 0b708c86d2693228ad7a613755a181fff5b3743d
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "48753444"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51093473"
 ---
 # <a name="configure-presence-privacy-mode"></a>Настройка режима конфиденциальности присутствия
 
 > [!IMPORTANT]
-> Центр администрирования Microsoft Teams заменил Центр администрирования Skype для бизнеса (устаревший портал). Все параметры управления Skype для бизнеса теперь находятся в Центре администрирования Teams. Чтобы управлять функциями Skype для бизнеса в Центре администрирования Teams, вам должна быть назначена роль администратора [Azure AD](https://docs.microsoft.com/azure/active-directory/roles/permissions-reference) глобального администратора или администратор Skype для бизнеса. Дополнительные сведения см. в статье [Управление параметрами Skype для бизнеса в Центре администрирования Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
+> Центр администрирования Microsoft Teams заменил Центр администрирования Skype для бизнеса (устаревший портал). Все параметры управления Skype для бизнеса теперь находятся в Центре администрирования Teams. Чтобы управлять функциями Skype для бизнеса в Центре администрирования Teams, вам должна быть назначена роль администратора [Azure AD](/azure/active-directory/roles/permissions-reference) глобального администратора или администратор Skype для бизнеса. Дополнительные сведения см. в статье [Управление параметрами Skype для бизнеса в Центре администрирования Microsoft Teams](/MicrosoftTeams/skype-for-business-settings?bc=%2fskypeforbusiness%2fbreadcrumb%2ftoc.json&toc=%2fskypeforbusiness%2fsfbotoc%2ftoc.json)
 
-Настройка присутствия в Skype для бизнеса Online позволяет людям более контролировать, кто может видеть, доступны ли они, на собрании или нет на работе. Подробные сведения о параметрах присутствия и конфиденциальности Skype для бизнеса см. в сведениях о настройке присутствия [в Skype для бизнеса Online.](configure-presence-in-skype-for-business-online.md) 
+Настройка присутствия в Skype для бизнеса Online позволяет людям более контролировать, кто может видеть, доступны ли они, на собрании или нет на работе. Подробнее о параметрах присутствия и конфиденциальности Skype для бизнеса см. в сведениях о настройке присутствия [в Skype для бизнеса Online.](configure-presence-in-skype-for-business-online.md) 
   
 ## <a name="choose-the-default-online-presence-setting-for-everyone-in-your-organization"></a>Выбор параметров сетевого присутствия по умолчанию для всех пользователей в организации
 <a name="__top"> </a>
@@ -52,4 +52,3 @@ ms.locfileid: "48753444"
 [Разрешение на добавление контактов Skype пользователям Skype для бизнеса](let-skype-for-business-users-add-skype-contacts.md)
 
   
- 

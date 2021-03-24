@@ -23,18 +23,18 @@ ms.custom:
 - ms.teamsadmincenter.voice.phonenumbers.searchacquire.tooltip.quantity
 - seo-marvel-mar2020
 description: Узнайте, сколько номеров телефонов можно получить в Microsoft Teams, в зависимости от типа номера и количества лицензий.
-ms.openlocfilehash: b8c6c8a2e1fa2b1b882a4fc2ddbbb5e904e5f6f7
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: ecd3eacc978d81bddc67b64b9e2480bba950aa1f
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141112"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092227"
 ---
 # <a name="how-many-phone-numbers-can-you-get"></a>Предоставляемое количество номеров телефонов
 
-Число номеров телефонов, которые вы можете получить для организации, превышает назначенное число лицензий. Но это зависит от типов приобретенных и назначенных номеров и лицензий. Вы можете [щелкнуть разные типы номеров](different-kinds-of-phone-numbers-used-for-calling-plans.md) телефонов, используемые в планах звонков, чтобы узнать о различных номерах телефонов, используемых в Microsoft Teams.
+Число номеров телефонов, которые вы можете получить для организации, превышает назначенное число лицензий. Но это зависит от типов приобретенных и назначенных номеров и лицензий. Вы можете [щелкнуть различные типы номеров](different-kinds-of-phone-numbers-used-for-calling-plans.md) телефонов, используемые в планах звонков, чтобы узнать о различных номерах телефонов, используемых в Microsoft Teams.
   
-Узнать количество номеров телефонов можно на  странице "Получить номера телефонов" в Центре администрирования Microsoft Teams или выполнить командлет [Get-CsOnlineTelephoneNumberAvailableCount.](https://technet.microsoft.com/library/mt634605.aspx)
+Узнать количество номеров телефонов можно на  странице "Получить номера телефонов" в Центре администрирования Microsoft Teams или выполнить командлет [Get-CsOnlineTelephoneNumberAvailableCount.](/powershell/module/skype/Get-CsOnlineTelephoneNumberAvailableCount)
   
 > [!IMPORTANT]
 > Ограничения, указанные ниже, не включают в себя номера телефонов, которые вы перенесли в Майкрософт. 
@@ -52,7 +52,7 @@ ms.locfileid: "43141112"
 > Если вам нужно больше номеров, [обратитесь в службу поддержки администраторов Skype для бизнеса](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
   
 ## <a name="related-topics"></a>См. также:
-[Общие вопросы по передаче номеров телефонов](transferring-phone-numbers-common-questions.md)
+[Общие вопросы по передаче номеров телефонов](./phone-number-calling-plans/port-order-overview.md)
 
 [Типы номеров телефонов, используемые в планах звонков](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
@@ -63,4 +63,3 @@ ms.locfileid: "43141112"
 [Метка заявление об отказе для экстренных вызовов](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
- 

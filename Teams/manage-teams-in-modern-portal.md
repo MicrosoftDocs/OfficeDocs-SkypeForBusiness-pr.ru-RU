@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c736cf17d263f097e97b32f856bc83cf2fe42a35
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: 6bf864fefd3ac60c7531bd339a5587c8f2f0dd72
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814558"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51094239"
 ---
 <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Управление командами в Центре администрирования Microsoft Teams
 ==========================================
@@ -38,7 +38,7 @@ ms.locfileid: "47814558"
 - Глобальный администратор
 - Администратор служб Teams
 
-Вы можете подробнее узнать о ролях администраторов в Teams в справке по использованию ролей администратора [Microsoft Teams,](using-admin-roles.md)а также о том, как использовать командлеты PowerShell для управления командами, в справочнике по командлетам [Microsoft Teams.](https://docs.microsoft.com/powershell/teams/?view=teams-ps)
+Вы можете подробнее узнать о ролях администраторов в Teams в справке по использованию ролей администратора [Microsoft Teams,](using-admin-roles.md)а также о том, как использовать командлеты PowerShell для управления командами, в справочнике по командлетам [Microsoft Teams.](/powershell/teams/?view=teams-ps)
 
 
 
@@ -55,10 +55,10 @@ ms.locfileid: "47814558"
 - **Участники команды** — общее количество пользователей, включая владельцев, гостей и участников из вашего клиента.
 - **Владельцы** — количество владельцев для этой команды.
 - **Гости —** количество гостевых пользователей Azure Active Directory B2B, которые являются членами этой команды.
-- **Конфиденциальность** — видимость/AccessType группы Microsoft 365, которая имеет доступ к службе.
-- **Состояние** — "Архив или состояние активно" для этой группы. Узнайте, как архивировать команды в [архиве или восстановить их.](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7)
+- **Конфиденциальность** — видимость и AccessType для группы Microsoft 365, которая имеет доступ к службе.
+- **Состояние** — состояние "Архив" или "Активна" для этой группы. Узнайте, как архивировать команды в [архиве или восстановить их.](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7)
 - **Описание** — описание группы Microsoft 365, которая является backing.
-- **Классификация** — классификация (если она используется в вашей организации), назначенная группе Microsoft 365. Дополнительные информацию о классификациях можно получить на [сайте Create classifications for Office groups in your organization](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-groups-with-powershell#create-classifications-for-office-groups-in-your-organization)(Создание классификаций для групп Office в организации).
+- **Классификация** — классификация (если она используется в вашей организации), назначенная группе Microsoft 365. Дополнительные информацию о классификациях можно получить на [сайте Create classifications for Office groups in your organization (Создание](/office365/enterprise/powershell/manage-office-365-groups-with-powershell#create-classifications-for-office-groups-in-your-organization)классификаций для групп Office в организации).
 - **GroupID** — уникальный groupID группы Microsoft 365.
 
 > [!NOTE]
@@ -77,11 +77,11 @@ ms.locfileid: "47814558"
 
 ### <a name="archive"></a>Архивация
 
-Вы можете архивировать команду. При архивации команда перенаставляет ее в режим "только для чтения" в Teams. Как администратор вы можете архивировать и отвеять команды от имени своей организации в Центре администрирования. 
+Вы можете архивировать команду. При архивации команда перенаставляет ее в режим "только для чтения" в Teams. Как администратор вы можете архивировать и от имени своей организации команды в Центре администрирования. 
 
 ### <a name="delete"></a>Удалить
 
-Удаление команды — это неявное удаление команды и соответствующей группы Microsoft 365. Чтобы восстановить группу, удаленную по ошибке, следуйте инструкциям в окно ["Восстановление удаленной группы".](https://docs.microsoft.com/microsoft-365/admin/create-groups/restore-deleted-group)
+Удаление команды является неявным удалением соответствующей группы Microsoft 365. Чтобы восстановить группу, удаленную по ошибке, следуйте инструкциям в окно "Восстановление [удаленной группы".](/microsoft-365/admin/create-groups/restore-deleted-group)
 
 ### <a name="search"></a>Поиск
 
@@ -110,7 +110,7 @@ ms.locfileid: "47814558"
 - **Параметры бесед —** настройка того, могут ли участники редактировать и удалять отправленные сообщения.
 - **Параметры каналов** — настройка того, смогут ли участники создавать новые каналы и редактировать существующие, а также добавлять, изменять и удалять вкладки, соединители и приложения.
 
-Изменения, внесенные в команду, регистрируются в журнале. При изменении параметров группы (изменение имени, описания, фотографии, конфиденциальности, классификации или участников группы) изменения связываются с вами через канал аудита. Если вы выполняете действия с настройками Teams, изменения отслеживаются и привяются к вам в канале "Общий" команды.
+Изменения, внесенные в команду, регистрируются в журнале. Изменения параметров группы (изменение имени, описания, фотографии, конфиденциальности, классификации или участников группы) связываются с вами через канал аудита. Если вы выполняете действия с настройками Teams, изменения отслеживаются и привяются к вам в канале "Общее" команды.
 
 ## <a name="troubleshooting"></a>Устранение неполадок
 
@@ -120,9 +120,9 @@ ms.locfileid: "47814558"
 
 **Причина:** эта проблема возникает, когда система неправильно (или еще) профилировали команду, из-за чего ее может не распознать.
 
-**Разрешение: вручную за set the property to the correct value via MS Graph**
+**Разрешение: вручную за установите для свойства правильное значение с помощью MS Graph**
 
-Замените **{groupid}** в запросе для фактического groupId, который вы можете получить через Exchange Online powershell, на cmdlet **"[Get-UnifiedGroup](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/get-unifiedgroup?view=exchange-ps)"** в качестве атрибута **"ExternalDirectoryObjectId**".
+Замените **{groupid}** в запросе для фактического groupId, который вы можете получить через Exchange Online powershell, на cmdlet **"[Get-UnifiedGroup](/powershell/module/exchange/users-and-groups/get-unifiedgroup?view=exchange-ps)"** в качестве атрибута **"ExternalDirectoryObjectId**".
 
 1. Проводник Access [Graph Explorer.](https://developer.microsoft.com/graph/graph-explorer)
 
@@ -138,6 +138,6 @@ ms.locfileid: "47814558"
 
 ## <a name="learn-more"></a>Подробнее
 
-- [Справочник по командлетам Teams](https://docs.microsoft.com/powershell/teams/?view=teams-ps)  
+- [Справочник по командлетам Teams](/powershell/teams/?view=teams-ps)  
 - [Использование ролей администратора Teams для управления Teams](using-admin-roles.md)
 - [Планирование управления жизненным циклом в Teams](plan-teams-lifecycle.md)

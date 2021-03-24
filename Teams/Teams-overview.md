@@ -19,15 +19,15 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.allteamsdocuments
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7b7fe540134ae273e74dd445f1c822c1c43fe645
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: e93e30c2c6eeffc2232b6d9049af8d1224f24532
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030985"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51094405"
 ---
 # <a name="welcome-to-microsoft-teams"></a>Знакомство с Microsoft Teams
-Эта статья предназначена для администраторов Microsoft Teams в вашей организации. Когда вы будете готовы начать работу Teams, начните со знакомства со статьей [Развертывание Teams](How-to-roll-out-teams.md).
+Эта статья предназначена для администраторов Microsoft Teams в вашей организации. Когда вы будете готовы начать работу Teams, начните со знакомства со статьей [Развертывание Teams](./deploy-overview.md).
 
 Если вы еще не знакомы с Teams и хотите узнать больше, посмотрите наше короткое видео [Добро пожаловать в Teams](https://www.youtube.com/embed/s3aQV3T0D6c) (55 секунд).
 
@@ -52,7 +52,7 @@ ms.locfileid: "49030985"
 
 При создании команды из уже существующей группы, ее участники, сайт, почтовый ящик и записная книжка переносятся в Teams. Дополнительные сведения см. на плакате [Группы в Microsoft 365 для ИТ-архитекторов](teams-architecture-solutions-posters.md#groups-in-microsoft-365)
 
-Чтобы настроить и расширить возможности Teams, добавляйте сторонние приложения с помощью [приложений, ботов и соединителей](deploy-apps-microsoft-teams-landing-page.md). Teams позволяет вам включить в команду или канал пользователей, не являющихся сотрудниками вашей организации, [добавив их в качестве гостей](guest-access.md). Будучи частью Microsoft 365 и Office 365, приложение Teams представляет собой мощную [платформу для разработки](https://docs.microsoft.com/microsoftteams/platform), которая позволяет создать настоящий центр командной работы для вашей организации. 
+Чтобы настроить и расширить возможности Teams, добавляйте сторонние приложения с помощью [приложений, ботов и соединителей](deploy-apps-microsoft-teams-landing-page.md). Teams позволяет вам включить в команду или канал пользователей, не являющихся сотрудниками вашей организации, [добавив их в качестве гостей](guest-access.md). Будучи частью Microsoft 365 и Office 365, приложение Teams представляет собой мощную [платформу для разработки](/microsoftteams/platform), которая позволяет создать настоящий центр командной работы для вашей организации. 
 
 > [!TIP]
 > Для подробного обзора архитектуры Teams посмотрите видео на канале [Teams Platform Academy](https://aka.ms/TeamsPlatformAcademy).
@@ -101,9 +101,8 @@ Teams — основной клиент интеллектуальных ком
 
 ## <a name="teams-known-issues"></a>Известные проблемы Teams
 
-См. [Устранение неполадок Teams](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
+См. [Устранение неполадок Teams](/MicrosoftTeams/troubleshoot/teams)
 
 ## <a name="teams-client-release-notes"></a>Заметки о выпуске клиента Teams
 
 См. статью [Новые возможности Teams](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de).
-
