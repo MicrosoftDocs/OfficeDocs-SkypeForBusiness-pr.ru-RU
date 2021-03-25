@@ -14,24 +14,24 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 087ca1f2-2329-4fa1-b6bb-685f2f4ba296
-description: Щелкните правой кнопкой мыши серверы Office Web Apps и выберите новый сервер Office Web Apps, чтобы открыть мастер.
-ms.openlocfilehash: c070432d5cc9136293c3e6c454275b6d632ee9bc
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Щелкните правой кнопкой мыши Office Web Apps Servers и выберите Сервер новых веб-приложений Office для открытия мастера.
+ms.openlocfilehash: 38aee5489caaf6d7eea2b0b0e76d3febabe9b78e
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49823899"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119628"
 ---
-# <a name="office-web-apps-servers-scope-node"></a><span data-ttu-id="3e7d6-103">Узел области серверов Office Web Apps</span><span class="sxs-lookup"><span data-stu-id="3e7d6-103">Office Web Apps Servers Scope Node</span></span>
+# <a name="office-web-apps-servers-scope-node"></a><span data-ttu-id="13d62-103">Узел области серверов Office Web Apps</span><span class="sxs-lookup"><span data-stu-id="13d62-103">Office Web Apps Servers Scope Node</span></span>
 
-<span data-ttu-id="3e7d6-104">Щелкните правой **кнопкой мыши серверы Office Web Apps** и выберите **новый сервер Office Web Apps,** чтобы открыть мастер.</span><span class="sxs-lookup"><span data-stu-id="3e7d6-104">You right click **Office Web Apps Servers** and select **New Office Web Apps Server** to open the wizard.</span></span>
+<span data-ttu-id="13d62-104">Щелкните **правой кнопкой мыши Office Web Apps Servers и** выберите **Сервер новых веб-приложений Office для** открытия мастера.</span><span class="sxs-lookup"><span data-stu-id="13d62-104">You right click **Office Web Apps Servers** and select **New Office Web Apps Server** to open the wizard.</span></span>
 
-![Узел области серверов OfficeWebApps](../../media/OfficeWebApps_Servers_Scope_Node.jpg)
+![Узел области OfficeWebApps Servers](../../media/OfficeWebApps_Servers_Scope_Node.jpg)
 
-- <span data-ttu-id="3e7d6-106">**Топология.**</span><span class="sxs-lookup"><span data-stu-id="3e7d6-106">**Topology**.</span></span> <span data-ttu-id="3e7d6-107">С помощью этого параметра можно определить новую топологию, открыть существующую топологию, загрузить текущую топологию, сохранить копию топологии, опубликовать топологию, установить базу данных, объединить компоненты из предыдущих версий или удалить развертывание.</span><span class="sxs-lookup"><span data-stu-id="3e7d6-107">You can use this option to define a new topology, open an existing topology, download the current topology, save a copy of the topology, publish the topology, install a database, merge components from previous versions, or remove the deployment.</span></span>
+- <span data-ttu-id="13d62-106">**Топология**.</span><span class="sxs-lookup"><span data-stu-id="13d62-106">**Topology**.</span></span> <span data-ttu-id="13d62-107">С помощью этого параметра можно определить новую топологию, открыть существующую топологию, скачать текущую топологию, сохранить копию топологии, опубликовать топологию, установить базу данных, объединить компоненты из предыдущих версий или удалить развертывание.</span><span class="sxs-lookup"><span data-stu-id="13d62-107">You can use this option to define a new topology, open an existing topology, download the current topology, save a copy of the topology, publish the topology, install a database, merge components from previous versions, or remove the deployment.</span></span>
 
-- <span data-ttu-id="3e7d6-108">**Справка.**</span><span class="sxs-lookup"><span data-stu-id="3e7d6-108">**Help**.</span></span> <span data-ttu-id="3e7d6-109">Вы можете использовать данный параметр для доступа к справке по активному узлу.</span><span class="sxs-lookup"><span data-stu-id="3e7d6-109">You can use this option to access Help for the active node.</span></span>
+- <span data-ttu-id="13d62-108">**Справка**.</span><span class="sxs-lookup"><span data-stu-id="13d62-108">**Help**.</span></span> <span data-ttu-id="13d62-109">Вы можете использовать данный параметр для доступа к справке по активному узлу.</span><span class="sxs-lookup"><span data-stu-id="13d62-109">You can use this option to access Help for the active node.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="3e7d6-110">См. также</span><span class="sxs-lookup"><span data-stu-id="3e7d6-110">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="13d62-110">См. также</span><span class="sxs-lookup"><span data-stu-id="13d62-110">See also</span></span>
 
-[<span data-ttu-id="3e7d6-111">Настройка интеграции с сервером Office Web Apps и Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3e7d6-111">Configuring Integration with Office Web Apps Server and Lync Server 2013</span></span>](https://technet.microsoft.com/library/3370ab55-9949-4f32-b88b-5cffed6aaad8.aspx)
+[<span data-ttu-id="13d62-111">Настройка интеграции с сервером Office Web Apps и Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="13d62-111">Configuring Integration with Office Web Apps Server and Lync Server 2013</span></span>](/previous-versions/office/lync-server-2013/lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013)

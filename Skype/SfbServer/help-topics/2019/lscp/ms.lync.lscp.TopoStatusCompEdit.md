@@ -1,5 +1,5 @@
 ---
-title: Topology View Computer Detail
+title: Топология Просмотр компьютерной детализации
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,24 +15,21 @@ localization_priority: Normal
 ms.assetid: 482d8d7b-d674-46b5-b8b7-19bc0f20e9b2
 ROBOTS: NOINDEX, NOFOLLOW
 description: Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
-ms.openlocfilehash: a7df4c975b8efe9408b90a3d9d598b9270e7187b
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: e06f1a294723abb8c2f1c241430533013c713aee
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49836169"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120148"
 ---
-# <a name="topology-view-computer-detail"></a><span data-ttu-id="2adfd-104">Топология: просмотр сведений о компьютере</span><span class="sxs-lookup"><span data-stu-id="2adfd-104">Topology: View Computer Detail</span></span>
+# <a name="topology-view-computer-detail"></a><span data-ttu-id="ad703-104">Топология: просмотр сведений о компьютере</span><span class="sxs-lookup"><span data-stu-id="ad703-104">Topology: View Computer Detail</span></span>
 
-<span data-ttu-id="2adfd-105">Что нужно сделать</span><span class="sxs-lookup"><span data-stu-id="2adfd-105">What do you want to do?</span></span> <span data-ttu-id="2adfd-106">Щелкните ссылку на задачу, которую необходимо выполнить.</span><span class="sxs-lookup"><span data-stu-id="2adfd-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="ad703-105">Что нужно сделать</span><span class="sxs-lookup"><span data-stu-id="ad703-105">What do you want to do?</span></span> <span data-ttu-id="ad703-106">Щелкните ссылку на задачу, которую необходимо выполнить.</span><span class="sxs-lookup"><span data-stu-id="ad703-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="2adfd-107">Просмотр списка компьютеров со Skype для бизнеса Server или Lync Server</span><span class="sxs-lookup"><span data-stu-id="2adfd-107">View a List of Computers Running Skype for Business Server or Lync Server</span></span>](https://technet.microsoft.com/library/44eeec27-8b99-44f0-b0bd-622c12393d34.aspx)
+- [<span data-ttu-id="ad703-107">Просмотр списка компьютеров под управлением Skype для бизнеса Server или Lync Server</span><span class="sxs-lookup"><span data-stu-id="ad703-107">View a List of Computers Running Skype for Business Server or Lync Server</span></span>](/previous-versions/office/lync-server-2013/lync-server-2013-view-a-list-of-computers-running-lync-server-2013)
 
-- [<span data-ttu-id="2adfd-108">Просмотр сведений о службе</span><span class="sxs-lookup"><span data-stu-id="2adfd-108">View Details About a Service</span></span>](https://technet.microsoft.com/library/bc8e8202-cd68-47e4-95b2-bb36e51cc124.aspx)
+- [<span data-ttu-id="ad703-108">Просмотр сведений о службе</span><span class="sxs-lookup"><span data-stu-id="ad703-108">View Details About a Service</span></span>](/previous-versions/office/lync-server-2013/lync-server-2013-view-details-about-a-service)
 
-- [<span data-ttu-id="2adfd-109">Запуск или остановка служб</span><span class="sxs-lookup"><span data-stu-id="2adfd-109">Start or Stop Services</span></span>](https://technet.microsoft.com/library/1c70b4ec-9de5-4f7a-a3c9-c0eb76710505.aspx)
+- [<span data-ttu-id="ad703-109">Запуск или остановка служб</span><span class="sxs-lookup"><span data-stu-id="ad703-109">Start or Stop Services</span></span>](/previous-versions/office/lync-server-2013/lync-server-2013-start-or-stop-lync-server-services)
 
-- [<span data-ttu-id="2adfd-110">Запретить новые подключения к службам</span><span class="sxs-lookup"><span data-stu-id="2adfd-110">Prevent New Connections to Services</span></span>](https://technet.microsoft.com/library/977dcc5c-2aac-48ef-86a1-a8d47b4d9e74.aspx)
-
-
-
+- [<span data-ttu-id="ad703-110">Предотвращение новых подключений к службам</span><span class="sxs-lookup"><span data-stu-id="ad703-110">Prevent New Connections to Services</span></span>](/previous-versions/office/lync-server-2013/lync-server-2013-prevent-sessions-for-services)

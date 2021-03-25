@@ -15,31 +15,31 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 22203d9a-4612-45c7-9375-69ae9964ce1e
 description: 'Корневую магистраль для IP-телефонии или ТСОП можно определить, настроив следующие параметры:'
-ms.openlocfilehash: 4f437f9536b834b8b8dc69f59702bc77ce968ef2
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: bcb63361291d241139fb9eb126b26cd038ea8b34
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49835389"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119678"
 ---
-# <a name="define-the-root-trunk-for-a-new-ip-or-pstn-gateway"></a><span data-ttu-id="82c0a-103">Определение корневой магистральной линии для нового шлюза IP или ТСОП</span><span class="sxs-lookup"><span data-stu-id="82c0a-103">Define the Root Trunk for a New IP or PSTN Gateway</span></span>
+# <a name="define-the-root-trunk-for-a-new-ip-or-pstn-gateway"></a><span data-ttu-id="b6ec8-103">Определение корневой магистральной линии для нового шлюза IP или ТСОП</span><span class="sxs-lookup"><span data-stu-id="b6ec8-103">Define the Root Trunk for a New IP or PSTN Gateway</span></span>
 
-<span data-ttu-id="82c0a-104">Корневую магистраль для IP-телефонии или ТСОП можно определить, настроив следующие параметры:</span><span class="sxs-lookup"><span data-stu-id="82c0a-104">You define the root trunk for the IP or public switched telephone network (PSTN) by configuring the following:</span></span>
+<span data-ttu-id="b6ec8-104">Корневую магистраль для IP-телефонии или ТСОП можно определить, настроив следующие параметры:</span><span class="sxs-lookup"><span data-stu-id="b6ec8-104">You define the root trunk for the IP or public switched telephone network (PSTN) by configuring the following:</span></span>
 
-- <span data-ttu-id="82c0a-105">**Имя линии связи** — определяет полное доменное имя, связанное с магистралью;</span><span class="sxs-lookup"><span data-stu-id="82c0a-105">**Trunk name**: define the fully qualified domain name associated with the trunk</span></span>
+- <span data-ttu-id="b6ec8-105">**Имя линии связи** — определяет полное доменное имя, связанное с магистралью;</span><span class="sxs-lookup"><span data-stu-id="b6ec8-105">**Trunk name**: define the fully qualified domain name associated with the trunk</span></span>
 
-- <span data-ttu-id="82c0a-106">**Порт прослушивания для IP-адреса/шлюза ТСОП** — определяет порт, по которому выполняется прослушивание для данной магистрали</span><span class="sxs-lookup"><span data-stu-id="82c0a-106">**Listening port for IP/PSTN gateway**: define the port that this trunk will listen on</span></span>
+- <span data-ttu-id="b6ec8-106">**Порт прослушивания для IP-адреса/шлюза ТСОП** — определяет порт, по которому выполняется прослушивание для данной магистрали</span><span class="sxs-lookup"><span data-stu-id="b6ec8-106">**Listening port for IP/PSTN gateway**: define the port that this trunk will listen on</span></span>
 
-- <span data-ttu-id="82c0a-107">**Транспортный протокол SIP** — выберите в списке **TCP** или **TLS** в зависимости от потребностей магистрали</span><span class="sxs-lookup"><span data-stu-id="82c0a-107">**SIP Transport Protocol**: select from the list either **TCP** or **TLS**, based on the trunk requirements</span></span>
+- <span data-ttu-id="b6ec8-107">**Транспортный протокол SIP** — выберите в списке **TCP** или **TLS** в зависимости от потребностей магистрали</span><span class="sxs-lookup"><span data-stu-id="b6ec8-107">**SIP Transport Protocol**: select from the list either **TCP** or **TLS**, based on the trunk requirements</span></span>
 
-- <span data-ttu-id="82c0a-108">**Связанный сервер-посредник**: выберите из списка доступных серверов-посредников в развертывании</span><span class="sxs-lookup"><span data-stu-id="82c0a-108">**Associated Mediation Server**: select from the list of available Mediation Servers in your deployment</span></span>
+- <span data-ttu-id="b6ec8-108">**Связанный сервер-посредник:** выберите из списка доступных серверов-посредников в развертывании</span><span class="sxs-lookup"><span data-stu-id="b6ec8-108">**Associated Mediation Server**: select from the list of available Mediation Servers in your deployment</span></span>
 
-- <span data-ttu-id="82c0a-109">**Связанный порт сервера-посредника**: определите порт, который прослушивает выбранный сервер-посредник</span><span class="sxs-lookup"><span data-stu-id="82c0a-109">**Associated Mediation Server port**: define the port that the selected Mediation Server is listening on</span></span>
+- <span data-ttu-id="b6ec8-109">**Связанный порт сервера-посредника:** определите порт, на который прослушивается выбранный сервер-посредник</span><span class="sxs-lookup"><span data-stu-id="b6ec8-109">**Associated Mediation Server port**: define the port that the selected Mediation Server is listening on</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="82c0a-110">См. также</span><span class="sxs-lookup"><span data-stu-id="82c0a-110">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="b6ec8-110">См. также</span><span class="sxs-lookup"><span data-stu-id="b6ec8-110">See also</span></span>
 
-[<span data-ttu-id="82c0a-111">Настройка магистрали с обходом сервера-посредника в Skype для бизнеса Server 2015</span><span class="sxs-lookup"><span data-stu-id="82c0a-111">Configure a trunk with media bypass in Skype for Business Server 2015</span></span>](../../deploy/deploy-enterprise-voice/configure-trunk-with-media-bypass.md)
+[<span data-ttu-id="b6ec8-111">Настройка магистрали с обходом мультимедиа в Skype для бизнеса Server 2015</span><span class="sxs-lookup"><span data-stu-id="b6ec8-111">Configure a trunk with media bypass in Skype for Business Server 2015</span></span>](../../deploy/deploy-enterprise-voice/configure-trunk-with-media-bypass.md)
 
-[<span data-ttu-id="82c0a-112">Настройка магистрали без обхода сервера-посредника в Skype для бизнеса Server 2015</span><span class="sxs-lookup"><span data-stu-id="82c0a-112">Configure a trunk without media bypass in Skype for Business Server 2015</span></span>](../../deploy/deploy-enterprise-voice/configure-trunk-without-media-bypass.md)
+[<span data-ttu-id="b6ec8-112">Настройка магистрали без обхода мультимедиа в Skype для бизнеса Server 2015</span><span class="sxs-lookup"><span data-stu-id="b6ec8-112">Configure a trunk without media bypass in Skype for Business Server 2015</span></span>](../../deploy/deploy-enterprise-voice/configure-trunk-without-media-bypass.md)
 
-[<span data-ttu-id="82c0a-113">Поддержка распределения каналов SIP</span><span class="sxs-lookup"><span data-stu-id="82c0a-113">SIP Trunking Support</span></span>](https://technet.microsoft.com/library/e3042831-e8d8-4ea2-baa2-1a697401ffa0.aspx)
+[<span data-ttu-id="b6ec8-113">Поддержка распределения каналов SIP</span><span class="sxs-lookup"><span data-stu-id="b6ec8-113">SIP Trunking Support</span></span>](/previous-versions/office/lync-server-2013/lync-server-2013-sip-trunking-support)

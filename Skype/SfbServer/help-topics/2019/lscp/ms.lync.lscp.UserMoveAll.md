@@ -15,17 +15,15 @@ localization_priority: Normal
 ms.assetid: 48bf9dad-bc51-4996-9417-8f15c1d476ad
 ROBOTS: NOINDEX, NOFOLLOW
 description: В диалоговом окне Переместить пользователей вы можете выбрать исходный и конечный пулы для перемещения учетных записей пользователей из одного пула в другой в рамках развертывания.
-ms.openlocfilehash: bc1888a6507acd9fc887c5b2f6aceeb9faf5fc58
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 9c4d2cf5eaac7214965783c395564b554bac5961
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49820209"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120078"
 ---
-# <a name="move-all-users"></a><span data-ttu-id="b86a2-103">Перемещение всех пользователей</span><span class="sxs-lookup"><span data-stu-id="b86a2-103">Move All Users</span></span>
+# <a name="move-all-users"></a><span data-ttu-id="f436d-103">Перемещение всех пользователей</span><span class="sxs-lookup"><span data-stu-id="f436d-103">Move All Users</span></span>
 
-<span data-ttu-id="b86a2-104">В диалоговом окне **Переместить пользователей** вы можете выбрать исходный и конечный пулы для перемещения учетных записей пользователей из одного пула в другой в рамках развертывания.</span><span class="sxs-lookup"><span data-stu-id="b86a2-104">On the **Move Users** dialog, you can select the source and destination pools for moving user accounts from one pool to another in your deployment.</span></span>
+<span data-ttu-id="f436d-104">В диалоговом окне **Переместить пользователей** вы можете выбрать исходный и конечный пулы для перемещения учетных записей пользователей из одного пула в другой в рамках развертывания.</span><span class="sxs-lookup"><span data-stu-id="f436d-104">On the **Move Users** dialog, you can select the source and destination pools for moving user accounts from one pool to another in your deployment.</span></span>
 
-<span data-ttu-id="b86a2-105">Дополнительные сведения о перемещении пользователей см. в разделе [Move Users to Another Pool](https://technet.microsoft.com/library/e7b4968c-0e9d-4d56-b5f1-9edf0f7206f8.aspx).</span><span class="sxs-lookup"><span data-stu-id="b86a2-105">For more information about moving users, see [Move Users to Another Pool](https://technet.microsoft.com/library/e7b4968c-0e9d-4d56-b5f1-9edf0f7206f8.aspx).</span></span>
-
-
+<span data-ttu-id="f436d-105">Дополнительные сведения о перемещении пользователей см. в разделе [Move Users to Another Pool](/previous-versions/office/lync-server-2013/lync-server-2013-move-users-to-another-pool).</span><span class="sxs-lookup"><span data-stu-id="f436d-105">For more information about moving users, see [Move Users to Another Pool](/previous-versions/office/lync-server-2013/lync-server-2013-move-users-to-another-pool).</span></span>
