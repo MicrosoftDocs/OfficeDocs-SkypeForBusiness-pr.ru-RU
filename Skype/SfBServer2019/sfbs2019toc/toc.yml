@@ -430,7 +430,7 @@
                   items:
                     - name: Создание профилей политики пропускной способности
                       href: ../../SfbServer/deploy/deploy-enterprise-voice/create-bandwidth-policy-profiles.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
-                    - name: Создание связей между сетевыми областями
+                    - name: Создание связей между областями сети
                       href: ../../SfbServer/deploy/deploy-enterprise-voice/create-network-region-links.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                     - name: Создание межрегиональных сетевых маршрутов
                       href: ../../SfbServer/deploy/deploy-enterprise-voice/create-network-interregional-routes.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
@@ -985,7 +985,7 @@
           href: ../../SfbServer/manage/authentication/authentication.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
           items:
             - name: Использование ADAL
-              href: ../../SfbServer/manage/authentication/use-adal.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: /microsoft-365/enterprise/hybrid-modern-auth-overview?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2fsfbs2019toc%2ftoc.json
             - name: Этапы сертифицирования AV и OAuth
               href: ../../SfbServer/manage/authentication/stage-av-and-oauth-certificates.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Назначение сертификата между серверами

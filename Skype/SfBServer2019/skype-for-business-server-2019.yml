@@ -1,8 +1,8 @@
 ### YamlMime:Landing
-title: Документация по Skype для бизнеса Server 2019
+title: Документация Skype для бизнеса Server 2019
 summary: Узнайте, как реализовать Skype для бизнеса Server 2019.
 metadata:
-  title: Документация по Skype для бизнеса Server 2019
+  title: Документация Skype для бизнеса Server 2019
   description: Узнайте, как реализовать Skype для бизнеса Server 2019.
   ms.service: skype-for-business-online
   ms.topic: landing-page
@@ -10,25 +10,25 @@ metadata:
   author: LanaChin
   ms.author: v-lanac
   ms.date: 06/23/2020
-  ms.openlocfilehash: 4aa8036644cf6d38e150d458c7ca1645e3d6822e
-  ms.sourcegitcommit: e2ce0a0c26f31bb09413c0999380301d7b693331
+  ms.openlocfilehash: d5c02d51c74a5aeb4a9d61c7b8ebdd0d2752b6d7
+  ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
   ms.translationtype: MT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 07/21/2020
-  ms.locfileid: "45189363"
+  ms.lasthandoff: 03/23/2021
+  ms.locfileid: "51120490"
 landingContent:
 - title: О Skype для бизнеса Server 2019
   linkLists:
   - linkListType: whats-new
     links:
     - text: Новые возможности
-      url: /skypeforbusiness/whats-new
+      url: ./whats-new.md
   - linkListType: overview
     links:
     - text: Требования к системе
-      url: /skypeforbusiness/plan/system-requirements
+      url: ./plan/system-requirements.md
     - text: Требования к сети
-      url: /skypeforbusiness/plan-your-deployment/network-requirements/network-requirements
+      url: ../SfbServer/plan-your-deployment/network-requirements/network-requirements.md
   - linkListType: download
     links:
     - text: Скачайте сейчас!
@@ -38,30 +38,30 @@ landingContent:
   - linkListType: overview
     links:
     - text: Основы топологии
-      url: /skypeforbusiness/plan-your-deployment/topology-basics/topology-basics
+      url: ../SfbServer/plan-your-deployment/topology-basics/topology-basics.md
     - text: Планирование гибридного подключения
-      url: /skypeforbusiness/hybrid/plan-hybrid-connectivity
+      url: ../SfbHybrid/hybrid/plan-hybrid-connectivity.md
     - text: Планирование Корпоративная голосовая связь
-      url: /skypeforbusiness/plan-your-deployment/enterprise-voice-solution/enterprise-voice
+      url: ../SfbServer/plan-your-deployment/enterprise-voice-solution/enterprise-voice.md
 - title: Установка и управление
   linkLists:
   - linkListType: deploy
     links:
     - text: Установка Skype для бизнеса Server
-      url: /skypeforbusiness/deploy/install/install
-    - text: Переход на Skype для бизнеса 2019
-      url: /skypeforbusiness/migration/migration-to-skype-for-business-server-2019
+      url: ../SfbServer/deploy/install/install.md
+    - text: Миграция в Skype для бизнеса 2019
+      url: ./migration/migration-to-skype-for-business-server-2019.md
     - text: Развертывание корпоративной голосовой связи
-      url: /skypeforbusiness/deploy/deploy-enterprise-voice/deploy-enterprise-voice
+      url: ../SfbServer/deploy/deploy-enterprise-voice/deploy-enterprise-voice.md
   - linkListType: how-to-guide
     links:
     - text: Управление топологией
-      url: /skypeforbusiness/manage/topology/topology
+      url: ../SfbServer/manage/topology/topology.md
 - title: Другие ресурсы
   linkLists:
   - linkListType: overview
     links:
-    - text: Документация по Skype для бизнеса Server 2015
-      url: /SkypeForBusiness/skype-for-business-server-2015
-    - text: Документация по Lync Server 2013
+    - text: Документация Skype для бизнеса Server 2015
+      url: ../SfbServer/skype-for-business-server-2015.yml
+    - text: Документация Lync Server 2013
       url: /lyncserver/microsoft-lync-server-2013
