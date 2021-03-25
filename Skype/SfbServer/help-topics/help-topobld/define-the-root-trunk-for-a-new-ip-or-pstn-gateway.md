@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 22203d9a-4612-45c7-9375-69ae9964ce1e
 description: 'Корневую магистраль для IP-телефонии или ТСОП можно определить, настроив следующие параметры:'
-ms.openlocfilehash: 4f437f9536b834b8b8dc69f59702bc77ce968ef2
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: bcb63361291d241139fb9eb126b26cd038ea8b34
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49835389"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119678"
 ---
 # <a name="define-the-root-trunk-for-a-new-ip-or-pstn-gateway"></a>Определение корневой магистральной линии для нового шлюза IP или ТСОП
 
@@ -32,14 +32,14 @@ ms.locfileid: "49835389"
 
 - **Транспортный протокол SIP** — выберите в списке **TCP** или **TLS** в зависимости от потребностей магистрали
 
-- **Связанный сервер-посредник**: выберите из списка доступных серверов-посредников в развертывании
+- **Связанный сервер-посредник:** выберите из списка доступных серверов-посредников в развертывании
 
-- **Связанный порт сервера-посредника**: определите порт, который прослушивает выбранный сервер-посредник
+- **Связанный порт сервера-посредника:** определите порт, на который прослушивается выбранный сервер-посредник
 
 ## <a name="see-also"></a>См. также
 
-[Настройка магистрали с обходом сервера-посредника в Skype для бизнеса Server 2015](../../deploy/deploy-enterprise-voice/configure-trunk-with-media-bypass.md)
+[Настройка магистрали с обходом мультимедиа в Skype для бизнеса Server 2015](../../deploy/deploy-enterprise-voice/configure-trunk-with-media-bypass.md)
 
-[Настройка магистрали без обхода сервера-посредника в Skype для бизнеса Server 2015](../../deploy/deploy-enterprise-voice/configure-trunk-without-media-bypass.md)
+[Настройка магистрали без обхода мультимедиа в Skype для бизнеса Server 2015](../../deploy/deploy-enterprise-voice/configure-trunk-without-media-bypass.md)
 
-[Поддержка распределения каналов SIP](https://technet.microsoft.com/library/e3042831-e8d8-4ea2-baa2-1a697401ffa0.aspx)
+[Поддержка распределения каналов SIP](/previous-versions/office/lync-server-2013/lync-server-2013-sip-trunking-support)

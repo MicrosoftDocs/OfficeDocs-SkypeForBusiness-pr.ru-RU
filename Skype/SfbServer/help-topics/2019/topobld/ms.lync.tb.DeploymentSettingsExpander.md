@@ -14,17 +14,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7220ec1f-38cb-4297-870e-591a832cd2f2
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Свойства существующего развертывания можно изменить в следующих разделах:'
-ms.openlocfilehash: 4eab2f0d6468e62c550476717a7af433315b0728
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Свойства существующего развертывания можно изменить следующими разделами:'
+ms.openlocfilehash: 9d76646c0b0f9f8f579e8f978659191258e9f412
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49811159"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120015"
 ---
 # <a name="deployment-settings-expander"></a>Расширитель параметров развертывания
 
-Свойства существующего развертывания можно изменить в следующих разделах:
+Свойства существующего развертывания можно изменить следующими разделами:
 
 - Домен SIP
 
@@ -73,9 +73,7 @@ ms.locfileid: "49811159"
 > [!IMPORTANT]
 > После определения, опубликовано ли и развернуто центральное хранилище управления для инфраструктуры, невозможно изменить местоположение центрального хранилища управления без переноса этого хранилище на другой интерфейсный сервер для внешней обработки.
 
-Подробные сведения о перемещении центрального хранения управления см. в справочнике по Windows PowerShell [Move-CsManagementServer.](https://docs.microsoft.com/powershell/module/skype/move-csmanagementserver?view=skype-ps)
+Сведения о перемещении центра управления см. в справке [Move-CsManagementServer](/powershell/module/skype/move-csmanagementserver?view=skype-ps) Windows PowerShell ссылке.
 
 
-Сведения об определении и настройке этих параметров см. в разделе [Defining and Configuring the Topology](https://technet.microsoft.com/library/51d1601e-4f83-48d4-ad08-3b4d5e2003aa.aspx).
-
-
+Сведения об определении и настройке этих параметров см. в разделе [Defining and Configuring the Topology](/previous-versions/office/lync-server-2013/lync-server-2013-defining-and-configuring-the-topology).

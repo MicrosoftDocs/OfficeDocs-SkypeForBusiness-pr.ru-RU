@@ -20,12 +20,12 @@ ms.custom:
 - PowerShell
 - LIL_Placement
 description: Скачайте, установите и используйте Windows PowerShell 5.1, чтобы создать удаленный сеанс PowerShell, соединяющийся с приложением Skype для бизнеса Online.
-ms.openlocfilehash: 64d1ed1b3e3031f5186a09289ab6e1d9088840cf
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: ed719a2df084c968c622a54fe145647b2d7b7aa8
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029100"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120338"
 ---
 # <a name="download-and-install-windows-powershell-51"></a>Скачивание и установка Windows PowerShell 5.1
 
@@ -55,7 +55,7 @@ ms.locfileid: "42029100"
   
 1. В меню **Пуск** последовательно выберите пункты **Все программы**, **Стандартные** и **Windows PowerShell**. Затем щелкните элемент **Windows PowerShell** правой кнопкой мыши и выберите **Запуск от имени администратора**.
     
-2. Если появится диалоговое окно **Контроль учетных записей**, нажмите кнопку **Да**, чтобы подтвердить запуск PowerShell с использованием учетных данных администратора.
+2. Если появится диалоговое окно **Контроль учетных записей**, нажмите кнопку **Да**, чтобы разрешить запуск PowerShell с правами администратора.
     
 В системе Windows 8 выполните указанные ниже действия.
   
@@ -94,7 +94,7 @@ Get-ExecutionPolicy
 
 Если вы не знаете свою версию Windows или не уверены, установлен ли у вас пакет обновления 1 для Windows 7, откройте меню **Пуск**, щелкните правой кнопкой мыши пункт **Компьютер** и выберите пункт **Свойства**. Нужная информация будет представлена в диалоговом окне "Система".
   
-Чтобы установить Windows Management Framework 5.1, выполните процедуру из статьи [Установка и настройка WMF 5.1](https://docs.microsoft.com/powershell/scripting/wmf/setup/install-configure).
+Чтобы установить Windows Management Framework 5.1, выполните процедуру из статьи [Установка и настройка WMF 5.1](/powershell/scripting/wmf/setup/install-configure).
   
 После перезагрузки проверьте работоспособность Windows PowerShell и возможность запуска этого приложения от имени администратора. Для этого выполните следующие действия:
   
@@ -148,4 +148,3 @@ Auth
 [Настройка компьютера для Windows PowerShell](set-up-your-computer-for-windows-powershell.md) 
 
   
- 

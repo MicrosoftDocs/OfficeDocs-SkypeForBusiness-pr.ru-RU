@@ -1,5 +1,5 @@
 ---
-title: Enable or disable dial-in conferencing in Skype for Business Server
+title: Включить или отключить диалоговое общение в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,27 +11,27 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: c1f7cf91-8434-42ec-b09d-7d9d01e0b357
-description: Сводка. Узнайте, как включить или отключить в Skype для бизнеса Server использование панели управления или оболочки управления для отключения звонков по телефонной сети.
-ms.openlocfilehash: 99691540306ba0cccf9c63af2e2188e839367bc6
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Сводка. Узнайте, как использовать панель управления или панель управления, чтобы включить или отключить диалоговое общение в Skype для бизнеса Server.
+ms.openlocfilehash: ade7753f480856d68535daadda40eac6296a5d6e
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49828129"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119468"
 ---
-# <a name="enable-or-disable-dial-in-conferencing-in-skype-for-business-server"></a>Enable or disable dial-in conferencing in Skype for Business Server
+# <a name="enable-or-disable-dial-in-conferencing-in-skype-for-business-server"></a>Включить или отключить диалоговое общение в Skype для бизнеса Server
  
-**Сводка:** Learn how to use Control Panel or Management Shell to enable or disable dial-in conferencing in Skype for Business Server.
+**Сводка:** Узнайте, как использовать панель управления или панель управления, чтобы включить или отключить диалоговое общение в Skype для бизнеса Server.
   
-You can enable dial-in conferencing by using Skype for Business Server Control Panel or by using Skype for Business Server Management Shell.
+Вы можете включить диалоговое видеоконференцию с помощью панели управления Skype для бизнес-серверов или с помощью панели управления Skype для бизнес-серверов.
   
-## <a name="enable-or-disable-dial-in-conferencing-by-using-skype-for-business-server-control-panel"></a>Enable or disable dial-in conferencing by using Skype for Business Server Control Panel
+## <a name="enable-or-disable-dial-in-conferencing-by-using-skype-for-business-server-control-panel"></a>Включить или отключить диалоговое общение с помощью панели управления Skype для бизнес-серверов
 
 1. Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи пользователя, назначенной роли CsUserAdministrator или CsAdministrator.
     
-2.  Откройте панель управления Skype для бизнеса Server.
+2.  Откройте панель управления Skype для бизнес-серверов.
     
-3. В левой панели навигации щелкните **"Conferencing" (Conferencing),** а затем выберите **"Conferencing Policy" (Политика).**
+3. В левой панели навигации нажмите **кнопку Conferencing** и нажмите кнопку **Политика конференциации**.
     
 4. В списке политик конференции выберите политику, для которой следует включить конференцию с подключением по телефону, щелкните **Изменить**, затем **Подробнее**. 
     
@@ -39,14 +39,12 @@ You can enable dial-in conferencing by using Skype for Business Server Control P
     
 6. Нажмите кнопку **Сохранить**. 
     
-## <a name="enable-or-disable-dial-in-conferencing-by-using-skype-for-business-server-management-shell"></a>Enable or disable dial-in conferencing by using Skype for Business Server Management Shell
+## <a name="enable-or-disable-dial-in-conferencing-by-using-skype-for-business-server-management-shell"></a>Включить или отключить диалоговое общение с помощью оболочки управления Skype для бизнес-серверов
 
-Чтобы включить или отключить функцию телефонной связи, используйте с параметром EnableDialInConferencing в качестве параметра **Set-CsConferencing:**
+Чтобы включить или отключить диалоговое видеоконференцию, используйте комлет **Set-CsConferencingPolicy** с параметром EnableDialInConferencing следующим образом:
   
 ```PowerShell
 Set-CsConferencingPolicy  [-EnableDialInConferencing <$true | $false>] 
 ```
 
-Дополнительные сведения [см. в подстроке Set-CsConferencingPolicy.](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps)
-  
-
+Дополнительные сведения см. в дополнительных сведениях [в set-CsConferencingPolicy.](/powershell/module/skype/set-csconferencingpolicy?view=skype-ps)

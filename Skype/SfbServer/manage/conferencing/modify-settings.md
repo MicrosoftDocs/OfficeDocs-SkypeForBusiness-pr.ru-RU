@@ -12,43 +12,41 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 11d1f9ac-0029-429b-be2b-d7591abfc192
 description: Сводка. Узнайте, как изменить параметры конфигурации собраний в Skype для бизнеса Server.
-ms.openlocfilehash: 80ba12266ebc45fdae3256f5238ecf18415734c8
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 2f0d1220312ac810d26fdd4691492133e54db9b6
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49827999"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119418"
 ---
 # <a name="modify-meeting-configuration-settings-in-skype-for-business-server"></a>Изменение параметров конфигурации собраний в Skype для бизнеса Server
  
 **Сводка:** Узнайте, как изменить параметры конфигурации собраний в Skype для бизнеса Server.
   
-Изменить параметры конфигурации собраний можно с помощью панели управления Skype для бизнеса Server или с помощью skype для бизнеса Server Management Shell.
+Параметры конфигурации собраний можно изменить с помощью панели управления Skype для бизнес-серверов или с помощью оболочки управления Skype для бизнес-серверов.
   
-## <a name="modify-meeting-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Изменение параметров конфигурации собраний с помощью панели управления Skype для бизнеса Server
+## <a name="modify-meeting-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Изменение параметров конфигурации собраний с помощью панели управления Skype для бизнес-серверов
 
 1. Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи пользователя, назначенной роли CsUserAdministrator или CsAdministrator.
     
-2.  Откройте панель управления Skype для бизнеса Server.
+2.  Откройте панель управления Skype для бизнес-серверов.
     
-3. В левой панели навигации щелкните **"Conferencing"**(Конфигурация собрания) и выберите **"Конфигурация собрания".**
+3. В левой панели навигации нажмите **кнопку Conferencing** и нажмите кнопку **Конфигурация собраний**.
     
-4. В списке конфигураций собраний выберите конфигурацию, которую нужно изменить, нажмите кнопку "Изменить", а затем щелкните **"Показать подробности".**
+4. В списке конфигураций собраний щелкните конфигурацию, которую необходимо изменить, нажмите **кнопку Изменить** и нажмите **кнопку Показать сведения**.
     
-5. В **области "Изменение конфигурации** собрания" измените любые параметры конфигурации, за исключением имени конфигурации, которое нельзя изменить.
+5. В **изменении конфигурации** собраний измените любые параметры конфигурации, за исключением имени конфигурации, которое невозможно изменить.
     
 6. Щелкните **Исполнить**.
     
-## <a name="modify-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>Изменение параметров конфигурации собраний с помощью оболочки управления Skype для бизнеса Server
+## <a name="modify-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>Изменение параметров конфигурации собраний с помощью оболочки управления Skype для бизнес-серверов
 
-Чтобы изменить параметры конфигурации собрания, используйте **cmdlet Set-CsMeetingConfiguration.**
+Чтобы изменить параметры конфигурации собраний, используйте комлет **Set-CsMeetingConfiguration.**
   
-Команда, показанная в следующем примере, изменяет параметры конфигурации собраний, присвоенные сайту Redmond (-Identity site:Redmond). В этом случае свойству DesignateAsPresenter задается значение Everyone:
+Команда, показанная в следующем примере, изменяет параметры конфигурации собраний, присвоенные сайту Redmond (-Identity site:Redmond). В этом случае значение свойства DesignateAsPresenter устанавливается для всех:
   
 ```PowerShell
 Set-CsMeetingConfiguration -Identity "site:Redmond" -DesignateAsPresenter "Everyone"
 ```
 
-Дополнительные сведения, включая полный список параметров, см. в подстроке [Set-CsMeetingConfiguration.](https://docs.microsoft.com/powershell/module/skype/set-csmeetingconfiguration?view=skype-ps)
-  
-
+Дополнительные сведения, включая полный список параметров, см. в [списке Set-CsMeetingConfiguration.](/powershell/module/skype/set-csmeetingconfiguration?view=skype-ps)

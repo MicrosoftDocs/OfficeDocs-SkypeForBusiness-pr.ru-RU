@@ -14,16 +14,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0ef58717-a7ce-4451-a6f3-1fe5a850ab31
 ROBOTS: NOINDEX, NOFOLLOW
-description: Чтобы начать объединение устаревшего развертывания со Skype для бизнеса Server, нажмите кнопку "Далее". Подробные сведения о запуске мастера объединения построитель топологий см. в документации по миграции в мастере объединения с помощью построщика топологий.
-ms.openlocfilehash: f3a7daf233c01fd3afbabdab2778a047807244fe
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Чтобы приступить к объединению устаревшего развертывания со Skype для бизнеса Server, нажмите кнопку Далее. Сведения о запуске мастера слияния topology Builder см. в материале Merge Using Topology Builder Merge Wizard in the Migration documentation.
+ms.openlocfilehash: 1547ef69b09cc72c0841732385ceabf3c20af113
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49833419"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119988"
 ---
 # <a name="legacy-merge-results"></a>Результаты объединения с устаревшей версией
 
-Чтобы начать объединение устаревшего развертывания со Skype для бизнеса Server, нажмите кнопку **"Далее".** Подробные сведения о запуске мастера [](https://technet.microsoft.com/library/c3f3c425-dab6-4dcd-bf0e-d7fde05f2ebf.aspx) объединения построитель топологий см. в документации по миграции в мастере объединения с помощью построщика топологий.
-
-
+Чтобы приступить к объединению устаревшего развертывания со Skype для бизнеса Server, нажмите **кнопку Далее**. Сведения о запуске мастера слияния topology Builder см. в материале [Merge Using Topology Builder Merge Wizard](/previous-versions/office/lync-server-2013/merge-using-topology-builder-merge-wizard) in the Migration documentation.

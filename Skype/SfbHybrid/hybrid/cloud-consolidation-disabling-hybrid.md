@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: В этой статье содержатся подробные действия по отключению гибрида в рамках консолидации облачных технологий для Teams и Skype для бизнеса.
-ms.openlocfilehash: 90ec73246007542ad0215007b0da91f4fe9405e8
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: 36ec3cba2d821cc8554e0fba95108756c83b7b3d
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50874699"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120358"
 ---
 # <a name="disable-hybrid-to-complete-migration-to-the-cloud-overview"></a>Отключить гибрид для завершения миграции в облако: Обзор
 
@@ -47,7 +47,7 @@ ms.locfileid: "50874699"
 
 1. *Обновим DNS, чтобы указать на Microsoft 365 или Office 365.* Внешние DNS организации для локальной организации необходимо обновить таким образом, чтобы записи Skype для бизнеса указывают на Microsoft 365 или Office 365 вместо локального развертывания. Это означает следующее:
 
-    |Тип записи|Name|TTL|Value (Значение)|
+    |Тип записи|Имя|TTL|Value (Значение)|
     |---|---|---|---|
     |SRV|_sipfederationtls._tcp|3600|100 1 5061 sipfed.online.lync. <span> com|
     |SRV|_sip._tls|3600|100 1 443 sipdir.online.lync. <span> com|
@@ -99,7 +99,7 @@ ms.locfileid: "50874699"
 
   ![Средство для пользователей и компьютеров Active Directory](../media/disable-hybrid-1.png)
   
--  Если у пользователя изначально не было значения для локального перед перемещением, можно изменить номер телефона с помощью параметра `msRTCSIP-Line` в командлете `onpremLineUri` [Set-CsUser](https://docs.microsoft.com/powershell/module/skype/set-csuser?view=skype-ps) в модуле Skype для бизнеса Online PowerShell.
+-  Если у пользователя изначально не было значения для локального перед перемещением, можно изменить номер телефона с помощью параметра `msRTCSIP-Line` в командлете `onpremLineUri` [Set-CsUser](/powershell/module/skype/set-csuser?view=skype-ps) в модуле Skype для бизнеса Online PowerShell.
 
 Эти действия не являются необходимыми для новых пользователей, созданных после отключения гибрида, и управлять этими пользователями можно непосредственно в облаке. Если вам удобно использовать сочетание этих методов, а также оставить атрибуты msRTCSIP на месте в локальном Active Directory, вы можете просто повторно образ локального Skype для бизнеса серверов. Однако, если вы предпочитаете очистить все атрибуты msRTCSIP и сделать традиционный удалить Skype для бизнеса Server, используйте метод 2.
 

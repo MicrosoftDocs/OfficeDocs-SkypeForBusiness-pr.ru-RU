@@ -1,5 +1,5 @@
 ---
-title: Создание политик в Skype для бизнеса Server
+title: Создание политик конференций в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,27 +11,27 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 8c685326-8356-4075-bf95-32324b16ef81
-description: Сводка. Узнайте, как создавать политики в Skype для бизнеса Server.
-ms.openlocfilehash: 8e707e6da1a56fa1818d436714327936369b06fe
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Сводка. Сведения о создании политик конференциинга в Skype для бизнеса Server.
+ms.openlocfilehash: 81fcaa15c7b12b499c833ac012ef6d999da683ad
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49828239"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119528"
 ---
-# <a name="create-conferencing-policies-in-skype-for-business-server"></a>Создание политик в Skype для бизнеса Server
+# <a name="create-conferencing-policies-in-skype-for-business-server"></a>Создание политик конференций в Skype для бизнеса Server
  
-**Сводка:** Узнайте, как создавать политики в Skype для бизнеса Server.
+**Сводка:** Узнайте, как создать политики конференциинга в Skype для бизнеса Server.
   
-You can create conferencing policies by using Skype for Business Server Control Panel or by using Skype for Business Server Management Shell.
+Политики конференциинга можно создавать с помощью панели управления Skype для бизнес-серверов или с помощью панели управления Skype для бизнес-серверов.
   
-## <a name="create-conferencing-policies-by-using-skype-for-business-server-control-panel"></a>Create conferencing policies by using Skype for Business Server Control Panel
+## <a name="create-conferencing-policies-by-using-skype-for-business-server-control-panel"></a>Создание политик конференциинга с помощью панели управления Skype для бизнес-серверов
 
 1. Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи пользователя, назначенной роли CsUserAdministrator или CsAdministrator.
     
-2. Откройте панель управления Skype для бизнеса Server.
+2. Откройте панель управления Skype для бизнес-серверов.
     
-3. В левой панели навигации щелкните **"Conferencing" (Conferencing),** а затем выберите **"Conferencing Policy" (Политика).**
+3. В левой панели навигации нажмите **кнопку Conferencing** и нажмите кнопку **Политика конференциации**.
     
 4. Нажмите кнопку **Создать**, а затем выполните одно из следующих действий:
     
@@ -40,13 +40,13 @@ You can create conferencing policies by using Skype for Business Server Control 
    - Чтобы создать политику уровня сайта, выберите вариант **Политика сайта**. В поле поиска **Выбор сайта** введите часть или полное имя сайта, для которого требуется создать политику. В списке сайтов выберите нужный сайт и нажмите кнопку **ОК**.
     
      > [!NOTE]
-     > Имя сайта становится именем политики conferencing; его нельзя изменить. 
+     > Имя сайта становится именем политики конференций; его невозможно изменить. 
   
 5. В поле **Описание** введите описание политики.
     
 6. В разделе **Политика организатора** в поле **Максимальный размер собрания** введите максимальное допустимое число пользователей собрания. Значение по умолчанию — 250.
     
-7. Чтобы запретить пользователям приглашать на собрания анонимных пользователей, снимите флажок **Allow participants to invite anonymous users (Разрешить участникам приглашать анонимных пользователей)**. Анонимные пользователи — это пользователи, которые не имеют учетных данных в доменных службах Active Directory вашей организации, и поэтому не имеют проверки подлинности. По умолчанию пользователи могут приглашать анонимных пользователей на собрания.
+7. Чтобы запретить пользователям приглашать на собрания анонимных пользователей, снимите флажок **Allow participants to invite anonymous users (Разрешить участникам приглашать анонимных пользователей)**. Анонимные пользователи — это пользователи, которые не имеют учетных данных в службах домена Active Directory организации и поэтому не являются аутентификацией. По умолчанию пользователи могут приглашать анонимных пользователей на собрания.
     
 8. В разделе **Recording (Запись)** выполните одно из следующих действий.
     
@@ -70,7 +70,7 @@ You can create conferencing policies by using Skype for Business Server Control 
     
     - Если вы разрешили пользователям присоединяться к собраниям по телефону и хотите разрешить неавторизованным (анонимным) пользователям присоединяться к собраниям обратным звонком, установите флажок **Allow anonymous participants to dial out (Разрешить анонимным участникам присоединяться обратным звонком)**. При обратном звонке сервер конференций вызывает пользователя, и пользователь отвечает по телефону, чтобы присоединиться к собранию. По умолчанию анонимные пользователи не могут присоединяться к собраниям обратным звонком.
     
-12. Если вы разрешили использование видео в аудио- **и** видеопотоках, проверьте разрешение **нескольких видеопотоков.**
+12. Если вы решили разрешить использование видео в **аудио/ видео,** проверьте **Разрешить несколько потоков видео**.
     
 13. В разделе **Data collaboration (Совместная работа с данными)** выполните одно из следующих действий.
     
@@ -84,7 +84,7 @@ You can create conferencing policies by using Skype for Business Server Control 
     
     - Чтобы запретить передачу файлов, снимите флажок **Allow participants to transfer files (Разрешить передачу файлов участникам)**. По умолчанию пользователи могут передавать файлы.
     
-    - Чтобы запретить использование заметок, снимите флажок **Enable annotations (Разрешить заметки)**. Чтобы использовать аннотации в общих презентациях PowerPoint, очищает **аннотации PowerPoint.** По умолчанию заметки разрешены.
+    - Чтобы запретить использование заметок, снимите флажок **Enable annotations (Разрешить заметки)**. Чтобы использовать аннотации в общих презентациях PowerPoint, очистить **аннотации Включить PowerPoint**. По умолчанию заметки разрешены.
     
     - Чтобы запретить использование опросов, снимите флажок **Enable polls (Разрешить опросы)**. По умолчанию опросы разрешены.
     
@@ -116,16 +116,14 @@ You can create conferencing policies by using Skype for Business Server Control 
     
 21. Нажмите кнопку **Зафиксировать**.
     
-## <a name="create-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>Create conferencing policies by using Skype for Business Server Management Shell
+## <a name="create-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>Создание политик конференций с помощью оболочки управления Skype для бизнес-серверов
 
-Чтобы создать политики для conferencing, используйте **cmdlet New-CsConferencingPolicy.**
+Чтобы создать политики конференции, используйте **комлет New-CsConferencingPolicy.**
   
-В следующем примере создается новая политика с идентификатором SalesConferencingPolicy. Эта политика будет использовать все значения по умолчанию для политики conferencing, кроме одного: MaxMeetingSize. В этом примере максимальный размер собрания будет иметь значение 50 вместо значения по умолчанию 250:
+В следующем примере создается новая политика конференции с помощью identity SalesConferencingPolicy. Эта политика будет использовать все значения по умолчанию для политики конференциалов, за исключением одной: MaxMeetingSize. В этом примере максимальный размер собрания будет установлен до 50 вместо значения по умолчанию 250:
   
 ```PowerShell
 New-CsConferencingPolicy -Identity SalesConferencingPolicy -MaxMeetingSize 50
 ```
 
-Дополнительные сведения, включая полное описание синтаксиса и список параметров, см. в описании [New-CsConferencingPolicy.](https://docs.microsoft.com/powershell/module/skype/new-csconferencingpolicy?view=skype-ps)
-  
-
+Дополнительные сведения, включая полное описание синтаксиса и список параметров, см. в обзоре [New-CsConferencingPolicy.](/powershell/module/skype/new-csconferencingpolicy?view=skype-ps)

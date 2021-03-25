@@ -1,5 +1,5 @@
 ---
-title: Topology View Simple URL Detail
+title: Топология Просмотр простых URL-адресов
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,22 +15,21 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bf357591-6efd-41a7-8d19-014b684b84f4
 description: Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
-ms.openlocfilehash: 58a3d1830fc1e96bb548eb379991c30ce5aa71a0
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 5d00e622a76d605eec28c54e00ca2c335de0d447
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49818899"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119888"
 ---
 # <a name="topology-view-simple-url-detail"></a>Топология: просмотр сведений о простых URL-адресах
 
 Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
 
-- [Редактирование или настройка простых URL-адресов](https://technet.microsoft.com/library/0008aeea-4ae9-4e36-83cd-ef7ff7b6e128.aspx)
+- [Редактирование или настройка простых URL-адресов](/previous-versions/office/lync-server-2013/lync-server-2013-edit-or-configure-simple-urls)
 
-- [Просмотр сведений о простом URL-адресе](https://technet.microsoft.com/library/6ab00f2c-e1d5-4698-a58f-04b72260f9ac.aspx)
+- [Просмотр сведений о простом URL-адресе](/previous-versions/office/lync-server-2013/lync-server-2013-view-simple-url-details)
 
-- [Управление простыми URL-адресами](https://technet.microsoft.com/library/97ad8230-f422-462a-9ce4-6061fa7f2617.aspx)
+- [Управление простыми URL-адресами](/previous-versions/office/lync-server-2013/lync-server-2013-managing-simple-urls)
 
-For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).
-
+Сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнес-серверов, см. в материале Управление Skype для бизнеса [Server 2015.](../../manage/manage.md)
