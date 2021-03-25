@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - PowerShell
 description: Используйте Get-CsOnlineUser в Windows PowerShell, чтобы получить сведения о пользователях Skype для бизнеса Online вашей организации.
-ms.openlocfilehash: 97d717d3472ae96dc66ad58ee5699f3f646a0f3b
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: a4675bdb438dd81f9c72aa743134f9a444f0d1f9
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706244"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51113155"
 ---
 # <a name="manage-user-accounts"></a>Управление учетными записями пользователей
 
@@ -36,17 +36,17 @@ ms.locfileid: "41706244"
 
 - [Возврат сведений о конкретном пользователе в Skype для бизнеса Online](manage-user-accounts.md#BKMKReturnInfoSpecificUser)
 
-- [Возврат определенных сведений для определенных пользователей в Skype для бизнеса Online](manage-user-accounts.md#BKMKReturninfoSpecificUsers)
+- [Возврат определенных сведений о конкретных пользователях в Skype для бизнеса Online](manage-user-accounts.md#BKMKReturninfoSpecificUsers)
 
 - [Возврат отфильтрованного списка пользователей в Skype для бизнеса Online](manage-user-accounts.md#BKMKReturnFilteredListofUsers)
 
 > [!NOTE]
-> Для администраторов Skype для бизнеса Online также доступен набор **cmdlets Set-CsUser.** Однако **в настоящее время Set-CsUser** нельзя использовать для управления Skype для бизнеса Online, за исключением настройки _параметра AudioVideoDisabled._ Если вы попытались запустить этот cmdlet с любым другим параметром, он не будет сбой с сообщением об ошибке, аналогичным такому: Не удается настроить "SipAddress". Этот параметр ограничен в удаленной клиентской powerShell.
+> **Cmdlet Set-CsUser** также включается в набор cmdlets, доступный администраторам Skype для бизнеса Online. Однако **в настоящее время Set-CsUser** нельзя использовать для управления Skype для бизнеса Online, за исключением настройки _параметра AudioVideoDisabled._ Если вы попытались запустить этот cmdlet с любым другим параметром, он не будет сбой с сообщением об ошибке примерно так: Не удается установить "SipAddress". Этот параметр ограничен в удаленной клиентской powerShell.
 
 ### <a name="return-information-about-all-your-skype-for-business-online-users"></a>Получение сведений обо всех пользователях Lync Online
 <a name="BKMKReturnInfoAboutAllUsers"> </a>
 
-Чтобы получить сведения обо всех пользователях, у которых есть доступ к Skype для бизнеса Online, вызовите cmdlet [Get-CsOnlineUser](https://go.microsoft.com/fwlink/p/?linkid=849603) без дополнительных параметров.
+Чтобы получить сведения обо всех пользователях, у которых есть доступ к Skype для бизнеса Online, вызовите cmdlet [Get-CsOnlineUser](/powershell/module/skype/Get-CsOnlineUser) без дополнительных параметров.
 
 ```PowerShell
 Get-CsOnlineUser
@@ -67,7 +67,7 @@ Get-CsOnlineUser -ResultSize 5
 ### <a name="return-information-for-a-specific-user-in-skype-for-business-online"></a>Возврат сведений о конкретном пользователе в Skype для бизнеса Online
 <a name="BKMKReturnInfoSpecificUser"> </a>
 
-Существует несколько способов ссылки на конкретную учетную запись пользователя при вызове cmdlet [Get-CsOnlineUser.](https://go.microsoft.com/fwlink/p/?linkid=849603) Вы можете использовать отображаемом имени доменных служб Active Directory (AD DS) пользователя.
+Существует несколько способов ссылки на конкретную учетную запись пользователя при вызове cmdlet [Get-CsOnlineUser.](/powershell/module/skype/Get-CsOnlineUser) Вы можете использовать отображаемом имени доменных служб Active Directory (AD DS) пользователя.
 
 ```PowerShell
 Get-CsOnlineUser -Identity "Ken Myer"
@@ -88,13 +88,13 @@ Get-CsOnlineUser -Identity "kenmyer@litwareinc.com"
 ### <a name="return-specific-information-for-specific-users-in-skype-for-business-online"></a>Возврат определенных сведений для определенных пользователей в Skype для бизнеса Online
 <a name="BKMKReturninfoSpecificUsers"> </a>
 
-По умолчанию для каждой учетной записи пользователя Skype для бизнеса Online возвращается большой объем информации с помощью cmdlet [Get-CsOnlineUser.](https://technet.microsoft.com/library/2bfafd70-a7d9-4308-a353-5ecf44249b53.aspx) Если вам нужно только подмножество этих сведений, перенагружите полученные данные в cmdlet **Select-Object.** Например, эта команда возвращает все данные пользователя "Сергей Мойер", а затем использует командлет **Select-Object,** чтобы ограничить отображаемую на экране информацию отображаемой именем пользователя AD DS и телефонной командой.
+По умолчанию для каждой учетной записи пользователя Skype для бизнеса Online возвращается большой объем информации с помощью cmdlet [Get-CsOnlineUser.](/powershell/module/skype/Get-CsOnlineUser) Если вам нужно только подмножество этих данных, перенагружите полученные данные в проектлет **Select-Object.** Например, эта команда возвращает все данные пользователя "Сергей Мойер", а затем использует командлет **Select-Object,** чтобы ограничить отображаемую на экране информацию отображаемой именем пользователя AD DS и телефонной командой.
 
 ```PowerShell
 Get-CsOnlineUser -Identity "Ken Myer" | Select-Object DisplayName, DialPlan
 ```
 
-Следующая команда возвращает отображаемую имя и набор для всех пользователей.
+Следующая команда возвращает отображаемую и набираемую команду для всех пользователей.
 
 ```PowerShell
 Get-CsOnlineUser | Select-Object DisplayName, DialPlan
@@ -109,13 +109,11 @@ Get-CsOnlineUser | Get-Member
 ### <a name="return-a-filtered-list-of-users-in-skype-for-business-online"></a>Возврат отфильтрованного списка пользователей в Skype для бизнеса Online
 <a name="BKMKReturnFilteredListofUsers"> </a>
 
-С помощью параметров [Get-CsOnlineUser](https://go.microsoft.com/fwlink/p/?linkid=849603) и _LdapFilter_ или _Filter_ можно легко возвращать сведения о целевом наборе пользователей. Например, эта команда возвращает всех пользователей, которые работают в финансовом отделе.
+С помощью параметров [Get-CsOnlineUser](/powershell/module/skype/Get-CsOnlineUser) и _LdapFilter_ или _Filter_ можно легко возвращать сведения о целевом наборе пользователей. Например, эта команда возвращает всех пользователей, которые работают в финансовом отделе.
 
 ```PowerShell
 Get-CsOnlineUser -LdapFilter "department=Finance"
 ```
 
 ## <a name="related-topics"></a>Статьи по теме
-[Настройка компьютера для управления skype для бизнеса с помощью Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
-
-
+[Настройка компьютера для управления интернет-приложением Skype для бизнеса с помощью Windows PowerShell](set-up-your-computer-for-windows-powershell.md)

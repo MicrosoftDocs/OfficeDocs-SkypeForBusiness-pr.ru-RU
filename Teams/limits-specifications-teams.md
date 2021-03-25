@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0db359fee9089a52b8d3e7a728542dba21952db7
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: 98f462044fba566ecea491bc55bf8df055973701
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50874529"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51112295"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Ограничения и спецификации для Microsoft Teams
 
@@ -49,7 +49,7 @@ ms.locfileid: "50874529"
 |Максимальное количество участников в группе Office 365, которую можно преобразовать в команду    |10,000<sup>6</sup>     |
 |Размер записи в беседе канала | Около 28 КБ на каждую запись<sup>5</sup> |
 
-<sup>1</sup> Любой объект каталога в Azure Active Directory учитывается в этом ограничении. Исключение делается для глобальных администраторов, а также приложений, вызывающих Microsoft Graph с помощью [разрешений для приложений](https://docs.microsoft.com/graph/permissions-reference).
+<sup>1</sup> Любой объект каталога в Azure Active Directory учитывается в этом ограничении. Исключение делается для глобальных администраторов, а также приложений, вызывающих Microsoft Graph с помощью [разрешений для приложений](/graph/permissions-reference).
 
 <sup>2</sup> Это ограничение включает архивированные команды. 
 
@@ -78,7 +78,7 @@ ms.locfileid: "50874529"
 
 <sup>1</sup>Если в чате участвует больше 20 пользователей, отключены следующие функции чата: автоматические ответы Outlook и подписи к статусу Teams, индикатор ввода, голосовые и видеозвонки, общий доступ, уведомления о прочтении. Кнопка "Задать параметры доставки" (!) также удаляется, если чаты в закрытой группе содержат более 20 участников.
 
-<sup>2</sup> Одновременно в групповой чат можно добавить не более 200 участников. [Дополнительные сведения см. в этой статье](https://docs.microsoft.com/microsoftteams/troubleshoot/teams-administration/unable-send-message-group-chat).
+<sup>2</sup> Одновременно в групповой чат можно добавить не более 200 участников. [Дополнительные сведения см. в этой статье](/microsoftteams/troubleshoot/teams-administration/unable-send-message-group-chat).
 
 <sup>3</sup>Если число вложений превышает это ограничение, появится сообщение об ошибке.
 
@@ -99,7 +99,7 @@ ms.locfileid: "50874529"
 
 <sup>2</sup>Если число вложений или изображений превышает это ограничение, появится сообщение об ошибке.
 
-Дополнительные сведения см. в статье [Ограничения Exchange Online](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits).
+Дополнительные сведения см. в статье [Ограничения Exchange Online](/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits).
 
 > [!NOTE]
 > Ограничения для размера сообщения, вложенных файлов и встроенных изображений одинаковы во всех лицензиях на Microsoft 365 и Office 365. Отправка по электронной почте в канал недоступна в Teams для организаций Office GCC, GCCH и DOD.
@@ -181,7 +181,7 @@ ms.locfileid: "50874529"
 Каждая команда в Microsoft Teams имеет свой сайт в SharePoint Online, а каждому каналу в команде назначается папка в библиотеке документов по умолчанию на этом сайте. Файлы, совместно используемые во время беседы, автоматически добавляются в библиотеку документов, а заданные в SharePoint разрешения и параметры безопасности файлов автоматически переносятся в Teams.
 
 > [!NOTE]
-> У каждого [закрытого канала](https://docs.microsoft.com/microsoftteams/private-channels) есть собственный сайт SharePoint (предыдущее название "семейство веб-сайтов").
+> У каждого [закрытого канала](./private-channels.md) есть собственный сайт SharePoint (предыдущее название "семейство веб-сайтов").
 
 Если в вашем клиенте не активировано решение SharePoint Online, пользователи Microsoft Teams не смогут постоянно обмениваться файлами в командах. Участники закрытых чатов также не смогут обмениваться файлами, так как для этой функции требуется служба OneDrive для бизнеса (привязанная к лицензии SharePoint).
 

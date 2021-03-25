@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - PowerShell
 description: Используйте Windows PowerShell и Get-CsTenant и Get-CsTenantLicensingConfiguration для получения сведений о клиенте Skype для бизнеса Online.
-ms.openlocfilehash: 06597447edaf095be3df26b58e6210bb919ee0bd
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: ed15d062bf4f2e5f2ad0f47169ac0626d2c59d20
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085695"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51113185"
 ---
 # <a name="manage-skype-for-business-online-organizations"></a>Управление организациями Skype для бизнеса Online
 > [!NOTE]
@@ -34,7 +34,7 @@ ms.locfileid: "45085695"
   
 ## <a name="manage-skype-for-business-online-tenants"></a>Управление клиентами Skype для бизнеса Online
 
-Чтобы получить сведения о клиенте Skype для бизнеса Online, позвоните в [cmdlet Get-CsTenant](https://go.microsoft.com/fwlink/p/?linkid=849599) без дополнительных параметров.
+Чтобы получить сведения о клиенте Skype для бизнеса Online, позвоните в [cmdlet Get-CsTenant](/powershell/module/skype/Get-CsTenant) без дополнительных параметров.
   
 ```PowerShell
 Get-CsTenant
@@ -46,12 +46,11 @@ Get-CsTenant
 Get-CsTenant | Select-Object Name, TenantID
 ```
 
-Значение параметра _TenantID_ является требоваться при запуске таких параметров, как [Set-CsTenantPublicProvider](https://go.microsoft.com/fwlink/p/?linkid=849602) и [Set-CsTenantFederationConfiguration.](https://technet.microsoft.com/library/jj994080.aspx)
+Значение параметра _TenantID_ является требоваться при запуске таких параметров, как [Set-CsTenantPublicProvider](/powershell/module/skype/Set-CsTenantPublicProvider) и [Set-CsTenantFederationConfiguration.](/powershell/module/skype/Set-CsTenantFederationConfiguration)
   
-Чтобы узнать, доступна ли информация о лицензировании для указанного клиента в Центре администрирования Skype для бизнеса Online, используйте cmdlet [Get-CsTenantLicensingConfiguration.](https://go.microsoft.com/fwlink/p/?linkid=849606)
+Чтобы узнать, доступна ли информация о лицензировании для указанного клиента в Центре администрирования Skype для бизнеса Online, используйте cmdlet [Get-CsTenantLicensingConfiguration.](/powershell/module/skype/Get-CsTenantLicensingConfiguration)
   
 ## <a name="related-topics"></a>Статьи по теме
-[Настройка компьютера для управления skype для бизнеса с помощью Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
+[Настройка компьютера для управления интернет-приложением Skype для бизнеса с помощью Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
 
   
- 

@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 'Узнайте, как переключаться между пользовательскими интерфейсами клиентов Skype для бизнеса и Lync с помощью PowerShell в Microsoft 365 или Office 365 '
-ms.openlocfilehash: 02542d11c7315c8f7e183fb78eebf210ead2df94
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+ms.openlocfilehash: c82f2bb9877c29038a6861c00036ba92de100561
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44164308"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51113215"
 ---
 # <a name="switching-between-the-skype-for-business-and-the-lync-client-user-interfaces"></a>Переключение между пользовательскими интерфейсами клиентов Skype для бизнеса и Lync
 
@@ -39,7 +39,7 @@ ms.locfileid: "44164308"
   
 ## <a name="switching-the-skype-for-business-user-interface-for-users"></a>Переключение пользовательского интерфейса Skype для бизнеса для пользователей
 
-Модуль Windows PowerShell для Skype для бизнеса Online позволяет запускать удаленные сеансы Windows PowerShell с подключением к Skype для бизнеса Online. Этот модуль для 64-разрядных систем можно загрузить из Центра загрузки Microsoft здесь: [Модуль Windows PowerShell для Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=294688). Для получения других сведений см. раздел [Настройка компьютера для управления Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=534539).
+Модуль Windows PowerShell для Skype для бизнеса Online позволяет запускать удаленные сеансы Windows PowerShell с подключением к Skype для бизнеса Online. Этот модуль для 64-разрядных систем можно загрузить из Центра загрузки Microsoft здесь: [Модуль Windows PowerShell для Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=294688). Для получения других сведений см. раздел [Настройка компьютера для управления Skype для бизнеса Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
   
 > [!IMPORTANT]
 > Параметр политики  _Global_ для переключения пользовательского интерфейса не применяется, если пользователь уже применил настраиваемую политику. Чтобы изменить пользовательский интерфейс, необходимо выполнить следующую команду для каждого пользователя, применившего настраиваемую политику:
@@ -123,7 +123,7 @@ Get-CsOnlineUser -Filter {Department -eq "Sales"} | Grant-CsClientPolicy -Policy
 > [!NOTE]
 >  Имя пользователя  это имя учетной записи пользователя, для которой необходимо назначить политику. Имя учетной записи пользователя может быть указано в следующих форматах:>  Адрес SIP пользователя>  Имя участника-пользователя (UPN)>  Домен пользователя\\имя пользователя>  Отображаемое имя Active Directory пользователя
   
-[Использование Windows PowerShell для управления Lync Online](https://go.microsoft.com/fwlink/?LinkID=525453)
+[Использование Windows PowerShell для управления Lync Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
   
 ## <a name="skype-for-business-online-policy-settings"></a>Параметры политики Skype для бизнеса Online
 
@@ -167,9 +167,9 @@ Get-CsOnlineUser -Filter {Department -eq "Sales"} | Grant-CsClientPolicy -Policy
    
 Для начала работы с Windows PowerShell ознакомьтесь с приведенными ниже разделами.
   
-- [Зачем нужно использовать Microsoft 365 или Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
+- [Зачем нужно использовать Microsoft 365 или Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-- [Лучшие способы управления Microsoft 365 или Office 365 с помощью Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+- [Лучшие способы управления Microsoft 365 или Office 365 с помощью Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
 ## <a name="first-launch-client-behaviors"></a>Режим работы клиента при первом запуске
 
@@ -231,7 +231,7 @@ Get-CsOnlineUser -Filter {Department -eq "Sales"} | Grant-CsClientPolicy -Policy
   
 1. Запустите **Консоль управления групповыми политиками**.
     
-    Сведения о работе с консолью управления групповыми политиками см. в разделе [Консоль управления групповыми политиками](https://go.microsoft.com/fwlink/?LinkId=532759).
+    Сведения о работе с консолью управления групповыми политиками см. в разделе [Консоль управления групповыми политиками](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/dn265969(v=ws.11)).
     
 2. Щелкните правой кнопкой мыши узел **Объекты групповой политики** и выберите в меню пункт **Создать**.
     
@@ -258,7 +258,7 @@ Get-CsOnlineUser -Filter {Department -eq "Sales"} | Grant-CsClientPolicy -Policy
     
 Далее следует связать созданный объект групповой политики с группой пользователей, которым необходимо назначить политику, например, с подразделением.
   
- **Назначение политики с помощью GPO**
+ **Использование GPO для назначения политики**
   
 1. В консоли управления групповыми политиками щелкните правой кнопкой мыши на подразделении, которому необходимо назначить групповую политику, и выберите **Связать с существующим объектом групповой политики**.
     
@@ -284,4 +284,3 @@ Get-CsOnlineUser -Filter {Department -eq "Sales"} | Grant-CsClientPolicy -Policy
 [Разрешение на добавление контактов Skype пользователям Skype для бизнеса](let-skype-for-business-users-add-skype-contacts.md)
 
   
- 

@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Get the steps to create a default phone number for callers to join a Skype for Business Online meeting. '
-ms.openlocfilehash: b7a4ee991ff8a8e41401b3b2d2dc20aa20708b88
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+ms.openlocfilehash: 956c2fa23f61f0c0e24cd1c2a0802bd3f1397bb1
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44163938"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51113225"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-skype-for-business-online"></a>Настройка номеров телефонов, включенных в приглашения в Skype для бизнеса Online
 
@@ -36,7 +36,7 @@ ms.locfileid: "44163938"
 Аудиоконференция в Microsoft 365 или Office 365 позволяет пользователям в вашей организации создавать собрания Skype для бизнеса, а затем позволять пользователям звонить на эти собрания по телефону. В Microsoft 365 и Office 365 можно использовать мост аудиоконференций Майкрософт или сторонний мост аудиоконференций, который находится у утвержденного поставщика услуг аудиоконференций.
   
 > [!NOTE]
-> Не существует никакого ресурса, который содержит список всех номеров для аудиоконференций с подключением по телефону. Если вы хотите узнать, есть ли номера телефонов для телефонного звонка, доступные в вашем регионе или стране или регионе, воспользуйтесь номерами голосовых телефонов Центра администрирования **Skype** для бизнеса и нажмите кнопку "Добавить новые номера  >    >  служб".   С помощью списков "Страна **или**  регион", "Область" и "Город" можно фильтровать результаты поиска.> Кроме того, если вам нужно найти бесплатные номера служб, выберите "Бесплатный" в списке "Область или регион".   
+> Не существует никакого ресурса, который содержит список всех номеров для аудиоконференций с подключением по телефону. Если вы хотите узнать, доступны ли телефонные номера для телефонного звонка в вашем регионе или стране или регионе, воспользуйтесь номерами голосовых телефонов Центра администрирования **Skype** для бизнеса и выберите "Добавить новые номера  >    >  служб".   С помощью списков "Страна **или**  регион", "Область" и "Город" можно фильтровать результаты поиска.> Кроме того, если вам нужно найти бесплатные номера служб, выберите "Бесплатный" в списке "Область или регион".   
   
 Мост конференц-связи предоставляет вашей организации ряд телефонных номеров для подключения. Все эти номера могут быть использованы для подключения к собраниям, созданным организаторами, однако вы можете выбрать, какие номера будут указаны в приглашениях на собрания.
   
@@ -88,16 +88,16 @@ ms.locfileid: "44163938"
     
 3. Выберите пользователей, которые нужно сбросить, и на области действий нажмите кнопку **"Очистить".**
     
-По умолчанию при изменении параметров пользовательских параметров conferencing пользователю отправляется сообщение электронной почты. Чтобы изменить это, см. параметр "Включить или отключить отправку электронных писем при изменении параметров [аудиоконференции".](enable-or-disable-sending-emails-when-their-settings-change.md)
+По умолчанию при изменении параметров пользовательских параметров conferencing пользователю отправляется сообщение электронной почты. Чтобы изменить это, см. параметр "Включить или отключить отправку сообщений электронной почты при изменении параметров [аудиоконференции".](enable-or-disable-sending-emails-when-their-settings-change.md)
   
 > [!IMPORTANT]
 > При изменении параметров аудиоконференции необходимо обновить и отправить участникам повторяющиеся и будущие собрания Skype для бизнеса. 
   
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Сведения по управлению с помощью Windows PowerShell
 
-- Для экономии времени или автоматизации процесса можно воспользоваться командлетом [Set-CsOnlineDialInConferencingUser](https://go.microsoft.com/fwlink/?LinkId=617688).
+- Для экономии времени или автоматизации процесса можно воспользоваться командлетом [Set-CsOnlineDialInConferencingUser](/powershell/module/skype/Set-CsOnlineDialInConferencingUser).
     
-- Используйте командлет [Set-CsOnlineDialInConferencingUser](https://go.microsoft.com/fwlink/?LinkId=617688) для изменения платного или бесплатного номера по умолчанию для определенных пользователей.
+- Используйте командлет [Set-CsOnlineDialInConferencingUser](/powershell/module/skype/Set-CsOnlineDialInConferencingUser) для изменения платного или бесплатного номера по умолчанию для определенных пользователей.
     
     Чтобы изменить бесплатный номер по умолчанию для определенного пользователя, выполните командлет
     
@@ -134,17 +134,17 @@ ms.locfileid: "44163938"
   ## <a name="want-to-learn-more-about-windows-powershell"></a>Хотите узнать больше о Windows PowerShell?
 - Windows PowerShell, дает возможность управлять пользователями, предоставляя им права на определенные действия. С помощью Windows PowerShell вы можете управлять Office 365 и Skype для бизнеса online, используя единый центр администрирования, который упростит выполнение ваших повседневных задач. Чтобы начать работу с Windows PowerShell, ознакомьтесь с приведенными ниже разделами.
     
-  - [Введение в Windows PowerShell и Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=525039)
+  - [Введение в Windows PowerShell и Skype для бизнеса Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-  - [Зачем нужно использовать Microsoft 365 или Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Зачем нужно использовать Microsoft 365 или Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
 - Windows PowerShell имеет множество преимуществ в скорости, простоте и эффективности работы по сравнению с использованием только Центра администрирования Microsoft 365, например при внесении изменений для множества пользователей одновременно. Подробнее об этих преимуществах можно узнать в следующих разделах:
     
-  - [Лучшие способы управления Microsoft 365 или Office 365 с помощью Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Лучшие способы управления Microsoft 365 или Office 365 с помощью Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-  - [Использование Windows PowerShell для управления Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=525453)
+  - [Использование Windows PowerShell для управления Skype для бизнеса Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-  - [Использование возможностей Windows PowerShell для выполнения стандартных задач управления средой Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=525038)
+  - [Использование возможностей Windows PowerShell для выполнения стандартных задач управления средой Skype для бизнеса Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
 ## <a name="related-topics"></a>Статьи по теме
 

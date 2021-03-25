@@ -1,5 +1,5 @@
 ---
-title: Лицензия на программное обеспечение системы комнат Skype для бизнеса
+title: Лицензия на программное обеспечение Skype Room System Skype для бизнеса
 ms.author: v-cichur
 author: cichur
 manager: serdars
@@ -11,43 +11,43 @@ f1.keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 78a664ba-fefc-4423-ac8f-b58e6fbc2e55
-description: В этом разделе вы узнаете, как проверить, есть ли у вас лицензия на программное обеспечение Skype для бизнеса.
-ms.openlocfilehash: 20e04f69ba5a931bae6ac8598567165a7a6043a4
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Ознакомьтесь с этой темой, чтобы узнать, есть ли у вас лицензия на объем программного обеспечения Skype для бизнеса.
+ms.openlocfilehash: 40b72e39fc0edc23b4cc0d17f82ba633c2ac24af
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49833929"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51113095"
 ---
-# <a name="skype-room-system-skype-for-business-software-license"></a>Система комнат Skype: лицензия на программное обеспечение Skype для бизнеса
+# <a name="skype-room-system-skype-for-business-software-license"></a>Система номеров Skype: лицензия на программное обеспечение Skype для бизнеса
  
-В этом разделе вы узнаете, как проверить, есть ли у вас лицензия на программное обеспечение Skype для бизнеса. 
+Ознакомьтесь с этой темой, чтобы узнать, есть ли у вас лицензия на объем программного обеспечения Skype для бизнеса. 
   
-Система комнат Skype использует установленный клиент Skype для бизнеса, для которого требуется лицензия на программное обеспечение. Before deploying the first Skype Room System, find out the volume license state of the deployment - using Key Management Servers (KMS) or Multiple Activation Keys (MAK).
+Система номеров Skype использует установленный клиент Skype для бизнеса, для которого требуется лицензия на объем программного обеспечения. Перед развертыванием первой системы номеров Skype узнайте состояние лицензии на объем развертывания с помощью серверов управления ключами (KMS) или нескольких ключей активации (MAK).
   
 ## <a name="key-management-servers-kms"></a>Серверы управления ключами (KMS)
 
-Если kmS на месте и будет распространять активации с много лицензиями skype для бизнеса, система комнат Skype автоматически активирует клиент Skype для бизнеса. Чтобы узнать, есть ли KMS:
+Если kmS на месте и будет распространять активации лицензии Skype для бизнеса, система номеров Skype автоматически активирует клиент Skype для бизнеса. Чтобы узнать, на месте ли KMS:
   
-В командной командной области запустите 3:  `nslookup -type=srv _vlmcs._tcp >%temp%\kms.txt`
+Из командной подсказки запустите:  `nslookup -type=srv _vlmcs._tcp >%temp%\kms.txt`
   
-Дополнительные сведения см. в сведениях о том, как обнаружить точки KMS Office и Windows через DNS и удалить [несанкционированные экземпляры.](https://blogs.technet.com/b/odsupport/archive/2011/11/14/how-to-discover-kms-hosts-via-a-dns-query-and-remove-them-if-need-be.aspx) 
+Дополнительные сведения см. в примере Обнаружение хостов Office и Windows KMS с помощью DNS и удаление [несанкционированных экземпляров.](https://blogs.technet.com/b/odsupport/archive/2011/11/14/how-to-discover-kms-hosts-via-a-dns-query-and-remove-them-if-need-be.aspx) 
   
-Чтобы настроить KMS, см. [kms activation of Office 2013](https://technet.microsoft.com/library/ee624357.aspx) and [GVLKs for KMS and Active Directory activation of Office 2013](https://technet.microsoft.com/library/dn385360.aspx)
+Чтобы создать KMS, см. в рублях [активация KMS Office 2013](/previous-versions/office/office-2013-resource-kit/ee624357(v=office.15)) и GVLKs для KMS и активации [Active Directory Office 2013](/DeployOffice/vlactivation/gvlks)
   
-Универсальный ключ volume License Key для Lync в Office 2013: 2MG3G-3BNTT-3MFW9-KDQW3-TCK7R (этот ключ заставляет систему комнат Skype искать KMS в сети).)
+Универсальный ключ лицензии на объем Office 2013 для Lync: 2MG3G-3BNTT-3MFW9-KDQW3-TCK7R (этот ключ заставляет систему номеров Skype искать KMS в сети.)
   
-## <a name="multiple-activation-keys-mak-from-the-volume-license-service-center-vlsc"></a>Ключи многократной активации (MAK) из Volume License Service Center (VLSC)
+## <a name="multiple-activation-keys-mak-from-the-volume-license-service-center-vlsc"></a>Несколько ключей активации (MAK) из Центра обслуживания лицензий на объем (VLSC)
 
-Если клиент использует любое другое программное обеспечение с много лицензиями, ИТ-отдел будет управлять активацией программного обеспечения и соглашением о программе volume License Agreement (VLA) с помощью VLSC. Это также позволит компании приобрести VL-активации Skype для бизнеса, после чего компания может получить mak для ввода в консоли администрирования системы комнат Skype.
+Если клиент использует любое другое программное обеспечение лицензии на объем, ИТ-отдел будет управлять активациями программного обеспечения и соглашением о лицензиях на объем (VLA) с помощью VLSC. Это также позволит компании приобрести активации Skype для бизнеса VL, после чего компания может получить MAK для ввода в консоли администрирования системы Skype Room.
   
-Клиент с VLA должен знать свои учетные данные VLSC, которые будут использоваться для администрирования соглашения и получения MAK. Если это не так, финансовый отдел клиента должен иметь возможность подтвердить, что клиент оплатил VLA.
+Клиент с VLA должен знать свои учетные данные VLSC, которые будут использоваться для администрирования соглашения и получения MAK. В случае неопределенности финансовый отдел клиента должен иметь возможность подтвердить, оплатил ли клиент VLA.
   
-Чтобы получить mak, получите доступ к Центру обслуживания корпоративного лицензирования, чтобы просмотреть соглашения и скачать ключи продукта (MAK). Дополнительные сведения можно найти в [Центре обслуживания корпоративного лицензирования.](https://www.microsoft.com/Licensing/servicecenter/default.aspx) 
+Чтобы получить MAK, вы можете получить доступ к Центру службы лицензирования томов для просмотра соглашений и скачивания ключей продукта (MAK). Дополнительные сведения перейдите в [Центр обслуживания лицензирования томов.](https://www.microsoft.com/Licensing/servicecenter/default.aspx) 
   
 ## <a name="mak-for-microsoft-365-or-office-365-without-vlsc-access"></a>MAK для Microsoft 365 или Office 365 без доступа к VLSC
 
-Если у клиента нет соглашения о много лицензии, активацией Skype для бизнеса будет намного сложнее управлять. Однако пользователи Microsoft 365 и Office 365 без доступа по VLSC могут получить рекламный MAK, предоставив следующие сведения OEM, продающий систему комнат Skype:
+Если у клиента нет соглашения о лицензии на объем, активации Skype для бизнеса будут намного сложнее управлять. Однако клиенты Microsoft 365 и Office 365 без доступа к VLSC могут получить рекламный MAK, предоставив OEM-службе по продаже системы номеров Skype следующие сведения:
   
 - Имя компании
     
@@ -57,6 +57,4 @@ ms.locfileid: "49833929"
     
 - Дата развертывания
     
-- Если у клиента есть диспетчер технических учетных записей Майкрософт, имя и контактные данные менеджера
-    
-
+- Если у клиента есть менеджер технической учетной записи Майкрософт, имя и контактные данные tam

@@ -1,5 +1,5 @@
 ---
-title: Настройка параметров парковки вызовов в Skype для бизнеса
+title: Настройка параметров парка вызовов в Skype для бизнеса
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,19 +15,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 3bed9d09-8363-4fff-a220-f0f6d3a81241
-description: Изменение параметров парковки вызовов в Skype для бизнеса Server Корпоративная голосовая связь.
-ms.openlocfilehash: 2380c9b505ceef6ac5f4bbe04996bfdf611de39c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Изменение параметров парка вызовов в Skype для бизнеса server Корпоративная голосовая связь.
+ms.openlocfilehash: c1eecd55dac398752915ccb63886bbf85858fe47
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49804119"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51111915"
 ---
-# <a name="configure-call-park-settings-in-skype-for-business"></a>Настройка параметров парковки вызовов в Skype для бизнеса
+# <a name="configure-call-park-settings-in-skype-for-business"></a>Настройка параметров парка вызовов в Skype для бизнеса
 
-Изменение параметров парковки вызовов в Skype для бизнеса Server Корпоративная голосовая связь.
+Изменение параметров парка вызовов в Skype для бизнеса server Корпоративная голосовая связь.
 
-Если вы не хотите использовать параметры парковки вызовов по умолчанию, их можно настроить. При установке приложения парковки вызовов глобальные параметры настраиваются по умолчанию. Вы можете изменить глобальные параметры, а также указать параметры для конкретного сайта. Используйте для создания новых параметров, характерных для сайта, с помощью cmdlet **New-CsCpsConfiguration.** Для изменения **существующих параметров используйте cmdlet Set-CsCpsConfiguration.**
+Если вы не хотите использовать параметры Call Park по умолчанию, их можно настроить. При установке приложения Call Park глобальные параметры настраиваются по умолчанию. Можно изменить глобальные параметры, а также указать параметры, определенные для сайта. Для создания новых параметров, определенных для сайта, используйте комлет **New-CsCpsConfiguration.** Чтобы изменить существующие параметры, используйте комлет **Set-CsCpsConfiguration.**
 
 > [!NOTE]
 > Мы рекомендуем вам настроить хотя бы параметр **OnTimeoutURI** для резервного назначения, используемого в случае истечения времени ожидания запаркованного вызова и сбоя переключения на удерживаемого абонента.
@@ -42,18 +42,18 @@ ms.locfileid: "49804119"
 | **MaxCallPickupAttempts** <br/>      | Число повторных звонков припаркованного вызова на ответивший телефон перед перенаправлением на резервный универсальный код ресурса (URI), указанный для **OnTimeoutURI**. Значение по умолчанию — 1.<br/>                                                                                                                         |
 | **OnTimeoutURI** <br/>               | SIP-адрес пользователя или группы ответа, которым перенаправляется неотвеченный припаркованный вызов в случае превышения значения **MaxCallPickupAttempts**. <br/> Значение должно быть кодом URI SIP. начинающимся со строки sip:. Например, sip:bob@contoso.com. По умолчанию адрес пересылки не используется.<br/>                                                   |
 
-### <a name="to-configure-call-park-settings"></a>Настройка параметров парковки вызовов
+### <a name="to-configure-call-park-settings"></a>Настройка параметров парка вызовов
 
-1. Запустите оболочку управления Skype для бизнеса Server: нажмите кнопку "Начните", выберите "Все программы", "Skype для бизнеса **2015",** а затем щелкните "Skype для бизнеса Server Management **Shell".**
+1. Запустите оболочку управления Skype для бизнес-серверов: нажмите кнопку Начните, щелкните Все **программы,** щелкните Skype для бизнеса **2015,** а затем нажмите **кнопку Skype для управления бизнес-серверами.**
 
-2. Запустите:
+2. Выполните команду: 
 
    ```powershell
    New-CsCpsConfiguration -Identity site:<sitename to apply settings> [-CallPickupTimeoutThreshold <hh:mm:ss>] -[EnableMusicOnHold <$true | $false>] [-MaxCallPickupAttempts <number of rings>] [-OnTimeoutURI sip:<sip URI for routing unanswered call>]
    ```
 
    > [!TIP]
-   > Используйте командлет **Get-CsSite** для идентификации сайта. Подробные сведения см. в документации по skype для бизнеса Server Management Shell.
+   > Используйте командлет **Get-CsSite** для идентификации сайта. Подробные сведения см. в документации skype for Business Server Management Shell.
 
     Пример:
 
@@ -63,10 +63,10 @@ ms.locfileid: "49804119"
 
 ## <a name="see-also"></a>См. также
 
-[Настройка музыки для парковки вызовов на удержании вSkype для бизнеса 2015](customize-call-park-music-on-hold.md)
+[Настройка музыки Call Park для удержания вSkype для бизнеса 2015](customize-call-park-music-on-hold.md)
 
-[New-CsCpsConfiguration](https://docs.microsoft.com/powershell/module/skype/new-cscpsconfiguration?view=skype-ps)
+[New-CsCpsConfiguration](/powershell/module/skype/new-cscpsconfiguration?view=skype-ps)
 
-[Set-CsCpsConfiguration](https://docs.microsoft.com/powershell/module/skype/set-cscpsconfiguration?view=skype-ps)
+[Set-CsCpsConfiguration](/powershell/module/skype/set-cscpsconfiguration?view=skype-ps)
 
-[Get-CsSite](https://docs.microsoft.com/powershell/module/skype/get-cssite?view=skype-ps)
+[Get-CsSite](/powershell/module/skype/get-cssite?view=skype-ps)
