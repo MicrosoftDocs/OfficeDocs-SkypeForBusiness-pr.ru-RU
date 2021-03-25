@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: cb76e2f67664ae5cabde54774186248c48b40c57
-ms.sourcegitcommit: da2a70a9b5e05d0fd7ecc150b451f5805667514c
+ms.openlocfilehash: 938c2e549cea153b2a6b42991ae65df5d07a4c4d
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "50756205"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117287"
 ---
 # <a name="powershell-script-sample---create-security-groups-for-educators-and-students-in-your-school"></a>Пример сценария PowerShell: создание групп безопасности для преподавателей и учащихся в вашем учебном за учебных заведениях
 
@@ -43,9 +43,9 @@ ms.locfileid: "50756205"
 
 ## <a name="before-you-start"></a>Перед началом работы
 
-Скачайте и установите [модуль Skype для бизнеса Online PowerShell,](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell)а затем перезагрузите компьютер, если будет предложено.
+Скачайте и установите [модуль Skype для бизнеса Online PowerShell,](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell)а затем перезагрузите компьютер, если будет предложено.
 
-Дополнительные сведения см. в обзоре управления Skype для бизнеса Online с [помощью Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell) и [Teams PowerShell.](../teams-powershell-overview.md)
+Дополнительные сведения см. в обзоре управления Skype для бизнеса Online с [помощью Office 365 PowerShell](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell) и [Teams PowerShell.](../teams-powershell-overview.md)
 
 
 ## <a name="sample-script"></a>Пример сценария

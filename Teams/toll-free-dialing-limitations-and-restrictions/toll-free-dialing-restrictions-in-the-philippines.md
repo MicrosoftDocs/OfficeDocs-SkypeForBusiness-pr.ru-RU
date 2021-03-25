@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: Узнайте о наборе бесплатных номеров на Филиппинах, в том числе о доступности, доступности с использованием проводных и фиксированных телефонных подключений, а также об ограничениях для мобильных сетей.
-ms.openlocfilehash: 4d38c75a002733fda1874a7aba3a5a1d08a85ba0
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 9d6c84a6f96e795b777033a0a0456eabe1136620
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139758"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116587"
 ---
 # <a name="toll-free-dialing-restrictions-in-philippines"></a>Ограничения набора бесплатных номеров на Филиппинах
 
@@ -51,7 +51,6 @@ ms.locfileid: "43139758"
 
 [Ограничения и запреты для бесплатных номеров](../toll-free-dialing-limitations-and-restrictions.md)
 
-[Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
+[Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](../getting-service-phone-numbers.md)
 
   
- 

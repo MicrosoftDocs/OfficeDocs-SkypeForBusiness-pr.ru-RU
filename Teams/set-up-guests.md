@@ -22,23 +22,23 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 description: Узнайте подробнее о том, как в качестве администратора Office 365 включить или отключить гостевой доступ в Microsoft Teams.
-ms.openlocfilehash: c82172eb4d0c9fe50832d45ce2146c89d7e6d7d8
-ms.sourcegitcommit: 0fddd05334e37b0086ccc0aebe17a26f8e6e8e6c
+ms.openlocfilehash: 34759e601f5c0cd232bcd6227ff5c7d1fef1d3fe
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50884523"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51107405"
 ---
 # <a name="turn-on-or-turn-off-guest-access-to-microsoft-teams"></a>Включение и отключение гостевого доступа для Microsoft Teams
 
 > [!Note]
 
-> До **февраля 2021 г.** гостевой доступ по умолчанию отключен. Вы должны включить гостевой доступ для Teams до того, как администраторы или владельцы группы начнут добавлять гостей. После того как вы включит гостевой доступ, на их вступления в силу может потребоваться несколько часов. Если при попытке  добавить гостя в команду пользователи видят сообщение "Обратитесь к администратору", скорее всего, гостевой доступ не включен или параметры еще не эффективны.
+> До **февраля 2021 г.** гостевой доступ по умолчанию отключен. Вы должны включить гостевой доступ для Teams до того, как администраторы или владельцы группы начнут добавлять гостей. После того как вы включит гостевой доступ, на вступления изменений в силу может потребоваться несколько часов. Если при попытке  добавить гостя в команду пользователи видят сообщение", обратитесь к администратору, скорее всего, гостевой доступ не включен или параметры еще не эффективны.
 
-> После **февраля 2021** г. гостевой доступ в Microsoft Teams будет по умолчанию включен для новых клиентов, & существующих клиентов, которые не настроили этот параметр. После реализации этого изменения эта возможность будет включена в вашем клиенте, если вы еще не настроили гостевой доступ в Microsoft Teams. Если вы хотите, чтобы гостевой доступ остался отключенным для вашей организации,  необходимо подтвердить отключение гостевого доступа, а не службу по **умолчанию.**
+> После **февраля 2021** г. гостевой доступ в Microsoft Teams будет по умолчанию включен для новых клиентов, & существующих клиентов, которые не настроили этот параметр. После внедрения этого изменения эта возможность будет включена в вашем клиенте, если вы еще не настроили гостевой доступ в Microsoft Teams. Если вы хотите, чтобы гостевой доступ для вашей организации остался отключенным,  необходимо подтвердить отключение гостевого доступа, а не службу по **умолчанию.**
 
 > [!IMPORTANT]
-> Включение гостевого доступа зависит от параметров в Azure Active Directory, Microsoft 365, SharePoint и Teams. Дополнительные сведения приведены в статье [Совместная работа с гостями в команде](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team).
+> Включение гостевого доступа зависит от параметров в Azure Active Directory, Microsoft 365, SharePoint и Teams. Дополнительные сведения приведены в статье [Совместная работа с гостями в команде](/microsoft-365/solutions/collaborate-as-team).
 
 ## <a name="configure-guest-access-in-the-teams-admin-center"></a>Настройка гостевого доступа в Центре администрирования Microsoft Teams
 
@@ -80,8 +80,8 @@ ms.locfileid: "50884523"
 
 ## <a name="see-also"></a>См. также
 
-[Настройка безопасной совместной работы с помощью Microsoft 365](https://docs.microsoft.com/microsoft-365/solutions/setup-secure-collaboration-with-teams)
+[Настройка безопасной совместной работы с помощью Microsoft 365](/microsoft-365/solutions/setup-secure-collaboration-with-teams)
 
-[Блокирование гостевых пользователей в определенных группах](https://docs.microsoft.com/microsoft-365/solutions/per-group-guest-access)
+[Блокирование гостевых пользователей в определенных группах](/microsoft-365/solutions/per-group-guest-access)
 
-[Set-CsTeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration)
+[Set-CsTeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration)

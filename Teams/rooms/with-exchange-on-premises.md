@@ -17,12 +17,12 @@ ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection:
 - M365-collaboration
 description: Сведения о том, как развернуть комнаты Microsoft Teams в гибридной среде с локальной средой Exchange, можно найти в этой теме.
-ms.openlocfilehash: fcf7216a4fcadee1e81ef11b5310b9d0a88e378a
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.openlocfilehash: 3931ba89dd4ad0dfd994fdf27a3f209275850116
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50460519"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117357"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>Развертывание комнаты Microsoft Teams в локальной среде Exchange
 
@@ -48,7 +48,9 @@ ms.locfileid: "50460519"
 
   - В плане Microsoft 365 или Office 365 вам потребуется Skype для бизнеса Online (план 2) или более высокий. План должен поддерживать функции конференц-связи.
   
-  - Если вам Корпоративная голосовая связь телефонию (телефонную сеть ННР) с использованием услуг телефонии для комнат Microsoft Teams, вам потребуется Skype для бизнеса Online (план 3).
+  - Если вам Корпоративная голосовая связь телефонию (телефонную сеть ННР) с использованием поставщиков услуг телефонии для комнат Microsoft Teams, вам потребуется Skype для бизнеса Online (план 3).
+
+  - При настройке учетной записи комнаты в Microsoft Teams или Skype для бизнеса Online номер телефона должен быть назначен до включения учетной записи комнаты.
   
   - У пользователей клиента должны быть почтовые ящики Exchange.
   
@@ -71,7 +73,7 @@ ms.locfileid: "50460519"
 
 ### <a name="enable-the-remote-mailbox-and-set-properties"></a>Включите удаленный почтовый ящик и задайте его свойства.
 
-1. [Откройте управляющую оболочку Exchange или](https://docs.microsoft.com/powershell/exchange/exchange-server/open-the-exchange-management-shell) подключите ее к [серверу Exchange с помощью удаленной оболочки PowerShell.](https://docs.microsoft.com/powershell/exchange/exchange-server/connect-to-exchange-servers-using-remote-powershell)
+1. [Откройте управляющую оболочку Exchange или](/powershell/exchange/exchange-server/open-the-exchange-management-shell) подключите ее к [серверу Exchange с помощью удаленной оболочки PowerShell.](/powershell/exchange/exchange-server/connect-to-exchange-servers-using-remote-powershell)
 
 2. В Exchange PowerShell создайте почтовый ящик для учетной записи (в том числе для этой учетной записи) с помощью следующей команды:
 
@@ -79,7 +81,7 @@ ms.locfileid: "50460519"
    Enable-Mailbox PROJECTRIGEL01@contoso.com -Room
    ```
 
-   Подробный синтаксис и сведения о параметрах см. в [описании enable-Mailbox.](https://docs.microsoft.com/powershell/module/exchange/mailboxes/enable-mailbox)
+   Подробный синтаксис и сведения о параметрах см. в [описании enable-Mailbox.](/powershell/module/exchange/mailboxes/enable-mailbox)
 
 3. В Exchange PowerShell настройте следующие параметры почтового ящика помещения, чтобы улучшить качество собрания:
 
@@ -87,7 +89,7 @@ ms.locfileid: "50460519"
 
    - AddOrganizerToSubject: $false (организатор собрания не добавляется в тему запроса на собрание.)
 
-   - DeleteComments: $false (текст должен быть в тексте входящих запросов на собрания).)
+   - DeleteComments: $false (Текст должен быть в тексте входящих запросов на собрания).)
 
    - DeleteSubject: $false (Храните тему входящих запросов на собрания.)
 
@@ -103,14 +105,14 @@ ms.locfileid: "50460519"
    Set-CalendarProcessing -Identity "Project-Rigel-01" -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false -AddAdditionalResponse $true -AdditionalResponse "This is a Skype Meeting room!"
    ```
 
-   Подробные сведения о синтаксисе и параметрах см. в описании [set-CalendarProcessing.](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-calendarprocessing)
+   Подробные сведения о синтаксисе и параметрах см. в описании [set-CalendarProcessing.](/powershell/module/exchange/mailboxes/set-calendarprocessing)
 
 ### <a name="assign-a-microsoft-365-or-office-365-license"></a>Назначение лицензии на Microsoft 365 или Office 365
 
-1. Подключение к Azure Active Directory. Подробные сведения об Active Directory см. в [azure ActiveDirectory (MSOnline) 1.0.](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0) 
+1. Подключение к Azure Active Directory. Подробные сведения об Active Directory см. в [azure ActiveDirectory (MSOnline) 1.0.](/powershell/azure/active-directory/overview?view=azureadps-1.0) 
 
    > [!NOTE]
-   > [Azure Active Directory PowerShell 2.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0) не поддерживается. 
+   > [Azure Active Directory PowerShell 2.0](/powershell/azure/active-directory/overview?view=azureadps-2.0) не поддерживается. 
 
 2. У учетной записи устройства должна быть действительная лицензия Microsoft 365 или Office 365, либо Exchange и Microsoft Teams не будут работать. При наличии лицензии вам необходимо назначить учетной записи устройства место использования, которое определяет, какие номера SKU лицензий будут доступны вашей учетной записи. Вы можете использовать `Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> , чтобы получить список доступных skus.
 
@@ -132,7 +134,7 @@ ms.locfileid: "50460519"
    Set-AzureADUserLicense -UserPrincipalName $acctUpn -AddLicenses $strLicense
    ```  -->
 
-   Подробные инструкции см. в описании назначения лицензий учетным записям пользователей с [помощью Office 365 PowerShell.](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell)
+   Подробные инструкции см. в описании назначения лицензий учетным записям пользователей с [помощью Office 365 PowerShell.](/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell)
 
 ### <a name="enable-the-device-account"></a>Включить учетную запись устройства
 
@@ -140,23 +142,36 @@ Skype для бизнеса Online PowerShell используется для у
 
 1. Создайте удаленный Windows PowerShell с компьютера следующим образом:
 > [!NOTE]
-> Соединитель Skype для бизнеса Online сейчас является частью последнего модуля Teams PowerShell.
+> Соединитель Skype для бизнеса Online сейчас входит в состав последнего модуля Teams PowerShell.
 >
 > Если вы используете последний общедоступный выпуск [Teams PowerShell,](https://www.powershellgallery.com/packages/MicrosoftTeams/)вам не нужно устанавливать соединитель Skype для бизнеса Online.
 
    ``` Powershell
-   Import-Module -Name MicrosoftTeams  
-   $cssess=New-CsOnlineSession -Credential $cred  
-   Import-PSSession $cssess -AllowClobber
+   # When using Teams PowerShell Module
+
+   Import-Module MicrosoftTeams
+   $credential = Get-Credential
+   Connect-MicrosoftTeams -Credential $credential
    ```
 
-2. Получите адрес SIP учетной записи:
+2. Получите SIP-адрес учетной записи:
 
    ``` Powershell
     $rm = Get-Csonlineuser -identity <insert SIP address> | select -expandproperty sipaddress
     ```
 
-3. Чтобы включить учетную запись комнат Microsoft Teams, запустите эту команду:
+3. **Необязательный**. Если вы хотите назначить номер телефона учетной записи, необходимо выполнить операцию на этом этапе. Если вы хотите назначить прямой маршрутный номер телефона:
+
+   ``` Powershell
+    Set-CsUser -Identity $rm -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI tel:+14255550012
+    ```
+    Если вы назначаете номер телефона, предоставленный Майкрософт, после предоставления пользователю лицензии на план звонков воспользуйтесь приведенной ниже cmdlet:
+    
+    ``` Powershell
+    Set-CsOnlineVoiceUser -Identity $rm -TelephoneNumber +14255550011 -LocationID xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
+    ```
+    
+4. Чтобы включить учетную запись комнат Microsoft Teams, запустите эту команду:
 
    ``` Powershell
    Enable-CsMeetingRoom -Identity $rm -RegistrarPool 'sippoolbl20a04.infra.lync.com' -SipAddressType EmailAddress
@@ -175,7 +190,7 @@ Skype для бизнеса Online PowerShell используется для у
 3. Щелкните учетную запись комнат Microsoft Teams, а затем щелкните значок пера, чтобы изменить сведения об учетной записи.
 4. Щелкните **Лицензии**.
 5. В разделе **Назначение лицензий** выберите Skype для бизнеса (план 2) или Skype для бизнеса (план 3), в зависимости от требований к лицензированию и Корпоративной голосовой связи. Если вы хотите использовать Корпоративная голосовая связь в комнатах Microsoft Teams, необходимо использовать лицензию на План 3.
-6. Щелкните **Сохранить**.
+6. Нажмите кнопку **Сохранить**.
 
 Для проверки вы сможете использовать любой клиент для входа в эту учетную запись.
   

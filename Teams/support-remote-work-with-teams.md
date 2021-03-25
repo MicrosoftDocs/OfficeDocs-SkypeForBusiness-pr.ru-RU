@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Используйте эти инструкции для того, чтобы помочь удаленно работающим сотрудникам вашей организации эффективно трудиться с применением Microsoft Teams, особенно если они работают дома в связи со вспышкой эпидемии COVID-19 (коронавируса).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ca3c7b430469887d4ebbee3e12836e72d1204eef
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: 77b40518379fd0334bce54362b07d129efe6f1a9
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50875099"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116947"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>Поддержка удаленных сотрудников с помощью Microsoft Teams
 
@@ -31,7 +31,7 @@ ms.locfileid: "50875099"
 
 ## <a name="it-admin-guidance"></a>Инструкции для ИТ-администраторов
 
-- Убедитесь, что у всех есть доступ к Teams в рамках [платной подписки, включающей Teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description). В качестве варианта соответствующие организации могут использовать **[бесплатную версию Teams](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)** или сотрудники могут активировать интерфейс **[Teams Exploratory](teams-exploratory.md)**.
+- Убедитесь, что у всех есть доступ к Teams в рамках [платной подписки, включающей Teams](/office365/servicedescriptions/teams-service-description). В качестве варианта соответствующие организации могут использовать **[бесплатную версию Teams](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)** или сотрудники могут активировать интерфейс **[Teams Exploratory](teams-exploratory.md)**.
 
 -  Если у вас уже есть подписка, включающая Teams, **[включите ее для всех](user-access.md)**.
     
@@ -90,7 +90,7 @@ ms.locfileid: "50875099"
 
    - Запись блога от 26 марта 2020 г.: [Работа с VPN: как корпорация Майкрософт обеспечивает связь с удаленными сотрудниками](https://www.microsoft.com/itshowcase/blog/running-on-vpn-how-microsoft-is-keeping-its-remote-workforce-connected/)
    
-   - Если вы находитесь в Китае, ознакомьтесь с [глобальной оптимизацией производительности клиентов Microsoft 365 или Office 365 для пользователей из Китая](https://docs.microsoft.com/Office365/Enterprise/office-365-networking-china).
+   - Если вы находитесь в Китае, ознакомьтесь с [глобальной оптимизацией производительности клиентов Microsoft 365 или Office 365 для пользователей из Китая](/Office365/Enterprise/office-365-networking-china).
 
    - Если вам нужна помощь в устранении неполадок или проблем с качеством звонков или собраний, следуйте инструкциям в разделе [Известная проблема (Китай): звонки в Skype для бизнеса или Teams по идентификаторам конференций](#known-issue---china-dialing-into-skype-for-business-or-teams-conference-ids) в нижней части этой статьи.
 
@@ -102,9 +102,9 @@ ms.locfileid: "50875099"
 
    - [Работайте удаленно, оставайтесь в безопасности — инструкции для руководителей информационной безопасности](https://www.microsoft.com/security/blog/?p=90736)
 
-   - [Основные 12 задач для отделов обеспечения безопасности при поддержке работы из дома](https://docs.microsoft.com/microsoft-365/security/top-security-tasks-for-remote-work)
+   - [Основные 12 задач для отделов обеспечения безопасности при поддержке работы из дома](/microsoft-365/security/top-security-tasks-for-remote-work)
    
-   - [Оптимизация подключения Microsoft 365 или Office 365 для удаленных пользователей с использованием раздельного VPN-туннелирования](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-split-tunnel)
+   - [Оптимизация подключения Microsoft 365 или Office 365 для удаленных пользователей с использованием раздельного VPN-туннелирования](/Office365/Enterprise/office-365-vpn-split-tunnel)
 
    - Раздел [Безопасность и Teams](teams-security-guide.md) посвящен всем техническим деталям безопасности Teams в рамках рекомендаций и процедур безопасности корпоративного уровня Microsoft 365.
 
@@ -119,7 +119,7 @@ ms.locfileid: "50875099"
 
    - Поделитесь [подробными видеоинструкциями](https://www.youtube.com/playlist?list=PLXPr7gfUMmKzR7_jXN5s886apYoHNC3Xk) с заинтересованными пользователями
 
-   - Прочтите статью [о развертывании Teams](How-to-roll-out-teams.md), чтобы узнать, как приступить к работе с Teams и управлять приложением.
+   - Прочтите статью [о развертывании Teams](./deploy-overview.md), чтобы узнать, как приступить к работе с Teams и управлять приложением.
 
     
 3. Прочтите наши новые ресурсы об удаленной работе и поделитесь ими с пользователями:
@@ -146,7 +146,7 @@ ms.locfileid: "50875099"
 
 8. Пользуйтесь Teams, чтобы быть на связи со своими сотрудниками:
 
-   - шаблон приложения [Команды для всей организации](create-an-org-wide-team.md) и [Корпоративный Communicator](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates#company-communicator).
+   - шаблон приложения [Команды для всей организации](create-an-org-wide-team.md) и [Корпоративный Communicator](/microsoftteams/platform/samples/app-templates#company-communicator).
     
    - Рассылайте сведения о политиках организации для работы из дома, а также по безопасности и охране труда.
     

@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 90542f680c1d3992f5f318bfedad8a12470d282b
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 0585f0ad829f19334d5a970461f1f3248a107e9d
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49820949"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51115557"
 ---
 # <a name="upgrade-from-a-skype-for-business-on-premises-deployment-to-teams"></a>Обновление локального развертывания Skype для бизнеса до Teams
 
@@ -34,12 +34,12 @@ ms.locfileid: "49820949"
 Эта статья является частью этапа развертывания и реализации, которое вы начинаете. Прежде чем продолжается, подтвердим, что вы выполнили следующие действия:
 
 - [Привлечение заинтересованных лиц проекта](upgrade-enlist-stakeholders.md)
-- [Определение области проекта](https://aka.ms/SkypetoTeams-Scope)
-- [Понимание сосуществования и совместной работы Skype для бизнеса и Teams](https://aka.ms/SkypeToTeams-Coexist)
+- [Определение области проекта](./upgrade-define-project-scope.md)
+- [Понимание сосуществования и совместной работы Skype для бизнеса и Teams](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 - [Выбранный путь обновления](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-- [Подготовлена среда](https://aka.ms/SkypeToTeams-TechnicalReadiness)
-- [Подготовив организацию](https://aka.ms/SkypeToTeams-UserReadiness)
-- [Проводится пилотный проект](https://aka.ms/SkypeToTeams-Pilot)
+- [Подготовлена среда](./upgrade-prepare-environment.md)
+- [Подготовив организацию](./upgrade-prepare-organization.md)
+- [Проводится пилотный проект](./pilot-essentials.md)
 
 Следуйте указаниям в этой статье, если вы развернули локальное приложение Skype для бизнеса или Microsoft Lync и хотите выборочно перейти на Microsoft Teams с помощью нескольких режимов сосуществования или в режиме all-in. 
 
@@ -66,6 +66,6 @@ ms.locfileid: "49820949"
 
 Переход с локальной телефонной системы на Teams позволит вам воспользоваться прямой маршрутией телефонной системы ("Прямая маршрутия") или предоставленными Майкрософт планами звонков для Microsoft 365 или Office 365.
 
-Если вы не используете планы звонков, необходимо перейти с корпоративного развертывания голосовой связи на прямую маршрутизаку телефонной системы в рамках обновления до Teams.
+Если вы не используете планы звонков, необходимо перейти с корпоративного голосового развертывания на прямую маршрутизаку телефонной системы в рамках обновления до Teams.
 
-Дополнительные сведения см. [в дополнительных сведениях о прямой маршрутике телефонной системы.](https://docs.microsoft.com/MicrosoftTeams/2-envision-make-my-service-decisions-direct-routing) Если вы планируете использовать планы звонков, обратитесь к нашим рекомендациям по переносу номеров [телефонов в Teams.](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)
+Дополнительные сведения см. [в дополнительных сведениях о прямой маршрутике телефонной системы.](./direct-routing-landing-page.md) Если вы планируете использовать планы звонков, обратитесь к нашим рекомендациям по переносу номеров [телефонов в Teams.](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)

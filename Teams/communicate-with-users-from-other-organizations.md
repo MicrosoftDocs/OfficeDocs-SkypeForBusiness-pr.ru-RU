@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Priority
 description: Узнайте, как звонить, общаться в чатах и добавлять пользователей из-за пределов организации в Microsoft Teams с помощью внешнего доступа (федерации) и гостевого доступа.
-ms.openlocfilehash: 10ce0e7f89872a7fda842871d17f8bd06481193f
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.openlocfilehash: e4aea581af73e69512e8ab55f87faa0602219575
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50461049"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51115997"
 ---
 # <a name="use-guest-access-and-external-access-to-collaborate-with-people-outside-your-organization"></a>Использование гостевого и внешнего доступа для совместной работы с людьми из-за пределов организации
 
@@ -53,7 +53,7 @@ ms.locfileid: "50461049"
 
 Гости добавляются в службу Azure Active Directory вашей организации в качестве пользователей B2B и должны входить в Teams с помощью гостевой учетной записи. Это означает, что им может потребоваться выйти из своей организации, чтобы войти в вашу организацию.
 
-Чтобы настроить гостевой доступ в Teams, см. статью [Совместная работа с гостями в команде](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team).
+Чтобы настроить гостевой доступ в Teams, см. статью [Совместная работа с гостями в команде](/microsoft-365/solutions/collaborate-as-team).
 
 ## <a name="compare-external-and-guest-access"></a>Сравнение внешнего и гостевого доступа
 
@@ -105,4 +105,3 @@ ms.locfileid: "50461049"
 [Внешний доступ в Teams](manage-external-access.md)
 
 [Гостевой доступ в Teams](guest-access.md)
-

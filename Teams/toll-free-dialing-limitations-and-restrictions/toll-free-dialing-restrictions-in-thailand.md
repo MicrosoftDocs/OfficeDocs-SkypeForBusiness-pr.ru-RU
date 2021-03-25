@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: Узнайте о наборе бесплатных номеров в Таиланде, в том числе о доступности, доступности с использованием проводных и стационарных и мобильных сетей, а также об ограничениях.
-ms.openlocfilehash: 58ddc7ad1004972e932ac5c3a998ef7461782834
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 8fc33d740762e8b94948c9a7ad596d5fa11fd479
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139778"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116597"
 ---
 # <a name="toll-free-dialing-restrictions-in-thailand"></a>Ограничения набора бесплатных номеров в Таиланде
 
@@ -51,7 +51,6 @@ ms.locfileid: "43139778"
 
 [Ограничения и запреты для бесплатных номеров](../toll-free-dialing-limitations-and-restrictions.md)
 
-[Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
+[Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](../getting-service-phone-numbers.md)
 
   
- 

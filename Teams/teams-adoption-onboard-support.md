@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d61c407e8f969084c1f3775ddd9ede9070a61dc1
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 3d19033ac0feb9e88b3564e725574a14a1564022
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49806139"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116895"
 ---
 # <a name="onboard-support-for-microsoft-teams"></a>Подключение службы поддержки по Microsoft Teams
 
@@ -34,7 +34,7 @@ ms.locfileid: "49806139"
 
 - [Foundations — основные компоненты Microsoft Teams](https://youtu.be/V6B4KraD-FM)
 - [Устранение неполадок Teams](https://youtu.be/0KNh9KNpXcA)
-- [Известные проблемы и устранение неполадок](https://aka.ms/TeamsKnownIssues)
-- [Обучение работе с Microsoft Teams](https://docs.microsoft.com/microsoftteams/training-microsoft-teams-landing-page)
+- [Известные проблемы и устранение неполадок](/MicrosoftTeams/troubleshoot/teams-welcome)
+- [Обучение работе с Microsoft Teams](./training-microsoft-teams-landing-page.md)
 
-![Значок, представляющий следующий ](media/teams-adoption-next-icon.png) этап: [внедрение Microsoft Teams, этап 3. Масштаб.](teams-adoption-phase3-enable.md)
+![Значок, представляющий следующий ](media/teams-adoption-next-icon.png) этап: [внедрение Microsoft Teams, этап 3: масштаб.](teams-adoption-phase3-enable.md)

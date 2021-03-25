@@ -1,5 +1,5 @@
 ---
-title: Пользователи просматривают или настраивают политику расположения
+title: Просмотр или настройка политики расположения пользователей
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,18 +15,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fa4027bc-2a85-47e0-9f5e-7f1dee08a94f
 description: Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
-ms.openlocfilehash: 93a297afaa35a8c5918ea98b3d67015106fc8342
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 105fff4cf55dcacbbe08d3f35c794a9310406f5f
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49824319"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51115095"
 ---
 # <a name="users-view-or-configure-location-policy"></a>Пользователи: просмотр или настройка политики определения местонахождения
 
 Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
 
-- [Назначение политики расположения пользователю](https://technet.microsoft.com/library/343f2de3-a0ae-4403-8456-6e520b579d32.aspx)
+- [Назначение политики расположения пользователю](/previous-versions/office/lync-server-2013/lync-server-2013-assign-a-per-user-location-policy)
 
-Подробные сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнеса Server, см. в под управлением Skype для бизнеса [Server 2015.](../../manage/manage.md)
-
+Сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнес-серверов, см. в материале Управление Skype для бизнеса [Server 2015.](../../manage/manage.md)

@@ -17,12 +17,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0e5c64b8ff26ae91263925a23151cdc6619b29b3
-ms.sourcegitcommit: b4b2c7e79679cce6cf5f863ddf708e50164f9a9d
+ms.openlocfilehash: c991c038e40d988de596d10ca0e868cfd911175d
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "50861423"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116027"
 ---
 # <a name="country-and-region-availability-for-business-voice"></a>Доступность страны и региона для Business Voice
 
@@ -46,7 +46,7 @@ Microsoft 365 бизнес премиум Voice доступен в более �
 
 Если ваш клиент находится в стране или регионе, которые не поддерживают тарифные планы и мастер по началу работы, обратитесь к разделу [Получить помощь от торгового посредника или партнера Microsoft](reseller-partner-support.md).
 
-Чтобы узнать, что входит в Business Voice с тарифным планом и без тарифного плана, см. [Описание услуги Microsoft 365 бизнес премиум Voice](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-business-voice-service-description).
+Чтобы узнать, что входит в Business Voice с тарифным планом и без тарифного плана, см. [Описание услуги Microsoft 365 бизнес премиум Voice](/office365/servicedescriptions/microsoft-365-business-voice-service-description).
 
 
 | Страна или регион    | Служба Business Voice<br> с тарифным планом | Служба Business Voice<br> без тарифного плана<br>(Прямая маршрутизация) | Мастер начала работы |

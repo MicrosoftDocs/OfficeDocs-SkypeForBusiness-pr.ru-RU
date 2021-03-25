@@ -23,13 +23,13 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: Узнайте о наборе бесплатных номеров в Бразилии, в том числе о доступности, доступности с использованием проводных и фиксированных телефонных подключений и мобильных сетевых номерах, а также об ограничениях.
-ms.openlocfilehash: a979b0c96e8928d9eedc7809e8d8350dbc8ad282
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+description: Узнайте о наборе бесплатных номеров в Бразилии, в том числе о доступности, доступности с проводным и фиксированным номером, а также об ограничениях для мобильных сетей.
+ms.openlocfilehash: 689be527186f51ebe24178eb11e015c01bc5ab1e
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140488"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116837"
 ---
 # <a name="toll-free-dialing-restrictions-in-brazil"></a>Ограничения набора бесплатных номеров в Бразилии
 
@@ -51,7 +51,6 @@ ms.locfileid: "43140488"
 ## <a name="related-topics"></a>Статьи по теме
 [Ограничения и запреты для бесплатных номеров](../toll-free-dialing-limitations-and-restrictions.md)
 
-[Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
+[Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](../getting-service-phone-numbers.md)
 
   
- 

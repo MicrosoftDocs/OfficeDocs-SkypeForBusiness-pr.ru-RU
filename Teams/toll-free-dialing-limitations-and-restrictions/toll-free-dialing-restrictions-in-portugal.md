@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Это поможет вам узнать, как звонить на бесплатные номера в каждой стране или регионе. После выбора страны или региона вы будете перена границу страницы с подробными сведениями, ограничениями и ограничениями на доступность бесплатных служб, на которых доступна бесплатная служба. В формате набора вы сможете использовать коды доступа, необходимые для набора бесплатного номера в каждой стране или регионе.
-ms.openlocfilehash: cdaa8761e55ac2ad85775c81c4726bb42c5ba489
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 8f3487838f8104539e0251049ee6f61f0abfaa4e
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809119"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116677"
 ---
 # <a name="toll-free-dialing-restrictions-in-portugal"></a>Ограничения набора бесплатных номеров в Португалии
 
@@ -49,7 +49,6 @@ ms.locfileid: "49809119"
 
 [Ограничения и запреты для бесплатных номеров](../toll-free-dialing-limitations-and-restrictions.md)
 
-[Получение номеров телефонов служб](/microsoftteams/getting-service-phone-numbers)
+[Получение номеров телефонов служб](../getting-service-phone-numbers.md)
 
   
- 

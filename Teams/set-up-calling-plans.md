@@ -25,12 +25,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Узнайте, как настроить планы звонков, включая просмотр доступных в вашем регионе планов, приобрести лицензии& назначить лицензии, получить номера телефонов и добавить адреса для экстренного & местоположений.
-ms.openlocfilehash: 9e4e48bc2d9efcc0ff4cb1891949de4add6f559d
-ms.sourcegitcommit: 380a96f1ed2cefb429286854f06546bdb28d7d74
+ms.openlocfilehash: a06ec3b71933e8e6ea640b6377581243140ef672
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49701327"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117127"
 ---
 # <a name="set-up-calling-plans"></a>Настройка планов звонков
 
@@ -42,12 +42,12 @@ ms.locfileid: "49701327"
 Если планы звонков недоступны в вашей стране или регионе, можно использовать прямую маршрутику для подключения локальной инфраструктуры телефонии к телефонной системе.  Дополнительные сведения см. в прямой [маршрутке телефонной системы.](direct-routing-landing-page.md)
   
 ## <a name="step-2-buy-and-assign-licenses"></a>Шаг 2. Покупка и назначение лицензий
-1. Если функция телефонной системы не входит в ваш план Microsoft 365 или Office  365, может потребоваться приобрести лицензии на надстройки телефонной системы. После приобретения **лицензий на телефонную** систему приобретаем планы звонков [для Microsoft 365 или Office 365.](calling-plans-for-office-365.md) См. [лицензирование надстройки Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)и покупку лицензий и плана. 
+1. Если функция телефонной системы не входит в ваш план Microsoft 365 или Office  365, может потребоваться приобрести лицензии на надстройки телефонной системы. После приобретения **лицензий на телефонную** систему приобретаем планы звонков [для Microsoft 365 или Office 365.](calling-plans-for-office-365.md) См. [лицензирование надстройки Microsoft Teams](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)и покупку лицензий и плана. 
     
     > [!TIP]
     > **Лицензии телефонной** системы и планы звонков в Microsoft 365 или Office 365 объединяется, поэтому чтобы увидеть возможность приобретения планов звонков, у вас должны быть лицензии на телефонную **систему.**
   
-2. Сначала назначьте лицензии, а затем назначьте план звонков людям в организации. См. ["Назначение лицензий на надстройки Microsoft Teams".](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
+2. Сначала назначьте лицензии, а затем назначьте план звонков людям в организации. См. ["Назначение лицензий на надстройки Microsoft Teams".](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
     
 ## <a name="step-3-get-phone-numbers"></a>Шаг 3. Получить номера телефонов
 Есть три способа получить новые номера пользователей:
@@ -59,9 +59,9 @@ ms.locfileid: "49701327"
 - **Используйте форму запроса для новых номеров.** Иногда (в зависимости от страны или региона) вы не сможете получить новые телефонные номера с помощью Центра администрирования Teams, или вам нужны определенные номера телефонов или коды областей. В таком случае необходимо скачать форму и отправить ее нам. Дополнительные сведения см. в статье [Управление номерами телефонов для организации](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md). 
 
 ## <a name="step-4-add-emergency-addresses-and-locations-for-your-organization"></a>Шаг 4. Добавление адресов и местоположений для экстренного устранения проблем в организации
-<a name="bkmk_add_addresses"></a> Адрес для экстренного помощи должен быть связан с номером телефона. Эта связь может различаться в зависимости от страны и региона. Например, в США необходимо привязать адрес для экстренного реагирования при назначении телефонного номера пользователю. В Великобритании адрес для экстренного помощи связывается с номером при получении телефонных номеров из Microsoft 365 или Office 365 либо при переносе номеров текущего поставщика услуг. 
+<a name="bkmk_add_addresses"></a> Адрес для экстренного помощи должен быть связан с номером телефона. Когда это происходит, связи могут различаться в зависимости от страны и региона. Например, в США необходимо привязать адрес для экстренного реагирования при назначении телефонного номера пользователю. В Великобритании адрес для экстренного экстренного помощи связывается с номером при получении телефонных номеров из Microsoft 365 или Office 365, а также при переносе номеров текущего поставщика услуг. 
 
-Дополнительные сведения об экстренных вызовах и [](what-are-emergency-locations-addresses-and-call-routing.md) управлении адресами для экстренного вызова см. в дополнительных сведениях об управлении экстренных вызовами, а также добавлении, изменении и удаление местоположения для экстренного вызова в [организации.](add-change-remove-emergency-location-organization.md)
+Дополнительные сведения о вызовах экстренных служб [](what-are-emergency-locations-addresses-and-call-routing.md) и управлении адресами для экстренного вызова см. в дополнительных сведениях об управлении экстренным звоном, а также добавлении, изменении и удаление местоположения для экстренного вызова в [организации.](add-change-remove-emergency-location-organization.md)
     
 ## <a name="step-5-assign-an-emergency-address-and-a-phone-number-to-a-user"></a>Шаг 5. Назначение пользователю адреса для экстренного помощи и номера телефона
 <a name="bkmk_add_addresses"></a> При настройке планов звонков в Office 365 необходимо назначить каждому пользователю номер телефона и адрес для экстренного вызова. Адрес для экстренного реагирования необходимо создать перед тем, как сопоставить его с номером телефона.  Дополнительные сведения см. в сведениях о назначении [или изменении адреса для экстренного устранения проблем.](assign-change-emergency-location-user.md)
@@ -86,15 +86,15 @@ ms.locfileid: "49701327"
 
 Если вы знакомы с Windows PowerShell, то можете использовать следующие командлеты для назначения номеров телефонов пользователям. 
   
-- [Get-CsOnlineTelephoneNumber](https://docs.microsoft.com/powershell/module/skype/Get-CsOnlineTelephoneNumber?redirectedfrom=MSDN&view=skype-ps): получает номера телефонов из корпоративного каталога голосовой связи.
+- [Get-CsOnlineTelephoneNumber](/powershell/module/skype/Get-CsOnlineTelephoneNumber?view=skype-ps): получает номера телефонов из корпоративного каталога голосовой связи.
     
-- [Set-CsOnlineVoiceUser](https://docs.microsoft.com/powershell/module/skype/Set-CsOnlineVoiceUser?redirectedfrom=MSDN&view=skype-ps): Задает номера телефонов.
+- [Set-CsOnlineVoiceUser](/powershell/module/skype/Set-CsOnlineVoiceUser?view=skype-ps): Задает номера телефонов.
     
 Дополнительные сведения см. в [обзоре Teams PowerShell.](teams-powershell-overview.md)
   
 
 ## <a name="related-topics"></a>См. также:
-[Общие вопросы по передаче номеров телефонов](transferring-phone-numbers-common-questions.md)
+[Общие вопросы по передаче номеров телефонов](./phone-number-calling-plans/port-order-overview.md)
 
 [Типы номеров телефонов, используемые в планах звонков](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
@@ -109,4 +109,3 @@ ms.locfileid: "49701327"
 [Teams: заявление об отказе для экстренных вызовов](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
- 

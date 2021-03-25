@@ -22,23 +22,23 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: Узнайте, как отправить пользователям сообщение электронной почты с информацией об аудиоконференции в Microsoft Teams.
-ms.openlocfilehash: 5f281071dd4ae9a21f9148ac86943d4ab4ce36b8
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 8cc0e549d502a2c7a8d8052ebe496a82e36b6648
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691145"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117217"
 ---
-# <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-microsoft-teams"></a>Отправка пользователю сообщения электронной почты со сведениями об аудиоконференции в Microsoft Teams
+# <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-microsoft-teams"></a>Отправка пользователю письма с данными для аудиоконференций в Microsoft Teams
 
-Иногда пользователям Microsoft Teams требуется, чтобы вы отправляли им информацию об аудиоконференциях. Вы можете сделать это, выбрав пункт **Отправить сведения о конференции по эл. почте** в свойствах для пользователя. Отправляемое сообщение будет содержать всю информацию об аудиоконференции, включая следующее:
+Иногда пользователям Microsoft Teams требуется, чтобы вы отправили им данные для аудиоконференции. Для этого щелкните ссылку "Отправить сведения о **конференции"** по электронной почте в свойствах пользователя. При отправке этого сообщения электронной почты будут содержаться все сведения об аудиоконференции, включая следующие:
   
-- телефонный номер конференции или номер телефонного подключения для пользователя;
+- Телефонный номер конференции или номер телефонного подключения для пользователя.
     
-- идентификатор конференции пользователя.
+- Идентификатор конференции пользователя.
     
    
-Далее приведен пример отправляемого сообщения электронной почты:
+Вот пример отправленного сообщения электронной почты:
   
 ![Пример сообщения электронной почты для conferencing с dial-in](media/teams-send-email-to-user-with-audio-conferencing-image1.png)
 
@@ -76,11 +76,11 @@ ms.locfileid: "44691145"
 
 Windows PowerShell is all about managing users and what users are allowed or not allowed to do. С Windows PowerShell вы можете управлять Microsoft 365 или Office 365, используя единый пункт администрирования, который упростит выполнение ваших повседневных задач. Для начала работы с Windows PowerShell ознакомьтесь с приведенными ниже разделами.
     
-  - [Шесть причин использовать Windows PowerShell для управления Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Шесть причин использовать Windows PowerShell для управления Office 365](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [Лучшие способы управления Microsoft 365 или Office 365 с помощью Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Лучшие способы управления Microsoft 365 или Office 365 с помощью Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-Дополнительные сведения о Windows PowerShell см. в [справочнике по Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps).
+Дополнительные сведения о Windows PowerShell см. в [справочнике по Microsoft Teams PowerShell](/powershell/module/teams/?view=teams-ps).
     
   
 ## <a name="related-topics"></a>Связанные разделы

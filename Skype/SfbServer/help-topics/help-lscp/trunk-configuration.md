@@ -15,24 +15,23 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 499b6966-25f4-4b90-a225-d6be48ddab19
 description: Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
-ms.openlocfilehash: 4144f99fd9a149ae961145d6efa104e90ece1bc0
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 9986be02c0d97c69853d69dc44e23c8908a90acb
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49818819"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116269"
 ---
 # <a name="trunk-configuration"></a>Конфигурация магистрали
 
 Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
 
-- [Настройка магистрали с обходом сервера-посредника в Skype для бизнеса Server 2015](../../deploy/deploy-enterprise-voice/configure-trunk-with-media-bypass.md)
+- [Настройка магистрали с обходом мультимедиа в Skype для бизнеса Server 2015](../../deploy/deploy-enterprise-voice/configure-trunk-with-media-bypass.md)
 
-- [Настройка магистрали без обхода сервера-посредника в Skype для бизнеса Server 2015](../../deploy/deploy-enterprise-voice/configure-trunk-without-media-bypass.md)
+- [Настройка магистрали без обхода мультимедиа в Skype для бизнеса Server 2015](../../deploy/deploy-enterprise-voice/configure-trunk-without-media-bypass.md)
 
-- [Create or modify a translation rule for called ID presentation in Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
+- [Создание или изменение правила перевода для презентации Скайпа для бизнеса Skype для бизнеса Server 2015](../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
 
-- [Создание или изменение правила преобразования вручную](https://technet.microsoft.com/library/049d1db3-af58-48c5-be89-52e1d068a4bd.aspx)
+- [Создание или изменение правила преобразования вручную](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-a-translation-rule-manually)
 
-For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).
-
+Сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнес-серверов, см. в материале Управление Skype для бизнеса [Server 2015.](../../manage/manage.md)

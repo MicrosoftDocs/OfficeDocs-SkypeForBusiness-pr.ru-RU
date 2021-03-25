@@ -14,12 +14,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Узнайте о том, как в Microsoft Teams можно делиться файлами и папками.
-ms.openlocfilehash: 5b6847c42f13701e289b2efaad4a5489351f339b
-ms.sourcegitcommit: b68a7b5100fc2b47ae81f465d48d1ac2348c1744
+ms.openlocfilehash: 53997f4493a0217e980427ab0d1f85d64095b9c9
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/11/2021
-ms.locfileid: "49795783"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117027"
 ---
 # <a name="sharing-files-in-microsoft-teams"></a>Совместное использование файлов в Microsoft Teams
 
@@ -48,6 +48,6 @@ ms.locfileid: "49795783"
 
 [Взаимодействие SharePoint Online и OneDrive для бизнеса с Microsoft Teams](sharepoint-onedrive-interact.md)
 
-[Изменение типа ссылки по умолчанию для сайта](https://docs.microsoft.com/sharepoint/change-default-sharing-link)
+[Изменение типа ссылки по умолчанию для сайта](/sharepoint/change-default-sharing-link)
 
-[Работайте вместе с гостями в команде](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team)
+[Работайте вместе с гостями в команде](/microsoft-365/solutions/collaborate-as-team)

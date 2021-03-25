@@ -13,27 +13,27 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: В этой статье рассмотрено использование средства восстановления для комнат Microsoft Teams, с помощью которого можно привести устарелную систему в поддерживаемый штат.
-ms.openlocfilehash: 47e9bed4377a111a1c1284684bbc40517dbb42d8
-ms.sourcegitcommit: 4099da7b1db7663e63ef5bece16e3090c33ea207
+ms.openlocfilehash: 9a856312229ae326b4adbfd039ee0553213ca09c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45021727"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117497"
 ---
 # <a name="use-the-microsoft-teams-rooms-recovery-tool"></a>Используйте средство восстановления приложения "Комнаты Microsoft Teams"
 
-В этой статье рассмотрено использование средства восстановления для комнат Microsoft Teams, с помощью которого можно привести устарелную систему в поддерживаемый штат. Это средство следует применять, если в консоли комнат Microsoft Teams появляется сообщение об ошибке "системные настройки устарели" или перед выполнением кнопки "сбросить заводские [настройки".](https://docs.microsoft.com/microsoftteams/rooms/rooms-operations#microsoft-teams-rooms-reset-factory-restore)
+В этой статье рассмотрено использование средства восстановления для комнат Microsoft Teams, с помощью которого можно привести устарелную систему в поддерживаемый штат. Это средство следует применять, если в консоли комнат Microsoft Teams появляется сообщение об ошибке "системные настройки устарели" или перед выполнением кнопки "сбросить заводские [настройки".](./rooms-operations.md#microsoft-teams-rooms-reset-factory-restore)
 
 ## <a name="prerequisites"></a>Необходимые компоненты
 
 Скачайте последний [пакет установки комнат Microsoft Teams и](https://go.microsoft.com/fwlink/?linkid=851168) извлеките его на USB-накопитель или в обойму, доступную на устройстве Комнаты Microsoft Teams.
 
 > [!NOTE]
-> Извлечение файлов из MSI-файла может быть выполнено множеством способов. Любой механизм, который извлекает все файлы и сохраняет их структуру каталогов, приемлем. Один из таких способов — использовать команду, которая представляет полный путь к пакету установки комнаты Microsoft Teams и полный путь к папке, в которой должны быть извлечены `msiexec /a PathToMsi /qb TARGETDIR=PathToTarget` `PathToMsi` `PathToTarget` файлы.
+> Извлечь файлы из MSI-файла можно многими способами. Любой механизм, который извлекает все файлы и сохраняет их структуру каталогов, приемлем. Один из таких способов — использовать команду, которая представляет полный путь к пакету установки комнаты Microsoft Teams Room и полный путь к папке, в которой должны быть извлечены `msiexec /a PathToMsi /qb TARGETDIR=PathToTarget` `PathToMsi` `PathToTarget` файлы.
 
 ## <a name="running-the-tool"></a>Запуск средства
 
-1) Войте учетную запись администратора на устройстве комнат Microsoft Teams и запустите командную подсказку с повышенными уровнями.
+1) Во sign in to the admin account on your Microsoft Teams Rooms device, and launch an elevated command prompt.
 2) Убедитесь, что с устройства комнат Microsoft Teams у вас есть доступ к файлам, извлеченным из пакета установки `RecoveryTool.ps1 file` комнат Microsoft Teams. Комплект можно найти в сетевой сетевой сети или USB-накопителе, используемом при подготовке предварительных условий.
 3) Запустите `powershell.exe -ExecutionPolicy Unrestricted -File "<path to RecoveryTool.ps1>"` .
 4) Чтобы восстановить заводские функции:

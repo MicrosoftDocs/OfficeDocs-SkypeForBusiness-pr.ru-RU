@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: Узнайте о наборе бесплатных номеров в Словакии, в том числе о доступности, доступности с использованием проводных и фиксированных телефонных подключений, а также ограничениях для мобильных сетей.
-ms.openlocfilehash: 19e7f5578641c2c0b730bdc3195870a38066e118
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 446c36fdb66fc08292ad8dfa94f4f708d0def087
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139808"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116637"
 ---
 # <a name="toll-free-dialing-restrictions-in-slovakia"></a>Ограничения набора бесплатных номеров в Словакии
 
@@ -51,7 +51,6 @@ ms.locfileid: "43139808"
 
 [Ограничения и запреты для бесплатных номеров](../toll-free-dialing-limitations-and-restrictions.md)
 
-[Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
+[Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](../getting-service-phone-numbers.md)
 
   
- 

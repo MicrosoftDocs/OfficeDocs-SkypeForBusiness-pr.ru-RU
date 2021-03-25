@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 02f21fcc642f33b17efa6ef44878bce567695b4d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: e2f9b2388cef619728f5ecdd912e61448cc3524c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49827509"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117267"
 ---
 # <a name="powershell-script-sample---reset-the-autostart-setting-in-teams"></a>Пример сценария PowerShell: сброс параметра автозагрузки в Teams
 
@@ -150,4 +150,4 @@ if($null -eq $teamsProc) {
 ## <a name="related-topics"></a>Статьи по теме
 
 - [Установка Teams с помощью MSI](../msi-deployment.md)
-- [Развертывание Teams с помощью приложений Microsoft 365 для предприятий](https://docs.microsoft.com/deployoffice/teams-install)
+- [Развертывание Teams с помощью приложений Microsoft 365 для предприятий](/deployoffice/teams-install)

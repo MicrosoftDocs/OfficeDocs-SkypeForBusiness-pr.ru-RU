@@ -16,19 +16,19 @@ ms.reviewer: mikedav
 description: Узнайте, как назначать пользователям лицензии на надстройки Teams для таких функций, как аудиоконференция, телефонная система и планы звонков.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f0b7a997525759741e35fa5450c9b8777519c6c7
-ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
+ms.openlocfilehash: 240672b125190492a036bc9dfa3f7a42070e8320
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50196933"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116937"
 ---
 # <a name="assign-teams-add-on-licenses-to-users"></a>Назначение пользователям лицензий на надстройки Teams
 
 Лицензии на надстройки — это лицензии на определенные функции Teams, такие как аудиоконференция, телефонная система и планы звонков. В этой статье описано, как массово назначить лицензии на надстройки отдельным пользователям и большим наборам пользователей.
 
 > [!NOTE]
-> См. [лицензирование надстройки](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing) Teams для функций Teams, доступных с лицензиями на надстройки. Здесь также представлены сведения о том, какие лицензии необходимо приобрести и как их приобрести (в зависимости от плана), чтобы пользователи могли получить доступ к таким функциям, как аудиоконференция, бесплатные номера и возможность звонить на телефонные номера за пределы организации. После того как вы решите, какие функции нужны пользователям, назначьте им лицензии.
+> См. [лицензирование надстройки](./microsoft-teams-add-on-licensing.md) Teams для функций Teams, доступных с лицензиями на надстройки. Вы также увидите сведения о том, какие лицензии необходимо приобрести и как их приобрести (в зависимости от плана), чтобы пользователи могли получить доступ к таким функциям, как аудиоконференция, бесплатные номера и возможность звонить на телефонные номера за пределы организации. После того как вы решите, какие функции вам нужны, назначьте им лицензии.
 
 Для назначения лицензий пользователям в организации можно использовать Центр администрирования Microsoft 365 или PowerShell. Для управления лицензиями необходимо быть глобальным администратором или администратором управления пользователями.
 
@@ -50,19 +50,19 @@ ms.locfileid: "50196933"
 
 Для назначения лицензий отдельным пользователям или небольшим наборам пользователей за раз используйте Центр администрирования Microsoft 365. Лицензии назначаются на странице **"Лицензии"** (не более 20 пользователей одновременно) или на странице **"Активные пользователи".** Выбор метода зависит от того, хотите ли вы управлять лицензиями на продукты для определенных пользователей или лицензиями пользователей для определенных продуктов.
 
-Пошаговую инструкцию см. в инструкции по [назначению лицензий пользователям.](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users)
+Пошаговую инструкцию см. в инструкциях по [назначению лицензий пользователям.](/microsoft-365/admin/manage/assign-licenses-to-users)
 
-Если необходимо назначить лицензии большому количеству пользователей, например сотням или тысячам пользователей, используйте Powershell или групповое лицензирование в [Azure Active Directory (Azure AD).](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-groups-assign)  
+Если вам нужно назначить лицензии большому количеству пользователей, например сотням или тысячам пользователей, используйте Powershell или групповое лицензирование в [Azure Active Directory (Azure AD).](/azure/active-directory/users-groups-roles/licensing-groups-assign)  
 
 ## <a name="using-powershell"></a>С помощью PowerShell
 
-Используйте PowerShell для массового назначения лицензий пользователям.  Дополнительные данные см. в записях [PowerShell для назначения лицензий учетным записям пользователей.](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell)
+Используйте PowerShell для массового назначения лицензий пользователям.  Дополнительные данные см. в этом отчете об назначении лицензий учетным записям [пользователей с помощью PowerShell.](/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell)
 
 ### <a name="example-script"></a>Пример сценария
 
 Вот пример использования сценария для назначения лицензий пользователям.
 
-1. Установите 64-битную версию Microsoft Online Services [для ИТ-специалистов, RTW.](https://docs.microsoft.com/collaborate/connect-redirect?DownloadID=59185)
+1. Установите 64-битную версию Microsoft Online Services для [ИТ-специалистов, RTW.](/collaborate/connect-redirect?DownloadID=59185)
 2. Установите модуль Microsoft Azure Active Directory для Windows PowerShell:
     1. Откройте командную Windows PowerShell с повышенными Windows PowerShell (запустите Windows PowerShell от имени администратора).
     2. Выполните следующую команду.
@@ -127,7 +127,7 @@ ms.locfileid: "50196933"
 
 Вот неполный список названий продуктов и соответствующих названий их составных номеров SKU, которые можно использовать в качестве справки при использовании PowerShell для управления лицензиями в Teams.
 
-Дополнительные данные см. в справке по лицензиям и службам [PowerShell,](https://docs.microsoft.com/office365/enterprise/powershell/view-licenses-and-services-with-office-365-powershell)именам продуктов и планам обслуживания для лицензирования [и](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-service-plan-reference)справке по SKU для [образования.](../sku-reference-edu.md)
+Дополнительные данные см. в справке по лицензиям и службам [PowerShell,](/office365/enterprise/powershell/view-licenses-and-services-with-office-365-powershell)именам продуктов и планам обслуживания для лицензирования [и](/azure/active-directory/users-groups-roles/licensing-service-plan-reference)справке по SKU для [образования.](../sku-reference-edu.md)
 
 | Наименование товара| Наименование товарной единицы |
 |--------------|---------------|
@@ -153,10 +153,10 @@ ms.locfileid: "50196933"
 | План внутренних звонков (240 минут на пользователя в месяц для каждой страны) </br>*Этот план не доступен в США.* | MCOPSTN6 |
 | Кредиты на связь | MCOPSTNPP |
 
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Статьи по теме
 
-- [Лицензирование надстроек Teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
+- [Лицензирование надстроек Teams](./microsoft-teams-add-on-licensing.md)
 - [Управление доступом пользователей к Teams](../user-access.md)
-- [Просмотр лицензий и служб с помощью PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/view-licenses-and-services-with-office-365-powershell)
-- [Названия продуктов и идентификаторы планов служб для лицензирования](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-service-plan-reference)
+- [Просмотр лицензий и служб с помощью PowerShell](/office365/enterprise/powershell/view-licenses-and-services-with-office-365-powershell)
+- [Названия продуктов и идентификаторы планов служб для лицензирования](/azure/active-directory/users-groups-roles/licensing-service-plan-reference)
 - [Справка по SKU для образования](../sku-reference-edu.md)

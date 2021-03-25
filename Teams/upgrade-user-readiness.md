@@ -20,25 +20,25 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9033718f2bd9463d09478c69ed73df3c4ae08073
-ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
+ms.openlocfilehash: 7a1aa9ec921171ee45657956b43402e2d293edf3
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "49578422"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51115537"
 ---
 # <a name="prepare-a-user-readiness-plan"></a>Подготовка плана готовности пользователей
 
 ![Этапы пути обновления с выделением этапа готовности пользователя](media/upgrade-banner-user-readiness.png "Этапы пути обновления с акцентом на этапе готовности пользователей")
 
-Эта статья является частью этапа подготовки пользователей в пути обновления— мероприятия, которое вы завершаете параллельно с этапом технической готовности. Прежде чем при этом подтверждать, что вы выполнили эти действия на предыдущих этапах:
+Эта статья является частью этапа подготовки пользователей в пути обновления — действия, которое вы завершаете параллельно с этапом технической готовности. Прежде чем при этом подтверждать, что вы выполнили эти действия на предыдущих этапах:
 
 - [Привлечение заинтересованных лиц проекта](upgrade-enlist-stakeholders.md)
-- [Определение области проекта](https://aka.ms/SkypetoTeams-Scope)
-- [Понимание сосуществования и совместной работы Skype для бизнеса и Teams](https://aka.ms/SkypeToTeams-Coexist)
-- [Выбранный путь обновления](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [Определение области проекта](./upgrade-define-project-scope.md)
+- [Понимание сосуществования и совместной работы Skype для бизнеса и Teams](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+- [Вы решили перейти на нее](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
-Оптимальный план подготовки пользователей включает в себя способ взаимодействия, обучения и поддержки пользователей при пилотном проекте, под его подготовке и обновлении до Teams. Как было выявлено в области [оценки](https://aka.ms/OrgReadiness)готовности к изменениям в организации, она не является универсальным решением. Для обеспечения оптимальной восприятия новой технологии используйте сочетание обмена сообщениями с широкими кругами пользователей (включая сообщения о концепции и значении, а также универсальные решения по использованию), а также обмен сообщениями, учебные курсы и поддержку с учетом определенных вами людей и других сотрудников, а также, при необходимости, запаздывающих запаздывания. Этот персонализированный план поможет упростить внедрение пользователей, позволяя пользователям быстрее связаться с Teams, продемонстрировав, что вы понимаете их потребности.
+Оптимальный план подготовки пользователей включает в себя способ взаимодействия, обучения и поддержки пользователей при пилотном проекте, под его подготовке и обновлении до Teams. Как было выявлено в области [оценки](./upgrade-org-change-readiness.md)готовности к изменениям в организации, она не является универсальным решением. Для обеспечения оптимальной восприятия новой технологии используйте сочетание обмена сообщениями с широкими кругами пользователей (включая сообщения о концепции и значении, а также универсальные решения по использованию), а также обмен сообщениями, учебные курсы и поддержку с учетом определенных вами людей и других сотрудников, а также, при необходимости, запаздывающих запаздывания. Этот персонализированный план поможет упростить внедрение пользователей, позволяя пользователям быстрее связаться с Teams, продемонстрировав, что вы понимаете их потребности.
 
 > [!Tip]
 > Скачайте [пакет успешного](https://aka.ms/UpgradeSuccessKit) обновления для материалов о готовности шаблона для пользователей, таких как сообщения и опросы пользователей, в дополнение к образцу плана проекта обновления и пилотного плана тестирования.
@@ -52,9 +52,9 @@ ms.locfileid: "49578422"
 <table>
 <tbody>
 <tr><th>Какие каналы связи вы будете использовать?</th><th>Какие каналы обучения вы будете использовать?</th><th>Какие каналы поддержки вы будете использовать?</th></tr>
-<tr><td><ul><li>Email<br><strong>Совет.</strong> Используйте образцы сообщений электронной почты для пилотного проекта, сосуществования и обновления, чтобы настроить свою почтовую кампанию.</li><li>Плакаты и цифровая подпись</li><li>Запуск событий</li><li>Руководители отделов</li><li>Лидеры</li><li>Команды и каналы</li><li>Гаммификация</li></ul></td><td><ul><li><a href="https://aka.ms/teamslivetraining" data-raw-source="[Instructor-led training for Microsoft Teams](https://aka.ms/teamslivetraining)">Обучение с инструктором Майкрософт</a></li><li>Статьи и видео, опубликованные корпорацией Майкрософт</li><li>Ресурсы:<ul><li><a href="https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964" data-raw-source="[Switch to Teams from Skype for Business](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)">Переход на Teams из Skype для бизнеса</a></li><li><a href="https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home" data-raw-source="[Teams Video Training](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home)">Видео обучение по Teams</a></li></ul></li><li>Помощь по продукту (справка)</li><li>Команда обучения на домашних занятиях</li><li>Команда обучения партнеров</li></ul></td><td><ul><li>In-house helpdesk</li><li>Службу технической поддержки со стороны со стороны</li><li>Самообслужка (сайт интрасети)</li><li><a href="https://support.office.com/teams" data-raw-source="[Online help and how-to](https://support.office.com/teams)">Справка в Интернете и по каким-то из них</a></li><li>Этажи и химя</li><li>Цикл обратной связи (опросы, оценки)</li></ul></td></tr>
+<tr><td><ul><li>Email<br><strong>Совет.</strong> Используйте образцы сообщений электронной почты для пилотного проекта, сосуществования и обновления, чтобы настроить свою кампанию электронной почты.</li><li>Плакаты и цифровая подпись</li><li>Запуск событий</li><li>Руководители отделов</li><li>Лидеры</li><li>Команды и каналы</li><li>Гаммификация</li></ul></td><td><ul><li><a href="/microsoftteams/instructor-led-training-teams-landing-page" data-raw-source="[Instructor-led training for Microsoft Teams](./instructor-led-training-teams-landing-page.yml)">Обучение с инструктором Майкрософт</a></li><li>Статьи и видео, опубликованные корпорацией Майкрософт в Интернете</li><li>Ресурсы:<ul><li><a href="https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964" data-raw-source="[Switch to Teams from Skype for Business](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)">Переход на Teams из Skype для бизнеса</a></li><li><a href="https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home" data-raw-source="[Teams Video Training](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home)">Обучающее видео по Teams</a></li></ul></li><li>Помощь по продукту (справка)</li><li>Команда обучения на домашних занятиях</li><li>Команда обучения партнеров</li></ul></td><td><ul><li>In-house helpdesk</li><li>Поддержка со стороны со стороны</li><li>Самообслужка (сайт интрасети)</li><li><a href="https://support.office.com/teams" data-raw-source="[Online help and how-to](https://support.office.com/teams)">Справка в Интернете и по каким-то из них</a></li><li>Этажей и 365- и 365-го.</li><li>Цикл обратной связи (опросы, оценки)</li></ul></td></tr>
 </tbody>
 </table>
 </div>
 
-Создав план подготовки пользователей и связанные ресурсы, а также запланировать техническую подготовку, пере переходите к пилотным [командам в организации.](https://aka.ms/SkypeToTeams-Pilot)
+Создав план подготовки пользователей и связанные ресурсы, а также запланировать техническую подготовку, пере переходите к пилотным [командам в организации.](./pilot-essentials.md)

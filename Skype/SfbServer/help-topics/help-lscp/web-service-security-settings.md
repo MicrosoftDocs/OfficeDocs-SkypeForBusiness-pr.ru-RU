@@ -15,22 +15,21 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4ea30583-e5bd-4498-9bd8-38604c61e658
 description: Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
-ms.openlocfilehash: c5c29bedf59ef74f5d980ede00457d7043cc2d5b
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 02fd406e8dd324be3825d4d842cd625b65162f19
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49810729"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116167"
 ---
 # <a name="web-service-security-settings"></a>Параметры безопасности веб-службы
 
 Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
 
-- [Управление настройками веб-служб в Skype для бизнеса Server 2015](../../manage/authentication/web-service-configuration-settings.md)
+- [Управление настройками веб-службы в Skype для бизнеса Server 2015](../../manage/authentication/web-service-configuration-settings.md)
 
-- [Изменение существующей веб-службы](https://technet.microsoft.com/library/bd9c7aa5-d31c-4fab-b31d-8baae26b1296.aspx)
+- [Изменение существующей веб-службы](/previous-versions/office/lync-server-2013/lync-server-2013-modify-existing-web-service-configuration-settings)
 
-- [Удаление веб-службы](https://technet.microsoft.com/library/c2b96f4c-4b07-48e6-9ca6-55bc0e0cf5a1.aspx)
+- [Удаление веб-службы](/previous-versions/office/lync-server-2013/lync-server-2013-delete-existing-web-service-configuration-settings)
 
-For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).
-
+Сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнес-серверов, см. в материале Управление Skype для бизнеса [Server 2015.](../../manage/manage.md)

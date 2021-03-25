@@ -16,19 +16,19 @@ ms.collection:
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: Узнайте, как настроить комнаты Microsoft Teams, включая планирование, развертывание и управление системой для создания идеальной виртуальной комнаты для собраний.
 ms.custom: seo-marvel-may2020
-ms.openlocfilehash: 15d02a500cd1a10ed1cef8480e1a6c4f363afa2e
-ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
+ms.openlocfilehash: 9bc4de10512cdd69fe4bdeef1514ad6c63033d28
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50726360"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117547"
 ---
 # <a name="microsoft-teams-rooms"></a>Комнаты Microsoft Teams
 
 :::row:::
     :::column span="2":::
        Преобразуя место для собраний, от небольших групп в большие конференц-залы, вы можете использовать, развертывать и управлять ими с помощью teams. <br> 
-       Вовремя начните собрание, присоединитесь одним касанием, а затем мгновенно проецйтесь на экран в комнате и поделитесь им с удаленными участниками.<br> 
+       Вовремя начните собрание, присоединитесь одним нажатием, а затем мгновенно проецйтесь на экран в комнате и поделитесь им с удаленными участниками.<br> 
        Выберите нужные периферийные устройства системы и звука у одного из наших партнеров: Yealink, Logitech, Hp, Polycom, Lenovo и HP.
     :::column-end:::
     :::column:::
@@ -38,7 +38,7 @@ ms.locfileid: "50726360"
 
 |               |               |               |
 | ------------- | ------------- | ------------- |
-|<img src="https://docs.microsoft.com/office/media/icons/list-123-teams.svg" width="40 px" height="40 px" alt="plan icon"> <br> **[Планирование](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-plan)** |<img src="https://docs.microsoft.com/office/media/icons/deploy-teams.svg" width="40 px" height="40 px" alt="deploy icon"> <br> **[Развертывание](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-deploy)** |<img src="https://docs.microsoft.com/office/media/icons/toolbox.svg" width="40 px" height="40 px" alt="manage icon"> <br> **[Управление](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-manage)** |
+|<img src="https://docs.microsoft.com/office/media/icons/list-123-teams.svg" width="40 px" height="40 px" alt="plan icon"> <br> **[Планирование](./rooms-plan.md)** |<img src="https://docs.microsoft.com/office/media/icons/deploy-teams.svg" width="40 px" height="40 px" alt="deploy icon"> <br> **[Развертывание](./rooms-deploy.md)** |<img src="https://docs.microsoft.com/office/media/icons/toolbox.svg" width="40 px" height="40 px" alt="manage icon"> <br> **[Управление](./rooms-manage.md)** |
 
 <br>
 

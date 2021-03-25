@@ -23,12 +23,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: Узнайте, как использовать Центр администрирования Microsoft Teams, чтобы увидеть список всех номеров телефонов в организации и всех номеров, которые назначены пользователям или не назначены.
-ms.openlocfilehash: 61e1fb59ba5b68aeb2ab2af51b2ef91202e43678
-ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
+ms.openlocfilehash: 41eceb3618fae61308b90a88165ce1935ad6b30b
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "49918905"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117237"
 ---
 # <a name="see-a-list-of-phone-numbers-in-your-organization"></a>Просмотр списка телефонных номеров в организации
 
@@ -76,7 +76,7 @@ ms.locfileid: "49918905"
 
    - **Назначено пользователю**
 
-   - **Мост конференц-залов, который назначен** 
+   - **Мост конференций, который назначен мосту конференц-зала** 
 
    - **Ненаписано**
 
@@ -107,31 +107,31 @@ ms.locfileid: "49918905"
 
 ## <a name="using-the-teams-powershell-module"></a>Использование модуля Teams PowerShell
 
-С помощью модуля Teams PowerShell можно получить те же сведения из предыдущих разделов, но для этого требуется версия 1.1.6 или более поздней версии, которая включает интеграцию соединитела Skype для бизнеса Online. Дополнительные сведения о модуле см. в обзоре [Microsoft Teams PowerShell.](teams-powershell-overview.md)
+С помощью модуля Teams PowerShell можно получить те же сведения из предыдущих разделов, но для этого требуется версия 1.1.6 или более поздней версии, которая включает в себя соединитель Skype для бизнеса Online. Дополнительные сведения о модуле см. в обзоре [Microsoft Teams PowerShell.](teams-powershell-overview.md)
 
-Список всех номеров телефонов для организации можно увидеть с помощью [cmdlet Get-CsOnlineTelephoneNumber.](https://docs.microsoft.com/powershell/module/skype/get-csonlinetelephonenumber) Например, чтобы увидеть номер телефона и его состояние, можно выполнить следующую команду:
+Список всех номеров телефонов для организации можно увидеть с помощью [cmdlet Get-CsOnlineTelephoneNumber.](/powershell/module/skype/get-csonlinetelephonenumber) Например, чтобы увидеть номер телефона и его состояние, можно выполнить следующую команду:
 
 ```PowerShell
 Get-CsOnlineTelephoneNumber | ft Id,ActivationState
 ```
 
-Вы можете увидеть все телефонные номера, которые назначены пользователям, с помощью cmdlet [Get-CsOnlineUser.](https://docs.microsoft.com/powershell/module/skype/get-csonlineuser) Например, чтобы увидеть всех пользователей с назначенным номером телефона, можно выполнить следующую команду:
+Вы можете увидеть все телефонные номера, которые назначены пользователям, с помощью cmdlet [Get-CsOnlineUser.](/powershell/module/skype/get-csonlineuser) Например, можно выполнить следующую команду, чтобы увидеть всех пользователей с номером телефона:
 
 ```PowerShell
 Get-CsOnlineUser | Where-Object  { $_.LineURI -notlike $null } | ft DisplayName,UserPrincipalName,LineURI
 ```
 
 ## <a name="related-topics"></a>См. также:
-[Общие вопросы по передаче номеров телефонов](/microsoftteams/transferring-phone-numbers-common-questions)
+[Общие вопросы по передаче номеров телефонов](./phone-number-calling-plans/port-order-overview.md)
 
-[Типы номеров телефонов, используемые в планах звонков](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
+[Типы номеров телефонов, используемые в планах звонков](./different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
 [Управление номерами телефонов организации](/microsoftteams/manage-phone-numbers-for-your-organization)
 
-[Условия и положения, распространяющиеся на экстренные вызовы](/microsoftteams/emergency-calling-terms-and-conditions)
+[Условия и положения, распространяющиеся на экстренные вызовы](./emergency-calling-terms-and-conditions.md)
 
 [Метка заявление об отказе для экстренных вызовов](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
-[Get-CsOnlineTelephoneNumber](https://docs.microsoft.com/powershell/module/skype/get-csonlinetelephonenumber)
+[Get-CsOnlineTelephoneNumber](/powershell/module/skype/get-csonlinetelephonenumber)
   
-[Get-CsOnlineUser](https://docs.microsoft.com/powershell/module/skype/get-csonlineuser)
+[Get-CsOnlineUser](/powershell/module/skype/get-csonlineuser)

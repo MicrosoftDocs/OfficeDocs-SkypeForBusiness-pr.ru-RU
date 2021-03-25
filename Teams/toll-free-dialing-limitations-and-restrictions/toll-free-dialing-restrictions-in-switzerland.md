@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Это поможет вам узнать, как звонить на бесплатные номера в каждой стране или регионе. После выбора страны или региона вы будете перена границу страницы с подробными сведениями, ограничениями и ограничениями на доступность бесплатных служб, на которых доступна бесплатная служба. Форматы набора показывают коды доступа, необходимые для набора бесплатного номера в каждой стране или регионе.
-ms.openlocfilehash: fad581272b1470fec0fe061a41759aa325e27fc9
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: e88142c4eeb6fa7052e12105fe3191019bc19be4
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49802339"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116607"
 ---
 # <a name="toll-free-dialing-restrictions-in-switzerland"></a>Ограничения на бесплатный набор номеров в Швейцарии
 
@@ -49,4 +49,4 @@ ms.locfileid: "49802339"
 
 [Ограничения и запреты для бесплатных номеров](../toll-free-dialing-limitations-and-restrictions.md)
 
-[Получение номеров телефонов служб](/microsoftteams/getting-service-phone-numbers)
+[Получение номеров телефонов служб](../getting-service-phone-numbers.md)

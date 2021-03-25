@@ -1,5 +1,5 @@
 ---
-title: Пользователи назначают политики
+title: Назначение политик пользователями
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,34 +15,33 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f36a2699-5cf6-4995-9f6d-ec3519ca0903
 description: Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
-ms.openlocfilehash: b8fd3f9c3b24c6a92f7a53490f325950203f939d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 2a23ccb2ac70f04ec28b9f9205b7d61a8db3dfa9
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49826749"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51115227"
 ---
 # <a name="users-assign-policies"></a>Пользователи: назначение политик
 
 Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
 
-- [Назначение политики проведения собраний для изменения пользовательского интерфейса собрания по умолчанию](https://technet.microsoft.com/library/72f12c72-65f7-44fe-ab81-0f57cb2f87d1.aspx)
+- [Назначение политики конференций для изменения пользовательского интерфейса собрания по умолчанию](/previous-versions/office/lync-server-2013/lync-server-2013-assign-a-per-user-conferencing-policy)
 
-- [Указание версий клиентов, поддерживаемых пользователем при входе](https://technet.microsoft.com/library/f7e8ba2f-62dc-4e7d-8b63-682986f10240.aspx)
+- [Укажите клиентские версии, поддерживаемые для входной записи пользователем](/previous-versions/office/lync-server-2013/lync-server-2013-assign-a-per-user-client-version-policy)
 
-- [Назначение политики ПИН-кодов на пользователя в Skype для бизнеса Server 2015](../../manage/authentication/assign-a-per-user-pin-policy.md)
+- [Назначение политики ПИН-кода для каждого пользователя в Skype для бизнеса Server 2015](../../manage/authentication/assign-a-per-user-pin-policy.md)
 
-- [Настройка федерации, удаленного доступа пользователей и подключения к общедоступным мгновенным данным для пользователей](https://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
+- [Настройка федерации, удаленного доступа к пользователю и общедоступных подключений к чату для пользователей](/previous-versions/office/lync-server-2013/lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user)
 
-- [Настройка архива сообщений пользователя](https://technet.microsoft.com/library/a12ca483-b235-460f-b3fe-130fb3087264.aspx)
+- [Настройка архива сообщений пользователя](/previous-versions/office/lync-server-2013/lync-server-2013-assign-a-per-user-archiving-policy)
 
-- [Назначение политики расположения пользователю](https://technet.microsoft.com/library/343f2de3-a0ae-4403-8456-6e520b579d32.aspx)
+- [Назначение политики расположения пользователю](/previous-versions/office/lync-server-2013/lync-server-2013-assign-a-per-user-location-policy)
 
-- [Настройка телефонии для пользователей](https://technet.microsoft.com/library/4546432e-c839-4517-a2c5-bc0d4d8c6a03.aspx)
+- [Настройка телефонии для пользователей](/previous-versions/office/lync-server-2013/lync-server-2013-configure-telephony-for-a-user)
 
-- [Назначение политики мобильности уровня пользователя](https://technet.microsoft.com/library/d8bf997f-4bc7-48d3-973b-323505f55e9d.aspx)
+- [Назначение политики мобильности уровня пользователя](/previous-versions/office/lync-server-2013/lync-server-2013-assign-a-per-user-mobility-policy)
 
-- [Назначение политики сохраняемого сеанса беседы уровня пользователя](https://technet.microsoft.com/library/e22168f2-fde1-4f0a-b194-1fc881436822.aspx)
+- [Назначение политики сохраняемого сеанса беседы уровня пользователя](/previous-versions/office/lync-server-2013/lync-server-2013-assign-a-per-user-persistent-chat-policy)
 
-For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).
-
+Сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнес-серверов, см. в материале Управление Skype для бизнеса [Server 2015.](../../manage/manage.md)

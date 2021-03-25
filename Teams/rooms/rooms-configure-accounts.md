@@ -15,18 +15,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: В этой теме вы узнаете о настройке учетных записей для комнат Microsoft Teams в Exchange и Skype для бизнеса.
-ms.openlocfilehash: e171ef22dd1733c06b03a4a9483f591d73d70cb9
-ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
+ms.openlocfilehash: 26879b2c07b859e65255ed84bedd4897b75d5caa
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49662524"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117477"
 ---
 # <a name="configure-accounts-for-microsoft-teams-rooms"></a>Настройка учетных записей для комнат Microsoft Teams
  
-В этой теме вы узнаете о комнатах Microsoft Teams и их интеграции с Exchange и Skype для бизнеса.
+Из этой темы вы узнаете о комнатах Microsoft Teams и их интеграции с Exchange и Skype для бизнеса.
   
-В этой теме поводится о том, как создавать учетные записи, используемые комнатами Microsoft Teams в Microsoft Exchange и Skype для бизнеса. Инструкции по развертыванию для устройств с комнатами Microsoft Teams можно настроить в консоли [для комнат Microsoft Teams.](console.md) В большинстве случаев конфигурацию инфраструктуры можно отнести к одной из следующих категорий.
+В этой теме поется о том, как создавать учетные записи, используемые комнатами Microsoft Teams в Microsoft Exchange и Skype для бизнеса. Инструкции по развертыванию для устройств с комнатами Microsoft Teams можно настроить в консоли [для комнат Microsoft Teams.](console.md) В большинстве случаев конфигурацию инфраструктуры можно отнести к одной из следующих категорий.
   
 - Развертывание в Интернете: среда организации полностью развернута на Microsoft 365 или Office 365. Дополнительные сведения см. в сведениях о развертывании [комнат Microsoft Teams с Microsoft 365 или Office 365.](with-office-365.md)
     
@@ -60,7 +60,7 @@ ms.locfileid: "49662524"
   
 Если у вас уже есть учетная запись почтового ящика ресурса, настроенная для места собрания, в котором вы устанавливаете комнаты Microsoft Teams, вы можете сделать эту учетную запись ресурса учетной записью устройства. После этого вам нужно только добавить учетную запись устройства на устройство комнат Microsoft Teams. Примеры настройки учетной записи устройства см. ниже.
   
-Благодаря дополнительной конфигурации удаленное управление возможно с помощью microsoft Azure Monitor, как описано в описании в плане управления комнатами Microsoft Teams с помощью [Azure Monitor,](azure-monitor-plan.md)развертывание управления комнатами Microsoft Teams с помощью [Azure Monitor](azure-monitor-deploy.md)и управление устройствами комнат Microsoft Teams с помощью Azure [Monitor.](azure-monitor-manage.md) 
+Благодаря дополнительной конфигурации удаленное управление можно использовать в Microsoft Azure Monitor, как описано в описании в плане управления комнатами Microsoft Teams с помощью [Azure Monitor,](azure-monitor-plan.md)развертывание управления комнатами Microsoft Teams с помощью [Azure Monitor](azure-monitor-deploy.md)и управление устройствами комнат Microsoft Teams с помощью Azure [Monitor.](azure-monitor-manage.md) 
   
 ## <a name="basic-configuration"></a>Базовая конфигурация
 
@@ -82,7 +82,7 @@ ms.locfileid: "49662524"
    
 Самый простой способ настроить учетные записи устройств — настроить их с помощью удаленного Windows PowerShell. Корпорация Майкрософт [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), сценарий, который помогает создавать новые учетные записи устройств или проверять имеющиеся у вас учетные записи ресурсов, чтобы превратить их в совместимые учетные записи устройства комнат Microsoft Teams.
   
-Если вы предпочитаете использовать пользовательский интерфейс Microsoft 365 или Office 365 Windows PowerShell с помощью Windows PowerShell, некоторые действия можно выполнить вручную. См. [создание учетной записи устройства с помощью Microsoft 365 или Office 365.](https://docs.microsoft.com/surface-hub/create-a-device-account-using-office-365)
+Если вы предпочитаете использовать пользовательский интерфейс Microsoft 365 или Office 365 Windows PowerShell с помощью Windows PowerShell, некоторые действия можно выполнить вручную. См. [создание учетной записи устройства с помощью Microsoft 365 или Office 365.](/surface-hub/create-a-device-account-using-office-365)
   
 ## <a name="see-also"></a>См. также
 
@@ -91,4 +91,3 @@ ms.locfileid: "49662524"
 [Настройка консоли комнат Microsoft Teams](console.md)
   
 [Управление комнатами Microsoft Teams](rooms-manage.md)
-

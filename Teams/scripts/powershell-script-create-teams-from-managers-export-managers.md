@@ -7,7 +7,7 @@ ms.topic: article
 ms.reviewer: brandber
 ms.service: msteams
 audience: admin
-description: Используйте этот сценарий PowerShell, чтобы экспортировать список руководителей и их руководителей для организации, чтобы подготовиться к созданию команды для каждого руководителя со своими непосредственно членами.
+description: Используйте этот сценарий PowerShell, чтобы экспортировать список руководителей и их руководителей для организации, чтобы подготовиться к созданию команды для каждого руководителя, управлия его участниками.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d9e7b35710811438f1435306ce08b487b490d472
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: a7f2217bc39ead0abec48dafb75ff3f846681f20
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583126"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117317"
 ---
 # <a name="powershell-script-sample---export-managers-and-their-directs"></a>Пример сценария PowerShell: диспетчеры экспорта и их руководители
 
@@ -29,7 +29,7 @@ ms.locfileid: "46583126"
 
 Чтобы узнать об этом сценарии PowerShell, прочитайте статью ["Создание групп диспетчера людей".](../create-manager-directs-teams.md)
 
-Если вы новичок в PowerShell и вам требуется помощь, см. раздел [Общие сведения об Azure PowerShell](https://docs.microsoft.com/powershell/azure/overview?view=azurermps-5.1.1).
+Если вы новичок в PowerShell и вам требуется помощь, см. раздел [Общие сведения об Azure PowerShell](/powershell/azure/overview?view=azurermps-5.1.1).
 
 
 ## <a name="export-managers-script"></a>Export-Managers сценария
@@ -142,5 +142,3 @@ Write-Host -ForegroundColor Green "$(Get-Timestamp) Exported tab delimited outpu
 
 
 ```
-
-

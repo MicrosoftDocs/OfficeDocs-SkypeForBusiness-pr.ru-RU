@@ -1,5 +1,5 @@
 ---
-title: Создание новых или редактирование существующих федераированных партнеров XMPP
+title: XMPP Federated Partners Create New or Edit Existing
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,20 +15,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7a14552e-96b0-4a3d-bb9b-4813c97dd8e1
 description: Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
-ms.openlocfilehash: 2db96a3063ca019a8709d7d50cef5b28aea8f682
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 10c3c782ad824c46cf343ec611bcc70e79bdcd78
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49810709"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116157"
 ---
 # <a name="xmpp-federated-partners-create-new-or-edit-existing"></a>Федеративные партнеры XMPP: создание новых или редактирование существующих
 
 Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
 
-- [Создание или изменение конфигурации XMPP-партнера](https://technet.microsoft.com/library/362dbe5e-8ee9-4aba-8c26-5907312b4a60.aspx)
+- [Создание или изменение конфигурации XMPP-партнера](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-edit-xmpp-partner-configuration)
 
-- [Таблица параметров согласования для федераированных партнеров XMPP](https://technet.microsoft.com/library/ef773942-ef92-4f71-85a1-738dfebdfa00.aspx)
+- [Таблица параметров переговоров для федераированных партнеров XMPP](/previous-versions/office/lync-server-2013/lync-server-2013-negotiation-settings-for-xmpp-federated-partners)
 
-For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).
-
+Сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнес-серверов, см. в материале Управление Skype для бизнеса [Server 2015.](../../manage/manage.md)
