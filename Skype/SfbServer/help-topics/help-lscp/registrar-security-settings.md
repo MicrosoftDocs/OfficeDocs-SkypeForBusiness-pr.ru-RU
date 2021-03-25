@@ -15,22 +15,21 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dd3c9b37-607e-445f-9e15-b6c92adcfb87
 description: Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
-ms.openlocfilehash: 2bac87964339e8da2dcc3f60da11f073e513992c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 2fb232fb8171f8887bf7a1756123cf6fb282cf26
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49819199"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120981"
 ---
 # <a name="registrar-security-settings"></a>Параметры безопасности регистратора
 
 Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
 
-- [Управление настройками регистратора в Skype для бизнеса Server 2015](../../manage/authentication/registrar-configuration-settings.md)
+- [Управление настройками реестра в Skype для бизнеса Server 2015](../../manage/authentication/registrar-configuration-settings.md)
 
-- [Изменение существующего регистратора](https://technet.microsoft.com/library/a8931511-3e66-49ed-a3ec-03bcd61ce1f0.aspx)
+- [Изменение существующего регистратора](/previous-versions/office/lync-server-2013/lync-server-2013-modify-existing-registrar-configuration-settings)
 
-- [Удаление регистратора](https://technet.microsoft.com/library/ae43cd75-cae4-4f78-b037-779a2cdb583b.aspx)
+- [Удаление регистратора](/previous-versions/office/lync-server-2013/lync-server-2013-delete-existing-registrar-configuration-settings)
 
-For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).
-
+Сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнес-серверов, см. в материале Управление Skype для бизнеса [Server 2015.](../../manage/manage.md)

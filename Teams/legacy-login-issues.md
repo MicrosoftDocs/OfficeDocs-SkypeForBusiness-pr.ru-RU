@@ -13,18 +13,18 @@ ms.collection:
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Устранение неполадок, связанных с получением сообщений и вызовов в устаревших системах
+description: Устранение неполадок, связанных с получением сообщений и звонков в устаревших системах
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: af7845b5fd6d50d63be6cd21749cbfedc7669fcf
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: 1c209d1acc83e63792722b00b63be5a6b9f3721a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085155"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120610"
 ---
-<a name="issues-receiving-messages-and-calls-on-legacy-systems"></a>Проблемы с получением сообщений и звонков в устаревших системах
+<a name="issues-receiving-messages-and-calls-on-legacy-systems"></a>Проблемы с получением сообщений и вызовов в устаревших системах
 ==============================================================
 
 У пользователей могут возникнуть проблемы с получением сообщений или звонков, если они используют более старые версии Teams или вошли в другие приложения.
@@ -49,4 +49,4 @@ ms.locfileid: "45085155"
 
 ## <a name="related-topics"></a>Статьи по теме
 
-[Устранение неполадок Teams](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
+[Устранение неполадок Teams](/MicrosoftTeams/troubleshoot/teams)

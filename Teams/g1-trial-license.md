@@ -15,27 +15,27 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4bdfdfb180005913b650cee27c350cf7c3ad5a27
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: f49adc03e8bb7481fa6cd682a2dcc401d783c0e3
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583226"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120740"
 ---
 <a name="manage-the-office-365-g1-trial-for-us-government"></a>Управление пробной версией Office 365 G1 для государственных учреждений США 
 ==============================
 
-С 1 июля 2020 г. лицензия на пробную версию Office 365 E1 больше не доступна. Если вам нужно лицензировать пользователей для использования Microsoft Teams, см. статью [Описание службы Microsoft Teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description), где приведен список платных подписок, включающих Teams. 
+С 1 июля 2020 г. лицензия на пробную версию Office 365 E1 больше не доступна. Если вам нужно лицензировать пользователей для использования Microsoft Teams, см. статью [Описание службы Microsoft Teams](/office365/servicedescriptions/teams-service-description), где приведен список платных подписок, включающих Teams. 
 
 Используйте инструкции, приведенные в этой статье, для управления существующими лицензиями на пробную версию Office 365 G1, в том числе для [обновления до платной подписки](#upgrade-users-from-the-office-365-g1-trial-license). Подробнее см. в разделах [Планы Microsoft 365 для государственных учреждений](https://www.microsoft.com/microsoft-365/government/compare-office-365-government-plans) и [Возможности Microsoft Teams, доступные в облаке GCC](plan-for-government-gcc.md).
 
-Не пропустите наши рекомендации по  [поддержке удаленной работы в Teams](support-remote-work-with-teams.md).
+Не пропустите наши рекомендации по [поддержке удаленных сотрудников в Teams](support-remote-work-with-teams.md).
 
 ## <a name="manage-the-g1-trial"></a>Управление пробной версией G1
 
-После активации пробной версии Office 365 G1 включите лицензию для всех пользователей, которым она требуется. Сведения о том, как это сделать, см. в статье  [Управление доступом пользователей к Teams](user-access.md).
+После активации пробной версии Office 365 G1 включите лицензию для всех пользователей, которым она требуется. Сведения о том, как это сделать, см. в статье [Управление доступом пользователей к Teams](user-access.md).
 
-После включения пробной версии G1 для пользователей, которым она требуется, вы сможете управлять ими так же, как управляете пользователями с платной лицензией. Дополнительные сведения см. в статье  [Управление параметрами Teams в организации](enable-features-office-365.md).
+После включения пробной версии G1 для пользователей, которым она требуется, вы сможете управлять ими так же, как управляете пользователями с платной лицензией. Дополнительные сведения см. в статье [Управление параметрами Teams в организации](enable-features-office-365.md).
 
 ### <a name="upgrade-users-from-the-office-365-g1-trial-license"></a>Переход пользователей с пробной лицензии Office 365 G1
 
@@ -54,9 +54,9 @@ ms.locfileid: "46583226"
 > 
 ### <a name="remove-an-office-365-g1-trial-license"></a>Удаление лицензии на пробную версию Office 365 G1
 
-  - Если вы хотите удалить эту лицензию с помощью PowerShell, см. статью  [Использование PowerShell в Office 365 для удаления лицензий из учетных записей пользователей](https://docs.microsoft.com/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell)
+  - Если вы хотите удалить эту лицензию с помощью PowerShell, см. статью [Использование PowerShell в Office 365 для удаления лицензий из учетных записей пользователей](/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell)
 
-  - Если вы хотите удалить эту лицензию на портале администрирования, см. статью  [Удаление пользователя из организации](https://docs.microsoft.com/microsoft-365/admin/add-users/delete-a-user)
+  - Если вы хотите удалить эту лицензию на портале администрирования, см. статью [Удаление пользователя из организации](/microsoft-365/admin/add-users/delete-a-user)
 
 ## <a name="related-topics"></a>Связанные статьи
 

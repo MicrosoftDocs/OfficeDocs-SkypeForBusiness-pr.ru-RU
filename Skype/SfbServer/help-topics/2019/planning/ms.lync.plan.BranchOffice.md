@@ -15,16 +15,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7b9d0779-436f-4965-8110-a41ff4d0302d
 ROBOTS: NOINDEX, NOFOLLOW
-description: Подробные сведения о устойчивости сайта филиала см. в Branch-Site Voice Resiliency.
-ms.openlocfilehash: 070ce04459d774ceb5838ce5d2889750af4586ee
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Подробные сведения о устойчивости филиальных сайтов см. в материале Planning for Branch-Site Voice Resiliency.
+ms.openlocfilehash: ef4abe8dd3743c353f18bc7f032ec8ce43750efe
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49801149"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51121759"
 ---
 # <a name="branch-sites-planning-tool"></a>Сайты филиалов (средство планирования)
 
-Подробные сведения о устойчивости сайта филиала см. в Branch-Site Планировании устойчивости [голосовой почты.](https://technet.microsoft.com/library/67713f57-3ded-4127-ac37-57d8099bf384.aspx)
-
-
+Подробные сведения о устойчивости филиальных сайтов см. в материале [Планирование Branch-Site голосовой устойчивости.](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-branch-site-voice-resiliency)

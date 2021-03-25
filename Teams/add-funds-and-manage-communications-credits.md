@@ -30,12 +30,12 @@ ms.custom:
 - O365P_SFBVoiceCreditAether
 - Licensing
 description: 'Узнайте, как оплатить кредиты на связь (потребление ЗВОНКОВ) для служб Skype для бизнеса и планы, которые будут поддерживать непрерывный доступ пользователей к телефонной системе. '
-ms.openlocfilehash: bb2e237e1bc35c2f3173ea216702c707ba02fcc6
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 4730cf33a11adfa3d1527304ef0adecf2d2209cb
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031065"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51121497"
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>Пополнение средств и управление кредитами на связь
 
@@ -79,7 +79,7 @@ ms.locfileid: "49031065"
 
 Вы также можете увидеть сведения, во входе в Центр администрирования Microsoft 365 и переходить к добавлению подписок на подписки на выставление  >    >  **счета.**
   
-Таблицу с лицензиями, необходимыми для каждой функции, см. в лицензировании [надстройки Microsoft Teams.](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
+Таблицу с лицензиями, необходимыми для каждой функции, см. в лицензировании [надстройки Microsoft Teams.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   
 ## <a name="related-topics"></a>Статьи по теме
 
@@ -88,4 +88,3 @@ ms.locfileid: "49031065"
 - [Настройка облачной голосовой почты — справка для администратора](set-up-phone-system-voicemail.md)
 
 - [Настройка планов звонков](set-up-calling-plans.md) и планов [звонков для Microsoft 365 или Office 365](calling-plans-for-office-365.md)
-

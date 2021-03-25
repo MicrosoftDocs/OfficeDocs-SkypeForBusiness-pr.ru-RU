@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: ''
 audience: admin
 search.appverid: MET150
-description: Узнайте, как легко перейти с бесплатной версии Microsoft Teams на полную версию, приобретя для пользователей план подписки на Microsoft 365 или Office 365.
+description: Узнайте, как легко перейти с бесплатной версии Microsoft Teams на полную версию, купив для пользователей план подписки на Microsoft 365 или Office 365.
 localization_priority: Normal
 f1.keywords:
 - CSH
@@ -20,21 +20,21 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 78fe1c8ad5da4203e5b04330c94c6cdb9914eedc
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 7c4b95081be4c7a0e900099dd4c81a1807a30bfb
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031005"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122163"
 ---
 # <a name="upgrade-microsoft-teams-free-to-subscription-version"></a>Обновление бесплатной версии Microsoft Teams до версии с подпиской
 
 Если в вашей организации используется бесплатная версия Microsoft Teams, вы можете легко перейти на полную версию, купив для пользователей план подписки на Microsoft 365 или Office 365. Полная версия содержит дополнительные возможности Teams, такие как планирование, аудиоконференция, улучшенная администрирование и возможности безопасности, которые не предусмотрены в бесплатной версии. Microsoft 365 и Office 365 объединяют знакомый набор классических приложений Microsoft Office с облачными версиями служб связи и совместной работы нового поколения Майкрософт, включая Exchange Online, SharePoint Online и Office, для эффективной работы пользователей практически из любой точки мира через Интернет. При обновлении Teams ваши существующие данные не будут потеряны; Все ваши команды, каналы, чаты, файлы и разрешения будут вам под силу. 
 
 > [!NOTE]
-> Если у вас уже есть подписка на Microsoft 365 или Office 365, вы можете воспользоваться пробной версией Teams (с корпоративным удостоверением), а не бесплатной. Пробная версия Teams предоставляет полную версию Teams в течение ограниченного времени. Дополнительные сведения см. в предложении для управления коммерческой облачной [пробной версиями Microsoft Teams.](iw-trial-teams.md)
+> Если у вас уже есть подписка на Microsoft 365 или Office 365, вы можете воспользоваться пробной версией Teams (с корпоративным удостоверением), а не бесплатной. Пробная версия Teams предоставляет полную версию Teams в течение ограниченного времени. Дополнительные сведения см. в предложении для управления коммерческой облачной [пробной версиями Microsoft Teams.](./teams-exploratory.md)
 
-## <a name="how-does-teams-free-compare-to-the-full-version-of-teams"></a>Чем Teams (бесплатная версия) сравнивает их с полной версией Teams?
+## <a name="how-does-teams-free-compare-to-the-full-version-of-teams"></a>Чем Teams free сравнивает полную версию Teams?
 
 Teams free предназначен для малого и среднего бизнеса и включает следующие возможности:
 
@@ -68,7 +68,7 @@ Teams free предназначен для малого и среднего би
 - Если вы приобретаете собственный домен, он еще не связан с Azure Active Directory (с помощью пробной подписки или приобретенной подписки на Microsoft 365 или Office 365).
 
 > [!NOTE]
-> Для обновления и переноса данных необходимо приобрести подписку в процессе обновления в приложении Teams. Если вы приобрели Microsoft 365 или Office 365 с Teams, не обновив его, вы не сможете перенести данные, так как у вас уже есть отдельный клиент.
+> Для обновления и переноса данных необходимо приобрести подписку в процессе обновления в приложении Teams. Если вы приобрели Microsoft 365 или Office 365 вместе с Teams, не обновив его, вы не сможете перенести данные, так как у вас уже есть отдельный клиент.
 
 ## <a name="limitations"></a>Ограничения
 
@@ -89,7 +89,7 @@ Teams free предназначен для малого и среднего би
 
 ## <a name="whats-next"></a>Что дальше?
 
-По завершению обновления см. первый шаг к началу работы с [Microsoft Teams](get-started-with-teams-quick-start.md) и поэтапное внедрение [Microsoft Teams](adopt-microsoft-teams-landing-page.md) в организации.
+По завершению обновления см. первый шаг к началу работы с [Microsoft Teams](get-started-with-teams-quick-start.md) и поэтапный подход к внедрению [Teams](adopt-microsoft-teams-landing-page.md) в организации.
 
 ## <a name="more-information"></a>Дополнительные сведения
 
@@ -97,4 +97,3 @@ Teams free предназначен для малого и среднего би
 - Дополнительные сведения об обновлении до полной версии Teams см. в сведениях об обновлении [Teams (бесплатная версия) до Teams.](https://support.office.com/article/Upgrade-from-Teams-free-to-Teams-29475bbd-a34f-4175-9b33-d44430f8ad39)
 - Дополнительные задачи администрирования, связанные с обновлением пользователей, в том числе добавлением лицензий, изменением имен пользователей и назначением временных паролей, см. в записи администраторов, которые переходят с Teams free на платную [подписку.](https://support.office.com/article/for-admins-upgrading-from-teams-free-to-a-paid-subscription-75a95e7f-001e-42d0-a787-ae8b992d5a52)
 - Сведения об управлении Teams free в организации см. в подмногу [бесплатной версии Microsoft Teams.](manage-freemium.md)
-

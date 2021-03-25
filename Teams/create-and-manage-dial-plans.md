@@ -20,13 +20,13 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
-description: Узнайте, как создавать и управлять группами набора Windows PowerShell с помощью Центра администрирования Microsoft Teams или службы Windows PowerShell (телефонные группы для звонков по СТАНП).
-ms.openlocfilehash: 8e1d3a102d762bef29ecd3af7998646239b5f0c2
-ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
+description: Узнайте, как создавать и управлять группами набора Windows PowerShell с помощью Центра администрирования Microsoft Teams или службы Windows PowerShell (наборы телефонных групп для звонков по СТАНП).
+ms.openlocfilehash: 0b2c8c64d1e4e01843c6565d43a07e0ebdb24d71
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50569262"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120811"
 ---
 # <a name="create-and-manage-dial-plans"></a>Создание и использование абонентских групп
 
@@ -41,8 +41,8 @@ ms.locfileid: "50569262"
     ![Снимок экрана: страница добавления для создания набора номера](media/create-dial-plan.png)
 3. В **области сведений о** телефонной линии укажите внешний префикс набора, если пользователям нужно набрать одну или несколько цифр (например, 9), чтобы получить внешнюю линию. Для этого выполните следующие действия:
     1. В поле **внешнего префикса набора** номера введите внешний префикс набора номера. Префикс может быть не более четырех символов (#,*и 0-9).
-    2. Включите **набор номера оптимизированных устройств.** Если указать внешний префикс набора номера, необходимо также включить этот параметр, чтобы применить префикс, чтобы звонки можно было делать за пределами организации.
-4. В **области "Правила нормализации"** настройте и соберите одно или несколько правил [нормализации](what-are-dial-plans.md#normalization-rules) для набора номера. С каждой телефонной планом должно быть связано хотя бы одно правило нормализации.  Для этого сделайте следующее:
+    2. Включите **набор номера на оптимизированных устройствах.** Если вы указали внешний префикс набора номера, необходимо также включить этот параметр, чтобы применить префикс, чтобы звонки можно было делать за пределами организации.
+4. В **правилах нормализации** настройте и соберите одно или несколько правил нормализации [для](what-are-dial-plans.md#normalization-rules) набора. С каждой телефонной планом должно быть связано хотя бы одно правило нормализации.  Для этого сделайте следующее:
     - Чтобы создать новое правило нормализации и связать его с телефонной планом, нажмите кнопку "Добавить" **и** определите правило.
     - Чтобы изменить правило нормализации, которое уже связано с ней, выберите его, щелкнув слева от его имени и нажав кнопку **"Изменить".** Внести нужные изменения и нажмите кнопку **"Сохранить".**
     - Чтобы удалить правило нормализации из набора номера, выберите его, щелкнув слева от имени правила и нажав кнопку **"Удалить".**
@@ -51,7 +51,7 @@ ms.locfileid: "50569262"
     > [!NOTE]
     > Teams проходит по списку правил нормализации сверху вниз и использует первое правило, которое соответствует набратому номеру. Если настроена так, что набрано номер может соответствовать более чем одному правилу нормализации, убедитесь, что более строгие правила отсортировали над менее строгими.
 
-6. Щелкните **Сохранить**.
+6. Нажмите кнопку **Сохранить**.
 7. Если вы хотите проверить набережную, введите номер телефона в области "Тестирование набора номера" и нажмите кнопку **"Проверка".** 
 
 ### <a name="edit-a-dial-plan"></a>Изменение набора номера
@@ -89,7 +89,7 @@ ms.locfileid: "50569262"
   New-CsTenantDialPlan -Identity RedmondDialPlan -Description "Dial Plan for Redmond" -NormalizationRules <pslistmodifier> -ExternalAccessPrefix 9 -SimpleName "Dial-Plan-for-Redmond"
   ```
 
-    Другие примеры и параметры см. в разделе [New-CsTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/new-cstenantdialplan).
+    Другие примеры и параметры см. в разделе [New-CsTenantDialPlan](/powershell/module/skype/new-cstenantdialplan).
     
 - Чтобы изменить параметры существующей телефонной программы, запустите параметров:
     
@@ -98,7 +98,7 @@ ms.locfileid: "50569262"
     -SimpleName "Dial-Plan-for-Redmond"
   ```
 
-    Другие примеры и параметры см. в разделе [Set-CsTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/set-cstenantdialplan).
+    Другие примеры и параметры см. в разделе [Set-CsTenantDialPlan](/powershell/module/skype/set-cstenantdialplan).
     
 - Чтобы добавить пользователей в абонентскую группу, запустите следующую команду:
     
@@ -106,7 +106,7 @@ ms.locfileid: "50569262"
   Grant-CsTenantDialPlan -Identity amos.marble@contoso.com -PolicyName RedmondDialPlan
   ```
 
-    Другие примеры и параметры см. в разделе [Grant-CsTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/grant-cstenantdialplan).
+    Другие примеры и параметры см. в разделе [Grant-CsTenantDialPlan](/powershell/module/skype/grant-cstenantdialplan).
     
 - Чтобы просмотреть параметры абонентской группы, запустите следующую команду:
     
@@ -114,7 +114,7 @@ ms.locfileid: "50569262"
   Get-CsTenantDialPlan -Identity RedmondDialPlan
   ```
 
-    Другие примеры и параметры см. в разделе [Get-CsTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/get-cstenantdialplan?view=skype-ps).
+    Другие примеры и параметры см. в разделе [Get-CsTenantDialPlan](/powershell/module/skype/get-cstenantdialplan?view=skype-ps).
     
 - Чтобы удалить абонентскую группу, запустите следующую команду:
     
@@ -122,7 +122,7 @@ ms.locfileid: "50569262"
   Remove-CsTenantDialPlan -Identity RedmondDialPlan -force
   ```
 
-    Другие примеры и параметры см. в разделе [Remove-CsTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/remove-cstenantdialplan?view=skype-ps).
+    Другие примеры и параметры см. в разделе [Remove-CsTenantDialPlan](/powershell/module/skype/remove-cstenantdialplan?view=skype-ps).
     
 - Чтобы просмотреть параметры действующей абонентской группы, запустите следующую команду:
     
@@ -130,7 +130,7 @@ ms.locfileid: "50569262"
   Get-CsEffectiveTenantDialPlan -Identity amos.marble@contoso.com
   ```
 
-    Другие примеры и параметры см. в разделе [Get-CsEffectiveTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/get-cseffectivetenantdialplan).
+    Другие примеры и параметры см. в разделе [Get-CsEffectiveTenantDialPlan](/powershell/module/skype/get-cseffectivetenantdialplan).
     
 - Для проверки действующих параметров абонентской группы запустите следующую команду:
     
@@ -138,7 +138,7 @@ ms.locfileid: "50569262"
   Test-CsEffectiveTenantDialPlan -DialedNumber 14255550199 -Identity amos.marble@contoso.com
   ```
 
-    Другие примеры и параметры см. в разделе [Test-CsEffectiveTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/test-cseffectivetenantdialplan?view=skype-ps).
+    Другие примеры и параметры см. в разделе [Test-CsEffectiveTenantDialPlan](/powershell/module/skype/test-cseffectivetenantdialplan?view=skype-ps).
     
 #### <a name="using-a-powershell-script"></a>С помощью скрипта PowerShell
 
@@ -187,7 +187,7 @@ Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{remove=$nr1
 Get-CsOnlineUser | Where-Object {$_.TenantDialPlan -eq "RedmondDialPlan"}
 ```
 
-Запустите этот запуск, чтобы удалить все назначенное tenantDialPlan для всех пользователей, у которых есть sipfed.online.lync.com.
+Запустите этот запуск, чтобы удалить все назначенные TenantDialPlan для всех пользователей, у которых есть sipfed.online.lync.com.
 ```PowerShell
 Get-CsOnlineUser -Filter {HostingProvider -eq "sipfed.online.lync.com"} | Grant-CsTenantDialPlan -policyname $null
 ```
@@ -220,7 +220,7 @@ New-CsTenantDialPlan -Identity $dp.SimpleName -ExternalAccessPrefix $dp.External
 ## <a name="related-topics"></a>Статьи по теме
 
 - [Что такое абонентские группы?](what-are-dial-plans.md)
-- [Общие вопросы по передаче номеров телефонов](transferring-phone-numbers-common-questions.md)
+- [Общие вопросы по передаче номеров телефонов](./phone-number-calling-plans/port-order-overview.md)
 - [Типы номеров телефонов, используемые в планах звонков](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 - [Управление номерами телефонов организации](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 - [Условия и положения, распространяющиеся на экстренные вызовы](emergency-calling-terms-and-conditions.md)

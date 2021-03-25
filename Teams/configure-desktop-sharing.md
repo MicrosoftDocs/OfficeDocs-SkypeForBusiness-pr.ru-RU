@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d75e540de7e40206f0b1dd15e26adc62d6f6baa7
-ms.sourcegitcommit: d27b97f012d0cb3f1690d3673d50bbaa0caae16f
+ms.openlocfilehash: 56ee2c83827c25da5b16cc3f7c2725a3daf815c2
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "47652480"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51121517"
 ---
 <a name="configure-desktop-sharing-in-microsoft-teams"></a>Настройка общего доступа к рабочему столу в Microsoft Teams
 ============================================
@@ -57,7 +57,7 @@ ms.locfileid: "47652480"
     ![Параметры режима общего доступа](media/configure-desktop-sharing-image3.png)
 
   > [!Note]
-  > Вам не нужно включить политику звонков, чтобы пользователи могли использовать доступ к экрану из чата. Однако звук отключается, пока он не включит свой звук. Кроме того, пользователь, который общий доступ к экрану, может нажать кнопку **"Добавить звук",** чтобы включить звук. Если политика звонков отключена, пользователи не смогут добавлять звук к экрану во время сеанса чата.
+  > Вам не нужно включить политику звонков, чтобы пользователи могли использовать доступ к экрану из чата. Однако звук отключается, пока он не включит свой звук. Кроме того, пользователь, который общий доступ к экрану, может нажать кнопку "Добавить **звук",** чтобы включить звук. Если политика звонков отключена, пользователи не смогут добавлять звук к экрану во время сеанса чата.
 
 5. Включите или выключите следующие параметры:
 
@@ -71,7 +71,7 @@ ms.locfileid: "47652480"
 
 ## <a name="use-powershell-to-configure-shared-desktop"></a>Используйте PowerShell для настройки общего рабочего стола
 
-Вы также можете использовать командлет [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) для управления общим доступом к рабочему столу. Установите следующие параметры:
+Вы также можете использовать командлет [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) для управления общим доступом к рабочему столу. Установите следующие параметры:
 
 - Описание
 - ScreenSharingMode
@@ -82,4 +82,4 @@ ms.locfileid: "47652480"
 - AllowWhiteboard
 - AllowSharedNotes
 
-[Подробнее об использовании командлета csTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps).
+[Подробнее об использовании командлета csTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps).

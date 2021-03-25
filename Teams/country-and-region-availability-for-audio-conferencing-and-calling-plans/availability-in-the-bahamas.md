@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Вот службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Багамов.
-ms.openlocfilehash: f04d92fc66bed6be30d23171a765511023d7b3c8
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: e0e0e72ba3e3c1ffded7689b20efddd2ff5e9468
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49831324"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51121467"
 ---
 # <a name="availability-in-the-bahamas"></a>Доступность на Багамах
 
@@ -43,7 +43,7 @@ ms.locfileid: "49831324"
 |:-----|:-----|
 |Доступно ли приобретение аудиоконференций?  <br/> |Да, только с [поминутной оплатой](../audio-conferencing-pay-per-minute.md)  <br/> |
 |Номера телефонов автоматически назначаются для аудио конференций?  <br/> | Нет |
-|Возможность дозвона с помощью функции «Позвони мне»  <br/> | Требуются кредиты связи <br/> |
+|Возможность получить обратный звонок с функцией "Звонок на мой номер"  <br/> | Требуются кредиты связи <br/> |
    
 ## <a name="phone-system"></a>Телефонная система
 
@@ -62,7 +62,7 @@ ms.locfileid: "49831324"
 |Доступные минуты для планов звонков  <br/> |Неприменимо  <br/> |
 |Кому можно делать исходящие звонки?  <br/> |Неприменимо  <br/> |
 
-Если планы звонков недоступны для приобретения, можно использовать [прямую маршрутизаку.](../direct-routing-landing-page.md) Благодаря прямой маршрутизации вы можете использовать телефонную систему практически с любым оператором телефонной связи.
+Если планы звонков недоступны для приобретения, можно использовать [прямую маршрутику.](../direct-routing-landing-page.md) Благодаря прямой маршрутизации вы можете использовать телефонную систему практически с любым оператором телефонной связи.
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Платные и бесплатные номера для служб
 
@@ -72,7 +72,7 @@ ms.locfileid: "49831324"
 |Доступны ли платные номера?  <br/> |Нет <br/> |
 |Доступны ли бесплатные номера? <br/> | Да  <br/> |
    
- Если вы хотите получить платные и бесплатные номера телефонов для аудиоконференций, автоотетарей и очередей звонков, см. получение номеров телефонов служб для Skype для бизнеса и [Microsoft Teams.](/microsoftteams/getting-service-phone-numbers)
+ Если вы хотите получить платные и бесплатные номера телефонов для аудиоконференции, автоотетаря и очередей звонков, см. в этом видео. [](../getting-service-phone-numbers.md)
   
 ## <a name="communications-credits"></a>Кредиты на связь
 
@@ -84,6 +84,6 @@ ms.locfileid: "49831324"
   
 ## <a name="related-topics"></a>Статьи по теме
 
-[Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
+[Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](../getting-service-phone-numbers.md)
 
 [Доступность аудиоконференций и планов звонков в различных странах и регионах](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

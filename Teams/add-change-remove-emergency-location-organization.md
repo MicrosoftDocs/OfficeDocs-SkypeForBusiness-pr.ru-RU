@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 'Узнайте, как добавить, изменить или удалить расположение для экстренного устранения экстренных служб для вашей организации в Центре администрирования Microsoft Teams. '
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: a470a75d367bc47d4063a2a99171a4a09e052fca
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: b918cbcbebf8edb2cd54d08e0e4a3177867fa623
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49799949"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51121527"
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>Добавление, изменение и удаление местоположения организации для экстренного реагирования
 
@@ -31,9 +31,9 @@ ms.locfileid: "49799949"
 
 Независимо от страны и региона вы можете добавить место или место в местоположение для экстренного помощи и удалить его. В зависимости от числа физических мест в организации можно создавать расположения для зданий, этажей и офисов. См. [управление экстренным вызовом.](what-are-emergency-locations-addresses-and-call-routing.md)
   
-Чтобы узнать, как получить план звонков и сколько они стоят, см. лицензирование [надстройки Teams.](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
+Чтобы узнать, как получить план звонков и сколько они стоят, см. лицензирование [надстройки Teams.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 
-Вы управляете местоположениями в организации в Центре администрирования Microsoft Teams или с помощью PowerShell.
+Вы управляете местоположениями для экстренного помощи в организации в Центре администрирования Microsoft Teams или с помощью PowerShell.
   
 ## <a name="add-an-emergency-location"></a>Добавление местоположения для экстренного помощи
 
@@ -48,11 +48,11 @@ ms.locfileid: "49799949"
    > В Бельгии, Франции, Германии, Ирландии, Нидерландах и Испании важно понимать, что для успешной активации номера телефона в Microsoft 365 или Office 365 адрес, за используемый для получения номера, должен соответствовать коду города.
 
 5. Если адрес не найден и вы хотите изменить его вручную, включите редактирование **адреса вручную.**
-6. Щелкните **Сохранить**.
+6. Нажмите кнопку **Сохранить**.
 
 ### <a name="using-powershell"></a>С помощью PowerShell
 
-См. [new-CsOnlineLisCivicAddress.](https://docs.microsoft.com/powershell/module/skype/new-csonlineliscivicaddress)
+См. [new-CsOnlineLisCivicAddress.](/powershell/module/skype/new-csonlineliscivicaddress)
     
 ## <a name="change-an-emergency-location"></a>Изменение местоположения для экстренного реагирования
 
@@ -61,14 +61,14 @@ ms.locfileid: "49799949"
 1. В левой области навигации Центра администрирования Microsoft Teams щелкните **адреса** для экстренного  >  **устранения экстренных служб.**
 2. В списке выберите расположение, которое вы хотите изменить, и нажмите кнопку **"Изменить".**
 3. Внести нужные изменения.
-4. Щелкните **Сохранить**.
+4. Нажмите кнопку **Сохранить**.
 
 > [!NOTE]
 > Вы можете изменить адрес расположения, только если адрес не проверен. Если адрес уже проверен и вам нужно изменить его, удалите расположение, а затем создайте новое расположение с правильным адресом.
 
 ### <a name="using-powershell"></a>С помощью PowerShell
 
-См. [set-CsOnlineLisCivicAddress.](https://docs.microsoft.com/powershell/module/skype/set-csonlineliscivicaddress)
+См. [set-CsOnlineLisCivicAddress.](/powershell/module/skype/set-csonlineliscivicaddress)
     
 ## <a name="remove-an-emergency-location"></a>Удаление местоположения для экстренного устранения
 
@@ -79,11 +79,11 @@ ms.locfileid: "49799949"
 
 ### <a name="using-powershell"></a>С помощью PowerShell
 
-См. [remove-CsOnlineLisCivicAddress.](https://docs.microsoft.com/powershell/module/skype/remove-csonlineliscivicaddress)
+См. [remove-CsOnlineLisCivicAddress.](/powershell/module/skype/remove-csonlineliscivicaddress)
 
 ## <a name="related-topics"></a>Статьи по теме
 
 - [Управление экстренным вызовом](what-are-emergency-locations-addresses-and-call-routing.md)
 - [Добавление, изменение и удаление места для расположения для экстренного реагирования для организации](add-change-remove-emergency-place-organization.md)
 - [Управление номерами телефонов организации](/microsoftteams/manage-phone-numbers-for-your-organization)
-- [Условия и положения, распространяющиеся на экстренные вызовы](/microsoftteams/emergency-calling-terms-and-conditions)
+- [Условия и положения, распространяющиеся на экстренные вызовы](./emergency-calling-terms-and-conditions.md)

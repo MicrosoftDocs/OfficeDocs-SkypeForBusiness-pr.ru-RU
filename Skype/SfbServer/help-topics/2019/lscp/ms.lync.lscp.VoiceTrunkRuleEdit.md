@@ -1,5 +1,5 @@
 ---
-title: Создание или изменение существующего правила трансляции
+title: Правило перевода Создать новые или изменить существующие
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,20 +15,17 @@ localization_priority: Normal
 ms.assetid: ff701979-9ea9-4ae8-a2da-91c4e1d97c25
 ROBOTS: NOINDEX, NOFOLLOW
 description: Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
-ms.openlocfilehash: fb4f96cf64896aa30b027c59a747828cd6021ccb
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 74955797a104841aca77ff533e55523edc56511e
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49824529"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51121799"
 ---
 # <a name="translation-rule-create-new-or-edit-existing"></a>Правило преобразования: создание нового или редактирование существующего
 
 Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
 
-- [Create or modify a translation rule for called ID presentation in Skype for Business Server](../../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
+- [Создание или изменение правила перевода для так называемой презентации ID в Skype для бизнеса Server](../../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
 
-- [Создание или изменение правила преобразования вручную](https://technet.microsoft.com/library/049d1db3-af58-48c5-be89-52e1d068a4bd.aspx)
-
-
-
+- [Создание или изменение правила преобразования вручную](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-a-translation-rule-manually)

@@ -1,5 +1,5 @@
 ---
-title: Пример дела с голосовой почтой Contoso в Teams
+title: Пример дела с голосовой командой Contoso
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -16,16 +16,16 @@ f1.keywords:
 description: Пример голосовой работы Teams для многоязычной корпорации
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f58f3518202fd836ff962374e8f3b3a00ab71817
-ms.sourcegitcommit: af15d99837a389b6b26952211e65cd68c4b7f46e
+ms.openlocfilehash: 085c9994bc2522d1ab56abc1670113e22d35f642
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "44786114"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51121307"
 ---
-# <a name="contoso-case-study-audio-conferencing"></a>Пример работы с Contoso: аудиоконференция
+# <a name="contoso-case-study-audio-conferencing"></a>Пример: аудиоконференция в Contoso
 
-Чтобы получить общее представление об аудиоконференциях, их стоимости, доступности и работе в Contoso, мы просмотрели их в &mdash; &mdash; Office [365.](deploy-audio-conferencing-teams-landing-page.md) 
+Чтобы получить общее представление об аудиоконференции, ее стоимости, доступности и работе в Contoso, она была рассмотрена в &mdash; &mdash; Office [365.](deploy-audio-conferencing-teams-landing-page.md) 
 
 ## <a name="overview"></a>Обзор 
 
@@ -37,7 +37,7 @@ ms.locfileid: "44786114"
 
 - Contoso использует выделенные телефонные номера и переносит существующие номера для использования с аудиоконференцией.   
 
-Так как пользователи Contoso использовали Skype для бизнеса, а почтовые ящики всех пользователей находятся в сети, у многих пользователей уже запланировано собрание. Если вы используете службу переноса собраний [(MMS),](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json) contoso прочитает статью о том, что существующие собрания для Contoso обновляются автоматически при смене пользователя на режим TeamsOnly.  
+Так как пользователи Contoso использовали Skype для бизнеса, а почтовые ящики всех пользователей находятся в сети, у многих пользователей уже запланировано собрание. Если вы используете службу переноса собраний [(MMS),](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fMicrosoftTeams%2ftoc.json) contoso прочитает статью о том, что существующие собрания для Contoso обновляются автоматически при смене пользователя на режим TeamsOnly.  
 
 
 ## <a name="configuration"></a>Конфигурация
@@ -46,10 +46,9 @@ ms.locfileid: "44786114"
 
 - Для местоположений, использующих планы звонков, для переноса существующих номеров телефонов от оператора связи в Office 365 компания Contoso, как и при получении номеров телефонов службы, придерживается [действий.](getting-service-phone-numbers.md)
 
-- Чтобы назначить лицензию на аудиоконференцию пользователю в пилотном проекте, администратор Contoso следовал за действиями, которые были предприняты в параметрах аудиоконференции для вашей [организации.](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md) 
+- Чтобы назначить лицензию на аудиоконференцию пользователю в техническом пилотном проекте, администратор Contoso следовал за действиями, которые были предприняты в области "Управление настройками аудиоконференций" для вашей [организации.](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md) 
 
-- В пилотном проекте и миграции Компания Contoso использовала групповое лицензирование с помощью действий, следующих в процедуре назначения лицензий пользователям по признаку участия в группах [в Azure Active Directory.](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-groups-assign)  
-
- 
+- В пилотном проекте и миграции компания Contoso использовала групповое лицензирование, выровнив по шагам из процедуры назначения лицензий пользователям по признаку участия в группах [в Azure Active Directory.](/azure/active-directory/users-groups-roles/licensing-groups-assign)  
 
  
+

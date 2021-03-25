@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Узнайте, как включить прямую маршрутику по системе Microsoft Phone System.
-ms.openlocfilehash: 972bd8d5e01a050a67978560b8de272439fda40d
-ms.sourcegitcommit: 6f7b91f573e2a034f8c5474be2c5cb2971f4b5ab
+ms.openlocfilehash: 858b9073106945d414c2dbe56a16e6cecd104ee7
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50421314"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122223"
 ---
 # <a name="enable-users-for-direct-routing-voice-and-voicemail"></a>Включить для пользователей прямую маршрутику, голосовую и голосовую почту
 
@@ -40,16 +40,16 @@ ms.locfileid: "50421314"
 1. Создайте пользователя в Microsoft 365 или Office 365 и назначьте лицензию на телефонную систему. 
 2. Убедитесь, что пользователь находится в Skype для бизнеса Online. 
 3. Настройте номер телефона и в включить корпоративную голосовую и голосовую почту. 
-4. Назначьте режим "Только Teams" пользователям.
+4. Назначьте режим Teams только пользователям.
 
 ## <a name="create-a-user-and-assign-the-license"></a>Создание пользователя и назначение лицензии 
 
-Существует два варианта создания пользователя в Microsoft 365 или Office 365. Однако корпорация Майкрософт рекомендует выбрать один из вариантов, чтобы избежать проблем с маршрутией: 
+Существует два варианта создания пользователя в Microsoft 365 или Office 365. Однако корпорация Майкрософт рекомендует использовать один из вариантов, чтобы избежать проблем с маршрутией: 
 
-- Создайте пользователя в локальной службе Active Directory и синхронизируйте его с облаком. Узнайте, [как интегрировать свои локальное каталоги с Azure Active Directory.](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect)
+- Создайте пользователя в локальной службе Active Directory и синхронизируйте его с облаком. Узнайте, [как интегрировать свои локальное каталоги с Azure Active Directory.](/azure/active-directory/connect/active-directory-aadconnect)
 - Создайте пользователя непосредственно в Центре администрирования Microsoft 365. См. ["Добавление пользователей по отдельности или массово в Microsoft 365 или Office 365 — справка для администраторов".](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec) 
 
-Если ваши системы развертывания Skype для бизнеса Online сосуществят со Skype для бизнеса 2015 или локальной службой Lync 2010 или 2013, поддерживается только создание пользователя в локальной службе Active Directory и его синхронизация с облаком (вариант 1). 
+Если ваши системы развертывания Skype для бизнеса Online сосуществят со Skype для бизнеса 2015 или локальной службой Lync 2010 или 2013, единственным поддерживаемым вариантом является создание пользователя в локальной службе Active Directory и синхронизация пользователя с облаком (вариант 1). 
 
 Сведения о лицензионных требованиях см. в [лицензиях](direct-routing-plan.md#licensing-and-other-requirements) и других требованиях плана [прямой маршрутинга.](direct-routing-plan.md)
 
@@ -64,7 +64,7 @@ ms.locfileid: "50421314"
     ```PowerShell
     Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool,OnPremLineUriManuallySet,OnPremLineUri,LineUri
     ``` 
-    Если для onPremLineUriManuallySet задано число False и LineUri заполнен номером <E.164>, очистите параметры с помощью локальной оболочки управления Skype для бизнеса, прежде чем настраивать номер телефона с помощью Skype для бизнеса Online PowerShell. 
+    Если для параметра OnPremLineUriManuallySet задано "False" и для параметра LineUri задан номер <E.164>, перед настройкой номера телефона с помощью Skype для бизнеса Online PowerShell очистите параметры с помощью локальной оболочки Skype для бизнеса. 
 
 1. В командной оболочке Skype для бизнеса выдают команду: 
 
@@ -121,7 +121,7 @@ ms.locfileid: "50421314"
 
 ## <a name="assign-teams-only-mode-to-users-to-ensure-calls-land-in-microsoft-teams"></a>Назначение пользователям режима "Только teams", чтобы обеспечить доступ к звонкам в Microsoft Teams
 
-Прямая маршрутия требует, чтобы пользователи были в режиме "Только Teams", чтобы входящие звонки направлялись в клиент Teams. Чтобы перейти в режим только Teams, назначьте им экземпляр UpgradeToTeams teamsUpgradePolicy. Дополнительные сведения см. в [стратегиях обновления для ИТ-администраторов.](upgrade-to-teams-on-prem-implement.md) Если в вашей организации используется Skype для бизнеса Server или Skype для бизнеса Online, см. сведения о взаимодействиях между Skype и Teams в следующей статье: перенос и взаимодействия со Skype для [бизнеса.](migration-interop-guidance-for-teams-with-skype.md)
+Прямая маршрутка требует, чтобы пользователи были в режиме "Только Teams", чтобы входящие звонки направлялись в клиент Teams. Чтобы перейти в режим только Teams, назначьте им экземпляр UpgradeToTeams teamsUpgradePolicy. Дополнительные сведения см. в [стратегиях обновления для ИТ-администраторов.](upgrade-to-teams-on-prem-implement.md) Если в вашей организации используется Skype для бизнеса Server или Skype для бизнеса Online, см. сведения о взаимодействиях между Skype и Teams в следующей статье: перенос и взаимодействия со Skype для [бизнеса.](migration-interop-guidance-for-teams-with-skype.md)
 
 ## <a name="see-also"></a>См. также
 

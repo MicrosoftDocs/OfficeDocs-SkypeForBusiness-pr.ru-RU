@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Воспользуйтесь этим руководством, чтобы помочь удаленным сотрудникам государственной организации эффективно трудиться с помощью Microsoft Teams, особенно если они работают дома в связи со вспышкой эпидемии COVID-19 (коронавируса).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 46e2b3a713ee1c2a1f5de1f858df19dd25c5aef0
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 3196796e702a458d7bbf813e5bed8166b764b0de
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583878"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51121387"
 ---
 # <a name="support-remote-government-workers-using-microsoft-teams"></a>Поддержка удаленных государственных служащих с помощью Microsoft Teams
 
@@ -31,13 +31,13 @@ ms.locfileid: "46583878"
 
 Узнайте, как подготовить вашу организацию к работе в Teams.
 
-  - Убедитесь, что у всех есть доступ к Teams в рамках [платной подписки, включающей Teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description). 
+  - Убедитесь, что у всех есть доступ к Teams в рамках [платной подписки, включающей Teams](/office365/servicedescriptions/teams-service-description). 
 
   - Если у вас уже есть подписка, убедитесь, что **[приложение Teams включено](../user-access.md)** для всех пользователей.
 
   - Для быстрого развертывания Teams в вашей организации посетите [**Teams FastPath PowerPoint**](https://aka.ms/TeamsGovFastPath).
 
-  - Узнайте, как приступить к работе с **[собраниями в Teams](https://docs.microsoft.com/MicrosoftTeams/tutorial-meetings-in-teams)** в вашей организации.
+  - Узнайте, как приступить к работе с **[собраниями в Teams](../tutorial-meetings-in-teams.yml)** в вашей организации.
 
 ## <a name="end-user-communication"></a>Связь с конечными пользователями
 
@@ -63,10 +63,10 @@ ms.locfileid: "46583878"
 
 ## <a name="learn-more"></a>Подробнее
 
-  - Начните свое знакомство с Teams серией сеансов **[интерактивного обучения](https://aka.ms/TeamsLiveTraining)**, предназначенного для того, чтобы ваша организация наладила работу с Teams.
+  - Начните свое знакомство с Teams серией сеансов **[интерактивного обучения](../instructor-led-training-teams-landing-page.yml)**, предназначенного для того, чтобы ваша организация наладила работу с Teams.
 
   - Присоединяйтесь к одному из наших **[онлайн-занятий](../instructor-led-training-teams-landing-page.yml)**, чтобы увидеть Teams в действии и получить ответы на свои вопросы.
 
   - Поделитесь **[подробными видеоинструкциями](https://www.youtube.com/playlist?list=PLXPr7gfUMmKzR7_jXN5s886apYoHNC3Xk)** с заинтересованными пользователями
 
-  - Сведения о том, как развернуть и управлять Teams, читайте в **[документации администратора Teams](https://docs.microsoft.com/MicrosoftTeams/)**.
+  - Сведения о том, как развернуть и управлять Teams, читайте в **[документации администратора Teams](../index.yml)**.

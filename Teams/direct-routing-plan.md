@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Узнайте, как прямая маршрутия Microsoft Phone System позволяет подключить поддерживаемый клиентский пограничный контроллер сеанса (SBC) к телефонной системе Майкрософт.
-ms.openlocfilehash: af7e288791b85aea3beaf67b0200acd017e3e514
-ms.sourcegitcommit: b431fc1a1802a8177109741b7c8e91bacb8c50c3
+ms.openlocfilehash: 5df93bb5248f6077bf0378c5ab461c6cf8856fbf
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "50999831"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51121397"
 ---
 # <a name="plan-direct-routing"></a>Планирование прямой маршрутизации
 
@@ -83,9 +83,9 @@ ms.locfileid: "50999831"
 |Общедоступный DNS-запись для SBC |Общедоступный DNS-адрес, сопоставление FQDN SBC с общедоступным IP-адресом. |
 |Общедоступный доверенный сертификат для SBC |Сертификат для SBC, который будет использоваться для всех связей с Direct Routing. Дополнительные сведения см. в [общедоступных доверенных сертификатах для SBC.](#public-trusted-certificate-for-the-sbc)|
 |Точки соединения для прямой маршрутки |Ниже точки соединения для прямой маршрутии связаны с тремя FQDNs.<br/><br/>`sip.pstnhub.microsoft.com` — глобальное FQDN должно быть сначала опробовано.<br/>`sip2.pstnhub.microsoft.com` — дополнительное FQDN, географическое карты со вторым приоритетным регионом.<br/>`sip3.pstnhub.microsoft.com` — tertiary FQDN, географически сопоставить с третьим приоритетом регион.<br/><br/>Сведения о требованиях к конфигурации см. в подтипе [SIP Signaling: FQDNs.](#sip-signaling-fqdns)|
-|IP-адреса и порты брандмауэра для мультимедиа прямой маршрутки |SBC передается следующим службам в облаке:<br/><br/>Прокси-сервер SIP, который обрабатывает сигнальную обработку<br/>Процессор мультимедиа, который обрабатывает мультимедиа, за исключением случаев, когда обход мультимедиа<br/><br/>Эти две службы имеют отдельные IP-адреса в Microsoft Cloud, как описано далее в этом документе.<br/><br/>Дополнительные сведения см. в разделе [Microsoft Teams](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) по [URL-адресам и диапазонам IP-адресов.](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges) |
+|IP-адреса и порты брандмауэра для мультимедиа прямой маршрутки |SBC передается следующим службам в облаке:<br/><br/>Прокси-сервер SIP, который обрабатывает сигнальную обработку<br/>Процессор мультимедиа, который обрабатывает мультимедиа, за исключением случаев, когда обход мультимедиа<br/><br/>Эти две службы имеют отдельные IP-адреса в Microsoft Cloud, как описано далее в этом документе.<br/><br/>Дополнительные сведения см. в разделе [Microsoft Teams](/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) по [URL-адресам и диапазонам IP-адресов.](/office365/enterprise/urls-and-ip-address-ranges) |
 |Профиль транспорта мультимедиа|TCP,RTP/SAVP <br/>UDP/RTP/SAVP|
-IP-адреса и порты брандмауэра для мультимедиа Microsoft Teams |Дополнительные сведения см. в [URL-адресах и диапазонах IP-адресов.](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges) |
+IP-адреса и порты брандмауэра для мультимедиа Microsoft Teams |Дополнительные сведения см. в [URL-адресах и диапазонах IP-адресов.](/office365/enterprise/urls-and-ip-address-ranges) |
 |||
 
 ## <a name="licensing-and-other-requirements"></a>Лицензирование и другие требования 
@@ -100,7 +100,7 @@ IP-адреса и порты брандмауэра для мультимеди
 > План Skype для бизнеса не следует удалять из любого лицензионного соглашения, в которое оно входит. 
 > 
 > [!IMPORTANT]
-> Пользователи GCC High и DoD должны отключить все лицензии аудиоконференций, включенные в G5, и дождаться, когда будут включены все аудиоконференции, пока не будет полностью настроена прямая маршрутия. Перед включением лицензий на аудиоконференцию пользователям необходимо настроить номера телефонов для телефонного звонка и рабочую панель набора номера. Дополнительные сведения см. в записях аудиоконференций с прямой маршрутизацией [GCC High и DoD.](https://docs.microsoft.com/microsoftteams/audio-conferencing-with-direct-routing-for-gcch-and-dod)
+> Пользователи GCC High и DoD должны отключить все лицензии аудиоконференций, включенные в G5, и дождаться, когда будут включены все аудиоконференции, пока не будет полностью настроена прямая маршрутия. Перед включением лицензий на аудиоконференцию пользователям необходимо настроить номера телефонов для телефонного звонка и рабочую панель набора номера. Дополнительные сведения см. в записях аудиоконференций с прямой маршрутизацией [GCC High и DoD.](./audio-conferencing-with-direct-routing-for-gcch-and-dod.md)
 
 
 > [!IMPORTANT]
@@ -124,16 +124,16 @@ IP-адреса и порты брандмауэра для мультимеди
 
 Смешивать план звонков и прямой маршрутинг для одного пользователя необязательно, но это может быть полезно (например, если пользователю назначен план звонков Майкрософт, но он хочет перенаправить некоторые звонки с помощью SBC). Один из наиболее распространенных сценариев — вызовы сторонних УАКС.  При использовании сторонних УАП все звонки, кроме телефонов, подключенных к этой УАПС, перенаправются с помощью плана звонков Майкрософт, но звонки на телефоны, подключенные к УАО сторонних телефонов, перенаправят на SBC и, следовательно, остаются в корпоративной сети, а не через ПС. 
 
-Дополнительные сведения о лицензировании телефонной системы см. в дополнительных [сведениях](https://products.office.com/compare-all-microsoft-office-products?tab=2) о вариантах Office и [плана.](https://technet.microsoft.com/library/office-365-plan-options.aspx) 
+Дополнительные сведения о лицензировании телефонной системы см. в дополнительных [сведениях](https://products.office.com/compare-all-microsoft-office-products?tab=2) о вариантах Office и [плана.](/office365/servicedescriptions/office-365-platform-service-description/office-365-plan-options) 
 
-Дополнительные сведения о лицензировании телефонной системы см. в лицензировании надстройки [Microsoft Teams.](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing) 
+Дополнительные сведения о лицензировании телефонной системы см. в лицензировании надстройки [Microsoft Teams.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md) 
 
 ## <a name="supported-end-points"></a>Поддерживаемые конечные точки 
 
 В качестве точки окончания можно использовать:
 
 - Любой клиент Teams. 
-- Обычные телефоны с зонами. См. ["Настройка общей лицензии area Phone для Microsoft Teams".](https://docs.microsoft.com/microsoftteams/set-up-common-area-phones) Обратите внимание, что при настройке общего зоны телефона с прямой маршрутией вам не нужна лицензия на план звонков.
+- Обычные телефоны с зонами. См. ["Настройка общей лицензии area Phone для Microsoft Teams".](./set-up-common-area-phones.md) Обратите внимание, что при настройке общего зоны телефона с прямой маршрутией вам не нужна лицензия на план звонков.
 - Телефоны 3PIP Skype для бизнеса. См. [поддержку телефонов Skype для бизнеса (3PIP) в Microsoft Teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Skype-for-Business-phones-3PIP-support-with-Microsoft-Teams/ba-p/789351)
 
 
@@ -201,7 +201,7 @@ contoso.com|Да|**Допустимые имена:**<br/>sbc1.contoso.com<br/>s
 - DigiCert High Assurance EV Root CA
 
 > [!NOTE]
-> * Если для подключения Teams на SBC включена поддержка mutual TLS (MTLS), необходимо установить корневой сертификат CyberTrust в доверенный корневой магазин SBC контекста TLS Teams. (Это потому, что сертификаты служб Майкрософт используют корневой сертификат Учетной записи Учетной записи Майкрософт.) Чтобы скачать корневой сертификат Ветвя, см. цепочки шифрования [Office 365.](https://docs.microsoft.com/microsoft-365/compliance/encryption-office-365-certificate-chains)
+> * Если для подключения Teams на SBC включена поддержка mutual TLS (MTLS), необходимо установить корневой сертификат CyberTrust в доверенный корневой магазин SBC контекста TLS Teams. (Это потому, что сертификаты служб Майкрософт используют корневой сертификат Учетной записи Учетной записи Майкрософт.) Чтобы скачать корневой сертификат Ветвя, см. цепочки шифрования [Office 365.](/microsoft-365/compliance/encryption-office-365-certificate-chains)
 
 Корпорация Майкрософт работает над добавлением дополнительных сертификационных органов на основе запросов клиентов. 
 
@@ -213,7 +213,7 @@ contoso.com|Да|**Допустимые имена:**<br/>sbc1.contoso.com<br/>s
 - Office 365 GCC High
 - Office 365 DoD
 
-Узнайте больше об [средах Office 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) и государственных органов США, таких как GCC, GCC High и DoD.
+Узнайте больше об [средах Office 365](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) и государственных органов США, таких как GCC, GCC High и DoD.
 
 ### <a name="microsoft-365-office-365-and-office-365-gcc-environments"></a>Среды Microsoft 365, Office 365 и GCC Office 365
 
@@ -297,7 +297,7 @@ SBC создает запрос DNS для разрешения sip.pstnhub.micr
 |||||
 
 ## <a name="media-traffic-port-ranges"></a>Трафик мультимедиа: диапазоны портов
-Обратите внимание, что ниже требования применяются, если вы хотите развернуть прямую маршрутику без обхода мультимедиа. Требования к брандмауэру для [](https://docs.microsoft.com/microsoftteams/direct-routing-plan-media-bypass)обхода мультимедиа.
+Обратите внимание, что ниже требования применяются, если вы хотите развернуть прямую маршрутику без обхода мультимедиа. Требования к брандмауэру для [](./direct-routing-plan-media-bypass.md)обхода мультимедиа.
 
 
 

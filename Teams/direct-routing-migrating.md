@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Узнайте, что необходимо для перехода на прямую маршрутизацию применительно к Skype для бизнеса Online и настройке Teams.
-ms.openlocfilehash: 11bf4ffe7e5e0f1c2fb177531c2eba36d081bf47
-ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
+ms.openlocfilehash: de211dfae9bf2fc20a2cd367687e0fd7c5779a5f
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47359425"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122203"
 ---
 # <a name="migrate-to-direct-routing"></a>Переход на прямую маршрутизацию
 
@@ -29,7 +29,7 @@ ms.locfileid: "47359425"
  
 - Телефонная система с планами звонков (для Teams и Skype для бизнеса Online) 
 - Телефонная система с локальной связью через ПС в Skype для бизнеса Server (для Skype для бизнеса Online)  
-- Телефонная система с возможностью подключения к локальной сети STN с помощью Cloud Connector Edition (для Skype для бизнеса Online)
+- Телефонная система с локальной связью через STN с помощью Cloud Connector Edition (для Skype для бизнеса Online)
 
 
 В дополнение к этим этапам настройки, для пограничного контроллера сеансов также требуется настройка для маршрутизации вызовов на новый маршрут. Этот документ не охватывает данный аспект. Дополнительные сведения см. в документации поставщика пограничного контроллера сеансов.  
@@ -44,8 +44,8 @@ ms.locfileid: "47359425"
 |Лицензии|Skype для бизнеса Online</br>План 2</br></br>(MCOProfessional или MCOSTANDARD)</br></br></br>Телефонная система (MCOEV)</br></br></br>Планы звонков</br>Teams|Skype для бизнеса Online план 2 (MCOProfessional или MCOSTANDARD)</br></br></br>Телефонная система (MCOEV)|Skype для бизнеса Online план 2 (MCOProfessional или MCOSTANDARD)</br></br></br>Телефонная система (MCOEV)|Skype для бизнеса Online план 2 (MCOProfessional или MCOSTANDARD)</br></br></br>Телефонная система (MCOEV)</br></br>Teams|
 OnPremLineURI |Недоступно|Номер телефона должен быть синхронизирован с локальной службой AD. |Управлять номером телефона можно как в локальной службе Active Directory, так и в службе Azure Active Directory.|Управлять номером телефона можно как в локальной службе Active Directory, так и в службе Azure Active Directory. Тем не менее, если в организации используется локальная среда Skype для бизнеса, необходимо синхронизировать номер из локальной службы Active Directory.|
 |LineURI|Номер телефона для вызовов по ТСОП|Автоматическая настройка из параметра OnPremLineURI|Автоматическая настройка из параметра OnPremLineURI|Автоматическая настройка из параметра OnPremLineURI|
-|EnterpriseVoiceEnabled|Верно|Да|Да|Верно|
-|HostedVoiceMail |Верно|Да|Да|Верно|
+|EnterpriseVoiceEnabled|Верно|Верно|Верно|Верно|
+|HostedVoiceMail |Верно|Верно|Верно|Верно|
 |VoicePolicy|BusinessVoice|HybridVoice|HybridVoice|HybridVoice|
 |HostedVoiceMailPolicy |BusinessVoice|BusinessVoice|BusinessVoice|BusinessVoice|
 |VoiceRoutingPolicy|Имеет значение|Имеет значение|Имеет значение|Недоступно|
@@ -65,9 +65,9 @@ OnPremLineURI |Недоступно|Номер телефона должен б�
 
 Дополнительные сведения о переходе с тарифных планов см. в разделах:
 
-- [Настройка планов звонков](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/set-up-calling-plans)
-- [Set-CsOnlineVoice User](https://docs.microsoft.com/powershell/module/skype/Set-CsOnlineVoiceUser?view=skype-ps)
-- [Get-CsOnlineLisLocation](https://docs.microsoft.com/powershell/module/skype/get-csonlinelislocation?view=skype-ps)  
+- [Настройка планов звонков](/skypeforbusiness/what-are-calling-plans-in-office-365/set-up-calling-plans)
+- [Set-CsOnlineVoice User](/powershell/module/skype/Set-CsOnlineVoiceUser?view=skype-ps)
+- [Get-CsOnlineLisLocation](/powershell/module/skype/get-csonlinelislocation?view=skype-ps)  
  
  
 Рекомендуется удалить сведения о ранее настроенном тарифном плане, как указано ниже: 
@@ -83,8 +83,8 @@ Set-MsolUserLicense -UserPrincipalName <UPN> -RemoveLicenses $lic2
 
 Дополнительные сведения о переходе с телефонной системы с возможностью подключения к локальной ТСОП в Skype для бизнеса Server см. в следующих статьях:
 
-- [Планирование](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity)
-- [Развертывание](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-phone-system) 
+- [Планирование](/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity)
+- [Развертывание](/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-phone-system) 
 
 Рекомендуется удалить сведения о ранее настроенной маршрутизации голосовй связи, как указано ниже: 
 
@@ -97,13 +97,13 @@ Grant-CsVoiceRoutingPolicy -PolicyName $NULL -Identity <UPN>
 ## <a name="migrating-from-office-365-phone-system-with-on-premises-pstn-connectivity-via-cloud-connector-edition"></a>Переход с телефонной системы Office 365 с возможностью подключения к локальной ТСОП через Cloud Connector Edition 
 
 > [!Important]
-> Выпуск Cloud Connector Edition будет отсюду 31 июля 2021 г. вместе со Skype для бизнеса Online. После обновления организации до Teams узнайте, как подключить свою локальное телефонную сеть к Teams с помощью прямой [маршрутизации.](direct-routing-landing-page.md)
+> Выпуск Cloud Connector Edition будет отсюду 31 июля 2021 г. вместе со Skype для бизнеса Online. После обновления организации до Teams узнайте, как подключить к Teams свою локальное телефонное подключение с помощью прямой [маршрутизации.](direct-routing-landing-page.md)
 
 Дополнительные сведения о переходе с телефонной системы с возможностью подключения к локальной ТСОП через Cloud Connector см. в следующих статьях:
 
-- [Планирование](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition)  
-- [Развертывание](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-phone-system)
-- [Пользовательская конфигурация](https://docs.microsoft.com/powershell/module/skype/set-csuserpstnsettings?view=skype-ps) 
+- [Планирование](/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition)  
+- [Развертывание](/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-phone-system)
+- [Пользовательская конфигурация](/powershell/module/skype/set-csuserpstnsettings?view=skype-ps) 
 
 Рекомендуется удалить сведения о ранее настроенной маршрутизации голосовй связи, как указано ниже: 
  
@@ -117,17 +117,16 @@ Set-CsUserPstnSettings -Identity <UPN> -AllowInternationalCalls $false -HybridPS
 
 [Руководство по миграции и взаимодействию для организаций, использующих Teams вместе со Skype для бизнеса](migration-interop-guidance-for-teams-with-skype.md)
 
-[Grant-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy)
+[Grant-CsTeamsUpgradePolicy](/powershell/module/skype/grant-csteamsupgradepolicy)
 
-[Get-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsTeamsUpgradePolicy)
+[Get-CsTeamsUpgradePolicy](/powershell/module/skype/Get-CsTeamsUpgradePolicy)
 
-[New-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/New-CsTeamsUpgradePolicy)
+[New-CsTeamsUpgradePolicy](/powershell/module/skype/New-CsTeamsUpgradePolicy)
 
-[Remove-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsTeamsUpgradePolicy)
+[Remove-CsTeamsUpgradePolicy](/powershell/module/skype/Remove-CsTeamsUpgradePolicy)
 
-[Set-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsTeamsUpgradePolicy)
+[Set-CsTeamsUpgradePolicy](/powershell/module/skype/Set-CsTeamsUpgradePolicy)
 
-[Get-CsTeamsUpgradeConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsTeamsUpgradeConfiguration)
+[Get-CsTeamsUpgradeConfiguration](/powershell/module/skype/Get-CsTeamsUpgradeConfiguration)
 
-[Set-CsTeamsUpgradeConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsTeamsUpgradeConfiguration)
-
+[Set-CsTeamsUpgradeConfiguration](/powershell/module/skype/Set-CsTeamsUpgradeConfiguration)

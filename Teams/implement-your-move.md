@@ -13,14 +13,14 @@ localization_priority: Normal
 search.appverid: ''
 ms.collection: ''
 ms.custom: ''
-ms.openlocfilehash: 5647969ccbb19599efea062d94d88b79c2d8a6f4
-ms.sourcegitcommit: c6b630f9193d7f82f0416bd567a1de390d4b260f
+ms.openlocfilehash: 678cad1b71c9f3e8d1e79a50f5ae46aba4456b5a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "50819484"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120670"
 ---
-# <a name="implement-your-move-to-microsoft-teams"></a>Переход на Microsoft Teams
+# <a name="implement-your-move-to-microsoft-teams"></a>Реализация переходов на Microsoft Teams
 
 В этой статье вы руководстве по развертыванию и внедрению Microsoft Teams в следующих сценариях:
 
@@ -37,7 +37,7 @@ ms.locfileid: "50819484"
 - Пилотный проект Microsoft Teams 
 - Подготовив организацию 
 
-Следуйте указаниям в этой статье, если у вас уже есть microsoft **Teams** и вы хотите переместить лицензированных пользователей из Kaizala в Microsoft Teams. 
+Следуйте указаниям в этой статье, если у вас уже есть **microsoft Teams** и вы хотите переместить лицензированных пользователей из Kaizala в Microsoft Teams. 
    
 Для перехода рекомендуется использовать следующую структуру:  
    
@@ -45,7 +45,7 @@ ms.locfileid: "50819484"
    
 1. Сначала переместите группы чата в Microsoft Teams.
 1. Затем используйте приложения в Teams для замены карточек действий Kaizala.
-1. Чтобы обеспечить функциональность сотрудников, работающих с передней линией, обновив функциональность до Teams Frontline Worker. Краткое руководство по работе с Frontline Worker в Teams см. в кратком руководстве по [работе с frontline Worker.](https://docs.microsoft.com/microsoftteams/flw-quickstart)
+1. Чтобы обеспечить функциональность сотрудников, работающих с передней линией, обновив функциональность до Teams Frontline Worker. Краткое руководство по работе с Frontline Worker в Teams см. в кратком руководстве по [работе с frontline Worker.](./flw-quickstart.yml)
 1. Рассмотрите возможность приглашения поставщиков и партнеров в качестве гостей в Teams.  
   
 **Управление изменениями**  
@@ -84,7 +84,7 @@ ms.locfileid: "50819484"
 
 - **Использование Kaizala и Teams**  
 
-   Чтобы найти Microsoft Teams для своего бизнеса, см. сравнение параметров [Microsoft Teams Online | Microsoft Teams](https://www.microsoft.com/microsoft-teams/compare-microsoft-teams-options). 
+   Чтобы найти Microsoft Teams для своей компании, см. сравнение параметров [Microsoft Teams Online | Microsoft Teams](https://www.microsoft.com/microsoft-teams/compare-microsoft-teams-options). 
 
 - **Управление изменениями** 
 
@@ -96,4 +96,4 @@ ms.locfileid: "50819484"
      
 - **Перемещение организации в Teams** 
 
-    Упростите для организации средство взаимодействия с директором на переднем 
+    Упростите для организации средство взаимодействия с директором на переднем

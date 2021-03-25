@@ -18,43 +18,41 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 3cc3db88-0210-4804-b54e-ba4af1234884
-description: 'В этом разделе описывается, как включить для пользователей телефонную систему с локальной связью через STN. Прежде чем следовать шагам в этом разделе, ознакомьтесь со следующими разделами:'
-ms.openlocfilehash: 7fb1ae9ee013dafbf0de91611bacb68f685daac8
-ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
+description: 'В этом разделе описывается, как включить пользователей для телефонной системы с локальной подключением PSTN. Прежде чем следовать шагам в этом разделе, необходимо прочитать следующее: .'
+ms.openlocfilehash: 0a843b49546bfc5451197a3ef8ca48799c194731
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47359145"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120871"
 ---
 # <a name="enable-users-for-phone-system-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>Активация пользователей телефонной системы с соединением по локальной ТСОП в Skype для бизнеса Server
 
-В этом разделе описывается, как включить для пользователей телефонную систему с локальной связью через STN. Прежде чем следовать шагам в этом разделе, ознакомьтесь со следующими разделами:
+В этом разделе описывается, как включить пользователей для телефонной системы с локальной подключением PSTN. Прежде чем следовать шагам в этом разделе, необходимо прочитать следующее: .
   
-- To learn how to set up hybrid connectivity, see [Plan hybrid connectivity between Skype for Business Server and Skype for Business Online](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md) and Deploy hybrid [connectivity between Skype for Business Server and Skype for Business Online.](../../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity.md)
+- Чтобы узнать, как настроить гибридное подключение, см. в сайте Plan hybrid [connectivity between Skype for Business Server](../../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json) и Skype for Business Online и Deploy hybrid [connectivity between Skype for Business Server and Skype for Business Online.](../../../SfbHybrid/hybrid/configure-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json)
     
-- Чтобы узнать о планировании развертывания, см. план телефонной системы с локальной связью по [STN в Skype для бизнеса Server.](plan-phone-system-with-on-premises-pstn-connectivity.md)
+- Подробнее о планировании развертывания см. в сайте Plan Phone System с локальной связью [PSTN](plan-phone-system-with-on-premises-pstn-connectivity.md)в Skype для бизнеса Server.
     
-- Дополнительные информацию о телефонной системе, в том числе о лицензировании и планах, см. в планах звонков по [STN для Skype для бизнеса.](https://support.office.com/article/PSTN-Calling-plans-for-Skype-for-Business-f47c6a97-bc8b-42e6-b5d4-ce6b41ed1918)
+- Дополнительные информацию о телефонной системе, включая лицензирование и планы, см. в приложениях [PSTN Calling plans for Skype for Business.](https://support.office.com/article/PSTN-Calling-plans-for-Skype-for-Business-f47c6a97-bc8b-42e6-b5d4-ce6b41ed1918)
     
 > [!Important]
-> Skype для бизнеса Online будет отменен 31 июля 2021 г., после чего служба станет недоступна.  Кроме того, подключение по STN между локальной средой через Skype для бизнеса Server или Cloud Connector Edition и Skype для бизнеса Online больше не будет поддерживаться.  Узнайте, как подключить свою локальной телефонной сети к Teams с помощью [прямой маршрутки.](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)
+> Skype для бизнеса Online будет отменен 31 июля 2021 г., после чего служба будет больше недоступна.  Кроме того, подключение PSTN между локальной средой, будь то Skype для бизнеса Server или Cloud Connector Edition и Skype для бизнеса Online, больше не будет поддерживаться.  Узнайте, как подключить сеть локальной телефонии к Teams с помощью [прямого маршрутного маршрутинга.](/MicrosoftTeams/direct-routing-landing-page)
 
-## <a name="moving-users-to-phone-system-with-on-premises-pstn-connectivity"></a>Перемещение пользователей в телефонную систему с локальной связью через STN
+## <a name="moving-users-to-phone-system-with-on-premises-pstn-connectivity"></a>Перемещение пользователей в телефонную систему с локальной подключением PSTN
 
-Перед перемещением пользователей в Skype для бизнеса Online рекомендуется включить пользователей локально в Skype для бизнеса Server или Lync Server 2013, а затем переместить их в Интернет. Дополнительные сведения см. в разделе "Планирование гибридного подключения между Skype для бизнеса Server и Skype для бизнеса [Online",](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md) а также в разделе "Enable the users for Корпоративная голосовая связь on premises (performed while the users are homed on-premises)." [](enable-the-users-for-enterprise-voice-on-premises.md) 
+Перед перемещением пользователей в Skype для бизнеса Online рекомендуется включить пользователей на локальной основе в Skype для бизнеса Server или Lync Server 2013, а затем переместить их в Интернете. Дополнительные сведения см. в разделе Планирование гибридного подключения [между Skype для](../../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json) бизнеса Server и Skype для бизнеса Online и раздел специальных соображений Включить пользователей для Корпоративная голосовая связь на месте (выполняется, пока пользователи находятся в локальном помещении). [](enable-the-users-for-enterprise-voice-on-premises.md) 
   
-Все пользователи должны быть созданы локально в Active Directory и синхронизированы с Microsoft 365 или Office 365 с помощью поддерживаемой версии Azure AD Connector. Нельзя включить для пользователей телефонной системы в Office 365, созданных непосредственно в Azure AD. Если вы хотите включить телефонную систему с локальной связью через STN для пользователя, созданного в Azure AD, необходимо создать новую учетную запись для этого пользователя в локальной службе AD, настроить учетную запись локально, а затем синхронизировать учетную запись с помощью поддерживаемой версии средства Azure AD Connector. 
+Все пользователи должны создаваться в Active Directory на локальной основе и синхронизироваться с Microsoft 365 или Office 365 с помощью поддерживаемой версии разъема Azure AD. Нельзя включить пользователей для телефонной системы в Office 365, созданных непосредственно в Azure AD. Если вы хотите включить телефонную систему с локальной подключением PSTN для пользователя, созданного в Azure AD, вам потребуется создать новую учетную запись для этого пользователя в локальной AD, настроить учетную запись на месте, а затем синхронизировать учетную запись с помощью поддерживаемой версии средства подключения Azure AD. 
   
-Для включения для пользователя телефонной системы с локальной связью через STN и их перемещения в Skype для бизнеса Online необходимо сделать следующее:
+Включение пользователя для телефонной системы с локальной возможностью подключения к PSTN, а затем их перемещение в Skype для бизнеса Online требует следующих действий:
   
-- [Включить для пользователей локальное Корпоративная голосовая связь](enable-the-users-for-enterprise-voice-on-premises.md) (выполняется, когда пользователи находятся в локальной сети).
+- [Включить пользователей для Корпоративная голосовая связь](enable-the-users-for-enterprise-voice-on-premises.md) на месте (выполняется, пока пользователи находятся в локальном помещении).
     
-- [Назначьте политику маршрутной связи голосовой](assign-a-voice-routing-policy.md) связи (которая выполняется, когда пользователи находятся в локальной сети).
+- [Назначьте политику маршрутинга голосовой](assign-a-voice-routing-policy.md) связи (выполняемую в то время, когда пользователи находятся в локальном помещении).
     
-- [Синхронизация пользователей с облаком](synchronize-users-to-the-cloud-and-assign-licenses.md) и назначение лицензий (выполняется с помощью Office 365).
+- [Синхронизировать пользователей с облаком и назначить лицензии](../../../SfbHybrid/hybrid/configure-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json) (выполняемые с помощью Office 365).
     
-- [Перемещение пользователей локальной](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-skype-for-business-online) сети в Skype для бизнеса Online (выполняется с помощью Windows PowerShell локальной службы, но с использованием учетных данных администратора Office 365).
+- [Перемещение локального](../../../SfbHybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online.md) пользователя в Skype для бизнеса Online (выполняется с Windows PowerShell локально, но с помощью учетных данных администратора Office 365).
     
-- [В этом Корпоративная голосовая связь голосовой почты в](enable-users-for-enterprise-voice-online-and-phone-system-voicemail.md) Интернете и телефонной системе (выполняется с помощью удаленной powerShell).
-    
-
+- [Включить пользователей для Корпоративная голосовая связь голосовой почты](enable-users-for-enterprise-voice-online-and-phone-system-voicemail.md) и телефонной системы (выполняется с помощью удаленной powerShell.

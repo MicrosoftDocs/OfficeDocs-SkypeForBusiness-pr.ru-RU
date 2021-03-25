@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 012f2431ec7fb249a2f2e3b963c41166c4649a5c
-ms.sourcegitcommit: 2e6b0930645cd97dbd597e9346a6fe1788c6facf
+ms.openlocfilehash: 5c9e34c5e539d32b25259098973e9bfe6795ad7c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/04/2020
-ms.locfileid: "47395388"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120630"
 ---
 <a name="turn-off-inline-message-translation-in-microsoft-teams"></a>Отключение перевода в текстовом сообщении в Microsoft Teams
 =================================================
@@ -41,11 +41,11 @@ Inline message translation is a Microsoft Teams feature that lets users translat
 
 Вы можете использовать политику обмена сообщениями, чтобы отключить перевод в текстовом сообщении.
 
-Отключите политику с помощью [cmdlet Set-CsTeamsMessagingPolicy.](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) Применение политики займет несколько минут. Пользователям может потребоваться выйти и снова войти в Teams.
+Отключите политику с помощью [cmdlet Set-CsTeamsMessagingPolicy.](/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) Применение политики займет несколько минут. Пользователям может потребоваться выйти и снова войти в Teams.
 
 ## <a name="use-the-microsoft-teams-admin-center-to-turn-off-inline-message-translation"></a>Отключение перевода в текстовом сообщении с помощью Центра администрирования Microsoft Teams
 
 В Центре **администрирования** Microsoft  Teams выберите "Политики обмена сообщениями" в области навигации слева, а затем создайте новую политику или отредактйте существующую политику и установите для параметра **"Перевести** сообщения" параметр **"Отключено".**
 
 > [!NOTE]
-> Служба переводит его и передает клиенту, не влияя на содержимое, записанное в записях соответствия требованиям. Подробнее о переводе см. в [подмносях "Что такое Microsoft Translator?".](https://docs.microsoft.com/azure/cognitive-services/translator/translator-info-overview)
+> Служба переводит его и передает клиенту, не влияя на содержимое, записанное в записях соответствия требованиям. Подробнее о переводе см. в [подмносях "Что такое Microsoft Translator?".](/azure/cognitive-services/translator/translator-info-overview)

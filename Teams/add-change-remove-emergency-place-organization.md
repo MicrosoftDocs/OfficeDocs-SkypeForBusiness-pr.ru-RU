@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Узнайте, как добавить, изменить или удалить расположение для экстренного решения для вашей организации в Центре администрирования Microsoft Teams.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: d390113b30558b94fadab695731b8c08b4c01ace
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 50343fbd1d16694e46afafe53114f2dde4b7b150
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49806279"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51121507"
 ---
 # <a name="add-change-or-remove-a-place-for-an-emergency-location-in-your-organization"></a>Добавление, изменение и удаление места для расположения для экстренного реагирования для организации
 
@@ -44,9 +44,9 @@ ms.locfileid: "49806279"
 
 ### <a name="using-powershell"></a>С помощью PowerShell
 
-См. [new-CsOnlineLisLocation.](https://docs.microsoft.com/powershell/module/skype/new-csonlinelislocation)
+См. [new-CsOnlineLisLocation.](/powershell/module/skype/new-csonlinelislocation)
     
-## <a name="change-a-place-for-an-emergency-location"></a>Изменение места для экстренного размещения
+## <a name="change-a-place-for-an-emergency-location"></a>Изменение места для экстренного расположения
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>С помощью Центра администрирования Microsoft Teams
 
@@ -57,7 +57,7 @@ ms.locfileid: "49806279"
 
 ### <a name="using-powershell"></a>С помощью PowerShell
 
-См. [set-CsOnlineLisLocation.](https://docs.microsoft.com/powershell/module/skype/set-csonlinelislocation)
+См. [set-CsOnlineLisLocation.](/powershell/module/skype/set-csonlinelislocation)
     
 ## <a name="remove-a-place-from-an-emergency-location"></a>Удаление места из местоположения для экстренного помощи
 
@@ -69,10 +69,10 @@ ms.locfileid: "49806279"
 
 ### <a name="using-powershell"></a>С помощью PowerShell
 
-См. [remove-CsOnlineLisLocation.](https://docs.microsoft.com/powershell/module/skype/remove-csonlinelislocation)
+См. [remove-CsOnlineLisLocation.](/powershell/module/skype/remove-csonlinelislocation)
     
 ## <a name="related-topics"></a>Статьи по теме
 
 - [Добавление, изменение и удаление места для расположения для экстренного реагирования для организации](add-change-remove-emergency-place-organization.md)
 - [Управление номерами телефонов организации](/microsoftteams/manage-phone-numbers-for-your-organization)
-- [Условия и положения, распространяющиеся на экстренные вызовы](/microsoftteams/emergency-calling-terms-and-conditions)
+- [Условия и положения, распространяющиеся на экстренные вызовы](./emergency-calling-terms-and-conditions.md)

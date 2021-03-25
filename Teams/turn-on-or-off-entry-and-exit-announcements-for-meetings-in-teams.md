@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: Администратор может узнать, как включить или отключить объявления о входе и выходе на собрании Microsoft Teams.
-ms.openlocfilehash: 145965f3ff2737b21c8fcb13c144e07e969fbeef
-ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
+ms.openlocfilehash: 6be1c6dc86d8088b5ddb54b2141a10172ba13cc5
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45372208"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51121337"
 ---
 # <a name="turn-on-or-off-entry-and-exit-announcements-for-meetings-in-microsoft-teams"></a>Включение и отключение оповещений о подключении к собраниям и выходе из них в Microsoft Teams
 
@@ -37,11 +37,11 @@ ms.locfileid: "45372208"
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
   
-## <a name="setting-meeting-join-options"></a>Настройка способов присоединения к собранию
+## <a name="setting-meeting-join-options"></a>Настройка параметров присоединения к собранию
 
 ![Значок с логотипом Microsoft Teams](media/teams-logo-30x30.png) **Использование центра администрирования Microsoft Teams**
 
-Вносить эти изменения может только администратор служб Teams. См. [статью "Использование](https://docs.microsoft.com/microsoftteams/using-admin-roles) ролей администратора Teams для управления Teams", чтобы ознакомиться с получением ролей и разрешений администраторов.
+Вы должны быть администратором службы Teams, чтобы вносить эти изменения. Сведения о получении ролей и разрешений администратора см. в статье [Управление Teams с помощью ролей администратора Teams](./using-admin-roles.md).
 
 1. Войдите в Центр администрирования.
 
@@ -64,11 +64,11 @@ ms.locfileid: "45372208"
 
 Windows PowerShell is all about managing users and what users are allowed or not allowed to do. С Windows PowerShell вы можете управлять Microsoft 365 или Office 365, используя единый пункт администрирования, который упростит выполнение ваших повседневных задач. Для начала работы с Windows PowerShell ознакомьтесь с приведенными ниже разделами.
 
-- [Зачем нужно использовать Microsoft 365 или Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
+- [Зачем нужно использовать Microsoft 365 или Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
 
-- [Лучшие способы управления Microsoft 365 или Office 365 с помощью Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+- [Лучшие способы управления Microsoft 365 или Office 365 с помощью Windows PowerShell](/previous-versions//dn568025(v=technet.10))
 
-Дополнительные сведения о Windows PowerShell см. в [справочнике по Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps).
+Дополнительные сведения о Windows PowerShell см. в [справочнике по Microsoft Teams PowerShell](/powershell/module/teams/?view=teams-ps).
   
 ## <a name="related-topics"></a>Связанные разделы
 

@@ -22,16 +22,16 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
 description: Узнайте, как использовать отчет Power BI панели мониторинга качества звонка для просмотра автосекретарь и очереди вызовов.
-ms.openlocfilehash: ee54941150a5ba4ade64d6a54cb066f50df2e0a8
-ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
+ms.openlocfilehash: d3c8bd7181bab9ee7c199aedbac8a6fcc4c78d75
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50196243"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51121547"
 ---
-# <a name="auto-attendant--call-queue-historical-report"></a>автосекретарь & истории вызова в очереди
+# <a name="auto-attendant--call-queue-historical-report"></a>автосекретарь & истории очереди вызовов
 
-Шаблон Power BI со автосекретарь & отчетов об очереди вызовов CQD Teams предоставляет следующие три отчета:
+Шаблон CQD Teams автосекретарь & истории отчетов об очереди вызовов Power BI содержит три отчета:
 
 - автосекретарь показаны аналитические данные по звонкам, которые в него взламываемы автоответам.
 - Очереди звонков— аналитические данные о звонках, которые будут в очередях звонков.
@@ -47,7 +47,7 @@ ms.locfileid: "50196243"
 
 ## <a name="permissions-to-access-the-cqd-pipeline"></a>Разрешения на доступ к каналу CQD
 
-Учетная запись, используемая для просмотра отчета AA & CQ Analytics, должна иметь разрешения на доступ к каналу данных CQD. Дополнительные сведения можно найти в роли "Доступ к [CQD".](https://docs.microsoft.com/microsoftteams/turning-on-and-using-call-quality-dashboard#assign-roles-for-accessing-cqd)
+Учетная запись, используемая для просмотра отчета AA & CQ Analytics, должна иметь разрешения на доступ к каналу данных CQD. Дополнительные сведения можно найти в роли "Доступ к [CQD".](./turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd)
 
 ## <a name="installation"></a>Установка 
 
@@ -82,7 +82,7 @@ ms.locfileid: "50196243"
 
 - Выберите **"Подключиться"** и просмотрите обновление данных.
 
-## <a name="data-latency-and-aa--cq-analytics"></a>Задержка данных и аналитика CQ & AA
+## <a name="data-latency-and-aa--cq-analytics"></a>Задержка данных и аналитика & CQ
 
 Данные станут доступны в конвейере обработки данных CQD в течение 30 минут.
 
@@ -114,21 +114,21 @@ ms.locfileid: "50196243"
 |автосекретарь удостоверения                 |строка                   |Имя учетной записи ресурса, присоединенной к AA<br>Пример: aa_test@microsoft.com|
 |автосекретарь время начала цепочки         |datetime                 |Время начала цепочки АА                    |
 |автосекретарь поиска в каталоге  |строка                   |Метод поиска в последней адресной книге        |
-|автосекретарь передачи          |строка                   |Целевой тип перена передачи вызовов<br>возможные значения<br>§ unknown — тип сущности не указан<br>§ пользователь — сущность пользователя<br>§ orgaa — организационная автосекретарь организации<br>§ hunt_group — сущность очереди вызовов<br>§ приложение — сущность голосового приложения<br>§ external_pstn — внешний объект ННР<br>§ shared_voicemail — общая сущность голосовой почты|
+|автосекретарь передачи          |строка                   |Целевой тип перена передачи вызовов<br>возможные значения<br>§ unknown — тип сущности не указан<br>§ пользователь — сущность пользователя<br>§ orgaa — организационная автосекретарь организации<br>§ hunt_group — сущность очереди вызовов<br>§ приложение — сущность голосового приложения<br>§ external_pstn — внешний объект STN<br>§ shared_voicemail — общая сущность голосовой почты|
 |автосекретарь результата вызова              |строка                   |Результат вызова:<br>§ неизвестно<br>§ transferred_to_user<br>§ transferred_to_operator<br>§ failover_to_operator<br>§ user_terminated<br>§ service_declined<br>§ service_terminated<br>§ failed_to_establish_media<br>§ terminated_no_operator<br>§ terminated_transfer_failed<br>§ terminated_automatic_selection<br>§ transferred_to_shared_voicemail<br>§ oaa_chain_too_long<br>§ oaa_session_too_long|
 |автосекретарь потока вызовов                |строка                   |Различные состояния автосекретарь звонка.<br>§ abs_search<br>§ call_termination<br>§ call_transfer<br>§ main_menu<br>§ user_selection<br>§ speech_input_confirmation<br>§ first_level_menu<br>§ automatic_menu<br>Объявление §|
 |Участвует автосекретарь              |Boolean                  |Указывается, участвует ли AA в вызове |
 |автосекретарь количество действий вызываемой вызовы      |целое                      |Количество использованных действий вызываемого         |
 |автосекретарь цепочек длительности в секундах   |целое                      |Длительность вызова в АА                 |
-|Результат вызова в очереди вызовов                  |String                   |Конечное состояние очереди вызовов<br>возможные значения<br>Ошибка §<br>§ отклонено<br>§ overflown<br>§ не удалось<br>§ timed_out<br>§ transferred_to_agent<br>§ agent_joined_conference|
-|Конечное действие состояния очереди вызовов           |String                   |Конечное действие очереди вызовов<br>возможные значения<br>§ вперед<br>§ отключить<br>§ голосовая почта<br>§ disconnect_with_busy<br>§ shared_voicemail<br>§ failed_to_accept_call<br>§ другое|
+|Результат вызова в очереди вызовов                  |String                   |Конечное состояние очереди звонка<br>возможные значения<br>Ошибка §<br>§ отклонено<br>§ overflown<br>§ не удалось<br>§ timed_out<br>§ transferred_to_agent<br>§ agent_joined_conference|
+|Действие "Конечное состояние очереди вызовов"           |String                   |Конечное действие очереди вызовов<br>возможные значения<br>§ вперед<br>§ отключить<br>§ голосовая почта<br>§ disconnect_with_busy<br>§ shared_voicemail<br>§ failed_to_accept_call<br>§ другое|
 |Удостоверение очереди вызовов                     |String                   |Имя учетной записи ресурса, присоединенной к CQ<br>Пример: aa_test@microsoft.com|
 |Очередь вызовов находится в режиме конференции           |Boolean                  |Установить 1, если режим конференции включен в CQ |
 |Целевой тип очереди вызовов                  |String                   |Ожидаемый тип целевого перенаправления вызовов     |
 |Передается из удостоверения очереди вызовов    |Boolean                  |Имя учетной записи ресурса, вложенной в CQ, из которой был перенаправлен этот звонок<br>Пример: aa_test@microsoft.com|
 |Opt In Count для агента очереди вызовов           |целое                      |Количество агентов, доступных в этой очереди в момент звонка |
 |Количество агентов очереди вызовов                  |целое                      |Количество агентов, которые назначены этой очереди в момент звонка |
-|Участвует ли очередь вызовов                  |Boolean                  |Если в этот звонок вовлечена очередь 1 |
+|Участвует ли очередь вызовов                  |Boolean                  |При вовлечении очереди вызовов в этот звонок равно 1 |
 
 
 ### <a name="power-bi-data-model-dimensions"></a>Измерения модели данных Power BI
@@ -142,13 +142,13 @@ ms.locfileid: "50196243"
 |AACount                                 |строка                   |# из автосекретарь вовлечь в звонок         |
 |AADirectorySearchMethod                 |строка                   |Метод поиска, используемый при вызове:<br>§ abs_search_dtmf<br>§ abs_search_extension<br>§ abs_search_name<br>
 |AAStartTime                             |строка                   |Время вызова в UTC      |
-|AATransferAction                        |строка                   |Приемник звонка:<br>§ unknown — тип сущности не указан<br>§ пользователь — сущность пользователя<br>§ AA — организационная автосекретарь организации<br>§ CQ — сущность очереди вызовов<br>§ приложение — сущность голосового приложения<br>§ external_pstn — внешний объект ННР<br>§ shared_voicemail — общая сущность голосовой почты      |
+|AATransferAction                        |строка                   |Приемник звонка:<br>§ unknown — тип сущности не указан<br>§ пользователь — сущность пользователя<br>§ AA — организационная автосекретарь организации<br>§ CQ — сущность очереди вызовов<br>§ приложение — сущность голосового приложения<br>§ external_pstn — внешний объект STN<br>§ shared_voicemail — общая сущность голосовой почты      |
 |PSTNMinutes                             |целое                      |Общее использование минут                          |
-|Результат вызова в очереди вызовов                  |строка                   |Конечное состояние очереди вызовов<br>возможные значения<br>Ошибка §<br>§ отклонено<br>§ overflown<br>§ не удалось<br>§ timed_out<br>§ transferred_to_agent<br>§ agent_joined_conference    |
+|Результат вызова в очереди вызовов                  |строка                   |Конечное состояние очереди звонка<br>возможные значения<br>Ошибка §<br>§ отклонено<br>§ overflown<br>§ не удалось<br>§ timed_out<br>§ transferred_to_agent<br>§ agent_joined_conference    |
 |Удостоверение очереди вызовов                     |строка                   |Имя учетной записи ресурса, присоединенной к CQ     |
 |Целевой тип очереди вызовов                  |строка                   |Ожидаемый тип перенаправления вызовов:<br>§ Пользователь<br>§ Конечная точка приложения<br>§ Other     |
-|Результат вызова в очереди вызовов                  |строка                   |Конечное состояние очереди вызовов<br>возможные значения<br>Ошибка §<br>§ отклонено<br>§ overflown<br>§ не удалось<br>§ timed_out<br>§ transferred_to_agent<br>§ agent_joined_conference           |
-|Конечное действие состояния очереди вызовов           |строка                   |Конечное действие очереди вызовов<br>возможные значения<br>§ вперед<br>§ отключить<br>§ голосовая почта<br>§ disconnect_with_busy<br>§ shared_voicemail<br>§ failed_to_accept_call<br>§ другое             |
+|Результат вызова в очереди вызовов                  |строка                   |Конечное состояние очереди звонка<br>возможные значения<br>Ошибка §<br>§ отклонено<br>§ overflown<br>§ не удалось<br>§ timed_out<br>§ transferred_to_agent<br>§ agent_joined_conference           |
+|Действие "Конечное состояние очереди вызовов"           |строка                   |Конечное действие очереди вызовов<br>возможные значения<br>§ вперед<br>§ отключить<br>§ голосовая почта<br>§ disconnect_with_busy<br>§ shared_voicemail<br>§ failed_to_accept_call<br>§ другое             |
 |Имя агента                              |строка                   |Имя пользователя (UPN)               |
 
 

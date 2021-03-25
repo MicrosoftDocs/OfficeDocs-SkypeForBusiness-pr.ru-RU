@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b4a6f59223103527b9a2ad95101a2a8ab5044caf
-ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
+ms.openlocfilehash: ed657590e024104e773b7a96b785b3b3db0ccbfc
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49909373"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120750"
 ---
 # <a name="how-to-provision-teams-at-scale-for-frontline-workers"></a>Как подготовить Teams в масштабе для сотрудников без компьютеров
 
@@ -190,7 +190,7 @@ Connect-MicrosoftTeams -Credential $teams_cred
 #### <a name="steps-to-create-teams-message-policies"></a>Шаги для создания политик сообщений команд
 
 1. Найдите файл **TeamsMessagingPolicies.csv** в папке сценариев в хранилище.
-1. Обновите файл **TeamsMessagingPolicies.csv**, указав конкретные данные вашей организации. Дополнительную информацию о некоторых из различных опций можно найти [здесь](https://docs.microsoft.com/microsoftteams/messaging-policies-in-teams#messaging-policy-settings).
+1. Обновите файл **TeamsMessagingPolicies.csv**, указав конкретные данные вашей организации. Дополнительную информацию о некоторых из различных опций можно найти [здесь](./messaging-policies-in-teams.md#messaging-policy-settings).
 1. Найдите сценарий **CreateTeamsMessagePolicies.ps1** в папке сценариев в хранилище.
 1. В PowerShell запустите сценарий **CreateTeamsMessagePolicies.ps1**.
 
@@ -211,7 +211,7 @@ Connect-MicrosoftTeams -Credential $teams_cred
 
 #### <a name="create-the-frontline-manager-app-setup-policy"></a>Создание политики настройки приложения для руководителя без компьютера
 
-Следующие параметры могут быть настроены в соответствии с потребностями вашего бизнеса. Мы выбрали некоторые рекомендуемые варианты, основанные на передовых методах и для упрощения адаптации новых пользователей в масштабе. Дополнительные сведения см. [здесь](https://docs.microsoft.com/MicrosoftTeams/teams-app-setup-policies#create-a-custom-app-setup-policy).
+Следующие параметры могут быть настроены в соответствии с потребностями вашего бизнеса. Мы выбрали некоторые рекомендуемые варианты, основанные на передовых методах и для упрощения адаптации новых пользователей в масштабе. Дополнительные сведения см. [здесь](./teams-app-setup-policies.md#create-a-custom-app-setup-policy).
 
 1. В левой части панели администрирования Microsoft Teams перейдите в раздел  **Приложения Teams** > **Политики установки**.
 2. Нажмите  **Добавить**.  
@@ -235,7 +235,7 @@ Connect-MicrosoftTeams -Credential $teams_cred
 
 #### <a name="create-the-frontline-worker-app-setup-policy"></a>Создание политики настройки приложения для сотрудника без компьютера
 
-Следующие параметры могут быть настроены в соответствии с потребностями вашего бизнеса. Мы выбрали некоторые рекомендуемые варианты, основанные на передовых методах и для упрощения адаптации новых пользователей в масштабе. Дополнительные сведения см. [здесь](https://docs.microsoft.com/MicrosoftTeams/teams-app-setup-policies#create-a-custom-app-setup-policy).
+Следующие параметры могут быть настроены в соответствии с потребностями вашего бизнеса. Мы выбрали некоторые рекомендуемые варианты, основанные на передовых методах и для упрощения адаптации новых пользователей в масштабе. Дополнительные сведения см. [здесь](./teams-app-setup-policies.md#create-a-custom-app-setup-policy).
 
 1. В левой части панели администрирования Microsoft Teams перейдите в раздел  **Приложения Teams** > **Политики установки**.
 2. Нажмите  **Добавить**.
@@ -297,8 +297,8 @@ Connect-MicrosoftTeams -Credential $teams_cred
 Для работы с большим количеством пользователей в Teams сначала необходимо создать пользователей в Azure AD. Есть много способов обеспечить большое количество пользователей, но мы собираемся подчеркнуть следующее:
 
 - Если эти пользователи уже существуют в одной из следующих систем управления персоналом, используйте следующие ссылки для настройки обеспечения пользователей:
-  - Факторы успеха SAP - [Учебное пособие: настройте SAP SuccessFactors для обеспечения доступа пользователей Active Directory](https://docs.microsoft.com/azure/active-directory/saas-apps/sap-successfactors-inbound-provisioning-tutorial).
-  - Рабочий день - [Учебное пособие: настройка рабочего дня для автоматической подготовки пользователей](https://docs.microsoft.com/azure/active-directory/saas-apps/workday-inbound-tutorial).
+  - Факторы успеха SAP - [Учебное пособие: настройте SAP SuccessFactors для обеспечения доступа пользователей Active Directory](/azure/active-directory/saas-apps/sap-successfactors-inbound-provisioning-tutorial).
+  - Рабочий день - [Учебное пособие: настройка рабочего дня для автоматической подготовки пользователей](/azure/active-directory/saas-apps/workday-inbound-tutorial).
 - Если у вас есть информация о пользователе в других системах, выполните следующие действия.
 
 Для более эффективного управления этими пользователями в масштабе необходимо создать две группы безопасности для сотрудников без компьютеров и руководителей без компьютеров, а также подготовить этих пользователей непосредственно в группах безопасности, выполнив следующие действия.
@@ -310,7 +310,7 @@ Connect-MicrosoftTeams -Credential $teams_cred
 1. Найдите файл **SecurityGroups.csv** в папке сценариев в хранилище.
 1. Обновите файл **SecurityGroups.csv**, указав информацию о конкретной группе безопасности вашей организации.
     1. Обязательно обновите поля **MessagePolicy**, **AppPermissionPolicy** и **AppSetupPolicy**, чтобы они соответствовали соответствующим политикам, созданным ранее.
-    1. Обязательно обновите поле **LicensePlan**, чтобы отразить лицензирование, которое вы намереваетесь предоставить каждому из этих пользователей. Для получения дополнительной информации об названиях продуктов и идентификаторах планов обслуживания просмотрите документацию [здесь](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-service-plan-reference).
+    1. Обязательно обновите поле **LicensePlan**, чтобы отразить лицензирование, которое вы намереваетесь предоставить каждому из этих пользователей. Для получения дополнительной информации об названиях продуктов и идентификаторах планов обслуживания просмотрите документацию [здесь](/azure/active-directory/users-groups-roles/licensing-service-plan-reference).
 1. В PowerShell запустите скрипт **CreateUsers.ps1** из ресурсов.
 
 ### <a name="assign-licensing-to-users-via-group-based-licensing"></a>Назначение лицензирования пользователям через групповое лицензирование
@@ -379,7 +379,7 @@ Connect-MicrosoftTeams -Credential $teams_cred
 
 ## <a name="further-reading"></a>Дополнительные материалы
 
-- [Создать канал группы (PowerShell)](https://docs.microsoft.com/powershell/module/teams/new-teamchannel?view=teams-ps)
-- [Новая политика обмена сообщениями группы (PowerShell)](https://docs.microsoft.com/powershell/module/skype/new-csteamsmessagingpolicy?view=skype-ps)
+- [Создать канал группы (PowerShell)](/powershell/module/teams/new-teamchannel?view=teams-ps)
+- [Новая политика обмена сообщениями группы (PowerShell)](/powershell/module/skype/new-csteamsmessagingpolicy?view=skype-ps)
 - [Назначение политик вашим пользователям в Microsoft Teams](assign-policies.md#install-and-connect-to-the-microsoft-teams-powershell-module)
-- [Назначение лицензий и учетных записей пользователей с помощью Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell)
+- [Назначение лицензий и учетных записей пользователей с помощью Office 365 PowerShell](/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell)
