@@ -1,8 +1,8 @@
 ### YamlMime:Landing
-title: Документация по Skype для бизнеса Server 2015
+title: Документация Skype для бизнеса Server 2015
 summary: Узнайте, как реализовать Skype для бизнеса Server 2015.
 metadata:
-  title: Документация по Skype для бизнеса Server 2015
+  title: Документация Skype для бизнеса Server 2015
   description: Узнайте, как реализовать Skype для бизнеса Server 2015.
   ms.service: skype-for-business-online
   audience: ITPro
@@ -11,25 +11,25 @@ metadata:
   author: lanachin
   ms.author: v-lanac
   ms.date: 06/23/2020
-  ms.openlocfilehash: ec8397ba718cf31a5b92f9b4ce8c26f6e5b709be
-  ms.sourcegitcommit: e2ce0a0c26f31bb09413c0999380301d7b693331
+  ms.openlocfilehash: cdd61230fc047091d30aa1cc6eebb20057e9288c
+  ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
   ms.translationtype: MT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 07/21/2020
-  ms.locfileid: "45189366"
+  ms.lasthandoff: 03/23/2021
+  ms.locfileid: "51118508"
 landingContent:
 - title: О Skype для бизнеса Server 2015
   linkLists:
   - linkListType: overview
     links:
     - text: Требования к среде
-      url: /SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment
+      url: ./plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment.md
     - text: Требования к сети
-      url: /SkypeForBusiness/plan-your-deployment/network-requirements/network-requirements
+      url: ./plan-your-deployment/network-requirements/network-requirements.md
     - text: Трансляция собраний Skype
       url: https://support.office.com/article/what-is-a-skype-meeting-broadcast-c472c76b-21f1-4e4b-ab58-329a6c33757d
     - text: Технические графики
-      url: /SkypeForBusiness/technical-diagrams
+      url: ./technical-diagrams.md
   - linkListType: download
     links:
     - text: Скачайте сейчас!
@@ -39,38 +39,38 @@ landingContent:
   - linkListType: overview
     links:
     - text: Планирование развертывания
-      url: /SkypeForBusiness/plan-your-deployment/plan-your-deployment
+      url: ./plan-your-deployment/plan-your-deployment.md
     - text: Планирование гибридного подключения
       url: /SkypeForBusiness/skype-for-business-hybrid-solutions/plan-hybrid-connectivity
-    - text: Планирование клиентов и устройств
-      url: /SkypeForBusiness/plan-your-deployment/clients-and-devices/clients-and-devices
-    - text: Планирование решения Корпоративная голосовая связь решения
-      url: /SkypeForBusiness/plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution
+    - text: Планирование для клиентов и устройств
+      url: ./plan-your-deployment/clients-and-devices/clients-and-devices.md
+    - text: Планирование Корпоративная голосовая связь решения
+      url: ./plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution.md
 - title: Установка и управление
   linkLists:
   - linkListType: deploy
     links:
     - text: Развертывание Skype для бизнеса Server
-      url: /SkypeForBusiness/deploy/deploy
+      url: ./deploy/deploy.md
     - text: Установка Skype для бизнеса Server
-      url: /SkypeForBusiness/deploy/install/install
+      url: ./deploy/install/install.md
     - text: Обновление до Skype для бизнеса Server
-      url: /SkypeForBusiness/deploy/upgrade-to-skype-for-business-server
+      url: ./deploy/upgrade-to-skype-for-business-server.md
     - text: Развертывание корпоративной голосовой связи
-      url: /SkypeForBusiness/deploy/deploy-enterprise-voice/deploy-enterprise-voice
+      url: ./deploy/deploy-enterprise-voice/deploy-enterprise-voice.md
     - text: Настройка локального развертывания для трансляции собраний Skype
-      url: /SkypeForBusiness/deploy/configure-skype-meeting-broadcast
+      url: ./deploy/configure-skype-meeting-broadcast.md
   - linkListType: how-to-guide
     links:
     - text: Управление Skype для бизнеса Server
-      url: /SkypeForBusiness/manage/manage
+      url: ./manage/manage.md
 - title: Другие ресурсы
   linkLists:
   - linkListType: overview
     links:
-    - text: Серия "Готовность Skype для бизнеса"
+    - text: Серия готовности Skype для бизнеса
       url: https://infopedia.eventbuilder.com/?landingpageid=7p1c8p
-    - text: Документация по Skype для бизнеса Server 2019
-      url: /SkypeForBusiness/skype-for-business-server-2019
-    - text: Документация по Lync Server 2013
+    - text: Документация Skype для бизнеса Server 2019
+      url: ../SfBServer2019/skype-for-business-server-2019.yml
+    - text: Документация Lync Server 2013
       url: /lyncserver/microsoft-lync-server-2013
