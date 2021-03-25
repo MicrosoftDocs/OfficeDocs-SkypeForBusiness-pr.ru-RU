@@ -18,16 +18,16 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bb5e415128baae6bfc458b5d0000128010a9b5cd
-ms.sourcegitcommit: 71b9b5ec80014bd25758493bc06d633c4eac735c
+ms.openlocfilehash: 368c4dace7a7ba14cb13f3a027b9d04ee63dc17b
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50867048"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119208"
 ---
 # <a name="manage-the-microsoft-teams-exploratory-license"></a>Управление лицензией на Microsoft Teams Exploratory
 
-Предложение Microsoft Teams Exploratory позволяет пользователям в вашей организации с лицензией на Azure Active Directory (Azure AD) и без лицензии на Teams оформить лицензию на Teams Exploratory. Администраторы могут включать и отключать эту функцию для пользователей в организации. Предыдущее предложение [Microsoft Commercial Cloud Trial](iw-trial-teams.md) заменено предложением Teams Exploratory.
+Предложение Microsoft Teams Exploratory позволяет пользователям в вашей организации с лицензией на Azure Active Directory (Azure AD) и без лицензии на Teams оформить лицензию на Teams Exploratory. Администраторы могут включать и отключать эту функцию для пользователей в организации. Предыдущее предложение [Microsoft Commercial Cloud Trial]() заменено предложением Teams Exploratory.
 
 > [!NOTE]
 > Существует ограничение в 100 лицензий Microsoft Teams Exploratory на клиент.
@@ -151,7 +151,7 @@ ms.locfileid: "50867048"
 
 3. Назначьте приобретенную лицензию.
 
-Для получения дополнительной информации см. [Описание службы Microsoft Teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).
+Для получения дополнительной информации см. [Описание службы Microsoft Teams](/office365/servicedescriptions/teams-service-description).
 
 > [!NOTE]
 > Если срок действия лицензии на Teams Exploratory закончится и пользователь сразу не перейдет на подписку, включающую Teams, у пользователя будет 30 дней льготного периода, а затем еще 30 дней, после чего данные будут удалены. Пользователь по-прежнему будет существовать в Azure Active Directory. После того, как пользователю будет назначена новая лицензия для повторного включения функций Teams, содержимое будет по-прежнему существовать, если пользователь будет добавлен в течение льготного периода.
@@ -164,13 +164,13 @@ ms.locfileid: "50867048"
 
 ### <a name="remove-a-teams-exploratory-license"></a>Удаление лицензии на Teams Exploratory
 
-- Если вы хотите удалить эту лицензию с помощью PowerShell, см. статью [Использование PowerShell в Office 365 для удаления лицензий из учетных записей пользователей](https://docs.microsoft.com/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell)
+- Если вы хотите удалить эту лицензию с помощью PowerShell, см. статью [Использование PowerShell в Office 365 для удаления лицензий из учетных записей пользователей](/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell)
 
-- Если вы хотите удалить эту лицензию на портале администрирования, см. статью [Удаление пользователя из организации](https://docs.microsoft.com/microsoft-365/admin/add-users/delete-a-user)
+- Если вы хотите удалить эту лицензию на портале администрирования, см. статью [Удаление пользователя из организации](/microsoft-365/admin/add-users/delete-a-user)
 
 ## <a name="what-is-the-data-retention-policy"></a>Что такое политика хранения данных
 
-См. [Сведения о подписке на Microsoft 365](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/what-if-my-subscription-expires?view=o365-worldwide).
+См. [Сведения о подписке на Microsoft 365](/microsoft-365/commerce/subscriptions/what-if-my-subscription-expires?view=o365-worldwide).
 
 ## <a name="how-long-does-the-teams-exploratory-experience-last"></a>Срок действия предложения Teams Exploratory
 
@@ -188,4 +188,3 @@ ms.locfileid: "50867048"
 > Возможность запуска клиентами новых лицензий на пробную версию Exploratory будет отключена и заблокирована в течение 3 месяцев после истечения срока действия предыдущей лицензии на пробную версию Exploratory.
 
 Дополнительные сведения см. в разделе [Повышение статуса пользователей с лицензией Teams Exploratory](#upgrade-users-from-the-teams-exploratory-license)) выше в этой статье.
-

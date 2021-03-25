@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f7d3825676e5846439c3f40314f4206d9ad76216
-ms.sourcegitcommit: b816ae9de91f3d01e795a69a00465a70003069b2
+ms.openlocfilehash: 820689e2bcfa190afefda9d161c787c6be9a7da0
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/16/2020
-ms.locfileid: "49686445"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51118478"
 ---
 # <a name="cortana-voice-assistance-in-teams"></a>Голосовая помощь Кортаны в Teams
 
@@ -34,7 +34,7 @@ ms.locfileid: "49686445"
 > [!Note]
 > Голосовая помощь Кортаны в комнатах Microsoft Teams выпущена в режиме предварительной версии. В предварительной версии Кортана поддерживается только в США с языком EN-US на устройствах, на которые подключены микрофоны В этом режиме.
 
-Голосовая помощь Кортаны в мобильном приложении Teams, в комнатах Microsoft Teams для Windows и устройствах отображения Microsoft Teams позволяет пользователям Microsoft 365 корпоративный оптимизировать взаимодействие, совместную работу и задачи, связанные с собраниями, с использованием естественного языка речи. Пользователи могут говорить с Кортаной, нажав кнопку микрофона в правом верхнем верхнем приложении Teams или нажав &#8220;Кортана&#8221; в комнате Microsoft Teams или при использовании дисплея Microsoft Teams. Чтобы быстро общаться с командой без рук и в путь, пользователи могут делать запросы, например &#8220;позвонить&#8221; или &#8220;отправить сообщение на мое следующее собрание&#8221;. Пользователи также могут присоединиться к собранию, &#8220;присоединиться к следующему собранию и&#8221; использовать голосовую помощь для обмена файлами, проверки календаря и многого другого. Эти голосовые помощники оказания услуг, которые полностью соответствуют требованиям конфиденциальности, безопасности и соответствия требованиям Office 365, отражаются в Условиях использования [веб-служб](https://docs.microsoft.com/microsoft-365/admin/misc/cortana-integration?view=o365-worldwide) [(OST).](https://www.microsoft.com/licensing/product-licensing/products?rtc=1)
+Голосовая помощь Кортаны в мобильном приложении Teams, в комнатах Microsoft Teams для Windows и устройствах отображения Microsoft Teams позволяет пользователям Microsoft 365 корпоративный оптимизировать взаимодействие, совместную работу и задачи, связанные с собраниями, с использованием естественного языка речи. Пользователи могут говорить с Кортаной, нажав кнопку микрофона в правом верхнем верхнем приложении Teams или нажав &#8220;Кортана&#8221; в комнате Microsoft Teams или при использовании дисплея Microsoft Teams. Чтобы быстро общаться с командой без рук и в путь, пользователи могут делать запросы, например &#8220;позвонить&#8221; или &#8220;отправить сообщение на мое следующее собрание&#8221;. Пользователи также могут присоединиться к собранию, &#8220;присоединиться к следующему собранию и&#8221; использовать голосовую помощь для обмена файлами, проверки календаря и многого другого. Эти голосовые помощники оказания услуг Кортаны корпоративного уровня, которые полностью соответствуют требованиям конфиденциальности, безопасности и соответствия требованиям Office 365, как отражается в Условиях использования [веб-служб](/microsoft-365/admin/misc/cortana-integration?view=o365-worldwide) [(OST).](https://www.microsoft.com/licensing/product-licensing/products?rtc=1)
 
 На изображении показана отправка чата с помощью Кортаны на мобильном устройстве.
 
@@ -48,15 +48,15 @@ ms.locfileid: "49686445"
 
 Администраторы могут использовать для управления этой политикой следующие командлеты PowerShell (в настоящее время политика недоступна в Центре администрирования Microsoft Teams).
 
-- [New-CsTeamsCortanaPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsTeamsCortanaPolicy)
+- [New-CsTeamsCortanaPolicy](/powershell/module/skype/New-CsTeamsCortanaPolicy)
 
-- [Get-CsTeamsCortanaPolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsTeamsCortanaPolicy)
+- [Get-CsTeamsCortanaPolicy](/powershell/module/skype/Get-CsTeamsCortanaPolicy)
 
-- [Grant-CsTeamsCortanaPolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsTeamsCortanaPolicy)
+- [Grant-CsTeamsCortanaPolicy](/powershell/module/skype/Grant-CsTeamsCortanaPolicy)
 
-- [Set-CsTeamsCortanaPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsTeamsCortanaPolicy)
+- [Set-CsTeamsCortanaPolicy](/powershell/module/skype/Set-CsTeamsCortanaPolicy)
 
-- [Remove-CsTeamsCortanaPolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsTeamsCortanaPolicy)
+- [Remove-CsTeamsCortanaPolicy](/powershell/module/skype/Remove-CsTeamsCortanaPolicy)
 
 Например, с помощью приведенной ниже команды создается новая политика с именем &#8220;EmployeeCortanaPolicy&#8221; где отключена голосовая помощь Кортаны в Microsoft Teams.  
 

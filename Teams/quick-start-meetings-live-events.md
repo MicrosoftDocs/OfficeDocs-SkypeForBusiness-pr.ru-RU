@@ -20,12 +20,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 58f871e8e741856253667649484ac429bb68dd2c
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.openlocfilehash: cafd88594935565595a48a55c6a6b8f07d254345
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50460829"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117677"
 ---
 # <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>Краткое руководство для администраторов: собрания и трансляции в Microsoft Teams
 
@@ -50,7 +50,7 @@ ms.locfileid: "50460829"
 >
 > <sup>2</sup> Для подключения к собранию с помощью функции [**Позвонить мне на** номер](set-up-the-call-me-feature-for-your-users.md) требуется, чтобы у организаторов была лицензия E5 или [лицензия для надстройки аудиоконференций](teams-add-on-licensing/microsoft-teams-add-on-licensing.md). Также может потребоваться [абонентская группа](what-are-dial-plans.md).
 
-Чтобы узнать больше о лицензировании, прочтите [описание службы Microsoft Teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).
+Чтобы узнать больше о лицензировании, прочтите [описание службы Microsoft Teams](/office365/servicedescriptions/teams-service-description).
 
 ## <a name="make-sure-your-networks-ready"></a>Проверка готовности сети
 
@@ -66,7 +66,7 @@ ms.locfileid: "50460829"
 
 - Сведения об управлении параметрами собраний см. в статье [Изменение параметров участников для собраний Teams](https://support.microsoft.com/article/change-participant-settings-for-a-teams-meeting-53261366-dbd5-45f9-aae9-a70e6354f88e).
 
-- Не забудьте об [управлении устройствами пользователей](device-management.md) — телефонами, гарнитурами и камерами. Чтобы получить актуальные сведения об устройствах, сертифицированных для Teams, перейдите в раздел [Устройства Teams](https://office.com/teamsdevices).
+- Не забудьте об [управлении устройствами пользователей](./devices/device-management.md) — телефонами, гарнитурами и камерами. Чтобы получить актуальные сведения об устройствах, сертифицированных для Teams, перейдите в раздел [Устройства Teams](https://office.com/teamsdevices).
 
 ## <a name="live-events"></a>Трансляции
 

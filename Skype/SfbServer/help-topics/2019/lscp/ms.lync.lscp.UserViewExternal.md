@@ -1,5 +1,5 @@
 ---
-title: Пользователи просматривают или настраивают политику внешнего доступа
+title: Просмотр или настройка политики внешнего доступа пользователей
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,18 +15,15 @@ localization_priority: Normal
 ms.assetid: 7065ebf2-15cc-44cf-9282-d64a86e3185a
 ROBOTS: NOINDEX, NOFOLLOW
 description: Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
-ms.openlocfilehash: deaf58a7ec767b4b27c368beb2e86255c69fe0dc
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 014e5888318318987343908a7392ba61af60c9a6
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49808139"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51118708"
 ---
 # <a name="users-view-or-configure-external-access-policy"></a>Пользователи: просмотр или настройка политики внешнего доступа
 
 Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
 
-- [Настройка федерации, удаленного доступа пользователей и подключения к общедоступным мгновенным данным для пользователей](https://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
-
-
-
+- [Настройка федерации, удаленного доступа к пользователю и общедоступных подключений к чату для пользователей](/previous-versions/office/lync-server-2013/lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user)

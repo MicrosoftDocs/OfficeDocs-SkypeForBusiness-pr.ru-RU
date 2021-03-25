@@ -17,12 +17,12 @@ metadata:
   ms.custom:
   - ms.teamsadmincenter.dashboard.helparticle.sfboadmindocumentation
   ms.date: 06/24/2020
-  ms.openlocfilehash: fe7199d98c010f1ade9dc8b2c7cc9a320aed5719
-  ms.sourcegitcommit: 824c79bd050b0abb576004f6209bb081d5090a8f
+  ms.openlocfilehash: 46c5502a9dbcdb06f16845cbaf36c04db6021393
+  ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
   ms.translationtype: MT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 07/29/2020
-  ms.locfileid: "46522971"
+  ms.lasthandoff: 03/23/2021
+  ms.locfileid: "51118928"
 landingContent:
 - title: О Skype для бизнеса Online
   linkLists:
@@ -41,9 +41,9 @@ landingContent:
     - text: Помощь по входу в Skype для бизнеса
       url: https://support.office.com/article/448b8ea7-5b33-444a-afd4-175fc9930d05
     - text: Устранение проблем со Skype для бизнеса Online
-      url: /SkypeForBusiness/set-up-skype-for-business-online/troubleshoot-problems-with-skype-for-business-online
+      url: ./set-up-skype-for-business-online/troubleshoot-problems-with-skype-for-business-online.md
     - text: Переход со Skype для бизнеса на Teams
-      url: https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here
+      url: /MicrosoftTeams/upgrade-start-here
 - title: Новые возможности
   linkLists:
   - linkListType: how-to-guide
@@ -51,7 +51,7 @@ landingContent:
     - text: Настройка телефонной системы в организации
       url: /microsoftteams/setting-up-your-phone-system
     - text: Сторонняя интеграция с Аудиоконференциями
-      url: /SkypeForBusiness/legal-and-regulatory/end-of-integration-with-3rd-party-providers
+      url: ./legal-and-regulatory/end-of-integration-with-3rd-party-providers.md
     - text: Настройка аудиоконференций
       url: /microsoftteams/audio-conferencing-in-office-365
   - linkListType: overview
@@ -60,7 +60,7 @@ landingContent:
       url: /MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-canada
     - text: Планы звонков в Австралии (только предварительная версия)
       url: /MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia
-- title: Аудиоконференция
+- title: Аудиоконференции
   linkLists:
   - linkListType: overview
     links:
@@ -71,7 +71,7 @@ landingContent:
   - linkListType: how-to-guide
     links:
     - text: Управление настройками аудиоконференции для организации
-      url: /SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-my-organization
+      url: ./audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-my-organization.md
     - text: Сравнение поставщиков аудиоконференций
       url: /SkypeForBusiness/audio-conferencing-in-office-365/compare-audio-conferencing-providers
 - title: Настройка
@@ -79,17 +79,17 @@ landingContent:
   - linkListType: how-to-guide
     links:
     - text: Настройка Skype для бизнеса Online
-      url: /SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online
+      url: ./set-up-skype-for-business-online/set-up-skype-for-business-online.md
     - text: Разрешите пользователям связываться с внешними пользователями Skype для бизнеса
-      url: /SkypeForBusiness/set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users
+      url: ./set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users.md
     - text: Разрешение на добавление контактов Skype пользователям Skype для бизнеса
-      url: /SkypeForBusiness/set-up-skype-for-business-online/let-skype-for-business-users-add-skype-contacts
+      url: ./set-up-skype-for-business-online/let-skype-for-business-users-add-skype-contacts.md
 - title: Лицензирование надстроек
   linkLists:
   - linkListType: overview
     links:
     - text: Лицензирование надстроек Skype для бизнеса и Microsoft Teams
-      url: /SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing
+      url: ./skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md
     - text: Что такое кредиты на связь?
       url: /MicrosoftTeams/what-are-communications-credits
 - title: Планы звонков

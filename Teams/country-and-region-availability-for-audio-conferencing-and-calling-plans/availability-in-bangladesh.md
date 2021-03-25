@@ -24,18 +24,18 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Ниже находятся службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные в Бангладеш.
-ms.openlocfilehash: e271e0328e787326921d0fe931a643c3b5ba924e
-ms.sourcegitcommit: a73df97a06ea860bfaf5387e0acbf3c724697e14
+ms.openlocfilehash: 0fa2c72b28ca2bb176a4e076bcd78eee301bd9ef
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "44902234"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51118398"
 ---
 # <a name="availability-in-bangladesh"></a>Доступность в Бангладеш
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже находятся службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Бангладеш.
+Ниже находятся службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные в Бангладеш.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 
@@ -43,7 +43,7 @@ ms.locfileid: "44902234"
 |:-----|:-----|
 |Доступно ли приобретение аудиоконференций?  <br/> |Да. Только оплата за минуту. <br/> |
 |Номера телефонов автоматически назначаются для аудио конференций?  <br/> | Нет |
-|Возможность дозвона с помощью функции «Позвони мне»  <br/> | Требуются кредиты связи <br/> |
+|Возможность получить обратный звонок с функцией "Звонок на мой номер"  <br/> | Требуются кредиты связи <br/> |
    
 ## <a name="phone-system"></a>Телефонная система
 
@@ -72,7 +72,7 @@ ms.locfileid: "44902234"
 |Доступны ли платные номера?  <br/> |Не географическое[(по запросу)](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) <br/> |
 |Доступны ли бесплатные номера?  <br/> |Нет  <br/> |
    
- Если вы хотите получить платные и бесплатные номера телефонов для аудиоконференций, автоотетарей и очередей звонков, см. получение номеров телефонов служб для Skype для бизнеса и [Microsoft Teams.](/microsoftteams/getting-service-phone-numbers)
+ Если вы хотите получить платные и бесплатные номера телефонов для аудиоконференций, автоотетарей и очередей звонков, см. получение номеров телефонов служб для Skype для бизнеса и [Microsoft Teams.](../getting-service-phone-numbers.md)
   
 ## <a name="communications-credits"></a>Кредиты на связь
 
@@ -84,7 +84,6 @@ ms.locfileid: "44902234"
   
 ## <a name="related-topics"></a>Статьи по теме
 
-[Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
+[Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](../getting-service-phone-numbers.md)
 
 [Доступность аудиоконференций и планов звонков в различных странах и регионах](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-

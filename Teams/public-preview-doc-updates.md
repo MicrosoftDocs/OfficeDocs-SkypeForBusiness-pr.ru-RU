@@ -18,12 +18,12 @@ description: Ознакомьтесь с общедоступной предва
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: 60ed1c821389fb56d6e6bfb4ab4a37e562be726a
-ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
+ms.openlocfilehash: cc3dca351924daa368658a8f0c110099768e9986
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50196223"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117707"
 ---
 # <a name="microsoft-teams-public-preview"></a>Общедоступная предварительная версия Microsoft Teams
 
@@ -32,7 +32,7 @@ ms.locfileid: "50196223"
 
 Общедоступная предварительная версия Microsoft Teams обеспечивает ранний доступ к невыпущенным функциям в Teams. Предварительные версии позволяют вам изучать и тестировать будущие функции. Мы также будем рады вашим отзывам о любых функциях из общедоступных предварительных версий. Общедоступная предварительная версия включается для каждого пользователя Teams отдельно, поэтому вам не нужно беспокоиться о влиянии на всю вашу организацию.
 
-Список возможностей, присутствующих в общедоступной предварительной версии Teams, см. в [заметках о выпуске Актуального канала Office (предварительная версия)](https://docs.microsoft.com/officeupdates/current-channel-preview).
+Список возможностей, присутствующих в общедоступной предварительной версии Teams, см. в [заметках о выпуске Актуального канала Office (предварительная версия)](/officeupdates/current-channel-preview).
 
 ## <a name="set-the-update-policy"></a>Настройка политики обновления
 
@@ -58,5 +58,4 @@ ms.locfileid: "50196223"
 
 ## <a name="related-topics"></a>Статьи по теме
 
-[Предварительная общедоступная версия для разработчиков](https://docs.microsoft.com/microsoftteams/platform/resources/dev-preview/developer-preview-intro)
-
+[Предварительная общедоступная версия для разработчиков](/microsoftteams/platform/resources/dev-preview/developer-preview-intro)

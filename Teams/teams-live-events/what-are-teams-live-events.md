@@ -22,12 +22,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 78e2fdb6b205316dfd8a715c12613be1486302f5
-ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
+ms.openlocfilehash: b93a3b5ecbe7b9edcc54034635721ee3b6db610b
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "49918995"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119128"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Что такое трансляции Microsoft Teams
 
@@ -82,8 +82,8 @@ Teams обеспечивает совместную работу в чате, з
 
 Платформа потоковой передачи трансляций состоит из следующих частей:
 
-- **Службы мультимедиа Azure**:  [Службы мультимедиа Azure](https://docs.microsoft.com/azure/media-services/previous/) предоставляют службы потокового видео вещательного качества для охвата более широкой аудитории на самых популярных современных мобильных устройствах. Службы мультимедиа повышают доступность, распространение и масштабируемость, а также делают потоковую передачу содержимого на местную или мировую аудиторию легкой и экономически эффективной, при этом защищая ваше содержимое.
-- **Сеть доставки содержимого Azure (CDN)**:  После запуска потоковой передачи, она будет осуществляться через [Сеть доставки содержимого Azure (CDN)](https://docs.microsoft.com/azure/cdn/). Службы мультимедиа Azure предоставляют интегрированную сеть CDN для конечных точек потоковой передачи. Это позволяет просматривать трансляции по всему миру без буферизации.
+- **Службы мультимедиа Azure**:  [Службы мультимедиа Azure](/azure/media-services/previous/) предоставляют службы потокового видео вещательного качества для охвата более широкой аудитории на самых популярных современных мобильных устройствах. Службы мультимедиа повышают доступность, распространение и масштабируемость, а также делают потоковую передачу содержимого на местную или мировую аудиторию легкой и экономически эффективной, при этом защищая ваше содержимое.
+- **Сеть доставки содержимого Azure (CDN)**:  После запуска потоковой передачи, она будет осуществляться через [Сеть доставки содержимого Azure (CDN)](/azure/cdn/). Службы мультимедиа Azure предоставляют интегрированную сеть CDN для конечных точек потоковой передачи. Это позволяет просматривать трансляции по всему миру без буферизации.
 
 ### <a name="enterprise-content-delivery-network-ecdn"></a>Корпоративная сеть доставки содержимого (eCDN)
 
@@ -110,7 +110,7 @@ Teams обеспечивает совместную работу в чате, з
 
 ### <a name="related-topics"></a>Статьи по теме
 
-- [Трансляции в Microsoft 365 в Yammer, Microsoft Teams и Microsoft Stream](https://docs.microsoft.com/stream/live-event-m365)
+- [Трансляции в Microsoft 365 в Yammer, Microsoft Teams и Microsoft Stream](/stream/live-event-m365)
 - [Начало работы с трансляциями Microsoft Teams](https://support.office.com/article/d077fec2-a058-483e-9ab5-1494afda578a)
 - [Прямые трансляции в Yammer](https://support.office.com/article/live-events-in-yammer-4ece0ee2-c268-4636-bf2a-16e454befe57)
-- [Трансляции в Microsoft Stream](https://docs.microsoft.com/stream/live-event-overview)
+- [Трансляции в Microsoft Stream](/stream/live-event-overview)

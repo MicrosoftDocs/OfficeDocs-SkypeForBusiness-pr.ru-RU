@@ -14,35 +14,35 @@ f1.keywords:
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
-description: Примеры использования PowerShell для применения политик в Teams для контроля над тем, кто может проводить трансляции в организации и какие функции доступны для них.
+description: Примеры использования PowerShell для применения политик в Teams для управления возможностью проведения трансляций в организации и доступными для них функциями.
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ece22b6debd3c7d6209df96983d1d66ed5f6f3ca
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 95b78b520b6978c85715e6dc1c1314ed279a305b
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49815629"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119148"
 ---
 # <a name="use-powershell-to-set-live-events-policies-in-microsoft-teams"></a>Настройка политик трансляции Microsoft Teams с помощью PowerShell
 
 Для настройки и назначения параметров политики для трансляций в Teams можно использовать следующие Windows PowerShell командлеты: 
-- [Get-CsTeamsMeetingBroadcastPolicy](https://docs.microsoft.com/powershell/module/skype/get-csteamsmeetingbroadcastpolicy?view=skype-ps)
-- [Set-CsTeamsMeetingBroadcastPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingbroadcastpolicy?view=skype-ps)
-- [New-CsTeamsMeetingBroadcastPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingbroadcastpolicy?view=skype-ps)
-- [Grant-CsTeamsMeetingBroadcastPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmeetingbroadcastpolicy?view=skype-ps)
-- [New-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/new-csgrouppolicyassignment?view=teams-ps)
+- [Get-CsTeamsMeetingBroadcastPolicy](/powershell/module/skype/get-csteamsmeetingbroadcastpolicy?view=skype-ps)
+- [Set-CsTeamsMeetingBroadcastPolicy](/powershell/module/skype/set-csteamsmeetingbroadcastpolicy?view=skype-ps)
+- [New-CsTeamsMeetingBroadcastPolicy](/powershell/module/skype/new-csteamsmeetingbroadcastpolicy?view=skype-ps)
+- [Grant-CsTeamsMeetingBroadcastPolicy](/powershell/module/skype/grant-csteamsmeetingbroadcastpolicy?view=skype-ps)
+- [New-CsGroupPolicyAssignment](/powershell/module/teams/new-csgrouppolicyassignment?view=teams-ps)
 
 Вот несколько примеров.
 
 > [!NOTE]
-> Перед запуском этих cmdlets необходимо подключение к Skype для бизнеса Online PowerShell. Дополнительные сведения см. в управлении [Skype для бизнеса Online с помощью Microsoft 365 или Office 365 PowerShell.](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)
+> Перед запуском этих cmdlets необходимо подключение к Skype для бизнеса Online PowerShell. Дополнительные сведения см. в управлении [Skype для бизнеса Online с помощью Microsoft 365 или Office 365 PowerShell.](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)
 
 ## <a name="allow-users-to-schedule-live-events"></a>Разрешить пользователям планировать трансляции 
 
 > [!NOTE]
-> Эти примеры можно привести для событий, произведенных в Teams. Для событий, произведенных с внешним приложением или устройством, необходимо сделать дополнительные действия. Дополнительные сведения см. в статьи "Возможность планировать события, произведенные с помощью внешнего [приложения или устройства".](set-up-for-teams-live-events.md#enable-users-to-schedule-events-that-were-produced-with-an-external-app-or-device)
+> Эти примеры можно привести для событий, произведенных в Teams. Для событий, произведенных с внешним приложением или устройством, необходимо сделать дополнительные действия. Дополнительные сведения см. в том, как включить пользователей в расписание событий, которые были произведены с помощью [внешнего приложения или устройства.](set-up-for-teams-live-events.md#enable-users-to-schedule-events-that-were-produced-with-an-external-app-or-device)
 
 **Разрешить пользователю планировать трансляции**
 
@@ -100,7 +100,7 @@ Set-CsTeamsMeetingBroadcastPolicy -Identity DisabledBroadcastSchedulingPolicy -A
 ```PowerShell
 Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName DisabledBroadcastSchedulingPolicy -Verbose
 ```
-**Вы хотите отключить планирование трансляций для большого количества пользователей и разрешить им планировать трансляции.**
+**Вы хотите отключить планирование трансляций для большого количества пользователей и разрешить набору пользователей планировать их**
 
 Отключите планирование трансляций, запустите:
 ```PowerShell
@@ -148,4 +148,3 @@ Set-CsTeamsMeetingBroadcastPolicy -Identity Global -AllowBroadcastTranscription 
 ### <a name="related-topics"></a>Статьи по теме
 - [Настройка прямых трансляций Teams](set-up-for-teams-live-events.md)
 - [Обзор PowerShell в Teams](../teams-powershell-overview.md)
-

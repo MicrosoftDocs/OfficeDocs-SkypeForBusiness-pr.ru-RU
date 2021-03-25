@@ -21,12 +21,12 @@ searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
 description: Узнайте, как использовать пакеты политик Teams для своей медицинской организации и управлять ими.
-ms.openlocfilehash: af6f5923d5c97fc03c77585ba94292264aacc027
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
-ms.translationtype: HT
+ms.openlocfilehash: 830b8fc5f6938f84f188f5f5d732a3ecfd6eb5b1
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49812859"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117767"
 ---
 # <a name="teams-policy-packages-for-healthcare"></a>Пакеты политик Teams для здравоохранения
 
@@ -106,7 +106,7 @@ ms.locfileid: "49812859"
 
 #### <a name="assign-a-policy-package-to-a-large-set-batch-of-users"></a>Назначение пакета политики множеству (пакету) пользователей
 
-Используйте назначение группового пакета политики, чтобы назначить пакет политики для множества пользователей одновременно. Используйте командлет [New-CsBatchPolicyPackageAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicypackageassignmentoperation), чтобы отправить множество пользователей и пакет политики, который вы хотите назначить. Задания будут обрабатываться в фоновом режиме, а для каждого пакета будет создан идентификатор операции.
+Используйте назначение группового пакета политики, чтобы назначить пакет политики для множества пользователей одновременно. Используйте командлет [New-CsBatchPolicyPackageAssignmentOperation](/powershell/module/teams/new-csbatchpolicypackageassignmentoperation), чтобы отправить множество пользователей и пакет политики, который вы хотите назначить. Задания будут обрабатываться в фоновом режиме, а для каждого пакета будет создан идентификатор операции.
 
 Пакет может содержать до 5 000 пользователей. Можно указать пользователей по идентификатору объекта, UPN, адресу протокола SIP или электронной почты. Дополнительные сведения см. в статье [Назначение пакета политики множеству пользователей](assign-policies.md#assign-a-policy-package-to-a-batch-of-users).
 

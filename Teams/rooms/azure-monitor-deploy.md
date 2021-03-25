@@ -15,12 +15,12 @@ ms.collection:
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: В этой статье рассмотрено развертывание встроенного и комплексного управления устройствами комнат Microsoft Teams с помощью Azure Monitor.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: b05c490c157c9f6530ca79ecdd8df19f15d94c68
-ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
+ms.openlocfilehash: 7046fc0010a4337ea14854e356600ccf3428f9d0
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49662104"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117597"
 ---
 # <a name="deploy-no-loc-textmicrosoft-teams-rooms-management-with-no-loc-textazure-monitor"></a>Развертывание :::no-loc text="Microsoft Teams Rooms"::: управления с помощью :::no-loc text="Azure Monitor":::
 
@@ -30,7 +30,7 @@ ms.locfileid: "49662104"
 
 Следуя этому руководству, вы можете использовать панель мониторинга, как в следующем примере, для получения подробных отчетов о состоянии доступности устройств, работоспособности приложений и оборудования, а также распространения версий приложений и :::no-loc text="Microsoft Teams Rooms"::: операционных систем.
 
-![Снимок экрана: образец представления аналитики журнала для комнат Microsoft Teams](../media/Deploy-Azure-Monitor-1.png "Пример представления аналитики журнала для комнат Microsoft Teams")
+![Снимок экрана: образец представления аналитики журнала для комнат Microsoft Teams](../media/Deploy-Azure-Monitor-1.png "Образец средства аналитики журнала для комнат Microsoft Teams")
 
 В общих чертах вам необходимо выполнить следующие задачи.
 
@@ -50,9 +50,9 @@ ms.locfileid: "49662104"
 ## <a name="validate-no-loc-textlog-analytics-configuration"></a>Проверка :::no-loc text="Log Analytics"::: конфигурации
 <a name="validate_LogAnalytics"> </a>
 
-Для сбора журналов с устройств необходимо иметь рабочее :::no-loc text="Log Analytics"::: :::no-loc text="Microsoft Teams Rooms"::: пространство. Рабочее пространство — это уникальная среда со своим репозиторием :::no-loc text="Log Analytics"::: данных, источниками данных и решениями. Если у вас уже есть рабочее пространство, вы можете использовать его для отслеживания развертывания или, как вариант, создать специальную рабочее пространство, предназначенное для :::no-loc text="Log Analytics"::: :::no-loc text="Microsoft Teams Rooms"::: :::no-loc text="Log Analytics"::: :::no-loc text="Microsoft Teams Rooms"::: мониторинга.
+Для сбора журналов с устройств необходимо рабочее :::no-loc text="Log Analytics"::: :::no-loc text="Microsoft Teams Rooms"::: пространство. Рабочее пространство — это уникальная среда со своим репозиторием :::no-loc text="Log Analytics"::: данных, источниками данных и решениями. Если у вас уже есть рабочее пространство, вы можете использовать его для отслеживания развертывания или, как вариант, создать специальную рабочее пространство, предназначенное для :::no-loc text="Log Analytics"::: :::no-loc text="Microsoft Teams Rooms"::: :::no-loc text="Log Analytics"::: :::no-loc text="Microsoft Teams Rooms"::: мониторинга.
 
-Если вам нужно создать новую область, следуйте инструкциям в статье "Создание рабочей области :::no-loc text="Log Analytics"::: [на :::no-loc text="Log Analytics"::: :::no-loc text="Azure"::: портале".](https://docs.microsoft.com/azure/azure-monitor/learn/quick-create-workspace)
+Если вам нужно создать новую область, следуйте инструкциям в статье "Создание рабочей области :::no-loc text="Log Analytics"::: [на :::no-loc text="Log Analytics"::: :::no-loc text="Azure"::: портале".](/azure/azure-monitor/learn/quick-create-workspace)
 
 > [!NOTE]
 > Для использования :::no-loc text="Log Analytics"::: с :::no-loc text="Azure Monitor"::: ним необходима активная :::no-loc text="Azure"::: подписка. Если у вас нет подписки, вы можете создать бесплатную пробную подписку :::no-loc text="Azure"::: в качестве отправной точки. [](https://azure.microsoft.com/free)
@@ -63,7 +63,7 @@ ms.locfileid: "49662104"
 
 Необходимо настроить сбор журналов, необходимых для отслеживания состояния устройства :::no-loc text="Log Analytics"::: :::no-loc text="Microsoft Teams Rooms"::: и приложения. :::no-loc text="Microsoft Teams Rooms"::: используют журнал **:::no-loc text="Skype Room System":::** событий.
 
-Сведения о :::no-loc text="Log Analytics"::: настройке сбора событий см. в источниках :::no-loc text="Microsoft Teams Rooms"::: данных журнала событий [ :::no-loc text="Windows"::: в :::no-loc text="Azure Monitor"::: ](https://docs.microsoft.com/azure/azure-monitor/platform/data-sources-windows-events)
+Сведения о :::no-loc text="Log Analytics"::: настройке сбора событий см. в источниках :::no-loc text="Microsoft Teams Rooms"::: данных журнала событий [ :::no-loc text="Windows"::: в :::no-loc text="Azure Monitor"::: ](/azure/azure-monitor/platform/data-sources-windows-events)
 
 ![Снимок экрана: параметры журнала событий](../media/Deploy-Azure-Monitor-2.png "Параметры журнала событий")
 
@@ -73,11 +73,11 @@ ms.locfileid: "49662104"
 ## <a name="configure-test-devices-for-azure-monitoring"></a>Настройка тестовых устройств для мониторинга Azure
 <a name="configure_test_devices"> </a>
 
-Вам нужно подготовиться :::no-loc text="Log Analytics"::: к отслеживанию :::no-loc text="Microsoft Teams Rooms"::: связанных событий. Для начала необходимо развернуть агентов только на одном или двух устройствах, к которые вы имеете физический доступ, и получить эти тестовые устройства, чтобы получить определенные данные и задвинуть их в :::no-loc text="Microsoft Monitoring"::: :::no-loc text="Microsoft Teams Rooms"::: рабочее :::no-loc text="Log Analytics"::: пространство.
+Вам нужно подготовиться :::no-loc text="Log Analytics"::: к отслеживанию :::no-loc text="Microsoft Teams Rooms"::: связанных событий. Для начала необходимо развернуть агентов только на одном или двух устройствах, к которые у вас есть физический доступ, и получить эти тестовые устройства, чтобы получить определенные данные и задвинуть их в :::no-loc text="Microsoft Monitoring"::: :::no-loc text="Microsoft Teams Rooms"::: рабочее :::no-loc text="Log Analytics"::: пространство.
 
 ### <a name="install-no-loc-textmicrosoft-monitoring-agents-to-test-devices"></a>Установка :::no-loc text="Microsoft Monitoring"::: агентов для тестирования устройств
 
-Развернйте агента на тестовых устройствах, используя инструкции, предоставленные в окне подключения компьютеров :::no-loc text="Microsoft Monitoring"::: [к :::no-loc text="Windows"::: :::no-loc text="Log Analytics"::: службе. :::no-loc text="Azure"::: ](https://docs.microsoft.com/azure/azure-monitor/platform/agent-windows) В этой статье подробно описаны действия по развертыванию агента, инструкции по получению ИД рабочей области _ и первичный ключ для подключения устройств к развертыванию, а также инструкции по проверке подключения агента к :::no-loc text="Microsoft Monitoring"::: :::no-loc text="Windows"::: :::no-loc text="Log Analytics":::  * ** _**_ :::no-loc text="Microsoft Teams Rooms"::: :::no-loc text="Azure Monitor"::: :::no-loc text="Log Analytics"::: экземпляру.
+Развернйте агента на тестовых устройствах, используя инструкции, предоставленные в окне подключения компьютеров :::no-loc text="Microsoft Monitoring"::: [к :::no-loc text="Windows"::: :::no-loc text="Log Analytics"::: службе в. :::no-loc text="Azure"::: ](/azure/azure-monitor/platform/agent-windows) В этой статье подробно описаны действия по развертыванию агента, инструкции по получению его ИД рабочей области и _первичного ключа * для подключения устройств к развертыванию, а также инструкции по проверке подключения агента к :::no-loc text="Microsoft Monitoring"::: :::no-loc text="Windows"::: :::no-loc text="Log Analytics":::  * ** :::no-loc text="Microsoft Teams Rooms"::: :::no-loc text="Azure Monitor"::: :::no-loc text="Log Analytics"::: экземпляру.
 
 ### <a name="generate-sample-no-loc-textmicrosoft-teams-rooms-events"></a>Создание примеров :::no-loc text="Microsoft Teams Rooms"::: событий
 
@@ -89,10 +89,10 @@ ms.locfileid: "49662104"
 1.  Войдите на [ :::no-loc text="Microsoft Azure"::: портал, перейдите](https://portal.azure.com) к :::no-loc text="Log Analytics"::: рабочей области и выберите ее.
 
 2.  Перечислить события пульса, созданные :::no-loc text="Microsoft Teams Rooms"::: устройством:
-    1.  Выберите рабочее пространство, перейдите в поле *_Logs** и используйте запрос для получения записей пульса, для которые нужно использовать настраиваемые :::no-loc text="Microsoft Teams Rooms"::: поля.
+    1.  Выберите рабочее пространство,  перейдите в журналы и используйте запрос для получения записей пульса, для которые будут иметься настраиваемые :::no-loc text="Microsoft Teams Rooms"::: поля.
     2.  Пример запроса: `Event | where Source == "SRS-App" and EventID == 2000`
 
-3.  Убедитесь, что запрос возвращает записи журнала, включаемые события, созданные :::no-loc text="Microsoft Teams Rooms"::: приложением "Собрания".
+3.  Убедитесь, что запрос возвращает записи журнала, включаемые в события, созданные :::no-loc text="Microsoft Teams Rooms"::: приложением для собраний.
 
 4.  Создание проблемы с оборудованием и проверка входа в необходимые :::no-loc text="Azure Log Analytics"::: события.
     1.  Отключить одно из периферийных устройств в тестовой :::no-loc text="Microsoft Teams Rooms"::: системе. Это может быть камера, динамик, микрофон или экран переднего зала.
@@ -110,7 +110,7 @@ ms.locfileid: "49662104"
 ## <a name="map-custom-fields"></a>Сопоставление настраиваемых полей
 <a name="Custom_fields"> </a>
 
-Настраиваемые поля используются для извлечения определенных данных из журналов событий. Необходимо определить настраиваемые поля, которые будут использоваться позже с плитками, представлениями панели мониторинга и оповещениями. Ознакомьтесь [с :::no-loc text="Log Analytics"::: настраиваемыми](https://docs.microsoft.com/azure/azure-monitor/platform/custom-fields) полями и ознакомьтесь с понятиями, прежде чем приступить к созданию настраиваемой поля.
+Настраиваемые поля используются для извлечения определенных данных из журналов событий. Необходимо определить настраиваемые поля, которые будут использоваться позже с плитками, представлениями панели мониторинга и оповещениями. Ознакомьтесь [с :::no-loc text="Log Analytics"::: настраиваемыми](/azure/azure-monitor/platform/custom-fields) полями и ознакомьтесь с понятиями, прежде чем приступить к созданию настраиваемой поля.
 
 Чтобы извлечь настраиваемые поля из журналов событий:
 
@@ -131,7 +131,7 @@ ms.locfileid: "49662104"
 > 
 **Таблица 1**
 
-| **Поле JSON**                   | **:::no-loc text="Log Analytics"::: настраиваемые поля** | **Идентификатор события** | **Запрос для использования с извлечением**                   |
+| **Поле JSON**                   | **:::no-loc text="Log Analytics"::: настраиваемые поля** | **Идентификатор события** | **Запрос на использование с извлечением**                   |
 |:---------------------------------|:-------------------------------|:-------------|:-------------------------------------------------------|
 | Описание                      | SRSEventDescription         | **2000**     | Событие, \| где Source == "SRS-App" и EventID == 2000 |
 | ResourceState                    | SRSResourceState            | **2000**     | Событие, \| где Source == "SRS-App" и EventID == 2000 |
@@ -156,7 +156,7 @@ ms.locfileid: "49662104"
 ## <a name="define-the-no-loc-textmicrosoft-teams-rooms-views-in-no-loc-textlog-analytics"></a>Определение :::no-loc text="Microsoft Teams Rooms"::: представлений в :::no-loc text="Log Analytics":::
 <a name="Define_Views"> </a>
 
-После сбора данных и применения настраиваемые поля можно использовать конструктор представлений для создания панелей мониторинга, содержащих различные плитки для отслеживания :::no-loc text="Microsoft Teams Rooms"::: событий. С помощью конструктора представлений можно создавать следующие плитки: Дополнительные сведения см. в [теме :::no-loc text="Log Analytics"::: "Создание настраиваемой области с помощью конструктора представлений в"](https://docs.microsoft.com/azure/azure-monitor/platform/view-designer)
+После сбора данных и применения настраиваемые поля можно использовать конструктор представлений для создания панелей мониторинга, содержащих различные плитки для отслеживания :::no-loc text="Microsoft Teams Rooms"::: событий. С помощью конструктора представлений можно создать следующие плитки: Дополнительные сведения см. в [теме :::no-loc text="Log Analytics"::: "Создание настраиваемой области с помощью конструктора представлений в"](/azure/azure-monitor/platform/view-designer)
 
 > [!NOTE]
 > Чтобы плитки панелей мониторинга работали правильно, необходимо было завершить предыдущие шаги, как по этому руководству.
@@ -181,9 +181,9 @@ ms.locfileid: "49662104"
 2.  Выберите **плитку Overview** и выберите два **числа** из коллекции.
 3.  Привязать плитке **:::no-loc text="Microsoft Teams Rooms":::** имя.
 4.  Определение **первой плитки:**<br>
-    **Легенда:** Устройства, которые отправляли пульс хотя бы один раз в течение последнего месяца<br>
+    **Легенда:** Устройства, которые отправляли пульс по крайней мере один раз в течение последнего месяца<br>
     **Запрос:**```Event | where EventLog == "Skype Room System" and TimeGenerated > ago(30d) | summarize TotalSRSDevices = dcount(Computer)```
-5.  Определить **вторую плитку:**<br>
+5.  Определение второй **плитки:**<br>
     **Легенда:** Активные устройства, отправив пульс в течение последнего часа<br>
     **Запрос:**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" and TimeGenerated > ago(1h) | summarize TotalSRSDevices = dcount(Computer)```
 6.  Выберите **"Применить".**
@@ -326,7 +326,7 @@ ms.locfileid: "49662104"
 6.  Определение **запроса навигации.**<br>
     ```search {selected item} | where EventLog == "Skype Room System" and EventID == "4000" and TimeGenerated > ago(24h) | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSEventDescription_CF```
 7.  Выберите **"Применить",** а затем **"Закрыть".**
-8.  Чтобы **сохранить панель** мониторинга, выберите "Сохранить".
+8.  Выберите **"Сохранить",** чтобы сохранить панель мониторинга.
 
 Теперь вы завершили создание представлений.
 
@@ -342,7 +342,7 @@ ms.locfileid: "49662104"
 -   Обращение к внешнему процессу с помощью HTTP-запроса POST
 -   Запуск книги в :::no-loc text="Azure Automation"::: службе
 
-Дополнительные [информацию :::no-loc text="Azure Monitor"::: об оповещениях см.](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-unified-log) в журнале. :::no-loc text="Azure Monitor":::
+Дополнительные [информацию :::no-loc text="Azure Monitor"::: об оповещениях см.](/azure/azure-monitor/platform/alerts-unified-log) в журнале. :::no-loc text="Azure Monitor":::
 
 > [!NOTE]
 > В следующих примерах оповещения отправляются по электронной почте, если устройство вызывает :::no-loc text="Microsoft Teams Rooms"::: аппаратное оборудование или ошибку приложения.
@@ -352,7 +352,7 @@ ms.locfileid: "49662104"
 Настройте правило оповещения, которое проверяет наличие устройств, на устройствах с которыми были проблемы с оборудованием :::no-loc text="Microsoft Teams Rooms"::: в течение последнего часа.
 1.  Войдите на [ :::no-loc text="Microsoft Azure"::: портал, перейдите](https://portal.azure.com) к :::no-loc text="Log Analytics"::: рабочей области и выберите ее.
 
-2. Перейдите в :::no-loc text="Log Analytics"::: свою область и выберите **"Оповещения",** а затем выберите **"Новое правило оповещения"**
+2. Перейдите в свою :::no-loc text="Log Analytics"::: область, выберите **"Оповещения",** а затем выберите **"Новое правило оповещения"**
 
 3. Выберите **"Добавить условие",** а затем **"Настраиваемый поиск в журнале"**
 
@@ -404,18 +404,18 @@ ms.locfileid: "49662104"
     | sort by TimeGenerated desc
     ```
 
-Теперь вы завершили определение оповещений. Дополнительные оповещения можно определить с помощью примеров выше.
+Теперь вы завершили определение оповещений. Вы можете определить дополнительные оповещения, используя примеры выше.
 
 При этом вы получите сообщение электронной почты со списком устройств, с которыми у вас была проблема в течение последнего часа.
 
-! [Пример :::no-loc text="Azure Monitor"::: сообщения электронной почты](.). /media/Deploy-Azure-Monitor-6.png "Sample :::no-loc text="Azure Monitor"::: alert email")
+! [Пример :::no-loc text="Azure Monitor"::: сообщения электронной почты](.). /media/Deploy-Azure-Monitor-6.png "Образец :::no-loc text="Azure Monitor"::: оповещения электронной почты")
 
 ## <a name="configure-all-devices-for-no-loc-textazure-monitoring"></a>Настройка всех устройств для :::no-loc text="Azure Monitoring":::
 <a name="configure_all_devices"></a> После настройки панелей мониторинга и оповещений вы можете настроить агент на всех устройствах для :::no-loc text="Microsoft Monitoring"::: :::no-loc text="Microsoft Teams Rooms"::: завершения развертывания мониторинга.
 
 Хотя агент можно установить и настроить вручную на каждом устройстве, настоятельно рекомендуется использовать существующие :::no-loc text="Microsoft Monitoring"::: средства развертывания программного обеспечения и методы.
 
-Если вы создаете устройства в первый раз, в процессе сборки может потребоваться включить действия по настройке и настройке :::no-loc text="Microsoft Teams Rooms"::: :::no-loc text="Microsoft Monitoring"::: агента. Дополнительные сведения см. [в сведениях об установке агента с помощью командной строки.](https://docs.microsoft.com/azure/azure-monitor/platform/agent-windows#install-the-agent-using-the-command-line)
+Если вы создаете устройства в первый раз, в процессе сборки может потребоваться включить действия по настройке и настройке :::no-loc text="Microsoft Teams Rooms"::: :::no-loc text="Microsoft Monitoring"::: агента. Дополнительные сведения см. [в сведениях об установке агента с помощью командной строки.](/azure/azure-monitor/platform/agent-windows#install-the-agent-using-the-command-line)
 
 ### <a name="deploying-no-loc-textmicrosoft-monitoring-agent-by-using-a-group-policy-object-gpo"></a>Развертывание :::no-loc text="Microsoft Monitoring"::: агента с помощью объекта групповой политики (GPO)
 
@@ -439,10 +439,10 @@ ms.locfileid: "49662104"
     1.  Скопируйте следующий сценарий и сохраните его как Install-MMAgent.ps1.
     2.  Измените параметры WorkspaceId, WorkspaceKey и SetupPath в соответствие с конфигурацией.
     3.  Изменение того же объекта групповой политики и переход к сценариям параметров политики конфигурации компьютера \\ \\ :::no-loc text="Windows"::: \\ (запуск и завершение работы)
-    4.  Дважды щелкните, чтобы выбрать **"Запуск",** а затем — **"Сценарии PowerShell".**
+    4.  Дважды щелкните, чтобы **выбрать "Запуск",** а затем — "Сценарии **PowerShell".**
     5.  Выберите **"Показать файлы"** и скопируйте **Install-MMAgent.ps1** файл в эту папку.
     6.  Выберите **"Добавить"** и **"Обзор".**
-    7.  Выберите скопированный сценарий PS1.
+    7.  Выберите сценарий PS1, который вы только что скопировали.
 
 7.  :::no-loc text="Microsoft Teams Rooms"::: необходимо установить и настроить агент :::no-loc text="Microsoft Monitoring"::: с помощью второй перезагрузки.
 
@@ -489,12 +489,12 @@ Stop-Transcript
 ```
 
 > [!NOTE]
-> Если вам нужно [ :::no-loc text="Log Analytics"::: ](https://docs.microsoft.com/azure/azure-monitor/platform/agent-manage) перенастроить агент, переместить его в другую область или изменить параметры прокси-сервера после первоначальной установки, обратитесь к статье "Управление агентом и его обслуживанием".
+> Если вам нужно [ :::no-loc text="Log Analytics"::: ](/azure/azure-monitor/platform/agent-manage) перенастроить агент, переместить его в другую область или изменить параметры прокси-сервера после первоначальной установки, обратитесь к статье "Управление агентом и его обслуживанием".
 
 ## <a name="additional-solutions"></a>Дополнительные решения
 <a name="Solutions"> </a>
 
-:::no-loc text="Azure Monitor"::: содержит встроенные решения для управления с помощью [коллекции](https://docs.microsoft.com/azure/azure-monitor/insights/solutions) решений, которые помогут вам следить за средой. Настоятельно рекомендуем также добавить в [ :::no-loc text="Azure Log Analytics"::: ](https://docs.microsoft.com/azure/azure-monitor/insights/solution-agenthealth) свою область решения [для](https://docs.microsoft.com/azure/azure-monitor/platform/alert-management-solution) управления оповещениями и агентов.
+:::no-loc text="Azure Monitor"::: содержит встроенные решения управления в [коллекции](/azure/azure-monitor/insights/solutions) решений, которые помогут вам следить за средой. Настоятельно рекомендуем также [](/azure/azure-monitor/platform/alert-management-solution) добавить в [ :::no-loc text="Azure Log Analytics"::: ](/azure/azure-monitor/insights/solution-agenthealth) свою область решения для управления оповещениями и агентов.
 
 > [!NOTE]
 > Решение agent Health может помочь вам определить устаревших агентов в вашей среде, а решение для управления оповещениями предоставляет подробные сведения о оповещениях, которые были сдвещены в течение :::no-loc text="Microsoft Monitoring"::: данного периода.

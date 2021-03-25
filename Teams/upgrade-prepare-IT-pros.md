@@ -19,12 +19,12 @@ ms.collection:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 680106618d610d0adc3f93658e3a522d63850e24
-ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
+ms.openlocfilehash: 94862d7df7151983a8570e6fc458a70618c3a3fe
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "49578462"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119088"
 ---
 # <a name="prepare-your-it-staff-for-microsoft-teams"></a>Подготовка ИТ-персонала к microsoft Teams
 
@@ -33,8 +33,8 @@ ms.locfileid: "49578462"
 Эта статья является частью этапа технической готовности, которое вы завершаете параллельно с этапом подготовки пользователя. Прежде чем при этом подтверждать, что вы выполнили эти действия на предыдущих этапах:
 
 - [Привлечение заинтересованных лиц проекта](upgrade-enlist-stakeholders.md)
-- [Определение области проекта](https://aka.ms/SkypetoTeams-Scope)
-- [Понимание сосуществования и совместной работы Skype для бизнеса и Teams](https://aka.ms/SkypeToTeams-Coexist)
+- [Определение области проекта](./upgrade-define-project-scope.md)
+- [Понимание сосуществования и совместной работы Skype для бизнеса и Teams](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 - [Вы решили перейти на нее](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
 Администраторы microsoft 365 или Office 365, технические специалисты и служба поддержки должны учитывать качество работы пользователей. Это включает в себя обеспечение готовности сети к поддержке Teams, настройке Teams для пользователей, а также эффективному устранению возникающих неполадок и устранению возникающих проблем.
@@ -42,7 +42,7 @@ ms.locfileid: "49578462"
 Поделитесь следующими ресурсами с ИТ-сотрудниками и подтвердите, что они готовы оказать поддержку пользователям, прежде чем начать обновление до Teams:
 
 - [Обучение администратора для работы с Microsoft Teams](itadmin-readiness.md)
-- [Обращение в службу поддержки продуктов для бизнеса. Справка для администраторов](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)
+- [Обращение в службу поддержки продуктов для бизнеса. Справка для администраторов](/microsoft-365/admin/contact-support-for-business-products)
 - [Устранение проблем связи с клиентом Microsoft Teams](connectivity-issues.md)
 - [Использование файлов журналов для устранения неполадок в Microsoft Teams](log-files.md)
 

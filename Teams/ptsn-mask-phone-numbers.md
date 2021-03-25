@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Узнайте, как скрыть номера телефонов в собраниях Microsoft Teams
-ms.openlocfilehash: 5a59ef07873660e79d6c8bc69b7e92095a2fac1a
-ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
+ms.openlocfilehash: bc3325805db63f86937a27d63cfc08ab0de84006
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50726798"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117717"
 ---
 # <a name="mask-phone-numbers-in-microsoft-teams-meetings"></a>Маскировка номеров телефонов в собраниях Microsoft Teams
 
@@ -41,7 +41,7 @@ ms.locfileid: "50726798"
 
 ## <a name="use-microsoft-powershell-to-set-phone-number-masking"></a>Настройка маскровки номеров телефонов с помощью Microsoft PowerShell
 
-Чтобы изменить параметр маскровки телефонной сети общего перейти на другой телефонную сеть (STN), задате один из доступных параметров для параметра **`MaskPstnNumbersType`** [Set-CsOnlineDialInConferencingTenantSettings.](https://docs.microsoft.com/powershell/module/skype/set-csonlinedialinconferencingtenantsettings?view=skype-ps)
+Чтобы изменить параметр маскровки телефонной сети общего перейти на другой телефонную сеть (STN), задате один из доступных параметров для параметра **`MaskPstnNumbersType`** [Set-CsOnlineDialInConferencingTenantSettings.](/powershell/module/skype/set-csonlinedialinconferencingtenantsettings?view=skype-ps)
 
 Чтобы скрыть номера телефонов только от внешних участников, запустите следующую команду:
 

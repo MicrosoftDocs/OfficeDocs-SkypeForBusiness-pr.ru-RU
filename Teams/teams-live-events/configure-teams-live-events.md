@@ -15,19 +15,19 @@ ms.collection:
 - m365initiative-meetings
 - m365initiative-meetings-enabler
 - enabler-strategic
-description: Узнайте, как управлять настройками трансляций Teams, которые проводятся в вашей организации.
+description: Узнайте, как управлять настройками для трансляций Teams, которые проводятся в вашей организации.
 f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0bcb5edea00066c861b2288791f3ff3e0ee58431
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.openlocfilehash: e5f19aa6cfee7d4cce19ef5a0936a5a72e954648
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50461019"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119348"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>Настройка параметров трансляции в Microsoft Teams
 
@@ -55,7 +55,7 @@ ms.locfileid: "50461019"
 ```PowerShell
 Set-CsTeamsMeetingBroadcastConfiguration -SupportURL “{your URL}”
 ```
-Дополнительные сведения [см. в set-CsTeamsMeetingBroadcastConfiguration.](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps)
+Дополнительные сведения [см. в set-CsTeamsMeetingBroadcastConfiguration.](/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps)
 ## <a name="configure-a-third-party-video-distribution-provider"></a>Настройка стороного поставщика видеоконференции 
 
 Если вы приобрели и настроили программное решение для сети (SDN) или корпоративной сети доставки содержимого (eCDN) через партнера Майкрософт по доставке видео, настройте его для трансляций в Teams. 
@@ -70,10 +70,10 @@ Set-CsTeamsMeetingBroadcastConfiguration -SupportURL “{your URL}”
     - **Использование стороного поставщика рассылки** Включим эту возможность, чтобы включить стороного поставщика видеоконференции.
     - **Имя поставщика SDN** Выберите поставщика.
     - **Ключ лицензии поставщика** Введите номер лицензии, который вы получили у своего контакта поставщика.
-    - **URL-адрес шаблона API SDN** Введите URL-адрес шаблона API, который вы получили у своего поставщика.
+    - **URL-адрес шаблона API SDN** Введите URL-адрес шаблона API, который вы получили у своего контакта поставщика.
 
 ### <a name="using-windows-powershell"></a>Использование Windows PowerShell
-Получите У контакта поставщика ИД лицензии или маркер API и шаблон API, а затем запустите один из следующих методов в зависимости от поставщика, который вы используете:
+Получите у контакта поставщика ИД лицензии или маркер API и шаблон API, а затем запустите один из следующих решений в зависимости от используемого поставщика.
 
 **Hive** 
 ```PowerShell
@@ -88,10 +88,10 @@ Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $T
 Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName riverbed -SdnApiTemplateUrl "{API template URL provided by Riverbed}" -SdnApiToken {API token GUID provided by Riverbed}
 ```
 
-Дополнительные сведения [см. в set-CsTeamsMeetingBroadcastConfiguration.](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps)
+Дополнительные сведения [см. в set-CsTeamsMeetingBroadcastConfiguration.](/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps)
 
 > [!NOTE]
-> Если вы планируете создавать трансляции с помощью внешнего приложения или устройства, необходимо также настроить поставщика [услуг eCDN в Microsoft Stream.](https://docs.microsoft.com/stream/network-caching) 
+> Если вы планируете создавать трансляции с помощью внешнего приложения или устройства, необходимо также настроить поставщика [услуг eCDN в Microsoft Stream.](/stream/network-caching) 
 
 >[!Note]
 > Переход с использования Microsoft Stream на [OneDrive для бизнеса и SharePoint для записей собраний](../tmr-meeting-recording-change.md) будет поэтапным процессом. При запуске вы сможете согласиться на использование этого интерфейса. В ноябре потребуется отказаться от использования, если вы хотите продолжить использование Stream. В начале 2021 г. мы сделаем использование OneDrive для бизнеса и SharePoint для новых записей собраний обязательным для всех пользователей.

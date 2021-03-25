@@ -1,5 +1,5 @@
 ---
-title: Использование Teams со службами удаленного рабочего стола
+title: Использование Teams со службами удаленных рабочих стола
 author: cichur
 ms.author: v-cichur
 ms.reviewer: alivano
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dbf8be686029aa995ac0fb8a9977d129746b0c78
-ms.sourcegitcommit: e72599d5437773322ae6ef985f804a19101ed84f
+ms.openlocfilehash: 7090aac3c5e7ff724a079e7f9d9ffe9d712cd447
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/26/2021
-ms.locfileid: "50347880"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119098"
 ---
 # <a name="teams-in-remote-desktop-services"></a>Teams в службах удаленных рабочих стола
 
@@ -32,7 +32,7 @@ ms.locfileid: "50347880"
 
 Службы удаленных рабочих стола (RDS) — это платформа для создания решений виртуализации, которая необходима конечным клиентам. RDS позволяет предоставлять отдельные виртуализированные приложения, обеспечивает безопасный мобильный и удаленный доступ к рабочему столу, а также позволяет конечным пользователям запускать свои приложения и рабочие столы из облака.
 
-RDS обеспечивает гибкость развертывания, эффективность и гибкость развертывания. RDS можно развертывать различными средствами, включая Windows Server 2016 для локального развертывания, Microsoft Azure для облачных развертыванию и надежный набор решений партнеров.
+RDS обеспечивает гибкость развертывания, эффективность и гибкость развертывания. RDS можно развертывать различными средствами, включая Windows Server 2016 для локального развертывания, Microsoft Azure для облачных развертывание и надежный набор решений партнеров.
 В зависимости от среды и настроек вы можете настроить решение RDS для виртуализации на основе сеанса как инфраструктуру виртуального рабочего стола (VDI).
 
 В настоящее время Teams в среде служб удаленного рабочего стола поддерживает функции совместной работы и чата. Чтобы обеспечить оптимальный пользовательский интерфейс, следуйте указаниям в этой статье.
@@ -71,7 +71,7 @@ RDS обеспечивает гибкость развертывания, эфф
 
 Кроме того, вы можете сделать следующее:
 
-1. В левой области навигации Центра администрирования Microsoft Teams перейдите к политике, которая вы хотите назначить. Например:
+1. В левой области навигации Центра администрирования Microsoft Teams перейдите к нужной политике. Например:
 
     - Перейдите к   >  **политикам голосовых** звонков и выберите **"DisallowCalling".**
     - Перейдите **к политикам**  >  **собраний собраний** и выберите **AllOff.**
@@ -82,18 +82,18 @@ RDS обеспечивает гибкость развертывания, эфф
 
 #### <a name="assign-policies-using-powershell"></a>Назначение политик с помощью PowerShell
 
-В следующем примере показано, как назначить политику вызовов DisallowCalling пользователю с помощью [политики Grant-CsTeamsCallingPolicy.](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallingpolicy)
+В следующем примере показано, как использовать политику вызовов DisallowCalling пользователю с помощью [Grant-CsTeamsCallingPolicy.](/powershell/module/skype/grant-csteamscallingpolicy)
 
 ```PowerShell
 Grant-CsTeamsCallingPolicy -PolicyName DisallowCalling -Identity "user email id"
 ```
 
-Дополнительные информацию об управлении политиками звонков с помощью PowerShell см. в [set-CsTeamsCallingPolicy.](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy)
+Дополнительные информацию об управлении политиками звонков с помощью PowerShell см. в [set-CsTeamsCallingPolicy.](/powershell/module/skype/set-csteamscallingpolicy)
 
-В следующем примере показано, как назначить политику собраний AllOff пользователю с помощью [политики Grant-CsTeamsMeetingPolicy.](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmeetingpolicy)
+В следующем примере показано, как назначить политику собраний AllOff пользователю с помощью [политики Grant-CsTeamsMeetingPolicy.](/powershell/module/skype/grant-csteamsmeetingpolicy)
 
 ```PowerShell
 Grant-CsTeamsMeetingPolicy -PolicyName AllOff -Identity "user email id"
 ```
 
-Дополнительные информацию об управлении политиками собраний с помощью PowerShell см. в [set-CsTeamsMeetingPolicy.](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy)
+Подробнее об управлении политиками собраний с помощью PowerShell можно узнать в [set-CsTeamsMeetingPolicy.](/powershell/module/skype/set-csteamsmeetingpolicy)

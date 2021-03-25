@@ -18,16 +18,16 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Узнайте, как управлять частными каналами в организации с помощью Graph API.
-ms.openlocfilehash: 854e8721dac7d49e258db42845b84480955bfec7
-ms.sourcegitcommit: 44bd56f67b1ad85ef8c21bb30d5b0d47e5a80339
+ms.openlocfilehash: e97d808bd9f544ef611b0b5e4b0456d302b4013d
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "49772042"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117747"
 ---
 # <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>Управление жизненным циклом закрытых каналов в Microsoft Teams
 
-Здесь вы найдете руководство, необходимое для управления использованием Graph API для управления частными каналами [Teams](https://docs.microsoft.com/microsoftteams/private-channels) в вашей организации.
+Здесь вы найдете руководство, необходимое для управления использованием Graph API для управления частными каналами [Teams](./private-channels.md) в вашей организации.
 
 ## <a name="set-whether-team-members-can-create-private-channels"></a>Укажите, могут ли участники команды создавать закрытые каналы
 
@@ -211,14 +211,14 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
 ## <a name="related-topics"></a>Статьи по теме
 
-[Использование Microsoft Graph API для работы с Teams](https://docs.microsoft.com/graph/api/resources/teams-api-overview?view=graph-rest-1.0)
+[Использование Microsoft Graph API для работы с Teams](/graph/api/resources/teams-api-overview?view=graph-rest-1.0)
 
-[Перечисление каналов](https://docs.microsoft.com/graph/api/channel-list)
+[Перечисление каналов](/graph/api/channel-list)
 
-[Создание канала](https://docs.microsoft.com/graph/api/channel-post)
+[Создание канала](/graph/api/channel-post)
 
-[Добавление участника в канал](https://docs.microsoft.com/graph/api/conversationmember-add)
+[Добавление участника в канал](/graph/api/conversationmember-add)
 
-[Обновление участника в канале](https://docs.microsoft.com/graph/api/conversationmember-update)
+[Обновление участника в канале](/graph/api/conversationmember-update)
 
-[Удаление участника из канала](https://docs.microsoft.com/graph/api/conversationmember-delete)
+[Удаление участника из канала](/graph/api/conversationmember-delete)

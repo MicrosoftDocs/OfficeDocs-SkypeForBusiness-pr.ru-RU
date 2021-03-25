@@ -12,32 +12,32 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 674b523b-c0b7-4ed6-9e67-afa6e8ac7e12
-description: Командная оболочка Skype для бизнеса Server предоставляет интерфейс командной строки для администрирования и управления сервером. Он построен на Windows PowerShell и включает полный набор средств управления и администрирования, которые относятся к Skype и устаревшим серверным продуктам Lync.
-ms.openlocfilehash: 0653faa542bc9bc579bd7617e40d3efed030569f
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Командная оболочка Skype для бизнес-серверов предоставляет интерфейс командной строки для администрирования и управления серверами. Он построен на Windows PowerShell и включает полный набор команды управления и администрирования, которые специфичен для продуктов Skype и устаревших серверов Lync.
+ms.openlocfilehash: 24da9ac341129239399ea17218be8547f3549d6f
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816539"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51118588"
 ---
 # <a name="skype-for-business-server-management-shell"></a>Командная консоль Skype для бизнеса Server
  
-Командная оболочка Skype для бизнеса Server предоставляет интерфейс командной строки для администрирования и управления сервером. Он построен на Windows PowerShell и включает полный набор средств управления и администрирования, которые относятся к Skype и устаревшим серверным продуктам Lync.
+Командная оболочка Skype для бизнес-серверов предоставляет интерфейс командной строки для администрирования и управления серверами. Он построен на Windows PowerShell и включает полный набор команды управления и администрирования, которые специфичен для продуктов Skype и устаревших серверов Lync.
   
-Windows PowerShell позволяет управлять приложениями Майкрософт из командной строки. Оно предоставляет среду командной строки, команды для определенных продуктов и полноценный язык скриптов. Windows PowerShell впервые была представлена в качестве загружаемого выпуска для операционной системы Windows в конце 2006 г. и была включена в качестве интерфейса командной строки для управления Microsoft Exchange Server 2007. Она была включена в большинство продуктов Microsoft Server, включая серверы Lync и Skype, начиная с Lync Server 2010. В оболочке управления Skype для бизнеса Server доступно более 700 специальных cmdlets для Lync и Skype.
+Windows PowerShell позволяет управлять приложениями Майкрософт из командной строки. Оно предоставляет среду командной строки, команды для определенных продуктов и полноценный язык скриптов. Windows PowerShell была впервые представлена в качестве загружаемого выпуска для операционной системы Windows в конце 2006 г. и была включена в качестве интерфейса командной строки для управляемости Microsoft Exchange Server 2007 г. Он был включен в большинство продуктов Microsoft Server, включая серверы Lync и Skype, начиная с Lync Server 2010. В оболочке управления Skype для бизнеса серверов доступно более 700 lync и skype.
   
 > [!NOTE]
-> Справочник по cmdlet skype для бизнеса перемещен в docs.microsoft.com. Щелкнув ссылки ниже, вы перейдите на новую docs.microsoft.com страницу. Теперь содержимое доступно с открытым исходным кодом и доступно для сообщества через GitHub. Заинтересованы в том, чтобы вносить свой вклад? Ознакомьтесь с readME в репо здесь: [https://github.com/MicrosoftDocs/office-docs-powershell](https://github.com/MicrosoftDocs/office-docs-powershell)
+> Ссылки на веб-кодлет Skype для бизнеса перенесены в docs.microsoft.com. Щелкнув ссылки ниже, вы сможете найти новую страницу docs.microsoft.com. Теперь контент открыт и доступен для взносов сообщества через GitHub. Заинтересованы в содействии? Ознакомьтесь с README в репо здесь: [https://github.com/MicrosoftDocs/office-docs-powershell](https://github.com/MicrosoftDocs/office-docs-powershell)
   
-Skype для бизнеса Server включает более 700 cmdlets, позволяющих администраторам управлять Skype для бизнеса Server с помощью оболочки управления Skype для бизнеса Server. Справку по командлету можно получить непосредственно из командной строки, введя команду, аналогичную следующей:
+Skype для бизнеса Server использует более 700 смдлетов, которые позволяют администраторам управлять Skype для бизнеса Server с помощью оболочки управления Skype для бизнес-серверов. Вы можете получить справку для командлета непосредственно из командной строки, введя команду, аналогичную следующей:
   
 ```PowerShell
 Get-Help New-CsVoicePolicy -Full
 ```
 
-В предыдущей команде извлекалась полная справка, доступная для командлета **New-CsVoicePolicy.** Чтобы просмотреть справку для другого cmdlet, замените **New-CsVoicePolicy** именем, для которого требуется получить справку.
+В предыдущей команде извлекается полная справка, доступная для **командлета New-CsVoicePolicy.** Чтобы просмотреть справку для другого cmdlet, замените **New-CsVoicePolicy** именем cmdlet, для которого требуется получить справку.
   
-Чтобы получить полный список командлетов, доступных для управления Skype для бизнеса Server, введите в командной области оболочки следующую команду: 
+Чтобы получить полный список командлетов, доступных для управления Skype для бизнеса Server, введите в командной подсказке оболочки следующее: 
   
 ```PowerShell
 Get-Command * -Module SkypeforBusiness -CommandType cmdlet
@@ -45,24 +45,24 @@ Get-Command * -Module SkypeforBusiness -CommandType cmdlet
 
 
 
-Что нужно знать о Windows PowerShell в Skype для бизнеса Server:
+Что нужно знать о Windows PowerShell Skype для бизнеса Server:
   
-- Чтобы запустить команды Skype для бизнеса Server, откройте оболочку управления Skype для бизнеса Server.
+- Чтобы запустить команды Skype для бизнеса Server, откройте оболочку управления Skype для бизнес-серверов.
     
     > [!CAUTION]
-    > If you open a Windows PowerShell rather than the Skype for Business Server Management Shell, by default you may not be able to run the Skype cmdlets. Чтобы запустить командлеты Skype для бизнеса Server из Windows PowerShell, введите в командной Windows PowerShell следующую команду: >  `Import-Module SkypeforBusiness`
+    > Если вы откроете Windows PowerShell, а не оболочку управления skype для бизнес-серверов, по умолчанию вы не сможете запустить команды Skype. Чтобы запустить командлеты Skype для бизнеса Server из Windows PowerShell, сначала введите следующее в командной Windows PowerShell: >  `Import-Module SkypeforBusiness`
   
-- Skype для бизнеса Server Management Shell автоматически устанавливается на каждом сервере переднего сервера Skype для бизнеса Server Enterprise Edition или сервере Standard Edition.
+- Оболочка управления Skype для бизнес-серверов автоматически устанавливается на каждом сервере skype для бизнеса Server Enterprise Edition front End Server или Standard Edition.
     
-- You can update the Skype for Business Server Management Shell help content by running the [Update-Help](https://technet.microsoft.com/library/hh849720.aspx) cmdlet. Командлет Update-Help загружает и устанавливает самые новые файлы справки, доступные для всех модулей, установленных на компьютере, включая обновления командлетов Skype для бизнеса.
+- Вы можете обновить содержимое справки по управлению Skype для бизнес-серверов с помощью команды [Update-Help.](/powershell/module/microsoft.powershell.core/update-help) Командлет Update-Help и устанавливает самые новые файлы справки, доступные для всех модулей, установленных на компьютере, включая обновления командлетов Skype для бизнеса.
     
-    По умолчанию **командлет Update-Help** обновляет все модули, установленные в Skype для бизнеса Server. Чтобы обновить только определенные модули, можно использовать параметр _Module,_ чтобы ограничить область действия командлета. В следующем примере обновляется только модуль Skype для бизнеса.
+    По умолчанию командлет **Update-Help** обновляет все модули, установленные на сервере Skype для бизнеса. Если требуется обновить только определенные модули, можно использовать параметр _Module,_ чтобы ограничить область действия командлета. В следующем примере обновляется только модуль Skype для бизнеса.
     
   ```PowerShell
   Update-Help -Module SkypeforBusiness
   ```
 
-    Если требуется обновить справку на серверах, которые не подключены [](https://technet.microsoft.com/library/hh849724.aspx) к Интернету, можно использовать для получения последней версии справки и ее сохранения в задаемом расположении. Затем можно использовать  для получения обновленной справки из выбранного расположения с помощью параметра _-SourcePath_ на серверах, не подключенных к Интернету. В следующем примере показано, как сохранить файлы справки в сетевой папке, а затем обновить справку для модуля Skype для бизнеса из файловой папки.
+    Если вам необходимо обновить справку на серверах, не подключенных к Интернету, вы можете использовать комлет [Save-Help,](/powershell/module/microsoft.powershell.core/save-help) чтобы получить последнюю версию справки и сохранить ее в нужном месте. Затем можно использовать комлет **Update-Help** с параметром _-SourcePath_ на серверах, не подключенных к Интернету, чтобы получить обновленную справку из выбранного вами расположения. В следующем примере показано, как сохранить файлы справки в сетевой файл, а затем обновить справку для модуля Skype для бизнеса из файла.
     
   ```PowerShell
   // Save the help files
@@ -71,9 +71,7 @@ Get-Command * -Module SkypeforBusiness -CommandType cmdlet
    Update-Help -Module SkypeforBusiness -SourcePath \\UpdateShare\HelpDownload
   ```
 
-    Дополнительные сведения см. в [справке по updatable.](https://technet.microsoft.com/library/hh847735.aspx)
+    Дополнительные сведения см. в [справке "Updatable Help".](/powershell/module/microsoft.powershell.core/about/about_updatable_help)
     
     > [!NOTE]
-    > При удаленном использовании PowerShell может потребоваться разрешить взаимодействие через брандмауэр. Дополнительные информацию о портах, которые использует для ремотивирования PowerShell, см. в поддомене "Какие порты использует [remoting PowerShell?".](https://blogs.technet.microsoft.com/christwe/2012/06/20/what-port-does-powershell-remoting-use/)
-    
-
+    > Если вы используете PowerShell удаленно, возможно, потребуется разрешить связь через брандмауэр. Дополнительные данные об использовании повторного использования портов PowerShell см. в этой [ссылке.](/archive/blogs/christwe/what-port-does-powershell-remoting-use)

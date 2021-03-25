@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Вот службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Индии.
-ms.openlocfilehash: 745ab3de04c33e5679e372190572ab07b87a331d
-ms.sourcegitcommit: e72599d5437773322ae6ef985f804a19101ed84f
+ms.openlocfilehash: a5bb42531cc2dc3fc7688bfeb014b82b30513502
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/26/2021
-ms.locfileid: "50347800"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117997"
 ---
 # <a name="availability-in-india"></a>Доступность в Индии
 
@@ -43,7 +43,7 @@ ms.locfileid: "50347800"
 |**Функция**|**Details**|
 |:-----|:-----|
 |Доступно ли приобретение аудиоконференций?  <br/> |Майкрософт не продает аудиоконференцию в Индии. TATA Communications предлагает службу для телефонного и телефонного ветвей, совместимую с собраниями Microsoft Teams. Дополнительные сведения можно получить на веб-сайте [TATA Communications.](https://www.tatacommunications.com/for-you/tata-communications-connections-for-microsoft-teams/)   <br/> |
-|Назначаются ли номера телефонов для аудиоконференций автоматически?  <br/> |Да, для:<br/><ul><li> Мумбай</ul>Если вам нужны выделенные номера телефонов, см. статью [Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](/microsoftteams/getting-service-phone-numbers).  <br/> |
+|Назначаются ли номера телефонов для аудиоконференций автоматически?  <br/> |Да, для:<br/><ul><li> Мумбай</ul>Если вам нужны выделенные номера телефонов, см. статью [Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](../getting-service-phone-numbers.md).  <br/> |
 |Возможность получить обратный звонок с функцией "Звонок на мой номер"  <br/> |Доступно  <br/> |
 
 ## <a name="phone-system"></a>Телефонная система
@@ -73,7 +73,7 @@ ms.locfileid: "50347800"
 |Доступны ли платные номера?  <br/> |Да  <br/> |
 |Доступны ли бесплатные номера?  <br/> |Да  <br/> |
 
- Обратите внимание, что в Индии номера служб можно использовать только для аудиоконференций. Таким образом, если вы хотите получить платные и бесплатные номера телефонов для аудиоконференции, см. получение номеров телефонов служб для Skype для бизнеса [и Microsoft Teams.](/microsoftteams/getting-service-phone-numbers)
+ Обратите внимание, что в Индии номера служб можно использовать только для аудиоконференций. Таким образом, если вы хотите получить платные и бесплатные номера телефонов для аудиоконференции, см. получение номеров телефонов служб для Skype для бизнеса [и Microsoft Teams.](../getting-service-phone-numbers.md)
   
 ## <a name="communications-credits"></a>Кредиты на связь
 
@@ -85,6 +85,6 @@ ms.locfileid: "50347800"
   
 ## <a name="related-topics"></a>Статьи по теме
 
-[Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
+[Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](../getting-service-phone-numbers.md)
 
 [Доступность аудиоконференций и планов звонков в различных странах и регионах](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

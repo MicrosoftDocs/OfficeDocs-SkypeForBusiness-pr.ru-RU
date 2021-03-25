@@ -11,60 +11,60 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
-description: Инструкции по настройке соединители данных звонков, позволяющие просматривать телеметрию из локальной сети Skype для бизнеса с помощью средств Skype для бизнеса Online.
-ms.openlocfilehash: 0354f5a1fd1b4794af29d23e0a0fc1bf49dfebd2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+description: Инструкции по настройке соединиттеля данных вызовов, который позволяет просматривать телеметрию из локального skype для бизнеса с помощью инструментов Skype для бизнеса Online.
+ms.openlocfilehash: f78d59d02964bd826fc705bc193cae3e21b293a5
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726929"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51118998"
 ---
 # <a name="configure-call-data-connector"></a>Настройка соединителя данных звонка
 
-В этой статье описано, как настроить соединители данных звонков — единый набор инструментов, позволяющий просматривать данные о качестве звонков Skype для бизнеса Server с помощью панели мониторинга качества звонков Skype для бизнеса Online и средств аналитики звонков (CA).
+В этой статье описывается настройка соединитетеля данных вызовов — единого средства, который позволяет просматривать качественные данные skype для бизнес-серверов с помощью инструментов мониторинга качества вызовов Skype для бизнеса в Интернете и аналитики вызовов (CA).
 
-Дополнительные сведения о преимуществах и предварительных требованиях соединительной связи для обработки вызовов, таких как требования к роли и настройка гибридного подключения, см. в подключении [plan Call Data Connector.](plan-call-data-connector.md)
+Дополнительные сведения о преимуществах и предварительных требованиях к соединителу данных вызовов, таких как требования к роли и настройке гибридного подключения, см. в руб. [Plan Call Data Connector.](plan-call-data-connector.md)
 
 ## <a name="enable-monitoring"></a>Включить мониторинг
  
-Необходимо настроить сбор данных регистрации вызовов (CDR) и качества обслуживания (QoE) в мониторинге пула переднего уровня с помощью локальных баз данных LCSCdr и QoEMetrics; в противном случае аналитика вызовов и панели мониторинга качества вызовов не будут получать данные для работы. Before you Configure Call Data Connector, follow the steps provided in [Deploy monitoring in Skype for Business Server](../../SfbServer/deploy/deploy-monitoring/deploy-monitoring.md) to configure both CDR and QoE as well as basic Monitoring.
+Необходимо настроить сбор данных для записи данных вызовов (CDR) и Quality of Experience (QoE) в переднем окантовке мониторинга пула с локальными базами данных LCSCdr и QoEMetrics; в противном случае панели мониторинга качества вызовов и вызовов не будут работать с данными. Перед настройкой соединители данных вызовов выполните действия, предусмотренные в развертывании мониторинга в Skype для бизнеса [Server,](../../SfbServer/deploy/deploy-monitoring/deploy-monitoring.md) чтобы настроить CDR и QoE, а также базовый мониторинг.
 
 > [!IMPORTANT]
-> Соединители данных вызовов не будут работать, если мониторинг не включен в пуле переднего входа.
+> Соединители данных вызовов не будут работать, если мониторинг не включен в переднем пуле.
 
-## <a name="enable-call-data-connector"></a>Enable Call Data Connector
+## <a name="enable-call-data-connector"></a>Включить соединители данные вызовов
 
-Чтобы настроить и включить соединители данных о вызовах, используйте следующие cmdlets:
+Чтобы настроить и включить соединители данных вызовов, вы будете использовать следующие cmdlets:
 
 | Командлет| Описание|
 | :-----------------|---------------:|
-| New-CsCloudCallDataConnection | Сетевой cmdlet, который устанавливает сетевой сборщик данных.|
-| Get-CsCloudCallDataConnection | Сетевой cmdlet, который извлекает существующий сетевой сборщик данных.|  
-| Get-CsCloudCallDataConnector | Локальное решение, которое извлекает сведения о под соединении, созданные New-CsCloudCallDataConnection. |
-| Set-CsCloudCallDataConnector | Локальное решение, которое сохраняет локальное копирование сведений о под подключениех, созданных New-CsCloudCallDataConnection. |  
-| Set-CsCloudCallDataConnectorConfiguration | Локальное решение, позволяя включить или отключить соединители, а также настроить уровень области.|
+| New-CsCloudCallDataConnection | Сетевой комлет, который создает сборщик данных в Интернете.|
+| Get-CsCloudCallDataConnection | Сетевой комлет, который извлекает существующий сборщик данных в Интернете.|  
+| Get-CsCloudCallDataConnector | Локальное решение, которое извлекает сведения о связи, созданные New-CsCloudCallDataConnection. |
+| Set-CsCloudCallDataConnector | Локальное решение, которое сохраняет локальное копирование сведений о подключении, созданных New-CsCloudCallDataConnection. |  
+| Set-CsCloudCallDataConnectorConfiguration | Локальное поле, которое позволяет включить или отключить соединители и настроить уровень области.|
 
 > [!NOTE]
-> Чтобы стереть конфигурацию и начать заново, используйте cmdlet Remove-csclouddatconnectorconfiguration.
+> Чтобы стереть конфигурацию и начать сначала, используйте cmdlet Remove-csclouddatconnectorconfiguration.
 
 ### <a name="configure-your-environment"></a>Настройка среды 
 
-Чтобы настроить среду для сетевого сборщика данных, необходимо сначала войти в Skype для бизнеса Online PowerShell от администратора. Дополнительные сведения см. в под [управлением Skype для бизнеса Online с помощью PowerShell в Office 365.](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)
+Чтобы настроить среду, чтобы включить онлайн-сборщик данных, сначала необходимо войти в Skype для бизнеса Online PowerShell в качестве администратора. Дополнительные сведения см. в ссылке Управление Skype для бизнеса [в Интернете с Помощью Office 365 PowerShell.](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)
 
-Существует два способа входа в PowerShell в Skype для бизнеса Online:
+Существует два метода входа в Skype для бизнеса Online PowerShell:
 
 - Из оболочки управления Skype для бизнеса Server 2019 (рекомендуемый метод)
 - Из другого сеанса PowerShell
 
 #### <a name="log-in-to-skype-for-business-online-powershell-from-the-skype-for-business-server-management-shell-recommended-method"></a>Войдите в Skype для бизнеса Online PowerShell из оболочки управления Skype для бизнеса Server (рекомендуемый метод)
 
-1. При первом включении соединители запустите следующую команду:
+1. При первом включении соединитетеля запустите следующую команду:
 
    ```PowerShell
    New-CsCloudCallDataConnection | Set-CsCloudCallDataConnector -TenantId <tenant_id>
    ```
 
-2. Если вы получите сообщение об ошибке, что подключение уже существует, это означает, что подключение к данным вызова уже существует для вашего клиента. В этом случае запустите команду: 
+2. Если вы получаете ошибку, которая уже существует, это означает, что подключение к данным вызова уже существует для клиента. В этом случае запустите команду: 
 
    ```PowerShell
    Get-CsCloudCallDataConnection | Set-CsCloudCallDataConnector -TenantId <tenant_id>
@@ -73,21 +73,21 @@ ms.locfileid: "41726929"
 
 #### <a name="log-in-to-skype-for-business-online-powershell-from-another-powershell-session-optional-method"></a>Войдите в Skype для бизнеса Online PowerShell из другого сеанса PowerShell (необязательный метод)
 
-1.  При первом включении соединители запустите следующую команду: 
+1.  При первом включении соединитетеля запустите следующую команду: 
 
     ```PowerShell 
     New-CsCloudCallDataConnection 
     ```
 
-2.  Если вы получите сообщение об ошибке, что подключение уже существует, это означает, что подключение к данным вызова уже существует для вашего клиента. В этом случае запустите команду: 
+2.  Если вы получаете ошибку, которая уже существует, это означает, что подключение к данным вызова уже существует для клиента. В этом случае запустите команду: 
 
     ```PowerShell
     Get-CsCloudCallDataConnection  
     ```
 
-Выходные данные вышеперечисленных команд содержат значение маркера, которое потребуется при настройке локальной среды следующим образом:
+Выход вышеперечисленных команд содержит значение маркера, которое необходимо при настройке локальной среды следующим образом:
 
-В командной оболочке Skype для бизнеса Server укажите следующую команду:
+В оболочке управления Skype для бизнеса Server укажите следующую команду:
 
 ```PowerShell
 Set-CsCloudCallDataConnector -Identity Global -TenantId <tenant_id> -Token <token-copied-from-online>
@@ -95,13 +95,13 @@ Set-CsCloudCallDataConnector -Identity Global -TenantId <tenant_id> -Token <toke
 
 ### <a name="configure-the-scope"></a>Настройка области
 
-Вы можете включить соединители данных звонков для определенного сайта или всего развертывания Skype для бизнеса Server с помощью Set-CsCloudCallDataConnectorConfiguration в оболочке управления Skype для бизнеса Server. Например, следующая команда включает call Data Connector в глобальной области:
+Вы можете включить соединителя данных вызовов для определенного сайта или для всего развертывания Skype для бизнес-сервера с помощью Set-CsCloudCallDataConnectorConfiguration из оболочки управления Skype для бизнеса Server. Например, следующая команда позволяет подключать данные вызовов в глобальном масштабе:
 
 ```PowerShell
 Set-CsCloudCallDataConnectorConfiguration -Identity "global" -EnableCallDataConnector $True
 ```
 
-Помимо глобальных параметров, параметры конфигурации call Data Connector можно на уровне сайта. Это обеспечивает дополнительную гибкость управления, когда речь идет о мониторинге. Например, администратор может включить переадправление соединители данных вызовов для сайта Redmond, но отключить переадправление call Data Connector для сайта Dublin, как показано в следующем примере:
+В дополнение к глобальным настройкам параметры конфигурации соединители данных вызовов могут быть назначены области сайта. Это обеспечивает дополнительную гибкость управления при мониторинге. Например, администратор может включить переадправление соединитель данных вызовов для сайта Redmond, но отключить переадправление соединитель данных вызовов для сайта Дублина, как показано в следующем примере:
 
 ```PowerShell
 Set-CsCloudCallDataConnectorConfiguration -Identity "site:Redmond" -EnableCallDataConnector $True
@@ -111,38 +111,38 @@ Set-CsCloudCallDataConnectorConfiguration -Identity "site:Redmond" -EnableCallDa
 Set-CsCloudCallDataConnectorConfiguration -Identity "site:Dublin" -EnableCallDataConnector $False
 ```
 
-Параметры, настроенные на уровне сайта, имеют приоритет над настройками, настроенными на глобальном уровне. Например, предположим, что переад вызов соединитель данных включен на глобальном уровне, но отключен на уровне сайта (для сайта Redmond). Это означает, что регистрация вызовов и сведения о качестве вызова не будут переададации для пользователей на сайте Redmond. Однако пользователи на других сайтах (то есть пользователи, управляемые глобальными настройками, а не с помощью параметров сайта Redmond) будут иметь регистрацию вызовов и перенаправят сведения о QoE.
+Параметры, настроенные в области сайта, имеют приоритет над настройками, настроенными в глобальной области. Например, предположим, что переададка соединитель данных вызовов включена в глобальном масштабе, но отключена в области сайта (для сайта Redmond). Это означает, что запись детализации вызовов и сведения о QoE не будут переададации для пользователей сайта Redmond. Однако пользователи на других сайтах (то есть пользователи, управляемые глобальными настройками вместо параметров сайта Redmond) будут иметь запись параметров зова и переададации данных QoE.
 
-Значения наиболее часто используемых параметров, используемых соединитетелем данных параметров вызова, показаны в следующей таблице:  
+Значения наиболее часто используемых параметров, используемых соединитетелем данных вызовов, показаны в следующей таблице:  
 
 |Свойство|Описание|Значение по умолчанию|
 |:-----|:-----|:-----|
-|EnableCallDataConnector  <br/> |Указывает, включен ли соединител данных о вызовах. Если задается true, записи мониторинга будут перенаададовы на веб-мониторинг.  <br/> |$False  <br/> |
-| Identity | Определяет уровень области для команды: глобальный или сайт.   | global  |
+|EnableCallDataConnector  <br/> |Указывает, включен ли соединитатель данных вызовов. Если true, записи мониторинга будут перенаадються в режим онлайн-мониторинга.  <br/> |$False  <br/> |
+| Идентификация | Определяет уровень области для команды: глобальный или сайт.   | глобальный  |
 
-## <a name="disable-call-data-connector"></a>Отключение соединители данных о вызовах
+## <a name="disable-call-data-connector"></a>Отключение соединитетеля данных вызовов
 
-Отключение соединителя данных о вызовах не отключает хранилище мониторинга от пула переднего входа и не делает его удалить или иным образом влиять на базу данных мониторинга. When you disable Call Data Connector, you stop Skype for Business Server from uploading call data to the cloud. 
+Отключение соединителя данных вызовов не отсоединяет хранилище мониторинга от пула переднего конца и не влияет на базу данных мониторинга заднего входа. При отключении соединители данных вызовов вы не сможете загружать данные вызовов в облако для Skype для бизнеса Server. 
 
-Соединители данных звонков отключаются с помощью Set-CsCloudCallDataConnectorConfiguration в оболочке управления Skype для бизнеса Server. Например, следующая команда отключает call Data Connector на глобальном уровне, задав для свойства EnableCallDataConnector $False:
+Вы отключили соединителя данных вызовов с помощью Set-CsCloudCallDataConnectorConfiguration из оболочки управления Skype для бизнеса Server. Например, следующая команда отключает соединитель данных вызовов в глобальной области, установив свойство EnableCallDataConnector для $False:
 
 ```PowerShell
 Set-CsCloudCallDataConnectorConfiguration -Identity "global" -EnableCallDataConnector $False
 ```
 
-Чтобы возобновить отправку данных о вызовах в облако, установите для свойства EnableCallDataConnector $True, как показано в следующем примере:
+Если вы хотите возобновить отправку данных вызовов в облако, установите свойство EnableCallDataConnector $True, как показано в следующем примере:
 
 ```PowerShell
 Set-CsCloudCallDataConnectorConfiguration -Identity "global" -EnableCallDataConnector $True
 ```
 
-## <a name="view-on-premises-data-through-the-online-dashboard"></a>Просмотр локальной информации с помощью информационной панели в Интернете
+## <a name="view-on-premises-data-through-the-online-dashboard"></a>Просмотр локальной информации с помощью панели мониторинга в Интернете
 
- После включения соединители данных о вызовах вы можете просматривать данные о локальном звонке на [](https://docs.microsoft.com/skypeforbusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality) информационной панели аналитики звонков или панели мониторинга качества звонков, как описано в описании использования аналитики звонков для устранения неполадок с неудовлетворительной качеством и включения и использования панели мониторинга качества звонков для Microsoft Teams и [Skype для бизнеса Online.](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard)
+ После включения соединиттеля данных вызовов можно просматривать данные локального вызова на панели мониторинга аналитики вызовов или панели мониторинга качества вызовов, как описано в use  [Call Analytics,](/skypeforbusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality) чтобы устранить проблемы низкого качества, включить и использовать панель мониторинга качества вызовов для Microsoft Teams и [Skype для](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard)бизнеса Online .
 
 ## <a name="for-more-information"></a>Дополнительные сведения
 
-For more information on the cmdlets, you can use the Get-Help command from the Skype for Business Server Management Shell. Пример:
+Дополнительные сведения о командлетах можно использовать Get-Help из командной команды Skype для бизнеса Server. Пример:
 
 Get-Help Get-CsCloudCallDataConnector | more
 

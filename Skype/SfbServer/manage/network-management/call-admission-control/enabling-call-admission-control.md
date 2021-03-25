@@ -1,5 +1,5 @@
 ---
-title: Включение контроля допуска вызовов
+title: Включение управления приемом вызовов
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -10,31 +10,31 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: " После настройки сети контроля допуска вызовов (CAC) необходимо включить контроль допуска вызовов для применения ограничений пропускной способности."
-ms.openlocfilehash: 8e996b4d2272144a35f667a5d6987b2cb91af708
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: " После настройки сети управления приемом вызовов (CAC) необходимо включить CAC для применения ограничений пропускной способности."
+ms.openlocfilehash: 090b19282ce85289b0e79e09d58646c5bf5e81e2
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816509"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51118578"
 ---
 # <a name="enabling-call-admission-control-in-skype-for-business-server"></a>Включение контроля допуска звонков в Skype для бизнеса Server
 
-Контроль допуска звонков — это сеть, состоящая из областей, узлов и подсетей, которая позволяет размещать ограничения на передачу аудио- и видеоданных на основе доступной пропускной способности. После настройки сети контроля допуска звонков необходимо включить контроль допуска звонков, чтобы ограничения пропускной способности вступили в силу. Для этого можно использовать панель управления Skype для бизнеса Server.
+Контроль допуска звонков — это сеть, состоящая из областей, узлов и подсетей, которая позволяет размещать ограничения на передачу аудио- и видеоданных на основе доступной пропускной способности. После настройки сети контроля допуска звонков необходимо включить контроль допуска звонков, чтобы ограничения пропускной способности вступили в силу. Для этого можно использовать панель управления Skype для бизнес-серверов.
 
 
-## <a name="to-enable-cac-from-the-skype-for-business-server-control-panel"></a>Чтобы включить контроль звонков из панели управления Skype для бизнеса Server, с помощью
+## <a name="to-enable-cac-from-the-skype-for-business-server-control-panel"></a>Включить CAC из панели управления Skype для бизнес-серверов
 
-1.  Из учетной записи пользователя, которая является членом группы RTCUniversalServerAdmins (или имеет эквивалентные права пользователя) или назначена роли CsAdministrator, войдите на любой компьютер во внутреннем развертывании.
+1.  С учетной записи пользователя, которая входит в группу RTCUniversalServerAdmins (или имеет эквивалентные права пользователя) или назначена роли CsAdministrator, войдите на любой компьютер во внутреннем развертывании.
 
-2.  Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Skype для бизнеса Server. 
+2.  Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Skype для бизнес-серверов. 
 
-3.  В левой панели навигации щелкните **"Конфигурация сети"** и выберите **"Глобальная".**
+3.  В левой панели навигации щелкните **Конфигурация сети** и нажмите кнопку **Глобальный**.
 
 4.  На странице **Глобальная** выберите конфигурацию **Глобальная**.
    
     > [!NOTE]  
-    > Для любого развертывания Skype для бизнеса Server можно настроить только одну сеть, поэтому в списке никогда не будет более одной конфигурации сети. Переименовать глобальную конфигурацию нельзя.
+    > Только одна сеть может быть настроена для любого развертывания Skype для бизнеса Server, поэтому в списке никогда не будет более одной конфигурации сети. Переименовать глобальную конфигурацию нельзя.
 
 5.  В меню **Правка** выберите пункт **Показать подробности**.
 
@@ -46,12 +46,12 @@ ms.locfileid: "49816509"
 
 ## <a name="see-also"></a>См. также
 
-[Планирование контроля допуска вызовов](../../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md) 
+[Планирование управления приемом вызовов](../../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md) 
  
 [Развертывание контроля допуска звонков](../../../deploy/deploy-enterprise-voice/deploy-call-admission-control.md) 
 
-[Get-CsNetworkConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkConfiguration)  
+[Get-CsNetworkConfiguration](/powershell/module/skype/Get-CsNetworkConfiguration)  
 
-[Set-CsNetworkConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkConfiguration)  
+[Set-CsNetworkConfiguration](/powershell/module/skype/Set-CsNetworkConfiguration)  
 
-[Remove-CsNetworkConfiguration](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkConfiguration)  
+[Remove-CsNetworkConfiguration](/powershell/module/skype/Remove-CsNetworkConfiguration)

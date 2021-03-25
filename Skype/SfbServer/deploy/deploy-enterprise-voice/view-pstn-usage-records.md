@@ -15,23 +15,23 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 65025c78-c263-472c-9ff9-e170588f10b5
-description: Сводка. Узнайте, как просматривать записи об использовании ЗВОНКОВ с помощью панели управления Skype для бизнеса Server или с помощью skype для бизнеса Server Management Shell.
-ms.openlocfilehash: abf9f3ec9ce1e2801de2c6017d12fd64df0c8954
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Сводка. Узнайте, как просматривать записи использования PSTN с помощью панели управления Skype для бизнес-серверов или оболочки управления Skype для бизнес-серверов.
+ms.openlocfilehash: 6a447f7aeb9db0a7ca858cf58df10273c28b533b
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49830539"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51109835"
 ---
 # <a name="view-pstn-usage-records-in-skype-for-business"></a>Просмотр записей использования PSTN в Skype для бизнеса
 
-**Сводка:** Learn how to view PSTN usage records by using the Skype for Business Server Control Panel or the Skype for Business Server Management Shell.
+**Сводка:** Узнайте, как просматривать записи использования PSTN с помощью панели управления Skype для бизнес-серверов или оболочки управления Skype для бизнес-серверов.
 
-В записи об использовании телефонной сети общего пользования (PSTN) указывается класс звонка (например, внутренний, локальный или междугородный), который может быть выполнен различными пользователями или группами пользователей в организации. Подробные сведения [см.](https://technet.microsoft.com/library/b5f624aa-abe8-455b-a8e3-c228be230463.aspx) в документации по планированию.
+Запись использования общедоступных переключений телефонной сети (PSTN) указывает класс вызова (например, внутренний, локальный или междугородний), который может быть выполнен различными пользователями или группами пользователей в организации. Подробные сведения [см.](/previous-versions/office/lync-server-2013/lync-server-2013-pstn-usage-records) в документации по планированию.
 
-### <a name="to-view-a-pstn-usage-record-by-using-skype-for-business-server-control-panel"></a>Просмотр записи об использовании PSTN с помощью панели управления Skype для бизнеса Server
+### <a name="to-view-a-pstn-usage-record-by-using-skype-for-business-server-control-panel"></a>Просмотр записи использования PSTN с помощью панели управления Skype для бизнес-серверов
 
-1. Откройте панель управления Skype для бизнеса Server.
+1. Откройте панель управления Skype для бизнес-серверов.
 
 2. На левой панели навигации щелкните **Маршрутизация голосовой связи**, а затем щелкните **Использование ТСОП**.
 
@@ -40,9 +40,9 @@ ms.locfileid: "49830539"
     > [!NOTE]
     > На доступной только для чтения странице выбранной записи об использовании ТСОП отображаются связанные маршруты и политики голосовой связи.
 
-### <a name="to-view-pstn-usage-information-by-using-skype-for-business-server-management-shell-cmdlets"></a>Просмотр сведений об использовании PSTN с помощью команды skype для бизнеса Server Management Shell
+### <a name="to-view-pstn-usage-information-by-using-skype-for-business-server-management-shell-cmdlets"></a>Просмотр сведений об использовании PSTN с помощью команды Skype для управления бизнес-серверами
 
-- Чтобы просмотреть сведения обо всех типах использования PSTN, введите следующую команду в командной оболочке Skype для бизнеса Server и нажмите ввод:
+- Чтобы просмотреть сведения обо всех ваших приложениях PSTN, введите следующую команду в командной оболочке Skype для бизнес-серверов и нажмите кнопку ENTER:
 
   ```powershell
   Get-CsPstnUsage
@@ -57,5 +57,4 @@ ms.locfileid: "49830539"
 
 ## <a name="see-also"></a>См. также
 
-[Create or modify a voice policy and configure PSTN usage records in Skype for Business](voice-policy-and-pstn-usage-records.md)
-
+[Создание или изменение голосовой политики и настройка записей использования PSTN в Skype для бизнеса](voice-policy-and-pstn-usage-records.md)

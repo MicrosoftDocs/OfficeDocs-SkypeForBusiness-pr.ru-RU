@@ -12,25 +12,25 @@ metadata:
   ms.author: samanro
   ms.date: 07/03/2019
   localization_priority: Priority
-  ms.openlocfilehash: bfae335402888736c47ebe38c98cc2d30654d8af
-  ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+  ms.openlocfilehash: 4fddbad88364a26bee8c8217175080b80380ed60
+  ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
   ms.translationtype: HT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 02/11/2020
-  ms.locfileid: "44805554"
+  ms.lasthandoff: 03/23/2021
+  ms.locfileid: "51119038"
 additionalContent:
   sections:
   - title: Для ИТ-специалистов
     items:
     - title: Skype для бизнеса Online
       summary: Найдите ресурсы для управления Skype для бизнеса Online в вашей среде Office 365.
-      url: /SkypeForBusiness/skype-for-business-online
+      url: ../SfbOnline/skype-for-business-online.yml
     - title: Гибридные решения
       summary: В этой статье приводятся сведения о планировании гибридного развертывания Skype для бизнеса.
-      url: /SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json
+      url: ../SfbHybrid/hybrid/plan-hybrid-connectivity.md?toc=%2fSkypeForBusiness%2fsfbhybridtoc%2ftoc.json
     - title: Skype для бизнеса Server
       summary: Развертывание и управление Skype для бизнеса Server для вашей организации.
-      url: /SkypeForBusiness/skype-for-business-server-2019
+      url: ../SfBServer2019/skype-for-business-server-2019.yml
     - title: Справка PowerShell для Skype для бизнеса
       summary: Узнайте о командлетах PowerShell, которые вам нужны для управления Skype для бизнеса и Skype для бизнеса Online.
       url: /powershell/skype/intro
@@ -45,7 +45,7 @@ additionalContent:
       url: /SkypeForBusiness/room-systems/
     - title: Программа сертификации Skype для бизнеса
       summary: Узнайте о сертифицированных решениях и устройствах.
-      url: /SkypeForBusiness/certification/overview
+      url: ../SfbPartnerCertification/certification/overview.md
     - title: Устранение неполадок
       summary: Ресурсы по устранению неполадок и поддержке для ИТ-специалистов и администраторов.
       url: /office/troubleshoot

@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: Сводка. Сведения о настройке взаимодействия между локальной развертыванием и Skype для бизнеса Online.
-ms.openlocfilehash: a97072c9c4b65b4cc13d29a733b8ddc840529363
-ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
+ms.openlocfilehash: e2af514ef1a10d652abae7bdd39a923dc52e1c4a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50569221"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51118948"
 ---
 # <a name="configure-skype-for-business-hybrid"></a>Настройка гибридной среды Skype для бизнеса
 
@@ -33,7 +33,7 @@ ms.locfileid: "50569221"
 - Настройте локальное окружение, чтобы доверять [Microsoft 365 или Office 365](#configure-your-on-premises-environment-to-enable-shared-sip-address-space-with-microsoft-365-or-office-365)и включить общее пространство адресов SIP.
 - [Включить общее пространство адресов SIP в организации Microsoft 365 или Office 365.](#enable-shared-sip-address-space-in-your-organization)
 
-Обратите внимание, что если у вас есть локальное приложение Exchange, вам может потребоваться настроить OAuth между локальной средой Exchange и средой Skype для бизнеса Online. Дополнительные сведения см. в рублях Управление проверкой подлинности от сервера к серверу в [Skype для бизнес-сервера](https://docs.microsoft.com/SkypeForBusiness/manage/authentication/server-to-server-and-partner-applications) и планирование интеграции [Skype для бизнеса и Exchange.](https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/integrate-with-exchange/integrate-with-exchange#feature_support) 
+Обратите внимание, что если у вас есть локальное приложение Exchange, вам может потребоваться настроить OAuth между локальной средой Exchange и средой Skype для бизнеса Online. Дополнительные сведения см. в рублях Управление проверкой подлинности от сервера к серверу в [Skype для бизнес-сервера](../../SfbServer/manage/authentication/server-to-server-and-partner-applications.md) и планирование интеграции [Skype для бизнеса и Exchange.](../../SfbServer/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md#feature_support) 
   
 ## <a name="configure-your-on-premises-edge-service-to-federate-with-microsoft-365-or-office-365"></a>Настройка локальной службы Edge для федерации с помощью Microsoft 365 или Office 365
 
@@ -46,7 +46,7 @@ Set-CSAccessEdgeConfiguration -AllowOutsideUsers $True -AllowFederatedUsers $Tru
 Если значение "EnablePartnerDiscovery" установлено $True, Skype для бизнеса Server будет использовать записи DNS для обнаружения доменов партнеров, не указанных в списке AllowedDomains. Если значение задается $False, Skype для бизнеса Server будет только федератом с доменами, найденными в списке AllowedDomains. Этот параметр необходим, если используется маршрутизация службы DNS.
 
 > [!NOTE]
-> Дополнительные сведения о включании федерации между пользователями локального развертывания Skype для бизнеса и пользователями организации Skype для бизнеса в Интернете см. в материале Настройка поддержки федерации для клиента Skype для бизнеса Online в [Skype для](https://docs.microsoft.com/skypeforbusiness/manage/federation-and-external-access/federation-support/configuring-federation-support)бизнеса Server .
+> Дополнительные сведения о включании федерации между пользователями локального развертывания Skype для бизнеса и пользователями организации Skype для бизнеса в Интернете см. в материале Настройка поддержки федерации для клиента Skype для бизнеса Online в [Skype для](../../SfbServer/manage/federation-and-external-access/federation-support/configuring-federation-support.md)бизнеса Server .
 
 
 ## <a name="configure-your-on-premises-environment-to-enable-shared-sip-address-space-with-microsoft-365-or-office-365"></a>Настройка локальной среды, чтобы включить общее пространство адресов SIP с Microsoft 365 или Office 365
@@ -78,7 +78,7 @@ Set-CsTenantFederationConfiguration -SharedSipAddressSpace $true
 > [!NOTE]
 > Атрибут SharedSipAddressSpace должен оставаться "True", пока переход к сети не будет окончательным, и никакие пользователи не останутся на месте. 
   
-Чтобы установить удаленный сеанс PowerShell в Teams или Skype для бизнеса Online, сначала необходимо установить [модуль Teams PowerShell.](https://docs.microsoft.com/microsoftteams/teams-powershell-install)
+Чтобы установить удаленный сеанс PowerShell в Teams или Skype для бизнеса Online, сначала необходимо установить [модуль Teams PowerShell.](/microsoftteams/teams-powershell-install)
   
 После установки модуля можно установить удаленный сеанс со следующими командлетами:
    ```powershell
@@ -89,10 +89,10 @@ Set-CsTenantFederationConfiguration -SharedSipAddressSpace $true
    Connect-MicrosoftTeams -Credential $credential
    ```
 
-Дополнительные сведения о создании удаленного сеанса PowerShell в Skype для бизнеса Online и использовании модуля соединитель Skype для бизнеса в Интернете см. в Windows PowerShell [.](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
+Дополнительные сведения о создании удаленного сеанса PowerShell в Skype для бизнеса Online и использовании модуля соединитель Skype для бизнеса в Интернете см. в Windows PowerShell [.](../../SfbOnline/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
   
 
 
 ## <a name="see-also"></a>См. также
 
-[New-CsHostingProvider](https://docs.microsoft.com/powershell/module/skype/new-cshostingprovider?view=skype-ps)
+[New-CsHostingProvider](/powershell/module/skype/new-cshostingprovider?view=skype-ps)

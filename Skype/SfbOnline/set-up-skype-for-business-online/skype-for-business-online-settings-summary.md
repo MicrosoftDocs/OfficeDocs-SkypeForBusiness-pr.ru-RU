@@ -20,19 +20,19 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 'Эта сводка параметров организации и пользователей Skype для бизнеса поможет вам узнать больше о подключениях к общедоступным мгновенным звонкам, приглашениях на собрания, записи звонков и собраний и не только.  '
-ms.openlocfilehash: a7c627620bba6d1249dcc6ce14bbaf25796b7173
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+ms.openlocfilehash: d48da549a48cf3326cc55a44d68ca36048fae439
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44164128"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51109925"
 ---
 # <a name="skype-for-business-online-settings-summary"></a>Общие сведения о параметрах Skype для бизнеса Online
 
 В **Центре администрирования Skype** для бизнеса есть параметры для всей организации и отдельных пользователей. 
   
 > [!NOTE]
->  В зависимости от вашего расположения у вас могут быть не все функции Skype для бизнеса Online. Дополнительные сведения [см. в лицензионных ограничениях для Microsoft 365 и Office 365.](https://go.microsoft.com/fwlink/?LinkId=529483) 
+>  В зависимости от вашего расположения у вас могут быть не все функции Skype для бизнеса Online. Дополнительные сведения [см. в лицензионных ограничениях для Microsoft 365 и Office 365.](/microsoft-365/commerce/) 
   
 ## <a name="skype-for-business-online-organization-settings"></a>Параметры организации Skype для бизнеса online
 <a name="__top"> </a>
@@ -53,7 +53,7 @@ ms.locfileid: "44164128"
 |Аудио и видео  <br/> |Проведение аудио- и видеоконференций с помощью Skype для бизнеса online  <br/> |Включено  <br/> |[Администраторам: настройка параметров Skype для бизнеса для отдельных пользователей](configure-skype-for-business-settings-for-individual-users.md) <br/> |
 |Запись  <br/> |Запись звонков и собраний  <br/> |Включено  <br/> |[Администраторам: настройка параметров Skype для бизнеса для отдельных пользователей](configure-skype-for-business-settings-for-individual-users.md) <br/> |
 |Обратный вызов для анонимных участников  <br/> |Разрешение анонимным участникам собрания Skype для бизнеса online подключаться к аудиоконференции посредством обратного вызова от поставщика услуг аудиоконференций  <br/> |Включено  <br/> |[Администраторам: настройка параметров Skype для бизнеса для отдельных пользователей](configure-skype-for-business-settings-for-individual-users.md) <br/> |
-|Отключение неархивных функций  <br/> | Отключать функции, которые не захватываются, когда организация настроил добавление контента в дело и поместите источники на удержание в Центре [eDiscovery](https://go.microsoft.com/fwlink/?LinkId=529482) в Центре администрирования Exchange: <br/>  Передача файлов через службу мгновенных сообщений <br/>  Общие страницы OneNote <br/>  Примечания PowerPoint <br/>  Включите этот параметр, если требуется сохранять данные в электронной форме. <br/> |Отключено  <br/> |[Администраторам: настройка параметров Skype для бизнеса для отдельных пользователей](configure-skype-for-business-settings-for-individual-users.md) <br/> |
+|Отключение неархивных функций  <br/> | Отключать функции, которые не захватываются, когда организация настроит добавление контента в дело и поместите источники на удержание в Центре [eDiscovery](/SharePoint/governance/add-content-to-a-case-and-place-sources-on-hold-in-the-ediscovery-center) в Центре администрирования Exchange: <br/>  Передача файлов через службу мгновенных сообщений <br/>  Общие страницы OneNote <br/>  Примечания PowerPoint <br/>  Включите этот параметр, если требуется сохранять данные в электронной форме. <br/> |Отключено  <br/> |[Администраторам: настройка параметров Skype для бизнеса для отдельных пользователей](configure-skype-for-business-settings-for-individual-users.md) <br/> |
    
 ## <a name="related-topics"></a>Статьи по теме
 [Настройка Skype для бизнеса Online](set-up-skype-for-business-online.md)
@@ -61,4 +61,3 @@ ms.locfileid: "44164128"
 [Разрешение на добавление контактов Skype пользователям Skype для бизнеса](let-skype-for-business-users-add-skype-contacts.md)
 
   
- 

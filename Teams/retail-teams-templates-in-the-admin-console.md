@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4b40da8fd1cc8182d0e5ad80c30f5a459f17d26f
-ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
-ms.translationtype: HT
+ms.openlocfilehash: a63602f07e0c248b4decbc733e41b16fdafc3911
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49662644"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117617"
 ---
 # <a name="use-teams-retail-templates-in-the-admin-center"></a>Использование шаблонов Teams для розничной торговли в Центре администрирования
 
@@ -34,7 +34,7 @@ ms.locfileid: "49662644"
 
 В этой статье вы познакомитесь с каждым шаблоном Teams и рекомендуемыми способами их использования.
 
-Эта статья предназначена для вас, если вы отвечаете за планирование, развертывание и управление несколькими командами в своей организации розничной торговли. Предполагается, что вы уже развернули службу Teams в своей организации. Если вы еще не развернули Teams, см. статью [Как развернуть Microsoft Teams](How-to-roll-out-teams.md).
+Эта статья предназначена для вас, если вы отвечаете за планирование, развертывание и управление несколькими командами в своей организации розничной торговли. Предполагается, что вы уже развернули службу Teams в своей организации. Если вы еще не развернули Teams, см. статью [Как развернуть Microsoft Teams](./deploy-overview.md).
 
 Другие общие сведения о шаблонах команд см. в статье [Начало работы с шаблонами Teams](get-started-with-teams-templates-in-the-admin-console.md).
 

@@ -22,12 +22,12 @@ appliesto:
 ms.reviewer: ''
 description: Используйте шаблоны Microsoft Teams в Центре администрирования или в Microsoft Graph, чтобы быстро и удобно создавать команды на основе готовых шаблонов с параметрами, каналами и приложениями.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: b45c949b70aa2a299f2aafe54d81cdd8a1a6c0b5
-ms.sourcegitcommit: 774c2fdc71df430674493c33b609523af3cbda4c
-ms.translationtype: HT
+ms.openlocfilehash: 13b85818101e1c3d42ae6dc715274ac23453e178
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/16/2021
-ms.locfileid: "50260311"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117877"
 ---
 # <a name="create-a-team-using-teams-healthcare-templates"></a>Создание команды с помощью шаблонов Teams для здравоохранения
 
@@ -67,7 +67,7 @@ ms.locfileid: "50260311"
 
 ## <a name="use-the-teams-templates-with-the-microsoft-graph"></a>Использование шаблонов Teams с Microsoft Graph
 
-Разработчики могут использовать Microsoft Graph для создания команд с помощью шаблонов Teams. В настоящее время мы предлагаем два разработанных нами шаблона для здравоохранения, которые можно использовать в различных ситуациях. Дополнительные сведения о шаблонах команд см. в статье [Начало работы с шаблонами Teams](../../get-started-with-teams-templates.md). Сведения о шаблонах Teams и Microsoft Graph, см. в статьях [Обзор API Microsoft Teams API](https://docs.microsoft.com/graph/teams-concept-overview?view=graph-rest-1.0) и [Тип ресурса teamsTemplate](https://docs.microsoft.com/graph/api/resources/teamstemplate?view=graph-rest-1.0).
+Разработчики могут использовать Microsoft Graph для создания команд с помощью шаблонов Teams. В настоящее время мы предлагаем два разработанных нами шаблона для здравоохранения, которые можно использовать в различных ситуациях. Дополнительные сведения о шаблонах команд см. в статье [Начало работы с шаблонами Teams](../../get-started-with-teams-templates.md). Сведения о шаблонах Teams и Microsoft Graph, см. в статьях [Обзор API Microsoft Teams API](/graph/teams-concept-overview?view=graph-rest-1.0) и [Тип ресурса teamsTemplate](/graph/api/resources/teamstemplate?view=graph-rest-1.0).
 
 ### <a name="ward-template"></a>Шаблон для отделений больницы
 
@@ -93,7 +93,7 @@ ms.locfileid: "50260311"
 
 ### <a name="how-to-use-first-party-templates"></a>Использование собственных шаблонов
 
-Чтобы использовать эти шаблоны, измените значение свойства "template@odata.bind" в тексте запроса со "standard" на указанные выше идентификаторы TemplateID.  Дополнительные сведения о развертывании шаблонов Teams см. в статье Microsoft Graph о [создании команд](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta).
+Чтобы использовать эти шаблоны, измените значение свойства "template@odata.bind" в тексте запроса со "standard" на указанные выше идентификаторы TemplateID.  Дополнительные сведения о развертывании шаблонов Teams см. в статье Microsoft Graph о [создании команд](/graph/api/team-post?view=graph-rest-beta).
 
 > [!NOTE]
 > Каналы в шаблоне будут автоматически создаваться на вкладке "Общие".
