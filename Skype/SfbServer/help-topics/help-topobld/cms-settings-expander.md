@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4b882923-ed6f-44f3-ad9c-aabad5a3bc00
 description: Центральный сервер управления можно изменить с одного заданного пула переднего плана на другой заданный пул переднего плана. Чтобы изменить расположение центрального сервера управления, выберите пул переднего плана в раскрывающемся списке Сервер переднего плана для установки центрального хранилища управления. В качестве сервера переднего плана может выступать пул переднего плана Enterprise Edition или сервер переднего плана Standard Edition.
-ms.openlocfilehash: 741bbee4d913066c0fb64fa30f4bfad2ced4d49a
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 42b4d4856e32929a9b56e69edfcf48d13f8ab66d
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49833109"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122463"
 ---
 # <a name="cms-settings-expander"></a>Расширитель параметров CMS
  
@@ -29,6 +29,4 @@ ms.locfileid: "49833109"
 > [!IMPORTANT]
 > Если было определено, опубликовано и развернуто центральное хранилище управления для инфраструктуры, невозможно изменить местоположение центрального хранилища управления без переноса этого хранилище на другой интерфейсный сервер для внешней обработки. 
   
-Подробные сведения о перемещении центрального сервера управления см. в справочнике по Windows PowerShell [move-CsManagementServer.](https://docs.microsoft.com/powershell/module/skype/move-csmanagementserver?view=skype-ps)
-  
-
+Сведения о перемещении магазина Центрального сервера управления см. в ссылке [Move-CsManagementServer](/powershell/module/skype/move-csmanagementserver?view=skype-ps) Windows PowerShell ссылке.

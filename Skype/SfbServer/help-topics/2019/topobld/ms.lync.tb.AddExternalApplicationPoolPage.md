@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 5d065268-a694-49a1-b285-9be80a09995c
 ROBOTS: NOINDEX, NOFOLLOW
 description: Чтобы определить полное доменное имя пула доверенных приложений, укажите следующие параметры.
-ms.openlocfilehash: e34c3ba68a90e292da9441465d9077112b1ce173
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 575d4b5464b4a109bc34908f8cb86b802a20a5c0
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49811819"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122680"
 ---
 # <a name="add-trusted-application-pool-fqdn"></a>Добавление полного доменного имени пула доверенных приложений
  
@@ -33,6 +33,4 @@ ms.locfileid: "49811819"
 > [!IMPORTANT]
 > Отдельный сервер доверенных приложений не может быть преобразован в пул серверов. Если в будущем может понадобиться пул, можно развернуть на данном этапе пул серверов, состоящий только из одного сервера, а впоследствии добавить в него серверы. 
   
-Дополнительные сведения о пуле доверенных приложений см. в разделе [New-CsTrustedApplicationPool](https://docs.microsoft.com/powershell/module/skype/new-cstrustedapplicationpool?view=skype-ps).
-  
-
+Дополнительные сведения о пуле доверенных приложений см. в разделе [New-CsTrustedApplicationPool](/powershell/module/skype/new-cstrustedapplicationpool?view=skype-ps).

@@ -15,15 +15,13 @@ localization_priority: Normal
 ms.assetid: f7f90070-fcdc-4ec5-9551-cc7da2ed271c
 ROBOTS: NOINDEX, NOFOLLOW
 description: Вы можете добавить поддержку доступа внешних пользователей или при развертывании первоначальной топологии, или позднее. Дополнительные сведения о добавлении пограничных серверов к существующей топологии см. в разделе Define Your Edge Topology руководства по развертыванию пограничного сервера.
-ms.openlocfilehash: 70ed242275e72321f52b33b3317d409d00271053
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 4db586161f9878ba69102c200ed621bfb06ab2fc
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49811859"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122690"
 ---
 # <a name="add-edge-server-support"></a>Добавление поддержки для пограничного сервера
 
-Вы можете добавить поддержку доступа внешних пользователей или при развертывании первоначальной топологии, или позднее. Дополнительные сведения о добавлении пограничных серверов к существующей топологии см. в разделе [Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx) руководства по развертыванию пограничного сервера.
-
-
+Вы можете добавить поддержку доступа внешних пользователей или при развертывании первоначальной топологии, или позднее. Дополнительные сведения о добавлении пограничных серверов к существующей топологии см. в разделе [Define Your Edge Topology](/previous-versions/office/lync-server-2013/lync-server-2013-define-your-edge-topology) руководства по развертыванию пограничного сервера.

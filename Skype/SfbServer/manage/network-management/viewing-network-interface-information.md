@@ -10,21 +10,21 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Сведения о сетевом интерфейсе можно просмотреть с помощью Windows PowerShell и Get-CsNetworkInterface управления. Вы можете запустить этот командлет из командной консоли Skype для бизнеса Server или из удаленного сеанса Windows PowerShell.
-ms.openlocfilehash: 26876fe6f7d8ac6989c88e8247d28a72e78ff903
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Сведения о сетевом интерфейсе можно просматривать с помощью Windows PowerShell и Get-CsNetworkInterface. Вы можете запустить этот командлет из командной консоли Skype для бизнеса Server или из удаленного сеанса Windows PowerShell.
+ms.openlocfilehash: 0e72b2550413004038b110292b693dda25affaf8
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49815139"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122423"
 ---
 # <a name="viewing-network-interface-information-in-skype-for-business-server"></a>Просмотр сведений о сетевом интерфейсе в Skype для бизнеса Server
 
-Сведения о сетевом интерфейсе можно просмотреть с Windows PowerShell **командлета Get-CsNetworkInterface.** Вы можете запустить этот командлет из командной консоли Skype для бизнеса Server или из удаленного сеанса Windows PowerShell. 
+Сведения о сетевом интерфейсе можно просматривать с помощью Windows PowerShell и **командлета Get-CsNetworkInterface.** Вы можете запустить этот командлет из командной консоли Skype для бизнеса Server или из удаленного сеанса Windows PowerShell. 
 
 ## <a name="to-view-network-interface-information"></a>Просмотр сведений о сетевом интерфейсе
 
-  - Чтобы просмотреть сведения о сетевом интерфейсе, введите следующую команду в командной оболочке Skype для бизнеса Server и нажмите ввод:
+  - Чтобы просмотреть сведения о сетевом интерфейсе, введите следующую команду в командной оболочке Skype для бизнес-серверов и нажмите кнопку ENTER:
     
         Get-CsNetworkInterface
     
@@ -40,6 +40,4 @@ ms.locfileid: "49815139"
         ConfiguredIPAddress   :
         ConfiguredIPv6Address :
     
-    Дополнительные сведения см. в разделе [Get-CsNetworkInterface](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkInterface).
-
-
+    Дополнительные сведения см. в разделе [Get-CsNetworkInterface](/powershell/module/skype/Get-CsNetworkInterface).

@@ -1,5 +1,5 @@
 ---
-title: Просмотр или настройка политики "Пользователи"
+title: Просмотр или настройка политики конференций пользователей
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,18 +15,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 112c77cf-3625-4a97-a1a4-be6f3234cd53
 description: Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
-ms.openlocfilehash: 9bdb8eb5c21e6a9bf5cf77845ebb99a138b0ab11
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: af0e5a2bce95a3ac4a2e090f1fbef1f45eb25229
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49824379"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122513"
 ---
 # <a name="users-view-or-configure-conferencing-policy"></a>Пользователи: просмотр или настройка политики конференц-связи
 
 Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
 
-- [Назначение политики проведения собраний для изменения пользовательского интерфейса собрания по умолчанию](https://technet.microsoft.com/library/72f12c72-65f7-44fe-ab81-0f57cb2f87d1.aspx)
+- [Назначение политики конференций для изменения пользовательского интерфейса собрания по умолчанию](/previous-versions/office/lync-server-2013/lync-server-2013-assign-a-per-user-conferencing-policy)
 
-For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).
-
+Сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнес-серверов, см. в материале Управление Skype для бизнеса [Server 2015.](../../manage/manage.md)
