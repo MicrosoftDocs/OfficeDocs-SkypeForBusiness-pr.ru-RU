@@ -15,16 +15,14 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7b9d0779-436f-4965-8110-a41ff4d0302d
-description: Подробные сведения о устойчивости сайта филиала см. в Branch-Site Voice Resiliency.
-ms.openlocfilehash: 482ea9cbe7b6f96ebf2bfa34ab0db14784e8a6a5
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Подробные сведения о устойчивости филиальных сайтов см. в материале Planning for Branch-Site Voice Resiliency.
+ms.openlocfilehash: 96ef2d9afc376b5dee648f431d243ba5f67fe06b
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49810659"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116137"
 ---
-# <a name="branch-sites-planning-tool"></a><span data-ttu-id="92e92-103">Сайты филиалов (средство планирования)</span><span class="sxs-lookup"><span data-stu-id="92e92-103">Branch Sites (Planning Tool)</span></span>
+# <a name="branch-sites-planning-tool"></a><span data-ttu-id="5cb02-103">Сайты филиалов (средство планирования)</span><span class="sxs-lookup"><span data-stu-id="5cb02-103">Branch Sites (Planning Tool)</span></span>
 
-<span data-ttu-id="92e92-104">Подробные сведения о устойчивости сайта филиала см. в Branch-Site [.](https://technet.microsoft.com/library/67713f57-3ded-4127-ac37-57d8099bf384.aspx)</span><span class="sxs-lookup"><span data-stu-id="92e92-104">For details about branch-site resiliency, see [Planning for Branch-Site Voice Resiliency](https://technet.microsoft.com/library/67713f57-3ded-4127-ac37-57d8099bf384.aspx).</span></span>
-
-
+<span data-ttu-id="5cb02-104">Подробные сведения о устойчивости филиальных сайтов см. в материале [Планирование Branch-Site голосовой устойчивости.](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-branch-site-voice-resiliency)</span><span class="sxs-lookup"><span data-stu-id="5cb02-104">For details about branch-site resiliency, see [Planning for Branch-Site Voice Resiliency](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-branch-site-voice-resiliency).</span></span>

@@ -7,7 +7,7 @@ ms.topic: article
 ms.reviewer: brandber
 ms.service: msteams
 audience: admin
-description: Используйте этот сценарий PowerShell, чтобы экспортировать список руководителей и их руководителей для организации, чтобы подготовиться к созданию команды для каждого руководителя со своими непосредственно членами.
+description: Используйте этот сценарий PowerShell, чтобы экспортировать список руководителей и их руководителей для организации, чтобы подготовиться к созданию команды для каждого руководителя, управлия его участниками.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -16,23 +16,23 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d9e7b35710811438f1435306ce08b487b490d472
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: a7f2217bc39ead0abec48dafb75ff3f846681f20
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583126"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117317"
 ---
-# <a name="powershell-script-sample---export-managers-and-their-directs"></a><span data-ttu-id="aa468-103">Пример сценария PowerShell: диспетчеры экспорта и их руководители</span><span class="sxs-lookup"><span data-stu-id="aa468-103">PowerShell script sample - Export managers and their directs</span></span>
+# <a name="powershell-script-sample---export-managers-and-their-directs"></a><span data-ttu-id="d6c26-103">Пример сценария PowerShell: диспетчеры экспорта и их руководители</span><span class="sxs-lookup"><span data-stu-id="d6c26-103">PowerShell script sample - Export managers and their directs</span></span>
 
-<span data-ttu-id="aa468-104">Используйте этот сценарий PowerShell для экспорта списка руководителей и их руководителей в организации, чтобы подготовиться к созданию команды диспетчера людей для каждого руководителя со своими непосредственными участниками.</span><span class="sxs-lookup"><span data-stu-id="aa468-104">Use this PowerShell script to export a list of managers and their directs for your organization, in preparation for creating a people manager team for each manager with their directs as team members.</span></span>
+<span data-ttu-id="d6c26-104">Используйте этот сценарий PowerShell для экспорта списка руководителей и их руководителей в организации, чтобы подготовиться к созданию команды диспетчера людей для каждого руководителя со своими непосредственными участниками.</span><span class="sxs-lookup"><span data-stu-id="d6c26-104">Use this PowerShell script to export a list of managers and their directs for your organization, in preparation for creating a people manager team for each manager with their directs as team members.</span></span>
 
-<span data-ttu-id="aa468-105">Чтобы узнать об этом сценарии PowerShell, прочитайте статью ["Создание групп диспетчера людей".](../create-manager-directs-teams.md)</span><span class="sxs-lookup"><span data-stu-id="aa468-105">To learn about this PowerShell script, read [Create people manager teams](../create-manager-directs-teams.md).</span></span>
+<span data-ttu-id="d6c26-105">Чтобы узнать об этом сценарии PowerShell, прочитайте статью ["Создание групп диспетчера людей".](../create-manager-directs-teams.md)</span><span class="sxs-lookup"><span data-stu-id="d6c26-105">To learn about this PowerShell script, read [Create people manager teams](../create-manager-directs-teams.md).</span></span>
 
-<span data-ttu-id="aa468-106">Если вы новичок в PowerShell и вам требуется помощь, см. раздел [Общие сведения об Azure PowerShell](https://docs.microsoft.com/powershell/azure/overview?view=azurermps-5.1.1).</span><span class="sxs-lookup"><span data-stu-id="aa468-106">If you're new to PowerShell and need help getting started, see [Overview of Azure PowerShell](https://docs.microsoft.com/powershell/azure/overview?view=azurermps-5.1.1).</span></span>
+<span data-ttu-id="d6c26-106">Если вы новичок в PowerShell и вам требуется помощь, см. раздел [Общие сведения об Azure PowerShell](/powershell/azure/overview?view=azurermps-5.1.1).</span><span class="sxs-lookup"><span data-stu-id="d6c26-106">If you're new to PowerShell and need help getting started, see [Overview of Azure PowerShell](/powershell/azure/overview?view=azurermps-5.1.1).</span></span>
 
 
-## <a name="export-managers-script"></a><span data-ttu-id="aa468-107">Export-Managers сценария</span><span class="sxs-lookup"><span data-stu-id="aa468-107">Export-Managers script</span></span>
+## <a name="export-managers-script"></a><span data-ttu-id="d6c26-107">Export-Managers сценария</span><span class="sxs-lookup"><span data-stu-id="d6c26-107">Export-Managers script</span></span>
 
 ```powershell
 <# 
@@ -142,5 +142,3 @@ Write-Host -ForegroundColor Green "$(Get-Timestamp) Exported tab delimited outpu
 
 
 ```
-
-
