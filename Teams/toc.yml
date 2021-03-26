@@ -204,41 +204,41 @@ items:
       - name: Гибридное подключение
         items:
           - name: Планирование гибридного подключения
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json'
+            href: /SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=%2fSkypeForBusiness%2fsfbhybridtoc%2ftoc.json
           - name: Настройка гибридного подключения
             items:
               - name: Обзор
-                href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity'
+                href: /SkypeForBusiness/hybrid/configure-hybrid-connectivity
               - name: Настройка Azure AD Connect для гибридной среды
-                href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-azure-ad-connect'
+                href: /SkypeForBusiness/hybrid/configure-azure-ad-connect
               - name: Настройка гибридной среды Skype для бизнеса
-                href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-federation-with-skype-for-business-online'
+                href: /SkypeForBusiness/hybrid/configure-federation-with-skype-for-business-online
           - name: Перемещение пользователей между локальной средой и облаком
             items:
               - name: Обзор
-                href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud'
+                href: /SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud
               - name: Перемещение пользователей из локальной среды в Teams
-                href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams'
+                href: /SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams
               - name: Перемещение пользователей из локальной среды в Skype для бизнеса Online
-                href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-skype-for-business-online'
+                href: /SkypeForBusiness/hybrid/move-users-from-on-premises-to-skype-for-business-online
               - name: Перемещение пользователей из облака в локальную среду
-                href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-the-cloud-to-on-premises'
+                href: /SkypeForBusiness/hybrid/move-users-from-the-cloud-to-on-premises
               - name: Управление миграцией собраний
-                href: 'https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json'
+                href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?bc=%2fSkypeForBusiness%2fhybrid%2fhybrid%2fmove-users-from-on-premises-to-skype-for-business-online%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2fhybrid%2fhybrid%2fmove-users-from-on-premises-to-skype-for-business-online%2ftoc.json
           - name: Отключение гибридной среды для завершения миграции в облако
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid'
+            href: /SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid
           - name: Развертывание топологии леса ресурсов
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-a-multi-forest-environment-for-hybrid'
+            href: /SkypeForBusiness/hybrid/configure-a-multi-forest-environment-for-hybrid
           - name: Консолидация облачных хранилищ для Teams и Skype для бизнеса Online
             items:
               - name: Обзор
-                href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation'
+                href: /SkypeForBusiness/hybrid/cloud-consolidation
               - name: Обновление пограничного сертификата
-                href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-edge-certificates'
+                href: /SkypeForBusiness/hybrid/cloud-consolidation-edge-certificates
               - name: Обновление AAD Connect для включения нескольких лесов
-                href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-aad-connect'
+                href: /SkypeForBusiness/hybrid/cloud-consolidation-aad-connect
           - name: Интеграция с Exchange и SharePoint
-            href: 'https://docs.microsoft.com/SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint'
+            href: /SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint
   - name: 'Безопасность, конфиденциальность и соответствие требованиям'
     items:
       - name: Обзор
@@ -254,7 +254,7 @@ items:
           - name: Вход в Microsoft Teams
             href: sign-in-teams.md
           - name: Безопасные ссылки в Teams
-            href: 'https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links-for-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
+            href: /microsoft-365/security/office-365-security/atp-safe-links-for-teams?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
           - name: Политики управления приложениями AppLocker
             href: applocker-in-teams.md
           - name: Блокировка доступа к SharePoint
@@ -272,7 +272,7 @@ items:
           - name: Метки конфиденциальности
             href: sensitivity-labels.md
           - name: Защита от потери данных
-            href: 'https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
+            href: /microsoft-365/compliance/dlp-microsoft-teams?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
           - name: Обнаружение электронных данных
             href: ediscovery-investigation.md
           - name: Удержание по юридическим причинам
@@ -282,7 +282,7 @@ items:
           - name: Аудит
             href: audit-log-events.md
           - name: Ключ клиента
-            href: 'https://docs.microsoft.com/microsoft-365/compliance/customer-key-tenant-level?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
+            href: /microsoft-365/compliance/customer-key-tenant-level?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
       - name: Конфиденциальность
         items:
           - name: Конфиденциальность и Microsoft Teams
@@ -342,7 +342,7 @@ items:
               - name: О гостевом доступе
                 href: guest-access.md
               - name: Контрольный список гостевого доступа
-                href: 'https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team'
+                href: /microsoft-365/solutions/collaborate-as-team
               - name: Работа в режиме гостевого доступа
                 href: guest-experience.md
               - name: Авторизация гостевого доступа
@@ -522,7 +522,7 @@ items:
               - name: О гостевом доступе
                 href: guest-access.md
               - name: Контрольный список гостевого доступа
-                href: 'https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team'
+                href: /microsoft-365/solutions/collaborate-as-team
               - name: Работа в режиме гостевого доступа
                 href: guest-experience.md
               - name: Авторизация гостевого доступа
@@ -680,7 +680,7 @@ items:
               - name: Доступность аудиоконференций в различных странах и регионах
                 href: audio-conferencing-zones.md
               - name: Видео- и аудиоконференции в Teams
-                href: audio-conferencing-videos.md
+                href: ./audio-conferencing-in-office-365.md
       - name: Трансляции
         items:
           - name: "Что такое прямые трансляции\_Teams?"
@@ -1258,11 +1258,11 @@ items:
       - name: Сторонние приложения
         items:
           - name: Сертификация приложения
-            href: 'https://docs.microsoft.com/en-us/microsoft-365-app-certification/overview'
+            href: /microsoft-365-app-certification/overview
           - name: Приобретение сторонних приложений для Teams
             href: purchase-third-party-apps.md
       - name: Шаблоны приложений для Teams
-        href: 'https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
+        href: /microsoftteams/platform/samples/app-templates?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fMicrosoftTeams%2ftoc.json
       - name: Сборка и настройка собственных приложений
         items:
           - name: Интеграция с Power Platform
@@ -1363,6 +1363,8 @@ items:
             href: edu-remote-low-bandwidth.md
           - name: Мастер политики Teams для образования
             href: easy-policy-setup-edu.md
+          - name: Контроль чатов в Teams
+            href: supervise-chats-edu.md
           - name: Аналитика образования
             items:
               - name: Начало работы с Аналитикой
@@ -1422,7 +1424,7 @@ items:
           - name: Пакеты политик Teams для государственных организаций
             href: policy-packages-gov.md
   - name: Устранение неполадок
-    href: 'https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams'
+    href: /MicrosoftTeams/troubleshoot/teams
     items:
       - name: Устранение неполадок при установке и обновлении
         href: troubleshoot-installation.md
@@ -1435,7 +1437,7 @@ items:
       - name: Проверка работоспособности службы для Teams
         href: service-health.md
       - name: Обращение в службу поддержки продуктов для бизнеса. Справка для администраторов
-        href: 'https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products'
+        href: /microsoft-365/admin/contact-support-for-business-products
       - name: Как найти ПИН-код поддержки
         href: support-pin.md
   - name: Справочные материалы
@@ -1480,7 +1482,7 @@ items:
               - name: Настройка гибридной организации Exchange для работы с Teams
                 href: exchange-hybrid-organization.md
               - name: Использование правил потока обработки почты в Exchange
-                href: 'https://docs.microsoft.com/microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365'
+                href: /microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365
           - name: Взаимодействие SharePoint Online и OneDrive для бизнеса с Teams
             href: sharepoint-onedrive-interact.md
           - name: Взаимодействие с Teams в клиенте Microsoft 365 или Office 365 с поддержкой нескольких регионов
@@ -1532,9 +1534,9 @@ items:
           - name: Переход с соединителя Skype для бизнеса Online на модуль Teams PowerShell
             href: teams-powershell-move-from-sfbo.md
           - name: Справочник по командлетам для Teams
-            href: 'https://docs.microsoft.com/powershell/module/teams/?view=teams-ps'
+            href: /powershell/module/teams/?view=teams-ps
       - name: Документация разработчиков для Teams
-        href: 'https://docs.microsoft.com/microsoftteams/platform'
+        href: /microsoftteams/platform
       - name: Обновления контента Teams
         href: teams-updates.md
       - name: Доступность аудиоконференций и планов звонков в различных странах и регионах
