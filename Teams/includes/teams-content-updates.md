@@ -10,7 +10,6 @@
 |------|------------|--------|
 | 3/15/2021 | [Мониторинг и оповещение устройств Microsoft Teams](../alerts/device-health-status.md) | Добавлено |
 | 3/15/2021 | [Мониторинг и оповещение Microsoft Teams](../alerts/teams-admin-alerts.md) | Добавлено |
-| 3/15/2021 | [Реализация переходов на Microsoft Teams](../implement-your-move.md) | Добавлено |
 | 3/15/2021 | [Интеграция Teams и Outlook с электронной почтой](../teams-outlook-email-integration.md) | Изменено |
 | 3/15/2021 | [Поделиться в Teams](../teams-outlook-share-teams.md) | Добавлено |
 | 3/16/2021 | [Создание настраиваемой команды в Microsoft Teams](../create-a-team-template.md) | Изменено |
@@ -24,7 +23,7 @@
 | 3/17/2021 | [Лицензии на надстройки Microsoft Teams](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md) | Изменено |
 | 3/17/2021 | [Панели Microsoft Teams](../devices/teams-panels.md) | Изменено |
 | 3/17/2021 | [Начало работы с Teams для медицинских организаций](../expand-teams-across-your-org/healthcare/teams-in-hc.md) | Изменено |
-| 3/17/2021 | [Документация для администраторов Microsoft Teams # < 60 chars](../index.yml) | Изменено |
+| 3/17/2021 | [Документация для администраторов Microsoft Teams # < 60 символов](../index.yml) | Изменено |
 | 3/17/2021 | [Установка интеграции Moodle с Microsoft Teams](../install-moodle-integration.md) | Изменено |
 | 3/17/2021 | [Ограничения и спецификации для Microsoft Teams](../limits-specifications-teams.md) | Изменено |
 | 3/17/2021 | [Лицензии комнаты Microsoft Teams](../rooms/rooms-licensing.md) | Изменено |
@@ -81,7 +80,7 @@
 | 2/16/2021 | [Шаблоны для медицинских организаций](../expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md) | Изменено |
 | 2/16/2021 | [Взаимодействия между Skype для бизнеса и Microsoft Teams](../teams-and-skypeforbusiness-coexistence-and-interoperability.md) | Изменено |
 | 2/17/2021 | [Teams для удаленного рабочего стола](/MicrosoftTeams/teams-for-rdp) | Добавлено |
-| 2/17/2021 | [Использование Teams со службами удаленного рабочего стола](../teams-on-rdp.md) | Добавлено |
+| 2/17/2021 | [Использование Teams со службами удаленных рабочих стола](../teams-on-rdp.md) | Добавлено |
 | 2/17/2021 | [Использование надстройки собраний Microsoft Teams в Outlook](../teams-add-in-for-outlook.md) | Изменено |
 | 2/17/2021 | [Парковка и восстановление звонков в Microsoft Teams](../call-park-and-retrieve.md) | Изменено |
 | 2/17/2021 | [Граничные контроллеры сеанса, сертифицированные для прямой маршрутинга](../direct-routing-border-controllers.md) | Изменено |

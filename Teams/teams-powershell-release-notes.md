@@ -13,12 +13,12 @@ ms.collection:
 description: Узнайте о последних изменениях в Teams PowerShell.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c4b6aecf4aa9abd0815cd6efd5d6394501d6c14e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: fe53da388c4f10561106bb0b2bec9d1e2898e563
+ms.sourcegitcommit: bd7847de9d1402476f8faaeae2ff97ec60d86a1b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094109"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51262634"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Заметки о выпуске Microsoft Teams PowerShell
 
@@ -27,19 +27,31 @@ ms.locfileid: "51094109"
 ## <a name="release-notes"></a>Заметки о выпуске
 
 > [!NOTE]
-> **-preview** в столбце версии ниже представляет обновления общедоступный предварительный просмотр Teams PowerShell.
+> **-preview** в столбце версии ниже представляет обновления для общедоступных предварительных версий Teams PowerShell.
 
 | Дата | Версия | Обновления |
 |------- | -------------------- | ------------------------------ |
-
-| Март 2021 г| [2.0.0](https://www.powershellgallery.com/packages/MicrosoftTeams/2.0.0) | <li>Использование MSAL для проверки подлинности & авторизации</li> <li>Connect-MicrosoftTeams является точкой входа для всех cmdlets.</li><li>Новый-csOnlineSession больше не является avaiable. Она была заменена на Connect-MicrosoftTeams.</li><li>Enable-csonlinesessionforreconnection больше не требуется. Эта функция была реализована в модуле Teams PowerShell.</li> <li>Refactored Policy Package cmdlets and adds group package assignment</li><li>Значительные улучшения производительности для Get-Team управления</li> <li>Улучшенные параметры ведения журнала и отладки для существующих cmdlets </li> <li>Добавлены команды для управления шаблонами</li> <li>Деprecation of New-CsOnlineSession</li>| | Февраль 2021 г| [1.1.11-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.11-preview) | <li>Добавлены команды для управления шаблонами</li><li>Улучшения mezzo и пакетного пакета для Get-Team-управления</li> <li>Улучшенные параметры ведения журнала и отладки для существующих cmdlets </li> <li>Рефакторed Policy Package cmdlets</li>| | Декабрь 2020 г| [1.1.10-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.10-preview) | <li>Обновления для командлета new-team с увеличенным количеством и длительностью спящий режим</li>| | Декабрь 2020 г| [1.1.9-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.9-preview) | <li>Обновления интеграции Skype для бизнеса Online</li><li>Исправление запроса на дублирование в Connect-Microsoft Teams</li>| | Ноябрь 2020 г| [1.1.8-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.8-preview) | <li>Добавляет настраиваемые пакеты политики</li><li>Исправления для команд отправки в иерархию targeting</li>| | Ноябрь 2020 г| [1.1.7-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.7-preview) | <li>Использование MSAL для проверки подлинности & авторизации</li><li>Refactored Policy Package cmdlets and adds group package assignment</li><li>Рефакторed targeting hierarchy upload commands to use an asynchroned model</li> <li>Если пользователь не использует параметр -credential, при начальной проверке подлинности пользователю будет дважды предложено сделать это. Пользователи могут передавать учетные данные, используя параметр -credential, чтобы избежать дублирования запроса. Это будет исправлено в следующем выпуске.</li> | | Сентябрь 2020 г| [1.1.6](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.6) | <li>Интеграция Соединитела Skype для бизнеса Online</li> | | Сентябрь 2020 г| [1.1.5-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.5-preview) | <li>Интеграция Соединитела Skype для бизнеса Online</li> | | Июль 2020 г| [1.1.4](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.4) | <li>Добавлены [cmdlets назначения групповой политики](./assign-policies.md#assign-a-policy-to-a-group)</li> | | Июнь 2020 | [1.1.3-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.3-preview) | <li>Интеграция Соединитела Skype для бизнеса Online<li>Get-Team оптимизации<li>Повышенная надежность</li> | | Июнь 2020 | [1.0.7](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.7) | <li>Добавлена предварительная загрузка для cmdlet<li>Оптимизация .Net Framework</li>   | | Апрель 2020 | [1.0.6](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.6) | <li>Authenticode и подписание сборки<li>Добавлено Get-CsPolicyPackage<li>Добавлено Get-CsUserPolicyPackage<li>Добавлено Get-CsUserPolicyPackageRecommendation<li>Добавлено Grant-CsUserPolicyPackage<li>Добавлено New-CsBatchPolicyPackageAssignmentOperation<li>Добавлено Set-TeamArchivedState<li>Добавлено Set-TeamPicture<li>Удалено Get-TeamHelp</li>  | | Март 2020 г| [1.0.5](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.5) |<li>Добавлено New-CsBatchPolicyAssignmentOperation</li> | | Февраль 2020 г| [1.0.4](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.4) | <li>Get-Team оптимизации</li>  |
+| Март 2021 г. | [2.0.0](https://www.powershellgallery.com/packages/MicrosoftTeams/2.0.0) | <li>Использование MSAL для проверки подлинности & авторизации</li> <li>Connect-MicrosoftTeams является точкой входа для всех cmdlets.</li><li>Новый-csOnlineSession больше не доступен. Она была заменена на Connect-MicrosoftTeams.</li><li>Enable-csonlinesessionforreconnection больше не требуется. Эта функция была реализована в модуле Teams PowerShell.</li> <li>Refactored Policy Package cmdlets and adds group package assignment</li><li>Значительные улучшения производительности для Get-Team управления</li> <li>Улучшенные параметры ведения журнала и отладки для существующих cmdlets </li> <li>Добавлены команды для управления шаблонами</li> <li>Деprecation of New-CsOnlineSession</li>|
+| Февраль 2021 г. | [1.1.11-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.11-preview) | <li>Добавлены команды для управления шаблонами</li><li>Улучшения mezzo и пакетных пакетов для Get-Team-управления</li> <li>Улучшенные параметры ведения журнала и отладки для существующих cmdlets </li> <li>Рефакторed Policy Package cmdlets</li>|
+| Декабрь 2020 г. | [1.1.10-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.10-preview) | <li>Обновления для командлета new-team с увеличенной ид. и длительностью спящий режим</li>|
+| Декабрь 2020 г. | [1.1.9-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.9-preview) | <li>Обновления интеграции Skype для бизнеса Online</li><li>Исправление запроса на дублирование в Connect-Microsoft Teams</li>|
+| Ноябрь 2020 г. | [1.1.8-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.8-preview) | <li>Добавляет настраиваемые пакеты политики</li><li>Исправления для команд отправки в иерархию targeting</li>|
+| Ноябрь 2020 г. | [1.1.7-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.7-preview) | <li>Использование MSAL для проверки подлинности & авторизации</li><li>Refactored Policy Package cmdlets and adds group package assignment</li><li>Рефакторed targeting hierarchy upload commands to use an asynchroned model</li> <li>При использовании параметра -credential пользователю будет дважды предложено сделать это при начальной проверке подлинности. Пользователи могут передавать учетные данные, используя параметр -credential, чтобы избежать дублирования запроса. Это будет исправлено в следующем выпуске.</li> |
+| Сентябрь 2020 г. | [1.1.6](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.6) | <li>Интеграция Соединитела Skype для бизнеса Online</li> |
+| Сентябрь 2020 г. | [1.1.5-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.5-preview) | <li>Интеграция Соединитела Skype для бизнеса Online</li> |
+| Июль 2020 г. | [1.1.4](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.4) | <li>Добавлены [cmdlets назначения групповой политики](./assign-policies.md#assign-a-policy-to-a-group)</li> |
+| Июнь 2020 г. | [1.1.3-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.3-preview) | <li>Интеграция Соединитела Skype для бизнеса Online<li>Get-Team оптимизации<li>Повышенная надежность</li> |
+| Июнь 2020 г. | [1.0.7](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.7) | <li>Добавлена предварительная загрузка для cmdlet<li>Оптимизация .Net Framework</li>   |
+| Апрель 2020 г. | [1.0.6](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.6) | <li>Authenticode и подписание сборки<li>Добавлено Get-CsPolicyPackage<li>Добавлено Get-CsUserPolicyPackage<li>Добавлено Get-CsUserPolicyPackageRecommendation<li>Добавлено Grant-CsUserPolicyPackage<li>Добавлено New-CsBatchPolicyPackageAssignmentOperation<li>Добавлено Set-TeamArchivedState<li>Добавлено Set-TeamPicture<li>Удалено Get-TeamHelp</li>  |
+| Март 2020 г. | [1.0.5](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.5) |<li>Добавлено New-CsBatchPolicyAssignmentOperation</li> |
+| Февраль 2020 г. | [1.0.4](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.4) | <li>Get-Team оптимизации</li>  |
 
 ### <a name="cmdlet-availability"></a>Доступность для cmdlet
 
 > [!NOTE]
 > В приведенной ниже таблице содержатся только командлеты, которые являются частью модуля Teams PowerShell. Командлеты Teams в модуле соединителя S[kype для бизнеса Online](/powershell/skype/intro?view=skype-ps) не отображаются. Но так как эти командлеты перенесены в Teams PowerShell, мы добавим их в эту таблицу.
 
-| Командлет | Доступно в режиме public Preview | Доступно в ga |
+| Командлет | Доступно в режиме предварительной версии | Доступно в ga |
 | -| -- | --|
 | [Add-TeamChannelUser](/powershell/module/teams/add-teamchanneluser?view=teams-ps) | Да | **Нет** |
 | [Add-TeamUser](/powershell/module/teams/add-teamuser?view=teams-ps) | Да | Да |

@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c04820336cc992f7ec4e53a80d8eb8f7deb05622
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.openlocfilehash: f5e6668229ef481d0b6c30683540c060495e0f21
+ms.sourcegitcommit: bd7847de9d1402476f8faaeae2ff97ec60d86a1b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50460629"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51262356"
 ---
 # <a name="hardware-requirements-for-microsoft-teams"></a>Требования к оборудованию для Microsoft Teams
 
@@ -35,12 +35,12 @@ ms.locfileid: "50460629"
 
 | Компонент | Требования |
 |---------|---------|
-|Компьютер и процессор    | Минимальная 1,6 ГГц (или более поздняя версия), 2 ядра<br><br>Примечание. Для процессоров Intel необходимо учитывать максимальную скорость, достигнутную с помощью технологии Intel Intel Boost Technology (максимальная частота процессоров).         |
+|Компьютер и процессор    | Минимальная 1,6 ГГц (или более поздняя версия), 2 ядра<br><br>Примечание. Для процессоров Intel необходимо учитывать максимальную скорость, достигнутую с помощью технологии Intel Intel Boost Technology (максимальная частота процессоров).         |
 |Память     |    4.0 ГБ ОЗУ     |
 |Жесткий диск    | 3,0 ГБ свободного пространства на жестком диске        |
 |Отображение    |   Разрешение экрана 1024 x 768 |
 |Графическое оборудование |  ОС Windows: для аппаратного ускорения графики требуется DirectX 9 или более поздняя версия, с WDDM 2.0 или более поздней версии для Windows 10 (или WDDM 1.3 или более поздняя версия для Windows 10 Fall Creators Update)
-|Операционная система  |    Windows 10, Windows 10 на ARM, Windows 8.1, Windows Server 2019, Windows Server 2016|
+|Операционная система  |    Windows 10, Windows 10 в ARM, Windows 8.1, Windows Server 2019, Windows Server 2016, Windows Server 2012 R2|
 |Версия .NET    |  Требуется .NET 4.5 CLR или более поздняя версия       |
 |Видео    |  Видеокамера USB 2.0       |
 |Устройства    |   Стандартная камера ноутбука, микрофон и динамики    |
