@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Узнайте, как использовать и управлять частными каналами Microsoft Teams.
-ms.openlocfilehash: 463f081151761d4c587c893672e7bbee093cc844
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 51768d35f70f0008d5d8a2ad7cccb213de9dcc3c
+ms.sourcegitcommit: e55d1623e686db2b183e02052bfe10a0269abb5d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117737"
+ms.lasthandoff: 03/27/2021
+ms.locfileid: "51397572"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Частные каналы в Microsoft Teams
 
@@ -118,6 +118,8 @@ Teams управляет жизненным циклом сайта закрыт
 Каждая команда может иметь максимум 30 частных каналов, а каждый частный канал может иметь максимум 250 участников. Ограничение 30 частных каналов является дополнением к 200 стандартным ограничениям канала для команды. 
 
 При создании команды из уже существующей закрытые каналы существующей команды не копируются.
+
+В настоящее время уведомления от частных каналов не включаются в пропущенные сообщения о действиях.
 
 ## <a name="related-topics"></a>Статьи по теме
 
