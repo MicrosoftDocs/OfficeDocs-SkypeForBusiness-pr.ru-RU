@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ddbdc84228011c4db3c0eab01bb1bab4f5d773c6
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: de3ef5f7fdd594fbc4471d3d7af4b2c3f3c683c1
+ms.sourcegitcommit: 6505dd1fb891ab27fcc9f36423fda67aae6fcfd7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092607"
+ms.lasthandoff: 03/30/2021
+ms.locfileid: "51418757"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Использование надстройки "Собрание Teams" в Outlook
 =======================================
@@ -39,7 +39,7 @@ ms.locfileid: "51092607"
 
 > [!NOTE]
 > - **Нет прямого URL-адреса**, ссылающегося на надстройку Teams.
-> - Необходимо учитывать и другие факторы, если ваша организация использует Teams и Skype для бизнеса. В некоторых случаях надстройка Teams будет недоступна в Outlook. Дополнительные сведения см. в статье [Переход со Skype для бизнеса на Teams](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview#meetings).
+> - Необходимо учитывать и другие факторы, если ваша организация использует Teams и Skype для бизнеса. В некоторых случаях надстройка Teams будет недоступна в Outlook. Дополнительные сведения см. в статье [Переход со Skype для бизнеса на Teams](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview).
 > - Разрешение пользователя на выполнение файла Regsvr32.exe является минимальным требованием для установки надстройки Совещания групп на компьютере.
 > - Если надстройка "Собрание Teams" не отображается, попросите пользователей закрыть Outlook и Microsoft Teams, затем перезапустить клиент Microsoft Teams, войти в него и перезапустить клиент Outlook (именно в таком порядке).
 > - Если вы используете установку Office Outlook из Microsoft Store, надстройка Совещания команд не поддерживается. Пользователям, которым требуется эта надстройка, рекомендуется установить версию Office "нажми и работай", как описано в статье [Office для Windows 10 в режиме S](https://support.office.com/article/faq-office-on-windows-10-in-s-mode-717193b5-ff9f-4388-84c0-277ddf07fe3f).
