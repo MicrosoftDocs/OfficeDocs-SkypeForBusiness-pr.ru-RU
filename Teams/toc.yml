@@ -1491,6 +1491,8 @@ items:
         items:
           - name: Управление устройствами в Teams
             href: devices/device-management.md
+          - name: Удаленная подготовка и вход
+            href: devices/remote-provision-remote-login.md
           - name: Удаленное обновление устройств
             href: devices/remote-update.md
           - name: Управление тегами устройств Teams
