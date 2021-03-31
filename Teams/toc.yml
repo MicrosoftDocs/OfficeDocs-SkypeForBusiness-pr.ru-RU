@@ -325,7 +325,7 @@ items:
             href: manage-feedback-policies-in-teams.md
           - name: Управление пакетами политик в Teams
             href: manage-policy-packages.md
-      - name: Общение с внешними пользователями
+      - name: Работа с людьми из-за пределов организации
         items:
           - name: Общение с пользователями из других организаций
             href: communicate-with-users-from-other-organizations.md
@@ -333,7 +333,7 @@ items:
             items:
               - name: Управление внешним доступом
                 href: manage-external-access.md
-              - name: Встроенный чат Teams для внешних пользователей
+              - name: Встроенный чат Teams
                 href: native-chat-for-external-users.md
               - name: Взаимодействие Teams и Skype
                 href: teams-skype-interop.md
@@ -345,13 +345,11 @@ items:
                 href: /microsoft-365/solutions/collaborate-as-team
               - name: Работа в режиме гостевого доступа
                 href: guest-experience.md
-              - name: Авторизация гостевого доступа
-                href: teams-dependencies.md
               - name: Включение и отключение гостевого доступа
                 href: set-up-guests.md
               - name: Добавление гостя в команду
                 href: view-guests.md
-              - name: Изменение сведений гостевого пользователя
+              - name: Изменение сведений о гостях
                 href: edit-guests-information.md
               - name: Устранение неполадок гостевого доступа
                 href: troubleshoot-guest-access.md
@@ -505,7 +503,7 @@ items:
             href: manufacturing-teams-templates-in-the-admin-console.md
           - name: Управление политиками шаблонов Teams
             href: templates-policies.md
-      - name: Общение с внешними пользователями
+      - name: Работа с людьми из-за пределов организации
         items:
           - name: Общение с пользователями из других организаций
             href: communicate-with-users-from-other-organizations.md
@@ -513,7 +511,7 @@ items:
             items:
               - name: Управление внешним доступом
                 href: manage-external-access.md
-              - name: Встроенный чат Teams для внешних пользователей
+              - name: Встроенный чат Teams
                 href: native-chat-for-external-users.md
               - name: Взаимодействие Teams и Skype
                 href: teams-skype-interop.md
@@ -531,9 +529,9 @@ items:
                 href: set-up-guests.md
               - name: Добавление гостя в команду
                 href: add-guests.md
-              - name: Просмотр гостевых пользователей в команде
+              - name: Просмотр гостей в команде
                 href: view-guests.md
-              - name: Изменение сведений гостевого пользователя
+              - name: Изменение сведений о гостях
                 href: edit-guests-information.md
               - name: Устранение неполадок гостевого доступа
                 href: troubleshoot-guest-access.md
