@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
 description: Узнайте, как настроить очереди звонка с помощью Microsoft 365 Business Voice.
-ms.openlocfilehash: f4dcd38331812053df9d08c7e8417b6d8156d5af
-ms.sourcegitcommit: f22e050213798a8ff69c6d502a2fc142104ab213
+ms.openlocfilehash: 3e75dbb75d9edffedbf25d42f197d8723e3ef9a4
+ms.sourcegitcommit: 66e7b28ba1c0433535eb6a3e7d883851c27d9d1f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/30/2021
-ms.locfileid: "51439734"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51478369"
 ---
 # <a name="create-a-call-queue---small-business-tutorial"></a>Создание очереди вызовов — учебник для малого бизнеса
 
@@ -84,7 +84,7 @@ ms.locfileid: "51439734"
 2. Введите название и описание канала, а затем нажмите кнопку **"Добавить".**
 
 > [!div class="nextstepaction"]
-> [Шаг 2. Учетные записи ресурсов >](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?branch=mikeplum-smb-voice&tabs=resource-account#steps)
+> [Шаг 2. Учетные записи ресурсов >](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=resource-account#steps)
 
 # <a name="step-2brresource-accounts"></a>[Шаг <br> 2. Учетные записи ресурсов](#tab/resource-account)
 
@@ -143,7 +143,7 @@ ms.locfileid: "51439734"
 > По умолчанию музыка, которая предоставляется в очередях вызовов Teams, не оплачивается вашей организацией. 
 
 > [!div class="nextstepaction"]
-> [Шаг 3. Звонок агентам >](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?branch=mikeplum-smb-voice&tabs=call-agents#steps)
+> [Шаг 3. Звонок агентам >](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=call-agents#steps)
 
 # <a name="step-3brcall-agents"></a>[Шаг <br> 3. Агенты по звонкам](#tab/call-agents)
 
@@ -160,7 +160,7 @@ ms.locfileid: "51439734"
 > При добавлении новых пользователей в команду первый звонок может занять до восьми часов.
 
 > [!div class="nextstepaction"]
-> [Шаг 4. Учетные записи ресурсов >](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?branch=mikeplum-smb-voice&tabs=call-routing#steps)
+> [Шаг 4. Учетные записи ресурсов >](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=call-routing#steps)
 
 # <a name="step-4brcall-routing"></a>[Шаг <br> 4. Маршрутка вызовов](#tab/call-routing)
 
@@ -189,7 +189,7 @@ ms.locfileid: "51439734"
     ![Снимок экрана: параметры времени маршрутинга, отказа от работы и оповещений](../media/call-queue-presence-agents-time.png)
 
 > [!div class="nextstepaction"]
-> [Шаг 5. Переполнение вызовов >](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?branch=mikeplum-smb-voice&tabs=call-overflow#steps)
+> [Шаг 5. Переполнение вызовов >](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=call-overflow#steps)
 
 # <a name="step-5brcall-overflow"></a>[Шаг <br> 5. Переполнение звонка](#tab/call-overflow)
 
@@ -206,7 +206,7 @@ ms.locfileid: "51439734"
     ![Снимок экрана: параметры переполнения звонка](../media/call-queue-overflow-handling.png)
 
 > [!div class="nextstepaction"]
-> [Шаг 6. Время >](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?branch=mikeplum-smb-voice&tabs=call-timeout#steps)
+> [Шаг 6. Время >](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=call-timeout#steps)
 
 # <a name="step-6brcall-timeout"></a>[Шаг <br> 6. Время вызова](#tab/call-timeout)
 
