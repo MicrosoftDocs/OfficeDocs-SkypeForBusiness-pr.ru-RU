@@ -1207,8 +1207,6 @@ items:
             href: business-voice/prepare-users.md
       - name: Запуск мастера начальной настройки
         href: business-voice/use-getting-started-wizard.md
-      - name: Что необходимо сделать
-        href: business-voice/things-to-try.md
       - name: Настройка установки
         items:
           - name: Параметры настройки
