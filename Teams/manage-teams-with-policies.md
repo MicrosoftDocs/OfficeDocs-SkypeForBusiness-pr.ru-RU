@@ -1,5 +1,5 @@
 ---
-title: Управление командами с помощью политик
+title: Управление teams с помощью политик
 author: karlistites
 ms.author: kastites
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: ''
 search.appverid: ''
-description: Подумайте о политиках Teams.
+description: Из этой темы вы также по-разму изумлялись в политиках Teams.
 audience: admin
 localization_priority: Normal
 MS.collection:
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b54c64c637d44132ac0f978561267ef34f720e67
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 77afc1cbb71fff9cb54decbbf6e5cfd10d6c4e59
+ms.sourcegitcommit: 2bb8556650120b4f7cf509d8ff93d7e4d058829b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101105"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51574188"
 ---
 # <a name="manage-teams-with-policies"></a>Управление teams с помощью политик
 
@@ -36,7 +36,7 @@ ms.locfileid: "51101105"
 
 ![Снимок экрана: назначение групповой политики.](media/group-policy-assignment.png)
 
-Дополнительные информацию о назначении [политик](assign-policies.md)можно узнать здесь.
+Подробнее о назначении политик [можно](policy-assignment-overview.md)узнать здесь.
 
 ## <a name="how-to-manage-policies"></a>Управление политиками
 
@@ -54,7 +54,7 @@ ms.locfileid: "51101105"
 
 Вы также можете использовать мастер политик [Teams](easy-policy-setup-edu.md) для образования, чтобы легко настроить политики для среды обучения и управлять ими.
 
-![Снимок экрана: мастер политики Teams для образовательных сфере.](media/easy-policy-setup-quick-setup.png)
+![Снимок экрана: мастер политики Teams для образования.](media/easy-policy-setup-quick-setup.png)
 
 ## <a name="types-of-policies"></a>Типы политик
 
@@ -63,15 +63,15 @@ ms.locfileid: "51101105"
 Тип политики | Описание
 ------------|------------
 [Пакеты политик](manage-policy-packages.md) | Пакет политики в Microsoft Teams — это набор предопределельных политик и параметров, которые можно назначить пользователям с похожими ролями в организации.
-[Политики собраний](meeting-policies-in-teams.md) | Политика собрания используется для управления функциями, доступными участникам собрания для собраний, запланированных пользователями в вашей организации. Политики собраний включают следующие разделы.<br> — политики аудио- и видеосвязи<br> — политики общего доступа к содержимому и экрану<br> - Политики участников, гостей и доступа<br> - Общие политики
-[Политики голосовой и голосовой почты](voice-and-calling-policies.md)| Политики голосовой и голосовой почты управляют этими настройками с помощью команд, таких как экстренные вызовы, маршруты звонков и ИД звонив.
+[Политики собраний](meeting-policies-in-teams.md) | Политика собрания используется для управления функциями, доступными участникам собрания для собраний, запланированных пользователями в вашей организации. Политики собраний включают следующие разделы.<br> — политики аудио- и видеосвязи<br> - Политики общего доступа к содержимому и экрану<br> - Политики участников, гостей и доступа<br> - Общие политики
+[Политики голосовой и голосовой почты](voice-and-calling-policies.md)| Политики голосовой и голосовой почты управляют этими настройками с помощью групп, таких как экстренные вызовы, маршруты звонков и ИД звоня.
 [Политики приложений](app-policies.md)| Политики приложений используются для управления приложениями в Microsoft Teams. Администраторы могут разрешить или заблокировать приложения, которые пользователи могут устанавливать, закрепить приложения на панели приложений Teams и установить приложение от имени пользователей.
 [Политики обмена сообщениями](messaging-policies-in-teams.md)| Политики обмена сообщениями контролируют доступность функций чата и каналов.
 
 ## <a name="related-topics"></a>Статьи по теме
 
+* [Назначение политик в Teams — начало работы](policy-assignment-overview.md)
 * [Управление политиками отзывов в Microsoft Teams](manage-feedback-policies-in-teams.md)
 * [Управление политиками команд в Microsoft Teams](teams-policies.md)
-* [Просмотр назначений политики в журнале действий](activity-log.md)
 * [Подготовка к трансляциям в Microsoft Teams](teams-live-events/set-up-for-teams-live-events.md)
-* [Политики и пакеты политик Teams для образования](policy-packages-edu.md)
+* [Политики и пакеты политик Teams для образовательных сфере](policy-packages-edu.md)

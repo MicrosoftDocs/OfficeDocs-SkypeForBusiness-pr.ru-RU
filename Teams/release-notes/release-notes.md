@@ -16,12 +16,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Заметки о выпуске для функций администратора Microsoft Teams.
-ms.openlocfilehash: db6961e0f625c5f030c71e0a38a81d281523b8f4
-ms.sourcegitcommit: e511748ede1c0410d1ba1ea8342f4afcbe1c61c7
+ms.openlocfilehash: 709cbf8b4a5438f0f8e2447e093414de9829f161
+ms.sourcegitcommit: 2bb8556650120b4f7cf509d8ff93d7e4d058829b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51495746"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51574098"
 ---
 # <a name="release-notes-for-microsoft-teams-admin-features"></a>Заметки о выпуске для функций администрирования Microsoft Teams
 
@@ -38,6 +38,12 @@ ms.locfileid: "51495746"
 ### <a name="customize-apps-in-teams-preview"></a>Настройка приложений в Teams (предварительная версия)
 
 Microsoft Teams позволяет настраивать приложения для улучшения работы Teams. Некоторые разработчики приложений позволяют администратору Teams настраивать приложение. Администратор может изменить свойства приложения в зависимости от потребностей организации на странице "Управление приложениями" Центра администрирования Teams. [Подробнее](../customize-apps.md).
+
+## <a name="march-29-2021"></a>29 марта 2021 г.
+
+### <a name="remote-provisioning-and-sign-in-for-teams-android-devices"></a>Удаленная подготовка и вход в Teams для устройств с Android
+
+ИТ-администраторы могут удаленно подаять и войти в Teams на устройстве с Android. Чтобы можно было создавать устройства удаленно, администратор должен отправить их коды MAC и создать код проверки. Весь процесс можно завершить удаленно из Центра администрирования Teams. [Подробнее](../devices/remote-provision-remote-login.md).
 
 ## <a name="march-24-2021"></a>24 марта 2021 г.
 

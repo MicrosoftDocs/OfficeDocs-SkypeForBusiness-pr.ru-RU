@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Узнайте, как настроить и протестировать автоотетаря для Microsoft 365 Business Voice.
-ms.openlocfilehash: d320c100937619960011cc378936c6954a00512a
-ms.sourcegitcommit: 66e7b28ba1c0433535eb6a3e7d883851c27d9d1f
+ms.openlocfilehash: 7ee7dad833119778ceb64bd1e52bd30da4529ba8
+ms.sourcegitcommit: 50111653f72f6758a3491a4dc3e91160ab75022c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51478379"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51506656"
 ---
 # <a name="set-up-an-auto-attendant---small-business-tutorial"></a>Настройка автозавода — учебник по малому бизнесу
 
@@ -93,7 +93,7 @@ ms.locfileid: "51478379"
 4. Нажмите кнопку **Сохранить**.
 
 > [!div class="nextstepaction"]
-> [Шаг 2. Общие сведения для автосектора >](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=general-info#steps)
+> [Шаг 2. Общие сведения для автосектора >](/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=general-info#steps)
 
 # <a name="step-2brattendant-general-info"></a>[Общие сведения о <br> помощнике по шагу 2](#tab/general-info)
 
@@ -116,7 +116,7 @@ ms.locfileid: "51478379"
 7. Нажмите кнопку **Далее**.
 
 > [!div class="nextstepaction"]
-> [Шаг 3. >](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=call-flow#steps)
+> [Шаг 3. >](/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=call-flow#steps)
 
 # <a name="step-3brcall-flow"></a>[Шаг <br> 3. Поток зовов](#tab/call-flow)
 
@@ -169,7 +169,7 @@ ms.locfileid: "51478379"
 5. Выбрав параметр поиска  по каталогу, нажмите кнопку **"Далее".**
 
 > [!div class="nextstepaction"]
-> [Шаг 4. Неавное время >](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=after-hours#steps)
+> [Шаг 4. Неавное время >](/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=after-hours#steps)
 
 # <a name="step-4brafter-hours"></a>[Шаг <br> 4.](#tab/after-hours)
 
@@ -186,7 +186,7 @@ ms.locfileid: "51478379"
 Когда **все будет** готово, нажмите кнопку "Далее".
 
 > [!div class="nextstepaction"]
-> [Шаг 5. Holiday call flow >](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=holidays#steps)
+> [Шаг 5. Holiday call flow >](/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=holidays#steps)
 
 # <a name="step-5brholidays"></a>[Шаг <br> 5. Праздники](#tab/holidays)
 
@@ -221,7 +221,7 @@ ms.locfileid: "51478379"
 После того как вы добавите все праздники, нажмите кнопку **"Далее".**
 
 > [!div class="nextstepaction"]
-> [Шаг 6. Выбор каталога для >](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=dial-scope#steps)
+> [Шаг 6. Выбор каталога для >](/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=dial-scope#steps)
 
 # <a name="step-6brdirectory-members"></a>[Участники каталога шага 6 <br>](#tab/dial-scope)
 
@@ -237,7 +237,7 @@ ms.locfileid: "51478379"
 После настройки области набора номера нажмите кнопку **"Далее".**
 
 > [!div class="nextstepaction"]
-> [Шаг 7. Назначение учетной записи ресурса >](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=resource-accounts#steps)
+> [Шаг 7. Назначение учетной записи ресурса >](/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=resource-accounts#steps)
 
 # <a name="step-7brresource-accounts"></a>[Шаг <br> 7. Учетные записи ресурсов](#tab/resource-accounts)
 
