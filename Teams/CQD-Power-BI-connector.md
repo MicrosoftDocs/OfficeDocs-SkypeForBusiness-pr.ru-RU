@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Установка Power BI Connector для использования шаблонов запросов запросов качества звонка (CQD)
-ms.openlocfilehash: 7af8da203eb6a69bf5db443444c0ca35eff9bb70
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 51b989601b7ccec035bda84cc0177aca8f198d1f
+ms.sourcegitcommit: e511748ede1c0410d1ba1ea8342f4afcbe1c61c7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101525"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51495763"
 ---
 # <a name="install-power-bi-connector-to-use-cqd-query-templates"></a>Установка Power BI Connector для использования шаблонов запросов CQD
 
@@ -125,7 +125,7 @@ ms.locfileid: "51101525"
 
 5. **Относительная фильтрация данных —** Поддерживается в соединители CQD,  но только  для измерений времени начала и окончания. Измерение *Date может* быть очевидным для относительной фильтрации *дат,* но не хранится как объект даты и поэтому не поддерживает относительную фильтрацию дат в Power BI.
 
-6. **Поддержка Сообщества государственных организаций (GCC):** Для клиентов в среде GCC соединительная система CQD Power BI Connector будет работать при работе с Power BI Desktop. Соединитель CQD Power BI совместим со службой Power BI для GCC.
+6. **Поддержка Сообщества государственных организаций (GCC):** Для клиентов в среде GCC соединительная система CQD Power BI Connector не будет работать при использовании Power BI Desktop. Соединители CQD Power BI в настоящее время несовместимы со службой Power BI для пользователей GCC.
 
 Большинство из этих проблем являются ограничениями для разработки соединительные линии DirectQuery в Power BI или основой модели данных CQD.
 
