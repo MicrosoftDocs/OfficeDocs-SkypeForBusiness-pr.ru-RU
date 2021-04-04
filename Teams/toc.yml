@@ -317,10 +317,12 @@ items:
         items:
           - name: Обзор
             href: manage-teams-with-policies.md
-          - name: Назначение политик пользователям
-            href: assign-policies.md
-          - name: Просмотр назначений политик в журнале действий
-            href: activity-log.md
+          - name: Назначение политик в Teams — начало работы
+            href: policy-assignment-overview.md
+          - name: Назначение политик пользователям и группам
+            href: assign-policies-users-and-groups.md
+          - name: Назначение пакетов политик
+            href: assign-policy-packages.md
           - name: Управление политиками отзывов в Teams
             href: manage-feedback-policies-in-teams.md
           - name: Управление пакетами политик в Teams
