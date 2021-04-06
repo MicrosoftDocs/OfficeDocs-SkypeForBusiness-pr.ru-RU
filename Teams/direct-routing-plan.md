@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Узнайте, как прямая маршрутия Microsoft Phone System позволяет подключить поддерживаемый клиентский пограничный контроллер сеанса (SBC) к телефонной системе Майкрософт.
-ms.openlocfilehash: 5df93bb5248f6077bf0378c5ab461c6cf8856fbf
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f99801989920bf82b07aa6f15fcab9a99b2df065
+ms.sourcegitcommit: 109b3869afb5ff1ca4eaf771399d7cda70a43bea
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121397"
+ms.lasthandoff: 04/05/2021
+ms.locfileid: "51586558"
 ---
 # <a name="plan-direct-routing"></a>Планирование прямой маршрутизации
 
@@ -105,6 +105,7 @@ IP-адреса и порты брандмауэра для мультимеди
 
 > [!IMPORTANT]
 >  В случае, если вы хотите добавить внешних участников к запланированным собраниям, набрав для них номер телефонного доступа или предоставив номер для телефонного доступа, потребуется лицензия на аудиоконференцию.
+> Для GCC High и DoD не назначать лицензию на аудиоконференцию пользователям G5.  Пользователям G3 не назначайте лицензию на аудиоконференцию, пока не будет полностью настроена прямая маршрутия и у пользователя не будет рабочей панели набора номера.
 
 
 ### <a name="ad-hoc-call-escalation-and-audio-conferencing-license"></a>Лицензия на аудиоконференцию и цен на аудиоконференцию

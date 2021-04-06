@@ -3,6 +3,57 @@
 
 
 
+## <a name="week-of-march-29-2021"></a>Неделя от 29 марта 2021 г.
+
+
+| Дата публикации |Название статьи | Изменение |
+|------|------------|--------|
+| 3/29/2021 | [Удаленная подготовка и вход в Teams для устройств с Android](/MicrosoftTeams/devices/remote-provision-remote-login) | Добавлено |
+| 3/29/2021 | [Развертывание комнат Microsoft Teams с помощью Microsoft Endpoint Configuration Manager](/MicrosoftTeams/rooms/rooms-scale) | Изменено |
+| 3/29/2021 | [Использование надстройки собраний Microsoft Teams в Outlook](/MicrosoftTeams/teams-add-in-for-outlook) | Изменено |
+| 3/29/2021 | Авторизация гостевого доступа в Microsoft Teams | Удалено |
+| 3/29/2021 | [Управление политиками хранения для Microsoft Teams](/MicrosoftTeams/retention-policies) | Изменено |
+| 3/30/2021 | [Настройка автозавода для Microsoft Teams — учебник для малого бизнеса](/MicrosoftTeams/business-voice/create-a-phone-system-auto-attendant-smb) | Изменено |
+| 3/30/2021 | [Создание очереди вызовов в Microsoft Teams — учебник для малого бизнеса](/MicrosoftTeams/business-voice/create-a-phone-system-call-queue-smb) | Изменено |
+| 3/30/2021 | [Создание очереди вызовов в Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | Изменено |
+| 3/30/2021 | [Введение в запись на основе политик Teams для & звонков](/MicrosoftTeams/teams-recording-policy) | Изменено |
+| 3/30/2021 | [Настройка приложений Майкрософт в Teams](/MicrosoftTeams/customize-apps) | Добавлено |
+| 3/30/2021 | [Настройка Microsoft Teams в организации](/MicrosoftTeams/deploy-enterprise-setup) | Изменено |
+| 3/30/2021 | [Управление приложениями в Центре администрирования Microsoft Teams](/MicrosoftTeams/manage-apps) | Изменено |
+| 3/30/2021 | [Настройка приложений Майкрософт в Teams](/MicrosoftTeams/customize-apps) | Изменено |
+| 3/30/2021 | [Комнаты Microsoft Teams](/MicrosoftTeams/rooms/index) | Изменено |
+| 3/31/2021 | [Настройка автозавода для Microsoft Teams — учебник для малого бизнеса](/MicrosoftTeams/business-voice/create-a-phone-system-auto-attendant-smb) | Изменено |
+| 3/31/2021 | [Создание очереди вызовов в Microsoft Teams — учебник для малого бизнеса](/MicrosoftTeams/business-voice/create-a-phone-system-call-queue-smb) | Изменено |
+| 3/31/2021 | [Отчет об использовании устройств с Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/device-usage-report) | Изменено |
+| 3/31/2021 | [Аналитика и отчеты Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/teams-reporting-reference) | Изменено |
+| 3/31/2021 | [Отчет о действиях пользователей Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/user-activity-report) | Изменено |
+| 3/31/2021 | [Заметки о выпуске Microsoft Teams](/MicrosoftTeams/release-notes/release-notes) | Изменено |
+| 3/31/2021 | [Требования к комнатам Microsoft Teams](/MicrosoftTeams/rooms/requirements) | Изменено |
+| 4/1/2021 | [Установка Power BI Connector для использования шаблонов запросов CQD](/MicrosoftTeams/cqd-power-bi-connector) | Изменено |
+| 4/1/2021 | [Заметки о выпуске Microsoft Teams](/MicrosoftTeams/release-notes/release-notes) | Изменено |
+| 4/1/2021 | [Использование контрольных чатов](/MicrosoftTeams/supervise-chats-edu) | Изменено |
+| 4/1/2021 | [Использование OneDrive для бизнеса и SharePoint для записей собраний](/MicrosoftTeams/tmr-meeting-recording-change) | Изменено |
+| 4/2/2021 | [Настройка автозавода для Microsoft Teams — учебник для малого бизнеса](/MicrosoftTeams/business-voice/create-a-phone-system-auto-attendant-smb) | Изменено |
+| 4/2/2021 | [Создание очереди вызовов в Microsoft Teams — учебник для малого бизнеса](/MicrosoftTeams/business-voice/create-a-phone-system-call-queue-smb) | Изменено |
+| 4/2/2021 | [Создание настраиваемой команды в Microsoft Teams](/MicrosoftTeams/create-a-team-template) | Изменено |
+| 4/2/2021 | [Устройства для Teams](/MicrosoftTeams/devices/teams-ip-phones) | Изменено |
+| 4/2/2021 | [Управление параметрами для организации](/MicrosoftTeams/enable-features-office-365) | Изменено |
+| 4/2/2021 | [Управление политиками обмена сообщениями в Teams](/MicrosoftTeams/messaging-policies-in-teams) | Изменено |
+| 4/2/2021 | [Что такое трансляции Microsoft Teams?](/MicrosoftTeams/teams-live-events/what-are-teams-live-events) | Изменено |
+| 4/2/2021 | [Заметки о выпуске Microsoft Teams PowerShell](/MicrosoftTeams/teams-powershell-release-notes) | Изменено |
+| 4/2/2021 | [Назначение политик пользователям и группам](/MicrosoftTeams/assign-policies-users-and-groups) | Добавлено |
+| 4/2/2021 | [Назначение пакетов политики пользователям и группам](/MicrosoftTeams/assign-policy-packages) | Добавлено |
+| 4/2/2021 | [Назначение политик в Teams](/MicrosoftTeams/policy-assignment-overview) | Добавлено |
+| 4/2/2021 | [Настройка приложений Майкрософт в Teams](/MicrosoftTeams/customize-apps) | Изменено |
+| 4/2/2021 | [Управление приложениями в Центре администрирования Microsoft Teams](/MicrosoftTeams/manage-apps) | Изменено |
+| 4/2/2021 | [Управление номерами телефонов в Бельгии](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-belgium) | Изменено |
+| 4/2/2021 | [Управление пакетами политики в Microsoft Teams](/MicrosoftTeams/manage-policy-packages) | Изменено |
+| 4/2/2021 | [Управление teams с помощью политик](/MicrosoftTeams/manage-teams-with-policies) | Изменено |
+| 4/2/2021 | [Использование CQD для управления звонком и качеством собраний в Microsoft Teams](/MicrosoftTeams/quality-of-experience-review-guide) | Изменено |
+| 4/2/2021 | [Заметки о выпуске Microsoft Teams](/MicrosoftTeams/release-notes/release-notes) | Изменено |
+| 4/2/2021 | [Центр контактов Teams](/MicrosoftTeams/teams-contact-center) | Изменено |
+
+
 ## <a name="week-of-march-22-2021"></a>Неделя от 22 марта 2021 г.
 
 

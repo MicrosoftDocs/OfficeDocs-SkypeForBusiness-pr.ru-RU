@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 98f462044fba566ecea491bc55bf8df055973701
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: d14dcbcc7176a482458e23b10e4f017b28ad24ea
+ms.sourcegitcommit: 109b3869afb5ff1ca4eaf771399d7cda70a43bea
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51112295"
+ms.lasthandoff: 04/05/2021
+ms.locfileid: "51586498"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Ограничения и спецификации для Microsoft Teams
 
@@ -137,6 +137,9 @@ ms.locfileid: "51112295"
 |Teams хранит [записи собраний](cloud-recording.md), которые не отправляются в Microsoft Stream и доступны для скачивания | 20 дней |
 
 ### <a name="meeting-expiration"></a>Окончание срока действия собрания
+
+> [!NOTE]
+> URL-адрес собрания никогда не перестанет работать. Срок действия относится только к номерам ТСОП для подключения и/или к базовым политикам и настройкам собраний.
 
 |Тип собрания  |Срок действия собрания  |При каждом начале или обновлении собрания срок действия продлевается на указанный период  |
 |---------|---------|---------|
