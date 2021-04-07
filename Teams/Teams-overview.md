@@ -19,15 +19,15 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.allteamsdocuments
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e93e30c2c6eeffc2232b6d9049af8d1224f24532
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 3e0e20b4b9b696d7fc23c227afcd67d2132c5952
+ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094405"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51598398"
 ---
 # <a name="welcome-to-microsoft-teams"></a>Знакомство с Microsoft Teams
-Эта статья предназначена для администраторов Microsoft Teams в вашей организации. Когда вы будете готовы начать работу Teams, начните со знакомства со статьей [Развертывание Teams](./deploy-overview.md).
+Эта статья предназначена для администраторов Microsoft Teams в вашей организации. Когда вы будете готовы приступить к работе с Teams, начните со статьи [Как развернуть Teams](./deploy-overview.md) и [Настройка безопасной совместной работы с помощью Microsoft 365 и Microsoft Teams](/microsoft-365/solutions/setup-secure-collaboration-with-teams).
 
 Если вы еще не знакомы с Teams и хотите узнать больше, посмотрите наше короткое видео [Добро пожаловать в Teams](https://www.youtube.com/embed/s3aQV3T0D6c) (55 секунд).
 

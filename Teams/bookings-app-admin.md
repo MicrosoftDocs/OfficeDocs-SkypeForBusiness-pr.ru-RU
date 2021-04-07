@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: ''
 description: Приложение Bookings и виртуальные визиты в Microsoft Teams
-ms.openlocfilehash: 5b10c7f320d4162b57dae18c736e26e1935a4107
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 7cb948e020d27ccee396aebb8d1b36b022160a75
+ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092787"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51598608"
 ---
 # <a name="virtual-visits-with-microsoft-teams-and-the-bookings-app"></a>Виртуальные визиты с помощью Microsoft Teams и приложения Bookings
 
@@ -57,7 +57,7 @@ ms.locfileid: "51092787"
 
 ## <a name="recommended-meeting-policy-settings"></a>Рекомендуемые параметры политики собраний
 
-Чтобы было удобнее всего работать с Bookings, создайте политику собраний персонала, которая автоматически допустит **Всех сотрудников организации**. Это позволит сотрудникам автоматически присоединяться к встрече и обеспечит возможность присоединения для внешних участников. Узнайте больше об [автоматическом допуске на собрания](meeting-policies-in-teams.md#automatically-admit-people).
+Чтобы было удобнее всего работать с Bookings, создайте политику собраний персонала, которая автоматически допустит **Всех сотрудников организации**. Это позволит сотрудникам автоматически присоединяться к встрече и обеспечит возможность присоединения для внешних участников. Узнайте больше об [автоматическом допуске на собрания](meeting-policies-participants-and-guests.md#automatically-admit-people).
 
 ### <a name="optional-staff-approvals-setting"></a>Дополнительная настройка согласования с сотрудниками
 

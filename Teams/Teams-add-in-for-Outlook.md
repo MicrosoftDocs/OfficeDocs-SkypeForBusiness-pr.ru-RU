@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1def8b943070fc5c7ed1bf2fb3279e0e61a477b6
-ms.sourcegitcommit: f223b5f3735f165d46bb611a52fcdfb0f4b88f66
+ms.openlocfilehash: 4ce2e7ff2822e87d3a2a4784a10d83a4c12ced8f
+ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 04/06/2021
-ms.locfileid: "51593777"
+ms.locfileid: "51598388"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Использование надстройки "Собрание Teams" в Outlook
 =======================================
@@ -115,7 +115,7 @@ ms.locfileid: "51593777"
 
 Как администратор вы можете настроить параметры политики собраний Teams, чтобы управлять тем, какие надстройки собраний в Outlook используется для *пользователей, которые находятся в режиме островов*. Укажите, могут ли пользователи в режиме островов использовать только надстройку "Собрание Teams" или обе надстройки "Собрание Teams" и "Собрание Skype для бизнеса" для планирования собраний в Outlook.
 
-Эту политику можно применять только к пользователям, которые находятся в режиме островов и установили для параметра **AllowOutlookAddIn** значение **True** в политике собраний Teams. Сведения о том, как задать эту политику, см. в статье [Установка поставщика собраний для пользователей в режиме островов](meeting-policies-in-teams.md#meeting-policy-settings---meeting-provider-for-islands-mode).
+Эту политику можно применять только к пользователям, которые находятся в режиме островов и установили для параметра **AllowOutlookAddIn** значение **True** в политике собраний Teams. Действия по настройке этой политики см. в статье [Параметры политики собраний — общие](meeting-policies-in-teams-general.md#meeting-provider-for-islands-mode).
 
 ## <a name="other-considerations"></a>Другие особенности
 
@@ -142,7 +142,7 @@ ms.locfileid: "51593777"
 
 - Чтобы надстройка "Собрание Teams" работала, пользователям Windows 7 требуется установить [обновление для универсальной среды выполнения C в Windows](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows).
 - Убедитесь в том, что у пользователя есть политика обновления Teams, которая позволяет планировать собрания в Teams. Дополнительные сведения см. в статье [Переход со Skype для бизнеса на Teams](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview#meetings).
-- Убедитесь в том, что у пользователя есть политика собрания Teams, в которой разрешена надстройка Outlook. Дополнительные сведения см. в статье [Управление политиками собраний в Teams](./meeting-policies-in-teams.md#allow-the-outlook-add-in).
+- Убедитесь в том, что у пользователя есть политика собрания Teams, в которой разрешена надстройка Outlook. Дополнительные сведения см. в статье [Параметры политики собраний — общие](./meeting-policies-in-teams-general.md#allow-the-outlook-add-in).
 - Убедитесь, что у пользователя установлено классическое приложение Teams. Надстройки собраний не будут устанавливаться только при использовании веб-клиента Teams.
 - Убедитесь, что у пользователя установлено приложение Outlook 2013 или более поздней версии.
 - Убедитесь, что у пользователя есть разрешение на выполнение программы regsvr32.exe.

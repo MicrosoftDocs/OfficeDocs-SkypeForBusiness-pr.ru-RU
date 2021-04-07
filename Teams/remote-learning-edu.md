@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 08444efa4a8fa96b64dd92d9be66b0f324010c14
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: b69e7567ac68ada95261894ffe3aa8d219e95367
+ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117657"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51598578"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>Начните с Microsoft Teams для дистанционного обучения
 
@@ -189,20 +189,20 @@ SDS создает команды за два этапа. На первом эт
 
 Чтобы начать создание с помощью SDS, откройте [School Data Sync (SDS)](/SchoolDataSync) и обратитесь в [https://aka.ms/sdssupport](https://aka.ms/sdssupport) службу поддержки по развертыванию. 
 
-Инструкции по использованию API Graph см. в статьях [API Graph](/graph/api/educationroot-post-classes?tabs=http&view=graph-rest-1.0) и [Создание команды класса](/graph/api/educationroot-post-classes?tabs=http&view=graph-rest-beta).  
+Инструкции по использованию API Graph см. в статьях [API Graph](/graph/api/educationroot-post-classes?tabs=http&view=graph-rest-1.0&preserve-view=true) и [Создание команды класса](/graph/api/educationroot-post-classes?tabs=http&view=graph-rest-beta&preserve-view=true).  
 
 > [!NOTE]
 > Чтобы использовать этот способ с SDS, необходимо отключить параметр автоматического создания команд в профиле SDS. Вы также можете применять сочетание двух методов создания команд (автоматически и под руководством преподавателя) для обязательных и необязательных команд классов, используя два профиля SDS.
 
 #### <a name="powershell-script-using-graph-apis"></a>Скрипт PowerShell с использованием интерфейсов API Graph
 
-С помощью PowerShell можно написать скрипт для создания команд и каналов, а также автоматической настройки параметров. Для этого администратору необходимо сначала создать группу, добавить преподавателей и учащихся, а затем создать команду, как описано [здесь](/graph/teams-create-group-and-team). Кроме того, с помощью API Microsoft Graph можно создавать, настраивать, клонировать и архивировать команды. Дополнительные сведения см. в статьях [Работа с Microsoft Teams при помощи API Microsoft Graph](/graph/api/resources/teams-api-overview), [Microsoft Teams PowerShell](/powershell/module/teams) и [Создание команды](/graph/api/team-post?tabs=http&view=graph-rest-beta#example-6-create-a-team-with-a-non-standard-base-template-type). Интерфейсы API Graph расширяют возможности управления и повышают гибкость, но для работы с ними требуется высокий уровень технической квалификации, а первоначальная настройка занимает больше времени.
+С помощью PowerShell можно написать скрипт для создания команд и каналов, а также автоматической настройки параметров. Для этого администратору необходимо сначала создать группу, добавить преподавателей и учащихся, а затем создать команду, как описано [здесь](/graph/teams-create-group-and-team). Кроме того, с помощью API Microsoft Graph можно создавать, настраивать, клонировать и архивировать команды. Дополнительные сведения см. в статьях [Работа с Microsoft Teams при помощи API Microsoft Graph](/graph/api/resources/teams-api-overview), [Microsoft Teams PowerShell](/powershell/module/teams) и [Создание команды](/graph/api/team-post?tabs=http&view=graph-rest-beta#example-6-create-a-team-with-a-non-standard-base-template-type&preserve-view=true). Интерфейсы API Graph расширяют возможности управления и повышают гибкость, но для работы с ними требуется высокий уровень технической квалификации, а первоначальная настройка занимает больше времени.
 
 ##### <a name="benefits"></a>Преимущества
 
 - Повышенная гибкость и расширенные возможности управления.
 - Возможность создания команд с ранним доступом преподавателей или мгновенным доступом учащихся.  
-- При [создании команд из групп](/graph/api/team-post?tabs=http&view=graph-rest-beta#example-4-create-a-team-from-group) преподаватели получают ранний доступ, а сведения о членстве учащихся в группе Azure AD синхронизируются.
+- При [создании команд из групп](/graph/api/team-post?tabs=http&view=graph-rest-beta#example-4-create-a-team-from-group&preserve-view=true) преподаватели получают ранний доступ, а сведения о членстве учащихся в группе Azure AD синхронизируются.
 
 ##### <a name="considerations"></a>Рекомендации
 
@@ -211,7 +211,7 @@ SDS создает команды за два этапа. На первом эт
 - Изменения членства не синхронизируются с SIS. 
 
 > [!NOTE]
-> Командам классов необходимо членство в скрытых группах, чтобы только преподавателям и учащимся из класса были видны участники учебной группы. При создании группы класса Office 365 соблюдайте требования к конфиденциальности, описанные в статье [Создание команды класса](/graph/api/educationroot-post-classes?tabs=http&view=graph-rest-beta).
+> Командам классов необходимо членство в скрытых группах, чтобы только преподавателям и учащимся из класса были видны участники учебной группы. При создании группы класса Office 365 соблюдайте требования к конфиденциальности, описанные в статье [Создание команды класса](/graph/api/educationroot-post-classes?tabs=http&view=graph-rest-beta&preserve-view=true).
 
 #### <a name="manual-team-creation"></a>Создание команды вручную
 
@@ -241,15 +241,15 @@ SDS создает команды за два этапа. На первом эт
 
 ##### <a name="how-do-i-create-class-teams-that-allow-educators-early-access-to-set-up-a-team-before-admitting-students"></a>Как создавать команды классов, позволяющие преподавателям предварительно настроить команду перед добавлением учащихся?
 
-При создании команд из групп (с помощью SDS, API Graph или под руководством преподавателя) по умолчанию автоматически создаются команды с ранним доступом. Для создания собственных команд с ранним доступом с использованием API Graph вам потребуется [создать класс](/graph/api/educationroot-post-classes?tabs=http&view=graph-rest-beta) и [создать команду из группы](/graph/api/team-post?tabs=http&view=graph-rest-beta#example-4-create-a-team-from-group).
+При создании команд из групп (с помощью SDS, API Graph или под руководством преподавателя) по умолчанию автоматически создаются команды с ранним доступом. Для создания собственных команд с ранним доступом с использованием API Graph вам потребуется [создать класс](/graph/api/educationroot-post-classes?tabs=http&view=graph-rest-beta&preserve-view=true) и [создать команду из группы](/graph/api/team-post?tabs=http&view=graph-rest-beta#example-4-create-a-team-from-group&preserve-view=true).
 
 ##### <a name="how-do-i-check-if-a-class-is-activated"></a>Как проверить, активирован ли класс?
 
-Мы добавили в [тип ресурса команды](/graph/api/resources/team?view=graph-rest-beta) новое свойство [isMembershipLimitedToOwners](/graph/api/resources/team?view=graph-rest-beta#properties), позволяющее определить, активирован ли класс. С помощью [API Get Team](/graph/api/team-get?tabs=http&view=graph-rest-beta) запросите свойство ```isMembershipLimitedToOwners``` для конкретного класса. Если команда активирована, будет возвращено значение false. Если команда еще не активирована ее владельцем, будет возвращено значение true.
+Мы добавили в [тип ресурса команды](/graph/api/resources/team?view=graph-rest-beta&preserve-view=true) новое свойство [isMembershipLimitedToOwners](/graph/api/resources/team?view=graph-rest-beta#properties&preserve-view=true), позволяющее определить, активирован ли класс. С помощью [API Get Team](/graph/api/team-get?tabs=http&view=graph-rest-beta&preserve-view=true) запросите свойство ```isMembershipLimitedToOwners``` для конкретного класса. Если команда активирована, будет возвращено значение false. Если команда еще не активирована ее владельцем, будет возвращено значение true.
 
 ##### <a name="how-do-i-activate-a-class-for-an-educator"></a>Как активировать класс для преподавателя?
 
-С помощью [API Update Team](/graph/api/team-update?tabs=http&view=graph-rest-beta) установите для свойства ```isMembershipLimitedToOwners``` значение false, чтобы активировать команду от имени преподавателя. Обратите внимание, что активация команды — необратимое действие.
+С помощью [API Update Team](/graph/api/team-update?tabs=http&view=graph-rest-beta&preserve-view=true) установите для свойства ```isMembershipLimitedToOwners``` значение false, чтобы активировать команду от имени преподавателя. Обратите внимание, что активация команды — необратимое действие.
 
 ### <a name="create-staff-teams-for-staff-communication-and-collaboration"></a>Создание команд персонала для общения и совместной работы персонала.
 
