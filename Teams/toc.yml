@@ -550,9 +550,25 @@ items:
       - name: Собрания
         items:
           - name: Управление политиками собраний
-            href: meeting-policies-in-teams.md
-          - name: Удаление политики собраний RestrictedAnonymousAccess для пользователей
-            href: meeting-policies-restricted-anonymous-access.md
+            items:
+              - name: Обзор
+                href: meeting-policies-overview.md
+              - name: Общие политики
+                href: meeting-policies-in-teams-general.md
+              - name: Политики в отношении звука и видео
+                href: meeting-policies-audio-and-video.md
+              - name: Политики общего доступа к содержимому и демонстрации экрана
+                items:
+                  - name: Общий доступ к содержимому
+                    href: meeting-policies-content-sharing.md
+                  - name: Настройка общего доступа к рабочему столу
+                    href: configure-desktop-sharing.md
+              - name: 'Политики участников, гостей и доступа'
+                items:
+                  - name: Политики участников и гостей
+                    href: meeting-policies-participants-and-guests.md
+                  - name: Удаление политики собраний RestrictedAnonymousAccess для пользователей
+                    href: meeting-policies-restricted-anonymous-access.md
           - name: Управление параметрами собраний
             href: meeting-settings-in-teams.md
           - name: 'Электронные письма, отправляемые пользователям при изменении параметров'
