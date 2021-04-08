@@ -13,18 +13,18 @@ ms.collection:
 description: Узнайте, как управлять Microsoft Teams с помощью Teams PowerShell.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bd302e2e5572c98e3338f0803155876e1c7689fc
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 8494f7951a051f95f9b934d04f274a020446b6cd
+ms.sourcegitcommit: b52b6aba289396c4fc10dd856817137eb1bc1f67
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094149"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "51617751"
 ---
 # <a name="manage-teams-with-microsoft-teams-powershell"></a>Управление Teams с помощью Microsoft Teams PowerShell
 
 В этой статье показано, как использовать Microsoft Teams PowerShell для управления Teams и Skype для бизнеса. 
 
-Используйте это руководство в сочетании со ссылкой на [командлет Microsoft Teams](/powershell/teams/?view=teams-ps) и ссылкой на [командлет Skype](/powershell/skype/intro?view=skype-ps)для бизнеса.
+Используйте это руководство в сочетании со справочником по [командлетам Microsoft Teams](/powershell/teams/?view=teams-ps) и Skype для [бизнеса.](/powershell/skype/intro?view=skype-ps)
 
 ## <a name="create-and-manage-teams-using-powershell"></a>Создание команд и управление ими с помощью PowerShell
 
@@ -33,7 +33,7 @@ ms.locfileid: "51094149"
 Команды создаются при помощи групп Office 365, поэтому при создании команды создается группа. Для работы с основной командой и ее настройками (, , , ), для управления пользователями команды (, ), а также командлеты для управления каналами команды ``new-team`` ``get-team`` ( ,  ``set-team`` ``add-teamuser`` ``remove-teamuser`` ``new-teamchannel`` ``remove-teamchannel`` ). Все эти командлеты можно запускать как конечные пользователи, но они будут работать только с командами, владельцем или участником которые вы владеете. Если вы глобальный администратор или администратор служб Teams, вы сможете работать со всеми командами в организации.
 
 ```powershell
-New-Team -Name "Contoso Marketing" -Description "Collaboration space for Contoso's Marketing department"
+New-Team -DisplayName "Contoso Marketing" -Description "Collaboration space for Contoso's Marketing department"
 ```
 
 > Код **GroupId,** используемый в модулях Microsoft Teams PowerShell, такой же, как и свойство **Identity,** возвращаемого в модуле ``Get-UnifiedGroup`` Exchange PowerShell.
@@ -41,7 +41,7 @@ New-Team -Name "Contoso Marketing" -Description "Collaboration space for Contoso
 ## <a name="manage-policies-via-powershell"></a>Управление политиками с помощью PowerShell
 
 > [!NOTE]
-> - Соединитель Skype для бизнеса Online объединяется в Teams PowerShell. В настоящее время она доступна в режиме предварительной версии. Со временем командлеты Skype для бизнеса Online, которые относятся к Teams, будут полностью доступны в модуле Teams PowerShell. Действия по установке можно найти [в статье по установке Teams PowerShell.](teams-powershell-install.md)
+> - Соединитель Skype для бизнеса Online объединяется в Teams PowerShell. В настоящее время она доступна в режиме предварительной версии. Со временем командлеты Skype для бизнеса Online, которые относятся к Teams, будут полностью доступны в модуле Teams PowerShell. Действия по установке можно найти [в статье об установке Teams PowerShell.](teams-powershell-install.md)
 >
 > - После подключения к Skype для бизнеса Online эти cmdlets будут доступны в сеансе PowerShell. Дополнительные сведения см. в управлении [Skype для бизнеса Online с помощью Office 365 PowerShell.](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)
 
@@ -54,21 +54,21 @@ New-Team -Name "Contoso Marketing" -Description "Collaboration space for Contoso
 
 - **Новые** команды (например, ): создание новых политик для организации, назначаемой пользователям ``New-CsTeamsMeetingPolicy`` в организации. Не все политики поддерживают создание настраиваемой политики. Часто это необходимо для того, чтобы политики, которые вы используете в организации, поддерживали сочетание параметров.
 
-- **Команды SET** (например, ): задает конкретные ``Set-CsTeamsMeetingPolicy`` значения для данной политики. Некоторые политики не имеют команд SET или содержат параметры, которые нельзя настроить в политике. В описании PowerShell описано, какие параметры нельзя настроить. 
+- **Команды** SET (например, ): задает конкретные ``Set-CsTeamsMeetingPolicy`` значения для данной политики. В некоторых политиках недоступны команды SET или они содержат параметры, которые не могут быть настроены в политике. В описании PowerShell описано, какие параметры нельзя настроить. 
    - Чтобы изменить политику, которая по умолчанию будет назначена пользователям в организации, которым не назначена настраиваемая политика, запустите ``Set-Cs<PolicyName> -Identity Global`` ее.
 
 - **Команды** REMOVE (например, ): удаляют настраиваемую политику, созданную ``Remove-CsTeamsMeetingPolicy`` в клиенте. При удалении настраиваемой политики, назначенной хотя бы одному пользователю в организации, этот пользователь вернется к глобальной политике.
    - Удалить глобальную политику в организации нельзя, но если вы хотите восстановить для нее параметры по умолчанию, предоставленные Майкрософт, запустите ``Remove-Cs<PolicyName> -Identity Global`` ее.
 
-- **Команда GRANT** (например, ``Grant-CsTeamsMeetingPolicy`` ): назначает политику конкретному пользователю.
+- **Команда** GRANT (например, ``Grant-CsTeamsMeetingPolicy`` ): назначает политику конкретному пользователю.
    - Чтобы удалить назначение настраиваемой политики и вернуть пользователя к политике по умолчанию в организации, запустите ``Grant-Cs<PolicyName> -Identity <User Identity> -PolicyName $null`` ее.
 
 > [!TIP]
-> Не все политики позволяют создавать настраиваемые политики, и в некоторых политиках есть параметры, которые нельзя настроить (чтобы можно было просматривать параметры, но не устанавливать их во время ``set-`` ``new-`` и). В документации каждого из этих параметров содержится информация о том, доступны ли параметры для использования клиентами.
+> Не все политики позволяют создавать настраиваемые политики, и некоторые политики имеют параметры, которые нельзя настроить (чтобы можно было просматривать параметры, но не устанавливать их во время ``set-`` ``new-`` и). В документации каждого из этих параметров содержится информация о том, доступны ли параметры для использования клиентами.
 
 Общие параметры:
 
-- **Identity:** для ``Get-`` ``Set-`` ``New-`` параметра Identity , и, параметр ``Remove-`` **Identity** всегда будет ссылаться на определенный экземпляр политики. Для параметра Identity указывается объект определенного пользователя, к которому ``Grant`` применяется политика. 
+- **Identity:** для ``Get-`` ``Set-`` ``New-`` параметра Identity , и, параметр ``Remove-`` **Identity** всегда будет ссылаться на определенный экземпляр политики. Для ``Grant`` **параметра Identity** указывается объект пользователя, к которому применяется политика.
 
 ## <a name="manage-configurations-via-powershell"></a>Управление конфигурациями с помощью PowerShell
 
@@ -83,7 +83,7 @@ New-Team -Name "Contoso Marketing" -Description "Collaboration space for Contoso
 
 ## <a name="what-can-each-admin-role-do"></a>Что может делать каждая роль администратора?
 
-Ознакомьтесь [с ролями администраторов Microsoft Teams](using-admin-roles.md) для управления Teams, чтобы понять, какие роли администраторов могут выполнить каждый командлет PowerShell.
+Прочитайте [статью "Использование](using-admin-roles.md) ролей администратора Microsoft Teams для управления Teams", чтобы понять, какие роли администраторов могут выполнить каждый командлет PowerShell.
 
 ## <a name="related-topics"></a>Статьи по теме
 
