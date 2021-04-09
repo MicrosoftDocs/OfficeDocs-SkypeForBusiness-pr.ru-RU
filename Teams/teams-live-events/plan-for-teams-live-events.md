@@ -20,12 +20,12 @@ description: В этой статье вы ознакомитесь с факт�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1d5c2ad8b737c8299eb04735d5df5dc2893c3568
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 79142779c633aeb852826ee04f5fb5c3c9aeb07f
+ms.sourcegitcommit: 950387da2a2c094b7580bcf81ae5d8b6dfba0d6b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119158"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "51637861"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Планирование трансляций в Microsoft Teams
 
@@ -164,7 +164,6 @@ ms.locfileid: "51119158"
 **Расположение данных для этих стран или регионов (поддерживается)**
 
 - Австралия
-- Бразилия
 - Канада
 - Франция
 - Германия
@@ -178,6 +177,7 @@ ms.locfileid: "51119158"
 
 **Следующие страны, регионы и облака не поддерживаются:**
 
+- Бразилия
 - Норвегия
 - Облако сообщества государственных учреждений (GCC)-H
 - Министерство обороны (DOD)

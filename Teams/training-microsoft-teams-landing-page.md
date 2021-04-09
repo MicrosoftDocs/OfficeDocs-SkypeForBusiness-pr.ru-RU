@@ -19,12 +19,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-may2020
-ms.openlocfilehash: e8e9a7776058803f49364887cabd6b54a9040cb6
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: ff718bda9b1713621a7c63ab2f8bf1adf4e179ad
+ms.sourcegitcommit: c80af314f1a573f99dd66858301c004ccc5410d6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51097565"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51648118"
 ---
 # <a name="microsoft-teams-training"></a>Обучение работе с Microsoft Teams
 
@@ -52,8 +52,8 @@ ms.locfileid: "51097565"
    :::column-end:::
 
    :::column:::
-   **[Командная работа](/learn/paths/m365-manage-team-collaboration)** </br>
-   Курс. Командная работа с помощью Teams
+   **[Управление совместной работой команды для ИТ](/learn/paths/m365-manage-team-collaboration)** </br>
+   Курс. Узнайте, как использовать Teams для упрощения командной работы и общения в организации в разных приложениях и устройствах.
 
    :::column-end:::
 
