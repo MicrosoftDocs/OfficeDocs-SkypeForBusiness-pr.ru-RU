@@ -1,5 +1,5 @@
 ---
-title: Коды стран прямой маршрутки
+title: Коды стран с прямой маршрутией
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -17,24 +17,27 @@ f1.keywords:
 - NOCSH
 description: Пройдите эту статью, чтобы найти коды страны для маршрутов мультимедиа, чтобы выбрать оптимальный путь для мультимедиа.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 69265e797b256186f714e2cd4dcefcb3751c05ee
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 56cdc48b33e048776a43a37864930fc153c47aac
+ms.sourcegitcommit: c80af314f1a573f99dd66858301c004ccc5410d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904811"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51648128"
 ---
 # <a name="direct-routing-media-path-country-codes"></a>Direct Routing media path country codes
 
 При выборе пути маршрутинга для мультимедиа по умолчанию "Прямая маршрутка" назначает центр обработки данных, основанный на общедоступных IP-адресах граничного контроллера сеанса (SBC), и всегда выбирает путь, ближайший к центру обработки данных SBC.
 
-Однако в некоторых случаях путь к мультимедиа по умолчанию может быть не оптимальным. Например, общедоступный IP-адрес из США может быть назначен SBC в Европе. 
+Однако в некоторых случаях путь к мультимедиа по умолчанию может быть не оптимальным; Например, общедоступный IP-адрес из сша может быть назначен SBC в Европе. 
 
 С помощью параметра -MediaRelayRoutingLocationOverride с New-CsOnlinePSTNGateway и Set-CsOnlinePSTNGateway можно указать предпочитаемый регион для трафика мультимедиа. Например, следующая команда указывает, что предпочтительным регионом является Германия:
 
 Set-CSOnlinePSTNGateway -Identity sbc1.contoso.com –MediaRelayRoutingLocationOverride DE 
 
 Обратите внимание, что корпорация Майкрософт рекомендует устанавливать этот параметр только в том случае, если журналы параметров параметров четко показывают, что по умолчанию центр обработки данных для пути мультимедиа не использует путь, ближайший к центру обработки данных SBC. 
+
+> [!NOTE]
+> -MediaRelayRoutingLocationOverride — эта команда недоступна для прямой маршрутизации.
  
 ## <a name="country-code-reference-table"></a>Справочник по коду страны
 
@@ -152,7 +155,7 @@ Set-CSOnlinePSTNGateway -Identity sbc1.contoso.com –MediaRelayRoutingLocationO
 | Ирландия         | IE |
 | Остров Ман     | Сообщения |
 | Израиль          | IL |
-| Италия           | ИТ- |
+| Италия           | IT |
 | Ямайка         | JM |
 | Ян-Майен       | XJ |
 | Япония           | JP |
@@ -246,7 +249,7 @@ Set-CSOnlinePSTNGateway -Identity sbc1.contoso.com –MediaRelayRoutingLocationO
 | Sierra Leone    | SL | 
 | Сингапур       | SG |
 | Sint Eustatius  | XE |
-| Sint Maarten    | SX |
+| Синт-Мартен    | SX |
 | Словакия        | SK |
 | Словения        | SL |
 | Соломоновы Острова | SB |
@@ -281,7 +284,7 @@ Set-CSOnlinePSTNGateway -Identity sbc1.contoso.com –MediaRelayRoutingLocationO
 | Виргинские о-ва (США) | VI |
 | Уганда          | UG |
 | Украина         | UA |
-| ОАЭ | AE |
+| Объединенные Арабские Эмираты | AE |
 | Великобритания  | GB |
 | Соединенные Штаты   | США |
 | Уругвай         | UY |

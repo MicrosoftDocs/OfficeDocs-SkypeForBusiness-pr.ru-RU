@@ -15,25 +15,25 @@ ms.collection:
 - m365initiative-meetings
 - m365initiative-meetings-enabler
 - enabler-strategic
-description: Узнайте, как управлять настройками для трансляций Teams, которые проводятся в вашей организации.
+description: Узнайте, как управлять настройками трансляций Teams, которые проводятся в вашей организации.
 f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e5f19aa6cfee7d4cce19ef5a0936a5a72e954648
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 9749484344d969671e8a0195de3386a57388d275
+ms.sourcegitcommit: 950387da2a2c094b7580bcf81ae5d8b6dfba0d6b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119348"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "51637881"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>Настройка параметров трансляции в Microsoft Teams
 
 Используйте параметры трансляций Teams для настройки параметров трансляций, которые проводятся в вашей организации. Вы можете настроить URL-адрес службы поддержки и сторонних поставщиков видеоконференции. Эти параметры применяются для всех трансляций, созданных в организации.
 
-Вы можете легко управлять этими настройками в Центре администрирования Microsoft Teams. В области навигации слева перейдите к **настройкам**  >  **трансляций собраний.**
+Вы можете легко управлять этими настройками в Центре администрирования Microsoft Teams. В области навигации слева перейдите к **настройкам трансляций**  >  **собраний.**
 
 ![Снимок экрана: параметры трансляций Teams](../media/teams-live-events-settings.png "Снимок экрана: параметры трансляций Teams, которые можно настроить в Центре администрирования Microsoft Teams")
 
@@ -73,7 +73,7 @@ Set-CsTeamsMeetingBroadcastConfiguration -SupportURL “{your URL}”
     - **URL-адрес шаблона API SDN** Введите URL-адрес шаблона API, который вы получили у своего контакта поставщика.
 
 ### <a name="using-windows-powershell"></a>Использование Windows PowerShell
-Получите у контакта поставщика ИД лицензии или маркер API и шаблон API, а затем запустите один из следующих решений в зависимости от используемого поставщика.
+Получите У контакта поставщика ИД лицензии или маркер API и шаблон API, а затем запустите один из следующих методов в зависимости от поставщика, который вы используете:
 
 **Hive** 
 ```PowerShell
@@ -87,6 +87,10 @@ Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $T
 ```PowerShell
 Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName riverbed -SdnApiTemplateUrl "{API template URL provided by Riverbed}" -SdnApiToken {API token GUID provided by Riverbed}
 ```
+**Ramp** 
+```PowerShell
+Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName ramp -SdnRuntimeConfiguration "{Configuration provided by RAMP}"
+```
 
 Дополнительные сведения [см. в set-CsTeamsMeetingBroadcastConfiguration.](/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps)
 
@@ -95,6 +99,9 @@ Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $T
 
 >[!Note]
 > Переход с использования Microsoft Stream на [OneDrive для бизнеса и SharePoint для записей собраний](../tmr-meeting-recording-change.md) будет поэтапным процессом. При запуске вы сможете согласиться на использование этого интерфейса. В ноябре потребуется отказаться от использования, если вы хотите продолжить использование Stream. В начале 2021 г. мы сделаем использование OneDrive для бизнеса и SharePoint для новых записей собраний обязательным для всех пользователей.
+
+>[!Note]
+> Выбранное решение eCDN регулируется выбранными условиями обслуживания и политикой конфиденциальности сторонних поставщиков, которая регулирует использование решения поставщика eCDN. Использование решения поставщика услуг eCDN не будет огодиться условиями корпоративного лицензирования Корпорации Майкрософт или Условиями использования веб-служб. Если вы не согласны с условиями сторонних поставщиков, не в включаете решение eCDN в Microsoft Teams.
 
 ### <a name="related-topics"></a>Статьи по теме
 - [Что такое прямые трансляции Teams?](what-are-teams-live-events.md)
