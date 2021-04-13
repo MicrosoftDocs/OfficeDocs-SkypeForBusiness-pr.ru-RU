@@ -1,5 +1,5 @@
 ---
-title: Перемещение пользователей и конечных точек в облако
+title: Перемещение пользователей в облако
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -16,23 +16,25 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
-description: Перемещение пользователей и конечных точек перед списанием локальной среды Skype для бизнеса.
-ms.openlocfilehash: 130f276d07dd33be33d3c038c2ead20c7a887e6b
-ms.sourcegitcommit: f223b5f3735f165d46bb611a52fcdfb0f4b88f66
+description: Перемещение пользователей до вывода из эксплуатации локальной среды Skype для бизнеса.
+ms.openlocfilehash: f04ebeec51b739faa89f907de6c363f0ef70a78e
+ms.sourcegitcommit: 71d90f0a0056f7604109f64e9722c80cf0eda47d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51593912"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51656675"
 ---
-# <a name="move-required-users-and-endpoints-before-decommissioning-your-on-premises-environment"></a>Перемещение необходимых пользователей и конечных точек перед списанием локальной среды
+# <a name="move-required-users-before-decommissioning-your-on-premises-environment"></a>Перемещение необходимых пользователей до вывода из эксплуатации локальной среды
 
-В этой статье описывается, как переместить необходимые пользователи и конечные точки приложений в облако Microsoft перед выводом из эксплуатации локальной среды Skype для бизнеса. Это шаг 1 из следующих действий по выводу из эксплуатации локальной среды:
+В этой статье описывается, как переместить необходимых пользователей в облако Microsoft до вывода из эксплуатации локальной среды Skype для бизнеса. Это шаг 1 из следующих действий по выводу из эксплуатации локальной среды:
 
-- **Шаг 1. Перемещение всех необходимых пользователей и конечных точек приложения из локальной сети в интернет.** (В этой статье.)
+- **Шаг 1. Перемещение всех необходимых пользователей из локальной сети в интернет.** (В этой статье)
 
 - Шаг 2. [Отключите гибридную конфигурацию.](cloud-consolidation-disabling-hybrid.md)
 
-- Шаг 3. [Удалите локальное развертывание Skype для бизнеса.](decommission-remove-on-prem.md)
+- Шаг 3. [Перемещение конечных точек гибридного приложения из локального в интернет.](decommission-move-on-prem-endpoints.md)
+
+- Этап 4. [Удалите локальное развертывание Skype для бизнеса.](decommission-remove-on-prem.md)
 
 
 ## <a name="move-all-required-users-from-on-premises-to-the-cloud"></a>Перемещение всех необходимых пользователей из локального в облако
@@ -56,51 +58,16 @@ Get-CsUser -Filter { HostingProvider -eq "SRV:"} | Disable-CsUser
 > [!NOTE]
 > Запуск Disable-CsUser удаляет все атрибуты Skype для бизнеса для всех пользователей, которые соответствуют критериям фильтрации. Перед началом процедуры подтвердим, что эти учетные записи больше не нужны.
 
-## <a name="move-on-premises-hybrid-application-endpoints-to-microsoft-365"></a>Перемещение конечных точек гибридного приложения в Microsoft 365
 
-1. Извлечение и экспорт параметров конечной точки гибридного приложения на локальном сервере путем выполнения следующей локальной команды Skype для Business Server PowerShell:
-
-   ```PowerShell
-   Get-CsHybridApplicationEndpoint|select Sipaddress, DisplayName, ApplicationID, LineUri |Export-Csv -Path "c:\backup\HybridEndpoints.csv"
-   ```
-2. Создание и лицензирование новых [учетных записей](https://docs.microsoft.com/microsoftteams/manage-resource-accounts) ресурсов в Microsoft 365 для замены существующих конечных точек гибридного приложения.
-
-3. Связывать новые учетные записи ресурсов с существующими конечными точками гибридных приложений.
-
-4. Удалите номера телефонов, определенные в конечных точках локального гибридного приложения, исполнив следующую команду Skype для бизнеса Server PowerShell:
-
-   ```PowerShell
-   Get-CsHybridApplicationEndpoint -Filter {LineURI -ne $null} | Set-CsHybridApplicationEndpoint -LineURI ""
-   ```
-5. Так как возможно, что номера телефонов для этих учетных записей управлялись в Microsoft 365 вместо локального, запустите следующую команду в Skype для бизнеса Online PowerShell:
-
-   ```PowerShell
-   $endpoints = import-csv "c:\backup\HybridEndpoints.csv"
-   foreach ($endpoint in $endpoints)
-   {
-   if($endpoint.LineUri)
-       {
-           $upn = $endpoint.SipAddress.Replace("sip:","")
-           $ra=Get-CsOnlineApplicationInstance | where UserPrincipalName -eq $upn 
-           Set-CsOnlineApplicationInstance -Identity $ra.Objectid -OnpremPhoneNumber ""
-       }
-   }
-   ```
-
-6. Назначение номеров телефонов новым учетным записям ресурсов, созданным в шаге 2. Дополнительные сведения о назначении номера телефона учетной записи ресурса см. в следующей статье: [Назначение номера службы.](https://docs.microsoft.com/microsoftteams/manage-resource-accounts#assign-a-service-number)
-
-7. Удалите конечные точки локального сервера, исполнив следующую команду Skype для бизнеса Server PowerShell:
-
-   ```PowerShell
-   Get-CsHybridApplicationEndpoint | Remove-CsHybridApplicationEndpoint
-   ```
 Теперь вы готовы отключить [гибридную конфигурацию.](cloud-consolidation-disabling-hybrid.md)
 
 ## <a name="see-also"></a>См. также
 
-- [Вывод из эксплуатации локальной среды Skype для бизнеса](decommission-on-prem-overview.md)
+- [Прекращение использования локальной среды Skype для бизнеса](decommission-on-prem-overview.md)
 
 - [Отключение гибридной конфигурации](cloud-consolidation-disabling-hybrid.md)
+
+- [Перемещение конечных точек гибридного приложения из локального в online](decommission-move-on-prem-endpoints.md)
 
 - [Удаление локального развертывания Skype для бизнеса](decommission-remove-on-prem.md)
 

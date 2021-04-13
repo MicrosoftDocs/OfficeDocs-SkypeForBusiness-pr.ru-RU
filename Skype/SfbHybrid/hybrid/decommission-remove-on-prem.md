@@ -17,22 +17,24 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: Инструкции по выводу из эксплуатации Skype для бизнеса Server.
-ms.openlocfilehash: 668e3d5ebf5dfa03fcfb883adcc3e08fc5924bae
-ms.sourcegitcommit: f223b5f3735f165d46bb611a52fcdfb0f4b88f66
+ms.openlocfilehash: 9c6051a07fc05297985b3692351c36791d8842bb
+ms.sourcegitcommit: 71d90f0a0056f7604109f64e9722c80cf0eda47d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51593905"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51656695"
 ---
 # <a name="remove-your-on-premises-skype-for-business-deployment"></a>Удаление локального развертывания Skype для бизнеса
 
-В этой статье описывается, как удалить локальное развертывание Skype для бизнеса. Это шаг 3 из следующих действий по выводу из эксплуатации локальной среды:
+В этой статье описывается, как удалить локальное развертывание Skype для бизнеса. Это шаг 4 из следующих действий по выводу из эксплуатации локальной среды:
 
-- Этап 1. [Перемещение всех необходимых пользователей и конечных точек приложения](decommission-move-on-prem-users.md)из локального в интернет. 
+- Этап 1. [Перемещение всех необходимых пользователей из локального в интернет.](decommission-move-on-prem-users.md) 
 
 - Шаг 2. [Отключите гибридную конфигурацию.](cloud-consolidation-disabling-hybrid.md)
 
-- **Шаг 3. Удалите локальное развертывание Skype для бизнеса.** (В этой статье)
+- Шаг 3. [Перемещение конечных точек гибридного приложения из локального в online](decommission-move-on-prem-endpoints.md)
+
+- **Шаг 4. Удалите локальное развертывание Skype для бизнеса.** (В этой статье)
 
 
 > [!IMPORTANT] 
@@ -127,14 +129,13 @@ ms.locfileid: "51593905"
 
 ## <a name="see-also"></a>См. также
 
-- [Вывод из эксплуатации локальной среды Skype для бизнеса](decommission-on-prem-overview.md)
+- [Прекращение использования локальной среды Skype для бизнеса](decommission-on-prem-overview.md)
 
-- [Перемещение пользователей и конечных точек в облако](decommission-move-on-prem-users.md)
+- [Перемещение всех необходимых пользователей из локальной сети в интернет](decommission-move-on-prem-users.md)
 
 - [Отключение гибридной конфигурации](cloud-consolidation-disabling-hybrid.md)
 
-
-
+- [Перемещение конечных точек гибридного приложения из локального в online](decommission-move-on-prem-endpoints.md)
 
 
 

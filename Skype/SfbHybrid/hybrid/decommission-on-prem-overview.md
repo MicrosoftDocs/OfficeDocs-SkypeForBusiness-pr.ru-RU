@@ -1,5 +1,5 @@
 ---
-title: Вывод из эксплуатации локальной среды Skype для бизнеса
+title: Прекращение использования локальной среды Skype для бизнеса
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -17,14 +17,14 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: Инструкции по выводу из эксплуатации локальной среды Skype для бизнеса.
-ms.openlocfilehash: 7f5109661fc7d29d83172489dd987b96cb7e87fd
-ms.sourcegitcommit: f223b5f3735f165d46bb611a52fcdfb0f4b88f66
+ms.openlocfilehash: 46848c6730d37f549a8d5ee16f066fa67c789873
+ms.sourcegitcommit: 71d90f0a0056f7604109f64e9722c80cf0eda47d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51593902"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51656685"
 ---
-# <a name="decommission-your-on-premises-skype-for-business-environment"></a>Вывод из эксплуатации локальной среды Skype для бизнеса
+# <a name="decommission-your-on-premises-skype-for-business-environment"></a>Прекращение использования локальной среды Skype для бизнеса
 
 Если ваша организация использует Teams или Skype для бизнеса Online с локальной развертыванием Skype для бизнеса Server, вы можете полностью перенести эти среды в облако, а затем завершить локальное развертывание Skype для бизнеса Server. 
 
@@ -33,9 +33,11 @@ ms.locfileid: "51593902"
 
 Чтобы завершить переход из локальной среды в облако и вычистить локальное окружение Skype для бизнеса Server, необходимо выполнить следующие действия в следующем порядке:
 
-- **Этап 1.** [Перемещение всех необходимых пользователей и конечных точек приложения](decommission-move-on-prem-users.md)из локального в интернет.
+- **Этап 1.** [Перемещение всех необходимых пользователей из локального в интернет.](decommission-move-on-prem-users.md)
 
 - **Шаг 2.** [Отключите гибридную конфигурацию.](cloud-consolidation-disabling-hybrid.md)
 
-- **Шаг 3.** [Удалите локальное развертывание Skype для бизнеса.](decommission-remove-on-prem.md)
+- **Шаг 3.** [Перемещение конечных точек гибридного приложения из локального в интернет.](decommission-move-on-prem-endpoints.md)
+
+- **Этап 4.** [Удалите локальное развертывание Skype для бизнеса.](decommission-remove-on-prem.md)
 

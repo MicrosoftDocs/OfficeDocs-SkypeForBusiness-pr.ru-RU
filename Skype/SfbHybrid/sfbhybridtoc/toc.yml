@@ -24,10 +24,12 @@
       items:
         - name: Обзор
           href: ../hybrid/decommission-on-prem-overview.md
-        - name: Перемещение пользователей и конечных точек в облако
+        - name: Перемещение пользователей в облако
           href: ../hybrid/decommission-move-on-prem-users.md
         - name: Отключение гибридной среды для завершения миграции в облако
           href: ../hybrid/cloud-consolidation-disabling-hybrid.md
+        - name: Перемещение конечных точек приложений в облако
+          href: ../hybrid/decommission-move-on-prem-endpoints.md
         - name: Удаление локального развертывания Skype для бизнеса
           href: ../hybrid/decommission-remove-on-prem.md
     - name: Развертывание топологии леса ресурсов

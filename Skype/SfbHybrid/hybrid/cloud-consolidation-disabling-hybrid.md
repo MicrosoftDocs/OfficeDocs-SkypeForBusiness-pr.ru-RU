@@ -21,22 +21,24 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: В этой статье содержатся подробные действия по отключению гибрида в рамках консолидации облачных технологий для Teams и Skype для бизнеса.
-ms.openlocfilehash: 5528172c6a9309a0884c9417a64da589f0f0d4a4
-ms.sourcegitcommit: f223b5f3735f165d46bb611a52fcdfb0f4b88f66
+ms.openlocfilehash: 18bda898563e10dbf964ba149f27202372fbcceb
+ms.sourcegitcommit: 71d90f0a0056f7604109f64e9722c80cf0eda47d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51593857"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51656705"
 ---
 # <a name="disable-your-hybrid-configuration-to-complete-migration-to-the-cloud"></a>Отключение гибридной конфигурации для завершения миграции в облако
 
 В этой статье описывается отключение гибридной конфигурации до вывода из эксплуатации локальной среды Skype для бизнеса. Это шаг 2 из следующих действий по выводу из эксплуатации локальной среды:
 
-- Этап 1. [Перемещение всех необходимых пользователей и конечных точек приложения](decommission-move-on-prem-users.md)из локального в интернет.
+- Этап 1. [Перемещение всех необходимых пользователей из локального в интернет.](decommission-move-on-prem-users.md)
 
 - **Шаг 2. Отключите гибридную конфигурацию.** (В этой статье)
 
-- Шаг 3. [Удалите локальное развертывание Skype для бизнеса.](decommission-remove-on-prem.md)
+- Шаг 3. [Перемещение конечных точек гибридного приложения из локального в интернет.](decommission-move-on-prem-endpoints.md)
+
+- Этап 4. [Удалите локальное развертывание Skype для бизнеса.](decommission-remove-on-prem.md)
 
 
 ## <a name="overview"></a>Обзор
@@ -243,11 +245,12 @@ ms.locfileid: "51593857"
     ```PowerShell
     Get-CsOnlineUser -Filter {Enabled -eq $True -and (OnPremHostingProvider -ne $null -or MCOValidationError -ne $null -or ProvisioningStamp -ne $null -or SubProvisioningStamp -ne $null)} | fl SipAddress, InterpretedUserType, OnPremHostingProvider, MCOValidationError, *ProvisioningStamp
     ``` 
-12. После завершения всех действий в методе 2 обратитесь к удалению локального [сервера Skype для](decommission-remove-on-prem.md) бизнеса для дополнительных действий по удалению локального развертывания Skype для бизнеса Server.
+12. После завершения всех действий в методе 2 см. в рубке Перемещение конечных точек гибридного приложения из локального в интернет и удаление локального [skype для](decommission-remove-on-prem.md) бизнеса Server для дополнительных действий по удалению локального развертывания Skype для бизнес-сервера. [](decommission-move-on-prem-endpoints.md)
 
 
 ## <a name="see-also"></a>См. также
 
 - [Консолидация облаков для команд и Skype для бизнеса](cloud-consolidation.md)
 
-- [Вывод из эксплуатации локальной среды Skype для бизнеса](decommission-on-prem-overview.md)
+- [Прекращение использования локальной среды Skype для бизнеса](decommission-on-prem-overview.md)
+
