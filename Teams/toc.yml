@@ -229,10 +229,12 @@ items:
             items:
               - name: Обзор
                 href: /SkypeForBusiness/hybrid/decommission-on-prem-overview
-              - name: Перемещение пользователей и конечных точек в облако
+              - name: Перемещение пользователей в облако
                 href: /SkypeForBusiness/hybrid/decommission-move-on-prem-users
               - name: Отключение гибридной среды для завершения миграции в облако
                 href: /SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid
+              - name: Перемещение конечных точек приложений в облако
+                href: /SkypeForBusiness/hybrid/decommission-move-on-prem-endpoints.md
               - name: Удаление развертывания Skype® для бизнеса
                 href: /SkypeForBusiness/hybrid/decommission-remove-on-prem
           - name: Развертывание топологии леса ресурсов
