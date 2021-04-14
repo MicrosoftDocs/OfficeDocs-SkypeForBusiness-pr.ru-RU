@@ -117,18 +117,18 @@ items:
                 href: teams-client-update.md
               - name: Устранение неполадок при установке и обновлении
                 href: troubleshoot-installation.md
-          - name: Обучение работе с Teams
-            items:
-              - name: Обзор
-                href: training-microsoft-teams-landing-page.md
-              - name: "Обучение для администраторов\_Teams"
-                href: itadmin-readiness.md
-              - name: Сеансы Teams на Ignite 2020
-                href: ignite-2020-landing-page.md
-              - name: Интерактивное обучение Teams
-                href: instructor-led-training-teams-landing-page.yml
-              - name: Онлайн-обучение Teams
-                href: 'https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7'
+      - name: Обучение работе с Teams
+        items:
+          - name: Обзор
+            href: training-microsoft-teams-landing-page.md
+          - name: "Обучение для администраторов\_Teams"
+            href: itadmin-readiness.md
+          - name: Сеансы Teams на Ignite 2020
+            href: ignite-2020-landing-page.md
+          - name: Интерактивное обучение Teams
+            href: instructor-led-training-teams-landing-page.yml
+          - name: Онлайн-обучение Teams
+            href: 'https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7'
   - name: Переход со Skype для бизнеса
     items:
       - name: Начало работы
@@ -1325,6 +1325,8 @@ items:
             href: teams-app-setup-policies.md
           - name: Управление пользовательскими политиками и параметрами приложений в Teams
             href: teams-custom-app-policies-and-settings.md
+          - name: Настройка параметров в Teams
+            href: customize-apps.md
   - name: Руководство для отраслей и государственных организаций
     items:
       - name: Обзор
