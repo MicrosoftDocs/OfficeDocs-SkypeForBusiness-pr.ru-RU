@@ -1,5 +1,5 @@
 ---
-title: Плакаты ИТ-архитектуры и решений для телефонии Microsoft Teams
+title: Плакаты ИТ-архитектуры и решений голосовой связи Microsoft Teams
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -15,40 +15,40 @@ search.appverid:
 - MET150
 f1.keywords:
 - NOCSH
-description: 'Сводка. Сведения о логической архитектуре служб повышения производительности в Microsoft 365, начиная с Microsoft Teams. А также сведения о решениях телефонии для Teams. '
-ms.openlocfilehash: 3f90627cf82200837e15f1231a36062715026e79
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Сводка. Сведения о логической архитектуре служб повышения производительности в Microsoft 365, начиная с Microsoft Teams. А также сведения о решениях голосовой связи для Teams.
+ms.openlocfilehash: ad67895e734b2fa9e9d0cdfd5ba2343d5caeb8d8
+ms.sourcegitcommit: 2ce82f301f2d59da57f579a23038b2cab5e31360
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119268"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51858035"
 ---
-# <a name="microsoft-teams-it-architecture-and-telephony-solutions-posters"></a>Плакаты ИТ-архитектуры и решений для телефонии Microsoft Teams
+# <a name="microsoft-teams-it-architecture-and-voice-solutions-posters"></a>Плакаты ИТ-архитектуры и решений голосовой связи Microsoft Teams
 
 ## <a name="teams-as-part-of-microsoft-365"></a>Teams в составе Microsoft 365
+
 Приложение Teams — ключевой элемент логической архитектуры служб повышения производительности в Microsoft 365, включая возможности управления данными, безопасности и соответствия требованиям. 
 
 Этот набор иллюстраций демонстрирует логическую архитектуру служб повышения производительности для корпоративных архитекторов, начиная с Teams.
 
-[![Эскиз плаката логической архитектуры Teams](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-teams-logical-architecture-thumb.png)](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-teams-logical-architecture.pdf)  <br/>[PDF](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-teams-logical-architecture.pdf) | [Visio](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-teams-logical-architecture.vsdx)
+[![Эскиз плаката логической архитектуры Teams](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-teams-logical-architecture-thumb.png)](https://download.microsoft.com/download/4/3/5/435cd4e9-ca56-4fd1-acb6-d1fda7952320/microsoft-voice-solutions.pdf)  <br/>[PDF](https://download.microsoft.com/download/4/3/5/435cd4e9-ca56-4fd1-acb6-d1fda7952320/microsoft-voice-solutions.pdf) | [Visio](https://download.microsoft.com/download/7/5/c/75c13012-e20c-48bd-a6dd-ea49d1a3420d/microsoft-voice-solutions.vsdx)
 
 
 ## <a name="groups-in-microsoft-365"></a>Группы в Microsoft 365
+
 Что следует знать ИТ-архитекторам о группах в Microsoft 365. На этих иллюстрациях подробно показаны разные типы групп, как они создаются и управляются, а также приводится несколько рекомендаций по управлению.
 
 [![Эскиз инфографики групп](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-groups-architecture-thumb.png)](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-groups.pdf)  <br/> [PDF](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-groups.pdf) | [Visio](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-groups.vsdx)
 
+## <a name="microsoft-voice-solutions"></a>Решения Майкрософт для голосовой связи
 
-## <a name="microsoft-telephony-solutions"></a>Решения Майкрософт для телефонии
+Корпорация Майкрософт поддерживает несколько вариантов начала работы с Teams в облаке Майкрософт. Этот плакат поможет вам определить, какие решения Майкрософт для голосовой связи (телефонная система в облаке или локальная корпоративная голосовая связь) оптимальны для пользователей в вашей организации, а также как организация может подключаться к телефонной сети общего пользования (ТСОП).
 
-Корпорация Майкрософт поддерживает несколько вариантов начала работы с Teams в облаке Майкрософт. Этот плакат поможет вам определить, какие решения Майкрософт для телефонии (телефонная система в облаке или локальная корпоративная голосовая связь) оптимальны для пользователей в вашей организации, а также как организация может подключаться к телефонной сети общего пользования (ТСОП).
+[![Эскиз плаката решений Майкрософт для голосовой связи](media/microsoft-telephony-solutions-thumb.png)](https://download.microsoft.com/download/4/3/5/435cd4e9-ca56-4fd1-acb6-d1fda7952320/microsoft-voice-solutions.pdf) <br/>
+[PDF](https://download.microsoft.com/download/4/3/5/435cd4e9-ca56-4fd1-acb6-d1fda7952320/microsoft-voice-solutions.pdf) | [Visio](https://download.microsoft.com/download/7/5/c/75c13012-e20c-48bd-a6dd-ea49d1a3420d/microsoft-voice-solutions.vsdx)
 
-[![Эскиз плаката решений Майкрософт для телефонии](/office365/enterprise/media/microsoft-telephony-solutions-thumb.png)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/telephony-solutions/microsoft-telephony-solutions-12-19.pdf) <br/>
-[PDF](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/telephony-solutions/microsoft-telephony-solutions-12-18.pdf) | [Visio](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/telephony-solutions/microsoft-telephony-solutions-12-18.vsdx) 
-
-Дополнительные сведения см. в статье [Решения Майкрософт для телефонии](/SkypeForBusiness/hybrid/msft-telephony-solutions)
+Дополнительные сведения см. в статье [Решения Майкрософт для голосовой связи](cloud-voice-landing-page.md)
   
-   
 ## <a name="see-also"></a>См. также
 
 [Ресурсы для администраторов, посвященные архитектуре Microsoft Cloud](/office365/enterprise/microsoft-cloud-it-architecture-resources)

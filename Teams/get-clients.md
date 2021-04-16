@@ -10,7 +10,7 @@ ms.collection:
 - M365-collaboration
 - m365initiative-deployteams
 ms.reviewer: harij, rafarhi
-localization_priority: Normal
+localization_priority: Priority
 search.appverid: MET150
 description: Сведения об использовании различных клиентов, доступных для Microsoft Teams, включая веб-клиент, классический клиент (Windows и Mac), а также мобильный клиент (Android и iOS).
 f1.keywords:
@@ -19,40 +19,39 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ff9e407edeab7d14e0d495c5f30a85abfb9ce02f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
-ms.translationtype: MT
+ms.openlocfilehash: 8385e6721a24c3ad1bd320dd2f6e5e14091181b0
+ms.sourcegitcommit: 616403037ddb2d44f06cd9b2eaa9da699b119ef8
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51112445"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "51768228"
 ---
-# <a name="get-clients-for-microsoft-teams"></a>Работа с клиентами для Microsoft Teams 
+# <a name="get-clients-for-microsoft-teams"></a>Работа с клиентами для Microsoft Teams
 
-У Microsoft Teams есть клиенты, доступные для настольных компьютеров (Windows, Mac и Linux), веб-сайтов и мобильных устройств (Android и iOS). Все они нуждаются в активном подключении к Интернету и не поддерживают автономный режим. 
-
-> [!Note]
-> Подробные сведения о возможностях каждого клиента на разных платформах см. в различных [платформах Teams.](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)
+У Microsoft Teams есть клиенты, доступные для настольных компьютеров (Windows, Mac и Linux), веб-сайтов и мобильных устройств (Android и iOS). Все они нуждаются в активном подключении к Интернету и не поддерживают автономный режим.
 
 > [!NOTE]
-> С 29 ноября 2018 г. вы больше не сможете использовать приложение Microsoft Teams для Windows 10 S (предварительная версия), доступное в Магазине Microsoft Store. Вместо этого теперь вы можете скачать и установить классический клиент Teams на устройствах с Windows 10 в S-режиме. Чтобы скачать классический клиент, перейдите по ссылке [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754). Сборки MSI для классического клиента Teams пока недоступны на устройствах с Windows 10 в S-режиме.
+> Подробные сведения о возможностях каждого клиента на разных платформах см. в статье [Возможности Teams на разных платформах](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 >
-> Дополнительные сведения о Windows 10 в S-режиме см. в статье [Знакомство с Windows 10 в S-режиме](https://www.microsoft.com/windows/s-mode). 
+> С 29 ноября 2018 г. вы больше не сможете использовать приложение Microsoft Teams для Windows 10 S (предварительная версия), доступное в Магазине Microsoft Store. Вместо этого теперь вы можете скачать и установить классический клиент Teams на устройствах с Windows 10 в S-режиме. Чтобы скачать классический клиент, перейдите по ссылке [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/p/?linkid=855754). Сборки MSI для классического клиента Teams пока недоступны на устройствах с Windows 10 в S-режиме.
+>
+> Дополнительные сведения о Windows 10 в S-режиме см. в статье [Знакомство с Windows 10 в S-режиме](https://www.microsoft.com/windows/s-mode).
 
 ## <a name="desktop-client"></a>Классический клиент
 
 > [!TIP]
 > Просмотрите следующий сеанс, чтобы узнать о преимуществах классического клиента для Windows, его планировании и развертывании: [Классический клиент Teams для Windows](https://aka.ms/teams-clients)
 
-Клиент Microsoft Teams для настольных ПК — это приложение, которое также доступно в приложениях [Microsoft 365 корпоративный.](/deployoffice/teams-install) Teams доступна для 32- и 64-битных версий Windows (8.1 или более поздней версии), ARM64 для Windows 10 в ARM и Windows Server (2012 R2 или более поздней версии), а также для macOS и Linux (в `.deb` и `.rpm` формате). В Windows для Teams требуется платформа .NET Framework 4.5 или более поздней версии; установщик Teams предложит установить ее, если она отсутствует. В Linux, диспетчеры пакетов, такие как `apt` и `yum`, пытаются установить любые требования. Однако, если этого не произойдет, вам нужно будет установить все заявленные требования перед установкой Teams в Linux.
+Классический клиент Microsoft Teams представляет собой автономное приложение, а также [входит в состав Приложений Microsoft 365 для предприятий](/deployoffice/teams-install). Приложение Teams доступно для 32- и 64-разрядных версий Windows (8.1 или более поздней версии), ARM64 для Windows 10 на базе ARM и Windows Server (2012 R2 или более поздней версии), а также для macOS и Linux (в форматах `.deb` и `.rpm`). В Windows для Teams требуется платформа .NET Framework 4.5 или более поздней версии; установщик Teams предложит установить ее, если она отсутствует. В Linux, диспетчеры пакетов, такие как `apt` и `yum`, пытаются установить любые требования. Однако, если этого не произойдет, вам нужно будет установить все заявленные требования перед установкой Teams в Linux.
 
 Классические клиенты поддерживают взаимодействие в реальном времени (звук, видео и общий доступ к контенту) для собраний команды, групповых звонков и частных индивидуальных звонков.
 
 При наличии подходящих локальных разрешений (для установки клиента Teams на Mac требуются права администратора, а на ПК — нет) пользователи могут скачать и установить классические клиенты прямо со страницы [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754).
 
 > [!NOTE]
-> Дополнительные сведения об установке Teams на [](https://support.office.com/article/how-to-install-and-run-microsoft-office-on-a-chromebook-32f14a23-2c1a-4579-b973-d4b1d78561ad)хромбуке см. в Microsoft Office.
+> Дополнительные сведения об установке Teams на Chromebook см. в статье [Установка и запуск Microsoft Office на Chromebook](https://support.office.com/article/how-to-install-and-run-microsoft-office-on-a-chromebook-32f14a23-2c1a-4579-b973-d4b1d78561ad).
 
-ИТ-администраторы могут выбрать предпочтительный способ распространения установочных файлов на компьютеры в своей организации. Некоторые примеры включают Microsoft Endpoint Configuration Manager (Windows) или Jamf Pro (macOS). Сведения о получении MSI-пакета для распространения в Windows см. в статье [Установка Microsoft Teams с помощью MSI](msi-deployment.md).  
+ИТ-администраторы могут выбрать предпочтительный способ распространения установочных файлов на компьютеры в своей организации. Некоторые примеры включают Microsoft Endpoint Configuration Manager (Windows) или Jamf Pro (macOS). Сведения о получении MSI-пакета для распространения в Windows см. в статье [Установка Microsoft Teams с помощью MSI](msi-deployment.md).
 
 > [!NOTE]
 > Распространение посредством этих механизмов подходит только для начальной установки клиентов Microsoft Team, но не для дальнейших обновлений.
@@ -79,9 +78,9 @@ ms.locfileid: "51112445"
 ![Снимок экрана с диалоговом окном "Оповещение системы безопасности Windows".](media/Get_clients_for_Microsoft_Teams_image3.png)
 
 > [!NOTE]
-> Конфигурация брандмауэра Windows будет изменена, даже если закрыть запрос, нажав кнопку "Отмена". Два входящие правила для teams.exe будут созданы с действием Allow для протоколов TCP и UDP.
+> Конфигурация брандмауэра Windows будет изменена, даже если закрыть запрос, нажав кнопку "Отмена". Создаются два правила входящего трафика для teams.exe с действием разрешения для протоколов TCP и UDP.
 
-Если вы хотите запретить Пользователям Teams создавать правила брандмауэра при первом звонке из Teams, используйте пример сценария [PowerShell—](#sample-powershell-script---inbound-firewall-rule) правило входящий брандмауэр ниже. 
+Если вы хотите запретить Teams предлагать пользователям создавать правила брандмауэра при первом вызове из Teams, используйте [пример сценария PowerShell — правило входящего трафика брандмауэра](#sample-powershell-script---inbound-firewall-rule) ниже.
 
 ### <a name="mac"></a>Mac
 
@@ -110,29 +109,29 @@ ms.locfileid: "51112445"
 
 ### <a name="linux"></a>Linux
 
-Пользователи смогут установить собственные пакеты Linux в форматах `.deb` и `.rpm`.
-При установке пакета DEB или RPM автоматически устанавливается репозиторий пакетов.
-- DEB `https://packages.microsoft.com/repos/ms-teams stable main`
-- RPM `https://packages.microsoft.com/yumrepos/ms-teams` 
+Пользователи смогут установить собственные пакеты Linux в форматах `.deb` и `.rpm`. Установка пакета DEB или RPM автоматически установит репозиторий пакетов.
 
-Ключ подписи для автоматического обновления с помощью системного менеджера пакетов устанавливается автоматически. Однако его также можно найти по адресу: (https://packages.microsoft.com/keys/microsoft.asc). Microsoft Teams поставляется ежемесячно, и если репозиторий был установлен правильно, ваш системный менеджер пакетов должен обрабатывать автоматическое обновление так же, как и другие пакеты в системе.
+- DEB `https://packages.microsoft.com/repos/ms-teams stable main`
+- RPM `https://packages.microsoft.com/yumrepos/ms-teams`
+
+Ключ подписи для автоматического обновления с помощью системного менеджера пакетов устанавливается автоматически. Однако его также можно найти по адресу: <https://packages.microsoft.com/keys/microsoft.asc>. Microsoft Teams поставляется ежемесячно, и если репозиторий был установлен правильно, ваш системный менеджер пакетов должен обрабатывать автоматическое обновление так же, как и другие пакеты в системе.
 
 > [!NOTE] 
-> Если вы нашли ошибку, отправьте ее, используя `Report a Problem` из клиента. Известные проблемы см. в [службе поддержки Teams в вашей организации.](/MicrosoftTeams/troubleshoot/teams-welcome)
+> Если вы нашли ошибку, отправьте ее, используя `Report a Problem` из клиента. Известные проблемы см. в статье [Поддержка Teams в организации](/MicrosoftTeams/troubleshoot/teams-welcome).
 > В Teams для Linux можно использовать канал поддержки форума [Linux в Microsoft Вопросы и ответы](/answers/topics/teams.html). При размещении вопросов используйте тег `teams-linux`. 
 
 #### <a name="install-teams-using-deb-package"></a>Установить команды, используя пакет DEB
 
-1. Скачайте пакет из https://aka.ms/getteams.
-2. Установите с помощью одного из следующих:  
+1. Скачайте пакет из <https://aka.ms/getteams>.
+2. Установите с помощью одного из следующих:
     - Откройте соответствующий инструмент управления пакетами и пройдите процедуру самостоятельной установки приложений Linux.
     - Или, если вы любите Терминал, введите: `sudo dpkg -i **teams download file**`
 
-Вы можете запустить Teams через Действия или через Терминал, набрав `teams`. 
+Вы можете запустить Teams через Действия или через Терминал, набрав `teams`.
 
 #### <a name="install-teams-using-rpm-package"></a>Установите Команды, используя пакет RPM
 
-1. Скачайте пакет из https://aka.ms/getteams.
+1. Скачайте пакет из <https://aka.ms/getteams>.
 2. Установите с помощью одного из следующих:
     - Откройте соответствующий инструмент управления пакетами и пройдите процедуру самостоятельной установки приложений Linux.
     - Или, если вы любите Терминал, введите: `sudo yum install **teams download file**`
@@ -145,9 +144,9 @@ ms.locfileid: "51112445"
 
 ```bash
 curl https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
- 
+
 sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/ms-teams stable main" > /etc/apt/sources.list.d/teams.list'
- 
+
 sudo apt update
 sudo apt install teams
 ```
@@ -156,9 +155,9 @@ sudo apt install teams
 
 ```bash
 sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
- 
+
 sudo sh -c 'echo -e "[teams]\nname=teams\nbaseurl=https://packages.microsoft.com/yumrepos/ms-teams\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/yum.repos.d/teams.repo'
- 
+
 sudo dnf check-update
 sudo dnf install teams
 ```
@@ -174,16 +173,16 @@ sudo yum install teams
 
 ```bash
 sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
- 
+
 sudo sh -c 'echo -e "[teams]\nname=teams\nbaseurl=https://packages.microsoft.com/yumrepos/ms-teams\nenabled=1\nautorefresh=1\nkeeppackages=0\ntype=rpm-md\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/zypp/repos.d/teams.repo'
- 
+
 sudo zypper refresh
 sudo zypper install teams
 ```
 
-## <a name="web-client"></a>Веб-клиент 
+## <a name="web-client"></a>Веб-клиент
 
-Веб-клиент ([https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)) представляет собой полнофункциональный клиент, который можно использовать в различных браузерах. Веб-клиент поддерживает звонки и собрания с помощью webRTC, поэтому не требуется подключаемый модуль или скачивание для запуска Teams в веб-браузере. В браузере должно быть разрешено использование сторонних файлов cookie. 
+Веб-клиент ([https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)) представляет собой полнофункциональный клиент, который можно использовать в различных браузерах. Веб-клиент поддерживает звонки и собрания с помощью webRTC, поэтому не требуется подключаемый модуль или скачивание для запуска Teams в веб-браузере. В браузере должно быть разрешено использование сторонних файлов cookie.
 
 [!INCLUDE [browser-support](includes/browser-support.md)]
 
@@ -191,26 +190,26 @@ sudo zypper install teams
 
 ## <a name="mobile-clients"></a>Мобильные клиенты
 
-Мобильные приложения Microsoft Teams доступны для Android и iOS и предназначены для пользователей, участвующих в беседах на основе чата и выполняющих одноранговые звонки во время поездок. Для мобильных приложений следует использовать соответствующий магазин: Google Play и Apple App Store. Приложение Windows Phone перестало поддерживаться 20 июля 2018 г. и может перестать работать. 
+Мобильные приложения Microsoft Teams доступны для Android и iOS и предназначены для пользователей, участвующих в беседах на основе чата и выполняющих одноранговые звонки во время поездок. Для мобильных приложений следует использовать соответствующий магазин: Google Play и Apple App Store. Приложение Windows Phone перестало поддерживаться 20 июля 2018 г. и может перестать работать.
 
-В Китае вот как [получить Teams для Android](get-teams-android-in-china.md). 
+В Китае вот как [получить Teams для Android](get-teams-android-in-china.md).
 
 Для мобильных приложений Microsoft Teams поддерживаются следующие мобильные платформы:
 
--   **Android**: поддержка ограничена последними четырьмя основными версиями Android. Когда выпущена новая основная версия Android, официально поддерживается новая версия и предыдущие три версии.
+- **Android**: поддержка ограничена последними четырьмя основными версиями Android. Когда выпущена новая основная версия Android, официально поддерживается новая версия и предыдущие три версии.
 
--   **iOS**: поддержка ограничена двумя последними основными версиями iOS. Когда выпущена новая основная версия iOS, официально поддерживается новая версия iOS и предыдущая версия.
+- **iOS**: поддержка ограничена двумя последними основными версиями iOS. Когда выпущена новая основная версия iOS, официально поддерживается новая версия iOS и предыдущая версия.
 
 > [!NOTE]
 > Мобильная версия должна быть общедоступной, чтобы приложение Teams работало правильно.
 
 Мобильные приложения распространяются и обновляются только через магазин приложений для соответствующей мобильной платформы. Распространение мобильных приложений через MDM и загрузка неопубликованных приложений не поддерживаются корпорацией Майкрософт. Как только мобильное приложение Teams будет установлено на поддерживаемой мобильной платформе, оно само будет поддерживаться, при условии что с момента выпуска текущей версии прошло не более трех месяцев.   
 
-
 | | | |
-|---------|---------|---------|
-|![Значок, изображающий точку принятия решения](media/Get_clients_for_Microsoft_Teams_image4.png)      |Точка принятия решений         |Существуют ли ограничения, мешающие пользователям установить на своих устройствах подходящий клиент Microsoft Teams?         |
-|![Значок, изображающий дальнейшие действия](media/Get_clients_for_Microsoft_Teams_image5.png)     |Дальнейшие действия         |Если ваша организация ограничивает установку программного обеспечения, убедитесь в совместимости данного механизма с Microsoft Teams. Примечание. Для установки клиента на Mac требуются права администратора, а на ПК — нет.         |
+|---|---|---|
+|![Значок, изображающий точку принятия решения](media/Get_clients_for_Microsoft_Teams_image4.png)|Точка принятия решений|Существуют ли ограничения, мешающие пользователям установить на своих устройствах подходящий клиент Microsoft Teams?|
+|![Значок, изображающий дальнейшие действия](media/Get_clients_for_Microsoft_Teams_image5.png)|Дальнейшие действия|Если ваша организация ограничивает установку программного обеспечения, убедитесь в совместимости данного механизма с Microsoft Teams. Примечание. Для установки клиента на Mac требуются права администратора, а на ПК — нет.|
+|
 
 ## <a name="client-update-management"></a>Управление обновлениями клиентов
 
@@ -226,9 +225,9 @@ sudo zypper install teams
 
 ![Снимок экрана с параметрами уведомлений.](media/Get_clients_for_Microsoft_Teams_image6.png)
 
-## <a name="sample-powershell-script---inbound-firewall-rule"></a>Пример сценария PowerShell — правило входящий брандмауэр
+## <a name="sample-powershell-script---inbound-firewall-rule"></a>Пример сценария PowerShell — правило входящего трафика брандмауэра
 
-Этот пример скрипта, который нужно запускать на клиентских компьютерах в контексте учетной записи администратора с повышенными правами, создает правило входящих подключений брандмауэра для каждой папки пользователя, находящейся в c:\users. Если Teams обнаруживает это правило, блокируется запрос для пользователей на создание правил брандмауэра, когда пользователи выполняют первый звонок из Teams. 
+Этот пример скрипта, который нужно запускать на клиентских компьютерах в контексте учетной записи администратора с повышенными правами, создает правило входящих подключений брандмауэра для каждой папки пользователя, находящейся в c:\users. Если Teams обнаруживает это правило, блокируется запрос для пользователей на создание правил брандмауэра, когда пользователи выполняют первый звонок из Teams.
 
 ```powershell
 <#
@@ -236,8 +235,8 @@ sudo zypper install teams
    Creates firewall rules for Teams.
 .DESCRIPTION
    (c) Microsoft Corporation 2018. All rights reserved. Script provided as-is without any warranty of any kind. Use it freely at your own risks.
-   Must be run with elevated permissions. Can be run as a GPO Computer Startup script, or as a Scheduled Task with elevated permissions. 
-   The script will create a new inbound firewall rule for each user folder found in c:\users. 
+   Must be run with elevated permissions. Can be run as a GPO Computer Startup script, or as a Scheduled Task with elevated permissions.
+   The script will create a new inbound firewall rule for each user folder found in c:\users.
    Requires PowerShell 3.0.
 #>
 
