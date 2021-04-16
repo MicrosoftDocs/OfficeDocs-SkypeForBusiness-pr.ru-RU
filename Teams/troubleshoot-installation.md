@@ -13,15 +13,15 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 search.appverid: MET150
 description: Узнайте, как устранять проблемы с установкой и обновлением клиентского приложения Teams для настольных компьютеров в Windows.
-ms.openlocfilehash: 283b1818789624428aa772a4d71360a07eed6f00
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
-ms.translationtype: MT
+ms.openlocfilehash: 6235bd6336940d7d36a7de526eaaf1fbb93f5323
+ms.sourcegitcommit: 616403037ddb2d44f06cd9b2eaa9da699b119ef8
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51097555"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "51768377"
 ---
 # <a name="troubleshoot-microsoft-teams-installation-and-update-issues-on-windows"></a>Устранение неполадок при установке и обновлении Microsoft Teams в Windows
 

@@ -1,10 +1,10 @@
 ### YamlMime:Hub
 title: Microsoft Teams Chalk Talks
-summary: Предназначенный для ИТ-специалистов и лиц, принимающих решения, Teams Chalk Talks предоставляет уникальную возможность изучить рекомендации и практические рекомендации по некоторым наиболее популярным и привлекательным сценариям в Teams.
+summary: 'Предназначенный для ИТ-специалистов и лиц, принимающих решения, Teams Chalk Talks предоставляет уникальную возможность изучить рекомендации и практические рекомендации по некоторым наиболее популярным и привлекательным сценариям в Teams.'
 brand: teams
 metadata:
   title: Microsoft Teams chalk talks
-  description: Предназначенный для ИТ-специалистов и лиц, принимающих решения, Teams Chalk Talks предоставляет уникальную возможность изучить рекомендации и практические рекомендации по некоторым наиболее популярным и привлекательным сценариям в Teams. В ходе интерактивных интерактивных семинаров, которые упростит реализацию Teams и упростит реализацию Teams для конечных пользователей, они упростит реализацию Teams. Щелкните название любого совещания ниже, чтобы увидеть доступные даты и время, а также зарегистрироваться сегодня!
+  description: 'Предназначенный для ИТ-специалистов и лиц, принимающих решения, Teams Chalk Talks предоставляет уникальную возможность изучить рекомендации и практические рекомендации по некоторым наиболее популярным и привлекательным сценариям в Teams. В ходе интерактивных интерактивных семинаров, которые упростит реализацию Teams и упростит реализацию Teams для конечных пользователей, они упростит реализацию Teams. Щелкните название любого совещания ниже, чтобы увидеть доступные даты и время, а также зарегистрироваться сегодня!'
   ms.service: msteams
   ms.topic: hub-page
   author: SerdarSoysal
@@ -14,51 +14,53 @@ metadata:
   ms.reviewer: nsuter
   audience: admin
   f1.keywords:
-  - NOCSH
+    - NOCSH
   localization_priority: Normal
-  ROBOTS: NOINDEX, NOFOLLOW
+  ROBOTS: 'NOINDEX, NOFOLLOW'
   ms.collection:
-  - Teams_ITAdmin_JourneyFromSfB
-  - M365-collaboration
+    - Teams_ITAdmin_JourneyFromSfB
+    - M365-collaboration
   ms.custom:
-  - seo-marvel-apr2020
+    - seo-marvel-apr2020
   search.appverid: MET150
   appliesto:
-  - Microsoft Teams
-  ms.openlocfilehash: 2cd84e6eeb43816d86424f2e63919efb750cdaa5
-  ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
-  ms.translationtype: MT
-  ms.contentlocale: ru-RU
-  ms.lasthandoff: 03/23/2021
-  ms.locfileid: "51102705"
+    - Microsoft Teams
 productDirectory:
-  summary: Щелкните название любого совещания, чтобы зарегистрировать его.
+  summary: 'Щелкните название любого совещания, чтобы зарегистрировать его.'
   items:
-  - title: Итак, вот так... вы хотите звонить в Teams?
-    imageSrc: https://docs.microsoft.com/office/media/icons/headset-teams.svg
-    summary: Присоединяйтесь к нам, чтобы получить более подробное изуминие при добавлении возможностей звонков по СТАНП в развертывание Teams. Вместе мы поимем термины для звонков, ключевые понятия и конфигурации.
-    url: https://microsoftteams.eventbuilder.com/ChalkTalksCalling
-  - title: Зарядка качества звука и видео в Teams
-    imageSrc: https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg
-    summary: Хотите обеспечить пользователям оптимальные возможности собраний и голосовой связи? Мы обсудим инструменты, отчеты и практические методики, которые помогут вам управлять качеством обслуживания — от разработки заблаговременной стратегии до устранения распространенных проблем.
-    url: https://microsoftteams.eventbuilder.com/ChalkTalksQuality
-  - title: Приложения в основах Teams
-    imageSrc: https://docs.microsoft.com/office/media/icons/cloud-devtest-teams.svg
-    summary: В этом базовом сеансе будут огося основные возможности, в том числе управление приложениями и безопасность. Узнайте, как интегрировать свои рабочий процессы, приложения для повышения производительности и службы, которые вы используете каждый день, в единый единый процесс.
-    url: https://microsoftteams.eventbuilder.com/ChalkTalksApps
-  - title: Работа с надстройными клавишами с приложениями в Teams
-    imageSrc: https://docs.microsoft.com/office/media/icons/layout-navigation-teams.svg
-    summary: Подключите свои системы, улучшите автоматизацию и улучшите возможности для пользователей, подключив приложения, на основе чего ваша организация использует Teams.
-    url: https://aka.ms/ChalkTalkKeyApps
+    - title: Зарядка качества звука и видео в Teams
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/health-teams.svg'
+      summary: 'Хотите обеспечить пользователям оптимальные возможности собраний и голосовой связи? Мы обсудим инструменты, отчеты и практические методики, которые помогут вам управлять качеством обслуживания — от разработки заблаговременной стратегии до устранения распространенных проблем.'
+      url: 'https://microsoftteams.eventbuilder.com/ChalkTalksQuality'
+    - title: 'Итак, вот так... вы хотите звонить в Teams?'
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/headset-teams.svg'
+      summary: 'Присоединяйтесь к нам, чтобы получить более подробное изуминие при добавлении возможностей звонков по СТАНП в развертывание Teams. Вместе мы поимем термины для звонков, ключевые понятия и конфигурации.'
+      url: 'https://microsoftteams.eventbuilder.com/ChalkTalksCalling'
+    - title: Energize your Live Events with Microsoft Teams
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/presenter-teams.svg'
+      summary: С помощью Microsoft Teams можно привлечь и привлечь аудиторию к активной аудитории с помощью крупных виртуальных мероприятий в Интернете. Изучите лучшие методики для успешного проведения мероприятия.
+      url: 'https://aka.ms/ChalkTalksVirtualEvents'
+    - title: Приложения в основах Teams
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/blocks-teams.svg'
+      summary: 'В этом базовом сеансе будут огося основные возможности, в том числе управление приложениями и безопасность. Узнайте, как интегрировать свои рабочий процессы, приложения для повышения производительности и службы, которые вы используете каждый день, в единый единый процесс.'
+      url: 'https://microsoftteams.eventbuilder.com/ChalkTalksApps'
+    - title: Работа с надстройными клавишами с приложениями в Teams
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/bandwidth-efficiency-teams.svg'
+      summary: 'Подключите свои системы, улучшите автоматизацию и улучшите возможности для пользователей, подключив приложения, на основе чего ваша организация использует Teams.'
+      url: 'https://aka.ms/ChalkTalkKeyApps'
+    - title: 'Расширение возможностей сотрудников, работающих с frontline, с помощью Teams'
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/devices-2-teams.svg'
+      summary: 'Ознакомьтесь с лучшими методиками планирования и внедрения оптимизированный процесс для продуктивной беседы, обмена информацией и управления расписаниями для сотрудников, работающих на переднем плане.'
+      url: 'https://aka.ms/TeamsFLW'
 additionalContent:
   sections:
-  - items:
-    - title: Все еще используете Skype для бизнеса?
-      summary: Ознакомьтесь с серии наших семинаров по обновлению.
-      url: upgrade-workshops-landing-page.yml
-    - title: Подготовка пользователей
-      summary: Подготовка пользователей с помощью Teams Live Training.
-      url: ./instructor-led-training-teams-landing-page.yml
-    - title: Используете Teams впервые?
-      summary: Подробнее о том, как начать работу с Teams.
-      url: ./teams-overview.md
+    - items:
+        - title: Все еще используете Skype для бизнеса?
+          summary: Ознакомьтесь с серии наших семинаров по обновлению.
+          url: upgrade-workshops-landing-page.yml
+        - title: Подготовка пользователей
+          summary: Подготовка пользователей с помощью Teams Live Training.
+          url: ./instructor-led-training-teams-landing-page.yml
+        - title: Используете Teams впервые?
+          summary: 'Подробнее о том, как начать работу с Teams.'
+          url: ./teams-overview.md
