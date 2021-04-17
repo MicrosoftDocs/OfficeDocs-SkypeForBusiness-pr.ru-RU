@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9688b700d900720aa9af1c0f68cadee99d7de858
-ms.sourcegitcommit: 2ce82f301f2d59da57f579a23038b2cab5e31360
+ms.openlocfilehash: b7262cc77310a9ea198a51af720e6e5117a72111
+ms.sourcegitcommit: 4e1f5d99c1d0612dc5b50f850280983867ff53d8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 04/16/2021
-ms.locfileid: "51858052"
+ms.locfileid: "51874475"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams для инфраструктуры виртуальных рабочих столов
 
@@ -395,7 +395,7 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOn -Identity "user email id"
 - Очередь вызовов
 - Общие системные звуковые файлы и звуковые файлы компьютера
 - Обход сервера-посредника для прямой маршрутизации
-- Увеличение общего содержимого
+- Управление масштабом 
 
 > [!NOTE]
 > Мы работаем над добавлением функций звонков и собраний, которые в настоящее время доступны только в средах без VDI. К ним относятся дополнительные возможности контроля качества, дополнительные сценарии общего доступа к экрану и расширенные функции, недавно добавленные в Teams. Обратитесь к представителю Teams, чтобы узнать больше о предстоящих функциями.
