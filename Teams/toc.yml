@@ -1470,14 +1470,6 @@ items:
     items:
       - name: Ограничения и спецификации для Teams
         href: limits-specifications-teams.md
-      - name: Переход с Kaizala на Microsoft Teams
-        items:
-          - name: Kaizala и Microsoft Teams
-            items:
-              - name: Ваш путь к Teams
-                href: prepare-for-teams.md
-                items:
-                  - name: Обзор возможностей Teams
       - name: Лицензирование
         items:
           - name: Управление доступом пользователей к Teams
