@@ -19,12 +19,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: ff6959319a55183f33c8998adc4a4a46c640bca4
-ms.sourcegitcommit: 616403037ddb2d44f06cd9b2eaa9da699b119ef8
+ms.openlocfilehash: 0bde5b2fac365369fea385a325cbd1d0d05cca07
+ms.sourcegitcommit: 8750f98d59e74e3835d762d510fb0e038c8f17eb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "51768388"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51899090"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Подготовка сети организации к использованию Microsoft Teams 
 
@@ -40,12 +40,11 @@ ms.locfileid: "51768388"
     |[IP-адреса](/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) |<strong>13.107.64.0/18</strong>, <strong>52.112.0.0/14</strong> и <strong>52.120.0.0/14</strong>         |
 
     > [!IMPORTANT]
-    > Если нужно настроить федерацию со Skype для бизнеса в локальной среде или через Интернет, потребуется настроить несколько дополнительных записей DNS.
+    > Если нужно настроить федерацию со Skype для бизнеса в локальной среде или через Интернет, потребуется настроить дополнительную запись DNS.
     >
-    >|Записи CNAME/имя узла  |TTL  |Указывает на адрес или значение  |
-    >|---------|---------|---------|
-    >|sip     |    3600     |    sipdir.online.lync.com     |
-    >|lyncdiscover     |   3600      |    webdir.online.lync.com     |
+    >|Запись DNS  |Служба  |Protocol (Протокол)  |Priority (Приоритет)  |Weight  (Вес)  |Port (Порт)  |Target (Назначение)  |
+    >|---------|---------|---------|---------|---------|---------|---------|
+    >|SRV     |sipfederationtls     |TCP     |100     |1     |5061     |sipfed.online.lync.com     |
     
 2.  У вас есть проверенный домен для Microsoft 365 или Office 365 (например, contoso.com)?
     
@@ -85,8 +84,8 @@ ms.locfileid: "51768388"
 <table>
 <thead>
 <tr class="header">
-<th><strong>Задача по оптимизации сети</strong></th>
-<th><strong>Сведения</strong></th>
+<th>Задача по оптимизации сети</th>
+<th>Сведения</th>
 </tr>
 </thead>
 <tbody>
