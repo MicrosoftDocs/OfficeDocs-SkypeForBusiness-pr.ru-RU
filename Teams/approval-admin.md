@@ -2,7 +2,7 @@
 title: Доступность приложения "Утверждения" в Teams
 author: cichur
 ms.author: v-cichur
-ms.reviewer: aravin
+ms.reviewer: farhazk
 manager: serdars
 ms.topic: article
 audience: admin
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4235232a9d74b4583ecaed19b68ff87de982085c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 1e03ad5c562f7fd31599bbb86f08e411dfa4b415
+ms.sourcegitcommit: fb87d64c6f98041a1da50cf4ef6ff54cdc8d1d29
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103015"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51902573"
 ---
 # <a name="teams-approvals-app-availability"></a>Доступность приложения "Утверждения" Teams
 
@@ -40,6 +40,9 @@ ms.locfileid: "51103015"
 
 В этой статье содержится информация о требованиях и ролях приложения "Утверждения".
 
+> [!NOTE]
+> Эта функция еще не выпущена для пользователей Government Community Cloud (GCC), Government Community Cloud High (GCCH) и Department of Defense (DOD).
+
 ## <a name="required-permissions-and-licenses"></a>Необходимые разрешения и лицензии
 
 Для использования приложения "Утверждения" вам необходимы перечисленные ниже разрешения.
@@ -54,7 +57,7 @@ ms.locfileid: "51103015"
 
 ## <a name="storage-with-cds"></a>Хранилище CDS
 
-Common Data Model (CDM) — это язык общих данных, используемый в приложениях для бизнеса и аналитики в CDS. Он состоит из набора стандартизованных расширяемых схем данных, публикуемых корпорацией Майкрософт и ее партнерами, и позволяет поддерживать согласованность данных и их значение во всех приложениях и бизнес-процессах. Подробнее о [языке Common Data Model Microsoft Power Platform](/power-automate/get-started-approvals).
+Common Data Model (CDM) — это язык общих данных, используемый в приложениях для бизнеса и аналитики в CDS. Он состоит из набора стандартизированных схем данных, опубликованных корпорацией Майкрософт и нашими партнерами, что обеспечивает согласованность данных и их значение в приложениях и бизнес-процессах. Подробнее о [языке Common Data Model Microsoft Power Platform](/power-automate/get-started-approvals).
 
 Подробнее о рабочем процессе [утверждений](/power-automate/modern-approvals).
 
