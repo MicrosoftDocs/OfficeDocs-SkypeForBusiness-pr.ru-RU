@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Узнайте, какие настольные и конференц-телефоны сертифицированы для Microsoft Teams для получения наилучших результатов.
-ms.openlocfilehash: 6b56485287c5375657995736eda31f0d50fcd446
-ms.sourcegitcommit: a731226d62d8b23fe73bd7bf61654e16367fbd90
+ms.openlocfilehash: b82e6e90b5be3f3a6a86dc598a4c0e0a91a58f52
+ms.sourcegitcommit: 900f28c4ac12d65ccbd996028205ba183b4afb03
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "51948655"
+ms.lasthandoff: 04/24/2021
+ms.locfileid: "51995167"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Сертифицированные устройства Microsoft Teams
 
@@ -162,6 +162,9 @@ ms.locfileid: "51948655"
 
 | Модель устройства  | Версия с программным пошивом | Включенный выпуск продукта |
 |:--------------|:-----------------|:-------------------------|
+| Poly Studio X30 | 3.3.2.286154          | Обновление за 2021 #1    |
+| Poly Studio X50 | 3.3.2.286154          | Обновление за 2021 #1    |
+| Poly TC8 | 3.3.2.286154                 | Обновление за 2021 #1    |
 | Yealink VC210 |118.15.0.47     | Обновление за 2021 #1    |
 | Панель собраний Yealink A20 | 133.15.0.54     | Обновление за 2021 #1    |
 | Панель собраний Yealink A30 | 133.15.0.54     | Обновление за 2021 #1    |
