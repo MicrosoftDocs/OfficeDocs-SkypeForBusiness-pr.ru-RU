@@ -187,6 +187,8 @@ items:
         href: continue-journey.md
       - name: Прекращение поддержки Skype для бизнеса Online
         href: skype-for-business-online-retirement.md
+      - name: Помощь при переходе со Skype для бизнеса Online
+        href: upgrade-assisted.md
       - name: Вопросы и ответы
         href: FAQ-journey.yml
       - name: Справка
@@ -995,7 +997,7 @@ items:
             href: manage-your-network-topology.md
       - name: Экстренные вызовы
         items:
-          - name: Обзор
+          - name: Общие сведения
             href: what-are-emergency-locations-addresses-and-call-routing.md
           - name: Настройка динамических экстренных вызовов
             href: configure-dynamic-emergency-calling.md
@@ -1071,7 +1073,7 @@ items:
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md
           - name: Ограничения и запреты для бесплатных номеров
             items:
-              - name: Обзор
+              - name: Общие сведения
                 href: toll-free-dialing-limitations-and-restrictions.md
               - name: Аргентина
                 href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-argentina.md
@@ -1422,8 +1424,6 @@ items:
       - name: Teams для розничной торговли
         href: expand-teams-across-your-org/teams-for-retail-landing-page.md
         items:
-          - name: Начало работы в консоли администратора с шаблонами Teams для розничной торговли
-            href: retail-teams-templates-in-the-admin-console.md
           - name: Начало работы с шаблонами Teams для розничной торговли
             href: get-started-with-retail-teams-templates.md
       - name: Teams для государственных организаций
