@@ -13,7 +13,7 @@
         - name: Обновления Server
           href: ../sfb-server-updates.md
     - name: Решения Майкрософт для телефонии
-      href: ../../sfbhybrid/hybrid/msft-telephony-solutions.md
+      href: /MicrosoftTeams/cloud-voice-landing-page.md
       items:
         - name: Планирование телефонной системы с соединением по локальной ТСОП в Skype для бизнеса Server
           href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity.md
