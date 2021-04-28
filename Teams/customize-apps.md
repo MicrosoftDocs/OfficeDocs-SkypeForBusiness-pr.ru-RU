@@ -3,7 +3,7 @@ title: Настройка приложений Майкрософт в Teams
 author: cichur
 ms.author: v-cichur
 manager: serdars
-ms.reviewer: vaagarw
+ms.reviewer: v-tbasra
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -18,17 +18,14 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Узнайте, как настроить приложения в Microsoft Teams.
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 0f61cd0d56c1c050508e9a716ba9846d99d422ad
-ms.sourcegitcommit: 5a39061c2156531f4b7f5f69eecf81a8c8b238d0
+ms.openlocfilehash: 100a01c541c79ab62f10f3e11f086cdef5a11996
+ms.sourcegitcommit: 1ee9b1857f472a5b95352f7471c0cf21be6ea0c3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 04/27/2021
-ms.locfileid: "52030145"
+ms.locfileid: "52059183"
 ---
 # <a name="customize-apps-in-microsoft-teams"></a>Настройка приложений в Microsoft Teams
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
  Microsoft Teams позволяет настраивать приложения для улучшения работы Teams. Некоторые разработчики приложений позволяют администратору Teams настраивать приложение. Администратор может изменить или изменить свойства приложения в зависимости от потребностей организации на странице Управление приложениями в Центре администрирования **Teams.** Вы можете настроить такие сведения:
 

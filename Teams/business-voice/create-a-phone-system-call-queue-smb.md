@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
 description: Узнайте, как настроить очереди вызовов с помощью Microsoft 365 Business Voice.
-ms.openlocfilehash: ded780f0793a503e4f4089c7a201e659008e9eb7
-ms.sourcegitcommit: 5a39061c2156531f4b7f5f69eecf81a8c8b238d0
+ms.openlocfilehash: c7533227796fb9ae9357590993a9065dc01d5030
+ms.sourcegitcommit: 03ff569a0b7a8e04d7b0ab32f370a9a537fa7fe7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "52030129"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "52064825"
 ---
 # <a name="create-a-call-queue---small-business-tutorial"></a>Создание очереди вызовов — учебник по малому бизнесу
 
@@ -42,6 +42,12 @@ ms.locfileid: "52030129"
 - Маршрутия вызовов — в порядке first *In, First Out* (FIFO) — агентам.
 
 - Параметры обработки для переполнения и времени ожидания в очереди.
+
+#### <a name="video-demonstration"></a>Демонстрация видео
+
+В этом видео показано, как создать очередь вызовов в Teams.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWCF23?autoplay=false]
 
 #### <a name="before-you-begin"></a>Подготовка к работе
 

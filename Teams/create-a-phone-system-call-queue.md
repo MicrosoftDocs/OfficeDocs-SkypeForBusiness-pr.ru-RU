@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Узнайте, как настроить телефонную систему для очередей звонков в Microsoft Teams, которая предоставляет приветствие, музыку, перенаправление звонков и другие функции.
-ms.openlocfilehash: f60714bc1c4868496209f414583c925da527460a
-ms.sourcegitcommit: 900f28c4ac12d65ccbd996028205ba183b4afb03
+ms.openlocfilehash: 8b4fe4283ac9734c1dc29bf33759039098578744
+ms.sourcegitcommit: 03ff569a0b7a8e04d7b0ab32f370a9a537fa7fe7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/24/2021
-ms.locfileid: "51995287"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "52064805"
 ---
 # <a name="create-a-call-queue"></a>Создание очереди вызовов
 
@@ -48,6 +48,12 @@ ms.locfileid: "51995287"
 Прежде чем выполнять действия, которые вы выполните в [](plan-auto-attendant-call-queue.md#getting-started) этой статье, ознакомьтесь со статьей Планирование автоотводников и очередей вызовов [Teams](plan-auto-attendant-call-queue.md) и следуйте этим шагам.
 
 Чтобы настроить очередь вызовов, в Центре администрирования Teams разйдите в центр администрирования Teams кнопку **Голосовая** почта, выберите очереди зовов **и** нажмите кнопку **Добавить**.
+
+## <a name="video-demonstration"></a>Демонстрация видео
+
+В этом видео показан простой пример создания очереди вызовов в Teams.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWCF23?autoplay=false]
 
 ## <a name="resource-account-and-language"></a>Учетная запись ресурса и язык
 

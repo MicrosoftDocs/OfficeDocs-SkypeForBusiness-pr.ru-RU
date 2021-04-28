@@ -20,12 +20,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 021a4c0b-d5de-4155-a506-650d758624aa
 description: Узнайте о соображениях планирования телефонной системы (Cloud PBX) с локальной подключением PSTN.
-ms.openlocfilehash: e0caed5560e7b7609adbfccf79e4ef63ee4eae09
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: afa97a00b474017e6aed5e92802e7ba13483f7af
+ms.sourcegitcommit: 03ff569a0b7a8e04d7b0ab32f370a9a537fa7fe7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51110545"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "52064705"
 ---
 # <a name="plan-phone-system-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>Планирование телефонной системы с соединением по локальной ТСОП в Skype для бизнеса Server
 
@@ -34,7 +34,7 @@ ms.locfileid: "51110545"
 
 Узнайте о соображениях планирования телефонной системы (Cloud PBX) с локальной подключением PSTN.
 
-Этот контент актуален, если на локальном сервере уже развернуты Skype для бизнеса Server или Lync Server 2013. В других сценариях см. [решения для телефонии Майкрософт.](../../../SfbHybrid/hybrid/msft-telephony-solutions.md)
+Этот контент актуален, если на локальном сервере уже развернуты Skype для бизнеса Server или Lync Server 2013. В других сценариях см. [решения для телефонии Майкрософт.](/microsoftteams/cloud-voice-landing-page)
 
  Телефонная система с локальной подключением PSTN позволяет использовать возможности Phone System (Cloud PBX) для пользователей. Это может помочь в следующих сценариях:
 
