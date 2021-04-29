@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Узнайте, какие настольные и конференц-телефоны сертифицированы для Microsoft Teams для получения наилучших результатов.
-ms.openlocfilehash: b82e6e90b5be3f3a6a86dc598a4c0e0a91a58f52
-ms.sourcegitcommit: 900f28c4ac12d65ccbd996028205ba183b4afb03
+ms.openlocfilehash: dec58efccef8b247ebf970c4196fd38d87dc1437
+ms.sourcegitcommit: 347246d725b3058e4c5e770513c0c386bfb586bc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/24/2021
-ms.locfileid: "51995167"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "52077379"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Сертифицированные устройства Microsoft Teams
 
@@ -44,7 +44,8 @@ ms.locfileid: "51995167"
 
 |Модель устройства                         | Версия с программным пошивом                                                                                                                                                                                                                           | Дата выпуска
 |:---------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------|
-| AudioCodes C435HD                      | 1.12.33                                                  | Апрель 2021 г.                 |
+| Yealink MP52                           | 145.15.0.6                                               |   Апрель 2021 г.                 |
+| AudioCodes C435HD                      | 1.12.33                                                  | Апрель 2021 г.                   |
 | AudioCodes C470HD                      | 1.8.293                                                  | Январь 2021 г.                 |
 | AudioCodes C450HD                      | C450HD_TEAMS_0.225                                       | Март 2019 г.                   |
 | AudioCodes C448HD (только в режиме CAP)      | C450HD_TEAMS_0.225                                       | Март 2019 г.                   |
