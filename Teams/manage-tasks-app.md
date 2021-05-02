@@ -21,7 +21,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 1688d4791c3d20ef28e9ff2a44349c87293acea3
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51101155"
@@ -121,7 +121,7 @@ Contoso выполняет развертывание новой акции по
 
 ## <a name="power-automate-and-graph-api"></a>Power Automate и API Graph
 
-Задачи поддерживают Power Automate для To-Do и API Graph для Планировщика. Дополнительные сведения см. в статьях
+Задачи поддерживают Power Automate для To-Do и API Graph для Планировщика. Дополнительные сведения:
 
 - [Обзор API планов и задач Планировщика](/graph/planner-concept-overview)
 - [Использование Microsoft To-Do с Power Automate](https://support.office.com/article/using-microsoft-to-do-with-power-automate-526e8f75-217b-46e0-9e06-44780b72c295)
