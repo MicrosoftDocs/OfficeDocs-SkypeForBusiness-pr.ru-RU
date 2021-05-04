@@ -1,87 +1,81 @@
 ### YamlMime:Hub
-title: Документация по Microsoft 365 Business Voice
-summary: Узнайте, как спланировать, настроить и использовать корпоративную голосовую связь Microsoft 365 в организации. Корпоративная голосовая связь позволяет небольшим и средним организациям легко настроить эффективную и гибкую телефонную систему, не увеличивая затраты и сложность, как при собственных решениях.
+title: Голосовая связь Microsoft 365 бизнес документации
+summary: 'Узнайте, как спланировать, настроить и использовать корпоративную голосовую связь Microsoft 365 в организации. Корпоративная голосовая связь позволяет небольшим и средним организациям легко настроить эффективную и гибкую телефонную систему, не увеличивая затраты и сложность, как при собственных решениях.'
 metadata:
-  title: Документация по Microsoft 365 Business Voice
-  description: Узнайте, как планировать, разворачивать и использовать корпоративную голосовую связь Microsoft 365.
+  title: Голосовая связь Microsoft 365 бизнес документации
+  description: 'Узнайте, как планировать, разворачивать и использовать корпоративную голосовую связь Microsoft 365.'
   ms.topic: hub-page
   author: dstrome
   ms.author: dstrome
   ms.date: 06/17/2020
-  ms.openlocfilehash: 6cf78bac0d7fafee768641120116f8397b8566c8
-  ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
-  ms.translationtype: MT
-  ms.contentlocale: ru-RU
-  ms.lasthandoff: 03/23/2021
-  ms.locfileid: "51102955"
 productDirectory:
   items:
-  - title: Обзор
-    imageSrc: https://docs.microsoft.com/office/media/icons/blocks-blue.svg
-    links:
-    - url: whats-business-voice.md
-      text: Что такое корпоративная голосовая связь
-    - url: https://www.microsoft.com/microsoft-365/business-voice
-      text: Корпоративная голосовая связь Microsoft 365
-    - url: /office365/servicedescriptions/microsoft-365-business-voice-service-description
-      text: Описание служб
-  - title: Настройка
-    imageSrc: https://docs.microsoft.com/office/media/icons/deploy-blue.svg
-    links:
-    - url: ./what-to-buy.md
-      text: Как получить корпоративную голосовую связь
-    - url: get-ready-internet.md
-      text: Проверка подключения к Интернету
-    - url: prepare-users.md
-      text: Подготовка пользователей
-    - url: use-getting-started-wizard.md
-      text: Запуск мастера начальной настройки
-  - title: Настройка установки
-    imageSrc: https://docs.microsoft.com/office/media/icons/migration-blue.svg
-    links:
-    - url: port-phone-numbers.md
-      text: Перенос существующих телефонных номеров
-    - url: ./create-a-phone-system-auto-attendant-smb.md
-      text: Настройка автосекретарей
-    - url: set-up-policies.md
-      text: Настройка политик
-    - url: ./create-a-phone-system-call-queue-smb.md
-      text: Настройка очередей звонков
-  - title: Использование
-    imageSrc: https://docs.microsoft.com/office/media/icons/get-started-blue.svg
-    links:
-    - url: create-users.md
-      text: Создание дополнительных пользователей
-    - url: manage-devices.md
-      text: Управление устройствами
-    - url: monitor-quality.md
-      text: Отслеживание качества звонка
-    - url: analytics-dashboard.md
-      text: Панель мониторинга качества аналитики звонков
-  - title: Ресурсы для партнеров
-    imageSrc: https://docs.microsoft.com/office/media/icons/success-blue.svg
-    links:
-    - url: /partner-center/
-      text: Получение Microsoft 365 бизнес в Центре партнеров
-    - url: https://www.microsoft.com/microsoft-365/partners/businessvoice
-      text: Корпоративная голосовая связь Microsoft 365 для партнеров
-    - url: partner-resources.md
-      text: Ресурсы поддержки партнеров для корпоративной голосовой связи Microsoft 365
-  - title: Нужна помощь?
-    imageSrc: https://docs.microsoft.com/office/media/icons/users-people.svg
-    links:
-    - url: https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b
-      text: Обращение в службу поддержки Microsoft 365 или Office 365
-    - url: https://techcommunity.microsoft.com/t5/Small-and-Medium-Businesses/ct-p/SMB
-      text: Техническое сообщество для малого и среднего бизнеса
-  - title: Справочная документация
-    imageSrc: https://docs.microsoft.com/office/media/icons/chat.svg
-    links:
-    - url: ../cloud-voice-landing-page.md
-      text: Документы для администраторов Microsoft Teams
-    - url: https://microsoftteams.uservoice.com/
-      text: Отзывы на сайте UserVoice для Microsoft Teams
-    - url: https://support.office.com/teams
-      text: Документы по клиентам Microsoft Teams
-    - url: /office365/admin/
-      text: Документы для администратора Microsoft 365 и Office 365
+    - title: Обзор
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/blocks-blue.svg'
+      links:
+        - url: whats-business-voice.md
+          text: Что такое корпоративная голосовая связь
+        - url: 'https://www.microsoft.com/microsoft-365/business-voice'
+          text: Корпоративная голосовая связь Microsoft 365
+        - url: /office365/servicedescriptions/microsoft-365-business-voice-service-description
+          text: Описание служб
+    - title: Настройка
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/deploy-blue.svg'
+      links:
+        - url: ./what-to-buy.md
+          text: Как получить корпоративную голосовую связь
+        - url: get-ready-internet.md
+          text: Проверка подключения к Интернету
+        - url: prepare-users.md
+          text: Подготовка пользователей
+        - url: set-up-overview.md
+          text: Настройка голосовой почты для бизнеса
+    - title: Настройка установки
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/migration-blue.svg'
+      links:
+        - url: port-phone-numbers.md
+          text: Перенос существующих телефонных номеров
+        - url: ./create-a-phone-system-auto-attendant-smb.md
+          text: Настройка автосекретарей
+        - url: set-up-policies.md
+          text: Настройка политик
+        - url: ./create-a-phone-system-call-queue-smb.md
+          text: Настройка очередей звонков
+    - title: Использование
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/get-started-blue.svg'
+      links:
+        - url: create-users.md
+          text: Создание дополнительных пользователей
+        - url: manage-devices.md
+          text: Управление устройствами
+        - url: monitor-quality.md
+          text: Отслеживание качества звонка
+        - url: analytics-dashboard.md
+          text: Панель мониторинга качества аналитики звонков
+    - title: Ресурсы для партнеров
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/success-blue.svg'
+      links:
+        - url: /partner-center/
+          text: Получение Microsoft 365 бизнес в Центре партнеров
+        - url: 'https://www.microsoft.com/microsoft-365/partners/businessvoice'
+          text: Корпоративная голосовая связь Microsoft 365 для партнеров
+        - url: partner-resources.md
+          text: Ресурсы поддержки партнеров для корпоративной голосовой связи Microsoft 365
+    - title: Нужна помощь?
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/users-people.svg'
+      links:
+        - url: 'https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b'
+          text: Обращение в службу поддержки Microsoft 365 или Office 365
+        - url: 'https://techcommunity.microsoft.com/t5/Small-and-Medium-Businesses/ct-p/SMB'
+          text: Техническое сообщество для малого и среднего бизнеса
+    - title: Справочная документация
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/chat.svg'
+      links:
+        - url: ../cloud-voice-landing-page.md
+          text: Документы для администраторов Microsoft Teams
+        - url: 'https://microsoftteams.uservoice.com/'
+          text: Отзывы на сайте UserVoice для Microsoft Teams
+        - url: 'https://support.office.com/teams'
+          text: Документы по клиентам Microsoft Teams
+        - url: /office365/admin/
+          text: Документы для администратора Microsoft 365 и Office 365

@@ -19,12 +19,12 @@ appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
 description: В этой статье описываются функции Microsoft Teams, доступные для гостей.
-ms.openlocfilehash: 8eda5d3cabf497d105c0fd4a4610ba59db128bfc
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: e0efaaf036816980f5e104efebda253411827258
+ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092087"
+ms.lasthandoff: 05/03/2021
+ms.locfileid: "52129728"
 ---
 # <a name="guest-experience-in-teams"></a>Возможности гостя в Teams
 
@@ -52,7 +52,7 @@ ms.locfileid: "51092087"
 |Публикация, удаление и изменение сообщений  <br/> |&#x2713;|&#x2713;|
 |Общий доступ к файлу на канале  <br/> |&#x2713;|&#x2713;|
 |Доступ к файлам SharePoint<br/> |&#x2713;|&#x2713;|
-|Вложение файлов<br/> |&#x2713;|Только чаты команды|
+|Вложение файлов<br/> |&#x2713;|Только записи каналов|
 |Скачать файлы закрытого чата<br/> |&#x2713;|&#x2713;|
 |Поиск в файлах<br/> |&#x2713;||
 |Поделиться файлом в чате  <br/> |&#x2713;||

@@ -24,23 +24,23 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Вот службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Румынии.
-ms.openlocfilehash: 6ded589276ca8132090b5bda9a8d8425cd34e7d4
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Вот службы для Skype для бизнеса и Microsoft Teams для Румынии.
+ms.openlocfilehash: c094a08cd748adac8cd07b406cce3e43cf4ae17c
+ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098495"
+ms.lasthandoff: 05/03/2021
+ms.locfileid: "52130178"
 ---
 # <a name="availability-in-romania"></a>Доступность в Румынии
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Вот службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Румынии.
+Ниже ы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Румынии.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 
-|**Функция**|**Details**|
+|**Функция**|**Сведения**|
 |:-----|:-----|
 |Доступно ли приобретение аудиоконференций?  <br/> |Да  <br/> |
 |Назначаются ли номера телефонов для аудиоконференций автоматически?  <br/> |Номера телефонов не связаны с конкретным городом или местоположением. Если вам нужны выделенные номера телефонов, см. статью [Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](../getting-service-phone-numbers.md).  <br/> |
@@ -48,26 +48,25 @@ ms.locfileid: "51098495"
    
 ## <a name="phone-system"></a>Телефонная система
 
-|**Функция**|**Details**|
+|**Функция**|**Сведения**|
 |:-----|:-----|
 |Доступно ли приобретение телефонной системы?  <br/> |Да  <br/> |
 | Автосекретари <br/> |Доступно  <br/> |
 |Очередь звонков  <br/> |Доступно  <br/> |
 |Голосовая почта  <br/> |Доступно  <br/> |
-   
+
 ## <a name="calling-plans"></a>Планы звонков
 
-|**Функция**|**Details**|
+|**Функция**|**Сведения**|
 |:-----|:-----|
-|Доступно ли приобретение планов звонков?  <br/> |Нет  <br/> |
-|Доступные минуты для планов звонков  <br/> |Неприменимо  <br/> |
-|Кому можно делать исходящие звонки?  <br/> |Неприменимо  <br/> |
-
-Если тарифные планы недоступны для покупки, рассмотрите возможность использования [прямой телефонной системы](../direct-routing-landing-page.md). Благодаря прямой маршрутизации вы можете использовать телефонную систему практически с любым оператором телефонной связи.
+|Доступно ли приобретение планов звонков?  <br/> |Да  <br/> |
+|Минуты, доступные для планов звонков. |В календарный месяц доступны четыре варианта плана: <ul><li>План внутренних звонков на 120 минут </li><li>План внутренних звонков на 240 минут</li></li><li>План внутренних звонков на 1200 минут </li></li><li>План внутренних и международных звонков: 1200 минут внутренних или 600 минут международных звонков (в зависимости от того, какое количество звонков достигается первым в календарном месяце)</li></li></ul>Поддержка доступности Microsoft Teams [Prezentare general. accesibilitate a Microsoft Teams - Asistenгла Office](https://support.microsoft.com/ro-ro/office/prezentare-general%C4%83-accesibilitate-a-microsoft-teams-2d4009e7-1300-4766-87e8-7a217496c3d5?ui=ro-RO&rs=ro-RO&ad=RO)<br>[MicrosoftOnlineServicesTerms(WW)(Румынский)(февраль 2021 г.)](https://www.microsoft.com/licensing/terms/productoffering/AudioServices/EAEAS#GeneralServiceTerms)|
+|Могут ли исходящие звонки на номера премиум-класса?  <br/> | В настоящее время поддержка не поддерживается. <br/> |
+|Кому можно делать исходящие звонки?  <br/> | В 196 стран мира, в том числе [следующие](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Платные и бесплатные номера служб
 
-|**Функция**|**Details**|
+|**Функция**|**Сведения**|
 |:-----|:-----|
 |Для каких столиц или крупных городов можно получить платные номера?  <br/> | Номера телефонов не связаны с конкретным городом или местоположением. <br/> |
 |Доступны ли платные номера?  <br/> |Да  <br/> |
@@ -77,7 +76,7 @@ ms.locfileid: "51098495"
   
 ## <a name="communications-credits"></a>Кредиты на связь
 
-|**Функция**|**Details**|
+|**Функция**|**Сведения**|
 |:-----|:-----|
 |Доступны ли кредиты на связь?  <br/> |Да  <br/> |
    
