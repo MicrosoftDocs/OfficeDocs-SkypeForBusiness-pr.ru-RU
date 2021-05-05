@@ -1045,20 +1045,40 @@ items:
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-belgium.md
               - name: Управление номерами телефонов в Канаде
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-canada.md
+              - name: Управление номерами телефонов в Чехии
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-czech-republic.md
               - name: Управление номерами телефонов в Дании
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-denmark.md
+              - name: Управление номерами телефонов в Финляндии
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-finland.md
               - name: Управление номерами телефонов во Франции
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-france.md
               - name: Управление номерами телефонов в Германии
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-germany.md
+              - name: Управление номерами телефонов в Венгрии
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-hungary.md
               - name: Управление номерами телефонов в Ирландии
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-ireland.md
               - name: Управление номерами телефонов в Италии
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-italy.md
               - name: Управление номерами телефонов в Японии
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-japan.md
+              - name: Управление номерами телефонов в Люксембурге
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-luxembourg.md
+              - name: Управление номерами телефонов в Новой Зеландии
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-new-zealand.md
+              - name: Управление номерами телефонов в Норвегии
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-norway.md
+              - name: Управление номерами телефонов в Польше
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-poland.md
               - name: Управление номерами телефонов в Португалии
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-portugal.md
+              - name: Управление номерами телефонов в Румынии
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-romania.md
+              - name: Управление номерами телефонов в Сингапуре
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-singapore.md
+              - name: Управление номерами телефонов в Словакии
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-slovakia.md
               - name: Управление номерами телефонов в Испании
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-spain.md
               - name: Управление номерами телефонов в Нидерландах
@@ -1231,8 +1251,24 @@ items:
             href: business-voice/get-ready-internet.md
           - name: Подготовка пользователей
             href: business-voice/prepare-users.md
-      - name: Запуск мастера начальной настройки
-        href: business-voice/use-getting-started-wizard.md
+      - name: Настройка голосовой связи для бизнеса
+        items:
+          - name: Обзор
+            href: business-voice/set-up-overview.md
+          - name: Шаг 1. Настройка местоположений для экстренного реагирования
+            href: business-voice/set-up-emergency-locations.md
+          - name: Шаг 2. Настройка номеров телефонов
+            href: business-voice/set-up-phone-numbers.md
+          - name: "Шаг\_3. Назначение лицензий"
+            href: business-voice/set-up-licenses.md
+          - name: Шаг 4. Настройка учетной записи ресурса
+            href: business-voice/set-up-resource-account.md
+          - name: Шаг 5. Назначение номеров телефонов пользователям
+            href: business-voice/set-up-assign-numbers.md
+          - name: Шаг 6. Настройка автосекретаря
+            href: business-voice/set-up-auto-attendant.md
+          - name: Ресурсы после настройки
+            href: business-voice/set-up-finish.md
       - name: Настройка установки
         items:
           - name: Параметры настройки
@@ -1387,6 +1423,8 @@ items:
             href: edu-remote-low-bandwidth.md
           - name: Мастер политики Teams для образования
             href: easy-policy-setup-edu.md
+          - name: Приложение "Профконсультант" в Teams для образования
+            href: career-coach.md
           - name: Контроль чатов в Teams
             href: supervise-chats-edu.md
           - name: Аналитика образования
