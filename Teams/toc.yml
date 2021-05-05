@@ -997,7 +997,7 @@ items:
             href: manage-your-network-topology.md
       - name: Экстренные вызовы
         items:
-          - name: Общие сведения
+          - name: Обзор
             href: what-are-emergency-locations-addresses-and-call-routing.md
           - name: Настройка динамических экстренных вызовов
             href: configure-dynamic-emergency-calling.md
@@ -1073,7 +1073,7 @@ items:
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md
           - name: Ограничения и запреты для бесплатных номеров
             items:
-              - name: Общие сведения
+              - name: Обзор
                 href: toll-free-dialing-limitations-and-restrictions.md
               - name: Аргентина
                 href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-argentina.md
@@ -1395,6 +1395,8 @@ items:
                 href: class-insights.md
               - name: Синхронизация данных SIS с помощью Аналитики
                 href: education-insights-sis-data-sync.md
+              - name: Начало работы с Reflect
+                href: reflect.md
           - name: Задания в Teams для образования
             href: expand-teams-across-your-org/assignments-in-teams.md
           - name: Ресурсы Teams для образования (администраторы)
