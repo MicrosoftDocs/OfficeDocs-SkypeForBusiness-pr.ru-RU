@@ -20,97 +20,99 @@ ms.collection:
 - SPO_Content
 ms.custom: ''
 ms.assetid: 5d456d6c-ad71-420c-b6d8-4d9cd0324f86
-description: Сводка. Сведения о интеграции Skype для бизнеса Server 2015 с Exchange и SharePoint.
-ms.openlocfilehash: 01ebbdd94098fa9f7785f41fedbcbdfe7589f03e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Сводка. Сведения об интеграции Skype для бизнеса Server 2015 г. с Exchange и SharePoint.
+ms.openlocfilehash: f8d57924d3a82effbc552de660b973aa36e7b8fe
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092837"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52236995"
 ---
 # <a name="integration-with-exchange-and-sharepoint"></a>Интеграция с Exchange и SharePoint
 
-**Сводка:** Узнайте об интеграции Skype для бизнеса Server 2015 с Exchange и SharePoint.
+**Сводка:** Узнайте о Skype для бизнеса Server 2015 г. с Exchange и SharePoint.
 
-Вы можете настроить развертывания Skype для бизнеса Server 2015 для интеграции с Microsoft Exchange Server 2016, Microsoft Exchange Server 2013, Microsoft Exchange Server 2010 и SharePoint Server, как локально, так и онлайн. Функции, перечисленные в следующей таблице, поддерживаются всеми клиентами, если не указано иное. Дополнительные сведения о поддержке клиентов см. в таблице сравнения клиентских функций [настольных](../plan-your-deployment/clients-and-devices/desktop-feature-comparison.md) компьютеров для skype для бизнеса и таблицы сравнения клиентов Skype для бизнеса в Интернете для [клиентов Skype для бизнеса Online.](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-features)
+Можно настроить развертывание Skype для бизнеса Server 2015 г. для интеграции с Microsoft Exchange Server 2016 г., Microsoft Exchange Server 2013 г., Microsoft Exchange Server 2010 г. и SharePoint Server, как на локальном, так и на сайте. Функции, перечисленные в следующей таблице, поддерживаются всеми клиентами, если не указано иное. Дополнительные сведения о поддержке [](../plan-your-deployment/clients-and-devices/desktop-feature-comparison.md) клиентов см. в Skype для бизнеса и Skype для бизнеса онлайн-таблицы сравнения клиентов в Клиенты для [Skype для бизнеса Online.](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-features)
+
+[!INCLUDE [sfbo-retirement-skype](../../Hub/includes/sfbo-retirement.md)]
 
 ## <a name="integration-with-exchange-server"></a>Интеграция с Exchange Server
 
 В следующих таблицах представлены функции, поддерживаемые в гибридном развертывании при интеграции с Microsoft Exchange Server.
 
- **Skype для бизнеса Server в помещениях и Exchange в помещениях**
+ **Skype для бизнеса Server помещений и Exchange помещениях**
 
 
 |**Функция**|**Примечания**|
 |:-----|:-----|
-|IM/Presence in Outlook  <br/> |Дополнительные сведения см. в [чате и присутствии.](/previous-versions/office/lync-server-2013/lync-server-2013-im-and-presence)  <br/> |
-|Расписание и участие в онлайн-собрании через Outlook  <br/> |Дополнительные сведения см. в [ссылке Интеграция Skype для бизнеса Server 2015 с Exchange Server](../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md).  <br/> |
-|IM/Presence in Outlook Web App  <br/> |Дополнительные сведения см. в [руб. Настройка гибридной среды в Skype для бизнеса Server 2015.](../manage/authentication/configure-a-hybrid-environment.md)  <br/> |
+|Im/Presence in Outlook  <br/> |Дополнительные сведения см. в [чате и присутствии.](/previous-versions/office/lync-server-2013/lync-server-2013-im-and-presence)  <br/> |
+|Запланировать и присоединиться к собранию через Outlook  <br/> |Дополнительные сведения см. в [Skype для бизнеса Server 2015 Exchange Server](../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md).  <br/> |
+|Im/Presence в Outlook Web App  <br/> |Дополнительные сведения см. в [рубке Настройка гибридной среды в Skype для бизнеса Server 2015 г.](../manage/authentication/configure-a-hybrid-environment.md)  <br/> |
 |Запланировать и присоединиться к собранию через Outlook Web App  <br/> ||
 |Im/Presence в мобильных клиентах  <br/> ||
 |Регистрация онлайн-собраний в мобильных клиентах  <br/> |Дополнительные сведения см. в [дополнительных сведениях о развертывании мобильности.](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-mobility)  <br/> |
-|Публикация состояния на основе сведений о свободном/загруженном календаре Outlook  <br/> ||
-|Список контактов (через Единый магазин контактов)  <br/> |Требуется Exchange 2016 или Exchange 2013.  <br/> Требуется клиент настольного компьютера Lync 2013 или Skype для бизнеса.  <br/>  Дополнительные сведения см. в [дополнительных сведениях: Настройка Skype для бизнеса Server 2015 для использования единого магазина контактов.](../deploy/integrate-with-exchange-server/use-the-unified-contact-store.md)  <br/> |
-|Контактная фотография с высоким разрешением в клиенте Lync 2013, клиенте Skype для бизнеса и веб-приложении Lync.  <br/> |Требуется Exchange 2016 или Exchange 2013.  <br/> Дополнительные сведения см. в дополнительных сведениях о настройке использования фотографий с высоким разрешением в [Skype для бизнеса Server 2015.](../deploy/integrate-with-exchange-server/high-resolution-photos.md)  <br/> Для фотографий в приложении Skype для бизнеса для MAC и Mobile необходимо настроить интеграцию между Skype для бизнеса Server 2015 и Exchange Server, как описано в [настройках](../deploy/integrate-with-exchange-server/configure-partner-applications.md)партнерских приложений в Skype для бизнеса Server и Exchange Server . <br/> |
-|Делегирования собраний  <br/> |Поддерживается только в том случае, если оба пользователя находятся в интернете в одном лесу или оба находятся в локальном помещении. Дополнительные сведения см. в [гибридных решениях Skype для бизнеса.](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions) <br/> |
+|Публикация состояния на основе Outlook и сведений о занятости в календаре  <br/> ||
+|Список контактов (через Единый магазин контактов)  <br/> |Требуется Exchange 2016 или Exchange 2013.  <br/> Требуется клиент Lync 2013 или Skype для бизнеса настольного компьютера.  <br/>  Дополнительные сведения см. в [Skype для бизнеса Server 2015 г.](../deploy/integrate-with-exchange-server/use-the-unified-contact-store.md)для использования единого магазина контактов.  <br/> |
+|Контактная фотография с высоким разрешением в клиенте Lync 2013, Skype для бизнеса клиенте и Lync Web App.  <br/> |Требуется Exchange 2016 или Exchange 2013.  <br/> Дополнительные сведения см. в дополнительных сведениях о настройке использования фотографий с высоким разрешением [в Skype для бизнеса Server 2015 г.](../deploy/integrate-with-exchange-server/high-resolution-photos.md)  <br/> Для фотографий в приложении Skype для бизнеса mac и Mobile необходимо настроить интеграцию между Skype для бизнеса Server 2015 и Exchange Server, как описано в [настройках](../deploy/integrate-with-exchange-server/configure-partner-applications.md)партнерских приложений в Skype для бизнеса Server и Exchange Server . <br/> |
+|Делегирования собраний  <br/> |Поддерживается только в том случае, если оба пользователя находятся в интернете в одном лесу или оба находятся в локальном помещении. Дополнительные сведения см. [в Skype для бизнеса гибридных решений.](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions) <br/> |
 |История пропущенных разговоров и журналы вызовов пишутся в почтовый ящик exchange пользователя  <br/> ||
 |Архивавка контента (im и meeting) в Exchange  <br/> |Требуется Exchange 2016 или Exchange 2013.  <br/> Дополнительные сведения см. в [списке развертывания для архивации.](/previous-versions/office/lync-server-2013/lync-server-2013-deployment-checklist-for-archiving)  <br/> |
 |Поиск архивного контента  <br/> |Требуется Exchange 2016 или Exchange 2013.  <br/> |
-|Голосовая почта  <br/> |Дополнительные сведения см. в сообщении о развертывании локальной системы обмена данными Exchange для обеспечения голосовой почты [Lync Server 2013.](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-on-premises-exchange-um-to-provide-lync-server-2013-voice-mail)  <br/> |
+|Голосовая почта  <br/> |Дополнительные сведения см. в Exchange развертывания локальной системы электронной почты для обеспечения голосовой почты [Lync Server 2013.](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-on-premises-exchange-um-to-provide-lync-server-2013-voice-mail)  <br/> |
 
- **Skype для бизнеса Server в помещениях и Exchange Online**
+ **Skype для бизнеса Server на месте и Exchange Online**
 
 
 |**Функция**|**Примечания**|
 |:-----|:-----|
-|IM/Presence in Outlook  <br/> |Дополнительные сведения см. в [веб-сайте Configure integration between on-premises Skype for Business Server 2015 и Outlook Web App](../deploy/integrate-with-exchange-server/outlook-web-app.md) <br/> |
-|Расписание и участие в онлайн-собрании через Outlook  <br/> ||
-|IM/Presence in Outlook Web App  <br/> |Дополнительные сведения см. в [веб-сайте Configure integration between on-premises Skype for Business Server 2015 и Outlook Web App](../deploy/integrate-with-exchange-server/outlook-web-app.md) <br/> |
-|Запланировать и присоединиться к онлайн-собранию из Outlook Web App  <br/> |Дополнительные сведения см. в [веб-сайте Configure integration between on-premises Skype for Business Server 2015 и Outlook Web App](../deploy/integrate-with-exchange-server/outlook-web-app.md) <br/> |
+|Im/Presence in Outlook  <br/> |Дополнительные сведения см. в перенастройке интеграции между локальной Skype для бизнеса Server [2015](../deploy/integrate-with-exchange-server/outlook-web-app.md) и Outlook Web App <br/> |
+|Запланировать и присоединиться к собранию через Outlook  <br/> ||
+|Im/Presence в Outlook Web App  <br/> |Дополнительные сведения см. в перенастройке интеграции между локальной Skype для бизнеса Server [2015](../deploy/integrate-with-exchange-server/outlook-web-app.md) и Outlook Web App <br/> |
+|Запланировать и присоединиться к онлайн-собранию из Outlook Web App  <br/> |Дополнительные сведения см. в перенастройке интеграции между локальной Skype для бизнеса Server [2015](../deploy/integrate-with-exchange-server/outlook-web-app.md) и Outlook Web App <br/> |
 |Чат/присутствие в мобильных клиентах  <br/> ||
 |Присоединяйтесь к онлайн-собранию в мобильных клиентах  <br/> ||
-|Публикация состояния на основе сведений о свободном/загруженном календаре Outlook  <br/> ||
-|Список контактов (через Единый магазин контактов).  <br/> |Только Lync Server 2013. Требуется клиент настольного компьютера Lync 2013 или Skype для бизнеса.  <br/> Дополнительные сведения см. в [дополнительных сведениях: Настройка Skype для бизнеса Server 2015 для использования единого магазина контактов](../deploy/integrate-with-exchange-server/use-the-unified-contact-store.md) <br/> |
-|Контактная фотография с высоким разрешением в клиенте Lync 2013, клиенте Skype для бизнеса и веб-приложении Lync.  <br/> |Дополнительные сведения см. в дополнительных сведениях о настройке использования фотографий с высоким разрешением в [Skype для бизнеса Server 2015.](../deploy/integrate-with-exchange-server/high-resolution-photos.md)  <br/> Для фотографий в приложении Skype для бизнеса для MAC и Mobile необходимо настроить интеграцию между Skype для бизнеса Server 2015 и Exchange Server, как описано в настройках интеграции между локальной skype для бизнеса [Server и Outlook Web App](../deploy/integrate-with-exchange-server/outlook-web-app.md). <br/> |
-|Делегирования собраний  <br/> |Поддерживается только в том случае, если оба пользователя находятся в интернете в одном лесу или оба находятся в локальном помещении. Дополнительные сведения см. в [гибридных решениях Skype для бизнеса.](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions) <br/> |
+|Публикация состояния на основе Outlook и сведений о занятости в календаре  <br/> ||
+|Список контактов (через Единый магазин контактов).  <br/> |Только Lync Server 2013. Требуется клиент Lync 2013 или Skype для бизнеса настольного компьютера.  <br/> Дополнительные сведения см. в [Skype для бизнеса Server 2015 г. для использования единого магазина контактов](../deploy/integrate-with-exchange-server/use-the-unified-contact-store.md) <br/> |
+|Контактная фотография с высоким разрешением в клиенте Lync 2013, Skype для бизнеса клиенте и Lync Web App.  <br/> |Дополнительные сведения см. в дополнительных сведениях о настройке использования фотографий с высоким разрешением [в Skype для бизнеса Server 2015 г.](../deploy/integrate-with-exchange-server/high-resolution-photos.md)  <br/> Для фотографий в приложении Skype для бизнеса mac и Mobile необходимо настроить интеграцию между Skype для бизнеса Server 2015 и Exchange Server, как описано в настройках интеграции между локальной Skype для бизнеса Server и [Outlook Web App](../deploy/integrate-with-exchange-server/outlook-web-app.md). <br/> |
+|Делегирования собраний  <br/> |Поддерживается только в том случае, если оба пользователя находятся в интернете в одном лесу или оба находятся в локальном помещении. Дополнительные сведения см. [в Skype для бизнеса гибридных решений.](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions) <br/> |
 |История пропущенных бесед и журналы вызовов пишутся в почтовый ящик Exchange пользователя  <br/> ||
 |Архивавка контента (im и meeting) в Exchange  <br/> |Дополнительные сведения см. в [списке развертывания для архивации.](/previous-versions/office/lync-server-2013/lync-server-2013-deployment-checklist-for-archiving)  <br/> |
-|Поиск архивного контента  <br/> |Дополнительные сведения см. в [центре настройки exchange для sharePoint eDiscovery Center](/exchange/configure-exchange-for-sharepoint-ediscovery-center-exchange-2013-help) <br/> |
-|Голосовая почта  <br/> |Дополнительные сведения см. в сообщении о предоставлении голосовой почты [пользователей Lync Server 2013 в Хозяйской электронной почте Exchange.](/previous-versions/office/lync-server-2013/lync-server-2013-providing-lync-server-users-voice-mail-on-hosted-exchange-um)  <br/> |
+|Поиск архивного контента  <br/> |Дополнительные сведения см. в Exchange центре SharePoint [eDiscovery](/exchange/configure-exchange-for-sharepoint-ediscovery-center-exchange-2013-help) <br/> |
+|Голосовая почта  <br/> |Дополнительные сведения см. в веб-сайте Предоставление голосовой почты пользователей [Lync Server 2013 в размещенный Exchange um](/previous-versions/office/lync-server-2013/lync-server-2013-providing-lync-server-users-voice-mail-on-hosted-exchange-um).  <br/> |
 
- **Skype для бизнеса в Интернете и Exchange в помещениях**
+ **Skype для бизнеса Интернет и Exchange в помещениях**
 
 
 |**Функция**|**Примечания**|
 |:-----|:-----|
 |Присутствие в Outlook  <br/> ||
-|Отвечать с помощью чата, вызова PSTN, skype call или видеосвязи из электронной почты Outlook  <br/> ||
-|Расписание и участие в онлайн-собраниях через Outlook  <br/> ||
+|Отвечать с помощью чата, вызова PSTN, Skype или видеосвязи по электронной Outlook электронной почты  <br/> ||
+|Расписание и участие в собраниях через Outlook  <br/> ||
 |Im/Presence в мобильных клиентах  <br/> ||
 |Регистрация онлайн-собраний в мобильных клиентах  <br/> ||
-|Публикация состояния на основе сведений о свободном/загруженном календаре Outlook  <br/> ||
+|Публикация состояния на основе Outlook и сведений о занятости в календаре  <br/> ||
 |История пропущенных разговоров и журналы вызовов пишутся в почтовый ящик exchange пользователя  <br/> ||
-|Контактная фотография с высоким разрешением в Lync 2013 или клиент Skype для бизнеса.  <br/> |Требуется Exchange 2016 или Exchange 2013. Это не поддерживается в веб-приложении Lync, когда пользователи находятся в Skype для бизнеса Online.  <br/> |
-|Делегирования собраний  <br/> |Поддерживается только в том случае, если оба пользователя находятся в интернете в одном лесу или оба находятся в локальном помещении. Дополнительные сведения см. в [гибридных решениях Skype для бизнеса.](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions) <br/> |
+|Контактная фотография с высоким разрешением в Lync 2013 или Skype для бизнеса клиенте.  <br/> |Требуется Exchange 2016 или Exchange 2013. Это не поддерживается в Lync Web App, когда пользователи находятся в Skype для бизнеса Online.  <br/> |
+|Делегирования собраний  <br/> |Поддерживается только в том случае, если оба пользователя находятся в интернете в одном лесу или оба находятся в локальном помещении. Дополнительные сведения см. [в Skype для бизнеса гибридных решений.](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions) <br/> |
 |История пропущенных бесед и журналы вызовов пишутся в почтовый ящик Exchange пользователя  <br/> ||
 |История разговоров стороной сервера  <br/> ||
 
- **Skype для бизнеса в Интернете и Exchange Online**
+ **Skype для бизнеса Онлайн и Exchange Online**
 
 
 |**Функция**|**Примечания**|
 |:-----|:-----|
-|IM/Presence in Outlook  <br/> ||
-|Расписание и участие в онлайн-собраниях через Outlook  <br/> ||
-|IM/Presence in Outlook Web App  <br/> ||
+|Im/Presence in Outlook  <br/> ||
+|Расписание и участие в собраниях через Outlook  <br/> ||
+|Im/Presence в Outlook Web App  <br/> ||
 |Запланировать и присоединиться к онлайн-собранию из Outlook Web App  <br/> ||
 |Чат/присутствие в мобильных клиентах  <br/> ||
 |Присоединяйтесь к онлайн-собранию в мобильных клиентах  <br/> ||
-|Публикация состояния на основе сведений о свободном/загруженном календаре Outlook  <br/> ||
+|Публикация состояния на основе Outlook и сведений о занятости в календаре  <br/> ||
 |История пропущенных разговоров и журналы вызовов пишутся в почтовый ящик exchange пользователя  <br/> ||
-|Список контактов (через Единый магазин контактов)  <br/> |Требуется клиент Lync Server 2013 или Skype для бизнеса  <br/> |
-|Контактная фотография с высоким разрешением в Lync 2013, клиент Skype для бизнеса и веб-приложение Lync  <br/> ||
-|Делегирования собраний  <br/> |Поддерживается только в том случае, если оба пользователя находятся в интернете в одном лесу или оба находятся в локальном помещении. Дополнительные сведения см. в [гибридных решениях Skype для бизнеса.](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions) <br/> |
+|Список контактов (через Единый магазин контактов)  <br/> |Lync Server 2013 или Skype для бизнеса требуется клиент  <br/> |
+|Контактная фотография с высоким разрешением в Lync 2013, Skype для бизнеса клиент и Lync Web App  <br/> ||
+|Делегирования собраний  <br/> |Поддерживается только в том случае, если оба пользователя находятся в интернете в одном лесу или оба находятся в локальном помещении. Дополнительные сведения см. [в Skype для бизнеса гибридных решений.](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions) <br/> |
 |Архивавка контента (im и meeting) в Exchange  <br/> ||
 |Поиск архивного контента  <br/> ||
 |Голосовая почта  <br/> ||
@@ -121,5 +123,5 @@ ms.locfileid: "51092837"
 
 ||**Локальное развертывание SharePoint**|**SharePoint Online**|
 |:-----|:-----|:-----|
-|**Локальное приложение Skype для бизнеса Server 2015** <br/> | Поиск навыков <br/>  Присутствие в SharePoint <br/> | Присутствие в SharePoint <br/> |
+|**Skype для бизнеса Server 2015** <br/> | Поиск навыков <br/>  Присутствие в SharePoint <br/> | Присутствие в SharePoint <br/> |
 |**Skype для бизнеса Online** <br/> | Присутствие в SharePoint <br/> | Присутствие в SharePoint <br/> |

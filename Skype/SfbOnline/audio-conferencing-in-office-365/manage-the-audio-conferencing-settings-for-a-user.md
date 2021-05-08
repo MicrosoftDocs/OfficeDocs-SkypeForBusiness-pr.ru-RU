@@ -20,27 +20,29 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
-description: 'Как администратор Microsoft 365 или Office 365 вы можете изменять параметры аудиоконференции Skype для бизнеса Online, такие как поставщик услуг, платный или бесплатный номер по умолчанию, код конференции или ПИН-код для отдельного пользователя в организации. '
-ms.openlocfilehash: 47ad2b0d6b5684d2a897055ad43e253e55c67109
-ms.sourcegitcommit: 9b1c138b39fd87e239a7b1c5051f30c633e7d813
+description: 'Администраторы Microsoft 365 или Office 365 могут изменять параметры аудиоконференции Skype для бизнеса Online, такие как поставщик услуг аудиоконференции, платный или бесплатный номер по умолчанию, код конференции или ПИН-код для отдельного пользователя в организации. '
+ms.openlocfilehash: f31648c9b2d50f595dc113b65318f9c6f9204e24
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "44943852"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52237305"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user-in-skype-for-business-online"></a>Управлять пользовательскими параметрами аудиоконференций Skype для бизнеса Online
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 > [!Note]
 > Для сведений по управлению пользовательскими параметрами в Microsoft Teams см. [Управлять пользовательскими параметрами аудиоконференций в Microsoft Teams](/MicrosoftTeams/manage-the-audio-conferencing-settings-for-a-user-in-teams).
 
-Как администратор Microsoft 365 или Office 365 вы можете изменять параметры аудиоконференции, такие как поставщик услуг, платный или бесплатный номер по умолчанию, код конференции или ПИН-код для отдельного пользователя в организации. Если вы хотите изменить параметры для своей организации, см. статью "Управление настройками аудиоконференции [для организации".](manage-the-audio-conferencing-settings-for-my-organization.md)
+Администраторы Microsoft 365 или Office 365 могут изменять параметры аудиоконференции, такие как поставщик услуг аудиоконференции, платный или бесплатный номер по умолчанию, код конференции или ПИН-код для отдельного пользователя в организации. Для сведений по управлению параметрами организации см. [Управлять параметрами аудиоконференции по моей организации](manage-the-audio-conferencing-settings-for-my-organization.md).
 
  
-1. Войте свою учетную запись с помощью своей учебной или учебной учетной записи.
+1. Во войти с помощью своей учебной или учебной учетной записи.
     
 2. Выберите **Центры администрирования** > **Skype для бизнеса**.
     
-3. В Центре администрирования Skype для бизнеса выберите **"Пользователи".**
+3. В центре Skype для бизнеса администрирования выберите **Пользователи**.
     
 4. Выберите пользователя, параметрами которого необходимо управлять, затем в панели «Действия» нажмите **Изменить**![, чтобы отобразить значок функции «Изменить»](../images/4d8bea48-be68-4e0e-a54c-73decf7ea4ec.png).
     
@@ -49,12 +51,12 @@ ms.locfileid: "44943852"
 |**Параметр**|**Описание**|
 |:-----|:-----|
 |**Имя поставщика** <br/> |Выберите поставщика из списка.  <br/><br/> **Примечание:** остальные параметры в этой таблице применяются только в том случае, если выбрать Microsoft в качестве поставщика аудиоконференций.           |
-|**Бесплатный номер по умолчанию** (обязательно) <br/> |For a third-party providers, these phone numbers are the ones you received from the audio conferencing provider. If the user is using Microsoft as the audio conferencing provider, these will be numbers that are set on the audio conferencing bridge. Format the numbers as you want them to appear in Skype for Business and Microsoft Teams meeting requests.  <br/> |
-|**Бесплатный номер по умолчанию** <br/> |For a third-party providers, these phone numbers are the ones you received from the audio conferencing provider. If the user is using Microsoft as the audio conferencing provider, these will be numbers that are set on the audio conferencing bridge. Format the numbers as you want them to appear in Skype for Business and Microsoft Teams meeting requests.  <br/> |
+|**Бесплатный номер по умолчанию** (обязательно) <br/> |Для сторонних поставщиков эти номера телефонов соответствуют номерам, полученным от поставщика аудиоконференций. Если пользователь выбрал Microsoft в качестве поставщика аудиоконференций, это будут номера, заданные для канала аудиоконференций. Отформатирование чисел в том виде, в каком они должны отображаться Skype для бизнеса Microsoft Teams собраниях.  <br/> |
+|**Бесплатный номер по умолчанию** <br/> |Для сторонних поставщиков эти номера телефонов соответствуют номерам, полученным от поставщика аудиоконференций. Если пользователь выбрал Microsoft в качестве поставщика аудиоконференций, это будут номера, заданные для канала аудиоконференций. Отформатирование чисел в том виде, в каком они должны отображаться Skype для бизнеса Microsoft Teams собраниях.  <br/> |
 |**Разрешить использование бесплатных номеров в канале Microsoft своей организации, чтобы подключиться к собранию данного пользователя** <br/> |Выберите эту опцию, чтобы разрешить пользователю бесплатных номеров подключаться к собраниям.  <br/> |
-|**Отправка информации о конференции по электронной почте** <br/> |Click this link only if you want to immediately send an email to the user with his or her conference ID and phone number. (This email does not include the PIN.) See [Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-dial-in-information.md).  <br/> |
-|**Идентификатор конференции** <br/> |Select **Reset** if you need to reset the conference ID for the user. For more information, see [Reset a conference ID for a user](reset-a-conference-id-for-a-user.md).  <br/> |
-|**ПИН-код** <br/> |Select **Reset** if you need to reset the PIN for the user. For more information, see [Reset the Audio Conferencing PIN](reset-the-audio-conferencing-pin.md).  <br/> |
+|**Отправка информации о конференции по электронной почте** <br/> |Перейдите по этой ссылке только в том случае, если необходимо пользователю с собственным идентификатором конференции и номером телефона сразу же отправить сообщение по электронной почте. (Это сообщение электронной почты не содержит PIN-код.) См. раздел [Отправить пользователю сообщение по электронной почте, используя его сведения для аудиоконференции](send-an-email-to-a-user-with-their-dial-in-information.md).  <br/> |
+|**Идентификатор конференции** <br/> |Выберите **Сброс** , если необходимо сбросить идентификатор конференции для пользователя. Для дополнительных сведений см. [Сбросить идентификатор конференции для пользователя](reset-a-conference-id-for-a-user.md).  <br/> |
+|**Контактный** <br/> |Выберите **Сброс** , если необходимо сбросить PIN-код пользователя. Для дополнительных сведений см. [Сбросить PIN-код для аудиоконференций](reset-the-audio-conferencing-pin.md).  <br/> |
 |**Разрешить неаутентифицированным абонентам быть первыми в собрании** <br/> |Выберите эту опцию, чтобы разрешить неаутентифицированным абонентам подключиться к собраниям первыми.  <br/> |
 |**Ограничения на исходящие соединения в собраниях этого пользователя** <br/> |Выберите опцию в этом списке, чтобы установить ограничения на исходящие соединения с национальными сетями или заблокировать все исходящие соединения в собраниях.  <br/> |
   

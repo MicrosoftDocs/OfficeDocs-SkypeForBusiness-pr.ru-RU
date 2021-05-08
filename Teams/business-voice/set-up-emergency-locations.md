@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Узнайте, как настроить местоположения для экстренного Голосовая связь Microsoft 365 бизнес.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 531d1b747a86c84e99c2b6f06a83ae405527f3ba
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: 9fab5fead952837e2fb272819a600381252bcbf8
+ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52130483"
+ms.lasthandoff: 05/08/2021
+ms.locfileid: "52282536"
 ---
 # <a name="step-1-set-up-a-business-voice-emergency-location"></a>Шаг 1. Настройка местоположения для экстренного размещения голосовой почты
 
@@ -32,8 +32,8 @@ ms.locfileid: "52130483"
 
 ## <a name="add-an-emergency-location"></a>Добавление местоположения для экстренного ситуация
 
-1. Откройте Центр [Microsoft Teams администрирования](https://admin.teams.microsoft.com) и войдите с учетной записью глобального администратора (обычно это учетная запись, которую вы использовали для регистрации в Microsoft 365).
-1. В левой области навигации Центра администрирования Microsoft Teams щелкните **Адреса** для экстренного  >  **устранения чрезвычайной ситуации**.
+1. Откройте центр Microsoft Teams администрирования и войдите с учетной записью глобального администратора (обычно это учетная запись, которую вы использовали для регистрации в Microsoft 365).
+1. В области навигации слева перейдите к пункту Адреса для <a href="https://admin.teams.microsoft.com/locations" target="_blank">   >  **экстренного устранения чрезвычайной ситуации**</a>.
 1. Нажмите **Добавить**.
 1. Введите имя и описание расположения.
 1. Выберите страну или регион и введите адрес.

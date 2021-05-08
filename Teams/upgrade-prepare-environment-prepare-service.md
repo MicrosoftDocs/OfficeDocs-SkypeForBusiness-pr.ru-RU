@@ -1,13 +1,13 @@
 ---
-title: Подготовка службы к обновлению до Microsoft Teams
-author: msdmaguire
-ms.author: dmaguire
+title: Подготовка службы к обновлению Microsoft Teams
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
-description: Узнайте о требованиях для подготовки организации к совместной работе и облачным голосовым службам с помощью Teams.
+description: Узнайте о требованиях для подготовки организации к совместной работе и облачным голосовым службам с Teams.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -20,33 +20,33 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ef3c8ced54686e04a00bded3266bd5814a3466e9
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 2ad5887c50b15efc2dcddd000a8f117c2f350ac5
+ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119068"
+ms.lasthandoff: 05/08/2021
+ms.locfileid: "52282195"
 ---
 # <a name="prepare-your-service-for-upgrading-to-teams"></a>Подготовка службы к переходу на Teams
 
 ![Схема пути обновления с акцентом на этапе технической готовности](media/upgrade-banner-tech-readiness.png "Этапы пути обновления с акцентом на этапе технической готовности")
 
-Эта статья является частью этапа технической готовности, которое вы завершаете параллельно с этапом подготовки пользователя. Прежде чем при этом подтверждать, что вы выполнили эти действия на предыдущих этапах:
+Эта статья является частью этапа технической готовности, которое вы завершаете параллельно со этапом подготовки пользователей. Прежде чем при этом подтверждать, что вы выполнили эти действия на предыдущих этапах:
 
-- [Привлечение заинтересованных лиц проекта](upgrade-enlist-stakeholders.md)
+- [Привлечение заинтересованных лиц по проекту](upgrade-enlist-stakeholders.md)
 - [Определение области проекта](./upgrade-define-project-scope.md)
-- [Понимание сосуществования и совместной работы Skype для бизнеса и Teams](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
-- [Выбранный путь обновления](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [Понятное сосуществование и совместное Skype для бизнеса и Teams](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+- [Выбор пути обновления](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
-В этой статье приводится обзор требований для подготовки организации к совместной работе и облачным голосовым службам с помощью Teams. Подготовившись к правильной подготовке, вы будете уверены, что готовы предоставить эти возможности вашей организации.
+В этой статье дается обзор требований для подготовки организации к совместной работе и облачным голосовым службам с Teams. Готовясь к правильной подготовке, вы можете быть готовы предоставить эти возможности своей организации.
 
-## <a name="onboarding-checklists-and-landing-pages-for-microsoft-teams-rollout"></a>Контрольные списки и страницы для регистрации в microsoft Teams
+## <a name="onboarding-checklists-and-landing-pages-for-microsoft-teams-rollout"></a>Контрольные списки и первой страницы для Microsoft Teams на доске
 
-В следующих контрольных списках и на страницах вы сможете развернуть Microsoft Teams в организации:
+В следующих контрольных списках и на важных страницах вы можете развернуть Microsoft Teams организации.
 
-- [Подготовка Microsoft 365 или Office 365 для Teams](onboarding-checklist-enable-office-365.md)
+- [Подготовка Microsoft 365 Office 365 Teams](onboarding-checklist-enable-office-365.md)
 
-- [Настройка основных возможностей Teams](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)
+- [Настройка основных Teams возможностей](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)
 
 - [Подготовка сети](prepare-network.md)
 
@@ -54,32 +54,32 @@ ms.locfileid: "51119068"
 
 - [Собрания и аудиоконференции](deploy-meetings-microsoft-teams-landing-page.md)
 
-- [Параметры телефонной системы и связи через ДНР](cloud-voice-landing-page.md)
+- [телефонная система подключения к ОКП и ОКП](cloud-voice-landing-page.md)
 
 
-Задачи и действия в этих контрольных списках являются основными задачами, которые применяются ко всем возможностям совместной работы и голосовой связи с Teams. Вы можете настроить контрольные списки, чтобы включить действия и задачи, которые относятся к вашему пути в Teams.
+Задачи и действия в этих контрольных списках являются основными задачами, которые применяются ко всем развертыванию функций совместной работы и голосовой связи с Teams. Вы можете настроить контрольные списки, чтобы включить в них действия и задачи, которые относятся к вашему Teams пути.
 
-Используйте предоставленные контрольные списки для отслеживания состояния каждого отдельного действия и задачи и убедитесь, что не пропустили ни одного важного шага. Каждое действие содержит подробное описание необходимых действий и ссылки на дополнительные сведения, которые можно использовать для его выполнения.
+Используйте предоставленные контрольные списки для отслеживания состояния каждого отдельного действия и задачи, а также для того, чтобы не пропустить критические действия. Каждое действие содержит подробное описание необходимых действий и ссылки на дополнительные сведения, которые можно использовать для его выполнения.
 
-Несмотря на то, что мы рекомендуем следовать контрольным спискам по порядку, точная последовательность будет зависеть от объема развертывания, а также конфигурации и сложности среды. Они организованы для поддержки развертывания Teams на зеленом поле (такого, где нет предыдущего присутствия в Skype для бизнеса Online) или перехода со Skype для бизнеса Online на Teams. Если вы обновляете Skype для бизнеса Online, возможно, вы уже выполнили некоторые из этих действий и можете игнорировать их сейчас.
+Несмотря на то, что мы рекомендуем следовать контрольным спискам по порядку, точная последовательность будет зависеть от области развертывания, а также от конфигурации и сложности среды. Они организованы для поддержки развертывания "greenfield" Teams (без предыдущего присутствия Skype для бизнеса Online) или перехода с Skype для бизнеса Online на Teams. Если вы обновляете Skype для бизнеса Online, возможно, вы уже выполнили некоторые из этих действий и можете игнорировать их сейчас.
 
-При регистрации пользователей на уровне сайта настоятельно рекомендуется использовать приложение Site [Enablement Playbook для voice (PlayBook)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) в качестве дополнительного руководства для этих контрольных списков.
+Когда вы вовсю используете пользователей для каждого сайта, настоятельно рекомендуется использовать для этих контрольных списков дополнительный контрольный список с помощью приложения Site [Enablement Playbook (Playbook).](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true)
 
 >[!NOTE]
->Большинство настроек конфигурации являются общими для Teams и Skype для бизнеса Online. Для настройки этих параметров используется Центр администрирования Microsoft Teams.
+>Большинство параметров конфигурации часто используется в Teams и Skype для бизнеса Online. Эти параметры можно Microsoft Teams в Центре администрирования.
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting a decision point"/> <br/>Точка принятия решений</td><td><ul><li>Кто будет отвечать за выполнение контрольных списков для регистрации?</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Дальнейшие действия</td><td><ul><li>Скачайте контрольные списки для ветвей.</li><li>Пошаговая работа над элементами контрольного списка в рамках развертывания в соответствии с планом развертывания вашей организации.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting a decision point"/> <br/>Точка принятия решений</td><td><ul><li>Кто отвечаете за контроль за завершением контрольных списков?</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Дальнейшие действия</td><td><ul><li>Скачайте контрольные списки для загрузки.</li><li>Пошаговая работа над элементами контрольного списка в рамках развертывания в соответствии с планом развертывания организации.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
 
-## <a name="continue-onboarding"></a>Продолжить вовсю
+## <a name="continue-onboarding"></a>Продолжить ветвь
 
-После завершения этого контрольного списка переперейти к следующему шагу: [проведение пилотного проекта пользователя](pilot-essentials.md)
+Завершив этот контрольный список, переперейти к следующему шагу: проведение [пилотного проекта пользователя](pilot-essentials.md)
 
-[//]: # (@Turgay, я прокомментировал следующий абзац, так как он является облачным голосовым.)
+[//]: # (@Turgay, я прокомментировал следующий абзац, так как он является облачным.)
 <!--
 As the next step, use the [Site Enablement Playbook for Voice (Playbook)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) to help you onboard your users on each site to cloud voice, and help ensure that you plan and execute important site-specific activities.
 -->

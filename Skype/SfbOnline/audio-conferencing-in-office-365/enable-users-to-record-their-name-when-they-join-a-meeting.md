@@ -1,5 +1,5 @@
 ---
-title: Возможность записи имени пользователя при подступе к собранию в Skype для бизнеса Online
+title: Позволить пользователям записывать свое имя, когда они присоединяются к собранию в Skype для бизнеса Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,25 +21,27 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Узнайте, как включить или отключить возможность записи имен пользователями при подступе к собранию в Skype для бизнеса Online.
-ms.openlocfilehash: 7fd8afb71ee524b20f24f9583ec847adbec2ff43
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: ee6ae85946453d6065a6473ec331b93e4509ebc9
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51114245"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52237315"
 ---
-# <a name="enable-users-to-record-their-name-when-they-join-a-meeting-in-skype-for-business-online"></a>Возможность записи имени пользователя при подступе к собранию в Skype для бизнеса Online
+# <a name="enable-users-to-record-their-name-when-they-join-a-meeting-in-skype-for-business-online"></a>Позволить пользователям записывать свое имя, когда они присоединяются к собранию в Skype для бизнеса Online
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 > [!Note]
 > Если требуется предоставить пользователям возможность записывать свое имя в Microsoft Teams, ознакомьтесь со статьей [Предоставление пользователям возможности записи собственного имени при присоединении к собранию в Microsoft Teams](/MicrosoftTeams/enable-users-to-record-their-name-when-they-join-a-meeting-in-teams).
 
-При настройке аудиоконференции в Microsoft 365 или Office 365 вы будете получать номера телефонов и мост аудиоконференции. Мост для conferencing может содержать один или несколько телефонных номеров, которые могут быть выделенным или общим номером телефона.
+При настройке аудиоконференций в Microsoft 365 или Office 365 вы получите телефонные номера и так называемый мост аудиоконференций. Мост для связи может содержать один или несколько номеров телефонов, которые могут быть выделенными или общими.
   
 Мост конференц-связи обеспечивает ответ на вызов пользователя, который присоединяется к собранию с телефона. Мост конференц-связи отвечает вызывающей стороне голосовыми подсказками с помощью автосекретаря, а затем, в зависимости от настроек, может воспроизвести уведомления, попросить вызывающую сторону записать свое имя и настроить ПИН-код безопасности для организаторов собрания. ПИН-коды предоставляются организаторам собраний. Организаторы могут начать собрание, введя ПИН-код. Однако собрание можно настроить таким образом, чтобы ПИН-код не требовался.
 
-## <a name="set-whether-callers-should-record-their-name"></a>Настройка записи имени вызывателям
+## <a name="set-whether-callers-should-record-their-name"></a>Настройка записи имени вызываемой
     
-1. В Центре **администрирования Skype для бизнеса** на левой навигации перейдите к настройкам моста аудиоконференции  >  **Майкрософт.**
+1. В центре **Skype для бизнеса** администрирования на левой навигации перейдите в параметры моста  >  **Аудиоконференция Майкрософт**.
     
 2. В разделе **Присоединение к собранию** включите параметр **Включить уведомления о входе и выходе из собрания**.
     
@@ -54,15 +56,15 @@ ms.locfileid: "51114245"
 
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Сведения по управлению с помощью Windows PowerShell
 
-- Для экономии времени или автоматизации процесса можно использовать [cmdlet Set-CsOnlineDialInConferencingTenantSettings.](/powershell/module/skype/Set-CsOnlineDialInConferencingTenantSettings)
+- Чтобы сэкономить время или автоматизировать эту функцию, можно использовать для этого [cmdlet Set-CsOnlineDialInConferencingTenantSettings.](/powershell/module/skype/Set-CsOnlineDialInConferencingTenantSettings)
     
-- Windows PowerShell все о том, как управлять пользователями и что им разрешено делать. С Windows PowerShell вы можете управлять Microsoft 365 или Office 365, используя единый пункт администрирования, который упростит выполнение ваших повседневных задач. Для начала работы с Windows PowerShell ознакомьтесь с приведенными ниже разделами.
+- Windows PowerShell об управлении пользователями и о том, что им разрешено делать. С Windows PowerShell вы можете управлять Microsoft 365 или Office 365 с помощью единого администрирования, который упростит выполнение повседневных задач. Для начала работы с Windows PowerShell ознакомьтесь с приведенными ниже разделами.
     
-  - [Зачем нужно использовать Microsoft 365 или Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+  - [Зачем нужна Microsoft 365 или Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
   - [Лучшие способы управления Microsoft 365 или Office 365 с помощью Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-- Windows PowerShell имеет множество преимуществ в скорости, простоте и эффективности работы по сравнению с использованием только Центра администрирования Microsoft 365, например при внесении изменений для множества пользователей одновременно. Подробнее об этих преимуществах можно узнать в следующих разделах: 
+- Windows PowerShell имеет множество преимуществ в скорости, простоте и эффективности работы по сравнению с использованием только центра администрирования Microsoft 365, например при внесении изменений для множества пользователей одновременно. Подробнее об этих преимуществах можно узнать в следующих разделах: 
     
   - [Введение в Windows PowerShell и Skype для бизнеса Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
