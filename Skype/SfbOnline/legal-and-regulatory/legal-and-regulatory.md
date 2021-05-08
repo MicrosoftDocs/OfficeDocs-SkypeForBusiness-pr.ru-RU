@@ -19,12 +19,14 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Legal
-description: 'Это контент, который должен быть опубликован в соответствии с требованиями к специальным и нормативным требованиям Для Skype для бизнеса Online во Франции. '
-ms.openlocfilehash: b2b8654783c1a3484fad80dd14b57d911b1691dc
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+description: 'Это содержимое, которое должно быть опубликовано в соответствии с требованиями к специальным и нормативным требованиям для Skype для бизнеса Online во Франции. '
+ms.openlocfilehash: 04f723dfaf9f77594fd9beb6637a1f0acee6a887
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41693104"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52238661"
 ---
-# <a name="legal-and-regulatory"></a><span data-ttu-id="b779c-103">Юридическая и нормативная информация</span><span class="sxs-lookup"><span data-stu-id="b779c-103">Legal and regulatory</span></span>
+# <a name="legal-and-regulatory"></a><span data-ttu-id="6abd4-103">Юридическая и нормативная информация</span><span class="sxs-lookup"><span data-stu-id="6abd4-103">Legal and regulatory</span></span>
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]

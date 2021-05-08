@@ -1,5 +1,5 @@
 ---
-title: Управление организациями Skype для бизнеса Online
+title: Управление Skype для бизнеса online
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -18,39 +18,41 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - PowerShell
-description: Используйте Windows PowerShell и Get-CsTenant и Get-CsTenantLicensingConfiguration для получения сведений о клиенте Skype для бизнеса Online.
-ms.openlocfilehash: ed15d062bf4f2e5f2ad0f47169ac0626d2c59d20
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Используйте Windows PowerShell и Get-CsTenant и Get-CsTenantLicensingConfiguration, чтобы получить сведения о клиенте Skype для бизнеса Online.
+ms.openlocfilehash: 2fa95bf8997dd0aff7271b1383c69d9b27c4f4a9
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51113185"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52238789"
 ---
-# <a name="manage-skype-for-business-online-organizations"></a><span data-ttu-id="ef592-103">Управление организациями Skype для бизнеса Online</span><span class="sxs-lookup"><span data-stu-id="ef592-103">Manage Skype for Business Online organizations</span></span>
+# <a name="manage-skype-for-business-online-organizations"></a><span data-ttu-id="8353d-103">Управление Skype для бизнеса online</span><span class="sxs-lookup"><span data-stu-id="8353d-103">Manage Skype for Business Online organizations</span></span>
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 > [!NOTE]
-> <span data-ttu-id="ef592-104">Последний [общедоступный предварительный выпуск Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/) интегрирован со Skype для бизнеса Online Connector, что обеспечивает единый модуль для управления Teams PowerShell.</span><span class="sxs-lookup"><span data-stu-id="ef592-104">The latest [Teams PowerShell public preview release](https://www.powershellgallery.com/packages/MicrosoftTeams/) is integrated with Skype for Business Online Connector, providing a single module for Teams PowerShell management.</span></span>
+> <span data-ttu-id="8353d-104">Последний [общедоступный Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/) интегрирован с Skype для бизнеса Online Connector, предоставляя один модуль для управления Teams PowerShell.</span><span class="sxs-lookup"><span data-stu-id="8353d-104">The latest [Teams PowerShell public preview release](https://www.powershellgallery.com/packages/MicrosoftTeams/) is integrated with Skype for Business Online Connector, providing a single module for Teams PowerShell management.</span></span>
 
-<span data-ttu-id="ef592-105">Сведения о клиенте Skype для бизнеса Online можно найти с помощью **cmdlets Get-CsTenant** и **Get-CsTenantLicensingConfiguration.**</span><span class="sxs-lookup"><span data-stu-id="ef592-105">You can find information about your Skype for Business Online tenant by using the **Get-CsTenant** and **Get-CsTenantLicensingConfiguration** cmdlets.</span></span>
+<span data-ttu-id="8353d-105">Сведения о вашем клиенте Skype для бизнеса Online можно найти с помощью **cmdlets Get-CsTenant** и **Get-CsTenantLicensingConfiguration.**</span><span class="sxs-lookup"><span data-stu-id="8353d-105">You can find information about your Skype for Business Online tenant by using the **Get-CsTenant** and **Get-CsTenantLicensingConfiguration** cmdlets.</span></span>
   
-## <a name="manage-skype-for-business-online-tenants"></a><span data-ttu-id="ef592-106">Управление клиентами Skype для бизнеса Online</span><span class="sxs-lookup"><span data-stu-id="ef592-106">Manage Skype for Business Online tenants</span></span>
+## <a name="manage-skype-for-business-online-tenants"></a><span data-ttu-id="8353d-106">Управление Skype для бизнеса online</span><span class="sxs-lookup"><span data-stu-id="8353d-106">Manage Skype for Business Online tenants</span></span>
 
-<span data-ttu-id="ef592-107">Чтобы получить сведения о клиенте Skype для бизнеса Online, позвоните в [cmdlet Get-CsTenant](/powershell/module/skype/Get-CsTenant) без дополнительных параметров.</span><span class="sxs-lookup"><span data-stu-id="ef592-107">To return information about your Skype for Business Online tenant, call the [Get-CsTenant](/powershell/module/skype/Get-CsTenant) cmdlet without any additional parameters.</span></span>
+<span data-ttu-id="8353d-107">Чтобы получить сведения о клиенте Skype для бизнеса Online, позвоните на [веб-сайт Get-CsTenant](/powershell/module/skype/Get-CsTenant) без дополнительных параметров.</span><span class="sxs-lookup"><span data-stu-id="8353d-107">To return information about your Skype for Business Online tenant, call the [Get-CsTenant](/powershell/module/skype/Get-CsTenant) cmdlet without any additional parameters.</span></span>
   
 ```PowerShell
 Get-CsTenant
 ```
 
-<span data-ttu-id="ef592-108">Чтобы получить только имя и ИД клиента, воспользуйтесь этой командой.</span><span class="sxs-lookup"><span data-stu-id="ef592-108">To return just the tenant name and ID, use this command.</span></span>
+<span data-ttu-id="8353d-108">Чтобы вернуть только имя клиента и его ИД, воспользуйтесь этой командой.</span><span class="sxs-lookup"><span data-stu-id="8353d-108">To return just the tenant name and ID, use this command.</span></span>
   
 ```PowerShell
 Get-CsTenant | Select-Object Name, TenantID
 ```
 
-<span data-ttu-id="ef592-109">Значение параметра _TenantID_ является требоваться при запуске таких параметров, как [Set-CsTenantPublicProvider](/powershell/module/skype/Set-CsTenantPublicProvider) и [Set-CsTenantFederationConfiguration.](/powershell/module/skype/Set-CsTenantFederationConfiguration)</span><span class="sxs-lookup"><span data-stu-id="ef592-109">The value of the  _TenantID_ parameter is required when running cmdlets such as [Set-CsTenantPublicProvider](/powershell/module/skype/Set-CsTenantPublicProvider) and [Set-CsTenantFederationConfiguration](/powershell/module/skype/Set-CsTenantFederationConfiguration).</span></span>
+<span data-ttu-id="8353d-109">Значение параметра _TenantID_ является требоваться при запуске таких cmdlets, как [Set-CsTenantPublicProvider](/powershell/module/skype/Set-CsTenantPublicProvider) и [Set-CsTenantFederationConfiguration.](/powershell/module/skype/Set-CsTenantFederationConfiguration)</span><span class="sxs-lookup"><span data-stu-id="8353d-109">The value of the  _TenantID_ parameter is required when running cmdlets such as [Set-CsTenantPublicProvider](/powershell/module/skype/Set-CsTenantPublicProvider) and [Set-CsTenantFederationConfiguration](/powershell/module/skype/Set-CsTenantFederationConfiguration).</span></span>
   
-<span data-ttu-id="ef592-110">Чтобы узнать, доступна ли информация о лицензировании для указанного клиента в Центре администрирования Skype для бизнеса Online, используйте cmdlet [Get-CsTenantLicensingConfiguration.](/powershell/module/skype/Get-CsTenantLicensingConfiguration)</span><span class="sxs-lookup"><span data-stu-id="ef592-110">To find information about whether licensing information for the specified tenant is available in the Skype for Business Online admin center, use the [Get-CsTenantLicensingConfiguration](/powershell/module/skype/Get-CsTenantLicensingConfiguration) cmdlet.</span></span>
+<span data-ttu-id="8353d-110">Сведения о том, доступны ли сведения о лицензировании для указанного клиента в Центре администрирования Skype для бизнеса Online, см. с помощью [cmdlet Get-CsTenantLicensingConfiguration.](/powershell/module/skype/Get-CsTenantLicensingConfiguration)</span><span class="sxs-lookup"><span data-stu-id="8353d-110">To find information about whether licensing information for the specified tenant is available in the Skype for Business Online admin center, use the [Get-CsTenantLicensingConfiguration](/powershell/module/skype/Get-CsTenantLicensingConfiguration) cmdlet.</span></span>
   
-## <a name="related-topics"></a><span data-ttu-id="ef592-111">Статьи по теме</span><span class="sxs-lookup"><span data-stu-id="ef592-111">Related topics</span></span>
-[<span data-ttu-id="ef592-112">Настройка компьютера для управления интернет-приложением Skype для бизнеса с помощью Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="ef592-112">Set up your computer for skype for business online management using Windows PowerShell</span></span>](set-up-your-computer-for-windows-powershell.md)
+## <a name="related-topics"></a><span data-ttu-id="8353d-111">Статьи по теме</span><span class="sxs-lookup"><span data-stu-id="8353d-111">Related topics</span></span>
+[<span data-ttu-id="8353d-112">Настройка компьютера для управления Skype для бизнеса online с помощью Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="8353d-112">Set up your computer for skype for business online management using Windows PowerShell</span></span>](set-up-your-computer-for-windows-powershell.md)
 
   

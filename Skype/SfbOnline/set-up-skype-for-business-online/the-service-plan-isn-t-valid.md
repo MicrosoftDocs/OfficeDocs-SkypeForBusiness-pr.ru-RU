@@ -1,5 +1,5 @@
 ---
-title: План обслуживания Skype для бизнеса Online пользователя не действует
+title: План обслуживания Skype для бизнеса Online для пользователя не действует
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -20,24 +20,26 @@ f1.keywords:
 ms.custom:
 - Setup
 - ms.lync.lac.ServicePlanNotValid
-description: 'Узнайте, где назначить пользователю допустимый план обслуживания после ошибки "План обслуживания Skype для бизнеса Online не является допустимым". '
-ms.openlocfilehash: a3f7ac1a0816845b24d8580f63165b73ea9c99e9
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: 'Узнайте, как назначить пользователю допустимый план обслуживания после ошибки Skype для бизнеса плана обслуживания Online. '
+ms.openlocfilehash: 3545d0341e7e094ca1152d37a145e3c52640ae50
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769582"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52239475"
 ---
-# <a name="the-users-skype-for-business-online-service-plan-isnt-valid"></a><span data-ttu-id="677d9-103">План обслуживания Skype для бизнеса Online пользователя не действует</span><span class="sxs-lookup"><span data-stu-id="677d9-103">The user's Skype for Business Online service plan isn't valid</span></span>
+# <a name="the-users-skype-for-business-online-service-plan-isnt-valid"></a><span data-ttu-id="dfeec-103">План обслуживания Skype для бизнеса Online для пользователя не действует</span><span class="sxs-lookup"><span data-stu-id="dfeec-103">The user's Skype for Business Online service plan isn't valid</span></span>
 
-<span data-ttu-id="677d9-104">К сожалению, план обслуживания Skype для бизнеса Online, который назначен этому пользователю, не распознан или недействителен.</span><span class="sxs-lookup"><span data-stu-id="677d9-104">Sorry, the Skype for Business Online service plan assigned to this user is not recognized, or is invalid.</span></span>
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
+<span data-ttu-id="dfeec-104">К сожалению, Skype для бизнеса плана обслуживания Online, назначенного этому пользователю, не распознан или недействителен.</span><span class="sxs-lookup"><span data-stu-id="dfeec-104">Sorry, the Skype for Business Online service plan assigned to this user is not recognized, or is invalid.</span></span>
   
-<span data-ttu-id="677d9-105">Перейдите в *Центр администрирования Microsoft 365*\* > **активных пользователей** и назначьте этому пользователю действительный план обслуживания.</span><span class="sxs-lookup"><span data-stu-id="677d9-105">Go to the *Microsoft 365 admin center*\* > **Active users** and assign a valid service plan to this user.</span></span>
+<span data-ttu-id="dfeec-105">Перейдите в *центр администрирования Microsoft 365*\* > **активных пользователей** и назначьте этому пользователю действительный план обслуживания.</span><span class="sxs-lookup"><span data-stu-id="dfeec-105">Go to the *Microsoft 365 admin center*\* > **Active users** and assign a valid service plan to this user.</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="677d9-106">Статьи по теме</span><span class="sxs-lookup"><span data-stu-id="677d9-106">Related topics</span></span>
-[<span data-ttu-id="677d9-107">Настройка Skype для бизнеса Online</span><span class="sxs-lookup"><span data-stu-id="677d9-107">Set up Skype for Business Online</span></span>](set-up-skype-for-business-online.md)
+## <a name="related-topics"></a><span data-ttu-id="dfeec-106">Статьи по теме</span><span class="sxs-lookup"><span data-stu-id="dfeec-106">Related topics</span></span>
+[<span data-ttu-id="dfeec-107">Настройка Skype для бизнеса Online</span><span class="sxs-lookup"><span data-stu-id="dfeec-107">Set up Skype for Business Online</span></span>](set-up-skype-for-business-online.md)
 
-[<span data-ttu-id="677d9-108">Разрешение на добавление контактов Skype пользователям Skype для бизнеса</span><span class="sxs-lookup"><span data-stu-id="677d9-108">Let Skype for Business users add Skype contacts</span></span>](let-skype-for-business-users-add-skype-contacts.md)
+[<span data-ttu-id="dfeec-108">Разрешение на добавление контактов Skype пользователям Skype для бизнеса</span><span class="sxs-lookup"><span data-stu-id="dfeec-108">Let Skype for Business users add Skype contacts</span></span>](let-skype-for-business-users-add-skype-contacts.md)
   
   
  
