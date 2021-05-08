@@ -18,18 +18,20 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
-ms.openlocfilehash: a6a00dc43e578753796cf7a9b03ff7cedfa46ed4
-ms.sourcegitcommit: 80b66127b3415c99f9468625add6a8f2c36bca74
+ms.openlocfilehash: 20da0e58c2f8b47f2c1d84959eb3ae3f69ba377c
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48376562"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52240024"
 ---
 # <a name="set-up-policies-in-your-organization"></a>Настройка политик в организации
 
-Политики помогают определять функции Skype для бизнеса Online, доступные пользователям. Подробные сведения см. в следующих статьях.
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-- [Блокировать передачу файлов по точкам](block-point-to-point-file-transfers.md)
+Политики помогают определить функции веб-Skype для бизнеса, которые доступны пользователям. Подробные сведения см. в следующих статьях.
+
+- [Блокировка передачи файлов по точкам](block-point-to-point-file-transfers.md)
 - [Создание настраиваемых политик внешнего доступа](create-custom-external-access-policies.md)
 - [Сохранение больших файлов, прикрепленных к собранию](retaining-large-files-attached-to-a-meeting.md)
 - [Настройка политик аудиоконференций в организации](set-up-conferencing-policies-for-your-organization.md)

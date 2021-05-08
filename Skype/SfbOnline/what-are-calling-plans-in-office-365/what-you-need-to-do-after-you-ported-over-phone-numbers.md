@@ -1,5 +1,5 @@
 ---
-title: Что необходимо сделать после переноса номеров телефона?
+title: Что необходимо сделать после переноса номеров телефонов?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,22 +22,24 @@ ms.custom:
 - Calling Plans
 - ms.lync.lac.PortOrderFinish
 description: Узнайте, что нужно сделать после переноса номеров телефонов в Skype для бизнеса.
-ms.openlocfilehash: 8dcb74cad8a745fd81b22c0aa68d4f3cedd3502a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: d49fea9315e44f7d126021ec8733143916f5e366
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101865"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52237945"
 ---
-# <a name="what-do-you-need-to-do-after-you-have-ported-over-your-phone-numbers"></a>Что необходимо сделать после переноса номеров телефона?
+# <a name="what-do-you-need-to-do-after-you-have-ported-over-your-phone-numbers"></a>Что необходимо сделать после переноса номеров телефонов?
 
-После отправки заказа на перенос мы свяемся с вашим оператором и разработать с ним подробные сведения. После того как будет установлена окончательная дата передачи, мы уведомим вас по электронной почте. Тем не менее, пока оператор должен принять заказ, создайте необходимые адреса для экстренного помощи, которые будете использовать с этими номерами.
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]?
+
+После отправки заказа на перенос мы свя будем связываться с вашим оператором и проработать с ним подробные сведения. Когда будет установлена окончательная дата передачи, мы уведомим вас по электронной почте. Однако, пока оператор должен принять заказ, создайте необходимые адреса для экстренного устранения проблем, которые будут использовать с этими номерами.
   
-- Узнайте больше о местоположениях для экстренного [вызова, адресах и маршрутах для экстренных вызовов?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing)
+- Подробнее о [том, что такое местоположения для экстренного вызова, адреса и](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing)маршруты звонка? .
     
-- При необходимости [вы можете добавить или](/MicrosoftTeams/add-change-remove-emergency-location-organization) удалить адрес для экстренного решения для своей организации.
+- При необходимости [вы можете добавить](/MicrosoftTeams/add-change-remove-emergency-location-organization) или удалить адрес для обращения в экстренных службах.
     
-- Если на ваших номерах телефонов уже есть адрес для экстренного помощи, добавьте, измените или удалите местоположение для [экстренного экстренного помощи вашей организации.](/MicrosoftTeams/add-change-remove-emergency-place-organization)
+- Если у ваших номеров телефонов уже есть адрес для экстренного устранения проблем, добавьте, измените или удалите местоположение для [экстренного устранения проблем в организации.](/MicrosoftTeams/add-change-remove-emergency-place-organization)
     
 - [Назначение, изменение и удаление номера телефона пользователя](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user)
 

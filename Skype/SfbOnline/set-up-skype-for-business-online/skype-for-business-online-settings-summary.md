@@ -19,20 +19,22 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
-description: 'Эта сводка параметров организации и пользователей Skype для бизнеса поможет вам узнать больше о подключениях к общедоступным мгновенным звонкам, приглашениях на собрания, записи звонков и собраний и не только.  '
-ms.openlocfilehash: d48da549a48cf3326cc55a44d68ca36048fae439
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Эта сводка параметров Skype для бизнеса организации и пользователей поможет вам подробнее узнать о подключениях к общедоступным мгновенным звонкам, приглашениях на собрания, записи звонков и собраний и других действиях.  '
+ms.openlocfilehash: deb1ed7df753377d97c23793278b317a633559b6
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51109925"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52239722"
 ---
 # <a name="skype-for-business-online-settings-summary"></a>Общие сведения о параметрах Skype для бизнеса Online
 
-В **Центре администрирования Skype** для бизнеса есть параметры для всей организации и отдельных пользователей. 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
+В **Skype для бизнеса администрирования** есть параметры для всей организации и отдельных пользователей. 
   
 > [!NOTE]
->  В зависимости от вашего расположения у вас могут быть не все функции Skype для бизнеса Online. Дополнительные сведения [см. в лицензионных ограничениях для Microsoft 365 и Office 365.](/microsoft-365/commerce/) 
+>  В зависимости от вашего расположения, возможно, у вас нет доступа ко всем функциям Skype для бизнеса Online. Дополнительные сведения см. в Microsoft 365 [и Office 365.](/microsoft-365/commerce/) 
   
 ## <a name="skype-for-business-online-organization-settings"></a>Параметры организации Skype для бизнеса online
 <a name="__top"> </a>
@@ -53,7 +55,7 @@ ms.locfileid: "51109925"
 |Аудио и видео  <br/> |Проведение аудио- и видеоконференций с помощью Skype для бизнеса online  <br/> |Включено  <br/> |[Администраторам: настройка параметров Skype для бизнеса для отдельных пользователей](configure-skype-for-business-settings-for-individual-users.md) <br/> |
 |Запись  <br/> |Запись звонков и собраний  <br/> |Включено  <br/> |[Администраторам: настройка параметров Skype для бизнеса для отдельных пользователей](configure-skype-for-business-settings-for-individual-users.md) <br/> |
 |Обратный вызов для анонимных участников  <br/> |Разрешение анонимным участникам собрания Skype для бизнеса online подключаться к аудиоконференции посредством обратного вызова от поставщика услуг аудиоконференций  <br/> |Включено  <br/> |[Администраторам: настройка параметров Skype для бизнеса для отдельных пользователей](configure-skype-for-business-settings-for-individual-users.md) <br/> |
-|Отключение неархивных функций  <br/> | Отключать функции, которые не захватываются, когда организация настроит добавление контента в дело и поместите источники на удержание в Центре [eDiscovery](/SharePoint/governance/add-content-to-a-case-and-place-sources-on-hold-in-the-ediscovery-center) в Центре администрирования Exchange: <br/>  Передача файлов через службу мгновенных сообщений <br/>  Общие страницы OneNote <br/>  Примечания PowerPoint <br/>  Включите этот параметр, если требуется сохранять данные в электронной форме. <br/> |Отключено  <br/> |[Администраторам: настройка параметров Skype для бизнеса для отдельных пользователей](configure-skype-for-business-settings-for-individual-users.md) <br/> |
+|Отключение неархивных функций  <br/> | Отключая функции, не захватимые, когда в организации настроено добавление контента в дело и удержание источников в Центре [eDiscovery](/SharePoint/governance/add-content-to-a-case-and-place-sources-on-hold-in-the-ediscovery-center) в Центре администрирования Exchange администрирования: <br/>  Передача файлов через службу мгновенных сообщений <br/>  Общие страницы OneNote <br/>  Примечания PowerPoint <br/>  Включите этот параметр, если требуется сохранять данные в электронной форме. <br/> |Отключено  <br/> |[Администраторам: настройка параметров Skype для бизнеса для отдельных пользователей](configure-skype-for-business-settings-for-individual-users.md) <br/> |
    
 ## <a name="related-topics"></a>Статьи по теме
 [Настройка Skype для бизнеса Online](set-up-skype-for-business-online.md)

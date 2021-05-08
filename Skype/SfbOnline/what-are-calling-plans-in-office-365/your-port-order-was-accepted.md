@@ -22,24 +22,26 @@ ms.custom:
 - Calling Plans
 - ms.lync.lac.PortOrderQuickViewPanelTransferAccepted
 description: 'What it means when your port order has been accepted, and what you need to do next to finish your Skype for Business set up. '
-ms.openlocfilehash: eaef2e9f66284db50ff85e5222cd11b4df433899
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 28357a28deaae6aa07606e8cc79ac2ec56fa2f04
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101845"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52237785"
 ---
 # <a name="your-port-order-was-accepted"></a>Ваш заказ на перенос номера принят
 
-Ваш заказ на перенос будет утвержден! Номера телефонов можно искать в **центре администрирования Skype** для бизнеса на номера  >    >  **голосовых телефонов.**
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
+Ваш заказ на перенос утвержден! Номера телефонов можно искать в центре **администрирования Skype для бизнеса**  >  **голосовой**  >  **Телефон номера.**
   
  **ВАЖНО!** Чтобы в левой области навигации Центра администрирования Skype для бизнеса появился элемент **Голосовая связь**, необходимо приобрести хотя бы одну **лицензию уровня корпоративный E5**, лицензию на надстройку **Телефонная система** либо лицензию на надстройку **Аудиоконференция**.
   
 После утверждения и готовности номеров телефонов вам потребуется сделать несколько вещей, чтобы настроить все.
   
-- Убедитесь, что у вас есть лицензии на надстройки Skype для бизнеса [и Microsoft Teams.](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md) Вам потребуется телефонная **система** и план **внутренних звонков** или **план международных звонков.**
+- Обязательно Skype для бизнеса [и Microsoft Teams надстройки](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md). Вам потребуется  план для телефонная система **и** внутренних звонков или **план международных звонков.**
     
-- Создайте [](/MicrosoftTeams/add-change-remove-emergency-location-organization) адрес для добавления или удаления адреса для экстренного устранения экстренных служб для своей организации и при его создании[добавьте,](/MicrosoftTeams/add-change-remove-emergency-place-organization) измените или удалите местоположение для экстренного экстренного ситуации для вашей организации (в некоторых странах и регионах адрес для экстренного экстренного помощи вы получаете вместе с номером телефона).
+- Создайте [](/MicrosoftTeams/add-change-remove-emergency-location-organization) адрес для добавления или удаления адреса для экстренного устранения экстренных ситуаций для своей организации и при этом[добавьте,](/MicrosoftTeams/add-change-remove-emergency-place-organization) измените или удалите местоположение для экстренного устранения (в некоторых странах и регионах адрес для экстренного устранения проблемы вы получаете вместе с номером телефона).
     
 - Затем [назначьте, измените или удалите номер](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user)телефона пользователя.
 
