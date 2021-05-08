@@ -20,17 +20,19 @@ f1.keywords:
 ms.custom:
 - Licensing
 - LIL_Placement
-description: 'Узнайте о лицензиях на надстройки и функции для планов для gov, EDU и некоммерческих организаций. '
-ms.openlocfilehash: ea3ac1e76f16de7a5cc7d9e32f16299bc348a613
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+description: 'Узнайте о лицензиях на надстройки и функции для планов gov, EDU и некоммерческих организаций. '
+ms.openlocfilehash: a9a0ca689c3e67927ee2d03636da296bbdf35c9a
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692504"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52237425"
 ---
 # <a name="gov-edu-and-non-profit-organizations"></a>Государственные, образовательные и некоммерческие организации
 
-Большинство функций Skype для бизнеса доступны для .gov, .edu и некоммерческих организаций. Подробные сведения приведены в следующей таблице.
+[!INCLUDE [sfbo-retirement](../../../Hub/includes/sfbo-retirement.md)]
+
+Большинство Skype для бизнеса доступны для .gov, .edu и некоммерческих организаций. Подробные сведения приведены в следующей таблице.
 
 |**Функция Skype для бизнеса**|**Доступна для .GOV (GCC)**|**Доступна для .GOV (не GCC)**|**Доступна для .EDU**|**Доступна для некоммерческих организаций**|
 |:-----|:-----|:-----|:-----|:-----|
