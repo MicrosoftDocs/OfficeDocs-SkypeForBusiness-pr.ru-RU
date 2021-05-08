@@ -20,14 +20,16 @@ ms.custom:
 - PowerShell
 - LIL_Placement
 description: Скачайте, установите и используйте Windows PowerShell 5.1, чтобы создать удаленный сеанс PowerShell, соединяющийся с приложением Skype для бизнеса Online.
-ms.openlocfilehash: ed719a2df084c968c622a54fe145647b2d7b7aa8
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: fb73ccdf63cc64cbe309de1ff5223090d1c282bb
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120338"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52239336"
 ---
 # <a name="download-and-install-windows-powershell-51"></a>Скачивание и установка Windows PowerShell 5.1
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 Если вы используете юбилейное обновление Windows 10 или Windows Server 2016, у вас уже должно быть приложение Windows PowerShell 5.1. Это обусловлено тем, что это приложение входит в состав этих операционных систем.
   

@@ -18,38 +18,40 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
-description: Вы можете предоставить пользователям Skype для бизнеса возможность использования встроенного средства обратной связи в приложении Skype для бизнеса, позволяя пользователям сообщать о проблемах и напрямую сообщать майкрософт об их впечатлениях.
-ms.openlocfilehash: 0c9045a899905e1e09176d086a70bc820267643d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Вы можете предоставить пользователям Skype для бизнеса возможность использовать встроенное средство обратной связи Skype для бизнеса приложения, чтобы пользователи могли сообщать о проблемах и напрямую сообщать корпорации Майкрософт об их впечатлениях.
+ms.openlocfilehash: 151ba9ee82c95f088f5c7fc87de3a06ce609ab01
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51106585"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52239102"
 ---
 # <a name="turn-on-or-off-skype-for-business-client-feedback-reporting"></a>Включение и выключение отчетов и отзывов клиентов в Skype для бизнеса
 
-Вы можете предоставить пользователям Skype для бизнеса Online возможность использования встроенного средства обратной связи в приложении Skype для бизнеса, позволяя пользователям сообщать о проблемах и напрямую сообщать майкрософт об их впечатлениях. 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
+Вы можете позволить пользователям Skype для бизнеса Online использовать встроенное средство обратной связи Skype для бизнеса приложения, чтобы позволить пользователям сообщать о проблемах и напрямую предоставлять корпорации Майкрософт отзывы об их впечатлениях. 
   
-![Значок "Предоставить отзыв"](../images/eac13837-04d9-4da1-8e80-54612cf6650d.png)
+![Значок "Обратная связь"](../images/eac13837-04d9-4da1-8e80-54612cf6650d.png)
   
-С помощью этого средства пользователь может скопировать журналы из приложения на своем устройстве, чтобы помочь корпорации Майкрософт лучше изучить и устранить проблемы, которые могут возникнуть у него. 
+С помощью этого средства пользователь может скопировать журналы из приложения на своем устройстве, чтобы помочь корпорации Майкрософт лучше исследовать и устранять проблемы, которые могут возникнуть у него. 
   
-![Сообщение о проблеме с помощью значка "Параметры"](../images/2dfb5603-1d69-41fc-a43e-91a3379acbe0.png)
+![Сообщение о проблеме с помощью Параметры значка](../images/2dfb5603-1d69-41fc-a43e-91a3379acbe0.png)
   
 Кроме того, с помощью параметра  _EnableOnlineFeedbackScreenshot_ пользователи могут добавлять в отзывы снимки экранов своих устройств.
   
 ![Skype for Business client reporting form.](../images/d859578d-8116-4d4b-a08f-c0cae28b8b76.png)
   
 > [!IMPORTANT]
-> Журналы, собранные средством обратной связи приложения, хранятся в США не более 90 дней, пока ведется работа по ее исследованию. В связи с этим просим не активировать данную функцию, если это условие нарушает действующую в вашей организации политику защиты данных. 
+> Журналы, собранные средством обратной связи приложения, хранятся в США не более 90 дней, пока ведется исследование проблемы. В связи с этим просим не активировать данную функцию, если это условие нарушает действующую в вашей организации политику защиты данных. 
   
-## <a name="start-windows-powershell"></a>Начать Windows PowerShell
+## <a name="start-windows-powershell"></a>Начните Windows PowerShell
 
 > [!NOTE]
-> Соединитель Skype для бизнеса Online сейчас входит в состав последнего модуля Teams PowerShell. Если вы используете последний общедоступный выпуск Teams PowerShell, вам не нужно устанавливать соединитель Skype для бизнеса Online.
-1. Установите модуль [Teams PowerShell.](/microsoftteams/teams-powershell-install)
+> Skype для бизнеса В настоящее время Online Connector является частью последней версии Teams PowerShell. Если вы используете последний общедоступный Teams PowerShell, вам не нужно устанавливать Skype для бизнеса Online Connector.
+1. Установите модуль [Teams PowerShell](/microsoftteams/teams-powershell-install).
     
-2. Откройте Windows PowerShell и запустите следующие команды: 
+2. Откройте Windows PowerShell командную команду и запустите следующие команды: 
 
    ```powershell
    # When using Teams PowerShell Module
@@ -58,23 +60,23 @@ ms.locfileid: "51106585"
    $userCredential = Get-Credential
    Connect-MicrosoftTeams -Credential $userCredential
    ```
-   Если вам нужна дополнительные сведения о запуске Windows PowerShell, см. сведения о подключении к всем службам [Microsoft 365 или Office 365](/microsoft-365/enterprise/connect-to-all-microsoft-365-services-in-a-single-windows-powershell-window) в одном окне Windows PowerShell или настройка компьютера [для](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)Windows PowerShell.
+   Дополнительные сведения о запуске Windows PowerShell см. в Подключение всех службах Microsoft 365 или [Office 365](/microsoft-365/enterprise/connect-to-all-microsoft-365-services-in-a-single-windows-powershell-window) в одном окне Windows PowerShell или Настройка компьютера [для](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)Windows PowerShell.
    
 ## <a name="turn-on-client-app-feedback-reporting-for-all-the-users-in-your-organization"></a>Включение средства обратной связи в клиентском приложении для всех пользователей в организации
 
-Чтобы включить отчеты о отзывах для пользователей в организации и разрешить им отправлять снимки экрана устройств, запустите 3
+Чтобы включить отчеты о отзывах для пользователей в организации и разрешить им отправлять снимки экрана устройства, запустите:
  
   ```PowerShell
   Set-CsClientPolicy -Identity EnableOnlineFeedback -EnableOnlineFeedback $true -EnableOnlineFeedbackScreenshots $true
   ```
 ## <a name="want-to-know-more-about-windows-powershell"></a>Хотите узнать больше о Windows PowerShell?
-- Windows PowerShell is all about managing users and what users are allowed or not allowed to do. С Windows PowerShell вы можете управлять Microsoft 365, Office 365 и Skype для бизнеса Online, используя единый пункт администрирования, который упростит выполнение ваших повседневных задач. Чтобы начать работу с Windows PowerShell, ознакомьтесь с приведенными ниже разделами.
+- Windows PowerShell is all about managing users and what users are allowed or not allowed to do. С Windows PowerShell вы можете управлять Microsoft 365 или Office 365 и Skype для бизнеса Online, используя единый пункт администрирования, который упростит выполнение ваших повседневных задач. Чтобы начать работу с Windows PowerShell, ознакомьтесь с приведенными ниже разделами.
     
   - [Введение в Windows PowerShell и Skype для бизнеса Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-  - [Шесть причин, по которым может потребоваться использовать Windows PowerShell для управления Microsoft 365 или Office 365](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+  - [Шесть причин, по которым может потребоваться использовать Windows PowerShell управление Microsoft 365 или Office 365](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-- Windows PowerShell имеет множество преимуществ в скорости, простоте и эффективности работы по сравнению с использованием только Центра администрирования Microsoft 365, например при внесении изменений для множества пользователей одновременно. Подробнее об этих преимуществах можно узнать в следующих разделах:
+- Windows PowerShell имеет множество преимуществ в скорости, простоте и эффективности работы по сравнению с использованием только центра администрирования Microsoft 365, например при внесении изменений для множества пользователей одновременно. Подробнее об этих преимуществах можно узнать в следующих разделах:
     
   - [Лучшие способы управления Microsoft 365 или Office 365 с помощью Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     

@@ -18,15 +18,17 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - PowerShell
-description: Узнайте требования для удаленного управления Skype для бизнеса Online Windows PowerShell, включая поддерживаемые операционные системы.
-ms.openlocfilehash: 35b6589e8452bdee46eda626a321e0c75b9f9775
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Узнайте о требованиях к удаленному управлению Skype для бизнеса Online через Windows PowerShell, включая поддерживаемые операционные системы.
+ms.openlocfilehash: df3c9da68b27a235460515e9f27f88fa15c182e0
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51113145"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52238715"
 ---
 # <a name="set-up-your-computer-for-windows-powershell"></a>Настройка компьютера для Windows PowerShell
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 Удаленное управление Skype для бизнеса Online с помощью Microsoft PowerShell поддерживается только на 64-битных компьютерах с одной из следующих операционных систем:
 
@@ -46,19 +48,19 @@ ms.locfileid: "51113145"
     
 - Windows 7
     
-Кроме поддерживаемой операционной системы, на компьютере также должны быть запущены следующие системы:
+В дополнение к поддерживаемой операционной системе на компьютере должны быть запущены следующие:
   
-- PowerShell
+- Powershell
     
-- Модуль Teams PowerShell 
+- Teams Модуль PowerShell 
     
-Сведения о скачии и установке этих элементов можно найти в следующих статьи:
+Сведения о скачии и установке этих элементов можно найти в следующих темах:
   
 - [Скачивание и установка модуля Teams Powershell](/MicrosoftTeams/teams-powershell-install#install-the-teams-powershell-module)
     
 - [Загрузка и установка Windows PowerShell 5.1](download-and-install-windows-powershell-5-1.md)
 
-- [Управление Skype для бизнеса Online с помощью Office 365 PowerShell](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)
+- [Управление Skype для бизнеса Online с Office 365 PowerShell](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)
     
 ## <a name="related-topics"></a>Статьи по теме
 [Диагностика проблем с подключением соединитела Skype для бизнеса Online](diagnose-problems-with-the-skype-for-business-online-connector.md)

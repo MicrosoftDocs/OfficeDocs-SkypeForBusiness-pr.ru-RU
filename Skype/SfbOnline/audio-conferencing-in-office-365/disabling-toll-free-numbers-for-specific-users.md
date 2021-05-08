@@ -20,21 +20,23 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Администраторы управляют тем, как организаторы могут использовать бесплатные номера для их собраний.
-ms.openlocfilehash: 42323afd397612c3cdc0549bdcc33b16cfdae9ea
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 4fae54e3ed140ab876e6fadef10907e40f59057e
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41695684"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52238514"
 ---
 # <a name="disabling-toll-free-numbers-for-specific-skype-for-business-online-users"></a>Отключение бесплатных номеров для определенных пользователей Skype для бизнеса Online
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
  
 > [!Note]
 > Для получения информации об отключении бесплатных номеров для пользователей Teams см.  [Отключение бесплатных номеров для определенных пользователей Teams](/MicrosoftTeams/disabling-toll-free-numbers-for-specific-teams-users).
 
 Если в организации имеются бесплатные номера моста аудиоконференций Microsoft, можно разрешить или запретить их использование на собраниях определенных организаторов.  
 
-By default, all users in your organization are enabled for using toll-free numbers, meaning that those numbers, if available, can be used by participants to join their meetings. If this is not the desired behavior for some users in your organization, you can restrict specific users from using those numbers in their meetings via a toll-free number enablement control. 
+По умолчанию для всех пользователей в организации разрешены бесплатные номера, что означает, что эти номера (при наличии) могут использовать участники для присоединения к собраниям. Если это является нежелательным для некоторых пользователей в организации, можно запретить для определенных пользователей использование этих номеров на собраниях с помощью средства управления бесплатными номерами. 
 
 Если бесплатные номера отключены для определенного организатора 
  - Бесплатный номер не будет включен в приглашения на собрания. 
@@ -49,15 +51,15 @@ By default, all users in your organization are enabled for using toll-free numbe
 
 ## <a name="disabling-toll-free-numbers-for-specific-users"></a>Отключение бесплатных номеров для определенных пользователей 
 
-В Центре **администрирования Microsoft Teams:**
+В центре **Microsoft Teams администрирования:**
 
-1. В области навигации слева **щелкните**"Пользователи" и выберите пользователя в списке доступных пользователей.
+1. В левой области навигации щелкните **Пользователи** и выберите пользователя из списка доступных пользователей.
 
 2. Рядом с пунктом **Аудиоконференции** нажмите **Изменить**.
 
-3. Set **Include toll-free numbers in meeting requests from this user** to **Off.** 
+3. Установить **Включить бесплатные номера в запросы на** собрания от этого пользователя в **выключенное .** 
 
-4. Нажмите **кнопку "Сохранить".** 
+4. Нажмите **кнопку Сохранить.** 
  
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]

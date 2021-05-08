@@ -1,5 +1,5 @@
 ---
-title: 'Видео: внешняя связь в Skype для бизнеса Online'
+title: Видео Skype для бизнеса внешней связи в Интернете
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -18,19 +18,21 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
-description: 'Узнайте, как настроить внешнюю связь в Skype для бизнеса Online, чтобы ваши пользователи могли общаться с внешними контактами Skype. '
-ms.openlocfilehash: 52b43ea21f9f0aa56b923355cfc936f334f1607f
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+description: 'Узнайте, как настроить внешние Skype для бизнеса общения в Интернете для общения с внешними Skype контактами. '
+ms.openlocfilehash: 4ac480ff162b61db7bff4d71f9915f059838c65d
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44164488"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52238985"
 ---
 # <a name="video-skype-for-business-online-external-communications"></a>Видео: Внешняя связь в Skype для бизнеса Online
 
-Настройка внешней связи в Skype для бизнеса Online для общения пользователей с внешними контактами Skype для бизнеса, Lync и Skype.
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
- **Аудитория:** Администраторы Microsoft 365 и Office 365
+Настройка внешней Skype для бизнеса в Интернете, чтобы пользователи могли общаться с внешними Skype для бизнеса контактами, Lync и Skype контактами.
+
+ **Аудитория: Microsoft 365** и Office 365 администраторов
 
 ***
 > [!VIDEO https://videoplayercdn.osi.office.net/hub/?csid=ux-cms-en-us-msoffice&uuid=492278f0-6912-47ba-a1d1-00040061cf44&AutoPlayVideo=false]
@@ -38,7 +40,7 @@ ms.locfileid: "44164488"
 ***
   
 ## <a name="related-topics"></a>Статьи по теме
-[Настройка внешней связи в Skype для бизнеса Online](https://support.microsoft.com/help/10041/set-up-lync-online-external-communications) (поведение в интерактивном поведении)
+[Настройка внешних Skype для бизнеса в Интернете](https://support.microsoft.com/help/10041/set-up-lync-online-external-communications) (по поведению)
 
 [Разрешение пользователям связываться с внешними пользователями Skype для бизнеса](allow-users-to-contact-external-skype-for-business-users.md)
 
