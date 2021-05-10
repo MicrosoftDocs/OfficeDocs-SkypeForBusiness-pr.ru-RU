@@ -617,6 +617,8 @@ items:
             href: google-workspace-addon-teams.md
           - name: Облако видеовзаимодействия
             href: cloud-video-interop.md
+          - name: "Подготовка к вебинарам в Microsoft\_Teams"
+            href: set-up-webinars.md
       - name: Аудиоконференции
         items:
           - name: Планирование развертывания
@@ -1459,8 +1461,6 @@ items:
             href: flw-realwear.md
           - name: Walkie Talkie
             href: walkie-talkie.md
-          - name: Создание приложения портала интрасети Teams с сайта или страницы SPO
-            href: teams-standalone-static-tabs-using-spo-sites.md
       - name: Teams для розничной торговли
         href: expand-teams-across-your-org/teams-for-retail-landing-page.md
         items:
