@@ -1269,14 +1269,14 @@ items:
             href: business-voice/set-up-assign-numbers.md
           - name: Шаг 6. Настройка автосекретаря
             href: business-voice/set-up-auto-attendant.md
+          - name: Шаг 7. Перенос номеров телефонов (необязательно)
+            href: business-voice/port-phone-numbers.md
           - name: Ресурсы после настройки
             href: business-voice/set-up-finish.md
       - name: Настройка установки
         items:
           - name: Параметры настройки
             href: business-voice/customize-business-voice.md
-          - name: Перенос номеров телефонов
-            href: business-voice/port-phone-numbers.md
           - name: Настройка политик звонков
             href: business-voice/set-up-policies.md
           - name: Управление пакетами политик
