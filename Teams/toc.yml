@@ -447,6 +447,14 @@ items:
                 href: teams-analytics-and-reports/pstn-usage-report.md
               - name: Отчет об использовании трансляций в Teams
                 href: teams-analytics-and-reports/teams-live-event-usage-report.md
+      - name: 'Файлы журнала, работоспособность служб и поддержка'
+        items:
+          - name: Использование файлов журнала для мониторинга и устранения неполадок в Teams
+            href: log-files.md
+          - name: Проверка работоспособности служб для Teams
+            href: service-health.md
+          - name: Как найти ПИН-код поддержки
+            href: support-pin.md
   - name: 'Чат, команды и каналы'
     items:
       - name: Планирование развертывания
@@ -1363,6 +1371,8 @@ items:
             href: teams-custom-app-policies-and-settings.md
           - name: Настройка параметров в Teams
             href: customize-apps.md
+          - name: Обновление функций для приложений
+            href: apps-update-experience.md
   - name: Руководство для отраслей и государственных организаций
     items:
       - name: Обзор

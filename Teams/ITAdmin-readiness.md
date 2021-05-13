@@ -16,82 +16,90 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.dashboard.trainingvideos.admintrainingteams
 - seo-marvel-mar2020
-description: Обучающие видео, презентации PowerPoint, учебники и другие ресурсы для администраторов по планированию, развертыванию и запуску Microsoft Teams.
+description: Обучающие видео, PowerPoint, учебники и другие ресурсы для администраторов по планированию, развертыванию и запуску Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f5015317fb2aff22cdc53fb30f62e6d4ea8c2237
-ms.sourcegitcommit: b52b6aba289396c4fc10dd856817137eb1bc1f67
+ms.openlocfilehash: c4d75ce28d6c9e23c9fdf0c24ee284a9ba0a4902
+ms.sourcegitcommit: 50ec59b454e751d952cde9fd13c8017529d0e1d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "51617802"
+ms.lasthandoff: 05/13/2021
+ms.locfileid: "52469571"
 ---
-# <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Начало работы с обучением администраторов по Microsoft Teams
+# <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Начало работы с обучением администраторов Microsoft Teams
 
-Обучающие ресурсы поучают вас о Teams, учитесь у других или проводите семинары. Сюда часто проверяйте новые материалы.
+Воспользуйтесь учебными ресурсами, чтобы проучить себя Teams, обучить других или проводить семинары. Часто проверяйте здесь, чтобы посмотреть новое содержимое.
 
-|               |               |               |               |
+|       Значок        | Описание               |    Значок           |Описание               |
 | :------------ | :------------ | :------------ | :------------ |
-| ![Значок с изображением руки и стрелки вверх](/office/media/icons/get-started-teams.png) | [Быстрое начало работы с несколькими командами и каналами](./get-started-with-teams-quick-start.md) | ![Значок с изображением двух пользователей](/office/media/icons/users-people.png) | [Обучение пользователей](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7) |
-| ![Значок с изображением контрольного знака](/office/media/icons/success-teams.png) | [Просмотр видеороликов с лучшими методиками и поучаний в канале Coffee в облаке на Сайте YouTube](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) | ![Символ буфера обмена задач](/office/media/icons/task-checklist-planning-teams.png) | [Teams Chalk Talks: изучите рекомендации и практические рекомендации по популярным сценариям Teams](./chalk-talks-landing-page.yml) |
+| [Начните отсюда](./get-started-with-teams-quick-start.md) | [Просмотр Teams по платформам](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3) |
+| [Просмотр лучших методик и видео с поучаами в канале "Кофе" в облачном канале на сайте YouTube](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) | [Teams Беседы на мелком: изучите рекомендации и практические рекомендации по популярным Teams сценариям](./chalk-talks-landing-page.yml) |
 
-<h2>Технические курсы</h2>
+<h2>Ключевые учебные предложения и курсы</h2>
 
-| Module | Видео | Презентации PowerPoint  |
+|   Значок            | Описание              |  Значок             |    Описание           |
+| :------------ | :------------ | :------------ | :------------ |
+| [Поддержка удаленных сотрудников с помощью Microsoft Teams](support-remote-work-with-teams.md#support-remote-workers-using-microsoft-teams) | [Teams для ИТ](https://aka.ms/MicrosoftTeamsforIT) | [Управление совместной работой группы для ИТ-2016](/learn/paths/m365-manage-team-collaboration) | [Сертификация специалиста по внедрению служб](/learn/paths/m365-service-adoption) |
+| [Общие сведения о командной работе в Microsoft 365](/learn/modules/intro-to-teamwork-in-m365/index) | [Сертификат Microsoft 365: помощник администратора командной работы](/learning/m365-teamwork-administrator.aspx) |
+
+
+<h2>Техническое обучение</h2>
+
+| Модуль | Видео | PowerPoint с PowerPoint  |
 | ------------ | -------------------- | -------------------- |
-| [Microsoft Mechanics — канал YouTube Teams Essentials для ИТ-поддержки](https://aka.ms/MicrosoftTeamsforIT) | [Видео: Teams Essentials for IT](https://www.youtube.com/watch?v=MfDB7VenWuA&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn) (10:13 min)<br>[Видео: развертывание & Настройки Teams — intro](https://www.youtube.com/watch?v=o2mlsUubIO4&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn&index=2) (8:22 мин)  <br>[Видео: безопасность и соответствие](https://youtu.be/91lHNKVVvQ4) требованиям (12:42 мин)<br>[Видео: средства контроля безопасности и](https://www.youtube.com/watch?v=Km4T4hMM__k) соответствия требованиям Teams (10:54 мин)||
-| Foundations — основные компоненты | [Видео](https://aka.ms/teams-foundations) | [Deck](https://aka.ms/teams-foundations-deck) |
-| Клиент для настольных ПК Windows | [Видео](https://aka.ms/teams-clients) | [Deck](https://aka.ms/teams-clients-deck) |
-| Управление, управление и жизненный цикл | [Видео](https://aka.ms/teams-governance) | [Deck](https://aka.ms/teams-governance-deck) |
-| Соответствие & безопасности | [Видео](https://aka.ms/teams-security-compliance) | [Deck](https://aka.ms/teams-security-compliance-deck) |
-| Обзор качества звонка | [Видео](https://aka.ms/teams-quality) | [Deck](https://aka.ms/teams-quality-deck) |
-| Введение в собрания | [Видео](https://aka.ms/teams-meetings-intro) | [Deck](https://aka.ms/teams-meetings-intro-deck) |
-| Мультимедиа: чем простые собрания|[Видео](https://aka.ms/media-in-teams)  | [Deck](https://aka.ms/media-in-teams-deck)|
-| Мультимедиа: поток мультимедиа | [Видео](https://aka.ms/teams-media-flows) | [Deck](https://aka.ms/teams-media-flows-deck)  |
-| Динамические экстренные вызовы | [Видео](https://aka.ms/teams-dec) |  [Deck](https://aka.ms/teams-dec-deck) |
-| Трансляции | [Видео](https://aka.ms/teams-live-events-session) | [Deck](https://aka.ms/teams-live-events-deck) |
-| Введение в телефонную систему | [Видео](https://aka.ms/teams-phone-system) | [Deck](https://aka.ms/teams-phone-system-deck) |
-| Прямая маршрутия | [Видео 1. Планирование прямой маршрутии в Teams](https://aka.ms/teams-dr-plan)<br>[Видео 2. Настройка прямой маршрутки в Teams и управление этой возможностью](https://aka.ms/teams-dr-config)<br>[Видео 3. Переход на прямую маршрутику в Teams](https://aka.ms/teams-dr-migrate)  | [Deck](https://aka.ms/teams-direct-routing-deck) |
-| Переход со Skype для бизнеса на Teams | [Видео 1. Введение в обновление](https://aka.ms/teams-upgrade-intro)</br>[Видео 2. Планирование обновления](https://aka.ms/teams-upgrade-plan)</br>[Видео 3. Сосуществование и сотрудничество](https://aka.ms/teams-upgrade-coexistence-interop)</br>[Видео 4. Опыт администратора](https://aka.ms/teams-upgrade-admin) | [Deck](https://aka.ms/teams-upgrade-deck)|
+| [Microsoft Mechanics — Teams Essentials для ИТ-канала YouTube](https://aka.ms/MicrosoftTeamsforIT) | [Видео: Teams основные](https://www.youtube.com/watch?v=MfDB7VenWuA&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn) 10:13 мин.<br>[Видео. Развертывание & настройки Teams - Intro](https://www.youtube.com/watch?v=o2mlsUubIO4&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn&index=2) (8:22 мин)  <br>[Видео: безопасность и соответствие](https://youtu.be/91lHNKVVvQ4) требованиям (12:42 мин)<br>[Видео: Teams безопасности и соответствия](https://www.youtube.com/watch?v=Km4T4hMM__k) требованиям (10:54 мин)||
+| Foundations — основные компоненты | [Видео](https://aka.ms/teams-foundations) | [Палубе](https://aka.ms/teams-foundations-deck) |
+| Windows Клиент для настольных ПК | [Видео](https://aka.ms/teams-clients) | [Палубе](https://aka.ms/teams-clients-deck) |
+| Управление, управление и жизненный цикл | [Видео](https://aka.ms/teams-governance) | [Палубе](https://aka.ms/teams-governance-deck) |
+| Соответствие & безопасности | [Видео](https://aka.ms/teams-security-compliance) | [Палубе](https://aka.ms/teams-security-compliance-deck) |
+| Обзор качества звонка | [Видео](https://aka.ms/teams-quality) | [Палубе](https://aka.ms/teams-quality-deck) |
+| Знакомство с собраниями | [Видео](https://aka.ms/teams-meetings-intro) | [Палубе](https://aka.ms/teams-meetings-intro-deck) |
+| Мультимедиа: почему собрания простые|[Видео](https://aka.ms/media-in-teams)  | [Палубе](https://aka.ms/media-in-teams-deck)|
+| Мультимедиа — поток мультимедиа | [Видео](https://aka.ms/teams-media-flows) | [Палубе](https://aka.ms/teams-media-flows-deck)  |
+| Динамические экстренные вызовы | [Видео](https://aka.ms/teams-dec) |  [Палубе](https://aka.ms/teams-dec-deck) |
+| Трансляции | [Видео](https://aka.ms/teams-live-events-session) | [Палубе](https://aka.ms/teams-live-events-deck) |
+| телефонная система введение | [Видео](https://aka.ms/teams-phone-system) | [Палубе](https://aka.ms/teams-phone-system-deck) |
+| Прямая маршрутия | [Видео 1. Планирование прямой маршрутии в Teams](https://aka.ms/teams-dr-plan)<br>[Видео 2. Настройка и управление прямой маршрутией в Teams](https://aka.ms/teams-dr-config)<br>[Видео 3. Переход на прямую маршрутику в Teams](https://aka.ms/teams-dr-migrate)  | [Палубе](https://aka.ms/teams-direct-routing-deck) |
+| Переход со Skype для бизнеса на Teams | [Видео 1. Введение в обновление](https://aka.ms/teams-upgrade-intro)</br>[Видео 2. Планирование обновления](https://aka.ms/teams-upgrade-plan)</br>[Видео 3. Сосуществование и совместное сотрудничество](https://aka.ms/teams-upgrade-coexistence-interop)</br>[Видео 4. Опыт администратора](https://aka.ms/teams-upgrade-admin) | [Палубе](https://aka.ms/teams-upgrade-deck)|
 
-<h2>Teams Rooms Foundations для ИТ-& AV Pros</h2>
+<h2>Комнаты Teams Основы для ИТ-& av Pros</h2>
 
-<p>В таблице ниже представлены ссылки на полный обучающий видеоролик с наборами презентаций PowerPoint (в формате PDF) в комнатах Microsoft Teams.  
+<p>В следующей таблице содержатся ссылки на полное обучающее видео с PowerPoint наборов (в формате PDF) на Комнаты Microsoft Teams.  
 
-| Module | Видео | Презентации PowerPoint (PDF)  |
+| Модуль | Видео | PowerPoint (PDF)  |
 | ------------ | -------------------- | -------------------- |
-| Модуль 1. Введение в комнаты Microsoft Teams (18:29 мин) | [Видео](https://www.youtube.com/watch?v=LpFQ24S8QlY) | [Deck](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-1-introduction-to-microsoft-teams-rooms.pdf?raw=true) |
-| Модуль 2. Сеть Microsoft Teams (34:10 мин) | [Видео](https://www.youtube.com/watch?v=CqQX4Mg0f1k) | [Deck](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-2-network-readiness.pdf?raw=true) |
-| Модуль 3. Выбор устройства для нужного места (18:45 мин) | [Видео](https://www.youtube.com/watch?v=jUac7mT7xP4) | [Deck](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-3-choosing-the-right-device.pdf?live=true) |
-| Модуль 4. Развертывание комнат Microsoft Teams (56:36 мин) | [Видео](https://www.youtube.com/watch?v=IJZPczMAsEM) | [Deck](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-4-deployment.pdf?raw=true) |
-| Модуль 5. Настройка и запуск комнат Microsoft Teams (32:27 мин) | [Видео](https://www.youtube.com/watch?v=Q_6F6CNcpxI) | [Deck](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-5-starting-and-configuring-teams-rooms.pdf?raw=true) |
-| Модуль 6. Управление комнатами Microsoft Teams, часть 1 (18:31 мин) | [Видео](https://www.youtube.com/watch?v=XMoZa9XGQfw) | [Deck](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-6-managing-teams-rooms-part-1.pdf?raw=true) |
-| Модуль 7. Управление комнатами Microsoft Teams, часть 2 (41:06 мин) | [Видео](https://www.youtube.com/watch?v=vDCYM5sKylc) | [Deck](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-7-managing-teams-rooms-part-2.pdf?raw=true) |
-| Модуль 8. Комнаты Microsoft Teams — советы, рекомендации и устранение неполадок (18:14 мин)|[Видео](https://www.youtube.com/watch?v=W3b-iRrFECA)  | [Deck](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8a-tips-tricks-troubleshooting.pdf?raw=true)|
-| One-touch Join Instructions |  | [Deck](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8b-one-touch-join-instructions.pdf?raw=true)  |
+| Модуль 1. Введение в Комнаты Microsoft Teams (18:29 мин) | [Видео](https://www.youtube.com/watch?v=LpFQ24S8QlY) | [Палубе](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-1-introduction-to-microsoft-teams-rooms.pdf?raw=true) |
+| Модуль 2. Microsoft Teams сети (34:10 мин) | [Видео](https://www.youtube.com/watch?v=CqQX4Mg0f1k) | [Палубе](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-2-network-readiness.pdf?raw=true) |
+| Модуль 3. Выбор устройства для нужного места (18:45 мин) | [Видео](https://www.youtube.com/watch?v=jUac7mT7xP4) | [Палубе](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-3-choosing-the-right-device.pdf?live=true) |
+| Модуль 4. Развертывание Комнаты Microsoft Teams (56:36 мин) | [Видео](https://www.youtube.com/watch?v=IJZPczMAsEM) | [Палубе](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-4-deployment.pdf?raw=true) |
+| Модуль 5. Настройка и Комнаты Microsoft Teams (32:27 мин) | [Видео](https://www.youtube.com/watch?v=Q_6F6CNcpxI) | [Палубе](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-5-starting-and-configuring-teams-rooms.pdf?raw=true) |
+| Модуль 6. Управление Комнаты Microsoft Teams, часть 1 (18:31 мин) | [Видео](https://www.youtube.com/watch?v=XMoZa9XGQfw) | [Палубе](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-6-managing-teams-rooms-part-1.pdf?raw=true) |
+| Модуль 7. Управление Комнаты Microsoft Teams, часть 2 (41:06 мин) | [Видео](https://www.youtube.com/watch?v=vDCYM5sKylc) | [Палубе](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-7-managing-teams-rooms-part-2.pdf?raw=true) |
+| Модуль 8: Комнаты Microsoft Teams— Советы, рекомендации и устранение неполадок (18:14 мин)|[Видео](https://www.youtube.com/watch?v=W3b-iRrFECA)  | [Палубе](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8a-tips-tricks-troubleshooting.pdf?raw=true)|
+| Инструкции по присоединиться одним касанием |  | [Палубе](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8b-one-touch-join-instructions.pdf?raw=true)  |
 
 <h2>Интерактивные руководства</h2>
 
-| Название                                                                       | Абстрактное                                                                                                                                                                                                               |  Ссылка на руководство                             |
+| Название                                                                       | Абстрактный                                                                                                                                                                                                               |  Ссылка на руководство                             |
 |-----------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------|
-| Identity, управление доступом & Threat Protection для Teams                   | Узнайте, как с помощью центров администрирования Майкрософт и PowerShell настроить политики доступа и удостоверений и включить Office 365 Advanced Threat Protection для Teams                                                            | [Руководство по безопасности Teams](https://aka.ms/teamsesecurityinteractiveguide)         |
-| Политики защиты от потери данных (DLP) для Microsoft Teams                     | Узнайте, как добавить Microsoft Teams в существующую политику защиты от lp, а также создать новую политику на основе шаблона или полностью настроенной в зависимости от потребностей вашей организации в защите данных.                        | [Руководство по DLP для Teams](https://aka.ms/teamsdlpguide)         |
-| Управление соответствием требованиям в Teams                                                | Используйте центры администрирования Microsoft 365 Security, Microsoft 365 Compliance и Microsoft Teams, а также Windows PowerShell для управления политиками и настройками Microsoft Teams в организации Office 365. | [Руководство по управлению соответствием требованиям в Teams](https://aka.ms/complianceinteamsinteractiveguide)      |
-| Помощник по Teams: развертывание чатов, групп, каналов и приложений в Microsoft Teams | Узнайте, как использовать помощник Teams для оценки среды и создания плана развертывания чатов, групп, каналов и приложений.                                                                                         |  [Руководство консультанта по Teams](https://aka.ms/MicrosoftTeamsAdvisorInteractiveguide)  |
-| Оптимизация администрирования Teams с помощью PowerShell и динамических групп        | Преобразуя группу Office 365 из статического членства в динамическое, можно использовать Windows PowerShell для назначения новой политики разрешений приложений всем участникам.                                                                         |  [Руководство по оптимизации администрирования Teams](https://aka.ms/StreamliningTeamsadminInteractiveGuide) |
-| Управление Teams и гостевой доступ в Центре администрирования Microsoft Teams         | Узнайте, как настроить Microsoft Teams и гостевой доступ для вашей организации и управлять им.                                                                                                                              | [Руководство по управлению Teams и гостевом доступу](https://aka.ms/TeamsandGuestAccessInteractiveGuide)    |
-| Настройка телефонной системы Teams: автосекретарь & очереди звонков                   | Пошаговая процедура создания и развертывания очереди звонков автосекретарь вызовов в Microsoft Teams с помощью Центра администрирования Microsoft Teams.                                                          |  [Руководство по настройке телефонной системы Teams](https://aka.ms/TeamsPhoneInteractiveGuide)             |
-| Настройка прямой маршрутики: подключение SBCs и голосовая маршрутика                 | Используйте прямую маршрутику телефонной системы Microsoft Teams для интеграции с существующей инфраструктурой телефонии.                                                                                                              | [Настройка прямого руководства по маршрутированию](https://aka.ms/DirectRoutingInteractiveGuide)          |
-| Настройка управления в Microsoft Teams                                     | Узнайте, как создать политику хранения сообщений Teams для организации, а также как архивировать, удалять и восстанавливать отдельные команды.                                                                                   |  [Руководство по настройке управления в Microsoft Teams](https://aka.ms/TeamsGovernanceInteractiveGuide)        |
-| Настройка и развертывание собраний Microsoft Teams                          | Пошаговая процедура развертывания рабочей нагрузки на собрания для Microsoft Teams.                                                                                                                                       |  [Руководство по настройке и развертыванию собраний Microsoft Teams](https://aka.ms/TeamsMeetingsInteractiveGuide)          |
-| Настройка аудиоконференции для Microsoft Teams                            | Узнайте о возможностях аудиоконференции в Teams и о том, как назначить мосты конференций и номера телефонов для телефонного звонка.                                                                                          |  [Руководство по настройке аудиоконференций для Microsoft Teams](https://aka.ms/AudioConferencingInteractiveGuide)      |
-| Настройка Microsoft Teams для сотрудников без телефонии                           | Узнайте, как настроить и развернуть под себя под себя рабочую среду Microsoft Teams.                                                                                                                  | [Руководство по настройке Microsoft Teams для сотрудников без телефонов](https://aka.ms/ConfigFLWInteractiveGuide)              |
-| Удостоверение для сотрудников, работающих на переднем телефоне: уполномочьте ИТ-специалистов, руководителей и сотрудников, работающих с персоналом                    | Узнайте, как интегрировать Microsoft Teams с существующими системами управления персоналом, настроить упрощенное делегирование удостоверений, упрощенный вход и плавные переходы для пользователей общих устройств.                                                                                                                  | [Руководство по удостоверениям сотрудников](https://aka.ms/FLWIdentityIG)              |
-| Развертывание комнат Microsoft Teams                           | Узнайте, как создать и настроить учетную запись для использования с комнатами Microsoft Teams и управления устройством в Центре администрирования Microsoft Teams.                                                                                                                  | [Развертывание комнат Microsoft Teams](https://aka.ms/teamsroomslab)              |
+| Удостоверения, управление доступом & Threat Protection для Teams                   | Узнайте, как использовать центры администрирования Майкрософт и PowerShell для настройки политик доступа и удостоверений и включить Office 365 Advanced Threat Protection для Teams                                                            | [Teams безопасности](https://aka.ms/teamsesecurityinteractiveguide)         |
+| Политики защиты от потери данных (DLP) для Microsoft Teams                     | Узнайте, как Microsoft Teams в существующую политику защиты от lp и как создать новую политику, основанную на шаблоне или полностью настраиваемой в зависимости от потребностей вашей организации в защите данных.                        | [Teams Руководство по DLP](https://aka.ms/teamsdlpguide)         |
+| Управление соответствием требованиям в Teams                                                | Используйте центры Microsoft 365 безопасности, соответствия требованиям Microsoft 365 и Microsoft Teams, а также Windows PowerShell для управления и настройки политик и параметров Office 365 организации Microsoft Teams безопасности. | [Управление соответствием требованиям в Teams руководстве](https://aka.ms/complianceinteamsinteractiveguide)      |
+| Teams Помощник. Развертывание чатов, групп, каналов и приложений в Microsoft Teams | Узнайте, как с помощью Teams оценить среду и спланировать развертывание чатов, групп, каналов и приложений.                                                                                         |  [Teams Руководство консультанта](https://aka.ms/MicrosoftTeamsAdvisorInteractiveguide)  |
+| Упрощение Teams администрирования с помощью PowerShell и динамических групп        | Преобразу Office 365 группу из статического в динамическое и используйте Windows PowerShell для назначения новой политики разрешений приложений всем участникам.                                                                         |  [Руководство по Teams администрирования](https://aka.ms/StreamliningTeamsadminInteractiveGuide) |
+| Управление Teams и гостевых доступов в Центре Microsoft Teams администрирования         | Узнайте, как настроить доступ Microsoft Teams и гостевой доступ для организации.                                                                                                                              | [Управление Teams и гостевых доступов](https://aka.ms/TeamsandGuestAccessInteractiveGuide)    |
+| Настройка Teams телефонная система: автоотвод & очереди вызовов                   | Пошаговая процедура создания и развертывания очереди звонков и автоответчивающего Microsoft Teams с помощью Microsoft Teams администрирования.                                                          |  [Руководство по настройке Teams телефонной системы](https://aka.ms/TeamsPhoneInteractiveGuide)             |
+| Настройка прямой маршрутики: подключение КБК и маршруты голосовой связи                 | Используйте Microsoft Teams телефонная система direct Routing для интеграции с существующей инфраструктурой телефонии.                                                                                                              | [Настройка прямого руководства по маршрутике](https://aka.ms/DirectRoutingInteractiveGuide)          |
+| Настройка управления в Microsoft Teams                                     | Узнайте, как создать политику хранения Teams сообщений для организации, а также как архивировать, удалять и восстанавливать отдельные Teams                                                                                   |  [Настройка управления в Microsoft Teams руководства](https://aka.ms/TeamsGovernanceInteractiveGuide)        |
+| Настройка и развертывание Microsoft Teams собраний                          | На этапе развертывания рабочей нагрузки на собрания для Microsoft Teams.                                                                                                                                       |  [Руководство по настройке и развертыванию Microsoft Teams собраний](https://aka.ms/TeamsMeetingsInteractiveGuide)          |
+| Настройка аудиоконференции для Microsoft Teams                            | Узнайте о возможностях аудиоконференции в Teams, а также о назначении моста конференц-связи и номеров телефонов для телефонного звонка.                                                                                          |  [Руководство по настройке аудиоконференций Microsoft Teams аудиоконференцию](https://aka.ms/AudioConferencingInteractiveGuide)      |
+| Настройка Microsoft Teams для сотрудников без телефонии                           | Узнайте, как настроить и развернуть под себя Microsoft Teams среды для сотрудников без компьютеров.                                                                                                                  | [Руководство по Microsoft Teams для сотрудников без телефонии](https://aka.ms/ConfigFLWInteractiveGuide)              |
+| Удостоверения для сотрудников, работающих на переднем телефоне: Уполномочь ИТ-специалистов, руководителей и сотрудников с frontline                    | Узнайте, как интегрировать Microsoft Teams с существующими системами управления персоналом, настроить упрощенное делегирование управления удостоверениями, а также упростить вход и удобные переходы для пользователей общих устройств.                                                                                                                  | [Руководство по удостоверениям переднего сотрудника](https://aka.ms/FLWIdentityIG)              |
+| Развертывание Комнаты Microsoft Teams                           | Узнайте, как создать и настроить учетную запись для использования с Комнаты Microsoft Teams и управления устройством в Microsoft Teams центре администрирования.                                                                                                                  | [Развертывание Комнаты Microsoft Teams](https://aka.ms/teamsroomslab)              |
 
 <h2>Краткие руководства по началу работы</h2>
 
-- [Краткое начало: администраторы Teams для образования](teams-quick-start-edu.yml)
+- [Краткое начало: Teams для администраторов образования](teams-quick-start-edu.yml)
 - [Краткое начало: настройка планов звонков в Teams](configuring-teams-calling-quickstartguide.md)
 
 <h2>Учебники</h2>
@@ -100,7 +108,3 @@ ms.locfileid: "51617802"
 - [Руководство. Аудиоконференции в Teams](tutorial-audio-conferencing.yml)
 - [Учебное руководство. Общие сведения о звонках в Microsoft Teams](tutorial-calling-in-teams.yml)
 
-<h2>Курсы</h2>
-
-- [Включение командной работы с помощью Microsoft Teams](/learn/paths/m365-manage-team-collaboration)
-- [Специалист по внедрению служб Майкрософт](/learn/paths/m365-service-adoption/)
