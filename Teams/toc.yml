@@ -119,16 +119,12 @@ items:
                 href: troubleshoot-installation.md
       - name: Обучение работе с Teams
         items:
-          - name: Обзор
-            href: training-microsoft-teams-landing-page.md
           - name: "Обучение для администраторов\_Teams"
             href: itadmin-readiness.md
-          - name: Сеансы Teams на Ignite 2020
+          - name: Сеансы Teams на Ignite
             href: ignite-2020-landing-page.md
-          - name: Интерактивное обучение Teams
+          - name: Обучение для конечных пользователей Teams
             href: instructor-led-training-teams-landing-page.yml
-          - name: Онлайн-обучение Teams
-            href: 'https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7'
   - name: Переход со Skype для бизнеса
     items:
       - name: Начало работы
@@ -345,7 +341,7 @@ items:
             items:
               - name: Управление внешним доступом
                 href: manage-external-access.md
-              - name: Встроенный чат Teams
+              - name: Встроенные чаты Teams
                 href: native-chat-for-external-users.md
               - name: Взаимодействие Teams и Skype
                 href: teams-skype-interop.md
@@ -357,7 +353,7 @@ items:
                 href: /microsoft-365/solutions/collaborate-as-team
               - name: Работа в режиме гостевого доступа
                 href: guest-experience.md
-              - name: Включение и отключение гостевого доступа
+              - name: Включение или отключение гостевого доступа
                 href: set-up-guests.md
               - name: Добавление гостя в команду
                 href: view-guests.md
@@ -531,7 +527,7 @@ items:
             items:
               - name: Управление внешним доступом
                 href: manage-external-access.md
-              - name: Встроенный чат Teams
+              - name: Встроенные чаты Teams
                 href: native-chat-for-external-users.md
               - name: Взаимодействие Teams и Skype
                 href: teams-skype-interop.md
@@ -545,7 +541,7 @@ items:
                 href: guest-experience.md
               - name: Авторизация гостевого доступа
                 href: teams-dependencies.md
-              - name: Включение и отключение гостевого доступа
+              - name: Включение или отключение гостевого доступа
                 href: set-up-guests.md
               - name: Добавление гостя в команду
                 href: add-guests.md
@@ -1495,23 +1491,6 @@ items:
             href: audio-conferencing-with-direct-routing-for-gcch-and-dod.md
           - name: Пакеты политик Teams для государственных организаций
             href: policy-packages-gov.md
-  - name: Устранение неполадок
-    href: /MicrosoftTeams/troubleshoot/teams
-    items:
-      - name: Устранение неполадок при установке и обновлении
-        href: troubleshoot-installation.md
-      - name: Устранение проблем связи с клиентом Teams
-        href: connectivity-issues.md
-      - name: Проблемы с получением сообщений и звонков в устаревших системах
-        href: legacy-login-issues.md
-      - name: Использование файлов журналов для устранения неполадок в Teams
-        href: log-files.md
-      - name: Проверка работоспособности службы для Teams
-        href: service-health.md
-      - name: Обращение в службу поддержки продуктов для бизнеса. Справка для администраторов
-        href: /microsoft-365/admin/contact-support-for-business-products
-      - name: Как найти ПИН-код поддержки
-        href: support-pin.md
   - name: Справочные материалы
     items:
       - name: Ограничения и спецификации для Teams
