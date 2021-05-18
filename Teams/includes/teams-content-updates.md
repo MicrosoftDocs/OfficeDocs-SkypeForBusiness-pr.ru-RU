@@ -3,6 +3,58 @@
 
 
 
+## <a name="week-of-may-10-2021"></a>Неделя от 10 мая 2021 г.
+
+
+| Дата публикации |Название статьи | Изменение |
+|------|------------|--------|
+| 5/10/2021 | [Перенос и interoperability — Skype для бизнеса](/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype) | Изменено |
+| 5/10/2021 | [Microsoft Teams Отчет по пулам минут ПСДН](/MicrosoftTeams/teams-analytics-and-reports/pstn-minute-pools-report) | Изменено |
+| 5/10/2021 | [Понимание Microsoft Teams и Skype для бизнеса сосуществования и совместной работы](/MicrosoftTeams/teams-and-skypeforbusiness-coexistence-and-interoperability) | Изменено |
+| 5/10/2021 | [Обновление Skype для бизнеса локально до Microsoft Teams](/MicrosoftTeams/upgrade-to-teams-execute-skypeforbusinesshybridonprem) | Изменено |
+| 5/10/2021 | [Стратегии обновления для ИТ-администраторов](/MicrosoftTeams/upgrade-to-teams-on-prem-implement) | Изменено |
+| 5/10/2021 | [Управление политиками идентификации вызывающего абонента в Microsoft Teams](/MicrosoftTeams/caller-id-policies) | Изменено |
+| 5/10/2021 | [Планирование обхода сервера-посредника с прямой маршрутизацией](/MicrosoftTeams/direct-routing-plan-media-bypass) | Изменено |
+| 5/10/2021 | [Как можно использовать идентификатор звонящего в организации](/MicrosoftTeams/how-can-caller-id-be-used-in-your-organization) | Изменено |
+| 5/10/2021 | [Дополнительные сведения об ИД линии вызова и имени вызывающей стороны](/MicrosoftTeams/more-about-calling-line-id-and-calling-party-name) | Изменено |
+| 5/10/2021 | [Настройка идентификатора звонящего для пользователя](/MicrosoftTeams/set-the-caller-id-for-a-user) | Изменено |
+| 5/10/2021 | [Введение в Teams записи на основе политики для & собраний](/MicrosoftTeams/teams-recording-policy) | Изменено |
+| 5/11/2021 | [Устройства для Teams](/MicrosoftTeams/devices/teams-ip-phones) | Изменено |
+| 5/11/2021 | [Ограничения и спецификации для Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | Изменено |
+| 5/11/2021 | [Режим собраний только для просмотра](/MicrosoftTeams/view-only-meeting-experience) | Изменено |
+| 5/12/2021 | [Обновление приложений в Microsoft Teams](/MicrosoftTeams/apps-update-experience) | Добавлено |
+| 5/12/2021 | [Настройка приложений в Microsoft Teams](/MicrosoftTeams/customize-apps) | Изменено |
+| 5/12/2021 | [Использование файлов журналов для устранения неполадок в Microsoft Teams](/MicrosoftTeams/log-files) | Изменено |
+| 5/12/2021 | [Использование API Teams отправки приложений для отправки и утверждения пользовательских приложений](/MicrosoftTeams/submit-approve-custom-apps) | Изменено |
+| 5/12/2021 | [Учебные ресурсы для администраторов: Microsoft Teams](/MicrosoftTeams/itadmin-readiness) | Изменено |
+| 5/12/2021 | [Измерения и размеры: панель мониторинга качества звонка (CQD)](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | Изменено |
+| 5/12/2021 | [Прямая маршрутизация локальной оптимизации мультимедиа](/MicrosoftTeams/direct-routing-media-optimization) | Изменено |
+| 5/12/2021 | [Планирование обхода сервера-посредника с прямой маршрутизацией](/MicrosoftTeams/direct-routing-plan-media-bypass) | Изменено |
+| 5/12/2021 | [Возможности телефонной системы](/MicrosoftTeams/here-s-what-you-get-with-phone-system) | Изменено |
+| 5/12/2021 | [Обучение пользователей по Microsoft Teams #< 60 символов](/MicrosoftTeams/instructor-led-training-teams-landing-page) | Изменено |
+| 5/12/2021 | [Обязательные мобильные диагностические данные для Microsoft Teams](/MicrosoftTeams/policy-control-diagnostic-data-mobile) | Изменено |
+| 5/12/2021 | [Частные каналы в Microsoft Teams](/MicrosoftTeams/private-channels) | Изменено |
+| 5/12/2021 | [Комнаты Microsoft Teams версии приложения](/MicrosoftTeams/rooms/rooms-lifecycle-support) | Изменено |
+| 5/12/2021 | [Управление комнатами Microsoft Teams](/MicrosoftTeams/rooms/rooms-manage) | Изменено |
+| 5/12/2021 | [Заметки о выпуске](/MicrosoftTeams/rooms/rooms-release-note) | Изменено |
+| 5/12/2021 | [Переход с Skype для бизнеса Online Connector на модуль Teams PowerShell](/MicrosoftTeams/teams-powershell-move-from-sfbo) | Изменено |
+| 5/12/2021 | [Microsoft Teams Заметки о выпуске PowerShell](/MicrosoftTeams/teams-powershell-release-notes) | Изменено |
+| 5/12/2021 | [Использование OneDrive для бизнеса и SharePoint для записей собраний](/MicrosoftTeams/tmr-meeting-recording-change) | Изменено |
+| 5/13/2021 | [Приложение "Рация" в Microsoft Teams](/MicrosoftTeams/walkie-talkie) | Изменено |
+| 5/13/2021 | [Session Border Controllers certified for Direct Routing](/MicrosoftTeams/direct-routing-border-controllers) | Изменено |
+| 5/13/2021 | [Настройка контроллера границы сеанса — несколько клиентов](/MicrosoftTeams/direct-routing-sbc-multiple-tenants) | Изменено |
+| 5/13/2021 | [Возможности телефонной системы](/MicrosoftTeams/here-s-what-you-get-with-phone-system) | Изменено |
+| 5/14/2021 | [Справочник по автоотводу и очереди вызовов и ссылке на распознавание речи](/MicrosoftTeams/dial-voice-reference) | Изменено |
+| 5/14/2021 | [Возможности телефонной системы](/MicrosoftTeams/here-s-what-you-get-with-phone-system) | Изменено |
+| 5/14/2021 | [Microsoft Teams надстройки](/MicrosoftTeams/teams-add-on-licensing/microsoft-teams-add-on-licensing) | Изменено |
+| 5/14/2021 | [Microsoft Teams Заметки о выпуске PowerShell](/MicrosoftTeams/teams-powershell-release-notes) | Изменено |
+| 5/14/2021 | [Использование OneDrive для бизнеса и SharePoint для записей собраний](/MicrosoftTeams/tmr-meeting-recording-change) | Изменено |
+| 5/14/2021 | [Учебные ресурсы для администраторов: Microsoft Teams](/MicrosoftTeams/itadmin-readiness) | Изменено |
+| 5/14/2021 | [Настройка автозавода для Microsoft Teams](/MicrosoftTeams/create-a-phone-system-auto-attendant) | Изменено |
+| 5/14/2021 | [Управление тегами в Microsoft Teams](/MicrosoftTeams/manage-tags) | Изменено |
+| 5/14/2021 | [Обязательные мобильные диагностические данные для Microsoft Teams](/MicrosoftTeams/policy-control-diagnostic-data-mobile) | Изменено |
+
+
 ## <a name="week-of-may-03-2021"></a>Неделя с 3 мая 2021 г.
 
 
@@ -66,12 +118,12 @@
 | 5/7/2021 | [Прекращение поддержки Skype для бизнеса Online](/MicrosoftTeams/skype-for-business-online-retirement) | Изменено |
 | 5/7/2021 | [Понимание Microsoft Teams и Skype для бизнеса сосуществования и совместной работы](/MicrosoftTeams/teams-and-skypeforbusiness-coexistence-and-interoperability) | Изменено |
 | 5/7/2021 | [Выберите путь обновления от Skype для бизнеса до Microsoft Teams](/MicrosoftTeams/upgrade-and-coexistence-of-skypeforbusiness-and-teams) | Изменено |
-| 5/7/2021 | [Определение области проекта для Skype для бизнеса Microsoft Teams обновления](/MicrosoftTeams/upgrade-define-project-scope) | Изменено |
+| 5/7/2021 | [Определение области проекта для Skype для бизнеса обновления Microsoft Teams проекта](/MicrosoftTeams/upgrade-define-project-scope) | Изменено |
 | 5/7/2021 | [Указание заинтересованных лиц \| Планирование перехода со Skype для бизнеса на Teams](/MicrosoftTeams/upgrade-enlist-stakeholders) | Изменено |
 | 5/7/2021 | [Структура обновления — Skype для бизнеса Teams](/MicrosoftTeams/upgrade-framework) | Изменено |
 | 5/7/2021 | [Оценка готовности организации к изменению Skype для бизнеса Teams обновления](/MicrosoftTeams/upgrade-org-change-readiness) | Изменено |
 | 5/7/2021 | [Оценка среды перед обновлением до Teams](/MicrosoftTeams/upgrade-plan-journey-evaluate-environment) | Изменено |
-| 5/7/2021 | [Необходимые условия и зависимости от среды для обновления до Teams](/MicrosoftTeams/upgrade-plan-journey-prerequisites) | Изменено |
+| 5/7/2021 | [Необходимые условия и зависимости от среды для перехода на Teams](/MicrosoftTeams/upgrade-plan-journey-prerequisites) | Изменено |
 | 5/7/2021 | [Планирование обновления Skype для бизнеса Microsoft Teams обновления](/MicrosoftTeams/upgrade-plan-journey) | Изменено |
 | 5/7/2021 | [Подготовка ИТ-специалистов к Microsoft Teams](/MicrosoftTeams/upgrade-prepare-it-pros) | Изменено |
 | 5/7/2021 | [Подготовка службы к обновлению Microsoft Teams](/MicrosoftTeams/upgrade-prepare-environment-prepare-service) | Изменено |
@@ -150,10 +202,10 @@
 | 4/21/2021 | [Настройка автозавода для Microsoft Teams](/MicrosoftTeams/create-a-phone-system-auto-attendant) | Изменено |
 | 4/21/2021 | [Отчет о действиях пользователей Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/user-activity-report) | Изменено |
 | 4/22/2021 | [Устройства для Teams](/MicrosoftTeams/devices/teams-ip-phones) | Изменено |
-| 4/22/2021 | [Session Border Controllers certified for Direct Routing](/MicrosoftTeams/direct-routing-border-controllers) | Изменено |
+| 4/22/2021 | [Контроллеры границ сеанса, сертифицированные для прямой маршрутии](/MicrosoftTeams/direct-routing-border-controllers) | Изменено |
 | 4/22/2021 | [Служба Microsoft StaffHub была отменена](/MicrosoftTeams/expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired) | Изменено |
 | 4/22/2021 | [Установка интеграции Moodle с Microsoft Teams](/MicrosoftTeams/install-moodle-integration) | Изменено |
-| 4/22/2021 | [Настройка модерирования канала и управление им](/MicrosoftTeams/manage-channel-moderation-in-teams) | Изменено |
+| 4/22/2021 | [Настройка модерации канала и управление им](/MicrosoftTeams/manage-channel-moderation-in-teams) | Изменено |
 | 4/22/2021 | [Взаимодействие SharePoint Online и OneDrive для бизнеса с Microsoft Teams](/MicrosoftTeams/sharepoint-onedrive-interact) | Изменено |
 | 4/22/2021 | [Teams Центр контактов](/MicrosoftTeams/teams-contact-center) | Изменено |
 | 4/22/2021 | [Использование OneDrive для бизнеса и SharePoint для записей собраний](/MicrosoftTeams/tmr-meeting-recording-change) | Изменено |
@@ -219,72 +271,3 @@
 | 4/16/2021 | [Введение в Teams записи на основе политики для & собраний](/MicrosoftTeams/teams-recording-policy) | Изменено |
 | 4/16/2021 | [Измерения и размеры: панель мониторинга качества звонка (CQD)](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | Изменено |
 | 4/16/2021 | [Установка, управление и назначение разрешений для Microsoft Viva Learning (частная предварительная версия)](/MicrosoftTeams/teams-learning-app-overview) | Изменено |
-
-
-## <a name="week-of-april-05-2021"></a>Неделя: 5 апреля 2021 г.
-
-
-| Дата публикации |Название статьи | Изменение |
-|------|------------|--------|
-| 4/5/2021 | [Планирование прямой маршрутизации](/MicrosoftTeams/direct-routing-plan) | Изменено |
-| 4/5/2021 | [Получение номеров телефонов для пользователей](/MicrosoftTeams/getting-phone-numbers-for-your-users) | Изменено |
-| 4/5/2021 | [Ограничения и спецификации для Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | Изменено |
-| 4/5/2021 | [Установка Microsoft Teams PowerShell](/MicrosoftTeams/teams-powershell-install) | Изменено |
-| 4/5/2021 | [Что такое панель мониторинга качества звонка (CQD)?](/MicrosoftTeams/cqd-what-is-call-quality-dashboard) | Изменено |
-| 4/5/2021 | [Использование надстройки собраний Microsoft Teams в Outlook](/MicrosoftTeams/teams-add-in-for-outlook) | Изменено |
-| 4/5/2021 | [Управление пакетами политик в Microsoft Teams](/MicrosoftTeams/manage-policy-packages) | Изменено |
-| 4/5/2021 | [Метки конфиденциальности для Microsoft Teams](/MicrosoftTeams/sensitivity-labels) | Изменено |
-| 4/6/2021 | [Управление политиками собраний для аудио- и видеосвязи](/MicrosoftTeams/meeting-policies-audio-and-video) | Добавлено |
-| 4/6/2021 | [Управление политиками собраний для общего доступа к содержимому](/MicrosoftTeams/meeting-policies-content-sharing) | Добавлено |
-| 4/6/2021 | [Управление общими политиками собраний](/MicrosoftTeams/meeting-policies-in-teams-general) | Добавлено |
-| 4/6/2021 | [Управление политиками собрания](/MicrosoftTeams/meeting-policies-overview) | Добавлено |
-| 4/6/2021 | [Управление политиками собраний для участников и гостей](/MicrosoftTeams/meeting-policies-participants-and-guests) | Добавлено |
-| 4/6/2021 | [Создание очереди вызовов в Microsoft Teams учебнике для малого бизнеса](/MicrosoftTeams/business-voice/create-a-phone-system-call-queue-smb) | Изменено |
-| 4/6/2021 | [Запись собрания Teams в облаке](/MicrosoftTeams/cloud-recording) | Изменено |
-| 4/6/2021 | [Инструкции для образовательных учреждений по работе с Microsoft Teams при низкой пропускной способности сети](/MicrosoftTeams/edu-remote-low-bandwidth) | Изменено |
-| 4/6/2021 | [Гостевой доступ в Microsoft Teams](/MicrosoftTeams/guest-access) | Изменено |
-| 4/6/2021 | [Политики собраний и срок их действия в Microsoft Teams](/MicrosoftTeams/meeting-expiration) | Изменено |
-| 4/6/2021 | [Заметки о выпуске Microsoft Teams](/MicrosoftTeams/release-notes/release-notes) | Изменено |
-| 4/6/2021 | [Ресурсы Microsoft Teams для образовательных учреждений (администраторы)](/MicrosoftTeams/remote-learning-edu) | Изменено |
-| 4/6/2021 | [Microsoft Teams отчете об посещении собрания](/MicrosoftTeams/teams-analytics-and-reports/meeting-attendance-report) | Изменено |
-| 4/6/2021 | [Azure Sentinel и Microsoft Teams](/MicrosoftTeams/teams-sentinel-guide) | Изменено |
-| 4/6/2021 | [Выберите путь обновления от Skype для бизнеса до Microsoft Teams](/MicrosoftTeams/upgrade-and-coexistence-of-skypeforbusiness-and-teams) | Изменено |
-| 4/6/2021 | [Использование NDI в Microsoft Teams](/MicrosoftTeams/use-ndi-in-meetings) | Изменено |
-| 4/6/2021 | [Поминутная оплата аудиоконференций](/MicrosoftTeams/audio-conferencing-pay-per-minute) | Изменено |
-| 4/6/2021 | [Управление пакетами политик в Microsoft Teams](/MicrosoftTeams/manage-policy-packages) | Изменено |
-| 4/6/2021 | [Teams для нестандартных пользователей](/MicrosoftTeams/non-standard-users) | Изменено |
-| 4/6/2021 | [Заметки о выпуске](/MicrosoftTeams/rooms/rooms-release-note) | Изменено |
-| 4/6/2021 | [Создание приложения портала интрасети Teams с сайта или страницы SharePoint Online](/MicrosoftTeams/teams-standalone-static-tabs-using-spo-sites) | Изменено |
-| 4/7/2021 | [Учебные ресурсы для администраторов: Microsoft Teams](/MicrosoftTeams/itadmin-readiness) | Изменено |
-| 4/7/2021 | [Поминутная оплата аудиоконференций](/MicrosoftTeams/audio-conferencing-pay-per-minute) | Изменено |
-| 4/7/2021 | [Аудиоконференция с звонками и звонок на мой номер в минутах](/MicrosoftTeams/audio-conferencing-subscription-dial-out) | Изменено |
-| 4/7/2021 | [Запись собрания Teams в облаке](/MicrosoftTeams/cloud-recording) | Изменено |
-| 4/7/2021 | [Управление пакетами политик в Microsoft Teams](/MicrosoftTeams/manage-policy-packages) | Изменено |
-| 4/7/2021 | [Управление политиками собрания](/MicrosoftTeams/meeting-policies-in-teams) | Изменено |
-| 4/7/2021 | [Teams для нестандартных пользователей](/MicrosoftTeams/non-standard-users) | Изменено |
-| 4/7/2021 | [Управление политиками хранения для Microsoft Teams](/MicrosoftTeams/retention-policies) | Изменено |
-| 4/7/2021 | [Управление Teams с помощью Microsoft Teams PowerShell](/MicrosoftTeams/teams-powershell-managing-teams) | Изменено |
-| 4/7/2021 | [Настройка функции "Позвонить мне" для пользователей](/MicrosoftTeams/set-up-the-call-me-feature-for-your-users) | Изменено |
-| 4/8/2021 | [Аудиоконференция по сети](/MicrosoftTeams/audio-conferencing-on-network) | Изменено |
-| 4/8/2021 | [Общие звонки и ответ на групповые звонки](/MicrosoftTeams/call-sharing-and-group-call-pickup) | Изменено |
-| 4/8/2021 | [Session Border Controllers certified for Direct Routing](/MicrosoftTeams/direct-routing-border-controllers) | Изменено |
-| 4/8/2021 | [Настройка параметров трансляции в Microsoft Teams](/MicrosoftTeams/teams-live-events/configure-teams-live-events) | Изменено |
-| 4/8/2021 | [Планирование трансляций в Microsoft Teams](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | Изменено |
-| 4/8/2021 | [Использование OneDrive для бизнеса и SharePoint для записей собраний](/MicrosoftTeams/tmr-meeting-recording-change) | Изменено |
-| 4/8/2021 | [Управление доступом пользователей к Microsoft Teams](/MicrosoftTeams/user-access) | Изменено |
-| 4/8/2021 | [Режим собраний только для просмотра](/MicrosoftTeams/view-only-meeting-experience) | Изменено |
-| 4/8/2021 | [Коды стран прямой маршрутировки](/MicrosoftTeams/direct-routing-country-codes) | Изменено |
-| 4/8/2021 | [Возможности телефонной системы](/MicrosoftTeams/here-s-what-you-get-with-phone-system) | Изменено |
-| 4/8/2021 | [Политики звонков в Microsoft Teams](/MicrosoftTeams/teams-calling-policy) | Изменено |
-| 4/8/2021 | [Обучение администраторов Microsoft Teams](/MicrosoftTeams/training-microsoft-teams-landing-page) | Изменено |
-| 4/9/2021 | [Настройка автозавода для Microsoft Teams для малого бизнеса](/MicrosoftTeams/business-voice/create-a-phone-system-auto-attendant-smb) | Изменено |
-| 4/9/2021 | [Управление политиками отзывов в Microsoft Teams](/MicrosoftTeams/manage-feedback-policies-in-teams) | Изменено |
-| 4/9/2021 | [Teams Центр контактов](/MicrosoftTeams/teams-contact-center) | Изменено |
-| 4/9/2021 | [Настройка приложений Майкрософт в Teams](/MicrosoftTeams/customize-apps) | Изменено |
-| 4/9/2021 | [Session Border Controllers certified for Direct Routing](/MicrosoftTeams/direct-routing-border-controllers) | Изменено |
-| 4/9/2021 | [Возможности телефонной системы](/MicrosoftTeams/here-s-what-you-get-with-phone-system) | Изменено |
-| 4/9/2021 | [Управление приложениями в Центре Microsoft Teams администрирования](/MicrosoftTeams/manage-apps) | Изменено |
-| 4/9/2021 | [Управление политиками разрешений для приложений в Microsoft Teams](/MicrosoftTeams/teams-app-permission-policies) | Изменено |
-| 4/9/2021 | [Режим собраний только для просмотра](/MicrosoftTeams/view-only-meeting-experience) | Изменено |
-| 4/9/2021 | [Устройства для Teams](/MicrosoftTeams/devices/teams-ip-phones) | Изменено |
-| 4/9/2021 | [Требования к комнатам Microsoft Teams](/MicrosoftTeams/rooms/requirements) | Изменено |
