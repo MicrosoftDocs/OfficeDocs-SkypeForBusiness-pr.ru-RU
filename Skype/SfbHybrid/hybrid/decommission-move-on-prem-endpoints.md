@@ -16,21 +16,21 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
-description: Перед выводом из эксплуатации локальной среды Skype для бизнеса переместите конечную точку приложения.
-ms.openlocfilehash: af8b521eaaf4a1e86027936f3d4d3600ab4bfa7b
-ms.sourcegitcommit: 71d90f0a0056f7604109f64e9722c80cf0eda47d
+description: Перед выводом из эксплуатации конечной точки приложения Skype для бизнеса локальной среде.
+ms.openlocfilehash: 562da9e8e83684ab3ff532be68190161ffc412b5
+ms.sourcegitcommit: 02703e8f9a512848e158a3a4f38d84501ad5f633
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "51656887"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52526722"
 ---
-# <a name="move-hyrid-application-endpoints-before-decommissioning-your-on-premises-environment"></a>Перемещение конечных точек приложения перед выводом из эксплуатации локальной среды
+# <a name="move-hybrid-application-endpoints-before-decommissioning-your-on-premises-environment"></a>Перемещение конечных точек гибридного приложения перед выводом из эксплуатации локальной среды
 
-В этой статье описывается, как переместить необходимые конечные точки гибридного приложения в облако Microsoft перед выводом из эксплуатации локальной среды Skype для бизнеса. Это шаг 3 из следующих действий по выводу из эксплуатации локальной среды:
+В этой статье описывается, как переместить необходимые конечные точки гибридных приложений в облако Майкрософт до вывода из эксплуатации локальной Skype для бизнеса среды. Это шаг 3 из следующих действий по выводу из эксплуатации локальной среды:
 
 - Этап 1. [Перемещение всех необходимых пользователей из локальной сети в интернет](decommission-move-on-prem-users.md)
 
-- Шаг 2. [Отключите гибридную конфигурацию.](cloud-consolidation-disabling-hybrid.md)
+- Этап 2. [Отключите гибридную конфигурацию.](cloud-consolidation-disabling-hybrid.md)
 
 - **Шаг 3. Перемещение конечных точек гибридного приложения из локального в online.** (В этой статье)
 
@@ -39,14 +39,14 @@ ms.locfileid: "51656887"
 
 ## <a name="move-all-required-hybrid-application-endpoints-from-on-premises-to-online"></a>Перемещение всех необходимых конечных точек гибридного приложения из локального в online
 
-Прежде чем переместить эти конечные точки в интернет, необходимо убедиться, что вы обновили записи DNS, указав на Microsoft 365 для всех доменов SIP, используемых конечными точками. Невозможно создать учетные записи ресурсов в Интернете, если записи DNS указывают на локальное. Дополнительные сведения см. в [переключеть гибридную конфигурацию.](cloud-consolidation-disabling-hybrid.md)
+Прежде чем переместить эти конечные точки в интернет, необходимо убедиться, что вы обновили записи DNS, чтобы указать на Microsoft 365 для всех доменов SIP, используемых конечными точками. Невозможно создать учетные записи ресурсов в Интернете, если записи DNS указывают на локальное. Дополнительные сведения см. в [переключеть гибридную конфигурацию.](cloud-consolidation-disabling-hybrid.md)
 
-1. Извлечение и экспорт параметров конечной точки гибридного приложения на локальном сервере путем выполнения следующей локальной команды Skype для Business Server PowerShell:
+1. Извлечение и экспорт параметров конечной точки гибридного приложения в локальном Skype для бизнеса Server PowerShell:
 
    ```PowerShell
    Get-CsHybridApplicationEndpoint|select Sipaddress, DisplayName, ApplicationID, LineUri |Export-Csv -Path "c:\backup\HybridEndpoints.csv"
    ```
-2. Создание и лицензирование новых [учетных записей](https://docs.microsoft.com/microsoftteams/manage-resource-accounts) ресурсов в Microsoft 365 для замены существующих конечных точек гибридного приложения.
+2. Создание и лицензирование новых [учетных](https://docs.microsoft.com/microsoftteams/manage-resource-accounts) записей ресурсов в Microsoft 365 для замены существующих конечных точек гибридного приложения на локальном сайте.
 
 3. Связывать новые учетные записи ресурсов с существующими конечными точками гибридных приложений.
 
@@ -55,7 +55,7 @@ ms.locfileid: "51656887"
    ```PowerShell
    Get-CsHybridApplicationEndpoint -Filter {LineURI -ne $null} | Set-CsHybridApplicationEndpoint -LineURI ""
    ```
-5. Так как возможно, что номера телефонов для этих учетных записей управлялись в Microsoft 365 вместо локального, запустите следующую команду в Skype для бизнеса Online PowerShell:
+5. Так как возможно, что номера телефонов для этих учетных записей управлялись в Microsoft 365, а не локально, запустите следующую команду в Skype для бизнеса Online PowerShell:
 
    ```PowerShell
    $endpoints = import-csv "c:\backup\HybridEndpoints.csv"
@@ -72,12 +72,12 @@ ms.locfileid: "51656887"
 
 6. Назначение номеров телефонов новым учетным записям ресурсов, созданным в шаге 2. Дополнительные сведения о назначении номера телефона учетной записи ресурса см. в следующей статье: [Назначение номера службы.](https://docs.microsoft.com/microsoftteams/manage-resource-accounts#assign-a-service-number)
 
-7. Удалите конечные точки локального сервера, исполнив следующую команду Skype для бизнеса Server PowerShell:
+7. Удалите конечные точки на месте, исполнив следующую команду Skype для бизнеса Server PowerShell:
 
    ```PowerShell
    Get-CsHybridApplicationEndpoint | Remove-CsHybridApplicationEndpoint
    ```
-Теперь вы готовы удалить локальное развертывание [Skype для бизнеса.](decommission-remove-on-prem.md)
+Теперь вы готовы [удалить локальное](decommission-remove-on-prem.md)развертывание Skype для бизнеса.
 
 ## <a name="see-also"></a>См. также
 
