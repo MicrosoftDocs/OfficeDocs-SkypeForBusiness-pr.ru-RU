@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: В этой таблице вы найдете сведения о получении номеров телефонов в Словакии и управлении Microsoft Teams.
-ms.openlocfilehash: 39ff9e216edf6699934574874efed18ae8d342ea
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: c97fc50522b9102ac5ea34ab6babc4ef982fd5b0
+ms.sourcegitcommit: bdd9901db1fc741aaec9c7ddcf5ee1caaca4d777
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52130456"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52589253"
 ---
 # <a name="phone-number-management-for-slovakia"></a>Телефон управления номерами для Словакии
 
@@ -38,10 +38,10 @@ ms.locfileid: "52130456"
 |**Требуемое действие**|**Загрузка подходящих форм**|
 |:-----|:-----|
 |Получите новые номера телефонов пользователей или служб, которые не указаны в Microsoft Teams центре администрирования. |В Словакии вы можете получить номера телефонов для своей организации с помощью центра Microsoft Teams администрирования. Вы также можете отправить новый запрос на номер телефона, скачав форму [и отправив ее нам.](mailto:ptneu@microsoft.com)<br/><br/>[Новый запрос номера телефона для Словакии (v.1.0) (en-sk).](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-united-states-(v.5.0)-(en-us).pdf?raw=true) <br/><br/> Прежде чем вам будет назначен номер телефона, необходимо скачать форму "Знать клиента", заполнить ее полностью и отправить нам.<br/><br/>Заполнение новых заказов на этом рынке может занять от двух до трех недель.  |
-|Перенаправь нам номера телефонов.   | Скачайте эту форму. <br/>[Док-досье (LOA) для Словакии (все номера) (v.1.0) (en-sk).](https://download.microsoft.com/download/5/e/2/5e294448-313e-4398-bd8e-bbaee92dc78d/letter-of-authorization-(loa)-for-slovakia-(all-numbers)-(v.1.0)-(en-sk).pdf) <br/> <br/>[Досье (LOA) для Словакии (все номера) (v.1.0) (sk-sk)](https://download.microsoft.com/download/f/2/d/f2d73643-c597-4da6-8e0e-d6d3af3737a3/letter-of-authorization-(loa)-for-slovakia-(all-numbers)-(v.1.0)-(sk-sk)(2).pdf). <br/><br/>Заполните ее и [отправьте его нам](mailto:ptneu@microsoft.com). <br/><br/>Перенос номеров на этом рынке может занять от четырех до пяти недель. <br/><br/>В настоящее время эти номера нельзя использовать для использования для связи. |
-|Публикация и публикация номеров телефонов в национальном телефонном каталоге.  <br/> |[Отправьте нам](mailto:ptneu@microsoft.com) список номеров телефонов для публикации или отмены публикации. <br/> |
+|Перенаправь нам номера телефонов.   | Скачайте эту форму. <br/>[Док-досье (LOA) для Словакии (все номера) (v.1.0) (en-sk).](https://download.microsoft.com/download/5/e/2/5e294448-313e-4398-bd8e-bbaee92dc78d/letter-of-authorization-(loa)-for-slovakia-(all-numbers)-(v.1.0)-(en-sk).pdf) <br/> <br/>[Досье (LOA) для Словакии (все номера) (v.1.0) (sk-sk)](https://download.microsoft.com/download/f/2/d/f2d73643-c597-4da6-8e0e-d6d3af3737a3/letter-of-authorization-(loa)-for-slovakia-(all-numbers)-(v.1.0)-(sk-sk)%20(2).pdf). <br/><br/>Заполните ее и [отправьте его нам](mailto:ptneu@microsoft.com). <br/><br/>Перенос номеров на этом рынке может занять от четырех до пяти недель. <br/><br/>В настоящее время эти номера нельзя использовать для использования для связи. |
+|Публикация и публикация номеров телефонов в национальном каталоге телефонов.  <br/> |[Отправьте нам](mailto:ptneu@microsoft.com) список номеров телефонов для публикации или отмены публикации. <br/> |
 |Измените номер пользователя на номер службы.  <br/> |[Отправьте нам](mailto:ptneu@microsoft.com) список номеров пользователей, которые необходимо преобразовать в номера служб. <br/> |
-|Обновление службы каталогов для номеров очереди вызовов и номеров автослужб|Чтобы добавить или изменить номера очереди вызовов или номера автослужб, обратитесь [в службу поддержки ПСОП.](contact-pstn-service-desk.md) |
+|Обновление службы каталогов для очереди вызовов или номеров автозаводников|Чтобы добавить или изменить номера очереди вызовов или номера автослужб, обратитесь [в службу поддержки ПСОП.](contact-pstn-service-desk.md) |
    
 ## <a name="related-topics"></a>См. также:
 
