@@ -17,14 +17,20 @@ search.appverid: MET150
 description: Узнайте, как настроить Голосовая связь Microsoft 365 бизнес для малого и среднего бизнеса или организации.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 534005df5161a69fd64ac94c444046508b9d7fd1
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: 892b093003accf782b7fb6c0a6234bf1f8beb952
+ms.sourcegitcommit: 592e5a0638c7739dfaa3565b67d4edc621eebc9f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52130488"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "52656042"
 ---
 # <a name="set-up-microsoft-365-business-voice"></a>Настройка Голосовая связь Microsoft 365 бизнес
+
+</br>
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWEu8R]  
+
+</br>
 
 Business Voice — это полная телефонная система, которая может заменить существующего поставщика телефонии. Независимо от того, работаете ли вы в новой компании, настраивая номера телефонов в первый раз или переходим от устаревшего локального поставщика телефонии, с помощью действий, указанных в этих статьях, можно прибегать к бизнес-голосовой связи. Завершив настройку бизнес-голосовой почты:
 
