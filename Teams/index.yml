@@ -1,10 +1,10 @@
 ### YamlMime:Hub
 title: Документы для администраторов Microsoft Teams
-summary: Здесь вы найдете документацию для администраторов Microsoft Teams, в том числе по способам развертывания приложения Teams и управления им, а также сможете подготовить пользователей для Teams.
+summary: 'Здесь вы найдете документацию для администраторов Microsoft Teams, в том числе по способам развертывания приложения Teams и управления им, а также сможете подготовить пользователей для Teams.'
 brand: teams
 metadata:
   title: Документы для администраторов Microsoft Teams
-  description: Здесь вы найдете документацию для администраторов Microsoft Teams, в том числе по способам развертывания приложения Teams и управления им, а также сможете подготовить пользователей для Teams.
+  description: 'Здесь вы найдете документацию для администраторов Microsoft Teams, в том числе по способам развертывания приложения Teams и управления им, а также сможете подготовить пользователей для Teams.'
   ms.service: msteams
   ms.topic: hub-page
   audience: ITPro
@@ -13,140 +13,134 @@ metadata:
   ms.date: 02/12/2020
   localization_priority: Priority
   ms.custom: seo-marvel-apr2020
-  ms.openlocfilehash: dca85173b5241e7e4e6c586a4d1970ef28947872
-  ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
-  ms.translationtype: HT
-  ms.contentlocale: ru-RU
-  ms.lasthandoff: 03/23/2021
-  ms.locfileid: "51120660"
 highlightedContent:
   items:
-  - title: Поддержка сотрудников, работающих удаленно, с помощью Teams
-    itemType: overview
-    url: /microsoft-365/solutions/empower-people-to-work-remotely?view=o365-worldwide
-  - title: Переход со Skype для бизнеса на Teams
-    itemType: how-to-guide
-    url: ./upgrade-skype-teams.yml
-  - title: Использование помощника для Teams для развертывания Teams
-    itemType: get-started
-    url: ./use-advisor-teams-roll-out.md
+    - title: 'Поддержка сотрудников, работающих удаленно, с помощью Teams'
+      itemType: overview
+      url: /microsoft-365/solutions/empower-people-to-work-remotely?view=o365-worldwide
+    - title: Переход со Skype для бизнеса на Teams
+      itemType: how-to-guide
+      url: ./upgrade-skype-teams.yml
+    - title: Использование помощника для Teams для развертывания Teams
+      itemType: get-started
+      url: ./use-advisor-teams-roll-out.md
 productDirectory:
-  title: 'ИТ-специалисты: как начать работу с Microsoft Teams'
+  title: 'ИТ-специалисты: как начать работу с Microsoft Teams'
   items:
-  - title: Пилотное развертывание
-    imageSrc: https://docs.microsoft.com/office/media/icons/list-123-teams.svg
-    summary: Спланируйте развертывание и проведите пилотный запуск, чтобы всё прошло без проблем.
-    url: ./get-started-with-teams-quick-start.md
-  - title: Подготовка конечных пользователей к развертыванию системы 
-    imageSrc: https://docs.microsoft.com/office/media/icons/users-people.svg
-    summary: Подготовьте пользователей к работе с новой системой и ознакомьте их со сценариями для успешного использования.
-    url: ./adopt-microsoft-teams-landing-page.md
-  - title: Планирование развертывания для предприятия
-    imageSrc: https://docs.microsoft.com/office/media/icons/task-checklist-planning-teams.svg
-    summary: Подготовьте среду и инфраструктуру к развертыванию.
-    url: ./deploy-enterprise-overview.md
-  - title: Развертывание
-    imageSrc: https://docs.microsoft.com/office/media/icons/deploy-teams.svg
-    summary: Проведите развертывание Microsoft Teams во всей организации
-    url: ./deploy-overview.md
-  - title: Защита
-    imageSrc: https://docs.microsoft.com/office/media/icons/security-teams.svg
-    summary: Следуйте рекомендованным методикам для защиты данных, файлов и удостоверений в Microsoft Teams.
-    url: ./security-compliance-overview.md
-  - title: Управление
-    imageSrc: https://docs.microsoft.com/office/media/icons/settings-teams.svg
-    summary: Выполнение задач по ежедневному управлению Microsoft Teams.
-    url: ./manage-teams-overview.md
+    - title: Пилотное развертывание
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/list-123-teams.svg'
+      summary: 'Спланируйте развертывание и проведите пилотный запуск, чтобы всё прошло без проблем.'
+      url: ./get-started-with-teams-quick-start.md
+    - title: "Подготовка конечных пользователей к развертыванию системы\_"
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/users-people.svg'
+      summary: Подготовьте пользователей к работе с новой системой и ознакомьте их со сценариями для успешного использования.
+      url: ./adopt-microsoft-teams-landing-page.md
+    - title: Планирование развертывания для предприятия
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/task-checklist-planning-teams.svg'
+      summary: Подготовьте среду и инфраструктуру к развертыванию.
+      url: ./deploy-enterprise-overview.md
+    - title: Развертывание
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/deploy-teams.svg'
+      summary: Проведите развертывание Microsoft Teams во всей организации
+      url: ./deploy-overview.md
+    - title: Защита
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/security-teams.svg'
+      summary: 'Следуйте рекомендованным методикам для защиты данных, файлов и удостоверений в Microsoft Teams.'
+      url: ./security-compliance-overview.md
+    - title: Управление
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/settings-teams.svg'
+      summary: Выполнение задач по ежедневному управлению Microsoft Teams.
+      url: ./manage-teams-overview.md
 tools:
   title: Ресурсы для всех видов пользователей
   items:
-  - title: Для ИТ-специалистов и администраторов
-    imageSrc: https://docs.microsoft.com/office/media/icons/administrator.svg
-    url: /learn/teams/
-  - title: Платформа разработки для Microsoft Teams и Microsoft 365 Developer
-    imageSrc: https://docs.microsoft.com/office/media/icons/developer-teams.svg
-    url: ./deploy-apps-microsoft-teams-landing-page.md
-  - title: Справка и обучение для конечных пользователей
-    imageSrc: https://docs.microsoft.com/office/media/icons/help.svg
-    url: https://support.office.com/Teams
-  - title: Блоги Teams и техническое сообщество
-    imageSrc: https://docs.microsoft.com/office/media/icons/blog-site-teams.svg
-    url: https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams
-  - title: Отзывы о продукте Teams
-    imageSrc: https://docs.microsoft.com/office/media/icons/user.svg
-    url: https://microsoftteams.uservoice.com/
-  - title: Скачать Microsoft Teams
-    imageSrc: https://docs.microsoft.com/office/media/icons/download-teams.svg
-    url: https://www.microsoft.com/microsoft-teams/download-app
+    - title: Для ИТ-специалистов и администраторов
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/administrator.svg'
+      url: /learn/teams/
+    - title: Платформа разработки для Microsoft Teams и Microsoft 365 Developer
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/developer-teams.svg'
+      url: /microsoftteams/platform/
+    - title: Справка и обучение для конечных пользователей
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/help.svg'
+      url: 'https://support.office.com/Teams'
+    - title: Блоги Teams и техническое сообщество
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/blog-site-teams.svg'
+      url: 'https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams'
+    - title: Отзывы о продукте Teams
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/user.svg'
+      url: 'https://microsoftteams.uservoice.com/'
+    - title: Скачать Microsoft Teams
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/download-teams.svg'
+      url: 'https://www.microsoft.com/microsoft-teams/download-app'
 additionalContent:
   sections:
-  - title: Ключевые решения
-    items:
-    - title: Чат, команды и каналы
-      links:
-      - text: Чат, команды, каналы и приложения
-        url: ./deploy-chat-teams-channels-microsoft-teams-landing-page.md
-      - text: Общие сведения о командах и каналах
-        url: ./teams-channels-overview.md
-      - text: Телефонные переговоры и чат с пользователями из других организаций (гостевой и внешний доступ)
-        url: ./communicate-with-users-from-other-organizations.md
-      - text: Что такое управление совместной работой?
-        url: /microsoft-365/solutions/collaboration-governance-overview?view=o365-worldwide
-      - text: Настройка Teams с тремя уровнями безопасности общего доступа к файлам
-        url: /microsoft-365/solutions/configure-teams-three-tiers-protection?view=o365-worldwide
-    - title: Собрания и конференции
-      links:
-      - text: Общие сведения о собраниях и конференциях
-        url: ./deploy-meetings-microsoft-teams-landing-page.md
-      - text: Что такое трансляции Microsoft Teams?
-        url: ./teams-live-events/what-are-teams-live-events.md
-      - text: Развертывание аудиоконференций
-        url: ./deploy-audio-conferencing-teams-landing-page.md
-      - text: Комнаты Microsoft Teams
-        url: ./rooms/index.md
-    - title: Голосовая связь
-      links:
-      - text: Планирование голосового решения в Teams
-        url: ./cloud-voice-landing-page.md
-      - text: Что такое Голосовая связь Microsoft 365 бизнес?
-        url: ./business-voice/whats-business-voice.md
-      - text: Настройка телефонной системы
-        url: ./setting-up-your-phone-system.md
-      - text: Пример Contoso — миграция голосовых служб Teams
-        url: ./voice-case-study-overview.md
-    - title: Расширение функциональности Teams
-      links:
-      - text: Приложения, боты и соединители в Microsoft Teams
-        url: ./deploy-apps-microsoft-teams-landing-page.md
-      - text: Создание приложений для Microsoft Teams
-        url: /MicrosoftTeams/platform/overview
-      - text: Интеграция с Microsoft Power Platform
-        url: ./teams-power-platfom-integration.md
-      - text: Безопасность приложений Microsoft Teams и их соответствие требованиям
-        url: /microsoft-365-app-certification/teams/teams-apps
-      - text: Microsoft Viva — впечатления сотрудников от продукта и вовлечение сотрудников
-        url: https://www.microsoft.com/microsoft-viva/
-    - title: Образование и промышленность
-      links:
-      - text: Обеспечение безопасности учащихся при использовании Teams для дистанционного обучения
-        url: https://support.microsoft.com/office/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8
-      - text: Microsoft Teams для образования
-        url: ./expand-teams-across-your-org/teams-for-education-landing-page.md
-      - text: Здравоохранение
-        url: ./expand-teams-across-your-org/healthcare/teams-in-hc.md
-      - text: Линейный персонал
-        url: ./flw-quickstart.yml
-      - text: Розничная торговля
-        url: ./expand-teams-across-your-org/teams-for-retail-landing-page.md
-    - title: Государственные организации
-      links:
-      - text: Teams для государственных организаций
-        url: ./expand-teams-across-your-org/teams-for-government-landing-page.md
-      - text: Для государственных организаций — развертывание GCC
-        url: ./plan-for-government-gcc.md
-      - text: Для государственных организаций — развертывание GCC High
-        url: ./plan-for-government-gcc-high.md
-      - text: Для государственных организаций — развертывание DoD
-        url: ./plan-for-government-dod.md
-      - text: Пакеты политик для государственных организаций
-        url: ./policy-packages-gov.md
+    - title: Ключевые решения
+      items:
+        - title: 'Чат, команды и каналы'
+          links:
+            - text: 'Чат, команды, каналы и приложения'
+              url: ./deploy-chat-teams-channels-microsoft-teams-landing-page.md
+            - text: Общие сведения о командах и каналах
+              url: ./teams-channels-overview.md
+            - text: Телефонные переговоры и чат с пользователями из других организаций (гостевой и внешний доступ)
+              url: ./communicate-with-users-from-other-organizations.md
+            - text: Что такое управление совместной работой?
+              url: /microsoft-365/solutions/collaboration-governance-overview?view=o365-worldwide
+            - text: Настройка Teams с тремя уровнями безопасности общего доступа к файлам
+              url: /microsoft-365/solutions/configure-teams-three-tiers-protection?view=o365-worldwide
+        - title: Собрания и конференции
+          links:
+            - text: Общие сведения о собраниях и конференциях
+              url: ./deploy-meetings-microsoft-teams-landing-page.md
+            - text: Что такое трансляции Microsoft Teams?
+              url: ./teams-live-events/what-are-teams-live-events.md
+            - text: Развертывание аудиоконференций
+              url: ./deploy-audio-conferencing-teams-landing-page.md
+            - text: Комнаты Microsoft Teams
+              url: ./rooms/index.md
+        - title: Голосовая связь
+          links:
+            - text: Планирование голосового решения в Teams
+              url: ./cloud-voice-landing-page.md
+            - text: Что такое Голосовая связь Microsoft 365 бизнес?
+              url: ./business-voice/whats-business-voice.md
+            - text: Настройка телефонной системы
+              url: ./setting-up-your-phone-system.md
+            - text: Пример Contoso — миграция голосовых служб Teams
+              url: ./voice-case-study-overview.md
+        - title: Расширение функциональности Teams
+          links:
+            - text: 'Приложения, боты и соединители в Microsoft Teams'
+              url: ./deploy-apps-microsoft-teams-landing-page.md
+            - text: Создание приложений для Microsoft Teams
+              url: /MicrosoftTeams/platform/overview
+            - text: Интеграция с Microsoft Power Platform
+              url: ./teams-power-platfom-integration.md
+            - text: Безопасность приложений Microsoft Teams и их соответствие требованиям
+              url: /microsoft-365-app-certification/teams/teams-apps
+            - text: Microsoft Viva — впечатления сотрудников от продукта и вовлечение сотрудников
+              url: 'https://www.microsoft.com/microsoft-viva/'
+        - title: Образование и промышленность
+          links:
+            - text: Обеспечение безопасности учащихся при использовании Teams для дистанционного обучения
+              url: 'https://support.microsoft.com/office/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8'
+            - text: Microsoft Teams для образования
+              url: ./expand-teams-across-your-org/teams-for-education-landing-page.md
+            - text: Здравоохранение
+              url: ./expand-teams-across-your-org/healthcare/teams-in-hc.md
+            - text: Линейный персонал
+              url: ./flw-quickstart.yml
+            - text: Розничная торговля
+              url: ./expand-teams-across-your-org/teams-for-retail-landing-page.md
+        - title: Государственные организации
+          links:
+            - text: Teams для государственных организаций
+              url: ./expand-teams-across-your-org/teams-for-government-landing-page.md
+            - text: Для государственных организаций — развертывание GCC
+              url: ./plan-for-government-gcc.md
+            - text: Для государственных организаций — развертывание GCC High
+              url: ./plan-for-government-gcc-high.md
+            - text: Для государственных организаций — развертывание DoD
+              url: ./plan-for-government-dod.md
+            - text: Пакеты политик для государственных организаций
+              url: ./policy-packages-gov.md
