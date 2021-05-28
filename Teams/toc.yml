@@ -39,9 +39,9 @@ items:
                 href: tutorial-network-planner-example.yml
               - name: Прокси-серверы для Teams или Skype для бизнеса Online
                 href: proxy-servers-for-skype-for-business-online.md
-              - name: "Планирование использования групп Microsoft 365 при создании команд в\_Teams"
+              - name: Планирование использования групп Microsoft 365 при создании команд в Teams
                 href: plan-office-365-groups.md
-              - name: "Планирование управления жизненным циклом в\_Teams"
+              - name: Планирование управления жизненным циклом в Teams
                 href: plan-teams-lifecycle.md
               - name: Планирование управления в Teams
                 href: plan-teams-governance.md
@@ -89,7 +89,7 @@ items:
                     href: teams-adoption-drive-awareness.md
                   - name: Планирование проверок работоспособности служб
                     href: teams-adoption-schedule-service-health-reviews.md
-          - name: "Развертывание клиентов\_Teams"
+          - name: Развертывание клиентов Teams
             items:
               - name: Работа с клиентами для Teams
                 href: get-clients.md
@@ -105,7 +105,7 @@ items:
                 href: Office-365-set-up.md
               - name: Использование памяти в Microsoft Teams
                 href: teams-memory-usage-perf.md
-              - name: "URL-адреса и диапазоны IP-адресов в Microsoft 365 и Office\_365"
+              - name: URL-адреса и диапазоны IP-адресов в Microsoft 365 и Office 365
                 href: office-365-urls-ip-address-ranges.md
               - name: Teams для инфраструктуры виртуальных рабочих столов (VDI)
                 href: teams-for-vdi.md
@@ -119,7 +119,7 @@ items:
                 href: troubleshoot-installation.md
       - name: Обучение работе с Teams
         items:
-          - name: "Обучение для администраторов\_Teams"
+          - name: Обучение для администраторов Teams
             href: itadmin-readiness.md
           - name: Сеансы Teams на Ignite
             href: ignite-2020-landing-page.md
@@ -173,7 +173,7 @@ items:
         items:
           - name: Обзор
             href: upgrade-to-Teams.md
-          - name: "Переход со Skype для бизнеса Online на\_Teams"
+          - name: Переход со Skype для бизнеса Online на Teams
             href: upgrade-to-Teams-execute-SkypeforBusinessOnline.md
           - name: Переход с локальной среды Skype для бизнеса на Teams
             href: upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md
@@ -313,9 +313,9 @@ items:
         href: manage-teams-overview.md
       - name: Роли администратора
         href: using-admin-roles.md
-      - name: "Управление Teams при переходе на новую версию Центра администрирования Microsoft\_Teams"
+      - name: Управление Teams при переходе на новую версию Центра администрирования Microsoft Teams
         href: manage-teams-skypeforbusiness-admin-center.md
-      - name: "Управление Teams в Центре администрирования Microsoft\_Teams"
+      - name: Управление Teams в Центре администрирования Microsoft Teams
         href: manage-teams-in-modern-portal.md
       - name: Управление параметрами Teams в организации
         href: enable-features-office-365.md
@@ -415,7 +415,7 @@ items:
         href: public-preview-doc-updates.md
       - name: Использование встроенного перевода сообщений
         href: inline-message-translation-teams.md
-      - name: "Область поиска в каталоге Microsoft\_Teams"
+      - name: Область поиска в каталоге Microsoft Teams
         href: teams-scoped-directory-search.md
       - name: 'Вопросы и ответы: поддержка удаленных сотрудников'
         href: FAQ-support-remote-workforce.md
@@ -471,7 +471,7 @@ items:
         href: best-practices-organizing.md
       - name: Управление большими командами
         href: best-practices-large-groups.md
-      - name: "Создание команды для всей организации в\_Teams"
+      - name: Создание команды для всей организации в Teams
         href: create-an-org-wide-team.md
       - name: Создание групп руководителей
         href: create-manager-directs-teams.md
@@ -487,7 +487,7 @@ items:
         href: teams-outlook-share-teams.md
       - name: Управление политиками обмена сообщениями
         href: messaging-policies-in-teams.md
-      - name: "Присутствие пользователей в\_Teams"
+      - name: Присутствие пользователей в Teams
         href: presence-admins.md
       - name: Управление тегами в Teams
         href: manage-tags.md
@@ -501,7 +501,7 @@ items:
         href: migrate-slack-to-teams.md
       - name: Работа с шаблонами Teams
         items:
-          - name: Использование шаблонов Teams в консоли администратора
+          - name: Использование шаблонов Teams в центре администрирования
             href: get-started-with-teams-templates-in-the-admin-console.md
           - name: Созданные в Graph шаблоны Teams для малого и среднего бизнеса
             href: smb-templates.md
@@ -557,7 +557,7 @@ items:
         href: set-up-your-team-hierarchy.md
   - name: 'Собрания, телеконференции и трансляция мероприятий в реальном времени'
     items:
-      - name: "Краткое руководство\_— собрания и трансляции"
+      - name: Краткое руководство — собрания и трансляции
         href: quick-start-meetings-live-events.md
       - name: Планирование развертывания
         href: deploy-meetings-microsoft-teams-landing-page.md
@@ -605,7 +605,7 @@ items:
             href: tmr-meeting-recording-change.md
           - name: Интеграция центра контактов
             href: teams-contact-center.md
-          - name: "Использование надстройки \"Собрание\_Teams\" в\_Outlook"
+          - name: Использование надстройки "Собрание Teams" в Outlook
             href: teams-add-in-for-outlook.md
           - name: Настройка приложения "Собрания Skype" для работы с Teams
             href: configure-skype-meetings-app-to-work-with-teams.md
@@ -613,7 +613,7 @@ items:
             href: set-up-the-call-me-feature-for-your-users.md
           - name: Получение отчета о присутствии на собрании
             href: teams-analytics-and-reports/meeting-attendance-report.md
-          - name: "Настройка службы переноса собраний\_(MMS)"
+          - name: Настройка службы переноса собраний (MMS)
             href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
           - name: Управление Доской в Teams
             href: manage-whiteboard.md
@@ -621,13 +621,13 @@ items:
             href: google-workspace-addon-teams.md
           - name: Облако видеовзаимодействия
             href: cloud-video-interop.md
-          - name: "Подготовка к вебинарам в Microsoft\_Teams"
+          - name: Подготовка к вебинарам в Microsoft Teams
             href: set-up-webinars.md
       - name: Аудиоконференции
         items:
           - name: Планирование развертывания
             href: deploy-audio-conferencing-teams-landing-page.md
-          - name: "Аудиоконференции в Microsoft\_365"
+          - name: Аудиоконференции в Microsoft 365
             href: audio-conferencing-in-office-365.md
           - name: 'Открытая предварительная версия: конференц-связь по сети для аудиоконференций'
             href: audio-conferencing-on-network.md
@@ -715,13 +715,13 @@ items:
                 href: ./audio-conferencing-in-office-365.md
       - name: Трансляции
         items:
-          - name: "Что такое прямые трансляции\_Teams?"
+          - name: Что такое прямые трансляции Teams?
             href: teams-live-events/what-are-teams-live-events.md
-          - name: "Планирование прямых трансляций\_Teams"
+          - name: Планирование прямых трансляций Teams
             href: teams-live-events/plan-for-teams-live-events.md
-          - name: "Настройка прямых трансляций\_Teams"
+          - name: Настройка прямых трансляций Teams
             href: teams-live-events/set-up-for-teams-live-events.md
-          - name: "Настройка политик трансляции\_Teams с помощью\_PowerShell"
+          - name: Настройка политик трансляции Teams с помощью PowerShell
             href: teams-live-events/set-teams-live-events-policies-using-powershell.md
           - name: Настройка параметров прямых трансляций Teams
             href: teams-live-events/configure-teams-live-events.md
@@ -893,7 +893,7 @@ items:
             items:
               - name: Обзор
                 href: direct-routing-configure.md
-              - name: "Шаг\_1. Подключение SBC"
+              - name: Шаг 1. Подключение SBC
                 href: direct-routing-connect-the-sbc.md
               - name: Шаг 2. Включение пользователей
                 href: direct-routing-enable-users.md
@@ -1093,9 +1093,9 @@ items:
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-sweden.md
               - name: Управление номерами телефонов в Швейцарии
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-switzerland.md
-              - name: "Управление номерами телефонов в\_Соединенном Королевстве"
+              - name: Управление номерами телефонов в Соединенном Королевстве
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-k.md
-              - name: "Управление номерами телефонов в\_США"
+              - name: Управление номерами телефонов в США
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md
           - name: Ограничения и запреты для бесплатных номеров
             items:
@@ -1265,7 +1265,7 @@ items:
             href: business-voice/set-up-emergency-locations.md
           - name: Шаг 2. Настройка номеров телефонов
             href: business-voice/set-up-phone-numbers.md
-          - name: "Шаг\_3. Назначение лицензий"
+          - name: Шаг 3. Назначение лицензий
             href: business-voice/set-up-licenses.md
           - name: Шаг 4. Настройка учетной записи ресурса
             href: business-voice/set-up-resource-account.md
@@ -1331,7 +1331,7 @@ items:
         items:
           - name: Интеграция с Power Platform
             href: teams-power-platfom-integration.md
-          - name: "Управление приложениями Power Platform в Центре администрирования Microsoft\_Teams"
+          - name: Управление приложениями Power Platform в Центре администрирования Microsoft Teams
             href: manage-power-platform-apps.md
           - name: 'Публикация настраиваемого приложения, отправленного с помощью API передачи приложений Teams'
             href: submit-approve-custom-apps.md
@@ -1355,7 +1355,7 @@ items:
             href: admin-settings.md
           - name: Использование встроенных и настраиваемых вкладок
             href: built-in-custom-tabs.md
-          - name: "Использование Microsoft 365 или Office\_365 и настраиваемых соединителей"
+          - name: Использование Microsoft 365 или Office 365 и настраиваемых соединителей
             href: Office-365-custom-connectors.md
           - name: Поведение приложений Teams для нестандартных пользователей
             href: non-standard-users.md
@@ -1375,7 +1375,7 @@ items:
         href: expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md
       - name: Все отрасли
         items:
-          - name: "Начало работы с шаблонами\_Teams"
+          - name: Начало работы с шаблонами Teams
             href: get-started-with-teams-templates.md
           - name: '"Смены" для Teams'
             href: expand-teams-across-your-org/shifts-for-teams-landing-page.md
@@ -1417,7 +1417,7 @@ items:
       - name: Teams для образования
         href: expand-teams-across-your-org/teams-for-education-landing-page.md
         items:
-          - name: "Краткое руководство для администраторов\_— Teams для образования"
+          - name: Краткое руководство для администраторов — Teams для образования
             href: teams-quick-start-edu.yml
           - name: Начало работы с удаленным обучением
             href: remote-learning-edu.md
@@ -1525,7 +1525,7 @@ items:
             href: office-365-groups.md
           - name: Создание учетной записи ресурса Microsoft 365 с помощью Центра администрирования Microsoft 365
             href: devices/resource-account-ui.md
-          - name: "Улучшение существующих групп Microsoft 365 с помощью\_Teams"
+          - name: Улучшение существующих групп Microsoft 365 с помощью Teams
             href: enhance-office-365-groups.md
           - name: Взаимодействие Exchange и Teams
             href: exchange-teams-interact.md
@@ -1570,6 +1570,10 @@ items:
             href: devices/teams-ip-phones.md
           - name: Телефоны для приложения Skype для бизнеса Online
             href: /SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
+          - name: Оповещения и мониторинг в Teams
+            href: alerts/teams-admin-alerts.md
+          - name: Мониторинг работоспособности устройств в Teams
+            href: alerts/device-health-status.md
       - name: PowerShell в Teams
         items:
           - name: Обзор
