@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: Перед выводом из эксплуатации конечной точки приложения Skype для бизнеса локальной среде.
-ms.openlocfilehash: 562da9e8e83684ab3ff532be68190161ffc412b5
-ms.sourcegitcommit: 02703e8f9a512848e158a3a4f38d84501ad5f633
+ms.openlocfilehash: 959a3ed47993f431636fe3c99b8502cf9aa634fe
+ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52526722"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52684386"
 ---
 # <a name="move-hybrid-application-endpoints-before-decommissioning-your-on-premises-environment"></a>Перемещение конечных точек гибридного приложения перед выводом из эксплуатации локальной среды
 
@@ -46,7 +46,7 @@ ms.locfileid: "52526722"
    ```PowerShell
    Get-CsHybridApplicationEndpoint|select Sipaddress, DisplayName, ApplicationID, LineUri |Export-Csv -Path "c:\backup\HybridEndpoints.csv"
    ```
-2. Создание и лицензирование новых [учетных](https://docs.microsoft.com/microsoftteams/manage-resource-accounts) записей ресурсов в Microsoft 365 для замены существующих конечных точек гибридного приложения на локальном сайте.
+2. Создание и лицензирование новых [учетных](/microsoftteams/manage-resource-accounts) записей ресурсов в Microsoft 365 для замены существующих конечных точек гибридного приложения на локальном сайте.
 
 3. Связывать новые учетные записи ресурсов с существующими конечными точками гибридных приложений.
 
@@ -70,7 +70,7 @@ ms.locfileid: "52526722"
    }
    ```
 
-6. Назначение номеров телефонов новым учетным записям ресурсов, созданным в шаге 2. Дополнительные сведения о назначении номера телефона учетной записи ресурса см. в следующей статье: [Назначение номера службы.](https://docs.microsoft.com/microsoftteams/manage-resource-accounts#assign-a-service-number)
+6. Назначение номеров телефонов новым учетным записям ресурсов, созданным в шаге 2. Дополнительные сведения о назначении номера телефона учетной записи ресурса см. в следующей статье: [Назначение номера службы.](/microsoftteams/manage-resource-accounts#assign-a-service-number)
 
 7. Удалите конечные точки на месте, исполнив следующую команду Skype для бизнеса Server PowerShell:
 

@@ -17,12 +17,12 @@ description: Соединители помогают поддерживать т
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 62406da5e9feff7286023b955bd031bddda110b1
-ms.sourcegitcommit: 358038cee16ac041da10a67c26cf463901ae53d8
+ms.openlocfilehash: 3e6e65c3462242b82691a292770de684b6c4404b
+ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "52669151"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52684246"
 ---
 # <a name="use-microsoft-365-and-custom-connectors-in-microsoft-teams"></a>Используйте Microsoft 365 и пользовательские соединители в Microsoft Teams
 
@@ -32,7 +32,8 @@ ms.locfileid: "52669151"
 
 Microsoft 365 можно использовать как с группами Microsoft Teams, так и Microsoft 365, чтобы всем участникам было проще синхронизироваться и быстро получать актуальные сведения. Microsoft Teams и Exchange используют одинаковую модель соединителей, что позволяет использовать одни соединители на обеих платформах. Однако следует отметить, что отключение соединители для группы Microsoft 365, от которую зависит рабочая группа, также отключит возможность создавать соединители для этой группы.
 
-> [Примечание] Соединители по умолчанию отключены в средах Community (GCC) для государственных GCC. Если вам нужно включить их, задайте для параметров ConnectorsEnabled или ConnectorsEnabledForTeams $true с помощью $true [SetOrganizationConfig.](/powershell/module/exchange/set-organizationconfig?view=exchange-ps) Раньше вам требовалось подключиться к [Exchange Online PowerShell.](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps)
+> [!NOTE]
+> Соединитетели по умолчанию отключены в средах Community (GCC) для государственных GCC. Если вам нужно включить их, задайте для параметров ConnectorsEnabled или ConnectorsEnabledForTeams $true с помощью $true [SetOrganizationConfig.](/powershell/module/exchange/set-organizationconfig?view=exchange-ps) Раньше вам требовалось подключиться к [Exchange Online PowerShell.](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps)
 
 ## <a name="add-a-connector-to-a-channel"></a>Добавление соединителю в канал
 

@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Узнайте, как настроить приложения в Microsoft Teams.
-ms.openlocfilehash: a43272c19c00079b5a0f0299a5630ca6e6ec78e5
-ms.sourcegitcommit: 40f76bc6b5e304faea8516a78f8576ba1cdb7f7c
+ms.openlocfilehash: dbf92ec3899599f732f2898f042f51f30f91f15b
+ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52337806"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52684596"
 ---
 # <a name="customize-apps-in-microsoft-teams"></a>Настройка приложений в Microsoft Teams
 
@@ -39,7 +39,7 @@ ms.locfileid: "52337806"
 - Значок "Контур"
 - Цвет акцента
 
-Подробные [сведения о полях, которые можно настроить,](https://docs.microsoft.com/microsoftteams/platform/resources/schema/manifest-schema) см. в схеме манифеста Teams манифеста.
+Подробные [сведения о полях, которые можно настроить,](/microsoftteams/platform/resources/schema/manifest-schema) см. в схеме манифеста Teams манифеста.
 
 > [!NOTE]
 > В настоящее время настройка приложений не поддерживается в облако сообщества для государственных организаций GCCH или Department of Defense (DoD).
@@ -173,3 +173,4 @@ ms.locfileid: "52337806"
 
 - [Управление приложениями](manage-apps.md)
 - [Настройка магазина приложений](customize-your-app-store.md)
+- [Повторное разбрасывка приложений](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/rebrand-apps-to-your-own-organization-s-branding-with-app/ba-p/2376296)

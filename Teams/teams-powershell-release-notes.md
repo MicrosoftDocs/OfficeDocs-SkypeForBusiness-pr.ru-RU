@@ -13,12 +13,12 @@ ms.collection:
 description: Узнайте о последних изменениях в Teams PowerShell.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f319e95b4b68c7b9a20c8c6fff238f70878e7a32
-ms.sourcegitcommit: a628b22c9a0ef3bcd7dee3f308a79b4c427872cc
+ms.openlocfilehash: 986aebf2ae86e463976f4480fbd2f7dde440f0a1
+ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/14/2021
-ms.locfileid: "52491806"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52684376"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Microsoft Teams Заметки о выпуске PowerShell
 
@@ -31,7 +31,7 @@ ms.locfileid: "52491806"
 
 | Дата | Версия | Обновления |
 |------- | -------------------- | ------------------------------ |
-| Май 2021 г. | [3.0.0] |<li>Обновления для входа AccessToken с Connect-MicrosoftTeams — единый массив маркеров вместо параметров маркера доступа для ресурсов</li><li>Удалены все ссылки на AADGraph, так как заканчивается жизненный срок AADGraph</li>|
+| Май 2021 г. | [2.3.2-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/2.3.2-preview) |<li>Поддержка входа AccessToken с Подключение MicrosoftTeams. Добавлен параметр -AccessTokens, который принимает массив маркера. Для использования параметра AccessTokens требуются msGraph и Teams маркеры ресурсов.</li><li>Удалены параметры AadAccessToken и MsAccessToken.</li>|
 | Май 2021 г. | [2.3.1](https://www.powershellgallery.com/packages/MicrosoftTeams/2.3.1) |<li>Обновить из . NETCore 2.1 to 3.1</li><li>Добавленный cmdlet to get multi-geo region for users and groups</li><li>Исправления для встроенной проверки подлинности Windows для использования -AccountId с Connect-MicrosoftTeams</li><li>Командлеты TeamsCallHoldPolicy теперь доступны</li><li>Обновления входных параметров и форматов вывода для многих команд</li><li>Устранение большой проблемы с задержкой при перенаправке команд</li><li>Пользовательские пакеты для ga</li>|
 | Апрель 2021 г. | [2.2.0-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/2.2.0-preview) | <li>Исправления для интегрированной проверки Windows для использования -AccountId с Подключение-MicrosoftTeams.</li><li>Добавленный cmdlet to get details of total change notification events that can be sent to users (Добавленный cmdlet) для получения сведений о событиях уведомлений об общем изменении, которые можно отправить пользователям.</li><li>Добавленный cmdlet to get multi-geo region for users and groups (Добавить многосемейный регион для пользователей и групп).</li><li>Обработка значений, переданных в teamsEnvironment name, была с чувствительностью к делу. Эта исправлена.</li><li>Основной рефактор удаленного управления сеансами в модуле для упрощения тестов. Администраторы клиентов не должны изменять функциональные функции.</li>|
 | Апрель 2021 г. | [Предварительный просмотр 2.1.0](https://www.powershellgallery.com/packages/MicrosoftTeams/2.1.0-preview) | <li>Фиксированное форматирование существующих командлетов (например, Get-CsTeamsNetworkRoamingPolicy, Get-CsTeamsMeetingPolicy, Get-CsTeamsMessagingPolicy и другие).</li><li>Обновленный список параметров для управления политиками.</li>|

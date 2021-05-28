@@ -18,12 +18,12 @@ appliesto:
 ms.reviewer: anach
 description: Ознакомьтесь с приложением "Пациенты" для администраторов Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 92bc7581610abf1dc8baab17d2e9d23abb6c6fd3
-ms.sourcegitcommit: beaaee10019f4eda746f348888a4a3c2aaa6f196
-ms.translationtype: HT
+ms.openlocfilehash: 2302f117564e1dd00a6f238ca23a8e36c63ae554
+ms.sourcegitcommit: e6e6a2a85ff376f97a3af3548e13d1273fa84a52
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "48803507"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "52697846"
 ---
 # <a name="patients-app-overview"></a>Обзор приложения "Пациенты"
 
@@ -45,7 +45,7 @@ ms.locfileid: "48803507"
 
 ## <a name="configure-patients-app"></a>Настройка приложения "Пациенты"
 
-Сведения о подготовке среды к использованию приложения "Пациенты" в режиме EMR см. в статье [Интеграция электронных историй болезни в Microsoft Teams](patients-app.md). Кроме того, ознакомьтесь со статьей [Управление политиками установки приложений в Microsoft Teams](../../teams-app-setup-policies.md), чтобы включить приложение "Пациенты" для организации.
+См. [управление политиками настройки](../../teams-app-setup-policies.md) приложений в Microsoft Teams, чтобы включить приложение "Пациенты" для вашей организации.
 
 Сведения о том, как конечные пользователи могут получить доступ к приложению "Пациенты" и установить его в команде, которой они владеют или управляют, см. в статье [Начало работы с приложением "Пациенты" Microsoft Teams](https://support.office.com/article/get-started-with-microsoft-teams-patients-aa7daebe-706a-4a65-8ce9-b9b79233f393).
 
@@ -74,6 +74,3 @@ ms.locfileid: "48803507"
 
 Да. Каждое действие пользовательского интерфейса, выполняемое пользователем Microsoft Teams в приложении "Пациенты", подвергается аудиту и доступно в Центре безопасности и соответствия требованиям. Подробные сведения описаны в статье [Журналы аудита для приложения "Пациенты"](patients-audit.md).
 
-## <a name="related-topics"></a>Связанные статьи
-
-[Интеграция электронных историй болезни в Microsoft Teams](patients-app.md)

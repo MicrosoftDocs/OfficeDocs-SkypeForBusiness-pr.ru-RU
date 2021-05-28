@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d2a5bc0f459bb9e7dac8878a5ad75911ba4b1b82
-ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
+ms.openlocfilehash: 1ec7ef2f09728abdb2db8acc3be948a50faaf304
+ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52628908"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52684576"
 ---
 # <a name="purchase-configure-and-enable-career-coach-for-microsoft-teams"></a>Приобрести, настроить и включить для тренеров по Microsoft Teams
 
@@ -69,7 +69,7 @@ Career Coach — это приложение Microsoft Teams для образо
 
 ### <a name="assign-app-licenses-to-users"></a>Назначение лицензий на приложения пользователям
 
-Пошаговую инструкцию см. в инструкциях по [назначению лицензий пользователям.](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users)
+Пошаговую инструкцию см. в инструкциях по [назначению лицензий пользователям.](/microsoft-365/admin/manage/assign-licenses-to-users)
 
 ### <a name="turn-on-linkedin-account-connections"></a>Включить подключения к учетной записи LinkedIn
 
@@ -303,7 +303,7 @@ Career Coach — это приложение Microsoft Teams для образо
 > [!NOTE]
 > Учащиеся будут уведомлены в Microsoft Teams о том, что тренер по карьерной деятельности закреплен.
 
-Дополнительные [сведения можно и здесь:](https://docs.microsoft.com/microsoftteams/teams-app-setup-policies) Управление политиками настройки приложений в Корпорации Майкрософт.
+Дополнительные [сведения можно и здесь:](/microsoftteams/teams-app-setup-policies) Управление политиками настройки приложений в Корпорации Майкрософт.
 
 ## <a name="resources"></a>Ресурсы
 
