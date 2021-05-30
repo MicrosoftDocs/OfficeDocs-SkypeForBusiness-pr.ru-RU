@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1ec7ef2f09728abdb2db8acc3be948a50faaf304
-ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
+ms.openlocfilehash: 95272545080559b94faeff42d715b8f57c4d0242
+ms.sourcegitcommit: ea9a0119d184179300e51f58ca4fee249c12d00a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52684576"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "52699360"
 ---
 # <a name="purchase-configure-and-enable-career-coach-for-microsoft-teams"></a>Приобрести, настроить и включить для тренеров по Microsoft Teams
 
@@ -184,9 +184,6 @@ Career Coach — это приложение Microsoft Teams для образо
 
 Чтобы создать каталог курсов, составьте список всех курсов, которые вы преподаете в учебном заведении, и загрузите его в CSV-файл. Приложение использует каталог курсов для определения навыков учащегося из его расшифровки и для определения курса. 
 
-> [!NOTE]
-> Сведения [о защите сведений](location-of-data-in-teams.md) об [](security-compliance-overview.md) учащихся см. в Teams безопасности и соответствия требованиям. 
-
 ##### <a name="course-catalog-documents-formatting-and-schema"></a>Форматирование и схема документов каталога курсов
 
 Документ должен быть в формате CSV с максимальным размером 18 МБ. Документ должен содержать обязательное название курса полей, его **ИД** и **URL-адрес курса.** Включив рекомендуемые поля, вы повысите качество работы учащихся, возвращая более лучшие результаты поиска и определение навыков.
@@ -317,13 +314,9 @@ Career Coach — это приложение Microsoft Teams для образо
 
 - [Управление приложениями в Центре Microsoft Teams администрирования](manage-apps.md)
 
-- [Безопасность, конфиденциальность и соответствие требованиям в Microsoft Teams](security-compliance-overview.md)
-
 - [Набор виртуальных ориентаций в Интернете](https://www.microsoft.com/education/remote-learning/virtual-orientation) 
 
 - [Ограничения и спецификация Teams каналов](limits-specifications-teams.md)
-
-- [Расположение данных в Microsoft Teams](location-of-data-in-teams.md)
 
 - [Начало работы с обучением администраторов Microsoft Teams](ITAdmin-readiness.md)
 
