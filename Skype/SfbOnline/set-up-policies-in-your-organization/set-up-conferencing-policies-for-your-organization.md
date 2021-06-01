@@ -46,7 +46,7 @@ ms.locfileid: "52240081"
 ### <a name="start-windows-powershell"></a>Начните Windows PowerShell
 
  > [!Note]
-> Skype для бизнеса В настоящее время Online Connector является частью последней версии Teams PowerShell. Если вы используете последний общедоступный Teams PowerShell, вам не нужно устанавливать Skype для бизнеса Online Connector.
+> Skype для бизнеса Online Connector в настоящее время является частью последней версии Teams PowerShell. Если вы используете последний общедоступный Teams PowerShell, вам не нужно устанавливать Skype для бизнеса Online Connector.
 1. Установите модуль [Teams PowerShell](/microsoftteams/teams-powershell-install).
     
 2. Откройте Windows PowerShell командную команду и запустите следующие команды: 
@@ -94,7 +94,7 @@ ms.locfileid: "52240081"
    ```
    См. дополнительные новости [о cmdlet Grant-CsConferencingPolicy.](/powershell/module/skype/Grant-CsConferencingPolicy)
     
-Если вы уже создали политику, вы можете применить параметры к пользователям с помощью cmdlet [Set-CsConferencingPolicy,](/powershell/module/skype/Set-CsConferencingPolicy) а затем применить параметры к пользователям с помощью cmdlet [Grant-CsConferencingPolicy.](/powershell/module/skype/Grant-CsConferencingPolicy)
+Если вы уже создали политику, можно использовать для изменения существующей политики cmdlet [Set-CsConferencingPolicy,](/powershell/module/skype/Set-CsConferencingPolicy) а затем применить параметры к пользователям с помощью cmdlet [Grant-CsConferencingPolicy.](/powershell/module/skype/Grant-CsConferencingPolicy)
   
 ### <a name="block-anonymous-participants-from-recording-meetings-and-external-users-from-saving-meeting-content"></a>Запрет записи собраний анонимными участниками и сохранения содержимого собрания внешними пользователями
 
@@ -118,7 +118,7 @@ ms.locfileid: "52240081"
   
 ## <a name="want-to-know-more-about-windows-powershell"></a>Хотите узнать больше о Windows PowerShell?
 
-- Windows PowerShell is all about managing users and what users are allowed or not allowed to do. С Windows PowerShell вы можете управлять Microsoft 365 или Office 365 и Skype для бизнеса Online, используя единый пункт администрирования, который упростит выполнение ваших повседневных задач. Чтобы начать работу с Windows PowerShell, ознакомьтесь с приведенными ниже разделами.
+- Windows PowerShell is all about managing users and what users are allowed or not allowed to do. С Windows PowerShell вы можете управлять Microsoft 365 или Office 365 и Skype для бизнеса Online, используя единый пункт администрирования, который упростит выполнение повседневных задач. Чтобы начать работу с Windows PowerShell, ознакомьтесь с приведенными ниже разделами.
     
   - [Введение в Windows PowerShell и Skype для бизнеса Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     

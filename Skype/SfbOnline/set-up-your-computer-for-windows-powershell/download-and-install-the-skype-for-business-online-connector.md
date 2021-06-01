@@ -48,4 +48,4 @@ ms.locfileid: "52238870"
    Дополнительные сведения о запуске Windows PowerShell см. в Подключение всех службах Microsoft 365 или [Office 365](/microsoft-365/enterprise/connect-to-all-microsoft-365-services-in-a-single-windows-powershell-window) в одном окне Windows PowerShell или Настройка компьютера [для](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)Windows PowerShell.
   
 ## <a name="related-topics"></a>Статьи по теме
-[Настройка компьютера для управления Skype для бизнеса online с помощью Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
+[Настройка компьютера для управления Skype для бизнеса с помощью Windows PowerShell](set-up-your-computer-for-windows-powershell.md)

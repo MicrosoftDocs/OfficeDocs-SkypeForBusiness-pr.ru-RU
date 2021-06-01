@@ -18,7 +18,7 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
-description: 'Узнайте, как настроить внешние Skype для бизнеса общения в Интернете для общения с внешними Skype контактами. '
+description: 'Узнайте, как настроить внешние Skype для бизнеса в Интернете для общения с внешними Skype контактами. '
 ms.openlocfilehash: 4ac480ff162b61db7bff4d71f9915f059838c65d
 ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
@@ -40,7 +40,7 @@ ms.locfileid: "52238985"
 ***
   
 ## <a name="related-topics"></a>Статьи по теме
-[Настройка внешних Skype для бизнеса в Интернете](https://support.microsoft.com/help/10041/set-up-lync-online-external-communications) (по поведению)
+[Настройка внешней Skype для бизнеса в Интернете](https://support.microsoft.com/help/10041/set-up-lync-online-external-communications) (поведение с поведению)
 
 [Разрешение пользователям связываться с внешними пользователями Skype для бизнеса](allow-users-to-contact-external-skype-for-business-users.md)
 

@@ -31,17 +31,17 @@ Skype для бизнеса Планы звонков по сети теперь
 Эта функция пока недоступна для прямой маршрутии.
 
 >[!NOTE]
-> Заблокированные вызыватели могут немного отличаться в действиях, если они заблокированы. Поведение зависит от того, как оператор связи заблокированного вызываемого звонка обрабатывает уведомление о том, что звонок не разрешен для успешного завершения. Примерами может быть сообщение о том, что звонок не может быть выполнен по телефону или просто перетассыв вызов.
+> Заблокированные вызыватели могут немного отличаться в действиях при блокировании. Поведение зависит от того, как оператор связи заблокированного вызываемого звонка обрабатывает уведомление о том, что звонок не разрешен для успешного завершения. Примерами может быть сообщение о том, что звонок не может быть выполнен по телефону или просто перетассыв вызов.
 
 ## <a name="call-blocking-admin-controls-and-information"></a>Блокировка вызовов элементов управления и сведений администратора
 
-Элементы управления блокировкой номеров предоставляются только с помощью PowerShell. Шаблоны блоков числов определяются как шаблоны регулярных выражений. Порядок выражений не имеет важного отношения— первый шаблон, совпадающий с шаблоном в списке, приводит к блокированию звонка. На то, чтобы шаблон стал активным, может потребоваться до 24 часов.
+Элементы управления блокировкой номеров предоставляются только с помощью PowerShell. Шаблоны блоков числов определяются как шаблоны регулярных выражений. Порядок выражений не имеет ошеломления— первый шаблон, совпадающий с шаблоном в списке, приводит к блокированию вызова. На то, чтобы шаблон стал активным, может потребоваться до 24 часов, чтобы новый номер или шаблон, который был добавлен или удален в списке заблокированных вызывающих пользователей.
 
 ## <a name="call-blocking-powershell-commands"></a>Команды PowerShell, блокирующие вызовы
 
 Шаблоны номеров можно управлять с ```CsInboundBlockedNumberPattern``` помощью команд , , и ```New``` ```Get``` ```Set``` ```Remove``` . Вы можете управлять заданным шаблоном с помощью этих cmdlets, включая возможность переключения активации заданного шаблона.
-- [Get-CsInboundBlockedNumberPattern](/powershell/module/skype/get-csinboundblockednumberpattern) возвращает список всех шаблонов заблокированных номеров, добавленных в список клиентов, включая Name, Description, Enabled (True/False) и Pattern для каждого из них.
-- [New-CsInboundBlockedNumberPattern](/powershell/module/skype/new-csinboundblockednumberpattern) добавляет в список клиентов шаблон заблокированных номеров.
+- [Get-CsInboundBlockedNumberPattern](/powershell/module/skype/get-csinboundblockednumberpattern) возвращает список всех шаблонов заблокированных номеров, добавленных в список клиентов, включая Имя, Описание, Включено (true/False) и Pattern для каждого из них.
+- [New-CsInboundBlockedNumberPattern](/powershell/module/skype/new-csinboundblockednumberpattern) добавляет в список клиентов шаблон блокировки.
 - [Remove-CsInboundBlockedNumberPattern](/powershell/module/skype/remove-csinboundblockednumberpattern) удаляет из списка клиентов шаблон заблокированных номеров.
 - [Set-CsInboundBlockedNumberPattern](/powershell/module/skype/set-csinboundblockednumberpattern) изменяет один или несколько параметров шаблона заблокированных номеров в списке клиентов.
 
@@ -74,7 +74,7 @@ New-CsInboundBlockedNumberPattern -Name “<name>” -Enabled $True -Description
 Remove-CsInboundBlockedNumberPattern -Identity “<identity>”
 ```
  
-Если удостоверение неизвестно, используйте его, чтобы сначала найти нужный шаблон и ```Get-CsInboundBlockedNumberPattern``` заметить удостоверение. Затем запустите ```Remove-CsTenantBlockedNumberPattern``` cmdlet и передатите соответствующее значение удостоверения.
+Если удостоверение неизвестно, используйте его, чтобы сначала найти нужный шаблон и ```Get-CsInboundBlockedNumberPattern``` заметить удостоверение. Затем запустите ```Remove-CsTenantBlockedNumberPattern``` этот cmdlet и передатите соответствующее значение удостоверения.
 
 Разрешить время репликации перед проверкой и проверкой.
 
@@ -101,7 +101,7 @@ Get-CsInboundBlockedNumberPattern
 
 #### <a name="add-a-number-exception"></a>Добавление числого исключения
 
-В этом примере создается шаблон исключения для номеров, который по умолчанию добавляет шаблон как включенный. Параметры ```-Enabled``` ```-Description``` необязательны.
+В этом примере создается шаблон исключения для номеров, который по умолчанию добавляет шаблон как включенный. Параметры ```-Enabled``` ```-Description``` и параметры необязательны.
 
 ```powershell
 New-CsTenantBlockedNumberExceptionPattern -Identity <XdsGlobalRelativeIdentity> -Tenant <GUID> -Pattern <String> -Enabled <bool> -Description <string>
@@ -125,7 +125,7 @@ Get-CsTenantBlockedNumberExceptionPattern -Tenant daacb588-18ef-4f77-8c83-955af9
 
 #### <a name="modify-a-number-exception"></a>Изменение числого исключения
 
-В этом примере параметр -Identity является обязательным. Он позволяет изменить один или несколько параметров для ```Set-CsTenantBlockedNumberExceptionPattern``` заданного числового шаблона.
+В этом примере параметр -Identity является обязательным. Он позволяет изменить один или несколько параметров для ```Set-CsTenantBlockedNumberExceptionPattern``` идентификатора заданного числового шаблона.
  
 ```powershell
 Set-CsTenantBlockedNumberExceptionPattern -Identity <XdsGlobalRelativeIdentity> -Tenant <GUID> -Enabled <bool> -Description <string> -Pattern <string> 
@@ -137,7 +137,7 @@ Set-CsTenantBlockedNumberExceptionPattern -Identity InternationalPrefix -Tenant 
 
 #### <a name="remove-a-number-exception"></a>Удаление числого исключения
 
-В этом примере ```-Identity``` параметр является требуемой. Этот cmdlet удалит заданный шаблон номера из списка клиентов.  Если удостоверение неизвестно, используйте его, чтобы сначала найти нужный шаблон и ```Get-CsInboundBlockedNumberPattern``` заметить удостоверение. Затем запустите ```Remove-CsTenantBlockedNumberExceptionPattern``` cmdlet и передатите соответствующее значение удостоверения.Разрешить время репликации перед проверкой и проверкой.  
+В этом примере ```-Identity``` параметр является требуемой. Этот cmdlet удалит заданный шаблон номера из списка клиента.  Если удостоверение неизвестно, используйте его, чтобы сначала найти нужный шаблон и ```Get-CsInboundBlockedNumberPattern``` заметить удостоверение. Затем запустите ```Remove-CsTenantBlockedNumberExceptionPattern``` этот cmdlet и передатите соответствующее значение удостоверения.Разрешить время репликации перед проверкой и проверкой.  
 
 ```powershell
 Remove-CsTenantBlockedNumberExceptionPattern -Identity <XdsGlobalRelativeIdentity> -Tenant <GUID>

@@ -307,6 +307,8 @@ items:
             href: policy-control-diagnostic-data-desktop.md
           - name: Необязательные подключенные возможности
             href: teams-privacy-oce-overview.md
+          - name: Передача данных Operator Connect
+            href: operator-connect-data-transfer.md
   - name: Управление и отслеживание Teams
     items:
       - name: Обзор
@@ -957,6 +959,12 @@ items:
                 href: manage-voice-routing-policies.md
               - name: Прямая маршрутизация для устройства обеспечения связи в филиалах
                 href: direct-routing-survivable-branch-appliance.md
+      - name: Operator Connect
+        items:
+          - name: План для Operator Connect
+            href: operator-connect-plan.md
+          - name: Настройка Operator Connect
+            href: operator-connect-configure.md
       - name: Номера телефонов
         items:
           - name: Управление номерами телефонов для организации
@@ -1390,6 +1398,8 @@ items:
             items:
               - name: Виртуальные визиты с помощью Teams — интеграция с электронными медицинскими картами
                 href: expand-teams-across-your-org/healthcare/ehr-admin.md
+              - name: Отчеты администратора электронных медицинских карт
+                href: expand-teams-across-your-org/healthcare/ehr-admin-reports.md
               - name: Виртуальные визиты с помощью Bookings и Teams
                 href: bookings-app-admin.md
           - name: Просмотр и назначение пакетов политик

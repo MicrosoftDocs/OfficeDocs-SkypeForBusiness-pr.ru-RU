@@ -33,7 +33,7 @@ ms.locfileid: "52237995"
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-Если вам нужно перенести более 999 номеров телефонов (для пользователей или номеров служб, включая платные или бесплатные) в Skype для бизнеса Online, см. управление телефонными номерами для [организации.](/microsoftteams/manage-phone-numbers-for-your-organization)
+Если вам нужно перенести более 999 номеров телефонов (для пользователей или служб, включая платные или бесплатные) в Skype для бизнеса Online, см. управление телефонными номерами для [организации.](/microsoftteams/manage-phone-numbers-for-your-organization)
 
 > [!NOTE]
 > Если вам нужно больше номеров, [обратитесь в службу поддержки администраторов Skype для бизнеса](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).

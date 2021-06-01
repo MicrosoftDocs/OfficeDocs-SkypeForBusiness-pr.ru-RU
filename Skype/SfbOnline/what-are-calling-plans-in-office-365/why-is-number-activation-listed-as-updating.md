@@ -44,7 +44,7 @@ ms.locfileid: "52237795"
 
 ## <a name="for-organizations-with-more-than-150-users-create-a-service-request-to-validate-an-emergency-address"></a>Если в вашей организации больше 150 пользователей, создайте запрос на обслуживание для проверки адреса экстренного реагирования
 
-1. Во sign in as an administrator to Microsoft 365 or Office 365 with your work or school account.
+1. Войте в качестве администратора, чтобы Microsoft 365 или Office 365 с помощью своей учебной или учебной учетной записи.
     
 2. В центре администрирования на левой области навигации **щелкните** Поддержка  >  **нового запроса на обслуживание**.
     

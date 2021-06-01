@@ -28,7 +28,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/06/2021
 ms.locfileid: "52237035"
 ---
-# <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-skype-for-business-online"></a>Отправка электронного письма пользователю со сведениями об аудиоконференциях в Skype для бизнеса Online
+# <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-skype-for-business-online"></a>Отправка пользователям электронных писем со сведениями об аудиоконференциях в Skype для бизнеса Online
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
@@ -66,7 +66,7 @@ ms.locfileid: "52237035"
 4. На панели действий щелкните **Отправить информацию о конференции по электронной почте**.
     
 > [!TIP]
-> Вы также можете отправить сообщение электронной почты пользователю с помощью параметров аудиоконференции, отредактировать его свойства и нажать кнопку Аудиоконференции Отправить сведения о конференции по электронной   >  **почте.** 
+> Вы также можете отправить сообщение электронной почты пользователю с настройками аудиоконференции, отредактировать его свойства и щелкнуть Аудиоконференции Отправить сведения о конференции по электронной  >  **почте**. 
 
 ## <a name="what-else-should-you-know-about-this-email"></a>Что еще необходимо знать о таких сообщениях?
 
@@ -109,7 +109,7 @@ ms.locfileid: "52237035"
 
 - Что касается Windows PowerShell, то Skype для бизнеса online дает возможность управлять пользователями, предоставляя им права на определенные действия. С Windows PowerShell вы можете управлять Microsoft 365 или Office 365 с помощью единого администрирования, который упростит выполнение повседневных задач. Для начала работы с Windows PowerShell ознакомьтесь с приведенными ниже разделами.
     
-  - [Зачем нужна Microsoft 365 или Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+  - [Зачем нужно использовать Microsoft 365 или Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
   - [Лучшие способы управления Microsoft 365 или Office 365 с помощью Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     

@@ -1,5 +1,5 @@
 ---
-title: Office 365 корпоративный E5
+title: Office 365 корпоративный E5
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,7 +20,7 @@ f1.keywords:
 ms.custom:
 - Licensing
 - LIL_Placement
-description: 'Узнайте о лицензиях на надстройки, функции и о том, как приобрести Office 365 корпоративный планы. '
+description: 'Узнайте о лицензиях на надстройки, функции и о том, как приобрести Office 365 корпоративный планах. '
 ms.openlocfilehash: caa062e78fff49750c85e5db180081a96cae9f34
 ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
@@ -28,7 +28,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/06/2021
 ms.locfileid: "52238432"
 ---
-# <a name="office-365-enterprise-e5"></a>Office 365 корпоративный E5
+# <a name="office-365-enterprise-e5"></a>Office 365 корпоративный E5
 
 [!INCLUDE [sfbo-retirement](../../../Hub/includes/sfbo-retirement.md)]
 

@@ -54,13 +54,13 @@ ms.locfileid: "52238544"
 Get-CsOnlineUser
 ```
 
-Чтобы получить сведения об одном пользователе, выбранном случайным образом (например, для использования этой учетной записи в целях тестирования), позвоните в **cmdlet Get-CsOnlineUser** и задате для параметра _ResultSize_ (Размер результатов) 1.
+Чтобы получить сведения для отдельного пользователя, выбранного случайным образом (например, для использования этой учетной записи в целях тестирования), позвоните в **get-CsOnlineUser** и задате для параметра _ResultSize_ (Размер результатов) 1.
 
 ```PowerShell
 Get-CsOnlineUser -ResultSize 1
 ```
 
-**Из-за** этого с его учетной записи будет возвращена информация только для одного пользователя, независимо от того, сколько пользователей в вашей организации. Чтобы получить сведения для пяти пользователей, за установите для _параметра ResultSize_ значение 5.
+Это приводит **к** возврату сведений только для одного пользователя с учетом того, сколько пользователей в вашей организации. Чтобы получить сведения для пяти пользователей, за установите для _параметра ResultSize_ значение 5.
 
 ```PowerShell
 Get-CsOnlineUser -ResultSize 5
@@ -81,7 +81,7 @@ Get-CsOnlineUser -Identity "Ken Myer"
 Get-CsOnlineUser -Identity "sip:kenmyer@litwareinc.com"
 ```
 
-Вы можете использовать имя имени пользователя-пользователя (UPN).
+Вы можете использовать имя пользователя-пользователя (UPN).
 
 ```PowerShell
 Get-CsOnlineUser -Identity "kenmyer@litwareinc.com"
@@ -90,7 +90,7 @@ Get-CsOnlineUser -Identity "kenmyer@litwareinc.com"
 ### <a name="return-specific-information-for-specific-users-in-skype-for-business-online"></a>Возврат определенных сведений для определенных пользователей в Skype для бизнеса Online
 <a name="BKSpecificUsers"> </a>
 
-По умолчанию для [каждой учетной](/powershell/module/skype/Get-CsOnlineUser) записи пользователя Skype для бизнеса Online возвращается большой объем сведений. Если вас интересует только подмножество этих данных, сдав полученные данные в проектлет **Select-Object.** Например, эта команда возвращает все данные пользователя Сергея Мойера, а затем использует командлет **Select-Object,** чтобы ограничить отображаемую на экране информацию отображаемой и телефонной планом AD DS Артема.
+По умолчанию для [каждой учетной](/powershell/module/skype/Get-CsOnlineUser) записи пользователя Skype для бизнеса Online возвращается большой объем сведений. Если вас интересует только подмножество этих сведений, перенагружите возвращенные данные в проектлет **Select-Object.** Например, эта команда возвращает все данные пользователя Сергея Мойера, а затем использует командлет **Select-Object,** чтобы ограничить отображаемую на экране информацию отображаемой и телефонной планом AD DS Артема.
 
 ```PowerShell
 Get-CsOnlineUser -Identity "Ken Myer" | Select-Object DisplayName, DialPlan
@@ -118,4 +118,4 @@ Get-CsOnlineUser -LdapFilter "department=Finance"
 ```
 
 ## <a name="related-topics"></a>Статьи по теме
-[Настройка компьютера для управления Skype для бизнеса online с помощью Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
+[Настройка компьютера для управления Skype для бизнеса с помощью Windows PowerShell](set-up-your-computer-for-windows-powershell.md)

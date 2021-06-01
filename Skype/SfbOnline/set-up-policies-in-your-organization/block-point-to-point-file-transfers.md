@@ -56,7 +56,7 @@ ms.locfileid: "52240178"
 ## <a name="start-windows-powershell"></a>Начните Windows PowerShell
 
 > [!NOTE]
-> Skype для бизнеса В настоящее время Online Connector является частью последней версии Teams PowerShell. Если вы используете последний общедоступный Teams PowerShell, вам не нужно устанавливать Skype для бизнеса Online Connector.
+> Skype для бизнеса Online Connector в настоящее время является частью последней версии Teams PowerShell. Если вы используете последний общедоступный Teams PowerShell, вам не нужно устанавливать Skype для бизнеса Online Connector.
 1. Установите модуль [Teams PowerShell](/microsoftteams/teams-powershell-install).
     
 2. Откройте Windows PowerShell командную команду и запустите следующие команды: 
@@ -71,7 +71,7 @@ ms.locfileid: "52240178"
    
    Дополнительные сведения о запуске Windows PowerShell см. в Подключение всех службах Microsoft 365 или [Office 365](/microsoft-365/enterprise/connect-to-all-microsoft-365-services-in-a-single-windows-powershell-window) в одном окне Windows PowerShell или Настройка компьютера [для](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)Windows PowerShell.
     
-## <a name="disable-p2p-file-transfers-for-your-organization"></a>Отключение переноса P2P-файлов для организации
+## <a name="disable-p2p-file-transfers-for-your-organization"></a>Отключение передач P2P-файлов для организации
 
 По умолчанию _enableP2PFileTransfer_ включен в глобальной политике организации. При ее создания пользователям была назначена политика _BposSAllModality._
   
@@ -95,11 +95,11 @@ Grant-CsExternalUserCommunicationPolicy -PolicyName BlockExternalFT -Identity am
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>Хотите узнать больше о Windows PowerShell?
 
-- Windows PowerShell is all about managing users and what users are allowed or not allowed to do. С Windows PowerShell вы можете управлять Microsoft 365 или Office 365 и Skype для бизнеса Online, используя единый пункт администрирования, который упростит выполнение ваших повседневных задач. Чтобы начать работу с Windows PowerShell, ознакомьтесь с приведенными ниже разделами.
+- Windows PowerShell is all about managing users and what users are allowed or not allowed to do. С Windows PowerShell вы можете управлять Microsoft 365 или Office 365 и Skype для бизнеса Online, используя единый пункт администрирования, который упростит выполнение повседневных задач. Чтобы начать работу с Windows PowerShell, ознакомьтесь с приведенными ниже разделами.
     
   - [Введение в Windows PowerShell и Skype для бизнеса Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-  - [Зачем нужна Microsoft 365 или Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+  - [Зачем нужно использовать Microsoft 365 или Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
 - Windows PowerShell имеет множество преимуществ в скорости, простоте и эффективности работы по сравнению с использованием только центра администрирования Microsoft 365, например при внесении изменений для множества пользователей одновременно. Подробнее об этих преимуществах можно узнать в следующих разделах:
     

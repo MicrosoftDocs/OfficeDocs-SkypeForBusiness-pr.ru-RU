@@ -18,7 +18,7 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
-description: Вы можете предоставить пользователям Skype для бизнеса возможность использовать встроенное средство обратной связи Skype для бизнеса приложения, чтобы пользователи могли сообщать о проблемах и напрямую сообщать корпорации Майкрософт об их впечатлениях.
+description: Вы можете позволить пользователям Skype для бизнеса пользователям использовать встроенное средство обратной связи Skype для бизнеса приложения, чтобы пользователи могли сообщать о проблемах и напрямую сообщать о своих впечатлениях в Корпорацию Майкрософт.
 ms.openlocfilehash: 151ba9ee82c95f088f5c7fc87de3a06ce609ab01
 ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
@@ -43,12 +43,12 @@ ms.locfileid: "52239102"
 ![Skype for Business client reporting form.](../images/d859578d-8116-4d4b-a08f-c0cae28b8b76.png)
   
 > [!IMPORTANT]
-> Журналы, собранные средством обратной связи приложения, хранятся в США не более 90 дней, пока ведется исследование проблемы. В связи с этим просим не активировать данную функцию, если это условие нарушает действующую в вашей организации политику защиты данных. 
+> Журналы, собранные средством обратной связи приложения, хранятся в США не более 90 дней, пока ведется изучение проблемы. В связи с этим просим не активировать данную функцию, если это условие нарушает действующую в вашей организации политику защиты данных. 
   
 ## <a name="start-windows-powershell"></a>Начните Windows PowerShell
 
 > [!NOTE]
-> Skype для бизнеса В настоящее время Online Connector является частью последней версии Teams PowerShell. Если вы используете последний общедоступный Teams PowerShell, вам не нужно устанавливать Skype для бизнеса Online Connector.
+> Skype для бизнеса Online Connector в настоящее время является частью последней версии Teams PowerShell. Если вы используете последний общедоступный Teams PowerShell, вам не нужно устанавливать Skype для бизнеса Online Connector.
 1. Установите модуль [Teams PowerShell](/microsoftteams/teams-powershell-install).
     
 2. Откройте Windows PowerShell командную команду и запустите следующие команды: 
@@ -70,7 +70,7 @@ ms.locfileid: "52239102"
   Set-CsClientPolicy -Identity EnableOnlineFeedback -EnableOnlineFeedback $true -EnableOnlineFeedbackScreenshots $true
   ```
 ## <a name="want-to-know-more-about-windows-powershell"></a>Хотите узнать больше о Windows PowerShell?
-- Windows PowerShell is all about managing users and what users are allowed or not allowed to do. С Windows PowerShell вы можете управлять Microsoft 365 или Office 365 и Skype для бизнеса Online, используя единый пункт администрирования, который упростит выполнение ваших повседневных задач. Чтобы начать работу с Windows PowerShell, ознакомьтесь с приведенными ниже разделами.
+- Windows PowerShell is all about managing users and what users are allowed or not allowed to do. С Windows PowerShell вы можете управлять Microsoft 365 или Office 365 и Skype для бизнеса Online, используя единый пункт администрирования, который упростит выполнение повседневных задач. Чтобы начать работу с Windows PowerShell, ознакомьтесь с приведенными ниже разделами.
     
   - [Введение в Windows PowerShell и Skype для бизнеса Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     

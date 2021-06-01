@@ -32,7 +32,7 @@ ms.locfileid: "52238789"
 > [!NOTE]
 > Последний [общедоступный Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/) интегрирован с Skype для бизнеса Online Connector, предоставляя один модуль для управления Teams PowerShell.
 
-Сведения о вашем клиенте Skype для бизнеса Online можно найти с помощью **cmdlets Get-CsTenant** и **Get-CsTenantLicensingConfiguration.**
+Сведения о вашем клиенте Skype для бизнеса Online можно найти с помощью кнопок **Get-CsTenant** и **Get-CsTenantLicensingConfiguration.**
   
 ## <a name="manage-skype-for-business-online-tenants"></a>Управление Skype для бизнеса online
 
@@ -53,6 +53,6 @@ Get-CsTenant | Select-Object Name, TenantID
 Сведения о том, доступны ли сведения о лицензировании для указанного клиента в Центре администрирования Skype для бизнеса Online, см. с помощью [cmdlet Get-CsTenantLicensingConfiguration.](/powershell/module/skype/Get-CsTenantLicensingConfiguration)
   
 ## <a name="related-topics"></a>Статьи по теме
-[Настройка компьютера для управления Skype для бизнеса online с помощью Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
+[Настройка компьютера для управления Skype для бизнеса с помощью Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
 
   

@@ -19,7 +19,7 @@ f1.keywords:
 ms.custom:
 - Setup
 - O365P_RecordingDesc
-description: 'Узнайте, как включить запись для аудио- и видеоконференции, а также что именно включено в запись. '
+description: 'Узнайте, как включить запись для аудио- и видеоконференции, а также какие записи есть и не включены в них. '
 ms.openlocfilehash: 4740c3d090115934f6bb493eec3be74b67ff6754
 ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT

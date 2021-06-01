@@ -18,7 +18,7 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - PowerShell
-description: Узнайте о требованиях к удаленному управлению Skype для бизнеса Online через Windows PowerShell, включая поддерживаемые операционные системы.
+description: Узнайте требования к удаленному управлению Skype для бизнеса Online через Windows PowerShell, включая поддерживаемые операционные системы.
 ms.openlocfilehash: df3c9da68b27a235460515e9f27f88fa15c182e0
 ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT

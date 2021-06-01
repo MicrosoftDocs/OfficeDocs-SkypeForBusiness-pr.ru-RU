@@ -53,7 +53,7 @@ ms.locfileid: "52237765"
 4. На странице свойств пользователя в списке **Имя** поставщика выберите **Microsoft** в списке.
     
     > [!NOTE]
-    > Так как в качестве поставщика аудиоконференций используется Майкрософт и существует  несколько номеров телефонов, в списке Платный номер по умолчанию можно выбрать номер аудио по умолчанию для пользователя.
+    > Так как в качестве поставщика аудиоконференций используется Майкрософт и существует  несколько номеров телефонов, в списке Платный номер по умолчанию можно выбрать номер звука по умолчанию для пользователя.
   
 5. Нажмите кнопку **Сохранить**.
 
@@ -198,5 +198,5 @@ Script.ps1 -CsvFile <Path of the csv file>
 Дополнительные сведения об использовании Windows PowerShell см. в статье [Использование возможностей Windows PowerShell для выполнения стандартных задач управления средой Skype для бизнеса Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
   
 ## <a name="related-topics"></a>Статьи по теме
-[Попробуйте или приобретйте](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md) аудиоконференцию в Microsoft 365 или Office 365 
+[Попробуйте или приобретйте аудиоконференцию в Microsoft 365 или Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md) 
  [Настройка Skype для бизнеса Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
