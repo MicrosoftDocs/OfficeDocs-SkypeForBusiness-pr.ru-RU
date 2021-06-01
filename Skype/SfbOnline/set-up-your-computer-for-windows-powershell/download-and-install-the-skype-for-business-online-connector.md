@@ -26,18 +26,18 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/06/2021
 ms.locfileid: "52238870"
 ---
-# <a name="download-and-install-the-teams-powershell-module"></a><span data-ttu-id="8a3ec-103">Скачивание и установка модуля Teams PowerShell</span><span class="sxs-lookup"><span data-stu-id="8a3ec-103">Download and install the Teams PowerShell module</span></span>
+# <a name="download-and-install-the-teams-powershell-module"></a><span data-ttu-id="724d3-103">Скачивание и установка модуля Teams PowerShell</span><span class="sxs-lookup"><span data-stu-id="724d3-103">Download and install the Teams PowerShell module</span></span>
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 > [!NOTE]
 
-> <span data-ttu-id="8a3ec-104">Последний [общедоступный Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/) интегрирован с Skype для бизнеса Online Connector, предоставляя один модуль для управления Teams и Skype для бизнеса PowerShell.</span><span class="sxs-lookup"><span data-stu-id="8a3ec-104">The latest [Teams PowerShell public release](https://www.powershellgallery.com/packages/MicrosoftTeams/) is integrated with Skype for Business Online Connector, providing a single module for Teams and Skype for Business online PowerShell management.</span></span>
+> <span data-ttu-id="724d3-104">Последний [общедоступный Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/) интегрирован с Skype для бизнеса Online Connector, предоставляя один модуль для управления Teams и Skype для бизнеса PowerShell.</span><span class="sxs-lookup"><span data-stu-id="724d3-104">The latest [Teams PowerShell public release](https://www.powershellgallery.com/packages/MicrosoftTeams/) is integrated with Skype for Business Online Connector, providing a single module for Teams and Skype for Business online PowerShell management.</span></span>
 
 
-1. <span data-ttu-id="8a3ec-105">Установите модуль [Teams PowerShell](/microsoftteams/teams-powershell-install).</span><span class="sxs-lookup"><span data-stu-id="8a3ec-105">Install the [Teams PowerShell module](/microsoftteams/teams-powershell-install).</span></span>
+1. <span data-ttu-id="724d3-105">Установите модуль [Teams PowerShell](/microsoftteams/teams-powershell-install).</span><span class="sxs-lookup"><span data-stu-id="724d3-105">Install the [Teams PowerShell module](/microsoftteams/teams-powershell-install).</span></span>
     
-2. <span data-ttu-id="8a3ec-106">Откройте Windows PowerShell командную команду и запустите следующие команды:</span><span class="sxs-lookup"><span data-stu-id="8a3ec-106">Open a Windows PowerShell command prompt and run the following commands:</span></span> 
+2. <span data-ttu-id="724d3-106">Откройте Windows PowerShell командную команду и запустите следующие команды:</span><span class="sxs-lookup"><span data-stu-id="724d3-106">Open a Windows PowerShell command prompt and run the following commands:</span></span> 
 
    ```powershell
    # When using Teams PowerShell Module
@@ -45,7 +45,7 @@ ms.locfileid: "52238870"
    $credential = Get-Credential
    Connect-MicrosoftTeams -Credential $credential
    ```
-   <span data-ttu-id="8a3ec-107">Дополнительные сведения о запуске Windows PowerShell см. в Подключение всех службах Microsoft 365 или [Office 365](/microsoft-365/enterprise/connect-to-all-microsoft-365-services-in-a-single-windows-powershell-window) в одном окне Windows PowerShell или Настройка компьютера [для](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="8a3ec-107">If you want more information about starting Windows PowerShell, see [Connect to all Microsoft 365 or Office 365 services in a single Windows PowerShell window](/microsoft-365/enterprise/connect-to-all-microsoft-365-services-in-a-single-windows-powershell-window) or [Set up your computer for Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).</span></span>
+   <span data-ttu-id="724d3-107">Дополнительные сведения о запуске Windows PowerShell см. в Подключение всех службах Microsoft 365 или [Office 365](/microsoft-365/enterprise/connect-to-all-microsoft-365-services-in-a-single-windows-powershell-window) в одном окне Windows PowerShell или Настройка компьютера [для](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="724d3-107">If you want more information about starting Windows PowerShell, see [Connect to all Microsoft 365 or Office 365 services in a single Windows PowerShell window](/microsoft-365/enterprise/connect-to-all-microsoft-365-services-in-a-single-windows-powershell-window) or [Set up your computer for Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).</span></span>
   
-## <a name="related-topics"></a><span data-ttu-id="8a3ec-108">Статьи по теме</span><span class="sxs-lookup"><span data-stu-id="8a3ec-108">Related topics</span></span>
-[<span data-ttu-id="8a3ec-109">Настройка компьютера для управления Skype для бизнеса online с помощью Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="8a3ec-109">Set up your computer for skype for business online management using Windows PowerShell</span></span>](set-up-your-computer-for-windows-powershell.md)
+## <a name="related-topics"></a><span data-ttu-id="724d3-108">Статьи по теме</span><span class="sxs-lookup"><span data-stu-id="724d3-108">Related topics</span></span>
+[<span data-ttu-id="724d3-109">Настройка компьютера для управления Skype для бизнеса с помощью Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="724d3-109">Set up your computer for skype for business online management using Windows PowerShell</span></span>](set-up-your-computer-for-windows-powershell.md)

@@ -28,27 +28,27 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/06/2021
 ms.locfileid: "52239686"
 ---
-# <a name="skype-for-business-online-admin-center-users-page-limitations"></a><span data-ttu-id="7c49b-103">Skype для бизнеса Ограничения страниц пользователей в Центре администрирования Online</span><span class="sxs-lookup"><span data-stu-id="7c49b-103">Skype for Business Online admin center users page limitations</span></span>
+# <a name="skype-for-business-online-admin-center-users-page-limitations"></a><span data-ttu-id="cab72-103">Skype для бизнеса Ограничения страниц пользователей в Центре администрирования Online</span><span class="sxs-lookup"><span data-stu-id="cab72-103">Skype for Business Online admin center users page limitations</span></span>
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-<span data-ttu-id="7c49b-104">По соображениям производительности в **Skype для бизнеса** в списке пользователей отображаются первые 1000 пользователей.</span><span class="sxs-lookup"><span data-stu-id="7c49b-104">For performance reasons the **Skype for Business admin center** displays the first 1,000 users in your user list.</span></span> <span data-ttu-id="7c49b-105">Если у вас более 1000 пользователей, воспользуйтесь фильтром фильтра и поиском, чтобы найти  ![ ](../images/d360528a-a05a-4f0d-a7fd-25a6c696206a.png)  ![ ](../images/5cc29d50-4eec-48a4-bdad-bbeae230f9ae.png) нужного человека.</span><span class="sxs-lookup"><span data-stu-id="7c49b-105">If you have more than 1,000 users, use **Filter**![Filter](../images/d360528a-a05a-4f0d-a7fd-25a6c696206a.png) and **Search**![Search](../images/5cc29d50-4eec-48a4-bdad-bbeae230f9ae.png) to find the specific people you're looking for.</span></span>
+<span data-ttu-id="cab72-104">По соображениям производительности **в Skype для бизнеса** отображаются первые 1000 пользователей в списке пользователей.</span><span class="sxs-lookup"><span data-stu-id="cab72-104">For performance reasons the **Skype for Business admin center** displays the first 1,000 users in your user list.</span></span> <span data-ttu-id="cab72-105">Если у вас более 1000 пользователей, воспользуйтесь фильтром фильтра и поиском, чтобы найти  ![ ](../images/d360528a-a05a-4f0d-a7fd-25a6c696206a.png)  ![ ](../images/5cc29d50-4eec-48a4-bdad-bbeae230f9ae.png) нужного человека.</span><span class="sxs-lookup"><span data-stu-id="cab72-105">If you have more than 1,000 users, use **Filter**![Filter](../images/d360528a-a05a-4f0d-a7fd-25a6c696206a.png) and **Search**![Search](../images/5cc29d50-4eec-48a4-bdad-bbeae230f9ae.png) to find the specific people you're looking for.</span></span>
   
-## <a name="bulk-editing"></a><span data-ttu-id="7c49b-106">Массовое редактирование</span><span class="sxs-lookup"><span data-stu-id="7c49b-106">Bulk editing</span></span>
-<span data-ttu-id="7c49b-107"><a name="__top"> </a></span><span class="sxs-lookup"><span data-stu-id="7c49b-107"><a name="__top"> </a></span></span>
+## <a name="bulk-editing"></a><span data-ttu-id="cab72-106">Массовое редактирование</span><span class="sxs-lookup"><span data-stu-id="cab72-106">Bulk editing</span></span>
+<span data-ttu-id="cab72-107"><a name="__top"> </a></span><span class="sxs-lookup"><span data-stu-id="cab72-107"><a name="__top"> </a></span></span>
 
-1. <span data-ttu-id="7c49b-108">Выберите первых 1000 пользователей (или всех, кто возвращается с помощью фильтра или поиска), поверив поле Рядом с полем Отображаемого имени в верхней части списка. </span><span class="sxs-lookup"><span data-stu-id="7c49b-108">Select the first 1,000 users—or everyone returned by your filter or search—by checking the box next to **Display name** at the top of the list.</span></span>
+1. <span data-ttu-id="cab72-108">Выберите первых 1000 пользователей (или всех, кто возвращается с помощью фильтра или поиска), поверив поле Рядом с полем Отображаемого имени в верхней части списка. </span><span class="sxs-lookup"><span data-stu-id="cab72-108">Select the first 1,000 users—or everyone returned by your filter or search—by checking the box next to **Display name** at the top of the list.</span></span>
     
-2. <span data-ttu-id="7c49b-109">Нажмите **кнопку Изменить** ![ редактирование ](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png) .</span><span class="sxs-lookup"><span data-stu-id="7c49b-109">Click **Edit**![Edit](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png).</span></span>
+2. <span data-ttu-id="cab72-109">Нажмите **кнопку Изменить** ![ редактирование ](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png) .</span><span class="sxs-lookup"><span data-stu-id="cab72-109">Click **Edit**![Edit](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png).</span></span>
     
-<span data-ttu-id="7c49b-110">Вы можете изменить количество пользователей, показанных на каждой странице, с помощью этого управления в нижней части списка:</span><span class="sxs-lookup"><span data-stu-id="7c49b-110">You can change the number of users shown on each page with the control at the bottom of the list:</span></span>
+<span data-ttu-id="cab72-110">Вы можете изменить количество пользователей, показанных на каждой странице, с помощью этого управления в нижней части списка:</span><span class="sxs-lookup"><span data-stu-id="cab72-110">You can change the number of users shown on each page with the control at the bottom of the list:</span></span>
   
 ![Навигация по страницам пользователей для изменения количества пользователей на странице](../images/7d8ba24e-e3e8-4ff8-92f7-98ac143aab6d.png)
   
-## <a name="related-topics"></a><span data-ttu-id="7c49b-112">Статьи по теме</span><span class="sxs-lookup"><span data-stu-id="7c49b-112">Related topics</span></span>
-[<span data-ttu-id="7c49b-113">Настройка Skype для бизнеса Online</span><span class="sxs-lookup"><span data-stu-id="7c49b-113">Set up Skype for Business Online</span></span>](set-up-skype-for-business-online.md)
+## <a name="related-topics"></a><span data-ttu-id="cab72-112">Статьи по теме</span><span class="sxs-lookup"><span data-stu-id="cab72-112">Related topics</span></span>
+[<span data-ttu-id="cab72-113">Настройка Skype для бизнеса Online</span><span class="sxs-lookup"><span data-stu-id="cab72-113">Set up Skype for Business Online</span></span>](set-up-skype-for-business-online.md)
 
-[<span data-ttu-id="7c49b-114">Разрешение на добавление контактов Skype пользователям Skype для бизнеса</span><span class="sxs-lookup"><span data-stu-id="7c49b-114">Let Skype for Business users add Skype contacts</span></span>](let-skype-for-business-users-add-skype-contacts.md)
+[<span data-ttu-id="cab72-114">Разрешение на добавление контактов Skype пользователям Skype для бизнеса</span><span class="sxs-lookup"><span data-stu-id="cab72-114">Let Skype for Business users add Skype contacts</span></span>](let-skype-for-business-users-add-skype-contacts.md)
 
   
  

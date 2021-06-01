@@ -25,15 +25,15 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/06/2021
 ms.locfileid: "52240024"
 ---
-# <a name="set-up-policies-in-your-organization"></a><span data-ttu-id="88220-102">Настройка политик в организации</span><span class="sxs-lookup"><span data-stu-id="88220-102">Set up policies in your organization</span></span>
+# <a name="set-up-policies-in-your-organization"></a><span data-ttu-id="51790-102">Настройка политик в организации</span><span class="sxs-lookup"><span data-stu-id="51790-102">Set up policies in your organization</span></span>
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-<span data-ttu-id="88220-103">Политики помогают определить функции веб-Skype для бизнеса, которые доступны пользователям.</span><span class="sxs-lookup"><span data-stu-id="88220-103">Policies help determine the features of Skype for Business Online that are made available to users.</span></span> <span data-ttu-id="88220-104">Подробные сведения см. в следующих статьях.</span><span class="sxs-lookup"><span data-stu-id="88220-104">See the following articles for complete details.</span></span>
+<span data-ttu-id="51790-103">Политики помогают определять функции веб-Skype для бизнеса, доступные пользователям.</span><span class="sxs-lookup"><span data-stu-id="51790-103">Policies help determine the features of Skype for Business Online that are made available to users.</span></span> <span data-ttu-id="51790-104">Подробные сведения см. в следующих статьях.</span><span class="sxs-lookup"><span data-stu-id="51790-104">See the following articles for complete details.</span></span>
 
-- [<span data-ttu-id="88220-105">Блокировка передачи файлов по точкам</span><span class="sxs-lookup"><span data-stu-id="88220-105">Block point-to-point file transfers</span></span>](block-point-to-point-file-transfers.md)
-- [<span data-ttu-id="88220-106">Создание настраиваемых политик внешнего доступа</span><span class="sxs-lookup"><span data-stu-id="88220-106">Create custom external access policies</span></span>](create-custom-external-access-policies.md)
-- [<span data-ttu-id="88220-107">Сохранение больших файлов, прикрепленных к собранию</span><span class="sxs-lookup"><span data-stu-id="88220-107">Retaining large files attached to a meeting</span></span>](retaining-large-files-attached-to-a-meeting.md)
-- [<span data-ttu-id="88220-108">Настройка политик аудиоконференций в организации</span><span class="sxs-lookup"><span data-stu-id="88220-108">Set up conferencing policies for your organization</span></span>](set-up-conferencing-policies-for-your-organization.md)
-- [<span data-ttu-id="88220-109">Настройка политик мобильных устройств в организации</span><span class="sxs-lookup"><span data-stu-id="88220-109">Set up mobile policies for your organization</span></span>](set-up-mobile-policies-for-your-organization.md)
-- [<span data-ttu-id="88220-110">Настройка политик клиента в организации</span><span class="sxs-lookup"><span data-stu-id="88220-110">Set up client policies for your organization</span></span>](set-up-client-policies-for-your-organization.md)
+- [<span data-ttu-id="51790-105">Блокировка передачи файлов по точкам</span><span class="sxs-lookup"><span data-stu-id="51790-105">Block point-to-point file transfers</span></span>](block-point-to-point-file-transfers.md)
+- [<span data-ttu-id="51790-106">Создание настраиваемых политик внешнего доступа</span><span class="sxs-lookup"><span data-stu-id="51790-106">Create custom external access policies</span></span>](create-custom-external-access-policies.md)
+- [<span data-ttu-id="51790-107">Сохранение больших файлов, прикрепленных к собранию</span><span class="sxs-lookup"><span data-stu-id="51790-107">Retaining large files attached to a meeting</span></span>](retaining-large-files-attached-to-a-meeting.md)
+- [<span data-ttu-id="51790-108">Настройка политик аудиоконференций в организации</span><span class="sxs-lookup"><span data-stu-id="51790-108">Set up conferencing policies for your organization</span></span>](set-up-conferencing-policies-for-your-organization.md)
+- [<span data-ttu-id="51790-109">Настройка политик мобильных устройств в организации</span><span class="sxs-lookup"><span data-stu-id="51790-109">Set up mobile policies for your organization</span></span>](set-up-mobile-policies-for-your-organization.md)
+- [<span data-ttu-id="51790-110">Настройка политик клиента в организации</span><span class="sxs-lookup"><span data-stu-id="51790-110">Set up client policies for your organization</span></span>](set-up-client-policies-for-your-organization.md)

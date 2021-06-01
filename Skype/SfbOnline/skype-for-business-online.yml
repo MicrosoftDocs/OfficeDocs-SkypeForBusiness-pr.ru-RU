@@ -1,6 +1,6 @@
 ### YamlMime:Landing
 title: Администратор Skype для бизнеса Online
-summary: Skype для бизнеса Online больше не будет работать 31 июля 2021 г., после чего доступ к службе закончится. Мы рекомендуем клиентам начать обновление до Microsoft Teams, концентратора для командной работы в Microsoft 365.
+summary: Skype для бизнеса 31 июля 2021 г. заканчивается доступ к службе Online. Мы рекомендуем клиентам начать обновление до Microsoft Teams в центре командной работы в Microsoft 365.
 metadata:
   title: Администратор Skype для бизнеса Online
   description: Узнайте, как управлять Skype для бизнеса Online в своей организации.
@@ -28,7 +28,7 @@ landingContent:
   linkLists:
   - linkListType: whats-new
     links:
-    - text: С 2021 г. будет отменен Skype для бизнеса Online
+    - text: Skype для бизнеса Возможность выхода из Сети будет отменена в 2021 г.
       url: https://techcommunity.microsoft.com/t5/microsoft-teams-blog/skype-for-business-online-to-be-retired-in-2021/ba-p/777833
   - linkListType: get-started
     links:
@@ -108,7 +108,7 @@ landingContent:
   linkLists:
   - linkListType: overview
     links:
-    - text: Что такое телефонная система?
+    - text: Что телефонная система?
       url: /MicrosoftTeams/what-is-phone-system-in-office-365
     - text: Возможности телефонной системы
       url: /MicrosoftTeams/here-s-what-you-get-with-phone-system

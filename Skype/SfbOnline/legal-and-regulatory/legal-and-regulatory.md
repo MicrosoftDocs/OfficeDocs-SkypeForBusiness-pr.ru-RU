@@ -27,6 +27,6 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/06/2021
 ms.locfileid: "52238661"
 ---
-# <a name="legal-and-regulatory"></a><span data-ttu-id="6abd4-103">Юридическая и нормативная информация</span><span class="sxs-lookup"><span data-stu-id="6abd4-103">Legal and regulatory</span></span>
+# <a name="legal-and-regulatory"></a><span data-ttu-id="1f2de-103">Юридическая и нормативная информация</span><span class="sxs-lookup"><span data-stu-id="1f2de-103">Legal and regulatory</span></span>
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
