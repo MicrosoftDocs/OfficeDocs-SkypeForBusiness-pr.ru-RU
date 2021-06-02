@@ -16,12 +16,12 @@ search.appverid:
 f1.keywords:
 - NOCSH
 description: Сводка. Сведения о логической архитектуре служб повышения производительности в Microsoft 365, начиная с Microsoft Teams. А также сведения о решениях голосовой связи для Teams.
-ms.openlocfilehash: b124a32cc2b0285f364d1211ea8d23eb2d6e64c2
-ms.sourcegitcommit: 5a738cbb96f09edd8c3779f9385bc9ed126e3001
+ms.openlocfilehash: 75f1a4a2be0cc2669537a6f7afd031468d246a1a
+ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "52212162"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52717970"
 ---
 # <a name="microsoft-teams-it-architecture-and-voice-solutions-posters"></a>Плакаты ИТ-архитектуры и решений голосовой связи Microsoft Teams
 
@@ -32,7 +32,6 @@ ms.locfileid: "52212162"
 Этот набор иллюстраций демонстрирует логическую архитектуру служб повышения производительности для корпоративных архитекторов, начиная с Teams.
 
 [![Эскиз плаката логической архитектуры Teams](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-teams-logical-architecture-thumb.png)](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-teams-logical-architecture.pdf)  <br/>[PDF](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-teams-logical-architecture.pdf) | [Visio](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-teams-logical-architecture.vsdx)
-
 
 ## <a name="groups-in-microsoft-365"></a>Группы в Microsoft 365
 

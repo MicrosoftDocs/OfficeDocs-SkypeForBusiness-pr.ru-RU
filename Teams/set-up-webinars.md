@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: Узнайте, как управлять политиками веб-Teams собраний.
-ms.openlocfilehash: bc1460f93259a9dd3095cf764c38b56ab703bba0
-ms.sourcegitcommit: 592e5a0638c7739dfaa3565b67d4edc621eebc9f
+ms.openlocfilehash: aafa7b57eea1228fa5565bb4d5e95304b42751a3
+ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "52656052"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52718050"
 ---
 # <a name="set-up-for-webinars-in-microsoft-teams"></a>Настройка вебинары в Microsoft Teams
 
@@ -54,19 +54,19 @@ ms.locfileid: "52656052"
 Чтобы разрешить пользователям в организации планировать вебинары, запустите:
 
 ```powershell
-Set-CsTeamsMeetingPolicy -AllowMeetingRegistration True
+Set-CsTeamsMeetingPolicy -AllowMeetingRegistration $True
 ```
 ### <a name="configure-who-can-register-for-webinars"></a>Настройка пользователей, которые могут регистрироваться на вебинары
 
-Вы можете ограничить регистрацию только пользователями в организации или открыть ее для всех пользователей в клиенте и за ее пределами. По умолчанию **whoCanRegister** включен и установлено значение **Все**. Если вы хотите отключить регистрацию на собрании, установите **для allowMeetingRegistration (РазрешитьMeetingRegistration)** false **(Ложь).**
+Вы можете ограничить регистрацию только пользователями в организации или открыть ее для всех пользователей в клиенте и за ее пределами. По умолчанию **whoCanRegister** включен и установлено значение **Все**. Если вы хотите отключить регистрацию на собрании, установите **для allowMeetingRegistration (РазрешитьMeetingRegistration)** **ложное.**
 
 > [!IMPORTANT]
-> Имейте в виду, что для  **allowMeetingRegistration для allowMeetingRegistration** должно быть установлено разрешение True.  Кроме того, списки Майкрософт необходимо настроить в SharePoint. Дополнительные параметры см. [в параметрах управления списками Майкрософт.](/sharepoint/control-lists)
+> Имейте в виду, что для  **allowMeetingRegistration для allowMeetingRegistration** должно быть установлено разрешение True.  Кроме того, списки Майкрософт необходимо настроить в SharePoint. Дополнительные новости см. в [параметрах управления списками Майкрософт.](/sharepoint/control-lists)
 
 **Чтобы разрешить *только* пользователям в вашей организации регистрироваться для вебинары, запустите:**
 
 ```powershell
-Set-CsTeamsMeetingPolicy -AllowPrivateMeetingScheduling True
+Set-CsTeamsMeetingPolicy -AllowPrivateMeetingScheduling $True
 ```
 
 Затем запустите:
@@ -78,7 +78,7 @@ Set-CsTeamsMeetingPolicy -WhoCanRegister EveryoneInCompany
 **Чтобы разрешить всем пользователям, в том числе анонимным пользователям, регистрироваться в вебинары, запустите:**
 
 ```powershell
-Set-CsTeamsMeetingPolicy -AllowPrivateMeetingScheduling True
+Set-CsTeamsMeetingPolicy -AllowPrivateMeetingScheduling $True
 ```
 
 Затем запустите:
@@ -88,7 +88,7 @@ Set-CsTeamsMeetingPolicy -WhoCanRegister Everyone
 ```
 
 > [!IMPORTANT]
-> Если анонимное присоединиться отключено в параметрах собрания, анонимные пользователи не смогут присоединяться к вебинасам. Дополнительные узнать и включить этот параметр см. в [Teams.](meeting-settings-in-teams.md)
+> Если в параметрах собрания отключено анонимное участие, анонимные пользователи не смогут присоединяться к вебинасам. Дополнительные узнать и включить этот параметр см. в [Teams.](meeting-settings-in-teams.md)
 
 ### <a name="collect-meeting-attendance"></a>Сбор участия в собраниях
 
@@ -100,7 +100,7 @@ Set-CsTeamsMeetingPolicy -AllowEngagementReport Enabled
 
 ### <a name="configure-webinar-settings"></a>Настройка параметров вебинара
 
-После включения вашей среды для вебинаеров больше не требуется управление администраторами. Политика управляет тем, какие параметры будут доступны организаторам вебинаров.
+После включения вашей среды для вебинары больше не требуется управление администраторами. Политика управляет тем, какие параметры будут доступны организаторам вебинаров.
 
 ## <a name="related-topics"></a>Статьи по теме
 

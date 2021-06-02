@@ -17,20 +17,23 @@ description: Соединители помогают поддерживать т
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 3e6e65c3462242b82691a292770de684b6c4404b
-ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
+ms.openlocfilehash: df9cdc8bb53ae55acae10b0146655f5e5f3e0346
+ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52684246"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52717610"
 ---
 # <a name="use-microsoft-365-and-custom-connectors-in-microsoft-teams"></a>Используйте Microsoft 365 и пользовательские соединители в Microsoft Teams
 
-Соединитетели обеспечивают постоянное обновление команды, доставляя часто используемое содержимое и обновления служб непосредственно в канал. Благодаря соединительным Microsoft Teams пользователи могут получать обновления от популярных служб, таких как Trello, Wunderlist, GitHub и Azure DevOps Services в потоке чата в своей команде.
+Соединитетели обеспечивают постоянное обновление команды, доставляя часто используемое содержимое и обновления служб непосредственно в канал. Благодаря соединительным Microsoft Teams пользователи могут получать обновления от популярных служб, таких как Trello, Wunderlist, GitHub и Azure DevOps Services в потоке чата своей команды.
 
 Любой участник группы может подключить свою команду к популярным облачным службам с помощью соединитеров, если это разрешает группа, и все участники группы будут уведомлены о действиях в этой службе. Соединитетели продолжат работать даже после того, как участник, изначально настроивший соединителю, покинул ее. Любой участник группы с разрешениями на добавление и удаление может изменять настройки соединители другими участниками.
 
 Microsoft 365 можно использовать как с группами Microsoft Teams, так и Microsoft 365, чтобы всем участникам было проще синхронизироваться и быстро получать актуальные сведения. Microsoft Teams и Exchange используют одинаковую модель соединителей, что позволяет использовать одни соединители на обеих платформах. Однако следует отметить, что отключение соединители для группы Microsoft 365, от которую зависит рабочая группа, также отключит возможность создавать соединители для этой группы.
+
+> [!NOTE]
+> Соединитетели по умолчанию отключены в GCC средах. Если вам нужно включить их, задайте для параметров ConnectorsEnabled или ConnectorsEnabledForTeams $true с помощью $true с помощью [cmdlet Set-OrganizationConfig.](https://docs.microsoft.com/powershell/module/exchange/set-organizationconfig) Раньше вам нужно было [подключиться к Exchange Online PowerShell.](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)
 
 > [!NOTE]
 > Соединитетели по умолчанию отключены в средах Community (GCC) для государственных GCC. Если вам нужно включить их, задайте для параметров ConnectorsEnabled или ConnectorsEnabledForTeams $true с помощью $true [SetOrganizationConfig.](/powershell/module/exchange/set-organizationconfig?view=exchange-ps) Раньше вам требовалось подключиться к [Exchange Online PowerShell.](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps)
