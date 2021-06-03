@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 95272545080559b94faeff42d715b8f57c4d0242
-ms.sourcegitcommit: ea9a0119d184179300e51f58ca4fee249c12d00a
+ms.openlocfilehash: 8a16f6cbb3d6ade57a81bb245c42c5ea0917f849
+ms.sourcegitcommit: 19b9904588fcc14398e65b4153ab9fe7f5dd6a5d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "52699360"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52729807"
 ---
 # <a name="purchase-configure-and-enable-career-coach-for-microsoft-teams"></a>Приобрести, настроить и включить для тренеров по Microsoft Teams
 
@@ -110,7 +110,7 @@ Career Coach — это приложение Microsoft Teams для образо
 
 4. Выберите **Тренер по карьерной** деятельности , а затем выберите **Параметры.**  
 
-    ![Приложение "Тренер по карьерной карьере", выбранное с параметром Параметры с отображением](media/app-settings.png)
+    ![Приложение "Тренер по карьерной карьере", выбранное с параметром Параметры с отображением](media/career-coach-app.png)
 
 ### <a name="configure-the-career-coach-app-settings"></a>Настройка параметров приложения "Тренер по карьерной карьере"
 
@@ -133,7 +133,7 @@ Career Coach — это приложение Microsoft Teams для образо
 
 Задайте название, логотип и язык по умолчанию учебного заведения на странице параметров и фирме.
 
-![Раздел фирменой фирменой маркы "Тренер по карьерной карьере" в Центре администрирования](media/brand-preferences.png)
+![Раздел фирменой фирменой маркы "Тренер по карьерной карьере" в Центре администрирования](media/career-coach-brand.png)
 
 ##### <a name="educational-institution-icon"></a>Значок образовательного учреждения
 
@@ -172,7 +172,7 @@ Career Coach — это приложение Microsoft Teams для образо
 
 4. Скопируйте URL-адрес проверки и поделитесь им с документацией администратора страниц LinkedIn на странице администратора страниц LinkedIn вашего [учебного заведения.](https://www.linkedin.com/help/linkedin/answer/4783/linkedin-page-admins-overview?lang=en) Срок действия ссылки для проверки истекает через 30 дней.  
 
-   ![Параметры linkedin для тренера по карьерной карьере](media/linkedin.png)  
+   ![Параметры linkedin для тренера по карьерной карьере](media/career-coach-linked-in.png)  
 
 #### <a name="course-catalog"></a>Каталог курса
 
