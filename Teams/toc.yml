@@ -1572,7 +1572,7 @@ items:
             href: devices/phones-displays-deploy.md
           - name: USB-устройства для аудио и видео
             href: devices/usb-devices.md
-          - name: Развертывание панелей совместной работы в Microsoft Teams
+          - name: Развертывание Комнат Microsoft Teams на Android
             href: devices/collab-bar-deploy.md
           - name: Комнатные устройства и решения для проведения собраний
             href: /skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
