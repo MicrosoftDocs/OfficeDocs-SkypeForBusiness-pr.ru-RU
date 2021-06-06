@@ -1,5 +1,5 @@
 ---
-title: Развертывание комнат Microsoft Teams с Microsoft 365 или Office 365
+title: Развертывание Комнаты Microsoft Teams с Microsoft 365 или Office 365
 ms.author: v-cichur
 author: cichur
 manager: serdars
@@ -14,41 +14,41 @@ ms.collection:
 - M365-collaboration
 ms.custom: seo-marvel-apr2020
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
-description: В этой теме вы можете найти сведения о развертывании комнат Microsoft Teams с Microsoft 365 или Office 365, где обе службы Teams или Skype для бизнеса и Exchange находятся в сети.
-ms.openlocfilehash: b5cfaab64840fe72dc989f00ed41760058afc765
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: В этой теме вы можете найти сведения о развертывании Комнаты Microsoft Teams с Microsoft 365 или Office 365, где Teams или Skype для бизнеса и Exchange находятся в сети.
+ms.openlocfilehash: 64567cd9925a0a11d9e9b896c522a2c4bfe13f40
+ms.sourcegitcommit: 3840d72f9ad1c0c7803dc3662a0318f558fe92ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117337"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52739649"
 ---
-# <a name="deploy-microsoft-teams-rooms-with-microsoft-365-or-office-365"></a>Развертывание комнат Microsoft Teams с Microsoft 365 или Office 365
+# <a name="deploy-microsoft-teams-rooms-with-microsoft-365-or-office-365"></a>Развертывание Комнаты Microsoft Teams с Microsoft 365 или Office 365
 
-В этой теме вы можете найти сведения о развертывании комнат Microsoft Teams с Microsoft 365 или Office 365, где microsoft Teams или Skype для бизнеса и Exchange находятся в сети.
+В этой теме вы можете найти сведения о развертывании Комнаты Microsoft Teams с Microsoft 365 или Office 365, где обе Microsoft Teams или Skype для бизнеса и Exchange находятся в сети.
 
-Проще всего настроить учетные записи пользователей с помощью удаленной Windows PowerShell. Корпорация Майкрософт [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), сценарий, который помогает создавать новые учетные записи пользователей или проверять существующие учетные записи ресурсов, чтобы превратить их в совместимые учетные записи пользователей комнат Microsoft Teams. При этом вы можете настроить учетные записи, которые будут использовать устройства с комнатами Microsoft Teams, следуя этим шагам.
+Самый простой способ настроить учетные записи пользователей — настроить их с помощью удаленного Windows PowerShell. Корпорация Майкрософт [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), сценарий, который поможет создать новые учетные записи пользователей или проверить существующие учетные записи ресурсов, чтобы превратить их в совместимые Комнаты Microsoft Teams учетные записи пользователей. При этом вы можете настроить учетные записи, которые будут Комнаты Microsoft Teams устройство.
 
 ## <a name="requirements"></a>Требования
 
-Прежде чем развернуть комнаты Microsoft Teams с Microsoft 365 или Office 365, убедитесь, что выполнили требования. Дополнительные сведения см. в требованиях к комнатам [Microsoft Teams.](requirements.md)
+Прежде чем Комнаты Microsoft Teams с Microsoft 365 или Office 365, убедитесь, что выполнены требования. Дополнительные сведения см. в Комнаты Microsoft Teams [требованиях.](requirements.md)
 
 Чтобы включить Skype для бизнеса, у вас должны быть следующие возможности:
 
-- Skype для бизнеса Online (план 2 или корпоративный) или более высокого уровня в вашем плане Microsoft 365 или Office 365. В плане должны быть разрешается использовать функции для работы с функцией телефонного дозвона.
+- Skype для бизнеса В сети (план 2 или Enterprise план) или выше в Microsoft 365 или Office 365 плана. В плане должны быть разрешается использовать функции для работы с телефонным и видеоконференциями.
 
-- Если на собрании вам нужны функции телефонного звонка, вам потребуется лицензия на аудиоконференцию и телефонную систему.  Если на собрании вам нужны функции телефонного дозвона, вам потребуется лицензия на аудиоконференцию.
+- Если вам нужны возможности телефонного дозвона на собрании, вам потребуется лицензия на аудиоконференцию и телефонная система аудиоконференцию.  Если на собрании вам нужны возможности для телефонного набора, вам потребуется лицензия на аудиоконференцию.
 
-- У пользователей клиента должны быть почтовые ящики Exchange.
+- У пользователей клиента должны быть Exchange почтовые ящики.
 
-- Для учетной записи комнат Microsoft Teams требуется как минимум лицензия на Skype для бизнеса Online (план 2), но лицензия на Exchange Online не требуется. Подробные [сведения см. в лицензиях на комнаты Microsoft Teams.](rooms-licensing.md)
+- Для Комнаты Microsoft Teams учетной записи требуется как минимум Skype для бизнеса Online (план 2), но лицензия на Exchange Online не требуется. Подробные [Комнаты Microsoft Teams лицензии](rooms-licensing.md) см. в этой Комнаты Microsoft Teams лицензиях.
 
-Подробные сведения о планах Skype для бизнеса Online см. в описании [службы Skype для бизнеса Online.](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description)
+Подробные сведения о планах Skype для бизнеса Online см. в Skype для бизнеса online Service Description (Описание [веб-служб).](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description)
 
 ### <a name="add-a-device-account"></a>Добавление учетной записи устройства
 
-1. Подключите Exchange Online PowerShell. Инструкции см. в [инструкциях по подключению к Exchange Online PowerShell.](/powershell/exchange/connect-to-exchange-online-powershell)
+1. Подключение Exchange Online PowerShell. Инструкции см. в Подключение [Exchange Online PowerShell.](/powershell/exchange/connect-to-exchange-online-powershell)
 
-2. В Exchange Online PowerShell создайте почтовый ящик новой комнаты или измените существующий. По умолчанию у почтовых ящиков помещений нет связанных учетных записей, поэтому вам потребуется добавить учетную запись при создании или изменении почтового ящика комнаты, которая позволяет ей аутентификацию с помощью систем комнат Skype 2.
+2. В Exchange Online PowerShell создайте новый почтовый ящик помещения или измените существующий почтовый ящик комнаты. По умолчанию у почтовых ящиков помещений нет связанных учетных записей, поэтому вам потребуется добавить учетную запись при создании или изменении почтового ящика комнаты, который позволяет ей проверку подлинности с помощью Skype Room Systems v2.
 
    - Чтобы создать почтовый ящик помещения, используйте следующий синтаксис:
 
@@ -60,7 +60,7 @@ ms.locfileid: "51117337"
 
      - Имя: Карель-01
 
-     - Псевдоним: Дарел1
+     - Псевдоним: Иван
 
      - Учетная запись: Rigel1@contoso.onmicrosoft.com
 
@@ -70,37 +70,37 @@ ms.locfileid: "51117337"
      New-Mailbox -Name "Rigel-01" -Alias Rigel1 -Room -EnableRoomMailboxAccount $true -MicrosoftOnlineServicesID Rigel1@contoso.onmicrosoft.com -RoomMailboxPassword (ConvertTo-SecureString -String 'P@$$W0rd5959' -AsPlainText -Force)
      ```
 
-   - Чтобы изменить почтовый ящик помещения, используйте следующий синтаксис:
+   - Чтобы изменить существующий почтовый ящик помещения, используйте следующий синтаксис:
 
      ``` PowerShell
      Set-Mailbox -Identity <RoomMailboxIdentity> -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '<Password>' -AsPlainText -Force)
      ```
 
-     В этом примере включается учетная запись существующего почтового ящика помещения со значением псевдонима "Иван2" и устанавливается значение 9898P@$$W 0rd. Обратите внимание, что учетная запись будет Rigel2@contoso.onmicrosoft.com из-за существующего значения псевдонима.
+     В этом примере включается учетная запись существующего почтового ящика комнаты со значением Псевдоним 2 и устанавливается пароль 9898P@$$W 0rd. Обратите внимание, что учетная запись будет Rigel2@contoso.onmicrosoft.com из-за существующего значения псевдонима.
 
      ``` PowerShell
      Set-Mailbox -Identity Rigel2 -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '9898P@$$W0rd' -AsPlainText -Force)
      ```
 
-   Подробные сведения о синтаксисах и параметрах см. в настройках [New-Mailbox](/powershell/module/exchange/mailboxes/new-mailbox) [и Set-Mailbox.](/powershell/module/exchange/mailboxes/set-mailbox)
+   Подробные сведения о синтаксисе и параметрах см. в настройках [New-Mailbox](/powershell/module/exchange/mailboxes/new-mailbox) и [Set-Mailbox.](/powershell/module/exchange/mailboxes/set-mailbox)
 
-3. В Exchange Online PowerShell настройте следующие параметры почтового ящика помещения, чтобы улучшить качество собрания:
+3. В Exchange Online PowerShell настройте следующие параметры почтового ящика комнаты, чтобы улучшить собрание:
 
-   - AutomateProcessing: autoAccept (организаторы собраний принимают решение о резервировании помещений напрямую без участия человека: бесплатно = принять; занят = отклонуть.)
+   - AutomateProcessing: autoAccept (организаторы собраний получают решение о резервировании помещений напрямую без участия человека: free = accept; busy = decline.)
 
-   - AddOrganizerToSubject: $false (организатор собрания не добавляется в тему запроса на собрание.)
+   - AddOrganizerToSubject: $false (Организатор собрания не добавляется в тему запроса на собрание.)
 
-   - DeleteComments: $false (текст должен быть в тексте входящих запросов на собрания).)
+   - DeleteComments: $false (Сохранять текст в тексте сообщения входящих запросов на собрания).)
 
    - DeleteSubject: $false (Храните тему входящих запросов на собрания.)
 
-   - RemovePrivateProperty: $false (Гарантирует, что личный флаг, отправленный организатором собрания в исходном запросе собрания, останется указанным.)
+   - RemovePrivateProperty: $false (Гарантирует, что личный флажок, отправленный организатором собрания в исходном запросе на собрание, останется указанным.)
 
    - AddAdditionalResponse: $true (текст, заданный параметром AdditionalResponse, добавляется в запросы на собрания.)
 
-   - AdditionalResponse: "Это комната для собраний Skype!" (Дополнительный текст, который нужно добавить в запрос на собрание.)
+   - AdditionalResponse: "Это Skype собрание!" (Дополнительный текст, который нужно добавить в запрос на собрание.)
 
-   В этом примере эти параметры настраиваются для почтового ящика помещения с именем Карели-01.
+   В этом примере эти параметры настраиваются для почтового ящика комнаты с именем Конюхель-01.
 
    ``` PowerShell
    Set-CalendarProcessing -Identity "Rigel-01" -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false -AddAdditionalResponse $true -AdditionalResponse "This is a Skype Meeting room!"
@@ -108,7 +108,7 @@ ms.locfileid: "51117337"
 
    Подробные сведения о синтаксисе и параметрах см. в описании [set-CalendarProcessing.](/powershell/module/exchange/mailboxes/set-calendarprocessing)
 
-4. Подключите MS Online PowerShell, чтобы создать параметры Active Directory, вы можете с помощью `Connect-MsolService -Credential $cred` cmdlet PowerShell. Подробные сведения об Active Directory см. в [azure ActiveDirectory (MSOnline) 1.0.](/powershell/azure/active-directory/overview?view=azureadps-1.0)
+4. Подключение с ms Online PowerShell, чтобы создать параметры Active Directory с помощью `Connect-MsolService -Credential $cred` mdlet PowerShell. Подробные сведения об Active Directory см. в [azure ActiveDirectory (MSOnline) 1.0.](/powershell/azure/active-directory/overview?view=azureadps-1.0)
 
    > [!NOTE]
    > [Azure Active Directory PowerShell 2.0](/powershell/azure/active-directory/overview?view=azureadps-2.0) не поддерживается.
@@ -135,7 +135,7 @@ ms.locfileid: "51117337"
    Set-AzureADUserPassword -UserPrincipalName "Rigel1@contoso.onmicrosoft.com" -EnforceChangePasswordPolicy $false
    ``` -->
 
-   Кроме того, можно настроить номер телефона для учетной записи, вы можете с помощью следующей команды:
+   Кроме того, вы можете настроить номер телефона для учетной записи, выстроив следующую команду:
 
    ```PowerShell
    Set-MsolUser -UserPrincipalName <upn> -PhoneNumber <phone number>
@@ -146,10 +146,10 @@ ms.locfileid: "51117337"
    Set-AzureADUser -UserPrincipalName <Account> -PhoneNumber "<PhoneNumber>"
    ```  -->
 
-> [!NOTE]
-> Если для пароля не установлено действие "Никогда не истекает", учетная запись больше не будет вводиться на устройстве, когда срок действия учетной записи истечет. Затем потребуется изменить пароль для учетной записи, а также обновить его локально на устройстве MTR.
+    > [!NOTE]
+    > Если для пароля не за установлено действие "Никогда не истекает", учетная запись больше не будет вводиться на устройстве, когда срок действия учетной записи истечет. После этого пароль потребуется изменить для учетной записи, а также обновить локально на устройстве MTR.
 
-6. У учетной записи устройства должна быть действительная лицензия Microsoft 365 или Office 365 либо exchange, Microsoft Teams или Skype для бизнеса не будут работать. При наличии лицензии вам необходимо назначить учетной записи устройства место использования, которое определяет, какие номера SKU лицензий будут доступны вашей учетной записи. Вы можете использовать `Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> чтобы получить список доступных skus для вашей организации Microsoft 365 или Office 365:
+6. У учетной записи устройства должна быть действительная Microsoft 365 или Office 365 лицензия либо Exchange и Microsoft Teams или Skype для бизнеса не будут работать. При наличии лицензии вам необходимо назначить учетной записи устройства место использования, которое определяет, какие номера SKU лицензий будут доступны вашей учетной записи. Вы можете использовать `Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> чтобы получить список доступных skUs для вашей Microsoft 365 или Office 365 организации:
 
    ```Powershell
    Get-MsolAccountSku
@@ -160,7 +160,7 @@ ms.locfileid: "51117337"
    Get-AzureADSubscribedSku | Select -Property Sku*,ConsumedUnits -ExpandProperty PrepaidUnits
    ```  -->
 
-   Затем вы можете добавить лицензию с помощью `Set-MsolUserLicense` <!--Set-AzureADUserLicense --> cmdlet. В этом примере лицензия на комнату для собраний добавляется к учетной записи:
+   Затем вы можете добавить лицензию с помощью `Set-MsolUserLicense` <!--Set-AzureADUserLicense --> Командлет. В этом примере лицензия Конференц-зал к учетной записи:
 
    ```PowerShell
    Set-MsolUser -UserPrincipalName "Rigel1@contoso.onmicrosoft.com" -UsageLocation "US"
@@ -175,20 +175,23 @@ ms.locfileid: "51117337"
 
    Подробные инструкции см. в описании назначения лицензий учетным записям пользователей с [помощью Office 365 PowerShell.](/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell)
 
-   Вы также можете добавить возможности телефонной системы в эту учетную запись, но сначала необходимо ее настроить. Дополнительные [сведения см.](../what-is-phone-system-in-office-365.md) в телефонной системе. В этом примере добавляется план внутренних и международных звонков по ПС:
+   Вы также можете телефонная система возможности для этой учетной записи, но сначала необходимо настроить ее. Дополнительные [сведения см. телефонная система в](../what-is-phone-system-in-office-365.md) этой области. В этом примере добавляется план внутренних и международных звонков по ДНР:
 
    ```PowerShell
    Set-MsolUserLicense -UserPrincipalName rigel1@contoso.onmicrosoft.com -AddLicenses "Contoso:MCOPSTN2"
    ```
 
-7. Затем необходимо включить учетную запись устройства в Skype для бизнеса. Убедитесь, что ваша среда соответствует требованиям, определенным в требованиях к комнатам [Microsoft Teams.](requirements.md)
+    > [!NOTE]
+    > Если вы настраиваете Комнаты Teams только для того, чтобы присоединяться к собраниям Microsoft Teams, не переходите к следующему шагу: Эти возможности необходимы только в том случае, если вы также включит поддержку Skype для бизнеса локальной службе.
 
-   Начните [удаленный Windows PowerShell с](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) помощью таких компонентов (обязательно установите компоненты Skype для [бизнеса Online PowerShell):](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector)
+7. Чтобы включить учетную запись устройства Skype для бизнеса локальной среде, убедитесь, что ваша среда соответствует требованиям, определенным в Комнаты Microsoft Teams [требованиях](requirements.md).
 
-> [!NOTE]
-> Соединитель Skype для бизнеса Online сейчас входит в состав последнего модуля Teams PowerShell.
->
-> Если вы используете последний общедоступный выпуск [Teams PowerShell,](https://www.powershellgallery.com/packages/MicrosoftTeams/)вам не нужно устанавливать соединитель Skype для бизнеса Online.
+   Начните сеанс [удаленного](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) Windows PowerShell (не забудьте установить компоненты [Skype для бизнеса Online PowerShell):](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector)
+
+   > [!NOTE]
+   > Skype для бизнеса Online Connector в настоящее время является частью последней версии Teams PowerShell.
+   >
+   > Если вы используете последний общедоступный [Teams PowerShell,](https://www.powershellgallery.com/packages/MicrosoftTeams/)вам не нужно устанавливать Skype для бизнеса Online Connector.
 
    ``` Powershell
    # When using Teams PowerShell Module
@@ -198,28 +201,28 @@ ms.locfileid: "51117337"
    Connect-MicrosoftTeams -Credential $credential
    ```
 
-   Получите данные RegistrarPool из новой учетной записи пользователя, как показано в примере:
+   Получите данные RegistrarPool из новой учетной записи пользователя, как показано в этом примере:
 
    ``` Powershell
     Get-CsOnlineUser -Identity "Rigel1@contoso.onmicrosoft.com" | Select -Expand RegistrarPool
    ```
 
-   Затем вите свою учетную запись комнат Microsoft Teams для Skype для бизнеса Server с помощью следующего командлета:
+   Затем в Комнаты Microsoft Teams учетную запись Skype для бизнеса Server с помощью следующего cmdlet:
 
    ``` Powershell
    Enable-CsMeetingRoom -Identity "Rigel1@contoso.onmicrosoft.com" -RegistrarPool "sippoolbl20a04.infra.lync.com" -SipAddressType EmailAddress
    ```
 
    > [!NOTE]
-   > Возможно, новые учетные записи пользователей не будут созданы в том же пуле реестра, что и существующие учетные записи пользователей в клиенте. Эта команда предотвращает ошибки при настройке учетной записи в связи с этой ситуацией.
+   > Новые учетные записи пользователей могут не создаваться в том же реестре, что и существующие учетные записи пользователей в клиенте. Эта команда предотвращает ошибки при настройке учетной записи в этой ситуации.
 
 ## <a name="validate"></a>Проверить
 
-Для проверки вы сможете войти в созданную учетную запись с помощью любого клиента Skype для бизнеса.
+Для проверки вы можете использовать любой клиент Skype для бизнеса войти в созданную учетную запись.
 
 ## <a name="see-also"></a>См. также
 
-[Настройка учетных записей для комнат Microsoft Teams](rooms-configure-accounts.md)
+[Настройка учетных записей для Комнаты Microsoft Teams](rooms-configure-accounts.md)
 
 [Планирование комнат Microsoft Teams](rooms-plan.md)
 
@@ -229,4 +232,4 @@ ms.locfileid: "51117337"
 
 [Управление комнатами Microsoft Teams](rooms-manage.md)
 
-[Лицензирование комнат Microsoft Teams](rooms-licensing.md)
+[Комнаты Microsoft Teams Лицензирования](rooms-licensing.md)
