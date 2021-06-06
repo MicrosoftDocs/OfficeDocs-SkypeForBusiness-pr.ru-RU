@@ -1,10 +1,10 @@
 ### YamlMime:Hub
-title: Планирование обновления Skype для бизнеса до Microsoft Teams
-summary: Microsoft Teams помогает людям оставаться на связи, беспрепятственно сотрудничать и упростить работу в безопасном и соответствии друг с другом — все это в одном месте. Здесь вы найдете руководства, учебные курсы и ресурсы по успешному обновлению Skype для бизнеса до Teams.
+title: Планирование обновления с Skype для бизнеса до Microsoft Teams
+summary: 'Microsoft Teams предназначен для того, чтобы обеспечить связь, беспрепятственное взаимодействие и упростить работу в безопасном и соответствии требованиям— все это в одном месте. Здесь вы найдете рекомендации, учебные курсы и ресурсы по успешному обновлению с Skype для бизнеса до Teams.'
 brand: teams
 metadata:
-  title: Планирование обновления Skype для бизнеса до Microsoft Teams
-  description: Microsoft Teams помогает людям оставаться на связи, беспрепятственно сотрудничать и упростить работу в безопасном и соответствии друг с другом — все это в одном месте. Здесь вы найдете руководства, учебные курсы и ресурсы по успешному обновлению Skype для бизнеса до Teams.
+  title: Планирование обновления с Skype для бизнеса до Microsoft Teams
+  description: 'Microsoft Teams предназначен для того, чтобы обеспечить связь, беспрепятственное взаимодействие и упростить работу в безопасном и соответствии требованиям— все это в одном месте. Здесь вы найдете рекомендации, учебные курсы и ресурсы по успешному обновлению с Skype для бизнеса до Teams.'
   ms.service: msteams
   ms.topic: hub-page
   author: SerdarSoysal
@@ -14,92 +14,86 @@ metadata:
   ms.reviewer: landerl
   audience: admin
   f1.keywords:
-  - NOCSH
+    - NOCSH
   localization_priority: Priority
   ms.collection:
-  - Teams_ITAdmin_JourneyFromSfB
-  - M365-collaboration
+    - Teams_ITAdmin_JourneyFromSfB
+    - M365-collaboration
   search.appverid: MET150
   appliesto:
-  - Microsoft Teams
-  ms.openlocfilehash: ffcafd40419de2c467370fed311ff94bd71bf04d
-  ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
-  ms.translationtype: MT
-  ms.contentlocale: ru-RU
-  ms.lasthandoff: 03/23/2021
-  ms.locfileid: "51096063"
+    - Microsoft Teams
 highlightedContent:
   items:
-  - title: Использование проверенных рекомендаций для успешного обновления
-    itemType: how-to-guide
-    url: ./upgrade-framework.md
-  - title: Регистрация для бесплатных семинаров по планированию обновления
-    itemType: learn
-    url: ./upgrade-workshops-landing-page.yml
-  - title: Узнайте, как black & Veatch перешли на Teams за восемь недель
-    itemType: video
-    url: https://play.vidyard.com/uc42D4WD4byc3sHTiKEEEk
+    - title: Использование проверенных рекомендаций для успешного обновления
+      itemType: how-to-guide
+      url: ./upgrade-framework.md
+    - title: Регистрация для бесплатных семинаров по планированию обновления
+      itemType: learn
+      url: 'https://aka.ms/upgradeworkshops'
+    - title: 'Узнайте, как black & Veatch перешли на Teams за восемь недель'
+      itemType: video
+      url: 'https://play.vidyard.com/uc42D4WD4byc3sHTiKEEEk'
 productDirectory:
-  title: Ресурсы для планирования успешного обновления Teams и его использования
-  summary: Правильная техническая среда, стабильное внедрение пользователей и реализация бизнес-целей начинаются с надлежащего планирования.
+  title: Ресурсы для планирования успешного Teams и после него
+  summary: 'В здоровой технической среде, стабильном внедрении пользователей и реализации бизнес-целей все начинается с правильного планирования.'
   items:
-  - title: Истории обновления Teams
-    imageSrc: https://docs.microsoft.com/office/media/icons/users-people.svg
-    links:
-    - url: https://customers.microsoft.com/story/813525-dsm-discrete-manufacturing-technical-teams
-      text: Royal DSM — Skype for Business Server to Teams
-    - url: https://customers.microsoft.com/story/799203-ikea-retailers-teams
-      text: ЕА — из Skype для бизнеса Server в Teams
-    - url: https://customers.microsoft.com/story/782385-williams-energy-teams
-      text: Skype — Сервер Skype для бизнеса — Teams
-    - url: https://customers.microsoft.com/story/765513-trek-retailers-teams
-      text: Путь — Из Skype для бизнеса Online в Teams
-    - url: https://customers.microsoft.com/story/765520-dentsu-aegis-network-media-entertainment-teams
-      text: Denя Aegis Network — Из Skype для бизнеса Online в Teams
-    - url: https://customers.microsoft.com/story/764851-berkshire-healthcare-nhs-foundation-trust-health-provider-teams
-      text: Berkrk Healthcare — Из Skype для бизнеса Online в Teams
-  - title: 'Ignite Session: проектирование пути к Teams'
-    imageSrc: https://docs.microsoft.com/office/media/icons/walkthrough-map-teams.svg
-    summary: Этот сеанс с Ignite 2020 поможет вам найти подход, который больше всего подходит для внедрения и целей Skype для бизнеса.
-    url: https://go.microsoft.com/fwlink/?linkid=2154668
-  - title: Набор успешного обновления
-    imageSrc: https://docs.microsoft.com/office/media/icons/success-teams.svg
-    summary: Скачайте материалы о готовности пользователей, в том числе шаблоны для связи, опросы пользователей, а также образцы планов тестирования проектов и пилотных проектов.
-    url: https://aka.ms/UpgradeSuccessKit
-  - title: Документация для администраторов Teams
-    imageSrc: https://docs.microsoft.com/office/media/icons/document-teams.svg
-    summary: Узнайте, как развести Teams и управлять им, а также подготовить пользователей к новым средствам связи и совместной работы.
-    url: ./index.yml
-  - title: Обучение с инструктором по Teams
-    imageSrc: https://docs.microsoft.com/office/media/icons/presenter-with-podium.svg
-    summary: Бесплатные интерактивные учебные курсы, разработанные для подготовки к работе с Teams.
-    url: ./instructor-led-training-teams-landing-page.yml
-  - title: Расширйте сценарии Teams
-    imageSrc: https://docs.microsoft.com/office/media/icons/best-practices-teams.svg
-    summary: Наши интерактивные семинары Teams Chalk Talks предназначены для того, чтобы помочь ИТ-специалистов в работе с Teams с наибольшей возможностью.
-    url: ./chalk-talks-landing-page.yml
-  - title: Прекращение поддержки Skype для бизнеса Online
-    imageSrc: https://docs.microsoft.com/office/media/icons/migration-teams.svg
-    summary: Подготовьтесь к переходу на Teams 31 июля 2021 г. и узнайте, как спланировать успешный переход на Teams.
-    url: ./skype-for-business-online-retirement.md
-  - title: Блог Microsoft Teams
-    imageSrc: https://docs.microsoft.com/office/media/icons/blog-site-teams.svg
-    summary: Изучите лучшие методики, новости и тенденции непосредственно от команды, которая стоит за Microsoft Teams.
-    url: https://techcommunity.microsoft.com/t5/microsoft-teams-blog/bg-p/MicrosoftTeamsBlog
-  - title: Общее влияние на экономические последствия Teams
-    imageSrc: https://docs.microsoft.com/office/media/icons/trend-graph-teams.svg
-    summary: Подробнее о отчете Forrester Research, который может оценить улучшения в производительности сотрудников и компании после принятия Teams.
-    url: https://www.microsoft.com/microsoft-365/blog/wp-content/uploads/sites/2/2019/04/Total-Economic-Impact-Microsoft-Teams.pdf
+    - title: Teams обновлений
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/users-people.svg'
+      links:
+        - url: 'https://customers.microsoft.com/story/813525-dsm-discrete-manufacturing-technical-teams'
+          text: Royal DSM — Skype для бизнеса Server Teams
+        - url: 'https://customers.microsoft.com/story/799203-ikea-retailers-teams'
+          text: МНА — Skype для бизнеса Server Teams
+        - url: 'https://customers.microsoft.com/story/782385-williams-energy-teams'
+          text: Из Skype для бизнеса Server Teams
+        - url: 'https://customers.microsoft.com/story/765513-trek-retailers-teams'
+          text: 'Так, Skype для бизнеса в Интернете Teams'
+        - url: 'https://customers.microsoft.com/story/765520-dentsu-aegis-network-media-entertainment-teams'
+          text: Сеть Den дениз Aegis — Skype для бизнеса Online для Teams
+        - url: 'https://customers.microsoft.com/story/764851-berkshire-healthcare-nhs-foundation-trust-health-provider-teams'
+          text: Berkcare Healthcare — Skype для бизнеса Online для Teams
+    - title: 'Ignite Session: проектирование пути к Teams'
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/walkthrough-map-teams.svg'
+      summary: 'Этот сеанс в Ignite 2020 поможет вам найти подход, наиболее подходящий Skype для бизнеса реализации и целям.'
+      url: 'https://go.microsoft.com/fwlink/?linkid=2154668'
+    - title: Пакет успешного обновления
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/success-teams.svg'
+      summary: 'Скачайте материалы о готовности пользователей, включая шаблоны обращений, опросы пользователей, образцы планов проектов и пилотных тестов.'
+      url: 'https://aka.ms/UpgradeSuccessKit'
+    - title: Teams документации администратора
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/document-teams.svg'
+      summary: 'Узнайте, как совметив и управляйте Teams и подготовьте пользователей к новым взаимодействиям и совместной работе.'
+      url: ./index.yml
+    - title: Обучение с инструктором Teams
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/presenter-with-podium.svg'
+      summary: 'Бесплатные интерактивные учебные курсы, разработанные для обучения работе с Teams.'
+      url: ./instructor-led-training-teams-landing-page.yml
+    - title: Разорите Teams сценариев
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/best-practices-teams.svg'
+      summary: 'Наши интерактивные Teams, которые помогут ИТ-Teams.'
+      url: ./chalk-talks-landing-page.yml
+    - title: Прекращение поддержки Skype для бизнеса Online
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/migration-teams.svg'
+      summary: 'Подготовьтесь к выходу из службы Skype для бизнеса Online от 31 июля 2021 г. и узнайте, как спланировать успешный переход на Teams.'
+      url: ./skype-for-business-online-retirement.md
+    - title: Microsoft Teams блога
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/blog-site-teams.svg'
+      summary: 'Изучите методики, новости и тенденции непосредственно от команды, Microsoft Teams.'
+      url: 'https://techcommunity.microsoft.com/t5/microsoft-teams-blog/bg-p/MicrosoftTeamsBlog'
+    - title: Общее влияние на Teams
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/trend-graph-teams.svg'
+      summary: В отчете Forrester Research можно оценить улучшения в производительности сотрудников и компании после Teams.
+      url: 'https://www.microsoft.com/microsoft-365/blog/wp-content/uploads/sites/2/2019/04/Total-Economic-Impact-Microsoft-Teams.pdf'
 additionalContent:
   sections:
-  - title: Нужна дополнительная помощь?
-  - items:
-    - title: Помощь по развертыванию с помощью Программы Engage FastTrack
-      summary: Если для проектов развертывания Teams требуется более подробная помощь, клиенты с подходящими подписками могут получить поддержку в FastTrack.
-      url: https://www.microsoft.com/fasttrack
-    - title: Поиск партнера Майкрософт
-      summary: Нужны дополнительные рекомендации? Поставщики решений Майкрософт могут помочь вам управлять техническими и логистикой при обновлении.
-      url: https://www.microsoft.com/solution-providers/home
-    - title: Планы и цены Microsoft Teams
-      summary: Найдите под себя Microsoft Teams для своей компании.
-      url: https://www.microsoft.com/en-us/microsoft-teams/compare-microsoft-teams-options
+    - title: Нужна дополнительная помощь?
+    - items:
+        - title: Использование FastTrack для помощи в развертывании
+          summary: 'Если Teams по развертыванию требуется более подробная помощь, клиенты с подходящими подписками могут привлечь службу FastTrack за поддержкой.'
+          url: 'https://www.microsoft.com/fasttrack'
+        - title: Поиск партнера Майкрософт
+          summary: Нужны дополнительные рекомендации? Поставщики решений Майкрософт могут помочь вам управлять технической и логистикой при обновлении.
+          url: 'https://www.microsoft.com/solution-providers/home'
+        - title: Microsoft Teams и цены
+          summary: Найдите правильные Microsoft Teams для своей компании.
+          url: 'https://www.microsoft.com/en-us/microsoft-teams/compare-microsoft-teams-options'
