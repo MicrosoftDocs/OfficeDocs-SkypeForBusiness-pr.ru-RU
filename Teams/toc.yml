@@ -832,7 +832,7 @@ items:
               - name: Изменение языка по умолчанию для голосовой почты
                 href: change-the-default-language-for-greetings-and-emails.md
               - name: Языки для приветствий и сообщений голосовой почты
-                href: languages-for-voicemail-greetings-and-messages-teams.md
+                href: languages-for-voicemail-greetings-and-messages.md
           - name: Идентификатор звонящего
             items:
               - name: Как можно использовать идентификатор звонящего в организации
