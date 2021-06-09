@@ -481,8 +481,6 @@ items:
         href: teams-policies.md
       - name: Настройка модерации канала в Teams
         href: manage-channel-moderation-in-teams.md
-      - name: Общий доступ к файлам в Teams
-        href: sharing-files-in-teams.md
       - name: Teams и интеграция электронной почты Outlook
         href: teams-outlook-email-integration.md
       - name: Поделиться в Teams из Outlook
