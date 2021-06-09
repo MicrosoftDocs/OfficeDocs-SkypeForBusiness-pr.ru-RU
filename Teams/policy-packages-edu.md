@@ -21,12 +21,12 @@ ms.custom: ms.teamsadmincenter.policypackages.overview
 localization_priority: Priority
 search.appverid: MET150
 description: Узнайте о политиках в параметрах образовательных учреждениях или средах, а также о способах использования и управления пакетами политик в Microsoft Teams.
-ms.openlocfilehash: 10b87a804523758df69a68ff9c5812a6ea5b448c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: a23c54003f700b3d6dc3e0c45cbbc9ee42a311ed
+ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117797"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52796843"
 ---
 # <a name="teams-policies-and-policy-packages-for-education"></a>Политики и пакеты политик Teams для образования
 
@@ -54,7 +54,7 @@ Microsoft Teams позволяет пользователям участвова
 
 ### <a name="where-to-find-microsoft-teams-policies"></a>Где находятся политики Microsoft Teams
 
-После входа в Центр администрирования Teams вы можете перейти к параметрам политик для всех областей Teams, которыми нужно управлять, щелкнув параметр политики в левой области навигации Центра администрирования Teams. Мы добавили снимок экрана с расположением политик обмена сообщениями.
+После входа в Центр администрирования Teams вы можете перейти к параметрам политик для всех областей Teams, которыми хотите управлять, щелкнув параметр политики в левой области навигации Центра администрирования Teams. Мы добавили снимок экрана с расположением политик обмена сообщениями.
 
 :::image type="content" source="media/edu-messaging-policies.png" alt-text="Расположение политики обмена сообщениями в Центре администрирования Teams.":::
 
@@ -113,7 +113,7 @@ Microsoft Teams позволяет пользователям участвова
 
 ![Область "Изменение политики пользователей" в правой части поверх страницы "Назначенные политики".](media/edu-edit-user-policies-pane.png)
 
-### <a name="policy-packages-in-microsoft-teams"></a>Пакеты политик в Microsoft Teams
+### <a name="policy-packages-in-microsoft-teams"></a>Пакеты политик в Microsoft Teams
 > [!NOTE]
 > Дополнительные сведения см. в статье [Управление пакетами политик в Microsoft Teams](manage-policy-packages.md), содержащей пошаговые инструкции по назначению пакета отдельным пользователям, по массовому назначению пакетов с количеством пользователей до 5000, а также по управлению и обновлению политик, связанных с каждым пакетом.
 
@@ -169,7 +169,10 @@ Microsoft Teams позволяет пользователям участвова
 
 ### <a name="assign"></a>Назначение
 
-Назначение пакета политики пользователям. Если пользователю с назначенной политикой, назначается другая, приоритет будет иметь самое последнее назначение.
+Назначение пакета политики пользователям. Если пользователю с назначенной политикой назначается другая, приоритет будет иметь самое последнее назначение.
+
+> [!NOTE]
+> Для получения назначенного пользовательского пакета политик каждому пользователю будет необходима надстройка Advanced Communications. Дополнительные сведения см. в статье [Надстройка Advanced Communications для Microsoft Teams](/microsoftteams/teams-add-on-licensing/advanced-communications).
 
 #### <a name="assign-a-policy-package-to-one-or-several-users"></a>Назначение пакета политики для одного или нескольких пользователей
 

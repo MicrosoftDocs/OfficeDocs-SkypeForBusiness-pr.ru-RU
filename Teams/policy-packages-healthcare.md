@@ -21,12 +21,12 @@ searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
 description: Узнайте, как использовать пакеты политик Teams для своей медицинской организации и управлять ими.
-ms.openlocfilehash: 830b8fc5f6938f84f188f5f5d732a3ecfd6eb5b1
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
-ms.translationtype: HT
+ms.openlocfilehash: 19c0fee14138b248c4e25d88a9103df4a5618598
+ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117767"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52796813"
 ---
 # <a name="teams-policy-packages-for-healthcare"></a>Пакеты политик Teams для здравоохранения
 
@@ -86,6 +86,9 @@ ms.locfileid: "51117767"
 
 Назначение пакета политики пользователям. Если пользователю с назначенной политикой назначается другая, приоритет будет иметь самое последнее назначение.
 
+> [!NOTE]
+> Для получения назначения пользовательского пакета политики каждому пользователю потребуется надстройка Advanced Communications. Дополнительные сведения см. в [этой](/microsoftteams/teams-add-on-licensing/advanced-communications)Microsoft Teams.
+
 #### <a name="assign-a-policy-package-to-one-or-several-users"></a>Назначение пакета политики для одного или нескольких пользователей
 
 Чтобы назначить пакет политики одному или нескольким пользователям, в левой области навигации Центра администрирования Microsoft Teams перейдите в раздел **Пакеты политик**, а затем выберите **Управление пользователями**.  
@@ -114,4 +117,4 @@ ms.locfileid: "51117767"
 
 [Управление пакетами политик в Teams](manage-policy-packages.md)
 
-[Назначение политик пользователям в Teams](assign-policies.md)
+[Назначение пакетов политики пользователям и группам](assign-policy-packages.md)
