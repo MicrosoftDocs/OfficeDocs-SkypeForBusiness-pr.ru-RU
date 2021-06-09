@@ -36,7 +36,7 @@ ms.locfileid: "51471483"
        <span data-ttu-id="12f7f-107">Чтобы быстро получить краткий обзор комнат Teams, щелкните видео справа.</span><span class="sxs-lookup"><span data-stu-id="12f7f-107">For a quick introduction to Teams Rooms, click on the video to the right.</span></span>
     :::column-end:::
     :::column:::
-       [<span data-ttu-id="12f7f-108">:::image type="content" source="../media/Teams-Rooms-Microsoft-Mechanics.jpg" alt-text="Видео "Microsoft Teams Rooms Microsoft Mechanics"":::</span><span class="sxs-lookup"><span data-stu-id="12f7f-108">:::image type="content" source="../media/Teams-Rooms-Microsoft-Mechanics.jpg" alt-text="Microsoft Teams Rooms Microsoft Mechanics video":::</span></span>](https://www.youtube.com/watch?v=z4N-Z6mT09Q)
+       [<span data-ttu-id="12f7f-108">:::image type="content" source="../media/Teams-Rooms-Microsoft-Mechanics.jpg" alt-text="Видео Microsoft Teams Rooms Microsoft Mechanics":::</span><span class="sxs-lookup"><span data-stu-id="12f7f-108">:::image type="content" source="../media/Teams-Rooms-Microsoft-Mechanics.jpg" alt-text="Microsoft Teams Rooms Microsoft Mechanics video":::</span></span>](https://www.youtube.com/watch?v=z4N-Z6mT09Q)
     :::column-end:::
 :::row-end:::
 

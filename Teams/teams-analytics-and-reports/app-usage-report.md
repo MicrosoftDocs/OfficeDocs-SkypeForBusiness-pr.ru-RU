@@ -32,11 +32,11 @@ ms.locfileid: "50460599"
 
 1.  <span data-ttu-id="4a08a-106">В левой области навигации Центра администрирования щелкните <https://admin.teams.microsoft.com> **"Аналитика** и & отчеты об \> **использовании".**</span><span class="sxs-lookup"><span data-stu-id="4a08a-106">In the left navigation of the admin center at <https://admin.teams.microsoft.com>, click **Analytics & reports** \> **Usage reports**.</span></span> <span data-ttu-id="4a08a-107">На **вкладке "Просмотр отчетов" в** **области "Отчет"** выберите **"Использование приложений".**</span><span class="sxs-lookup"><span data-stu-id="4a08a-107">On the **View reports** tab, under **Report**, select **Apps Usage**.</span></span>
 
-     :::image type="content" source="media/app-usage-report1.png" alt-text="Снимок экрана: элемент меню "Отчеты об использовании"":::
+     :::image type="content" source="media/app-usage-report1.png" alt-text="Снимок экрана: элемент меню Отчеты об использовании":::
 
 2.  <span data-ttu-id="4a08a-109">Выберите диапазон в поле **Диапазон дат**, а затем нажмите кнопку **Запустить отчет**.</span><span class="sxs-lookup"><span data-stu-id="4a08a-109">Under **Date range**, select a range, and then click **Run report**.</span></span>
 
-      :::image type="content" source="media/app-usage-report2.png" alt-text="Снимок экрана: отчет "Использование приложений"":::
+      :::image type="content" source="media/app-usage-report2.png" alt-text="Снимок экрана: отчет Использование приложений":::
 
 ## <a name="interpret-the-report"></a><span data-ttu-id="4a08a-111">Толкование отчета</span><span class="sxs-lookup"><span data-stu-id="4a08a-111">Interpret the report</span></span>
 

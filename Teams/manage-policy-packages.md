@@ -91,7 +91,7 @@ ms.locfileid: "52810178"
 
 1. <span data-ttu-id="31bd7-163">В левой области навигации Центра администрирования Microsoft Teams выберите **Пакеты** политики и нажмите кнопку **Добавить**.</span><span class="sxs-lookup"><span data-stu-id="31bd7-163">In the left navigation of the Microsoft Teams admin center,  select **Policy packages**, and then click **Add**.</span></span>
 
-    :::image type="content" source="media/policy-packages-add.png" alt-text="Снимок экрана: кнопка "Добавить" на странице пакетов политики в Центре администрирования":::
+    :::image type="content" source="media/policy-packages-add.png" alt-text="Снимок экрана: кнопка Добавить на странице пакетов политики в Центре администрирования":::
 
 2. <span data-ttu-id="31bd7-165">Введите имя и описание пакета.</span><span class="sxs-lookup"><span data-stu-id="31bd7-165">Enter a name and description for your package.</span></span>
 

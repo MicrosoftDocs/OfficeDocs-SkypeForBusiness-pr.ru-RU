@@ -41,15 +41,15 @@ ms.locfileid: "52479076"
 
 <span data-ttu-id="147cc-114">В Центре администрирования Microsoft Teams выберите **Приложение Teams** > **Политики установки** и установите для параметра **Разрешить пользователям закрепление** значение **Вкл**.</span><span class="sxs-lookup"><span data-stu-id="147cc-114">In the Microsoft Teams admin center, under **Teams app** > **Setup policies**, you should have **Allow user pinning** set to **On**.</span></span> <span data-ttu-id="147cc-115">Затем в разделе "Закрепленные приложения" нажмите кнопку **+Добавить приложения**.</span><span class="sxs-lookup"><span data-stu-id="147cc-115">Then, under the Pinned Apps section, click **+Add Apps**.</span></span>
 
-:::image type="content" source="media/deploy-walkie-talkie-1.png" alt-text="Показаны раздел "Закрепленные приложения" и нажимаемая кнопка "Добавить приложения".":::
+:::image type="content" source="media/deploy-walkie-talkie-1.png" alt-text="Показаны раздел Закрепленные приложения и нажимаемая кнопка Добавить приложения.":::
 
 <span data-ttu-id="147cc-117">На панели **Добавить закрепленные приложения** справа поищите приложение "Рация" в текстовом поле **Поиск**.</span><span class="sxs-lookup"><span data-stu-id="147cc-117">On the **Add pinned apps** panel that appears on the right, use the **Search** textbox to look for Walkie Talkie.</span></span> <span data-ttu-id="147cc-118">Если она есть в результатах  поиска, выберите кнопку Добавить справа от имени, чтобы добавить ее в список.</span><span class="sxs-lookup"><span data-stu-id="147cc-118">When you have it as a search result, select the **Add** button to the right of the name to add it to your list.</span></span>
 
-:::image type="content" source="media/deploy-walkie-talkie-2.png" alt-text="Показаны боковая панель "Добавить закрепленные приложения" с введенным в область поиска названием "Рация", приложение "Рация" в результатах поиска и кнопка "Добавить" рядом с ним.":::
+:::image type="content" source="media/deploy-walkie-talkie-2.png" alt-text="Показаны боковая панель Добавить закрепленные приложения с введенным в область поиска названием Рация, приложение Рация в результатах поиска и кнопка Добавить рядом с ним.":::
 
 <span data-ttu-id="147cc-120">Теперь приложение "Рация" должно появиться в списке закрепленных приложений и будет доступно для использования после нажатия кнопки **Сохранить**.</span><span class="sxs-lookup"><span data-stu-id="147cc-120">The Walkie Talkie app should now appear on the Pinned Apps list, and be available for use once you click the **Save** button.</span></span>
 
-:::image type="content" source="media/deploy-walkie-talkie-3.png" alt-text="Показан список закрепленных приложений с добавленным приложением "Рация" и кнопкой "Сохранить" под списком.":::
+:::image type="content" source="media/deploy-walkie-talkie-3.png" alt-text="Показан список закрепленных приложений с добавленным приложением Рация и кнопкой Сохранить под списком.":::
 
 ### <a name="network-documentation"></a><span data-ttu-id="147cc-122">Сетевая документация</span><span class="sxs-lookup"><span data-stu-id="147cc-122">Network documentation</span></span>
 

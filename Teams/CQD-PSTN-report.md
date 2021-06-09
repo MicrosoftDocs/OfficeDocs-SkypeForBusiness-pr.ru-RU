@@ -45,7 +45,7 @@ ms.locfileid: "51094983"
 1. <span data-ttu-id="3a25b-115">Анализ по типу звонка, SBC, вызываемой и вызываемой стране</span><span class="sxs-lookup"><span data-stu-id="3a25b-115">Analyze by call type, SBC, caller and callee country</span></span>
 
    <span data-ttu-id="3a25b-116">В отчете CQD Direct Routing по ННР совокупно метрики надежности и использования для всех SBCs в клиенте за последние 7, 30 или 180 дней (6 месяцев).</span><span class="sxs-lookup"><span data-stu-id="3a25b-116">The CQD PSTN Direct Routing report aggregates reliability and usage metrics for all SBCs on your tenant for the last 7, 30, or 180 days (6 months).</span></span> <span data-ttu-id="3a25b-117">Данные можно анализировать по типу звонка, SBC, вызываемой и вызываемой стране.</span><span class="sxs-lookup"><span data-stu-id="3a25b-117">You can analyze data by call type, SBC, caller and callee country.</span></span> <span data-ttu-id="3a25b-118">Если вас интересует определенная SBC или страна, вы сможете выявлять изменения тенденций в выбранном диапазоне времени.</span><span class="sxs-lookup"><span data-stu-id="3a25b-118">If you're interested in a particular SBC or country, you'll be able to identify changes in trends over the selected time range.</span></span>
-   :::image type="content" source="media/CQD-PSTN-report8.png" alt-text="Снимок экрана: фильтры, доступные в отчете "CQD Direct Routing" службы ННР":::
+   :::image type="content" source="media/CQD-PSTN-report8.png" alt-text="Снимок экрана: фильтры, доступные в отчете CQD Direct Routing службы ННР":::
    
 2. <span data-ttu-id="3a25b-120">Отслеживание тенденций</span><span class="sxs-lookup"><span data-stu-id="3a25b-120">Track trends</span></span>
 

@@ -158,7 +158,7 @@ ms.locfileid: "51598578"
 
 <span data-ttu-id="f8dd8-223">Такой гибридный подход позволяет создать группы для каждого класса (рекомендуется) в SDS или сделать это самостоятельно с помощью [API Graph](/graph/api/educationroot-post-classes).</span><span class="sxs-lookup"><span data-stu-id="f8dd8-223">This hybrid approach allows you to either use SDS to create groups for each class (recommended) or use [Graph API](/graph/api/educationroot-post-classes) to create them on your own.</span></span> <span data-ttu-id="f8dd8-224">После подготовки групп классов преподаватель может преобразовать свои группы в команды с помощью значка **Рекомендуемые классы**.</span><span class="sxs-lookup"><span data-stu-id="f8dd8-224">After class groups are prepared, educators can convert their groups into teams by using the **Suggested classes** icon.</span></span>
 
-:::image type="content" source="media/class-teams-edu-suggested-classes.png" alt-text="Снимок экрана со значком "Рекомендуемые классы"":::
+:::image type="content" source="media/class-teams-edu-suggested-classes.png" alt-text="Снимок экрана со значком Рекомендуемые классы":::
 
 ##### <a name="benefits"></a><span data-ttu-id="f8dd8-226">Преимущества</span><span class="sxs-lookup"><span data-stu-id="f8dd8-226">Benefits</span></span>
 

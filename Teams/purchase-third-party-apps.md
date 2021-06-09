@@ -57,7 +57,7 @@ ms.locfileid: "51117687"
 - <span data-ttu-id="74395-134">**Дата активации лицензии:** дата активации лицензии.</span><span class="sxs-lookup"><span data-stu-id="74395-134">**License activation date**: Date on which your license was activated.</span></span> <span data-ttu-id="74395-135">Если ваша учетная запись еще не настроена, это будет показано как активация подписки, **ожидающих активации.**</span><span class="sxs-lookup"><span data-stu-id="74395-135">If your account isn't yet set up, this shows as **Subscription pending activation**.</span></span>
 - <span data-ttu-id="74395-136">**Лицензии:** количество приобретенных лицензий.</span><span class="sxs-lookup"><span data-stu-id="74395-136">**Licenses**: Number of licenses you purchased.</span></span>
 
-:::image type="content" source="media/purchase-third-party-apps-details-page.png" alt-text="Снимок экрана: вкладка "Планы" и "Цены" на странице сведений о приложении":::
+:::image type="content" source="media/purchase-third-party-apps-details-page.png" alt-text="Снимок экрана: вкладка Планы и Цены на странице сведений о приложении":::
 
 <span data-ttu-id="74395-138">Выберите **"Управление** лицензиями", чтобы перейти в Центр администрирования Microsoft 365, чтобы просмотреть приобретенные лицензии и управлять назначениями лицензий для пользователей.</span><span class="sxs-lookup"><span data-stu-id="74395-138">Select **Manage licenses** to go to the Microsoft 365 admin center to view and manage the licenses you purchased and to manage license assignments for users.</span></span>
 

@@ -90,7 +90,7 @@ ms.locfileid: "50997447"
 
 <span data-ttu-id="ea3e2-157">Плитка отображается зеленым цветом для доступного места для собрания.</span><span class="sxs-lookup"><span data-stu-id="ea3e2-157">The tile appears in green for an available meeting space.</span></span> <span data-ttu-id="ea3e2-158">Текст **"Доступен"** отображается в  заметном виде, а также [](#reserve-meeting-spaces-for-ad-hoc-meetings)отображается кнопка "Зарезервировать", при нажатии на которую можно зарезервировать место для собрания.</span><span class="sxs-lookup"><span data-stu-id="ea3e2-158">It displays **Available** in prominent text, and a **Reserve** button also appears that you can tap to [reserve the meeting space for an ad hoc meeting](#reserve-meeting-spaces-for-ad-hoc-meetings).</span></span> <span data-ttu-id="ea3e2-159">Вы можете посмотреть календарь предстоящего собрания (правая нижняя плитка), чтобы определить время окончания для нее.</span><span class="sxs-lookup"><span data-stu-id="ea3e2-159">You can check the upcoming calendar of the meeting space (right bottom tile) to decide the end time for your ad hoc meeting.</span></span>
 
-:::image type="content" source="../media/panels-right-tile-available-status.png" alt-text="На этом снимке экрана показано, как при наличии места для собрания отображается экран "Домашняя панель Teams"":::
+:::image type="content" source="../media/panels-right-tile-available-status.png" alt-text="На этом снимке экрана показано, как при наличии места для собрания отображается экран Домашняя панель Teams":::
 
 ## <a name="reserve-meeting-spaces-for-ad-hoc-meetings"></a><span data-ttu-id="ea3e2-161">Резервировать место для собраний для не проведения собраний.</span><span class="sxs-lookup"><span data-stu-id="ea3e2-161">Reserve meeting spaces for ad hoc meetings</span></span>
 
@@ -104,7 +104,7 @@ ms.locfileid: "50997447"
 <span data-ttu-id="ea3e2-170">Чтобы зарезервировать доступное место для собрания:</span><span class="sxs-lookup"><span data-stu-id="ea3e2-170">To reserve an available meeting space for an ad hoc meeting:</span></span>
 
 1. <span data-ttu-id="ea3e2-171">На домашнем экране нажмите кнопку **"Резервировать".**</span><span class="sxs-lookup"><span data-stu-id="ea3e2-171">On the Home screen, tap the **Reserve** button.</span></span>
-    :::image type="content" source="../media/panels-reserve.png" alt-text="На домашнем экране панелей Teams отображается кнопка "Зарезервировать"":::
+    :::image type="content" source="../media/panels-reserve.png" alt-text="На домашнем экране панелей Teams отображается кнопка Зарезервировать":::
 2. <span data-ttu-id="ea3e2-173">На экране **собрания просмотрите** доступные варианты времени окончания.</span><span class="sxs-lookup"><span data-stu-id="ea3e2-173">In the **Ad hoc meeting** screen, review the available end time choices.</span></span> <span data-ttu-id="ea3e2-174">Для просмотра доступных вариантов окончания можно использовать стрелки вправо или влево.</span><span class="sxs-lookup"><span data-stu-id="ea3e2-174">You can use the right or left arrows to browse the available end time choices.</span></span>
 
     :::image type="content" source="../media/panels-reserve-endtime.png" alt-text="Экран собрания с отображением отрезков времени окончания":::
@@ -185,7 +185,7 @@ ms.locfileid: "50997447"
 5. <span data-ttu-id="ea3e2-235">Нажмите **кнопку "Параметры приложения панели"** на правом экране.</span><span class="sxs-lookup"><span data-stu-id="ea3e2-235">Tap the **Panels App Settings** button on the right screen.</span></span>
     <span data-ttu-id="ea3e2-236">Отобразит экран **с доступными настройками** приложения "Панели".</span><span class="sxs-lookup"><span data-stu-id="ea3e2-236">The screen with the available **Panels App** settings is displayed.</span></span>
 
-    :::image type="content" source="../media/panels-app-settings-screen.png" alt-text="Снимок экрана: экран с доступными настройками приложения "Панели"":::
+    :::image type="content" source="../media/panels-app-settings-screen.png" alt-text="Снимок экрана: экран с доступными настройками приложения Панели":::
 
     <span data-ttu-id="ea3e2-238">На этом экране можно обновить следующие **параметры** приложения "Панели" для устройства:</span><span class="sxs-lookup"><span data-stu-id="ea3e2-238">Use this screen to update the following **Panels App** settings for your device:</span></span>
 
@@ -209,7 +209,7 @@ ms.locfileid: "50997447"
 1. <span data-ttu-id="ea3e2-252">[Параметры **приложения на панелях Access.**](#access-panels-app-settings)</span><span class="sxs-lookup"><span data-stu-id="ea3e2-252">[Access **Panels App Settings**](#access-panels-app-settings).</span></span>
 2. <span data-ttu-id="ea3e2-253">Нажмите **"Параметры led".**</span><span class="sxs-lookup"><span data-stu-id="ea3e2-253">Tap **LED Settings**.</span></span>
 3. <span data-ttu-id="ea3e2-254">Выберите **нужный цвет в окте "Выберите** цвет под руководством".</span><span class="sxs-lookup"><span data-stu-id="ea3e2-254">From **Choose your LED color**, select the desired color.</span></span>
-:::image type="content" source="../media/panels-led-settings.png" alt-text="На этом снимке экрана показаны параметры состояния "Занят" в цвете LED":::
+:::image type="content" source="../media/panels-led-settings.png" alt-text="На этом снимке экрана показаны параметры состояния Занят в цвете LED":::
 4. <span data-ttu-id="ea3e2-256">Снова перейдите на домашний экран и убедитесь, что цвет led для состояния занятости обновлен.</span><span class="sxs-lookup"><span data-stu-id="ea3e2-256">Go back to the Home screen and verify that the LED color for the busy state is updated.</span></span> <span data-ttu-id="ea3e2-257">Если в настоящее время доступно место для собрания, попробуйте запланировать тестовую встречу, чтобы проверить изменение цвета LED для состояния занятости.</span><span class="sxs-lookup"><span data-stu-id="ea3e2-257">If the meeting space is currently available, try to schedule a test meeting to verify the change in LED color for the busy state.</span></span>
 
 ## <a name="frequently-asked-questions"></a><span data-ttu-id="ea3e2-258">Вопросы и ответы</span><span class="sxs-lookup"><span data-stu-id="ea3e2-258">Frequently asked questions</span></span>

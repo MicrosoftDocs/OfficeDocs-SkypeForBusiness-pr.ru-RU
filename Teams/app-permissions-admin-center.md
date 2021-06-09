@@ -34,7 +34,7 @@ ms.locfileid: "51094661"
 
 <span data-ttu-id="b26da-113">В **столбце** "Разрешения" указывается, есть ли у приложения разрешения, для получения согласия.</span><span class="sxs-lookup"><span data-stu-id="b26da-113">The **Permissions** column indicates whether an app has permissions that need consent.</span></span> <span data-ttu-id="b26da-114">Вы увидите ссылку **"Просмотреть сведения"** для каждого приложения, зарегистрированного в Azure AD, с разрешениями, которые требуют разрешения.</span><span class="sxs-lookup"><span data-stu-id="b26da-114">You'll see a **View details** link for each app registered in Azure AD that has permissions that need consent.</span></span> <span data-ttu-id="b26da-115">Имейте в виду, что это относится только к пользовательским и сторонним приложениям.</span><span class="sxs-lookup"><span data-stu-id="b26da-115">Keep in mind that this applies only to custom and third-party apps.</span></span> <span data-ttu-id="b26da-116">Вы не увидите эту ссылку или хотите предоставить администратору согласие администратора для приложений, опубликованных корпорацией Майкрософт.</span><span class="sxs-lookup"><span data-stu-id="b26da-116">You won't see this link or need to grant admin consent for apps published by Microsoft.</span></span>
 
-:::image type="content" source="media/app-perm-admin-center-permissions-column.png" alt-text="Снимок экрана: столбец "Разрешения" на странице "Управление приложениями"":::
+:::image type="content" source="media/app-perm-admin-center-permissions-column.png" alt-text="Снимок экрана: столбец Разрешения на странице Управление приложениями":::
 
 <span data-ttu-id="b26da-118">Чтобы предоставить приложению согласие для всей организации, выполните следующие действия:</span><span class="sxs-lookup"><span data-stu-id="b26da-118">To grant org-wide consent to an app, follow these steps:</span></span>
 
@@ -45,7 +45,7 @@ ms.locfileid: "51094661"
 
 3. <span data-ttu-id="b26da-124">В **области "Разрешения для всей организации"** выберите **"Просмотр разрешений и согласие".**</span><span class="sxs-lookup"><span data-stu-id="b26da-124">Under **Org-wide permissions**, select **Review permissions and consent**.</span></span>
 
-    :::image type="content" source="media/app-perm-admin-center-org-wide.png" alt-text="Снимок экрана: разрешения для всей организации на вкладке "Разрешения" для приложения":::
+    :::image type="content" source="media/app-perm-admin-center-org-wide.png" alt-text="Снимок экрана: разрешения для всей организации на вкладке Разрешения для приложения":::
 
     <span data-ttu-id="b26da-126">Для этого необходимо быть глобальным администратором.</span><span class="sxs-lookup"><span data-stu-id="b26da-126">You must be a global admin to do this.</span></span> <span data-ttu-id="b26da-127">Этот параметр не доступен администраторам служб Teams.</span><span class="sxs-lookup"><span data-stu-id="b26da-127">This option isn't available to Teams service admins.</span></span>
 

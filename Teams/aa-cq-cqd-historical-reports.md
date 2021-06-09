@@ -101,7 +101,7 @@ ms.locfileid: "51121547"
 <span data-ttu-id="49baa-144">Выполните следующие действия:</span><span class="sxs-lookup"><span data-stu-id="49baa-144">Please perform these steps:</span></span>
 - <span data-ttu-id="49baa-145">На **ленте выберите вкладку** "Вид".</span><span class="sxs-lookup"><span data-stu-id="49baa-145">Select **View tab** on the ribbon.</span></span>
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="Снимок экрана: выбор вкладки "Вид" для изменения цветовой схемы":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="Снимок экрана: выбор вкладки Вид для изменения цветовой схемы":::
 
 - <span data-ttu-id="49baa-147">Выберите цветовую схему в списке.</span><span class="sxs-lookup"><span data-stu-id="49baa-147">Select the color schema from the drop-down list.</span></span>
 

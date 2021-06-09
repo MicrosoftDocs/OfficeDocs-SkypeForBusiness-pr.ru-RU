@@ -59,7 +59,7 @@ ms.locfileid: "51115587"
 
 3. <span data-ttu-id="cfced-130">В **диалоговом окне**  "Обновление до Teams" выберите "Запланировать обновление", чтобы установить дату и время обновления или **обновить его сейчас.**</span><span class="sxs-lookup"><span data-stu-id="cfced-130">In the **Upgrade to Teams display** dialogue box, select **Schedule upgrade** to set a date and time for the upgrade or **Upgrade now**.</span></span>
 
-    :::image type="content" source="../media/upgrade-phones-to-displays-upgrade.png" alt-text="Снимок экрана: диалоговая окно "Обновление до Teams"":::
+    :::image type="content" source="../media/upgrade-phones-to-displays-upgrade.png" alt-text="Снимок экрана: диалоговая окно Обновление до Teams":::
 
 > [!NOTE]
 > <span data-ttu-id="cfced-132">Если вы получили сообщение о том, что выбранные телефоны нельзя обновить, убедитесь, что выбраны телефоны, поддерживают [обновление,](#which-teams-phones-can-be-upgraded)и попробуйте еще раз.</span><span class="sxs-lookup"><span data-stu-id="cfced-132">If you receive a message that says your selected phones can't be upgraded, check to make sure that you select [phones that support the upgrade](#which-teams-phones-can-be-upgraded), and then try again.</span></span>
