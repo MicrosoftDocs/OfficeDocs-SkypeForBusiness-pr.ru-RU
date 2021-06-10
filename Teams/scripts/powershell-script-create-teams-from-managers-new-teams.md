@@ -1,5 +1,5 @@
 ---
-title: 'Пример сценария PowerShell: создание групп диспетчера людей'
+title: 'Пример сценария PowerShell: создание команд диспетчера людей'
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.reviewer: brandber
 ms.service: msteams
 audience: admin
-description: Используйте этот сценарий PowerShell, чтобы создать команду для каждого руководителя, в качестве участников которых они являются.
+description: Используйте этот сценарий PowerShell, чтобы создать команду для каждого руководителя со своими прямыми участниками.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -23,16 +23,16 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51117307"
 ---
-# <a name="powershell-script-sample---create-new-people-manager-teams"></a><span data-ttu-id="743b6-103">Пример сценария PowerShell: создание групп диспетчера людей</span><span class="sxs-lookup"><span data-stu-id="743b6-103">PowerShell script sample - Create new people manager teams</span></span>
+# <a name="powershell-script-sample---create-new-people-manager-teams"></a><span data-ttu-id="09206-103">Пример сценария PowerShell: создание команд диспетчера людей</span><span class="sxs-lookup"><span data-stu-id="09206-103">PowerShell script sample - Create new people manager teams</span></span>
 
-<span data-ttu-id="743b6-104">Используйте этот сценарий PowerShell, чтобы создать команду для каждого руководителя, управив его участниками.</span><span class="sxs-lookup"><span data-stu-id="743b6-104">Use this PowerShell script to create a team for each manager with their directs as team members.</span></span> <span data-ttu-id="743b6-105">Перед запуском этого сценария [](powershell-script-create-teams-from-managers-export-managers.md) запустите сценарий диспетчеров экспорта, чтобы экспортировать (из Active Directory) список руководителей и их руководителей для вашей организации.</span><span class="sxs-lookup"><span data-stu-id="743b6-105">Before you run this script, run the [Export managers](powershell-script-create-teams-from-managers-export-managers.md) script to  export (from your Active Directory) a list of managers and their directs for your organization.</span></span>
+<span data-ttu-id="09206-104">Используйте этот сценарий PowerShell, чтобы создать команду для каждого руководителя со своими прямыми участниками.</span><span class="sxs-lookup"><span data-stu-id="09206-104">Use this PowerShell script to create a team for each manager with their directs as team members.</span></span> <span data-ttu-id="09206-105">Перед запуском этого сценария запустите сценарий [Диспетчеры](powershell-script-create-teams-from-managers-export-managers.md) экспорта, чтобы экспортировать (из Active Directory) список руководителей и их руководителей для вашей организации.</span><span class="sxs-lookup"><span data-stu-id="09206-105">Before you run this script, run the [Export managers](powershell-script-create-teams-from-managers-export-managers.md) script to  export (from your Active Directory) a list of managers and their directs for your organization.</span></span>
 
-<span data-ttu-id="743b6-106">Чтобы узнать об этом сценарии PowerShell, прочитайте статью ["Создание групп диспетчера людей".](../create-manager-directs-teams.md)</span><span class="sxs-lookup"><span data-stu-id="743b6-106">To learn about this PowerShell script, read [Create people manager teams](../create-manager-directs-teams.md).</span></span>
+<span data-ttu-id="09206-106">Чтобы узнать об этом сценарии PowerShell, ознакомьтесь со [статьей Создание команд диспетчера людей.](../create-manager-directs-teams.md)</span><span class="sxs-lookup"><span data-stu-id="09206-106">To learn about this PowerShell script, read [Create people manager teams](../create-manager-directs-teams.md).</span></span>
 
-<span data-ttu-id="743b6-107">Если вы новичок в PowerShell и вам требуется помощь, см. раздел [Общие сведения об Azure PowerShell](/powershell/azure/overview?view=azurermps-5.1.1).</span><span class="sxs-lookup"><span data-stu-id="743b6-107">If you're new to PowerShell and need help getting started, see [Overview of Azure PowerShell](/powershell/azure/overview?view=azurermps-5.1.1).</span></span>
+<span data-ttu-id="09206-107">Если вы новичок в PowerShell и вам требуется помощь, см. раздел [Общие сведения об Azure PowerShell](/powershell/azure/overview?view=azurermps-5.1.1).</span><span class="sxs-lookup"><span data-stu-id="09206-107">If you're new to PowerShell and need help getting started, see [Overview of Azure PowerShell](/powershell/azure/overview?view=azurermps-5.1.1).</span></span>
 
 
-## <a name="create-new-people-manager-teams"></a><span data-ttu-id="743b6-108">Создание новых групп менеджеров людей</span><span class="sxs-lookup"><span data-stu-id="743b6-108">Create new people manager teams</span></span> 
+## <a name="create-new-people-manager-teams"></a><span data-ttu-id="09206-108">Создание новых групп менеджеров людей</span><span class="sxs-lookup"><span data-stu-id="09206-108">Create new people manager teams</span></span> 
 
 ```powershell
 <# 
