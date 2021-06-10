@@ -24,7 +24,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже находятся Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Чешская Республика.
+description: Ниже ются Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Чешской Республика.
 ms.openlocfilehash: 7919693bd5ed1daa631d223ac8af707e9ca3e548
 ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
 ms.translationtype: MT
@@ -36,7 +36,7 @@ ms.locfileid: "52130258"
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже находятся Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Чешская Республика.
+Ниже ются Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Чешской Республика.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 

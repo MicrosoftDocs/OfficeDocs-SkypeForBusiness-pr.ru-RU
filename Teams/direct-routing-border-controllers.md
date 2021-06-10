@@ -1,5 +1,5 @@
 ---
-title: Session Border Controllers certified for Direct Routing
+title: Контроллеры границ сеанса, сертифицированные для прямой маршрутии
 ms.author: crowe
 ms.reviewer: FilippSe
 author: CarolynRowe
@@ -34,7 +34,7 @@ ms.locfileid: "52526742"
 - Совместная работа над протоколами межсоединения SIP.
 - Проводите активные тесты с помощью стороннее лабораторное тестирование. Сертифицированы только устройства, которые прошли тесты.
 - Ежедневно проводите тесты со всеми сертифицированными устройствами в производственной и предварительной средах. проверка устройств в предварительных средах гарантирует, что новые версии кода прямой маршрутизации в облаке будут работать с сертифицированными контроллерами SBC;
-- Создай совместную поддержку с поставщиками SBC.
+- Создай совместную процедуру поддержки с поставщиками SBC.
 
   > [!NOTE]
   > Корпорация Майкрософт поддерживает телефонная система только в том случае, если сертифицированные устройства подключены с помощью прямой маршрутии. Корпорация Майкрософт оставляет за собой право отклонить случаи поддержки, когда не сертифицированное устройство подключено к телефонная система прямой маршрутии. Если корпорация Майкрософт определяет, что проблема с прямой маршрутией клиента имеется в SBC-устройстве поставщика, клиенту потребуется привлечь его к поддержке.
@@ -74,12 +74,12 @@ ms.locfileid: "52526742"
 |                                                                                                                    |      VME           |    &#10004;    |    &#10004;    |     8.3.0.0.1   |   &#10004;   |  &#10004;  |    
 |                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      Поддерживаемая 3.20 (рекомендуется 4.0)        |  &#10004;    |  &#10004;   |    
 |                     [Metaswitch](https://www.metaswitch.com/products/core-network/perimeta-sbc)                               |     Perimeta SBC        |     &#10004;   |  |      4.7      |     |    |  
-|                     [Cisco](https://www.cisco.com/c/en/us/solutions/enterprise/interoperability-portal/networking_solutions_products_genericcontent0900aecd805bd13d.html)                               |     Cisco Unified Border Element (CUBE) для маршрутизаторов интегрированных служб 1000 рядов        |     &#10004;   | &#10004; |      Поддерживаемый IOS XE 17.2.1r (рекомендуется 17.3.2)         |    &#10004;     |   |  
-|                                   |     Cisco Unified Border Element (CUBE) для маршрутизаторов интегрированных служб 4000 рядов        |     &#10004;   | &#10004; |   Поддерживаемый IOS XE 17.2.1r (рекомендуется 17.3.2)         |   &#10004;      |    |  
-|                                   |     Cisco Unified Border Element (CUBE) for 1000V Series Cloud Services Router       |     &#10004;   | &#10004; |      Поддерживаемый IOS XE 17.2.1r (рекомендуется 17.3.2)         |    &#10004;     |    |  
-|                                 |     Cisco Unified Border Element (CUBE) для маршрутизаторов Aggregation Services 1000 рядов      |     &#10004;   | &#10004; |      Поддерживаемый IOS XE 17.2.1r (рекомендуется 17.3.2)         |    &#10004;     |    |
-|                                 |     Унифицированный элемент границы Cisco (CUBE) для платформы Edge Platforms с технологией Вэлемента 8000      |     &#10004;   | &#10004; |      IOS XE 17.3.2      |    &#10004;     |    |
-|                     [Avaya](https://support.avaya.com/products/P0997/avaya-session-border-controller-for-enterprise/8.1.x)|    Av висячего контроллера границы сеанса для Enterprise (ASBCE)    |     &#10004;     |       &#10004;     |       Выпуск 8.1.1 (8.1.2 для обхода мультимедиа)      |     |    | 
+|                     [Cisco](https://www.cisco.com/c/en/us/solutions/enterprise/interoperability-portal/networking_solutions_products_genericcontent0900aecd805bd13d.html)                               |     Cisco Unified Border Element (CUBE) для маршрутизаторов интегрированных служб 1000 рядов        |     &#10004;   | &#10004; |      Поддерживаемая iOS XE 17.2.1r (рекомендуется 17.3.2)         |    &#10004;     |   |  
+|                                   |     Cisco Unified Border Element (CUBE) для маршрутизаторов интегрированных служб 4000 рядов        |     &#10004;   | &#10004; |   Поддерживаемая iOS XE 17.2.1r (рекомендуется 17.3.2)         |   &#10004;      |    |  
+|                                   |     Cisco Unified Border Element (CUBE) for 1000V Series Cloud Services Router       |     &#10004;   | &#10004; |      Поддерживаемая iOS XE 17.2.1r (рекомендуется 17.3.2)         |    &#10004;     |    |  
+|                                 |     Cisco Unified Border Element (CUBE) for 1000 Series Aggregation Services Routers      |     &#10004;   | &#10004; |      Поддерживаемая iOS XE 17.2.1r (рекомендуется 17.3.2)         |    &#10004;     |    |
+|                                 |     Cisco Unified Border Element (CUBE) для Платформы Edge 8000      |     &#10004;   | &#10004; |      IOS XE 17.3.2      |    &#10004;     |    |
+|                     [Avaya](https://support.avaya.com/products/P0997/avaya-session-border-controller-for-enterprise/8.1.x)|    Av прогорная граница сеанса для Enterprise (ASBCE)    |     &#10004;     |       &#10004;     |       Выпуск 8.1.1 (8.1.2 для обхода мультимедиа)      |     |    | 
 |                     [Nokia](https://documentation.nokia.com/aces/cgi-bin/chk_access.cgi/3TB30222GBAAACZZA.zip)|    Контроллер границы Nokia Session    |     &#10004;     |           |       19.5 (1908)       |     |    | 
 |                     |    Контроллер границы Nokia Session    |     &#10004;     |           |       20.8       |      &#10004;        |    | 
 |                     [Italtel](https://www.italtel.com/italtel-provides-direct-routing-sbc-for-microsoft-teams/)|    NetMatch-S CI     |     &#10004;     |           |       Поддерживаемая 5.0 (рекомендуется 5.1)     |     |    | 
@@ -94,7 +94,7 @@ ms.locfileid: "52526742"
 <br/>
 * 911 поставщиков услуг
 
-- [Маршрутия динамического расположения пропускной способности](https://www.bandwidth.com/partners/microsoft-teams-direct-routing/)
+- [Маршрутия динамического расположения в полосе пропускания](https://www.bandwidth.com/partners/microsoft-teams-direct-routing/)
 - [Служба маршрутинга экстренных служб Интрадо (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)
 - [Шлюз для экстренного экстренного ситуация Intrado (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)
 <br/>

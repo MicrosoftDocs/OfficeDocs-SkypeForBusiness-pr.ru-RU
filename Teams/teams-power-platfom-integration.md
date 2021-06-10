@@ -1,5 +1,5 @@
 ---
-title: Интеграция Teams с Microsoft Power Platform
+title: Teams интеграции с Microsoft Power Platform
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -16,7 +16,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 search.appverid: MET150
-description: Узнайте об интеграции Teams со средствами платформы Microsoft Power Platform, включая Power BI, приложения Power Apps, Power Automate и виртуальные агенты Power.
+description: Узнайте, Teams интеграцию с инструментами Microsoft Power Platform, включая Power BI, power apps, Power Automate и Power Virtual Agents.
 ms.openlocfilehash: c6442cd654dd8da6e26de048d50b7c80ef95cf26
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -24,33 +24,33 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51111045"
 ---
-# <a name="teams-integration-with-microsoft-power-platform"></a>Интеграция Teams с Microsoft Power Platform
+# <a name="teams-integration-with-microsoft-power-platform"></a>Teams интеграции с Microsoft Power Platform
 
-Платформа Microsoft Power Platform помогает пользователям ускорить разработку с помощью средств с низким кодом, чтобы анализировать данные с помощью **Power BI,** создавать пользовательские приложения с помощью **Power Apps,** автоматизировать процессы с помощью **Power Automate** и создавать интеллектуальные боты с помощью виртуальных агентов **Power,** как никогда. С переходом на удаленную и гибридную работу Microsoft Teams позволяет людям по всему миру создавать, совместно работать и общаться. С более чем 75 миллионами ежедневно активных пользователей Teams — это работа пользователей.
+Платформа Microsoft Power Platform помогает пользователям ускорить разработку с помощью средств с низким кодом для анализа данных с помощью **Power BI,** создания пользовательских приложений с помощью **Power Apps,** автоматизации процессов с помощью **Power Automate** и создания интеллектуальных ботов с помощью **Power Virtual Agents** быстрее, чем когда-либо. Переход к удаленной и гибридной работе Microsoft Teams позволяет людям по всему миру создавать, совместно работать и общаться. Более 75 миллионов активных пользователей в день Teams, как они работают.
 
-:::image type="content" source="media/teams-power-platform-integration.png" alt-text="Image summarizing Teams and Microsoft Power Platform":::
+:::image type="content" source="media/teams-power-platform-integration.png" alt-text="Изображение, на Teams и Microsoft Power Platform":::
 
-Платформа Microsoft Power Platform предоставляет множество возможностей интеграции с Teams, где можно вставлять отчеты Power BI в рабочее пространство **Teams,** внедрение приложений, созданных с помощью **Power Apps** в качестве вкладки или личного приложения, запускать поток **Power Automate** из любого сообщения или использовать адаптивные карточки, а также добавлять бот, созданный с помощью виртуальных агентов **Power,** в Teams для других участников организации для взаимодействия.
+Microsoft Power Platform предоставляет множество возможностей интеграции с Teams, где можно вставлять отчеты **Power BI** в рабочей области Teams, вставлять приложения, созданные с помощью **Power Apps** в качестве вкладки или личного приложения, запускать поток **Power Automate** сообщений или использовать адаптивные карточки, а также добавлять боты, созданные с помощью **Power Virtual Agents,** в Teams для взаимодействия с другими сотрудниками организации.
 
-Начиная с сентября 2020 г. улучшена интеграция с Microsoft Power Platform, благодаря которой пользователи могут:
+С сентября 2020 г. улучшена интеграция с Microsoft Power Platform, благодаря которой пользователи могут делать следующее, не выходя из *Teams интерфейса:*
 
-- Создание панелей мониторинга, отчетов и приложений с помощью **Power BI** и их совместное использование для принятия решений на основе данных.
-- Создавайте приложения с низким кодом и делитесь ими с помощью встроенной студии **Power Apps,** подключаясь к бизнес-данным, которые хранятся в новой платформе данных (Microsoft Dataverse для Teams), Microsoft 365 или в других источниках данных через соединители.
-- Создавайте автоматизированные рабочие процессы между приложениями и службами, чтобы синхронизировать файлы, получать уведомления, собирать данные и делать много другое с помощью **Power Automate.**
-- Создавайте боты с помощью графического интерфейса без кода с помощью виртуальных агентов **Power,** чтобы легко создавать цифровые помощники в Teams и делать их доступными для общения с коллегами.
+- Создавайте панели мониторинга, отчеты и приложения и делитесь ими с помощью Power BI **принимать** решения на основе данных.
+- Создавайте и делитесь приложениями с низким кодом, встроенными с помощью встроенной студии **Power Apps,** подключаясь к бизнес-данным, которые хранятся в новой платформе данных (Microsoft Dataverse для Teams), Microsoft 365 или в других источниках данных через соединители.
+- Создавайте автоматизированные рабочие процессы между приложениями и службами для синхронизации файлов, получения уведомлений, сбора данных и многого **Power Automate.**
+- Создавайте боты с помощью графического интерфейса без кода с помощью **Power Virtual Agents,** чтобы легко создавать цифровых помощников в Teams и сделать их доступными для общения с коллегами.
 
-Новые возможности для создания приложений, ботов и рабочих процессов обеспечиваются благодаря новой встроенной платформе данных с низким кодом для Teams, [dataverse для Teams,](/powerapps/teams/overview-data-platform)которая обеспечивает реляционное хранение данных, насыщенные типы данных, управление корпоративным классом и развертывание решений одним щелчком мыши. Dataverse for Teams is built on top of [Microsoft Dataverse.](/powerapps/maker/common-data-service/data-platform-intro) С помощью dataverse для Teams пользователи Teams могут находить и устанавливать пользовательские готовые к использованию решения из магазина приложений Teams, демонстрируемые распространенные сценарии в различных отраслях. Вы можете настроить и расширить эти пользовательские решения в зависимости от фирменой фирменой маркы и требований вашей организации.
+Новые возможности для создания приложений, ботов и рабочих процессов обеспечиваются новой встроенной платформой данных с низким кодом для Teams Dataverse для [Teams,](/powerapps/teams/overview-data-platform)которая обеспечивает хранение реляционных данных, типы данных с насыщенными данными, управление корпоративным классом и развертывание решений одним щелчком мыши. Надстройка Dataverse для Teams, созданная на основе [microsoft Dataverse](/powerapps/maker/common-data-service/data-platform-intro). С помощью функции Dataverse для Teams пользователи Teams могут находить и устанавливать пользовательские готовые решения из Teams приложений, демонстрирующих распространенные сценарии в различных отраслях. Вы можете настроить и расширить эти пользовательские решения в зависимости от фирменой маркы и требований вашей организации.
 
 ## <a name="licensing"></a>Лицензирование
 
-Новые возможности доступны для выбранных подписок Microsoft 365.
+Новые возможности доступны для выбранных Microsoft 365 подписки.
 
-- Дополнительные сведения о требованиях к лицензированию для Power Apps, Power Automate, виртуальных агентов Power и Dataverse для Teams см. в [лицензиях.](/power-platform/admin/about-teams-environment)
-- Дополнительные сведения о требованиях к лицензированию Для Power BI см. [в требованиях.](/power-bi/collaborate-share/service-collaborate-microsoft-teams)
+- Дополнительные сведения о лицензионных требованиях для Power Apps, Power Automate, Power Virtual Agents и Dataverse для Teams см. в [лицензировании.](/power-platform/admin/about-teams-environment)
+- Дополнительные сведения о лицензионных требованиях для Power BI см. в [требованиях.](/power-bi/collaborate-share/service-collaborate-microsoft-teams)
  
 ## <a name="how-do-i-get-started"></a>Как начать работу?
 
 - [Power BI и Teams](/power-bi/collaborate-share/service-collaborate-microsoft-teams)
 - [Power Apps и Teams](/powerapps/teams/overview)
 - [Power Automate и Teams](/power-automate/teams/overview)
-- [Виртуальные агенты и Команды Power](/power-virtual-agents/teams/fundamentals-what-is-power-virtual-agents-teams)
+- [Power Virtual Agents и Teams](/power-virtual-agents/teams/fundamentals-what-is-power-virtual-agents-teams)

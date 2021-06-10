@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
-description: Узнайте, как перейти с локального развертывания Skype для бизнеса на Microsoft Teams.
+description: Узнайте, как перейти на Microsoft Teams из локального Skype для бизнеса организации.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -27,21 +27,21 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51115557"
 ---
-# <a name="upgrade-from-a-skype-for-business-on-premises-deployment-to-teams"></a>Обновление локального развертывания Skype для бизнеса до Teams
+# <a name="upgrade-from-a-skype-for-business-on-premises-deployment-to-teams"></a>Обновление локального Skype для бизнеса до Teams
 
-![Этапы пути обновления с акцентом на этапе развертывания и реализации](media/upgrade-banner-deployment.png "Этапы пути обновления с акцентом на этапе развертывания и реализации")
+![Этапы пути обновления с акцентом на этапе развертывания и внедрения](media/upgrade-banner-deployment.png "Этапы пути обновления с акцентом на этапе развертывания и внедрения")
 
-Эта статья является частью этапа развертывания и реализации, которое вы начинаете. Прежде чем продолжается, подтвердим, что вы выполнили следующие действия:
+Эта статья является частью этапа развертывания и реализации, на который вы входите. Прежде чем при этом подтверждать, что вы выполнили следующие действия:
 
-- [Привлечение заинтересованных лиц проекта](upgrade-enlist-stakeholders.md)
+- [Привлечение заинтересованных лиц по проекту](upgrade-enlist-stakeholders.md)
 - [Определение области проекта](./upgrade-define-project-scope.md)
-- [Понимание сосуществования и совместной работы Skype для бизнеса и Teams](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
-- [Выбранный путь обновления](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-- [Подготовлена среда](./upgrade-prepare-environment.md)
-- [Подготовив организацию](./upgrade-prepare-organization.md)
-- [Проводится пилотный проект](./pilot-essentials.md)
+- [Понятное сосуществование и совместное Skype для бизнеса и Teams](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+- [Выбор пути обновления](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [Подготовьте свою среду](./upgrade-prepare-environment.md)
+- [Подготовленные организации](./upgrade-prepare-organization.md)
+- [Пилотный проект](./pilot-essentials.md)
 
-Следуйте указаниям в этой статье, если вы развернули локальное приложение Skype для бизнеса или Microsoft Lync и хотите выборочно перейти на Microsoft Teams с помощью нескольких режимов сосуществования или в режиме all-in. 
+Следуйте указаниям из этой статьи, если вы развернули локальное развертывание Skype для бизнеса или Microsoft Lync и хотите перейти на Microsoft Teams выборочно — с помощью нескольких режимов совместной работы или всех. 
 
 > [!IMPORTANT]
 > [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]
@@ -50,22 +50,22 @@ ms.locfileid: "51115557"
 
 Для обновления пользователей до Teams необходимо развернуть гибридное подключение.
 
-Дополнительные сведения см. в [сведениях о развертывании](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity) гибридного подключения между Skype для бизнеса Server и Skype для бизнеса Online.
+Дополнительные сведения см. в [теме Развертывание гибридного](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity) подключения между Skype для бизнеса Server и Skype для бизнеса Online.
 
 ## <a name="step-2-implement-your-chosen-upgrade-journey-for-your-organization"></a>Шаг 2. Реализация выбранного пути обновления для организации
 
 После завершения гибридной настройки вы можете запланировать перемещение пользователей на Microsoft 365 или Office 365.
 
-Дополнительные сведения см. в:
+Дополнительные сведения см. в
 
 - [TeamsUpgradePolicy: управление миграцией и сосуществованием.](upgrade-to-teams-on-prem-tools.md)
 
 - [Перемещение пользователей из локальной сети в Skype для бизнеса Online.](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/move-users-from-on-premises-to-skype-for-business-online)
 
-## <a name="phone-system-and-teams-upgrade"></a>Обновление телефонной системы и Teams
+## <a name="phone-system-and-teams-upgrade"></a>телефонная система и Teams обновления
 
-Переход с локальной телефонной системы на Teams позволит вам воспользоваться прямой маршрутией телефонной системы ("Прямая маршрутия") или предоставленными Майкрософт планами звонков для Microsoft 365 или Office 365.
+Переход с локальной телефонной системы на Teams позволит вам воспользоваться преимуществами прямой маршрутации телефонная система ("Прямая маршрутия") или планов звонков, предоставленных Майкрософт для Microsoft 365 или Office 365.
 
-Если вы не используете планы звонков, необходимо перейти с корпоративного голосового развертывания на прямую маршрутизаку телефонной системы в рамках обновления до Teams.
+Если вы не используете планы звонков, необходимо перенаправить развертывание корпоративной голосовой связи на прямую маршрутиз телефонная система в рамках обновления до Teams.
 
-Дополнительные сведения см. [в дополнительных сведениях о прямой маршрутике телефонной системы.](./direct-routing-landing-page.md) Если вы планируете использовать планы звонков, обратитесь к нашим рекомендациям по переносу номеров [телефонов в Teams.](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)
+Дополнительные сведения см. [в дополнительных сведениях о прямой телефонная система маршрутии.](./direct-routing-landing-page.md) Если вы планируете использовать планы звонков, обратитесь к нашим рекомендациям по переносу номеров телефонов [в](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)Teams.
