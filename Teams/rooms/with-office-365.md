@@ -32,9 +32,9 @@ ms.locfileid: "52739649"
 
 Прежде чем Комнаты Microsoft Teams с Microsoft 365 или Office 365, убедитесь, что выполнены требования. Дополнительные сведения см. в Комнаты Microsoft Teams [требованиях.](requirements.md)
 
-Чтобы включить Skype для бизнеса, у вас должны быть следующие возможности:
+Чтобы включить Skype для бизнеса, необходимо сделать следующее:
 
-- Skype для бизнеса В сети (план 2 или Enterprise план) или выше в Microsoft 365 или Office 365 плана. В плане должны быть разрешается использовать функции для работы с телефонным и видеоконференциями.
+- Skype для бизнеса В сети (план 2 или Enterprise на основе плана) или более Microsoft 365 или Office 365 плане. В плане должны быть возможности для работы сконференцию с телефонным телефоном.
 
 - Если вам нужны возможности телефонного дозвона на собрании, вам потребуется лицензия на аудиоконференцию и телефонная система аудиоконференцию.  Если на собрании вам нужны возможности для телефонного набора, вам потребуется лицензия на аудиоконференцию.
 
@@ -76,7 +76,7 @@ ms.locfileid: "52739649"
      Set-Mailbox -Identity <RoomMailboxIdentity> -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '<Password>' -AsPlainText -Force)
      ```
 
-     В этом примере включается учетная запись существующего почтового ящика комнаты со значением Псевдоним 2 и устанавливается пароль 9898P@$$W 0rd. Обратите внимание, что учетная запись будет Rigel2@contoso.onmicrosoft.com из-за существующего значения псевдонима.
+     В этом примере включается учетная запись существующего почтового ящика комнаты со значением псевдонима «Иван2» и устанавливается значение 9898P@$$W 0rd. Обратите внимание, что учетная запись будет Rigel2@contoso.onmicrosoft.com из-за существующего значения псевдонима.
 
      ``` PowerShell
      Set-Mailbox -Identity Rigel2 -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '9898P@$$W0rd' -AsPlainText -Force)
@@ -90,9 +90,9 @@ ms.locfileid: "52739649"
 
    - AddOrganizerToSubject: $false (Организатор собрания не добавляется в тему запроса на собрание.)
 
-   - DeleteComments: $false (Сохранять текст в тексте сообщения входящих запросов на собрания).)
+   - DeleteComments: $false (Сохранить текст в тексте сообщения входящих запросов на собрание.)
 
-   - DeleteSubject: $false (Храните тему входящих запросов на собрания.)
+   - DeleteSubject: $false (Тема входящих запросов на собрания.)
 
    - RemovePrivateProperty: $false (Гарантирует, что личный флажок, отправленный организатором собрания в исходном запросе на собрание, останется указанным.)
 
@@ -189,7 +189,7 @@ ms.locfileid: "52739649"
    Начните сеанс [удаленного](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) Windows PowerShell (не забудьте установить компоненты [Skype для бизнеса Online PowerShell):](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector)
 
    > [!NOTE]
-   > Skype для бизнеса Online Connector в настоящее время является частью последней версии Teams PowerShell.
+   > Skype для бизнеса В настоящее время Online Connector является частью последней версии Teams PowerShell.
    >
    > Если вы используете последний общедоступный [Teams PowerShell,](https://www.powershellgallery.com/packages/MicrosoftTeams/)вам не нужно устанавливать Skype для бизнеса Online Connector.
 
@@ -214,7 +214,7 @@ ms.locfileid: "52739649"
    ```
 
    > [!NOTE]
-   > Новые учетные записи пользователей могут не создаваться в том же реестре, что и существующие учетные записи пользователей в клиенте. Эта команда предотвращает ошибки при настройке учетной записи в этой ситуации.
+   > Новые учетные записи пользователей могут не создаваться в том же реестре, что и существующие учетные записи пользователей в клиенте. Эта команда предотвращает ошибки при настройке учетной записи в связи с этой ситуацией.
 
 ## <a name="validate"></a>Проверить
 

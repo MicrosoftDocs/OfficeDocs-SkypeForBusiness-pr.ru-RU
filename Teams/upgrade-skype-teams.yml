@@ -1,10 +1,10 @@
 ### YamlMime:Hub
 title: Планирование обновления с Skype для бизнеса до Microsoft Teams
-summary: 'Microsoft Teams предназначен для того, чтобы обеспечить связь, беспрепятственное взаимодействие и упростить работу в безопасном и соответствии требованиям— все это в одном месте. Здесь вы найдете рекомендации, учебные курсы и ресурсы по успешному обновлению с Skype для бизнеса до Teams.'
+summary: 'Microsoft Teams предназначен для того, чтобы помочь людям оставаться на связи, беспрепятственно сотрудничать и упростить работу в безопасном и соответствии требованиям — все это в одном месте. Здесь вы найдете рекомендации, учебные курсы и ресурсы по успешному обновлению Skype для бизнеса до Teams.'
 brand: teams
 metadata:
   title: Планирование обновления с Skype для бизнеса до Microsoft Teams
-  description: 'Microsoft Teams предназначен для того, чтобы обеспечить связь, беспрепятственное взаимодействие и упростить работу в безопасном и соответствии требованиям— все это в одном месте. Здесь вы найдете рекомендации, учебные курсы и ресурсы по успешному обновлению с Skype для бизнеса до Teams.'
+  description: 'Microsoft Teams предназначен для того, чтобы помочь людям оставаться на связи, беспрепятственно сотрудничать и упростить работу в безопасном и соответствии требованиям — все это в одном месте. Здесь вы найдете рекомендации, учебные курсы и ресурсы по успешному обновлению Skype для бизнеса до Teams.'
   ms.service: msteams
   ms.topic: hub-page
   author: SerdarSoysal
@@ -30,12 +30,12 @@ highlightedContent:
     - title: Регистрация для бесплатных семинаров по планированию обновления
       itemType: learn
       url: 'https://aka.ms/upgradeworkshops'
-    - title: 'Узнайте, как black & Veatch перешли на Teams за восемь недель'
+    - title: 'Узнайте, как black & Veatch transitioned to Teams за восемь недель'
       itemType: video
       url: 'https://play.vidyard.com/uc42D4WD4byc3sHTiKEEEk'
 productDirectory:
   title: Ресурсы для планирования успешного Teams и после него
-  summary: 'В здоровой технической среде, стабильном внедрении пользователей и реализации бизнес-целей все начинается с правильного планирования.'
+  summary: 'Правильная техническая среда, стабильное внедрение пользователей и реализация бизнес-целей начинаются с правильного планирования.'
   items:
     - title: Teams обновлений
       imageSrc: 'https://docs.microsoft.com/office/media/icons/users-people.svg'
@@ -45,24 +45,24 @@ productDirectory:
         - url: 'https://customers.microsoft.com/story/799203-ikea-retailers-teams'
           text: МНА — Skype для бизнеса Server Teams
         - url: 'https://customers.microsoft.com/story/782385-williams-energy-teams'
-          text: Из Skype для бизнеса Server Teams
+          text: Куа Skype для бизнеса Server Teams
         - url: 'https://customers.microsoft.com/story/765513-trek-retailers-teams'
-          text: 'Так, Skype для бизнеса в Интернете Teams'
+          text: 'Так, Skype для бизнеса Из Интернета в Teams'
         - url: 'https://customers.microsoft.com/story/765520-dentsu-aegis-network-media-entertainment-teams'
           text: Сеть Den дениз Aegis — Skype для бизнеса Online для Teams
         - url: 'https://customers.microsoft.com/story/764851-berkshire-healthcare-nhs-foundation-trust-health-provider-teams'
           text: Berkcare Healthcare — Skype для бизнеса Online для Teams
     - title: 'Ignite Session: проектирование пути к Teams'
       imageSrc: 'https://docs.microsoft.com/office/media/icons/walkthrough-map-teams.svg'
-      summary: 'Этот сеанс в Ignite 2020 поможет вам найти подход, наиболее подходящий Skype для бизнеса реализации и целям.'
+      summary: 'Этот сеанс в Ignite 2020 поможет вам найти подход, который больше всего подходит Skype для бизнеса реализации и целям.'
       url: 'https://go.microsoft.com/fwlink/?linkid=2154668'
     - title: Пакет успешного обновления
       imageSrc: 'https://docs.microsoft.com/office/media/icons/success-teams.svg'
-      summary: 'Скачайте материалы о готовности пользователей, включая шаблоны обращений, опросы пользователей, образцы планов проектов и пилотных тестов.'
+      summary: 'Скачайте материалы о готовности пользователей, включая шаблоны обращений, опросы пользователей, образцы планов тестирования проекта и пилотного тестирования.'
       url: 'https://aka.ms/UpgradeSuccessKit'
     - title: Teams документации администратора
       imageSrc: 'https://docs.microsoft.com/office/media/icons/document-teams.svg'
-      summary: 'Узнайте, как совметив и управляйте Teams и подготовьте пользователей к новым взаимодействиям и совместной работе.'
+      summary: 'Узнайте, как совметив и управляйте Teams, а также подготовьте пользователей к новым взаимодействиям и совместной работе.'
       url: ./index.yml
     - title: Обучение с инструктором Teams
       imageSrc: 'https://docs.microsoft.com/office/media/icons/presenter-with-podium.svg'
@@ -70,7 +70,7 @@ productDirectory:
       url: ./instructor-led-training-teams-landing-page.yml
     - title: Разорите Teams сценариев
       imageSrc: 'https://docs.microsoft.com/office/media/icons/best-practices-teams.svg'
-      summary: 'Наши интерактивные Teams, которые помогут ИТ-Teams.'
+      summary: 'Наши Teams на интерактивном совещании по мелку, чтобы помочь ИТ-Teams.'
       url: ./chalk-talks-landing-page.yml
     - title: Прекращение поддержки Skype для бизнеса Online
       imageSrc: 'https://docs.microsoft.com/office/media/icons/migration-teams.svg'
@@ -78,7 +78,7 @@ productDirectory:
       url: ./skype-for-business-online-retirement.md
     - title: Microsoft Teams блога
       imageSrc: 'https://docs.microsoft.com/office/media/icons/blog-site-teams.svg'
-      summary: 'Изучите методики, новости и тенденции непосредственно от команды, Microsoft Teams.'
+      summary: 'Изучите методики, новости и тенденции непосредственно от группы, Microsoft Teams.'
       url: 'https://techcommunity.microsoft.com/t5/microsoft-teams-blog/bg-p/MicrosoftTeamsBlog'
     - title: Общее влияние на Teams
       imageSrc: 'https://docs.microsoft.com/office/media/icons/trend-graph-teams.svg'
@@ -94,6 +94,6 @@ additionalContent:
         - title: Поиск партнера Майкрософт
           summary: Нужны дополнительные рекомендации? Поставщики решений Майкрософт могут помочь вам управлять технической и логистикой при обновлении.
           url: 'https://www.microsoft.com/solution-providers/home'
-        - title: Microsoft Teams и цены
+        - title: Microsoft Teams планы и цены
           summary: Найдите правильные Microsoft Teams для своей компании.
           url: 'https://www.microsoft.com/en-us/microsoft-teams/compare-microsoft-teams-options'

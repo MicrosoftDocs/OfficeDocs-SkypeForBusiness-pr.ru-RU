@@ -79,7 +79,7 @@ ms.locfileid: "52469681"
 > - HP Elite Slice G2 с ms MTR
 > - Блицы UC-Engine (версия или дата БИОРЕС содержит "ХИМСКЛИ" — указывает на бискетный каньон БИО). 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 
 [Справка по приложению "Комнаты Microsoft Teams"](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 

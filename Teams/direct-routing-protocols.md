@@ -47,15 +47,15 @@ ms.locfileid: "52569207"
 
 Следующие стандарты применимы к устройствам, которые поддерживают только режим обхода мультимедиа:
 
-- [SIP RFC 3261:](https://tools.ietf.org/html/rfc3261)протокол session initiation Protocol
-- [RFC 3325](https://www.ietf.org/rfc/rfc3325). Частное расширение протокола инициирования сеанса для утверждения удостоверений в доверенных сетях— разделы об обработке заглавного заглавного раздела P-Изячего-удостоверения. Прямая маршрутная маршрутия отправляет P-Изядле-identity с заглавными идентификаторами конфиденциальности. 
+- [SIP RFC 3261:](https://tools.ietf.org/html/rfc3261)протокол session Initiation Protocol
+- [RFC 3325](https://www.ietf.org/rfc/rfc3325). Частное расширение протокола инициирования сеанса для утверждения удостоверений в доверенных сетях— разделы об обработке заглавных заглавных личных данных С. Прямая маршрутная маршрутия отправляет P-Изядле-удостоверение с заглавными идентификаторами конфиденциальности. 
 - [RFC 4244](https://www.ietf.org/rfc/rfc4244.txt) Расширение протокола SIP для необходимых сведений об истории. Дополнительные сведения см. в описании протокола SIP.
 - [RFC 3892](https://www.ietf.org/rfc/rfc3892.txt) Механизм управления протоколом Referred-By сеанса
 - [RFC 3891](https://www.ietf.org/rfc/rfc3891.txt) Заглавный заглавный протокол SIP заменяет 
 - [RFC 6337](https://tools.ietf.org/html/rfc6337) Использование модели предложений и ответов протоколом SIP.
   См. раздел "Отклонения от RFC".
 - [RFC 3711](https://tools.ietf.org/html/rfc3711) и [RFC 4771](https://tools.ietf.org/html/rfc4771). Защитите трафик RTP с помощью SRTP. SBC должен иметь возможность устанавливать ключи с помощью SDES. 
-- [RFC 8035](https://www.ietf.org/rfc/rfc8035.txt) Уточнения предложений и ответов по протоколу SDP для многократного сеанса RTP/RTCP
+- [RFC 8035](https://www.ietf.org/rfc/rfc8035.txt) Уточнения предложений и ответов по протоколу SDP для мультиплексинга RTP/RTCP
 
 ### <a name="standards-applicable-to-devices-that-support-media-bypass-mode"></a>Стандарты, применимые к устройствам, поддерживаюным режим обхода мультимедиа
 
@@ -63,9 +63,9 @@ ms.locfileid: "52569207"
 
 - [RFC 5245 Interactive Connectivity Connectivity Уайлдент (ICE) для обхода мультимедиа](https://tools.ietf.org/html/rfc5245).  SBC должен поддерживать следующие следующую поддержку:
   - ICE Lite — клиенты Teams являются полными клиентами ICE
-  - [Ice Restarts](https://tools.ietf.org/html/rfc5245#section-9.1.1.1). Дополнительные статью об использовании допусков ICE с использованием досье и примеры см. в статьи Перезапуск ICE: звонок об обходе мультимедиа перенаправляется на конечную точку, которая не поддерживает обход мультимедиа   
+  - [Ice Restarts](https://tools.ietf.org/html/rfc5245#section-9.1.1.1). Дополнительные статью о перезапусках ICE: использование досье и примеры в ice Restart: обход мультимедиа, перенесенный на конечную точку, которая не поддерживает обход мультимедиа   
 - [RFC RFC 5589 Session Initiation Protocol (SIP) Call Control – Transfer](https://tools.ietf.org/html/rfc5589). 
-- [RFC 3960 Early Media and Ringing Tone Generation в SIP](https://tools.ietf.org/html/rfc3960), см. разделы 3.1, Forking и 3.2, "Генерация сигнала звонка" 
+- [RFC 3960 Early Media and Ringing Tone Generation in the Session Initiation Protocol (SIP)](https://tools.ietf.org/html/rfc3960), см. разделы 3.1, Forking и 3.2, "Генерация сигнала звонка" 
 - [RFC 5389 Session Traversal Utilities for NAT (STUN)](https://tools.ietf.org/html/rfc5389)
 - [RFC 5766 Traversal Using Relays around NAT (TURN): Relay Extensions to Session Traversal Utilities for NAT (STUN)](https://tools.ietf.org/html/rfc5766)
 
@@ -88,7 +88,7 @@ ms.locfileid: "52569207"
 
 - **Без обхода мультимедиа,** при котором весь трафик RTP Teams клиент, процессоры мультимедиа и SBC.  
 
-- **При обходе** мультимедиа все потоки RTP-Teams между конечными точками и SBC. 
+- **С обходом мультимедиа,** при котором все потоки мультимедиа RTP Teams конечными точками и SBC. 
 
 Обратите внимание, что трафик SIP всегда проходит через прокси-сервер SIP. 
 

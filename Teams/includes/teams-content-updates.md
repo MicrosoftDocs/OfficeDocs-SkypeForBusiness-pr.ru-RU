@@ -44,7 +44,7 @@
 | 5/13/2021 | [Session Border Controllers certified for Direct Routing](/MicrosoftTeams/direct-routing-border-controllers) | Изменено |
 | 5/13/2021 | [Настройка контроллера границы сеанса — несколько клиентов](/MicrosoftTeams/direct-routing-sbc-multiple-tenants) | Изменено |
 | 5/13/2021 | [Возможности телефонной системы](/MicrosoftTeams/here-s-what-you-get-with-phone-system) | Изменено |
-| 5/14/2021 | [Справочник по автоотводу и очереди вызовов и ссылке на распознавание речи](/MicrosoftTeams/dial-voice-reference) | Изменено |
+| 5/14/2021 | [Справочник по автоотзывам и очереди вызовов и распознаванию речи](/MicrosoftTeams/dial-voice-reference) | Изменено |
 | 5/14/2021 | [Возможности телефонной системы](/MicrosoftTeams/here-s-what-you-get-with-phone-system) | Изменено |
 | 5/14/2021 | [Microsoft Teams надстройки](/MicrosoftTeams/teams-add-on-licensing/microsoft-teams-add-on-licensing) | Изменено |
 | 5/14/2021 | [Microsoft Teams Заметки о выпуске PowerShell](/MicrosoftTeams/teams-powershell-release-notes) | Изменено |
@@ -120,10 +120,10 @@
 | 5/7/2021 | [Выберите путь обновления от Skype для бизнеса до Microsoft Teams](/MicrosoftTeams/upgrade-and-coexistence-of-skypeforbusiness-and-teams) | Изменено |
 | 5/7/2021 | [Определение области проекта для Skype для бизнеса обновления Microsoft Teams проекта](/MicrosoftTeams/upgrade-define-project-scope) | Изменено |
 | 5/7/2021 | [Указание заинтересованных лиц \| Планирование перехода со Skype для бизнеса на Teams](/MicrosoftTeams/upgrade-enlist-stakeholders) | Изменено |
-| 5/7/2021 | [Структура обновления — Skype для бизнеса Teams](/MicrosoftTeams/upgrade-framework) | Изменено |
+| 5/7/2021 | [Об инфраструктуре обновления — Skype для бизнеса Teams](/MicrosoftTeams/upgrade-framework) | Изменено |
 | 5/7/2021 | [Оценка готовности организации к изменению Skype для бизнеса Teams обновления](/MicrosoftTeams/upgrade-org-change-readiness) | Изменено |
 | 5/7/2021 | [Оценка среды перед обновлением до Teams](/MicrosoftTeams/upgrade-plan-journey-evaluate-environment) | Изменено |
-| 5/7/2021 | [Необходимые условия и зависимости от среды для перехода на Teams](/MicrosoftTeams/upgrade-plan-journey-prerequisites) | Изменено |
+| 5/7/2021 | [Необходимые условия и зависимости от среды для обновления до Teams](/MicrosoftTeams/upgrade-plan-journey-prerequisites) | Изменено |
 | 5/7/2021 | [Планирование обновления Skype для бизнеса Microsoft Teams обновления](/MicrosoftTeams/upgrade-plan-journey) | Изменено |
 | 5/7/2021 | [Подготовка ИТ-специалистов к Microsoft Teams](/MicrosoftTeams/upgrade-prepare-it-pros) | Изменено |
 | 5/7/2021 | [Подготовка службы к обновлению Microsoft Teams](/MicrosoftTeams/upgrade-prepare-environment-prepare-service) | Изменено |
@@ -205,7 +205,7 @@
 | 4/22/2021 | [Контроллеры границ сеанса, сертифицированные для прямой маршрутии](/MicrosoftTeams/direct-routing-border-controllers) | Изменено |
 | 4/22/2021 | [Служба Microsoft StaffHub была отменена](/MicrosoftTeams/expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired) | Изменено |
 | 4/22/2021 | [Установка интеграции Moodle с Microsoft Teams](/MicrosoftTeams/install-moodle-integration) | Изменено |
-| 4/22/2021 | [Настройка модерации канала и управление им](/MicrosoftTeams/manage-channel-moderation-in-teams) | Изменено |
+| 4/22/2021 | [Настройка модерирования канала и управление им](/MicrosoftTeams/manage-channel-moderation-in-teams) | Изменено |
 | 4/22/2021 | [Взаимодействие SharePoint Online и OneDrive для бизнеса с Microsoft Teams](/MicrosoftTeams/sharepoint-onedrive-interact) | Изменено |
 | 4/22/2021 | [Teams Центр контактов](/MicrosoftTeams/teams-contact-center) | Изменено |
 | 4/22/2021 | [Использование OneDrive для бизнеса и SharePoint для записей собраний](/MicrosoftTeams/tmr-meeting-recording-change) | Изменено |

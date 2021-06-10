@@ -1,5 +1,5 @@
 ---
-title: Настройка гибридной организации Exchange
+title: Настройка гибридной Exchange организации
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -28,4 +28,4 @@ ms.locfileid: "51094611"
 <a name="configure-an-exchange-hybrid-organization-for-use-with-microsoft-teams"></a>Настройка гибридной организации для работы с Microsoft Teams
 ======================================================================
 
-В общем случае настраивать какие-либо функции Exchange Online для работы с Microsoft Teams не требуется. Однако в гибридной среде Exchange нужно принять определенные меры, чтобы синхронизировать членства в группах между Exchange Server (в локальной среде) и Exchange Online. Это включает функцию записи групп в Azure AD Connect, а также различные сценарии инициализации: настройка групп [Microsoft 365](/exchange/hybrid-deployment/set-up-microsoft-365-groups)с использованием локального гибридного решения Exchange.
+В общем случае настраивать какие-либо функции Exchange Online для работы с Microsoft Teams не требуется. Однако в гибридной среде Exchange нужно принять определенные меры, чтобы синхронизировать членства в группах между Exchange Server (в локальной среде) и Exchange Online. Эта функция включает функции записи группы в Azure AD Подключение а также различные сценарии инициализации: Настройка [групп](/exchange/hybrid-deployment/set-up-microsoft-365-groups)Microsoft 365 с помощью локального гибридного Exchange .
