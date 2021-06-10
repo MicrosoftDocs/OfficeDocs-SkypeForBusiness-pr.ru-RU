@@ -1,5 +1,5 @@
 ---
-title: Обновления содержимого Microsoft Teams
+title: Microsoft Teams обновления контента
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.date: 05/16/2019
 ms.reviewer: LolaJ
-description: Эта тема — это список разделов справки по Microsoft Teams, которые были недавно обновлены, в том числе ссылки на обновленные разделы.
+description: В этой теме Microsoft Teams разделы справки, которые были недавно обновлены, в том числе ссылки на обновленные разделы.
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -25,8 +25,8 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 08/06/2020
 ms.locfileid: "46583808"
 ---
-# <a name="microsoft-teams-content-updates"></a>Обновления содержимого Microsoft Teams
+# <a name="microsoft-teams-content-updates"></a>Microsoft Teams обновления контента
 
-В этой теме перечислены недавно измененные разделы Microsoft Teams.
+В этой Microsoft Teams перечислены темы, которые были недавно изменены.
 
 > [!INCLUDE [teams-content-updates](includes/teams-content-updates.md)]

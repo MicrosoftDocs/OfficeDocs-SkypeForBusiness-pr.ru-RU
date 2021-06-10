@@ -58,7 +58,7 @@ ms.locfileid: "52684586"
 
 1. Чтобы открыть определенные шаблоны, перейдите к таблице **Скрытые шаблоны.**
 
-2. Выберите шаблоны, которые нужно отобрать, и выберите **показать**.
+2. Выберите шаблоны, которые нужно отобрать, а затем выберите **Показать**.
 
    ![Не скрытые выбранные шаблоны](media/template-policies-3.png)
 
@@ -90,7 +90,7 @@ ms.locfileid: "52684586"
 
 **Вопрос. Можно ли пакетно назначить пользователей политикам шаблонов команд?**
   
-Ответ. Да, мы поддерживаем пакетные назначения для политики шаблонов в PowerShell. Для этого действия тип политики — TeamsTemplatePermissionPolicy. [Подробнее](/powershell/module/teams/new-csbatchpolicyassignmentoperation)
+Ответ. Да, мы поддерживаем пакетные назначения для политики шаблонов в PowerShell. Тип политики для этого действия — TeamsTemplatePermissionPolicy. [Подробнее](/powershell/module/teams/new-csbatchpolicyassignmentoperation)
 
 **Вопрос. Могут ли группы быть назначены политикам шаблонов групп?**
 
@@ -142,6 +142,6 @@ ms.locfileid: "52684586"
 
 - [Создание шаблона команды из существующего шаблона группы](./create-template-from-existing-template.md)
 
-- [Назначение политик пользователям в Microsoft Teams - Microsoft Teams \| Microsoft Docs](./assign-policies.md)
+- [Назначение политик пользователям в Microsoft Teams - Microsoft Teams \| Документы Майкрософт](./assign-policies.md)
 
 - [Пакетное назначение пользователей политике](/powershell/module/teams/new-csbatchpolicyassignmentoperation)

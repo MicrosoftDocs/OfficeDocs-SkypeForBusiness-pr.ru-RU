@@ -1,5 +1,5 @@
 ---
-title: Метки отказов в экстренных вызовах
+title: Подписи об отказе от ответственности для экстренных вызовов
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -20,7 +20,7 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
-description: Вы можете скачать и распечатать эти наклейки для вызова экстренной помощи при использовании планов звонков в Microsoft 365 или Office 365.
+description: Вы можете скачать и распечатать эти наклейки для экстренных вызовов при использовании планов звонков Microsoft 365 или Office 365.
 ms.openlocfilehash: 30286acb1d1b91f52287d50eab7a72d7efe94915
 ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
@@ -30,9 +30,9 @@ ms.locfileid: "44691465"
 ---
 # <a name="emergency-calling-labels"></a>Метки экстренных вызовов
 
-Это наклейки с заявлением об отказе от ответственности (911) для использования с наклейками адреса Avery 5160 (1" x 2 5/8) или наклеек других типов.
+Это наклейки с заявлением об отказе в экстренных службах (911) или наклейки для использования с адресными наклейками Avery 5160 (1" x 2 5/8) или могут быть размером, если вы хотите использовать другие типы наклеек.
 
-[Щелкните, чтобы скачать ZIP-файл с](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)наклейками для экстренных вызовов (en-us).
+[Щелкните, чтобы скачать .zip для меток экстренных вызовов .](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
 ## <a name="related-topics"></a>См. также:
 

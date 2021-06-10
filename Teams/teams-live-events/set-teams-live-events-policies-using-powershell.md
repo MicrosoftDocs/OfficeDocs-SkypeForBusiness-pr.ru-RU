@@ -14,7 +14,7 @@ f1.keywords:
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
-description: Примеры использования PowerShell для применения политик в Teams для управления возможностью проведения трансляций в организации и доступными для них функциями.
+description: Примеры использования PowerShell для применения политик в Teams для контроля над тем, кто может проводить трансляции в организации, и возможностями, доступными для них.
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
@@ -27,7 +27,7 @@ ms.locfileid: "51119148"
 ---
 # <a name="use-powershell-to-set-live-events-policies-in-microsoft-teams"></a>Настройка политик трансляции Microsoft Teams с помощью PowerShell
 
-Для настройки и назначения параметров политики для трансляций в Teams можно использовать следующие Windows PowerShell командлеты: 
+Для настройки и назначения параметров политики для трансляций в Teams можно использовать следующие Windows PowerShell: 
 - [Get-CsTeamsMeetingBroadcastPolicy](/powershell/module/skype/get-csteamsmeetingbroadcastpolicy?view=skype-ps)
 - [Set-CsTeamsMeetingBroadcastPolicy](/powershell/module/skype/set-csteamsmeetingbroadcastpolicy?view=skype-ps)
 - [New-CsTeamsMeetingBroadcastPolicy](/powershell/module/skype/new-csteamsmeetingbroadcastpolicy?view=skype-ps)
@@ -37,12 +37,12 @@ ms.locfileid: "51119148"
 Вот несколько примеров.
 
 > [!NOTE]
-> Перед запуском этих cmdlets необходимо подключение к Skype для бизнеса Online PowerShell. Дополнительные сведения см. в управлении [Skype для бизнеса Online с помощью Microsoft 365 или Office 365 PowerShell.](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)
+> Перед запуском этих cmdlets необходимо подключение к Skype для бизнеса Online PowerShell. Дополнительные сведения см. в Skype для бизнеса Online с [помощью Microsoft 365 или Office 365 PowerShell.](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)
 
 ## <a name="allow-users-to-schedule-live-events"></a>Разрешить пользователям планировать трансляции 
 
 > [!NOTE]
-> Эти примеры можно привести для событий, произведенных в Teams. Для событий, произведенных с внешним приложением или устройством, необходимо сделать дополнительные действия. Дополнительные сведения см. в том, как включить пользователей в расписание событий, которые были произведены с помощью [внешнего приложения или устройства.](set-up-for-teams-live-events.md#enable-users-to-schedule-events-that-were-produced-with-an-external-app-or-device)
+> Эти примеры можно привести для событий, которые были произведены в Teams. Для событий, произведенных с помощью внешнего приложения или устройства, необходимо сделать дополнительные действия. Дополнительные сведения см. в статьи Возможность пользователям планировать события, которые были произведены с помощью [внешнего приложения или устройства.](set-up-for-teams-live-events.md#enable-users-to-schedule-events-that-were-produced-with-an-external-app-or-device)
 
 **Разрешить пользователю планировать трансляции**
 
@@ -50,7 +50,7 @@ ms.locfileid: "51119148"
 ```PowerShell
 Get-CsTeamsMeetingBroadcastPolicy -identity Global
 ```
-Затем назначьте пользователя глобальной политике и запустите 3
+Затем назначьте пользователя глобальной политике и запустите:
 ```PowerShell
 Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
 ```
@@ -58,37 +58,37 @@ Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
 ### <a name="user-scenarios"></a>Сценарии для пользователей
 **Вы хотите, чтобы все пользователи в организации могли планировать трансляции**
 
-Если пользователям назначена глобальная политика, запустите и убедитесь, что для *allowBroadcastScheduling* *установлено *true:*
+Если пользователям назначена глобальная политика, запустите и убедитесь, что *для allowBroadcastScheduling* *установлено *true:*
 ```PowerShell
 Get-CsTeamsMeetingBroadcastPolicy -identity Global
 ```
-Если пользователям назначена политика, которая не является глобальной, запустите и проверьте, установлено ли для этого правила *-AllowBroadcastScheduling (Планирование AllowBroadcast)* *true:*
+Если пользователям назначена политика, которая не является глобальной, запустите и убедитесь, что для *-AllowBroadcastScheduling* за установлено *true:*
 ```PowerShell
 Get-CsTeamsMeetingBroadcastPolicy -identity {policy name}
 ```
-**Вы хотите отключить возможность планирования трансляций в организации**
+**Вы хотите отключить планирование трансляций в организации**
 
 Отключите планирование трансляций, запустите:
 ```PowerShell
 Set-CsTeamsMeetingBroadcastPolicy -identity Global -AllowBroadcastScheduling $false
 ```
-Назначьте глобальной политике всех пользователей в организации, запустите 4
+Назначьте глобальной политике всех пользователей в организации и запустите:
 ```PowerShell
 Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
 ```
 
-**Вы хотите, чтобы большое количество пользователей могли планировать трансляции и не допустить их планирование для набора пользователей**
+**Вы хотите, чтобы большое количество пользователей могли планировать трансляции и запретить им планировать их**
 
-Запустите и убедитесь, что *для allowBroadcastScheduling* установлено *true:*
+Запустите и убедитесь, что *для allowBroadcastScheduling* за установлено *true:*
 ```PowerShell
 Get-CsTeamsMeetingBroadcastPolicy -Identity Global
 ```
-Затем назначьте пользователя или пользователей глобальной политике и запустите 3
+Затем назначьте пользователя или пользователей глобальной политике, запустите 2016.
 ```PowerShell
 Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
 ```
 
-Создайте политику, которая не позволяет запланировать трансляции, запустите 4
+Создайте политику, которая не позволяет запланировать трансляции, запустите:
 ```PowerShell
 New-CSTeamsMeetingBroadcastPolicy -Identity DisabledBroadcastSchedulingPolicy
 ```
@@ -96,17 +96,17 @@ New-CSTeamsMeetingBroadcastPolicy -Identity DisabledBroadcastSchedulingPolicy
 ```PowerShell
 Set-CsTeamsMeetingBroadcastPolicy -Identity DisabledBroadcastSchedulingPolicy -AllowBroadcastScheduling $false
 ```
-Затем назначьте пользователей этой политике и запустите 3
+Затем назначьте пользователей этой политике, запустите:
 ```PowerShell
 Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName DisabledBroadcastSchedulingPolicy -Verbose
 ```
-**Вы хотите отключить планирование трансляций для большого количества пользователей и разрешить набору пользователей планировать их**
+**Вы хотите отключить планирование трансляций для большого количества пользователей и разрешить им планировать события.**
 
 Отключите планирование трансляций, запустите:
 ```PowerShell
 Set-CsTeamsMeetingBroadcastPolicy -identity Global -AllowBroadcastScheduling $false
 ```
-Затем назначьте этим пользователям глобальную политику и запустите 3
+Затем назначьте этих пользователей глобальной политике и запустите:
 ```PowerShell
 Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
 ```
@@ -118,33 +118,33 @@ New-CSTeamsMeetingBroadcastPolicy -identity EnableBroadcastSchedulingpolicy
 ```PowerShell
 Set-CsTeamsMeetingBroadcastPolicy -identity EnableBroadcastSchedulingpolicy -AllowBroadcastScheduling $true
 ```
-Затем назначьте пользователей этой политике и запустите 3
+Затем назначьте пользователей этой политике, запустите:
 ```PowerShell
 Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName EnableBroadcastSchedulingpolicy -Verbose
 ```
 ## <a name="set-who-can-join-live-events"></a>Настройка того, кто может присоединяться к трансляциям
  
-Установите глобальную политику, чтобы разрешить пользователям создавать события, в которых могут участвовать все пользователи, в том числе анонимные пользователи, и запускать:
+Установите глобальную политику, чтобы разрешить пользователям создавать события, которые могут посещать все пользователи, включая анонимных, а также запускать:
 ```PowerShell
 Set-CsTeamsMeetingBroadcastPolicy -Identity Global -BroadcastAttendeeVisibility Everyone  
 ```
 ## <a name="set-the-recording-option-for-live-events"></a>Настройка параметра записи для трансляций
 > [!NOTE]
-> Этот параметр применяется только к мероприятиям, проданной в Teams.
+> Этот параметр применяется только к событиям, которые были произведены Teams.
 
-Установите глобальную политику для отключения записи трансляций.
+Установите глобальную политику, чтобы отключить запись для трансляций:
 ```PowerShell
 Set-CsTeamsMeetingBroadcastPolicy -Identity Global -BroadcastRecordingMode AlwaysDisabled 
 ```
 ## <a name="set-live-captions-and-subtitles-in-live-events"></a>Настройка субтитров в трансляциях
 > [!NOTE]
-> Этот параметр применяется только к мероприятиям, проданной в Teams. 
+> Этот параметр применяется только к событиям, которые были произведены Teams. 
 
-Установите глобальную политику, чтобы включить живые субтитры (транскрипцию) для участников события:
+Установите глобальную политику, чтобы включить субтитры (транскрипцию) для участников мероприятия:
 ```PowerShell
 Set-CsTeamsMeetingBroadcastPolicy -Identity Global -AllowBroadcastTranscription $true 
 ```
 
 ### <a name="related-topics"></a>Статьи по теме
-- [Настройка прямых трансляций Teams](set-up-for-teams-live-events.md)
+- [Настройка прямых трансляций Teams](set-up-for-teams-live-events.md)
 - [Обзор PowerShell в Teams](../teams-powershell-overview.md)

@@ -1,5 +1,5 @@
 ---
-title: Доступность в Доминиканской области
+title: Доступность в Запа
 ms.author: v-cichur
 author: cichur
 manager: serdars
@@ -24,7 +24,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Вот службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Учетной записи Майкрософт.
+description: Ниже находятся Microsoft 365 и Office 365 службы Skype для бизнеса и Microsoft Teams, доступные для Компании.
 ms.openlocfilehash: 2eb93f5f33620d5c1102485bd447df4d044a0d90
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -32,15 +32,15 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51118188"
 ---
-# <a name="availability-in-dominica"></a>Доступность в Доминиканске
+# <a name="availability-in-dominica"></a>Доступность в Скайпа
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже 2010 г. доступны службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Учетной записи Майкрософт.
+Ниже находятся Microsoft 365 и Office 365 службы Skype для бизнеса и Microsoft Teams, доступные для Компании.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 
-|**Функция**|**Details**|
+|**Функция**|**Сведения**|
 |:-----|:-----|
 |Доступно ли приобретение аудиоконференций?  <br/> |Да, только с [поминутной оплатой](../audio-conferencing-pay-per-minute.md)  <br/> |
 |Номера телефонов автоматически назначаются для аудио конференций?  <br/> |Нет <br> |
@@ -49,7 +49,7 @@ ms.locfileid: "51118188"
    
 ## <a name="phone-system"></a>Телефонная система
 
-|**Функция**|**Details**|
+|**Функция**|**Сведения**|
 |:-----|:-----|
 |Доступно ли приобретение телефонной системы?  <br/> | Да <br/> |
 |Автосекретари <br/> | Доступно  <br/> |
@@ -58,7 +58,7 @@ ms.locfileid: "51118188"
    
 ## <a name="calling-plans"></a>Планы звонков
 
-|**Функция**|**Details**|
+|**Функция**|**Сведения**|
 |:-----|:-----|
 |Доступно ли приобретение планов звонков?  <br/> | Нет <br/> |
 |Доступные минуты для планов звонков  <br/> | Неприменимо<br/> |
@@ -68,7 +68,7 @@ ms.locfileid: "51118188"
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Платные и бесплатные номера служб
 
-|**Функция**|**Details**|
+|**Функция**|**Сведения**|
 |:-----|:-----|
 |Для каких столиц или крупных городов можно получить платные номера?  <br/> |Неприменимо  <br/> |
 |Доступны ли платные номера?  <br/> |Нет  <br/> |
@@ -78,7 +78,7 @@ ms.locfileid: "51118188"
   
 ## <a name="communications-credits"></a>Кредиты на связь
 
-|**Функция**|**Details**|
+|**Функция**|**Сведения**|
 |:-----|:-----|
 |Доступны ли кредиты на связь?  <br/> |Да  <br/> |
    

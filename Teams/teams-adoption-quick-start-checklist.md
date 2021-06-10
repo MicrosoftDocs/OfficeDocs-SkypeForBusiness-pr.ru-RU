@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: Используйте этот контрольный список для быстрого запуска, чтобы обеспечить успех по мере начала принятия Microsoft Teams в организации.
+description: Используйте этот контрольный список для быстрого начала работы, чтобы обеспечить успех по мере того, как ваша организация начнет Microsoft Teams.
 f1.keywords:
 - CSH
 ms.custom:
@@ -40,23 +40,23 @@ ms.locfileid: "49809319"
 
 - [Общие сведения о командах и каналах](teams-adoption-understand-teams-and-channels.md)
 - [Создание первых команд](teams-adoption-your-first-teams.md)
-- [Вы готовы к тому, чтобы принять участие в Teams?](teams-adoption-assess-readiness.md)
+- [Готовы к Teams?](teams-adoption-assess-readiness.md)
 - [Встреча с заинтересованными лицами](teams-adoption-assess-readiness.md#assess-your-stakeholders)
 - [Определение ранних пользователей](teams-adoption-assess-readiness.md#identify-early-adopters)
 
 ## <a name="phase-2---experiment"></a>Этап 2 — экспериментирование
 
 - [Создание программы лидеров](teams-adoption-create-champions-program.md)
-- [Краткое руководство по управлению](teams-adoption-governance-quick-start.md)
+- [Краткое руководство](teams-adoption-governance-quick-start.md)
 - [Определение сценариев использования](teams-adoption-define-usage-scenarios.md)
-- [Собеседования с заинтересованными лицами в бизнес-вопросах](teams-adoption-define-usage-scenarios.md#interview-business-stakeholders)
-- [Составление бизнес-сценариев и их приоритеты](teams-adoption-define-usage-scenarios.md#map-and-prioritize-business-scenarios)
+- [Собеседования с заинтересованными лицами в бизнесе](teams-adoption-define-usage-scenarios.md#interview-business-stakeholders)
+- [Составление и приоритет бизнес-сценариев](teams-adoption-define-usage-scenarios.md#map-and-prioritize-business-scenarios)
 - [Подключение ранних последователей и сбор отзывов](teams-adoption-onboard-early-adopters.md)
 - [Поддержка адаптации](teams-adoption-onboard-support.md)
 
 ## <a name="phase-3---scale"></a>Этап 3 — масштабирование
 
-- [Определение результатов и мер по успеху](teams-adoption-define-outcomes.md)
+- [Определение результатов и мер успешности](teams-adoption-define-outcomes.md)
 - [Выбор стратегии реализации службы](teams-adoption-define-outcomes.md#select-a-service-enablement-strategy)
 - [Вовлечение заинтересованных лиц](teams-adoption-define-outcomes.md#engage-stakeholders)
 - [Расширите свою команду по внедрению](teams-adoption-define-outcomes.md#expand-your-implementation-team)
