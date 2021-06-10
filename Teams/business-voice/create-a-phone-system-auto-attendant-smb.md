@@ -28,8 +28,8 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/24/2021
 ms.locfileid: "52628978"
 ---
-# <a name="set-up-an-auto-attendant---small-business-tutorial"></a><span data-ttu-id="01e94-103">Настройка автозавода — учебник по малому бизнесу</span><span class="sxs-lookup"><span data-stu-id="01e94-103">Set up an auto attendant - small business tutorial</span></span>
+# <a name="set-up-an-auto-attendant---small-business-tutorial"></a><span data-ttu-id="cfdf6-103">Настройка автозавода — учебник по малому бизнесу</span><span class="sxs-lookup"><span data-stu-id="cfdf6-103">Set up an auto attendant - small business tutorial</span></span>
 
-<span data-ttu-id="01e94-104">Автозаверяющие могут звонить в вашу организацию и переходить в систему меню, чтобы поговорить с нужным отделом, очередью вызовов, человеком или оператором.</span><span class="sxs-lookup"><span data-stu-id="01e94-104">Auto attendants let people call your organization and navigate a menu system to speak to the right department, call queue, person, or an operator.</span></span> <span data-ttu-id="01e94-105">В Центре администрирования Microsoft Teams администраторов организации.</span><span class="sxs-lookup"><span data-stu-id="01e94-105">You can create auto attendants for your organization with the Microsoft Teams admin center.</span></span>
+<span data-ttu-id="cfdf6-104">Автозаверяющие могут звонить в вашу организацию и переходить в систему меню, чтобы поговорить с нужным отделом, очередью вызовов, человеком или оператором.</span><span class="sxs-lookup"><span data-stu-id="cfdf6-104">Auto attendants let people call your organization and navigate a menu system to speak to the right department, call queue, person, or an operator.</span></span> <span data-ttu-id="cfdf6-105">В Центре администрирования Microsoft Teams администраторов организации.</span><span class="sxs-lookup"><span data-stu-id="cfdf6-105">You can create auto attendants for your organization with the Microsoft Teams admin center.</span></span>
 
 [!INCLUDE [business-voice-create-auto-attendant](../includes/business-voice-create-auto-attendant.md)]

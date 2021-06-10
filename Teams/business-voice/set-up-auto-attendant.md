@@ -24,13 +24,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/08/2021
 ms.locfileid: "52282446"
 ---
-# <a name="step-6-set-up-an-auto-attendant-for-your-companys-main-phone-number"></a><span data-ttu-id="90d44-103">Шаг 6. Настройка автозавода для основного номера телефона компании</span><span class="sxs-lookup"><span data-stu-id="90d44-103">Step 6: Set up an auto attendant for your company's main phone number</span></span>
+# <a name="step-6-set-up-an-auto-attendant-for-your-companys-main-phone-number"></a><span data-ttu-id="bb4f6-103">Шаг 6. Настройка автозавода для основного номера телефона компании</span><span class="sxs-lookup"><span data-stu-id="bb4f6-103">Step 6: Set up an auto attendant for your company's main phone number</span></span>
 
-<span data-ttu-id="90d44-104">Автоотводчик позволяет настроить меню звонков, чтобы вызывающие звонки на основной номер могли выбрать один из вариантов.</span><span class="sxs-lookup"><span data-stu-id="90d44-104">An auto attendant lets you set up a call menu so that callers to your main phone number can choose from a list of options.</span></span> <span data-ttu-id="90d44-105">Например, можно подключиться к отделу продаж или поддержки, конкретному лицу, кнопщику и даже к другому автоотводу.</span><span class="sxs-lookup"><span data-stu-id="90d44-105">For example, you could have options to connect to a sales or support department, specific individual, the switchboard, and even another auto attendant.</span></span>
+<span data-ttu-id="bb4f6-104">Автозаверяющий может настроить меню звонка, чтобы вызывающие звонки на основной номер могли выбрать один из вариантов.</span><span class="sxs-lookup"><span data-stu-id="bb4f6-104">An auto attendant lets you set up a call menu so that callers to your main phone number can choose from a list of options.</span></span> <span data-ttu-id="bb4f6-105">Например, можно подключиться к отделу продаж или технической поддержки, конкретному лицу, кнопщику и даже к другому автоотводу.</span><span class="sxs-lookup"><span data-stu-id="bb4f6-105">For example, you could have options to connect to a sales or support department, specific individual, the switchboard, and even another auto attendant.</span></span>
 
 [!INCLUDE [business-voice-create-auto-attendant](../includes/business-voice-create-auto-attendant.md)]
 
-<span data-ttu-id="90d44-106">Когда вы настроили автоотвод, нажав следующую кнопку, чтобы перейти к следующей статье, пройдитесь по всем вкладкам выше.</span><span class="sxs-lookup"><span data-stu-id="90d44-106">When you've stepped through all the tabs above to set up your auto attendant, click on the following button to move to the next article.</span></span>
+<span data-ttu-id="bb4f6-106">Когда вы настроили автосборщик, настроив все вкладки выше, нажмите следующую кнопку, чтобы перейти к следующей статье.</span><span class="sxs-lookup"><span data-stu-id="bb4f6-106">When you've stepped through all the tabs above to set up your auto attendant, click on the following button to move to the next article.</span></span>
 
 > [!div class="nextstepaction"]
-> [<span data-ttu-id="90d44-107">Следующий шаг: Перенос номеров телефонов в business Voice</span><span class="sxs-lookup"><span data-stu-id="90d44-107">Next step: Port phone numbers to Business Voice</span></span>](port-phone-numbers.md)
+> [<span data-ttu-id="bb4f6-107">Следующий шаг: Перенос номеров телефонов в business Voice</span><span class="sxs-lookup"><span data-stu-id="bb4f6-107">Next step: Port phone numbers to Business Voice</span></span>](port-phone-numbers.md)
