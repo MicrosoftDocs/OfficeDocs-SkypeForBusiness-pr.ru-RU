@@ -24,7 +24,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Вот службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Японии.
+description: Ниже ются Microsoft 365 и Office 365 службы для Skype для бизнеса и Microsoft Teams для Японии.
 ms.openlocfilehash: 07163f6aa252bb0ec3e8976a8ed54bba914f4ae9
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -36,11 +36,11 @@ ms.locfileid: "51122313"
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Вот службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Японии.
+Ниже ются Microsoft 365 и Office 365 службы для Skype для бизнеса и Microsoft Teams для Японии.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 
-|**Функция**|**Details**|
+|**Функция**|**Сведения**|
 |:-----|:-----|
 |Доступно ли приобретение аудиоконференций?  <br/> |Да  <br/> |
 |Назначаются ли номера телефонов для аудиоконференций автоматически?  <br/> |Да, для:<br/><ul><li> Токио</ul> Если вам нужны выделенные номера телефонов, см. статью [Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](../getting-service-phone-numbers.md).  <br/> |
@@ -48,7 +48,7 @@ ms.locfileid: "51122313"
    
 ## <a name="phone-system"></a>Телефонная система
 
-|**Функция**|**Details**|
+|**Функция**|**Сведения**|
 |:-----|:-----|
 |Доступно ли приобретение телефонной системы?  <br/> |Да  <br/> |
 | Автосекретари <br/> |Доступно  <br/> |
@@ -57,22 +57,22 @@ ms.locfileid: "51122313"
    
 ## <a name="calling-plans"></a>Планы звонков
 > [!IMPORTANT]
-> Доступно только в softBank для клиентов на японском языке. Дополнительные сведения см. в [звонках SoftBank для Office 365).](https://aka.ms/SoftBankVoicePlan)
+> Доступно только через SoftBank для клиентов на японском языке. Дополнительные сведения см. в [этой](https://aka.ms/SoftBankVoicePlan)Office 365).
 
-|**Функция**|**Details**|
+|**Функция**|**Сведения**|
 |:-----|:-----|
-|Доступно ли приобретение планов звонков?  <br/> |Да, см. [softBank Calling для Office 365.](https://aka.ms/SoftBankVoicePlan)  <br/> |
+|Доступно ли приобретение планов звонков?  <br/> |Да, см. [softBank Calling for Office 365.](https://aka.ms/SoftBankVoicePlan)  <br/> |
 |Доступные минуты для планов звонков  <br/> |См. [softBank Calling для Office 365.](https://aka.ms/SoftBankVoicePlan) <br/> |
 |Кому можно делать исходящие звонки?  <br/> |См. [softBank Calling для Office 365.](https://aka.ms/SoftBankVoicePlan) <br/> |
 
 > [!IMPORTANT]
 > Чтобы удалить номера пользователей (абонентов) в Японии (предоставлено SoftBank), обратитесь непосредственно в SoftBank.
-> Чтобы обновить адрес для экстренного устранения проблем для номеров пользователей (абонентов) в Японии (предоставлен с помощью SoftBank), обратитесь непосредственно в SoftBank.
-> Дополнительные сведения см. в [службе "Вызовы SoftBank для Office 365".](https://aka.ms/SoftBankVoicePlan)
+> Чтобы обновить адрес для экстренного обращения для номеров пользователей (абонентов) в Японии (предоставлено SoftBank), обратитесь непосредственно к SoftBank.
+> Дополнительные сведения см. в [этой Office 365.](https://aka.ms/SoftBankVoicePlan)
 
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Платные и бесплатные номера служб
 
-|**Функция**|**Details**|
+|**Функция**|**Сведения**|
 |:-----|:-----|
 |Для каких столиц или крупных городов можно получить платные номера?  <br/> |Токио  <br/> |
 |Доступны ли платные номера?  <br/> |Да <br/> |
@@ -82,7 +82,7 @@ ms.locfileid: "51122313"
   
 ## <a name="communications-credits"></a>Кредиты на связь
 
-|**Функция**|**Details**|
+|**Функция**|**Сведения**|
 |:-----|:-----|
 |Доступны ли кредиты на связь?  <br/> |Да  <br/> |
    

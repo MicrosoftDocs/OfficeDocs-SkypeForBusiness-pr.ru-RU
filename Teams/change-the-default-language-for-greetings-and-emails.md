@@ -40,7 +40,7 @@ ms.locfileid: "52804526"
   - [Microsoft Teams поддерживаемых языков](languages-for-voicemail-greetings-and-messages.md)
   - [Skype для бизнеса поддерживаемых языков](/skypeforbusiness/what-is-phone-system-in-office-365/phone-system-voicemail/languages-for-voicemail-greetings-and-messages)
 
-- **Изменение языков для приветствий голосовой почты и сообщений голосовой почты отдельных пользователей.** Вы можете изменить предпочитаемый язык для пользователей, чтобы изменить язык приветствия голосовой почты и сообщений голосовой почты, отправленных Outlook почтовому ящику. Дополнительные сведения см. в этой Microsoft 365 или [Office 365.](/office365/troubleshoot/access-management/set-language-and-region)
+- **Изменение языков для приветствия голосовой почты и сообщений голосовой почты отдельных пользователей.** Вы можете изменить предпочитаемый язык для пользователей, чтобы изменить язык приветствия голосовой почты и сообщений голосовой почты, отправленных Outlook почтовому ящику. Дополнительные сведения см. в этой Microsoft 365 или [Office 365.](/office365/troubleshoot/access-management/set-language-and-region)
 
   > [!NOTE]
   > Пользователи могут изменить для себя язык приветствий с помощью своих параметров после входа. Дополнительные сведения см. в Microsoft 365 для [бизнеса.](https://support.office.com/article/change-your-display-language-and-time-zone-in-microsoft-365-for-business-6f238bff-5252-441e-b32b-655d5d85d15b?ui=en-US&rs=en-US&ad=US)

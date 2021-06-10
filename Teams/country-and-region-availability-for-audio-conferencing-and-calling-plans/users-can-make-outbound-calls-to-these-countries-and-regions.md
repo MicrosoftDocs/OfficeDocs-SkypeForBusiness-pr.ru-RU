@@ -1,5 +1,5 @@
 ---
-title: Исходящие звонки в эти страны или регионы
+title: Исходящие звонки в эти страны и регионы
 ms.author: crowe
 author: CarolynRowe
 manager: serdars

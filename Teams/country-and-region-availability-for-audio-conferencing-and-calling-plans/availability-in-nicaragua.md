@@ -1,5 +1,5 @@
 ---
-title: Доступность в Никарагуа
+title: Доступность в 100%2016
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -23,7 +23,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже 2010 г. доступны службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Никарагуа.
+description: Ниже ются Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для нее.
 ms.openlocfilehash: 4cea202f4a908040fd09ef9d259710ccd538ef17
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -31,15 +31,15 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51102415"
 ---
-# <a name="availability-in-nicaragua"></a>Доступность в Никарагуа
+# <a name="availability-in-nicaragua"></a>Доступность в 100%2016
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже 2010 г. доступны службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Никарагуа.
+Ниже ются Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для нее.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 
-|**Функция**|**Details**|
+|**Функция**|**Сведения**|
 |:-----|:-----|
 |Доступно ли приобретение аудиоконференций?  <br/> |Нет  <br/> |
 |Номера телефонов автоматически назначаются для аудио конференций?  <br/> |Нет <br/> |
@@ -47,7 +47,7 @@ ms.locfileid: "51102415"
    
 ## <a name="phone-system"></a>Телефонная система
 
-|**Функция**|**Details**|
+|**Функция**|**Сведения**|
 |:-----|:-----|
 |Доступно ли приобретение телефонной системы?  <br/> |Да  <br/> |
 |Автосекретари <br/> |Доступно  <br/> |
@@ -56,7 +56,7 @@ ms.locfileid: "51102415"
    
 ## <a name="calling-plans"></a>Планы звонков
 
-|**Функция**|**Details**|
+|**Функция**|**Сведения**|
 |:-----|:-----|
 |Доступно ли приобретение планов звонков?  <br/> |Нет  <br/> |
 |Доступные минуты для планов звонков  <br/> |Неприменимо  <br/> |
@@ -66,17 +66,17 @@ ms.locfileid: "51102415"
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Платные и бесплатные номера для служб
 
-|**Функция**|**Details**|
+|**Функция**|**Сведения**|
 |:-----|:-----|
 |Для каких столиц или крупных городов можно получить платные номера?   | Managua[(on request](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
-|Доступны ли платные номера?  <br/> |Да[(по запросу)](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) <br/> |
+|Доступны ли платные номера?  <br/> |Да[(по запросу](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
 |Доступны ли бесплатные номера?  <br/> |Нет  <br/> |
    
- Если вы хотите получить платные и бесплатные номера телефонов для аудиоконференций, автоотетарей и очередей звонков, см. получение номеров телефонов служб для Skype для бизнеса и [Microsoft Teams.](../getting-service-phone-numbers.md)
+ Если вы хотите получить платные и бесплатные номера телефонов для аудиоконференций, автослужб и очередей звонков, см. получение номеров телефонов служб для Skype для бизнеса и [Microsoft Teams.](../getting-service-phone-numbers.md)
   
 ## <a name="communications-credits"></a>Кредиты на связь
 
-|**Функция**|**Details**|
+|**Функция**|**Сведения**|
 |:-----|:-----|
 |Доступны ли кредиты на связь?  <br/> |Нет  <br/> |
    

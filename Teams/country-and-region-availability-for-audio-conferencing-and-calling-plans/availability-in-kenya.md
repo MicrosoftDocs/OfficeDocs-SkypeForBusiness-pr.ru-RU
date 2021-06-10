@@ -24,7 +24,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Вот службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Кения.
+description: Ниже ются Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams Кения.
 ms.openlocfilehash: ef439f1808e99d83dbe0cc3b08c6484c8baa79e6
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -36,11 +36,11 @@ ms.locfileid: "51101385"
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Вот службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Кения.
+Ниже ются Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams Кения.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 
-|**Функция**|**Details**|
+|**Функция**|**Сведения**|
 |:-----|:-----|
 |Доступно ли приобретение аудиоконференций?  <br/> |Да  <br/> |
 |Назначаются ли номера телефонов для аудиоконференций автоматически?  <br/> |Нет  <br/> |
@@ -48,7 +48,7 @@ ms.locfileid: "51101385"
    
 ## <a name="phone-system"></a>Телефонная система
 
-|**Функция**|**Details**|
+|**Функция**|**Сведения**|
 |:-----|:-----|
 |Доступно ли приобретение телефонной системы?  <br/> |Да  <br/> |
 | Автосекретари <br/> |Доступно  <br/> |
@@ -57,7 +57,7 @@ ms.locfileid: "51101385"
    
 ## <a name="calling-plans"></a>Планы звонков
 
-|**Функция**|**Details**|
+|**Функция**|**Сведения**|
 |:-----|:-----|
 |Доступно ли приобретение планов звонков?  <br/> |Нет  <br/> |
 |Доступные минуты для планов звонков  <br/> |Неприменимо  <br/> |
@@ -67,17 +67,17 @@ ms.locfileid: "51101385"
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Платные и бесплатные номера служб
 
-|**Функция**|**Details**|
+|**Функция**|**Сведения**|
 |:-----|:-----|
-|Для каких столиц или крупных городов можно получить платные номера?  <br/> |Na ветвь[(по запросу)](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)  <br/> |
-|Доступны ли платные номера?  <br/> |Да[(по запросу)](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) <br/> |
+|Для каких столиц или крупных городов можно получить платные номера?  <br/> |Na висячий[(по запросу](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md))  <br/> |
+|Доступны ли платные номера?  <br/> |Да[(по запросу](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
 |Доступны ли бесплатные номера?  <br/> |Да  <br/> |
    
  Если вы хотите получить платные и бесплатные номера телефонов для аудиоконференций, автосекретарей и очередей звонков, см. статью [Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](../getting-service-phone-numbers.md).
   
 ## <a name="communications-credits"></a>Кредиты на связь
 
-|**Функция**|**Details**|
+|**Функция**|**Сведения**|
 |:-----|:-----|
 |Доступны ли кредиты на связь?  <br/> |Да  <br/> |
    

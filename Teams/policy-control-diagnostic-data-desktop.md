@@ -16,16 +16,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dbac20caa3f1eff0ead7ef0bf7f11d55b7718903
-ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
+ms.openlocfilehash: c255fd02342eb6db1878608ad2da09683d7a83ec
+ms.sourcegitcommit: 2591c96d8613660220c5af71fc945e27b31175d7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/19/2020
-ms.locfileid: "48136117"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52863230"
 ---
 # <a name="required-desktop-diagnostic-data-for-microsoft-teams"></a>Необходимые диагностические данные рабочего стола для Microsoft Teams
 
 Следующая статья содержит список событий рабочего стола в Microsoft Teams, а также список свойств, которые собирает каждое событие.
+
+Дополнительные сведения о диагностических данных, в том числе об управлении диагностические данные, отправляемых в корпорацию Майкрософт, см. в статье [Диагностические данные, отправляемые из программы Teams в корпорацию Майкрософт](policy-control-overview.md#diagnostic-data-sent-from-the-teams-app-to-microsoft). Чтобы просмотреть диагностические данные, отправляемые в корпорацию Майкрософт, можно использовать [Просмотр диагностических данных](https://support.microsoft.com/topic/cf761ce9-d805-4c60-a339-4e07f3182855).
 
 ## <a name="events"></a>События
 
@@ -54,7 +56,7 @@ ms.locfileid: "48136117"
 - **localStorageService.ts:loggingService.getInstance** — Записывает возникновение ошибки, если важные загрузочные данные не загружаются надлежащим образом для запуска приложения.
 - **logProviders\pageDumpProvider.ts:loggingService.getInstance** — Записывает сведения об ошибке при аварийном сбое приложения.
 - **multiWindowManager.ts:this.logError** — Записывает возникновение ошибки, если важные загрузочные данные не загружаются надлежащим образом для запуска приложения.
-- **nativeElectronNotifications\osNotificationService.ts:this.loggingService.logError** - Это событие регистрирует возникновение ошибки "whenattempting" для запуска уведомления о сбое.
+- **nativeElectronNotifications\osNotificationService.ts:this.loggingService.logError** — Это событие регистрирует возникновение ошибки при запуске уведомления о сбое.
 - **OutlookMeetingAddinHelper.ts:loggingService.getInstance** — Записывает возникновение ошибки при попытке подключения к собранию с помощью надстройки для собрания в Outlook.
 - **recoveryManager.ts:loggingService.getInstance** — Записывает возникновение ошибки при откатах обновления.
 - **renderer\startPage\startPage.ts:this.logger.logError** — Записывает возникновение ошибки на начальной странице приложения.
@@ -157,7 +159,7 @@ ms.locfileid: "48136117"
 | clientVersion/appversion/AppInfo_Version/desktopBuildVersion | Версия приложения                               |
 | buildtime                                  | временная метка, созданная приложением в инженерных системах            |
 | osversion/DeviceInfo_OsVersion             | Версия ОС                                                         |
-| AppInfo_ProcessArchitecture                | Архитектура системы (32-разрядная / 64-разрядная)                                  |
+| AppInfo_ProcessArchitecture                | Архитектура системы (32-разрядная / 64-разрядная)                                  |
 | preferredLocales                           | языковой стандарт, который предпочитает пользователь                                      |
 | locale/AppInfo_Locale                      | Языковой стандарт приложения                                                         |
 | os/DeviceInfo_OsName                       | Название ОС                                                            |
@@ -397,6 +399,6 @@ ms.locfileid: "48136117"
 | TeamsRing                       | Круг текущего пользователя, выполнившего вход в клиент Teams                            |
 | TeamsVersion                    | Регистрация версии приложения Teams                                            |
 | TelemetrySetupCompletedTime     | Время завершения настройки телеметрии                                   |
-| UpnMismatch                     | Указывает на то, есть ли несоответствия имени участника-пользователя (UPN) между Outlook и группами                  |
+| UpnMismatch                     | Указывает на то, есть ли несоответствия имени участника-пользователя (UPN) между Outlook и Teams                  |
 | UserDomain                      | Домен пользователя                                                       |
 | ViewUpdatedTime                 | Время обновления представления                                           |

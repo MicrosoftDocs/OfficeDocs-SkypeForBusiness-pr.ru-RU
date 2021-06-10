@@ -25,7 +25,7 @@ ms.custom:
 - Phone System
 - Calling Plans for Business and Microsoft Teams available for Moldova."
 - seo-marvel-mar2020
-description: Узнайте, какие службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams доступны в Молдове.
+description: Узнайте, какие Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams доступны в области "Веха".
 ms.openlocfilehash: 477cfc33995d1a72e2407afdb0e5f8a9453056bd
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -37,11 +37,11 @@ ms.locfileid: "51102475"
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Вот службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Молдовы.
+Ниже ются Microsoft 365 и Office 365 службы Skype для бизнеса и Microsoft Teams для ветвей.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 
-|**Функция**|**Details**|
+|**Функция**|**Сведения**|
 |:-----|:-----|
 |Доступно ли приобретение аудиоконференций?  <br/> |Да, только с [поминутной оплатой](../audio-conferencing-pay-per-minute.md)  <br/> |
 |Номера телефонов автоматически назначаются для аудио конференций?  <br/> |Нет  <br/> |
@@ -49,7 +49,7 @@ ms.locfileid: "51102475"
    
 ## <a name="phone-system"></a>Телефонная система
 
-|**Функция**|**Details**|
+|**Функция**|**Сведения**|
 |:-----|:-----|
 |Доступно ли приобретение телефонной системы?  <br/> |Да  <br/> |
 | Автосекретари <br/> |Доступно  <br/> |
@@ -58,7 +58,7 @@ ms.locfileid: "51102475"
    
 ## <a name="calling-plans"></a>Планы звонков
 
-|**Функция**|**Details**|
+|**Функция**|**Сведения**|
 |:-----|:-----|
 |Доступно ли приобретение планов звонков?  <br/> |Нет  <br/> |
 |Доступные минуты для планов звонков  <br/> |Неприменимо  <br/> |
@@ -68,7 +68,7 @@ ms.locfileid: "51102475"
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Платные и бесплатные номера служб
 
-|**Функция**|**Details**|
+|**Функция**|**Сведения**|
 |:-----|:-----|
 |Для каких столиц или крупных городов можно получить платные номера?  <br/> |Неприменимо  <br/> |
 |Доступны ли платные номера?  <br/> |Нет  <br/> |
@@ -78,7 +78,7 @@ ms.locfileid: "51102475"
   
 ## <a name="communications-credits"></a>Кредиты на связь
 
-|**Функция**|**Details**|
+|**Функция**|**Сведения**|
 |:-----|:-----|
 |Доступны ли кредиты на связь?  <br/> |Да  <br/> |
    

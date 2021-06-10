@@ -21,7 +21,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
-description: Найдите язык для каждой страны или региона, а также присвоенный код языка и языка (en-US, da-DK, de-DE и т. д.)
+description: Найдите язык для каждой страны или региона и присвоенный код языка и языка (en-US, da-DK, de-DE и т. д.)
 ms.openlocfilehash: 9486996a2d951d8ba5ad4790fd2dc792f69f1b1d
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -31,7 +31,7 @@ ms.locfileid: "51098515"
 ---
 # <a name="audio-conferencing-supported-languages"></a>Поддерживаемые языки аудиоконференций
 
-При настройке и настройке аудиоконференций в Microsoft 365 или Office 365 вы можете выбрать основной и дополнительный языки (до 4), которые используются, когда звонят на собрание Skype для бизнеса или Microsoft Teams. Вот список поддерживаемых языков для аудиоконференции: 
+При настройке и настройке аудиоконференций в Microsoft 365 или Office 365 вы можете выбрать основной и дополнительный языки (до 4), которые используются, когда звоняющие звонят на Skype для бизнеса или Microsoft Teams собрание. Вот список поддерживаемых языков для аудиоконференций: 
   
 > [!IMPORTANT]
 > Основной и дополнительный языки можно изменить только для выделенных номеров аудиоконференций. 
@@ -42,11 +42,11 @@ ms.locfileid: "51098515"
 |:-----|:-----|:-----|
 |арабский  <br/> |Саудовская Аравия  <br/> |ar-SA  <br/> |
 |болгарский  <br/> |Болгария  <br/> |bg-BG  <br/> |
-|Кантонский  <br/> |Гонконг  <br/> |zh-HK  <br/> |
+|Кантонской  <br/> |Гонконг  <br/> |zh-HK  <br/> |
 |Китайский (упрощенное письмо)  <br/> |Китай  <br/> |zh-CN  <br/> |
 |Китайский (традиционное письмо)  <br/> |Тайвань  <br/> |zh-TW  <br/> |
 |хорватский  <br/> |Хорватия  <br/> |hr-HR  <br/> |
-|чешский  <br/> |Чехия  <br/> |cs-CZ  <br/> |
+|чешский  <br/> |Чехия  <br/> |cs-ОКП  <br/> |
 |Датский  <br/> |Дания  <br/> |da-DK  <br/> |
 |Нидерландский  <br/> |Нидерланды  <br/> |nl-NL  <br/> |
 |Английский  <br/> |Австралия  <br/> |en-AU  <br/> |
@@ -54,7 +54,7 @@ ms.locfileid: "51098515"
 |Английский  <br/> |США  <br/> |en-US  <br/> |
 |эстонский  <br/> |Эстония  <br/> |et-EE  <br/> |
 |филиппинский  <br/> |Филиппины  <br/> |fil-PH  <br/> |
-|Финский  <br/> |Финляндия  <br/> |fi-FL  <br/> |
+|Финский  <br/> |Финляндия  <br/> |Fi-FL  <br/> |
 |Французский  <br/> |Канада  <br/> |fr-CA  <br/> |
 |Французский  <br/> |Франция  <br/> |fr-FR  <br/> |
 |Немецкий  <br/> |Германия  <br/> |de-DE  <br/> |
@@ -81,25 +81,25 @@ ms.locfileid: "51098515"
 |Испанский  <br/> |Мексика  <br/> |es-MX  <br/> |
 |Испанский  <br/> |Испания  <br/> |es-ES  <br/> |
 |Шведский  <br/> |Швеция  <br/> |sv-SE  <br/> |
-|тайский  <br/> |Таиланд  <br/> |th-TH  <br/> |
+|тайский  <br/> |Таиланд  <br/> |ой-ой  <br/> |
 |турецкий  <br/> |Турция  <br/> |tr-TR  <br/> |
 |украинский  <br/> |Украина  <br/> |uk-UA  <br/> |
    
-Если вы ищете страны или регионы, в которых можно приобрести аудиоконференцию, см. статью "Страна и регион, где можно приобрести аудиоконференцию и планы [звонков".](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+Если вы ищете страны или регионы, в которых можно приобрести аудиоконференцию, см. статью Доступность страны и региона для аудиоконференций и планов [звонков.](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
   
-Если вы ищете конкретные страны или регионы с телефонными номерами для аудиоконференции, см. номера телефонов для аудиоконференции в [Microsoft Teams](phone-numbers-for-audio-conferencing-in-teams.md) или номера телефонов для аудиоконференции в Skype для [бизнеса Online.](/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing)
+Если вы ищете конкретные страны или регионы с телефонными номерами для аудиоконференции, см. Телефон номера аудиоконференции в [Microsoft Teams](phone-numbers-for-audio-conferencing-in-teams.md) или Телефон для аудиоконференции в [Skype для бизнеса Online.](/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing)
   
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Сведения по управлению с помощью Windows PowerShell
 
-- Чтобы сэкономить время или автоматизировать процесс, воспользуйтесь [cmdlets Get-CsOnlineDialInConferencingLanguagesSupported](/powershell/module/skype/Get-CsOnlineDialInConferencingLanguagesSupported) или [Set-CsOnlineDialInConferencingServiceNumber.](/powershell/module/skype/Set-CsOnlineDialInConferencingServiceNumber)
+- Чтобы сэкономить время или автоматизировать эту функцию, вы можете использовать для этого [cmdlets Get-CsOnlineDialInConferencingLanguagesSupported](/powershell/module/skype/Get-CsOnlineDialInConferencingLanguagesSupported) или [Set-CsOnlineDialInConferencingServiceNumber.](/powershell/module/skype/Set-CsOnlineDialInConferencingServiceNumber)
     
-- Windows PowerShell is all about managing users and what users are allowed or not allowed to do. С Windows PowerShell вы можете управлять Microsoft 365 или Office 365, используя единый пункт администрирования, который упростит выполнение ваших повседневных задач. Для начала работы с Windows PowerShell ознакомьтесь с приведенными ниже разделами.
+- Windows PowerShell is all about managing users and what users are allowed or not allowed to do. С Windows PowerShell вы можете управлять Microsoft 365 или Office 365 с помощью единого администрирования, который упростит выполнение повседневных задач. Для начала работы с Windows PowerShell ознакомьтесь с приведенными ниже разделами.
     
   - [Шесть причин использовать Windows PowerShell для управления Office 365](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
   - [Лучшие способы управления Microsoft 365 или Office 365 с помощью Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-- Windows PowerShell имеет множество преимуществ в скорости, простоте и эффективности работы по сравнению с использованием только Центра администрирования Microsoft 365, например при внесении изменений для множества пользователей одновременно. Подробнее об этих преимуществах можно узнать в следующих разделах: 
+- Windows PowerShell имеет множество преимуществ в скорости, простоте и эффективности работы по сравнению с использованием только центра администрирования Microsoft 365, например при внесении изменений для множества пользователей одновременно. Подробнее об этих преимуществах можно узнать в следующих разделах: 
     
   - [Введение в Windows PowerShell и Skype для бизнеса Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
     

@@ -12,7 +12,7 @@ ms.reviewer: rafarhi
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Узнайте, как включить клиентские приложения Teams для настольных пк с помощью политик управления приложениями AppLocker.
+description: Узнайте, как включить Teams с помощью политик управления приложенияМи AppLocker.
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
@@ -25,23 +25,23 @@ ms.locfileid: "51120851"
 ---
 # <a name="applocker-application-control-policies-in-microsoft-teams"></a>Политики управления приложениями AppLocker в Microsoft Teams
 
-В этой статье объясняется, как включить клиентские приложения Teams с помощью политик управления приложениями AppLocker. Использование AppLocker предназначено для ограничения выполнения программ и сценариев пользователями, не относясь к администраторам. Дополнительные сведения и инструкции по AppLocker см. в руководстве [по appLocker.](/windows/security/threat-protection/windows-defender-application-control/applocker/what-is-applocker)
+В этой статье объясняется, как включить Teams с помощью политик управления приложениями AppLocker. Приложение AppLocker предназначено для ограничения выполнения программ и сценариев пользователями, не относясь к администрированию. Дополнительные сведения и инструкции по AppLocker см. в приложении [AppLocker.](/windows/security/threat-protection/windows-defender-application-control/applocker/what-is-applocker)
 
-Для включения Teams с помощью AppLocker необходимо создать политики включения в список на основе AppLocker. Политики создаются с помощью программного обеспечения для управления групповыми политиками и (или) использования Windows PowerShell для AppLocker (дополнительные сведения см. в технической справке [по AppLocker).](/windows/security/threat-protection/windows-defender-application-control/applocker/applocker-technical-reference) Политика AppLocker сохранена в формате XML и может быть изменена в любом текстовом или редакторе XML.
+Для включения Teams с помощью AppLocker необходимо создать политики списка на основе AppLocker. Политики создаются с помощью программного обеспечения для управления групповыми политиками и /или использования Windows PowerShell для AppLocker (дополнительные сведения см. в технической справке [AppLocker).](/windows/security/threat-protection/windows-defender-application-control/applocker/applocker-technical-reference) Политика AppLocker сохранена в формате XML и может быть изменена с помощью любого текста или редактора XML.
 
-## <a name="teams-allow-list-with-applocker"></a>Список "Разрешить" в Teams с помощью AppLocker
+## <a name="teams-allow-list-with-applocker"></a>Teams списка разрешить с помощью AppLocker
 
-Правила AppLocker организованы в коллекции правил. Правила AppLocker применяются к целевому приложению, и именно они являются компонентами, составляющими политику AppLocker.  
+Правила AppLocker организованы в наборы правил. Правила AppLocker применяются к целевому приложению, и они являются компонентами, которые составляют политику AppLocker.  
 
-Чтобы разрешить Teams, рекомендуем использовать правила условий [publisher,](/windows/security/threat-protection/windows-defender-application-control/applocker/understanding-the-publisher-rule-condition-in-applocker) так как все файлы приложений Teams имеют цифровую подпись.
+Чтобы разрешить Teams, рекомендуется использовать правила [](/windows/security/threat-protection/windows-defender-application-control/applocker/understanding-the-publisher-rule-condition-in-applocker) условий publisher, так как Teams все файлы приложений подписаны цифровой подписью.
   
-Не рекомендуется использовать правила путей, так как каталог установки Teams можно писать пользователям. Мы также не рекомендуем использовать hash rules, так как они должны обновляться при каждом обновлении клиентского приложения Teams.
+Использовать правила пути не рекомендуется, так как Teams каталог установки является удобным для пользователей. Мы также не рекомендуем использовать правила с hash, так как они должны обновляться при каждом обновлении Teams клиентского приложения.
 
-Так как исполняемые файлы в классических версиях Teams имеют цифровую подпись, в условии publisher указывается файл приложения на основе цифровой подписи и атрибутов внедренной версии. Цифровая подпись содержит сведения о компании, создав файл приложения (издателе). Сведения о версии, полученные из двоичного ресурса, включают имя продукта, в состав которого входит файл, и номер версии файла приложения.
+Поскольку Teams файлам на компьютере назначена цифровая подпись, в условии publisher указывается файл приложения на основе его цифровой подписи и внедренных атрибутов версии. Цифровая подпись содержит сведения о компании, создав файл приложения (издателя). Сведения о версии, полученные из двоичного ресурса, включают имя продукта, в состав которого входит файл, и номер версии файла приложения.
 
 ### <a name="example-of-publisher-condition-rules"></a>Пример правил условий publisher
 
-Для клиентского приложения Teams (все файлы, все версии) добавьте в правила DLL для исполняемых & следующее:
+Для клиента Teams (все файлы, все версии) добавьте в правила DLL исполняемые правила &:
 
 ```console
 Publisher: O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US
@@ -51,4 +51,4 @@ Product name: MICROSOFT TEAMS UPDATE
 
 ## <a name="related-topics"></a>Статьи по теме
 [Что такое AppLocker?](/windows/security/threat-protection/windows-defender-application-control/applocker/what-is-applocker) 
- [Справочник по приложению AppLocker](/windows/security/threat-protection/windows-defender-application-control/applocker/applocker-technical-reference)
+ [Техническая справка по AppLocker](/windows/security/threat-protection/windows-defender-application-control/applocker/applocker-technical-reference)
