@@ -30,20 +30,20 @@ ms.locfileid: "43904961"
 <a name="manage-the-whiteboard-in-microsoft-teams"></a>Управление доской в Microsoft Teams
 ==========================================
 
-Доска (Майкрософт) — это цифровой холст для свободного формата, на котором объединяется люди, содержимое и идеи. Интеграция приложения "Доска" с собраниями Microsoft Teams зависит от веб-приложения "Доска", которое позволяет участникам собрания Teams рисовать, делать эскизы и писать вместе на общем цифровом холсте.
+Доска (Майкрософт) — это цифровое полотно в свободной форме, где люди, содержимое и идеи могут вместе работать. Интеграция доски с собраниями Microsoft Teams на основе веб-приложения "Доска", которое позволяет участникам собрания Teams рисовать, делать эскизы и писать на общем цифровом полотне.
 
-Пользователи могут поделиться доской, чтобы сделать ее доступной всем участникам собрания Teams. Эта же доска одновременно доступна во всех приложениях "Доска" в Windows 10, iOS и веб-приложении.
+Пользователи могут делиться доской, чтобы сделать ее доступной для всех участников Teams собрании. Эта же доска одновременно доступна во всех приложениях доски Windows 10, iOS и веб-приложении.
 
-Чтобы включить или отключить приложение "Доска", см. в этой [таблице.](https://support.office.com/article/1caaa2e2-5c18-4bdf-b878-2d98f1da4b24) Имейте в виду, что этот параметр включает или отключит доску для всей организации, а не только для Teams.
+Чтобы включить или отключить приложение "Доска", см. Доска (Майкрософт) [организации.](https://support.office.com/article/1caaa2e2-5c18-4bdf-b878-2d98f1da4b24) Имейте в виду, что этот параметр включает или отключит доску для всей организации, а не только для Teams.
 
 ## <a name="whiteboard-on-surface-hub"></a>Доска на Surface Hub
 
-Прежде чем использовать Приложение "Доска (Майкрософт)", убедитесь, что приложение "Доска" установлено на устройстве Surface Hub. Если приложение "Доска" не установлено, на устройстве Surface Hub перейдите в приложение Microsoft Store и получите [приложение "Доска (Майкрософт)".](https://www.microsoft.com/p/microsoft-whiteboard/9mspc6mp8fm4?activetab=pivot:overviewtab) Дополнительные сведения см. в [теме "Включить доску (Майкрософт) на Surface Hub".](https://support.office.com/article/enable-microsoft-whiteboard-on-surface-hub-b5df4539-f735-42ff-b22a-0f5e21be7627)
+Прежде чем использовать Доска (Майкрософт), убедитесь, что приложение "Доска" установлено на Surface Hub устройстве. Если доска не установлена, на устройстве Surface Hub перейдите в приложение Microsoft Store и Доска (Майкрософт) [.](https://www.microsoft.com/p/microsoft-whiteboard/9mspc6mp8fm4?activetab=pivot:overviewtab) Дополнительные сведения см. в [Доска (Майкрософт) Surface Hub.](https://support.office.com/article/enable-microsoft-whiteboard-on-surface-hub-b5df4539-f735-42ff-b22a-0f5e21be7627)
 
 ## <a name="more-information"></a>Дополнительные сведения
 
-Дополнительные сведения см. в:
+Дополнительные сведения см. в
 
 - [Использование доски в Microsoft Teams](https://support.office.com/article/7a6e7218-e9dc-4ccc-89aa-b1a0bb9c31ee)
-- [Включить доску (Майкрософт) для организации](https://support.office.com/article/1caaa2e2-5c18-4bdf-b878-2d98f1da4b24)
-- [Включить доску (Майкрософт) на Surface Hub](https://support.office.com/article/enable-microsoft-whiteboard-on-surface-hub-b5df4539-f735-42ff-b22a-0f5e21be7627)
+- [Включить Доска (Майкрософт) для организации](https://support.office.com/article/1caaa2e2-5c18-4bdf-b878-2d98f1da4b24)
+- [Включить Доска (Майкрософт) на Surface Hub](https://support.office.com/article/enable-microsoft-whiteboard-on-surface-hub-b5df4539-f735-42ff-b22a-0f5e21be7627)

@@ -1,5 +1,5 @@
 ---
-title: 'Пример сценария PowerShell: создание групп диспетчера людей'
+title: 'Пример сценария PowerShell: создание команд диспетчера людей'
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.reviewer: brandber
 ms.service: msteams
 audience: admin
-description: Используйте этот сценарий PowerShell, чтобы создать команду для каждого руководителя, в качестве участников которых они являются.
+description: Используйте этот сценарий PowerShell, чтобы создать команду для каждого руководителя со своими прямыми участниками.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -23,11 +23,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51117307"
 ---
-# <a name="powershell-script-sample---create-new-people-manager-teams"></a>Пример сценария PowerShell: создание групп диспетчера людей
+# <a name="powershell-script-sample---create-new-people-manager-teams"></a>Пример сценария PowerShell: создание команд диспетчера людей
 
-Используйте этот сценарий PowerShell, чтобы создать команду для каждого руководителя, управив его участниками. Перед запуском этого сценария [](powershell-script-create-teams-from-managers-export-managers.md) запустите сценарий диспетчеров экспорта, чтобы экспортировать (из Active Directory) список руководителей и их руководителей для вашей организации.
+Используйте этот сценарий PowerShell, чтобы создать команду для каждого руководителя со своими прямыми участниками. Перед запуском этого сценария запустите сценарий [Диспетчеры](powershell-script-create-teams-from-managers-export-managers.md) экспорта, чтобы экспортировать (из Active Directory) список руководителей и их руководителей для вашей организации.
 
-Чтобы узнать об этом сценарии PowerShell, прочитайте статью ["Создание групп диспетчера людей".](../create-manager-directs-teams.md)
+Чтобы узнать об этом сценарии PowerShell, ознакомьтесь со [статьей Создание команд диспетчера людей.](../create-manager-directs-teams.md)
 
 Если вы новичок в PowerShell и вам требуется помощь, см. раздел [Общие сведения об Azure PowerShell](/powershell/azure/overview?view=azurermps-5.1.1).
 

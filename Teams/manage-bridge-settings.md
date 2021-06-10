@@ -27,9 +27,9 @@ ms.locfileid: "50726809"
 ---
 # <a name="manage-bridge-settings-in-teams"></a>Управление настройками моста в Teams
 
-До и во время собрания или телефонного звонка Microsoft Teams организатор собрания может выбрать параметры моста несколькими вариантами. Дополнительные сведения см. в следующих статьях:
+До и во время Microsoft Teams или телефонного звонка организатор собрания может выбрать параметры моста несколькими вариантами. Дополнительные сведения см. в следующих статьях:
 
 - [Сообщения электронной почты, отправленные пользователям при изменении их параметров в Teams](emails-sent-to-users-when-their-settings-change-in-teams.md)
-- [Возможность записи имен пользователей при подступе к собранию](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
-- [Отключение записей и выход из записей в собрании Teams](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)
+- [Позволить пользователям записывать свои имена, когда они присоединяются к собранию](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
+- [Отключение входа и выхода из собраний Teams собрания](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)
 - [Маскировка номеров телефонов](ptsn-mask-phone-numbers.md)

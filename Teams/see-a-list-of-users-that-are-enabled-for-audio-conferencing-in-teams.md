@@ -1,5 +1,5 @@
 ---
-title: См. список пользователей, включенных для аудиоконференции
+title: См. список пользователей, включенных для аудиоконференций
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,7 +21,7 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: 'Узнайте, как просмотреть список пользователей в организации, для пользователей в Microsoft Teams для работы с которые включена возможность телефонного связи. '
+description: 'Узнайте, как просмотреть список пользователей в организации, для них в организации включена возможность телефонной связи в Microsoft Teams. '
 ms.openlocfilehash: 13cee193c74e04ad530eef074ba989a1e5c300af
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -31,28 +31,28 @@ ms.locfileid: "51117227"
 ---
 # <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-microsoft-teams"></a>Список пользователей с включенными аудиоконференциями в Microsoft Teams
 
-После включения аудиоконференций для пользователей Microsoft Teams в организации можно просмотреть список этих пользователей. 
+После включения Microsoft Teams аудиоконференцию для пользователей в организации вы можете просмотреть список пользователей, для которых она включена. 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
   
 ## <a name="viewing-a-list-of-users"></a>Просмотр списка пользователей
 
-- В Центре администрирования Microsoft Teams в области навигации слева выберите **"Пользователи".**
+- В центре Microsoft Teams администрирования в области навигации слева щелкните **Пользователи**.
 
 
 ## <a name="what-else-should-i-know"></a>Дополнительные сведения
 
-- При просмотре списка включенных пользователей можно выбрать пользователя из списка, чтобы изменить для него параметры аудиоконференции.
+- При просмотре списка включенных пользователей можно выбрать пользователя из списка, чтобы изменить параметры аудиоконференции для этого пользователя.
     
-- При выборе отдельного пользователя можно просмотреть номер телефона по умолчанию, присвоенный пользователю, а также другие параметры аудиоконференции.    
+- При выборе одного пользователя можно просмотреть номер телефона по умолчанию, который назначен пользователю, и другие параметры аудиоконференции.    
    
 - Вы можете использовать кнопку поиска, чтобы найти определенного пользователя в списке.
     
     
 ## <a name="want-to-know-more-about-windows-powershell"></a>Хотите узнать больше о Windows PowerShell?
 
-Windows PowerShell is all about managing users and what users are allowed or not allowed to do. С Windows PowerShell вы можете управлять Microsoft 365 или Office 365, используя единый пункт администрирования, который упростит выполнение ваших повседневных задач. Для начала работы с Windows PowerShell ознакомьтесь с приведенными ниже разделами.
+Windows PowerShell is all about managing users and what users are allowed or not allowed to do. С Windows PowerShell вы можете управлять Microsoft 365 или Office 365 с помощью единого администрирования, который упростит выполнение повседневных задач. Для начала работы с Windows PowerShell ознакомьтесь с приведенными ниже разделами.
     
   - [Шесть причин использовать Windows PowerShell для управления Office 365](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     

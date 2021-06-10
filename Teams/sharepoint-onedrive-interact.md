@@ -1,5 +1,5 @@
 ---
-title: Взаимодействие SharePoint Online и OneDrive для бизнеса с Microsoft Teams
+title: Взаимодействие SharePoint OneDrive взаимодействия с Microsoft Teams
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: snigdhav
 search.appverid: MET150
-description: SharePoint Online & взаимодействия OneDrive для бизнеса с Teams; личные хранилища файлов чата & взаимодействия между командой, стандартным каналом и & библиотекой документов.
+description: SharePoint & OneDrive взаимодействия с Teams; личные хранилища файлов чата & взаимодействия между командой, стандартным каналом и & библиотекой документов.
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
@@ -18,60 +18,48 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 2d063cae8b87ffcacd63676da17fc000384c432c
-ms.sourcegitcommit: a731226d62d8b23fe73bd7bf61654e16367fbd90
+ms.openlocfilehash: 21abc840ddc740d7d842767c6c864d8ff5b598dd
+ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "51948632"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52855958"
 ---
-# <a name="how-sharepoint-online-and-onedrive-for-business-interact-with-microsoft-teams"></a>Взаимодействие SharePoint Online и OneDrive для бизнеса с Microsoft Teams
+# <a name="how-sharepoint-and-onedrive-interact-with-microsoft-teams"></a>Взаимодействие SharePoint OneDrive взаимодействия с Microsoft Teams
 
 > [!Tip]
-> Посмотрите следующий эпизод, чтобы узнать, как Teams взаимодействует с Azure Active Directory (AAD), группами Microsoft 365, Exchange, SharePoint и OneDrive для бизнеса: [Основы Microsoft Teams](https://aka.ms/teams-foundations)
+> В следующем сеансе вы узнаете Teams как Azure Active Directory (AAD), Microsoft 365 Groups, Exchange, SharePoint и OneDrive: основы [Microsoft Teams](https://aka.ms/teams-foundations)
 
-У каждой группы в Microsoft Teams есть сайт группы в SharePoint Online, а каждый стандартный канал группы получает папку в стандартной библиотеке документов сайта группы. Файлы, совместно используемые во время беседы, автоматически добавляются в библиотеку документов, а заданные в SharePoint разрешения и параметры безопасности файлов автоматически переносятся в Teams. Чтобы узнать, как изменение адреса сайта повлияет на SharePoint, см. статью Изменение [адреса сайта.](/sharepoint/change-site-address)
+У каждой группы Microsoft Teams есть сайт группы в SharePoint, а каждый стандартный канал группы получает папку в библиотеке документов сайта группы по умолчанию. Каждый [частный](private-channels.md) канал имеет собственный отдельный SharePoint сайт.
+
+Файлы, совместно используемые во время беседы, автоматически добавляются в библиотеку документов, а заданные в SharePoint разрешения и параметры безопасности файлов автоматически переносятся в Teams. Чтобы узнать, как изменение адреса сайта влияет на SharePoint, см. статью Изменение [адреса сайта.](/sharepoint/change-site-address)
+
+Личные файлы чата хранятся в папке отправитель OneDrive, и разрешения автоматически предоставлены всем участникам в процессе предоставления общего доступа к файлам.
+
+Если пользователям не назначены SharePoint лицензии, у них нет OneDrive хранилища в Microsoft 365. Общий доступ к файлам работает в стандартных каналах, но пользователи не смогут делиться файлами в чатах без OneDrive хранения в Microsoft 365.
+
+При хранении файлов в SharePoint документа и OneDrive правила соответствия требованиям, настроенные на уровне организации, будут следовать. 
 
 > [!NOTE]
-> Эта статья относится только к стандартным каналам. Архитектура частных каналов отличается от стандартной. Каждый частный канал имеет собственное собрание веб-сайтов SharePoint, которое отделено от родительского сайта группы. Дополнительные узнать см. в [оке Закрытые каналы в Microsoft Teams.](private-channels.md)
-
-Личные файлы чата хранятся в папке OneDrive для бизнеса отправителем, и в процессе предоставления общего доступа всем участникам автоматически предоставлены разрешения.
-
-Если пользователям не назначены активные лицензии SharePoint Online, у них нет хранилища OneDrive для бизнеса в Microsoft 365 или Office 365. Общий доступ к файлам будет по-прежнему работать в стандартных каналах, но пользователи не смогут делиться файлами в чатах без хранилища OneDrive для бизнеса в Microsoft 365 или Office 365.
-
-При сохранении файлов в библиотеке документов SharePoint Online и OneDrive для бизнеса выполняются все требования по обеспечению соответствия, заданные на уровне клиента. 
-
-> [!NOTE]
-> Интеграция с локальной службой SharePoint в настоящее время не поддерживается в Microsoft Teams.
+> Интеграция с SharePoint Server не поддерживается для Teams.
 
 Ниже приводится пример связей между командой, стандартным каналом и библиотекой документов.
 
 Для каждой команды создается сайт SharePoint, а также папка по умолчанию **Общие документы**. У каждого стандартного канала, включая канал **Общий** (канал по умолчанию для каждой команды), есть папка в **общие документы.**
 
-![Схема папок "Общие документы" в SharePoint Online.](media/Understand_how_SharePoint_Online_and_OneDrive_for_Business_interact_with_Microsoft_Teams_image1.png)
+![Схема папок "Общие документы" В SharePoint.](media/Understand_how_SharePoint_Online_and_OneDrive_for_Business_interact_with_Microsoft_Teams_image1.png)
 
-> [!NOTE]
-> В настоящее время вы не можете заменить библиотеку документов и сайт SharePoint по умолчанию. Нас часто спрашивают об этой возможности, и мы рассматриваем пути ее внедрения. Обо всех готовящихся изменениях вы можете узнать в [Стратегии развития Teams](https://aka.ms/teamsroadmap) и в [посвященном Teams разделе UserVoice](https://aka.ms/TeamsUserVoice).
-
-[!INCLUDE [uservoice-disclaimer-note](includes/uservoice-disclaimer-note.md)]
-
-> [!TIP]
-> Чтобы добавить в команду вкладку со ссылкой на существующую страницу сайта SharePoint или на существующую библиотеку документов SharePoint:
-> 1. Выберите знак "плюс" рядом с вкладками.
-> 2. Выберите **SharePoint для** существующей страницы  сайта SharePoint или библиотеку документов для существующей библиотеки документов.
-> 3. Выберите соответствующую страницу или библиотеку документов.
+Стандартные SharePoint сайта и библиотеки документов нельзя заменить другими.
 
 У каждого пользователя имеется папка OneDrive **Файлы чатов Microsoft Teams** для хранения всех файлов, предоставленных для общего доступа в приватных чатах с другими пользователями (в формате один к одному или один ко многим). При этом разрешения для ограничения доступа настраиваются автоматически.
 
-![Схема папки OneDrive с именем "Файлы чата Microsoft Teams"](media/Understand_how_SharePoint_Online_and_OneDrive_for_Business_interact_with_Microsoft_Teams_image2.png)
+![Схема папки OneDrive "Файлы чата Microsoft Teams чата"](media/Understand_how_SharePoint_Online_and_OneDrive_for_Business_interact_with_Microsoft_Teams_image2.png)
 
-Обратите внимание, что для общедоступных групп сайт группы SharePoint имеет доступ "Все, кроме внешних пользователей". Общедоступные команды не отображаются в Teams для людей, которые не являются членами этой команды. Однако они могут получать доступ к контенту на сайте группы SharePoint, используя URL-адрес сайта группы SharePoint. 
+Обратите внимание, что для общедоступных SharePoint группы предусмотрен доступ "Все, кроме внешних пользователей". Команда не отображается в Teams для людей, которые не являются членами этой команды. Однако они могут получать доступ к контенту SharePoint сайта группы, используя URL-адрес SharePoint сайта группы. 
 
 ## <a name="channel-files-tab"></a>Вкладка "Файлы канала"
 
-> [!INCLUDE [new feature coming soon](includes/new-feature-coming-soon-section.md)]
-
-Вкладка **Файлы** в Teams напоминает представление документов SharePoint. На **вкладке** Файлы пользователи могут:
+Вкладка **Файлы** в Teams напоминает представление SharePoint документов. На **вкладке** Файлы пользователи могут:
 
 - Дополнительные параметры в **меню Новый** файл.
 - Синхронизируйте файлы с локальным диском.
@@ -87,10 +75,10 @@ ms.locfileid: "51948632"
 
 ## <a name="default-link-type-setting"></a>Тип ссылки по умолчанию
 
-В SharePoint и OneDrive есть параметр администратора, определяющий тип ссылок по умолчанию для ссылок, созданных для файла. В Teams используется тот же подход, что и для параметров SharePoint и OneDrive, за которые администратор устанавливает параметры. Дополнительные сведения об этом способе описаны в разделе Изменение типа ссылки по умолчанию при ссылке для [общего доступа.](/sharepoint/change-default-sharing-link) 
+Тип ссылки общего доступа, который отображается по умолчанию, если пользователь поделился файлом в центре SharePoint администрирования. Сведения см. в разделе [Изменение типа ссылки по умолчанию, когда](/sharepoint/change-default-sharing-link) пользователи получают ссылки для общего доступа.
 
-## <a name="more-information"></a>Дополнительные сведения
+## <a name="related-topics"></a>Статьи по теме
 
-Дополнительные сведения о том, как SharePoint работает с Teams, см. в [sharePoint и Teams: улучшение совместной работы.](https://techcommunity.microsoft.com/t5/Microsoft-SharePoint-Blog/SharePoint-and-Teams-Better-Together/ba-p/189593)
+[SharePoint и Teams: лучше вместе](https://techcommunity.microsoft.com/t5/Microsoft-SharePoint-Blog/SharePoint-and-Teams-Better-Together/ba-p/189593).
 
-Дополнительные информацию о гостевом опыте в Teams можно найти в этой [публикации.](guest-experience.md)
+[Взаимодействие с гостями](guest-experience.md)

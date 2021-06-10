@@ -1,5 +1,5 @@
 ---
-title: 'Пример сценария PowerShell: очистка развертывания Teams'
+title: 'Пример сценария PowerShell : Teams очистки развертывания'
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.reviewer: amitsri
 ms.service: msteams
 audience: admin
-description: Используйте этот сценарий PowerShell, чтобы удалить Teams и папку Teams для пользователей.
+description: Используйте этот сценарий PowerShell, чтобы удалить Teams и удалить Teams папку для пользователей.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -24,9 +24,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51117297"
 ---
-# <a name="powershell-script-sample---teams-deployment-clean-up"></a>Пример сценария PowerShell: очистка развертывания Teams
+# <a name="powershell-script-sample---teams-deployment-clean-up"></a>Пример сценария PowerShell: очистка Teams развертывания
 
-Используйте этот сценарий для удаления Teams. Этот сценарий удаляет Teams и папку Teams для пользователя. Запустите этот сценарий для каждого профиля пользователя, в котором на компьютере установлено приложение Teams.
+Используйте этот сценарий для удаления Teams. Этот сценарий удаляет Teams и удаляет папку Teams для пользователя. Запустите этот сценарий для каждого профиля пользователя, в Teams был установлен на компьютере.
 
 
 ## <a name="sample-script"></a>Пример сценария
@@ -65,4 +65,4 @@ catch
 ## <a name="related-topics"></a>Статьи по теме
 
 - [Установите Microsoft Teams с помощью Microsoft Endpoint Configuration Manager](../msi-deployment.md)
-- [Развертывание Teams с помощью приложений Microsoft 365](/deployoffice/teams-install)
+- [Развертывание Teams с помощью Приложения Microsoft 365](/deployoffice/teams-install)

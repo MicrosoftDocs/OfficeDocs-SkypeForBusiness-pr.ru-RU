@@ -1,7 +1,7 @@
 ---
 title: Инструменты и скачиваемые материалы по внедрению
 ms.reviewer: karuanag
-description: Эти ресурсы помогут вам принять участие в внедрении Microsoft Teams и других служб Microsoft 365 или Office 365.
+description: Эти ресурсы по внедрению помогут вам принятия Microsoft Teams и других Microsoft 365 или Office 365 служб.
 author: serdarsoysal
 ms.author: serdars
 manager: serdars
@@ -24,20 +24,20 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 03/11/2021
 ms.locfileid: "50726230"
 ---
-# <a name="tools-for-driving-adoption"></a>Инструменты для внедрения в машине 
+# <a name="tools-for-driving-adoption"></a>Инструменты для внедрения "В машине" 
 
-Воспользуйтесь средствами ниже, чтобы поддерживать каждый этап плана принятия службы.  
+Воспользуйтесь средствами ниже, чтобы поддерживать каждый этап плана внедрения службы.  
 
 |               |               |               |               |               |               |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| <img src="https://docs.microsoft.com/office/media/icons/clock-teams.svg" width="40 px" height="40 px" alt="clock icon">| [Планы проектов по внедрению](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/teams-adopt-service-adoption-plans-oct-2018.zip) | <img src="https://docs.microsoft.com/office/media/icons/users-people.svg" width="40 px" height="40 px" alt="people icon">| [Примеры типов людей и стилей работы](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/teams-adopt-example-personas.zip) | <img src="https://docs.microsoft.com/office/media/icons/task-checklist-planning-teams.svg" width="40 px" height="40 px" alt="checklist icon"> | [Используйте этот шаблон для назначения ключевых участников группы и взаимодействия с заинтересованными лицами.](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/teams-adopt-work-assign-and-stakeholders.zip) |
-| <img src="https://docs.microsoft.com/office/media/icons/best-practices-teams.svg" width="40 px" height="40 px" alt="best practices icon">| [Повлечь за своими сотрудниками эти дни на кратких таблицах](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/teams-adopt-day-in-the-life-quicksheets.zip) | <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg" width="40 px" height="40 px" alt="tutorial icon">| [Ресурсы для видеороликов, которые можно встраить для champions и ITPros](https://aka.ms/CoffeeintheCloud) | <img src="https://docs.microsoft.com/office/media/icons/success.svg" width="40 px" height="40 px" alt="success icon">| [Подготовка службы поддержки для Microsoft Teams](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/teams-adopt-helpdesk-guide.pdf) |
+| <img src="https://docs.microsoft.com/office/media/icons/clock-teams.svg" width="40 px" height="40 px" alt="clock icon">| [Планы Project принятия](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/teams-adopt-service-adoption-plans-oct-2018.zip) | <img src="https://docs.microsoft.com/office/media/icons/users-people.svg" width="40 px" height="40 px" alt="people icon">| [Примеры людей и стилей работы](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/teams-adopt-example-personas.zip) | <img src="https://docs.microsoft.com/office/media/icons/task-checklist-planning-teams.svg" width="40 px" height="40 px" alt="checklist icon"> | [Этот шаблон используется для назначения ключевых участников группы и взаимодействия с заинтересованными лицами.](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/teams-adopt-work-assign-and-stakeholders.zip) |
+| <img src="https://docs.microsoft.com/office/media/icons/best-practices-teams.svg" width="40 px" height="40 px" alt="best practices icon">| [Вдохновите своих сотрудников на этот день на краткие таблицы life](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/teams-adopt-day-in-the-life-quicksheets.zip) | <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg" width="40 px" height="40 px" alt="tutorial icon">| [Ресурсы для видеороликов, в которые можно встраить ресурсы для ратных ратов и ИТ-ресурсов](https://aka.ms/CoffeeintheCloud) | <img src="https://docs.microsoft.com/office/media/icons/success.svg" width="40 px" height="40 px" alt="success icon">| [Подготовка справки к Microsoft Teams](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/teams-adopt-helpdesk-guide.pdf) |
 
-### <a name="microsoft-365-or-office-365-champions-program"></a>Программа champions program для Microsoft 365 или Office 365
-Программа champions — это бесплатная программа, которая помогает людям, желающим получить дополнительные продукты в Microsoft Teams и других службах Microsoft 365 или Office 365. Мы объединяем свое интернет-сообщество в [Microsoft Technical Community](https://aka.ms/DriveAdoption) с ежемесячными звонками сообщества, которые выделяют все компоненты внедрения : от управления до лучших методик до новых функций. Присоединяйтесь к нашему сообществу на сайте, чтобы получать доступ к ранним версиям, слышать других клиентов и https://aka.ms/O365Champions учиться у экспертов Майкрософт.  
+### <a name="microsoft-365-or-office-365-champions-program"></a>Microsoft 365 или Office 365 программы развития
+Программа champions — это бесплатная программа, которая помогает людям, которые хотят получить дополнительные Microsoft Teams и других Microsoft 365 или Office 365 служб. Мы объединяем свое интернет-сообщество в [Microsoft Technical Community](https://aka.ms/DriveAdoption) с ежемесячными звонками сообщества, которые выделяют все компоненты внедрения от управления до лучших методик до новых функций. Присоединяйтесь к нашему сообществу на сайте и получите доступ к ранним выпускам, узнаваем от других https://aka.ms/O365Champions клиентов и учитесь у экспертов Майкрософт.  
 
-### <a name="teams-adoption-guide"></a>Руководство по внедрению Teams
-Ознакомьтесь с [flipbook adoption Teams](https://aka.ms/teamstoolkit), интерактивным руководством, которое поможет вам разверните Teams в вашей компании. Она содержит множество загружаемых инструментов, шаблонов и других ресурсов, которые помогут вам в пути внедрения Teams.
+### <a name="teams-adoption-guide"></a>Teams Руководство по внедрению
+Ознакомьтесь с Teams [внедрения](https://aka.ms/teamstoolkit), веб-руководством, которое поможет вам Teams в вашей компании. Она содержит множество скачиваемых инструментов, шаблонов и других ресурсов, которые помогут вам Teams внедрения.
 
-### <a name="teams-customer-success-kit"></a>Набор успешного обслуживания клиентов Teams
-В [наборе средств для](https://aka.ms/TeamsCustomerSuccess) достижения успеха клиентов Teams есть инструменты, которые помогут вам в этом. Шаблоны сообщений электронной почты для объявлений, плакатов с рекламными объявлениями, обратного отсчета и советы & советам. В ней также содержатся руководства по началу работы для руководителей групп и ИТ-администраторов.
+### <a name="teams-customer-success-kit"></a>Teams Комплект успешного обслуживания клиентов
+Пакет [Teams успеха](https://aka.ms/TeamsCustomerSuccess) клиентов содержит инструменты, которые помогут вам Teams в организации. Шаблоны сообщений электронной почты для объявлений, рекламных листовок, обратного отсчета и советы & рекомендации. В ней также содержатся руководства по началу работы с руководителями групп и ИТ-администраторами.

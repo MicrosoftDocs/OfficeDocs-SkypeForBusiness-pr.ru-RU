@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - PowerShell
 description: Troubleshoot creating a remote PowerShell session to connect to Skype for Business Online, including Import-Module, concurrent shell, Live ID, and permission errors.
-ms.openlocfilehash: 02952ea878424cb0b5e84337051c30660101d144
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: d220fbbf9df22964833aa42bcd29c5ecaaa6eaa5
+ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238900"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52856068"
 ---
 # <a name="diagnose-connection-problems-with-the-skype-for-business-online-connector"></a>Диагностика проблем подключения с помощью соединителя Skype для бизнеса Online
 
@@ -66,7 +66,7 @@ ms.locfileid: "52238900"
   
 - Ошибка **:** Импорт-модуль : файл C. Программные файлы Общие файлы Модули Microsoft <em> \\ \\ \\ Lync Server 2013 \\ \\ LyncOnlineConnector \\ LyncOnlineConnectorStartup.psm1 не загружаются, так как запуск сценариев отключен в этой системе. Дополнительные сведения см. в about_Execution_Policies https://go.microsoft.com/fwlink/?LinkID=135170 .</em>
 
-- **Разрешение** Чтобы устранить эту проблему, запустите PowerShell с права администратора и запустите следующую команду:
+- **Разрешение** Чтобы устранить эту проблему, запустите PowerShell в качестве администратора и запустите следующую команду:
     ```PowerShell
     Set-ExecutionPolicy RemoteSigned
     ```
@@ -77,14 +77,14 @@ ms.locfileid: "52238900"
 
 Модуль соединителя Skype для бизнеса Online можно запускать только в Windows PowerShell 3.0. При попытке импортировать модуль в предыдущей версии PowerShell процесс импорта будет сбой с сообщением об ошибке, аналогичным этому сообщению:
   
-  - **Ошибка**: *Import-Module : версия загружаемой PowerShell — "2.0". Модуль 'D: Program \\ Files Common Files Microsoft \\ \\ Lync Server 2013 \\ Modules \\ LyncOnlineConnectorLyncOnlineConnector.psd1' требуется минимальная версия \\ PowerShell 3.0 для выполнения. Проверьте установку PowerShell и попробуйте еще раз.*
+  - **Ошибка**: Import-Module : версия загруженной *PowerShell — "2.0". Модуль 'D: Program \\ Files Common Files Microsoft \\ \\ Lync Server 2013 \\ Modules \\ LyncOnlineConnectorLyncOnlineConnector.psd1' требуется минимальная версия \\ PowerShell 3.0 для выполнения. Проверьте установку PowerShell и попробуйте еще раз.*
 
 - **Решение.** Единственный способ устранить эту проблему — установить Windows PowerShell 3.0, которая доступна в Центре загрузки Майкрософт по ссылке [https://www.microsoft.com/download/details.aspx?id=34595](https://www.microsoft.com/download/details.aspx?id=34595) .
   
 ## <a name="modern-authentication-fails-when-winrm-basic-authentication-has-been-disabled"></a>Сбой современной проверки подлинности при отключенной проверке подлинности WinRM Basic
 <a name="BKMKWinRMBasicAuth"> </a>
 
-В последней версии модуля Skype для бизнеса Online Connector используется современная проверка подлинности, но для этого необходимо настроить базовый клиент Windows Удаленное управление (WinRM).  Современная проверка подлинности использует маркеры сноски, которые обычно передаются в заглавной области *Авторизация: Bearer.* Windows PowerShell, на основе Skype для бизнеса PowerShell, не допускается возможность управления этим заглавным заглавом.  Вместо этого Skype для бизнеса PowerShell передает маркер сноски с помощью заглавного заглавного слова *Authorization: Basic.*
+В последней версии модуля Skype для бизнеса Online Connector используется современная проверка подлинности, но для этого необходимо настроить базовый клиент Windows Удаленное управление (WinRM).  При современной проверке подлинности используются маркеры сноски, которые обычно передаются в заглавной области *Авторизация: bearer.* Windows PowerShell, на основе Skype для бизнеса PowerShell, не допускается возможность управления этим заглавным заглавом.  Вместо этого Skype для бизнеса PowerShell передает маркер сноски с помощью заглавного заглавного слова *Authorization: Basic.*
 
 Инструкции [о том, как включить проверку](./download-and-install-windows-powershell-5-1.md) подлинности WinRM для Basic, см. в Windows PowerShell и установке приложения.
 
@@ -92,7 +92,7 @@ ms.locfileid: "52238900"
 <a name="BKMKFailedConnect"> </a>
 
 > [!WARNING] 
-> Аутентификация live ID для соединителя Skype для бизнеса. Используйте модуль Teams PowerShell для управления сетевым клиентом. При управлении гибридными средами обновим систему до последнего накопительного обновления или используйте проверку подлинности oAuth.
+> Аутентификация live ID не была неподготовлена к Skype Для бизнеса Online Connector. Используйте модуль Teams PowerShell для управления сетевым клиентом. При управлении гибридными средами обновим систему до последнего накопительного обновления или используйте проверку подлинности oAuth.
 
 Обычно три причины могут вызвать сбой подключения со следующим сообщением об ошибке:
 
@@ -153,16 +153,16 @@ ms.locfileid: "52238900"
 
 Каждый администратор может установить максимум три удаленных подключения к Skype для бизнеса online одновременно. Если у вас установлено три удаленных подключения PowerShell, при попытке четвертого подключения произойдет сбой со следующим сообщением об ошибке:
 
-- **Ошибка**: *New-PSSession : [admin.vdomain.com] Не удалось подключиться к удаленному серверу admin.vdomain.com со следующим сообщением об ошибке: служба WS-Management не может обработать запрос. Превышено максимальное количество одновременной оболочки для этого пользователя. Закроем существующие оболочки или поднимем квоту для этого пользователя. Дополнительные сведения см. в [Удаленное https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1 устранение неполадок](*
+- **Ошибка**: *New-PSSession : [admin.vdomain.com] Не удалось подключиться к удаленному серверу admin.vdomain.com со следующим сообщением об ошибке: служба WS-Management не может обработать запрос. Превышено максимальное количество одновременной оболочки для этого пользователя. Закроем существующие оболочки или поднимем квоту для этого пользователя. Дополнительные сведения см. в [Удаленное устранение неполадок](/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1.*
 
 - **Решение.** Единственный способ устранить эту проблему — закрыть одно или несколько из предыдущих подключений. По окончании работы с Skype для бизнеса online рекомендуется использовать командлет **Remove-PSSession**, чтобы завершить сеанс. Это поможет предотвратить проблему.
   
 ## <a name="the-maximum-number-of-concurrent-shells-for-this-tenant-in-skype-for-business-online-has-been-exceeded"></a>Превышено максимальное число параллельных оболочек для этого клиента в Skype для бизнеса Online
 <a name="BKMKMaxNumberShellsTenant"> </a>
 
-Хотя у каждого администратора может быть до трех одновременных подключений к Skype для бизнеса Online, ни одному клиенту не разрешено иметь более 20 одновременных подключений. Например, у шести администраторов может быть три открытых сеанса. Если четвертый администратор попытается создать более двух подключений (в результате получается 21 одновременный сеанс), попытка будет со следующей ошибкой:
+Хотя у каждого администратора может быть до трех одновременных подключений к Skype для бизнеса Online, ни одному клиенту не разрешено иметь более 20 одновременных подключений. Например, у шести администраторов может быть три открытых сеанса. Если четвертый администратор попытается создать более двух подключений (в результате будет одновременно 21 подключение), эта попытка будет со следующей ошибкой:
   
-- **Ошибка**: *New-PSSession : [admin.vdomain.com] Не удалось подключиться к удаленному серверу admin.vdomain.com со следующим сообщением об ошибке: служба WS-Management не может обработать запрос. Превышено максимальное количество одновременной оболочки для этого клиента. Закроем существующие оболочки или поднимем квоту для этого клиента. Дополнительные сведения см. в [Удаленное https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1 устранение неполадок](*
+- **Ошибка**: *New-PSSession : [admin.vdomain.com] Не удалось подключиться к удаленному серверу admin.vdomain.com со следующим сообщением об ошибке: служба WS-Management не может обработать запрос. Превышено максимальное количество одновременной оболочки для этого клиента. Закроем существующие оболочки или поднимем квоту для этого клиента. Дополнительные сведения см. в [Удаленное устранение неполадок](/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1.*
 
 - **Решение.** Единственный способ устранить эту проблему — закрыть одно или несколько из предыдущих подключений. По окончании работы с Skype для бизнеса online рекомендуется использовать командлет **Remove-PSSession**, чтобы завершить сеанс. Это поможет предотвратить проблему.  
  
