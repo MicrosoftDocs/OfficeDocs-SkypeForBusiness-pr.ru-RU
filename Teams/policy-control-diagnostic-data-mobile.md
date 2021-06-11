@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 28cebeabe860f1e76d10d0af976454161ed448e1
-ms.sourcegitcommit: 2591c96d8613660220c5af71fc945e27b31175d7
+ms.openlocfilehash: 9306646cf76485ba06828f7dad2113912ec28b55
+ms.sourcegitcommit: 2c9ce2e3e4c3f1e3bfe317daa4fed5033d65876b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52863250"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52873846"
 ---
 # <a name="required-mobile-diagnostic-data-for-microsoft-teams"></a>Обязательные мобильные диагностические данные для Microsoft Teams
 
@@ -1303,6 +1303,8 @@ ms.locfileid: "52863250"
 - **smart_reply_enabled** — подтверждает, что для текущего пользователя активен Smart Reply.
 - **smart_reply_received** — подтверждает, что предложение Smart Reply получено.
 - **smart_reply_banned** — подтверждает, что для текущего пользователя не может быть отображен Smart Reply.
+- **park_call_for_hold_v2** — подтверждает, что постановка звонка на удержание с помощью парковки вызовов завершилась успешно или неудачно.
+- **unpark_call_for_hold_v2** — подтверждает, что возобновление звонка с помощью снятия с парковки завершилось успешно или неудачно. 
 - **update_planner_task_and_nav_to_view** — подтверждает успешное обновление элемента общей задачи и сколько времени потребовалось пользователю, чтобы перейти к итоговому представлению после действия.
 - **update_personal_task_and_nav_to_view** — подтверждает успешное обновление элемента личной задачи и сколько времени потребовалось пользователю, чтобы перейти к итоговому представлению впоследствии 
 - **updatePlannerTask** — подтверждает, что пользователь успешно обновил задачу в общем списке задач.
