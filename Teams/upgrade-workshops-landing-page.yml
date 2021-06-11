@@ -29,11 +29,11 @@ productDirectory:
     - title: Планирование перехода (начните отсюда!)
       imageSrc: 'https://docs.microsoft.com/office/media/icons/get-started-teams.svg'
       summary: 'Обновление до Teams до выхода из Skype для бизнеса Online (31 июля 2021 г.) или перенос сценариев из локальной среды Skype для бизнеса в Teams— будет успешным как для технических, так и для пользователей. Узнайте о нашей проверенной структуре, лучших методиках и ресурсах, которые помогут вам успешно перейти Teams из Skype для бизнеса Online, Skype для бизнеса Server или гибридной среды. Аудитория — все (спонсоры для бизнеса, ИТ-администраторы, менеджер по готовности и изменениям, руководитель проекта)'
-      url: 'https://microsoftteams.eventbuilder.com/PlanYourUpgrade'
+      url: 'https://aka.ms/SfBtoTeamsPlan'
     - title: Реализация обновления Teams обновления
       imageSrc: 'https://docs.microsoft.com/office/media/icons/hybrid-teams.svg'
       summary: 'Присоединитесь к нам, чтобы выявить и подготовиться к реализации наилучшего технического подхода для перемещения всех рабочих нагрузок в Teams с учетом ваших целей и текущей Skype для бизнеса среды. Большинство клиентов, успешно завершивших переходы, включили Teams наряду с текущей Skype для бизнеса Online, Skype для бизнеса Server или гибридной реализацией. В этом сеансе будут делиться ключевыми моментами и полезными ресурсами, которые помогут вам определить наилучшие стратегии миграции для вашей организации. Аудитория — ИТ-администраторы'
-      url: 'https://microsoftteams.eventbuilder.com/ImplementTeamsUpgrade'
+      url: 'https://aka.ms/SfBtoTeamsImplement'
 additionalContent:
   sections:
     - items:
