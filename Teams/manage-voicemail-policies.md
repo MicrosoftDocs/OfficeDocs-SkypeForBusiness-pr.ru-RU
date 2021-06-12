@@ -22,26 +22,31 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Управление политиками голосовой почты для пользователей.
-ms.openlocfilehash: 213908183c0d1dc608626272c0ea8aa5af308aff
-ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
+ms.openlocfilehash: aa6b08cba7118a5e43f7f2bd3baea7fb3bc7f158
+ms.sourcegitcommit: 2419348e964cfe97b72d533f267c5d7055d5366f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52796928"
+ms.lasthandoff: 06/12/2021
+ms.locfileid: "52910061"
 ---
 # <a name="setting-voicemail-policies-in-your-organization"></a>Настройка политик голосовой почты в организации
 
 > [!WARNING]
 > Для Skype для бизнеса пользователей отключение голосовой почты с Microsoft Teams голосовой почты может также отключить службу голосовой почты для Skype для бизнеса пользователей.
 
-Транскрибирование голосовой почты включено по умолчанию, a транскрибирование маскировки богохульства отключено по умолчанию для всех организаций и пользователей; тем не менее ими можно управлять с помощью командлетов [Set-CsOnlineVoicemailPolicy](/powershell/module/skype/Set-CsOnlineVoicemailPolicy) и [Grant-CsOnlineVoicemailPolicy](/powershell/module/skype/Get-CsOnlineVoicemailPolicy).
+## <a name="voicemail-organization-defaults-for-all-users"></a>Стандарты организации голосовой почты для всех пользователей
+- Транскрибация голосовой почты включена.
+- Расшифровка транскрибации голосовой почты отключена.
+- Максимальная длительность записи — пять минут.
+
+Вы можете управлять этими значениями по умолчанию с помощью cmdlets [Set-CsOnlineVoicemailPolicy](/powershell/module/skype/Set-CsOnlineVoicemailPolicy) и [Grant-CsOnlineVoicemailPolicy.](/powershell/module/skype/Get-CsOnlineVoicemailPolicy)
 
 Сообщения голосовой почты, полученные пользователями в вашей организации, транскрибются в регионе, где Microsoft 365 или Office 365 организации. Регион, в котором размещен ваш клиент, может не быть регионом, в котором находится пользователь, получающий сообщение голосовой почты. Чтобы просмотреть регион размещения клиента, перейдите [](https://go.microsoft.com/fwlink/p/?linkid=2067339) на страницу профиля организации и щелкните Просмотреть **сведения** рядом с кнопкой **Расположение данных.**
 
 > [!IMPORTANT]
 > Вы не можете создать новый экземпляр политики для транскрибации и транскрибации с помощью cmdlet **New-CsOnlineVoiceMailPolicy,** а также удалить существующий экземпляр политики с помощью cmdlet **Remove-CsOnlineVoiceMailPolicy.**
 
-Параметрами транскрибирования для пользователей можно управлять с помощью политик голосовой почты. Чтобы увидеть все доступные экземпляры политик голосовой почты, используйте для этого cmdlet [Get-CsOnlineVoicemailPolicy.](/powershell/module/skype/Get-CsOnlineVoicemailPolicy)
+Параметрами транскрибирования для пользователей можно управлять с помощью политик голосовой почты. Чтобы увидеть все доступные экземпляры политик голосовой почты, воспользуйтесь [cmdlet Get-CsOnlineVoicemailPolicy.](/powershell/module/skype/Get-CsOnlineVoicemailPolicy)
 
 ```PowerShell
 PS C:\> Get-CsOnlineVoicemailPolicy
@@ -96,6 +101,22 @@ Set-CsOnlineVoicemailPolicy -EnableTranscription $false
 Set-CsOnlineVoicemailPolicy -EnableTranscriptionProfanityMasking $true
 ```
 
+## <a name="changing-the-recording-duration-for-your-organization"></a>Изменение длительности записи для организации
+
+Максимальная длина записи для вашей организации по умолчанию составляет пять минут. Если необходимо увеличить или уменьшить максимальную длину записи, это можно сделать с помощью [Set-CsOnlineVoicemailPolicy.](/powershell/module/skype/Set-CsOnlineVoicemailPolicy) Например, чтобы установить максимальное время записи (60 секунд), запустите:
+
+```PowerShell
+Set-CsOnlineVoicemailPolicy -MaximumRecordingLength ([TimeSpan]::FromSeconds(60))
+```
+
+## <a name="dual-language-system-prompts-for-your-organization"></a>Запросы двух языковых систем для организации
+
+По умолчанию при настройке голосовой почты вызывателям будут предложены подсказки системы голосовой почты на языке, выбранном пользователем. Если необходимо, чтобы запросы системы голосовой почты были представлены на двух языках, это можно сделать с помощью [Set-CsOnlineVoicemailPolicy.](/powershell/module/skype/Set-CsOnlineVoicemailPolicy) Язык основного и дополнительного языков может быть не одинаковым. Для этого выполните команду:
+
+```PowerShell
+Set-CsOnlineVoicemailPolicy -PrimarySystemPromptLanguage en-US -SecondarySystemPromptLanguage es-ES
+```
+
 ## <a name="turning-off-transcription-for-a-user"></a>Выключение транскрибирования для пользователя
 
 Анализ политик пользователей выполняется до анализа параметров по умолчанию для организации. Например, если транскрибация голосовой почты включена для всех пользователей, вы можете назначить политику, которая отключит транскрибцию для определенного пользователя, с помощью cmdlet [Grant-CsOnlineVoicemailPolicy.](/powershell/module/skype/Grant-CsOnlineVoicemailPolicy)
@@ -115,6 +136,44 @@ Grant-CsOnlineVoicemailPolicy -PolicyName TranscriptionDisabled -Identity sip:am
 ```PowerShell
 Grant-CsOnlineVoicemailPolicy -PolicyName TranscriptionProfanityMaskingEnabled -Identity sip:amosmar@contoso.com
 ```
+
+## <a name="changing-the-recording-duration-for-a-user"></a>Изменение длительности записи для пользователя
+
+Сначала необходимо создать настраиваемую политику голосовой почты с помощью [cmdlet New-CsOnlineVoicemailPolicy.](/powershell/module/skype/New-CsOnlineVoicemailPolicy) Команда, показанная ниже, создает политику голосовой почты oneMinuteVoicemailPolicy для каждого пользователя с максимальным значениемRecordingLength в течение 60 секунд, а другие поля — глобальным значением на уровне клиента.
+
+```PowerShell
+New-CsOnlineVoicemailPolicy -Identity "OneMinuteVoicemailPolicy" -MaximumRecordingLength ([TimeSpan]::FromSeconds(60))
+```
+
+Чтобы назначить настраиваемую политику пользователю, запустите: 
+
+```PowerShell
+Grant-CsOnlineVoicemailPolicy -PolicyName OneMinuteVoicemailPolicy -Identity sip:amosmar@contoso.com
+```
+
+## <a name="dual-language-system-prompts-for-a-user"></a>Запросы в двух языковых системах для пользователя
+
+Сначала необходимо создать настраиваемую политику голосовой почты с помощью [cmdlet New-CsOnlineVoicemailPolicy.](/powershell/module/skype/New-CsOnlineVoicemailPolicy) Команда, показанная ниже, создает политику голосовой почты для каждого пользователя enUS-esSP-VoicemailPolicy с primarySystemPromptLanguage en-US (английский язык - США) и SecondarySystemPromptLanguage с установленным значением es-SP (испанский (Испания).
+
+```PowerShell
+New-CsOnlineVoicemailPolicy -Identity "enUS-esES-VoicemailPolicy" -PrimarySystemPromptLanguage en-US -SecondarySystemPromptLanguage es-ES
+```
+
+Чтобы назначить настраиваемую политику пользователю, запустите: 
+
+```PowerShell
+Grant-CsOnlineVoicemailPolicy -PolicyName "enUS-esES-VoicemailPolicy" -Identity sip:amosmar@contoso.com
+```
+
+> [!NOTE]
+> В Get-CsOnlineVoicemailPolicy в настоящее время не возвращаются значения primarySystemPromptLanguage и SecondarySystemPromptLanguage. Чтобы увидеть эти значения, измените команду следующим образом:
+>
+> >```PowerShell
+> > (Get-CsOnlineVoicemailPolicy -Identity PolicyName).PrimarySystemPromptLanguage or
+> > (Get-CsOnlineVoicemailPolicy -Identity PolicyName).SecondarySystemPromptLanguage 
+>
+> Замените **Имя политики** именем политики.
+
 
 > [!IMPORTANT]
 > Служба голосовой почты Microsoft 365 и Office 365 кэш политики голосовой почты и обновляет кэш каждые 6 часов. Таким образом, внесение изменений в политику может занять до 6 часов.

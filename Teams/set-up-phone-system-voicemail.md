@@ -22,19 +22,19 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Узнайте, как настроить облачная голосовая почта для пользователей. '
-ms.openlocfilehash: 4ed61a825ce4e583c71f052020692e4478324003
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: c6fbd02e30c5be0280b05088a1cec281c2534039
+ms.sourcegitcommit: 31c5b9cd3d4f500e1f9d7823052dae8f8c298b1e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117067"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52901916"
 ---
 # <a name="set-up-cloud-voicemail"></a>Настройка облачной голосовой почты
 
 Эта статья адресовна администратору Microsoft 365 или Office 365, [](/microsoft-365/admin/add-users/about-admin-roles) как описано в статье Роли администраторов, которые хотят настроить облачная голосовая почта для всех в компании.
 
 > [!NOTE]
-> облачная голосовая почта поддерживает хранение сообщений голосовой почты только Exchange почтовом ящике и не поддерживает сторонние почтовые системы. 
+> облачная голосовая почта поддерживает хранение сообщений голосовой почты только в почтовом ящике Exchange и не поддерживает сторонние почтовые системы. 
 
 > [!NOTE]
 > Когда делегат отвечает на звонок от имени представителя, в облачная голосовая почта. Пользователи могут получать уведомления о пропущенных звонках.
@@ -44,13 +44,13 @@ ms.locfileid: "51117067"
 Для телефонная система Online облачная голосовая почта автоматически устанавливается и подготовка для пользователей после назначения им  лицензии телефонная система лицензии. 
 
 > [!NOTE]
-> Для пользователей Online Skype для бизнеса телефонная система с предоставленными телефонными номерами локальной службы может потребоваться включить услугу голосовой почты в [Set-CsUser -HostedVoicemail $True.](/powershell/module/skype/set-csuser?view=skype-ps) 
+> Для пользователей Online Skype для бизнеса телефонная система с локально предоставленными телефонными номерами может потребоваться включить услугу голосовой почты в [Set-CsUser -HostedVoicemail $True.](/powershell/module/skype/set-csuser?view=skype-ps) 
 
 ## <a name="set-up-cloud-voicemail-for-exchange-server-mailbox-users"></a>Настройка облачная голосовая почта для Exchange Server почтовых ящиков
 
-Ниже данная информация о настройке облачная голосовая почта для работы с пользователями, которые находятся в сети телефонная система но имеют свой почтовый ящик Exchange Server. 
+Ниже приводится информация о настройке облачная голосовая почта для работы с пользователями, которые находятся в сети телефонная система но имеют свой почтовый ящик Exchange Server. 
   
-1. Сообщения голосовой почты доставляются в почтовый Exchange пользователей через SMTP, маршрутный через Exchange Online Protection. Чтобы обеспечить успешную доставку этих сообщений, убедитесь, что соединители Exchange правильно настроены между серверами Exchange и Exchange Online Protection; [Настройте почтовые Flow с помощью соедините Flow.](/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow) 
+1. Сообщения голосовой почты доставляются в почтовый Exchange пользователей через SMTP, маршрутный через Exchange Online Protection. Чтобы обеспечить успешную доставку этих сообщений, убедитесь, что соединители Exchange правильно настроены между серверами Exchange и Exchange Online Protection. [Настройте почтовые Flow с помощью соедините Flow.](/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow) 
 
 2. Чтобы включить функции голосовой почты, такие как настройка приветствий и визуальной голосовой почты в клиентах Skype для бизнеса, требуется подключение из Microsoft 365 или Office 365 к почтовому ящику Exchange сервера через веб-службы Exchange. Чтобы включить это подключение, необходимо настроить новый протокол проверки подлинности Exchange Oauth, описанный в окне Настройка проверки подлинности [OAuth](/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)между организациями Exchange и Exchange Online, или запустить мастер гибридной конфигурации Exchange в Exchange 2013 CU5 или более новой. Кроме того, необходимо настроить интеграцию и Oauth между серверами Skype для бизнеса Online и Exchange, описанными в окне Настройка интеграции и [OAuth](/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)между Skype для бизнеса Online и Exchange Server. 
 
@@ -67,110 +67,20 @@ ms.locfileid: "51117067"
 Чтобы настроить защищенную голосовую почту, сделайте следующее:
 
 1. Перейдите к учетной записи с разрешениями глобального администратора и войдите https://admin.microsoft.com в нее.
-2. Выберите **Показать все,** а затем перейдите **в** центр администрирования  >  **Exchange**.
-3. В Центре Exchange выберите правила потока **обработки**  >  **почты**.
+2. Выберите **Показать все,** а затем перейдите в центр **администрирования**  >  **Exchange**.
+3. В Центре Exchange выберите правила **потока обработки**  >  **почты**.
 4. Выберите **+** **Добавить**, а затем **выберите Применить шифрование сообщений Office 365 и защиту прав к сообщениям**.
-5. Введите имя для нового правила потока почты, а затем в списке Применить это **правило,** если , выберите Свойства сообщенияВключите тип  >    >  **сообщения Голосовая почта**. Выберите **ОК**.
-6. В **области Сделать следующее** выберите Применить шифрование сообщений Office 365 и защиту **прав** к сообщению с помощью и выберите Выберите **один**. В **области Шаблон RMS** выберите Не **переадваровываться**. Выберите **ОК,** а затем **Сохранить**.
+5. Введите имя для нового правила потока почты, а затем в списке Применить это **правило,** если , выберите Свойства  >  **сообщенияВключите тип** сообщения  >  **Голосовая почта**. Выберите **ОК**.
+6. В **области Сделать следующее** выберите Применить шифрование сообщений Office 365 и защиту **прав** к сообщению с помощью и выберите Выберите **один**. В **RMS шаблона** выберите Не **переадваровываться**. Выберите **ОК,** а затем **Сохранить**.
     > [!NOTE]
     > Если список **шаблонов RMS** пуст, необходимо настроить шифрование сообщений. Дополнительные сведения о настройке шифрования сообщений см. в следующих статьях:
     > - [Настройка новых возможностей шифрования сообщений](/microsoft-365/compliance/set-up-new-message-encryption-capabilities?view=o365-worldwide)
     > - [Настройка шаблонов для Azure Information Protection и управление их использованием](/information-protection/deploy-use/configure-policy-templates)
     > - [Параметр "Не переадваровыть" для сообщений электронной почты](/information-protection/deploy-use/configure-usage-rights#do-not-forward-option-for-emails)
 
-## <a name="setting-voicemail-policies-in-your-organization"></a>Настройка политик голосовой почты в организации
-
-> [!WARNING]
-> Для Skype для бизнеса пользователей отключение голосовой почты с Microsoft Teams голосовой почты может также отключить службу голосовой почты для Skype для бизнеса пользователей.
-
-Транскрибирование голосовой почты включено по умолчанию, a транскрибирование маскировки богохульства отключено по умолчанию для всех организаций и пользователей; тем не менее ими можно управлять с помощью командлетов [Set-CsOnlineVoicemailPolicy](/powershell/module/skype/Set-CsOnlineVoicemailPolicy) и [Grant-CsOnlineVoicemailPolicy](/powershell/module/skype/Get-CsOnlineVoicemailPolicy).
-
-Сообщения голосовой почты, полученные пользователями в вашей организации, транскрибются в регионе, где Microsoft 365 или Office 365 организации. Регион, в котором размещен ваш клиент, может не быть регионом, в котором находится пользователь, получающий сообщение голосовой почты. Чтобы просмотреть регион размещения клиента, перейдите [](https://go.microsoft.com/fwlink/p/?linkid=2067339) на страницу профиля организации и щелкните Просмотреть **сведения** рядом с кнопкой **Расположение данных.**
-
-> [!IMPORTANT]
-> Вы не можете создать новый экземпляр политики для транскрибации и транскрибации с помощью cmdlet **New-CsOnlineVoiceMailPolicy,** а также удалить существующий экземпляр политики с помощью cmdlet **Remove-CsOnlineVoiceMailPolicy.**
-
-Параметрами транскрибирования для пользователей можно управлять с помощью политик голосовой почты. Чтобы увидеть все доступные экземпляры политик голосовой почты, используйте для этого cmdlet [Get-CsOnlineVoicemailPolicy.](/powershell/module/skype/Get-CsOnlineVoicemailPolicy)
-
-```PowerShell
-PS C:\> Get-CsOnlineVoicemailPolicy
-
-
-Identity                            : Global
-EnableTranscription                 : True
-ShareData                           : Defer
-EnableTranscriptionProfanityMasking : False
-EnableEditingCallAnswerRulesSetting : True
-MaximumRecordingLength              : 00:05:00
-EnableTranscriptionTranslation      : True
-
-Identity                            : Tag:Default
-EnableTranscription                 : True
-ShareData                           : Defer
-EnableTranscriptionProfanityMasking : False
-EnableEditingCallAnswerRulesSetting : True
-MaximumRecordingLength              : 00:05:00
-EnableTranscriptionTranslation      : True
-
-Identity                            : Tag:TranscriptionProfanityMaskingEnabled
-EnableTranscription                 : True
-ShareData                           : Defer
-EnableTranscriptionProfanityMasking : True
-EnableEditingCallAnswerRulesSetting : True
-MaximumRecordingLength              : 00:05:00
-EnableTranscriptionTranslation      : True
-
-Identity                            : Tag:TranscriptionDisabled
-EnableTranscription                 : False
-ShareData                           : Defer
-EnableTranscriptionProfanityMasking : False
-EnableEditingCallAnswerRulesSetting : True
-MaximumRecordingLength              : 00:05:00
-EnableTranscriptionTranslation      : True
-```
-  
-### <a name="turning-off-transcription-for-your-organization"></a>Выключение транскрибирования для организации
-
-Так как по умолчанию для вашей организации транскрибирование включено, его можно отключить с помощью командлета [Set-CsOnlineVoicemailPolicy](/powershell/module/skype/Set-CsOnlineVoicemailPolicy). Для этого выполните команду:
-
-```PowerShell
-Set-CsOnlineVoicemailPolicy -EnableTranscription $false
-```
-
-### <a name="turning-on-transcription-profanity-masking-for-your-organization"></a>Включение транскрибирования маскировки богохульства для вашей организации
-
-Транскрибирования маскировки богохульства  отключено по умолчанию для вашей организации. Если для бизнеса требуется включение транскрибирования маскировки богохульства, его можно включить с помощью [Set-CsOnlineVoicemailPolicy](/powershell/module/skype/Set-CsOnlineVoicemailPolicy). Для этого выполните команду:
-
-```PowerShell
-Set-CsOnlineVoicemailPolicy -EnableTranscriptionProfanityMasking $true
-```
-
-### <a name="turning-off-transcription-for-a-user"></a>Выключение транскрибирования для пользователя
-
-Анализ политик пользователей выполняется до анализа параметров по умолчанию для организации. Например, если транскрибация голосовой почты включена для всех пользователей, вы можете назначить политику, которая отключит транскрибцию для определенного пользователя, с помощью cmdlet [Grant-CsOnlineVoicemailPolicy.](/powershell/module/skype/Grant-CsOnlineVoicemailPolicy)
-
-Для отключения транскрибирования для одиночного пользователя выполните команду:
-
-```PowerShell
-Grant-CsOnlineVoicemailPolicy -PolicyName TranscriptionDisabled -Identity sip:amosmar@contoso.com
-```
-
-### <a name="turning-on-transcription-profanity-masking-for-a-user"></a>Включение транскрибирования маскировки богохульства для пользователя
-
-Чтобы включить транскрибирование маскировки богохульства для определенного пользователя, можно назначить политики для включения транскрибирования маскировки богохульства для отдельного пользователя с помощью командлета [Grant-CsOnlineVoicemailPolicy](/powershell/module/skype/Grant-CsOnlineVoicemailPolicy).
-
-Чтобы включить транскрибирование маскировки богохульства для одного пользователя, выполните следующую команду:
-
-```PowerShell
-Grant-CsOnlineVoicemailPolicy -PolicyName TranscriptionProfanityMaskingEnabled -Identity sip:amosmar@contoso.com
-```
-
-> [!IMPORTANT]
-> Служба голосовой почты Microsoft 365 и Office 365 кэш политики голосовой почты и обновляет кэш каждые 4 часа. Поэтому, процесс применения изменений, внесенных в политику, может выполняться до 4 часов.
-
 ## <a name="help-your-users-learn-teams-voicemail-features"></a>Помощь пользователям в Teams голосовой почты
 
-Ниже представлены сведения для пользователей об управлении настройками голосовой почты, а также другими функциями звонков в Teams.
+Пользователи могут управлять настройками голосовой почты, а также другими функциями звонков в Teams:
 
 - [Управление настройками параметров звонка в Teams](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f). В этой статье объясняется, как управлять всеми функциями звонков Teams пользователями. 
 
