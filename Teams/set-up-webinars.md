@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: Узнайте, как управлять политиками веб-Teams собраний.
-ms.openlocfilehash: aafa7b57eea1228fa5565bb4d5e95304b42751a3
-ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
+ms.openlocfilehash: 14452b0caeee33f90b59f6581b6fccf4d5e0311b
+ms.sourcegitcommit: 4a039550bc5c3a497b6b52c7fed08cadf8268b06
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "52718050"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52926751"
 ---
 # <a name="set-up-for-webinars-in-microsoft-teams"></a>Настройка вебинары в Microsoft Teams
 
@@ -32,7 +32,7 @@ ms.locfileid: "52718050"
 
 ## <a name="what-are-webinars"></a>Что такое вебинары?
 
-Вебинары — это структурированные собрания, на которых преподаватели и участники имеют четкие роли, которые часто используются для обучения или для подготовки по продажам и маркетингу.
+Вебинары — это структурированные собрания, на которых у участников и участников есть четкие роли, которые часто используются для обучения или для подготовки по продажам и маркетингу.
 
 После настройки вебинары в организации пользователи могут планировать вебинары и открывать регистрацию для участников. В отличие от традиционных собраний, включавших множество обсуждений и заданий задач, вебинары предназначены для интерактивных презентаций и предоставляют инструменты для анализа участников.
 
@@ -47,29 +47,30 @@ ms.locfileid: "52718050"
 Дополнительные сведения о cmdlet см. в документе [Set-CsTeamsMeetingPolicy.](/powershell/module/skype/set-csteamsmeetingpolicy)
 
 > [!NOTE]
-> Перед запуском этих cmdlets необходимо подключение к Skype для бизнеса Online PowerShell. Дополнительные сведения см. в Skype для бизнеса Online с [помощью Microsoft 365 или Office 365 PowerShell.](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)
+> Перед запуском этих cmdlets необходимо подключение к Microsoft Teams PowerShell. Дополнительные сведения см. в [Teams помощью Microsoft Teams PowerShell.](/microsoftteams/teams-powershell-managing-teams)
 
 ### <a name="allow-users-to-schedule-webinars"></a>Разрешить пользователям планировать вебинары
 
-Чтобы разрешить пользователям в организации планировать вебинары, запустите:
+Вы можете ограничить регистрацию только пользователями в организации или открыть ее для всех пользователей в клиенте и за ее пределами. По умолчанию **whoCanRegister** включен и установлено значение **Все**. Если вы хотите отключить регистрацию на собрании, установите **для allowMeetingRegistration (РазрешитьMeetingRegistration)** false **(Ложь).**
+
+> [!IMPORTANT]
+> Чтобы разрешитьMeetingRegistration, задайте для  **allowPrivateMeetingMeetingScheduling** (Планирование планирования событий **allowPrivateMeetingScheduling)** true. Кроме того, списки Майкрософт необходимо настроить в SharePoint. Дополнительные новости см. в [параметрах управления списками Майкрософт.](/sharepoint/control-lists)
+
+1. Включить регистрацию собраний
 
 ```powershell
 Set-CsTeamsMeetingPolicy -AllowMeetingRegistration $True
 ```
-### <a name="configure-who-can-register-for-webinars"></a>Настройка пользователей, которые могут регистрироваться на вебинары
 
-Вы можете ограничить регистрацию только пользователями в организации или открыть ее для всех пользователей в клиенте и за ее пределами. По умолчанию **whoCanRegister** включен и установлено значение **Все**. Если вы хотите отключить регистрацию на собрании, установите **для allowMeetingRegistration (РазрешитьMeetingRegistration)** **ложное.**
-
-> [!IMPORTANT]
-> Имейте в виду, что для  **allowMeetingRegistration для allowMeetingRegistration** должно быть установлено разрешение True.  Кроме того, списки Майкрософт необходимо настроить в SharePoint. Дополнительные параметры см. [в параметрах управления списками Майкрософт.](/sharepoint/control-lists)
-
-**Чтобы разрешить *только* пользователям в вашей организации регистрироваться для вебинары, запустите:**
+2. Включить планирование частных собраний
 
 ```powershell
 Set-CsTeamsMeetingPolicy -AllowPrivateMeetingScheduling $True
 ```
 
-Затем запустите:
+3. Настройка пользователей, которые могут регистрироваться на вебинары
+
+**Разрешить *только* пользователям в организации регистрироваться для вебинары**
 
 ```powershell
 Set-CsTeamsMeetingPolicy -WhoCanRegister EveryoneInCompany
@@ -78,16 +79,10 @@ Set-CsTeamsMeetingPolicy -WhoCanRegister EveryoneInCompany
 **Чтобы разрешить всем пользователям, в том числе анонимным пользователям, регистрироваться в вебинары, запустите:**
 
 ```powershell
-Set-CsTeamsMeetingPolicy -AllowPrivateMeetingScheduling $True
-```
-
-Затем запустите:
-
-```powershell
 Set-CsTeamsMeetingPolicy -WhoCanRegister Everyone
 ```
 
-> [!IMPORTANT]
+> [!CAUTION]
 > Если анонимное присоединиться отключено в параметрах собрания, анонимные пользователи не смогут присоединяться к вебинасам. Дополнительные узнать и включить этот параметр см. в [Teams.](meeting-settings-in-teams.md)
 
 ### <a name="collect-meeting-attendance"></a>Сбор участия в собраниях
