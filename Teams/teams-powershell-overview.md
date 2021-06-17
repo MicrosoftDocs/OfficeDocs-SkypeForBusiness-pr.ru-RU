@@ -13,47 +13,33 @@ ms.collection:
 description: Узнайте, как использовать элементы управления PowerShell для управления Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 448658fb844052815e14b85e0c70a33cb737b72d
-ms.sourcegitcommit: 616403037ddb2d44f06cd9b2eaa9da699b119ef8
+ms.openlocfilehash: e91a200ee79cb8906b6f9fce210d965ea0f42a8f
+ms.sourcegitcommit: 1b057bfcc3207960b956962845fd5051afe91722
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "51768358"
+ms.lasthandoff: 06/15/2021
+ms.locfileid: "52947561"
 ---
 # <a name="microsoft-teams-powershell-overview"></a>Microsoft Teams Обзор PowerShell
 
-Microsoft Teams PowerShell — это набор командлетов для управления Teams непосредственно из командной строки PowerShell. В стандартном сценарии .NET Teams PowerShell работает в PowerShell 5.1 в Windows, PowerShell 6.x и более высоких уровнях на всех платформах, включая Azure Cloud Shell.
+Microsoft Teams Модуль PowerShell — это набор командлетов для управления Teams непосредственно из командной строки PowerShell. PowerShell предоставляет мощные функции автоматизации, которые можно использовать для управления рабочей нагрузкой Teams рабочих нагрузок.  
 
-Прежде чем приступить к использованию PowerShell, необходимо установить [его.](teams-powershell-install.md) 
+Вы можете использовать модуль Microsoft Teams PowerShell одним из следующих способов: 
 
-> [!WARNING]
-> Известные проблемы с PowerShell 7 и Teams PowerShell. Мы рекомендуем использовать PowerShell 5.1, пока проблемы не будут устранены.
-
-## <a name="releases"></a>Релизы
+- Установите модуль Microsoft Teams PowerShell с помощью [коллекции PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams) (рекомендуется). 
+- Установите модуль Microsoft Teams PowerShell с помощью [скачивания вручную.](https://www.powershellgallery.com/packages/MicrosoftTeams) 
 
 
-Teams PowerShell доступен в коллекции [PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams) двух типов выпусков.
+## <a name="features"></a>Функции 
 
-- **Общие возможности доступности:** готовые к эксплуатации cmdlets, обновляются ежемесячно.
+Модуль Microsoft Teams PowerShell включает следующие возможности: 
 
-- **Общедоступный предварительный** просмотр: ранний доступ к функциям. Обновления могут обновляться чаще, чем обычно.
+- Используется один модуль для управления всеми аспектами администрирования Teams, включая пользователей, группы, политики и конфигурацию.  
+- Поддерживает механизмы проверки подлинности, такие как маркеры доступа и учетные данные. 
 
-Подробные сведения о добавлении и усовершенствованиях функций для обоих выпусков можно получить в заметках Teams о выпуске [PowerShell.](teams-powershell-release-notes.md)
+##  <a name="data-collection"></a>Сбор данных 
 
-
-## <a name="manage-teams-with-powershell"></a>Управление Teams с помощью PowerShell
-
-Модули PowerShell Teams для полного управления Teams:
-
-- [Microsoft Teams PowerShell:](https://www.powershellgallery.com/packages/MicrosoftTeams/)модуль Teams PowerShell содержит командлеты для управления командами, чатом и каналами.
-
-> [!NOTE]
-> Общедоступный [Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/) версии 2.0 или более высокой версии включает все командлеты Skype для бизнеса Online Connector, предоставляющие один модуль для управления Teams PowerShell.
-
-- [Skype для бизнеса PowerShell Connector](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell): соединитель Skype для бизнеса PowerShell теперь является частью модуля Teams PowerShell.
-
-Полное руководство по управлению Teams с помощью этих модулей см. в Teams с помощью [Teams PowerShell.](teams-powershell-managing-teams.md)
-
+Microsoft Teams Параметры модуля PowerShell по умолчанию собирают данные телеметрии. Корпорация Майкрософт собирает собранные данные для выявления шаблонов использования и распространенных проблем, таких как проектлеты с низким успехом, чтобы помочь нам определить приоритеты работы по улучшению Teams PowerShell. Microsoft Teams Модуль PowerShell не собирает личные или личные данные.  
 
 ## <a name="related-topics"></a>Статьи по теме
 
