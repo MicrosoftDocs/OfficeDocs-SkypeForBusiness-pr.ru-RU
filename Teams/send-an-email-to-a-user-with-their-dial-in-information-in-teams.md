@@ -21,13 +21,13 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
-description: Узнайте, как отправить пользователям сообщение электронной почты со сведениями об аудиоконференциях в Microsoft Teams.
-ms.openlocfilehash: 8cc0e549d502a2c7a8d8052ebe496a82e36b6648
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Узнайте, как отправить пользователям сообщение электронной почты со сведениями о аудиоконференции в Microsoft Teams.
+ms.openlocfilehash: 13c566884c5bc3e8d5de873696541c4b88fcb271
+ms.sourcegitcommit: 8c2093f7a048a9a56b36e4a3b4c48ae1206c52f6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117217"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "53004201"
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-microsoft-teams"></a>Отправка пользователю письма с данными для аудиоконференций в Microsoft Teams
 
@@ -55,7 +55,6 @@ ms.locfileid: "51117217"
 
 3. В разделе **Аудиоконференции** щелкните **Отправить информацию для конференций в электронном письме**.
 
-
 ## <a name="what-else-should-you-know-about-this-email"></a>Что еще необходимо знать о таких сообщениях?
 
 - После включения аудиоконференции пользователям в организации отправляется несколько сообщений электронной почты:
@@ -72,17 +71,6 @@ ms.locfileid: "51117217"
     
   - При смене поставщика услуг аудиоконференций для пользователя на Майкрософт.
   
-## <a name="want-to-know-more-about-windows-powershell"></a>Хотите узнать больше о Windows PowerShell?
-
-Windows PowerShell is all about managing users and what users are allowed or not allowed to do. С Windows PowerShell вы можете управлять Microsoft 365 или Office 365 с помощью единого администрирования, который упростит выполнение повседневных задач. Для начала работы с Windows PowerShell ознакомьтесь с приведенными ниже разделами.
-    
-  - [Шесть причин использовать Windows PowerShell для управления Office 365](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
-    
-  - [Лучшие способы управления Microsoft 365 или Office 365 с помощью Windows PowerShell](/previous-versions//dn568025(v=technet.10))
-    
-Дополнительные сведения о Windows PowerShell см. в [справочнике по Microsoft Teams PowerShell](/powershell/module/teams/?view=teams-ps).
-    
-  
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>Статьи по теме
 
 [Попробуйте или приобретйте аудиоконференцию в Microsoft 365 или Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

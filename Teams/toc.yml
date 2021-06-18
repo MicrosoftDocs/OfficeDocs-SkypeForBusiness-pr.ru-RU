@@ -791,6 +791,8 @@ items:
                 href: rooms/lrs-migration.md
               - name: Камеры содержимого
                 href: rooms/content-camera.md
+              - name: Элементы управления распознаванием голоса для интеллектуальных динамиков
+                href: rooms/voice-recognition.md
           - name: Управление
             items:
               - name: Обзор управления

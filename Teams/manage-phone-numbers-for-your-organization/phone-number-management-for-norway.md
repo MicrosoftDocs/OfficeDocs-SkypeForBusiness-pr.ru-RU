@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: В этой таблице вы найдете сведения о получении номеров телефонов в Норвегии и управлении Microsoft Teams.
-ms.openlocfilehash: 2e706e2eb992439e23cc0bdcca683a4bc34ab364
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: eba8ad5c5b9aebbb4190f0305e037cd2549febc8
+ms.sourcegitcommit: 7015d6f5858399a4e6c5feded95dfba50d17ce7b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52130080"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52993886"
 ---
 # <a name="phone-number-management-for-norway"></a>Телефон управления номерами для Норвегии
 
@@ -37,9 +37,10 @@ ms.locfileid: "52130080"
   
 |**Требуемое действие**|**Загрузка подходящих форм**|
 |:-----|:-----|
-|Получите новые номера пользователей или номеров телефонов служб, которые не указаны в Microsoft Teams центре администрирования.<br/> |В Норвегии вы можете получить номера телефонов для своей организации с помощью центра Microsoft Teams администрирования. Вы также можете отправить новый запрос на номер телефона, скачав форму [и отправив ее нам.](mailto:ptneu@microsoft.com)<br/><br/>[Новый номер телефона для Норвегии (v.1.0) (en-nw).](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-united-states-(v.5.0)-(en-us).pdf?raw=true) <br/><br/> Прежде чем вам будет назначен номер телефона, необходимо скачать форму "Знать клиента", заполнить ее полностью и отправить нам. <br/><br/>Заполнение новых заказов на этом рынке может занять от двух до трех недель.  |
+|Получите новые номера пользователей или номеров телефонов служб, которые не указаны в Microsoft Teams центре администрирования.<br/> |В Норвегии вы можете получить номера телефонов для своей организации с помощью центра Microsoft Teams администрирования. Вы также можете отправить новый запрос на номер телефона, скачав форму [и отправив ее нам.](mailto:ptneu@microsoft.com)<br/><br/><ul><li>[Новый номер телефона для Норвегии (v.1.0) (nb-NO)](https://download.microsoft.com/download/3/9/a/39adb4f0-74b8-424d-8830-2a116b576bee/know-your-customer-for-norway-(v.1.0)-(nb-NO).pdf)
+</li><li>[Новый номер телефона для Норвегии — норвежский bokmål (v.1.0) (nb-no)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-united-states-(v.5.0)-(en-us).pdf?raw=true)</li></ul><br/> Прежде чем вам будет назначен номер телефона, необходимо скачать форму "Знать клиента", заполнить ее полностью и отправить нам. <br/><br/>Заполнение новых заказов на этом рынке может занять от двух до трех недель.  |
 |Перенаправь нам номера телефонов.<br/> | Скачайте эту форму. <br/>[Док-досье (LOA) для Норвегии (все номера) (v.1.0) (en-nw)](https://download.microsoft.com/download/a/6/8/a68d6c80-daf5-4d40-ba6e-d0f99db1041b/letter-of-authorization-(loa)-for-finland-(all-numbers)-(v1.0)-(en-fi).pdf) <br/> <br/>Заполните ее и [отправьте его нам](mailto:ptneu@microsoft.com). <br/><br/>Перенос номеров на этом рынке может занять от четырех до пяти недель.<br/><br/> В настоящее время эти номера нельзя использовать для использования для связи.  |
-|Публикация и публикация номеров телефонов в национальном телефонном каталоге.  <br/> |[Отправьте нам](mailto:ptneu@microsoft.com) список номеров телефонов для публикации или отмены публикации. <br/> |
+|Публикация и публикация номеров телефонов в национальном каталоге телефонов.  <br/> |[Отправьте нам](mailto:ptneu@microsoft.com) список номеров телефонов для публикации или отмены публикации. <br/> |
 |Измените номер пользователя на номер службы.  <br/> |[Отправьте нам](mailto:ptneu@microsoft.com) список номеров пользователей, которые необходимо преобразовать в номера служб. <br/> |
 |Обновление службы каталогов для очереди вызовов или номеров автозаводников|Чтобы добавить или изменить номера очереди вызовов или номера автозавода, обратитесь [в службу поддержки ПСОП.](contact-pstn-service-desk.md) |
    
