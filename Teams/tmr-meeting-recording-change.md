@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4824e24eb1e648d2ffc2d52fbdc1fa8593bbe9d9
-ms.sourcegitcommit: 5c68298474d1782e69bde8c0940be7150cb93f6e
+ms.openlocfilehash: 72c65de4892a25889fb456c73406126d34335f9a
+ms.sourcegitcommit: a07040d1527692b4dbde7bd2c21994377ad0a92e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53096303"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53114018"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Использование OneDrive для бизнеса и SharePoint или Stream для записей собраний
 
@@ -57,7 +57,7 @@ Microsoft Teams есть новый способ сохранения запис
 - Поддержка нескольких регионов: записи хранятся в конкретном регионе для этого пользователя
 - Поддержка собственного ключа (BYOK)
 
-См. полный список [функций, доступных сегодня, и о том, чего ожидать с течением времени.](https://docs.microsoft.com/stream/streamnew/features-new-version-stream) 
+См. полный список [функций, доступных сегодня, и о том, чего ожидать с течением времени.](/stream/streamnew/features-new-version-stream) 
 
 Дополнительные сведения можно получить в Microsoft Teams "Новые возможности записи собраний".
 
@@ -142,7 +142,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 
 **Как обрабатывать записи бывших сотрудников?**
 
-Так как видео похожи на другие файлы в OneDrive для бизнеса и SharePoint, обработка владения и хранения после того, как сотрудник уедет, будет выполняться обычный OneDrive для бизнеса и [SharePoint.]( https://docs.microsoft.com/onedrive/retention-and-deletion#the-onedrive-deletion-process)
+Так как видео похожи на другие файлы в OneDrive для бизнеса и SharePoint, обработка владения и хранения после того, как сотрудник уедет, будет выполняться обычный OneDrive для бизнеса и [SharePoint.](/onedrive/retention-and-deletion#the-onedrive-deletion-process)
 
 **Кто есть разрешения на просмотр записи собрания?**
 
@@ -155,7 +155,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 
 **Как управлять субтитрами?**
 
-Субтитры для Teams собраний будут доступны во время воспроизведения только в том случае, если на момент записи у пользователя была включена транскрибация. Администраторам необходимо [включить запись транскрибации]( https://docs.microsoft.com/microsoftteams/cloud-recording#turn-on-or-turn-off-recording-transcription) с помощью политики, чтобы обеспечить пользователям возможность записи собраний с транскрибцией.
+Субтитры для Teams собраний будут доступны во время воспроизведения только в том случае, если на момент записи у пользователя была включена транскрибация. Администраторам необходимо [включить запись транскрибации](/microsoftteams/cloud-recording#turn-on-or-turn-off-recording-transcription) с помощью политики, чтобы обеспечить пользователям возможность записи собраний с транскрибцией.
 
 Субтитры помогают создавать инклюзивные материалы для всех пользователей. Владелец может скрыть субтитры в записи собрания, но расшифровка собрания будет доступна в Teams пока вы не удалите ее. 
 

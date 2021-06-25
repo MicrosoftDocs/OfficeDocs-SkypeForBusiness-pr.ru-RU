@@ -19,36 +19,35 @@ ms.custom:
 description: Обучающие видео, PowerPoint, учебники и другие ресурсы для администраторов по планированию, развертыванию и запуску Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 664e9649d5fab01fb40124aa383943ec496ce452
-ms.sourcegitcommit: 38fa37d83704200911866cf017566fcb128ea2fe
+ms.openlocfilehash: dfb21be79f22628d7b30b2328ef18248cd35864e
+ms.sourcegitcommit: a07040d1527692b4dbde7bd2c21994377ad0a92e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 06/24/2021
-ms.locfileid: "53105031"
+ms.locfileid: "53113968"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Начало работы с обучением администраторов Microsoft Teams
 
-Воспользуйтесь учебными ресурсами, чтобы проучить себя Teams, обучить других или проводить семинары. Сюда часто проверяйте, чтобы посмотреть новое содержимое.
+Воспользуйтесь учебными ресурсами, чтобы проучить себя Teams, обучить других или проводить семинары. Часто проверяйте здесь, чтобы посмотреть новое содержимое.
 
 |               |               |               |               |
 | :------------ | :------------ | :------------ | :------------ |
-|![рука и стрелка вверх](/office/media/icons/get-started-teams.png) |[Начните свою откатить здесь](./get-started-with-teams-quick-start.md)     |![Документ со списком](/office/media/icons/document-teams.png)|[Просмотр Teams по платформам](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)         |
-|![кнопка воспроизведения видео](/office/media/icons/video-play.png) |[Просмотр лучших методик и видео с поуча-висячай в кофе в канале Cloud на YouTube](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos)     |![Человек с ключом](/office/media/icons/administrator.png) |[Teams Беседы на мелком: изучите рекомендации и практические рекомендации по популярным Teams сценариям](./chalk-talks-landing-page.yml)         |
+|![рука и стрелка вверх](/office/media/icons/get-started-teams.png) |[Начните отсюда](./get-started-with-teams-quick-start.md)     |![Документ со списком](/office/media/icons/document-teams.png)|[Просмотр Teams по платформам](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)         |
+|![кнопка воспроизведения видео](/office/media/icons/video-play.png) |[Просмотр лучших методик и видео с поучаами в канале "Кофе" в облачном канале на сайте YouTube](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos)     |![Человек с ключом](/office/media/icons/administrator.png) |[Teams Беседы на мелком: изучите рекомендации и практические рекомендации по популярным Teams сценариям](./chalk-talks-landing-page.yml)         |
 |  |  | |
 
 <h2>Ключевые учебные предложения и курсы</h2>
 
 | | |  |
 |---------|---------|---------|
-|[**Teams**](https://aka.ms/MicrosoftTeamsforIT) для ИТ-администраторов : серию видео "Teams microsoft Mechanics для ИТ" показывает, как можно разо свернуть, настроить и управлять Teams.     |[**Поддержка удаленных**](support-remote-work-with-teams.md#support-remote-workers-using-microsoft-teams) сотрудников с помощью Microsoft Teams— получите необходимые инструкции, в том числе ссылки на учебные курсы, для поддержки пользователей, работающих дома.         |[**Управление совместной работой**](/learn/paths/m365-manage-team-collaboration) группы для ИТ-пользователей. Узнайте, как использовать Teams для упрощения командной работы и общения в организации с помощью приложений и устройств.         |
+|[**Teams**](https://aka.ms/MicrosoftTeamsforIT) для ИТ-администраторов : серию видео "Teams microsoft Mechanics для ИТ" показывает, как можно разо свернуть, настроить и управлять Teams.     |[**Поддержка удаленных сотрудников с**](support-remote-work-with-teams.md#support-remote-workers-using-microsoft-teams) помощью Microsoft Teams— получите необходимые инструкции, в том числе ссылки на учебные курсы, чтобы поддерживать пользователей, работающих дома.         |[**Управление совместной работой**](/learn/paths/m365-manage-team-collaboration) группы для ИТ-пользователей. Узнайте, как использовать Teams для упрощения командной работы и общения в организации с помощью приложений и устройств.         |
 |[**Сертификация специалиста по внедрению служб**](/learn/paths/m365-service-adoption) — возможности курса сертификации "Специалист по внедрению служб Майкрософт" Teams. Узнайте, как внедрять службы Майкрософт в своей организации.     |[**Введение в командную работу в Microsoft 365**](/learn/modules/intro-to-teamwork-in-m365/index) — возможности курса сертификации специалистов по внедрению служб Майкрософт Teams. Узнайте, как внедрять службы Майкрософт в своей организации.        |[**Microsoft 365 Сертифицировано:**](/learn/certifications/m365-teamwork-administrator) помощник администратора по командной работе — Microsoft 365 Администраторы командной работы настраивают, развертывают и управляют рабочими нагрузками Microsoft 365 или Office 365, такими как SharePoint (в сети, локально и гибридной конфигурации), OneDrive и Teams.        |
-
 
 <h2>Техническое обучение</h2>
 
 | Модуль | Видео | PowerPoint с PowerPoint  |
 | ------------ | -------------------- | -------------------- |
-| [Microsoft Mechanics — Teams Essentials для ИТ-канала YouTube](https://aka.ms/MicrosoftTeamsforIT) | [Видео: Teams основные для ИТ](https://www.youtube.com/watch?v=MfDB7VenWuA&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn) -10:13 мин.<br>[Видео. Развертывание & настройки Teams - Intro](https://www.youtube.com/watch?v=o2mlsUubIO4&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn&index=2) (8:22 мин)  <br>[Видео: безопасность и соответствие](https://youtu.be/91lHNKVVvQ4) требованиям (12:42 мин)<br>[Видео: Teams безопасности и соответствия](https://www.youtube.com/watch?v=Km4T4hMM__k) требованиям (10:54 мин)||
+| [Microsoft Mechanics — Teams Essentials для ИТ-канала YouTube](https://aka.ms/MicrosoftTeamsforIT) | [Видео: Teams основные](https://www.youtube.com/watch?v=MfDB7VenWuA&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn) 10:13 мин.<br>[Видео. Развертывание & настройки Teams - Intro](https://www.youtube.com/watch?v=o2mlsUubIO4&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn&index=2) (8:22 мин)  <br>[Видео: безопасность и соответствие](https://youtu.be/91lHNKVVvQ4) требованиям (12:42 мин)<br>[Видео: Teams безопасности и соответствия](https://www.youtube.com/watch?v=Km4T4hMM__k) требованиям (10:54 мин)||
 | Foundations — основные компоненты | [Видео](https://aka.ms/teams-foundations) | [Палубе](https://aka.ms/teams-foundations-deck) |
 | Windows Клиент для настольных ПК | [Видео](https://aka.ms/teams-clients) | [Палубе](https://aka.ms/teams-clients-deck) |
 | Управление, управление и жизненный цикл | [Видео](https://aka.ms/teams-governance) | [Палубе](https://aka.ms/teams-governance-deck) |
@@ -89,6 +88,7 @@ ms.locfileid: "53105031"
 | Модуль 2. Планирование Microsoft Teams устройств с Android|[Палубе](https://download.microsoft.com/download/f/8/f/f8f94605-9545-449b-b5d3-f24efc55f966/Planning%20Microsoft%20Teams%20Android%20Devices.pdf) |
 |Модуль 3. Возможности Microsoft Teams Android |[Палубе](https://download.microsoft.com/download/c/9/9/c9922544-7e27-40af-bf19-dbdc8516f0c1/Module%203-%20Features%20of%20Microsoft%20Teams%20Android%20Devices.pdf)|
 |Модуль 4. Управление Microsoft Teams устройствами с Android|[Палубе](https://download.microsoft.com/download/c/e/b/ceb686ff-9be2-495c-9e2e-80047765e5b4/(4)%20Managing%20Microsoft%20Teams%20Android%20Devices.pdf)|
+|Модуль 5. Microsoft Teams Android — устранение неполадок |[Палубе](https://download.microsoft.com/download/d/3/7/d3728209-5caa-4bfb-b46a-3b840e80142a/Microsoft%20Teams%20Android%20Devices%20-%20Troubleshooting.pdf)|
 
 <h2>Интерактивные руководства</h2>
 
@@ -120,5 +120,3 @@ ms.locfileid: "53105031"
 - [Руководство. Собрания в Teams](tutorial-meetings-in-teams.yml)
 - [Руководство. Аудиоконференции в Teams](tutorial-audio-conferencing.yml)
 - [Учебное руководство. Общие сведения о звонках в Microsoft Teams](tutorial-calling-in-teams.yml)
-
-
