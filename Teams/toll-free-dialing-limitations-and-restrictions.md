@@ -23,12 +23,12 @@ ms.custom:
 - Strat_SB_PSTN
 - seo-marvel-mar2020
 description: Узнайте о наборе бесплатных номеров в стране или регионе, в том числе о доступности, доступности проводной или фиксированной связи, доступности мобильной сети и ограничениях.
-ms.openlocfilehash: 2d4fe611683217d058e9fb2a9a8330c4d6e2798c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: b56e923f12182501459c1eeab923bdb668c44dc3
+ms.sourcegitcommit: 7579dda8018691eb1a724cb0311b53333dc3ae5a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093899"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53142825"
 ---
 # <a name="toll-free-dialing-limitations-and-restrictions"></a>Ограничения и запреты для бесплатных номеров
 
@@ -49,6 +49,7 @@ ms.locfileid: "51093899"
 > - [Бразилия](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brazil.md)
 > - [Бруней](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brunei.md)
 > - [Болгария](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bulgaria.md)
+> - [Канада](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-canada.md)
 > - [Чили](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chile.md)
 > - [Китай (север)](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinanorth-10-800-714-xxxx-range.md)
 > - [Китай (юг)](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinasouth-10-800-140-xxxx-range.md)
@@ -101,11 +102,12 @@ ms.locfileid: "51093899"
 > - [Турция](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-turkey.md)
 > - [Объединенные Арабские Эмираты](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-united-arab-emirates.md)
 > - [Соединенное Королевство](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-united-kingdom-u-k.md)
+> - [США](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-united-states-u-s.md)
 > - [Уругвай](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-uruguay.md)
 > - [Венесуэла](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-venezuela.md)
 > - [Вьетнам](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-vietnam.md)
   
-## <a name="here-are-some-important-things-for-you-to-remember-about-toll-free-numbers"></a>Вот некоторые важные моменты, которые нужно запомнить о бесплатных номерах:
+## <a name="here-are-some-important-things-for-you-to-remember-about-toll-free-numbers"></a>Вот некоторые важные моменты, которые следует помнить о бесплатных номерах:
 
 - **Бесплатные номера действуют только в каждой стране или регионе.** Например, пользователи не могут звонить на бесплатный номер в Австралии из других стран.
     
@@ -116,9 +118,9 @@ ms.locfileid: "51093899"
     > [!NOTE]
     > Если ваш бесплатный номер не будет соответствовать этим условиям, корпорация Майкрософт может отозвать у вас этот номер по требованию агентства телекоммуникаций или надзорного органа. 
   
-- **Доступ к бесплатным номерам по проводным, наземным и мобильным линиям связи может быть полностью или частично ограничен.** В формате набора описываются коды доступа, необходимые для звонков с бесплатным номером в каждой стране или регионе.
+- **Доступ к бесплатным номерам по проводным, наземным и мобильным линиям связи может быть полностью или частично ограничен.** В формате набора описываются коды доступа, необходимые для звонков с использованием бесплатного номера в каждой стране или регионе.
     
-- **Бесплатные номера телефонов по плану в Северной Америке:** Тарифы за минуту для бесплатных номеров телефонов по плану в Северной Америке определяются в зависимости от страны, в которая она была произведена. Бесплатный поминутный тариф для звонков из США определяется как "Северная Америка". Однако для звонков, которые происходят из других стран Северной Америки, таких как Канада, Пуэрто-Рико и т. д., есть определенные бесплатные тарифы.
+- **Бесплатные номера телефонов по плану в Северной Америке:** Тарифы поминутным тарифам для бесплатных номеров по плану в Северной Америке определяются в зависимости от страны, в которая она была произведена. Бесплатный поминутный тариф для звонков из США определяется как "Северная Америка". Однако для звонков, которые происходят из других стран Северной Америки, таких как Канада, Пуэрто-Рико и т. д., есть определенные бесплатные тарифы.
 
 > [!NOTE]
 > Если вам нужно больше номеров, [обратитесь в службу поддержки администраторов Skype для бизнеса](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).

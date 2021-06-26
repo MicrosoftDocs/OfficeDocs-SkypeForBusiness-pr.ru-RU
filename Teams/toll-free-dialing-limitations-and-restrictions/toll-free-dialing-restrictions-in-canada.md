@@ -1,11 +1,11 @@
 ---
-title: Ограничения набора бесплатных номеров в Мексике
-ms.author: crowe
-author: CarolynRowe
-manager: serdars
+title: Ограничения на бесплатный набор номеров в Канаде
+ms.author: v-lsaldanha
+author: lovina-saldanha
+manager: dansimp
 ms.reviewer: mikedav, oscarr
 ms.topic: reference
-ms.assetid: 576e0cc3-0a1a-43bf-a6fc-3a28e47ecd58
+ms.assetid: 4e3ffa25-762e-4066-acb2-15634818b586
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
@@ -23,15 +23,15 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: Узнайте о наборе бесплатных номеров в Мексике, включая доступность, доступность проводной и фиксированной телефонной связи, а также ограничения для мобильной сети.
-ms.openlocfilehash: 93a7a92d15860519fe9a599cfb247982be1b0ac3
+description: Узнайте о наборе бесплатных номеров в Канаде, включая доступность, доступность проводной и фиксированной телефонной связи, а также ограничения для мобильной сети.
+ms.openlocfilehash: 85ac884050c69e5be64c99c9c07df7549b2b2a9a
 ms.sourcegitcommit: 7579dda8018691eb1a724cb0311b53333dc3ae5a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2021
-ms.locfileid: "53142835"
+ms.locfileid: "53142933"
 ---
-# <a name="toll-free-dialing-restrictions-in-mexico"></a>Ограничения набора бесплатных номеров в Мексике
+# <a name="toll-free-dialing-restrictions-in-canada"></a>Ограничения на бесплатный набор номеров в Канаде
 
 [Найдите другую страну или регион](../toll-free-dialing-limitations-and-restrictions.md)или узнайте больше об ограничениях и ограничениях для бесплатного набора номера.
 
@@ -39,7 +39,7 @@ ms.locfileid: "53142835"
 |:-----|:-----|
 |Доступны ли бесплатные вызовы?  <br/> |Да  <br/> |
 |Формат набора  <br/> | 844<br/>833<br/>855<br/>800<br/>866<br/>877<br/>888<br/>|
-|Код страны или региона по ISO  <br/> |MX  <br/> |
+|Код страны или региона по ISO  <br/> |Cna  <br/> |
 |Охватываемая территория  <br/> |"Американский Самоа", "Ангильда", "Антигуа" и "Барбуда", Багамы, Фармадо, Квебек, Виргинские о-ва, Канада, Каймановы острова, Сарова, Аргентина, Гуам, Квебек, Монферрат, Северные Марианские острова, Пуэрто-Рико, Сент-Китс и Невис, Сент-Лусия, Сент-о-ва и Гренадские острова, Сен-Мартен, Тринидад и Тобаго, Теркс и Кайкос, США, Виргинские острова <br/> |
 |Доступность проводных и наземных линий связи  <br/> |Да  <br/> |
 |Доступность мобильных сетей  <br/> |Да  <br/> |
