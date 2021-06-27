@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7f642b1ce9a767c30077374aa193355edbbbef09
-ms.sourcegitcommit: 2591c96d8613660220c5af71fc945e27b31175d7
+ms.openlocfilehash: ed0e5aa3a39147238bf0ade57df509a31f0f13e8
+ms.sourcegitcommit: 7579dda8018691eb1a724cb0311b53333dc3ae5a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52863220"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53142815"
 ---
 # <a name="policy-control-overview-for-microsoft-teams"></a>Общие сведения об управлении политикой в Microsoft Teams
 
@@ -35,7 +35,7 @@ ms.locfileid: "52863220"
 В рамках этих изменений предусмотрены новые и обновленные элементы пользовательского интерфейса и параметры политики
 
 > [!IMPORTANT]
-> Дополнительные сведения см. в статье [Общие сведения об элементах управления политикой](/deployoffice/privacy/overview-privacy-controls) для Microsoft 365.
+> Дополнительные сведения см. в статье [Обзор средств управления конфиденциальностью в Приложениях Microsoft 365 для предприятий](/deployoffice/privacy/overview-privacy-controls).
 
 ## <a name="diagnostic-data-sent-from-microsoft-365-apps-for-enterprise-to-microsoft"></a>Диагностические данные, отправляемые в корпорацию Майкрософт из Приложений Microsoft Office 365 профессиональный плюс
 
