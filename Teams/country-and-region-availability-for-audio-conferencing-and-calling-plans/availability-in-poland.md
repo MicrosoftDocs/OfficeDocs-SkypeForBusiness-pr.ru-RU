@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Ниже находятся Microsoft 365 и Office 365 службы для Skype для бизнеса и Microsoft Teams для Польша.
-ms.openlocfilehash: bb60f6f100ec118349f39ac45371ff593013111c
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: 30cfa3fcc7d417402c0a5cb478c78b183f4492ee
+ms.sourcegitcommit: d7a4707192d73b718b23abc32beb6f1684c2f928
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52129648"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53177695"
 ---
 # <a name="availability-in-poland"></a>Доступность в Польше
 
@@ -56,6 +56,9 @@ ms.locfileid: "52129648"
 |Голосовая почта  <br/> |Доступно  <br/> |
    
 ## <a name="calling-plans"></a>Планы звонков
+
+> [!IMPORTANT]
+> В настоящее время в Польша в связи с выполнением заказов на выполнение новых номеров телефонов и переносом номеров выполняются непредвиденные задержки. Вы можете продолжить размещение заказов, но имейте в виду, что мы ожидаем, что эта задержка будет решена к сентября, после чего будут выполнены все ожидающих выполнения заказы.
 
 |**Функция**|**Сведения**|
 |:-----|:-----|
