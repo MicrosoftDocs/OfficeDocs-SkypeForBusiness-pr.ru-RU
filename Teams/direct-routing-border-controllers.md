@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Администратор может узнать, какие контроллеры границ сеансов (SBCs) сертифицированы для прямой маршрутики.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b15ff9956e988047b0246e7a965fcd58b1d9d74b
-ms.sourcegitcommit: 02703e8f9a512848e158a3a4f38d84501ad5f633
+ms.openlocfilehash: e06b3eeeec6f5e383f6fd4aaafcb1f034dd43338
+ms.sourcegitcommit: b39bd1de0219a9e3a3b0c97fc485c9578ddb643c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52526742"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "53230576"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Список пограничных контроллеров сеансов, сертифицированных для прямой маршрутизации
 
@@ -34,7 +34,7 @@ ms.locfileid: "52526742"
 - Совместная работа над протоколами межсоединения SIP.
 - Проводите активные тесты с помощью стороннее лабораторное тестирование. Сертифицированы только устройства, которые прошли тесты.
 - Ежедневно проводите тесты со всеми сертифицированными устройствами в производственной и предварительной средах. проверка устройств в предварительных средах гарантирует, что новые версии кода прямой маршрутизации в облаке будут работать с сертифицированными контроллерами SBC;
-- Создай совместную процедуру поддержки с поставщиками SBC.
+- Создай совместную поддержку с поставщиками SBC.
 
   > [!NOTE]
   > Корпорация Майкрософт поддерживает телефонная система только в том случае, если сертифицированные устройства подключены с помощью прямой маршрутии. Корпорация Майкрософт оставляет за собой право отклонить случаи поддержки, когда не сертифицированное устройство подключено к телефонная система прямой маршрутии. Если корпорация Майкрософт определяет, что проблема с прямой маршрутией клиента имеется в SBC-устройстве поставщика, клиенту потребуется привлечь его к поддержке.
@@ -73,10 +73,10 @@ ms.locfileid: "52526742"
 |                                                                                                                   |      AP 6350           |    &#10004;   |    &#10004;    |     8.3.0.0.1  |   &#10004;   |  &#10004;  |                                            
 |                                                                                                                    |      VME           |    &#10004;    |    &#10004;    |     8.3.0.0.1   |   &#10004;   |  &#10004;  |    
 |                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      Поддерживаемая 3.20 (рекомендуется 4.0)        |  &#10004;    |  &#10004;   |    
-|                     [Metaswitch](https://www.metaswitch.com/products/core-network/perimeta-sbc)                               |     Perimeta SBC        |     &#10004;   |  |      4.7      |     |    |  
+|                     [Metaswitch](https://www.metaswitch.com/products/core-network/perimeta-sbc)                               |     Perimeta SBC        |     &#10004;   | &#10004; |      4.7 (4.9 для обхода мультимедиа)      |     |    |  
 |                     [Cisco](https://www.cisco.com/c/en/us/solutions/enterprise/interoperability-portal/networking_solutions_products_genericcontent0900aecd805bd13d.html)                               |     Cisco Unified Border Element (CUBE) для маршрутизаторов интегрированных служб 1000 рядов        |     &#10004;   | &#10004; |      Поддерживаемая iOS XE 17.2.1r (рекомендуется 17.3.2)         |    &#10004;     |   |  
 |                                   |     Cisco Unified Border Element (CUBE) для маршрутизаторов интегрированных служб 4000 рядов        |     &#10004;   | &#10004; |   Поддерживаемая iOS XE 17.2.1r (рекомендуется 17.3.2)         |   &#10004;      |    |  
-|                                   |     Cisco Unified Border Element (CUBE) for 1000V Series Cloud Services Router       |     &#10004;   | &#10004; |      Поддерживаемая iOS XE 17.2.1r (рекомендуется 17.3.2)         |    &#10004;     |    |  
+|                                   |     Cisco Unified Border Element (CUBE) для маршрутизатора облачных служб 1000V Series       |     &#10004;   | &#10004; |      Поддерживаемая iOS XE 17.2.1r (рекомендуется 17.3.2)         |    &#10004;     |    |  
 |                                 |     Cisco Unified Border Element (CUBE) for 1000 Series Aggregation Services Routers      |     &#10004;   | &#10004; |      Поддерживаемая iOS XE 17.2.1r (рекомендуется 17.3.2)         |    &#10004;     |    |
 |                                 |     Cisco Unified Border Element (CUBE) для Платформы Edge 8000      |     &#10004;   | &#10004; |      IOS XE 17.3.2      |    &#10004;     |    |
 |                     [Avaya](https://support.avaya.com/products/P0997/avaya-session-border-controller-for-enterprise/8.1.x)|    Av прогорная граница сеанса для Enterprise (ASBCE)    |     &#10004;     |       &#10004;     |       Выпуск 8.1.1 (8.1.2 для обхода мультимедиа)      |     |    | 
@@ -86,7 +86,7 @@ ms.locfileid: "52526742"
 |                     [Ericsson](https://www.ericsson.com/en/portfolio/digital-services/cloud-communication/enterprise-communication/business-communication-services-and-enablers/sip-trunking)|    vSBC 2.16     |     &#10004;     |           |              |     |    | 
 |                     [Cataleya](https://cataleya.com/orchidplatforms/)|    Ссылка "Orchid"    |     &#10004;     |           |      3.1        |     |    | 
 |                     [ULTATEL](https://www.ultatel.com/services/direct-routing-teams-sbc)|    Teams Sbc    |     &#10004;     |     &#10004;      |      1.6        |     |    | 
-|                     [Atos](https://unify.com/en/solutions/voice-platforms/session-border-controller)|    Atos Unify OpenScape Session Border Controller   |     &#10004;     |          |      V10R1.2       |     |    | 
+|                     [Atos](https://unify.com/en/solutions/voice-platforms/session-border-controller)|    Atos Unify OpenScape Session Border Controller   |     &#10004;     |          |      10R1.2       |     |    | 
 |                     [Sansay Inc.](https://www.sansay.com/solutions/microsoft-teams/)|    vmVSXi   |     &#10004;     |     &#10004;     |      10.5.1.354-vm-S-x64      |     |    |
 |                     [Enghouse Networks](https://www.enghousenetworks.com/portfolio/network-infrastructure/cloud-native-session-border-controller-sbc/)|    Dialogic BorderNet SBC   |     &#10004;     |     &#10004;     |      3.9.0-786      |     |    |
 |                     [Patton Electronics Co.](https://www.patton.com/microsoft/)|    Глатон SmartNode eSBC   |     &#10004;     |         |      3.19.x      |     |    |
@@ -94,7 +94,7 @@ ms.locfileid: "52526742"
 <br/>
 * 911 поставщиков услуг
 
-- [Маршрутия динамического расположения в полосе пропускания](https://www.bandwidth.com/partners/microsoft-teams-direct-routing/)
+- [Маршрутия динамического расположения пропускной способности](https://www.bandwidth.com/partners/microsoft-teams-direct-routing/)
 - [Служба маршрутинга экстренных служб Интрадо (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)
 - [Шлюз для экстренного экстренного ситуация Intrado (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)
 <br/>
