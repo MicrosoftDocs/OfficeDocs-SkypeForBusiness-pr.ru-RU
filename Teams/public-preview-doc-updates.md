@@ -18,12 +18,12 @@ description: Ознакомьтесь с общедоступной предва
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: b0719e68dcbf1c73c15ee58e8c7d6be08f359aa5
-ms.sourcegitcommit: 2591c96d8613660220c5af71fc945e27b31175d7
+ms.openlocfilehash: e2724901a2a1b534053e2145da442e989aed4e6c
+ms.sourcegitcommit: b39bd1de0219a9e3a3b0c97fc485c9578ddb643c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52863260"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "53230546"
 ---
 # <a name="microsoft-teams-public-preview"></a>Общедоступная предварительная версия Microsoft Teams
 
@@ -46,7 +46,7 @@ ms.locfileid: "52863260"
 3. Нажмите **Добавить**.
 4. Назовите политику обновления, добавьте описание и включите параметр **Показать функции предварительного просмотра**.
 
-Вы также можете настроить политику с помощью командлета `CsTeamsUpdateManagementPolicy` в PowerShell.
+Вы также можете настроить политику посредством командлета `Set-CsTeamsUpdateManagementPolicy` в PowerShell с помощью логического параметра `-AllowPreview`.
 
 ## <a name="enable-public-preview"></a>Включение общедоступной предварительной версии
 

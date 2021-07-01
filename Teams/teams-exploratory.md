@@ -18,23 +18,23 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ff84b1dc161aa5b8ab99a74509fa7a93a1a9b270
-ms.sourcegitcommit: 6e492297a886ff8c7894a6469965e63d1b806184
+ms.openlocfilehash: 8803219c93a66d7094ce6ca1aa635f1fbff8580e
+ms.sourcegitcommit: b39bd1de0219a9e3a3b0c97fc485c9578ddb643c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2021
-ms.locfileid: "51399146"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "53230556"
 ---
 # <a name="manage-the-microsoft-teams-exploratory-license"></a>Управление лицензией на Microsoft Teams Exploratory
 
-Предложение Microsoft Teams Exploratory позволяет пользователям в вашей организации с лицензией на Azure Active Directory (Azure AD) и без лицензии на Teams оформить лицензию на Teams Exploratory. Администраторы могут включать и отключать эту функцию для пользователей в организации. Предыдущее предложение [Microsoft Commercial Cloud Trial]() заменено предложением Teams Exploratory.
+Предложение Microsoft Teams Exploratory позволяет пользователям в вашей организации, у которых есть лицензия на Azure Active Directory (Azure AD), но нет лицензии на Teams, оформить ознакомительную лицензию на Teams. Администраторы могут включать и отключать эту функцию для пользователей в организации.
 
 ## <a name="whats-in-the-teams-exploratory-experience"></a>Что включает предложение Teams Exploratory
 
 Администратору будут представлены следующие планы обслуживания, входящие в предложение Teams Exploratory:
 
-- Exchange Online (план 1)
-- Flow для Microsoft 365 или Office 365
+- Exchange Online (план 1)
+- Flow для Microsoft 365 или Office 365
 - MyAnalytics для анализа данных
 - Microsoft Forms (план E1)
 - Планировщик (Майкрософт)
@@ -45,14 +45,14 @@ ms.locfileid: "51399146"
 - Управление мобильными устройствами для Microsoft 365 или Office 365
 - Приложения Office Mobile для Office 365
 - Office Online
-- PowerApps для Microsoft 365 или Office 365
-- SharePoint Online (план 1)
+- PowerApps для Microsoft 365 или Office 365
+- SharePoint Online (план 1)
 - Sway
-- To-Do (план 1)
-- Доска (план 1)
+- To-Do (план 1)
+- Доска (план 1)
 - Yammer корпоративный
 
-  <sup>1</sup> Переход с использования Microsoft Stream на [OneDrive для бизнеса и SharePoint для записей собраний](tmr-meeting-recording-change.md) будет поэтапным процессом. При запуске вы сможете согласиться на это предложение. В ноябре вам придется отказаться, если вы хотите продолжить использовать Stream. В начале 2021 г. все клиенты должны будут использовать OneDrive для бизнеса и SharePoint для записи новых собраний.
+  <sup>1</sup> Переход от использования Microsoft Stream к [OneDrive для бизнеса и SharePoint для записи собраний](tmr-meeting-recording-change.md) будет поэтапным. При запуске вы сможете согласиться на использование этого интерфейса. В ноябре потребуется отказаться от использования, если вы хотите продолжить использование Stream. В начале 2021 года мы сделаем использование OneDrive для бизнеса и SharePoint для новых записей собраний обязательным для всех пользователей.
 
 ## <a name="whos-eligible"></a>Кто имеет право на использование
 
@@ -138,26 +138,12 @@ ms.locfileid: "51399146"
 
 Управление пользователями, у которых есть лицензия Teams Exploratory, аналогично управлению пользователями с обычной платной лицензией. Дополнительные сведения см. в разделе [Управление параметрами Teams в организации](enable-features-office-365.md).
 
-### <a name="upgrade-users-from-the-teams-exploratory-license"></a>Перевод пользователей с лицензии Teams Exploratory
+### <a name="upgrade-users-from-teams-exploratory"></a>Перевод пользователей с Teams Exploratory
 
-Чтобы перевести пользователей с лицензии Teams Exploratory (у вас должны быть права администратора), выполните следующие действия.
-
-1. Приобретите подписку, в которую входит Teams.
-
-2. Удалите подписку пользователя на Teams Exploratory.
-
-3. Назначьте приобретенную лицензию.
-
-Для получения дополнительной информации см. [Описание службы Microsoft Teams](/office365/servicedescriptions/teams-service-description).
+Чтобы перевести пользователей с Teams Exploratory, у вас должны быть права администратора. Дополнительные сведения см. в разделе [Перевод пользователей с пробной версии Teams Exploratory](upgrade-from-teams-exploratory.md).
 
 > [!NOTE]
-> Если срок действия лицензии на Teams Exploratory закончится и пользователь сразу не перейдет на подписку, включающую Teams, у пользователя будет 30 дней льготного периода, а затем еще 30 дней, после чего данные будут удалены. Пользователь по-прежнему будет существовать в Azure Active Directory. После того, как пользователю будет назначена новая лицензия для повторного включения функций Teams, содержимое будет по-прежнему существовать, если пользователь будет добавлен в течение льготного периода.
-
-## <a name="what-happens-to-legacy-microsoft-teams-commercial-cloud-trial-licenses"></a>Что произойдет с устаревшими лицензиями на Microsoft Teams Commercial Cloud Trial
-
-С февраля 2020 г. соответствующие критериям пользователи могут начать работу с последней версией Microsoft Teams Exploratory. Все устаревшие лицензии на Teams Commercial Cloud Trial будут автоматически преобразованы в лицензии на новое предложение до истечения срока действия пробной версии.
-
-При первом входе пользователя в Teams Commercial Cloud Trial с истекшим сроком действия этому пользователю автоматически назначается лицензия на использование Teams Exploratory. Конвертация не происходит, пока пользователь не выполнит вход в систему.
+> Если срок действия лицензии на Teams Exploratory закончится и пользователь сразу не перейдет на подписку, включающую Teams, он потеряет доступ к Teams после 30 дней льготного периода. Еще через 30 дней данные удаляются. Пользователь по-прежнему будет существовать в Azure Active Directory. После назначения новой лицензии пользователю, чтобы повторно включить функции Teams, содержимое продолжит существовать, если пользователь будет добавлен в течение льготного периода.
 
 ### <a name="remove-a-teams-exploratory-license"></a>Удаление лицензии на Teams Exploratory
 
@@ -184,4 +170,4 @@ ms.locfileid: "51399146"
 > [!NOTE]
 > Возможность запуска клиентами новых лицензий на пробную версию Exploratory будет отключена и заблокирована в течение 3 месяцев после истечения срока действия предыдущей лицензии на пробную версию Exploratory.
 
-Дополнительные сведения см. в разделе [Повышение статуса пользователей с лицензией Teams Exploratory](#upgrade-users-from-the-teams-exploratory-license)) выше в этой статье.
+Дополнительные сведения см. в разделе [Перевод пользователей с Teams Exploratory](#upgrade-users-from-teams-exploratory) выше в этой статье.
