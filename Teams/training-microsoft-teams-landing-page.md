@@ -3,8 +3,8 @@ title: Обучение администраторов Microsoft Teams
 ms.reviewer: ''
 description: Используйте эти ресурсы обучения для пользователей и администраторов, а также учебные курсы с инструкторами и учебные видео, чтобы применять Microsoft Teams в своей организации максимально эффективно.
 ms.topic: overview
-author: msdmaguire
-ms.author: dmaguire
+author: cichur
+ms.author: v-cichur
 audience: admin
 manager: serdars
 ms.service: msteams
@@ -19,12 +19,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-may2020
-ms.openlocfilehash: ff718bda9b1713621a7c63ab2f8bf1adf4e179ad
-ms.sourcegitcommit: c80af314f1a573f99dd66858301c004ccc5410d6
+ms.openlocfilehash: 1d88448851cdb81226eaae06ee5120555d498b6b
+ms.sourcegitcommit: 0c942d9e25f9a51bb9bd22b40c5926e1d6d3892d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "51648118"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53186908"
 ---
 # <a name="microsoft-teams-training"></a>Обучение работе с Microsoft Teams
 
@@ -61,8 +61,7 @@ ms.locfileid: "51648118"
 
 :::row:::
    :::column:::
-   **[Сертификация специалистов по внедрению](/learn/paths/m365-service-adoption/)** </br>
-   Курс "Сертификация специалистов по внедрению служб Майкрософт" включает Teams. Узнайте, как внедрять службы Майкрософт в своей организации.
+   **[Сертификация специалистов по внедрению](/learn/paths/m365-service-adoption/)** </br> Курс по сертификации специалистов по внедрению служб Майкрософт с Teams в качестве примера. Узнайте, как управлять внедрением служб Майкрософт в своей организации.
 
    :::column-end:::
 
