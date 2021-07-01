@@ -557,6 +557,8 @@ items:
         href: cortana-in-teams.md
       - name: Настройка иерархии целей для команды
         href: set-up-your-team-hierarchy.md
+      - name: 'Контролируемый чат для клиентов, не связанных с образованием'
+        href: supervised-chat-non-edu.md
   - name: 'Собрания, телеконференции и трансляция мероприятий в реальном времени'
     items:
       - name: Краткое руководство — собрания и трансляции
