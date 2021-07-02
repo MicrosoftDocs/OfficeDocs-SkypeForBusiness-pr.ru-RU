@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7e2cecf24d9bbd9e8c510ce722b059d2e00837d5
-ms.sourcegitcommit: 0c942d9e25f9a51bb9bd22b40c5926e1d6d3892d
+ms.openlocfilehash: 83b95032e89accca311eb66933a9991d4f0ca195
+ms.sourcegitcommit: 28b83243411b54760875e7fd137549d5d2182c7a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "53186808"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53252644"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Обзор команд и каналов в Microsoft Teams
 
@@ -47,9 +47,9 @@ ms.locfileid: "53186808"
     
 За помощью в использовании команд и каналов обращайтесь к [Teams и каналам](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499).
 
-Просмотрите этот короткий видеоролик, чтобы узнать больше о рекомендациях по созданию команд и каналов.
+Из этого короткого видеоролика вы узнаете о лучших методиках создания команд и каналов.
 
-   > [!VIDEO https://www.youtube.com/embed/WkAVgNKn0hs]
+- [TechTip: Руководство по созданию Teams & каналов,](https://youtu.be/WkAVgNKn0hs) включая частные каналы в Microsoft Teams (21:08 мин)
 
 ## <a name="membership-roles-and-settings"></a>Участники, роли и параметры
 
