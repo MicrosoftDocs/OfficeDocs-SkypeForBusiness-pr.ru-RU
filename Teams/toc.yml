@@ -1525,6 +1525,8 @@ items:
             href: g1-trial-license.md
           - name: Управление предложением Teams Exploratory
             href: teams-exploratory.md
+          - name: Повышение статуса Teams Exploratory для пользователей
+            href: upgrade-from-teams-exploratory.md
           - name: Управление бесплатной версией Teams
             href: manage-freemium.md
           - name: Перевод бесплатной версии Teams на версию по подписке
