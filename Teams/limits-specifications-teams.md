@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e35ad06e8123bc2525439dd81334a8600fd0a555
-ms.sourcegitcommit: 4d2e1328dee2b6c60ba0022976da8dfe5efba2ef
+ms.openlocfilehash: 16713d115dafaac4667fcf8ca1b52624a3b95424
+ms.sourcegitcommit: e023c3023f49e196315e176ce346f0dc5825fa56
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53203608"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53275658"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Ограничения и спецификации для Microsoft Teams
 
@@ -120,7 +120,7 @@ ms.locfileid: "53203608"
 
 |Функция     | Максимальный предел |
 |------------|---------------|
-|Количество людей на встрече (могут общаться и звонить)  | 1000, включает GCC, но пока не включает GCCH, DoD или A1 (300). Режим **только просмотр** позволяет 20 000 участников подключиться в режиме прослушивания к собранию, у организатора которого есть лицензия на SKU E3/E5/A3/A5, а также выпуск для государственных организаций (GCC, GCC High, DoD). Узнайте больше о [взаимодействии в режиме "Только просмотр"](view-only-meeting-experience.md).|
+|Количество людей на встрече (могут общаться и звонить)  | 1000, включает GCC, GCCH и DoD, но пока не включает A1 (300). Режим **только просмотр** позволяет 20 000 участников подключиться в режиме прослушивания к собранию, у организатора которого есть лицензия на SKU E3/E5/A3/A5, а также выпуск для государственных организаций (GCC, GCC High, DoD). Узнайте больше о [взаимодействии в режиме "Только просмотр"](view-only-meeting-experience.md).|
 |Количество людей, подключившихся к видео- или аудиоконференции из чата | 20 |
 |Максимальный размер файла PowerPoint | 2 ГБ|
 |Teams хранит [записи собраний](cloud-recording.md), которые не отправляются в Microsoft Stream и доступны для скачивания | 20 дней |

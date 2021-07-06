@@ -17,26 +17,23 @@ description: Соединители помогают поддерживать т
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 77b1c99847ca35de51af5e062593a29c18e98999
-ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
+ms.openlocfilehash: 0f0c063e9e92778e5c3f0c869d40f1a569a01c1e
+ms.sourcegitcommit: 3704577b1424c063fd925a58a6f6d0b3ff2c8148
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52855798"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53278662"
 ---
 # <a name="use-microsoft-365-and-custom-connectors-in-microsoft-teams"></a>Используйте Microsoft 365 и пользовательские соединители в Microsoft Teams
 
-Соединитетели обеспечивают постоянное обновление команды, доставляя часто используемое содержимое и обновления служб непосредственно в канал. Благодаря соединительным Microsoft Teams пользователи могут получать обновления от популярных служб, таких как Trello, Wunderlist, GitHub и Azure DevOps Services в потоке чата своей команды.
+Соединитетели обеспечивают постоянное обновление команды, доставляя часто используемое содержимое и обновления служб непосредственно в канал. Благодаря соединительным Microsoft Teams пользователи могут получать обновления от популярных служб, таких как Trello, Wunderlist, GitHub и Azure DevOps Services в потоке чата в своей команде.
 
 Любой участник группы может подключить свою команду к популярным облачным службам с помощью соединитеров, если это разрешает группа, и все участники группы будут уведомлены о действиях в этой службе. Соединитетели продолжат работать даже после того, как участник, изначально настроивший соединителю, покинул ее. Любой участник группы с разрешениями на добавление и удаление может изменять настройки соединители другими участниками.
 
-Microsoft 365 можно использовать как с группами Microsoft Teams, так и Microsoft 365, что упрощает синхронизацию и быстрое получение важной информации для всех участников. Microsoft Teams и Exchange используют одинаковую модель соединителей, что позволяет использовать одни соединители на обеих платформах. Однако следует отметить, что отключение соединители для группы Microsoft 365, от которую зависит рабочая группа, также отключит возможность создавать соединители для этой группы.
+Microsoft 365 можно использовать как с группами Microsoft Teams, так и Microsoft 365, чтобы всем участникам было проще синхронизироваться и быстро получать актуальные сведения. Microsoft Teams и Exchange используют одинаковую модель соединителей, что позволяет использовать одни соединители на обеих платформах. Однако следует отметить, что отключение соединители для группы Microsoft 365, от которую зависит рабочая группа, также отключит возможность создавать соединители для этой группы.
 
 > [!NOTE]
-> Соединитетели по умолчанию отключены в GCC средах. Если вам нужно включить их, задайте для параметров ConnectorsEnabled или ConnectorsEnabledForTeams $true с помощью $true с помощью [cmdlet Set-OrganizationConfig.](/powershell/module/exchange/set-organizationconfig) Раньше вам нужно было [подключиться к Exchange Online PowerShell.](/powershell/exchange/connect-to-exchange-online-powershell)
-
-> [!NOTE]
-> Соединитетели по умолчанию отключены в средах Community (GCC) для государственных GCC. Если вам нужно включить их, задайте для параметров ConnectorsEnabled или ConnectorsEnabledForTeams $true с помощью $true [SetOrganizationConfig.](/powershell/module/exchange/set-organizationconfig?view=exchange-ps) Раньше вам требовалось подключиться к [Exchange Online PowerShell.](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps)
+> Соединитетели по умолчанию отключены в средах Community (GCC) для государственных GCC. Если вам нужно включить их, задайте для параметров ConnectorsEnabled или ConnectorsEnabledForTeams $true с помощью $true SetOrganizationConfig. Необходимо подключиться к Exchange Online [PowerShell.](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps)
 
 ## <a name="add-a-connector-to-a-channel"></a>Добавление соединителю в канал
 

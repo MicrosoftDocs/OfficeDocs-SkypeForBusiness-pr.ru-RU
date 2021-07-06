@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Узнайте, как управлять частными каналами в организации с помощью Graph API.
-ms.openlocfilehash: e97d808bd9f544ef611b0b5e4b0456d302b4013d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 263c490156a3dc02ddc8f81233a049ff020c72f8
+ms.sourcegitcommit: 3704577b1424c063fd925a58a6f6d0b3ff2c8148
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117747"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53278532"
 ---
 # <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>Управление жизненным циклом закрытых каналов в Microsoft Teams
 
@@ -149,7 +149,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
     ```Graph API
     GET https://graph.microsoft.com/beta/teams/<group_id>/channels/<channel_id>/members
     ```
-    
+
     **Ответ**
 
     ```Graph API
@@ -177,7 +177,8 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
               }
           ]
     }
-    ```    
+    ```
+
 2. Чтобы повысить уровень участника до владельца, используйте следующие команды, где &lt;group_id&gt;, &lt;channel_id&gt; и &lt;id&gt; возвращаются из предыдущего вызова. Обратите внимание, что &lt;id&gt; и &lt;userId&gt;, возвращенные из предыдущего вызова, не совпадают и не являются взаимозаменяемыми. Убедитесь, что вы используете &lt;id&gt;.
 
     **Запрос**
