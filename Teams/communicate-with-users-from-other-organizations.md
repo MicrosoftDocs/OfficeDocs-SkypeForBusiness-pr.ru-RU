@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Priority
 description: Узнайте, как звонить, общаться в чатах и добавлять пользователей из-за пределов организации в Microsoft Teams с помощью внешнего доступа (федерации) и гостевого доступа.
-ms.openlocfilehash: e4aea581af73e69512e8ab55f87faa0602219575
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: bda5652aedd8d071984334a3851e50ba52400943
+ms.sourcegitcommit: 89e26d9ffca180e56233984bf0a341b3c3ec7208
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51115997"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "53302004"
 ---
 # <a name="use-guest-access-and-external-access-to-collaborate-with-people-outside-your-organization"></a>Использование гостевого и внешнего доступа для совместной работы с людьми из-за пределов организации
 
@@ -77,7 +77,7 @@ ms.locfileid: "51115997"
 | Возможности людей из-за пределов вашей организации | Пользователи внешнего доступа | Гости |
 |---------|-----------------------|--------------------|
 | Обращение к ресурсам Teams | Нет | Да |
-| Возможность их добавления в групповой чат | Нет | Да |
+| Возможность их добавления в групповой чат | Да | Да |
 | Возможность их приглашения на собрание | Да | Да |
 | Совершение приватных звонков | Да | Да<sup>5</sup> |
 | Просмотр номеров телефонов участников собрания с телефонным подключением | Нет<sup>4</sup> | Да |
