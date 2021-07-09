@@ -19,15 +19,14 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5242d4b836f159484caf5575d23937ddaba97816
-ms.sourcegitcommit: 3704577b1424c063fd925a58a6f6d0b3ff2c8148
+ms.openlocfilehash: c37a87ba5ec1d06b6bc2441292989e52a3076ca5
+ms.sourcegitcommit: 1c5608e6b539e90e42f48212d038f861ecf8136b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53278542"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53337828"
 ---
-<a name="use-the-teams-meeting-add-in-in-outlook"></a>Использование надстройки "Собрание Teams" в Outlook
-=======================================
+# <a name="use-the-teams-meeting-add-in-in-outlook"></a>Использование надстройки "Собрание Teams" в Outlook
 
 С помощью надстройки "Собрание Teams" пользователи могут планировать собрания команд из Outlook. Эта надстройка доступна в Outlook для Windows, Mac, в Интернете и на мобильных устройствах.
 
@@ -141,7 +140,7 @@ ms.locfileid: "53278542"
 Кроме того, вы можете выполнить следующие действия вручную:
 
 - Чтобы надстройка "Собрание Teams" работала, пользователям Windows 7 требуется установить [обновление для универсальной среды выполнения C в Windows](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows).
-- Убедитесь в том, что у пользователя есть политика обновления Teams, которая позволяет планировать собрания в Teams. Дополнительные сведения см. в статье [Переход со Skype для бизнеса на Teams](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview#meetings).
+- Убедитесь в том, что у пользователя есть политика обновления Teams, которая позволяет планировать собрания в Teams. Дополнительные сведения см. в статье [Переход со Skype для бизнеса на Teams](/microsoftteams/upgrade-to-teams-on-prem-overview#meetings).
 - Убедитесь в том, что у пользователя есть политика собрания Teams, в которой разрешена надстройка Outlook. Дополнительные сведения см. в статье [Параметры политики собраний — общие](./meeting-policies-in-teams-general.md#allow-the-outlook-add-in).
 - Убедитесь, что у пользователя установлено классическое приложение Teams. Надстройки собраний не будут устанавливаться только при использовании веб-клиента Teams.
 - Убедитесь, что у пользователя установлено приложение Outlook 2013 или более поздней версии.

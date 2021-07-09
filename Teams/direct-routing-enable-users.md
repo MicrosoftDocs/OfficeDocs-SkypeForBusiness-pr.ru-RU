@@ -15,13 +15,13 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: Узнайте, как включить для Телефон (Майкрософт) прямой маршрутии Системы.
-ms.openlocfilehash: 7c1ed58369892ee947bb3d8c29a24628d39d41ea
-ms.sourcegitcommit: 0122be629450e203e7143705ac2b395bf3792fd3
+description: Узнайте, как включить для Телефон (Майкрософт) прямую маршрутику системы.
+ms.openlocfilehash: 86132778226702577068d9502ae46cba949667c6
+ms.sourcegitcommit: 5df33e7fe912426e3e158b3be7334e05dc3803a5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2021
-ms.locfileid: "53129329"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53345715"
 ---
 # <a name="enable-users-for-direct-routing-voice-and-voicemail"></a>Включить для пользователей прямую маршрутику, голосовую и голосовую почту
 
@@ -29,11 +29,11 @@ ms.locfileid: "53129329"
 
 - Шаг 1. [Подключение SBC с Телефон (Майкрософт) и проверьте подключение](direct-routing-connect-the-sbc.md) 
 - **Шаг 2. Включить для пользователей прямую маршрутику, голосовую и голосовую почту**   (эта статья)
-- Шаг 3. [Настройка голосовой маршрутии](direct-routing-voice-routing.md)
+- Шаг 3. [Настройка перенастройки голосовой маршрутии](direct-routing-voice-routing.md)
 - Шаг 4. [Перевод чисел в альтернативный формат](direct-routing-translate-numbers.md) 
 
 
-Сведения о всех действиях, необходимых для настройки прямой маршрутистики, см. в этой [ссылке.](direct-routing-configure.md)
+Сведения о всех действиях, необходимых для настройки прямой маршрутии, см. в этой [ссылке.](direct-routing-configure.md)
 
 Когда вы будете готовы включить прямую маршрутику для пользователей, выполните следующие действия: 
 
@@ -53,7 +53,9 @@ ms.locfileid: "53129329"
 
 Сведения о требованиях к лицензиям см. [в лицензировании](direct-routing-plan.md#licensing-and-other-requirements) и других требованиях в [области Планирование прямой маршрутии.](direct-routing-plan.md)
 
-## <a name="ensure-that-the-user-is-homed-online-applicable-for-skype-for-business-server-enterprise-voice-enabled-users-being-migrated-to-teams-direct-routing"></a>Убедитесь, что пользователь находится в Сети (применимо Skype для бизнеса Server Корпоративная голосовая связь пользователей, Teams прямую маршрутику)
+## <a name="ensure-that-the-user-is-homed-online"></a>Убедитесь, что пользователь находится в Сети 
+
+Этот шаг относится к Skype для бизнеса Server Корпоративная голосовая связь, которые были перенесены Teams прямую маршрутику.
 
 Прямая маршрутная маршрутия требует, чтобы пользователь был домашним в Интернете. Чтобы проверить это, обратитесь к параметру RegistrarPool, который должен иметь значение в infra.lync.com домене. Кроме того, при переносе пользователей на прямую маршрутизу рекомендуется (но не обязательно) изменять управление LineURI из локальной в веб Teams-ю. 
 
@@ -126,9 +128,9 @@ ms.locfileid: "53129329"
 
 ## <a name="configuring-sending-calls-directly-to-voicemail"></a>Настройка отправки звонков непосредственно на голосовую почту
 
-Прямая маршрутия позволяет прекратить звонок и отправить его непосредственно в голосовую почту пользователя. Если вы хотите отправить звонок непосредственно в голосовую почту, вложите непрозрачной=app:voicemail в заглавный URI запроса. Например, "sip:user@yourdomain.com;opaque=app:voicemail". В этом случае Teams не получит уведомление о вызове, звонок будет напрямую подключен к голосовой почте пользователя.
+Прямая маршрутия позволяет прекратить звонок пользователю и отправить его непосредственно в голосовую почту пользователя. Если вы хотите отправить звонок непосредственно в голосовую почту, вложите непрозрачной=app:голосовой почты в заглавный URI запроса. Например, "sip:user@yourdomain.com;opaque=app:voicemail". В этом случае Teams не получит уведомление о вызове, звонок будет напрямую подключен к голосовой почте пользователя.
 
-## <a name="assign-teams-only-mode-to-users-to-ensure-calls-land-in-microsoft-teams"></a>Назначьте Teams режим только пользователям, чтобы обеспечить доступ к звонкам Microsoft Teams
+## <a name="assign-teams-only-mode-to-users-to-ensure-calls-land-in-microsoft-teams"></a>Назначьте Teams режим только пользователям, чтобы обеспечить доступ к звонкам в Microsoft Teams
 
 Прямая маршрутия требует, чтобы Teams режиме только для входящих звонков в клиенте Teams маршрутизов. Чтобы перейти в Teams, назначьте им экземпляр UpgradeToTeams TeamsUpgradePolicy. Дополнительные сведения см. в [стратегии обновления для ИТ-администраторов.](upgrade-to-teams-on-prem-implement.md) Если в вашей организации используется Skype для бизнеса Server или Skype для бизнеса Online, см. статью о взаимосвязи между Skype и [Teams:](migration-interop-guidance-for-teams-with-skype.md)миграция и взаимодействия с Skype для бизнеса.
 
