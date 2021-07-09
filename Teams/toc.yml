@@ -587,6 +587,8 @@ items:
                     href: meeting-policies-participants-and-guests.md
                   - name: Удаление политики собраний RestrictedAnonymousAccess для пользователей
                     href: meeting-policies-restricted-anonymous-access.md
+          - name: Политики собраний и окончание срока действия собрания
+            href: meeting-expiration.md
           - name: Управление параметрами собраний
             href: meeting-settings-in-teams.md
           - name: 'Электронные письма, отправляемые пользователям при изменении параметров'
