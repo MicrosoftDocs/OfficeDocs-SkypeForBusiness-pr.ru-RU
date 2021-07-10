@@ -817,8 +817,6 @@ items:
     items:
       - name: Планирование голосового решения в Teams
         href: cloud-voice-landing-page.md
-      - name: Управление политиками голосовой связи и звонков в Teams
-        href: voice-and-calling-policies.md
       - name: Телефонная система
         items:
           - name: Что такое телефонная система?
@@ -879,100 +877,102 @@ items:
             href: shared-line-appearance.md
           - name: Настройка панели набора номера
             href: dial-pad-configuration.md
-      - name: Планы звонков
-        items:
-          - name: Какой план звонков подходит вам?
-            href: calling-plan-landing-page.md
-          - name: Как купить план звонков
-            href: calling-plans-for-office-365.md
-          - name: Настройка планов звонков для организации
-            href: set-up-calling-plans.md
-          - name: Краткое руководство по началу работы. Настройка планов звонков
-            href: configuring-teams-calling-quickstartguide.md
-          - name: Доступность планов звонков в различных странах и регионах
-            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
-      - name: Прямая маршрутизация телефонной системы
+      - name: Варианты подключения ТСОП
         items:
           - name: Обзор
-            href: direct-routing-landing-page.md
-          - name: Планирование прямой маршрутизации
-            href: direct-routing-plan.md
-          - name: 'Список пограничных контроллеров сеансов, сертифицированных для прямой маршрутизации'
-            href: direct-routing-border-controllers.md
-          - name: Настройка прямой маршрутизации
+            href: pstn-connectivity.md
+          - name: Планы звонков
+            items:
+              - name: Какой план звонков подходит вам?
+                href: calling-plan-landing-page.md
+              - name: Настройка планов звонков для организации
+                href: set-up-calling-plans.md
+              - name: Краткое руководство по началу работы. Настройка планов звонков
+                href: configuring-teams-calling-quickstartguide.md
+              - name: Доступность планов звонков в различных странах и регионах
+                href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
+          - name: Прямая маршрутизация телефонной системы
             items:
               - name: Обзор
-                href: direct-routing-configure.md
-              - name: Шаг 1. Подключение SBC
-                href: direct-routing-connect-the-sbc.md
-              - name: Шаг 2. Включение пользователей
-                href: direct-routing-enable-users.md
-              - name: Шаг 3. Настройка маршрутизации голосовых вызовов
-                href: direct-routing-voice-routing.md
-              - name: Шаг 4. Перевод телефонных номеров
-                href: direct-routing-translate-numbers.md
-              - name: Настройка SBC для нескольких клиентов
-                href: direct-routing-sbc-multiple-tenants.md
-              - name: Использование аналоговых устройств при прямой маршрутизации
-                href: direct-routing-analog-devices.md
-          - name: Маршрутизация на основе расположения
-            items:
-              - name: Планирование маршрутизации на основе расположения для прямой маршрутизации
-                href: location-based-routing-plan.md
-              - name: Настройка параметров сети для маршрутизации на основе расположения
-                href: location-based-routing-configure-network-settings.md
-              - name: Включение функции "Маршрутизация на основе расположения" для прямой маршрутизации
-                href: location-based-routing-enable.md
-          - name: Обход сервера-посредника для прямой маршрутизации
-            items:
-              - name: Планирование обхода сервера-посредника с прямой маршрутизацией
-                href: direct-routing-plan-media-bypass.md
-              - name: Настройка обхода сервера-посредника с прямой маршрутизацией
-                href: direct-routing-configure-media-bypass.md
-          - name: Оптимизация локальных файлов мультимедиа для прямой маршрутизации
-            items:
-              - name: Планирование оптимизации локальных файлов мультимедиа
-                href: direct-routing-media-optimization.md
-              - name: Настройка оптимизации локальных файлов мультимедиа
-                href: direct-routing-media-optimization-configure.md
-          - name: Учетные записи пользователей в гибридной среде со связью с ТСОП
-            href: direct-routing-user-accounts-in-a-hybrid-environment.md
-          - name: Переход на прямую маршрутизацию
-            href: direct-routing-migrating.md
-          - name: Отслеживание и устранение неполадок прямой маршрутизации
-            items:
-              - name: Обзор
-                href: direct-routing-monitor-and-troubleshoot.md
-              - name: Панель мониторинга работоспособности
-                href: direct-routing-health-dashboard.md
-          - name: Техническая справка по прямой маршрутизации
-            items:
-              - name: Отработка отказа канала связи при исходящих звонках
-                href: direct-routing-trunk-failover-on-outbound-call.md
-              - name: Коды стран для путей к носителям
-                href: direct-routing-country-codes.md
-              - name: Скрипт PowerShell для проверки подключений пограничного контроллера сеансов
-                href: sip-tester-powershell-script.md
-              - name: Управление уведомлениями о звонках
-                href: direct-routing-call-notifications.md
-              - name: Протоколы
+                href: direct-routing-landing-page.md
+              - name: Планирование прямой маршрутизации
+                href: direct-routing-plan.md
+              - name: 'Список пограничных контроллеров сеансов, сертифицированных для прямой маршрутизации'
+                href: direct-routing-border-controllers.md
+              - name: Настройка прямой маршрутизации
                 items:
-                  - name: Определения и стандарты RFC
-                    href: direct-routing-protocols.md
-                  - name: Протокол SIP
-                    href: direct-routing-protocols-SIP.md
-                  - name: Протоколы мультимедиа
-                    href: direct-routing-protocols-media.md
-              - name: Управление политиками маршрутизации голосовой связи
-                href: manage-voice-routing-policies.md
-              - name: Прямая маршрутизация для устройства обеспечения связи в филиалах
-                href: direct-routing-survivable-branch-appliance.md
-      - name: Operator Connect
-        items:
-          - name: План для Operator Connect
-            href: operator-connect-plan.md
-          - name: Настройка Operator Connect
-            href: operator-connect-configure.md
+                  - name: Обзор
+                    href: direct-routing-configure.md
+                  - name: Шаг 1. Подключение SBC
+                    href: direct-routing-connect-the-sbc.md
+                  - name: Шаг 2. Включение пользователей
+                    href: direct-routing-enable-users.md
+                  - name: Шаг 3. Настройка маршрутизации голосовых вызовов
+                    href: direct-routing-voice-routing.md
+                  - name: Шаг 4. Перевод телефонных номеров
+                    href: direct-routing-translate-numbers.md
+                  - name: Настройка SBC для нескольких клиентов
+                    href: direct-routing-sbc-multiple-tenants.md
+                  - name: Использование аналоговых устройств при прямой маршрутизации
+                    href: direct-routing-analog-devices.md
+                  - name: Управление политиками маршрутизации голосовой связи
+                    href: manage-voice-routing-policies.md
+                  - name: Управление уведомлениями о звонках
+                    href: direct-routing-call-notifications.md
+              - name: Маршрутизация на основе расположения
+                items:
+                  - name: Планирование маршрутизации на основе расположения для прямой маршрутизации
+                    href: location-based-routing-plan.md
+                  - name: Настройка параметров сети для маршрутизации на основе расположения
+                    href: location-based-routing-configure-network-settings.md
+                  - name: Включение функции "Маршрутизация на основе расположения" для прямой маршрутизации
+                    href: location-based-routing-enable.md
+              - name: Обход сервера-посредника для прямой маршрутизации
+                items:
+                  - name: Планирование обхода сервера-посредника с прямой маршрутизацией
+                    href: direct-routing-plan-media-bypass.md
+                  - name: Настройка обхода сервера-посредника с прямой маршрутизацией
+                    href: direct-routing-configure-media-bypass.md
+              - name: Оптимизация локальных файлов мультимедиа для прямой маршрутизации
+                items:
+                  - name: Планирование оптимизации локальных файлов мультимедиа
+                    href: direct-routing-media-optimization.md
+                  - name: Настройка оптимизации локальных файлов мультимедиа
+                    href: direct-routing-media-optimization-configure.md
+              - name: Учетные записи пользователей в гибридной среде со связью с ТСОП
+                href: direct-routing-user-accounts-in-a-hybrid-environment.md
+              - name: Переход на прямую маршрутизацию
+                href: direct-routing-migrating.md
+              - name: Отслеживание и устранение неполадок прямой маршрутизации
+                items:
+                  - name: Обзор
+                    href: direct-routing-monitor-and-troubleshoot.md
+                  - name: Панель мониторинга работоспособности
+                    href: direct-routing-health-dashboard.md
+              - name: Техническая справка по прямой маршрутизации
+                items:
+                  - name: Отработка отказа канала связи при исходящих звонках
+                    href: direct-routing-trunk-failover-on-outbound-call.md
+                  - name: Коды стран для путей к носителям
+                    href: direct-routing-country-codes.md
+                  - name: Скрипт PowerShell для проверки подключений пограничного контроллера сеансов
+                    href: sip-tester-powershell-script.md
+                  - name: Протоколы
+                    items:
+                      - name: Определения и стандарты RFC
+                        href: direct-routing-protocols.md
+                      - name: Протокол SIP
+                        href: direct-routing-protocols-SIP.md
+                      - name: Протоколы мультимедиа
+                        href: direct-routing-protocols-media.md
+                  - name: Прямая маршрутизация для устройства обеспечения связи в филиалах
+                    href: direct-routing-survivable-branch-appliance.md
+          - name: Operator Connect
+            items:
+              - name: План для Operator Connect
+                href: operator-connect-plan.md
+              - name: Настройка Operator Connect
+                href: operator-connect-configure.md
       - name: Номера телефонов
         items:
           - name: Управление номерами телефонов для организации
@@ -1037,8 +1037,10 @@ items:
                 href: emergency-calling-labels.md
           - name: Управление политиками экстренных вызовов
             href: manage-emergency-calling-policies.md
-          - name: Управление политиками маршрутизации экстренных вызовов
+          - name: Управление политиками маршрутизации экстренных вызовов для прямой маршрутизации
             href: manage-emergency-call-routing-policies.md
+      - name: Управление политиками голосовой связи и звонков в Teams
+        href: voice-and-calling-policies.md
       - name: Пример перехода на Contoso Voice
         items:
           - name: Обзор
@@ -1556,8 +1558,6 @@ items:
                 href: /microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365
           - name: Взаимодействие SharePoint Online и OneDrive для бизнеса с Teams
             href: sharepoint-onedrive-interact.md
-          - name: Взаимодействие с Teams в клиенте Microsoft 365 или Office 365 с поддержкой нескольких регионов
-            href: teams-experience-o365odb-spo-multi-geo.md
       - name: Поддерживаемые устройства
         items:
           - name: Управление устройствами в Teams
