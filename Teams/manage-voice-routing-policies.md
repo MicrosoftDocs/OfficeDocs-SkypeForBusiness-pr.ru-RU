@@ -1,7 +1,7 @@
 ---
-title: Управление политиками перенаправки голосовой почты в Microsoft Teams
-author: cichur
-ms.author: v-cichur
+title: Управление политиками маршрутинга голосовой связи для прямой маршрутии
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: jastark
 ms.topic: article
@@ -16,66 +16,66 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Узнайте, как создавать политики перенаправки голосовой маршрутики и управлять ими в Microsoft Teams.
-ms.openlocfilehash: ac856ef05d425208af43307ebe12ff0c4776ca51
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Узнайте, как создавать политики маршрутинга голосовой маршрутики и управлять ими в Microsoft Teams.
+ms.openlocfilehash: 7023100850eb34d6adf61c99de5f3568afed6aeb
+ms.sourcegitcommit: 5720fa12bdabdfc2988bf835c8cf95e4d64fa54e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101075"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53354289"
 ---
-# <a name="manage-voice-routing-policies-in-microsoft-teams"></a><span data-ttu-id="e14e5-103">Управление политиками перенаправки голосовой почты в Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="e14e5-103">Manage voice routing policies in Microsoft Teams</span></span>
+# <a name="manage-voice-routing-policies-for-direct-routing"></a><span data-ttu-id="6482c-103">Управление политиками маршрутинга голосовой связи для прямой маршрутии</span><span class="sxs-lookup"><span data-stu-id="6482c-103">Manage voice routing policies for Direct Routing</span></span>
 
-<span data-ttu-id="e14e5-104">Если вы развернули прямую [маршрутику телефонная система](direct-routing-landing-page.md) в организации, используйте политики маршрутизации голосовой связи, чтобы разрешить пользователям Teams и Skype для бизнеса Online принимать и звонить на телефонную сеть общего пользования (STN) с помощью локальной инфраструктуры телефонии.</span><span class="sxs-lookup"><span data-stu-id="e14e5-104">If you've deployed [Phone System Direct Routing](direct-routing-landing-page.md) in your organization, you use voice routing policies to allow Teams and Skype for Business Online users to receive and make phone calls to the Public Switched Telephone Network (PSTN) using your on-premises telephony infrastructure.</span></span>
+<span data-ttu-id="6482c-104">Если вы развернули прямую [маршрутику телефонная система](direct-routing-landing-page.md) в организации, используйте политики маршрутизации голосовой связи, чтобы разрешить пользователям Teams и Skype для бизнеса Online принимать и звонить на телефонную сеть общего пользования (STN) с помощью локальной инфраструктуры телефонии.</span><span class="sxs-lookup"><span data-stu-id="6482c-104">If you've deployed [Phone System Direct Routing](direct-routing-landing-page.md) in your organization, you use voice routing policies to allow Teams and Skype for Business Online users to receive and make phone calls to the Public Switched Telephone Network (PSTN) using your on-premises telephony infrastructure.</span></span>
 
-<span data-ttu-id="e14e5-105">Политика голосовой маршрутистики является контейнером для записей использования ОКП.</span><span class="sxs-lookup"><span data-stu-id="e14e5-105">A voice routing policy is a container for PSTN usage records.</span></span> <span data-ttu-id="e14e5-106">Чтобы создать политики маршрутинга голосовой маршрутики и управлять ими, переходить к политикам маршрутинга голосовой голосовой почты в центре администрирования Microsoft Teams или с помощью   >   Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="e14e5-106">You create and manage voice routing policies by going to **Voice** > **Voice routing policies** in the Microsoft Teams admin center or by using Windows PowerShell.</span></span>
+<span data-ttu-id="6482c-105">Политика голосовой маршрутистики является контейнером для записей использования ОКП.</span><span class="sxs-lookup"><span data-stu-id="6482c-105">A voice routing policy is a container for PSTN usage records.</span></span> <span data-ttu-id="6482c-106">Чтобы создать политики маршрутинга голосовой маршрутики и управлять ими, переходить к политикам маршрутинга голосовой голосовой почты в центре администрирования Microsoft Teams или с помощью   >   Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="6482c-106">You create and manage voice routing policies by going to **Voice** > **Voice routing policies** in the Microsoft Teams admin center or by using Windows PowerShell.</span></span>
 
-<span data-ttu-id="e14e5-107">Вы можете использовать глобальную (по умолчанию в пределах организации) политику или создавать и присваивать настраиваемые политики.</span><span class="sxs-lookup"><span data-stu-id="e14e5-107">You can use the global (Org-wide default) policy or create and assign custom policies.</span></span> <span data-ttu-id="e14e5-108">Пользователи будут автоматически получать глобальную политику, если только вы не создайте и не назначите настраиваемую политику.</span><span class="sxs-lookup"><span data-stu-id="e14e5-108">Users will automatically get the global policy unless you create and assign a custom policy.</span></span> <span data-ttu-id="e14e5-109">Имейте в виду, что вы можете изменить параметры глобальной политики, но не можете переименовать или удалить ее.</span><span class="sxs-lookup"><span data-stu-id="e14e5-109">Keep in mind that you can edit the settings in the global policy but you can't rename or delete it.</span></span>
+<span data-ttu-id="6482c-107">Вы можете использовать глобальную (по умолчанию в пределах организации) политику или создавать и присваивать настраиваемые политики.</span><span class="sxs-lookup"><span data-stu-id="6482c-107">You can use the global (Org-wide default) policy or create and assign custom policies.</span></span> <span data-ttu-id="6482c-108">Пользователи будут автоматически получать глобальную политику, если только вы не создайте и не назначите настраиваемую политику.</span><span class="sxs-lookup"><span data-stu-id="6482c-108">Users will automatically get the global policy unless you create and assign a custom policy.</span></span> <span data-ttu-id="6482c-109">Имейте в виду, что вы можете изменить параметры глобальной политики, но не можете переименовать или удалить ее.</span><span class="sxs-lookup"><span data-stu-id="6482c-109">Keep in mind that you can edit the settings in the global policy but you can't rename or delete it.</span></span>
 
-<span data-ttu-id="e14e5-110">Важно знать, что назначение пользователю политики голосовой маршрутии не позволяет ему звонить по НН TEAMS.</span><span class="sxs-lookup"><span data-stu-id="e14e5-110">It's important to know that assigning a voice routing policy to a user doesn't enable them to make PSTN calls in Teams.</span></span> <span data-ttu-id="e14e5-111">Кроме того, необходимо включить для пользователя прямую маршрутику телефонная система выполнить другие действия по настройке.</span><span class="sxs-lookup"><span data-stu-id="e14e5-111">You'll also need to enable the user for Phone System Direct Routing and complete other configuration steps.</span></span> <span data-ttu-id="e14e5-112">Дополнительные узнать см. [в настройках прямой маршрутии.](direct-routing-configure.md)</span><span class="sxs-lookup"><span data-stu-id="e14e5-112">To learn more, see [Configure Direct Routing](direct-routing-configure.md).</span></span>
+<span data-ttu-id="6482c-110">Важно знать, что назначение политики голосовой маршрутии не позволяет пользователю звонить по ЗВОНКОВ по НН TEAMS.</span><span class="sxs-lookup"><span data-stu-id="6482c-110">It's important to know that assigning a voice routing policy to a user doesn't enable them to make PSTN calls in Teams.</span></span> <span data-ttu-id="6482c-111">Кроме того, необходимо включить для пользователя прямую маршрутику телефонная система выполнить другие действия по настройке.</span><span class="sxs-lookup"><span data-stu-id="6482c-111">You'll also need to enable the user for Phone System Direct Routing and complete other configuration steps.</span></span> <span data-ttu-id="6482c-112">Подробнее см. в [настройках прямой маршрутии.](direct-routing-configure.md)</span><span class="sxs-lookup"><span data-stu-id="6482c-112">To learn more, see [Configure Direct Routing](direct-routing-configure.md).</span></span>
 
-## <a name="create-a-custom-voice-routing-policy"></a><span data-ttu-id="e14e5-113">Создание настраиваемой политики маршрутинга голосовой почты</span><span class="sxs-lookup"><span data-stu-id="e14e5-113">Create a custom voice routing policy</span></span>
+## <a name="create-a-custom-voice-routing-policy"></a><span data-ttu-id="6482c-113">Создание настраиваемой политики маршрутинга голосовой почты</span><span class="sxs-lookup"><span data-stu-id="6482c-113">Create a custom voice routing policy</span></span>
 
-### <a name="using-the-microsoft-teams-admin-center"></a><span data-ttu-id="e14e5-114">С помощью Центра администрирования Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="e14e5-114">Using the Microsoft Teams admin center</span></span>
+### <a name="using-the-microsoft-teams-admin-center"></a><span data-ttu-id="6482c-114">С помощью Центра администрирования Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="6482c-114">Using the Microsoft Teams admin center</span></span>
 
-1. <span data-ttu-id="e14e5-115">В левой области навигации Центра администрирования Microsoft Teams перейдите к политике маршрутации голосовой голосовой почты  >  и нажмите кнопку **Добавить**.</span><span class="sxs-lookup"><span data-stu-id="e14e5-115">In the left navigation of the Microsoft Teams admin center, go to **Voice** > **Voice routing policies**, and then click **Add**.</span></span><br>
-    <span data-ttu-id="e14e5-116">![Снимок экрана: страница "Добавление политики маршрутинга голосовой почты" в Центре Microsoft Teams администрирования](media/manage-voice-routing-policies.png)</span><span class="sxs-lookup"><span data-stu-id="e14e5-116">![Screenshot of the Add voice routing policy page in the Microsoft Teams admin center ](media/manage-voice-routing-policies.png)</span></span> 
-2. <span data-ttu-id="e14e5-117">Введите имя и описание для политики.</span><span class="sxs-lookup"><span data-stu-id="e14e5-117">Enter a name and description for the policy.</span></span>
-3. <span data-ttu-id="e14e5-118">В **области Записи использования ННР** щелкните Добавить использование **ННР** и выберите записи, которые вы хотите добавить.</span><span class="sxs-lookup"><span data-stu-id="e14e5-118">Under **PSTN usage records**, click **Add PSTN usage**, and then select the records that you want to add.</span></span> <span data-ttu-id="e14e5-119">Если вам нужно создать новую запись использования ОКП, нажмите кнопку **Добавить.**</span><span class="sxs-lookup"><span data-stu-id="e14e5-119">If you need to create a new PSTN usage record, click **Add**.</span></span>
-4. <span data-ttu-id="e14e5-120">Если вы добавили несколько записей использования ОКП, расположить их в нужном порядке.</span><span class="sxs-lookup"><span data-stu-id="e14e5-120">If you added multiple PSTN usage records, arrange them in the order that you want.</span></span>
-5. <span data-ttu-id="e14e5-121">Когда все будет готово, нажмите кнопку **Применить**.</span><span class="sxs-lookup"><span data-stu-id="e14e5-121">When you're done, click **Apply**.</span></span>
-6. <span data-ttu-id="e14e5-122">Нажмите кнопку **Сохранить**.</span><span class="sxs-lookup"><span data-stu-id="e14e5-122">Click **Save**.</span></span>
+1. <span data-ttu-id="6482c-115">В левой области навигации Центра администрирования Microsoft Teams перейдите к политике маршрутации голосовой голосовой почты  >  и нажмите кнопку **Добавить**.</span><span class="sxs-lookup"><span data-stu-id="6482c-115">In the left navigation of the Microsoft Teams admin center, go to **Voice** > **Voice routing policies**, and then click **Add**.</span></span><br>
+    <span data-ttu-id="6482c-116">![Снимок экрана: страница "Добавление политики маршрутинга голосовой почты" в Центре Microsoft Teams администрирования](media/manage-voice-routing-policies.png)</span><span class="sxs-lookup"><span data-stu-id="6482c-116">![Screenshot of the Add voice routing policy page in the Microsoft Teams admin center ](media/manage-voice-routing-policies.png)</span></span> 
+2. <span data-ttu-id="6482c-117">Введите имя и описание для политики.</span><span class="sxs-lookup"><span data-stu-id="6482c-117">Enter a name and description for the policy.</span></span>
+3. <span data-ttu-id="6482c-118">В **области Записи использования ННР** щелкните Добавить использование **ННР** и выберите записи, которые вы хотите добавить.</span><span class="sxs-lookup"><span data-stu-id="6482c-118">Under **PSTN usage records**, click **Add PSTN usage**, and then select the records that you want to add.</span></span> <span data-ttu-id="6482c-119">Если вам нужно создать новую запись использования ОКП, нажмите кнопку **Добавить.**</span><span class="sxs-lookup"><span data-stu-id="6482c-119">If you need to create a new PSTN usage record, click **Add**.</span></span>
+4. <span data-ttu-id="6482c-120">Если вы добавили несколько записей использования ОКП, расположить их в нужном порядке.</span><span class="sxs-lookup"><span data-stu-id="6482c-120">If you added multiple PSTN usage records, arrange them in the order that you want.</span></span>
+5. <span data-ttu-id="6482c-121">Когда все будет готово, нажмите кнопку **Применить**.</span><span class="sxs-lookup"><span data-stu-id="6482c-121">When you're done, click **Apply**.</span></span>
+6. <span data-ttu-id="6482c-122">Нажмите кнопку **Сохранить**.</span><span class="sxs-lookup"><span data-stu-id="6482c-122">Click **Save**.</span></span>
 
-### <a name="using-powershell"></a><span data-ttu-id="e14e5-123">С помощью PowerShell</span><span class="sxs-lookup"><span data-stu-id="e14e5-123">Using PowerShell</span></span>
+### <a name="using-powershell"></a><span data-ttu-id="6482c-123">С помощью PowerShell</span><span class="sxs-lookup"><span data-stu-id="6482c-123">Using PowerShell</span></span>
 
-<span data-ttu-id="e14e5-124">См. [new-CsOnlineVoiceRoutingPolicy.](/powershell/module/skype/new-csonlinevoiceroutingpolicy)</span><span class="sxs-lookup"><span data-stu-id="e14e5-124">See [New-CsOnlineVoiceRoutingPolicy](/powershell/module/skype/new-csonlinevoiceroutingpolicy).</span></span>
+<span data-ttu-id="6482c-124">См. [new-CsOnlineVoiceRoutingPolicy.](/powershell/module/skype/new-csonlinevoiceroutingpolicy)</span><span class="sxs-lookup"><span data-stu-id="6482c-124">See [New-CsOnlineVoiceRoutingPolicy](/powershell/module/skype/new-csonlinevoiceroutingpolicy).</span></span>
 
-## <a name="edit-a-voice-routing-policy"></a><span data-ttu-id="e14e5-125">Изменение политики маршрутики голосовой почты</span><span class="sxs-lookup"><span data-stu-id="e14e5-125">Edit a voice routing policy</span></span>
+## <a name="edit-a-voice-routing-policy"></a><span data-ttu-id="6482c-125">Изменение политики голосовой маршрутики</span><span class="sxs-lookup"><span data-stu-id="6482c-125">Edit a voice routing policy</span></span>
 
-### <a name="using-the-microsoft-teams-admin-center"></a><span data-ttu-id="e14e5-126">С помощью Центра администрирования Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="e14e5-126">Using the Microsoft Teams admin center</span></span>
+### <a name="using-the-microsoft-teams-admin-center"></a><span data-ttu-id="6482c-126">С помощью Центра администрирования Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="6482c-126">Using the Microsoft Teams admin center</span></span>
 
-<span data-ttu-id="e14e5-127">Вы можете изменить глобальную политику или любые настраиваемые политики, которые вы создаете.</span><span class="sxs-lookup"><span data-stu-id="e14e5-127">You can edit the global policy or any custom policies that you create.</span></span>
+<span data-ttu-id="6482c-127">Вы можете изменить глобальную политику или любые настраиваемые политики, которые вы создаете.</span><span class="sxs-lookup"><span data-stu-id="6482c-127">You can edit the global policy or any custom policies that you create.</span></span>
 
-1. <span data-ttu-id="e14e5-128">В левой области навигации Центра администрирования Microsoft Teams перейдите **к** политикам  >  **маршрутации голосовой голосовой почты**.</span><span class="sxs-lookup"><span data-stu-id="e14e5-128">In the left navigation of the Microsoft Teams admin center, go to **Voice** > **Voice routing policies**.</span></span>
-2. <span data-ttu-id="e14e5-129">Выберите политику, щелкнув слева от ее имени, а затем нажмите **Изменить**.</span><span class="sxs-lookup"><span data-stu-id="e14e5-129">Select the policy by clicking to the left of the policy name, and then click **Edit**.</span></span>
-3. <span data-ttu-id="e14e5-130">Щелкните **Добавить/удалить** записи использования ОКП , внести нужные изменения и нажмите кнопку **Сохранить**.</span><span class="sxs-lookup"><span data-stu-id="e14e5-130">Click **Add/remove PSTN usage records**, make the changes that you want, and then click **Save**.</span></span>
+1. <span data-ttu-id="6482c-128">В левой области навигации Центра администрирования Microsoft Teams перейдите к **политикам**  >  **маршрутации голосовой голосовой почты**.</span><span class="sxs-lookup"><span data-stu-id="6482c-128">In the left navigation of the Microsoft Teams admin center, go to **Voice** > **Voice routing policies**.</span></span>
+2. <span data-ttu-id="6482c-129">Выберите политику, щелкнув слева от ее имени, а затем нажмите **Изменить**.</span><span class="sxs-lookup"><span data-stu-id="6482c-129">Select the policy by clicking to the left of the policy name, and then click **Edit**.</span></span>
+3. <span data-ttu-id="6482c-130">Щелкните **Добавить/удалить записи** использования ОКП , внести нужные изменения и нажмите кнопку **Сохранить**.</span><span class="sxs-lookup"><span data-stu-id="6482c-130">Click **Add/remove PSTN usage records**, make the changes that you want, and then click **Save**.</span></span>
 
-### <a name="using-powershell"></a><span data-ttu-id="e14e5-131">С помощью PowerShell</span><span class="sxs-lookup"><span data-stu-id="e14e5-131">Using PowerShell</span></span>
+### <a name="using-powershell"></a><span data-ttu-id="6482c-131">С помощью PowerShell</span><span class="sxs-lookup"><span data-stu-id="6482c-131">Using PowerShell</span></span>
 
-<span data-ttu-id="e14e5-132">См. [set-CsOnlineVoiceRoutingPolicy.](/powershell/module/skype/set-csonlinevoiceroutingpolicy)</span><span class="sxs-lookup"><span data-stu-id="e14e5-132">See [Set-CsOnlineVoiceRoutingPolicy](/powershell/module/skype/set-csonlinevoiceroutingpolicy).</span></span>
+<span data-ttu-id="6482c-132">См. [set-CsOnlineVoiceRoutingPolicy.](/powershell/module/skype/set-csonlinevoiceroutingpolicy)</span><span class="sxs-lookup"><span data-stu-id="6482c-132">See [Set-CsOnlineVoiceRoutingPolicy](/powershell/module/skype/set-csonlinevoiceroutingpolicy).</span></span>
 
-## <a name="assign-a-custom-voice-routing-policy-to-users"></a><span data-ttu-id="e14e5-133">Назначение пользовательской политики маршрутинга голосовой почты пользователям</span><span class="sxs-lookup"><span data-stu-id="e14e5-133">Assign a custom voice routing policy to users</span></span>
+## <a name="assign-a-custom-voice-routing-policy-to-users"></a><span data-ttu-id="6482c-133">Назначение пользовательской политики маршрутинга голосовой почты пользователям</span><span class="sxs-lookup"><span data-stu-id="6482c-133">Assign a custom voice routing policy to users</span></span>
 
 [!INCLUDE [assign-policy](includes/assign-policy.md)]
 
-<span data-ttu-id="e14e5-134">См. [также Grant-CsOnlineVoiceRoutingPolicy.](/powershell/module/skype/grant-csonlinevoiceroutingpolicy)</span><span class="sxs-lookup"><span data-stu-id="e14e5-134">See also [Grant-CsOnlineVoiceRoutingPolicy](/powershell/module/skype/grant-csonlinevoiceroutingpolicy).</span></span>
+<span data-ttu-id="6482c-134">См. [также Grant-CsOnlineVoiceRoutingPolicy.](/powershell/module/skype/grant-csonlinevoiceroutingpolicy)</span><span class="sxs-lookup"><span data-stu-id="6482c-134">See also [Grant-CsOnlineVoiceRoutingPolicy](/powershell/module/skype/grant-csonlinevoiceroutingpolicy).</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="e14e5-135">Статьи по теме</span><span class="sxs-lookup"><span data-stu-id="e14e5-135">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="6482c-135">Статьи по теме</span><span class="sxs-lookup"><span data-stu-id="6482c-135">Related topics</span></span>
 
-[<span data-ttu-id="e14e5-136">Обзор PowerShell в Teams</span><span class="sxs-lookup"><span data-stu-id="e14e5-136">Teams PowerShell overview</span></span>](teams-powershell-overview.md)
+[<span data-ttu-id="6482c-136">Обзор PowerShell в Teams</span><span class="sxs-lookup"><span data-stu-id="6482c-136">Teams PowerShell overview</span></span>](teams-powershell-overview.md)
 
-[<span data-ttu-id="e14e5-137">Настройка голосовой маршрутии для прямой маршрутии</span><span class="sxs-lookup"><span data-stu-id="e14e5-137">Configure voice routing for Direct Routing</span></span>](direct-routing-voice-routing.md)
+[<span data-ttu-id="6482c-137">Настройка голосовой маршрутии для прямой маршрутии</span><span class="sxs-lookup"><span data-stu-id="6482c-137">Configure voice routing for Direct Routing</span></span>](direct-routing-voice-routing.md)
 
-[<span data-ttu-id="e14e5-138">Включение функции "Маршрутизация на основе расположения" для прямой маршрутизации</span><span class="sxs-lookup"><span data-stu-id="e14e5-138">Enable Location-Based Routing for Direct Routing</span></span>](location-based-routing-enable.md)
+[<span data-ttu-id="6482c-138">Включение функции "Маршрутизация на основе расположения" для прямой маршрутизации</span><span class="sxs-lookup"><span data-stu-id="6482c-138">Enable Location-Based Routing for Direct Routing</span></span>](location-based-routing-enable.md)
 
-[<span data-ttu-id="e14e5-139">Назначение политик пользователям в Teams</span><span class="sxs-lookup"><span data-stu-id="e14e5-139">Assign policies to your users in Teams</span></span>](assign-policies.md)
+[<span data-ttu-id="6482c-139">Назначение политик пользователям в Teams</span><span class="sxs-lookup"><span data-stu-id="6482c-139">Assign policies to your users in Teams</span></span>](assign-policies.md)
