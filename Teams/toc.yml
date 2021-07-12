@@ -1558,6 +1558,8 @@ items:
                 href: /microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365
           - name: Взаимодействие SharePoint Online и OneDrive для бизнеса с Teams
             href: sharepoint-onedrive-interact.md
+          - name: Взаимодействие с Teams в клиенте Microsoft 365 или Office 365 с поддержкой нескольких регионов
+            href: teams-experience-o365odb-spo-multi-geo.md
       - name: Поддерживаемые устройства
         items:
           - name: Управление устройствами в Teams
