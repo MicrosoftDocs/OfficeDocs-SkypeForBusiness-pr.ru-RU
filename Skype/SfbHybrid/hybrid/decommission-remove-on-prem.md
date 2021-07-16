@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: Инструкции по выводу из эксплуатации Skype для бизнеса Server.
-ms.openlocfilehash: a69ba2d9a3bbdce8bee342c3554b758138ad1d87
-ms.sourcegitcommit: f39484688800a3d22f361e660d0eeba974a44fb1
+ms.openlocfilehash: e96c4cd37d09fc62fbfbe34a8b8d61c79ea08289
+ms.sourcegitcommit: 405b22cfd94e50d651f4c3f73fb46780cd8a6d06
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/14/2021
-ms.locfileid: "53420794"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53454342"
 ---
 # <a name="remove-your-on-premises-skype-for-business-deployment"></a>Удаление локального развертывания Skype для бизнеса
 
@@ -38,7 +38,7 @@ ms.locfileid: "53420794"
 
 
 > [!IMPORTANT] 
-> Действия, описанные в этой статье, применяются только в том случае, если метод 2 используется для управления атрибутами пользователей, как [описано здесь.](cloud-consolidation-disabling-hybrid.md#method-2---clear-skype-for-business-attributes-for-all-on-premises-users-in-active-directory) Если используется метод 1, не используйте описанные в этой статье действия для удаления Skype для бизнеса серверов. Вместо этого вы можете повторно образ серверов.
+> Действия, описанные в этой статье, применяются только в том случае, если метод 2 используется для управления атрибутами пользователей, как [описано здесь.](cloud-consolidation-managing-attributes.md#method-2---clear-skype-for-business-attributes-for-all-on-premises-users-in-active-directory) Если используется метод 1, не используйте описанные в этой статье действия для удаления Skype для бизнеса серверов. Вместо этого вы можете повторно образ серверов.
 
 Для выполнения действий в этой статье необходимы привилегии как для группы администраторов схемы, так и для Enterprise администратора. Эти привилегии необходимы для отмены Skype для бизнеса Server схемы и изменений на уровне лесов в службы домена Active Directory. Вы также должны быть членом группы RTCUniversalServerAdmins.
 
