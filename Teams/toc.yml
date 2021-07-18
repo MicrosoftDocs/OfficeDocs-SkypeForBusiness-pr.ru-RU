@@ -229,10 +229,16 @@ items:
                 href: /SkypeForBusiness/hybrid/decommission-on-prem-overview
               - name: Перемещение пользователей в облако
                 href: /SkypeForBusiness/hybrid/decommission-move-on-prem-users
-              - name: Отключение гибридной среды для завершения миграции в облако
-                href: /SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid
+              - name: Отключение гибридной среды для завершения миграции в режим "Только Teams"
+                items:
+                  - name: Отключение гибридной среды для завершения миграции в режим "Только Teams"
+                    href: /SkypeForBusiness//hybrid/cloud-consolidation-disabling-hybrid
+                  - name: Обновление записей DNS
+                    ref: /SkypeForBusiness//hybrid/decommission-manage-dns-entries.md
+                  - name: 'Выберите, как управлять атрибутами после списания'
+                    href: /SkypeForBusiness//hybrid/cloud-consolidation-managing-attributes
               - name: Перемещение конечных точек приложений в облако
-                href: /SkypeForBusiness/hybrid/decommission-move-on-prem-endpoints.md
+                href: /SkypeForBusiness/hybrid/decommission-move-on-prem-endpoints
               - name: Удаление развертывания Skype® для бизнеса
                 href: /SkypeForBusiness/hybrid/decommission-remove-on-prem
           - name: Развертывание топологии леса ресурсов
@@ -1558,8 +1564,6 @@ items:
                 href: /microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365
           - name: Взаимодействие SharePoint Online и OneDrive для бизнеса с Teams
             href: sharepoint-onedrive-interact.md
-          - name: Взаимодействие с Teams в клиенте Microsoft 365 или Office 365 с поддержкой нескольких регионов
-            href: teams-experience-o365odb-spo-multi-geo.md
       - name: Поддерживаемые устройства
         items:
           - name: Управление устройствами в Teams

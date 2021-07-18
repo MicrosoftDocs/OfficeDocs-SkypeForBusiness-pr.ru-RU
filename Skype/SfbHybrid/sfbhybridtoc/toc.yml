@@ -26,8 +26,14 @@
           href: ../hybrid/decommission-on-prem-overview.md
         - name: Перемещение пользователей в облако
           href: ../hybrid/decommission-move-on-prem-users.md
-        - name: Отключение гибридной среды для завершения миграции в облако
-          href: ../hybrid/cloud-consolidation-disabling-hybrid.md
+        - name: Отключение гибридной среды для завершения миграции в режим "Только Teams"
+          items:
+            - name: Отключение гибридной среды для завершения миграции в режим "Только Teams"
+              href: ../hybrid/cloud-consolidation-disabling-hybrid.md
+            - name: Обновление записей DNS
+              href: ../hybrid/decommission-manage-dns-entries.md
+            - name: 'Выберите, как управлять атрибутами после списания'
+              href: ../hybrid/cloud-consolidation-managing-attributes.md
         - name: Перемещение конечных точек приложений в облако
           href: ../hybrid/decommission-move-on-prem-endpoints.md
         - name: Удаление локального развертывания Skype для бизнеса
