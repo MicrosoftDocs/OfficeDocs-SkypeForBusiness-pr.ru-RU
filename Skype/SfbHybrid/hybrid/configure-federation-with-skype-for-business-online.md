@@ -18,14 +18,16 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: Сводка. Сведения о настройке взаимодействия между локальной развертыванием и Teams.
-ms.openlocfilehash: 2c6fda43b939a616071009be2b8d28e636036101
-ms.sourcegitcommit: 17ad87556fb8e0de3c498e53f98f951ae3fa526b
+ms.openlocfilehash: 5593dce3bef26e2b3f528618d88e4f87e1996596
+ms.sourcegitcommit: 3f1635d1915561798ea764c3e33d7db55f7e49da
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52305973"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53574134"
 ---
 # <a name="configure-skype-for-business-hybrid"></a>Настройка гибридной среды Skype для бизнеса
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 Чтобы настроить гибридную среду Skype для бизнеса, необходимо выполнить следующие действия.
 
@@ -33,11 +35,11 @@ ms.locfileid: "52305973"
 - [Настройте локальное окружение,](#configure-your-on-premises-environment-to-enable-shared-sip-address-space-with-teams)чтобы доверять Teams и включить общее пространство адресов SIP.
 - [Включить общее пространство адресов SIP](#enable-shared-sip-address-space-in-your-organization)в Teams организации.
 
-Если у вас Exchange локальной среды, может потребоваться настроить OAuth между локальной Exchange и Skype для бизнеса среде Online. Дополнительные сведения см. в [веб-сведениях Управление](../../SfbServer/manage/authentication/server-to-server-and-partner-applications.md) проверкой подлинности от сервера к серверу в Skype для бизнеса Server и планирование интеграции Skype для бизнеса [и Exchange.](../../SfbServer/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md#feature_support) 
+Если у вас Exchange локальное пространство, может потребоваться настроить OAuth между Exchange локальной и сетевой средой. Дополнительные сведения см. в [веб-сведениях Управление](../../SfbServer/manage/authentication/server-to-server-and-partner-applications.md) проверкой подлинности от сервера к серверу в Skype для бизнеса Server и планирование интеграции Skype для бизнеса [и Exchange.](../../SfbServer/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md#feature_support) 
   
 ## <a name="configure-your-on-premises-edge-service-to-federate-with-teams"></a>Настройка локальной службы Edge для федерации с помощью Teams
 
-Федерация позволяет пользователям локального развертывания общаться с Teams и Skype для бизнеса пользователями в вашей организации. Чтобы настроить федерацию, запустите следующий cmdlet в Skype для бизнеса Server Management Shell:
+Федерация позволяет пользователям локального развертывания общаться с Teams пользователями в вашей организации. Чтобы настроить федерацию, запустите следующий cmdlet в Skype для бизнеса Server Management Shell:
   
 ```PowerShell
 Set-CSAccessEdgeConfiguration -AllowOutsideUsers $True -AllowFederatedUsers $True -EnablePartnerDiscovery $True -UseDnsSrvRouting
@@ -78,7 +80,7 @@ Set-CsTenantFederationConfiguration -SharedSipAddressSpace $true
 > [!NOTE]
 > Атрибут SharedSipAddressSpace должен оставаться "True", пока переход к сети не будет окончательным, и никакие пользователи не останутся на месте. 
   
-Чтобы установить удаленный сеанс PowerShell с Teams (или Skype для бизнеса Online), сначала необходимо установить модуль Teams [PowerShell.](/microsoftteams/teams-powershell-install) Модуль Teams PowerShell заменяет Skype соединитель Busines Online, который был снят.
+Чтобы установить удаленный сеанс PowerShell с Teams, сначала необходимо установить [модуль Teams PowerShell.](/microsoftteams/teams-powershell-install) Модуль Teams PowerShell заменяет Skype соединитель Busines Online, который был снят.
   
 После установки модуля можно установить удаленный сеанс со следующими командлетами:
    ```powershell

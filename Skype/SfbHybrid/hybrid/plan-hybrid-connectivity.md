@@ -18,14 +18,16 @@ ms.collection:
 - Adm_Skype4B_Online
 description: Планирование гибридного подключения между Skype для бизнеса Server и Teams или Skype для бизнеса Online путем настройки Skype для бизнеса гибридного режима.
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: 277e592df24a03f50d09ebca21bad0211e6c8c57
-ms.sourcegitcommit: e19fdedca6573110d08c7d114e05b84779e36b58
+ms.openlocfilehash: d8f1468d4278c905779a5cbb31e98bd4d0ffa6a4
+ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/15/2021
-ms.locfileid: "53437656"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53509830"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-teams"></a>Планирование гибридного подключения между Skype для бизнеса Server и Teams
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 Ознакомьтесь с этой темой, чтобы узнать, как планировать гибридное подключение между Skype для бизнеса Server и Teams (или Skype для бизнеса Online до 31 июля 2021 г.). Настройка гибридного подключения — это первый этап переноса локальной среды в облако.
 

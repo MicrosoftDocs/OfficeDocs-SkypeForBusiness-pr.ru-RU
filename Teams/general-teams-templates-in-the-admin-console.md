@@ -11,7 +11,7 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 search.appverid: MET150
-description: Узнайте, как с помощью общих шаблонов групп создавать структуры команд, предоставляя предопределяйте параметры, каналы и предварительно установленные приложения с помощью Центра администрирования.
+description: Узнайте, как с помощью общих шаблонов групп создать структуру группы, предоставив предварительно заранее задав параметры, каналы и приложения с помощью Центра администрирования.
 f1.keywords:
 - CSH
 ms.custom:
@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c2b805f4cfddce18f1fa055b7de96a4afcaa47fb
-ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
+ms.openlocfilehash: c68965bb658328646b5308ad85092ce23bc0ab02
+ms.sourcegitcommit: 3f1635d1915561798ea764c3e33d7db55f7e49da
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52684566"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53574054"
 ---
 # <a name="use-general-team-templates-in-the-admin-center"></a>Использование общих шаблонов групп в Центре администрирования
 
@@ -34,9 +34,9 @@ ms.locfileid: "52684566"
 
 В этой статье мы вводим каждый из шаблонов команды и рекомендуем использовать их.
 
-Эта статья посвящена вам, если вы отвечаете за планирование, развертывание и управление несколькими командами в своей финансовой организации. Вы уже развернули службу Teams в своей организации. Если вы еще не Teams, прочитайте статью Как [Microsoft Teams.](./deploy-overview.md)
+Эта статья для вас, если вы отвечаете за планирование, развертывание и управление несколькими командами в организации. Вы уже развернули службу Teams в своей организации. Если вы еще не Teams, прочитайте статью Как Microsoft Teams [.](./deploy-overview.md)
 
-Дополнительные информацию о шаблонах команд в целом можно найти в этой [ссылке: Начало работы с шаблонами команд.](get-started-with-teams-templates-in-the-admin-console.md)
+Дополнительные информацию о шаблонах команд в целом можно найти в этой ссылке: Начало [работы с шаблонами команд.](get-started-with-teams-templates-in-the-admin-console.md)
 
 ## <a name="global-crisis-or-event"></a>Глобальныйкриб или событие
 

@@ -19,20 +19,20 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-may2020
-ms.openlocfilehash: 1d88448851cdb81226eaae06ee5120555d498b6b
-ms.sourcegitcommit: 0c942d9e25f9a51bb9bd22b40c5926e1d6d3892d
+ms.openlocfilehash: 6e715786a6cf139da303a73b7f076f3f30e8e004
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "53186908"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587198"
 ---
 # <a name="microsoft-teams-training"></a>Обучение работе с Microsoft Teams
 
-|               |               |
+| &nbsp; | &nbsp; |
 | ------------- | ------------- |
-| <img src="https://docs.microsoft.com/office/media/icons/walkthrough-map-teams.svg" width="40 px" height="40 px" alt="admin training"> | **[Обучение администраторов](./itadmin-readiness.md)** </br> Используйте эти учебники, видео и другие учебные ресурсы для знакомства с Teams и внедрения использования в организации. 
-| <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg" width="40 px" height="40 px" alt="live training"> | **[Интерактивное обучение Teams](./instructor-led-training-teams-landing-page.yml)** </br> Размещенные на серверах Майкрософт бесплатные, интерактивные учебные занятия в Интернете предназначены для подготовки к работе с Teams. Присоединяйтесь к нам, чтобы увидеть Teams в действии, получить ответы на вопросы и взаимодействовать с нашими преподавателями в режиме реального времени. 
-| <img src="https://docs.microsoft.com/office/media/icons/user.svg" width="40 px" height="40 px" alt="online training" > | **[Онлайн-обучение Teams](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)** </br> Используйте эти учебные ресурсы для изучения в своем темпе, чтобы помочь вашим пользователям максимально эффективно использовать Teams. |
+| <img src="/office/media/icons/walkthrough-map-teams.svg" width="40 px" height="40 px" alt="admin training"> | **[Обучение администраторов](./itadmin-readiness.md)** </br> Используйте эти учебники, видео и другие учебные ресурсы для знакомства с Teams и внедрения использования в организации. 
+| <img src="/office/media/icons/education-tutorial-teams.svg" width="40 px" height="40 px" alt="live training"> | **[Интерактивное обучение Teams](./instructor-led-training-teams-landing-page.yml)** </br> Размещенные на серверах Майкрософт бесплатные, интерактивные учебные занятия в Интернете предназначены для подготовки к работе с Teams. Присоединяйтесь к нам, чтобы увидеть Teams в действии, получить ответы на вопросы и взаимодействовать с нашими преподавателями в режиме реального времени. 
+| <img src="/office/media/icons/user.svg" width="40 px" height="40 px" alt="online training" > | **[Онлайн-обучение Teams](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)** </br> Используйте эти учебные ресурсы для изучения в своем темпе, чтобы помочь вашим пользователям максимально эффективно использовать Teams. |
 
 ## <a name="dont-miss-these-key-training-offerings"></a>Не пропустите эти ключевые учебные материалы
 

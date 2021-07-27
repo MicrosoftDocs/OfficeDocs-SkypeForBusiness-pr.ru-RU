@@ -21,22 +21,22 @@ searchScope:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: 889c3f4149489f6bcea44acde93d897a7f2e50e1
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: d4901258f7e0422b373553beba509bdfa0673d96
+ms.sourcegitcommit: 330b5c3e299ddad5168958e4722d1e0b987372e2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092557"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53536715"
 ---
 # <a name="shifts-for-teams"></a>"Смены" для Teams
 
-Teams сотрудников, работающих с телефоном, предоставляет им инструменты, необходимые для эффективного общения и совместной работы. В этой статье показано, как настроить и управлять. Смены и использование средства управления расписанием в Teams.
+Teams сотрудников, работающих с сотрудниками в вашей организации, с помощью инструментов, необходимых для эффективного общения и совместной работы. В следующих ресурсах вы узнаете больше о том, как настроить и управлять сменами , средством управления расписанием в Teams.
 
 ### <a name="set-up-and-manage-shifts-for-your-organization"></a>Настройка смен и управление ими в организации
 
 |               |               |               |               |
 | ------------- | ------------- | ------------- | ------------- |
-|![task-checklist-planning-teams](../media/task-checklist-planning-teams-small.svg) | **[Управление сменами в организации](./shifts/manage-the-shifts-app-for-your-organization-in-teams.md)** |![Дизайн](../media/Help-small.svg)  | **[Справка по Сменам для сотрудников без компьютеров](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b#PickTab=Specific_apps)** |
+|![task-checklist-planning-teams](../media/task-checklist-planning-teams-small.svg) | **[Управление сменами в организации](./shifts/manage-the-shifts-app-for-your-organization-in-teams.md)** |![Дизайн](../media/Help-small.svg)  | **[Справка по сменам для сотрудников, работающих на переднем телефоне](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b#PickTab=Specific_apps)** |
 
 ### <a name="shifts-extensions"></a>Расширения смен
 

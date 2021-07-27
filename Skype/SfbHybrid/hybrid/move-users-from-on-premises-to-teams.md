@@ -18,14 +18,16 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: Сводка. Сведения о переносе параметров пользователей и переносе пользователей в Teams.
-ms.openlocfilehash: b9b21dafc2290dfff5522f5d54c0872121294dd9
-ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
+ms.openlocfilehash: 1df8c617d40b88813074319d7eb041995ff71ca5
+ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52856308"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53509780"
 ---
 # <a name="move-users-from-on-premises-to-teams"></a>Перемещение пользователей из локальной среды в Teams
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 Когда пользователь перемещается из локального помещения в Teams Только, Skype для бизнеса дома пользователя перемещается из локального в online и пользователю назначено TeamsUpgradePolicy с mode=TeamsOnly.  После того как пользователь перемещается из локального в режим TeamsOnly:
 

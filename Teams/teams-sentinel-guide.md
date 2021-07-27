@@ -19,12 +19,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c3b2c37f7f3731b34abb5337bf954250e0c3564d
-ms.sourcegitcommit: 046b020cee8af00a1d0e5f5866f847d42e8ad9a5
+ms.openlocfilehash: 55307637e18f81775229bb46db51a6f5738cce7c
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51712771"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587048"
 ---
 # <a name="azure-sentinel-and-microsoft-teams"></a>Azure Sentinel и Microsoft Teams
 
@@ -53,7 +53,7 @@ Sentinel позволяет администраторам управлять б
 
 ## <a name="step-1-collect-teams-logs-enable-audit-logs-in-microsoft-365"></a>Шаг 1. Сбор журналов Teams: включение журналов аудита в Microsoft 365
 
-Так как Teams регистрирует действия через Microsoft 365, журналы аудита не собираются по умолчанию. Эту функцию можно включить, выполнив [следующие шаги](https://docs.microsoft.com/microsoft-365/compliance/turn-audit-log-search-on-or-off). Данные Teams собираются для аудита Microsoft 365 в разделе *Audit.General*.
+Так как Teams регистрирует действия через Microsoft 365, журналы аудита не собираются по умолчанию. Эту функцию можно включить, выполнив [следующие шаги](/microsoft-365/compliance/turn-audit-log-search-on-or-off). Данные Teams собираются для аудита Microsoft 365 в разделе *Audit.General*.
 
 ## <a name="step-2-connect-office-365-logs-to-azure-sentinel"></a>Шаг 2. Подключение журналов Office 365 к Azure Sentinel
 
@@ -228,6 +228,6 @@ SigninLogs
 
 [Регистрация приложения в Azure AD](/skype-sdk/ucwa/registeringyourapplicationinazuread%C2%A0%20%20%C2%A0)
 
-[Включение и отключение поиска в журнале аудита](https://docs.microsoft.com/microsoft-365/compliance/turn-audit-log-search-on-or-off)
+[Включение и отключение поиска в журнале аудита](/microsoft-365/compliance/turn-audit-log-search-on-or-off)
 
 [Что собой представляет Azure Sentinel?](/azure/sentinel/overview)

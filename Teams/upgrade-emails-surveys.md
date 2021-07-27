@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: Образцы сообщений электронной почты и опросов, которые можно использовать в разных почтовых ящиках, в том числе с помощью разувершенного десятишагового плана действий по переходу с Skype для бизнеса до Teams
+description: Образцы сообщений электронной почты и опросов, которые можно использовать в разных адресах, в том числе с помощью разувершенного десятишагового плана действий по переходу с Skype для бизнеса до Teams
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e0b462488bd9faa1ef52e2e610a0ed7892898018
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 6071d567972babbe16bae8ce00852be713199ef0
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809079"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53586988"
 ---
 # <a name="sample-emails-and-surveys-for-upgrade-basic-communications"></a>Образцы сообщений электронной почты и опросов для сообщений об обновлении
 
@@ -170,7 +170,7 @@ Should you have questions, contact <<insert alias or contact info>>.
 
 <a name="step-10-email"></a>
 
-### <a name="email-to-ask-users-to-give-teams-and-channels-a-try-for-step-10"></a>Отправить сообщение электронной почты с запросом на доступ к командам и каналам для шага 10
+### <a name="email-to-ask-users-to-give-teams-and-channels-a-try-for-step-10"></a>Сообщение электронной почты с вопросом о том, как предоставить пользователям доступ к командам и каналам для шага 10
 
 Строка темы:
 
@@ -203,7 +203,7 @@ Should you have questions, contact <<insert alias or contact info>>.
 
 Указать, насколько вы квалифицированы в выполнении следующих действий в Teams и есть ли одно или несколько действий, о которые вы хотите узнать подробнее.
 
-| &nbsp; | Очень опытные | Несколько опытных | Совсем не опытные | Хотите узнать больше | Н/Д | Не знаете или не знаете | | | | |
+| &nbsp; | Очень опытные | Несколько опытных | Совсем не опытные | Хотите узнать больше | Н/Д | Не знаете или не знаете |&nbsp; | &nbsp;|&nbsp; |&nbsp; |
 |---|---|---|---|---|---|---|---|---|---|---|
 | Используйте Teams для мгновенных бесед и общения с другими людьми | | | | | | | | | | |
 | Использование Teams собраний по сети | | | | | | | | | | |

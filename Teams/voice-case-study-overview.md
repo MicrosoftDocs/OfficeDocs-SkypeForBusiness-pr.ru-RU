@@ -1,5 +1,5 @@
 ---
-title: 'Teams голосом: пример: Contoso'
+title: Teams обзор тематии голосового исследования Contoso
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -14,15 +14,15 @@ ms.reviewer: jowrig
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Teams на примере голосовой почты для многоязычной корпорации
+description: 'Teams для многоязычной корпорации: обзор голосовой миграции'
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 19200ec5ab1556b0f2b4fda2f389e60bc236015b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: ae8a09ab48215b1915c06e46b3d6a3a693958621
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51097495"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587178"
 ---
 # <a name="contoso-case-study-teams-voice-migration-overview"></a>Пример: обзор переноса голосовой Teams Contoso
 
@@ -30,9 +30,9 @@ ms.locfileid: "51097495"
 
 Компания Contoso развернула Microsoft 365 корпоративный решения по проектированию и внедрению для следующих проектов: сеть, удостоверения, Windows 10 Корпоративная, Office 365 профессиональный плюс, управление мобильными устройствами, защита информации, безопасность, обновление с Skype для бизнеса до Teams, телефонная система и аудиоконференцию.  
 
-В этой статье посвящено, как Contoso перенес своих пользователей на Teams для единой коммуникации, совместной работы и голосовой связи. Чтобы получить справочную информацию о том, как Contoso ускорил цифровое преобразование с помощью облачных служб Майкрософт, см. все основные статьи, начиная с обзорного исследования [Contoso.](/microsoft-365/enterprise/contoso-case-study?view=o365-worldwide)
+В этой статье посвящено, как Contoso перенес своих пользователей на Teams для единой коммуникации, совместной работы и голосовой связи. Чтобы получить справочную информацию о том, как Contoso ускорил цифровое преобразование с помощью облачных служб Майкрософт, см. все основные статьи, начиная с обзорного исследования [Contoso.](/microsoft-365/enterprise/contoso-case-study)
 
-https://docs.microsoft.com/microsoft-365/enterprise/contoso-case-study?view=o365-worldwide 
+[https://docs.microsoft.com/microsoft-365/enterprise/contoso-case-study](/microsoft-365/enterprise/contoso-case-study) 
 
 В ключевых статьях вы найдете сведения о следующих статьях:  
 
@@ -79,7 +79,7 @@ https://docs.microsoft.com/microsoft-365/enterprise/contoso-case-study?view=o365
 
 - Оптимизация локальных мультимедиа 
 
-  Contoso воспользовался оптимизацией локальных мультимедиа в местах, где у них был один прямой маршрут линии связи с Телефон (Майкрософт), которая была задейна удаленными сайтами. Дополнительные сведения см. в настройках Плана оптимизации локальных [мультимедиа](direct-routing-media-optimization.md) и [Настройка оптимизации локальных мультимедиа.](direct-routing-media-optimization-configure.md)
+  Contoso воспользовался оптимизацией локальных мультимедиа в расположениях, где у них была одна прямая линия связи с Телефон (Майкрософт), которая была задейна удаленными сайтами. Дополнительные сведения см. в настройках План оптимизации локальных [мультимедиа](direct-routing-media-optimization.md) и [Настройка оптимизации локальных мультимедиа.](direct-routing-media-optimization-configure.md)
 
 - Автоспутники и очереди вызовов
 

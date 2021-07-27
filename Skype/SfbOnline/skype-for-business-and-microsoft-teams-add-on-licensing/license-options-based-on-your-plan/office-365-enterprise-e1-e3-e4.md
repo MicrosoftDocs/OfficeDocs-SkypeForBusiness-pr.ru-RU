@@ -21,12 +21,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Сведения о лицензиях надстроек, функциях и о том, как приобрести планы Office 365 корпоративный (E1, E3, и E4). '
-ms.openlocfilehash: 54b24f2e3debf58305214bbc48dac56babcfc681
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 44f55fff23a048a85ad220e03a24af58f099833e
+ms.sourcegitcommit: 05b46fc512678f39c345f15f3369e05d9c2efb3d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238477"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53495169"
 ---
 # <a name="office-365-enterprise-e1-e3-and-e4"></a>Office 365 корпоративный (E1, E3 и E4)
 
@@ -40,11 +40,13 @@ ms.locfileid: "52238477"
 |**Аудиоконференция** <br/> Приобретите 1 **лицензию** на аудиоконференцию для каждого человека, который будет планировать или проводить собрание с телефонным номером. Attendees do not need licenses. <br/> |Надстройка **аудиоконференций** <br/>После приобретения лицензии корпорация Майкрософт станет вашим поставщиком аудиоконференций. |
 |**Бесплатные номера для доступа к собраниям с телефонным доступом и возможность звонить из собрания, чтобы добавить кого-то, позвонив на любой номер телефона в мире** <br/> |[Кредиты на связь](/microsoftteams/add-funds-and-manage-communications-credits)|
 |**Телефонная система** <br/> |1. **Телефонная система Office 365** надстройки <br/> 2. Тарифные планы: приобретите [Тарифный план](/MicrosoftTeams/calling-plans-for-office-365) в Office 365. <br/>  Или используйте [телефонную службу вашего текущего поставщика](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_existing).  <br/> |
-|**Облачная голосовая почта** <br/> |Для планов E1 и E4 приобретите Exchange Online (план 2). <br/>Или перейдите на пакет Office, который входит в комплект поставки Exchange Online (план 2), например Office 365 E3. |
+|**облачная голосовая почта**<sup>1</sup> <br/> |Для планов E1 и E4 приобретите Exchange Online (план 2). <br/>Или перейдите на пакет Office, который входит в комплект поставки Exchange Online (план 2), например Office 365 E3. |
 |**Планы звонков** <br/> |1. **телефонная система** надстройки <br/> 2. [Тарифный план](/MicrosoftTeams/calling-plans-for-office-365): его можно приобрести только после приобретения надстройки **Телефонная система**. <br/> |
+
+<sup>1</sup> Для пользователей локальной сети. Дополнительные сведения см. [в облачная голосовая почта службы для локального пользователя.](/skypeforbusiness/hybrid/plan-cloud-voicemail)
    
  > [!IMPORTANT]
- > Office 365 Лицензии E4 официально отменены. Дополнительные [сведения см. в Office 365 корпоративный E4 для](https://support.office.com/article/important-information-for-office-365-enterprise-e4-customers-f9572348-43a2-43fa-a3d8-3b6c9c042147) клиентов.
+ > Office 365 Лицензии E4 официально отменены. Дополнительные [сведения см. в Office 365 корпоративный E4 сведения](https://support.office.com/article/important-information-for-office-365-enterprise-e4-customers-f9572348-43a2-43fa-a3d8-3b6c9c042147) для клиентов.
   
 ## <a name="e1-and-e3-customers-how-to-see-prices-and-buy"></a>Клиенты с планами E1 и E3: как просмотреть цены и приобрести дополнительные лицензии
 <a name="bkmk_buypremium"> </a>
@@ -71,7 +73,7 @@ ms.locfileid: "52238477"
 ## <a name="why-dont-i-see-the-option-to-buy-add-ons"></a>Почему я не вижу команду для приобретения надстроек?
 <a name="bkmk_how"> </a>
 
-В некоторых ситуациях возможность приобрести надстройки Skype для бизнеса в Центре администрирования Microsoft 365 не будет.
+В некоторых ситуациях вы не увидите возможность приобрести надстройки Skype для бизнеса в Центр администрирования Microsoft 365.
 
 - **Вы приобрели Microsoft 365 бизнес стандарт через GoDaddy**. В этом случае вы не сможете Skype для бизнеса надстройки. Необходимо переключиться на план E3 (который не продается через GoDaddy), после чего вы сможете их приобрести. [Обратитесь в службу поддержки продуктов для бизнеса — справку для администраторов](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 

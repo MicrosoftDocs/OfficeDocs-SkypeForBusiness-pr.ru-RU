@@ -12,102 +12,102 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
-description: Поиск и управление обновлениями для Skype для бизнеса Server 2015/2019 и Lync 2013 в одном месте. Чтобы узнать больше об обновлениях и скачать их, воспользуйтесь ссылками на этой странице.
-ms.openlocfilehash: ea4976954f7f31043e4cbd21e4744f85dc2088ff
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Поиск и управление обновлениями Skype для бизнеса Server 2015/2019 и Lync 2013 в одном месте. Чтобы узнать больше об обновлениях и скачать их, воспользуйтесь ссылками на этой странице.
+ms.openlocfilehash: d59037f500bff249ab814632fef100821d63b7b7
+ms.sourcegitcommit: 3f1635d1915561798ea764c3e33d7db55f7e49da
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092857"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53574124"
 ---
 # <a name="skype-for-business-server-updates"></a>Обновления Skype для бизнеса Server
 
-Поиск и управление обновлениями [для Skype для бизнеса Server 2019,](#skype-for-business-server-2019-update-history)Skype для бизнеса Server [2015,](#skype-for-business-server-2015-update-history)  [Lync Server 2013](#lync-server-2013-update-history)и [Lync Server 2010](#lync-server-2010-update-history) в одном месте. Чтобы узнать больше об обновлениях и скачать их, воспользуйтесь ссылками на этой странице.
+Поиск и управление обновлениями [Skype для бизнеса Server 2019](#skype-for-business-server-2019-update-history), [Skype для бизнеса Server 2015](#skype-for-business-server-2015-update-history), [Lync Server 2013](#lync-server-2013-update-history)и [Lync Server 2010](#lync-server-2010-update-history) в одном месте. Чтобы узнать больше об обновлениях и скачать их, воспользуйтесь ссылками на этой странице.
 
-Последние обновления Skype для бизнеса в Интернете и Microsoft 365 см. в дорожной карте [Microsoft 365.](https://go.microsoft.com/fwlink/p/?linkid=529454)
+Последние обновления Skype для бизнеса Online и Microsoft 365 см. в Microsoft 365 [Roadmap.](https://go.microsoft.com/fwlink/p/?linkid=529454)
 
-## <a name="skype-for-business-server-2019-update-history"></a>История обновления Skype для бизнеса Server 2019
+## <a name="skype-for-business-server-2019-update-history"></a>Skype для бизнеса Server обновления 2019 г.
 
-KB 4470124 — это мастер КБ для Skype для бизнеса Server 2019, который имеет весь исторический список всех опубликованных накопительных обновлений и hotfixes. 
+KB 4470124 является мастером КБ для Skype для бизнеса Server 2019 г., который имеет весь исторический список всех опубликованных накопительных обновлений и hotfixes. 
 
 |Имя пакета|Номер статьи в базе знаний|Дата выпуска|
 |:--- |:--- |:--- |
-|Накопительное обновление Skype для бизнеса Server 2019 4 |[KB 4470124](https://support.microsoft.com/kb/4470124)| Сентябрь 2020 г. |
-|Skype для бизнеса Server 2019 Накопительное обновление 3 Hotfix 1 |[KB 4470124](https://support.microsoft.com/kb/4470124)| Июль 2020 г. |
-|Накопительное обновление Skype для бизнеса Server 2019 3 |[KB 4470124](https://support.microsoft.com/kb/4470124)| Март 2020 г. |
-|Накопительное обновление Skype для бизнеса Server 2019 2 |[KB 4470124](https://support.microsoft.com/kb/4470124)| Декабрь 2019 г. |
-|Накопительное обновление Skype для бизнеса Server 2019 1 Hotfix 1 |[KB 4470124](https://support.microsoft.com/kb/4470124)| Сентябрь 2019 г. |
-|Накопительное обновление Skype для бизнеса Server 2019 1|[KB 4470124](https://support.microsoft.com/kb/4470124)| Июль 2019 г. |
+|Skype для бизнеса Server 2019 Накопительное обновление 4 |[KB 4470124](https://support.microsoft.com/kb/4470124)| Сентябрь 2020 |
+|Skype для бизнеса Server 2019 Накопительное обновление 3 Hotfix 1 |[KB 4470124](https://support.microsoft.com/kb/4470124)| Июль 2020 |
+|Skype для бизнеса Server 2019 Накопительное обновление 3 |[KB 4470124](https://support.microsoft.com/kb/4470124)| Март 2020 г. |
+|Skype для бизнеса Server 2019 Накопительное обновление 2 |[KB 4470124](https://support.microsoft.com/kb/4470124)| Декабрь 2019 г. |
+|Skype для бизнеса Server 2019 Накопительное обновление 1 Hotfix 1 |[KB 4470124](https://support.microsoft.com/kb/4470124)| Сентябрь 2019 г. |
+|Skype для бизнеса Server 2019 Накопительное обновление 1|[KB 4470124](https://support.microsoft.com/kb/4470124)| Июль 2019 г. |
 | | | |
 
-### <a name="skype-for-business-server-2019-tools"></a>Инструменты Skype для бизнеса Server 2019
+### <a name="skype-for-business-server-2019-tools"></a>Skype для бизнеса Server 2019 г.
 
-|Имя пакета/ссылка|Дата выпуска|
+|Имя пакета |Дата выпуска|
 |:--- |:--- |
-|[UCMA 6.0 SDK ](https://www.microsoft.com/en-in/download/details.aspx?id=57506)     |  Июнь 2019 г.       |
+|[UCMA 6.0 SDK ](https://www.microsoft.com/en-in/download/details.aspx?id=57506)     |  Июнь 2019 г.       |
 |[Управление API единой связи 5.0](https://www.microsoft.com/en-in/download/details.aspx?id=57507)    | Июнь 2018 г.        |
-|[Skype для бизнеса Server 2019, пакет управления](https://www.microsoft.com/en-in/download/details.aspx?id=57511)    | Июнь 2018 г.        |
+| Skype для бизнеса Server 2019 г., пакет управления    | Июнь 2018 г.        |
 |||
 
 
-## <a name="skype-for-business-server-2015-update-history"></a>История обновления Skype для бизнеса Server 2015
+## <a name="skype-for-business-server-2015-update-history"></a>Skype для бизнеса Server обновления 2015 г.
 
-[KB 3061064 содержит](https://support.microsoft.com/kb/3061064) все выпущенные накопительные обновления. 
+[KB 3061064](https://support.microsoft.com/kb/3061064) содержит все выпущенные накопительные обновления. 
 
 |Имя пакета|Номер статьи в базе знаний|Дата выпуска|
 |:--- |:--- |:--- |
 |Skype для бизнеса Server 2015 Накопительное обновление 11 Hotfix 1|[KB 3061064](https://support.microsoft.com/kb/3061064)| Июль 2020 г. |
-|Накопительное обновление Skype для бизнеса Server 2015 11|[KB 3061064](https://support.microsoft.com/kb/3061064)| 13 мая 2020 г. |
+|Skype для бизнеса Server 2015 Накопительное обновление 11|[KB 3061064](https://support.microsoft.com/kb/3061064)| 13 мая 2020 г. |
 |Skype для бизнеса Server 2015 Накопительное обновление 10 Hotfix 1|[KB 3061064](https://support.microsoft.com/kb/3061064)| Август 2019 г. |
-|Накопительное обновление Skype для бизнеса Server 2015 10 |[KB 3061064](https://support.microsoft.com/kb/3061064)| Июль 2019 г. |
-|Накопительное обновление 9 для Skype для бизнеса Server 2015, сервер веб-компонентов|[KB 4487981](https://support.microsoft.com/kb/4487981)| Май 2019 г. |
-|Накопительное обновление 8 для Skype для бизнеса Server 2015, front End Server и Edge Server|[KB 4464355](https://support.microsoft.com/kb/4464355)|Январь 2019 г.|
-|Накопительное обновление 7 для Skype для бизнес-сервера 2015, переднего и краевого серверов |[KB 4340904](https://support.microsoft.com/kb/4340904) |Июль 2018 г. |
-|Накопительное обновление 6 Hotfix 2 для Skype для бизнеса Server 2015, переднего и краевого сервера |[KB 4086059](https://support.microsoft.com/kb/4086059) |Март 2018 г. |
-|Накопительное обновление 6 Hotfix 1 для Skype для бизнеса Server 2015, переднего и краевого сервера |[KB 4074701](https://support.microsoft.com/kb/4074701)|Январь 2018 г. |
-|Накопительное обновление 6 для Skype для бизнес-сервера 2015, переднего и краевого серверов|[KB 4036312](https://support.microsoft.com/kb/4036312) |Декабрь 2017 г. |
-|Накопительное обновление 5 для Skype для бизнес-сервера 2015, переднего и краевого серверов  |[KB 4012621](https://support.microsoft.com/kb/4012621) |Май 2017 г. |
-|Накопительное обновление 4 Hotfix 1 для Skype для бизнеса Server 2015, переднего и краевого сервера |[KB 3207506](https://support.microsoft.com/kb/3207506) |Февраль 2017 г. |
-|Накопительное обновление 4 для Skype для бизнес-сервера 2015, переднего и краевого серверов |[KB 3199093](https://support.microsoft.com/kb/3199093) |Ноябрь 2017 г. |
-|Накопительное обновление 3 для Skype для бизнес-сервера 2015, переднего и краевого серверов |[KB 3149227](https://support.microsoft.com/kb/3149227) |Июнь 2016 г. |
-|Накопительное обновление 2 для Skype для бизнеса Server 2015, переднего и краевого серверов |[KB 3134260](https://support.microsoft.com/kb/3134260) |Март 2016 г. |
-|Накопительное обновление 1 для Skype для бизнес-сервера 2015, переднего и краевого серверов |[KB 3097645](https://support.microsoft.com/kb/3097645) |Ноябрь 2015 г. |
-|Накопительное обновление для Skype для бизнеса Server 2015, основные компоненты |[KB 3098601](https://support.microsoft.com/kb/3098601) |Сентябрь 2015 г. |
-|Накопительное обновление для Skype для бизнес-сервера 2015, переднего и краевого серверов|[KB 3061059](https://support.microsoft.com/kb/3061059) |Июнь 2015 г. |
+|Skype для бизнеса Server 2015 Накопительное обновление 10 |[KB 3061064](https://support.microsoft.com/kb/3061064)| Июль 2019 г. |
+|Накопительное обновление 9 Skype для бизнеса Server 2015 г., Сервер веб-компонентов|[KB 4487981](https://support.microsoft.com/kb/4487981)| Май 2019 г. |
+|Накопительное обновление 8 Skype для бизнеса Server 2015 г., front End Server и Edge Server|[KB 4464355](https://support.microsoft.com/kb/4464355)|Январь 2019 г.|
+|Накопительное обновление 7 для Skype для бизнеса Server 2015 г., переднего и краевого серверов |[KB 4340904](https://support.microsoft.com/kb/4340904) |Июль 2018 г. |
+|Накопительное обновление 6 Hotfix 2 для Skype для бизнеса Server 2015 г., переднего и краевого серверов |[KB 4086059](https://support.microsoft.com/kb/4086059) |Март 2018 г. |
+|Накопительное обновление 6 Hotfix 1 для Skype для бизнеса Server 2015 г., переднего и краевого серверов |[KB 4074701](https://support.microsoft.com/kb/4074701)|Январь 2018 г. |
+|Накопительное обновление 6 для Skype для бизнеса Server 2015 г., переднего и краевого серверов|[KB 4036312](https://support.microsoft.com/kb/4036312) |Декабрь 2017 г. |
+|Накопительное обновление 5 для Skype для бизнеса Server 2015 г., переднего и краевого серверов  |[KB 4012621](https://support.microsoft.com/kb/4012621) |Май 2017 г. |
+|Накопительное обновление 4 Hotfix 1 для Skype для бизнеса Server 2015 г., переднего и краевого серверов |[KB 3207506](https://support.microsoft.com/kb/3207506) |Февраль 2017 г. |
+|Накопительное обновление 4 для Skype для бизнеса Server 2015 г., переднего и краевого серверов |[KB 3199093](https://support.microsoft.com/kb/3199093) |Ноябрь 2017 г. |
+|Накопительное обновление 3 для Skype для бизнеса Server 2015 г., переднего и краевого серверов |[KB 3149227](https://support.microsoft.com/kb/3149227) |Июнь 2016 г. |
+|Накопительное обновление 2 для Skype для бизнеса Server 2015 г., переднего и краевого серверов |[KB 3134260](https://support.microsoft.com/kb/3134260) |Март 2016 г. |
+|Накопительное обновление 1 для Skype для бизнеса Server 2015 г., переднего и краевого серверов |[KB 3097645](https://support.microsoft.com/kb/3097645) |Ноябрь 2015 г. |
+|Накопительное обновление Skype для бизнеса Server 2015 г. основные компоненты |[KB 3098601](https://support.microsoft.com/kb/3098601) |Сентябрь 2015 г. |
+|Накопительное обновление Skype для бизнеса Server 2015 г., переднем и краевом серверах|[KB 3061059](https://support.microsoft.com/kb/3061059) |Июнь 2015 г. |
 ||||
 
-### <a name="skype-for-business-server-2015-tools"></a>Инструменты Skype для бизнеса Server 2015
+### <a name="skype-for-business-server-2015-tools"></a>Skype для бизнеса Server 2015 г.
 
-|Имя пакета/ссылка|Дата выпуска|
+|Имя пакета |Дата выпуска|
 |:--- |:--- |
-|[UCMA 5.0 SDK ](https://www.microsoft.com/en-in/download/details.aspx?id=47345)     |  Май 2015 г.       |
-|[Управление API единой связи 5.0](https://www.microsoft.com/download/details.aspx?id=47344)     |   Май 2015 г.      |
-|[Пакет управления Skype для бизнеса Server 2015](https://www.microsoft.com/en-in/download/details.aspx?id=47364)     |  Июнь 2019 г.       |
+|[UCMA 5.0 SDK ](https://www.microsoft.com/en-in/download/details.aspx?id=47345)     |  Май 2015 г.       |
+|[Управление API единой связи 5.0](https://www.microsoft.com/download/details.aspx?id=47344)     |   Май 2015 г.      |
+| Skype для бизнеса Server 2015 г., пакет управления     |  Июнь 2019 г.       |
 |||
 
 ## <a name="lync-server-2013-update-history"></a>История обновления Lync Server 2013
 
-[KB 2809243 содержит](https://support.microsoft.com/kb/2809243) все выпущенные накопительные обновления.
+[KB 2809243](https://support.microsoft.com/kb/2809243) содержит все накопительные обновления, которые были выпущены.
 
 |Имя пакета|Номер статьи в базе знаний|Дата выпуска|
 |:--- |:--- |:--- |
-|Накопительное обновление Lync Server 2013 10 Hotfix 4 |[KB 4515509](https://support.microsoft.com/kb/4515509)|Июль 2020 г.|
-|Накопительное обновление Lync Server 2013 10 Hotfix 3 |[KB 4515509](https://support.microsoft.com/kb/4515509)|Сентябрь 2019 г.|
-|Накопительное обновление 10 Hotfix 2 Lync Server 2013 |[KB 4501392](https://support.microsoft.com/kb/4501392)|Июнь 2019 г.|
-|Накопительное обновление 10 Hotfix 1 Lync Server 2013 |[KB 4458772](https://support.microsoft.com/kb/4458772)|Январь 2019 г.|
+|Накопительное обновление Lync Server 2013 10 Hotfix 4 |[KB 4515509](https://support.microsoft.com/kb/4515509)|Июль 2020|
+|Накопительное обновление Lync Server 2013 10 Hotfix 3 |[KB 4515509](https://support.microsoft.com/kb/4515509)|Сентябрь 2019 г.|
+|Накопительное обновление 10 Hotfix 2 Lync Server 2013 |[KB 4501392](https://support.microsoft.com/kb/4501392)|Июнь 2019 г.|
+|Накопительное обновление 10 Hotfix 1 Lync Server 2013 |[KB 4458772](https://support.microsoft.com/kb/4458772)|Январь 2019 г.|
 |Накопительное обновление Lync Server 2013 10 |[KB 4295703](https://support.microsoft.com/kb/4295703)|Июль 2018 г. |
 |Накопительное обновление Lync Server 2013 9  |[KB 4019183](https://support.microsoft.com/kb/4019183) |Июль 2017 г. |
 |Накопительное обновление 8 Hotfix 4 Lync Server 2013 |[KB 4014154](https://support.microsoft.com/kb/4014154) |Март 2017 г. |
 |Накопительное обновление 8 Hotfix 3 Lync Server 2013 |[KB 3210166](https://support.microsoft.com/kb/3210166) |Январь 2017 г. |
-|Накопительное обновление 8 Hotfix 2 Lync Server 2013 |[KB 3212869](https://support.microsoft.com/kb/3212869) |Декабрь 2016 г. |
-|Накопительное обновление 8 Hotfix 1 Lync Server 2013 |[KB 3200079](https://support.microsoft.com/kb/3200079) |Ноябрь 2016 г. |
-|Накопительное обновление Lync Server 2013 8 |[KB 3175336](https://support.microsoft.com/kb/3175336)|Август 2016 г. |
-|Накопительное обновление Lync Server 2013 7  |[KB 3140581](https://support.microsoft.com/kb/3140581)|Апрель 2016 г. |
+|Накопительное обновление 8 Hotfix 2 Lync Server 2013 |[KB 3212869](https://support.microsoft.com/kb/3212869) |Декабрь 2016 г. |
+|Накопительное обновление 8 Hotfix 1 Lync Server 2013 |[KB 3200079](https://support.microsoft.com/kb/3200079) |Ноябрь 2016 г. |
+|Накопительное обновление Lync Server 2013 8 |[KB 3175336](https://support.microsoft.com/kb/3175336)|Август 2016 г. |
+|Накопительное обновление Lync Server 2013 7  |[KB 3140581](https://support.microsoft.com/kb/3140581)|Апрель 2016 г. |
 |Накопительное обновление Lync Server 2013 6 Hotfix 2 |[KB 3175338](https://support.microsoft.com/kb/3175338)|Январь 2016 г. |
 |Накопительное обновление Lync Server 2013 6 Hotfix 1 |[KB 3121213](https://support.microsoft.com/kb/3121213)|Декабрь 2015 г. |
 |Накопительное обновление Lync Server 2013 6 |[KB 3081739](https://support.microsoft.com/kb/3081739)|Сентябрь 2015 г. |
-|Накопительное обновление Lync Server 2013 5 Hotfix 10 |[KB 3064728](https://support.microsoft.com/kb/3064728)|Июль 2015 г. |
-|Накопительное обновление Lync Server 2013 5 Hotfix 9 |[KB 3051951](https://support.microsoft.com/kb/3051951)|Май 2015 г. |
+|Накопительное обновление Lync Server 2013 5 Hotfix 10 |[KB 3064728](https://support.microsoft.com/kb/3064728)|Июль 2015 г. |
+|Накопительное обновление Lync Server 2013 5 Hotfix 9 |[KB 3051951](https://support.microsoft.com/kb/3051951)|Май 2015 г. |
 |Накопительное обновление 5 Hotfix 8 Lync Server 2013  |[KB 3031065](https://support.microsoft.com/kb/3031065)|Февраль 2015 г. |
 |Накопительное обновление Lync Server 2013 5 Hotfix 7.1|[KB 3027553](https://support.microsoft.com/kb/3140582)|Декабрь 2014 г. |
 |Накопительное обновление 5 Hotfix 7 Lync Server 2013 |[KB 3018232](https://support.microsoft.com/kb/3018232)|Декабрь 2014 г. |
@@ -116,29 +116,29 @@ KB 4470124 — это мастер КБ для Skype для бизнеса Serve
 | Накопительное обновление Lync Server 2013 5 Hotfix 2 |[KB 2987511](https://support.microsoft.com/kb/3120728)|Сентябрь 2014 г. |
 | Накопительное обновление Lync Server 2013 5 |[KB 2937305](https://support.microsoft.com/kb/2937305)|Август 2014 г. |
 |Накопительное обновление Lync Server 2013 4 |[KB 2905040](https://support.microsoft.com/kb/2905040)|Январь 2014 г. |
-|Накопительное обновление Lync Server 2013 3 |[KB 881682](https://support.microsoft.com/kb/881682)|Октябрь 2013 г. |
+|Накопительное обновление Lync Server 2013 3 | KB 881682 |Октябрь 2013 г. |
 |Накопительное обновление Lync Server 2013 2 |[KB 2835432](https://support.microsoft.com/kb/2835432)|Июль 2013 г. |
 |Накопительное обновление Lync Server 2013 1 |[KB 2781550](https://support.microsoft.com/kb/2781550)|Февраль 2013 г. |
 ||||
 
 ### <a name="lync-server-2013-dev-tools"></a>Средства разработчиков Lync Server 2013
 
-|Имя пакета/ссылка|Дата выпуска|
+|Имя пакета|Дата выпуска|
 |:--- |:--- |
-|[Накопительное обновление единой связи управляемый API 4.0](https://www.microsoft.com/download/details.aspx?id=36826) |Июль 2013 г. |
-|[Пакет Lync Server 2013 SDK](https://www.microsoft.com/download/details.aspx?id=35456) |Февраль 2013 г.|
+| Накопительное обновление единой связи управляемый API 4.0 |Июль 2013 г. |
+| Пакет Lync Server 2013 SDK |Февраль 2013 г.|
 |[Пакет Lync 2013 SDK](https://www.microsoft.com/download/details.aspx?id=36824)|Март 2014 г.|
-|[Средства отладки Lync Server 2013](https://www.microsoft.com/download/details.aspx?id=35453)|Январь 2014 г.|
-|[Lync Server 2013 Persistent Chat Server SDK](https://www.microsoft.com/download/details.aspx?id=35458)|Октябрь 2013 г.|
+| Средства отладки Lync Server 2013|Январь 2014 г.|
+|[Lync Server 2013 Persistent Chat Server SDK](https://www.microsoft.com/download/details.aspx?id=35458)|Октябрь 2013 г.|
 |[Управляемый API единой связи 4.0 SDK](https://www.microsoft.com/download/details.aspx?id=35463)|Февраль 2013 г.|
 |[Среда выполнения управляемого API 4.0 единой системы обмена сообщениями](https://www.microsoft.com/download/details.aspx?id=34992)|Октябрь 2012 г.|
-|[Схемы расширенного присутствия UC для Lync Server 2013](https://www.microsoft.com/download/details.aspx?id=35452)|Октябрь 2012 г.|
+| Схемы расширенного присутствия UC для Lync Server 2013|Октябрь 2012 г.|
 
 #### <a name="pre-configured-vhds"></a>Предварительно настроенные VHD
 
-Полная топология состоит из 7 виртуальных машин, которые позволяют полностью оценить Microsoft Lync 2013, API microsoft Exchange 2013, SharePoint 2013 и API платформы разработчиков UC (включая SDK Microsoft Lync 2013, управляемый API веб-служб Exchange 2.0, Microsoft Lync Server 2013 SDK и Microsoft Unified Communications Managed API 4.0).
+Полная топология состоит из 7 виртуальных машин, которые позволяют полностью оценить Microsoft Lync 2013, API microsoft Exchange 2013, SharePoint 2013 и API платформы разработчиков UC (включая SDK Microsoft Lync 2013, Exchange Web Services Managed API 2.0, Microsoft Lync Server 2013 SDK и Microsoft Unified Communications Managed API 4.0).
 
-Имя пакета/ссылка|Дата выпуска|
+Имя пакета |Дата выпуска|
 |:--- |:--- |
 |[Тест-драйв — Lync Server 2013 — часть 1 из 3](https://www.microsoft.com/download/details.aspx?id=40266) |Сентябрь 2013 г. |
 |[Тест-драйв — Lync Server 2013 — часть 2 из 3](https://www.microsoft.com/download/details.aspx?id=40267) |Сентябрь 2013 г. |
@@ -146,26 +146,26 @@ KB 4470124 — это мастер КБ для Skype для бизнеса Serve
 
 ### <a name="lync-2013-tools"></a>Инструменты Lync 2013
 
-|Имя пакета/ссылка|Дата выпуска|
+|Имя пакета |Дата выпуска|
 |:--- |:--- |
-|[Lync Connectivity Analyzer (32-bit) RETIRED](https://blogs.technet.microsoft.com/nexthop/2017/06/13/retirement-of-the-lync-connectivity-analyzer-tool/) |Июнь 2017 г. |
-|[Lync Connectivity Analyzer (64-bit) RETIRED](https://blogs.technet.microsoft.com/nexthop/2017/06/13/retirement-of-the-lync-connectivity-analyzer-tool/) |Июнь 2017 г. |
-|[Анализатор соответствия рекомендациям Lync Server 2013](https://www.microsoft.com/download/details.aspx?id=35455) |Октябрь 2012 г. |
+| Lync Connectivity Analyzer (32-bit) RETIRED |Июнь 2017 г. |
+| Lync Connectivity Analyzer (64-bit) RETIRED |Июнь 2017 г. |
+| Анализатор соответствия рекомендациям Lync Server 2013 |Октябрь 2012 г. |
 |[Калькулятор емкости Lync Server 2013](https://www.microsoft.com/download/details.aspx?id=36828) |Июль 2013 г. |
 |[Средства отладки Lync Server 2013](https://www.microsoft.com/download/details.aspx?id=35453) |Январь 2014 г. |
-|[Пакет управления Lync Server 2013](https://www.microsoft.com/download/details.aspx?id=35842) |Май 2016 г. |
-|[Набор постоянных ресурсов чата Lync Server 2013](https://www.microsoft.com/download/details.aspx?id=36827) |Июль 2013 г. |
-|[Средство планирования Lync Server 2013](https://www.microsoft.com/download/details.aspx?id=36823) |Июль 2013 г. |
-|[Средства набора ресурсов Lync Server 2013](https://www.microsoft.com/download/details.aspx?id=36821) |Январь 2014 г. |
-|[Средство стресса и производительности Lync Server 2013](https://www.microsoft.com/download/details.aspx?id=36819) |Март 2013 г. |
-|[Lync Server 2013 Whiteboard Archiving Viewer](https://www.microsoft.com/download/details.aspx?id=36822) |Февраль 2013 г. |
+| Пакет управления Lync Server 2013 |Май 2016 г. |
+| Набор постоянных ресурсов чата Lync Server 2013 |Июль 2013 г. |
+| Средство планирования Lync Server 2013 |Июль 2013 г. |
+| Средства набора ресурсов Lync Server 2013 |Январь 2014 г. |
+| Средство стресса и производительности Lync Server 2013 |Март 2013 г. |
+| Lync Server 2013 Whiteboard Archiving Viewer |Февраль 2013 г. |
 |[Плагин Lync VDI 2013 (32-битный)](https://www.microsoft.com/download/details.aspx?id=35457) |Октябрь 2012 г. |
 |[Плагин Lync VDI 2013 (64-битный)](https://www.microsoft.com/download/details.aspx?id=35454) |Октябрь 2012 г. |
-|[Новый Office Visio Stencil](https://www.microsoft.com/download/details.aspx?id=35772) |Июль 2016 г. |
+|[Новый Office Visio трафарет](https://www.microsoft.com/download/details.aspx?id=35772) |Июль 2016 г. |
 
 ### <a name="lync-2013-downloadable-documentation"></a>Загружаемая документация Lync 2013
 
-Имя пакета/ссылка|Дата выпуска|
+Имя пакета |Дата выпуска|
 |:--- |:--- |
 |[Файл справки о документации Lync Server 2013](https://www.microsoft.com/download/details.aspx?id=35405)|Август 2015 г. |
 
@@ -173,65 +173,65 @@ KB 4470124 — это мастер КБ для Skype для бизнеса Serve
 
 ## <a name="lync-server-2010-update-history"></a>История обновления Lync Server 2010
 
-[KB 2493736 содержит](https://support.microsoft.com/kb/2493736) все выпущенные накопительные обновления.
+[KB 2493736](https://support.microsoft.com/kb/2493736) содержит все выпущенные накопительные обновления.
 
 |Имя пакета|Номер статьи в базе знаний|Дата выпуска|
 |:--- |:--- |:--- |
-|Накопительное обновление 18 Hotfix 1 Lync Server 2010 |[KB 2493736](https://support.microsoft.com/kb/2493736) |Июнь 2019 г.|
-|Накопительное обновление 18 Lync Server 2010|[KB 2493736](https://support.microsoft.com/kb/2493736) |Январь 2019 г.|
-|Накопительное обновление Lync Server 2010 17|[KB 3148801](https://support.microsoft.com/kb/3148801) |Апрель 2016 г. |
-|Накопительное обновление Lync Server 2010 16|[KB 3057803](https://support.microsoft.com/kb/3057803) |Май 2015 г. |
-|Накопительное обновление Lync Server 2010 15 |[KB 3030726](https://support.microsoft.com/kb/3030726) |Февраль 2015 г.|
-|Накопительное обновление Lync Server 2010 13|[KB 2982385](https://support.microsoft.com/kb/2982385) </br> [KB 2982388](https://support.microsoft.com/kb/2982388)|Сентябрь 2014 г.|
-|Накопительное обновление Lync Server 2010 12 |[KB 2957044](https://support.microsoft.com/kb/2957044) |Апрель 2014 г. |
-|Накопительное обновление Lync Server 2010 11 |[KB 2909888](https://support.microsoft.com/kb/2909888) |Январь 2014 г.|
-|Накопительное обновление Lync Server 2010 10 |[KB 2889610](https://support.microsoft.com/kb/2889610) |Октябрь 2013 г.|
-|Накопительное обновление Lync Server 2010 9 |[KB 2860700](https://support.microsoft.com/kb/2860700) |Июль 2013 г.|
-|Накопительное обновление Lync Server 2010 8 |[KB 2791381](https://support.microsoft.com/kb/2791381) |Июль 2013 г.|
-|Накопительное обновление Lync Server 2010 7 |[KB 2737915](https://support.microsoft.com/kb/2737915) |Октябрь 2012 г.|
-|Накопительное обновление Lync Server 2010 6 |[KB 2701585](https://support.microsoft.com/kb/2701585) |Июнь 2012 г.|
-|Накопительное обновление Lync Server 2010 5 |[KB 2670352](https://support.microsoft.com/kb/2670352) |Февраль 2012 г.|
-|Накопительное обновление Lync Server 2010 4 |[KB 2514980](https://support.microsoft.com/kb/2514980) |Ноябрь 2011 г.|
-|Накопительное обновление Lync Server 2010 3|[KB 2571546](https://support.microsoft.com/kb/2571546) |Июль 2011 г.|
-|Накопительное обновление Lync Server 2010 2|[KB 2500442](https://support.microsoft.com/kb/2500442) |Апрель 2011 г.|
-|Накопительное обновление Lync Server 2010 1|[KB 2467775](https://support.microsoft.com/kb/2467775) |Январь 2011 г.|
+|Накопительное обновление 18 Hotfix 1 Lync Server 2010 | KB 2493736 |Июнь 2019 г.|
+|Накопительное обновление 18 Lync Server 2010| KB 2493736 |Январь 2019 г.|
+|Накопительное обновление Lync Server 2010 17| KB 3148801 |Апрель 2016 г. |
+|Накопительное обновление Lync Server 2010 16| KB 3057803 |Май 2015 г. |
+|Накопительное обновление Lync Server 2010 15 | KB 3030726 |Февраль 2015 г.|
+|Накопительное обновление Lync Server 2010 13| KB 2982385 </br> KB 2982388 |Сентябрь 2014 г.|
+|Накопительное обновление Lync Server 2010 12 | KB 2957044 |Апрель 2014 г. |
+|Накопительное обновление Lync Server 2010 11 | KB 2909888 |Январь 2014 г.|
+|Накопительное обновление Lync Server 2010 10 | KB 2889610 |Октябрь 2013 г.|
+|Накопительное обновление Lync Server 2010 9 | KB 2860700 |Июль 2013 г.|
+|Накопительное обновление Lync Server 2010 8 | KB 2791381  |Июль 2013 г.|
+|Накопительное обновление Lync Server 2010 7 | KB 2737915 |Октябрь 2012 г.|
+|Накопительное обновление Lync Server 2010 6 | KB 2701585 |Июнь 2012 г.|
+|Накопительное обновление Lync Server 2010 5 | KB 2670352 |Февраль 2012 г.|
+|Накопительное обновление Lync Server 2010 4 | KB 2514980 |Ноябрь 2011 г.|
+|Накопительное обновление Lync Server 2010 3| KB 2571546 |Июль 2011 г.|
+|Накопительное обновление Lync Server 2010 2| KB 2500442 |Апрель 2011 г.|
+|Накопительное обновление Lync Server 2010 1| KB 2467775 |Январь 2011 г.|
 ||||
 
 ### <a name="group-chat-2010-updates"></a>Обновления группового чата 2010
 
 |Имя пакета|Номер статьи в базе знаний|Дата выпуска|
 |:--- |:--- |:--- |
-|Накопительное обновление для Lync Server 2010, групповой чат |[KB 2884623](https://support.microsoft.com/kb/2884623) |Октябрь 2013 г.|
-|Накопительное обновление для Lync Server 2010, средство администрирования группового чата |[KB 2884631](https://support.microsoft.com/kb/2884631) |Октябрь 2013 г.|
-|Накопительное обновление для Lync 2010, групповой чат |[KB 2884627](https://support.microsoft.com/kb/2884627) |Октябрь 2013 г.|
+|Накопительное обновление для Lync Server 2010, групповой чат |[KB 2884623](https://support.microsoft.com/kb/2884623) |Октябрь 2013 г.|
+|Накопительное обновление для Lync Server 2010, средство администрирования группового чата |[KB 2884631](https://support.microsoft.com/kb/2884631) |Октябрь 2013 г.|
+|Накопительное обновление для Lync 2010, групповой чат |[KB 2884627](https://support.microsoft.com/kb/2884627) |Октябрь 2013 г.|
 
 ### <a name="lync-2010-dev-tools"></a>Средства разработчиков Lync 2010
 
-|Имя пакета/ссылка|Дата выпуска|
+|Имя пакета |Дата выпуска|
 |:--- |:--- |
-|[Пакет Lync Server 2010 SDK](https://www.microsoft.com/download/en/details.aspx?id=19675)|Ноябрь 2010 г. |
-|[Lync 2010 SDK](https://www.microsoft.com/download/en/details.aspx?id=18898)|Март 2011 г. |
-|[Пакет SDK для группового чата Lync Server 2010](https://www.microsoft.com/download/en/details.aspx?id=23647)|Июнь 2012 г. |
-|[Управляемый API единой связи 3.0 SDK](https://www.microsoft.com/download/en/details.aspx?id=10566)|Май 2016 г. |
-|[Платформа речи — языки серверного времени работы (версия 10.2)](https://www.microsoft.com/download/en/details.aspx?id=21924)|Сентябрь 2010 г. |
-|[Расширенные схемы присутствия для Microsoft Lync Server 2010](https://www.microsoft.com/download/en/details.aspx?id=7358)|Ноябрь 2010 г. |
+| Пакет Lync Server 2010 SDK |Ноябрь 2010 г. |
+| Lync 2010 SDK |Март 2011 г. |
+| Пакет SDK для группового чата Lync Server 2010|Июнь 2012 г. |
+| Управляемый API единой связи 3.0 SDK |Май 2016 г. |
+| Платформа речи — языки серверного времени работы (версия 10.2) |Сентябрь 2010 г. |
+| Расширенные схемы присутствия для Microsoft Lync Server 2010 |Ноябрь 2010 г. |
 
 ### <a name="lync-2010-tools"></a>Инструменты Lync 2010
 
-|Имя пакета/ссылка|Дата выпуска|
+|Имя пакета |Дата выпуска|
 |:--- |:--- |
-|[Im эксперт для Microsoft Lync Server 2010](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=01fd2b2b-d780-4d6f-8e1e-54b2ad718f2b&displaylang=en)|Март 2012 г. |
-|[Анализатор лучших практик Lync Server 2010](https://www.microsoft.com/downloads/details.aspx?FamilyID=030548DF-0DC7-4F86-B8A9-2F5EC8DE8BA5)|Февраль 2011 г. |
+| Im эксперт для Microsoft Lync Server 2010 |Март 2012 г. |
+| Анализатор лучших практик Lync Server 2010 |Февраль 2011 г. |
 |[Калькулятор емкости Lync Server 2010](https://www.microsoft.com/downloads/details.aspx?FamilyID=6E8342A7-3238-4F37-9F95-7B056525DC1A)|Февраль 2012 г. |
-|[Lync Server 2010 Planning Tool](https://www.microsoft.com/download/en/details.aspx?id=19711)|Февраль 2011 г. |
-|[Средства набора ресурсов Lync Server 2010](https://www.microsoft.com/downloads/details.aspx?FamilyID=80CC5CE7-970D-4FD2-8731-D5D7D0829266)|Май 2012 г. |
-|[Средство стресса и производительности Lync Server 2010](https://www.microsoft.com/downloads/details.aspx?FamilyID=94B5F191-6D80-4DEC-94C2-FCA57995F8B7)|Март 2011 г. |
+| Lync Server 2010 Planning Tool |Февраль 2011 г. |
+| Средства набора ресурсов Lync Server 2010|Май 2012 г. |
+| Средство стресса и производительности Lync Server 2010 |Март 2011 г. |
 |[Lync Server 2010 Visio Stencil](https://www.microsoft.com/downloads/details.aspx?FamilyID=65B5A396-2C87-445D-BE23-D324727D19CB)|Февраль 2011 г. |
-|[Веб-планировщик Lync Server 2010](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=b7d8f948-fa64-4c51-8b54-2223954d1fa4)|Апрель 2011 г. |
+| Веб-планировщик Lync Server 2010 |Апрель 2011 г. |
 
 ### <a name="lync-2010-downloadable-documentation"></a>Загружаемая документация Lync 2010
 
-Имя пакета/ссылка|Дата выпуска|
+Имя пакета |Дата выпуска|
 |:--- |:--- |
 |[Файл справки о документации Lync Server 2010](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=9720c3f1-ddd4-426b-b98a-f1205561ce00)|Март 2012 г. |
 |[Страница Приветствие Lync Server 2010](/previous-versions/office/skype-server-2010/gg398616(v=ocs.14))|Октябрь 2012 г. |
@@ -243,15 +243,15 @@ KB 4470124 — это мастер КБ для Skype для бизнеса Serve
 
 ### <a name="resource-kit-technical-reference"></a>Набор ресурсов (техническая справка)
 
-Посетите сайт загрузки комплекта ресурсов [Microsoft Lync Server 2010,](https://www.microsoft.com/download/en/details.aspx?id=22644) чтобы скачать главы книг по отдельности или скачать файл .zip, содержащий все [19](https://download.microsoft.com/download/9/4/E/94ED1EF4-A2EF-4686-9841-B0390072D524/Microsoft_Lync_Server_2010_Resource_Kit_Chapters.zip)глав набора ресурсов.
+Посетите сайт загрузки комплекта ресурсов Microsoft [Lync Server 2010,](https://www.microsoft.com/download/en/details.aspx?id=22644) чтобы скачать главы книг по отдельности или скачать файл .zip, содержащий все [19](https://download.microsoft.com/download/9/4/E/94ED1EF4-A2EF-4686-9841-B0390072D524/Microsoft_Lync_Server_2010_Resource_Kit_Chapters.zip)глав набора ресурсов.
 
 ### <a name="group-chat"></a>Group Chat
 
-Имя пакета/ссылка|Дата выпуска|
+Имя пакета |Дата выпуска|
 |:--- |:--- |
-|[Групповой чат Lync Server 2010](https://www.microsoft.com/download/en/details.aspx?id=12480) |Ноябрь 2010 г. |
-|[Средство администрирования группового чата Lync Server 2010](https://www.microsoft.com/download/en/details.aspx?id=3610) |Ноябрь 2010 г. |
-|[Групповой чат Lync 2010](https://www.microsoft.com/download/en/details.aspx?id=2651) |Ноябрь 2010 г. |
+| Групповой чат Lync Server 2010 |Ноябрь 2010 г. |
+| Средство администрирования группового чата Lync Server 2010 |Ноябрь 2010 г. |
+| Групповой чат Lync 2010 |Ноябрь 2010 г. |
 
 ### <a name="trial-software"></a>Пробное программное обеспечение
 
@@ -266,8 +266,8 @@ KB 4470124 — это мастер КБ для Skype для бизнеса Serve
 
 Обновления программного обеспечения включают любые обновления, накопительные пакеты обновления, пакеты обновления, пакеты дополнительных компонентов, критические обновления, обновления для системы безопасности и исправления. В статье базы знаний [KB 824684](https://support.microsoft.com/kb/824684) можно найти описание стандартной терминологии, касающейся обновления программного обеспечения Майкрософт.
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 
-- [Установка Skype для бизнеса Server 2015](./deploy/install/install.md)
-- [Обновление до Skype для бизнеса Server 2015](./deploy/upgrade-to-skype-for-business-server.md)
-- [Последние обновления для версий Skype для бизнеса с использованием установки Windows (MSI)](sfb-client-updates.md)
+- [Установка Skype для бизнеса Server 2015 г.](./deploy/install/install.md)
+- [Обновление до Skype для бизнеса Server 2015 г.](./deploy/upgrade-to-skype-for-business-server.md)
+- [Последние обновления для версий Skype для бизнеса, Windows установки (MSI)](sfb-client-updates.md)

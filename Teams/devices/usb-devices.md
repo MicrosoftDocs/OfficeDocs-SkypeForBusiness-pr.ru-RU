@@ -15,12 +15,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: Узнайте, какие USB-периферийные устройства (например, гарнитуры, динамики, веб-камеры и мониторы) сертифицированы для Microsoft Teams.
-ms.openlocfilehash: e3225490e52b527e02449796d614107221853554
-ms.sourcegitcommit: 3704577b1424c063fd925a58a6f6d0b3ff2c8148
+ms.openlocfilehash: 476d61d2e2465dd1791b950d2922299073b5e210
+ms.sourcegitcommit: 05b46fc512678f39c345f15f3369e05d9c2efb3d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53278512"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53495189"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Аудио- и видео устройства USB, сертифицированные для Microsoft Teams
 
@@ -81,6 +81,13 @@ ms.locfileid: "53278512"
 |EPOS/Sennheiser      |ADAPT 160T ANC                                             |6/24/2021       |Сертифицировано для Microsoft Teams                           |
 |Dell                 |Ultrasharp Webcam WB7022                                   |6/16/2021       |Сертифицировано для Microsoft Teams                           |
 |Nec                  |Экран совместной работы Windows WD551                        |5/21/2021       |Сертифицировано для Microsoft Teams                           |
+|Поли                 |EncorePro 520 и DA85-M                                   |4/26/2021       |Сертифицировано для Microsoft Teams                           |
+|Поли                 |EncorePro 510 и DA85-M                                   |4/26/2021       |Сертифицировано для Microsoft Teams                           |
+|Поли                 |EncorePro 525-M                                            |4/26/2021       |Сертифицировано для Microsoft Teams                           |
+|Поли                 |EncorePro 515-M                                            |4/26/2021       |Сертифицировано для Microsoft Teams                           |
+|Dell                 |Беспроводная гарнитура ANC для WL70222 Premier                        |4/22/2021       |Сертифицировано для Microsoft Teams                           |
+|Dell                 |Беспроводная гарнитура Pro WL5022                                |4/22/2021       |Сертифицировано для Microsoft Teams                           |
+|Dell                 |Проводная гарнитура WH3022 Pro WH3022                                   |4/22/2021       |Сертифицировано для Microsoft Teams                           |
 |Logitech             |Веб-камера C920e                                               |4/22/2021       |Сертифицировано для Microsoft Teams                           |
 |Поли                 |Studio P5 Webcam                                           |4/22/2021       |Сертифицировано для Microsoft Teams                           |
 |Jabra                |Biz 2400 II                                                |4/22/2021       |Skype для бизнеса с обновлением до Microsoft Teams      |

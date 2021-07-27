@@ -20,22 +20,21 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 38202fcbb4c2147baae3f745bc2455da6fdff3e3
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: d65f94b3f1e71a59ac2debc04828c5fa25f000f7
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093939"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587008"
 ---
-<a name="deploy-microsoft-teams-for-surface-hub"></a>Развертывание Microsoft Teams для Surface Hub
-======================================
+# <a name="deploy-microsoft-teams-for-surface-hub"></a>Развертывание Microsoft Teams для Surface Hub
 
 Прежде чем Teams для Surface Hub, сделайте следующее:
 
  □ убедитесь, что оборудование, операционная система и другие требования выполнены. Дополнительные сведения см. в Microsoft Surface Hub [администрирования](/surface-hub/).<br>
  □ убедитесь, что установлено минимальное обновление операционной системы для Teams — [KB4343889.](https://support.microsoft.com/help/4343889)<br>
  □ назначение лицензии Teams учетной записи устройства Hub.<br>
- □ Если вы переходите с Skype для бизнеса Online, подтвердим, что Teams лицензия назначена пользователю.
+ □ Если вы переходите с Skype для бизнеса Online, подтвердим, Teams лицензия назначена пользователю.
 
 ## <a name="install-teams-for-surface-hub-from-the-microsoft-store"></a>Установите Teams для Surface Hub из Microsoft Store 
 
@@ -64,14 +63,14 @@ ms.locfileid: "51093939"
 |Число  |Описание  |
 |---------|---------|
 |0     | Skype на экране "Начните", Teams доступные собрания        |
-|1     | Teams на экране "Начните", Skype доступные собрания        |
-|2     | Teams монопольно на экране "Начните" (Skype приложение не доступно)        |
+|1     | Teams на экране "Начните", Skype доступно приложение "Собрания"        |
+|2     | Teams монопольно на начните с экрана (Skype приложение не доступно)        |
  
 1. Прикрепить USB-клавишу к Surface Hub устройству. 
 2. Откройте приложение **Параметры** на устройстве Surface Hub. 
 3. Откройте **Surface Hub управление учетной записью устройства**.
 4. Откройте **управление устройствами**. 
-5. Нажмите **кнопку Добавить или удалить пакет.** 
+5. Нажмите **кнопку Добавить или удалить пакет подготовка**. 
 6. Нажмите **кнопку Добавить пакет**.
 7. Выберите в **меню параметр Съемный** носителю. 
 8. Добавьте соответствующий <strong>пакет TeamsRTMMode*.ppkg,</strong> который ранее был скопирован на USB-ключ. 

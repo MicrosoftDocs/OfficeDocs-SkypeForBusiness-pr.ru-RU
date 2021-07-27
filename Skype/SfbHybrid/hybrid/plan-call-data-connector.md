@@ -12,16 +12,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Обзор использования средств телеметрии Skype для бизнеса Online для мониторинга локальной реализации в гибридном сценарии.
-ms.openlocfilehash: 7b6076224280446b7fc52c505fe5fc3ab8d41be4
-ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
+ms.openlocfilehash: 5d14e5000b18680592084c45c798f7eead82a917
+ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52856358"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53509770"
 ---
 # <a name="plan-call-data-connector"></a>Планирование соединителя данных звонка
 
 ## <a name="overview"></a>Обзор
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 В этом разделе описываются преимущества, соображения планирования и требования к реализации Skype для бизнеса Server соединитетелем данных вызовов. Дополнительные сведения о настройке соединиттеля данных вызовов см. в дополнительных сведениях о настройке соединитетеля данных [вызовов.](configure-call-data-connector.md)
 

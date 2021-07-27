@@ -1,5 +1,5 @@
 ---
-title: Контроллеры границ сеанса, сертифицированные для прямой маршрутии
+title: Session Border Controllers certified for Direct Routing
 ms.author: crowe
 ms.reviewer: FilippSe
 author: CarolynRowe
@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Администратор может узнать, какие контроллеры границ сеансов (SBCs) сертифицированы для прямой маршрутики.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 33df0f9d00d0c02d28c5f69ef26ae151586803d2
-ms.sourcegitcommit: 9b794b579e57d478e5e4bd76b8ca79fdea6f90c4
-ms.translationtype: MT
+ms.openlocfilehash: af721c97d809204eacc897c09a6f504a0d6d5722
+ms.sourcegitcommit: e60547de6e33ad73ba02c9aa9b5d831100940fbe
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/16/2021
-ms.locfileid: "53465387"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "53482332"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Список пограничных контроллеров сеансов, сертифицированных для прямой маршрутизации
 
@@ -37,7 +37,7 @@ ms.locfileid: "53465387"
 - Создай совместную поддержку с поставщиками SBC.
 
   > [!NOTE]
-  > Корпорация Майкрософт поддерживает телефонная система только в том случае, если сертифицированные устройства подключены через прямую маршрутику. Корпорация Майкрософт оставляет за собой право отклонить случаи поддержки, когда не сертифицированное устройство подключено к телефонная система прямой маршрутии. Если корпорация Майкрософт определяет, что проблема с прямой маршрутией клиента имеется в SBC-устройстве поставщика, клиенту потребуется привлечь его к поддержке.
+  > Корпорация Майкрософт поддерживает телефонная система только в том случае, если сертифицированные устройства подключены с помощью прямой маршрутии. Корпорация Майкрософт оставляет за собой право отклонить случаи поддержки, когда не сертифицированное устройство подключено к телефонная система прямой маршрутии. Если корпорация Майкрософт определяет, что проблема с прямой маршрутией клиента имеется в SBC-устройстве поставщика, клиенту потребуется привлечь его к поддержке.
 
 Таблицы, которые следуют за устройствами списка, сертифицированными для прямой маршрутии. (Сведения о том, какие поставщики SBC [](direct-routing-media-optimization-configure.md)поддерживают оптимизацию локальных мультимедиа, см. в этой ссылке.
 
@@ -93,13 +93,13 @@ ms.locfileid: "53465387"
 |                     [M5 Technologies (ранее — Media5 Corporation)](https://www.m5t.com/solutions/sentinel-sbc-ms-teams-certified/)|    Mediatrix Sentinel Series   |     &#10004;     |         |      DGW 48.0.2340 (рекомендуется DGW 48.1.2503)      |     |    |
 |                     [Ekinops](https://www.ekinops.com/solutions/voice-data-access/microsoft-direct-routing-sbc)|    Ekinops Session Border Controller (ONeSBC)   |     &#10004;     |     &#10004;     |      6.6.1m5ha1      |     |    |
 |                     |    Контроллер границы виртуального сеанса Ekinops (ONEvSBC)   |     &#10004;     |    &#10004;      |      6.6.1m5ha1      |     |    |
-|                     [46 Labs LLC](https://46labs.com/docs/hcvoice/teams/)|    Hyperconverged Voice   |     &#10004;     |         |      HCVoice 1.0.6       |     |    |
+|                     [46 Labs LLC](https://46labs.com/docs/hcvoice/teams/)|    Hyperconverged Voice   |     &#10004;     |     &#10004;      |      HCVoice 1.0.6       |     |    |
 
 <br/>
 
 * 911 поставщиков услуг
 
-- [Маршрутия динамического расположения пропускной способности](https://www.bandwidth.com/partners/microsoft-teams-direct-routing/)
+- [Маршрутия динамического расположения в полосе пропускания](https://www.bandwidth.com/partners/microsoft-teams-direct-routing/)
 - [Служба маршрутинга экстренных служб Интрадо (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)
 - [Шлюз для экстренного экстренного ситуация Intrado (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)
 <br/>
