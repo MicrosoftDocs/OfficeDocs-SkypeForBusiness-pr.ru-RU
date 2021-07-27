@@ -21,12 +21,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Сведения о лицензиях надстроек, функциях и о том, как приобрести планы Office 365 корпоративный (E1, E3, и E4). '
-ms.openlocfilehash: 44f55fff23a048a85ad220e03a24af58f099833e
-ms.sourcegitcommit: 05b46fc512678f39c345f15f3369e05d9c2efb3d
+ms.openlocfilehash: 2d228889c38cac925f82a5e8e4c024052e220969
+ms.sourcegitcommit: 3f1635d1915561798ea764c3e33d7db55f7e49da
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53495169"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53574274"
 ---
 # <a name="office-365-enterprise-e1-e3-and-e4"></a>Office 365 корпоративный (E1, E3 и E4)
 
@@ -34,19 +34,18 @@ ms.locfileid: "53495169"
 
 Если вы уже приобрели план [Office 365 корпоративный E1,](https://products.office.com/business/office-365-enterprise-e1-business-software) [E3](https://products.office.com/business/office-365-enterprise-e3-business-software)или E4, вот лицензии на надстройки, которые необходимо приобрести, чтобы получить Skype для бизнеса возможностей.
 
-|||
+| Добавляемая функция | Что необходимо приобрести |
 |:-----|:-----|
-|**Добавляемая функция** <br/> |**Что необходимо приобрести** <br/> |
-|**Аудиоконференция** <br/> Приобретите 1 **лицензию** на аудиоконференцию для каждого человека, который будет планировать или проводить собрание с телефонным номером. Attendees do not need licenses. <br/> |Надстройка **аудиоконференций** <br/>После приобретения лицензии корпорация Майкрософт станет вашим поставщиком аудиоконференций. |
-|**Бесплатные номера для доступа к собраниям с телефонным доступом и возможность звонить из собрания, чтобы добавить кого-то, позвонив на любой номер телефона в мире** <br/> |[Кредиты на связь](/microsoftteams/add-funds-and-manage-communications-credits)|
-|**Телефонная система** <br/> |1. **Телефонная система Office 365** надстройки <br/> 2. Тарифные планы: приобретите [Тарифный план](/MicrosoftTeams/calling-plans-for-office-365) в Office 365. <br/>  Или используйте [телефонную службу вашего текущего поставщика](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_existing).  <br/> |
-|**облачная голосовая почта**<sup>1</sup> <br/> |Для планов E1 и E4 приобретите Exchange Online (план 2). <br/>Или перейдите на пакет Office, который входит в комплект поставки Exchange Online (план 2), например Office 365 E3. |
-|**Планы звонков** <br/> |1. **телефонная система** надстройки <br/> 2. [Тарифный план](/MicrosoftTeams/calling-plans-for-office-365): его можно приобрести только после приобретения надстройки **Телефонная система**. <br/> |
+|**Аудиоконференции** <br/> Приобретите 1 **лицензию** на аудиоконференцию для каждого человека, который будет планировать или проводить собрание с телефонным номером. Attendees do not need licenses. |Надстройка **аудиоконференций** <br/>После приобретения лицензии корпорация Майкрософт станет вашим поставщиком аудиоконференций. |
+|**Бесплатные номера для доступа к собраниям с телефонным доступом и возможность звонить из собрания, чтобы добавить кого-то, позвонив на любой номер телефона в мире** |[Кредиты на связь](/microsoftteams/add-funds-and-manage-communications-credits)|
+|**Телефонная система** |1. **Телефонная система Office 365** надстройки <br/> 2. Тарифные планы: приобретите [Тарифный план](/MicrosoftTeams/calling-plans-for-office-365) в Office 365. <br/>  Или используйте [телефонную службу вашего текущего поставщика](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_existing).  |
+|**облачная голосовая почта**<sup>1</sup> |Для планов E1 и E4 приобретите Exchange Online (план 2). <br/>Или перейдите на пакет Office, который входит в комплект поставки Exchange Online (план 2), например Office 365 E3. |
+|**Планы звонков** |1. **телефонная система** надстройки <br/> 2. [Тарифный план](/MicrosoftTeams/calling-plans-for-office-365): его можно приобрести только после приобретения надстройки **Телефонная система**. |
 
 <sup>1</sup> Для пользователей локальной сети. Дополнительные сведения см. [в облачная голосовая почта службы для локального пользователя.](/skypeforbusiness/hybrid/plan-cloud-voicemail)
    
- > [!IMPORTANT]
- > Office 365 Лицензии E4 официально отменены. Дополнительные [сведения см. в Office 365 корпоративный E4 сведения](https://support.office.com/article/important-information-for-office-365-enterprise-e4-customers-f9572348-43a2-43fa-a3d8-3b6c9c042147) для клиентов.
+> [!IMPORTANT]
+> Office 365 Лицензии E4 официально отменены. Дополнительные [сведения см. в Office 365 корпоративный E4 сведения](https://support.office.com/article/important-information-for-office-365-enterprise-e4-customers-f9572348-43a2-43fa-a3d8-3b6c9c042147) для клиентов.
   
 ## <a name="e1-and-e3-customers-how-to-see-prices-and-buy"></a>Клиенты с планами E1 и E3: как просмотреть цены и приобрести дополнительные лицензии
 <a name="bkmk_buypremium"> </a>

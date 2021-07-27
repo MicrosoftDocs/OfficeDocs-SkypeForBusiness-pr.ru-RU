@@ -17,19 +17,19 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 ms.custom: ''
-description: Узнайте, как переместить пользователей из Skype для бизнеса Online в локальное.
-ms.openlocfilehash: 78e86e48e9f409c9e2a9f348cada9c24f30c6279
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+description: Узнайте, как перемещать пользователей из Teams в локальное.
+ms.openlocfilehash: db1557c3929bdf62557e31a7fce78050569016ee
+ms.sourcegitcommit: 3f1635d1915561798ea764c3e33d7db55f7e49da
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53509790"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53574094"
 ---
 # <a name="move-users-from-the-cloud-to-on-premises"></a>Перемещение пользователей из облака в локальное 
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-При необходимости можно переместить пользователя, который ранее был перенесен из локального облака (независимо от того, используется ли Skype для бизнеса Online или Teams Только) обратно в локальное помещение. Чтобы переместить пользователей из режима Skype для бизнеса Online или TeamsOnly в локальное развертывание Skype для бизнеса Server, используйте командлет Move-CsUser или панель управления Skype для бизнеса Server, которые являются локальной программой. При переходе пользователя в локальное развертывание необходимо решить, в какой пул переместить пользователя.
+При необходимости можно переместить пользователя, который ранее был перенесен из локального Teams обратно в локальное. Чтобы переместить пользователей из режима Skype для бизнеса Online или TeamsOnly в локальное развертывание Skype для бизнеса Server, используйте командлет Move-CsUser или панель управления Skype для бизнеса Server, которые являются локальной программой. При переходе пользователя в локальное развертывание необходимо решить, в какой пул переместить пользователя.
 
 > [!Important]
 > Если пользователь ранее был в режиме TeamsOnly, и вы используете более раную версию, чем Skype для бизнеса Server 2015 с CU8, необходимо также удалить назначение режима TeamsOnly TeamsUpgradePolicy для этого пользователя. Локальное пользователи не должны иметь mode= TeamsOnly.  Последующие версии Skype для бизнеса Server автоматически удаляют это назначение. Дополнительные сведения см. [в материале Grant-CsTeamsUpgradePolicy.](/powershell/module/skype/grant-csteamsupgradepolicy)

@@ -293,6 +293,8 @@ items:
             href: legal-hold.md
           - name: Поиск контента
             href: content-search.md
+          - name: Рабочий процесс Teams в Advanced eDiscovery
+            href: /microsoft-365/compliance/teams-workflow-in-advanced-ediscovery
           - name: Аудит
             href: audit-log-events.md
           - name: Ключ клиента
@@ -813,7 +815,7 @@ items:
                 href: rooms/rooms-manage.md
               - name: Обслуживание и эксплуатация
                 href: rooms/rooms-operations.md
-              - name: Поддержка Teams в организации
+              - name: Известные проблемы
                 href: rooms/known-issues.md
               - name: Устройства с Azure Monitor
                 href: rooms/azure-monitor-manage.md
@@ -899,7 +901,13 @@ items:
                 href: configuring-teams-calling-quickstartguide.md
               - name: Доступность планов звонков в различных странах и регионах
                 href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
-          - name: Прямая маршрутизация телефонной системы
+          - name: Operator Connect
+            items:
+              - name: План для Operator Connect
+                href: operator-connect-plan.md
+              - name: Настройка Operator Connect
+                href: operator-connect-configure.md
+          - name: Прямая маршрутизация
             items:
               - name: Обзор
                 href: direct-routing-landing-page.md
@@ -975,12 +983,6 @@ items:
                         href: direct-routing-protocols-media.md
                   - name: Прямая маршрутизация для устройства обеспечения связи в филиалах
                     href: direct-routing-survivable-branch-appliance.md
-          - name: Operator Connect
-            items:
-              - name: План для Operator Connect
-                href: operator-connect-plan.md
-              - name: Настройка Operator Connect
-                href: operator-connect-configure.md
       - name: Номера телефонов
         items:
           - name: Управление номерами телефонов для организации
@@ -1463,12 +1465,14 @@ items:
             href: career-coach.md
           - name: Контроль чатов в Teams
             href: supervise-chats-edu.md
-          - name: Аналитика образования
+          - name: Insights для образования
             items:
-              - name: Начало работы с Аналитикой
+              - name: Начало работы с Insights
                 href: class-insights.md
-              - name: Синхронизация данных SIS с помощью Аналитики
+              - name: Синхронизация данных SIS с помощью Insights
                 href: education-insights-sis-data-sync.md
+              - name: Управление доступом пользователей к Insights
+                href: education-insights-manage-access.md
               - name: Начало работы с Reflect
                 href: reflect.md
           - name: Задания в Teams для образования
@@ -1485,13 +1489,13 @@ items:
             href: sku-reference-edu.md
       - name: Teams для сотрудников без компьютеров
         items:
-          - name: Краткое руководство для сотрудников без компьютеров
+          - name: Краткое руководство по началу работу для сотрудников без компьютеров
             href: flw-quickstart.yml
           - name: Развертывание с помощью скрипта для сотрудников без компьютеров
             href: flw-scripted-deployment.md
           - name: Управление доступом на основе смен для сотрудников без компьютеров
             href: expand-teams-across-your-org/shifts/manage-shift-based-access-flw.md
-          - name: RealWear для Microsoft Teams
+          - name: RealWear для Teams
             href: flw-realwear.md
           - name: Walkie Talkie
             href: walkie-talkie.md
@@ -1503,7 +1507,7 @@ items:
       - name: Teams для государственных организаций
         href: expand-teams-across-your-org/teams-for-government-landing-page.md
         items:
-          - name: Поддержка удаленных сотрудников (WFH)
+          - name: Поддержка удаленных сотрудников (работа из дома)
             href: expand-teams-across-your-org/GOV-support-remote-work-with-teams.md
           - name: Начало работы с шаблонами Teams для государственных организаций
             href: government-teams-templates-in-the-admin-console.md

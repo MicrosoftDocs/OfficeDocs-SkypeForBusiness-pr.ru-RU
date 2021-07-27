@@ -6,30 +6,31 @@ manager: serdars
 ms.date: 07/01/2019
 ms.service: msteams
 audience: admin
+ms.topic: article
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_JourneyFromSfB
 - Teams_ITAdmin_RemoteWorkers
 ms.reviewer: landerl, nsuter
 search.appverid: MET150
-description: Интерактивные семинары, разработанные для того, чтобы помочь вам при Microsoft Teams всего за 30 дней.
+description: Интерактивные семинары, разработанные для того, чтобы помочь вам при Microsoft Teams за 30 дней.
 f1.keywords:
 - CSH
 ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
 ROBOTS: NOINDEX
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f87375db770db8ef6df85989dd228a4ccb376b02
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: ec5580e98f22ea597ea7639bdfbc17c7c5104b9f
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48515876"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587358"
 ---
 # <a name="teams-in-30"></a>Teams 30
 <div id="main" class="v2">
     <div class="container">
-        <p>Корпорация Майкрософт рады пригласить вас на <strong>Teams 30</strong>лет — серию интерактивных семинаров, предназначенных для организаций среднего размера (500–5000 сотрудников) с Microsoft Teams всего за 30 дней. Присоединяйтесь к нам, чтобы изучить проверенное временем руководство и рекомендации и получить ответы Teams вопросы. Участники совещания также получат приглашение на рабочее время с открытым микрофоном со Teams экспертом.
+        <p>Корпорация Майкрософт рады пригласить вас на <strong>Teams 30</strong>лет — интерактивные семинары, предназначенные для организации среднего бизнеса (500–5000 сотрудников) с Microsoft Teams всего за 30 дней. Присоединяйтесь к нам, чтобы изучить проверенное временем руководство и рекомендации и получить ответы Teams вопросы. Участники совещания также получат приглашение на рабочее время с открытым микрофоном со Teams экспертом.
            <p><font color="#6264A7">Готовы к переходу?</font> Мы рекомендуем всем участникам группы проекта начать работу с Начало работы <i>с Teams 30-го</i> сеанса. Щелкните название сеанса ниже, чтобы зарегистрироваться.
  <ul id="home-all" class="panelContent cardsF cols cols2">        
     <li>
@@ -101,7 +102,7 @@ ms.locfileid: "48515876"
                     </div>
                     <div class="cardText">
                         <h3>Подготовка среды ( часть II)</h3>
-                    <p>Теперь, когда у вас есть основа, разберись с лучшими методиками по обеспечению соответствия требованиям, хранению, управлению и аудиоконференцию для Teams.</p><p><i>Аудитория: ИТ-администраторы</i></p>
+                    <p>Теперь, когда основа будет реализована, разберись с лучшими методиками по обеспечению соответствия требованиям, хранению, управлению и аудиоконференцию для Teams.</p><p><i>Аудитория: ИТ-администраторы</i></p>
                     </div>
                 </div>
             </div>

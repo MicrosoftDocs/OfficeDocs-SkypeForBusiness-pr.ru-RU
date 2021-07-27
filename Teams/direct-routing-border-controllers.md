@@ -1,5 +1,5 @@
 ---
-title: Session Border Controllers certified for Direct Routing
+title: Пограничные контроллеры сеансов, сертифицированные для прямой маршрутизации
 ms.author: crowe
 ms.reviewer: FilippSe
 author: CarolynRowe
@@ -7,7 +7,7 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.service: msteams
-localization_priority: Normal
+localization_priority: Priority
 search.appverid: MET150
 ms.collection:
 - M365-voice
@@ -16,116 +16,116 @@ appliesto:
 hideEdit: true
 f1.keywords:
 - NOCSH
-description: Администратор может узнать, какие контроллеры границ сеансов (SBCs) сертифицированы для прямой маршрутики.
+description: Администратор может узнать, какие пограничные контроллеры сеансов (SCS) были сертифицированы для прямой маршрутизации.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: af721c97d809204eacc897c09a6f504a0d6d5722
-ms.sourcegitcommit: e60547de6e33ad73ba02c9aa9b5d831100940fbe
+ms.openlocfilehash: 13d7103ecb4183674fe1e92c7d7e3a37182c0d50
+ms.sourcegitcommit: beb66bc2ce70edbaf6c77eee6d8c050c5cb37fe1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/19/2021
-ms.locfileid: "53482332"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53515174"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Список пограничных контроллеров сеансов, сертифицированных для прямой маршрутизации
 
-Корпорация Майкрософт сотрудничает с рядом поставщиков пограничных контроллеров сеансов (SBC) и сертифицирует их контроллеры для работы с прямой маршрутизацией
+Корпорация Майкрософт сотрудничает с рядом поставщиков пограничных контроллеров сеансов (SBC) и сертифицирует их контроллеры для работы с прямой маршрутизацией
 
-Корпорация Майкрософт сотрудничает со всеми поставщиками, чтобы:
+Корпорация Майкрософт работает с каждым поставщиком для следующих действий:
 
-- Совместная работа над протоколами межсоединения SIP.
-- Проводите активные тесты с помощью стороннее лабораторное тестирование. Сертифицированы только устройства, которые прошли тесты.
-- Ежедневно проводите тесты со всеми сертифицированными устройствами в производственной и предварительной средах. проверка устройств в предварительных средах гарантирует, что новые версии кода прямой маршрутизации в облаке будут работать с сертифицированными контроллерами SBC;
-- Создай совместную поддержку с поставщиками SBC.
+- совместная работа над протоколами межсетевого взаимодействия SIP.
+- выполнение интенсивных тестов в сторонней службе. Сертифицированы только устройства, которые прошли тесты.
+- проведение ежедневных тестов на всех сертифицированных устройствах в рабочей и предварительной средах. проверка устройств в предварительных средах гарантирует, что новые версии кода прямой маршрутизации в облаке будут работать с сертифицированными контроллерами SBC;
+- установка технической поддержки совместно с поставщиками SBC.
 
   > [!NOTE]
-  > Корпорация Майкрософт поддерживает телефонная система только в том случае, если сертифицированные устройства подключены с помощью прямой маршрутии. Корпорация Майкрософт оставляет за собой право отклонить случаи поддержки, когда не сертифицированное устройство подключено к телефонная система прямой маршрутии. Если корпорация Майкрософт определяет, что проблема с прямой маршрутией клиента имеется в SBC-устройстве поставщика, клиенту потребуется привлечь его к поддержке.
+  > Майкрософт поддерживает телефонную систему, только если сертифицированные устройства подключены через прямую маршрутизацию. Корпорация сохраняет за собой право отклонять запросы в службу поддержки, если к телефонной системе через прямую маршрутизацию подключены несертифицированные устройства. Если корпорация Майкрософт определяет, что проблема прямой маршрутизации клиента связана с устройством SBC поставщика, клиенту необходимо будет обратиться за поддержкой к поставщику SBC.
 
-Таблицы, которые следуют за устройствами списка, сертифицированными для прямой маршрутии. (Сведения о том, какие поставщики SBC [](direct-routing-media-optimization-configure.md)поддерживают оптимизацию локальных мультимедиа, см. в этой ссылке.
+В следующих таблицах перечислены устройства, сертифицированные для прямой маршрутизации. (Сведения о том, какие поставщики SBC поддерживают оптимизацию локальных файлов мультимедиа, см. в разделе [Настройка оптимизации локальных файлов мультимедиа для прямой маршрутизации](direct-routing-media-optimization-configure.md).)
 
 [Дополнительные сведения о прямой маршрутизации](https://aka.ms/dr).
-Если у вас есть вопросы о программе сертификации SBC для прямой маршрутации, обратитесь в drsbccertification@microsoft.com.
+Если у вас есть вопросы по программе сертификации SBC для прямой маршрутизации, напишите нам по адресу drsbccertification@microsoft.com
 <br/>
 
 ## <a name="certified-sbc-vendors"></a>Сертифицированные поставщики SBC
 
-|                                                       Поставщик                                                        |       ПРОИЗВЕД       | Обход без мультимедиа | Обход мультимедиа | Версия программного обеспечения | 911 Service Provider Capable* | С возможностью ELIN |  
+|                                                       Поставщик                                                        |       ПРОИЗВЕД       | Без обхода сервера-посредника | Обход сервера-посредника | Версия программного обеспечения | Поставщики службы 911* разрешены | С поддержкой ELIN |  
 |---------------------------------------------------------------------------------------------------------------------|---------------------|------------------|--------------|------------------|-----------------|------------------|  
-| [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   Mediant 500 SBC   |     &#10004;     |   &#10004;    |  Поддерживаемая 7.20A.250 (рекомендуется 7.20A.258)   | &#10004;   |  &#10004;  |  
-|                                                                                                                     |   Mediant 800 SBC   |     &#10004;     |   &#10004;     |  Поддерживаемая 7.20A.250 (рекомендуется 7.20A.258)   | &#10004;   |  &#10004;  |  
-|                                                                                                                     |  Mediant 2600 SBC   |     &#10004;     |   &#10004;    |  Поддерживаемая 7.20A.250 (рекомендуется 7.20A.258)   |   &#10004;   |  &#10004;  |
-|                                                                                                                     |  Mediant 4000 SBC   |     &#10004;     |   &#10004;     |  Поддерживаемая 7.20A.250 (рекомендуется 7.20A.258)   |  &#10004;   |  &#10004;  |
-|                                                                                                                     | Mediant 1000B SBC  |     &#10004;     |   Pending     |  Поддерживаемая 7.20A.250 (рекомендуется 7.20A.258)  |  &#10004;   |  &#10004;  |
-|                                                                                                                     | Mediant 9000 SBC  |     &#10004;     |   &#10004;     |  Поддерживаемая 7.20A.250 (рекомендуется 7.20A.258)   | &#10004;     |  &#10004;  |
-|                                                                                                                     | Virtual Edition SBC |     &#10004;     |   &#10004;     |  Поддерживаемая 7.20A.250 (рекомендуется 7.20A.258) |  &#10004;    |  &#10004;  |
-|  [Ribbon Communications](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)  |      SBC 5100/5110       |     &#10004;     |   &#10004;    |       Поддерживаемые 8.2 и 7.2 (рекомендуется 9.2)       | &#10004;   |     |
-|                                                                                                                     |      SBC 5200/5210       |     &#10004;     |  &#10004;    |       Поддерживаемые 8.2 и 7.2 (рекомендуется 9.2)       |   &#10004; |    |
-|                                                                                                                     |      SBC 5400       |     &#10004;     |   &#10004;   |       Поддерживаемые 8.2 и 7.2 (рекомендуется 9.2)       |   &#10004;  | |
-|                                                                                                                     |      SBC 7000       |     &#10004;     |   &#10004;    |       Поддерживаемые 8.2 и 7.2 (рекомендуется 9.2)       |    &#10004;  |  |
-|                                                                                                                     |       SBC SWe       |     &#10004;     |   &#10004;   |       Поддерживаемые 8.2 и 7.2 (рекомендуется 9.2)          |  &#10004;    |    |
+| [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   Mediant 500 SBC   |     &#10004;     |   &#10004;    |  Поддерживается 7.20A.250 (рекомендуется 7.20A.258)   | &#10004;   |  &#10004;  |  
+|                                                                                                                     |   Mediant 800 SBC   |     &#10004;     |   &#10004;     |  Поддерживается 7.20A.250 (рекомендуется 7.20A.258)   | &#10004;   |  &#10004;  |  
+|                                                                                                                     |  Mediant 2600 SBC   |     &#10004;     |   &#10004;    |  Поддерживается 7.20A.250 (рекомендуется 7.20A.258)   |   &#10004;   |  &#10004;  |
+|                                                                                                                     |  Mediant 4000 SBC   |     &#10004;     |   &#10004;     |  Поддерживается 7.20A.250 (рекомендуется 7.20A.258)   |  &#10004;   |  &#10004;  |
+|                                                                                                                     | Mediant 1000B SBC  |     &#10004;     |   Pending     |  Поддерживается 7.20A.250 (рекомендуется 7.20A.258)  |  &#10004;   |  &#10004;  |
+|                                                                                                                     | Mediant 9000  SBC  |     &#10004;     |   &#10004;     |  Поддерживается 7.20A.250 (рекомендуется 7.20A.258)   | &#10004;     |  &#10004;  |
+|                                                                                                                     | Virtual Edition SBC |     &#10004;     |   &#10004;     |  Поддерживается 7.20A.250 (рекомендуется 7.20A.258) |  &#10004;    |  &#10004;  |
+|  [Ribbon Communications](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)  |      SBC 5100/5110       |     &#10004;     |   &#10004;    |       Поддерживается 8.2 и 7.2 (рекомендуется 9.2)       | &#10004;   |     |
+|                                                                                                                     |      SBC 5200/5210       |     &#10004;     |  &#10004;    |       Поддерживается 8.2 и 7.2 (рекомендуется 9.2)       |   &#10004; |    |
+|                                                                                                                     |      SBC 5400       |     &#10004;     |   &#10004;   |       Поддерживается 8.2 и 7.2 (рекомендуется 9.2)       |   &#10004;  | |
+|                                                                                                                     |      SBC 7000       |     &#10004;     |   &#10004;    |       Поддерживается 8.2 и 7.2 (рекомендуется 9.2)       |    &#10004;  |  |
+|                                                                                                                     |       SBC SWe       |     &#10004;     |   &#10004;   |       Поддерживается 8.2 и 7.2 (рекомендуется 9.2)          |  &#10004;    |    |
 |                                                                                                                     |      SBC 1000       |     &#10004;     |   &#10004;    |      8.x или 9.x     |   &#10004;  |  &#10004;     |
 |                                                                                                                     |      SBC 2000       |     &#10004;     |   &#10004;   |     8.x или 9.x     |   &#10004;   |     &#10004;     |
 |                                                                                                                     |    SBC SWe Lite     |     &#10004;     |  &#10004;    |      8.x или 9.x    |   &#10004;    |     &#10004;     |
-| | Ряд EdgeMarc |  &#10004; | | 15.6.1 | |  
-|                     [Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    Think 365 SBC    |     &#10004;     |           |       1.4       |     |    |
+| | Серия EdgeMarc |  &#10004; | | 15.6.1 | |  
+|                     [Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    Think 365 SBC    |     &#10004;     |           |       1.4       |     |    |
 |                     [Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)                      |    AP 1100      |    &#10004;     |    &#10004;    |   8.3.0.0.1 |   &#10004;    |  &#10004;  |
 |    |    AP 3900           |    &#10004;     |    &#10004;   |   8.3.0.0.1  |  &#10004;    |  &#10004;  |
 |                                                                                                                    |      AP 4600         |    &#10004;   |    &#10004;     |     8.3.0.0.1  |  &#10004;    |  &#10004;  |
 |                                                                                                                    |      AP 6300         |    &#10004;   |    &#10004;     |     8.3.0.0.1  |  &#10004;    |  &#10004;  |
 |                                                                                                                   |      AP 6350           |    &#10004;   |    &#10004;    |     8.3.0.0.1  |   &#10004;   |  &#10004;  |
 |                                                                                                                    |      VME           |    &#10004;    |    &#10004;    |     8.3.0.0.1   |   &#10004;   |  &#10004;  |
-|                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      Поддерживаемая 3.20 (рекомендуется 4.0)        |  &#10004;    |  &#10004;   |
-|                     [Metaswitch](https://www.metaswitch.com/products/core-network/perimeta-sbc)                               |     Perimeta SBC        |     &#10004;   | &#10004; |      4.7 (4.9 для обхода мультимедиа)      |     |    |  
-|                     [Cisco](https://www.cisco.com/c/en/us/solutions/enterprise/interoperability-portal/networking_solutions_products_genericcontent0900aecd805bd13d.html)                               |     Cisco Unified Border Element (CUBE) для маршрутизаторов интегрированных служб 1000 рядов        |     &#10004;   | &#10004; |      Поддерживаемый IOS XE 17.2.1r (рекомендуется 17.3.2)         |    &#10004;     |   |  
-|                                   |     Cisco Unified Border Element (CUBE) для маршрутизаторов интегрированных служб 4000 рядов        |     &#10004;   | &#10004; |   Поддерживаемый IOS XE 17.2.1r (рекомендуется 17.3.2)         |   &#10004;      |    |  
-|                                   |     Cisco Unified Border Element (CUBE) for 1000V Series Cloud Services Router       |     &#10004;   | &#10004; |      Поддерживаемый IOS XE 17.2.1r (рекомендуется 17.3.2)         |    &#10004;     |    |  
-|                                 |     Cisco Unified Border Element (CUBE) for 1000 Series Aggregation Services Routers      |     &#10004;   | &#10004; |      Поддерживаемый IOS XE 17.2.1r (рекомендуется 17.3.2)         |    &#10004;     |    |
-|                                 |     Cisco Unified Border Element (CUBE) для Платформы Edge 8000      |     &#10004;   | &#10004; |      IOS XE 17.3.2      |    &#10004;     |    |
-|                     [Avaya](https://support.avaya.com/products/P0997/avaya-session-border-controller-for-enterprise/8.1.x)|    Av прогорная граница сеанса для Enterprise (ASBCE)    |     &#10004;     |       &#10004;     |       Выпуск 8.1.1 (8.1.2 для обхода мультимедиа)      |     |    |
-|                     [Nokia](https://documentation.nokia.com/aces/cgi-bin/chk_access.cgi/3TB30222GBAAACZZA.zip)|    Контроллер границы Сеанса Nokia    |     &#10004;     |           |       19.5 (1908)       |     |    |
-|                     |    Контроллер границы Сеанса Nokia    |     &#10004;     |           |       20.8       |      &#10004;        |    |
-|                     [Italtel](https://www.italtel.com/italtel-provides-direct-routing-sbc-for-microsoft-teams/)|    NetMatch-S CI     |     &#10004;     |           |       Поддерживаемая 5.0 (рекомендуется 5.1)     |     |    |
+|                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      Поддерживается 3.20 (рекомендуется 4.0)        |  &#10004;    |  &#10004;   |
+|                     [Metaswitch](https://www.metaswitch.com/products/core-network/perimeta-sbc)                               |     Perimeta SBC        |     &#10004;   | &#10004; |      4.7 (4.9 для обхода сервера-посредника)      |     |    |  
+|                     [Cisco](https://www.cisco.com/c/en/us/solutions/enterprise/interoperability-portal/networking_solutions_products_genericcontent0900aecd805bd13d.html)                               |     Cisco Unified Border Element (CUBE) для маршрутизаторов интегрированных служб серии 1000        |     &#10004;   | &#10004; |      Поддерживается IOS XE Amsterdam 17.2.1r (рекомендуется 17.3.2)         |    &#10004;     |   |  
+|                                   |     Cisco Unified Border Element (CUBE) для маршрутизаторов интегрированных служб серии 4000        |     &#10004;   | &#10004; |   Поддерживается IOS XE Amsterdam 17.2.1r (рекомендуется 17.3.2)         |   &#10004;      |    |  
+|                                   |     Cisco Unified Border Element (CUBE) для маршрутизатора облачных служб серии 1000V       |     &#10004;   | &#10004; |      Поддерживается IOS XE Amsterdam 17.2.1r (рекомендуется 17.3.2)         |    &#10004;     |    |  
+|                                 |     Cisco Unified Border Element (CUBE) для маршрутизаторов служб агрегации серии 1000      |     &#10004;   | &#10004; |      Поддерживается IOS XE Amsterdam 17.2.1r (рекомендуется 17.3.2)         |    &#10004;     |    |
+|                                 |     Cisco Unified Border Element (CUBE) для пограничных платформ Catalyst 8000      |     &#10004;   | &#10004; |      IOS XE Амстердам 17.3.2      |    &#10004;     |    |
+|                     [Avaya](https://support.avaya.com/products/P0997/avaya-session-border-controller-for-enterprise/8.1.x)|    Пограничный контроллер сеансов Avaya для предприятий (ASBCE)    |     &#10004;     |       &#10004;     |       Выпуск 8.1.1 (8.1.2 для обхода сервера-посредника)      |     |    |
+|                     [Nokia](https://documentation.nokia.com/aces/cgi-bin/chk_access.cgi/3TB30222GBAAACZZA.zip)|    Пограничный контроллер сеанса Nokia    |     &#10004;     |           |       19.5 (1908)       |     |    |
+|                     |    Пограничный контроллер сеанса Nokia    |     &#10004;     |           |       20.8       |      &#10004;        |    |
+|                     [Italtel](https://www.italtel.com/italtel-provides-direct-routing-sbc-for-microsoft-teams/)|    NetMatch-S CI     |     &#10004;     |           |       Поддерживается 5.0 (рекомендуется 5.1)     |     |    |
 |                     [Ericsson](https://www.ericsson.com/en/portfolio/digital-services/cloud-communication/enterprise-communication/business-communication-services-and-enablers/sip-trunking)|    vSBC 2.16     |     &#10004;     |           |              |     |    |
-|                     [Cataleya](https://cataleya.com/orchidplatforms/)|    Ссылка "Orchid"    |     &#10004;     |           |      3.1        |     |    |
-|                     [ULTATEL](https://www.ultatel.com/services/direct-routing-teams-sbc)|    Teams Sbc    |     &#10004;     |     &#10004;      |      1.6        |     |    |
-|                     [Atos](https://unify.com/en/solutions/voice-platforms/session-border-controller)|    Atos Unify OpenScape Session Border Controller   |     &#10004;     |          |      10R1.2       |     |    |
+|                     [Cataleya](https://cataleya.com/orchidplatforms/)|    Ссылка Orchid    |     &#10004;     |           |      3.1        |     |    |
+|                     [ULTATEL](https://www.ultatel.com/services/direct-routing-teams-sbc)|    SBC Teams    |     &#10004;     |     &#10004;      |      1.6        |     |    |
+|                     [Atos](https://unify.com/en/solutions/voice-platforms/session-border-controller)|    Пограничный контроллер сеансов Atos Unify OpenScape   |     &#10004;     |          |      V10R1.2       |     |    |
 |                     [Sansay Inc.](https://www.sansay.com/solutions/microsoft-teams/)|    vmVSXi   |     &#10004;     |     &#10004;     |      10.5.1.354-vm-S-x64      |     |    |
-|                     [Enghouse Networks](https://www.enghousenetworks.com/portfolio/network-infrastructure/cloud-native-session-border-controller-sbc/)|    Диалоговое окно BorderNet SBC   |     &#10004;     |     &#10004;     |      3.9.0-786      |     |    |
-|                     [Patton Electronics Co.](https://www.patton.com/microsoft/)|    Глатон SmartNode eSBC   |     &#10004;     |         |      3.19.x      |     |    |
-|                     [M5 Technologies (ранее — Media5 Corporation)](https://www.m5t.com/solutions/sentinel-sbc-ms-teams-certified/)|    Mediatrix Sentinel Series   |     &#10004;     |         |      DGW 48.0.2340 (рекомендуется DGW 48.1.2503)      |     |    |
-|                     [Ekinops](https://www.ekinops.com/solutions/voice-data-access/microsoft-direct-routing-sbc)|    Ekinops Session Border Controller (ONeSBC)   |     &#10004;     |     &#10004;     |      6.6.1m5ha1      |     |    |
-|                     |    Контроллер границы виртуального сеанса Ekinops (ONEvSBC)   |     &#10004;     |    &#10004;      |      6.6.1m5ha1      |     |    |
+|                     [Сети Enghouse](https://www.enghousenetworks.com/portfolio/network-infrastructure/cloud-native-session-border-controller-sbc/)|    Пограничный контроллер сеансов Dialogic BorderNet   |     &#10004;     |     &#10004;     |      3.9.0-786      |     |    |
+|                     [Patton Electronics Co.](https://www.patton.com/microsoft/)|    Patton SmartNode eSBC   |     &#10004;     |         |      3.19.x      |     |    |
+|                     [M5 Technologies (прежнее название — Media5 Corporation)](https://www.m5t.com/solutions/sentinel-sbc-ms-teams-certified/)|    Серия Mediatrix Sentinel   |     &#10004;     |         |      DGW 48.0.2340 (рекомендуется DGW 48.1.2503)      |     |    |
+|                     [Ekinops](https://www.ekinops.com/solutions/voice-data-access/microsoft-direct-routing-sbc)|    Пограничный контроллер сеанса Ekinops (ONeSBC)   |     &#10004;     |     &#10004;     |      6.6.1m5ha1      |     |    |
+|                     |    Виртуальный пограничный контроллер сеанса Ekinops (ONEvSBC)   |     &#10004;     |    &#10004;      |      6.6.1m5ha1      |     |    |
 |                     [46 Labs LLC](https://46labs.com/docs/hcvoice/teams/)|    Hyperconverged Voice   |     &#10004;     |     &#10004;      |      HCVoice 1.0.6       |     |    |
 
 <br/>
 
-* 911 поставщиков услуг
+* Поставщики услуг 911
 
-- [Маршрутия динамического расположения в полосе пропускания](https://www.bandwidth.com/partners/microsoft-teams-direct-routing/)
-- [Служба маршрутинга экстренных служб Интрадо (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)
-- [Шлюз для экстренного экстренного ситуация Intrado (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)
+- [Маршрутизация динамического расположения пропускной способности](https://www.bandwidth.com/partners/microsoft-teams-direct-routing/)
+- [Служба маршрутизации службы экстренной помощи (ERS) Intrado](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)
+- [Шлюз экстренных служб Intrado (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)
 <br/>
 
-## <a name="direct-routing-and-analog-devices-interoperability"></a>Прямое перенаправка и аналоговые устройства для обеспечения взаимосвязи
+## <a name="direct-routing-and-analog-devices-interoperability"></a>Прямая маршрутизация и взаимодействие аналоговых устройств
 
-В следующей таблице перечислены устройства, которые проверены на interoperability между Direct Routing и Analog Devices.
+В следующей таблице перечислены устройства, проверенные на взаимодействие между прямой маршрутизацией и аналоговыми устройствами.
 
-|                                                       Поставщик                                                        |       ПРОИЗВЕД       | Проверить
+|                                                       Поставщик                                                        |       ПРОИЗВЕД       | Проверено
 |---------------------------------------------------------------------------------------------------------------------|---------------------|------------------|
 | [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   [ATA-1](https://www.audiocodes.com/media/2373/mp-1xx-and-mp-124-datasheet.pdf)   |     &#10004;     |
 | [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   [ATA-2](https://www.audiocodes.com/media/2399/mediapack-20x-mp-20x-analog-telephone-adapters-datasheet.pdf)   |     &#10004;     | 
-| [Cisco](https://www.cisco.com/c/en/us/products/collateral/unified-communications/ata-190-series-analog-telephone-adapters/datasheet-c78-740013.html) |  ATA 191 Multiplatform Analog Telephone Adapter |     &#10004;     |
+| [Cisco](https://www.cisco.com/c/en/us/products/collateral/unified-communications/ata-190-series-analog-telephone-adapters/datasheet-c78-740013.html) |  Многоплатформенный аналоговый телефонный адаптер ATA 191 |     &#10004;     |
 | [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |   Программное обеспечение AP1100 версии 8.3.0.1.2 |     &#10004;     |
 | [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  Программное обеспечение AP3900 версии 8.3.0.1.2|     &#10004;     |
 | [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  Программное обеспечение AP4600 версии 8.3.0.1.2|     &#10004;     |
 | [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  Программное обеспечение AP6300 версии 8.3.0.1.2|     &#10004;     |
 | [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  Программное обеспечение AP6350 версии 8.3.0.1.2|     &#10004;     |
 | [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  Программное обеспечение VME версии 8.3.0.1.2 |     &#10004;     |
-| [Ленты](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions) |   [SBC 1000. Версия программного обеспечения: 8.1.1 (сборка 527)](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Analog+Devices)   |     &#10004;     |
-| [Ленты](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions) |   [SBC 2000. Версия программного обеспечения: 8.1.1 (сборка 527)](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Analog+Devices)   |     &#10004;     |
-| [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/) |  anynode с grandstream GXW42xx (V1.0.7.10) |     &#10004;     |
+| [Лента](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions) |   [SBC 1000. Версия программного обеспечения: 8.1.1 (сборка 527)](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Analog+Devices)   |     &#10004;     |
+| [Лента](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions) |   [SBC 2000. Версия программного обеспечения: 8.1.1 (сборка 527)](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Analog+Devices)   |     &#10004;     |
+| [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/) |  anynode с Grandstream GXW42xx (V1.0.7.10) |     &#10004;     |
   
-Чтобы предоставить нам отзывы о новых Teams, например идеи для новых функций, см. [uservoice.](https://microsoftteams.uservoice.com)
+Чтобы оставить отзыв о продукте Microsoft Teams, например поделиться идеями новых функций, см. раздел [UserVoice](https://microsoftteams.uservoice.com).
 
 
 [!INCLUDE [uservoice-disclaimer-note](includes/uservoice-disclaimer-note.md)]
 
-Обратите внимание на сертификацию, предоставленную основной версии. Это означает, что поддерживается программное обеспечение с любым номером в версии SBC после основной версии.
+Обратите внимание на сертификат, предоставленный основной версии. Это означает, что поддерживается прошивка с любым номером во встроенном ПО пограничного контроллера сеансов, следующим за основной версией.

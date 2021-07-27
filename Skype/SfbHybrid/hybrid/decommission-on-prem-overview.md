@@ -17,18 +17,18 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: Инструкции по выводу из эксплуатации локальной Skype для бизнеса среды.
-ms.openlocfilehash: 820a5b55fe7bf2b5e2351fff253990fd794c562d
-ms.sourcegitcommit: 3f1635d1915561798ea764c3e33d7db55f7e49da
+ms.openlocfilehash: 420ca75e12737ce85c2fd03031f3e1b8fd9ca625
+ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53574224"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53510800"
 ---
 # <a name="decommission-your-on-premises-skype-for-business-environment"></a>Прекращение использования локальной среды Skype для бизнеса
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-Если организация использует Teams локальное развертывание Skype для бизнеса Server, эти среды можно полностью перенести в облако, а затем завершить локальное развертывание Skype для бизнеса Server. 
+Если ваша организация использует Teams или Skype для бизнеса Online с локальной развертыванием Skype для бизнеса Server, вы можете полностью перенести эти среды в облако, а затем завершить локальное развертывание Skype для бизнеса Server. 
 
 > [!NOTE]
 > Перед выводом из эксплуатации локальной среды [](configure-hybrid-connectivity.md) необходимо настроить гибридную связь между локальной развертыванием и Microsoft 365. После настройки гибридного подключения можно перенести пользователей в облако, перенося собрания из локального и перенося все контакты из Skype для бизнеса Server в Teams. Настройка гибридного подключения — это необходимый шаг для переноса пользователей из локального в облако и обеспечения полного Teams функций.

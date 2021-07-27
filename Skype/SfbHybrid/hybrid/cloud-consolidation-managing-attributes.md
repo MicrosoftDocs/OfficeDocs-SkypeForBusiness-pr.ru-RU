@@ -1,5 +1,5 @@
 ---
-title: Решение об управлении атрибутами после вывода из эксплуатации
+title: Выберите, как управлять атрибутами после списания
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -21,14 +21,17 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: В этой статье описывается управление атрибутами после вывода из эксплуатации локальной среды.
-ms.openlocfilehash: 1c862e8c0055fc2eb40efcc7d26bb9a1166ae550
-ms.sourcegitcommit: 405b22cfd94e50d651f4c3f73fb46780cd8a6d06
+ms.openlocfilehash: d8c61e1a5a76206cadd8ab4ae3ed51de77badc74
+ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/15/2021
-ms.locfileid: "53459007"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53510650"
 ---
-# <a name="decide-how-to-manage-attributes-after-decommissioning"></a>Решение об управлении атрибутами после вывода из эксплуатации
+# <a name="decide-how-to-manage-attributes-after-decommissioning"></a>Выберите, как управлять атрибутами после списания
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
 
 По умолчанию все пользователи, которые ранее были включены для Skype для бизнеса Server и впоследствии перемещены в облако, по-прежнему имеют атрибуты msRTCSIP, настроенные в локальном Active Directory. 
 

@@ -1,5 +1,5 @@
 ---
-title: Отключить гибрид для завершения миграции в Teams Только
+title: Отключение гибридной среды для завершения миграции в режим "Только Teams"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -21,14 +21,17 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: В этой статье содержатся подробные действия по отключению гибрида в рамках консолидации облачных Teams и Skype для бизнеса.
-ms.openlocfilehash: 87bd1f6e0dcabed067174972dd0f0fc51149beb0
-ms.sourcegitcommit: 405b22cfd94e50d651f4c3f73fb46780cd8a6d06
+ms.openlocfilehash: 90f3b6d5cd533ca92966a46dd271d2f82f40acc4
+ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/15/2021
-ms.locfileid: "53453648"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53510510"
 ---
 # <a name="disable-your-hybrid-configuration-to-complete-migration-to-teams-only"></a>Отключение гибридной конфигурации для завершения миграции в Teams Only 
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
 
 В этой статье описывается отключение гибридной конфигурации перед выводом из эксплуатации локальной Skype для бизнеса среды. Это шаг 2 из следующих действий по выводу из эксплуатации локальной среды:
 

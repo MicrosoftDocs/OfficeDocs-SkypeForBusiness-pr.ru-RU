@@ -1,5 +1,5 @@
 ---
-title: 'Teams голосом: пример: Contoso'
+title: Teams плана обновления голосовой почты Contoso
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -13,17 +13,17 @@ ms.reviewer: jowrig
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Teams на примере голосовой почты для многоязычной корпорации
+description: 'Teams, как использовать голосовые команды для многоязычной корпорации: планирование обновления.'
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b0da56bc0da083654a0cd694bd5983f2fe4fe515
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: a458f2c98b0f6de8bc2d3b3d23e2b68e4cadd931
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093729"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587448"
 ---
-# <a name="contoso-case-study-teams-upgrade-plan"></a>Пример: планирование обновления Teams Contoso
+# <a name="contoso-case-study-teams-upgrade-plan"></a>Пример: план обновления Teams Contoso
 
 При переходе с Skype для бизнеса на Teams компания Contoso хочет обеспечить простой переход для конечных пользователей. Вместо того чтобы одновременно Teams все пользователи, они решили настроить гибридное подключение и использовать перекрывающиеся возможности для перемещения пользователей в Teams. Это позволило пользователям в Teams и Skype для бизнеса локально делиться информацией о присутствии и общаться. Когда пользователи ввели пилотный проект для телефонная система, они были перемещены в режим Teams только для пользователей.
 
@@ -47,11 +47,11 @@ ms.locfileid: "51093729"
 
   - Доступность функций совместной работы в Teams клиентах 
 
-Чтобы спланировать и настроить гибридное подключение, первым шагом в перемещении локальной [](/SkypeForBusiness/hybrid/plan-hybrid-connectivity) среды в [](/SkypeForBusiness/hybrid/configure-hybrid-connectivity) облако contoso является планирование гибридного подключения и Настройка гибридного подключения, чтобы понять, как: 
+Чтобы спланировать и настроить гибридное подключение, первым шагом в перемещении локальной [](/SkypeForBusiness/hybrid/plan-hybrid-connectivity) среды в [](/SkypeForBusiness/hybrid/configure-hybrid-connectivity) облако contoso является планирование гибридного подключения и Настройка гибридного подключения, чтобы понять, как это сделать: 
 
   - Настройте службу локальной среды для федерации с помощью Office 365. 
 
-  - Настройте в своей локальной среде доверительные Office 365 и встройте общее адресное пространство SIP с помощью Office 365 
+  - Настройте в своей локальной среде доверительные Office 365 и встройте общее адресное пространство SIP с Office 365 
 
   - Включить общее адресное пространство SIP в Office 365 клиента.
 

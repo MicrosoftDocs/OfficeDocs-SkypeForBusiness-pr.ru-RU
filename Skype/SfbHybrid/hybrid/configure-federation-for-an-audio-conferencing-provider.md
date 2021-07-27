@@ -18,14 +18,17 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: Сводка. Сведения о настройке федерации для поставщика аудиоконференций в Skype для бизнеса Online.
-ms.openlocfilehash: 5d9c49299452f579cd7c58adf54facb09f0b8a21
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 4c2f0b9163202ff8469f2a2223c88ba10db193c3
+ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118978"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53510570"
 ---
 # <a name="configure-federation-for-an-audio-conferencing-provider-in-your-hybrid-deployment"></a>Настройка федерации для поставщика аудиоконференций в гибридном развертывании
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
 
 **Сводка:** Узнайте, как настроить федерацию для поставщика аудиоконференций в Skype для бизнеса Online.
 

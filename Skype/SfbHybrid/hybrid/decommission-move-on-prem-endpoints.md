@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: Миграция конечных точек приложения с гидравлией до вывода из эксплуатации Skype для бизнеса локальной среды.
-ms.openlocfilehash: ee437f7f6c35ee67168c81e8e8ad440b1b0ba824
-ms.sourcegitcommit: 3f1635d1915561798ea764c3e33d7db55f7e49da
+ms.openlocfilehash: 556c6dca43f1fb273d1934dfe581bdc86356ca15
+ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53574244"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53510540"
 ---
 # <a name="migrate-hybrid-application-endpoints-before-decommissioning-your-on-premises-environment"></a>Перенос конечных точек гибридного приложения перед выводом из эксплуатации локальной среды
 
@@ -57,7 +57,7 @@ ms.locfileid: "53574244"
    ```PowerShell
    Get-CsHybridApplicationEndpoint -Filter {LineURI -ne $null} | Set-CsHybridApplicationEndpoint -LineURI ""
    ```
-5. Так как возможно, что номера телефонов для этих учетных записей управлялись в Microsoft 365, а не локально, запустите следующую команду в Teams PowerShell:
+5. Так как возможно, что номера телефонов для этих учетных записей управлялись в Microsoft 365, а не локально, запустите следующую команду в Skype для бизнеса Online PowerShell:
 
    ```PowerShell
    $endpoints = import-csv "c:\backup\HybridEndpoints.csv"
