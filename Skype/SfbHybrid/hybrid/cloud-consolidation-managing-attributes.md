@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: В этой статье описывается управление атрибутами после вывода из эксплуатации локальной среды.
-ms.openlocfilehash: d8c61e1a5a76206cadd8ab4ae3ed51de77badc74
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: 32cd4c6da893e4ba336007d3f5d5f3f8fdb5ca90
+ms.sourcegitcommit: 3f1635d1915561798ea764c3e33d7db55f7e49da
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53510650"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53574324"
 ---
 # <a name="decide-how-to-manage-attributes-after-decommissioning"></a>Выберите, как управлять атрибутами после списания
 
@@ -59,7 +59,7 @@ ms.locfileid: "53510650"
 
   ![Средство для пользователей и компьютеров Active Directory](../media/disable-hybrid-1.png)
   
--  Если у пользователя изначально не было значения для локального перед перемещением, можно изменить номер телефона с помощью параметра `msRTCSIP-Line` в командлете `onpremLineUri` [Set-CsUser](/powershell/module/skype/set-csuser?view=skype-ps) в модуле Skype для бизнеса Online PowerShell.
+-  Если у пользователя изначально не было значения для локального перед перемещением, можно изменить номер телефона с помощью параметра `msRTCSIP-Line` в `onpremLineUri` [командлете Set-CsUser](/powershell/module/skype/set-csuser?view=skype-ps) в модуле Teams PowerShell.
 
 Эти действия не являются необходимыми для новых пользователей, созданных после отключения гибрида, и управлять этими пользователями можно непосредственно в облаке. Если вам удобно использовать сочетание этих методов, а также оставить атрибуты msRTCSIP на месте в локальном Active Directory, вы можете просто повторно образ локального Skype для бизнеса серверов. Однако если вы предпочитаете очистить все атрибуты msRTCSIP и сделать традиционный Skype для бизнеса Server, используйте Метод 2.
 
@@ -140,13 +140,13 @@ ms.locfileid: "53510650"
    Start-ADSyncSyncCycle -PolicyType Delta
    ```
 
-7. Подождите, пока подготовка пользователей завершится. Вы можете отслеживать ход подготовка пользователей, запуская следующую команду Skype для бизнеса PowerShell. Следующая команда Skype для бизнеса PowerShell возвращает пустой результат по мере завершения процесса.
+7. Подождите, пока подготовка пользователей завершится. Вы можете отслеживать ход подготовка пользователей, запуская следующую команду Teams PowerShell. Следующая Teams PowerShell возвращает пустой результат по мере завершения процесса.
 
    ```PowerShell
    Get-CsOnlineUser -Filter {Enabled -eq $True -and (MCOValidationError -ne $null -or ProvisioningStamp -ne $null -or SubProvisioningStamp -ne $null)} | fl SipAddress, InterpretedUserType, OnPremHostingProvider, MCOValidationError, *ProvisioningStamp
    ```
 
-8. Выполните следующую команду Skype для бизнеса PowerShell, чтобы назначить номера телефонов и включить пользователей для телефонная система:
+8. Выполните следующую команду Teams PowerShell, чтобы назначить номера телефонов и включить пользователей для телефонная система:
      
    ```PowerShell
    $sfbusers=import-csv "c:\data\SfbUsers.csv"
@@ -161,7 +161,7 @@ ms.locfileid: "53510650"
    > [!Note]
    >  Если у вас Skype для бизнеса конечные точки (Skype клиенты или 3-й телефон участника), вам также необходимо установить -HostedVoiceMail для $true. Если ваша организация использует только Teams конечные точки для пользователей с включенной голосовой поддержкой, этот параметр не применим к пользователям. 
 
-9. Подтвердит правильность телефонная система пользователей с функциональными возможностями. Следующая команда Skype для бизнеса PowerShell возвращает пустой результат по мере завершения процесса.
+9. Подтвердит правильность телефонная система пользователей с функциональными возможностями. Следующая Teams PowerShell возвращает пустой результат по мере завершения процесса.
 
    ```PowerShell
    $sfbusers=import-csv "c:\data\SfbUsers.csv"
@@ -187,11 +187,13 @@ ms.locfileid: "53510650"
     ```PowerShell
     Get-CsUser | Select-Object SipAddress, UserPrincipalName
     ``` 
-    Skype для бизнеса Команда Online PowerShell:
+
+    Teams Команда PowerShell:
 
     ```PowerShell
     Get-CsOnlineUser -Filter {Enabled -eq $True -and (OnPremHostingProvider -ne $null -or MCOValidationError -ne $null -or ProvisioningStamp -ne $null -or SubProvisioningStamp -ne $null)} | fl SipAddress, InterpretedUserType, OnPremHostingProvider, MCOValidationError, *ProvisioningStamp
     ``` 
+
 12. После завершения всех действий в методе 2 см. в рубке Перемещение [](decommission-remove-on-prem.md) конечных точек гибридного приложения из локального в интернет и удаление локального Skype для бизнеса Server дополнительных действий по удалению Skype для бизнеса Server локального развертывания. [](decommission-move-on-prem-endpoints.md)
 
 

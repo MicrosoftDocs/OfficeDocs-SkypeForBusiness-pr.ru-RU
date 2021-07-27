@@ -733,7 +733,7 @@ items:
                 href: ptsn-mask-phone-numbers.md
           - name: Доступность аудиоконференций в различных странах и регионах
             href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
-          - name: Справочные материалы
+          - name: Справка
             items:
               - name: Поддерживаемые языки аудиоконференций
                 href: audio-conferencing-supported-languages.md
@@ -1465,14 +1465,12 @@ items:
             href: career-coach.md
           - name: Контроль чатов в Teams
             href: supervise-chats-edu.md
-          - name: Insights для образования
+          - name: Аналитика образования
             items:
-              - name: Начало работы с Insights
+              - name: Начало работы с Аналитикой
                 href: class-insights.md
-              - name: Синхронизация данных SIS с помощью Insights
+              - name: Синхронизация данных SIS с помощью Аналитики
                 href: education-insights-sis-data-sync.md
-              - name: Управление доступом пользователей к Insights
-                href: education-insights-manage-access.md
               - name: Начало работы с Reflect
                 href: reflect.md
           - name: Задания в Teams для образования
@@ -1489,13 +1487,13 @@ items:
             href: sku-reference-edu.md
       - name: Teams для сотрудников без компьютеров
         items:
-          - name: Краткое руководство по началу работу для сотрудников без компьютеров
+          - name: Краткое руководство для сотрудников без компьютеров
             href: flw-quickstart.yml
           - name: Развертывание с помощью скрипта для сотрудников без компьютеров
             href: flw-scripted-deployment.md
           - name: Управление доступом на основе смен для сотрудников без компьютеров
             href: expand-teams-across-your-org/shifts/manage-shift-based-access-flw.md
-          - name: RealWear для Teams
+          - name: RealWear для Microsoft Teams
             href: flw-realwear.md
           - name: Walkie Talkie
             href: walkie-talkie.md
@@ -1523,7 +1521,7 @@ items:
             href: audio-conferencing-with-direct-routing-for-gcch-and-dod.md
           - name: Пакеты политик Teams для государственных организаций
             href: policy-packages-gov.md
-  - name: Справочные материалы
+  - name: Справка
     items:
       - name: Ограничения и спецификации для Teams
         href: limits-specifications-teams.md

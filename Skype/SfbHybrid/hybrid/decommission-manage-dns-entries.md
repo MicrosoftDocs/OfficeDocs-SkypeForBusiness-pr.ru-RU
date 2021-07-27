@@ -17,16 +17,14 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: Инструкции по управлению записями DNS при выводе из эксплуатации локальной Skype для бизнеса среды.
-ms.openlocfilehash: d51cd3bb7617eaca563de35e708bb6ab56368ab3
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: a5321aa187a88505b3973c3e5418f4a88e1e6f69
+ms.sourcegitcommit: 79d20fa2c45173d5a990551e79571caff06d7f82
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53510770"
+ms.lasthandoff: 07/20/2021
+ms.locfileid: "53486249"
 ---
 # <a name="update-dns-entries-to-enable-your-organization-to-be-all-teams-only"></a>Обновление записей DNS, чтобы позволить организации быть Teams только
-
-[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 Организации, в которые ранее было локальное развертывание Skype для бизнеса Server или Lync Server, могут по-прежнему иметь записи DNS, указывающие на локальное Skype для бизнеса развертывание. Эти записи необходимы, если ваша организация включает в себя Skype для бизнеса пользователей. Однако, если в организации больше нет пользователей Skype для бизнеса или Lync Server, эти исходные записи больше не требуются локальной развертыванием, и эти записи DNS должны быть обновлены, чтобы указать на Microsoft 365 (или в некоторых случаях **удалены)** в рамках миграции из локального в Teams Only. *Корпорация Майкрософт не может обновлять эти записи DNS от вашего имени.*
 
