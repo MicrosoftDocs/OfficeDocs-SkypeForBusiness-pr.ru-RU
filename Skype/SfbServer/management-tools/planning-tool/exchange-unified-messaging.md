@@ -1,5 +1,5 @@
 ---
-title: Exchange Unified Messaging (Planning Tool)
+title: Exchange Средство планирования единой системы обмена сообщениями
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,21 +13,21 @@ f1.keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cb767f83-2684-4006-a1f2-c6f0adf50f62
-description: Skype for Business Server 2015 поддерживает интеграцию с Exchange Unified Messaging (UM) для объединения голосовых сообщений и сообщений электронной почты в единую инфраструктуру обмена сообщениями.
-ms.openlocfilehash: 2227f39dd8a8524019aecd23c2f48bd7e772ff40
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Skype для бизнеса Server 2015 г. поддерживает интеграцию с Exchange единой системы обмена сообщениями для объединения голосовых сообщений и обмена сообщениями в единую инфраструктуру обмена сообщениями.
+ms.openlocfilehash: e7f7ec8d5fafd9909fcd718afd2ba59ab1041d77
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098645"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646260"
 ---
-# <a name="exchange-unified-messaging-planning-tool"></a>Exchange Unified Messaging (Planning Tool)
+# <a name="exchange-unified-messaging-planning-tool"></a>Exchange Средство планирования единой системы обмена сообщениями
 
-Skype for Business Server 2015 поддерживает интеграцию с Exchange Unified Messaging (UM) для объединения голосовых сообщений и сообщений электронной почты в единую инфраструктуру обмена сообщениями.
+Skype для бизнеса Server 2015 г. поддерживает интеграцию с Exchange единой системы обмена сообщениями для объединения голосовых сообщений и обмена сообщениями в единую инфраструктуру обмена сообщениями.
 
 Дополнительные сведения см. в следующих статьях:
   
-- "Планирование интеграции единой системы обмена сообщениями Exchange в Skype для бизнеса" в [https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/integrate-with-exchange/unified-messaging](../../plan-your-deployment/integrate-with-exchange/unified-messaging.md)
+- "Планирование интеграции Exchange единой системы обмена сообщениями в Skype для бизнеса" в[https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/integrate-with-exchange/unified-messaging](../../plan-your-deployment/integrate-with-exchange/unified-messaging.md)
     
 - "Единая система обмена сообщениями" в [https://go.microsoft.com/fwlink/?LinkId=285341](/exchange/unified-messaging-exchange-2013-help)
     

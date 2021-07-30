@@ -14,8 +14,6 @@
       items:
         - name: Перемещение пользователей из локальной среды в Teams
           href: ../hybrid/move-users-from-on-premises-to-teams.md
-        - name: Перемещение пользователей из локальной среды в Skype для бизнеса Online
-          href: ../hybrid/move-users-from-on-premises-to-skype-for-business-online.md
         - name: Перемещение пользователей из облака в локальную среду
           href: ../hybrid/move-users-from-the-cloud-to-on-premises.md
         - name: Управление миграцией собраний

@@ -1,5 +1,5 @@
 ---
-title: Archiving (Planning Tool)
+title: Средство планирования архива
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,18 +13,17 @@ f1.keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 45580eaa-4c59-47c6-9e64-9221a3a352b4
-description: Архивировать сообщения, отправленные через Skype для бизнеса Server, можно с помощью Skype для бизнеса Server.
-ms.openlocfilehash: f3e961d5ebd183d50e5ed14c28163e77d77aedbb
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Архивировать в Skype для бизнеса Server позволяет архивировать сообщения, которые отправляются через Skype для бизнеса Server.
+ms.openlocfilehash: c23053f61c6b9029c6e62c5f344c780588bfb6e4
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49835079"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646820"
 ---
-# <a name="archiving-planning-tool"></a>Archiving (Planning Tool)
+# <a name="archiving-planning-tool"></a>Средство планирования архива
  
-Архивировать сообщения, отправленные через Skype для бизнеса Server, можно с помощью Skype для бизнеса Server.
+Архивативная Skype для бизнеса Server предоставляет вам возможность архивировать сообщения, которые отправляются через Skype для бизнеса Server.
   
-For details about preparing your environment for Archiving Server, see [Plan for archiving in Skype for Business Server 2015](../../plan-your-deployment/archiving/archiving.md).
+Сведения о подготовке среды для архивного сервера см. в материале [Plan for archiving in Skype для бизнеса Server 2015.](../../plan-your-deployment/archiving/archiving.md)
   
-

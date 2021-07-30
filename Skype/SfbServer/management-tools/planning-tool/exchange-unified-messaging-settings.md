@@ -1,5 +1,5 @@
 ---
-title: Параметры единой системы обмена сообщениями Exchange (средство планирования)
+title: Exchange Средство планирования Параметры единой системы обмена сообщениями
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,17 +13,17 @@ f1.keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d4c4a5d9-1523-49ff-b994-882b037ed46f
-description: Skype for Business Server 2015 поддерживает интеграцию с Exchange Unified Messaging (UM) для объединения голосовых сообщений и сообщений электронной почты в единую инфраструктуру обмена сообщениями.
-ms.openlocfilehash: 993b95bf08839b6accbcc5fe417ecfa87f1b44b3
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Skype для бизнеса Server 2015 г. поддерживает интеграцию с Exchange единой системы обмена сообщениями для объединения голосовых сообщений и сообщений электронной почты в единую инфраструктуру обмена сообщениями.
+ms.openlocfilehash: 149655d4146c46b147fac5c79bf354d5d44fd273
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118548"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646600"
 ---
-# <a name="exchange-unified-messaging-settings-planning-tool"></a>Параметры единой системы обмена сообщениями Exchange (средство планирования)
+# <a name="exchange-unified-messaging-settings-planning-tool"></a>Exchange Средство планирования Параметры единой системы обмена сообщениями
 
-Skype for Business Server 2015 поддерживает интеграцию с Exchange Unified Messaging (UM) для объединения голосовых сообщений и сообщений электронной почты в единую инфраструктуру обмена сообщениями.
+Skype для бизнеса Server 2015 г. поддерживает интеграцию с Exchange единой системы обмена сообщениями для объединения голосовых сообщений и обмена сообщениями в единую инфраструктуру обмена сообщениями.
 
 Дополнительные сведения см. в следующих статьях:
 

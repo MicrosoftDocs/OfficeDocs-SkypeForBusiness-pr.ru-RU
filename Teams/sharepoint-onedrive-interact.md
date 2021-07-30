@@ -18,19 +18,19 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 21abc840ddc740d7d842767c6c864d8ff5b598dd
-ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
+ms.openlocfilehash: 99667735c6e0e71532084f3aff6771df4408f892
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52855958"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646210"
 ---
 # <a name="how-sharepoint-and-onedrive-interact-with-microsoft-teams"></a>Взаимодействие SharePoint OneDrive взаимодействия с Microsoft Teams
 
 > [!Tip]
 > В следующем сеансе вы узнаете Teams как Azure Active Directory (AAD), Microsoft 365 Groups, Exchange, SharePoint и OneDrive: основы [Microsoft Teams](https://aka.ms/teams-foundations)
 
-У каждой группы Microsoft Teams есть сайт группы в SharePoint, а каждый стандартный канал группы получает папку в библиотеке документов сайта группы по умолчанию. Каждый [частный](private-channels.md) канал имеет собственный отдельный SharePoint сайт.
+У каждой группы Microsoft Teams есть сайт группы в SharePoint, а каждый стандартный канал группы получает папку в библиотеке документов сайта группы по умолчанию. Каждый [частный канал](private-channels.md) имеет собственный отдельный SharePoint сайт. Дополнительные информацию об этих сайтах группы и каналах см. в Teams [подключенных сайтов и сайтов каналов.](/sharepoint/teams-connected-sites)
 
 Файлы, совместно используемые во время беседы, автоматически добавляются в библиотеку документов, а заданные в SharePoint разрешения и параметры безопасности файлов автоматически переносятся в Teams. Чтобы узнать, как изменение адреса сайта влияет на SharePoint, см. статью Изменение [адреса сайта.](/sharepoint/change-site-address)
 
@@ -45,9 +45,9 @@ ms.locfileid: "52855958"
 
 Ниже приводится пример связей между командой, стандартным каналом и библиотекой документов.
 
-Для каждой команды создается сайт SharePoint, а также папка по умолчанию **Общие документы**. У каждого стандартного канала, включая канал **Общий** (канал по умолчанию для каждой команды), есть папка в **общие документы.**
+Для каждой команды создается сайт SharePoint, а также папка по умолчанию **Общие документы**. У каждого стандартного канала, включая канал **"Общее"** (канал по умолчанию для каждой команды), есть папка в **общих документах.**
 
-![Схема папок "Общие документы" В SharePoint.](media/Understand_how_SharePoint_Online_and_OneDrive_for_Business_interact_with_Microsoft_Teams_image1.png)
+![Схема папок "Общие документы" в SharePoint.](media/Understand_how_SharePoint_Online_and_OneDrive_for_Business_interact_with_Microsoft_Teams_image1.png)
 
 Стандартные SharePoint сайта и библиотеки документов нельзя заменить другими.
 
@@ -75,7 +75,7 @@ ms.locfileid: "52855958"
 
 ## <a name="default-link-type-setting"></a>Тип ссылки по умолчанию
 
-Тип ссылки общего доступа, который отображается по умолчанию, если пользователь поделился файлом в центре SharePoint администрирования. Сведения см. в разделе [Изменение типа ссылки по умолчанию, когда](/sharepoint/change-default-sharing-link) пользователи получают ссылки для общего доступа.
+Тип ссылки общего доступа, который отображается по умолчанию, если пользователь поделился файлом в центре SharePoint администрирования. Сведения см. в разделе Изменение типа ссылки по умолчанию [при ссылке для общего доступа.](/sharepoint/change-default-sharing-link)
 
 ## <a name="related-topics"></a>Статьи по теме
 

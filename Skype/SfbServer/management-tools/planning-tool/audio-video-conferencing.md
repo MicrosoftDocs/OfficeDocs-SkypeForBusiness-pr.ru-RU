@@ -1,5 +1,5 @@
 ---
-title: Аудиоконференция (средство планирования)
+title: Средство планирования аудио-видеоконференций
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,20 +13,20 @@ f1.keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 466f5d2e-0e70-434c-8318-dfdefe679a31
-description: Аудио- и видеоконференции Skype для бизнеса Server 2015 позволяют пользователям участвовать в аудио- или видеоконференции в режиме реального времени.
-ms.openlocfilehash: 3da32d1fd154ac21a08224af8be407bf59fe72d6
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Skype для бизнеса Server 2015 аудио- и видеоконференции позволяют пользователям участвовать в аудио- или видеоконференции в режиме реального времени.
+ms.openlocfilehash: fbef474813acb6dde060f35efeb2797f383cd3a3
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49835039"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53647040"
 ---
-# <a name="audio-video-conferencing-planning-tool"></a>Аудиоконференция (средство планирования)
+# <a name="audio-video-conferencing-planning-tool"></a>Средство планирования аудио-видеоконференций
  
-Аудио- и видеоконференции Skype для бизнеса Server 2015 позволяют пользователям участвовать в аудио- или видеоконференции в режиме реального времени.
+Skype для бизнеса Server 2015 аудио- и видеоконференции позволяют пользователям участвовать в аудио- или видеоконференции в режиме реального времени.
   
-Подробные сведения о планировании включения видео- и видеоконференций в организации см. в следующей теме и ее подп. 
+Сведения о планировании включения A/V-конференций в организации см. в следующей теме и ее подтопике: 
   
-- [Планирование звонков в Skype для бизнеса Server 2015](../../plan-your-deployment/conferencing/conferencing.md)
+- [Планирование для конференций в Skype для бизнеса Server 2015 г.](../../plan-your-deployment/conferencing/conferencing.md)
     
 
