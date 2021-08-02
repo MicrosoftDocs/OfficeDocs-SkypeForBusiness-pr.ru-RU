@@ -14,12 +14,12 @@ f1.keywords:
 localization_priority: Normal
 description: Узнайте о поддержке жизненного цикла Комнаты Microsoft Teams, включая динамическую структуру поддержки и ее этапы.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d6ac865a59f2342b97ddb8cb0ae5807427c10b85
-ms.sourcegitcommit: 50ec59b454e751d952cde9fd13c8017529d0e1d6
+ms.openlocfilehash: c34f448eeaadbf946ab708378caa835a94836ccc
+ms.sourcegitcommit: ad215c120d7e550a7aebf2e1bb620c69039e5d8d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "52469681"
+ms.lasthandoff: 08/01/2021
+ms.locfileid: "53679734"
 ---
 # <a name="microsoft-teams-rooms-app-version-support"></a>Комнаты Microsoft Teams версии приложения
  
@@ -73,13 +73,9 @@ ms.locfileid: "52469681"
 > 
 > На устройствах с проблемой с compatiablity имеются:
 > 
-> - HP Elite Slice
-> - HP Elite Slice G2 MS SRS Audio Ready
-> - HP Elite Slice MS SRS Partner Ready
-> - HP Elite Slice G2 с ms MTR
 > - Блицы UC-Engine (версия или дата БИОРЕС содержит "ХИМСКЛИ" — указывает на бискетный каньон БИО). 
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
 [Справка по приложению "Комнаты Microsoft Teams"](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
