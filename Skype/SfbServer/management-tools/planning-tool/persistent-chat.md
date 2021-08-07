@@ -1,5 +1,5 @@
 ---
-title: Сохраняемая беседа (средство планирования)
+title: Средство планирования постоянных чатов
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,18 +13,17 @@ f1.keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ec111e2e-15dd-4b9b-ba9c-6125139319a1
-description: Сервер сохраняемого чата позволяет пользователям участвовать в многостолбных тематических беседах, которые со временем сохраняются.
-ms.openlocfilehash: 867bfe3a1d56beaf4579f5dbdf6c49b24d254d0a
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: С помощью сохраняемого сервера чата пользователи могут участвовать в многопартийных тематических беседах, которые сохраняются со временем.
+ms.openlocfilehash: 2dd6f8868048b3ce7cba16f92f98a7fb665f72d4
+ms.sourcegitcommit: f3c2559a89e1c4b3514e102cf94c38a697b4bc57
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49814109"
+ms.lasthandoff: 08/04/2021
+ms.locfileid: "53725332"
 ---
-# <a name="persistent-chat-planning-tool"></a>Сохраняемая беседа (средство планирования)
+# <a name="persistent-chat-planning-tool"></a>Средство планирования постоянных чатов
  
-Сервер сохраняемого чата позволяет пользователям участвовать в многостолбных тематических беседах, которые со временем сохраняются.
+Постоянный сервер чата позволяет пользователям участвовать в многопартийных тематических беседах, которые сохраняются с течением времени.
   
-Дополнительные сведения о подготовке среды к серверу сохраняемой беседы см. в подплане для сервера сохраняемой беседы [в Skype для бизнеса Server 2015.](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
+Дополнительные сведения о подготовке среды для постоянного сервера чата см. в материале [Plan for Persistent Chat Server в Skype для бизнеса Server 2015 г.](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   
-

@@ -21,12 +21,12 @@ ms.custom:
 - ms.teamsadmincenter.callparkpolicies.overview
 - seo-marvel-apr2020
 description: Узнайте, как использовать парк вызовов и восстановить для удержания звонка в Microsoft Teams.
-ms.openlocfilehash: fb60e09148f2b96ce9b4d059d7d112c817239822
-ms.sourcegitcommit: 355c7858b98518f6a922110390c51eb7e2cd6690
+ms.openlocfilehash: 751101a250c7a3f38ac7ba51dc8a22cc91d4d7b5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2021
-ms.locfileid: "53147187"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53772610"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>Парковка и восстановление звонков в Microsoft Teams
 
@@ -53,7 +53,7 @@ ms.locfileid: "53147187"
 
 1. В левой области навигации Центра Microsoft Teams перейти **к** политикам парков  >  **голосовых зовов.**
 2. На **вкладке Управление политиками** нажмите кнопку **Добавить**.
-3. Придайте политике имя, а затем переключение в переключатель **Разрешить парк вызовов** в **переключатель Включит**.
+3. Придайте политике имя, а затем переключение в переключатель **Разрешить парк вызовов** в **переключатель Включит**. (Диапазон и время перенастройки звонка нельзя настроить.)
 
     ![Снимок экрана: параметры политики в парке вызовов](media/call-park-add-policy.png)
 

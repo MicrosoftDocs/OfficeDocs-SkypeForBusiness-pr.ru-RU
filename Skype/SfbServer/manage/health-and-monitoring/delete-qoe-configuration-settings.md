@@ -1,5 +1,5 @@
 ---
-title: Удаление параметров конфигурации experience в Skype для бизнеса Server
+title: Удаление параметров конфигурации Experience в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,16 +12,16 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: fd0c4c2f-3bfb-42cb-9b6a-f0f8d5aa9e81
 description: Сводка. Сведения об удалении параметров качества работы (QoE) в Skype для бизнеса Server.
-ms.openlocfilehash: b48ddb9af715cd33b11d3c2f1c7ea90b3746aa4a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 8f97ed5fc1a59b68a4087406c14ad4414cc106ad25401322f025101f09aabe4f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095283"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54305431"
 ---
-# <a name="delete-quality-of-experience-configuration-settings-in-skype-for-business-server"></a>Удаление параметров конфигурации experience в Skype для бизнеса Server
+# <a name="delete-quality-of-experience-configuration-settings-in-skype-for-business-server"></a>Удаление параметров конфигурации Experience в Skype для бизнеса Server
  
-**Сводка:** Узнайте, как удалить параметры Качества работы (QoE) в Skype для бизнеса Server.
+**Сводка:** Узнайте, как удалить параметры Quality of Experience (QoE) в Skype для бизнеса Server.
   
 Показатели качества взаимодействия отслеживают качество аудио- и видеозвонков в вашей организации, включая число потерянных сетевых пакетов, фоновый шум и объем "дрожания" (разницы задержки пакетов). Эти показатели хранятся в базе данных отдельно от других данных (таких как записи функции регистрации вызовов), что позволяет включать и отключать запись качества взаимодействия независимо записи других данных.
   
@@ -29,13 +29,13 @@ ms.locfileid: "51095283"
   
 Обратите внимание, что можно также "удалить" глобальные параметры. Однако фактическое удаление глобальных параметров при этом не выполняется. Вместо этого все свойства в этой коллекции сбрасываются на значения по умолчанию. Например, по умолчанию в коллекции параметров конфигурации качества взаимодействия включена очистка. Предположим, что вы изменяете глобальную коллекцию, чтобы отключить очистку. Если вы позднее удаляете глобальные параметры, все свойства будут сброшены в значения по умолчанию. В данном случае это означает, что очистка будет снова включена.
   
-Параметры конфигурации QoE можно удалить с помощью панели управления Skype для бизнес-серверов или с помощью [cmdlet Remove-CsQoEConfiguration.](/powershell/module/skype/remove-csqoeconfiguration?view=skype-ps)
+Параметры конфигурации QoE можно удалить с помощью панели управления Skype для бизнеса Server или с помощью [cmdlet Remove-CsQoEConfiguration.](/powershell/module/skype/remove-csqoeconfiguration?view=skype-ps)
   
-### <a name="to-delete-qoe-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Удаление параметров конфигурации QoE с помощью панели управления Skype для бизнес-серверов
+### <a name="to-delete-qoe-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Удаление параметров конфигурации QoE с помощью Skype для бизнеса Server панели управления
 
 1.  Войдите на компьютер как член группы RTCUniversalServerAdmins или роли CsVoiceAdministrator, CsServerAdministrator или CsAdministrator. Дополнительные сведения см. в разделе **Delegate Setup Permissions**.
     
-2. Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Skype для бизнес-серверов.  
+2. Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель Skype для бизнеса Server управления.  
     
 3. В левой панели навигации щелкните **Мониторинг и архивация** и затем выберите **Данные о качестве взаимодействия**.
     
@@ -43,9 +43,9 @@ ms.locfileid: "51095283"
     
 5. Нажмите кнопку **ОК**.
     
-## <a name="removing-qoe-configuration-settings-by-using-windows-powershell-cmdlets"></a>Удаление параметров конфигурации QoE с помощью Windows PowerShell cmdlets
+## <a name="removing-qoe-configuration-settings-by-using-windows-powershell-cmdlets"></a>Удаление конфигурации QoE Параметры с помощью Windows PowerShell cmdlets
 
-Параметры конфигурации QoE можно удалить с помощью Windows PowerShell и **cmdlet Remove-CsQoEConfiguration.** Этот комлет можно выполнить либо из оболочки управления skype для бизнес-серверов, либо из удаленного сеанса Windows PowerShell. Сведения об использовании удаленных Windows PowerShell для подключения к Skype для бизнеса Server см. в статье блога ["Быстрый запуск: управление Microsoft Lync Server 2010 с](https://go.microsoft.com/fwlink/p/?linkId=255876)помощью удаленной powerShell". В Skype для бизнеса Server этот процесс является одинаковым.
+Параметры конфигурации QoE можно удалить с помощью Windows PowerShell и **cmdlet Remove-CsQoEConfiguration.** Этот комлет можно выполнить либо из Skype для бизнеса Server, либо из удаленного сеанса Windows PowerShell. Сведения об использовании удаленных Windows PowerShell для подключения к Skype для бизнеса Server см. в статье блога ["Быстрый запуск: управление Microsoft Lync Server 2010 с](https://go.microsoft.com/fwlink/p/?linkId=255876)помощью удаленной powerShell". Этот процесс в Skype для бизнеса Server.
   
 ### <a name="to-remove-a-specified-collection-of-qoe-configuration-settings"></a>Удаление указанной коллекции параметров конфигурации качества взаимодействия
 
@@ -75,4 +75,4 @@ ms.locfileid: "51095283"
   
 ## <a name="see-also"></a>См. также
 
-[Вручную очищать записи детализации вызовов и базы данных по качеству работы в Skype для бизнеса Server](../../deploy/deploy-monitoring/purgecall-detail-recording-and-qoe.md)
+[Вручную очищают базы данных данных о детализации вызовов и качестве Skype для бизнеса Server](../../deploy/deploy-monitoring/purgecall-detail-recording-and-qoe.md)

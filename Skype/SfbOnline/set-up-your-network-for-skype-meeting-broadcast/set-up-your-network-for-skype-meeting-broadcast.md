@@ -18,13 +18,13 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - SMB
-description: Узнайте о функции Skype трансляции собраний в Skype для бизнеса Online, которая позволяет планировать, создавать и транслировать собрания и события крупной онлайн-аудитории до 10 000 участников.
-ms.openlocfilehash: da27110313765bb50df92e3bafb6f09ceae5f301
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+description: Узнайте о функции Skype трансляции собраний в Skype для бизнеса Online, которая позволяет планировать, создавать и транслировать собрания или события крупной онлайн-аудитории до 10 000 участников.
+ms.openlocfilehash: e5248ca2f8b8bb8080eae5eebe44e3d7c5bc01f5
+ms.sourcegitcommit: f3c2559a89e1c4b3514e102cf94c38a697b4bc57
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237555"
+ms.lasthandoff: 08/04/2021
+ms.locfileid: "53725362"
 ---
 # <a name="set-up-your-network-for-skype-meeting-broadcast"></a>Настройка сети для трансляции собраний Skype
 
@@ -43,9 +43,7 @@ ms.locfileid: "52237555"
 
 Чтобы **настроить разрешенные** домены, используйте один из следующих способов:
 
-## #
-
- **Способ 1. Использование Центра администрирования**
+### <a name="method-1-use-the-admin-center"></a>Способ 1. Использование Центра администрирования
 
 1. Перейдите в Центр администрирования, а затем в области слева щелкните надстройки **Параметры**  >  **&amp; services** и выберите Skype для бизнеса .
 
@@ -61,9 +59,7 @@ ms.locfileid: "52237555"
 
 3. Нажмите кнопку **Сохранить**.
 
-## #
-
- **Способ 2. Используйте Windows PowerShell**
+### <a name="method-2-use-windows-powershell"></a>Способ 2. Используйте Windows PowerShell
 
 - В меню **"Пуск"** щелкните правой **кнопкой** мыши Windows PowerShell выберите пункт **Запуск от администратора**. В **окне** Windows PowerShell введите каждую строку и нажмите ввод.
 

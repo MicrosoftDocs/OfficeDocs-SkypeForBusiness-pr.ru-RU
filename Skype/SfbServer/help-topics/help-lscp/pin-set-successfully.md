@@ -15,17 +15,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c6e210d1-bcac-4527-adc6-691a5723270c
 description: Чтобы использовать электронную почту для отправки ПИН-кодов пользователям, щелкните Открыть приложение электронной почты для отправки нового ПИН-кода пользователю. Чтобы скопировать ПИН-код в сообщение электронной почты, выберите Показать ПИН-код.
-ms.openlocfilehash: 76a91ddd0dd9f71e5059b3e1be333181eeb691d8
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 2d778887099d03a68877a5d3722684c26077a81a9ebc507dfb4785304d474098
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49829349"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54277064"
 ---
 # <a name="pin-set-successfully"></a>Успешная настройка ПИН-кода
  
 Чтобы использовать электронную почту для отправки ПИН-кодов пользователям, щелкните **Открыть приложение электронной почты для отправки нового ПИН-кода пользователю**. Чтобы скопировать ПИН-код в сообщение электронной почты, выберите **Показать ПИН-код**. 
   
-For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).
+Сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнеса Server, см. в Skype для бизнеса Server [2015](../../manage/manage.md)г.
   
 

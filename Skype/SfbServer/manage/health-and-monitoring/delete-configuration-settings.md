@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 8ebf5da8-c0fc-498c-8d85-527d3be8479a
 description: Сводка. Узнайте, как удалить параметры конфигурации CDR в Skype для бизнеса Server.
-ms.openlocfilehash: 3ac961df352f26891ece9c69b7d62b37c4c015d6
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: ad23743e6361a0931499c373e337bb9869738fa8e00d5d856ad272e96798655b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095313"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54276824"
 ---
 # <a name="delete-an-existing-collection-of-cdr-configuration-settings-in-skype-for-business-server"></a>Удаление существующей коллекции параметров конфигурации CDR в Skype для бизнеса Server
  
@@ -29,21 +29,21 @@ ms.locfileid: "51095313"
   
 Обратите внимание, что можно также "удалить" глобальные параметры. Однако фактическое удаление глобальных параметров при этом не выполняется. Вместо этого все свойства в этой коллекции сбрасываются на значения по умолчанию. Например, по умолчанию чистка включена в наборе параметров конфигурации CDR. Предположим, что вы изменяете глобальную коллекцию, чтобы отключить очистку. Если вы позднее удаляете глобальные параметры, все свойства будут сброшены в значения по умолчанию. В данном случае это означает, что очистка будет снова включена.
   
-Параметры конфигурации CDR можно удалить с помощью панели управления Skype для бизнес-серверов или группы [remove-CsCdrConfiguration.](/powershell/module/skype/remove-cscdrconfiguration?view=skype-ps)
+Параметры конфигурации CDR можно удалить с помощью панели управления Skype для бизнеса Server или [cmdlet Remove-CsCdrConfiguration.](/powershell/module/skype/remove-cscdrconfiguration?view=skype-ps)
   
-### <a name="to-remove-cdr-configuration-settings-with-skype-for-business-server-control-panel"></a>Удаление параметров конфигурации CDR с панели управления Skype для бизнес-серверов
+### <a name="to-remove-cdr-configuration-settings-with-skype-for-business-server-control-panel"></a>Удаление параметров конфигурации CDR с Skype для бизнеса Server панели управления
 
-1. В панели управления Skype для бизнес-серверов нажмите **кнопку Мониторинг и архива.** 
+1. В Skype для бизнеса Server панели управления нажмите **кнопку Мониторинг и архива.** 
     
 2. На вкладке **Регистрация вызовов** выберите коллекцию (или коллекции) параметров CDR для удаления. Чтобы выбрать несколько коллекций, щелкните первую из них, нажмите и удерживайте клавишу Ctrl и щелкните дополнительные коллекции.
     
 3. Щелкните **Изменить** и **Удалить**.
     
-4. В диалоговом окне Панель управления Skype для бизнес-серверов нажмите **кнопку ОК**.
+4. В диалоговом окне Skype для бизнеса Server панели управления нажмите **кнопку ОК**.
     
 ## <a name="removing-cdr-configuration-settings-by-using-windows-powershell-cmdlets"></a>Удаление параметров конфигурации CDR с помощью Windows PowerShell cmdlets
 
-Параметры конфигурации записи детализации вызовов можно удалить с помощью Windows PowerShell и **cmdlet Remove-CsCdrConfiguration.** Этот комлет можно выполнить либо из оболочки управления skype для бизнес-серверов, либо из удаленного сеанса Windows PowerShell. Сведения об использовании удаленных Windows PowerShell для подключения к Skype для бизнеса Server см. в статье блога ["Быстрый запуск: управление Microsoft Lync Server 2010 с](https://go.microsoft.com/fwlink/p/?linkId=255876)помощью удаленной powerShell". В Skype для бизнеса Server этот процесс является одинаковым.
+Параметры конфигурации записи параметров записи вызовов можно удалить с помощью Windows PowerShell и **cmdlet Remove-CsCdrConfiguration.** Этот комлет можно выполнить либо из Skype для бизнеса Server, либо из удаленного сеанса Windows PowerShell. Сведения об использовании удаленных Windows PowerShell для подключения к Skype для бизнеса Server см. в статье блога ["Быстрый запуск: управление Microsoft Lync Server 2010 с](https://go.microsoft.com/fwlink/p/?linkId=255876)помощью удаленной powerShell". Этот процесс в Skype для бизнеса Server.
   
 ### <a name="to-remove-a-specified-collection-of-cdr-configuration-settings"></a>Удаление определенной коллекции параметров конфигурации CDR
 
@@ -73,4 +73,4 @@ ms.locfileid: "51095313"
   
 ## <a name="see-also"></a>См. также
 
-[Вручную очищать записи детализации вызовов и базы данных по качеству работы в Skype для бизнеса Server](../../deploy/deploy-monitoring/purgecall-detail-recording-and-qoe.md)
+[Вручную очищают базы данных данных о детализации вызовов и качестве Skype для бизнеса Server](../../deploy/deploy-monitoring/purgecall-detail-recording-and-qoe.md)

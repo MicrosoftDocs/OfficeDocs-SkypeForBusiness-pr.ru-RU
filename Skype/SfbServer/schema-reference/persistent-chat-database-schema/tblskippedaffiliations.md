@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 0b129b54-a7a8-42a6-9279-0e08410c06ec
-description: tblSkippedAffiliations содержит присоединение, которое не удалось прочитать (обычно из-за ошибок доступа к доменным службам Active Directory).
-ms.openlocfilehash: 3061a399de804898d3dc2c616fb3766206c2d624
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: tblSkippedAffiliations содержит присоединение, которое не удалось прочитать (как правило, из-за ошибок доступа к службам доступа к доменам Active Directory).
+ms.openlocfilehash: ddc8ef78f083235ccde122a3f26fd7f37e34b71d9643b1c729f802e3e080c413
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49831429"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54305371"
 ---
 # <a name="tblskippedaffiliations"></a>tblSkippedAffiliations
  
-tblSkippedAffiliations содержит присоединение, которое не удалось прочитать (обычно из-за ошибок доступа к доменным службам Active Directory).
+tblSkippedAffiliations содержит присоединение, которое не удалось прочитать (как правило, из-за ошибок доступа к службам доступа к доменам Active Directory).
   
 **Columns**
 
@@ -34,7 +34,7 @@ tblSkippedAffiliations содержит присоединение, которо
    
 **Keys**
 
-|**Столбцы**|**Описание**|
+|**Column(s)**|**Description**|
 |:-----|:-----|
 |\<prinID, affDescription\>  <br/> |Первичный ключ.  <br/> |
 |prinID  <br/> |Внешний ключ с поиском в таблице tblPrincipal.prinID.  <br/> |

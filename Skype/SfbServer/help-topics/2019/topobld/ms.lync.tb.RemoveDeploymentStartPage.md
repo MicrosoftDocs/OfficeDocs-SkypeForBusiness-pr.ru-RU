@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 8659fefa-97f1-4d4a-9628-5c6dae86b244
 ROBOTS: NOINDEX, NOFOLLOW
 description: Запускайте Мастер удаления развертывания, только если необходимо ликвидировать все развертывания. Этот мастер создает пустую топологию, состоящую из одного интерфейсного сервера. После запуска этого мастера и публикации пустой топологии будет невозможно вернуться к исходной топологии.
-ms.openlocfilehash: 3aaba62ae445cb0be9f674cdba21dfc14d9b61be
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 97f5122b791e6cf558e2f568b2c6dc42c5104496c845b3015b91b91bfa442ca2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49822089"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54277204"
 ---
 # <a name="remove-deployment-introduction"></a>Введение в удаление развертывания
  

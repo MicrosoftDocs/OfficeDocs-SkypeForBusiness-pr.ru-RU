@@ -1,5 +1,5 @@
 ---
-title: Политика conferencing для учетных записей системы комнат Skype
+title: Политика conferencing для Skype учетных записей системы номеров
 ms.author: v-cichur
 author: cichur
 manager: serdars
@@ -11,72 +11,72 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 4dd8be28-5156-411b-8ccd-eff7f75cb897
-description: В этом разделе вы узнаете, как назначать политики для учетных записей системы комнат Skype.
-ms.openlocfilehash: 3fb462168bd4121f5feef365f881ed9f02620e25
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Ознакомьтесь с этой темой, чтобы узнать, как назначить политики conferencing для Skype учетных записей системы номеров.
+ms.openlocfilehash: 7f9d1e349563e20d29736d33900b4afce99f39c10b9222b23d291f5a9fa417b7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49812729"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54306021"
 ---
-# <a name="conferencing-policy-for-skype-room-system-accounts"></a>Политика conferencing для учетных записей системы комнат Skype
+# <a name="conferencing-policy-for-skype-room-system-accounts"></a>Политика conferencing для Skype учетных записей системы номеров
  
-В этом разделе вы узнаете, как назначать политики для учетных записей системы комнат Skype.
+Ознакомьтесь с этой темой, чтобы узнать, как назначить политики conferencing для Skype учетных записей системы номеров.
   
-## <a name="conferencing-policy-features"></a>Функции политики для conferencing
+## <a name="conferencing-policy-features"></a>Функции политики conferencing
 
-Политика conferencing, назначенная учетной записи системы комнат Skype, должна иметь определенные характеристики. В большинстве раз клиент системы комнат Skype присоединяется к запланированному собранию, поэтому политика конференц-связи организатора собрания влияет на конференцию. Однако в Skype для бизнеса Server определенные возможности зависят от конфигурации участника. Например, если политика участника разрешает максимальное разрешение видео 1080p, участники будут использовать эту возможность видео с более высоким разрешением в конференции, даже если политика организатора не разрешает ее. В следующей таблице описано несколько таких параметров, которые следует учитывать при настройке политик для учетных записей системы комнат Skype в организации. 
+Политика conferencing, назначенная учетной записи Skype room System, должна иметь определенные характеристики. В большинстве Skype клиент системы номеров присоединяется к запланированному собранию, поэтому политика конференц-связи организатора собрания влияет на конференцию. Однако в Skype для бизнеса Server определенные возможности зависят от конфигурации участника. Например, если политика участника позволяет максимальное разрешение видео в 1080p, участники будут испытывать эту возможность видео с более высоким разрешением на конференции, даже если политика организатора этого не позволяет. В следующей таблице описано несколько таких параметров, о которых следует знать при настройке политик конференций для Skype учетных записей системы номеров в организации. 
   
-|Возможность  <br/> |Значение  <br/> |Примечание  <br/> |
+|Функция  <br/> |Значение  <br/> |Comment  <br/> |
 |:-----|:-----|:-----|
-|AllowIPAudio  <br/> |TRUE  <br/> |Должно быть true для звука системы комнат Skype  <br/> |
-|AllowIPVideo  <br/> |TRUE  <br/> |Должно быть истинным, чтобы звук системы комнат Skype работал в сеансах доски meet Now (ad hoc) в системе комнат Skype  <br/> |
-|AllowMultiView  <br/> |TRUE  <br/> |Позволяет системе комнат Skype отрисовки видеопотоков с несколькими представлениями  <br/> |
-|AllowParticipantControl  <br/> |TRUE  <br/> |Влияет на сеансы доски meet Now (ad hoc) в системе комнат Skype  <br/> |
-|AllowAnnotations  <br/> |TRUE  <br/> |Влияет на сеансы доски meet Now (ad hoc) в системе комнат Skype  <br/> |
-|DisablePowerPointAnnotations  <br/> |FALSE  <br/> |Влияет на сеансы доски meet Now (ad hoc) в системе комнат Skype  <br/> |
-|AllowUserToScheduleMeetingsWithAppSharing  <br/> |TRUE  <br/> |Влияет на сеансы доски meet Now (ad hoc) в системе комнат Skype  <br/> |
-|AllowNonEnterpriseVoiceUsersToDialOut  <br/> |FALSE  <br/> |Зависит от того, включена ли учетная запись Корпоративная голосовая связь (EV) (см. раздел "Включение учетных записей системы комнат Skype для Skype для бизнеса")  <br/> |
-|AllowAnonymousUsersToDialOut  <br/> |FALSE  <br/> |Зависит от того, включена ли учетная запись Корпоративная голосовая связь (EV)  <br/> |
-|AllowAnonymousParticipantsInMeetings  <br/> |TRUE  <br/> |Влияет на сеансы доски meet Now (ad hoc) в системе комнат Skype  <br/> |
-|AllowExternalUsersToSaveContent  <br/> |TRUE  <br/> |Влияет на сеансы доски meet Now (ad hoc) в системе комнат Skype  <br/> |
-|AllowExternalUserControl  <br/> |FALSE  <br/> |Влияет на сеансы доски meet Now (ad hoc) в системе комнат Skype  <br/> |
-|AllowExternalUsersToRecordMeeting  <br/> |FALSE  <br/> |Влияет на сеансы доски meet Now (ad hoc) в системе комнат Skype  <br/> |
-|AllowPolls  <br/> |TRUE  <br/> |N/A in Meet Now (ad hoc) meetings, but Skype Room System can respond to polls on the screen at the front of room  <br/> |
-|AllowSharedNotes  <br/> |TRUE  <br/> |N/A in Meet Now (ad hoc) meetings, but Skype Room System can respond to polls on the screen at the front of room  <br/> |
-|EnableDialInConferencing  <br/> |TRUE  <br/> |Влияет на сеансы доски meet Now (ad hoc) в системе комнат Skype  <br/> |
-|EnableAppDesktopSharing  <br/> |Desktop  <br/> |Влияет на сеансы доски meet Now (ad hoc) в системе комнат Skype  <br/> |
-|AllowConferenceRecording  <br/> |FALSE  <br/> |Н/Д для системы комнат Skype. Если зафиксировать true, удаленная сторона может записать  <br/> |
-|EnableP2PRecording  <br/> |FALSE  <br/> |Н/Д для системы комнат Skype. Если зафиксировать true, удаленная сторона может записать  <br/> |
-|EnableFileTransfer  <br/> |TRUE  <br/> |Недоступно  <br/> |
-|EnableP2PFileTransfer  <br/> |TRUE  <br/> |Недоступно  <br/> |
-|EnableP2PVideo  <br/> |TRUE  <br/> |Позволяет клиенту системы комнат Skype участвовать в одноранговых видеосвязях  <br/> |
-|AllowLargeMeetings  <br/> |FALSE  <br/> |Недоступно  <br/> |
-|EnableDataCollaboration  <br/> |TRUE  <br/> |Влияет на сеансы доски meet Now (ad hoc) в системе комнат Skype  <br/> |
-|MaxVideoConferenceResolution  <br/> |VGA  <br/> |Система комнат Skype для бизнеса Server игнорирует hd1080  <br/> |
-|MaxMeetingSize  <br/> |250  <br/> |Влияет на сеансы доски meet Now (ad hoc) в системе комнат Skype  <br/> |
+|AllowIPAudio  <br/> |TRUE  <br/> |Должно быть верно для Skype системы номеров  <br/> |
+|AllowIPVideo  <br/> |TRUE  <br/> |Должно быть верно для Skype системы номеров для работы в сеансах доски Meet Now (ad hoc) в Skype Room System  <br/> |
+|AllowMultiView  <br/> |TRUE  <br/> |Позволяет Skype комнате для отрисовки нескольких видеопотоков с несколькими представлениями  <br/> |
+|AllowParticipantControl  <br/> |TRUE  <br/> |Влияет на сеансы доски Meet Now (ad hoc) в Skype Room System  <br/> |
+|AllowAnnotations  <br/> |TRUE  <br/> |Влияет на сеансы доски Meet Now (ad hoc) в Skype Room System  <br/> |
+|Отключение PowerPointAnnotations  <br/> |FALSE  <br/> |Влияет на сеансы доски Meet Now (ad hoc) в Skype Room System  <br/> |
+|AllowUserToScheduleMeetingsWithAppSharing  <br/> |TRUE  <br/> |Влияет на сеансы доски Meet Now (ad hoc) в Skype Room System  <br/> |
+|AllowNonEnterpriseVoiceUsersToDialOut  <br/> |FALSE  <br/> |Зависит от того, включена ли учетная запись Корпоративная голосовая связь (EV) (см. раздел Включение Skype учетных записей системы номеров для Skype для бизнеса)  <br/> |
+|AllowAnonymousUsersToDialOut  <br/> |FALSE  <br/> |Зависит от того, включена ли Корпоративная голосовая связь учетная запись (EV).  <br/> |
+|AllowAnonymousParticipantsInMeetings  <br/> |TRUE  <br/> |Влияет на сеансы доски Meet Now (ad hoc) в Skype Room System  <br/> |
+|AllowExternalUsersToSaveContent  <br/> |TRUE  <br/> |Влияет на сеансы доски Meet Now (ad hoc) в Skype Room System  <br/> |
+|AllowExternalUserControl  <br/> |FALSE  <br/> |Влияет на сеансы доски Meet Now (ad hoc) в Skype Room System  <br/> |
+|AllowExternalUsersToRecordMeeting  <br/> |FALSE  <br/> |Влияет на сеансы доски Meet Now (ad hoc) в Skype Room System  <br/> |
+|AllowPolls  <br/> |TRUE  <br/> |N/A в собраниях Meet Now (ad hoc), но Skype система номеров может реагировать на опросы на экране в передней части комнаты  <br/> |
+|AllowSharedNotes  <br/> |TRUE  <br/> |N/A в собраниях Meet Now (ad hoc), но Skype система номеров может реагировать на опросы на экране в передней части комнаты  <br/> |
+|EnableDialInConferencing  <br/> |TRUE  <br/> |Влияет на сеансы доски Meet Now (ad hoc) в Skype Room System  <br/> |
+|EnableAppDesktopSharing  <br/> |Рабочий стол  <br/> |Влияет на сеансы доски Meet Now (ad hoc) в Skype Room System  <br/> |
+|AllowConferenceRecording  <br/> |FALSE  <br/> |N/A для Skype системы номеров. Если TRUE, удаленная сторона может записывать  <br/> |
+|EnableP2PRecording  <br/> |FALSE  <br/> |N/A для Skype системы номеров. Если TRUE, удаленная сторона может записывать  <br/> |
+|EnableFileTransfer  <br/> |TRUE  <br/> |Н/Д  <br/> |
+|EnableP2PFileTransfer  <br/> |TRUE  <br/> |Н/Д  <br/> |
+|EnableP2PVideo  <br/> |TRUE  <br/> |Позволяет клиенту Skype room System участвовать в одноранговых сеансах видео  <br/> |
+|AllowLargeMeetings  <br/> |FALSE  <br/> |Н/Д  <br/> |
+|EnableDataCollaboration  <br/> |TRUE  <br/> |Влияет на сеансы доски Meet Now (ad hoc) в Skype Room System  <br/> |
+|MaxVideoConferenceResolution  <br/> |VGA  <br/> |Игнорируется Skype для бизнеса Server, Skype комната система использует HD1080  <br/> |
+|MaxMeetingSize  <br/> |250  <br/> |Влияет на сеансы доски Meet Now (ad hoc) в Skype Room System  <br/> |
 |AudioBitRateKb  <br/> |200  <br/> |См. примечание в конце таблицы\*  <br/> |
-|VideoBitRateKb  <br/> |5000  <br/> |Это максимальная допустимая скорость исходящие видеосвязи. Система комнат Skype может отправлять один поток 1080 вместе с pano (если используется RoundTable) с такой скоростью. \*  <br/> |
+|VideoBitRateKb  <br/> |5000  <br/> |Это максимальная допустимая скорость исходящие биты видео. Skype Система room system может отправить один поток 1080 вместе с pano (если используется roundTable) по этой скорости бита. \*  <br/> |
 |AppSharingBitRateKb  <br/> |5000  <br/> |См. примечание в конце таблицы\*  <br/> |
-|FileTransferBitRateKb  <br/> |5000  <br/> |Недоступно  <br/> |
-|TotalReceiveVideoBitRateKb  <br/> |20000  <br/> |Рекомендуется установить этот уровень как можно более высоким. Эффективная пропускная способность зависит от условий сети во время конференций.\*  <br/> |
-|EnableMultiViewJoin  <br/> |TRUE  <br/> |Для системы комнат Skype должно быть засвеяно true, чтобы обеспечить многосервийные видеопотоки  <br/> |
+|FileTransferBitRateKb  <br/> |5000  <br/> |Н/Д  <br/> |
+|TotalReceiveVideoBitRateKb  <br/> |20000  <br/> |Рекомендуется установить этот уровень как можно более высоким. Эффективная пропускная способность зависит от сетевых условий во время конференций.\*  <br/> |
+|EnableMultiViewJoin  <br/> |TRUE  <br/> |Должно быть TRUE для Skype системы номеров, чтобы обеспечить много просмотр видеопотоков  <br/> |
    
-* Сведения о планировании пропускной способности см. в требованиях [к пропускной способности сети для трафика мультимедиа.](../../plan-your-deployment/network-requirements/network-requirements.md#network-bandwidth-requirements-for-media-traffic)
+* Сведения о планировании пропускной способности см. в ссылке Требования к [пропускной способности](../../plan-your-deployment/network-requirements/network-requirements.md#network-bandwidth-requirements-for-media-traffic)сети для трафика мультимедиа.
   
 > [!NOTE]
-> Если клиент системы комнат Skype попытается присоединиться к запланированному собранию, организованному пользователем, который находится в пуле Lync Server 2010, политика конференций организатора собрания может помешать клиенту системы комнат Skype выполнять совместную работу. 
+> Если клиент Skype Room System попытается присоединиться к запланированному собранию, организованному пользователем, который находится в пуле Lync Server 2010, политика конференций организатора собрания может помешать клиенту Skype Room System выполнять совместную работу. 
   
-## <a name="meeting-authentication"></a>Проверка подлинности на собрании
+## <a name="meeting-authentication"></a>Проверка подлинности собраний
 
-Система комнат Skype запросит у пользователей проверку подлинности при использовании ссылки на присоединиться к собранию с ограниченным доступом; например, собрание, для которого настроены параметры "lobby" собрания в Outlook. Этот параметр всегда настроен для настроенных собраний, и пользователям всегда будет предложено. Однако для неограниченных собраний пользователи могут присоединяться к собранию без проверки подлинности. 
+Skype Система номеров побуждает пользователей к проверке подлинности при использовании ссылки на соединение собраний для пользования ограниченной встречей; например, собрание, для которого параметры лобби собраний были настроены в Outlook. Этот параметр всегда для настраиваемых собраний, и пользователям всегда будет предложено. Однако для неограниченных собраний пользователи могут присоединяться к собранию без проверки подлинности. 
   
-Следующая команда позволяет администраторам требовать проверку подлинности для всех собраний, включая неограниченные собрания: 
+Следующая команда позволяет администраторам требовать проверки подлинности для всех собраний, включая неограниченные собрания: 
   
 ```powershell
 Set-CsMeetingConfiguration -RequireRoomSystemsAuthorization $TRUE
 ```
 
-По умолчанию requireRoomSystemsAuthorization имеет значение FALSE. 
+По умолчанию requireRoomSystemsAuthorization является FALSE. 
   
 

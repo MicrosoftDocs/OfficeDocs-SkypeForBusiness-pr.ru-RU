@@ -1,5 +1,5 @@
 ---
-title: Веб-конференция (средство планирования)
+title: Средство планирования веб-конференций
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,27 +13,27 @@ f1.keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4e4425c1-4a7b-4706-a4cd-155fd903acd5
-description: Веб-конференциация Skype для бизнеса Server 2015 включает совместную работу с документами, совместное использование приложений и совместное использование настольных компьютеров.
-ms.openlocfilehash: 6288fcfdf63ef8e09d776eaa7f5e5e9d19ad0b6b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Веб-конференциация вSkype for Business Server 2015 включает совместную работу с документами, совместное использование приложений и совместное использование настольных компьютеров.
+ms.openlocfilehash: cda9ea2a3626bb4ea2f13b7b93883e5c7d173ba8
+ms.sourcegitcommit: f3c2559a89e1c4b3514e102cf94c38a697b4bc57
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121597"
+ms.lasthandoff: 08/04/2021
+ms.locfileid: "53725302"
 ---
-# <a name="web-conferencing-planning-tool"></a>Веб-конференция (средство планирования)
+# <a name="web-conferencing-planning-tool"></a>Средство планирования веб-конференций
  
-Веб-конференциация Skype для бизнеса Server 2015 включает совместную работу с документами, совместное использование приложений и совместное использование настольных компьютеров.
+Skype для бизнеса Server 2015 г. веб-конференциация включает совместную работу с документами, совместное использование приложений и совместное использование настольных компьютеров.
   
 > [!NOTE]
-> Skype для бизнеса Server 2015 использует Office Web Apps и Office Web Apps Server для обработки совместного использования и отрисовки презентаций PowerPoint. Функции веб-конференций работают точно так же, как и в Microsoft Lync 2013. Дополнительные сведения об установке и настройке сервера веб-приложений Office см. в материале Настройка интеграции с [Office Web Apps Server и Lync Server 2013.](/previous-versions/office/lync-server-2013/lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013) 
+> Skype для бизнеса Server 2015 г. Office веб-приложения и сервер Office веб-приложений для обработки обмена и PowerPoint презентаций. Функции веб-конференций работают точно так же, как и в Microsoft Lync 2013. Дополнительные сведения об установке и настройке сервера веб Office приложений см. в материале Настройка интеграции с Office web Apps Server и [Lync Server 2013.](/previous-versions/office/lync-server-2013/lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013) 
   
 Сведения о планировании включения веб-конференций в организации см. в следующих темах: 
   
-- [Планирование для конференций в Skype для бизнеса Server 2015](../../plan-your-deployment/conferencing/conferencing.md)
+- [Планирование для конференций в Skype для бизнеса Server 2015 г.](../../plan-your-deployment/conferencing/conferencing.md)
     
-- [Требования к оборудованию и программному обеспечению для конференций в Skype для бизнеса Server 2015](../../plan-your-deployment/conferencing/hardware-and-software-requirements.md)
+- [Требования к оборудованию и программному обеспечению для Skype для бизнеса Server 2015 г.](../../plan-your-deployment/conferencing/hardware-and-software-requirements.md)
     
-- [Планирование телефонных разговоров в Skype для бизнеса Server 2015](../../plan-your-deployment/conferencing/dial-in-conferencing.md)
+- [Планирование телефонных конференций в Skype для бизнеса Server 2015 г.](../../plan-your-deployment/conferencing/dial-in-conferencing.md)
     
-- [Планирование больших собраний в Skype для бизнеса Server 2015](../../plan-your-deployment/conferencing/large-meetings.md)
+- [Планирование крупных собраний в Skype для бизнеса Server 2015 г.](../../plan-your-deployment/conferencing/large-meetings.md)

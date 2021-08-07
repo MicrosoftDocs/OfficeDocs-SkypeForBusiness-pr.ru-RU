@@ -1,5 +1,5 @@
 ---
-title: Сайты филиалов (средство планирования)
+title: Средство планирования сайтов филиалов Lync Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -16,13 +16,13 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7b9d0779-436f-4965-8110-a41ff4d0302d
 description: Подробные сведения о устойчивости филиальных сайтов см. в материале Planning for Branch-Site Voice Resiliency.
-ms.openlocfilehash: 96ef2d9afc376b5dee648f431d243ba5f67fe06b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: af049e151b8067242fcd9bfe08fba40962d57aa1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116137"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53772600"
 ---
-# <a name="branch-sites-planning-tool"></a>Сайты филиалов (средство планирования)
+# <a name="lync-server-branch-sites-planning-tool"></a>Средство планирования сайтов филиалов Lync Server
 
 Подробные сведения о устойчивости филиальных сайтов см. в материале [Планирование Branch-Site голосовой устойчивости.](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-branch-site-voice-resiliency)

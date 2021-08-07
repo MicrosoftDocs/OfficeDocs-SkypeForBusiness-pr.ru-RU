@@ -1,5 +1,5 @@
 ---
-title: Dial-in Conferencing (Planning Tool)
+title: Skype для бизнеса Server Средство планирования телефонных телефонных окей
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,20 +15,20 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c1f79a05-165c-47ec-8593-0bb3d43ee16f
-description: Конференц-связь с телефонным доступом в Skype для бизнеса Server 2015 позволяет пользователям присоединяться к аудиоконференции Skype для бизнеса Server 2015 с помощью телефона телефонной сети общего звонков (PSTN) без необходимости использования стороннее поставщика аудиоконференции.
-ms.openlocfilehash: 4b14193144dc8f1323fbc8ccdebf08409a8cfdaa
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Skype для бизнеса Server конференц-связи 2015 позволяет пользователям присоединяться к аудиозаписи конференции Skype для бизнеса Server 2015 г., используя телефон с общедоступным переключателем телефонной сети (PSTN), не требуя стороннее поставщика аудиоконференции.
+ms.openlocfilehash: 538141da2f3b1ff6239079f6255a6f73d687fe62
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49810569"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53772900"
 ---
-# <a name="dial-in-conferencing-planning-tool"></a>Dial-in Conferencing (Planning Tool)
+# <a name="skype-for-business-server-dial-in-conferencing-planning-tool"></a>Skype для бизнеса Server Средство планирования телефонных телефонных окей
  
-Конференц-связь с телефонным доступом в Skype для бизнеса Server 2015 позволяет пользователям присоединяться к аудиоконференции Skype для бизнеса Server 2015 с помощью телефона телефонной сети общего звонков (PSTN) без необходимости использования стороннее поставщика аудиоконференции.
+Skype для бизнеса Server конференц-связи 2015 позволяет пользователям присоединяться к аудиозаписи конференции Skype для бизнеса Server 2015 г., используя телефон с общедоступным переключателем телефонной сети (PSTN), не требуя стороннее поставщика аудиоконференции.
   
-Сведения о планировании включения в организации телефонной связи см. в следующих разделах и разделах, на которые он ссылается: 
+Сведения о планировании включения телефонных переговоров для организации см. в следующей теме и темах, на которые она ссылается: 
   
-- [Планирование звонков в Skype для бизнеса Server 2015](../../plan-your-deployment/conferencing/conferencing.md)
+- [Планирование для конференций в Skype для бизнеса Server 2015 г.](../../plan-your-deployment/conferencing/conferencing.md)
     
 
