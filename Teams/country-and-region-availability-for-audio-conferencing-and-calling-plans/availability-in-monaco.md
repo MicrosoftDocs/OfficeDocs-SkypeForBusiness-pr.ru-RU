@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже ются Microsoft 365 и Office 365 службы Skype для бизнеса и Microsoft Teams для Монако.
-ms.openlocfilehash: 296c737908da4f726fd036b9b4a68fb45926b42a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Ниже находятся Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Монако.
+ms.openlocfilehash: 4b72c0482ea37de4b289595f23949becefc69abf6103bc97485da1ff19bef9d1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102465"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54331071"
 ---
 # <a name="availability-in-monaco"></a>Доступность в Монако
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже ются Microsoft 365 и Office 365 службы Skype для бизнеса и Microsoft Teams для Монако.
+Ниже находятся Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Монако.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 

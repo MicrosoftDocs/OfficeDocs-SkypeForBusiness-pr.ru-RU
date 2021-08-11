@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e95f938e-4dd2-48b8-95a3-05b4c63d4810
 description: Для архивации сеансов мгновенных сообщений и веб-конференций (собрания) необходимо указать общий файловый ресурс, который будет использоваться в качестве хранилища копий всего контента веб-конференций. В качестве хранилища файлов архива можно использовать существующий общий файловый ресурс. Кроме того, можно добавить новый общий файловый ресурс, указав полное доменное имя файлового сервера, на котором расположен общий файловый ресурс, и имя папки для нового общего файлового ресурса.
-ms.openlocfilehash: bd904a746cad5765fafa42d8bff6ea0611311a32
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 99330997216ae9b36429cef59ef7dadfd7fe991a36924f62c23d7f4feeae3bbc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119858"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54302583"
 ---
 # <a name="add-archiving-server-file-store"></a>Добавление файлового хранилища сервера архивации
 
@@ -29,4 +29,4 @@ ms.locfileid: "51119858"
 > [!IMPORTANT]
 > Вы можете определить общий файловый ресурс в построителе топологий перед его созданием, однако вам следует поместить этот ресурс в расположение, заданное до публикации топологии. > При добавлении серверов архива в топологию, topology Builder должен иметь возможность настроить хранилище файлов архива и настроить дискреционные списки управления доступом (DACLs) в файле, который будет использоваться для хранения файлов. При запуске построителя топологии для публикации новой топологии необходимо войти в систему с использованием учетной записи с полными правами на управление (чтение/запись/изменение) для общего файлового ресурса.
 
-Подробные сведения о поддержке хранения [](/previous-versions/office/lync-server-2013/lync-server-2013-file-storage-support) для файловых акций см. в документации по поддержке хранения файлов и [SQL Server](/previous-versions/office/lync-server-2013/lync-server-2013-sql-server-data-and-log-file-placement) и размещении файлов журнала в документации развертывания. Дополнительные сведения о выровненном размещении общего файлового ресурса см. в разделе [Supported Server Collocation](/previous-versions/office/lync-server-2013/lync-server-2013-supported-server-collocation) в документации по поддержке.
+Подробные сведения о поддержке хранения для файловых акций [см.](/previous-versions/office/lync-server-2013/lync-server-2013-file-storage-support) в служба хранилища в документации по поддержке и [SQL Server](/previous-versions/office/lync-server-2013/lync-server-2013-sql-server-data-and-log-file-placement) и размещении файлов журнала в документации развертывания. Дополнительные сведения о выровненном размещении общего файлового ресурса см. в разделе [Supported Server Collocation](/previous-versions/office/lync-server-2013/lync-server-2013-supported-server-collocation) в документации по поддержке.

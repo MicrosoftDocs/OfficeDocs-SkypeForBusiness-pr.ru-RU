@@ -20,14 +20,14 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 78282b464dd1d9cb25c5d4d2b338c74a2c91d374
-ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
+ms.openlocfilehash: 719f97e72f099edb4d14c22ef9d5a3de0f787ea7411f42f1d777ea842bcc4e27
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52855928"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54339647"
 ---
-# <a name="turn-off-inline-message-translation-in-microsoft-teams"></a>Отключение перевода в текстовом сообщении в Microsoft Teams
+# <a name="turn-off-inline-message-translation-in-microsoft-teams"></a>Отключение перевода в текстовом сообщении Microsoft Teams
 
 Перевод в текстовом сообщении Microsoft Teams, который позволяет пользователям переводить сообщения Teams на язык, заданный их личными языковыми настройками. [](https://support.office.com/article/translate-a-message-in-teams-d8926ce9-d6a6-47df-a416-f1adb62d3194)
 
@@ -47,4 +47,4 @@ ms.locfileid: "52855928"
 В центре **администрирования** Microsoft Teams выберите  Политики сообщений в области навигации слева, затем создайте новую  политику или отредактируете существующую политику и установите для параметра Перевод сообщений параметр **Выключить**.
 
 > [!NOTE]
-> Служба переводит его и передает клиенту, не влияя на содержимое, записанное в записях соответствия требованиям. Дополнительные информацию о переводе см. в этой [Переводчик?](/azure/cognitive-services/translator/translator-info-overview)
+> Служба переводит его и передает клиенту, не влияя на содержимое, записанное в записях соответствия требованиям. Дополнительные информацию о переводе см. в [Переводчик Майкрософт?](/azure/cognitive-services/translator/translator-info-overview)

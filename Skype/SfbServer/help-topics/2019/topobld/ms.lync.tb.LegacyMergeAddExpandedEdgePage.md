@@ -14,16 +14,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 324349df-ff11-40b5-93cf-4504e18b8985
 ROBOTS: NOINDEX, NOFOLLOW
-description: Skype для бизнеса Server не поддерживает объединение устаревшей конфигурации расширенного сервера Office Communications Server 2007 R2. Расширенный пограничный сервер должен быть преобразован в консолидированную конфигурацию пограничного сервера перед объединением данных пограничного сервера.
-ms.openlocfilehash: f246f3edd9f59f1f72c7145ced6dc97fc222d258
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Skype для бизнеса Server не поддерживает объединение устаревшей конфигурации Office communications Server 2007 R2. Расширенный пограничный сервер должен быть преобразован в консолидированную конфигурацию пограничного сервера перед объединением данных пограничного сервера.
+ms.openlocfilehash: 34589e439fb2f6e31ea99cd047dd28e7e3c13aed229c4c511d6553c160907532
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49833479"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54285189"
 ---
 # <a name="legacy-merge-add-expanded-edge"></a>Добавление пограничного сервера расширенной конфигурации при объединении с устаревшей версией
  
-Skype для бизнеса Server не поддерживает объединение устаревшей конфигурации расширенного сервера Office Communications Server 2007 R2. Расширенный пограничный сервер должен быть преобразован в консолидированную конфигурацию пограничного сервера перед объединением данных пограничного сервера. 
+Skype для бизнеса Server не поддерживает объединение устаревшей конфигурации Office communications Server 2007 R2. Расширенный пограничный сервер должен быть преобразован в консолидированную конфигурацию пограничного сервера перед объединением данных пограничного сервера. 
   
 

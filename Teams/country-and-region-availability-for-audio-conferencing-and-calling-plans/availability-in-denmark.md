@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже ются Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Дания.
-ms.openlocfilehash: 51bfd797eef5383133f30b8a718cc191a6314d97
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Ниже ются Microsoft 365 и Office 365 службы Skype для бизнеса и Microsoft Teams для Дания.
+ms.openlocfilehash: 9e7e73c439ec971762c71399ad899afea7f3fc371485af84a3886f5b02fc562c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118198"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54278168"
 ---
 # <a name="availability-in-denmark"></a>Доступность в Дании
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже ются Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Дания.
+Ниже ются Microsoft 365 и Office 365 службы Skype для бизнеса и Microsoft Teams для Дания.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 
@@ -84,6 +84,6 @@ ms.locfileid: "51118198"
   
 ## <a name="related-topics"></a>Статьи по теме
 
-[Получение номеров телефонов служб](../getting-service-phone-numbers.md)
+[Получение служебных номеров телефонов](../getting-service-phone-numbers.md)
 
-[Доступность аудиоконференций и планов звонков в различных странах и регионах](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+[Доступность аудиоконференций и тарифных планов в различных странах и регионах](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

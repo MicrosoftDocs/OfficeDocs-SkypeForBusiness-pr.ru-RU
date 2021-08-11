@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ce6764ce-c88f-4050-895e-d1d886106972
 description: Используйте диалоговое окно Выбор автосекретаря единой системы обмена сообщениями Exchange для выбора автосекретаря единой системы обмена сообщениями Exchange, который будет обрабатывать входящие звонки для диапазона неназначенных номеров.
-ms.openlocfilehash: 668e0fe6158c6767d0176536f621cbdae20a0000
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: a5477c3abfbc1ac3c1117d6f45900a083f3be020d398e9ae4bbbfbd9bf905f57
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49821919"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54302643"
 ---
 # <a name="select-exchange-um-auto-attendant"></a>Выбор автосекретаря единой системы обмена сообщениями Exchange
  

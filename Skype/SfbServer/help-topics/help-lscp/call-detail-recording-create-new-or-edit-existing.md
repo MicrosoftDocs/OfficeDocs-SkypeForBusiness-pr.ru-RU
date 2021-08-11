@@ -1,5 +1,5 @@
 ---
-title: Создание новой или редактирование существующей регистрации вызовов
+title: Запись детализации вызовов Создание новых или изменение существующих
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,20 +15,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d0e9b4d0-7110-4a29-b5e5-0e116ea6fa9c
 description: Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
-ms.openlocfilehash: 5941bef38515732ff6f7fbe4678e3bb190060822
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: c0b005fe011c4de85a7fd4623aee8330b5ade6488c5e2b3a2616ad0c09095abc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49829529"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54302743"
 ---
 # <a name="call-detail-recording-create-new-or-edit-existing"></a>Запись сведений о звонке: создание новой или редактирование существующей
  
 Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
   
-- [Включить регистрацию вызовов в Skype для бизнеса Server 2015](../../manage/health-and-monitoring/enable-cdr.md)
+- [Включить запись подробных вызовов в Skype для бизнеса Server 2015 г.](../../manage/health-and-monitoring/enable-cdr.md)
     
-- [Указание хранения данных CDR в Skype для бизнеса Server 2015](../../manage/health-and-monitoring/specify-retention-of-data.md)
+- [Укажите хранение данных CDR в Skype для бизнеса Server 2015 г.](../../manage/health-and-monitoring/specify-retention-of-data.md)
     
-For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).
+Сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнеса Server, см. в Skype для бизнеса Server [2015](../../manage/manage.md)г.
 

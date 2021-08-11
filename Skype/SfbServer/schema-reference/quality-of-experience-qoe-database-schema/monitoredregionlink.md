@@ -13,20 +13,20 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: cebda194-7be3-42d6-b6f0-c86f8b0f200a
 description: Таблица MonitoredRegionLink является вспомогательной. Каждая запись представляет одно соединение между странами/регионами.
-ms.openlocfilehash: f30ba249f89a2247e0e03c71fc97f05e69c59bcd
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 991cc3b6ce2f442ad13c350d2e37cc7c9d592d40d16da51932975a4907040569
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49806349"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54321631"
 ---
 # <a name="monitoredregionlink-table"></a>Таблица MonitoredRegionLink
  
 Таблица MonitoredRegionLink является вспомогательной. Каждая запись представляет одно соединение между странами/регионами.
   
-|**Столбец**|**Тип данных**|**Ключ/индекс**|**Details**|
+|**Column**|**Тип данных**|**Key/Index**|**Сведения**|
 |:-----|:-----|:-----|:-----|
-|**Region1Key** <br/> |int  <br/> |Основной, Внешний  <br/> |Ссылка из [таблицы Region](region.md).  <br/> |
-|**Region2Key** <br/> |int  <br/> |Основной, Внешний  <br/> |Ссылка из [таблицы Region](region.md).  <br/> |
+|**Region1Key** <br/> |int  <br/> |Основной, Внешний  <br/> |Ссылки из [таблицы Регион](region.md).  <br/> |
+|**Region2Key** <br/> |int  <br/> |Основной, Внешний  <br/> |Ссылки из [таблицы Регион](region.md).  <br/> |
    
 

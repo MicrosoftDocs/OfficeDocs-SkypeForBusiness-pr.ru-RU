@@ -15,23 +15,23 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8780aaad-1318-4e7a-945c-5e1863761034
 description: Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
-ms.openlocfilehash: 0cc69437379255dc0a3337da4c749ae744840277
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 7db7ce2a911a7b8e483f456ba854310de3b33597b1574f6bfa3867098b8bdbab
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122493"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54302593"
 ---
 # <a name="users-view-or-configure-dial-plan"></a>Пользователи: просмотр или настройка абонентской группы
 
 Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
 
-- [Создание или изменение набора номера в Skype для бизнеса Server 2015](../../deploy/deploy-enterprise-voice/dial-plans.md)
+- [Создание или изменение набора номера в Skype для бизнеса Server 2015 г.](../../deploy/deploy-enterprise-voice/dial-plans.md)
 
 - [Изменение абонентской группы](/previous-versions/office/lync-server-2013/lync-server-2013-modify-a-dial-plan)
 
-- [Создание или изменение правила нормализации в Skype для бизнеса 2015](../../deploy/deploy-enterprise-voice/normalization-rules.md)
+- [Создание или изменение правила нормализации в Skype для бизнеса 2015 г.](../../deploy/deploy-enterprise-voice/normalization-rules.md)
 
 - [Создание или изменение правила нормализации вручную](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-a-normalization-rule-manually)
 
-Сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнес-серверов, см. в материале Управление Skype для бизнеса [Server 2015.](../../manage/manage.md)
+Сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнеса Server, см. в Skype для бизнеса Server [2015](../../manage/manage.md)г.

@@ -14,16 +14,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d4f22de3-d825-495e-9e85-99a75b8a20e3
 ROBOTS: NOINDEX, NOFOLLOW
-description: Во внешнем IPv4 введите внешний IP-адрес, который указывает на побереговую службу доступа, поехавную службу веб-служб и службу A/V Edge.
-ms.openlocfilehash: 077bb5f949bb36ed8290cfb13767c18103e63144
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: В external IPv4 введите внешний IP-адрес, который указывает на службу Access Edge, службу edge веб-конференций и службу A/V Edge.
+ms.openlocfilehash: cc96425deef69103b45bd21ea0e2f7b990a813bcba292438fd4b730d2234413a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49835949"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54294316"
 ---
 # <a name="add-edge-server-external-ipv4"></a>Добавление внешнего адреса IPv4 пограничного сервера
  
-Во **внешнем IPv4** введите внешний IP-адрес, который указывает на службу доступа, по краям веб-служб и службу A/V Edge.
+В **external IPv4** введите внешний IP-адрес, который указывает на службу Access Edge, службу edge веб-конференций и службу A/V Edge.
   
 
