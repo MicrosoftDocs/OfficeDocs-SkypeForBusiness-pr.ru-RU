@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: b7fcf1b4-7a3f-4585-a6d9-95e7f030c7dc
 description: Таблица tblChat содержит все сообщения чата.
-ms.openlocfilehash: b375c8c5dcd626a02f59aa9a916d3ca883e4767d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 2e764fa9ca64089a7015885bb4d33dc466d7dc214532e698505a19d2cf1a0d4a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809899"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54329423"
 ---
 # <a name="tblchat"></a>tblChat
  
@@ -33,10 +33,10 @@ ms.locfileid: "49809899"
 |chatDate  <br/> |bigint, not null  <br/> |Метка времени для сообщения чата.  <br/> |
 |userId  <br/> |int, not null  <br/> |ИД участника, отправителя сообщения.  <br/> |
 |isAlert  <br/> |bit, not null  <br/> |True, если сообщение является оповещением. В противном случае — False.  <br/> |
-|содержимое  <br/> |nvarchar (max), not null  <br/> | Содержимое чата (версия обычного текста). Обычно содержимое представлено в виде обычного текста за следующими исключениями: <br/>  Файлы, представленные в виде ссылок ma-filelink:. <br/>  Ссылки, представленные в виде элементов HTML (однако тип содержимого не может рассматриваться HTML). <br/>  Истории кодируются в формате "[STORY]....". <br/> |
-|rtf  <br/> |varchar(max)  <br/> |Содержимое чата (версия RTF). Может иметь null, если клиент не предоставляет его.  <br/> |
+|содержимое  <br/> |nvarchar (max), not null  <br/> | Содержимое чата (версия обычного текста). Обычно содержимое представлено в виде обычного текста за следующими исключениями: <br/>  Файлы, представленные в виде ссылок ma-filelink:. <br/>  Ссылки, представленные в виде элементов HTML (однако тип содержимого не может рассматриваться HTML). <br/>  Истории закодированы в формате "[STORY]....". <br/> |
+|RTF  <br/> |varchar (max)  <br/> |Содержимое чата (версия RTF). Может быть Null, если клиент не предоставляет его.  <br/> |
    
-**Раздел**
+**Ключ**
 
 |**Столбец**|**Описание**|
 |:-----|:-----|

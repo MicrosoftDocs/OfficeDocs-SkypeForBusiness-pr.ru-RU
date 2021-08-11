@@ -13,18 +13,18 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 391490cb-d7b8-44ca-b4d1-429600da909c
 description: В таблице AppSharingStream содержатся показатели качества взаимодействия для сетевых потоков, используемых для общего доступа к приложениям. Эта таблица была представлена в Microsoft Lync Server 2013.
-ms.openlocfilehash: d95e0d78175f8e17363dc558d82cafefba36ce28
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 68f43e9d783cd0f30d89bf9f4f13c0fe5329bbf3755e6b2c3eba897b86ead6c5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120881"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54329354"
 ---
 # <a name="appsharingstream-table"></a>Таблица AppSharingStream
  
 В таблице AppSharingStream содержатся показатели качества взаимодействия для сетевых потоков, используемых для общего доступа к приложениям. Эта таблица была представлена в Microsoft Lync Server 2013.
   
-|**Столбец**|**Тип данных**|**Key/Index**|**Details**|
+|**Column**|**Тип данных**|**Key/Index**|**Сведения**|
 |:-----|:-----|:-----|:-----|
 |**ConferenceDateTime** <br/> |dateTime  <br/> |Основной, внешний  <br/> |Дата и время начала сеанса.  <br/> |
 |**SessionSeq** <br/> |int  <br/> |Основной, внешний  <br/> |Порядковый идентификатор, используемый для используется для проведения различия между сеансами, которые начались в один и тот же день и в одно и то же время.  <br/> |
@@ -124,5 +124,5 @@ ms.locfileid: "51120881"
 |**AverageRectangleHeight** <br/> |int  <br/> ||Средняя высота разрешения видео в пикселах.  <br/> |
 |**AverageRectangleWidth** <br/> |int  <br/> ||Средняя ширина разрешения видео в пикселах.  <br/> |
 |**Входящий** <br/> |bit  <br/> ||Средняя частота кадров (в кадрах в секунду) для передачи входящих.  <br/> |
-|**Исходящие** <br/> |bit  <br/> ||Средняя частота кадров (в кадрах в секунду) для передачи исходящих пакетов.  <br/> |
+|**Исходящий** <br/> |bit  <br/> ||Средняя частота кадров (в кадрах в секунду) для передачи исходящих пакетов.  <br/> |
 |**SenderIsCallerPAI** <br/> |bit  <br/> ||1 означает направление потока от вызывающего абонента вызываемому абоненту.  <br/> 0 означает направление потока от вызываемого абонента вызывающему абоненту.  <br/> |

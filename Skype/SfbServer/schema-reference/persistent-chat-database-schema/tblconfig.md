@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 7445e7db-c574-46fa-b964-8640d77047a8
-description: tblConfig содержит неподдерживаемую конфигурацию сервера сохраняемой беседы в одной строке.
-ms.openlocfilehash: 614e4e6514d695777c39a9d76482f775bd1a0981
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: tblConfig содержит неподдерживаемую конфигурацию сохраняемой конфигурации chat Server в одной строке.
+ms.openlocfilehash: 0e9cc0a0c4686432032591aa0c380b303fc5251a56a6c983a1e10b009e0eb28a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809739"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54278357"
 ---
 # <a name="tblconfig"></a>tblConfig
  
-tblConfig содержит неподдерживаемую конфигурацию сервера сохраняемой беседы в одной строке.
+tblConfig содержит неподдерживаемую конфигурацию сохраняемой конфигурации chat Server в одной строке.
   
 **Columns**
 
@@ -32,7 +32,7 @@ tblConfig содержит неподдерживаемую конфигурац
 |configContent  <br/> |nvarchar (max)  <br/> |Содержимое конфигурации.  <br/> |
 |configPoolID  <br/> |GUID, не равно null  <br/> |Уникальный идентификатор экземпляра базы данных.  <br/> |
    
-**Раздел**
+**Ключ**
 
 |**Столбец**|**Описание**|
 |:-----|:-----|

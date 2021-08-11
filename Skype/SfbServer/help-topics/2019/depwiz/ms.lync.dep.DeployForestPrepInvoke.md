@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 18bab895-6cb1-4c07-a88d-ad0aed67293a
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'На странице Выполнение команд отображается сводка задач по мере их выполнения. Просмотрите сводку и убедитесь, что задачи успешно завершены и нет ошибок. Просмотрите предупреждения и убедитесь, что среди них нет неожиданных. На панели сводки должна отображаться надпись Состояние задачи: Завершено. Файл журнала Подготовка леса должен быть виден в раскрывающемся списке. Выберите файл журнала и нажмите кнопку Просмотреть журнал для просмотра подробных сведений о действиях и результатах выполнения задач. Нажмите кнопку Готово, чтобы завершить подготовку леса.'
-ms.openlocfilehash: 49e1cb3b3fdd5cf0c32fc48bbb4c4abc7b4318f2
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 879e2b12a5e7c1d61fd8820ce6dd743f4cdcc0a810b1a75c7119c7c7aad95090
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49825129"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54337089"
 ---
 # <a name="prepare-current-forrest-invoke"></a>Подготовка текущего леса (вызов)
  

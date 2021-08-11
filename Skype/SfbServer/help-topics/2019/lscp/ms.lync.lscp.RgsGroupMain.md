@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: b8bd4c3f-3d32-42b2-9712-2d0f159577d8
 ROBOTS: NOINDEX, NOFOLLOW
 description: Группы ответа состоят из агентов, очередей и рабочих процессов. Группа агентов — это группа людей, назначенных для ответа на вызовы группы ответов.
-ms.openlocfilehash: 74f7114894e76981003faf4a0e9167a03df02302
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 9a3d6abc058924ac9e96600b0dc290ef149192b6664de4b6e9da1c19d66ad337
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118818"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54311947"
 ---
 # <a name="response-groups-group"></a>Группы ответа: группа
 
@@ -56,4 +56,4 @@ ms.locfileid: "51118818"
 
 - **Описание** Описание группы агентов.
 
-Подробные сведения о возможностях и возможностях группы реагирования см. в документации По планированию для группы ответов в [Skype для](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) бизнеса Server. Дополнительные сведения о работе с группами агентов см. в разделе [Managing Agent Groups](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-agent-groups) документации по использованию.
+Сведения о возможностях и возможностях группы реагирования см. в приложении [Plan for the Response Group Skype для бизнеса Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) документации по планированию. Дополнительные сведения о работе с группами агентов см. в разделе [Managing Agent Groups](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-agent-groups) документации по использованию.

@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: Перемещение пользователей до вывода из эксплуатации Skype для бизнеса локальной среды.
-ms.openlocfilehash: bc98ebfcfb7ad4d4b2c64942b5f84500a98cdc84
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: 44092460fa1db0664fe95b12cc99f3488544dc0ad049d75d56074e6bf0873c60
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53510720"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54292367"
 ---
 # <a name="move-required-users-before-decommissioning-your-on-premises-environment"></a>Перемещение необходимых пользователей до вывода из эксплуатации локальной среды
 
@@ -36,7 +36,7 @@ ms.locfileid: "53510720"
 
 - Этап 3. [Перенос конечных точек](decommission-move-on-prem-endpoints.md)гибридных приложений из локального в онлайн. Следует помнить, что существующие конечные точки гибридного приложения не будут обнаружены между временем выполнения шага 2 выше, пока вы не завершите этот шаг. Вы должны планировать оба шага 2 и 3 в одном окне обслуживания.
 
-- Этап 4. [Удалите локальное развертывание Skype для бизнеса.](decommission-remove-on-prem.md)
+- Этап 4. [Удалите локальное развертывание Skype для бизнеса.](decommission-remove-on-prem.md)
 
 
 ## <a name="move-all-required-users-from-on-premises-to-the-cloud"></a>Перемещение всех необходимых пользователей из локального в облако

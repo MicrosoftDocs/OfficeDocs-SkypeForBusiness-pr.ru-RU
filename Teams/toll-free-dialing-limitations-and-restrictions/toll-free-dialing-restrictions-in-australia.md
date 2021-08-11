@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: Узнайте о наборе бесплатных номеров в Австралии, в том числе о доступности, доступности проводных и фиксированных номеров, а также об ограничениях для мобильной сети.
-ms.openlocfilehash: e33bf97747b220eb847ee1141a4cf55415cdd6e9
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 8fd69301cac8a2889800488c5147111400f829bae5fb870fc602609c30e7e2f8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51111015"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54300815"
 ---
 # <a name="toll-free-dialing-restrictions-in-australia"></a>Ограничения на бесплатный набор номеров в Австралии
 

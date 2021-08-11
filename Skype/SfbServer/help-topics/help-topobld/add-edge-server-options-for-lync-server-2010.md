@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0b059af5-e83f-4564-90b2-d7ebb9e551c2
 description: Вы определяете новый пул Edge Server или Edge и имеете возможность определить возможности для нового сервера или пула. Доступные для выбора параметры приведены ниже.
-ms.openlocfilehash: dfc8238bbbe4899f9819118a11fc11ba47fe21f3
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: c258f87ac3edb38ad72d536b8ccfb2f2870d5d9e09cda65b417e49ba2c87707f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119808"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54320461"
 ---
 # <a name="add-edge-server-options-for-lync-server-2010"></a>Добавление параметров пограничных серверов для Lync Server 2010
 

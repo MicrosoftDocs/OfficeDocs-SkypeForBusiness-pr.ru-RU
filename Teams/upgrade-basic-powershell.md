@@ -20,19 +20,19 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ef164ee5d93cb5491923ef3b319ae51134924cc2
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: bd4c3cab1795ffcffe1cfd3ed1229f19e3ec80a243497ab13790e009878f9f35
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120548"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54300755"
 ---
 # <a name="upgrading-your-users-from-skype-for-business-online-to-microsoft-teams"></a>Обновление пользователей с Skype для бизнеса Online до Microsoft Teams
 
 > [!Note]
 > Команды, описанные в этой статье, предназначены для использования в контрольном списке [Обновить](./upgrade-start-here.md) базовую.
 
-При технической миграции необходимо уведомить пользователей о том, Skype для бизнеса будут обновлены до Teams, а затем будут перемещены **в Teams** режим. Эти действия можно выполнить в Skype для бизнеса удаленного Windows PowerShell или через центр Microsoft Teams администрирования.
+При технической миграции необходимо уведомить пользователей о том, Skype для бизнеса будет обновлен до Teams а затем перенавести их в **Teams** режим. Эти действия можно выполнить в Skype для бизнеса удаленного Windows PowerShell или через Центр Microsoft Teams администрирования.
 
 Мы активно развертываем средства обновления в Центре администрирования Microsoft Teams [,](manage-teams-skypeforbusiness-admin-center.md)и они должны быть доступны в ближайшее время в вашем клиенте. Как только она станет доступна, вы сможете найти сведения о переносе пользователей в настройках сосуществования и [обновления.](./setting-your-coexistence-and-upgrade-settings.md)
 

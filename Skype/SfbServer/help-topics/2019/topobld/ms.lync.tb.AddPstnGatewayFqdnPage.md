@@ -15,18 +15,18 @@ localization_priority: Normal
 ms.assetid: c6135e2a-5d44-4046-bd53-fac4fdf52238
 ROBOTS: NOINDEX, NOFOLLOW
 description: Вы указываете полное доменное имя (FQDN) шлюза открытой телефонной сети (PSTN), который соединит ваши Корпоративная голосовая связь компоненты с PSTN или частным филиалом (PBX).
-ms.openlocfilehash: fb9fc10c9fca8235bea20bffb5e5fab090afaf69
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 8c85168d14a4e095c690e846a8bf720d4dd9f8c5c3d666d71e2a6e8ce01ea6cc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116437"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54337079"
 ---
 # <a name="define-the-pstn-gateway-fqdn"></a>Определение полного доменного имени шлюза ТСОП
 
 Вы указываете полное доменное имя (FQDN) шлюза открытой телефонной сети (PSTN), который соединит ваши Корпоративная голосовая связь компоненты с PSTN или частным филиалом (PBX).
 
-Подробные сведения см. в материале Компоненты подключения [к PSTN в Skype для бизнеса Server](../../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity.md)
+Подробные сведения см. в [Skype для бизнеса Server](../../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity.md)
 
 ## <a name="see-also"></a>См. также
 

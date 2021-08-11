@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 319fdc9f-7ed6-4ed3-8f3f-b78758a0eb42
 ROBOTS: NOINDEX, NOFOLLOW
 description: Адреса IPv4 или IPv6 для шлюза IP-телефонии или ТСОП можно определить, выбрав параметр Включить IPv4 или Включить IPv6. Можно выбрать параметр Использовать все настроенные IP-адреса или Ограничить использование службы выбранными IP-адресами.
-ms.openlocfilehash: 6b21d2cb3d117c41654e1245bdfb80ad1ae93e8e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: dc202ad8be1b83eaeaf13b51dee80870fd1de5108eace1c71ed95e3fba1e4408
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116427"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54337069"
 ---
 # <a name="define-the-ip-address-of-the-ip-or-pstn-gateway"></a>Определение IP-адреса шлюза IP или ТСОП
 

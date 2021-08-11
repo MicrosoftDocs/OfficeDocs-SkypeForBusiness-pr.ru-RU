@@ -1,5 +1,5 @@
 ---
-title: Enable or disable archiving in Skype for Business Server
+title: Включить или отключить архивировать в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,14 +12,14 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: d5aed328-e89d-4a7b-b603-15ae5c33c5dd
 description: Сводка. Узнайте, как включить или отключить архивировать в Skype для бизнеса Server.
-ms.openlocfilehash: 6d8f6f24bd4b10f7d33a00e218a494d6e8a823d1
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 83ed391ed482d3bd744e963e1589726729a52b6e3f1c65a776b213a809eabed4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49817599"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54283381"
 ---
-# <a name="enable-or-disable-archiving-in-skype-for-business-server"></a>Enable or disable archiving in Skype for Business Server
+# <a name="enable-or-disable-archiving-in-skype-for-business-server"></a>Включить или отключить архивировать в Skype для бизнеса Server
 
 **Сводка:** Узнайте, как включить или отключить архивировать в Skype для бизнеса Server.
   
@@ -27,9 +27,9 @@ ms.locfileid: "49817599"
 
 1. Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи пользователя, назначенной роли CsArchivingAdministrator или CsAdministrator. 
     
-2. Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Skype для бизнеса Server. 
+2. Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель Skype для бизнеса Server управления. 
     
-3. В левой панели навигации щелкните **"Мониторинг** и архивация" и выберите **"Конфигурация архивации".**
+3. В левой панели навигации щелкните Мониторинг и **архивация,** а затем щелкните **конфигурацию архивации.**
     
 4. В списке конфигураций архивации выберите глобальную конфигурацию, конфигурацию на уровне сайта или пула, щелкните **Edit** (Изменить), щелкните **Show details** (Показать сведения) и затем выполните следующие действия:
     
@@ -37,13 +37,13 @@ ms.locfileid: "49817599"
     
    - Чтобы включить архивацию сеансов обмена мгновенными сообщениями и конференций, щелкните **Archive IM and conferencing sessions** (Архивировать сеансы обмена мгновенными сообщениями и конференций).
     
-   - Чтобы отключить архивацию для конфигурации, щелкните **"Отключить архивацию".**
+   - Чтобы отключить архивацию для конфигурации, нажмите **кнопку Отключение архивации**.
     
 5. Щелкните **Исполнить**.
     
 ## <a name="enable-or-disable-archiving-by-using-windows-powershell"></a>Включить или отключить архивировать с помощью Windows PowerShell
 
-Вы также можете включить или отключить архивацию с помощью **cmdlet Set-CsArchivingConfiguration.** Например, следующая команда изменяет все параметры конфигурации архивации, чтобы архивироваться только сеансы im. Команда вызывает командлет **Get-CsArchivingConfiguration** без параметров, чтобы получить все параметры конфигурации архивации, которые в настоящее время используются в организации. Затем эта коллекция передается в cmdlet **Where-Object,** который выбирает только те параметры, у которых свойство EnableArchiving равно (-eq) "ImAndWebConf". Затем отфильтровав коллекцию, она передается в cmdlet **Set-CsArchivingConfiguration,** который принимает каждый элемент в коллекции и изменяет значение EnableArchiving на "ImOnly":
+Вы также можете включить или отключить архивацию с помощью **комлета Set-CsArchivingConfiguration.** Например, следующая команда изменяет все параметры конфигурации архивации, чтобы архивировать только сеансы чата. Команда вызывает **командлет Get-CsArchivingConfiguration** без параметров, чтобы вернуть все параметры конфигурации архивации, которые в настоящее время используются в организации. Затем эта коллекция передается в cmdlet **Where-Object,** который выбирает только те параметры, в которых свойство EnableArchiving равно (-eq) "ImAndWebConf". Затем фильтруемая коллекция передается в **cmdlet Set-CsArchivingConfiguration,** который принимает каждый элемент в коллекции и изменяет значение EnableArchiving на "ImOnly":
   
 ```PowerShell
 Get-CsArchivingConfiguration | Where-Object {$_.EnableArchiving -eq "ImAndWebConf"} | Set-CsArchivingConfiguration -EnableArchiving "ImOnly"
