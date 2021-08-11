@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: e3775bd6-682c-4f62-aafc-974fe3a65c61
-description: Экспортирует конфигурацию Skype для бизнеса Cloud Connector Edition в локальный файл на сервере хост-сервера Skype для бизнеса Cloud Connector Edition.
-ms.openlocfilehash: cd0745081e3f069aaf58c9ffdbf24494bfb3ece1
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Экспортирует конфигурацию Skype для бизнеса Cloud Connector Edition в локальный файл на Skype для бизнеса Cloud Connector Edition сервере.
+ms.openlocfilehash: f34f8454dfc3129be50b26114f71fdeee4a4b633f66ca9f80dc621c51c5af6ad
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41801469"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54288847"
 ---
 # <a name="export-ccconfiguration"></a>Export-CcConfiguration
  
-Экспортирует конфигурацию Skype для бизнеса Cloud Connector Edition в локальный файл на сервере хост-сервера Skype для бизнеса Cloud Connector Edition.
+Экспортирует конфигурацию Skype для бизнеса Cloud Connector Edition в локальный файл на Skype для бизнеса Cloud Connector Edition сервере.
   
 ```powershell
 Export-CcConfiguration [-Path] <String> [<CommonParameters>]
@@ -31,9 +31,9 @@ Export-CcConfiguration [-Path] <String> [<CommonParameters>]
 ## <a name="examples"></a>Примеры
 <a name="Examples"> </a>
 
-### <a name="example-1"></a>Пример 1
+### <a name="example-1"></a>Пример 1
 
-В следующем примере параметр Path устанавливается как полный путь к файлу и экспортируются конфигурации в этот файл.
+В следующем примере параметр Path определяется как полный путь к файлу и экспортирует конфигурации в этот файл.
   
 ```powershell
 Export-CcConfiguration -Path "C:\test\CloudConnector.ini" 
@@ -42,19 +42,19 @@ Export-CcConfiguration -Path "C:\test\CloudConnector.ini"
 ## <a name="detailed-description"></a>Подробное описание
 <a name="Examples"> </a>
 
-Этот Export-CcConfiguration позволяет сохранить конфигурацию Cloud Connector в файл по выбранному пути. Эта команда была представлена в Cloud Connector Edition версии 2.0.
+Этот Export-CcConfiguration позволяет сохранить конфигурацию облачного соединителя в файл на выбранном пути. Эта команда была представлена в версии 2.0 Cloud Connector Edition.
   
 ## <a name="parameters"></a>Параметры
 <a name="Examples"> </a>
 
 |**Параметр**|**Required**|**Тип**|**Описание**|
 |:-----|:-----|:-----|:-----|
-|Path  <br/> |Обязательный  <br/> |System.String  <br/> |Полный путь к файлу, в котором будут храниться конфигурации Cloud Connector.  <br/> |
+|Path  <br/> |Обязательный  <br/> |System.String  <br/> |Полный путь к файлу, в котором будут храниться конфигурации облачного соединитела.  <br/> |
    
 ## <a name="input-types"></a>Типы входных данных
 <a name="Examples"> </a>
 
-Нет. Этот Export-CcConfiguration не принимает конвейерные входные данные.
+Нет. В Export-CcConfiguration не принимается конвейерный ввод.
   
 ## <a name="return-types"></a>Типы возвращаемых данных
 <a name="Examples"> </a>

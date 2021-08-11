@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 66124a70-67e8-4bda-9da5-8ab13afccf49
 description: Вы можете использовать раздел надстройки страницы "Постоянный чат", чтобы связать URL-адреса со стойкими комнатами чата. Эти URL-адреса отображаются в клиенте в комнате чата в области разностойности беседы. Администратор должен добавить надстройки в список зарегистрированных надстройок, а администраторы и создатели чата должны связать комнаты с одной из зарегистрированных надстройок, прежде чем пользователи смогут увидеть это обновление в своем клиенте.
-ms.openlocfilehash: c90383a26c658e8da73df09368a5d8fe04cfe69b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 179d3728deb11b16ac60d98f1c3815b43502e4047f01ab70ea046cf6f66baa99
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51099505"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54278807"
 ---
 # <a name="persistent-chat-add-in"></a>Надстройка сохраняемого чата
 
@@ -28,13 +28,13 @@ ms.locfileid: "51099505"
 
 Надстройки используются для расширения функций комнаты чата. Типичная надстройка может включать URL-адрес приложения Silverlight, который перехватывает при размещении тикера акций в комнате чата и отображает историю запасов в области простота. К другим примерам относится внедрение URL-адреса OneNote 2013 в комнату чата в виде надстройки для предоставления общего контекста, например темы дня.
 
-Чтобы создать надстройки для постоянных чатов, см. в рубке Настройка надстройок для постоянных чатов [в Skype для бизнеса Server 2015.](../../manage/persistent-chat/configure-add-ins.md) Если вы постоянный администратор чата, вы можете создавать надстройки с помощью панели управления или Windows PowerShell.
+Чтобы создать надстройки для постоянных комнат чата, см. в руб. Настройка надстройок для постоянных чатов в [Skype для бизнеса Server 2015 г.](../../manage/persistent-chat/configure-add-ins.md) Если вы постоянный администратор чата, вы можете создавать надстройки с помощью панели управления или Windows PowerShell.
 
 ## <a name="tasks-that-you-can-perform"></a>Задачи, которые вы можете выполнить
 
 На странице **Надстройка** можно выполнить следующие задачи:
 
-- [Настройка надстройок для постоянных чатов в Skype для бизнеса Server 2015](../../manage/persistent-chat/configure-add-ins.md)
+- [Настройка надстройок для постоянных чатов в Skype для бизнеса Server 2015 г.](../../manage/persistent-chat/configure-add-ins.md)
 
 ## <a name="to-configure-add-ins-for-chat-rooms"></a>Настройка надстроек для комнат чата
 
@@ -42,7 +42,7 @@ ms.locfileid: "51099505"
 
 1. Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи пользователя, назначенной роли CsPersistentChatAdministrator или CsAdministrator.
 
-2. В меню **"Пуск"** выберите панель управления Skype для бизнес-серверов или откройте окно браузера, а затем введите URL-адрес администратора. Сведения о различных методах, которые можно использовать для запуска панели управления, см. в материале [Open Lync Server Administrative Tools.](/previous-versions/office/lync-server-2013/lync-server-2013-open-lync-server-administrative-tools)
+2. В меню **Пуск** выберите панель управления Skype для бизнеса Server или откройте окно браузера, а затем введите URL-адрес администратора. Сведения о различных методах, которые можно использовать для запуска панели управления, см. в материале [Open Lync Server Administrative Tools.](/previous-versions/office/lync-server-2013/lync-server-2013-open-lync-server-administrative-tools)
 
 3. В левой панели навигации щелкните **Сохраняемый чат** и выберите пункт **Надстройка**.
 
@@ -62,4 +62,4 @@ ms.locfileid: "51099505"
 
 ## <a name="see-also"></a>См. также
 
-Дополнительные сведения о настойчивых возможностях и возможностях чат-сервера см. в материале Plan [for Persistent Chat Server in Skype for Business Server 2015,](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)Deploy Persistent Chat Server in Skype for Business Server 2015 и [Manage Persistent Chat Server in Skype for Business Server 2015.](../../manage/persistent-chat/persistent-chat.md) [](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md)
+Дополнительные сведения о настойчивых возможностях и возможностях сервера чата см. в материале Plan [for Persistent Chat Server в Skype для бизнеса Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)г., Развертывание серверов сохраняемого чата в Skype для бизнеса Server [2015](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md)г. и управление стойким сервером чата в [Skype для бизнеса Server 2015](../../manage/persistent-chat/persistent-chat.md)г. .

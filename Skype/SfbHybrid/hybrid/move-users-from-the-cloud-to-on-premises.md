@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: Узнайте, как перемещать пользователей из Teams в локальное.
-ms.openlocfilehash: 782fd16fb4ad5c8567600ffcf781410a4532c213
-ms.sourcegitcommit: d0fb9035903d9e1ce184417250913db10608b1a9
+ms.openlocfilehash: 0ecfc5ab89fc8ed1e9f0a9c0d7dbc854049e3424bc6f689a329af31cde443850
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53660717"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54310298"
 ---
 # <a name="move-users-from-the-cloud-to-on-premises"></a>Перемещение пользователей из облака в локальное 
 
@@ -34,7 +34,7 @@ ms.locfileid: "53660717"
 > [!Important]
 > Если пользователь ранее был в режиме TeamsOnly, и вы используете более раную версию, чем Skype для бизнеса Server 2015 с CU8, необходимо также удалить назначение режима TeamsOnly TeamsUpgradePolicy для этого пользователя. Локальное пользователи не должны иметь mode= TeamsOnly.  Последующие версии Skype для бизнеса Server автоматически удаляют это назначение. Дополнительные сведения см. [в материале Grant-CsTeamsUpgradePolicy.](/powershell/module/skype/grant-csteamsupgradepolicy)
 
-## <a name="prerequisites"></a>Предварительные условия
+## <a name="prerequisites"></a>Необходимые условия
 
 - Организация должна иметь службу Azure AD Подключение и синхронизировать все соответствующие атрибуты для пользователя, как описано в [настройках Azure AD Подключение.](configure-azure-ad-connect.md)
 - Пользователь, перемещаемый из сети в локальное, должен уже существовать в локальном Active Directory.

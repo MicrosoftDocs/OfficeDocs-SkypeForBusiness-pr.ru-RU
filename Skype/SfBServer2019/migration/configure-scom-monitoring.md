@@ -10,35 +10,35 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: После перехода на Microsoft Skype для бизнеса Server 2019 необходимо выполнить несколько задач, чтобы настроить Skype для бизнеса Server 2019 для работы с System Center Operations Manager.
-ms.openlocfilehash: ef40890cb3ac01d8223c4b9a9cd0c4712e544376
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+description: После перехода в Microsoft Skype для бизнеса Server 2019 г. необходимо выполнить несколько задач, чтобы настроить Skype для бизнеса Server 2019 г. для работы с System Center Operations Manager.
+ms.openlocfilehash: 477fbd3c405328ffac4aa70a722120d375e95b295bf5a23d19882248d1ece54e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44754049"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54279617"
 ---
 # <a name="configure-scom-monitoring"></a>Настройка мониторинга SCOM
 
-После перехода на Skype для бизнеса Server 2019 необходимо выполнить несколько задач, чтобы настроить Skype для бизнеса Server 2019 для работы с System Center Operations Manager.
+После переноса Skype для бизнеса Server 2019 г. необходимо выполнить несколько задач, чтобы настроить Skype для бизнеса Server 2019 г. для работы с System Center Operations Manager.
   
-- Применение обновлений к серверу, который выбран для управления логикой центрального обнаружения.
+- Применение обновлений к серверу, избранному для управления центральной логикой обнаружения.
     
 - Обновите раздел реестра потенциального сервера централизованного обнаружения.
     
-- Настройте основной сервер управления System Center Operations Manager для переопределения кандидата центрального узла обнаружения.
+- Настройка основного сервера System Center диспетчера операций для переопределения центрального узла обнаружения кандидата.
     
 Инструкции по выполнению каждой задачи приведены ниже.
   
-### <a name="apply-updates-to-a-server-elected-to-manage-the-central-discovery-logic"></a>Применение обновлений к серверу, который выбран для управления логикой центрального обнаружения.
+### <a name="apply-updates-to-a-server-elected-to-manage-the-central-discovery-logic"></a>Применение обновлений к серверу, избранному для управления центральной логикой обнаружения.
 
 1. Выберите сервер, на котором установлены файлы агента System Center Operations Manager и который настроен как потенциальный узел обнаружения. 
     
-2. Применение обновлений к этому серверу. См. раздел ["Применение обновлений".](apply-updates.md)
+2. Применение обновлений на этом сервере. См. в разделе [Применение обновлений](apply-updates.md).
     
 ### <a name="update-the-central-discovery-candidate-server-registry-key"></a>Обновите раздел реестра потенциального сервера централизованного обнаружения.
 
-1. На сервере, который выбран для управления логикой центрального обнаружения, откройте Windows PowerShell командной окне. 
+1. На сервере, избранном для управления центральной логикой обнаружения, откройте окно Windows PowerShell команды. 
     
 2. В командной строке введите следующую команду:
     
@@ -53,16 +53,16 @@ ms.locfileid: "44754049"
     > [!NOTE]
     > При редактировании реестра может возникнуть ошибка выполнения команды, если раздел реестра уже существует. Эту ошибку можно игнорировать. 
   
-### <a name="configure-your-primary-system-center-operations-manager-management-server-to-override-the-candidate-central-discovery-watcher-node"></a>Настройте основной сервер управления System Center Operations Manager для переопределения узла-кандидата центрального узла-контрольщика обнаружения.
+### <a name="configure-your-primary-system-center-operations-manager-management-server-to-override-the-candidate-central-discovery-watcher-node"></a>Настройте основной сервер System Center диспетчера операций, чтобы переопредить узел центрального узла просмотра обнаружения кандидатов.
 
 1. На компьютере с установленной консолью System Center Operations Manager разверните **Объекты пакета управления** и выберите **Обнаружение объектов**.
     
-2. Щелкните **"Изменить область"**
+2. Щелкните **Область изменения**
     
 3. на странице **Ориентация объектов пакета управления** выберите **LS Discovery Candidate**.
     
 4. Переопределите **Эффективное значение LS Discovery Candidate**, указав имя сервера, выбранного ранее. 
     
-Чтобы донести изменения, перезапустите службу здравоохранения на корневом сервере управления System Center Operations Manager.
+Чтобы доумножать изменения, перезапустите службу здравоохранения на сервере корневого управления System Center operations Manager.
   
 

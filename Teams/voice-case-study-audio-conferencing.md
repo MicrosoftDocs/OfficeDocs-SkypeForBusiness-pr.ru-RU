@@ -1,5 +1,5 @@
 ---
-title: 'Teams аудиоконференцию Contoso: пример: аудиоконференция'
+title: 'Teams голосовой функции Contoso: аудиоконференция'
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -16,14 +16,14 @@ f1.keywords:
 description: 'Teams для многоязычной корпорации: аудиоконференция'
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e9f4dd4781a8ea6a60528aaa3e4b208efc1a8f5e
-ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
+ms.openlocfilehash: f25fa2e81244365d1c0c3dfcacf918f1b35a6fa71d2b619eaaa55c8aa219c310
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/26/2021
-ms.locfileid: "53587308"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54335799"
 ---
-# <a name="contoso-case-study-audio-conferencing"></a>Пример работы с Contoso: аудиоконференция
+# <a name="contoso-case-study-audio-conferencing"></a>Пример: аудиоконференция Contoso
 
 Чтобы понять, что это такое аудиоконференция, что это за затраты, доступность и как работает аудиоконференция, рассмотренная в &mdash; &mdash; Contoso в Office 365. [](deploy-audio-conferencing-teams-landing-page.md) 
 
@@ -44,11 +44,11 @@ ms.locfileid: "53587308"
 
 Телефон, связанные с аудиоконференцией, называются номерами служб в телефонная система. 
 
-- Для местоположений, использующих планы звонков, для переноса существующих номеров телефонов от своего оператора Office 365, Компания Contoso, как было последовано за действиями в области Получение номеров телефонов [службы.](getting-service-phone-numbers.md)
+- Для местоположений, использующих планы звонков, для переноса существующих номеров телефонов от оператора Office 365, Компания Contoso, как и при получении номеров телефонов службы, придерживается [действий.](getting-service-phone-numbers.md)
 
 - Чтобы назначить лицензию на аудиоконференцию конечному пользователю в техническом пилотном проекте, администратор Contoso, как и администратор Contoso, должен будет управлять настройками аудиоконференций для вашей [организации.](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md) 
 
-- Для бизнес-пилотного проекта и миграции компания Contoso использовала групповое лицензирование, следуя шагам из процедуры Назначение лицензий пользователям по признаку участия в [группах Azure Active Directory.](/azure/active-directory/users-groups-roles/licensing-groups-assign)  
+- Для бизнес-пилотного проекта и миграции компания Contoso использовала групповое лицензирование, вы воспользовавшись действиями, которые можно найти в группе Назначение лицензий пользователям по признаку участия в [Azure Active Directory.](/azure/active-directory/users-groups-roles/licensing-groups-assign)  
 
  
 

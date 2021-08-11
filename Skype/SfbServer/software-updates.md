@@ -12,46 +12,46 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
-description: Поиск обновлений для Skype для бизнеса Server или Lync 2013 и управление ими. Воспользуйтесь ссылками, чтобы получить дополнительные сведения, а затем скачать обновления.
-ms.openlocfilehash: 9a3b2cb94c74e5f33a3643f3490a1d09014f4175
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Поиск и управление обновлениями Skype для бизнеса Server Lync 2013. Используйте ссылки, чтобы получить дополнительные сведения, а затем скачать обновления.
+ms.openlocfilehash: 7358bf9c35ca516de84ca81ab91564946e13a754d6816c8e6378ccb9cf85d3c0
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49806289"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54279855"
 ---
 # <a name="skype-for-business-downloads-and-updates"></a>Загрузки и обновления Skype для бизнеса
 
-_Веб-страница загрузки_ и обновления Skype для бизнеса, которая ранее была на сайте Technet, больше не установлена. Контент был реорганизованы на клиентские и серверные страницы. Следуйте указанным здесь ссылкам на нужный контент:
+_Веб Skype для бизнеса загрузки_ и обновления веб-страницы, которая когда-то была на Technet, была отменена. Содержимое было реорганизовано на клиентские и серверные страницы. Следуйте этим ссылкам на необходимое содержимое:
 
-- [Обновления для клиентов Skype для бизнеса,](sfb-client-updates.md) которые содержат разделы:
-    - [Обновления клиентов Skype для бизнеса 2016](sfb-client-updates.md#skype-for-business-2016-client-updates)
-    - [Обновления клиентов Skype для бизнеса 2015](sfb-client-updates.md#skype-for-business-2015-client-updates)
-    - [Обновления клиентов Skype для бизнеса на Mac](sfb-client-updates.md)
+- [Обновления для Skype для бизнеса,](sfb-client-updates.md) которые содержат разделы:
+    - [Skype для бизнеса обновления клиентов за 2016 г.](sfb-client-updates.md#skype-for-business-2016-client-updates)
+    - [Skype для бизнеса обновления клиентов за 2015 г.](sfb-client-updates.md#skype-for-business-2015-client-updates)
+    - [Skype для бизнеса обновления клиентов Mac](sfb-client-updates.md)
     - [Обновления клиентов Lync 2013](sfb-client-updates.md)
-        - [Обновления Lync Phone Edition](sfb-client-updates.md#lync-phone-edition-updates)
-        - [Клиенты Lync Phone Edition в Центре загрузки](sfb-client-updates.md#lync-phone-edition-clients-on-download-center)
+        - [Обновления Lync Телефон Edition](sfb-client-updates.md#lync-phone-edition-updates)
+        - [Клиенты Lync Телефон Edition в Центре загрузки](sfb-client-updates.md#lync-phone-edition-clients-on-download-center)
         - [Пробное программное обеспечение Lync Basic 2013](sfb-client-updates.md)
     - [Обновления клиентов Lync для Mac 2011](sfb-client-updates.md#lync-for-mac-2011-client-updates)
     - [Обновления клиентов Lync 2010](sfb-client-updates.md#lync-2010-client-updates)
-        - [Обновления Lync 2010 Attendant](sfb-client-updates.md#lync-2010-attendant-updates)
-        - [Обновления Lync 2010 Attendee](sfb-client-updates.md#lync-2010-attendee-updates)
+        - [Lync 2010 Attendant обновления](sfb-client-updates.md#lync-2010-attendant-updates)
+        - [Обновления участников Lync 2010](sfb-client-updates.md#lync-2010-attendee-updates)
 
-- [Обновления Skype для бизнеса Server,](sfb-server-updates.md) которые содержат разделы:
-    - [История обновлений Skype для бизнеса Server 2019](sfb-server-updates.md#skype-for-business-server-2019-update-history)
-    - [История обновлений Skype для бизнеса Server 2015](sfb-server-updates.md#skype-for-business-server-2015-update-history)
-    - [История обновлений Lync Server 2013](sfb-server-updates.md#lync-server-2013-update-history)
-        - [Средства для разработчиков Lync Server 2013](sfb-server-updates.md#lync-server-2013-dev-tools)
+- [Skype для бизнеса Server обновления,](sfb-server-updates.md) которые содержат разделы:
+    - [Skype для бизнеса Server обновления 2019 г.](sfb-server-updates.md#skype-for-business-server-2019-update-history)
+    - [Skype для бизнеса Server обновления 2015 г.](sfb-server-updates.md#skype-for-business-server-2015-update-history)
+    - [История обновления Lync Server 2013](sfb-server-updates.md#lync-server-2013-update-history)
+        - [Средства разработчиков Lync Server 2013](sfb-server-updates.md#lync-server-2013-dev-tools)
         - [Предварительно настроенные VHD](sfb-server-updates.md#pre-configured-vhds)
-        - [Средства Lync 2013](sfb-server-updates.md#lync-2013-tools)
-        - [Загружаемая документация по Lync 2013](sfb-server-updates.md#lync-2013-downloadable-documentation)
-    - [История обновлений Lync Server 2010](sfb-server-updates.md#lync-server-2010-update-history)
+        - [Инструменты Lync 2013](sfb-server-updates.md#lync-2013-tools)
+        - [Загружаемая документация Lync 2013](sfb-server-updates.md#lync-2013-downloadable-documentation)
+    - [История обновления Lync Server 2010](sfb-server-updates.md#lync-server-2010-update-history)
         - [Обновления группового чата 2010](sfb-server-updates.md#group-chat-2010-updates)
-        - [Средства разработчика Lync 2010](sfb-server-updates.md#lync-2010-dev-tools)
-        - [Средства Lync 2010](sfb-server-updates.md#lync-2010-tools)
-        - [Загружаемая документация по Lync 2010](sfb-server-updates.md#lync-2010-downloadable-documentation)
-        - [Набор ресурсов (технический справочник)](sfb-server-updates.md#resource-kit-technical-reference)
-        - [Group Chat](sfb-server-updates.md#group-chat)
+        - [Средства разработчиков Lync 2010](sfb-server-updates.md#lync-2010-dev-tools)
+        - [Инструменты Lync 2010](sfb-server-updates.md#lync-2010-tools)
+        - [Загружаемая документация Lync 2010](sfb-server-updates.md#lync-2010-downloadable-documentation)
+        - [Набор ресурсов (техническая справка)](sfb-server-updates.md#resource-kit-technical-reference)
+        - [Групповой чат](sfb-server-updates.md#group-chat)
         - [Пробное программное обеспечение](sfb-server-updates.md#trial-software)
     - [Дополнительные сведения](sfb-server-updates.md#additional-information)
     - [Связанные темы](sfb-server-updates.md#related-topics)

@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9056c9b81fcda9c0e7408c63b4af00c1aabbffd0
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.openlocfilehash: 0b3cea712fee971ce441e5406bc32c1304c4a53374baf290046945595d3bea1f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50460589"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54335809"
 ---
 # <a name="manage-voice-and-calling-policies-in-microsoft-teams"></a>Управление политиками голосовой и голосовой Microsoft Teams
 
@@ -28,13 +28,13 @@ ms.locfileid: "50460589"
 
 ## <a name="emergency-calling-policies"></a>Политики экстренных вызовов
 
-Политики [экстренных вызовов](manage-emergency-calling-policies.md) используются для настройки того, что происходит, когда пользователь в вашей организации звонит. Управление этими политиками можно Teams центре администрирования или с помощью Windows PowerShell.
+Политики [экстренных вызовов](manage-emergency-calling-policies.md) используются для настройки того, что происходит при звонке пользователем в организации. Управление этими политиками можно Teams центре администрирования или с помощью Windows PowerShell.
 
-![Снимок экрана: политика экстренных вызовов.](media/emergency-calling-policy2.png)
+![Снимок экрана: политика для экстренных вызовов.](media/emergency-calling-policy2.png)
 
 ## <a name="emergency-call-routing-policies"></a>Политики маршрутизов экстренных вызовов
 
-Если в вашей организации развернута прямая **маршрут телефонная система,** [](manage-emergency-call-routing-policies.md) вы можете использовать политики маршрутизации экстренных вызовов, чтобы определить, куда перенаправят экстренные вызовы, включены ли улучшенные экстренные службы и какие номера используются для экстренных служб. Управлять этими политиками можно с помощью PowerShell или Microsoft Teams центре администрирования.
+Если в вашей организации развернута прямая **маршрут телефонная система**, [](manage-emergency-call-routing-policies.md) вы можете использовать политики маршрутизации экстренных вызовов, чтобы определить, куда перенаправят экстренные вызовы, включены ли расширенные экстренные службы и какие номера используются для экстренных служб. Управлять этими политиками можно с помощью PowerShell или Microsoft Teams центре администрирования.
 
 ![Снимок экрана: политика маршрутизов экстренных вызовов.](media/emergency-call-routing-policy.png)
 
@@ -42,7 +42,7 @@ ms.locfileid: "50460589"
 
 [Для изменения или блокировки](caller-id-policies.md) ИД вызываемой вызываемой вызовы применяются политики.
 
-![Снимок экрана: политика ИД вызываемого звоня.](media/caller-id-policy.png)
+![Снимок экрана: политика "ИД звоняка".](media/caller-id-policy.png)
 
 ## <a name="voice-routing-policies"></a>Политики маршрутов голосовой маршрутии
 
@@ -64,7 +64,7 @@ ms.locfileid: "50460589"
 
 ## <a name="create-and-manage-dial-plans"></a>Создание и использование абонентских групп
 
-[В планах набора](create-and-manage-dial-plans.md) можно переводить номера телефонов для авторизации звонков и маршрутизации. Вы можете создавать наборные группы и управлять ими с помощью PowerShell или Microsoft Teams центре администрирования.
+[В наборах можно](create-and-manage-dial-plans.md) переводить номера телефонов для авторизации звонков и маршрутизации. Вы можете создавать наборные группы и управлять ими с помощью PowerShell или Microsoft Teams центре администрирования.
 
 ![Снимок экрана: план набора номера.](media/dial-plans.png)
 
@@ -73,7 +73,7 @@ ms.locfileid: "50460589"
 * [Управление политиками экстренных вызовов в Microsoft Teams](manage-emergency-calling-policies.md)
 * [Управление политиками маршрутизации экстренных вызовов](manage-emergency-call-routing-policies.md)
 * [Управление политиками идентификации вызывающего абонента в Microsoft Teams](caller-id-policies.md)
-* [Управление политиками перенаправки голосовой почты](manage-voice-routing-policies.md)
+* [Управление политиками маршрутинга голосовой почты](manage-voice-routing-policies.md)
 * [Политики звонков в Microsoft Teams](teams-calling-policy.md)
 * [Парковка и восстановление звонков в Microsoft Teams](call-park-and-retrieve.md)
 * [Создание и использование абонентских групп](create-and-manage-dial-plans.md)

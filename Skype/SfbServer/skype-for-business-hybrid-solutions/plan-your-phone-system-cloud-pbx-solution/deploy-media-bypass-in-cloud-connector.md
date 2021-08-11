@@ -16,17 +16,17 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0ebba3a4-6124-434c-84aa-32b1cc3345bc
 description: Ознакомьтесь с этой темой, чтобы узнать о шагах по развертыванию обхода мультимедиа в версии 2.0 и более поздней версии Cloud Connector Edition.
-ms.openlocfilehash: c9dc79a3079fd27e8901d31abf1a27310d18ed28
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 6ce46df02295810367556e735897cd9ce912b4c7e8aa15f6db5ffb66d38d4574
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119368"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54289437"
 ---
 # <a name="deploy-media-bypass-in-cloud-connector-edition"></a>Развертывание обхода мультимедиа в cloud Connector Edition
  
 > [!Important]
-> Cloud Connector Edition завершит карьеру 31 июля 2021 г. вместе со Skype для бизнеса Online. После обновления организации до Teams узнайте, как подключить сеть локальной телефонии к Teams с помощью прямой [маршрутизации.](/MicrosoftTeams/direct-routing-landing-page)
+> Cloud Connector Edition завершится 31 июля 2021 г. вместе с Skype для бизнеса Online. После обновления организации Teams, узнайте, как подключить локальной телефонной сети к Teams с помощью прямой [маршрутизации](/MicrosoftTeams/direct-routing-landing-page).
 
 Ознакомьтесь с этой темой, чтобы узнать о шагах по развертыванию обхода мультимедиа в версии 2.0 и более поздней версии Cloud Connector Edition. 
   
@@ -38,7 +38,7 @@ ms.locfileid: "51119368"
   
 Администратор клиента должен настроить запись DNS A во внутреннем производстве Active Directory. Если у вас сложная многосайтовая среда, см. пример в примере: записи DNS-записей веб-сайта обхода мультимедиа в сложных [многосайтных средах.](deploy-media-bypass-in-cloud-connector.md#Example) Запись DNS должна разрешаться только для внутренних сетевых клиентов; она не должна разрешаться для внешних сетевых клиентов.
   
-После настройки DNS подключите Skype для бизнеса Online с помощью удаленной powerShell с учетными данными Администратора Skype для бизнеса. Дополнительные сведения см. в [Windows PowerShell.](../../../SfbOnline/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
+После настройки DNS подключите Skype для бизнеса Online с помощью удаленной powerShell с Skype для бизнеса администратора. Дополнительные сведения см. [в дополнительных сведениях о настройках](../../../SfbOnline/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md) компьютера для Windows PowerShell.
   
 В сеансе PowerShell введите следующие команды, чтобы включить обход мультимедиа:
   
@@ -69,7 +69,7 @@ Get-CsNetworkConfiguration -LocalStore
 Get-CsNetworkConfiguration -LocalStore
 ```
 
-Чтобы проверить параметры клиента, выпишитесь из клиента Skype для бизнеса, впишитесь и убедитесь, что клиент получил URL-адрес службы следующим образом:
+Чтобы проверить параметры клиента, выпишитесь из Skype для бизнеса, впишитесь и убедитесь, что клиент получил URL-адрес службы следующим образом:
   
 1. Откройте %appdatalocal%\Microsoft\Office\16.0\Lync\Tracing\Lync-UccApi-0.UccApilog. 
     
@@ -118,11 +118,11 @@ Set-CsNetworkConfiguration -MediaBypassSettings $mediabypass
 ## <a name="example-media-bypass-web-site-dns-records-in-complex-multi-site-environments"></a>Пример: записи DNS веб-сайта обхода мультимедиа в сложных многосайтных средах
 <a name="Example"> </a>
 
-Клиенты получат веб-адрес веб-службы обхода мультимедиа с внутреннего DNS-сервера. Имя веб-службы будет одинаковым во всех устройствах cloud Connector и сайтах PSTN облачного соединитетеля. В сложной среде с несколькими сайтами рекомендуется использовать политику DNS Windows 2016 для управления трафиком на основе Geo-Location, чтобы клиенты могли быть перенаправлены в локализованную для их сети веб-службу. 
+Клиенты получат веб-адрес веб-службы обхода мультимедиа с внутреннего DNS-сервера. Имя веб-службы будет одинаковым во всех устройствах cloud Connector и сайтах PSTN облачного соединитетеля. В сложной среде с несколькими сайтами рекомендуется использовать политику DNS 2016 Windows 2016 для управления трафиком на основе Geo-Location, чтобы клиенты могли быть перенаправлены на локализованную для их сети веб-службу. 
   
-Дополнительные сведения о DNS-политиках Windows 2016 см. в этой ссылке: Использование политики DNS для управления трафиком на основе Geo-Location с [первичными серверами.](/windows-server/networking/dns/deploy/primary-geo-location)
+Дополнительные сведения о политике DNS 2016 Windows 2016 г. см. в Geo-Location DNS Policy for Geo-Location управления трафиком [с первичными серверами.](/windows-server/networking/dns/deploy/primary-geo-location)
   
-Ниже приводится пример конфигурации для компании с несколькими сайтами с использованием политики DNS Windows 2016 для управления Geo-Location трафика.
+Ниже приводится пример конфигурации для компании с несколькими сайтами с Windows политики DNS 2016 Geo-Location управления трафиком.
   
 Имя службы обхода — "hybridvoice.adatum.biz".
   

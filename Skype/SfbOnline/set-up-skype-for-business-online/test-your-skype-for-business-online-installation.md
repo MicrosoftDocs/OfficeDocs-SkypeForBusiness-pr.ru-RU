@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 'Learn to save time, support calls and increase satisfaction by setting up test accounts and computers, and testing dial-in conferencing, online features such as person-to-person calls, conferencing, and sign in and out. '
-ms.openlocfilehash: 378fe1ad980de5c28c9175cf7e1e918b580c257a
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 5afc5ec98e12ac0a30e6bf7974e17b1cb4552e90322a894407decbde4c94ca17
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52239520"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54310148"
 ---
 # <a name="test-your-skype-for-business-online-installation"></a>Тестирование установки Skype для бизнеса Online
 
@@ -53,7 +53,7 @@ ms.locfileid: "52239520"
 ## <a name="set-up-test-accounts"></a>Настройка тестовых учетных записей
 <a name="__toc328126910"> </a>
 
-1. Перейдите **в Microsoft 365** или Office 365 пользователей и групп , а затем выберите добавить Добавить и  >     >   ![ ](../images/328ffb57-5f31-430a-b653-4a6b8e76d338.png) введите необходимые сведения.
+1. Перейдите **в Microsoft 365** или Office 365 пользователи и группы , а затем выберите добавить Добавить и  >     >   ![ ](../images/328ffb57-5f31-430a-b653-4a6b8e76d338.png) введите необходимые сведения.
 
 2. На шаге 4 (электронная почта) укажите собственный адрес электронной почты. Таким образом, у вас будет запись, состоящая из нового имени пользователя и пароля.
 

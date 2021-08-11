@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - ms.lync.lac.NumberActivationStateIncomplete
 description: Проверка адреса является важной частью настройки планов звонков. Она предоставляет пользователю организации адрес для экстренного реагирования, который могутжет использоваться соответствующими экстренные службыами.
-ms.openlocfilehash: 39f63f670685acff79163299ce9cd1a7858821da
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: c3ab63ce08eebdcc88b44edc5447d7b2dad0ac412f9320de595f0bb783226317
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237905"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54279517"
 ---
 # <a name="why-is-number-activation-listed-as-incomplete"></a>Почему активация номера отображается как незавершенная?
 
@@ -44,7 +44,7 @@ ms.locfileid: "52237905"
 
 ## <a name="for-organizations-with-more-than-150-users-create-a-service-request-to-validate-an-emergency-address"></a>Если в вашей организации больше 150 пользователей, создайте запрос на обслуживание для проверки адреса экстренного реагирования
 
-1. Войте в качестве администратора, чтобы Microsoft 365 или Office 365 с помощью своей учебной или учебной учетной записи.
+1. Во sign in as an administrator to Microsoft 365 or Office 365 with your work or school account.
     
 2. В центре администрирования на левой области навигации **щелкните** Поддержка  >  **нового запроса на обслуживание**.
     
@@ -96,7 +96,7 @@ ms.locfileid: "52237905"
 8. Проверьте информацию и нажмите кнопку **Отправить запрос**.
     
 > [!TIP]
-> Номер ссылки будет указан на странице **Запросы на** обслуживание в Microsoft 365 администрирования.
+> Номер ссылки будет указан на странице **Запросы на** обслуживание в Центр администрирования Microsoft 365.
 
 > [!NOTE]
 > Если вам нужно больше номеров, [обратитесь в службу поддержки администраторов Skype для бизнеса](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).

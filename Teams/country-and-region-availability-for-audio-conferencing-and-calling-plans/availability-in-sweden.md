@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Ниже ются Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Швеции.
-ms.openlocfilehash: 4be5746cf2449ded9ffb80f633a407b3a0da2199
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 52fdebc33f561cfb8921dc1f1d0371997c856050c138b3f5fb97fb4fe97e5b7b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51104155"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54279756"
 ---
 # <a name="availability-in-sweden"></a>Доступность в Швеции
 
@@ -84,8 +84,8 @@ ms.locfileid: "51104155"
   
 ## <a name="related-topics"></a>Статьи по теме
 
-[Получение номеров телефонов служб](../getting-service-phone-numbers.md)
+[Получение служебных номеров телефонов](../getting-service-phone-numbers.md)
 
-[Доступность аудиоконференций и планов звонков в различных странах и регионах](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+[Доступность аудиоконференций и тарифных планов в различных странах и регионах](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
   

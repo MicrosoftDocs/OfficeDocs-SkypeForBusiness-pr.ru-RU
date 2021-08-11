@@ -16,17 +16,17 @@ ms.collection:
 ms.custom: ''
 ms.assetid: efbe25f2-faf5-41c7-8c95-dbc4a835a4a8
 description: Узнайте, как обновить развертывание Cloud Connector Edition.
-ms.openlocfilehash: fea78c6b1b6ba3b2e644fef71d78b94aa3a244b7
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 2670557f3f5ab44545c511b759971a457bd37e333d01b323ad6cc35d82526858
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51109135"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54279975"
 ---
 # <a name="upgrade-to-a-new-version-of-cloud-connector"></a>Обновление Cloud Connector
 
 > [!Important]
-> Cloud Connector Edition завершит карьеру 31 июля 2021 г. вместе со Skype для бизнеса Online. После обновления организации до Teams узнайте, как подключить сеть локальной телефонии к Teams с помощью прямой [маршрутизации.](/MicrosoftTeams/direct-routing-landing-page)
+> Cloud Connector Edition завершится 31 июля 2021 г. вместе с Skype для бизнеса Online. После обновления организации Teams, узнайте, как подключить локальной телефонной сети к Teams с помощью прямой [маршрутизации](/MicrosoftTeams/direct-routing-landing-page).
  
 Узнайте, как обновить развертывание Cloud Connector Edition.
   
@@ -54,11 +54,11 @@ ms.locfileid: "51109135"
     
   - Скачайте и проверьте файл версии с сайта загрузки.
     
-  - Скачайте новый файл msi версии. 
+  - Скачайте новый файл .msi версии. 
     
   - Удалить старый файл msi; установите новый файл msi.
     
-  - Скачайте новую версию битов Skype для бизнеса.
+  - Скачайте новую версию Skype для бизнеса битов.
     
   - Зарегистрируйте устройство, позвонив в Register-CcAppliance.
     
@@ -78,7 +78,7 @@ ms.locfileid: "51109135"
     
 2. Установите новую версию CloudConnector.msi [https://aka.ms/CloudConnectorInstaller](https://aka.ms/CloudConnectorInstaller) от .
     
-3. Подтвердите, что CloudConnector.ini для версии, которую вы устанавливаете, и что вы обновили все необходимые значения для среды. Вы не можете использовать файл .ini из предыдущего выпуска. Если вы обновляете облачный соединитель, [](prepare-your-cloud-connector-appliance.md) обратитесь к теме Подготовка устройства облачного соединители и убедитесь, что имя siteName и EnableReferSupport задайте правильное значение в CloudConnector.ini файле.
+3. Подтвердите, что CloudConnector.ini для версии, которую вы устанавливаете, и что вы обновили все необходимые значения для среды. Нельзя использовать файл .ini предыдущего выпуска. Если вы обновляете облачный соединитель, [](prepare-your-cloud-connector-appliance.md) обратитесь к теме Подготовка устройства облачного соединители и убедитесь, что имя siteName и EnableReferSupport задайте правильное значение в CloudConnector.ini файле.
     
 4. Запустите консоль PowerShell в качестве администратора и запустите следующий cmdlet для регистрации текущего устройства:
     
@@ -106,7 +106,7 @@ ms.locfileid: "51109135"
 
 Если на сайте имеется несколько устройств, выполните следующие действия по обновлению каждого устройства по одному.
   
-Если вы хотите обновить учетные данные администратора домена, администратора виртуальных машин, администратора безопасного режима и учетных данных администратора клиента, можно запустить этот код с параметром  _UpdateAllCredentials_ для сброса всех учетных данных:
+Если требуется обновить учетные данные администратора домена, администратора виртуальных машин, администратора Сейф режима и учетных данных администратора клиента, можно запустить этот комлет с параметром _UpdateAllCredentials,_ чтобы сбросить все учетные данные:
   
 ```powershell
 Install-CcAppliance -UpdateAllCredentials

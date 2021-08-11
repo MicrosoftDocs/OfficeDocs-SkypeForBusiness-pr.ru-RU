@@ -1,5 +1,5 @@
 ---
-title: Настройка базы данных расположений в Skype для бизнеса Server
+title: Настройка базы данных расположения в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,23 +15,23 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: fb84f5b6-c991-4893-bdbf-f195b4b7d28e
-description: Настройка, заполнение и публикация базы данных расположений E9-1-1 в Skype для бизнеса Server Корпоративная голосовая связь.
-ms.openlocfilehash: 70158864446c12b2e7636a2962aced05d87c49a0
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Настройка, заполнение и публикация базы данных расположения E9-1-1 в Skype для бизнеса Server Корпоративная голосовая связь.
+ms.openlocfilehash: 9e97c959af9dc88ff43fd93e734e21bae051583206be3dd89390dcae59c6ca0c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49804089"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54326605"
 ---
-# <a name="configure-the-location-database-in-skype-for-business-server"></a>Настройка базы данных расположений в Skype для бизнеса Server
+# <a name="configure-the-location-database-in-skype-for-business-server"></a>Настройка базы данных расположения в Skype для бизнеса Server
  
-Настройка, заполнение и публикация базы данных расположений E9-1-1 в Skype для бизнеса Server Корпоративная голосовая связь. 
+Настройка, заполнение и публикация базы данных расположения E9-1-1 в Skype для бизнеса Server Корпоративная голосовая связь. 
   
 Чтобы включить автоматическое определение клиентами своего местоположения в сети, сначала необходимо настроить базу данных местоположений. 
   
-Чтобы настроить базу данных расположений, выполните следующие задачи:
+Чтобы настроить базу данных расположения, выполните следующие задачи:
   
-- Заполните базу данных с сопоставлением сетевых элементов местоположениям. При использовании шлюза ELIN необходимо включить в поле номер \<CompanyName\> ELIN.
+- Заполните базу данных с сопоставлением сетевых элементов местоположениям. При использовании шлюза идентификации аварийного местоположения (ELIN) необходимо включить ELIN в \<CompanyName\> поле.
     
     Если вы не заполняете базу данных расположений, и для параметра **Location Required** (Требуется расположение) в политике расположения задано значение **Да** или **Заявление об отказе**, клиент будет предлагать пользователю ввести расположение вручную.
     
@@ -39,7 +39,7 @@ ms.locfileid: "49804089"
     
 - Опубликуйте обновленную базу данных.
     
-## <a name="populate-the-location-database"></a>Заполнение базы данных расположений
+## <a name="populate-the-location-database"></a>Заполнение базы данных расположения
 
 Чтобы автоматически определять расположение клиентов в сети, сначала требуется заполнить базу данных местоположений в карте географических соответствий, которая сопоставляет элементы сети с городскими адресами (например, улицей). Для определения карты географических соответствий вы можете использовать подсети, точки беспроводного доступа, коммутаторы и порты.
   
@@ -52,7 +52,7 @@ ms.locfileid: "49804089"
 |**Точка беспроводного доступа** <br/> |\<BSSID\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<PreDirectional\>,…  <br/> …\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\>  <br/> |
 |**Subnet** <br/> |\<Subnet\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<PreDirectional\>,…  <br/> …\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\>  <br/> |
 |**Port** <br/> |\<ChassisID\>,\<PortIDSubType\>,\<PortID\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,…  <br/> …\<PreDirectional\>,\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\>  <br/> |
-|**Переключатель** <br/> |\<ChassisID\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<PreDirectional\>,…  <br/> …\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\>  <br/> |
+|**Switch** <br/> |\<ChassisID\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<PreDirectional\>,…  <br/> …\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\>  <br/> |
    
 ### <a name="to-add-network-elements-to-the-location-database"></a>Добавление элементов сети в базу данных расположений
 
@@ -120,7 +120,7 @@ ms.locfileid: "49804089"
 
 ### <a name="to-validate-addresses-located-in-the-location-database"></a>Проверка адресов, хранящихся в базе данных местонахождения
 
-1.  Запустите оболочку управления Skype для бизнеса Server: нажмите кнопку "Начните", выберите "Все программы", "Skype для бизнеса **2015",** а затем щелкните "Skype для бизнеса Server Management **Shell".**
+1.  Запустите Skype для бизнеса Server: нажмите кнопку Начните, щелкните Все **программы,** нажмите кнопку Skype для бизнеса **2015,** а затем нажмите кнопку **Skype для бизнеса Server.**
     
 2. Чтобы настроить подключение к поставщику экстренной службы, выполните следующие командлеты.
     
@@ -137,15 +137,15 @@ ms.locfileid: "49804089"
 
    Кроме того, для проверки отдельных адресов вы можете использовать командлет **Test-CsLisCivicAddress**.
     
-## <a name="publish-the-location-database"></a>Публикация базы данных расположений
+## <a name="publish-the-location-database"></a>Публикация базы данных расположения
 
 Новые расположения, добавленные вами в базу данных местоположений, останутся недоступны клиенту, пока не будут опубликованы.
   
-Если вы используете шлюзы Emergency Location Identification Number (ELIN), необходимо также загрузить номера ELIN в базу данных Automatic Location Identification (ALI) сети PSTN. Оператор PSTN может потребовать использования определенного формата для записей ELIN. Обратитесь к оператору PSTN для получения более подробных сведений. Вы можете экспортировать записи из базы данных службы сведений о расположении и отформаировать их по мере необходимости.
+Если вы используете шлюзы Emergency Location Identification Number (ELIN), необходимо также загрузить номера ELIN в базу данных Automatic Location Identification (ALI) сети PSTN. Оператор PSTN может потребовать использования определенного формата для записей ELIN. Обратитесь к оператору PSTN для получения более подробных сведений. Вы можете экспортировать записи из базы данных службы сведений о расположении и форматировать их по мере необходимости.
   
 ### <a name="to-publish-the-location-database"></a>Публикация базы данных местоположений
 
--  Запустите оболочку управления Skype для бизнеса Server: нажмите кнопку "Начните", выберите "Все программы", "Skype для бизнеса **2015",** а затем щелкните "Skype для бизнеса Server Management **Shell".**
+-  Запустите Skype для бизнеса Server: нажмите кнопку Начните, щелкните Все **программы,** нажмите кнопку Skype для бизнеса **2015,** а затем нажмите кнопку **Skype для бизнеса Server.**
     
 - Чтобы опубликовать базу данных местоположений, выполните следующий командлет.
     

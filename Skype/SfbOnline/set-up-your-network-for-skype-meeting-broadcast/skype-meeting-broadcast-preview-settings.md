@@ -21,12 +21,12 @@ ms.custom:
 - SMB
 - ms.lync.lac.BroadcastMeetingsPreview
 description: Программа Skype для бизнеса предварительной версии клиента предоставляет ранний доступ к новым продуктам и функциям. Это позволяет вашей организации узнать о предстоящих выпусках, протестировать новые возможности в собственной среде и дать отзыв, прежде чем мы выпустим сборки продуктов для всех пользователей. Дополнительные информации см. в Skype для бизнеса предварительного просмотра.
-ms.openlocfilehash: d713e3225ed963beb1b201d515db558513020d39
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: b372fcdbe23ed5fcd663cf7af0a0d4aea1cd684277d670308daab120625d2238
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237505"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54298739"
 ---
 # <a name="skype-meeting-broadcast-preview-settings"></a>Skype Параметры предварительного просмотра трансляции собрания
 

@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Ниже ются Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Эль-Сальвадора.
-ms.openlocfilehash: 609439bd20fa894f6a2805712cbfeff1b12ab759
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 211a5db86d3ee7f5d9241a7028cd8992211428d1aafc3fe57aab7f9c9fced194
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118157"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54279766"
 ---
 # <a name="availability-in-el-salvador"></a>Доступность в Эль-Сальвадоре
 

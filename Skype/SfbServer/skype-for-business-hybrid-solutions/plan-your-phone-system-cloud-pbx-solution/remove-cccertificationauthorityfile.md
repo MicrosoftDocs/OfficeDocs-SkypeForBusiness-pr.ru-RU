@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 3600af8d-04de-4b9a-88ac-2491ca06494d
-description: Этот Remove-CcCertificationAuthorityFile удаляет файл резервной копии службы центра сертификации в папке ЦС в каталоге share сайта Skype для бизнеса Cloud Connector Edition.
-ms.openlocfilehash: 49a8f0f313b4153288ebdf037a41dc92f30e60d6
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Этот Remove-CcCertificationAuthorityFile удаляет файл резервного копирования службы сертификации в папке CA в каталоге веб-Skype для бизнеса Cloud Connector Edition.
+ms.openlocfilehash: aaff21023a63e8933235f4c462c1152339381ca0d9571ded57f6b43742679624
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824295"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54288780"
 ---
 # <a name="remove-cccertificationauthorityfile"></a>Remove-CcCertificationAuthorityFile
  
-The Remove-CcCertificationAuthorityFile cmdlet removes the certification authority service backup file " &lt; SiteRootDirectory &gt; \CA\SfB CCE Root.p12" in the CA folder under the site share directory for Skype for Business Cloud Connector Edition. 
+Этот Remove-CcCertificationAuthorityFile удаляет файл резервного копирования службы сертификации &lt; "SiteRootDirectory &gt; \CA\SfB CCE Root.p12" в папке ЦС в каталоге акций сайта для Skype для бизнеса Cloud Connector Edition. 
   
 ```powershell
 Remove-CcCertificationAuthorityFile
@@ -35,9 +35,9 @@ Remove-CcCertificationAuthorityFile
 ## <a name="examples"></a>Примеры
 <a name="Examples"> </a>
 
-### <a name="example-1"></a>Пример 1
+### <a name="example-1"></a>Пример 1
 
-В следующем примере удаляется файл резервной копии службы центра сертификации &lt; "SiteRootDirectory &gt; \CA\SfB CCE Root.p12" в папке ЦС в каталоге для совместной работы сайта:
+В следующем примере удаляет файл резервного копирования службы сертификации &lt; "SiteRootDirectory &gt; \CA\SfB CCE Root.p12" в папке ЦС в каталоге совместной работы сайта:
   
 ```powershell
 Remove-CcCertificationAuthorityFile
@@ -46,7 +46,7 @@ Remove-CcCertificationAuthorityFile
 ## <a name="input-types"></a>Типы входных данных
 <a name="InputTypes"> </a>
 
-Нет. Этот Remove-CcCertificationAuthorityFile не принимает конвейерные входные данные.
+Нет. В Remove-CcCertificationAuthorityFile не принимается конвейерный ввод.
   
 ## <a name="return-types"></a>Типы возвращаемых данных
 <a name="ReturnTypes"> </a>

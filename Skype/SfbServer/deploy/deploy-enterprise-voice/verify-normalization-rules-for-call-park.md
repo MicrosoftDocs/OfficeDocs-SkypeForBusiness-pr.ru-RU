@@ -1,5 +1,5 @@
 ---
-title: Проверка правил нормализации для парковки вызовов в Skype для бизнеса
+title: Проверка правил нормализации для call Park в Skype для бизнеса
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,24 +15,24 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: deaa170f-041e-45cb-8eab-f02931ab541e
-description: Узнайте о правилах нормализации для парковки вызовов в Skype для бизнеса Server Корпоративная голосовая связь.
-ms.openlocfilehash: d1bcd6817b1f59f73a8c4ef1562e90253a99bd30
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Узнайте о правилах нормализации для call Park в Skype для бизнеса Server Корпоративная голосовая связь.
+ms.openlocfilehash: 5c357a9ff9b2174ae414e1e4511cb7ebf267e19787091e19ce27f75f90b8a51e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49830579"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54298619"
 ---
-# <a name="verify-normalization-rules-for-call-park-in-skype-for-business"></a>Проверка правил нормализации для парковки вызовов в Skype для бизнеса
+# <a name="verify-normalization-rules-for-call-park-in-skype-for-business"></a>Проверка правил нормализации для call Park в Skype для бизнеса
  
-Узнайте о правилах нормализации для парковки вызовов в Skype для бизнеса Server Корпоративная голосовая связь.
+Узнайте о правилах нормализации для call Park в Skype для бизнеса Server Корпоративная голосовая связь.
   
-Орбиты парковки вызовов не должны быть нормализованы. Проверьте абонентские группы и убедитесь, что значения орбит не нормализованы. If you must create an additional normalization rule to prevent your orbits from being normalized, follow the procedure in [Create or modify a dial plan in Skype for Business Server](dial-plans.md) to define a new normalization rule, so that Pattern to **match** identifies the orbit range and **Translation pattern** is **$1**. Например, если диапазон орбит парковки вызовов составляет 7000–7999, шаблон для совпадения **^(7\d {3} )$** **и** шаблон перевода **$ 1**. 
+Орбиты Call Park не должны быть нормализованы. Проверьте абонентские группы и убедитесь, что значения орбит не нормализованы. Если необходимо создать дополнительное правило нормализации, чтобы не допустить нормализации орбит, выполните процедуру в Create or [modify a dial plan in Skype для бизнеса Server,](dial-plans.md) чтобы  определить новое правило нормализации, чтобы **шаблон,** чтобы соответствовать, определяет диапазон орбиты и шаблон перевода **составляет $1**. Например, если диапазон орбиты парка вызовов составляет от 7000 до 7999, шаблон  для совпадения является **^(7\d {3} )$** и шаблон перевода **$ 1**. 
   
 > [!IMPORTANT]
-> Убедитесь, что правило нормализации по умолчанию в ваших наборах не **содержит ^(\d \* ).** В противном случае правило нормализации парковки вызовов никогда не будет работать.
+> Убедитесь, что правило нормализации по умолчанию в планах набора не содержит **^(\d). \*** В противном случае правило нормализации call Park никогда не будет работать.
   
 ## <a name="see-also"></a>См. также
 
-[Создание или изменение телефонной плана в Skype для бизнеса Server](dial-plans.md)
+[Создание или изменение набора номера в Skype для бизнеса Server](dial-plans.md)
 

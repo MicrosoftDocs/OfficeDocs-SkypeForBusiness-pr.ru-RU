@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Администраторы управляют тем, как организаторы могут использовать бесплатные номера для их собраний.
-ms.openlocfilehash: 4fae54e3ed140ab876e6fadef10907e40f59057e
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: aabc72f5e413b8f760981b8fac364afc836be5ce058d5999e2c19f96109141b4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238514"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54310278"
 ---
 # <a name="disabling-toll-free-numbers-for-specific-skype-for-business-online-users"></a>Отключение бесплатных номеров для определенных пользователей Skype для бизнеса Online
 
@@ -51,7 +51,7 @@ ms.locfileid: "52238514"
 
 ## <a name="disabling-toll-free-numbers-for-specific-users"></a>Отключение бесплатных номеров для определенных пользователей 
 
-В Центре **Microsoft Teams администрирования:**
+В центре **Microsoft Teams администрирования:**
 
 1. В левой области навигации щелкните **Пользователи** и выберите пользователя из списка доступных пользователей.
 

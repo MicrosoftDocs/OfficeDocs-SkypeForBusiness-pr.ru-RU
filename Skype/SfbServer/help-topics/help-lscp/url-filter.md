@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2677dcba-92f6-432a-9e2f-f7ad72497e3c
 description: Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
-ms.openlocfilehash: 6c3535f6885bec00e353f5a58006290ef6cba6ef
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 728520920b51a9a9e9db3807bdafd625ee4111ecd04fe2042e28ecf2e5a5b760
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51115237"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54278757"
 ---
 # <a name="url-filter"></a>Фильтр URL-адресов
 
@@ -30,4 +30,4 @@ ms.locfileid: "51115237"
 
 - [Создание нового фильтра URL-адресов для управления гиперссылками в сеансах обмена мгновенными сообщениями](/previous-versions/office/lync-server-2013/lync-server-2013-create-a-new-url-filter-to-handle-hyperlinks-in-im-conversations)
 
-Сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнес-серверов, см. в материале Управление Skype для бизнеса [Server 2015.](../../manage/manage.md)
+Сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнеса Server, см. в Skype для бизнеса Server [2015](../../manage/manage.md)г.
