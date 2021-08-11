@@ -10,26 +10,26 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Тестирование разрешений администратора в Skype для бизнеса Server
-ms.openlocfilehash: 535911c26bac5e3f1dadb2c8d59cffe82dc20c7a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Проверка разрешений администратора в Skype для бизнеса Server
+ms.openlocfilehash: 1c828eeb965ee98aae72b00c7da9fa65016d2ed90e56c7cc982a59763c2703ae
+ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122403"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54590773"
 ---
 # <a name="testing-admin-permissions-in-skype-for-business-server"></a>Тестирование разрешений администратора в Skype для бизнеса Server
 
-| | |
+|&nbsp; |&nbsp; |
 |--|--|
-|Расписание проверки|После начального развертывания Skype для бизнеса Server. При необходимости, если возникают проблемы, связанные с разрешениями.|
+|Расписание проверки|После первоначального Skype для бизнеса Server развертывания. При необходимости, если возникают проблемы, связанные с разрешениями.|
 |Средство тестирования|Windows PowerShell|
-|Необходимые разрешения|При локальном запуске с помощью оболочки управления серверами Skype для бизнеса пользователи должны быть членами группы безопасности RTCUniversalServerAdmins.<br><br/>При запуске с помощью удаленного экземпляра Windows PowerShell пользователям должна быть назначена роль RBAC, которая имеет разрешение на запуск Test-CsOUPermission. Чтобы увидеть список всех ролей RBAC, которые могут использовать этот командлет, запустите следующую команду из Windows PowerShell:<br/><br/>Get-CsAdminRole Where-Object \| {$_. Командлеты -match "Test-CsOUPermission"}|
+|Необходимые разрешения|При локальном запуске с Skype для бизнеса Server службы управления пользователи должны быть членами группы безопасности RTCUniversalServerAdmins.<br><br/>При запуске с помощью удаленного экземпляра Windows PowerShell пользователям должна быть назначена роль RBAC, которая имеет разрешение на Test-CsOUPermission cmdlet. Чтобы увидеть список всех ролей RBAC, которые могут использовать этот командлет, запустите следующую команду из Windows PowerShell:<br/><br/>Get-CsAdminRole Where-Object \| {$_. Командлеты -match "Test-CsOUPermission"}|
 |||
 
 ## <a name="description"></a>Описание
 
-При установке Skype для бизнеса Server одна из задач, выполняемых программой установки, предоставляет группе RTCUniversalUserAdmins разрешения Active Directory, необходимые для управления пользователями, компьютерами, контактами, контактами приложений и пользователями InetOrg. Если у вас отключено наследование разрешений в Active Directory, установка не сможет назначить эти разрешения. В результате члены группы RTCUniversalUserAdmins не смогут управлять объектами Skype для бизнеса Server. Эти привилегии управления будут доступны только администраторам доменов. 
+При установке Skype для бизнеса Server одна из задач, выполняемых программой Установки, предоставляет группе RTCUniversalUserAdmins разрешения Active Directory, необходимые для управления пользователями, компьютерами, контактами, контактами приложений и пользователями InetOrg. Если у вас отключено наследование разрешений в Active Directory, установка не сможет назначить эти разрешения. В результате члены группы RTCUniversalUserAdmins не смогут управлять Skype для бизнеса Server сущностями. Эти привилегии управления будут доступны только администраторам доменов. 
 
 Этот Test-CsOUPermission проверяет, что необходимые разрешения, необходимые для управления пользователями, компьютерами и другими объектами, устанавливаются в контейнере Active Directory. Если эти разрешения не заданы, эту проблему можно решить, заняв кодлет [Grant-CsOUPermission.](/powershell/module/skype/Grant-CsOUPermission) 
 
@@ -60,7 +60,7 @@ ms.locfileid: "51122403"
 
 ВНИМАНИЕ. Записи управления доступом (ACEs) на объекте "OU=NorthAmerica,DC=atl-cs-001\DC=litwareinc,DC=com" не готовы. 
 
-False 
+Неверно 
 
 ВНИМАНИЕ. Обработка "Test-CsOUPermission" завершена с помощью предупреждений. Во время этого запуска были записаны предупреждения "2". 
 

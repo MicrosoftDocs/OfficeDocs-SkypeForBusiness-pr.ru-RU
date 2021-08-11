@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: df447066-2840-431b-bc4e-acf8aa692d71
 ROBOTS: NOINDEX, NOFOLLOW
 description: Вы публикуете топологию, настроенную с помощью Topology Builder. Вам будет предложено выбрать из списка, который front End Server или пул переднего плана будет выполнять роль хранения центра управления. Только один пул переднего плана или переднего плана может удерживать эту роль в любой момент времени.
-ms.openlocfilehash: fe3e7ed8c0a58b0547ede0eb02f0ea476bce94bc
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: aba80733c215d9de1eab58be7054ad68519123a9f23f131f389b50754ac0dc73
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096885"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54307550"
 ---
 # <a name="publish-topology-select-cms-page"></a>Страница публикации CMS выбора топологии
  

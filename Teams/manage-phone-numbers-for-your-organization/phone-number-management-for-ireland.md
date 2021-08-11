@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: В этой таблице вы найдете сведения о получении номеров телефонов в Ирландии и управлении Microsoft Teams.
-ms.openlocfilehash: 4050ea64677bad9f6481025feea52a8b593b4fa6
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: ed4496cfc8f1a5882d2126cb1f9bc3225bae0e03bb1b770849bd8862221775a9
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53510010"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54306361"
 ---
 # <a name="phone-number-management-for-ireland"></a>Управление номерами телефонов в Ирландии
 
@@ -35,11 +35,11 @@ ms.locfileid: "53510010"
   
 |**Требуемое действие**|**Загрузка подходящих форм**|
 |:-----|:-----|
-|Получите новые номера пользователей или номеров телефонов служб, которые не указаны в Microsoft Teams центре администрирования. <br/> |В Ирландии вы не можете получить номера телефонов для своей организации с помощью Microsoft Teams администрирования. Необходимо отправить запрос на получение номеров телефонов. <br/><br/>Скачайте эту форму.<br/>[Новый запрос на номер телефона для Ирландии (v.5.0) (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-ireland-(v.5.0)-(en-us).pdf?raw=true). <br/><br/> Заполните его и [обратитесь за инструкциями к ТСДН.](contact-pstn-service-desk.md)  <br/> |
+|Получите новые номера телефонов пользователей или служб, которые не указаны в Microsoft Teams центре администрирования. <br/> |В Ирландии вы не можете получить номера телефонов для своей организации с помощью Microsoft Teams администрирования. Необходимо отправить запрос на получение номеров телефонов. <br/><br/>Скачайте эту форму.<br/>[Новый запрос на номер телефона для Ирландии (v.5.0) (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-ireland-(v.5.0)-(en-us).pdf?raw=true). <br/><br/> Заполните его и [обратитесь за инструкциями к ТССК.](contact-pstn-service-desk.md)  <br/> |
 |Перенаправь нам номера телефонов.  <br/> | Скачайте эту форму. <br/>[Досье (LOA) для Ирландии (все номера) (v.6.0) (en-us)](https://download.microsoft.com/download/d/a/f/daf4edb9-69c7-4d3d-a483-e0c4427abb50/letter-of-authorization-(loa)-for-ireland-(all-numbers)-(v.6.0)-(en-us).pdf) <br/> <br/>Заполните ее и [обратитесь к PTSN, чтобы узнать инструкции.](contact-pstn-service-desk.md) <br/> |
 |Публикация и публикация номеров телефонов в национальном каталоге телефонов.  <br/> |[Чтобы получить инструкции по](contact-pstn-service-desk.md) списку номеров телефонов, которые вы хотите опубликовать или отоблести, обратитесь в ТССК. <br/> |
 |Измените номер пользователя на номер службы.  <br/> |[Чтобы получить инструкции по](contact-pstn-service-desk.md) списку пользовательских номеров, которые вы хотите преобразовать в номера служб, обратитесь в ТССК. <br/> |
-|Обновление службы каталогов для очереди вызовов или номеров автозаводников|Чтобы добавить или изменить номера очереди вызовов или номера автозавода, обратитесь [в службу поддержки ПСОП.](contact-pstn-service-desk.md) |
+|Обновление службы каталогов для очереди вызовов или номеров автозаводников|Чтобы добавить или изменить номера очереди вызовов или номера автослужб, обратитесь [в службу поддержки ПСОП.](contact-pstn-service-desk.md) |
 
 ## <a name="related-topics"></a>См. также:
 

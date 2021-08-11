@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bdae4545-942e-4f76-9d3f-6ac5d1ebe213
 description: Укажите полное доменное имя для каждого компьютера, который нужно добавить в качестве пограничного сервера в этот пул. Добавив компьютер в список, вы можете обновить полное доменное имя или удалить его из пула в любое время до публикации топологии. После публикации топологии для изменения полного доменного имени потребуется сначала удалить сервер в построителе топологий, а затем добавить новый сервер в пул с новым полным доменным именем. Дополнительные сведения о разработке топологии для пограничного пула см. в разделе Define Your Edge Topology руководства по развертыванию пограничного сервера.
-ms.openlocfilehash: b26a6125368847f99826d82d43e6b7062887d0e4
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: c6ebc2788fe452cadaeeee0a68893d06c96b09ee38c362faf184e78466412882
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095583"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54307190"
 ---
 # <a name="edge-server-add-machine"></a>Добавление компьютера пограничного сервера
 

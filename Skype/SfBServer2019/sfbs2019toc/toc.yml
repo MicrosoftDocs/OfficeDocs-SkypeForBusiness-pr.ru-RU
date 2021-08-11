@@ -79,7 +79,7 @@
             - name: Клиенты собраний
               href: ../../SfbServer/plan-your-deployment/clients-and-devices/meetings-clients.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
               items:
-                - name: "Минимальные требования к сети для приложения \"Собрания\_Skype\""
+                - name: Минимальные требования к сети для приложения "Собрания Skype"
                   href: ../../SfbServer/plan-your-deployment/clients-and-devices/minimum-network-requirements.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Среды VDI
               href: ../../SfbServer/plan-your-deployment/clients-and-devices/vdi-environments.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
@@ -551,7 +551,7 @@
               href: ../../SfbServer/deploy/deploy-conferencing/office-web-app-server.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Конференц-связь с телефонным подключением
               href: ../../SfbServer/deploy/deploy-conferencing/dial-in-conferencing.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
-            - name: "Веб-портал администрирования системы комнат версии\_1"
+            - name: Веб-портал администрирования системы комнат версии 1
               href: ../../SfbServer/deploy/deploy-conferencing/room-system-v1-administrative-web-portal.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
         - name: Развертывание пограничного сервера
           href: ../../SfbServer/deploy/deploy-edge-server/deploy-edge-server.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json

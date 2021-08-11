@@ -1,5 +1,5 @@
 ---
-title: Подключение первых пользователей к Microsoft Teams
+title: Подключение первых пользователей к Microsoft Teams
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -19,14 +19,14 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0c85d22179887fa797bb91fedbc0e5ec40b08a03
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 34573ba9083f436fec93ca0f1fa58494f6c952e26fa74f4b93ac942a1b9b633a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101195"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54304917"
 ---
-# <a name="onboard-early-adopters-to-microsoft-teams"></a>Подключение первых пользователей к Microsoft Teams
+# <a name="onboard-early-adopters-to-microsoft-teams"></a>Подключение первых пользователей к Microsoft Teams
 
 ## <a name="invite-users-to-teams"></a>Приглашение пользователей в Teams
 

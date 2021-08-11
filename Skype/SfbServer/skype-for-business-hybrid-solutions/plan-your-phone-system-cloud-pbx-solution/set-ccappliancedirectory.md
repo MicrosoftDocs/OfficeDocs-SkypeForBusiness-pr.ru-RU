@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 6da93ddb-ca99-4b5d-9b33-3d70659730b2
-description: Этот Set-CcApplianceDirectory задает рабочий каталог на сервере хост-сервера Skype для бизнеса Cloud Connector Edition. Все файлы развертывания хранятся в этом каталоге.
-ms.openlocfilehash: a410d20c41fbb0bfef88449aaac96be727218add
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Этот Set-CcApplianceDirectory задает рабочий каталог на сервере Skype для бизнеса Cloud Connector Edition сервере. Все файлы развертывания хранятся в этом каталоге.
+ms.openlocfilehash: 8ca6b8b8e175058e5f19c86a9dd1c6e0cf8a43ab6ef7a439eee4e09b5430f6a2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824225"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54306600"
 ---
 # <a name="set-ccappliancedirectory"></a>Set-CcApplianceDirectory
  
-Этот Set-CcApplianceDirectory задает рабочий каталог на сервере хост-сервера Skype для бизнеса Cloud Connector Edition. Все файлы развертывания хранятся в этом каталоге.
+Этот Set-CcApplianceDirectory задает рабочий каталог на сервере Skype для бизнеса Cloud Connector Edition сервере. Все файлы развертывания хранятся в этом каталоге.
   
 ```powershell
 Set-CcApplianceDirectory[[-Path] <string>]
@@ -31,9 +31,9 @@ Set-CcApplianceDirectory[[-Path] <string>]
 ## <a name="examples"></a>Примеры
 <a name="Examples"> </a>
 
-### <a name="example-1"></a>Пример 1
+### <a name="example-1"></a>Пример 1
 
-В следующем примере рабочий каталог на хост-сервере устанавливается в c:\cloudconnector\applianceroot:
+В следующем примере рабочий каталог на хост-сервере задает c:\cloudconnector\applianceroot:
   
 ```powershell
 Set-CcApplianceDirectory -Path "c:\cloudconnector\applianceroot"
@@ -49,7 +49,7 @@ Set-CcApplianceDirectory -Path "c:\cloudconnector\applianceroot"
 ## <a name="input-types"></a>Типы входных данных
 <a name="InputTypes"> </a>
 
-Нет. Этот Set-CcApplianceDirectory не принимает конвейерные входные данные.
+Нет. В Set-CcApplianceDirectory не принимается конвейерный ввод.
   
 ## <a name="return-types"></a>Типы возвращаемых данных
 <a name="ReturnTypes"> </a>

@@ -25,15 +25,15 @@ ms.custom:
 - ms.teamsadmincenter.audioconferencing.overview
 - seo-marvel-apr2020
 description: Узнайте, как аудиоконференция в Microsoft 365 или Office 365 позволяет пользователям звонить на собрания со своих телефонов.
-ms.openlocfilehash: bce9aee26fa1fa9cfd8a365074bd67fcc79bde6f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 166ec76e8f63373056f73efd647b6810818a53ca410594ca06dc2f137e6ece02
+ms.sourcegitcommit: 02485b5f4bc8de106b064adf5c96dfc041f64e34
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51111275"
+ms.lasthandoff: 08/07/2021
+ms.locfileid: "57799070"
 ---
 # <a name="audio-conferencing-in-microsoft-365"></a>Аудиоконференция в Microsoft 365
-Аудиоконференция в Microsoft 365 и Office 365 позволяет пользователям звонить на собрания со своих телефонов. Аудиоконференция допускает до 250 телефонных посетителей.
+Аудиоконференция в Microsoft 365 и Office 365 позволяет пользователям звонить на собрания со своих телефонов. Аудиоконференция позволяет использовать до 1000 участников телефонов.
 
 ## <a name="what-is-audio-conferencing"></a>Что такое аудиоконференция?
 Вызов (набор номера) на собраниях очень полезен для пользователей, которые находятся в дороге и не могут посещать собрания с помощью приложения Skype для бизнеса или Microsoft Teams на своих ноутбуках или мобильных устройствах. Но есть и другие сценарии, в которых использование телефона для участия в собрании Skype для бизнеса или Microsoft Teams может быть лучшим вариантом, чем использование приложения на компьютере:

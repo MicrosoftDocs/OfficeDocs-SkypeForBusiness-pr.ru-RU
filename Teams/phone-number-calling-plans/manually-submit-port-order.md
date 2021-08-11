@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Узнайте, как вручную отправить запрос на перенос.
-ms.openlocfilehash: 92b5754a78cb0949b2788b33000ecbfa5d1f2e53
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 13732092921951ee60749e91f4963942f31cb9c45211a0d66cbd9b6f688d220a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098265"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54276145"
 ---
 # <a name="manually-submit-a-port-order"></a>Отправка заказа на перенос номера вручную
 
@@ -31,11 +31,11 @@ ms.locfileid: "51098265"
 
 С помощью инструкций, указанных в этой статье, можно вручную отправить заказ на перенос, если ваша страна или регион не указаны в мастере переноса в Центре администрирования [Microsoft Teams.](transfer-phone-numbers-to-teams.md)
 
-## <a name="manually-submit-a-new-port-order-request"></a>Отправка нового заказа на перенос вручную
+## <a name="manually-submit-a-new-port-order-request"></a>Отправка нового запроса на перенос вручную
 
 Чтобы вручную отправить новый заказ на перенос, отправьте заполненную форму досье (LOA) непосредственно в службу обслуживания ННР вашего региона.
 
-1. Скачайте [loA](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) для своей страны или региона.
+1. Скачайте [досье](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) для своей страны или региона.
 2. Заполнять форму.
 3. Отправьте его в службу [поддержки ННР](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) для вашего региона.
 
@@ -43,7 +43,7 @@ ms.locfileid: "51098265"
 
 - Чтобы использовать планы звонков, необходимо приобрести и назначить лицензии пользователям. См. [Teams лицензирования надстройки](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
-- Каждому пользователю необходимо назначить новые номера телефонов. См. [назначение, изменение и удаление номера телефона для пользователя.](../assign-change-or-remove-a-phone-number-for-a-user.md)
+- Каждому пользователю необходимо назначить новые номера телефонов. См. [назначение, изменение и удаление номера телефона пользователя.](../assign-change-or-remove-a-phone-number-for-a-user.md)
 
 ## <a name="related-topics"></a>Статьи по теме
 

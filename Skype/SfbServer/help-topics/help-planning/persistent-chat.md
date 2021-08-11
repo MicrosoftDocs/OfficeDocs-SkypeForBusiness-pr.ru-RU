@@ -1,5 +1,5 @@
 ---
-title: Сохраняемая беседа (средство планирования)
+title: Skype для бизнеса Server Средство планирования постоянных чатов
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,18 +15,18 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ec111e2e-15dd-4b9b-ba9c-6125139319a1
-description: Сервер сохраняемого чата позволяет пользователям участвовать в многостолбных тематических беседах, которые со временем сохраняются.
-ms.openlocfilehash: 51b88704d2a4f7dad8dbcee2fc9b29d384c58741
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Постоянный сервер чата позволяет пользователям участвовать в многопартийных тематических беседах, которые сохраняются с течением времени.
+ms.openlocfilehash: 71dcd50ff958af2940016e46e0940e915eb6600abc27f12cf3be77b01a19df7a
+ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49824309"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54590893"
 ---
-# <a name="persistent-chat-planning-tool"></a>Сохраняемая беседа (средство планирования)
+# <a name="skype-for-business-server-persistent-chat-planning-tool"></a>Skype для бизнеса Server Средство планирования постоянных чатов
  
-Сервер сохраняемого чата позволяет пользователям участвовать в многостолбных тематических беседах, которые со временем сохраняются.
+Постоянный сервер чата позволяет пользователям участвовать в многопартийных тематических беседах, которые сохраняются с течением времени.
   
-Дополнительные сведения о подготовке среды к серверу сохраняемой беседы см. в подплане для сервера сохраняемой беседы [в Skype для бизнеса Server 2015.](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
+Дополнительные сведения о подготовке среды для постоянного сервера чата см. в материале [Plan for Persistent Chat Server в Skype для бизнеса Server 2015 г.](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   
 
