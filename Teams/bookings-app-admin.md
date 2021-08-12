@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: ''
 description: Приложение Bookings и виртуальные визиты в Microsoft Teams
-ms.openlocfilehash: e65e0b8c4af7397ebe0b152d2f977b2bf8cbb667
-ms.sourcegitcommit: f0e5da6136656261567ffe0fa3f2fedd901209a8
-ms.translationtype: HT
+ms.openlocfilehash: 9d2c2fe9fd1852d030d512d95bf5c944b8b1e1ed119b97a2bac23569cbb83f69
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/19/2021
-ms.locfileid: "51891266"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54295206"
 ---
 # <a name="virtual-visits-with-microsoft-teams-and-the-bookings-app"></a>Виртуальные визиты с помощью Microsoft Teams и приложения Bookings
 
@@ -53,7 +53,7 @@ ms.locfileid: "51891266"
 
 ### <a name="control-access-to-bookings-within-your-organization"></a>Управление доступом к Bookings в организации
 
-Существует несколько способов управления доступом к приложению Bookings и определенным функциям приложения. Чтобы узнать, как включить или отключить Microsoft Bookings в Центре администрирования Microsoft 365, а также как создать политику приложения Bookings, чтобы разрешить выбранным пользователям создавать календари Bookings, см. [Получить доступ к Microsoft Bookings](https://support.microsoft.com/ru-RU/office/get-access-to-microsoft-bookings-5382dc07-aaa5-45c9-8767-502333b214ce). Вы также можете узнать, как [создать политику приложений Teams, чтобы закрепить приложение Bookings для выбранных пользователей](teams-app-setup-policies.md).
+Существует несколько способов управления доступом к приложению Bookings и определенным функциям приложения. Чтобы узнать, как включить или отключить Microsoft Bookings в Центре администрирования Microsoft 365, а также как создать политику приложения Bookings, чтобы разрешить выбранным пользователям создавать календари Bookings, см. [Получить доступ к Microsoft Bookings](https://support.microsoft.com/en-us/office/get-access-to-microsoft-bookings-5382dc07-aaa5-45c9-8767-502333b214ce). Вы также можете узнать, как [создать политику приложений Teams, чтобы закрепить приложение Bookings для выбранных пользователей](teams-app-setup-policies.md).
 
 ## <a name="recommended-meeting-policy-settings"></a>Рекомендуемые параметры политики собраний
 

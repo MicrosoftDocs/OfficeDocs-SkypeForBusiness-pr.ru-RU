@@ -15,23 +15,23 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Вы можете удалить любой сайт или политику пользователя, указанную в панели управления Skype для бизнеса Server на странице Политика внешнего доступа.
-ms.openlocfilehash: 154fb4434e074a3585a817994cb6b919a2b755eef8d5a8e6a082cacad4e25aae
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 79858592b8ba7dbcee692807bba3d2a472a8579cbc843ddeb96c25c811cc6df7
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54309258"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848684"
 ---
 # <a name="delete-a-site-or-user-policy-for-external-user-access"></a>Удаление сайта или пользовательской политики для доступа внешних пользователей
 
-Если были созданы или настроены политики внешнего доступа пользователей, которые больше не нужно использовать, выполните следующие действия.
+Если вы создали или настроили внешние политики доступа к пользователям, которые больше не нужно использовать, вы можете сделать следующий метод:
 
   - Удалите любую созданную политику сайта или пользователя.
 
   - Сбросьте глобальную политику до значений по умолчанию. Параметры глобальной политики по умолчанию запрещают любой внешний доступ пользователей. Саму глобальную политику удалить невозможно.
 
 
-Вы можете удалить любой сайт или политику пользователя, которая указана в панели управления Skype для бизнеса Server на странице **Политика внешнего** доступа. При удалении глобальной политики она на самом деле не удаляется, а восстанавливаются параметры по умолчанию, не включающие поддержку доступа внешних пользователей. Сведения об сбросе глобальной политики см. в материале [Reset the global policy for external user access.](reset-the-global-policy-for-external-user-access.md)
+Вы можете удалить любой сайт или политику пользователя, которая указана в панели управления Skype для бизнеса Server на странице **Политика внешнего** доступа. Удаление глобальной политики фактически не удаляет ее, а только сбрасывает ее в параметры по умолчанию, которые не включают поддержку любых внешних параметров доступа пользователей. Сведения об сбросе глобальной политики см. в материале [Reset the global policy for external user access.](reset-the-global-policy-for-external-user-access.md)
 
 
 ## <a name="to-delete-a-site-or-user-policy-for-external-user-access"></a>Удаление политика узла или пользователя для доступа внешних пользователей
@@ -54,23 +54,17 @@ ms.locfileid: "54309258"
 
 ## <a name="to-remove-a-specific-external-access-policy"></a>Удаление определенной политики внешнего доступа
 
-  - Эта команда удаляет политику внешнего доступа для узла Redmond:
-    
-        Remove-CsExternalAccessPolicy -Identity "site:Redmond"
+  - Эта команда удаляет политику внешнего доступа для узла Redmond:<br/><br/>Remove-CsExternalAccessPolicy -Identity "site:Redmond"
 
 
 ## <a name="to-remove-all-the-external-access-policies-applied-to-the-per-user-scope"></a>Удаление всех политик внешнего доступа, применяемых к области каждого пользователя
 
-  - Эта команда удаляет все политики внешнего доступа, настроенные на уровне пользователя:
-    
-        Get-CsExternalAccessPolicy -Filter "tag:*" | Remove-CsExternalAccessPolicy
+  - Эта команда удаляет все политики внешнего доступа, настроенные на уровне пользователя:<br/><br/>Get-CsExternalAccessPolicy -Filter "tag:*" | Remove-CsExternalAccessPolicy
 
 
 ## <a name="to-remove-all-the-external-access-policies-where-outside-user-access-is-disabled"></a>Удаление всех политик внешнего доступа, в которых отключен внешний доступ пользователей
 
-  - Эта команда удаляет все политики внешнего доступа, в который доступ внешних пользователей отключен:
-    
-        Get-CsExternalAccessPolicy | Where-Object {$_.EnableOutsideAccess -eq $False} | Remove-CsExternalAccessPolicy
+  - Эта команда удаляет все политики внешнего доступа, в который доступ внешних пользователей отключен:<br/><br/>Get-CsExternalAccessPolicy | Where-Object {$_. EnableOutsideAccess -eq $False} | Remove-CsExternalAccessPolicy
 
 
 Дополнительные сведения см. в разделе Справка для [cmdlet Remove-CsExternalAccessPolicy.](/powershell/module/skype/Remove-CsExternalAccessPolicy)

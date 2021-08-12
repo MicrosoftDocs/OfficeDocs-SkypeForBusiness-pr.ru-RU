@@ -15,17 +15,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a6e63c33-7927-4813-81cc-9624c2098177
 description: Чтобы задать префиксы или начальные цифры, добавьте числовые префиксы, которые должны обрабатываться этим маршрутом, включая знак "+", если необходимо. Например, можно сопоставить все номера, начинающиеся с "+123".
-ms.openlocfilehash: 12db5f6f7dfb92769f5c904c2ed412c2de606399
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 67a6598281267c6a36028b6030e0f1b2dd8b9c1adb5b3130ac986cf89e07d82c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49829339"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54311277"
 ---
 # <a name="prefix-edit"></a>Редактирование префиксов
  
 Чтобы задать префиксы или начальные цифры, добавьте числовые префиксы, которые должны обрабатываться этим маршрутом, включая знак "+", если необходимо. Например, можно сопоставить все номера, начинающиеся с "+123".
   
-For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).
+Сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнес-серверов, см. в материале Управление Skype для бизнеса [Server 2015.](../../manage/manage.md)
   
 

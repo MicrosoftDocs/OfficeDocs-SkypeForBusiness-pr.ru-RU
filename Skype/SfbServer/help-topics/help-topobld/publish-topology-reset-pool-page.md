@@ -14,20 +14,20 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: de13aab5-ac3c-44ac-9484-f97cafcf203a
-description: Это предварительная документация, которая может быть измениться. Пустые разделы включены в качестве заполнителей.
-ms.openlocfilehash: a7463a3089b3944817f266e0e279501c607d6569
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Это предварительная документация, которая подлежит изменениям. Пустые разделы включены в качестве заполнителей.
+ms.openlocfilehash: 6e942fbfdc1ea17c6c59a2aa7bf9595736afe193579a1dd134d00a5150daa8f2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49823679"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54341934"
 ---
 # <a name="publish-topology-reset-pool-page"></a>Страница публикации пула сброса топологии
  
-Это предварительная документация, которая может быть измениться. Пустые разделы включены в качестве заполнителей.
+Это предварительная документация, которая подлежит изменениям. Пустые разделы включены в качестве заполнителей.
   
 Для добавления новых компьютеров в существующий пул необходимо сбросить пул, чтобы переопределить связи между всеми членами пула с помощью Windows Fabric. Для этого выберите пул, в который были добавлены серверы, а затем нажмите кнопку **Далее**.
   
 ## <a name="see-also"></a>См. также
 
-[Создание и публикация новой топологии в Skype для бизнеса Server 2015](../../deploy/install/create-and-publish-new-topology.md)
+[Создание и публикация новой топологии в Skype для бизнеса Server 2015 г.](../../deploy/install/create-and-publish-new-topology.md)

@@ -14,15 +14,15 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: ''
-ms.openlocfilehash: a65cd80311aaf1d13d5d9471ff285b94545176d1
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Как включить и отключить анонимный доступ пользователей в Skype для бизнеса Server.
+ms.openlocfilehash: c06135c0678309c527ec4bda341c17de2d643ce4d6b947077a3a2d02d71dea55
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119388"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848704"
 ---
-# <a name="enable-or-disable-anonymous-user-access-in-skype-for-business-server"></a>Включить или отключить анонимный доступ пользователей в Skype для бизнеса Server
+# <a name="enable-or-disable-anonymous-user-access-in-skype-for-business-server"></a>Включить или отключить анонимный доступ к пользователю в Skype для бизнеса Server
 
 Анонимные пользователи — это пользователи, у которых нет учетной записи пользователя в службе домена Active Directory или в поддерживаемом федератовом домене, но могут быть приглашены для удаленного участия в локальной конференции. Разрешая анонимное участие в собраниях, вы позволяете анонимным пользователям (удостоверение которых подтверждено только ключом собрания или конференции) присоединяться к собраниям. Для разрешения анонимного участия необходимо включить его в своей организации.
 
@@ -35,7 +35,7 @@ ms.locfileid: "51119388"
 
 1.  С учетной записи пользователя, которая входит в группу RTCUniversalServerAdmins (или имеет эквивалентные права пользователя) или назначена роли CsAdministrator, войдите на любой компьютер во внутреннем развертывании.
 
-2.  Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Skype для бизнес-серверов. 
+2.  Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель Skype для бизнеса Server управления. 
 
 3.  В левой панели навигации щелкните **Доступ для внешних пользователей** и **Настройка пограничного доступа**.
 
@@ -50,23 +50,19 @@ ms.locfileid: "51119388"
 6.  Нажмите кнопку **Сохранить**.
 
 
-## <a name="enabling-or-disabling-anonymous-user-access-by-using-windows-powershell-cmdlets"></a>Включение или отключение анонимного доступа к пользователю с помощью Windows PowerShell-кодлетов
+## <a name="enabling-or-disabling-anonymous-user-access-by-using-windows-powershell-cmdlets"></a>Включение или отключение анонимного доступа пользователей с помощью Windows PowerShell-кодлетов
 
-Управлять анонимным доступом пользователей можно с помощью Windows PowerShell и **комлета Set-CsAccessEdgeConfiguration.** Этот комлет можно выполнить либо из оболочки управления skype для бизнес-серверов, либо из удаленного сеанса Windows PowerShell. 
+Управлять анонимным доступом пользователей можно с помощью Windows PowerShell и **комлета Set-CsAccessEdgeConfiguration.** Этот комлет можно выполнить либо из Skype для бизнеса Server, либо из удаленного сеанса Windows PowerShell. 
 
 ## <a name="to-enable-anonymous-user-access"></a>Для обеспечения анонимного доступа пользователей
 
-  - Чтобы включить анонимный доступ пользователей, установите для свойства **AllowAnonymousUsers** значение True ($True):
-    
-        Set-CsAccessEdgeConfiguration -AllowAnonymousUsers $True
+  - Чтобы включить анонимный доступ пользователей, установите для свойства **AllowAnonymousUsers** значение True ($True):<br/><br/>Set-CsAccessEdgeConfiguration AllowAnonymousUsers $True
 
 ## <a name="to-disable-anonymous-user-access"></a>Отключение анонимного доступа пользователей
 
-  - Чтобы отключить анонимный доступ пользователей, установите для свойства **AllowAnonymousUsers** значение False ($False):
-    
-        Set-CsAccessEdgeConfiguration -AllowAnonymousUsers $False
+  - Чтобы отключить анонимный доступ пользователей, установите для свойства **AllowAnonymousUsers** значение False ($False):<br/><br/>Set-CsAccessEdgeConfiguration AllowAnonymousUsers $False
 
 
 ## <a name="see-also"></a>См. также
 
-[Set-CsClientPolicy](/powershell/module/skype/Set-CsClientPolicy?view=skype-ps)  
+[Set-CsClientPolicy](/powershell/module/skype/Set-CsClientPolicy)  

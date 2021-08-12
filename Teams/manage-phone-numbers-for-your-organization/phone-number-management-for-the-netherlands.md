@@ -20,17 +20,17 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: В этой таблице вы найдете сведения о получении номеров телефонов в Нидерланды для Microsoft Teams и управлении Microsoft Teams.
-ms.openlocfilehash: ab05c6f8a73b3080659ff6a34b34ed5a054e28af
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+description: Эта таблица используется для поиска сведений о получении номеров телефонов в Нидерландых и управлении Microsoft Teams.
+ms.openlocfilehash: 717b1b46cbf5b06fe85922f973ed29e7e4c37fa1886042bb49ff2bd19a73d780
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53510340"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54295166"
 ---
 # <a name="phone-number-management-for-the-netherlands"></a>Управление номерами телефонов в Нидерландах
 
-В этой таблице вы найдете сведения о получении номеров телефонов в Нидерланды для Microsoft Teams и управлении Microsoft Teams.
+Эта таблица используется для поиска сведений о получении номеров телефонов в Нидерландых и управлении Microsoft Teams.
   
 Дополнительные сведения см. в статье [Управление номерами телефонов для организации](manage-phone-numbers-for-your-organization.md).
   
@@ -38,9 +38,9 @@ ms.locfileid: "53510340"
 |:-----|:-----|
 |Получите новые номера пользователей или номеров телефонов служб, которые не указаны в Microsoft Teams центре администрирования.   <br/> | Скачайте одну из этих форм.</br> [Новый номер телефона для Нидерландов (v.5.0) (nl-nl)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-netherlands-(v.5.0)-(nl-nl).pdf?raw=true) <br/>  [Новый номер телефона для Нидерландов (v.5.0) (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-netherlands-(v.5.0)-(en-us).pdf?raw=true)<br/><br/>  Заполните ее и [обратитесь к PTSN, чтобы узнать инструкции.](contact-pstn-service-desk.md)  <br/> |
 |Перенаправь нам номера телефонов.  <br/> |Скачайте одну из следующих форм:. <br/> [Док-досье (LOA) для Нидерландов (все номера) (v.6.0) (nl-nl)](https://download.microsoft.com/download/c/7/0/c70c4dcd-f23a-4935-aa31-fc13aba33ee5/letter-of-authorization-(loa)-for-the-netherlands-(all-numbers)-(v.6.0)-(nl-nl).pdf) <br/> <br/>  Заполните ее и [обратитесь к PTSN, чтобы узнать инструкции.](contact-pstn-service-desk.md)  <br/> |
-|Публикация и публикация номеров телефонов в национальном каталоге телефонов.  <br/> |[Чтобы получить инструкции по](contact-pstn-service-desk.md) списку номеров телефонов, которые вы хотите опубликовать или отоблести, обратитесь в ТССК. <br/> |
+|Публикация и публикация номеров телефонов в национальном телефонном каталоге.  <br/> |[Чтобы получить инструкции по](contact-pstn-service-desk.md) списку номеров телефонов, которые вы хотите опубликовать или отоблести, обратитесь в ТССК. <br/> |
 |Измените номер пользователя на номер службы.  <br/> |[Чтобы получить инструкции по](contact-pstn-service-desk.md) списку пользовательских номеров, которые вы хотите преобразовать в номера служб, обратитесь в ТССК. <br/> |
-|Обновление службы каталогов для очереди вызовов или номеров автозаводников|Чтобы добавить или изменить номера очереди вызовов или номера автозавода, обратитесь [в службу поддержки ПСОП.](contact-pstn-service-desk.md) |
+|Обновление службы каталогов для номеров очереди вызовов и номеров автослужб|Чтобы добавить или изменить номера очереди вызовов или номера автозавода, обратитесь [в службу поддержки ПСОП.](contact-pstn-service-desk.md) |
 
 ## <a name="related-topics"></a>См. также:
 

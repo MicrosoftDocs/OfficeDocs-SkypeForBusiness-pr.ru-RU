@@ -15,18 +15,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6086162-8a41-4e75-afa3-7d1889ffdc90
 description: Чтобы найти службы, доступные в среде, используйте диалоговое окно Выберите службу. Чтобы использовать существующую службу, щелкните службу в списке, а затем нажмите кнопку ОК.
-ms.openlocfilehash: 06ee0217a8a495a881c9925c57e33311e4944607
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 3f3576594714701d52d192fee88dc983bee91d92b81559b4b8efd0d0a790bb6f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51108045"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54311173"
 ---
 # <a name="select-a-service"></a>Выбор службы
 
 Чтобы найти **службы,** доступные в среде, используйте диалоговое окно Выберите службу. Чтобы использовать существующую службу, щелкните службу в списке, а затем нажмите кнопку **ОК**.
 
-Сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнес-серверов, см. в материале Управление Skype для бизнеса [Server 2015.](../../manage/manage.md)
+Сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнеса Server, см. в Skype для бизнеса Server [2015](../../manage/manage.md)г.
 
 ## <a name="tasks-you-can-perform"></a>Задачи, которые вы можете выполнить
 
@@ -38,7 +38,7 @@ ms.locfileid: "51108045"
 
 - [Настройка параметров сервера сохраняемого чата на глобальном уровне или для пула сервера сохраняемого чата](/previous-versions/office/lync-server-2013/lync-server-2013-configure-persistent-chat-server-options-globally-or-for-persistent-chat-server-pool)
 
-Сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнес-серверов, см. в материале Управление Skype для бизнеса [Server 2015.](../../manage/manage.md)
+Сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнеса Server, см. в Skype для бизнеса Server [2015](../../manage/manage.md)г.
 
 ## <a name="to-configure-categories-for-chat-rooms"></a>Настройка категорий для комнат чата
 

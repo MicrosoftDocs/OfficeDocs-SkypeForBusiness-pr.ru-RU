@@ -18,12 +18,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b31ffca29891a903c68614239bacedabc6729d39
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 17e4e9af148601fa50562b412e5f81c7872741d97cc299e08b8c18aada1a10e4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098115"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54350651"
 ---
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>Установите Microsoft Teams с помощью Microsoft Endpoint Configuration Manager
 
@@ -39,7 +39,7 @@ ms.locfileid: "51098115"
 |Коммерческий сектор     | [32-разрядная версия](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)        | [64-разрядная версия](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)       | [ARM64](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=arm64&managedInstaller=true&download=true)|
 |Государственные правительственные GCC     | [32-разрядная версия](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&ring=general_gcc&download=true)       | [64-разрядная версия](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&ring=general_gcc&download=true)        |[ARM64](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=arm64&managedInstaller=true&download=true) |
 |Государственные правительственные правительственные GCC высокая    | [32-разрядная версия](https://gov.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)         | [64-разрядная версия](https://gov.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)        |[ARM64](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=arm64&managedInstaller=true&download=true) |
-|Правительственные правительственные компании США     | [32-разрядная версия](https://dod.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)        | [64-разрядная версия](https://dod.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)        | [ARM64](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=arm64&managedInstaller=true&download=true)|
+|Правительственные правительственные окки США     | [32-разрядная версия](https://dod.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)        | [64-разрядная версия](https://dod.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)        | [ARM64](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=arm64&managedInstaller=true&download=true)|
 
 **Чтобы обеспечить успешное развертывание, учитывайте следующее:**
 

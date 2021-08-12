@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e9e6df4a-e58a-4104-9f72-2f5c818353e1
 description: Создание и управление стойкими комнатами чата намного проще при правильном использовании категорий. Администратор сохраняемого чата может определять allowedMembers и Creators для каждой категории, а также определять параметры и поведение комнаты чата по умолчанию, которые будут применяться во всех комнатах чата, созданных в этой категории. Постоянные администраторы чата создают и управляют категориями с помощью панели управления или Windows PowerShell.
-ms.openlocfilehash: 47abbec64f6799a85f3f6123a898eeae00becbdb
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 3f757d7c25a429279bbde3c63e717af9d1930cb9ea40076ac9aa5b9d9567356a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51107995"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54342174"
 ---
 # <a name="select-allowed-members"></a>Выбор разрешенных участников
 
@@ -36,7 +36,7 @@ ms.locfileid: "51107995"
 
 - [Новые функции сервера сохраняемого чата](/previous-versions/office/lync-server-2013/lync-server-2013-new-persistent-chat-server-features)
 
-Сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнес-серверов, см. в материале Управление Skype для бизнеса [Server 2015.](../../manage/manage.md)
+Сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнеса Server, см. в Skype для бизнеса Server [2015](../../manage/manage.md)г.
 
 ## <a name="to-configure-categories-for-chat-rooms"></a>Настройка категорий для комнат чата
 

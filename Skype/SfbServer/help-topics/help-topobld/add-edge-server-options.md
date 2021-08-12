@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2405f227-4297-40d0-a117-55427a9e4052
 description: Выберите каждый компонент, который следует включить для пограничного пула. По умолчанию в пуле Edge поддерживаются удаленные пользователи в организации, входившие из-за брандмауэра с помощью виртуальной частной сети (VPN). Кроме того, поддерживаются следующие параметры пограничного пула.
-ms.openlocfilehash: bccc753a2dd568e88a86c347ca0e962afdeac4d3
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 2b373f1821b754ee274dcd67d5c5812792f2dac6cb65d235a212f40aedbee63f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101725"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54311107"
 ---
 # <a name="add-edge-server-options"></a>Добавление параметров пограничного сервера
 
@@ -38,4 +38,4 @@ ms.locfileid: "51101725"
 
 - Включить федерацию XMPP. Выберите этот параметр, если необходимо поддерживать связь между внутренними пользователями и доверенными партнерами XMPP.
 
-Поддержку внешнего доступа пользователей можно добавить при развертывании начальной топологии или позднее. Дополнительные сведения о добавлении пограничных серверов в существующую топологию см. в разделе [Define Your Edge Topology](/previous-versions/office/lync-server-2013/lync-server-2013-define-your-edge-topology) документации по развертыванию пограничного сервера.
+Поддержку внешнего доступа пользователей можно добавить при развертывании начальной топологии или позднее. Дополнительные сведения о добавлении пограничных серверов в существующую топологию см. в разделе [Define Your Edge Topology](/previous-versions/office/lync-server-2013/lync-server-2013-define-your-edge-topology) в документации по развертыванию пограничного сервера.

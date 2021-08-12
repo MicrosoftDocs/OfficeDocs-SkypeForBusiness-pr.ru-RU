@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 'Эта сводка параметров Skype для бизнеса организации и пользователей поможет вам подробнее узнать о подключениях к общедоступным мгновенным звонкам, приглашениях на собрания, записи звонков и собраний и других действиях.  '
-ms.openlocfilehash: deb1ed7df753377d97c23793278b317a633559b6
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 7c7bb451411b8aa865f94679f70c07df1efdc2bf0b2df0c0ee0da5b92438f63a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52239722"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54295106"
 ---
 # <a name="skype-for-business-online-settings-summary"></a>Общие сведения о параметрах Skype для бизнеса Online
 

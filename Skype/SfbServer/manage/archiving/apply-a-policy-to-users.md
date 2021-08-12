@@ -12,21 +12,21 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: bebd45d1-93c3-4e80-8933-755b699b2209
 description: Сводка. Узнайте, как назначить политику архива пользователям в Skype для бизнеса Server.
-ms.openlocfilehash: 1fce0dbd0cc7b0595dcf3cd91baeba9ed364e28a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: b7dbd8a4222065c2bc53029b75672d6905dcd73b3a79e0d35ebfc6ce980f9865
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095493"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54311097"
 ---
 # <a name="apply-an-archiving-policy-to-users-in-skype-for-business-server"></a>Применение политики архива для пользователей в Skype для бизнеса Server
 
 **Сводка:** Узнайте, как назначить политику архива пользователям в Skype для бизнеса Server.
   
-Если вы создали одну или несколько политик для архива для пользователей, которые имеются в Skype для бизнеса Server, вы можете реализовать поддержку архива для определенных пользователей, применяя соответствующие политики к этим пользователям или группам пользователей. Например, если вы создаете политику для поддержки архива внутренних коммуникаций, вы можете применить ее по крайней мере к одному пользователю или группе пользователей для поддержки архива сообщений Skype для бизнес-сервера пользователя.
+Если вы создали одну или несколько политик для архива для пользователей, Skype для бизнеса Server, вы можете реализовать поддержку архива для определенных пользователей, применяя соответствующие политики к этим пользователям или группам пользователей. Например, если создается политика для поддержки архива внутренних коммуникаций, ее можно применить по крайней мере к одному пользователю или группе пользователей для поддержки архива Skype для бизнеса Server сообщений пользователя.
   
 > [!NOTE]
-> Если вы включили интеграцию Microsoft Exchange для развертывания, политики Exchange In-Place Hold контролируют, включена ли архивация для пользователей, которые размещены в Exchange, и чтобы их почтовые ящики были In-Place Hold. Подробные сведения см. в материале [Plan for archiving in Skype for Business Server](../../plan-your-deployment/archiving/archiving.md) и [Configure integration with Exchange storage for Skype for Business Server.](../../deploy/deploy-archiving/configure-integration-with-exchange-storage.md) 
+> Если вы включили интеграцию microsoft Exchange для развертывания, политики Exchange In-Place Hold контролируют, включена ли архивация для пользователей, которые размещены в Exchange, и чтобы их почтовые ящики были In-Place Hold. Подробные сведения см. в материале [Plan for archiving in Skype для бизнеса Server](../../plan-your-deployment/archiving/archiving.md) и [Configure integration with Exchange для Skype для бизнеса Server.](../../deploy/deploy-archiving/configure-integration-with-exchange-storage.md) 
   
 ## <a name="apply-a-user-policy-by-using-the-control-panel"></a>Применение политики пользователя с помощью панели управления
 
@@ -34,7 +34,7 @@ ms.locfileid: "51095493"
   
 1. Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи пользователя, назначенной роли CsArchivingAdministrator или CsAdministrator. 
     
-2. Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Skype для бизнес-серверов. 
+2. Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель Skype для бизнеса Server управления. 
     
 3. В левой панели навигации щелкните **Пользователи**, а затем выполните поиск учетной записи пользователя, которую требуется настроить. 
     

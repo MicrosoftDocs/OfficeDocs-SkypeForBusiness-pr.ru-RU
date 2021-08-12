@@ -12,21 +12,21 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 77c4dfae-1b29-4e81-ba05-609e61643998
-description: Таблица UriTypes содержит различные типы URI (идентификатор единого ресурса), отслеживаемого в Skype для бизнеса Server 2015.
-ms.openlocfilehash: 622384086dbd1031633b70758cdcea600ad31d43
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Таблица UriTypes содержит различные типы URI (единообразный идентификатор ресурсов), отслеживаются в Skype для бизнеса Server 2015 г.
+ms.openlocfilehash: 1e98bc879e7ddb6e2ca92d4f226284e604d22d312f9e2db8c0ff80cad89c33e5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49831689"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54295366"
 ---
 # <a name="uritypes-table"></a>Таблица UriTypes
  
-Таблица UriTypes содержит различные типы URI (идентификатор единого ресурса), отслеживаемого в Skype для бизнеса Server 2015.
+Таблица UriTypes содержит различные типы URI (единообразный идентификатор ресурсов), отслеживаются в Skype для бизнеса Server 2015 г.
 
-После создания базы данных CDR создаются две записи, которые представляют PhoneUri и UserUri, и записи, созданные после этого, динамически назначены UriTypeId. 
+После создания CDR DB создаются две записи, которые представляют PhoneUri и UserUri, и записи, созданные после этого, динамически назначены UriTypeId. 
   
-|**Столбец**|**Тип данных**|**Ключ/индекс**|**Details**|
+|**Column**|**Тип данных**|**Key/Index**|**Сведения**|
 |:-----|:-----|:-----|:-----|
-|**UriTypeId** <br/> |tinyint  <br/> |Primary  <br/> |Уникальный идентификатор типа URI.  <br/> Возможные значения — от 0 до 255 |
-|**UriType** <br/> |nvarchar(256)  <br/> || Описания различных типов URI. Предварительно назначены следующие значения: <br/>  1 — URI телефона <br/>  0 — URI пользователя <br/> <br/>  Другие возможные типы: <br/>conf:applicationsharing <br/> conf:audio-video<br/> conf:chat<br/>    conf:focus<br/>   mras<br/>
+|**UriTypeId** <br/> |tinyint  <br/> |Primary  <br/> |Уникальный идентификатор типа URI.  <br/> Возможные значения - от 0 до 255 |
+|**UriType** <br/> |nvarchar (256)  <br/> || Описания различных типов URI. Заранее назначены следующие значения: <br/>  1 - Телефон Uri <br/>  0 - Пользовательский Uri <br/> <br/>  Другие возможные типы: <br/>conf:applicationsharing <br/> conf:audio-video<br/> conf:chat<br/>    conf:focus<br/>   mras<br/>
