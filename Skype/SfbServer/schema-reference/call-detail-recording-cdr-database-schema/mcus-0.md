@@ -12,22 +12,22 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 8e8bbb1b-993b-4b66-862b-7e7654777203
-description: В представлении Mcus хранятся сведения о блоках MCU, которые участвовали в сеансах конференц-связи. Это представление впервые было введено в Microsoft Lync Server 2013.
-ms.openlocfilehash: 3b16505337c241f08b1da99ca2e9e7f8a17a4eaa
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: В представлении Mcus хранятся сведения о блоках MCU, которые участвовали в сеансах конференц-связи. Это представление было представлено в Microsoft Lync Server 2013.
+ms.openlocfilehash: 2f5843a627fa8d4df693fb887c49b6c24df77526cd59668e8395a135771ae78d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49821469"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54347754"
 ---
 # <a name="mcus-view"></a>Представление Mcus
  
-В представлении Mcus хранятся сведения о блоках MCU, которые участвовали в сеансах конференц-связи. Это представление впервые было введено в Microsoft Lync Server 2013.
+В представлении Mcus хранятся сведения о блоках MCU, которые участвовали в сеансах конференц-связи. Это представление было представлено в Microsoft Lync Server 2013.
   
-|**Столбец**|**Тип данных**|**Details**|
+|**Column**|**Тип данных**|**Сведения**|
 |:-----|:-----|:-----|
 |**McuId** <br/> |int  <br/> |Уникальный номер, идентифицирующий MCU.  <br/> |
-|**McuUri** <br/> |nvarchar(450)  <br/> |URI блока MCU.  <br/> |
-|**McuUriType** <br/> |nvarchar(256)  <br/> |Тип URI блока MCU. Дополнительные сведения см. в таблице [UriTypes.](uritypes.md) <br/> |
+|**McuUri** <br/> |nvarchar (450)  <br/> |URI блока MCU.  <br/> |
+|**McuUriType** <br/> |nvarchar (256)  <br/> |Тип URI блока MCU. Дополнительные сведения см. в таблице [UriTypes.](uritypes.md) <br/> |
    
 

@@ -12,19 +12,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: ddd80580-59b2-46ba-a8d7-f31b20384ad1
-description: Этот Get-CcApplianceStatus предоставляет диагностические сведения для устройства Skype для бизнеса Cloud Connector Edition.
-ms.openlocfilehash: 65fc14301d85fd4826479eabcdf238b85dff54ab
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Этот Get-CcApplianceStatus предоставляет диагностические сведения для Skype для бизнеса Cloud Connector Edition устройства.
+ms.openlocfilehash: 5d40c6e4d1d6f18669fdc9fe54954fe8ace386daa1cf0d4d1fc7065e8dcd974f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41800589"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54347584"
 ---
 # <a name="get-ccappliancestatus"></a>Get-CcApplianceStatus
  
-Этот Get-CcApplianceStatus предоставляет диагностические сведения для устройства Skype для бизнеса Cloud Connector Edition.
+Этот Get-CcApplianceStatus предоставляет диагностические сведения для Skype для бизнеса Cloud Connector Edition устройства.
   
-Этот cmdlet применяется к Skype для бизнеса Cloud Connector Edition 2.1.
+Этот комлет применяется к Skype для бизнеса Cloud Connector Edition 2.1.
   
 ```
     Get-CcApplianceStatus 
@@ -32,7 +32,7 @@ ms.locfileid: "41800589"
 
 ## <a name="detailed-description"></a>Подробное описание
 
-Этот Get-CcApplianceStatus при запуске на хост-компьютере Cloud Connector предоставляет диагностические сведения для устройства Skype для бизнеса Cloud Connector.
+Этот Get-CcApplianceStatus, при запуске на хост-машине облачного соединителя, предоставляет диагностические сведения для Skype для бизнеса устройства облачного соединителя.
   
 ## <a name="parameters"></a>Параметры
 
@@ -40,7 +40,7 @@ ms.locfileid: "41800589"
   
 ## <a name="input-types"></a>Типы входных данных
 
-Нет. Этот Get-CcApplianceStatus не принимает конвейерные входные данные.
+Нет. В Get-CcApplianceStatus не принимается конвейерный ввод.
   
 ## <a name="return-types"></a>Типы возвращаемых данных
 

@@ -14,20 +14,20 @@ f1.keywords:
 - NOCSH
 ms.reviewer: crowe
 search.appverid: MET150
-description: Определите Телефон (Майкрософт) какой план системных звонков лучше всего будет обслуживать вашу организацию с облачную голосовую Teams.
+description: Определите Телефон (Майкрософт) какой план системных звонков лучше всего будет обслуживать вашу организацию с облачными голосами в Teams.
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b88af706f79dd195e2f9363ff45e586a1123686f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: c71c52f8209cc0030ee978b8c8b051c5d8101a55700f80f9dbe52fe36e84b3c3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102735"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54347534"
 ---
 # <a name="which-calling-plan-is-right-for-you"></a>Какой план звонков подходит для вас? 
 
-Вы завершили работу с [.](get-started-with-teams-quick-start.md) Вы развернули Teams с [чатом, командами, каналами и приложениями](deploy-chat-teams-channels-microsoft-teams-landing-page.md) в пределах всей организации. Возможно, вы развернули [&](deploy-meetings-microsoft-teams-landing-page.md)собрания. Теперь вы готовы добавить облачную голосовую нагрузку и решили использовать Телефон (Майкрософт) System с планом звонков для подключения к телефонной сети общего пользования (STN). 
+Вы завершили работу с [.](get-started-with-teams-quick-start.md) Вы развернули Teams с [чатом, командами, каналами и приложениями](deploy-chat-teams-channels-microsoft-teams-landing-page.md) в пределах всей организации. Возможно, вы развернули [&](deploy-meetings-microsoft-teams-landing-page.md)собрания. Теперь вы готовы добавить облачные рабочие нагрузки голосовой связи и решили использовать Телефон (Майкрософт) System с планом звонков для подключения к телефонной сети общего пользования (STN). 
 
 В этой статье описаны основные решения по развертыванию планов звонков, а также дополнительные факторы, которые может потребоваться настроить в зависимости от потребностей организации. Дополнительные сведения об облачных голосовых предложениях Майкрософт Microsoft Teams в Cloud [Voice](cloud-voice-landing-page.md) в Microsoft Teams.
 
@@ -55,10 +55,10 @@ ms.locfileid: "51102735"
 |Доступны ли планы звонков в моем регионе? Какие расположения пользователей будут иметь службу плана звонков? | Дополнительные сведения см. в сведениях о доступности страны и региона для аудиоконференций [и планов звонков.](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) | 
 Нужны ли пользователям международные вызовы? | Дополнительные сведения см. в [Microsoft 365 или Office 365.](calling-plans-for-office-365.md) |
 Есть ли у моих пользователей лицензии на планы звонков? | Чтобы приобрести и назначить лицензии, см. шаг [2. Покупка и назначение лицензий.](set-up-calling-plans.md#step-2-buy-and-assign-licenses) |
-У каждого из моих пользователей есть номер телефона для прямого звонка внутрь (DID)? | Чтобы получить номера телефонов, [см. шаг 3. Получить номера телефонов.](set-up-calling-plans.md#step-3-get-phone-numbers) |
+У каждого из пользователей есть номер телефона для прямого звонка внутрь (DID)? | Чтобы получить номера телефонов, [см. шаг 3. Получить номера телефонов.](set-up-calling-plans.md#step-3-get-phone-numbers) |
 |||
 
-### <a name="transfer-phone-numbers-to-microsoft-365-or-office-365"></a>Перенос номеров телефонов Microsoft 365 или Office 365
+### <a name="transfer-phone-numbers-to-microsoft-365-or-office-365"></a>Перенос номеров телефонов в Microsoft 365 или Office 365
 
 Перенести номера телефонов от текущего поставщика услуг в Teams. После переноса номеров телефонов в Teams поставщиком услуг становится корпорация Майкрософт, которая вы выставлена вам счета за эти телефонные номера. Дополнительные сведения см. в [этой](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)Teams.
 
@@ -69,7 +69,7 @@ ms.locfileid: "51102735"
 
 |Задайте себе вопрос|Действие |
 |:------------|:-------|
-|Насколько подробными должны быть адреса для экстренного обращения и сведения о местоположении? |Дополнительные сведения см. в [этой](/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-emergency-locations-addresses-and-call-routing)теме.
+|Насколько подробными должны быть адреса для экстренного обращения и сведения о местоположении? |Дополнительные сведения см. в сведениях Что такое местоположения для экстренного вызова, адреса и [маршруты звонка?](/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-emergency-locations-addresses-and-call-routing).
 
 
 ### <a name="calling-identity"></a>Удостоверение для звонков

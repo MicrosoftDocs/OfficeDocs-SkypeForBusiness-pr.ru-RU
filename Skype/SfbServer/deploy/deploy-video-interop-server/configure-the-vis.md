@@ -1,5 +1,5 @@
 ---
-title: Настройка сервера межоператоров видеосвязи в Skype для бизнеса Server
+title: Настройка сервера межоператной видеосвязи в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,15 +12,15 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 0fde142b-70b1-46c6-b1f9-f9d70115371d
-description: Сводка. Настройка роли Video Interop Server (VIS) в Skype для бизнеса Server.
-ms.openlocfilehash: 8d5da36d07583cc1c20407d842b94531062947ba
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Сводка. Настройка роли video Interop Server (VIS) в Skype для бизнеса Server.
+ms.openlocfilehash: 8f32be864e950d100faa0e3b5f5065d12018c5752610f5c1684aa2c73c84c73b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120308"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54313687"
 ---
-# <a name="configure-the-video-interop-server-in-skype-for-business-server"></a>Настройка сервера межоператоров видеосвязи в Skype для бизнеса Server
+# <a name="configure-the-video-interop-server-in-skype-for-business-server"></a>Настройка сервера межоператной видеосвязи в Skype для бизнеса Server
  
 **Сводка:** Настройка роли Video Interop Server (VIS) в Skype для бизнеса Server.
   
@@ -28,19 +28,19 @@ ms.locfileid: "51120308"
   
 ## <a name="configure-video-trunk-and-dial-plan"></a>Настройка магистрали видео и набора номера
 
-Используйте следующие команды Windows PowerShell, чтобы указать конфигурацию магистрали видео и план набора номера, которые будут связаны с недавно определенным магистральом(ы), определенным в документе топологии между VIS и всеми шлюзами видео. Все эти параметры можно установить на уровнях Global, Site или Service (Video Gateway). 
+Используйте следующие Windows PowerShell, чтобы указать конфигурацию магистрали видео и план набора номеров, которые будут связаны с недавно определенным магистральом(ы), определенным в документе топологии между VIS и всеми шлюзами видео. Все эти параметры можно установить на уровнях Global, Site или Service (Video Gateway). 
   
-Для развертывания Skype для бизнеса Server создается наборная программа с глобальной областью. Эта шкала применяется VIS для всех магистральных телефонов, у которых нет какой-либо телефонной программы с более определенной областью. 
+В Skype для бизнеса Server создается наборная Skype для бизнеса Server. Эта шкала применяется VIS для всех магистральных телефонов, у которых нет какой-либо телефонной программы с более определенной областью. 
   
 ### <a name="configure-the-vis-using-windows-powershell"></a>Настройка VIS с помощью Windows PowerShell
 
-1. Создайте новую конфигурацию магистрали видео (набор параметров), которая будет использовать в магистрали между диспетчером единой связи VIS и Cisco (CallManager или CUCM), используя следующий Windows PowerShell:
+1. Создайте новую конфигурацию магистрали видео (набор параметров), которая будет применяться в магистрали между диспетчером единой связи VIS и Cisco (CallManager или CUCM), используя следующий Windows PowerShell:
     
    ```powershell
    New-CsVideoTrunkConfiguration -Identity "Service:VideoGateway:CUCMVIS1.CUCMInterop.contoso.com" -GatewaySendsRtcpForActiveCalls $false -GatewaySendsRtcpForCallsOnHold $false -EnableMediaEncryptionForSipOverTls $true(or $false)
    ```
 
-    Если имеется существующий магистраль видео, который необходимо изменить, используйте следующий Windows PowerShell.
+    Если существует существующий магистраль видео, который необходимо изменить, используйте следующий Windows PowerShell:
     
    ```powershell
    Set-CsVideoTrunkConfiguration -Identity "Service:VideoGateway:CUCMVIS1.CUCMInterop.contoso.com" -GatewaySendsRtcpForActiveCalls $false -GatewaySendsRtcpForCallsOnHold $false -EnableMediaEncryptionForSipOverTls  $true(or $false)
@@ -52,13 +52,13 @@ ms.locfileid: "51120308"
    Get-CsVideoTrunkConfiguration -Identity "Service:VideoGateway:CUCMVIS1.CUCMInterop.contoso.com"
    ```
 
-    Чтобы удалить определенную конфигурацию магистрали видео, используйте следующий Windows PowerShell (обратите внимание, что глобально масштабная конфигурация магистрали видео будет применяться, если не существует более конкретной конфигурации магистрали видео для определенного магистраля):
+    Чтобы удалить определенную конфигурацию магистрали видео, используйте следующий Windows PowerShell (обратите внимание, что конфигурация магистрали видео с глобальной областью будет применяться, если для определенного магистраля не существует более конкретной конфигурации магистральных видео):
     
    ```powershell
    Remove-CsVideoTrunkConfiguration -Identity "Service:VideoGateway:CUCMVIS1.CUCMInterop.contoso.com"
    ```
 
-2. Создайте план набора для связи с магистралью, используя следующие Windows PowerShell:
+2. Создайте наборную плану для связи с магистралью, используя следующие Windows PowerShell:
     
    ```powershell
    New-CsDialPlan -Identity "Service:VideoGateway:CUCMVIS1.CUCMInterop.contoso.com" -SimpleName "TrunkTestDialPlan" 
@@ -74,7 +74,7 @@ ms.locfileid: "51120308"
 Для вызова магистрали видео SIP из видео шлюза, у которого URI запроса содержит номер, не связанный с E.164, VIS будет читать имя плана набора, связанного с связанным магистралью, и будет включать имя плана набора в контекстной части телефона URI запроса в приглашении, которое VIS отправляет в переднюю часть. Приложение для перевода на переднем конце извлекает и применяет правила нормализации, связанные с телефонной линией, к URI запроса.
 ## <a name="trunk-configuration-options"></a>Параметры конфигурации магистрали
 
-Эти Windows PowerShell для конфигурации магистрали видео, упомянутые ранее, были новыми для Skype для бизнеса Server 2015. Параметры, связанные с конфигурацией магистрали видео, требуют краткого объяснения.
+Эти Windows PowerShell для конфигурации магистрали видео, упомянутые ранее, были новыми для Skype для бизнеса Server 2015 г. Параметры, связанные с конфигурацией магистрали видео, требуют краткого объяснения.
   
  **GatewaySendsRtcpForActiveCalls** Этот параметр определяет, отправляются ли пакеты RTCP из ВТС в VIS для активных вызовов. В этом контексте активным вызовом является вызов, в котором разрешается передавать мультимедиа хотя бы в одном направлении. Если в GatewaySendsRtcpForActiveCalls установлено true, VIS может прекратить вызов, если он не получает пакеты RTCP в течение более 30 секунд. По умолчанию используется значение **True**.
   
@@ -88,4 +88,4 @@ ms.locfileid: "51120308"
   
 ## <a name="see-also"></a>См. также
 
-[Настройка CUCM для межоперации с помощью Skype для бизнеса Server](configure-cucm-for-interoperation.md)
+[Настройка CUCM для интеропераций с помощью Skype для бизнеса Server](configure-cucm-for-interoperation.md)

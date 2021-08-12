@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Узнайте о действиях по развертыванию, чтобы получить правильное постройное ПО, при необходимости обновить его, назначить лицензии и настроить параметры для Skype для бизнеса телефонов
-ms.openlocfilehash: 1c607f0dd5c3a82c744f26432fe1c65f31263440
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 072a7caa6d5b9caa1827f5f93973a12e77c1823063fad8706469a4fabfa87ff2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237375"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54295806"
 ---
 # <a name="deploying-skype-for-business-online-phones"></a>Развертывание телефонов для приложения Skype для бизнеса Online
 
@@ -42,7 +42,7 @@ ms.locfileid: "52237375"
 
 Прежде чем начать, рекомендуется скачать руководства по администрированию и эксплуатации телефона.
   
-- Для телефонов Polycom см. [библиотеку poly documentation library](https://documents.polycom.com/category/voice).
+- Для телефонов Polycom см. [библиотеку poly Documentation Library.](https://documents.polycom.com/category/voice)
     
 - Телефоны Yealink: см. [Yealink Skype for Business HD SIP Phones Solution (Решения на основе SIP-телефонов Skype для бизнеса HD)](http://www.yealink.com/products_top_2.html).
     
@@ -120,7 +120,7 @@ ms.locfileid: "52237375"
     > [!NOTE]
     > IP-телефоны LPE и партнеров для Skype для бизнеса Online не поддерживают проверку подлинности с помощью ПИН-кода. 
   
-- **Использование компьютера** Если на компьютере пользователя установлено и включено программное обеспечение Better Together over Ethernet (BToE), пользователи могут войти на свои телефоны с помощью окна проверки подлинности в Windows Skype для бизнеса App. Дополнительные сведения см. в шаге 7 (необязательно) При сопряжении устройств и Лучше вместе по [Ethernet (BToE).](deploying-skype-for-business-online-phones.md#BK_BTOE)
+- **Использование компьютера** Если на компьютере пользователя установлено и включено программное обеспечение Better Together over Ethernet (BToE), пользователи могут войти на свои телефоны с помощью окна проверки подлинности в Windows Skype для бизнеса App. Дополнительные сведения см. в шаге 7 (необязательно). Если у вас есть сопряжение устройств и вы хотите улучшить их совместно через [Ethernet (BToE).](deploying-skype-for-business-online-phones.md#BK_BTOE)
     
   > [!NOTE]
   > Для входа в систему телефона пользователи могут ввести назначенные им в организации имя пользователя и пароль. Например, в качестве имени пользователя следует использовать формат имени участника-пользователя, такой как  <em>amosm@contoso.com</em>  .
@@ -141,11 +141,11 @@ ms.locfileid: "52237375"
     
   - Телефоны **Polycom VVX 5XX/6XX**:
     
-     ![Снимок экрана: просроченный код Polycom](../../images/b5d27037-aa26-4054-be95-d5a6c293d08c.png)
+     ![Снимок экрана с истекшим кодом Polycom](../../images/b5d27037-aa26-4054-be95-d5a6c293d08c.png)
   
   - Телефоны **Yealink T48G/T46G**:
     
-     ![Снимок экрана: код Yealink с истекшим сроком действия](../../images/3a4462ac-0c59-409e-a3bb-1451cdcc8676.png)
+     ![Снимок экрана с истекшим кодом Yealink](../../images/3a4462ac-0c59-409e-a3bb-1451cdcc8676.png)
   
     В браузере перейдите по адресу, отображаемому на экране телефона, и введите свое имя пользователя Skype для бизнеса.
     

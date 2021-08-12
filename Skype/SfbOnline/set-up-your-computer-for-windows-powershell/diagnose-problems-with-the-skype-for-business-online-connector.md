@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - PowerShell
 description: Troubleshoot creating a remote PowerShell session to connect to Skype for Business Online, including Import-Module, concurrent shell, Live ID, and permission errors.
-ms.openlocfilehash: d220fbbf9df22964833aa42bcd29c5ecaaa6eaa5
-ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
+ms.openlocfilehash: 7bfbb420a4b501b68a0800f112a0af5e4d3c81287615c018ed289b8a90d56dbb
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52856068"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54295896"
 ---
 # <a name="diagnose-connection-problems-with-the-skype-for-business-online-connector"></a>Диагностика проблем подключения с помощью соединителя Skype для бизнеса Online
 
@@ -66,7 +66,7 @@ ms.locfileid: "52856068"
   
 - Ошибка **:** Импорт-модуль : файл C. Программные файлы Общие файлы Модули Microsoft <em> \\ \\ \\ Lync Server 2013 \\ \\ LyncOnlineConnector \\ LyncOnlineConnectorStartup.psm1 не загружаются, так как запуск сценариев отключен в этой системе. Дополнительные сведения см. в about_Execution_Policies https://go.microsoft.com/fwlink/?LinkID=135170 .</em>
 
-- **Разрешение** Чтобы устранить эту проблему, запустите PowerShell в качестве администратора и запустите следующую команду:
+- **Разрешение** Чтобы устранить эту проблему, запустите PowerShell с права администратора и запустите следующую команду:
     ```PowerShell
     Set-ExecutionPolicy RemoteSigned
     ```
@@ -77,14 +77,14 @@ ms.locfileid: "52856068"
 
 Модуль соединителя Skype для бизнеса Online можно запускать только в Windows PowerShell 3.0. При попытке импортировать модуль в предыдущей версии PowerShell процесс импорта будет сбой с сообщением об ошибке, аналогичным этому сообщению:
   
-  - **Ошибка**: Import-Module : версия загруженной *PowerShell — "2.0". Модуль 'D: Program \\ Files Common Files Microsoft \\ \\ Lync Server 2013 \\ Modules \\ LyncOnlineConnectorLyncOnlineConnector.psd1' требуется минимальная версия \\ PowerShell 3.0 для выполнения. Проверьте установку PowerShell и попробуйте еще раз.*
+  - **Ошибка**: *Import-Module : версия загружаемой PowerShell — "2.0". Модуль 'D: Program \\ Files Common Files Microsoft \\ \\ Lync Server 2013 \\ Modules \\ LyncOnlineConnectorLyncOnlineConnector.psd1' требуется минимальная версия \\ PowerShell 3.0 для выполнения. Проверьте установку PowerShell и попробуйте еще раз.*
 
 - **Решение.** Единственный способ устранить эту проблему — установить Windows PowerShell 3.0, которая доступна в Центре загрузки Майкрософт по ссылке [https://www.microsoft.com/download/details.aspx?id=34595](https://www.microsoft.com/download/details.aspx?id=34595) .
   
 ## <a name="modern-authentication-fails-when-winrm-basic-authentication-has-been-disabled"></a>Сбой современной проверки подлинности при отключенной проверке подлинности WinRM Basic
 <a name="BKMKWinRMBasicAuth"> </a>
 
-В последней версии модуля Skype для бизнеса Online Connector используется современная проверка подлинности, но для этого необходимо настроить базовый клиент Windows Удаленное управление (WinRM).  При современной проверке подлинности используются маркеры сноски, которые обычно передаются в заглавной области *Авторизация: bearer.* Windows PowerShell, на основе Skype для бизнеса PowerShell, не допускается возможность управления этим заглавным заглавом.  Вместо этого Skype для бизнеса PowerShell передает маркер сноски с помощью заглавного заглавного слова *Authorization: Basic.*
+В последней версии модуля Skype для бизнеса Online Connector используется современная проверка подлинности, но для этого необходимо настроить базовый клиент Windows Удаленное управление (WinRM).  Современная проверка подлинности использует маркеры сноски, которые обычно передаются в заглавной области *Авторизация: Bearer.* Windows PowerShell, на основе Skype для бизнеса PowerShell, не допускается возможность управления этим заглавным заглавом.  Вместо этого Skype для бизнеса PowerShell передает маркер сноски с помощью заглавного заглавного слова *Authorization: Basic.*
 
 Инструкции [о том, как включить проверку](./download-and-install-windows-powershell-5-1.md) подлинности WinRM для Basic, см. в Windows PowerShell и установке приложения.
 
@@ -92,7 +92,7 @@ ms.locfileid: "52856068"
 <a name="BKMKFailedConnect"> </a>
 
 > [!WARNING] 
-> Аутентификация live ID не была неподготовлена к Skype Для бизнеса Online Connector. Используйте модуль Teams PowerShell для управления сетевым клиентом. При управлении гибридными средами обновим систему до последнего накопительного обновления или используйте проверку подлинности oAuth.
+> Аутентификация live ID для соединителя Skype для бизнеса. Используйте модуль Teams PowerShell для управления сетевым клиентом. При управлении гибридными средами обновляются до последнего накопительного обновления или используется проверка подлинности oAuth.
 
 Обычно три причины могут вызвать сбой подключения со следующим сообщением об ошибке:
 
@@ -118,7 +118,7 @@ ms.locfileid: "52856068"
 
 - **Ошибка:** *Get-CsWebTicket : Не может загрузить модуль Live ID. Убедитесь, что установлена* правильная версия помощника по входу в Live Id.
 
-- **Разрешение:** помощник по входу в Microsoft Online Services доступен в Центре загрузки Майкрософт на сайте [Microsoft Online Services Sign-In помощника](https://www.microsoft.com/download/details.aspx?id=28177) для ИТ-специалистов RTW
+- **Разрешение:** помощник по входу в Microsoft Online Services доступен в Центре загрузки Майкрософт на сайте [Microsoft Online Services Sign-In помощника для ИТ-специалистов RTW](https://www.microsoft.com/download/details.aspx?id=28177)
 
 ## <a name="logon-failed-for-the-user"></a>Произошел сбой входа для пользователя
 <a name="BKMKLogonFailed"> </a>
@@ -135,7 +135,7 @@ ms.locfileid: "52856068"
 
 Невозможно установить удаленное подключение PowerShell к Skype для бизнеса online, если вы не являетесь участником группы "Администраторы клиента", так как в этом случае произойдет сбой подключения и вы получите следующее сообщение об ошибке:
 
-- Ошибка **:** New-PSSession : [admin.vdomain.com] При обработке данных с удаленного сервера admin.vdomain.com произошла ошибка со следующим сообщением об ошибке: у пользователя user@foo.com нет разрешения на управление этим *клиентом. Разрешения можно предоставить, назначив пользователю соответствующую роль RBAC. Дополнительные сведения см. в [удалении устранения неполадок.](/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1)*
+- Ошибка **:** New-PSSession : [admin.vdomain.com] Сбой обработки данных с удаленного сервера admin.vdomain.com со следующим сообщением об ошибке: у пользователя "user@foo.com" нет разрешения на управление этим *клиентом. Разрешения можно предоставить, назначив пользователю соответствующую роль RBAC. Дополнительные сведения см. в [удалении устранения неполадок.](/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1)*
 
 - **Решение:** если вы считаете, что вы входите в группу "Администраторы клиента", обратитесь в службу поддержки Майкрософт.
   

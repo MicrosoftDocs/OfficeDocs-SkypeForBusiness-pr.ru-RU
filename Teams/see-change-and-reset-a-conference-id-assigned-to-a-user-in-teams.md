@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: Узнайте, как назначить ИД конференции пользователю в Microsoft Teams и какие параметры должны быть для этих параметров.
-ms.openlocfilehash: b57a419266ceca09a73fc4bf75bb12153e41ea91
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 3086ff06d2a59028fd8b7c41aea8819cea733179e4596b036dc54d5eba927c91
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117212"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54323961"
 ---
 # <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-microsoft-teams"></a>Просмотр и сброс назначенного пользователю ИД конференции в Microsoft Teams
 
@@ -34,7 +34,7 @@ ms.locfileid: "51117212"
   
 Хотя ИД конференции будет автоматически создан и назначен пользователю, иногда пользователь не хочет использовать этот номер и хочет установить определенное число, или пользователи не могут вспомнить или потеряли свой ИД конференции. Вы можете использовать Microsoft Teams или Windows PowerShell для просмотра, изменения и сброса их ИД конференции.
   
-Идентификатор конференции и телефонные номера для проведения аудиоконференции, назначенные по умолчанию, будут отправлены пользователю по электронной почте. Если вы сбросите идентификатор конференции в настройках, по электронной почте вам придет другой идентификатор конференции, но не ПИН-код. Дополнительные сведения о том, как сбросить ПИН-код организатора [конференции Microsoft Teams](reset-a-conference-id-for-a-user-in-teams.md) см. в этой Microsoft Teams. 
+Идентификатор конференции и телефонные номера для проведения аудиоконференции, назначенные по умолчанию, будут отправлены пользователю по электронной почте. Если вы сбросите идентификатор конференции в настройках, по электронной почте вам придет другой идентификатор конференции, но не ПИН-код. Дополнительные сведения о том, как сбросить [ПИН-код](reset-a-conference-id-for-a-user-in-teams.md) организатора конференции, см. в Microsoft Teams. в этой Microsoft Teams. 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]

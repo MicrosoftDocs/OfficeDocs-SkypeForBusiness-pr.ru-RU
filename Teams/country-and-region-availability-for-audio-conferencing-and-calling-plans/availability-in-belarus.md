@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Ниже ются Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для нее.
-ms.openlocfilehash: 33b6e7c0048c20a0a512abdf106b301d62d297e1
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 14b904c402eb3b14f279bbc81e4b124fb2f115e60e354191ef2f9357f7d7a7f3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118378"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54314145"
 ---
 # <a name="availability-in-belarus"></a>Доступность в Беларуси
 

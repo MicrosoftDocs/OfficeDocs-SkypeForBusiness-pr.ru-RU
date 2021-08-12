@@ -42,7 +42,7 @@
               href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/deploy-a-single-site-in-cloud-connector.md
             - name: Развертывание нескольких сайтов в Cloud Connector
               href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/deploy-multiple-sites-in-cloud-connector.md
-            - name: "Настройка интеграции Cloud Connector с организацией Office\_365"
+            - name: Настройка интеграции Cloud Connector с организацией Office 365
               href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/configure-cloud-connector-integration-with-your-office-365-tenant.md
             - name: Проверка развертывания Cloud Connector
               href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/validate-your-cloud-connector-deployment.md
@@ -195,7 +195,7 @@
             - name: Клиенты собраний
               href: ../plan-your-deployment/clients-and-devices/meetings-clients.md
               items:
-                - name: "Минимальные требования к сети для приложения \"Собрания\_Skype\""
+                - name: Минимальные требования к сети для приложения "Собрания Skype"
                   href: ../plan-your-deployment/clients-and-devices/minimum-network-requirements.md
             - name: Требования для Windows Phone
               href: ../plan-your-deployment/clients-and-devices/requirements-for-windows-phone.md
@@ -698,7 +698,7 @@
               href: ../deploy/deploy-conferencing/office-web-app-server.md
             - name: Конференц-связь с телефонным подключением
               href: ../deploy/deploy-conferencing/dial-in-conferencing.md
-            - name: "Веб-портал администрирования системы комнат версии\_1"
+            - name: Веб-портал администрирования системы комнат версии 1
               href: ../deploy/deploy-conferencing/room-system-v1-administrative-web-portal.md
         - name: Развертывание пограничного сервера
           href: ../deploy/deploy-edge-server/deploy-edge-server.md
@@ -763,7 +763,7 @@
                   href: ../deploy/deploy-clients/manageability-and-tools.md
                 - name: Сценарии настройки комнат
                   href: ../deploy/deploy-clients/room-setup-scripts.md
-            - name: "Системы комнат Skype версии\_2"
+            - name: Системы комнат Skype версии 2
               href: /MicrosoftTeams/rooms/rooms-deploy
               items:
                 - name: В Office 365

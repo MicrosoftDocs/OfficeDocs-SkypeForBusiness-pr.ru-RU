@@ -8,7 +8,7 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 audience: admin
-description: Узнайте, как Microsoft 365 групп Microsoft Teams, пригласив список рассылки в группу, добавьте группы безопасности с поддержкой электронной почты и другие возможности.
+description: Узнайте, как Microsoft 365 групп Microsoft Teams, пригласив список рассылки в группу, добавить группы безопасности с поддержкой электронной почты и другие возможности.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -18,22 +18,21 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: cf53c22895df1ad164ef688ad922c78a9c3ec761a6117ddf24eed633fe8e056a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 232c22c4d96796a983c3c65770f3fbabcce7753e5e6a5ae1daba693fa154a630
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54301964"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57850144"
 ---
-<a name="enhance-existing-microsoft-365-groups-with-microsoft-teams"></a>Расширение существующих Microsoft 365 с помощью Microsoft Teams
-=======================================================
+# <a name="enhance-existing-microsoft-365-groups-with-microsoft-teams"></a>Расширение существующих Microsoft 365 с помощью Microsoft Teams
 
-Microsoft Teams пользователи могут улучшить существующую группу Microsoft 365 с помощью Teams функций. При улучшении общедоступных групп Microsoft 365 пользователи могут сделать это, если число участников не превышает 5000.
+Microsoft Teams пользователи могут улучшить существующую группу Microsoft 365 с Teams функциональными возможностями. При улучшении общедоступных групп Microsoft 365 пользователи могут сделать это, если число участников не превышает 5000.
 
 Для этого пользователям следует выполнить процедуру создания команды из клиента Microsoft Teams. Выберите **Создать из** Microsoft 365 , а затем выберите существующую группу, которую вы хотите  >  Teams. Участники этой группы автоматически добавляются в команду.
 
 > [!IMPORTANT]
-> Только Microsoft 365 группы имеют разрешение на расширение существующей группы с помощью Teams, и эта группа должна содержать менее 5000 пользователей. Teams, которые уже были улучшены, не будут в списке.
+> Только Microsoft 365 группы имеют разрешение на расширение существующей группы с Teams, и эта группа должна содержать менее 5000 пользователей. Teams, которые уже были улучшены, не будут в списке.
 >
 >Возможность создания команды из группы Microsoft 365 будет недоступна, если не выполнены эти условия.
 

@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: fee9eda7-ad15-40d2-b9fe-21c5462d3309
-description: The Stop-CcLogging stops generating the incoming and outgoing call log for a Skype for Business Cloud Connector Edition appliance.
-ms.openlocfilehash: 8a012e9b1a94c3698cc61da4326eb0ccbb27bca2
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Этот Stop-CcLogging перестает создавать журнал входящих и исходяющих вызовов для Skype для бизнеса Cloud Connector Edition устройства.
+ms.openlocfilehash: 7813acf9867829cadaa26d84a0e8a6c33f825ef45b9fca781840a44f94574930
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824163"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54347564"
 ---
 # <a name="stop-cclogging"></a>Stop-CcLogging
  
-The Stop-CcLogging stops generating the incoming and outgoing call log for a Skype for Business Cloud Connector Edition appliance.
+Этот Stop-CcLogging перестает создавать журнал входящих и исходяющих вызовов для Skype для бизнеса Cloud Connector Edition устройства.
   
 ```powershell
 Stop-CcLogging [-RemoveCache]
@@ -31,7 +31,7 @@ Stop-CcLogging [-RemoveCache]
 ## <a name="examples"></a>Примеры
 <a name="Examples"> </a>
 
-### <a name="example-1"></a>Пример 1
+### <a name="example-1"></a>Пример 1
 
 В следующем примере прекращается создание журнала входящих и исходяющих вызовов: 
   
@@ -39,9 +39,9 @@ Stop-CcLogging [-RemoveCache]
 Stop-CcLogging
 ```
 
-### <a name="example-2"></a>Пример 2
+### <a name="example-2"></a>Пример 2
 
-В следующем примере прекращается создание журнала входящих и исходяющих вызовов, а также очищаются файлы кэша:
+В следующем примере прекращается создание журнала входящих и исходяющих вызовов и очищается кэш-файлы:
   
 ```powershell
 Stop-CcLogging -RemoveCache
@@ -50,19 +50,19 @@ Stop-CcLogging -RemoveCache
 ## <a name="detailed-description"></a>Подробное описание
 <a name="DetailedDescription"> </a>
 
-Этот Stop-CcLogging останавливает ведение журнала входящих и исходяющих вызовов на устройстве. По умолчанию ведение журнала автоматически останавливается через четыре часа.
+Этот Stop-CcLogging прекращает ведение журнала входящих и исходяющих вызовов на устройстве. По умолчанию журнал автоматически остановится через четыре часа.
   
 ## <a name="parameters"></a>Параметры
 <a name="DetailedDescription"> </a>
 
 |**Параметр**|**Required**|**Тип**|**Описание**|
 |:-----|:-----|:-----|:-----|
-| RemoveCache <br/> | Необязательный <br/> | System.Management.Automation.SwitchParameter <br/> |Удаляет файлы кэша журналов.  <br/> |
+| RemoveCache <br/> | Необязательный <br/> | System.Management.Automation.SwitchParameter <br/> |Удаляет файлы кэша ведения журнала.  <br/> |
    
 ## <a name="input-types"></a>Типы входных данных
 <a name="InputTypes"> </a>
 
-Нет. Этот Stop-CcLogging не принимает конвейерные входные данные.
+Нет. В Stop-CcLogging не принимается конвейерный ввод.
   
 ## <a name="return-types"></a>Типы возвращаемых данных
 <a name="ReturnTypes"> </a>

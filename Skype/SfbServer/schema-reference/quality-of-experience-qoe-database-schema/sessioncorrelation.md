@@ -12,23 +12,23 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 041705e1-7290-464f-95f8-96256cfa2e3e
-description: Таблица SessionCorrelation является вспомогательной. Каждая запись представляет один CorrelationID, который используется для корреляции нескольких сеансов.
-ms.openlocfilehash: 36b617517f3642a2150c72369db858eee62a4a87
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Таблица SessionCorrelation — это вспомогательная таблица. Каждая запись представляет один CorrelationID, который используется для сопоставления нескольких сеансов.
+ms.openlocfilehash: 2029d78a0a083bcf8817b3a819cd28e74824995d79575036ecafd85998bd5218
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49802659"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54314425"
 ---
 # <a name="sessioncorrelation-table"></a>Таблица SessionCorrelation
  
-Таблица SessionCorrelation является вспомогательной. Каждая запись представляет один CorrelationID, который используется для корреляции нескольких сеансов. 
+Таблица SessionCorrelation — это вспомогательная таблица. Каждая запись представляет один CorrelationID, который используется для сопоставления нескольких сеансов. 
   
-|**Столбец**|**Тип данных**|**Ключ/индекс**|**Details**|
+|**Column**|**Тип данных**|**Key/Index**|**Сведения**|
 |:-----|:-----|:-----|:-----|
 |**Контрольная сумма** <br/> |int  <br/> |||
-|**CorrelationKey** <br/> |int  <br/> |Primary  <br/> |Уникальный номер, идентифицирующий этот сервер A/V Conferencing Server.  <br/> |
-|**CorrelationID** <br/> |nvarchar(256)  <br/> |Уникальные  <br/> |Связанные сеансы будут иметь одинаковый ид корреляции.  <br/> |
+|**CorrelationKey** <br/> |int  <br/> |Primary  <br/> |Уникальный номер, идентифицирующий этот сервер A/V Conferencing.  <br/> |
+|**CorrelationID** <br/> |nvarchar (256)  <br/> |Уникальные  <br/> |Сопоставленные сеансы будут иметь одинаковый ID корреляции.  <br/> |
 |**NextUpdateTS** <br/> |datetime  <br/> | <br/> |Только для внутреннего использования.  <br/> |
    
 

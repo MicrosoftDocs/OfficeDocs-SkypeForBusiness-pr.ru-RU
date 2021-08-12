@@ -22,13 +22,13 @@ ms.custom:
 - Legal
 - seo-marvel-mar2020
 hideEdit: true
-description: Вы можете подать претензию Skype для служб звонков по ЖКХ в Соединенном Королевстве, отслужить временные шкалы для ответов и разрешить споры по несконченным претензиям.
-ms.openlocfilehash: 75ee19a237f669bf52ce354f325275f859180dd0
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+description: Вы можете подать претензию Skype для служб звонков по ЖКХ в Великобритании, отслужить временные шкалы для ответов и устранить споры по нерешаемой жалобе.
+ms.openlocfilehash: 5d0697de0d0c19038c5b6307eca4023f2838ee0aab010fb7a33faf371300625c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780278"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54347414"
 ---
 # <a name="calling-plans-in-microsoft-365---complaint-handling-code-for-the-united-kingdom-uk"></a>Планы звонков в Microsoft 365 — код подачи претензий для Великобритании
 
@@ -40,7 +40,7 @@ ms.locfileid: "43780278"
 
 - Бесплатный телефонный номер: 0800 032 6417
 
-- В Интернете: во Microsoft 365 службы администрирования и отправьте запрос на обслуживание, выбрав Новый запрос на обслуживание **в** службе **поддержки**.
+- В Сети: во Центр администрирования Microsoft 365 и отправьте запрос на обслуживание, выбрав **Новый** запрос на обслуживание в службе **поддержки**.
 
 ## <a name="timelines"></a>Временные шкалы
 

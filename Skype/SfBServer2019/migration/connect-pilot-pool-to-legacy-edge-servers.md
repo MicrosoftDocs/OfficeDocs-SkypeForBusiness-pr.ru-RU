@@ -10,35 +10,35 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: After deploying Skype for Business Server 2019, you need to configure a federation route for your site. Чтобы использовать федераированный маршрут, используемый устаревшей установкой, необходимо настроить Skype для бизнеса Server 2019 на использование этого маршрута.
-ms.openlocfilehash: 8243ebbf9540587dedd8e4ae3a51e22f9a315728
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+description: После развертывания Skype для бизнеса Server 2019 года необходимо настроить маршрут федерации для сайта. Чтобы использовать федераированный маршрут, используемый устаревшей установкой, необходимо настроить Skype для бизнеса Server 2019 г. для использования этого маршрута.
+ms.openlocfilehash: 8e76dfc9ee99e2c4e82f40d3aba4aa8a43972c98e0569416ce293b2cfc012d96
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44753929"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54296016"
 ---
 # <a name="connect-pilot-pool-to-legacy-edge-servers"></a>Подключение пилотного пула к старым пограничным серверам
 
-After deploying Skype for Business Server 2019, you need to configure a federation route for your site. Чтобы использовать федераированный маршрут, используемый устаревшей установкой, необходимо настроить Skype для бизнеса Server 2019 на использование этого маршрута. 
+После развертывания Skype для бизнеса Server 2019 года необходимо настроить маршрут федерации для сайта. Чтобы использовать федераированный маршрут, используемый устаревшей установкой, необходимо настроить Skype для бизнеса Server 2019 г. для использования этого маршрута. 
   
-Чтобы позволить сайту Skype для бизнеса Server 2019 использовать директор и edge-сервер устаревшего развертывания, используйте построитель топологий для связывание устаревшего пула.
+Чтобы позволить сайту Skype для бизнеса Server 2019 использовать director и edge Server устаревшего развертывания, используйте Topology Builder для связывание устаревшего пула Edge.
   
 ### <a name="to-associate-the-legacy-edge-pool-by-using-topology-builder"></a>Связь устаревшего пограничного пула с помощью построителя топологий
 
 1. Откройте построитель топологий. 
     
-2. Выберите свой сайт, который находится непосредственно под узлом **Skype для бизнеса Server.** 
+2. Выберите свой сайт, который находится непосредственно ниже **Skype для бизнеса Server** узла. 
     
 3. В меню **Actions** (Действия) выберите команду **Изменить свойства**.
     
 4. В левой области выберите **Федеративный маршрут**.
     
-5. В **области назначения маршрута** федерации сайта выберите "Включить **федерацию SIP",** а затем выберите устаревший директор или устаревший сервер, если директор не указан.
+5. В **соответствии с назначением** маршрута федерации сайта выберите **включить федерацию SIP,** а затем выберите устаревший директор или устаревший edge Server, если не указан директор.
   
 6. Нажмите кнопку **ОК**, чтобы закрыть страницу **изменения свойств**. 
     
-7. In Topology Builder, under the Skype for Business Server 2019 node, navigate to the **Standard Edition server** or Enterprise Edition Front End **pools,** right-click the pool, and then click **Edit Properties**.
+7. В topology Builder в узле Skype для бизнеса Server 2019  перейдите к выпуск Standard серверу или выпуск Enterprise пулам **переднего** выпуск Enterprise, щелкните правой кнопкой мыши пул, а затем нажмите кнопку **Изменить свойства**.
     
 8. В разделе **Associations** (Связи) установите флажок **Associate Edge pool (for media components)** (Связать пограничный пул (для компонентов медиа)). 
     
@@ -46,7 +46,7 @@ After deploying Skype for Business Server 2019, you need to configure a federati
   
 10. Нажмите кнопку **ОК**, чтобы закрыть страницу **изменения свойств**. 
     
-11. In **Topology Builder**, select the top-most node, **Skype for Business Server**.
+11. В **Topology Builder** выберите самый верхний узел **Skype для бизнеса Server.**
     
 12. В меню **Action** (Действие) выберите команду **Publish Topology** (Опубликовать топологию) и нажмите кнопку **Далее**.
     

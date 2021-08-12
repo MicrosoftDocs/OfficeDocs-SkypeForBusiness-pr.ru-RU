@@ -23,13 +23,13 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: Узнайте о наборе бесплатных номеров во Вьетнаме, в том числе о доступности, доступности проводных и фиксированных телефонных номеров, а также ограничениях для мобильной сети.
-ms.openlocfilehash: 52228a24a54ac090499f33a7af66deee83d48cec
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Узнайте о наборе бесплатных номеров во Вьетнаме, включая доступность, доступность проводной и фиксированной телефонной связи, а также ограничения для мобильной сети.
+ms.openlocfilehash: 533f221518c422ab1d0bcb132cca2cfddf737d1f7a956dc1c560052b5a68af66
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116557"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54335839"
 ---
 # <a name="toll-free-dialing-restrictions-in-vietnam"></a>Ограничения набора бесплатных номеров во Вьетнаме
 
@@ -45,7 +45,7 @@ ms.locfileid: "51116557"
 | Неохватываемая территория  <br/>              | Неприменимо  <br/>                                                                                                                                                                                                                                                                                                                                                                                     |
 | Доступность проводных и наземных линий связи  <br/>             | Частично. См. примечания.  <br/>                                                                                                                                                                                                                                                                                                                                                                             |
 | Доступность мобильных сетей  <br/>               | Частично. См. примечания.  <br/>                                                                                                                                                                                                                                                                                                                                                                             |
-| Примечания, ограничения и проблемы с доступом  <br/> | Номера формата 120 XX XXX доступны для абонентов наземных и мобильных сетей Vietnam Telecom International (VTI) и VNPT (Vietnam Post and Telecommunications). <br/> <br/> С июня 2018 г. нельзя будет использовать номер формата 120 XX XXX из мобильной сети Мебифона. <br/> <br/>**Примечание.** В состав VNPT входит приложение "Мебиефон &amp; Vinaphone". The number format 122 XXX XX network coverage: Viettel (fixed and mobile). As per the Vietnam Ministry of Telecommunications, the maximum allowable call duration is 2 hours. |
+| Примечания, ограничения и проблемы с доступом  <br/> | Номера формата 120 XX XXX доступны для абонентов наземных и мобильных сетей Vietnam Telecom International (VTI) и VNPT (Vietnam Post and Telecommunications). <br/> <br/> С июня 2018 г. номер 120 XX XXX нельзя будет называть из мобильной сети Мебифона. <br/> <br/>**Примечание.** В состав VNPT входит приложение "Мебиефон &amp; Vinaphone". The number format 122 XXX XX network coverage: Viettel (fixed and mobile). As per the Vietnam Ministry of Telecommunications, the maximum allowable call duration is 2 hours. |
    
 ## <a name="related-topics"></a>Статьи по теме
 

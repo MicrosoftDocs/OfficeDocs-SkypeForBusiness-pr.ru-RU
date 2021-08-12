@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Выполните эти действия, чтобы создать телефонный номер по умолчанию, с помощью Microsoft Teams собрания.
-ms.openlocfilehash: 476075ccf5e261695564b78ec084605af9e6898c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 11c9a31d723b5da63152f1a8a79d54938f9ecc31644afbe3421a2bd59f0f5626
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117177"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54335899"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-microsoft-teams"></a>Задание телефонных номеров, включаемых в приглашения, в Microsoft Teams
 
@@ -49,7 +49,7 @@ ms.locfileid: "51117177"
 
 После включения службы аудиоконференций администратор клиента может в любой момент изменить платные и бесплатные номера телефонов пользователя по умолчанию.
 
-## <a name="set-or-change-the-default-audio-conferencing-phone-number-for-a-meeting-organizer-or-user"></a>Настройка или изменение номера телефона для аудиоконференции по умолчанию для организатора или пользователя собрания
+## <a name="set-or-change-the-default-audio-conferencing-phone-number-for-a-meeting-organizer-or-user"></a>Настройка или изменение номера телефона аудиоконференции по умолчанию для организатора или пользователя собрания
 
 ![Значок с логотипом Microsoft Teams](media/teams-logo-30x30.png) **Использование центра администрирования Microsoft Teams**
 
@@ -57,7 +57,7 @@ ms.locfileid: "51117177"
 
 1. Войдите в центр Microsoft Teams администрирования.
 
-2. В левой области навигации щелкните **Пользователи**.
+2. В области навигации слева щелкните **Пользователи**.
 
     ![Выбор пользователей в Центре Microsoft Teams администрирования](media/Admin-users.png)
 
@@ -67,7 +67,7 @@ ms.locfileid: "51117177"
 
     ![Нажмите кнопку "Изменить" рядом с кнопкой Аудиоконференция](media/teams-set-phone-numbers-on-invites-image3.png)
 
-5. Введите **номера для** пользователя с помощью полей Платный номер или Бесплатный номер. 
+5. Используйте поля **Платный номер** **или** Бесплатный номер, чтобы ввести номера для пользователя.
 
 > [!IMPORTANT]
 > При изменении параметров аудиоконференции пользователя повторяющиеся и будущие собрания Microsoft Teams должны быть обновлены и отправлены участникам.

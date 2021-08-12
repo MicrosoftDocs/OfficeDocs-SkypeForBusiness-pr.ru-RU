@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже находятся Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams дляIze.
-ms.openlocfilehash: 362a8bccb8d52e97b52dfc45929b99b5abe39c0e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Ниже 10 Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams Для Новгорода.
+ms.openlocfilehash: 7d70de62d3bcf394053bd79be9bf46229316b5bc8acebe7669fec72c84134b08
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118358"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54314115"
 ---
 # <a name="availability-in-belize"></a>Доступность в Белизе
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже находятся Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams дляIze.
+Ниже 10 Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams Для Новгорода.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 

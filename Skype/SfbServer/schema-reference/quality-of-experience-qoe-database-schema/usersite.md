@@ -12,22 +12,22 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 1c2a3cf2-dc05-472e-8097-a31f3a1aafcb
-description: Таблица UserSite является вспомогательной. Каждая запись представляет один сайт пользователя, определенный в параметре конфигурации сети.
-ms.openlocfilehash: 88df08875ea3254ee355a96aa3b12d3ee7f5ccaf
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Таблица UserSite — это вспомогательная таблица. Каждая запись представляет один сайт пользователя, определенный в параметре конфигурации сети.
+ms.openlocfilehash: 01ab76218040d37176355d62768c6a8b8f4b7336d22ce7263c61ac9fc8c289ed
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49799919"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54314335"
 ---
 # <a name="usersite-table"></a>Таблица UserSite
  
-Таблица UserSite является вспомогательной. Каждая запись представляет один сайт пользователя, определенный в параметре конфигурации сети.
+Таблица UserSite — это вспомогательная таблица. Каждая запись представляет один сайт пользователя, определенный в параметре конфигурации сети.
   
-|**Столбец**|**Тип данных**|**Ключ/индекс**|**Details**|
+|**Column**|**Тип данных**|**Key/Index**|**Сведения**|
 |:-----|:-----|:-----|:-----|
 |**UserSiteKey** <br/> |int  <br/> |Primary  <br/> |Уникальный номер, идентифицирующий сайт пользователя.  <br/> |
-|**UserSiteName** <br/> |nvarchar(128)  <br/> |Уникальные  <br/> |Имя сайта пользователя.  <br/> |
-|**RegionKey** <br/> |int  <br/> |Внешняя  <br/> |Ссылка из [таблицы Region.](region.md)  <br/> |
+|**UserSiteName** <br/> |nvarchar (128)  <br/> |Уникальные  <br/> |Имя сайта пользователя.  <br/> |
+|**RegionKey** <br/> |int  <br/> |Foreign  <br/> |Ссылки из [таблицы Регион](region.md).  <br/> |
    
 
