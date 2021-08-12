@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0a5a0ce5-a191-42d1-acad-f8f17895305d
 description: Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
-ms.openlocfilehash: a757c7bd4bc12f0aa03ec50ea3dff6e2a3db3992
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 69317b1386995af7f105dc7fa516d12a3f593f9301e2f68bad889c274bbf7450
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119898"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54331311"
 ---
 # <a name="topology-view-service-detail"></a>Топология: просмотр сведений о службе
 
@@ -34,4 +34,4 @@ ms.locfileid: "51119898"
 
 - [Предотвращение новых подключений к службам](/previous-versions/office/lync-server-2013/lync-server-2013-prevent-sessions-for-services)
 
-Сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнес-серверов, см. в материале Управление Skype для бизнеса [Server 2015.](../../manage/manage.md)
+Сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнеса Server, см. в Skype для бизнеса Server [2015](../../manage/manage.md)г.

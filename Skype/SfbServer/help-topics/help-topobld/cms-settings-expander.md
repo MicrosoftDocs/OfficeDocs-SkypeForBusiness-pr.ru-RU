@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4b882923-ed6f-44f3-ad9c-aabad5a3bc00
 description: Центральный сервер управления можно изменить с одного заданного пула переднего плана на другой заданный пул переднего плана. Чтобы изменить расположение центрального сервера управления, выберите пул переднего плана в раскрывающемся списке Сервер переднего плана для установки центрального хранилища управления. В качестве сервера переднего плана может выступать пул переднего плана Enterprise Edition или сервер переднего плана Standard Edition.
-ms.openlocfilehash: 42b4d4856e32929a9b56e69edfcf48d13f8ab66d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 5f7b8d0b438b162bbdf4452cc1b26ecdc10f8906a036bf281b3d7eb22507f05d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122463"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54346545"
 ---
 # <a name="cms-settings-expander"></a>Расширитель параметров CMS
  

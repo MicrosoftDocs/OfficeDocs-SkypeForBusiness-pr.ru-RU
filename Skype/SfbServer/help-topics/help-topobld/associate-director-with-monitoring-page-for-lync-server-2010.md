@@ -14,21 +14,21 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4ad77291-832d-41ee-9ffc-61132691363b
-description: 'Чтобы настроить сервер мониторинга и связать его с директором или пулом директоров:'
-ms.openlocfilehash: f4c61893ab6d703afd9dc82b5fc21a9b611261fd
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Чтобы настроить сервер мониторинга и связать его с пулом Директор или Директор:'
+ms.openlocfilehash: d8edad120b8f2d8e90e32cfd23beca597e08ecd513a688b4a1a65323cf9c6547
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49818579"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54346575"
 ---
 # <a name="associate-director-with-monitoring-page-for-lync-server-2010"></a>Страница сопоставления директора с мониторингом для Lync Server 2010
  
-Чтобы настроить сервер мониторинга и связать его с директором или пулом директоров:
+Чтобы настроить сервер мониторинга и связать его с пулом Директор или Директор:
   
-В **списке "Сервер** мониторинга" выберите в списке сервер мониторинга.
+В **статье Monitoring Server** выберите из списка сервер мониторинга.
   
-Если сервер мониторинга не существует и вы хотите создать его сейчас, нажмите кнопку **"Создать".**
+Если нет сервера мониторинга, и вы хотите создать сервер мониторинга сейчас, нажмите **кнопку New**.
   
  **Назад**. Возврат в предыдущее диалоговое окно
   

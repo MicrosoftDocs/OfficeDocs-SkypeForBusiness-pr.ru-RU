@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6b2a3f7d-760f-4f09-8432-312c98a7e6b7
 description: Узнайте о магистральных шлюзах SIP и PSTN для Корпоративная голосовая связь в Skype для бизнеса Server.
-ms.openlocfilehash: 402aa365556ef52d135c3ee6c0a2e36e9bd2e780
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 3ac0a2afba49da52b909bf8b4c040f1124c510ba1818e37100f0c0ebdae941c4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51114625"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54286348"
 ---
 # <a name="pstn-connectivity-components-in-skype-for-business-server"></a>Компоненты подключения к PSTN в Skype для бизнеса Server
  
@@ -60,6 +60,6 @@ ms.locfileid: "51114625"
 > [!NOTE]
 > Обход сервера-посредника не будет взаимодействовать с каждым шлюзом ТСОП, IP-УАТС и SBC. Корпорация Майкрософт протестировала ряд шлюзов ТСОП и SBC с сертифицированными партнерами и выполнила некоторые тесты с IP-УАТС компании Cisco. Обход мультимедиа поддерживается только продуктами и версиями, перечисленными в программе open [interoperability Unified Communications - Lync Server.](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md) 
   
-Сведения о партнерах, Корпоративная голосовая связь решениях, см. на сайте [Microsoft Unified Communications Partners.](https://go.microsoft.com/fwlink/p/?linkId=202836)
+Сведения о партнерах, предлагавших Корпоративная голосовая связь решения, см. на сайте [Microsoft Unified Communications Partners.](https://go.microsoft.com/fwlink/p/?linkId=202836)
   
 Подробные сведения о партнерах, Корпоративная голосовая связь аппаратных решениях, включая шлюзы PSTN, см. на сайте [Microsoft Unified Communications Partners.](https://go.microsoft.com/fwlink/p/?linkId=202836)

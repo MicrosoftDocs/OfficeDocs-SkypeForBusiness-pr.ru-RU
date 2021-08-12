@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 5fb5b189-56c1-49cf-92c8-e4fd6e2fdd5c
 description: Узнайте, как настроить высокую доступность и аварийное восстановление для сохраняемой сервера чата в Skype для бизнеса Server 2015 г.
-ms.openlocfilehash: 02eda20ae9db1a623fd17534cce4fb9ef7963b05
+ms.openlocfilehash: 6579d9b6dfa8a2c9bed237cf98685137f229860a7fe4f338f3d994230516d353
 ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/05/2021
-ms.locfileid: "53772440"
+ms.locfileid: "54298589"
 ---
 # <a name="business-server-2015-configure-high-availability-and-disaster-recovery-for-persistent-chat-server"></a>Business Server 2015: Настройка высокой доступности и аварийного восстановления для сохраняемой сервера чата
  

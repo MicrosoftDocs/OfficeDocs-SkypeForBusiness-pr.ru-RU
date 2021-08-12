@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d5f858f5-df8e-43a9-80aa-6ba1ddb27459
 description: 'На странице Топология: Состояние отображается состояние серверов в топологии Skype для бизнеса.'
-ms.openlocfilehash: 993410a52cd8e843b7df64141354aca9272198a0
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: a4af861e23592ce58590593ef3fd73af1b2a2a25b47b3b3ce1a8249544cf6b98
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51099265"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54331351"
 ---
 # <a name="topology-status"></a>Топология: состояние
 
@@ -38,4 +38,4 @@ ms.locfileid: "51099265"
 
 - [Предотвращение новых подключений к службам](/previous-versions/office/lync-server-2013/lync-server-2013-prevent-sessions-for-services)
 
-Сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнес-серверов, см. в материале Управление Skype для бизнеса [Server 2015.](../../manage/manage.md)
+Сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнеса Server, см. в Skype для бизнеса Server [2015](../../manage/manage.md)г.

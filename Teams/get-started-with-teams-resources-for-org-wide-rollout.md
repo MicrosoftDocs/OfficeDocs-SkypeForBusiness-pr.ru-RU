@@ -1,5 +1,5 @@
 ---
-title: Начните развертывание Microsoft Teams в масштабе всей организации
+title: Начните развертывание Microsoft Teams в масштабе всей организации
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -21,14 +21,14 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 41b5a0f2a09d05ba1a55ee3fcd31ce3a9c4222b2
-ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
+ms.openlocfilehash: bccc3f9253a9aecdfe0b6fd99c9edd7653f408b653224f754d352ebb479a9cd1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50726210"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54322571"
 ---
-# <a name="start-your-organization-wide-rollout-of-microsoft-teams"></a>Начните развертывание Microsoft Teams в масштабе всей организации
+# <a name="start-your-organization-wide-rollout-of-microsoft-teams"></a>Начните развертывание Microsoft Teams в масштабе всей организации
 
 После того, как вы успешно создали и настроили первые команды и подключили нескольких пользователей, можно начать развертывание Teams для всей организации.
 

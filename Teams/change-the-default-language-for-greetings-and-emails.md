@@ -23,16 +23,16 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: Узнайте, как Microsoft Teams и Skype для бизнеса использовать другой язык для приветствия голосовой почты по умолчанию в организации.
-ms.openlocfilehash: f211a5e160ce05707a454e5100409840e4c781ac
-ms.sourcegitcommit: eca3f5e83e4a07be197936db19f539cbfa2c2bd2
+ms.openlocfilehash: 92f767a366ac6c3250f529ec022f9b12414bd2f542c00c8f267596c7e276ee0b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52804526"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54339885"
 ---
 # <a name="change-the-default-language-for-greetings-and-emails"></a>Изменение языка по умолчанию для приветствий и электронных писем
 
-Если вы [глобальный](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)администратор, вы можете настроить Skype для бизнеса для воспроизведения приветствия голосовой почты по умолчанию на другом языке. По умолчанию в системе задано примерно следующее приветствие: "Оставьте сообщение для Александра Петрова. После сигнала запишите сообщение. По окончании записи повесьте трубку или нажмите решетку для перехода к дополнительным параметрам".
+Если вы глобальный [администратор,](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)вы можете настроить Skype для бизнеса для воспроизведения приветствия голосовой почты по умолчанию на другом языке. По умолчанию в системе задано примерно следующее приветствие: "Оставьте сообщение для Александра Петрова. После сигнала запишите сообщение. По окончании записи повесьте трубку или нажмите решетку для перехода к дополнительным параметрам".
   
  **Сначала ознакомьтесь со следующей важной информацией:**
   
@@ -45,7 +45,7 @@ ms.locfileid: "52804526"
   > [!NOTE]
   > Пользователи могут изменить для себя язык приветствий с помощью своих параметров после входа. Дополнительные сведения см. в Microsoft 365 для [бизнеса.](https://support.office.com/article/change-your-display-language-and-time-zone-in-microsoft-365-for-business-6f238bff-5252-441e-b32b-655d5d85d15b?ui=en-US&rs=en-US&ad=US)
   
-- **Вам требуется записывать исходящие сообщения голосовой почты?** См. статью [Проверка голосовой почты и параметров в Skype для бизнеса](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8). Для Microsoft Teams: пользователи могут изменять параметры голосовой почты в параметрах клиента Teams [настольного компьютера.](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)
+- **Вам требуется записывать исходящие сообщения голосовой почты?** См. статью [Проверка голосовой почты и параметров в Skype для бизнеса](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8). Для Microsoft Teams: пользователи могут изменять параметры голосовой почты в параметрах Teams клиента [для настольных пк.](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)
 
 - **Вы хотите изменить язык подсказки голосовой почты?** Для Skype для бизнеса - и выберите новый язык [https://mysettings.lync.com/voicemail](https://mysettings.lync.com/voicemail) в области Язык **подсказки**. Для Microsoft Teams: пользователи могут изменять приветствие голосовой почты в параметрах Teams клиента [для настольных пк.](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)
 
@@ -53,7 +53,7 @@ ms.locfileid: "52804526"
 
 1. Во sign in with your [global administrator](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) account at [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home) .
 
-2. В Центре Microsoft 365 администрирования **выберите** Параметры  >  **Параметры**  >  **профиля организации**.
+2. В ок Центр администрирования Microsoft 365 **выберите** Параметры  >  **Параметры**  >  **профиль организации**.
 
      ![Снимок экрана: выбор Параметры и профиля организации.](media/9d9de520-bb84-409f-9417-96bd8ec86c48.png)
   
