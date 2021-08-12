@@ -1,5 +1,5 @@
 ---
-title: Мониторинг использования и обратная связь в Microsoft Teams
+title: Мониторинг использования и обратная связь в Microsoft Teams
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -18,14 +18,14 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dc18dedc06618f2c9f64ead446a82829ad494bc9
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 481e83f7a76332b052516ce557b77594be16736f06c30c30082aeba2afcccafe
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49815699"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54337387"
 ---
-# <a name="monitor-usage-and-feedback-in-microsoft-teams"></a>Мониторинг использования и обратная связь в Microsoft Teams
+# <a name="monitor-usage-and-feedback-in-microsoft-teams"></a>Мониторинг использования и обратная связь в Microsoft Teams
 Очень важно знать, как пользователи применяют Teams и оценить их впечатления от работы с Teams. Отчеты об использовании помогут вам лучше понять характер использования, а наряду с отзывам пользователей, позволяют получить ценную информации, что поможет вам выполнить широкое развертывание, а также определить приоритетные области для обучения и взаимодействия.
 
 ## <a name="monitor-usage"></a>Мониторинг использования
@@ -71,4 +71,4 @@ ms.locfileid: "49815699"
 Внедрение нового метода взаимодействия заметно повлияет на поведение пользователей. Для принятия изменений требуется обучение, стимулирование и положительные примеры. Очень важно для пользователей иметь право голоса во время перехода на Teams и получить возможность открыто делиться своими впечатлениями. Мы рекомендуем использовать канал «Отзыв» в команде «Знакомство с Teams», который вы создали для сбора и ответов на отзывы пользователей о своих впечатлениях по работе с Teams. 
 
 ## <a name="next-steps"></a>Дальнейшие действия
-Перейдите к [Ресурсы для планирования развертывания Microsoft Teams в масштабах организации](get-started-with-teams-resources-for-org-wide-rollout.md)
+Перейдите к [Ресурсы для планирования развертывания Microsoft Teams в масштабах организации](get-started-with-teams-resources-for-org-wide-rollout.md)

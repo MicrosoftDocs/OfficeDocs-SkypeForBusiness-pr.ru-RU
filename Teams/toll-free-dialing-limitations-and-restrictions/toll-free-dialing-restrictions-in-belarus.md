@@ -23,13 +23,13 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: Узнайте о наборе бесплатных номеров в Окнобласти, в том числе о доступности, доступности проводных и фиксированных телефонных номеров, а также об ограничениях для мобильной сети.
-ms.openlocfilehash: 2b5d8266aa914cfd65553d5b943bb5c1ad1c04b5
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Узнайте о наборе бесплатных номеров в приложении "Висяч", в том числе о доступности, доступности проводных и фиксированных телефонных номеров, а также об ограничениях для мобильной сети.
+ms.openlocfilehash: 38dce7862ea9764baefcc38aa7275d0d5c686cd753a91dc9fe672ee54fcf304c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51110805"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54345258"
 ---
 # <a name="toll-free-dialing-restrictions-in-belarus"></a>Ограничения набора бесплатных номеров в Беларуси
 

@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: Узнайте, как искать номера для аудиоконференций с телефонным Microsoft Teams.
-ms.openlocfilehash: 8d8b2f543b7e5a7acad5f8b91e8793420cf54517
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: bc10e9d5d7ffe3dd46ec9e0c541c3663190a339675b540e0109140661f37c32d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117247"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54293016"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-microsoft-teams"></a>Просмотр списка номеров для аудиоконференций в Microsoft Teams
 
@@ -46,7 +46,7 @@ ms.locfileid: "51117247"
 
 ![Значок с логотипом Microsoft Teams](media/teams-logo-30x30.png) **Использование центра администрирования Microsoft Teams**
 
-1. На левой навигации перейдите к **мосту Конференц-связь**  >  **собраний**. 
+1. В левой области навигации перейдите к **мосту Конференц-связь**  >  **собраний**. 
 2. Просмотр номеров телефонов, доступных для аудиоконференций.
 
 - Вы также можете просмотреть расположение и основной язык, которые будет использовать автозаводщик аудиоконференция.

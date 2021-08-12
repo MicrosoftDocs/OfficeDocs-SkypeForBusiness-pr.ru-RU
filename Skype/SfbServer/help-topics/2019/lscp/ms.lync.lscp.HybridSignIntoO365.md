@@ -1,5 +1,5 @@
 ---
-title: Гибридный мастер во входе в Microsoft 365 или Office 365
+title: Гибридный мастер во входе Microsoft 365 или Office 365
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -18,20 +18,20 @@ ms.collection:
 - IT_Skype4B_Hybrid
 ms.assetid: 791026d0-730f-4225-872e-74c9b5c166d7
 ROBOTS: NOINDEX, NOFOLLOW
-description: Используйте мастер гибридной управляемости Skype для бизнеса Server, чтобы настроить среду для гибридного использования Skype для бизнеса Online.
-ms.openlocfilehash: de92361474a81141a00fec3c2342d74fc36a3655
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Используйте мастер Skype для бизнеса Server управляемости, чтобы настроить среду для гибридной Skype для бизнеса Online.
+ms.openlocfilehash: e77fbb172e947c7381d7655ac9253f768c9719614dafd5ddb4c0f766b0b2b3bb
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51097315"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54302973"
 ---
 # <a name="hybrid-wizard-sign-in-to-microsoft-365-or-office-365"></a>Гибридный мастер: вход в Microsoft 365 или Office 365
 
-Используйте мастер гибридной управляемости Skype для бизнеса Server, чтобы настроить среду для гибридного использования Skype для бизнеса Online.
+Используйте мастер Skype для бизнеса Server управляемости, чтобы настроить среду для гибридной Skype для бизнеса Online.
 
-## <a name="sign-in-to-microsoft-365-or-office-365"></a>Вход в Microsoft 365 или Office 365
+## <a name="sign-in-to-microsoft-365-or-office-365"></a>Вопишитесь в Microsoft 365 или Office 365
 
-Введите имя пользователя и пароль для организации Microsoft 365 или Office 365 для входа и подключения локального развертывания к организации Microsoft 365 или Office 365. Вам потребуется использовать учетную запись администратора, созданную для домена onmicrosoft при регистрации на Microsoft 365 или Office 365, например admin@contoso.onmicrosoft.com.
+Введите имя пользователя и пароль Microsoft 365 или Office 365 организации, чтобы войти в систему и подключить локальное развертывание Microsoft 365 или Office 365 организации. Вам потребуется использовать учетную запись администратора, созданную для домена onmicrosoft при регистрации Microsoft 365 или Office 365, например, admin@contoso.onmicrosoft.com.
 
 Дополнительные сведения о настройке среды для гибридной среды см. в [обзоре гибридных развертывания.](/previous-versions/office/lync-server-2013/lync-server-2013-overview-of-hybrid-deployments)

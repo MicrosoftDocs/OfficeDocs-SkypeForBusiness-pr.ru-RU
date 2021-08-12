@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 'Сведения о распространенных причинах ошибок входа в Skype для бизнеса Online и пошаговые инструкции по устранению этих проблем. '
-ms.openlocfilehash: 653ad6fec51803cbf818595a39412d535c49d969
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 1fdb764f9557e9c5b759b50cadf2650a6af75dc1dc262ff45648360807436881
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52239407"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54303353"
 ---
 # <a name="troubleshooting-skype-for-business-online-sign-in-errors-for-administrators"></a>Устранение проблем со входом в Skype для бизнеса Online для администраторов
 
@@ -150,7 +150,7 @@ ms.locfileid: "52239407"
 
 1. Откройте диспетчер сертификатов Windows. Для этого нажмите кнопку **Пуск**, выберите команду **Выполнить**, введите **certmgr.msc** и нажмите кнопку **ОК**.
 
-2. Дважды щелкните элемент **Личные**, а затем — **Сертификаты**.
+2. Дважды щелкните элемент **Личные**, а затем — **Сертификаты**.
 
 3. Отсортируйте список по столбцу **Кем выдан** и найдите сертификат, выпущенный Communications Server.
 

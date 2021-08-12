@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fa4027bc-2a85-47e0-9f5e-7f1dee08a94f
 description: Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
-ms.openlocfilehash: 105fff4cf55dcacbbe08d3f35c794a9310406f5f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 8f6596ccbd58526a14f814a0655f65d7547987c14d28d5a63bc823282bcf20dd
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51115095"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54345078"
 ---
 # <a name="users-view-or-configure-location-policy"></a>Пользователи: просмотр или настройка политики определения местонахождения
 
@@ -28,4 +28,4 @@ ms.locfileid: "51115095"
 
 - [Назначение политики расположения пользователю](/previous-versions/office/lync-server-2013/lync-server-2013-assign-a-per-user-location-policy)
 
-Сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнес-серверов, см. в материале Управление Skype для бизнеса [Server 2015.](../../manage/manage.md)
+Сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнеса Server, см. в Skype для бизнеса Server [2015](../../manage/manage.md)г.
