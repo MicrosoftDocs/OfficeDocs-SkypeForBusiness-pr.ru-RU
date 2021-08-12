@@ -14,16 +14,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 71314efe-136b-4970-a411-6282d1cb5b87
-description: Чтобы начать выполнение задачи Подготовка леса, нажмите кнопку Далее. При запуске задачи "Подготовка леса" создаются глобальные параметры и универсальные группы для использования в Skype для бизнеса Server 2015.
-ms.openlocfilehash: f6df433ce8c92e8ade9f7ef1974744c4ed6e48e2
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Чтобы начать выполнение задачи Подготовка леса, нажмите кнопку Далее. Запуск задачи Prepare Forest создает глобальные параметры и создает универсальные группы для Skype для бизнеса Server 2015 г.
+ms.openlocfilehash: 0311725b4ba405378ea20ab006e0a7ba7828deecd959cae263609c4f29eb5fb3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49815419"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54309638"
 ---
 # <a name="prepare-current-forrest-intro"></a>Подготовка текущего леса (введение)
  
-Чтобы начать выполнение задачи **Подготовка леса**, нажмите кнопку **Далее**. При **запуске задачи "Подготовка** леса" создаются глобальные параметры и универсальные группы для использования в Skype для бизнеса Server 2015.
+Чтобы начать выполнение задачи **Подготовка леса**, нажмите кнопку **Далее**. Запуск задачи **Prepare Forest** создает глобальные параметры и создает универсальные группы для Skype для бизнеса Server 2015 г.
   
 

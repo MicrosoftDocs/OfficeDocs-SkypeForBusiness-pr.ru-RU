@@ -1,5 +1,5 @@
 ---
-title: Сценарий проверки подлинности панели управления Skype для бизнеса Server 2019
+title: Skype для бизнеса Server 2019 г. сценарий проверки подлинности панели управления
 ms.reviewer: rogupta
 ms.author: heidip
 author: MicrosoftHeidi
@@ -12,21 +12,21 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
-description: Скрипт помощника для настройки проверки подлинности панели управления SFB 2019 с помощью Microsoft 365 или Office 365 с помощью протокола OAuth.
-ms.openlocfilehash: 76f8444e78dfe31e008ea24be31c0e7b788b3130
-ms.sourcegitcommit: da2a70a9b5e05d0fd7ecc150b451f5805667514c
+description: Скрипт помощника для настройки проверки подлинности панели управления SFB 2019 Microsoft 365 или Office 365 протоколом OAuth.
+ms.openlocfilehash: c52e799740188e85e41af46339f40f4c29b61c037bc1c28b8257b1001a5b43c9
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "50756225"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54281502"
 ---
-# <a name="skype-for-business-server-2019-control-panel-authentication-script"></a>Сценарий проверки подлинности панели управления Skype для бизнеса Server 2019
+# <a name="skype-for-business-server-2019-control-panel-authentication-script"></a>Skype для бизнеса Server 2019 г. сценарий проверки подлинности панели управления
 
 Ниже приводится скрипты помощника по проверке подлинности для современной панели управления администратором (MACP).
 
 ## <a name="configure-macp-authentication-with-microsoft-365-or-office-365"></a>Настройка проверки подлинности MACP с помощью Microsoft 365 или Office 365
 
-Этот сценарий следует запустить после установки Накопительного обновления Skype для бизнеса Server 2019 1 или более поздней версии в рамках установки для новой панели управления. 
+Этот скрипт следует запустить после установки Skype для бизнеса Server 2019 накопительного обновления 1 или более поздней версии в рамках установки для новой панели управления. 
 
 ```powershell
 <#
@@ -133,7 +133,7 @@ Set-CsHybridConfiguration -ClientId $azureADApplication.AppId
 ```
 ## <a name="configure-macp-application-in-adfs-farm"></a>Настройка приложения MACP в ферме ADFS
 
-Этот скрипт следует запустить после установки Skype для бизнес-сервера 2019 последнего накопительного обновления в рамках установки для новой панели управления.
+Этот сценарий следует запустить после установки Skype для бизнеса Server 2019 последнего накопительного обновления в рамках установки для новой панели управления.
 
 ```powershell
 <#
@@ -311,7 +311,7 @@ Get-AdfsNativeClientApplication -Identifier $clientIdentifier
 ```
 ## <a name="configure-oauth-for-macp"></a>Настройка OAuth для MACP
 
-Этот скрипт следует запустить после установки Skype для бизнес-сервера 2019 последнего накопительного обновления в рамках установки для новой панели управления.
+Этот сценарий следует запустить после установки Skype для бизнеса Server 2019 последнего накопительного обновления в рамках установки для новой панели управления.
 
 ```powershell
 <#

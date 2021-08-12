@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1774b8bebc1330e69a611e64d4f0a8e01f05febb
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: c0794e855fac3f911b028c049289beaa13a571473f32f84509c6d219d92bdd78
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282376"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54282482"
 ---
 # <a name="overview-of-implementing-your-upgrade"></a>Общие сведения о внедрении обновления
 
@@ -35,7 +35,7 @@ ms.locfileid: "52282376"
 
 
 
-## <a name="prerequisite-planning-activities"></a>Необходимые действия по планированию
+## <a name="prerequisite-planning-activities"></a>Предварительные действия по планированию
 
 > [!IMPORTANT]
 > Прежде чем приперейти к реализации обновления, убедитесь, [](upgrade-plan-journey.md) что вы прочитали статью о планировании, начиная с плана обновления, чтобы убедиться, что все необходимые действия по планированию завершены.
@@ -46,7 +46,7 @@ ms.locfileid: "52282376"
 - [Понятное сосуществование и совместное Skype для бизнеса и Teams](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 - [Выбор пути обновления](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 - [Запланированный пилотный проект пользователя](pilot-essentials.md)
-- [Подготовьте свою среду](./upgrade-prepare-environment.md)
+- [Подготовить среду](./upgrade-prepare-environment.md)
 - [Подготовленные организации](./upgrade-prepare-organization.md)
 
 ## <a name="choose-your-upgrade-starting-point"></a>Выбор начальной точки обновления
@@ -57,7 +57,7 @@ ms.locfileid: "52282376"
 
 - **Если вы обновляете** Skype для бизнеса Online до Teams, выполните действия, которые можно найти в Skype для бизнеса [Online Teams.](./upgrade-to-teams-execute-skypeforbusinessonline.md)
 
--  **При переходе** с локальной среды Skype для бизнеса вам потребуется выполнить дополнительные действия, чтобы настроить подключение между локальной и сетевой средами, прежде чем перемещать пользователей в Teams. Дополнительные сведения см. в [Skype для бизнеса локальной Teams.](upgrade-to-teams-execute-SkypeforBusinessHybridOnPrem.md)
+-  **При переходе** с локальной среды Skype для бизнеса вам потребуется выполнить дополнительные действия, чтобы настроить подключение между локальной и сетевой средами, прежде чем перемещать пользователей в Teams. Дополнительные сведения см. в [Skype для бизнеса обновлении локального Teams.](upgrade-to-teams-execute-SkypeforBusinessHybridOnPrem.md)
 
 
 

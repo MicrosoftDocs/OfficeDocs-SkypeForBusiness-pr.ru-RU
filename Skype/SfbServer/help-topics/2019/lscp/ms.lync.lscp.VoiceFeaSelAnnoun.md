@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 676f4d80-6826-4fa0-9430-4ebdb4b5a03e
 ROBOTS: NOINDEX, NOFOLLOW
 description: Используйте диалоговое окно Выбор службы извещения для выбора службы извещения, которая будет обрабатывать входящие звонки для диапазона неназначенных номеров.
-ms.openlocfilehash: deb9ed885bfac43b9c0a9535673f86a9bffe22e3
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 661b263531e11e5731a20a7da2d8c50ce05ff452ead4749a2f530238bcebfdd2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49812119"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54282012"
 ---
 # <a name="select-an-announcement-service"></a>Выбор службы оповещений
  

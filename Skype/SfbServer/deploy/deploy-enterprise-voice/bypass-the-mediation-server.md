@@ -1,5 +1,5 @@
 ---
-title: Настройка обхода сервера-посредника в Skype для бизнеса Server для всегдаго обхода сервера-посредника
+title: Настройка обхода мультимедиа в Skype для бизнеса Server, чтобы всегда обходить сервер-посредник
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,25 +15,25 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 370c4f54-e520-4d77-96a3-84c5e84a9996
-description: Включить обход сервера-посредника для обхода сервера-посредника в Skype для бизнеса Server Корпоративная голосовая связь.
-ms.openlocfilehash: 23d3100e355d100e3dea1932639d70f9290e7ea4
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Включить обход мультимедиа, чтобы всегда обходить сервер-посредник в Skype для бизнеса Server Корпоративная голосовая связь.
+ms.openlocfilehash: c80b3479546e9154480af8f71417b5ebce43b261510eec19332ecf1cf9287bc4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49804219"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54310038"
 ---
-# <a name="configure-media-bypass-in-skype-for-business-server-to-always-bypass-the-mediation-server"></a>Настройка обхода сервера-посредника в Skype для бизнеса Server для всегдаго обхода сервера-посредника
+# <a name="configure-media-bypass-in-skype-for-business-server-to-always-bypass-the-mediation-server"></a>Настройка обхода мультимедиа в Skype для бизнеса Server, чтобы всегда обходить сервер-посредник
  
-Включить обход сервера-посредника для обхода сервера-посредника в Skype для бизнеса Server Корпоративная голосовая связь. 
+Включить обход мультимедиа, чтобы всегда обходить сервер-посредник в Skype для бизнеса Server Корпоративная голосовая связь. 
   
- Если для настройки глобальных параметров обхода мультимедиа используются действия, которые данной темы используются, предположим, что у вас хорошая связь между конечными точками Skype для бизнеса и любым одноранговой точкой, для которой вы настроили обход мультимедиа в магистрали.
+ Если вы используете шаги в этом разделе для настройки глобальных параметров обхода мультимедиа, предположим, что у вас есть хорошая связь между конечными точками Skype для бизнеса и любым однорангом, для которого настроен обход мультимедиа в магистральной связи.
   
-If you do not have good connectivity between Skype for Business endpoints and all peers to the Mediation Server whose respective trunk connections have been enabled for media bypass, you must configure global media bypass settings to use site and region information when employing media bypass. Это обеспечивает более точный контроль над процессом обхода сервера-посредника. Для этого используйте действия, которые необходимо предпринять в настройке глобальных параметров обхода сервера-посредника в Skype для бизнеса [Server,](use-site-and-region-information.md) чтобы использовать сведения о сайте и регионе, а затем связать подсеть с сетевым [сайтом.](deploy-network.md#BKMK_AssociateSubnets)
+Если у вас нет хорошей связи между конечными точками Skype для бизнеса и всеми равными с сервером-посредником, соответствующие подключения магистрали которого были включены для обхода мультимедиа, необходимо настроить параметры обхода глобальных средств массовой информации для использования сведений о сайте и регионе при использовании обхода мультимедиа. Это обеспечивает более точный контроль над процессом обхода сервера-посредника. Для этого используйте действия в Настройка глобальных параметров обхода мультимедиа в Skype для бизнеса Server для использования сведений о сайте и регионе, а вместо этого соеденять подсети с [сетевым](deploy-network.md#BKMK_AssociateSubnets) сайтом. [](use-site-and-region-information.md)
   
 ### <a name="to-enable-media-bypass-globally-to-always-bypass-the-mediation-server"></a>Чтобы включить глобальный постоянный обход сервера-посредника, выполните следующие действия.
 
-1. Откройте панель управления Skype для бизнеса Server.
+1. Откройте панель Skype для бизнеса Server управления.
     
 2. В левой панели навигации щелкните **Конфигурация сети**.
     
@@ -49,5 +49,5 @@ If you do not have good connectivity between Skype for Business endpoints and al
 
 [Планирование обхода мультимедиа в Skype для бизнеса](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)
   
-[Развертывание обхода сервера-посредника в Skype для бизнеса Server](deploy-media-bypass.md)
+[Развертывание обхода мультимедиа в Skype для бизнеса Server](deploy-media-bypass.md)
 

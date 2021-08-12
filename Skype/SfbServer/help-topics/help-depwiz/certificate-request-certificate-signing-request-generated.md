@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 728f6a92-8df8-40c9-8054-cd7306d7d60f
 description: Страница Файл запроса сертификата отображается после завершения автономного запроса сертификата. Чтобы просмотреть запрос сертификата и подготовить его к отправке в локальный или общий центр сертификации, нажмите кнопку Просмотреть. Запрос сертификата отображается в Блокноте Windows (по умолчанию). Вы можете копировать и вставлять кодированный запрос сертификата на этом экране или закончить обработку запроса сертификата, следуя указаниям из выбранного локального или общего центра сертификации. Нажмите кнопку Готово, чтобы продолжить.
-ms.openlocfilehash: bcdeae4cd2c23f00ed423c11f1ed95fc6c31a83c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 77a03f3e5df6afc8d7a600ab4fef3a7db4cc9ec8abad8b6f900f125622a30269
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49805309"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54309708"
 ---
 # <a name="certificate-request-certificate-signing-request-generated"></a>Запрос сертификата (запрос подписи сертификата создан)
  

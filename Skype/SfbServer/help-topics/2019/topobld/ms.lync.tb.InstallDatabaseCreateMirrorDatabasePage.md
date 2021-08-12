@@ -14,15 +14,15 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6f729574-944e-4968-bdb8-eb483ff0ca88
 ROBOTS: NOINDEX, NOFOLLOW
-description: Это предварительная документация, которая может быть измениться. Пустые разделы включены в качестве заполнителей.
-ms.openlocfilehash: ead4b6c8a4124e412c34e2d6dcc3bcf4d20fc10c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Это предварительная документация, которая подлежит изменениям. Пустые разделы включены в качестве заполнителей.
+ms.openlocfilehash: 41a54454b28644e46a74318aaec8cae3113a9a1dfb7917e6aaea69e56167dfea
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49829979"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54309878"
 ---
 # <a name="install-database-create-mirror-database-page"></a>Страница установки для создания зеркальной базы данных
  
 > [!NOTE]
-> SQL зеркальное отражение доступно в Skype для бизнеса Server 2015, но больше не поддерживается в Skype для бизнеса Server 2019. В Skype для бизнеса Server 2019 предпочтительнее использовать группы доступности AlwaysOn, экземпляры кластера для отокрутки AlwaysOn и SQL кластеров.
+> SQL Зеркальное зеркальное Skype для бизнеса Server 2015 г., но больше не поддерживается Skype для бизнеса Server 2019 г. В 2019 г. предпочтительны группы доступности AlwaysOn, экземпляры кластера неудачной передачи alwaysOn и SQL Skype для бизнеса Server кластеризация неудачи.

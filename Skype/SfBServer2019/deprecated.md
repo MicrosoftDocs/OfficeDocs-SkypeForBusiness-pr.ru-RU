@@ -1,5 +1,5 @@
 ---
-title: What's deprecated from Skype for Business Server 2019
+title: What's deprecated from Skype для бизнеса Server 2019
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,70 +11,70 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
-description: Сводка. Эти функции удалены из Skype для бизнеса Server 2019.
-ms.openlocfilehash: 5c5914493d7e2f4da4fd72d6acf7ff2b979d8e88
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Сводка. Эти функции были удалены из Skype для бизнеса Server 2019 г.
+ms.openlocfilehash: 43fa8bae64e65fcba1aaf21c75e06d396d3c47eee8df40cec0db0eb1d5d646eb
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49808729"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54282472"
 ---
-# <a name="whats-deprecated-from-skype-for-business-server-2019"></a>What's deprecated from Skype for Business Server 2019
+# <a name="whats-deprecated-from-skype-for-business-server-2019"></a>What's deprecated from Skype для бизнеса Server 2019
 
-Узнайте о функциях и функциях, неподготовленных в Skype для бизнеса Server 2019. Сведения о новых функциях Skype для бизнеса Server 2019 см. в сведениях о skype для бизнеса [Server 2019.](whats-new.md)
+Узнайте о функциях и функциях, которые не представлены в Skype для бизнеса Server 2019 г. Сведения о новых Skype для бизнеса Server 2019 г. см. в Skype для бизнеса Server [2019 г.](whats-new.md)
 
-Некоторые функции, для совместимости с предыдущими версиями продукта, включены в Skype для бизнеса Server 2019.
+Некоторые функции без акцента включены в Skype для бизнеса Server 2019 г. для совместимости с предыдущими версиями продукта.
 
-## <a name="features-deprecated-in-skype-for-business-server-2019"></a>Функции, неподготовленные в Skype для бизнеса Server 2019 
+## <a name="features-deprecated-in-skype-for-business-server-2019"></a>Функции, которые были Skype для бизнеса Server 2019 г. 
 
     The following features and functionality have been deprecated in Skype for Business Server 2019.
 
 ### <a name="xmpp-gateways-for-skype-for-business-server"></a>Шлюзы XMPP для Skype для бизнеса Server
 
-Skype для бизнеса Server 2015 и его предшественники позволяли настраивать прокси-сервер XMPP на edge-сервере и шлюз XMPP на сервере переднего или переднего сервера. Эта функция больше недоступна в Skype для бизнеса Server 2019.
+Skype для бизнеса Server 2015 г. и его предшественники позволили настроить прокси-прокси протокола обмена сообщениями и присутствия (XMPP) на edge Server и шлюз XMPP на переднем или переднем конце пула. Эта функция больше недоступна в Skype для бизнеса Server 2019 г.
 
-### <a name="persistent-chat-for-skype-for-business-server"></a>Сохраняемая беседа для Skype для бизнеса Server
+### <a name="persistent-chat-for-skype-for-business-server"></a>Постоянный чат для Skype для бизнеса Server
 
-Сервер сохраняемой беседы — это необязательная роль, которая позволяет нескольким пользователям в организации участвовать в беседах комнат чата, которые сохраняются с течением времени. Persistent chat can't be deployed with Skype for Business Server 2019. Эта роль сервера удаляется из построитель топологий, а также из кода. 
+Постоянный сервер чата — это необязательная роль, которая позволяет нескольким пользователям в организации участвовать в беседах в чате, которые сохраняются с течением времени. Постоянный чат не может быть развернут с Skype для бизнеса Server 2019 г. Эта роль сервера удаляется из Topology Builder, а также из кода. 
 
-Такие же функции доступны в Teams. Дополнительные сведения [см. в сведениях о том,](/microsoftteams/upgrade-start-here)как начать обновление Microsoft Teams.
+Такая же функциональность доступна в Teams. Дополнительные сведения см. в ссылке Начало работы [с обновлением Microsoft Teams обновления.](/microsoftteams/upgrade-start-here)
 
-### <a name="sql-mirroring-for-skype-for-business-server"></a>SQL Зеркальное отражение для Skype для бизнеса Server
+### <a name="sql-mirroring-for-skype-for-business-server"></a>SQL Зеркальное Skype для бизнеса Server
 
-SQL зеркальное отражение не может быть развернуто в Skype для бизнеса Server 2019. Другие варианты обеспечения высокой доступности и аварийного восстановления по-прежнему поддерживаются, и вам следует выбрать один из них. Чтобы [просмотреть варианты, см.](../SfbServer/plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md) "Планирование высокой доступности и аварийного восстановления в Skype для бизнеса Server".
+SQL Зеркальное отражение не может быть развернуто с Skype для бизнеса Server 2019 г. Другие варианты обеспечения высокой доступности и аварийного восстановления по-прежнему поддерживаются, и вы должны выбрать один из них. См. в обзоре Plan [for high availability and disaster recovery in Skype для бизнеса Server,](../SfbServer/plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md) чтобы просмотреть параметры.
 
 ### <a name="in-place-upgrades"></a>Обновление на месте 
 
-Обновления на месте были доступны в Skype для бизнеса Server 2015, но больше не поддерживаются в Skype для бизнеса Server 2019. Поддержка обновления и сосуществования поддерживается в переходе на Skype для бизнеса [Server 2019](migration/migration-to-skype-for-business-server-2019.md) для получения дополнительных сведений.
+Обновления на месте были доступны в Skype для бизнеса Server 2015 г., но больше не поддерживаются Skype для бизнеса Server 2019 г. Дополнительные сведения см. в дополнительных сведениях о совместном обновлении и сосуществовании в Skype для бизнеса Server [2019](migration/migration-to-skype-for-business-server-2019.md) г.
 
-### <a name="mobility-service-mcx"></a>Mobility Service (Mcx)
+### <a name="mobility-service-mcx"></a>Служба мобильности (Mcx)
 
-Поддержка mobility Service, используемая устаревшими мобильными клиентами, больше недоступна в Skype для бизнеса Server 2019. Это было ранее объявлено в Skype для бизнеса Server 2015.
+Поддержка службы мобильности, используемая устаревшими мобильными клиентами, больше недоступна в Skype для бизнеса Server 2019 г. Об этом было объявлено в Skype для бизнеса Server 2015 г.
 
-Все текущие мобильные клиенты Skype для бизнеса уже используют веб-API объединенных коммуникаций (UCWA) для поддержки обмена мгновенными сообщениями, присутствия и контактов. Пользователям с устаревшими клиентами, использующими Mcx, потребуется обновиться до текущего клиента.
+Все современные Skype для бизнеса мобильные клиенты уже используют веб-API единой связи (UCWA) для поддержки обмена мгновенными сообщениями,присутствия и контактов. Пользователям с устаревшими клиентами с помощью Mcx потребуется обновиться до текущего клиента.
 
-For more details, see [Plan for Mobility for Skype for Business Server](../SfbServer/plan-your-deployment/mobility.md) and Mobile client feature comparison for Skype for [Business](../SfbServer/plan-your-deployment/clients-and-devices/mobile-feature-comparison.md).
+Дополнительные сведения см. в материале [Plan for Mobility for Skype для бизнеса Server](../SfbServer/plan-your-deployment/mobility.md) и Mobile client feature comparison for [Skype для бизнеса.](../SfbServer/plan-your-deployment/clients-and-devices/mobile-feature-comparison.md)
 
 ## <a name="tools"></a>Инструменты
 
-Следующие средства будут недоступны для использования в первоначальном выпуске Skype для бизнеса Server 2019:
+Следующие средства не будут доступны для использования в первоначальном выпуске Skype для бизнеса Server 2019 г.:
 
 - Калькулятор планирования мощности Skype для бизнеса Server
-- Средства отладки Skype для бизнеса Server
-- Средства skype для бизнеса Server Resource Kit (некоторые средства будут удалены)
+- Skype для бизнеса Server Средства отладки
+- Skype для бизнеса Server Средства набора ресурсов (некоторые средства будут удалены)
     - Call Parkometer
-    - Консоль пользователя подыском
-    - Миграция объявлений с ненаписаным номером
+    - Консоль пользователя Lookup
+    - Миграция без присвоения номера
 
-В Skype для бизнеса Server 2019 не поддерживаются следующие средства:
+С 2019 Skype для бизнеса Server не поддерживаются следующие средства:
 
-- Методология качества вызовов (но не панель мониторинга качества звонка)
-- Система показателей методологии качества вызовов Майкрософт, 1.5
-- Средство планирования Skype для бизнеса Server 2015
-- Skype для бизнеса Server 2015 Stress and Performance Tool
+- Методология качества вызовов (но не панель мониторинга качества вызовов)
+- Система показателей качества вызовов Microsoft Call, v1.5
+- Skype для бизнеса Server 2015 г.
+- Skype для бизнеса Server 2015 г. Средство стресса и производительности
 
 ### <a name="see-also"></a>См. также
 
-[Новые возможности Skype для бизнеса Server 2019](whats-new.md)
+[Новые возможности в Skype для бизнеса Server 2019 г.](whats-new.md)
 
 [Перенос федерации XMPP](migration/migrating-xmpp-federation.md)

@@ -18,17 +18,17 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Узнайте, как управлять шаблонами групп в Центре администрирования
-ms.openlocfilehash: dd88f76d0f74b6a1fe48bd934e7cfc8ee9ab4ccc
-ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
+ms.openlocfilehash: a8fa2833f00c1d943bfa1b935492a80bd98444d1780eff1382b0952781aa471e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52684586"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54310408"
 ---
 # <a name="manage-team-templates-in-the-admin-center"></a>Управление шаблонами групп в Центре администрирования
 
 Управляйте шаблонами групп, которые видят пользователи, создавая политики шаблонов в Центре администрирования. В каждой политике шаблонов можно узначить, какие шаблоны должны быть показаны или скрыты.
-Назначьте разным пользователям различные политики шаблонов, чтобы пользователи просматривали только указанные подмножество шаблонов группы.
+Назначайте разным пользователям различные политики шаблонов, чтобы пользователи просматривали только указанные подмножество шаблонов группы.
 
 Просмотрите это короткое видео, чтобы узнать, как управлять политиками шаблонов.
 
@@ -42,7 +42,7 @@ ms.locfileid: "52684586"
 
 3. Нажмите **Добавить**.
 
-    ![Выбрана политика шаблона и выделена "Добавить"](media/template-policies-1.png)
+    ![Выбрана политика шаблона, выделена надстройка "Добавить"](media/template-policies-1.png)
 
 1. В разделе **Политики шаблонов Параметры** заполнять следующие поля:
 
@@ -90,7 +90,7 @@ ms.locfileid: "52684586"
 
 **Вопрос. Можно ли пакетно назначить пользователей политикам шаблонов команд?**
   
-Ответ. Да, мы поддерживаем пакетные назначения для политики шаблонов в PowerShell. Тип политики для этого действия — TeamsTemplatePermissionPolicy. [Подробнее](/powershell/module/teams/new-csbatchpolicyassignmentoperation)
+Ответ. Да, мы поддерживаем пакетные назначения для политики шаблонов в PowerShell. Для этого действия тип политики — TeamsTemplatePermissionPolicy. [Подробнее](/powershell/module/teams/new-csbatchpolicyassignmentoperation)
 
 **Вопрос. Могут ли группы быть назначены политикам шаблонов групп?**
 
@@ -142,6 +142,6 @@ ms.locfileid: "52684586"
 
 - [Создание шаблона команды из существующего шаблона группы](./create-template-from-existing-template.md)
 
-- [Назначение политик пользователям в Microsoft Teams - Microsoft Teams \| Документы Майкрософт](./assign-policies.md)
+- [Назначение политик пользователям в Microsoft Teams - Microsoft Teams \| Microsoft Docs](./assign-policies.md)
 
 - [Пакетное назначение пользователей политике](/powershell/module/teams/new-csbatchpolicyassignmentoperation)

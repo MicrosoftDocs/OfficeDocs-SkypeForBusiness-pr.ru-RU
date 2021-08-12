@@ -18,13 +18,13 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
-description: Узнайте, как устранить проблемы для администраторов и пользователей Skype для бизнеса в Microsoft 365 и Office 365.
-ms.openlocfilehash: b64cd39cee9a9981c5a5d605953d1e11c5ba06f0
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+description: Узнайте, как устранять проблемы для администраторов и пользователей Skype для бизнеса в Microsoft 365 и Office 365.
+ms.openlocfilehash: da0668c8ead3dee48e1829a0871fe2a175bddc5b722f036c61bc3abc5027cb6a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52239418"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54310108"
 ---
 # <a name="troubleshoot-problems-with-skype-for-business-online"></a>Устранение проблем со Skype для бизнеса Online
 
@@ -77,7 +77,7 @@ ms.locfileid: "52239418"
 ## <a name="still-need-help-contact-support"></a>Есть дополнительные вопросы? Обратитесь за поддержкой.
 <a name="BK_SupportBridge_1"> </a>
 
-Как администратор Приложения Microsoft 365 для бизнеса вы получаете бесплатный доступ к опытным агентам поддержки по вопросам предварительной продажи, учетной записи и вы выставлению счетов, а также для устранения технических проблем. Вы также можете [обратиться в](/microsoft-365/Admin/contact-support-for-business-products) службу поддержки от имени Microsoft 365 и Office 365 пользователей в организации.
+Как администратор Приложения Microsoft 365 для бизнеса вы получаете бесплатный доступ к опытным агентам поддержки по предварительной продаже, учетной записи и выставлению счетов, а также для устранения технических проблем. Вы также можете [обратиться в](/microsoft-365/Admin/contact-support-for-business-products) службу поддержки от имени Microsoft 365 и Office 365 пользователей в организации.
 
 - [Справка на форумах Microsoft 365 и Office 365 сообщества](https://go.microsoft.com/fwlink/p/?LinkId=518605)
 

@@ -15,17 +15,17 @@ localization_priority: Normal
 ms.assetid: ce6764ce-c88f-4050-895e-d1d886106972
 ROBOTS: NOINDEX, NOFOLLOW
 description: Используйте диалоговое окно Выбор автосекретаря единой системы обмена сообщениями Exchange для выбора автосекретаря единой системы обмена сообщениями Exchange, который будет обрабатывать входящие звонки для диапазона неназначенных номеров.
-ms.openlocfilehash: 75f3f45f6e6e69f12bc83b62ca5a07ea7f871dd9
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: d45cc16aca48afcd772114a96e5d0798b784336b088676ed822c233c8e7612d1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49812089"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54309868"
 ---
 # <a name="select-exchange-um-auto-attendant"></a>Выбор автосекретаря единой системы обмена сообщениями Exchange
 
 > [!NOTE]
-> При интеграции Skype для бизнеса 2019 с Exchange 2013 или Exchange 2016 в Skype для бизнеса Server 2019 остается доступной um exchange. Из-за изменений в поддержке в Exchange 2019 интеграция с exchange UM будет отостановка в пользу функций облачной голосовой почты и облачных автосекретарь.  Дополнительные [сведения см.](../../../../SfBhybrid/hybrid/plan-cloud-voicemail.md) в сведениях о планировании службы облачной голосовой почты и планировании для Skype для бизнеса [Server Exchange Server миграции.](../../../../SfBhybrid/hybrid/plan-um-migration.md)
+> Exchange В 2019 Skype для бизнеса Server 2019 г. при интеграции Skype для бизнеса 2019 г. с Exchange 2013 г. или Exchange 2016 г. Из-за изменений в поддержке Exchange 2019 г. Exchange интеграция um отостановки в пользу облачная голосовая почта и облачных автосекретарь функций.  Дополнительные [сведения см. в](../../../../SfBhybrid/hybrid/plan-cloud-voicemail.md) облачная голосовая почта службе Plan Skype для бизнеса Server [и Exchange Server миграции.](../../../../SfBhybrid/hybrid/plan-um-migration.md)
  
 Используйте диалоговое окно **Выбор автосекретаря единой системы обмена сообщениями Exchange** для выбора автосекретаря единой системы обмена сообщениями Exchange, который будет обрабатывать входящие звонки для диапазона неназначенных номеров.
   

@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: Узнайте о наборе бесплатных номеров в Польша, в том числе о доступности, доступности проводных и фиксированных номеров, а также об ограничениях для мобильной сети.
-ms.openlocfilehash: b9a9e64044fdf012de5ec96e157863a5d7540518
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f7b8fcfe3821f99e198ed2b33a6d7c05ba01ca8dbb05bf817c562234e901416e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51097825"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54282492"
 ---
 # <a name="toll-free-dialing-restrictions-in-poland"></a>Ограничения набора бесплатных номеров в Польше
 

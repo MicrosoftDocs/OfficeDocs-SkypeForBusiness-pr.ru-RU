@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 286d9c0b-9442-448f-a6e5-95b3034278fe
 description: Развертывание расширенных Корпоративная голосовая связь в Skype для бизнеса Server.
-ms.openlocfilehash: c3c551e7c0ba7dc8871791141e55d666578a411c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: cbbf1fb2bde9de6de050addbbe7365e6f35772cbbec1576debab5ee6713f055a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49836899"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54282372"
 ---
 # <a name="deploy-advanced-enterprise-voice-features-in-skype-for-business-server"></a>Развертывание расширенных Корпоративная голосовая связь в Skype для бизнеса Server
  
@@ -31,17 +31,17 @@ ms.locfileid: "49836899"
   
 - [Планирование обхода мультимедиа в Skype для бизнеса](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)
     
-- [Планирование контроля допуска звонков в Skype для бизнеса Server](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)
+- [Планирование управления приемом вызовов в Skype для бизнеса Server](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)
     
 - [Планирование экстренных служб в Skype для бизнеса Server](../../plan-your-deployment/enterprise-voice-solution/emergency-services.md)
     
-## <a name="in-this-section"></a>В этом разделе:
+## <a name="in-this-section"></a>Содержание
 
-- [Развертывание областей сети, сайтов и подсетей в Skype для бизнеса](deploy-network.md)
+- [Развертывание сетевых регионов, сайтов и подсетей в Skype для бизнеса](deploy-network.md)
     
-- [Развертывание обхода сервера-посредника в Skype для бизнеса Server](deploy-media-bypass.md)
+- [Развертывание обхода мультимедиа в Skype для бизнеса Server](deploy-media-bypass.md)
     
-- [Развертывание контроля допуска звонков в Skype для бизнеса Server](deploy-call-admission-control.md)
+- [Развертывание управления приемом вызовов в Skype для бизнеса Server](deploy-call-admission-control.md)
     
 - [Развертывание экстренных служб в Skype для бизнеса Server](deploy-emergency-services.md)
     
