@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: c73780cd-0033-4287-9ecd-ecf65ca61e62
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Чтобы изменить параметры для одного или нескольких существующих пулов пограничных серверов, можно воспользоваться следующими разделами параметров:'
-ms.openlocfilehash: c887ffaa16818e377035109632871b7bc7ed25d8
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: b6f716093556919dab790e0c2258c22ba1e5159529deace41941b75c8802e817
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51108805"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54347075"
 ---
 # <a name="edge-settings-expander"></a>Расширитель параметров пограничного сервера
 
@@ -37,7 +37,7 @@ ms.locfileid: "51108805"
 
 Внутреннее полное доменное имя пола пограничных серверов. Измените полное доменное имя пула, чтобы изменить данный параметр.
 
-Выберите поле "Включить федерацию" для этого пула **Edge (Порт 5061),** если вы настроили федерацию на сервере Skype для бизнеса Server 2015.
+Выберите поле "Включить федерацию" для этого пула **Edge (Port 5061),** если вы настроили федерацию с сервером Skype для бизнеса Server 2015 года.
 
 Укажите номер порта в поле **Внутренний порт репликации конфигурации (HTTPS)**.
 

@@ -18,17 +18,17 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 6983a828ccb2a59aad4e12c46db0fe873d3bfef3
-ms.sourcegitcommit: 7575fb476a594d70084c603e508dd311ef1d7edb
+ms.openlocfilehash: cf53c22895df1ad164ef688ad922c78a9c3ec761a6117ddf24eed633fe8e056a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "49757694"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54301964"
 ---
 <a name="enhance-existing-microsoft-365-groups-with-microsoft-teams"></a>Расширение существующих Microsoft 365 с помощью Microsoft Teams
 =======================================================
 
-Microsoft Teams пользователи могут улучшить существующую группу Microsoft 365 с Teams функциональными возможностями. При улучшении общего Microsoft 365 группы пользователи могут сделать это, если число участников не превышает 5000.
+Microsoft Teams пользователи могут улучшить существующую группу Microsoft 365 с помощью Teams функций. При улучшении общедоступных групп Microsoft 365 пользователи могут сделать это, если число участников не превышает 5000.
 
 Для этого пользователям следует выполнить процедуру создания команды из клиента Microsoft Teams. Выберите **Создать из** Microsoft 365 , а затем выберите существующую группу, которую вы хотите  >  Teams. Участники этой группы автоматически добавляются в команду.
 

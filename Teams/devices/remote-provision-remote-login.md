@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Узнайте, как дистанционно подавь и войти в Teams устройствах с Android
-ms.openlocfilehash: f39b93a048cee84cf6890d063e272edbef5edb4e
-ms.sourcegitcommit: 1ee9b1857f472a5b95352f7471c0cf21be6ea0c3
+ms.openlocfilehash: b0c2658bac556febb9a4289fc5053c38feec32c343901ee679a744641f9f1144
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "52059193"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54337977"
 ---
 # <a name="remote-provisioning-and-sign-in-for-teams-android-devices"></a>Удаленная подготовка и вход для Teams устройств с Android
 
@@ -39,10 +39,10 @@ ms.locfileid: "52059193"
 |Teams телефонов|Yealink VP59|91.15.0.58|
 |Teams телефонов|Yealink CP960|73.15.0.117|
 |Teams телефонов|Yealink MP56/MP54/MP58|122.15.0.36|
-|Teams телефонов|Воронова UC-2|1.0.3.52|
+|Teams телефонов|UC-2, UcRon|1.0.3.52|
 |Teams телефонов|  Poly Trio C60|  7.0.2.1071|
 |Teams телефонов|  CCX400/CCX500/CCX600    |7.0.2.1072|
-|Teams телефонов|  Audio Codes C448HD/C450HD/C470HD|   1.10.120|
+|Teams телефонов|  Звуковые коды C448HD/C450HD/C470HD|   1.10.120|
 
 ## <a name="add-a-device-mac-address"></a>Добавление адреса MAC устройства
 
@@ -82,15 +82,15 @@ ms.locfileid: "52059193"
 
 ## <a name="provision-the-device"></a>Подготовка устройства
 
-Когда устройство подключено и подключено к сети, специалист под его подготовка. Эти действия будут выполнены на Teams устройстве.
+Когда устройство подключено и подключено к сети, технические специалисты его подавют. Эти действия будут выполнены на Teams устройстве.
 
-1. Специалист выбирает устройство **подготовка** в **Параметры.**  
+1. Специалист выбирает в **области** подготовка **устройство Параметры.**  
 
    ![Параметр "Подготовка нового устройства" на вкладке "Действия"](../media/provision-device1.png)
   
 2. Специалист вводит код проверки для конкретного устройства в предоставленное поле ввода.
 
-   ![Подготовка новой проверки устройства](../media/provision-device-verification1.png)
+   ![Подготовка проверки нового устройства](../media/provision-device-verification1.png)
 
    После успешной подготовка устройства на странице для регистрации появится имя клиента.
 

@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 99d729ea-5a4c-4ff2-a4a3-93a24368da6d
 description: Сводка. Настройка магистрали с включенным обходом мультимедиа для Skype для бизнеса Server. Это позволит свести к минимуму количество серверов-посредников, предумножив поддержку поставщика магистральных серверов SIP.
-ms.openlocfilehash: d5178a4adedb380193dc0ce55c0a8a4a414e59d3
+ms.openlocfilehash: f009cc15279cde28b531747adf77a7adf89fa407efaa9a30ff731e37f2f23f0e
 ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/05/2021
-ms.locfileid: "53772750"
+ms.locfileid: "54287628"
 ---
 # <a name="skype-for-business-server-configure-a-trunk-with-media-bypass"></a>Skype для бизнеса Server: Настройка магистрали с помощью обхода мультимедиа
 

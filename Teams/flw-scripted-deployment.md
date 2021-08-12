@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 452fd19bdd89ced22a3e233fc851c52395e48e9b
-ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
+ms.openlocfilehash: a650b116f3a558594a2177fc4d53f713cf5d90e1488205573d370c5dd7124c40
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53646480"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54347165"
 ---
 # <a name="how-to-provision-teams-at-scale-for-frontline-workers"></a>Как подготовить Teams в масштабе для сотрудников без компьютеров
 

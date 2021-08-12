@@ -303,6 +303,8 @@ items:
             href: teams-privacy.md
           - name: Расположение данных в Teams
             href: location-of-data-in-teams.md
+          - name: Конфиденциальность отзывов о Microsoft Teams
+            href: teams-privacy-feedback.md
           - name: Блокировка доступа к SharePoint Online для определенных пользователей
             href: block-access-sharepoint.md
           - name: Общие сведения об управлении политикой
@@ -1479,6 +1481,8 @@ items:
             href: expand-teams-across-your-org/assignments-in-teams.md
           - name: Ресурсы Teams для образования (администраторы)
             href: resources-teams-edu.md
+          - name: Microsoft Teams для образования
+            href: devices-for-education.md
           - name: 'Управление решениями Майкрософт для образования: вопросы и ответы для администраторов'
             href: plan-teams-governance-edu.md
           - name: Установка интеграции Moodle
@@ -1585,9 +1589,13 @@ items:
           - name: Дисплеи Teams
             href: devices/teams-displays.md
           - name: Панели Teams
-            href: devices/teams-panels.md
-          - name: Использование панелей Teams
-            href: devices/use-teams-panels.md
+            items:
+              - name: Панели Teams
+                href: devices/teams-panels.md
+              - name: Использование панелей Teams
+                href: devices/use-teams-panels.md
+              - name: Поддержка приложений на панелях Teams
+                href: app-support-on-Teams-panels.md
           - name: Обновление телефонов Teams до дисплеев Teams
             href: devices/upgrade-phones-to-displays.md
           - name: Развертывание телефонов Teams и дисплеев Teams с помощью Intune

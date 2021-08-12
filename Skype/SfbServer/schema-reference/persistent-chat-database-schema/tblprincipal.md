@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 79a24502-b4ce-41f0-8979-8caddf535338
 description: Таблица tblPrincipal содержит все субъекты, включая пользователей, папки и группы.
-ms.openlocfilehash: ee9e16d0fcd5d7206bb73ff8b13cdc9d930b6b97
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 50d20aee156a4a919effac26ff29c371ec2cf886c12300ecd07268576730ae49
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49815899"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54338027"
 ---
 # <a name="tblprincipal"></a>tblPrincipal
  
@@ -29,18 +29,18 @@ ms.locfileid: "49815899"
 |**Столбец**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
 |prinID  <br/> |int, not null  <br/> |Идентификатор субъекта.  <br/> |
-|prinGuid  <br/> |GUID, не null  <br/> |Идентификатор GUID субъекта. Этот ключ широко используется в качестве альтернативного первичного ключа, так как его значение пересекается с пространством доменных служб Active Directory. (GUID кэшированного субъекта аналогичен GUID соответствующего объекта Active Directory.)  <br/> |
+|prinGuid  <br/> |GUID, не null  <br/> |Идентификатор GUID субъекта. Это широко используется в качестве альтернативного основного ключа, так как его значение пересекается в пространстве служб домена Active Directory. (GUID кэшированного субъекта аналогичен GUID соответствующего объекта Active Directory.)  <br/> |
 |prinUri  <br/> |nvarchar (256), не может быть null  <br/> |Универсальный код ресурса (URI) субъекта. Схема SIP используется для пользователей, а ma-grp — практически для всех остальных субъектов.  <br/> |
 |prinName  <br/> |nvarchar (256)  <br/> |Общее имя. Используется только для пользователей.  <br/> |
 |prinDisplayName  <br/> |Nvarchar (256)  <br/> |Отображаемое имя. Используется только для пользователей.  <br/> |
 |prinCompanyName  <br/> |nvarchar (256)  <br/> |Название компании. Используется только для пользователей.  <br/> |
 |prinEmail  <br/> |nvarchar (256)  <br/> |Электронная почта. Используется только для пользователей.  <br/> |
 |prinADPath  <br/> |nvarchar (384)  <br/> |Имя домена объекта Active Directory, кэшированной версией которого является субъект. Может иметь значение Null для типов, не являющихся объектами Active Directory (например, системных пользователей).  <br/> |
-|prinADUserPrincipalName  <br/> |nvarchar (256)  <br/> |Имя пользователя-пользователя(UPN). Используется только для обычных типов пользователя.  <br/> |
-|prinDisabled  <br/> |smallint, не null  <br/> | 0 — субъект активен. <br/>  1. Principal отключен, так как возможности SIP пользователя отключены. <br/>  2 — субъект удален, поскольку удален связанный объект Active Directory. <br/> |
+|prinADUserPrincipalName  <br/> |nvarchar (256)  <br/> |Основное имя пользователя (UPN). Используется только для обычных типов пользователя.  <br/> |
+|prinDisabled  <br/> |smallint, не null  <br/> | 0 — субъект активен. <br/>  1. Принцип отключен, так как возможности SIP пользователя отключены. <br/>  2 — субъект удален, поскольку удален связанный объект Active Directory. <br/> |
 |prinTypeID  <br/> |smallint, не может быть null  <br/> |Тип субъекта (из таблицы tblPrincipalType).  <br/> |
-|prinPoolID  <br/> |Целое  <br/> |Назначение пула клиентов Skype для бизнеса для основного приложения.  <br/> |
-|prinPolicyID  <br/> |Целое  <br/> |Значение политики сервера сохраняемого чата для пользователя, если имеется политика типов тегов.  <br/> |
+|prinPoolID  <br/> |Целое  <br/> |Skype для бизнеса клиентского пула для директора.  <br/> |
+|prinPolicyID  <br/> |Целое  <br/> |Значение политики сохраняемого сервера чата для пользователя, если политика типа тегов присутствует.  <br/> |
 |prinAddedBy  <br/> |int  <br/> |Идентификатор субъекта создателя.  <br/> |
 |prinAddedOn  <br/> |bigint, не может быть null  <br/> |Метка времени создания.  <br/> |
 |prinUpdatedBy  <br/> |int  <br/> |Идентификатор субъекта, выполнившего последнее обновление.  <br/> |

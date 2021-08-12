@@ -16,12 +16,12 @@ f1.keywords:
 description: Лучше убедиться, что служба Teams и другие компоненты Microsoft 365 или Office 365, такие как Exchange, SharePoint и OneDrive для бизнеса.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e2a3cfb82522a731d8902223e070a9f1c3dd1b95
-ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
+ms.openlocfilehash: c7aebfec6aedd018580ddece9d3d7dac4e30ca731b91decf5d74bc0acf9c3e91
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53646030"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54316695"
 ---
 # <a name="verify-service-health-for-microsoft-teams"></a>Проверка работоспособности службы для Microsoft Teams
 

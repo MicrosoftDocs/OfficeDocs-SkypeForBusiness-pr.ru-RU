@@ -15,19 +15,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f259a753-cfdc-4fa7-ba35-6fb812e1552a
 description: Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
-ms.openlocfilehash: 9a711020358a4aaa6860b4bec9341c1db89e2606
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 7593dfcd17a47e2bac6f167b19a4643afde5fe8c35645a2bb9e10b6466be58ef
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51115075"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54301565"
 ---
 # <a name="users-view-voice-policy"></a>Пользователи: просмотр политики голосовой связи
 
 Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
 
-- [Создание или изменение голосовой политики и настройка записей использования PSTN в Skype для бизнеса 2015](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md)
+- [Создание или изменение голосовой политики и настройка записей использования PSTN в Skype для бизнеса 2015 г.](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md)
 
 - [Изменение голосовой политики и настройка записей использования ТСОП](/previous-versions/office/lync-server-2013/lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records)
 
-Сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнес-серверов, см. в материале Управление Skype для бизнеса [Server 2015.](../../manage/manage.md)
+Сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнеса Server, см. в Skype для бизнеса Server [2015](../../manage/manage.md)г.

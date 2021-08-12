@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 319fdc9f-7ed6-4ed3-8f3f-b78758a0eb42
 description: Адреса IPv4 или IPv6 для шлюза IP-телефонии или ТСОП можно определить, выбрав параметр Включить IPv4 или Включить IPv6. Можно выбрать параметр Использовать все настроенные IP-адреса или Ограничить использование службы выбранными IP-адресами.
-ms.openlocfilehash: 00e62163a6a710ab9e0ed0189425b3a6022e1b70
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: fc62cc1b65fdb486f63bcebc0b337e9eed0f9cad1ddc2e250f4135b1be1478a8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119688"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54301561"
 ---
 # <a name="define-the-ip-address-of-the-ip-or-pstn-gateway"></a>Определение IP-адреса шлюза IP или ТСОП
 
