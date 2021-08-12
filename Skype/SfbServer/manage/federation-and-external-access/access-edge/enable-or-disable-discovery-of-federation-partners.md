@@ -15,25 +15,25 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Во время развертывания пограничных серверов и включения федерации для организации необходимо указать, должно ли поддерживаться автоматическое обнаружение федеративных доменов партнеров.
-ms.openlocfilehash: e1f076b725dff149f024a3fd59f9f7d52da4e6a8
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: c66dd9750c8fdd36af5fad75f40b6939a04b0971cec4c9e57fe97bd06047ed9d
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49817429"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57849194"
 ---
-# <a name="enable-or-disable-discovery-of-federation-partners-in-skype-for-business-server"></a>Enable or disable discovery of federation partners in Skype for Business Server
+# <a name="enable-or-disable-discovery-of-federation-partners-in-skype-for-business-server"></a>Включить или отключить обнаружение партнеров федерации в Skype для бизнеса Server
 
 Во время развертывания пограничных серверов и включения федерации для организации необходимо указать, должно ли поддерживаться автоматическое обнаружение федеративных доменов партнеров. Используйте процедуру, описанную в данном разделе, для изменения этой конфигурации.
 
 > [!NOTE]  
-> В следующей процедуре предполагается, что федерация уже включена для организации. Подробные сведения о включаемой федерации см. в сведениях о [включаемом или отключаемом удаленном доступе пользователей.](enable-or-disable-remote-user-access.md)
+> В следующей процедуре предполагается, что федерация уже включена для организации. Сведения о включаемой федерации см. в материале [Включение или отключение удаленного доступа к пользователю.](enable-or-disable-remote-user-access.md)
 
 ## <a name="to-enable-or-disable-automatic-discovery-of-federated-domains-for-your-organization"></a>Включение или отключение автоматического обнаружения федеративных доменов для организации
 
-1.  Из учетной записи пользователя, которая является членом группы RTCUniversalServerAdmins (или имеет эквивалентные права пользователя) или назначена роли CsAdministrator, войдите на любой компьютер во внутреннем развертывании.
+1.  С учетной записи пользователя, которая входит в группу RTCUniversalServerAdmins (или имеет эквивалентные права пользователя) или назначена роли CsAdministrator, войдите на любой компьютер во внутреннем развертывании.
 
-2.  Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Skype для бизнеса Server.
+2.  Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель Skype для бизнеса Server управления.
 
 3.  В левой панели навигации щелкните **Доступ для внешних пользователей** и **Настройка пограничного доступа**.
 
@@ -43,24 +43,20 @@ ms.locfileid: "49817429"
 
 6.  Нажмите кнопку **Сохранить**.
 
-Чтобы позволить федератным пользователям взаимодействовать с пользователями в развертывании Skype для бизнеса Server, необходимо также настроить по крайней мере одну политику внешнего доступа для поддержки доступа федераированных пользователей. Подробные сведения см. в [подключите или отключите федерацию и подключение к общедоступным системам im.](enable-or-disable-federation-and-public-im-connectivity.md) Подробные сведения об управлении доступом для определенных федераированных доменов см. в подтипе "Управление федератными [доменами SIP"](../sip-domains/manage-sip-federated-domains-for-your-organization.md) и "Управление федератными [поставщиками SIP".](../sip-providers/manage-sip-federated-providers-for-your-organization.md)
+Чтобы федератированные пользователи могли сотрудничать с пользователями в Skype для бизнеса Server развертывания, необходимо также настроить по крайней мере одну политику внешнего доступа для поддержки федератного доступа пользователей. Подробные сведения см. в материале [Enable or disable federation and public IM connectivity.](enable-or-disable-federation-and-public-im-connectivity.md) Сведения об управлении доступом для определенных федераированных доменов см. в материале Управление федерадными доменами [SIP](../sip-domains/manage-sip-federated-domains-for-your-organization.md) и управление федерадными [поставщиками SIP.](../sip-providers/manage-sip-federated-providers-for-your-organization.md)
 
 
-## <a name="enabling-or-disabling-discovery-of-federation-partners-by-using-windows-powershell-cmdlets"></a>Включение или отключение обнаружения партнеров федерации с помощью Windows PowerShell управления
+## <a name="enabling-or-disabling-discovery-of-federation-partners-by-using-windows-powershell-cmdlets"></a>Включение или отключение обнаружения партнеров федерации с помощью Windows PowerShell-
 
-Обнаружением партнеров федерации можно управлять с помощью Windows PowerShell и Set-CsAccessEdgeConfiguration управления. Этот cmdlet можно запустить либо из оболочки управления Skype для бизнеса Server, либо из удаленного сеанса Windows PowerShell. 
+Обнаружение партнеров федерации можно управлять с помощью Windows PowerShell и Set-CsAccessEdgeConfiguration. Этот комлет можно запускать из Skype для бизнеса Server или удаленного сеанса Windows PowerShell. 
 
 
-## <a name="to-enable-discovery-of-federation-partners"></a>Чтобы включить обнаружение федератных партнеров
+## <a name="to-enable-discovery-of-federation-partners"></a>Возможность обнаружения партнеров федерации
 
-  - Чтобы включить обнаружение федеративных партнеров, задайте для свойства **EnablePartnerDiscovery** значение True ($True). Обратите внимание, что для изменения значения этого свойства необходимо включить маршрутизацию DNS SRV.
-    
-        Set-CsAccessEdgeConfiguration -UseDnsSrvRouting -EnablePartnerDiscovery $True
+  - Чтобы включить обнаружение федеративных партнеров, задайте для свойства **EnablePartnerDiscovery** значение True ($True). Обратите внимание, что для изменения значения этого свойства необходимо включить маршрутизацию DNS SRV.<br/><br/>Set-CsAccessEdgeConfiguration-UseDnsSrvRouting -EnablePartnerDiscovery $True
 
 
 ## <a name="to-disable-discovery-of-federation-partners"></a>Отключение обнаружения партнеров федерации
 
-  - Чтобы отключить обнаружение федеративных партнеров, задайте для свойства **EnablePartnerDiscovery** значение False ($False).
-    
-        Set-CsAccessEdgeConfiguration -UseDnsSrvRouting -EnablePartnerDiscovery $False
+  - Чтобы отключить обнаружение федеративных партнеров, задайте для свойства **EnablePartnerDiscovery** значение False ($False).<br/><br/>Set-CsAccessEdgeConfiguration-UseDnsSrvRouting -EnablePartnerDiscovery $False
 

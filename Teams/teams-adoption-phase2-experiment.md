@@ -21,23 +21,23 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6f5eee1414a7b69a9f2fb03b6819e8269b3c9c62
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: c93dbfbb7b3ce6955ad530e13b85fb99b5d1fc01fbbe38b02871e8d7ddae21e1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49831219"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54296606"
 ---
 # <a name="microsoft-teams-adoption-phase-2---experiment"></a>Внедрение Microsoft Teams. Этап 2 — эксперименты
 
 Теперь у вас отличная команда проекта и важная информация о вашей организации, и вы готовы поэкспериментировать с Teams. Мы рекомендуем поэкспериментировать с от 2 до 3 реальных проектов в группе, которой является заинтересованный лицо, с которым у вас положительные отношения и в организации достаточное количество ранних пользователей, чтобы предоставить осмысленные отзывы. Независимо от того, велика ли ваша организация, мы рекомендуем завершить этот этап, чтобы понять, как Teams повысить эффективность совместной работы, не используя возможности чата и хранилища файлов.  
 
-На этом этапе необходимо выполнить следующие действия:
+На этом этапе вы выполните следующие действия:
 
 1. [Создайте программу для champions .](teams-adoption-create-champions-program.md)
 2. [Краткое руководство.](teams-adoption-governance-quick-start.md)
 3. [Определите случаи использования](teams-adoption-define-usage-scenarios.md).
-4. [Завершать участие в программе ранних принятием](teams-adoption-onboard-early-adopters.md).
+4. [Завершать участников программы ранних принятия.](teams-adoption-onboard-early-adopters.md)
 5. [Настройка каналов отзывов](teams-adoption-onboard-early-adopters.md#gather-feedback).
 6. [Привлечение сотрудников службы поддержки](teams-adoption-onboard-support.md)на доску .
 

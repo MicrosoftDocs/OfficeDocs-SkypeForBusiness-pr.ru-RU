@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2c53cc427c1db87a2d0296384d5d0c67e7e7996a
-ms.sourcegitcommit: d34dbdc2f71f3d024cb7f1856fc0f8bbc701f66d
-ms.translationtype: HT
+ms.openlocfilehash: bbde1b4d5425b0bbcf904528f0ddb232f27a2ba4b15fb0755639ef01b1f5f09f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53506328"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54312447"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-online-or-stream-for-meeting-recordings"></a>Использование OneDrive для бизнеса, SharePoint Online или Stream для записей собраний
 

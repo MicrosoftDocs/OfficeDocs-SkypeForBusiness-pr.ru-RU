@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Ниже находятся Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для островов Теркс и Кайкос.
-ms.openlocfilehash: 93efa68fbdd5d7ce8855cc39658cdcfb222242df
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: d581113c242174483a36b3637bbe7fde01fde1c1f4459c1215bd1974fba05746
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119278"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54322721"
 ---
 # <a name="availability-in-turks-and-caicos-islands"></a>Доступность в островах Теркс и Кайкос
 
@@ -41,7 +41,7 @@ ms.locfileid: "51119278"
 
 |**Функция**|**Сведения**|
 |:-----|:-----|
-|Доступно ли приобретение аудиоконференций?  <br/> |Да. Только с поминутной оплатой. <br/> |
+|Доступно ли приобретение аудиоконференций?  <br/> |Да. Только оплата за минуту. <br/> |
 |Номера телефонов автоматически назначаются для аудио конференций?  <br/> | Нет |
 |Возможность получить обратный звонок с функцией "Звонок на мой номер"  <br/> | Требуются кредиты связи <br/> |
    

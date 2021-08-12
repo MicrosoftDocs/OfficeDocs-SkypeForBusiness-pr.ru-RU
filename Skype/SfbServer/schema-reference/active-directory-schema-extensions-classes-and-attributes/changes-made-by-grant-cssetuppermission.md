@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: c5801f48-14e3-4fdd-8f14-d52e7af07a57
-description: Чтобы делегировать установку, можно предоставить универсальной группе RTCUniversalServerAdmins разрешения для определенного подразделения Active Directory, позволяя членам группы RTCUniversalServerAdmins в этом подразделении устанавливать Skype для бизнеса Server в указанном домене без участия в группе администраторов домена.
-ms.openlocfilehash: 3f6de30e7068f9f44ca6d958f8ca30af866b536a
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Чтобы делегировать установку, можно предоставить разрешения универсальной группе RTCUniversalServerAdmins для определенного организационного подразделения Active Directory, что позволяет членам группы RTCUniversalServerAdmins устанавливать Skype для бизнеса Server в указанном домене без участия в группе администраторов домена.
+ms.openlocfilehash: 32c0d48c5b6c63a38ff48e7808b8009c3ef265e6f0b6eb739094f797e47ace4d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49831839"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54349711"
 ---
 # <a name="changes-made-by-grant-cssetuppermission-in-skype-for-business-server"></a>Изменения, внесенные Grant-CsSetupPermission в Skype для бизнеса Server
  
-Чтобы делегировать установку, можно предоставить универсальной группе RTCUniversalServerAdmins разрешения для определенного подразделения Active Directory, позволяя членам группы RTCUniversalServerAdmins в этом подразделении устанавливать Skype для бизнеса Server в указанном домене без участия в группе администраторов домена. 
+Чтобы делегировать установку, можно предоставить разрешения универсальной группе RTCUniversalServerAdmins для определенного организационного подразделения Active Directory, что позволяет членам группы RTCUniversalServerAdmins устанавливать Skype для бизнеса Server в указанном домене без участия в группе администраторов домена. 
   
 Командлет **Grant-CsSetupPermission** предоставляет группе RTCUniversalServerAdmins разрешения на подразделение, как показано в следующей таблице.
   

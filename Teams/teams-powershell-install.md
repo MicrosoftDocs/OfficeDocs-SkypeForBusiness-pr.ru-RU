@@ -13,12 +13,12 @@ ms.collection:
 description: Узнайте, как использовать элементы управления PowerShell для управления Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3a1e969a1310a64a281434a630f4fb608b8cfb30
-ms.sourcegitcommit: 1b057bfcc3207960b956962845fd5051afe91722
+ms.openlocfilehash: feaed3702173061561e09ccc784bbae3173914d1a030052d56a4aaa79f7986a0
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/15/2021
-ms.locfileid: "52947570"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54312457"
 ---
 # <a name="install-microsoft-teams-powershell-module"></a>Установка Microsoft Teams PowerShell
 
@@ -72,7 +72,7 @@ Install-Module -Name MicrosoftTeams -Force -AllowClobber
 
 ## <a name="sign-in"></a>Вход
 
-Чтобы начать работу с модулем Microsoft Teams PowerShell, войте вход с помощью учетных данных Azure.
+Чтобы начать работу с модулем Microsoft Teams PowerShell, войте свою учетную запись Azure.
 
 ```PowerShell
 Connect-MicrosoftTeams 

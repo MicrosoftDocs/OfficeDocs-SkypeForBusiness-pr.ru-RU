@@ -1,5 +1,5 @@
 ---
-title: Таблица Gateways в Skype для бизнеса Server 2015
+title: Таблица шлюзов Skype для бизнеса Server 2015 г.
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,21 +12,21 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: a909daad-d137-45e0-b149-1de9f8e1e029
-description: Таблица Gateways является вспомогательной. В каждой записи хранится информация об одном шлюзе, который участвует в вызовах телефонной сети общего звонков (PSTN), в базе данных которых есть записи.
-ms.openlocfilehash: e945e5464093eb0eb58965fa1ef8a734ea0afa75
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Таблица Шлюзы — это вспомогательная таблица. В каждой записи хранится информация об одном шлюзе, который участвует в общедоступных вызовах телефонной сети с переключениями (PSTN), которые имеют записи в базе данных.
+ms.openlocfilehash: 62bbe3ab802736a50d1fb049a3585cba286ee7ec16907335aa831ab49259b0fc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49821589"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54349671"
 ---
-# <a name="gateways-table-in-skype-for-business-server-2015"></a>Таблица Gateways в Skype для бизнеса Server 2015
+# <a name="gateways-table-in-skype-for-business-server-2015"></a>Таблица шлюзов Skype для бизнеса Server 2015 г.
  
-Таблица Gateways является вспомогательной. В каждой записи хранится информация об одном шлюзе, который участвует в вызовах телефонной сети общего звонков (PSTN), в базе данных которых есть записи.
+Таблица Шлюзы — это вспомогательная таблица. В каждой записи хранится информация об одном шлюзе, который участвует в общедоступных вызовах телефонной сети с переключениями (PSTN), которые имеют записи в базе данных.
   
-|**Столбец**|**Тип данных**|**Ключ/индекс**|**Details**|
+|**Column**|**Тип данных**|**Key/Index**|**Сведения**|
 |:-----|:-----|:-----|:-----|
 |**GatewayId** <br/> |int  <br/> |Primary  <br/> |Уникальный номер, идентифицирующий этот шлюз.  <br/> |
-|**Шлюз** <br/> |nvarchar(256)  <br/> | <br/> |Имя шлюза.  <br/> |
+|**Шлюз** <br/> |nvarchar (256)  <br/> | <br/> |Имя шлюза.  <br/> |
    
 

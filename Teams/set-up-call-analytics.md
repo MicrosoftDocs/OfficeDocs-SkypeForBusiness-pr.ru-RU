@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: Настройка аналитики вызовов для каждого пользователя для выявления и устранения Microsoft Teams проблем с качеством звонка.
-ms.openlocfilehash: 209fcad851f5ba7b0183a9988372e249f99cc4fd
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 968a4c06d4b1be1384303241d0eb6b45721e833560d46169acf96caa1f18a576
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117137"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54332541"
 ---
 # <a name="set-up-call-analytics-for-microsoft-teams"></a>Настройка аналитики вызовов для Microsoft Teams
 
@@ -61,6 +61,6 @@ ms.locfileid: "51117137"
   
 ## <a name="related-topics"></a>Статьи по теме
 
-[Использование аналитических данных о звонках для каждого пользователя для устранения неполадок с качеством звонка](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+[Использование аналитики вызовов "на пользователя" для устранения неполадок с качеством звонка](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
 [Устранение неполадок Teams](/MicrosoftTeams/troubleshoot/teams)

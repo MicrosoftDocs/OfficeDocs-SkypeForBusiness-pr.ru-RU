@@ -15,16 +15,16 @@ ms.collection:
 ms.assetid: a038e34d-8bc8-4a59-8ed2-3fc00ec33dd7
 description: Дополнительные сведения о развертывании Комнаты Microsoft Teams с помощью Skype для бизнеса Server.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9ee33ec1ded7e8461f629c4552236ee60828a168
-ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
+ms.openlocfilehash: 14d942e041d11cfd95b38f4cdcc18ad614c135df9d88b3a3e55261236144bffd
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49662264"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54296646"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-skype-for-business-server"></a>Развертывание Комнаты Microsoft Teams с помощью Skype для бизнеса Server
   
-В этой теме объясняется, как добавить учетную запись устройства для Комнаты Microsoft Teams при развертывании с одним лесом в локальном развертывании.
+В этой теме объясняется, как добавить учетную запись для Комнаты Microsoft Teams при развертывании с одним лесом в локальном развертывании.
   
 Если у вас один лес, локальное развертывание с Exchange 2013 с sp1 или более поздней и Skype для бизнеса Server 2015 или более поздней, вы можете создавать учетные записи устройств с помощью Windows PowerShell сценариев. При развертывании с несколькими лесами можно использовать эквивалентные cmdlets, которые будут работать с одинаковыми результатами. В этой статье описываются необходимые для этого командлеты.
 
@@ -81,7 +81,7 @@ ms.locfileid: "49662264"
    Set-AdUser $acctUpn -Enabled $true
    ```
 
-6. Включите учетную запись устройства с Skype для бизнеса Server, включив учетную запись Комнаты Microsoft Teams Active Directory в Skype для бизнеса Server пуле:
+6. Включите учетную запись устройства Skype для бизнеса Server, включив учетную запись Комнаты Microsoft Teams Active Directory в Skype для бизнеса Server пуле:
 
    ``` Powershell
    Enable-CsMeetingRoom -SipAddress sip:PROJECTRIGEL01@contoso.com -DomainController DC-ND-001.contoso.com
@@ -90,7 +90,7 @@ ms.locfileid: "49662264"
 
     Для этого вам понадобятся SIP-адрес и контроллер домена проекта.
 
-7. **Необязательный**. Вы также можете разрешить Комнаты Microsoft Teams телефонной сети общего звонков (STN), включив Корпоративная голосовая связь для своей учетной записи. Корпоративная голосовая связь не является требованием к Комнаты Microsoft Teams, но если вы хотите, чтобы для клиента Комнаты Microsoft Teams телефонной службы были Комнаты Microsoft Teams ОКП, в этой службе можно включить ее:
+7. **Необязательный**. Вы также можете разрешить Комнаты Microsoft Teams телефонной сети общего звонков (STN), включив Корпоративная голосовая связь для вашей учетной записи. Корпоративная голосовая связь не является требованием к Комнаты Microsoft Teams, но если вы хотите, чтобы для клиента Комнаты Microsoft Teams телефонной службы были Комнаты Microsoft Teams ОКП, его можно включить.
 
    ``` Powershell
    Set-CsMeetingRoom PROJECTRIGEL01 -DomainController DC-ND-001.contoso.com -LineURI "tel:+14255550555;ext=50555"

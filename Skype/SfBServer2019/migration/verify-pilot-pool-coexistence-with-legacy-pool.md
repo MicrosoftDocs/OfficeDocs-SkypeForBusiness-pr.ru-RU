@@ -10,64 +10,64 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Проверка сосуществования пилотного пула с устаревшим пулом.
-ms.openlocfilehash: e9fe944c03c88aad2ca2b40f0e995842363e7a85
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+description: Процесс проверки сосуществования пилотного пула с устаревшим пулом.
+ms.openlocfilehash: f9a3fa8a9716d880b8fa2381fd5cafe88509504c2c142ebd5da5c5ab43667cf1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44751661"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54341125"
 ---
 # <a name="verify-pilot-pool-coexistence-with-legacy-pool"></a>Проверка возможности совместного использования пилотного и старого пула
 
  **Содержание**
   
-[Проверка того, что службы Skype для бизнеса Server 2019 запущены](#sectionSection0)
+[Проверка начала Skype для бизнеса Server 2019 г.](#sectionSection0)
   
-[Открытие панели управления Skype для бизнеса Server 2019](#sectionSection1)
+[Откройте панель Skype для бизнеса Server 2019 г.](#sectionSection1)
   
-[Не пытайтесь открыть топологию в устаревшем построитель топологий](#sectionSection2)
+[Не пытайтесь открыть топологию в устаревшем конструкторе топологии](#sectionSection2)
   
-После развертывания пилотного пула вам требуется проверить сосуществование двух пулов, воспользовавшись средствами администрирования для просмотра информации о пуле. Для пулов Skype для бизнеса Server 2019 и устаревших пулов необходимо использовать панель управления Skype для бизнеса Server 2019 и средства построитель топологий. 
+После развертывания пилотного пула вам требуется проверить сосуществование двух пулов, воспользовавшись средствами администрирования для просмотра информации о пуле. Для пулов Skype для бизнеса Server 2019 г. и устаревших пулов необходимо использовать средства управления Skype для бизнеса Server 2019 г. и средства topology Builder. 
   
-## <a name="verify-that-skype-for-business-server-2019-services-have-started"></a>Проверка того, что службы Skype для бизнеса Server 2019 запущены
+## <a name="verify-that-skype-for-business-server-2019-services-have-started"></a>Проверка начала Skype для бизнеса Server 2019 г.
 <a name="sectionSection0"> </a>
 
-1. From the Skype for Business Server 2019 Front End Server, navigate to the Administrative Tools\Services applet.
+1. С Skype для бизнеса Server 2019 front End Server перейдите в applet Administrative Tools\Services.
     
 2. Убедитесь, что на сервере переднего плана запущены следующие службы:
 
     - Агент централизованной службы ведения журналов.
     - Совместное использование приложений
-    - Служба проверки аудиосвязи
+    - Служба тестирования звука
     - Аудио- и видеоконференция
     - Парковка вызовов
-    - Извещание оглавлении для видеоконференций
-    - Помощник по конференцию
+    - оповещение для конференц-связи
+    - помощник по конференц-связи
     - Внешний интерфейс
     - IM Conferencing
-    - Посредник
-    - Агент репликатора репликации
+    - Посредничество
+    - Агент репликатора
     - Группа ответа
     - Веб-конференции
-    - Шлюз перевода XMPP
+    - Шлюз для перевода XMPP
 
   
-## <a name="open-the-skype-for-business-server-2019-control-panel"></a>Открытие панели управления Skype для бизнеса Server 2019
+## <a name="open-the-skype-for-business-server-2019-control-panel"></a>Откройте панель Skype для бизнеса Server 2019 г.
 <a name="sectionSection1"> </a>
 
-На сервере переднего сервера в развертывании Skype для бизнеса Server 2019 откройте панель управления Skype для бизнеса Server 2019 и выберите устаревший пул. Повторите эту процедуру, чтобы открыть пул Skype для бизнеса Server 2019.
+На переднем сервере в развертывании Skype для бизнеса Server 2019 г. откройте панель управления Skype для бизнеса Server 2019 г. и выберите устаревший пул. Повторите процедуру, чтобы открыть Skype для бизнеса Server 2019.
   
 > [!IMPORTANT]
-> В Skype для бизнеса Server 2019 необходимо обновить Silverlight до silverlight версии 5, прежде чем использовать панель управления Skype для бизнеса Server. 
+> В Skype для бизнеса Server 2019 г. перед использованием панели управления Skype для бизнеса Server Silverlight необходимо обновить Silverlight до версии 5 Silverlight. 
   
-Эта топология теперь включает устаревшие роли сервера и роли сервера Skype для бизнеса Server 2019. 
+Эта топология теперь включает устаревшие и Skype для бизнеса Server 2019 серверных ролей. 
 
   
-## <a name="dont-attempt-to-open-the-topology-in-the-legacy-topology-builder"></a>Не пытайтесь открыть топологию в устаревшем построитель топологий
+## <a name="dont-attempt-to-open-the-topology-in-the-legacy-topology-builder"></a>Не пытайтесь открыть топологию в устаревшем конструкторе топологии
 <a name="sectionSection2"> </a>
 
-Топологию можно просмотреть только с помощью построитель топологий Skype для бизнеса Server 2019. Skype for Business Server 2019 Topology Builder must be used to create pools for both Skype for Business Server 2019 and the legacy install.
+Топология может быть просмотрена только с помощью Skype для бизнеса Server 2019 Topology Builder. Конструктор топологии Skype для бизнеса Server 2019 года должен использоваться для создания пулов как для Skype для бизнеса Server 2019 г., так и для устаревшей установки.
 
   
 

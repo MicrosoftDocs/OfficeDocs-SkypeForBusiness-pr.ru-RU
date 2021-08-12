@@ -14,13 +14,13 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: ''
-ms.openlocfilehash: 83c548f948c4c368ba1d8186fbdc9f212b9fb67b463f8eaec845f7698f4c0720
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Включите или отключите отправку об отказе от архива федеративным партнерам в Skype для бизнеса Server.
+ms.openlocfilehash: 5c3e5b864b26977c2d25e534cdb62f9619644587a2b0658a788727ad2cd3fef4
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54313177"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848864"
 ---
 # <a name="enable-or-disable-sending-an-archiving-disclaimer-to-federated-partners-in-skype-for-business-server"></a>Включить или отключить отправку об отказе от архива федеративным партнерам в Skype для бизнеса Server
 
@@ -53,14 +53,9 @@ ms.locfileid: "54313177"
 
 ## <a name="to-enable-the-archiving-disclaimer"></a>Чтобы включить отказ от архива
 
-  - Чтобы включить отказ от архива, установите значение свойства **EnableArchivingDisclaimer** true ($True):
-    
-        Set-CsAccessEdgeConfiguration -EnableArchivingDisclaimer $True
+  - Чтобы включить отказ от архива, установите значение свойства **EnableArchivingDisclaimer** true ($True):<br/><br/>Set-CsAccessEdgeConfiguration EnableArchivingDisclaimer $True
 
 ## <a name="to-disable-the-archiving-disclaimer"></a>Отключение отказов от архива
 
-  - Чтобы отключить отказ от архива, установите значение свойства **EnableArchivingDisclaimer** false ($False):
-    
-        Set-CsAccessEdgeConfiguration -EnableArchivingDisclaimer $False
-
+  - Чтобы отключить отказ от архива, установите значение свойства **EnableArchivingDisclaimer** false ($False):<br/><br/>Set-CsAccessEdgeConfiguration EnableArchivingDisclaimer $False
 
