@@ -12,20 +12,20 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 072b4bdc-0f1e-4fce-a41e-5c60d24556d5
-description: В следующей таблице перечислены комлеты Skype for Business Cloud Connector Edition с кратким описанием и ссылками на дополнительные сведения.
-ms.openlocfilehash: 3739518dd8ddcd17bce8108228d0d643ebaa79a4
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: В следующей таблице перечислены Skype для бизнеса Cloud Connector Edition с кратким описанием и ссылками на дополнительные сведения.
+ms.openlocfilehash: a5a29003db50f79440b6bd0393bce63b8597d90df35cded4b7b6c0114b165b97
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092937"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54341494"
 ---
 # <a name="cloud-connector-cmdlet-reference"></a>Справочник по командлетам Cloud Connector
  
 > [!Important]
-> Cloud Connector Edition завершит карьеру 31 июля 2021 г. вместе со Skype для бизнеса Online. После обновления организации до Teams узнайте, как подключить сеть локальной телефонии к Teams с помощью прямой [маршрутизации.](/MicrosoftTeams/direct-routing-landing-page)
+> Cloud Connector Edition завершится 31 июля 2021 г. вместе с Skype для бизнеса Online. После обновления организации Teams, узнайте, как подключить локальной телефонной сети к Teams с помощью прямой [маршрутизации](/MicrosoftTeams/direct-routing-landing-page).
 
-В следующей таблице перечислены комлеты Skype for Business Cloud Connector Edition с кратким описанием и ссылками на дополнительные сведения.
+В следующей таблице перечислены Skype для бизнеса Cloud Connector Edition с кратким описанием и ссылками на дополнительные сведения.
   
 > [!NOTE]
 > Необходимо выполнить все cmdlets на хост-машине облачного соединителя и запустить сеанс PowerShell в качестве администратора. 
@@ -33,11 +33,11 @@ ms.locfileid: "51092937"
 |**Имя командлета**|**Описание**|
 |:-----|:-----|
 |[Backup-CcCertificationAuthority](backup-cccertificationauthority.md) <br/> Версия 1.4.2 и более поздние версии  <br/> |Возвращает службу сертификации в файл и сохраняет его в папке ЦС в каталоге акций сайта.     <br/> |
-|[Convert-CcIsoToVhdx](convert-ccisotovhdx.md) <br/> |Создает базовый виртуальный жесткий дисковый файл (VHDX) с помощью клиентского ИСО-файла Windows Server 2012 R2. Файл VHDX будет использоваться во время развертывания connectorCloud.  <br/> |
+|[Convert-CcIsoToVhdx](convert-ccisotovhdx.md) <br/> |Создает базовый виртуальный жесткий дисковый файл (VHDX) с помощью Windows Server 2012 R2 ISO. Файл VHDX будет использоваться во время развертывания connectorCloud.  <br/> |
 |[Enter-CcUpdate](enter-ccupdate.md) <br/> |Подготавливает хост-сервер облачного соединителю для процесса обновления, вводя его в режим обслуживания. Устройство "осушили"; то есть все существующие вызовы будут завершены, но новые вызовы будут отклонены.  <br/> |
 |[Exit-CcUpdate](exit-ccupdate.md) <br/> |Выходы из режима обслуживания обновления на сервере хост-сервера облачного соединитела.  <br/> |
-|[Export-CcConfiguration](export-ccconfiguration.md) <br/> | Экспорт конфигурации Skype для бизнеса cloud Connector Edition в локальный файл на хост-сервере Skype для бизнеса Cloud Connector Edition. <br/> |
-|[Export-CcConfigurationSampleFile](export-ccconfigurationsamplefile.md) <br/> |Экспортирует файл конфигурации образца облачного соединитела (.ini) в каталог устройств устройства устройства Cloud Connector. Вы можете изменить и переименовать файл для развертывания.  <br/> |
+|[Export-CcConfiguration](export-ccconfiguration.md) <br/> | Экспортирует конфигурацию Skype для бизнеса Cloud Connector Edition локальному файлу на Skype для бизнеса Cloud Connector Edition сервере. <br/> |
+|[Export-CcConfigurationSampleFile](export-ccconfigurationsamplefile.md) <br/> |Экспортирует пример файла конфигурации облачного соединитетеля (.ini) в каталог устройств устройства устройства Cloud Connector. Вы можете изменить и переименовать файл для развертывания.  <br/> |
 |[Export-CcRootCertificate](export-ccrootcertificate.md) <br/> Версия 1.4.2 и более поздние версии  <br/> |Экспорт корневого сертификата ЦС в локальный файл на сервере хост-сервера Cloud Connector.  <br/> |
 |[Get-CcApplianceDirectory](get-ccappliancedirectory.md) <br/> |Извлекает рабочий каталог на сервере хост-сервера Cloud Connector. Все файлы развертывания хранятся в этом каталоге.  <br/> |
 |[Get-CcApplianceLogDirectory](get-ccappliancelogdirectory.md) <br/> |Показывает текущий каталог, в котором хранятся журналы для устройства облачного соединитела..  <br/> |
@@ -47,7 +47,7 @@ ms.locfileid: "51092937"
 |[Get-CcSiteDirectory](get-ccsitedirectory.md) <br/> |Показывает текущий каталог, в котором хранятся файлы конфигурации уровня сайта. Папка содержит базовые файлы установки VHD и облачного соединителя. Эта папка должна быть совместной со всеми другими устройствами сайта Cloud Connector.  <br/> |
 |[Get-CcSiteLogDirectory](get-ccsitelogdirectory.md) <br/> |Показывает текущий каталог, в котором хранятся журналы уровня сайта для облачного соединитела.  <br/> |
 |[Get-CcVersion](get-ccversion.md) <br/> Версия 2.0 и более поздние версии  <br/> |Возвращает версию в экземпляре Cloud Connector. Get-CCVersion можно использовать только в хост-машине Cloud Connector.  <br/> |
-|[Import-CcConfiguration](import-ccconfiguration.md) <br/> Версия 2.0 и более поздние версии  <br/> |Импорт конфигурации Skype для бизнеса cloud Connector Edition из локального файла на сервер хост-сервера облачного соединитетеля.  <br/> |
+|[Import-CcConfiguration](import-ccconfiguration.md) <br/> Версия 2.0 и более поздние версии  <br/> |Импортирует конфигурацию Skype для бизнеса Cloud Connector Edition из локального файла на сервер хост-сервера облачного соединитела.  <br/> |
 |[Install-CcAppliance](install-ccappliance.md) <br/> |Устанавливает устройство облачного соединителя, включая виртуальные машины AD, Центрального магазина управления, сервера-посредника и edge Server на сервере хост-сервера.  <br/> |
 |[Publish-CcAppliance](publish-ccappliance.md) <br/> | Получает сведения о высокой доступности из конфигурации клиента в Интернете и публикует ее в устройство Cloud Connector на сервере хост-сервера. <br/> |
 |[Register-CcAppliance](register-ccappliance.md) <br/> | Регистрирует сведения о устройстве на сайте PSTN в конфигурации онлайн-клиента. Перед развертыванием и управлением устройством должна быть зарегистрирована служба управления облачным соединитетелем. <br/> |

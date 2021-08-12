@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Priority
 search.appverid: MET150
 description: Узнайте, как устранять проблемы с установкой и обновлением клиентского приложения Teams для настольных компьютеров в Windows.
-ms.openlocfilehash: 6235bd6336940d7d36a7de526eaaf1fbb93f5323
-ms.sourcegitcommit: 616403037ddb2d44f06cd9b2eaa9da699b119ef8
+ms.openlocfilehash: 7b482daae7378027418896fee718ae5beb88f02f0bcccc9ed8ce6fc988cf8ab6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "51768377"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54350197"
 ---
 # <a name="troubleshoot-microsoft-teams-installation-and-update-issues-on-windows"></a>Устранение неполадок при установке и обновлении Microsoft Teams в Windows
 

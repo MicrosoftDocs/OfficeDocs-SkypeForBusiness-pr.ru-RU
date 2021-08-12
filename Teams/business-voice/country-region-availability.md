@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Страны и регионы, где доступна голосовая связь Microsoft 365 бизнес.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5e7fbbb52ba66c59f440ffa9a26955e44968b77f
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: 1e56b1c4314989a8f3868aacc613c3742a48f39502d80a3bd9cb8168e8d2549e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52130208"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54332981"
 ---
 # <a name="country-and-region-availability-for-business-voice"></a>Доступность страны и региона для Business Voice
 

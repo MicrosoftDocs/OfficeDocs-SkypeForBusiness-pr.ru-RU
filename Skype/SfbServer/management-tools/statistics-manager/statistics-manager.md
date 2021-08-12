@@ -13,17 +13,17 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 3b945656-8241-40ed-a34d-0910bd9d3529
-description: Сводка. В этом разделе вы узнаете о диспетчере статистики для Skype для бизнеса Server, мощном средстве, которое позволяет просматривать данные о работоспособности и производительности Skype для бизнеса Server в режиме реального времени.
-ms.openlocfilehash: 68a16b76e68bc745a33b91b117c545b45057df55
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Сводка. Ознакомьтесь с этой темой, чтобы узнать о диспетчере статистики для Skype для бизнеса Server, мощном средстве, который позволяет просматривать Skype для бизнеса Server работоспособности и производительности в режиме реального времени.
+ms.openlocfilehash: 3fb8c9a27d061a5735b7ebc0d54b3e0a23597dae7b5fab830f74b46063f59227
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49821799"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54333221"
 ---
 # <a name="statistics-manager-for-skype-for-business-server"></a>Диспетчер статистики в Skype для бизнеса Server
  
-**Сводка:** В этом разделе вы узнаете о диспетчере статистики для Skype для бизнеса Server, мощном средстве, которое позволяет просматривать данные о работоспособности и производительности Skype для бизнеса Server в режиме реального времени.
+**Сводка:** Ознакомьтесь с этой темой, чтобы ознакомиться с Skype для бизнеса Server statistics Manager for Skype для бизнеса Server, который позволяет просматривать Skype для бизнеса Server данных о работоспособности и производительности в режиме реального времени.
   
 В данном разделе рассматриваются следующие темы:
   

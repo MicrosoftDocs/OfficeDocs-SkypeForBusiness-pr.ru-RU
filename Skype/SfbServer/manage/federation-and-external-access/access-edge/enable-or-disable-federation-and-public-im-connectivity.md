@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Поддержка федерации требуется для того, чтобы пользователи с учетной записью доверенного клиента или партнерской организации, включая пользователей партнерских доменов и общедоступных поставщиков услуг обмена мгновенными сообщениями, могли работать совместно с пользователями вашей организации.
-ms.openlocfilehash: 34991040e6eed9cfec8d2e3abd3fd3d944057d868f0ca9b83cd4131d3fd13ad0
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f9c7b4ee7a861bc395c8599283f8d993b25ef4774d9487263e334207e9e277c8
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54276844"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57849974"
 ---
 # <a name="enable-or-disable-federation-and-public-im-connectivity-in-skype-for-business-server"></a>Включить или отключить подключение федерации и общего чата в Skype для бизнеса Server
 
@@ -71,15 +71,11 @@ ms.locfileid: "54276844"
 
 ## <a name="to-enable-federation-and-public-im-connectivity"></a>Обеспечение подключения к федерации и общедоступным мгновенным данным
 
-  - Чтобы включить федерацию и связь с общедоступными поставщиками услуг обмена мгновенными сообщениями, задайте свойству **AllowFederatedUsers** значение True ($True):
-    
-        Set-CsAccessEdgeConfiguration -AllowFederatedUsers $True
+  - Чтобы включить федерацию и связь с общедоступными поставщиками услуг обмена мгновенными сообщениями, задайте свойству **AllowFederatedUsers** значение True ($True):<br/><br/>Set-CsAccessEdgeConfiguration -AllowFederatedUsers $True
 
 
 
 ## <a name="to-disable-federation-and-public-im-connectivity"></a>Отключение подключения к федерации и общедоступным чатам
 
-  - Чтобы отключить федерацию и связь с общедоступными поставщиками услуг обмена мгновенными сообщениями, задайте свойству **AllowFederatedUsers** значение False ($False):
-    
-        Set-CsAccessEdgeConfiguration -AllowFederatedUsers $False
+  - Чтобы отключить федерацию и связь с общедоступными поставщиками услуг обмена мгновенными сообщениями, задайте свойству **AllowFederatedUsers** значение False ($False):<br/><br/>Set-CsAccessEdgeConfiguration -AllowFederatedUsers $False
 

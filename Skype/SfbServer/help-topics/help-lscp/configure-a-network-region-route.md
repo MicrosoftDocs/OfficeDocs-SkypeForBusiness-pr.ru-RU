@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 35c1511f-8143-4893-a91c-5bc7c18ec0bf
 description: Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
-ms.openlocfilehash: 47a2f352552202c6eb86ff4ba7adcd34f14cfa39
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: db56f7a5d60d54906ae41963a175fa6d1ec2075e05542b192921494eed0f2ad6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122580"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54323161"
 ---
 # <a name="configure-a-network-region-route"></a>Настройка маршрута области сети
 
@@ -28,4 +28,4 @@ ms.locfileid: "51122580"
 
 - [Настройка маршрутов сетевого региона](/previous-versions/office/lync-server-2013/lync-server-2013-creating-or-modifying-network-region-routes)
 
-Сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнес-серверов, см. в материале Управление Skype для бизнеса [Server 2015.](../../manage/manage.md)
+Сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнеса Server, см. в Skype для бизнеса Server [2015](../../manage/manage.md)г.

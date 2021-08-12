@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Ниже находятся Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Австрия.
-ms.openlocfilehash: 96ef030f814c4f261092d2e2d9a8a7e46f4a9be6
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: bdf47a162c9028f8a5afab82be330906c4cfa4fec1436e0ada89a74e2aed647b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118418"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54341395"
 ---
 # <a name="availability-in-austria"></a>Доступность в Австрии
 
@@ -85,6 +85,6 @@ ms.locfileid: "51118418"
   
 ## <a name="related-topics"></a>Статьи по теме
 
-[Получение номеров телефонов служб](../getting-service-phone-numbers.md)
+[Получение служебных номеров телефонов](../getting-service-phone-numbers.md)
 
-[Доступность аудиоконференций и планов звонков в различных странах и регионах](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+[Доступность аудиоконференций и тарифных планов в различных странах и регионах](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

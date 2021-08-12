@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 56f6f46e-7482-45dc-87dc-c2b30e3ec67f
 description: Укажите полное доменное имя каждого компьютера, который следует добавить в качестве сервера аудио- и видеоконференций в этот пул аудио- и видеоконференций. После добавления компьютера в список в любое время до публикации топологии можно обновить полное доменное имя компьютера или удалить этот компьютер из пула. После публикации топологии изменение полного доменного имени осуществляется путем удаления сервера в построителе топологий с последующим добавлением нового сервера в пул с новым полным доменным именем.
-ms.openlocfilehash: 17a618eadb0346ac95a5582c3fbaada10f126754
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 14dc5d69279728655b21cb0aa3e24fa657b17ee90d56ce9f51c8b77f65b6ff2a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49810489"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54323141"
 ---
 # <a name="add-av-mcu-machine"></a>Добавление компьютера A/V MCU
  

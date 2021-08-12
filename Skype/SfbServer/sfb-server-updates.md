@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Поиск и управление обновлениями Skype для бизнеса Server 2015/2019 и Lync 2013 в одном месте. Чтобы узнать больше об обновлениях и скачать их, воспользуйтесь ссылками на этой странице.
-ms.openlocfilehash: d59037f500bff249ab814632fef100821d63b7b7
-ms.sourcegitcommit: 3f1635d1915561798ea764c3e33d7db55f7e49da
+ms.openlocfilehash: 615efffd595120f7833c3c51d585a381b46f5cc856f11620d60da532dca37334
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53574124"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54341524"
 ---
 # <a name="skype-for-business-server-updates"></a>Обновления Skype для бизнеса Server
 
@@ -30,19 +30,19 @@ ms.locfileid: "53574124"
 
 KB 4470124 является мастером КБ для Skype для бизнеса Server 2019 г., который имеет весь исторический список всех опубликованных накопительных обновлений и hotfixes. 
 
-|Имя пакета|Номер статьи в базе знаний|Дата выпуска|
+|Название пакета|Номер статьи в базе знаний|Дата выпуска|
 |:--- |:--- |:--- |
 |Skype для бизнеса Server 2019 Накопительное обновление 4 |[KB 4470124](https://support.microsoft.com/kb/4470124)| Сентябрь 2020 |
 |Skype для бизнеса Server 2019 Накопительное обновление 3 Hotfix 1 |[KB 4470124](https://support.microsoft.com/kb/4470124)| Июль 2020 |
 |Skype для бизнеса Server 2019 Накопительное обновление 3 |[KB 4470124](https://support.microsoft.com/kb/4470124)| Март 2020 г. |
 |Skype для бизнеса Server 2019 Накопительное обновление 2 |[KB 4470124](https://support.microsoft.com/kb/4470124)| Декабрь 2019 г. |
-|Skype для бизнеса Server 2019 Накопительное обновление 1 Hotfix 1 |[KB 4470124](https://support.microsoft.com/kb/4470124)| Сентябрь 2019 г. |
-|Skype для бизнеса Server 2019 Накопительное обновление 1|[KB 4470124](https://support.microsoft.com/kb/4470124)| Июль 2019 г. |
+|Skype для бизнеса Server 2019 Накопительное обновление 1 Hotfix 1 |[KB 4470124](https://support.microsoft.com/kb/4470124)| Сентябрь 2019 |
+|Skype для бизнеса Server 2019 Накопительное обновление 1|[KB 4470124](https://support.microsoft.com/kb/4470124)| Июль 2019 |
 | | | |
 
 ### <a name="skype-for-business-server-2019-tools"></a>Skype для бизнеса Server 2019 г.
 
-|Имя пакета |Дата выпуска|
+|Название пакета |Дата выпуска|
 |:--- |:--- |
 |[UCMA 6.0 SDK ](https://www.microsoft.com/en-in/download/details.aspx?id=57506)     |  Июнь 2019 г.       |
 |[Управление API единой связи 5.0](https://www.microsoft.com/en-in/download/details.aspx?id=57507)    | Июнь 2018 г.        |
@@ -54,12 +54,12 @@ KB 4470124 является мастером КБ для Skype для бизне
 
 [KB 3061064](https://support.microsoft.com/kb/3061064) содержит все выпущенные накопительные обновления. 
 
-|Имя пакета|Номер статьи в базе знаний|Дата выпуска|
+|Название пакета|Номер статьи в базе знаний|Дата выпуска|
 |:--- |:--- |:--- |
 |Skype для бизнеса Server 2015 Накопительное обновление 11 Hotfix 1|[KB 3061064](https://support.microsoft.com/kb/3061064)| Июль 2020 г. |
 |Skype для бизнеса Server 2015 Накопительное обновление 11|[KB 3061064](https://support.microsoft.com/kb/3061064)| 13 мая 2020 г. |
-|Skype для бизнеса Server 2015 Накопительное обновление 10 Hotfix 1|[KB 3061064](https://support.microsoft.com/kb/3061064)| Август 2019 г. |
-|Skype для бизнеса Server 2015 Накопительное обновление 10 |[KB 3061064](https://support.microsoft.com/kb/3061064)| Июль 2019 г. |
+|Skype для бизнеса Server 2015 Накопительное обновление 10 Hotfix 1|[KB 3061064](https://support.microsoft.com/kb/3061064)| Август 2019 |
+|Skype для бизнеса Server 2015 Накопительное обновление 10 |[KB 3061064](https://support.microsoft.com/kb/3061064)| Июль 2019 |
 |Накопительное обновление 9 Skype для бизнеса Server 2015 г., Сервер веб-компонентов|[KB 4487981](https://support.microsoft.com/kb/4487981)| Май 2019 г. |
 |Накопительное обновление 8 Skype для бизнеса Server 2015 г., front End Server и Edge Server|[KB 4464355](https://support.microsoft.com/kb/4464355)|Январь 2019 г.|
 |Накопительное обновление 7 для Skype для бизнеса Server 2015 г., переднего и краевого серверов |[KB 4340904](https://support.microsoft.com/kb/4340904) |Июль 2018 г. |
@@ -78,7 +78,7 @@ KB 4470124 является мастером КБ для Skype для бизне
 
 ### <a name="skype-for-business-server-2015-tools"></a>Skype для бизнеса Server 2015 г.
 
-|Имя пакета |Дата выпуска|
+|Название пакета |Дата выпуска|
 |:--- |:--- |
 |[UCMA 5.0 SDK ](https://www.microsoft.com/en-in/download/details.aspx?id=47345)     |  Май 2015 г.       |
 |[Управление API единой связи 5.0](https://www.microsoft.com/download/details.aspx?id=47344)     |   Май 2015 г.      |
@@ -89,10 +89,10 @@ KB 4470124 является мастером КБ для Skype для бизне
 
 [KB 2809243](https://support.microsoft.com/kb/2809243) содержит все накопительные обновления, которые были выпущены.
 
-|Имя пакета|Номер статьи в базе знаний|Дата выпуска|
+|Название пакета|Номер статьи в базе знаний|Дата выпуска|
 |:--- |:--- |:--- |
 |Накопительное обновление Lync Server 2013 10 Hotfix 4 |[KB 4515509](https://support.microsoft.com/kb/4515509)|Июль 2020|
-|Накопительное обновление Lync Server 2013 10 Hotfix 3 |[KB 4515509](https://support.microsoft.com/kb/4515509)|Сентябрь 2019 г.|
+|Накопительное обновление Lync Server 2013 10 Hotfix 3 |[KB 4515509](https://support.microsoft.com/kb/4515509)|Сентябрь 2019|
 |Накопительное обновление 10 Hotfix 2 Lync Server 2013 |[KB 4501392](https://support.microsoft.com/kb/4501392)|Июнь 2019 г.|
 |Накопительное обновление 10 Hotfix 1 Lync Server 2013 |[KB 4458772](https://support.microsoft.com/kb/4458772)|Январь 2019 г.|
 |Накопительное обновление Lync Server 2013 10 |[KB 4295703](https://support.microsoft.com/kb/4295703)|Июль 2018 г. |
@@ -123,7 +123,7 @@ KB 4470124 является мастером КБ для Skype для бизне
 
 ### <a name="lync-server-2013-dev-tools"></a>Средства разработчиков Lync Server 2013
 
-|Имя пакета|Дата выпуска|
+|Название пакета|Дата выпуска|
 |:--- |:--- |
 | Накопительное обновление единой связи управляемый API 4.0 |Июль 2013 г. |
 | Пакет Lync Server 2013 SDK |Февраль 2013 г.|
@@ -138,7 +138,7 @@ KB 4470124 является мастером КБ для Skype для бизне
 
 Полная топология состоит из 7 виртуальных машин, которые позволяют полностью оценить Microsoft Lync 2013, API microsoft Exchange 2013, SharePoint 2013 и API платформы разработчиков UC (включая SDK Microsoft Lync 2013, Exchange Web Services Managed API 2.0, Microsoft Lync Server 2013 SDK и Microsoft Unified Communications Managed API 4.0).
 
-Имя пакета |Дата выпуска|
+Название пакета |Дата выпуска|
 |:--- |:--- |
 |[Тест-драйв — Lync Server 2013 — часть 1 из 3](https://www.microsoft.com/download/details.aspx?id=40266) |Сентябрь 2013 г. |
 |[Тест-драйв — Lync Server 2013 — часть 2 из 3](https://www.microsoft.com/download/details.aspx?id=40267) |Сентябрь 2013 г. |
@@ -146,7 +146,7 @@ KB 4470124 является мастером КБ для Skype для бизне
 
 ### <a name="lync-2013-tools"></a>Инструменты Lync 2013
 
-|Имя пакета |Дата выпуска|
+|Название пакета |Дата выпуска|
 |:--- |:--- |
 | Lync Connectivity Analyzer (32-bit) RETIRED |Июнь 2017 г. |
 | Lync Connectivity Analyzer (64-bit) RETIRED |Июнь 2017 г. |
@@ -165,7 +165,7 @@ KB 4470124 является мастером КБ для Skype для бизне
 
 ### <a name="lync-2013-downloadable-documentation"></a>Загружаемая документация Lync 2013
 
-Имя пакета |Дата выпуска|
+Название пакета |Дата выпуска|
 |:--- |:--- |
 |[Файл справки о документации Lync Server 2013](https://www.microsoft.com/download/details.aspx?id=35405)|Август 2015 г. |
 
@@ -175,7 +175,7 @@ KB 4470124 является мастером КБ для Skype для бизне
 
 [KB 2493736](https://support.microsoft.com/kb/2493736) содержит все выпущенные накопительные обновления.
 
-|Имя пакета|Номер статьи в базе знаний|Дата выпуска|
+|Название пакета|Номер статьи в базе знаний|Дата выпуска|
 |:--- |:--- |:--- |
 |Накопительное обновление 18 Hotfix 1 Lync Server 2010 | KB 2493736 |Июнь 2019 г.|
 |Накопительное обновление 18 Lync Server 2010| KB 2493736 |Январь 2019 г.|
@@ -199,7 +199,7 @@ KB 4470124 является мастером КБ для Skype для бизне
 
 ### <a name="group-chat-2010-updates"></a>Обновления группового чата 2010
 
-|Имя пакета|Номер статьи в базе знаний|Дата выпуска|
+|Название пакета|Номер статьи в базе знаний|Дата выпуска|
 |:--- |:--- |:--- |
 |Накопительное обновление для Lync Server 2010, групповой чат |[KB 2884623](https://support.microsoft.com/kb/2884623) |Октябрь 2013 г.|
 |Накопительное обновление для Lync Server 2010, средство администрирования группового чата |[KB 2884631](https://support.microsoft.com/kb/2884631) |Октябрь 2013 г.|
@@ -207,7 +207,7 @@ KB 4470124 является мастером КБ для Skype для бизне
 
 ### <a name="lync-2010-dev-tools"></a>Средства разработчиков Lync 2010
 
-|Имя пакета |Дата выпуска|
+|Название пакета |Дата выпуска|
 |:--- |:--- |
 | Пакет Lync Server 2010 SDK |Ноябрь 2010 г. |
 | Lync 2010 SDK |Март 2011 г. |
@@ -218,7 +218,7 @@ KB 4470124 является мастером КБ для Skype для бизне
 
 ### <a name="lync-2010-tools"></a>Инструменты Lync 2010
 
-|Имя пакета |Дата выпуска|
+|Название пакета |Дата выпуска|
 |:--- |:--- |
 | Im эксперт для Microsoft Lync Server 2010 |Март 2012 г. |
 | Анализатор лучших практик Lync Server 2010 |Февраль 2011 г. |
@@ -231,7 +231,7 @@ KB 4470124 является мастером КБ для Skype для бизне
 
 ### <a name="lync-2010-downloadable-documentation"></a>Загружаемая документация Lync 2010
 
-Имя пакета |Дата выпуска|
+Название пакета |Дата выпуска|
 |:--- |:--- |
 |[Файл справки о документации Lync Server 2010](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=9720c3f1-ddd4-426b-b98a-f1205561ce00)|Март 2012 г. |
 |[Страница Приветствие Lync Server 2010](/previous-versions/office/skype-server-2010/gg398616(v=ocs.14))|Октябрь 2012 г. |
@@ -247,7 +247,7 @@ KB 4470124 является мастером КБ для Skype для бизне
 
 ### <a name="group-chat"></a>Group Chat
 
-Имя пакета |Дата выпуска|
+Название пакета |Дата выпуска|
 |:--- |:--- |
 | Групповой чат Lync Server 2010 |Ноябрь 2010 г. |
 | Средство администрирования группового чата Lync Server 2010 |Ноябрь 2010 г. |
@@ -266,7 +266,7 @@ KB 4470124 является мастером КБ для Skype для бизне
 
 Обновления программного обеспечения включают любые обновления, накопительные пакеты обновления, пакеты обновления, пакеты дополнительных компонентов, критические обновления, обновления для системы безопасности и исправления. В статье базы знаний [KB 824684](https://support.microsoft.com/kb/824684) можно найти описание стандартной терминологии, касающейся обновления программного обеспечения Майкрософт.
 
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Похожие темы
 
 - [Установка Skype для бизнеса Server 2015 г.](./deploy/install/install.md)
 - [Обновление до Skype для бизнеса Server 2015 г.](./deploy/upgrade-to-skype-for-business-server.md)

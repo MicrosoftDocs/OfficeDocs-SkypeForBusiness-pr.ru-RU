@@ -19,12 +19,12 @@ description: Голосовая связь Microsoft 365 бизнес — это
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-may2020
-ms.openlocfilehash: 6071264efda73f129890ce4c43131a7580fe0595
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 3f6f37a19ef1a9892ad5bbaa95c19b79500ad1d7dd09841a0a2cc9cfac1729d3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102815"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54332961"
 ---
 # <a name="what-is-microsoft-365-business-voice"></a>Что такое корпоративная голосовая связь Microsoft 365?
 
@@ -32,7 +32,7 @@ ms.locfileid: "51102815"
 
 В корпоративной голосовой связи все эти возможности реализованы путем объединения функций телефонной системы Microsoft 365 в удобный для управления пакет. Вам не нужно беспокоиться о выборе подходящего плана или функции; они уже настроены и доступны. Телефонная система является частью Teams, поэтому можно превратить ПК, Mac или мобильное устройство в телефон, который может использовать ваш номер корпоративной голосовой связи.
 
-В этом коротком видео содержится обзор функции корпоративной голосовой связи (2:13 мин.):
+В этом коротком видео содержится обзор функции корпоративной голосовой связи (2:13 мин.):
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4C56M]
 
@@ -41,7 +41,7 @@ ms.locfileid: "51102815"
 - Microsoft 365 бизнес базовый
 - Microsoft 365 бизнес стандарт
 - Microsoft 365 бизнес премиум
-- Microsoft 365 F1
+- Microsoft 365 F1
 - Microsoft 365 F3
 - Office 365 F3
 - Microsoft и Office 365 корпоративный E1 или E3

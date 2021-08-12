@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: Узнайте, как управлять доступом к пользовательским приложениям, созданным на платформе Microsoft Power Platform, в Microsoft Teams администрирования.
-ms.openlocfilehash: 03940d402bd2259287e1e69f844e6560424f15e2
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: df9ae85d3b59eaeb44f0a15fe9113615a6c0ecfd448ed0f4f4699d48ffe6b43e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096163"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54332831"
 ---
 # <a name="manage-microsoft-power-platform-apps-in-the-microsoft-teams-admin-center"></a>Управление приложениями Microsoft Power Platform в Центре Microsoft Teams администрирования
 
@@ -37,7 +37,7 @@ ms.locfileid: "51096163"
 
 Приложения Microsoft Power Platform, созданные создателями в организации, автоматически добавляются в Teams. Создатели могут управлять доступом к своим приложениям, используя функцию общего доступа в Power Apps [и](/powerapps/maker/canvas-apps/share-app) функцию общего доступа [в Power Virtual Agents.](/power-virtual-agents/admin-share-bots)
 
-Когда создается или совместно создается приложение Microsoft Power Platform, пользователи могут **** просматривать и устанавливать его на странице "Приложения", на странице "Встроено для имени организации", созданном вашими  >  **коллегами.** (Может потребоваться несколько минут после создания или совместного делиться приложением.)
+Когда создается или совместно создается приложение Microsoft Power Platform, пользователи могут **** просматривать и устанавливать его на странице "Приложения", на странице "Встроено для организации", созданной вашими  >  **коллегами.** (Может потребоваться несколько минут после создания или совместного делиться приложением.)
 
 :::image type="content" source="media/manage-power-platform-apps-apps-page.png" alt-text="Снимок экрана: страница "Приложения" с приложениями Microsoft Power Platform, перечисленными в списке "Встроенные коллегами"":::
 
@@ -47,7 +47,7 @@ ms.locfileid: "51096163"
 |---------|---------|
 |<ul><li>Пользователь создал приложение.</li><li>Доступ к приложению был напрямую у пользователя.</li><li>Пользователь недавно использовал приложение. </li></ul>| <ul><li>Пользователь создал бот.</li><li>Бот принадлежит группе, участником в составе группы является пользователь. </li></ul>        |
 
-Пользователи устанавливают приложения Microsoft Power Platform так же, как и другие Teams приложения. Имейте в виду, что пользователи могут устанавливать приложения только в том контексте, в котором у них есть разрешения, например в группе, в которой они работают, в чате или в своей личной области.
+Пользователи устанавливают приложения Microsoft Power Platform так же, как и другие Teams приложения. Помните, что пользователи могут устанавливать приложения только в том контексте, в котором у них есть разрешения, например в группе, в которой они работают, в чате, в котором они работают, или в своей личной области.
 
 ## <a name="manage-access-to-microsoft-power-platform-apps-in-the-microsoft-teams-admin-center"></a>Управление доступом к приложениям Microsoft Power Platform в центре Microsoft Teams администрирования
 
@@ -72,7 +72,7 @@ ms.locfileid: "51096163"
     :::image type="content" source="media/manage-power-platform-apps-manage-apps.png" alt-text="Снимок экрана: страница "Управление приложениями" с общими приложениями Microsoft Power Platform":::
 
     - Чтобы заблокировать приложения, созданные в Power Apps или Power Virtual Agents для всех пользователей  в организации, найдите общие Power Apps или Общие приложения виртуального агента **Power,** выберите его и нажмите кнопку **Заблокировать**.
-    - Чтобы разрешить приложения, созданные в Power Apps или Power Virtual Agents для всех  пользователей в организации, найдите общие Power Apps или Общие приложения виртуального агента **Power,** выберите его и нажмите кнопку **Разрешить**.
+    - Чтобы разрешить приложения, созданные в Power Apps или Power Virtual Agents для всех пользователей в организации, найдите общие приложения **Power Apps** или Общие приложения виртуального агента **Power,** выберите его и нажмите кнопку **Разрешить**.
 
 ### <a name="allow-or-block-microsoft-power-platform-apps-for-specific-users"></a>Разрешение и блокировка приложений Microsoft Power Platform для определенных пользователей
 
@@ -84,7 +84,7 @@ ms.locfileid: "51096163"
 
 ### <a name="use-audit-logs-to-investigate-microsoft-power-platform-installation-activity"></a>Использование журналов аудита для изучения действий при установке Microsoft Power Platform
 
-Журналы аудита можно использовать Teams для изучения событий, в которых  пользователи установили приложения Microsoft Power Platform, из раздела "Встроенные коллегами" страницы "Приложения" в Teams. Для этого [](./audit-log-events.md) в журнале аудита найдите событие установленного приложения Teams (в рамках операции **AppInstalled)** для пользователя или набора пользователей.  Чтобы найти приложения, установленные в приложении Built by **your colleagues**, найдите значение **TemplatedInstance** в свойстве **AppDistributionMode** в сведениях заданной записи. 
+Журналы аудита можно использовать Teams для изучения событий, в которых  пользователи установили приложения Microsoft Power Platform, из раздела "Встроенные коллегами" страницы "Приложения" в Teams. Для этого в [журнале](./audit-log-events.md) аудита найдите событие Teams Установлено приложение (в рамках операции **AppInstalled)** для пользователя или набора пользователей.  Чтобы найти приложения, установленные в приложении Built by **your colleagues,** найдите значение **TemplatedInstance** в свойстве **AppDistributionMode** в сведениях заданной записи. 
 
 :::image type="content" source="media/manage-power-platform-apps-audit.png" alt-text="Снимок экрана: значение TemplatedInstance в свойстве AppDistributionMode":::
 
