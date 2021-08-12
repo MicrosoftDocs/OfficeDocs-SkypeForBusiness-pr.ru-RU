@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже ются Microsoft 365 и Office 365 службы для Skype для бизнеса и Microsoft Teams для "Microsoft Teams".
-ms.openlocfilehash: 9fb8d25c683f55b36d524ca623ebfcf20706aae6
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Ниже ются Microsoft 365 и Office 365 службы Skype для бизнеса и Microsoft Teams для "Microsoft Teams".
+ms.openlocfilehash: 91b9741d04a8352090730766571d3a92e18c3bb8094e16a855e01ad5ae316f9b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118027"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54308878"
 ---
 # <a name="availability-in-honduras"></a>Доступность в Гондурасе
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже ются Microsoft 365 и Office 365 службы для Skype для бизнеса и Microsoft Teams для "Microsoft Teams".
+Ниже ются Microsoft 365 и Office 365 службы Skype для бизнеса и Microsoft Teams для "Microsoft Teams".
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 

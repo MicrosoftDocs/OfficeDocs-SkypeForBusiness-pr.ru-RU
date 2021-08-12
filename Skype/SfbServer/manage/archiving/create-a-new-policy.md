@@ -12,18 +12,18 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 50c39731-ba2f-49c2-a571-6dc373f6aaeb
 description: Сводка. Узнайте, как создать новую политику архива для Skype для бизнеса Server.
-ms.openlocfilehash: fe3a80708d3810a085f1814e6d16ff3cd4c6057c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 7793575e75fcee4509c96cd6a569520a4a34576e850818a52dd20518ee725de2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095423"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54280982"
 ---
 # <a name="create-a-new-archiving-policy-in-skype-for-business-server"></a>Создание новой политики архива в Skype для бизнеса Server
 
 **Сводка:** Узнайте, как создать новую политику архива для Skype для бизнеса Server.
   
-Вы можете создать новые политики архива с помощью панели управления или с помощью Windows PowerShell.
+Вы можете создать новые политики архива с помощью панели управления или с помощью Windows PowerShell-кодлетов.
   
 ## <a name="create-a-new-archiving-policy-by-using-the-control-panel"></a>Создание новой политики архива с помощью панели управления
 
@@ -31,7 +31,7 @@ ms.locfileid: "51095423"
   
 1. Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи пользователя, назначенной роли CsArchivingAdministrator или CsAdministrator. 
     
-2. Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Skype для бизнес-серверов. 
+2. Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель Skype для бизнеса Server управления. 
     
 3. В левой панели навигации щелкните **Мониторинг** и архивации, а затем нажмите кнопку **Политика архивации**.
     
@@ -54,11 +54,11 @@ ms.locfileid: "51095423"
 6. Щелкните **Исполнить**.
     
     > [!IMPORTANT]
-    > Параметры политики пользователя применяются только к тем пользователям и группам пользователей, к которым применяется политика. Дополнительные сведения [см. в материале Apply an archiving policy to users in Skype for Business Server.](apply-a-policy-to-users.md) 
+    > Параметры политики пользователя применяются только к тем пользователям и группам пользователей, к которым применяется политика. Дополнительные сведения [см. в материале Apply an archiving policy to users in Skype для бизнеса Server.](apply-a-policy-to-users.md) 
   
-## <a name="create-a-new-archiving-policy-by-using-windows-powershell"></a>Создание новой политики архива с помощью Windows PowerShell
+## <a name="create-a-new-archiving-policy-by-using-windows-powershell"></a>Создайте новую политику архива с помощью Windows PowerShell
 
-Кроме того, можно создать новые политики архива с помощью Windows PowerShell **new-CsArchivingPolicy.** Дополнительные сведения см. в разделе Справка для [cmdlet New-CsArchivingPolicy.](/powershell/module/skype/new-csarchivingpolicy?view=skype-ps)
+Вы также можете создать новые политики архива с помощью **Windows PowerShell-код New-CsArchivingPolicy.** Дополнительные сведения см. в разделе Справка для [cmdlet New-CsArchivingPolicy.](/powershell/module/skype/new-csarchivingpolicy?view=skype-ps)
   
 ### <a name="to-create-a-new-archiving-policy-at-the-site-level"></a>Создание новой политики архива на уровне сайта
 

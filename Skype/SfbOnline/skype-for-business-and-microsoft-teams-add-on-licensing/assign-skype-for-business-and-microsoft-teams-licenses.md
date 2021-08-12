@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Licensing
 description: 'Узнайте, как назначить лицензии Skype для бизнеса на телефонные системы, аудиоконференции, планы звонков и кредиты на связь. '
-ms.openlocfilehash: 41f1788e4c562f3b4cc1f43d7875b64805b19ed8
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 61d8eca21fec85f7f729e0d0de9cc5d43fd5ca96567e2abe49cf7b6b5f651500
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237495"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54281332"
 ---
 # <a name="assign-skype-for-business-licenses"></a>Назначение лицензий Skype для бизнеса
 
@@ -35,7 +35,7 @@ ms.locfileid: "52237495"
 В этой статье представлены советы по назначению пользователям лицензий на такие функции, как аудиоконференция, телефонная система и планы звонков. Здесь также представлены сценарии для массового назначения лицензий.
 
 > [!IMPORTANT]
-> Сведения [о том, какие](skype-for-business-and-microsoft-teams-add-on-licensing.md) лицензии необходимо приобрести и как  их приобрести, в зависимости от плана Microsoft 365 или Office 365 см. в Microsoft 365 лицензировании надстройки Microsoft 365, чтобы пользователи могли получать аудиоконференцию, бесплатные номера и возможность звонить на номера телефонов за пределами вашей компании. Skype для бизнеса
+> Сведения [о Skype для бизнеса](skype-for-business-and-microsoft-teams-add-on-licensing.md) лицензиях и их покупке в зависимости  от плана Microsoft 365 или Office 365 см. в Microsoft 365- или Office 365, чтобы пользователи могли получать аудиоконференцию, бесплатные номера и возможность звонить на номера телефонов за пределами вашей компании.
 
 
 ## <a name="phone-system-and-calling-plans-tips-and-scripts-for-assigning-licenses"></a>Телефонные системы и планы звонков. Советы и сценарии по назначению лицензий

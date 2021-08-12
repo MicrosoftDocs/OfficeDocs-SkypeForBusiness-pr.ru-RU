@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже ются Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Бразилии.
-ms.openlocfilehash: 0eda45199e7f37f325c5d3958de298a75e20e411
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Ниже находятся Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Бразилии.
+ms.openlocfilehash: 28e6d3fc8d829b13cce5212a93ac70a4508ed049f532c4e175fd85e3ddbef171
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118318"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54308938"
 ---
 # <a name="availability-in-brazil"></a>Доступность в Бразилии
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже ются Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Бразилии.
+Ниже находятся Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Бразилии.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 

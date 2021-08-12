@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 80201105-18f7-4c02-9c71-8df5a952f6c7
 description: Включить управление приемом вызовов в Skype для бизнеса Server Корпоративная голосовая связь.
-ms.openlocfilehash: 2b8096a9223250cec88e57e68fdc201f5591fd92
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 65c9ea2e4732ca4c2c069479826f353a9a2dabf82d6eee35c6feaf1c14391ddd
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51109865"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54281202"
 ---
 # <a name="enable-call-admission-control-in-skype-for-business-server"></a>Включить управление приемом вызовов в Skype для бизнеса Server
  
@@ -29,9 +29,9 @@ ms.locfileid: "51109865"
   
 Чтобы политики пропускной способности сети вступили в силу, необходимо включить службу контроля допуска звонков (после настройки параметров сети для развертывания этой службы).
   
-### <a name="to-enable-call-admission-control-by-using-skype-for-business-server-management-shell"></a>Включить управление приемом вызовов с помощью оболочки управления Skype для бизнес-серверов
+### <a name="to-enable-call-admission-control-by-using-skype-for-business-server-management-shell"></a>Включить управление приемом вызовов с помощью Skype для бизнеса Server Management Shell
 
-1. Запустите оболочку управления Skype для бизнес-серверов: нажмите кнопку Начните, щелкните Все **программы,** щелкните Skype для бизнеса **2015,** а затем нажмите **кнопку Skype для управления бизнес-серверами.**
+1. Запустите Skype для бизнеса Server: нажмите кнопку Начните, щелкните Все **программы,** нажмите кнопку Skype для бизнеса **2015,** а затем нажмите кнопку **Skype для бизнеса Server.**
     
 2. Чтобы включить службу контроля допуска звонков в сети, выполните командлет Set-CsNetworkConfiguration. Пример:
     
@@ -45,9 +45,9 @@ ms.locfileid: "51109865"
    Set-CsNetworkConfiguration -EnableBandwidthPolicyCheck 0
    ```
 
-### <a name="to-enable-call-admission-control-by-using-skype-for-business-server-control-panel"></a>Включить управление приемом вызовов с помощью панели управления Skype для бизнес-серверов
+### <a name="to-enable-call-admission-control-by-using-skype-for-business-server-control-panel"></a>Включить управление приемом вызовов с помощью Skype для бизнеса Server панели управления
 
-1. Откройте панель управления Skype для бизнес-серверов.
+1. Откройте панель Skype для бизнеса Server управления.
     
 2. В левой панели навигации щелкните **Network Configuration** (Параметры сети).
     

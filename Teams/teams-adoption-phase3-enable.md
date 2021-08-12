@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 602d820b245b096a8c0f8470f08ba7fd9529d070
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 86255086796d7a48d9e46b5507a92a9f2bc478d94b3eaa042dfa9e574e7aa360
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49806109"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54308480"
 ---
 # <a name="microsoft-teams-adoption-phase-3---scale"></a>Внедрение Microsoft Teams. Этап 3 — масштабирование
 
@@ -36,7 +36,7 @@ ms.locfileid: "49806109"
 2. Выберите стратегию обслуживания.
 3. Вовлечение заинтересованных лиц.
 4. Разработка и запуск информационной кампании.
-5. Разработка и запуск обучающей программы.
+5. Разработка и запуск программы обучения.
 6. Средства отчетности.
 7. Подготовьтесь к постоянному взаимодействию с бизнесом.
 8. Подготовьтесь к постоянному анализу & служб.

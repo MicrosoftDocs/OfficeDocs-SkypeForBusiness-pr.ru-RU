@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Ниже находятся Microsoft 365 и Office 365 службы для Skype для бизнеса и Microsoft Teams для Сент-Ция.
-ms.openlocfilehash: a84c49b7ce9c2f3693dc1f983a5c2b9a0cad8b39
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: cc0970142cdb779d554241b69c4b28708a396d6089474ef6d0570659675aca4a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121487"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54308788"
 ---
 # <a name="availability-in-saint-lucia"></a>Доступность в Сент-Лусии
 

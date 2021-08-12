@@ -12,37 +12,37 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 7b389efc-9685-42e9-9504-be437d20ff57
 ms.collection: M365-voice
-description: Ознакомьтесь с этой темой, чтобы узнать, как управлять учетной записью skype Room System.
-ms.openlocfilehash: e6b905b065badb729ccc9281d63ba050fc032ef2
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Ознакомьтесь с этой темой, чтобы узнать, как управлять Skype учетных записей системы номеров.
+ms.openlocfilehash: 416a211ec9954dd2c2a8c856a67c72226209f3e7dd6114536574e63c5520b841
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093297"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54279467"
 ---
 # <a name="manage-skype-room-system-accounts"></a>Управление учетными записями системы комнат Skype
  
-Ознакомьтесь с этой темой, чтобы узнать, как управлять учетной записью skype Room System. 
+Ознакомьтесь с этой темой, чтобы узнать, как управлять Skype учетных записей системы номеров. 
 
 > [!NOTE]
-> Microsoft Teams Rooms — это другой продукт с различными зависимостями и процедурами развертывания. Сведения о комнатах Microsoft Teams см. в обзоре управления Microsoft Teams [Rooms.](/microsoftteams/rooms/rooms-manage)
+> Комнаты Microsoft Teams — это другой продукт с различными зависимостями и процедурами развертывания. Сведения о Комнаты Microsoft Teams см. в Комнаты Microsoft Teams [руководстве.](/microsoftteams/rooms/rooms-manage)
   
-## <a name="move-the-skype-room-system-account-between-pools"></a>Перемещение учетной записи Skype Room System между пулами
+## <a name="move-the-skype-room-system-account-between-pools"></a>Перемещение учетной записи Skype комнат между пулами
 
-Если вам необходимо переместить учетную запись системы Skype Room System из одного пула Skype для бизнес-сервера в другую (например, во время обновления), используйте следующую команду для перемещения пула учетных записей системы номеров Skype: 
+Если вам необходимо переместить учетную запись Skype системы номеров из одного пула Skype для бизнеса Server в другой (например, во время обновления), используйте следующую команду для перемещения пула учетных записей Skype системы номеров: 
   
 ```powershell
 Move-CsMeetingRoom -Identity LRS01 -Target "LYNCPool15-2.contoso.com"
 ```
 
-## <a name="disable-the-skype-room-system-account-for-skype-for-business-services"></a>Отключение учетной записи skype Room System для служб Skype для бизнеса
+## <a name="disable-the-skype-room-system-account-for-skype-for-business-services"></a>Отключение Skype учетной записи системы номеров для Skype для бизнеса служб
 
-Если вам необходимо отключить существующую учетную запись Skype Room System из служб Skype для бизнеса в пуле Skype для бизнеса Server, используйте следующую команду, чтобы отключить учетную запись: 
+Если вам необходимо отключить существующую учетную запись Skype room System из служб Skype для бизнеса в пуле Skype для бизнеса Server, используйте следующую команду для отключения учетной записи: 
   
 ```powershell
 Disable-CsMeetingRoom LRS01 -domaincontroller DC-ND-001.contoso.com
 ```
 
-## <a name="optional-create-a-skype-room-system-administrator-group-in-active-directory"></a>Необязательный вариант: создайте группу администратора системы номеров Skype в Active Directory
+## <a name="optional-create-a-skype-room-system-administrator-group-in-active-directory"></a>Необязательный: создайте группу администраторов Skype в Active Directory
 
-Каждый клиент системы номеров Skype, который присоединяется к домену, может полностью управляться пользователем домена с правами местного администратора на компьютере устройства Skype Room System. Таким образом, вы можете создать группу выделенных администраторов в Active Directory и предоставить этой группе административные права во время создания нового компьютера системы номеров Skype.
+Каждый клиент Skype, который присоединяется к домену, может полностью управляться пользователем домена с правами местного администратора на компьютере Skype системы номеров. Таким образом, вы можете создать группу выделенных администраторов в Active Directory и предоставить ей административные права во время создания нового Skype системы номеров.

@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: c60afd78-147a-42ce-8673-314acbfd6cc7
 ROBOTS: NOINDEX, NOFOLLOW
 description: На странице Выполнение команд отображается панель состояния задач, обновляемая по мере выполнения команд для создания запроса сертификации. По завершении задач в раскрывающемся списке под панелью появляются файлы журналов. Выберите в списке файл журнала для просмотра и нажмите кнопку Просмотреть журнал. Запустится Internet Explorer, в котором откроется файл журнала. Если возникает ошибка запроса, необходимо просмотреть файлы журналов и определить причину ошибки. Вы можете вернуть запрос сертификата, чтобы устранить проблему, указанную в файле журнала. Пройдя по страницам запроса сертификата, запросите сертификат еще раз.
-ms.openlocfilehash: 0f2f1dd8c23e5c0fb36a0cabc4dca022277141c2
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 090454e0b5ff6e9dc136f85134048f8d7beebe1009b2d01549f9c6b3e711793b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49836849"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54280224"
 ---
 # <a name="certificate-request-invoke"></a>Запрос сертификата (вызов)
  

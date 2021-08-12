@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c73780cd-0033-4287-9ecd-ecf65ca61e62
 description: 'Чтобы изменить параметры для одного или нескольких существующих пулов пограничных серверов, можно воспользоваться следующими разделами параметров:'
-ms.openlocfilehash: 5b4bbb302f76a38a5a485d17ad6df5c0d1db1c6b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 28d998986f21e089b34c9a58b9acb238c2aa8ab3108296566ce14210c87220d7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119658"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54281122"
 ---
 # <a name="edge-settings-expander"></a>Расширитель параметров пограничного сервера
 
