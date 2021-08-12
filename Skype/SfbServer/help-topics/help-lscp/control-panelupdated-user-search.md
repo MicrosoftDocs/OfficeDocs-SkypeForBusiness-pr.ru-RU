@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50feb75f-92a1-4916-b92e-c039e1290c52
 description: Результаты поиска можно использовать для настройки пользователей для Skype для бизнеса Server. Вы можете осуществлять поиск пользователей по отображаемому имени, имени, фамилии, имени учетной записи диспетчера учетных записей безопасности, SIP-адресу или универсальному коду ресурса (URI). Вы также можете искать пользователей с помощью панели управления Lync Server или оснастки пользователей и компьютеров Active Directory.
-ms.openlocfilehash: 117f1c6a5a697cb1cf9e8e1f5c6cbf8363c517bf
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 75e5a3ddf063477351946ad1d5efa1e5877f38d1a6b8d2109fc2b91869bc6cde
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119938"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54320651"
 ---
 # <a name="control-panel---updated-user-search"></a>Панель управления — обновлено: поиск пользователей
 
@@ -40,13 +40,13 @@ ms.locfileid: "51119938"
 
 - [Назначение политик пользователям](/previous-versions/office/lync-server-2013/lync-server-2013-assigning-per-user-policies)
 
-- [Включить пользователей для Корпоративная голосовая связь в Skype для бизнеса Server 2015](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
+- [Включить пользователей для Корпоративная голосовая связь в Skype для бизнеса Server 2015 г.](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
 
 - [Настройка федерации, удаленного доступа к пользователю и общедоступных подключений к чату для пользователей](/previous-versions/office/lync-server-2013/lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user)
 
 - [Настройка телефонии для пользователей](/previous-versions/office/lync-server-2013/lync-server-2013-configure-telephony-for-a-user)
 
-Сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнес-серверов, см. в материале Управление Skype для бизнеса [Server 2015.](../../manage/manage.md)
+Сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнеса Server, см. в Skype для бизнеса Server [2015](../../manage/manage.md)г.
 
 ## <a name="ui-reference"></a>Справочник по элементам пользовательского интерфейса
 
@@ -76,7 +76,7 @@ ms.locfileid: "51119938"
 
 ### <a name="search-results-menus"></a>Меню результатов поиска
 
-- **Включить пользователей** Щелкните, чтобы открыть диалоговое окно [Users: New Lync Server User,](users-new-lync-server-user.md) где можно добавить нового пользователя в Skype для бизнеса Server.
+- **Включить пользователей** Щелкните, чтобы открыть диалоговое окно ["Пользователи: Новый пользовательский сервер Lync Server",](users-new-lync-server-user.md) где можно добавить нового пользователя в Skype для бизнеса Server.
 
     Для добавления нового контакта щелкните стрелку вниз, а затем выберите команду **Включить контакты**, чтобы открыть диалоговое окно [Users: New Contact Objects](users-new-contact-objects.md).
 
@@ -86,7 +86,7 @@ ms.locfileid: "51119938"
 
   - **Повторное включить для Lync Server** Включает выбранную учетную запись пользователя после ее временной отключения.
 
-  - **Временное отключение для Lync Server** Отключает учетную запись пользователя в Skype для бизнес-сервера до повторного ее отключения без удаления учетной записи пользователя.
+  - **Временное отключение для Lync Server** Отключает учетную запись пользователя в Skype для бизнеса Server до повторного ее включания без удаления учетной записи пользователя.
 
   - **Назначение политик** Открывает [диалоговое окно "Пользователи: назначение](users-assign-policies.md) политик", в котором можно настроить политики, назначаемые пользователю.
 

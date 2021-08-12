@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: Миграция конечных точек приложения с гидравлией до вывода из эксплуатации Skype для бизнеса локальной среды.
-ms.openlocfilehash: 556c6dca43f1fb273d1934dfe581bdc86356ca15
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: e06411bfdbd5b74c2b9663ad1eb0441cfc0e2a42411b6bbc8e2c24700dee4993
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53510540"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54312287"
 ---
 # <a name="migrate-hybrid-application-endpoints-before-decommissioning-your-on-premises-environment"></a>Перенос конечных точек гибридного приложения перед выводом из эксплуатации локальной среды
 
@@ -36,7 +36,7 @@ ms.locfileid: "53510540"
 
 - **Шаг 3. Перенос конечных точек гибридного приложения из локального в онлайн.** (В этой статье)
 
-- Этап 4. [Удалите локальное развертывание Skype для бизнеса.](decommission-remove-on-prem.md)
+- Этап 4. [Удалите локальное развертывание Skype для бизнеса.](decommission-remove-on-prem.md)
 
 
 ## <a name="migrate-all-required-hybrid-application-endpoints-from-on-premises-to-online"></a>Перенос всех необходимых конечных точек гибридного приложения из локального в интернет
@@ -57,7 +57,7 @@ ms.locfileid: "53510540"
    ```PowerShell
    Get-CsHybridApplicationEndpoint -Filter {LineURI -ne $null} | Set-CsHybridApplicationEndpoint -LineURI ""
    ```
-5. Так как возможно, что номера телефонов для этих учетных записей управлялись в Microsoft 365, а не локально, запустите следующую команду в Skype для бизнеса Online PowerShell:
+5. Так как возможно, что номера телефонов для этих учетных записей управлялись в Microsoft 365, а не локально, запустите следующую команду в Teams PowerShell:
 
    ```PowerShell
    $endpoints = import-csv "c:\backup\HybridEndpoints.csv"

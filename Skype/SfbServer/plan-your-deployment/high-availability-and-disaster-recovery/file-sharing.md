@@ -13,18 +13,18 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: b8c8d5ec-9397-4128-8d1e-8ec6c30fade7
 description: Узнайте об обеспечении высокой доступности ваших файлов в Skype для бизнеса Server с помощью DFS.
-ms.openlocfilehash: f47d8207969063472af23d898ef8a52c2383df0d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: c707a1049bf1c54302c4dde270856379e4731fd4e23b1e886b3144445b4e2aaf
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093097"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54337767"
 ---
 # <a name="file-sharing-high-availability-in-skype-for-business-server"></a>Высокая доступность общего доступа к файлам в Skype для бизнеса Server
  
 Узнайте об обеспечении высокой доступности ваших файлов в Skype для бизнеса Server с помощью DFS.
   
-Для обеспечения высокой доступности общего доступа к файлам в развертывании Skype для бизнеса Server можно использовать распределенную файловую систему (DFS). Распределенная файловая система поддерживает отработку отказа в пределах одного центра обработки данных. Для крупных развертываний рекомендуется использовать выделенные файловые серверы, связанные между собой с помощью распределенной файловой системы. Дополнительные сведения о DFS в Windows Server 2012 [https://go.microsoft.com/fwlink/?LinkId=524384](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/jj127250(v=ws.11)) см. в . Сведения о DFS на Windows Server 2008 [https://go.microsoft.com/fwlink/p/?LinkId=524385](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753479(v=ws.10)) см. в .
+Для обеспечения высокой доступности общего доступа к файлам в Skype для бизнеса Server развертывания можно использовать распределенную файловую систему (DFS). Распределенная файловая система поддерживает отработку отказа в пределах одного центра обработки данных. Для крупных развертываний рекомендуется использовать выделенные файловые серверы, связанные между собой с помощью распределенной файловой системы. Дополнительные сведения о DFS в Windows Server 2012 [https://go.microsoft.com/fwlink/?LinkId=524384](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/jj127250(v=ws.11)) см. в . Сведения о DFS на Windows Server 2008 [https://go.microsoft.com/fwlink/p/?LinkId=524385](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753479(v=ws.10)) см. в .
   
 В зависимости от размера сети и требуемой устойчивости вы можете использовать одну пару серверов для всех файловых ресурсов общего доступа на сайте или использовать одну пару серверов для каждого интерфейсного пула.
   

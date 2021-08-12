@@ -12,19 +12,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 545b1a93-9758-4344-98cc-aa0e559d494f
-description: В этом разделе представлены примеры запросов для базы данных сохраняемой беседы.
-ms.openlocfilehash: 74cb6c1029cdeaabcd74a34898731b44c71f05a7
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: В этом разделе содержатся примерные запросы для базы данных сохраняемой системы чата.
+ms.openlocfilehash: 0b79d7753d6fca7ef27c2274416d17793c9c886ab05bad6b485b899700a3df51
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49823109"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54337647"
 ---
 # <a name="sample-persistent-chat-database-queries"></a>Примеры запросов к базе данных сохраняемого чата
  
-В этом разделе представлены примеры запросов для базы данных сохраняемой беседы.
+В этом разделе содержатся примерные запросы для базы данных сохраняемой системы чата.
   
-Используйте следующий пример, чтобы получить список наиболее активных комнат сохраняемого чата после определенной даты.
+Используйте следующий пример, чтобы получить список наиболее активных постоянных чатов после определенной даты.
   
 ```SQL
 SELECT nodeName as ChatRoom, COUNT(*) as ChatMessages

@@ -15,18 +15,18 @@ localization_priority: Normal
 ms.assetid: ec5088ec-71b5-42cb-9f04-242716877178
 ROBOTS: NOINDEX, NOFOLLOW
 description: Это предварительная документация, которая подлежит изменениям. Пустые разделы включены в качестве заполнителей.
-ms.openlocfilehash: fddbca47630eeab6c923f12fbaf210cba3bca766
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 85802576f982cca31d201b8f87ab3b585a99bf85df5ed47aa697d49c45c84b1d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121071"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54279018"
 ---
 # <a name="office-communications-server-scope-node"></a>Узел области сервера Office Communications
 
 Это предварительная документация, которая подлежит изменениям. Пустые разделы включены в качестве заполнителей.
 
-Чтобы расширить разделы под узлом, нажмите **кнопку Office Communications Server 2007 R2** или нажмите правой кнопкой мыши, чтобы получить доступ к параметрам **Топологии** или получить доступ к этой странице **справки.**
+Щелкните **Office Communications Server 2007 R2,** чтобы расширить разделы под узлом или щелкнуть правой кнопкой мыши, чтобы получить доступ к параметрам **Топологии** или получить доступ к этой странице **справки.**
 
 ## <a name="see-also"></a>См. также
 

@@ -15,18 +15,18 @@ localization_priority: Normal
 ms.assetid: 8ec39dfc-c58d-4fdb-b61e-f71dd691cef8
 ROBOTS: NOINDEX, NOFOLLOW
 description: Чтобы определить новый SQL Store, это означает, что для SQL Server базы данных и экземпляра SQL Server — экземпляр по умолчанию или именуемого экземпляра — укажите следующее.
-ms.openlocfilehash: ad0e821f07fb94f48a3484b3a2de1327ee8ef57e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 37b195fa74b3df657c85f0ce169719c5825629a563baf92a75ac884e890baf86
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116407"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54279217"
 ---
 # <a name="add-sql-store"></a>Добавление хранилища SQL
 
 Чтобы определить новый SQL Store, это означает, что для SQL Server базы данных и экземпляра SQL Server — экземпляр по умолчанию или именуемого экземпляра — укажите следующее.
 
-Укажите полное доменное имя (FQDN) SQL Server, в которой будет баз данных экземпляр, который вы определяете.
+Укажите полностью квалифицированное доменное имя (FQDN) SQL Server, в которой будет баз данных экземпляр, который вы определяете.
 
 Укажите экземпляр SQL Server, который будет принимать данные. Можно указать экземпляр по умолчанию или именованный экземпляр.
 

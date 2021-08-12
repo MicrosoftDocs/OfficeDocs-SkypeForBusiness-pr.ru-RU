@@ -14,16 +14,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ec6b9b09-2be0-45e7-b23c-f94b64839e65
-description: Дополнительные сведения об использовании мастера развертывания для установки Skype для бизнеса Server 2015 см. в сведениях об установке Skype для бизнеса Server 2015.
-ms.openlocfilehash: 41b8130b3d49e7175b361495d170bab644304c13
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Дополнительные сведения об использовании мастера развертывания для установки Skype для бизнеса Server 2015 г. см. в Skype для бизнеса Server 2015 г.
+ms.openlocfilehash: 822626e312c1aea4cf3103a89334613a87fda50d42acdc3de9b601e0f42eeb41
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49815459"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54320661"
 ---
 # <a name="deployment-wizard-admin-tools"></a>Мастер развертывания: средства администрирования
  
-Дополнительные сведения об использовании мастера развертывания для установки Skype для бизнеса Server 2015 см. в сведениях об установке Skype для бизнеса [Server 2015.](../../deploy/install/install.md)
+Дополнительные сведения об использовании мастера развертывания для установки Skype для бизнеса Server 2015 г. см. в Skype для бизнеса Server [2015](../../deploy/install/install.md)г.
   
 

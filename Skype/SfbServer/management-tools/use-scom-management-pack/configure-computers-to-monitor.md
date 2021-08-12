@@ -14,12 +14,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: b24ea184-4b3e-4277-a244-157afb4b368b
 description: Сводка. Установите файлы агента Operations Manager на компьютере Skype для бизнеса Server 2015 г., который будет отслеживаться, и настройте компьютер на System Center прокси.
-ms.openlocfilehash: c3526c4e48056968a132a949b0c91cbb43ba9663
-ms.sourcegitcommit: f3c2559a89e1c4b3514e102cf94c38a697b4bc57
+ms.openlocfilehash: 13159da603ed0e07e8e00ff66c9db636a68bea860d69494f5212d3e3aa7f914d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/04/2021
-ms.locfileid: "53725322"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54329573"
 ---
 # <a name="configure-the-skype-for-business-server-computers-to-monitor"></a>Настройка компьютеров Skype для бизнеса Server для мониторинга
 

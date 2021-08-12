@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 17f8b87e-36a6-4f6a-8630-7c76b61a7595
 description: Жестко запрограммированная таблица tblEnumAttribute содержит атрибуты Visibility и Behavior, которые используются в таблице Node.
-ms.openlocfilehash: 698eda1e6e815ad4de4042312be1738a3a41d1f2
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 6996c95ca170082ec89ac7d8fd92648b60c933b1fd72515bb7c3974df8cd5e92
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809719"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54337588"
 ---
 # <a name="tblenumattribute"></a>tblEnumAttribute
  
@@ -31,7 +31,7 @@ ms.locfileid: "49809719"
 |attributeID  <br/> |smallint, не может быть null  <br/> |Идентификатор атрибута.  <br/> |
 |attributeName  <br/> |nvarchar (256), не может быть null  <br/> |Имя атрибута.  <br/> |
    
-**Раздел**
+**Ключ**
 
 |**Столбец**|**Описание**|
 |:-----|:-----|
@@ -41,8 +41,8 @@ ms.locfileid: "49809719"
 
 |**attributeID**|**attributeName**|
 |:-----|:-----|
-|1   <br/> |Видимость.  <br/> |
-|2   <br/> |Поведение.  <br/> |
+|1  <br/> |Видимость.  <br/> |
+|2  <br/> |Поведение.  <br/> |
    
 ## <a name="see-also"></a>См. также
 

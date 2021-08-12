@@ -1,5 +1,5 @@
 ---
-title: Exchange Unified Messaging (Planning Tool)
+title: Exchange Единая система обмена сообщениями (средство планирования)
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,20 +15,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cb767f83-2684-4006-a1f2-c6f0adf50f62
 ROBOTS: NOINDEX, NOFOLLOW
-description: Skype for Business Server 2015 поддерживает интеграцию с Exchange Unified Messaging (UM) для объединения голосовых сообщений и сообщений электронной почты в единую инфраструктуру обмена сообщениями.
-ms.openlocfilehash: 8d63ca3ec21fbdc7a1873be8e403e219094b8ca1
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Skype для бизнеса Server 2015 г. поддерживает интеграцию с Exchange единой системы обмена сообщениями для объединения голосовых сообщений и обмена сообщениями в единую инфраструктуру обмена сообщениями.
+ms.openlocfilehash: 0683c43b2dd8be6b19b8c887488aa00a77d762426330db2bb883703d523e5a29
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121667"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54311897"
 ---
-# <a name="exchange-unified-messaging-planning-tool-in-skype-for-business-2015"></a>Exchange Unified Messaging (Planning Tool) в Skype для бизнеса 2015
+# <a name="exchange-unified-messaging-planning-tool-in-skype-for-business-2015"></a>Exchange Средство планирования единой системы обмена сообщениями в Skype для бизнеса 2015 г.
 
 > [!NOTE]
-> Exchange Unified Messaging, как известно ранее, больше недоступна в Exchange 2019, но вы по-прежнему можете использовать телефонную систему для записи сообщений голосовой почты, а затем оставить запись в почтовом ящике Exchange пользователя. Дополнительные сведения см. в службе голосовой почты Plan [Cloud.](../../../../sfbhybrid/hybrid/plan-cloud-voicemail.md)
+> Exchange Единая система обмена сообщениями, как известно, больше недоступна в Exchange 2019 г., но вы можете использовать телефонная система для записи сообщений голосовой почты, а затем оставить запись в Exchange почтовом ящике пользователя. Дополнительные [сведения см. в облачная голосовая почта службе](../../../../sfbhybrid/hybrid/plan-cloud-voicemail.md) Plan облачная голосовая почта.
 
-Skype for Business Server 2015 поддерживает интеграцию с Exchange Unified Messaging (UM) для объединения голосовых сообщений и сообщений электронной почты в единую инфраструктуру обмена сообщениями.
+Skype для бизнеса Server 2015 г. поддерживает интеграцию с Exchange единой системы обмена сообщениями для объединения голосовых сообщений и обмена сообщениями в единую инфраструктуру обмена сообщениями.
 
 Дополнительные сведения см. в следующих статьях:
 

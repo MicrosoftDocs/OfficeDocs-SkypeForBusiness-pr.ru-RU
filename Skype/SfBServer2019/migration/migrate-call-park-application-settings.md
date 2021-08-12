@@ -10,17 +10,17 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 'Миграция приложения парковки вызовов включает подготовку пула Skype для бизнеса Server 2019 к работе с любыми пользовательскими файлами музыки на удержании, которые были загружены в устаревшей установке, восстановление параметров уровня обслуживания и перенацеление всех орбит парковки вызовов в пул Skype для бизнеса Server 2019. If customized music-on-hold files have been configured in the pool, these files need to be copied to the new Skype for Business Server 2019 pool. Кроме того, рекомендуется резервное копирование всех настроенных файлов музыки при удержании при парковке вызовов из другого места назначения, чтобы сохранить отдельную резервную копию всех настроенных файлов музыки при удержании, загруженных для парковки вызовов. Настраиваемые файлы музыки при удержании для приложения парковки вызовов хранятся в файловом хранилище пула. To copy the audio files from a pool file store to a Skype for Business Server 2019 file store, use the Xcopy command with the following parameters:'
-ms.openlocfilehash: ded38ab600da4b277b1cdc83218833c26df081aa
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+description: 'Миграция приложения Call Park включает подготовку пула Skype для бизнеса Server 2019 с настраиваемой музыкой для файлов удержания, которые были загружены в устаревшей установке, восстановление параметров уровня обслуживания и перенацеление всех орбит Call Park в пул Skype для бизнеса Server 2019 г. Если настраиваемые файлы музыки на удержании настроены в пуле, эти файлы необходимо скопировать в новый Skype для бизнеса Server 2019. Кроме того, рекомендуется резервное копирование любых настраиваемых файлов Call Park с музыкой на удержании из другого пункта назначения, чтобы сохранить отдельную копию резервного копирования всех настраиваемых файлов на удержании, которые были загружены для Call Park. Настраиваемые файлы музыки при удержании для приложения парковки вызовов хранятся в файловом хранилище пула. Чтобы скопировать аудиофайлы из магазина файлов пула в хранилище файлов Skype для бизнеса Server 2019 г., используйте команду Xcopy со следующими параметрами:'
+ms.openlocfilehash: f83e1095361ddd272a35bf9100171c0d06caf003dfae84f19c01b2aa53de7977
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44752821"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54312327"
 ---
 # <a name="migrate-call-park-application-settings"></a>Перенос параметров приложения парковки вызовов
 
-Миграция приложения парковки вызовов включает подготовку пула Skype для бизнеса Server 2019 к работе с пользовательскими файлами музыки при удержании, которые были загружены в устаревшей установке, восстановление параметров на уровне службы и перенацеление всех орбит парковки вызовов в пул Skype для бизнеса Server 2019. If customized music-on-hold files have been configured in the pool, these files need to be copied to the new Skype for Business Server 2019 pool. Кроме того, рекомендуется резервное копирование всех настроенных файлов музыки при удержании при парковке вызовов в другом месте, чтобы сохранить отдельную резервную копию всех настроенных файлов музыки при удержании, загруженных для парковки вызовов. Настраиваемые файлы музыки при удержании для приложения парковки вызовов хранятся в файловом хранилище пула. To copy the audio files from a pool file store to a Skype for Business Server 2019 file store, use the **Xcopy** command with the following parameters: 
+Миграция приложения Call Park включает подготовку пула Skype для бизнеса Server 2019 г. с любыми настраиваемой музыкой-на-удержании файлов, которые были загружены в устаревшей установке, восстановление параметров уровня обслуживания и перенацеление всех орбит Call Park в пул Skype для бизнеса Server 2019 г. Если настраиваемые файлы музыки на удержании настроены в пуле, эти файлы необходимо скопировать в новый Skype для бизнеса Server 2019. Кроме того, рекомендуется резервное копирование любых настраиваемых файлов Call Park с музыкой на удержание в другом месте, чтобы сохранить отдельную копию резервного копирования всех настраиваемых файлов на удержании, которые были загружены для Call Park. Настраиваемые файлы музыки при удержании для приложения парковки вызовов хранятся в файловом хранилище пула. Чтобы скопировать аудиофайлы из магазина файлов пула в хранилище файлов Skype для бизнеса Server 2019 г., используйте команду **Xcopy** со следующими параметрами: 
 
 ```console
 Xcopy <Source: legacy Pool CPS File Store Path> <Destination: Skype for Business Server 2019 Pool CPS File Store Path>
@@ -30,40 +30,40 @@ Xcopy <Source: legacy Pool CPS File Store Path> <Destination: Skype for Business
 Example usage:  Xcopy "<legacy File Store Path>\OcsFileStore\coX-ApplicationServer-X\AppServerFiles\CPS\"  "<Skype for Business Server 2019 File Store Path>\OcsFileStore\coX-ApplicationServer-X\AppServerFiles\CPS\" 
 ```
 
-После копирования всех настроенных аудиофайлов в хранилище файлов Skype для бизнеса Server 2019 необходимо настроить параметры приложения парковки вызовов в пуле Skype для бизнеса Server 2019, а диапазоны орбит парковки вызовов, связанные с устаревшим пулом, необходимо перена назначены пулу Skype для бизнеса Server 2019.
+При копировании всех настраиваемых аудиофайлов в хранилище файлов Skype для бизнеса Server 2019 года необходимо настроить параметры приложения Call Park пула Skype для бизнеса Server 2019 г., а диапазоны орбиты Call Park, связанные с устаревшим пулом, должны быть перенастрояться в пул Skype для бизнеса Server 2019 г.
 
-Параметры приложения парковки вызовов включают пороговое значение временивызова, включая или отключая музыку при удержании, максимальное количество попыток вызова и запрос на время. Управлять настройками приложения парковки вызовов можно с помощью оболочки управления Skype для бизнеса Server для запуска команды **Set-CsCpsConfiguration.** Невозможно управлять настройками приложения парковки вызовов с помощью панели управления Skype для бизнеса Server. 
+Параметры приложения Call Park включают пороговое значение времени отключения при приеме, включение или отключение музыки в удержании, максимальные попытки вызова и запрос на время. Для запуска команды **Set-CsCpsConfiguration** необходимо управлять настройками приложений Call Park с помощью Skype для бизнеса Server-оболочки управления. Вы не можете управлять настройками приложений Call Park с помощью панели Skype для бизнеса Server управления. 
 
 ## <a name="reconfigure-the-call-park-service-settings"></a>Изменение настроек параметров службы парковки вызовов
 
-1. From the Skype for Business Server 2019 Front End Server, open the Skype for Business Server Management Shell.
+1. С Skype для бизнеса Server 2019 front End Server откройте Skype для бизнеса Server shell.
 
 2. Введите в командной строке следующую команду:
 
     > [!NOTE]
-    > Если параметры приложения парковки вызовов Skype для бизнеса Server 2019 идентичны старым, этот шаг можно пропустить. If Call Park application settings are different for the Skype for Business Server 2019 and legacy environments, use the cmdlet below as a template to update those changes. 
+    > Если параметры Skype для бизнеса Server 2019 года совпадают с устаревшими настройками, этот шаг можно пропустить. Если параметры приложений Call Park отличаются для среды Skype для бизнеса Server 2019 г. и устаревших, используйте см. в качестве шаблона для обновления этих изменений. 
 
    ```PowerShell
    Set-CsCpsConfiguration -Identity "<LS2013 Call Park Service ID>" -CallPickupTimeoutThreshold "<LS2010 CPS TimeSpan>" -EnableMusicOnHold "<LS2010 CPS value>" -MaxCallPickupAttempts "<LS2010 CPS pickup attempts>" -OnTimeoutURI "<LS2010 CPS timeout URI>"
    ```
 
-To reassign all Call Park orbit ranges from the legacy pool to the Skype for Business Server 2019 pool, you can use either the Skype for Business Server Control Panel or the Skype for Business Server Management Shell. 
+Чтобы перенаправление всех орбит Call Park варьируется от устаревшего пула до пула Skype для бизнеса Server 2019 г., можно использовать панель управления Skype для бизнеса Server или Skype для бизнеса Server management Shell. 
 
-## <a name="reassign-all-call-park-orbit-ranges-using-skype-for-business-server-control-panel"></a>Reassign all Call Park Orbit Ranges using Skype for Business Server Control Panel
+## <a name="reassign-all-call-park-orbit-ranges-using-skype-for-business-server-control-panel"></a>Перенаменуй все диапазоны орбиты call Park с Skype для бизнеса Server панели управления
 
-1. Откройте панель управления Skype для бизнеса Server.
+1. Откройте панель Skype для бизнеса Server управления.
 
 2. В области слева выберите **Компоненты голосовой связи**.
 
 3. Перейдите на вкладку **Парковка вызовов**. 
 
-4. Для каждого диапазона орбит парковки вызовов, назначенного устаревшему пулу, отредактируем **FQDN** параметра конечного сервера и выберите пул Skype для бизнеса Server 2019, который будет обрабатывать запросы на парковку вызовов. 
+4. Для каждого диапазона орбиты Парка вызовов, назначенного устаревшему пулу, изменить **FQDN** параметров сервера назначения и выбрать пул Skype для бизнеса Server 2019 года, который будет обрабатывать запросы call Park. 
 
 5. Выберите **Зафиксировать**, чтобы сохранить изменения. 
 
-## <a name="reassign-all-call-park-orbit-ranges-using-skype-for-business-server-management-shell"></a>Перенаправление всех диапазонов орбит парковки вызовов с помощью оболочки управления Skype для бизнеса Server
+## <a name="reassign-all-call-park-orbit-ranges-using-skype-for-business-server-management-shell"></a>Перенаправление всех диапазонов орбиты call Park с помощью Skype для бизнеса Server shell управления
 
-1. Откройте Skype для бизнеса Server Management Shell.
+1. Откройте Skype для бизнеса Server управленческой оболочки.
 
 2. В командной строке введите следующую команду:
 
@@ -71,14 +71,14 @@ To reassign all Call Park orbit ranges from the legacy pool to the Skype for Bus
    Get-CsCallParkOrbit
    ```
 
-    Этот командлет выводит список всех диапазонов орбит парковки вызовов в развертывании. Все орбиты парковки вызовов с параметрами **CallParkServiceId** и **CallParkServerFqdn,** заданные в качестве устаревшего пула, должны быть назначены повторно. 
+    Этот командлет выводит список всех диапазонов орбит парковки вызовов в развертывании. Все орбиты Call Park, на которые заданы параметры **CallParkServiceId** и **CallParkServerFqdn** в качестве устаревшего пула, должны быть назначены повторно. 
 
-    Чтобы перенаповести устаревшие диапазоны орбит парковки вызовов в пул Skype для бизнеса Server 2019, в командной строке введите следующую команду:
+    Для перенастройки устаревших диапазонов орбиты Call Park в пул Skype для бизнеса Server 2019 г. в командной строке введите следующее:
 
    ```PowerShell
    Set-CsCallParkOrbit -Identity "<Call Park Orbit Identity>" -CallParkService "service:ApplicationServer:<Skype for Business Server 2019 Pool FQDN>"
    ```
 
-После перенастройки всех диапазонов орбит парковки вызовов в пул Skype для бизнеса Server 2019 процесс миграции приложения парковки вызовов будет завершен, и пул Skype для бизнеса Server 2019 будет обрабатывать все последующие запросы на парковку вызовов.
+После перенастройки всех диапазонов орбиты Call Park в пул Skype для бизнеса Server 2019 г. процесс миграции приложения Call Park будет завершен, а пул Skype для бизнеса Server 2019 г. будет обрабатывать все будущие запросы call Park.
 
 

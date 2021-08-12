@@ -22,16 +22,16 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Узнайте, как выбрать языки автоконференции аудиоконференции для номера аудиоконференции в Microsoft Teams.
-ms.openlocfilehash: 0a27015fefe8c290f8e122f5d9edf46aa3c8583f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 1238cebfa9be1c37e6754234338273738f06e07a8e495631361cb76fdcbc63cb
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117187"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54280644"
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing-in-microsoft-teams"></a>Установка языков автосекретаря для аудиоконференций в Microsoft Teams
 
-Автоответчик аудиоконференции для Microsoft Teams может поприветствовать аудиозавершенных пользователей на разных языках, когда они присоединятся к собранию.
+Автоответчик аудиоконференции для Microsoft Teams может поприветствовать звоняющих на разных языках, когда они присоединятся к собранию.
   
 Выберите один основной язык и до четырех дополнительных языков. Основной язык, который вы установили, автосекретарь будет использовать первым, а дополнительные языки будут использоваться автосекретарем в выбранном вами порядке. 
   
@@ -63,7 +63,7 @@ ms.locfileid: "51117187"
     
 - Языки можно задать для персональных телефонных номеров, телефонных номеров совместного пользования.
     
-- Список стран и регионов, в которых доступна аудиоконференция в Microsoft 365 или Office 365 майкрософт в качестве [](phone-numbers-for-audio-conferencing-in-teams.md)поставщика, см. в Телефон аудиоконференции.
+- Список стран и регионов, в которых доступна аудиоконференция в Microsoft 365 или Office 365 майкрософт в качестве [](phone-numbers-for-audio-conferencing-in-teams.md)поставщика, см. в Телефон для аудиоконференции.
     
 ## <a name="want-to-use-windows-powershell"></a>Хотите использовать Windows PowerShell?
 

@@ -23,12 +23,12 @@ ms.custom:
 - ms.lync.lac.UsersGeneralOptions
 - ms.lync.lac.UsersLyncToPhoneMoreInfo
 description: 'Узнайте, как изменить параметры Skype для бизнеса для отдельных пользователей, например аудио- и видеоконференцию, запись звонков и собраний. '
-ms.openlocfilehash: 0123f285101b8d7190dd7450ddb876a136de13ce
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 54dc4e1ee649fff28ac1c7d0729bfbddae521622d76d07e1723ddcc7fd0bdbf1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237535"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54312307"
 ---
 # <a name="admins-configure-skype-for-business-settings-for-individual-users"></a>Администраторы: настройка параметров Skype для бизнеса для отдельных пользователей
 
@@ -79,7 +79,7 @@ ms.locfileid: "52237535"
 ## <a name="block-external-communications"></a>Блокировка внешней связи
 <a name="__toc325019206"> </a>
 
-После того [как Skype для бизнеса](let-skype-for-business-users-add-skype-contacts.md) добавлять Skype контактов для всех пользователей в организации, вы можете выборочно заблокировать внешнюю связь для определенных пользователей, вы используя эти действия.
+После того [как Skype для бизнеса](let-skype-for-business-users-add-skype-contacts.md) добавлять Skype контактов для всех пользователей в организации, вы можете выборочно заблокировать внешнюю связь для определенных пользователей с помощью этих действий.
   
 1. Выберите **Пользователи**, выберите пользователей, параметры которых вы хотите отключить, и выберите Изменить **редактирование** ![ ](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png) .
     
