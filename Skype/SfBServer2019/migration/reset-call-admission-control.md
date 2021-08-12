@@ -10,17 +10,17 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: If a legacy Front End pool is hosting call admission control (CAC), you must move CAC hosting to a Skype for Business Server 2019 pool before you can remove the legacy Front End pool.
-ms.openlocfilehash: 850ab5c13483d024d52c483c63ef09468f8374b3
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+description: Если в устаревшем пуле переднего конца размещено управление приемом вызовов (CAC), необходимо переместить размещение CAC в пул Skype для бизнеса Server 2019 г., прежде чем удалить устаревший пул переднего конца.
+ms.openlocfilehash: c3ebb748d877e88060b699b1599c39038124565df361c5032533260e4c5643e2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44753301"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54334571"
 ---
 # <a name="reset-call-admission-control"></a>Сброс контроля допуска звонков
 
-If a legacy Front End pool is hosting call admission control (CAC), you must move CAC hosting to a Skype for Business Server 2019 pool before you can remove the legacy Front End pool.
+Если в устаревшем пуле переднего конца размещено управление приемом вызовов (CAC), необходимо переместить размещение CAC в пул Skype для бизнеса Server 2019 г., прежде чем удалить устаревший пул переднего конца.
   
 ### <a name="to-reset-cac"></a>Чтобы сбросить контроль допуска звонков
 
@@ -30,7 +30,7 @@ If a legacy Front End pool is hosting call admission control (CAC), you must mov
     
 3. Убедитесь, что в разделе **Параметры контроля допуска звонков** выбран параметр **Включить контроль допуска звонков**. 
     
-4. Under **Front End pool to run call admission control (CAC)**, select the Skype for Business Server 2019 pool that is to host CAC, and then click **OK**.
+4. В **пуле Переднего** конца для запуска управления приемом вызовов (CAC) выберите пул Skype для бизнеса Server 2019, который должен принимать CAC, а затем нажмите **кнопку ОК**.
     
 5. Опубликуйте топологию.
     

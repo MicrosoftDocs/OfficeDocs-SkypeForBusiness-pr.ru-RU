@@ -1,5 +1,5 @@
 ---
-title: Сценарии настройки комнат в Skype Room System
+title: Skype Сценарии настройки комнатной системы
 ms.author: v-cichur
 author: cichur
 manager: serdars
@@ -11,21 +11,21 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: a66067d2-22b0-48f1-a5d0-e0cd0ece2e5a
-description: Ознакомьтесь с этой темой, чтобы найти примеры сценариев для создания учетных записей Skype Room System.
-ms.openlocfilehash: 93a97b42f3b800011030787ea39cfb503767e42c
-ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
+description: Ознакомьтесь с этой темой, чтобы найти примеры сценариев для Skype учетных записей системы номеров.
+ms.openlocfilehash: b485a8d08dc5b121d43545ab89ce9c992b4a5860eb874ba806b57c4ac09cfbe3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50569371"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54294936"
 ---
-# <a name="skype-room-system-room-setup-scripts"></a>Сценарии настройки комнат в Skype Room System
+# <a name="skype-room-system-room-setup-scripts"></a>Skype Сценарии настройки комнатной системы
  
-Ознакомьтесь с этой темой, чтобы найти примеры сценариев для создания учетных записей Skype Room System.
+Ознакомьтесь с этой темой, чтобы найти примеры сценариев для Skype учетных записей системы номеров.
   
-В этом разделе иллюстрируют примеры сценариев, которые можно использовать для обеспечения учетных записей системы skype Room System. Эти скрипты только для иллюстративных целей. Их следует использовать только после консультации с ИТ-экспертом или администратором домена.
+В этом разделе иллюстрируют примеры сценариев, которые можно использовать для Skype учетных записей системы номеров. Эти скрипты только для иллюстративных целей. Их следует использовать только после консультации с ИТ-экспертом или администратором домена.
   
-## <a name="example-setup-script-skype-for-business-and-exchange-server-on-premises"></a>Пример сценария установки: Skype для бизнеса и Exchange Server (On Premises)
+## <a name="example-setup-script-skype-for-business-and-exchange-server-on-premises"></a>Пример сценария установки: Skype для бизнеса и Exchange Server (на месте)
 
 ```powershell
 # On Exchange 
@@ -45,9 +45,9 @@ Set-CsMeetingRoom -Identity "conference room" -LineURI "tel:+14255551669;ext=166
   
 - Microsoft Online Services Sign-In для ИТ-специалистов BETA
     
-- Windows Azure Active Directory Module для Windows PowerShell (64-битная версия) или (32-битная версия)
+- Windows Azure Active Directory модуль для Windows PowerShell (64-битная версия) или (32-битная версия)
     
-- Модуль Teams PowerShell
+- Teams Модуль PowerShell
     
 - Перезагрузка при необходимости
     

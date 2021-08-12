@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 3bed9d09-8363-4fff-a220-f0f6d3a81241
-description: Изменение параметров парка вызовов в Skype для бизнеса server Корпоративная голосовая связь.
-ms.openlocfilehash: c1eecd55dac398752915ccb63886bbf85858fe47
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Изменение параметров парка вызовов в Skype для бизнеса Server Корпоративная голосовая связь.
+ms.openlocfilehash: 09888fd0d22ce182688a2fbd0456ce7e5cc6564e1b33ebb1b957ebb0f23b02df
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51111915"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54294906"
 ---
 # <a name="configure-call-park-settings-in-skype-for-business"></a>Настройка параметров парка вызовов в Skype для бизнеса
 
-Изменение параметров парка вызовов в Skype для бизнеса server Корпоративная голосовая связь.
+Изменение параметров парка вызовов в Skype для бизнеса Server Корпоративная голосовая связь.
 
 Если вы не хотите использовать параметры Call Park по умолчанию, их можно настроить. При установке приложения Call Park глобальные параметры настраиваются по умолчанию. Можно изменить глобальные параметры, а также указать параметры, определенные для сайта. Для создания новых параметров, определенных для сайта, используйте комлет **New-CsCpsConfiguration.** Чтобы изменить существующие параметры, используйте комлет **Set-CsCpsConfiguration.**
 
@@ -44,16 +44,16 @@ ms.locfileid: "51111915"
 
 ### <a name="to-configure-call-park-settings"></a>Настройка параметров парка вызовов
 
-1. Запустите оболочку управления Skype для бизнес-серверов: нажмите кнопку Начните, щелкните Все **программы,** щелкните Skype для бизнеса **2015,** а затем нажмите **кнопку Skype для управления бизнес-серверами.**
+1. Запустите Skype для бизнеса Server: нажмите кнопку Начните, щелкните Все **программы,** нажмите кнопку Skype для бизнеса **2015,** а затем нажмите кнопку **Skype для бизнеса Server.**
 
-2. Выполните команду: 
+2. Запуск:
 
    ```powershell
    New-CsCpsConfiguration -Identity site:<sitename to apply settings> [-CallPickupTimeoutThreshold <hh:mm:ss>] -[EnableMusicOnHold <$true | $false>] [-MaxCallPickupAttempts <number of rings>] [-OnTimeoutURI sip:<sip URI for routing unanswered call>]
    ```
 
    > [!TIP]
-   > Используйте командлет **Get-CsSite** для идентификации сайта. Подробные сведения см. в документации skype for Business Server Management Shell.
+   > Используйте командлет **Get-CsSite** для идентификации сайта. Подробные сведения см. в Skype для бизнеса Server документации по management Shell.
 
     Пример:
 

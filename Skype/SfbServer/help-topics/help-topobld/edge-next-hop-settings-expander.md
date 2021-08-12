@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7bb385b7-18c2-42a3-b8a9-cea7bf0c8fc9
 description: Чтобы настроить или изменить пул next hop, который будут использовать edge Servers для связи с внутренней инфраструктурой, выберите пул Director, Director, Front End Server или пул front End Server из списка. В списке отображаются только директора или серверы переднего конца, настроенные в Topology Builder.
-ms.openlocfilehash: 24c3133e34cf2d090bc945544bd1f685d0c58b6e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 72490609d20143ac84b8d11ce62bf53ea82c85887bfd5419678a0ed835cd4098
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119668"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54313337"
 ---
 # <a name="edge-next-hop-settings-expander"></a>Расширитель параметров следующего перехода пограничного сервера
 

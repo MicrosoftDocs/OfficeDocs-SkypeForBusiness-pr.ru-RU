@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f36a2699-5cf6-4995-9f6d-ec3519ca0903
 description: Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
-ms.openlocfilehash: 2a23ccb2ac70f04ec28b9f9205b7d61a8db3dfa9
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 2c7c532a0862a91fc067729886ce57838071d92e29f681e387ed6df2986ee6bf
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51115227"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54313367"
 ---
 # <a name="users-assign-policies"></a>Пользователи: назначение политик
 
@@ -30,7 +30,7 @@ ms.locfileid: "51115227"
 
 - [Укажите клиентские версии, поддерживаемые для входной записи пользователем](/previous-versions/office/lync-server-2013/lync-server-2013-assign-a-per-user-client-version-policy)
 
-- [Назначение политики ПИН-кода для каждого пользователя в Skype для бизнеса Server 2015](../../manage/authentication/assign-a-per-user-pin-policy.md)
+- [Назначение политики ПИН-кода для каждого пользователя в Skype для бизнеса Server 2015 г.](../../manage/authentication/assign-a-per-user-pin-policy.md)
 
 - [Настройка федерации, удаленного доступа к пользователю и общедоступных подключений к чату для пользователей](/previous-versions/office/lync-server-2013/lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user)
 
@@ -44,4 +44,4 @@ ms.locfileid: "51115227"
 
 - [Назначение политики сохраняемого сеанса беседы уровня пользователя](/previous-versions/office/lync-server-2013/lync-server-2013-assign-a-per-user-persistent-chat-policy)
 
-Сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнес-серверов, см. в материале Управление Skype для бизнеса [Server 2015.](../../manage/manage.md)
+Сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнеса Server, см. в Skype для бизнеса Server [2015](../../manage/manage.md)г.

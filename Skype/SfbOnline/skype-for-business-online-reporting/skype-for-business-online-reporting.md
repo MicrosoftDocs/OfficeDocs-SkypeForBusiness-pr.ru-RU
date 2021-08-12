@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: 'Use this reference guide to learn about Skype for Business Online reporting and what info is available. '
-ms.openlocfilehash: e9ef3d9090ff494afe8595c139bcc9206215435b
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 3eb1228e06dbf5880789ea5a8175d325a5439d9aefc7642c045963884fde70c3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238145"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54334441"
 ---
 # <a name="skype-for-business-online-reporting"></a>Отчетность Skype для бизнеса Online
 
@@ -32,7 +32,7 @@ ms.locfileid: "52238145"
 
 Как администратору организации было бы удобно иметь полный список всех отчетов, доступных в Skype для бизнеса Online. В него включены все отчеты и представленные в них данные.
   
-Чтобы получить доступ к отчетам Skype для бизнеса Online, войдите в центр Microsoft 365 с помощью учетной записи пользователя и пароля. Чтобы просмотреть отчеты, необходимо назначить роль пользователя "Администратор служб Skype для бизнеса" учетной записи, используемой для входа.
+Чтобы получить доступ Skype для бизнеса Online, войдите в Центр администрирования Microsoft 365 с помощью учетной записи пользователя и пароля. Чтобы просмотреть отчеты, необходимо назначить роль пользователя "Администратор служб Skype для бизнеса" учетной записи, используемой для входа.
   
 > [!NOTE]
 > Чтобы проверить разрешения, в Центре администрирования > **Пользователи**  >  **Активные пользователи**. Щелкните отображаемого имени пользователя и выберите **изменить,** а затем на странице свойств учетной записи щелкните **Роли.**

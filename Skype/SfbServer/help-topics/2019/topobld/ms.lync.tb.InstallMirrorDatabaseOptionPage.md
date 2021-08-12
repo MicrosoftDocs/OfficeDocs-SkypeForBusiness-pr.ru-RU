@@ -15,14 +15,14 @@ localization_priority: Normal
 ms.assetid: 7500896a-14ea-4b11-aaee-be3d81314536
 ROBOTS: NOINDEX, NOFOLLOW
 description: Параметры зеркальной базы данных определяются следующим образом.
-ms.openlocfilehash: 99dab88ecadc52d021531e03a0d6aea904cc4ce8
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: ae2c32201b2d8f3e594469cd84a41ce307897ac7bd214cdd7951feb02bc42646
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49835699"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54323321"
 ---
 # <a name="install-mirror-database-option-page"></a>Страница параметров установки зеркальной базы данных
  
 > [!NOTE]
-> SQL зеркальное отражение доступно в Skype для бизнеса Server 2015, но больше не поддерживается в Skype для бизнеса Server 2019. В Skype для бизнеса Server 2019 предпочтительнее использовать группы доступности AlwaysOn, экземпляры кластера для отокрутки AlwaysOn и SQL кластеров.
+> SQL Зеркальное зеркальное Skype для бизнеса Server 2015 г., но больше не поддерживается Skype для бизнеса Server 2019 г. В 2019 г. предпочтительны группы доступности AlwaysOn, экземпляры кластера неудачной передачи alwaysOn и SQL Skype для бизнеса Server кластеризация неудачи.

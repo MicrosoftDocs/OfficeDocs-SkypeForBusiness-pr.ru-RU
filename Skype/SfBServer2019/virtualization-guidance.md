@@ -1,5 +1,5 @@
 ---
-title: 'Поддержка виртуализации для Skype для бизнеса Server 2019 '
+title: 'Поддержка виртуализации Skype для бизнеса Server 2019 г. '
 ms.reviewer: corbinm
 ms.author: v-cichur
 author: cichur
@@ -12,43 +12,43 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
-description: Сводка. Сведения о поддержке виртуализации в Skype для бизнеса Server 2019.
-ms.openlocfilehash: edced9b0f884cbf76b224c9049cf3498c8f8b45c
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+description: Сводка. Сведения о поддержке виртуализации Skype для бизнеса Server 2019 г.
+ms.openlocfilehash: 61b54a7e2d8fc170fe63137f637246f56dcce2a01dc7af0b41ea6dc5c5c56099
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48509036"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54334561"
 ---
-# <a name="virtualization-support-for-skype-for-business-server-2019"></a>Поддержка виртуализации для Skype для бизнеса Server 2019
+# <a name="virtualization-support-for-skype-for-business-server-2019"></a>Поддержка виртуализации Skype для бизнеса Server 2019 г.
 
-Skype для бизнеса Server 2019 поддерживается для виртуализации.
+Skype для бизнеса Server 2019 г. поддерживается виртуализация.
 
-Хотя виртуализация поддерживается, следует помнить о некоторых ключевых моментах:
+Хотя виртуализация поддерживается, необходимо помнить несколько ключевых моментов:
 
-- Поддержив соотношение виртуальных ЦП к физическому ЦП 1:1.
+- Сохраните отношение виртуального ЦП к физическому процессору 1:1.
 - Не перемещайте гостевой сервер во время его работы.
-- Перенос живой системы и переносимость виртуальной машины не поддерживаются.
-- Отключать hyper-threading на всех ведущих.
-- Не настраивайте динамическую память на серверах хост-серверов.
-- Используйте фиксированные или сквозные диски, а не динамические диски.
-- Допускается 6–10 процентов накладных расходов для гипервизоров, которые не требуются виртуальному гостю.
+- Перенос живой системы и переносимости виртуальной машины не поддерживаются.
+- Отключение гиперпотока для всех хостов.
+- Не настраивайте динамическую память на хост-серверах.
+- Используйте фиксированные или проходные диски, а не динамические диски.
+- Разрешить для гипервизоров 6-10 процентов сверх того, что требуется виртуальному гостю.
 
 ## <a name="supported-hypervisors"></a>Поддерживаемые гипервизоры
 
-SfB Server 2019 поддерживается в Windows Server 2016 и Windows Server 2019.
+SfB Server 2019 поддерживается на Windows Server 2016 и Windows Server 2019.
 
-Для сторонних гипервизоров требуется гипервизор, который прошел тестирование программы проверки виртуализации серверов (SVVP) для соответствующей ОС.
+Для сторонних гипервизоров необходим гипервизор, который прошел тестирование программы проверки виртуализации сервера (SVVP) для соответствующей ОС.
 
-- См. [версии Windows Server 2016](https://www.windowsservercatalog.com/results.aspx?&bCatID=1521&cpID=0&avc=86&ava=88&avt=0&avq=0&OR=1&PGS=25) в списке SVVP.
-- См. [версии Windows Server 2019](https://www.windowsservercatalog.com/results.aspx?&bCatID=1521&cpID=0&avc=86&ava=130&avt=0&avq=0&OR=1&PGS=25) в списке SVVP.
+- См. [Windows Server 2016 версии](https://www.windowsservercatalog.com/results.aspx?&bCatID=1521&cpID=0&avc=86&ava=88&avt=0&avq=0&OR=1&PGS=25) в списке SVVP.
+- В [списке SVVP Windows Server 2019.](https://www.windowsservercatalog.com/results.aspx?&bCatID=1521&cpID=0&avc=86&ava=130&avt=0&avq=0&OR=1&PGS=25)
 
-## <a name="stress-and-performance-tool"></a>Средство для работы с нагрузкой и производительностью
+## <a name="stress-and-performance-tool"></a>Средство стресса и производительности
 
-Skype for Business Server 2019 Stress and Performance Tool includes tools that simplify capacity planning for Skype for Business Server 2019. Skype для бизнеса Server 2019 Stress and Performance Tool поможет вам:
+Средство Skype для бизнеса Server и производительности 2019 г. включает средства, упрощающий планирование емкости Skype для бизнеса Server 2019 г. Средство Skype для бизнеса Server 2019 года поможет вам:
 
-- Упрощение планирования оборудования для Skype для бизнеса Server 2019
-- Предоставление дополнительных знаний и лучших методик настройки производительности
-- Измерение производительности предполагаемых развертывание Skype для бизнеса Server 2019
+- Упрощение планирования оборудования Skype для бизнеса Server 2019 г.
+- Предоставление дополнительных знаний и практических методов для настройки производительности
+- Измерение производительности ваших Skype для бизнеса Server 2019 г.
  
-Вы можете скачать средство [здесь.](https://www.microsoft.com/download/details.aspx?id=101447)
+Вы можете скачать средство [отсюда](https://www.microsoft.com/download/details.aspx?id=101447).

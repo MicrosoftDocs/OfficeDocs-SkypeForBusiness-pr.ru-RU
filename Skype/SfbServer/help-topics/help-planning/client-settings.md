@@ -16,12 +16,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0f0a866a-b85d-4fb6-843b-90bb3c977498
 description: Функция Skype для бизнеса Server поддерживает Skype на мобильных устройствах. Подробные сведения см. в материале Planning for Mobility.
-ms.openlocfilehash: b2c5a573e010c1003fab185a24f7867c66261d4f
+ms.openlocfilehash: 5f7ed387e163c5eb9ad63fabd9b5811841b504de2ae9a1f8d980ac3c2d3b9ad9
 ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/05/2021
-ms.locfileid: "53772930"
+ms.locfileid: "54344988"
 ---
 # <a name="skype-for-business-server-client-settings-planning-tool"></a>Skype для бизнеса Server Средство Параметры клиентского планирования
 

@@ -4,6 +4,7 @@ description: Узнайте о ресурсах администратора, д
 author: cichur
 ms.author: v-cichur
 manager: serdars
+ms.topic: article
 audience: admin
 f1.keywords:
 - NOCSH
@@ -16,18 +17,18 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a813bef73bb58d9b61be33364c63387913398f9b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: c50f223854504a025ad57ebdebb137bab170b6c9a5bdbfb91ce32b24961d208e
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092517"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57849524"
 ---
 # <a name="teams-for-healthcare"></a>Teams для сферы здравоохранения
 
 Teams позволяет группам здравоохранения и специалистам в области здравоохранения безопасно общаться, координировать уход за пациентом и повысить эффективность работы. Здесь вы найдете ресурсы администратора, необходимые для управления Teams для команд здравоохранения в организации.
 
-|               |               |
+|    &nbsp;           |         &nbsp;      |
 | ------------- | ------------- |
 | ![Снимок экрана: рука с пальцем, указывавным на значок стрелки](../media/get-started-teams.svg)  |  [Начало работы с Teams для организаций в сфере здравоохранения](./healthcare/teams-in-hc.md) |
 | ![Снимок экрана: значок карты](../media/walkthrough-map-teams.svg) | [Начало работы с шаблонами Teams для организаций в сфере здравоохранения](./healthcare/healthcare-templates-admin-console.md) |

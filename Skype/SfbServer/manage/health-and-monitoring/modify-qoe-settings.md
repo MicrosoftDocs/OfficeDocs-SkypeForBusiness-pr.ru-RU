@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: a6b41de2-1466-4240-8a70-14ce6f0f3ddc
 description: Сводка. Узнайте, как указать хранение данных QoE в Skype для бизнеса Server.
-ms.openlocfilehash: cba8b2b98aa809c0583ad7323ff846e654ca9ace
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 9a060955167ce7440dabe9b88943a11775b4607760862b2cc72f468676e44966
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118618"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54313207"
 ---
 # <a name="modify-quality-of-experience-settings-in-skype-for-business-server"></a>Изменение параметров качества работы в Skype для бизнеса Server
 
@@ -30,11 +30,11 @@ ms.locfileid: "51118618"
 
 Ниже даны инструкции по настройке параметров очистки данных о качестве взаимодействия.
 
-### <a name="to-specify-retention-of-qoe-data-by-using-skype-for-business-server-control-panel"></a>Чтобы указать хранение данных QoE с помощью панели управления Skype для бизнес-серверов
+### <a name="to-specify-retention-of-qoe-data-by-using-skype-for-business-server-control-panel"></a>Чтобы указать хранение данных QoE с помощью Skype для бизнеса Server панели управления
 
 1.  Войдите на компьютер как член группы RTCUniversalServerAdmins или роли CsVoiceAdministrator, CsServerAdministrator или CsAdministrator. Дополнительные сведения см. в разделе **Delegate Setup Permissions**.
 
-2. Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Skype для бизнес-серверов.
+2. Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель Skype для бизнеса Server управления.
 
 3. В левой панели навигации щелкните **Мониторинг и архивация** и затем выберите **Данные о качестве взаимодействия**.
 
@@ -48,7 +48,7 @@ ms.locfileid: "51118618"
 
 ## <a name="specifying-qoe-retention-by-using-windows-powershell-cmdlets"></a>Указание хранения QoE с помощью Windows PowerShell cmdlets
 
-Параметры хранения QoE можно создать с помощью Windows PowerShell **и комлета Set-CsQoEConfiguration.** Этот комлет можно выполнить либо из оболочки управления skype для бизнес-серверов, либо из удаленного сеанса Windows PowerShell. Сведения об использовании удаленных Windows PowerShell для подключения к Skype для бизнеса Server см. в статье блога ["Быстрый запуск: управление Microsoft Lync Server 2010 с](https://go.microsoft.com/fwlink/p/?linkId=255876)помощью удаленной powerShell". В Skype для бизнеса Server этот процесс является одинаковым.
+Параметры хранения QoE можно создать с помощью Windows PowerShell **и комлета Set-CsQoEConfiguration.** Этот комлет можно выполнить либо из Skype для бизнеса Server, либо из удаленного сеанса Windows PowerShell. Сведения об использовании удаленных Windows PowerShell для подключения к Skype для бизнеса Server см. в статье блога ["Быстрый запуск: управление Microsoft Lync Server 2010 с](https://go.microsoft.com/fwlink/p/?linkId=255876)помощью удаленной powerShell". Этот процесс в Skype для бизнеса Server.
 
 ### <a name="to-specify-qoe-retention-for-a-specific-location"></a>Указание срока хранения данных о качестве взаимодействия для определенного расположения
 

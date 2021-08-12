@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - ms.lync.lac.CivicAddressValidationOpenSupportTicket
 description: Проверка адреса является важной частью настройки планов звонков. Она предоставляет пользователю организации адрес для экстренного реагирования, который могут использовать экстренные службы.
-ms.openlocfilehash: e163e80e3c3a14dba2431f812b53167e8d0af31a
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 7129398a661a1b89e4f7cbfe51e8a770d45b3714d60df679600d0c70ac6a5491
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238015"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54334431"
 ---
 # <a name="how-do-i-create-a-support-ticket-for-address-validation"></a>Создание запроса в службу поддержки на проверку адреса
 
@@ -50,7 +50,7 @@ ms.locfileid: "52238015"
 
 1. Во sign in as an administrator to Microsoft 365 or Office 365 with your work or school account.
     
-2. В Центре администрирования на левой навигации **щелкните** Поддержка  >  **нового запроса на обслуживание**.
+2. В центре администрирования на левой области навигации **щелкните** Поддержка  >  **нового запроса на обслуживание**.
     
 3. В меню **Запросы на обслуживание** щелкните **Добавить**.
     
@@ -100,7 +100,7 @@ ms.locfileid: "52238015"
 8. Проверьте информацию и нажмите кнопку **Отправить запрос**.
     
 > [!TIP]
-> Номер ссылки будет указан на странице **Запросы на** обслуживание в Microsoft 365 администрирования.
+> Номер ссылки будет указан на странице **Запросы на** обслуживание в Центр администрирования Microsoft 365.
   
 ## <a name="related-topics"></a>См. также:
 [Общие вопросы по передаче номеров телефонов](/microsoftteams/transferring-phone-numbers-common-questions)

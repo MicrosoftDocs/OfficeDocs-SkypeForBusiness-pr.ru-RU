@@ -1,5 +1,5 @@
 ---
-title: Создание Microsoft Teams ресурсов для полос совместной работы Microsoft Teams помощью PowerShell
+title: Создание Microsoft Teams ресурсов для полос совместной работы Microsoft Teams с помощью PowerShell
 ms.author: mitressl
 author: flinchbot
 manager: ericwe
@@ -16,18 +16,18 @@ ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: Дополнительные сведения о развертывании полос совместной работы для Microsoft Teams.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 812fb4704661aa11d3388048fa044030cdb1ce00
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: ce5fe8fa0066ea613cdee1dbea6cf7fb2e385e2694ae9b84bbd99901c999f69b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51115607"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54334720"
 ---
 # <a name="create-a-microsoft-365-resource-account-using-the-powershell"></a>Создание учетной Microsoft 365 ресурса с помощью PowerShell
 
 В этой теме вы можете найти сведения о том, как создавать учетные записи ресурсов для полос совместной работы Microsoft Teams с помощью PowerShell.
 
-Учетную запись ресурса проще всего создать с помощью Microsoft 365 администрирования. [См. эту статью о том, как это сделать.](resource-account-ui.md)
+Проще всего создать учетную запись ресурса с помощью Центр администрирования Microsoft 365. [См. эту статью о том, как это сделать.](resource-account-ui.md)
 
 [!INCLUDE [m365-teams-resource-account-difference](../includes/m365-teams-resource-account-difference.md)]
 
@@ -44,7 +44,7 @@ ms.locfileid: "51115607"
 
 1. Подключение Exchange Online PowerShell. Инструкции см. в Подключение [Exchange Online PowerShell.](/powershell/exchange/exchange-online/exchange-online-powershell-v2/exchange-online-powershell-v2?view=exchange-ps#install-and-maintain-the-exchange-online-powershell-v2-module)
 
-2. В Exchange Online PowerShell создайте новый почтовый ящик помещения или измените существующий почтовый ящик комнаты.
+2. В Exchange Online PowerShell создайте новый почтовый ящик комнаты или измените существующий почтовый ящик комнаты.
 
    - Чтобы создать почтовый ящик помещения, используйте следующий синтаксис:
 
@@ -72,7 +72,7 @@ ms.locfileid: "51115607"
      Set-Mailbox -Identity <RoomMailboxIdentity> -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '<Password>' -AsPlainText -Force)
      ```
 
-     В этом примере включается учетная запись существующего почтового ящика комнаты со значением псевдонима HuddleRoom02 и устанавливается пароль 808P@$$W 0rd. Обратите внимание, что учетная запись HuddleRoom02@contoso.onmicrosoft.com из-за существующего значения псевдонима.
+     В этом примере включается учетная запись существующего почтового ящика комнаты со значением псевдонима HuddleRoom02 и устанавливается пароль 808P@$$W 0rd. Обратите внимание, что учетная запись будет HuddleRoom02@contoso.onmicrosoft.com из-за существующего значения псевдонима.
 
      ``` PowerShell
      Set-Mailbox -Identity HuddleRoom02 -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '808P@$$W0rd' -AsPlainText -Force)
@@ -87,7 +87,7 @@ ms.locfileid: "51115607"
 
    - AddOrganizerToSubject: $false (Организатор собрания не добавляется в тему запроса на собрание.)
 
-   - DeleteComments: $false (Сохранять текст в тексте сообщения входящих запросов на собрания).)
+   - DeleteComments: $false (Сохранить текст в тексте сообщения входящих запросов на собрание.)
 
    - DeleteSubject: $false (Храните тему входящих запросов на собрания.)
 
@@ -133,8 +133,8 @@ ms.locfileid: "51115607"
 
 
 
-[Настройка учетных записей для полос совместной работы Microsoft Teams с помощью PowerShell](resource-account-ps.md)
+[Настройка учетных записей для полос совместной Microsoft Teams с помощью PowerShell](resource-account-ps.md)
 
 [Развертывание полос совместной работы для Microsoft Teams](collab-bar-deploy.md)
 
-[Полосы совместной работы для Microsoft Teams лицензирования](../rooms/rooms-licensing.md)
+[Области совместной работы для Microsoft Teams лицензирования](../rooms/rooms-licensing.md)

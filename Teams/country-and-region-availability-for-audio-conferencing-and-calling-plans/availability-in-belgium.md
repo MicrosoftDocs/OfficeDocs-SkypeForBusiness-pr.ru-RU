@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже ются Microsoft 365 и Office 365 службы для Skype для бизнеса и Microsoft Teams для Бельгии.
-ms.openlocfilehash: 1e305a1109fa9c4b05007575d2644d325fe118f4
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Ниже находятся Microsoft 365 и Office 365 службы для Skype для бизнеса и Microsoft Teams для Бельгии.
+ms.openlocfilehash: c1da2cb948d124d311182799fdac8795bec729e329569ccf0412a737174c6b17
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118368"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54334800"
 ---
 # <a name="availability-in-belgium"></a>Доступность в Бельгии
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже ются Microsoft 365 и Office 365 службы для Skype для бизнеса и Microsoft Teams для Бельгии.
+Ниже находятся Microsoft 365 и Office 365 службы для Skype для бизнеса и Microsoft Teams для Бельгии.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 
