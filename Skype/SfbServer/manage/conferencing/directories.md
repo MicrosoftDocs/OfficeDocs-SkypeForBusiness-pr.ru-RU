@@ -12,18 +12,18 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: b124b229-7df5-4b7e-8c11-6661c8c8c051
 description: Сводка. Сведения о создании каталогов конференций в Skype для бизнеса Server.
-ms.openlocfilehash: e4d73cc73a5c3c343e8a4734923cf80fb2590211
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: b1b1a09b00a7b0c87caff474d52e000db1e95a4a79ba8e54cb4a15a3f4ca32de
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119478"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54319112"
 ---
 # <a name="create-conference-directories-in-skype-for-business-server"></a>Создание каталогов конференций в Skype для бизнеса Server
  
 **Сводка:** Узнайте, как создать каталоги конференций в Skype для бизнеса Server.
   
-Каталоги конференций поддерживают сопоставление между альфа-номерным ИД собрания, который участник использует, чтобы присоединиться к конференции при использовании Skype для бизнеса, и номерным ИД конференции, который используется участником конференц-связи для звонков. 
+Каталоги конференций поддерживают сопоставление между ИД альфа-числимого собрания, который участник использует для присоединиться к конференции при использовании Skype для бизнеса, и ИД конференции, используемой только для числов, который участник конференц-связи с диалогом использует, чтобы присоединиться к конференции. 
   
 ## <a name="create-a-conference-directory"></a>Создание каталога конференций
 

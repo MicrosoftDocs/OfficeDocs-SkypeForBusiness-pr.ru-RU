@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 3ee3f595-947a-41c4-acb8-036336b4f17e
 ROBOTS: NOINDEX, NOFOLLOW
 description: На странице Состояние сетевого запроса сертификата отображается текущее состояние сертификата. Если сертификат все еще ожидает утверждения администратором центра сертификации (то есть если он еще не утвержден), состояние показывает, что сертификат все еще обрабатывается.
-ms.openlocfilehash: 7ba807b8e4309c9614df66b7c727a7e964dcea74
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 90e5a7fad323319faf837af2112334e230196648fe3ac24310fabc115390dc89
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49836959"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54291798"
 ---
 # <a name="pending-certificate-returned"></a>Отложенный сертификат (возврат)
  

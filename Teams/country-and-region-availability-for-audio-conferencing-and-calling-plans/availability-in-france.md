@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже ются Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Франции.
-ms.openlocfilehash: 3e12854b3c8ab3725b9d61b240b7c395aca35a0d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Ниже ются Microsoft 365 и Office 365 службы для Skype для бизнеса и Microsoft Teams для Франции.
+ms.openlocfilehash: 946d3eb15b42f2ce797d2d8f45295b06ad6a6a113aa63c6f5149b2ae47641234
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118127"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54329194"
 ---
 # <a name="availability-in-france"></a>Доступность во Франции
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже ются Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Франции.
+Ниже ются Microsoft 365 и Office 365 службы для Skype для бизнеса и Microsoft Teams для Франции.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 

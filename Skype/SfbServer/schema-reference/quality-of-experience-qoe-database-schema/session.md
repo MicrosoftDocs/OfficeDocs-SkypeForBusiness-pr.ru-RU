@@ -1,5 +1,5 @@
 ---
-title: Таблица Session
+title: Таблица сеансов
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,40 +12,40 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 7f05529c-794d-41ed-bca4-2e85b87b2dec
-description: Каждая запись представляет один сеанс, в котором участвуют звук или звук и видео. Он содержит общие сведения о сеансе. Сеанс определяется как диалоговое окно SIP между двумя конечными точками.
-ms.openlocfilehash: cdf639e7360248e02378c66eb68a60d49acb9749
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Каждая запись представляет один сеанс, который включает аудио- или аудио- и видео. Он содержит общую информацию о сеансе. Сеанс определяется как диалоговое окно протокола инициации сеанса аудио или видео(SIP) между двумя конечными точками.
+ms.openlocfilehash: 749f151def046abdb5169b39ccbd81ea5f07f5d4ee3d1c971ac112a2d4b90cce
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49802679"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54340035"
 ---
-# <a name="session-table"></a>Таблица Session
+# <a name="session-table"></a>Таблица сеансов
  
-Каждая запись представляет один сеанс, в котором участвуют звук или звук и видео. Он содержит общие сведения о сеансе. Сеанс определяется как диалоговое окно SIP между двумя конечными точками.
+Каждая запись представляет один сеанс, который включает аудио- или аудио- и видео. Он содержит общую информацию о сеансе. Сеанс определяется как диалоговое окно протокола инициации сеанса аудио или видео(SIP) между двумя конечными точками.
   
-|**Столбец**|**Тип данных**|**Ключ/индекс**|**Details**|
+|**Column**|**Тип данных**|**Key/Index**|**Сведения**|
 |:-----|:-----|:-----|:-----|
-|**ConferenceDateTime** <br/> |datetime  <br/> |Primary  <br/> |Ссылка из [таблицы Dialog](dialog.md).  <br/> |
-|**SessionSeq** <br/> |int  <br/> |Primary  <br/> |Ссылка из [таблицы Dialog](dialog.md).  <br/> |
-|**ConferenceKey** <br/> |int  <br/> |Внешняя  <br/> |Ключ конференции. Ссылка из [таблицы Conference](conference.md).  <br/> |
-|**CorrelationKey** <br/> |int  <br/> |Внешняя  <br/> |Ключ корреляции. Ссылка из [таблицы SessionCorrelation.](sessioncorrelation.md)  <br/> |
-|**DialogCategory** <br/> |bit  <br/> | <br/> |Категория диалоговых окной; 0 — это этап между Сервером-посредником и Skype для бизнеса Server; 1 — это сервер-посредник для шлюза STN.  <br/> |
+|**ConferenceDateTime** <br/> |datetime  <br/> |Primary  <br/> |Ссылки из [таблицы Диалог](dialog.md).  <br/> |
+|**SessionSeq** <br/> |int  <br/> |Primary  <br/> |Ссылки из [таблицы Диалог](dialog.md).  <br/> |
+|**ConferenceKey** <br/> |int  <br/> |Foreign  <br/> |Ключ конференции. Ссылки из [таблицы конференций](conference.md).  <br/> |
+|**CorrelationKey** <br/> |int  <br/> |Foreign  <br/> |Ключ корреляции. Ссылки из [таблицы SessionCorrelation](sessioncorrelation.md).  <br/> |
+|**DialogCategory** <br/> |bit  <br/> | <br/> |Категория диалоговое окно; 0 — Skype для бизнеса Server для сервера-посредника; 1 — это сервер-посредник для шлюза PSTN.  <br/> |
 |**MediationServerBypassFlag** <br/> |bit  <br/> ||Флаг, указывающий, выполнял ли вызов обход сервера-посредника.  <br/> |
-|**MediaBypassWarningFlag** <br/> |int  <br/> ||Если это поле присутствует, оно указывает, почему вызов не может быть обойден, даже если идентификаторы обхода совпадают. Для Skype для бизнеса Server определено только одно значение.  <br/> 0x0001 - неизвестный ид обхода для сетевого адаптера по умолчанию.  <br/> |
+|**MediaBypassWarningFlag** <br/> |int  <br/> ||Если это поле присутствует, оно указывает, почему вызов не может быть обойден, даже если идентификаторы обхода совпадают. Для Skype для бизнеса Server определяется только одно значение.  <br/> 0x0001 — неизвестный iD обхода для сетевого адаптера по умолчанию.  <br/> |
 |**StartTime** <br/> |datetime  <br/> | <br/> |Время начала вызова.  <br/> |
 |**EndTime** <br/> |datetime  <br/> | <br/> |Время окончания вызова.  <br/> |
-|**CallerPool** <br/> |int  <br/> |Внешняя  <br/> |Пул вызываемого. Ссылка из [таблицы Pool.](pool.md)  <br/> |
-|**CalleePool** <br/> |int  <br/> |Внешняя  <br/> |Пул приемник вызовов. Ссылка из [таблицы Pool.](pool.md)  <br/> |
-|**CalleePAI** <br/> |int  <br/> |Внешняя  <br/> |URI SIP в удостоверении P-asserted SIP (PAI) конечной точки получения. Ссылка из таблицы [User](user-0.md).  <br/> |
-|**CallerURI** <br/> |int  <br/> |Внешняя  <br/> |URI вызываемой. Ссылка из таблицы [User](user-0.md).  <br/> |
-|**CallerEndpoint** <br/> |int  <br/> |Внешняя  <br/> |Конечная точка вызываемой точки. Ссылка из [таблицы Endpoint.](endpoint.md)  <br/> |
-|**CallerUserAgent** <br/> |bit  <br/> |Внешняя  <br/> |Агент пользователя вызываемой точки. Ссылка из [таблицы UserAgent.](useragent.md)  <br/> |
+|**CallerPool** <br/> |int  <br/> |Foreign  <br/> |Пул вызываемого. Ссылки из [таблицы Пул](pool.md).  <br/> |
+|**CalleePool** <br/> |int  <br/> |Foreign  <br/> |Пул приемного вызова. Ссылки из [таблицы Пул](pool.md).  <br/> |
+|**CalleePAI** <br/> |int  <br/> |Foreign  <br/> |SIP URI в SIP p-asserted identity (PAI) конечной точки получения. Ссылки из [таблицы Пользователей](user-0.md).  <br/> |
+|**CallerURI** <br/> |int  <br/> |Foreign  <br/> |URI вызываемой. Ссылки из [таблицы Пользователей](user-0.md).  <br/> |
+|**CallerEndpoint** <br/> |int  <br/> |Foreign  <br/> |Конечная точка вызываемой. Ссылки из [таблицы Endpoint](endpoint.md).  <br/> |
+|**CallerUserAgent** <br/> |bit  <br/> |Foreign  <br/> |Агент пользователя вызываемой. Ссылки из [таблицы UserAgent](useragent.md).  <br/> |
 |**CallPriority** <br/> |smallint  <br/> ||Приоритет этого вызова.  <br/> |
-|**ClassifiedPoorCall** <br/> |bit  <br/> ||Этот столбец является неподготовленным и не используется в Skype для бизнеса Server. Вместо этого эти сведения сообщаются на основе строки мультимедиа. Дополнительные сведения можно найти в таблице [MediaLine.](medialine-0.md) <br/> |
-|**CallerPAI** <br/> |int  <br/> |Внешняя  <br/> |P-Asserted-Identity пользователя, выместившего вызов. P-Asserted-Identity (PAI) используется для передачи действительного удостоверения пользователя, который разместил вызов.  <br/> |
-|**CalleeEndpoint** <br/> |int  <br/> |Внешняя  <br/> |Конечная точка, которая получила вызов.  <br/> |
-|**CalleeUserAgent** <br/> |int  <br/> |Внешняя  <br/> |Агент пользователя, использованный пользователем, который принял вызов. Агенты пользователя представляют клиентские конечные точки.  <br/> |
-|**CalleeUri** <br/> |int  <br/> |Внешняя  <br/> |URI SIP пользователя, который принял вызов.  <br/> |
+|**ClassifiedPoorCall** <br/> |bit  <br/> ||Этот столбец был обесценив и не используется в Skype для бизнеса Server. Вместо этого эти сведения сообщаются на основе строки для мультимедиа. Дополнительные сведения можно получить в таблице [MediaLine.](medialine-0.md) <br/> |
+|**CallerPAI** <br/> |int  <br/> |Foreign  <br/> |P-Asserted-Identity пользователя, который разместил вызов. P-Asserted-Identity (PAI) используется для передачи истинного удостоверения пользователя, который разместил вызов.  <br/> |
+|**CalleeEndpoint** <br/> |int  <br/> |Foreign  <br/> |Конечная точка, которая получила вызов.  <br/> |
+|**CalleeUserAgent** <br/> |int  <br/> |Foreign  <br/> |Агент пользователя, нанятый пользователем, который получил вызов. Агенты пользователей представляют конечный клиентский аппарат.  <br/> |
+|**CalleeUri** <br/> |int  <br/> |Foreign  <br/> |SIP URI пользователя, который получил вызов.  <br/> |
    
 

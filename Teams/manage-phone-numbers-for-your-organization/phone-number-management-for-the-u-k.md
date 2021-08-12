@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: В этой таблице вы найдете сведения о получении номеров телефонов в Великобритании и управлении Microsoft Teams.
-ms.openlocfilehash: 2e222d5db5d5bd2825bc759ce939ec7ebefefb844fae545122a27a8591d32d99
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7b04764d10adf3a0f945a0b7e25f1a029dd1e98d7755053163aec2209405e1f7
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54337377"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848504"
 ---
 # <a name="phone-number-management-for-the-united-kingdom"></a>Телефон управления номерами для Великобритании
 
@@ -36,11 +36,11 @@ ms.locfileid: "54337377"
   
 |**Требуемое действие**|**Загрузка подходящих форм**|
 |:-----|:-----|
-|Получите новые номера пользователей или номеров телефонов служб, которые не указаны в Microsoft Teams центре администрирования.   <br/> |Скачайте эту форму. <br/> [Новый запрос на номер телефона для Великобритании (5.0) (en-gb)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-united-kingdom-(v.5.0)-(en-gb).pdf?raw=true) <br/><br/>Заполните ее и [обратитесь к ТССК за инструкциями.](contact-pstn-service-desk.md)  <br/> |
-|Перенаправь нам номера телефонов.  <br/> |Скачайте эту форму: <br/> [Док-досье (LOA) для Великобритании (все номера) (v.6.1) (en-us)](https://download.microsoft.com/download/4/3/7/43706e72-81e9-461e-afca-825dad4716f4/letter-of-authorization-(loa)-for-the-u.k.-(all-numbers)-(v.6.1)-(en-us).pdf) <br/> <br/> Заполните ее и [обратитесь к ТССК за инструкциями.](contact-pstn-service-desk.md)  <br/> |
-|Публикация и публикация номеров телефонов в национальном каталоге телефонов.  <br/> |[Чтобы получить инструкции по](contact-pstn-service-desk.md) списку номеров телефонов, которые вы хотите опубликовать или отоблести, обратитесь в ТССК. <br/> |
-|Измените номер пользователя на номер службы.  <br/> |[Чтобы получить инструкции по](contact-pstn-service-desk.md) списку пользовательских номеров, которые вы хотите преобразовать в номера служб, обратитесь в ТССК. <br/> |
-|Обновление службы каталогов для очереди вызовов или номеров автозаводников|Чтобы добавить или изменить номера очереди вызовов или номера автослужб, обратитесь [в службу поддержки ПСОП.](contact-pstn-service-desk.md) |
+|Получите новые номера телефонов пользователей или служб, которые не указаны в Microsoft Teams центре администрирования.   <br/> |Скачайте эту форму. <br/> [Новый запрос на номер телефона для Великобритании (5.0) (en-gb)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-united-kingdom-(v.5.0)-(en-gb).pdf?raw=true) <br/><br/>Заполните его и обратитесь за инструкциями в [службу поддержки ТССК.](contact-pstn-service-desk.md)  <br/> |
+|Перенаправь нам номера телефонов.  <br/> |Скачайте эту форму: <br/> [Док-досье (LOA) для Великобритании (все номера) (v.6.1) (en-us)](https://download.microsoft.com/download/4/3/7/43706e72-81e9-461e-afca-825dad4716f4/letter-of-authorization-(loa)-for-the-u.k.-(all-numbers)-(v.6.1)-(en-us).pdf) <br/> <br/> Заполните его и обратитесь за инструкциями в [службу поддержки ТССК.](contact-pstn-service-desk.md)  <br/> |
+|Публикация и публикация номеров телефонов в национальном телефонном каталоге.  <br/> |[Чтобы получить инструкции по](contact-pstn-service-desk.md) списку номеров телефонов, которые вы хотите опубликовать или от публикации, обратитесь в службу поддержки ТСЗ. <br/> |
+|Измените номер пользователя на номер службы.  <br/> |[Чтобы получить инструкции по](contact-pstn-service-desk.md) списку номеров пользователей, которые вы хотите преобразовать в номера служб, обратитесь в службу поддержки ТССК. <br/> |
+|Обновление службы каталогов для номеров очереди вызовов и номеров автослужб|Чтобы добавить или изменить номера очереди вызовов или номера автослужб, обратитесь за инструкциями в службу [поддержки ТСОП.](contact-pstn-service-desk.md) |
 
 ## <a name="related-topics"></a>См. также:
 
@@ -50,4 +50,4 @@ ms.locfileid: "54337377"
 
 [Условия и положения, распространяющиеся на экстренные вызовы](../emergency-calling-terms-and-conditions.md)
   
-[Отказ от ответственности для экстренных вызовов](https://download.microsoft.com/download/a/8/0/a807c43d-2177-4fe0-8732-86b3784ae6e5/emergency-calling-label-(en-us)-(v.1.0).zip)
+[Заявление об отказе от ответственности экстренных вызовов](https://download.microsoft.com/download/a/8/0/a807c43d-2177-4fe0-8732-86b3784ae6e5/emergency-calling-label-(en-us)-(v.1.0).zip)

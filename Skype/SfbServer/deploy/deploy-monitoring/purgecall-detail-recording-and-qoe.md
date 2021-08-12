@@ -1,5 +1,5 @@
 ---
-title: Ручная очистка баз данных регистрации вызовов и качества обслуживания в Skype для бизнеса Server
+title: Вручную очищают базы данных данных о детализации вызовов и качестве Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,33 +11,33 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 3a3a965b-b861-41a4-b9a8-27184d622c17
-description: Сводка. Узнайте, как вручную очистить записи из cdR и баз данных QoE, используемых Skype для бизнеса Server.
-ms.openlocfilehash: 2d36af2d06b6d6951e436ea456d4036478278600
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Сводка. Узнайте, как вручную очищать записи из баз данных CDR и QoE, используемых Skype для бизнеса Server.
+ms.openlocfilehash: 11f528d142512ec8e0536d16181f50b5756d09f0f4daf7509d25ca82895b53e8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49802149"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54294886"
 ---
-# <a name="manually-purge-the-call-detail-recording-and-quality-of-experience-databases-in-skype-for-business-server"></a>Ручная очистка баз данных регистрации вызовов и качества обслуживания в Skype для бизнеса Server
+# <a name="manually-purge-the-call-detail-recording-and-quality-of-experience-databases-in-skype-for-business-server"></a>Вручную очищают базы данных данных о детализации вызовов и качестве Skype для бизнеса Server
  
 **Сводка:** Узнайте, как вручную очищать записи из баз данных CDR и QoE, используемых Skype для бизнеса Server.
   
-Базы данных CDR и QoE можно вручную или автоматически сыметь записи. Purging records can be important so that data doesn't become stale or when needing to reset reports from a starting baseline.
+Базы данных CDR и QoE можно вручную или автоматически сдуть записи. Чистка записей может иметь важное значение, чтобы данные не устарели или при необходимости сброса отчетов из начального базового плана.
   
-## <a name="manually-purge-records-from-cdr-and-qoe-databases"></a>Ручная очистка записей из баз данных CDR и QoE
+## <a name="manually-purge-records-from-cdr-and-qoe-databases"></a>Вручную очищать записи из баз данных CDR и QoE
 
-Администраторы могут настроить базы данных регистрации вызовов (CDR) и /или качества обслуживания (QoE) для автоматической очистки старых записей из базы данных; это происходит, если для указанной базы данных (CDR или QoE) включена возможность ее и существуют записи, которые были в базе данных дольше указанного времени. Например, каждый день в 1:00 администраторы могут настраивать систему, чтобы удалить из базы данных QoE записи старше 60 дней.
+Администраторы могут настраивать базы данных записи окружных данных (CDR) и/или базы данных "Качество работы" (QoE), чтобы автоматически очищать старые записи из базы данных; это происходит, если для указанной базы данных (CDR или QoE) включена чистка, а также если в базе данных есть записи дольше указанного времени. Например, каждый день в 1:00 администраторы могут настраивать систему, чтобы удалить из базы данных QoE записи старше 60 дней.
   
-В дополнение к этой автоматической &#x2014; Invoke-CsCdrDatabasePurge и Invoke-CsQoEDatbasePurge &#x2014; в Skype для бизнеса Server; Эти данные позволяют администраторам вручную очищать записи из баз данных CDR и QoE в любое время. Например, чтобы вручную удалить из базы данных CDR все записи старше 10 дней, вы можете использовать команду, аналогичную следующей:
+Помимо автоматической чистки в &#x2014; Invoke-CsCdrDatabasePurge и Invoke-CsQoEDatbasePurge &#x2014; добавлены два новых Skype для бизнеса Server; эти комлеты позволяют администраторам вручную очищать записи из баз данных CDR и QoE в любое время. Например, чтобы вручную удалить из базы данных CDR все записи старше 10 дней, вы можете использовать команду, аналогичную следующей:
   
 ```powershell
 Invoke-CsCdrDatabasePurge -Identity service:MonitoringDatabase:atl-sql-001.litwareinc.com -PurgeCallDetailDataOlderThanDays 10 -PurgeDiagnosticDataOlderThanDays 10
 ```
 
-В предыдущей команде записи сведений о вызовах и записи диагностических данных старше 10 дней удаляются из базы данных мониторинга на atl-sql-001.litwareinc.com. (Записи регистрации вызовов представляют собой отчеты о пользователях/сеансах. Записи диагностических данных — это журналы диагностики, загруженные клиентских приложений, таких как Skype для бизнеса Server.)
+В предыдущей команде записи сведений о вызовах и записи диагностических данных старше 10 дней удаляются из базы данных мониторинга на atl-sql-001.litwareinc.com. (Записи регистрации вызовов представляют собой отчеты о пользователях/сеансах. Диагностические записи данных — это диагностические журналы, загруженные клиентными приложениями, такими как Skype для бизнеса Server.)
   
-Как показано выше, при запуске командлета Invoke-CsCdrDatabasePurge вам следует включить как параметр urgeCallDetaiDataOlderThanDays, так и параметр PurgeDiagnosticDataOlderThanDays. Однако для этих параметров необязательно нужно устанавливать одинаковые значения. Например, можно очистить записи сведений о вызовах старше 10 дней, оставив все записи диагностических данных в базе данных. Для этого установите для PurgeCallDetailDataOlderThanDays 10, а для PurgeDiagnosticDataOlderThanDays — 0. Например:
+Как показано выше, при запуске командлета Invoke-CsCdrDatabasePurge вам следует включить как параметр urgeCallDetaiDataOlderThanDays, так и параметр PurgeDiagnosticDataOlderThanDays. Однако для этих параметров необязательно нужно устанавливать одинаковые значения. Например, можно очистить записи сведений о вызовах старше 10 дней, оставив все записи диагностических данных в базе данных. Для этого установите purgeCallDetailDataOlderThanDays до 10, а PurgeDiagnosticDataOlderThanDays — 0. Например:
   
 ```powershell
 Invoke-CsCdrDatabasePurge -Identity service:MonitoringDatabase:atl-sql-001.litwareinc.com -PurgeCallDetailDataOlderThanDays 10 -PurgeDiagnosticDataOlderThanDays 0

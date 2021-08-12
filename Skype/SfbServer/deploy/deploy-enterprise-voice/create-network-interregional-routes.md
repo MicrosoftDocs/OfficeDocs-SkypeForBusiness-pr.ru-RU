@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5555262a-a502-4b01-9593-836dd30064f5
 description: Создание или изменение сетевых межрегиональных маршрутов, которые используются Корпоративная голосовая связь управления приемом вызовов в Skype для бизнеса Server.
-ms.openlocfilehash: d9ea8def930a075c93effede73ddb3f12d999334
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 4d3451d43d364e5b9506289e7909456c8bdc657b8ac575dfea360a960352b8d8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093127"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54294896"
 ---
 # <a name="create-network-interregional-routes-in-skype-for-business-server"></a>Создание сетевых межрегиональных маршрутов в Skype для бизнеса Server
  
@@ -33,11 +33,11 @@ ms.locfileid: "51093127"
   
 В примере топологии необходимо определить сетевые межрегиональные маршруты для каждой из трех пар регионов: Северная Америка/EMEA, EMEA/APAC и Северная Америка/APAC. 
   
-### <a name="to-create-network-interregional-routes-by-using-skype-for-business-server-management-shell"></a>Создание сетевых межрегиональных маршрутов с помощью оболочки управления Skype для бизнес-серверов
+### <a name="to-create-network-interregional-routes-by-using-skype-for-business-server-management-shell"></a>Создание сетевых межрегиональных маршрутов с помощью Skype для бизнеса Server Management Shell
 
-1. Запустите оболочку управления Skype для бизнес-серверов: нажмите кнопку Начните, щелкните Все **программы,** щелкните Skype для бизнеса **2015,** а затем нажмите **кнопку Skype для управления бизнес-серверами.**
+1. Запустите Skype для бизнеса Server: нажмите кнопку Начните, щелкните Все **программы,** нажмите кнопку Skype для бизнеса **2015,** а затем нажмите кнопку **Skype для бизнеса Server.**
     
-2. Выполните командлет **New-CsNetworkInterRegionRoute**, чтобы определить необходимые маршруты. Например, выполните команду:
+2. Выполните командлет **New-CsNetworkInterRegionRoute**, чтобы определить необходимые маршруты. Например, выполните:
     
    ```powershell
    New-CsNetworkInterRegionRoute -Identity NorthAmerica_EMEA_Route -NetworkRegionID1 NorthAmerica -NetworkRegionID2 EMEA -NetworkRegionLinkIDs "NA-EMEA-LINK"
@@ -54,9 +54,9 @@ ms.locfileid: "51093127"
     > [!NOTE]
     > Межрегиональный сетевой маршрут Северная Америка и APAC требует двух сетевых областей, так как между ними нет прямой связи между регионами сети. 
   
-### <a name="to-create-network-interregional-routes-by-using-skype-for-business-server-control-panel"></a>Создание сетевых межрегиональных маршрутов с помощью панели управления Skype для бизнес-серверов
+### <a name="to-create-network-interregional-routes-by-using-skype-for-business-server-control-panel"></a>Создание сетевых межрегиональных маршрутов с помощью Skype для бизнеса Server панели управления
 
-1. Откройте панель управления Skype для бизнес-серверов.
+1. Откройте панель Skype для бизнеса Server управления.
     
 2. На левой панели навигации щелкните **Конфигурация сети**.
     

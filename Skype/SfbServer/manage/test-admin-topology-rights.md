@@ -10,28 +10,28 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Тестирование прав топологии в Skype для бизнеса Server
-ms.openlocfilehash: d9c0ec5560dcb6f1a6872f0b38f2930e46b2364c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Проверка прав топологии в Skype для бизнеса Server
+ms.openlocfilehash: 9503476c5c97e692624a8c2535adaeabc14c0e88fc6be583927cdf048cf1ee2f
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122393"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848104"
 ---
 # <a name="testing-admin-topology-rights-in-skype-for-business-server"></a>Тестирование прав топологии администратора в Skype для бизнеса Server
 
-| | |
+|&nbsp; |&nbsp; |
 |--|--|
-|Расписание проверки|После начального развертывания Skype для бизнеса Server. При необходимости, если возникают проблемы, связанные с разрешениями.|
+|Расписание проверки|После первоначального Skype для бизнеса Server развертывания. При необходимости, если возникают проблемы, связанные с разрешениями.|
 |Средство тестирования|Windows PowerShell|
-|Необходимые разрешения|При локальном запуске с помощью оболочки управления серверами Skype для бизнеса пользователи должны быть членами группы безопасности RTCUniversalServerAdmins.<br/><br/>При запуске с помощью удаленного экземпляра Windows PowerShell пользователям должна быть назначена роль RBAC, которая имеет разрешение на запуск Test-CsSetupPermission. Чтобы увидеть список всех ролей RBAC, которые могут использовать этот командлет, запустите следующую команду из Windows PowerShell:<br/><br/>Get-CsAdminRole Where-Object \| {$_. Командлеты -match "Test-CsSetupPermission"}|
+|Необходимые разрешения|При локальном запуске с Skype для бизнеса Server службы управления пользователи должны быть членами группы безопасности RTCUniversalServerAdmins.<br/><br/>При запуске с помощью удаленного экземпляра Windows PowerShell пользователям должна быть назначена роль RBAC, которая имеет разрешение на Test-CsSetupPermission cmdlet. Чтобы увидеть список всех ролей RBAC, которые могут использовать этот командлет, запустите следующую команду из Windows PowerShell:<br/><br/>Get-CsAdminRole Where-Object \| {$_. Командлеты -match "Test-CsSetupPermission"}|
 |||
 
 ## <a name="description"></a>Описание
 
-По умолчанию только администраторы доменов могут включить топологию Skype для бизнеса Server и внести большие изменения в инфраструктуру Skype для бизнеса Server. Это не будет проблемой до тех пор, пока администраторы домена и администраторы Skype для бизнеса Server будут одинаковыми. Во многих организациях администраторы Skype для бизнеса Server не имеют административных прав на весь домен. По умолчанию это означает, что эти администраторы (определенные как члены группы RTCUniversalServerAdmins) не могут вносить изменения в топологию Skype для бизнеса Server. Чтобы дать членам группы RTCUniversalServerAdmins право вносить изменения в топологию, необходимо назначить необходимые разрешения Active Directory с помощью команды [Grant-CsSetupPermission.](/powershell/module/skype/Grant-CsSetupPermission)
+По умолчанию только администраторы домена могут включить топологию Skype для бизнеса Server и внести большие изменения в Skype для бизнеса Server инфраструктуру. Это не будет проблемой до тех пор, пока администраторы домена и Skype для бизнеса Server администраторы одно и то же. Во многих организациях Skype для бизнеса Server администраторы не имеют административных прав на весь домен. По умолчанию это означает, что эти администраторы (определенные как члены группы RTCUniversalServerAdmins) не могут Skype для бизнеса Server топологии. Чтобы дать членам группы RTCUniversalServerAdmins право вносить изменения в топологию, необходимо назначить необходимые разрешения Active Directory с помощью команды [Grant-CsSetupPermission.](/powershell/module/skype/Grant-CsSetupPermission)
  
-Этот Test-CsSetupPermission проверяет, что необходимые разрешения, необходимые для установки Skype для бизнес-сервера или одного из его компонентов, настраиваются в указанном контейнере Active Directory. Если разрешения не назначены, можно запустить Grant-CsSetupPermission, чтобы предоставить участникам группы RTCUniversalServerAdmins право устанавливать и включить Skype для бизнеса Server.
+Этот Test-CsSetupPermission проверяет, что необходимые разрешения, необходимые для установки Skype для бизнеса Server или одного из его компонентов, настроены в указанном контейнере Active Directory. Если разрешения не назначены, можно запустить Grant-CsSetupPermission, чтобы предоставить членам группы RTCUniversalServerAdmins право на установку и Skype для бизнеса Server.
 
 ## <a name="running-the-test"></a>Запуск теста
 
@@ -47,13 +47,13 @@ ms.locfileid: "51122393"
 
 Верно 
 
-Если разрешения не установлены, Test-CsSetupPermission возвращает значение False. Обратите внимание, что это значение обычно будет заключено во многих предупреждающих сообщениях. Например:
+Если разрешения не установлены, Test-CsSetupPermission возвращает значение False. Обратите внимание, что это значение обычно будет заключено во многих предупреждающих сообщениях. Примеры:
 
 ВНИМАНИЕ. Запись управления доступом (ACE) atl-cs-001\RTCUniversalServerAdmins; Разрешить; ExtendedRight; Нет; Нет; 1131f6aa-9c07-11d1-f79f-00c04fc2dcd2 
 
 ВНИМАНИЕ. Записи управления доступом (ACEs) на объекте "CN=Computers,DC=litwareinc,DC=com" не готовы. 
 
-False 
+Неправильно 
 
 ВНИМАНИЕ. Обработка "Test-CsSetupPermission" завершена с помощью предупреждений. Во время этого запуска были записаны предупреждения "2". 
 
