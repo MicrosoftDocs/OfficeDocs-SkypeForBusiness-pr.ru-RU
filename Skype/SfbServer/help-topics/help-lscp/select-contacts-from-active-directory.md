@@ -14,18 +14,18 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8732867c-4f78-454a-a4cc-49c3e76ce40c
-description: Используйте диалоговое окно "Выбор из Active Directory", чтобы найти контакты, которые вы хотите включить для Skype для бизнеса. В поле поиска введите SIP-адрес или отображаемое имя контакта, которого требуется найти. Чтобы получить все доступные контакты, не вводите ничего в поле поиска.
-ms.openlocfilehash: 641b5f85cbabe06242cadbcdf3506452d272d3fd
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Используйте диалоговое окно Выберите из диалогового окна Active Directory, чтобы найти контакты, которые необходимо включить для Skype для бизнеса. В поле поиска введите SIP-адрес или отображаемое имя контакта, которого требуется найти. Чтобы получить все доступные контакты, не вводите ничего в поле поиска.
+ms.openlocfilehash: 6d6e6d402f8c9d52a984aa3dd0923a664c5963ae0a5b09ef7d35f4f8d9c44566
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49821979"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54338327"
 ---
 # <a name="select-contacts-from-active-directory"></a>Выбор контактов в Active Directory
  
-Используйте **диалоговое окно "Выбор** из Active Directory", чтобы найти контакты, которые вы хотите включить для Skype для бизнеса. В поле поиска введите SIP-адрес или отображаемое имя контакта, которого требуется найти. Чтобы получить все доступные контакты, не вводите ничего в поле поиска.
+Используйте **диалоговое окно Выберите из диалогового окна Active Directory,** чтобы найти контакты, которые необходимо включить для Skype для бизнеса. В поле поиска введите SIP-адрес или отображаемое имя контакта, которого требуется найти. Чтобы получить все доступные контакты, не вводите ничего в поле поиска.
   
-For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).
+Сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнеса Server, см. в Skype для бизнеса Server [2015](../../manage/manage.md)г.
   
 

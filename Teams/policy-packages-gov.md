@@ -17,12 +17,12 @@ ms.custom: ''
 localization_priority: Normal
 search.appverid: MET150
 description: Узнайте, как использовать пакеты политик Teams для государственных организаций и управлять ими.
-ms.openlocfilehash: 41ae937323b37948c03128efd565f40c02bbd6a2
-ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
+ms.openlocfilehash: d9c229e9795a9e93caed37832baf0b03ef58c47305f41d2961420eea485bc608
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52796873"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54316996"
 ---
 # <a name="teams-policy-packages-for-government"></a>Teams пакеты политик для государственных органов
 
@@ -74,7 +74,7 @@ Teams настоящее время включены следующие паке
 Назначение пакета политики пользователям. Если пользователю с назначенной политикой назначается другая, приоритет будет иметь самое последнее назначение.
 
 > [!NOTE]
-> Для получения назначения пользовательского пакета политики каждому пользователю потребуется надстройка Advanced Communications. Дополнительные сведения см. в [этой](/microsoftteams/teams-add-on-licensing/advanced-communications)Microsoft Teams.
+> Для получения назначенного пользовательского пакета политик каждому пользователю будет необходима надстройка Advanced Communications. Дополнительные сведения см. в статье [Надстройка Advanced Communications для Microsoft Teams](/microsoftteams/teams-add-on-licensing/advanced-communications).
 
 #### <a name="assign-a-policy-package-to-one-or-several-users"></a>Назначение пакета политики для одного или нескольких пользователей
 

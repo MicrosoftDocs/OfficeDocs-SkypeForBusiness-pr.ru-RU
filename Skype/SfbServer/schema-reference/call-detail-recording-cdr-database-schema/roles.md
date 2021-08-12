@@ -1,5 +1,5 @@
 ---
-title: Таблица Roles
+title: Таблица ролей
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,20 +13,20 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: e8eb8a10-26b5-488b-bc8c-f9ef93f98bdb
 description: The Roles table is a static table that stores the list of possible conference roles, such as attendee and presenter.
-ms.openlocfilehash: 6c5e28ccd2d186b0122d70f91621a3365e6d2b07
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 56582f5f90693f4156f050ff20558a2bac440b8f531f8ee0076b258755f0fa26
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809979"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54302273"
 ---
-# <a name="roles-table"></a>Таблица Roles
+# <a name="roles-table"></a>Таблица ролей
  
 The Roles table is a static table that stores the list of possible conference roles, such as attendee and presenter.
   
-|**Столбец**|**Тип данных**|**Ключ/индекс**|**Details**|
+|**Column**|**Тип данных**|**Key/Index**|**Сведения**|
 |:-----|:-----|:-----|:-----|
 |**RoleId** <br/> |tinyint  <br/> |Primary  <br/> ||
-|**Role** <br/> |nvarchar(256)  <br/> || Допустимые значения: <br/>  0 — неизвестно <br/>  1 — выступающий <br/>  2 — участник <br/> |
+|**Role** <br/> |nvarchar (256)  <br/> || Допустимые значения: <br/>  0 — неизвестно <br/>  1 — выступающий <br/>  2 — участник <br/> |
    
 

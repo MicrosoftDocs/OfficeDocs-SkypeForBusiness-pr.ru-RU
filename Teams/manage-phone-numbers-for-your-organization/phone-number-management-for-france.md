@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: В этой таблице вы найдете сведения о получении номеров телефонов во Франции и управлении Microsoft Teams.
-ms.openlocfilehash: 495976306785e4012774fd5fa1c898f0fb95c2ae613c89e464657ec418f0cba4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 205d3da27e6dd3018e7617188c795d26c4bbfe51d291163674e3bb4c25cbedda
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54282662"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57849294"
 ---
 # <a name="phone-number-management-for-france"></a>Управление номерами телефонов во Франции
 
@@ -35,11 +35,11 @@ ms.locfileid: "54282662"
   
 |**Требуемое действие**|**Скачайте подходящие формы и отправьте их нам**|
 |:-----|:-----|
-|Получите новые номера телефонов пользователей или служб, которые не указаны в Microsoft Teams центре администрирования.   <br/> | Скачайте одну из этих форм. <br/> [Новый запрос номера телефона для Франции (v.6.0) (fr-fr)](https://download.microsoft.com/download/4/e/7/4e7e9da9-f2cc-4e4d-97af-efcb85a51b0d/new-phone-number-request-for-france-(v.6.0)-(fr-fr).pdf) <br/>  [Новый запрос на номер телефона для Франции (5.0) (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-france-(v.5.0)-(en-us).pdf?raw=true)<br/> <br/>   Заполните ее и [обратитесь к PTSN, чтобы узнать инструкции.](contact-pstn-service-desk.md)  <br/>
-|Перенаправь нам номера телефонов.  <br/> |Скачайте одну из этих форм. <br/><br/> Для номеров телефонов пользователей:<br/>[Док-досье (LOA) для Франции (географические номера) (v.5.0) (fr-fr)](https://download.microsoft.com/download/1/2/f/12f54bab-b024-42aa-864a-7a9873509ffc/letter-of-authorization-(loa)-for-france-(geographic-numbers)-(v.6.0)-(fr-fr).pdf) <br/><br/>Для бесплатных номеров телефонов: <br/>[Док-досье (LOA) для Франции (бесплатные номера телефонов) (v.6.0) (fr-fr)](https://download.microsoft.com/download/b/5/0/b502c0e2-80d1-4d5c-8914-12617a173933/letter-of-authorization-(loa)-for-france-(freephone-numbers)-(v.6.0)-(fr-fr).pdf) <br/> <br/> Заполните ее и [обратитесь к PTSN, чтобы узнать инструкции.](contact-pstn-service-desk.md)  <br/> |
-|Публикация и публикация номеров телефонов в национальном каталоге телефонов.  <br/> |[Чтобы получить инструкции по](contact-pstn-service-desk.md) списку номеров телефонов, которые вы хотите опубликовать или отоблести, обратитесь в ТССК. <br/> |
-|Измените номер пользователя на номер службы.  <br/> |[Чтобы получить инструкции по](contact-pstn-service-desk.md) списку пользовательских номеров, которые вы хотите преобразовать в номера служб, обратитесь в ТССК. <br/> |
-|Обновление службы каталогов для очереди вызовов или номеров автозаводников|Чтобы добавить или изменить номера очереди вызовов или номера автослужб, обратитесь [в службу поддержки ПСОП.](contact-pstn-service-desk.md) |
+|Получите новые номера пользователей или номеров телефонов служб, которые не указаны в Microsoft Teams центре администрирования.   <br/> | Скачайте одну из этих форм. <br/> [Новый запрос номера телефона для Франции (v.6.0) (fr-fr)](https://download.microsoft.com/download/4/e/7/4e7e9da9-f2cc-4e4d-97af-efcb85a51b0d/new-phone-number-request-for-france-(v.6.0)-(fr-fr).pdf) <br/>  [Новый запрос на номер телефона для Франции (5.0) (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-france-(v.5.0)-(en-us).pdf?raw=true)<br/> <br/>   Заполните его и обратитесь за инструкциями в [службу поддержки ТССК.](contact-pstn-service-desk.md)  <br/>
+|Перенаправь нам номера телефонов.  <br/> |Скачайте одну из этих форм. <br/><br/> Для номеров телефонов пользователей:<br/>[Док-досье (LOA) для Франции (географические номера) (v.5.0) (fr-fr)](https://download.microsoft.com/download/1/2/f/12f54bab-b024-42aa-864a-7a9873509ffc/letter-of-authorization-(loa)-for-france-(geographic-numbers)-(v.6.0)-(fr-fr).pdf) <br/><br/>Для бесплатных номеров телефонов: <br/>[Док-досье (LOA) для Франции (бесплатные номера телефонов) (v.6.0) (fr-fr)](https://download.microsoft.com/download/b/5/0/b502c0e2-80d1-4d5c-8914-12617a173933/letter-of-authorization-(loa)-for-france-(freephone-numbers)-(v.6.0)-(fr-fr).pdf) <br/> <br/> Заполните его и обратитесь за инструкциями в [службу поддержки ТССК.](contact-pstn-service-desk.md)  <br/> |
+|Публикация и публикация номеров телефонов в национальном каталоге телефонов.  <br/> |[Чтобы получить инструкции по](contact-pstn-service-desk.md) списку номеров телефонов, которые вы хотите опубликовать или от публикации, обратитесь в службу поддержки ТСЗ. <br/> |
+|Измените номер пользователя на номер службы.  <br/> |[Чтобы получить инструкции по](contact-pstn-service-desk.md) списку номеров пользователей, которые вы хотите преобразовать в номера служб, обратитесь в службу поддержки ТССК. <br/> |
+|Обновление службы каталогов для номеров очереди вызовов или автозаетаря|Чтобы добавить или изменить номера очереди вызовов или номера автослужб, обратитесь в службу [поддержки ПСОП.](contact-pstn-service-desk.md) |
 
 ## <a name="related-topics"></a>См. также:
 
@@ -49,4 +49,4 @@ ms.locfileid: "54282662"
 
 [Условия и положения, распространяющиеся на экстренные вызовы](../emergency-calling-terms-and-conditions.md)
   
-[Отказ от ответственности для экстренных вызовов](https://download.microsoft.com/download/a/8/0/a807c43d-2177-4fe0-8732-86b3784ae6e5/emergency-calling-label-(en-us)-(v.1.0).zip)
+[Заявление об отказе от ответственности экстренных вызовов](https://download.microsoft.com/download/a/8/0/a807c43d-2177-4fe0-8732-86b3784ae6e5/emergency-calling-label-(en-us)-(v.1.0).zip)

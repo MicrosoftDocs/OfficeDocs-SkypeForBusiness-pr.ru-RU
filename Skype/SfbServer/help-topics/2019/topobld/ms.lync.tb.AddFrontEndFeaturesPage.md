@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 97441ec2-573a-4ba4-ab4c-df4cf6baf321
 ROBOTS: NOINDEX, NOFOLLOW
 description: Выберите все возможности, которые хотите включить для интерфейсного пула. Следует развернуть по крайней мере систему обмена мгновенными сообщениями, так как эта возможность всегда выбрана и не может быть отключена. У вас также есть возможность развертывания других функций, таких как conferencing, Корпоративная голосовая связь и управление приемом вызовов (CAC). Некоторые компоненты являются зависимыми от топологии.
-ms.openlocfilehash: 12fb968a9ed0b1f9c88419158c8774fd0dc9f25c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 82b67016b4e7902e258b73889134f60c59b0cabf59a125d3f1e8bde88011f355
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118718"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54291457"
 ---
 # <a name="add-front-end-features"></a>Добавление компонентов переднего плана
 

@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже находятся Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams Для Skype для бизнеса.
-ms.openlocfilehash: b9ab3a4defd56940f6900fba3e930f4bc6de0cb8
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Ниже ются Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams Для Skype для бизнеса.
+ms.openlocfilehash: 0a5f8c977c0f238a9ce5541fc9fc5f75868b1df48c281afe002163ee45072bc6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102265"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54347244"
 ---
 # <a name="availability-in-panama"></a>Доступность в Панаме
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже находятся Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams Для Skype для бизнеса.
+Ниже ются Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams Для Skype для бизнеса.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 

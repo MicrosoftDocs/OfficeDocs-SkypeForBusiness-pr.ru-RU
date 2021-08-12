@@ -15,22 +15,22 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2b030ced-0aae-4023-bb26-544d14bdd2f0
 description: Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
-ms.openlocfilehash: c10035729ebb69d101b9a901b7dc427fea9d5f95
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 9997a63ca3d53df1350eca65dba92a098492f6d5aef0b8b33e5cd573822f81f4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49819229"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54338377"
 ---
 # <a name="quality-of-experience-qoe-data"></a>Данные о качестве взаимодействия
  
 Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
   
-- [Enable Quality of Experience in Skype for Business Server 2015](../../manage/health-and-monitoring/enable-qoe.md)
+- [Включить качество работы в Skype для бизнеса Server 2015 г.](../../manage/health-and-monitoring/enable-qoe.md)
     
-- [Изменение параметров качества работы в Skype для бизнеса Server 2015](../../manage/health-and-monitoring/modify-qoe-settings.md)
+- [Изменение параметров качества работы в Skype для бизнеса Server 2015 г.](../../manage/health-and-monitoring/modify-qoe-settings.md)
     
-- [Создание параметров конфигурации качества обслуживания в Skype для бизнеса Server 2015](../../manage/health-and-monitoring/create-qoe-configuration-settings.md)
+- [Создание параметров конфигурации experience в Skype для бизнеса Server 2015 г.](../../manage/health-and-monitoring/create-qoe-configuration-settings.md)
     
-For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).
+Сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнеса Server, см. в Skype для бизнеса Server [2015](../../manage/manage.md)г.
 

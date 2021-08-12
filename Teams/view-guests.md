@@ -22,12 +22,12 @@ localization_priority: Normal
 appliesto:
 - Microsoft Teams
 description: В этой статье вы узнаете, как администратор может просматривать сведения о гостевых пользователях в Microsoft Teams.
-ms.openlocfilehash: 6e079a142fa6b3efcace3d4b246dbbbd16e736dd
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 3fa6ba2f991227bb57cdf9e799084ba1cf84b3c5ec7b78c194d718a4f41b3f09
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031045"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54327365"
 ---
 # <a name="view-guest-users-in-a-team"></a>Просмотр гостевых пользователей к команде
 
@@ -35,8 +35,8 @@ ms.locfileid: "49031045"
 
 Чтобы определить гостевых пользователей:
 
-1.  Во sign in to the [Microsoft 365 admin center](https://admin.microsoft.com).
+1.  Во Центр администрирования Microsoft 365 [.](https://admin.microsoft.com)
 2.  Выберите **Центры администрирования**  >  **Teams**.
 3.  В центре Teams выберите **Пользователи**. В **отображаемом** имени всех гостевых пользователей будет отображаться гостевых пользователей.
   
-Вы также можете определить гостевых пользователей в своей команде.  
+Вы также можете определить гостевых пользователей из своей команды.  

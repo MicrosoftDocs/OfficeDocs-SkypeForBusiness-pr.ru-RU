@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Узнайте, что необходимо для перехода на прямую маршрутизацию применительно к Skype для бизнеса Online и настройке Teams.
-ms.openlocfilehash: de211dfae9bf2fc20a2cd367687e0fd7c5779a5f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: bcc31554428c847fc9eb3c45804be42e850b30f943fadcc3ef6e245d07c9d4fb
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122203"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54302010"
 ---
 # <a name="migrate-to-direct-routing"></a>Переход на прямую маршрутизацию
 
@@ -29,7 +29,7 @@ ms.locfileid: "51122203"
  
 - телефонная система с планами звонков (для Teams и Skype для бизнеса Online) 
 - телефонная система с подключением к локальной сети STN в Skype для бизнеса Server (для Skype для бизнеса Online)  
-- телефонная система подключения к локальной сети STN с помощью Cloud Connector Edition (для Skype для бизнеса Online)
+- телефонная система подключением к локальной сети STN с помощью Cloud Connector Edition (для Skype для бизнеса Online)
 
 
 В дополнение к этим этапам настройки, для пограничного контроллера сеансов также требуется настройка для маршрутизации вызовов на новый маршрут. Этот документ не охватывает данный аспект. Дополнительные сведения см. в документации поставщика пограничного контроллера сеансов.  
