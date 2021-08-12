@@ -15,17 +15,17 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6146b6d4a7ca3d988c5dc1042a7f75848cf4fc7b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 9fbc1e51c22fbc2efc5ab286b1082f1169c14e89c2abae573ae810a8be04dd63
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092667"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54315295"
 ---
 <a name="manage-the-office-365-e1-trial"></a>Управление пробной версией Office 365 E1
 ==============================
 
-С 1 июля 2020 г. лицензия на пробную версию Office 365 E1 больше не доступна. Если вам нужно назначить пользователям лицензии на Microsoft Teams, см. статью [Описание службы Microsoft Teams](/office365/servicedescriptions/teams-service-description), где приведен список платных подписок, включающих Teams. Кроме того, соответствующие организации могут использовать **[бесплатную версию Teams](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)** или сотрудники могут активировать интерфейс **[Teams Exploratory](teams-exploratory.md)**.
+С 1 июля 2020 г. лицензия на пробную версию Office 365 E1 больше не доступна. Если вам нужно назначить пользователям лицензии на Microsoft Teams, см. статью [Описание службы Microsoft Teams](/office365/servicedescriptions/teams-service-description), где приведен список платных подписок, включающих Teams. Кроме того, соответствующие организации могут использовать **[бесплатную версию Teams](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)** или сотрудники могут активировать интерфейс **[Teams Exploratory](teams-exploratory.md)**.
 
 
 Если вы используете Teams для образования, проверьте наличие бесплатной [лицензии Office 365 A1](teams-edu-licensing.md).
@@ -56,7 +56,7 @@ ms.locfileid: "51092667"
 Для получения дополнительной информации см. [Описание службы Microsoft Teams](/office365/servicedescriptions/teams-service-description).
 
 > [!NOTE]
-> Если срок лицензии на пробную версию E1 закончился, а пользователь сразу не обновился до подписки, включающей Teams, пользовательские данные не удаляется. Пользователь по-прежнему существует в Azure Active Directory, и все данные в Teams сохраняются. После назначения новой лицензии пользователю, чтобы повторно включить функции Teams, содержимое продолжит существовать. 
+> Если срок действия пробной лицензии E1 истек, а пользователь сразу не обновился до подписки, включающей Teams, пользовательские данные не удаляются. Пользователь по-прежнему существует в Azure Active Directory, а все данные в Teams сохраняются. Содержимое продолжит существовать, чтобы повторно включить функции Teams после назначения новой лицензии пользователю. 
 
 ### <a name="remove-an-office-365-e1-trial-license"></a>Удаление лицензии на пробную версию Office 365 E1
 

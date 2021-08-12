@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6071d567972babbe16bae8ce00852be713199ef0
-ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
+ms.openlocfilehash: 7c94094720a68bf14c0c6b3f66d8b45c4a7a3251cd1159645b1226a711d562a2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/26/2021
-ms.locfileid: "53586988"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54323781"
 ---
 # <a name="sample-emails-and-surveys-for-upgrade-basic-communications"></a>Образцы сообщений электронной почты и опросов для сообщений об обновлении
 
@@ -170,7 +170,7 @@ Should you have questions, contact <<insert alias or contact info>>.
 
 <a name="step-10-email"></a>
 
-### <a name="email-to-ask-users-to-give-teams-and-channels-a-try-for-step-10"></a>Сообщение электронной почты с вопросом о том, как предоставить пользователям доступ к командам и каналам для шага 10
+### <a name="email-to-ask-users-to-give-teams-and-channels-a-try-for-step-10"></a>Отправить сообщение электронной почты с запросом на доступ к командам и каналам для шага 10
 
 Строка темы:
 
@@ -213,7 +213,7 @@ Should you have questions, contact <<insert alias or contact info>>.
 | **Что мешает вам использовать Microsoft Teams?** | **Выберите все применимые** |
 |---|---|
 | Я никогда не слышали об этом | &#9744; |
-| У меня не установлено приложение на компьютере | &#9744; |
+| На моем компьютере не установлено приложение | &#9744; |
 | Я не понимаю, как это было бы полезно для меня или для людей, с которых я работаю | &#9744; |
 | У меня не было времени на его оценку в моих потребностях | &#9744; |
 | Я уже использую другие приложения, которые отвечают моим потребностям для общения и совместной работы | &#9744; |

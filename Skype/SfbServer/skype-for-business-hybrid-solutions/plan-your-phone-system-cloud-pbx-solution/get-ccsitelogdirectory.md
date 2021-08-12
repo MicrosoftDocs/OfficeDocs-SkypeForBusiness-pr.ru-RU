@@ -12,19 +12,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 6625494d-1b63-4d99-a589-c8c69c4addba
-description: The Get-CcSiteLogDirectory shows the current directory where the site level logs for Skype for Business Cloud Connector Edition are stored.
-ms.openlocfilehash: cace3ce3757294adbb3c55db24c619925f55ce5a
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: В Get-CcSiteLogDirectory показан текущий каталог, в котором хранятся журналы уровня Skype для бизнеса Cloud Connector Edition сайта.
+ms.openlocfilehash: 7c15d0b715384fd18522122571da69f58a83ed337d46420e83f7ac35cfd0c018
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41799889"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54349521"
 ---
 # <a name="get-ccsitelogdirectory"></a>Get-CcSiteLogDirectory
  
-The Get-CcSiteLogDirectory shows the current directory where the site level logs for Skype for Business Cloud Connector Edition are stored. 
+В Get-CcSiteLogDirectory показан текущий каталог, в котором хранятся журналы уровня Skype для бизнеса Cloud Connector Edition сайта. 
   
-Этот cmdlet применяется к Skype для бизнеса Cloud Connector Edition 1.4.1, 1.4.2.
+Этот комлет применяется к Skype для бизнеса Cloud Connector Edition 1.4.1, 1.4.2.
   
 ```powershell
 Get-CcSiteLogDirectory
@@ -37,7 +37,7 @@ Get-CcSiteLogDirectory
 ## <a name="examples"></a>Примеры
 <a name="Examples"> </a>
 
-### <a name="example-1"></a>Пример 1
+### <a name="example-1"></a>Пример 1
 
 В следующем примере показана текущая папка, в которой хранятся файлы журнала для сайта Cloud Connector:
   
@@ -48,17 +48,17 @@ Get-CcSiteLogDirectory
 ## <a name="detailed-description"></a>Подробное описание
 <a name="DetailedDescription"> </a>
 
-Папка по умолчанию C:\Users \% userprofile%\CloudConnector\SiteRoot\Logs. Вы можете изменить папку, задав Set-CcSiteDirectory управления. Не существует отдельного cmdlet, который изменяет только расположение папки журнала без изменения каталога сайта.
+Папка по умолчанию — C:\Users \% userprofile%\CloudConnector\SiteRoot\Logs. Вы можете изменить папку, заняв Set-CcSiteDirectory. Не существует отдельного cmdlet, который изменяет только расположение папки журнала без изменения каталога сайта.
   
 ## <a name="input-types"></a>Типы входных данных
 <a name="InputTypes"> </a>
 
-Нет. Этот Get-CcSiteLogDirectory не принимает конвейерные входные данные.
+Нет. В Get-CcSiteLogDirectory не принимается конвейерный ввод.
   
 ## <a name="return-types"></a>Типы возвращаемых данных
 <a name="ReturnTypes"> </a>
 
-Команда возвращает путь к файлу.
+Команда возвращает путь файла.
   
 ## <a name="see-also"></a>См. также
 <a name="ReturnTypes"> </a>

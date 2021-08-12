@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 7220ec1f-38cb-4297-870e-591a832cd2f2
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Свойства существующего развертывания можно изменить следующими разделами:'
-ms.openlocfilehash: 9d76646c0b0f9f8f579e8f978659191258e9f412
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 705a4bb3b08d78472c3e165e8c9cfcff409ea30f302216af7914b9037c8f5bee
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120015"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54299985"
 ---
 # <a name="deployment-settings-expander"></a>Расширитель параметров развертывания
 
@@ -73,7 +73,7 @@ ms.locfileid: "51120015"
 > [!IMPORTANT]
 > После определения, опубликовано ли и развернуто центральное хранилище управления для инфраструктуры, невозможно изменить местоположение центрального хранилища управления без переноса этого хранилище на другой интерфейсный сервер для внешней обработки.
 
-Сведения о перемещении центра управления см. в справке [Move-CsManagementServer](/powershell/module/skype/move-csmanagementserver?view=skype-ps) Windows PowerShell ссылке.
+Подробные сведения о перемещении центра управления см. в справке [Move-CsManagementServer](/powershell/module/skype/move-csmanagementserver?view=skype-ps) Windows PowerShell ссылке.
 
 
 Сведения об определении и настройке этих параметров см. в разделе [Defining and Configuring the Topology](/previous-versions/office/lync-server-2013/lync-server-2013-defining-and-configuring-the-topology).

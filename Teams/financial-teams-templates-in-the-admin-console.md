@@ -1,5 +1,5 @@
 ---
-title: Начало работы с шаблоном финансовой группы с помощью Центра администрирования
+title: Начало работы с шаблоном финансовой команды с помощью Центра администрирования
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 34e1140fe1551c0e0bc52449735755fc6d6428ca
-ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
+ms.openlocfilehash: 749fa9a3a4264f5e4231082dcf097151377fff069bf5b123afa6b1abc5ba017b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52684446"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54349471"
 ---
 # <a name="use-financial-team-templates-in-the-admin-center"></a>Использование шаблонов финансовой группы в Центре администрирования
 
@@ -36,7 +36,7 @@ ms.locfileid: "52684446"
 
 Эта статья посвящена вам, если вы отвечаете за планирование, развертывание и управление несколькими командами в своей финансовой организации. Вы уже развернули службу Teams в своей организации. Если вы еще не развернули Teams, см. статью [Как развернуть Microsoft Teams](./deploy-overview.md).
 
-Дополнительные информацию о шаблонах команд в целом можно найти в этой [ссылке: Начало работы с шаблонами команд.](get-started-with-teams-templates-in-the-admin-console.md)
+Дополнительные информацию о шаблонах команд в целом можно найти в этой ссылке: Начало [работы с шаблонами команд.](get-started-with-teams-templates-in-the-admin-console.md)
 
 ## <a name="global-crisis-or-event"></a>Глобальныйкриб или событие
 
@@ -53,5 +53,5 @@ ms.locfileid: "52684446"
 
 | Тип базового шаблона |baseTemplateId| Свойства базового шаблона |
 | ------------------ |--|----------------------------------------------------- |
-|Работайте совместно в филиале банка|`com.microsoft.teams.template.CollaborateWithinABankBranch` |Каналы: <ul><li>Общие<li>Объявления</li><li>Совещания</li><li>Собрания клиентов</li><li>Запрос на утверждение</li><li>Коучинг</li><li>Разработка навыков</li><li>Обработка ссуды</li><li>Жалобы клиентов</li><li>Слава</li><li>Интересные материалы</li><li>Соответствие требованиям</li></ul>Приложения:<ul><li>Благодарность</li></ul>|
+|Работайте совместно в филиале банка|`com.microsoft.teams.template.CollaborateWithinABankBranch` |Каналы: <ul><li>Общие<li>Объявления</li><li>Совещания</li><li>Собрания клиентов</li><li>Запрос на утверждение</li><li>Коучинг</li><li>Разработка навыков</li><li>Обработка ссуды</li><li>Жалобы клиентов</li><li>Слава</li><li>Забавные материалы</li><li>Соответствие требованиям</li></ul>Приложения:<ul><li>Благодарность</li></ul>|
 ||||

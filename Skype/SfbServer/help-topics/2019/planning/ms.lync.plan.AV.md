@@ -1,5 +1,5 @@
 ---
-title: Аудиоконференция (средство планирования)
+title: Аудио видеоконференция (средство планирования)
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,20 +15,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 466f5d2e-0e70-434c-8318-dfdefe679a31
 ROBOTS: NOINDEX, NOFOLLOW
-description: Аудио- и видеоконференции Skype для бизнеса Server позволяют пользователям участвовать в аудио- или видеоконференции в режиме реального времени.
-ms.openlocfilehash: c2d491308a3886a172ba800ba39ca9a5f637be02
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Skype для бизнеса Server Аудио- и видеоконференции позволяют пользователям участвовать в аудио- или видеоконференции в режиме реального времени.
+ms.openlocfilehash: 6e9429c030ed3ed21c4873b80907adcee086ddf6554109c0c12d0ebb1b1c5b71
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49801169"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54300065"
 ---
-# <a name="audio-video-conferencing-planning-tool"></a>Аудиоконференция (средство планирования)
+# <a name="audio-video-conferencing-planning-tool"></a>Аудио видеоконференция (средство планирования)
  
-Аудио- и видеоконференции Skype для бизнеса Server позволяют пользователям участвовать в аудио- или видеоконференции в режиме реального времени.
+Skype для бизнеса Server Аудио- и видеоконференции позволяют пользователям участвовать в аудио- или видеоконференции в режиме реального времени.
   
-Подробные сведения о планировании включения видео- и видеоконференций в организации см. в следующей теме и ее подп. 
+Сведения о планировании включения A/V-конференций в организации см. в следующей теме и ее подтопике: 
   
-- [Планирование для работы сконференцией в Skype для бизнеса Server](../../../plan-your-deployment/conferencing/conferencing.md)
+- [Планирование для conferencing в Skype для бизнеса Server](../../../plan-your-deployment/conferencing/conferencing.md)
     
 

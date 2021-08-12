@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 14c19ac6-f91d-41cb-b6a2-e54ed06b9596
 ROBOTS: NOINDEX, NOFOLLOW
 description: Параметр Полное доменное имя следующего прыжка определяет сервер для следующей прыжка, на который устаревший пограничный сервер маршрутизирует внутренний трафик. Введите полное доменное имя сервера для следующего прыжка, на который данный пограничный сервер маршрутизирует внутренний трафик, затем укажите является ли этот сервер интерфейсным пулом или директором.
-ms.openlocfilehash: 853e1b6006746278ca40aaf6ac9aa81f030e7a08
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 65c5a6b2077be0c3fb202de3c3073a51192fcb666381f2e89b09697cc6e5602f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49824489"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54299965"
 ---
 # <a name="legacy-merge-next-hop"></a>Следующий переход для объединения с устаревшей версией
  

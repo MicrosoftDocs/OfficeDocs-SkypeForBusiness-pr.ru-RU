@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5dd2fd5241533f54da3e5a06dab90df7f082fe2d
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: 186f7f2e3e4d6c07714925162b7aa492873824dd30bef23f4f64c68273b60c15
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282126"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54323741"
 ---
 # <a name="plan-for-your-upgrade"></a>Планирование обновления
 
@@ -44,4 +44,4 @@ ms.locfileid: "52282126"
 > [!TIP]
 > Присоединяйтесь к нам в ходе интерактивных семинаров, на которых мы будем делиться рекомендациями, рекомендациями и ресурсами, предназначенными для начала планирования и внедрения обновлений.
 >
-> Чтобы [приступать к работе, присоединитесь](./upgrade-workshops-landing-page.yml) к сеансу планирования обновления.
+> Чтобы [приступать к работе,](./upgrade-workshops-landing-page.yml) присоединитесь к сеансу планирования обновления.

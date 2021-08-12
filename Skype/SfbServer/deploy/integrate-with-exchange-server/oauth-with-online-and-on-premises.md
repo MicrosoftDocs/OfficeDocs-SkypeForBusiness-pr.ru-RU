@@ -1,5 +1,5 @@
 ---
-title: Интеграция между сервером Skype для бизнеса Online и Exchange
+title: Интеграция Skype для бизнеса Online и Exchange сервера
 ms.reviewer: cbland
 ms.author: v-cichur
 author: cichur
@@ -13,29 +13,29 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ffe4c3ba-7bab-49f1-b229-5142a87f94e6
-description: Настройка проверки подлинности OAuth между Exchange в помещениях и Skype для бизнеса Online позволяет использовать функции интеграции Skype для бизнеса и Exchange, описанные в службе поддержки функций.
-ms.openlocfilehash: 342362926ad0af169acd6c9af4715008425e71c7
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Настройка проверки подлинности OAuth между Exchange и Skype для бизнеса Online позволяет использовать функции интеграции Skype для бизнеса и Exchange, описанные в службе поддержки компонентов.
+ms.openlocfilehash: 8342fefa10fcd66cd7cd10c121b787a05a7a0401d5235bbc70b2412bb538e5e4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51109715"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54300285"
 ---
 # <a name="configure-integration-and-oauth-between-skype-for-business-online-and-exchange-server"></a>Настройка интеграции и OAuth между Skype для бизнеса Online и Exchange Server 
 
-Настройка интеграции между сервером Exchange и Skype для бизнеса Online позволяет использовать функции интеграции Skype для бизнеса и Exchange, описанные в [службе поддержки функций.](../../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md#feature_support)
+Настройка интеграции между сервером Exchange и Skype для бизнеса Online позволяет использовать функции интеграции Skype для бизнеса и Exchange, описанные в [службе поддержки компонентов.](../../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md#feature_support)
 
-Эта тема относится к интеграции с Exchange Server 2013 по 2019 год.
+Этот раздел относится к интеграции с Exchange Server 2013 по 2019 годы.
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Что нужно знать перед началом работы
 
 - Предполагаемое время выполнения задачи: 15 минут.
 
--  Для выполнения этой процедуры (процедур) необходимы соответствующие разрешения. Чтобы узнать, какие разрешения вам нужны, см. в разделе [Разрешения инфраструктуры Exchange и Shell.](/exchange/exchange-and-shell-infrastructure-permissions-exchange-2013-help)
+-  Для выполнения этой процедуры (процедур) необходимы соответствующие разрешения. Чтобы узнать, какие разрешения вам нужны, см. в [разделе Exchange разрешений](/exchange/exchange-and-shell-infrastructure-permissions-exchange-2013-help) инфраструктуры и инфраструктуры Shell.
 
 - Сочетания клавиш для процедур, описанных в этой статье, приведены в статье [Сочетания клавиш в Центре администрирования Exchange]( https://go.microsoft.com/fwlink/p/?LinkId=746512).
 
-- Сведения о совместимости см. в [списке Совместимость Skype для бизнеса с приложениями Office.](../../plan-your-deployment/clients-and-devices/compatibility-with-office.md)
+- Сведения о совместимости см. в [Skype для бизнеса совместимости с Office приложениями.](../../plan-your-deployment/clients-and-devices/compatibility-with-office.md)
 
 ## <a name="configure-integration-between-exchange-server-and-o365"></a>Настройка интеграции между Exchange Server и O365
 
@@ -45,11 +45,11 @@ ms.locfileid: "51109715"
 
 [Настройка проверки подлинности OAuth между организациями Exchange и Exchange Online](/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)
 
-### <a name="step-2-create-a-new-mail-user-account-for-the-skype-for-business-online-partner-application"></a>Шаг 2. Создание новой учетной записи пользователя почты для партнерского приложения Skype для бизнеса в Интернете
+### <a name="step-2-create-a-new-mail-user-account-for-the-skype-for-business-online-partner-application"></a>Шаг 2. Создание новой учетной записи пользователя почты для Skype для бизнеса партнерского приложения
 
-Этот шаг делается на сервере Exchange. Он создаст пользователя почты и назначит ему соответствующие права на роль управления. Затем эта учетная запись будет использоваться на следующем шаге.
+Этот шаг делается на Exchange сервере. Он создаст пользователя почты и назначит ему соответствующие права на роль управления. Затем эта учетная запись будет использоваться на следующем шаге.
 
-Укажите проверенный домен для организации Exchange. Этот домен должен быть тем же доменом, который используется в качестве основного домена SMTP, используемого для учетных записей Exchange на локальной основе. Этот домен называется в \<your Verified Domain\> следующей процедуре. Кроме того, \<DomainControllerFQDN\> должен быть FQDN контроллера домена.
+Укажите проверенный домен для Exchange организации. Этот домен должен быть тем же доменом, который используется в качестве основного домена SMTP, используемого для Exchange учетных записей. Этот домен называется в \<your Verified Domain\> следующей процедуре. Кроме того, \<DomainControllerFQDN\> должен быть FQDN контроллера домена.
 
 ```powershell
 $user = New-MailUser -Name SfBOnline-ApplicationAccount -ExternalEmailAddress SfBOnline-ApplicationAccount@<your Verified Domain> -DomainController <DomainControllerFQDN>
@@ -81,7 +81,7 @@ New-PartnerApplication -Name SfBOnline -ApplicationIdentifier 00000004-0000-0ff1
 
 ### <a name="step-4-export-the-on-premises-authorization-certificate"></a>Шаг 4. Экспорт локального сертификата авторизации
 
-Запустите скрипт PowerShell для экспорта локального сертификата авторизации, который будет импортироваться в организацию Skype для бизнеса Online на следующем шаге.
+Запустите сценарий PowerShell для экспорта локального сертификата авторизации, который будет импортироваться в организацию Skype для бизнеса Online на следующем шаге.
 
 Сохраните следующий текст в файл сценария PowerShell с именем ExportAuthCert.ps1.
 
@@ -101,9 +101,9 @@ $CertFile = "$env:SYSTEMDRIVE\OAuthConfig\OAuthCert.cer"
 
 В Exchange PowerShell в локальной организации Exchange запустите только что созданный скрипт PowerShell. Например: .\ExportAuthCert.ps1
 
-### <a name="step-5-upload-the-on-premises-authorization-certificate-to-azure-active-directory-acs"></a>Шаг 5. Отправка локального сертификата авторизации в службу ACS Azure Active Directory
+### <a name="step-5-upload-the-on-premises-authorization-certificate-to-azure-active-directory-acs"></a>Шаг 5. Upload локального сертификата авторизации для Azure Active Directory ACS
 
-Затем используйте Windows PowerShell для отправки локального сертификата авторизации, экспортируемого на предыдущем этапе, в Службы управления доступом к Azure Active Directory (ACS). Для этого необходимо установить модуль Azure Active Directory для Windows PowerShell командлетов. Если он не установлен, перейдите на страницу [https://aka.ms/aadposh](/previous-versions/azure/jj151815(v=azure.100)), чтобы установить Модуль Azure Active Directory для Windows PowerShell. После установки Модуль Azure Active Directory для Windows PowerShell выполните следующие действия.
+Затем используйте Windows PowerShell для отправки локального сертификата авторизации, экспортируемого на предыдущем этапе, Azure Active Directory службы управления доступом (ACS). Для этого необходимо установить Azure Active Directory для Windows PowerShell командлетов. Если он не установлен, перейдите на страницу [https://aka.ms/aadposh](/previous-versions/azure/jj151815(v=azure.100)), чтобы установить Модуль Azure Active Directory для Windows PowerShell. После установки Модуль Azure Active Directory для Windows PowerShell выполните следующие действия.
 
 1. Щелкните ярлык **Модуль Azure Active Directory для Windows PowerShell**, чтобы открыть рабочее пространство Windows PowerShell с установленными командлетами Azure AD. Все команды на этом этапе выполняются с помощью Windows PowerShell для консоли Azure Active Directory.
 
@@ -128,30 +128,30 @@ $CertFile = "$env:SYSTEMDRIVE\OAuthConfig\OAuthCert.cer"
 
 4. После запуска сценария откроется диалоговое окно учетных данных. Введите учетные данные учетной записи администратора клиента в организации Microsoft Online Azure AD. После выполнения сценария оставьте сеанс Windows PowerShell для Azure AD открытым. Он понадобится для запуска сценария PowerShell на следующем этапе.
 
-### <a name="step-6-verify-that-the-certificate-has-uploaded-to-the-skype-for-business-service-principal"></a>Шаг 6. Проверка загрузки сертификата в главную службу Skype для бизнеса
-1. В powerShell, открываемой и проверке подлинности в Azure Active Directory, запустите следующее
+### <a name="step-6-verify-that-the-certificate-has-uploaded-to-the-skype-for-business-service-principal"></a>Шаг 6. Убедитесь, что сертификат был загружен в Skype для бизнеса службы
+1. В powerShell, открываемой и Azure Active Directory проверке подлинности, запустите следующие
 ```powershell
 Get-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-000000000000
 ```
 2. Нажмите кнопку Ввод при запросе returnKeyValues
-3. Подтвердите, что вы видите ключ, указанный с датами начала и конечными данными, которые совпадают с датами начала и окончания сертификата Exchange Oauth
+3. Подтвердите, что вы видите ключ, указанный с датами начала и конечными данными, которые совпадают с датами начала и окончания Exchange Oauth
 
 ### <a name="verify-your-success"></a>Проверка успеха
 
 Убедитесь, что конфигурация является правильной, проверив успешное работу некоторых функций. 
 
-1. Подтвердим, что пользователи Skype для бизнеса со службой облачной голосовой почты в организации с гибридной конфигурацией Exchange Server могут успешно изменять приветствия голосовой почты.
+1. Подтвердим, Skype для бизнеса пользователи с облачная голосовая почта службой в организации с гибридной конфигурацией Exchange Server могут успешно изменять приветствия голосовой почты.
 
-2. Подтверждение истории бесед для мобильных клиентов отображается в папке История бесед Outlook.
+2. Подтверждение истории бесед для мобильных клиентов отображается в папке Outlook истории бесед.
 
 3. Подтверждение того, что архивные сообщения чата вложены в локальном почтовом ящике пользователя в папке Purges с помощью [EWSEditor.](/archive/blogs/webdav_101/where-to-get-ewseditor)
 
-Поочередно посмотрите на трафик. Трафик в рукопожатии OAuth действительно отличается (и не похож на базовую проверку подлинности), особенно вокруг областей, где вы увидите трафик эмитента, который выглядит так: 000000004-0000-0ff1-ce00-00000000000000@ (иногда с / перед знаком @) в маркерах, которые передаются. Вы не увидите имя пользователя или пароль, который является точкой OAuth. Но вы увидите, что эмитент "Office" — в данном случае "4" — это Skype для бизнеса, и область подписки.
+Поочередно посмотрите на трафик. Трафик в рукопожатии OAuth действительно отличается (и не похож на базовую проверку подлинности), особенно вокруг областей, где вы увидите трафик эмитента, который выглядит так: 000000004-0000-0ff1-ce00-00000000000000@ (иногда с / перед знаком @) в маркерах, которые передаются. Вы не увидите имя пользователя или пароль, который является точкой OAuth. Но вы увидите эмитент "Office" ( в данном случае Skype для бизнеса 4) и область подписки.
 
 Если вы хотите убедиться, что вы успешно используете OAuth, убедитесь, что вы знаете, чего ожидать, и знаете, как должен выглядеть трафик. Вот что можно [ожидать,](https://tools.ietf.org/html/draft-ietf-oauth-v2-23#page-34)вот довольно стандартный пример трафика [OAuth](https://download.microsoft.com/download/8/5/8/858F2155-D48D-4C68-9205-29460FD7698F/[MS-SPS2SAUTH].pdf)  в приложении Майкрософт (действительно полезно читать, хотя он не использует маркеры обновления), и есть расширения Fiddler, которые позволит вам заглянуть в OAuth JWT (JSON Web Token).
 
 Вот пример [настройки,](/archive/blogs/kaevans/updated-fiddler-oauth-inspector)но вы можете использовать любой сетевой инструмент отслеживания, который вам нравится для этого процесса.
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Похожие темы
 
 [Настройка проверки подлинности OAuth между организациями Exchange и Exchange Online](/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)

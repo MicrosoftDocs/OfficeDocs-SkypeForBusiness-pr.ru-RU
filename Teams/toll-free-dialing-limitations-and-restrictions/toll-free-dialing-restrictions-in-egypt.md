@@ -23,13 +23,13 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: Узнайте о наборе бесплатных номеров в Египет, в том числе о доступности, доступности проводных и фиксированных телефонных номеров, а также ограничениях для мобильной сети.
-ms.openlocfilehash: a324691f3dbda9c594afceea726dd25a08613bb6
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Узнайте о наборе бесплатных номеров в Египет, в том числе о доступности, доступности проводной или фиксированной связи, доступности мобильной сети и ограничениях.
+ms.openlocfilehash: 52cb32676c604f76af3128042689faee8a1701760efba97025b11c121161d3ba
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098145"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54323811"
 ---
 # <a name="toll-free-dialing-restrictions-in-egypt"></a>Ограничения набора бесплатных номеров в Египте
 

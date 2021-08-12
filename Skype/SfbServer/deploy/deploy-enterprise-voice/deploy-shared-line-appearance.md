@@ -1,5 +1,5 @@
 ---
-title: Развертывание общих строк в Skype для бизнеса Server 2015
+title: Развертывание общих строк в Skype для бизнеса Server 2015 г.
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -16,29 +16,29 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 474a5e4a-9479-4e86-8607-b9f41a0fa648
-description: Ознакомьтесь с этой темой, чтобы узнать о развертывании общего внешнего вида (SLA) в Skype для бизнеса Server 2015, ноябрь 2015 г. Накопительное обновление. SLA — это функция для обработки нескольких вызовов на определенном номере, называемом общим номером.
-ms.openlocfilehash: 7758354b7c4be123cb9b5a482af3304b069931a8
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Ознакомьтесь с этой темой, чтобы узнать, как развернуть общий внешний вид (SLA) в Skype для бизнеса Server 2015 г., ноябрь 2015 г. Накопительное обновление. SLA — это функция для обработки нескольких вызовов на определенном номере, называемом общим номером.
+ms.openlocfilehash: de0b0d54fed0b76c1e20b67b743dfef2c4f784589b2eb3867529201493242e32
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51104915"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54314915"
 ---
-# <a name="deploy-shared-line-appearance-in-skype-for-business-server-2015"></a>Развертывание общих строк в Skype для бизнеса Server 2015
+# <a name="deploy-shared-line-appearance-in-skype-for-business-server-2015"></a>Развертывание общих строк в Skype для бизнеса Server 2015 г.
 
-Ознакомьтесь с этой темой, чтобы узнать о развертывании общего внешнего вида (SLA) в Skype для бизнеса Server 2015, ноябрь 2015 г. Накопительное обновление. SLA — это функция для обработки нескольких вызовов на определенном номере, называемом общим номером.
+Ознакомьтесь с этой темой, чтобы узнать, как развернуть общий внешний вид (SLA) в Skype для бизнеса Server 2015 г., ноябрь 2015 г. Накопительное обновление. SLA — это функция для обработки нескольких вызовов на определенном номере, называемом общим номером.
 
-Дополнительные сведения об этой функции см. в раздел [Plan for Shared Line Appearance in Skype for Business Server 2015.](../../plan-your-deployment/enterprise-voice-solution/shared-line-appearance.md)
+Дополнительные сведения об этой функции см. в раздел [Plan for Shared Line Appearance in Skype для бизнеса Server 2015.](../../plan-your-deployment/enterprise-voice-solution/shared-line-appearance.md)
 
-Общий внешний вид строки (SLA) — это новая функция в Skype для бизнеса Server, накопительное обновление за ноябрь 2015 г. Чтобы включить эту функцию, необходимо сначала развернуть это накопительное обновление.
+Общий внешний вид строки (SLA) — это новая функция в Skype для бизнеса Server, ноябрь 2015 г. Накопительное обновление. Чтобы включить эту функцию, необходимо сначала развернуть это накопительное обновление.
 
 ### <a name="install-shared-line-appearance"></a>Установка общего внешнего вида строки
 
-1. После развертывания Skype для бизнеса Server в ноябре 2015 г. будет развернуто накопительное обновление, запустите исправление на каждом переднем сервере в  `SkypeServerUpdateInstaller.exe` пуле.
+1. После Skype для бизнеса Server ноября 2015 года развертывание накопительного обновления запустите исправление на каждом переднем сервере `SkypeServerUpdateInstaller.exe` пула.
 
 2. Установщик развернет последнюю версию приложения SLA, однако по умолчанию приложение не включено. Она включена, следуя описанным ниже шагам:
 
-    а) Зарегистрируйте SLA в качестве серверного приложения, задав следующую команду для каждого пула:
+    А. Зарегистрируйте SLA в качестве серверного приложения, задав следующую команду для каждого пула:
 
    ```powershell
    New-CsServerApplication -Identity 'Service:Registrar:%FQDN%/SharedLineAppearance' -Uri   http://www.microsoft.com/LCS/SharedLineAppearance -Critical $false -Enabled $true -Priority (Get-CsServerApplication -Identity  'Service:Registrar:%FQDN%/UserServices').Priority
@@ -46,13 +46,13 @@ ms.locfileid: "51104915"
 
    где %FQDN% — это полностью квалифицированное доменное имя пула.
 
-    б) Запустите следующую команду, чтобы обновить роли RBAC для командлетов SLA:
+    Б. Запустите следующую команду, чтобы обновить роли RBAC для командлетов SLA:
 
    ```powershell
    Update-CsAdminRole
    ```
 
-    в. Перезапустите все серверы переднего конца (служба RTCSRV) во всех пулах, где была установлена и включена SLA:
+    c. Перезапустите все серверы переднего конца (служба RTCSRV) во всех пулах, где была установлена и включена SLA:
 
    ```powershell
    Stop-CsWindowsService RTCSRV Start-CsWindowsService RTCSRV
@@ -66,9 +66,9 @@ ms.locfileid: "51104915"
    Set-CsSlaConfiguration -Identity <IdentityOfGroup> -MaxNumberOfCalls <Number> -BusyOption <BusyOnBusy|Voicemail|Forward> [-Target <TargetUserOrPhoneNumber>]
    ```
 
-    В Set-CsSlaConfiguration кодлета Корпоративная голосовая связь SLAGroup1 в качестве объекта SLA, а число SLAGroup1 становится номером для группы SLA. Все вызовы в SLAGroup1 обзывают всю группу SLA.
+    В Set-CsSlaConfiguration см. в Корпоративная голосовая связь учетной записи SLAGroup1 как объекта SLA, а число SLAGroup1 становится номером для группы SLA. Все вызовы в SLAGroup1 обзывают всю группу SLA.
 
-    В следующем примере создается группа SLA для существующего Корпоративная голосовая связь, SLAGroup1, и в качестве основного номера SLAGroup1 используется номер SLAGroup1.
+    В следующем примере создается группа SLA для существующего Корпоративная голосовая связь, SLAGroup1, и используется номер, назначенный для SLAGroup1 в качестве основного номера SLA.
 
     Команда задает максимальное количество одновременного вызова для новой группы SLA до 3, а для вызовов, превышает это, чтобы услышать сигнал загруженного:
 
@@ -79,7 +79,7 @@ ms.locfileid: "51104915"
     Вы можете Set-CsSlaConfiguration создать новую группу SLA или изменить существующую.
 
     > [!NOTE]
-    > Обратите внимание, что указанная вами учетная запись должна быть действительной Корпоративная голосовая связь  `-Identity` учетной записью пользователя с включенной поддержкой.
+    > Обратите внимание, что указанная вами учетная запись должна быть действительной Корпоративная голосовая связь `-Identity` учетной записи пользователя с включенной поддержкой.
 
 2. Добавление делегатов в группу с помощью [cmdlet Add-CsSlaDelegates:](/powershell/module/skype/add-cssladelegates?view=skype-ps)
 
@@ -132,7 +132,7 @@ ms.locfileid: "51104915"
   Remove-CsSlaDelegates -Identity <IdentityOfGroup> -Delegate <NameOfDelegate@domain>
   ```
 
-    Например:
+    Например,
 
   ```powershell
   Remove-CsSlaDelegates -Identity SLAGroup1 -Delegate sip:SLA_Delegate3@contoso.com

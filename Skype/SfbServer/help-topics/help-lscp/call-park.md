@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b752617d-554d-470e-b17b-387403ac74ed
 description: Когда вызов припаркован, он передается на временный номер, где вызов проводится до тех пор, пока кто-то не извлекает его или не разовьется. Вам необходимо настроить таблицу с диапазонами номеров расширения, которые вы reserving для припаркованных вызовов. Эти добавочные номера должны быть виртуальными (то есть не иметь назначенного пользователя или назначенный телефон). Каждый пул, который запускает приложение Call Park, может иметь один или несколько диапазонов расширений. Эти диапазоны должны быть уникальными в рамках всего развертывания.
-ms.openlocfilehash: 30e0493c065c8bcd16b8d18a625c2650522ee8ee
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 025dc470a31fef85f28df9fed5ec611880547d609e461eb7a6ce485b7ffb646e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095403"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54334221"
 ---
 # <a name="call-park"></a>Парковка вызовов
 
@@ -58,4 +58,4 @@ ms.locfileid: "51095403"
 
 - **Назначение** Полное доменное имя (FQDN) или номер службы службы приложений, в котором размещено приложение Call Park для диапазона номеров.
 
-Подробные сведения о возможностях и возможностях Call Park см. в материале [Plan for Call Park in Skype for Business 2015.](../../plan-your-deployment/enterprise-voice-solution/call-park.md) Сведения о работе с диапазонами номеров Call Park см. в материале [Configure Phone Number Extensions for Parking Calls.](/previous-versions/office/lync-server-2013/lync-server-2013-configure-phone-number-extensions-for-parking-calls)
+Сведения о возможностях и возможностях Call Park см. в материале [Plan for Call Park в Skype для бизнеса 2015 г.](../../plan-your-deployment/enterprise-voice-solution/call-park.md) Сведения о работе с диапазонами номеров Call Park см. в Телефон расширения номеров [для звонков о парковке.](/previous-versions/office/lync-server-2013/lync-server-2013-configure-phone-number-extensions-for-parking-calls)

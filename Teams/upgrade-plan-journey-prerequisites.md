@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: Используйте это руководство, чтобы узнать о предварительных и зависимостей среды для Teams организации.
+description: Воспользуйтесь этим руководством, чтобы узнать о предварительных и зависимостей среды для Teams организации.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -18,25 +18,25 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e9924c24f19da3cf17f8e8a124a03acc294c24b4
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: 66a0bdeac2830fc6a3ebe9f5eae2f382187f384538f2d57c9cf27b56fbdd651a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282166"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54323751"
 ---
 # <a name="prerequisites-and-environmental-dependencies-for-teams"></a>Предварительные условия и зависимости от среды для Teams
 
 ![Схема пути обновления с акцентом на этапе технической готовности](media/upgrade-banner-tech-readiness.png "Этапы пути обновления с акцентом на этапе технической готовности")
 
-Эта статья является частью этапа технической готовности, которое вы завершаете параллельно со этапом подготовки пользователей. Прежде чем при этом подтверждать, что вы выполнили эти действия на предыдущих этапах:
+Эта статья является частью этапа технической готовности, которое вы завершаете параллельно с этапом подготовки пользователей. Прежде чем при этом подтверждать, что вы выполнили эти действия на предыдущих этапах:
 
 - [Привлечение заинтересованных лиц по проекту](upgrade-enlist-stakeholders.md)
 - [Определение области проекта](./upgrade-define-project-scope.md)
 - [Понятное сосуществование и совместное Skype для бизнеса и Teams](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 - [Выбор пути обновления](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
-Teams объединяют несколько Microsoft 365 и Office 365 служб, поэтому они зависят от правильной реализации и работы этих служб. Эти службы включают в себя ( но не ограничиваются) SharePoint Online, Exchange Online и OneDrive для бизнеса.
+Teams объединяют несколько Microsoft 365 и Office 365 служб, поэтому они зависят от правильной реализации и работы этих служб. К таким службам относятся, но не только, SharePoint Online, Exchange Online и OneDrive для бизнеса.
 
 Хотя не все службы требуются, настоятельно рекомендуем внедрить все из них. Если вы решите не внедрять определенные службы, это повлияет на функции, Teams могут предложить вашей организации. Например, если вам не нужно внедрять SharePoint Online, Teams в SharePoint Online есть определенные функции, такие как общий доступ к файлам в групповых беседах, поэтому не внедрение этой службы уменьшит функциональные возможности, предлагаемые клиентом.
 
@@ -52,7 +52,7 @@ Teams объединяют несколько Microsoft 365 и Office 365 слу
 
 - Если в вашей организации нет SharePoint Online, см. статью [Взаимодействие SharePoint Online и OneDrive для бизнеса с Microsoft Teams](SharePoint-OneDrive-interact.md).
 
-- Чтобы узнать, как [Microsoft 365 групп и Microsoft Teams взаимодействие.](Office-365-groups.md)
+- Чтобы узнать, как [Microsoft 365 группы и Microsoft Teams взаимодействие.](Office-365-groups.md)
 
 - Если ваша организация является учебным заведением и вы используете систему сведений об учащихся, см. статью Добро пожаловать в [Microsoft Синхронизация сведений о школе](/schooldatasync) перед развертыванием Microsoft Teams.
 

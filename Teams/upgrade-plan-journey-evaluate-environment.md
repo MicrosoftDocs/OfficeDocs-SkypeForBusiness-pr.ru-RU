@@ -18,25 +18,25 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aeb236edddea69c1c112b695c9323de19da46092
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: 57bf9c10638fa9d037927eb38e604ab75a17ee1f989f5114b4e1c27606b71cfe
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282206"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54323761"
 ---
 # <a name="evaluate-your-environment-before-upgrading-to-teams"></a>Оценка среды перед обновлением до Teams
 
 ![Схема пути обновления с акцентом на этапе технической готовности](media/upgrade-banner-tech-readiness.png "Этапы пути обновления с акцентом на этапе технической готовности")
 
-Эта статья является частью этапа технической готовности, которое вы завершаете параллельно с этапом подготовки пользователей. Прежде чем при этом подтверждать, что вы выполнили эти действия на предыдущих этапах:
+Эта статья является частью этапа технической готовности, которое вы завершаете параллельно со этапом подготовки пользователей. Прежде чем при этом подтверждать, что вы выполнили эти действия на предыдущих этапах:
 
 - [Привлечение заинтересованных лиц по проекту](upgrade-enlist-stakeholders.md)
 - [Определение области проекта](./upgrade-define-project-scope.md)
 - [Понятное сосуществование и совместное Skype для бизнеса и Teams](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 - [Выбор пути обновления](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
-В этой статье представлен обзор требований для правильной оценки текущей среды для Teams. Оценивая свою среду, вы определяете риски и требования, которые влияют на общее развертывание. Заранее определяя эти элементы, вы можете скорректировать свое планирование, чтобы добиться успеха.
+В этой статье приводится обзор требований для правильной оценки текущей среды для Teams. Оценивая свою среду, вы определяете риски и требования, которые влияют на общее развертывание. Заранее определяя эти элементы, вы можете скорректировать планирование, чтобы добиться успеха.
 
 ## <a name="introduction-to-the-discovery-questionnaire"></a>Введение в анкету обнаружения
 
@@ -60,13 +60,13 @@ ms.locfileid: "52282206"
 > Для начала скопируйте анкету в Microsoft Word документ. Попробуйте ответить на все вопросы и зафиксировать все сведения по мере перемещения.
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting a decision point"/> <br/>Точка принятия решений</td><td><ul><li>Кто отвечаете за выполнение оценки среды?</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting a decision point"/> <br/>Точка принятия решений</td><td><ul><li>Кто отвечаете за оценку среды?</li></ul></td></tr>
 <tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next step"/><br/>Следующее действие</td><td><ul><li>Документировать результаты оценки среды.</li></ul></td></tr>
 </table>
 
 
-## <a name="project-team"></a>Project группы
+## <a name="project-team"></a>Project команды
 
 Убедитесь, что вы вовлечены в проект нужных людей. Проверьте действия, которые вы выполнили, в области [Привлечение заинтересованных лиц к проекту.](upgrade-enlist-stakeholders.md)
 
-Оценив среду, перетесь к следующему шагу: [Подготовка службы.](upgrade-prepare-environment-prepare-service.md)
+Оценив среду, пере переходите к следующему шагу: [Подготовка службы.](upgrade-prepare-environment-prepare-service.md)

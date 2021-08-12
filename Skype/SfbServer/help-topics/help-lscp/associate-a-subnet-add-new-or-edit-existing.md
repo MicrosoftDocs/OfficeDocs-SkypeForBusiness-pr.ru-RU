@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e08a6a2d-1f88-4a84-b6e5-b84dcded4a86
 description: Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
-ms.openlocfilehash: 96fd5dbca91fc6f03c45dba74ddc841f6f1c9b05
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 3bc66ba79680e70706b04075663acecf0f1024413519aba99558c44c9475c030
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119978"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54334241"
 ---
 # <a name="associate-a-subnet-add-new-or-edit-existing"></a>Связывание подсети: добавление новой или редактирование существующей
 
@@ -28,4 +28,4 @@ ms.locfileid: "51119978"
 
 - [Настройка сетевых подсетей](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-network-subnets)
 
-Сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнес-серверов, см. в материале Управление Skype для бизнеса [Server 2015.](../../manage/manage.md)
+Сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнеса Server, см. в Skype для бизнеса Server [2015](../../manage/manage.md)г.

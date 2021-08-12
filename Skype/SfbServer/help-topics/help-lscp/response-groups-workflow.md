@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e4ee8abb-e1e5-413c-919d-cd3fb7193840
 description: Группы ответа состоят из агентов, очередей и рабочих процессов. В рабочего процессах группы реагирования определяются действия, которые принимаются, когда приложение Группы отклика получает телефонный звонок.
-ms.openlocfilehash: d5ab0f197817a5905df54e236db10a3d526685bd
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 56c0f111cde8d2fbfdd1c704310a7804e0998294da6449303e2e5025c4572527
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122533"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54333841"
 ---
 # <a name="response-groups-workflow"></a>Рабочий процесс групп ответа
 
@@ -60,4 +60,4 @@ ms.locfileid: "51122533"
 
 - **Включено** Указывает, активируется ли рабочий процесс для получения вызовов.
 
-Подробные сведения о возможностях и возможностях группы реагирования см. в документе [Plan for the Response Group application in Skype for Business Server 2015.](../../plan-your-deployment/enterprise-voice-solution/response-group.md) Подробные сведения о работе с рабочими процессами группы реагирования см. в документе ["Управление](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-workflows) рабочими процессами группы реагирования".
+Сведения о возможностях и возможностях группы реагирования см. в приложении [Plan for the Response Group в Skype для бизнеса Server 2015](../../plan-your-deployment/enterprise-voice-solution/response-group.md) г. в документации по планированию. Подробные сведения о работе с рабочими процессами группы реагирования см. в документе ["Управление](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-workflows) рабочими процессами группы реагирования".

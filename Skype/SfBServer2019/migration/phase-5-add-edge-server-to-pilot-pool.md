@@ -1,5 +1,5 @@
 ---
-title: Этап 5. Добавление skype для бизнеса Server 2019 Edge Server в пилотный пул
+title: Этап 5 Добавление Skype для бизнеса Server 2019 edge Server в пилотный пул
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -10,19 +10,19 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: В темах этого раздела объясняется, как добавить skype для бизнеса Server 2019 Edge Server в развертывание пилотного пула. В разделы включены рекомендации по конфигурированию и проверке, доступные при использовании мастера развертывания нового пограничного пула.
-ms.openlocfilehash: adcbe7ef5c999328879d395f0e5439fa952cfda0
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+description: В разделах рассказывается, как добавить Skype для бизнеса Server 2019 edge Server в развертывание пилотного пула. В разделы включены рекомендации по конфигурированию и проверке, доступные при использовании мастера развертывания нового пограничного пула.
+ms.openlocfilehash: a646b5400c9448349eacb06da67001c9d2ed4e1e0d7716ad83d74e29deb5bfb7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44752311"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54315065"
 ---
-# <a name="phase-5-add-skype-for-business-server-2019-edge-server-to-pilot-pool"></a>Этап 5. Добавление skype для бизнеса Server 2019 Edge Server в пилотный пул
+# <a name="phase-5-add-skype-for-business-server-2019-edge-server-to-pilot-pool"></a>Этап 5. Добавление Skype для бизнеса Server 2019 edge Server в пилотный пул
 
-В темах этого раздела объясняется, как добавить skype для бизнеса Server 2019 Edge Server в развертывание пилотного пула. В разделы включены рекомендации по конфигурированию и проверке, доступные при использовании мастера развертывания нового пограничного пула. 
+В разделах рассказывается, как добавить Skype для бизнеса Server 2019 edge Server в развертывание пилотного пула. В разделы включены рекомендации по конфигурированию и проверке, доступные при использовании мастера развертывания нового пограничного пула. 
   
-## <a name="in-this-section"></a>В этом разделе:
+## <a name="in-this-section"></a>Содержание
 
 - [Развертывание пилотного пограничного сервера](deploy-pilot-edge-server.md)
     

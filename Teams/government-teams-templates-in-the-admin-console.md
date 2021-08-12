@@ -11,7 +11,7 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 search.appverid: MET150
-description: Узнайте, как с помощью шаблонов групп создавать структуры групп, разработанные для государственных нужд, предоставляя предопределять параметры, каналы и предварительно установленные приложения с помощью Центра администрирования.
+description: Узнайте, как с помощью шаблонов групп создавать структуры групп, разработанные для государственных нужд, предоставляя предопределяйте параметры, каналы и предварительно установленные приложения с помощью Центра администрирования.
 f1.keywords:
 - CSH
 ms.custom:
@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ff975fc80c0b08136fa18d2b7c31cd100e405911
-ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
+ms.openlocfilehash: b915daab744bd764a9ac9e1d0be000357a051a2719e9e544bfff8b5a5c26e5a6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52684536"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54315255"
 ---
 # <a name="use-government-team-templates-in-the-admin-center"></a>Использование шаблонов для государственных групп в Центре администрирования
 

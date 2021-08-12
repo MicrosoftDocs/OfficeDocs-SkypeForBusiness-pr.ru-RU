@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 216abec2-d354-4ee3-9999-0a6b350a4a5f
-description: Этот Convert-CcIsoToVhdx создает файл базового виртуального жесткого диска (VHDX) с помощью предоставленного клиентом ISO-файла Windows Server 2012 R2. VHDX-файл будет использоваться во время развертывания Skype для бизнеса Cloud Connector Edition.
-ms.openlocfilehash: f6b16c27b82919f24b9ee0e3094fb03fffa6443b
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Этот Convert-CcIsoToVhdx создает базовый виртуальный жесткий дисковый файл (VHDX) с помощью клиентского Windows Server 2012 R2 ISO. Файл VHDX будет использоваться во время развертывания Skype для бизнеса Cloud Connector Edition.
+ms.openlocfilehash: d168155c918ba1e8a3a576e543eed6693d0fb6faa5bd4fc23efd8c95b2b50fa1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41802429"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54349551"
 ---
 # <a name="convert-ccisotovhdx"></a>Convert-CcIsoToVhdx
  
-Этот Convert-CcIsoToVhdx создает файл базового виртуального жесткого диска (VHDX) с помощью предоставленного клиентом ISO-файла Windows Server 2012 R2. VHDX-файл будет использоваться во время развертывания Skype для бизнеса Cloud Connector Edition.
+Этот Convert-CcIsoToVhdx создает базовый виртуальный жесткий дисковый файл (VHDX) с помощью клиентского Windows Server 2012 R2 ISO. Файл VHDX будет использоваться во время развертывания Skype для бизнеса Cloud Connector Edition.
   
 ```powershell
 Convert-CcIsoToVhdx [[-IsoFilePath] <string>] [-GeneralizeOnly] [-PauseBeforeUpdate]
@@ -32,32 +32,32 @@ Convert-CcIsoToVhdx [[-IsoFilePath] <string>] [-GeneralizeOnly] [-PauseBeforeUpd
 
 |**Параметр**|**Required**|**Тип**|**Описание**|
 |:-----|:-----|:-----|:-----|
-|IsoFilePath  <br/> | Обязательный <br/> |System.String  <br/> | Путь к ISO-файлу Windows Server 2012 R2. <br/> |
-|GeneralizeOnly  <br/> |Необязательный  <br/> |System.Management.Automation.SwitchParameter  <br/> |Если во время обновления Windows процесс преобразования не удается, можно попытаться настроить сеть или прокси-сервер и обновить Windows вручную. После выполнения ручной работы можно запустить этот cmdlet с параметром -GeneralizeOnly и выполнить оставшиеся задания.  <br/> |
-|PauseBeforeUpdate  <br/> |Необязательный  <br/> |System.Management.Automation.SwitchParameter  <br/> |Для обновления Windows может потребоваться ручная настройка сети или прокси-сервера на базовой ВМ. Если этот параметр задан, процесс преобразования будет приостановлен до обновления Windows. После настройки вручную можно возобновить процесс.  <br/> |
+|IsoFilePath  <br/> | Обязательный <br/> |System.String  <br/> | Путь к файлу ISO Windows Server 2012 R2. <br/> |
+|GeneralizeOnly  <br/> |Необязательный  <br/> |System.Management.Automation.SwitchParameter  <br/> |Если процесс преобразования не удается во время Windows обновления, можно попытаться настроить сеть/прокси и обновить Windows вручную. После выполнения ручной работы можно запустить этот комлет с параметром -GeneralizeOnly и выполнить оставшиеся задания.  <br/> |
+|PauseBeforeUpdate  <br/> |Необязательный  <br/> |System.Management.Automation.SwitchParameter  <br/> |Чтобы обновить Windows, может потребоваться ручная конфигурация сети и прокси в базовом VM. Процесс преобразования будет приостановлен до Windows обновления, если этот параметр предоставлен. После того как ручная конфигурация будет сделана, вы можете возобновить процесс.  <br/> |
    
 ## <a name="examples"></a>Примеры
 <a name="Examples"> </a>
 
-### <a name="example-1"></a>Пример 1
+### <a name="example-1"></a>Пример 1
 
-В следующем примере базовый VHDX-файл подготавливается с помощью ISO-файла Windows Server 2012 R2, расположенного по адресу C:\Windows_Server_2012_R2-EN-US-x64.ISO: 
+В следующем примере базовый VHDX-файл подготавливается с помощью файла ISO Windows Server 2012 R2, расположенного в "C:\Windows_Server_2012_R2-RU-US-x64.ISO": 
   
 ```powershell
 Convert-CcIsoToVhdx -IsoFilePath "C:\Windows_Server_2012_R2-EN-US-x64.ISO" 
 ```
 
-### <a name="example-2"></a>Пример 2
+### <a name="example-2"></a>Пример 2
 
-Сбой Convert-CcIsoToVhdx во время обновления Windows может быть некорректной конфигурацией сети или прокси-сервера. Вы можете следовать инструкциям в сообщении об ошибке и войти на базовую виртуальную машину, чтобы устранить проблему и обновить Windows вручную. После выполнения работы вручную запустите его еще раз с параметром -GeneralizeOnly, чтобы завершить оставшиеся задания: 
+Если во время Convert-CcIsoToVhdx не удается Windows, это, вероятно, из-за неправильной конфигурации сети и прокси. Вы можете следовать инструкциям в сообщении об ошибке и войти в базовый виртуальный компьютер, чтобы устранить проблему и обновить Windows вручную. После выполнения ручной работы выполните этот список еще раз с параметром -GeneralizeOnly для выполнения оставшихся заданий: 
   
 ```powershell
 Convert-CcIsoToVhdx -IsoFilePath "C:\Windows_Server_2012_R2-EN-US-x64.ISO" -GeneralizeOnly
 ```
 
-### <a name="example-3"></a>Пример 3
+### <a name="example-3"></a>Пример 3
 
-Если для обновления Windows требуется ручная настройка, можно использовать параметр -PauseBeforeUpdate. С помощью этого параметра Cloud Connector будет приостановлен до обновления Windows. Затем можно выполнить настройку вручную и возобновить процесс преобразования следующим образом:
+Если для обновления Windows требуется ручная конфигурация, можно использовать параметр PauseBeforeUpdate. С помощью этого параметра облачный соединитатель приостанавливется перед Windows обновления. Затем можно выполнить ручную конфигурацию и возобновить процесс преобразования следующим образом:
   
 ```powershell
 Convert-CcIsoToVhdx -IsoFilePath "C:\Windows_Server_2012_R2-EN-US-x64.ISO" -PauseBeforeUpdate 
@@ -66,12 +66,12 @@ Convert-CcIsoToVhdx -IsoFilePath "C:\Windows_Server_2012_R2-EN-US-x64.ISO" -Paus
 ## <a name="detailed-description"></a>Подробное описание
 <a name="DetailedDescription"> </a>
 
-Сначала Convert-CcIsoToVhdx создается базовая VM, устанавливаются некоторые основные компоненты, от которых зависит Cloud Connector, а затем устанавливаются обновления Windows. Наконец, он обучает виртуальную машину (sysprep) для получения базового VHDX-файла, который будет использоваться виртуальными машинами устройства Cloud Connector. 
+Затем Convert-CcIsoToVhdx создает базовый VM, устанавливает некоторые базовые компоненты, от которых зависит облачный соединитель, а затем Windows обновления. Наконец, он обобъединит виртуальную машину (sysprep) для получения базового VHDX-файла, который будет использоваться виртуальными машинами устройства облачного соединителя. 
   
 ## <a name="input-types"></a>Типы входных данных
 <a name="InputTypes"> </a>
 
-Нет. Этот Convert-CcIsoToVhdx не принимает конвейерные входные данные. 
+Нет. В Convert-CcIsoToVhdx не принимается конвейерный ввод. 
   
 ## <a name="return-types"></a>Типы возвращаемых данных
 <a name="ReturnTypes"> </a>

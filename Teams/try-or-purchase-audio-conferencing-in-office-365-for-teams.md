@@ -23,13 +23,13 @@ ms.custom:
 - Audio Conferencing
 - ms.lync.lac.CpcGettingStarted
 - seo-marvel-mar2020
-description: 'Узнайте, как попробовать или приобрести лицензии на аудиоконференции (конференц-Microsoft 365) для Microsoft 365 или Office 365, чтобы настроить конференц-вызовы, к которые люди могут звонить по телефону. '
-ms.openlocfilehash: b4cf789289bc1f05e9e8bba79409f204112f288b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Узнайте, как попробовать или приобрести лицензии на аудиоконференции для Microsoft 365 или Office 365, чтобы настроить конференц-вызовы, к которые люди могут звонить по телефону. '
+ms.openlocfilehash: bcf67443b395e5951d9499124d360061c4ea9a21c130eef5e9efe4187caa7088
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116537"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54323771"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-microsoft-365-for-microsoft-teams"></a>Попробуйте или приобретйте аудиоконференцию в Microsoft 365 для Microsoft Teams
 
@@ -45,7 +45,7 @@ ms.locfileid: "51116537"
 
 ### <a name="to-buy-and-assign-user-audio-conferencing-licenses"></a>Покупка и назначение пользовательских лицензий на аудиоконференцию
 
-1. Узнайте, **доступна ли аудиоконференция** в вашей стране или регионе. [Страны и регионы, где](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)могут быть аудиоконференции и планы звонков.
+1. Узнайте, **доступна ли аудиоконференция** в вашей стране или регионе. [Доступность стран и регионов для аудиоконференций и планов звонков.](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
 2. Получите свою лицензию на **Аудиконференции**. Если Вы хотите:
 
@@ -91,7 +91,7 @@ ms.locfileid: "51116537"
 
 3. [Настройка языков](set-auto-attendant-languages-for-audio-conferencing-in-teams.md) автоответа для аудиоконференций, которые автоконферентарь аудиоконференции использует для приветения вызывающего звоняющего по номеру телефона аудиоконференции. Этот шаг необходим только в том случае, если Microsoft назначен в качестве поставщика аудиоконференции.
 
-4. [Установите длину ПИН-кода для собраний с аудиоконференцией.](set-the-pin-length-for-audio-conferencing-meetings-in-teams.md)
+4. [Установите длину ПИН-кода для собраний аудиоконференции.](set-the-pin-length-for-audio-conferencing-meetings-in-teams.md)
 
 > [!NOTE]
 > Эта функция еще не доступна пользователям Office 365 под управлением компании 21Vianet в Китае. Дополнительные сведения см. в разделе [Узнать больше о версии Office 365 под управлением компании 21Vianett](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE).
