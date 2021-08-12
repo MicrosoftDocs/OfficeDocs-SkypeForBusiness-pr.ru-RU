@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Ниже ются Microsoft 365 и Office 365 службы для Skype для бизнеса и Microsoft Teams для Японии.
-ms.openlocfilehash: 07163f6aa252bb0ec3e8976a8ed54bba914f4ae9
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 896759b447523efaca7cc67a90157cc1bb83e6b1d1b852c08c1159b2366b4e2c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122313"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54286018"
 ---
 # <a name="availability-in-japan"></a>Доступность в Японии
 
@@ -68,7 +68,7 @@ ms.locfileid: "51122313"
 > [!IMPORTANT]
 > Чтобы удалить номера пользователей (абонентов) в Японии (предоставлено SoftBank), обратитесь непосредственно в SoftBank.
 > Чтобы обновить адрес для экстренного обращения для номеров пользователей (абонентов) в Японии (предоставлено SoftBank), обратитесь непосредственно к SoftBank.
-> Дополнительные сведения см. в [этой Office 365.](https://aka.ms/SoftBankVoicePlan)
+> Дополнительные сведения см. в [этой](https://aka.ms/SoftBankVoicePlan)Office 365.
 
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Платные и бесплатные номера служб
 

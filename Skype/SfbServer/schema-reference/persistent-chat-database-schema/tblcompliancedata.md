@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 05b28f9b-4aba-4b69-ba8d-2ceeb6cbfaac
 description: tblComplianceData содержит события соответствия нормативным требованиям, которые еще не были обработаны адаптером соответствия.
-ms.openlocfilehash: e4ceda662b2f601660c144319a4231cebeea39ad
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 70929cd85499fb015489054d11e11d492fe00e145e7da32dbf7477deb5e7c60d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809859"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54284469"
 ---
 # <a name="tblcompliancedata"></a>tblComplianceData
  
@@ -38,7 +38,7 @@ tblComplianceData содержит события соответствия но�
 |cmplUserUri  <br/> |nvarchar (255), не NULL  <br/> |Универсальный код ресурса (URI) для пользователя.  <br/> |
 |cmplMessage  <br/> |nvarchar (max)  <br/> |Сообщение (кодировка зависит от cmplType).  <br/> |
    
-**Раздел**
+**Ключ**
 
 |**Столбец**|**Описание**|
 |:-----|:-----|

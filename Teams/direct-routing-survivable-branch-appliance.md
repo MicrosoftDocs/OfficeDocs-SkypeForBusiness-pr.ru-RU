@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6d6342f41b3cd4bfad690794c0b6474ca45e78c8
-ms.sourcegitcommit: bdd9901db1fc741aaec9c7ddcf5ee1caaca4d777
+ms.openlocfilehash: 3ee0e8e7da6410b26f9c4fc256a12c563f15e9bed1562823792bda73c1c29d70
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52589243"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54282672"
 ---
 # <a name="survivable-branch-appliance-sba-for-direct-routing"></a>Ветвное устройство (SBA) для прямой маршрутии
 
@@ -57,11 +57,11 @@ ms.locfileid: "52589243"
 
 ## <a name="how-it-works"></a>Принципы работы
 
-Во время сбоя в Teams клиент должен автоматически переключиться на SBA, а постоянные звонки должны продолжаться без прерываний. Пользователю не требуется никаких действий. Как только клиент Teams обнаружит подключение к Интернету и все исходяющие звонки будут завершены, клиент вернется в обычный режим работы и подключится к другим Teams службам. SBA загрузит собранные записи данных об звонках в облако, и история зовов будет обновлена, чтобы эта информация была доступна для проверки администратором клиента. 
+Во время сбоя в Интернете клиент должен Teams автоматически переключиться на SBA, а постоянные звонки должны продолжаться без прерываний. Пользователю не требуется никаких действий. Как только клиент Teams обнаружит подключение к Интернету и все исходяющие звонки будут завершены, клиент вернется в обычный режим работы и подключится к другим Teams службам. SBA загрузит собранные записи данных об звонках в облако, и история зовов обновится, чтобы эта информация была доступна для проверки администратором клиента. 
 
 Если клиент Microsoft Teams в автономном режиме, доступны следующие функции, связанные со звонками: 
 
-- Звонки по ННП через локальный SBA или SBC с потоком мультимедиа через SBC.
+- Звонки через ДНР через локальный SBA или SBC с потоком мультимедиа через SBC.
 
 - Прием звонков по ДНР через локальный SBA или SBC с потоком мультимедиа через SBC. 
 
@@ -170,7 +170,7 @@ C:\> Grant-CsTeamsSurvivableBranchAppliancePolicy -PolicyName $Null -Identity us
 
 - Имя может быть любым, что вы решаете.  
 - Поддерживаемые типы учетных записей = Учетная запись только в этом организационном каталоге. 
-- Uri перенаправления в Интернете = https://login.microsoftonline.com/common/oauth2/nativeclient .
+- Uri перенаправления веб-сайта = https://login.microsoftonline.com/common/oauth2/nativeclient .
 - Неявные маркеры предоставления = маркеры доступа и маркеры ИД. 
 - API permissions = Skype and Teams Tenant Admin Access -> Application permissions -> application_access_custom_sba_appliance.
 - Секрет клиента: вы можете использовать любое описание и срок действия. 
@@ -187,11 +187,11 @@ C:\> Grant-CsTeamsSurvivableBranchAppliancePolicy -PolicyName $Null -Identity us
 
 ## <a name="session-border-controller-configuration"></a>Настройка контроллера границы сеанса 
 
-Пошаговая инструкция по настройке геймпада границы сеанса с помощью внедренного ветвного устройства с возможностью ветвей с возможностью ветвей с возможностью ветвячих устройств см. в документации, предоставленной поставщиком SBC: 
+Пошаговую инструкцию по настройке геймпада границы сеанса с помощью внедренного ветвного устройства "Ветвь с возможностью ветви" см. в документации, предоставленной поставщиком SBC: 
 
 - [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-survivable-branch-appliances)
 
-- [Ленты](https://support.sonus.net/pages/viewpage.action?pageId=248644034)
+- [Лента](https://support.sonus.net/pages/viewpage.action?pageId=248644034)
 
 - [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html#Link-MicrosoftTeams) 
 
@@ -199,7 +199,7 @@ C:\> Grant-CsTeamsSurvivableBranchAppliancePolicy -PolicyName $Null -Identity us
 
 ## <a name="reporting-issues"></a>Отчеты о проблемах
 
-Сообщить о проблемах в организацию службы поддержки поставщика SBC. Сообщая о проблеме, указать, что у вас установлено устройство ветвной ветви с возможностью ветвей с
+Сообщить о проблемах в организацию службы поддержки поставщика SBC. При сообщении о проблеме указать, что у вас установлено устройство ветвной ветви с возможностью ветвей с
 
 ## <a name="known-issues"></a>Известные проблемы
 

@@ -1,5 +1,5 @@
 ---
-title: Параметры клиента (средство планирования)
+title: Клиентская Параметры (средство планирования)
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,14 +15,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0f0a866a-b85d-4fb6-843b-90bb3c977498
 ROBOTS: NOINDEX, NOFOLLOW
-description: Функция мобильности в Skype для бизнеса Server 25 поддерживает функции Skype для бизнеса на мобильных устройствах. Подробные сведения см. в материале Planning for Mobility.
-ms.openlocfilehash: c61a619f994f2cc835d658f40f4ce442d40250e4
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Функция мобильности Skype для бизнеса Server 25 поддерживает Skype для бизнеса на мобильных устройствах. Подробные сведения см. в материале Planning for Mobility.
+ms.openlocfilehash: 754cc06ede1b03affd2c4180ecc9a155ce6d6e522c65bda5b005e02f65dc91d0
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121749"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54285329"
 ---
-# <a name="client-settings-planning-tool"></a>Параметры клиента (средство планирования)
+# <a name="client-settings-planning-tool"></a>Клиентская Параметры (средство планирования)
 
-Функция мобильности в Skype для бизнеса Server поддерживает функции Skype для бизнеса на мобильных устройствах. Подробные сведения см. [в материале Planning for Mobility](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-mobility).
+Функция мобильности в Skype для бизнеса Server поддерживает Skype для бизнеса на мобильных устройствах. Подробные сведения см. [в материале Planning for Mobility](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-mobility).

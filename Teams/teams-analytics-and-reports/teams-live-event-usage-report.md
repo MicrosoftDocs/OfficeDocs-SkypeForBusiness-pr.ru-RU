@@ -17,16 +17,16 @@ description: Узнайте, как с помощью Teams использова
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 971e9bc846ad1a7134c1877a1716fc535ae65e4d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 5953951400fbb1e888aec4c3c3e003aa5312a1b96abe13050a049d758c9902eb
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809289"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54285648"
 ---
 # <a name="microsoft-teams-live-event-usage-report"></a>Microsoft Teams отчет об использовании трансляций
 
-В Teams использования трансляций в Центре администрирования Microsoft Teams вы можете получить обзор действий для трансляций, которые проводятся в вашей организации. Для каждого события можно просмотреть сведения об использовании, включая состояние события, время начала, представления и тип продукции. Вы можете получить представление о тенденциях использования и посмотреть, кто в вашей организации будет планировать, представлять и создавать трансляции.
+В Teams использования трансляций в Центре администрирования Microsoft Teams вы можете получить обзор действий с трансляций, которые проводятся в вашей организации. Для каждого события можно просмотреть сведения об использовании, включая состояние события, время начала, представления и тип продукции. Вы можете получить представление о тенденциях использования и посмотреть, кто в вашей организации будет планировать, представлять и создавать трансляции.
 
 ## <a name="view-the-live-event-usage-report"></a>Просмотр отчета об использовании трансляций
 
@@ -35,7 +35,7 @@ ms.locfileid: "49809289"
 3. (Необязательно) В **области** Организатор вы можете показывать только трансляции, организованные определенным пользователем.
 4. Нажмите **кнопку Выполнить отчет**.  
 
-    ![Снимок экрана: отчет Teams использования трансляций в Центре администрирования Teams с помощью висяк](../media/teams-live-event-usage-report-with-callouts.png "Снимок экрана: отчет Teams использования трансляций в Центре администрирования Teams с помощью висяк")
+    ![Снимок экрана: отчет Teams использования трансляций в Центре администрирования Teams с помощью перетаксовок](../media/teams-live-event-usage-report-with-callouts.png "Снимок экрана: отчет Teams использования трансляций в Центре администрирования Teams с помощью висяк")
 
 ## <a name="interpret-the-report"></a>Толкование отчета
 
@@ -56,9 +56,9 @@ ms.locfileid: "49809289"
 
 ![Снимок экрана: подробные сведения о трансляции](../media/teams-live-event-usage-report-event-detail.png)
 
-Если в вашей организации включена возможность ECDN [или](https://www.hivestreaming.com/partners/integration-partners/microsoft/) [Kollective](https://kollective.com) eCDN, вы можете получить дополнительную аналитику участников, щелкнув ссылку отчета о партнере.
+Если в вашей [](https://www.hivestreaming.com/partners/integration-partners/microsoft/) организации включена возможность ECDN или [Kollective](https://kollective.com) eCDN, вы можете получить дополнительную аналитику участников, щелкнув ссылку отчета о партнере.
 
 ## <a name="related-topics"></a>Статьи по теме
 
 - [Аналитика и отчеты Teams](teams-reporting-reference.md)
-- [Что такое прямые трансляции Teams?](../teams-live-events/what-are-teams-live-events.md)
+- [Что такое трансляции Teams?](../teams-live-events/what-are-teams-live-events.md)

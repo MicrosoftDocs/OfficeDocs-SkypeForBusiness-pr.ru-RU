@@ -1,5 +1,5 @@
 ---
-title: Планирование единого хранения контактов в Skype для бизнеса Server
+title: Планирование единого магазина контактов в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,35 +13,35 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d56e11be-43dd-45d4-8ac6-3adfb03f5d1a
-description: Сводка. Просмотрите этот раздел при планировании интеграции Skype для бизнеса Server с Exchange 2013.
-ms.openlocfilehash: 3ce06118f8225e78c5c84a8f9124e4815f79d593
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Сводка. Просмотрите эту тему при планировании интеграции Skype для бизнеса Server с Exchange 2013 г.
+ms.openlocfilehash: 12f76c1e10eea445adb21147c20ab79f33e38f3c8c578aeab8ec24296bb06594
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816259"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54284629"
 ---
-# <a name="plan-for-unified-contact-store-in-skype-for-business-server-2015"></a>Планирование единого хранения контактов в Skype для бизнеса Server 2015
+# <a name="plan-for-unified-contact-store-in-skype-for-business-server-2015"></a>Планирование единого магазина контактов в Skype для бизнеса Server 2015 г.
  
-**Сводка:** Просмотрите этот раздел при планировании интеграции Skype для бизнеса Server с Exchange 2013 или 2016.
+**Сводка:** Просмотрите эту тему при планировании интеграции Skype для бизнеса Server с Exchange 2013 или 2016 г.
   
-Единое хранилище контактов обеспечивает единое контактное отношение к продуктам Microsoft Office и позволяет пользователям хранить все контактные данные в Exchange 2013, но позволяет им быть доступными глобально в Skype для бизнеса, Exchange, Outlook и Outlook Web Access.
+Объединенный магазин контактов обеспечивает согласованную контактную связь между Microsoft Office продуктами и позволяет пользователям хранить всю контактную информацию в Exchange 2013 г., но позволяет получать информацию по всему Skype для бизнеса, Exchange, Outlook и Outlook веб-доступа.
   
-## <a name="requirements-for-unified-contact-store"></a>Требования для единого хранения контактов
+## <a name="requirements-for-unified-contact-store"></a>Требования к единому магазину контактов
 
-Чтобы реализовать единое хранилище контактов в Skype для бизнеса Server:
+Реализация единого магазина контактов в Skype для бизнеса Server:
   
-- Необходимо использовать Skype для бизнеса Server и Exchange 2013 или 2016.
+- Необходимо запускать Skype для бизнеса Server и Exchange 2013 или 2016 года.
     
-- Пользователи должны использовать Skype для бизнеса для переноса контактов из Skype для бизнеса Server в Exchange 2013 или 2016.
+- Пользователи должны использовать Skype для бизнеса для переноса контактов с Skype для бизнеса Server на Exchange 2013 или 2016 годы.
     
-- Почтовые ящики пользователей необходимо перенести в Exchange 2013.
+- Почтовые ящики пользователей должны быть перенесены Exchange 2013 г.
     
-- Между Skype для бизнеса Server и Exchange 2013 или 2016 должна быть настроена проверка подлинности "сервер-сервер".
+- Проверка подлинности от сервера к серверу должна быть настроена между Skype для бизнеса Server и Exchange 2013 или 2016 г.
     
     > [!NOTE]
-    > Подробные требования по настройке проверки подлинности между Skype для бизнеса Server и Exchange 2013 или 2016 см. в документации по управлению проверкой подлинности ["сервер-сервер" (OAuth)](../../manage/authentication/server-to-server-and-partner-applications.md) и партнерскими приложениями в Skype для бизнеса Server.
+    > Подробные требования по настройке проверки подлинности между Skype для бизнеса Server и Exchange 2013 или 2016 г. см. в документе Управление проверкой подлинности от сервера к серверу [(OAuth)](../../manage/authentication/server-to-server-and-partner-applications.md) и партнерскими приложениями в Skype для бизнеса Server документации по операциям.
   
 ## <a name="see-also"></a>См. также
 
-[Развертывание единого хранения контактов в Skype для бизнеса Server](../../deploy/deploy-unified-contact-store.md)
+[Развертывание единого магазина контактов в Skype для бизнеса Server](../../deploy/deploy-unified-contact-store.md)

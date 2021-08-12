@@ -21,19 +21,19 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
-description: Организаторы собраний могут узнать, как звонить с помощью Teams, чтобы другие люди могли присоединиться к собранию с помощью своих телефонов.
-ms.openlocfilehash: 55cbd5ccc9e9c364bcb829d9a392f61cbdd2f7f8
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Организаторы собраний могут узнать, как звонить с помощью приложения Teams, чтобы другие люди могли присоединиться к собранию с помощью своих телефонов.
+ms.openlocfilehash: 95370afe0c9c0a4d03f8296ada4f7438e2abc4e6a746a5d21d63f3ee9551ee08
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119288"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54282702"
 ---
 # <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>Исходящие звонки, позволяющие другим людям присоединиться к собранию
 
 Организатор собрания может звонить с помощью приложения Teams, чтобы другие люди могли присоединиться к собранию со своих телефонов.
 
-Для звонков рекомендуется использовать полные номера телефонов (включая код страны или региона — формат E.164).
+Для звонков по телефону рекомендуется использовать полные номера телефонов (включая код страны или региона — формат E.164).
   
   Обратите внимание на то, что:
 
@@ -44,10 +44,10 @@ ms.locfileid: "51119288"
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
-Вот как можно сделать так, чтобы можно было звонить на рабочий номер:
+Вот как можно сделать так, чтобы можно было звонить на рабочий телефон:
 
  **Шаг 1.** На собрании используйте  снимок экрана с кнопкой "Добавить людей", чтобы позвонить на ![ номер ](media/add-people-button.png) телефона.
- **Шаг 2.** Введите полный номер телефона, включая код страны или региона, в поле Пригласить человека **или наберите** номер.
+ **Шаг 2.** Введите полный номер телефона, включая код страны или региона, в поле Пригласить кого-нибудь **или наберите** номер.
   
 ![Снимок экрана: диалоговое окно "Пригласить человека или набрать номер"](media/invite-someone-box.png)
     
@@ -59,7 +59,7 @@ Dial-out is only available to some countries/regions. Полный список 
 
 Если вам нужно получить инструкции по доступу пользователей к собранию Teams, см. Телефон аудиоконференцию в [Microsoft Teams.](phone-numbers-for-audio-conferencing-in-teams.md)
 
-## <a name="want-to-know-more-about-audio-conferencing"></a>Хотите узнать больше об аудиоконференциях?
+## <a name="want-to-know-more-about-audio-conferencing"></a>Хотите узнать больше о аудиоконференциях?
 
 [Попробуйте или приобретйте аудиоконференцию](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
     
