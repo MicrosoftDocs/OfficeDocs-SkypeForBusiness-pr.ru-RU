@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: e687e12e-efae-4b8c-a716-c29c41ee7b75
 ROBOTS: NOINDEX, NOFOLLOW
 description: Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
-ms.openlocfilehash: 5d0f8b0039b12bca19dbfc90adbc6065e7bf9f87
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 8ccd11709a5a024fa428e37bef7e0f8b191c81f2ed45db19e8a10a42638fb86e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120108"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54304261"
 ---
 # <a name="users-edit-user"></a>Пользователи: редактирование пользователя
 

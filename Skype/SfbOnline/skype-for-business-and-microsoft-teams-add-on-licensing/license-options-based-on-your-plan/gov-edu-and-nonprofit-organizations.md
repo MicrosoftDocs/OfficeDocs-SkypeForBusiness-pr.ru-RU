@@ -21,12 +21,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Узнайте о лицензиях на надстройки и функции для планов gov, EDU и некоммерческих организаций. '
-ms.openlocfilehash: a9a0ca689c3e67927ee2d03636da296bbdf35c9a
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 1f3f8e1e545e3eb4bd0a4d39f0a339b529ddfdafce771e3878803d00abeada98
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237425"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54304551"
 ---
 # <a name="gov-edu-and-non-profit-organizations"></a>Государственные, образовательные и некоммерческие организации
 

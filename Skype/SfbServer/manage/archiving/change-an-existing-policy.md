@@ -1,5 +1,5 @@
 ---
-title: Изменение существующей политики архива в Skype для бизнеса Server
+title: Измените существующую политику архива в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,27 +11,27 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 4cf600be-ba3d-4bce-aa22-e158b9ccf8a9
-description: Сводка. Узнайте, как изменить политики архива пользователя для Skype для бизнеса Server.
-ms.openlocfilehash: 47c9d5938c22b93db48c96265831cbf24ecc24d7
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Сводка. Сведения об изменении политик архива пользователей для Skype для бизнеса Server.
+ms.openlocfilehash: 571f32a4cf5fb0bddd006719f3a9886c852df3f7196adf774f554cda216ea0a2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49817709"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54315715"
 ---
-# <a name="change-an-existing-archiving-policy-in-skype-for-business-server"></a>Изменение существующей политики архива в Skype для бизнеса Server
+# <a name="change-an-existing-archiving-policy-in-skype-for-business-server"></a>Измените существующую политику архива в Skype для бизнеса Server
  
-**Сводка:** Learn how to change user archiving policies for Skype for Business Server.
+**Сводка:** Узнайте, как изменить политики архива пользователей для Skype для бизнеса Server.
   
-При первом развертывании Skype для бизнеса Server необходимо настроить начальные политики архивации, определяющие реализации архивации для пользователей в развертывании. В этом разделе описывается, как управлять политиками и изменять их. 
+При первом развертывании Skype для бизнеса Server настройка политик начального архивации, определяющих реализацию архивации для пользователей в развертывании. В этом разделе описывается, как управлять политиками и изменять их. 
   
 ## <a name="change-archiving-policies-by-using-the-control-panel"></a>Изменение политик архива с помощью панели управления
 
 1. Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи пользователя, назначенной роли CsArchivingAdministrator или CsAdministrator. 
     
-2. Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Skype для бизнеса Server. 
+2. Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель Skype для бизнеса Server управления. 
     
-3. В левой панели навигации щелкните **"Мониторинг и** архивации" и выберите "Политика **архивации".**
+3. В левой панели навигации щелкните **Мониторинг** и архивации, а затем нажмите кнопку **Политика архивации**.
     
 4. В списке политик выполните одно из следующих действий: 
     
@@ -50,27 +50,27 @@ ms.locfileid: "49817709"
 6. Щелкните **Commit** (Применить).
     
     > [!IMPORTANT]
-    > Параметры политики пользователя применяются только к тем пользователям и группам пользователей, к которым применяется политика. Дополнительные сведения см. в сведениях о применении политики [архива к пользователям в Skype для бизнеса Server.](apply-a-policy-to-users.md) 
+    > Параметры политики пользователя применяются только к тем пользователям и группам пользователей, к которым применяется политика. Дополнительные сведения [см. в материале Apply an archiving policy to users in Skype для бизнеса Server.](apply-a-policy-to-users.md) 
   
 ## <a name="change-archiving-policies-by-using-windows-powershell"></a>Изменение политик архива с помощью Windows PowerShell
 
-Вы также можете изменить политики архива с помощью Windows PowerShell **Set-CsArchivingPolicy.**
+Вы также можете изменить политики архива с помощью Windows PowerShell **set-CsArchivingPolicy.**
   
 ### <a name="enable-archiving-policies"></a>Включить политики архива
 
-Чтобы включить архивировать внутренние сеансы связи, установите для параметра ArchiveInternal значение True ($True): 
+Чтобы включить архивации внутренних сеансов связи, установите значение параметра ArchiveInternal true ($True): 
   
 ```PowerShell
 Set-CsArchivingPolicy -Identity "global" -ArchiveInternal $True
 ```
 
-Чтобы включить архивировать внешние сеансы связи, установите для параметра ArchiveExternal значение True ($True): 
+Чтобы включить архивировать внешние сеансы связи, установите значение параметра ArchiveExternal true ($True): 
   
 ```PowerShell
 Set-CsArchivingPolicy -Identity "global" -ArchiveExternal $True
 ```
 
-Чтобы включить архивировать как внутренние, так и внешние сеансы связи, установите для параметров ArchiveInternal и ArchiveExternal значение True: 
+Чтобы включить архивации внутренних и внешних сеансов связи, установите значение параметров ArchiveInternal и ArchiveExternal значение True: 
   
 ```PowerShell
 Set-CsArchivingPolicy -Identity "global" -ArchiveInternal $True -ArchiveExternal $True
@@ -78,7 +78,7 @@ Set-CsArchivingPolicy -Identity "global" -ArchiveInternal $True -ArchiveExternal
 
 ### <a name="disable-archiving-policies"></a>Отключение политик архива
 
-Чтобы полностью отключить архивации, установите для параметров ArchiveInternal и ArchiveExternal значение False ($False): 
+Чтобы полностью отключить архивации, установите значение параметров ArchiveInternal и ArchiveExternal false ($False): 
   
 ```PowerShell
 Set-CsArchivingPolicy -Identity "global" -ArchiveInternal $False -ArchiveExternal $False

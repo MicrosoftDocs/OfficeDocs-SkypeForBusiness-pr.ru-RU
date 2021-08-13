@@ -1,5 +1,5 @@
 ---
-title: Начало работы с Microsoft Teams
+title: Начало работы с Microsoft Teams
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -19,14 +19,14 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: c59220fe886d7301491909c0e099b8cd4c15ae75
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 8d2fed3a011936507febdfcd6bb7dae5aa4c7d385a3ea3fccc49e018f7749a95
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092247"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54306381"
 ---
-# <a name="get-started-with-microsoft-teams"></a>Начало работы с Microsoft Teams
+# <a name="get-started-with-microsoft-teams"></a>Начало работы с Microsoft Teams
 
 > [!TIP]
 > Вы ищете информацию о том, как установить клиент Teams на ПК или на мобильное устройство? Перейти: [Скачать Microsoft Teams](https://www.microsoft.com/microsoft-teams/download-app)
@@ -74,10 +74,10 @@ ms.locfileid: "51092247"
 
 ## <a name="upgrade-or-migrate-from-skype-for-business"></a>Переход или миграция из Skype для бизнеса
 
-Если вы переходите на использование Teams из Skype для бизнеса (онлайн-версия или локальная версия) или вам нужна гибридная конфигурация, мы все равно советуем следовать указанному выше рекомендованному пути при развертывании Teams, но в этом случае вам потребуется дополнительное планирование. Начните со знакомства с инструкциями, приведенным в таблице ниже, которые соответствуют профилю вашей организации.
+Если вы пришли к Teams через Skype для бизнеса (сетевая или локальная версия) или вам нужна гибридная конфигурация, вам все равно желательно следовать указанному выше рекомендованному пути при развертывании Teams, но в этом случае вам потребуется дополнительное планирование. Начните со знакомства с инструкциями, приведенным в таблице ниже, которые соответствуют профилю вашей организации.
 
 |  |Профиль вашей организации|Рекомендации  |
 |---------|---------|---------|
 |<IMG src="https://docs.microsoft.com/office/media/icons/migration-teams.svg" alt="Migration arrow symbol" height="50" width="50">|В настоящее время я использую Skype для бизнеса Online, и все готово к переходу на Teams. |Перейдите в раздел [Переход на Teams](upgrade-start-here.md).        |
 |<IMG SRC="https://docs.microsoft.com/office/media/icons/hybrid-teams.svg" alt="Hybrid symbol" height="50" width="50">|В настоящий момент моя организация использует Skype для бизнеса Server, и я хочу выполнить развертывание Teams. |Для полномасштабного развертывания Teams необходимо настроить гибридное соединение между вашей локальной средой и Microsoft 365. Начните со знакомства со статьей [Планирование гибридного соединения Skype для бизнеса Server и Microsoft 365 или Office 365](/skypeforbusiness/hybrid/plan-hybrid-connectivity).<br><br>Вам также следует изучить [Переход на Teams](upgrade-start-here.md).   |
-|<IMG src="https://docs.microsoft.com/office/media/icons/on-premises-teams.svg" alt="On premises symbol" height="50" width="50">|У меня нет Skype для бизнеса Server, но я использую локальное решение телефонной сети общего пользования (ТСОП). Я хочу выполнить развертывание Teams, но хочу сохранить мое локальное решение ТСОП. |Выполните развертывание Teams, следуя инструкциям в этой статье.<br><br>Затем ознакомьтесь со статьей [Планирование прямой маршрутизация](direct-routing-plan.md), чтобы получить представление об использовании прямой маршрутизации телефонной системы для подключения локального решение PSTN к Teams.|
+|<IMG src="https://docs.microsoft.com/office/media/icons/on-premises-teams.svg" alt="On premises symbol" height="50" width="50">|У меня нет Skype для бизнеса Server, но я использую локальную телефонную сеть общего пользования (ТСОП). Я хочу развернуть Teams и при этом сохранить свое локальное решение ТСОП.  |Выполните развертывание Teams, следуя инструкциям в этой статье.<br><br>Затем ознакомьтесь со статьей [Планирование прямой маршрутизация](direct-routing-plan.md), чтобы получить представление об использовании прямой маршрутизации телефонной системы для подключения локального решение PSTN к Teams.|

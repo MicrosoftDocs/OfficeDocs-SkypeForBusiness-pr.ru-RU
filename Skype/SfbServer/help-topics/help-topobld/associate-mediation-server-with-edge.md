@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 65c5d93c-9f0d-4a60-8bd1-d05eb6bc2088
 description: Чтобы определить сервер-посредник, укажите параметры, которые служат для сопоставления данного сервера-посредника с интерфейсным сервером и с пограничным сервером или пулом. Чтобы сопоставить сервер-посредник или пул с пограничным сервером или пулом, выполните следующие действия.
-ms.openlocfilehash: ffd369c76db96185e76665728a88ed8d8419a03d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 20a6e3de81bae13fd14683af62a6c79627a148cf00d50d7584c15ca27d8da0ee
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49835479"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54315815"
 ---
 # <a name="associate-mediation-server-with-edge"></a>Связывание сервера-посредника с пограничным сервером
  
@@ -33,6 +33,6 @@ ms.locfileid: "49835479"
 > [!NOTE]
 > Если в развертывании еще не определен пограничный сервер или пул, в раскрывающемся списке не будет каких-либо значений. Можно нажать кнопку **Далее**, чтобы вернуться к редактированию параметров сервера-посредника позже, после добавления в развертывание пограничного сервера или пула.
   
-Дополнительные сведения см. в сведениях о развертывании сервера-посредника в построителье топологий [в Skype для бизнеса Server 2015.](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md)
+Дополнительные сведения см. в [материале Deploy a Mediation Server in Topology Builder Skype для бизнеса Server 2015 г.](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md)
   
 

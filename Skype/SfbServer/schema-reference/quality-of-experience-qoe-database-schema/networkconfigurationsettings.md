@@ -12,22 +12,22 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 279ea5d1-5d07-44d4-8133-2557446914ca
-description: В представлении NetworkConfigurationSettings содержатся сведения о конфигурации сети. Это представление впервые было введено в Microsoft Lync Server 2013.
-ms.openlocfilehash: f3c03c286b9593d004f0849669a6c089be5111b0
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: В представлении NetworkConfigurationSettings содержатся сведения о конфигурации сети. Это представление было представлено в Microsoft Lync Server 2013.
+ms.openlocfilehash: 7745a8248568fb488cf30363a4e42227d99a95cb79d22b05168a19a7e9e89829
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49806319"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54315405"
 ---
 # <a name="networkconfigurationsettings-view"></a>Представление NetworkConfigurationSettings
  
-В представлении NetworkConfigurationSettings содержатся сведения о конфигурации сети. Это представление впервые было введено в Microsoft Lync Server 2013.
+В представлении NetworkConfigurationSettings содержатся сведения о конфигурации сети. Это представление было представлено в Microsoft Lync Server 2013.
   
-|**Столбец**|**Тип данных**|**Details**|
+|**Column**|**Тип данных**|**Сведения**|
 |:-----|:-----|:-----|
 |SubnetIP  <br/> |int  <br/> |IP-адрес подсети (поддерживаются только адреса IPv4).  <br/> |
-|UserSiteName  <br/> |nvarchar(128)  <br/> |Имя сайта пользователя.  <br/> |
-|RegionName  <br/> |nvarchar(128)  <br/> |Имя страны или региона пользователя.  <br/> |
+|UserSiteName  <br/> |nvarchar (128)  <br/> |Имя сайта пользователя.  <br/> |
+|RegionName  <br/> |nvarchar (128)  <br/> |Имя страны или региона пользователя.  <br/> |
    
 
