@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: dc574afa-0b7d-404f-99b3-c812430b7c70
 description: Сводка. Сведения о создании конфигурации архивации для Skype для бизнеса Server.
-ms.openlocfilehash: f00e5b2b9254b53760351c162ea86cd195473788
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: c171b0ec86a8b29ede72b5dc0c577c890fcc497d4850148469d5ba64756ce472
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095433"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54335019"
 ---
 # <a name="create-an-archiving-configuration-in-skype-for-business-server"></a>Создание конфигурации архивации в Skype для бизнеса Server
 
@@ -29,7 +29,7 @@ ms.locfileid: "51095433"
   
 1. Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи пользователя, назначенной роли CsArchivingAdministrator или CsAdministrator. 
     
-2. Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Skype для бизнес-серверов. 
+2. Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель Skype для бизнеса Server управления. 
     
 3. В левой панели навигации щелкните Мониторинг и **архивация,** а затем щелкните **конфигурацию архивации.**
     
@@ -51,7 +51,7 @@ ms.locfileid: "51095433"
     
    - Чтобы заблокировать действия, когда архивирование невозможно, установите флажок **Block instant messaging (IM) or web conferencing sessions if archiving fails** (Блокировать сеансы обмена мгновенными сообщениями или веб-конференций, если не удается выполнить архивирование).
     
-   - Чтобы использовать Microsoft Exchange Server для хранения данных архивации, щелкните окно интеграции **Microsoft Exchange.**
+   - Чтобы использовать Microsoft Exchange Server для хранения данных архивации, щелкните контрольный **Exchange Microsoft.**
     
    - Чтобы включить удаление данных, установите флажок **Включить удаление архивных данных**, а затем выполните одно из следующих действий:
     

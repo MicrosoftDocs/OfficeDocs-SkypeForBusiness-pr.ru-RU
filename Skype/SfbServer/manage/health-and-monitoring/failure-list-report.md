@@ -1,5 +1,5 @@
 ---
-title: Отчет по списку сбоев в Skype для бизнеса Server
+title: Отчет о списке отказов в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,23 +11,23 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: b6f3a605-e0c6-461e-b17a-41d8039ace9d
-description: Сводка. Сведения об отчете failure List (Список сбоев) в Skype для бизнеса Server.
-ms.openlocfilehash: 48654ee827f0d7efcb50bcccc4e1d2f3fdb5422e
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Сводка. Сведения о отчете о списке отказов в Skype для бизнеса Server.
+ms.openlocfilehash: b132982af91f81af1ac1d151853a3f7fdc597ff31476e6a5484fc04b9d9efa4d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816849"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54301355"
 ---
-# <a name="failure-list-report-in-skype-for-business-server"></a>Отчет по списку сбоев в Skype для бизнеса Server 
+# <a name="failure-list-report-in-skype-for-business-server"></a>Отчет о списке отказов в Skype для бизнеса Server 
  
-**Сводка:** Learn about the Failure List Report in Skype for Business Server.
+**Сводка:** Узнайте о отчете о списке отказов в Skype для бизнеса Server.
   
 Отчет Failure List (Список ошибок) предоставляет сведения об участниках однорангового сеанса (конференции), завершившегося с ошибкой. Эти сведения содержат URI пользователя, у которого возникла ошибка, а также код ответа SIP и ИД диагностики, связанные с ошибкой.
   
 ## <a name="accessing-the-failure-list-report"></a>Доступ к отчету Failure List (Список ошибок)
 
-The Failure List Report is accessed by clicking any of the following metrics on the [Failure Distribution Report in Skype for Business Server:](failure-distribution-report.md)
+Отчет о списке отказов можно получить, нажав любой из следующих метрик в отчете о рассылке отказов в [Skype для бизнеса Server:](failure-distribution-report.md)
   
 - Top diagnostic reasons (sessions) (Основные причины диагностики (сеансы))
     
@@ -45,7 +45,7 @@ The Failure List Report is accessed by clicking any of the following metrics on 
     
 - Top from user agents (sessions) (Основные агенты пользователей, используемые в сеансах, завершившихся с ошибками (сеансы))
     
-From the Failure List Report you can access the [Peer-to-Peer Session Detail Report in Skype for Business Server](peer-to-peer-session-detail-report.md) by clicking the Session detail metric for a peer-to-peer session. Чтобы открыть отчет Conference Detail (Сведения о конференции), щелкните показатель Conference (Конференция) для конференции.
+В отчете о списке отказов вы можете получить доступ к отчету о подробностях одноранговых сеансов в Skype для бизнеса Server, [щелкнув](peer-to-peer-session-detail-report.md) метрику детализации сеанса для одноранговой сессии. Чтобы открыть отчет Conference Detail (Сведения о конференции), щелкните показатель Conference (Конференция) для конференции.
   
 ## <a name="making-the-best-use-of-the-failure-list-report"></a>Рекомендации по использованию отчета Failure List (Список ошибок)
 
@@ -101,7 +101,7 @@ Count    Name
   
 **Показатели отчета Failure List (Список ошибок)**
 
-|**Название**|**Возможность сортировки по этому показателю**|**Описание**|
+|**Название**|**Возможность сортировки по этому показателю**|**Description**|
 |:-----|:-----|:-----|
 |**Reported time** (Время создания отчета) <br/> |Нет  <br/> |Дата и время создания отчета.  <br/> |
 |**Запрос** <br/> |Нет  <br/> |Тип запроса SIP, завершившегося с ошибкой. Например, INVITE или BYE.  <br/> |

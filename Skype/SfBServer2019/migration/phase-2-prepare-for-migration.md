@@ -1,5 +1,5 @@
 ---
-title: Этап 2. Подготовка к миграции
+title: Этап 2 Подготовка к миграции
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -11,19 +11,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: fa6fef59-9d3a-4bda-acda-960734e4cb1a
-description: Перед началом миграции в Skype для бизнеса Server 2019 выполните действия, описанные в этом разделе.
-ms.openlocfilehash: 74a59bb9f7617fd02f4b1f714e1f1d96dacac603
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+description: Прежде чем приступить к миграции Skype для бизнеса Server 2019 г., выполните действия, описанные в этом разделе.
+ms.openlocfilehash: cc5024bbf63e043f98fe1dc9a662a87b410a88265ebe58d727f7ad39ab171324
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44752361"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54300585"
 ---
 # <a name="phase-2-prepare-for-migration"></a>Этап 2: подготовка к миграции
 
-Перед началом миграции в Skype для бизнеса Server 2019 выполните действия, описанные в этом разделе.
+Прежде чем приступить к миграции Skype для бизнеса Server 2019 г., выполните действия, описанные в этом разделе.
   
-## <a name="in-this-section"></a>В этом разделе:
+## <a name="in-this-section"></a>Содержание
 
 - [Применение обновлений](apply-updates.md)
     

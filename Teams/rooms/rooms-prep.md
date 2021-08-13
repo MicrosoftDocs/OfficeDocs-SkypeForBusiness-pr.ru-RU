@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Узнайте, как подготовить инфраструктуру к развертыванию Комнаты Microsoft Teams, чтобы использовать все возможности.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 81aa41895f11b65c9406bd30311f2fcb974949a7
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 46f44d9a07aadc06598495a765bedcd67d1ed03b395c4d9cf4e6696023227c0a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117427"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54346176"
 ---
 # <a name="prepare-your-environment"></a>Подготовка среды
 
@@ -60,13 +60,13 @@ ms.locfileid: "51117427"
 
 - Доступ к HTTP-портам 80 и 443.
 
-- Порты TCP и UDP настроены так, как описано в требованиях к портам и протоколам для серверов для локальной реализации Skype для бизнеса Server, а также URL-адреса и диапазоны [IP-адресов](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US) Microsoft 365 и Office 365 для интернет-реализации Microsoft Teams или Skype для бизнеса. [](/skypeforbusiness/plan-your-deployment/network-requirements/ports-and-protocols)
+- Порты TCP и UDP, [](/skypeforbusiness/plan-your-deployment/network-requirements/ports-and-protocols) описанные в требованиях к портам и протоколам для серверов для локальной реализации Skype для бизнеса Server, а также URL-адреса и диапазоны [IP-адресов](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US) Microsoft 365 и Office 365 для интернет-реализации Microsoft Teams или Skype для бизнеса.
 
 > [!IMPORTANT]
 > Для обеспечения достаточной пропускной способности используйте проводное сетевое подключение стандарта 1 Гбит/с. 
 
 > [!NOTE]
-> Обновления программного обеспечения Комнаты Microsoft Teams автоматически загружаются из Microsoft Store для бизнеса. Чтобы [убедиться в том,](/microsoft-store/prerequisites-microsoft-store-for-business) что консоль комнаты сможет получить доступ к магазину и самообновка, см. статью Предварительные условия для Microsoft Store для бизнеса и Образования.
+> Обновления программного обеспечения Комнаты Microsoft Teams автоматически загружаются из Microsoft Store для бизнеса. Чтобы [убедиться, что](/microsoft-store/prerequisites-microsoft-store-for-business) консоль комнаты получит доступ к магазину и самообновляются, см. статью Предварительные условия для Microsoft Store для бизнеса и Образования.
   
 ### <a name="certificates"></a>Сертификаты
 
@@ -83,15 +83,15 @@ ms.locfileid: "51117427"
   
 1. В пользовательском интерфейсе Комнаты Microsoft Teams щелкните значок шестеренки Параметры, где вам будет предложено вводить пароль локального администратора на устройстве (по умолчанию это **SFB).**
 2. Коснитесь Параметры, а затем  нажмите кнопку Перейти к Windows, а затем коснитесь кнопки  Перейти к входу администратора и нажмите кнопку Администратор (если компьютер является доменом, выберите Другой **пользователь,** а затем в качестве имени пользователя используйте .\admin).  
-3. В поле **поиск Windows** regedit (длинное нажатие экрана или щелкните правой кнопкой мыши и выберите запуск **от администратора).**
+3. В поле **поиск Windows** regedit (длинное нажатие экрана или щелчок правой кнопкой мыши и выбор запуска **от администратора).**
 4. Щелкните папку HKEY_USERS (вы увидите список идентификаторов SID пользователей компьютера) и убедитесь в том, что выбрана корневая папка HKEY_USERS.
        
 5. Щелкните Файл и выберите **загрузить Файл.**
 6. Перейдите к **папке C:\Users\Skype** и введите в поле Имя файла NВНЕД.dat и нажмите кнопку "Открыть"
 
-7. Вам будет предложено в качестве ключа в качестве имени загруженного человека. введите Skype (теперь вы увидите параметры реестра для Skype Пользователя).
+7. Вам будет предложено в качестве имени ключа для загруженного человека. введите Skype (теперь вы увидите параметры реестра для Skype Пользователя).
  
-8. Откройте Skype клавишу и перейдите к HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings убедитесь, что ввели эти параметры: 
+8. Откройте клавишу Skype и перейдите к HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings убедитесь, что ввели эти параметры: 
     
     ```console
     [HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings]
@@ -117,7 +117,7 @@ ms.locfileid: "51117427"
     
 11. Вернувшись на экран входа, выберите пользователя **Skype**. Если все предыдущие шаги были успешными, Комнаты Microsoft Teams устройство сможет войти в нее.
     
-Подробные [сведения о полных](./security.md#network-security) полных и полных полных версиях, портах и диапазонах IP-адресов, необходимых для Комнаты Microsoft Teams, см. в статье Безопасность сети.
+Подробные [сведения о полных](./security.md#network-security) полных и полных полных имяях, портах и диапазонах IP-адресов, необходимых для Комнаты Microsoft Teams, см. в статье Безопасность сети.
   
   
 ### <a name="create-provisioning-packages"></a>Создание пакетов подготовки

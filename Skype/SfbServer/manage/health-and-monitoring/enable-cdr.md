@@ -11,13 +11,13 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 3b28e432-596f-45a5-a070-577d6fa748d9
-description: Сводка. Сведения о том, как включить запись детализации вызовов (CDR) в Skype для бизнеса Server.
-ms.openlocfilehash: e2f652eeef77c336fb34be07c123f1ef026d458c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Сводка. Сведения о том, как включить записи детализации вызовов (CDR) в Skype для бизнеса Server.
+ms.openlocfilehash: 1d09e637d75b9617abf669f75e96076333380a075010bd3d641f4c5189be9d89
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095233"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54301385"
 ---
 # <a name="enable-call-detail-recording-in-skype-for-business-server"></a>Включить запись детализации вызовов в Skype для бизнеса Server
 
@@ -30,11 +30,11 @@ ms.locfileid: "51095233"
 > [!NOTE]
 > Чтобы включить CDR, необходимо сначала настроить мониторинг и базу данных мониторинга. Дополнительные сведения см. в разделе [Deploying Monitoring](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-monitoring).
 
-### <a name="to-enable-cdr-with-skype-for-business-server-control-panel"></a>Включить cdR с панелью управления Skype для бизнес-серверов
+### <a name="to-enable-cdr-with-skype-for-business-server-control-panel"></a>Включить CDR с Skype для бизнеса Server панелью управления
 
-1.  С учетной записи пользователя, которая входит в группу RTCUniversalServerAdmins (или имеет эквивалентные права пользователя) или назначена роли CsServerAdministrator или CsAdministrator, войдите на любой компьютер, который находится в сети, в которой развернут Skype для бизнеса Server.
+1.  С учетной записи пользователя, которая входит в группу RTCUniversalServerAdmins (или имеет эквивалентные права пользователя) или назначена роли CsServerAdministrator или CsAdministrator, войдите на любой компьютер, который находится в сети, в которой вы развернули Skype для бизнеса Server.
 
-2. Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Skype для бизнес-серверов.
+2. Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель Skype для бизнеса Server управления.
 
 3. В левой панели навигации щелкните элемент **Мониторинг и архивация**, затем **Служба регистрации вызовов**.
 
@@ -45,7 +45,7 @@ ms.locfileid: "51095233"
 
 ## <a name="enabling-cdr-by-using-windows-powershell-cmdlets"></a>Включение CDR с помощью Windows PowerShell-кодов
 
-Можно включить CDR с помощью Windows PowerShell **и комлета Set-CsCdrConfiguration.** Этот комлет можно выполнить либо из оболочки управления skype для бизнес-серверов, либо из удаленного сеанса Windows PowerShell. Сведения об использовании удаленных Windows PowerShell для подключения к Skype для бизнеса Server см. в статье блога ["Быстрый запуск: управление Microsoft Lync Server 2010 с](https://go.microsoft.com/fwlink/p/?linkId=255876)помощью удаленной powerShell". В Skype для бизнеса Server этот процесс является одинаковым.
+Можно включить CDR с помощью Windows PowerShell **и комлета Set-CsCdrConfiguration.** Этот комлет можно выполнить либо из Skype для бизнеса Server, либо из удаленного сеанса Windows PowerShell. Сведения об использовании удаленных Windows PowerShell для подключения к Skype для бизнеса Server см. в статье блога ["Быстрый запуск: управление Microsoft Lync Server 2010 с](https://go.microsoft.com/fwlink/p/?linkId=255876)помощью удаленной powerShell". Этот процесс в Skype для бизнеса Server.
 
 ### <a name="to-enable-cdr-for-a-single-location"></a>Включение CDR для отдельного места
 

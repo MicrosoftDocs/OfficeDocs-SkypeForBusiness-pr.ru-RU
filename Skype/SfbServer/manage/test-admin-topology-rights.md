@@ -11,16 +11,16 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Проверка прав топологии в Skype для бизнеса Server
-ms.openlocfilehash: 9503476c5c97e692624a8c2535adaeabc14c0e88fc6be583927cdf048cf1ee2f
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: 5826f62b120179533e531743b6e11ede5d9ba9d049d2a0a7252e57d6e7f922ea
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57848104"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54335009"
 ---
 # <a name="testing-admin-topology-rights-in-skype-for-business-server"></a>Тестирование прав топологии администратора в Skype для бизнеса Server
 
-|&nbsp; |&nbsp; |
+| | |
 |--|--|
 |Расписание проверки|После первоначального Skype для бизнеса Server развертывания. При необходимости, если возникают проблемы, связанные с разрешениями.|
 |Средство тестирования|Windows PowerShell|
@@ -47,13 +47,13 @@ ms.locfileid: "57848104"
 
 Верно 
 
-Если разрешения не установлены, Test-CsSetupPermission возвращает значение False. Обратите внимание, что это значение обычно будет заключено во многих предупреждающих сообщениях. Примеры:
+Если разрешения не установлены, Test-CsSetupPermission возвращает значение False. Обратите внимание, что это значение обычно будет заключено во многих предупреждающих сообщениях. Например,
 
 ВНИМАНИЕ. Запись управления доступом (ACE) atl-cs-001\RTCUniversalServerAdmins; Разрешить; ExtendedRight; Нет; Нет; 1131f6aa-9c07-11d1-f79f-00c04fc2dcd2 
 
 ВНИМАНИЕ. Записи управления доступом (ACEs) на объекте "CN=Computers,DC=litwareinc,DC=com" не готовы. 
 
-Неправильно 
+Неверно 
 
 ВНИМАНИЕ. Обработка "Test-CsSetupPermission" завершена с помощью предупреждений. Во время этого запуска были записаны предупреждения "2". 
 

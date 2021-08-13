@@ -14,13 +14,13 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Как включить и отключить анонимный доступ пользователей в Skype для бизнеса Server.
-ms.openlocfilehash: c06135c0678309c527ec4bda341c17de2d643ce4d6b947077a3a2d02d71dea55
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+description: ''
+ms.openlocfilehash: 5489eec7d94e1914fd4211927d65705fea08daae9770d4ed8bf3165ebe75e553
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57848704"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54297245"
 ---
 # <a name="enable-or-disable-anonymous-user-access-in-skype-for-business-server"></a>Включить или отключить анонимный доступ к пользователю в Skype для бизнеса Server
 
@@ -56,13 +56,17 @@ ms.locfileid: "57848704"
 
 ## <a name="to-enable-anonymous-user-access"></a>Для обеспечения анонимного доступа пользователей
 
-  - Чтобы включить анонимный доступ пользователей, установите для свойства **AllowAnonymousUsers** значение True ($True):<br/><br/>Set-CsAccessEdgeConfiguration AllowAnonymousUsers $True
+  - Чтобы включить анонимный доступ пользователей, установите для свойства **AllowAnonymousUsers** значение True ($True):
+    
+        Set-CsAccessEdgeConfiguration -AllowAnonymousUsers $True
 
 ## <a name="to-disable-anonymous-user-access"></a>Отключение анонимного доступа пользователей
 
-  - Чтобы отключить анонимный доступ пользователей, установите для свойства **AllowAnonymousUsers** значение False ($False):<br/><br/>Set-CsAccessEdgeConfiguration AllowAnonymousUsers $False
+  - Чтобы отключить анонимный доступ пользователей, установите для свойства **AllowAnonymousUsers** значение False ($False):
+    
+        Set-CsAccessEdgeConfiguration -AllowAnonymousUsers $False
 
 
 ## <a name="see-also"></a>См. также
 
-[Set-CsClientPolicy](/powershell/module/skype/Set-CsClientPolicy)  
+[Set-CsClientPolicy](/powershell/module/skype/Set-CsClientPolicy?view=skype-ps)  

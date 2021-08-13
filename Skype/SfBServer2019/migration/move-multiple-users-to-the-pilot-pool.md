@@ -1,5 +1,5 @@
 ---
-title: Перемещение нескольких пользователей в пилотный пул
+title: Перемещение нескольких пользователей в пул пилотов
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -10,60 +10,60 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: You can move multiple users from your legacy pool to your Skype for Business Server 2019 pilot pool using Skype for Business Server 2019 Control Panel or Skype for Business Server 2019 Management Shell.
-ms.openlocfilehash: d1b003c5630a0917fbecbd9b04196675657fef83
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+description: Вы можете переместить несколько пользователей из устаревшего пула в пилотный пул Skype для бизнеса Server 2019 г., используя панель управления Skype для бизнеса Server 2019 или Skype для бизнеса Server 2019.
+ms.openlocfilehash: 689886060f14a47e82865a2ed66bfc3ff495dfdc3b1f44e6c5674294b4d21eb9
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44753431"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54300655"
 ---
-# <a name="move-multiple-users-to-the-pilot-pool"></a>Перемещение нескольких пользователей в пилотный пул
+# <a name="move-multiple-users-to-the-pilot-pool"></a>Перемещение нескольких пользователей в пул пилотов
 
-You can move multiple users from your legacy pool to your Skype for Business Server 2019 pilot pool using Skype for Business Server 2019 Control Panel or Skype for Business Server 2019 Management Shell.
+Вы можете переместить несколько пользователей из устаревшего пула в пилотный пул Skype для бизнеса Server 2019 г., используя панель управления Skype для бизнеса Server 2019 или Skype для бизнеса Server 2019.
 
  **Содержание**
   
-[Перемещение нескольких пользователей с помощью панели управления Skype для бизнеса Server 2019](#sectionSection0)
+[Перемещение нескольких пользователей с помощью панели управления Skype для бизнеса Server 2019 г.](#sectionSection0)
   
-[Перемещение нескольких пользователей с помощью оболочки управления Skype для бизнеса Server 2019](#sectionSection1)
+[Перемещение нескольких пользователей с помощью Skype для бизнеса Server 2019](#sectionSection1)
   
-[Перемещение всех пользователей одновременно с помощью оболочки управления Skype для бизнеса Server 2019](#sectionSection2)
+[Одновременное перемещение всех пользователей с помощью Skype для бизнеса Server 2019](#sectionSection2)
   
   
-## <a name="to-move-multiple-users-by-using-the-skype-for-business-server-2019-control-panel"></a>Перемещение нескольких пользователей с помощью панели управления Skype для бизнеса Server 2019
+## <a name="to-move-multiple-users-by-using-the-skype-for-business-server-2019-control-panel"></a>Перемещение нескольких пользователей с помощью панели управления Skype для бизнеса Server 2019 г.
 <a name="sectionSection0"> </a>
 
-1. Откройте панель управления Skype для бизнеса Server.
+1. Откройте панель Skype для бизнеса Server управления.
     
-2. Щелкните **"Пользователи",** **"Поиск"** и выберите **"Найти".**
+2. Щелкните **Пользователи,** **щелкните Поиск,** а затем нажмите **кнопку Найти**.
     
-3. Выберите двух пользователей, которые нужно переместить в пул Skype для бизнеса Server 2019. В этом примере мы переместим пользователей Chen Yang и Claus Hansen.
+3. Выберите двух пользователей, которые необходимо переместить в Skype для бизнеса Server 2019 г. В этом примере мы переместим пользователей Chen Yang и Claus Hansen.
     
-     ![Перемещение пользователей в определенный пул регистрации](../media/Migration_LyncServer_CPanel_fromLyncServer2010_MoveMultipleUsersList.JPG)
+     ![Перемещение пользователей в определенный пул реестра](../media/Migration_LyncServer_CPanel_fromLyncServer2010_MoveMultipleUsersList.JPG)
   
 4. В меню **Макрокоманда** выберите **Переместить выбранных пользователей в пул**.
     
-5. В выпадаемом списке выберите пул Skype для бизнеса Server 2019.
+5. Из выпадаемого списка выберите пул Skype для бизнеса Server 2019 г.
     
-6. Щелкните **"Действие"** и выберите **"Переместить выбранных пользователей в пул".** Нажмите **ОК**.
+6. Щелкните **Действие,** а затем **нажмите кнопку Переместить выбранных пользователей для пула**. Нажмите кнопку **ОК**.
     
-     ![Диалоговое окно "Перемещение пользователей, пул регистратора назначения"](../media/Migration_LyncServer_from_LyncServer2010_CPanelMoveUserSelectPoolDialog.png)
+     ![Перемещение пользователей, диалоговое окно пула регистратора назначения](../media/Migration_LyncServer_from_LyncServer2010_CPanelMoveUserSelectPoolDialog.png)
   
-7. Убедитесь,  что столбец пула регистратора для пользователей теперь содержит пул Skype для бизнеса Server 2019, который указывает, что пользователи были успешно перемещены. 
+7. Убедитесь,  что столбец пула регистратора для пользователей теперь содержит пул Skype для бизнеса Server 2019, что указывает на успешное перемещение пользователей. 
     
-## <a name="to-move-multiple-users-by-using-the-skype-for-business-server-2019-management-shell"></a>Перемещение нескольких пользователей с помощью оболочки управления Skype для бизнеса Server 2019
+## <a name="to-move-multiple-users-by-using-the-skype-for-business-server-2019-management-shell"></a>Перемещение нескольких пользователей с помощью Skype для бизнеса Server 2019
 <a name="sectionSection1"> </a>
 
-1. Откройте оболочку управления Skype для бизнеса Server 2019. 
+1. Откройте оболочку Skype для бизнеса Server 2019. 
     
-2. В командной строке введите следующую команду и замените **User1** и  **User2** на конкретные имена пользователей, которых необходимо переместить, и замените pool_FQDN на имя конечного пула. В этом примере мы переместим пользователей Hao Chen и Katie Jordan. 
+2. В командной строке введите следующую строку и замените **User1** и **User2** определенными именами пользователей, которые необходимо переместить, и **замените** pool_FQDN имя пула назначения. В этом примере мы переместим пользователей Hao Chen и Katie Jordan. 
     
    ```PowerShell
    Get-CsUser -Filter {DisplayName -eq "User1" -or DisplayName - eq "User2"} | Move-CsUser -Target "pool_FQDN"
    ```
 
-    ![Пример Get-CsUser PowerShell](../media/Migration_LyncServer_from_LyncServer2010_move2users.jpg)
+    ![Пример комлета PowerShell Get-CsUser](../media/Migration_LyncServer_from_LyncServer2010_move2users.jpg)
   
 3. Введите в командной строке следующую команду: 
     
@@ -71,16 +71,16 @@ You can move multiple users from your legacy pool to your Skype for Business Ser
    Get-CsUser -Identity "User1"
    ```
 
-4. Удостоверение **Пул регистратора** должно сейчас указывать на пул, заданный на предыдущем шаге как **pool_FQDN**. Присутствие этого удостоверения подтверждает, что пользователь успешно перемещен. Повторите шаг, чтобы **убедиться, что пользователь User2** перемещен. 
+4. Удостоверение **Пул регистратора** должно сейчас указывать на пул, заданный на предыдущем шаге как **pool_FQDN**. Присутствие этого удостоверения подтверждает, что пользователь успешно перемещен. Повторите шаг, чтобы **убедиться в перемещении пользователя 2.** 
     
-     ![Выходные данные powerShell Get-UsUser -Identity](../media/Migration_LyncServer_from_LyncServer2010_showuser.jpg)
+     ![Выход комлета PowerShell Get-UsUser-Identity](../media/Migration_LyncServer_from_LyncServer2010_showuser.jpg)
   
-## <a name="to-move-all-users-at-the-same-time-by-using-the-skype-for-business-server-2019-management-shell"></a>Перемещение всех пользователей одновременно с помощью оболочки управления Skype для бизнеса Server 2019
+## <a name="to-move-all-users-at-the-same-time-by-using-the-skype-for-business-server-2019-management-shell"></a>Одновременное перемещение всех пользователей с помощью Skype для бизнеса Server 2019
 <a name="sectionSection2"> </a>
 
-В этом примере все пользователи возвращаются в устаревший пул (pool01.contoso.net). С помощью оболочки управления Skype для бизнеса Server 2019 мы переместим всех пользователей одновременно в пул Skype для бизнеса Server 2019 (pool02.contoso.net).
+В этом примере все пользователи были возвращены в устаревший пул (pool01.contoso.net). Используя Skype для бизнеса Server 2019, мы будем перемещать всех пользователей одновременно в пул Skype для бизнеса Server 2019 (pool02.contoso.net).
   
-1. Откройте оболочку управления Skype для бизнеса Server 2019.
+1. Откройте оболочку Skype для бизнеса Server 2019.
     
 2. Введите в командной строке следующую команду: 
     
@@ -88,18 +88,18 @@ You can move multiple users from your legacy pool to your Skype for Business Ser
    Get-CsUser -OnLyncServer | Move-CsUser -Target "pool_FQDN"
    ```
 
-     ![Команды PowerShell и результаты в оболочке управления](../media/Migration_LyncServer_CPanel_fromLyncServer2010_Move-CSUserMultipleAll.png)
+     ![Cmdlet PowerShell и результаты в управленческой оболочке](../media/Migration_LyncServer_CPanel_fromLyncServer2010_Move-CSUserMultipleAll.png)
   
-3. Запустите **get-CsUser** для одного из пилотных пользователей. 
+3. Запустите **Get-CsUser для** одного из пилотных пользователей. 
     
    ```PowerShell
    Get-CsUser -Identity "Hao Chen"
    ```
 
-4. Удостоверение **пула регистратора** для каждого пользователя теперь указывает на пул, указанный pool_FQDN **предыдущем** шаге. Наличие этого идентификатора подтверждает успешное перемещение пользователя. 
+4. Удостоверение **пула регистраторов** для каждого пользователя теперь указывает на пул, указанный pool_FQDN **на** предыдущем шаге. Наличие этого идентификатора подтверждает успешное перемещение пользователя. 
     
-5. Кроме того, мы можем просмотреть список пользователей на панели управления Skype для бизнеса Server 2019 и убедиться, что значение пула регистратора указывает на пул Skype для бизнеса Server 2019.
+5. Кроме того, мы можем просмотреть список пользователей в панели управления Skype для бизнеса Server 2019 г. и убедиться, что значение пула регистраторов указывает на пул Skype для бизнеса Server 2019 г.
     
-     ![Список пользователей панели управления Skype для бизнеса Server 2019](../media/Migration_LyncServer_CPanel_fromLyncServer2010_Move-CSUserVerifyHao.JPG)
+     ![Skype для бизнеса Server панели управления 2019](../media/Migration_LyncServer_CPanel_fromLyncServer2010_Move-CSUserVerifyHao.JPG)
   
 

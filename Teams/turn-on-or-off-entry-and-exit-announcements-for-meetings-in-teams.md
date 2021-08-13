@@ -20,13 +20,13 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
-description: Администратор может узнать, как включить или отключить объявления о входе и выходе на Microsoft Teams собрании.
-ms.openlocfilehash: 6be1c6dc86d8088b5ddb54b2141a10172ba13cc5
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Администратор может узнать, как включить или отключить объявления о входе и выходе из собрания Microsoft Teams собрания.
+ms.openlocfilehash: e6ac81e861d8a079c9e8a8c2dcc3a8824695ab5bc50ef58b4fad34781425a204
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121337"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54346026"
 ---
 # <a name="turn-on-or-off-entry-and-exit-announcements-for-meetings-in-microsoft-teams"></a>Включение и отключение оповещений о подключении к собраниям и выходе из них в Microsoft Teams
 
@@ -64,7 +64,7 @@ ms.locfileid: "51121337"
 
 Windows PowerShell is all about managing users and what users are allowed or not allowed to do. С Windows PowerShell вы можете управлять Microsoft 365 или Office 365 с помощью единого администрирования, который упростит выполнение повседневных задач. Для начала работы с Windows PowerShell ознакомьтесь с приведенными ниже разделами.
 
-- [Зачем нужна Microsoft 365 или Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+- [Зачем нужно использовать Microsoft 365 или Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
 
 - [Лучшие способы управления Microsoft 365 или Office 365 с помощью Windows PowerShell](/previous-versions//dn568025(v=technet.10))
 

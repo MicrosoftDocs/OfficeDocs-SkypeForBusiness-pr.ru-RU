@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: Узнайте о наборе бесплатных номеров в Кении, в том числе о доступности, доступности проводных и фиксированных телефонных номеров, а также ограничениях для мобильной сети.
-ms.openlocfilehash: 5a503270b2ed9ad1943492c498a9a605e47356cc
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 818d7667a2d9e788f9ff81abc0ed5bcfdb6b29c284ed2890f69f0b80f79d49ee
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51097965"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54321121"
 ---
 # <a name="toll-free-dialing-restrictions-in-kenya"></a>Ограничения набора бесплатных номеров в Кении
 

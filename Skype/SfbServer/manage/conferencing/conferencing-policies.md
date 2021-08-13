@@ -1,5 +1,5 @@
 ---
-title: Управление политиками конференциинга в Skype для бизнеса Server
+title: Управление политиками конференций в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,18 +12,18 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 34ec5e41-6fe6-450b-81b0-0d17b9989839
 description: Сводка. Узнайте, как управлять политиками конференций в Skype для бизнеса Server.
-ms.openlocfilehash: 39855aac09b88852d0931c9b8fbdb8e2e9187c71
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: e3d1e9c3ef3ef50cadd5f1cce03508896cbb3950a03a889092e9fbf7d2d5b93b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51099105"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54301405"
 ---
-# <a name="manage-conferencing-policies-in-skype-for-business-server"></a>Управление политиками конференциинга в Skype для бизнеса Server
+# <a name="manage-conferencing-policies-in-skype-for-business-server"></a>Управление политиками конференций в Skype для бизнеса Server
  
-**Сводка:** Узнайте, как управлять политиками конференций в Skype для бизнеса Server.
+**Сводка:** Узнайте, как управлять политиками conferencing в Skype для бизнеса Server.
   
-В этом разделе описывается управление политиками конференций. Дополнительные сведения о планировании и развертывании конференций см. в веб-сведениях Plan [for conferencing in Skype for Business Server](../../plan-your-deployment/conferencing/conferencing.md) и Deploy [conferencing in Skype for Business Server.](../../deploy/deploy-conferencing/deploy-conferencing.md)
+В этом разделе описывается управление политиками конференций. Дополнительные сведения о планировании и развертывании конференций см. в Skype для бизнеса Server Plan [for conferencing in Skype для бизнеса Server](../../plan-your-deployment/conferencing/conferencing.md) и Deploy [conferencing in Skype для бизнеса Server](../../deploy/deploy-conferencing/deploy-conferencing.md).
   
 Политики конференциации позволяют определить самые разнообразные варианты планирования и участия, начиная от того, может ли собрание включать ip-аудио и видео до максимального числа людей, которые могут присутствовать. Политики проведения собраний можно использовать для управления безопасностью, пропускной способностью и юридическими аспектами собраний.
   
@@ -31,19 +31,19 @@ ms.locfileid: "51099105"
   
 Глобальная политика существует по умолчанию, поэтому ее невозможно создать. Существующую глобальную политику также нельзя удалить, однако ее можно изменить, чтобы настроить параметры по умолчанию.
   
-## <a name="manage-conferencing-policies-by-using-skype-for-business-server-control-panel"></a>Управление политиками конференций с помощью панели управления Skype для бизнес-серверов
+## <a name="manage-conferencing-policies-by-using-skype-for-business-server-control-panel"></a>Управление политиками conferencing с помощью Skype для бизнеса Server панели управления
 
-Управление политиками конференций с помощью панели управления Skype для бизнес-серверов:
+Управление политиками конференций с помощью Skype для бизнеса Server панели управления:
   
 1. Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи пользователя, назначенной роли CsUserAdministrator или CsAdministrator.
     
-2.  Откройте панель управления Skype для бизнес-серверов.
+2.  Откройте панель Skype для бизнеса Server управления.
     
 3. В левой панели навигации нажмите **кнопку Conferencing** и нажмите кнопку **Политика конференциации**.
     
-## <a name="manage-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>Управление политиками конференциинга с помощью оболочки управления Skype для бизнес-серверов
+## <a name="manage-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>Управление политиками conferencing с помощью Skype для бизнеса Server Management Shell
 
-Для управления собраниями с помощью skype for Business Server Management Shell используйте следующие команды:
+Для управления собраниями с помощью Skype для бизнеса Server management Shell используйте следующие команды:
   
 **Параметры политики conferencing**
 

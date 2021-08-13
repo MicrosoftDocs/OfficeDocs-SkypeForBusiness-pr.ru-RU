@@ -20,22 +20,22 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-apr2020
-ms.openlocfilehash: feffdb827c33628749e16083c858b03c9837efd1
-ms.sourcegitcommit: 4143ce9bd62e67ba09f89cedadfd65803bda5361
+ms.openlocfilehash: d753b93d248a84632f4ce606ca6b31a1a25c39f089e798c0791c4517156c85e9
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/28/2020
-ms.locfileid: "49734267"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54321401"
 ---
 # <a name="edit-guest-user-information"></a>Изменение сведений о гостевых пользователях
 
-Вы можете изменить сведения о гостях в центре Microsoft 365 или на Azure Active Directory портале.
+Вы можете изменить сведения о гостях на Центр администрирования Microsoft 365 или Azure Active Directory портале.
 
 ## <a name="guest-users-in-the-microsoft-365-admin"></a>Гостевых пользователей в Microsoft 365 администратора
 
-1. Чтобы изменить сведения о гостях в Центре [администрирования Microsoft 365](https://admin.microsoft.com), выберите **Пользователи**  >  **Гостевых пользователей**.
+1. Чтобы изменить сведения о гостях в [Центр администрирования Microsoft 365](https://admin.microsoft.com), выберите **Пользователи**  >  **Гостевых пользователей**.
 
-   ![Редактируемая информация гостевого пользователя](media/access-guest-user.png)
+   ![Сведения о гостевых пользователях, редактируемые](media/access-guest-user.png)
 
 2. Выберите пользователя в **гостевых пользователях**.
 

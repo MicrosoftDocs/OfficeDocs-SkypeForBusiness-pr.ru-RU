@@ -15,21 +15,21 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7500896a-14ea-4b11-aaee-be3d81314536
 description: Параметры зеркальной базы данных определяются следующим образом.
-ms.openlocfilehash: 63e3795cc52b9b8e3601b2260df253fdcd2d9c59
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 0555d61a41d846404855fdf487f4bc70b8c9c75d0d4416b2eeb43187de916cf5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49806899"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54301425"
 ---
 # <a name="install-mirror-database-option-page"></a>Страница параметров установки зеркальной базы данных
  
 **Параметры зеркальной базы данных** определяются следующим образом.
   
-- Введите **путь к файловой** папке, чтобы определить расположение резервных SQL Server для зеркальной базы данных.
+- Введите **путь к файлу,** чтобы определить расположение резервного SQL Server для зеркального копирования базы данных.
     
     > [!NOTE]
-    > Основной экземпляр SQL Server (именуемом или экземпляре по умолчанию) должен иметь разрешения на записи для файловой папки, определенной здесь. Экземпляр зеркального SQL Server (именуемом или экземпляре по умолчанию) должен иметь разрешения на чтение для одной и той же файловой папки. 
+    > У основного SQL Server (либо имени экземпляра, либо экземпляра по умолчанию) должны быть разрешения на записи в определенный здесь файл. Экземпляр зеркального SQL Server (или названный экземпляр или экземпляр по умолчанию) должен иметь разрешения на чтение одной и той же папки файла. 
   
   При нажатии кнопки **ОК** выполняется принятие и сохранение изменений в этом диалоговом окне.
   
@@ -39,4 +39,4 @@ ms.locfileid: "49806899"
   
 ## <a name="see-also"></a>См. также
 
-[Развертывание SQL зеркального отражания для высокой доступности серверов в Skype для бизнеса Server 2015](../../deploy/deploy-high-availability-and-disaster-recovery/sql-mirroring-for-high-availability.md)
+[Развертывание SQL для высокой доступности back End Server в Skype для бизнеса Server 2015 г.](../../deploy/deploy-high-availability-and-disaster-recovery/sql-mirroring-for-high-availability.md)

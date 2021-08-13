@@ -1,5 +1,5 @@
 ---
-title: Назначение политик для поддержки анонимных пользователей
+title: Назначение политик conferencing для поддержки анонимных пользователей
 ms.reviewer: ''
 ms:assetid: 662de022-1111-40f7-bad4-f2b686f30973
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg521007(v=OCS.15)
@@ -15,29 +15,29 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Администратор управляет, кто может приглашать анонимных пользователей, путем настройки политики конференц-связи для поддержки анонимных пользователей и применения этой политики конференц-связи к определенным пользователям.
-ms.openlocfilehash: 57d100569722cbe89811d15eb9fbe04e5d375711
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 371f1b94dcf1bfe3f99b734fc7c244fbee29c855c5900d1f9cf5683a85a7d6db
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49817459"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54297255"
 ---
-# <a name="assign-conferencing-policies-to-support-anonymous-users-in-skype-for-business-server"></a>Назначение политик для поддержки анонимных пользователей в Skype для бизнеса Server 
+# <a name="assign-conferencing-policies-to-support-anonymous-users-in-skype-for-business-server"></a>Назначение политик конференций для поддержки анонимных пользователей в Skype для бизнеса Server 
 
 
-По умолчанию все пользователи не могут пригласить анонимных пользователей для участия в собрании. Администратор управляет, кто может приглашать анонимных пользователей, путем настройки политики конференц-связи для поддержки анонимных пользователей и применения этой политики конференц-связи к определенным пользователям. Дополнительные сведения о настройке политик для поддержки анонимных пользователей см. в дополнительных сведениях о создании политик в Skype для бизнеса [Server](../../conferencing/create-policies.md) и управлении федерацией и внешним доступом к Skype для бизнеса [Server.](../managing-federation-and-external-access.md)
+По умолчанию все пользователи не могут пригласить анонимных пользователей для участия в собрании. Администратор управляет, кто может приглашать анонимных пользователей, путем настройки политики конференц-связи для поддержки анонимных пользователей и применения этой политики конференц-связи к определенным пользователям. Дополнительные сведения о настройке политик conferencing для поддержки анонимных пользователей см. в материале [Create conferencing policies in Skype для бизнеса Server](../../conferencing/create-policies.md) and [Managing federation and external access to Skype для бизнеса Server.](../managing-federation-and-external-access.md)
 
 Используйте процедуру в этом разделе для применения уже созданной политики конференц-связи к одному или нескольким пользователям, а также к группам пользователей.
 
 > [!NOTE]  
-> В дополнение к настройке и применению политики для разрешения пользователям приглашать анонимных пользователей необходимо также обеспечивать поддержку анонимных пользователей в организации. For details, see [Configure policies to control public user access in Skype for Business Server.](../external-access-policies/configure-policies-to-control-public-user-access.md)
+> В дополнение к настройке и применению политики для разрешения пользователям приглашать анонимных пользователей необходимо также обеспечивать поддержку анонимных пользователей в организации. Подробные сведения см. в [материале Configure policies to control public user access in Skype для бизнеса Server.](../external-access-policies/configure-policies-to-control-public-user-access.md)
 
 
 ## <a name="to-configure-a-user-policy-for-anonymous-participation-in-meetings"></a>Чтобы настроить политику пользователей для анонимного участия в собраниях
 
-1.  Из учетной записи пользователя, которая является членом группы RTCUniversalServerAdmins (или имеет эквивалентные права пользователя) или назначена роли CsAdministrator, войдите на любой компьютер во внутреннем развертывании.
+1.  С учетной записи пользователя, которая входит в группу RTCUniversalServerAdmins (или имеет эквивалентные права пользователя) или назначена роли CsAdministrator, войдите на любой компьютер во внутреннем развертывании.
 
-2.  Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Skype для бизнеса Server. 
+2.  Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель Skype для бизнеса Server управления. 
 
 3.  На левой панели навигации щелкните **Конференц-связь**, затем выполните одно из следующих действий.
     
@@ -53,11 +53,11 @@ ms.locfileid: "49817459"
 
 7.  В таблице, в которой перечислены результаты поиска, щелкните учетную запись пользователя, нажмите кнопку **Изменить** и нажмите кнопку **Подробнее**.
 
-8.  In **Edit Skype for Business Server User** under **Conferencing policy**, select the user policy with the anonymous user access configuration that you want to apply to this user.  
+8.  В **статье Изменить Skype для бизнеса Server пользователя** в соответствии с политикой **conferencing** выберите политику пользователя с конфигурацией анонимного доступа пользователей, которую необходимо применить к этому пользователю.  
 
     > [!NOTE]  
     > <STRONG> &lt; Автоматические &gt; </STRONG> параметры применяют параметры установки сервера по умолчанию и автоматически применяются сервером.
 
 
-Чтобы разрешить пользователям приглашать анонимных пользователей в конференции, необходимо также включить поддержку анонимных пользователей в организации. For details, see [Configure policies to control public user access in Skype for Business Server.](../external-access-policies/configure-policies-to-control-public-user-access.md)
+Чтобы разрешить пользователям приглашать анонимных пользователей в конференции, необходимо также включить поддержку анонимных пользователей в организации. Подробные сведения см. в [материале Configure policies to control public user access in Skype для бизнеса Server.](../external-access-policies/configure-policies-to-control-public-user-access.md)
 
