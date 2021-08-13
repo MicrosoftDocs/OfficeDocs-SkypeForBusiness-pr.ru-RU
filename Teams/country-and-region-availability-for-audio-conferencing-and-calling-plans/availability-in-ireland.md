@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Ниже ются Microsoft 365 и Office 365 службы Skype для бизнеса и Microsoft Teams для Ирландии.
-ms.openlocfilehash: baec07568ee858874cc07cfe562b0ebc253977c0
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 3db7e8c9e8eb49da2825777dc831ede2892c56a8738943af5637c6578efa4070
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117977"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54318512"
 ---
 # <a name="availability-in-ireland"></a>Доступность в Ирландии
 

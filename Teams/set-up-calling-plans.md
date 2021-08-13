@@ -25,12 +25,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Узнайте, как настроить планы звонков, в том числе просмотреть планы, доступные в вашем регионе, приобрести & назначить лицензии, получить номера телефонов и добавить адреса для экстренного & местоположения.
-ms.openlocfilehash: a06ec3b71933e8e6ea640b6377581243140ef672
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 0eedd72947c4969fc7f42d75d5241ca38c69e0c2e22172444a0d349b6a77b611
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117127"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54348664"
 ---
 # <a name="set-up-calling-plans"></a>Настройка планов звонков
 
@@ -52,7 +52,7 @@ ms.locfileid: "51117127"
 ## <a name="step-3-get-phone-numbers"></a>Шаг 3. Получить номера телефонов
 Есть три способа получить новые номера пользователей:
 
-- **Используйте центр Teams администрирования.** В некоторых странах и регионах вы можете получить номера для своих пользователей с помощью центра администрирования Teams см. статью Получение номеров телефонов [для пользователей.](getting-phone-numbers-for-your-users.md)
+- **Используйте центр Teams администрирования.** В некоторых странах и регионах вы можете получить номера пользователей с помощью центра администрирования Teams см. статью Получение номеров телефонов [для пользователей.](getting-phone-numbers-for-your-users.md)
     
 - **Портируйте номера, которые у вас уже есть.** Вы можете переносить существующие номера от текущего поставщика услуг или оператора связи в Microsoft 365 или Office 365. Дополнительные сведения см. в [дополнительных сведениях](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) в Teams или Управление телефонными номерами [для организации.](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) 
   

@@ -1,5 +1,5 @@
 ---
-title: Настройка магистральных магистральных звонков в Skype для бизнеса Server
+title: Настройка магистрали в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -10,26 +10,26 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: В рамках Корпоративная голосовая связь вы можете настроить магистраль между сервером-посредником и одним или более одноранговых узлами, чтобы обеспечить подключение к телефонной сети общего слева (PSTN) для Корпоративная голосовая связь клиентов и устройств в организации.
-ms.openlocfilehash: 57b8635d635c0fd0b8c41c95f92af768ff84dfd4
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: В рамках Корпоративная голосовая связь развертывания можно настроить магистраль между сервером-посредником и одним или несколькою однорангами, чтобы обеспечить подключение к общедоступным переключаемой телефонной сети (PSTN) для Корпоративная голосовая связь клиентов и устройств в вашей организации.
+ms.openlocfilehash: 82491d566e36ce819456c3d2a8983f97dd6c4f17d4d7cece71a066342d48efea
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49800119"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54333461"
 ---
-# <a name="configuring-trunks-in-skype-for-business-server"></a>Настройка магистральных магистральных звонков в Skype для бизнеса Server
+# <a name="configuring-trunks-in-skype-for-business-server"></a>Настройка магистрали в Skype для бизнеса Server
 
-В рамках развертывания Корпоративная голосовая связь можно настроить магистраль между сервером-посредником и одним или более из следующих одноранговых серверов, чтобы обеспечить подключение к STN для клиентов Корпоративная голосовая связь и устройств в организации:
+В рамках Корпоративная голосовая связь развертывания можно настроить магистраль между сервером-посредником и одним или более из следующих одноранговых серверов, чтобы обеспечить подключение к общедоступным телефонным сетям (PSTN) для Корпоративная голосовая связь клиентов и устройств в вашей организации:
 
 - Подключение магистрали SIP к поставщику услуг Интернет-телефонии
 - Шлюз ТСОП
 - УАТС
 
-For details, see [Plan for PSTN connectivity in Skype for Business Server.](../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity-0.md)
+Подробные сведения см. [в материале Plan for PSTN connectivity in Skype для бизнеса Server.](../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity-0.md)
 
 > [!IMPORTANT]
-> Прежде чем приступать к настройке магистрали, убедитесь что создана топология и что сервер-посредник и его одноранговый узел настроены и связаны друг с другом. For details, see [Define a gateway in Topology Builder in Skype for Business Server](../../deploy/deploy-enterprise-voice/define-a-gateway.md).
+> Прежде чем приступать к настройке магистрали, убедитесь что создана топология и что сервер-посредник и его одноранговый узел настроены и связаны друг с другом. Подробные сведения см. [в материале Определение шлюза в Topology Builder в Skype для бизнеса Server.](../../deploy/deploy-enterprise-voice/define-a-gateway.md)
 
 > [!NOTE]
-> В рамках настройки магистрали можно включить функцию обхода сервера-посредника Skype для бизнеса Server, которая позволяет мультимедиа обходить сервер-посредник. Магистрали можно настроить как с включенной, так и с выключенной функцией медиа-посредника, но мы настоятельно рекомендуем включить эту функцию. For details, see [Plan for media bypass in Skype for Business](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md).
+> В рамках конфигурации магистрали вы можете включить функцию обхода Skype для бизнеса Server мультимедиа, которая позволяет средствам массовой информации обходить сервер-посредник. Магистрали можно настроить как с включенной, так и с выключенной функцией медиа-посредника, но мы настоятельно рекомендуем включить эту функцию. Подробные сведения см. [в материале Plan for media bypass in Skype для бизнеса.](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)

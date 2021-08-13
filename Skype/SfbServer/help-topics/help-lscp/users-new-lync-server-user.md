@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 23408002-f83c-4b8a-ac65-6fb0e6bc414e
 description: Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
-ms.openlocfilehash: 988640963eb6028cb85eee5afc243f6060a99950
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 36022fe928769e4e5113a48723143036dbbaf87914584964164a439e5b9015e6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51115197"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54348244"
 ---
 # <a name="users-new-lync-server-user"></a>Пользователи: новый пользователь Lync Server
 
@@ -34,7 +34,7 @@ ms.locfileid: "51115197"
 
 - [Укажите клиентские версии, поддерживаемые для входной записи пользователем](/previous-versions/office/lync-server-2013/lync-server-2013-assign-a-per-user-client-version-policy)
 
-- [Назначение политики ПИН-кода для каждого пользователя в Skype для бизнеса Server 2015](../../manage/authentication/assign-a-per-user-pin-policy.md)
+- [Назначение политики ПИН-кода для каждого пользователя в Skype для бизнеса Server 2015 г.](../../manage/authentication/assign-a-per-user-pin-policy.md)
 
 - [Настройка федерации, удаленного доступа к пользователю и общедоступных подключений к чату для пользователей](/previous-versions/office/lync-server-2013/lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user)
 
@@ -42,7 +42,7 @@ ms.locfileid: "51115197"
 
 - [Назначение политики расположения пользователю](/previous-versions/office/lync-server-2013/lync-server-2013-assign-a-per-user-location-policy)
 
-- [Включить пользователей для Корпоративная голосовая связь в Skype для бизнеса Server 2015](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
+- [Включить пользователей для Корпоративная голосовая связь в Skype для бизнеса Server 2015 г.](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
 
 - [Настройка федерации, удаленного доступа к пользователю и общедоступных подключений к чату для пользователей](/previous-versions/office/lync-server-2013/lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user)
 
@@ -52,4 +52,4 @@ ms.locfileid: "51115197"
 
 - [Назначение политики сохраняемого сеанса беседы уровня пользователя](/previous-versions/office/lync-server-2013/lync-server-2013-assign-a-per-user-persistent-chat-policy)
 
-Сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнес-серверов, см. в материале Управление Skype для бизнеса [Server 2015.](../../manage/manage.md)
+Сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнеса Server, см. в Skype для бизнеса Server [2015](../../manage/manage.md)г.

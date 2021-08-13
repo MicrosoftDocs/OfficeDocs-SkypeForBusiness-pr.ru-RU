@@ -12,19 +12,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 8f16d8ea-8161-4b07-9c79-d57e786b3e78
-description: The Get-CcApplianceLogDirectory shows the current directory where logs for a Skype for Business Cloud Connector Edition appliance are stored.
-ms.openlocfilehash: 284846bbc305d76602ae1e2f065fcdd571c9deb2
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: В Get-CcApplianceLogDirectory показан текущий каталог, в котором хранятся журналы Skype для бизнеса Cloud Connector Edition устройства.
+ms.openlocfilehash: 75f3ba3a5de5198456e053bd51ef567df1a0ae43461e9888e87294d3af406288
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41800829"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54318662"
 ---
 # <a name="get-ccappliancelogdirectory"></a>Get-CcApplianceLogDirectory
  
-The Get-CcApplianceLogDirectory shows the current directory where logs for a Skype for Business Cloud Connector Edition appliance are stored.
+В Get-CcApplianceLogDirectory показан текущий каталог, в котором хранятся журналы Skype для бизнеса Cloud Connector Edition устройства.
   
-Этот cmdlet применяется к Skype для бизнеса Cloud Connector Edition 1.4.1, 1.4.2.
+Этот комлет применяется к Skype для бизнеса Cloud Connector Edition 1.4.1, 1.4.2.
   
 ```powershell
 Get-CcApplianceLogDirectory
@@ -37,9 +37,9 @@ Get-CcApplianceLogDirectory
 ## <a name="examples"></a>Примеры
 <a name="Examples"> </a>
 
-### <a name="example-1"></a>Пример 1
+### <a name="example-1"></a>Пример 1
 
-В следующем примере показана текущая папка, в которой хранятся журналы для текущего устройства Cloud Connector:
+В следующем примере показана текущая папка, в которой хранятся журналы для текущего устройства облачного соединитетеля:
   
 ```powershell
 Get-CcApplianceLogDirectory
@@ -48,21 +48,21 @@ Get-CcApplianceLogDirectory
 ## <a name="detailed-description"></a>Подробное описание
 <a name="DetailedDescription"> </a>
 
-Этот Get-CcApplianceLogDirectory показывает текущий каталог, в котором хранятся журналы для устройства Cloud Connector. Папка по умолчанию C:\Users \% userprofile%\CloudConnector\ApplianceRoot\Logs. 
+В Get-CcApplianceLogDirectory показан текущий каталог, в котором хранятся журналы для устройства облачного соединителя. Папка по умолчанию — C:\Users \% userprofile%\CloudConnector\ApplianceRoot\Logs. 
   
-Вы можете изменить каталог с помощью Set-CcApplianceDirectory управления. 
+Каталог можно изменить с помощью Set-CcApplianceDirectory. 
   
-Примечание. Не существует никаких cmdlet, который изменяет только расположение папки журнала без изменения каталога устройства.
+Примечание. Не существует комлета, который изменяет только расположение папки журнала без изменения каталога приборов.
   
 ## <a name="input-types"></a>Типы входных данных
 <a name="InputTypes"> </a>
 
-Нет. Этот Get-CcApplianceLogDirectory не принимает конвейерные входные данные.
+Нет. В Get-CcApplianceLogDirectory не принимается конвейерный ввод.
   
 ## <a name="return-types"></a>Типы возвращаемых данных
 <a name="ReturnTypes"> </a>
 
-Эта команда возвращает путь к файлу.
+Эта команда возвращает путь файла.
   
 ## <a name="see-also"></a>См. также
 <a name="ReturnTypes"> </a>

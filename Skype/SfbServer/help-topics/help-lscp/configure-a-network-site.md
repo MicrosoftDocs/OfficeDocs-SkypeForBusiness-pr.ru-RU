@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9d65238a-d255-4b13-abe8-e4301b44c21c
 description: Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
-ms.openlocfilehash: 1acdebd7b6357b6d4497fdcd9463467973dcfa82
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 224493e188ef09d364e6f2dccacd4d2e33495e5b280ad46d2c41072d7f6c48bd
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119948"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54348304"
 ---
 # <a name="configure-a-network-site"></a>Настройка сетевого сайта
 
@@ -28,4 +28,4 @@ ms.locfileid: "51119948"
 
 - [Настройка сетевых сайтов](/previous-versions/office/lync-server-2013/lync-server-2013-creating-or-modifying-network-sites)
 
-Сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнес-серверов, см. в материале Управление Skype для бизнеса [Server 2015.](../../manage/manage.md)
+Сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнеса Server, см. в Skype для бизнеса Server [2015](../../manage/manage.md)г.

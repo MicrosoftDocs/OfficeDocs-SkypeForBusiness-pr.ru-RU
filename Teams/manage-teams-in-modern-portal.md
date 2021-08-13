@@ -1,5 +1,5 @@
 ---
-title: Управление командами в Центре администрирования Microsoft Teams
+title: Управление Microsoft Teams в Центре администрирования Microsoft Teams
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 95a9769fad45917515a27b0f3d726d2eb3dbc931efbfa4fd26af19eced92d190
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 86feedbb0212908ebd61f89c6e62e6d468813bd14ed1d86edec3abc00bf1d582
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54306351"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848194"
 ---
 # <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Управление командами в Центре администрирования Microsoft Teams
 
@@ -37,7 +37,7 @@ ms.locfileid: "54306351"
 - Глобальный администратор
 - Администратор Teams
 
-Дополнительные сведения о ролях администраторов в Teams см. в статье [Управление Microsoft Teams с помощью ролей администраторов](using-admin-roles.md). Чтобы узнать больше об использовании командлетов PowerShell для управления командами, см. [справочник по командлетам Microsoft Teams](/powershell/teams/?view=teams-ps).
+Дополнительные сведения о ролях администраторов в Teams см. в статье [Управление Microsoft Teams с помощью ролей администраторов](using-admin-roles.md). Чтобы узнать больше об использовании командлетов PowerShell для управления командами, см. [справочник по командлетам Microsoft Teams](/powershell/teams/).
 
 
 
@@ -121,7 +121,7 @@ ms.locfileid: "54306351"
 
 **Решение: вручную установите для свойства правильное значение с помощью MS Graph**
 
-Замените **{groupid}** в запросе на фактический ИД группы, который можно получить посредством Exchange Online PowerShell с помощью командлета **"[Get-UnifiedGroup](/powershell/module/exchange/users-and-groups/get-unifiedgroup?view=exchange-ps)"** в качестве атрибута "**ExternalDirectoryObjectId**".
+Замените **{groupid}** в запросе на фактический ИД группы, который можно получить посредством Exchange Online PowerShell с помощью командлета **"[Get-UnifiedGroup](/powershell/module/exchange/users-and-groups/get-unifiedgroup)"** в качестве атрибута "**ExternalDirectoryObjectId**".
 
 1. Откройте [песочницу Graph](https://developer.microsoft.com/graph/graph-explorer).
 
@@ -137,6 +137,6 @@ ms.locfileid: "54306351"
 
 ## <a name="learn-more"></a>Подробнее
 
-- [Справочник по командлетам Teams](/powershell/teams/?view=teams-ps)  
+- [Справочник по командлетам Teams](/powershell/teams/)  
 - [Управление Teams с помощью ролей администраторов](using-admin-roles.md)
 - [Планирование управления жизненным циклом в Teams](plan-teams-lifecycle.md)

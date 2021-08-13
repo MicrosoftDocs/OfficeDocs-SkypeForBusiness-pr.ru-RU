@@ -20,16 +20,16 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Узнайте, как назначить, изменить или удалить рабочий номер телефона для Teams, чтобы внешние компании и клиенты могли звонить.
-ms.openlocfilehash: 4f40049b3856f24d3ae5ddd3999be7213817bcdc
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 443fdb5833e657c3f45c0f53d1d4ce6744bd67b0b83247e72084e3d29f6c1bc7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120821"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54320032"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user-calling-plans"></a>Назначение, изменение и удаление номера телефона пользователя (планы звонков)
 
-При настройках планов звонков пользователям назначаются номера телефонов. В Microsoft Teams при нажатии кнопки Звонки будет указан номер телефона, который **назначается пользователю.** Инструкции по назначению, изменению и удалению номера телефона пользователя в сценарии [](./direct-routing-enable-users.md)прямой маршрутии см. в этой ссылке.
+При настройках планов звонков пользователям назначаются номера телефонов. В Microsoft Teams при нажатии кнопки Звонки будет указан номер телефона, который вы **назначаете.** Инструкции по назначению, изменению и удалению номера телефона пользователя в сценарии [](./direct-routing-enable-users.md)прямой маршрутии см. в этой ссылке.
 
 ![Номер телефона пользователя, отображаемого в Teams.](media/teams-phone-number.png)
 
@@ -38,7 +38,7 @@ ms.locfileid: "51120821"
 Чтобы узнать, как получить планы звонков в Teams и сколько они стоят, см. Teams лицензирования [надстройки](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
 > [!NOTE]
-> Чтобы узнать, назначена ли пользователю лицензия, переходить в центр администрирования Microsoft Teams и > **пользователей.** Если лицензия назначена, она будет указана на странице.  Вы также можете использовать Microsoft 365 администрирования.
+> Чтобы узнать, назначена ли пользователю лицензия, переходить в центр администрирования Microsoft Teams и > **пользователей.** Если лицензия назначена, она будет указана на странице.  Вы также можете использовать Центр администрирования Microsoft 365.
   
 ## <a name="assign-a-phone-number-to-a-user"></a>Назначение номера телефона пользователю
  
@@ -51,7 +51,7 @@ ms.locfileid: "51120821"
 5. В зависимости от того, хотите ли вы отправить пользователю сообщение электронной почты со сведениями о телефонном номере, отключите или включите отправку электронной почты пользователю со сведениями о **телефонном номере**. По умолчанию этот режим в том же режиме. 
 6. Нажмите кнопку **Сохранить**.
 
-Пример PowerShell см. в [примере Set-CsOnlineVoiceUser.](/powershell/module/skype/set-csonlinevoiceuser?view=skype-ps)
+Пример PowerShell см. [в примере Set-CsOnlineVoiceUser.](/powershell/module/skype/set-csonlinevoiceuser?view=skype-ps)
 
     > [!NOTE]
     > Because of the latency between Microsoft 365 or Office 365 and Teams, it can take up to 24 hours for users to be enabled. If the phone number isn't assigned correctly after 24 hours, [contact support for business products - Admin Help](/microsoft-365/admin/contact-support-for-business-products). We're here to help!

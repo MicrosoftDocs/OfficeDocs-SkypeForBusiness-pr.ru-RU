@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Используйте эти инструкции для поддержки удаленных сотрудников с целью обеспечения их эффективности, если они работают из дома в связи со вспышкой эпидемии COVID-19 (коронавируса).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4f0177437f992bf7fce9a94eb09e5dc3861aeb00
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 0bb2924eddd957e2a56548df4426b74e782af56dc9e727142b17869e6630e273
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121567"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54318632"
 ---
 # <a name="faq-support-your-remote-workforce"></a>Вопросы и ответы: поддержка удаленных сотрудников
 
@@ -91,19 +91,19 @@ ms.locfileid: "51121567"
 
 Если вы хотите приступить к работе самостоятельно, ознакомьтесь со статьей [Как выполнить развертывание Teams](./deploy-overview.md) и серией вебинаров [Teams за 30](./teams-in-30-workshops.md), предназначенной для начала работы с Teams всего за 30 дней.
 
-В клиентах для образования (EDU) корпорация Майкрософт предлагает [синхронизацию сведений о школе](/schooldatasync/), помогающую синхронизировать сведения из системы данных об учащихся (SIS) учебного заведения. Помощь по развертыванию Microsoft 365 см. в статье [Обзор развертывания Microsoft 365 для образования](/microsoft-365/education/deploy/). Не пропустите нашу новую статью [Начало работы с Teams для дистанционного обучения](remote-learning-edu.md).
+В клиентах для образования (EDU) корпорация Майкрософт предлагает [синхронизацию сведений о школе](/schooldatasync/), помогающую синхронизировать сведения из системы данных об учащихся (SIS) учебного заведения. Помощь по развертыванию Microsoft 365 см. в статье [Обзор развертывания Microsoft 365 для образования](/microsoft-365/education/deploy/). Не пропустите нашу новую статью [Начало работы с Teams для дистанционного обучения](remote-learning-edu.md).
 
 ### <a name="where-do-i-find-help-getting-teams-running-for-my-company-so-my-users-can-work-from-home-during-this-crisis"></a>Где найти справку о получении Teams для своей организации, чтобы пользователи смогли работать из дома во время этого кризиса?
 
 См. статью [Поддержка удаленных сотрудников с помощью Teams](support-remote-work-with-teams.md). В ней рассматриваются основные задачи и вопросы, связанные с началом работы с Teams для удаленных сотрудников.
 
-### <a name="i-just-got-started-with-microsoft-365-so-i-can-use-teams-to-support-my-remote-workers-or-students-ive-signed-up-for-the-service-but-when-a-user-tries-to-use-teams-they-get-this-error-youre-missing-out-ask-your-admin-to-enable-microsoft-teams-what-should-i-do"></a>Я только что начал работу с Microsoft 365, поэтому могу использовать Teams для поддержки своих удаленных сотрудников или учащихся. Я зарегистрировался в службе, но когда пользователь пытается использовать Teams, появляется ошибка "Вы много теряете! Попросите администратора активировать Microsoft Teams". Что делать?
+### <a name="i-just-got-started-with-microsoft-365-so-i-can-use-teams-to-support-my-remote-workers-or-students-ive-signed-up-for-the-service-but-when-a-user-tries-to-use-teams-they-get-this-error-youre-missing-out-ask-your-admin-to-enable-microsoft-teams-what-should-i-do"></a>Я только что начал работу с Microsoft 365, поэтому могу использовать Teams для поддержки своих удаленных сотрудников или учащихся. Я зарегистрировался в службе, но когда пользователь пытается использовать Teams, появляется ошибка "Вы много теряете! Попросите администратора активировать Microsoft Teams". Что делать?
 
 После активации одного из бесплатных предложений Teams вам потребуется включить его для своих пользователей. См. статьи [Управление доступом пользователей к Teams](user-access.md) и [Добавление пользователей по одному или массово](/microsoft-365/admin/add-users/add-users).
 
 Если вы впервые назначаете лицензию или активируете пользователя, но уже используете Microsoft 365 в течение некоторого времени, вам может потребоваться [включить Teams](Office-365-set-up.md) в организации. Ознакомьтесь с разделом [Я уже использую Microsoft 365, но не использую Teams. Предоставляются ли лицензии на пробные версии?](#i-have-microsoft-365-already-but-i-dont-use-teams-are-you-providing-trial-licenses) в этой статье.
 
-### <a name="in-meetings-attendees-are-having-trouble-joining-by-dialing-in---calls-arent-getting-through"></a>У участников собраний возникают проблемы с присоединением — звонки не проходят.
+### <a name="in-meetings-attendees-are-having-trouble-joining-by-dialing-in---calls-arent-getting-through"></a>У участников собраний возникают проблемы с присоединением — звонки не проходят.
 
 В периоды высокой загруженности собраний (которая наблюдается в связи со вспышкой COVID-19) мы рекомендуем пользователям присоединяться к собраниям, нажимая кнопку <strong>Присоединиться к собранию Teams</strong>, а не звонить по номеру конференции ТСОП и не использовать функцию <strong>Позвонить мне на номер</strong>. Это помогает обеспечить высокое качество звука, когда высокая громкость собрания вызывает перегрузку в сети ТСОП. 
 
@@ -123,6 +123,6 @@ ms.locfileid: "51121567"
 
 ### <a name="what-is-microsoft-doing-to-support-its-own-employees-during-the-covid-19-outbreak"></a>Какие меры предпринимает корпорация Майкрософт в поддержку своих сотрудников в условиях вспышки эпидемии COVID-19?
 
-Ознакомьтесь с записью президента корпорации Майкрософт Брэда Смита в нашем блоге от 5 марта 2020 г. [В стремлении защитить здоровье населения мы не должны забывать о защите доходов нашего обслуживающего персонала с почасовой оплатой труда](https://blogs.microsoft.com/on-the-issues/2020/03/05/covid-19-microsoft-hourly-workers/)
+Ознакомьтесь с записью президента корпорации Майкрософт Брэда Смита в нашем блоге от 5 марта 2020 г. [В стремлении защитить здоровье населения мы не должны забывать о защите доходов нашего обслуживающего персонала с почасовой оплатой труда](https://blogs.microsoft.com/on-the-issues/2020/03/05/covid-19-microsoft-hourly-workers/)
 
 и обязательно посетите страницу [совместного реагирования на COVID-19](https://news.microsoft.com/covid-19-response/?icid=mscom_marcom) на сайте Microsoft.com.

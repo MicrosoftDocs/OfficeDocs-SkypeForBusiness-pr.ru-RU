@@ -21,12 +21,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Узнайте о лицензиях на надстройки, функции и о том, как приобрести Microsoft 365 бизнес стандарт планы. '
-ms.openlocfilehash: e7a63c210264109eab0df1e89cf214de3cc5d827
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: c5469958a14c860223117742d4a0b3eb2c4d7a9e6f0168e3a7748413fc8426bf
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238487"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54318034"
 ---
 # <a name="microsoft-365-business-standard"></a>Microsoft 365 бизнес стандарт
 
@@ -55,7 +55,7 @@ ms.locfileid: "52238487"
 
 2. Приобретите надстройку **телефонной системы**.
     
-3. Купить план [звонков для Office 365](/MicrosoftTeams/calling-plans-for-office-365): вы можете купить его только после покупки телефонная система надстройки. 
+3. Купить план [звонков для Office 365](/MicrosoftTeams/calling-plans-for-office-365): вы можете приобрести его только после покупки телефонная система надстройки. 
     
     Второй вариант отлично подойдет для организаций с несколькими сотрудниками, которые совершают и принимают внешние телефонные звонки.
 

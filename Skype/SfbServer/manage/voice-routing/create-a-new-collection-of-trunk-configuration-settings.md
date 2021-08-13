@@ -1,5 +1,5 @@
 ---
-title: 'Skype для бизнеса Server: Создайте новую коллекцию параметров конфигурации магистрали'
+title: Создание новой коллекции параметров конфигурации магистрали в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -10,15 +10,15 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Параметры конфигурации магистрали SIP определяют связь между сервером-посредником и шлюзом открытой телефонной сети (PSTN), обменом IP-общедоступных филиалов (PBX) или пограничным контролером сеансов (SBC) у поставщика услуг.
-ms.openlocfilehash: 4e9e6164b7776181b85478c5d420f0bf5e296ac4c02fc23494c5af8808474566
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+description: Параметры конфигурации магистрали SIP определяют возможности и отношения между сервером-посредником и шлюзом PSTN, IP-PBX и пограничным контроллером сеансов у поставщика услуг.
+ms.openlocfilehash: 174b1ac2d47b491bb927ca1e55a0a02d4ca0b1087bb9adc597cc7393d9c36618
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57849944"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54333451"
 ---
-# <a name="skype-for-business-server-create-a-new-collection-of-trunk-configuration-settings"></a>Skype для бизнеса Server: Создайте новую коллекцию параметров конфигурации магистрали
+# <a name="create-a-new-collection-of-trunk-configuration-settings-in-skype-for-business-server"></a>Создание новой коллекции параметров конфигурации магистрали в Skype для бизнеса Server
 
 Параметры конфигурации линий связи SIP определяют возможности и связи между сервером-посредником и шлюзом телефонной сети общего пользования (ТСОП), IP-PBX или пограничным контроллером сеансов (SBC) на стороне поставщика услуг. Эти параметры позволяют определить:
 - Следует ли включить обход медиаданных на линиях связи.

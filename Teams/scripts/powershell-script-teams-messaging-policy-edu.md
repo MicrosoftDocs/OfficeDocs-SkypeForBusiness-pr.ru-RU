@@ -17,18 +17,18 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: c665b96c0c44c2ea763c343bb2857d4c2b9dbb26
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 9e33e31c5fc6b005459e8b216a2cfec984b80e73dc821d4e13fcaac0d02acf86
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117277"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54319682"
 ---
 # <a name="powershell-script-sample---create-and-assign-a-messaging-policy"></a>Пример сценария PowerShell — создание и назначение политики обмена сообщениями
 
-Используйте этот сценарий PowerShell, чтобы создать политику обмена сообщениями в Microsoft Teams назначить ее пользователям. 
+Используйте этот сценарий PowerShell для создания политики сообщений в Microsoft Teams и назначения ее пользователям. 
 
-Дополнительные сведения об использовании этого сценария PowerShell см. в кратком Teams [для образования.](../teams-quick-start-edu.yml)
+Дополнительные сведения об использовании этого сценария PowerShell см. в кратком начале [Teams для образования.](../teams-quick-start-edu.yml)
 
 Этот сценарий использует [командлет Grant-CsTeamsMessagingPolicy,](/powershell/module/skype/grant-csteamsmessagingpolicy) который находится в модуле Skype для бизнеса Online PowerShell. Дополнительные [Teams powerShell](../teams-powershell-overview.md) см. в Teams PowerShell.
 

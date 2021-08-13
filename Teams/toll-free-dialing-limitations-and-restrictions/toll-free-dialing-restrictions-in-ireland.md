@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: Узнайте о наборе бесплатных номеров в Ирландии, включая доступность, доступность проводной и фиксированной телефонной связи, а также ограничения для мобильной сети.
-ms.openlocfilehash: e8c8981c3e70f20c067aa910d0430478e08ced15
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 7279312cf231a18d67d3719fbcf2bf1b23daa939ac96d3922e0b9b5337fe7eff
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098074"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54319692"
 ---
 # <a name="toll-free-dialing-restrictions-in-ireland"></a>Ограничения набора бесплатных номеров в Ирландии
 
