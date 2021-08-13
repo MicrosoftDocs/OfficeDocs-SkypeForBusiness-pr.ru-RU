@@ -38,7 +38,7 @@ additionalContent:
   sections:
     - items:
         - title: Расширите Teams сценариев?
-          summary: Ознакомьтесь с нашими Teams Talk Talk Для ИТ-специалистов.
+          summary: Ознакомьтесь с нашими Teams talk talk для ИТ-специалистов.
           url: ./chalk-talks-landing-page.yml
         - title: Используете Teams впервые?
           summary: 'Узнайте больше о том, как при Teams.'

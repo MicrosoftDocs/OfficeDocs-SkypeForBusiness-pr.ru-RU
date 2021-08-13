@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a71881ef-b04a-465e-9abb-0577bfd182f3
 description: Создание или изменение политик пропускной способности, которые используются Корпоративная голосовая связь управления приемом вызовов в Skype для бизнеса Server.
-ms.openlocfilehash: 9458c5576d2c89254c4ee6477ede33c010cb4a21
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 9a0cbbb4f398872504eea38bda7a3a4e79a62ac00331946b73a62bbf9c57a2df
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093247"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54332041"
 ---
 # <a name="create-bandwidth-policy-profiles-in-skype-for-business-server"></a>Создание профилей политики пропускной способности в Skype для бизнеса Server 
  
@@ -29,7 +29,7 @@ ms.locfileid: "51093247"
   
 Политики пропускной способности задают ограничения пропускной способности сети для режимов передачи аудио и видеоданных в реальном времени. Политики пропускной способности применяются к профилям политикbandwidth, которые могут применяться к нескольким сетевым сайтам для управления приемом вызовов.
   
-Рекомендации по ограничению пропускной способности в развертывании CAC см. в статью [Plan for call admission control in Skype for Business Server.](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)
+Рекомендации о том, какие ограничения пропускной способности следует установить в развертывании CAC, см. в статью [Plan for call admission control in Skype для бизнеса Server.](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)
   
 Примеры политик, созданных в следующей процедуре, задают ограничения для общего трафика аудиоданных, отдельных аудиосеансов, общего трафика видеоданных и отдельных видеосеансов. Например, профиль политики пропускной способности 5Mb_Link задает следующие ограничения: 
   
@@ -44,9 +44,9 @@ ms.locfileid: "51093247"
 > [!NOTE]
 > Минимальное значение для аудиосеанса 40 кбит/с. Минимальное значение для видеосеанса 100 кбит/с. 
   
-### <a name="to-create-bandwidth-policy-profiles-by-using-skype-for-business-server-management-shell"></a>Создание профилей политики пропускной способности с помощью оболочки управления Skype для бизнес-серверов
+### <a name="to-create-bandwidth-policy-profiles-by-using-skype-for-business-server-management-shell"></a>Создание профилей политики пропускной способности с помощью Skype для бизнеса Server управленческой оболочки
 
-1. Запустите оболочку управления Skype для бизнес-серверов: нажмите кнопку Начните, щелкните Все **программы,** щелкните Skype для бизнеса **2015,** а затем нажмите **кнопку Skype для управления бизнес-серверами.**
+1. Запустите Skype для бизнеса Server: нажмите кнопку Начните, щелкните Все **программы,** нажмите кнопку Skype для бизнеса **2015,** а затем нажмите кнопку **Skype для бизнеса Server.**
     
 2. Выполните командлет New-CsNetworkBandwidthPolicyProfile для каждого создаваемого профиля политики пропускной способности. Пример:
     
@@ -66,9 +66,9 @@ ms.locfileid: "51093247"
    New-CsNetworkBandwidthPolicyProfile -Identity 25Mb_Link -Description "BW profile for 25Mb links" -AudioBWLimit 10000 -AudioBWSessionLimit 200 -VideoBWLimit 7000 -VideoBWSessionLimit 700
    ```
 
-### <a name="to-create-bandwidth-policy-profiles-by-using-skype-for-business-server-control-panel"></a>Создание профилей политики пропускной способности с помощью панели управления Skype для бизнес-серверов
+### <a name="to-create-bandwidth-policy-profiles-by-using-skype-for-business-server-control-panel"></a>Создание профилей политики пропускной способности с помощью Skype для бизнеса Server панели управления
 
-1. Откройте панель управления Skype для бизнес-серверов.
+1. Откройте панель Skype для бизнеса Server управления.
     
 2. В левой панели навигации щелкните **Network Configuration** (Параметры сети).
     

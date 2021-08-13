@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e068e1ef9144bdb09a7f6009495ad1b89ce7accf
-ms.sourcegitcommit: f781600a40e174cfc522e29375a4820b1142e23a
+ms.openlocfilehash: c68e3efd00e0f9204f507b4c63977837076bb3beb75a958a0629f1e5da64f69e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2021
-ms.locfileid: "53596387"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54344032"
 ---
 # <a name="use-general-team-templates-in-the-admin-center"></a>Использование общих шаблонов групп в Центре администрирования
 
@@ -55,7 +55,7 @@ ms.locfileid: "53596387"
 > [!div class="mx-tdBreakAll"]
 > | Тип базового шаблона |baseTemplateId| Свойства базового шаблона |
 > | ------------------|--|-----------------------------------------------------------|
-> | Принять Office 365 | `com.microsoft.teams.template.AdoptOffice365` | Каналы: <ul><li>Общие</li> <li>Объявления</li> <li>Угловой угол химок</li> <li>Формы команд</li></ul> Приложения: <ul><li>Вики</li>  <li>Календарь</li><li>Разработка навыков</li><li>Обработка ссуды</li><li>Жалобы клиентов</li><li>Слава</li><li>Интересные материалы</li><li>Соответствие требованиям</li></ul>|
+> | Принять Office 365 | `com.microsoft.teams.template.AdoptOffice365` | Каналы: <ul><li>Общие</li> <li>Объявления</li> <li>Угловой угол химок</li> <li>Формы команд</li></ul> Приложения: <ul><li>Вики</li>  <li>Календарь</li><li>Разработка навыков</li><li>Обработка ссуды</li><li>Жалобы клиентов</li><li>Слава</li><li>Забавные материалы</li><li>Соответствие требованиям</li></ul>|
 > ||||
 
 ## <a name="manage-a-project"></a>Управление проектом
@@ -82,7 +82,7 @@ ms.locfileid: "53596387"
 
 ## <a name="onboard-employees"></a>Сотрудники, работающие на доске
 
-Улучшите свою культуру и упростите сбор сотрудников с помощью центральной команды, которая будет использовать ресурсы, вопросы и немного интересного.
+Улучшите свою культуру и упростите сбор сотрудников с помощью центральной команды для работы с ресурсами, вопросами и развлечениями.
 
 > [!div class="mx-tdBreakAll"]
 > | Тип базового шаблона |baseTemplateId| Свойства базового шаблона |

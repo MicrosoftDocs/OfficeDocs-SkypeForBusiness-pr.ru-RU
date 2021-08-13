@@ -1,5 +1,5 @@
 ---
-title: Сведения о таблице CDR в Skype для бизнеса Server 2015
+title: Сведения о таблице CDR в Skype для бизнеса Server 2015 г.
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,74 +13,74 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 896198f5-672b-48ea-852f-0211c0c90857
 description: В следующих разделах описываются столбцы таблиц схемы базы данных записей регистрации вызовов.
-ms.openlocfilehash: 5b271d336cfe5dd17a83cf318debf7eb2675d344
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 7b22676a675d70359cf895261f3f0ad3cec13a6835805efefaacb6be7a7416ce
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49813379"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54296976"
 ---
-# <a name="cdr-table-details-in-skype-for-business-server-2015"></a>Сведения о таблице CDR в Skype для бизнеса Server 2015
+# <a name="cdr-table-details-in-skype-for-business-server-2015"></a>Сведения о таблице CDR в Skype для бизнеса Server 2015 г.
  
 В следующих разделах описываются столбцы таблиц схемы базы данных записей регистрации вызовов.
   
-## <a name="in-this-section"></a>В этом разделе:
+## <a name="in-this-section"></a>Содержание
 
-- [Таблица Application в Skype для бизнеса Server 2015](application.md)
+- [Таблица приложений Skype для бизнеса Server 2015 г.](application.md)
     
-- [Таблица CallPriorities в Skype для бизнеса Server 2015](callpriorities.md)
+- [Таблица CallPriorities в Skype для бизнеса Server 2015 г.](callpriorities.md)
     
-- [Таблица CallType в Skype для бизнеса Server 2015](calltype.md)
+- [Таблица CallType в Skype для бизнеса Server 2015 г.](calltype.md)
     
-- [Таблица ClientVersions в Skype для бизнеса Server 2015](clientversions.md)
+- [Таблица ClientVersions в Skype для бизнеса Server 2015 г.](clientversions.md)
     
-- [Таблица ConferenceJoinTimeThresholds в Skype для бизнеса Server 2015](conferencejointimethresholds.md)
+- [Таблица ConferenceJoinTimeThresholds в Skype для бизнеса Server 2015 г.](conferencejointimethresholds.md)
     
-- [Таблица ConferenceMessageCount в Skype для бизнеса Server 2015](conferencemessagecount.md)
+- [Таблица ConferenceMessageCount в Skype для бизнеса Server 2015 г.](conferencemessagecount.md)
     
-- [Таблица Conferences в Skype для бизнеса Server 2015](conferences.md)
+- [Таблица конференций Skype для бизнеса Server 2015 г.](conferences.md)
     
-- [Таблица ConferenceSessionDetails в Skype для бизнеса Server 2015](conferencesessiondetails-0.md)
+- [Таблица ConferenceSessionDetails в Skype для бизнеса Server 2015 г.](conferencesessiondetails-0.md)
     
-- [Таблица ConferenceUris в Skype для бизнеса Server 2015](conferenceuris.md)
+- [Таблица ConferenceUris в Skype для бизнеса Server 2015 г.](conferenceuris.md)
     
-- [Таблица ContentTypes в Skype для бизнеса Server 2015](contenttypes.md)
+- [Таблица ContentTypes в Skype для бизнеса Server 2015 г.](contenttypes.md)
     
-- [Таблица DeRegisterType в Skype для бизнеса Server 2015](deregistertype.md)
+- [Таблица DeRegisterType в Skype для бизнеса Server 2015 г.](deregistertype.md)
     
-- [Таблица Devices в Skype для бизнеса Server 2015](devices.md)
+- [Таблица устройств в Skype для бизнеса Server 2015 г.](devices.md)
     
-- [Таблица Dialogs в Skype для бизнеса Server 2015](dialogs.md)
+- [Таблица диалогов Skype для бизнеса Server 2015 г.](dialogs.md)
     
-- [Таблица EdgeServers в Skype для бизнеса Server 2015](edgeservers.md)
+- [Таблица EdgeServers в Skype для бизнеса Server 2015 г.](edgeservers.md)
     
-- [Таблица ErrorCategory в Skype для бизнеса Server 2015](errorcategory.md)
+- [Таблица ErrorCategory в Skype для бизнеса Server 2015 г.](errorcategory.md)
     
-- [Таблица ErrorDef в Skype для бизнеса Server 2015](errordef.md)
+- [Таблица ErrorDef в Skype для бизнеса Server 2015 г.](errordef.md)
     
-- [Таблица ErrorReport в Skype для бизнеса Server 2015](errorreport.md)
+- [Таблица ErrorReport в Skype для бизнеса Server 2015 г.](errorreport.md)
     
-- [Таблица FileTransfers в Skype для бизнеса Server 2015](filetransfers-0.md)
+- [Таблица FileTransfers в Skype для бизнеса Server 2015 г.](filetransfers-0.md)
     
-- [Таблица FocusJoinsAndLeaves в Skype для бизнеса Server 2015](focusjoinsandleaves.md)
+- [Таблица FocusJoinsAndLeaves в Skype для бизнеса Server 2015 г.](focusjoinsandleaves.md)
     
-- [Таблица FrontEnd в Skype для бизнеса Server 2015](frontend.md)
+- [Таблица FrontEnd в Skype для бизнеса Server 2015 г.](frontend.md)
     
-- [Таблица Gateways в Skype для бизнеса Server 2015](gateways.md)
+- [Таблица шлюзов Skype для бизнеса Server 2015 г.](gateways.md)
     
-- [Таблица HardwareVersions в Skype для бизнеса Server 2015](hardwareversions.md)
+- [Таблица HardwareVersions в Skype для бизнеса Server 2015 г.](hardwareversions.md)
     
-- [Таблица IMReportSummary в Skype для бизнеса Server 2015](imreportsummary.md)
+- [Таблица IMReportSummary в Skype для бизнеса Server 2015 г.](imreportsummary.md)
     
-- [Таблица Locations в Skype для бизнеса Server 2015](locations.md)
+- [Таблица расположения в Skype для бизнеса Server 2015 г.](locations.md)
     
-- [Таблица Manufacturers в Skype для бизнеса Server 2015](manufacturers.md)
+- [Таблица производителей в Skype для бизнеса Server 2015 г.](manufacturers.md)
     
-- [Таблица McuJoinsAndLeaves в Skype для бизнеса Server 2015](mcujoinsandleaves.md)
+- [Таблица McuJoinsAndLeaves в Skype для бизнеса Server 2015 г.](mcujoinsandleaves.md)
     
-- [Таблица Mcus в Skype для бизнеса Server 2015](mcus.md)
+- [Таблица Mcus в Skype для бизнеса Server 2015 г.](mcus.md)
     
-- [Таблица Мультимедиа](media.md)
+- [Таблица мультимедиа](media.md)
     
 - [Таблица MediaList](medialist.md)
     
@@ -88,35 +88,35 @@ ms.locfileid: "49813379"
     
 - [Таблица MSMQProcessing](msmqprocessing.md)
     
-- [Таблица Phones](phones.md)
+- [Таблица телефонов](phones.md)
     
-- [Таблица Pools](pools.md)
+- [Таблица пулов](pools.md)
     
 - [Таблица ProgressReport](progressreport.md)
     
 - [Таблица PurgeSettings](purgesettings.md)
     
-- [Таблица Registration](registration.md)
+- [Таблица регистрации](registration.md)
     
-- [Таблица Roles](roles.md)
+- [Таблица ролей](roles.md)
     
-- [Таблица "Серверы"](servers.md)
+- [Таблица серверов](servers.md)
     
 - [Таблица SessionDetails](sessiondetails.md)
     
 - [Таблица SIPResponseMetaData](sipresponsemetadata.md)
     
-- [Таблица Syndicators](syndicators.md)
+- [Таблица синдикаторов](syndicators.md)
     
 - [Таблица SyndicatorsTenantMap](syndicatorstenantmap.md)
     
-- [Таблица Task](task.md)
+- [Таблица задач](task.md)
     
-- [Таблица Tenants](tenants.md)
+- [Таблица "Клиенты"](tenants.md)
     
 - [Таблица UriTypes](uritypes.md)
     
-- [Таблица Users](users.md)
+- [Таблица пользователей](users.md)
     
 - [Таблица UserAgentDef](useragentdef.md)
     

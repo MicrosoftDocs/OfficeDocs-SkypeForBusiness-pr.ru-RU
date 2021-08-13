@@ -1,5 +1,5 @@
 ---
-title: Гибридные развертывания системы комнат Skype
+title: Skype Гибридное развертывание room System
 ms.author: v-cichur
 author: cichur
 manager: serdars
@@ -11,48 +11,48 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: eba70d88-13b3-4598-95d5-8a343c9e7d26
-description: В этом разделе вы узнаете, как развернуть систему комнат Skype в гибридной среде.
-ms.openlocfilehash: 47be9204155a1ff6cf6e8d9dfa67723a370fec26
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Ознакомьтесь с этой темой, чтобы узнать, как Skype систему номеров в гибридной среде.
+ms.openlocfilehash: f25f9c57a64f5a6711283e2d5cdb97331e6e699b5fbceab2728221441c9463f8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49805899"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54332061"
 ---
-# <a name="skype-room-system-hybrid-deployments"></a>Гибридные развертывания системы комнат Skype
+# <a name="skype-room-system-hybrid-deployments"></a>Skype Гибридное развертывание room System
 
-В этом разделе вы узнаете, как развернуть систему комнат Skype в гибридной среде.
+Ознакомьтесь с этой темой, чтобы узнать, как Skype систему номеров в гибридной среде.
   
 ## <a name="hybrid-deployments"></a>Гибридные развертывания
 
-Выполните следующие действия, если в вашей топологии есть Skype для бизнеса Server и Exchange Online, и вы хотите, чтобы почтовый ящик ресурса системы комнат Skype был в Exchange Online. В этом разделе также описывается гибридный сценарий, в котором развернуты exchange Online Exchange Server exchange Online.
+Следуйте этим шагам, если топология имеет Skype для бизнеса Server и Exchange Online, и вы хотите Skype почтовый ящик ресурса room System на Exchange Online. В этом разделе также описывается гибридный сценарий, в котором Exchange Online и Exchange Server развертывания.
   
-Для наглядности мы используем LyncSample.com для локального домена и LyncSample.ccstp.net для интернет-домена.
+Для иллюстративных целей мы LyncSample.com для локального домена и LyncSample.ccstp.net для интернет-домена.
   
-1. Создайте почтовый ящик ресурса в Центре администрирования Exchange (LyncSample.ccsctp.net), подключившись к оболочке управления Exchange Online, как описано в exchange Online Provisioning.
+1. Создайте почтовый ящик ресурса Exchange центре администрирования (LyncSample.ccsctp.net) путем подключения к оболочке управления Exchange Online, как описано в Exchange Online Подготовка.
     
    ```powershell
    New-Mailbox -room -name "LRS Test 5" -RoomMailboxPassword (ConvertTo-SecureString <password> -AsPlainText -Force) -EnableRoomMailboxAccount $true 
    ```
 
-    Вы можете проверить подключение OWA с помощью lrstest5@LyncSample.ccsctp.net входа.
+    Вы можете проверить подключение OWA с помощью lrstest5@LyncSample.ccsctp.net для входа.
     
-2. В Центре администрирования Microsoft 365 или Office 365 Exchange добавьте адрес электронной почты lrstest5@LyncSample.com (наемный домен) и установите его в качестве адреса ответа.
+2. В центре Microsoft 365 или Office 365 Exchange добавьте адрес электронной почты lrstest5@LyncSample.com (домен на преме) и установите его в качестве ответа.
     
-3. Создайте учетную lrstest5@LyncSample.com Active Directory, установите для адреса электронной почты lrstest5@LyncSample.com и за установите для целевого адреса lrstest5@LyncSample.com.
+3. Создайте на предварительном основе lrstest5@LyncSample.com Active Directory, установите адрес электронной почты lrstest5@LyncSample.com и установите целевой lrstest5@LyncSample.com.
     
-4. Активировать синхронизацию службы каталогов и после завершения синхронизации убедитесь, что пользователи объединены в AAD и что вы не можете изменить свойства в ресурсах получателей в Центре администрирования Microsoft 365 или Office 365 Exchange.
+4. Синхронизация каталогов и после завершения синхронизации убедитесь, что пользователи сливаются в AAD и что вы не можете изменить свойства ресурсов получателя в центре администрирования Microsoft 365 или Office 365 Exchange.
     
-5. Проверьте подключение OWA с помощью lrstest5@LyncSample.com. (Ранее вы проверяли подключение OWA с помощью интернет-домена.)
+5. Проверка подключения OWA с помощью lrstest5@LyncSample.com. (Ранее вы проверили подключение OWA с помощью интернет-домена.)
     
-    После создания почтового ящика можно использовать Set-CalendarProcessing в exchange Online Management Shell для настройки почтового ящика. Дополнительные сведения можно найти в действиях с 3 по 6 в статье "Развертывание с одним лесом на предварительном этапе".
+    После создания почтового ящика можно использовать Set-CalendarProcessing на Exchange Online для настройки почтового ящика. Дополнительные сведения можно найти в статье Этапы 3-6 в развертывании единого леса на предварительном этапе.
     
    > [!NOTE]
-   > Если у вас гибридная среда с Exchange Server и Exchange Online, перейдите в exchange Management Shell и Enable-RemoteMailbox lrstest5@LyncSample.com -RemoteRoutingAddress lrstest5@LyncSample.mail.ccsctp.net -Room. Затем активирует синхронизацию каталогов. 
+   > Если у вас гибридная среда с Exchange Server и Exchange Online, перейдите в Exchange Management Shell и Enable-RemoteMailbox lrstest5@LyncSample.com-RemoteRoutingAddress lrstest5@LyncSample.mail.ccsctp.net-Room. Затем срабатывает синхронизация каталогов. 
   
-    Если вы хотите, чтобы почтовый ящик системы комнат Skype был в Exchange Online, эти действия в exchange Management Shell не требуются, и вы можете перейти к шагу 6.
+    Если вы хотите уместить почтовый ящик Skype системы номеров в Exchange Online, эти действия Exchange управления не требуются, и вы можете перейти к шагу 6.
     
-6. В включить учетную запись системы комнат Skype для Skype для бизнеса с помощью следующего команды в оболочке управления Skype для бизнеса:
+6. Варим Skype учетную запись системы номеров для Skype для бизнеса, заняв следующие команды в Skype для бизнеса Management Shell:
     
    ```powershell
    Enable-CsMeetingRoom -SipAddress 'sip: lrstest5@LyncSample.com' -RegistrarPool pool1.child.corp.LyncSample.com -Identity lrstest5@LyncSample.com
@@ -60,6 +60,6 @@ ms.locfileid: "49805899"
    ```
 
 > [!NOTE]
-> Если в вышеуказанном сценарии вместо Skype для бизнеса Server имеется Skype для бизнеса Online, то после предоставления почтового ящика ресурса Exchange подымену учетной записи Skype для бизнеса, как описано в подукладке Skype для бизнеса Online. 
+> Если вы Skype для бизнеса Online вместо Skype для бизнеса Server в вышеуказанной ситуации, то после Exchange почтового ящика ресурса Skype для бизнеса учетную запись, как описано в Skype для бизнеса Online Provisioning. 
   
 

@@ -17,12 +17,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: Узнайте, как настроить панель набора номера в клиенте Teams, чтобы пользователи могли получать доступ к функциям телефонной сети общего присоединения.
-ms.openlocfilehash: 44fcbb766cadaa4b31aa065fae80fdcd48c5453f
-ms.sourcegitcommit: a94a267c421a78587b0dbbea5fa167aad2882e9b
+ms.openlocfilehash: 848e52859be3b2339e1e1968631c6d55fc7a8df79dc3a691fd47e9613f7f583d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "45012424"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54344318"
 ---
 # <a name="dial-pad-configuration"></a>Настройка панели набора номера
 
@@ -38,7 +38,7 @@ ms.locfileid: "45012424"
 
 ## <a name="user-has-an-enabled-phone-system-mcoev-license"></a>У пользователя есть включенная телефонная система "MCOEV".
 
-Необходимо убедиться, что в назначенном плане для пользователя для атрибута **CapabilityStatus** задавается параметр Включено, а для плана возможностей — **MCOEV** (телефонная система лицензия). Вы можете увидеть MCOEV, MCOEV1 и другие. Все это допустимо, если план возможностей начинается с MCOEV.
+Необходимо убедиться, что в назначенном плане для пользователя атрибут **CapabilityStatus** имеет параметр Enabled, а для плана возможностей — **MCOEV** (телефонная система лицензии). Вы можете увидеть MCOEV, MCOEV1 и другие. Все это допустимо, если план возможностей начинается с MCOEV.
 
 Чтобы проверить правильность атрибутов, воспользуйтесь следующей командой:
 
@@ -65,7 +65,7 @@ Get-CsOnlineUser -Identity $user|select AssignedPlan|fl
 
 ## <a name="user-has-microsoft-calling-plan-or-is-enabled-for-direct-routing"></a>У пользователя включен план звонков Майкрософт ИЛИ включена прямая маршрутия
 
-Если у пользователя есть план звонков **(Майкрософт),** убедитесь, что для атрибута **CapabilityStatus** за установлено имя Enabled (Включено), а для плана возможностей — **MCOPSTN ( MCOPSTN).** Вы можете увидеть MCOPSTN1, MCOPSTN2 и другие. Все это допустимо, если план возможностей начинается с MCOPSTN.
+Если у пользователя есть план звонков **(Майкрософт),** убедитесь, что для атрибута **CapabilityStatus** за установлено имя Enabled (Включено), а для плана возможности — **MCOPSTN ( MCOPSTN).** Вы можете увидеть MCOPSTN1, MCOPSTN2 и другие. Все это допустимо, если план возможностей начинается с MCOPSTN.
 
 Чтобы проверить атрибуты, используйте следующую команду:
 
@@ -89,7 +89,7 @@ xmlns="http://schemas.microsoft.com/online/directoryservices/change/2008/11">
 </Plan>
   ```
 
-**Если для пользователя включена** прямая маршрутизация, ему должно быть назначено ненулевую стоимость для OnlineVoiceRoutingPolicy. Чтобы проверить атрибут, используйте следующую команду:
+**Если для пользователя включена** прямая маршрутизация, ему должно быть назначено значение, не относяцие к NULL для OnlineVoiceRoutingPolicy. Чтобы проверить атрибут, используйте следующую команду:
   
 ```
 Get-CsOnlineUser -Identity $user|Select OnlineVoiceRoutingPolicy 
@@ -128,7 +128,7 @@ EnterpriseVoiceEnabled
 Get-CsOnlineUser -Identity $user|Select RegistrarPool, HostingProvider
 ```
 
-Результат должен быть примерно таким:
+Выходные данные должны быть примерно такие же:
 
 ```
 RegistrarPool                 HostingProvider
@@ -165,7 +165,7 @@ MusicOnHoldEnabledType     : Enabled
 
 ## <a name="additional-notes"></a>Дополнительные заметки
 
--   После внесения каких-либо изменений конфигурации может потребоваться перезапустить клиент Teams клиента.
+-   После внесения каких-либо изменений конфигурации может потребоваться перезапустить Teams клиента.
 
 -   Если вы недавно обновили любое из этих критериев, может потребоваться подождать несколько часов, пока клиент получит новые параметры.
 

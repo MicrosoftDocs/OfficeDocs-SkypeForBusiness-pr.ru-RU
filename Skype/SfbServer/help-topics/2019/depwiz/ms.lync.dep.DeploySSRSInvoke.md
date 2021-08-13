@@ -14,21 +14,21 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 4a4ba8d6-ba43-45b3-b834-372d092561e7
 ROBOTS: NOINDEX, NOFOLLOW
-description: После представления необходимых сведений для развертывания отчетов monitoring Server в Microsoft SQL Server R2 или службы отчетов Microsoft SQL Server 2012 г. на странице Execute Commands отображается сводка команд, выдающихся для установки отчетов в службы SQL Server отчетов.
-ms.openlocfilehash: 17824f79ab0d710d4969d736b864912b424abaa9
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: После поставки необходимых сведений для развертывания отчетов monitoring Server в R2 Microsoft SQL Server 2008 или службе отчетов Microsoft SQL Server 2012 г. на странице Исполняйте команды отображается сводка команд, выдающихся для установки отчетов в SQL Server Reporting Services.
+ms.openlocfilehash: 5836ca77ecc7687f0301b6f34766fed4d8bb6630f1a8ac69618310bbb7fdf732
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51109665"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54319432"
 ---
 # <a name="sql-server-reporting-services-invoke"></a>Службы SQL Server Reporting Services (вызов)
  
-После представления необходимых сведений для развертывания отчетов служб Microsoft SQL Server отчетов службам мониторинга на странице Исполняйте команды отображается сводка команд, выдающихся для установки отчетов в службы SQL Server отчетов.
+После поставки необходимых сведений для развертывания отчетов monitoring Server в службы Microsoft SQL Server отчетов на странице Исполняйте команды отображается сводка команд, выдающихся для установки отчетов в SQL Server Reporting Services.
   
 Просмотрите сводку команд и обратите внимание на все ошибки и предупреждения, показанные командами. Если создается журнал, выберите файл журнала из раскрывающегося списка в окне сводки и нажмите кнопку **Просмотреть журнал**.
   
 > [!IMPORTANT]
-> Для успешного развертывания отчетов служб отчетности и получения доступа к отчетам после завершения развертывания необходимо открыть TCP/IP-порт 80 (и необязательно порт TCP 443 для SSL, если вы назначите сертификат службам отчетности) в брандмауэре Windows с расширенным обеспечением безопасности на SQL Server. Подробные сведения см. в материале [Настройка брандмауэра Windows для](/sql/sql-server/install/configure-the-windows-firewall-to-allow-sql-server-access) SQL Server доступа Microsoft SQL Server R2 2008.
+> Для успешного развертывания отчетов служб отчетности и получения доступа к отчетам после завершения развертывания необходимо иметь TCP/IP-порт 80 (и необязательно порт TCP 443 для SSL, если вы назначите сертификат службам отчетности), открытый в брандмауэре Windows с расширенными службами безопасности на SQL Server. Подробные сведения см. в Windows брандмауэра для SQL Server [доступа](/sql/sql-server/install/configure-the-windows-firewall-to-allow-sql-server-access) Microsoft SQL Server R2 2008.
   
-После просмотра сводки нажмите кнопку **Готово,** чтобы завершить установку отчетов в службы SQL Server отчетов.
+После просмотра сводки нажмите кнопку **Готово,** чтобы завершить установку отчетов в SQL Server Reporting Services.

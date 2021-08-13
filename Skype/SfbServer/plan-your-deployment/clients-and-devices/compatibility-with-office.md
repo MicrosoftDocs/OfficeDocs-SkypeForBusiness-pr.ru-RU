@@ -1,5 +1,5 @@
 ---
-title: Совместимость Skype для бизнеса с приложениями Office
+title: Skype для бизнеса совместимость с Office приложениями
 ms.author: v-cichur
 author: cichur
 ms.reviewer: PhillipGarding
@@ -15,62 +15,62 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: ac3a1046-b438-4e21-9d4f-3b0057dd685d
-description: В этой теме представлены способы доступа к функциям Skype для бизнеса из Outlook и других Microsoft Office приложений.
-ms.openlocfilehash: b3d792d5e6376e4d845aa74f0585acf7d9a70d81
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Понимание способов доступа к Skype для бизнеса из Outlook и других Microsoft Office приложений.
+ms.openlocfilehash: b1a2aad241d0da2ef253d27b1b83bf9b1140fa79745b924cd0e4438660e4d3e0
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49802739"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54297145"
 ---
-# <a name="skype-for-business-compatibility-with-office-apps"></a>Совместимость Skype для бизнеса с приложениями Office
+# <a name="skype-for-business-compatibility-with-office-apps"></a>Skype для бизнеса совместимость с Office приложениями
  
-В этой теме представлены способы доступа к функциям Skype для бизнеса из Outlook и других Microsoft Office приложений.
+Понимание способов доступа к Skype для бизнеса из Outlook и других Microsoft Office приложений.
   
-В этом разделе описывается совместимость Skype для бизнеса с различными версиями Microsoft Office наборов. 
+В этом разделе описывается совместимость Skype для бизнеса различных версий Microsoft Office наборов. 
   
 ## <a name="office-and-skype-for-business"></a>Office и Skype для бизнеса
 
-В следующей таблице описаны функции Skype для бизнеса, которые поддерживаются различными версиями Office после развертывания и интеграции Exchange, как описано в статье "Интеграция Skype для бизнеса [Server с](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md)Exchange Server.
+В следующей таблице описываются Skype для бизнеса, поддерживаемые различными версиями Office после развертывания и интеграции Exchange, как описано в Skype для бизнеса Server с [Exchange Server](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md).
   
-**Совместимость Skype для бизнеса и Microsoft Office**
+**Skype для бизнеса и Microsoft Office совместимости**
 
-|**Функция**|**Microsoft Office 2010;**|**Microsoft Office 2013, 2015 и 2016**|**Office 2016 для Mac &#x2776;** |
+|**Функция**|**Microsoft Office 2010;**|**Microsoft Office 2013, 2015 и 2016**|**Office 2016 для Mac** &#x2776; |
 |:-----|:-----|:-----|:-----|
-|**Функции Outlook** ||||
-|Настройка приглашений на собрания Outlook (добавление логотипа, URL-адреса справки, заявления об отказе, текста для footer)  |Нет  |Да   |Да|
-|Настройка параметра собрания для звука и видео участников по умолчанию    |Нет    |Да    |Нет    |
-|Единое хранилище контактов для управления списками контактов в Office и Skype для бизнеса    |Нет    |Да (требуется Exchange 2013 или более поздней)    |Да    |
-|Изображения профиля с высоким разрешением    |Нет    |Да (требуется Exchange 2013 или более поздней)    |Да    |
+|**Outlook функции** ||||
+|Настройка приглашений Outlook собраний (добавление логотипа, URL-адрес справки, отказ от ответственности, текст для подножки)  |Нет  |Да   |Да|
+|Настройка параметра собрания, чтобы отключить аудио и видео участника по умолчанию    |Нет    |Да    |Нет    |
+|Объединенный магазин контактов для управления списками контактов Office и Skype для бизнеса    |Нет    |Да (требуется Exchange 2013 или более поздней)    |Да    |
+|Изображения профилей с высоким разрешением    |Нет    |Да (требуется Exchange 2013 или более поздней)    |Да    |
 |Состояние присутствия в полях Microsoft Outlook From, To и Cc    |Да    |Да    |Да    |
-|Ответ с помощью мгновенных данных или звонка из меню доступности    |Да (из карточки контакта)    |Да (из карточки контакта)    |Да (из карточки контакта)    |
+|Ответ с помощью чата или вызова из меню доступности    |Да (с карточки контакта)    |Да (с карточки контакта)    |Да (с карточки контакта)    |
 |Состояние присутствия в запросе на собрание на вкладке помощник по планированию    |Да    |Да    |Нет    |
-|Ответ с помощью мгновенных сообщений или звонка с панели инструментов или ленты в полученном сообщении электронной почты    |Да    |Да    |Да    |
-|**Другие приложения Office**   ||||
-|Общие заметки OneNote    |Нет    |Да    |Нет    |
-|Программа установки, интегрированная в программу установки Office    |Нет    |Да    |Нет    |
-|Содержимое презентации PowerPoint    |Да    |Да (также доступна VBSS)    |Да    |
-|Мгновенные данные и присутствие в файлах Microsoft Word и Microsoft Excel (смарт-теги включены)    |Только Microsoft Word    |Только Microsoft Word    |Нет    |
-|Im and presence in Microsoft SharePoint sites (Outlook must be installed)    |Да    |Да    |Нет    |
+|Ответ с помощью чата или вызова с панели инструментов или ленты в полученном сообщении электронной почты    |Да    |Да    |Да    |
+|**Другие Office приложения**   ||||
+|OneNote общие заметки    |Нет    |Да    |Нет    |
+|Установка, интегрированная в Office программы установки    |Нет    |Да    |Нет    |
+|PowerPoint презентации    |Да    |Да (также доступен VBSS)    |Да    |
+|Чат и присутствие в Microsoft Word и Microsoft Excel файлах (включены смарт-теги)    |Microsoft Word только    |Microsoft Word только    |Нет    |
+|Im и присутствие на сайтах SharePoint Майкрософт (Outlook должны быть установлены)    |Да    |Да    |Нет    |
    
-&#x2776; предполагает, что вы установили и в настоящее время работаете с клиентом Skype для бизнеса на Mac или клиентом Lync 2011 для Mac.
+&#x2776; предполагает, что вы установили и в настоящее время Skype для бизнеса на клиенте Mac или клиенте Lync 2011 для Mac.
   
 ## <a name="exchange-server-and-skype-for-business"></a>Exchange Server и Skype для бизнеса
 
-В следующей таблице описывается поддержка Skype для бизнеса для различных версий Exchange Server. Outlook необходимо установить на клиентском компьютере для обработки расширенных вызовов MAPI, а для некоторых функций требуется использование веб-служб Exchange (EWS).
+В следующей таблице Skype для бизнеса поддержка различных версий Exchange Server. Outlook должен быть установлен на клиентском компьютере для обработки расширенных вызовов MAPI, а некоторые функции требуют использования Exchange веб-служб (EWS).
   
-**Совместимость Skype для бизнеса и Exchange Server**
+**Skype для бизнеса и Exchange Server совместимости**
 
-|**Exchange Server версии**|**Поддержка Skype для бизнеса**|
+|**Exchange Server версии**|**Skype для бизнеса поддержки**|
 |:-----|:-----|
-|Exchange Server 2019 (только Skype для бизнеса Server 2019) |То же, Exchange Server 2013    |
-|Exchange Server 2016    |То же, Exchange Server 2013  <br/> |
-|Exchange Server 2013  <br/> |То же, Exchange Server 2010, с добавлением  <br/>&bull;&nbsp;&nbsp;Единое хранилище контактов  <br/>&bull;&nbsp;&nbsp;Изображения с высоким разрешением  <br/>&bull;&nbsp;&nbsp;Интеграция архивации  <br/> **Примечание.** For details, see [Integrate Skype for Business Server with Exchange Server.](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md)  <br/> |
-|Exchange Server 2010  <br/>(Только Skype для бизнеса Server 2015) |Следующие функции доступны только через EWS:  <br/>&bull;&nbsp;&nbsp;Чтение и удаление элементов в папке "История бесед"  <br/>&bull;&nbsp;&nbsp;Чтение и удаление элементов голосовой почты  <br/>&bull;&nbsp;&nbsp;Отображение расширенных сведений о занятости, теме и расположении собрания  <br/>&bull;&nbsp;&nbsp;Синхронизация контактов Exchange  <br/> Общедоступные папки являются необязательными в Exchange Server 2010.  <br/> |
+|Exchange Server 2019 г. (только Skype для бизнеса Server 2019 г.) |То же, что Exchange Server 2013 г.    |
+|Exchange Server 2016    |То же, что Exchange Server 2013 г.  <br/> |
+|Exchange Server 2013  <br/> |То же, Exchange Server 2010 г., с добавлением  <br/>&bull;&nbsp;&nbsp;Объединенный магазин контактов  <br/>&bull;&nbsp;&nbsp;Изображения с высоким разрешением  <br/>&bull;&nbsp;&nbsp;Интеграция архивации  <br/> **Примечание:** Подробные сведения см. [в Skype для бизнеса Server интеграции с Exchange Server.](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md)  <br/> |
+|Exchange Server 2010  <br/>(только Skype для бизнеса Server 2015 г.) |Следующие функции доступны только через EWS:  <br/>&bull;&nbsp;&nbsp;Чтение или удаление элементов в папке История бесед  <br/>&bull;&nbsp;&nbsp;Чтение или удаление элементов голосовой почты  <br/>&bull;&nbsp;&nbsp;Отображение расширенных бесплатных и загруженных сведений, темы собраний и расположения  <br/>&bull;&nbsp;&nbsp;Exchange синхронизации контактов  <br/> Общедоступные папки являются необязательными в Exchange Server 2010 г.  <br/> |
    
 ## <a name="see-also"></a>См. также
  
-[Требования к клиенту Windows и поддержка программного обеспечения](windows-requirements.md)
+[Windows клиентских требований и поддержки программного обеспечения](windows-requirements.md)
   
-[Планирование клиентов собраний (Веб-приложение и приложение для собраний)](meetings-clients.md)
+[Планирование для клиентов собраний (Web App и Meetings App)](meetings-clients.md)
 

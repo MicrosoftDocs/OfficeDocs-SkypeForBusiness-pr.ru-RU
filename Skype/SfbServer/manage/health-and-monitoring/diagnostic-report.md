@@ -11,13 +11,13 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: b389dbd9-f2e8-4184-93d0-2e504796ac16
-description: Сводка. Сведения о диагностических отчетах в Skype для бизнеса Server.
-ms.openlocfilehash: b7739214cf176336e47a5d2e11b36b52ea87eca7
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Сводка. Сведения о диагностическом отчете в Skype для бизнеса Server.
+ms.openlocfilehash: ef930870e918cd11f2525914e6f5716d7d685bfec224480c1eb88b3a280e3fa3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095243"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54297225"
 ---
 # <a name="diagnostic-report-in-skype-for-business-server"></a>Диагностический отчет в Skype для бизнеса Server
  
@@ -33,7 +33,7 @@ ms.locfileid: "51095243"
     
 ## <a name="accessing-the-diagnostic-report"></a>Доступ к диагностическому отчету
 
-Диагностический отчет можно получить, щелкнув метрику Диагностический отчет (Подробно) в отчете о подробностях одноранговых сеансов в [Skype для](peer-to-peer-session-detail-report.md) бизнеса Server или в отчете о подробностях конференции.
+Диагностический отчет можно получить, щелкнув метрику Диагностический [](peer-to-peer-session-detail-report.md) отчет (Подробно) в отчете о подробностях одноранговых сеансов в Skype для бизнеса Server или в отчете о подробностях конференции.
   
 ## <a name="filters"></a>Фильтры
 
@@ -45,7 +45,7 @@ ms.locfileid: "51095243"
   
 **Показатели отчета Diagnostic Report (Диагностический отчет)**
 
-|**имя**|**Возможность сортировки по этому показателю**|**Описание**|
+|**Название**|**Возможность сортировки по этому показателю**|**Description**|
 |:-----|:-----|:-----|
 |**Reported time** (Время создания отчета) <br/> |Нет  <br/> |Дата и время создания отчета.  <br/> |
 |**Response code** (Код ответа) <br/> |Нет  <br/> |Код ответа SIP, отправленный при сбое сеанса.  <br/> |
