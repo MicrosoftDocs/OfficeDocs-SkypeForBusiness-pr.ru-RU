@@ -1,5 +1,5 @@
 ---
-title: Таблица ErrorDef в Skype для бизнеса Server 2015
+title: Таблица ErrorDef в Skype для бизнеса Server 2015 г.
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,25 +12,25 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 6acf3b86-da61-4923-9812-300db6f66dec
-description: В таблице ErrorDef хранится информация о каждом типе ошибки, которая может возникнуть. Каждая запись является одним типом ошибки.
-ms.openlocfilehash: 50d7b76e1fc7edb53fbe0b299673b7281a394463
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: В таблице ErrorDef хранится информация о каждом типе возможной ошибки. Каждая запись — это один тип ошибки.
+ms.openlocfilehash: 428ce365de65be4d0bcd3776bfc069ffc9246fd869c54d819c6468f926c64351
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49821729"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54344608"
 ---
-# <a name="errordef-table-in-skype-for-business-server-2015"></a>Таблица ErrorDef в Skype для бизнеса Server 2015
+# <a name="errordef-table-in-skype-for-business-server-2015"></a>Таблица ErrorDef в Skype для бизнеса Server 2015 г.
  
-В таблице ErrorDef хранится информация о каждом типе ошибки, которая может возникнуть. Каждая запись является одним типом ошибки.
+В таблице ErrorDef хранится информация о каждом типе возможной ошибки. Каждая запись — это один тип ошибки.
   
-|**Столбец**|**Тип данных**|**Ключ/индекс**|**Details**|
+|**Column**|**Тип данных**|**Key/Index**|**Сведения**|
 |:-----|:-----|:-----|:-----|
-|**ErrorId** <br/> |int  <br/> |Primary  <br/> |Уникальный номер ИД, определяющий этот тип ошибки.  <br/> |
+|**ErrorId** <br/> |int  <br/> |Primary  <br/> |Уникальный номер идентификации, определяющий этот тип ошибки.  <br/> |
 |**ResponseCode** <br/> |int  <br/> | <br/> |Стандартный код ответа SIP, связанный с этой ошибкой.  <br/> |
-|**MsDiagId** <br/> |int  <br/> | <br/> |ИД диагностики Майкрософт.  <br/> |
-|**CallTypeId** <br/> |Целое  <br/> |Внешняя  <br/> |Тип вызова. Дополнительные сведения см. в таблице [CallType в Skype для бизнеса Server 2015.](calltype.md) <br/> |
-|**RequestType** <br/> |varbinary(33)  <br/> | <br/> |Тип запроса с отказом.  <br/> Эти данные можно преобразовать в текстовый формат, используя следующий синтаксис:  <br/>  `cast(cast(RequestType as varbinary(max)) as varchar(max))` <br/> |
-|**ContentType** <br/> |varbinary(257)  <br/> | <br/> |Тип содержимого запроса с отказом.  <br/> Эти данные можно преобразовать в текстовый формат с помощью этого синтаксиса:  <br/>  `cast(cast(ContentType as varbinary(max)) as varchar(max))` <br/> |
+|**MsDiagId** <br/> |int  <br/> | <br/> |Microsoft Diagnostic ID.  <br/> |
+|**CallTypeId** <br/> |Целое  <br/> |Foreign  <br/> |Тип вызова. Дополнительные сведения см. в [таблице CallType Skype для бизнеса Server 2015](calltype.md) г. <br/> |
+|**RequestType** <br/> |varbinary (33)  <br/> | <br/> |Тип запроса с отказом.  <br/> Эти данные можно преобразовать в текстовый формат, используя следующий синтаксис:  <br/>  `cast(cast(RequestType as varbinary(max)) as varchar(max))` <br/> |
+|**ContentType** <br/> |varbinary (257)  <br/> | <br/> |Тип содержимого запроса с отказом.  <br/> Эти данные можно преобразовать в текстовый формат с помощью этого синтаксиса:  <br/>  `cast(cast(ContentType as varbinary(max)) as varchar(max))` <br/> |
    
 

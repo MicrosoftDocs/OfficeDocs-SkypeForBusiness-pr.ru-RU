@@ -20,16 +20,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0585f0ad829f19334d5a970461f1f3248a107e9d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 1bf5529cf37ca3217c5af0411a1d12f0e752c583cb869273f9ba5b068d5633da
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51115557"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54298999"
 ---
-# <a name="upgrade-from-a-skype-for-business-on-premises-deployment-to-teams"></a>Обновление локального Skype для бизнеса до Teams
+# <a name="upgrade-from-a-skype-for-business-on-premises-deployment-to-teams"></a>Обновление с локального Skype для бизнеса до Teams
 
-![Этапы пути обновления с акцентом на этапе развертывания и внедрения](media/upgrade-banner-deployment.png "Этапы пути обновления с акцентом на этапе развертывания и внедрения")
+![Этапы пути обновления с акцентом на этапе развертывания и реализации](media/upgrade-banner-deployment.png "Этапы пути обновления с акцентом на этапе развертывания и реализации")
 
 Эта статья является частью этапа развертывания и реализации, на который вы входите. Прежде чем при этом подтверждать, что вы выполнили следующие действия:
 
@@ -37,7 +37,7 @@ ms.locfileid: "51115557"
 - [Определение области проекта](./upgrade-define-project-scope.md)
 - [Понятное сосуществование и совместное Skype для бизнеса и Teams](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 - [Выбор пути обновления](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-- [Подготовьте свою среду](./upgrade-prepare-environment.md)
+- [Подготовить среду](./upgrade-prepare-environment.md)
 - [Подготовленные организации](./upgrade-prepare-organization.md)
 - [Пилотный проект](./pilot-essentials.md)
 
@@ -56,7 +56,7 @@ ms.locfileid: "51115557"
 
 После завершения гибридной настройки вы можете запланировать перемещение пользователей на Microsoft 365 или Office 365.
 
-Дополнительные сведения см. в
+Дополнительные сведения см. в:
 
 - [TeamsUpgradePolicy: управление миграцией и сосуществованием.](upgrade-to-teams-on-prem-tools.md)
 

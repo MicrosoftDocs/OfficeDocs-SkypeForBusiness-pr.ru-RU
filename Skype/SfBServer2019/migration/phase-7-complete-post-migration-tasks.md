@@ -1,5 +1,5 @@
 ---
-title: Этап 7. Выполнение задач после миграции
+title: Этап 7 Полное выполнение задач после миграции
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -10,19 +10,19 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: В этом разделе описываются задачи, которые необходимо выполнить после завершения миграции в Skype для бизнеса Server 2019.
-ms.openlocfilehash: c0c5c73212ab6f5ecb85383032ea9bdc97703eee
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+description: В этом разделе описываются задачи, которые необходимо выполнить после завершения миграции Skype для бизнеса Server 2019 г.
+ms.openlocfilehash: 8a27bbe42f64088833eb4349dde2e2249343dd8ef6ffad0577e3f405fbc6358c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44752301"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54298909"
 ---
 # <a name="phase-7-complete-post-migration-tasks"></a>Этап 7: необходимые действия после миграции
 
-В этом разделе описываются задачи, которые необходимо выполнить после завершения миграции в Skype для бизнеса Server 2019.
+В этом разделе описываются задачи, которые необходимо выполнить после завершения миграции Skype для бизнеса Server 2019 г.
   
-## <a name="in-this-section"></a>В этом разделе:
+## <a name="in-this-section"></a>Содержание
 
 - [Перенос существующих собраний и содержимого собраний](migrate-existing-meetings-and-meeting-content.md)
     
@@ -40,7 +40,7 @@ ms.locfileid: "44752301"
     
 - [Настройка доверенных серверов приложений](configure-trusted-application-servers.md)
     
-- [Развертывание клиентов Skype для бизнеса Server 2019](deploy-clients.md)
+- [Развертывание Skype для бизнеса Server 2019 г.](deploy-clients.md)
     
 - [Подключение Survivable Branch Appliance](connect-a-survivable-branch-appliance.md)
     

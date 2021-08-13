@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 3d516e65-fb9b-4a0b-8296-969fc9eda334
-description: Этот Unregister-CcAppliance регистрацию текущего устройства Skype для бизнеса Cloud Connector Edition с сайта STN в конфигурации интерактивного клиента.
-ms.openlocfilehash: 84a25321b6affda6b8783c40baa18a91b5b95ef5
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Этот Unregister-CcAppliance не зарегистририт текущий Skype для бизнеса Cloud Connector Edition с сайта PSTN в конфигурации онлайн-клиента.
+ms.openlocfilehash: de872082f6a025a736b871a76d41061c888acb1f401739229ba7ad670a0c19ce
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824133"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54344548"
 ---
 # <a name="unregister-ccappliance"></a>Unregister-CcAppliance
  
-Этот Unregister-CcAppliance регистрацию текущего устройства Skype для бизнеса Cloud Connector Edition с сайта STN в конфигурации интерактивного клиента.
+Этот Unregister-CcAppliance не зарегистририт текущий Skype для бизнеса Cloud Connector Edition с сайта PSTN в конфигурации онлайн-клиента.
   
 ```powershell
 Unregister-CcAppliance [[-SiteName] <string>] [[-ApplianceName] <string>] [-Local]
@@ -31,25 +31,25 @@ Unregister-CcAppliance [[-SiteName] <string>] [[-ApplianceName] <string>] [-Loca
 ## <a name="examples"></a>Примеры
 <a name="Examples"> </a>
 
-### <a name="example-1"></a>Пример 1
+### <a name="example-1"></a>Пример 1
 
-В следующем примере из конфигурации интерактивного клиента отрегистрировано текущее устройство:
+В следующем примере отрегистрация текущего устройства из конфигурации клиента в Интернете:
   
 ```powershell
 Unregister-CcAppliance
 ```
 
-### <a name="example-2"></a>Пример 2
+### <a name="example-2"></a>Пример 2
 
-В следующем примере конфигурация проверяется на наличие локальной регистрации без подключения к конфигурации интерактивного клиента:
+В следующем примере проверяется конфигурация для локальной регистрации без подключения к конфигурации клиента в Интернете:
   
 ```powershell
 Unregister-CcAppliance -Local
 ```
 
-### <a name="example-3"></a>Пример 3
+### <a name="example-3"></a>Пример 3
 
-В следующем примере текущее устройство с именем Appliance1 будет отрегистрировано на сайте STN "Site1":
+В следующем примере unregisters текущего устройства с именем "Appliance1" на сайте PSTN "Site1":
   
 ```powershell
 Unregister-CcAppliance -SiteName Site1 -ApplianceName Appliance1
@@ -58,23 +58,23 @@ Unregister-CcAppliance -SiteName Site1 -ApplianceName Appliance1
 ## <a name="detailed-description"></a>Подробное описание
 <a name="DetailedDescription"> </a>
 
-Аналогично Register-CcAppliance, siteName в сочетании с внешним FQDN edge Server в CloudConnector.ini файле считается удостоверением сайта STN. Аналогичным образом, applianceName в сочетании с FQDN сервера-CloudConnector.ini в файле CloudConnector.ini считается удостоверением устройства.
+Как и Register-CcAppliance, имя сайта в сочетании с внешним FQDN Edge Server в файле CloudConnector.ini считается идентификатором сайта PSTN. Кроме того, имя applianceName в сочетании с идентификатором сервера-посредника в файле CloudConnector.ini считается идентификатором устройства.
   
-После регистрации устройства перезапустите службу управления Cloud Connector и войдите в систему под учетной записью NetworkService.
+После незарегистрации устройства перезапустите службу управления облачным соединитетелем и войдите в качестве учетной записи NetworkService.
   
 ## <a name="parameters"></a>Параметры
 <a name="DetailedDescription"> </a>
 
 |**Параметр**|**Required**|**Тип**|**Описание**|
 |:-----|:-----|:-----|:-----|
-| SiteName <br/> |Необязательный  <br/> |System.String  <br/> |Имя сайта STN, на котором зарегистрировано устройство. Значение по умолчанию — SiteName в CloudConnector.ini файле.  <br/> |
-|ApplianceName  <br/> |Необязательный  <br/> |System.String  <br/> |Имя текущего устройства. Значение по умолчанию — имя компьютера хост-сервера.  <br/> |
-|Локальный  <br/> |Необязательный  <br/> |System.Management.Automation.SwitchParameter  <br/> |Проверьте конфигурацию регистрации локально, не подключаясь к конфигурации интерактивного клиента.  <br/> |
+| Имя сайта <br/> |Необязательный  <br/> |System.String  <br/> |Имя сайта PSTN, где зарегистрирован прибор. Значение по умолчанию — это значение SiteName в CloudConnector.ini файле.  <br/> |
+|ApplianceName  <br/> |Необязательный  <br/> |System.String  <br/> |Имя текущего устройства. Значение по умолчанию — это имя компьютера хост-сервера.  <br/> |
+|Локальный  <br/> |Необязательный  <br/> |System.Management.Automation.SwitchParameter  <br/> |Проверьте конфигурацию для локальной регистрации без подключения к конфигурации клиента в Интернете.  <br/> |
    
 ## <a name="input-types"></a>Типы входных данных
 <a name="InputTypes"> </a>
 
-Нет. Этот Unregister-CcAppliance не принимает конвейерные входные данные.
+Нет. В Unregister-CcAppliance не принимается конвейерный ввод.
   
 ## <a name="return-types"></a>Типы возвращаемых данных
 <a name="ReturnTypes"> </a>

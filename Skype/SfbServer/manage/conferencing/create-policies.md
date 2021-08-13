@@ -1,5 +1,5 @@
 ---
-title: Создание политик конференций в Skype для бизнеса Server
+title: Создание политик для конференций в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,25 +11,25 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 8c685326-8356-4075-bf95-32324b16ef81
-description: Сводка. Сведения о создании политик конференциинга в Skype для бизнеса Server.
-ms.openlocfilehash: 81fcaa15c7b12b499c833ac012ef6d999da683ad
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Сводка. Сведения о создании политик конференций в Skype для бизнеса Server.
+ms.openlocfilehash: 2cce451135c82894d9d82c89e6a62682d95526d31082d209bcaf8144752426b1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119528"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54344748"
 ---
-# <a name="create-conferencing-policies-in-skype-for-business-server"></a>Создание политик конференций в Skype для бизнеса Server
+# <a name="create-conferencing-policies-in-skype-for-business-server"></a>Создание политик для конференций в Skype для бизнеса Server
  
 **Сводка:** Узнайте, как создать политики конференциинга в Skype для бизнеса Server.
   
-Политики конференциинга можно создавать с помощью панели управления Skype для бизнес-серверов или с помощью панели управления Skype для бизнес-серверов.
+Политики конференциинга можно создавать с Skype для бизнеса Server панели управления или с помощью Skype для бизнеса Server management Shell.
   
-## <a name="create-conferencing-policies-by-using-skype-for-business-server-control-panel"></a>Создание политик конференциинга с помощью панели управления Skype для бизнес-серверов
+## <a name="create-conferencing-policies-by-using-skype-for-business-server-control-panel"></a>Создание политик conferencing с помощью Skype для бизнеса Server панели управления
 
 1. Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи пользователя, назначенной роли CsUserAdministrator или CsAdministrator.
     
-2. Откройте панель управления Skype для бизнес-серверов.
+2. Откройте панель Skype для бизнеса Server управления.
     
 3. В левой панели навигации нажмите **кнопку Conferencing** и нажмите кнопку **Политика конференциации**.
     
@@ -84,7 +84,7 @@ ms.locfileid: "51119528"
     
     - Чтобы запретить передачу файлов, снимите флажок **Allow participants to transfer files (Разрешить передачу файлов участникам)**. По умолчанию пользователи могут передавать файлы.
     
-    - Чтобы запретить использование заметок, снимите флажок **Enable annotations (Разрешить заметки)**. Чтобы использовать аннотации в общих презентациях PowerPoint, очистить **аннотации Включить PowerPoint**. По умолчанию заметки разрешены.
+    - Чтобы запретить использование заметок, снимите флажок **Enable annotations (Разрешить заметки)**. Чтобы использовать аннотации в общих PowerPoint презентациях, очистить **аннотации Enable PowerPoint.** По умолчанию заметки разрешены.
     
     - Чтобы запретить использование опросов, снимите флажок **Enable polls (Разрешить опросы)**. По умолчанию опросы разрешены.
     
@@ -116,7 +116,7 @@ ms.locfileid: "51119528"
     
 21. Нажмите кнопку **Зафиксировать**.
     
-## <a name="create-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>Создание политик конференций с помощью оболочки управления Skype для бизнес-серверов
+## <a name="create-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>Создание политик conferencing с помощью Skype для бизнеса Server shell управления
 
 Чтобы создать политики конференции, используйте **комлет New-CsConferencingPolicy.**
   

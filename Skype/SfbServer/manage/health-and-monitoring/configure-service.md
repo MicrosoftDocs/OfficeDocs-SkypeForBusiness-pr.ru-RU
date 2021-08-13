@@ -1,5 +1,5 @@
 ---
-title: Настройка службы Mobility Service для высокой производительности в Skype для бизнеса Server
+title: Настройка службы мобильности для высокой производительности в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,26 +11,26 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: c2b8aadb-cffb-49f0-ba7a-e8541a1ff475
-description: Сводка. Сведения о службе Mobility Service в Skype для бизнеса Server.
-ms.openlocfilehash: 83d8d6dc7a32b05a58c738deddc8c92e43bd5557
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Сводка. Сведения о службе мобильности в Skype для бизнеса Server.
+ms.openlocfilehash: 3029877aa6f252ada9bbb38bca0148b8a96908ad5cf4deded7cf48e6451ec833
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49817039"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54298139"
 ---
-# <a name="configure-mobility-service-for-high-performance-in-skype-for-business-server"></a>Настройка службы Mobility Service для высокой производительности в Skype для бизнеса Server
+# <a name="configure-mobility-service-for-high-performance-in-skype-for-business-server"></a>Настройка службы мобильности для высокой производительности в Skype для бизнеса Server
  
-**Сводка:** Узнайте о службе Mobility Service в Skype для бизнеса Server.
+**Сводка:** Узнайте о службе мобильности в Skype для бизнеса Server.
   
 > [!IMPORTANT]
-> Этот раздел относится только к Службе Skype для бизнеса Server Mobility Service (Mcx) и не относится к веб-API объединенных коммуникаций (UCWA), как по версии накопительных обновлений для Lync Server 2013 за февраль 2013 г. 
+> Этот раздел применяется только к службе мобильности Skype для бизнеса Server (Mcx) и не применяется к веб-API единой связи (UCWA), как это было подано в накопительных обновлениях для Lync Server 2013: февраль 2013 г. 
   
-При установке службы Mobility Service (Mcx) в службах IIS 7.5 установщик Службы Mobility Service настраивает некоторые параметры производительности на сервере переднего сервера. Мы рекомендуем использовать IIS 7.5 для Mobility Service. Параметры влияют на максимальное число одновременных запросов пользователей и максимальное число потоков, которые разрешены для Mobility Service.
+При установке службы мобильности (Mcx) на службы IIS (IIS) 7.5 установщик службы мобильности настраивает некоторые параметры производительности на переднем сервере. Мы рекомендуем использовать IIS 7.5 для Mobility Service. Параметры влияют на максимальное число одновременных запросов пользователей и максимальное число потоков, которые разрешены для Mobility Service.
   
-Ниже параметров производительности.
+Ниже параметров производительности:
   
-### <a name="settings-for-mcx-on-iis-75"></a>Параметры для Mcx в IIS 7.5
+### <a name="settings-for-mcx-on-iis-75"></a>Параметры mcx на IIS 7.5
 
 1. **maxConcurrentThreadsPerCPU** имеет значение нуль (0).
     

@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3e270f9f-c5b7-4aa8-8425-83acadfbfb9a
 description: Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
-ms.openlocfilehash: 8d0b0e7006adfad26f5c0925991eb064fbb5edee
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 5fe9b0f9b740d57f4e652ebe17d24b7733bffb63594ea8204655838bb82d8c97
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116147"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54298359"
 ---
 # <a name="xmpp-federated-partners"></a>Федеративные партнеры XMPP
 
@@ -28,4 +28,4 @@ ms.locfileid: "51116147"
 
 - [Управление федеративными XMPP-партнерами для организации](/previous-versions/office/lync-server-2013/lync-server-2013-manage-xmpp-federated-partners-for-your-organization)
 
-Сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнес-серверов, см. в материале Управление Skype для бизнеса [Server 2015.](../../manage/manage.md)
+Сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнеса Server, см. в Skype для бизнеса Server [2015](../../manage/manage.md)г.

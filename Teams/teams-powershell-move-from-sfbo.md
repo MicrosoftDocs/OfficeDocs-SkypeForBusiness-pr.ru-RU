@@ -12,16 +12,16 @@ ms.collection:
 description: Узнайте, как перейти Skype для бизнеса Online Connector к Teams PowerShell для управления Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0b08505ca97672d5285c8ff46b0e5d3cf58e9f84
-ms.sourcegitcommit: 56bebf42f545af57fdf387faa90e555abc8acd40
+ms.openlocfilehash: 9dd03b414eba2ebc10dcfdbbb4e0ea2712fff73ca2cb0eb643aa132936ab1470
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "52513872"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54299009"
 ---
 # <a name="migrating-from-skype-for-business-online-connector-to-the-teams-powershell-module"></a>Переход с Skype для бизнеса Online Connector на модуль Teams PowerShell
 
-Teams Модуль PowerShell предоставляет полный набор командлетов для управления Teams непосредственно из командной строки PowerShell. Администраторам не требуется Skype Для бизнеса Online Connector для Teams администрирования.
+Teams Модуль PowerShell содержит полный набор командлетов для управления Teams непосредственно из командной строки PowerShell. Администраторам не требуется Skype Для бизнеса Online Connector для Teams администрирования.
 
 > [!NOTE]
 > Teams сообщение центра сообщений (MC244740 от 16 марта 2021 г.); MC250940 от 16 апреля 2021 г.) об этом изменении.
@@ -29,7 +29,7 @@ Teams Модуль PowerShell предоставляет полный набор
 > Teams Модуль PowerShell использует современную проверку подлинности, но для Windows клиента удаленного управления (WinRM) необходимо разрешить базовую проверку подлинности. Инструкции [о том, как включить проверку](/skypeforbusiness/set-up-your-computer-for-windows-powershell/download-and-install-windows-powershell-5-1) подлинности WinRM для Basic, см. в Windows PowerShell и установке приложения.
 
 > [!WARNING]
-> Skype для бизнеса Подключения online Connector будут отклоняться с 17 мая 2021 г. Обратитесь в службу поддержки Майкрософт за помощью и поддержкой по переходу на Teams PowerShell.
+> Skype для бизнеса Подключения к сетевым соединителам будут отклоняться с 17 мая 2021 г. Обратитесь в службу поддержки Майкрософт за помощью и поддержкой по переходу на Teams PowerShell.
 
 ## <a name="how-to-migrate"></a>Перенос
 
@@ -37,7 +37,7 @@ Teams Модуль PowerShell предоставляет полный набор
 
 1. Установите последнюю версию Teams PowerShell. По шагам см. [Microsoft Teams PowerShell.](teams-powershell-install.md)
 
-2. Удалить соединитель Skype для бизнеса Online. Для этого на панели управления перейдите в программу и функции **,** выберите Skype для бизнеса **Online, Windows PowerShell module**, а затем **выберите** Удалить .
+2. Удалить соединитель Skype для бизнеса Online. Для этого на панели управления перейдите в программу и функции **,** выберите Skype для бизнеса **Online, модуль Windows PowerShell**, а затем **—** Удалить .
 
 3. В сценариях PowerShell измените имя модуля, на который ссылается ```Import-Module```
 
@@ -45,7 +45,7 @@ Teams Модуль PowerShell предоставляет полный набор
 
     Например, измените `Import-Module -Name SkypeOnlineConnector` на `Import-Module -Name MicrosoftTeams` .
 
-4. При использовании Teams PowerShell Module 2.0 или более поздней версии обновите сценарии, которые ссылаются на `New-CsOnlineSession` `Connect-MicrosoftTeams` . `Import-PsSession`больше не требуется создавать сеанс удаленной Skype для бизнеса PowerShell в Интернете, так как он делается неявным при использовании `Connect-MicrosoftTeams` .
+4. При использовании Teams PowerShell Module 2.0 или более поздней версии обновите сценарии, которые ссылаются на `New-CsOnlineSession` `Connect-MicrosoftTeams` . `Import-PsSession`больше не требуется устанавливать сеанс удаленной Skype для бизнеса Online PowerShell, так как он делается неявным при использовании `Connect-MicrosoftTeams` .
 
     ```powershell
        # When using the Skype for Business online connector
@@ -88,7 +88,7 @@ Teams Модуль PowerShell предоставляет полный набор
 
 4.  Если результаты не помогли, выберите Обратиться **в службу поддержки**.
 
-5.  Введите описание проблемы, подтвердите свой номер контакта и адрес электронной почты, выберите предпочтительный способ связи, а затем выберите Связаться **со мной**. Ожидаемое время ожидания указано в области Нужна помощь? Панели.
+5.  Введите описание проблемы, подтвердите свой номер контакта и адрес электронной почты, выберите предпочтительный способ связи, а затем выберите Связаться со **мной**. Ожидаемое время ожидания указано в области Нужна помощь? Панели.
 
 ## <a name="related-topics"></a>Статьи по теме
 

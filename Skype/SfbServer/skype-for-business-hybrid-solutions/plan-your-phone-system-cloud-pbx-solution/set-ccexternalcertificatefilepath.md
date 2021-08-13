@@ -12,21 +12,21 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 443d071e-633e-4337-b20b-f30cdfbd4aaf
-description: Этот Set-CcExternalCertificateFilePath указывает путь, в котором хранится сертификат для сервера-посредника или сервера-посредника.
-ms.openlocfilehash: 9216b82626da7160d6e1bfa8d611757321a2683a
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: В Set-CcExternalCertificateFilePath указывается путь, по котором хранится сертификат для сервера-посредника или edge Server.
+ms.openlocfilehash: 7b9b494b27f3ed05dd1ef1cdb91bd583abf2d2b391f1a49c0b2615fd3485187c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824203"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54344568"
 ---
 # <a name="set-ccexternalcertificatefilepath"></a>Set-CcExternalCertificateFilePath
  
-Этот Set-CcExternalCertificateFilePath указывает путь, в котором хранится сертификат для сервера-посредника или сервера-посредника.
+В Set-CcExternalCertificateFilePath указывается путь, по котором хранится сертификат для сервера-посредника или edge Server.
   
-Этот сертификат требуется во время развертывания или при добавлении новых устройств Skype для бизнеса Cloud Connector Edition. Команда также позволяет импортировать новый сертификат для сервера-посредника после развертывания.
+Этот сертификат необходим во время развертывания или при добавлении новых Skype для бизнеса Cloud Connector Edition. Команда также позволяет импортировать новый сертификат для сервера-посредника после развертывания.
   
-Этот cmdlet применяется к Skype для бизнеса Cloud Connector Edition 1.4.1, 1.4.2.
+Этот комлет применяется к Skype для бизнеса Cloud Connector Edition 1.4.1, 1.4.2.
   
 ```powershell
 Set-CcExternalCertificateFilePath [-Target] <string> {EdgeServer | MediationServer} [-Path] <string> [-Import]  [<CommonParameters>]
@@ -35,23 +35,23 @@ Set-CcExternalCertificateFilePath [-Target] <string> {EdgeServer | MediationServ
 ## <a name="examples"></a>Примеры
 <a name="Examples"> </a>
 
-### <a name="example-1"></a>Пример 1
+### <a name="example-1"></a>Пример 1
 
-В следующем примере задан путь к сертификату для edge Server:
+В следующем примере задан путь сертификата для edge Server:
   
 ```powershell
 Set-CcExternalCertificateFilePath -Target EdgeServer -Path C:\CloudConnector\Certificates\AdatumPublicEdge.pfx
 ```
 
-### <a name="example-2"></a>Пример 2
+### <a name="example-2"></a>Пример 2
 
-В следующем примере задан путь к сертификату для сервера-посредника:
+Следующий пример задает путь сертификата для сервера-посредника:
   
 ```powershell
 Set-CcExternalCertificateFilePath -Target MediationServer -Path C:\CloudConnector\Certificates\AdatumPublicMediation.pfx
 ```
 
-### <a name="example-3"></a>Пример 3
+### <a name="example-3"></a>Пример 3
 
 В следующем примере обновляется сертификат для сервера-посредника:
   
@@ -62,22 +62,22 @@ Set-CcExternalCertificateFilePath -Target MediationServer -Path C:\CloudConnecto
 ## <a name="detailed-description"></a>Подробное описание
 <a name="DetailedDescription"> </a>
 
-Во время развертывания или при изменении топологии необходимо указать путь к сертификату сервера-посредника и, при необходимости, сертификату сервера-посредника. 
+Во время развертывания или при изменении топологии необходимо указать путь для сертификата Edge Server и необязательно для сертификата Mediation Server. 
   
-Сертификат для сервера-посредника необходим, если между шлюзом и сервером-посредником будет использоваться TLS. При развертывании устройства Cloud Connector и развертывании TLS можно указать только путь к сертификату, который будет развернут на сервере-посреднике. Однако если вы хотите обновить сертификат-посредник на уже развернутом устройстве, необходимо указать путь и параметр -Import. Чтобы увидеть путь, используйте Get-CCExternalCertificateFilePath.
+Сертификат для сервера-посредника необходим, если TLS будет использоваться между шлюзом (s) и сервером-посредником. При развертывании устройства cloud Connector и развертывании TLS можно указать путь только к сертификату, который будет развернут на сервере-посреднике. Однако для обновления сертификата-посредника на уже развернутом устройстве необходимо указать путь и параметр -Import. Чтобы увидеть путь, используйте Get-CCExternalCertificateFilePath.
   
 ## <a name="parameters"></a>Параметры
 <a name="DetailedDescription"> </a>
 
 |**Параметр**|**Required**|**Тип**|**Описание**|
 |:-----|:-----|:-----|:-----|
-| Target <br/> | Обязательный <br/> |System.String  <br/> |Тип запрашиваемого пути к файлу. К типам относятся:  <br/> EdgeServer (по умолчанию)  <br/> MediationServer  <br/> |
-|Импорт  <br/> |Необязательный  <br/> |System.Management.Automation.SwitchParameter  <br/> |Указывает, что сертификат необходимо импортировать на сервер-посредник. Этот параметр не требуется при первом развертывании устройства. Этот параметр необходим, если требуется изменить существующий сертификат в уже развернутой версии.  <br/> |
+| Target <br/> | Обязательный <br/> |System.String  <br/> |Тип запрашиваемого пути файла. Типы включают в себя:  <br/> EdgeServer (по умолчанию)  <br/> MediationServer  <br/> |
+|Импорт  <br/> |Необязательный  <br/> |System.Management.Automation.SwitchParameter  <br/> |Указывает, что сертификат должен быть импортироваться на сервер-посредник. Этот параметр не требуется при первом развертывании устройства. Этот параметр необходим для изменения существующего сертификата в уже развернутой версии.  <br/> |
    
 ## <a name="input-types"></a>Типы входных данных
 <a name="InputTypes"> </a>
 
-Этот Set-CcExternalCertificateFilePath не принимает конвейерные входные данные.
+В Set-CcExternalCertificateFilePath не принимается конвейерный ввод.
   
 ## <a name="return-types"></a>Типы возвращаемых данных
 <a name="ReturnTypes"> </a>

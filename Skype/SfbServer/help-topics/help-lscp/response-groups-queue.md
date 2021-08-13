@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 29bde940-6107-494f-9bee-b6ebfa135e41
 description: Группы ответа состоят из агентов, очередей и рабочих процессов. Очереди группы ответов удерживают вызовы в группе ответа до тех пор, пока агент не ответит на вызов.
-ms.openlocfilehash: 4b0b4e4f34c8297702b110fea2c8aae55bb39d2a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 875a76febbee305e8e2f25c6efee087575fac8d0736bd4405557795bff38e04a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122543"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54298369"
 ---
 # <a name="response-groups-queue"></a>Очередь группы ответа
 
@@ -56,4 +56,4 @@ ms.locfileid: "51122543"
 
 - **Описание** Описание очереди.
 
-Подробные сведения о возможностях и возможностях группы реагирования см. в документе [Plan for the Response Group application in Skype for Business Server 2015.](../../plan-your-deployment/enterprise-voice-solution/response-group.md) Подробные сведения о работе с очередями группы реагирования см. в документе [Управление](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-queues) очередями групп реагирования в документации по операциям.
+Сведения о возможностях и возможностях группы реагирования см. в приложении [Plan for the Response Group в Skype для бизнеса Server 2015](../../plan-your-deployment/enterprise-voice-solution/response-group.md) г. в документации по планированию. Подробные сведения о работе с очередями группы реагирования см. в документе [Управление](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-queues) очередями групп реагирования в документации по операциям.

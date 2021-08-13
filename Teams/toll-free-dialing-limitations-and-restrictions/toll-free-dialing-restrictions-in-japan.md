@@ -23,13 +23,13 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: Узнайте о наборе бесплатных номеров в Японии, в том числе о доступности, доступности проводной или фиксированной связи, доступности мобильной сети и ограничениях.
-ms.openlocfilehash: 84992a40f778e3dd7319b65bbf734423b645bfda
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Узнайте о наборе бесплатных номеров в Японии, включая доступность, доступность проводной и фиксированной телефонной связи, а также ограничения для мобильной сети.
+ms.openlocfilehash: 1815bec5c1f6ede6ae37f3ed717b145fb260800213bba97eecc6a6a6e83fff06
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51097975"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54297725"
 ---
 # <a name="toll-free-dialing-restrictions-in-japan"></a>Ограничения набора бесплатных номеров в Японии
 

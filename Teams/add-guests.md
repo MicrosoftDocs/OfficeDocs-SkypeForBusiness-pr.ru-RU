@@ -19,12 +19,12 @@ ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
 description: Администраторы могут узнать, как добавлять гостей в организацию в классических и веб-клиентах Microsoft Teams и на портале совместной Azure Active Directory B2B.
-ms.openlocfilehash: 1d44aff9b62a5ba6de7c22499f5a20f187d7781b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 1525a389b5299491dc7d0de2adfd744d0d3437aff7fbeb5832cd37790ab24ffb
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51109085"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54344398"
 ---
 # <a name="add-a-guest-to-a-team"></a>Добавление гостя в команду
 
@@ -40,7 +40,7 @@ ms.locfileid: "51109085"
 
 С помощью службы совместной работы Azure AD B2B организации могут задавать для B2B-пользователей политики условного доступа и многофакторной проверки подлинности (MFA). Эти политики можно применять на уровне клиента, приложения или отдельных пользователей точно так же, как для штатных сотрудников и членов организации. Эти политики применяются в ресурсной организации. Дополнительные сведения см. в статье [Условный доступ для пользователей службы совместной работы B2B](/azure/active-directory/external-identities/conditional-access). Отдельных гостей заблокировать нельзя.
 
-Гости, которые вы уже добавили через Azure AD B2B, Microsoft 365 группы или SharePoint, готовы к этому. Администратор Microsoft 365 или владелец команды может добавить таких гостей в свои команды. Если вы добавляете гостя непосредственно в группу Microsoft 365, связанную с командой, он получит доступ к команде, но группа Microsoft 365 не создает приглашение, поэтому кто-то из команды должен уведомить гостя.
+Гости, которые вы уже добавили через Azure AD B2B, Microsoft 365 группы или SharePoint готовы к этому. Администратор Microsoft 365 или владелец команды может добавить таких гостей в свои команды. Если вы добавляете гостя непосредственно в группу Microsoft 365, связанную с командой, он получит доступ к команде, но группа Microsoft 365 не создает приглашение, поэтому кто-то из команды должен уведомить гостя.
 
 > [!NOTE]
 > На гостей распространяются ограничения служб [Microsoft 365 или Office 365](/office365/servicedescriptions/office-365-service-descriptions-technet-library) и [Azure Active Directory](/azure/active-directory/external-identities/current-limitations).

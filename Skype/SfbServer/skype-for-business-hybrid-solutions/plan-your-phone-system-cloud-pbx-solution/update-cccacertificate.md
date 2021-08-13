@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 5b474789-75de-443c-89bd-de89be55a1dd
-description: Этот Update-CcCACertificate обновляет сертификат корневого ЦС Skype для бизнеса Cloud Connector Edition, срок действия которого истекает или уже истек.
-ms.openlocfilehash: 9a99e80e166b7c8624867594fa02243d9d70537e
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Этот Update-CcCACertificate обновляет корневой сертификат ca Skype для бизнеса Cloud Connector Edition, который истек или уже истек.
+ms.openlocfilehash: 640ca982cd005e9805d7214212d847edcc6856456b6995fe1ae689778da58f61
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824123"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54344538"
 ---
 # <a name="update-cccacertificate"></a>Update-CcCACertificate
  
-Этот Update-CcCACertificate обновляет сертификат корневого ЦС Skype для бизнеса Cloud Connector Edition, срок действия которого истекает или уже истек. 
+Этот Update-CcCACertificate обновляет корневой сертификат ca Skype для бизнеса Cloud Connector Edition, который истек или уже истек. 
   
 ```powershell
 Update-CcCACertificate
@@ -35,9 +35,9 @@ Update-CcCACertificate
 ## <a name="examples"></a>Примеры
 <a name="Examples"> </a>
 
-### <a name="example-1"></a>Пример 1
+### <a name="example-1"></a>Пример 1
 
-В следующем примере обновляется сертификат корневого ЦС: 
+В следующем примере обновляется корневой сертификат ЦС: 
   
 ```powershell
 Update-CcCACertificate 
@@ -46,20 +46,20 @@ Update-CcCACertificate
 ## <a name="detailed-description"></a>Подробное описание
 <a name="DetailedDescription"> </a>
 
-Сертификат корневого ЦС Cloud Connector действителен в течение пяти лет с даты установки службы ЦС.
+Сертификат корневого ca облачного соединитетеля действителен в течение пяти лет со дня установки службы сертификации.
   
-Если срок действия корневого сертификата истекает или уже истек, запустите Update-CcCACertificate для его продления. После продления корневого сертификата серверу AD Server, центральному окню управления и edge Server автоматически будут выданы новые сертификаты.
+Если срок действия корневого сертификата истек или истек, запустите Update-CcCACertificate для обновления сертификата. После возобновления корневого сертификата автоматически будут выдаваться новые сертификаты AD Server, Central Management Store и Edge Server.
   
-Если на одном сайте STN несколько устройств, запустите Update-CcCACertificate на всех устройствах одного сайта STN.
+Если на одном сайте PSTN имеется несколько устройств, запустите Update-CcCACertificate во всех устройствах одного сайта PSTN.
   
-На последнем этапе запустите Export-CcRootCertificate для экспорта корневого сертификата в локальный файл на первом устройстве, а затем скопируйте и установите экспортный сертификат на шлюзы STN.
+В качестве последнего шага запустите Export-CcRootCertificate для экспорта корневого сертификата в локальный файл в первом устройстве, а затем скопируйте и установите экспортируемую сертификацию на шлюзы PSTN.
   
-Эта команда заменяет командлет Renew-CcCACertificate Cloud Connector 2.0 и более поздних версий.
+Эта команда заменяет командлет Renew-CcCACertificate в Cloud Connector 2.0 и более поздних выпусках.
   
 ## <a name="input-types"></a>Типы входных данных
 <a name="InputTypes"> </a>
 
-Нет. Этот Update-CcCACertificate не принимает конвейерные входные данные.
+Нет. В Update-CcCACertificate не принимается конвейерный ввод.
   
 ## <a name="return-types"></a>Типы возвращаемых данных
 <a name="ReturnTypes"> </a>

@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d136adcd-6659-4113-941c-cca75033318e
 description: Используйте диалоговое окно Выбор маршрутов для поиска существующих пригодных для использования маршрутов голосовых данных.
-ms.openlocfilehash: 76a7927ec4e73ab8462f307e42477ab53030e399
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 0c4e0b867d82a7a7b112ce5ad1e0551876a05106f74d0b91a65e5bf1031d9a69
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49803739"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54299746"
 ---
 # <a name="select-routes"></a>Выбор маршрутов
  
@@ -29,6 +29,6 @@ ms.locfileid: "49803739"
 > [!NOTE]
 > Чтобы получить все доступны маршруты голосовых данных, ничего не вводите в поле поиска и нажмите значок поиска. 
   
-For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).
+Сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнеса Server, см. в Skype для бизнеса Server [2015](../../manage/manage.md)г.
   
 
