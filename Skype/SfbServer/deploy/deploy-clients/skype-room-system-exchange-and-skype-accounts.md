@@ -1,5 +1,5 @@
 ---
-title: Подготовка системной системы Skype и учетных записей Skype
+title: Подготовка Skype систем Exchange и Skype учетных записей
 ms.author: v-cichur
 author: cichur
 manager: serdars
@@ -12,27 +12,27 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: fa71a2da-2cc9-4ad1-8ec9-08d1c9c5247a
 ms.collection: M365-voice
-description: Ознакомьтесь с этими разделами, чтобы узнать о предоставлении учетных записей Exchange и Skype для системы номеров Skype.
-ms.openlocfilehash: 0e8c73bc83a62465dc711b4a6f2725f1d9c576f8
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Ознакомьтесь с этими разделами, чтобы узнать, как Exchange и Skype учетных записей Skype room System.
+ms.openlocfilehash: bee430c434a710f0560e78eef9ebce31d198549fdb4ee9a88861afb5ab9e8760
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51113065"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54338887"
 ---
-# <a name="provisioning-of-skype-room-system-exchange-and-skype-accounts"></a>Подготовка системной системы Skype и учетных записей Skype
+# <a name="provisioning-of-skype-room-system-exchange-and-skype-accounts"></a>Подготовка Skype систем Exchange и Skype учетных записей
  
-Ознакомьтесь с этими разделами, чтобы узнать о предоставлении учетных записей Exchange и Skype для системы номеров Skype. 
+Ознакомьтесь с этими разделами, чтобы узнать, как Exchange и Skype учетных записей Skype room System. 
 
 > [!NOTE]
-> Microsoft Teams Rooms — это другой продукт с различными зависимостями и процедурами развертывания. Сведения о комнатах Microsoft Teams см. в обзоре развертывания Microsoft Teams [Rooms.](/MicrosoftTeams/rooms/rooms-deploy)
+> Комнаты Microsoft Teams — это другой продукт с различными зависимостями и процедурами развертывания. Сведения о Комнаты Microsoft Teams см. в Комнаты Microsoft Teams [обзоре развертывания.](/MicrosoftTeams/rooms/rooms-deploy)
   
 > [!NOTE]
-> Подготовка учетной записи Skype Room System зависит от типа топологии, которая имеется в организации. Дополнительные новости о topologies Active Directory см. в дополнительных данных об экологических требованиях [к Skype для бизнеса Server 2015.](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) 
+> Skype Подготовка учетной записи системы номеров зависит от типа топологии, которая имеется в организации. Дополнительные новости о томологии Active Directory см. в Skype для бизнеса Server [2015 г.](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) 
   
-## <a name="provisioning-of-skype-room-system-exchange-amp-skype-for-business-accounts"></a>Подготовка учетных записей Skype Room System Exchange &amp; Skype для бизнеса
+## <a name="provisioning-of-skype-room-system-exchange-amp-skype-for-business-accounts"></a>Подготовка Skype учетных записей Exchange &amp; Skype для бизнеса номеров
 
-В следующих темах описаны вопросы обеспечения и управления учетными записями skype Room System Exchange и Skype для бизнеса:
+В следующих темах описывается подготовка и управление Skype учетных записей Exchange и Skype для бизнеса учетных записей:
   
 - Локальные развертывания с одним лесом
     
@@ -42,6 +42,6 @@ ms.locfileid: "51113065"
     
 - Гибридные развертывания
     
-- Skype Room System и Skype for Business federated partners
+- Skype Система номеров и Skype для бизнеса федерадные партнеры
     
 - Управление учетными записями системы комнат Skype

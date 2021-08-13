@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 7844b55e-b7e9-4599-9962-f0322728405a
-description: The Renew-CcServerCertificate cmdlet renews the certificates for Skype for Business Cloud Connector Edition when they are near expiration or already expired. Эта команда была изменена Update-CcServerCertificate в Cloud Connector 2.0 и более поздних выпусках.
-ms.openlocfilehash: e4f3f4bbf0904733cf39f71534115543ff15fa65
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Этот Renew-CcServerCertificate возобновляет сертификаты для Skype для бизнеса Cloud Connector Edition, когда они истекли или уже истекли. Эта команда была изменена на Update-CcServerCertificate в cloud Connector 2.0 и более поздних выпусках.
+ms.openlocfilehash: 632807f8d6b8dda7b3df6639e8f6166e8ac5e6a22381646616a0637779a9159a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824265"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54340735"
 ---
 # <a name="renew-ccservercertificate"></a>Renew-CcServerCertificate
  
-The Renew-CcServerCertificate cmdlet renews the certificates for Skype for Business Cloud Connector Edition when they are near expiration or already expired. Эта команда была изменена Update-CcServerCertificate в Cloud Connector 2.0 и более поздних выпусках. 
+Этот Renew-CcServerCertificate возобновляет сертификаты для Skype для бизнеса Cloud Connector Edition, когда они истекли или уже истекли. Эта команда была изменена на Update-CcServerCertificate в cloud Connector 2.0 и более поздних выпусках. 
   
 ```powershell
 Renew-CcServerCertificate [[-Roles] <array> {Cms | MS | Edge}]
@@ -31,17 +31,17 @@ Renew-CcServerCertificate [[-Roles] <array> {Cms | MS | Edge}]
 ## <a name="examples"></a>Примеры
 <a name="Examples"> </a>
 
-### <a name="example-1"></a>Пример 1
+### <a name="example-1"></a>Пример 1
 
-В следующем примере обновляются сертификаты центрального банка управления, сервера-посредника и сервера-посредника, когда срок действия сертификатов истекает или уже истек:
+В следующем примере возобновляются сертификаты для центра управления, сервера-посредника и edge Server, когда срок действия сертификатов истек или уже истек:
   
 ```powershell
 Renew-CcServerCertificate
 ```
 
-### <a name="example-2"></a>Пример 2
+### <a name="example-2"></a>Пример 2
 
-В следующем примере обновляются сертификаты для сервера-посредника и сервера-посредника, когда срок их действия истекает или уже истек:
+В следующем примере возобновляются сертификаты для сервера-посредника и edge Server, когда они истекли или уже истекли:
   
 ```powershell
 Renew-CcServerCertificate-Roles @("MS", "Edge")
@@ -50,19 +50,19 @@ Renew-CcServerCertificate-Roles @("MS", "Edge")
 ## <a name="detailed-description"></a>Подробное описание
 <a name="DetailedDescription"> </a>
 
-Внутренние сертификаты Cloud Connector, выдавамые центральному окне управления, серверу-посреднику и серверу-посреднику, действуют в течение двух лет после их выдачи службой центра сертификации. Если срок действия сертификатов истекает или уже истек, запустите Renew-CcServerCertificate для их продления. 
+Внутренние сертификаты Cloud Connector, выдаваемые в Центральный магазин управления, сервер-посредник и edge Server, действительны в течение двух лет после их выдачи из службы authority certificate. Если срок действия сертификатов истек или истек, запустите Renew-CcServerCertificate для возобновления сертификатов. 
   
 ## <a name="parameters"></a>Параметры
 <a name="DetailedDescription"> </a>
 
 |**Параметр**|**Required**|**Тип**|**Описание**|
 |:-----|:-----|:-----|:-----|
-|Roles  <br/> |Необязательна  <br/> |System.Array  <br/> | Массив ролей сервера Cloud Connector. <br/> |
+|Роли  <br/> |Необязательный  <br/> |System.Array  <br/> | Массив ролей сервера облачного соединителя. <br/> |
    
 ## <a name="input-types"></a>Типы входных данных
 <a name="InputTypes"> </a>
 
-Нет. Этот Renew-CcServerCertificate не принимает конвейерные входные данные.
+Нет. В Renew-CcServerCertificate не принимается конвейерный ввод.
   
 ## <a name="return-types"></a>Типы возвращаемых данных
 <a name="ReturnTypes"> </a>

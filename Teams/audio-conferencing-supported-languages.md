@@ -22,19 +22,19 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Найдите язык для каждой страны или региона и присвоенный код языка и языка (en-US, da-DK, de-DE и т. д.)
-ms.openlocfilehash: 9486996a2d951d8ba5ad4790fd2dc792f69f1b1d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 5bd81e85f3944ce1a38bed2c1dc4110f3d3eaf9d7c59f3e0b3180c911d513f5b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098515"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54340515"
 ---
 # <a name="audio-conferencing-supported-languages"></a>Поддерживаемые языки аудиоконференций
 
-При настройке и настройке аудиоконференций в Microsoft 365 или Office 365 вы можете выбрать основной и дополнительный языки (до 4), которые используются, когда звоняющие звонят на Skype для бизнеса или Microsoft Teams собрание. Вот список поддерживаемых языков для аудиоконференций: 
+При настройке и настройке аудиоконференций в Microsoft 365 или Office 365 можно выбрать основной и дополнительный языки (до 4), которые используются при телефонном подзвучив Skype для бизнеса или Microsoft Teams собрания. Вот список поддерживаемых языков для аудиоконференций: 
   
 > [!IMPORTANT]
-> Основной и дополнительный языки можно изменить только для выделенных номеров аудиоконференций. 
+> Основной и дополнительный языки можно изменить только для выделенных номеров телефонов для аудиоконференций. 
   
 ## <a name="currently-supported-languages"></a>Поддерживаемые в настоящее время языки
 
@@ -91,7 +91,7 @@ ms.locfileid: "51098515"
   
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Сведения по управлению с помощью Windows PowerShell
 
-- Чтобы сэкономить время или автоматизировать эту функцию, вы можете использовать для этого [cmdlets Get-CsOnlineDialInConferencingLanguagesSupported](/powershell/module/skype/Get-CsOnlineDialInConferencingLanguagesSupported) или [Set-CsOnlineDialInConferencingServiceNumber.](/powershell/module/skype/Set-CsOnlineDialInConferencingServiceNumber)
+- Чтобы сэкономить время или автоматизировать эту функцию, вы можете использовать [cmdlets Get-CsOnlineDialInConferencingLanguagesSupported](/powershell/module/skype/Get-CsOnlineDialInConferencingLanguagesSupported) или [Set-CsOnlineDialInConferencingServiceNumber.](/powershell/module/skype/Set-CsOnlineDialInConferencingServiceNumber)
     
 - Windows PowerShell is all about managing users and what users are allowed or not allowed to do. С Windows PowerShell вы можете управлять Microsoft 365 или Office 365 с помощью единого администрирования, который упростит выполнение повседневных задач. Для начала работы с Windows PowerShell ознакомьтесь с приведенными ниже разделами.
     
@@ -99,7 +99,7 @@ ms.locfileid: "51098515"
     
   - [Лучшие способы управления Microsoft 365 или Office 365 с помощью Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-- Windows PowerShell имеет множество преимуществ в скорости, простоте и эффективности работы по сравнению с использованием только центра администрирования Microsoft 365, например при внесении изменений для множества пользователей одновременно. Подробнее об этих преимуществах можно узнать в следующих разделах: 
+- Windows PowerShell имеет множество преимуществ в скорости, простоте и эффективности работы по сравнению с использованием только Центр администрирования Microsoft 365, например при внесении изменений для множества пользователей одновременно. Подробнее об этих преимуществах можно узнать в следующих разделах: 
     
   - [Введение в Windows PowerShell и Skype для бизнеса Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
     

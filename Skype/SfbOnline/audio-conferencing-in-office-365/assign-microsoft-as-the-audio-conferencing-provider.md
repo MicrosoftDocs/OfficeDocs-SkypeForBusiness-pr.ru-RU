@@ -22,18 +22,18 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Learn how to assign Microsoft the dial-in conferencing provider for Skype for Business.
-ms.openlocfilehash: 74469a7686855d1bb17627282a9f2e5378a0d59e
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 5e02103dcd84bcbbaf60ccbc1a9fcd29555c241d4e05fd5e0f535b296d965748
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237765"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54340315"
 ---
 # <a name="assign-microsoft-as-the-audio-conferencing-provider"></a>Назначение Майкрософт в качестве поставщика услуг аудиоконференций
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-Чтобы использовать аудиоконференцию Microsoft 365 или Office 365 с Skype для бизнеса и Microsoft Teams, пользователям в организации должна быть назначена лицензия на аудиоконференцию. Дополнительные [сведения о лицензировании](try-or-purchase-audio-conferencing-in-office-365.md) и их стоимости см. в Microsoft 365 или Office 365 аудиоконференцию в Microsoft 365 или Office 365.
+Чтобы использовать аудиоконференцию Microsoft 365 или Office 365 в Skype для бизнеса и Microsoft Teams, пользователям в организации должна быть назначена лицензия на аудиоконференцию. Дополнительные [сведения о лицензировании](try-or-purchase-audio-conferencing-in-office-365.md) и их стоимости см. в Microsoft 365 или Office 365 аудиоконференцию в Microsoft 365 или Office 365.
 
 Аудиоконференция Microsoft предоставляет телефонные номера для подключения, ПИН-коды и идентификаторы конференции, которые могут использовать участники собрания для подсоединения к собраниям организации. Назначить Майкрософт в качестве поставщика аудиоконференций нужно только для тех, кто будет планировать или Skype для бизнеса или Microsoft Teams собрания.
 
@@ -92,7 +92,7 @@ Script.ps1 -CsvFile <Path of the csv file>
 ./Script.ps1 -CsvFile ".\\CsvFile.csv"
   ```
 
-**Пример 3.** В этом примере с помощью этого сценария можно изменить поставщика аудиоконференций с Intercall (или другого поставщика) на **Майкрософт** для большого количества пользователей в организации.
+**Пример 3.** В этом примере с помощью этого сценария можно изменить поставщика услуг аудиоконференций с Intercall (или другого поставщика) на **Майкрософт** для большого количества пользователей в организации.
     
   ```PowerShell
   Script.ps1 -ACPProviderName <Provider>
@@ -198,5 +198,5 @@ Script.ps1 -CsvFile <Path of the csv file>
 Дополнительные сведения об использовании Windows PowerShell см. в статье [Использование возможностей Windows PowerShell для выполнения стандартных задач управления средой Skype для бизнеса Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
   
 ## <a name="related-topics"></a>Статьи по теме
-[Попробуйте или приобретйте аудиоконференцию в Microsoft 365 или Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md) 
+[Попробуйте или приобретйте](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md) аудиоконференцию в Microsoft 365 или Office 365 
  [Настройка Skype для бизнеса Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)

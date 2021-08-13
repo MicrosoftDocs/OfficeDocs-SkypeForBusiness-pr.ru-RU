@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 3638cdc8-71dd-4a22-8613-83859af97387
 ROBOTS: NOINDEX, NOFOLLOW
 description: Используйте диалоговое окно Выбор расширений типов файлов для выбора расширений типов файлов, которые требуется заблокировать или разрешить, посредством установки флажков (для блокировки) или снятия флажков (для разрешения) рядом с расширениями в разделе Расширения типов файлов. Щелкните стрелку, чтобы развернуть категорию и просмотреть все расширения типов файлов для этой категории. Если требуется выбрать все расширения типов файлов для категории, выделите имя категории.
-ms.openlocfilehash: 08709a2ff2504081ccf0172d3c6d559d6e2693b8
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 161b56adf12386d4510d91a83404af68058d3e590a1193c290813f89918c1f65
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49801489"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54324408"
 ---
 # <a name="select-file-type-extensions"></a>Выбор расширений типов файлов
  

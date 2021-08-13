@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 44da2f8d-0bf5-4f3e-b2e7-bb181dbbe646
-description: Этот Renew-CcCACertificate обновляет сертификат корневого ЦС Skype для бизнеса Cloud Connector Edition, срок действия которого истекает или уже истек. Эта команда была изменена Update-CcCACertificate в Cloud Connector 2.0 и более поздних выпусках.
-ms.openlocfilehash: e92709cd1da0ffccd2b356000dbd2345ba56a1d9
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Этот Renew-CcCACertificate обновляет корневой сертификат ca Skype для бизнеса Cloud Connector Edition, который истек или уже истек. Эта команда была изменена на Update-CcCACertificate в cloud Connector 2.0 и более поздних выпусках.
+ms.openlocfilehash: 49b58e18d6393d5a3f9665fea98cba73f22d9c3259f0036dc93dce9dbf67e567
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824275"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54340785"
 ---
 # <a name="renew-cccacertificate"></a>Renew-CcCACertificate
  
-Этот Renew-CcCACertificate обновляет сертификат корневого ЦС Skype для бизнеса Cloud Connector Edition, срок действия которого истекает или уже истек. Эта команда была изменена Update-CcCACertificate в Cloud Connector 2.0 и более поздних выпусках.
+Этот Renew-CcCACertificate обновляет корневой сертификат ca Skype для бизнеса Cloud Connector Edition, который истек или уже истек. Эта команда была изменена на Update-CcCACertificate в cloud Connector 2.0 и более поздних выпусках.
   
 ```powershell
 Renew-CcCACertificate
@@ -35,9 +35,9 @@ Renew-CcCACertificate
 ## <a name="examples"></a>Примеры
 <a name="Examples"> </a>
 
-### <a name="example-1"></a>Пример 1
+### <a name="example-1"></a>Пример 1
 
-В следующем примере обновляется сертификат корневого ЦС: 
+В следующем примере обновляется корневой сертификат ЦС: 
   
 ```powershell
 Renew-CcCACertificate 
@@ -46,18 +46,18 @@ Renew-CcCACertificate
 ## <a name="detailed-description"></a>Подробное описание
 <a name="DetailedDescription"> </a>
 
-Сертификат корневого ЦС Cloud Connector действителен в течение пяти лет с даты установки службы ЦС.
+Сертификат корневого ca облачного соединитетеля действителен в течение пяти лет со дня установки службы сертификации.
   
-Если срок действия корневого сертификата истекает или уже истек, запустите Renew-CcCACertificate для его продления. После продления корневого сертификата серверу AD Server, центральному окню управления и edge Server автоматически будут выданы новые сертификаты.
+Если срок действия корневого сертификата истек или истек, запустите Renew-CcCACertificate для обновления сертификата. После возобновления корневого сертификата автоматически будут выдаваться новые сертификаты AD Server, Central Management Store и Edge Server.
   
-Если на одном сайте STN несколько устройств, запустите Renew-CcCACertificate на всех устройствах одного сайта STN.
+Если на одном сайте PSTN имеется несколько устройств, запустите Renew-CcCACertificate во всех устройствах одного сайта PSTN.
   
-На последнем этапе запустите Export-CcRootCertificate для экспорта корневого сертификата в локальный файл на первом устройстве, а затем скопируйте и установите экспортный сертификат на шлюзы STN.
+В качестве последнего шага запустите Export-CcRootCertificate для экспорта корневого сертификата в локальный файл в первом устройстве, а затем скопируйте и установите экспортируемую сертификацию на шлюзы PSTN.
   
 ## <a name="input-types"></a>Типы входных данных
 <a name="InputTypes"> </a>
 
-Нет. Этот Renew-CcCACertificate не принимает конвейерные входные данные.
+Нет. В Renew-CcCACertificate не принимается конвейерный ввод.
   
 ## <a name="return-types"></a>Типы возвращаемых данных
 <a name="ReturnTypes"> </a>

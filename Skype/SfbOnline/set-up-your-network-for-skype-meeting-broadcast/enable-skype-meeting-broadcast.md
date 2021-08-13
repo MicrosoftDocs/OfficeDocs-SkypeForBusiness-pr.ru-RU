@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - SMB
 description: Чтобы люди в вашей организации могли Skype трансляцию собраний, необходимо включить ее. Для этого необходимо знать, как использовать Windows PowerShell. Если вы не знаете, Windows PowerShell, вы можете нанять партнера Майкрософт, который сделает это за вас.
-ms.openlocfilehash: 6cdd7f12483025697b139203907f87f9cd3dc764
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 99e5464ac092f30edf2667dbfd772b11c41ca4a795893e1e3415a54cf566ee44
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237015"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54339267"
 ---
 # <a name="enable-skype-meeting-broadcast"></a>Включение трансляции собрания Skype
 
@@ -70,11 +70,11 @@ ms.locfileid: "52237015"
    Get-CsBroadcastMeetingConfiguration
    ```
 
-    Убедитесь, что параметр  _EnableBroadcastMeeting_ имеет заданное для `False` параметра .
+    Убедитесь, что для  _параметра EnableBroadcastMeeting_ задан параметр `False` .
     
      ![Skype Cmdlet Enable Organization (Включить трансляцию собраний).](../images/44abe30d-d3df-4ca9-9761-603a7ff78723.png)
   
-9. В Skype трансляцию собраний для организации:
+9. В Skype трансляцию собраний для организации можно включить:
     
    ```PowerShell
    Set-CsBroadcastMeetingConfiguration -EnableBroadcastMeeting $True
@@ -87,13 +87,13 @@ ms.locfileid: "52237015"
     > [!TIP]
     > После внести изменения на портале широковещательного Skype может потребоваться до часа. 
   
-10. Теперь пользователи могут проводить широковещательные собрания с другими пользователями в вашей компании. Чтобы начать, наведя на них указатель на пункт Что такое [Skype трансляции собрания?](https://support.office.com/article/c472c76b-21f1-4e4b-ab58-329a6c33757d)
+10. Теперь пользователи могут проводить широковещательные собрания с другими пользователями в вашей компании. Чтобы начать, наведя указатель на пункт Что [такое Skype трансляции собрания?](https://support.office.com/article/c472c76b-21f1-4e4b-ab58-329a6c33757d)
     
 ## <a name="configure-your-network-to-broadcast-meetings-with-external-attendees"></a>Настройка сети для трансляции собраний с внешними участниками
 
 Если у вас есть брандмауэр и вы хотите проводить трансляции с людьми за пределами вашей компании (которые не являются федератными), необходимо настроить сеть с помощью этих инструкций: Настройка сети для [Skype](set-up-your-network-for-skype-meeting-broadcast.md)трансляции собраний . 
   
-Если у вас нет опыта настройки брандмауэра, вы можете нанять партнера [Майкрософт,](https://go.microsoft.com/fwlink/?linkid=391089) который сделает это за вас.
+Если у вас нет опыта настройки брандмауэра, [](https://go.microsoft.com/fwlink/?linkid=391089) вы можете нанять партнера Майкрософт, который сделает это за вас.
   
 Чтобы пропустить этот шаг и вместо этого добавить в вашу федерацию другую бизнес-федерацию, см. разрешение пользователям связываться с внешними Skype для бизнеса [пользователями.](../set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users.md) 
   

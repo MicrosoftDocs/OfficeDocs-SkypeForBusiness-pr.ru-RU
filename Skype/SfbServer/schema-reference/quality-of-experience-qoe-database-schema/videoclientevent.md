@@ -12,25 +12,25 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: e8ab963b-fe1d-45b3-b9bd-66a5f44c1629
-description: 'Каждая запись содержит событие клиента для одной конечной точки в видеосвязи. Обычно один вызов имеет две записи: одну для вызываемой стороны и одну для вызываемой.'
-ms.openlocfilehash: bb4a9feca562bed7bdb0080e7f9181003952f5d4
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Каждая запись содержит событие клиента для одной конечной точки видеосвязи. Обычно один вызов имеет две записи, одну для вызываемой и одну для вызываемой.
+ms.openlocfilehash: 2ccecd731df3b41fbd7c2ce5f2dda3ac298900ec866a995e36398edfeba1c1cd
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49821399"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54340795"
 ---
 # <a name="videoclientevent-table"></a>Таблица VideoClientEvent
  
-Каждая запись содержит событие клиента для одной конечной точки в видеосвязи. Обычно один вызов имеет две записи: одну для вызываемой стороны и одну для вызываемой.
+Каждая запись содержит событие клиента для одной конечной точки видеосвязи. Обычно один вызов имеет две записи, одну для вызываемой и одну для вызываемой.
   
-|**Столбец**|**Тип данных**|**Ключ/индекс**|**Details**|
+|**Column**|**Тип данных**|**Key/Index**|**Сведения**|
 |:-----|:-----|:-----|:-----|
-|**ConferenceDateTime** <br/> |datetime  <br/> |Primary  <br/> |Ссылка из [таблицы MediaLine.](medialine-0.md)  <br/> |
-|**SessionSeq** <br/> |int  <br/> |Primary  <br/> |Ссылка из [таблицы MediaLine.](medialine-0.md)  <br/> |
-|**MediaLineLabel** <br/> |tinyint  <br/> |Primary  <br/> |Ссылка из [таблицы MediaLine.](medialine-0.md)  <br/> |
-|**FromCaller** <br/> |bit  <br/> |Primary  <br/> |0: данные вызываемой  <br/> 1: данные вызываемой  <br/> |
-|**NetworkBandwidthLowEventRatio** <br/> || <br/> |Процент сеанса, когда событие LowBandwidth было и выпущено для состояния "Bad". Доступной пропускной способности недостаточно для приемлемого звучания.  <br/> |
-|**NetworkReceiveQualityEventRatio** <br/> || <br/> |Процент сеанса, когда событие ReceiveSendQuality было и выпущено для состояния "Bad".  <br/> Качество сети в условиях дрожания или потери пакетов является серьезным и влияет на качество звука, который получается.  <br/> |
+|**ConferenceDateTime** <br/> |datetime  <br/> |Primary  <br/> |Ссылки из [таблицы MediaLine](medialine-0.md).  <br/> |
+|**SessionSeq** <br/> |int  <br/> |Primary  <br/> |Ссылки из [таблицы MediaLine](medialine-0.md).  <br/> |
+|**MediaLineLabel** <br/> |tinyint  <br/> |Primary  <br/> |Ссылки из [таблицы MediaLine](medialine-0.md).  <br/> |
+|**FromCaller** <br/> |bit  <br/> |Primary  <br/> |0. Данные вызываемой  <br/> 1. Данные вызываемой  <br/> |
+|**NetworkBandwidthLowEventRatio** <br/> || <br/> |Процент сеанса событие LowBandwidth было уволено за состояние "Bad". Доступная пропускная способность недостаточна для приемлемого голосового доступа.  <br/> |
+|**NetworkReceiveQualityEventRatio** <br/> || <br/> |Процент сеанса событие ReceiveSendQuality было уволено за состояние "Bad".  <br/> Качество сети с точки зрения дрожания или потери пакета является серьезным и влияет на качество полученного звука.  <br/> |
    
 

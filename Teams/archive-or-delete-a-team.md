@@ -8,7 +8,7 @@ audience: admin
 ms.service: msteams
 ms.reviewer: jastark
 search.appverid: MET150
-description: В этой статье вы узнаете, как архивировать или окончательно удалять группы в Microsoft Teams.
+description: В этой статье вы узнаете, как архивировать или окончательно удалять команды в Microsoft Teams.
 localization_priority: Normal
 f1.keywords:
 - CSH
@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 88c5bf29717efaa75f166e515006cfdb39461448
-ms.sourcegitcommit: 0c942d9e25f9a51bb9bd22b40c5926e1d6d3892d
+ms.openlocfilehash: 773438eba12951d71f4cd8329c633fcdca5289e05eebf4716c0cddbb28d8f767
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "53186928"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54340665"
 ---
 # <a name="archive-or-delete-a-team-in-microsoft-teams"></a>Архивировать или удалять команды в Microsoft Teams
 
@@ -47,7 +47,7 @@ ms.locfileid: "53186928"
 
     ![Скриншот сообщения архива команд](media/teams-archive-message.png)
 
-4. Чтобы запретить редактирование контента на сайте SharePoint и вкладки Вики, связанных с командой, выберите сделать сайт SharePoint только для чтения **для участников группы**. (Teams владельцы по-прежнему смогут редактировать это содержимое.)
+4. Чтобы запретить редактирование контента на сайте SharePoint и вкладки Вики, связанных с командой, выберите сделать сайт **SharePoint-сайт** только для чтения для участников группы. (Teams владельцы по-прежнему смогут редактировать это содержимое.)
 5. Выберите **Архив**, чтобы архивировать команду. Статус команды изменится на **Архивирован**.
 
 ## <a name="make-an-archived-team-active"></a>Сделайте архивную команду активной

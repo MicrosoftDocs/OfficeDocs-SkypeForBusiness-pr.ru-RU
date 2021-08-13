@@ -24,12 +24,12 @@ ms.custom:
 - O365M_SkypeforBusinessON
 - O365P_SkypeforBusinessON
 description: 'Узнайте, как настроить домен, пользователей, обмен мгновенными сообщениями и сетевой статус вашей организации, чтобы установить Skype для бизнеса. Кроме того, вы можете узнать о настройке аудиоконференций, телефонной системы, планов звонков и трансляции собраний Skype. '
-ms.openlocfilehash: fcca1a3181ca0f5753fd53811290d710e8030064
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 9d8c68468cbceb1e7ab7e2c5d3a9a268b382fa13ec42d78d03269dc9764fb770
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52239811"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54340295"
 ---
 # <a name="set-up-skype-for-business-online"></a>Настройка Skype для бизнеса Online
 
@@ -39,7 +39,7 @@ ms.locfileid: "52239811"
 
 ## <a name="setting-up-skype"></a>Настройка Skype
 
-Похоже, вам нужна помощь по настройке Skype с вашей Microsoft 365 или Office 365 подпиской. Чтобы выполнить настройку, следуйте пошаговым инструкциям, приведенным в этой статье.
+Похоже, вам нужна помощь по настройке Skype с подпиской Microsoft 365 или Office 365 подпиской. Чтобы выполнить настройку, следуйте пошаговым инструкциям, приведенным в этой статье.
 
 ## <a name="1-plan-for-skype-for-business"></a>1. План для Skype для бизнеса
 
@@ -105,7 +105,7 @@ Skype для бизнеса Online входит в набор служб Office 
 
 Чтобы использовать Skype для бизнеса на ПК, компьютере Mac или мобильном устройстве, вам и другим пользователям в вашей организации нужно сначала скачать и установить Skype для бизнеса на своих устройствах.
 
-- [Установка Skype для бизнеса:](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb)инструкции по скачии приложения из Центра администрирования Microsoft 365 и его установке на компьютере с Mac ИЛИ ПК.
+- [Установка Skype для бизнеса:](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb)инструкции по скачии приложения с Центр администрирования Microsoft 365 и его установке на компьютере с Mac ИЛИ ПК.
 
 - [Развертывание клиента Skype для бизнеса в Office 365](deploy-the-skype-for-business-client-in-office-365.md). Инструкции по развертыванию приложения в крупных организациях.
 

@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b0714aae-55dc-4587-b718-34a03f596b22
 description: Создайте сетевые политики межсайтов, которые используются Корпоративная голосовая связь управления приемом вызовов в Skype для бизнеса Server.
-ms.openlocfilehash: 7c0ca45c691ab1ef70d3660c3d49a08c40bdd40d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 8e5fb020ece1762868f9d943eb2aad955903b91329d636a981e644b2e9892b67
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093087"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54338757"
 ---
 # <a name="create-network-intersite-policies-in-skype-for-business-server"></a>Создание сетевых межсетных политик в Skype для бизнеса Server
  
@@ -36,7 +36,7 @@ ms.locfileid: "51093087"
   
 ### <a name="to-create-a-network-inter-site-policy"></a>Создание сетевой политики межсайтов
 
-1. Запустите оболочку управления Skype для бизнес-серверов: нажмите кнопку Начните, щелкните Все **программы,** щелкните Skype для бизнеса **2015,** а затем нажмите **кнопку Skype для управления бизнес-серверами.**
+1. Запустите Skype для бизнеса Server: нажмите кнопку Начните, щелкните Все **программы,** нажмите кнопку Skype для бизнеса **2015,** а затем нажмите кнопку **Skype для бизнеса Server.**
     
 2. Запустите New-CsNetworkInterSitePolicy, чтобы создать сетевые политики межсайтов и применить соответствующий профиль политики пропускной способности для двух сайтов с прямым перекрестным соединением. Например, выполните команду:
     
