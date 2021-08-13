@@ -1,5 +1,5 @@
 ---
-title: Включить парковку вызовов для пользователей в Skype для бизнеса
+title: Включить парк вызовов для пользователей в Skype для бизнеса
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,27 +15,27 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 9430763f-3394-467c-9c6d-426bf761604e
-description: Включить для пользователей парковку вызовов в Skype для бизнеса Server Корпоративная голосовая связь.
-ms.openlocfilehash: e9bbc42f5940af0cfc94ab83eae981dd023c9fcd
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Включить пользователей для call Park в Skype для бизнеса Server Корпоративная голосовая связь.
+ms.openlocfilehash: 6ff85008481a1742fd0092aa83361917fd4cbf0795ec52304acc10631f00d621
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49830959"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54300325"
 ---
-# <a name="enable-call-park-for-users-in-skype-for-business"></a>Включить парковку вызовов для пользователей в Skype для бизнеса
+# <a name="enable-call-park-for-users-in-skype-for-business"></a>Включить парк вызовов для пользователей в Skype для бизнеса
  
-Включить для пользователей парковку вызовов в Skype для бизнеса Server Корпоративная голосовая связь.
+Включить пользователей для call Park в Skype для бизнеса Server Корпоративная голосовая связь.
   
-По умолчанию парковка вызовов отключена для всех пользователей. Пользователи не могут припарковать вызовы или получать припаркованные вызовы, пока они не будут включены для парковки вызовов в политике голосовой почты.
+По умолчанию call-парк отключен для всех пользователей. Пользователи не могут припарковать вызовы или получить припаркованные вызовы до тех пор, пока они не будут включены для Call Park в голосовой политике.
   
-Парковку вызовов можно включить на глобальном уровне, на уровне сайта или пользователя. Уровень пользователя имеет приоритет перед уровнем сайта, а тот в свою очередь — перед глобальным уровнем. Если у вас несколько политик голосовой почты, просмотрите все политики, чтобы включить парковку вызовов, а не только глобальную политику.
+Вы можете включить Call Park в глобальном масштабе или в области сайта или области пользователей. Уровень пользователя имеет приоритет перед уровнем сайта, а тот в свою очередь — перед глобальным уровнем. Если у вас несколько голосовых политик, просмотрите все политики, чтобы включить Call Park, а не только глобальную политику.
   
-### <a name="to-use-skype-for-business-server-control-panel-to-enable-call-park-for-users"></a>To Use Skype for Business Server Control Panel to Enable Call Park for Users
+### <a name="to-use-skype-for-business-server-control-panel-to-enable-call-park-for-users"></a>Использование панели Skype для бизнеса Server, чтобы включить парк вызовов для пользователей
 
 1. Войдите на компьютер в качестве члена группы **RTCUniversalServerAdmins** или роли администратора **CsVoiceAdministrator**, **CsServerAdministrator** или **CsAdministrator**.
     
-2. Откройте панель управления Skype для бизнеса Server.
+2. Откройте панель Skype для бизнеса Server управления.
     
 3. В левой области навигации щелкните элемент **Маршрутизация голосовых вызовов**.
     
@@ -47,19 +47,19 @@ ms.locfileid: "49830959"
     
 7. Чтобы сохранить политику голосовой связи, нажмите кнопку **ОК**.
     
-### <a name="to-use-cmdlets-to-enable-call-park-for-users"></a>Использование cmdlets для обеспечения парковки вызовов для пользователей
+### <a name="to-use-cmdlets-to-enable-call-park-for-users"></a>Использование cmdlets для включить парк вызовов для пользователей
 
 1. Войдите на компьютер в качестве члена группы RTCUniversalServerAdmins или роли администратора CsVoiceAdministrator, CsServerAdministrator или CsAdministrator.
     
-2. Запустите оболочку управления Skype для бизнеса Server: нажмите кнопку "Начните", выберите "Все программы", "Skype для бизнеса **2015",** а затем щелкните "Skype для бизнеса Server Management **Shell".**
+2. Запустите Skype для бизнеса Server: нажмите кнопку Начните, щелкните Все **программы,** нажмите кнопку Skype для бизнеса **2015,** а затем нажмите кнопку **Skype для бизнеса Server.**
     
-3. Запустите:
+3. Запуск:
     
    ```powershell
    Set-CsVoicePolicy -Identity <VoicePolicy> -EnableCallPark $true
    ```
 
-    Например, чтобы включить парковку вызовов для глобальной политики голосовой почты по умолчанию:
+    Например, чтобы включить Call Park для глобальной голосовой политики по умолчанию:
     
    ```powershell
    Set-CsVoicePolicy -EnableCallPark $true
@@ -69,5 +69,5 @@ ms.locfileid: "49830959"
 
 
 
-[Create or modify a voice policy and configure PSTN usage records in Skype for Business](voice-policy-and-pstn-usage-records.md)
+[Создание или изменение голосовой политики и настройка записей использования PSTN в Skype для бизнеса](voice-policy-and-pstn-usage-records.md)
 

@@ -15,21 +15,21 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 2e869df0-5fdb-4e70-bd81-cb012556eb1a
 description: Ознакомьтесь с этой темой, чтобы узнать, как настроить несколько номеров экстренных служб в Skype для бизнеса Server.
-ms.openlocfilehash: dc05e94e88b371bb9ee22568eff567e758311233
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: e0a12bb63578e5070a079b6ab4561d67255f7199a0042066467fb40eafb54637
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51111895"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54300345"
 ---
 # <a name="configure-multiple-emergency-numbers-in-skype-for-business"></a>Настройка нескольких номеров экстренных служб в Skype для бизнеса
 
 Ознакомьтесь с этой темой, чтобы узнать, как настроить несколько номеров экстренных служб в Skype для бизнеса Server.
 
-Skype для бизнеса Server теперь поддерживает несколько номеров экстренных служб для клиента. Несколько номеров экстренных служб — это новая функция, представленная в накопительном обновлении за июнь 2016 г. Перед настройкой среды для поддержки нескольких номеров экстренных служб обязательно ознакомьтесь с планом для нескольких номеров экстренных служб [в Skype для бизнеса Server.](../../plan-your-deployment/enterprise-voice-solution/multiple-emergency-numbers.md)
+Skype для бизнеса Server поддерживает несколько номеров экстренных служб для клиента. Несколько номеров экстренных служб — это новая функция, представленная в накопительном обновлении за июнь 2016 г. Перед настройкой среды для поддержки нескольких номеров экстренных служб обязательно ознакомьтесь с планом для нескольких номеров экстренных служб в [Skype для бизнеса Server.](../../plan-your-deployment/enterprise-voice-solution/multiple-emergency-numbers.md)
 
 > [!NOTE]
-> Если вы еще не обновились до накопительного обновления за ноябрь 2016 г., см. в рублях [Updates to Skype for Business Server 2015.](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015) С накопительным обновлением за ноябрь 2016 г. число номеров экстренных служб поддержки увеличивается с 5 до 100.
+> Если вы еще не обновили накопительное обновление за ноябрь 2016 г., см. в Skype для бизнеса Server [обновления 2015](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015)г. С накопительным обновлением за ноябрь 2016 г. число номеров экстренных служб поддержки увеличивается с 5 до 100.
 
 ## <a name="configure-multiple-emergency-numbers"></a>Настройка нескольких номеров экстренных служб
 

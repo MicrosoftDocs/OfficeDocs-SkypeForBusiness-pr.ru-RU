@@ -1,5 +1,5 @@
 ---
-title: Таблица Server
+title: Таблица сервера
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,23 +13,23 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 9af89d08-d35a-48e8-b56d-6df292f973cc
 description: Таблица Server является таблицей поддержки. Каждая запись в этой таблице представляет один сервер.
-ms.openlocfilehash: 7f26ed9053c65acb8cfd2e586edbd77fdfa7472b
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: e43e245e62b1b40f318d1920ae93d82ae9e8bad0e28436f31d9cc2f0fe54bac1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49802709"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54341624"
 ---
-# <a name="server-table"></a>Таблица Server
+# <a name="server-table"></a>Таблица сервера
  
 Таблица Server является таблицей поддержки. Каждая запись в этой таблице представляет один сервер. 
   
-|**Столбец**|**Тип данных**|**Ключ/индекс**|**Details**|
+|**Column**|**Тип данных**|**Key/Index**|**Сведения**|
 |:-----|:-----|:-----|:-----|
 |**ServerKey** <br/> |int  <br/> |Primary  <br/> |Уникальный номер, идентифицирующий сервер.  <br/> |
-|**FQDNOrIP** <br/> |nvarchar(256)  <br/> |index  <br/> |Строка MAC-адреса.  <br/> |
-|**ServerType** <br/> |int  <br/> |Внешняя  <br/> |1: сервер-посредник  <br/> 2: сервер аудио- и видеоконференций 16394: пограничная служба аудио- и видеосвязи 32769: шлюз  <br/> |
-|**PoolName** <br/> |nvarchar(512)  <br/> ||Пул, которому принадлежит сервер. Применяется только для серверов аудио- и видеоконференций.  <br/> |
+|**FQDNOrIP** <br/> |nvarchar (256)  <br/> |index  <br/> |Строка MAC-адреса.  <br/> |
+|**ServerType** <br/> |int  <br/> |Foreign  <br/> |1: сервер-посредник  <br/> 2: сервер аудио- и видеоконференций 16394: пограничная служба аудио- и видеосвязи 32769: шлюз  <br/> |
+|**PoolName** <br/> |nvarchar (512)  <br/> ||Пул, которому принадлежит сервер. Применяется только для серверов аудио- и видеоконференций.  <br/> |
 |**NextUpdateTS** <br/> |datetime  <br/> ||Только для внутреннего использования.  <br/> |
    
 

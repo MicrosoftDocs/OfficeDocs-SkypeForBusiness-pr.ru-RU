@@ -11,57 +11,57 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: d1d9cfec-e923-4d02-a306-ee40a9114cb8
-description: В этой статье описаны параметры клиента и параметры по умолчанию, доступные для клиента Skype для бизнеса на Mac, а также их редактирование из-за пределов приложения.
-ms.openlocfilehash: cdbd1c109fffddf6d922657285f60d9b4f06924a
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: В этой статье описываются клиентские предпочтения и по умолчанию, доступные для Skype для бизнеса mac-клиента, а также то, как их редактировать из-за пределов приложения.
+ms.openlocfilehash: bf93b08686ed245fab38364cf9aff4fee0526a8bd496231865640aeb2c6e67f0
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49805759"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54325496"
 ---
 # <a name="customize-the-mac-client-experience-in-skype-for-business"></a>Настройка клиентского опыта Mac в Skype для бизнеса
  
-В этой статье описаны параметры клиента и параметры по умолчанию, доступные для клиента Skype для бизнеса на Mac, а также их редактирование из-за пределов приложения.
+В этой статье описываются клиентские предпочтения и по умолчанию, доступные для Skype для бизнеса mac-клиента, а также то, как их редактировать из-за пределов приложения.
   
-## <a name="skype-for-business-on-mac-client-preference-settings"></a>Параметры параметров клиента Skype для бизнеса на Mac
+## <a name="skype-for-business-on-mac-client-preference-settings"></a>Skype для бизнеса параметров предпочтений клиентов Mac
 
-Некоторые функции и поведение, доступные клиентам Skype для бизнеса на Mac, определяются настройками параметров клиента. Параметры Skype для бизнеса на Mac находятся в файле, расположенном на компьютере Mac с установленным клиентом Skype для бизнеса, расположенным по следующему пути: 
+Некоторые функции и поведение, доступные Skype для бизнеса для клиентов Mac, определяются настройками предпочтений клиента. Параметры Skype для бизнеса на Mac находятся в файле, расположенном на macs, которые установили Skype для бизнеса клиента, расположенного по следующему пути: 
   
  **~/Library/Containers/com.microsoft.SkypeForBusiness/Data/Library/Preferences/com.microsoft.SkypeForBusiness.plist**
   
-Чтобы настроить эти параметры, перейдите к запросу терминала на компьютере Mac клиента и при необходимости введите значения по умолчанию для записи команд ключей com.microsoft.SkypeForBusiness с помощью ключей предпочтения, описанных в следующей таблице.
+Чтобы задать эти параметры, перейдите к подсказке терминала на Mac клиента и по мере необходимости введите по умолчанию пишите ключевые команды com.microsoft.SkypeForBusiness с помощью ключей предпочтений, описанных в следующей таблице.
   
-**Ключи предпочтения клиента**
+**Ключи предпочтений клиента**
 
 
 | Key | Тип | Значение | Описание |
 |:-----|:-----|:-----|:-----|
-|autoDetectAutoDicoveryURLs    |Логический    |0 = конфигурация сервера вручную  <br/> 1 = автоматическое обнаружение сервера (по умолчанию)    |Укажите, как Skype для бизнеса определяет транспорт и сервер для использования во время входов. Если этот параметр политики включается, необходимо указать **internalAutoDiscoveryURL** и **externalAutoDiscoveryURL.**   |
-|internalAutoDiscoveryURL    |String    |ПОЛНЫЙ URL-адрес автооружия    |ВНУТРЕННИЙ URL-адрес автооружия    |
-|externalAutoDiscoveryURL    |String    |ПОЛНЫЙ URL-адрес автооружия    |Внешний URL-адрес автооружия    |
-|httpProxyDomain    |String    ||Домен прокси-сервера HTTP    |
-|httpProxyUserName    |String    ||HTTP Proxy Username    |
+|autoDetectAutoDicoveryURLs    |Логический    |0 = ручная конфигурация сервера  <br/> 1 = автоматическое обнаружение сервера (по умолчанию)    |Укажите, Skype для бизнеса определяет транспорт и сервер для использования во время входной записи. Если вы включаете этот параметр политики, необходимо указать **internalAutoDiscoveryURL** и **externalAutoDiscoveryURL**.   |
+|internalAutoDiscoveryURL    |String    |Полный URL-адрес автооткрытия    |ВНУТРЕННИЙ URL-адрес автооткрытия    |
+|externalAutoDiscoveryURL    |String    |Полный URL-адрес автооткрытия    |Внешний URL-адрес автооткрытия    |
+|httpProxyDomain    |String    ||Домен HTTP Прокси    |
+|httpProxyUserName    |String    ||ИМЯ пользователя HTTP Прокси    |
 |httpProxyPassword    |String    ||Пароль прокси-сервера HTTP    |
 |trustedDomainList    |Массив    ||Список доверенных доменов для перенаправлений HTTP.    |
-|autoAcceptTimeout    |Номер    |300 (по умолчанию)    |Auto-Accept timeout for users without Server-side Conversation History.    |
-|warnWhenUnknownLocationForE911    |Логический    |0 = отключено  <br/> 1 = включено    |Предупреждает пользователя при наборе номера экстренной службы из неизвестного расположения.    |
-|sipAddress    |String    ||SIP-адрес (электронная почта), используемый для входов в Skype для бизнеса.    |
-|userName    |String    ||Имя пользователя, используемого для входов в Skype для бизнеса.    |
-|userNameInAdvancedOnly    |Логический    |0 = отображать поле "Имя пользователя" на главном экране для входов и в диалоговом окне "Дополнительные свойства"  <br/> 1 = отображать поле "Имя пользователя" только в диалоговом окне "Дополнительные свойства" (по умолчанию)    |Укажите, где будет отображаться поле "Имя пользователя" при входе.    |
+|autoAcceptTimeout    |Числовой    |300 (по умолчанию)    |Автоматическое принятие времени для пользователей без истории беседы на стороне сервера.    |
+|warnWhenUnknownLocationForE911    |Логический    |0 = Отключено  <br/> 1 = Включено    |Предупреждает пользователя при наборе экстренного номера из неизвестного расположения.    |
+|sipAddress    |String    ||SIP-адрес (электронная почта), используемый для регистрации Skype для бизнеса.    |
+|userName    |String    ||UpN (UserName), используемый для регистрации для Skype для бизнеса.    |
+|userNameInAdvancedOnly    |Логический    |0 = отображение поля Имя пользователя на главном экране входной записи и в диалоговом окне Advanced Properties  <br/> 1 = отображение поля Имя пользователя только в диалоговом окне Advanced Properties (по умолчанию)    |Укажите, где отображается поле Имя пользователя при входе.    |
    
 ### <a name="usage-examples"></a>Примеры использования
 
-Чтобы добавить один домен (Contoso.com) в список доверенных доменов, используйте ключ trustedDomainList, как показано ниже:
+Чтобы добавить один домен (Contoso.com) в список доверенных доменов, необходимо использовать ключ trustedDomainList, как показано:
   
-defaults write com.microsoft.SkypeForBusiness trustedDomainList -array-add "Contoso.com"
+по умолчанию пишут com.microsoft.SkypeForBusiness trustedDomainList -array-add "Contoso.com"
   
-Чтобы добавить несколько доменов в список доверенных доменов, используйте ключ trustedDomainList, как показано ниже:
+Чтобы добавить несколько доменов в надежный список доменов, необходимо использовать ключ trustedDomainList, как показано:
   
-defaults write com.microsoft.SkypeForBusiness trustedDomainList -array-add "sfb.com" "abc.com" "test.org"
+по умолчанию пишут com.microsoft.SkypeForBusiness trustedDomainList -array-add "sfb.com" "abc.com" "test.org"
   
-### <a name="sample-unedited-settings"></a>Пример невысвеченных параметров
+### <a name="sample-unedited-settings"></a>Пример неоконченных параметров
 
-Для справки вот пример файла параметров с использованием только параметров по умолчанию: 
+Для справки, вот пример файла параметров с использованием только параметров по умолчанию: 
   
 ```console
 {

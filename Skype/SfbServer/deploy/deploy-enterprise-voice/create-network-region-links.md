@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f8163910-8935-475d-88a2-3aa44feb9dbe
 description: Создание или изменение ссылок сетевого региона, которые используются Корпоративная голосовая связь управления приемом вызовов в Skype для бизнеса Server.
-ms.openlocfilehash: 5fd9657b3919e80552a82912550e7314297182cc
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: a332d3cb966247118d951626ac305c4a9f85e21d4b90b6011a07a1220f01170a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093107"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54325472"
 ---
 # <a name="create-network-region-links-in-skype-for-business-server"></a>Создание ссылок сетевого региона в Skype для бизнеса Server
  
@@ -29,11 +29,11 @@ ms.locfileid: "51093107"
   
 Регионы в сети связываются с помощью физического подключения глобальной сети. Ссылка в сетевом регионе создает связь между двумя регионами, настроенными для управления приемом вызовов (CAC), и устанавливает ограничения пропускной способности аудио- и видеопотока между этими регионами.
   
-В примере топология имеет связь между регионами Северной Америки и APAC, а также связь между регионами EMEA и APAC. Каждая из этих ссылок региона ограничена пропускной способностью WAN, как описано в таблице Сведения о пропускной способности региона [в примере:](../../plan-your-deployment/enterprise-voice-solution/example-gathering-requirements.md)сбор требований для управления приемом вызовов в Skype для бизнеса Server .
+В примере топология имеет связь между регионами Северной Америки и APAC, а также связь между регионами EMEA и APAC. Каждая из этих ссылок региона ограничена пропускной способностью WAN, как описано в таблице Сведения о пропускной способности региона в [примере:](../../plan-your-deployment/enterprise-voice-solution/example-gathering-requirements.md)сбор требований для управления приемом вызовов в Skype для бизнеса Server .
   
-### <a name="to-create-network-region-links-by-using-skype-for-business-server-management-shell"></a>Создание ссылок сетевого региона с помощью оболочки управления Skype для бизнес-серверов
+### <a name="to-create-network-region-links-by-using-skype-for-business-server-management-shell"></a>Создание ссылок сетевого региона с помощью Skype для бизнеса Server Management Shell
 
-1. Запустите оболочку управления Skype для бизнес-серверов: нажмите кнопку Начните, щелкните Все **программы,** щелкните Skype для бизнеса **2015,** а затем нажмите **кнопку Skype для управления бизнес-серверами.**
+1. Запустите Skype для бизнеса Server: нажмите кнопку Начните, щелкните Все **программы,** нажмите кнопку Skype для бизнеса **2015,** а затем нажмите кнопку **Skype для бизнеса Server.**
     
 2. Запустите командлет New-CsNetworkRegionLink, чтобы создать связи между областями и примените соответствующие профили политики пропускной способности. Например, выполните командлет:
     
@@ -45,9 +45,9 @@ ms.locfileid: "51093107"
    New-CsNetworkRegionLink -NetworkRegionLinkID EMEA-APAC-LINK -NetworkRegionID1 EMEA -NetworkRegionID2 APAC -BWPolicyProfileID 25Mb_Link
    ```
 
-### <a name="to-create-network-region-links-by-using-skype-for-business-server-control-panel"></a>Создание ссылок сетевого региона с помощью панели управления Skype для бизнес-серверов
+### <a name="to-create-network-region-links-by-using-skype-for-business-server-control-panel"></a>Создание ссылок сетевого региона с помощью Skype для бизнеса Server панели управления
 
-1. Откройте панель управления Skype для бизнес-серверов.
+1. Откройте панель Skype для бизнеса Server управления.
     
 2. В левой области навигации щелкните элемент **Конфигурация сети**.
     

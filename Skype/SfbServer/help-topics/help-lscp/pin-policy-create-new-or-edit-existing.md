@@ -15,27 +15,27 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 344b9be6-dd37-46bc-bfa4-5c06f6666aa7
 description: Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
-ms.openlocfilehash: 7755abf1c8bf6bc6f02664317c112d85936e6e37
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 4fbbb396733733b2bc44a3665f50f32cf9ea52df5494d8e2f2782b6548206d5a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121012"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54311427"
 ---
 # <a name="pin-policy-create-new-or-edit-existing"></a>Политика ПИН-кодов: создание новой или редактирование существующей
 
 Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
 
-- [Создание новой политики ПИН-кода в Skype для бизнеса Server 2015](../../manage/authentication/create-a-new-pin-policy.md)
+- [Создание новой политики ПИН-кода в Skype для бизнеса Server 2015 г.](../../manage/authentication/create-a-new-pin-policy.md)
 
-- [Изменение существующей политики ПИН-кода в Skype для бизнеса Server 2015](../../manage/authentication/modify-an-existing-pin-policy.md)
+- [Изменение существующей политики ПИН-кода в Skype для бизнеса Server 2015 г.](../../manage/authentication/modify-an-existing-pin-policy.md)
 
-- [Удаление политики ПИН-кода в Skype для бизнеса Server 2015](../../manage/authentication/delete-a-pin-policy.md)
+- [Удаление политики PIN-кода в Skype для бизнеса Server 2015 г.](../../manage/authentication/delete-a-pin-policy.md)
 
 - [Создание или изменение параметров ПИН-кода для конференц-связи с телефонным подключением для сайта или группы пользователей](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-dial-in-conferencing-pin-settings-for-a-site-or-group-of-users)
 
 - [Изменение параметров ПИН-кодов по умолчанию для конференц-связи с телефонным подключением](/previous-versions/office/lync-server-2013/lync-server-2013-modify-the-default-dial-in-conferencing-pin-settings)
 
-- [Удаление параметров ПИН-кода с диалогом для сайта или группы пользователей](/previous-versions/office/lync-server-2013/lync-server-2013-delete-dial-in-conferencing-pin-settings-for-a-site-or-group-of-users)
+- [Удаление ПИН-кода для Параметры для сайта или группы пользователей](/previous-versions/office/lync-server-2013/lync-server-2013-delete-dial-in-conferencing-pin-settings-for-a-site-or-group-of-users)
 
-Сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнес-серверов, см. в материале Управление Skype для бизнеса [Server 2015.](../../manage/manage.md)
+Сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнеса Server, см. в Skype для бизнеса Server [2015](../../manage/manage.md)г.

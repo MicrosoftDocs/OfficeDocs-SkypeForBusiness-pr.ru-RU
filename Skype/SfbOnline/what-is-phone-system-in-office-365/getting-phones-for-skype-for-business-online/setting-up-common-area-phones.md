@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Узнайте о действиях по развертыванию, чтобы получить правильное постройное ПО, при необходимости обновить его, назначить лицензии и настроить параметры общих телефонов с зонами.
-ms.openlocfilehash: 4fd45f446d71e581305f7e596c7eacc62f54f8ca
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: a73de696e8ac7410e9cccbca99dbabb74df392f58a8bf0ad82e5bdf1ec9ccd75
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237355"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54300405"
 ---
 # <a name="set-up-common-area-phones"></a>Настройка телефонов общего пользования
 
@@ -100,7 +100,7 @@ ms.locfileid: "52237355"
 
 Узнайте больше в статье [Получение телефонных номеров для ваших пользователей](/microsoftteams/getting-phone-numbers-for-your-users).
 
-Если вы хотите узнать свой номер телефона, который у вас есть у другого оператора связи, и *порт*" или перенести его в Microsoft 365 или Office 365. См. также: Перенос [номеров телефонов в Teams.](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams)
+Если вам интересно, вы также можете перенести номер телефона другогооператора связи и порт в Microsoft 365 или Office 365. См. также: Перенос [номеров телефонов в Teams.](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams)
 
 ### <a name="step-4---setting-up-your-phone"></a>Шаг 4. Настройка телефона
 
@@ -140,7 +140,7 @@ ms.locfileid: "52237355"
 
 
 > [!NOTE]
-> Сайт подготовки CAP заявляет о сбросе пароля учетной записи CAP на случайный пароль. Обратите внимание, что учетная запись, на которую ссылается CAP, представляет собой учетную запись Azure Active Directory (AAD). Если вы создали учетную запись только в AAD, процесс не будет сложным. Если вы синхронизировали локальное каталоги Active Directory с AAD и используете стороннее IDP или ADFS, подготовка cap будет не работать. В этом случае необходимо использовать только учетную запись Microsoft 365 или Office 365/Azure Active Directory (например, учетную запись с доменом **onmicrosoft.com)** для подготовка cap.
+> Сайт подготовки CAP заявляет о сбросе пароля учетной записи CAP на случайный пароль. Обратите внимание, что учетная запись, на которую ссылается CAP, представляет собой учетную запись Azure Active Directory (AAD). Если вы создали учетную запись только в AAD, процесс не будет сложным. Если вы синхронизировали локальное каталоги Active Directory с AAD и используете стороннее IDP или ADFS, подготовка cap будет не работать. В этом случае для подготовка cap необходимо использовать только учетную запись Microsoft 365 или Office 365/Azure Active Directory (например, учетную запись с доменом **onmicrosoft.com).**
 
 
 ### <a name="related-topics"></a>Статьи по теме
