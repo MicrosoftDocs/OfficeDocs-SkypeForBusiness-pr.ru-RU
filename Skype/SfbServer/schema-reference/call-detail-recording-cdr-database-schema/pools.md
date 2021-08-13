@@ -1,5 +1,5 @@
 ---
-title: Таблица Pools
+title: Таблица пулов
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,21 +12,21 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: e0632b8d-e23a-4365-8a7a-6ca0957a46a9
-description: Таблица Pools — это вспомогательная таблица, в которую хранится информация о различных пулах. Каждая запись в таблице представляет один пул.
-ms.openlocfilehash: bb0b794c38617d20b9a718fc9a44ec17c3a9ec66
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Таблица Пулы — это вспомогательная таблица, которая хранит сведения о различных пулах. Каждая запись в таблице представляет один пул.
+ms.openlocfilehash: b134fca33b49e466227b812e49cd74d5052d106bea640cf3e7f5e5eb24952002
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49823219"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54351968"
 ---
-# <a name="pools-table"></a>Таблица Pools
+# <a name="pools-table"></a>Таблица пулов
  
-Таблица Pools — это вспомогательная таблица, в которую хранится информация о различных пулах. Каждая запись в таблице представляет один пул.
+Таблица Пулы — это вспомогательная таблица, которая хранит сведения о различных пулах. Каждая запись в таблице представляет один пул.
   
-|**Столбец**|**Тип данных**|**Ключ/индекс**|**Details**|
+|**Column**|**Тип данных**|**Key/Index**|**Сведения**|
 |:-----|:-----|:-----|:-----|
 |**PoolId** <br/> |int  <br/> |Primary  <br/> |Уникальный номер, определяющий пул.  <br/> |
-|**PoolFQDN** <br/> |nvarchar(256)  <br/> | <br/> |Полное доменное имя пула.  <br/> |
+|**PoolFQDN** <br/> |nvarchar (256)  <br/> | <br/> |Полное доменное имя пула.  <br/> |
    
 

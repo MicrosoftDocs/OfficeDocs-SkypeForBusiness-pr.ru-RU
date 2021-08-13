@@ -1,5 +1,5 @@
 ---
-title: Передача данных между операторами и корпорацией Майкрософт для Подключение
+title: Передача данных между операторами и майкрософт для операторов Подключение
 author: MicrosoftHeidi
 ms.author: heidip
 ms.reviewer: alaina, creager
@@ -16,14 +16,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 78f602fcacf6ee2f9a29393aa9a4d6b860251e2d
-ms.sourcegitcommit: 39d26edd43b6066d5a6dee2a5ad1354a1e560a0d
+ms.openlocfilehash: 5849ccb07217766e39052376b5b0cb67500f56e91db7b034ca62e0a605954ffa
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52694571"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54324828"
 ---
-# <a name="data-transfers-between-carriers-and-microsoft-for-operator-connect"></a>Передача данных между операторами и корпорацией Майкрософт для Подключение
+# <a name="data-transfers-between-carriers-and-microsoft-for-operator-connect"></a>Передача данных между операторами и майкрософт для операторов Подключение
 
 ## <a name="provisioned-and-assigned-numbers"></a>Подготовка и присвоение номеров
 
@@ -37,4 +37,4 @@ ms.locfileid: "52694571"
 
 Каждый оператор связи предоставляет корпорации Майкрософт через API продолжительность звонков, которые клиенты используют Microsoft Teams. Корпорация Майкрософт будет использовать эти записи для предоставления клиентам сведений об использовании и обеспечения того, чтобы наши записи совпадали с записями оператора связи. Корпорация Майкрософт будет хранить и обрабатывать эти записи в соответствии с применимым законодательством и нормативными актами, а также заявлением о конфиденциальности корпорации Майкрософт.
 
-Дополнительные сведения: [Приобретение, настройка](career-coach.md) и включить для тренера по Microsoft Teams
+Дополнительные сведения: [Приобретение, настройка и Профконсультант для Microsoft Teams](career-coach.md)

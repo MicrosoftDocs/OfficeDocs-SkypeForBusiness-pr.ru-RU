@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bf357591-6efd-41a7-8d19-014b684b84f4
 description: Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
-ms.openlocfilehash: 5d00e622a76d605eec28c54e00ca2c335de0d447
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 9165395f84aff0c95b38efc959c692018a10eaeb18a88f640e5d86b3bb5fe7f9
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119888"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54331281"
 ---
 # <a name="topology-view-simple-url-detail"></a>Топология: просмотр сведений о простых URL-адресах
 
@@ -32,4 +32,4 @@ ms.locfileid: "51119888"
 
 - [Управление простыми URL-адресами](/previous-versions/office/lync-server-2013/lync-server-2013-managing-simple-urls)
 
-Сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнес-серверов, см. в материале Управление Skype для бизнеса [Server 2015.](../../manage/manage.md)
+Сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнеса Server, см. в Skype для бизнеса Server [2015](../../manage/manage.md)г.

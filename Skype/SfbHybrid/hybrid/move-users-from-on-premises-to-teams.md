@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: Сводка. Сведения о переносе параметров пользователей и переносе пользователей в Teams.
-ms.openlocfilehash: 1df8c617d40b88813074319d7eb041995ff71ca5
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: 1b5a2f909a05ffd30902ca4ca32dc5b5621b3013e779cece3f0ffcd2dada731e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53509780"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54324708"
 ---
 # <a name="move-users-from-on-premises-to-teams"></a>Перемещение пользователей из локальной среды в Teams
 

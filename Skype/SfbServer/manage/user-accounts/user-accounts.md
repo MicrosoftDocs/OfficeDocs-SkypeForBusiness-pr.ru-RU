@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 2fe7e3a7-bc75-4d4b-94af-a8818722b0d3
 description: В разделах этой статьи описывается, как включить, временно отключить или удалить пользователей Active Directory из Skype для бизнеса Server.
-ms.openlocfilehash: 43b48daf7a3ad7242076c29a1372e608130763e8e7add95ac86e97ed9c3a9e97
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: 27871597674724126369bd8f90fd6c2a67c2a8ea
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57850184"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58232694"
 ---
 # <a name="manage-user-accounts-for-skype-for-business-server"></a>Управление учетной записью пользователей для Skype для бизнеса Server
 

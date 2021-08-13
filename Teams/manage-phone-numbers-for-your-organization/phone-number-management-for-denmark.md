@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: В этой таблице вы найдете сведения о получении номеров телефонов в Дания для Microsoft Teams и управлении Microsoft Teams.
-ms.openlocfilehash: 7c19f6b2c6b543f70f67ab1fd138c48e647fd701d0b09ed9bb01194f5ac00e00
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ee9e1172a521841dfe1db22f63ef43b450377390
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54336149"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58232614"
 ---
 # <a name="phone-number-management-for-denmark"></a>Телефон управления номерами для Дания
 
@@ -34,11 +34,11 @@ ms.locfileid: "54336149"
   
 |**Требуемое действие**|**Скачайте подходящие формы и отправьте их нам**|
 |:-----|:-----|
-|Получите новые номера телефонов пользователей и служб, которые не указаны в Microsoft Teams центре администрирования.   <br/> |Скачайте одну из этих форм. <br/>  [Новый номер телефона для Дания (v.5.0) (da-dk)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-denmark-(v.5.0)-(da-dk).pdf?raw=true) <br/>[Новый номер телефона для Дания (v.5.0) (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-denmark-(v.5.0)-(en-us).pdf?raw=true)<br/><br/>  Заполните ее и [обратитесь к PTSN, чтобы узнать инструкции.](contact-pstn-service-desk.md)
-|Перенаправь нам номера телефонов.  <br/> | Скачайте эту форму. <br/>[Док-досье (LOA) для Дания (все номера) (v.5.0) (da-dk)](https://download.microsoft.com/download/f/6/0/f6040034-6559-4c2c-b847-85c813d7a677/letter-of-authorization-(loa)-for-denmark-(all-numbers)-(v.5.0)-(da-dk).pdf) <br/> <br/>Заполните ее и [обратитесь к PTSN, чтобы узнать инструкции.](contact-pstn-service-desk.md) <br/> |
-|Публикация и публикация номеров телефонов в национальном телефонном каталоге.  <br/> |[Чтобы получить инструкции по](contact-pstn-service-desk.md) списку номеров телефонов, которые вы хотите опубликовать или отоблести, обратитесь в ТССК.      <br/> |
-|Измените номер пользователя на номер службы.  <br/> |[Чтобы получить инструкции по](contact-pstn-service-desk.md) списку пользовательских номеров, которые вы хотите преобразовать в номера служб, обратитесь в ТССК. <br/> |
-|Обновление службы каталогов для номеров очереди вызовов и номеров автослужб|Чтобы добавить или изменить номера очереди вызовов или номера автозавода, обратитесь [в службу поддержки ПСОП.](contact-pstn-service-desk.md) |
+|Получите новые номера телефонов пользователей и служб, которых нет в списке Microsoft Teams центре администрирования.   <br/> |Скачайте одну из этих форм. <br/>  [Новый номер телефона для Дания (v.5.0) (da-dk)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-denmark-(v.5.0)-(da-dk).pdf?raw=true) <br/>[Новый номер телефона для Дания (v.5.0) (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-denmark-(v.5.0)-(en-us).pdf?raw=true)<br/><br/>  Заполните его и обратитесь за инструкциями в [службу поддержки ТССК.](contact-pstn-service-desk.md)
+|Перенаправь нам номера телефонов.  <br/> | Скачайте эту форму. <br/>[Док-досье (LOA) для Дания (все номера) (v.5.0) (da-dk)](https://download.microsoft.com/download/f/6/0/f6040034-6559-4c2c-b847-85c813d7a677/letter-of-authorization-(loa)-for-denmark-(all-numbers)-(v.5.0)-(da-dk).pdf) <br/> <br/>Заполните его и обратитесь за инструкциями в [службу поддержки ТССК.](contact-pstn-service-desk.md) <br/> |
+|Публикация и публикация номеров телефонов в национальном каталоге телефонов.  <br/> |[Чтобы получить инструкции по](contact-pstn-service-desk.md) списку номеров телефонов, которые вы хотите опубликовать или от публикации, обратитесь в службу поддержки ТСЗ.      <br/> |
+|Измените номер пользователя на номер службы.  <br/> |[Чтобы получить инструкции по](contact-pstn-service-desk.md) списку пользовательских номеров, которые вы хотите преобразовать в номера служб, обратитесь в службу поддержки ТССК. <br/> |
+|Обновление службы каталогов для номеров очереди вызовов или автозаетаря|Чтобы добавить или изменить номера очереди вызовов или номера автоотечения, обратитесь в службу поддержки [ПСОП за инструкциями.](contact-pstn-service-desk.md) |
 
 ## <a name="related-topics"></a>См. также:
 

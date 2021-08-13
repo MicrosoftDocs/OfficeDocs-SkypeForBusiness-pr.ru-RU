@@ -25,12 +25,12 @@ ms.custom:
 - ms.teamsadmincenter.audioconferencing.overview
 - seo-marvel-apr2020
 description: Узнайте, как аудиоконференция в Microsoft 365 или Office 365 позволяет пользователям звонить на собрания со своих телефонов.
-ms.openlocfilehash: 166ec76e8f63373056f73efd647b6810818a53ca410594ca06dc2f137e6ece02
-ms.sourcegitcommit: 02485b5f4bc8de106b064adf5c96dfc041f64e34
+ms.openlocfilehash: 46c3c1c7e2fde92d2c8fa37978c9c3c19928dadd
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2021
-ms.locfileid: "57799070"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58232825"
 ---
 # <a name="audio-conferencing-in-microsoft-365"></a>Аудиоконференция в Microsoft 365
 Аудиоконференция в Microsoft 365 и Office 365 позволяет пользователям звонить на собрания со своих телефонов. Аудиоконференция позволяет использовать до 1000 участников телефонов.

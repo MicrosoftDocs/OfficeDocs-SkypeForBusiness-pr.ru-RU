@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Ниже ются Microsoft 365 и Office 365 службы для Skype для бизнеса и Microsoft Teams для Италия.
-ms.openlocfilehash: b34be7f560082c8f8a9415835804e4bcd8e7d16e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: fa5e2e04cecb6a5348fd381fdf3217ccd312ca30f0537a9a2e299bedd3c8d982
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101432"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54336379"
 ---
 # <a name="availability-in-italy"></a>Доступность в Италии
 
@@ -84,6 +84,6 @@ ms.locfileid: "51101432"
   
 ## <a name="related-topics"></a>Статьи по теме
 
-[Получение номеров телефонов служб](../getting-service-phone-numbers.md)
+[Получение служебных номеров телефонов](../getting-service-phone-numbers.md)
 
-[Доступность аудиоконференций и планов звонков в различных странах и регионах](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+[Доступность аудиоконференций и тарифных планов в различных странах и регионах](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

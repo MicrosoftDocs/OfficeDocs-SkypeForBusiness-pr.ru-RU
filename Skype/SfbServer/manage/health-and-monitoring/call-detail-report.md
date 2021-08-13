@@ -1,5 +1,5 @@
 ---
-title: Отчет по вызову в Skype для бизнеса Server
+title: Отчет о детализации вызовов в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,19 +11,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 38862e35-3fec-41b9-a035-0b301942d446
-description: Сводка. Сведения об отчете по вызову, используемом в Skype для бизнеса Server.
-ms.openlocfilehash: 9b02722c8dd872b5703d6b459c2cd48568e39f94
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Сводка. Сведения о отчете о детализации вызовов, используемом в Skype для бизнеса Server.
+ms.openlocfilehash: 42a0dd40bb32005fcae49464f5ebfc6570055f7078c22b6a8b5be6004793158b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49826519"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54336589"
 ---
-# <a name="call-detail-report-in-skype-for-business-server"></a>Отчет по вызову в Skype для бизнеса Server
+# <a name="call-detail-report-in-skype-for-business-server"></a>Отчет о детализации вызовов в Skype для бизнеса Server
  
-**Сводка:** Узнайте о подробном отчете по вызову, используемом в Skype для бизнеса Server.
+**Сводка:** Узнайте о отчете о детализации вызовов, используемом в Skype для бизнеса Server.
   
-Подробный отчет по вызову предоставляет подробный обзор отдельного вызова; Этот отчет включает почти все показатели качества работы и статистику, собранные Skype для бизнеса Server, разделенные на разделы отчетов, например:
+В отчете о детализации вызовов подробно описан отдельный вызов; отчет включает почти все метрики и статистические данные, собранные Skype для бизнеса Server, разделенные на разделы отчетов, такие как:
   
 - Call Information (Сведения о вызове) 
     
@@ -51,17 +51,17 @@ ms.locfileid: "49826519"
 
 Доступ к подробному отчету по вызову можно получить из любого из следующих отчетов.
   
-- [Location Report in Skype for Business Server (location-report.md) (by clicking either the Call volume or the Poor call percentage metric)
+- [Отчет о расположении в Skype для бизнеса Server (location-report.md) (щелкнув либо громкость звонка, либо метрическую метрию процента вызовов)
     
-- [Media Quality Summary Report in Skype for Business Server (summary.md) (by clicking either the Call volume or Poor call percentage metric)
+- Сводный отчет по качеству мультимедиа в Skype для бизнеса Server (summary.md) (щелкнув либо объем вызовов, либо метрическую метрию процента вызовов)
     
-- The [Media Quality Comparison Report in Skype for Business Server](comparison.md) (by clicking the Call List Report in Skype for Business [Server](call-list-report-0.md) and then clicking the Detail metric).
+- Отчет [о сравнении](comparison.md) качества мультимедиа в Skype для бизнеса Server [](call-list-report-0.md) (щелкнув отчет о списке вызовов в Skype для бизнеса Server и нажав метрику Detail).
     
-- Отчет [о производительности сервера в Skype для бизнеса Server](server-performance.md) (щелкнув метрику громкости звонков или процента звонков низкого качества)
+- Отчет [о производительности](server-performance.md) сервера в Skype для бизнеса Server (щелкнув либо объем вызовов, либо метрическую процентную метрию "Плохой" вызов)
     
-- Отчет [по списку звонков в Skype для бизнеса Server](call-list-report-0.md) (щелкнув метрику "Подробности")
+- Отчет [о списке вызовов в Skype для бизнеса Server](call-list-report-0.md) (щелкнув метрику Detail)
     
-From within the Call Detail Report you can access the [Device Report in Skype for Business Server](device-report.md) by clicking either of the following metrics:
+В отчете о подробностях вызовов вы можете получить доступ к отчету Skype для бизнеса Server устройств, [нажав](device-report.md) на один из следующих показателей:
   
 - Устройства захвата
     
@@ -73,9 +73,9 @@ From within the Call Detail Report you can access the [Device Report in Skype fo
 
 Обычно в подробном отчете по вызову содержится более 250 разных метрик, включая такие, как уход отметки времени микрофона, низкое отношение "сигнал-шум", ближний конец ко времени эхо-задержки. Если вы не можете запомнить, что эти метрики измеряют в действительности, попробуйте задержать указатель мыши на метке метрики; часто при этом появляется всплывающая подсказка, которая описывает эту метрику.
   
-Если возникают проблемы с поиском метрики, введите часть метки метрики в поле поиска и нажмите кнопку **"Найти".** Например, если вы не можете найти метрику низкого времени SNR, введите SNR в поле поиска и нажмите кнопку **"Найти".**
+Если у вас возникли проблемы с поиском метрик, введите часть метрик в поле поиска и нажмите **кнопку Найти**. Например, если вы не можете найти метрику времени low SNR, введите SNR в поле поиска, а затем нажмите **кнопку Найти**.
   
-Обратите внимание, что отчет отслеживает только сведения о вызове. Сам вызов не записи.
+Обратите внимание, что отчет отслеживает только сведения о вызове. Сам вызов не регистрируется.
   
 ## <a name="filters"></a>Фильтры
 
@@ -87,7 +87,7 @@ From within the Call Detail Report you can access the [Device Report in Skype fo
   
 **Метрики подробного отчета по вызову**
 
-|**Название**|**Возможность сортировки по этому показателю**|**Описание**|
+|**Название**|**Возможность сортировки по этому показателю**|**Description**|
 |:-----|:-----|:-----|
 |**Caller PAI** (PAI вызывающего абонента) <br/> |Нет  <br/> |Параметр P-Asserted-Identity пользователя, который инициировал вызов. Параметр P-Asserted-Identity используется для передачи подтвержденного удостоверения пользователя в рамках надежной сети.  <br/> |
 |**Caller URI** (URI вызывающего абонента) <br/> |Нет  <br/> |SIP-адрес пользователя, инициировавшего вызов.  <br/> |

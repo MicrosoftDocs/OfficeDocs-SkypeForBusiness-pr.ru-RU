@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Область сети* — это сетевые концентраторы или магистрали, используемые в конфигурации управления приемом вызовов, E9-1-1 и обхода мультимедиа.
-ms.openlocfilehash: cf71a4e92245417fe23ba998bd9ba6e0357eda618601504838c4944d09ef01b1
-ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
+ms.openlocfilehash: 9e38528dd34f25fa2b70b51485657168868d6628
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54590953"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58232804"
 ---
 # <a name="managing-network-regions-in-skype-for-business-server"></a>Управление областями сети в Skype для бизнеса Server
 

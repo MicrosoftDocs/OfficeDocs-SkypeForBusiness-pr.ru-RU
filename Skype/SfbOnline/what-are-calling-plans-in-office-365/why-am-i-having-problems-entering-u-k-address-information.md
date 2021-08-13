@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - ms.lync.lac.CivicAddressGBSyntaxError
 description: Вот несколько причин, по которым у вас могут возникнуть проблемы с правильной проверкой адреса или адреса в Великобритании.
-ms.openlocfilehash: 7751f2b23ecb15140fc5ff67aa3ede90fadfaf06
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 7b3cd80b351c64d3d9f5911d0854a215ba1b407d6e4b2b439d1f28d68d06db7d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237935"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54324648"
 ---
 # <a name="why-am-i-having-problems-entering-uk-address-information"></a>Почему возникают проблемы с вводом адреса в Соединенном Королевстве?
 
@@ -44,7 +44,7 @@ ms.locfileid: "52237935"
     > [!CAUTION]
     > В Великобритании название компании не может иметь знак +. 
   
-- Оно должно быть не более 80 символов.
+- Оно не должно быть меньше 80 символов.
     
 - Он не может начинаться со специального знака.
     

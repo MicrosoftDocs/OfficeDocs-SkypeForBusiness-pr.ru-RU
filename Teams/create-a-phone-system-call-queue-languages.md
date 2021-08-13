@@ -11,7 +11,6 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - M365-voice
-- m365initiative-voice
 audience: Admin
 appliesto:
 - Skype for Business
@@ -22,16 +21,16 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Microsoft Teams поддерживаемых языков в очереди вызовов
-ms.openlocfilehash: 59f65a6ef2e1ab92f234ab9ebb9a717b5ae5ebc7fa2b380522f0f34cab1e3956
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: dd16ef64facfca51d8d2a456d1e5bba877e1e1c0
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54305081"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58233084"
 ---
 # <a name="microsoft-teams-call-queue-supported-languages"></a>Microsoft Teams поддерживаемых языков в очереди вызовов
 
-Очередь зовов поддерживает следующие языки для текста в речь (TTS):
+Очередь вызовов поддерживает следующие языки для текста в речь (TTS):
 
 |Язык                                |
 |:---------------------------------------|

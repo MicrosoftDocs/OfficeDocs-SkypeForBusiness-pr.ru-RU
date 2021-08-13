@@ -13,24 +13,24 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 579bfa5a-9443-46dd-9a8e-07d00ba2824d
 description: 'В этом справочном разделе представлены следующие сведения:'
-ms.openlocfilehash: 5c8a1ceb6b623466219cbd3df46ff2b39ccceb2c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 25532271f7a34b6861d0817de9e5e7526c1165d255f9a17a2b8a79414bc2ba05
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49831939"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54352128"
 ---
 # <a name="active-directory-schema-extensions-classes-and-attributes"></a>Расширения схемы Active Directory, классы и атрибуты
  
 В этом справочном разделе представлены следующие сведения: 
   
-- Новые или измененные расширения схемы Active Directory для Skype для бизнеса Server
+- Расширения схемы Active Directory, которые являются новыми или изменены для Skype для бизнеса Server
     
-    Схема Active Directory содержит формальные определения каждого класса объектов, который можно создать в лесу Active Directory. Схема также содержит формальные определения каждого атрибута в объекте Active Directory. Глобальный каталог Active Directory содержит реплики всех объектов для леса, а также подмножество атрибутов каждого объекта. В этом разделе описываются новые или измененные классы и атрибуты в Skype для бизнеса Server.
+    Схема Active Directory содержит формальные определения каждого класса объектов, который можно создать в лесу Active Directory. Схема также содержит формальные определения каждого атрибута в объекте Active Directory. Глобальный каталог Active Directory содержит реплики всех объектов для леса, а также подмножество атрибутов каждого объекта. В этом разделе описываются классы и атрибуты, которые являются новыми или изменены в Skype для бизнеса Server.
     
-- Все классы, используемые Skype для бизнеса Server, с описанием каждого из них
+- Все классы, используемые Skype для бизнеса Server, с описанием каждого
     
-- Все атрибуты, используемые Skype для бизнеса Server, с описанием каждого из них
+- Все атрибуты, используемые Skype для бизнеса Server, с описанием каждого
     
 - Список классов, используемых Skype для бизнеса Server, с атрибутами, которые могут содержать
     
@@ -44,17 +44,17 @@ ms.locfileid: "49831939"
     
 ## <a name="in-this-section"></a>Содержание
 
-- [Изменения схемы в Skype для бизнеса Server](schema-changes.md)
+- [Схема изменяется в Skype для бизнеса Server](schema-changes.md)
     
 - [Классы и описания схемы в Skype для бизнеса Server](schema-classes-and-descriptions.md)
     
-- [Атрибуты и описания схемы в Skype для бизнеса Server](schema-attributes-and-descriptions.md)
+- [Атрибуты схемы и описания в Skype для бизнеса Server](schema-attributes-and-descriptions.md)
     
-- [Атрибуты схемы по классам в Skype для бизнеса Server](schema-attributes-by-class.md)
+- [Атрибуты схемы по классу в Skype для бизнеса Server](schema-attributes-by-class.md)
     
-- [Изменения, внесенные в ходе подготовки леса в Skype для бизнеса Server](changes-made-by-forest-preparation.md)
+- [Изменения, внесенные подготовкой леса в Skype для бизнеса Server](changes-made-by-forest-preparation.md)
     
-- [Изменения, внесенные в ходе подготовки домена в Skype для бизнеса Server](changes-made-by-domain-preparation.md)
+- [Изменения, внесенные при подготовке домена в Skype для бизнеса Server](changes-made-by-domain-preparation.md)
     
 - [Изменения, внесенные Grant-CsSetupPermission в Skype для бизнеса Server](changes-made-by-grant-cssetuppermission.md)
     

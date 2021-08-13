@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Проверка разрешений администратора в Skype для бизнеса Server
-ms.openlocfilehash: 1c828eeb965ee98aae72b00c7da9fa65016d2ed90e56c7cc982a59763c2703ae
-ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
+ms.openlocfilehash: 7dd9e1b95df35cb363617690cb9667c1a16ef904
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54590773"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58232624"
 ---
 # <a name="testing-admin-permissions-in-skype-for-business-server"></a>Тестирование разрешений администратора в Skype для бизнеса Server
 
@@ -60,7 +60,7 @@ ms.locfileid: "54590773"
 
 ВНИМАНИЕ. Записи управления доступом (ACEs) на объекте "OU=NorthAmerica,DC=atl-cs-001\DC=litwareinc,DC=com" не готовы. 
 
-Неверно 
+Неправильно 
 
 ВНИМАНИЕ. Обработка "Test-CsOUPermission" завершена с помощью предупреждений. Во время этого запуска были записаны предупреждения "2". 
 

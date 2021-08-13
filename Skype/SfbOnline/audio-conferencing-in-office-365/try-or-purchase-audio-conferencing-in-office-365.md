@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Узнайте, как загрузить пробную версию или приобрести лицензию на аудиоконференции (конференц-связь по ТСОП) для Office 365, чтобы настроить конференц-связь с возможностью входящих вызовов. '
-ms.openlocfilehash: 4c4cc3773ff7b601cfce1ef8bf1610c93a161a6b
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 15d412bb91cf6a65aa642f88ae183ad24bcb2148e53a42f36aac9d01d54f312f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237585"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54332321"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-microsoft-365-or-office-365-for-skype-for-business-online"></a>Попробуйте или приобретйте аудиоконференцию в Microsoft 365 или Office 365 для Skype для бизнеса Online
 
@@ -48,7 +48,7 @@ ms.locfileid: "52237585"
 
 ### <a name="to-buy-and-assign-user-audio-conferencing-licenses"></a>Для приобретения и назначения пользовательских лицензий на аудиоконференции:
 
-1. Узнайте, **доступна ли аудиоконференция** в вашей стране или регионе. [Страны и регионы, где](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)могут быть аудиоконференции и планы звонков. 
+1. Узнайте, **доступна ли аудиоконференция** в вашей стране или регионе. [Доступность стран и регионов для аудиоконференций и планов звонков.](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans) 
     
 2. Получите свою лицензию на **Аудиконференции**. Если Вы хотите:
 
@@ -84,13 +84,13 @@ ms.locfileid: "52237585"
 
 Следующие шаги являются **необязательными**, однако многие администраторы считают их необходимыми:
 
-1. [Настройка приглашений на собрания](../set-up-skype-for-business-online/customize-meeting-invitations.md). Номера телефонного дозвона, за настройками для пользователя, будут автоматически добавлены в приглашения на собрания, которые отправляются участникам. Однако вы можете добавить собственные ссылки на справку и юридические темы, текстовое сообщение и небольшой рисунок компании.
+1. [Настройка приглашений на собрания](../set-up-skype-for-business-online/customize-meeting-invitations.md). Номера для телефонного подбираемого номера автоматически добавляются в приглашения на собрания, отосланные участникам. Однако вы можете добавить собственные ссылки на справку и юридические темы, текстовое сообщение и небольшой рисунок компании.
 
 2. [Задайте номера телефонов, включенные в приглашения.](set-the-phone-numbers-included-on-invites.md) Это —номер телефона, который будет отображаться в собрании, которое запланировал пользователь.
 
 3. [Настройка языков](set-auto-attendant-languages-for-audio-conferencing.md) автоответа для аудиоконференций, которые автоконферентарь аудиоконференции использует для приветения вызывающего звоняющего по номеру телефона аудиоконференции. Этот шаг необходим только в том случае, если Microsoft назначен в качестве поставщика аудиоконференции.
 
-4. [Установите длину ПИН-кода для собраний с аудиоконференцией.](set-the-pin-length-for-audio-conferencing-meetings.md)
+4. [Установите длину ПИН-кода для собраний аудиоконференции.](set-the-pin-length-for-audio-conferencing-meetings.md)
 
 
 > [!NOTE]
