@@ -22,12 +22,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: d4a4e57acf5987d670ebb75385bdcfc4406ba505
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: f18a6963c59aa371715d35b40137946d1b29b163b905d3ef842e8b3ddc434d63
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58233244"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848264"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Что такое трансляции Microsoft Teams
 
