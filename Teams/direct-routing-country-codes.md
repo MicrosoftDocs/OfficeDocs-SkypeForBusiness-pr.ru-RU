@@ -15,18 +15,18 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: Пройдите эту статью, чтобы найти коды стран с путями мультимедиа для прямой маршрутировки, чтобы выбрать оптимальный путь для мультимедиа.
+description: В этой статье вы можете найти коды стран с путями мультимедиа для прямой маршрутировки, чтобы выбрать оптимальный путь для мультимедиа.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 330d178c7bfa969020ffc8c26b1e05283c182ae8
-ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
+ms.openlocfilehash: 0d51a3a5d6b878a607d9e5ee6b71d75319c9802fa48b3192f2023df179db3b49
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "52718000"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54327744"
 ---
 # <a name="direct-routing-media-path-country-codes"></a>Direct Routing media path country codes
 
-При выборе маршрутизного пути для мультимедиа Прямая маршрутия по умолчанию всегда назначает центр обработки данных на основе общего IP-адреса контроллера границы сеанса (SBC) и всегда выбирает путь, ближайший к центру обработки данных SBC.
+При выборе пути маршрутинга для мультимедиа Прямая маршрутия по умолчанию всегда назначает центр обработки данных на основе общего IP-адреса контроллера границы сеанса (SBC) и всегда выбирает путь, ближайший к центру обработки данных SBC.
 
 Однако в некоторых случаях путь к мультимедиа по умолчанию может быть не оптимальным; Например, общедоступный IP-адрес из диапазона США может быть назначен SBC в Европе. 
 
@@ -39,7 +39,7 @@ Set-CSOnlinePSTNGateway -Identity sbc1.contoso.com –MediaRelayRoutingLocationO
 > [!NOTE]
 > Параметр MediaRelayRoutingLocationOverride зарезервирован для использования с управляемыми операторами.
  
-## <a name="country-code-reference-table"></a>Таблица справочника по коду страны
+## <a name="country-code-reference-table"></a>Справочник по коду страны
 
 В следующей таблице показаны значения кода страны для параметра -MediaRelayRoutingLocationOverride:
 
@@ -259,7 +259,7 @@ Set-CSOnlinePSTNGateway -Identity sbc1.contoso.com –MediaRelayRoutingLocationO
 | Южный Судан     | Ss |
 | Испания           | ES |
 | Шри-Ланка       | Lk |
-| Сент-Елена, Вознесения, Тристан-да-Кубнха | Sh |
+| Св.Елену, Вознесения, Тристан-да-Кубнха | Sh |
 | Судан           | Sd |
 | Суринам        | Sr |
 | Шпицберген        | Sj |

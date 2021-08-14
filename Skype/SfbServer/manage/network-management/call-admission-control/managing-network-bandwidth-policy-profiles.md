@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Используйте процедуры в этой статье для просмотра, создания, изменения или удаления профилей политики пропускной способности сети.
-ms.openlocfilehash: 4905a80f402b15328f4bca5476dc47262030f323cee8ec12910b25e35aee6eda
-ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
+ms.openlocfilehash: af3ca2d956e1a280ca6b3d55aa68e9abf1a53aa1
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54590963"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58233664"
 ---
 # <a name="managing-network-bandwidth-policy-profiles-in-skype-for-business-server"></a>Управление профилями политики пропускной способности сети в Skype для бизнеса Server
 

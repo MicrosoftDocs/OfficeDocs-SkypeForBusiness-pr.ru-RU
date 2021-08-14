@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже находятся Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для России.
-ms.openlocfilehash: edec9e66c303a3d4ee8487f5a3b34e2e9135e778
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Ниже находятся Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Турция.
+ms.openlocfilehash: d99ecea4d87bf45c3cf603ef92465afe6ba54bcf5af3cfe77d257d0ae105eeaa
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094551"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54327794"
 ---
 # <a name="availability-in-turkey"></a>Доступность в Турции
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже находятся Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для России.
+Ниже находятся Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Турция.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 

@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: В этой таблице вы найдете сведения о получении номеров телефонов в Австрия и управлении Microsoft Teams.
-ms.openlocfilehash: 323c5f8b1c748c164a5be8d83b6a8f0cac28171079c0e0de7cfd51a9810bd643
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e927633f83bc581e5d4d60f0a6394ed8f0ba4381
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54299218"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58233814"
 ---
 # <a name="phone-number-management-for-austria"></a>Телефон управления номерами для Австрия
 
@@ -34,11 +34,11 @@ ms.locfileid: "54299218"
   
 |**Требуемое действие**|**Скачайте подходящие формы и отправьте их нам**|
 |:-----|:-----|
-|Получите новые номера телефонов пользователей и служб, которые не указаны в Microsoft Teams центре администрирования.   <br/> |Скачайте одну из этих форм. <br/>  [Новый номер телефона для Австрия (v.5.0) (de-de)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-austria-(v.5.0)-(de-de).pdf?raw=true) <br/>  [Новый номер телефона для Австрия (v.5.0) (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-austria-(v.5.0)-(en-us).pdf?raw=true) <br/>  <br/>Заполните ее и [обратитесь к PTSN, чтобы узнать инструкции.](contact-pstn-service-desk.md) <br/>  <br/>Кроме того, вы должны включить в него счет за ст. 1009, адрес для которого вы хотите получить новые номера. <br/> 
-|Перенаправь нам номера телефонов.  <br/> | Скачайте эту форму. <br/>[Док-досье (LOA) для Австрия (все номера) (v.5.0) (de-at)](https://download.microsoft.com/download/3/e/2/3e27f3ee-0f38-4d73-b8e8-b43b9e1d1381/letter-of-authorization-(loa)-for-austria-(all-numbers)-(v.5.0)-(de-at).pdf) <br/> <br/>Заполните ее и [обратитесь к PTSN, чтобы узнать инструкции.](contact-pstn-service-desk.md)  <br/> <br/>Кроме того, необходимо включить в него счет за ст. 1009, с которого вы хотите перенести номера.<br/> |
-|Публикация и публикация номеров телефонов в национальном каталоге телефонов.  <br/> |[Чтобы получить инструкции по отправке](contact-pstn-service-desk.md) списка номеров телефонов, которые вы хотите опубликовать или отоблести, обратитесь в ТССК.      <br/> |
-|Измените номер пользователя на номер службы.  <br/> |[Чтобы получить инструкции по отправке](contact-pstn-service-desk.md) списка пользовательских номеров, которые вы хотите преобразовать в номера служб, обратитесь в ТССК. <br/> |
-|Обновление службы каталогов для очереди вызовов или номеров автозаводников|Чтобы добавить или изменить номера очереди вызовов или номера автослужб, обратитесь [в службу поддержки ПСОП.](contact-pstn-service-desk.md) |
+|Получите новые номера телефонов пользователей и служб, которые не указаны в Microsoft Teams центре администрирования.   <br/> |Скачайте одну из этих форм. <br/>  [Новый номер телефона для Австрия (v.5.0) (de-de)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-austria-(v.5.0)-(de-de).pdf?raw=true) <br/>  [Новый номер телефона для Австрия (v.5.0) (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-austria-(v.5.0)-(en-us).pdf?raw=true) <br/>  <br/>Заполните его и обратитесь за инструкциями в [службу поддержки ТССК.](contact-pstn-service-desk.md) <br/>  <br/>Кроме того, вы должны включить в него счет за ст. 1009, адрес для которого вы хотите получить новые номера. <br/> 
+|Перенаправь нам номера телефонов.  <br/> | Скачайте эту форму. <br/>[Док-досье (LOA) для Австрия (все номера) (v.5.0) (de-at)](https://download.microsoft.com/download/3/e/2/3e27f3ee-0f38-4d73-b8e8-b43b9e1d1381/letter-of-authorization-(loa)-for-austria-(all-numbers)-(v.5.0)-(de-at).pdf) <br/> <br/>Заполните его и обратитесь за инструкциями в [службу поддержки ТССК.](contact-pstn-service-desk.md)  <br/> <br/>Кроме того, необходимо включить в него счет за ст. 1009, с которого вы хотите перенести номера.<br/> |
+|Публикация и публикация номеров телефонов в национальном телефонном каталоге.  <br/> |[Чтобы получить инструкции по](contact-pstn-service-desk.md) отправке списка номеров телефонов, которые вы хотите опубликовать или отоблести, обратитесь в службу поддержки ТСЗ.      <br/> |
+|Измените номер пользователя на номер службы.  <br/> |[Чтобы получить инструкции по](contact-pstn-service-desk.md) отправке списка пользовательских номеров, которые вы хотите преобразовать в номера служб, обратитесь в службу поддержки ТССК. <br/> |
+|Обновление службы каталогов для номеров очереди вызовов или автозаетаря|Чтобы добавить или изменить номера очереди вызовов или автоотечения, обратитесь за инструкциями в службу [поддержки ПСОП.](contact-pstn-service-desk.md) |
 
 ## <a name="related-topics"></a>См. также:
 

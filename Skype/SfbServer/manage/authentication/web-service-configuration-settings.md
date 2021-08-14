@@ -12,27 +12,27 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: f3f04d81-8a1f-427f-bd0f-fb659024e096
-description: Сводка. Управление настройками веб-службы в Skype для бизнеса Server.
-ms.openlocfilehash: 6d79e0567790f10dd86c68f64d7bde54d3540b44
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Сводка. Управление настройками конфигурации веб-службы в Skype для бизнеса Server.
+ms.openlocfilehash: a4fb1474655e695f030180a7345375ef1a1e53e3aaadad18167ed7d41d3a9864
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51099175"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54328164"
 ---
 # <a name="manage-web-service-configuration-settings-in-skype-for-business-server"></a>Управление настройками веб-службы в Skype для бизнеса Server
  
 **Сводка:** Управление настройками веб-службы в Skype для бизнеса Server.
   
-Вы можете использовать **страницу Веб-службы** для настройки методов проверки подлинности для доступа к веб-серверам и веб-службам Skype для бизнес-сервера.
+Вы можете использовать **страницу Веб-службы** для настройки методов проверки подлинности для доступа Skype для бизнеса Server веб-серверов и веб-служб.
   
 Чтобы создать политику веб-службы, выполните следующие действия.
   
 ### <a name="to-create-new-web-service-configuration-settings"></a>Создание новых параметров конфигурации веб-службы
 
-1.  С учетной записи пользователя, которая входит в группу RTCUniversalServerAdmins (или имеет эквивалентные права пользователя) или назначена роли CsServerAdministrator или CsAdministrator, войдите на любой компьютер, который находится в сети, в которой развернут Skype для бизнеса Server.
+1.  С учетной записи пользователя, которая входит в группу RTCUniversalServerAdmins (или имеет эквивалентные права пользователя) или назначена роли CsServerAdministrator или CsAdministrator, войдите на любой компьютер, который находится в сети, в которой вы развернули Skype для бизнеса Server.
     
-2. Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Skype для бизнес-серверов.  
+2. Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель Skype для бизнеса Server управления.  
     
 3. В левой панели навигации щелкните **Безопасность**, а затем щелкните **Веб-служба**.
     
@@ -56,15 +56,15 @@ ms.locfileid: "51099175"
     
 ## <a name="modify-existing-web-service-configuration-settings"></a>Изменение существующих параметров конфигурации веб-службы
 
-Вы можете использовать **страницу Веб-службы** для настройки методов проверки подлинности для доступа к веб-серверам и веб-службам Skype для бизнес-сервера.
+Вы можете использовать **страницу Веб-службы** для настройки методов проверки подлинности для доступа Skype для бизнеса Server веб-серверов и веб-служб.
   
 Чтобы изменить политику существующей веб-службы, выполните следующие действия.
   
 ### <a name="to-modify-existing-web-service-configuration-settings"></a>Изменение существующих параметров конфигурации веб-служб
 
-1.  С учетной записи пользователя, которая входит в группу RTCUniversalServerAdmins (или имеет эквивалентные права пользователя) или назначена роли CsServerAdministrator или CsAdministrator, войдите на любой компьютер, который находится в сети, в которой развернут Skype для бизнеса Server.
+1.  С учетной записи пользователя, которая входит в группу RTCUniversalServerAdmins (или имеет эквивалентные права пользователя) или назначена роли CsServerAdministrator или CsAdministrator, войдите на любой компьютер, который находится в сети, в которой вы развернули Skype для бизнеса Server.
     
-2. Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Skype для бизнес-серверов.  
+2. Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель Skype для бизнеса Server управления.  
     
 3. В левой панели навигации щелкните **Безопасность** и затем щелкните **Веб-служба**.
     
@@ -88,9 +88,9 @@ ms.locfileid: "51099175"
   
 ### <a name="to-delete-web-service-configuration-settings"></a>Удаление параметров конфигурации веб-службы
 
-1.  С учетной записи пользователя, которая входит в группу RTCUniversalServerAdmins (или имеет эквивалентные права пользователя) или назначена роли CsServerAdministrator или CsAdministrator, войдите на любой компьютер, который находится в сети, в которой развернут Skype для бизнеса Server.
+1.  С учетной записи пользователя, которая входит в группу RTCUniversalServerAdmins (или имеет эквивалентные права пользователя) или назначена роли CsServerAdministrator или CsAdministrator, войдите на любой компьютер, который находится в сети, в которой вы развернули Skype для бизнеса Server.
     
-2. Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Skype для бизнес-серверов.  
+2. Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель Skype для бизнеса Server управления.  
     
 3. В левой панели навигации щелкните **Безопасность**, а затем щелкните **Веб-служба**.
     
@@ -100,9 +100,9 @@ ms.locfileid: "51099175"
     
 6. Нажмите кнопку **ОК**.
     
-## <a name="deleting-web-service-configuration-settings-by-using-windows-powershell-cmdlets"></a>Удаление параметров конфигурации веб-служб с помощью Windows PowerShell cmdlets
+## <a name="deleting-web-service-configuration-settings-by-using-windows-powershell-cmdlets"></a>Удаление конфигурации веб-службы Параметры с помощью Windows PowerShell cmdlets
 
-Параметры конфигурации веб-служб можно удалить с помощью Windows PowerShell и **cmdlet Remove-CsWebServiceConfiguration.** Вы можете запустить этот командлет из командной консоли Skype для бизнеса Server или из удаленного сеанса Windows PowerShell. Сведения об использовании удаленных Windows PowerShell для подключения к Skype для бизнеса Server см. в статье блога ["Быстрый запуск: управление Microsoft Lync Server 2010 с](https://go.microsoft.com/fwlink/p/?linkId=255876)помощью удаленной powerShell". В Skype для бизнеса Server этот процесс является одинаковым.
+Параметры конфигурации веб-служб можно удалить с помощью Windows PowerShell и **cmdlet Remove-CsWebServiceConfiguration.** Вы можете запустить этот командлет из командной консоли Skype для бизнеса Server или из удаленного сеанса Windows PowerShell. Сведения об использовании удаленных Windows PowerShell для подключения к Skype для бизнеса Server см. в статье блога ["Быстрый запуск: управление Microsoft Lync Server 2010 с](https://go.microsoft.com/fwlink/p/?linkId=255876)помощью удаленной powerShell". Этот процесс в Skype для бизнеса Server.
   
 ### <a name="to-delete-a-specific-collection-of-web-service-configuration-settings"></a>Удаление конкретной коллекции параметров конфигурации веб-служб
 

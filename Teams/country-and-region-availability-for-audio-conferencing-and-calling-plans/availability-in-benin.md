@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Ниже находятся Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Бенина.
-ms.openlocfilehash: 35b646993a4be8196ff9ce73f5bce661268c62f0
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: cf13801b1b7719300be6cf6ae990d5687290048e13c4588cc1cc8ff3563a5f7d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118348"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54351129"
 ---
 # <a name="availability-in-benin"></a>Доступность в Бенин
 
@@ -68,7 +68,7 @@ ms.locfileid: "51118348"
 
 |**Функция**|**Сведения**|
 |:-----|:-----|
-|Для каких столиц или крупных городов можно получить платные номера?   | Не географическое. Номера телефонов не связаны с конкретным городом или местоположением.  <br/> |
+|Для каких столиц или крупных городов можно получить платные номера?   | Не географическое положение. Номера телефонов не связаны с конкретным городом или местоположением.  <br/> |
 |Доступны ли платные номера?  <br/> |Да <br/> |
 |Доступны ли бесплатные номера?  <br/> |Нет  <br/> |
    

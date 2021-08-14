@@ -1,5 +1,5 @@
 ---
-title: Настройка магистрали без обхода мультимедиа в Skype для бизнеса Server
+title: Skype для бизнеса Server - Настройка магистрали без обхода мультимедиа
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -10,15 +10,15 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 'Выполните следующие действия, чтобы настроить магистраль с включенным режимом обхода сервера-посредника. '
-ms.openlocfilehash: c96e540cbb390f61279979d6a01cc29c69ab9fa5d879468c2361e03da8f472ba
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 'Настройка магистрали с включенной поддержкой обхода мультимедиа. '
+ms.openlocfilehash: 1f129abf44cf35f0c76e026861ba6b0fba1e551e
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54333491"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58233944"
 ---
-# <a name="configure-a-trunk-without-media-bypass-in-skype-for-business-server"></a>Настройка магистрали без обхода мультимедиа в Skype для бизнеса Server
+# <a name="skype-for-business-server---configure-a-trunk-without-media-bypass"></a>Skype для бизнеса Server - Настройка магистрали без обхода мультимедиа
 
 Если вы хотите настроить магистраль с обходом сервера-посредника, выполните эти действия. Если вы хотите настроить магистраль с включенным обходом мультимедиа, см. в этой ссылке Настройка магистрали с обходом мультимедиа [в Skype для бизнеса Server](configure-a-trunk-with-media-bypass.md).
 

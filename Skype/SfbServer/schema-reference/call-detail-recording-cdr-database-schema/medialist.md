@@ -13,23 +13,23 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 1f440590-c1bc-483e-b7bc-6cc763847768
 description: Таблица MediaList — это статическая таблица, в которой хранится список различных типов мультимедиа.
-ms.openlocfilehash: 6f593876a1b42163b6f2e75dbe44c1eb26b2ff16
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 9242f20b3c2192fb1f5cd48c84784a3e8d283f6e91587aee408a9286d291add7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49813139"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54326275"
 ---
 # <a name="medialist-table"></a>Таблица MediaList
  
 Таблица MediaList — это статическая таблица, в которой хранится список различных типов мультимедиа.
   
-|**Столбец**|**Тип данных**|**Ключ/индекс**|**Details**|
+|**Column**|**Тип данных**|**Key/Index**|**Сведения**|
 |:-----|:-----|:-----|:-----|
-|**MediaId** <br/> |tinyint  <br/> |Primary  <br/> |Значения: 1–7  <br/> |
-|**Media** <br/> |nvarchar(256)  <br/> || Статическое сопоставление значений MediaID и Media: <br/>  1 — мгновенные сообщения <br/>  2 — передача файлов <br/>  3 — удаленная помощь <br/>  4 — общий доступ к приложениям <br/>  5 — звук <br/>  6 — видео <br/>  7 — приглашение приложения <br/> |
+|**MediaId** <br/> |tinyint  <br/> |Primary  <br/> |Значения: 1-7  <br/> |
+|**Media** <br/> |nvarchar (256)  <br/> || Статическое сопоставление значений MediaID и Media: <br/>  1 — мгновенные сообщения <br/>  2 . Передача файлов <br/>  3 . Удаленная помощь <br/>  4 . Совместное использование приложений <br/>  5 — звук <br/>  6 — видео <br/>  7 . Приглашение приложения <br/> |
    
-Если вы пытаетесь определить тип модальности для значений в LcsCDR.SessionDetailsView.MediaTypes, необходимо использовать следующий фрагмент кода join: 
+Если вы пытаетесь определить тип модальности для значений в LcsCDR.SessionDetailsView.MediaTypes, необходимо использовать следующий фрагмент Join: 
   
 ```SQL
 LEFT JOIN on Media.MediaId = MediaList.MediaId

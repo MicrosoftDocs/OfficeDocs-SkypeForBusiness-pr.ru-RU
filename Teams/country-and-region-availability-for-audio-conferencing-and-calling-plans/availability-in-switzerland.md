@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Ниже находятся Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Швейцарии.
-ms.openlocfilehash: 8fbcbe1e241817729e70f311e0187182b43fd663
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 8d0046dd9135df76711bc845c0e0fc78fca7bb5b13e6c8b1526797c42e0b675e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092677"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54327804"
 ---
 # <a name="availability-in-switzerland"></a>Доступность в Швейцарии
 
@@ -84,8 +84,8 @@ ms.locfileid: "51092677"
   
 ## <a name="related-topics"></a>Статьи по теме
 
-[Получение номеров телефонов служб](../getting-service-phone-numbers.md)
+[Получение служебных номеров телефонов](../getting-service-phone-numbers.md)
 
-[Доступность аудиоконференций и планов звонков в различных странах и регионах](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+[Доступность аудиоконференций и тарифных планов в различных странах и регионах](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
   

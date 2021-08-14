@@ -1,5 +1,5 @@
 ---
-title: Таблица HardwareVersions в Skype для бизнеса Server 2015
+title: Таблица HardwareVersions в Skype для бизнеса Server 2015 г.
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,21 +12,21 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: ca05582b-082c-4bab-9233-36fc9434dbca
-description: Таблица HardwareVersions является вспомогательной. В каждой записи хранится информация об одной аппаратной версии устройства.
-ms.openlocfilehash: 2b9ac6b31f0af30e896d2943eaa4065aecdd4de3
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Таблица HardwareVersions — это вспомогательная таблица. В каждой записи хранится информация об одной аппаратной версии устройства.
+ms.openlocfilehash: e98028a6d5dc434683e9f9190a67f4263738d3dd89e01af00f92bc1a443aec24
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49821579"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54351299"
 ---
-# <a name="hardwareversions-table-in-skype-for-business-server-2015"></a>Таблица HardwareVersions в Skype для бизнеса Server 2015
+# <a name="hardwareversions-table-in-skype-for-business-server-2015"></a>Таблица HardwareVersions в Skype для бизнеса Server 2015 г.
  
-Таблица HardwareVersions является вспомогательной. В каждой записи хранится информация об одной аппаратной версии устройства.
+Таблица HardwareVersions — это вспомогательная таблица. В каждой записи хранится информация об одной аппаратной версии устройства.
   
-|**Столбец**|**Тип данных**|**Ключ/индекс**|**Details**|
+|**Column**|**Тип данных**|**Key/Index**|**Сведения**|
 |:-----|:-----|:-----|:-----|
 |**VersionId** <br/> |int  <br/> |Primary  <br/> |Уникальный номер, идентифицирующий версию оборудования.  <br/> |
-|**Версия** <br/> |nvarchar(256)  <br/> | <br/> |Версия оборудования.  <br/> |
+|**Версия** <br/> |nvarchar (256)  <br/> | <br/> |Аппаратная версия.  <br/> |
    
 

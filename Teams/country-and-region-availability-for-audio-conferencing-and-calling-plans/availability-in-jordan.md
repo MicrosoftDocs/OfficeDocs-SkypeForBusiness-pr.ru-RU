@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже даны Microsoft 365 и Office 365 службы для Skype для бизнеса и Microsoft Teams для Заметь.
-ms.openlocfilehash: af10bdb310f577632e1e7c686020065f817d3972
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Ниже даны Microsoft 365 и Office 365 службы Skype для бизнеса и Microsoft Teams для Заданного.
+ms.openlocfilehash: 5bc1b62990011e7e24cc539ecca24e2f44c7bfd1614d627aa1f66f89bf900c2d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117947"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54351099"
 ---
 # <a name="availability-in-jordan"></a>Доступность в Иордании
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже даны Microsoft 365 и Office 365 службы для Skype для бизнеса и Microsoft Teams для Заметь.
+Ниже даны Microsoft 365 и Office 365 службы Skype для бизнеса и Microsoft Teams для Заданного.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 

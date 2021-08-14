@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f186be15-626a-4454-9b54-55aa5d90c520
 description: Укажите полное доменное имя для каждого компьютера, который нужно добавить в качестве сервера переднего плана в этот пул. Добавив компьютер в список, вы можете обновить полное доменное имя или удалить его из пула в любое время до публикации топологии. После публикации топологии для изменения полного доменного имени потребуется сначала удалить сервер в построителе топологий, а затем добавить новый сервер в пул с новым полным доменным именем.
-ms.openlocfilehash: ecca5fa38f74aa13ad9b181f9c08ebf38bfe0675
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: ed42a617ff9a44b909fd6eb3dc109d95e00d9bec46c87bddb38680dc4cfcdb7a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49823999"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54328294"
 ---
 # <a name="add-mediation-machine"></a>Добавление компьютера-посредника
  

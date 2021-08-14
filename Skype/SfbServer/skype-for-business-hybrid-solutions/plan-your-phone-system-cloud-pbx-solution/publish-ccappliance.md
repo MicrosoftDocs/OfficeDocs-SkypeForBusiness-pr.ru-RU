@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: e7d5b63e-ba7c-4757-8670-f96b2a91e646
-description: The Publish-CcAppliance cmdlet gets high availability information from the online tenant configuration and publishes it to the Skype for Business Cloud Connector Edition appliance on the host server.
-ms.openlocfilehash: 159247614733261cac4b3381e35d8dd297cf9a23
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Этот Publish-CcAppliance получает информацию о высокой доступности из конфигурации клиента в Интернете и публикует ее в Skype для бизнеса Cloud Connector Edition на сервере хост-сервера.
+ms.openlocfilehash: 83b0a7e3806a271a358085bb0cca2a2ef6a518e67e124f0be97c1ff4616e3dcc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824315"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54326185"
 ---
 # <a name="publish-ccappliance"></a>Publish-CcAppliance
  
-The Publish-CcAppliance cmdlet gets high availability information from the online tenant configuration and publishes it to the Skype for Business Cloud Connector Edition appliance on the host server. 
+Этот Publish-CcAppliance получает информацию о высокой доступности из конфигурации клиента в Интернете и публикует ее в Skype для бизнеса Cloud Connector Edition на сервере хост-сервера. 
   
 ```powershell
 Publish-CcAppliance
@@ -35,9 +35,9 @@ Publish-CcAppliance
 ## <a name="examples"></a>Примеры
 <a name="Examples"> </a>
 
-### <a name="example-1"></a>Пример 1
+### <a name="example-1"></a>Пример 1
 
-Следующий пример получает сведения о высокой доступности из конфигурации интерактивного клиента и публикует их на устройстве Cloud Connector на сервере хост-сервера:
+В следующем примере сведения о высокой доступности получаются из конфигурации клиента в Интернете и публикуются в устройстве Cloud Connector на сервере хост-сервера:
   
 ```powershell
 Publish-CcAppliance
@@ -46,12 +46,12 @@ Publish-CcAppliance
 ## <a name="detailed-description"></a>Подробное описание
 <a name="DetailedDescription"> </a>
 
-Сведения о высокой доступности содержат FQDN сервера-посредника и IP-адреса сайта STN. Новые записи A DNS добавляются на сервер AD для IP-адресов сервера-посредника. Новые элементы топологии обновляются в центральном хранилище управления для FQDNs и IP-адресов сервера-посредника. 
+Сведения о высокой доступности содержат FQDNs сервера-посредника и IP-адреса сайта PSTN. Новые записи DNS A добавляются в IP-адреса AD Server для ip-адресов сервера-посредника. Новые элементы топологии обновляются в Центральный магазин управления для FQDNs-серверов-посредников и IP-адресов. 
   
 ## <a name="input-types"></a>Типы входных данных
 <a name="InputTypes"> </a>
 
-Нет. Этот Publish-CcAppliance не принимает конвейерные входные данные.
+Нет. В Publish-CcAppliance не принимается конвейерный ввод.
   
 ## <a name="return-types"></a>Типы возвращаемых данных
 <a name="ReturnTypes"> </a>

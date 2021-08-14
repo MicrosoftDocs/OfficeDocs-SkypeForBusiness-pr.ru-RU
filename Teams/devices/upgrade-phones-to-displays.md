@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: Узнайте, как обновить Teams телефона до Teams в центре Microsoft Teams администрирования.
-ms.openlocfilehash: 9e08d0056c82c3ad37eb3479822d40d4190fcf1d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 7d32703a2990c61eb7fdfaea06b6151baa4c638846c5fffbcc2a11077edf6dff
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51115587"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54327764"
 ---
 # <a name="upgrade-teams-phones-to-teams-displays"></a>Обновление Teams телефонов до Teams дисплеев
 
@@ -30,9 +30,9 @@ ms.locfileid: "51115587"
 
 В этой статье приводится обзор обновления телефонов Teams до Teams в Центре администрирования Microsoft Teams устройств. Это позволяет сделать устройства более насыщенными и Teams экрана.
 
-Teams дисплеи — это категория полностью выделенных Teams устройств с сенсорным экраном с сенсорным экраном и интерфейсом без рук, который можно работать с помощью Кортаны. Teams являются эволюцией Teams телефонов. Помимо функций, поддерживаемых телефонами [Teams,](phones-for-teams.md#features-supported-by-teams-phones)в Teams отображаются такие функции, как постоянное отображение, в котором Teams действия и возможности совместной работы всегда доступны. Дополнительные информацию об уникальных Teams экранах см. в Microsoft Teams [экранах.](teams-displays.md)
+Teams дисплеи — это категория полностью выделенных Teams устройств с сенсорным экраном с сенсорным экраном и интерфейсом без Кортана. Teams являются эволюцией Teams телефонов. Помимо функций, поддерживаемых телефонами [Teams,](phones-for-teams.md#features-supported-by-teams-phones)в Teams отображаются такие функции, как постоянное отображение, в котором Teams действия и возможности совместной работы всегда доступны. Дополнительные информацию об уникальных Teams экранах см. в Microsoft Teams [экранах.](teams-displays.md)
 
-## <a name="what-you-need-to-know-about-upgrading-to-teams-displays"></a>Что необходимо знать об обновлении до Teams отображается
+## <a name="what-you-need-to-know-about-upgrading-to-teams-displays"></a>Что необходимо знать об обновлении до Teams отображает
 
 ### <a name="which-teams-phones-can-be-upgraded"></a>Какие Teams можно обновить?
 
@@ -50,14 +50,14 @@ Teams дисплеи — это категория полностью выдел
 
 Помните, что после обновления Teams до Teams экранного устройства отменить действие будет нельзя. Мы рекомендуем сначала запустить пилотный проект с группой ранних переименовщиков, прежде чем обновлять всю организацию. 
 
-## <a name="upgrade-your-teams-phones-to-teams-displays"></a>Обновите Teams телефонов, чтобы Teams отображались
+## <a name="upgrade-your-teams-phones-to-teams-displays"></a>Обновите Teams телефона, чтобы Teams отображались
 
-1. В левой области навигации центра администрирования Microsoft Teams перейдите в меню **Устройства**  >  **Телефоны**.
+1. В левой области навигации центра администрирования Microsoft Teams перейдите в **меню Телефоны устройств**  >  .
 2. Выберите телефоны Teams, которые вы хотите обновить, а затем выберите **Обновить**.
 
     :::image type="content" source="../media/upgrade-phones-to-displays-select.png" alt-text="Снимок экрана: Teams телефонов, выбранных для обновления до Teams экрана":::
 
-3. В **диалоговом** Teams обновления выберите Запланировать обновление, чтобы установить дату и время обновления, или **Обновить сейчас**. 
+3. В **диалоговом Teams** обновления выберите Запланировать обновление, чтобы установить дату и время обновления, или **Обновить сейчас**. 
 
     :::image type="content" source="../media/upgrade-phones-to-displays-upgrade.png" alt-text="Снимок экрана: диалог Teams "Обновить до"":::
 
@@ -90,4 +90,4 @@ Teams дисплеи — это категория полностью выдел
 
 [IP-телефоны, сертифицированные для Microsoft Teams](teams-ip-phones.md)
 
-[Голосовая помощь Кортаны в Teams](../cortana-in-teams.md)
+[Кортана голосовой помощи в Teams](../cortana-in-teams.md)

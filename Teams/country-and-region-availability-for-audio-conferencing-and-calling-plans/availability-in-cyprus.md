@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Ниже ются Microsoft 365 и Office 365 службы Skype для бизнеса и Microsoft Teams для Кипра.
-ms.openlocfilehash: 265202a65ea91ebd9ed6c7c3373b77220237b3e8
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 5ccbc8b826a303d552d383dac6db9311e904a7a2a69a6944f4af7898e135d0ff
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118208"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54351119"
 ---
 # <a name="availability-in-cyprus"></a>Доступность на Кипре
 

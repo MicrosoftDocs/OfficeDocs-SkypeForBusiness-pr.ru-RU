@@ -1,7 +1,7 @@
 ---
 title: Виртуальные визиты с помощью Microsoft Teams и приложения Bookings
-author: msdmaguire
-ms.author: dmaguire
+author: cichur
+ms.author: v-cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: ''
 description: Приложение Bookings и виртуальные визиты в Microsoft Teams
-ms.openlocfilehash: 9d2c2fe9fd1852d030d512d95bf5c944b8b1e1ed119b97a2bac23569cbb83f69
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2ef4708cfcbdda5ba55c1aa7069e6e1e6babebc2
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54295206"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58233404"
 ---
 # <a name="virtual-visits-with-microsoft-teams-and-the-bookings-app"></a>Виртуальные визиты с помощью Microsoft Teams и приложения Bookings
 
@@ -41,7 +41,7 @@ ms.locfileid: "54295206"
 
 - Для организации должна быть включена служба Microsoft Bookings.
 
-- У пользователей должна быть соответствующая лицензия. Поддерживаются Office 365 A3, A5, E3 и E5, а также Microsoft 365 бизнес премиум, Microsoft 365 бизнес стандарт, A3, A5, E3 и E5.
+- У пользователей должна быть соответствующая лицензия. Office 365 A3, A5, E3, E5, F1, F3, Microsoft 365 A3, A5, E3 и E5, бизнес-стандарт.
 
 - У всех пользователей приложения Bookings и всех сотрудников, участвующих в собраниях, должна быть лицензия, которая поддерживает планирование собраний Teams.
 
