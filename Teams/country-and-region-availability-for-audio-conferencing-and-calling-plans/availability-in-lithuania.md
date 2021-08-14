@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Ниже ются Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Литвы.
-ms.openlocfilehash: 108aea98ca8edd65c04c135e923fcab80c615b4e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: c9fffeef387a208cb5dbff6f8828cbc6b79e1fc6fd96eb2aa0a2073dae0a66fc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122293"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54352367"
 ---
 # <a name="availability-in-lithuania"></a>Доступность в Литве
 

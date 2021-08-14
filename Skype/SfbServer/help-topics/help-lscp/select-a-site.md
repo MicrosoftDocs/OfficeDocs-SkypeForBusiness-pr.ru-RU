@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 09472310-a40f-4360-b6f1-1a9ac8888965
 description: Чтобы найти сайты, доступные в среде, используйте диалоговое окно Select a Site. Чтобы использовать существующий сайт, щелкните сайт в списке, а затем нажмите кнопку ОК.
-ms.openlocfilehash: bc07720a1a929b7db508ce5f04d9b7005038d2e4
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: d0606bbb3da21c6b0e7631a290a6b0a22da8439f1a12bb34f63769e2c7d207bc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51108025"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54345776"
 ---
 # <a name="select-a-site"></a>Выбор сайта
 
@@ -29,7 +29,7 @@ ms.locfileid: "51108025"
 > [!NOTE]
 > Чтобы получить все доступные сайты, ничего не вводите в поле поиска и нажмите значок поиска.
 
-Сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнес-серверов, см. в материале Управление Skype для бизнеса [Server 2015.](../../manage/manage.md)
+Сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнеса Server, см. в Skype для бизнеса Server [2015](../../manage/manage.md)г.
 
 ## <a name="tasks-you-can-perform"></a>Задачи, которые вы можете выполнить
 
@@ -39,7 +39,7 @@ ms.locfileid: "51108025"
 
 - [Создание политики сайта для сохраняемого чата](/previous-versions/office/lync-server-2013/lync-server-2013-create-a-site-policy-for-persistent-chat)
 
-Сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнес-серверов, см. в материале Управление Skype для бизнеса [Server 2015.](../../manage/manage.md)
+Сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнеса Server, см. в Skype для бизнеса Server [2015](../../manage/manage.md)г.
 
 ## <a name="to-configure-persistent-chat-options-globally"></a>Настройка настойчивых параметров чата по всему
 

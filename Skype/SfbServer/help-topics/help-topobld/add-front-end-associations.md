@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 95620425-defd-47fd-a5c0-e4a283d812a5
 description: 'Вы можете включить поддержку для отдельных возможностей, требующих развертывания других серверов, сопоставив роли сервера с интерфейсным пулом как прямо сейчас, так и позднее. К ролям сервера, которые можно сопоставить с интерфейсным пулом, относятся следующие:'
-ms.openlocfilehash: 8ff7d11a40f7eccfda78643fd8b3a17146c014d7
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: df7183915316f4b3b7c198c5fce735fa6969e6057b7a0ef95a7ce12b74eb5b8e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103255"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54345756"
 ---
 # <a name="add-front-end-associations"></a>Добавление связей переднего плана
 

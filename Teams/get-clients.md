@@ -19,12 +19,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8385e6721a24c3ad1bd320dd2f6e5e14091181b0
-ms.sourcegitcommit: 616403037ddb2d44f06cd9b2eaa9da699b119ef8
+ms.openlocfilehash: 510806c6b33260913454fa30f560b785b862b661dc04bf8eaf5279995c5a51a7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "51768228"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54352288"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Работа с клиентами для Microsoft Teams
 
@@ -46,7 +46,7 @@ ms.locfileid: "51768228"
 
 Классические клиенты поддерживают взаимодействие в реальном времени (звук, видео и общий доступ к контенту) для собраний команды, групповых звонков и частных индивидуальных звонков.
 
-При наличии подходящих локальных разрешений (для установки клиента Teams на Mac требуются права администратора, а на ПК — нет) пользователи могут скачать и установить классические клиенты прямо со страницы [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754).
+При наличии подходящих локальных разрешений (для установки клиента Teams на Mac требуются права администратора, а на ПК — нет) пользователи могут скачать и установить классические клиенты прямо со страницы [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754).
 
 > [!NOTE]
 > Дополнительные сведения об установке Teams на Chromebook см. в статье [Установка и запуск Microsoft Office на Chromebook](https://support.office.com/article/how-to-install-and-run-microsoft-office-on-a-chromebook-32f14a23-2c1a-4579-b973-d4b1d78561ad).
@@ -208,7 +208,7 @@ sudo zypper install teams
 | | | |
 |---|---|---|
 |![Значок, изображающий точку принятия решения](media/Get_clients_for_Microsoft_Teams_image4.png)|Точка принятия решений|Существуют ли ограничения, мешающие пользователям установить на своих устройствах подходящий клиент Microsoft Teams?|
-|![Значок, изображающий дальнейшие действия](media/Get_clients_for_Microsoft_Teams_image5.png)|Дальнейшие действия|Если ваша организация ограничивает установку программного обеспечения, убедитесь в совместимости данного механизма с Microsoft Teams. Примечание. Для установки клиента на Mac требуются права администратора, а на ПК — нет.|
+|![Значок, изображающий дальнейшие действия](media/Get_clients_for_Microsoft_Teams_image5.png)|Дальнейшие действия|Если ваша организация ограничивает установку программного обеспечения, убедитесь в совместимости данного механизма с Microsoft Teams. Примечание. Для установки клиента на Mac требуются права администратора, а на ПК — нет.|
 |
 
 ## <a name="client-update-management"></a>Управление обновлениями клиентов

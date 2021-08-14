@@ -1,5 +1,5 @@
 ---
-title: Skype для бизнеса Server - Просмотр сведений об отдельных магистральных магистрали SIP
+title: Просмотр сведений об отдельных магистральных магистрали SIP в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -10,15 +10,15 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: В Skype для бизнеса Server может быть назначено несколько стволов для одного шлюза PSTN. Шлюзы и магистрали не одно и то же, и администраторы должны использовать Get-CsTrunk для просмотра сведений об отдельном магистрали SIP.
-ms.openlocfilehash: 7fe18b07215749e829cfdbd0de08b21c7d6495f0
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+description: В Skype для бизнеса Server может быть назначено несколько магистральных шлюзов для одного шлюза PSTN; это означает, что шлюзы и магистрали не одно и то же, и администраторы должны использовать Get-CsTrunk для просмотра сведений об отдельном стволе SIP.
+ms.openlocfilehash: 1fd465bcbf547471f9ca5ead562d8b77976be79621bd4246be85341126577936
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58232674"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54351459"
 ---
-# <a name="skype-for-business-server---view-information-about-individual-sip-trunks"></a>Skype для бизнеса Server - Просмотр сведений об отдельных магистральных магистрали SIP
+# <a name="view-information-about-individual-sip-trunks-in-skype-for-business-server"></a>Просмотр сведений об отдельных магистральных магистрали SIP в Skype для бизнеса Server
 
 В Skype для бизнеса Server может быть назначено несколько магистральных шлюзов для одного шлюза PSTN; это означает, что шлюзы и магистрали не одно и то же, и администраторы должны использовать [cmdlet Get-CsTrunk](/powershell/module/skype/Get-CsTrunk) для просмотра сведений об отдельном магистрали SIP.
 
