@@ -13,18 +13,18 @@ appliesto:
 - Skype for Business
 localization_priority: Normal
 ms.custom: Learn how to use PowerShell to manage inbound call blocking in Skype for Business Online.
-ms.openlocfilehash: dae0d585df2f67904712e9220f16213a2f925369
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: ff1dfa87d6b88cdcab46a6ea080b2aa8b61d3ba757ab922ae04f2b4b2d2aa70d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238035"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54342544"
 ---
 # <a name="block-inbound-calls"></a>Блокировать входящие звонки
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-Skype для бизнеса Планы звонков по сети теперь поддерживают блокирование входящие вызовы из телефонной сети общего звонков (STN). Эта функция позволяет определить глобальный список шаблонов номеров клиента, чтобы в списке на совпадение можно было проверить ИД звонящая для каждого входящих вызовов по ДНР в клиенте. Если совпадение выполнено, входящий звонок отклоняется.
+Skype для бизнеса Планы звонков по сети теперь поддерживают блокирование входящие вызовы из телефонной сети общего звонков (ПССК). Эта функция позволяет определить глобальный список шаблонов номеров клиента, чтобы в списке на совпадение можно было проверить ИД звонящая для каждого входящих вызовов по ДНР. Если совпадение выполнено, входящий звонок отклоняется.
 
 Эта функция блокировки входящие звонков работает только для входящие звонков, исходящие из ПСПС, и работает только на глобальной основе клиента. Она недоступна для каждого пользователя.  
 
@@ -35,17 +35,17 @@ Skype для бизнеса Планы звонков по сети теперь
 
 ## <a name="call-blocking-admin-controls-and-information"></a>Блокировка вызовов элементов управления и сведений администратора
 
-Элементы управления блокировкой номеров предоставляются только с помощью PowerShell. Шаблоны блоков числов определяются как шаблоны регулярных выражений. Порядок выражений не имеет ошеломления— первый шаблон, совпадающий с шаблоном в списке, приводит к блокированию вызова. На то, чтобы шаблон стал активным, может потребоваться до 24 часов, чтобы новый номер или шаблон, который был добавлен или удален в списке заблокированных вызывающих пользователей.
+Элементы управления блокировкой номеров предоставляются только с помощью PowerShell. Шаблоны блоков числов определяются как шаблоны регулярных выражений. Порядок выражений не имеет ошеломления— первый шаблон, совпадающий с шаблоном в списке, приводит к блокированию вызова. На то, чтобы шаблон стал активным, может потребоваться до 24 часов.
 
 ## <a name="call-blocking-powershell-commands"></a>Команды PowerShell, блокирующие вызовы
 
 Шаблоны номеров можно управлять с ```CsInboundBlockedNumberPattern``` помощью команд , , и ```New``` ```Get``` ```Set``` ```Remove``` . Вы можете управлять заданным шаблоном с помощью этих cmdlets, включая возможность переключения активации заданного шаблона.
-- [Get-CsInboundBlockedNumberPattern](/powershell/module/skype/get-csinboundblockednumberpattern) возвращает список всех шаблонов заблокированных номеров, добавленных в список клиентов, включая Имя, Описание, Включено (true/False) и Pattern для каждого из них.
+- [Get-CsInboundBlockedNumberPattern](/powershell/module/skype/get-csinboundblockednumberpattern) возвращает список всех шаблонов заблокированных номеров, добавленных в список клиентов, включая Name, Description, Enabled (True/False) и Pattern для каждого из них.
 - [New-CsInboundBlockedNumberPattern](/powershell/module/skype/new-csinboundblockednumberpattern) добавляет в список клиентов шаблон блокировки.
 - [Remove-CsInboundBlockedNumberPattern](/powershell/module/skype/remove-csinboundblockednumberpattern) удаляет из списка клиентов шаблон заблокированных номеров.
 - [Set-CsInboundBlockedNumberPattern](/powershell/module/skype/set-csinboundblockednumberpattern) изменяет один или несколько параметров шаблона заблокированных номеров в списке клиентов.
 
-Просмотром и активацией всей функции блокировки зовов управляется с помощью ```CsTenantBlockingCallingNumbers``` команд ```Get``` и ```Set``` .
+Просмотром и активацией всей функции блокировки зовов управляется ```CsTenantBlockingCallingNumbers``` с помощью команд и ```Get``` ```Set``` .
 
 - [Get-CsTenantBlockedCallingNumbers](/powershell/module/skype/get-cstenantblockedcallingnumbers) возвращает параметры глобального списка заблокированных номеров, включая Enabled (True/False). Существует одна глобальная политика клиента, которую нельзя изменить вручную, кроме как включить или отключить эту функцию.
 - [Set-CsTenantBlockedCallingNumbers](/powershell/module/skype/set-cstenantblockedcallingnumbers) позволяет изменять глобальные звонки, заблокированные клиентом, на уровне клиента.
@@ -62,7 +62,7 @@ New-CsInboundBlockedNumberPattern -Name “<name>” -Enabled $True -Description
 
 При создании шаблона шаблон добавляется как включенное по умолчанию. Описание — это необязательное поле для предоставления дополнительных сведений.
 
-Мы рекомендуем дать понятное имя, чтобы легко понять, почему был добавлен шаблон. Если вы просто блокируете номера спама, можно назвать правило так же, как шаблон, по совпадению с номером, и добавьте в описание дополнительные сведения, как требуется.
+Мы рекомендуем дать понятное имя, чтобы легко понять, почему был добавлен шаблон. Если вы просто блокируете номера спама, можно назвать правило так же, как шаблон номера, который соответствует этому шаблону, и при необходимости добавить дополнительные сведения в описание.
 
 Совпадения с шаблонами можно использовать с помощью регулярных выражений (Regex). Разрешить время репликации перед проверкой и проверкой.
 
@@ -161,7 +161,7 @@ Test-CsInboundBlockedNumberPattern –Tenant <GUID> -PhoneNumber <String>
 Test-CsInboundBlockedNumberPattern -Tenant e09ad6bc-1d3c-4650-8cae-02f6c5a04b45 -PhoneNumber 4255550101
 ```
 
-|httpResponseCode  |isNumberBlocked   |Errormessage |
+|httpResponseCode  |isNumberBlocked   |errorMessage |
 |---------|---------|---------|
 |200    | Верно        |         |
 
@@ -169,7 +169,7 @@ Test-CsInboundBlockedNumberPattern -Tenant e09ad6bc-1d3c-4650-8cae-02f6c5a04b45 
 Test-CsInboundBlockedNumberPattern -Tenant e09ad6bc-1d3c-4650-8cae-02f6c5a04b45 -PhoneNumber 6045550188
 ```
 
-|httpResponseCode  |isNumberBlocked   |Errormessage |
+|httpResponseCode  |isNumberBlocked   |errorMessage |
 |---------|---------|---------|
 |200    | False        |         |
 

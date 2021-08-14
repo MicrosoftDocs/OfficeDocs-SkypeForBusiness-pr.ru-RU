@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: d72841ff-3c4d-4233-a933-f3a95d75d89b
 ROBOTS: NOINDEX, NOFOLLOW
 description: Внутреннее полное доменное имя пограничного пула доступа используется в самых разных сценариях, где внутренние пользователи взаимодействуют с внешними пользователями для обеспечения федерации, удаленного доступа пользователей и общедоступной связи посредством мгновенных сообщений. Если в вашей устаревшей среде был развернут пограничный сервер с балансировкой нагрузки, введите полное доменное имя внутренней подсистемы балансировки нагрузки.
-ms.openlocfilehash: 9e4446a89b1f8976db4d325175c3e760865ac118
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 0bfbff4fcd04d0e2e202febe8601079364d4a02e966449242b1e87693c5634f9
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49827449"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54342334"
 ---
 # <a name="legacy-merge-fqdn"></a>Полное доменное имя для объединения с устаревшей версией
  

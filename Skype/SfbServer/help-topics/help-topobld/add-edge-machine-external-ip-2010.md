@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 17906fc5-1b5c-4819-849d-bebf0496a763
 description: Вы можете настроить свойства на этой странице, чтобы указать edge Server на внешние расположения службы Access Edge, службы Web Conferencing Edge и службы A/V Edge.
-ms.openlocfilehash: 0e472bf49da43faaaa87c037025fc89c71f6ac69
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: b2d73fd7e5857175cd67db2b6a016ae17d8e4a052c80c6c3ec4a196b5441c4e2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51114295"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54343633"
 ---
 # <a name="add-edge-machine-external-ip-2010"></a>Добавление внешнего IP-адреса пограничного сервера 2010
 

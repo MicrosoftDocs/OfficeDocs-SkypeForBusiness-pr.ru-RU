@@ -11,25 +11,25 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 11d1f9ac-0029-429b-be2b-d7591abfc192
-description: Сводка. Узнайте, как изменить параметры конфигурации собраний в Skype для бизнеса Server.
-ms.openlocfilehash: 2f0d1220312ac810d26fdd4691492133e54db9b6
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Сводка. Сведения об изменении параметров конфигурации собраний в Skype для бизнеса Server.
+ms.openlocfilehash: e1b283c5d50c955464d4af9b8f92f9e210f60f35a1fad5320c9f6bb8b6ede11d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119418"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54343463"
 ---
 # <a name="modify-meeting-configuration-settings-in-skype-for-business-server"></a>Изменение параметров конфигурации собраний в Skype для бизнеса Server
  
 **Сводка:** Узнайте, как изменить параметры конфигурации собраний в Skype для бизнеса Server.
   
-Параметры конфигурации собраний можно изменить с помощью панели управления Skype для бизнес-серверов или с помощью оболочки управления Skype для бизнес-серверов.
+Параметры конфигурации собраний можно изменить с помощью Skype для бизнеса Server панели управления или с помощью Skype для бизнеса Server управленческой оболочки.
   
-## <a name="modify-meeting-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Изменение параметров конфигурации собраний с помощью панели управления Skype для бизнес-серверов
+## <a name="modify-meeting-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Изменение параметров конфигурации собраний с помощью Skype для бизнеса Server панели управления
 
 1. Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи пользователя, назначенной роли CsUserAdministrator или CsAdministrator.
     
-2.  Откройте панель управления Skype для бизнес-серверов.
+2.  Откройте панель Skype для бизнеса Server управления.
     
 3. В левой панели навигации нажмите **кнопку Conferencing** и нажмите кнопку **Конфигурация собраний**.
     
@@ -39,7 +39,7 @@ ms.locfileid: "51119418"
     
 6. Щелкните **Исполнить**.
     
-## <a name="modify-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>Изменение параметров конфигурации собраний с помощью оболочки управления Skype для бизнес-серверов
+## <a name="modify-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>Изменение параметров конфигурации собраний с помощью Skype для бизнеса Server Management Shell
 
 Чтобы изменить параметры конфигурации собраний, используйте комлет **Set-CsMeetingConfiguration.**
   

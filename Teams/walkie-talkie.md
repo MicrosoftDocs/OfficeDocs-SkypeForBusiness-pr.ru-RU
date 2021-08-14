@@ -18,18 +18,18 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c1e7391163ec41d385b99cab4ae6d135892284e2
-ms.sourcegitcommit: 330b5c3e299ddad5168958e4722d1e0b987372e2
+ms.openlocfilehash: 042973f245341c0e4badd221075b81023474b6124f55eeb021bd61d32dcc4bfa
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53536735"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54342704"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Приложение "Рация" в Microsoft Teams
 
 Приложение "Рация" в Teams обеспечивает для вашей команды оперативную связь путем "разговора нажатием" и теперь доступно на Android. С помощью рации пользователи в команде могут общаться друг с другом, используя те же каналы, в которых они участвуют. Только пользователи, которые подключились к рации в канале, становятся участниками разговора и могут говорить друг с другом по очереди.
 
-С помощью рации в Teams, сотрудники переднего телефона теперь могут безопасно общаться с помощью знакомых функций PTT без необходимости использовать массовые радиосвязи, а рации работают где угодно с помощью Wi-Fi или сотового подключения к Интернету.
+С помощью рации в Teams, сотрудники переднего телефона теперь могут безопасно общаться с помощью знакомых функций PTT без необходимости выполнять массовые радиосвязи, а рации работают где угодно с помощью Wi-Fi или сотового подключения к Интернету.
 
 ## <a name="getting-started"></a>Начало работы
 
@@ -80,7 +80,7 @@ ms.locfileid: "53536735"
     - [Klein Electronics](https://www.kleinelectronics.com/poc-accessories/mtwt/)
 - **Прочные телефоны**
   - Samsung [Galaxy XCover Pro](https://www.samsung.com/us/business/products/mobile/phones/galaxy-xcover-pro/), [Galaxy XCover 5](https://www.samsung.com/de/smartphones/others/galaxy-xcover-5-black-64gb-sm-g525fzkdeeb/buy), [Galaxy Tab Active 3](https://www.samsung.com/us/business/tablets/galaxy-tab-active/buy/)
-    -  Ручная настройка. Teams, перейдите к Параметры > дополнительным функциям > XCover/Active. Включит клавишу CONTROL XCover с приложением и выберите "Teams"
+    -  Ручная настройка. Teams, перейдите к Параметры > дополнительным функциям > XCover/Active. Включив клавишу CONTROL XCover с приложением, и выберите "Teams"
     -  [Настройка MDM](https://docs.samsungknox.com/admin/knox-service-plugin/intune-teams.htm)
 
 > [!NOTE]

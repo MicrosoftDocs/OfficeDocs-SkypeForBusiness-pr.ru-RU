@@ -15,18 +15,18 @@ localization_priority: Normal
 ms.assetid: 16e5b03c-c313-4792-9353-65f33b5e775a
 ROBOTS: NOINDEX, NOFOLLOW
 description: Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
-ms.openlocfilehash: da4d28e865a20e1d095cbd19de8fd7b3c3da97c2
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 0dc9972d11bafb155800e7bbbe1b2d5e281636011d56a66b233b67ab59fd76fc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118748"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54343813"
 ---
 # <a name="pin-policy"></a>Политика ПИН-кодов
 
 Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
 
- **Работа с политикой PIN-кода для IP-телефонов** Эта политика личного идентификации (PIN-кода) поддерживает проверку подлинности для пользователей, подключающихся к Skype для бизнеса Server с помощью IP-телефона.
+ **Работа с политикой PIN-кода для IP-телефонов** Эта политика идентификации личного идентификации (PIN-код) поддерживает проверку подлинности для пользователей, которые подключаются к Skype для бизнеса Server с помощью IP-телефона.
 - [Создание новой политики ПИН-кода в Skype для бизнеса Server](../../../manage/authentication/create-a-new-pin-policy.md)
 
 - [Изменение существующей политики ПИН-кода в Skype для бизнеса Server](../../../manage/authentication/modify-an-existing-pin-policy.md)
@@ -38,4 +38,4 @@ ms.locfileid: "51118748"
 
 - [Изменение параметров ПИН-кодов по умолчанию для конференц-связи с телефонным подключением](/previous-versions/office/lync-server-2013/lync-server-2013-modify-the-default-dial-in-conferencing-pin-settings)
 
-- [Удаление параметров ПИН-кода с диалогом для сайта или группы пользователей](/previous-versions/office/lync-server-2013/lync-server-2013-delete-dial-in-conferencing-pin-settings-for-a-site-or-group-of-users)
+- [Удаление ПИН-кода для Параметры для сайта или группы пользователей](/previous-versions/office/lync-server-2013/lync-server-2013-delete-dial-in-conferencing-pin-settings-for-a-site-or-group-of-users)

@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d72841ff-3c4d-4233-a933-f3a95d75d89b
 description: Внутреннее полное доменное имя пограничного пула доступа используется в самых разных сценариях, где внутренние пользователи взаимодействуют с внешними пользователями для обеспечения федерации, удаленного доступа пользователей и общедоступной связи посредством мгновенных сообщений. Если в вашей устаревшей среде был развернут пограничный сервер с балансировкой нагрузки, введите полное доменное имя внутренней подсистемы балансировки нагрузки.
-ms.openlocfilehash: 42771899ca4eb06b195db7365636dbef9c3d70d9
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: b9c2e2977f2cfb579bc4c96d76d49883198a80a6901ba3e0fb0200b6c4704f6d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49803289"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54336929"
 ---
 # <a name="legacy-merge-fqdn"></a>Полное доменное имя для объединения с устаревшей версией
  

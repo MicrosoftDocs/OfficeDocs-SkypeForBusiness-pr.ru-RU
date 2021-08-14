@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 9591e691-63de-4c19-96a4-3bb394d1d4e2
 ROBOTS: NOINDEX, NOFOLLOW
 description: Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
-ms.openlocfilehash: 5284d775e8b89bca45491214c58e9892124be110
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 1756c9a606434106508c651d7f52101747fd8b937eb939e5227723972ceb9757
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121819"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54342534"
 ---
 # <a name="trunk-configuration-create-new-or-edit-existing"></a>Конфигурация магистрали: создание новой или редактирование существующей
 
