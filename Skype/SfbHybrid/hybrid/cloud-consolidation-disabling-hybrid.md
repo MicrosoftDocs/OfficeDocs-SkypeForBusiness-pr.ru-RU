@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: В этой статье содержатся подробные действия по отключению гибрида в рамках консолидации облачных Teams и Skype для бизнеса.
-ms.openlocfilehash: 90f3b6d5cd533ca92966a46dd271d2f82f40acc4
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: eb7e72644bf5f69a763540c1c256d7aabb5f9f6f474d1d570071f68a4c2584e7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53510510"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54330703"
 ---
 # <a name="disable-your-hybrid-configuration-to-complete-migration-to-teams-only"></a>Отключение гибридной конфигурации для завершения миграции в Teams Only 
 
@@ -41,13 +41,13 @@ ms.locfileid: "53510510"
 
 - Этап 3. [Перенос конечных точек](decommission-move-on-prem-endpoints.md)гибридных приложений из локального в онлайн.
 
-- Этап 4. [Удалите локальное развертывание Skype для бизнеса.](decommission-remove-on-prem.md)
+- Этап 4. [Удалите локальное развертывание Skype для бизнеса.](decommission-remove-on-prem.md)
 
 > [!NOTE]
 > Этапы 2 и 3 должны быть сделаны в одном окне обслуживания, так как существующие конечные точки гибридного приложения не будут обнаружены между этапами 2 и завершением шага 3.
 
 
-## <a name="summary"></a>Аннотация
+## <a name="summary"></a>Сводка
 
 После обновления всех пользователей из локального Skype для бизнеса до Teams только в Microsoft 365, вы можете списание локального Skype для бизнеса развертывания.
 

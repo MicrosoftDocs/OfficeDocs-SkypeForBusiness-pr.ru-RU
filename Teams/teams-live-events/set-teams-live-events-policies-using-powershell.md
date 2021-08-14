@@ -18,12 +18,12 @@ description: Примеры использования PowerShell для при�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 95b78b520b6978c85715e6dc1c1314ed279a305b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 2b55589a3cabf1b696c1034ce4e20cd7a56af3444f7fa51e0f81f44430ead6bb
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119148"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54328934"
 ---
 # <a name="use-powershell-to-set-live-events-policies-in-microsoft-teams"></a>Настройка политик трансляции Microsoft Teams с помощью PowerShell
 
@@ -83,7 +83,7 @@ Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
 ```PowerShell
 Get-CsTeamsMeetingBroadcastPolicy -Identity Global
 ```
-Затем назначьте пользователя или пользователей глобальной политике, запустите 2016.
+Затем назначьте пользователя или пользователя глобальной политике, запустите 2016.
 ```PowerShell
 Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
 ```
@@ -96,7 +96,7 @@ New-CSTeamsMeetingBroadcastPolicy -Identity DisabledBroadcastSchedulingPolicy
 ```PowerShell
 Set-CsTeamsMeetingBroadcastPolicy -Identity DisabledBroadcastSchedulingPolicy -AllowBroadcastScheduling $false
 ```
-Затем назначьте пользователей этой политике, запустите:
+Затем назначьте пользователей этой политике, запустите 2016.
 ```PowerShell
 Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName DisabledBroadcastSchedulingPolicy -Verbose
 ```
@@ -118,7 +118,7 @@ New-CSTeamsMeetingBroadcastPolicy -identity EnableBroadcastSchedulingpolicy
 ```PowerShell
 Set-CsTeamsMeetingBroadcastPolicy -identity EnableBroadcastSchedulingpolicy -AllowBroadcastScheduling $true
 ```
-Затем назначьте пользователей этой политике, запустите:
+Затем назначьте пользователей этой политике, запустите 2016.
 ```PowerShell
 Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName EnableBroadcastSchedulingpolicy -Verbose
 ```
@@ -146,5 +146,5 @@ Set-CsTeamsMeetingBroadcastPolicy -Identity Global -AllowBroadcastTranscription 
 ```
 
 ### <a name="related-topics"></a>Статьи по теме
-- [Настройка прямых трансляций Teams](set-up-for-teams-live-events.md)
-- [Обзор PowerShell в Teams](../teams-powershell-overview.md)
+- [Настройка трансляций Teams](set-up-for-teams-live-events.md)
+- [Обзор PowerShell в Teams](../teams-powershell-overview.md)

@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Во время развертывания пограничных серверов и включения федерации для организации необходимо указать, должно ли поддерживаться автоматическое обнаружение федеративных доменов партнеров.
-ms.openlocfilehash: 4877472ca48f5fc6dc166f5f4cbcab8b7441d7ff8eb3a0f8c5b914242da686ff
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2160964842b308b8e715155fe2bde30fb76f9d8a
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54297235"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234184"
 ---
 # <a name="enable-or-disable-discovery-of-federation-partners-in-skype-for-business-server"></a>Включить или отключить обнаружение партнеров федерации в Skype для бизнеса Server
 
@@ -53,14 +53,10 @@ ms.locfileid: "54297235"
 
 ## <a name="to-enable-discovery-of-federation-partners"></a>Возможность обнаружения партнеров федерации
 
-  - Чтобы включить обнаружение федеративных партнеров, задайте для свойства **EnablePartnerDiscovery** значение True ($True). Обратите внимание, что для изменения значения этого свойства необходимо включить маршрутизацию DNS SRV.
-    
-        Set-CsAccessEdgeConfiguration -UseDnsSrvRouting -EnablePartnerDiscovery $True
+  - Чтобы включить обнаружение федеративных партнеров, задайте для свойства **EnablePartnerDiscovery** значение True ($True). Обратите внимание, что для изменения значения этого свойства необходимо включить маршрутизацию DNS SRV.<br/><br/>Set-CsAccessEdgeConfiguration-UseDnsSrvRouting -EnablePartnerDiscovery $True
 
 
 ## <a name="to-disable-discovery-of-federation-partners"></a>Отключение обнаружения партнеров федерации
 
-  - Чтобы отключить обнаружение федеративных партнеров, задайте для свойства **EnablePartnerDiscovery** значение False ($False).
-    
-        Set-CsAccessEdgeConfiguration -UseDnsSrvRouting -EnablePartnerDiscovery $False
+  - Чтобы отключить обнаружение федеративных партнеров, задайте для свойства **EnablePartnerDiscovery** значение False ($False).<br/><br/>Set-CsAccessEdgeConfiguration-UseDnsSrvRouting -EnablePartnerDiscovery $False
 

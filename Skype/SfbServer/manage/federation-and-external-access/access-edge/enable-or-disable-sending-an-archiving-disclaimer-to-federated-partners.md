@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Включите или отключите отправку об отказе от архива федеративным партнерам в Skype для бизнеса Server.
-ms.openlocfilehash: 5c3e5b864b26977c2d25e534cdb62f9619644587a2b0658a788727ad2cd3fef4
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: a44643d5a46d796e253a0fe444a45bdf610bd572
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57848864"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58235084"
 ---
 # <a name="enable-or-disable-sending-an-archiving-disclaimer-to-federated-partners-in-skype-for-business-server"></a>Включить или отключить отправку об отказе от архива федеративным партнерам в Skype для бизнеса Server
 

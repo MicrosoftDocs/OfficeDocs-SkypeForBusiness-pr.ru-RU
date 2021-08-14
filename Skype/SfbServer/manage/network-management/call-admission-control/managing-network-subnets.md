@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: В большинстве развертывания Skype для бизнеса Server, где реализуется управление приемом вызовов (CAC), обычно существует большое количество подсетей. Из-за этого часто лучше настроить подсети из Skype для бизнеса Server.
-ms.openlocfilehash: c42d0cf4a3970a354183de3bb39878f7955b8678aae93c4f0703257a1ae1f901
-ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
+ms.openlocfilehash: a31e8b40e0523b8bc0a4b90a97fb0ae98fbc7668
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54591103"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234964"
 ---
 # <a name="managing-network-subnets-in-skype-for-business-server"></a>Управление подсетями в Skype для бизнеса Server
 

@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 description: Планирование гибридного подключения между Skype для бизнеса Server и Teams путем настройки Skype для бизнеса гибридного режима.
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: c52edf0fa8e90f0fc6a86f0d87192fdbba6a24c8ef540f18607645a82d7badfe
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: 090aab3d376a228915779c8bf55864484cee715d
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57849274"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234054"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-teams"></a>Планирование гибридного подключения между Skype для бизнеса Server и Teams
 

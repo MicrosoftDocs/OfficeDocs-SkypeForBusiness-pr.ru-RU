@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 'Если вы Skype для бизнеса в организации, вы можете федератировать с доменами одного или Skype для бизнеса клиентов Online. '
-ms.openlocfilehash: c8e0481a85ff371e5454856d5b84a4dbccf50a97
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 2c737df9230b31c7e616cc456831b999041015c36b4fbb2c99032a8f5885fd26
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52240533"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54336879"
 ---
 # <a name="configuring-federation-support-for-a-skype-for-business-online-customer-in-skype-for-business-server"></a>Настройка поддержки федерации для клиента Skype для бизнеса Online в Skype для бизнеса Server
 
@@ -38,7 +38,7 @@ ms.locfileid: "52240533"
 
 ## <a name="prerequisites-for-federating-with-a-skype-for-business-online-customer"></a>Необходимые условия для федерации с клиентом Skype для бизнеса Online
 
-Чтобы федерация с клиентом Skype для бизнеса Online, вы должны были уже завершить начальное развертывание и конфигурацию Skype для бизнеса Server в вашей организации. Эта кнопка предоставляет доступ ко следующим командам:
+Чтобы федерация с клиентом Skype для бизнеса Online, вы должны были уже завершить начальное развертывание и конфигурацию Skype для бизнеса Server в вашей организации. В том числе:
 
 - Развертывание по крайней мере выпуск Standard сервера или выпуск Enterprise пула переднего конца в организации.
 - Включение внутренних учетных записей пользователей для Skype для бизнеса Server.

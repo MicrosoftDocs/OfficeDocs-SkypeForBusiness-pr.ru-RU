@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - ms.lync.lac.NumberActivationStatePending
 description: Проверка адреса является важной частью настройки планов звонков. Она предоставляет пользователю организации адрес для экстренного реагирования, который могутжет использоваться соответствующими экстренные службыами.
-ms.openlocfilehash: aaf94d1c2536fd96c7162eb29b9cf4b7c7e1a1b3
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 8e80d272c08aada8020ab39caab0290ef45199f00663c73b1c269318e9b3518b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237915"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54330593"
 ---
 # <a name="why-is-number-activation-just-pending"></a>Почему активация номера находится в ожидании?
 
@@ -96,7 +96,7 @@ ms.locfileid: "52237915"
 8. Проверьте информацию и нажмите кнопку **Отправить запрос**.
     
 > [!TIP]
-> Номер ссылки будет указан на странице **Запросы на** обслуживание в Microsoft 365 администрирования.
+> Номер ссылки будет указан на странице **Запросы на** обслуживание в Центр администрирования Microsoft 365.
 
 
 > [!NOTE]

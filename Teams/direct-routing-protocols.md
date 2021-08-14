@@ -1,5 +1,5 @@
 ---
-title: Прямая маршрутизация телефонной системы
+title: 'Teams прямой маршрутии телефонной системы: определения и стандарты RFC'
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -14,21 +14,21 @@ ms.reviewer: nmurav
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Протоколы прямой маршрутии
+description: Как Телефон (Майкрософт) System Direct Routing реализует стандартные протоколы RFC.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 015b07f538ad33079bbe04649849d22bfebbfb081feb30cea154cb30f9f10fd9
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 26178fa52105f43ce9f7f18c0058a2ead3ef1c02
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54347175"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58235344"
 ---
-# <a name="direct-routing---definitions-and-rfc-standards"></a>Прямая маршрутия: определения и стандарты RFC
+# <a name="direct-routing---definitions-and-rfc-standards"></a>Прямая маршрутия — определения и стандарты RFC
 
 В этой статье описано Телефон (Майкрософт) как в системе Direct Routing реализованы стандартные протоколы RFC. Эта статья предназначена для администраторов голосовой связи, которые отвечают за настройку подключения между локальной службой пограничного контроллера сеанса (SBC) и прокси-службой SIP.
 
-Клиентский интерфейс SBC со следующими компонентами в Microsoft Teams интерфейса: 
+Интерфейс sBC клиента со следующими компонентами в Microsoft Teams интерфейса: 
 
 - **Прокси-сервер SIP** для сигнального сигнала. Это интернет-компонент прямой маршрутики, обрабатывающий подключения SIP (TLS) между SBCs и Direct Routing.
 
@@ -47,15 +47,15 @@ ms.locfileid: "54347175"
 
 Следующие стандарты применимы к устройствам, которые поддерживают только режим обхода мультимедиа:
 
-- [SIP RFC 3261:](https://tools.ietf.org/html/rfc3261)протокол session Initiation Protocol
-- [RFC 3325](https://www.ietf.org/rfc/rfc3325). Частное расширение протокола инициирования сеанса для утверждения удостоверений в доверенных сетях— разделы об обработке заглавных заглавных личных данных С. Прямая маршрутная маршрутия отправляет P-Изядле-удостоверение с заглавными идентификаторами конфиденциальности. 
+- [SIP RFC 3261:](https://tools.ietf.org/html/rfc3261)протокол session initiation Protocol
+- [RFC 3325](https://www.ietf.org/rfc/rfc3325). Частное расширение протокола инициирования сеанса для утверждения удостоверений в доверенных сетях— разделы об обработке заглавного заглавного раздела P-Утвердилось-identity. Прямая маршрутная маршрутия отправляет P-Изядле-удостоверение с заглавными идентификаторами конфиденциальности. 
 - [RFC 4244](https://www.ietf.org/rfc/rfc4244.txt) Расширение протокола SIP для необходимых сведений об истории. Дополнительные сведения см. в описании протокола SIP.
 - [RFC 3892](https://www.ietf.org/rfc/rfc3892.txt) Механизм управления протоколом Referred-By сеанса
 - [RFC 3891](https://www.ietf.org/rfc/rfc3891.txt) Заглавный заглавный протокол SIP заменяет 
 - [RFC 6337](https://tools.ietf.org/html/rfc6337) Использование модели предложений и ответов протоколом SIP.
   См. раздел "Отклонения от RFC".
 - [RFC 3711](https://tools.ietf.org/html/rfc3711) и [RFC 4771](https://tools.ietf.org/html/rfc4771). Защитите трафик RTP с помощью SRTP. SBC должен иметь возможность устанавливать ключи с помощью SDES. 
-- [RFC 8035](https://www.ietf.org/rfc/rfc8035.txt) Уточнения предложений и ответов по протоколу SDP для мультиплексинга RTP/RTCP
+- [RFC 8035](https://www.ietf.org/rfc/rfc8035.txt) Уточнения предложений и ответов по протоколу SDP для многократного сеанса RTP/RTCP
 
 ### <a name="standards-applicable-to-devices-that-support-media-bypass-mode"></a>Стандарты, применимые к устройствам, поддерживаюным режим обхода мультимедиа
 
@@ -63,7 +63,7 @@ ms.locfileid: "54347175"
 
 - [RFC 5245 Interactive Connectivity Connectivity Ветвь (ICE) для обхода мультимедиа](https://tools.ietf.org/html/rfc5245).  SBC должен поддерживать следующие следующую поддержку:
   - ICE Lite — клиенты Teams являются полными клиентами ICE
-  - [Перезапуски ICE.](https://tools.ietf.org/html/rfc5245#section-9.1.1.1) Дополнительные статью о перезапусках ICE: использование досье и примеры в ice Restart: обход мультимедиа, перенесенный на конечную точку, которая не поддерживает обход мультимедиа   
+  - [Ice Restarts](https://tools.ietf.org/html/rfc5245#section-9.1.1.1). Дополнительные статью об использовании допусков ICE с использованием досье и примеры см. в статьи Перезапуск ICE: звонок об обходе мультимедиа перенесен на конечную точку, которая не поддерживает обход мультимедиа   
 - [RFC RFC 5589 Session Initiation Protocol (SIP) Call Control – Transfer](https://tools.ietf.org/html/rfc5589). 
 - [RFC 3960 Early Media and Ringing Tone Generation in the Session Initiation Protocol (SIP)](https://tools.ietf.org/html/rfc3960), см. разделы 3.1, Forking и 3.2, "Генерация сигнала звонка" 
 - [RFC 5389 Session Traversal Utilities for NAT (STUN)](https://tools.ietf.org/html/rfc5389)

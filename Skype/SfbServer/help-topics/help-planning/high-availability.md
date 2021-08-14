@@ -16,12 +16,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 14a897b3-2406-46c7-b08f-490085b3d048
 description: Основная схема высокой доступности большинства ролей сервера в Skype для бизнеса Server 2015 г. основана на избыточности сервера с помощью пулинга. При сбое сервера с определенными ролями остальные серверы в пуле с такими же ролями берут на себя нагрузку этого сервера.
-ms.openlocfilehash: d3897fa3989956604d2b06f33cd2ff6a36bf707645c80a61b02f6ac1ab62fd0e
-ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
+ms.openlocfilehash: d8c6a16ba29d5725a148810c71a17325bdbab763
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54590703"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234704"
 ---
 # <a name="skype-for-business-server-high-availability-planning-tool"></a>Skype для бизнеса Server Средство планирования высокой доступности
  

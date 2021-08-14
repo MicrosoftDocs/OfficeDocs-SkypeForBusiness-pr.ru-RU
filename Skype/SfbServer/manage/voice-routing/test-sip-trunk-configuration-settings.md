@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 'Параметры конфигурации магистрали SIP определяют связь и возможности между шлюзом-посредником и шлюзом PST, PBX или SBC у поставщика услуг. '
-ms.openlocfilehash: b6154c1f6a608d0cac0084b3c49caf2b7aa630229464d922926f0eeb4ad20f7f
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: d3e327271db0426415137123e58426b18d185403
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57848994"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234894"
 ---
 # <a name="skype-for-business-server---test-sip-trunk-configuration-settings"></a>Skype для бизнеса Server - Тестовые параметры конфигурации магистрали SIP
 

@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: В этой статье описывается настройка диапазонов портов для клиентов и настройка политик качества обслуживания в Skype для бизнеса Server для клиентов, работающих Windows 10.
-ms.openlocfilehash: d2d38ff777322aa952efd427c7e528afbb0e333252aabec2a943b1a9007d0ca7
-ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
+ms.openlocfilehash: 4d8736c9249bbef25438be7232d7802f3ddb3e9a
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54591143"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234024"
 ---
 # <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-clients-in-skype-for-business-server"></a>Настройка диапазонов портов и политика качества обслуживания для клиентов в Skype для бизнеса Server
 

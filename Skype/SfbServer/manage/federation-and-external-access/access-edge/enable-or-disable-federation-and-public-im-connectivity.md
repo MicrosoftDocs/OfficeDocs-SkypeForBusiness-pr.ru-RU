@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Поддержка федерации требуется для того, чтобы пользователи с учетной записью доверенного клиента или партнерской организации, включая пользователей партнерских доменов и общедоступных поставщиков услуг обмена мгновенными сообщениями, могли работать совместно с пользователями вашей организации.
-ms.openlocfilehash: f9c7b4ee7a861bc395c8599283f8d993b25ef4774d9487263e334207e9e277c8
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: 105ed8a4090835be22847aa1ce2cc9788af74b5d
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57849974"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234174"
 ---
 # <a name="enable-or-disable-federation-and-public-im-connectivity-in-skype-for-business-server"></a>Включить или отключить подключение федерации и общего чата в Skype для бизнеса Server
 

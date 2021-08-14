@@ -1,5 +1,5 @@
 ---
-title: Ресурсы Microsoft Teams для администраторов учебных заведений
+title: Начало работы с Microsoft Teams для дистанционного обучения
 author: MicrosoftHeidi
 ms.author: heidip
 manager: serdars
@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a312a15af363fc796f88d5743950ea97c300a35422a691a2d00406d922f74dbd
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9562deeb7ec2cf4225d80c723d093c3e40e814dc
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54319822"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234254"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>Начните с Microsoft Teams для дистанционного обучения
 
@@ -215,7 +215,7 @@ SDS создает команды за два этапа. На первом эт
 
 #### <a name="manual-team-creation"></a>Создание команды вручную
 
-Студенты и преподаватели получают максимальную отдачу от Команд, когда они могут использовать ее с минимальными барьерами и иметь возможность адаптировать ее к своим потребностям. Один из способов персонализации Teams — создание команд. Преподаватель создает собственную команду типа класса и приглашает учащихся, как показано [здесь](https://support.microsoft.com/article/create-a-class-team-in-microsoft-teams-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b#ID0EADAAA=Create_a_team_from_scratch). Преподаватели могут приглашать учащихся, [добавляя тех в команду](https://support.office.com/article/add-a-student-to-a-class-team-b88263bb-ace1-4702-8a48-f8a2cf4af954) либо [присылая им код присоединения](https://support.office.com/article/create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f) или [ссылку на команду](https://support.office.com/article/create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f). По возможности преподавателям рекомендуется добавлять учащихся в команду, чтобы те гарантированно получили доступ и уведомление о добавлении в команду.
+Студенты и преподаватели получают максимальную отдачу от Команд, когда они могут использовать ее с минимальными барьерами и иметь возможность адаптировать ее к своим потребностям. Один из способов персонализации Teams — создание команд. Преподаватель создает собственную команду типа класса и приглашает учащихся, как показано [здесь](https://support.microsoft.com/article/create-a-class-team-in-microsoft-teams-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b#ID0EADAAA=Create_a_team_from_scratch). Преподаватели могут приглашать учащихся, [добавляя тех в команду](https://support.office.com/article/add-a-student-to-a-class-team-b88263bb-ace1-4702-8a48-f8a2cf4af954) либо [присылая им код присоединения](https://support.office.com/article/Create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f) или [ссылку на команду](https://support.office.com/article/Create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f). По возможности преподавателям рекомендуется добавлять учащихся в команду, чтобы те гарантированно получили доступ и уведомление о добавлении в команду.
 
 ##### <a name="benefits"></a>Преимущества
 

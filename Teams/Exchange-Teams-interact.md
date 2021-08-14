@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e2088272756886b210ae99b32f8c3148d237b10ccb367702745f0327cc4e2896
-ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
+ms.openlocfilehash: 167c6534fbb8cade9c45b0d4d44441c3a385fd19
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54590783"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58235394"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Взаимодействие Exchange и Microsoft Teams
 
@@ -70,7 +70,7 @@ ms.locfileid: "54590783"
 
 <sup>9</sup> Требуется не менее Exchange Online плана 1. Дополнительные сведения см. в Teams данных чата для пользователей [локальной сети.](/microsoft-365/compliance/search-cloud-based-mailboxes-for-on-premises-users)
 
-<sup>10</sup> Пользователи локальной версии могут Teams свой профиль, даже если Outlook в политике веб-почтовых `SetPhotoEnabled` ящиков имеется в списке `false` .
+<sup>10</sup> Пользователи локальной службы могут Teams свой профиль, даже если Outlook в политике веб-почтовых `SetPhotoEnabled` ящиков имеется в списке `false` .
 
 ## <a name="requirements-to-get-the-most-out-of-microsoft-teams"></a>Требования для эффективного использования Microsoft Teams
 

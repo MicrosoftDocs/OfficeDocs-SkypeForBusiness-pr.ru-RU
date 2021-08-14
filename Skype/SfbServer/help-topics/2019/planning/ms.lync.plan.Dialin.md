@@ -15,20 +15,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c1f79a05-165c-47ec-8593-0bb3d43ee16f
 ROBOTS: NOINDEX, NOFOLLOW
-description: Конференц-связь с телефонным доступом Skype для бизнеса Server позволяет пользователям присоединяться к аудиоконференции Skype для бизнеса Server с помощью телефона телефонной сети общего звонков (PSTN) без необходимости использования стороннее поставщика аудиоконференции.
-ms.openlocfilehash: 3db6869688b2db05fb3d4bca416cb520f1560abd
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Skype для бизнеса Server конференц-связи позволяет пользователям присоединяться к звуковой части конференции Skype для бизнеса Server с помощью телефона с общедоступным переключаемой телефонной сетью (PSTN) без необходимости стороннее поставщика аудиоконференции.
+ms.openlocfilehash: ebf5f5239f48f9362e6092bcaf867da74c513c073ff2215f32f7b594f1abb834
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49801109"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54328574"
 ---
 # <a name="dial-in-conferencing-planning-tool"></a>Dial-in Conferencing (Planning Tool)
  
-Конференц-связь с телефонным доступом Skype для бизнеса Server позволяет пользователям присоединяться к аудиоконференции Skype для бизнеса Server с помощью телефона телефонной сети общего звонков (PSTN) без необходимости использования стороннее поставщика аудиоконференции.
+Skype для бизнеса Server конференц-связи позволяет пользователям присоединяться к звуковой части конференции Skype для бизнеса Server с помощью телефона с общедоступным переключаемой телефонной сетью (PSTN) без необходимости стороннее поставщика аудиоконференции.
   
-Сведения о планировании включения в организации телефонной связи см. в следующих разделах и разделах, на которые он ссылается: 
+Сведения о планировании включения телефонных переговоров для организации см. в следующей теме и темах, на которые она ссылается: 
   
-- [Планирование для работы сконференцией в Skype для бизнеса Server](../../../plan-your-deployment/conferencing/conferencing.md)
+- [Планирование для conferencing в Skype для бизнеса Server](../../../plan-your-deployment/conferencing/conferencing.md)
     
 

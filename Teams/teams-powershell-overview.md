@@ -13,12 +13,12 @@ ms.collection:
 description: Узнайте, как использовать элементы управления PowerShell для управления Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e91a200ee79cb8906b6f9fce210d965ea0f42a8f
-ms.sourcegitcommit: 1b057bfcc3207960b956962845fd5051afe91722
+ms.openlocfilehash: c3a1bb503ca759835f34220aa8a963f162b73f36d879d4cf3e8a6321e6f5775e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/15/2021
-ms.locfileid: "52947561"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54328924"
 ---
 # <a name="microsoft-teams-powershell-overview"></a>Microsoft Teams Обзор PowerShell
 

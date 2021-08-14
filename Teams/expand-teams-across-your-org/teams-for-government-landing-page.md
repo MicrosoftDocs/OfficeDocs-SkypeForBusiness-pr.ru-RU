@@ -14,16 +14,16 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 557c8b5ca5ad4f48a25f20fe717d40635eb53e43dc7e26b29291d37afeb21645
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: c8f0da7d992e0e6da27d3f6a3cf88d012ec29002
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57850134"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58235334"
 ---
 # <a name="teams-for-government"></a>Teams для государственных организаций
 
-Используйте эти ресурсы, чтобы узнать о конкретных соображениях по развертыванию Teams в Microsoft 365 правительственных органов. Когда все будет готово, следуйте тому же рекомендуемом пути развертывания для Teams, как описано в [Microsoft Teams.](../deploy-overview.md)
+Используйте эти ресурсы, чтобы узнать о конкретных соображениях по развертыванию Teams в Microsoft 365 правительственных средах. Когда все будет готово, следуйте тому же рекомендуемом пути развертывания для Teams, как описано в [Microsoft Teams.](../deploy-overview.md)
 
 | &nbsp; |&nbsp; |
 | ------------- | ------------- |
