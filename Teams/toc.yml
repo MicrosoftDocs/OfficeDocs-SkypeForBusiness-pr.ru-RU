@@ -217,6 +217,8 @@ items:
                 href: /SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud
               - name: Перемещение пользователей из локальной среды в Teams
                 href: /SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams
+              - name: Перемещение пользователей из локальной среды в Skype для бизнеса Online
+                href: /SkypeForBusiness/hybrid/move-users-from-on-premises-to-skype-for-business-online
               - name: Перемещение пользователей из облака в локальную среду
                 href: /SkypeForBusiness/hybrid/move-users-from-the-cloud-to-on-premises
               - name: Управление миграцией собраний
@@ -227,16 +229,10 @@ items:
                 href: /SkypeForBusiness/hybrid/decommission-on-prem-overview
               - name: Перемещение пользователей в облако
                 href: /SkypeForBusiness/hybrid/decommission-move-on-prem-users
-              - name: Отключение гибридной среды для завершения миграции в режим "Только Teams"
-                items:
-                  - name: Отключение гибридной среды для завершения миграции в режим "Только Teams"
-                    href: /SkypeForBusiness//hybrid/cloud-consolidation-disabling-hybrid
-                  - name: Обновление записей DNS
-                    ref: /SkypeForBusiness//hybrid/decommission-manage-dns-entries.md
-                  - name: 'Выберите, как управлять атрибутами после списания'
-                    href: /SkypeForBusiness//hybrid/cloud-consolidation-managing-attributes
+              - name: Отключение гибридной среды для завершения миграции в облако
+                href: /SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid
               - name: Перемещение конечных точек приложений в облако
-                href: /SkypeForBusiness/hybrid/decommission-move-on-prem-endpoints
+                href: /SkypeForBusiness/hybrid/decommission-move-on-prem-endpoints.md
               - name: Удаление развертывания Skype® для бизнеса
                 href: /SkypeForBusiness/hybrid/decommission-remove-on-prem
           - name: Развертывание топологии леса ресурсов
@@ -291,8 +287,6 @@ items:
             href: legal-hold.md
           - name: Поиск контента
             href: content-search.md
-          - name: Рабочий процесс Teams в Advanced eDiscovery
-            href: /microsoft-365/compliance/teams-workflow-in-advanced-ediscovery
           - name: Аудит
             href: audit-log-events.md
           - name: Ключ клиента
@@ -303,8 +297,6 @@ items:
             href: teams-privacy.md
           - name: Расположение данных в Teams
             href: location-of-data-in-teams.md
-          - name: Конфиденциальность отзывов о Microsoft Teams
-            href: teams-privacy-feedback.md
           - name: Блокировка доступа к SharePoint Online для определенных пользователей
             href: block-access-sharepoint.md
           - name: Общие сведения об управлении политикой
@@ -453,8 +445,6 @@ items:
                 href: teams-analytics-and-reports/pstn-usage-report.md
               - name: Отчет об использовании трансляций в Teams
                 href: teams-analytics-and-reports/teams-live-event-usage-report.md
-              - name: Отчет лицензии для защиты информации Teams
-                href: teams-analytics-and-reports/information-protection-license-report.md
       - name: 'Файлы журнала, работоспособность служб и поддержка'
         items:
           - name: Использование файлов журнала для мониторинга и устранения неполадок в Teams
@@ -491,8 +481,8 @@ items:
         href: teams-policies.md
       - name: Настройка модерации канала в Teams
         href: manage-channel-moderation-in-teams.md
-      - name: Управление интерактивными компонентами
-        href: live-components-in-teams.md
+      - name: Общий доступ к файлам в Teams
+        href: sharing-files-in-teams.md
       - name: Teams и интеграция электронной почты Outlook
         href: teams-outlook-email-integration.md
       - name: Поделиться в Teams из Outlook
@@ -567,16 +557,14 @@ items:
         href: cortana-in-teams.md
       - name: Настройка иерархии целей для команды
         href: set-up-your-team-hierarchy.md
-      - name: 'Контролируемый чат для клиентов, не связанных с образованием'
-        href: supervised-chat-non-edu.md
-  - name: Собрания и аудиоконференции
+  - name: 'Собрания, телеконференции и трансляция мероприятий в реальном времени'
     items:
+      - name: Краткое руководство — собрания и трансляции
+        href: quick-start-meetings-live-events.md
       - name: Планирование развертывания
         href: deploy-meetings-microsoft-teams-landing-page.md
-      - name: 'Собрания, вебинары и трансляции'
+      - name: Собрания
         items:
-          - name: Краткое руководство
-            href: quick-start-meetings-live-events.md
           - name: Управление политиками собраний
             items:
               - name: Обзор
@@ -597,64 +585,46 @@ items:
                     href: meeting-policies-participants-and-guests.md
                   - name: Удаление политики собраний RestrictedAnonymousAccess для пользователей
                     href: meeting-policies-restricted-anonymous-access.md
-          - name: Политики собраний и окончание срока действия собрания
-            href: meeting-expiration.md
           - name: Управление параметрами собраний
             href: meeting-settings-in-teams.md
           - name: 'Электронные письма, отправляемые пользователям при изменении параметров'
             href: emails-sent-to-users-when-their-settings-change-in-teams.md
-          - name: Управление собраниями и функции собраний
-            items:
-              - name: Разрешение пользователям записывать свои имена при присоединении к собранию
-                href: enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md
-              - name: Включение и отключение объявлений о входе и выходе в собраниях
-                href: turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md
-              - name: Использование технологии NDI® в Teams
-                href: use-NDI-in-meetings.md
-              - name: Собрания Teams в неподдерживаемых браузерах
-                href: unsupported-browsers.md
-              - name: Настройка совместного доступа к рабочему столу в Teams
-                href: configure-desktop-sharing.md
-              - name: Запись облачного собрания в Teams
-                href: cloud-recording.md
-              - name: Использование OneDrive для бизнеса и SharePoint или Stream для записи собраний
-                href: tmr-meeting-recording-change.md
-              - name: Интеграция центра контактов
-                href: teams-contact-center.md
-              - name: Использование надстройки "Собрание Teams" в Outlook
-                href: teams-add-in-for-outlook.md
-              - name: Настройка приложения "Собрания Skype" для работы с Teams
-                href: configure-skype-meetings-app-to-work-with-teams.md
-              - name: Настройка функции "Позвонить мне" для пользователей
-                href: set-up-the-call-me-feature-for-your-users.md
-              - name: Получение отчета о присутствии на собрании
-                href: teams-analytics-and-reports/meeting-attendance-report.md
-              - name: Управление Доской в Teams
-                href: manage-whiteboard.md
-              - name: Настройка надстройки "Собрание Teams" для рабочей области Google
-                href: google-workspace-addon-teams.md
-              - name: Облако видеовзаимодействия
-                href: cloud-video-interop.md
-              - name: Режим собраний только для просмотра
-                href: view-only-meeting-experience.md
+          - name: Разрешение пользователям записывать свои имена при присоединении к собранию
+            href: enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md
+          - name: Включение и отключение объявлений о входе и выходе в собраниях
+            href: turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md
+          - name: Использование технологии NDI® в Teams
+            href: use-NDI-in-meetings.md
+          - name: Функция «поднимите руку» на собраниях Teams
+            href: raise-hand-meetings.md
+          - name: Собрания Teams в неподдерживаемых браузерах
+            href: unsupported-browsers.md
+          - name: Настройка совместного доступа к рабочему столу в Teams
+            href: configure-desktop-sharing.md
+          - name: Запись облачного собрания в Teams
+            href: cloud-recording.md
+          - name: Использование OneDrive для бизнеса и SharePoint или Stream для записи собраний
+            href: tmr-meeting-recording-change.md
+          - name: Интеграция центра контактов
+            href: teams-contact-center.md
+          - name: Использование надстройки "Собрание Teams" в Outlook
+            href: teams-add-in-for-outlook.md
+          - name: Настройка приложения "Собрания Skype" для работы с Teams
+            href: configure-skype-meetings-app-to-work-with-teams.md
+          - name: Настройка функции "Позвонить мне" для пользователей
+            href: set-up-the-call-me-feature-for-your-users.md
+          - name: Получение отчета о присутствии на собрании
+            href: teams-analytics-and-reports/meeting-attendance-report.md
           - name: Настройка службы переноса собраний (MMS)
             href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
+          - name: Управление Доской в Teams
+            href: manage-whiteboard.md
+          - name: Настройка надстройки "Собрание Teams" для рабочей области Google
+            href: google-workspace-addon-teams.md
+          - name: Облако видеовзаимодействия
+            href: cloud-video-interop.md
           - name: Подготовка к вебинарам в Microsoft Teams
             href: set-up-webinars.md
-          - name: Трансляции
-            items:
-              - name: Что такое прямые трансляции Teams?
-                href: teams-live-events/what-are-teams-live-events.md
-              - name: Планирование прямых трансляций Teams
-                href: teams-live-events/plan-for-teams-live-events.md
-              - name: Настройка прямых трансляций Teams
-                href: teams-live-events/set-up-for-teams-live-events.md
-              - name: Настройка политик трансляции Teams с помощью PowerShell
-                href: teams-live-events/set-teams-live-events-policies-using-powershell.md
-              - name: Настройка параметров прямых трансляций Teams
-                href: teams-live-events/configure-teams-live-events.md
-              - name: Политики записи трансляций
-                href: teams-live-events/live-events-recording-policies.md
       - name: Аудиоконференции
         items:
           - name: Планирование развертывания
@@ -745,6 +715,20 @@ items:
                 href: audio-conferencing-zones.md
               - name: Видео- и аудиоконференции в Teams
                 href: ./audio-conferencing-in-office-365.md
+      - name: Трансляции
+        items:
+          - name: Что такое прямые трансляции Teams?
+            href: teams-live-events/what-are-teams-live-events.md
+          - name: Планирование прямых трансляций Teams
+            href: teams-live-events/plan-for-teams-live-events.md
+          - name: Настройка прямых трансляций Teams
+            href: teams-live-events/set-up-for-teams-live-events.md
+          - name: Настройка политик трансляции Teams с помощью PowerShell
+            href: teams-live-events/set-teams-live-events-policies-using-powershell.md
+          - name: Настройка параметров прямых трансляций Teams
+            href: teams-live-events/configure-teams-live-events.md
+          - name: Политики записи трансляций
+            href: teams-live-events/live-events-recording-policies.md
       - name: Комнаты Microsoft Teams
         items:
           - name: Обзор
@@ -809,15 +793,13 @@ items:
                 href: rooms/lrs-migration.md
               - name: Камеры содержимого
                 href: rooms/content-camera.md
-              - name: Элементы управления распознаванием голоса для интеллектуальных динамиков
-                href: rooms/voice-recognition.md
           - name: Управление
             items:
               - name: Обзор управления
                 href: rooms/rooms-manage.md
               - name: Обслуживание и эксплуатация
                 href: rooms/rooms-operations.md
-              - name: Известные проблемы
+              - name: Поддержка Teams в организации
                 href: rooms/known-issues.md
               - name: Устройства с Azure Monitor
                 href: rooms/azure-monitor-manage.md
@@ -829,6 +811,8 @@ items:
     items:
       - name: Планирование голосового решения в Teams
         href: cloud-voice-landing-page.md
+      - name: Управление политиками голосовой связи и звонков в Teams
+        href: voice-and-calling-policies.md
       - name: Телефонная система
         items:
           - name: Что такое телефонная система?
@@ -843,8 +827,6 @@ items:
             items:
               - name: Настройка облачной голосовой почты
                 href: set-up-phone-system-voicemail.md
-              - name: Управление политиками голосовой почты
-                href: manage-voicemail-policies.md
               - name: Изменение языка по умолчанию для голосовой почты
                 href: change-the-default-language-for-greetings-and-emails.md
               - name: Языки для приветствий и сообщений голосовой почты
@@ -889,102 +871,100 @@ items:
             href: shared-line-appearance.md
           - name: Настройка панели набора номера
             href: dial-pad-configuration.md
-      - name: Варианты подключения ТСОП
+      - name: Планы звонков
+        items:
+          - name: Какой план звонков подходит вам?
+            href: calling-plan-landing-page.md
+          - name: Как купить план звонков
+            href: calling-plans-for-office-365.md
+          - name: Настройка планов звонков для организации
+            href: set-up-calling-plans.md
+          - name: Краткое руководство по началу работы. Настройка планов звонков
+            href: configuring-teams-calling-quickstartguide.md
+          - name: Доступность планов звонков в различных странах и регионах
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
+      - name: Прямая маршрутизация телефонной системы
         items:
           - name: Обзор
-            href: pstn-connectivity.md
-          - name: Планы звонков
-            items:
-              - name: Какой план звонков подходит вам?
-                href: calling-plan-landing-page.md
-              - name: Настройка планов звонков для организации
-                href: set-up-calling-plans.md
-              - name: Краткое руководство по началу работы. Настройка планов звонков
-                href: configuring-teams-calling-quickstartguide.md
-              - name: Доступность планов звонков в различных странах и регионах
-                href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
-          - name: Operator Connect
-            items:
-              - name: План для Operator Connect
-                href: operator-connect-plan.md
-              - name: Настройка Operator Connect
-                href: operator-connect-configure.md
-          - name: Прямая маршрутизация
+            href: direct-routing-landing-page.md
+          - name: Планирование прямой маршрутизации
+            href: direct-routing-plan.md
+          - name: 'Список пограничных контроллеров сеансов, сертифицированных для прямой маршрутизации'
+            href: direct-routing-border-controllers.md
+          - name: Настройка прямой маршрутизации
             items:
               - name: Обзор
-                href: direct-routing-landing-page.md
-              - name: Планирование прямой маршрутизации
-                href: direct-routing-plan.md
-              - name: 'Список пограничных контроллеров сеансов, сертифицированных для прямой маршрутизации'
-                href: direct-routing-border-controllers.md
-              - name: Настройка прямой маршрутизации
+                href: direct-routing-configure.md
+              - name: Шаг 1. Подключение SBC
+                href: direct-routing-connect-the-sbc.md
+              - name: Шаг 2. Включение пользователей
+                href: direct-routing-enable-users.md
+              - name: Шаг 3. Настройка маршрутизации голосовых вызовов
+                href: direct-routing-voice-routing.md
+              - name: Шаг 4. Перевод телефонных номеров
+                href: direct-routing-translate-numbers.md
+              - name: Настройка SBC для нескольких клиентов
+                href: direct-routing-sbc-multiple-tenants.md
+              - name: Использование аналоговых устройств при прямой маршрутизации
+                href: direct-routing-analog-devices.md
+          - name: Маршрутизация на основе расположения
+            items:
+              - name: Планирование маршрутизации на основе расположения для прямой маршрутизации
+                href: location-based-routing-plan.md
+              - name: Настройка параметров сети для маршрутизации на основе расположения
+                href: location-based-routing-configure-network-settings.md
+              - name: Включение функции "Маршрутизация на основе расположения" для прямой маршрутизации
+                href: location-based-routing-enable.md
+          - name: Обход сервера-посредника для прямой маршрутизации
+            items:
+              - name: Планирование обхода сервера-посредника с прямой маршрутизацией
+                href: direct-routing-plan-media-bypass.md
+              - name: Настройка обхода сервера-посредника с прямой маршрутизацией
+                href: direct-routing-configure-media-bypass.md
+          - name: Оптимизация локальных файлов мультимедиа для прямой маршрутизации
+            items:
+              - name: Планирование оптимизации локальных файлов мультимедиа
+                href: direct-routing-media-optimization.md
+              - name: Настройка оптимизации локальных файлов мультимедиа
+                href: direct-routing-media-optimization-configure.md
+          - name: Учетные записи пользователей в гибридной среде со связью с ТСОП
+            href: direct-routing-user-accounts-in-a-hybrid-environment.md
+          - name: Переход на прямую маршрутизацию
+            href: direct-routing-migrating.md
+          - name: Отслеживание и устранение неполадок прямой маршрутизации
+            items:
+              - name: Обзор
+                href: direct-routing-monitor-and-troubleshoot.md
+              - name: Панель мониторинга работоспособности
+                href: direct-routing-health-dashboard.md
+          - name: Техническая справка по прямой маршрутизации
+            items:
+              - name: Отработка отказа канала связи при исходящих звонках
+                href: direct-routing-trunk-failover-on-outbound-call.md
+              - name: Коды стран для путей к носителям
+                href: direct-routing-country-codes.md
+              - name: Скрипт PowerShell для проверки подключений пограничного контроллера сеансов
+                href: sip-tester-powershell-script.md
+              - name: Управление уведомлениями о звонках
+                href: direct-routing-call-notifications.md
+              - name: Протоколы
                 items:
-                  - name: Обзор
-                    href: direct-routing-configure.md
-                  - name: Шаг 1. Подключение SBC
-                    href: direct-routing-connect-the-sbc.md
-                  - name: Шаг 2. Включение пользователей
-                    href: direct-routing-enable-users.md
-                  - name: Шаг 3. Настройка маршрутизации голосовых вызовов
-                    href: direct-routing-voice-routing.md
-                  - name: Шаг 4. Перевод телефонных номеров
-                    href: direct-routing-translate-numbers.md
-                  - name: Настройка SBC для нескольких клиентов
-                    href: direct-routing-sbc-multiple-tenants.md
-                  - name: Использование аналоговых устройств при прямой маршрутизации
-                    href: direct-routing-analog-devices.md
-                  - name: Управление политиками маршрутизации голосовой связи
-                    href: manage-voice-routing-policies.md
-                  - name: Управление уведомлениями о звонках
-                    href: direct-routing-call-notifications.md
-              - name: Маршрутизация на основе расположения
-                items:
-                  - name: Планирование маршрутизации на основе расположения для прямой маршрутизации
-                    href: location-based-routing-plan.md
-                  - name: Настройка параметров сети для маршрутизации на основе расположения
-                    href: location-based-routing-configure-network-settings.md
-                  - name: Включение функции "Маршрутизация на основе расположения" для прямой маршрутизации
-                    href: location-based-routing-enable.md
-              - name: Обход сервера-посредника для прямой маршрутизации
-                items:
-                  - name: Планирование обхода сервера-посредника с прямой маршрутизацией
-                    href: direct-routing-plan-media-bypass.md
-                  - name: Настройка обхода сервера-посредника с прямой маршрутизацией
-                    href: direct-routing-configure-media-bypass.md
-              - name: Оптимизация локальных файлов мультимедиа для прямой маршрутизации
-                items:
-                  - name: Планирование оптимизации локальных файлов мультимедиа
-                    href: direct-routing-media-optimization.md
-                  - name: Настройка оптимизации локальных файлов мультимедиа
-                    href: direct-routing-media-optimization-configure.md
-              - name: Учетные записи пользователей в гибридной среде со связью с ТСОП
-                href: direct-routing-user-accounts-in-a-hybrid-environment.md
-              - name: Переход на прямую маршрутизацию
-                href: direct-routing-migrating.md
-              - name: Отслеживание и устранение неполадок прямой маршрутизации
-                items:
-                  - name: Обзор
-                    href: direct-routing-monitor-and-troubleshoot.md
-                  - name: Панель мониторинга работоспособности
-                    href: direct-routing-health-dashboard.md
-              - name: Техническая справка по прямой маршрутизации
-                items:
-                  - name: Отработка отказа канала связи при исходящих звонках
-                    href: direct-routing-trunk-failover-on-outbound-call.md
-                  - name: Коды стран для путей к носителям
-                    href: direct-routing-country-codes.md
-                  - name: Скрипт PowerShell для проверки подключений пограничного контроллера сеансов
-                    href: sip-tester-powershell-script.md
-                  - name: Протоколы
-                    items:
-                      - name: Определения и стандарты RFC
-                        href: direct-routing-protocols.md
-                      - name: Протокол SIP
-                        href: direct-routing-protocols-SIP.md
-                      - name: Протоколы мультимедиа
-                        href: direct-routing-protocols-media.md
-                  - name: Прямая маршрутизация для устройства обеспечения связи в филиалах
-                    href: direct-routing-survivable-branch-appliance.md
+                  - name: Определения и стандарты RFC
+                    href: direct-routing-protocols.md
+                  - name: Протокол SIP
+                    href: direct-routing-protocols-SIP.md
+                  - name: Протоколы мультимедиа
+                    href: direct-routing-protocols-media.md
+              - name: Управление политиками маршрутизации голосовой связи
+                href: manage-voice-routing-policies.md
+              - name: Прямая маршрутизация для устройства обеспечения связи в филиалах
+                href: direct-routing-survivable-branch-appliance.md
+      - name: Operator Connect
+        items:
+          - name: План для Operator Connect
+            href: operator-connect-plan.md
+          - name: Настройка Operator Connect
+            href: operator-connect-configure.md
       - name: Номера телефонов
         items:
           - name: Управление номерами телефонов для организации
@@ -1049,10 +1029,8 @@ items:
                 href: emergency-calling-labels.md
           - name: Управление политиками экстренных вызовов
             href: manage-emergency-calling-policies.md
-          - name: Управление политиками маршрутизации экстренных вызовов для прямой маршрутизации
+          - name: Управление политиками маршрутизации экстренных вызовов
             href: manage-emergency-call-routing-policies.md
-      - name: Управление политиками голосовой связи и звонков в Teams
-        href: voice-and-calling-policies.md
       - name: Пример перехода на Contoso Voice
         items:
           - name: Обзор
@@ -1420,8 +1398,6 @@ items:
             items:
               - name: Виртуальные визиты с помощью Teams — интеграция с электронными медицинскими картами
                 href: expand-teams-across-your-org/healthcare/ehr-admin.md
-              - name: Отчеты администратора электронных медицинских карт
-                href: expand-teams-across-your-org/healthcare/ehr-admin-reports.md
               - name: Виртуальные визиты с помощью Bookings и Teams
                 href: bookings-app-admin.md
           - name: Просмотр и назначение пакетов политик
@@ -1467,22 +1443,18 @@ items:
             href: career-coach.md
           - name: Контроль чатов в Teams
             href: supervise-chats-edu.md
-          - name: Insights для образования
+          - name: Аналитика образования
             items:
-              - name: Начало работы с Insights
+              - name: Начало работы с Аналитикой
                 href: class-insights.md
-              - name: Синхронизация данных SIS с помощью Insights
+              - name: Синхронизация данных SIS с помощью Аналитики
                 href: education-insights-sis-data-sync.md
-              - name: Управление доступом пользователей к Insights
-                href: education-insights-manage-access.md
               - name: Начало работы с Reflect
                 href: reflect.md
           - name: Задания в Teams для образования
             href: expand-teams-across-your-org/assignments-in-teams.md
           - name: Ресурсы Teams для образования (администраторы)
             href: resources-teams-edu.md
-          - name: Microsoft Teams для образования
-            href: devices-for-education.md
           - name: 'Управление решениями Майкрософт для образования: вопросы и ответы для администраторов'
             href: plan-teams-governance-edu.md
           - name: Установка интеграции Moodle
@@ -1493,13 +1465,13 @@ items:
             href: sku-reference-edu.md
       - name: Teams для сотрудников без компьютеров
         items:
-          - name: Краткое руководство по началу работу для сотрудников без компьютеров
+          - name: Краткое руководство для сотрудников без компьютеров
             href: flw-quickstart.yml
           - name: Развертывание с помощью скрипта для сотрудников без компьютеров
             href: flw-scripted-deployment.md
           - name: Управление доступом на основе смен для сотрудников без компьютеров
             href: expand-teams-across-your-org/shifts/manage-shift-based-access-flw.md
-          - name: RealWear для Teams
+          - name: RealWear для Microsoft Teams
             href: flw-realwear.md
           - name: Walkie Talkie
             href: walkie-talkie.md
@@ -1511,7 +1483,7 @@ items:
       - name: Teams для государственных организаций
         href: expand-teams-across-your-org/teams-for-government-landing-page.md
         items:
-          - name: Поддержка удаленных сотрудников (работа из дома)
+          - name: Поддержка удаленных сотрудников (WFH)
             href: expand-teams-across-your-org/GOV-support-remote-work-with-teams.md
           - name: Начало работы с шаблонами Teams для государственных организаций
             href: government-teams-templates-in-the-admin-console.md
@@ -1545,8 +1517,6 @@ items:
             href: g1-trial-license.md
           - name: Управление предложением Teams Exploratory
             href: teams-exploratory.md
-          - name: Повышение статуса Teams Exploratory для пользователей
-            href: upgrade-from-teams-exploratory.md
           - name: Управление бесплатной версией Teams
             href: manage-freemium.md
           - name: Перевод бесплатной версии Teams на версию по подписке
@@ -1574,6 +1544,8 @@ items:
                 href: /microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365
           - name: Взаимодействие SharePoint Online и OneDrive для бизнеса с Teams
             href: sharepoint-onedrive-interact.md
+          - name: Взаимодействие с Teams в клиенте Microsoft 365 или Office 365 с поддержкой нескольких регионов
+            href: teams-experience-o365odb-spo-multi-geo.md
       - name: Поддерживаемые устройства
         items:
           - name: Управление устройствами в Teams
@@ -1589,23 +1561,17 @@ items:
           - name: Дисплеи Teams
             href: devices/teams-displays.md
           - name: Панели Teams
-            items:
-              - name: Панели Teams
-                href: devices/teams-panels.md
-              - name: Использование панелей Teams
-                href: devices/use-teams-panels.md
-              - name: Поддержка приложений на панелях Teams
-                href: app-support-on-Teams-panels.md
+            href: devices/teams-panels.md
+          - name: Использование панелей Teams
+            href: devices/use-teams-panels.md
           - name: Обновление телефонов Teams до дисплеев Teams
             href: devices/upgrade-phones-to-displays.md
           - name: Развертывание телефонов Teams и дисплеев Teams с помощью Intune
             href: devices/phones-displays-deploy.md
           - name: USB-устройства для аудио и видео
             href: devices/usb-devices.md
-          - name: Развертывание Комнат Microsoft Teams на Android
+          - name: Развертывание панелей совместной работы в Microsoft Teams
             href: devices/collab-bar-deploy.md
-          - name: Настройка пользовательского интерфейса для устройств с Android в Microsoft Teams
-            href: devices/Teams-Android-devices-user-interface.md
           - name: Комнатные устройства и решения для проведения собраний
             href: /skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
           - name: Сертифицированные устройства Teams
@@ -1877,4 +1843,4 @@ items:
       - name: Обновление анкеты для обнаружения
         href: upgrade-plan-journey-discovery-questionnaire.md
       - name: Заметки о выпуске для функций администрирования Teams
-        href: /OfficeUpdates/teams-admin
+        href: release-notes/release-notes.md
