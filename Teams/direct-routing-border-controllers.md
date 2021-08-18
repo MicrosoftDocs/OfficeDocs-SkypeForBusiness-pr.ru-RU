@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Администратор может узнать, какие пограничные контроллеры сеансов (SCS) были сертифицированы для прямой маршрутизации.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8b11452ea6de7df7711bd248cd07717d3f59d003
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 1a672bb436b24e49391ec637c40597611764ef6fd6a301af1128976c044a90bd
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58235374"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54284220"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Список пограничных контроллеров сеансов, сертифицированных для прямой маршрутизации
 
@@ -73,7 +73,7 @@ ms.locfileid: "58235374"
 |                                                                                                                   |      AP 6350           |    &#10004;   |    &#10004;    |     8.3.0.0.1  |   &#10004;   |  &#10004;  |
 |                                                                                                                    |      VME           |    &#10004;    |    &#10004;    |     8.3.0.0.1   |   &#10004;   |  &#10004;  |
 |                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      Поддерживается 3.20 (рекомендуется 4.0)        |  &#10004;    |  &#10004;   |
-|                     [Metaswitch](https://www.metaswitch.com/products/core-network/perimeta-sbc)                               |     Perimeta SBC        |     &#10004;   | &#10004; |      4.7 (4.9 для обхода сервера-посредника)      | &#10004; | &#10004; |  
+|                     [Metaswitch](https://www.metaswitch.com/products/core-network/perimeta-sbc)                               |     Perimeta SBC        |     &#10004;   | &#10004; |      4.7 (4.9 для обхода сервера-посредника)      |     |    |  
 |                     [Cisco](https://www.cisco.com/c/en/us/solutions/enterprise/interoperability-portal/networking_solutions_products_genericcontent0900aecd805bd13d.html)                               |     Cisco Unified Border Element (CUBE) для маршрутизаторов интегрированных служб серии 1000        |     &#10004;   | &#10004; |      Поддерживается IOS XE Amsterdam 17.2.1r (рекомендуется 17.3.2)         |    &#10004;     |   |  
 |                                   |     Cisco Unified Border Element (CUBE) для маршрутизаторов интегрированных служб серии 4000        |     &#10004;   | &#10004; |   Поддерживается IOS XE Amsterdam 17.2.1r (рекомендуется 17.3.2)         |   &#10004;      |    |  
 |                                   |     Cisco Unified Border Element (CUBE) для маршрутизатора облачных служб серии 1000V       |     &#10004;   | &#10004; |      Поддерживается IOS XE Amsterdam 17.2.1r (рекомендуется 17.3.2)         |    &#10004;     |    |  
@@ -91,8 +91,8 @@ ms.locfileid: "58235374"
 |                     [Сети Enghouse](https://www.enghousenetworks.com/portfolio/network-infrastructure/cloud-native-session-border-controller-sbc/)|    Пограничный контроллер сеансов Dialogic BorderNet   |     &#10004;     |     &#10004;     |      3.9.0-786      |     |    |
 |                     [Patton Electronics Co.](https://www.patton.com/microsoft/)|    Patton SmartNode eSBC   |     &#10004;     |         |      3.19.x      |     |    |
 |                     [M5 Technologies (прежнее название — Media5 Corporation)](https://www.m5t.com/solutions/sentinel-sbc-ms-teams-certified/)|    Серия Mediatrix Sentinel   |     &#10004;     |         |      DGW 48.0.2340 (рекомендуется DGW 48.1.2503)      |     |    |
-|                     [Ekinops](https://www.ekinops.com/solutions/voice-data-access/microsoft-direct-routing-sbc)|    Пограничный контроллер сеанса Ekinops (ONeSBC)   |     &#10004;     |     &#10004;     |      6.6.1m5ha1      |     |    |
-|                     |    Виртуальный пограничный контроллер сеанса Ekinops (ONEvSBC)   |     &#10004;     |    &#10004;      |      6.6.1m5ha1      |     |    |
+|                     [Ekinops](https://www.ekinops.com/solutions/voice-data-access/microsoft-direct-routing-sbc)|    Ekinops Session Border Controller (ONeSBC)   |     &#10004;     |     &#10004;     |      6.6.1m5ha1      |     |    |
+|                     |    Ekinops Virtual Session Border Controller (ONEvSBC)   |     &#10004;     |    &#10004;      |      6.6.1m5ha1      |     |    |
 |                     [46 Labs LLC](https://46labs.com/docs/hcvoice/teams/)|    Hyperconverged Voice   |     &#10004;     |     &#10004;      |      HCVoice 1.0.6       |     |    |
 
 <br/>
