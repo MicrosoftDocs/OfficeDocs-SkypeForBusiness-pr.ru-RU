@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: Инструкции по выводу из эксплуатации Skype для бизнеса Server.
-ms.openlocfilehash: d3da949cf5838f73e1818b87e51f7d524389fffcafc640d7754176eab1bd7473
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: fd2ba8543745760e900e52c2c1f9b3c3f65b0e70
+ms.sourcegitcommit: b17e5acadcca0261eaccc64e1b4ee457348f975c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54312267"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58365626"
 ---
 # <a name="remove-your-on-premises-skype-for-business-deployment"></a>Удаление локального развертывания Skype для бизнеса
 
@@ -65,6 +65,7 @@ ms.locfileid: "54312267"
    Get-CsPersistentChatEndpoint
    Get-CsAudioTestServiceApplication
    Get-CsCallParkOrbit
+   Get-CsUnassignedNumber
    ```
 2. Просмотрите списки выходных данных из списков в шаге 1. Затем, если объекты можно удалить, запустите следующие Skype для бизнеса Server PowerShell:
 
@@ -80,6 +81,7 @@ ms.locfileid: "54312267"
    Get-CsPersistentChatEndpoint |  Remove-CsPersistentChatEndpoint
    Get-CsCallParkOrbit | Remove-CsCallParkOrbit -Force
    Get-CsVoiceRoute | Remove-CsVoiceRoute -Force
+   Get-CsUnassignedNumber | Remove-CsUnassignedNumber -Force
    ```
 ## <a name="remove-your-on-premises-skype-for-business-deployment"></a>Удаление локального развертывания Skype для бизнеса
 

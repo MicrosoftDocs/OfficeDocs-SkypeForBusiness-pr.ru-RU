@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: В этой статье описывается управление атрибутами после вывода из эксплуатации локальной среды.
-ms.openlocfilehash: 7a2e1f7337462b948d28d85582460d924941d9ce139a6c026553d44a9cbcd7c7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5f130cce4a464a2e7a7c1823d6b3d297931d02ab
+ms.sourcegitcommit: b17e5acadcca0261eaccc64e1b4ee457348f975c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54315190"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58365816"
 ---
 # <a name="decide-how-to-manage-attributes-after-decommissioning"></a>Выберите, как управлять атрибутами после списания
 
@@ -72,7 +72,7 @@ ms.locfileid: "54315190"
 > Этот процесс прост для пользователей, у которых есть совпадающий sip-адрес и UserPrincipalName. Для организаций, у пользователей с не совпадающих значений между этими двумя атрибутами, необходимо принять дополнительные меры, как отмечено ниже, для плавного перехода.
 
 > [!NOTE]
-> Если вы настроили конечные точки гибридного приложения для автоспутников или очередей вызовов, не забудьте переместить эти конечные точки в Microsoft 365 до вывода из эксплуатации Skype для бизнеса Server.
+> Если вы настроили конечные точки гибридного приложения для автоспутников или очередей вызовов, не забудьте переместить эти конечные точки в Microsoft 365 до вывода из эксплуатации Skype для бизнеса Server. Подробнее см. в [материале Migrate hybrid application endpoints before decommissioning your on-premises environment.](decommission-move-on-prem-endpoints.md)  
 
 
 1. Подтверждение следующего локального Skype для бизнеса PowerShell возвращает пустой результат. Пустой результат означает, что пользователи не находятся в локальном помещении и не были перемещены в Microsoft 365 или отключены:

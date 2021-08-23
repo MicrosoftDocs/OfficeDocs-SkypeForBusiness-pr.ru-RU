@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Обзор использования средств телеметрии Skype для бизнеса Online для мониторинга локальной реализации в гибридном сценарии.
-ms.openlocfilehash: 803c8051087eff5c2101ce554bda948c829402c56f874a2a7c823be2ba323d67
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a0288f07c942f003cfece5aceaddf4139af84569
+ms.sourcegitcommit: 9fcd9a7ae78e04cef90415c2a0f30a98fbf8270f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54318074"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58407178"
 ---
 # <a name="plan-call-data-connector"></a>Планирование соединителя данных звонка
 
@@ -40,7 +40,7 @@ ms.locfileid: "54318074"
 
 В соединителе данных вызовов Skype для бизнеса Server выдвигает данные вызовов в облачную службу, чтобы вы могли использовать средства Skype для бизнеса Online Call Analytics (CA) и Панель мониторинга качества вызовов (CQD), как показано на следующей схеме:
 
-![SfB облачная голосовая почта](../../sfbserver2019/media/call-data-connector-plan-1.png)
+![Схема SfB облачная голосовая почта.](../../sfbserver2019/media/call-data-connector-plan-1.png)
 
 Сервер отодвигает данные о качестве работы (QoE) и сведениях о детализации вызовов (CDR) в онлайн-службу.
 
@@ -50,7 +50,7 @@ ms.locfileid: "54318074"
 
 - Панель мониторинга качества вызовов фокусируется на производительности сети и проблемах в организации. Skype для бизнеса и сетевые инженеры используют этот инструмент для устранения неполадок и оптимизации производительности сети.
 
-Дополнительные сведения см. в [сводке Call Analytics и Панели мониторинга качества вызовов.](/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard)
+Дополнительные сведения см. в диаграмме Call Analytics и Панель мониторинга качества вызовов [с сведениями о сервере мониторинга.](/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard).
 
 Конечно, может потребоваться сохранить некоторые данные о качестве вызовов в помещениях. Это может быть, например, если вы используете сторонное решение с настраиваемыми отчетами и рабочий процесс.  Соединителю данных вызовов позволяет настроить отправку данных в онлайн-службу, а также сохранить копию данных на локальном сервере, как показано на следующей схеме:
 

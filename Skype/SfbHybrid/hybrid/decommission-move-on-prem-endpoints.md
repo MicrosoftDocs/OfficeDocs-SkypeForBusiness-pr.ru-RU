@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: Миграция конечных точек приложения с гидравлией до вывода из эксплуатации Skype для бизнеса локальной среды.
-ms.openlocfilehash: e06411bfdbd5b74c2b9663ad1eb0441cfc0e2a42411b6bbc8e2c24700dee4993
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f655c232e8502e6309f57ce88af6ca0eebce9a43
+ms.sourcegitcommit: 9fcd9a7ae78e04cef90415c2a0f30a98fbf8270f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54312287"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58406978"
 ---
 # <a name="migrate-hybrid-application-endpoints-before-decommissioning-your-on-premises-environment"></a>Перенос конечных точек гибридного приложения перед выводом из эксплуатации локальной среды
 
@@ -32,7 +32,7 @@ ms.locfileid: "54312287"
 
 - Этап 1. [Перемещение всех необходимых пользователей из локальной сети в интернет](decommission-move-on-prem-users.md)
 
-- Этап 2. [Отключите гибридную конфигурацию.](cloud-consolidation-disabling-hybrid.md)
+- Шаг 2. [Отключите гибридную конфигурацию.](cloud-consolidation-disabling-hybrid.md)
 
 - **Шаг 3. Перенос конечных точек гибридного приложения из локального в онлайн.** (В этой статье)
 
@@ -72,7 +72,7 @@ ms.locfileid: "54312287"
    }
    ```
 
-6. Назначение номеров телефонов новым учетным записям ресурсов, созданным в шаге 2. Дополнительные сведения о назначении номера телефона учетной записи ресурса см. в следующей статье: [Назначение номера службы.](/microsoftteams/manage-resource-accounts#assign-a-service-number)
+6. Назначение номеров телефонов новым учетным записям ресурсов, созданным в шаге 2. Дополнительные сведения о назначении номера телефона учетной записи ресурса см. в следующей статье: [Назначение номера службы.](/microsoftteams/manage-resource-accounts)
 
 7. Удалите конечные точки на месте, исполнив следующую команду Skype для бизнеса Server PowerShell:
 

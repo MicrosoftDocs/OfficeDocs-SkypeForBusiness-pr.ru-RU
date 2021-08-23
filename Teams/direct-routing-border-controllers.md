@@ -16,16 +16,16 @@ appliesto:
 hideEdit: true
 f1.keywords:
 - NOCSH
-description: Администратор может узнать, какие пограничные контроллеры сеансов (SCS) были сертифицированы для прямой маршрутизации.
+description: Узнайте, какие пограничные контроллеры сеансов (SCS) были сертифицированы для прямой маршрутизации.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1a672bb436b24e49391ec637c40597611764ef6fd6a301af1128976c044a90bd
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 15345077914ae36abe18a0ec760c0506ce132f73
+ms.sourcegitcommit: b17e5acadcca0261eaccc64e1b4ee457348f975c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54284220"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58365796"
 ---
-# <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Список пограничных контроллеров сеансов, сертифицированных для прямой маршрутизации
+# <a name="session-border-controllers-certified-for-direct-routing"></a>Пограничные контроллеры сеансов, сертифицированные для прямой маршрутизации
 
 Корпорация Майкрософт сотрудничает с рядом поставщиков пограничных контроллеров сеансов (SBC) и сертифицирует их контроллеры для работы с прямой маршрутизацией
 
@@ -73,7 +73,7 @@ ms.locfileid: "54284220"
 |                                                                                                                   |      AP 6350           |    &#10004;   |    &#10004;    |     8.3.0.0.1  |   &#10004;   |  &#10004;  |
 |                                                                                                                    |      VME           |    &#10004;    |    &#10004;    |     8.3.0.0.1   |   &#10004;   |  &#10004;  |
 |                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      Поддерживается 3.20 (рекомендуется 4.0)        |  &#10004;    |  &#10004;   |
-|                     [Metaswitch](https://www.metaswitch.com/products/core-network/perimeta-sbc)                               |     Perimeta SBC        |     &#10004;   | &#10004; |      4.7 (4.9 для обхода сервера-посредника)      |     |    |  
+|                     [Metaswitch](https://www.metaswitch.com/products/core-network/perimeta-sbc)                               |     Perimeta SBC        |     &#10004;   | &#10004; |      4.7 (4.9 для обхода сервера-посредника)      | &#10004; | &#10004; |  
 |                     [Cisco](https://www.cisco.com/c/en/us/solutions/enterprise/interoperability-portal/networking_solutions_products_genericcontent0900aecd805bd13d.html)                               |     Cisco Unified Border Element (CUBE) для маршрутизаторов интегрированных служб серии 1000        |     &#10004;   | &#10004; |      Поддерживается IOS XE Amsterdam 17.2.1r (рекомендуется 17.3.2)         |    &#10004;     |   |  
 |                                   |     Cisco Unified Border Element (CUBE) для маршрутизаторов интегрированных служб серии 4000        |     &#10004;   | &#10004; |   Поддерживается IOS XE Amsterdam 17.2.1r (рекомендуется 17.3.2)         |   &#10004;      |    |  
 |                                   |     Cisco Unified Border Element (CUBE) для маршрутизатора облачных служб серии 1000V       |     &#10004;   | &#10004; |      Поддерживается IOS XE Amsterdam 17.2.1r (рекомендуется 17.3.2)         |    &#10004;     |    |  
@@ -103,6 +103,39 @@ ms.locfileid: "54284220"
 - [Служба маршрутизации службы экстренной помощи (ERS) Intrado](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)
 - [Шлюз экстренных служб Intrado (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)
 <br/>
+
+## <a name="support-for-local-media-optimization"></a>Поддержка оптимизации локальных файлов мультимедиа
+
+В таблице ниже описано, какие поставщики SBC поддерживают [оптимизацию локальных файлов мультимедиа](direct-routing-media-optimization.md). 
+
+| Поставщик | ПРОИЗВЕД |    Версия программного обеспечения |
+|:------------|:-------|:-------|
+| [Audiocodes](https://www.audiocodes.com/media/13253/connecting-audiocodes-sbc-to-microsoft-teams-direct-routing-enterprise-model-configuration-note.pdf) |    Mediant 500 SBC |   7.20A.256 | 
+|            |  Mediant 800 SBC |   7.20A.256 | 
+|            |  Mediant 2600 SBC |  7.20A.256 | 
+|            |  Mediant 4000 SBC |  7.20A.256 | 
+|            |  Mediant 1000B SBC | 7.20A.256 | 
+|            |  Mediant 9000 SBC |  7.20A.256 | 
+|            |  Mediant Virtual Edition SBC |   7.20A.256 | 
+|            |  Mediant Cloud Edition SBC | 7.20A.256 |
+| [Ribbon SBC Core](https://support.sonus.net/display/ALLDOC/SBC+8.2+-+Configure+Local+Media+Optimization)  |  SBC 5110         | 8.2  |
+|            |  SBC 5210         | 8.2  |
+|            |  SBC 5400         | 8.2  |
+|            |  SBC 7000         | 8.2  |
+|            |  SBC SWe          | 8.2  |
+| [Ribbon SBC Edge](https://support.sonus.net/display/UXDOC81/Best+Practice+-+Configuring+Microsoft+Teams+Local+Media+Optimization)  |  SBC SWe Lite | 8.1.5 |
+|               | SBC 1000 | 8.1.5  |
+|               | SBC 2000 | 8.1.5  |
+| [TE-SYSTEMS](https://www.anynode.de/local_media_optimization/) |  anynode          | 4.0.1+ |
+| [Oracle](https://www.oracle.com/industries/communications/enterprise-communications/session-border-controller/microsoft.html) | AP 1100 | 8.4.0.0.0 |
+|        | AP 3900 | 8.4.0.0.0 |
+|        | AP 4600 | 8.4.0.0.0 | 
+|        | AP 6300 | 8.4.0.0.0 |
+|        | AP 6350 | 8.4.0.0.0 | 
+|        | VME     | 8.4.0.0.0 |
+
+
+
 
 ## <a name="direct-routing-and-analog-devices-interoperability"></a>Прямая маршрутизация и взаимодействие аналоговых устройств
 
