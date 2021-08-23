@@ -22,12 +22,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: f18a6963c59aa371715d35b40137946d1b29b163b905d3ef842e8b3ddc434d63
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: 2b445c44fa7517c7ffbc6bdefdb0505cff88c999
+ms.sourcegitcommit: 85017cf88789c750836780dad2ef707c1c6c39b4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57848264"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "58359216"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Что такое трансляции Microsoft Teams
 
@@ -43,7 +43,7 @@ Teams обеспечивает совместную работу в чате, з
 
 Давайте приступим. Сначала обратите внимание на следующую схему, на которой показаны компоненты высокого уровня, использующиеся в трансляциях Microsoft 365, и способы их подключения.
 
-![Ключевые компоненты трансляций](../media/live-event-flow-diagram1.png  "Ключевые компоненты трансляций, планирование, производство, платформа Stream, сертифицированные сторонние поставщики eCDN")
+![Ключевые компоненты трансляций](../media/live-events-flow-diagram.png  "Ключевые компоненты трансляций, планирование, производство, платформа Stream, сертифицированные сторонние поставщики eCDN")
 
 > [!Note]
 > Мы хотим подчеркнуть, что трансляции Teams, учитывая характер этой технологии, часто превышают количество обычных (внутренних) собраний.

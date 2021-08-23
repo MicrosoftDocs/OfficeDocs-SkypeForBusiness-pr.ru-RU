@@ -13,14 +13,14 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: Сводка. Настройка основного сервера управления, установка System Center диспетчера операций и пакеты управления импортом на Skype для бизнеса Server 2019 г.
-ms.openlocfilehash: 2606c87d5874bdec4e6dded494b024bc7810de70db000c2c65892e0d80e5a6d1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f7fd7350cb4cf5a9697e789806c963f4fbe46636
+ms.sourcegitcommit: 6a87a4180519e493ac115c2faadb9ccae26d5a35
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54277534"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58372239"
 ---
-# <a name="configure-the-primary-management-server"></a>Настройка основного сервера управления
+# <a name="skype-for-business-server-configure-the-primary-management-server"></a>Skype для бизнеса Server: Настройка основного сервера управления
 
 **Сводка:** Настройка основного сервера управления, установка System Center диспетчера операций и пакеты управления импортом на Skype для бизнеса Server 2019 г.
 
@@ -30,7 +30,7 @@ ms.locfileid: "54277534"
 
 - рабочую базу данных;
 
-- Server
+- Сервер
 
 - Консоль
 

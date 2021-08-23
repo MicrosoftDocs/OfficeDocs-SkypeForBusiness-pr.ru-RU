@@ -20,12 +20,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0c4e9b4e3133927aaea883fb64d4798b6761b65ebe83f6a887bf9b50ba589e70
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e9f97065a6bf7dd8be3d3a417b7482b3b5f50935
+ms.sourcegitcommit: b17e5acadcca0261eaccc64e1b4ee457348f975c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54285688"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58365676"
 ---
 # <a name="quick-start---meetings-webinars-and-live-events"></a>Краткая инструкция — собрания, вебинары и трансляции 
 
@@ -83,7 +83,7 @@ ms.locfileid: "54285688"
 | Статья | Описание | 
 |----------|--------|
 | [Параметры собрания](meeting-settings-in-teams.md) |  Настройка параметров собрания для анонимных пользователей, приглашений на собрание и медиатрафика.  |
-| [Политики собрания](meeting-policies-in-teams.md)  | Создание политик, определяющих, какие функции будут доступны участникам собрания, и управление ими. | 
+| [Политики собрания](meeting-policies-overview.md)  | Создание политик, определяющих, какие функции будут доступны участникам собрания, и управление ими. | 
 | [Управление записью облачного собрания в Teams](cloud-recording.md) | Управление записями собраний. |
 | [Управление устройствами организации](device-management.md)| Управление устройствами организации, например телефонами, и Комнатами Teams. |
 ||

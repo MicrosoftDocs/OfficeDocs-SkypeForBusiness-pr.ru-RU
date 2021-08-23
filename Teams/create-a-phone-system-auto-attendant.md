@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Узнайте, как настраивать и тестировать автосекретарей для крупных организаций в Microsoft Teams.
-ms.openlocfilehash: b25a3126e697b30093f38148c43cf29e55ba776a4b2adca14a75779dcd4dc8c8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6db2dd5b63e26c74de09b8d4b563fe48393a3a37
+ms.sourcegitcommit: 9062b2c81c582ddc878c825ba1b22a6c23ca4b64
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54315395"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58398908"
 ---
 # <a name="set-up-an-auto-attendant"></a>Настройка автосекретаря
 
@@ -215,7 +215,9 @@ ms.locfileid: "54315395"
 
 ![Снимок экрана: список учетных записей ресурсов, в котором показана учетная запись ресурса с назначенным служебным номером](media/auto-attendant-resource-account-assigned.png)
 
-Завершив добавление учетных записей служб, выберите **Отправить** для завершения настройки автосекретаря.
+Завершив добавление учетных записей ресурсов, выберите **Отправить,** чтобы завершить настройку автозаполнеющего.
+
+Дополнительные сведения см. в Teams [учетных записей](manage-resource-accounts.md) ресурсов.
 
 ## <a name="external-phone-number-transfers---technical-details"></a>Передача внешних номеров телефонов — технические сведения
 

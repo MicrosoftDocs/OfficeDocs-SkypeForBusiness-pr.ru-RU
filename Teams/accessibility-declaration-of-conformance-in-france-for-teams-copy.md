@@ -1,5 +1,5 @@
 ---
-title: Объявление соответствия специальным возможности ( Франция)
+title: Объявление соответствия специальным требованиям ( Франция)
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,14 +20,14 @@ ms.custom:
 - seo-marvel-mar2020
 hideEdit: true
 description: "Microsoft Teams est l'outil de chat collaboratif d'Office 365 qui intègre toutes les personnes, contenus et outils don't votre équipe a besoin pour être plus impliquée et poure. "
-ms.openlocfilehash: aeb76f4dca50fe3aad3ab5fb77b66d160102eeff02fcbdafbf48661e47f6766f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 92a982857f3530a5f03c2efafb2efbce83bfd23a
+ms.sourcegitcommit: 6a87a4180519e493ac115c2faadb9ccae26d5a35
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54286198"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58372229"
 ---
-# <a name="en-301-549-dclaration-de-conformit-en-matire-daccessibilit"></a>EN 301 549 Déclaration de conformité en matière d'accessibilité
+#  <a name="en-301-549-dclaration-de-conformit-en-matire-daccessibilit"></a>EN 301 549 Déclaration de conformité en matière d'accessibilité
 
 
 ### <a name="section-1-champ-dapplication"></a>Раздел 1. Подача заявок
@@ -62,11 +62,11 @@ Définitions et abréviations [EN 301 549](http://mandate376.standards.eu/standa
 > 
 > [4.2.8 Utilisation avec une](http://mandate376.standards.eu/standard/technical-requirements?functional_statements=44&functional_statements_submitted=true) portée limitée
 > 
-> [4.2.9 Скайплер les déclencheurs deвних фотолицензий](http://mandate376.standards.eu/standard/technical-requirements?functional_statements=46&functional_statements_submitted=true)
+> [4.2.9 Саплер les déclencheurs de отрецензирования фотолицензий](http://mandate376.standards.eu/standard/technical-requirements?functional_statements=46&functional_statements_submitted=true)
 > 
 > [4.2.10 Utilisation avec cognition limitée](http://mandate376.standards.eu/standard/technical-requirements?functional_statements=48&functional_statements_submitted=true)
 > 
-> 4.2.11 [Respect de la ре и privée](http://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf)
+> 4.2.11 [Respect de la иа privée](http://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf)
 
 ## <a name="exigences-fonctionnelles-daccessibilit"></a>Exigences fonctionencees d'accessibilité
 
@@ -86,13 +86,13 @@ Définitions et abréviations [EN 301 549](http://mandate376.standards.eu/standa
 <td>Fonctionnalité fermée</td>
 </tr>
 <tr class="odd">
-<td><h3 id="activation-des-fonctionnalités-daccessibilité">5.2 Активация des fonctionnalités d'accessibilité</h3>
+<td><h3 id="activation-des-fonctionnalités-daccessibilité">5.2 Activation des fonctionnalités d'accessibilité</h3>
 <p>Dans le cas où la TIC présà des fonctionnalités d'accessibilité documentées, il est possible d'activer les fonctionnalités qui sont requises pour répondre à un besoin spécifique sans faire appel à une méthode qui ne prend pas en charge ce besoin.</p></td>
 <td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="even">
-<td><h3 id="biométrie">5.3 Биометри</h3>
+<td><h3 id="biométrie">5.3 Биометрия</h3>
 <p>Dans le cas où la TIC fait appel à des caractéristiquesiques, elle ne fait pas de l'utilisation d'une caractéristiqueique le seul moyen d'identification de l'utilisateur ou de contrôle de la TIC.</p></td>
 <td>Неприменимо</td>
 <td></td>
@@ -137,7 +137,7 @@ Définitions et abréviations [EN 301 549](http://mandate376.standards.eu/standa
 </tr>
 <tr class="odd">
 <td><h3 id="acceptation-des-doubles-frappes-sur-le-clavier">5.8 Acceptation des doubles frappes sur le le жеvier</h3>
-<p>Dans le cas où un thevier est fourni, le délai, après une frappe sur le жеvier, pendant lequel une autre frappe ne sera pas acceptée si elle est identique à la frappe précédà est réglable jusqu'à au moins 0,5 seconde.</p></td>
+<p>Dans le cas où unтраvier est fourni, le délai, après une frappe sur le laquer, pendant lequel une autre frappe ne sera pas acceptée si elle est identique à la frappe précédà est réglable jusqu'à au moins 0,5 seconde.</p></td>
 <td>Неприменимо</td>
 <td></td>
 </tr>
@@ -174,7 +174,7 @@ Définitions et abréviations [EN 301 549](http://mandate376.standards.eu/standa
 </tr>
 <tr class="even">
 <td><h3 id="voix-et-texte-simultanés">6.2.1.2 Voix et texte simultanés</h3>
-<p>Dans le cas où la TIC ou les TIC fournies à un utilisateur sont compatibles avec la communication voix bidirectioninoe et permettent à un utilisateur de communiquer avec un autre utilisateur en RTT, elles proposent un mécanisme permettant de sélectionner un mode de fonctionnement qui permet la voix et le texte simultanés.</p></td>
+<p>Dans le cas où la TIC ou les TIC fournies à un utilisateur sont compatibles avec la communication voix bidirectionаe et permettent à un utilisateur de communiquer avec un autre utilisateur en RTT, elles proposent un mécanisme permettant de sélectionner un mode de fonctionnement qui permet la voix et le texte simultanés.</p></td>
 <td>Pas pris en charge</td>
 <td></td>
 </tr>
@@ -185,7 +185,7 @@ Définitions et abréviations [EN 301 549](http://mandate376.standards.eu/standa
 <td></td>
 </tr>
 <tr class="even">
-<td><h3 id="direction-envoiréception-déterminable-par-un-programme-informatique">6.2.2.2 Direction envoi/réception déterminable par un programme informatique </h3>
+<td><h3 id="direction-envoiréception-déterminable-par-un-programme-informatique">6.2.2.2.2 Direction envoi/réception déterminable par un programme informatique </h3>
 <p>Dans le cas où la TIC est dotée de capacités d'envoi et de réception en RTT, la direction (envoi/réception) du texte transmis est déterminable par un programme informatique, à moins que le RTT n'ait une fonctionnalité fermée.</p></td>
 <td>Pas pris en charge</td>
 <td></td>
@@ -193,10 +193,10 @@ Définitions et abréviations [EN 301 549](http://mandate376.standards.eu/standa
 <tr class="odd">
 <td><h3 id="interopérabilité">6.2.3 Interopérabilité</h3>
 <p>Dans le cas où une TIC dotée de la fonctionnalité RTT affiche une interopérabilité avec d'autres TIC dotées de la fonctionnalité RTT (comme l'exige le 6.2.1.1), elles sont compatibles avec au moins un des quatre mécanismes d'interopérabilité RTT décrits ci-dessous :</p>
-<p>a) TIC inter-opérant sur le Résand Téléphonique Public (RTC) avec une autre TIC qui se connecte directement au RTC comme décrit dans la Recommandation ITU-T V.18 [i.23] ou l'une de ses pour les signand de téléphonie en mode texte sur l'interface RTC ;</p>
+<p>a) TIC inter-opérant sur le Résand Téléphonique Public (RTC) avec une autre TIC qui se connecte directement au RTC comme décrit dans la Recommandation ITU-T V.18 [i.23] ou l'une de ses pour les signandie de téléphonie en mode texte sur l'interface RTC ;</p>
 <p>б) TIC inter-opérant avec une autre TIC utilisant la VoIP SIP et utilisant une technologie RTT conforme au document RFC 4103;</p>
-<p>c) TIC inter-opérant avec une autre TIC utilisant une technologie rTT conforme à l'protocoles des protocoles IP Multimedia Sub-System (IMS) spécifiés dans les documents TS 126 114, TS 122 173 et TS 134 229 ;</p>
-<p>d) TIC inter-opérant avec une autre TIC utilisant une spécification adaptée et applicable pour l'échange RTT qui est publiée et peut être consultée. Cette spécification разреженный une méthode pour indiquer la perte ou de la corruption de caractères.</p></td>
+<p>c) TIC inter-opérant avec une autre TIC utilisant une technologiee RTT conforme à l'protocoles des protocoles IP Multimedia Sub-System (IMS) spécifiés dans les documents TS 126 114, TS 122 173 et TS 134 229 ;</p>
+<p>d) TIC inter-opérant avec une autre TIC utilisant une spécification adaptée et applicable pour l'échange RTT qui est publiée et peut être consultée. Cette spécification pour indiquer la perte ou de la corruption de caractères.</p></td>
 <td>Pas pris en charge</td>
 <td></td>
 </tr>
@@ -214,13 +214,13 @@ Définitions et abréviations [EN 301 549](http://mandate376.standards.eu/standa
 </tr>
 <tr class="even">
 <td><h3 id="alternatives-aux-services-basés-sur-la-voix">6.4 Альтернативы aux services basés sur la voix</h3>
-<p>Dans le cas où la TIC propose la communication voix en temps réel et propose également des fonctions de messageementстречи, de réception automatique ou de serveur interactif, la TIC doit offrir aux utilisateurs un moyen d'accéder aux informations et d'exécuter les fonctions fournies par la TIC sans utiliser l'ux ou la parole.</p></td>
+<p>Dans le cas où la TIC suggest la communication voix en temps réel et propose également des fonctions de messageementстречи, de réception automatique ou de serveur interactif, la TIC doit offrir aux utilisateurs un moyen d'accéder aux informations et d'exécuter les fonctions fournies par la TIC sans utiliser l'ux ou la parole.</p></td>
 <td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="odd">
 <td><h3 id="résolution">6.5.2 Résolution</h3>
-<p>Lorqu'une TIC qui permet la communication voix dix également dotée d'une fonctionnalité vidéo en temps réel, cette TIC :</p>
+<p>Lorqu'une TIC qui permet la communication voix bidirectionettee est également dotée d'une fonctionnalité vidéo en temps réel, cette TIC :</p>
 <p>а) est compatible au moins avec la résolution « QCIF » ;</p>
 <p>б) doit de préférence être compatible avec au moins la résolution « CIF ».</p></td>
 <td>Pris en charge</td>
@@ -229,14 +229,14 @@ Définitions et abréviations [EN 301 549](http://mandate376.standards.eu/standa
 <tr class="even">
 <td><h3 id="taux-de-trame-vitesse-dimages">6.5.3 Tтюн де сол (vitesse d'images)</h3>
 <p>Lorsqu'une TIC qui propose la communication voix bidirectionettee est dotée d'une fonctionnalité de vidéo en temps réel, cette TIC :</p>
-<p>а) преднд для зарядки un tтю de au moins 12 изображений par seconde (IPS) ;</p>
-<p>б) doit de préférence prendre en charge un tnde de de au moins 20 images par seconde (IPS) avec ou sans langue des signes dans le flux de données vidéo.</p></td>
+<p>а) prend en charge un t уа unтюe d'au moins 12 images par seconde (IPS) ;</p>
+<p>б) doit de préférence prendre en charge un tnde de au moins 20 images par seconde (IPS) avec ou sans langue des signes dans le flux de données vidéo.</p></td>
 <td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="odd">
 <td><h3 id="synchronisation-entre-le-signal-audio-et-le-signal-vidéo">6.5.4 Synchronisation в формате le signal audio et le signal vidéo</h3>
-<p>Lorsqu'une TIC qui permet la communication voix bidirectionettee est dotée d'une fonctionnalité de vidéo en temps réel, cette TIC doit garantir un écart de temps de 100 ms maximum utilisix la voix et les images présentées à l'utilisateur.</p></td>
+<p>Lorsqu'une TIC qui permet la communication voix bidirectionàe est dotée d'une fonctionnalité de vidéo en temps réel, cette TIC doit garantir un écart de temps de 100 ms maximum utilisix la voix et les images présentées à l'utilisateur.</p></td>
 <td>Pris en charge</td>
 <td></td>
 </tr>
@@ -254,19 +254,19 @@ Définitions et abréviations [EN 301 549](http://mandate376.standards.eu/standa
 
 ### <a name="section-7-tic-avec-fonctions-vido"></a>Section 7 TIC avec fonctions vidéo
 
-Cette section ne s'applique pas à Skype Срприйс 2016.
+Cette section ne s'applique pas à Skype Prise 2016.
 
 ### <a name="section-8-matriel-informatique"></a>Section 8 Matériel informatique
 
-Cette section ne s'applique pas à Skype Срприйс 2016.
+Cette section ne s'applique pas à Skype Prise 2016.
 
 ### <a name="section-9-web"></a>Раздел 9 в Интернете
 
-Cette section ne s'applique pas à Skype Срприйс 2016.
+Cette section ne s'applique pas à Skype Prise 2016.
 
 ### <a name="section-10-documents-non-bass-dans-le-web"></a>Section 10 Documents non basés dans le Web 
 
-Cette section ne s'applique pas à Skype Срприйс 2016.
+Cette section ne s'applique pas à Skype Prise 2016.
 
 ### <a name="section-11-logiciel"></a>Section 11 Logiciel
 
@@ -274,7 +274,7 @@ Cette section ne s'applique pas à Skype Срприйс 2016.
 <caption>Раздел 11</caption>
 <tbody>
 <tr class="odd">
-<td><strong>Китеррес</strong></td>
+<td><strong>Китеререс</strong></td>
 <td><strong>Fonctionnalités prises en charge</strong></td>
 <td><strong>Remarques et explications</strong></td>
 </tr>
@@ -294,9 +294,9 @@ Cette section ne s'applique pas à Skype Срприйс 2016.
 <tr class="odd">
 <td><h3 id="audio-seulement-et-vidéo-seulement-préenregistré">11.2.1.2 Audio seulement et vidéo seulement (préenregistré)</h3>
 <p>Dans le cas où la TIC est un logiciel non-web qui est doté d'une interface utilisateur et qui prend en charge l'accès aux technologies d'assistance pour la lecture d'écran et où aucune information sonore préenregistrée n'est nécessaire pour permettre l'utilisation des fonctions fermées de la TIC, elle remplit les Critères de Succès indiqués dans le Tableau 11.2 :  Audio seulement et vidéo seulement (préenregistré) :</p>
-<p>Pour les médias audio seulement préenregistrés et vidéo seulement préenregistrés, les principes ci-après se vérifient sauf lorsque l'audio ou la vidéo est un média de remplacement du texte et estвидиfié comme tel :</p>
+<p>Pour les médias audio seulement préenregistrés et vidéo seulement préenregistrés, les principes ci-après se vérifient sauf lorsque l'audio ou la vidéo est un média de remplacement du texte et estplacement identifié comme tel :</p>
 <p>Audio seulement préenregistré : Une alternative au media limité dans le temps, qui présстанов des informations équival де pour le contenu audio seulement préenregistré, est fournie.</p>
-<p>Vidéo seulement préenregistrée : Une alternative au media limité dans le temps ou une piste audio, qui présement des informations équival оповестить залить le contenu vidéo seulement préenregistré, est fournie.</p></td>
+<p>Vidéo seulement préenregistrée : Une alternative au media limité dans le temps ou une piste audio, qui présement des informations équival пролили le contenu vidéo seulement préenregistré, est fournie.</p></td>
 <td>Неприменимо</td>
 <td></td>
 </tr>
@@ -315,7 +315,7 @@ Cette section ne s'applique pas à Skype Срприйс 2016.
 <td></td>
 </tr>
 <tr class="even">
-<td><h3 id="sous-titres-en-direct">11.2.1.5 Су-титры (прямые)</h3>
+<td><h3 id="sous-titres-en-direct">11.2.1.5 Сус-титры (прямые)</h3>
 <p>Dans le cas où la TIC est un logiciel non-web qui est doté d'une interface utilisateur, elle remplit les Critères de Succès indiqués dans le Tableau 11.5. Sous-titres (en direct) :</p>
 <p>Des sous-titres sont fournis pour tout le contenu audio en direct se présentant sous la forme d'un média synchronisé.</p></td>
 <td>Неприменимо</td>
@@ -367,7 +367,7 @@ Cette section ne s'applique pas à Skype Срприйс 2016.
 <td><h3 id="contraste-minimum">Контрастность 11.2.1.12 (минимум)</h3>
 <p>Dans le cas où la TIC est un logiciel non-web qui est doté d'une interface utilisateur, elle remplit les Critères de Succès indiqués dans le Tableau 11.12 : Contraste (minimum) :</p>
 <p>La présentation visuelle du texte et d'images de texte a un un suport de contraste d'au moins 4.5.1, sauf dans les cas suivants :</p>
-<p>Texte agrandi : le texte agrandi et les images de texte agrandies présent un подтверждений d'au moins 3:1.</p>
+<p>Texte agrandi : le texte agrandi et les images de texte agrandies présent un un le contraste d'au moins 3:1.</p>
 <p>Accessoire : Il n'existe aucune exigence de contraste pour le texte ou les images de texte qui font partie d'un composant inactif d'une interface utilisateur, qui sont de la pure décoration, qui ne sont visibles pour personne, ou qui font partie d'une image contenant par ailleurs un autre contenu visuel important.</p>
 <p>Logotypes : Il n'existe aucune exigence de contraste pour le texte qui fait partie d'un logo ou d'une marque.</p></td>
 <td><h3 id="pris-en-charge">Pris en charge</h3></td>
@@ -375,7 +375,7 @@ Cette section ne s'applique pas à Skype Срприйс 2016.
 </tr>
 <tr class="even">
 <td><h3 id="redimensionner-le-texte">11.2.1.13 Redimensionner le texte</h3>
-<p>Dans le cas où la TIC est un logiciel non-web qui est doté d'une interface utilisateur et qui permet l'accès aux fonctions d'agrandissement de la plate-forme ou de la technologies d'assistance, elle remplit les Critères de Succès indiqués dans le Tableau 11.13 : Redimensionner le texte :</p>
+<p>Dans le cas où la TIC est un logiciel non-web qui est doté d'une interface utilisateur et qui permet l'accès aux fonctions d'agrandissement de la plate-forme ou de la technologie d'assistance, elle remplit les Critères de Succès indiqués dans le Tableau 11.13 : Redimensionner le texte :</p>
 <p>À l'exception des sous-titres et des images de texte, la taille du texte peut être modifiée sans recours à une technologie d'assistance jusqu'à 200 % sans perte de contenu ou de fonctionnalités.</p></td>
 <td>Pris en charge</td>
 <td></td>
@@ -394,15 +394,15 @@ Cette section ne s'applique pas à Skype Срприйс 2016.
 <p>Dans le cas où la TIC est un logiciel non-web qui est doté d'une interface utilisateur et qui permet l'accès aux quiviers ou à une interface quivier, elle remplit les Critères de Succès indiqués dans le Tableau 11.1 :</p>
 <p>Toutes les fonctionnalités du contenu peuvent être activées depuis une interface spvier sans que l'individu n'ait à appuyer un nombre spécifique de fois sur le usbvier, sauf dans le cas où la fonction en question nécessite une saisie qui dépend de la trajectoire duvement effectué par l'utilisateur et pas seulement du point de départ et du point d'arrivée de cette trajectoire.</p></td>
 <td>Pris en charge avec des exceptions</td>
-<td>1) Les duons Full Screen et Pick a Layout situés en haut à droite de la fenêtre Réunion ne bénéficient pas du focus du focus.<br />
+<td>1) Les ultraons Full Screen et Pick a Layout situés en haut à droite de la fenêtre Réunion ne bénéficient pas du focus fenvier.<br />
 2) Certaines commandes dans Poll, Q &amp; A et Whiteboard ne peuvent bénéficier du focus.<br />
 3)Les commandes de la visionneuse PowerPoint ne sont pas accessibles depuis le leзаvier.<br />
 4) Les touches de modification du duvier s'arrêtent parfois de fonctionner lorsque vous donnez ou prenez le contrôle de votre écran partagé.</td>
 </tr>
 <tr class="odd">
 <td><h3 id="pas-de-piège-au-clavier">11.2.1.16 Pas de piège au расшифровка</h3>
-<p>Dans le cas où la TIC est un logiciel non-web qui est doté d'une interface utilisateur, elle remplit les Critères de Succès indiqués dans le Tableau 11.16 : Pas de piège au usbvier :</p>
-<p>Si le focus du du être positionné sur un composant du logiciel à l'aide d'une <a href="https://www.w3.org/Translations/NOTE-UNDERSTANDING-WCAG20-fr/keyboard-operation-trapping.html#keybrd-interfacedef">interface компилятора</a>, réciproquement, il peut être déplacéкрепления de ce même composant simplement à l'aide d'une interface devier et, si ce déplacement exie plus que l'utilisation d'une simple touche flèche ou tabulation ou toute autre méthode standard de sortie, l'utilisateur est informé de la méthode permettant de déplacer le focus fls de ce composant.</p></td>
+<p>Dans le cas où la TIC est un logiciel non-web qui est doté d'une interface utilisateur, elle remplit les Critères de Succès indiqués dans le Tableau 11.16 : Pas de piège au quivier :</p>
+<p>Si le focus du duut être positionné sur un composant du logiciel à l'aide d'une <a href="https://www.w3.org/Translations/NOTE-UNDERSTANDING-WCAG20-fr/keyboard-operation-trapping.html#keybrd-interfacedef">interface компилятора</a>, réciproquement, il peut être déplacé si ce même composant simplement à l'aide d'une interface devier et, si ce déplacement exie plus que l'utilisation d'une simple touche flèche ou tabulation ou toute autre méthode standard de sortie, l'utilisateur est informé de la méthode permettant de déplacer le focus fls de ce composant.</p></td>
 <td>Pris en charge</td>
 <td></td>
 </tr>
@@ -412,7 +412,7 @@ Cette section ne s'applique pas à Skype Срприйс 2016.
 <p>Pour chaque délai qui est fixé par le logiciel, au moins l'un des points suivants est vrai :</p>
 <p>Подавления : l'utilisateur est autorisé à supprimer la limite de tempsà de la dépasser; Подразделение</p>
 <p><strong>Ajustement :</strong> l'utilisateur est autorisé à ajuster la limite de temps de la dépasser dans un intervalle d'au moins dix fois la durée paramétrée par défaut </p>
-<p>Расторжение: l'utilisateur est averti от que la limite de temps n'expire et il lui est accordé au moins 20 secondes pour utiliser cette limite par une action simple (par exemple, « appuyer sur la par la poure d'espace ») et l'utilisateur est autorisé àее la limite de temps au moins dix fois ; Подразделение</p>
+<p>Расторжение: l'utilisateur est averti от que la limite de temps n'expire et il lui est accordé au moins 20 secondes pouretteer cette limite par une action simple (par exemple, « appuyer sur la par la pare d'espace ») et l'utilisateur est autorisé àее la limite de temps au moins dix fois ; Подразделение</p>
 <p>L'exception du temps réel : la limite de temps est une partie constitutive d'un événement en temps réel (par exemple, une enchère) et aucune alternative n'est possible ; Подразделение</p>
 <p>L'exception de la limite essentielle : la limite de temps est essentielle et la invaliderait alors l'activité ; Подразделение</p>
 <p>L'exception des 20 heures : la limite de temps est supéàà 20 heures.</p></td>
@@ -452,7 +452,7 @@ Cette section ne s'applique pas à Skype Срприйс 2016.
 <tr class="odd">
 <td><h3 id="en-têtes-et-étiquettes">11.2.1.25 En-têtes et étiqueiqueês</h3>
 <p>Dans le cas où la TIC est un logiciel non-web qui est doté d'une interface utilisateur, elle remplit les Critères de Succès indiqués dans le Tableau 11.25 : En-têtes et étiqueelles :</p>
-<p>Les en-têtes et les étiqueiqueiques décrivent le sujet ou la fonction.</p></td>
+<p>Les en-têtes et les étiqueiqueоs décrivent le sujet ou la fonction.</p></td>
 <td>Pris en charge</td>
 <td></td>
 </tr>
@@ -461,7 +461,7 @@ Cette section ne s'applique pas à Skype Срприйс 2016.
 <p>Dans le cas où la TIC est un logiciel non-web qui est doté d'une interface utilisateur, elle remplit les Critères de Succès indiqués dans le 11.26 : Visibilité du focus :</p>
 <p>Toute interface utilisateur utilisable au duvier comporte un mode de fonctionnement dans le cadre duquel l'indicateur de focus est visible.</p></td>
 <td>Pris en charge avec des exceptions</td>
-<td>Certaines commandes dans Poll, Q &amp; A et Whiteboard ne présent pas de focus.</td>
+<td>Certaines commandes dans Poll, Q &amp; A et Whiteboard ne présent pas de focusvier.</td>
 </tr>
 <tr class="odd">
 <td><h3 id="langue-du-logiciel">11.2.1.27 Langue du logiciel</h3>
@@ -492,7 +492,7 @@ Cette section ne s'applique pas à Skype Срприйс 2016.
 <td></td>
 </tr>
 <tr class="odd">
-<td><h3 id="étiquettes-ou-instructions">11.2.1.34 Étiqueique в инструкциях</h3>
+<td><h3 id="étiquettes-ou-instructions">11.2.1.34 Étique оху инструкции</h3>
 <p>Dans le cas où la TIC est un logiciel non-web qui est doté d'une interface utilisateur, elle remplit les Critères de Succès indiqués dans le Tableau 11.34 : Étiqueress ou instructions :</p>
 <p>Des étiqueiqueiques ou instructions sont présentées quand un contenu requiert une saisie de la part de l'utilisateur.</p></td>
 <td>Pris en charge</td>
@@ -538,14 +538,14 @@ Cette section ne s'applique pas à Skype Срприйс 2016.
 </tr>
 <tr class="odd">
 <td><h3 id="prise-en-charge-des-services-daccessibilité-de-la-plate-forme-pour-un-logiciel-qui-est-doté-dune-interface-utilisateur">11.3.2.1 Prise en charge des services d'accessibilité de la plate-forme pour un logiciel qui est doté d'une interface utilisateur</h3>
-<p>Le logiciel de la plate-forme fournit uniel de services de plate-forme documentés qui permettent à un logiciel qui est doté d'une interface utilisateur fonctionnant sur le logiciel de la plate-forme d'interagir avec la technologies d'assistance.</p>
+<p>Le logiciel de la plate-forme fournit un веб-служб de plate-forme documentés qui permettent à un logiciel qui est doté d'une interface utilisateur fonctionnant sur le logiciel de la plate-forme d'interagir avec la technologies d'assistance.</p>
 <p>Le logiciel de la plate-forme doit être compatible avec les exigences 11.3.2.5 à 11.3.2.17 étant toutefois entendu que, dans le cas où le concept d'une interface utilisateur qui correspond à l'une des clauses 11.3.2.5 à 11.3.2.17 n'est pas compatible avec l'environnement logiciel, ces exigences ne s'appliquent pas. Par exemple, les attributs de sélection du 11.3.2.14 (Modification du focus et attributs de sélection) peuvent ne pas exister dans les environnements qui ne permettent pas la sélection, ce qui est le souvent le cas de la fonction copier-coller.</p></td>
 <td>Неприменимо</td>
 <td></td>
 </tr>
 <tr class="even">
 <td><h3 id="prise-en-charge-des-services-daccessibilité-de-la-plate-forme-pour-les-technologies-dassistance">11.3.2.2 Prise en charge des services d'accessibilité de la plate-forme pour les technologies d'assistance</h3>
-<p>Le logiciel de la plate-forme fournit uniel de services d'accessibilité de la plate-forme documentés qui permettent à la technologie d'assistance d'interagir avec logiciel qui est doté d'une interface utilisateur fonctionnant sur le logiciel de la plate-forme.</p>
+<p>Le logiciel de la plate-forme fournit uniel de services d'accessibilité de la plate-forme documentés qui permettent à la technologie d'interagir avec logiciel qui est doté d'une interface utilisateur fonctionnant sur le logiciel de la plate-forme.</p>
 <p>Le logiciel de la plate-forme doit répondre aux exigences des clauses 11.3.2.5 à 11.3.2.17 étant toutefois entendu que, dans le cas où le concept d'une interface utilisateur qui correspond à l'une des clauses11.3.2.5 à 11.3.2.17 n'est pas compatible avec l'environnement logiciel, ces exigences ne s'appliquent pas.</p></td>
 <td>Неприменимо</td>
 <td></td>
@@ -587,7 +587,7 @@ Cette section ne s'applique pas à Skype Срприйс 2016.
 <td></td>
 </tr>
 <tr class="odd">
-<td><h3 id="relations-parent-enfant">11.3.2.9 Родительское-enfant </h3>
+<td><h3 id="relations-parent-enfant">11.3.2.9 Родительский-enfant связи </h3>
 <p>Dans le cas où le logiciel présiel une interface utilisateur, il rendra, à l'aide des services décrits dans la clause 11.3.2.3, la relation un élément de l'interface utilisateur et des éléments parent ou enfant déterminables par un programme informatique par les technologies d'assistance.</p></td>
 <td>Pris en charge</td>
 <td></td>
@@ -654,7 +654,7 @@ Cette section ne s'applique pas à Skype Срприйс 2016.
 </tr>
 <tr class="even">
 <td><h3 id="préférences-de-lutilisateur">11.5 Préférences de l'utilisateur</h3>
-<p>Dans le cas où le logiciel est doté d'une interface utilisateur, il propose des modes d'utilisation suffisants qui utilisent les préférences de l'utilisateur pour les paramètres de la plate-forme (couleur, контрастность, статия, taille de la police et стюдер de focus), à l'exception des logiciels qui sont destinés à être isolés de la plate-forme à laquelle ils appartntnt.</p></td>
+<p>Dans le cas où le logiciel est doté d'une interface utilisateur, il propose des modes d'utilisation suffisants qui utilisent les préférences de l'utilisateur pour les paramètres de la plate-forme (couleur, контрастность, статия, taille de la police etтриобр de focus), à l'exception des logiciels qui sont destinés à être isolés de la plate-forme à laquelle ils appartntnt.</p></td>
 <td>Неприменимо</td>
 <td></td>
 </tr>
@@ -691,7 +691,7 @@ Cette section ne s'applique pas à Skype Срприйс 2016.
 <caption>Раздел 5</caption>
 <tbody>
 <tr class="odd">
-<td><strong>Китеррес</strong></td>
+<td><strong>Китеререс</strong></td>
 <td><strong>Fonctionnalités prises en charge</strong></td>
 <td><strong>Remarques et explications</strong></td>
 </tr>
@@ -736,7 +736,6 @@ Cette section ne s'applique pas à Skype Срприйс 2016.
 
 Cette section ne s'applique pas à Skype Prise2016.
 
-## 
 
 © Microsoft Corporation 2017. Tous droits réservés. Les noms des sociétés et des produits mentionnés dans le présent document peuvent être les marques de leurs propriétaires respectifs. Les informations qui figurent dans le présent document constituent l'opinion actuelle de Microsoft Corporation sur les thèmes concernés à la date de publication.
 Microsoft ne peut garantir l'exactitude d'une information présentée après la date de publication. Microsoft met régulièrement à jour ses sites Internet et publie de nouvelles informations sur l'accessibilité de ses produits dès qu'elles sont disponibles.

@@ -17,15 +17,14 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 8abb6718fe79b4ee15a679e768711fde8310536e67d34ccea440684717e03596
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ff8aede350f132d28ffed9b09e7bc776553e4c0a
+ms.sourcegitcommit: 6a87a4180519e493ac115c2faadb9ccae26d5a35
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54305091"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58372049"
 ---
-<a name="best-practices-for-organizing-teams-in-microsoft-teams"></a>Рекомендации по работе с командами в Microsoft Teams
-======================================================
+# <a name="best-practices-for-organizing-teams-in-microsoft-teams"></a>Рекомендации по работе с командами в Microsoft Teams
 
 Teams - это группы людей, которые собираются вместе для достижения общей цели. Эта группа людей может находиться в отделе или во всей организации. Их объединяет результат, к которому они стремятся. Члены команды могут работать в другом темпе или создавать ресурсы по-разному, но, по нашему опыту, они часто быстро взаимодействуют друг с другом, и этот процесс мы называем «высокоскоростная командная работа».  
 

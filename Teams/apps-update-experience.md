@@ -18,25 +18,23 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Узнайте, как обновить приложения в Microsoft Teams.
-ms.openlocfilehash: e271af73800e87ddf5c0f83009fbd85002fc059e8da3f2479198de9ae64ea698
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a1a5cc6d926e7bc183db9950f1d11c1e3ffcd06c
+ms.sourcegitcommit: 85017cf88789c750836780dad2ef707c1c6c39b4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54288407"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "58359146"
 ---
 # <a name="update-apps-in-microsoft-teams"></a>Обновление приложений в Microsoft Teams
 
-В большинстве случаев после публикации обновления приложения для пользователей автоматически появляется новая версия. Однако существуют некоторые обновления манифеста <a href="/microsoftteams/platform/resources/schema/manifest-schema" target="_blank">Microsoft Teams,</a> которые требуют принятия пользователем:
+В большинстве случаев после публикации обновления приложения для пользователей автоматически появляется новая версия. Тем не менее существуют некоторые обновления манифеста <a href="/microsoftteams/platform/resources/schema/manifest-schema" target="_blank">Microsoft Teams,</a> которые требуют принятия пользователем:
 
 * Бот был добавлен или удален
 * Изменено свойство botId существующего бота
 * Изменено свойство isNotificationOnly существующего бота
-* Изменено свойство бота "supportsFiles"
-* Добавлено или удалено расширение для сообщений
+* Добавлены возможности "Поддержка", "ПоддержкаВидео" и "ПоддержкаFiles".
+* Добавлено расширение для обмена сообщениями
 * Добавлен новый соединител
-* Добавлена новая статическая вкладка
-* Добавлена новая настраиваемая вкладка
 * Свойства внутри "webApplicationInfo" изменены
 
 ![Доступна новая версия](media/manage-your-custom-apps-update1.png)
@@ -46,6 +44,6 @@ ms.locfileid: "54288407"
 > [!NOTE] 
 > Процесс обновления применяется ко всем обновлениям приложений Майкрософт, пользовательских приложений и сторонних приложений. 
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 
 [Управление приложениями](manage-apps.md)

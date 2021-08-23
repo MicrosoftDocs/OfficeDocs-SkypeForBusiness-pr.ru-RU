@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: В этой таблице вы найдете сведения о получении номеров телефонов в Великобритании и управлении Microsoft Teams.
-ms.openlocfilehash: 3360534637e86f868c88ea9d4705115d8fa6a06b
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 5803e6adcd19801d3e5bca5b5bc7978191a58f25
+ms.sourcegitcommit: 7251b92c9913ca1e43b3cc24fad73e8997303731
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234104"
+ms.locfileid: "58348511"
 ---
 # <a name="phone-number-management-for-the-united-kingdom"></a>Телефон управления номерами для Великобритании
 
@@ -36,9 +36,9 @@ ms.locfileid: "58234104"
   
 |**Требуемое действие**|**Загрузка подходящих форм**|
 |:-----|:-----|
-|Получите новые номера телефонов пользователей или служб, которые не указаны в Microsoft Teams центре администрирования.   <br/> |Скачайте эту форму. <br/> [Новый запрос на номер телефона для Великобритании (5.0) (en-gb)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-united-kingdom-(v.5.0)-(en-gb).pdf?raw=true) <br/><br/>Заполните его и обратитесь за инструкциями в [службу поддержки ТССК.](contact-pstn-service-desk.md)  <br/> |
-|Перенаправь нам номера телефонов.  <br/> |Скачайте эту форму: <br/> [Док-досье (LOA) для Великобритании (все номера) (v.6.1) (en-us)](https://download.microsoft.com/download/4/3/7/43706e72-81e9-461e-afca-825dad4716f4/letter-of-authorization-(loa)-for-the-u.k.-(all-numbers)-(v.6.1)-(en-us).pdf) <br/> <br/> Заполните его и обратитесь за инструкциями в [службу поддержки ТССК.](contact-pstn-service-desk.md)  <br/> |
-|Публикация и публикация номеров телефонов в национальном телефонном каталоге.  <br/> |[Чтобы получить инструкции по](contact-pstn-service-desk.md) списку номеров телефонов, которые вы хотите опубликовать или от публикации, обратитесь в службу поддержки ТСЗ. <br/> |
+|Получите новые номера пользователей или номеров телефонов служб, которые не указаны в Microsoft Teams центре администрирования.   <br/> |Скачайте эту форму. <br/> [Новый запрос на номер телефона для Великобритании (5.0) (en-gb)](https://download.microsoft.com/download/e/e/9/ee9f629e-4f2b-41c3-8fa3-f206660f4db3/new-phone-number-request-for-the-united-kingdom-(v.5.0)-(en-gb).pdf) <br/><br/>Заполните его и обратитесь за инструкциями в службу [поддержки ТССК.](contact-pstn-service-desk.md)  <br/> |
+|Перенаправь нам номера телефонов.  <br/> |Скачайте эту форму: <br/> [Док-досье (LOA) для Великобритании (все номера) (v.6.1) (en-us)](https://download.microsoft.com/download/4/3/7/43706e72-81e9-461e-afca-825dad4716f4/letter-of-authorization-(loa)-for-the-u.k.-(all-numbers)-(v.6.1)-(en-us).pdf) <br/> <br/> Заполните его и обратитесь за инструкциями в службу [поддержки ТССК.](contact-pstn-service-desk.md)  <br/> |
+|Публикация и публикация номеров телефонов в национальном каталоге телефонов.  <br/> |[Чтобы получить инструкции по](contact-pstn-service-desk.md) списку номеров телефонов, которые вы хотите опубликовать или от публикации, обратитесь в службу поддержки ТСЗ. <br/> |
 |Измените номер пользователя на номер службы.  <br/> |[Чтобы получить инструкции по](contact-pstn-service-desk.md) списку номеров пользователей, которые вы хотите преобразовать в номера служб, обратитесь в службу поддержки ТССК. <br/> |
 |Обновление службы каталогов для номеров очереди вызовов или автозаетаря|Чтобы добавить или изменить номера очереди вызовов или номера автослужб, обратитесь за инструкциями в службу [поддержки ТСОП.](contact-pstn-service-desk.md) |
 
