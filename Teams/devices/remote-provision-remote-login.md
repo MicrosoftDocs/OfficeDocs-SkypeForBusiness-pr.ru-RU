@@ -1,5 +1,5 @@
 ---
-title: Удаленная подготовка и вход в Teams устройствах с Android
+title: Удаленная подготовка и вход для Teams устройств с Android
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -18,14 +18,14 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Узнайте, как дистанционно подавь и войти в Teams устройствах с Android
-ms.openlocfilehash: 4bfc7485ae208a31c59051811d9271323fbf798e
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 8866079fa02edb8dabbfe36d724194858d16553d
+ms.sourcegitcommit: 3cc2da11aac1a3a7d620810c6f22a7192e4ab993
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58235384"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58483116"
 ---
-# <a name="remote-provisioning-and-sign-in-for-teams-android-devices"></a>Удаленная подготовка и вход в Teams устройствах с Android
+# <a name="remote-provisioning-and-sign-in-for-teams-android-devices"></a>Удаленная подготовка и вход для Teams устройств с Android
 
 ИТ-администраторы могут удаленно подавлю и войти на устройство Teams Android. Чтобы подготовка устройства была удаленной, администратор должен отправить их коды MAC и создать код проверки. Весь процесс можно завершить удаленно из центра Teams администрирования.
 
@@ -39,12 +39,22 @@ ms.locfileid: "58235384"
 |Teams телефонов|Yealink VP59|91.15.0.58|
 |Teams телефонов|Yealink CP960|73.15.0.117|
 |Teams телефонов|Yealink MP56/MP54/MP58|122.15.0.36|
-|Teams телефонов|UC-2, UcRon|1.0.3.52|
+|Teams телефонов|Воронова UC-2|1.0.3.52|
 |Teams телефонов|  Poly Trio C60|  7.0.2.1071|
 |Teams телефонов|  CCX400/CCX500/CCX600    |7.0.2.1072|
-|Teams телефонов|  Звуковые коды C448HD/C450HD/C470HD|   1.10.120|
+|Teams телефонов|  Audio Codes C448HD/C450HD/C470HD|   1.10.120|
 |Teams панели|  770/1070|  1.004.0115|
-
+|Комнаты Teams android|Logitech Висячий линечик mini|1.2.982|
+|Комнаты Teams android|Logitech Висячий линечик|1.2.982|
+|Комнаты Teams android|AudioCodes RXV80|1.13.361|
+|Комнаты Teams android|EPOS EXPAND Vision 3T|1.2.2.21182.10|
+|Комнаты Teams android|Панель собраний Yealink A30|133.15.0.60|
+|Комнаты Teams android|Панель собраний Yealink A20|133.15.0.60|
+|Комнаты Teams android|Сенсорная консоль Yealink CTP18|137.15.0.37|
+|Комнаты Teams android|Poly Studio X30|3.5.0.344025|
+|Комнаты Teams android|Poly Studio X50|3.5.0.344025|
+|Комнаты Teams android|Сенсорная консоль Poly TC8 |3.5.0.210489|
+|Комнаты Teams android|Yealink VC210|118.15.0.54|
 
 ## <a name="add-a-device-mac-address"></a>Добавление адреса MAC устройства
 
@@ -52,7 +62,7 @@ ms.locfileid: "58235384"
 
 1. Войдите в Центр администрирования Teams.
 2. Развернуть **устройства**.
-3. На **вкладке Действия выберите** Пункт Подготовка **нового** устройства.
+3. На **вкладке Действия выберите** Подготовка **нового** устройства.
 
 В **окне Подготовка новых устройств** можно добавить адрес MAC вручную или отправить файл.
 
@@ -75,7 +85,7 @@ ms.locfileid: "58235384"
 
 ## <a name="generate-a-verification-code"></a>Создание проверочных кодов
 
-Для этих устройств необходим код проверки. Код проверки создается массово или на уровне устройства и действителен в течение 24 часов.
+Вам потребуется код проверки для устройств. Код проверки создается массово или на уровне устройства и действителен в течение 24 часов.
 
 1. На **вкладке Ожидание активации** выберите существующий ИД MAC.
    Пароль создается для адреса MAC и отображается в столбце **Код проверки.**
@@ -92,7 +102,7 @@ ms.locfileid: "58235384"
   
 2. Специалист вводит код проверки для конкретного устройства в предоставленное поле ввода.
 
-   ![Подготовка новой проверки устройства](../media/provision-device-verification1.png)
+   ![Подготовка проверки нового устройства](../media/provision-device-verification1.png)
 
    После успешной подготовка устройства на странице для регистрации появится имя клиента.
 
