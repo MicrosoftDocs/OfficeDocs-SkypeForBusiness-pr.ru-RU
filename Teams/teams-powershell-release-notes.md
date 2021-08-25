@@ -13,12 +13,12 @@ ms.collection:
 description: Узнайте о последних изменениях в Teams PowerShell.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e3fbffcf36e05aab945833bcf6a09e097d6c0c39
-ms.sourcegitcommit: 2e1d97a3181fe12be43a0641039dca6077863f44
+ms.openlocfilehash: 88c00fbad17c07e179c1163ec393c95859ac4705
+ms.sourcegitcommit: a8965ff7b05ff600e3c426a4fff5fdba8b4c8b0b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "58380453"
+ms.lasthandoff: 08/25/2021
+ms.locfileid: "58523790"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Microsoft Teams Заметки о выпуске PowerShell
 
@@ -31,7 +31,7 @@ ms.locfileid: "58380453"
 
 | Дата | Версия | Обновления |
 |------- | -------------------- | ------------------------------ |
-| Август 2021 г. | [2.5.0](https://www.powershellgallery.com/packages/MicrosoftTeams/2.5.0) |<li>Обновления для входа AccessToken с Подключение MicrosoftTeams.</li><li>Исправления для интерактивного входа в Connect-MicrosoftTeams в облаке.</li><li>Улучшения в New-Team для сценариев создания команд.</li><li>Командлеты TeamsNussignedNumberTreatment теперь доступны.</li><li>Get-CsCsOnlineDialInConferencingBridge и Set-CsOnlineDialInConferencingBridge.</li><li>Выпускает современные версии Get-CsTenant, Get-CsOnlineUser (только с параметром -identity).</li>|
+| Август 2021 г. | [2.5.0](https://www.powershellgallery.com/packages/MicrosoftTeams/2.5.0) |<li>Командлет New-Team обновлен с помощью более нового API, чтобы предотвратить сбои при создании команд, которые наблюдались ранее. Таким образом, было улучшено количество сбоев и задержки для этого cmdlet.</li><li>Для входа в токен Access для Connect-MicrosoftTeams теперь используется единый массив маркеров, а не отдельные параметры для каждого маркера ресурса. Дополнительные сведения можно найти [здесь.](/powershell/module/teams/connect-microsoftteams?view=teams-ps)</li><li>Исправлена интерактивная ошибка входа Connect-MicrosoftTeams в Cloudshell. Теперь по умолчанию используется учетное лицо пользователя, а не запрос на повторное аутентификацию.</li><li>Командлеты TeamsNussignedNumberTreatment теперь доступны.</li><li>Get-CsOnlineDialInConferencingBridge и Set-CsOnlineDialInConferencingBridge теперь перенесены из старой реализации в более новые API.</li><li>Выпущены современные Get-CsTenant и Get-CsOnlineUser (только с параметрами -identity). Они больше не излучают неподготовленные свойства и имеют некоторые изменения форматирования по сравнению с аналогами перенастановки.</li>|
 | Июль 2021 г. | [Предварительный просмотр 2.4.1](https://www.powershellgallery.com/packages/MicrosoftTeams/2.4.1-preview) |<li>Предоставить изменения, внесенные в cmdlets, уже доступно.</li><li>Выпускаются новые видеокалеты, связанные с голосовой связи.</li><li>Удаление проверки подлинности thumbprint сертификата для -Cs* cmdlets.</li><li>Исправление для ведения журнала для файлов всех cmdlets.</li><li>Устранение проблем с командлетами *TeamChannelUser.</li>|
 | Июнь 2021 г. | [2.4.0-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/2.4.0-preview) |<li>Предварительная версия только современных версий Get-CsTenant, Get-CsOnlineUser (только с параметром -identity), Get-CsOnlineDialInConferencingLanguagesSupported и Import-CsOnlineAudioFile.</li><li>Современные версии Get-CsOnlineDialInConferencingLanguagesSupported и Import-CsOnlineAudioFile должны работать аналогично их версиям для перенауполниния.</li><li>Современные версии Get-CsTenant и Get-CsOnlineUser (при запуске с параметром -identity) не излучают неподготовленные свойства.</li><li>В современных версиях Get-CsTenant и Get-CsOnlineUser (при запуске с параметром -identity) изменяется форматирование по сравнению с их счетчиками.</li><li>Releases [Get \| Set \| Grant New \| \| Remove]-CsTeamsAudioConferencingPolicy cmdlets.</li><li>Выпуск Get-CsOnlineAudioFile и Remove-CsOnlineAudioFile.</li><li>Set-TeamTargetingHierarchy, Remove-TeamTargetingHierarchy, Get-TeamTargetingHierarchyStatus теперь доступны для GCC пользователей.</li><li>Исправление конечной точки, которая называется командой Get-TeamTargetingHierarchyStatus.</li>|
 | Май 2021 г. | [2.3.2-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/2.3.2-preview) |<li>Поддержка входа AccessToken с Подключение MicrosoftTeams. Добавлен параметр -AccessTokens, который принимает массив маркера. Для использования параметра AccessTokens требуются msGraph и Teams маркеры ресурсов.</li><li>Удалены параметры AadAccessToken и MsAccessToken.</li>|
@@ -53,7 +53,7 @@ ms.locfileid: "58380453"
 | Март 2020 г. | [1.0.5](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.5) |<li>Добавлено New-CsBatchPolicyAssignmentOperation</li> |
 | Февраль 2020 г. | [1.0.4](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.4) | <li>Get-Team оптимизации</li>  |
 
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Статьи по теме
 
 [Обзор PowerShell в Teams](teams-powershell-overview.md)
 
