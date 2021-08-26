@@ -19,12 +19,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 510806c6b33260913454fa30f560b785b862b661dc04bf8eaf5279995c5a51a7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 002aa42786e1464e4aa62c72755c21b37e3225d4
+ms.sourcegitcommit: a8965ff7b05ff600e3c426a4fff5fdba8b4c8b0b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54352288"
+ms.lasthandoff: 08/25/2021
+ms.locfileid: "58523850"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Работа с клиентами для Microsoft Teams
 
@@ -54,7 +54,7 @@ ms.locfileid: "54352288"
 ИТ-администраторы могут выбрать предпочтительный способ распространения установочных файлов на компьютеры в своей организации. Некоторые примеры включают Microsoft Endpoint Configuration Manager (Windows) или Jamf Pro (macOS). Сведения о получении MSI-пакета для распространения в Windows см. в статье [Установка Microsoft Teams с помощью MSI](msi-deployment.md).
 
 > [!NOTE]
-> Распространение посредством этих механизмов подходит только для начальной установки клиентов Microsoft Team, но не для дальнейших обновлений.
+> Распространение посредством этих механизмов подходит только для начальной установки клиентов Microsoft Teams, но не для дальнейших обновлений.
 
 ### <a name="windows"></a>Windows
 

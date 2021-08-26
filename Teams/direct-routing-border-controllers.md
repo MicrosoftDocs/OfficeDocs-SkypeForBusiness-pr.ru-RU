@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Узнайте, какие пограничные контроллеры сеансов (SCS) были сертифицированы для прямой маршрутизации.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 15345077914ae36abe18a0ec760c0506ce132f73
-ms.sourcegitcommit: b17e5acadcca0261eaccc64e1b4ee457348f975c
+ms.openlocfilehash: 0def7a1b9938a97a09e08f158c45f04a69879d64
+ms.sourcegitcommit: dcba13777a03780e5dfb3938d9cf6b1d861a2fff
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58365796"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58531029"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>Пограничные контроллеры сеансов, сертифицированные для прямой маршрутизации
 
@@ -97,7 +97,7 @@ ms.locfileid: "58365796"
 
 <br/>
 
-* Поставщики услуг 911
+\* **Поставщики услуг 911**
 
 - [Маршрутизация динамического расположения пропускной способности](https://www.bandwidth.com/partners/microsoft-teams-direct-routing/)
 - [Служба маршрутизации службы экстренной помощи (ERS) Intrado](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)
