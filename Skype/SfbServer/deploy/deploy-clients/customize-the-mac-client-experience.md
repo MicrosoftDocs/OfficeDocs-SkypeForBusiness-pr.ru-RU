@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d1d9cfec-e923-4d02-a306-ee40a9114cb8
 description: В этой статье описываются клиентские предпочтения и по умолчанию, доступные для Skype для бизнеса mac-клиента, а также то, как их редактировать из-за пределов приложения.
-ms.openlocfilehash: bf93b08686ed245fab38364cf9aff4fee0526a8bd496231865640aeb2c6e67f0
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9ece447b7d3bce37784e0f1d0b3f8fe3746fce86
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54325496"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578133"
 ---
 # <a name="customize-the-mac-client-experience-in-skype-for-business"></a>Настройка клиентского опыта Mac в Skype для бизнеса
  
@@ -43,7 +43,7 @@ ms.locfileid: "54325496"
 |httpProxyUserName    |String    ||ИМЯ пользователя HTTP Прокси    |
 |httpProxyPassword    |String    ||Пароль прокси-сервера HTTP    |
 |trustedDomainList    |Массив    ||Список доверенных доменов для перенаправлений HTTP.    |
-|autoAcceptTimeout    |Числовой    |300 (по умолчанию)    |Автоматическое принятие времени для пользователей без истории беседы на стороне сервера.    |
+|autoAcceptTimeout    |Номер    |300 (по умолчанию)    |Автоматическое принятие времени для пользователей без истории беседы на стороне сервера.    |
 |warnWhenUnknownLocationForE911    |Логический    |0 = Отключено  <br/> 1 = Включено    |Предупреждает пользователя при наборе экстренного номера из неизвестного расположения.    |
 |sipAddress    |String    ||SIP-адрес (электронная почта), используемый для регистрации Skype для бизнеса.    |
 |userName    |String    ||UpN (UserName), используемый для регистрации для Skype для бизнеса.    |

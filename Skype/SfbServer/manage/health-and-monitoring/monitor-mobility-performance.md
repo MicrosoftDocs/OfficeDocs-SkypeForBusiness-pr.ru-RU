@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9c831c63-9a7d-48ec-9118-f8a7e80ddd04
 description: Сводка. Сведения о службе мобильности (Mcx) и веб-API единой связи (UCWA) в Skype для бизнеса Server.
-ms.openlocfilehash: 3e7d64a4dbefed7132206186069ef9646deb802ac0eb9de02d39b602c2dc4ffe
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 556e50a162e455b1d0805c55fa34cb8f4de1603e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54345596"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58598893"
 ---
 # <a name="monitor-mobility-for-performance-in-skype-for-business-server"></a>Мониторинг мобильности для производительности в Skype для бизнеса Server
  
@@ -40,7 +40,7 @@ ms.locfileid: "54345596"
     
 Другие ограничения для серверов, которые могут влиять на производительность мобильности, — это не более 12 одновременно входов, проверки подлинности, продления сеансов и прерывания сеансов. В большинстве развертываний эти максимальные значения не нуждаются в изменении.
   
-## <a name="in-this-section"></a>Содержание
+## <a name="in-this-section"></a>В этой статье
 
 - [Мониторинг ограничений емкости памяти сервера в Skype для бизнеса Server](server-memory-capacity-limits.md)
     

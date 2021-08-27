@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.OfficeWebAppsServerSettingsExpander
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7a4b91ff-ca11-4dde-852d-ec51d143968a
 ROBOTS: NOINDEX, NOFOLLOW
 description: Вы редактируете свойства настраиваемого Office сервера веб-приложений. Для редактирования доступны следующие свойства.
-ms.openlocfilehash: d5e791e8f405941c706c20e855b63a47113c68ca33c4233ccacbc7a35d445c90
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 907892ba2644bd85a559c1afbce1e01c9de9742f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54320791"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58585193"
 ---
 # <a name="edit-office-web-apps-server-settings"></a>Изменение параметров сервера Office Web Apps
 
@@ -34,6 +34,6 @@ ms.locfileid: "54320791"
 
 ![Office Веб-приложения Параметры expander](../../../media/OfficeWebApps_Settings_Expander.jpg)
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>Дополнительные материалы
 
 [Компоненты и топологии для конференц-связи](/previous-versions/office/lync-server-2013/lync-server-2013-components-and-topologies-for-conferencing)

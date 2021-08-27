@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.ClientPhoneCfgMain
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e1148124-e04a-4ae6-b601-ed48df69d194
 description: Конфигурация устройства — это набор параметров, используемых для управления устройствами Skype для бизнеса Телефон Edition на глобальном уровне или на сайте. Эти настройки позволяют настраивать такие параметры, как требуемый режим безопасности, уровень ведения журнала на устройстве, качество обслуживания голосовой связи (QoS), и определять необходимость автоматической блокировки телефонов по истечении заданного периода неактивности.
-ms.openlocfilehash: f8d2ea114cc955c9c0e1fb0dd1856dc474335975761282b6e894e9978a3111f3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4c851a03d17615cadeae65f9b2d54a3db2788edb
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54320631"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58579043"
 ---
 # <a name="device-configuration"></a>Конфигурация устройств
  
@@ -42,7 +42,7 @@ ms.locfileid: "54320631"
     
   - Глобальные
     
-  - Site
+  - Сайт
     
 - **Изменение** В списке можно изменить параметры конфигурации устройства. С помощью этой команды можно выполнить следующие действия:
     
@@ -54,7 +54,7 @@ ms.locfileid: "54320631"
     
 - **Обновление** Вы можете обновить список конфигурации устройств, чтобы проверить состояние параметров всех конфигураций устройств.
     
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>Дополнительные материалы
 
 [Конфигурация устройств: создание новой или редактирование существующей](device-configuration-create-new-or-edit-existing.md)
 

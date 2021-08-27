@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: Сводка. Узнайте, как использовать PowerShell для получения функций SEFAUtil в Skype для бизнеса Server 2019 г. после установки накопительного обновления 1.
-ms.openlocfilehash: afb0c34afedde91bac40ee90b155809ed3c2b557d88608028b77e0835eb9661d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 88e62543f41d9a497b9b0ca28c55322fbe5f5be7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54277624"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578183"
 ---
 # <a name="using-sefautil-functionality-via-powershell-in-skype-for-business-server-2019"></a>Использование функций SEFAUtil через PowerShell в Skype для бизнеса Server 2019 г.
 
@@ -94,7 +94,7 @@ SEFAUtil (Активация дополнительных функций рас�
 
 Этот командлет задает список команд определенным участникам.
 
-## <a name="more-information"></a>Дополнительная информация
+## <a name="more-information"></a>Дополнительные сведения
 
 Для локального развертывания команды, введенные в эту функцию, могут запускаться только членами следующих групп на уровне доступа, указанном ниже:
 

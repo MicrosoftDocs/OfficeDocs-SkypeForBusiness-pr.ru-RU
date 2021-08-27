@@ -13,7 +13,7 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - CSH
@@ -21,12 +21,12 @@ ms.custom:
 - Setup
 - ms.lync.lac.FeatureNotEnabled
 description: 'Поиск возможных причин и предложений действий при Skype для бизнеса ошибки "Функция в Сети не включена". '
-ms.openlocfilehash: 89920c366d9465534279bd8fe2e31f6a3140027a4ed8e21697ad489da8ab552d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 890fe064e77e6cbd78ba231dc33bf4852f868269
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54332311"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58592013"
 ---
 # <a name="this-skype-for-business-online-feature-isnt-enabled"></a>Эта Skype для бизнеса Online не включена
 
@@ -36,7 +36,7 @@ ms.locfileid: "54332311"
   
 |**Возможная причина**|**Рекомендуемые действия**|
 |:-----|:-----|
-|У вас есть доступные лицензии, но вы не включили эту функцию для этого пользователя.  <br/> |Перейдите **на** Центр администрирования Microsoft 365  >  **активных пользователей, чтобы** на лицензию этого пользователя. <br/> |
+|У вас есть доступные лицензии, но вы не включили эту функцию для этого пользователя.  <br/> |Перейдите **на** Центр администрирования Microsoft 365  >  **активных пользователей,** чтобы лицензировать этого пользователя. <br/> |
 |Пользователь находится в расположении, где эта функция недоступна.  <br/> |По возможности перейдите **в** Центр администрирования Microsoft 365  >  **активных пользователей** и назначьте этому пользователю расположение, в котором доступна эта функция. <br/> |
 |Эта функция не включена для вашей организации.  <br/> |Перейдите **Центр администрирования Microsoft 365**  >  **Skype для бизнеса** и включите функцию для всей организации. <br/> |
    

@@ -10,16 +10,16 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d56e11be-43dd-45d4-8ac6-3adfb03f5d1a
 description: Сводка. Просмотрите эту тему при планировании интеграции Skype для бизнеса Server с Exchange 2013 г.
-ms.openlocfilehash: 12f76c1e10eea445adb21147c20ab79f33e38f3c8c578aeab8ec24296bb06594
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 711340ebe7ef2b71d56bfefbb23fe50c0c230f82
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54284629"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58585003"
 ---
 # <a name="plan-for-unified-contact-store-in-skype-for-business-server-2015"></a>Планирование единого магазина контактов в Skype для бизнеса Server 2015 г.
  
@@ -42,6 +42,6 @@ ms.locfileid: "54284629"
     > [!NOTE]
     > Подробные требования по настройке проверки подлинности между Skype для бизнеса Server и Exchange 2013 или 2016 г. см. в документе Управление проверкой подлинности от сервера к серверу [(OAuth)](../../manage/authentication/server-to-server-and-partner-applications.md) и партнерскими приложениями в Skype для бизнеса Server документации по операциям.
   
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>Дополнительные материалы
 
 [Развертывание единого магазина контактов в Skype для бизнеса Server](../../deploy/deploy-unified-contact-store.md)

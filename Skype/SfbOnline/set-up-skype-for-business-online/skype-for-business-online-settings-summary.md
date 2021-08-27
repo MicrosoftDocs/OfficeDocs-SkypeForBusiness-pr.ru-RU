@@ -13,19 +13,19 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 ms.appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOIDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
-description: 'Эта сводка параметров Skype для бизнеса организации и пользователей поможет вам подробнее узнать о подключениях к общедоступным мгновенным звонкам, приглашениях на собрания, записи звонков и собраний и других действиях.  '
-ms.openlocfilehash: 7c7bb451411b8aa865f94679f70c07df1efdc2bf0b2df0c0ee0da5b92438f63a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 'Эта сводка параметров Skype для бизнеса организации и пользователей поможет вам узнать больше о подключениях к общедоступным мгновенным звонкам, приглашениях на собрания, записи звонков и собраний и других действиях.  '
+ms.openlocfilehash: 9a1320951049e5558574c36e4bde4feea46d8ff6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54295106"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58592033"
 ---
 # <a name="skype-for-business-online-settings-summary"></a>Общие сведения о параметрах Skype для бизнеса Online
 

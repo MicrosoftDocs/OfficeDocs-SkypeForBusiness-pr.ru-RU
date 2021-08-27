@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9091de56-13e6-440e-9353-f57c10c906fe
 description: Сводка. Сведения о сводке диагностики вызовов, используемой в Skype для бизнеса Server.
-ms.openlocfilehash: 35b6a9ac84bf504b218200ec2ac49e6f19632e520eba90335e9ab0257f4bcfcc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b3da3315566db66876329ab257ff6fa8d78f81b3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54281842"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58585083"
 ---
 # <a name="call-diagnostic-summary-report-in-skype-for-business-server"></a>Call Diagnostic Summary Report in Skype для бизнеса Server
  
@@ -70,7 +70,7 @@ ms.locfileid: "54281842"
   
 **Метрики для одноранговых сеансов**
 
-|**Название**|**Возможность сортировки по этому показателю**|**Description**|
+|**Название**|**Возможность сортировки по этому показателю**|**Описание**|
 |:-----|:-----|:-----|
 |**Всего сеансов** <br/> |Нет  <br/> |Общее количество проведенных одноранговых сеансов.  <br/> |
 |**Failure rate (Количество неудачных сеансов)** <br/> |Нет  <br/> |Процент неудачных одноранговых сеансов. Если щелкнуть этот элемент, то появится диагностический отчет по одноранговым действиям, отображающий более подробные сведения о неудачных одноранговых сеансах.  <br/> |
@@ -81,7 +81,7 @@ ms.locfileid: "54281842"
   
 **Метрики для сеансов конференц-связи**
 
-|**Название**|**Возможность сортировки по этому показателю**|**Description**|
+|**Название**|**Возможность сортировки по этому показателю**|**Описание**|
 |:-----|:-----|:-----|
 |**Total conferences** (Всего конференций) <br/> |Нет  <br/> |Общее количество проведенных конференций.  <br/> |
 |**Общее количество сеансов конференц-связи** <br/> |Нет  <br/> |Общее количество проведенных сеансов конференц-связи.  <br/> |

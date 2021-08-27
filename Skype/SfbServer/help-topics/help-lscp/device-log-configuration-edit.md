@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.ClientDeviceUpdateEdit
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e534e6a5-fb3e-40b1-a189-fce64c42f512
 description: Вы можете добавить на страницу Изменение настройки журнала настройку журнала устройств, определяющую максимальный размер кэша журнала, максимальный размер файла журнала или длительность хранения файла журнала перед очисткой. Эти параметры можно изменить в соответствии с требованиями организации.
-ms.openlocfilehash: a2900d452dd0342ddd60813e35d4611b6ea6ccca6cad114237d87bd915243191
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ff199e0fcf7257137307211827bd6d9a0e8a4c4c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54304051"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58579023"
 ---
 # <a name="device-log-configuration-edit"></a>Конфигурация журнала устройств: редактирование
  
@@ -53,6 +53,6 @@ ms.locfileid: "54304051"
     
 - **Дни для сохраняемого файла журнала (1-365)** Вы можете указать количество дней, которые хранятся файлы журнала перед их чисткой. По умолчанию — 10 дней.
     
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>Дополнительные материалы
 
 [Конфигурация журнала устройств](device-log-configuration.md)

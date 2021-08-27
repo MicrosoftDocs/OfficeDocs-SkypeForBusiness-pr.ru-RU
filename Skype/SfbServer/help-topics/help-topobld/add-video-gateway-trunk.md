@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddVideoGatewayTrunkPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9485bea9-c646-4eb7-b3d0-dcbc57cdfbda
 description: Действия, необходимые для определения нового шлюза VIS или видео в Topology Builder, описаны в интернете в "Создание пула VIS в Skype для бизнеса Server 2015 г.
-ms.openlocfilehash: 89cc9ba9bbd060b9d7c74a44983786c52e251e61ca4e6be8a186b23b34ea4cca
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4d5c443f55833ace641f4a05021f26e7fb4a3c85
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54341974"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578933"
 ---
 # <a name="add-video-gateway-trunk"></a>Добавление магистрали видеошлюза
  
@@ -34,6 +34,6 @@ ms.locfileid: "54341974"
   
  Параметры VTC, которые необходимо установить в интерфейсе Cisco для межоперации с видео шлюзом и viS, описаны в Интернете на [сайте Configure a VTC for Interoperation with Skype для бизнеса Server 2015](../../deploy/deploy-video-interop-server/configure-a-vtc-for-interoperation.md).
   
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>Дополнительные материалы
 
 [Планирование видео-интероп-сервера в Skype для бизнеса Server 2015 г.](../../plan-your-deployment/video-interop-server.md)

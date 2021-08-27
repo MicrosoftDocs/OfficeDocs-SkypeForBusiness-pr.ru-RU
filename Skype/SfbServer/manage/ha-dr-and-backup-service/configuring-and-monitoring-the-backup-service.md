@@ -9,14 +9,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Для настройки и мониторинга службы резервного копирования можно использовать Skype для бизнеса Server команд командной оболочки управления.
-ms.openlocfilehash: 27d73088fbf4214777d9eb010e0074073517a35220cdd5137ee794addda0c983
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: df0e7d985e9941e4af41a4cec5456774e5a3a4dd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54336679"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58612298"
 ---
 # <a name="configuring-and-monitoring-the-backup-service-in-skype-for-business-server"></a>Настройка и мониторинг службы резервного копирования в Skype для бизнеса Server
 
@@ -27,21 +27,15 @@ ms.locfileid: "54336679"
 
 ## <a name="to-see-the-backup-service-configuration"></a>Просмотр конфигурации службы резервного копирования
 
-Выполните следующий командлет:
-
-    Get-CsBackupServiceConfiguration
+Выполните следующий командлет:<br/><br/>Get-CsBackupServiceConfiguration
 
 Значение SyncInterval по умолчанию равно двум минутам.
 
 ## <a name="to-set-the-backup-service-sync-interval"></a>Установка интервала синхронизации для службы резервного копирования
 
-Выполните следующий командлет:
+Выполните следующий командлет:<br/><br/>Set-CsBackupServiceConfiguration -SyncInterval
 
-    Set-CsBackupServiceConfiguration -SyncInterval interval
-
-Например, следующая команда задает интервал в три минуты.
-
-    Set-CsBackupServiceConfiguration -SyncInterval 00:03:00
+Например, следующая команда задает интервал в три минуты.<br/><br/>Set-CsBackupServiceConfiguration SyncInterval 00:03:00
 
 
 > [!IMPORTANT]  
@@ -49,24 +43,18 @@ ms.locfileid: "54336679"
 
 ## <a name="to-get-the-backup-service-status-for-a-particular-pool"></a>Получение состояния службы резервного копирования для конкретного пула
 
-Выполните следующий командлет:
-
-    Get-CsBackupServiceStatus -PoolFqdn <pool-FQDN>
+Выполните следующий командлет:<br/><br/>Get-CsBackupServiceStatus PoolFqdn \<pool-FQDN>
 
 > [!NOTE]  
 > Состояние синхронизации службы резервного копирования определяется в одном направлении — от пула P1 до его резервного пула P2. Состояние синхронизации от P1 до P2 может отличаться от состояния синхронизации от P2 до P1. Для направления от P1 до P2 служба резервного копирования находится в "готовом" состоянии, если все изменения, внесенные в P1, полностью реплицируются на P2 в течение интервала синхронизации. Она находится в "завершенном" состоянии, если изменений для синхронизации от P1 до P2 больше нет. Оба состояния указывают на мгновенный снимок службы резервного копирования в момент выполнения командлета. Возвращенное состояние не будет оставаться таким же и после. Например, "завершенное" состояние сохранится только до тех пор, пока на P1 не возникнет каких-либо изменений после выполнения командлета. Это же верно в случае аварийного переключения с P1 на P2 после перевода P1 режим только для чтения в рамках логики выполнения **Invoke-CsPoolfailover**.
 
 ## <a name="to-get-information-about-the-backup-relationship-for-a-particular-pool"></a>Получение сведений о резерве для конкретного пула
 
-Выполните следующий командлет:
-
-    Get-CsPoolBackupRelationship -PoolFQDN <poolFQDN>
+Выполните следующий командлет:<br/><br/>Get-CsPoolBackupRelationship PoolFQDN \<poolFQDN>
 
 ## <a name="to-force-a-backup-service-sync"></a>Принудительная синхронизация службы резервного копирования
 
-Выполните следующий командлет:
-
-    Invoke-CsBackupServiceSync -PoolFqdn <poolFqdn> [-BackupModule  {All|PresenceFocus|DataConf|CMSMaster}]
+Выполните следующий командлет:<br/><br/>Invoke-CsBackupServiceSync PoolFqdn \<poolFqdn> [-BackupModule {All| PresenceFocus| DataConf| CMSMaster}]
 
 ## <a name="restore-conference-contents-using-the-backup-service"></a>Восстановление содержимого конференции с помощью службы резервного копирования 
 
@@ -74,12 +62,8 @@ ms.locfileid: "54336679"
 
 Необходимо также выполнить эту задачу, если вследствие сбоя не работает весь пул и необходимо перенести его пользователей в резервный пул. При восстановлении пользователей в исходном пуле необходимо использовать эту процедуру для копирования контента конференций обратно в исходный пул.
 
-Предположим, что пул1 объединен с пулом2, а данные конференций в пуле1 утрачены. Чтобы восстановить содержимое, можно использовать следующий комдлет для вызова службы резервного копирования.
+Предположим, что пул1 объединен с пулом2, а данные конференций в пуле1 утрачены. Чтобы восстановить содержимое, можно использовать следующий комдлет для вызова службы резервного копирования.<br/><br/>Invoke-CsBackupServiceSync PoolFqdn \<Pool2 FQDN> -BackupModule ConfServices.DataConf
 
-    Invoke-CsBackupServiceSync -PoolFqdn <Pool2 FQDN> -BackupModule ConfServices.DataConf
-
-Восстановление содержимого конференций может занять некоторое время в зависимости от размера. Можно использовать приведенный ниже командлет для проверки состояния процесса:
-
-    Get-CsBackupServiceStatus -PoolFqdn <Pool2 FQDN> -BackupModule ConfServices.DataConf
+Восстановление содержимого конференций может занять некоторое время в зависимости от размера. Можно использовать приведенный ниже командлет для проверки состояния процесса:<br/><br/>Get-CsBackupServiceStatus PoolFqdn \<Pool2 FQDN> -BackupModule ConfServices.DataConf
 
 Процесс завершается, когда этот командлет возвращает значение Steady State для данных в модуле конференций.

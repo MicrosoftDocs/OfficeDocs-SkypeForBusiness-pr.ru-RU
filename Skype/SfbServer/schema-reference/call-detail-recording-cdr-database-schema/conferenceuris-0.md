@@ -10,21 +10,21 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9a3cdcea-426e-4b6b-9876-ba746a8de706
 description: В представлении ConfernceUris хранятся сведения об идентификаторах URI, которые участвовали в сеансах конференц-связи. Это представление было представлено в Microsoft Lync Server 2013.
-ms.openlocfilehash: 4e9ee22dfc078e5870dd38ed3de8ee5e93e7fe8716886d3e7c2cb066745b2535
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 40c4538df2b551b86826b3601b901f66b4e917d5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54352537"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58598693"
 ---
 # <a name="conferenceuris-view"></a>Представление ConferenceUris
  
 В представлении ConfernceUris хранятся сведения об идентификаторах URI, которые участвовали в сеансах конференц-связи. Это представление было представлено в Microsoft Lync Server 2013.
   
-|**Column**|**Тип данных**|**Сведения**|
+|**Столбец**|**Тип данных**|**Details**|
 |:-----|:-----|:-----|
 |ConferenceUriId  <br/> |int  <br/> |Уникальный номер, идентифицирующий URI конференции.  <br/> |
 |ConferenceUri  <br/> |nvarchar (450)  <br/> |Идентификатор URI конференции.  <br/> |
