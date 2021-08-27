@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e534e6a5-fb3e-40b1-a189-fce64c42f512
 ROBOTS: NOINDEX, NOFOLLOW
 description: Вы можете добавить на страницу Изменение настройки журнала настройку журнала устройств, определяющую максимальный размер кэша журнала, максимальный размер файла журнала или длительность хранения файла журнала перед очисткой. Эти параметры можно изменить в соответствии с требованиями организации.
-ms.openlocfilehash: e1dc3baec529640562b86372cbf3dbb4d797ec946fd1dcb0495613c40fe64b75
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1946eb8ad9211345cf47b2149c3619f81c9e388f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54280244"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58607506"
 ---
 # <a name="device-log-configuration-edit"></a>Конфигурация журнала устройств: редактирование
  

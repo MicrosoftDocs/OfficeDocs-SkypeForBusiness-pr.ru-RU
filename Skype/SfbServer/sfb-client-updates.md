@@ -9,15 +9,15 @@ ms.topic: reference
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: Предоставляет ИТ-специалисты ссылки на последние сведения об обновлении для постоянных версий Skype для бизнеса 2016, Skype для бизнеса 2015 и Lync 2013
-ms.openlocfilehash: 93691e0bccf48e6f1be8a37f817ae3617a4a9301cf12c6e462bb1d66f57a7a84
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: bff52ddfd2a037af9bac9d79d36a2a7acd156baa
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54349681"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58581343"
 ---
 # <a name="latest-updates-for-versions-of-skype-for-business-that-use-windows-installer-msi"></a>Последние обновления для версий Skype для бизнеса, Windows установки (MSI)
 
@@ -47,10 +47,10 @@ Skype для бизнеса совместимость с Microsoft 365 или O
 |Название пакета|Номер статьи в базе знаний|Дата выпуска|
 |:---  |:---  |:---  |
 |Обновление за Skype для бизнеса 2016 г. |[KB 4484133](https://support.microsoft.com/kb/4484133) | Декабрь 2019 г.|
-|Обновление за Skype для бизнеса 2016 г. |[KB 4484102](https://support.microsoft.com/kb/4484102) | Октябрь 2019|
-|Обновление за Skype для бизнеса 2016 г. |[KB 4475577](https://support.microsoft.com/kb/4475577) | Сентябрь 2019|
-|Обновление за Skype для бизнеса 2016 г. |[KB 4475548](https://support.microsoft.com/kb/4475548) | Август 2019|
-|Обновление за Skype для бизнеса 2016 г. |[KB 4475545](https://support.microsoft.com/kb/4475545) | Июль 2019|
+|Обновление за Skype для бизнеса 2016 г. |[KB 4484102](https://support.microsoft.com/kb/4484102) | Октябрь 2019 г.|
+|Обновление за Skype для бизнеса 2016 г. |[KB 4475577](https://support.microsoft.com/kb/4475577) | Сентябрь 2019 г.|
+|Обновление за Skype для бизнеса 2016 г. |[KB 4475548](https://support.microsoft.com/kb/4475548) | Август 2019 г.|
+|Обновление за Skype для бизнеса 2016 г. |[KB 4475545](https://support.microsoft.com/kb/4475545) | Июль 2019 г.|
 |Обновление за Skype для бизнеса 2016 г. |[KB 4464576](https://support.microsoft.com/kb/4464576) | Июнь 2019 г.|
 |Обновление за Skype для бизнеса 2016 г. |[KB 4464532](https://support.microsoft.com/kb/4464532) | Май 2019 г.|
 |Обновление за Skype для бизнеса 2016 г. |[KB 4462234](https://support.microsoft.com/kb/4462234/) | Апрель 2019 г.|
@@ -98,7 +98,7 @@ Skype для бизнеса совместимость с Microsoft 365 или O
 
 |Название пакета|Номер статьи в базе знаний|Дата выпуска|
 |:--- |:--- |:--- |
-|Обновление для Skype для бизнеса 2015/Lync 2013 |[KB 4475519](https://support.microsoft.com/kb/4475519/)| Июль 2019 |
+|Обновление для Skype для бизнеса 2015/Lync 2013 |[KB 4475519](https://support.microsoft.com/kb/4475519/)| Июль 2019 г. |
 |Обновление для Skype для бизнеса 2015/Lync 2013 |[KB 4464593](https://support.microsoft.com/kb/4464593/)| Июнь 2019 г. |
 |Обновление для Skype для бизнеса 2015/Lync 2013 |[KB 4464547](https://support.microsoft.com/kb/4464547/)| Май 2019 г. |
 |Обновление для Skype для бизнеса 2015/Lync 2013 |[KB 4462207](https://support.microsoft.com/kb/4462207/)| Апрель 2019 г. |

@@ -15,19 +15,19 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: Узнайте, как искать номера для аудиоконференций с телефонным Microsoft Teams.
-ms.openlocfilehash: bc10e9d5d7ffe3dd46ec9e0c541c3663190a339675b540e0109140661f37c32d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3e4e1c80d04cdb07b9d2d7ce993f4cab28de2155
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54293016"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58601114"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-microsoft-teams"></a>Просмотр списка номеров для аудиоконференций в Microsoft Teams
 
@@ -46,7 +46,7 @@ ms.locfileid: "54293016"
 
 ![Значок с логотипом Microsoft Teams](media/teams-logo-30x30.png) **Использование центра администрирования Microsoft Teams**
 
-1. В левой области навигации перейдите к **мосту Конференц-связь**  >  **собраний**. 
+1. На левой навигации перейдите к **мосту Конференц-связь**  >  **собраний**. 
 2. Просмотр номеров телефонов, доступных для аудиоконференций.
 
 - Вы также можете просмотреть расположение и основной язык, которые будет использовать автозаводщик аудиоконференция.

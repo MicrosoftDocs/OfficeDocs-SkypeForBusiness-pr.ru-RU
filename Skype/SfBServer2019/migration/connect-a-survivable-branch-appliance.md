@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Каждый остающийся в живых прибор филиала (SBA) связан с пулом переднего конца, который служит резервным регистратором для SBA. При переносе пула переднего Skype для бизнеса Server 2019 г. SBA необходимо отсоединяя от пула переднего конца при обновлении пула, после переноса пула на Skype для бизнеса Server 2019 г. SBA может быть повторно связан с обновленным пулом переднего конца. Это включает удаление SBA из устаревшей топологии в Topology Builder и добавление SBA в топологию 2019 Skype для бизнеса Server 2019. Пользователи, уехав на устаревшую SBA, сначала должны быть перемещены в другой пул переднего конца, а затем удалить SBA из топологии. После того как SBA будет добавлена в топологию 2019 Skype для бизнеса Server, эти пользователи могут быть перемещены обратно в SBA. Эти действия приведены ниже.
-ms.openlocfilehash: 4977868c45b274adea514d84e251f682da02cc8ee486a5a182d984ee652f3ae2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c431451503efd23039b4c358488bfc5bce03ba65
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54313877"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58588051"
 ---
 # <a name="connect-a-survivable-branch-appliance"></a>Подключение Survivable Branch Appliance
 

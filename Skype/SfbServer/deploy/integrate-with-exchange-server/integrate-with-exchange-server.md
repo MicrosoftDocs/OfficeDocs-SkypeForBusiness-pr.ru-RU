@@ -10,16 +10,16 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 795dc1c6-524f-4012-8b66-103b55198044
 description: Сводка. Обзор действий по интеграции Exchange Server 2016 или Exchange Server 2013 и Skype для бизнеса Server.
-ms.openlocfilehash: c2775133715ecae783880ed738784252ecab32e231a53db55579769f0e22320e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 44b27328252384d6c7635cee2f0c98dafdd180ac
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54282352"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58621791"
 ---
 # <a name="integrate-skype-for-business-server-with-exchange-server"></a>Интеграция Skype для бизнеса Server с Exchange Server
 
@@ -33,7 +33,7 @@ Exchange Server 2013 или Skype для бизнеса Server совмести�
 
 Если вы интегрировали Skype для бизнеса Online с Exchange Server на локальной основе, см. в рубке [Настройка OAuth](oauth-with-online-and-on-premises.md)между Skype для бизнеса Online и Exchange в помещениях .
 
-## <a name="in-this-section"></a>Содержание
+## <a name="in-this-section"></a>В этой статье
 
 [Настройка партнерских приложений в Skype для бизнеса Server и Exchange Server](configure-partner-applications.md)
 

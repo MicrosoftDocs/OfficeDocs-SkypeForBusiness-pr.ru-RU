@@ -7,26 +7,26 @@ ms.topic: article
 ms.reviewer: ritikag
 ms.service: msteams
 audience: admin
-description: Используйте этот сценарий PowerShell для создания политики обмена сообщениями в Teams и назначения ее пользователям в организации.
+description: Используйте этот сценарий PowerShell, чтобы создать политику обмена сообщениями в Teams назначить ее пользователям в организации.
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 9e33e31c5fc6b005459e8b216a2cfec984b80e73dc821d4e13fcaac0d02acf86
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 323809b5a47168c67f2a7a01e45922c69fc248ba
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54319682"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58601124"
 ---
 # <a name="powershell-script-sample---create-and-assign-a-messaging-policy"></a>Пример сценария PowerShell — создание и назначение политики обмена сообщениями
 
-Используйте этот сценарий PowerShell для создания политики сообщений в Microsoft Teams и назначения ее пользователям. 
+Используйте этот сценарий PowerShell, чтобы создать политику обмена сообщениями в Microsoft Teams назначить ее пользователям. 
 
 Дополнительные сведения об использовании этого сценария PowerShell см. в кратком начале [Teams для образования.](../teams-quick-start-edu.yml)
 
@@ -37,7 +37,7 @@ ms.locfileid: "54319682"
 
 Скачайте и установите [модуль Skype для бизнеса Online PowerShell](https://www.microsoft.com/download/details.aspx?id=39366), а затем перезагрузите компьютер, если будет предложено.
 
-Подробнее об этом можно узнать в [Skype для бизнеса Online с помощью Office 365 PowerShell.](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)
+Дополнительные обзоры см. в [Skype для бизнеса Online с помощью Office 365 PowerShell.](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)
 
 ## <a name="sample-script"></a>Пример сценария
 

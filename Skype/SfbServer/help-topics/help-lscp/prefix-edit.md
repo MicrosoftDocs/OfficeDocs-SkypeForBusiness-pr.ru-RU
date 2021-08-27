@@ -12,20 +12,20 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.VoiceRoutePrefixEdit
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a6e63c33-7927-4813-81cc-9624c2098177
 description: Чтобы задать префиксы или начальные цифры, добавьте числовые префиксы, которые должны обрабатываться этим маршрутом, включая знак "+", если необходимо. Например, можно сопоставить все номера, начинающиеся с "+123".
-ms.openlocfilehash: 67a6598281267c6a36028b6030e0f1b2dd8b9c1adb5b3130ac986cf89e07d82c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f5603b70b35144412446dcc1433c0be6dd8b40cb
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54311277"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58581563"
 ---
 # <a name="prefix-edit"></a>Редактирование префиксов
  
 Чтобы задать префиксы или начальные цифры, добавьте числовые префиксы, которые должны обрабатываться этим маршрутом, включая знак "+", если необходимо. Например, можно сопоставить все номера, начинающиеся с "+123".
   
-Сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнес-серверов, см. в материале Управление Skype для бизнеса [Server 2015.](../../manage/manage.md)
+Сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнеса Server, см. в Skype для бизнеса Server [2015](../../manage/manage.md)г.
   
 

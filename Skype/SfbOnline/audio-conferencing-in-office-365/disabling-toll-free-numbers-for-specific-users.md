@@ -14,18 +14,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
 description: Администраторы управляют тем, как организаторы могут использовать бесплатные номера для их собраний.
-ms.openlocfilehash: aabc72f5e413b8f760981b8fac364afc836be5ce058d5999e2c19f96109141b4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5ae82a1eef27793f700c50936e9dec37cd6c9ddd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54310278"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58587939"
 ---
 # <a name="disabling-toll-free-numbers-for-specific-skype-for-business-online-users"></a>Отключение бесплатных номеров для определенных пользователей Skype для бизнеса Online
 
@@ -51,7 +51,7 @@ ms.locfileid: "54310278"
 
 ## <a name="disabling-toll-free-numbers-for-specific-users"></a>Отключение бесплатных номеров для определенных пользователей 
 
-В центре **Microsoft Teams администрирования:**
+В Центре **Microsoft Teams администрирования:**
 
 1. В левой области навигации щелкните **Пользователи** и выберите пользователя из списка доступных пользователей.
 

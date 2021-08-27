@@ -14,18 +14,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
 description: В этой таблице вы найдете сведения о получении номеров телефонов в Люксембурге и управлении Microsoft Teams.
-ms.openlocfilehash: 3d7aa278f15a5b0256e271b627afa675aa25c274
-ms.sourcegitcommit: b17e5acadcca0261eaccc64e1b4ee457348f975c
+ms.openlocfilehash: 375f449a92f7f107d3b1a9a56e07162f0dd1bb5d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58365616"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58601144"
 ---
 # <a name="phone-number-management-for-luxembourg"></a>Телефон управления номерами для Люксембурга
 
@@ -37,11 +37,11 @@ ms.locfileid: "58365616"
   
 |**Требуемое действие**|**Загрузка подходящих форм**|
 |:-----|:-----|
-|Получите новые номера пользователей или номеров телефонов служб, которые не указаны в Microsoft Teams центре администрирования. |В Люксембурге вы можете получить номера телефонов для своей организации с помощью центра Microsoft Teams администрирования. Кроме того, вы можете отправить запрос на новый номер телефона, скачав форму и обратившись к [ТССК за инструкциями.](contact-pstn-service-desk.md)<ul><li>[Новый номер телефона для Люксембурга (v.1.0) (en-lu)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-united-states-(v.5.0)-(en-us).pdf?raw=true) </li><li>[Новый номер телефона для Люксембурга — немецкий (v.1.0) (de-DE)](https://download.microsoft.com/download/a/3/2/a32afd97-3c58-46e7-a823-abd81d065115/new-phone-number-request-for-luxembourg-(v1.0)-(de-DE).pdf)</li><li>[Новый запрос номера телефона для Люксембурга (Люксембург) (v.1.0) (lu-LU)](https://download.microsoft.com/download/0/2/b/02b5afa5-bbfa-4606-8d18-a0e28f5ce721/know-your-customer-for-luxembourg-(v1.0)-(lb-LU).pdf)</li><li>[Новый запрос номера телефона для Люксембурга ( французский (v.1.0) (lu-FR)](https://download.microsoft.com/download/f/2/6/f26f72b3-4d14-4b53-8bc1-aa17c1f0ae64/New%20phone%20number%20request%20for%20Luxembourg.pdf)</li></ul> <br/>Прежде чем вам будет назначен номер телефона, необходимо скачать форму "Знать о клиенте", заполнить ее полностью и обратиться за инструкциями в службу поддержки [ТССК.](contact-pstn-service-desk.md)<br/><br/>Заполнение новых заказов на этом рынке может занять от двух до трех недель. |
+|Получите новые номера пользователей или номеров телефонов служб, которые не указаны в Microsoft Teams центре администрирования. |В Люксембурге вы можете получить номера телефонов для своей организации с помощью Microsoft Teams администрирования. Кроме того, вы можете отправить запрос на новый номер телефона, скачав форму и обратившись к [ТССК за инструкциями.](contact-pstn-service-desk.md)<ul><li>[Новый запрос номера телефона для Люксембурга (1.0) (en-lu)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-united-states-(v.5.0)-(en-us).pdf?raw=true) </li><li>[Новый номер телефона для Люксембурга — немецкий (v.1.0) (de-DE)](https://download.microsoft.com/download/a/3/2/a32afd97-3c58-46e7-a823-abd81d065115/new-phone-number-request-for-luxembourg-(v1.0)-(de-DE).pdf)</li><li>[Новый запрос номера телефона для Люксембурга (Люксембург) (v.1.0) (lu-LU)](https://download.microsoft.com/download/0/2/b/02b5afa5-bbfa-4606-8d18-a0e28f5ce721/know-your-customer-for-luxembourg-(v1.0)-(lb-LU).pdf)</li><li>[Новый запрос номера телефона для Люксембурга — французский (v.1.0) (lu-FR)](https://download.microsoft.com/download/f/2/6/f26f72b3-4d14-4b53-8bc1-aa17c1f0ae64/New%20phone%20number%20request%20for%20Luxembourg.pdf)</li></ul> <br/>Прежде чем вам будет назначен номер телефона, необходимо скачать форму "Знать о клиенте", заполнить ее полностью и обратиться за инструкциями в службу поддержки [ТССК.](contact-pstn-service-desk.md)<br/><br/>Заполнение новых заказов на этом рынке может занять от двух до трех недель. |
 |Перенаправь нам номера телефонов.| Скачайте эту форму. <br/>[Док-досье (LOA) для Люксембурга (все номера) (v.1.0) (en-lu)](https://download.microsoft.com/download/5/d/e/5dec4f65-c5a9-4dae-a576-56c737f739d2/letter-of-authorization-(loa)-for-luxembourg-(all-numbers)-(v1.1)-(en-lu).pdf) <br/> <br/>Заполните его и обратитесь за инструкциями в службу [поддержки ТССК.](contact-pstn-service-desk.md) <br/><br/>Перенос номеров на этом рынке может занять от двух до трех недель.<br/><br/>В настоящее время эти номера нельзя использовать для использования для связи.    |
 |Публикация и публикация номеров телефонов в национальном телефонном каталоге.  <br/> |[За инструкциями обратитесь в](contact-pstn-service-desk.md) службу поддержки ТСЗ, чтобы получить список номеров телефонов, которые вы хотите опубликовать или отопубликовить. <br/> |
-|Измените номер пользователя на номер службы.  <br/> |[Чтобы получить инструкции по](contact-pstn-service-desk.md) списку номеров пользователей, которые вы хотите преобразовать в номера служб, обратитесь в службу поддержки ТССК. <br/> |
-|Обновление службы каталогов для номеров очереди вызовов и номеров автослужб|Чтобы добавить или изменить номера очереди вызовов или номера автослужб, обратитесь за инструкциями в службу [поддержки ТСОП.](contact-pstn-service-desk.md) |
+|Измените номер пользователя на номер службы.  <br/> |[Чтобы получить инструкции по](contact-pstn-service-desk.md) списку пользовательских номеров, которые вы хотите преобразовать в номера служб, обратитесь в службу поддержки ТССК. <br/> |
+|Обновление службы каталогов для номеров очереди вызовов или автозаетаря|Чтобы добавить или изменить номера очереди вызовов или номера автослужб, обратитесь за инструкциями в службу [поддержки ТСОП.](contact-pstn-service-desk.md) |
 |Узнать о клиенте|Формы|
 
 ## <a name="related-topics"></a>См. также:
@@ -52,4 +52,4 @@ ms.locfileid: "58365616"
 
 [Условия и положения, распространяющиеся на экстренные вызовы](../emergency-calling-terms-and-conditions.md)
   
-[Заявление об отказе от ответственности экстренных вызовов](https://download.microsoft.com/download/a/8/0/a807c43d-2177-4fe0-8732-86b3784ae6e5/emergency-calling-label-(en-us)-(v.1.0).zip)
+[Отказ от ответственности для экстренных вызовов](https://download.microsoft.com/download/a/8/0/a807c43d-2177-4fe0-8732-86b3784ae6e5/emergency-calling-label-(en-us)-(v.1.0).zip)

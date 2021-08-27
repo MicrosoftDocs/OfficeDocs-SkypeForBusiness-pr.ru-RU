@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Темы в этом разделе повеют о процессе переноса на Skype для бизнеса Server 2019 г.
-ms.openlocfilehash: 1014fe5d491823c427eb588aac86757afb997578b519abf2249f481c91a3d4aa
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6eb192c11ec8d1f44539e3bd5180249d85180d2b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54303403"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58587981"
 ---
 # <a name="migration-to-skype-for-business-server-2019"></a>Перенос в Skype для бизнеса Server 2019 г.
 
@@ -40,7 +40,7 @@ ms.locfileid: "54303403"
 
 **наследие:** Система, из которой вы мигрируете, — это либо Lync Server 2013, либо Skype для бизнеса Server 2015.
     
-## <a name="in-this-section"></a>Содержание
+## <a name="in-this-section"></a>В этой статье
 
 - [Перед началом миграции](before-you-begin-the-migration.md)
     

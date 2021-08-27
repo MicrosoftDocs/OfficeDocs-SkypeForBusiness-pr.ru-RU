@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0b9b44c4-06ad-4b89-b87d-62448f936ab8
 description: Сводка. Сведения о задачах мониторинга и конфигурации здоровья в Skype для бизнеса Server.
-ms.openlocfilehash: 259e3a939f53320d1bb8066bfa02a96c314c1d37dfb7e5d0ccbcd7a5d872a573
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 563cda294cc3091f5d233e932623bc544b4e95cd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54297185"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58581373"
 ---
 # <a name="manage-health-and-monitoring-in-skype-for-business-server"></a>Управление состоянием и мониторингом в Skype для бизнеса Server
 
@@ -25,7 +25,7 @@ ms.locfileid: "54297185"
 
 Разделы в этом разделе предоставляют пошаговую процедуру мониторинга и задач конфигурации здоровья, которые можно выполнить в Skype для бизнеса Server панели управления и Skype для бизнеса Server Management Shell.
 
-## <a name="in-this-section"></a>Содержание
+## <a name="in-this-section"></a>В этой статье
 
 - [Запись детализации вызовов (CDR) в Skype для бизнеса Server](call-detail-recording-cdr.md)
 
@@ -35,7 +35,7 @@ ms.locfileid: "54297185"
 
 - [Использование отчетов мониторинга в Skype для бизнеса Server](monitoring-reports.md)
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>Дополнительные материалы
 
 
 

@@ -16,20 +16,20 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: Узнайте о наборе бесплатных номеров в Кении, в том числе о доступности, доступности проводных и фиксированных телефонных номеров, а также ограничениях для мобильной сети.
-ms.openlocfilehash: 818d7667a2d9e788f9ff81abc0ed5bcfdb6b29c284ed2890f69f0b80f79d49ee
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Узнайте о наборе бесплатных номеров в Кении, в том числе о доступности, доступности проводных и фиксированных номеров, а также об ограничениях для мобильной сети.
+ms.openlocfilehash: d7f5938e8259645fca4df12100bb2f56a3ce934e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54321121"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58600984"
 ---
 # <a name="toll-free-dialing-restrictions-in-kenya"></a>Ограничения набора бесплатных номеров в Кении
 

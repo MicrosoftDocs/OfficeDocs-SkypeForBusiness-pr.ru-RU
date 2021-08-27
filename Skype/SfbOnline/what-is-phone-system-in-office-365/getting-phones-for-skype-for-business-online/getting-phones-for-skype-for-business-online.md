@@ -16,18 +16,18 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Phone System
 description: 'Узнайте, какие телефоны компаний Polycom, HP и Mitel поддерживают Skype для бизнеса, а также о требуемых лицензиях. '
-ms.openlocfilehash: de18fdc6d7b945987efdde8eaffd8db0c0e5154cf4d1c758572db5696b23f617
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c2ada9df24a30a3acecf51d8d01377d117667ee9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54320961"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58607436"
 ---
 # <a name="getting-phones-for-skype-for-business-online"></a>Телефоны, поддерживаемые в Skype для бизнеса Online
 
@@ -36,7 +36,7 @@ ms.locfileid: "54320961"
 [] Skype для бизнеса Online квалифицирует и поддерживает стационарные телефоны для пользователей, которым требуется привычный способ телефонной связи через приложение Skype для бизнеса. В этом разделе описываются версии телефонов и встроенного ПО, которые поддерживаются приложением Skype для бизнеса Online, а также приводятся другие рекомендации по настройке телефонов в вашей организации.
 
 > [!NOTE]
-> Skype Для бизнеса вместо Microsoft Teams в качестве основного метода связи в Microsoft 365 и Office 365.  Дополнительные сведения см. в новой концепции интеллектуальной [коммуникации в Office 365.](https://www.microsoft.com/microsoft-365/blog/2017/09/25/a-new-vision-for-intelligent-communications-in-office-365/)
+> Skype Для бизнеса в качестве основного метода связи в Microsoft 365 и Office 365 будет постепенно Microsoft Teams.  Дополнительные [сведения см.](https://www.microsoft.com/microsoft-365/blog/2017/09/25/a-new-vision-for-intelligent-communications-in-office-365/) в Office 365 новой концепции интеллектуальной коммуникации.
 >
 >Чтобы получить последние обновления и последнюю информацию на поддерживаемых устройствах, см. Microsoft Teams устройства для [интеллектуальной связи.](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1)
   
@@ -44,7 +44,7 @@ ms.locfileid: "54320961"
   
 Корпорация Майкрософт является партнером и тесно сотрудничает с Polycom, Yealink и AudioCodes для разработки и сертификации различных устройств с помощью программы IP-адресов Телефон партнера (PIP) для телефонная система.
   
-При заказе новых телефонов для Skype для бизнеса важно приобрести телефоны с правильным *ид.продукта.* Выбирая телефоны с нужным кодом, вы получаете устройства с заранее установленной соответствующей версией Skype для бизнеса Online.
+При заказе новых телефонов для Skype для бизнеса важно приобрести телефоны с нужным *ИД продукта.* Выбирая телефоны с нужным кодом, вы получаете устройства с заранее установленной соответствующей версией Skype для бизнеса Online.
   
 |||
 |:-----|:-----|
@@ -60,7 +60,7 @@ ms.locfileid: "54320961"
 Дополнительные сведения о телефонах AudioCodes см. в разделе [IP-телефоны для Skype для бизнеса](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/ip-phones-room-solutions).
   
 > [!NOTE]
-> Lync Phone Edition поддерживается в Skype для бизнеса Online, но не поддерживается в Microsoft Teams. Основная фаза поддержки платформы LPE закончилась 10 апреля 2014 г. с расширенной поддержкой до 11 апреля 2023 г. в связи с жизненным циклом поддержки продукта Lync Server 2013. Для получения дополнительной информации о жизненном цикле LPE см. [Жизненный цикл для продуктов Майкрософт](https://support.microsoft.com/lifecycle/search?qid=&amp;alpha=Lync%20Phone%20Edition&amp;Filter=FilterNO). Модели LPE CAP не поддерживаются Skype для бизнеса Online.
+> Lync Phone Edition поддерживается в Skype для бизнеса Online, но не поддерживается в Microsoft Teams. Основная фаза поддержки для платформы LPE закончилась 10 апреля 2014 г. с расширенной поддержкой до 11 апреля 2023 г. в связи с жизненным циклом поддержки продукта Lync Server 2013. Для получения дополнительной информации о жизненном цикле LPE см. [Жизненный цикл для продуктов Майкрософт](https://support.microsoft.com/lifecycle/search?qid=&amp;alpha=Lync%20Phone%20Edition&amp;Filter=FilterNO). Модели LPE CAP не поддерживаются Skype для бизнеса Online.
 >
 > Позднее в этом Office 365 не будет поддерживаться ни одна версия TLS старше 1.2. Поскольку базовая операционная система LPE не поддерживает TLS 1.2, LPE больше не будет поддерживаться для подключения к Office 365. Для получения дополнительной информации см. [Подготовка к обязательному использованию TLS 1.2 в Office 365](https://support.microsoft.com/en-gb/help/4057306/preparing-for-tls-1-2-in-office-365).
   

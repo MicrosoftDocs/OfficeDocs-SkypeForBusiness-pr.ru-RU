@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: После переноса пользователей в пулы Skype для бизнеса Server 2019 года можно перенести группы ответов. Миграционные группы ответов включают копирование групп агентов, очередей, рабочего процесса, аудиофайлов и перемещение контактных объектов группы реагирования из устаревшего развертывания в пул Skype для бизнеса Server 2019 г. После переноса устаревших групп ответов вызовы в группы ответов обрабатываются приложением Группы ответов в пуле Skype для бизнеса Server 2019 г. Вызовы групп ответа больше не будут обрабатываться устаревшим пулом.
-ms.openlocfilehash: 83edbfd97fac08aded66ce042adecda9fee7b539588e717323eeaeda36003041
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 96eecb0ad10a900a9d00d26383e149ceec4cbfe8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54303563"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58588031"
 ---
 # <a name="migrate-response-groups"></a>Перенос групп ответа
 
@@ -57,7 +57,7 @@ Skype для бизнеса Server 2019 г. представляет новую 
     
 2. Запустите Skype для бизнеса Server: нажмите кнопку Начните, нажмите кнопку Все **программы,** нажмите **Microsoft Skype для бизнеса Server 2019,** а затем нажмите кнопку **Skype для бизнеса Server управленческой оболочки**.
     
-3. Запуск:
+3. Выполните команду: 
     
    ```PowerShell
    Move-CsRgsConfiguration -Source <source pool FQDN> -Destination <destination pool FQDN>
@@ -97,7 +97,7 @@ Skype для бизнеса Server 2019 г. представляет новую 
    Get-Help <cmdlet name> -Detailed
    ```
 
-3. Запуск:
+3. Выполните команду: 
     
    ```PowerShell
    Get-CsRgsAgentGroup
@@ -105,7 +105,7 @@ Skype для бизнеса Server 2019 г. представляет новую 
 
 4. Убедитесь, что все группы агентов в устаревшей среде включены в список.
     
-5. Запуск:
+5. Выполните команду: 
     
    ```PowerShell
    Get-CsRgsQueue
@@ -113,7 +113,7 @@ Skype для бизнеса Server 2019 г. представляет новую 
 
 6. Убедитесь, что все очереди в устаревшей среде включены в список.
     
-7. Запуск:
+7. Выполните команду: 
     
    ```PowerShell
    Get-CsRgsWorkflow
