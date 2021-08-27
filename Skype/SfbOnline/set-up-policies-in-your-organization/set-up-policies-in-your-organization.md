@@ -13,23 +13,23 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
-ms.openlocfilehash: 8f5e7088572f1f579a93eae29f130817780b6902efe6154387086ebc948a5c1d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f7bfe9f922e9248d97a1396d8202ebdc4265f42c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54340275"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58581953"
 ---
 # <a name="set-up-policies-in-your-organization"></a>Настройка политик в организации
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-Политики помогают определять функции веб-Skype для бизнеса, доступные пользователям. Подробные сведения см. в следующих статьях.
+Политики помогают определять функции веб-Skype для бизнеса, которые доступны пользователям. Подробные сведения см. в следующих статьях.
 
 - [Блокировка передачи файлов по точкам](block-point-to-point-file-transfers.md)
 - [Создание настраиваемых политик внешнего доступа](create-custom-external-access-policies.md)

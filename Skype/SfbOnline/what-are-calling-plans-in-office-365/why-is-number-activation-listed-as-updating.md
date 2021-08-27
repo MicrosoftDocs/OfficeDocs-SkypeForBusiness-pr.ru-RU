@@ -14,7 +14,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - CSH
@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - ms.lync.lac.NumberActivationStateUpdating
 description: Проверка адреса является важной частью настройки планов звонков. Она предоставляет пользователю организации адрес для экстренного реагирования, который могутжет использоваться соответствующими экстренные службыами.
-ms.openlocfilehash: 844c33efae8ce0492b55ea597fdf82e38356bd2462f67640f4e823728453bab1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0f3468e7328180788451a5dc13c2be8e08d3b9ab
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54325556"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58596113"
 ---
 # <a name="why-is-number-activation-listed-as-updating"></a>Почему активация номера отображается как обновляемая?
 
@@ -44,7 +44,7 @@ ms.locfileid: "54325556"
 
 ## <a name="for-organizations-with-more-than-150-users-create-a-service-request-to-validate-an-emergency-address"></a>Если в вашей организации больше 150 пользователей, создайте запрос на обслуживание для проверки адреса экстренного реагирования
 
-1. Войте в качестве администратора, чтобы Microsoft 365 или Office 365 с помощью своей учебной или учебной учетной записи.
+1. Во sign in as an administrator to Microsoft 365 or Office 365 with your work or school account.
     
 2. В центре администрирования на левой области навигации **щелкните** Поддержка  >  **нового запроса на обслуживание**.
     

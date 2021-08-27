@@ -9,9 +9,9 @@ ms.service: msteams
 ms.reviewer: phecda louie
 ms.collection:
 - M365-collaboration
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
-description: Узнайте, как с помощью шаблонов Teams для создания структур групп, предназначенных для финансовых потребностей, за счет предоставления предопределельных параметров, каналов и предварительно установленных приложений с помощью Центра администрирования.
+description: Узнайте, как Teams шаблоны групп для создания структур групп, предназначенных для финансовых целей, с помощью Центра администрирования, которые предопределяют параметры, каналы и предварительно установленные приложения.
 f1.keywords:
 - CSH
 ms.custom:
@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 749fa9a3a4264f5e4231082dcf097151377fff069bf5b123afa6b1abc5ba017b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 291c9e28dec5f779c8a23888b28d78c79919f1f0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54349471"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58603438"
 ---
 # <a name="use-financial-team-templates-in-the-admin-center"></a>Использование шаблонов финансовой группы в Центре администрирования
 
@@ -53,5 +53,5 @@ ms.locfileid: "54349471"
 
 | Тип базового шаблона |baseTemplateId| Свойства базового шаблона |
 | ------------------ |--|----------------------------------------------------- |
-|Работайте совместно в филиале банка|`com.microsoft.teams.template.CollaborateWithinABankBranch` |Каналы: <ul><li>Общие<li>Объявления</li><li>Совещания</li><li>Собрания клиентов</li><li>Запрос на утверждение</li><li>Коучинг</li><li>Разработка навыков</li><li>Обработка ссуды</li><li>Жалобы клиентов</li><li>Слава</li><li>Забавные материалы</li><li>Соответствие требованиям</li></ul>Приложения:<ul><li>Благодарность</li></ul>|
+|Работайте совместно в филиале банка|`com.microsoft.teams.template.CollaborateWithinABankBranch` |Каналы: <ul><li>Общие<li>Объявления</li><li>Совещания</li><li>Собрания клиентов</li><li>Запрос на утверждение</li><li>Коучинг</li><li>Разработка навыков</li><li>Обработка ссуды</li><li>Жалобы клиентов</li><li>Слава</li><li>Интересные материалы</li><li>Соответствие требованиям</li></ul>Приложения:<ul><li>Благодарность</li></ul>|
 ||||

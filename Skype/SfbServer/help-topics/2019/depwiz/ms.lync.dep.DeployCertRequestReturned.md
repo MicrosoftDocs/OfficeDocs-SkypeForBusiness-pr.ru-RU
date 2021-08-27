@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4ada9045-0fdf-4470-8574-2fa08bab9392
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'На странице Состояние сетевого запроса сертификата предоставляется важная информация, появляющаяся в результате успешного создания и выдачи сетевого запроса сертификата. На этой странице отображается отпечаток сертификата, уникальным образом определяющий сертификат. По умолчанию назначьте этот сертификат для Skype для бизнеса Server использования сертификата. При нажатии кнопки Готово сертификат будет автоматически назначен Skype для бизнеса Server для целей, определенных во время этапов создания запроса сертификата. По умолчанию сертификат назначается со следующими целями:'
-ms.openlocfilehash: 8665053e3f625f39ec2843467a448f6620d9f7d0110e931ee6298f2be5c72193
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e181bc5389bc981eed0e3181d4fd5d5f02c179d4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54285499"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58581783"
 ---
 # <a name="certificate-request-returned"></a>Запрос сертификата (возврат)
  

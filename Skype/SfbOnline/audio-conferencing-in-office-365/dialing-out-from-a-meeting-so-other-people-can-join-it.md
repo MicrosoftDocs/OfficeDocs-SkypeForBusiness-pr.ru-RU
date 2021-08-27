@@ -15,18 +15,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
 description: Узнайте, что вам нужно, и как организаторы собраний могут позвонить другим людям, с помощью Skype для бизнеса.
-ms.openlocfilehash: 9b87fb911cf4e010a82aba8b9874b25efa60d1b6b795502cc7f0d56cd58eea12
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 295c3ee75718faad070a2e4e9eb26d3c9bfdae7e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54298899"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58581983"
 ---
 # <a name="dialing-out-from-a-skype-for-business-meeting-so-other-people-can-join-it"></a>Выход из собрания Skype для бизнеса, чтобы другие люди могли присоединиться к нему
 
@@ -41,7 +41,7 @@ ms.locfileid: "54298899"
     
 - Организатор собрания может включить аудиоконференцию.
 
-Чтобы добавить других участников с помощью телефонного набора к собраниям вашей организации, необходимо, чтобы в собрании присутствовал по крайней мере один пользователь, выполнив проверку подлинности из той же организации, что и организатор (ваша организация), чтобы разрешить добавление других участников с помощью телефонного набора. 
+Чтобы добавить других участников с помощью телефонного сета на собрания вашей организации, необходимо, чтобы в собрании присутствовал по крайней мере один пользователь, авторизаконенный из той же организации, что и организатор (ваша организация), чтобы разрешить добавление других участников с помощью телефонного набора. 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
@@ -58,7 +58,7 @@ ms.locfileid: "54298899"
 
 Dial-out is only available to some countries/regions. Полный список см. в списке Доступность страны и региона для аудиоконференций [и планов звонков.](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
   
-## <a name="want-to-know-more-about-audio-conferencing"></a>Хотите узнать больше о аудиоконференциях?
+## <a name="want-to-know-more-about-audio-conferencing"></a>Хотите узнать больше об аудиоконференциях?
 
 [Попробуйте или приобретйте аудиоконференцию в Microsoft 365 или Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
     

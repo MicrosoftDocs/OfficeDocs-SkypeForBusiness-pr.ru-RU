@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: serdars
 description: Найдите подходящий способ развертывания Microsoft Teams в вашей организации. Сведения об инфраструктуре Teams и использовании Teams вместе с Microsoft 365 или Office 365.
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.allteamsdocuments
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0f146bca1268d370f53009b332aba15c86c9fab3ea24003c29a062ab80a88be8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d16047b643ee8312a250156cbb5abcd083b01bc2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54298109"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58603648"
 ---
 # <a name="welcome-to-microsoft-teams"></a>Знакомство с Microsoft Teams
 Эта статья предназначена для администраторов Microsoft Teams в вашей организации. Когда вы будете готовы приступить к работе с Teams, начните со статьи [Как развернуть Teams](./deploy-overview.md) и [Настройка безопасной совместной работы с помощью Microsoft 365 и Microsoft Teams](/microsoft-365/solutions/setup-secure-collaboration-with-teams).

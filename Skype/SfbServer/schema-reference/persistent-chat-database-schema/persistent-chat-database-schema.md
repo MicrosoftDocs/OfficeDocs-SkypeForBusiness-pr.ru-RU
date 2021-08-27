@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 58d7d94f-42f5-4c3e-8fe5-901fbe92152e
 description: В этом документе засвечивается схема базы данных сохраняемого чата в Skype для бизнеса Server.
-ms.openlocfilehash: bc314413d2bb7a3d5916396f1e8f281d2217e9058d087dcec8bcc486ee7f172f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 673cca8acf2ecad76c578ba05d8d22a20a253a9c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54280932"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58610586"
 ---
 # <a name="persistent-chat-database-schema"></a>Схема базы данных сохраняемого чата
  
@@ -39,7 +39,7 @@ ms.locfileid: "54280932"
     
 - Все создаваемые запросы следует тестировать с помощью баз данных соответствующего размера для проверки того, будут ли они выполняться с должной производительностью.
     
-## <a name="in-this-section"></a>Содержание
+## <a name="in-this-section"></a>В этой статье
 
 - [Список таблиц сервера сохраняемого чата](list-of-persistent-chat-server-tables.md)
     

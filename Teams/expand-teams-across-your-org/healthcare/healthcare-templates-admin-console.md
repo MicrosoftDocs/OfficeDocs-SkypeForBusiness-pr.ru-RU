@@ -12,7 +12,7 @@ searchScope:
 - Microsoft Cloud for Healthcare
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Healthcare
@@ -22,12 +22,12 @@ appliesto:
 ms.reviewer: ''
 description: Используйте шаблоны групп в Центре администрирования или в Microsoft Graph, чтобы быстро и легко создавать команды, предоставляя предопределяющий шаблон параметров, каналов и приложений.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 050ddd4e9efabe3433257f0497081758767e1cfa38c16aa1102ff17554ce3391
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c5da6c5df17dacbfb38e519ca4f1f751ed40fc02
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54336259"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58596183"
 ---
 # <a name="use-a-healthcare-team-templates"></a>Использование шаблонов команды здравоохранения
 
@@ -40,11 +40,11 @@ ms.locfileid: "54336259"
 | Кто | Используемый метод: |
 | ---- | --------- |
 | Администраторы и ИТ-специалисты | [С помощью Teams администрирования](#use-the-team-templates-in-the-admin-center) можно создавать команды на основе шаблонов команд медицинских учреждений.|
-| Разработчики и системные интеграторы | [Используйте microsoft Graph](#use-the-team-templates-with-the-microsoft-graph) для создания команды на основе шаблонов. |
+| Разработчики и системные интеграторы | [Используйте службу Graph](#use-the-team-templates-with-the-microsoft-graph) Майкрософт, чтобы создать команду на основе шаблонов. |
 
 ## <a name="use-the-team-templates-in-the-admin-center"></a>Использование шаблонов групп в Центре администрирования
 
-Microsoft Teams администраторы могут использовать центр администрирования Teams для создания команд на их шаблонах. В настоящее время мы предлагаем два разработанных нами шаблона для здравоохранения, которые можно использовать в различных ситуациях. Дополнительные информацию о шаблонах групп см. в центре [администрирования.](../../get-started-with-teams-templates-in-the-admin-console.md)
+Microsoft Teams администраторы могут использовать Teams для создания команд на их шаблонах. В настоящее время мы предлагаем два разработанных нами шаблона для здравоохранения, которые можно использовать в различных ситуациях. Дополнительные информацию о шаблонах групп [](../../get-started-with-teams-templates-in-the-admin-console.md)см. в центре администрирования.
 
 ### <a name="collaborate-on-patient-care"></a>Совместная работа по уходу за пациентами
 

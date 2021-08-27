@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 72726b43-f1ea-458c-9304-a26e8a12128c
 description: В этом разделе перечислены атрибуты схемы, которые могут быть Skype для бизнеса Server класса и классы, которые могут содержаться в других классах. Список всех классов и их описаний см. в Skype для бизнеса Server. Список всех атрибутов и их описаний см. в Skype для бизнеса Server.
-ms.openlocfilehash: 75ca1dea65462d97cdef8053ab24274646408dd135890592a7c93e2654638685
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 55975ac452c4bfde173bfbe75f1c9f0fee642372
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54326295"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578633"
 ---
 # <a name="schema-attributes-by-class-in-skype-for-business-server"></a>Атрибуты схемы по классу в Skype для бизнеса Server
  

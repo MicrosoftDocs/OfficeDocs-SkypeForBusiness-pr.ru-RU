@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddPstnGatewayTrunkPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 22203d9a-4612-45c7-9375-69ae9964ce1e
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Корневую магистраль для IP-телефонии или ТСОП можно определить, настроив следующие параметры:'
-ms.openlocfilehash: dfd7287cff7c4ae941c5613f5dd031e277957aad83de877f5c2ec7fec0a5a72e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 347650d696358780a0285d49f5f6724aae460d1d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54295436"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58588801"
 ---
 # <a name="define-the-root-trunk-for-a-new-ip-or-pstn-gateway"></a>Определение корневой магистральной линии для нового шлюза IP или ТСОП
 
@@ -36,7 +36,7 @@ ms.locfileid: "54295436"
 
 - **Связанный порт сервера-посредника:** определите порт, на который прослушивается выбранный сервер-посредник
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>Дополнительные материалы
 
 [Настройка магистрали с обходом мультимедиа в Skype для бизнеса Server](../../../deploy/deploy-enterprise-voice/configure-trunk-with-media-bypass.md)
 

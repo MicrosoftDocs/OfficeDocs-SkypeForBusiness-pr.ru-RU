@@ -17,13 +17,13 @@ f1.keywords:
 description: Уведомление о прямом маршрутинге звонка
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
-ms.openlocfilehash: 8326a9eb1f7a6ad9fb13c622c4f03d0f9af40af8
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.localizationpriority: medium
+ms.openlocfilehash: 27e06a45cef49f2291fdf75a8375026b9a930953
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58233044"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617415"
 ---
 # <a name="manage-call-notifications"></a>Управление уведомлениями о звонках
 
@@ -34,10 +34,10 @@ ms.locfileid: "58233044"
 - A Teams конечной точки
 - Телефон SIP, подключенный к стороне SBC
 
-Когда поступает звонок, SBC forks the call between телефонная система Direct Routing and the third-party SBC.
+Когда поступает звонок, SBC разнонаправка звонка между телефонная система маршрутизов и сторонним SBC.
 
 
-![Диаграмма, на которой показаны Teams с разноназначными конечными точками](media/direct-routing-call-notification-1.png)
+![Диаграмма, на которой показаны Teams конечные точки](media/direct-routing-call-notification-1.png)
 
 Если звонок принимается на fork 2 (сторонним SBC), Teams создает уведомление о пропущенных звонках.  
 
@@ -48,6 +48,6 @@ ms.locfileid: "58233044"
 Звонок не будет зарегистрирован в записях о звонках Телефон (Майкрософт) система в качестве успешного звонка. Звонок будет зарегистрирован как "Попытка" с итоговым кодом SIP "487", итоговым подкодомом Майкрософт "540200" и фразой кода SIP "Звонок выполнен в другом месте".  (Чтобы просмотреть записи о звонках, перейдите на портал администрирования Teams, аналитику и отчеты, отчеты об использовании и выберите Использование ОКП.)
 
 
-На приведенной ниже схеме показано, каков SIP-график для Fork 1, объясняется поток зова и ожидаемая ПРИЧИНА в сообщении "Отмена". 
+На приведенной ниже схеме показано, как выглядит SIP для Fork 1, объясняется поток зова и ожидаемая ПРИЧИНА в сообщении об отмене. 
 
 ![На схеме показаны висячая Teams конечных точек](media/direct-routing-call-notification-2.png)

@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Вы можете переместить пользователя из устаревшего пула в пилотный пул Skype для бизнеса Server 2019 г., используя панель управления Skype для бизнеса Server 2019 или Skype для бизнеса Server 2019. В приведенной ниже статье в столбце пула регистратора pool01.contoso.net является устаревшим пулом, и все шесть из этих пользователей подключены к этому пулу. Используйте следующие процедуры для перемещения пользователя в пул Skype для бизнеса Server 2019 с помощью панели управления Skype для бизнеса Server 2019 и Skype для бизнеса Server Management Shell.
-ms.openlocfilehash: 98fd1ce168cf5b44a85c1b0a93ee90634a84f885ced3cb3ffaaca8cee836a620
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 987eeec96d28257b995b5e27ce02e282df019980
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54303393"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58596163"
 ---
 # <a name="move-a-single-user-to-the-pilot-pool"></a>Перемещение одного пользователя в пилотный пул
 

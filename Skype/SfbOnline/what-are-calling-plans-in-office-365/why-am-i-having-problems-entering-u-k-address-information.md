@@ -14,7 +14,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - CSH
@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - ms.lync.lac.CivicAddressGBSyntaxError
 description: Вот несколько причин, по которым у вас могут возникнуть проблемы с правильной проверкой адреса или адреса в Великобритании.
-ms.openlocfilehash: 7b3cd80b351c64d3d9f5911d0854a215ba1b407d6e4b2b439d1f28d68d06db7d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0222a7d228405e745b1f6704cb9e03f1af3c2868
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54324648"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58581943"
 ---
 # <a name="why-am-i-having-problems-entering-uk-address-information"></a>Почему возникают проблемы с вводом адреса в Соединенном Королевстве?
 
@@ -44,7 +44,7 @@ ms.locfileid: "54324648"
     > [!CAUTION]
     > В Великобритании название компании не может иметь знак +. 
   
-- Оно не должно быть меньше 80 символов.
+- Оно должно быть не более 80 символов.
     
 - Он не может начинаться со специального знака.
     
@@ -56,7 +56,7 @@ ms.locfileid: "54324648"
     
 - Он должен начинаться с числа.
     
-- Оно не должно быть меньше 20 символов.
+- Оно должно быть не более 20 символов.
     
 - В нем может быть строчная или строчная буква.
     

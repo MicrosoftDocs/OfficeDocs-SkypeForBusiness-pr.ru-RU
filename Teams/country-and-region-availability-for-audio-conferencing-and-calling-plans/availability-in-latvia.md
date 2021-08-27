@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Ниже ются Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Латвии.
-ms.openlocfilehash: a0b436a07a1945e5a139110d4be8f910d14a7be38a2add383ec3ed77fdf46be2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c0aa0d54dcbf951bbf2755995b17a3daa534cffc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54347254"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58603584"
 ---
 # <a name="availability-in-latvia"></a>Доступность в Латвии
 
@@ -69,7 +69,7 @@ ms.locfileid: "54347254"
 
 |**Функция**|**Сведения**|
 |:-----|:-----|
-|Для каких столиц или крупных городов можно получить платные номера?  <br/> |Riiga ([по запросу](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
+|Для каких столиц или крупных городов можно получить платные номера?  <br/> |Riiga[(on request](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
 |Доступны ли платные номера?  <br/> |Да  <br/> |
 |Доступны ли бесплатные номера?  <br/> |Да[(по запросу](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
    

@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2b6493f1-1be5-45b4-841a-09425cb302e1
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Вы можете использовать Создание магистральной линии связи: новое правило преобразования вызовов для создания нового правила преобразования. Дополнительные сведения о правилах преобразования см. в следующих разделах:'
-ms.openlocfilehash: 748021e3559d5dcd1c98e884de44be40e01a6066d84300ff3e7246eaf4289354
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 97582fa8466ea7a0449f0d26674dc544a21298a7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54345896"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58588871"
 ---
 # <a name="new-calling-number-translation-rule"></a>Новое правило преобразования вызывающего номера
 

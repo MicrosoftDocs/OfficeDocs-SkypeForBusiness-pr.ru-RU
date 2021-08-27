@@ -15,7 +15,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже ются Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Ганы.
-ms.openlocfilehash: 966dfd2e9d7533c185a50547703c71367179b23b4dd44cd8f6e7f86259dcd2f8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Ниже ются Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams Для Ганы.
+ms.openlocfilehash: 0e172189e4f9e80d1f81beadad9a0a24a6b2f26e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54318542"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58603598"
 ---
 # <a name="availability-in-ghana"></a>Доступность в Гане
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже ются Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Ганы.
+Ниже ются Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams Для Ганы.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 
@@ -68,7 +68,7 @@ ms.locfileid: "54318542"
 
 |**Функция**|**Сведения**|
 |:-----|:-----|
-|Для каких столиц или крупных городов можно получить платные номера?   | Не географическое положение. Номера телефонов не связаны с конкретным городом или местоположением. <br/> |
+|Для каких столиц или крупных городов можно получить платные номера?   | Не географическое. Номера телефонов не связаны с конкретным городом или местоположением. <br/> |
 |Доступны ли платные номера?  <br/> |Да  <br/> |
 |Доступны ли бесплатные номера?  <br/> |Нет  <br/> |
    
