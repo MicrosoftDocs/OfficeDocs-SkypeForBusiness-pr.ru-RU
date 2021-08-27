@@ -14,25 +14,25 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Узнайте о лицензиях на надстройки, функции и о том, как приобрести Microsoft 365 бизнес стандарт планы. '
-ms.openlocfilehash: c5469958a14c860223117742d4a0b3eb2c4d7a9e6f0168e3a7748413fc8426bf
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8f092b8f17eff3aa48717be385795a2ca1c18a36
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54318034"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58589171"
 ---
 # <a name="microsoft-365-business-standard"></a>Microsoft 365 бизнес стандарт
 
 [!INCLUDE [sfbo-retirement](../../../Hub/includes/sfbo-retirement.md)]
 
-Если у вас [Microsoft 365 бизнес стандарт](https://products.office.com/en/business/office-365-business-premium), вы можете использовать Skype для бизнеса для звонков другим людям в вашей компании, которые находятся в вашей подписке. Например, если в вашей организации 10 человек, вы можете звонить им и обмениваться с ними мгновенными сообщениями через Skype для бизнеса.
+Если у вас [Microsoft 365 бизнес стандарт](https://products.office.com/en/business/office-365-business-premium), вы можете использовать Skype для бизнеса, чтобы звонить другим людям в вашей компании, которые находятся в вашей подписке. Например, если в вашей организации 10 человек, вы можете звонить им и обмениваться с ними мгновенными сообщениями через Skype для бизнеса.
 
  **Существует два способа совершать и принимать звонки от людей за пределами вашей организации**.
 
@@ -55,7 +55,7 @@ ms.locfileid: "54318034"
 
 2. Приобретите надстройку **телефонной системы**.
     
-3. Купить план [звонков для Office 365](/MicrosoftTeams/calling-plans-for-office-365): вы можете приобрести его только после покупки телефонная система надстройки. 
+3. Купить план [звонков для Office 365](/MicrosoftTeams/calling-plans-for-office-365): вы можете купить его только после покупки телефонная система надстройки. 
     
     Второй вариант отлично подойдет для организаций с несколькими сотрудниками, которые совершают и принимают внешние телефонные звонки.
 

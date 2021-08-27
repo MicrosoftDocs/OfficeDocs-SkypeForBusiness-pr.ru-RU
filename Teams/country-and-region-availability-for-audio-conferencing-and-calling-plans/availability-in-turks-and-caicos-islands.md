@@ -15,7 +15,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -23,25 +23,25 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже находятся Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для островов Теркс и Кайкос.
-ms.openlocfilehash: d581113c242174483a36b3637bbe7fde01fde1c1f4459c1215bd1974fba05746
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Ниже ются Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для островов Теркс и Кайкос.
+ms.openlocfilehash: 6686a0a8b3207307fc8f905ae009786d68f89049
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54322721"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582374"
 ---
 # <a name="availability-in-turks-and-caicos-islands"></a>Доступность в островах Теркс и Кайкос
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже находятся Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для островов Теркс и Кайкос.
+Ниже ются Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для островов Теркс и Кайкос.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 
 |**Функция**|**Сведения**|
 |:-----|:-----|
-|Доступно ли приобретение аудиоконференций?  <br/> |Да. Только оплата за минуту. <br/> |
+|Доступно ли приобретение аудиоконференций?  <br/> |Да. Только с поминутной оплатой. <br/> |
 |Номера телефонов автоматически назначаются для аудио конференций?  <br/> | Нет |
 |Возможность получить обратный звонок с функцией "Звонок на мой номер"  <br/> | Требуются кредиты связи <br/> |
    

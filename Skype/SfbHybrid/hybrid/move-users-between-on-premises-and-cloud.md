@@ -9,7 +9,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Hybrid
 - M365-voice
@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: Сводка. В локальном развертывании Skype для бизнеса Server, которое включено для гибрида, можно перемещать пользователей между локальной средой и облаком.
-ms.openlocfilehash: 31695b7fa21f4fc873afa6b94bbefa58bbfbdb7b7d22f6da5c6eb972627c8cb8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0c13f29cf2773afb170bb7be20bb2f95c5d13e6c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54334541"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58589221"
 ---
 # <a name="move-users-between-on-premises-and-cloud"></a>Перемещение пользователей между локальной средой и облаком
 

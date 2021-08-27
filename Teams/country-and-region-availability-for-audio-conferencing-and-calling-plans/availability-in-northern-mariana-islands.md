@@ -15,7 +15,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Ниже ются Microsoft 365 и Office 365 службы Skype для бизнеса и Microsoft Teams для Северных Марианских островов.
-ms.openlocfilehash: 775e1e65844a7244ee98979056435467c0d32ad3e2d7d3d62af0526562f1d8cd
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0924e44c075adffd61b3d3a5dd397598a576bcd2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54351079"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582403"
 ---
 # <a name="availability-in-northern-mariana-islands"></a>Доступность в Северных Марианских островах
 

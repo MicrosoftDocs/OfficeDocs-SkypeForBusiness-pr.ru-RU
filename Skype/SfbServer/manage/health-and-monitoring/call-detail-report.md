@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 38862e35-3fec-41b9-a035-0b301942d446
 description: Сводка. Сведения о отчете о детализации вызовов, используемом в Skype для бизнеса Server.
-ms.openlocfilehash: 42a0dd40bb32005fcae49464f5ebfc6570055f7078c22b6a8b5be6004793158b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 173df324b61fc719ee989a6102ccfbb9cf850f92
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54336589"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617865"
 ---
 # <a name="call-detail-report-in-skype-for-business-server"></a>Отчет о детализации вызовов в Skype для бизнеса Server
  
@@ -87,7 +87,7 @@ ms.locfileid: "54336589"
   
 **Метрики подробного отчета по вызову**
 
-|**Название**|**Возможность сортировки по этому показателю**|**Description**|
+|**Название**|**Возможность сортировки по этому показателю**|**Описание**|
 |:-----|:-----|:-----|
 |**Caller PAI** (PAI вызывающего абонента) <br/> |Нет  <br/> |Параметр P-Asserted-Identity пользователя, который инициировал вызов. Параметр P-Asserted-Identity используется для передачи подтвержденного удостоверения пользователя в рамках надежной сети.  <br/> |
 |**Caller URI** (URI вызывающего абонента) <br/> |Нет  <br/> |SIP-адрес пользователя, инициировавшего вызов.  <br/> |

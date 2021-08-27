@@ -7,8 +7,8 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
-description: Узнайте, как перейти на Microsoft Teams из локального Skype для бизнеса организации.
-localization_priority: Normal
+description: Узнайте, как перейти на Microsoft Teams из локального Skype для бизнеса развертывания.
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -20,16 +20,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1bf5529cf37ca3217c5af0411a1d12f0e752c583cb869273f9ba5b068d5633da
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 690595338cbf8f6f2689a6bd4d75842b00afaf28
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54298999"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582129"
 ---
-# <a name="upgrade-from-a-skype-for-business-on-premises-deployment-to-teams"></a>Обновление с локального Skype для бизнеса до Teams
+# <a name="upgrade-from-a-skype-for-business-on-premises-deployment-to-teams"></a>Обновление локального Skype для бизнеса до Teams
 
-![Этапы пути обновления с акцентом на этапе развертывания и реализации](media/upgrade-banner-deployment.png "Этапы пути обновления с акцентом на этапе развертывания и реализации")
+![Этапы пути обновления с акцентом на этапе развертывания и внедрения](media/upgrade-banner-deployment.png "Этапы пути обновления с акцентом на этапе развертывания и внедрения")
 
 Эта статья является частью этапа развертывания и реализации, на который вы входите. Прежде чем при этом подтверждать, что вы выполнили следующие действия:
 
@@ -37,7 +37,7 @@ ms.locfileid: "54298999"
 - [Определение области проекта](./upgrade-define-project-scope.md)
 - [Понятное сосуществование и совместное Skype для бизнеса и Teams](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 - [Выбор пути обновления](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-- [Подготовить среду](./upgrade-prepare-environment.md)
+- [Подготовьте свою среду](./upgrade-prepare-environment.md)
 - [Подготовленные организации](./upgrade-prepare-organization.md)
 - [Пилотный проект](./pilot-essentials.md)
 
@@ -64,8 +64,8 @@ ms.locfileid: "54298999"
 
 ## <a name="phone-system-and-teams-upgrade"></a>телефонная система и Teams обновления
 
-Переход с локальной телефонной системы на Teams позволит вам воспользоваться преимуществами прямой маршрутации телефонная система ("Прямая маршрутия") или планов звонков, предоставленных Майкрософт для Microsoft 365 или Office 365.
+Переход с локальной телефонной системы на Teams позволит вам воспользоваться преимуществами прямой маршрутиации телефонная система ("Прямая маршрутия") или планов звонков, предоставленных Майкрософт для Microsoft 365 или Office 365.
 
-Если вы не используете планы звонков, необходимо перенаправить развертывание корпоративной голосовой связи на прямую маршрутиз телефонная система в рамках обновления до Teams.
+Если вы не используете планы звонков, необходимо перейти с корпоративного развертывания голосовой связи на прямую маршрутиз телефонная система в рамках обновления до Teams.
 
-Дополнительные сведения см. [в дополнительных сведениях о прямой телефонная система маршрутии.](./direct-routing-landing-page.md) Если вы планируете использовать планы звонков, обратитесь к нашим рекомендациям по переносу номеров телефонов [в](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)Teams.
+Дополнительные сведения см. [в дополнительных сведениях о прямой телефонная система маршрутии.](./direct-routing-landing-page.md) Если вы планируете использовать планы звонков, обратитесь к нашим рекомендациям по переносу номеров телефонов [в Teams.](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)

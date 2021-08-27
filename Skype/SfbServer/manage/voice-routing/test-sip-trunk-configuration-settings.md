@@ -1,5 +1,5 @@
 ---
-title: Проверьте параметры конфигурации магистрали SIP в Skype для бизнеса Server
+title: Skype для бизнеса Server - Тестовые параметры конфигурации магистрали SIP
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -9,16 +9,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
-description: 'Параметры конфигурации магистрали SIP определяют возможности и отношения между сервером-посредником и шлюзом PSTN, IP-PBX и пограничным контроллером сеансов у поставщика услуг. '
-ms.openlocfilehash: 15e417a03da634efc79aab048eccf4dc64296c309c2d13db0a35d8276dc24ecc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.localizationpriority: medium
+description: 'Параметры конфигурации магистрали SIP определяют связь и возможности между шлюзом-посредником и шлюзом PST, PBX или SBC у поставщика услуг. '
+ms.openlocfilehash: 1684a2a45de1dd6608ab5fea70fa3bf2e1652723
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54351469"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617825"
 ---
-# <a name="test-sip-trunk-configuration-settings-in-skype-for-business-server"></a>Проверьте параметры конфигурации магистрали SIP в Skype для бизнеса Server
+# <a name="skype-for-business-server---test-sip-trunk-configuration-settings"></a>Skype для бизнеса Server - Тестовые параметры конфигурации магистрали SIP
 
 Параметры конфигурации линий связи SIP определяют возможности и связи между сервером-посредником и шлюзом телефонной сети общего пользования (ТСОП), IP-PBX или пограничным контроллером сеансов (SBC) на стороне поставщика услуг. Эти параметры позволяют определить:
 

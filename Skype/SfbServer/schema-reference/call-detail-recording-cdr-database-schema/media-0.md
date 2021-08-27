@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1a7b2e59-082e-4188-98ae-48ae9bd3494a
 description: В представлении "Мультимедиа" хранятся данные об одном типе мультимедийных данных, используемых в одноранговом сеансе. Один сеанс может быть представлен несколькими записями в таблице, если используется более одного типа мультимедиа. Это представление было представлено в Microsoft Lync Server 2013.
-ms.openlocfilehash: 9e1165e19db4d007f04007233a7751a9119fcf310cf61b257e7e5014599357c2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7297e3c0e4d8839fc820334ee4dabb7412242245
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54322961"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617685"
 ---
 # <a name="media-view"></a>Представление мультимедиа
  
@@ -29,7 +29,7 @@ ms.locfileid: "54322961"
   
 Представление Media содержит все столбцы в представлении [SessionDetails,](sessiondetails-0.md) а также перечисленные ниже столбцы.
   
-|**Column**|**Тип данных**|**Сведения**|
+|**Столбец**|**Тип данных**|**Details**|
 |:-----|:-----|:-----|
 |**Media** <br/> |nvarchar (256)  <br/> |Тип мультимедиа. Дополнительные сведения см. в таблице [MediaList.](medialist.md) <br/> |
 |**MediaStartTime** <br/> |datetime  <br/> |Время отправки запроса мультимедиа.  <br/> |

@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 79eff02f-4bc1-4e3a-bac5-2043e19f781a
 description: Сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнеса Server, см. в Skype для бизнеса Server 2015 г.
-ms.openlocfilehash: a8a1dcbe1cd620807f1eb9f2af34fdcbae60784038fbaff9f0c0841ea81224d2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: fd335a6ddc01b65ce32ca91b1cd104c38036490a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54335209"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617935"
 ---
 # <a name="use-the-skype-for-business-server-2015-control-panel"></a>Используйте панель Skype для бизнеса Server 2015 г.
  

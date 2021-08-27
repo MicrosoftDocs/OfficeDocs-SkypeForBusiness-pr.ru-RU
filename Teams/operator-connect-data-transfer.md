@@ -1,5 +1,5 @@
 ---
-title: Передача данных между операторами и майкрософт для операторов Подключение
+title: Передача данных между операторами и корпорацией Майкрософт для Подключение
 author: MicrosoftHeidi
 ms.author: heidip
 ms.reviewer: alaina, creager
@@ -9,25 +9,25 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: Сведения о конфиденциальности, относящиеся к передаче данных или информации между операторами и корпорацией Майкрософт, в частности в отношении операторов Подключение.
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5849ccb07217766e39052376b5b0cb67500f56e91db7b034ca62e0a605954ffa
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 851d04b3e0d24af7a31b820c812046c55fad21f1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54324828"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582193"
 ---
-# <a name="data-transfers-between-carriers-and-microsoft-for-operator-connect"></a>Передача данных между операторами и майкрософт для операторов Подключение
+# <a name="data-transfers-between-carriers-and-microsoft-for-operator-connect"></a>Передача данных между операторами и корпорацией Майкрософт для Подключение
 
 ## <a name="provisioned-and-assigned-numbers"></a>Подготовка и присвоение номеров
 
-Чтобы обеспечить надлежащее функционирование программы Подключение операторов, корпорация Майкрософт информирует каждого из участвующих операторов через API, какие номера телефонов были назначены в Центре администрирования Teams, а также URI SIP (URI сеанса начала сеанса) об этом телефонном номере.
+Чтобы обеспечить надлежащее функционирование программы Подключение операторов, корпорация Майкрософт информирует каждого из участвующих операторов через API, какие номера телефонов были назначены в Центре администрирования Teams, а также URI SIP (URI сеанса начала сеанса) этого номера.
 
 ## <a name="call-detail-records-and-quality-data"></a>Сведения о звонках и данные о качестве
 

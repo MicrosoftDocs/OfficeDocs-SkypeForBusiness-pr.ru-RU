@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6da93ddb-ca99-4b5d-9b33-3d70659730b2
 description: Этот Set-CcApplianceDirectory задает рабочий каталог на сервере Skype для бизнеса Cloud Connector Edition сервере. Все файлы развертывания хранятся в этом каталоге.
-ms.openlocfilehash: 8ca6b8b8e175058e5f19c86a9dd1c6e0cf8a43ab6ef7a439eee4e09b5430f6a2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0f64fbb52cd12020104e98051564379d1fbc4985
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54306600"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617675"
 ---
 # <a name="set-ccappliancedirectory"></a>Set-CcApplianceDirectory
  
@@ -44,7 +44,7 @@ Set-CcApplianceDirectory -Path "c:\cloudconnector\applianceroot"
 
 |**Параметр**|**Required**|**Тип**|**Описание**|
 |:-----|:-----|:-----|:-----|
-| Path <br/> | Обязательный <br/> |System.String  <br/> | Указывает путь, в котором хранятся все файлы развертывания. <br/> |
+| Путь <br/> | Обязательный <br/> |System.String  <br/> | Указывает путь, в котором хранятся все файлы развертывания. <br/> |
    
 ## <a name="input-types"></a>Типы входных данных
 <a name="InputTypes"> </a>
