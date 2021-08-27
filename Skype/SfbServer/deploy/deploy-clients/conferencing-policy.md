@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4dd8be28-5156-411b-8ccd-eff7f75cb897
 description: Ознакомьтесь с этой темой, чтобы узнать, как назначить политики conferencing для Skype учетных записей системы номеров.
-ms.openlocfilehash: 7f9d1e349563e20d29736d33900b4afce99f39c10b9222b23d291f5a9fa417b7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 202440953aedaa54ac69a7bd4549bf7dcbd8d865
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54306021"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618205"
 ---
 # <a name="conferencing-policy-for-skype-room-system-accounts"></a>Политика conferencing для Skype учетных записей системы номеров
  
@@ -27,7 +27,7 @@ ms.locfileid: "54306021"
 
 Политика conferencing, назначенная учетной записи Skype room System, должна иметь определенные характеристики. В большинстве Skype клиент системы номеров присоединяется к запланированному собранию, поэтому политика конференц-связи организатора собрания влияет на конференцию. Однако в Skype для бизнеса Server определенные возможности зависят от конфигурации участника. Например, если политика участника позволяет максимальное разрешение видео в 1080p, участники будут испытывать эту возможность видео с более высоким разрешением на конференции, даже если политика организатора этого не позволяет. В следующей таблице описано несколько таких параметров, о которых следует знать при настройке политик конференций для Skype учетных записей системы номеров в организации. 
   
-|Функция  <br/> |Значение  <br/> |Comment  <br/> |
+|Функция  <br/> |Значение  <br/> |Комментарий  <br/> |
 |:-----|:-----|:-----|
 |AllowIPAudio  <br/> |TRUE  <br/> |Должно быть верно для Skype системы номеров  <br/> |
 |AllowIPVideo  <br/> |TRUE  <br/> |Должно быть верно для Skype системы номеров для работы в сеансах доски Meet Now (ad hoc) в Skype Room System  <br/> |

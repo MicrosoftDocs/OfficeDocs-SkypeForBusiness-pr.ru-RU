@@ -13,18 +13,18 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - PowerShell
 description: Используйте Get-CsOnlineUser в Windows PowerShell, чтобы получить сведения о пользователях Skype для бизнеса Online.
-ms.openlocfilehash: 943a3030c8012d56fb5082c5d85cf58aafa228b662f2b045d90c9d3ba97d80aa
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6f5caf9df905364c078226501d880db5271db92f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323551"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58590603"
 ---
 # <a name="manage-user-accounts-using-the-online-connector"></a>Управление учетной записью пользователя с помощью Online Connector
 
@@ -43,7 +43,7 @@ ms.locfileid: "54323551"
 - [Возврат отфильтрованного списка пользователей в Skype для бизнеса Online](manage-user-accounts-using-the-online-connector.md#BKListofUsers)
 
 > [!NOTE]
-> Кроме **того, в наборе,** доступных администраторам Skype для бизнеса Online, есть и Skype для бизнеса-CsUser. Однако **в настоящее время Set-CsUser** нельзя использовать для управления Skype для бизнеса Online, за исключением настройки параметра _AudioVideoDisabled._ Если вы попытались запустить этот проект с любым другим параметром, при попытке выполнить его сбой с сообщением об ошибке, аналогичным такому: Не удается установить "SipAddress". Этот параметр ограничен в удаленной клиентской powerShell.
+> Кроме **того, в** наборе доступных для администраторов Skype для бизнеса Online используется Skype для бизнеса Set-CsUser. Однако **в настоящее время Set-CsUser** нельзя использовать для управления Skype для бизнеса Online, за исключением настройки параметра _AudioVideoDisabled._ Если вы попытались выполнить этот проект с любым другим параметром, при попытке выполнить его сбой с сообщением об ошибке, аналогичным такому: Не удается установить "SipAddress". Этот параметр ограничен в удаленной клиентской powerShell.
 
 ### <a name="return-information-about-all-your-skype-for-business-online-users"></a>Получение сведений обо всех пользователях Lync Online
 <a name="BKAllUsers"> </a>
@@ -54,13 +54,13 @@ ms.locfileid: "54323551"
 Get-CsOnlineUser
 ```
 
-Чтобы получить сведения об одном пользователе, выбранном случайным образом (например, для использования этой учетной записи в целях тестирования), позвоните в **cmdlet Get-CsOnlineUser** и задате для параметра _ResultSize_ (Размер результатов) 1.
+Чтобы получить сведения для отдельного пользователя, выбранного случайным образом (например, для использования этой учетной записи в целях тестирования), позвоните в **get-CsOnlineUser** и задате для параметра _ResultSize_ (Размер результатов) 1.
 
 ```PowerShell
 Get-CsOnlineUser -ResultSize 1
 ```
 
-Это приводит **к** возврату сведений только для одного пользователя с учетом того, сколько пользователей в вашей организации. Чтобы получить сведения для пяти пользователей, за установите для _параметра ResultSize_ значение 5.
+**Из-за** этого с его учетной записи будет возвращена информация только для одного пользователя, независимо от того, сколько пользователей в вашей организации. Чтобы получить сведения для пяти пользователей, за установите для _параметра ResultSize_ значение 5.
 
 ```PowerShell
 Get-CsOnlineUser -ResultSize 5
@@ -81,7 +81,7 @@ Get-CsOnlineUser -Identity "Ken Myer"
 Get-CsOnlineUser -Identity "sip:kenmyer@litwareinc.com"
 ```
 
-Вы можете использовать имя пользователя-пользователя (UPN).
+Вы можете использовать имя имени пользователя-пользователя (UPN).
 
 ```PowerShell
 Get-CsOnlineUser -Identity "kenmyer@litwareinc.com"
@@ -90,7 +90,7 @@ Get-CsOnlineUser -Identity "kenmyer@litwareinc.com"
 ### <a name="return-specific-information-for-specific-users-in-skype-for-business-online"></a>Возврат определенных сведений для определенных пользователей в Skype для бизнеса Online
 <a name="BKSpecificUsers"> </a>
 
-По умолчанию для [каждой учетной](/powershell/module/skype/Get-CsOnlineUser) записи пользователя Skype для бизнеса Online возвращается большой объем сведений. Если вас интересует только подмножество этих данных, сдав полученные данные в проектлет **Select-Object.** Например, эта команда возвращает все данные пользователя Сергея Мойера, а затем использует командлет **Select-Object,** чтобы ограничить отображаемую на экране информацию отображаемой и телефонной планом AD DS Артема.
+По умолчанию для [каждой учетной](/powershell/module/skype/Get-CsOnlineUser) записи пользователя Skype для бизнеса Online возвращается большой объем сведений. Если вас интересует только подмножество этих сведений, перенагружите возвращенные данные в проектлет **Select-Object.** Например, эта команда возвращает все данные пользователя Сергея Мойера, а затем использует командлет **Select-Object,** чтобы ограничить отображаемую на экране информацию отображаемой и телефонной планом AD DS Артема.
 
 ```PowerShell
 Get-CsOnlineUser -Identity "Ken Myer" | Select-Object DisplayName, DialPlan
@@ -118,4 +118,4 @@ Get-CsOnlineUser -LdapFilter "department=Finance"
 ```
 
 ## <a name="related-topics"></a>Статьи по теме
-[Настройка компьютера для управления Skype для бизнеса с помощью Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
+[Настройка компьютера для управления Skype для бизнеса в Интернете с помощью Windows PowerShell](set-up-your-computer-for-windows-powershell.md)

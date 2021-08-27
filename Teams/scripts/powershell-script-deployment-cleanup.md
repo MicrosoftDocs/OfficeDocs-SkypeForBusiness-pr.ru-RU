@@ -1,5 +1,5 @@
 ---
-title: 'Пример сценария PowerShell : Teams очистки развертывания'
+title: 'Пример сценария PowerShell: Teams развертывания'
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -10,23 +10,23 @@ audience: admin
 description: Используйте этот сценарий PowerShell, чтобы удалить Teams и удалить Teams папку для пользователей.
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ROBOTS: NOINDEX, NOFOLLOW
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e542a763127af08344d3d409c5211ff627985124cc191863cf0305e571d55ad5
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: fe59604f6257d6bab736540d48775ffec36e5b9f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54316835"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58577799"
 ---
 # <a name="powershell-script-sample---teams-deployment-clean-up"></a>Пример сценария PowerShell: очистка Teams развертывания
 
-Используйте этот сценарий для удаления Teams. Этот сценарий удаляет Teams и удаляет папку Teams для пользователя. Запустите этот сценарий для каждого профиля пользователя, в Teams был установлен на компьютере.
+Используйте этот сценарий для удаления Teams. Этот сценарий удаляет Teams и удаляет Teams папку пользователя. Запустите этот сценарий для каждого профиля пользователя Teams установленного на компьютере.
 
 
 ## <a name="sample-script"></a>Пример сценария

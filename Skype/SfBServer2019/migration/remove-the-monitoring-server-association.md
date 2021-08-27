@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Чтобы удалить сервер мониторинга, необходимо изменить или очистить зависимость от связанного переднего пула, переднего сервера, устройства для выживших филиалов и выживаемого сервера филиалов. Чтобы удалить зависимость, вы редактируете свойства переднего конечного пула, переднего конечного сервера, выживаемого устройства филиала и выживаемого сервера филиалов. После удаления зависимости и удаления сервера в Topology Builder вы будете уведомлены об удалении связанного объекта хранения баз данных в Topology Builder.
-ms.openlocfilehash: 8e4c4b08c6126f6ac2c03d66e9ddcfe921b79850e704c54c65d6951c1449aa9f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 703fbfa68fe75d4e8c4a297c81eae27b0f5118c5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54280404"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58590593"
 ---
 # <a name="remove-the-monitoring-server-association"></a>Удаление связи с сервером мониторинга
 

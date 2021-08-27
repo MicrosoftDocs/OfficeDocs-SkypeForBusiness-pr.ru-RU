@@ -9,18 +9,18 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 5ea18841-afdc-4ccb-8d86-30584c1f5aca
 description: Сводка. Сведения о создании, публикации и экспорте топологии edge Server в Skype для бизнеса Server.
-ms.openlocfilehash: da0ec9709f53e22122a911015e94484fc673c6741ba5122fa796e7dded0105b5
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: db5c4c2f9c68803d0e6823070c83c654df542035
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54322471"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58584353"
 ---
 # <a name="create-your-edge-topology-for-skype-for-business-server"></a>Создайте топологию edge для Skype для бизнеса Server
  
@@ -256,7 +256,7 @@ ms.locfileid: "54322471"
     
 ## <a name="publish-your-edge-server-topology"></a>Публикация топологии edge Server
 
-После завершения вышеперечисленных действий пришло время опубликовать эту новую топологию, которая также позволит экспортировать ее в Skype для бизнеса Server Edge Server или Edge Pool. Выполните приведенные ниже действия.
+После завершения вышеперечисленных действий пришло время опубликовать эту новую топологию, которая также позволит экспортировать ее в Skype для бизнеса Server Edge Server или Edge Pool. Выполните следующие действия:
   
 1. Запустите **топологию Builder** (если она еще не запущена с предыдущей процедуры).
     

@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.ArchivingServerScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: eb3c64bc-82db-4d92-b7ed-c86a67eaebb9
 ROBOTS: NOINDEX, NOFOLLOW
 description: В Topology Builder можно выполнять задачи, связанные с сервером, работающим с архивативией, щелкнув правой кнопкой мыши пул в дереве консоли, и выбрав изменить свойства. На странице Изменить свойства можно изменить полностью квалифицированное доменное имя (FQDN) сервера с архивативией, архива SQL Server базы данных и хранилище архивных файлов.
-ms.openlocfilehash: 430a472a2cca1889c329fb8db9bcbdd119fcf895ce131b3becae2188f5edc2f4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a7753b8a7a27317e815f3402a58c734f627e1976
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54313577"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58584193"
 ---
 # <a name="archiving-server-scope-node"></a>Узел области сервера архивации
  

@@ -7,8 +7,8 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: olbesede
-description: Администраторы образования могут ознакомиться с ресурсами, доступными в Microsoft Teams для дистанционного обучения.
-localization_priority: Normal
+description: Администраторы образования могут ознакомиться с ресурсами, доступными в Microsoft Teams для обеспечения дистанционного обучения.
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -17,22 +17,22 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0960d48ab493b36067b8640cf1da3d0659865314
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 9ff0509cf38851ac38e20a13cc6c1016bba1b738
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58233234"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58597643"
 ---
 # <a name="microsoft-teams-resources-for-education-admins"></a>Ресурсы Microsoft Teams для администраторов учебных заведений
 
 ## <a name="resources-for-remote-learning"></a>Ресурсы для дистанционного обучения
 
-Требуется ли вашему учебному Microsoft Teams для дистанционного обучения? Быстро привяжите к работе с помощью [one-pager "Начало](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-for-education-getting-started-1-pager.pdf?raw=true) работы" и любого из ниже материалов по внедрению!
+Требуется ли вашему учебному Microsoft Teams для дистанционного обучения? Быстро привяжите к работе с помощью [one-pager Getting Started](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-for-education-getting-started-1-pager.pdf?raw=true) (Начало работы) и любого из ниже материалов по внедрению!
 
 ## <a name="adoption-content"></a>Материалы по внедрению
 
-С помощью писе Microsoft Teams м, плакатов, раздаток и других ресурсов учебного заведения вы будете рады вашим учебным заведениям, которые вы можете использовать бесплатно. Вы также можете связаться с учащимися через Интернет и в разных учебных заведениях с помощью нового цифрового инструмента, который заполняется баннерами, GIF-ссылками и видео. Начало работы уже сегодня!
+С помощью писем, плакатов, раздаток и других ресурсов Microsoft Teams ваше учебное заведения сможете работать бесплатно. Вы также можете связаться с учащимися через Интернет и в разных учебных заведениях с помощью нового цифрового инструмента, который заполняется баннерами, GIF-ссылками и видео. Начало работы уже сегодня!
 
 Перед [использованием](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/license_agreement_teams_for_education.pdf?raw=true) этих материалов ознакомьтесь с условиями.
 

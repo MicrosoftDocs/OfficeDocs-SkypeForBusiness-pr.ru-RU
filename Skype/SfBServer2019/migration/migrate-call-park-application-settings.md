@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 'Миграция приложения Call Park включает подготовку пула Skype для бизнеса Server 2019 с настраиваемой музыкой для файлов удержания, которые были загружены в устаревшей установке, восстановление параметров уровня обслуживания и перенацеление всех орбит Call Park в пул Skype для бизнеса Server 2019 г. Если настраиваемые файлы музыки на удержании настроены в пуле, эти файлы необходимо скопировать в новый Skype для бизнеса Server 2019. Кроме того, рекомендуется резервное копирование любых настраиваемых файлов Call Park с музыкой на удержании из другого пункта назначения, чтобы сохранить отдельную копию резервного копирования всех настраиваемых файлов на удержании, которые были загружены для Call Park. Настраиваемые файлы музыки при удержании для приложения парковки вызовов хранятся в файловом хранилище пула. Чтобы скопировать аудиофайлы из магазина файлов пула в хранилище файлов Skype для бизнеса Server 2019 г., используйте команду Xcopy со следующими параметрами:'
-ms.openlocfilehash: f83e1095361ddd272a35bf9100171c0d06caf003dfae84f19c01b2aa53de7977
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b8d2c5a898ca9ce4c2c1e8be4b9cbf3e7355a8cc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54312327"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58597543"
 ---
 # <a name="migrate-call-park-application-settings"></a>Перенос параметров приложения парковки вызовов
 

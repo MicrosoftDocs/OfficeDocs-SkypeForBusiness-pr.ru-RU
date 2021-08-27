@@ -9,19 +9,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 4b442b98-df6b-4e50-8254-b3be9cde21dd
 description: Создание или изменение диапазона номеров группового вызова в Skype для бизнеса Server Корпоративная голосовая связь.
-ms.openlocfilehash: 73c2c0b74c27fd59d94d97c5ee05e0da88219601e839d42dc12e0ec659db0aa3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 65e8cacb3b9ecd55c7411e106aa4dd11d91a32f5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54307880"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58590573"
 ---
 # <a name="create-or-modify-a-group-call-pickup-number-range-in-skype-for-business"></a>Создание или изменение диапазона номеров группового вызова в Skype для бизнеса
 
@@ -77,7 +77,7 @@ ms.locfileid: "54307880"
     > [!IMPORTANT]
     > Используйте этот комлет, чтобы изменить тип, заданный в диапазоны номеров, только если изначально указан неправильный тип и диапазон групп еще не используется. Если вы измените диапазон номеров от CallPark до GroupPickup или наоборот, а диапазон номеров уже используется, то для этого диапазона номеров перестанут работать либо call Park, либо Group Call Pickup. Например, если вы измените диапазон номеров от CallPark до GroupPick, приложение Call Park больше не сможет использовать этот диапазон орбит для парковки вызовов.
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>Дополнительные материалы
 
 [New-CsCallParkOrbit](/powershell/module/skype/new-cscallparkorbit?view=skype-ps)
 

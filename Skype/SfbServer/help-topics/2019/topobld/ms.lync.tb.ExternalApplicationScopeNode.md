@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.ExternalApplicationScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: dfd21945-331a-4058-97b6-d17690353702
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Для этого узла указывается полное доменное имя пула, параметр репликации и пул следующего перехода для пула доверенных приложений. Вы можете выполнить следующие действия:'
-ms.openlocfilehash: 62c837aef82c9063d3df3ffc8a0e6920909f52c3e2b3bccfd31309373097a052
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2328a261e5e99bfbff62e0969a4509026b5dd849
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54330303"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58611022"
 ---
 # <a name="external-application-scope-node"></a>Узел области внешнего приложения
  
