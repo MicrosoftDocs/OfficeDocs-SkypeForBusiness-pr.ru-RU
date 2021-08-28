@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: В смешанной среде при создании нового доверенного сервера приложений необходимо настроить следующий пул хмеля как пул Skype для бизнеса Server 2019 года. В смешанной среде в списке выпаданий отображаются как устаревший пул, так и пул Skype для бизнеса Server 2019 года. Предыдущую версию пула выбрать нельзя.
-ms.openlocfilehash: 6db3aaadfe028e6d1975521ecacb52ad26754b7bcf8766af345d4786bc825f31
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9965af757a570cfd787bb482a932d2817fd07ab0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54296096"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58584473"
 ---
 # <a name="configure-trusted-application-servers"></a>Настройка доверенных серверов приложений
 

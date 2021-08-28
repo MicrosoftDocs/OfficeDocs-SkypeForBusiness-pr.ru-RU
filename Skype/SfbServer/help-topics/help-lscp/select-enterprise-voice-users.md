@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.VoiceAdhocTestSelUser
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 91a63439-f2a4-47b3-8c4e-29c8f32ee3c5
 description: Используйте диалоговое окно Корпоративная голосовая связь пользователей, чтобы найти пользователей, которые включены для Корпоративная голосовая связь. В поле поиска введите SIP-адрес или отображаемое имя пользователя, которого требуется найти, а затем нажмите кнопку Найти. Чтобы выбрать пользователя, щелкните его в списке результатов поиска, а затем нажмите кнопку ОК. Если вы не можете найти пользователя, который вы ищете, этот пользователь может не быть включен для Корпоративная голосовая связь.
-ms.openlocfilehash: f405214c5f775319c93eeb9fb342f52cf56fad97bb9165106626f29189fb1fce
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d557cf654cd8b573dab7efe34afeebd240f46b5b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54330073"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58584013"
 ---
 # <a name="select-enterprise-voice-users"></a>Выбор пользователей корпоративной голосовой связи
  

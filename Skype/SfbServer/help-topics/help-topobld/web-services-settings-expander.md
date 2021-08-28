@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.WebServicesSettingsExpander
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: aefc9f51-a171-4a58-be65-7accb470cb2a
 description: В topology Builder можно изменить параметры порта, используемые как для внутренних, так и для внешних веб-служб. Кроме того, при развертывании балансировки нагрузки системы доменных имен (DNS) можно использовать Topology Builder для настройки полностью квалифицированного доменного имени (FQDN) пула, который решается на физические IP-адреса всех серверов этого пула.
-ms.openlocfilehash: 718d5966d08c923c1ad87360b6337282cf6ec6af432db1f2d13590467db4fbf3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0835e394a10ddedede5191250cf3b4df16daa0f0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54347984"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58630713"
 ---
 # <a name="web-services-settings-expander"></a>Расширитель параметров веб-служб
  

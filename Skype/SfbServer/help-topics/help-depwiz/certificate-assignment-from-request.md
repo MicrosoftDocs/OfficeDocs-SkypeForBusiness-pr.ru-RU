@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.dep.DeployCertAssignIntroFromRequest
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5cd7cab0-1826-4d7f-aca6-d30054d2a9ae
 description: На странице Назначение сертификата начинается процесс назначения сертификата запрашиваемого использования на сервере ролей. Для просмотра сертификата щелкните Просмотреть сведения о сертификате. Вы можете выбрать вкладку General, вкладку Details или вкладку Путь сертификации. На вкладке General будут отображаться основные сведения о сертификате, такие как полномочия по выдаче сертификата и состояние закрытого ключа. На вкладке "Сведения" отображается такая информация о сертификате, как имя субъекта, альтернативные имена субъектов и прочие сведения. На вкладке Путь сертификации будет отображаться сертификат доверия из сертификата через любые органы сертификации или промежуточные органы сертификации (если они присутствуют) в корневом органе сертификации.
-ms.openlocfilehash: 484b646628d99f7fee6e5809ee4ee16f0da26fc8251ffda3244411f5a4ea4d1a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: bed9612c10f412f47c592d1515f419e17f108b0e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54307490"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58608376"
 ---
 # <a name="certificate-assignment-from-request"></a>Назначение сертификата (из запроса)
  

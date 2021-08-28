@@ -8,8 +8,8 @@ audience: admin
 ms.service: msteams
 ms.reviewer: jastark
 search.appverid: MET150
-description: В этой статье вы узнаете, как архивировать или окончательно удалять команды в Microsoft Teams.
-localization_priority: Normal
+description: В этой статье вы узнаете, как архивировать или окончательно удалять группы в Microsoft Teams.
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 773438eba12951d71f4cd8329c633fcdca5289e05eebf4716c0cddbb28d8f767
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: df3dbdcaf0668caa4a58490371dd0a323ae8a3ff
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54340665"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58583673"
 ---
 # <a name="archive-or-delete-a-team-in-microsoft-teams"></a>Архивировать или удалять команды в Microsoft Teams
 
@@ -71,7 +71,7 @@ ms.locfileid: "54340665"
 
 Выполните эти действия, чтобы восстановить удаленную команду, Microsoft 365 группу, связанную с ней. При восстановлении Microsoft 365 группы восстанавливается содержимое группы, включая вкладки, стандартные каналы, частные каналы и связанные с ними коллекции веб-сайтов.
 
-По умолчанию удаленная группа Microsoft 365 сохраняется в течение 30 дней. Этот 30-дневный период называется «мягким удалением», потому что вы можете восстановить группу. Дополнительные данные см. [в этой теме.](/microsoft-365/admin/create-groups/restore-deleted-group)
+По умолчанию удаленная Microsoft 365 сохраняется в течение 30 дней. Этот 30-дневный период называется «мягким удалением», потому что вы можете восстановить группу. Дополнительные данные см. [в этой теме.](/microsoft-365/admin/create-groups/restore-deleted-group)
 
 ### <a name="install-the-azureadpreview-module"></a>Установите модуль AzureADPreview
 

@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2fc1d2bf-34f5-4093-a6e2-250ec1f1b004
 description: Сводка. Сведения о подпорте сводки конференций в Skype для бизнеса Server.
-ms.openlocfilehash: ec72c499a7a523dfcac3adaad43728c8e623526a5ff7264e12a7d6eb77df75cb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 66ca2c80bb20026540e74c0ffd28c32be7f7343a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54298169"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58630603"
 ---
 # <a name="conference-summary-subreport-in-skype-for-business-server"></a>Subreport сводки конференции в Skype для бизнеса Server
  
@@ -43,7 +43,7 @@ ms.locfileid: "54298169"
   
 **Метрики вложенного сводного отчета о конференции**
 
-|**Название**|**Возможность сортировки по этому показателю**|**Description**|
+|**Название**|**Возможность сортировки по этому показателю**|**Описание**|
 |:-----|:-----|:-----|
 |**Total conferences** (Всего конференций) <br/> |Нет  <br/> |Общее количество проведенных конференций.  <br/> |
 |**Total conference sessions** (Всего сеансов конференций) <br/> |Нет  <br/> |Общее количество сеансов конференций. Отдельная конференция может иметь несколько сеансов; например, конференция может включать в себя как сеанс Focus, так и сеанс MCU.  <br/> |

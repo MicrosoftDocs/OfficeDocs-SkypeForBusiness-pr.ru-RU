@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: aa7d6b31-cb09-4e68-b020-aa5dd0081c20
 description: Сводка. Сведения о отчете Телефон инвентаризации Телефон в Skype для бизнеса Server.
-ms.openlocfilehash: 89596d09bff9c58901b54bed928020bae3fa90d5971a8be3929fdc5914b54488
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 00677d5ed31303cd87df6547d2cab99323f6ed53
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54276804"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58630593"
 ---
 # <a name="ip-phone-inventory-report-in-skype-for-business-server"></a>Отчет Телефон инвентаризации в Skype для бизнеса Server
  
@@ -113,7 +113,7 @@ Last activity    :
   
 **Показатели отчета по IP-телефонам**
 
-|**Название**|**Возможность сортировки по этому показателю**|**Description**|
+|**Название**|**Возможность сортировки по этому показателю**|**Описание**|
 |:-----|:-----|:-----|
 |**Производитель** <br/> |Да  <br/> |Название компании, создавшей IP-телефон.  <br/> |
 |**Hardware version** (Версия оборудования) <br/> |Да  <br/> |Номер версии IP-телефона.  <br/> |

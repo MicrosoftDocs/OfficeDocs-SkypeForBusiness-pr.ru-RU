@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.LegacyMergeFqdnPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d72841ff-3c4d-4233-a933-f3a95d75d89b
 description: Внутреннее полное доменное имя пограничного пула доступа используется в самых разных сценариях, где внутренние пользователи взаимодействуют с внешними пользователями для обеспечения федерации, удаленного доступа пользователей и общедоступной связи посредством мгновенных сообщений. Если в вашей устаревшей среде был развернут пограничный сервер с балансировкой нагрузки, введите полное доменное имя внутренней подсистемы балансировки нагрузки.
-ms.openlocfilehash: b9c2e2977f2cfb579bc4c96d76d49883198a80a6901ba3e0fb0200b6c4704f6d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5131f6c5cb563e66a0a83f0c4c608d8e7e8895a3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54336929"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58608216"
 ---
 # <a name="legacy-merge-fqdn"></a>Полное доменное имя для объединения с устаревшей версией
  

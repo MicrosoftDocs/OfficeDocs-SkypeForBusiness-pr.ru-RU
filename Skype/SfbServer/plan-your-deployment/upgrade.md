@@ -10,19 +10,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: c62b5f6a-bdbe-4ac1-aabf-89e560e64a26
 description: 'Сводка. Сведения о том, что следует учитывать при планировании обновления до Skype для бизнеса Server 2015 г. Скачайте бесплатную пробную Skype для бизнеса Server 2015 г. из Центра оценки Майкрософт по ссылке: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server .'
-ms.openlocfilehash: 1857194dd0b10b2e7c137e1cf098e99b0ca31d04637992aa168b081980c0df90
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a3a36bb7c1acbf5334c108429076aa8126860041
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54349841"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58630413"
 ---
 # <a name="plan-to-upgrade-to-skype-for-business-server-2015"></a>План обновления до Skype для бизнеса Server 2015 г.
  

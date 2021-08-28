@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e9edc23c-8ce8-4ab8-8786-9d22e1e51e14
 description: Сводка. Сведения о диагностическом отчете конференции, используемом в Skype для бизнеса Server.
-ms.openlocfilehash: 31410ec98e3902e3ab64967061611e5c94a132258fca0a87a5332efdf0057a21
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 578f4f2a60ca5dd1706d3b366e4decc35effeb7b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54328154"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58630643"
 ---
 # <a name="conference-diagnostic-report-in-skype-for-business-server"></a>Диагностический отчет конференции в Skype для бизнеса Server
  
@@ -71,7 +71,7 @@ ms.locfileid: "54328154"
   
 **Метрики диагностического отчета по конференциям**
 
-|**Название**|**Возможность сортировки по этому показателю**|**Description**|
+|**Название**|**Возможность сортировки по этому показателю**|**Описание**|
 |:-----|:-----|:-----|
 |**Success volume** (Успех, объем) <br/> |Нет  <br/> |Общее число успешных конференций.  <br/> |
 |**Success percentage** (Успех, процент) <br/> |Нет  <br/> |Процентное отношение конференций, которые были завершены со значительными проблемами. Значение вычисляется путем деления значения «Success volume» (Успех, процент) на значение «Total sessions» (Всего сеансов).  <br/> |

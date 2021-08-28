@@ -13,28 +13,28 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Setup
 - ms.lync.lac.OrgMobileNotification
 description: Узнайте, как включить или отключить уведомления на мобильном телефоне, чтобы пользователи могли получать оповещения о входящих сообщениях, голосовой почте и пропущенных мгновенных сообщениях.
-ms.openlocfilehash: ee558456a5f0ee4c2d59f4780e72ce4a2d2fe604aef5c270bca72665b7a610cf
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f44daa163dcce9298a43310b9157256c4b44fbb2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54283931"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58584423"
 ---
 # <a name="turn-on-or-off-mobile-phone-notifications"></a>Включение и отключение уведомлений на мобильном телефоне
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 > [!IMPORTANT]
-> Центр Microsoft Teams администрирования заменил центр администрирования Skype для бизнеса (устаревший портал). Все параметры управления Skype для бизнеса теперь находятся в Teams администрирования. Дополнительные сведения см. в статье [Управление параметрами Skype для бизнеса в Центре администрирования Microsoft Teams](/MicrosoftTeams/skype-for-business-settings?bc=%2fskypeforbusiness%2fbreadcrumb%2ftoc.json&toc=%2fskypeforbusiness%2fsfbotoc%2ftoc.json)
+> Центр Microsoft Teams администрирования заменил центр администрирования Skype для бизнеса (устаревший портал). Все параметры управления Skype для бизнеса теперь находятся в Teams администрирования. Дополнительные сведения см. в статье [Управление параметрами Skype для бизнеса в Центре администрирования Microsoft Teams](/MicrosoftTeams/skype-for-business-settings?bc=%2fskypeforbusiness%2fbreadcrumb%2ftoc.json&toc=%2fskypeforbusiness%2fsfbotoc%2ftoc.json)
 
-В **[](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)** окте Назначение ролей администратора Приложения Microsoft 365 для бизнеса для вашей организации вы можете выбрать Skype для бизнеса, будут ли пользователи вашей организации получать оповещения о входящих и пропущенных мгновенных сообщениях, когда они находятся на мобильных телефонах или планшетных ПК.
+В области Назначение ролей администратора **[Приложения Microsoft 365 для бизнеса](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)** организации вы можете выбрать Skype для бизнеса, будут ли пользователи вашей организации получать оповещения о входящих и пропущенных мгновенных сообщениях, когда они находятся на мобильных телефонах или планшетных ПК.
   
 На телефонах с Android Windows и Skype для бизнеса уведомления появляются в режиме реального времени. Однако Windows Phone, iPhone и iPad, push-уведомления используются для демонстрации оповещений, когда вы не используете Skype для бизнеса телефоне или планшете.
   
@@ -45,11 +45,11 @@ ms.locfileid: "54283931"
 
 1. Во Microsoft 365.
     
-2. Перейдите в Центр администрирования > **Skype для бизнеса**.
+2. Перейдите в центр администрирования > **Skype для бизнеса**.
     
 3. Перейдите **в общие организации**  >  . 
     
-4. В **окне Уведомления на мобильном** телефоне , разберите поле рядом со службой уведомлений, которая вы хотите отключить, и нажмите кнопку **Сохранить**.
+4. В **области Уведомления на мобильном** телефоне , очистка окна рядом с службой уведомлений, который вы хотите отключить, и нажмите кнопку **Сохранить**.
     
 Помните: 
   

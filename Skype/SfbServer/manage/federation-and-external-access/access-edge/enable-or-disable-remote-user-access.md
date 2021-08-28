@@ -13,14 +13,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Если вы включаете удаленный доступ пользователей для удаленных пользователей, поддерживаемые удаленные пользователи подключаются через Интернет и не должны подключаться с помощью VPN для совместной работы с внутренними пользователями с помощью Skype для бизнеса Server.
-ms.openlocfilehash: 3b95796efbd8056092a24399f6faa7ccd3619b7168a2bb787436beeb3f78f4fc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c20f6891b463f44fdcd424ca870fbba0826d33bd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54313187"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58608196"
 ---
 # <a name="enable-or-disable-remote-user-access-in-skype-for-business-server"></a>Включить или отключить удаленный доступ к пользователю в Skype для бизнеса Server
 

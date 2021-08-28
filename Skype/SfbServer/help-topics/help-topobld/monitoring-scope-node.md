@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.MonitoringServerScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 05867db5-ad62-41e3-b1ac-f21f43d1e90b
 description: 'В Lync Server 2013 Topology Builder можно выполнять задачи, связанные с отдельным сервером, на который выполняется мониторинг, щелкнув правой кнопкой мыши на сервере Мониторинга в дереве консоли, нажав действие на панели инструментов или щелкнув задачу в области Действия, а затем щелкнув один из следующих вариантов для сервера, запущенного в мониторинге:'
-ms.openlocfilehash: 39197d9d926cecd7a1acf3834b0fff8ea7f71d92af82921f161f0502e00c415a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4513a0ea5c28d465cd1fc8d8cf949cb09499a7af
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54299536"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58630723"
 ---
 # <a name="monitoring-scope-node"></a>Узел области мониторинга
  
