@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 385453cd-3a96-4837-8bb4-513aa97a256b
 description: В Install-CcAppliance устанавливается Skype для бизнеса Cloud Connector Edition устройства, включая виртуальные машины AD, Central Management Store, Mediation Server и Edge Server.
-ms.openlocfilehash: b88b869e3c30783a69bc16ab690a258506ebcc90e849eb474a17859140485e8d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0ed13282039b84975bea3e26f5ae1d7f79122a11
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54343183"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58635843"
 ---
 # <a name="install-ccappliance"></a>Install-CcAppliance
  
@@ -111,7 +111,7 @@ Install-CcAppliance-ShowStepsOnly
 |PrepareOnly  <br/> |Необязательный  <br/> |System.Management.Automation.SwitchParameter  <br/> | Создание файлов конфигурации для каждого шага развертывания. Этот параметр только для устранения неполадок. <br/> |
 |ShowStepsOnly  <br/> |Необязательный  <br/> |System.Management.Automation.SwitchParameter  <br/> |Отображаем только имена этапов развертывания. Этот параметр только для устранения неполадок.  <br/> |
 |SkipExistingObjects  <br/> |Необязательный  <br/> |System.Management.Automation.SwitchParameter  <br/> |Этот параметр должен использоваться в сочетании с параметром Steps. Этот параметр только для устранения неполадок.  <br/> |
-|Действия  <br/> |Необязательный  <br/> |System.Array  <br/> |Запустите этапы развертывания. Этот параметр только для устранения неполадок.  <br/> |
+|Действия  <br/> |Необязательна  <br/> |System.Array  <br/> |Запустите этапы развертывания. Этот параметр только для устранения неполадок.  <br/> |
 |Обновление  <br/> |Необязательный  <br/> |System.Management.Automation.SwitchParameter  <br/> |Обновление существующего облачного соединитетеля до последней версии.  <br/> |
 |UpdateAllCredentials  <br/> |Необязательный  <br/> |System.Management.Automation.SwitchParameter  <br/> |Удалите все учетные данные облачного соединитетеля в кэше. Покажите пользователю указать новые сведения об учетных данных для установки.  <br/> |
    

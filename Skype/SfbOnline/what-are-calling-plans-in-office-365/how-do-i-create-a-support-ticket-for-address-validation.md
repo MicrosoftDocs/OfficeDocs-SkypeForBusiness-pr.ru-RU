@@ -14,7 +14,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - CSH
@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - ms.lync.lac.CivicAddressValidationOpenSupportTicket
 description: Проверка адреса является важной частью настройки планов звонков. Она предоставляет пользователю организации адрес для экстренного реагирования, который могут использовать экстренные службы.
-ms.openlocfilehash: 7129398a661a1b89e4f7cbfe51e8a770d45b3714d60df679600d0c70ac6a5491
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: df94bdd2f69338ae6085a4d0c35f9a0f907c72c9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54334431"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58621851"
 ---
 # <a name="how-do-i-create-a-support-ticket-for-address-validation"></a>Создание запроса в службу поддержки на проверку адреса
 
@@ -50,7 +50,7 @@ ms.locfileid: "54334431"
 
 1. Во sign in as an administrator to Microsoft 365 or Office 365 with your work or school account.
     
-2. В центре администрирования на левой области навигации **щелкните** Поддержка  >  **нового запроса на обслуживание**.
+2. В Центре администрирования на левой навигации **щелкните** Поддержка  >  **нового запроса на обслуживание**.
     
 3. В меню **Запросы на обслуживание** щелкните **Добавить**.
     

@@ -13,25 +13,25 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
 description: 'Узнайте, как переключаться между пользовательскими интерфейсами Skype для бизнеса и Lync с помощью PowerShell в Microsoft 365 или Office 365 '
-ms.openlocfilehash: 3bd4f2eda05808428eadde5f2d596a5b9fe38cea6f1a6c253b2da64f9473f097
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0a57bc5c246ac94926247805a0e1134f29e54937
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54320981"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58621901"
 ---
 # <a name="switching-between-the-skype-for-business-and-the-lync-client-user-interfaces"></a>Переключение между пользовательскими интерфейсами клиентов Skype для бизнеса и Lync
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-В Skype для бизнеса Online можно использовать удаленную powerShell в Microsoft 365 или Office 365, чтобы пользователи Skype для бизнеса могли использовать клиент Skype для бизнеса или пользовательский интерфейс Skype для бизнеса (Lync). По умолчанию пользователи могут использовать пользовательский интерфейс Skype для бизнеса клиента. Если вы хотите использовать интерфейс клиента Lync, вы можете управлять поведением клиента первого запуска, чтобы отобразить пользовательский интерфейс Lync. Для этого следуя этим шагам.
+Для организаций Skype для бизнеса Online можно использовать удаленную powerShell в Microsoft 365 или Office 365, чтобы пользователи Skype для бизнеса могли использовать клиент Skype для бизнеса или пользовательский интерфейс Skype для бизнеса (Lync). По умолчанию пользователи могут использовать пользовательский интерфейс Skype для бизнеса клиента. Если вы хотите использовать интерфейс клиента Lync, вы можете управлять поведением клиента первого запуска, чтобы отобразить пользовательский интерфейс Lync. Для этого следуя этим шагам ниже.
   
 > [!NOTE]
 > Интерфейс клиента Lync 2013 недоступен для версий Skype для бизнеса 2016. Перед настройкой клиентской среды на использование клиента Lync 2013 убедитесь, что версия клиента не начинается с цифр "16" (например: 16.x.x.x). 
@@ -97,7 +97,7 @@ Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI -Identity <username>
   
 
 ```PowerShell
-$users = @("sip:bob@contoso.com&quot;,&quot;sip:fred@contoso.com") 
+$users = @("sip:bob@contoso.com","sip:fred@contoso.com") 
 
 $users | Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI
 ```
@@ -169,13 +169,13 @@ Get-CsOnlineUser -Filter {Department -eq "Sales"} | Grant-CsClientPolicy -Policy
    
 Для начала работы с Windows PowerShell ознакомьтесь с приведенными ниже разделами.
   
-- [Зачем нужно использовать Microsoft 365 или Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+- [Зачем нужна Microsoft 365 или Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
 - [Лучшие способы управления Microsoft 365 или Office 365 с помощью Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
 ## <a name="first-launch-client-behaviors"></a>Режим работы клиента при первом запуске
 
-По умолчанию при первом запуске Skype для бизнеса пользователи всегда будут видеть пользовательский интерфейс Skype для бизнеса, даже если вы выбрали интерфейс клиента Lync путем настройки клиентской политики Lync (), как описано `Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI` выше. Через несколько минут пользователям будет предложено переключиться в режим Lync.
+По умолчанию при первом запуске Skype для бизнеса пользователи всегда будут видеть пользовательский интерфейс Skype для бизнеса Lync, даже если вы выбрали интерфейс клиента Lync путем настройки клиентской политики на клиентский интерфейс Lync (), как описано `Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI` выше. Через несколько минут пользователям будет предложено переключиться в режим Lync.
   
 Чтобы отобразить интерфейс Lync при первом запуске клиента Skype для бизнеса, выполните следующие действия до того, как клиент будет запущен в первый раз после обновления.
   

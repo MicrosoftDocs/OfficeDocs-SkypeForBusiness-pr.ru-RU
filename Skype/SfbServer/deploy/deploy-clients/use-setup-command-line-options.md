@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 99878c3c-ff31-48e2-8424-580d7b07a7bf
 description: Сводка. Сведения о Setup.exe операциях командной строки в Office настройке.
-ms.openlocfilehash: 1eb0a6b1e2050eb7152ff0eb65c7c08af57e307f5253a8ec8502fd3e7718aa3a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e59249a459e697aa18b9fb757c0cf03c036b5077
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54300355"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58598153"
 ---
 # <a name="use-setup-command-line-options-with-skype-for-business-clients"></a>Используйте параметры командной строки установки с Skype для бизнеса клиентами
  
@@ -29,7 +29,7 @@ ms.locfileid: "54300355"
   
 **Параметры командной строки программы установки Office**
 
-|**Параметр командной строки программы установки**|**Description**|
+|**Параметр командной строки программы установки**|**Описание**|
 |:-----|:-----|
 |/admin  <br/> |Запускает центр развертывания Office для создания файла настройки программы установки (файла MSP).  <br/> |
 |/adminfile [путь]  <br/> |Применяет к установке указанный файл настройки программы установки. Можно указать путь к конкретному MSP-файлу настройки или к папке файлов настройки.  <br/> |

@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.dep.DeployCertRequestCSRFileGenerated
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 728f6a92-8df8-40c9-8054-cd7306d7d60f
 description: Страница Файл запроса сертификата отображается после завершения автономного запроса сертификата. Чтобы просмотреть запрос сертификата и подготовить его к отправке в локальный или общий центр сертификации, нажмите кнопку Просмотреть. Запрос сертификата отображается в Блокноте Windows (по умолчанию). Вы можете копировать и вставлять кодированный запрос сертификата на этом экране или закончить обработку запроса сертификата, следуя указаниям из выбранного локального или общего центра сертификации. Нажмите кнопку Готово, чтобы продолжить.
-ms.openlocfilehash: 77a03f3e5df6afc8d7a600ab4fef3a7db4cc9ec8abad8b6f900f125622a30269
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d654d0367114aef8e270fb496d060dfaaef377ca
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54309708"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58612638"
 ---
 # <a name="certificate-request-certificate-signing-request-generated"></a>Запрос сертификата (запрос подписи сертификата создан)
  

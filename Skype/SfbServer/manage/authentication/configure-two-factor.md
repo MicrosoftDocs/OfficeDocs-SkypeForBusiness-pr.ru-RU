@@ -9,16 +9,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: c24e0891-e108-4cb6-9902-c6a4c8e68455
 description: Сводка. Настройка двух факторов проверки подлинности в Skype для бизнеса Server.
-ms.openlocfilehash: 128ae4fcc1a9e7cd9817e73539b1bf1290883a1d
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: f4c8532d08a3ed6c06a702039eea224f231cbd06
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234644"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58612398"
 ---
 # <a name="configure-two-factor-authentication-in-skype-for-business-server"></a>Настройка двух факторов проверки подлинности в Skype для бизнеса Server
 

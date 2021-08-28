@@ -14,18 +14,18 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Optimization
 description: Узнайте, как классифицировать качество потока на панели мониторинга качества звонка (CQD) для Microsoft Teams и Skype для бизнеса Online.
-ms.openlocfilehash: a717597151f0d933a8bbea49e6e71d070b063885
-ms.sourcegitcommit: 81f1a113a33c7ea8d2256144544d0e34cd64d576
+ms.openlocfilehash: f4c4fb72d15ce79c60c2400b068898ad463f1b07
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58505427"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58598343"
 ---
 # <a name="stream-classification-in-call-quality-dashboard-cqd"></a>Классификация потоков на панели мониторинга качества звонка (CQD)
 
@@ -119,7 +119,7 @@ ms.locfileid: "58505427"
 
 [Настройка панели мониторинга качества звонка (CQD)](turning-on-and-using-call-quality-dashboard.md)
 
-[Upload клиента и здания](CQD-upload-tenant-building-data.md)
+[Upload данных о клиенте и здании](CQD-upload-tenant-building-data.md)
 
 [Данные и отчеты CQD](CQD-data-and-reports.md)
 

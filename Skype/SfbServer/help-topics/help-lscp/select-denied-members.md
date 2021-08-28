@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.SelectDeniedMembers
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c626b6b4-15f3-4a59-bb1d-55dc8c60f5cb
 description: Постоянный администратор чата может создавать и управлять категориями комнат чата. В рамках создания и управления категориями комнат чата администратор сохраняемого чата может настраивать директоров (группы/контейнеры/пользователи active Directory Domain Services), которые имеют доступ к членам или создателям комнат чатов определенной категории. Администратор сохраняемой беседы также может добавлять DeniedMembers в категорию, и они становятся явными исключениями в разрешенный список. DeniedMembers переопределяют то, что есть в AllowedMembers.
-ms.openlocfilehash: 2e4927532e6991565095693d7c087bcdf5b826d47aaf3fa101e30cecced7664a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ee1221e7d6b7e898018018e0b7be930f289bec50
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54331571"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58612488"
 ---
 # <a name="select-denied-members"></a>Выбор запрещенных участников
 

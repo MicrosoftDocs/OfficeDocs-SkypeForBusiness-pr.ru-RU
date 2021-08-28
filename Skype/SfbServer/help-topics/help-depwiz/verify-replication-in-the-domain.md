@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.dep.DeployMainVerifyDomainPrep
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4846b787-d55e-4364-bdcd-2dee33f0251c
 description: 'Для проверки репликации подготовки домена, выполненной в шаге 1: Подготовка схемы, необходимо выполнить командылет из Skype для бизнеса Server shell управления Lync Server Management Shell. Чтобы запустить Windows PowerShell, войдите на компьютер, который является членом подготовленного домена, и в качестве члена группы администраторов домена. Выполните указанные ниже действия.'
-ms.openlocfilehash: e02708e7b995c2f83e82080be60caa1e251f6b9438a75d93c7d74f47d812db93
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1715ef902b4c0812b98ff6e37c8ea31eab5489ec
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54319282"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58596923"
 ---
 # <a name="verify-replication-in-the-domain"></a>Проверка репликации в домене
  

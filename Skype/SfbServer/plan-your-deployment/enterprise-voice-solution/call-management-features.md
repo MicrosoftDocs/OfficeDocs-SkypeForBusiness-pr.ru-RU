@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 5f557345-5a04-45d6-b274-c02dbfe41b33
 description: Обзор поддерживаемых функций управления вызовами в Skype для бизнеса Server Корпоративная голосовая связь.
-ms.openlocfilehash: c0cbeb9a659f815c72f36db9ebd426b718b9483d198bd6a65d3f9488701cca19
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e51194792e7b3162c17a9ac2c0a35310f5d60e64
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54306900"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58622151"
 ---
 # <a name="plan-for-call-management-features-in-skype-for-business"></a>Планирование функций управления вызовами в Skype для бизнеса
 
@@ -39,7 +39,7 @@ ms.locfileid: "54306900"
 
 Если планируется развертывание корпоративной голосовой связи, то можно указать, какие из этих функций управления вызовами следует реализовать.
 
-## <a name="in-this-section"></a>Содержание
+## <a name="in-this-section"></a>В этой статье
 
 - [Планирование парковки вызовов](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-call-park)
 

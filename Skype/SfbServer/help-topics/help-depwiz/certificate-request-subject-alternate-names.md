@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.dep.DeployCertRequestSanDesc
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3485f663-e114-43d7-8fe3-fcc4e5ae71ce
 description: На странице Имя субъекта / альтернативные имена субъектов представлена сводная информация по имени субъекта и всех альтернативных именах субъектов, которые будут указаны в сертификате. Имена, представленные для имени субъекта и альтернативных имен субъекта, собираются из документа определения, так как он был создан при определении развертывания в Topology Builder.
-ms.openlocfilehash: b194ade5e946c1bee6671908046106afc8818a63e85ae0d2d41eda4b6ddd425f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: de0ebd21def75b3b90af1fa406b94b9542767127
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54304091"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58612628"
 ---
 # <a name="certificate-request-subject-alternate-names"></a>Запрос сертификата (альтернативные имена субъектов)
  

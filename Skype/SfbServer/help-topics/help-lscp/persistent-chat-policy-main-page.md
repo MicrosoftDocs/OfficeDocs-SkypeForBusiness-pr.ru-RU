@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.PersistentChatPolicyMain
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0dc18d5c-82d6-4d39-afb1-efdb3ae6d2c7
 description: Вы можете использовать страницу Политики сохраняемого чата группы сохраняемого чата для управления политиками на глобальном уровне, пуле, сайте или пользователе, включая настройку глобальной политики по умолчанию и создание одной или более дополнительных политик пользователей и сайтов для развертывания. Если пользователь включен для сохраняемого сервера чата по политике, в клиенте отображается среда Persistent Chat Server.
-ms.openlocfilehash: c540ba5a21ddac731e3d68814421bcd80a205a3700e95e48b926add490a8baab
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 53717b18088bf8ddcd4317e4e1f3d72e24859f96
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54328334"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58595783"
 ---
 # <a name="persistent-chat-policy-main-page"></a>Главная страница политики сохраняемого чата
  

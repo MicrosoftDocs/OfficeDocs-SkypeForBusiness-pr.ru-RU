@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже находятся Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Хорватии.
-ms.openlocfilehash: 7a273871c5d090365738222f319254900c95679d1b9554094697f6ffb2c21168
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Ниже ются Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Хорватии.
+ms.openlocfilehash: 64c0c0ff31fa7952ffc89063ae2c2c5fb52631c8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54352397"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58635783"
 ---
 # <a name="availability-in-croatia"></a>Доступность в Хорватии
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже находятся Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Хорватии.
+Ниже ются Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Хорватии.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 

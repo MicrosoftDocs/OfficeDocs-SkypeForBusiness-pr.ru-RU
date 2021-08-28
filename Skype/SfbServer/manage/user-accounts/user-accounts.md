@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2fe7e3a7-bc75-4d4b-94af-a8818722b0d3
 description: В разделах этой статьи описывается, как включить, временно отключить или удалить пользователей Active Directory из Skype для бизнеса Server.
-ms.openlocfilehash: 9ff446b6829ed0d6f8e7b36de5b20fe30db5c7ba7fcf426abfd2068ff549a5bc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a604e08ad23f00f8eaf0342254df4563c0a6b864
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54351519"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58622191"
 ---
 # <a name="manage-user-accounts-for-skype-for-business-server"></a>Управление учетной записью пользователей для Skype для бизнеса Server
 
@@ -59,13 +59,13 @@ ms.locfileid: "54351519"
 
 5. (Необязательно) Укажите дополнительные условия поиска, чтобы уменьшить количество результатов:
 
-   А. Нажмите кнопку со стрелкой развертывания в верхнем правом углу экрана над элементом **Search results** (Результаты поиска) и нажмите кнопку **Add Filter** (Добавить фильтр).
+   а. Нажмите кнопку со стрелкой развертывания в верхнем правом углу экрана над элементом **Search results** (Результаты поиска) и нажмите кнопку **Add Filter** (Добавить фильтр).
 
-   Б. Укажите свойство пользователя, введя его вручную или щелкнув стрелку в раскрывающемся списке и выбрав свойство в этом списке.
+   б. Укажите свойство пользователя, введя его вручную или щелкнув стрелку в раскрывающемся списке и выбрав свойство в этом списке.
 
-   c. В списке **Equal to** (Равно) щелкните элемент **Equal to** (Равно) или **Not equal to** (Не равно).
+   в. В списке **Equal to** (Равно) щелкните элемент **Equal to** (Равно) или **Not equal to** (Не равно).
 
-   d. В текстовом поле введите требуемые условия поиска для фильтрации результатов, а затем нажмите кнопку **Find** (Найти).
+   г. В текстовом поле введите требуемые условия поиска для фильтрации результатов, а затем нажмите кнопку **Find** (Найти).
 
 6. Результаты поиска отображаются под элементом **Search Results** (Результаты поиска). Вы можете выбрать любых или всех пользователей в списке и выполнить для них задачи настройки.
 
@@ -74,7 +74,7 @@ ms.locfileid: "54351519"
 
 Включив учетную запись пользователя в Active Directory Users and Computers, вы можете использовать панель управления Skype для бизнеса Server для создания и включения новых учетных записей Skype для бизнеса Server, добавив пользователя Active Directory в Skype для бизнеса Server.
 
-Вы также можете использовать cmdlet, в частности [Enable-CsUser](/powershell/module/skype/enable-csuser?view=skype-ps).
+Вы также можете использовать cmdlet, в частности [Enable-CsUser](/powershell/module/skype/enable-csuser).
 
 1. Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи пользователя, назначенной роли CsUserAdministrator или CsAdministrator.
 
@@ -133,7 +133,7 @@ ms.locfileid: "54351519"
   Set-CsUser -Identity "Ken Myer" -Enabled $True
   ```
 
-Дополнительные сведения см. в разделе справка для раздела [Set-CsUser.](/powershell/module/skype/set-csuser?view=skype-ps)
+Дополнительные сведения см. в разделе справка для раздела [Set-CsUser.](/powershell/module/skype/set-csuser)
 
 ## <a name="disable-a-user-for-enterprise-voice"></a>Отключить пользователя для Корпоративная голосовая связь
 <a name="Disable_EV"> </a>
@@ -195,13 +195,13 @@ ms.locfileid: "54351519"
   Disable-CsUser -Identity "Ken Myer"
   ```
 
-    After this command has run there is no way to re-enable the account and its previous settings. Instead, you will need to use the Enable-CsUser cmdlet to create a brand-new account for Ken Myer.
+После завершения выполнения этой команды повторная активация учетной записи и ее предыдущих параметров невозможна. Вместо этого потребуется создать новую учетную запись для пользователя Ken Myer с помощью командлета Enable-CsUser.
 
-Дополнительные сведения см. в разделе справка для раздела [Disable-CsUser.](/powershell/module/skype/disable-csuser?view=skype-ps)
+Дополнительные сведения см. в разделе справка для раздела [Disable-CsUser.](/powershell/module/skype/disable-csuser)
 
 ## <a name="see-also"></a>См. также
 <a name="Remove"> </a>
 
-[Enable-CsUser](/powershell/module/skype/enable-csuser?view=skype-ps)
+[Enable-CsUser](/powershell/module/skype/enable-csuser)
 
-[Disable-CsUser](/powershell/module/skype/disable-csuser?view=skype-ps)
+[Disable-CsUser](/powershell/module/skype/disable-csusers)

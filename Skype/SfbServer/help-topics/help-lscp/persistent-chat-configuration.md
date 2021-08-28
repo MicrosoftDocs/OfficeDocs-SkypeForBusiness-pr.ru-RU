@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.PersistentChatConfig
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3f2891e6-bad3-4a23-a345-b7de4cae3bd9
 description: В развертывании стойких чат-серверов может быть размещено множество одновременно постоянных комнат чата. Комнаты чата можно организовать как набор категорий на сервере. Каждая комната чата принадлежит одной категории и наследует некоторые параметры из этой категории. Такая организация создает полезную структуру для определения бесед на основе их бизнес-цели и обеспечивает делегированное администрирование и упрощает управление.
-ms.openlocfilehash: 43f8329a5eb3165671474638d0d9a63d2aa1dc516200c58f306c9ce21317bd4f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8336beb24dbd8a159d5079e810c3c842f783803c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54346995"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58595793"
 ---
 # <a name="persistent-chat-configuration"></a>Настройка сохраняемого чата
  

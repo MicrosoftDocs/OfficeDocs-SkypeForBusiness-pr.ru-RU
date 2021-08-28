@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c58ee4f4-563b-4d0c-be91-c62df886caa9
 description: Сводка. Сведения о том, как управлять стойким сервером чата в Skype для бизнеса Server 2015 г.
-ms.openlocfilehash: daaf1e681436853ebe8987c2d1058019d41b49096f37db6ae8cb9ed57eaa6420
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: cf3db48a15c0b8897277d172d114112bcb6df79b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54324218"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58622211"
 ---
 # <a name="manage-persistent-chat-server-in-skype-for-business-server-2015"></a>Управление постоянным сервером чата в Skype для бизнеса Server 2015 г.
  
