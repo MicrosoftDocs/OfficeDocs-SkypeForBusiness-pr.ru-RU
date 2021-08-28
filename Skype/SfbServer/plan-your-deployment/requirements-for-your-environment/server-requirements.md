@@ -10,19 +10,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 8d47b242-b93d-4c2e-a658-23b78bca30b1
 description: Сводка. Подготовка Skype для бизнеса Server серверов 2015 г. с этой темой. Оборудование, ОС, базы данных, программное обеспечение, все системные требования и рекомендации здесь, чтобы обеспечить успешную установку и развертывание фермы серверов.
-ms.openlocfilehash: 2c709dbc3afa2290cc9260dd71b73ab5da898d88
-ms.sourcegitcommit: 6a87a4180519e493ac115c2faadb9ccae26d5a35
+ms.openlocfilehash: 0e93742e917e25f968d500ed01bb4a83d8ac8904
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58372079"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58604669"
 ---
 # <a name="server-requirements-for-skype-for-business-server-2015"></a>Требования к серверу для Skype для бизнеса Server 2015 г.
  

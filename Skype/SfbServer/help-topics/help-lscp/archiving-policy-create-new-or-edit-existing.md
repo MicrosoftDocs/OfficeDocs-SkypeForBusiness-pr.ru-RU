@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.MonArchPolicyEdit
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a4f948e7-e8f6-449a-8907-f61c5b143c05
 description: 'Политики архивации используются для управления архиванием внутренних и внешних коммуникаций при развертывании для пользователей, которые размещены в Skype для бизнеса Server. Политики архивирования включают глобальную политику и, дополнительно, одну или несколько политик сайтов и пользователей:'
-ms.openlocfilehash: f50288ac1890cf3768b2b14164b9d4b2ddc78eece97767a58f41a2b072c48724
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 58c0fc4c8f480865eba78bdaa1ca6c31e3c6e6c3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54278827"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58635443"
 ---
 # <a name="archiving-policy-create-new-or-edit-existing"></a>Политика архивирования: создание новой или редактирование существующей
  

@@ -16,19 +16,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: Это поможет вам узнать, как набирать бесплатные номера в каждой стране или регионе. После выбора страны или региона вы будете перенараны на страницу, которая содержит подробные сведения, ограничения и ограничения доступности бесплатных служб, где доступна бесплатная служба. В формате набора вы сможете использовать коды доступа, необходимые для набора бесплатного номера в каждой стране или регионе.
-ms.openlocfilehash: edf5bbe80cd8a6eb9696d3e6d1b9a4516170ecccb9ad8ecbee5c9b8422e19ed7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Это поможет вам узнать, как набирать бесплатные номера в каждой стране или регионе. После выбора страны или региона вы будете перенараны на страницу, которая содержит подробные сведения, ограничения и ограничения доступности бесплатных служб, где доступна бесплатная служба. В формате набора или формате будут отбираться коды доступа для каждой страны или региона, необходимые для набора бесплатного номера.
+ms.openlocfilehash: cef3e97355ce47a32010717a29a6c55f06abed00
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54297735"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58635623"
 ---
 # <a name="toll-free-dialing-restrictions-in-honduras"></a>Ограничения набора бесплатных номеров в Гондурасе
 

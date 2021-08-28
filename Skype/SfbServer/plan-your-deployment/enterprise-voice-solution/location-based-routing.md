@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 4aa494bd-0d66-4335-b9e8-f758d44a7202
 description: Планирование маршрутов на основе расположения в Skype для бизнеса Server Корпоративная голосовая связь, включая взаимодействие с одновременным звоном и делегирования, а также поддерживаемые сценарии маршрутирования на основе расположения.
-ms.openlocfilehash: 3d76fad2b87c850e18bf5d152234dea4d1321a3ed2e123be694e6a1f107f58ae
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9c066aae2c70892b3d7dd6ed3180bb2fd0c9f969
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54286628"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58588521"
 ---
 # <a name="plan-for-location-based-routing-in-skype-for-business"></a>Планирование Location-Based маршрутов в Skype для бизнеса
 
@@ -226,7 +226,7 @@ Location-Based маршрутивка требует, чтобы Skype для б
 
 ****
 
-|**Тип клиента**|**Поддерживаются**|**Сведения**|
+|**Тип клиента**|**Поддерживаются**|**Details**|
 |:-----|:-----|:-----|
 |Skype для бизнеса  <br/> |Да  <br/> ||
 |Lync 2013  <br/> |Да  <br/> ||

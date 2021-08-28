@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddDirectorPoolPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 751ead48-b97f-4c6f-ba6b-14d446473658
 ROBOTS: NOINDEX, NOFOLLOW
 description: Чтобы определить полное доменное имя пула директоров, выберите пул с несколькими компьютерами, состоящий из двух и более директоров в пуле с балансировкой нагрузки, или пул из одного компьютера. Кроме того, необходимо ввести полное доменное имя (FQDN), которое будет использоваться для подключения к пулу Director или FQDN одного директора. Для пула директоров этим именем будет DNS-запись для виртуального IP-адреса аппаратного балансировщика нагрузки или общая DNS-запись для балансировки нагрузки DNS.
-ms.openlocfilehash: 910ed1cee56a9a7dab395496ec1ce02f91bc2a5f00f8cbb4d8032b4170263854
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a8fdb37fb5a64c9f228a941c36dda7a56c5013d6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54338567"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58590343"
 ---
 # <a name="add-director-pool"></a>Добавление пула директоров
  

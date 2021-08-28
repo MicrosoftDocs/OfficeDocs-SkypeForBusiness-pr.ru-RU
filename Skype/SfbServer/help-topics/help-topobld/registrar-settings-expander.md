@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.RegistrarSettingsExpander
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c7486ab3-61fd-45c6-9edc-a15535f273ff
 description: Компонент устойчивости обеспечивает высокую доступность и аварийное восстановление для пула регистратора. Если при сбое основного регистратора доступен резервный регистратор, он может взять на себя функции основного неработающего регистратора, позволяя пользователям выполнять вход и взаимодействовать. В этом случае пользователям могут быть доступны не все функциональные возможности, это зависит от того, на каких еще системах, кроме основного регистратора, возник сбой.
-ms.openlocfilehash: 75184413222c2de6d580b1ae088b4d65bc7e9851fd10aaaba6b303daa1a53e5e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 44623d15a7f053a0982d031f8d3f153acd537a53
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54329643"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58623761"
 ---
 # <a name="registrar-settings-expander"></a>Расширитель параметров регистратора
  

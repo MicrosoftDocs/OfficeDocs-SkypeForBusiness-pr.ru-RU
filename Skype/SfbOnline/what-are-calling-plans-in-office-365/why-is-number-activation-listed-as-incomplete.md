@@ -14,7 +14,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - CSH
@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - ms.lync.lac.NumberActivationStateIncomplete
 description: Проверка адреса является важной частью настройки планов звонков. Она предоставляет пользователю организации адрес для экстренного реагирования, который могутжет использоваться соответствующими экстренные службыами.
-ms.openlocfilehash: c3ab63ce08eebdcc88b44edc5447d7b2dad0ac412f9320de595f0bb783226317
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d895740498e77a2b88c1306cdc1f91c7619e8ecf
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54279517"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58597813"
 ---
 # <a name="why-is-number-activation-listed-as-incomplete"></a>Почему активация номера отображается как незавершенная?
 

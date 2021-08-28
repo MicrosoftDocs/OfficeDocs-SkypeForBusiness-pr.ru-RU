@@ -1,5 +1,5 @@
 ---
-title: Код подачи претензий для Великобритании - Microsoft 365 планов звонков
+title: Код подачи претензий для Великобритании - Microsoft 365 планы звонков
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -15,20 +15,20 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Legal
 - seo-marvel-mar2020
 hideEdit: true
-description: Вы можете подать претензию Skype для служб звонков по ЖКХ в Великобритании, отслужить временные шкалы для ответов и устранить споры по нерешаемой жалобе.
-ms.openlocfilehash: 5d0697de0d0c19038c5b6307eca4023f2838ee0aab010fb7a33faf371300625c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Подать претензию в службы Skype для бизнеса (вызовы по ЖКХ в Великобритании), временные шкалы ответов и разрешение споров по нерешаемой жалобе.
+ms.openlocfilehash: 648f7b171e8d04f4bad6ef1cdb1021b987cf042e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54347414"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58604608"
 ---
 # <a name="calling-plans-in-microsoft-365---complaint-handling-code-for-the-united-kingdom-uk"></a>Планы звонков в Microsoft 365 — код подачи претензий для Великобритании
 

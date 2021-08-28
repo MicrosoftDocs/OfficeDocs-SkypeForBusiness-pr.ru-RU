@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AssociateMediationServerWithEdgePage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 65c5d93c-9f0d-4a60-8bd1-d05eb6bc2088
 ROBOTS: NOINDEX, NOFOLLOW
 description: Чтобы определить сервер-посредник, укажите параметры, которые служат для сопоставления данного сервера-посредника с интерфейсным сервером и с пограничным сервером или пулом. Чтобы сопоставить сервер-посредник или пул с пограничным сервером или пулом, выполните следующие действия.
-ms.openlocfilehash: d4aa86e44c2ae61f9856434313cb419d52e2daa9b01ccd85d0e16b9f1906bc2e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 418715aa100cb0abdfad76c7e4482da422c4be97
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54304121"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58635603"
 ---
 # <a name="associate-mediation-server-with-edge"></a>Связывание сервера-посредника с пограничным сервером
  

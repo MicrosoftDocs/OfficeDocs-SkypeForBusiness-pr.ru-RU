@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7992440b-8545-4af9-b3ac-ea200b9de084
 ROBOTS: NOINDEX, NOFOLLOW
 description: Сводная панорама области команд выполнения отображает состояние задач, выдающихся для запуска служб для сервера ролей Skype для бизнеса Server, который вы развертываете.
-ms.openlocfilehash: 3a63d15c96728d1503c3938e8466420895ad8fceb0a4636126055949dbea6c79
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1c53ea2bc52cee5213bfca585b14957d50581b98
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54317784"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58598003"
 ---
 # <a name="start-services-invoke"></a>Запуск служб (вызов)
  

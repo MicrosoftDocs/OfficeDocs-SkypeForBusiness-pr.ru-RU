@@ -16,18 +16,18 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Phone System
 description: Управление политиками голосовой почты для пользователей.
-ms.openlocfilehash: 112a2ac98ee22c46cb78c579ead947f70a1d6d447ac81ace3aef224304a281dd
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 275c67cef3a318d15f030f26aa50a74a15748c03
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54342973"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58604428"
 ---
 # <a name="setting-voicemail-policies-in-your-organization"></a>Настройка политик голосовой почты в организации
 
@@ -35,18 +35,18 @@ ms.locfileid: "54342973"
 > Для Skype для бизнеса пользователей отключение голосовой почты с Microsoft Teams голосовой почты может также отключить службу голосовой почты для Skype для бизнеса пользователей.
 
 ## <a name="voicemail-organization-defaults-for-all-users"></a>Стандарты организации голосовой почты для всех пользователей
-- Включена транскрибация голосовой почты.
+- Транскрибация голосовой почты включена.
 - Расшифровка транскрибации голосовой почты отключена.
 - Максимальная длительность записи — пять минут.
 
 Вы можете управлять этими значениями по умолчанию с помощью cmdlets [Set-CsOnlineVoicemailPolicy](/powershell/module/skype/Set-CsOnlineVoicemailPolicy) и [Grant-CsOnlineVoicemailPolicy.](/powershell/module/skype/Get-CsOnlineVoicemailPolicy)
 
-Сообщения голосовой почты, полученные пользователями в вашей организации, транскрибются в регионе, где Microsoft 365 или Office 365 организации. Регион, в котором размещен ваш клиент, может не быть регионом, в котором находится пользователь, получающий сообщение голосовой почты. Чтобы просмотреть регион размещения клиента, перейдите [](https://go.microsoft.com/fwlink/p/?linkid=2067339) на страницу профиля организации и щелкните Просмотреть **сведения** рядом с кнопкой **Расположение данных.**
+Сообщения голосовой почты, полученные пользователями в вашей организации, транскрибются в том регионе, где Microsoft 365 или Office 365 организации. Регион, в котором размещен ваш клиент, может не быть регионом, в котором находится пользователь, получающий сообщение голосовой почты. Чтобы просмотреть регион размещения клиента, перейдите [](https://go.microsoft.com/fwlink/p/?linkid=2067339) на страницу профиля организации и щелкните Просмотреть **сведения** рядом с кнопкой **Расположение данных.**
 
 > [!IMPORTANT]
-> Вы не можете создать новый экземпляр политики для транскрибации и транскрибации с помощью cmdlet **New-CsOnlineVoiceMailPolicy** и удалить существующий экземпляр политики с помощью cmdlet **Remove-CsOnlineVoiceMailPolicy.**
+> Вы не можете создать новый экземпляр политики для транскрибации и транскрибации с помощью cmdlet **New-CsOnlineVoiceMailPolicy,** а также удалить существующий экземпляр политики с помощью cmdlet **Remove-CsOnlineVoiceMailPolicy.**
 
-Параметрами транскрибирования для пользователей можно управлять с помощью политик голосовой почты. Чтобы увидеть все доступные экземпляры политик голосовой почты, используйте для этого cmdlet [Get-CsOnlineVoicemailPolicy.](/powershell/module/skype/Get-CsOnlineVoicemailPolicy)
+Параметрами транскрибирования для пользователей можно управлять с помощью политик голосовой почты. Чтобы увидеть все доступные экземпляры политик голосовой почты, воспользуйтесь [cmdlet get-CsOnlineVoicemailPolicy.](/powershell/module/skype/Get-CsOnlineVoicemailPolicy)
 
 ```PowerShell
 PS C:\> Get-CsOnlineVoicemailPolicy
@@ -153,7 +153,7 @@ Grant-CsOnlineVoicemailPolicy -PolicyName OneMinuteVoicemailPolicy -Identity sip
 
 ## <a name="dual-language-system-prompts-for-a-user"></a>Запросы двух языковых систем для пользователя
 
-Сначала необходимо создать настраиваемую политику голосовой почты с помощью [cmdlet New-CsOnlineVoicemailPolicy.](/powershell/module/skype/New-CsOnlineVoicemailPolicy) Команда, показанная ниже, создает политику голосовой почты для каждого пользователя enUS-esSP-VoicemailPolicy с primarySystemPromptLanguage en-US (английский язык - США) и SecondarySystemPromptLanguage с установленным значением es-SP (испанский (Испания).
+Сначала необходимо создать настраиваемую политику голосовой почты с помощью [cmdlet New-CsOnlineVoicemailPolicy.](/powershell/module/skype/New-CsOnlineVoicemailPolicy) Команда, показанная ниже, создает политику голосовой почты для каждого пользователя enUS-esSP-VoicemailPolicy с значением PrimarySystemPromptLanguage en-US (английский язык - США) и secondarySystemPromptLanguage, который имеет значение es-SP (испанский (Испания).
 
 ```PowerShell
 New-CsOnlineVoicemailPolicy -Identity "enUS-esES-VoicemailPolicy" -PrimarySystemPromptLanguage en-US -SecondarySystemPromptLanguage es-ES
@@ -176,4 +176,4 @@ Grant-CsOnlineVoicemailPolicy -PolicyName "enUS-esES-VoicemailPolicy" -Identity 
 
 
 > [!IMPORTANT]
-> Служба голосовой почты Microsoft 365 и Office 365 кэш политики голосовой почты и обновляет кэш каждые 6 часов. Таким образом, на внесение изменений политики может быть применено до 6 часов.
+> Служба голосовой почты Microsoft 365 и Office 365 кэш политики голосовой почты и обновляет кэш каждые 6 часов. Таким образом, внесение изменений в политику может занять до 6 часов.

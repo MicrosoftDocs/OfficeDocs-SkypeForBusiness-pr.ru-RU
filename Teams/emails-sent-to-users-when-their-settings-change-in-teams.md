@@ -14,19 +14,19 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: 'Узнайте, какие сведения автоматически отправляются пользователям по электронной почте при изменении их параметров для Microsoft Teams. '
-ms.openlocfilehash: 44c9cf7fc2c8d0bb4beadb7c2f124b74ddcabc868a21836690ec58f5ab9e06a4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 'Узнайте, какие сведения автоматически отправляются пользователям по электронной почте при изменении параметров их параметров для Microsoft Teams. '
+ms.openlocfilehash: 288df4ebe5b207d08556eee14f08eb012a87a879
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54284140"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58604498"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-microsoft-teams"></a>Сообщения электронной почты, отправляемые пользователям при изменении их настроек в Microsoft Teams
 
@@ -36,10 +36,10 @@ ms.locfileid: "54284140"
 
 - **Им назначена лицензия на аудиоконференцию или при смене поставщика аудиоконференций на Майкрософт.**
 
-     Это сообщение электронной почты содержит код конференции, номер телефона конференции по умолчанию для собраний, ПИН-код аудиоконференции для пользователя, инструкции и ссылку для использования средства обновления собраний по сети Skype для бизнеса, которое используется для обновления существующих собраний для пользователя. См. Microsoft Teams лицензии на [надстройки](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md) или Назначение Майкрософт в качестве поставщика аудиоконференций. [](/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider)
+     Это сообщение электронной почты содержит код конференции, номер телефона конференции по умолчанию для собраний, ПИН-код аудиоконференции для пользователя, а также инструкции и ссылку для использования средства обновления собраний по сети Skype для бизнеса, которое используется для обновления существующих собраний для пользователя. См. Microsoft Teams лицензии на [надстройки](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md) или Назначение Майкрософт в качестве поставщика аудиоконференций. [](/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider)
 
     > [!NOTE]
-    > Если в вашей организации включены динамические ИД конференции, все собрания пользователя, которые он запланет, будут иметь уникальные ИД конференции. Вы можете настроить [динамические](/skypeforbusiness/audio-conferencing-in-office-365/reset-a-conference-id-for-a-user)ИД аудиоконференции в своей организации. 
+    > Если в вашей организации включены динамические ИД конференции, все собрания пользователя, которые он запланет, будут иметь уникальные ИД конференции. Вы можете настроить [динамические ID](/skypeforbusiness/audio-conferencing-in-office-365/reset-a-conference-id-for-a-user)аудиоконференции в своей организации. 
 
     Вот пример такого сообщения:
 
@@ -61,9 +61,9 @@ ms.locfileid: "54284140"
     
      Вот пример такого сообщения:
     
-     ![Изменен ПИН-код для телефонной телефонии.](media/teams-emails-sent-to-users-when-settings-change-image3.png)
+     ![Изменен ПИН-код для телефонной телефонной телефонии.](media/teams-emails-sent-to-users-when-settings-change-image3.png)
   
-- **Лицензия пользователя удаляется либо поставщик аудиоконференций изменяется с Майкрософт на другого поставщика или нет.**
+- **Лицензия пользователя удаляется либо поставщик аудиоконферент изменяется с Майкрософт на другого поставщика или нет.**
 
     Это происходит  при удалении лицензии пользователя на аудиоконференцию или при установке для поставщика услуг аудиоконференции параметра **Нет.**
 
@@ -78,7 +78,7 @@ ms.locfileid: "54284140"
 
 ## <a name="make-changes-to-the-email-messages-that-are-sent-to-them"></a>Внесение изменений в отправленные им сообщения электронной почты
 
-Вы можете вносить изменения в сообщения электронной почты, которые автоматически отправляются пользователям. По умолчанию отправитель сообщений отправляется из Microsoft 365 или Office 365, но вы можете изменить отображаемого имени, используя Windows PowerShell. Дополнительные сведения см. в Microsoft Teams [PowerShell.](/powershell/module/teams/?view=teams-ps)
+Вы можете вносить изменения в сообщения электронной почты, которые автоматически отправляются пользователям. По умолчанию отправитель сообщений отправляется из Microsoft 365 или Office 365, но вы можете изменить отображаемого имени с помощью Windows PowerShell. Дополнительные сведения см. в Microsoft Teams [PowerShell.](/powershell/module/teams/?view=teams-ps)
 
 ## <a name="what-if-you-dont-want-email-to-be-sent-to-them"></a>Что делать, если вы не хотите, чтобы им отправляли электронную почту?
 
@@ -90,9 +90,9 @@ ms.locfileid: "54284140"
 
 1. На панели навигации слева перейдите в раздел **Собрания** > **Мосты конференц-связи**. 
 
-2. В верхней части страницы **Мосты** конференций щелкните **Параметры моста**. 
+2. В верхней части страницы **Мосты конференций** щелкните **Параметры моста**. 
 
-3. В области **Параметры моста** включите или отключите параметр Автоматически отправлять электронные письма пользователям при изменении их параметров телефонного **дозвона.**
+3. В области **Параметры моста** включите или отключите параметр Автоматически отправлять пользователям сообщения электронной почты при изменении параметров телефонного **набора.**
 
 4. Нажмите кнопку **Сохранить**.
 
@@ -107,7 +107,7 @@ ms.locfileid: "54284140"
 Set-CsOnlineDialInConferencingTenantSettings -AutomaticallySendEmailsToUsers $true|$false
 ```
 
-С помощью [set-CsOnlineDialInConferencingTenantSettings](/powershell/module/skype/set-csonlinedialinconferencingtenantsettings) можно управлять другими настройками для организации, включая электронную почту.
+С помощью [Set-CsOnlineDialInConferencingTenantSettings](/powershell/module/skype/set-csonlinedialinconferencingtenantsettings) можно управлять другими настройками для организации, включая электронную почту.
 
 Дополнительные сведения см. в Microsoft Teams [PowerShell.](/powershell/module/teams/?view=teams-ps)
 

@@ -10,16 +10,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: b95b3301-fa1e-4b96-9af4-05b43d39db8d
 description: Прежде чем приступить к разработке и планированию инфраструктуры Skype для бизнеса Server 2015 г., используя средство планирования Skype для бизнеса Server 2015 г., необходимо сначала установить средство планирования. Средство планирования не должно быть развернуто на рабочей станции или сервере, который является частью домена или инфраструктуры, где планируется установить Skype для бизнеса Server 2015 г. Файл Readme, сопровождающий средство планирования, подробно сообщает важные сведения об установке и использовании этого средства. Некоторые сведения в файле Readme дублируются здесь для ясности.
-ms.openlocfilehash: ffa1bceca3e59e42276718b5f139ac6525d36f85face94c762ceebe3013c7487
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2cfa5e67d567c108d46db1bc52b5426971aa8ca8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54343413"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58616515"
 ---
 # <a name="install-the-planning-tool-in-skype-for-business-server-2015"></a>Установка средства планирования в Skype для бизнеса Server 2015 г.
 
@@ -30,7 +30,7 @@ ms.locfileid: "54343413"
 
 Поддерживаемые операционные системы для установки и работы средства планирования:
 
-- Windows 10.
+- Windows 10
 
 - Windows 8
 

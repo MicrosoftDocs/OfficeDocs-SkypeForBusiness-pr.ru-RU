@@ -14,21 +14,21 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 description: В этой статье вы узнаете, как администратор может изменять сведения о гостях на Azure Active Directory портале.
-localization_priority: Normal
+ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-apr2020
-ms.openlocfilehash: b3168c1302c5a735aeb416702cef5a78833c2bd2
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: da5e5e5a19aa36a0633c9826426cdc16fbc5e7cc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234584"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58604578"
 ---
 # <a name="edit-guest-information"></a>Изменение сведений о гостях
 
-Вы можете изменить сведения о гостях с Центр администрирования Microsoft 365 или Azure Active Directory портала.
+Вы можете изменить сведения о гостях на Центр администрирования Microsoft 365 или Azure Active Directory портале.
 
 ## <a name="guest-users-in-the-microsoft-365-admin"></a>Гостевых пользователей в Microsoft 365 администратора
 
@@ -46,4 +46,4 @@ ms.locfileid: "58234584"
 
    ![Изменение контактных данных гостевого пользователя](media/manage-guest-contact.png)
 
-Вы также можете изменить гостя на портале [Azure Active Directory .](https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/UsersManagementMenuBlade/MsGraphUsers)
+Вы также можете изменить гостя на [портале Azure Active Directory .](https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/UsersManagementMenuBlade/MsGraphUsers)
