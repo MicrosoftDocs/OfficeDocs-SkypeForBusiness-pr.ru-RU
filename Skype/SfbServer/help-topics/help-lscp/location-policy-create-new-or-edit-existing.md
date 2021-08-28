@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.NcsLocEdit
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d9b30b3b-570b-49a6-b2b4-46b0cf490153
 description: Вы можете настроить политики расположения, чтобы определить, включена ли расширенная 9-1-1 (E9-1-1) и как она используется, а также как сведения о расположении используются для пользователей и контактов.
-ms.openlocfilehash: adb3129adbcee49ed20e6f7d7191d075487ea221c06c2db9c1d5e6003555675a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 53af748db0c5a3ea2a8df8fe0aa19e58cb39e7d7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54331591"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582923"
 ---
 # <a name="location-policy-create-new-or-edit-existing"></a>Политика определения местонахождения: создание новой или редактирование существующей
 

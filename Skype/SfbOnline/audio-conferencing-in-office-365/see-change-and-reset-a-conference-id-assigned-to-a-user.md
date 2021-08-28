@@ -15,18 +15,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
 description: 'Узнайте, как присвоить пользователю идентификатор конференции для Skype для бизнеса Online и какими должны быть параметры для установки идентификатора конференции. '
-ms.openlocfilehash: 4b52b3cd7fb3d1ca35937e8c43365f3463134a19e4b9337cfb56b3b9eac1f8b8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c8c3abcf515a0a60046cd2438833467b8be78231
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54327065"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58607676"
 ---
 # <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-skype-for-business-online"></a>Просмотр и сброс идентификатора конференции, присвоенного пользователю в Skype для бизнеса Online
 
@@ -99,7 +99,7 @@ Windows PowerShell может быть использован для просм�
 ## <a name="what-else-should-you-know"></a>Дополнительные сведения
 
    > [!IMPORTANT]
-   >  После создания нового ИД конференции или сброса его старый ИД конференции нельзя использовать для вызывающих вызовов. You should notify users to reschedule their existing meeting invites to make sure the new conference ID is added to the invitations. Пользователи могут использовать средство переноса Skype для бизнеса собраний для обновления существующих собраний. Чтобы узнать, как скачать, установить и запустить средство, см. средства обновления собраний для Skype для бизнеса и [Lync](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4), Skype для бизнеса Online, Средство переноса собраний [(64-битная версия)](https://go.microsoft.com/fwlink/?LinkID=626047)и Skype для бизнеса Online, Средство переноса собраний [(32-битная версия).](https://www.microsoft.com/download/details.aspx?id=54079)
+   >  После создания нового ИД конференции или сброса его старый ИД конференции нельзя использовать для вызывающих вызовов. You should notify users to reschedule their existing meeting invites to make sure the new conference ID is added to the invitations. Пользователи могут использовать средство переноса Skype для бизнеса для обновления существующих собраний. Чтобы узнать, как скачать, установить и запустить средство, см. средства обновления собраний для Skype для бизнеса и [Lync](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4), Skype для бизнеса Online, Средство переноса собраний [(64-битная версия)](https://go.microsoft.com/fwlink/?LinkID=626047)и Skype для бизнеса Online, Средство переноса собраний [(32-битная версия).](https://www.microsoft.com/download/details.aspx?id=54079)
 
 - See [Set-CsOnlineDialInConferencingUser](/powershell/module/skype/Set-CsOnlineDialInConferencingUser) to learn more about the cmdlet.
 

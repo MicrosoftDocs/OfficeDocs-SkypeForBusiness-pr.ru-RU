@@ -1,5 +1,5 @@
 ---
-title: Изменение параметров конфигурации магистрали SIP в Skype для бизнеса Server
+title: Skype для бизнеса Параметры конфигурации магистрали ServerModify SIP
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -9,16 +9,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
-description: 'Параметры конфигурации магистрали SIP определяют возможности и отношения между сервером-посредником и шлюзом PSTN, IP-PBX и пограничным контроллером сеансов у поставщика услуг. '
-ms.openlocfilehash: 73ab5eed311cf10b674034edad58afce0f6e66c9deb5b763e8ef0f38b95822a7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.localizationpriority: medium
+description: 'Параметры конфигурации магистрали SIP определяют связь и возможности между сервером-посредником и шлюзом открытой телефонной сети, обменом IP-общедоступными филиалами (PBX) или диспетчером пограничной связи сеанса (SBC) в поставщике услуг. '
+ms.openlocfilehash: dbc7dec8af1f27769505b39b5cd2778f66dec0a4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54351489"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582733"
 ---
-# <a name="modify-sip-trunk-configuration-settings-in-skype-for-business-server"></a>Изменение параметров конфигурации магистрали SIP в Skype для бизнеса Server
+# <a name="skype-for-business-servermodify-sip-trunk-configuration-settings"></a>Skype для бизнеса Параметры конфигурации магистрали ServerModify SIP
 
 Параметры конфигурации линий связи SIP определяют возможности и связи между сервером-посредником и шлюзом телефонной сети общего пользования (ТСОП), IP-PBX или пограничным контроллером сеансов (SBC) на стороне поставщика услуг. Эти параметры позволяют определить:
 

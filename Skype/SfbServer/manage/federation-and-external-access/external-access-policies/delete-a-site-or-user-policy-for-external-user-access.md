@@ -13,14 +13,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Вы можете удалить любой сайт или политику пользователя, указанную в панели управления Skype для бизнеса Server на странице Политика внешнего доступа.
-ms.openlocfilehash: 99daff71590c6296a7f3a68405726c2854afae1c
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: dc8ebdd0fc37d638f4d129dd995ebd2f179b0026
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58235504"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582763"
 ---
 # <a name="delete-a-site-or-user-policy-for-external-user-access"></a>Удаление сайта или пользовательской политики для доступа внешних пользователей
 

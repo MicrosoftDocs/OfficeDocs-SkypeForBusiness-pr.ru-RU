@@ -16,20 +16,20 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: Узнайте о наборе бесплатных номеров в Москве, в том числе о доступности, доступности проводных и фиксированных телефонных номеров, а также ограничениях для мобильной сети.
-ms.openlocfilehash: e00830c9ee740ddd1108bc4952cff9349ba7c13d1b47edc7a7c8f9dd0bb9f84e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Узнайте о наборе бесплатных номеров в Москве, в том числе о доступности, доступности проводных и фиксированных номеров, а также об ограничениях для мобильной сети.
+ms.openlocfilehash: a6c07bb9cd61469bca298c5190f4c68aee5b04d5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54330843"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58629931"
 ---
 # <a name="toll-free-dialing-restrictions-in-panama"></a>Ограничения набора бесплатных номеров в Панаме
 
@@ -45,7 +45,7 @@ ms.locfileid: "54330843"
 |Неохватываемая территория  <br/> |Неприменимо  <br/> |
 |Доступность проводных и наземных линий связи  <br/> |Только для абонентов C&amp;W.  <br/> |
 |Доступность мобильных сетей  <br/> |Нет  <br/> |
-|Примечания, ограничения и проблемы с доступом  <br/> |Перед бесплатным номером клиента необходимо набрать 011 (международный междугородный код Москвы).  <br/> |
+|Примечания, ограничения и проблемы с доступом  <br/> |Перед бесплатным номером клиент должен набрать номер 011 (международный междугородный код Украины).  <br/> |
    
 ## <a name="related-topics"></a>Статьи по теме
 

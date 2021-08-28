@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.UserViewMobility
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a6df69e2-c374-4a80-8197-5152b7d0b5d2
 description: В диалоговом окне Вид — Политика мобильных устройств отображаются свойства выбранной политики мобильных устройств.
-ms.openlocfilehash: d39a83b35aed6b614b6e1d7439c0c280fa22c06979087b65d976720ffca983ce
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e77e18155305f6c6242804f7e9bb276df6572a49
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54348254"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582893"
 ---
 # <a name="users-view-mobility-policy"></a>Пользователи: просмотр политики мобильных устройств
 
@@ -28,7 +28,7 @@ ms.locfileid: "54348254"
 
 Дополнительные сведения о назначении политик мобильных устройств см. в разделах [Assign a Per-User Mobility Policy](/previous-versions/office/lync-server-2013/lync-server-2013-assign-a-per-user-mobility-policy) и [Configuring Mobility Policy](/previous-versions/office/lync-server-2013/lync-server-2013-configuring-mobility-policy).
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>Дополнительные материалы
 
 [Планирование мобильной работы](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-mobility)
 

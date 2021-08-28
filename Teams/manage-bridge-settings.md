@@ -15,19 +15,19 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Узнайте, как управлять настройками моста в Microsoft Teams
-ms.openlocfilehash: f5856d0754fc4ea72358d1e8a8c0473138b4a861495386cbbfeeb276cfce8bc5
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9241699f20d989ff90ec858c591e74c07f022b79
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54301954"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58630171"
 ---
 # <a name="manage-bridge-settings-in-teams"></a>Управление настройками моста в Teams
 
-До и во время Microsoft Teams или телефонного звонка организатор собрания может выбрать параметры моста несколькими вариантами. Дополнительные сведения см. в следующих статьях:
+До и во время Microsoft Teams или телефонного звонка организатор собрания может выбрать параметры моста. Дополнительные сведения см. в следующих статьях:
 
 - [Сообщения электронной почты, отправленные пользователям при изменении их параметров в Teams](emails-sent-to-users-when-their-settings-change-in-teams.md)
 - [Позволить пользователям записывать свои имена, когда они присоединяются к собранию](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
