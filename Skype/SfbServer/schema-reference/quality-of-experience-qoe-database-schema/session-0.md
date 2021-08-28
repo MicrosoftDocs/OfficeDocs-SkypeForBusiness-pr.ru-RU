@@ -10,21 +10,21 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 49e33f5b-45d0-4146-a5a4-76954d895a98
 description: В представлении сеанса сохраняются сведения о сеансах, для которых есть записи в базе данных. Это представление было представлено в Microsoft Lync Server 2013.
-ms.openlocfilehash: 9f8fc3b22677da6794aeaaecdd180ade454fc36fbf9659c5f8196880c42c907b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e39f6c744280e96a6f0fd33c28125196f90ed7cc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54314435"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58593353"
 ---
 # <a name="session-view"></a>Представление сеанса
  
 В представлении сеанса сохраняются сведения о сеансах, для которых есть записи в базе данных. Это представление было представлено в Microsoft Lync Server 2013.
   
-|**Column**|**Тип данных**|**Сведения**|
+|**Столбец**|**Тип данных**|**Details**|
 |:-----|:-----|:-----|
 |ConferenceDateTime  <br/> |datetime  <br/> |Ссылка из таблицы линии медиаданных.  <br/> |
 |ConferenceURI  <br/> |nvarchar (450)  <br/> |URI конференции, если это конференция, или DialogID, если это сеанс между одноранговыми узлами.  <br/> |

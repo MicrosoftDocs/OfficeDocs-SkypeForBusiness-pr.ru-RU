@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже находятся Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams Ермой.
-ms.openlocfilehash: bfb23ad0b0d4b79ba13de1204f96f30b9450c3d5a425957dc9c44abedee8ba30
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Ниже находятся Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams Для Ермой.
+ms.openlocfilehash: d1fbb3be9140e2cecb5eb303fc20f3e21a04b1d3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54336449"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58593113"
 ---
 # <a name="availability-in-costa-rica"></a>Доступность в Коста-Рике
 
 [Найдите другую](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)страну или регион или узнайте больше о доступности страны и региона для аудиоконференций и планов звонков.для аудиоконференций и планов звонков.
 
-Ниже находятся Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams Ермой.
+Ниже находятся Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams Для Ермой.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 
