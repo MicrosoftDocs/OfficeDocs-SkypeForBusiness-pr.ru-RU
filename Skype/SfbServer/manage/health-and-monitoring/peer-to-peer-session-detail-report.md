@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6be1d676-68f7-4a53-a72a-de73296c5571
 description: Сводка. Сведения о отчете о подробностях одноранговых сеансов в Skype для бизнеса Server.
-ms.openlocfilehash: 14df5ae82706a719086c31a3c8582009ed48d85b825057ab49ce6e92fa258116
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 014851a7c070a11366ec54682b9f94d999ac73de
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54286808"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58591173"
 ---
 # <a name="peer-to-peer-session-detail-report-in-skype-for-business-server"></a>Подробный отчет о одноранговых сеансах в Skype для бизнеса Server
  
@@ -88,7 +88,7 @@ ms.locfileid: "54286808"
   
 **Метрики для модальностей**
 
-|**Название**|**Возможность сортировки по этому показателю**|**Description**|
+|**Название**|**Возможность сортировки по этому показателю**|**Описание**|
 |:-----|:-----|:-----|
 |**Модальности** <br/> |Нет  <br/> |Модальности, использованные в сеансе, например, обмен мгновенными сообщениями или передача файла.  <br/> |
 |**From user messages (Сообщения пользователя-инициатора)** <br/> |Нет  <br/> |Количество сообщений, отправленных пользователем, начавшим сеанс.  <br/> |
@@ -100,7 +100,7 @@ ms.locfileid: "54286808"
   
 **Метрики для диагностических отчетов**
 
-|**Название**|**Возможность сортировки по этому показателю**|**Description**|
+|**Название**|**Возможность сортировки по этому показателю**|**Описание**|
 |:-----|:-----|:-----|
 |**Detail** <br/> |Нет  <br/> |При нажатии этой метрики отображается диагностический отчет для данного сеанса.  <br/> |
 |**Report time (Время отчета)** <br/> |Нет  <br/> |Дата и время создания отчета.  <br/> |

@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже ются Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Чешской Республика.
-ms.openlocfilehash: c83d93f501f595923a71cd8f6655c631be0f332f8b1308ab4aae4d3d9df8607d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Ниже ются Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Чешская Республика.
+ms.openlocfilehash: 913875b574912b2db0316888d55d054b529b55a3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54284260"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58589813"
 ---
 # <a name="availability-in-the-czech-republic"></a>Доступность в Чехии
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже ются Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Чешской Республика.
+Ниже ются Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Чешская Республика.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 

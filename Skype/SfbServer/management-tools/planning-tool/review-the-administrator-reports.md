@@ -10,16 +10,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 22d480ea-cd64-4d09-99fe-96e997570844
 description: Отчеты администратора — это подробные сведения о развертывании и операциях. Отчеты создаются на основе выборов, отмеченных на сайтах разработки. Конструктор может дополнительно добавить значение отчетов администратора, редактировать сетевые схемы и определять полные IP-адреса и полностью квалифицированные доменные имена (FQDNs) для серверов, пулов и балансировщиков нагрузки.
-ms.openlocfilehash: c74237f5d92d54a1a421ede7707565bba59582141e00d1a944a88c2e8c096c88
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 31639b124826368a1da11d359249bc6d08f64c8d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54293976"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58591013"
 ---
 # <a name="review-the-administrator-reports-in-skype-for-business-server-2015"></a>Обзор отчетов администратора в Skype для бизнеса Server 2015 г.
 

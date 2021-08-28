@@ -15,7 +15,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Ниже ются Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Нее.
-ms.openlocfilehash: 2652efa887f04789056d1052157724fac17d80708064886f4f660888d04e8278
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 148eb72fd906398cb7ed7b12c083d1ec5f4c68a3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54327774"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58589873"
 ---
 # <a name="availability-in-kazakhstan"></a>Доступность в Москве
 
@@ -68,7 +68,7 @@ ms.locfileid: "54327774"
 
 |**Функция**|**Сведения**|
 |:-----|:-----|
-|Для каких столиц или крупных городов можно получить платные номера?   | Сша[(по запросу](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md))<br/> |
+|Для каких столиц или крупных городов можно получить платные номера?   | По запросу[(по запросу)](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)<br/> |
 |Доступны ли платные номера?  <br/> |Да[(по запросу](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
 |Доступны ли бесплатные номера?  <br/> |Нет  <br/> |
    

@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: cb17314e-b89e-4821-8855-12f8fd2edc9b
 ROBOTS: NOINDEX, NOFOLLOW
 description: Кроме указания версии клиентов, поддержку которой вы хотите обеспечить в своей среде, вы можете также указать действие по умолчанию для клиентов, пока не имеющих заданной политики выбора версий. Это позволяет ограничить число используемых в среде версий клиентов, что помогает управлять затратами на поддержку нескольких версий клиентов.
-ms.openlocfilehash: 3daf09f47ce289a91505404b7600dd5c4b9c11ffdf131f33089c22470f648b10
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e60e9a0225da3dbb2379f31eba3043a00c4e9144
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54317694"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58592783"
 ---
 # <a name="client-version-configuration"></a>Конфигурация версий клиентов
 

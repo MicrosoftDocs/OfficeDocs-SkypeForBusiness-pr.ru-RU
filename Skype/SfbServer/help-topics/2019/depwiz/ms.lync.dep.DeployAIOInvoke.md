@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5da0aa73-8bf8-41f3-81e7-94f955cda541
 ROBOTS: NOINDEX, NOFOLLOW
 description: На странице Выполнение команд можно просмотреть в области задач SQL Server Express и настройки, чтобы действовать в качестве центра управления. По умолчанию создается экземпляр SQL Server базы данных с именем RTC. Правила брандмауэра также создаются, чтобы разрешить входящий и исходящие доступы для серверов и клиентов для связи с базой данных и экземпляром. После завершения задачи можно выбрать файл журнала из выпадаемого списка. Файл журнала называется локальной машиной Bootstrap. После выбора файла журнала нажмите кнопку Просмотр журнала. Просмотрите файл журнала для любых ошибок и предупреждений. Когда вы будете готовы к этому, нажмите кнопку Готово. Теперь необходимо определить топологию с помощью Topology Builder, если вы еще этого не сделали.
-ms.openlocfilehash: b218fe92f46fb930dda7ffdc3c52dc986447ad7ef14f1f6ff93c70837e21aa3d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9e51339e49d798b882d4395c27b7273a3ee9128d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54292147"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58590543"
 ---
 # <a name="prepare-single-standard-edition-server-invoke"></a>Подготовка отдельного сервера Standard Edition (вызов)
  

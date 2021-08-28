@@ -10,21 +10,21 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5858c84d-baed-421d-ad1d-3726e150e256
 description: Представление ConferenceSessionDetails хранит сведения о многосторонних сеансах. Каждая запись представляет один сеанс конференц-связи, который может быть сеансом с фокусом или сеансом с определенным сервером конференц-связи. Это представление было представлено в Microsoft Lync Server 2013.
-ms.openlocfilehash: d11573f8911f02001101c2d6f2e13dd5ec2112017ada115282b9c0ed008176f1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 49d351030019d6d42862352913b90af68191c19a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54337657"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58590093"
 ---
 # <a name="conferencesessiondetails-view"></a>Представление ConferenceSessionDetails
  
 Представление ConferenceSessionDetails хранит сведения о многосторонних сеансах. Каждая запись представляет один сеанс конференц-связи, который может быть сеансом с фокусом или сеансом с определенным сервером конференц-связи. Это представление было представлено в Microsoft Lync Server 2013.
   
-|**Column**|**Тип данных**|**Сведения**|
+|**Столбец**|**Тип данных**|**Details**|
 |:-----|:-----|:-----|
 |**SessionIdTime** <br/> |datetime  <br/> |Время запроса сеанса. Используется вместе с параметром SessionIdSeq для уникального определения сеанса. Дополнительные сведения см. в таблице [Диалоги Skype для бизнеса Server 2015](dialogs.md) г. <br/> |
 |**SessionIdSeq** <br/> |int  <br/> |Идентификационный номер для идентификации сеанса. Используется совместно с параметром SessionIdTime для уникальной идентификации сеанса. Дополнительные сведения см. в таблице [Диалоги Skype для бизнеса Server 2015](dialogs.md) г. <br/> |

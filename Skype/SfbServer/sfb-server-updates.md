@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Поиск и управление обновлениями Skype для бизнеса Server 2015/2019 и Lync 2013 в одном месте. Чтобы узнать больше об обновлениях и скачать их, воспользуйтесь ссылками на этой странице.
-ms.openlocfilehash: 2101e8ca02d227837aef0b9c49ce0d2e8d1144bb
-ms.sourcegitcommit: 25fd720c008dcf1573344e50d736131a20c3ac7d
+ms.openlocfilehash: 6071dabddebcce05c3dffee7578a432217a0f6cd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "58683323"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58590953"
 ---
 # <a name="skype-for-business-server-updates"></a>Обновления Skype для бизнеса Server
 
@@ -56,7 +56,6 @@ KB 4470124 является мастером КБ для Skype для бизне
 
 |Название пакета|Номер статьи в базе знаний|Дата выпуска|
 |:--- |:--- |:--- |
-|Skype для бизнеса Server 2015 Накопительное обновление 11|[KB 3061064](https://support.microsoft.com/kb/3061064)| Август 2021 г. |
 |Skype для бизнеса Server 2015 Накопительное обновление 11 Hotfix 1|[KB 3061064](https://support.microsoft.com/kb/3061064)| Июль 2020 г. |
 |Skype для бизнеса Server 2015 Накопительное обновление 11|[KB 3061064](https://support.microsoft.com/kb/3061064)| 13 мая 2020 г. |
 |Skype для бизнеса Server 2015 Накопительное обновление 10 Hotfix 1|[KB 3061064](https://support.microsoft.com/kb/3061064)| Август 2019 г. |
@@ -267,9 +266,8 @@ KB 4470124 является мастером КБ для Skype для бизне
 
 Обновления программного обеспечения включают любые обновления, накопительные пакеты обновления, пакеты обновления, пакеты дополнительных компонентов, критические обновления, обновления для системы безопасности и исправления. В статье базы знаний [KB 824684](https://support.microsoft.com/kb/824684) можно найти описание стандартной терминологии, касающейся обновления программного обеспечения Майкрософт.
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Похожие темы
 
 - [Установка Skype для бизнеса Server 2015 г.](./deploy/install/install.md)
 - [Обновление до Skype для бизнеса Server 2015 г.](./deploy/upgrade-to-skype-for-business-server.md)
 - [Последние обновления для версий Skype для бизнеса, Windows установки (MSI)](sfb-client-updates.md)
-- 

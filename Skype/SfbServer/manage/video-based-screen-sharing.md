@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 50755399-2228-4324-81db-c2bfc824c299
 description: Skype для бизнеса Server планирования и конфигурации для обмена экранами на основе видео (VbSS)
-ms.openlocfilehash: 0dacf7372a0c72d8cdaf01c1e3b12564fb5580a4526738f401d2227983c25c01
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d4f7b7d9cee9cb87c24c8c78da8e6bf92eac039c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54349281"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58591133"
 ---
 # <a name="video-based-screen-sharing-for-skype-for-business-server"></a>Видеодемонстрация экрана в Skype для бизнеса Server 
  
@@ -36,7 +36,7 @@ Skype для бизнеса Server людей с 1 по 1, а также их м
 
 Переход на VbSS направлен на три основных улучшения:
   
-1. Совместное использование экрана (до 5%) надежнее по сравнению с одним только RDP.
+1. Сделайте совместное использование экрана (до 5%) более надежным по сравнению с одним только RDP.
 
 2. Сделайте настройку сеанса и видеосъемки быстрее по сравнению с одним только RDP (установка в половине времени, с улучшением 6:1 в кадрах в секунду).
 
@@ -193,7 +193,7 @@ Skype для бизнеса Server людей с 1 по 1, а также их м
 > [!NOTE]
 > На многопартийном собрании Skype для бизнеса клиентские конечные точки будут соблюдать параметр политики организатора собрания. 
   
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>Дополнительные материалы
 
 [Skype для бизнеса Server 2015 накопительное обновление KB3061064](https://www.microsoft.com/download/details.aspx?id=47690)
   

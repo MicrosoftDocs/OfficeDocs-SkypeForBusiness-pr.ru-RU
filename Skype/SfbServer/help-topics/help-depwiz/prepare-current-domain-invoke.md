@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.dep.DeployDomainPrepInvoke
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 27553998-2adf-4727-a6e8-841679603ff2
 description: 'На странице Выполнение команд отображается сводка задач по мере их выполнения. Просмотрите сводку и убедитесь, что задачи успешно выполнены и нет ошибок. Просмотрите предупреждения и убедитесь, что среди них нет неожиданных. Ниже панели сводки должна появиться запись Состояние задачи: Завершено. Файл журнала Подготовка домена должен присутствовать в раскрывающемся списке. Выберите файл журнала и нажмите кнопку Просмотреть журнал для просмотра подробных сведений о действиях и результатах выполнения задач. Нажмите кнопку Готово, чтобы завершить подготовку домена.'
-ms.openlocfilehash: 766561c52cc17cd9315b05f9a00f19f6a641392fd8b5a1b78b5318262967bbd8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ebf58d533e3d9ffea2f8757e7fe044af92547264
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54311497"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58592723"
 ---
 # <a name="prepare-current-domain-invoke"></a>Подготовка текущего домена (вызов)
  

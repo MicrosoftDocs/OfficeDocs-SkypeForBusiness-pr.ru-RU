@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3638cdc8-71dd-4a22-8613-83859af97387
 ROBOTS: NOINDEX, NOFOLLOW
 description: Используйте диалоговое окно Выбор расширений типов файлов для выбора расширений типов файлов, которые требуется заблокировать или разрешить, посредством установки флажков (для блокировки) или снятия флажков (для разрешения) рядом с расширениями в разделе Расширения типов файлов. Щелкните стрелку, чтобы развернуть категорию и просмотреть все расширения типов файлов для этой категории. Если требуется выбрать все расширения типов файлов для категории, выделите имя категории.
-ms.openlocfilehash: 161b56adf12386d4510d91a83404af68058d3e590a1193c290813f89918c1f65
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: bc86dff5fdece9b918d14146cdc33a5f5559b8da
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54324408"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58590523"
 ---
 # <a name="select-file-type-extensions"></a>Выбор расширений типов файлов
  

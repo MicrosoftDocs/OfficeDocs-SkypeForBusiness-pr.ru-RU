@@ -10,21 +10,21 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0013c8c6-cdf9-4d70-bc2a-cddd1560f66b
 description: Каждая запись представляет метрики звукового сигнала для одной конечной точки. Как правило, каждый вызов имеет две записи, одна для вызываемой, а одна для вызываемой.
-ms.openlocfilehash: 36ece4a9481400c3fae9e248d00cc59f3ec161b21aa03d8e824fc4d21931d04f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0f021b438fe31bf180ee06ce83dad86e01c04070
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54309208"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58592403"
 ---
 # <a name="audiosignal-table"></a>Таблица AudioSignal
  
 Каждая запись представляет метрики звукового сигнала для одной конечной точки. Как правило, каждый вызов имеет две записи, одна для вызываемой, а одна для вызываемой. 
   
-|**Column**|**Тип данных**|**Key/Index**|**Сведения**|
+|**Столбец**|**Тип данных**|**Key/Index**|**Details**|
 |:-----|:-----|:-----|:-----|
 |**ConferenceDateTime** <br/> |datetime  <br/> |Primary  <br/> |Ссылки из [таблицы MediaLine](medialine-0.md).  <br/> |
 |**SessionSeq** <br/> |int  <br/> |Primary  <br/> |Ссылки из [таблицы MediaLine](medialine-0.md).  <br/> |

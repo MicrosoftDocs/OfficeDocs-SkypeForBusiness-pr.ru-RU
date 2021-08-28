@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c336ee9a-1ed8-4f64-9f7f-89549ae24c40
 description: Ознакомьтесь с этой темой, чтобы узнать о средствах управления для Skype room System.
-ms.openlocfilehash: cdf7430ecc155526cc560832f58f00a6119ce8ab8e777bbb592cba205c0407f9
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 92fe780565728c457d6853e0210ec7981386ca0b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54310078"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58592883"
 ---
 # <a name="skype-room-system-manageability-and-tools"></a>Skype Управляемость и средства системы номеров
  

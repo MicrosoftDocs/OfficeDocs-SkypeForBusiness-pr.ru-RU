@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ff21cecb-5035-48fd-9705-11ea81ce7df6
 description: Этот Remove-CcLegacyServerCertificate удаляет устаревшие сертификаты сервера в Центральном хранилище управления, сервере-посреднике и edge Server после выполнения Renew-CcCACertificate или обновления CcServerCertificate.
-ms.openlocfilehash: 6c1665d0c21e5afd25ed630fc1da4f1987264d9325fec2058981fe91a1edc0bb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 93df3e8658cecdb4a6cc8b14d59d61a716dab8fc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54288737"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58589953"
 ---
 # <a name="remove-cclegacyservercertificate"></a>Remove-CcLegacyServerCertificate
  
@@ -52,7 +52,7 @@ Remove-CcLegacyServerCertificate -Roles @("MS", "Edge")
 
 |**Параметр**|**Required**|**Тип**|**Описание**|
 |:-----|:-----|:-----|:-----|
-| Роли <br/> |Необязательный  <br/> |System.Array  <br/> | Массив ролей сервера облачного соединителя. <br/> |
+| Роли <br/> |Необязательна  <br/> |System.Array  <br/> | Массив ролей сервера облачного соединителя. <br/> |
    
 ## <a name="input-types"></a>Типы входных данных
 <a name="InputTypes"> </a>

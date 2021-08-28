@@ -10,19 +10,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 74ce73bc-356b-4705-83b1-341ee010fd19
 description: 'Сводка. Сведения об обновлении с Lync Server 2013 до Skype для бизнеса Server 2015 г. Скачайте бесплатную пробную Skype для бизнеса Server 2015 г. из Центра оценки Майкрософт по ссылке: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server .'
-ms.openlocfilehash: a295b723dce318fc51121f3a5290dbf9b1fef3d41df9d7716780816168e6a2df
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 14fe3926fbf3cb6ffcee368227fcaf5ead9ec0c4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54292267"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58590553"
 ---
 # <a name="upgrade-to-skype-for-business-server-2015"></a>Обновление до Skype для бизнеса Server 2015 г.
  
@@ -241,7 +241,7 @@ Disable-CsComputer -Scorch
   
 Если обновление In-Place сбой при  проверке готовности к обновлению или установке отсутствующих предпосылок, убедитесь, что на сервере установлены все последние Windows Server, Lync Server и SQL Server применены обновления, а также установлено все необходимое программное обеспечение и роли. Список необходимых требований см. в перечне требований к серверу для [Skype для бизнеса Server 2015](../plan-your-deployment/requirements-for-your-environment/server-requirements.md) г., а также в Skype для бизнеса Server [2015](install/install-prerequisites.md)г. .
   
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>Дополнительные материалы
 
 [План обновления до Skype для бизнеса Server 2015 г.](../plan-your-deployment/upgrade.md)
   

@@ -10,16 +10,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 4e956558-8cba-47d9-b96a-537d7f6ed938
 description: Сводка. Сведения о средствах управления службами в Skype для бизнеса Server 2015 г.
-ms.openlocfilehash: ebcd0708b1a7b4b1be90ba36da52246a7fe4d7906259c344e0ed1b3106999f7e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0aec5c778068e91b92ca5bd95c4681397c6a4cf8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54278397"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58591093"
 ---
 # <a name="skype-for-business-server-2015-management-tools"></a>Skype для бизнеса Server 2015 г.
  
@@ -43,7 +43,7 @@ Skype для бизнеса Server 2015 г. (ранее Lync Server) предл�
 |![значок панели мониторинга](../media/144fef0b-3ff0-4298-8b03-978bda9e923b.png)|[Skype для бизнеса Server 2015 калькулятор планирования емкости](capacity-planning-calculator.md) <br/> |Калькулятор Skype для бизнеса Server 2015 г. позволяет моделировать топологию для потребностей вашей организации.  <br/> |
 |![значок сети](../media/c74d45da-b10f-43c9-aa80-b1935f45c3ee.png)|[Skype для бизнеса Server 2015 г. Средство стресса и производительности](stress-and-performance-tool/stress-and-performance-tool.md) <br/> |Этот инструмент позволяет выполнять различные тесты, связанные с производительностью, с пользовательской нагрузкой для среды Skype для бизнеса Server 2015 г. Примеры сценариев предоставляются с помощью средства, чтобы помочь с уникальными экологическими потребностями.  <br/>**Примечание:** Этот инструмент не будет обновляться Skype для бизнеса Server 2019 г. |
    
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>Дополнительные материалы
 
 [Инструменты Lync Server 2013](/previous-versions/office/lync-server-2013/lync-server-2013-tools)
   

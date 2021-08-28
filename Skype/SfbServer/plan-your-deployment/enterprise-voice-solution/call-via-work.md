@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a33ec637-9ac8-4cb7-b3b2-88d432efc078
 description: Планирование звонков с помощью Skype для бизнеса Server в Skype для бизнеса Server, что позволяет интеграцию между Skype для бизнеса и вашей телефонной системой PBX, чтобы пользователи могли использовать Skype для бизнеса для управления своими PBX-телефонами.
-ms.openlocfilehash: 89810ab0459dca42d2ccbdc2317c35b4403006ab87094a2342941e986a81cc7a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 287f549d0b416e432eea771c07a7331e38a0b594
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54347804"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58592533"
 ---
 # <a name="plan-for-call-via-work-in-skype-for-business-server"></a>Планирование вызова с помощью работы в Skype для бизнеса Server
  
@@ -99,7 +99,7 @@ Call Via Work — это голосовое решение, которое не 
 
 Чтобы включить всех пользователей для вызова с помощью работы, необходимо иметь некоторые предварительные требования. Дополнительные сведения об этих необходимых предпосылках и о том, как включить пользователей для вызова с помощью работы, см. в пункте Развертывание вызовов с помощью работы в Skype для бизнеса Server [2015 г.](../../deploy/deploy-call-via-work.md) 
   
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>Дополнительные материалы
 
 [Планирование удаленного управления вызовами в Skype для бизнеса](remote-call-control.md)
   

@@ -13,14 +13,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: В этой статье описывается настройка диапазонов портов для клиентов и настройка политик качества обслуживания в Skype для бизнеса Server для клиентов, работающих Windows 10.
-ms.openlocfilehash: 4d8736c9249bbef25438be7232d7802f3ddb3e9a
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: d43b79d82e3099cbc471b12fba5ad7155de43e77
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234024"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58591163"
 ---
 # <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-clients-in-skype-for-business-server"></a>Настройка диапазонов портов и политика качества обслуживания для клиентов в Skype для бизнеса Server
 
@@ -259,6 +259,6 @@ ClientFileTransferPort : 5350<br/>
 
 После создания и настройки нового значения реестра необходимо будет перезагрудить компьютер, чтобы изменения вступили в силу.
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>Дополнительные материалы
 
 [Создание объекта групповой политики в Windows 10](/windows/security/threat-protection/windows-firewall/create-a-group-policy-object)

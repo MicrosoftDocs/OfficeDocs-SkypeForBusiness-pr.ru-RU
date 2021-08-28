@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7844b55e-b7e9-4599-9962-f0322728405a
 description: Этот Renew-CcServerCertificate возобновляет сертификаты для Skype для бизнеса Cloud Connector Edition, когда они истекли или уже истекли. Эта команда была изменена на Update-CcServerCertificate в cloud Connector 2.0 и более поздних выпусках.
-ms.openlocfilehash: 632807f8d6b8dda7b3df6639e8f6166e8ac5e6a22381646616a0637779a9159a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 564f947462248bb65c8514c9699f2f867312c365
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54340735"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58589943"
 ---
 # <a name="renew-ccservercertificate"></a>Renew-CcServerCertificate
  
@@ -57,7 +57,7 @@ Renew-CcServerCertificate-Roles @("MS", "Edge")
 
 |**Параметр**|**Required**|**Тип**|**Описание**|
 |:-----|:-----|:-----|:-----|
-|Роли  <br/> |Необязательный  <br/> |System.Array  <br/> | Массив ролей сервера облачного соединителя. <br/> |
+|Роли  <br/> |Необязательна  <br/> |System.Array  <br/> | Массив ролей сервера облачного соединителя. <br/> |
    
 ## <a name="input-types"></a>Типы входных данных
 <a name="InputTypes"> </a>

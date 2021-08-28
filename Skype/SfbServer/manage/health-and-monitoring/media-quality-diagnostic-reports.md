@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ea61428e-a1d5-4189-aae6-3db19ddc5cf2
 description: Сводка. Сведения о диагностических отчетах о качестве мультимедиа в Skype для бизнеса Server.
-ms.openlocfilehash: 3f252fb3871f455f79ea39018b8a87c06c12b3247189541d0a0ec3139dbe15b6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 406eb2208b6f2f53e708732f2de751786ab296a2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54290347"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58592553"
 ---
 # <a name="media-quality-diagnostic-reports-in-skype-for-business-server"></a>Диагностические отчеты о качестве мультимедиа в Skype для бизнеса Server
  
@@ -25,7 +25,7 @@ ms.locfileid: "54290347"
   
 Диагностический отчет по качеству мультимедиа предоставляет сведения о качестве вызовов, а также диагностические сведения для неудачных вызовов.
   
-## <a name="in-this-section"></a>Содержание
+## <a name="in-this-section"></a>В этой статье
 
 - [Сводный отчет о качестве мультимедиа в Skype для бизнеса Server](summary.md) Предоставляет общие данные качества для различных типов конечных точек, в том числе Корпоративная голосовая связь одноранговых вызовов, Корпоративная голосовая связь конференц-связи и вызовов, которые полагаются, по крайней мере частично, на общенапорную телефонную сеть (PSTN).
     
