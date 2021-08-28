@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.CmsSettingsExpander
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4b882923-ed6f-44f3-ad9c-aabad5a3bc00
 description: Центральный сервер управления можно изменить с одного заданного пула переднего плана на другой заданный пул переднего плана. Чтобы изменить расположение центрального сервера управления, выберите пул переднего плана в раскрывающемся списке Сервер переднего плана для установки центрального хранилища управления. В качестве сервера переднего плана может выступать пул переднего плана Enterprise Edition или сервер переднего плана Standard Edition.
-ms.openlocfilehash: 5f7b8d0b438b162bbdf4452cc1b26ecdc10f8906a036bf281b3d7eb22507f05d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 85a3397d0a8378d90f50a1e4078a7218d63ea525
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54346545"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58595713"
 ---
 # <a name="cms-settings-expander"></a>Расширитель параметров CMS
  

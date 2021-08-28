@@ -9,16 +9,16 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 81822efa-2100-4017-a470-8a5b98c49522
 ms.collection: M365-voice
 description: Административный веб-портал Skype для бизнеса Server Skype Room Systems v1 (SRS v1, ранее известный как Lync Room System) — веб-портал, который организации могут использовать для обслуживания конференц-залов Skype комнат. Администраторы могут использовать административный веб-портал SRS v1 для мониторинга состояния устройств, например с помощью мониторинга аудио- и видео устройств. На этом портале администраторы могут удаленно собирать диагностические сведения для мониторинга состояния конференц-зала.
-ms.openlocfilehash: c2b576eb79f91c72fdd3f19cad1265c79fd559abf52a97d80ea34a2688263c6e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2451d9892bc15b1b1f189a764823c2f9beb019ac
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54313737"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618135"
 ---
 # <a name="deploy-srs-v1-administrative-web-portal-in-skype-for-business-server"></a>Развертывание административного веб-портала SRS v1 в Skype для бизнеса Server
 
@@ -139,7 +139,7 @@ ms.locfileid: "54313737"
 
 После развертывания SRS на сервере можно проверить состояние всех комнат SRS, подписавшись на административный веб-портал SRS v1 из браузера.
 
-### <a name="sign-in"></a>Выполнение входа
+### <a name="sign-in"></a>Вход
 
 1. Просмотрите следующий URL-адрес:
 
@@ -178,7 +178,7 @@ ms.locfileid: "54313737"
 
 ![Lync Room System Admin Portal Room Room Параметры](../../media/LRS_AdminPortal_RoomInfoSettings.png)
 
-#### <a name="details"></a>Details
+#### <a name="details"></a>Сведения
 
 В разделе Details приводится сводка параметров комнаты SRS только для чтения, в том числе: время последнего обновления; следующее собрание; последние обновления, обслуживание и калибровка; параметры динамика, микрофона и звонильщика по умолчанию; версия; SIP URI; количество экранов и сведений о каждом экране; состояние и активность.
 

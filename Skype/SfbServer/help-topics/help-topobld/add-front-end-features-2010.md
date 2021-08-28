@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddFrontEndFeaturesPage2010
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d0bf5b86-51dc-41d4-aa61-303f81e05c66
 description: Выберите все возможности, которые хотите включить для интерфейсного пула. Следует развернуть по крайней мере систему обмена мгновенными сообщениями, так как эта возможность всегда выбрана и не может быть отключена. У вас также есть возможность развертывания других функций, таких как conferencing, Корпоративная голосовая связь и управление приемом вызовов (CAC). Некоторые компоненты являются зависимыми от топологии.
-ms.openlocfilehash: 5c496769716a13e21623773592ebc5793b90718fa16412eb29885ea7e99a4fa6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a63686fde6c4be26b5cd7cbf441b5f9ff53cc595
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54277044"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58595743"
 ---
 # <a name="add-front-end-features-2010"></a>Добавление компонентов переднего плана 2010
 

@@ -10,16 +10,16 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 260346d1-edc8-4a0c-8ad2-6c2401c3c377
 description: Сводка. Настройка стенограмм im для Exchange Server 2016 или Exchange Server 2013 и Skype для бизнеса Server.
-ms.openlocfilehash: 82f138207a5144ecfa38addd7e147364aa1c22e045a8e757d6e4ade70c0e4ee2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f264b347660df032b67f06ddf605e99ba97a32b2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54300255"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58603066"
 ---
 # <a name="configure-skype-for-business-server-to-use-exchange-server-archiving"></a>Настройка Skype для бизнеса Server для Exchange Server архива
 

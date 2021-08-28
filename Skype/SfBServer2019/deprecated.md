@@ -9,15 +9,15 @@ ms.topic: overview
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: Сводка. Эти функции были удалены из Skype для бизнеса Server 2019 г.
-ms.openlocfilehash: c6ba9d9945ae5dde2a9898fe5adfd44192faceb5
-ms.sourcegitcommit: 6a87a4180519e493ac115c2faadb9ccae26d5a35
+ms.openlocfilehash: cdc7b54f815c324707ee657d8365aa842f28293d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58372059"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58595033"
 ---
 # <a name="whats-deprecated-from-skype-for-business-server-2019"></a>What's deprecated from Skype для бизнеса Server 2019
 
@@ -53,7 +53,7 @@ SQL Зеркальное отражение не может быть разве�
 
 Дополнительные сведения см. в материале [Plan for Mobility for Skype для бизнеса Server](../SfbServer/plan-your-deployment/mobility.md) и Mobile client feature comparison for [Skype для бизнеса.](../SfbServer/plan-your-deployment/clients-and-devices/mobile-feature-comparison.md)
 
-## <a name="tools"></a>Инструменты
+## <a name="tools"></a>Средства
 
 Следующие средства не будут доступны для использования в начальном выпуске Skype для бизнеса Server 2019 г.:
 

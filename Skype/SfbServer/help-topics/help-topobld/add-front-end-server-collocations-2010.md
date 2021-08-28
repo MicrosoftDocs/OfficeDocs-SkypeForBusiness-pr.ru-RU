@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddFrontEndCollocationsPage2010
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4d328bf4-85bc-4870-8d6f-008c0e46520e
 description: При развертывании Enterprise Edition можно совместить службу аудио- и видеоконференций, сервер-посредник или и то, и другое с интерфейсным пулом или развернуть каждый из перечисленных компонентов в качестве отдельных серверов. При развертывании сервера Standard Edition служба аудио- и видеоконференций всегда совмещается, если включена поддержка конференц-связи.
-ms.openlocfilehash: dd26cbe684fdf5d5eeecd0a6a1f5b925d98b742a6baf9d081d9451be37afbf1f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c0efab1ee8b388a7d8dfa710c8937f314e83721e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54346605"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58626651"
 ---
 # <a name="add-front-end-server-collocations-2010"></a>Добавление размещений сервера переднего плана 2010
 

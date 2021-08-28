@@ -11,15 +11,15 @@ f1.keywords:
 - ms.lync.plan.EnterpriseVoice
 - ms.lync.plan.EnterpriseVoice
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8749fc54-4cd1-4c25-9a64-60e4bdab9767
 description: С Корпоративная голосовая связь Skype для бизнеса Server 2015 г. предоставляет автономный голосовой голос через интернет-протокол (VoIP), предлагающий усовершенствовать или заменить традиционные системы PBX. Пользователи могут вызывать коллег в сети VoIP организации или PBX, а также звонить по номерам телефонов за пределами организации. Решение Корпоративная голосовая связь включает общие функции вызова, такие как ответ, переадресование, передача, удержание, отвлечь, освободить и припарковаться, а также расширенный вызов 9-1-1 (E9-1-1) (E9-1-1 доступен только в США).) Корпоративная голосовая связь также поддерживает широкий диапазон текущих и старых IP-устройств и USB.
-ms.openlocfilehash: 385547cc541c2169606afd0c6d7de939c1611a44f8ad2fc762c69f60e847e016
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d74544660802505c4d8ddde35cc578fccfe36040
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54315525"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58626591"
 ---
 # <a name="enterprise-voice-planning-tool"></a>Корпоративная голосовая связь планирования
  
