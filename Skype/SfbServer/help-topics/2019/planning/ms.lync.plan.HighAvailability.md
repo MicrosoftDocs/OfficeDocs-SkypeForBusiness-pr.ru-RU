@@ -12,16 +12,16 @@ ms.custom:
 - ms.lync.plan.HighAvailability
 - ms.lync.plan.HighAvailability
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 14a897b3-2406-46c7-b08f-490085b3d048
 ROBOTS: NOINDEX, NOFOLLOW
 description: Основная схема высокой доступности большинства ролей сервера в Skype для бизнеса Server основана на избыточности сервера с помощью пулинга. При сбое сервера с определенными ролями остальные серверы в пуле с такими же ролями берут на себя нагрузку этого сервера.
-ms.openlocfilehash: 050cbb1fb90e3cbe82b936a51ba5dc22824145f385ccd57222f812cadf9d29cb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 173f6313e0f70a1f2deef26e94256bcb281face3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54343803"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58593953"
 ---
 # <a name="high-availability-planning-tool"></a>Высокая доступность (средство планирования)
  

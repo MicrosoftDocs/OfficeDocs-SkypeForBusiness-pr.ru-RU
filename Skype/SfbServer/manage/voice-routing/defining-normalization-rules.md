@@ -9,14 +9,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Skype для бизнеса Server правила нормализации используют платформа .NET Framework регулярные выражения для перевода набраных номеров телефонов в формат E.164; Другими словами, правила нормализации принимают номер телефона, набираемого пользователем, и преобразовывать его в формат, используемый Skype для бизнеса Server. Каждой абонентской группе должно быть назначено одно или несколько правил нормализации.
-ms.openlocfilehash: bb229760bd8f41086211245e8e7090453fa8985abb72dc721b249c5c5df81238
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4b78207f90bb013b8be4161b7319cb605ad148e5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54333441"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58602494"
 ---
 # <a name="defining-normalization-rules-in-skype-for-business-server"></a>Определение правил нормализации в Skype для бизнеса Server
 

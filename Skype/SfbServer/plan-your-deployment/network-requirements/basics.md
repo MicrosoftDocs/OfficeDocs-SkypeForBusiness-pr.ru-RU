@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2618cfa1-2e2c-4f1d-a5e5-70a0286591a7
 description: Windows Server 2016 имеет встроенное программное обеспечение, которое может предоставлять DNS-службы, поэтому вам может потребоваться просмотреть доступную документацию, например руководство по сценарию политики DNS. Вы можете выбрать стороннее решение, если хотите.
-ms.openlocfilehash: e9187b5a619a55b4525d32eb20272e32cae514c2533d9c78f32d7ffed77d30ad
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2ee4ee73a6cb85ac51785a47e4f0ec86d581b809
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54283091"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58602344"
 ---
 # <a name="dns-basics"></a>Основы DNS
  

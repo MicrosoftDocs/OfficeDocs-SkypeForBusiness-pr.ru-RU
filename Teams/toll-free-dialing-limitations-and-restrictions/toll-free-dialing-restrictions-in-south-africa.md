@@ -16,19 +16,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: Это поможет вам узнать, как набирать бесплатные номера в каждой стране или регионе. После выбора страны или региона вы будете перенараны на страницу, которая содержит подробные сведения, ограничения и ограничения доступности бесплатной службы, на которой доступна бесплатная служба. В формате набора вы сможете использовать коды доступа, необходимые для набора бесплатного номера в каждой стране или регионе.
-ms.openlocfilehash: 1ce0358533b644a5b60b847e98f4d1635f4010dc79b5ba380604e4d018605a54
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Это поможет вам узнать, как набирать бесплатные номера в каждой стране или регионе. После выбора страны или региона вы будете перенараны на страницу, которая содержит подробные сведения, ограничения и ограничения доступности бесплатной службы, на которой доступна бесплатная служба. В формате набора или формате будут отбираться коды доступа для каждой страны или региона, необходимые для набора бесплатного номера.
+ms.openlocfilehash: b3565ea17cdbde13cab2f5e7c0b15f34977eadb8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54308330"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58636493"
 ---
 # <a name="toll-free-dialing-restrictions-in-south-africa"></a>Ограничения набора бесплатных номеров в ЮАР
 

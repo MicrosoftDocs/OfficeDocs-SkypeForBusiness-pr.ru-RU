@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: f3a5895f-f64f-44eb-9a5e-8d606ac1fc38
 description: Просмотр сценариев для Skype для бизнеса Server развертывания. Если вы хотите один сервер или предпочитаете пул серверов с DNS или HLB, этот раздел должен помочь.
-ms.openlocfilehash: d7f3847cb538dcdfbb09809b6313a9aa9b4f42e5431aa279d411a97bb0979752
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 208098fe44238d9d96debbde7b8c00daf6622b91
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54315475"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58602354"
 ---
 # <a name="advanced-edge-server-dns-planning-for-skype-for-business-server"></a>Планирование DNS для расширенных серверов edge DNS для Skype для бизнеса Server
  

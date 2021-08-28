@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddFrontEndWebServicesPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 99626970-1613-41ca-a36e-24bed1f459d7
 description: Базовый URL-адрес представляет собой удостоверение веб-служб для URL-адреса без префикса https://. Например, если полный URL-адрес веб-служб пула — базовый https://pool01.contoso.net URL-адрес pool01.contoso.net.
-ms.openlocfilehash: b82cc8383efc32a92b46b798503a7780df82aad8c235c3d75561f895e13cdc02
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c2fd91d9f16d585e4ade2ac6a071d699e6917af7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54314495"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58615805"
 ---
 # <a name="add-front-end-web-services"></a>Добавление веб-служб переднего плана
  

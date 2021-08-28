@@ -1,5 +1,5 @@
 ---
-title: Минимальные требования к сети для приложения "Собрания Skype"
+title: Минимальные требования к сети для приложения "Собрания Skype"
 ms.author: v-cichur
 author: cichur
 ms.reviewer: PhillipGarding
@@ -10,21 +10,21 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: d9666787-e72b-41e1-ba37-aec5fb849a10
 description: Сводка. Сведения для организаций, которые не используют Microsoft 365 или Office 365 и должны получать доступ к собраниям, которые организованы организациями, которые это делают.
-ms.openlocfilehash: b79c49b1b63041e84cc74887f6693e8601ae2465f90665ff757d9d890cb330cc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 29b9103d741440a480be27e9d4268d6cc8d94c47
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54283201"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58615615"
 ---
-# <a name="skype-meetings-app-minimum-network-requirements"></a>Минимальные требования к сети для приложения "Собрания Skype"
+# <a name="skype-meetings-app-minimum-network-requirements"></a>Минимальные требования к сети для приложения "Собрания Skype"
  
 **Сводка:**  Сведения для организаций, которые не используют Microsoft 365 или Office 365 и должны получать доступ к собраниям, которые организованы организациями, которые это делают. Эта статья не предназначена для пользователей этих приложений.
   

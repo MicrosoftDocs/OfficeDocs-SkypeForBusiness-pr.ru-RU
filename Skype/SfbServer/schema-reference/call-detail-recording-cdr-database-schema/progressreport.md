@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 38e5f060-5e9b-4185-87b2-7ef61c4bb75f
 description: Отчеты о ходе выполнения строятся на основе данных, отправляемых клиентом в базу данных после завершения вызова или сеанса. Отчеты о ходе работы будут писаться только для звонков и сеансов, которые Skype для бизнеса Server 2015 г. могут быть полезны для диагностических целей.
-ms.openlocfilehash: 6429700f902caec80db02f3db6c78420b5c108ce6a39383da8914955df16f80d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2c744cbf3755118a6d6fbee4837363e80b00ae44
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54286228"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58623531"
 ---
 # <a name="progressreport-table"></a>Таблица ProgressReport
  
@@ -26,7 +26,7 @@ ms.locfileid: "54286228"
   
 Поля ErrorTime, ErrorReportSeq и ProgressReportSeq ссылаются не на ошибки, а на сообщения, которые указывают состояние вызовов или сообщений.
   
-|**Column**|**Тип данных**|**Key/Index**|**Сведения**|
+|**Столбец**|**Тип данных**|**Key/Index**|**Details**|
 |:-----|:-----|:-----|:-----|
 |**ErrorTime** <br/> |datetime  <br/> |Первичный, внешний  <br/> |Дата и время отчета об ошибках хода выполнения, который содержит этот отчет о ходе выполнения. Дополнительные сведения см. в таблице [ErrorReport Skype для бизнеса Server 2015](errorreport.md) г. <br/> |
 |**ErrorId** <br/> |int  <br/> |Первичный, внешний  <br/> |Идентификатор, используемый вместе с ErrorTime и ProgressReportSeq для однозначного определения отчета о ходе выполнения. Дополнительные сведения см. в таблице [ErrorReport Skype для бизнеса Server 2015](errorreport.md) г. <br/> |

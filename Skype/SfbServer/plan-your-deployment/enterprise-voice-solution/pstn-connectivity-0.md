@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 280f684a-740a-443d-8ecf-574241382a42
 description: Планирование подключения к PSTN в Корпоративная голосовая связь в Skype для бизнеса Server.
-ms.openlocfilehash: c4a621bfbe8a7296828818fa652b0bdb24338ed0035a62152cb796beed4bd5ab
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 803b613e3b78465f1dd8d9d04fd552b8bee553d1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54286448"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58593543"
 ---
 # <a name="plan-for-pstn-connectivity-in-skype-for-business-server"></a>Планирование подключения к PSTN в Skype для бизнеса Server
  
@@ -39,7 +39,7 @@ Skype для бизнеса Server обеспечивает надежное м�
     
 В зависимости от размера, географического покрытия и существующей инфраструктуры системы голосовой связи предприятия могут использовать один, два или даже все три этих варианта в различных местоположениях. Подробные сведения об этих параметрах см. в следующих разделах.
   
-## <a name="in-this-section"></a>Содержание
+## <a name="in-this-section"></a>В этой статье
 
 - [Магистраль SIP в Skype для бизнеса Server](sip-trunking.md)
     

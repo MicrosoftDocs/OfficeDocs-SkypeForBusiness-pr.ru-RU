@@ -16,19 +16,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: Это поможет вам узнать, как набирать бесплатные номера в каждой стране или регионе. После выбора страны или региона вы будете перенараны на страницу, которая содержит подробные сведения, ограничения и ограничения доступности бесплатных служб, где доступна бесплатная служба. В формате набора вы сможете использовать коды доступа, необходимые для набора бесплатного номера в каждой стране или регионе.
-ms.openlocfilehash: be68ecb8027efda096252c3395ab95871a2c4cb158c3845296764ab3134c3d5d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Это поможет вам узнать, как набирать бесплатные номера в каждой стране или регионе. После выбора страны или региона вы будете перенараны на страницу, которая содержит подробные сведения, ограничения и ограничения доступности бесплатных служб, где доступна бесплатная служба. В формате набора или формате будут отбираться коды доступа для каждой страны или региона, необходимые для набора бесплатного номера.
+ms.openlocfilehash: 2c732b4ef407cb2dfcb101c8c5bc5f1c079d079b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54296456"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58636583"
 ---
 # <a name="toll-free-dialing-restrictions-in-serbia"></a>Ограничения набора бесплатных номеров в Сербии
 
