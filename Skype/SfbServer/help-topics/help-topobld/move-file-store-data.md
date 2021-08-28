@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8d1d5819-add2-4f5d-a436-74c00a281df0
 description: 'Если необходимо удалить файловый сервер, который в настоящее время является хранилищем файлов для развертывания Skype для бизнеса Server 2015 г., или если необходимо внести другие изменения, которые сделают текущий хранилище файлов недоступным, сначала необходимо создать новую долю. Затем необходимо выполнить следующие действия:'
-ms.openlocfilehash: d57bfe10df36f200f927d4a2c9850eee0d21e9cf38724f31cc62bf84f76708e2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 10571b398b6e39624c408f0e36baa317212f9b21
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54307120"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58614259"
 ---
 # <a name="move-file-store-data-to-a-new-file-store-in-skype-for-business-server-2015"></a>Перемещение данных хранения файлов в новый хранилище файлов в Skype для бизнеса Server 2015 г.
 

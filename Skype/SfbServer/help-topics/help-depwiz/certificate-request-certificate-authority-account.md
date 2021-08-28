@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.dep.DeployCertRequestCAAccount
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6251322d-ac36-4760-b467-bcd543af22aa
 description: Для отправки запроса ваш центр сертификации может потребовать другие учетные данные, отличающиеся от тех, с которыми вы вошли в систему. Чтобы разрешить отправку запроса сертификата от имени другого пользователя, установите флажок Указать другие учетные данные для центра сертификации и введите имя пользователя или домен\имя пользователя для того пользователя, который может запрашивать сертификат. В текстовом поле Пароль введите пароль для указанного пользователя. Имя пользователя и пароль затем отправляются в локальный центр сертификации как часть процесса запроса сертификата, но не в самом запросе сертификата.
-ms.openlocfilehash: db1fb64f92e3f83d2e9506c73a3c9873131e128a690ceb95c8e16ae33aa34636
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7ff5c20d14e2d42688424866f2f463996aff0d8c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323211"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58626771"
 ---
 # <a name="certificate-request-certificate-authority-account"></a>Запрос сертификата (учетная запись центра сертификации)
  

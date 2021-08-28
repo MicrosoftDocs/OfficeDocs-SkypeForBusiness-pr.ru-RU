@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AssociateFrontEndWithAvMcuPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 314e3b0b-9ca7-423b-9c8e-80eb6013d36f
 description: Аудио- и видеоконференции позволяют пользователям использовать аудио- и видеосвязь в режиме реального времени (пользователи должны иметь соответствующие клиентские устройства, такие как гарнитуры для аудиоконференций и веб-камеры для видеоконференций). Если в развертывании поддерживаются конференции и включены как веб-конференции, так и аудио- и видеоконференции, можно совместить сервер аудио- и видеоконференций и интерфейсный сервер или развернуть один или несколько отдельных серверов аудио- и видеоконференций (пул аудио- и видеоконференций). Если вы решите развернуть автономный сервер A/V Conferencing Server, его необходимо определить в Topology Builder.
-ms.openlocfilehash: fde2801d7894a7525074b8e6cda64bda93e4ce9346d8f78325c2615e55e7ee82
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b9bc82356ff0891344fc54669236630c18ddbc7e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54298309"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58625231"
 ---
 # <a name="associate-front-end-with-av-mcu"></a>Связывание сервера переднего плана с AV MCU
  

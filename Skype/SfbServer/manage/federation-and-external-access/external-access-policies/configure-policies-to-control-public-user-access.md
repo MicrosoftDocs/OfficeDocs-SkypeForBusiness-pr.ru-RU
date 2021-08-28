@@ -13,14 +13,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Ublic instant messaging (IM) connectivity enables users in your organisation to use IM to communicate with users of IM services provided by public IM service providers.
-ms.openlocfilehash: 33efe5c5c48dc84a29f642de9e8d2445ad3cd02c1ee82089e26e532c52dbf3c9
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 13ef277693c219436e37fc2b9ddee8b78ff5ebc0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54309388"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58625201"
 ---
 # <a name="configure-policies-to-control-public-user-access-in-skype-for-business-server"></a>Настройка политик для управления доступом к общедоступным пользователям в Skype для бизнеса Server
 

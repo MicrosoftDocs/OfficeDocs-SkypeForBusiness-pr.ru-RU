@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.SqlInstanceScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bd270488-ceb9-4920-bef3-ed9fe8eff36c
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Этот узел показывает полное доменное имя этого Microsoft SQL Server и экземпляр SQL Server на этом сервере, а также пулы или серверы, которые используют этот SQL Server. Можно выполнить следующие действия:'
-ms.openlocfilehash: 4412cacf94a39341ffc73878ffff9280193847454dc27e8c9d1d7637854b5f27
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9019c2c7486ab4aa27011cb1df778f01d7625829
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54311687"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58626821"
 ---
 # <a name="sql-instance-scope-node"></a>Узел области экземпляра SQL
  

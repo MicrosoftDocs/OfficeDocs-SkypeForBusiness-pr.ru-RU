@@ -10,21 +10,21 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 76f5c995-96c8-4aa3-bc30-1d74991d7c42
 description: Таблица Subnet является вспомогательной. Каждая запись представляет одну подсеть, определенную в параметрах конфигурации сети.
-ms.openlocfilehash: 10df067fe95f244aea2fa9987b4962efaef9fbe32fbbfbe5b0e9f6ed9f6392e1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e7fd43963414b24ed684d8f1efa59c7e634839bd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54279965"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58613799"
 ---
 # <a name="subnet-table"></a>Таблица subnet
  
 Таблица Subnet является вспомогательной. Каждая запись представляет одну подсеть, определенную в параметрах конфигурации сети.
   
-|**Column**|**Тип данных**|**Key/Index**|**Сведения**|
+|**Столбец**|**Тип данных**|**Key/Index**|**Details**|
 |:-----|:-----|:-----|:-----|
 |**SubnetIP** <br/> |int  <br/> |Основной, внешний  <br/> |Целочисленное представление IP-адреса подсети.  <br/> |
 |**SubnetMask** <br/> |int  <br/> ||Маска подсети.  <br/> |

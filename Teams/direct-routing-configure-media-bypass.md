@@ -7,7 +7,7 @@ audience: ITPro
 ms.reviewer: NMuravlyannikov
 ms.topic: article
 ms.service: msteams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-voice
@@ -15,14 +15,14 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: Узнайте, как настроить обход мультимедиа с помощью телефонная система прямой маршрутии для Microsoft Teams путем одновременного переключения всех пользователей или поэтапной реализации (рекомендуется).
+description: Узнайте, как настроить обход мультимедиа с помощью телефонная система прямой маршрутии для Microsoft Teams путем одновременного переключения всех пользователей или поэтапного подхода (рекомендуется).
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 74cfdb0d0bd92849b062d84df20e4ca1428f4034b2e8864bfc89ff70b77c6c3c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: dcbc893d3549e491d40268ae3417f5203d755ff6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54284190"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58598583"
 ---
 # <a name="configure-media-bypass-with-direct-routing"></a>Настройка обхода сервера-посредника с прямой маршрутизацией
 
@@ -37,11 +37,11 @@ ms.locfileid: "54284190"
 3.    Убедитесь, что открыты необходимые порты. 
 
 
-## <a name="migrate-from-non-bypassed-trunks-to-bypass-enabled-trunks"></a>Переход с неинтегрирования на обойденные магистрали
+## <a name="migrate-from-non-bypassed-trunks-to-bypass-enabled-trunks"></a>Переход с невключаемой туловища на обойденные.
 
 Вы можете переключить всех пользователей одновременно или реализовать поэтапный подход (рекомендуется).
 
-- **Одновременное переключение всех пользователей.** Если выполнены все условия, вы можете включить режим обхода. Однако все ваши производственные пользователи будут переключаться одновременно. Так как при настройке связи и портов могут возникнуть некоторые проблемы, это может повлиять на пользовательский интерфейс вашей компании. 
+- **Одновременное переключение всех пользователей.** Если выполнены все условия, вы можете включить режим обхода. Однако все ваши пользователи будут переключаться одновременно. Так как при настройке связи и портов могут возникнуть некоторые проблемы, это может повлиять на пользовательский интерфейс вашей компании. 
 
 - **Поэтапный подход. (Рекомендуется)**.  Создайте новую магистраль для того же SBC (с другим портом), протестировать ее и измените политику маршрутинга голосовой связи в Интернете, чтобы пользователи навести указатель на новую туловище. 
 
@@ -49,7 +49,7 @@ ms.locfileid: "54284190"
 
 ![Переход с неинтегрирования на обойденные магистрали)](media/direct-routing-media-bypass-8.png)
 
-Инструкции по настройке туловища и выполнению миграции см. в документации поставщика SBC:
+Инструкции по настройке магистральных телефонов и выполнению миграции см. в документации поставщика SBC:
 
 - [Документация по развертыванию AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams)
 - [Документация по развертыванию Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)

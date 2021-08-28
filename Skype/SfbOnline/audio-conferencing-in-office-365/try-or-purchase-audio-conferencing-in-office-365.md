@@ -15,25 +15,25 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - ms.lync.lac.CpcGettingStarted
 ms.custom:
 - Audio Conferencing
 description: 'Узнайте, как загрузить пробную версию или приобрести лицензию на аудиоконференции (конференц-связь по ТСОП) для Office 365, чтобы настроить конференц-связь с возможностью входящих вызовов. '
-ms.openlocfilehash: 15d412bb91cf6a65aa642f88ae183ad24bcb2148e53a42f36aac9d01d54f312f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 80b3dafce07298d2ca84cec94aa0c8a54020d9d3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54332321"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58597433"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-microsoft-365-or-office-365-for-skype-for-business-online"></a>Попробуйте или приобретйте аудиоконференцию в Microsoft 365 или Office 365 для Skype для бизнеса Online
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 > [!Note]
-> Сведения о аудиоконференциях в Microsoft Teams см. в Microsoft 365 или [Office 365](/MicrosoftTeams/try-or-purchase-audio-conferencing-in-office-365-for-teams)для Skype для Microsoft Teams.
+> Сведения о аудиоконференциях в Microsoft Teams см. в Microsoft 365 или Office 365 для Skype для [Microsoft Teams.](/MicrosoftTeams/try-or-purchase-audio-conferencing-in-office-365-for-teams)
 
 
 В некоторых случаях пользователям в организации требуется телефон, чтобы присоединиться к собранию. Специально для таких ситуаций в Skype для бизнеса предусмотрена функция аудиоконференции. Люди могут присоединяться к собраниям Skype для бизнеса с помощью телефона, а не использовать приложение Skype для бизнеса на мобильном устройстве или компьютере.
@@ -54,7 +54,7 @@ ms.locfileid: "54332321"
 
    - **Загрузить пробную версию**, прежде чем приобрести лицензию, Вы можете пройти регистрацию для получения бесплатной пробной версии Office 365 корпоративный E5, в которую входит функция аудиоконференции. См. раздел [Пробная версия Office 365 корпоративный E5](https://portal.office.com/Signup?OfferId=101bde18-5ffb-4d79-a47b-f5b2c62525b3).
 
-   - **Купить ,** см. Skype для бизнеса [лицензирование Microsoft Teams надстройки](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
+   - **Купить ,** см. Skype для бизнеса [и Microsoft Teams лицензирования надстройки](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
 
 3. [Назначайте и удаляйте](https://support.office.com/article//997596b5-4173-4627-b915-36abac6786dc) лицензии для Приложения Microsoft 365 для бизнеса, приобретенных для людей в организации, план которых будет планировать или вести собрания.
 
@@ -84,11 +84,11 @@ ms.locfileid: "54332321"
 
 Следующие шаги являются **необязательными**, однако многие администраторы считают их необходимыми:
 
-1. [Настройка приглашений на собрания](../set-up-skype-for-business-online/customize-meeting-invitations.md). Номера для телефонного подбираемого номера автоматически добавляются в приглашения на собрания, отосланные участникам. Однако вы можете добавить собственные ссылки на справку и юридические темы, текстовое сообщение и небольшой рисунок компании.
+1. [Настройка приглашений на собрания](../set-up-skype-for-business-online/customize-meeting-invitations.md). Номера для телефонного подбираемого номера автоматически добавляются в приглашения на собрания, отосланные участникам. Однако вы можете добавить собственные ссылки на справку и юридическое сообщение, текстовое сообщение и рисунок небольшой компании.
 
 2. [Задайте номера телефонов, включенные в приглашения.](set-the-phone-numbers-included-on-invites.md) Это —номер телефона, который будет отображаться в собрании, которое запланировал пользователь.
 
-3. [Настройка языков](set-auto-attendant-languages-for-audio-conferencing.md) автоответа для аудиоконференций, которые автоконферентарь аудиоконференции использует для приветения вызывающего звоняющего по номеру телефона аудиоконференции. Этот шаг необходим только в том случае, если Microsoft назначен в качестве поставщика аудиоконференции.
+3. [Настройка языков](set-auto-attendant-languages-for-audio-conferencing.md) автоответов для аудиоконференций, которые автоконференциер аудиоконференции использует для приветения вызывающего звоняющего на телефонный номер аудиоконференции. Этот шаг необходим только в том случае, если Microsoft назначен в качестве поставщика аудиоконференции.
 
 4. [Установите длину ПИН-кода для собраний аудиоконференции.](set-the-pin-length-for-audio-conferencing-meetings.md)
 

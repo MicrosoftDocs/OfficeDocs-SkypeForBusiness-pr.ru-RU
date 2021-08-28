@@ -10,21 +10,21 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ea328c6f-cf22-48dd-8f7f-f1666c9148c8
 description: В представлении SessionDetails хранится информация о одноранговых сеансах, которые могут быть телефонным VoIP-VoIP, двухпартийным сеансом чата или другим типом сеанса. Это представление было представлено в Microsoft Lync Server 2013.
-ms.openlocfilehash: 7b8822766b885ea729bed28e3191846281033225383faada0120b14d00e1a1ba
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 454cefc905409e0488121addab2cac5df55ef34d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54284519"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58625131"
 ---
 # <a name="sessiondetails-view"></a>Представление SessionDetails
  
 В представлении SessionDetails хранится информация о одноранговых сеансах, которые могут быть телефонным VoIP-VoIP, двухпартийным сеансом чата или другим типом сеанса. Это представление было представлено в Microsoft Lync Server 2013.
   
-|**Column**|**Тип данных**|**Сведения**|
+|**Столбец**|**Тип данных**|**Details**|
 |:-----|:-----|:-----|
 |**SessionIdTime** <br/> |datetime  <br/> |Время запроса сеанса. Используется вместе с параметром SessionIdSeq для уникального определения сеанса. Дополнительные сведения см. в [таблице Диалоги Skype для бизнеса Server 2015.](dialogs.md) <br/> |
 |**SessionIdSeq** <br/> |int  <br/> |Идентификационный номер для идентификации сеанса. Используется совместно с параметром SessionIdTime для уникальной идентификации сеанса. Дополнительные сведения см. в таблице [Диалоги Skype для бизнеса Server 2015](dialogs.md) г. <br/> |
@@ -73,7 +73,7 @@ ms.locfileid: "54284519"
 |**FromUserFlag** <br/> |smallint  <br/> |Указывает атрибуты пользователя, начавшего сеанс. Допустимы следующие определения атрибутов:  <br/> 0x01 — интегрировано со стационарным телефоном  <br/> |
 |**ToUserFlag** <br/> |smallint  <br/> |Указывает атрибуты пользователя, начавшего сеанс. Допустимы следующие определения атрибутов:  <br/> 0x01 — интегрировано со стационарным телефоном  <br/> |
 |**CallFlag** <br/> |smallint  <br/> |Указывает атрибуты вызова. Допустимы следующие определения атрибутов:  <br/> 0x01 — повторенный сеанс  <br/> 0x02 — вызов, выполненный агентом от имени группы ответа  <br/> |
-|**Расположение** <br/> |varchar (max)  <br/> |Расположение экстренного звонка.  <br/> |
+|**Location** <br/> |varchar (max)  <br/> |Расположение экстренного звонка.  <br/> |
 |**LastModifiedTime** <br/> |Datetime  <br/> |Для внутреннего использования службой мониторинга.  <br/> Это поле было введено Skype для бизнеса Server 2015 г.  <br/> |
    
 

@@ -10,19 +10,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 6356aad4-700d-495c-8fc8-58eb1d4f6f18
 description: Ознакомьтесь с этой темой, чтобы узнать, как планировать появление общих строк в Skype для бизнеса Server 2015 г., ноябрь 2015 г. Накопительное обновление.
-ms.openlocfilehash: cabd5a9f6780371a8345bd95c5686829e74ad3c18e875ec85decf6ab0ca2f789
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b3ec50ff74ee246be892636dac4cdb910a2588d7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54289727"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58614039"
 ---
 # <a name="plan-for-shared-line-appearance-in-skype-for-business-server-2015"></a>Планирование появления общих строк в Skype для бизнеса Server 2015 г.
  

@@ -13,33 +13,33 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Setup
 - ms.lync.lac.OrgPresencePrivacy
-description: 'Узнайте, как настроить режим конфиденциальности для пользователей, чтобы они могли лучше контролировать доступность пользователей. '
-ms.openlocfilehash: 29eb3baad5ee270d594d283ba51cb1cde75222d8ad66e34ca4df33676aeab2da
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 'Узнайте, как настроить режим конфиденциальности для пользователей, чтобы они могли лучше контролировать их доступность. '
+ms.openlocfilehash: 6ef0bf1ef5256f3753b3ca161b3ee9c0a9f18559
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54339327"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58597363"
 ---
 # <a name="configure-presence-privacy-mode"></a>Настройка режима конфиденциальности присутствия
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 > [!IMPORTANT]
-> Центр Microsoft Teams администрирования заменил центр администрирования Skype для бизнеса (устаревший портал). Все параметры управления Skype для бизнеса теперь находятся в Teams администрирования. Чтобы управлять функциями Skype для бизнеса Teams в Центре администрирования azure [AD,](/azure/active-directory/roles/permissions-reference) вам должна быть назначена роль администратора Azure AD глобальный администратор Skype для бизнеса администратор. Дополнительные сведения см. в статье [Управление параметрами Skype для бизнеса в Центре администрирования Microsoft Teams](/MicrosoftTeams/skype-for-business-settings?bc=%2fskypeforbusiness%2fbreadcrumb%2ftoc.json&toc=%2fskypeforbusiness%2fsfbotoc%2ftoc.json)
+> Центр Microsoft Teams администрирования заменил центр администрирования Skype для бизнеса (устаревший портал). Все параметры управления Skype для бизнеса теперь находятся в Teams администрирования. Чтобы управлять функциями Skype для бизнеса Teams в Центре администрирования azure [AD,](/azure/active-directory/roles/permissions-reference) вам должна быть назначена роль администратора Azure AD глобальный администратор или администратор Skype для бизнеса администратор. Дополнительные сведения см. в статье [Управление параметрами Skype для бизнеса в Центре администрирования Microsoft Teams](/MicrosoftTeams/skype-for-business-settings?bc=%2fskypeforbusiness%2fbreadcrumb%2ftoc.json&toc=%2fskypeforbusiness%2fsfbotoc%2ftoc.json)
 
-Параметр присутствия Skype для бизнеса в Интернете дает людям больше контроля над тем, кто может видеть, доступны ли они, на собрании или нет на месте. Подробные сведения о Skype для бизнеса присутствии и конфиденциальности см. в Skype для бизнеса [Online.](configure-presence-in-skype-for-business-online.md) 
+Параметр Skype для бизнеса сетевом присутствии дает людям больше контроля над тем, кто может видеть, доступны ли они, на собрании или нет на месте. Подробные сведения о Skype для бизнеса и параметрах конфиденциальности см. в Skype для бизнеса [Online.](configure-presence-in-skype-for-business-online.md) 
   
 ## <a name="choose-the-default-online-presence-setting-for-everyone-in-your-organization"></a>Выбор параметра присутствия по умолчанию для всех пользователей в организации
 <a name="__top"> </a>
 
-1. Перейдите в центр администрирования Skype для бизнеса Online и **> организации > Общие.**
+1. Перейдите в центр администрирования Skype для бизнеса Online и **> организации > Общие**.
     
 2. В **режиме конфиденциальности** присутствия выберите этот параметр и нажмите кнопку **Сохранить**.
     

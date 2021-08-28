@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2e12613e-59f2-4810-a32d-24a9789a4a6e
 description: В данном разделе описываются глобальные параметры и объекты, а также универсальные группы служб и административные группы, создаваемые на этапе подготовки леса.
-ms.openlocfilehash: 8a613b4f71d26f06d36543ef4ec10dab39442860b0435ccd84417624d495c9fe
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c21e6dfac6cd3b6a9bb3c0b6b040138e6d8f8a52
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54349731"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58613999"
 ---
 # <a name="changes-made-by-forest-preparation-in-skype-for-business-server"></a>Изменения, внесенные подготовкой леса в Skype для бизнеса Server
 
@@ -46,7 +46,7 @@ ms.locfileid: "54349731"
 
 **Административные группы, созданные во время подготовки леса**
 
-|**Административная группа**|**Description**|
+|**Административная группа**|**Описание**|
 |:-----|:-----|
 |RTCUniversalServerAdmins  <br/> |Позволяет членам управлять параметрами серверов и пулов, включая все роли сервера, глобальные параметры и пользователей.  <br/> |
 |RTCUniversalUserAdmins  <br/> |Позволяет членам управлять параметрами пользователей и перемещать пользователей из одного сервера или пула в другой.  <br/> |
@@ -56,7 +56,7 @@ ms.locfileid: "54349731"
 
 **Группы инфраструктуры, созданные во время подготовки леса**
 
-|**Группа инфраструктуры**|**Description**|
+|**Группа инфраструктуры**|**Описание**|
 |:-----|:-----|
 |RTCUniversalGlobalWriteGroup  <br/> |Предоставляет доступ к глобальным объектам настройки для Skype для бизнеса Server.  <br/> |
 |RTCUniversalGlobalReadOnlyGroup  <br/> |Предоставляет доступ только для чтения к глобальным объектам настройки для Skype для бизнеса Server.  <br/> |
@@ -68,7 +68,7 @@ ms.locfileid: "54349731"
 
 **Группы служб, созданные во время подготовки леса**
 
-|**Группа служб**|**Description**|
+|**Группа служб**|**Описание**|
 |:-----|:-----|
 |RTCHSUniversalServices  <br/> |Включает учетные записи служб, используемые для запуска переднего выпуск Standard серверов. Эта группа позволяет серверам читать и записывать доступ к глобальным Skype для бизнеса Server и объектам пользователей Active Directory.  <br/> |
 |RTCComponentUniversalServices  <br/> |Включает учетные записи служб, используемые для запуска A/V Conferencing Servers, Web Services, Mediation Server, Archiving Server и Monitoring Server.  <br/> |
