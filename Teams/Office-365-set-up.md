@@ -9,7 +9,7 @@ ms.service: msteams
 ms.reviewer: ritikag
 audience: admin
 description: Узнайте, как включить Microsoft Teams для своей Microsoft 365 или Office 365 организации, назначить пользовательские лицензии для управления отдельным доступом, а также разрешить или заблокировать источники контента.
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c0879c4ff2af21ec91856eddd0afcc94a2de9edd083b30ed98285fca040b0522
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d9341ad677ba3a8d6d866959f8a3afa7520f1de1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54318566"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58631553"
 ---
 # <a name="turn-on-teams-in-your-organization"></a>Включение Teams в организации
 
@@ -39,7 +39,7 @@ ms.locfileid: "54318566"
 
 
  
-Дополнительные инструкции по управлению отдельными лицензиями можно найти в Microsoft Teams [службы.](/office365/servicedescriptions/teams-service-description) 
+Дополнительные информацию об управлении отдельными лицензиями можно найти в Microsoft Teams [службы.](/office365/servicedescriptions/teams-service-description) 
 
  
 ## <a name="turn-teams-on-or-off-for-your-entire-organization"></a>Включение или отключение Microsoft Teams для всей организации 

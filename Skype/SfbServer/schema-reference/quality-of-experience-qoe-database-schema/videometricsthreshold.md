@@ -10,22 +10,22 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2e2f4711-35ba-48c6-b15b-5aba61c4eb75
 description: Таблица VideoMetricsThreshold содержит оптимальные и допустимые значения метрик качества взаимодействия, используемых для видеозвонков.
-ms.openlocfilehash: 1885e1d5bfbea10ffed518aaedcc8bf47a2b5217c333c187eaf2a2ee0dc7b0d2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9ad1be885a9d922b3884192f543e0e8e1c6415e0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54340005"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58586775"
 ---
 # <a name="videometricsthreshold-table"></a>Таблица VideoMetricsThreshold
  
 Таблица VideoMetricsThreshold содержит оптимальные и допустимые значения метрик качества взаимодействия, используемых для видеозвонков.
   
 
-| **Column**                                               | **Тип данных**       | **Key/Index**  | **Сведения**                          |
+| **Столбец**                                               | **Тип данных**       | **Key/Index**  | **Details**                          |
 |:---------------------------------------------------------|:--------------------|:---------------|:-------------------------------------|
 | **CallType** <br/>                                       | int  <br/>          | Primary  <br/> | Тип размещенного вызова.  <br/> |
 | **VideoPostFECPLROptimal** <br/>                         | десятичной (5,2)  <br/> |                | Значение по умолчанию — 0,05.  <br/>    |

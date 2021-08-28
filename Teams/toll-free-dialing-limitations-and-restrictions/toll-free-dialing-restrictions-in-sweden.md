@@ -15,19 +15,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: Это поможет вам узнать, как набирать бесплатные номера в каждой стране или регионе. После выбора страны или региона вы будете перенараны на страницу, которая содержит подробные сведения, ограничения и ограничения доступности бесплатных служб, где доступна бесплатная служба. В формате набора вы сможете использовать коды доступа, необходимые для набора бесплатного номера в каждой стране или регионе.
-ms.openlocfilehash: 27ffa841bbe7020da8c0d920ae3558d34633268017281e1c3ae3aec78c232a9a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Это поможет вам узнать, как набирать бесплатные номера в каждой стране или регионе. После выбора страны или региона вы будете перенараны на страницу, которая содержит подробные сведения, ограничения и ограничения доступности бесплатной службы, на которой доступна бесплатная служба. В формате набора или формате будут отбираться коды доступа для каждой страны или региона, необходимые для набора бесплатного номера.
+ms.openlocfilehash: a0a6cd375c06fa352ac351daf11de54d91f6625f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54308300"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58631923"
 ---
 # <a name="toll-free-dialing-restrictions-in-sweden"></a>Ограничения набора бесплатных номеров в Швеции
 

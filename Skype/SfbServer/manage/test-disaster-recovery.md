@@ -9,14 +9,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Выполните восстановление системы для сервера Skype для бизнеса Server пула, чтобы проверить документированный процесс аварийного восстановления
-ms.openlocfilehash: 147f947ca0f43f3ca3f05557e992026efb4d524c81073e2d5db3be42f51aa47d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a98f2de4d860c4a769526428958ba9b952cfc573
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54324208"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58609246"
 ---
 # <a name="disaster-recovery-testing-in-skype-for-business-server"></a>Тестирование аварийного восстановления в Skype для бизнеса Server
 

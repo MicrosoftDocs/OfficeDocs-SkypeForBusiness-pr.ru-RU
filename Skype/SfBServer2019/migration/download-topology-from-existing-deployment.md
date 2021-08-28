@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: При создании пула Skype для бизнеса Server 2019 года используется Центральный магазин управления, связанный с устаревшей установкой. При запуске построителя топологий при первом использовании и в последующих сеансах редактирования, отображается запрос на ввод расположения, из которого построитель топологий должен загрузить текущий документ конфигурации. Так как у вас уже определена топология и создан центр управления, необходимо скачать топологию из существующего развертывания. Построитель топологии прочитает базу данных и извлечет текущее определение.
-ms.openlocfilehash: e20b6fbf8c65d7b59678c0061eee45b21a8e4130132da320494c0d230fffcb1d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 124a1bbb09307edc50842bb5ce6461766e151114
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54339337"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58586253"
 ---
 # <a name="download-topology-from-existing-deployment"></a>Загрузка топологии из существующего развертывания
 

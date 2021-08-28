@@ -8,7 +8,7 @@ audience: Admin
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: karuanag
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Ознакомьтесь с обзором этапов, которые необходимо изучить для поддержки широкого Teams организации.
 f1.keywords:
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 86255086796d7a48d9e46b5507a92a9f2bc478d94b3eaa042dfa9e574e7aa360
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: bced37aba08ca807e6b83091aa85f16a5c99ea22
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54308480"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58586511"
 ---
 # <a name="microsoft-teams-adoption-phase-3---scale"></a>Внедрение Microsoft Teams. Этап 3 — масштабирование
 
@@ -36,7 +36,7 @@ ms.locfileid: "54308480"
 2. Выберите стратегию обслуживания.
 3. Вовлечение заинтересованных лиц.
 4. Разработка и запуск информационной кампании.
-5. Разработка и запуск программы обучения.
+5. Разработка и запуск обучающей программы.
 6. Средства отчетности.
 7. Подготовьтесь к постоянному взаимодействию с бизнесом.
 8. Подготовьтесь к постоянному анализу & служб.

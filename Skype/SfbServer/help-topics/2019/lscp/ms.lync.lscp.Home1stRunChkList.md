@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4d0c7306-e87e-464a-82ad-a5537f141500
 ROBOTS: NOINDEX, NOFOLLOW
 description: Добро пожаловать в панель Skype для бизнеса Server, веб-интерфейс пользователя для администрирования и управления Skype для бизнеса Server. Панели управления можно использовать для выполнения типов административных задач, выполняемых с помощью консоли управления Майкрософт в предыдущих выпусках.
-ms.openlocfilehash: 3fd383a13e9248c1c6cf5d4f272e58a74fa59f956b7fc7bdb494a789d1028ba6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 05f2882622325ed9b4bdb837811941ccb34b0401
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54307640"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58609785"
 ---
 # <a name="first-run-checklist-for-skype-for-business-server-control-panel"></a>Контрольный список первого запуска для панели управления Skype для бизнеса Server
 
@@ -35,10 +35,10 @@ ms.locfileid: "54307640"
 
 Настоятельно рекомендуется просмотреть задачи, о которых идет речь в этом разделе, а затем выполнить соответствующие процедуры для развертывания в организации.
 
-|**Задача**|**Группа панели управления**|**Документация**|
+|**Task**|**Группа панели управления**|**Документация**|
 |:-----|:-----|:-----|
 |Проверьте, что службы, установленные в топологии, работают должным образом.  <br/> |**Топология** <br/> |[Просмотр сведений о службе](/previous-versions/office/lync-server-2013/lync-server-2013-view-details-about-a-service) <br/> |
-|Включить пользователей для Skype для бизнеса Server. Необязательно и при переносе из предыдущего выпуска перенаселите пользователей в Skype для бизнеса Server.  <br/> |**Пользователи** <br/> |[Управление пользователями](/previous-versions/office/lync-server-2013/lync-server-2013-user-accounts-enabled-for-lync-server) <br/> |
+|Включить пользователей для Skype для бизнеса Server. Необязательно и при переносе из предыдущего выпуска перенаселите пользователей в Skype для бизнеса Server.  <br/> |**пользователи**; <br/> |[Управление пользователями](/previous-versions/office/lync-server-2013/lync-server-2013-user-accounts-enabled-for-lync-server) <br/> |
 |Если корпоративная голосовая связь развернута или планируется для развертывания, настройте подключение к магистрали SIP, чтобы обеспечить связь с телефонной сетью общего пользования (ТСОП).  <br/> |**Маршрутизация телефонных звонков** <br/> |[Настройка правил магистрали и перевода](/previous-versions/office/lync-server-2013/lync-server-2013-configuring-trunks) <br/> |
 |Если развернута корпоративная голосовая связь, проверьте параметры корпоративной голосовой связи.  <br/> |**Маршрутизация телефонных звонков** <br/> |[Тестирование голосовой маршрутизации](/previous-versions/office/lync-server-2013/lync-server-2013-test-voice-routing) <br/> |
 |Если развернут сервер архивирования, проверьте, что политики архивирования и параметры архивирования в организации соответствуют требованиям.  <br/> |**Мониторинг и архивирование** <br/> |[Управление архивативией](/previous-versions/office/lync-server-2013/lync-server-2013-managing-archiving) <br/> |

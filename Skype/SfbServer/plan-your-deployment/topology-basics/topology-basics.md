@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 113e8c3f-71de-435c-bc4a-918ac7b50008
 description: Сводка. Выберите топологию для Skype для бизнеса Server. Узнайте о коллегиале сервера для Skype для бизнеса Server.
-ms.openlocfilehash: 922bc26ee6eeea720c62cbbc744953aa5edecf4c03a792fac56ee7910806b6e1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ff527bc35f534de5a7c8830bbc4359626f8f09b9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54349871"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58609216"
 ---
 # <a name="topology-basics-for-skype-for-business-server"></a>Основы топологии для Skype для бизнеса Server
 
@@ -251,7 +251,7 @@ Skype для бизнеса Server поддерживает несколько �
 
 - Любая базовая база данных для выпуск Enterprise переднего конца
 
-#### <a name="enterprise"></a>Предприятие
+#### <a name="enterprise"></a>Крупный бизнес
 
 Следующие базы данных можно найти в одном и том же SQL Server:
 

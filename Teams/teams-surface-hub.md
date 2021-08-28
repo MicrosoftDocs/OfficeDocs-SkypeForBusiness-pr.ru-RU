@@ -9,7 +9,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: jatpatel
 description: Узнайте, как установить и настроить приложение Teams для Surface Hub, чтобы Teams по умолчанию приложение для звонков и собраний.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3a4e1786064f0f87d153d3167c9d2eceed3126f9df97e5e6deb77e55c6b1691e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7b3856dd7cd88626236e370b633663c1e3182bba
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54292926"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58586481"
 ---
 # <a name="deploy-microsoft-teams-for-surface-hub"></a>Развертывание Microsoft Teams для Surface Hub
 
@@ -33,17 +33,17 @@ ms.locfileid: "54292926"
 
  □ убедитесь, что оборудование, операционная система и другие требования выполнены. Дополнительные сведения см. в [Microsoft Surface Hub администрирования](/surface-hub/).<br>
  □ убедитесь, что установлено минимальное обновление операционной системы для Teams — [KB4343889.](https://support.microsoft.com/help/4343889)<br>
- □ назначение лицензии Teams учетной записи устройства Hub.<br>
- □ Если вы переходите с Skype для бизнеса Online, подтвердим, Teams лицензия назначена пользователю.
+ □ назначить Teams учетной записи устройства Hub.<br>
+ □ Если вы переходите с Skype для бизнеса Online, Teams лицензия назначена пользователю.
 
 ## <a name="install-teams-for-surface-hub-from-the-microsoft-store"></a>Установите Teams для Surface Hub из Microsoft Store 
 
 Эти инструкции по установке Teams для Surface Hub из Microsoft Store. 
  
-1. Запустите Microsoft Store.<br>
+1. Запустите Microsoft Store:<br>
    а) Нажмите **Запустить**  >  **все приложения**  >  **Параметры**.<br> б) **Коснитесь Surface Hub учетной записи устройства, управления**.<br>
-   в. Слева коснитесь вкладки **Приложения & Функции.**<br> г. Справа нажмите кнопку **Открыть Магазин.** 
-2. В Microsoft Store наймем Microsoft Teams . Отобраз **Microsoft Teams для Surface Hub.** Нажмите **кнопку Получить приложение** для установки.  
+   в. В левой области коснитесь **вкладки Приложения & Функции.**<br> г. Справа нажмите кнопку **Открыть Магазин.** 
+2. В Microsoft Store наймем Microsoft Teams . Microsoft Teams **для Surface Hub** будет отображаться. Нажмите **кнопку Получить приложение** для установки.  
 3. После завершения установки перезапустите Surface Hub. 
 
 > [!NOTE]
@@ -62,7 +62,7 @@ ms.locfileid: "54292926"
 
 |Число  |Описание  |
 |---------|---------|
-|0     | Skype на экране "Начните", Teams доступные собрания        |
+|0     | Skype на экране "Начните", Teams доступно приложение "Собрания"        |
 |1     | Teams на экране "Начните", Skype доступные собрания        |
 |2     | Teams монопольно на экране "Начните" (Skype приложение не доступно)        |
  
@@ -70,7 +70,7 @@ ms.locfileid: "54292926"
 2. Откройте приложение **Параметры** на устройстве Surface Hub. 
 3. Откройте **Surface Hub управление учетной записью устройства**.
 4. Откройте **управление устройствами**. 
-5. Нажмите **кнопку Добавить или удалить пакет.** 
+5. Нажмите **кнопку Добавить или удалить пакет подготовка**. 
 6. Нажмите **кнопку Добавить пакет**.
 7. Выберите в **меню параметр Съемный** носителю. 
 8. Добавьте соответствующий <strong>пакет TeamsRTMMode*.ppkg,</strong> который ранее был скопирован на USB-ключ. 
@@ -84,13 +84,13 @@ ms.locfileid: "54292926"
 |Параметр   |Значение    |Описание    |
 |----------|---------|---------|
 |Путь      | ./Vendor/MSFT/SurfaceHub/Properties/SurfaceHubMeetingMode        |
-|Тип данных | integer (0-2)   |0 — Skype на экране "Начните" и Teams доступные собрания<br>1. Teams на экране "Начните" и Skype доступные собрания<br>2. Teams монопольное приложение на экране "Начните" (Skype приложение не доступно) |
+|Тип данных | integer (0-2)   |0 — Skype приложение на экране "Начните Teams доступные собрания"<br>1 . Teams на экране "Начните" и Skype доступные собрания<br>2. Teams монопольно на экране "Начните" (Skype приложение не доступно) |
 |Операции| Получить, Установить        |
 
 |Параметр   |Значение    |
 |----------|---------|
 |Путь      | ./Vendor/MSFT/SurfaceHub/Properties/VtcAppPackageId        |
-|Тип данных | строка— задате для Teams как **Microsoft.MicrosoftTeamsforSurfaceHub_8wekyb3d8bbwe!Teams** |
+|Тип данных | строка— установите для строки Teams как **Microsoft.MicrosoftTeamsforSurfaceHub_8wekyb3d8bbwe!Teams** |
 |Операции| Получить, Установить        |
 
 Перезапустите Surface Hub устройстве. После перезапуска устройства вы сможете запустить приложение Teams с экрана "Пуск" и присоединиться к собранию из календаря.

@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.ClientDeviceTestMain
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a1ea564c-f403-4f61-a36b-5a429708e7ca
 description: Вы можете добавить устройство проверки на страницу Устройство проверки и затем использовать его для проверки функциональных возможностей новых обновлений перед их развертыванием на производственных устройствах. Вы можете протестировать устройство глобально (во всей среде) или на одном сайте. Устройство проверки указывается по MAC-адресу или серийному номеру. При добавлении устройства оно отображается в списке на странице тестового устройства панели Skype для бизнеса Server управления.
-ms.openlocfilehash: b893e5673f79aa034959c93b28269c874c03f23603edfd1c94922330fc090da7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5e2d3be8ca9b010e97020004c3cb46c732d1ebc1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54299736"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58631713"
 ---
 # <a name="test-device"></a>Тестовое устройство
 
@@ -42,7 +42,7 @@ ms.locfileid: "54299736"
 
   - Глобальные
 
-  - Site
+  - Сайт
 
 - **Изменение** Можно изменить параметры тестового устройства в списке. С помощью этой команды можно выполнить следующие действия:
 

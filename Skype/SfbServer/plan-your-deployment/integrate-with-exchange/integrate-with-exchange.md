@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ea22beb9-c02e-47cb-836d-97a556969052
 description: Сводка. Просмотрите эту тему для получения сведений о том, как интегрировать Skype для бизнеса Server с Exchange Server 2016 или Exchange Server 2013 г.
-ms.openlocfilehash: 81217886028db9e8cb04296e5d665aada3a3337683f4b8276fb13d454cdc4b76
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6c830636b8db5b2a4fba02a1a5f34489e691459c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54284649"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58609226"
 ---
 # <a name="plan-to-integrate-skype-for-business-and-exchange"></a>Планирование интеграции Skype для бизнеса и Exchange
  

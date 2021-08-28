@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.SqlStoreSettingsExpander
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bd269d52-6f87-4433-b9b0-2b543fea845d
 description: Чтобы изменить свойства базы данных SQL Server, необходимо изменить экземпляр SQL Server базы данных. Вы не можете использовать диалоговое окно Изменение свойств для выполнения таких задач, как перемещение базы данных сервера архивации с одного компьютера на другой. Кроме того, нельзя использовать диалоговое окно Edit Properties для изменения экземпляра SQL Server, в котором размещен центральный магазин управления.
-ms.openlocfilehash: bb89251ac2f29ee15aa10caadf942a9d0896156aedf39394a763b44d6ce9e8d2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 83bf11af40e8c51693b2b1768f1d71c9bc2f37f9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54341924"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58609376"
 ---
 # <a name="sql-store-settings-expander"></a>Расширитель параметров хранилища SQL
  

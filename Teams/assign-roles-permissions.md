@@ -11,17 +11,17 @@ search.appverid: MET150
 description: Сведения о назначении разрешений и ролей для владельцев и участников команд в Microsoft Teams, включая права на создание команд.
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b574c04acdf466f2ad8a46401dd347ff2a82b876eaa61815d0d3ea07d7d9cb8b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 666a623f955cd10fd4ad3e0983ccff83c9725a6b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54331101"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58586735"
 ---
 # <a name="assign-team-owners-and-members-in-microsoft-teams"></a>Назначение владельцев и участников команд в Microsoft Teams
 
@@ -40,7 +40,7 @@ ms.locfileid: "54331101"
 | **Изменение имени и описания стандартного канала** |    Да     |    Да<sup>2</sup>|
 |        **Удаление стандартного канала**         |    Да     |    Да<sup>2</sup>|
 |          ***Добавление частного канала**          |    Да     |    Да<sup>2</sup>|
-| ***Изменение имени и описания частного канала** |    Нет     |    Н/Д|
+| ***Изменение имени и описания частного канала** |    Нет     |    Недоступно|
 |        ***Удаление закрытого канала**         |    Да     |    Нет|
 |          **Добавление участников**          |  Да<sup>3</sup>   |     Нет<sup>4</sup>    |
 |          **Запрос на добавление участников**          |  Н/Д   |     Да<sup>5</sup>     |

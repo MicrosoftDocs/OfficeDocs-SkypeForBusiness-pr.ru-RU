@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.SelectCreators
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f8d9ed6f-22ba-470e-b0b4-0da3cea5e961
 description: Создание и управление стойкими комнатами чата намного проще при правильном использовании категорий. Администратор сохраняемого чата может определять allowedMembers и Creators для каждой категории, а также определять параметры и поведение комнаты чата по умолчанию, которые будут применяться во всех комнатах чата, созданных в этой категории. Постоянные администраторы чата создают и управляют категориями с помощью Skype для бизнеса Server панели управления или Windows PowerShell.
-ms.openlocfilehash: bc00bada9bdecb35d708ee93ad5536a6758e4eda10ca3ccc671d386a8e8bcdf8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 742ec61eca055e9bf6c8d0578023da2b6553cb84
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54303931"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58609406"
 ---
 # <a name="select-creators"></a>Выбор создателей
 
