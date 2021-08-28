@@ -10,21 +10,21 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ae0287b4-e8ca-4f8c-84ef-502897dcaa2a
 description: В таблице ErrorReport хранится информация об ошибках, которые произошли. Каждая запись соответствует одному случаю возникновения ошибки. Ошибки фиксируются агентом CDR, работающим на сервере переднего плана, или передаются клиентом.
-ms.openlocfilehash: 1cac143f50e361598c7985aa585485bd73c9aa79d3b47bd21fb0b70e75b9377e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d2fccd6f1f99884e9d4412cb9814f24d581248a5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54303682"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634183"
 ---
 # <a name="errorreport-table-in-skype-for-business-server-2015"></a>Таблица ErrorReport в Skype для бизнеса Server 2015 г.
  
 В таблице ErrorReport хранится информация об ошибках, которые произошли. Каждая запись соответствует одному случаю возникновения ошибки. Ошибки фиксируются агентом CDR, работающим на сервере переднего плана, или передаются клиентом.
   
-|**Column**|**Тип данных**|**Key/Index**|**Сведения**|
+|**Столбец**|**Тип данных**|**Key/Index**|**Details**|
 |:-----|:-----|:-----|:-----|
 |**ErrorTime** <br/> |datetime  <br/> |Primary  <br/> |Дата и время ошибки.  <br/> |
 |**ErrorReportSeq** <br/> |int  <br/> |Primary  <br/> |ID-номер для определения отчета об ошибке. Используется совместно с **ErrorTime** для уникальной идентификации отчета об ошибке. <br/> |

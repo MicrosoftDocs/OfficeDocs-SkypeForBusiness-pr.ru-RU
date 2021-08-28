@@ -8,8 +8,8 @@ audience: admin
 ms.service: msteams
 ms.reviewer: ''
 search.appverid: MET150
-description: Узнайте, как управлять настройками клиента и пользователей Teams во время перехода с Teams в Центр администрирования Microsoft 365 на новый Teams администрирования.
-localization_priority: Normal
+description: Узнайте, как управлять настройками клиента и пользователей для Teams во время перехода с Teams в Центр администрирования Microsoft 365 на новый Teams администрирования.
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,12 +21,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: 83066f98eac9efd22558848b8ae12a06ff1e5d5b
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 32e863b244453599bed9c71fc2dede4df14ff1a0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58235314"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58615335"
 ---
 # <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>Управление Teams при переходе на новую версию Центра администрирования Microsoft Teams
 
@@ -35,9 +35,9 @@ ms.locfileid: "58235314"
 
 ## <a name="what-is-the-new-microsoft-teams-admin-center"></a>Что нового в Центре Microsoft Teams администрирования  
 
-Новый интерфейс Центра администрирования обеспечивает единый интерфейс для управления Teams и Skype для бизнеса. Мы предоставляет дополнительные функции, готовые сведения и возможность Teams параметров на уровне пользователя.
+Новый интерфейс Центра администрирования обеспечивает единый интерфейс для управления Teams и Skype для бизнеса. Мы будем предоставлять дополнительные функции, готовые сведения и возможность Teams параметров на уровне пользователя.
 
-![Снимок экрана: Microsoft Teams центре администрирования.](media/manage-teams-skype-for-business-admin-center-portal.png)
+![Снимок экрана: Microsoft Teams администрирования.](media/manage-teams-skype-for-business-admin-center-portal.png)
 
 ## <a name="settings-migrated-to-the-new-microsoft-teams-admin-center"></a>Параметры новый Центр администрирования Microsoft Teams учетной Microsoft Teams
 
@@ -87,7 +87,7 @@ ms.locfileid: "58235314"
 <sup>3</sup> Приложения по умолчанию и внешние приложения можно включить и отключить на уровне пользователя в TeamsAppPermissionPolicy. Кроме того, приложения могут быть заблокированы на уровне клиента в настройках приложений для всей организации, что переопределит любые пользовательские и клиентский параметры.
 
 > [!NOTE]
-> Вы по-прежнему будете использовать панель мониторинга Groups в Центр администрирования Microsoft 365 для настройки, связанной с Teams и каналами. Параметры для приложений останутся в Teams области Центр администрирования Microsoft 365 и будут перенесены позже.
+> Вы по-прежнему будете использовать панель мониторинга Группы в Центр администрирования Microsoft 365 для настройки, связанной с Teams и каналами. Параметры для приложений останутся в Teams области Центр администрирования Microsoft 365 и будут перенесены позже.
 
 ## <a name="manage-settings-during-the-migration"></a>Управление настройками во время миграции
 
@@ -97,9 +97,9 @@ ms.locfileid: "58235314"
 
 |Функция  |Microsoft Teams центре администрирования                      |Skype для бизнеса администрирования (устаревшая версия)  |Центр администрирования Microsoft 365  |
 |---------|:---------:|:---------:|:---------:|
-|Teams Политики сообщений, собраний и трансляций     |     X    |         |         |
+|Teams Политики обмена сообщениями, собраний и трансляций     |     X    |         |         |
 |Teams Политика обновления     |    X     |         |         |
-|Параметры гостя для обмена сообщениями, собраний и голосовой почты     |   X      |         |         |
+|Параметры гостей для обмена сообщениями, собраний и голосовой передачи     |   X      |         |         |
 |Teams Управление жизненным циклом   |    X    |      |       |
 |Teams Параметры   |    X    |      |       |
 |Параметры внешнего доступа     |    X    |      |       |

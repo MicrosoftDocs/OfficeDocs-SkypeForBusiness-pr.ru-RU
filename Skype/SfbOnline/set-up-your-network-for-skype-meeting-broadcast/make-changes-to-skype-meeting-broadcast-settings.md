@@ -13,32 +13,32 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - SMB
 - ms.lync.lac.BroadcastMeetings
-description: Вы можете включить Skype собрания и внести изменения в параметры и политики для этих собраний.
-ms.openlocfilehash: c942c1f862097f9ccfb7ae67793632b1d02f85ed0ae4995147512698ab54e480
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Вы можете включить Skype трансляцию собрания и изменить параметры и политики для этих собраний.
+ms.openlocfilehash: e3b6568e61e3c3fe1e51f3aacb25c7ec1de421e7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54339237"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58614919"
 ---
 # <a name="make-changes-to-skype-meeting-broadcast-settings-for-your-organization"></a>Внесение изменений Skype параметров трансляции собраний для организации
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 > [!IMPORTANT]
-> Центр Microsoft Teams администрирования заменил центр администрирования Skype для бизнеса (устаревший портал). Все параметры управления Skype для бизнеса теперь находятся в Teams администрирования. Чтобы управлять функциями Skype для бизнеса Teams в Центре администрирования azure [AD,](/azure/active-directory/roles/permissions-reference) вам должна быть назначена роль администратора Azure AD глобальный администратор Skype для бизнеса администратор. Дополнительные сведения см. в статье [Управление параметрами Skype для бизнеса в Центре администрирования Microsoft Teams](/MicrosoftTeams/skype-for-business-settings?bc=%2fskypeforbusiness%2fbreadcrumb%2ftoc.json&toc=%2fskypeforbusiness%2fsfbotoc%2ftoc.json)
+> Центр Microsoft Teams администрирования заменил центр администрирования Skype для бизнеса (устаревший портал). Все параметры управления Skype для бизнеса теперь находятся в Teams администрирования. Чтобы управлять функциями Skype для бизнеса в Центре администрирования azure [AD,](/azure/active-directory/roles/permissions-reference) вам должна быть назначена роль администратора Azure AD глобальный администратор Skype для бизнеса Teams администратор. Дополнительные сведения см. в статье [Управление параметрами Skype для бизнеса в Центре администрирования Microsoft Teams](/MicrosoftTeams/skype-for-business-settings?bc=%2fskypeforbusiness%2fbreadcrumb%2ftoc.json&toc=%2fskypeforbusiness%2fsfbotoc%2ftoc.json)
 
-Вы можете включить Skype собрания и внести изменения в параметры и политики для этих собраний.
+Вы можете включить Skype трансляцию собрания и изменить параметры и политики для этих собраний.
   
 - **Включить Skype собрания** Включает Skype трансляцию собрания. После того как Skype трансляцию собрания, необходимо настроить сеть для [Skype трансляции собрания](set-up-your-network-for-skype-meeting-broadcast.md). Сделайте это, если вы хотите проводить вебинары и другие трансляции для людей за пределами вашей компании. 
     
-- **Включить Skype трансляции собраний для моей организации** Программы Skype для бизнеса предоставляют ранний доступ к новым продуктам и функциям. Это позволяет вашей организации с обзором предстоящих выпусков и возможностью протестировать новые функции в собственной среде и дать отзыв перед выпуском сборки продукта для всех пользователей.<br/>[Skype для бизнеса предварительного просмотра](https://www.skypepreview.com/)
+- **Включить Skype трансляции собраний для моей организации** Программы Skype для бизнеса обеспечивают ранний доступ к новым продуктам и функциям. Это позволяет вашей организации с обзором предстоящих выпусков и возможностью протестировать новые функции в собственной среде и дать отзыв, прежде чем мы выпустим сборки продуктов для всех пользователей.<br/>[Skype для бизнеса предварительного просмотра](https://www.skypepreview.com/)
     
 - **Разрешение организаторам планировать анонимные собрания** Это позволяет организаторам создавать трансляции, позволяющие всем пользователям за пределами организации присоединяться к собраниям без требования к входу.
     

@@ -16,19 +16,19 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: 'Сведения о том, как настроить конференц-связь или аудиоконференцию для тех участников вашего бизнеса, которым нужно присоединиться к конференции, используя телефон. '
-ms.openlocfilehash: 9045ae734eabdbb38af812610348f2e915b5a07ab481799215824f524b5ed756
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 13cbbf8b8295886cec937091abd3b5a0d378f05e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54332561"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58615215"
 ---
 # <a name="set-up-audio-conferencing-for-microsoft-teams"></a>Настройка аудиоконференций для Microsoft Teams
 
@@ -53,7 +53,7 @@ ms.locfileid: "54332561"
     >[!NOTE] 
     > Аудиоконференция включена в лицензии Office 365 корпоративный E5 и в качестве надстройки.
         
-2. После того, как вы приобретете лицензии с аудиоконференцией, вам необходимо назначить их тем сотрудникам в вашей организации, которые планируют или проводят собрания. См. назначение [лицензий](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) пользователям в Microsoft 365 или Office 365 для бизнеса, которые вы приобрели, пользователям в организации, которые будут планировать или вести собрания.
+2. После того, как вы приобретете лицензии с аудиоконференцией, вам необходимо назначить их тем сотрудникам в вашей организации, которые планируют или проводят собрания. См. назначение [лицензий](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) пользователям Microsoft 365 или Office 365 для бизнеса, которые вы приобрели, пользователям в вашей организации, которые будут планировать или вести собрания.
     
 3. Мы также рекомендуем вам назначить лицензии на кредиты на связь (они ничего не стоят) тем же сотрудникам, которым вы назначили лицензии на предыдущем шаге. Подробнее об этом см. в статье [Настройка кредитов на связь для организации](set-up-communications-credits-for-your-organization.md).
     

@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: В этом разделе освещаются параметры конфигурации, которые необходимо знать до развертывания Skype для бизнеса Server 2019 edge Server. Процессы развертывания и конфигурации Skype для бизнеса Server 2019 г. очень похожи на Skype для бизнеса Server 2015 г. В этом разделе рассматриваются только ключевые моменты, которые следует учитывать при развертывании пилотной версии пула. Подробные действия см. в статье Развертывание внешнего доступа пользователей Skype для бизнеса Server 2019 г. в документации по развертыванию, которая описывает процесс развертывания, а также предоставляет сведения о конфигурации для внешнего доступа пользователей.
-ms.openlocfilehash: 24202bc84be67453eeff321b268f44769d5b11a8eafcd6d93098db7c7b8537fc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c76d517bd5130c2babc41e0072ae7450b9838a64
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54315085"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58615013"
 ---
 # <a name="deploy-pilot-edge-server"></a>Развертывание пилотного пограничного сервера
 

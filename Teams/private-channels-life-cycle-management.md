@@ -15,19 +15,19 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
-description: Узнайте, как управлять частными каналами в организации с помощью Graph API.
-ms.openlocfilehash: 82a9f865099be4012456a1c3a854e08b79d15db432e965a60e32d44c36147b9c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Узнайте, как управлять частными каналами в организации с Graph API.
+ms.openlocfilehash: a2cb9b45afb005c837b260ac3da22c250d16c758
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54350511"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58615325"
 ---
 # <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>Управление жизненным циклом закрытых каналов в Microsoft Teams
 
-Здесь вы найдете рекомендации по управлению использованием API Graph API для управления Teams каналами [в](./private-channels.md) организации.
+Здесь вы найдете рекомендации, необходимые для управления использованием API Graph API для управления Teams каналов [в](./private-channels.md) организации.
 
 ## <a name="set-whether-team-members-can-create-private-channels"></a>Укажите, могут ли участники команды создавать закрытые каналы
 
@@ -44,7 +44,7 @@ PATCH /teams/<team_id>
 
 ## <a name="create-a-private-channel-on-behalf-of-a-team-owner"></a>Создайте закрытый канал от имени владельца команды
 
-Администратор может использовать API Graph для создания закрытого канала от имени владельца команды. Например, это можно сделать в случае централизации создания закрытых каналов в организации.
+Администраторы могут использовать API Graph для создания закрытого канала от имени владельца команды. Например, это можно сделать в случае централизации создания закрытых каналов в организации.
 
 ```Graph API
 POST /teams/{id}/channels
@@ -138,7 +138,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
 Возможно, вы хотите составить список владельцев и участников закрытого канала, чтобы решить, нужно ли повысить уровень некоторых участников до владельца. Это происходит в тех случаях, когда владельцы закрытых каналов покинули организацию и необходима помощь администратора, чтобы заявить о праве собственности на закрытый канал.
 
-Как администратор вы можете использовать API Graph для выполнения этих действий.
+Администратор может использовать API Graph для выполнения этих действий.
 
 Эти команды можно выполнить, используя [песочницу Graph](https://developer.microsoft.com/graph/graph-explorer).
 

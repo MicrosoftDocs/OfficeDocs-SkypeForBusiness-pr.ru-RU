@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 783d2508-e31f-4b54-be0c-63aa5ec21c04
 description: Каждая запись представляет одноранговый сеанс, которым может быть телефонный звонок VoIP-VoIP, двухсторонний сеанс обмена мгновенными сообщениями или друг тип сеанса. Вы можете выполнить соединяемую таблицу со таблицей Мультимедиа, чтобы найти сведения о каждом мультимедиа, участвующих в этом сеансе.
-ms.openlocfilehash: eb47c87be69bfc9308c8c641c54a2173ba2ed03eeae7f7543ce6a5cbb97f7092
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 830e6e2266d77487848c4e49daeaa8462460c2dc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54284489"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58615515"
 ---
 # <a name="sessiondetails-table"></a>Таблица SessionDetails
  
@@ -26,7 +26,7 @@ ms.locfileid: "54284489"
   
 Обратите внимание, что поля IsUser1IntegratedWithDeskPhone и isUser2IntegratedWithDeskPhone были исключены из таблицы SessionDetails, используемой в Skype для бизнеса Server 2015 г.
   
-|**Column**|**Тип данных**|**Key/Index**|**Сведения**|
+|**Столбец**|**Тип данных**|**Key/Index**|**Details**|
 |:-----|:-----|:-----|:-----|
 |**SessionIdTime** <br/> |datetime  <br/> |Основной, внешний  <br/> |Время запроса сеанса. В сочетании с параметром **SessionIdSeq** определяет сеанс уникальным образом. Дополнительные сведения см. в таблице [Диалоги Skype для бизнеса Server 2015](dialogs.md) г. <br/> |
 |**SessionIdSeq** <br/> |int  <br/> |Основной, внешний  <br/> |Идентификатор для идентификации сеанса. Дополнительные сведения см. в таблице диалогов в Skype для бизнеса Server [2015](dialogs.md) г., используемой совместно с **SessionIdTime.** <br/> |

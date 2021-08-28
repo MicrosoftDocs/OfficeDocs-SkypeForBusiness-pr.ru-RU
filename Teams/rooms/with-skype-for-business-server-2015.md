@@ -9,27 +9,27 @@ ms.topic: quickstart
 ms.service: msteams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 ms.assetid: a038e34d-8bc8-4a59-8ed2-3fc00ec33dd7
 description: Дополнительные сведения о развертывании Комнаты Microsoft Teams с помощью Skype для бизнеса Server.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 14d942e041d11cfd95b38f4cdcc18ad614c135df9d88b3a3e55261236144bffd
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2990e1314ee851156bc11430ecf933fe31552117
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54296646"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58615195"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-skype-for-business-server"></a>Развертывание Комнаты Microsoft Teams с помощью Skype для бизнеса Server
   
 В этой теме объясняется, как добавить учетную запись для Комнаты Microsoft Teams при развертывании с одним лесом в локальном развертывании.
   
-Если у вас один лес, локальное развертывание с Exchange 2013 с sp1 или более поздней и Skype для бизнеса Server 2015 или более поздней, вы можете создавать учетные записи устройств с помощью Windows PowerShell сценариев. При развертывании с несколькими лесами можно использовать эквивалентные cmdlets, которые будут работать с одинаковыми результатами. В этой статье описываются необходимые для этого командлеты.
+Если у вас один лес, локальное развертывание с Exchange 2013 с SP1 или более поздней и Skype для бизнеса Server 2015 или более поздней, вы можете использовать предоставленные сценарии Windows PowerShell для создания учетных записей устройств. При развертывании с несколькими лесами можно использовать эквивалентные cmdlets, которые будут работать с одинаковыми результатами. В этой статье описываются необходимые для этого командлеты.
 
   
-Прежде чем приступить к развертыванию Комнаты Microsoft Teams, убедитесь, что у вас есть права на запуск связанных с ними проектлетов.
+Прежде чем приступить к развертыванию Комнаты Microsoft Teams, убедитесь, что у вас есть права на запуск связанных с ними cmdlets.
   
 
    ``` Powershell
@@ -43,7 +43,7 @@ ms.locfileid: "54296646"
    Import-PSSession $sessLync
    ```
 
-   Обратите внимание$strExchangeServer что $strExchangeServer — это полное доменное имя вашего сервера Exchange, а $strLyncFQDN — полное Skype для бизнеса Server развертывания.
+   Обратите внимание$strExchangeServer что $strExchangeServer — полное доменное имя вашего Exchange-сервера, а $strLyncFQDN — полное доменное Skype для бизнеса Server развертывания.
 
 2. После создания сеанса вам нужно создать новый почтовый ящик и включить его в качестве учетной записи RoomMailboxAccount или изменить параметры существующего почтового ящика комнаты. Это позволит учетной записи проверить подлинность для Комнаты Microsoft Teams.
 
@@ -69,7 +69,7 @@ ms.locfileid: "54296646"
    Set-CalendarProcessing -Identity $acctUpn -AddAdditionalResponse $true -AdditionalResponse "This is a Skype Meeting room!"
    ```
 
-4. Если вы решите, что срок действия пароля не истек, вы также можете Windows PowerShell его. Дополнительные сведения см. в разделе "Управление паролями".
+4. Если вы решите, что срок действия пароля не истек, вы также можете Windows PowerShell с помощью Windows PowerShell. Дополнительные сведения см. в разделе "Управление паролями".
 
    ``` Powershell
    Set-AdUser $acctUpn -PasswordNeverExpires $true
@@ -90,7 +90,7 @@ ms.locfileid: "54296646"
 
     Для этого вам понадобятся SIP-адрес и контроллер домена проекта.
 
-7. **Необязательный**. Вы также можете разрешить Комнаты Microsoft Teams телефонной сети общего звонков (STN), включив Корпоративная голосовая связь для вашей учетной записи. Корпоративная голосовая связь не является требованием к Комнаты Microsoft Teams, но если вы хотите, чтобы для клиента Комнаты Microsoft Teams телефонной службы были Комнаты Microsoft Teams ОКП, его можно включить.
+7. **Необязательный**. Вы также можете разрешить Комнаты Microsoft Teams телефонную сеть общего звонков (STN), включив Корпоративная голосовая связь для вашей учетной записи. Корпоративная голосовая связь не является требованием для Комнаты Microsoft Teams, но если вы хотите, чтобы для клиента Комнаты Microsoft Teams телефонной службы были Комнаты Microsoft Teams ОКП, его можно включить.
 
    ``` Powershell
    Set-CsMeetingRoom PROJECTRIGEL01 -DomainController DC-ND-001.contoso.com -LineURI "tel:+14255550555;ext=50555"
@@ -101,7 +101,7 @@ ms.locfileid: "54296646"
 
    Обратите внимание, что используемые в примере контроллер домена и номер телефона необходимо заменить данными, соответствующими вашей среде. Значение параметра $true остается прежним.
 
-## <a name="sample-room-account-setup-in-exchange-and-skype-for-business-server-on-premises"></a>Пример: настройка учетной записи Exchange и Skype для бизнеса Server локально
+## <a name="sample-room-account-setup-in-exchange-and-skype-for-business-server-on-premises"></a>Пример: настройка учетной записи комнаты Exchange и Skype для бизнеса Server локально
 
 ``` Powershell
 New-Mailbox -Alias rigel1 -Name "Rigel 1" -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String "" -AsPlainText -Force)
