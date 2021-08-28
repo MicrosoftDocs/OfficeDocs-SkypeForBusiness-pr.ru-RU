@@ -8,19 +8,19 @@ audience: Admin
 ms.reviewer: aytange
 ms.service: msteams
 search.appverid: MET150
-localization_priority: Priority
+ms.localizationpriority: high
 description: Если у вас нет приложения Microsoft Teams и оно срочно вам требуется, разверните пробную версию Office 365 E1 для своих пользователей, которым нужно работать удаленно или из дома в связи со вспышкой эпидемии COVID-19 (коронавируса).
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e7e1b8eb064b273bbc41b823fba6dae40a83bedbc3085a156cd6770578cd3c53
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: 875693e23b5e13f48a031a21f0037f1576dbd1ce
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57849354"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58611698"
 ---
 # <a name="manage-the-office-365-e1-trial"></a>Управление пробной версией Office 365 E1
 

@@ -12,16 +12,16 @@ ms.custom:
 - ms.lync.plan.ExchagneUMSettings
 - ms.lync.plan.ExchagneUMSettings
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d4c4a5d9-1523-49ff-b994-882b037ed46f
 ROBOTS: NOINDEX, NOFOLLOW
 description: Skype для бизнеса Server 2015 г. поддерживает интеграцию с Exchange единой системы обмена сообщениями для объединения голосовых сообщений и обмена сообщениями в единую инфраструктуру обмена сообщениями.
-ms.openlocfilehash: 272c3d51085f9bac2491835bd44317e31784c4729393010f857d5f147fa6bd0c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 65f2aa77f653d4b5c91c4049d1d2a567d2e337c8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54311867"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58622771"
 ---
 # <a name="exchange-unified-messaging-settings-planning-tool-in-skype-for-business-2015"></a>Exchange Единое средство Параметры сообщений в Skype для бизнеса 2015 г.
 

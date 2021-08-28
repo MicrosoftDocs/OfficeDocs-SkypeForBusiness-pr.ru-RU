@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: ''
 description: Как настроить приложение "Рация" в Microsoft Teams с точки зрения ИТ-администратора.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -18,24 +18,24 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 042973f245341c0e4badd221075b81023474b6124f55eeb021bd61d32dcc4bfa
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 80aedfd0c1bb4f4a20ecdfcd977ce74d667cad43
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54342704"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58602074"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Приложение "Рация" в Microsoft Teams
 
 Приложение "Рация" в Teams обеспечивает для вашей команды оперативную связь путем "разговора нажатием" и теперь доступно на Android. С помощью рации пользователи в команде могут общаться друг с другом, используя те же каналы, в которых они участвуют. Только пользователи, которые подключились к рации в канале, становятся участниками разговора и могут говорить друг с другом по очереди.
 
-С помощью рации в Teams, сотрудники переднего телефона теперь могут безопасно общаться с помощью знакомых функций PTT без необходимости выполнять массовые радиосвязи, а рации работают где угодно с помощью Wi-Fi или сотового подключения к Интернету.
+С помощью рации в Teams, сотрудники переднего телефона теперь могут безопасно общаться с помощью знакомых функций PTT без необходимости использовать массовые радиосвязи, а рации работают где угодно с помощью Wi-Fi или сотового подключения к Интернету.
 
 ## <a name="getting-started"></a>Начало работы
 
 ### <a name="deploying-walkie-talkie"></a>Развертывание рации
 
-В настоящее время walkie Talkie доступен для устройств с Android с Google мобильные службы (GMS) и не предварительно установлен. Чтобы включить эту функцию для пользователей в вашей организации, добавьте приложение "Рация" в  [политику установки приложений](teams-app-setup-policies.md) , назначенную пользователям в [Центре администрирования Teams](https://admin.teams.microsoft.com/). После включения рация в течение 48 часов станет доступна в приложении для Android.
+В настоящее время walkie Talkie доступен для устройств Android с Google мобильные службы (GMS) и не предварительно установлен. Чтобы включить эту функцию для пользователей в вашей организации, добавьте приложение "Рация" в  [политику установки приложений](teams-app-setup-policies.md) , назначенную пользователям в [Центре администрирования Teams](https://admin.teams.microsoft.com/). После включения рация в течение 48 часов станет доступна в приложении для Android.
 
 ### <a name="adding-walkie-talkie-to-your-app-list"></a>Добавление рации в список приложений
 
@@ -80,7 +80,7 @@ ms.locfileid: "54342704"
     - [Klein Electronics](https://www.kleinelectronics.com/poc-accessories/mtwt/)
 - **Прочные телефоны**
   - Samsung [Galaxy XCover Pro](https://www.samsung.com/us/business/products/mobile/phones/galaxy-xcover-pro/), [Galaxy XCover 5](https://www.samsung.com/de/smartphones/others/galaxy-xcover-5-black-64gb-sm-g525fzkdeeb/buy), [Galaxy Tab Active 3](https://www.samsung.com/us/business/tablets/galaxy-tab-active/buy/)
-    -  Ручная настройка. Teams, перейдите к Параметры > дополнительным функциям > XCover/Active. Включив клавишу CONTROL XCover с приложением, и выберите "Teams"
+    -  Настройка вручную. Teams, перейдите к Параметры > дополнительных > XCover/Active. Включит клавишу CONTROL XCover с приложением и выберите "Teams"
     -  [Настройка MDM](https://docs.samsungknox.com/admin/knox-service-plugin/intune-teams.htm)
 
 > [!NOTE]
@@ -96,7 +96,7 @@ ms.locfileid: "54342704"
 ## <a name="further-information"></a>Дополнительные сведения
 
 - ИТ-администраторы могут контролировать использование рации с помощью политик приложений.
-- Если ваш фронтовик использует мобильные данные для связи с помощью Teams, то этот метод будет применяться и в talkie.
+- Если ваш фронтовик использует мобильные данные для связи Teams, будет использовать тот же метод.
 - Рация хорошо работает в ситуациях с малой пропускной способностью или в ситуациях, когда смартфон подключен и работает. Если подключения нет, рация не будет работать.
 
 Дополнительно о работе конечных пользователей можно прочитать в статьях

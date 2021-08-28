@@ -1,5 +1,5 @@
 ---
-title: Доступность в Неве
+title: Доступность в 100%2016
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -15,7 +15,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,14 +24,14 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Ниже ются Microsoft 365 и Office 365 службы для Skype для бизнеса и Microsoft Teams для нее.
-ms.openlocfilehash: a1c57233dd904d23e25bf24f53dda10b9488120ea4ad69417609b52b8dc4c20f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 84385fa01e70f4e59c11198b1163470e54f2bbcf
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54303642"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58610346"
 ---
-# <a name="availability-in-tunisia"></a>Доступность в Неве
+# <a name="availability-in-tunisia"></a>Доступность в 100%2016
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
@@ -68,7 +68,7 @@ ms.locfileid: "54303642"
 
 |**Функция**|**Сведения**|
 |:-----|:-----|
-|Для каких столиц или крупных городов можно получить платные номера?   | Не географическое положение. Номера телефонов не связаны с конкретным городом или местоположением. <br/> |
+|Для каких столиц или крупных городов можно получить платные номера?   | Не географическое. Номера телефонов не связаны с конкретным городом или местоположением. <br/> |
 |Доступны ли платные номера?  <br/> |Да  <br/> |
 |Доступны ли бесплатные номера?  <br/> |Нет  <br/> |
    

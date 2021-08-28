@@ -13,15 +13,15 @@ ms.custom:
 - ms.lync.plan.VoiceInfrastructure
 - ms.lync.plan.VoiceInfrastructure
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ab341060-3f2e-4a41-9be0-9ee8d29c35c5
 description: Skype для бизнеса Server 2015 г. обеспечивает надежную масштабируемую возможность подключения PSTN с помощью магистрали SIP, прямых SIP-подключений к шлюзу PSTN или прямых подключений SIP к PBX. Подробные сведения см. в материале Plan for PSTN connectivity in Skype для бизнеса Server 2015.
-ms.openlocfilehash: 2e3246c7cd67cc9e1533488e8134573aca823b54
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 0238c2d0b821276953fff304d258bcb96dba32f3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234974"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58622521"
 ---
 # <a name="skype-for-business-server-voice-infrastructure-planning-tool"></a>Skype для бизнеса Server Средство планирования голосовой инфраструктуры
  

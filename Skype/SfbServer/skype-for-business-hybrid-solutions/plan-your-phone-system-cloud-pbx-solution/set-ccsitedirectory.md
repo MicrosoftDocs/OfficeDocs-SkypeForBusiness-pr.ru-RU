@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b1cd89fd-6968-4ace-a4aa-c4105231cf7b
 description: Этот Set-CcSiteDirectory задает каталог, в котором будут храниться файлы конфигурации Skype для бизнеса Cloud Connector Edition уровней сайта. Папка будет содержать базовые файлы конфигурации VHD и облачного соединитела.
-ms.openlocfilehash: 9642c91e811e62b08f2b0e219b5eaa7b9ac7359fcdb6114c028735851280da59
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e5685ac8c203338365141a4a7ba59daa82a06ef0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54286248"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58610536"
 ---
 # <a name="set-ccsitedirectory"></a>Set-CcSiteDirectory
  
@@ -53,7 +53,7 @@ Set-CcSiteDirectory -Path "\\SiteShare\CloudConnector"
 
 |**Параметр**|**Required**|**Тип**|**Описание**|
 |:-----|:-----|:-----|:-----|
-| Path <br/> | Обязательный <br/> | System.String <br/> |Предоставляет путь к папке, в которой будут храниться файлы сайтов Cloud Connector.  <br/> |
+| Путь <br/> | Обязательный <br/> | System.String <br/> |Предоставляет путь к папке, в которой будут храниться файлы сайтов Cloud Connector.  <br/> |
    
 ## <a name="input-types"></a>Типы входных данных
 <a name="InputTypes"> </a>

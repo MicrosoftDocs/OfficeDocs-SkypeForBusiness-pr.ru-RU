@@ -10,7 +10,7 @@ ms.service: msteams
 ms.collection:
 - M365-collaboration
 - m365initiative-deployteams
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 description: В этой статье вы узнаете о требованиях к оборудованию, которые необходимы для установки и запуска Microsoft Teams.
 f1.keywords:
@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7de101954a9947fc5edeff43aff27d011e75dc387c25fa53f7190ce5a4a52256
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: bdb699ffba3c0d5e1af49477d597d8730c440ce1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54336169"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58602244"
 ---
 # <a name="hardware-requirements-for-microsoft-teams"></a>Требования к оборудованию для Microsoft Teams
 
@@ -55,7 +55,7 @@ ms.locfileid: "54336169"
 |Память     |   4,0 ГБ ОЗУ (для Teams требуется выделенная память ОЗУ 4 ГБ сверх любых других системных требований)     |
 |Жесткий диск    |   1,5 ГБ доступного дискового пространства      |
 |Отображение    | Разрешение 1280 x 800 или выше    |
-|Операционная система  |    Одна из трех последних версий macOS. Сведения о последних версиях macOS и об обновлении вашей версии macOS можно найти [здесь](https://support.apple.com/ru-RU/HT201260). Например, при выпуске новой версии macOS, новая версия и две предшествующие ей становятся поддерживаемыми версиями.      |
+|Операционная система  |    Одна из трех последних версий macOS. Сведения о последних версиях macOS и об обновлении вашей версии macOS можно найти [здесь](https://support.apple.com/en-us/HT201260). Например, при выпуске новой версии macOS, новая версия и две предшествующие ей становятся поддерживаемыми версиями.      |
 |Видео  |    Совместимая веб-камера     |
 |Голос    |  Совместимый микрофон и динамики, гарнитура с микрофоном или аналогичное устройство       |
 |Видеозвонки и встречи | <ul><li>Требуется 2-ядерный процессор. Для более высокого разрешения видео или демонстрации экрана и частоты кадров рекомендуется 4-ядерный процессор или более мощный. </li><li>Присоединение к собранию с помощью обнаружения близлежащих устройств в комнате Microsoft Teams недоступно на macOS.</li></ul>

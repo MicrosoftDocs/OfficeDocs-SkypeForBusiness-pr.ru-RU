@@ -1,5 +1,5 @@
 ---
-title: Доступность в Загонах
+title: Доступность в 100%2016
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -15,7 +15,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -23,25 +23,25 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже ются Microsoft 365 и Office 365 службы для Skype для бизнеса и Microsoft Teams для Нее.
-ms.openlocfilehash: a9e22fe4eba58922377bcc08ed1e8f762f93fea742693c4f4b4c3ac300d88b64
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Ниже ются Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Заметь.
+ms.openlocfilehash: 437250e1805515ada7dd1d668d47374456e72f24
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54336369"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58610376"
 ---
-# <a name="availability-in-guatemala"></a>Доступность в Загонах
+# <a name="availability-in-guatemala"></a>Доступность в 100%2016
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже ются Microsoft 365 и Office 365 службы для Skype для бизнеса и Microsoft Teams для Нее.
+Ниже ются Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Заметь.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 
 |**Функция**|**Сведения**|
 |:-----|:-----|
-|Доступно ли приобретение аудиоконференций?  <br/> |Да. Только оплата за минуту.  <br/> |
+|Доступно ли приобретение аудиоконференций?  <br/> |Да. Только с поминутной оплатой.  <br/> |
 |Номера телефонов автоматически назначаются для аудио конференций?  <br/> | Нет |
 |Возможность получить обратный звонок с функцией "Звонок на мой номер"  <br/> | Требуются кредиты связи <br/> |
 

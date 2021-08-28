@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.EdgeMachineSettingsExpander2010
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fb72a5b5-70f4-44af-8dfd-c5d32e563882
 description: 'Чтобы изменить свойства для компьютеров Edge Server в качестве одного edge Server или в качестве компьютеров-членов в пуле Edge, необходимо настроить параметры конфигурации имени и IP-адресов Сервера:'
-ms.openlocfilehash: 6a66c84be19636410259eac953b099942dc3c1a41b6d3f75faf926d469795e5e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 81fb33a2217431cd908156dab95e36cca0675f23
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54333641"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58604948"
 ---
 # <a name="edge-machine-settings-expander-for-lync-server-2010"></a>Расширитель параметров пограничного сервера для Lync Server 2010
  

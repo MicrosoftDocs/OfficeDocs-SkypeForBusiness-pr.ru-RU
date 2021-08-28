@@ -14,18 +14,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
 description: В этой таблице вы найдете сведения о получении номеров телефонов для бельгийского Microsoft Teams и управлении Microsoft Teams.
-ms.openlocfilehash: a11e33d8cccb955e59d6784a845e43952ce0fd95
-ms.sourcegitcommit: 7251b92c9913ca1e43b3cc24fad73e8997303731
+ms.openlocfilehash: 0d359f20e56b626657201b6b3640a1fdc59fdea9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58348521"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58602234"
 ---
 # <a name="phone-number-management-for-belgium"></a>Управление номерами телефонов в Бельгии
 

@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fc36185a-3cc5-4167-8c93-8a755fa75ac7
 description: Сводка. Сведения о подпорте сводки P2P в Skype для бизнеса Server.
-ms.openlocfilehash: 07d354ba14c8503571459081aaaf3445ec540fdb9a5caecc4b40576f6662f038
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8304399106e17654ad350bc0a2e5eff1ecc90ace
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54345556"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58622331"
 ---
 # <a name="p2p-summary-subreport-in-skype-for-business-server"></a>Сводный подпорт P2P в Skype для бизнеса Server
  
@@ -43,7 +43,7 @@ ms.locfileid: "54345556"
   
 **Метрики вложенного сводного отчета по одноранговым подключениям**
 
-|**Название**|**Возможность сортировки по этому показателю**|**Description**|
+|**Название**|**Возможность сортировки по этому показателю**|**Описание**|
 |:-----|:-----|:-----|
 |**Всего сеансов** <br/> |Нет  <br/> |Общее число сеансов, включая успешные и завершившиеся сбоем (как ожидаемые, так и непредвиденные сбои) и сеансы без категорий.  <br/> |
 |**Процент сбоев** <br/> |Нет  <br/> |Доля одноранговых сеансов, завершившихся сбоем.  <br/> |
