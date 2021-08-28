@@ -9,16 +9,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 37b2bb9c-c5d4-4fb0-a976-670b7594b82f
 description: Сводка. Ознакомьтесь с этой темой, чтобы узнать, как развернуть диспетчер статистики для Skype для бизнеса Server.
-ms.openlocfilehash: e5ace82602ef6443331470a3fd3deda69e3fc797f0446749780436b14b4a7b82
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 966d6aa71eff93f616ae0eb1a7443aebab600016
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54333261"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58612098"
 ---
 # <a name="deploy-statistics-manager-for-skype-for-business-server"></a>Развертывание диспетчера статистики в Skype для бизнеса Server
  
@@ -185,18 +185,18 @@ msiexec /l install.log /i StatsManPerfAgent.msi SERVICE_THUMBPRINT=<thumbprint> 
   
 1. На хосте с Skype для бизнеса Server PowerShell:
     
-    А. Запустите следующую команду: 
+    а. Выполните следующую команду: 
     
    ```PowerShell
    Get-CsPool | Export-Clixml -Path mypoolinfo.xml
    ```
-    Б. Скопируйте файл "mypoolinfo.xml" на сервер, на который выполняется прослушиватель.
+    б. Скопируйте файл "mypoolinfo.xml" на сервер, на который выполняется прослушиватель.
     
 2. На хосте, который запускает прослушиватель:
     
-   А. Запустите PowerShell.
+   а. Запустите PowerShell.
     
-   Б. Перейдите к каталогу, в котором установлен прослушиватель. По умолчанию: 
+   б. Перейдите к каталогу, в котором установлен прослушиватель. По умолчанию: 
     
    ```console
    cd C:\Program Files\Skype for Business Server StatsMan Listener
@@ -228,7 +228,7 @@ Get-Help .\Update-StatsManServerInfo.ps1 -Detailed
    cd C:\Program Files\Skype for Business Server StatsMan Listener
    ```
 
-2. Запустите следующую команду:
+2. Выполните следующую команду:
     
    ```powershell
     .\Update-StatsManServerInfo.ps1 -HostName <hostname> -SiteName <name of site> -PoolName <poolName> -Roles <role1>[,<role2>,<roleN>]

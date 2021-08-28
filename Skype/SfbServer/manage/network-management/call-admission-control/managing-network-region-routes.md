@@ -9,14 +9,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Маршрут между областями сети определяет путь между парой сетевых областей. Для каждой пары сетевых областей в развертывании контроля допуска звонков необходим маршрут между областями сети.
-ms.openlocfilehash: da9145f44765009659bbf648bc082e06d806ab60
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 962fba52ab3c937a7479c690c43f0bc5cfe9756d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58233644"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58612158"
 ---
 # <a name="managing-network-region-routes-in-skype-for-business-server"></a>Управление маршрутами областей сети в Skype для бизнеса Server
 

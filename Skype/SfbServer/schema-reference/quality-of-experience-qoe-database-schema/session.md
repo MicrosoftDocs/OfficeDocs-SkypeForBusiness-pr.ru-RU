@@ -10,21 +10,21 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7f05529c-794d-41ed-bca4-2e85b87b2dec
 description: Каждая запись представляет один сеанс, который включает аудио- или аудио- и видео. Он содержит общую информацию о сеансе. Сеанс определяется как диалоговое окно протокола инициации сеанса аудио или видео(SIP) между двумя конечными точками.
-ms.openlocfilehash: 749f151def046abdb5169b39ccbd81ea5f07f5d4ee3d1c971ac112a2d4b90cce
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: bc88a924d16e8e2193b0cce5c487004ab66f47a7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54340035"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58611848"
 ---
 # <a name="session-table"></a>Таблица сеансов
  
 Каждая запись представляет один сеанс, который включает аудио- или аудио- и видео. Он содержит общую информацию о сеансе. Сеанс определяется как диалоговое окно протокола инициации сеанса аудио или видео(SIP) между двумя конечными точками.
   
-|**Column**|**Тип данных**|**Key/Index**|**Сведения**|
+|**Столбец**|**Тип данных**|**Key/Index**|**Details**|
 |:-----|:-----|:-----|:-----|
 |**ConferenceDateTime** <br/> |datetime  <br/> |Primary  <br/> |Ссылки из [таблицы Диалог](dialog.md).  <br/> |
 |**SessionSeq** <br/> |int  <br/> |Primary  <br/> |Ссылки из [таблицы Диалог](dialog.md).  <br/> |

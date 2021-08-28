@@ -16,20 +16,20 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: Узнайте о наборе бесплатных номеров в Ирландии, включая доступность, доступность проводной и фиксированной телефонной связи, а также ограничения для мобильной сети.
-ms.openlocfilehash: 7279312cf231a18d67d3719fbcf2bf1b23daa939ac96d3922e0b9b5337fe7eff
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Узнайте о наборе бесплатных номеров в Ирландии, в том числе о доступности, доступности проводных и фиксированных номеров, а также об ограничениях для мобильной сети.
+ms.openlocfilehash: f5164a2479e751e0ba079bc4a2c0a938e1224929
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54319692"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627011"
 ---
 # <a name="toll-free-dialing-restrictions-in-ireland"></a>Ограничения набора бесплатных номеров в Ирландии
 

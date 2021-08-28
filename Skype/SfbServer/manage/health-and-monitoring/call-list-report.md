@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a2d3e08b-511b-4507-abba-8ff71aa27c8e
 description: Сводка. Сведения о приложении Группы ответов в Skype для бизнеса Server.
-ms.openlocfilehash: 0761e58027260a4528f7764858ba54d00b4a9c146f32945222a4ed6763912b0e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8d801b15dbcd9c040f2f1bb3d5e3dfb7fa5d198f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54345696"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58612198"
 ---
 # <a name="response-group-call-list-report-in-skype-for-business-server"></a>Отчет о списке вызовов группы ответов в Skype для бизнеса Server
 
@@ -106,7 +106,7 @@ Count    Name
 
 **Показатели отчета Response Group Call List (Список звонков группы ответа)**
 
-|**Название**|**Возможность сортировки по этому показателю**|**Description**|
+|**Название**|**Возможность сортировки по этому показателю**|**Описание**|
 |:-----|:-----|:-----|
 |**Caller** <br/> |Нет  <br/> |SIP-адрес вызывающего.  <br/> |
 |**Рабочий процесс** <br/> |Нет  <br/> |SIP-адрес рабочего процесса "Группа ответа".  <br/> |

@@ -1,5 +1,5 @@
 ---
-title: Настройка телефонного подтверждения для пользователей на собрании в Microsoft Teams
+title: Настройка телефонного подтверждения для пользователей собрания в Microsoft Teams
 author: cichur
 ms.author: v-cichur
 ms.reviewer: oscarr
@@ -8,19 +8,19 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 search.appverid: MET150
-description: Узнайте, как настроить Teams, чтобы запросить подтверждение звонка, чтобы системы голосовой почты не могли подключаться к собраниям, если вызываемая связь не может ответить на звонок.
-localization_priority: Normal
+description: Узнайте, как настроить Teams, чтобы запросить подтверждение звонка, чтобы системы голосовой почты не могли подключаться к собраниям, когда вызываемая связь не может ответить на звонок.
+ms.localizationpriority: medium
 ms.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8f72641742101a84c572335f2416599fccb6c809bdece75eb75c4db6ff95067c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 588557288412dba60869649d7a6d0d1dd15dab91
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54299079"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627511"
 ---
-# <a name="set-up-meeting-dial-out-confirmation-for-your-users-in-microsoft-teams"></a>Настройка подтверждения телефонного и телефонного набора для пользователей в Microsoft Teams
+# <a name="set-up-meeting-dial-out-confirmation-for-your-users-in-microsoft-teams"></a>Настройка подтверждения телефонного набора для пользователей в Microsoft Teams
 
 Звонки на собрание и звонки на мой номер — очень полезные способы пригласить участников присоединиться к собранию, а существующим — присоединиться к собранию с помощью обычного или мобильного телефона. Однако если вызываемая связь не может ответить на звонок и на звонок отвечает система голосовой почты, система голосовой почты подключена к собранию, и участники смогут слушать ее, пока она не будет удалена из собрания.
 

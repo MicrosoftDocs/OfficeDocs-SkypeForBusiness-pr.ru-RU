@@ -14,7 +14,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
@@ -22,25 +22,25 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: Узнайте о доступных лицензиях для различных типов функций звонков и собраний в Комнаты Microsoft Teams.
-ms.openlocfilehash: ff6c36d0ded93ffa2231b6fd54a32658ce477d143c2fab4812446c4b88d50cd0
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e1d545b6ea48e7ec9e94a1e5f0c5ba8cd1e41198
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54328974"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627161"
 ---
 # <a name="teams-meeting-room-licensing-update"></a>Teams Конференц-зал лицензирования
 
 ## <a name="licensing-solutions-for-shared-communication-devices"></a>Решения лицензирования общих коммуникационных устройств
 
-У корпорации Майкрософт есть два специальных номера номеров специальных номеров для лицензирования собраний и звонков на разных устройствах для устройств с комнатами собраний (например, Комнаты Microsoft Teams, Microsoft Surface Hub и полос совместной работы для Microsoft Teams).
+У Корпорации Майкрософт есть два специальных номера номеров sk для лицензирования собраний и звонков на разных устройствах для устройств с комнатами собраний (таких как Комнаты Microsoft Teams, Microsoft Surface Hub и Microsoft Teams).
 
 |&nbsp;|Комнаты Microsoft Teams Стандартный |Комнаты Microsoft Teams Premium |
 |:--- |:---: |:---: |
 |Skype для бизнеса |&#x2714;| &#x2714;|
 |Microsoft Teams|  &#x2714;|  &#x2714;|
 |Телефонная система|  &#x2714;|  &#x2714;|
-|Аудиоконференции|&#x2714; &sup1;|&#x2714; &sup1;|
+|Аудиоконференция|&#x2714; &sup1;|&#x2714; &sup1;|
 |Microsoft Intune|&#x2714;|&#x2714;|  
 |Доступность по всему миру | &#x2714; &sup2;| &#x2714; &sup2;|
 |Доступность канала | EA, EAS, CSP, <br/>Web Direct | EA, EAS, CSP, <br/>Web Direct |
@@ -54,12 +54,12 @@ ms.locfileid: "54328974"
 &sup3; Дополнительные сведения и сведения о доступности см. в Комнаты Microsoft Teams [управляемой службе.](microsoft-teams-rooms-premium.md)
 
 > [!NOTE]
-> Если вы используете планы E1, E3, E4, E5 с Skype для бизнеса плана 2 с аудиоконференцией или с планом Телефонная система Office 365 и планом звонков, эти функции будут продолжать работать. Однако по истечении срока действия текущих лицензий следует двигаться на более простую модель лицензирования в таблице выше.
+> Если вы используете планы E1, E3, E4, E5 со Skype для бизнеса плана 2 с аудиоконференцией или с планом Телефонная система Office 365 и планом звонков, эти функции будут продолжать работать. Однако по истечении срока действия текущих лицензий следует двигаться на более простую модель лицензирования в таблице выше.
 
 > [!IMPORTANT]
-> Если вы используете Skype для бизнеса 2, вы можете использовать Комнаты Microsoft Teams только в режиме Skype для бизнеса, то есть все собрания будут Skype для бизнеса собраниями. Чтобы включить в комнате для Microsoft Teams собрания, рекомендуем приобрести лицензию Конференц-зал собрания. 
+> Если вы используете Skype для бизнеса 2, вы можете использовать Комнаты Microsoft Teams только в режиме Skype для бизнеса, то есть все собрания будут Skype для бизнеса собраниями. Чтобы включить в комнате собрания Microsoft Teams собрания, рекомендуем приобрести лицензию Конференц-зал собрания. 
 
-В таблице ниже перечислены функции, доступные в Комнаты Microsoft Teams и какие лицензии необходимо приобрести для их получения.
+В следующей таблице перечислены функции, доступные в Комнаты Microsoft Teams и какие лицензии необходимо приобрести для их получения.
   
 > [!NOTE]
 > Настраиваемая комната должна быть объектом пользователя и иметь следующие назначенные лицензии.
@@ -79,4 +79,4 @@ ms.locfileid: "54328974"
 
  **Используйте правильные версии** Windows 10 : для клиентов, которые хотят развернуть Windows 10 изображений на своих устройствах, см. Комнаты Microsoft Teams [консоли](./console.md). Вы можете получить копию из [Volume Licensing Service Center.](https://www.microsoft.com/Licensing/servicecenter/) 
  
- См. также Отличные возможности комнаты для [собраний. Познакомьтесь](https://www.microsoft.com/microsoft-365/blog/2020/07/21/microsoft-teams-meetings-hybrid-workplace-options/)с новыми стандартными Комнаты Microsoft Teams и Premium .
+ См. [также Отличные возможности комнаты](https://www.microsoft.com/microsoft-365/blog/2020/07/21/microsoft-teams-meetings-hybrid-workplace-options/)для собраний. Познакомьтесь с новыми стандартными Комнаты Microsoft Teams и Premium.

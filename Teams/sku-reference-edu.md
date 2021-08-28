@@ -12,16 +12,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Здесь перечислены планы лицензирования для преподавателей и учащихся, а также SKU-ИД.
 f1keywords: ''
-ms.openlocfilehash: 38bfcfc39179253a30b45f2ce2c52be1b605a4b65832a5565521209c308a6205
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b0fd67dd27a497712e48cb0664712963a61d678c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54297775"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627087"
 ---
 # <a name="education-sku-reference"></a>Справка по SKU для образования
 
@@ -36,12 +36,12 @@ ms.locfileid: "54297775"
 |Office 365 для образования для преподавателей       |STANDARDWOFFPACK_IW_FACULTY     |78e66a63-337a-4a9a-8959-41c6654dfb56         |
 |Office 365 для образования E5 для преподавателей    |ENTERPRISEPREMIUM_FACULTY       |a4585165-0533-458a-97e3-c400570268c4         |
 |Office 365 для образования E5 без конференц-связи по ТСОП (преподавательский)      |ENTERPRISEPREMIUM_NOPSTNCONF_FACULTY         |9a320620-ca3d-4705-a79d-27c135c96e05         |
-|Office 365 для образования E1 для преподавателей     |STANDARDPACK_FACULTY         |a19037fc-48b4-4d57-b079-ce44b7832473         |
+|Office 365 для образования E1 (преподавательский)     |STANDARDPACK_FACULTY         |a19037fc-48b4-4d57-b079-ce44b7832473         |
 |Office 365 для образования E3 (преподавательский)     |ENTERPRISEPACK_EDULRG         |f5a9147f-b4f8-4924-a9f0-8fadaac4982f         |
 |Office 365 для образования E4 (преподавательский)      |ENTERPRISEWITHSCAL_FACULTY         |16732e85-c0e3-438e-a82f-71f39cbe2acb         |
 |Microsoft 365 для образования A3 для преподавателей      |M365EDU_A3_FACULTY         |4b590615-0888-425a-a965-b3bf7789848d         |
 |Microsoft 365 для образования A5 для преподавателей       |M365EDU_A5_FACULTY         |e97c048c-37a4-45fb-ab50-922fbf07a370         |
-|Microsoft 365 A5 без аудиоконференций для преподавателей     |M365EDU_A5_NOPSTNCONF_FACULTY         |e578b273-6db4-4691-bba0-8d691f4da603         |
+|Microsoft 365 A5 без аудиоконференции для преподавателей     |M365EDU_A5_NOPSTNCONF_FACULTY         |e578b273-6db4-4691-bba0-8d691f4da603         |
 |Office 365 для образования Для домашняя школа (преподавательский)     |STANDARDWOFFPACK_HOMESCHOOL_FAC         |43e691ad-1491-4e8c-8dc9-da6b8262c03b         |
 |Office 365 A1 для преподавателей (для устройств)     |STANDARDWOFFPACK_FACULTY_DEVICE         |af4e28de-6b52-4fd3-a5f4-6bf708a304d3         |
 
@@ -62,11 +62,11 @@ ms.locfileid: "54297775"
 |Microsoft 365 A5 без аудиоконференций для учащихся      |M365EDU_A5_NOPSTNCONF_STUDENT         |a25c01ce-bab1-47e9-a6d0-ebe939b99ff9         |
 |Microsoft 365 A5 без аудиоконференций для учащихся используйте преимущество    |M365EDU_A5_NOPSTNCONF_STUUSEBNFT         |81441ae1-0b31-4185-a6c0-32b6b84d419f         |
 |Office 365 A3 для учащихся     |ENTERPRISEPACKPLUS_STUDENT         |98b6e773-24d4-4c0d-a968-6e787a1f8204         |
-|Office 365 A3 Преимущество использования учащихся     |ENTERPRISEPACKPLUS_STUUSEBNFT         |476aad1e-7a7f-473c-9d20-35665a5cbd4f         |
-|Office 365 A5 Преимущество использования учащихся    |ENTERPRISEPREMIUM_STUUSEBNFT         |f6e603f1-1a6d-4d32-a730-34b809cb9731         |
+|Office 365 A3 Использование преимущества для учащихся     |ENTERPRISEPACKPLUS_STUUSEBNFT         |476aad1e-7a7f-473c-9d20-35665a5cbd4f         |
+|Office 365 A5 Использование преимущества для учащихся    |ENTERPRISEPREMIUM_STUUSEBNFT         |f6e603f1-1a6d-4d32-a730-34b809cb9731         |
 |Office 365 A5 без аудиоконференций для учащихся используйте преимущество  |ENTERPRISEPREMIUM_NOPSTNCONF_STUUSEBNFT         |bc86c9cd-3058-43ba-9972-141678675ac1         |
 |Office 365 для образования Homeschool для учащихся     |STANDARDWOFFPACK_HOMESCHOOL_STU         |afbb89a7-db5f-45fb-8af0-1bc5c5015709         |
-|Office 365 A1 для учащихся (для устройства)     |STANDARDWOFFPACK_STUDENT_DEVICE         |160d609e-ab08-4fce-bc1c-ea13321942ac         |
+|Office 365 A1 для учащихся (для устройств)     |STANDARDWOFFPACK_STUDENT_DEVICE         |160d609e-ab08-4fce-bc1c-ea13321942ac         |
 |Office 365 A1 Плюс для учащихся     |STANDARDWOFFPACK_IW_STUDENT         |e82ae690-a2d5-4d76-8d30-7c6e01e6022e         |
 
 ## <a name="related-topics"></a>Статьи по теме

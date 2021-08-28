@@ -13,7 +13,7 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -24,12 +24,12 @@ ms.custom:
 - O365M_SkypeforBusinessON
 - O365P_SkypeforBusinessON
 description: 'Узнайте, как настроить домен, пользователей, обмен мгновенными сообщениями и сетевой статус вашей организации, чтобы установить Skype для бизнеса. Кроме того, вы можете узнать о настройке аудиоконференций, телефонной системы, планов звонков и трансляции собраний Skype. '
-ms.openlocfilehash: 9d8c68468cbceb1e7ab7e2c5d3a9a268b382fa13ec42d78d03269dc9764fb770
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d712fd0bf02e770c15f1c6dcf61789dcf0fd27e9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54340295"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58613258"
 ---
 # <a name="set-up-skype-for-business-online"></a>Настройка Skype для бизнеса Online
 
@@ -43,7 +43,7 @@ ms.locfileid: "54340295"
 
 ## <a name="1-plan-for-skype-for-business"></a>1. План для Skype для бизнеса
 
-Если у вас **[Microsoft 365 бизнес премиум стандартный](https://products.office.com/business/office-365-business-premium)** или бизнес **основных,** вы можете использовать Skype для бизнеса для звонков через Интернет другим людям в вашей компании, которые находятся в вашей подписке. Например, если ваша компания насчитывает 10 человек, вы можете [начать использовать Skype для бизнеса для обмена мгновенными сообщениями и проведения онлайн-собраний](https://support.office.com/article/cc05afa6-1894-4a82-9dd9-6222061f50fd), а также [собраний в Skype для бизнеса](https://support.office.com/article/2eed8424-581a-4497-b505-c08c152e5851), выполнив действия 2-6, описанные ниже. Кроме того, вы можете [настроить собрание Skype для бизнеса в Outlook](https://support.office.com/article/b8305620-d16e-4667-989d-4a977aad6556#bkmk_OWA), чтобы проводить онлайн-собрания.
+Если у вас **[Microsoft 365 бизнес премиум стандартный](https://products.office.com/business/office-365-business-premium)** или бизнес основные **,** вы можете использовать Skype для бизнеса для звонков через Интернет другим людям в вашей компании, которые находятся в вашей подписке. Например, если ваша компания насчитывает 10 человек, вы можете [начать использовать Skype для бизнеса для обмена мгновенными сообщениями и проведения онлайн-собраний](https://support.office.com/article/cc05afa6-1894-4a82-9dd9-6222061f50fd), а также [собраний в Skype для бизнеса](https://support.office.com/article/2eed8424-581a-4497-b505-c08c152e5851), выполнив действия 2-6, описанные ниже. Кроме того, вы можете [настроить собрание Skype для бизнеса в Outlook](https://support.office.com/article/b8305620-d16e-4667-989d-4a977aad6556#bkmk_OWA), чтобы проводить онлайн-собрания.
 
 Если вы хотите совершать и принимать **звонки** от пользователей, *не являющихся сотрудниками* вашей компании, с помощью Skype для бизнеса:
 
@@ -58,9 +58,9 @@ ms.locfileid: "54340295"
 
 Skype для бизнеса Online входит в набор служб Office 365. Чтобы настроить Skype для бизнеса Online, необходимо войти в Office 365. Ниже описано, как это сделать.
 
-1. Найдите Microsoft 365 или Office 365 пользователя (например, <em>rob@fourthcoffee.com).</em> Вы получили сообщение электронной почты от команды Microsoft Online Services Team с Microsoft 365 или Office 365 ИД пользователя, созданного при покупке Skype для бизнеса Online. Это сообщение выглядит примерно так:
+1. Найдите Microsoft 365 или Office 365 <em>(например,</em> rob@fourthcoffee.com). Вы получили сообщение электронной почты от команды Microsoft Online Services Team, которое содержит Microsoft 365 или Office 365 пользователя, который вы создали при покупке Skype для бизнеса Online. Это сообщение выглядит примерно так:
 
-    ![Пример приветственного сообщения, которое вы получили после регистрации для работы в Skype для бизнеса Online. Она содержит ваш Microsoft 365 или Office 365 пользователя.](../images/977c5c96-29c5-40c0-a4c4-1ba66ba3a1fb.png)
+    ![Пример приветственного сообщения, которое вы получили после регистрации для работы в Skype для бизнеса Online. Он содержит ваш Microsoft 365 или Office 365 пользователя.](../images/977c5c96-29c5-40c0-a4c4-1ba66ba3a1fb.png)
 
 2. Войдите в Центр [администрирования](https://admin.microsoft.com) и введите свой Microsoft 365 или Office 365 ИД пользователя и пароль. 
 
@@ -105,7 +105,7 @@ Skype для бизнеса Online входит в набор служб Office 
 
 Чтобы использовать Skype для бизнеса на ПК, компьютере Mac или мобильном устройстве, вам и другим пользователям в вашей организации нужно сначала скачать и установить Skype для бизнеса на своих устройствах.
 
-- [Установка Skype для бизнеса:](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb)инструкции по скачии приложения с Центр администрирования Microsoft 365 и его установке на компьютере с Mac ИЛИ ПК.
+- [Установка Skype для бизнеса:](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb)инструкции о том, как скачать приложение с Центр администрирования Microsoft 365 и установить его на компьютере с Mac ИЛИ MAC.
 
 - [Развертывание клиента Skype для бизнеса в Office 365](deploy-the-skype-for-business-client-in-office-365.md). Инструкции по развертыванию приложения в крупных организациях.
 

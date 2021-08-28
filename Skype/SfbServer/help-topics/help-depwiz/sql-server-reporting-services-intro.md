@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.dep.DeploySSRSIntro
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f3cda686-6301-419c-af68-b49cc785e5fc
 description: С каждым пулом переднего плана и комплексом для обеспечения связи в филиалах может быть связан только один сервер мониторинга. Если мониторинг включен для сайта, сервер мониторинга обеспечивает сбор данных и создание отчетов для регистрации вызовов (CDR) и качества взаимодействия (QoE).
-ms.openlocfilehash: a505893773815a54996c9adfc797911213d73dd88aaf61550b1d325341151967
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 20a8ef5056d75563f4c78e0c9c0ebabf66c73d05
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54338457"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58614493"
 ---
 # <a name="sql-server-reporting-services-intro"></a>Службы SQL Server Reporting Services (введение)
  

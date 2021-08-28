@@ -9,18 +9,18 @@ ms.topic: quickstart
 ms.service: msteams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: В этой статье рассмотрено развертывание управления Комнаты Microsoft Teams устройствами с помощью встроенного и комплексного развертывания с помощью Azure Monitor.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 84251e329645c6722125f21b4fe3cd146a1e3701
-ms.sourcegitcommit: 81f1a113a33c7ea8d2256144544d0e34cd64d576
+ms.openlocfilehash: 77b1e18e9f30e13cc209040ab876324afa232766
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58505407"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58613028"
 ---
 # <a name="deploy-no-loc-textmicrosoft-teams-rooms-management-with-no-loc-textazure-monitor"></a>Управление :::no-loc text="Microsoft Teams Rooms"::: развертыванием с помощью :::no-loc text="Azure Monitor":::
 
@@ -105,7 +105,7 @@ ms.locfileid: "58505407"
     3.  Использование запроса для списка событий ошибок приложения: `Event | where Source == "SRS-App" and EventID == 2001 and EventLevel == 1`
 
 > [!IMPORTANT]
-> Эти журналы событий необходимы для настройки настраиваемых полей. Не переходите к следующему шагу, пока не соберете необходимые журналы событий.
+> Эти журналы событий необходимы для настройки настраиваемых полей. Не переходите к следующему шагу, пока не соберет необходимые журналы событий.
 
 ## <a name="map-custom-fields"></a>Сопоставление настраиваемых полей
 <a name="Custom_fields"> </a>
@@ -183,8 +183,8 @@ ms.locfileid: "58505407"
 
 ### <a name="create-a-tile-that-displays-active-devices"></a>Создание плитки с активными устройствами
 
-1.  Выберите **Просмотреть панель мониторинга,** чтобы начать добавлять плитки.
-2.  Выбор **списка & номера** из коллекции
+1.  Выберите **Просмотреть панель мониторинга,** чтобы приступить к добавлению плиток.
+2.  Выберите **в & числовом списке** из коллекции
 3.  Определите **общие** свойства:<br>
     **Название группы:** Состояние heartbeat<br>
     **Новая группа:** Выбранного
@@ -216,7 +216,7 @@ ms.locfileid: "58505407"
     **Значение:** Last Heartbeat
 6.  Определение **запроса навигации:**<br>
     ```search {selected item} | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize arg_max(TimeGenerated, *) by Computer | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSEventDescription_CF```
-7.  Выберите **Применить,** а затем **Закрыть**.
+7.  Выберите **Применить**, а затем **Закрыть**.
 
 ### <a name="create-a-tile-that-displays-devices-that-have-a-hardware-error"></a>Создание плитки для устройств с ошибкой оборудования
 
@@ -234,11 +234,11 @@ ms.locfileid: "58505407"
     **Значение:** Последняя ошибка
 6.  Определение **запроса навигации:**<br>
     ```search {selected item} | where EventLog == "Skype Room System" and EventID == 3001 and EventLevelName == "Error" | summarize arg_max(TimeGenerated, *) by Computer | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSConfMicrophoneStatus_CF, SRSConfSpeakerStatus_CF, SRSDefaultSpeakerStatus_CF, SRSCameraStatus_CF, SRSFORDStatus_CF, SRSMotionSensorStatus_CF, SRSHDMIIngestStatus_CF, SRSEventDescription_CF | sort by TimeGenerated desc```
-7.  Выберите **Применить,** а затем **Закрыть**.
+7.  Выберите **Применить**, а затем **Закрыть**.
 
-### <a name="create-a-tile-that-displays-no-loc-textmicrosoft-teams-rooms-operating-system-versions"></a>Создание плитки для отображения :::no-loc text="Microsoft Teams Rooms"::: версий операционной системы
+### <a name="create-a-tile-that-displays-no-loc-textmicrosoft-teams-rooms-operating-system-versions"></a>Создание плитки с версиями :::no-loc text="Microsoft Teams Rooms"::: операционной системы
 
-1.  Выберите **& в коллекции,** а затем добавьте новую плитку.
+1.  Выберите **Не & список** из коллекции, а затем добавьте новую плитку.
 2.  Определите **общие** свойства:<br>
     **Название группы:** Сведения об операционной системе<br>
     **Новая группа:** Выбранного
@@ -262,7 +262,7 @@ ms.locfileid: "58505407"
 
 ### <a name="create-a-tile-that-displays-no-loc-textmicrosoft-teams-rooms-application-versions"></a>Создание плитки с :::no-loc text="Microsoft Teams Rooms"::: версиями приложений
 
-1.  Выберите **& в коллекции,** а затем добавьте новую плитку.
+1.  Выберите **Не & список** из коллекции, а затем добавьте новую плитку.
 2.  Определите **общие** свойства:<br>
     **Название группы:** :::no-loc text="Microsoft Teams Rooms"::: сведения о приложении<br>
     **Новая группа:** Выбранного
@@ -328,7 +328,7 @@ ms.locfileid: "58505407"
 
 :::no-loc text="Azure Monitor"::: может оповещать администраторов о проблеме с :::no-loc text="Microsoft Teams Rooms"::: консолью.
 
-:::no-loc text="Azure Monitor"::: Включает встроенный механизм оповещения, который выполняется через запланированные поиски журналов через определенные интервалы времени. Если результаты поиска по журналу соответствуют определенным условиям, создается запись оповещения.
+:::no-loc text="Azure Monitor"::: Включает встроенный механизм оповещения, который регулярно выполняется через запланированные поиски в журнале. Если результаты поиска по журналу соответствуют определенным условиям, создается запись оповещения.
 
 После этого правило может автоматически выполнить одно или несколько действий, чтобы заблаговременно уведомить вас об оповещении или вызвать другой процесс. Возможные варианты оповещений:
 -   Отправка сообщения электронной почты
@@ -372,7 +372,7 @@ ms.locfileid: "58505407"
     2.  В поле Имя  группы действий и Поля "Короткое *имя" укажив подходящие* имена.
     3.  Укажите уникальное имя *действия, выберите* Электронная почта, **SMS/Push/Голосовая** почта , а затем нажмите **Изменить сведения**.
     4.  Выберите **почтовый ящик** и укайте адрес электронной почты человека или группы, которые будут получать оповещения.
-    5.  Вы также можете увести свой номер телефона, чтобы получать уведомления с помощью SMS, голосового звонка или обоих этих сообщений.
+    5.  Вы также можете увести свой номер телефона, чтобы получать уведомления с помощью SMS, голосового звонка или того и другого.
     6. Выберите **ОК**.
 
 8. **Настройте действия,** если вам нравится переопределять тему сообщений электронной почты.
@@ -408,7 +408,7 @@ ms.locfileid: "58505407"
 
 Хотя вы можете установить и настроить агент вручную на каждом устройстве, настоятельно рекомендуем использовать существующие средства :::no-loc text="Microsoft Monitoring"::: развертывания программного обеспечения и методы.
 
-Если вы создаете устройства в первый раз, вам может потребоваться включить действия по настройке и настройке агента в процессе :::no-loc text="Microsoft Teams Rooms"::: :::no-loc text="Microsoft Monitoring"::: сборки. Дополнительные сведения см. в [установке агента с помощью командной строки.](/azure/azure-monitor/platform/agent-windows#install-the-agent-using-the-command-line)
+Если вы создаете устройства в первый раз, вам может потребоваться включить действия по настройке и настройке агента в процессе :::no-loc text="Microsoft Teams Rooms"::: :::no-loc text="Microsoft Monitoring"::: сборки. Дополнительные сведения см. [в установке агента с помощью командной строки.](/azure/azure-monitor/platform/agent-windows#install-the-agent-using-the-command-line)
 
 ### <a name="deploying-no-loc-textmicrosoft-monitoring-agent-by-using-a-group-policy-object-gpo"></a>Развертывание :::no-loc text="Microsoft Monitoring"::: агента с помощью объекта групповой политики
 
@@ -433,7 +433,7 @@ ms.locfileid: "58505407"
     2.  Измените параметры WorkspaceId, WorkspaceKey и SetupPath в соответствие с конфигурацией.
     3.  Изменение того же объекта групповой политики и переход к политике конфигурации компьютера \\ \\ :::no-loc text="Windows"::: Параметры \\ сценариев (запуск и завершение работы)
     4.  Дважды щелкните, чтобы **выбрать Запуск**, а затем выберите **Сценарии PowerShell**.
-    5.  Выберите **показать файлы** и скопируйтеInstall-MMAgent.ps1в эту папку. 
+    5.  Выберите **Показать файлы** и скопируйтеInstall-MMAgent.ps1в эту папку. 
     6.  Выберите **Добавить**, а затем **Обзор**.
     7.  Выберите сценарий ps1, который вы только что скопировали.
 

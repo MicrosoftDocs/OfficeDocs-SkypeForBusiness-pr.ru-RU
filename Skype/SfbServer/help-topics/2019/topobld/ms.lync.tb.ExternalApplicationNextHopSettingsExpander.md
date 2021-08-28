@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.ExternalApplicationNextHopSettingsExpander
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: be7857e4-9a75-4de5-91b0-bcb241930a0c
 ROBOTS: NOINDEX, NOFOLLOW
 description: Следующий хоп-сервер пула доверенных приложений можно указать, выбрав определенный пул выпуск Enterprise или выпуск Standard переднего end Server из выпадаемого списка. Директор или пул директоров нельзя выбрать для следующего перехода доверенного пула серверов приложений, поэтому они отсутствуют в списке. Нажмите кнопку ОК, чтобы принять и сохранить изменения. Нажмите кнопку Отмена, чтобы отменить изменения и покинуть страницу свойств.
-ms.openlocfilehash: efe897436248e3fdf0eff7e7424939d04b9ab652d7295c1d04e9f6f2ce68bff6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5d9fa606b55247e086f158fa532ac110870a313c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54331821"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58626851"
 ---
 # <a name="external-application-next-hop-settings-expander"></a>Расширитель параметров следующего перехода для внешних приложений
  
