@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 24e8f749-d54c-4315-a8fe-bb9303b356ef
 ROBOTS: NOINDEX, NOFOLLOW
 description: Параметры конфигурации собраний определяют тип конференций (также называемыхmeetings), которые пользователи могут создавать, и контролировать, как анонимные пользователи и пользователи конференц-конференций с диалогом могут присоединяться к этим конференциям. Эти параметры распространяются только на запланированные собрания. Они не применяются к ad-hoc собраниям, созданным путем нажатия параметра Meet Now в клиенте.
-ms.openlocfilehash: c4c891b7ac058a5e206c8fcde2d30766f9f498fc342dd9cdd4c9b25564443dbc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 86b8488028d8eb290fa6a7e41e6c14afc3fbac7c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54317644"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58585283"
 ---
 # <a name="meeting-configuration"></a>Конфигурация собрания
 

@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1da76935-ab93-46e5-a862-3f2a77171760
 ROBOTS: NOINDEX, NOFOLLOW
 description: Необходимо указать место для создания универсальных групп в лесу. На странице Расположение универсальной группы используется домен, по умолчанию содержащий компьютер, на котором вы выполнили вход. Если вы хотите создать универсальные группы в другом домене, отличающемся от указанного по умолчанию в поле Локальный домен, выберите Полное доменное имя домена и введите полное имя домена в текстовом поле. Альтернативное имя домена может оказаться полезным, когда задача подготовки леса выполняется не из того домена, в котором вы хотите создать универсальные группы. Нажмите кнопку Далее, чтобы продолжить.
-ms.openlocfilehash: faa4ce8a890225091e208db9646c3a22fb36339c3926db1d34df250635448112
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e501cc75c9eccbba8b340c6b04fe68b5b78eb570
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54282212"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58608566"
 ---
 # <a name="prepare-current-forest-universal-group-location"></a>Подготовка текущего леса (расположение универсальной группы)
  

@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 description: Настройте Teams в организации, чтобы разрешить пользователям совместно работать с использованием чата и общего доступа к файлам, настраивать и посещать небольшие и многочисленные собрания, а также общаться с помощью видео и голосовой связи.
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7ce51b1768422a5780dbeae5b89f1285d26f18e524d3aae8bc710c127ee5af33
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9d67dbb494a0bde5212d405e5710a7c2730734e9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54280922"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58584633"
 ---
 # <a name="set-up-microsoft-teams-in-your-enterprise"></a>Настройка Microsoft Teams в организации
 

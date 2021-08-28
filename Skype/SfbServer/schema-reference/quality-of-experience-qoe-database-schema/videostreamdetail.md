@@ -10,21 +10,21 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ec8c45e1-307d-40ec-a75e-6083306105f2
 description: Представление VideoStreamDetail хранит сведения о каждом видеопотоке в базе данных. Это представление было представлено в Microsoft Lync Server 2013.
-ms.openlocfilehash: 9caf8cac3c45088cde68635a46ab9ebd79b5ca3bc203f71dc2ea0fce34968e3b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 465684ed4cfc857ede340d960f82d8be13031808
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54279955"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58609096"
 ---
 # <a name="videostreamdetail-view"></a>Представление VideoStreamDetail
  
 Представление VideoStreamDetail хранит сведения о каждом видеопотоке в базе данных. Это представление было представлено в Microsoft Lync Server 2013.
   
-|**Column**|**Тип данных**|**Описание**|
+|**Столбец**|**Тип данных**|**Описание**|
 |:-----|:-----|:-----|
 |SessionTime  <br/> |datetime  <br/> |Ссылки из [таблицы MediaLine](medialine-0.md).  <br/> |
 |SessionSeq  <br/> |int  <br/> |Ссылки из [таблицы MediaLine](medialine-0.md).  <br/> |

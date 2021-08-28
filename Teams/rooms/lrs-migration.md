@@ -9,18 +9,18 @@ ms.topic: quickstart
 ms.service: msteams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 ms.assetid: ''
-description: Из этой темы вы узнаете, как перенести устройства Lync Room System для использования Комнаты Microsoft Teams программного обеспечения.
+description: Из этой темы вы узнаете, как перенести устройства Lync Room System для использования программного обеспечения Комнаты Microsoft Teams Lync.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: a700e66a966035b52a3036210e39c09612ed18b5df34430545987c51c40575f8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 98604c36a987dde15633e9d9b1a3a283c0f36fa2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54301075"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58608826"
 ---
 # <a name="migrate-lync-room-system-lrs-devices-to-microsoft-teams-rooms"></a>Перенос устройств Lync Room System (LRS) в Комнаты Microsoft Teams
 
@@ -53,7 +53,7 @@ ms.locfileid: "54301075"
 
 ### <a name="smart-room-systems-upgrade"></a>Обновление систем комнат SMART
 
-Для клиентов, работающих с смарт-LRS, помимо программы для торговли оборудованием Вайрона, smart также работает над предоставлением решения для обновления до Комнаты Microsoft Teams. Это обновление будет предоставлено службой smart Technologies Inc. клиентам в рамках поддержки продуктов. Подробнее об этом см. [здесь.](https://support.smarttech.com/docs/hardware/room-systems-skype/srs-skype-v2/en/about/default.cshtml)
+Для клиентов, работающих с смарт-LRS, помимо программы для торговли оборудованием в Скайроне, smart также работает над предоставлением решения для обновления до Комнаты Microsoft Teams. Это обновление будет предоставлено службой smart Technologies Inc. клиентам в рамках поддержки продуктов. Подробнее об этом см. [здесь.](https://support.smarttech.com/docs/hardware/room-systems-skype/srs-skype-v2/en/about/default.cshtml)
 
 
 ## <a name="what-should-you-do"></a>Что делать?
@@ -62,4 +62,4 @@ ms.locfileid: "54301075"
 
 
 > [!NOTE]
-> Комнаты Microsoft Teams программное обеспечение поддерживает протокол TLS 1.2 от 14 декабря 2018 г. с версией приложения 4.0.64.0. Для локального клиента для включения связи через TLS 1.2 для Комнаты Microsoft Teams требуется накопительный обновление Skype для бизнеса Server 2015 г. (НАКОПИТЕЛЬНЫЙ обновление 9) или накопительный Skype для бизнеса Server 2019 г. Это изменение не должно влиять Skype для бизнеса клиентах Online, так как они соответствуют требованиям клиентов вперед и назад.
+> Комнаты Microsoft Teams программное обеспечение поддерживает протокол TLS 1.2 от 14 декабря 2018 г. с версией приложения 4.0.64.0. Для локального клиента для включения связи через TLS 1.2 для Комнаты Microsoft Teams требуется накопительное обновление Skype для бизнеса Server 2015 г. (НАКОПИТЕЛЬНЫЙ обновление 9) или накопительный Skype для бизнеса Server 2019 г. Это изменение не должно влиять Skype для бизнеса клиентах Online, так как они соответствуют требованиям клиентов вперед и назад.

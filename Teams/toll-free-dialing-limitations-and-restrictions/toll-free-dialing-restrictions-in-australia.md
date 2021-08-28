@@ -16,20 +16,20 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: Узнайте о наборе бесплатных номеров в Австралии, в том числе о доступности, доступности проводных и фиксированных номеров, а также об ограничениях для мобильной сети.
-ms.openlocfilehash: 8fd69301cac8a2889800488c5147111400f829bae5fb870fc602609c30e7e2f8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Узнайте о наборе бесплатных номеров в Австралии, в том числе о доступности, доступности проводных и фиксированных телефонных номеров, а также об ограничениях для мобильной сети.
+ms.openlocfilehash: a2d3b79e95eadc9c85abd0d5812dbf7ba785c6d8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54300815"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58608666"
 ---
 # <a name="toll-free-dialing-restrictions-in-australia"></a>Ограничения на бесплатный набор номеров в Австралии
 

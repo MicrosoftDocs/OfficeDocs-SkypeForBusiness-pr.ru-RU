@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 58bd0c10-f33a-451e-b131-bd251a1b8f50
 ROBOTS: NOINDEX, NOFOLLOW
 description: В диалоговом окне Изменение политики мобильных устройств вы можете изменить сведения о политике мобильных устройств.
-ms.openlocfilehash: bb3db80f77e96e3affa47265bdd105d1a3f7d3293743fc6f6f37a09d00accea2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 29a53a43e098c9f01c2fea5acfb91bc61a2c1452
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54330403"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58585441"
 ---
 # <a name="edit-client-mobility-policy"></a>Изменение политики мобильных устройств для клиентов
 
@@ -41,7 +41,7 @@ ms.locfileid: "54330403"
 
 Дополнительные сведения о политиках мобильных устройств см. в разделе [Mobility Policies](/previous-versions/office/lync-server-2013/lync-server-2013-mobility-policies).
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>Дополнительные материалы
 
 [Планирование мобильной работы](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-mobility)
 

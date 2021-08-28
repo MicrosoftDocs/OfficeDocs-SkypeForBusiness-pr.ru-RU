@@ -14,18 +14,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Optimization
 description: В этой статье содержится информация об использовании прокси-сервера с Skype для бизнеса.
-ms.openlocfilehash: c6c094bad366cf6a7febb092d471dd0723ce219b90664963a5e58a2ce64d70ba
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b0f8e9898e2c898387e7f726b470013dcf62caae
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323521"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58585993"
 ---
 # <a name="proxy-servers-for-skype-for-business-online"></a>Прокси-серверы для Skype для бизнеса Online
 
@@ -37,7 +37,7 @@ ms.locfileid: "54323521"
 
 Майкрософт рекомендует обходить прокси-серверы в трафике Skype для бизнеса. Прокси-прокси не делают Skype для бизнеса более безопасными, так как трафик уже зашифрован.
   
-Наличие прокси-сервера может стать причиной проблем. Проблемы, связанные с производительностью, могут быть связаны с задержкой и потерей пакетов. Такие проблемы привязают к отрицательным результатам в таких сценариях Teams или Skype для бизнеса, как звук и видео, где важны потоки в режиме реального времени.
+Наличие прокси-сервера может стать причиной проблем. Проблемы, связанные с производительностью, могут быть связаны с задержкой и потерей пакетов. Такие проблемы привязают к отрицательным результатам в таких Teams или Skype для бизнеса, как аудио- и видеопотоки, где важны потоки в режиме реального времени.
   
 ## <a name="if-you-need-to-use-a-proxy-server"></a>Если нужно использовать прокси-сервер
 

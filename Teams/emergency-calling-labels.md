@@ -14,19 +14,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: Вы можете скачать и распечатать эти наклейки для экстренных вызовов при использовании планов звонков Microsoft 365 или Office 365.
-ms.openlocfilehash: 3dcfa43cfa1540621702e03408e9e38ada4f9b625945bddf9580ccdcd1e0fb8d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3d269374a5cbce2d6f3c68fa6e9a06d83dbd7a29
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54350921"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58584623"
 ---
 # <a name="emergency-calling-labels"></a>Метки экстренных вызовов
 
