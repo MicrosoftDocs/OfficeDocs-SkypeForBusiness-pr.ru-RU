@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c60afd78-147a-42ce-8673-314acbfd6cc7
 ROBOTS: NOINDEX, NOFOLLOW
 description: На странице Выполнение команд отображается панель состояния задач, обновляемая по мере выполнения команд для создания запроса сертификации. По завершении задач в раскрывающемся списке под панелью появляются файлы журналов. Выберите в списке файл журнала для просмотра и нажмите кнопку Просмотреть журнал. Запустится Internet Explorer, в котором откроется файл журнала. Если возникает ошибка запроса, необходимо просмотреть файлы журналов и определить причину ошибки. Вы можете вернуть запрос сертификата, чтобы устранить проблему, указанную в файле журнала. Пройдя по страницам запроса сертификата, запросите сертификат еще раз.
-ms.openlocfilehash: 090454e0b5ff6e9dc136f85134048f8d7beebe1009b2d01549f9c6b3e711793b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 71032931a9f44dc333b11ad612ddd8e7d3145a44
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54280224"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58616945"
 ---
 # <a name="certificate-request-invoke"></a>Запрос сертификата (вызов)
  

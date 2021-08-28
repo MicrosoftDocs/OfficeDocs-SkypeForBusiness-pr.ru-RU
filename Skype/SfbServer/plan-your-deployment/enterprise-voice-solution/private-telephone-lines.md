@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 9cc4f9e1-7b7a-4699-bd05-f16669ef2d21
 description: Планирование частных (вторичных) телефонных линий в Skype для бизнеса Server Корпоративная голосовая связь.
-ms.openlocfilehash: e76f43ebdc4ee38a266651ddc81630c51a9ef976a1f18e6117cec9a1925fe5ce
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3f682d6d150bd52093d8c7bbb050b53b95ac3125
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54302363"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58603848"
 ---
 # <a name="plan-for-private-telephone-lines-with-skype-for-business"></a>Планирование частных телефонных линий с Skype для бизнеса
  

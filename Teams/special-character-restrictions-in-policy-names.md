@@ -14,7 +14,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - CSH
@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.policies.naming.error
 - seo-marvel-mar2020
 description: Узнайте о проблемах со специальными знаками в именах политик и о том, как их устранить.
-ms.openlocfilehash: b8a628ee261ba813b50d58531ab1255a2f121dc4e4719ff4249de70517215cc3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c06c5053452c1c55c9e8de09d6b18dd5e97deaca
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54292976"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58589611"
 ---
 # <a name="what-are-the-special-character-restrictions-in-teams-policies"></a>Каковы ограничения для специальных знаков в политиках Teams?
 
@@ -35,7 +35,7 @@ ms.locfileid: "54292976"
 
 Если имя политики содержит специальные символы, управление этими политиками будет ограничено в центре Microsoft Teams администрирования. Поэтому мы настоятельно рекомендуем не использовать специальные символы в **именах политик.** 
 
-Имена политик, созданные с помощью PowerShell для собраний и обмена сообщениями в Teams могут иметь специальные символы, такие как @,#,$. Однако если вы хотите внести изменения в политику в центре администрирования Microsoft Teams, вы не сможете этого сделать. 
+Имена политик, созданные с помощью PowerShell для собраний и обмена сообщениями в Teams могут иметь специальные символы, такие как @,#,$. Однако если вы хотите внести изменения в политику в центре Microsoft Teams администрирования, вы не сможете этого сделать. 
 
 Если у вас есть политика со специальными знаками, вам потребуется изменить ее с помощью Windows PowerShell (навсегда) или создать новую политику в Центре администрирования Microsoft Teams с тем же параметром, что и для старой политики, и назначить ее той же группе пользователей.
 
@@ -45,7 +45,7 @@ ms.locfileid: "54292976"
 > [!NOTE]
 > Skype для бизнеса В настоящее время Online Connector является частью последней версии Teams PowerShell.
 >
-> Если вы используете последнюю версию [Teams PowerShell,](https://www.powershellgallery.com/packages/MicrosoftTeams/)вам не нужно устанавливать Skype для бизнеса Online Connector.
+> Если вы используете последний общедоступный [выпуск Teams PowerShell,](https://www.powershellgallery.com/packages/MicrosoftTeams/)вам не нужно устанавливать Skype для бизнеса Online Connector.
 
 ```powershell
   # When using Teams PowerShell Module
@@ -59,14 +59,14 @@ ms.locfileid: "54292976"
 **Шаг 2. Получите параметры старой политики и зафиксировать выходные данные.**
 
 > [!NOTE]
-> Этот пример для политики [сообщений.](/powershell/module/skype/get-csteamsmessagingpolicy?view=skype-ps)  Действия будут одинаковыми для других типов политик, но необходимо использовать правильный cmdlet. 
+> Этот пример для политики [обмена сообщениями.](/powershell/module/skype/get-csteamsmessagingpolicy?view=skype-ps)  Действия будут одинаковыми для других типов политик, но необходимо использовать правильный cmdlet. 
 
   ```PowerShell
   Get-CsTeamsMessagingPolicy -id <old_policy_name>
   ```
 
 
-**Шаг 3. Создание политики.**
+**Шаг 3. Создание новой политики.**
 
 Вы можете создать новую политику с тем же параметром, используя Microsoft Teams или PowerShell.
 

@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AssociateFrontEndWithMonitoringPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8ea4474a-7453-49a9-ba38-2c7dc4337b05
 description: С каждым пулом переднего плана и комплексом для обеспечения связи в филиалах может быть связан только один сервер мониторинга. Если мониторинг включен для сайта, сервер мониторинга обеспечивает сбор данных и создание отчетов для регистрации вызовов (CDR) и качества взаимодействия (QoE).
-ms.openlocfilehash: 4a6f6561f9af11c2ebd317e09f7a7c5d25266fa90e79ad24969dfbeda36b0ab4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: af43baf9170239fbc31dfce0b19939fa3d74bf34
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54338227"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58616695"
 ---
 # <a name="associate-front-end-with-monitoring"></a>Связывание сервера переднего плана с мониторингом
  

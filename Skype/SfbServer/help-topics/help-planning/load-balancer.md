@@ -13,15 +13,15 @@ ms.custom:
 - ms.lync.plan.LoadBalancer
 - ms.lync.plan.LoadBalancer
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3bf7f2c7-b79b-4b37-bb32-72324a94ac99
 description: 'Если у вас есть пулы передней части, пулы Director или Edge Server, необходимо развернуть балансировку нагрузки для этих пулов. Балансировка нагрузки позволяет распределять трафик между серверами пула. Дополнительные сведения см. в следующих статьях:'
-ms.openlocfilehash: 8cdce9f6214d6427798f1e0edfea45033fab212d
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 262541ff04fcb1b9ed1f2be9713ee92746169cfe
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234014"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58636193"
 ---
 # <a name="skype-for-business-server-load-balancer-planning-tool"></a>Skype для бизнеса Server Средство планирования балансиру нагрузки
  

@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: ced79c13-4e7e-4034-95cd-6fc913f4f222
 description: Решения, необходимые для планирования базы данных сведений о местоположении или аналогичной внешней базы данных для развертывания E9-1-1 с помощью шлюзов ELIN, в Skype для бизнеса Server Корпоративная голосовая связь.
-ms.openlocfilehash: e3843735006460792f414e685c15552c54a64e1c7896b02b1b0922b31a84e106
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: bb0656909866a793bc8d64635b17785020dd646d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323081"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58596513"
 ---
 # <a name="manage-locations-for-elin-gateways-in-skype-for-business-server"></a>Управление расположениями шлюзов ELIN в Skype для бизнеса Server
 
@@ -62,11 +62,11 @@ ms.locfileid: "54323081"
 
 **Пример назначений местоположений и ELIN**
 
-|**Область здания**|**Расположение**|**ELIN**|
+|**Область здания**|**Location**|**ELIN**|
 |:-----|:-----|:-----|
-|Первый этаж  <br/> |1  <br/> |425-555-0100  <br/> |
-|Второй этаж  <br/> |2  <br/> |425-555-0111  <br/> |
-|Третий этаж  <br/> |3  <br/> |425-555-0123  <br/> |
+|Первый этаж  <br/> |1   <br/> |425-555-0100  <br/> |
+|Второй этаж  <br/> |2   <br/> |425-555-0111  <br/> |
+|Третий этаж  <br/> |3   <br/> |425-555-0123  <br/> |
 
 Задаваемые местоположения должны удовлетворять следующим требованиям:
 

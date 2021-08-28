@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddEdgeServerStartPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f7f90070-fcdc-4ec5-9551-cc7da2ed271c
 description: Вы можете добавить поддержку доступа внешних пользователей или при развертывании первоначальной топологии, или позднее. Дополнительные сведения о добавлении пограничных серверов к существующей топологии см. в разделе Define Your Edge Topology руководства по развертыванию пограничного сервера.
-ms.openlocfilehash: bd1a76778b3c54925ca67ed2cdee076fbb97c721821b7cb97fdff681182d8619
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 961acf2efb30312e19af6d453ee678f3a04bebd9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54298349"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58636113"
 ---
 # <a name="add-edge-server-support"></a>Добавление поддержки для пограничного сервера
 

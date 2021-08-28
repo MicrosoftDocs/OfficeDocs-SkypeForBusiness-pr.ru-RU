@@ -10,21 +10,21 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ca91a0b4-98c0-49f6-af9d-7d0f8ac75f1a
 description: Таблица DeviceDriver является вспомогательной. Каждая запись представляет драйвер, используемый устройством захвата или отображения.
-ms.openlocfilehash: 49bf941de3c0639552bd01e5066c9b823953ca7d4c01acc1b77a973045d89985
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1dc316d68903455de03c2d1f5ace461f5eef478f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54276574"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58603788"
 ---
 # <a name="devicedriver-table"></a>Таблица DeviceDriver
  
 Таблица DeviceDriver является вспомогательной. Каждая запись представляет драйвер, используемый устройством захвата или отображения.
   
-|**Column**|**Тип данных**|**Key/Index**|**Сведения**|
+|**Столбец**|**Тип данных**|**Key/Index**|**Details**|
 |:-----|:-----|:-----|:-----|
 |**DeviceDriverKey** <br/> |int  <br/> |Primary  <br/> |Уникальный номер, идентифицирующий эту запись драйвера устройства.  <br/> |
 |**DeviceDriver** <br/> |varchar (256)  <br/> |уникальный  <br/> |Имя драйвера устройства.  <br/> |

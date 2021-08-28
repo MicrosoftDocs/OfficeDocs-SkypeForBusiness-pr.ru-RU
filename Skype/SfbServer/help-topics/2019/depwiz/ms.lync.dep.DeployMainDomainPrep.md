@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bfcb37ca-34eb-4d0d-9694-6edd2e7fe0f3
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Чтобы подготовить домен для серверов, на Skype для бизнеса Server или Skype для бизнеса Server пользователей, необходимо выполнить шаг 5: Подготовка текущего домена, как описано в разделе Использование установки для запуска подготовки домена. Чтобы выполнить этот шаг, необходимо войти в группу администраторов домена в готовяемом домене или в качестве члена группы администраторов Enterprise леса, к которой принадлежит домен. Чтобы подготовить домен:'
-ms.openlocfilehash: e2741bb3c80f73e0a194f37633fa8d572ca8817d32b34bd2f138c1daca888ccd
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 74725bde4f50219a2d46cca4ab0ab32daa733b83
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54325386"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58616915"
 ---
 # <a name="prepare-current-domain"></a>Подготовка текущего домена
 

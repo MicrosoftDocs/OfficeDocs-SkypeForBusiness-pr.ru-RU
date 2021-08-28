@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 097fb65e-4a3e-45ff-a88c-d6022dc8f872
 description: Сводка. Управление качеством работы (QoE) в Skype для бизнеса Server.
-ms.openlocfilehash: 26ed4266b9eac940f54e3f69fa0c14d0ec4e7438e35084831eb281e20e17041f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6ff01b4962971edd4ca2d12684dcb653875eb905
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54286758"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58603868"
 ---
 # <a name="quality-of-experience-qoe-in-skype-for-business-server"></a>Качество работы (QoE) в Skype для бизнеса Server
  
@@ -25,7 +25,7 @@ ms.locfileid: "54286758"
   
 Служба качества взаимодействия (QoE) записывает числовые данные, которые показывают качество мультимедиа-данных, и сведения об участниках, именах устройств, драйверах, IP-адресах и типах конечных точек, использованных во время звонка или сеанса. При установке Skype для бизнеса Server установят предопределяемую коллекцию параметров глобальной конфигурации для QoE. Используйте разделы этой главы для настройки значений QoE. 
   
-## <a name="in-this-section"></a>Содержание
+## <a name="in-this-section"></a>В этой статье
 
 - [Создание параметров конфигурации experience в Skype для бизнеса Server](create-qoe-configuration-settings.md)
     

@@ -9,14 +9,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Доверенным приложением является приложение на основе API управляемых единой связи (UCMA) 3.0 Core SDK, которому доверяют Skype для бизнеса Server.
-ms.openlocfilehash: f01ac47641dac417efc57b91d59ce3b6ef1c006f273ce41c29eae675db5129eb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ef03aa21b64ec305829ed5da8ef84a0d5b8bfd92
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54351699"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58596563"
 ---
 # <a name="manage-trusted-applications-in-skype-for-business-server"></a>Управление доверенными приложениями в Skype для бизнеса Server
 
@@ -84,24 +84,21 @@ ms.locfileid: "54351699"
 
 Чтобы просмотреть все доверенные приложения, введите следующую команду в командной Skype для бизнеса Server, а затем нажмите кнопку ENTER:
     
-        Get-CsConferenceDisclaimer
+   **Get-CsConferenceDisclaimer**
     
    Эта команда возвращает сведения, подобные приведенным ниже, для каждого доверенного приложения:
     
-        Identity               : CN={5dedf4b0-a590-49b3-80cf-f16f914bbef9},CN=Application Contacts,CN=RTC
-                                 Service,CN=Services,CN=Configuration,DC=litware,DC=com
-        RegistrarPool          : 487279971
-        HomeServer             : CN=Lc Services,CN=Microsoft,CN=co1:2,CN=Pools,CN=RTC
-                                 Service,CN=Services,CN=Configuration,DC=litware,DC=com
-        OwnerUrn               : urn:application:helpdesk
-        SipAddress             : sip:RtcApplication-dbf5142f-2bb2-4c4f-9531-b7fea45c5000@litware.com
-        DisplayName            :
-        DisplayNumber          :
-        LineURI                :
-        PrimaryLanguage        : 0
-        SecondaryLanguages     : {}
-        EnterpriseVoiceEnabled : True
-        ExUmEnabled            : False
-        Enabled                : True
+   Identity: CN={5dedf4b0-a590-49b3-80cf-f16f914bbef9},CN=Application Contacts,CN=RTC Service,CN=Services,CN=Configuration,DC=litware,DC=com<br/>
+   RegistrarPool : 487279971<br/>
+   HomeServer: CN=Lc Services,CN=Microsoft,CN=co1:2,CN=Pools,CN=RTC Service,CN=Services, CN=Configuration,DC=litware,DC=com OwnerUrn: urn:application:helpdesk<br/>
+   SipAddress : sip:RtcApplication-dbf5142f-2bb2-4c4f-9531-b7fea45c5000@litware.com<br/>
+   DisplayName:<br/>
+   DisplayNumber:<br/>
+   LineURI :<br/>
+   PrimaryLanguage : 0<br/>
+   SecondaryLanguages: {}<br/>
+   EnterpriseVoiceEnabled : True<br/>
+   ExUmEnabled : False<br/>
+   Включено: True<br/>
     
    Дополнительные сведения см. в разделе [Get-CsTrustedApplication](/powershell/module/skype/Get-CsTrustedApplication).
