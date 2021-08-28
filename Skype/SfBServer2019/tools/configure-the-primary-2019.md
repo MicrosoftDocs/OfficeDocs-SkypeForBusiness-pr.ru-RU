@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: Сводка. Настройка основного сервера управления, установка System Center диспетчера операций и пакеты управления импортом на Skype для бизнеса Server 2019 г.
-ms.openlocfilehash: f7fd7350cb4cf5a9697e789806c963f4fbe46636
-ms.sourcegitcommit: 6a87a4180519e493ac115c2faadb9ccae26d5a35
+ms.openlocfilehash: 4e0d8a1176beb9d5c82418b65c1a4ce67d587c6d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58372239"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58594903"
 ---
 # <a name="skype-for-business-server-configure-the-primary-management-server"></a>Skype для бизнеса Server: Настройка основного сервера управления
 

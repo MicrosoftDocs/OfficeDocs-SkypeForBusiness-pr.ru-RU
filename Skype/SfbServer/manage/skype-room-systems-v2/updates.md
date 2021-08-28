@@ -10,16 +10,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: M365-voice
 ms.assetid: ''
 description: Управление Windows обновлениями для Комнаты Microsoft Teams
-ms.openlocfilehash: 086e1c760fce14bc163a92021fee4e2e35694267cf4f8a8d3733f93f5e078106
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 04572edd20c1c8e588b378ff3a225c103a58dff3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54311077"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58593613"
 ---
 # <a name="manage-windows-updates"></a>Управление Windows обновлениями
 

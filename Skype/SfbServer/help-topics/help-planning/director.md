@@ -13,15 +13,15 @@ ms.custom:
 - ms.lync.plan.Director
 - ms.lync.plan.Director
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 02795b46-21ec-4a85-9890-959c91d97df3
 description: Director — это сервер, на Skype для бизнеса Server 2015 г., который может проверить подлинность запросов пользователей, но не имеет учетных записей пользователей.
-ms.openlocfilehash: 969b45a39da201a1de31fe1cf3261dce2cb20070de454770691a9d6c85dcae3a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3e28c88621d200517ec64e109ea94bc09a442218
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54344969"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58602674"
 ---
 # <a name="skype-for-business-server-director-planning-tool"></a>Skype для бизнеса Server Средство планирования директора
  

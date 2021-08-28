@@ -9,19 +9,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: f1878194-c756-4794-8fa1-15dd2118b4b3
 description: Ознакомьтесь с этой темой, чтобы узнать, как настроить политики расположения расширенной службы экстренной помощи (E9-1-1) в Skype для бизнеса Server Корпоративная голосовая связь.
-ms.openlocfilehash: 46bd1167f573f1d43689d5d4ff145823dafa94a2ec64697e9c20a234b341619d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d601fddcb66fd5b963ab24caf3a7289a2188628b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54340285"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58594743"
 ---
 # <a name="create-location-policies-in-skype-for-business-server"></a>Создание политик расположения в Skype для бизнеса Server
 
@@ -41,7 +41,7 @@ Skype для бизнеса Server использует политику рас�
 Дополнительные сведения см. в политике планирования расположения [для Skype для бизнеса Server.](../../plan-your-deployment/enterprise-voice-solution/location-policies.md) В этой процедуре в cmdlets используется политика расположения, определяемая с помощью следующих значений. Полное описание параметров и значений и параметров cmdlet см. в [new-CsLocationPolicy.](/powershell/module/skype/new-cslocationpolicy?view=skype-ps)
 
 
-| **Элемент**                               | **Value** (Значение)                                                                                                                                                                          |
+| **Элемент**                               | **Значение**                                                                                                                                                                          |
 |:------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | EnhancedEmergencyServicesEnabled  <br/>   | **True** <br/>                                                                                                                                                                     |
 | LocationRequired  <br/>                   | **Заявление об отказе от ответственности** <br/>                                                                                                                                                               |

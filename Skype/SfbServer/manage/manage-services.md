@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c99ee134-8294-4481-bb4e-710fe85a39ca
 description: В этой статье описывается управление службами, работающими Skype для бизнеса Server топологии.
-ms.openlocfilehash: ac09cc3d387fb74c28a1908489071a739fa1bbc65d5d1f6e53758db61b0cbf29
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 45af8756feda61d0a0bac06beedddcc693591346
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54295416"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58593643"
 ---
 # <a name="manage-services-for-skype-for-business-server"></a>Управление службами для Skype для бизнеса Server
 
@@ -69,13 +69,13 @@ Get-CsWindowsService -ComputerName atl-cs-001.litwareinc.com | Select-Object Rol
   
 |**Имя roleName**|**Состояние**|
 |:-----|:-----|
-|{W3SVC}  <br/> |Работает  <br/> |
-|{CentralManagement}  <br/> | Работает <br/> |
-|{ClsAgent}  <br/> |Работает  <br/> |
-|{Registrar, UserServer, EdgeServer}  <br/> |Работает  <br/> |
-|{ApplicationServer}  <br/> |Работает  <br/> |
-|{ConferencingServer}  <br/> |Работает  <br/> |
-|{MediationServer}  <br/> |Работает  <br/> |
+|{W3SVC}  <br/> |Выполняется  <br/> |
+|{CentralManagement}  <br/> | Выполняется <br/> |
+|{ClsAgent}  <br/> |Выполняется  <br/> |
+|{Registrar, UserServer, EdgeServer}  <br/> |Выполняется  <br/> |
+|{ApplicationServer}  <br/> |Выполняется  <br/> |
+|{ConferencingServer}  <br/> |Выполняется  <br/> |
+|{MediationServer}  <br/> |Выполняется  <br/> |
    
 Подробные сведения [см. в материале Get-CsWindowsService.](/powershell/module/skype/get-cswindowsservice.md?view=skype-ps)
   

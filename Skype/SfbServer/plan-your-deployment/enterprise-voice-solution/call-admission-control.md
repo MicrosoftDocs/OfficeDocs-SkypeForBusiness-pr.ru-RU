@@ -10,19 +10,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 6fda0195-4c89-4dea-82e8-624f03e3d062
 description: Узнайте о контроле допуска вызовов, который может предотвратить вызовы, если они будут иметь низкое качество мультимедиа, в Skype для бизнеса Server Корпоративная голосовая связь.
-ms.openlocfilehash: ee51e83c8c797a958ce520e0215b438927a65005d8cb1b3caf4c75793cb55f99
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 16b134e6d775d84be3fff97698d2f03ce7497c87
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54306910"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58623601"
 ---
 # <a name="plan-for-call-admission-control-in-skype-for-business-server"></a>Планирование управления приемом вызовов в Skype для бизнеса Server
 

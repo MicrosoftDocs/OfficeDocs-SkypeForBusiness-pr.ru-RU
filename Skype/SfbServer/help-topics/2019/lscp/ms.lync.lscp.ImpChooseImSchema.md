@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bfa55f83-70b4-4790-9b9f-8d849dd94909
 ROBOTS: NOINDEX, NOFOLLOW
 description: Диалоговое окно Выбор префикса гиперссылки используется для выбора типов гиперссылок, которые требуется заблокировать, отправить по ним предупреждающее сообщение или разрешить. Это осуществляется посредством установки флажка (для блокировки или отправки предупреждающего сообщения) или снятия флажка (для разрешения) для соответствующих расширений из категорий в разделе Префиксы гиперссылок. Щелкните стрелку, чтобы развернуть категорию и просмотреть все префиксы гиперссылок для этой категории. Если требуется выбрать все префиксы гиперссылок для категории, выберите имя категории.
-ms.openlocfilehash: 71e2d018430f61e171f59069e0178e14107ed4338020c8792bdd21ac31d588ad
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ed42530c8d364a8d09d1ca7711020a5d105bbe78
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54334401"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624261"
 ---
 # <a name="select-hyperlink-prefix"></a>Выбор префикса гиперссылок
  

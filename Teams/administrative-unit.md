@@ -9,19 +9,19 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: Узнайте, как использовать функции администрирования в Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 93add1771e76f6640b6f1fde3ee6e732499aa329
-ms.sourcegitcommit: 9062b2c81c582ddc878c825ba1b22a6c23ca4b64
+ms.openlocfilehash: 556f220c9ca250f014ae604c96cabf9ef0b0ca0f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58399380"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58636795"
 ---
 # <a name="administrative-unit-functionality-for-device-management-in-teams"></a>Функции администрирования для управления устройствами в Teams
 
@@ -32,9 +32,9 @@ ms.locfileid: "58399380"
 > [!NOTE]
 > Понятие административного блока доступно только для роли администратора Teams устройств.
 
-Например, в Contoso есть операции в разных регионах. Юда является глобальным ИТ-администратором в Москве, а Прашант — ИТ-администратором Индии. Сегодня, когда Prashant Teams в Центр администрирования с ролью "Администратор устройства", он видит устройства по всему миру. Он хочет ограничить доступ Prashant только к устройствам, которые находятся в Индии. Эту проблему можно решить с помощью концепции административных единиц. Подробнее о [концепции административных единиц.](/azure/active-directory/roles/administrative-units)
+Например, в Contoso есть операции в разных регионах. Юда является глобальным ИТ-администратором в Москве, а Прашант — ИТ-администратором Индии. Сегодня, когда Prashant в Teams с ролью Администратор устройства, он увидит устройства по всему миру. Он хочет ограничить доступ Prashant только к устройствам, которые находятся в Индии. Эту проблему можно решить с помощью концепции административных единиц. Подробнее о [концепции административных единиц.](/azure/active-directory/roles/administrative-units)
 
-![схема, на которую показаны сценарии](media/au-diagram.png)
+![схема со сценариями](media/au-diagram.png)
 
 ## <a name="creation-of-administrative-units"></a>Создание административных единиц
 
@@ -48,7 +48,7 @@ ms.locfileid: "58399380"
 
 Назначение роли можно выполнять с помощью PowerShell с помощью [cmdlet add-AzureADMSScopedRoleMembership.](/powershell/module/azuread/add-azureadmsscopedrolemembership?view=azureadps-2.0)
 
-После того как пользователям для административных единиц назначены роли, пользователям необходимо войти в центр администрирования Teams, чтобы начать управлять устройствами с областью действия.
+После того как вы направили роли для пользователей административных единиц, пользователям необходимо войти в Teams администрирования, чтобы начать управлять устройствами с областью действия.
 
 ## <a name="experience-for-administrative-unit-admin"></a>Опыт администрирования административных единиц
 

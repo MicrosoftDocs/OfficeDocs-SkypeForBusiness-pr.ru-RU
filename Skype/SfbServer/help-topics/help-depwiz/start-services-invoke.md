@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.dep.DeployStartServicesInvoke
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7992440b-8545-4af9-b3ac-ea200b9de084
 description: В сводной области области команд выполнения отображается состояние задач, выдающихся для запуска служб для сервера ролей 2015 Skype для бизнеса Server 2015 года, который вы развертываете. В представленной сводке отсутствует индикация запуска служб в реальном времени. Некоторые из Skype для бизнеса Server служб могут занять больше времени, чтобы приступить к начальному процессу запуска. Задачи дают команду на запуск, но не ожидают результата, чтобы определить, успешно ли запустилась служба. Если вам необходимо отслеживать запуск службы и ее состояние, используйте консоль управления (MMC) для служб Windows.
-ms.openlocfilehash: 76d252b341a90b90b32cd8fc426dd4eab129588b724f6459c3561efa60e4797e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b6c6dbf4e4c397b129d20438f3402fc26da33bdb
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54309618"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58615965"
 ---
 # <a name="start-services-invoke"></a>Запуск служб (вызов)
  

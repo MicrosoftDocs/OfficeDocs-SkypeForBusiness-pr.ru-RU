@@ -7,8 +7,8 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: Определите оптимальный путь обновления Microsoft Teams с учетом текущего Skype для бизнеса развертывания.
-localization_priority: Normal
+description: Определите оптимальный путь обновления microsoft Teams на основе текущего развертывания Skype для бизнеса.
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c0794e855fac3f911b028c049289beaa13a571473f32f84509c6d219d92bdd78
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 726355c7edf145dec6eeaf9ec1904119c15a3275
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54282482"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58616135"
 ---
 # <a name="overview-of-implementing-your-upgrade"></a>Общие сведения о внедрении обновления
 
@@ -35,18 +35,18 @@ ms.locfileid: "54282482"
 
 
 
-## <a name="prerequisite-planning-activities"></a>Предварительные действия по планированию
+## <a name="prerequisite-planning-activities"></a>Необходимые действия по планированию
 
 > [!IMPORTANT]
-> Прежде чем приперейти к реализации обновления, убедитесь, [](upgrade-plan-journey.md) что вы прочитали статью о планировании, начиная с плана обновления, чтобы убедиться, что все необходимые действия по планированию завершены.
+> Прежде чем приперейти к реализации обновления, убедитесь, [](upgrade-plan-journey.md) что вы прочитали статью о планировании, начиная с плана обновления, чтобы убедиться, что вы выполнили все необходимые действия по планированию.
 
 
 - [Привлечение заинтересованных лиц по проекту](upgrade-enlist-stakeholders.md)
 - [Определение области проекта](./upgrade-define-project-scope.md)
-- [Понятное сосуществование и совместное Skype для бизнеса и Teams](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+- [Понимание совместной работы и совместной работы Skype для бизнеса и Teams](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 - [Выбор пути обновления](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 - [Запланированный пилотный проект пользователя](pilot-essentials.md)
-- [Подготовить среду](./upgrade-prepare-environment.md)
+- [Подготовьте свою среду](./upgrade-prepare-environment.md)
 - [Подготовленные организации](./upgrade-prepare-organization.md)
 
 ## <a name="choose-your-upgrade-starting-point"></a>Выбор начальной точки обновления
@@ -55,9 +55,9 @@ ms.locfileid: "54282482"
 
 В зависимости от текущей среды выберите отправную точку:  
 
-- **Если вы обновляете** Skype для бизнеса Online до Teams, выполните действия, которые можно найти в Skype для бизнеса [Online Teams.](./upgrade-to-teams-execute-skypeforbusinessonline.md)
+- **Если вы обновляете Skype** для бизнеса Online до Teams, выполните действия, следуя шагам из Skype для бизнеса [Online в Teams.](./upgrade-to-teams-execute-skypeforbusinessonline.md)
 
--  **При переходе** с локальной среды Skype для бизнеса вам потребуется выполнить дополнительные действия, чтобы настроить подключение между локальной и сетевой средами, прежде чем перемещать пользователей в Teams. Дополнительные сведения см. в [Skype для бизнеса обновлении локального Teams.](upgrade-to-teams-execute-SkypeforBusinessHybridOnPrem.md)
+-  **При** переходе с локальной среды Skype для бизнеса вам потребуется выполнить дополнительные действия, чтобы настроить подключение между локальной и сетевой средами, прежде чем перемещать пользователей в Teams. Дополнительные сведения см. в том, как обновить локальное приложение Skype для [бизнеса до Teams.](upgrade-to-teams-execute-SkypeforBusinessHybridOnPrem.md)
 
 
 

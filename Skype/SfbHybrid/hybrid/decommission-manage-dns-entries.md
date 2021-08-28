@@ -9,7 +9,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Hybrid
 - M365-voice
@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: Инструкции по управлению записями DNS при выводе из эксплуатации локальной Skype для бизнеса среды.
-ms.openlocfilehash: 0dabf9790b1e579d136fef459308af450e879b110474b2877513855c8e78cf29
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a69b99f8adf5cf520f08ebef5f08de82426d5723
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54315175"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58636785"
 ---
 # <a name="update-dns-entries-to-enable-your-organization-to-be-all-teams-only"></a>Обновление записей DNS, чтобы позволить организации быть Teams только
 
@@ -53,10 +53,10 @@ ms.locfileid: "54315175"
 
 В каждом домене, где вы найдете любые из следующих записей, обнови их следующим образом:
 
-| Тип записи | Имя | TTL | Приоритет | Насыщенность | Порт | Value (Значение) |
+| Тип записи | Имя | TTL | Priority | Насыщенность | Порт | Value (Значение) |
 | :-----| :-----| :---- | :-----| :-----| :-----| :-----|
-| SRV | _sipfederationtls.tcp | 3600 |  100 | 1 | 5061  | sipfed.online.lync.com |
-| SRV | _sip.tls | 3600  | 100 |    1   | 443   | sipdir.online.lync.com |
+| SRV | _sipfederationtls.tcp | 3600 |  100 | 1  | 5061  | sipfed.online.lync.com |
+| SRV | _sip.tls | 3600  | 100 |    1    | 443   | sipdir.online.lync.com |
 | CNAME | lyncdiscover |    3600 |  Н/Д |   Н/Д |   Н/Д |   webdir.online.lync.com |
 | CNAME |   sip | 3600 |    Н/Д |   Н/Д  | Н/Д |    sipdir.online.lync.com |
 |||||||

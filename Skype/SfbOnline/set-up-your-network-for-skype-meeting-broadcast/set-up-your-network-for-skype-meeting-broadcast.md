@@ -13,18 +13,18 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - SMB
-description: Узнайте о функции Skype трансляции собраний в Skype для бизнеса Online, которая позволяет планировать, создавать и транслировать собрания или события крупной онлайн-аудитории до 10 000 участников.
-ms.openlocfilehash: 068ff156badaff9231f6e477e2f41668ea8f99fd26531f2a08155c4ee4763c05
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Узнайте о функции Skype трансляции собраний в Skype для бизнеса Online, которая позволяет планировать, создавать и транслировать собрания и события для большой онлайн-аудитории до 10 000 участников.
+ms.openlocfilehash: 998fbb0a0c077507731d8db09521d49e5c5d635f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54308030"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58594853"
 ---
 # <a name="set-up-your-network-for-skype-meeting-broadcast"></a>Настройка сети для трансляции собраний Skype
 
@@ -37,7 +37,7 @@ ms.locfileid: "54308030"
 
 Если у вас нет опыта настройки брандмауэра, [](https://go.microsoft.com/fwlink/?linkid=391089) вы можете нанять партнера Майкрософт, который сделает это за вас.
 
-Чтобы пропустить этот шаг и вместо этого добавить в свою федерацию еще одну компания, чтобы пригласить их в трансляцию, выполните действия, которые можно сделать в области Разрешить пользователям связываться с внешними Skype для бизнеса [пользователями.](../set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users.md)
+Чтобы пропустить этот шаг и вместо этого добавить в свою федерацию еще одну компания, чтобы пригласить их в трансляцию, выполните действия, следуя шагам из этой группы в Skype для бизнеса [пользователей.](../set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users.md)
 
 ## <a name="step-1-set-up-allowed-domains"></a>Шаг 1. Настройка разрешенных доменов
 
@@ -87,15 +87,15 @@ ms.locfileid: "54308030"
   Set-CsTenantFederationConfiguration -AllowedDomains $newAllowList
   ```
 
-## <a name="step-2-add-skype-meeting-broadcast-domains-urls-and-ip-addresses"></a>Шаг 2. Добавление Skype доменов, URL-адресов и IP-адресов Skype трансляции собраний
+## <a name="step-2-add-skype-meeting-broadcast-domains-urls-and-ip-addresses"></a>Шаг 2. Добавление доменов Skype, URL-адресов и IP-адресов Skype трансляции собраний
 
-Второй этап настройки — добавление необходимых доменов, а затем добавление IP-адресов и URL-адресов, необходимых для Skype трансляции собрания.
+Второй этап настройки — добавление необходимых доменов, а затем добавление IP-адресов и URL-адресов, необходимых для Skype трансляции собраний.
 
-- **Добавьте необходимые URL Skype для бизнеса и IP-адреса** конечных точек Online, чтобы увидеть, какие из них здесь [необходимы.](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#bkmk_lyo)
+- **Добавьте необходимые SKYPE ДЛЯ БИЗНЕСА и IP-адреса** конечных точек Online, чтобы увидеть, какие из них здесь [необходимы.](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#bkmk_lyo)
 
 ## <a name="set-up-skype-meeting-broadcast-in-hybrid-deployments-and-organizations"></a>Настройка Skype собраний в гибридных развертываниях и организациях
 
-Если у вас есть организация Skype для бизнеса Online и локальное развертывание Lync Server 2010, Microsoft Lync Server 2013 и Skype для бизнеса Server 2015, а пользователи находятся как в сети, так и локально, вам потребуется настроить дополнительные действия, помимо перечисленных выше, чтобы разрешить локальной организации общаться с Skype для бизнеса Online и разрешить всем пользователям присоединиться к трансляции собрания Skype. Чтобы узнать, каковы эти требования, см. настройка локального развертывания для [Skype трансляции собраний.](../../SfbServer/deploy/configure-skype-meeting-broadcast.md)
+Если у вас есть организация Skype для бизнеса Online и локальное развертывание Lync Server 2010, Microsoft Lync Server 2013 и Skype для бизнеса Server 2015, а пользователи находятся как в сети, так и локально, вам потребуется настроить дополнительные действия, чтобы разрешить локальной организации общаться с Skype для бизнеса Online и разрешить всем пользователям присоединиться к трансляции собрания Skype. Чтобы узнать, каковы эти требования, см. настройка локального развертывания для [Skype трансляции собраний.](../../SfbServer/deploy/configure-skype-meeting-broadcast.md)
 
 ## <a name="related-topics"></a>Статьи по теме
 
