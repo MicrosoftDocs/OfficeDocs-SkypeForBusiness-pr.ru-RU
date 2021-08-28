@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 29bde940-6107-494f-9bee-b6ebfa135e41
 ROBOTS: NOINDEX, NOFOLLOW
 description: Группы ответа состоят из агентов, очередей и рабочих процессов. Очереди группы ответов удерживают вызовы в группе ответа до тех пор, пока агент не ответит на вызов.
-ms.openlocfilehash: a04d80d3ecea5d10c85c11cf4705b481daa1b12b3a9b152fd87430f8cb23c355
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: bec9a6e004610067e2f1facf9bfb2ecb124b384e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54309888"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58579793"
 ---
 # <a name="response-groups-queue"></a>Очередь группы ответа
 

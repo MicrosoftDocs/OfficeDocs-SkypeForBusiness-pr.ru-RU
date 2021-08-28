@@ -10,19 +10,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a4f4bad1-fc59-47ce-a3ea-b1b893769db6
 description: 'Сводка. Узнайте, как проверить, Skype для бизнеса Server серверы топологии и Active Directory работают как ожидалось. Скачайте бесплатную пробную Skype для бизнеса Server из Центра оценки Майкрософт по ссылке: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server .'
-ms.openlocfilehash: 743741fd18766116ed923a2af632f33c88343ef5957a84165edc7702b3b6593f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0d8bc0a8ead8d435acf23965c461b57dab93edc2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54294776"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58605528"
 ---
 # <a name="verify-the-topology-in-skype-for-business-server"></a>Проверка топологии в Skype для бизнеса Server
  

@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d95455f3-39d3-4730-89dd-7f988ae5da95
 ROBOTS: NOINDEX, NOFOLLOW
 description: Для обработки отложенного запроса сертификата в Интернете, то есть запроса, выданного вашему веб-органу сертификации, но в административном отношении, необходимого для процесса утверждения вручную, нажмите кнопку Далее.
-ms.openlocfilehash: 633b09cb22d4efdf07795763bb26c0baf8ada9830fa32f8a98494b535eb85318
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 01d42ea885619520d5629b0ade9a4da24a00ea81
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54304331"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58605468"
 ---
 # <a name="pending-certificate-intro"></a>Отложенный сертификат (введение)
  

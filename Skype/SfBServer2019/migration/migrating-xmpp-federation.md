@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 'В предыдущих версиях был предусмотрен шлюз протокола обмена сообщениями и присутствия (XMPP), который можно было развернуть в качестве отдельной роли сервера, чтобы разрешить федерирование с помощью развертывания XMPP. Функциональность XMPP больше недоступна для & в Skype для бизнеса Server 2019 г. Если вы хотите продолжить функцию XMPP, ее можно использовать в среде сосуществования с устаревшей версией (Skype для бизнеса Server 2015/ Lync Server 2013). Функции XMPP установлены в двух частях: в качестве прокси-сервера XMPP, который работает на устаревшем edge Server, и шлюза XMPP, который работает на устаревшем переднем сервере.'
-ms.openlocfilehash: f1dc49a9f93d87bf2b253963cf0955594b337f9bd186c3034ac7780cb50ccddb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a0c3eeaa6218c6e3b3726f755adcca6083a9ac3f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54303433"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58580133"
 ---
 # <a name="migrating-xmpp-federation"></a>Перенос федерации XMPP
 

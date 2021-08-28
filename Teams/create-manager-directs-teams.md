@@ -10,18 +10,18 @@ audience: admin
 description: Узнайте, как с помощью сценария PowerShell создать команду для каждого руководителя, в качестве участников которых являются его руководители.
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ce7fb0a34f202481df0062367ec7a905b84848d21e7a2e5e4bce73bea4073eac
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: cad2ed4fdbcec7f13f5b2e932d34395fe4b4c339
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54282812"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58628361"
 ---
 # <a name="create-people-manager-teams-in-microsoft-teams"></a>Создание команд диспетчера людей в Microsoft Teams
 
@@ -30,9 +30,9 @@ ms.locfileid: "54282812"
 
 ## <a name="how-to-use-the-powershell-script"></a>Использование сценария PowerShell 
 
-Начните с [](scripts/powershell-script-create-teams-from-managers-export-managers.md) запуска диспетчеров экспорта и их сценариев (предполагается, что вы уже запускали модули [Подключение-AzureAd](/powershell/module/azuread/connect-azuread?view=azureadps-2.0) [и Подключение-MicrosoftTeams](/powershell/module/teams/connect-microsoftteams?view=teams-ps) PowerShell). Диспетчеры экспорта и *их* сценарии создают файл с ExportedManagerDirects.txt со своими прямыми отчетами. 
+Начните с [](scripts/powershell-script-create-teams-from-managers-export-managers.md) запуска диспетчеров экспорта и их сценариев (предполагается, что вы уже запускали модули [Подключение-AzureAd](/powershell/module/azuread/connect-azuread?view=azureadps-2.0) [и Подключение-MicrosoftTeams](/powershell/module/teams/connect-microsoftteams?view=teams-ps) PowerShell). Диспетчеры экспорта и *их* сценарии создают файл с ExportedManagerDirects.txt, в который будут ExportedManagerDirects.txt с прямыми отчетами. 
 
-Затем запустите сценарий Create new people manager teams (Создать [группу диспетчера новых людей).](scripts/powershell-script-create-teams-from-managers-new-teams.md) Этот сценарий читается в файле ExportedManagerDirects.txt и создает команду для каждого руководителя, а его непосредственные отчеты являются участниками. Если какой-либо руководитель или руководитель не Teams, сценарий пропускает их и не создает команду. (Просмотрите отчет, а затем повторно во время его включив Teams для всех, кому он нужен. Сценарий не создает вторую команду для руководителя, для него уже создана команда.)
+Затем запустите сценарий Create new people manager teams (Создать [группу диспетчера новых людей).](scripts/powershell-script-create-teams-from-managers-new-teams.md) Этот сценарий читается в файле ExportedManagerDirects.txt и создает команду для каждого руководителя, а его непосредственные отчеты будут участниками. Если какой-либо руководитель или Teams не включен, сценарий пропускает их и не создает команду. (Просмотрите отчет, а затем повторно во время его включив Teams для всех, кому он нужен. Сценарий не создает вторую команду для руководителя, для него уже создана команда.)
 
 Для каждой команды сценарий создает канал "Общие" и "Просто для развлечения". 
 
@@ -40,7 +40,7 @@ ms.locfileid: "54282812"
 
 - Попросите каждого руководителя добавить веб-сайт для связи в связи скризис в качестве вкладки в общий канал для каждой команды. 
 
-- Ознакомьтесь с новым приложением "Связь в случае скризис" в этой записи блога от 8 марта 2020 г. "Координация коммуникаций в случае Microsoft Teams [+ Power Platform".](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/coordinate-crisis-communications-using-microsoft-teams-power/ba-p/1216715)
+- Ознакомьтесь с новым приложением "Связь в случае скризис" в этой записи блога от 8 марта 2020 г. "Координация коммуникаций в случае Microsoft Teams [+ Power Platform"](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/coordinate-crisis-communications-using-microsoft-teams-power/ba-p/1216715)(8 марта 2020 г.).
 
 ## <a name="related-topics"></a>Статьи по теме
 

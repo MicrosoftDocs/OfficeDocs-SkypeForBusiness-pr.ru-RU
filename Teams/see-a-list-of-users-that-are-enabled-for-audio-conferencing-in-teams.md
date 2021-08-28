@@ -15,19 +15,19 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: 'Узнайте, как просмотреть список пользователей в организации, для них в организации включена возможность телефонной связи в Microsoft Teams. '
-ms.openlocfilehash: 38de936e6a15c16fdbca42f5dbaa558f150152ceb4dc2466d4d7c49720f3ba42
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 'Узнайте, как просмотреть список пользователей в организации, для которые включены для телефонной связи в Microsoft Teams. '
+ms.openlocfilehash: 7d6c77eaefe3d3247e8b950cfffff156606db008
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54316735"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58579593"
 ---
 # <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-microsoft-teams"></a>Список пользователей с включенными аудиоконференциями в Microsoft Teams
 

@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: После удаления пула переднего конца или перенастройки пула для использования другой базы данных можно удалить SQL Server баз данных, в которые были организованы данные пула. Используйте следующие процедуры, чтобы удалить определения из Topology Builder, а затем удалить базы данных и файлы журнала с сервера базы данных.
-ms.openlocfilehash: 01a28beabb85aa7cda25043680537f519872d58654dee5418f03ae9f5f702a19
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2a11057811035b0dc51810d3a6b7eb8220c7df1f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54340325"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58580113"
 ---
 # <a name="remove-the-sql-server-database-for-a-front-end-pool"></a>Удаление базы данных SQL Server для пула переднего плана
 

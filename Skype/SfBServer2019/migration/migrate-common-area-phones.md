@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Телефоны общего пользования — это IP-телефоны, находящиеся обычно в общих рабочих помещениях или местах общего пользования, таких как вестибюли, кухни или заводские цеха. Общие телефоны области не должны быть подключены к компьютеру, чтобы обеспечить Skype для бизнеса Server единой связи (UC). После переноса развертывания на Skype для бизнеса Server 2019 г. необходимо также перенести контактные объекты, связанные с устаревшим общим Телефон. С помощью Skype для бизнеса Server Management Shell вы сначала извлекаете все контактные объекты, связанные с устаревшими телефонами общей области, а затем переместите эти объекты в пул Skype для бизнеса Server 2019 г.
-ms.openlocfilehash: 808e874216fac97b01face6efa7aae00e269b74ee0f009b106f872a33a6d6261
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: dabb91925b2d5271ba2760f62dd962ed7fa7a24c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54340435"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58579533"
 ---
 # <a name="migrate-common-area-phones"></a>Миграция телефонов общего пользования
 

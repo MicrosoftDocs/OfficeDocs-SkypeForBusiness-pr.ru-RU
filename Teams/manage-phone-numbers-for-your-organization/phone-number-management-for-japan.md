@@ -13,18 +13,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
 description: В этой таблице вы найдете сведения о получении номеров телефонов в Японии и управлении Microsoft Teams.
-ms.openlocfilehash: 713897cbaf38e2e411db67e7b28358a4bd11d9d4
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: ed0b4403f28f825cdf98a7fde20d3fe4e3b88199
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234984"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58628351"
 ---
 # <a name="phone-number-management-for-japan"></a>Телефон управления номерами для Японии
 
@@ -40,7 +40,7 @@ ms.locfileid: "58234984"
 |:-----|:-----|
 |Получите новые номера телефонов пользователей для планов звонков в Японии.|Обратитесь за новыми номерами телефонов для пользователей с телефонным номером [SoftBank Calling.](https://aka.ms/SoftBankVoicePlan) Затем  эти номера будут добавлены вашей организации, вы можете назначить их пользователям. <br/>
 |Получите новые номера телефонов служб для аудиоконференций, автослужб и очередей звонков в Японии.|[За инструкциями обратитесь в службу поддержки ТССК.](contact-pstn-service-desk.md)|
-|Перенос номеров телефонов в Microsoft 365 или Office 365 **пользователям в** Японии.|Обратитесь к [службе SoftBank Calling,](https://aka.ms/SoftBankVoicePlan) чтобы перенести номера телефонов пользователей. Затем эти номера будут добавлены вашей организации.  <br/> |
+|Перевод номеров телефонов в Microsoft 365 или Office 365 **пользователям в** Японии.|Обратитесь к [службе SoftBank Calling,](https://aka.ms/SoftBankVoicePlan) чтобы перенести номера телефонов пользователей. Затем эти номера будут добавлены вашей организации.  <br/> |
 |Перенос номеров телефонов в Microsoft 365 или Office 365 очередей **звонков** в Японии.|Для переноса [номеров телефонов службы](https://aka.ms/SoftBankVoicePlan) обратитесь в службу Звонки SoftBank. Затем эти номера будут добавлены вашей организации.|
 |Измените адрес для экстренного вызова, который назначен пользователям с номером телефона плана звонков.|Обратитесь в [службу звонков SoftBank,](https://aka.ms/SoftBankVoicePlan) чтобы внести изменения в адрес для экстренного вызова. Они могут обновлять эти сведения для вас.|
 |Измените номер пользователя на номер службы. |В настоящее время не поддерживается при использовании звонков SoftBank.|
@@ -54,4 +54,4 @@ ms.locfileid: "58234984"
 
 [Условия и положения, распространяющиеся на экстренные вызовы](../emergency-calling-terms-and-conditions.md)
 
-[Отказ от ответственности для экстренных вызовов](https://download.microsoft.com/download/a/8/0/a807c43d-2177-4fe0-8732-86b3784ae6e5/emergency-calling-label-(en-us)-(v.1.0).zip)
+[Заявление об отказе от ответственности экстренных вызовов](https://download.microsoft.com/download/a/8/0/a807c43d-2177-4fe0-8732-86b3784ae6e5/emergency-calling-label-(en-us)-(v.1.0).zip)

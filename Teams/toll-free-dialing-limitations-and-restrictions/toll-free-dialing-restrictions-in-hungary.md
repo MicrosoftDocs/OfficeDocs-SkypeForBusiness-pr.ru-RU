@@ -16,20 +16,20 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: Узнайте о наборе бесплатных номеров в Венгрии, включая доступность, доступность проводной и фиксированной телефонной связи, а также ограничения для мобильной сети.
-ms.openlocfilehash: 76600d0029c5abb96fd3248beb1e809a04e5e62409da69de237ebe965c5fd594
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Узнайте о наборе бесплатных номеров в Венгрии, в том числе о доступности, доступности проводных и фиксированных номеров, а также об ограничениях для мобильной сети.
+ms.openlocfilehash: 876c4120e92a9a0d16a806bde3649397668e80bf
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54335877"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58579563"
 ---
 # <a name="toll-free-dialing-restrictions-in-hungary"></a>Ограничения набора бесплатных номеров в Венгрии
 

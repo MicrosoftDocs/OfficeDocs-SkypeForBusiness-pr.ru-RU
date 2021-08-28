@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddPstnGatewayIPPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 319fdc9f-7ed6-4ed3-8f3f-b78758a0eb42
 description: Адреса IPv4 или IPv6 для шлюза IP-телефонии или ТСОП можно определить, выбрав параметр Включить IPv4 или Включить IPv6. Можно выбрать параметр Использовать все настроенные IP-адреса или Ограничить использование службы выбранными IP-адресами.
-ms.openlocfilehash: fc62cc1b65fdb486f63bcebc0b337e9eed0f9cad1ddc2e250f4135b1be1478a8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d576010abafed3cb2f808a59c389c1975b6efa20
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54301561"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58605088"
 ---
 # <a name="define-the-ip-address-of-the-ip-or-pstn-gateway"></a>Определение IP-адреса шлюза IP или ТСОП
 

@@ -9,25 +9,25 @@ ms.topic: quickstart
 ms.service: msteams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: Дополнительные сведения о развертывании полос совместной работы для Microsoft Teams.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: ce5fe8fa0066ea613cdee1dbea6cf7fb2e385e2694ae9b84bbd99901c999f69b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3388e2eb1e086cd347769a50bb9603f4a0832402
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54334720"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58605818"
 ---
 # <a name="create-a-microsoft-365-resource-account-using-the-powershell"></a>Создание учетной Microsoft 365 ресурса с помощью PowerShell
 
 В этой теме вы можете найти сведения о том, как создавать учетные записи ресурсов для полос совместной работы Microsoft Teams с помощью PowerShell.
 
-Проще всего создать учетную запись ресурса с помощью Центр администрирования Microsoft 365. [См. эту статью о том, как это сделать.](resource-account-ui.md)
+Учетную запись ресурса проще всего создать с помощью Центр администрирования Microsoft 365. [См. эту статью о том, как это сделать.](resource-account-ui.md)
 
 [!INCLUDE [m365-teams-resource-account-difference](../includes/m365-teams-resource-account-difference.md)]
 
@@ -35,7 +35,7 @@ ms.locfileid: "54334720"
 
 Прежде чем Комнаты Microsoft Teams с Office 365, убедитесь, что выполнены требования. Дополнительные сведения см. в [этой](collab-bar-deploy.md)Microsoft Teams.
 
-- Если для панели совместной работы требуются возможности ПСПС, вам потребуется телефонная система лицензию.
+- Если для панели совместной работы необходимы возможности ПСДН, вам потребуется телефонная система лицензию.
 
 - У учетных записей ресурсов должны быть Exchange почтовые ящики. Так как это учетные записи ресурсов, Exchange лицензия не требуется. Рекомендуем использовать лицензию "Комнаты собраний" для учетных записей ресурсов.
 
@@ -72,7 +72,7 @@ ms.locfileid: "54334720"
      Set-Mailbox -Identity <RoomMailboxIdentity> -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '<Password>' -AsPlainText -Force)
      ```
 
-     В этом примере включается учетная запись существующего почтового ящика комнаты со значением псевдонима HuddleRoom02 и устанавливается пароль 808P@$$W 0rd. Обратите внимание, что учетная запись будет HuddleRoom02@contoso.onmicrosoft.com из-за существующего значения псевдонима.
+     В этом примере включается учетная запись существующего почтового ящика комнаты со значением псевдонима HuddleRoom02 и устанавливается пароль 808P@$$W 0rd. Обратите внимание, что учетная запись HuddleRoom02@contoso.onmicrosoft.com из-за существующего значения псевдонима.
 
      ``` PowerShell
      Set-Mailbox -Identity HuddleRoom02 -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '808P@$$W0rd' -AsPlainText -Force)
@@ -87,13 +87,13 @@ ms.locfileid: "54334720"
 
    - AddOrganizerToSubject: $false (Организатор собрания не добавляется в тему запроса на собрание.)
 
-   - DeleteComments: $false (Сохранить текст в тексте сообщения входящих запросов на собрание.)
+   - DeleteComments: $false (Хранить текст в тексте сообщения входящих запросов на собрания).)
 
-   - DeleteSubject: $false (Храните тему входящих запросов на собрания.)
+   - DeleteSubject: $false (Тема входящих запросов на собрание.)
 
-   - RemovePrivateProperty: $false (гарантирует, что личный флажок, отправленный организатором собрания в исходном запросе на собрание, не будет установлен.)
+   - RemovePrivateProperty: $false (гарантирует, что личный флажок, отправленный организатором собрания в исходном запросе на собрание, останется указанным.)
 
-   - AddAdditionalResponse: $true (текст, заданный параметром AdditionalResponse, добавляется в запросы на собрания.)
+   - AddAdditionalResponse: $true (Текст, заданный параметром AdditionalResponse, добавляется в запросы на собрания.)
 
    - AdditionalResponse: "В этом помещении есть панели совместной работы для Microsoft Teams!" (Дополнительный текст, который нужно добавить в запрос на собрание.)
 
@@ -105,7 +105,7 @@ ms.locfileid: "54334720"
 
    Подробные сведения о синтаксисе и параметрах см. в описании [set-CalendarProcessing.](/powershell/module/exchange/mailboxes/set-calendarprocessing)
 
-4. Подключение в MS Online PowerShell, чтобы создать параметры Active Directory с помощью этого `Connect-MsolService -Credential $cred` mdlet.   Подробные сведения об Active Directory см. в [azure ActiveDirectory (MSOnline) 1.0.](/powershell/azure/active-directory/overview?view=azureadps-1.0) 
+4. Подключение ms Online PowerShell, чтобы создать параметры Active Directory с помощью этого `Connect-MsolService -Credential $cred` mdlet.   Подробные сведения об Active Directory см. в [azure ActiveDirectory (MSOnline) 1.0.](/powershell/azure/active-directory/overview?view=azureadps-1.0) 
 
    > [!NOTE]
    > [Azure Active Directory PowerShell 2.0](/powershell/azure/active-directory/overview?view=azureadps-2.0) не поддерживается. 
@@ -116,7 +116,7 @@ ms.locfileid: "54334720"
       Set-MsolUser -UserPrincipalName huddleroom01@contoso.onmicrosoft.com -PasswordNeverExpires $true
       ```
     
-6. У учетной записи ресурса должна быть действительная Office 365 лицензия, предпочтительно Конференц-зал SKU. Кроме того, необходимо назначить учетной записи устройства место использования — это определяет, какие номера номеров лицензий доступны для вашей учетной записи. Вы можете `Get-MsolAccountSku` получить список доступных skUs для Office 365 клиента.
+6. У учетной записи ресурса должна быть действительная Office 365 лицензия, а Конференц-зал SKU. Кроме того, необходимо назначить учетной записи устройства место использования — это определяет, какие номера номеров лицензий доступны для вашей учетной записи. Вы можете `Get-MsolAccountSku` получить список доступных skUs для Office 365 клиента.
 
       ``` Powershell
       Get-MsolAccountSku
@@ -133,8 +133,8 @@ ms.locfileid: "54334720"
 
 
 
-[Настройка учетных записей для полос совместной Microsoft Teams с помощью PowerShell](resource-account-ps.md)
+[Настройка учетных записей для полос совместной работы Microsoft Teams с помощью PowerShell](resource-account-ps.md)
 
 [Развертывание полос совместной работы для Microsoft Teams](collab-bar-deploy.md)
 
-[Области совместной работы для Microsoft Teams лицензирования](../rooms/rooms-licensing.md)
+[Полосы совместной работы для Microsoft Teams лицензирования](../rooms/rooms-licensing.md)

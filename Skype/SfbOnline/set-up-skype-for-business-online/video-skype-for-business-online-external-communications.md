@@ -13,24 +13,24 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
-description: 'Узнайте, как настроить внешние Skype для бизнеса в Интернете для общения с внешними Skype контактами. '
-ms.openlocfilehash: b363814066e8a9bb0169baa3a41e81d10fb69ba3ecca862530292d73b5e94b65
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 'Узнайте, как настроить внешние Skype для бизнеса общения в Интернете для общения с внешними Skype контактами. '
+ms.openlocfilehash: 1d4fdfb996b3294637474bfef78caae647ddc4e8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54297655"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58605668"
 ---
 # <a name="video-skype-for-business-online-external-communications"></a>Видео: Внешняя связь в Skype для бизнеса Online
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-Настройка внешней Skype для бизнеса в Интернете, чтобы пользователи могли общаться с внешними Skype для бизнеса контактами, Lync и Skype контактами.
+Настройка внешней Skype для бизнеса связи в Интернете для общения с внешними пользователями Skype для бизнеса, Lync и Skype контактами.
 
  **Аудитория: Microsoft 365** и Office 365 администраторов
 

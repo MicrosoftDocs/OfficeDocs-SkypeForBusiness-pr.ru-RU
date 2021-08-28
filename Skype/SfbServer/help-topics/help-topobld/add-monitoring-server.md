@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddMonitoringServerPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 365f5b3a-ad1b-4145-bd5c-296c9a0aa482
 description: Чтобы включить сервер мониторинга в топологию, необходимо указать полное доменное имя (FQDN) сервера, на котором необходимо развернуть сервер мониторинга. Перед публикацией топологии, которая включает сервер мониторинга и Skype для бизнеса Server на сервере, необходимо выполнить все необходимые условия для развертывания мониторинга. Сведения об этих предварительных требованиях см. в разделе Deploying Monitoring в документации по развертыванию.
-ms.openlocfilehash: 3ee7f3416d17c3d864add6ecdb8ca3ac2f2955490747278a5f07de6205d3607b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c40ed219ab1ab34cf07c3143df3f27889f228a5b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54319202"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58605148"
 ---
 # <a name="add-monitoring-server"></a>Добавление сервера мониторинга
 

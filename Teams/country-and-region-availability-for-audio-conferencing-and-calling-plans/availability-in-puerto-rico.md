@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже находятся Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Пуэрто-Рико.
-ms.openlocfilehash: cff19fdfe3379b510997a771ee7ff0d77abe2bf3660724c884715563bfed93d9
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Ниже ются Microsoft 365 и Office 365 службы Skype для бизнеса и Microsoft Teams для Пуэрто-Рико.
+ms.openlocfilehash: 63c4ce78cb45483118c05d935fb6ade300d51d16
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54344348"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58605918"
 ---
 # <a name="availability-in-puerto-rico"></a>Доступность в Пуэрто-Рико
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже находятся Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Пуэрто-Рико.
+Ниже ются Microsoft 365 и Office 365 службы Skype для бизнеса и Microsoft Teams для Пуэрто-Рико.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 

@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Общепринятым методом миграции является создание нескольких тестовых пользователей и их использование для проведения испытаний систем. После успешного переноса и тестирования этих учетных записей следует выбрать группу пользователей рабочей среды для участия в пилотной программе. Перенесите их учетные записи и проведите для них проверочные тесты. Когда результаты будут удовлетворительными, вы можете перенести остальных пользователей в новую среду.
-ms.openlocfilehash: bea6509768ed99f96f4c16df9736d4da4993eee196b4f16ad5aa9575cc1eee08
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4a9f0b6eb7243a7bb47edefb91614d81426d94fe
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54280374"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58579413"
 ---
 # <a name="user-migration"></a>Миграция пользователей
 

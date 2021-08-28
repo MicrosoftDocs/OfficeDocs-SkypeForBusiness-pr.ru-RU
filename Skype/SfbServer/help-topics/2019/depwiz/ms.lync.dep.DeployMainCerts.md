@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 332ec40f-78be-440a-8c1d-ada6114897db
 ROBOTS: NOINDEX, NOFOLLOW
 description: Шаг 3. Запрашивать, устанавливать или назначать сертификаты запускает мастер сертификатов при нажатии кнопки Выполнить. Сертификаты, настроенные с помощью мастера, основаны на определении топологии Skype для бизнеса Server, которая настраивается и публикуется компанией Topology Builder в хранилище Central Management. Чтобы успешно выполнить мастер сертификатов для органа сертификации в интернете (CA) в организации, необходимо войти на компьютер в качестве пользователя, который является членом группы локальных администраторов компьютера. Вы также должны быть пользователем домена с проверкой подлинности в домене, в котором существует компьютер и ЦС. Мастер сертификатов предоставляет возможность указать альтернативные учетные данные для доступа к ЦС организации.
-ms.openlocfilehash: 44eb8c3ca1361742a114b3763bde911842734c1ced498dfae73c1f8a7c3c3d45
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 63581c0a24d8bef811d77a5473326d17e404b8d4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54282182"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58605448"
 ---
 # <a name="request-install-or-assign-certificates"></a>Запрос, установка или назначение сертификатов
  

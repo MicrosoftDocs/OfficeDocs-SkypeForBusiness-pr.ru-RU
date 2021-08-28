@@ -15,7 +15,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Ниже ются Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Камеруна.
-ms.openlocfilehash: 8633073a2da75c92fd29d4f2b240439435a6acfcecb7a787acfd8347c7becd0d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6b47e7488aa7c9e33bc00c82b337ea5b67ab5b10
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54332841"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58605958"
 ---
 # <a name="availability-in-cameroon"></a>Доступность в Камеруне
 
@@ -68,7 +68,7 @@ ms.locfileid: "54332841"
 
 |**Функция**|**Сведения**|
 |:-----|:-----|
-|Для каких столиц или крупных городов можно получить платные номера?   | Не географическое положение. Номера телефонов не связаны с конкретным городом или местоположением. <br/> |
+|Для каких столиц или крупных городов можно получить платные номера?   | Не географическое. Номера телефонов не связаны с конкретным городом или местоположением. <br/> |
 |Доступны ли платные номера?  <br/> |Не географическое положение[(по запросу](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
 |Доступны ли бесплатные номера?  <br/> |Нет  <br/> |
    

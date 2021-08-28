@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже находятся Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Новой Зеландии.
-ms.openlocfilehash: 8ea346d34a89f7e52e21f16e78f3fd779d9e46fef750e8dca003042ebcaf63f4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Ниже ются Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Новой Зеландии.
+ms.openlocfilehash: 57f12881a3a3b73928af6186d415d772d4054b77
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54332851"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58605948"
 ---
 # <a name="availability-in-new-zealand"></a>Доступность в Новой Зеландии
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже находятся Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Новой Зеландии.
+Ниже ются Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Новой Зеландии.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 
