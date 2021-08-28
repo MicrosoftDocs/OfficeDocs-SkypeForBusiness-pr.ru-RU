@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1925db10-223e-4213-84cc-1de933878b28
 ROBOTS: NOINDEX, NOFOLLOW
 description: На странице Выполнение команд отображается сводка выполнения задач по развертыванию роли сервера. После выполнения задач развертывание и активация, деактивации и деинсталлации отображается сводка. Кроме того, в раскрывающемся списке можно выбрать любые файлы журнала, которые создаются при выполнении команды. Выберите в раскрывающемся списке файл журнала, который хотите просмотреть, и нажмите кнопку Просмотреть журнал.
-ms.openlocfilehash: e7549ace91fb9c736cfcba18026179a74e52b381d4f7b5c40366dcf305de027c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0aada4a7af1210c6370bc74a479f4e87db059861
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54291937"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58622951"
 ---
 # <a name="setup-or-remove-skype-for-business-server-components-invoke"></a>Установка или удаление компонентов Skype для бизнеса Server (вызов)
  

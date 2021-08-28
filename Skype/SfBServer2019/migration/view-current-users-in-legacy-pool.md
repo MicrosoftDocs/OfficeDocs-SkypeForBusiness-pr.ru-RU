@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Прежде чем изучать различные способы перемещения пользователей между пулами, сначала необходимо определить, какие пользователи существуют в устаревшем пуле. Столбец пула регистратора определяет пользователей, настроенных для устаревшего пула. Это тестовые пользователи, которые мы перейдем в Skype для бизнеса Server 2019 года.
-ms.openlocfilehash: 16d8796099356b927482a7e0d7eb395ebb4f03e76f9de83a386cfc2f8d5bd9a1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 739a6dc22b9fe73cdaf316ce5ccd70d4dbeca729
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54285509"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58599684"
 ---
 # <a name="view-current-users-in-legacy-pool"></a>Просмотр текущих пользователей в старом пуле
 

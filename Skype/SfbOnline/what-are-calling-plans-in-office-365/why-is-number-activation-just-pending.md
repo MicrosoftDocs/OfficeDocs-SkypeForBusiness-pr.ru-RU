@@ -14,7 +14,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - CSH
@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - ms.lync.lac.NumberActivationStatePending
 description: Проверка адреса является важной частью настройки планов звонков. Она предоставляет пользователю организации адрес для экстренного реагирования, который могутжет использоваться соответствующими экстренные службыами.
-ms.openlocfilehash: 8e80d272c08aada8020ab39caab0290ef45199f00663c73b1c269318e9b3518b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 62558171dc8f6fb93d140995d3ce7cff56227519
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54330593"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58599574"
 ---
 # <a name="why-is-number-activation-just-pending"></a>Почему активация номера находится в ожидании?
 
@@ -44,9 +44,9 @@ ms.locfileid: "54330593"
  
 ## <a name="for-organizations-with-more-than-150-users-create-a-service-request-to-validate-an-emergency-address"></a>Если в вашей организации больше 150 пользователей, создайте запрос на обслуживание для проверки адреса экстренного реагирования
 
-1. Во sign in as an administrator to Microsoft 365 or Office 365 with your work or school account.
+1. Во войти в качестве администратора, чтобы Microsoft 365 или Office 365 с помощью своей учебной или учебной учетной записи.
     
-2. В Центре администрирования на левой навигации **щелкните** Поддержка  >  **нового запроса на обслуживание**.
+2. В центре администрирования на левой области навигации **щелкните** Поддержка  >  **нового запроса на обслуживание**.
     
 3. В меню **Запросы на обслуживание** щелкните **Добавить**.
     

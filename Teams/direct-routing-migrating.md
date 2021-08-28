@@ -7,7 +7,7 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.service: msteams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-voice
@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Узнайте, что необходимо для перехода на прямую маршрутизацию применительно к Skype для бизнеса Online и настройке Teams.
-ms.openlocfilehash: bcc31554428c847fc9eb3c45804be42e850b30f943fadcc3ef6e245d07c9d4fb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 71776c18dc6ec802c19f9dfc94c51b2b714bc210
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54302010"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58599754"
 ---
 # <a name="migrate-to-direct-routing"></a>Переход на прямую маршрутизацию
 
@@ -36,7 +36,7 @@ ms.locfileid: "54302010"
 
 ## <a name="user-provisioning-end-state-for-various-pstn-connectivity-options"></a>Конечное состояние подготовки пользователей для различных вариантов подключения к ТСОП 
 
-В следующей таблице показано, в чем конечный состояние пользователя, подготовка к выбранным вариантам подключения через ПСС с телефонная система. Отображаются только те атрибуты, которые относятся к голосовой связи.
+В таблице ниже показано, в чем конечный состояние пользователя, который должен быть подключен к выбранным вариантам подключения через телефонная система. Отображаются только те атрибуты, которые относятся к голосовой связи.
 
 |Атрибуты объекта-пользователя |Телефонная система с планами звонков|Телефонная система с возможностью подключения к локальной ТСОП через Skype для бизнеса Server|Телефонная система с возможностью подключения к локальной ТСОП через Cloud Connector|Телефонная система с возможностью подключения к локальной ТСОП через прямую маршрутизацию|
 |---|---|---|---|---|
@@ -97,7 +97,7 @@ Grant-CsVoiceRoutingPolicy -PolicyName $NULL -Identity <UPN>
 ## <a name="migrating-from-office-365-phone-system-with-on-premises-pstn-connectivity-via-cloud-connector-edition"></a>Переход с телефонной системы Office 365 с возможностью подключения к локальной ТСОП через Cloud Connector Edition 
 
 > [!Important]
-> Выпуск Cloud Connector Edition завершится 31 июля 2021 г. вместе с Skype для бизнеса Online. После обновления организации до Teams, узнайте, как подключить к сети локальной телефонии Teams с помощью прямой [маршрутизации.](direct-routing-landing-page.md)
+> Выпуск Cloud Connector Edition завершит работать 31 июля 2021 г. вместе с Skype для бизнеса Online. После обновления организации до Teams, узнайте, как подключить к сети локальной телефонии подключение Teams с помощью прямой [маршрутизации.](direct-routing-landing-page.md)
 
 Дополнительные сведения о переходе с телефонной системы с возможностью подключения к локальной ТСОП через Cloud Connector см. в следующих статьях:
 

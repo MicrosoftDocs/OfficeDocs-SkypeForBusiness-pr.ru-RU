@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.custom: httpsfix
 description: В следующем разделе приводится руководство по обновлению записей DNS, перемещению сервера управления контентом, выводу пулов из эксплуатации, а также отключению и удалянию серверов и пулов из устаревшего развертывания. Не все процедуры, рассматриваемые в этом разделе, являются обязательными. Ознакомьтесь в документацией и определите, какую из процедур списания следует использовать.
-ms.openlocfilehash: 7b96639b07ee8788f109a08f38265f4c0c27e0f035b1a7729488d4064ec31208
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7285ffd7c4d4087dba3b9fe9bf7ff2fadba2b62e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54285519"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58613308"
 ---
 # <a name="phase-8-decommission-legacy-pools"></a>Этап 8: ликвидация старых пулов
 
@@ -28,7 +28,7 @@ ms.locfileid: "54285519"
 > [!IMPORTANT]
 > Сведения о переносе и обновлении приложений microsoft Unified Communications Managed API (UCMA) перед выводом из эксплуатации устаревшей среды см. в приложении [UCMA: сосуществование,](/previous-versions/office/jj728782(v=office.15))миграция и сценарии обновления.
   
-## <a name="in-this-section"></a>Содержание
+## <a name="in-this-section"></a>В этой статье
 
 > [Обновление записей DNS SRV](update-dns-srv-records.md)
 > 

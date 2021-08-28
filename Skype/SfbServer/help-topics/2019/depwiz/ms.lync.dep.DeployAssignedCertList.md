@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bfc6db2d-141e-4395-819a-65ba4629ccca
 ROBOTS: NOINDEX, NOFOLLOW
 description: На странице Просмотр сертификата имеется панель, на которой можно выбрать любой действующий сертификат в локальном хранилище сертификатов. Выберите сертификат и нажмите кнопку Просмотреть сведения о сертификате. Откроется новая панель с сертификатом. На панели Сертификат можно просмотреть общие сведения о сертификате. На вкладке Сведения отображается подробная информация о сертификате, например имя субъекта и альтернативное имя субъекта. Путь сертификации отображает путь к доверительному пути для сертификата. Завершив просмотр информации, нажмите кнопку ОК.
-ms.openlocfilehash: 363dad96b2eb42391d86950b96f51a7bf2ce12a714042d5594c7bfbf15ebe5f4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e266caa65b5b2ce0e74871651a94ad13efedb26d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54291957"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58622971"
 ---
 # <a name="view-certificate"></a>Просмотр сертификата
  

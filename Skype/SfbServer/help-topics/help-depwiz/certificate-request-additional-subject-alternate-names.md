@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.dep.DeployCertRequestSans
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 99ef9628-72a5-463d-8dd6-4b783dcc8360
 description: С помощью функции Настройка дополнительных альтернативных имен субъектов можно добавить в сертификат дополнительные альтернативные имена субъектов перед завершением и отправкой запроса сертификата. Чтобы добавить альтернативное имя субъекта, введите полное доменное имя и нажмите кнопку Добавить. Если необходимо удалить добавленное имя, выделите его и нажмите кнопку Удалить. Чтобы удалить все добавленные альтернативные имена субъектов, нажмите кнопку Очистить все.
-ms.openlocfilehash: 498881c7785e357528b2760027b9337ee6469293f5eb5cd29e9630e9db655354
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: bc57f7694937b76451db42c767732081287c9619
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54307440"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58596963"
 ---
 # <a name="certificate-request-additional-subject-alternate-names"></a>Запрос сертификата (дополнительные альтернативные имена субъектов)
  

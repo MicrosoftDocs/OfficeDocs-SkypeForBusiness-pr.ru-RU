@@ -13,18 +13,18 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - PowerShell
 description: Используйте Windows PowerShell и Get-CsTenant и Get-CsTenantLicensingConfiguration, чтобы получить сведения о клиенте Skype для бизнеса Online.
-ms.openlocfilehash: 733d7e30bc25f15bcf05c2746ef1eb2cb8aa5cfd8e7e780356c4a972ef97a183
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e45f1bdd2c14aea34e07183dde86031a8c503476
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54298749"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58623091"
 ---
 # <a name="manage-skype-for-business-online-organizations"></a>Управление Skype для бизнеса online
 
@@ -32,11 +32,11 @@ ms.locfileid: "54298749"
 > [!NOTE]
 > Последний [общедоступный Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/) интегрирован с Skype для бизнеса Online Connector, предоставляя один модуль для управления Teams PowerShell.
 
-Сведения о вашем клиенте Skype для бизнеса Online можно найти с помощью кнопок **Get-CsTenant** и **Get-CsTenantLicensingConfiguration.**
+Сведения о вашем клиенте Skype для бизнеса Online можно найти с помощью **cmdlets Get-CsTenant** и **Get-CsTenantLicensingConfiguration.**
   
 ## <a name="manage-skype-for-business-online-tenants"></a>Управление Skype для бизнеса online
 
-Чтобы получить сведения о клиенте Skype для бизнеса Online, позвоните на [веб-сайт Get-CsTenant](/powershell/module/skype/Get-CsTenant) без дополнительных параметров.
+Чтобы получить сведения о вашем клиенте Skype для бизнеса Online, позвоните на [cmdlet Get-CsTenant](/powershell/module/skype/Get-CsTenant) без дополнительных параметров.
   
 ```PowerShell
 Get-CsTenant
@@ -53,6 +53,6 @@ Get-CsTenant | Select-Object Name, TenantID
 Сведения о том, доступны ли сведения о лицензировании для указанного клиента в Центре администрирования Skype для бизнеса Online, см. с помощью [cmdlet Get-CsTenantLicensingConfiguration.](/powershell/module/skype/Get-CsTenantLicensingConfiguration)
   
 ## <a name="related-topics"></a>Статьи по теме
-[Настройка компьютера для управления Skype для бизнеса online с помощью Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
+[Настройка компьютера для управления Skype для бизнеса в Интернете с помощью Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
 
   

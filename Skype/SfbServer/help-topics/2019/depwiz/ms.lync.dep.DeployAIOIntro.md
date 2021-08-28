@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fe11d380-54c9-47e7-a676-02b9a59dc93f
 ROBOTS: NOINDEX, NOFOLLOW
 description: Чтобы приступить к установке сервера Skype для бизнеса Server выпуск Standard, на который будут размещены центральный магазин управления и другие выбранные вами службы, необходимо войти в систему в качестве члена локальной группы администраторов на сервере, который станет выпуск Standard сервером. На странице Prepare выпуск Standard Server подробно извеются требования к начальной установке. Компьютер должен быть членом домена, в котором вы собираетесь развернуть его, и вы должны успешно завершить подготовку схемы, леса и домена для леса.
-ms.openlocfilehash: 352b4ece936d609ed73540370313d21e83b9034c5efdbbdefb40528921bf8e34
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 219f8c9b4ae982626bcafaf4942caa133a89b272
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54292247"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58623001"
 ---
 # <a name="prepare-single-standard-edition-server-intro"></a>Подготовка отдельного сервера Standard Edition (введение)
  

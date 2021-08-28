@@ -22,18 +22,18 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f8eccc6e885cef67d4f6240483d3995df88d7cfc
-ms.sourcegitcommit: 25fd720c008dcf1573344e50d736131a20c3ac7d
+ms.openlocfilehash: b9233f3a807846261a563d11b46d0fea59092780
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "58683313"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58613478"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>Настройка параметров трансляции в Microsoft Teams
 
 Используйте Teams трансляций, чтобы настроить параметры трансляций, которые проводятся в вашей организации. Вы можете настроить URL-адрес службы поддержки и стороного поставщика видеоконференции. Эти параметры применяются для всех трансляций, созданных в организации.
 
-Вы можете легко управлять этими настройками в Microsoft Teams администрирования. В левой области навигации перейдите к **настройкам трансляций**  >  **собраний**.
+Вы можете легко управлять этими настройками в центре Microsoft Teams администрирования. В левой области навигации перейдите к **настройкам трансляций**  >  **собраний**.
 
 ![Снимок экрана: Teams трансляций](../media/teams-live-events-settings.png "Снимок экрана: Teams трансляций, которые можно настроить в Центре Microsoft Teams администрирования")
 
@@ -73,7 +73,7 @@ Set-CsTeamsMeetingBroadcastConfiguration -SupportURL “{your URL}”
     - **URL-адрес шаблона API SDN** Введите URL-адрес шаблона API, который вы получили от своего поставщика услуг.
 
 ### <a name="using-windows-powershell"></a>Использование Windows PowerShell
-Получите от своего контакта ИД лицензии или маркер API и шаблон API, а затем запустите один из следующих решений в зависимости от используемого поставщика:
+Получите от своего поставщика удостоверение лицензии или маркер API и шаблон API, а затем запустите один из следующих решений в зависимости от используемого поставщика:
 
 **Hive** 
 ```PowerShell
@@ -90,10 +90,6 @@ Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $T
 **Ramp** 
 ```PowerShell
 Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName ramp -SdnRuntimeConfiguration "{Configuration provided by RAMP}"
-```
-**Peer5**
-```PowerShell
-Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName peer5 -SdnLicenseId {peer5CustomerId}
 ```
 
 Дополнительные сведения [см. в настройках Set-CsTeamsMeetingBroadcastConfiguration.](/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps)

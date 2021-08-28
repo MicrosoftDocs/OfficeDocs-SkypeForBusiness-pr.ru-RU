@@ -13,18 +13,18 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - SMB
-description: Чтобы люди в вашей организации могли Skype трансляцию собраний, необходимо включить ее. Для этого необходимо знать, как использовать Windows PowerShell. Если вы не знаете, Windows PowerShell, вы можете нанять партнера Майкрософт, который сделает это за вас.
-ms.openlocfilehash: 99e5464ac092f30edf2667dbfd772b11c41ca4a795893e1e3415a54cf566ee44
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Чтобы люди в вашей организации могли Skype трансляцию собраний, необходимо включить ее. Для этого необходимо знать, как использовать Windows PowerShell. Если вы не знаете, Windows PowerShell, возможно, вы нанимаете партнера Майкрософт, который сделает это за вас.
+ms.openlocfilehash: 4f16444a07c81b44e4078a2c294208f59e4d7775
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54339267"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58599674"
 ---
 # <a name="enable-skype-meeting-broadcast"></a>Включение трансляции собрания Skype
 
@@ -33,12 +33,12 @@ ms.locfileid: "54339267"
 > [!IMPORTANT]
 > Skype для бизнеса 31 июля 2021 г. заканчивается доступ к службе Online. Мы рекомендуем клиентам начать обновление до Microsoft Teams , основного клиента для связи и командной работы в Microsoft 365.
 
-Чтобы люди в вашей организации могли Skype трансляцию собраний, необходимо включить ее. Для этого необходимо знать, как использовать Windows PowerShell. Если вы не знаете, Windows PowerShell, вы можете [](https://go.microsoft.com/fwlink/?linkid=391089) нанять партнера Майкрософт, который сделает это за вас.
+Чтобы люди в вашей организации могли Skype трансляцию собраний, необходимо включить ее. Для этого необходимо знать, как использовать Windows PowerShell. Если вы не знаете, Windows PowerShell можете нанять партнера [Майкрософт,](https://go.microsoft.com/fwlink/?linkid=391089) который сделает это за вас.
 
 
 
 > [!NOTE]
-> Центр Microsoft Teams администрирования заменил центр администрирования Skype для бизнеса (устаревший портал). Все параметры управления Skype для бизнеса теперь находятся в Teams администрирования. Чтобы управлять функциями Skype для бизнеса Teams в Центре администрирования azure [AD,](/azure/active-directory/roles/permissions-reference) вам должна быть назначена роль администратора Azure AD глобальный администратор Skype для бизнеса администратор. Дополнительные сведения см. в статье [Управление параметрами Skype для бизнеса в Центре администрирования Microsoft Teams](/MicrosoftTeams/skype-for-business-settings?bc=%2fskypeforbusiness%2fbreadcrumb%2ftoc.json&toc=%2fskypeforbusiness%2fsfbotoc%2ftoc.json)
+> Центр Microsoft Teams администрирования заменил центр администрирования Skype для бизнеса (устаревший портал). Все параметры управления Skype для бизнеса теперь находятся в Teams администрирования. Для управления функциями Skype для бизнеса Teams в Центре администрирования azure AD вам должна быть назначена роль глобального администратора или администратора Skype для бизнеса администратора azure [AD.](/azure/active-directory/roles/permissions-reference) Дополнительные сведения см. в статье [Управление параметрами Skype для бизнеса в Центре администрирования Microsoft Teams](/MicrosoftTeams/skype-for-business-settings?bc=%2fskypeforbusiness%2fbreadcrumb%2ftoc.json&toc=%2fskypeforbusiness%2fsfbotoc%2ftoc.json)
 
   
 ## <a name="enable-skype-meeting-broadcast-using-the-skype-for-business-admin-center"></a>Включить Skype собрания с помощью центра Skype для бизнеса администрирования
@@ -47,9 +47,9 @@ ms.locfileid: "54339267"
 
 1. Во sign in with your global admin account or Skype для бизнеса admin account at [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home) .
     
-2. В Центре администрирования перейдите **в** центр администрирования Teams  >  .
+2. В Центре администрирования перейдите в **центр** администрирования Teams  >  .
     
-3. В Центре **Teams администрирования** перейдите на устаревший портал Онлайн-собрания Трансляция собраний , а затем выберите Включить  >    >   **Skype трансляцию собраний**.
+3. В Центре **Teams администрирования** перейдите на устаревший портал Онлайн-собрания Трансляция собраний , а затем выберите Включить Skype  >    >   **трансляцию собраний**.
     
 ## <a name="enable-skype-meeting-broadcast-using-powershell"></a>Включить Skype собрания с помощью PowerShell
 
@@ -64,7 +64,7 @@ ms.locfileid: "54339267"
    $userCredential = Get-Credential
    Connect-MicrosoftTeams -Credential $userCredential
    ```
-3. Подтвердите текущую конфигурацию Skype трансляции собрания с помощью:
+3. Подтвердите текущую конфигурацию Skype трансляции собрания, выведя:
     
    ```PowerShell
    Get-CsBroadcastMeetingConfiguration
@@ -72,7 +72,7 @@ ms.locfileid: "54339267"
 
     Убедитесь, что для  _параметра EnableBroadcastMeeting_ задан параметр `False` .
     
-     ![Skype Cmdlet Enable Organization (Включить трансляцию собраний).](../images/44abe30d-d3df-4ca9-9761-603a7ff78723.png)
+     ![Skype "Включить трансляцию собраний для организации".](../images/44abe30d-d3df-4ca9-9761-603a7ff78723.png)
   
 9. В Skype трансляцию собраний для организации можно включить:
     
@@ -87,11 +87,11 @@ ms.locfileid: "54339267"
     > [!TIP]
     > После внести изменения на портале широковещательного Skype может потребоваться до часа. 
   
-10. Теперь пользователи могут проводить широковещательные собрания с другими пользователями в вашей компании. Чтобы начать, наведя указатель на пункт Что [такое Skype трансляции собрания?](https://support.office.com/article/c472c76b-21f1-4e4b-ab58-329a6c33757d)
+10. Теперь ваши пользователи могут проводить широковещательные собрания с другими пользователями в вашей компании. Чтобы начать, наведя указатель на пункт Что такое [Skype трансляции собрания?](https://support.office.com/article/c472c76b-21f1-4e4b-ab58-329a6c33757d)
     
 ## <a name="configure-your-network-to-broadcast-meetings-with-external-attendees"></a>Настройка сети для трансляции собраний с внешними участниками
 
-Если у вас есть брандмауэр и вы хотите проводить трансляции с людьми за пределами вашей компании (которые не являются федератными), необходимо настроить сеть с помощью этих инструкций: Настройка сети для [Skype](set-up-your-network-for-skype-meeting-broadcast.md)трансляции собраний . 
+Если у вас есть брандмауэр и вы хотите проводить трансляции с людьми за пределами вашей компании (которые не являются федератными), необходимо настроить сеть с помощью указанных здесь инструкций: Настройка сети для [Skype](set-up-your-network-for-skype-meeting-broadcast.md)трансляции собраний . 
   
 Если у вас нет опыта настройки брандмауэра, [](https://go.microsoft.com/fwlink/?linkid=391089) вы можете нанять партнера Майкрософт, который сделает это за вас.
   

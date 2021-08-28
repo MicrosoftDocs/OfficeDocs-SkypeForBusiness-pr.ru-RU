@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже находятся Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Мексики.
-ms.openlocfilehash: 84cab723f6204906d5a26c830bb954a00697f19148374484eba457560ee83bbc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Ниже ются Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Мексики.
+ms.openlocfilehash: efc448f7b0f9aaf2f9ed2204faf7596c0b6e4ff5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54349132"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58613658"
 ---
 # <a name="availability-in-mexico"></a>Доступность в Мексике
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже находятся Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Мексики.
+Ниже ются Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Мексики.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 

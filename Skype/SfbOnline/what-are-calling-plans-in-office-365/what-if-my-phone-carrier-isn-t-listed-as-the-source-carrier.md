@@ -14,7 +14,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - CSH
@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - ms.lync.lac.PortOrderDetailPanelWhois
 description: 'Узнайте, что делать, если вашего оператора нет в списке Skype для бизнеса. '
-ms.openlocfilehash: 263e8584179a523934ab76083b601854527bb995bc9f0297bf9bab34a012dd41
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c9916c38496365884e75e8777f42958c45bb0e59
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54320977"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58599624"
 ---
 # <a name="what-if-my-phone-carrier-isnt-listed-as-the-source-carrier"></a>Что делать, если моего оператора нет в списке?
 
@@ -37,9 +37,9 @@ ms.locfileid: "54320977"
   
 Пример:
   
-- Если вы переносите номер из Skype для бизнеса в качестве оператора связи, в списке может быть указан уровень3.
+- Если вы переносите номер из Skype для бизнеса в качестве оператора связи, вы можете увидеть в списке уровень3.
     
-  **Пошаговую инструкцию см. в этой [Teams.](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams)**
+  **Полные пошаговую инструкции см. в этой [Teams.](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams)**
 
     > [!NOTE]
     > Если вам нужно больше номеров, [обратитесь в службу поддержки администраторов Skype для бизнеса](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).

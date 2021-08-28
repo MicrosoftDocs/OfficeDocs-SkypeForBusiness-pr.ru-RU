@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: При запуске Move-CsUser может возникнуть сбой, так как пользовательские сведения между службами домена Active Directory (AD DS) и базами данных Skype для бизнеса Server 2019 г. не синхронизированы, так как первоначальная репликация не завершена. Время, необходимое для успешного завершения начальной синхронизации службы репликатора пользователей Skype для бизнеса Server 2019 г., зависит от количества контроллеров домена, которые размещены в лесу Active Directory, в котором размещен пул Skype для бизнеса Server 2019 г. Начальный Skype для бизнеса Server службы репликатора пользователей в 2019 г. происходит при первом Skype для бизнеса Server интерфейсного сервера 2019 г. После этого синхронизация определяется интервалом репликации пользователей. Чтобы проверить, что репликация пользовательских данных завершена до запуска командлета Move-CsUser, выполните следующие действия.
-ms.openlocfilehash: 0fe1c205b04ed32f5ac4281e555d5a44262905aa23b74eb69148d447337b59f7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 893702b18b376edc32e946998aeead122bf3ed68
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54325686"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58599704"
 ---
 # <a name="verify-user-replication-has-completed"></a>Проверка выполнения пользовательской репликации
 
