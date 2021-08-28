@@ -10,15 +10,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5c3892e4-ebae-453e-8107-f42ec0436ea2
 description: Сводка. Ознакомьтесь с этой темой, чтобы узнать, как создать роль администратора сохраняемого сервера чата для обеспечения начальной конфигурации и управления службами сохраняемого чата в Skype для бизнеса Server 2015 г.
-ms.openlocfilehash: 61b601399f1e21fa36a7f7b9ead1a458b577179295c40154a78f861c6bc0c156
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: bf534f937282aa90d7d66e2de9893f075a351251
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54337103"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58601874"
 ---
 # <a name="create-a-persistent-chat-administrator-in-skype-for-business-server-2015"></a>Создание администратора сохраняемой беседы в Skype для бизнеса Server 2015 г.
  

@@ -13,18 +13,18 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
 description: В Skype для бизнеса Online вы можете управлять передачей файлов "точка-точка" (P2P) в рамках существующих параметров политики веб-услуг. Однако это позволяет или блокирует передачу файлов для пользователей независимо от того, передают ли они файлы пользователю, который находится в той же организации, или федераированному пользователю из другой организации. Следуя этим шагам, вы можете заблокировать передачу файлов P2P федера организации или партнерам.
-ms.openlocfilehash: f09f67793303d393b24cb40077fd3dd3b16d38f278460a2f4d747ef67b97aa96
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0e5dc2f2407d5d510ec6dc559a8192d91ac3260f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54306202"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619285"
 ---
 # <a name="block-point-to-point-file-transfers"></a>Блокировка передачи файлов точка-точка
 
@@ -32,17 +32,17 @@ ms.locfileid: "54306202"
 
 В Skype для бизнеса Online вы можете управлять передачей файлов "точка-точка" (P2P) в рамках существующих параметров политики веб-услуг. Однако это позволяет или блокирует передачу файлов для пользователей независимо от того, передают ли они файлы пользователю, который находится в той же организации, или федераированному пользователю из другой организации. Следуя этим шагам, вы можете заблокировать передачу файлов P2P федера организации или партнерам.
   
- Очень распространенный сценарий — разрешить внутренним пользователям использовать передачу P2P-файлов, но заблокировать передачу файлов федератов. Для этого сценария вам потребуется сделать:
+ Очень распространенный сценарий — разрешить внутренним пользователям использовать передачу P2P-файлов, но заблокировать передачу файлов федератным партнерам. В этом случае вам потребуется сделать:
   
-- Назначьте политику conferencing, включив передачу P2P-файлов _(EnableP2PFileTransfer_ с инициаляцией _True)_ для пользователей в организации.
+- Назначьте политику conferencing, включив передачу P2P-файлов _(EnableP2PFileTransfer_ для _true)_ для пользователей в организации.
     
-- Создайте глобальный набор политики связи с внешними пользователями, чтобы заблокировать передачу внешних P2P-файлов _(EnableP2PFileTransfer_ для _false)_ и назначьте ее пользователю в вашей организации. 
+- Создайте глобальный набор политики связи с внешними пользователями, чтобы заблокировать передачу внешних P2P-файлов _(EnableP2PFileTransfer_ с инициативой _False)_ и назначьте ее пользователю в вашей организации. 
     
 Дополнительные информацию об этих параметрах можно [найти](/previous-versions//mt228132(v=technet.10))здесь.
   
-Если федераированный пользователь за пределами организации попытается отправить файл пользователю, в котором была применена политика, он получит сообщение об ошибке Перенос **с ошибкой.** А если пользователь попытается отправить файл, он получит сообщение об ошибке Передачу **файла.**
+Если федераированный пользователь за пределами организации попытается отправить файл пользователю, в котором была применена политика, он получит сообщение об ошибке Перенос **не удалось.** А если пользователь попытается отправить файл, он получит сообщение об ошибке Передачу **файла.**
   
-Для этого пользователю необходимо использовать поддерживаемую версию приложения "нажми и работай" версии 2016 Skype для бизнеса, которое его поддерживает. Требуется следующая минимальная версия Skype для бизнеса версии 2016 "нажми и работы":
+Для этого пользователю необходимо использовать поддерживаемую версию приложения "нажми и работай" версии 2016 Skype для бизнеса, которое поддерживает эту возможность. Требуется следующая минимальная версия клиента Skype для бизнеса версии 2016 "нажми и работы":
   
 |**Тип**|**Дата выпуска**|**Версия**|**Построить**|
 |:-----|:-----|:-----|:-----|
@@ -53,7 +53,7 @@ ms.locfileid: "54306202"
 > [!CAUTION]
 > Пользователи, использующие более старые версии Skype для бизнеса Windows приложений или клиентов Mac, по-прежнему смогут передавать файлы. 
   
-## <a name="start-windows-powershell"></a>Начните Windows PowerShell
+## <a name="start-windows-powershell"></a>Начать Windows PowerShell
 
 > [!NOTE]
 > Соединитель Skype для бизнеса Online в настоящее время является частью последнего модуля Teams PowerShell. Если вы используете последний общедоступный выпуск Teams PowerShell, вам не нужно устанавливать соединитель Skype для бизнеса Online.
@@ -69,9 +69,9 @@ ms.locfileid: "54306202"
    Connect-MicrosoftTeams -Credential $credential
    ```
    
-   Дополнительные сведения о запуске Windows PowerShell см. в Подключение всех службах Microsoft 365 или [Office 365](/microsoft-365/enterprise/connect-to-all-microsoft-365-services-in-a-single-windows-powershell-window) в одном окне Windows PowerShell или Настройка компьютера [для](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)Windows PowerShell.
+   Дополнительные сведения о запуске Windows PowerShell см. в Подключение всех службах Microsoft 365 или Office 365 в одном окне [Windows PowerShell](/microsoft-365/enterprise/connect-to-all-microsoft-365-services-in-a-single-windows-powershell-window) или Настройка компьютера [для](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)Windows PowerShell.
     
-## <a name="disable-p2p-file-transfers-for-your-organization"></a>Отключение передач P2P-файлов для организации
+## <a name="disable-p2p-file-transfers-for-your-organization"></a>Отключение переноса P2P-файлов для организации
 
 По умолчанию _enableP2PFileTransfer_ включен в глобальной политике организации. При ее создания пользователям была назначена политика _BposSAllModality._
   
@@ -95,11 +95,11 @@ Grant-CsExternalUserCommunicationPolicy -PolicyName BlockExternalFT -Identity am
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>Хотите узнать больше о Windows PowerShell?
 
-- Windows PowerShell is all about managing users and what users are allowed or not allowed to do. С Windows PowerShell вы можете управлять Microsoft 365 или Office 365 и Skype для бизнеса Online, используя единый пункт администрирования, который упростит выполнение ваших повседневных задач. Чтобы начать работу с Windows PowerShell, ознакомьтесь с приведенными ниже разделами.
+- Windows PowerShell is all about managing users and what users are allowed or not allowed to do. С Windows PowerShell вы можете управлять Microsoft 365 или Office 365 и Skype для бизнеса Online, используя единый пункт администрирования, который упростит выполнение повседневных задач. Чтобы начать работу с Windows PowerShell, ознакомьтесь с приведенными ниже разделами.
     
   - [Введение в Windows PowerShell и Skype для бизнеса Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-  - [Зачем нужно использовать Microsoft 365 или Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+  - [Зачем нужна Microsoft 365 или Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
 - Windows PowerShell имеет множество преимуществ в скорости, простоте и эффективности работы по сравнению с использованием только Центр администрирования Microsoft 365, например при внесении изменений для множества пользователей одновременно. Подробнее об этих преимуществах можно узнать в следующих разделах:
     

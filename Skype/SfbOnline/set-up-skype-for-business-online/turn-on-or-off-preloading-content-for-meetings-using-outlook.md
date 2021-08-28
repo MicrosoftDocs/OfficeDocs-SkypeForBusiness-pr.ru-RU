@@ -13,18 +13,18 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
 description: 'See how to turn preloaded content on or off for Skype for Business meetings using files or attachments on an Outlook meeting invitation. '
-ms.openlocfilehash: 212491b6a21cb2586237bc3ba8d5bf48382e23d888af044f40908b73ff0fbc9c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 456b6a0a94aa2daf3a61b7ade00dcafdbcf3d371
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54304621"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619245"
 ---
 # <a name="turn-on-or-off-allowing-content-to-be-preloaded-for-meetings-using-outlook"></a>Включение и выключение разрешения предварительной загрузки содержимого для собраний с помощью Outlook
 
@@ -33,11 +33,11 @@ ms.locfileid: "54304621"
 Пользователи могут предварительно загрузки содержимого, файлов или вложений, вложенных в Outlook приглашения на собрание Skype для бизнеса по сети, но вы можете включить или отключить его. Он включен по умолчанию для всех организаций, использующих Skype для бизнеса Online. Узнайте, как [предварительно загрузка вложений для Skype для бизнеса собрания.](https://support.office.com/article/fd3d9f9d-b448-4754-b813-02e49393f251)
   
 > [!NOTE]
-> В настоящее время в Skype для бизнеса Online нет Skype для бизнеса для настройки и просмотра сетевых значений _для MaxContentStorageMB_ и _MaxUploadFileMB._ Они доступны только для локальных развертываний. Важно знать, что содержимое не будет загружено на собрание, если вложенное содержимое превышает _maxUploadFileSizeMB_ или достигнут предел _MaxContentStorageMB._
+> В настоящее время в Skype для бизнеса Online нет Skype для бизнеса для настройки и просмотра сетевых значений _для MaxContentStorageMB_ и _MaxUploadFileMB._ Они доступны только для локальных развертываний. Важно знать, что содержимое не будет добавлено на собрание, если вложенное содержимое превышает _maxUploadFileSizeMB_ или достигнут предел _MaxContentStorageMB._
   
 ## <a name="to-get-you-started"></a>Чтобы начать работу, можно сделать следующее
 
-## <a name="start-windows-powershell"></a>Начните Windows PowerShell
+## <a name="start-windows-powershell"></a>Начать Windows PowerShell
 
 > [!NOTE]
 > Соединитель Skype для бизнеса Online в настоящее время является частью последнего модуля Teams PowerShell. Если вы используете последний общедоступный выпуск Teams PowerShell, вам не нужно устанавливать соединитель Skype для бизнеса Online.
@@ -53,11 +53,11 @@ ms.locfileid: "54304621"
    Connect-MicrosoftTeams -Credential $userCredential
    ```
 
-Дополнительные сведения о запуске Windows PowerShell см. в Подключение всех службах Microsoft 365 или [Office 365](/microsoft-365/enterprise/connect-to-all-microsoft-365-services-in-a-single-windows-powershell-window) в одном окне Windows PowerShell или Настройка компьютера [для](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)Windows PowerShell.
+Дополнительные сведения о запуске Windows PowerShell см. в Подключение всех службах Microsoft 365 или Office 365 в одном окне [Windows PowerShell](/microsoft-365/enterprise/connect-to-all-microsoft-365-services-in-a-single-windows-powershell-window) или Настройка компьютера [для](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)Windows PowerShell.
   
 ## <a name="turning-it-on-or-off"></a>Включение и выключение функции
 
-Возможность предварительной загрузки содержимого, вложенного в Outlook приглашения на собрание Skype для бизнеса собрания по сети, по умолчанию включена, но может потребоваться запретить пользователям в организации предварительной загрузки содержимого на собраниях.
+Возможность предварительной загрузки содержимого Outlook приглашения на собрание Skype для бизнеса собрания по сети включена по умолчанию, но может потребоваться запретить пользователям в организации предварительной загрузки содержимого на собраниях.
   
 > [!IMPORTANT]
 > Этот параметр можно отключить или отключить только для всей организации. вы не можете включить или отключить ее для одного пользователя. 
@@ -76,7 +76,7 @@ Grant-CsGraphPolicy -PolicyName GraphEnabled
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>Хотите узнать больше о Windows PowerShell?
 
-- Windows PowerShell is all about managing users and what users are allowed or not allowed to do. С Windows PowerShell вы можете управлять Microsoft 365 или Office 365 и Skype для бизнеса Online, используя единый пункт администрирования, который упростит выполнение ваших повседневных задач. Чтобы начать работу с Windows PowerShell, ознакомьтесь с приведенными ниже разделами.
+- Windows PowerShell is all about managing users and what users are allowed or not allowed to do. С Windows PowerShell вы можете управлять Microsoft 365 или Office 365 и Skype для бизнеса Online, используя единый пункт администрирования, который упростит выполнение повседневных задач. Чтобы начать работу с Windows PowerShell, ознакомьтесь с приведенными ниже разделами.
     
   - [Введение в Windows PowerShell и Skype для бизнеса Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     

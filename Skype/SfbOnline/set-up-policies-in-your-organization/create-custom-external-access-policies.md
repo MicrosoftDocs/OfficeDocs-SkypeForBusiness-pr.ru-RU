@@ -13,18 +13,18 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
 description: Skype для бизнеса В Интернете можно создавать дополнительные политики внешнего доступа. В отличие от политик клиента или conferencing, где можно использовать несколько комбинаций, существует три предопределенной политики внешнего доступа, которые могут охватывать большинство сценариев.
-ms.openlocfilehash: 4db20c286f342662adffeeaeae17737651791f56f74be6558138756b7e65e767
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d0ecf5051de17f923983e16f35eb22b66c41571e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54282392"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619275"
 ---
 # <a name="create-custom-external-access-policies"></a>Создание настраиваемых политик внешнего доступа
 
@@ -32,7 +32,7 @@ ms.locfileid: "54282392"
 
 Skype для бизнеса В Интернете можно создавать дополнительные политики внешнего доступа. В отличие от политик клиента или conferencing, где можно использовать несколько комбинаций, существует три предопределенной политики внешнего доступа, которые могут охватывать большинство сценариев. Это:
   
-- Нет федераций и Skype доступа к данным _(Tag:NoFederationAndpIC_ )
+- Нет федераций и Skype доступа для потребителей (_Tag:NoFederationAndpIC_ )
     
 - Только федераированный доступ (_Tag:FederationOnly_ )
     
@@ -40,7 +40,7 @@ Skype для бизнеса В Интернете можно создавать 
     
 Настраиваемые внешние политики позволяют создавать дополнительные политики, которые не охватывают параметры выше. После создания политики вам потребуется настроить все необходимые параметры, и вы не сможете изменить их позже. Создание новых настраиваемых политик позволяет управлять такими функциями, как доступ Skype или политика для отключения общедоступных облачных аудио- и видеофайлов , которые не были заранее озвучиты. Настраиваемые политики внешнего доступа имеют тот же синтаксис, что и политики клиентского, мобильного доступа иконок. Дополнительные информацию об этих параметрах можно [найти](/previous-versions//mt228132(v=technet.10))здесь.
   
-Для этого пользователю необходимо использовать поддерживаемую версию версии 2016 "нажми и работай" Skype для бизнеса, которая ее поддерживает. Требуется следующая минимальная версия Skype для бизнеса версии 2016 "нажми и работы":
+Для этого пользователю необходимо использовать поддерживаемую версию версии 2016 Skype для бизнеса "нажми и работай". Требуется следующая минимальная версия клиента Skype для бизнеса версии 2016 "нажми и работы":
   
 |**Тип**|**Дата выпуска**|**Версия**|**Построить**|
 |:-----|:-----|:-----|:-----|
@@ -51,7 +51,7 @@ Skype для бизнеса В Интернете можно создавать 
 > [!CAUTION]
 > Пользователи, использующие более старые версии Skype для бизнеса Windows приложений или клиентов Mac, по-прежнему смогут передавать файлы. 
   
-## <a name="start-windows-powershell"></a>Начните Windows PowerShell
+## <a name="start-windows-powershell"></a>Начать Windows PowerShell
 
 > [!NOTE]
 > Соединитель Skype для бизнеса Online в настоящее время является частью последнего модуля Teams PowerShell. Если вы используете последний общедоступный выпуск Teams PowerShell, вам не нужно устанавливать соединитель Skype для бизнеса Online.
@@ -66,7 +66,7 @@ Skype для бизнеса В Интернете можно создавать 
    Connect-MicrosoftTeams -Credential $credential
    ```
    
-   Дополнительные сведения о запуске Windows PowerShell см. в Подключение всех службах Microsoft 365 или [Office 365](/microsoft-365/enterprise/connect-to-all-microsoft-365-services-in-a-single-windows-powershell-window) в одном окне Windows PowerShell или Настройка компьютера [для](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)Windows PowerShell.
+   Дополнительные сведения о запуске Windows PowerShell см. в Подключение всех службах Microsoft 365 или Office 365 в одном окне [Windows PowerShell](/microsoft-365/enterprise/connect-to-all-microsoft-365-services-in-a-single-windows-powershell-window) или Настройка компьютера [для](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)Windows PowerShell.
    
 ## <a name="create-a-custom-external-access-policy-for-a-user"></a>Создание настраиваемой политики внешнего доступа для пользователя
 
@@ -84,11 +84,11 @@ Grant-CsExternalAccessPolicy -PolicyName BlockSkypeVideo -Identity amosm@contoso
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>Хотите узнать больше о Windows PowerShell?
 
-- Windows PowerShell is all about managing users and what users are allowed or not allowed to do. С Windows PowerShell вы можете управлять Microsoft 365 или Office 365 и Skype для бизнеса Online, используя единый пункт администрирования, который упростит выполнение ваших повседневных задач. Чтобы начать работу с Windows PowerShell, ознакомьтесь с приведенными ниже разделами.
+- Windows PowerShell is all about managing users and what users are allowed or not allowed to do. С Windows PowerShell вы можете управлять Microsoft 365 или Office 365 и Skype для бизнеса Online, используя единый пункт администрирования, который упростит выполнение повседневных задач. Чтобы начать работу с Windows PowerShell, ознакомьтесь с приведенными ниже разделами.
     
   - [Введение в Windows PowerShell и Skype для бизнеса Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-  - [Зачем нужно использовать Microsoft 365 или Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+  - [Зачем нужна Microsoft 365 или Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
 - Windows PowerShell имеет множество преимуществ в скорости, простоте и эффективности работы по сравнению с использованием только Центр администрирования Microsoft 365, например при внесении изменений для множества пользователей одновременно. Подробнее об этих преимуществах можно узнать в следующих разделах:
     

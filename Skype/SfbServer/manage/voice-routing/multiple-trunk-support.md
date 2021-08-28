@@ -9,14 +9,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Skype для бизнеса Server поддерживает несколько ассоциаций между шлюзами и серверами-посредниками. Эти ассоциации сделаны путем определения магистрали, что является логической связью между пулом серверов-посредников и шлюзом открытой телефонной сети (PSTN), диспетчером пограничной связи сеанса (SBC) или IP-PBX. Используйте топологию Builder для связывать шлюзы с серверами-посредниками (то есть магистральными).
-ms.openlocfilehash: 93d1dd00a2b60d7d346dcc6342ddefa9170308fb3ea5215b90460d17a78819b4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 99a549fddab959681f71d8de124793957ec9d445
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54351479"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58635253"
 ---
 # <a name="multiple-trunk-support-in-skype-for-business-server"></a>Поддержка нескольких магистральных Skype для бизнеса Server
 

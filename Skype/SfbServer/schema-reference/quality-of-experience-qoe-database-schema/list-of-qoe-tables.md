@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 176194d7-d184-4e23-94bb-cb62b4db47f5
 description: Схема базы данных состоит из следующих таблиц.
-ms.openlocfilehash: 02471ddc936c5dc0522e5ea3c9ad3c5f2859c6cd612b2618ace5d1dbe6be1078
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1d6d60d06dcb6cbfdde6a4fdbbd2746d00aa8531
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54351289"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58601274"
 ---
 # <a name="list-of-qoe-tables"></a>Список таблиц качества взаимодействия
  
@@ -26,7 +26,7 @@ ms.locfileid: "54351289"
   
 **Вспомогательные таблицы**
 
-|**Table**|**Description**|
+|**Table**|**Описание**|
 |:-----|:-----|
 |[Таблица AppSharingMetricsThreshold](appsharingmetricsthreshold.md) <br/> |Сохраняет оптимальные и приемлемые значения для метрик Quality of Experience, используемых при совместном использовании приложений.  <br/> |
 |[Таблица CodecDescription](codecdescription.md) <br/> |Карты идентификаторы кодека в соответствующий кодек.  <br/> |
@@ -58,7 +58,7 @@ ms.locfileid: "54351289"
    
 **Таблицы для данных метрик**
 
-|**Table**|**Description**|
+|**Table**|**Описание**|
 |:-----|:-----|
 |[Таблица AppSharingStream](appsharingstream.md) <br/> |Сохраняет метрики качества работы для сетевых потоков, используемых для общего доступа к приложениям. Качество показателей experience для сетевых потоков, используемых для общего доступа к приложениям.  <br/> |
 |[Таблица сеансов](session.md) <br/> |Сохраняет общую информацию о сеансе аудио- или аудио- и видеосвязи. Сеанс определяется как диалоговое окно SIP аудио или видео между двумя конечными точками.  <br/> |
@@ -72,7 +72,7 @@ ms.locfileid: "54351289"
    
 **Таблицы для сводных данных**
 
-|**Table**|**Description**|
+|**Table**|**Описание**|
 |:-----|:-----|
 |**Таблица ServerSummary** <br/> |Сохраняет сводные данные для серверов, эти данные используются только для отчетности по качеству работы (QoE).  <br/> |
 |**Таблица UserSummary** <br/> |Сохраняет сводные данные для пользователей, эти данные используются только для отчетности QoE.  <br/> |
@@ -80,7 +80,7 @@ ms.locfileid: "54351289"
    
 **Таблицы для внутреннего использования с помощью сервера мониторинга**
 
-|**Table**|**Description**|
+|**Table**|**Описание**|
 |:-----|:-----|
 |**DbConfigDateTime** <br/> |Только для внутреннего использования.  <br/> |
 |**DbConfigInt** <br/> |Только для внутреннего использования.  <br/> |

@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 031843fd-c7ff-4534-9b02-8847aad70807
 description: Схема базы данных регистрации вызовов (call detail recording — CDR) состоит из следующих таблиц.
-ms.openlocfilehash: 27381a95a5de2613845fa831e8730a1bc06d374ae7936eaedb31d239b3dbb0cf
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: acc509fc895c015ec213bd18560986b3f6d12aa7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54343253"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58635133"
 ---
 # <a name="list-of-cdr-tables-in-skype-for-business-server-2015"></a>Список таблиц CDR в Skype для бизнеса Server 2015 г.
  
@@ -26,7 +26,7 @@ ms.locfileid: "54343253"
   
 ## <a name="static-tables"></a>Статические таблицы
 
-|**Table**|**Description**|
+|**Table**|**Описание**|
 |:-----|:-----|
 |[Таблица CallPriorities в Skype для бизнеса Server 2015 г.](callpriorities.md) <br/> |Сохранение списка возможных приоритетов вызовов (включая аварийные, срочные, обычные, несрочные и т. д.).  <br/> |
 |[Таблица ConferenceJoinTimeThresholds в Skype для бизнеса Server 2015 г.](conferencejointimethresholds.md) <br/> |Сохранение границ классификации, используемых в отчете со сводными данными по времени подсоединения к конференции.  <br/> |
@@ -38,7 +38,7 @@ ms.locfileid: "54343253"
    
 ## <a name="supporting-tables"></a>Вспомогательные таблицы
 
-|**Table**|**Description**|
+|**Table**|**Описание**|
 |:-----|:-----|
 |[Таблица ClientVersions в Skype для бизнеса Server 2015 г.](clientversions.md) <br/> |Сохранение клиентов (включая тип клиента и номер версии) каждого клиента, участвующего в вызове, с указанием информации, собранной в этой базе данных.  <br/> |
 |[Таблица ConferenceUris в Skype для бизнеса Server 2015 г.](conferenceuris.md) <br/> |Сохранение списка кодов URI конференций, которые используются в вызовах, связанных с конференцией.  <br/> |
@@ -61,7 +61,7 @@ ms.locfileid: "54343253"
    
 ## <a name="tables-specific-to-conference-cdr-records"></a>Записи, относящиеся к конкретным записям CDR конференции
 
-|**Table**|**Description**|
+|**Table**|**Описание**|
 |:-----|:-----|
 |[Таблица конференций Skype для бизнеса Server 2015 г.](conferences.md) <br/> |Сохранение информации обо всех конференциях, которые были заархивированы или сведения о которых были зарегистрированы, включая URI конференции, время начала и окончания.  <br/> |
 |[Таблица ConferenceSessionDetails в Skype для бизнеса Server 2015 г.](conferencesessiondetails-0.md) <br/> |Сохранение информации о каждом сеансе конференц-связи на основе SIP, включая время начала и окончания, идентификатор пользователя, код ответа и идентификатор диагностики для каждого сеанса.  <br/> |
@@ -70,14 +70,14 @@ ms.locfileid: "54343253"
    
 ## <a name="tables-for-messages-in-im-conferences"></a>Таблицы для сообщений в чат-конференциях
 
-|**Table**|**Description**|
+|**Table**|**Описание**|
 |:-----|:-----|
 |[Таблица ConferenceMessageCount в Skype для бизнеса Server 2015 г.](conferencemessagecount.md) <br/> |Сохранение количества сообщений, которые были отправлены каждым пользователем, для каждой чат-конференции.  <br/> |
 |[Таблица IMReportSummary в Skype для бизнеса Server 2015 г.](imreportsummary.md) <br/> |Предоставление общего отчета по сеансам обмена мгновенными сообщениями, которые проводятся в организации.  <br/> |
    
 ## <a name="tables-for-peer-to-peer-sessions"></a>Таблицы для одноранговых сеансов
 
-|**Table**|**Description**|
+|**Table**|**Описание**|
 |:-----|:-----|
 |[Таблица SessionDetails](sessiondetails.md) <br/> |Сохранение информацию о каждом одноранговом сеансе, включая время начала и окончания, идентификатор пользователя, код ответа и количество сообщений каждого пользователя.  <br/> |
 |[Таблица FileTransfers в Skype для бизнеса Server 2015 г.](filetransfers-0.md) <br/> |Сохранение информации о сеансах передачи файлов, включая имя файла и результат (принято, отклонено или отменено).  <br/> |
@@ -85,7 +85,7 @@ ms.locfileid: "54343253"
    
 ## <a name="table-for-voip-call-details"></a>Таблица для сведений о вызовах VoIP
 
-|**Table**|**Description**|
+|**Table**|**Описание**|
 |:-----|:-----|
 |[Таблица VoipDetails](voipdetails-0.md) <br/> |Сохранение информации о вызове, включая идентификатор телефона VoIP, используемый шлюз и сторону, прервавшую вызов, для каждого двустороннего вызова VoIP/ТСОП. Ссылается на [таблицу SessionDetails](sessiondetails.md) для времени начала и окончания вызовов и кода ответа. <br/> |
    
@@ -94,7 +94,7 @@ ms.locfileid: "54343253"
   
 ## <a name="table-for-e9-1-1-call-auditing"></a>Таблица для аудита вызовов E9-1-1
 
-|**Table**|**Description**|
+|**Table**|**Описание**|
 |:-----|:-----|
 |[Таблица расположения в Skype для бизнеса Server 2015 г.](locations.md) <br/> |Сохранение информации о каждом экстренном вызове, например вызове Enhanced 9-1-1 (E9-1-1). Ссылается на [таблицу SessionDetails](sessiondetails.md) для времени начала и окончания вызовов и кода ответа. <br/> |
    
@@ -103,7 +103,7 @@ ms.locfileid: "54343253"
   
 ## <a name="tables-for-troubleshooting"></a>Таблицы для устранения неполадок
 
-|**Table**|**Description**|
+|**Table**|**Описание**|
 |:-----|:-----|
 |[Таблица приложений Skype для бизнеса Server 2015 г.](application.md) <br/> |Сохраняет сведения о различных процессах Skype для бизнеса Server 2015 г., которые участвуют в маршрутизации и подключениях.  <br/> |
 |[Таблица CallType в Skype для бизнеса Server 2015 г.](calltype.md) <br/> |Сохраняет сведения о типах вызовов, таких как аудио, "обмен мгновенными сообщениями", "аудио- и видео" и "совместное использование приложений".  <br/> |
@@ -116,7 +116,7 @@ ms.locfileid: "54343253"
   
 ## <a name="tables-for-internal-use-by-lync-server"></a>Таблицы для внутреннего использования сервером Lync Server
 
-|**Table**|**Description**|
+|**Table**|**Описание**|
 |:-----|:-----|
 |**DbConfigDateTime** <br/> |Только для внутреннего использования.  <br/> |
 |**DbConfigInt** <br/> |Только для внутреннего использования.  <br/> |

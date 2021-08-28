@@ -10,21 +10,21 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c3da6271-b3c6-4898-894f-10456ec794d0
 description: Каждая запись в этой таблице содержит сведения об одной конференции.
-ms.openlocfilehash: d7079097b3eb29999d00a44b23f05127daf95ee4ad1eb87097ec9e77a93682b5
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: dfc1c12908e60c7a5b205c154e30175168871ceb
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54343263"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58635213"
 ---
 # <a name="conferences-table-in-skype-for-business-server-2015"></a>Таблица конференций Skype для бизнеса Server 2015 г.
  
 Каждая запись в этой таблице содержит сведения об одной конференции.
   
-|**Column**|**Тип данных**|**Key/Index**|**Сведения**|
+|**Столбец**|**Тип данных**|**Key/Index**|**Details**|
 |:-----|:-----|:-----|:-----|
 |**SessionIdTime** <br/> |datetime  <br/> |Primary  <br/> |Время, когда запрос конференции был захвачен агентом CDR. Используется только в качестве основного ключа для уникальной идентификации экземпляра конференции.  <br/> |
 |**SessionIdSeq** <br/> |int  <br/> |Primary  <br/> |Идентификатор сеанса. Используется совместно с **SessionIdTime** для уникальной идентификации экземпляра конференции. * <br/> |

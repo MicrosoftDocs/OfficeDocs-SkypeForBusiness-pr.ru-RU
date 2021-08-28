@@ -9,18 +9,18 @@ ms.topic: conceptual
 ms.service: msteams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9fd16866-27eb-47a9-b335-2f6bc9044a80
 ms.collection:
 - M365-collaboration
 description: В этой статье рассматриваются вопросы планирования использования Azure Monitor для администрирования Комнаты Microsoft Teams устройств в Skype для бизнеса или Teams реализации.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 1cd848b6ccf963e7b21083ac65c0332f74542967
-ms.sourcegitcommit: 81f1a113a33c7ea8d2256144544d0e34cd64d576
+ms.openlocfilehash: 2808d424d79d8d2b60af0573678ee18d0a52bdeb
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58505417"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619365"
 ---
 # <a name="plan-microsoft-teams-rooms-management-with-azure-monitor"></a>Планирование управления Комнаты Microsoft Teams с помощью Azure Monitor
  
@@ -28,7 +28,7 @@ ms.locfileid: "58505417"
   
 [Azure Monitor](/azure/azure-monitor/overview) — это набор служб управления, разработанных в облаке с самого начала. Компоненты монитора Azure размещаются в Azure, а не развертываются и управляются локально. Конфигурация минимальна, и вы можете работать в буквальном смысле за считанные минуты. С помощью некоторых настроек можно управлять системами конференц-связи Комнаты Microsoft Teams, предоставляя в режиме реального времени уведомления о состоянии системы или ошибках для отдельных систем комнат, а также может привести к управлению тысячами Комнаты Microsoft Teams конференц-залов.
   
-В этой статье описаны требования, проектирование и архитектура и методики внедрения, необходимые для внедрения системы Azure Monitor для управления устройствами конференц-связи Комнаты Microsoft Teams, а также ссылки на подробные статьи о внедрении монитора Azure для Комнаты Microsoft Teams и важные справочные сведения о постоянном мониторинге Комнаты Microsoft Teams помещений. 
+В этой статье описаны требования, проектирование и архитектура и методики внедрения, необходимые для внедрения системы azure Monitor для управления устройствами конференц-связи Комнаты Microsoft Teams, а также ссылки на подробные статьи о внедрении монитора Azure для Комнаты Microsoft Teams и важные справочные сведения о постоянном мониторинге Комнаты Microsoft Teams помещений. 
   
 ## <a name="functional-overview"></a>Функциональный обзор
 
@@ -54,7 +54,7 @@ ms.locfileid: "58505417"
     
 ## <a name="individual-microsoft-teams-rooms-console-requirements"></a>Требования Комнаты Microsoft Teams консоли
 
-Каждая консоль Комнаты Microsoft Teams — это приложение, запущенное на устройстве Surface Pro в киоске (обычно оно является единственным приложением, которое может работать на устройстве). Как и любое Windows, Комнаты Microsoft Teams записывает такие события, как неисправности запуска и оборудования, в журнал событий Windows событий. Добавление агента Microsoft Monitor на устройство Комнаты Microsoft Teams позволяет собирать эти события. [(Подробные Подключение Windows в службу аналитики журналов в Azure.](/azure/azure-monitor/platform/agent-windows)
+Каждая консоль Комнаты Microsoft Teams — это приложение, запущенное на устройстве Surface Pro в киоске (обычно оно является единственным приложением, которое может работать на устройстве). Как и любое Windows, приложение Комнаты Microsoft Teams записывает в журнал событий события, например ошибки запуска и оборудования, Windows устройств. Добавление агента Microsoft Monitor на устройство Комнаты Microsoft Teams позволяет собирать эти события. (Подробные Подключение Windows см. в Подключение Windows службе [Log Analytics в Azure.)](/azure/azure-monitor/platform/agent-windows)
   
 ## <a name="ongoing-management"></a>Текущее управление
 
