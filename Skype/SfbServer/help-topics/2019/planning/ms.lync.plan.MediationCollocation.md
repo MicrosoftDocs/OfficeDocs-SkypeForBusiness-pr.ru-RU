@@ -12,16 +12,16 @@ ms.custom:
 - ms.lync.plan.MediationCollocation
 - ms.lync.plan.MediationCollocation
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5ddc2ad3-9275-408a-a0ab-cc7a2c2d2fdc
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Сервер-посредник по умолчанию находится в расположении с передним конечным сервером. Сервер-посредник также может быть развернут в отдельном пуле по соображениям производительности или при развертывании магистральных SIP, в этом случае рекомендуется использовать автономный пул. Коллокация в Skype для бизнеса Server так же, как и в Lync Server 2013. Дополнительные сведения см. в следующих разделах:'
-ms.openlocfilehash: 613512f29c63f19239f8d6616276b462333bfecbd85234906f729b78bb3faf60
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b1a8c1652281240f24eb488931272ccf040166f8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54337109"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58580973"
 ---
 # <a name="mediation-collocation-planning-tool"></a>Коллокация посредников (средство планирования)
  

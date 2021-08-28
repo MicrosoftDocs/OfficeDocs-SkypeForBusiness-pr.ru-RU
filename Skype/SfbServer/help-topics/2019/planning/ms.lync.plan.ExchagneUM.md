@@ -12,16 +12,16 @@ ms.custom:
 - ms.lync.plan.ExchagneUM
 - ms.lync.plan.ExchagneUM
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: cb767f83-2684-4006-a1f2-c6f0adf50f62
 ROBOTS: NOINDEX, NOFOLLOW
 description: Skype для бизнеса Server 2015 г. поддерживает интеграцию с Exchange единой системы обмена сообщениями для объединения голосовых сообщений и обмена сообщениями в единую инфраструктуру обмена сообщениями.
-ms.openlocfilehash: 0683c43b2dd8be6b19b8c887488aa00a77d762426330db2bb883703d523e5a29
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ed3ecf579e7b57c64f88946afd4500d7d759a9f5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54311897"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58580983"
 ---
 # <a name="exchange-unified-messaging-planning-tool-in-skype-for-business-2015"></a>Exchange Средство планирования единой системы обмена сообщениями в Skype для бизнеса 2015 г.
 

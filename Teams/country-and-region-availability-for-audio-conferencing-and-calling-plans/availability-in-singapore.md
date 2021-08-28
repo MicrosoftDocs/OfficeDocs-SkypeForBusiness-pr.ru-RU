@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Ниже ются Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Сингапура.
-ms.openlocfilehash: 387460bd2da08106862949ea7f7d9c7e8f267a0395ac359783fdb9dd076a13dd
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a73bbc72eb83a65a56b53e26f4e766be01bd2bd8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54343073"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58581323"
 ---
 # <a name="availability-in-singapore"></a>Доступность в Сингапуре
 

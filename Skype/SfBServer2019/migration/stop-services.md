@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Панель управления Skype для бизнеса Server для запуска или остановки всех устаревших служб, работающих на определенном компьютере, или для запуска или остановки определенной устаревшей службы.
-ms.openlocfilehash: 058c9d3833f323634b08dc6f2019e987456e8d031c23f7339aad97a78d5e7181
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b69d62a43136f40a68aa4d24940b664d061169db
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54324718"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58606888"
 ---
 # <a name="stop-legacy-services"></a>Остановка устаревших служб
 

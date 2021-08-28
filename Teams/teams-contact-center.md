@@ -7,22 +7,22 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: anblak
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
-description: Общие сведения об интегрированном центре контактов в качестве решения службы (CCaaS) для Microsoft Teams
+description: Обзор интегрированного центра контактов как решения для службы (CCaaS) для Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b12b28f4898b3b6dc722086d22c616e3938f4580b5f9c4956367663ea841d305
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ec4dc5dceccaa515223d3a53255258e190da8788
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54321151"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58606938"
 ---
-# <a name="contact-center-integrations-for-microsoft-teams"></a>Интеграция центра контактов для Microsoft Teams
+# <a name="contact-center-integrations-for-microsoft-teams"></a>Интеграция центра контактов с Microsoft Teams
 
-  В этой статье представлен обзор интеграции решений Центра контактов с Microsoft Teams и поставщиками решений, участвующими в программе сертификации Microsoft Teams Подключенный центр контактов.
+  В этой статье представлен обзор интеграции решений Центра контактов с Microsoft Teams и поставщиками решений, участвующими в программе сертификации Microsoft Teams Подключенные контакты Центра контактов.
 
 ## <a name="what-is-contact-center-integration-for-microsoft-teams"></a>Интеграция центра контактов с Microsoft Teams
 
@@ -35,7 +35,7 @@ Microsoft Teams поддерживает потоки взаимодействи
 
 Подключенный центр контактов для Microsoft Teams сертификации проверяет, что решение каждого из участвующих поставщиков обеспечивает качество, совместимость и надежность решений Майкрософт.
 
-Если вы хотите найти интегрированное решение центра контактов, см. статью Сертифицированные решения Microsoft Teams для центров [](#connected-contact-center-solutions) контактов список сертифицированных поставщиков решений и Подключенные решения центра контактов для списка поставщиков в процессе сертификации. [](https://cloudpartners.transform.microsoft.com/contact-center-solutions)
+Если вы хотите найти интегрированное решение центра контактов, см. статью Сертифицированные решения Microsoft Teams для центров [](#connected-contact-center-solutions) контактов список сертифицированных поставщиков решений и Список поставщиков в процессе сертификации см. в центре подключенных решений контактов. [](https://cloudpartners.transform.microsoft.com/contact-center-solutions)
 
 Если вы хотите присоединиться к программе сертификации, отправьте письмо по электронной <Teamscategorypartner@microsoft.com> почте.
 

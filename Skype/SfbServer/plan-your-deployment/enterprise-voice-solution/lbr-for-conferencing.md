@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 8b86740e-db95-4304-bb83-64d0cbb91d47
 description: Планирование маршрутизов на основе расположения для проведения Skype для бизнеса Server Корпоративная голосовая связь, в том числе для переноса консультативных вызовов.
-ms.openlocfilehash: 31da944a283f3f3a9213db96de5d092b61f3b6118c58de09094a34e02a17460e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e5f49dfcc798f4871ff9ecc1ed2fec1beacad8e7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54286638"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58629531"
 ---
 # <a name="location-based-routing-for-conferencing-in-skype-for-business-server"></a>Location-Based маршрутику для конференций в Skype для бизнеса Server
 
@@ -67,7 +67,7 @@ Location-Based маршрутизов позволяет ограничить м
 > [!NOTE]
 > При Skype для бизнеса накопительном обновлении 4 следует соблюдать поведение в следующей таблице:
 
-|Пользователь|Другая сторона|Action|Result|
+|User|Другая сторона|Действие|Результат|
 |:-----|:-----|:-----|:-----|
 |Skype для бизнеса Mobile  <br/> |ТСОП  <br/> |Skype для бизнеса Мобильный телефон находится в вызове PSTN. Skype для бизнеса Затем Mobile перенагнет вызов в конференц-автосекретарь (CAA).  <br/> |Вызов блокируется с соответствующим сообщением об ошибке.  <br/> |
 |Skype для бизнеса Mobile  <br/> |Skype для бизнеса Клиент или федераированный пользователь  <br/> |Клиент или федераированный пользователь находится на вызове VoIP для пользователя Skype для бизнеса мобильных Location-Based маршрутизатора, и любая сторона перерастает в ЦАА.  <br/> |Вызов эскалации блокируется с соответствующим сообщением об ошибке.  <br/> |
@@ -104,7 +104,7 @@ Location-Based маршрутизов позволяет ограничить м
 |Конечная точка PBX на любом сайте  <br/> |Skype для бизнеса пользователя на неизвестном сетевом сайте  <br/> |Разрешена консультативный перевод  <br/> |
 |Конечная точка PBX на любом сайте  <br/> |Федера Skype для бизнеса пользователя  <br/> |Разрешена консультативный перевод  <br/> |
 
-## <a name="requirements"></a>Requirements
+## <a name="requirements"></a>Требования
 
 Приложение Location-Based маршрутивка для конференциалов требует, чтобы Skype для бизнеса Server или Lync Server 2013 Накопительное обновление 2 развертывалось во всех пулах Front-End и выпуск Standard серверов в топологии. Если эти серверные версии не установлены на некоторых серверах топологии, Location-Based не могут быть полностью применены ограничения на маршрутику собраний и переносов консультативных вызовов.
 

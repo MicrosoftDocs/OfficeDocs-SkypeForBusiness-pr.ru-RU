@@ -10,15 +10,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6b4f4d69-3c9d-4bc7-bc9b-46427a095de2
 description: Сводка. Ознакомьтесь с этой темой, чтобы узнать, как добавить стойкий сервер чата в топологию Skype для бизнеса Server 2015 г.
-ms.openlocfilehash: 358d6c106cd1e7e51a019ede4c70ed7a7504af82fccb6d3dfd912f237df0e2a6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1ea8904ea59dd7ac7d35df1ed0ebcbbe0e3cd9f4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54312017"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58607242"
 ---
 # <a name="add-persistent-chat-server-to-your-skype-for-business-server-2015-topology"></a>Добавление постоянного сервера чата в топологию Skype для бизнеса Server 2015 г.
  

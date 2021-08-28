@@ -13,23 +13,23 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
-description: Узнайте, как добавить, изменить или удалить место для экстренного размещения в центре администрирования Microsoft Teams.
+description: Узнайте, как добавить, изменить или удалить место для экстренного размещения для вашей организации в центре Microsoft Teams администрирования.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 5f9a612bc89972d06bbb87c6905c3ec25c85a5e9171095c46e065a9692e2514b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0f61a16caa40a1470031ec5f680d529522d49c1d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54279835"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58629381"
 ---
 # <a name="add-change-or-remove-a-place-for-an-emergency-location-in-your-organization"></a>Добавление, изменение и удаление места для расположения для экстренного реагирования для организации
 
 В зависимости от количества физических расположений в организации вы можете добавить места для зданий, этажей и офисов, чтобы создать более конкретное местоположение для экстренного нахождения. Дополнительные [сведения см.](what-are-emergency-locations-addresses-and-call-routing.md) в управлении звонками на экстренные вызовы.
   
-Чтобы узнать, как получить план звонков и сколько он стоит, см. Teams лицензирование [надстройки](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+Чтобы узнать, как получить план звонков и сколько они стоят, см. Teams лицензирования [надстройки](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
 Вы управляете местоположениями для экстренного ситуация для своей организации в Microsoft Teams центре администрирования или с помощью PowerShell.
   
@@ -46,13 +46,13 @@ ms.locfileid: "54279835"
 
 См. [new-CsOnlineLisLocation](/powershell/module/skype/new-csonlinelislocation).
     
-## <a name="change-a-place-for-an-emergency-location"></a>Изменение места для экстренного размещения
+## <a name="change-a-place-for-an-emergency-location"></a>Изменение места расположения для экстренного ситуация
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>С помощью Центра администрирования Microsoft Teams
 
 1. В левой области навигации Центра администрирования Microsoft Teams щелкните **Адреса** для экстренного  >  **устранения чрезвычайной ситуации**.
 2. В списке выберите расположение, для которого вы хотите изменить место.
-3. На **вкладке** Места выберите место, которое нужно изменить, и нажмите кнопку **Изменить**.
+3. На **вкладке** Места выберите место, которое вы хотите изменить, и нажмите кнопку **Изменить**.
 4. Обновив сведения о месте, нажмите кнопку **Применить**.
 
 ### <a name="using-powershell"></a>С помощью PowerShell

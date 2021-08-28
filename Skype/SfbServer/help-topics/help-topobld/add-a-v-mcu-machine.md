@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddAvMcuMachinePage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 56f6f46e-7482-45dc-87dc-c2b30e3ec67f
 description: Укажите полное доменное имя каждого компьютера, который следует добавить в качестве сервера аудио- и видеоконференций в этот пул аудио- и видеоконференций. После добавления компьютера в список в любое время до публикации топологии можно обновить полное доменное имя компьютера или удалить этот компьютер из пула. После публикации топологии изменение полного доменного имени осуществляется путем удаления сервера в построителе топологий с последующим добавлением нового сервера в пул с новым полным доменным именем.
-ms.openlocfilehash: 14dc5d69279728655b21cb0aa3e24fa657b17ee90d56ce9f51c8b77f65b6ff2a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: bea9d2270846fcc4c6a33f5be3fc4ccee0cfa324
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323141"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58629751"
 ---
 # <a name="add-av-mcu-machine"></a>Добавление компьютера A/V MCU
  

@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже находятся Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Чили.
-ms.openlocfilehash: 0eeb31498115c5399cae62c195a5a8c1811fe6cf2d6a72a18eed8e2e9ed01b1c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Ниже ются Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Чили.
+ms.openlocfilehash: 5b52d4246fd9b6f30b3c5b8f57bc30c85011f5a4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54308918"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58629391"
 ---
 # <a name="availability-in-chile"></a>Доступность в Чили
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже находятся Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Чили.
+Ниже ются Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Чили.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 

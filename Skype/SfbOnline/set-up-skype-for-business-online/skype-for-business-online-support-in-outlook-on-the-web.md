@@ -13,18 +13,18 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
 description: Outlook в Интернете (Outlook Web App) в Microsoft 365 или Office 365 веб-клиент Skype для бизнеса на панели навигации. Этот базовый клиент доступен для пользователей Online, администратор которых не настроил им Microsoft 365 и Office 365. Если учетная запись пользователя находится в сети и у нее нет простого URL-адреса, интерфейс будет по-прежнему видеться, даже если в организации есть некоторые учетные записи пользователей, которые находятся локально. Пользователи, у которых есть учетные записи пользователей в локальной версии (независимо от того, имеют ли они такой url-адрес) или управляются корпорацией Майкрософт, будут видеть интерфейс Lync в веб-приложении Outlook.
-ms.openlocfilehash: b7f8577ec54413f30874cf3ff07a99ce4bdaa741
-ms.sourcegitcommit: 9fcd9a7ae78e04cef90415c2a0f30a98fbf8270f
+ms.openlocfilehash: d7048ccf878b68e7e8d68ee589eff77b6858bd0e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58407238"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58606768"
 ---
 # <a name="skype-for-business-online-support-in-outlook-on-the-web"></a>Поддержка Skype для бизнеса Online в веб-приложении Outlook
 

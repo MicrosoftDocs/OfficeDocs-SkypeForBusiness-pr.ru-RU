@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.dep.DeployMainInstallReplica
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d9c4bcc2-11a7-4d4d-858d-224db217ad32
 description: Чтобы приступить к установке нового сервера ролей Skype для бизнеса Server 2015 г., необходимо сначала установить локальный SQL Server, в который будет храниться локализованная конфигурация. Локальный магазин конфигурации будет выступать в качестве только для чтения реплики Skype для бизнеса Server центрального магазина управления (CMS). Вы должны войти на сервер, на который запущен этап Install Local Configuration Store в качестве локального администратора на компьютере, и иметь членство в RTCUniversalServerAdmins или группе RTCUniversalGlobalReadOnlyGroup. Если вы выполняете установку на edge Server, вам не нужно быть членом группы RTCUniversalServerAdmins или группы RTCUniversalGlobalReadOnlyGroup. Документ определения topology Builder будет считыт из экспортируемого документа определения, а не из центра управления. Чтобы экспортировать документ определения "Строитель топологии" и сделать его доступным для edge Servers, см. в разделе Экспорт топологии и копирование его на внешние носитли для установки edge.
-ms.openlocfilehash: 62318febe6f6c9028e55b19da0c1be6ca6316d2bf372f78bb95931693028a096
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a1d2fe8ec044f45da7115cda6133c22d2ec835b2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54311667"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58629801"
 ---
 # <a name="install-local-configuration-store"></a>Установка локального хранилища конфигурации
 

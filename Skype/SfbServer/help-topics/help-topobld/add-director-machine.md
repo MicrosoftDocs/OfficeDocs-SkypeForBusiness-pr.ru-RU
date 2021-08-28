@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddDirectorMachinePage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7d51493a-1b7a-43ad-b562-49e45f899796
 description: Укажите полное доменное имя каждого компьютера, который следует добавить в качестве директора в этот пул. После добавления компьютера в список в любое время до публикации топологии можно обновить полное доменное имя компьютера или удалить этот компьютер из пула. После публикации топологии изменение полного доменного имени осуществляется путем удаления сервера в построителе топологий с последующим добавлением нового сервера в пул с новым полным доменным именем.
-ms.openlocfilehash: 201b3158d22654fdb9fbbf01e39147932ae38279a0bde9cb6093f47bac53525d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a49baf3084fbb91bfce08b39048e88532488d468
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54346705"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58580743"
 ---
 # <a name="add-director-machine"></a>Добавление компьютера директора
  
