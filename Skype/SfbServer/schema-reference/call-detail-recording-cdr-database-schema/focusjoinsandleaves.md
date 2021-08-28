@@ -10,21 +10,21 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e6f0212c-67e9-4061-8720-d0296e855991
 description: Каждая запись в этой таблице содержит сведения CDR о том, как присоединиться к одному пользователю и оставить информацию для одной конференции. Каждая конференция представлена в этой таблице одной записью каждый раз, когда пользователь присоединяется и покидает конференцию.
-ms.openlocfilehash: 879c4df8dce048820e2d1a23f62ff5c7070611a7e0331cb496a50363aa98f3b9
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 80f4d9f93b840b4c76e28c295356ebd85cc88979
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54352088"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58632673"
 ---
 # <a name="focusjoinsandleaves-table-in-skype-for-business-server-2015"></a>Таблица FocusJoinsAndLeaves в Skype для бизнеса Server 2015 г.
  
 Каждая запись в этой таблице содержит сведения CDR о том, как присоединиться к одному пользователю и оставить информацию для одной конференции. Каждая конференция представлена в этой таблице одной записью каждый раз, когда пользователь присоединяется и покидает конференцию.
   
-|**Column**|**Тип данных**|**Key/Index**|**Сведения**|
+|**Столбец**|**Тип данных**|**Key/Index**|**Details**|
 |:-----|:-----|:-----|:-----|
 |**SessionIdTime** <br/> |datetime  <br/> |Основной, внешний  <br/> |Время экземпляра конференции. Используется совместно с **SessionIdSeq** для уникального определения экземпляра конференции. Дополнительные сведения см. в таблице [конференций Skype для бизнеса Server 2015](conferences.md) г. <br/> |
 |**SessionIdSeq** <br/> |int  <br/> |Основной, Внешний  <br/> |Идентификатор для определения экземпляра конференции. Используется совместно с **SessionIdTime** для уникальной идентификации экземпляра конференции. Дополнительные сведения см. в таблице [конференций Skype для бизнеса Server 2015](conferences.md) г. <br/> |

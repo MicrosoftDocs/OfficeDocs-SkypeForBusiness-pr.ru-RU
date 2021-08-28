@@ -12,7 +12,7 @@ searchScope:
 - Microsoft Cloud for Healthcare
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Healthcare
@@ -23,18 +23,18 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ansantam
 description: Просмотр отчетов администраторов о посещениях Teams EHR
-ms.openlocfilehash: 96f0efac9e1293197e92768e24cbd15187127410f75e70abbd77afa50d0baacf
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: cebd427096baae564f020694e18fc6023a560790
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54299238"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58588171"
 ---
-# <a name="microsoft-teams-ehr-connector-admin-reports"></a>Microsoft Teams Отчеты администратора соединитела eHR
+# <a name="microsoft-teams-ehr-connector-admin-reports"></a>Microsoft Teams Отчеты об администрировании соединители EHR
 
-Диалоговое Microsoft Teams отчет об администрировании соединитела (EHR) обеспечивает быстрое и удобное для чтения представление данных об использовании.
+Диалоговое Microsoft Teams отчет об администрировании соединитела (EHR) позволяет быстро и легко читать данные об использовании.
 
-Чтобы просмотреть отчет Microsoft Teams EHR, переходить на панель Microsoft Teams центра администрирования и просматривать диалоговое окно.
+Отчет об администрировании Microsoft Teams EHR можно просмотреть на панели Microsoft Teams центра администрирования и просмотреть диалоговое окно.
 
 Доступ к отчету можно получить с Microsoft Teams панели мониторинга Центра администрирования.
 
@@ -46,7 +46,7 @@ ms.locfileid: "54299238"
 - Оставшиеся выделение
 - Завершенные посещения
 
-Диалоговое окно отчета можно использовать для покупки дополнительных виртуальных посещений.
+Вы можете использовать диалоговое окно отчета для покупки дополнительных виртуальных посещений.
 
 ## <a name="related-topics"></a>Статьи по теме
 

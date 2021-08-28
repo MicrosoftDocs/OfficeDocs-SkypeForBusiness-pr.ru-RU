@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Ниже ются Microsoft 365 и Office 365 службы Skype для бизнеса и Microsoft Teams для Даму.
-ms.openlocfilehash: 26b37d3b1120aea14ca06b44f2282a065ee4ff1bf76dd171f666b9e6cf733c62
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d3c43e6fe4f73fc00e61c229b40060dd1c1bc69f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54284380"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58588261"
 ---
 # <a name="availability-in-pakistan"></a>Доступность в Пакистане
 
@@ -73,7 +73,7 @@ ms.locfileid: "54284380"
 |Доступны ли платные номера?  <br/> |Да  <br/> |
 |Доступны ли бесплатные номера?  <br/> |Нет  <br/> |
    
- Обратите внимание на то, что в Этом же формате номера служб можно использовать только для аудиоконференций. Поэтому если вы хотите получить платные и бесплатные номера для аудиоконференций, см. получение номеров телефонов служб для Skype для бизнеса и [Microsoft Teams.](../getting-service-phone-numbers.md)
+ Обратите внимание на то, что в Этом году номера служб можно использовать только для аудиоконференции. Поэтому если вы хотите получить платные и бесплатные номера для аудиоконференций, см. получение номеров телефонов служб для Skype для бизнеса и [Microsoft Teams.](../getting-service-phone-numbers.md)
   
 ## <a name="communications-credits"></a>Кредиты на связь
 

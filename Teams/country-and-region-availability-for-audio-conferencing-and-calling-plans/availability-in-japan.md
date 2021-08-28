@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже ются Microsoft 365 и Office 365 службы для Skype для бизнеса и Microsoft Teams для Японии.
-ms.openlocfilehash: 896759b447523efaca7cc67a90157cc1bb83e6b1d1b852c08c1159b2366b4e2c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Ниже ются Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Японии.
+ms.openlocfilehash: c0e68f27c8ed8aa987daeec26ebede2a24bf75a4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54286018"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58588281"
 ---
 # <a name="availability-in-japan"></a>Доступность в Японии
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже ются Microsoft 365 и Office 365 службы для Skype для бизнеса и Microsoft Teams для Японии.
+Ниже ются Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Японии.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 
@@ -62,13 +62,13 @@ ms.locfileid: "54286018"
 |**Функция**|**Сведения**|
 |:-----|:-----|
 |Доступно ли приобретение планов звонков?  <br/> |Да, см. [softBank Calling for Office 365.](https://aka.ms/SoftBankVoicePlan)  <br/> |
-|Доступные минуты для планов звонков  <br/> |См. [softBank Calling для Office 365.](https://aka.ms/SoftBankVoicePlan) <br/> |
-|Кому можно делать исходящие звонки?  <br/> |См. [softBank Calling для Office 365.](https://aka.ms/SoftBankVoicePlan) <br/> |
+|Доступные минуты для планов звонков  <br/> |См. [softBank Calling для Office 365](https://aka.ms/SoftBankVoicePlan). <br/> |
+|Кому можно делать исходящие звонки?  <br/> |См. [softBank Calling для Office 365](https://aka.ms/SoftBankVoicePlan). <br/> |
 
 > [!IMPORTANT]
 > Чтобы удалить номера пользователей (абонентов) в Японии (предоставлено SoftBank), обратитесь непосредственно в SoftBank.
 > Чтобы обновить адрес для экстренного обращения для номеров пользователей (абонентов) в Японии (предоставлено SoftBank), обратитесь непосредственно к SoftBank.
-> Дополнительные сведения см. в [этой](https://aka.ms/SoftBankVoicePlan)Office 365.
+> Дополнительные сведения см. в [этой Office 365.](https://aka.ms/SoftBankVoicePlan)
 
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Платные и бесплатные номера служб
 

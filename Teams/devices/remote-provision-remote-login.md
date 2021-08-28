@@ -15,19 +15,19 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Узнайте, как дистанционно подавь и войти в Teams устройствах с Android
-ms.openlocfilehash: 8866079fa02edb8dabbfe36d724194858d16553d
-ms.sourcegitcommit: 3cc2da11aac1a3a7d620810c6f22a7192e4ab993
+ms.openlocfilehash: 31a247f7716d1e97ed3ed1e4b9b7f8d20d0881f8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58483116"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58632203"
 ---
 # <a name="remote-provisioning-and-sign-in-for-teams-android-devices"></a>Удаленная подготовка и вход для Teams устройств с Android
 
-ИТ-администраторы могут удаленно подавлю и войти на устройство Teams Android. Чтобы подготовка устройства была удаленной, администратор должен отправить их коды MAC и создать код проверки. Весь процесс можно завершить удаленно из центра Teams администрирования.
+ИТ-администраторы могут удаленно подавка и вход на устройство Teams Android. Чтобы подготовка устройства была удаленной, администратор должен отправить их коды MAC и создать код проверки. Весь процесс можно завершить удаленно из центра Teams администрирования.
 
 ## <a name="review-the-supported-devices"></a>Просмотр поддерживаемых устройств
 
@@ -43,18 +43,18 @@ ms.locfileid: "58483116"
 |Teams телефонов|  Poly Trio C60|  7.0.2.1071|
 |Teams телефонов|  CCX400/CCX500/CCX600    |7.0.2.1072|
 |Teams телефонов|  Audio Codes C448HD/C450HD/C470HD|   1.10.120|
-|Teams панели|  770/1070|  1.004.0115|
-|Комнаты Teams android|Logitech Висячий линечик mini|1.2.982|
-|Комнаты Teams android|Logitech Висячий линечик|1.2.982|
-|Комнаты Teams android|AudioCodes RXV80|1.13.361|
-|Комнаты Teams android|EPOS EXPAND Vision 3T|1.2.2.21182.10|
-|Комнаты Teams android|Панель собраний Yealink A30|133.15.0.60|
-|Комнаты Teams android|Панель собраний Yealink A20|133.15.0.60|
-|Комнаты Teams android|Сенсорная консоль Yealink CTP18|137.15.0.37|
-|Комнаты Teams android|Poly Studio X30|3.5.0.344025|
-|Комнаты Teams android|Poly Studio X50|3.5.0.344025|
-|Комнаты Teams android|Сенсорная консоль Poly TC8 |3.5.0.210489|
-|Комнаты Teams android|Yealink VC210|118.15.0.54|
+|Teams панели|  Январь 770/1070|  1.004.0115|
+|Комнаты Teams для Android|Logitech Висячий линечик mini|1.2.982|
+|Комнаты Teams для Android|Logitech Висячий линечик|1.2.982|
+|Комнаты Teams для Android|AudioCodes RXV80|1.13.361|
+|Комнаты Teams для Android|EPOS EXPAND Vision 3T|1.2.2.21182.10|
+|Комнаты Teams для Android|Панель собраний Yealink A30|133.15.0.60|
+|Комнаты Teams для Android|Панель собраний Yealink A20|133.15.0.60|
+|Комнаты Teams для Android|Сенсорная консоль Yealink CTP18|137.15.0.37|
+|Комнаты Teams для Android|Poly Studio X30|3.5.0.344025|
+|Комнаты Teams для Android|Poly Studio X50|3.5.0.344025|
+|Комнаты Teams для Android|Сенсорная консоль Poly TC8 |3.5.0.210489|
+|Комнаты Teams для Android|Yealink VC210|118.15.0.54|
 
 ## <a name="add-a-device-mac-address"></a>Добавление адреса MAC устройства
 
@@ -94,9 +94,9 @@ ms.locfileid: "58483116"
 
 ## <a name="provision-the-device"></a>Подготовка устройства
 
-Когда устройство подключено и подключено к сети, технические специалисты его подавют. Эти действия будут выполнены на Teams устройстве.
+Когда устройство подключено и подключено к сети, специалист под его подготовка. Эти действия будут выполнены на Teams устройстве.
 
-1. Специалист выбирает в **области** подготовка **устройство Параметры.**  
+1. Специалист выбирает в **области** подготовка устройство **Параметры.**  
 
    ![Параметр "Подготовка нового устройства" на вкладке "Действия"](../media/provision-device1.png)
   

@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.UserSetPin
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 611ba182-b25a-468d-b4de-9f0861f58293
 description: Чтобы создать ПИН-код пользователя, выберите автоматически создать допустимый ПИН-код.
-ms.openlocfilehash: 12a892882194ceed7ef9620c22f5262e66c75612ee0d274e0a43d516b6191240
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: eb1dfdd6300775d606d7f2cdb3dc2f62cd175de9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54328314"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58587491"
 ---
 # <a name="set-pin"></a>Настройка ПИН-кода
 
@@ -30,6 +30,6 @@ ms.locfileid: "54328314"
 
 Сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнеса Server, см. в Skype для бизнеса Server [2015](../../manage/manage.md)г.
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>Дополнительные материалы
 
 [Пользовательские ПИН-ники](/previous-versions/office/lync-server-2013/lync-server-2013-managing-user-pins)

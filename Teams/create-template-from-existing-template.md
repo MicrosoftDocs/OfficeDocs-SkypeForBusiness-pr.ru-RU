@@ -9,25 +9,25 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: Узнайте, как использовать существующий шаблон команды для создания нового шаблона в Microsoft Teams.
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 80450257158a3a65da5f0fffe05d48239e42cd33d538544a6363befffce842bf
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 56af8756282a4d2cc40ebf33a620855785c67306
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54282682"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58588221"
 ---
 # <a name="create-a-new-team-template-from-an-existing-team-template-in-microsoft-teams"></a>Создание нового шаблона группы на его Microsoft Teams
 
 **Пользовательские шаблоны пока не поддерживаются пользователями EDU.**
 
-Microsoft Teams содержит встроенные шаблоны, которые можно сохранить и изменить для конкретных потребностей организации.
+Microsoft Teams содержит встроенные шаблоны, которые можно сохранить и изменить в определенных организационных потребностях.
 
 1. Войдите в Центр администрирования Teams.
 
@@ -37,13 +37,13 @@ Microsoft Teams содержит встроенные шаблоны, котор
 
 4. Выберите **Дублировать**.
 
-![Изображение диалоговое окно "Шаблоны группы" с выделенной командой "Добавить".](media/template-duplicate.png)
+![Изображение диалоговое окно "Шаблоны команды" с выделенной командой "Добавить".](media/template-duplicate.png)
 
 (Кроме того, вы можете на выбор **добавить**  >  **Начните с существующего шаблона,** чтобы открыть выберите шаблон, который будет использовать в качестве **отправной точки.)**
 
 ![Изображение начальной точки шаблонов группы с выделенной командой "Начните с существующего шаблона".](media/template-start-existing-template.png)
 
-5. На **начальном экране Выберите шаблон,** который будет использовать в качестве начальной точки, выберите **Далее**.
+5. На экране **Выберите шаблон, который будет использовать в** качестве начальной точки, выберите **Далее**.
 
     Откроется дубликат шаблона, к имени которого будет придано слово Копировать. 
 

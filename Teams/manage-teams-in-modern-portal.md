@@ -9,7 +9,7 @@ audience: admin
 search.appverid: MET150
 ms.reviewer: islubin, jastark
 description: Узнайте, как просматривать и обновлять команды, настроенные вашей организацией для совместной работы, в Центре администрирования Microsoft Teams.
-localization_priority: Priority
+ms.localizationpriority: high
 f1.keywords:
 - CSH
 ms.custom:
@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 314b56c4787049f3ca210de5b55a22ab8487e78d
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 577060d46bea2196c17a42d82827bdcad7062285
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58232684"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58632043"
 ---
 # <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Управление командами в Центре администрирования Microsoft Teams
 

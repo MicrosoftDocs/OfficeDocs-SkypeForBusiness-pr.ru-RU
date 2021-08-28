@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Ниже ются Microsoft 365 и Office 365 службы для Skype для бизнеса и Microsoft Teams для Словакии.
-ms.openlocfilehash: b0b64e9d540b64a7c8b2d5147af80c7259ff7c6422cec01d4da00eb32e98fcc4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 86d1a35ef20edce910edd5434a9a21a235435dd0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54343053"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58588241"
 ---
 # <a name="availability-in-slovakia"></a>Доступность в Словакии
 

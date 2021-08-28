@@ -9,18 +9,18 @@ ms.reviewer: ''
 search.appverid: ''
 description: В этой Teams политики.
 audience: admin
-localization_priority: Normal
+ms.localizationpriority: medium
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 75a2da0b4b949195f5660991eca130249bc1e75ae52e95ef7c221449a8e72821
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 307eccf1d6e919593cdfadaf2b902a7a15c7b4cc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54319952"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58588151"
 ---
 # <a name="manage-teams-with-policies"></a>Управление Teams политиками
 
@@ -28,7 +28,7 @@ ms.locfileid: "54319952"
 
 ## <a name="what-you-use-policies-for"></a>Для чего используются политики
 
-Политики используются для выполнения многих задач в организации в различных областях, таких как обмен сообщениями, собрания и приложения. Вы можете разрешить пользователям планировать собрания в канале teams, разрешить пользователям изменять отправленные сообщения и управлять возможностью закрепления приложений на панели Teams приложений.
+Политики используются для выполнения многих задач в организации в различных областях, таких как обмен сообщениями, собрания и приложения. Вы можете разрешить пользователям планировать собрания в канале teams, разрешить пользователям изменять отправленные сообщения и управлять возможностью закрепления приложений на панели Teams приложения.
 
 ## <a name="how-to-assign-policies"></a>Назначение политик
 
@@ -40,19 +40,19 @@ ms.locfileid: "54319952"
 
 ## <a name="how-to-manage-policies"></a>Управление политиками
 
-Управление политиками можно с помощью Microsoft Teams администрирования или [с помощью PowerShell.](./teams-powershell-managing-teams.md#manage-policies-via-powershell)
+Управление политиками можно управлять с Microsoft Teams администрирования или [с помощью PowerShell.](./teams-powershell-managing-teams.md#manage-policies-via-powershell)
 
-Например, с помощью политики настройки приложения можно разрешить пользователям загружать пользовательские приложения, устанавливать приложения от их имени и закрепить приложения на Teams панели приложений. Эти политики настраиваются в Центре администрирования Teams администрирования.
+Например, с помощью политики настройки приложения можно разрешить пользователям загружать пользовательские приложения, устанавливать приложения от их имени и закрепить приложения на Teams панели приложений. Эти политики настраиваются в Центре Teams администрирования.
 
 ![Снимок экрана: политика настройки приложений.](media/app-setup-policy.png)
 
-Кроме того, политика собраний может использоваться для управления настройками звука и видео в собраниях Teams, такими как транскрибция, записи в облаке, ip audio/video.
+Кроме того, политика собраний может использоваться для управления настройками звука и видео на собраниях Teams, такими как транскрибция, записи в облаке, а также аудио- и видео IP-адреса.
 
 ![Снимок экрана: политика собрания.](media/engineering-meeting-policy.png)
 
 ### <a name="teams-for-education"></a>Teams для образовательных учреждений
 
-Кроме того, с помощью [Teams для образования политики можно](easy-policy-setup-edu.md) легко настроить политики для среды обучения и управлять ими.
+Кроме того, с помощью [Teams для образования](easy-policy-setup-edu.md) политики можно легко настроить политики для среды обучения и управлять ими.
 
 ![Снимок экрана: Teams для образования политики.](media/easy-policy-setup-quick-setup.png)
 
@@ -73,5 +73,5 @@ ms.locfileid: "54319952"
 * [Назначение политик в Teams — начало работы](policy-assignment-overview.md)
 * [Управление политиками отзывов в Microsoft Teams](manage-feedback-policies-in-teams.md)
 * [Управление политиками команд в Microsoft Teams](teams-policies.md)
-* [Подготовка к трансляциям в Microsoft Teams](teams-live-events/set-up-for-teams-live-events.md)
-* [Teams для образования политик и пакетов политик](policy-packages-edu.md)
+* [Подготовка к трансляциям в Microsoft Teams](teams-live-events/set-up-for-teams-live-events.md)
+* [Teams для образования политики и пакеты политик](policy-packages-edu.md)

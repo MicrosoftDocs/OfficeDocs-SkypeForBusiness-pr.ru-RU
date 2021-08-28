@@ -16,20 +16,20 @@ search.appverid: MET150
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: Узнайте о наборе бесплатных номеров в Индии, включая доступность, доступность проводной и фиксированной телефонной связи, а также ограничения для мобильной сети.
-ms.openlocfilehash: dae597170f8ea4a56a908087a85a1b12777341ba277e72e3a1ca599037a393e2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Узнайте о наборе бесплатных номеров в Индии, в том числе о доступности, доступности проводных и фиксированных номеров, а также об ограничениях для мобильной сети.
+ms.openlocfilehash: 9650991d6d1f39915d978515c6afa36f556eed08
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54335889"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58631953"
 ---
 # <a name="toll-free-dialing-restrictions-in-india"></a>Ограничения набора бесплатных номеров в Индии
 

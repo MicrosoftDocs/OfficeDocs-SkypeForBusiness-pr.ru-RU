@@ -14,14 +14,14 @@ f1.keywords:
 ms.collection:
 - M365-voice
 search.appverid: MET150
-localization_priority: Normal
+ms.localizationpriority: medium
 description: В этой статье представлены общие сведения о поддерживаемых Microsoft Teams экранах.
-ms.openlocfilehash: e7772de5767b9aefe69e1192051be65ccb632656
-ms.sourcegitcommit: 85017cf88789c750836780dad2ef707c1c6c39b4
+ms.openlocfilehash: 9ea9f9ee88bb1d580a0e8a1ded9f6586229d062d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58359166"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58632543"
 ---
 # <a name="deploy-teams-phones-teams-displays-and-microsoft-teams-rooms-on-android-using-intune"></a>Развертывание Teams телефонов, Teams дисплеев и Комнаты Microsoft Teams на устройствах Android с помощью Intune
 

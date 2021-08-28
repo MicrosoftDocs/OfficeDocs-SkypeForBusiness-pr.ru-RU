@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d780f676-c2c5-4f57-90dd-df5fcd204d76
 ROBOTS: NOINDEX, NOFOLLOW
 description: Очереди группы ответов удерживают вызовы в группах ответов, пока агент не ответит на вызов. Очереди имеют назначенные группы агентов. При создании или изменении очереди вы используете диалоговое окно Выбор групп для выбора одной или нескольких групп агентов, которые требуется назначить очереди.
-ms.openlocfilehash: 91bf7c6f7175b088f71d6ac79b13a80f6d1d4a57c2ec0e7dd44c798731460630
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 73c52e37624dc2468ea25aa7d892e8ebaa21ba04
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54322331"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58610026"
 ---
 # <a name="select-groups"></a>Выбор групп
 

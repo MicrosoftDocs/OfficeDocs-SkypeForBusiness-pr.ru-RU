@@ -9,15 +9,15 @@ manager: serdars
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 25e68396-96dc-4e4b-8a65-d30ea80d1bc9
 description: Планирование тем для проверки подлинности и авторизации для Skype для бизнеса Server, включая интеграцию с другими продуктами
-ms.openlocfilehash: 0ba25ce4a1c314e2df96c1a1009254254277f4636d937fa2f14277a92976b7b8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a0d9e8dff4a08c670ce2af0b6eb9399146cef006
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54349931"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58632683"
 ---
 # <a name="discussing-authentication-and-authorization-in-skype-for-business"></a>Обсуждение проверки подлинности и авторизации в Skype для бизнеса
 

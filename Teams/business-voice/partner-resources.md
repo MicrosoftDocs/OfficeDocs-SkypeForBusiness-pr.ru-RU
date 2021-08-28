@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
@@ -17,12 +17,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2e011d8f2203bbd1f12d2a4819cd284f5605d4af93a2e93a3e642b747972f99b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 62cfe4d87ccb80333fcdd6ce227ab1cbccafa05e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54286038"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58632633"
 ---
 # <a name="microsoft-365-business-voice-partner-resources"></a>Голосовая связь Microsoft 365 бизнес ресурсов партнеров
 
@@ -30,7 +30,7 @@ ms.locfileid: "54286038"
 
 Перед развертыванием бизнес-голосовой почты у вас должна быть фундамент для развертывания и поддержки Microsoft Teams.
 
-Эта статья является кратким ресурсом для технической доставки и поддержки сотрудников, которые еще не являются сотрудниками службы business Voice. Эти ресурсы используются для расширения знаний в области бизнес-голосовой почты, включая основы развертывания и поддержки.
+Эта статья является кратким ресурсом для сотрудников службы технической поддержки, которые еще не являются сотрудниками службы business Voice. Эти ресурсы используются для расширения знаний в области бизнес-голосовой почты, включая основы развертывания и поддержки.
 
 - [Teams практические рекомендации](../cloud-voice-landing-page.md)
 - [Предварительная оценка и планирование](../3-envision-evaluate-my-environment.md)

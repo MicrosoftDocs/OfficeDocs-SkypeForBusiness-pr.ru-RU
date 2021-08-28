@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f42e4d60-699b-4870-8bb5-13b51bb6eb2b
 description: Сводка. Сведения о отчете об устройстве в Skype для бизнеса Server.
-ms.openlocfilehash: 129511daf296018bda5f727d4cdb567bdc93dddfafa6b7c48f7a20a5bcf14567
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f8c3368132dc1924ababfa6fe71b36daa412afee
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54344738"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58632913"
 ---
 # <a name="device-report-in-skype-for-business-server"></a>Отчет об устройстве в Skype для бизнеса Server
  
@@ -147,7 +147,7 @@ $x
   
 **Метрики отчета по устройству**
 
-|**Название**|**Возможность сортировки по этому показателю**|**Description**|
+|**Название**|**Возможность сортировки по этому показателю**|**Описание**|
 |:-----|:-----|:-----|
 |**Устройства захвата** <br/> |Да  <br/> |Устройство (например, микрофон или веб-камера), используемое для передачи аудиосигналов.  <br/> |
 |**Устройства обработки** <br/> |Да  <br/> |Устройство (например, наушники или динамики), используемые для приема аудиосигналов.  <br/> |
