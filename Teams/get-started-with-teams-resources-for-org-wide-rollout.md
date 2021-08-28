@@ -12,7 +12,7 @@ description: После настройки первых команд узнай�
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-mar2020
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -21,12 +21,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bccc3f9253a9aecdfe0b6fd99c9edd7653f408b653224f754d352ebb479a9cd1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d1d93cd4261dc1826351a18b8a325abe2a8913de
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54322571"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58633313"
 ---
 # <a name="start-your-organization-wide-rollout-of-microsoft-teams"></a>Начните развертывание Microsoft Teams в масштабе всей организации
 

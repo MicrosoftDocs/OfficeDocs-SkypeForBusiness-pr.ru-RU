@@ -1,10 +1,10 @@
 ### YamlMime:Hub
 title: Планирование обновления с Skype для бизнеса до Microsoft Teams
-summary: 'Microsoft Teams предназначен для того, чтобы помочь людям оставаться на связи, беспрепятственно сотрудничать и упростить работу в безопасном и соответствии требованиям — все это в одном месте. Здесь вы найдете рекомендации, учебные курсы и ресурсы по успешному обновлению с Skype для бизнеса до Teams.'
+summary: 'Microsoft Teams предназначен для обеспечения бесперебойной связи, бесперебойной совместной работы и упрощения работы в безопасном и соответствии требованиям— все это в одном месте. Здесь вы найдете рекомендации, учебные курсы и ресурсы по успешному обновлению с Skype для бизнеса до Teams.'
 brand: teams
 metadata:
   title: Планирование обновления с Skype для бизнеса до Microsoft Teams
-  description: 'Microsoft Teams предназначен для того, чтобы помочь людям оставаться на связи, беспрепятственно сотрудничать и упростить работу в безопасном и соответствии требованиям — все это в одном месте. Здесь вы найдете рекомендации, учебные курсы и ресурсы по успешному обновлению с Skype для бизнеса до Teams.'
+  description: 'Microsoft Teams предназначен для обеспечения бесперебойной связи, бесперебойной совместной работы и упрощения работы в безопасном и соответствии требованиям— все это в одном месте. Здесь вы найдете рекомендации, учебные курсы и ресурсы по успешному обновлению с Skype для бизнеса до Teams.'
   ms.service: msteams
   ms.topic: hub-page
   author: SerdarSoysal
@@ -15,7 +15,7 @@ metadata:
   audience: admin
   f1.keywords:
     - NOCSH
-  localization_priority: Priority
+  ms.localizationpriority: high
   ms.collection:
     - Teams_ITAdmin_JourneyFromSfB
     - M365-collaboration
@@ -45,11 +45,11 @@ productDirectory:
         - url: 'https://customers.microsoft.com/story/799203-ikea-retailers-teams'
           text: МНА — Skype для бизнеса Server Teams
         - url: 'https://customers.microsoft.com/story/782385-williams-energy-teams'
-          text: Куа Skype для бизнеса Server Teams
+          text: 1 — Skype для бизнеса Server Teams
         - url: 'https://customers.microsoft.com/story/765513-trek-retailers-teams'
-          text: 'Так, Skype для бизнеса в Интернете Teams'
+          text: 'Так, Skype для бизнеса Online для Teams'
         - url: 'https://customers.microsoft.com/story/765520-dentsu-aegis-network-media-entertainment-teams'
-          text: Сеть Den дениз Aegis — Skype для бизнеса Online для Teams
+          text: Den дениз Aegis Network — Skype для бизнеса Online для Teams
         - url: 'https://customers.microsoft.com/story/764851-berkshire-healthcare-nhs-foundation-trust-health-provider-teams'
           text: Berkcare Healthcare — Skype для бизнеса Online для Teams
     - title: 'Ignite Session: проектирование пути к Teams'
@@ -58,11 +58,11 @@ productDirectory:
       url: 'https://go.microsoft.com/fwlink/?linkid=2154668'
     - title: Комплект успешного обновления
       imageSrc: 'https://docs.microsoft.com/office/media/icons/success-teams.svg'
-      summary: 'Скачайте материалы о готовности пользователей, включая шаблоны обращений, опросы пользователей, образцы планов проектов и пилотных тестов.'
+      summary: 'Скачайте материалы о готовности пользователей, включая шаблоны обращений, опросы пользователей, образцы планов тестирования проекта и пилотного тестирования.'
       url: 'https://aka.ms/UpgradeSuccessKit'
     - title: Teams документации администратора
       imageSrc: 'https://docs.microsoft.com/office/media/icons/document-teams.svg'
-      summary: 'Узнайте, как совметив и управляйте Teams и подготовьте пользователей к новым взаимодействиям и совместной работе.'
+      summary: 'Узнайте, как свести пользователей к работе и Teams управлять ими, а также подготовить пользователей к новым взаимодействиям и совместной работе.'
       url: ./index.yml
     - title: Обучение с инструктором Teams
       imageSrc: 'https://docs.microsoft.com/office/media/icons/presenter-with-podium.svg'
@@ -70,7 +70,7 @@ productDirectory:
       url: ./instructor-led-training-teams-landing-page.yml
     - title: Разорите Teams сценариев
       imageSrc: 'https://docs.microsoft.com/office/media/icons/best-practices-teams.svg'
-      summary: 'Наши интерактивные Teams, которые помогут ИТ-Teams.'
+      summary: 'Наши Teams на интерактивном совещании по мелку, чтобы помочь ИТ-Teams.'
       url: ./chalk-talks-landing-page.yml
     - title: Прекращение поддержки Skype для бизнеса Online
       imageSrc: 'https://docs.microsoft.com/office/media/icons/migration-teams.svg'
@@ -82,7 +82,7 @@ productDirectory:
       url: 'https://techcommunity.microsoft.com/t5/microsoft-teams-blog/bg-p/MicrosoftTeamsBlog'
     - title: Общее влияние на Teams
       imageSrc: 'https://docs.microsoft.com/office/media/icons/trend-graph-teams.svg'
-      summary: 'Подробнее о отчете Forrester Research, который может оценить улучшения производительности сотрудников и компании после Teams.'
+      summary: В отчете Forrester Research можно оценить улучшения производительности сотрудников и компании после Teams.
       url: 'https://www.microsoft.com/microsoft-365/blog/wp-content/uploads/sites/2/2019/04/Total-Economic-Impact-Microsoft-Teams.pdf'
 additionalContent:
   sections:

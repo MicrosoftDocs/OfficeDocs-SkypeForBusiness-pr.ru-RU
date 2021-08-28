@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 01131e28-b38e-40d9-8524-06725b9c6608
 description: В этом разделе представлен обзор основных элементов, составляющих основу безопасности для Skype для бизнеса Server. Понимание совместной работы этих элементов имеет важное значение для принятия обоснованных решений по обеспечению безопасности конкретного Skype для бизнеса Server развертывания.
-ms.openlocfilehash: a0f6513f86d7416f546c6a744fc1b40df7c7137a18dae5d76fcf18166a4f2eb1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 27c5cdd1e9ff662a2a7d39ded04782af666ddb29
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54337717"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627911"
 ---
 # <a name="security-framework-for-skype-for-business-server"></a>Рамки безопасности для Skype для бизнеса Server
  
@@ -40,7 +40,7 @@ ms.locfileid: "54337717"
     
 Эти основные элементы безопасности работают вместе для определения доверенных пользователей, серверов, подключений и операций, чтобы обеспечить безопасную основу для Skype для бизнеса Server.
   
-## <a name="in-this-section"></a>Содержание
+## <a name="in-this-section"></a>В этой статье
 
 В разделах описано, как каждый из этих фундаментальных элементов работает для повышения безопасности Skype для бизнеса Server инфраструктуры.
   

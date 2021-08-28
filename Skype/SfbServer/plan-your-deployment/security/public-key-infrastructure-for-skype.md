@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 737c8a25-23e9-4494-ab76-5a7b729b44ca
 description: Skype для бизнеса Server для проверки подлинности серверов и создания цепочки доверия между клиентами и серверами, а также между различными ролями сервера. Инфраструктура Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 и Windows Server 2008 public key Infrastructure (PKI) предоставляет инфраструктуру для создания и проверки этой цепочки доверия.
-ms.openlocfilehash: 7b955aa07143cead900a0140ac8ee64fa02ba34ed3945553e376123c7260909d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 733b1bb946147edd184a7b0fecb16ffab2adba51
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54329493"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627931"
 ---
 # <a name="public-key-infrastructure-for-skype-for-business-server"></a>Инфраструктура общедоступных ключей для Skype для бизнеса Server
  

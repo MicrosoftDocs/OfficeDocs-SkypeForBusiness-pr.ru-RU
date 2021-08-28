@@ -10,21 +10,21 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 05ff9dd3-1aaa-4af0-bd69-8789fb8eaeb3
 description: Каждая запись представляет одно событие регистрации пользователя.
-ms.openlocfilehash: 9cc29f1700e1b47230772c6478a6078614baa62f4f7225fb5853bf8cece8a82c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ed8ce9f160f42384548a01d2cd6c74b3b24e60f1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54302263"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627781"
 ---
 # <a name="registration-table"></a>Таблица регистрации
  
 Каждая запись представляет одно событие регистрации пользователя.
   
-|**Column**|**Тип данных**|**Key/Index**|**Сведения**|
+|**Столбец**|**Тип данных**|**Key/Index**|**Details**|
 |:-----|:-----|:-----|:-----|
 |**SessionIdTime** <br/> |datetime  <br/> |Основной, внешний  <br/> |Время запроса сеанса. В сочетании с параметром **SessionIdSeq** определяет сеанс уникальным образом. Дополнительные сведения см. в таблице [Диалоги Skype для бизнеса Server 2015](dialogs.md) г. <br/> |
 |**SessionIdSeq** <br/> |int  <br/> |Основной, внешний  <br/> |Идентификатор для идентификации сеанса. В сочетании с параметром **SessionIdTime** определяет сеанс уникальным образом. Дополнительные сведения см. в таблице [Диалоги Skype для бизнеса Server 2015](dialogs.md) г. <br/> |

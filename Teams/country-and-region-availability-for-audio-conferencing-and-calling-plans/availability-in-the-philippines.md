@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже находятся Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams на Филиппинах.
-ms.openlocfilehash: dcc3e23c628866f125fb6926d7f0349d77b30e8e1a8dc4ba3073d564bebae17c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Ниже находятся Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные на Филиппинах.
+ms.openlocfilehash: 071bad707b51a0d455dbccb02c72922c904b5ab2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54339815"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634883"
 ---
 # <a name="availability-in-the-philippines"></a>Доступность на Филиппинах
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже находятся Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams на Филиппинах.
+Ниже находятся Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные на Филиппинах.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 

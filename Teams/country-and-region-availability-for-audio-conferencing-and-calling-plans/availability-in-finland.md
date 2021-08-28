@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже находятся Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Финляндии.
-ms.openlocfilehash: d6236374496f59172f3c54d9d156a39e0cedd674db5181ee3e86c1e47e2f80b0
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Ниже ются Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Финляндии.
+ms.openlocfilehash: 860fe2b7c63a86e7fe7bb05f683ca9c2fae6de52
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54332861"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634933"
 ---
 # <a name="availability-in-finland"></a>Доступность в Финляндии
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже находятся Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Финляндии.
+Ниже ются Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Финляндии.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 

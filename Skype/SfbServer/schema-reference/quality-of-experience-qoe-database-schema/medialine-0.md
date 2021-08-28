@@ -10,21 +10,21 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 414b1d63-ae97-4c27-bac0-c9ad0f808ff0
 description: Каждая запись представляет одну строку мультимедиа. (Один сеанс аудио обычно содержит одну строку мультимедиа. Один сеанс аудио- и видеосвязи (A/V) обычно содержит одну аудио-медиа-линию и одну линию видеосвязи, хотя сеанс может содержать две линии видеосвязи, если используется устройство-конференция или используется Представление галереи.
-ms.openlocfilehash: bb4efba0477193232991732c821aaaa547a19583f8899156a1f92cca119c6b3a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9f96c18fcbe5799440e557cb180a52e990f61ec8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54321641"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627721"
 ---
 # <a name="medialine-table"></a>Таблица MediaLine
  
 Каждая запись представляет одну строку мультимедиа. (Один сеанс аудио обычно содержит одну строку мультимедиа. Один сеанс аудио- и видеосвязи (A/V) обычно содержит одну аудио-медиа-линию и одну линию видеосвязи, хотя сеанс может содержать две линии видеосвязи, если используется устройство-конференция или используется Представление галереи.
   
-|**Column**|**Тип данных**|**Key/Index**|**Сведения**|
+|**Столбец**|**Тип данных**|**Key/Index**|**Details**|
 |:-----|:-----|:-----|:-----|
 |**ConferenceDateTime** <br/> |datetime  <br/> |Primary  <br/> |Ссылки из [таблицы Сеанс](session.md).  <br/> |
 |**SessionSeq** <br/> |int  <br/> |Primary  <br/> |Ссылки из [таблицы Сеанс](session.md).  <br/> |

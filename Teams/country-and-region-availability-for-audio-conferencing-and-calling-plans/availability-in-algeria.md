@@ -15,7 +15,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже ы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams доступны для ветвей.
-ms.openlocfilehash: d6633362c12a1e4abf5e58276ce58a367ad75e66603da9f863b151b73e557aa0
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Ниже ются Microsoft 365 и Office 365 службы Skype для бизнеса и Microsoft Teams для нее.
+ms.openlocfilehash: b1f6a73a2f845cb36bde34755cbb226c6716bd20
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54334830"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58633393"
 ---
 # <a name="availability-in-algeria"></a>Доступность в Неве
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже ы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams доступны для ветвей.
+Ниже ются Microsoft 365 и Office 365 службы Skype для бизнеса и Microsoft Teams для нее.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 
@@ -68,7 +68,7 @@ ms.locfileid: "54334830"
 
 |**Функция**|**Сведения**|
 |:-----|:-----|
-|Для каких столиц или крупных городов можно получить платные номера?   | Не географическое положение. Номера телефонов не связаны с конкретным городом или местоположением. <br/> |
+|Для каких столиц или крупных городов можно получить платные номера?   | Не географическое. Номера телефонов не связаны с конкретным городом или местоположением. <br/> |
 |Доступны ли платные номера?  <br/> |Не географическое положение[(по запросу](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
 |Доступны ли бесплатные номера?  <br/> |Нет  <br/> |
    

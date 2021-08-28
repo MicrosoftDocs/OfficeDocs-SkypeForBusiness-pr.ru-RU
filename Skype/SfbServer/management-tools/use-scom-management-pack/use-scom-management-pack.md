@@ -10,16 +10,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ca03f9ab-a227-4903-85a8-427df6a0a5bb
 description: Сводка. Узнайте, как настроить инфраструктуру Skype для бизнеса Server 2015 г. для работы с System Center Operations Manager.
-ms.openlocfilehash: d2a026de164a58365377f697aa88cf91b728722875aa9cdf8733444055742ce1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e5dc5a4c01cd4e45c6b1145725b17073d910e66f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54283221"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627981"
 ---
 # <a name="manage-skype-for-business-server-2015-using-scom-management-pack"></a>Управление Skype для бизнеса Server 2015 г. с помощью пакета управления SCOM
  
@@ -43,7 +43,7 @@ ms.locfileid: "54283221"
 
 Пакеты управления можно использовать с System Center Operations Manager 2007 R2 (64-bit) (поддерживается только для целей миграции) или System Center Operations Manager 2012 SP1 &amp; R2 (64-bit) или System Center Operations Manager 2016 (64-bit). В следующей таблице показаны поддерживаемые конфигурации пакетов управления для Skype для бизнеса Server 2015 г.: 
   
-|Конфигурация|Поддержка|
+|Настройка|Поддержка|
 |:-----|:-----|
 |Операционная система Windows Server 2008 R2  <br/> Windows Server 2012 Операционная система R2  <br/> |Да. Как на Skype для бизнеса Server сервере 2015 г., так и на узлах синтетического просмотра транзакций.  <br/> |
 |Кластерные серверы  <br/> |Не поддерживается.  <br/> |
@@ -60,7 +60,7 @@ ms.locfileid: "54283221"
 |:-----|:-----|
 |ЦП  <br/> |Один из следующих:  <br/> 64-битный процессор, четырехъядерный, 2,33 ГГц или выше  <br/> 64-битный двухъядерный процессор, двухъядерный, 2,33 ГГц или выше  <br/> |
 |Память  <br/> |8 ГБ  <br/> |
-|Операционная система  <br/> |Windows Server 2008 R2  <br/> Windows Server 2012 R2  <br/> |
+|Операционная система  <br/> |Windows Server 2008 R2  <br/> Windows Server 2012 R2  <br/> |
 |Сеть  <br/> |1 сетевой адаптер с 1 Гбит/с  <br/> |
    
 ## <a name="prerequisites"></a>Необходимые условия
@@ -128,9 +128,9 @@ Skype для бизнеса Server пакеты управления 2015 г. о
 
 |Поддерживаемые синтетические транзакции для регистрации, присутствия и контактов|||
 |:-----|:-----|:-----|
-|1  <br/> |Регистрация (вход пользователя)  <br/> |Доступные Lync Server 2010 и более  <br/> |
-|2  <br/> |Служба адресной книги (загрузка файлов)  <br/> |Доступные Lync Server 2010 и более  <br/> |
-|3  <br/> |Веб-запрос адресной книги  <br/> |Доступные Lync Server 2010 и более  <br/> |
+|1   <br/> |Регистрация (вход пользователя)  <br/> |Доступные Lync Server 2010 и более  <br/> |
+|2   <br/> |Служба адресной книги (загрузка файлов)  <br/> |Доступные Lync Server 2010 и более  <br/> |
+|3   <br/> |Веб-запрос адресной книги  <br/> |Доступные Lync Server 2010 и более  <br/> |
 |4   <br/> |Присутствие  <br/> |Доступные Lync Server 2010 и более  <br/> |
 |5   <br/> |Единое хранилище контактов  <br/> |Доступные Lync Server 2013 и более  <br/> |
 ||||   
@@ -149,11 +149,11 @@ Skype для бизнеса Server пакеты управления 2015 г. о
 |:-----|:-----|:-----|
 |9   <br/> |Голосовые и видеоконференции  <br/> |Доступно в Lync Server 2010 и за ее пределами  <br/> |
 |10   <br/> |Конференция данных  <br/> |Доступно в Lync Server 2013 и за его пределами  <br/> |
-|11  <br/> |Конференция мгновенных сообщений  <br/> |Доступно в Lync Server 2010 и за ее пределами  <br/> |
+|11   <br/> |Конференция мгновенных сообщений  <br/> |Доступно в Lync Server 2010 и за ее пределами  <br/> |
 |12   <br/> | Сохраняемый чат <br/> |Доступно в Lync Server 2013 и за его пределами  <br/> |
-|13  <br/> |Регистрация launcher (запланированные собрания)  <br/> |Доступно в Lync Server 2013 и за его пределами  <br/> |
+|13   <br/> |Регистрация launcher (запланированные собрания)  <br/> |Доступно в Lync Server 2013 и за его пределами  <br/> |
 |14   <br/> |Dial in Conferencing  <br/> |Новое в Skype для бизнеса Server 2015 г.  <br/> |
-|15  <br/> |Conferencing общего доступа к приложениям  <br/> |Новое в Skype для бизнеса Server 2015 г.  <br/> |
+|15   <br/> |Conferencing общего доступа к приложениям  <br/> |Новое в Skype для бизнеса Server 2015 г.  <br/> |
 |16   <br/> |Конференция UCWA (участие в веб-собрании)  <br/> |Новое в Skype для бизнеса Server 2015 г.  <br/> |
 ||||
 

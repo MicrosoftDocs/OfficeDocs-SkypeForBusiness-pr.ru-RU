@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.dep.DeployAIOInvoke
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5da0aa73-8bf8-41f3-81e7-94f955cda541
 description: На странице Выполнение команд можно просмотреть в области задач SQL Server Express и настройки, чтобы действовать в качестве центра управления. По умолчанию создается экземпляр SQL Server базы данных с именем RTC. Правила брандмауэра также создаются, чтобы разрешить входящий и исходящие доступы для серверов и клиентов для связи с базой данных и экземпляром. После завершения задачи можно выбрать файл журнала из выпадаемого списка. Файл журнала называется локальной машиной Bootstrap. После выбора файла журнала нажмите кнопку Просмотр журнала. Просмотрите файл журнала для любых ошибок и предупреждений. Когда вы будете готовы к этому, нажмите кнопку Готово. Теперь необходимо определить топологию с помощью Topology Builder, если вы еще этого не сделали.
-ms.openlocfilehash: 6c6cd0062f5d8269b7cd19a1d3587f90e24b9d3e551b372907d593719ca89054
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d6dcf9fc2b3bcd2f900bcc93ada361ef1ee1340d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54319312"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634613"
 ---
 # <a name="prepare-single-standard-edition-server-invoke"></a>Подготовка отдельного сервера Standard Edition (вызов)
  

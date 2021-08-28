@@ -10,7 +10,7 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 description: Используйте политики хранения для Microsoft Teams, чтобы хранить сообщения, которые ваша организация должна приводить в соответствие внутренним политикам, отраслевым нормам или юридическим требованиям, а также удалять сообщения, которые могут привлечь к ответственности или не имеют юридической ценности для бизнеса.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
@@ -19,12 +19,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a122bd1d0bb3c8cba450293b43f7532f36c510831bd301ed30d9955a9a1f8d31
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1385f190c0bcf35c89576695911853c88ef7d1d1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54296696"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634843"
 ---
 # <a name="manage-retention-policies-for-microsoft-teams"></a>Управление политиками хранения для Microsoft Teams
 
@@ -65,7 +65,7 @@ Teams поддерживает политики хранения для сооб
 
 Вы можете эффективно настроить единую политику хранения для всех Teams сообщений. Кроме того, для более точного управления можно:
 
-- У вас есть отдельные политики хранения для личных чатов (1:1 или 1:1:многие), сообщений из стандартных каналов или сообщений из частных каналов.
+- Отдельные политики хранения для личных чатов (1:1 или 1:1), сообщений из стандартных каналов или сообщений из частных каналов.
 
 - Применяйте политики только к определенным пользователям или группам в организации. Для Teams чатов и частных каналов вы можете выбрать пользователей, к которым применяется политика. В случае сообщений каналов Teams можно выбрать команды, к которым применяется политика.
 
