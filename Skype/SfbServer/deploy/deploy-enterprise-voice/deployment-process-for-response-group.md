@@ -9,19 +9,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: d390c8a1-dc6e-44d8-b386-2be1fca9877c
 description: Процесс развертывания и действия группы реагирования в Skype для бизнеса Server Корпоративная голосовая связь.
-ms.openlocfilehash: 74edec198bf061a66b18ea013d21e59ab066438d486b1ff6e85bcd02707ddb16
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1cb85ac95025b71de8a071758befb5287a6fafa4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54326575"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58620185"
 ---
 # <a name="deployment-process-for-response-group-in-skype-for-business"></a>Процесс развертывания группы реагирования в Skype для бизнеса
 
@@ -137,7 +137,7 @@ ms.locfileid: "54326575"
 |**Этап**|**Действия**|**Разрешения**|**Документация по развертыванию**|
 |:-----|:-----|:-----|:-----|
 |Включить пользователей для Skype для бизнеса и для Корпоративная голосовая связь  <br/> |Включить пользователей, которые будут агентами для Skype для бизнеса и Корпоративная голосовая связь. Пользователей необходимо включить до того, как их можно будет добавлять в группы агентов. Как правило, пользователи включены для Skype для бизнеса во время выпуск Enterprise или выпуск Standard сервера. Пользователи включены для Корпоративная голосовая связь во время Корпоративная голосовая связь развертывания.  <br/> |RTCUniversalUserAdmins  <br/> CsUserAdministrator  <br/> CsAdministrator  <br/> |[Включить или отключить пользователей для предварительного просмотра Lync Server 2013](/previous-versions/office/lync-server-2013/lync-server-2013-disable-or-re-enable-user-account-for-lync-server) <br/> [Включить пользователей для Корпоративная голосовая связь в Skype для бизнеса Server](enable-users-for-enterprise-voice.md) <br/> |
-|Создание и настройка групп ответа, которые состоят из групп агентов, очередей и рабочих процессов  <br/> |1. Используйте панель управления Skype для бизнеса Server или Skype для бизнеса Server панели управления, чтобы сделать следующее:  <br/> А. Создайте и настройте группы агентов.  <br/> Б. Создайте и настройте очереди.  <br/> 2. Необязательно использовать Skype для бизнеса Server для создания заранее рабочих часов и праздников группы ответов.  <br/> 3. Используйте средство конфигурации группы ответов или Skype для бизнеса Server для создания рабочих процессов (групп охоты или потоков интерактивного голосового ответа (IVR), включая пользовательские рабочие часы и праздники группы ответов.  <br/> Вы можете получить доступ к средству конфигурации группы ответов Skype для бизнеса Server панели управления.  <br/> |RTCUniversalServerAdmins  <br/> CsResponseGroupAdministrator  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> CsResponseGroupManager  <br/> |[Создание групп агента группы ответа](/previous-versions/office/lync-server-2013/lync-server-2013-create-response-group-agent-groups) <br/> [Создание очередей группы ответа](/previous-versions/office/lync-server-2013/lync-server-2013-create-response-group-queues) <br/> [(Необязательный) Определение часов работы группы ответов в Skype для бизнеса](optional-define-response-group-business-hours.md) <br/> [(Необязательный) Определение наборов праздников группы ответов в Skype для бизнеса](optional-define-response-group-holiday-sets.md) <br/> [Разработка и создание рабочих процессов группы ответов в Skype для бизнеса](designing-and-creating-response-group-workflows.md) <br/> |
+|Создание и настройка групп ответа, которые состоят из групп агентов, очередей и рабочих процессов  <br/> |1. Используйте панель управления Skype для бизнеса Server или Skype для бизнеса Server панели управления, чтобы сделать следующее:  <br/> а. Создайте и настройте группы агентов.  <br/> б. Создайте и настройте очереди.  <br/> 2. Необязательно использовать Skype для бизнеса Server для создания заранее рабочих часов и праздников группы ответов.  <br/> 3. Используйте средство конфигурации группы ответов или Skype для бизнеса Server для создания рабочих процессов (групп охоты или потоков интерактивного голосового ответа (IVR), включая пользовательские рабочие часы и праздники группы ответов.  <br/> Вы можете получить доступ к средству конфигурации группы ответов Skype для бизнеса Server панели управления.  <br/> |RTCUniversalServerAdmins  <br/> CsResponseGroupAdministrator  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> CsResponseGroupManager  <br/> |[Создание групп агента группы ответа](/previous-versions/office/lync-server-2013/lync-server-2013-create-response-group-agent-groups) <br/> [Создание очередей группы ответа](/previous-versions/office/lync-server-2013/lync-server-2013-create-response-group-queues) <br/> [(Необязательный) Определение часов работы группы ответов в Skype для бизнеса](optional-define-response-group-business-hours.md) <br/> [(Необязательный) Определение наборов праздников группы ответов в Skype для бизнеса](optional-define-response-group-holiday-sets.md) <br/> [Разработка и создание рабочих процессов группы ответов в Skype для бизнеса](designing-and-creating-response-group-workflows.md) <br/> |
 |(Необязательно) Задание настроек на уровне приложения  <br/> |Используйте Skype для бизнеса Server Management Shell для настройки конфигурации музыки на удержание по умолчанию, аудиофайла с музыкой на удержании по умолчанию, льготного периода извещества агента и конфигурации контекста вызовов.  <br/> |RTCUniversalServerAdmins  <br/> CsResponseGroupAdministrator  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[Управление настройками группы реагирования на уровне приложений в Skype для бизнеса](managing-application-level-response-group-settings.md) <br/> |
 |(Необязательно) Делегирование управления группами реагирования  <br/> |Назначьте пользователям роль CsResponseGroupManager для делегирования настройки групп ответа. Затем руководители групп реагирования могут настроить группы ответов, назначенные им.  <br/> |RTCUniversalServerAdmins  <br/> CsResponseGroupAdministrator  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[Планирование контроля доступа на основе ролей](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-role-based-access-control) <br/> |
 |Проверка развертывания группы ответа  <br/> |Протестируйте ответ на звонки в сервисную группу и рабочие процессы IVR, чтобы гарантировать правильную работу конфигурации.  <br/> |-  <br/> |-  <br/> |

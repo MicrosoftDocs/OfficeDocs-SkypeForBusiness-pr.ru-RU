@@ -12,19 +12,19 @@ ms.collection:
 - m365initiative-meetings
 ms.reviewer: nakulm
 search.appverid: MET150
-localization_priority: Priority
+ms.localizationpriority: high
 f1.keywords:
 - NOCSH
 description: Практическое руководство по развертыванию облачных решений для голосовой связи в Teams для записи собраний и групповых вызовов Teams с целью записи звука, видео и совместного использования экрана.
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 45eb669dd83f2c66d556da82043e076b84ae370e
-ms.sourcegitcommit: dcba13777a03780e5dfb3938d9cf6b1d861a2fff
+ms.openlocfilehash: 4024ca2b061f6fb2db463b2eebf5951da2f19304
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/26/2021
-ms.locfileid: "58531019"
+ms.locfileid: "58620705"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Запись облачного собрания в Teams
 
@@ -263,7 +263,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 > 
 > Мы предоставляем сведения о том, как эта функция будет работать в БУДУЩЕМ, чтобы вы могли заранее спланировать это изменение и изменить параметры политики Teams. 
 >
-> Задание команды для предварительного изменения параметра MeetingExpirationDays в Teams (Set-CsTeamsMeetingPolicy -Identity Global -MeetingRecordingExpirationDays) пока не доступно.  Когда параметр будет доступен для изменения, мы опубликуем обновленную запись в Центре сообщений.
+> Команду для предварительного изменения параметра MeetingExpirationDays в Teams (Set-CsTeamsMeetingPolicy -Identity Global -MeetingRecordingExpirationDays) пока невозможно задать.  Когда этот параметр будет доступен для настройки, мы опубликуем обновленную запись в Центре сообщений.
 >
 >
 
@@ -291,7 +291,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
   
 Мы полагаем, что почти все клиенты выиграют от уменьшения нагрузки на хранилище для своих клиентов, удалив записи, которые, скорее всего, никогда не будут пересмотрены через 60 дней. Наша цель — обеспечить максимально удобные возможности работы для всех клиентов по умолчанию. 
   
-**Будет ли он автоматически удален через 30 дней, даже если данные будут доступны или загружены?**
+**Произойдет ли автоматическое удаление, даже если к данным получили доступ или скачали их?**
   
 При доступе к файлу дата окончания срока действия не меняется. 
   
@@ -313,14 +313,14 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 
 Значения дней срока действия можно установить следующим образом:
   
-- Значение может быть от 1 до 99 999 (максимум 273 года).
-- Также можно задать значение -1, чтобы запись собрания Teams имела неограниченный срок действия. 
+- Допустимое значение: от 1 до 99 999 (макс. 273 года).
+- Также может быть значение -1. В этом случае срок действия TMR никогда не истечет 
  
 Администраторы не могут изменить дату окончания срока действия существующих записей собрания Teams, уже загруженных в OneDrive или SharePoint, до выпуска этой функции. Это защищает намерение пользователя, который владеет записью собрания Teams. 
   
-**Может ли администратор задать неограниченный срок действия для записи собрания Teams?**
+**Может ли администратор задать неограниченный срок действия для TMR?**
   
- Да, администраторы могут задать неограниченный срок действия для записи собрания Teams с помощью следующего командлета: (Set-CsTeamsMeetingPolicy -Identity Global -MeetingRecordingExpirationDays -1)
+ Да, администраторы могут задать неограниченный срок действия для TMR с помощью следующего командлета PowerShell: (Set-CsTeamsMeetingPolicy -Identity Global -MeetingRecordingExpirationDays -1)
   
 **Меняет ли воспроизведение записи дату окончания срока действия?**
 

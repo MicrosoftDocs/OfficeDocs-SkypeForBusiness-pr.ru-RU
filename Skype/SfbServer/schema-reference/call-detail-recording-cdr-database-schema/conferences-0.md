@@ -10,21 +10,21 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c0e5c4db-c135-401f-9296-e9a49f6499a1
 description: В представлении конференций хранятся сведения о конференциях. Это представление было представлено в Microsoft Lync Server 2013.
-ms.openlocfilehash: b7cf9300ca574773b4ffb08a8c32108155a18786d8fec3ae80ddc77398d41ccc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c61a0d9d2d7e1985aa63256be16d9268138ddd83
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54351309"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58620905"
 ---
 # <a name="conferences-view"></a>Просмотр конференций
  
 В представлении конференций хранятся сведения о конференциях. Это представление было представлено в Microsoft Lync Server 2013.
   
-|**Column**|**Тип данных**|**Сведения**|
+|**Столбец**|**Тип данных**|**Details**|
 |:-----|:-----|:-----|
 |**SessionIdTime** <br/> |datetime  <br/> |Время запроса сеанса. Используется вместе с параметром SessionIdSeq для уникального определения сеанса. Дополнительные сведения см. в таблице [Диалоги Skype для бизнеса Server 2015](dialogs.md) г. <br/> |
 |**SessionIdSeq** <br/> |int  <br/> |Идентификационный номер для идентификации сеанса. Используется совместно с параметром SessionIdTime для уникальной идентификации сеанса. Дополнительные сведения см. в таблице [Диалоги Skype для бизнеса Server 2015](dialogs.md) г. <br/> |

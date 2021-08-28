@@ -10,16 +10,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 6c3bf826-e7fd-4002-95dc-01020641ef01
 description: Сводка. Сведения о создании, изменении и устранении сценариев для службы централизованного ведения журнала в Skype для бизнеса Server 2015 г.
-ms.openlocfilehash: eeecf19a03f678de9321dee83bed264acf6e82b80eb1057cd79e993c05da2c9d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b4dea0146cfb80d8f28a102d4cf719a28b7bb188
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323101"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619715"
 ---
 # <a name="configure-scenarios-for-the-centralized-logging-service-in-skype-for-business-server-2015"></a>Настройка сценариев для централизованной службы ведения журнала в Skype для бизнеса Server 2015 г.
  

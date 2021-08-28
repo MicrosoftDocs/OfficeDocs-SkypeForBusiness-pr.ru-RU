@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже ются Microsoft 365 и Office 365 службы для Skype для бизнеса и Microsoft Teams для нее.
-ms.openlocfilehash: 38a761dd4696d0b958ab4635ec243a4b6fa916c4a5e6380261f330de4712832c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Ниже ются Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для нее.
+ms.openlocfilehash: c6575df81607b534b0b3d22c76890d91ec7b7ffd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54281642"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58620685"
 ---
 # <a name="availability-in-uruguay"></a>Доступность в Уругвае
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже ются Microsoft 365 и Office 365 службы для Skype для бизнеса и Microsoft Teams для нее.
+Ниже ются Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для нее.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 

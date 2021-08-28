@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Когда пользователь щелкает ссылку на собрание в запросе собрания, страница соединения собрания обнаруживает, какой клиент уже установлен на компьютере пользователя. Если клиент уже установлен, он открывается и выполняет присоединение к собранию. Если клиент не установлен, по умолчанию откроется веб-приложение.
-ms.openlocfilehash: c90e8afa95a73618eb1aa95b3d8d174e950e7e92a49988cb6146209f49cc0e58
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8cba2a6ea0bc54eae6c30265c21d33d01ec951c0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54295126"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617115"
 ---
 # <a name="configure-the-meeting-join-page"></a>Конфигурация страницы присоединения к собранию
 
@@ -26,7 +26,7 @@ ms.locfileid: "54295126"
   
 **Параметры командлета CsWebServiceConfiguration для настройки страницы присоединения к собранию**
 
-|**Параметр командлета CsWebServiceConfiguration**|**Description**|
+|**Параметр командлета CsWebServiceConfiguration**|**Описание**|
 |:-----|:-----|
 |ShowJoinUsingLegacyClientLink  <br/> |Если установлено true, пользователи, присоединяясь к собранию с помощью клиентского приложения, кроме Lync, будут иметь возможность присоединиться к собранию. Значение по умолчанию — False.  <br/> |
 |ShowAlternateJoinOptionsExpanded  <br/> |При наборе True альтернативные варианты присоединения к онлайн-конференции будут автоматически расширяться и показываться пользователям. При наборе false (значение по умолчанию) эти параметры будут доступны, но пользователю придется отобразить список параметров для себя.  <br/> |

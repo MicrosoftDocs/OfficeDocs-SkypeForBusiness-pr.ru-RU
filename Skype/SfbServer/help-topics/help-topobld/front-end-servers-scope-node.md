@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.FrontEndServersScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 99c8c4b6-eb12-4c6b-b32c-3977d17fc8fa
 description: 'В узле Пулы переднего плана Enterprise Edition перечислены интерфейсные пулы на данном сайте, в узле Серверы переднего плана Standard Edition перечислены серверы Standard Edition на данном сайте. Можно выполнить следующее действие:'
-ms.openlocfilehash: dba19602d5d1de5ed3da6fdb8e21cf364afdf84f267bc681a3470654d9eec471
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a3f97462f0841f5eabdfbfe54a597894936db1b8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54347994"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58621205"
 ---
 # <a name="front-end-servers-scope-node"></a>Узел области серверов переднего плана
  

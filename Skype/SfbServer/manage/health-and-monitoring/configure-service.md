@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c2b8aadb-cffb-49f0-ba7a-e8541a1ff475
 description: Сводка. Сведения о службе мобильности в Skype для бизнеса Server.
-ms.openlocfilehash: 3029877aa6f252ada9bbb38bca0148b8a96908ad5cf4deded7cf48e6451ec833
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: da2685faae6bf44fee212132dba6a0f7e0fe2e76
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54298139"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58621035"
 ---
 # <a name="configure-mobility-service-for-high-performance-in-skype-for-business-server"></a>Настройка службы мобильности для высокой производительности в Skype для бизнеса Server
  

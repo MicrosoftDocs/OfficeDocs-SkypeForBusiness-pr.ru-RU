@@ -13,18 +13,18 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - PowerShell
 description: Troubleshoot creating a remote PowerShell session to connect to Skype for Business Online, including Import-Module, concurrent shell, Live ID, and permission errors.
-ms.openlocfilehash: 9635d2a4ff8ecf17fd9d1bb4717fad98a9795292
-ms.sourcegitcommit: 9fcd9a7ae78e04cef90415c2a0f30a98fbf8270f
+ms.openlocfilehash: 9157c556eaa2952adf2b67a514eebfb1a9d3abff
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58407198"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617095"
 ---
 # <a name="diagnose-connection-problems-with-the-skype-for-business-online-connector"></a>Диагностика проблем подключения с помощью соединителя Skype для бизнеса Online
 
@@ -54,7 +54,7 @@ ms.locfileid: "58407198"
     
 
 > [!IMPORTANT]
-> По умолчанию сеансы PowerShell отстают через 60 минут. Чтобы повторно подключиться, необходимо закрыть сеанс и запустить новый сеанс PowerShell. Недавно была выпущена новая версия [Skype для бизнеса Online Windows PowerShell Module (2046.123 — опубликовано 02.01.2019),](https://www.microsoft.com/download/details.aspx?id=39366)которая включает новый командлет **Enable-CsOnlineSessionForReconnection,** который устраняет проблему с 60-минутным временем.
+> По умолчанию сеансы PowerShell отстают через 60 минут. Чтобы повторно подключиться, необходимо закрыть сеанс и запустить новый сеанс PowerShell. Недавно была выпущена новая версия [Skype для бизнеса Online , модуль Windows PowerShell (2046.123 — опубликовано 02.01.2019),](https://www.microsoft.com/download/details.aspx?id=39366)который включает новый командлет **Enable-CsOnlineSessionForReconnection,** который устраняет проблему с 60-минутным временем.
 > Сеанс PowerShell повторно подключит и пройдет проверку подлинности, что позволит использовать его повторно, не запуская новый экземпляр для повторного подключения.
 
 
@@ -77,22 +77,22 @@ ms.locfileid: "58407198"
 
 Модуль соединителя Skype для бизнеса Online можно запускать только в Windows PowerShell 3.0. При попытке импортировать модуль в предыдущей версии PowerShell процесс импорта будет сбой с сообщением об ошибке, аналогичным этому сообщению:
   
-  - **Ошибка**: Import-Module : версия загруженной *PowerShell — "2.0". Модуль 'D: Program \\ Files Common Files Microsoft \\ \\ Lync Server 2013 \\ Modules \\ LyncOnlineConnectorLyncOnlineConnector.psd1' требуется минимальная версия \\ PowerShell 3.0 для выполнения. Проверьте установку PowerShell и попробуйте еще раз.*
+  - **Ошибка**: *Import-Module : версия загружаемой PowerShell — "2.0". Модуль 'D: Program \\ Files Common Files Microsoft \\ \\ Lync Server 2013 \\ Modules \\ LyncOnlineConnectorLyncOnlineConnector.psd1' требуется минимальная версия \\ PowerShell 3.0 для выполнения. Проверьте установку PowerShell и попробуйте еще раз.*
 
 - **Решение.** Единственный способ устранить эту проблему — установить Windows PowerShell 3.0, которая доступна в Центре загрузки Майкрософт по ссылке [https://www.microsoft.com/download/details.aspx?id=34595](https://www.microsoft.com/download/details.aspx?id=34595) .
   
 ## <a name="modern-authentication-fails-when-winrm-basic-authentication-has-been-disabled"></a>Сбой современной проверки подлинности при отключенной проверке подлинности WinRM Basic
 <a name="BKMKWinRMBasicAuth"> </a>
 
-В последней версии модуля Skype для бизнеса Online Connector используется современная проверка подлинности, но для этого необходимо настроить базовый клиент Windows Удаленное управление (WinRM).  При современной проверке подлинности используются маркеры сноски, которые обычно передаются в заглавной области *Авторизация: bearer.* Windows PowerShell, на основе Skype для бизнеса PowerShell, не допускается возможность управления этим закамером.  Вместо этого Skype для бизнеса PowerShell передает маркер сноски с помощью заглавного заглавного слова *Authorization: Basic.*
+В последней версии модуля Skype для бизнеса Online Connector используется современная проверка подлинности, но для клиента удаленного управления Windows (WinRM) необходимо разрешить базовую проверку подлинности.  При современной проверке подлинности используются маркеры сноски, которые обычно передаются в заглавной области *Авторизация: Bearer.* Windows PowerShell, на основе Skype для бизнеса PowerShell, не разрешается использовать этот заглавный заглавный.  Вместо этого Skype для бизнеса PowerShell передает маркер сноски с помощью заглавного заглавного слова *Authorization: Basic.*
 
-Инструкции о том, как включить проверку подлинности WinRM [для Basic,](./download-and-install-windows-powershell-5-1.md) см. в Windows PowerShell и установке приложения.
+Инструкции [о том,](./download-and-install-windows-powershell-5-1.md) как включить проверку подлинности WinRM для Basic, см. в Windows PowerShell и установить Windows PowerShell.
 
 ## <a name="failed-to-connect-to-live-id-server"></a>Не удалось подключиться к серверу Live ID
 <a name="BKMKFailedConnect"> </a>
 
 > [!WARNING] 
-> Аутентификация live ID не была неподготовлена к Skype Для бизнеса Online Connector. Используйте модуль Teams PowerShell для управления сетевым клиентом. При управлении гибридными средами обновим систему до последнего накопительного обновления или используйте проверку подлинности oAuth.
+> Проверка подлинности live ID для соединителя Skype для бизнеса не является. Используйте модуль Teams PowerShell для управления сетевым клиентом. При управлении гибридными средами обновляются до последнего накопительного обновления или используется проверка подлинности oAuth.
 
 Обычно три причины могут вызвать сбой подключения со следующим сообщением об ошибке:
 
@@ -118,14 +118,14 @@ ms.locfileid: "58407198"
 
 - **Ошибка:** *Get-CsWebTicket : Не может загрузить модуль Live ID. Убедитесь, что установлена* правильная версия помощника по входу в Live Id.
 
-- **Разрешение:** помощник по входу в Microsoft Online Services доступен в Центре загрузки Майкрософт на сайте [Microsoft Online Services Sign-In помощника](https://www.microsoft.com/download/details.aspx?id=28177) для ИТ-специалистов RTW
+- **Разрешение:** помощник по входу в Microsoft Online Services доступен в Центре загрузки Майкрософт на сайте Microsoft Online Services Sign-In для ИТ-специалистов [RTW](https://www.microsoft.com/download/details.aspx?id=28177)
 
 ## <a name="logon-failed-for-the-user"></a>Произошел сбой входа для пользователя
 <a name="BKMKLogonFailed"> </a>
 
 При попытке установить удаленное подключение к Skype для бизнеса online нужно предоставить имя пользователя и пароль допустимой учетной записи пользователя Skype для бизнеса online. Если этого не сделать, при ошибке будет отобрано сообщение об ошибке, аналогичное этому сообщению:
 
-- **Ошибка:** *Get-CsWebTicket : Ошибка при kenmyer@litwareinc.com пользователя. Создайте новый объект PSCredential,* чтобы убедиться, что вы использовали правильное имя пользователя и пароль.
+- **Ошибка:** *Get-CsWebTicket : Ошибка при kenmyer@litwareinc.com пользователя. Создайте новый объект PSCredential, убедившись,* что вы использовали правильное имя пользователя и пароль.
 
 - **Разрешение:** если вы считаете, что используете действительную учетную запись пользователя и у вас правильный пароль, попробуйте войти еще раз. Если это не удается, используйте те же учетные данные и попробуйте войти в [https://login.microsoftonline.com/](https://login.microsoftonline.com/) . Если вам не удается войти в нее, обратитесь в службу поддержки Майкрософт. 
 
@@ -166,7 +166,7 @@ ms.locfileid: "58407198"
 
 - **Решение.** Единственный способ устранить эту проблему — закрыть одно или несколько из предыдущих подключений. По окончании работы с Skype для бизнеса online рекомендуется использовать командлет **Remove-PSSession**, чтобы завершить сеанс. Это поможет предотвратить проблему.  
  
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Статьи по теме
 [Настройка компьютера для управления Skype для бизнеса с помощью Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
 
   

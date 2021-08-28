@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a33df20c-d19d-4f5c-b012-29dab8fb9200
 description: tblEnumValue — это встроенная таблица, которая содержит значения отображения и поведения атрибутов, используемых в таблице Node.
-ms.openlocfilehash: 732fe5f32a9a92fd3e17098382102433d4c8fa135dbf97cedbf8b3e3e0074b84
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0854b20316f0200e2521109880cad32862524c22
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54346355"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619705"
 ---
 # <a name="tblenumvalue"></a>tblEnumValue
  
@@ -43,11 +43,11 @@ tblEnumValue — это встроенная таблица, которая со
 
 |**valueID**|**attributeID**|**attributeValue**|
 |:-----|:-----|:-----|
-|2  <br/> |1  <br/> |частный  <br/> |
-|3  <br/> |1  <br/> |область  <br/> |
-|4   <br/> |2  <br/> |нормальный  <br/> |
-|5   <br/> |2  <br/> |аудитория  <br/> |
-|6   <br/> |1  <br/> |open  <br/> |
+|2   <br/> |1   <br/> |частный  <br/> |
+|3   <br/> |1   <br/> |область  <br/> |
+|4   <br/> |2   <br/> |нормальный  <br/> |
+|5   <br/> |2   <br/> |аудитория  <br/> |
+|6   <br/> |1   <br/> |open  <br/> |
    
 ## <a name="see-also"></a>См. также
 

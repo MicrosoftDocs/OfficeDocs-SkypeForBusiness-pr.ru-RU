@@ -9,20 +9,20 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: В этом разделе описываются задачи, которые необходимо выполнить после завершения миграции Skype для бизнеса Server 2019 г.
-ms.openlocfilehash: 8a27bbe42f64088833eb4349dde2e2249343dd8ef6ffad0577e3f405fbc6358c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 69925a59b2ad34e57d24a86af21b36be76a3e571
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54298909"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58620635"
 ---
 # <a name="phase-7-complete-post-migration-tasks"></a>Этап 7: необходимые действия после миграции
 
 В этом разделе описываются задачи, которые необходимо выполнить после завершения миграции Skype для бизнеса Server 2019 г.
   
-## <a name="in-this-section"></a>Содержание
+## <a name="in-this-section"></a>В этой статье
 
 - [Перенос существующих собраний и содержимого собраний](migrate-existing-meetings-and-meeting-content.md)
     

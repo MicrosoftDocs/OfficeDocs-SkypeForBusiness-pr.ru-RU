@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Чтобы удалить сервер архивации, необходимо изменить или очистить зависимость от связанного переднего пула, переднего end Server, выживаемого устройства филиала и выживаемого сервера ветвей. Чтобы удалить зависимость, вы редактируете свойства переднего конечного пула, переднего конечного сервера, выживаемого устройства филиала и выживаемого сервера филиалов. После удаления зависимости и удаления сервера в Topology Builder вы будете уведомлены об удалении связанного объекта хранения баз данных в Topology Builder.
-ms.openlocfilehash: 6265642a45b891180e53d3b00d39a9053b663a434aaa1a4a26e92b619dfba257
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 489eeb276b495598ec2f11fc9b4502935beedf30
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54340335"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617075"
 ---
 # <a name="remove-the-archiving-server-association"></a>Удаление связи с сервером архивирования
 
