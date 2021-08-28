@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.dep.DeploySchemaPrepInvoke
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f031eb6d-0749-4247-842c-c1e701027ffb
 description: 'На странице "Команды выполнения" отображается сводка команд, выдающихся для расширения схемы для Skype для бизнеса Server 2015 г. По завершении задач на панели сводки указывается, успешно завершилась задача или с ошибкой. Просмотрите сводный экран и убедитесь, что на панели сводки указана запись Состояние задачи: Завершено. В раскрывающемся списке под панелью сводки можно выбрать файл журнала "Подготовка схемы". Для просмотра файла журнала нажмите кнопку Просмотреть журнал. Если во время подготовки схемы возникают ошибки, эти ошибки, обнаруженные задачей, записываются в журнал. Вы затем можете попытаться исправить ошибки и снова выполнить подготовку схемы.'
-ms.openlocfilehash: b0a08d968963aaa7e66215146164f3471dc0c846d614ea0b6a6292ea7b60a4e1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d9afe37485f771ea81ce6adedb308178b925eef9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54328374"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58628941"
 ---
 # <a name="prepare-schema-invoke"></a>Подготовка схемы (вызов)
  

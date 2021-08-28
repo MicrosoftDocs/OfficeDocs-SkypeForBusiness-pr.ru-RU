@@ -9,14 +9,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Проверка разрешений администратора в Skype для бизнеса Server
-ms.openlocfilehash: 7dd9e1b95df35cb363617690cb9667c1a16ef904
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 08721b556de6e7b162eb76fbed953dae422b33b7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58232624"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58580563"
 ---
 # <a name="testing-admin-permissions-in-skype-for-business-server"></a>Тестирование разрешений администратора в Skype для бизнеса Server
 
@@ -54,13 +54,13 @@ ms.locfileid: "58232624"
 
 Верно
 
-Если необходимые разрешения не установлены, Test-CsOUPermission возвращает значение False. Возможно, вам придется найти момент, чтобы найти это значение. Как правило, он будет встроен в несколько сопутствующих предупреждений. Например:
+Если необходимые разрешения не установлены, Test-CsOUPermission возвращает значение False. Возможно, вам придется найти момент, чтобы найти это значение. Как правило, он будет встроен в несколько сопутствующих предупреждений. Например,
 
 ВНИМАНИЕ: запись управления доступом (ACE) atl-cs-001\RTCUniversalUserReadOnlyGroup; разрешить; ReadProperty; ContainerInherit; Потомки; bf967aba-0de6-11d0-00aa003049e2; d819615a-3b9b-4738-b47e-f1bd8ee3aea4 
 
 ВНИМАНИЕ. Записи управления доступом (ACEs) на объекте "OU=NorthAmerica,DC=atl-cs-001\DC=litwareinc,DC=com" не готовы. 
 
-Неправильно 
+False 
 
 ВНИМАНИЕ. Обработка "Test-CsOUPermission" завершена с помощью предупреждений. Во время этого запуска были записаны предупреждения "2". 
 

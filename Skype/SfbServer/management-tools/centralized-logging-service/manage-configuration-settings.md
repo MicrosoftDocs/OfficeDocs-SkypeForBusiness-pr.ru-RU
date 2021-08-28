@@ -10,16 +10,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 93b9a354-9aea-4b3a-a4fe-68a89f436196
 description: Сводка. Сведения о том, как получить, обновить и создать параметры конфигурации для централизированной службы ведения журнала в Skype для бизнеса Server 2015 г.
-ms.openlocfilehash: 627106900dbb3b174fc0105c6e61bb5a3c20f8028f45985a591d479c9962f49b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8b2809fd9b91859d0e32e9dfaf0ddb8cbebe7a53
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54350151"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58628601"
 ---
 # <a name="manage-centralized-logging-service-configuration-settings-in-skype-for-business-server-2015"></a>Управление настройками централизованной службы ведения журнала в Skype для бизнеса Server 2015 г.
 

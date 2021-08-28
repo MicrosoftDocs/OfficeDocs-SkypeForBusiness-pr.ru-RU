@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.dep.DeployMainBootstrap
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f8813f25-eafa-4006-a186-94e4ebcc5ac7
 description: 'Для установки и активации или деактивации или Skype для бизнеса Server компоненты 2015 года используется шаг 2: установка или удаление Skype компонентов сервера. Вы должны войти в систему в качестве локального администратора на компьютере, который вы устанавливаете или модифицируется, и должны иметь возможность читать пользователей и групп Active Directory Domain Services в текущем домене. Для начала нажмите кнопку Выполнить. При этом считыется определение топологии на основе центра управления. Необходимые компоненты программного обеспечения устанавливаются и настраиваются в соответствии с ролью, определенной в магазине центра управления. После завершения установки просмотрите сводку и нажмите кнопку Готово.'
-ms.openlocfilehash: 0bff3c99ada173ddb617f67ab68a8b776936124bf89f82cbaa9c6a273da7acae
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 267a4be0f2077d9cfd1d422d87c5916ab7486ac9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54285079"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58628931"
 ---
 # <a name="setup-or-remove-skype-for-business-server-components"></a>Установка или удаление компонентов Skype для бизнеса Server
  

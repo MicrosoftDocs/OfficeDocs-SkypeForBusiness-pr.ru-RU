@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 26c9e271-3516-4d90-b930-70fec4e359ea
 description: Схема базы данных сохраняемого чата состоит из следующих таблиц.
-ms.openlocfilehash: bc7189eac8e8fbd42cdaa5786b82d5652c616a69ae3fc4fc180c189416a94468
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2d5accc32b01c4c854fc3603e4ec3c1dc61a115b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54280942"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58606038"
 ---
 # <a name="list-of-persistent-chat-server-tables"></a>Список таблиц сервера сохраняемого чата
  
@@ -26,7 +26,7 @@ ms.locfileid: "54280942"
   
 ## <a name="active-directory-sync"></a>Синхронизация Active Directory
 
-|**Table**|**Description**|
+|**Table**|**Описание**|
 |:-----|:-----|
 |[tblADCookie](tbladcookie.md) <br/> |Содержит текущие файлы cookie синхронизации по протоколу LDAP. Каждая строка соответствует домену Active Directory Domain Services, который постоянный сервер чата активно отслеживает изменения. (В этой таблице представлены только домены Active Directory, которые имеют отношение к серверу сохраняемой беседы.)  <br/> |
 |[tblPrincipalMemberDifference](tblprincipalmemberdifference.md) <br/> |Содержит изменения членства в группах (как добавленных, так и удаленных участников), которые еще не обработаны более поздними шагами синхронизации Active Directory и являются одной из временных таблиц (наряду со таблицей tblADUpdates), которая используется на первом этапе синхронизации Active Directory.  <br/> Изменения, внесенные в членство, хранятся и обрабатываются только для тех групп, которые перечислены в таблице tblPrincipal или члены которых содержатся в ней.  <br/> |
@@ -37,7 +37,7 @@ ms.locfileid: "54280942"
    
 ## <a name="principals-affiliations-nodes-scopes-and-roles"></a>Субъекты, назначения, узлы, области действия и роли
 
-|**Table**|**Description**|
+|**Table**|**Описание**|
 |:-----|:-----|
 |[tblPrincipalType](tblprincipaltype.md) <br/> |Содержит типы субъектов для разделения содержимого таблицы tblPrincipal на категории. Эта таблица является статической. Она настраивается при создании базы данных и больше не изменяется.  <br/> |
 |[tblPrincipal](tblprincipal.md) <br/> |Содержит все субъекты (пользователей, папки, группы и т. д.). Стойкий сервер чата обрабатывает это как плоский разнородный список. Каждый столбец соответствует типу субъекта.  <br/> Большинство из этих принципов являются кэшированные копии объектов, хранимых в Active Directory. Создание кэшной копии в основной таблице этих объектов Active Directory называется подготовка.  <br/> Некоторые принципы создаются более агрессивно, чем другие, а некоторые объекты Active Directory вообще игнорируются.  <br/> |
@@ -52,7 +52,7 @@ ms.locfileid: "54280942"
    
 ## <a name="invites-chats-and-other-client-support"></a>Приглашения, чаты и другие поддерживаемые клиентом функции
 
-|**Table**|**Description**|
+|**Table**|**Описание**|
 |:-----|:-----|
 |[tblPrincipalInvites](tblprincipalinvites.md) <br/> |Содержит приглашения для всех подготовленных пользователей в системе для всех узлов, для которых включено автоматическое приглашение.  <br/> |
 |[tblChat](tblchat.md) <br/> |Содержит все сообщения чата.  <br/> |
@@ -63,7 +63,7 @@ ms.locfileid: "54280942"
    
 ## <a name="server-support"></a>Поддержка серверов
 
-|**Table**|**Description**|
+|**Table**|**Описание**|
 |:-----|:-----|
 |[tblServerIdentity](tblserveridentity.md) <br/> |Содержит активные серверы в пуле стойких чат-серверов.  <br/> |
 |[tblAdminLock](tbladminlock.md) <br/> |Содержит сведения о блокировке выполнения определенных команд администратором. Значение системного счетчика изменений в таблице tblSystemRevision увеличивается на единицу при каждом снятии блокировки.  <br/> |
