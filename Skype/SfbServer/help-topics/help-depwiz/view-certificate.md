@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.dep.DeployAssignedCertList
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bfc6db2d-141e-4395-819a-65ba4629ccca
 description: На странице Просмотр сертификата имеется панель, на которой можно выбрать любой действующий сертификат в локальном хранилище сертификатов. Выберите сертификат и нажмите кнопку Просмотреть сведения о сертификате. Откроется новая панель с сертификатом. На панели Сертификат можно просмотреть общие сведения о сертификате. На вкладке Сведения отображается подробная информация о сертификате, например имя субъекта и альтернативное имя субъекта. Путь сертификации отображает путь к доверительному пути для сертификата. Завершив просмотр информации, нажмите кнопку ОК.
-ms.openlocfilehash: 07a276c40cc115b9fabe8b457762db44da22ef1bc6335b93ecf9503768cffcfe
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ffc3e6d39f4b8bd2513aa005263d7371653c44c2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54311477"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58599242"
 ---
 # <a name="view-certificate"></a>Просмотр сертификата
  

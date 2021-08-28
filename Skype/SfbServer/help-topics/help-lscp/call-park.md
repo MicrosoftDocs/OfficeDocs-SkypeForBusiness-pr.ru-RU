@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.VoiceFeaCallParkMain
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b752617d-554d-470e-b17b-387403ac74ed
 description: Когда вызов припаркован, он передается на временный номер, где вызов проводится до тех пор, пока кто-то не извлекает его или не разовьется. Вам необходимо настроить таблицу с диапазонами номеров расширения, которые вы reserving для припаркованных вызовов. Эти добавочные номера должны быть виртуальными (то есть не иметь назначенного пользователя или назначенный телефон). Каждый пул, который запускает приложение Call Park, может иметь один или несколько диапазонов расширений. Эти диапазоны должны быть уникальными в рамках всего развертывания.
-ms.openlocfilehash: 025dc470a31fef85f28df9fed5ec611880547d609e461eb7a6ce485b7ffb646e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c054d3814376ca62063dedc5d08db00d22876cef
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54334221"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58588751"
 ---
 # <a name="call-park"></a>Парковка вызовов
 

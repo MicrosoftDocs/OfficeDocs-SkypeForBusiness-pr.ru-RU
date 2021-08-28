@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddVisFqdnPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1e868ae2-57d9-449f-85be-6133c0cbd4f6
 ROBOTS: NOINDEX, NOFOLLOW
 description: Действия, необходимые для определения нового шлюза VIS или видео в Topology Builder, описаны в интернете в "Создание пула VIS в Skype для бизнеса Server.
-ms.openlocfilehash: 5cf95d886ff424d4ad4327393b57bc58732b0609d5ab6b2d5ed0eb7b9b8a956a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 76b11128ffa326ce655bbd0023da9c3976703b5b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54338517"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58588771"
 ---
 # <a name="add-vis-fqdn"></a>Добавление полного имени домена сервера видеовзаимодействия
  
@@ -34,6 +34,6 @@ ms.locfileid: "54338517"
   
  Параметры VTC, которые необходимо установить в интерфейсе Cisco для межоперации с видео шлюзом и viS, описаны в Интернете на [сайте Configure a VTC for Interoperation with Skype для бизнеса Server](../../../deploy/deploy-video-interop-server/configure-a-vtc-for-interoperation.md).
   
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>Дополнительные материалы
 
 [Планирование видео-interop Server в Skype для бизнеса Server](../../../plan-your-deployment/video-interop-server.md)

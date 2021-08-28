@@ -13,18 +13,18 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
 description: 'Learn to save time, support calls and increase satisfaction by setting up test accounts and computers, and testing dial-in conferencing, online features such as person-to-person calls, conferencing, and sign in and out. '
-ms.openlocfilehash: 5afc5ec98e12ac0a30e6bf7974e17b1cb4552e90322a894407decbde4c94ca17
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 12622339c6a09c5bd651a712ff5210df92d04e52
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54310148"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58611468"
 ---
 # <a name="test-your-skype-for-business-online-installation"></a>Тестирование установки Skype для бизнеса Online
 
@@ -34,7 +34,7 @@ ms.locfileid: "54310148"
 
 Вам потребуются:
 
-- По крайней мере три Microsoft 365 или Office 365 учетных записей (ваша и хотя бы еще две).
+- По крайней мере три Microsoft 365 или Office 365 (ваша и хотя бы еще две).
 
 - компьютер для каждой тестовой учетной записи. Настройте компьютеры типичным для организации способом.
 

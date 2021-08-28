@@ -14,7 +14,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -23,12 +23,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: Узнайте, как включить и использовать панель мониторинга качества звонков и получить сводные отчеты о качестве звонков.
-ms.openlocfilehash: e7e376b0cb610f59a62dd5ee19dddb05423549a9
-ms.sourcegitcommit: 942e09c70840582f0cc1e433d4b0261298b1c66d
+ms.openlocfilehash: a6f39fe728a6616e8f70edb86d18e8cc27cc8501
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58369176"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58637054"
 ---
 # <a name="how-to-set-up-call-quality-dashboard"></a>Настройка панели мониторинга качества звонка
 
@@ -82,7 +82,7 @@ ms.locfileid: "58369176"
 Дополнительные [сведения Power BI использовать для анализа данных CQD.](CQD-Power-BI-query-templates.md)
 
 
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Статьи по теме
 
 [Улучшение и отслеживание качества звонка для Teams](monitor-call-quality-qos.md)
 

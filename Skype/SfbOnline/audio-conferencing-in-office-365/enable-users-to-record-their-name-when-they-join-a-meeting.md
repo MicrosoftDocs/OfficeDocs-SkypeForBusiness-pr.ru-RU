@@ -1,5 +1,5 @@
 ---
-title: Позволить пользователям записывать свое имя при подступе к собранию в Skype для бизнеса Online
+title: Позволить пользователям записывать свое имя, когда они присоединяются к собранию в Skype для бизнеса Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -15,20 +15,20 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
 description: Узнайте, как включить или отключить возможность записи имен пользователями при подступе к собранию в Skype для бизнеса Online.
-ms.openlocfilehash: 53d57583004a143f78900b7e195084465f3344bc2617c4682709cf223a1860e9
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: cad0f5a904fbec064fd07080b43af7ee6a8a9671
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54335729"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58626261"
 ---
-# <a name="enable-users-to-record-their-name-when-they-join-a-meeting-in-skype-for-business-online"></a>Позволить пользователям записывать свое имя при подступе к собранию в Skype для бизнеса Online
+# <a name="enable-users-to-record-their-name-when-they-join-a-meeting-in-skype-for-business-online"></a>Позволить пользователям записывать свое имя, когда они присоединяются к собранию в Skype для бизнеса Online
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
@@ -39,7 +39,7 @@ ms.locfileid: "54335729"
   
 Мост конференц-связи обеспечивает ответ на вызов пользователя, который присоединяется к собранию с телефона. Мост конференц-связи отвечает вызывающей стороне голосовыми подсказками с помощью автосекретаря, а затем, в зависимости от настроек, может воспроизвести уведомления, попросить вызывающую сторону записать свое имя и настроить ПИН-код безопасности для организаторов собрания. ПИН-коды предоставляются организаторам собраний. Организаторы могут начать собрание, введя ПИН-код. Однако собрание можно настроить таким образом, чтобы ПИН-код не требовался.
 
-## <a name="set-whether-callers-should-record-their-name"></a>Настройка записи имени вызывающих
+## <a name="set-whether-callers-should-record-their-name"></a>Настройка записи имени вызываемой
     
 1. В центре **Skype для бизнеса** администрирования на левой навигации перейдите в параметры моста  >  **Аудиоконференция Майкрософт**.
     
@@ -60,7 +60,7 @@ ms.locfileid: "54335729"
     
 - Windows PowerShell об управлении пользователями и о том, что им разрешено делать. С Windows PowerShell вы можете управлять Microsoft 365 или Office 365 с помощью единого администрирования, который упростит выполнение повседневных задач. Для начала работы с Windows PowerShell ознакомьтесь с приведенными ниже разделами.
     
-  - [Зачем нужно использовать Microsoft 365 или Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+  - [Зачем нужна Microsoft 365 или Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
   - [Лучшие способы управления Microsoft 365 или Office 365 с помощью Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     

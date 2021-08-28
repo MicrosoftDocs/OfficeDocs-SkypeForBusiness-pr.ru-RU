@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.ClientPhoneCfgEdit
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: aac152bf-80e9-408a-9dbb-60d0843484ab
 description: На странице Конфигурация нового устройства или изменение конфигурации устройства можно создать или изменить коллекцию параметров, используемых для управления Skype для бизнеса Телефон Edition. Эти настройки позволяют настраивать такие параметры, как требуемый режим безопасности, уровень ведения журнала на устройстве, качество обслуживания голосовой связи (QoS), и определять необходимость автоматической блокировки телефонов по истечении заданного периода неактивности.
-ms.openlocfilehash: 826f20dcd28002f293ebcf227a954f9bfd61c28f36fd4dd23414e2be59ef4f62
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: bcd0cccbb0bba00d40a25e6683baf2d12b6f54c5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54302713"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58588731"
 ---
 # <a name="device-configuration-create-new-or-edit-existing"></a>Конфигурация устройств: создание новой или редактирование существующей
  
@@ -62,7 +62,7 @@ ms.locfileid: "54302713"
     
   - **Телефон блокировки** Вы можете указать минимальное время, прежде чем телефон заблокирует себя. Диапазон времени от 0 до 60 минут; значение по умолчанию — 10 минут. Введите значение в формате HH:MM:SS.
     
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>Дополнительные материалы
 
 [Конфигурация устройств](device-configuration.md)
 

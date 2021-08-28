@@ -8,19 +8,19 @@ audience: Admin
 ms.reviewer: aarimm
 ms.service: msteams
 search.appverid: MET150
-localization_priority: Priority
+ms.localizationpriority: high
 description: 'Для государственных учреждений США: если у вас нет приложения Microsoft Teams и оно срочно вам требуется, разверните пробную версию Office 365 G1 для своих пользователей, которым нужно работать удаленно или из дома в связи со вспышкой эпидемии COVID-19 (коронавируса).'
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad58e4388c6a20dc64f67dff5097158ac5c26bbf
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: c1208636547258524816ca77e57ddc3b83646144
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234524"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618475"
 ---
 # <a name="manage-the-office-365-g1-trial-for-us-government"></a>Управление пробной версией Office 365 G1 для государственных учреждений США 
 

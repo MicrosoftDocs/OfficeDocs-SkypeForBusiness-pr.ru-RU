@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddFrontEndPoolPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 02ae996c-a1c6-4ff4-b6d6-bdef4ad44d2a
 ROBOTS: NOINDEX, NOFOLLOW
 description: Укажите полное доменное имя создаваемого интерфейсного пула. Невозможно изменить полное доменное имя пула после публикации топологии, содержащей интерфейсный пул. Если необходимо переименовать пул, следует удалить пул, а затем добавить новый пул с новым полным доменным именем.
-ms.openlocfilehash: ee85c9223b780359ec86e927b93c591bdeaac944ca227b45969875fb19c63d22
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a6a2254f7a7777cbfd58a3fd466d5f11a63162ef
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54298529"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58591743"
 ---
 # <a name="add-front-end-pool-fqdn"></a>Добавление полного доменного имени интерфейсного пула
  

@@ -9,16 +9,16 @@ ms.topic: reference
 ms.prod: skype-for-business-server
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Поиск и управление обновлениями Skype для бизнеса Server 2015/2019 и Lync 2013 в одном месте. Чтобы узнать больше об обновлениях и скачать их, воспользуйтесь ссылками на этой странице.
-ms.openlocfilehash: 615efffd595120f7833c3c51d585a381b46f5cc856f11620d60da532dca37334
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2101e8ca02d227837aef0b9c49ce0d2e8d1144bb
+ms.sourcegitcommit: 25fd720c008dcf1573344e50d736131a20c3ac7d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54341524"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "58683323"
 ---
 # <a name="skype-for-business-server-updates"></a>Обновления Skype для бизнеса Server
 
@@ -32,12 +32,12 @@ KB 4470124 является мастером КБ для Skype для бизне
 
 |Название пакета|Номер статьи в базе знаний|Дата выпуска|
 |:--- |:--- |:--- |
-|Skype для бизнеса Server 2019 Накопительное обновление 4 |[KB 4470124](https://support.microsoft.com/kb/4470124)| Сентябрь 2020 |
-|Skype для бизнеса Server 2019 Накопительное обновление 3 Hotfix 1 |[KB 4470124](https://support.microsoft.com/kb/4470124)| Июль 2020 |
-|Skype для бизнеса Server 2019 Накопительное обновление 3 |[KB 4470124](https://support.microsoft.com/kb/4470124)| Март 2020 г. |
+|Skype для бизнеса Server 2019 Накопительное обновление 4 |[KB 4470124](https://support.microsoft.com/kb/4470124)| Сентябрь 2020 г. |
+|Skype для бизнеса Server 2019 Накопительное обновление 3 Hotfix 1 |[KB 4470124](https://support.microsoft.com/kb/4470124)| Июль 2020 г. |
+|Skype для бизнеса Server 2019 Накопительное обновление 3 |[KB 4470124](https://support.microsoft.com/kb/4470124)| Март 2020 г. |
 |Skype для бизнеса Server 2019 Накопительное обновление 2 |[KB 4470124](https://support.microsoft.com/kb/4470124)| Декабрь 2019 г. |
-|Skype для бизнеса Server 2019 Накопительное обновление 1 Hotfix 1 |[KB 4470124](https://support.microsoft.com/kb/4470124)| Сентябрь 2019 |
-|Skype для бизнеса Server 2019 Накопительное обновление 1|[KB 4470124](https://support.microsoft.com/kb/4470124)| Июль 2019 |
+|Skype для бизнеса Server 2019 Накопительное обновление 1 Hotfix 1 |[KB 4470124](https://support.microsoft.com/kb/4470124)| Сентябрь 2019 г. |
+|Skype для бизнеса Server 2019 Накопительное обновление 1|[KB 4470124](https://support.microsoft.com/kb/4470124)| Июль 2019 г. |
 | | | |
 
 ### <a name="skype-for-business-server-2019-tools"></a>Skype для бизнеса Server 2019 г.
@@ -56,10 +56,11 @@ KB 4470124 является мастером КБ для Skype для бизне
 
 |Название пакета|Номер статьи в базе знаний|Дата выпуска|
 |:--- |:--- |:--- |
+|Skype для бизнеса Server 2015 Накопительное обновление 11|[KB 3061064](https://support.microsoft.com/kb/3061064)| Август 2021 г. |
 |Skype для бизнеса Server 2015 Накопительное обновление 11 Hotfix 1|[KB 3061064](https://support.microsoft.com/kb/3061064)| Июль 2020 г. |
 |Skype для бизнеса Server 2015 Накопительное обновление 11|[KB 3061064](https://support.microsoft.com/kb/3061064)| 13 мая 2020 г. |
-|Skype для бизнеса Server 2015 Накопительное обновление 10 Hotfix 1|[KB 3061064](https://support.microsoft.com/kb/3061064)| Август 2019 |
-|Skype для бизнеса Server 2015 Накопительное обновление 10 |[KB 3061064](https://support.microsoft.com/kb/3061064)| Июль 2019 |
+|Skype для бизнеса Server 2015 Накопительное обновление 10 Hotfix 1|[KB 3061064](https://support.microsoft.com/kb/3061064)| Август 2019 г. |
+|Skype для бизнеса Server 2015 Накопительное обновление 10 |[KB 3061064](https://support.microsoft.com/kb/3061064)| Июль 2019 г. |
 |Накопительное обновление 9 Skype для бизнеса Server 2015 г., Сервер веб-компонентов|[KB 4487981](https://support.microsoft.com/kb/4487981)| Май 2019 г. |
 |Накопительное обновление 8 Skype для бизнеса Server 2015 г., front End Server и Edge Server|[KB 4464355](https://support.microsoft.com/kb/4464355)|Январь 2019 г.|
 |Накопительное обновление 7 для Skype для бизнеса Server 2015 г., переднего и краевого серверов |[KB 4340904](https://support.microsoft.com/kb/4340904) |Июль 2018 г. |
@@ -91,8 +92,8 @@ KB 4470124 является мастером КБ для Skype для бизне
 
 |Название пакета|Номер статьи в базе знаний|Дата выпуска|
 |:--- |:--- |:--- |
-|Накопительное обновление Lync Server 2013 10 Hotfix 4 |[KB 4515509](https://support.microsoft.com/kb/4515509)|Июль 2020|
-|Накопительное обновление Lync Server 2013 10 Hotfix 3 |[KB 4515509](https://support.microsoft.com/kb/4515509)|Сентябрь 2019|
+|Накопительное обновление Lync Server 2013 10 Hotfix 4 |[KB 4515509](https://support.microsoft.com/kb/4515509)|Июль 2020 г.|
+|Накопительное обновление Lync Server 2013 10 Hotfix 3 |[KB 4515509](https://support.microsoft.com/kb/4515509)|Сентябрь 2019 г.|
 |Накопительное обновление 10 Hotfix 2 Lync Server 2013 |[KB 4501392](https://support.microsoft.com/kb/4501392)|Июнь 2019 г.|
 |Накопительное обновление 10 Hotfix 1 Lync Server 2013 |[KB 4458772](https://support.microsoft.com/kb/4458772)|Январь 2019 г.|
 |Накопительное обновление Lync Server 2013 10 |[KB 4295703](https://support.microsoft.com/kb/4295703)|Июль 2018 г. |
@@ -266,8 +267,9 @@ KB 4470124 является мастером КБ для Skype для бизне
 
 Обновления программного обеспечения включают любые обновления, накопительные пакеты обновления, пакеты обновления, пакеты дополнительных компонентов, критические обновления, обновления для системы безопасности и исправления. В статье базы знаний [KB 824684](https://support.microsoft.com/kb/824684) можно найти описание стандартной терминологии, касающейся обновления программного обеспечения Майкрософт.
 
-## <a name="related-topics"></a>Похожие темы
+## <a name="related-topics"></a>Статьи по теме
 
 - [Установка Skype для бизнеса Server 2015 г.](./deploy/install/install.md)
 - [Обновление до Skype для бизнеса Server 2015 г.](./deploy/upgrade-to-skype-for-business-server.md)
 - [Последние обновления для версий Skype для бизнеса, Windows установки (MSI)](sfb-client-updates.md)
+- 

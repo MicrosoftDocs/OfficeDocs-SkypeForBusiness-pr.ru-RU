@@ -14,7 +14,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - CSH
@@ -22,18 +22,18 @@ ms.custom:
 - Calling Plans
 - ms.lync.lac.PortOrderQuickViewPanelTransferAccepted
 description: 'What it means when your port order has been accepted, and what you need to do next to finish your Skype for Business set up. '
-ms.openlocfilehash: 78c10a340fd1b00fb29a1c28c638e2421adc4713809a73933a33611ef17c71ef
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c99c1feef78e4f28b6edff5e0cbf232c02ce15b5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54334411"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58611388"
 ---
 # <a name="your-port-order-was-accepted"></a>Ваш заказ на перенос номера принят
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-Ваш заказ на перенос утвержден! Номера телефонов можно искать в центре **администрирования Skype для бизнеса**  >  **голосовой Телефон**  >  **номера.**
+Ваш заказ на перенос утвержден! Номера телефонов можно искать в центре администрирования **Skype для бизнеса**  >  **голосовой Телефон**  >  **номера.**
   
  **ВАЖНО!** Чтобы в левой области навигации Центра администрирования Skype для бизнеса появился элемент **Голосовая связь**, необходимо приобрести хотя бы одну **лицензию уровня корпоративный E5**, лицензию на надстройку **Телефонная система** либо лицензию на надстройку **Аудиоконференция**.
   
@@ -41,7 +41,7 @@ ms.locfileid: "54334411"
   
 - Обязательно Skype для бизнеса [и Microsoft Teams надстройки](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md). Вам потребуется план **телефонная система** и **план** внутренних звонков или план **международных звонков.**
     
-- Создайте [](/MicrosoftTeams/add-change-remove-emergency-location-organization) адрес для добавления или удаления адреса для экстренного устранения экстренных ситуаций для своей организации и при этом[добавьте,](/MicrosoftTeams/add-change-remove-emergency-place-organization) измените или удалите местоположение для экстренного устранения (в некоторых странах и регионах адрес для экстренного устранения проблемы вы получаете вместе с номером телефона).
+- Создайте [](/MicrosoftTeams/add-change-remove-emergency-location-organization) или удалите адрес для экстренного устранения экстренных ситуаций для своей организации, а также[добавьте,](/MicrosoftTeams/add-change-remove-emergency-place-organization) измените или удалите местоположение для экстренного устранения (в некоторых странах и регионах адрес для экстренного устранения проблемы вы получаете вместе с номером телефона).
     
 - Затем [назначьте, измените или удалите номер](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user)телефона пользователя.
 

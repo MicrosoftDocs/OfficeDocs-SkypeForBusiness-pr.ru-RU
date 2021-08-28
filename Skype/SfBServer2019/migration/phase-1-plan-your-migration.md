@@ -9,20 +9,20 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: В этом разделе освещаются темы планирования для Skype для бизнеса Server 2019 г.
-ms.openlocfilehash: b7e6b72de69dafbf6218196c23eec82cbb7ad33c2996185e6cbbc70cd16fd0d1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2220ca09965d7215822c73ce4e902dc2f153b097
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54300595"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58611478"
 ---
 # <a name="phase-1-plan-your-migration"></a>Этап 1: планирование миграции
 
 В этом разделе освещаются темы планирования для Skype для бизнеса Server 2019 г. 
   
-## <a name="in-this-section"></a>Содержание
+## <a name="in-this-section"></a>В этой статье
 
 - [Перенос пользователей](user-migration.md)
     

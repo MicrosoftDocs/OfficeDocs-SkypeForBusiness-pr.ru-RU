@@ -10,19 +10,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: ''
 description: Сводка. Ознакомьтесь с этими ссылками, чтобы узнать, как установить и настроить Skype для бизнеса Server 2019 г.
-ms.openlocfilehash: 71458d532166b7877a23639955b86d15b913b9ec950b4b620c642ff1c8733725
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f5a37015e9688274b53fb9b9f72b21d7ad04f150
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54281512"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58592153"
 ---
 # <a name="deploy-skype-for-business-server-2019"></a>Развертывание Skype для бизнеса Server 2019 г.
  
@@ -36,7 +36,7 @@ Skype для бизнеса Server предлагает решения для о
 
 Следующие статьи об установке и настройке Skype для бизнеса Server доступны для просмотра в Интернете. 
   
-||Контент|Описание|
+||Содержимое|Описание|
 |:-----|:-----|:-----|
 |![Значок для документации](/office/media/icons/paragraph-writing-blue.svg)|[Требования к системе для Skype для бизнеса Server 2019 г.](../plan/system-requirements.md)  <br/> |Узнайте о требованиях к серверу и окружающей среде для Skype для бизнеса Server.  <br/> |
 |![Значок для документации](/office/media/icons/paragraph-writing-blue.svg)|[Основы топологии для Skype для бизнеса Server](../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md) <br/> |Узнайте о вариантах топологии и сценариях коллокации сервера для Skype для бизнеса Server.  <br/> |

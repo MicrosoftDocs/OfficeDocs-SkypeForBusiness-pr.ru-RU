@@ -16,20 +16,20 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: Узнайте о наборе бесплатных номеров во Франции, в том числе о доступности, доступности проводных и фиксированных телефонных номеров, а также об ограничениях для мобильной сети.
-ms.openlocfilehash: 353bb2f85d701c17c7d8562e1afca892a765e7ed69af45ad7975c4c56e5d412f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Узнайте о наборе бесплатных номеров во Франции, включая доступность, доступность проводной и фиксированной телефонной связи, а также ограничения для мобильной сети.
+ms.openlocfilehash: 5ded6fde3b3a93c60b3ccd8a5f5586d38d1e1381
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54310418"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618425"
 ---
 # <a name="toll-free-dialing-restrictions-in-france"></a>Ограничения набора бесплатных номеров во Франции
 

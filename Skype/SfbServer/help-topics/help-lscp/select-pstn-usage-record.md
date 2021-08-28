@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.VoicePolicySelUsage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 80a5b130-2b36-4318-9870-f5176c8d8f62
 description: Используйте диалоговое окно Выбрать запись об использовании ТСОП для поиска существующего режима работы с телефонной сетью общего пользования (ТСОП), который вы могли бы использовать.
-ms.openlocfilehash: 5e817f928864e20f9f023da90371e4e9c1dbb00f72b952bccd48760ea3337d42
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2c3200d0e7cfeac7058a9ff5e417cfb90aa7edf5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54345108"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58588691"
 ---
 # <a name="select-pstn-usage-record"></a>Выбор записи использования ТСОП
  

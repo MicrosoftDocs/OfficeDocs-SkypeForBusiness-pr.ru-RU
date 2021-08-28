@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Ниже ются Microsoft 365 и Office 365 службы Skype для бизнеса и Microsoft Teams для Сербии.
-ms.openlocfilehash: b0d6928b216cf53343c956401d217fddaeccf3bae6f84b96d771f54f5ba011aa
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8f648bb4ec4ffe736a62f443ca61b864217036ae
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54343093"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58626311"
 ---
 # <a name="availability-in-serbia"></a>Доступность в Сербии
 
