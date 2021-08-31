@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: Сводка. Сведения о переносе параметров пользователей и переносе пользователей в Teams.
-ms.openlocfilehash: ef1de7002bd3c757a9a08f3cbf8414a9cd4c32d9
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2206c9b155c26a8559dd32346e1d9ad9e0e54978
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58614973"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725488"
 ---
 # <a name="move-users-from-on-premises-to-teams"></a>Перемещение пользователей из локальной среды в Teams
 
@@ -39,7 +39,7 @@ ms.locfileid: "58614973"
 - Запланированные на будущее собрания пользователя будут перенесены из локального в Teams.
 - Контакты, которые существовали на месте, доступны в Teams вскоре после того, как пользователь впервые вошел в систему.
 - Пользователи не могут инициировать звонки или чаты из Skype для бизнеса и не могут планировать новые собрания в Skype для бизнеса. Если они попытаются открыть Skype для бизнеса клиента, они будут перенаправлены для использования Teams, как показано ниже. Если клиент Teams не установлен, он будет направлен в веб-версию Teams браузера.<br><br>
-    ![Сообщение перенаправление пользователя на Teams](../media/go-to-teams-page.png)
+    ![Сообщение, перенаправляя пользователя на Teams.](../media/go-to-teams-page.png)
 
 Перед перемещением пользователей обязательно просмотрите [необходимые](move-users-between-on-premises-and-cloud.md#prerequisites) условия для перемещения пользователей в облако. Также обязательно просмотрите руководство по миграции и [совместной](/microsoftteams/migration-interop-guidance-for-teams-with-skype)работы для организаций, использующих Teams вместе с Skype для бизнеса .
 
@@ -101,7 +101,7 @@ Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -UseOA
 > [!TIP]
 > Некоторым серверам может потребоваться перезагрузка для работы в Skype для бизнеса 2015 г. с cu8.
 
-![Уведомление о предстоящем переходе Teams](../media/teams-upgrade-notification.png)
+![Уведомление о предстоящем переходе Teams.](../media/teams-upgrade-notification.png)
 
 Чтобы уведомить пользователей о скором обновлении до Teams, создайте новый экземпляр TeamsUpgradePolicy с помощью NotifySfBUsers=true. Затем назначьте эту политику пользователям, которых вы хотите уведомить, назначив политику непосредственно пользователю или установив политику на сайте, пуле или глобальном уровне. Следующие cmdlets создать и предоставить политику на уровне пользователя:
 

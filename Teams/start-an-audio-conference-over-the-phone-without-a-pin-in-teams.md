@@ -21,17 +21,17 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: 'Узнайте, как включить или отключить анонимных звоняющих от присоединения к собранию из Teams администрирования. '
-ms.openlocfilehash: 7b67cf357b9230b4dfd2448d84d4ce007149efe9
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 'Узнайте, как включить или отключить присоединение анонимных звонков к собранию из Teams администрирования. '
+ms.openlocfilehash: 5a2abd84514e46a19f3f698650d3acf1ec931410
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604408"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732748"
 ---
 # <a name="start-an-audio-conference-over-the-phone-without-a-pin-in-microsoft-teams"></a>Начало аудиоконференции по телефону без ПИН-кода в Microsoft Teams
 
-Пользователям, которые будут проходить собрание по телефонной связи, может быть сложно слушать музыку в "Microsoft Teams, так как организатор собрания не начал собрание. 
+Пользователям, которые будут проходить собрание по телефонной связи, может быть сложно слушать музыку в "Microsoft Teams, так как организатор собрания еще не начал собрание. 
   
 Если организатор собрания звонит на собрание, по умолчанию для начала собрания требуется ПИН-код. Вы можете настроить его таким образом, чтобы любой человек мог звонить на собрание, а пин-код не выводиться для начала собрания. С помощью Центра администрирования можно включить или отключить этот параметр для одного пользователя.
   
@@ -42,9 +42,9 @@ ms.locfileid: "58604408"
   
 ## <a name="enable-or-disable-anonymous-callers-from-joining-a-meeting"></a>Разрешение и запрет присоединения анонимных абонентов к собранию
 
-![Значок с логотипом Microsoft Teams](media/teams-logo-30x30.png) **Использование центра администрирования Microsoft Teams**
+![Значок с логотипом Microsoft Teams.](media/teams-logo-30x30.png) **С помощью Центра администрирования Microsoft Teams**
 
-1. В левой области навигации щелкните **Пользователи**. 
+1. В области навигации слева щелкните **Пользователи**. 
 
 2. Выберите пользователя в списке и нажмите кнопку **Изменить** в верхней части страницы. 
 
@@ -80,7 +80,7 @@ Windows PowerShell is all about managing users and what users are allowed or not
     
   - [Шесть причин использовать Windows PowerShell для управления Office 365](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [Лучшие способы управления Microsoft 365 или Office 365 с помощью Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [Лучшие способы управления Microsoft 365 Office 365 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
 Дополнительные сведения о Windows PowerShell см. в [справочнике по Microsoft Teams PowerShell](/powershell/module/teams/?view=teams-ps).
   

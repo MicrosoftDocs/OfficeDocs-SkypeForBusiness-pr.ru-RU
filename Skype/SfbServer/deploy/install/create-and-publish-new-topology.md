@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 451c41a1-b8c5-4dc3-9e48-0da9ed5381a1
 description: 'Сводка. Сведения о создании, публикации и проверке новой топологии перед установкой Skype для бизнеса Server. Скачайте бесплатную пробную Skype для бизнеса Server из Центра оценки Майкрософт по ссылке: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server .'
-ms.openlocfilehash: 21c37ee17d6a7fbb1db4cce9716fa84f338e4062
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 322b59a064f15dcd7bada74c0d3d5f563e6b8f64
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58619165"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725998"
 ---
 # <a name="create-and-publish-new-topology-in-skype-for-business-server"></a>Создание и публикация новой топологии в Skype для бизнеса Server
  
@@ -30,7 +30,7 @@ ms.locfileid: "58619165"
   
 Прежде чем установить систему Skype для бизнеса Server на каждом из серверов топологии, необходимо создать топологию и опубликовать ее. При публикации топологии сведения топологии загружаются в базу данных Центра управления. Если это пул выпуск Enterprise, вы создаете базу данных Центра управления при первом публикации новой топологии. Если это выпуск Standard, перед публикацией топологии необходимо выполнить процесс Подготовки выпуск Standard сервера из мастера развертывания. Это готовится к выпуск Standard, установив экземпляр SQL Server Express Edition и создав центральный магазин управления. Вы можете сделать шаги от 1 до 5 в любом порядке. Однако необходимо сделать шаги 6, 7 и 8 в порядке и после шагов 1-5, как описано на схеме. Как создать и опубликовать новую топологию, описано в шаге 6 из 8.
   
-![Схема обзоров](../../media/c5c09ba2-c98b-4194-9857-7c3087c5560e.png)
+![Схема обзора.](../../media/c5c09ba2-c98b-4194-9857-7c3087c5560e.png)
   
 ## <a name="create-and-publish-new-topology"></a>Создание и публикация новой топологии
 

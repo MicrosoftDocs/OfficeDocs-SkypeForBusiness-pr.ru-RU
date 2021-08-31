@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0cf43c54-e544-40c5-8659-a876f614a3b3
 description: Сводка. Ознакомьтесь с этими ссылками, чтобы узнать, как установить и настроить Skype для бизнеса Server 2015 г. и обновить более ранние версии Lync Server.
-ms.openlocfilehash: 9cfe9f89fa9932391a8a4e7bfd2bd4fa13e16f60
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 32756c54611f79b99fe304d0ec991458327d6e43
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609906"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727278"
 ---
 # <a name="deploy-skype-for-business-server-2015"></a>Развертывание Skype для бизнеса Server 2015 г.
  
@@ -37,8 +37,8 @@ Skype для бизнеса Server предлагает решения для о
   
 ||**Статья**|**Описание**|
 |:-----|:-----|:-----|
-|![Значок для технических схем](../media/87de0d09-77fd-46f2-b9f6-99a7998fd332.png)|[Технические схемы Skype для бизнеса Server 2015 г.](../technical-diagrams.md) <br/> |См. краткое описание вариантов архитектуры на этих крупноформатных схемах.  <br/> |
-|![Значок для видео](../media/143e0d86-1c68-482a-9bf9-93e7966acca0.png)|Видео об установке Skype для бизнеса Server - *скоро!*  <br/> |Откройте для себя видео-презентации и обучение для Skype для бизнеса Server.  <br/> |
+|![Значок для технических схем.](../media/87de0d09-77fd-46f2-b9f6-99a7998fd332.png)|[Технические схемы Skype для бизнеса Server 2015 г.](../technical-diagrams.md) <br/> |См. краткое описание вариантов архитектуры на этих крупноформатных схемах.  <br/> |
+|![Значок для видео.](../media/143e0d86-1c68-482a-9bf9-93e7966acca0.png)|Видео об установке Skype для бизнеса Server - *скоро!*  <br/> |Откройте для себя видео-презентации и обучение для Skype для бизнеса Server.  <br/> |
    
 ##  <a name="articles-about-skype-for-business-server-installation-and-configuration"></a>Статьи об установке Skype для бизнеса Server и конфигурации
 
@@ -46,16 +46,16 @@ Skype для бизнеса Server предлагает решения для о
   
 ||**Статья**|**Описание**|
 |:-----|:-----|:-----|
-|![Значок для документации](../media/e4c786ef-1fff-4512-87c5-748543c60222.png)|[Требования к вашей Skype для бизнеса среде](../plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment.md) <br/> |Узнайте о требованиях к серверу и окружающей среде для Skype для бизнеса Server.  <br/> |
-|![Значок для документации](../media/e4c786ef-1fff-4512-87c5-748543c60222.png)|[Основы топологии для Skype для бизнеса Server 2015 г.](../plan-your-deployment/topology-basics/topology-basics.md) <br/> |Узнайте о вариантах топологии и сценариях коллокации сервера для Skype для бизнеса Server.  <br/> |
-|![Числовая как значок](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Установка Skype для бизнеса Server 2015 г.](install/install.md) <br/> |Узнайте, как установить Skype для бизнеса Server в различных топологиях, как в физической, так и в виртуальной среде.  <br/> |
-|![Числовая как значок](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Обновление до Skype для бизнеса Server 2015 г.](upgrade-to-skype-for-business-server.md) <br/> |Узнайте, как обновиться из предыдущих версий Lync Server.  <br/> |
-|![Числовая как значок](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Настройка клиентского опыта с помощью Skype для бизнеса](deploy-clients/configure-the-client-experience.md) <br/> |Узнайте, как настроить клиентский опыт.  <br/> |
-|![Числовая как значок](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Развертывание гибридного подключения между Skype для бизнеса Server и Skype для бизнеса Online](../../SfbHybrid/hybrid/configure-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json) <br/> |Узнайте, как настроить необходимые условия для гибридного развертывания, а затем настроить развертывание для управления пользователями между Skype для бизнеса Server локальной и Skype для бизнеса Online.  <br/> |
-|![Числовая как значок](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Развертывание edge Server в Skype для бизнеса Server 2015 г.](deploy-edge-server/deploy-edge-server.md) <br/> |Если пользователи в организации общаются с внешними пользователями, которые не вошли во внутреннюю сеть, необходимо развернуть Edge Server.  <br/> |
-|![Числовая как значок](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Развертывание Корпоративная голосовая связь в Skype для бизнеса Server 2015 г.](deploy-enterprise-voice/deploy-enterprise-voice.md) <br/> |Узнайте, как развернуть полное корпоративное голосовое решение Voice over IP (VoIP), обеспечивая насыщенную интеграцию с Outlook и Exchange, а также множество мощных функций, таких как группы реагирования, парк вызовов, вызовы групп, групповой вызов и поддержка расширенной службы экстренной помощи E9-1-1.  <br/> |
-|![Числовая как значок](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Развертывание постоянного сервера чата в Skype для бизнеса Server 2015 г.](deploy-persistent-chat-server/deploy-persistent-chat-server.md) <br/> |Если вы хотите, чтобы пользователи в вашей организации участвовали в беседах на основе тем, которые сохраняются со временем, необходимо развернуть стойкий сервер чата.  <br/> |
-|![Числовая как значок](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Развертывание сервера межопера Skype для бизнеса Server 2015 г.](deploy-video-interop-server/deploy-video-interop-server.md) <br/> |Если вы хотите поддерживать видеосвязь, ознакомьтесь с тем, как развернуть сервер межопераций video (VIS).  <br/> |
+|![Значок для документации.](../media/e4c786ef-1fff-4512-87c5-748543c60222.png)|[Требования к вашей Skype для бизнеса среде](../plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment.md) <br/> |Узнайте о требованиях к серверу и окружающей среде для Skype для бизнеса Server.  <br/> |
+|![Значок для документации.](../media/e4c786ef-1fff-4512-87c5-748543c60222.png)|[Основы топологии для Skype для бизнеса Server 2015 г.](../plan-your-deployment/topology-basics/topology-basics.md) <br/> |Узнайте о вариантах топологии и сценариях коллокации сервера для Skype для бизнеса Server.  <br/> |
+|![Числовая как значок.](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Установка Skype для бизнеса Server 2015 г.](install/install.md) <br/> |Узнайте, как установить Skype для бизнеса Server в различных топологиях, как в физической, так и в виртуальной среде.  <br/> |
+|![Числовая как значок.](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Обновление до Skype для бизнеса Server 2015 г.](upgrade-to-skype-for-business-server.md) <br/> |Узнайте, как обновиться из предыдущих версий Lync Server.  <br/> |
+|![Числовая как значок.](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Настройка клиентского опыта с помощью Skype для бизнеса](deploy-clients/configure-the-client-experience.md) <br/> |Узнайте, как настроить клиентский опыт.  <br/> |
+|![Числовая как значок.](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Развертывание гибридного подключения между Skype для бизнеса Server и Skype для бизнеса Online](../../SfbHybrid/hybrid/configure-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json) <br/> |Узнайте, как настроить необходимые условия для гибридного развертывания, а затем настроить развертывание для управления пользователями между Skype для бизнеса Server локальной и Skype для бизнеса Online.  <br/> |
+|![Числовая как значок.](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Развертывание edge Server в Skype для бизнеса Server 2015 г.](deploy-edge-server/deploy-edge-server.md) <br/> |Если пользователи в организации общаются с внешними пользователями, которые не вошли во внутреннюю сеть, необходимо развернуть Edge Server.  <br/> |
+|![Числовая как значок.](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Развертывание Корпоративная голосовая связь в Skype для бизнеса Server 2015 г.](deploy-enterprise-voice/deploy-enterprise-voice.md) <br/> |Узнайте, как развернуть полное корпоративное голосовое решение Voice over IP (VoIP), обеспечивая насыщенную интеграцию с Outlook и Exchange, а также множество мощных функций, таких как группы реагирования, парк вызовов, вызовы групп, групповой вызов и поддержка расширенной службы экстренной помощи E9-1-1.  <br/> |
+|![Числовая как значок.](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Развертывание постоянного сервера чата в Skype для бизнеса Server 2015 г.](deploy-persistent-chat-server/deploy-persistent-chat-server.md) <br/> |Если вы хотите, чтобы пользователи в вашей организации участвовали в беседах на основе тем, которые сохраняются со временем, необходимо развернуть стойкий сервер чата.  <br/> |
+|![Числовая как значок.](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Развертывание сервера межопера Skype для бизнеса Server 2015 г.](deploy-video-interop-server/deploy-video-interop-server.md) <br/> |Если вы хотите поддерживать видеосвязь, ознакомьтесь с тем, как развернуть сервер межопераций video (VIS).  <br/> |
    
 ## <a name="additional-resources-about-planning-for-skype-for-business-server"></a>Дополнительные ресурсы по планированию Skype для бизнеса Server
 
@@ -63,7 +63,7 @@ Skype для бизнеса Server предлагает решения для о
   
 ||**Статья**|**Описание**|
 |:-----|:-----|:-----|
-|![Значок для docs](../media/4eff581b-890b-46cb-8224-a4122137d27e.png)|[Skype для бизнеса Server для ИТ-специалистов](../../Hub/index.yml) <br/> |Посетите центр ресурсов, чтобы получить доступ к видео, сайтам сообщества, документации, загрузкам и более.  <br/> |
-|![Значок для контента разработчика](../media/3626138a-2778-407e-911f-a0dcbdc36684.png)|[Skype Платформа разработчика](/skype-sdk/skypedeveloperplatform) <br/> |Найдите ресурсы разработчика для Skype для бизнеса Server, включая примеры кода, обучение и SDKs.  <br/> |
-|![Значок для новостей, блогов и так далее](../media/ac692cb8-7db8-4810-b53f-1bc88b1e4cac.png)|[Управление изменениями и принятие](https://go.microsoft.com/fwlink/p/?LinkId=532796) <br/> [Блоги Office](https://go.microsoft.com/fwlink/p/?LinkId=528899) <br/> 
+|![Значок для docs.](../media/4eff581b-890b-46cb-8224-a4122137d27e.png)|[Skype для бизнеса Server для ИТ-специалистов](../../Hub/index.yml) <br/> |Посетите центр ресурсов, чтобы получить доступ к видео, сайтам сообщества, документации, загрузкам и более.  <br/> |
+|![Значок для контента разработчика.](../media/3626138a-2778-407e-911f-a0dcbdc36684.png)|[Skype Платформа разработчика](/skype-sdk/skypedeveloperplatform) <br/> |Найдите ресурсы разработчика для Skype для бизнеса Server, включая примеры кода, обучение и SDKs.  <br/> |
+|![Значок для новостей, блогов и так далее.](../media/ac692cb8-7db8-4810-b53f-1bc88b1e4cac.png)|[Управление изменениями и принятие](https://go.microsoft.com/fwlink/p/?LinkId=532796) <br/> [Блоги Office](https://go.microsoft.com/fwlink/p/?LinkId=528899) <br/> 
 [Skype блога группы](https://go.microsoft.com/fwlink/p/?LinkId=532818) <br/> |Следите за новостями из групп, создав и Skype для бизнеса Server.  <br/> |

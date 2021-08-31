@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Перед развертывание Skype для бизнеса Server 2019 в состоянии сосуществования необходимо убедиться, что устаревшие службы были настроены и запущены. Важно определить ключевые службы и функции, которые существуют в устаревшей среде, до развертывания пула пилотных Skype для бизнеса Server 2019 г. Перед развертыванием XMPP microsoft Skype для бизнеса Server 2019 в состоянии сосуществования с устаревшим развертыванием XMPP необходимо проверить, были ли настроены и запущены устаревшие службы XMPP, а также определить, кто из федеращих партнеров поддерживает устаревшую конфигурацию XMPP.
-ms.openlocfilehash: c81686f77d42f855f61699d3f141ffcaa463bc9a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 208b508eb6b2b5c62da51aa6317cde6e2a95bbb7
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58586243"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727748"
 ---
 # <a name="verify-the-legacy-environment"></a>Проверка устаревшей среды
 
@@ -36,7 +36,7 @@ ms.locfileid: "58586243"
     
 2. Убедитесь, что на сервере переднего плана запущены следующие службы:
     
-     ![Список служб, работающих на переднем конечном сервере](../media/migration_lyncserver_config_w14_services.jpg)
+     ![Список служб, работающих на переднем конечном сервере.](../media/migration_lyncserver_config_w14_services.jpg)
   
 ## <a name="review-the-legacy-topology-in-skype-for-business-server-control-panel"></a>Просмотрите устаревшую топологию Skype для бизнеса Server панели управления
 
@@ -46,7 +46,7 @@ ms.locfileid: "58586243"
     
 3. Выберите элемент **Топология**. Убедитесь, что в вашем устаревшем развертывании указаны различные серверы.
     
-     ![Страница топологии панели управления](../media/migration_lyncserver_2010_topology.JPG)
+     ![Страница топологии панели управления.](../media/migration_lyncserver_2010_topology.JPG)
   
 ## <a name="review-legacy-users-in-skype-for-business-server-control-panel"></a>Просмотр устаревших пользователей в Skype для бизнеса Server панели управления
 
@@ -56,7 +56,7 @@ ms.locfileid: "58586243"
     
 3. Убедитесь, **что столбец Пул регистраторов** указывает на устаревший пул для каждого из перечисленных пользователей. 
     
-     ![Панель управления с перечислением пользователей](../media/migration_lyncserver_2010_allusers.JPG)
+     ![Панель управления списком пользователей.](../media/migration_lyncserver_2010_allusers.JPG)
   
 ## <a name="verify-legacy-edge-and-federation-settings"></a>Проверка устаревших параметров Edge и федерации
 
@@ -70,15 +70,15 @@ ms.locfileid: "58586243"
     
 5. Выберите узел сайта и убедитесь, **что** значение назначения маршрута федерации сайта установлено. 
     
-     ![Строитель топологии, маршрут федерации сайтов](../media/migration_lyncserver_w14_federation.jpg)
+     ![Строитель топологии, маршрут федерации сайтов.](../media/migration_lyncserver_w14_federation.jpg)
   
 6. Выберите выпуск Standard сервер или выпуск Enterprise пул переднего конца. Определите, настроен ли пул Edge для мультимедиа ниже **Associations.** 
     
-     ![Строитель топологии, показывающий серверы и пулы](../media/migration_lyncserver_w14_edgepool_media.jpg)
+     ![Топология Builder, показывающая серверы и пулы.](../media/migration_lyncserver_w14_edgepool_media.jpg)
   
 7. Выберите пул Edge и определите, настроен ли пул хмеля Next ниже **следующего выбора хмеля.**
     
-     ![Топология Builder, следующий выбор хмеля](../media/migration_lyncserver_w14_nexthop.jpg)
+     ![Топология Builder, следующий выбор хмеля.](../media/migration_lyncserver_w14_nexthop.jpg)
   
 ## <a name="verify-legacy-xmpp-federated-partner-configuration"></a>Проверка устаревшей конфигурации федератированных партнеров XMPP
 
@@ -86,6 +86,6 @@ ms.locfileid: "58586243"
     
 2. Убедитесь, что служба шлюза XMPP Office Communications Server запущена. 
     
-     ![Office Служба шлюзов сервера связи XMPP](../media/migration_lyncserver_15_xmpp_legacyservicesstarted.JPG)
+     ![Office Служба шлюза сервера связи XMPP.](../media/migration_lyncserver_15_xmpp_legacyservicesstarted.JPG)
   
 

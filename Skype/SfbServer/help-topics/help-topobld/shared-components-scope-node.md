@@ -15,28 +15,28 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: dc8238a0-24aa-47a0-b871-4465ada1761e
 description: Чтобы создать новые общие компоненты или получить доступ к параметрам уровня топологии, щелкните правой кнопкой мыши общие компоненты в дереве иерархии Topology Builder.
-ms.openlocfilehash: 01f5d0e2a4a507800055a53adffeff4e8df5bb4a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9090ced9082a989fdb2894b94b6ce4caf1609937
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58606314"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726008"
 ---
 # <a name="shared-components-scope-node"></a>Узел области общих компонентов
  
 Чтобы создать  новые общие компоненты или получить доступ к параметрам уровня топологии, щелкните правой кнопкой мыши общие компоненты в дереве иерархии Topology Builder.
   
-![Узел области общих компонентов](../../media/Shared_Components_Scope_Node.jpg)
+![Узел области общих компонентов.](../../media/Shared_Components_Scope_Node.jpg)
   
 Выберите элемент **Создать**, чтобы создать новое хранилище файлов, новый шлюз IP/ТСОП, новый сервер Office Web Apps, новое хранилище SQL Server или новую магистральную линию связи.
   
 > [!NOTE]
 > Ознакомьтесь с разделами справки для каждого из этих параметров. 
   
-![Узел области общих компонентов](../../media/Shared_Components_Scope_NodeB.jpg)
+![Узел области общих компонентов.](../../media/Shared_Components_Scope_NodeB.jpg)
   
 Выберите элемент **Топология** для доступа к параметрам, позволяющим открыть новый документ топологии. Откройте существующий документ топологии, скачайте текущую топологию из центра управления, сохраните копию текущего документа топологии, опубликуйте текущий документ топологии, установите базу данных для создания конфигураций базы данных, объединяйте Office Communications Server 2007 R2 в текущее развертывание или удалите развертывание.
   
-![Общие компоненты Область узла C](../../media/Shared_Components_Scope_NodeC.jpg)
+![Общие компоненты Область узла C.](../../media/Shared_Components_Scope_NodeC.jpg)
   
 

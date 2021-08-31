@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6fda0195-4c89-4dea-82e8-624f03e3d062
 description: Узнайте о контроле допуска вызовов, который может предотвратить вызовы, если они будут иметь низкое качество мультимедиа, в Skype для бизнеса Server Корпоративная голосовая связь.
-ms.openlocfilehash: 16b134e6d775d84be3fff97698d2f03ce7497c87
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b57d9f4d6a26acb33b03ab1befb9132ffebc9a20
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58623601"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725968"
 ---
 # <a name="plan-for-call-admission-control-in-skype-for-business-server"></a>Планирование управления приемом вызовов в Skype для бизнеса Server
 
@@ -98,7 +98,7 @@ CAC может применяться с обеих сторон сервера-
 
 **Осуществление контроля допуска звонков в подключениях к ТСОП**
 
-![Правоприменители обхода подключения к голосовой связи CAC Media](../../media/Plan_CS_VoiceCAC_enforcementofconnectionstoPSTN.jpg)
+![Правоприменители обхода подключения к голосовой связи CAC Media.](../../media/Plan_CS_VoiceCAC_enforcementofconnectionstoPSTN.jpg)
 
 ## <a name="defining-your-requirements-for-call-admission-control"></a>Определение требований к контролю допуска вызовов
 
