@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Узнайте, как сбросить ИД конференции пользователя в Microsoft Teams и получить ссылки на средства обновления собраний и миграции.
-ms.openlocfilehash: a4a57fb2f52ce2541e4e30794d78c05eb376a853
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6ef5bd8fed266990e5a21edc34e874c218199e87
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627201"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728888"
 ---
 # <a name="reset-a-conference-id-for-a-user-in-microsoft-teams"></a>Сброс идентификатора конференции для пользователя в Microsoft Teams
 
@@ -37,7 +37,7 @@ ms.locfileid: "58627201"
 
 ## <a name="resetting-the-conference-id-for-a-user"></a>Сброс ИД конференции для пользователя
 
-![Значок с логотипом Microsoft Teams](media/teams-logo-30x30.png) **Использование центра администрирования Microsoft Teams**
+![Значок с логотипом Microsoft Teams.](media/teams-logo-30x30.png) **С помощью Центра администрирования Microsoft Teams**
 
 1. В левой области навигации щелкните **Пользователи** и выберите пользователя из списка доступных пользователей.
 
@@ -70,7 +70,7 @@ Windows PowerShell is all about managing users and what users are allowed or not
     
   - [Шесть причин использовать Windows PowerShell для управления Office 365](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [Лучшие способы управления Microsoft 365 или Office 365 с помощью Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [Лучшие способы управления Microsoft 365 Office 365 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
 Дополнительные сведения о Windows PowerShell см. в [справочнике по Microsoft Teams PowerShell](/powershell/module/teams/?view=teams-ps).
     

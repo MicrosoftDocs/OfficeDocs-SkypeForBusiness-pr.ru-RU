@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 798a663c-0b63-4f75-b0a3-9c553cef8c5f
 description: 'Сводка. Сведения о настройке DNS и создании записей DNS для установки Skype для бизнеса Server. Скачайте бесплатную пробную Skype для бизнеса Server из Центра оценки Майкрософт по ссылке: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server .'
-ms.openlocfilehash: 8584f267f71f2f3af68875c6c2eee28b1d79dbfe
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 08a652f3ed2dd19d40aa1830ac91459d205b618a
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58585535"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726328"
 ---
 # <a name="create-dns-records-for-skype-for-business-server"></a>Создание записей DNS для Skype для бизнеса Server
  
@@ -33,7 +33,7 @@ ms.locfileid: "58585535"
 > [!IMPORTANT]
 > Важно отметить, что это всего лишь пример создания записей DNS в среде Windows DNS сервера. Существует множество других записей DNS, необходимых для Skype для бизнеса Server, и процедура создания записей DNS зависит от системы управления DNS в организации. Полный список требований к DNS см. в списке [DNS-требований для](../../plan-your-deployment/network-requirements/dns.md)Skype для бизнеса Server. 
   
-![Схема обзоров](../../media/d2fc733c-6a80-4d17-a02f-93b8c4bfb999.png)
+![Схема обзора.](../../media/d2fc733c-6a80-4d17-a02f-93b8c4bfb999.png)
   
 ## <a name="configure-dns"></a>Настройка DNS
 
@@ -68,7 +68,7 @@ ms.locfileid: "58585535"
     
 4. Щелкните правой кнопкой мыши домен SIP и выберите **New Host (A или AAAA),** как показано на рисунке.
     
-     ![выбор новой записи A](../../media/f89c5c1f-b5b7-428c-a6e3-2bcd12e878c3.png)
+     ![выбор новой записи A.](../../media/f89c5c1f-b5b7-428c-a6e3-2bcd12e878c3.png)
   
 5. В поле **Имя** введите имя хост-записи (доменное имя будет автоматически примеся).
     

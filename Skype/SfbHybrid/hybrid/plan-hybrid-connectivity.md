@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 description: Планирование гибридного подключения между Skype для бизнеса Server и Teams путем настройки Skype для бизнеса гибридного режима.
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: c1faef42d6c5842649bfb8b8bf79531ac2e367b0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 26b837b72769380c3b67e1d24eee54cefc2b7575
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58600884"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727018"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-teams"></a>Планирование гибридного подключения между Skype для бизнеса Server и Teams
 
@@ -74,7 +74,7 @@ ms.locfileid: "58600884"
 
 Этот тип конфигурации зависит от общих функций пространства адресов SIP и иногда именуется "разделенным доменом", т. е. пользователи домена, такие как contoso.com, делятся между использованием Skype для бизнеса Server в помещениях и Teams, как показано на следующей схеме:
 
-![гибридный Skype для бизнеса подключения — разделенный домен](../../sfbserver2019/media/plan-hybrid-connectivity-2019-1.png)
+![гибридный Skype для бизнеса подключения — разделенный домен.](../../sfbserver2019/media/plan-hybrid-connectivity-2019-1.png)
 
 При настройке общего пространства адресов SIP:
 
@@ -120,7 +120,7 @@ ms.locfileid: "58600884"
   - Lync Server 2013 и Skype для бизнеса Server 2019
   - Lync Server 2013 и Skype для бизнеса Server 2015
 
-*Если гибридный* голос требуется в любой топологии, то в 2015 или более позднем Skype для бизнеса должен работать как край федерации, так и пул, связанный с федерацией SIP. Пользователи могут оставаться в пуле Lync 2013, если он существует. Дополнительные сведения см. в [материале Plan your voice solution.](/MicrosoftTeams/cloud-voice-landing-page.md)
+*Если гибридный* голос требуется в любой топологии, то в 2015 или более позднем Skype для бизнеса должен работать как край федерации, так и пул, связанный с федерацией SIP. Пользователи могут оставаться в пуле Lync 2013, если он существует. Дополнительные сведения см. в [материале Plan your voice solution.](/MicrosoftTeams/cloud-voice-landing-page)
 
 > [!NOTE]
 > Lync Server 2010 не поддерживается Teams.

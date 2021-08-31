@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.assetid: 81822efa-2100-4017-a470-8a5b98c49522
 ms.collection: M365-voice
 description: Административный веб-портал Skype для бизнеса Server Skype Room Systems v1 (SRS v1, ранее известный как Lync Room System) — веб-портал, который организации могут использовать для обслуживания конференц-залов Skype комнат. Администраторы могут использовать административный веб-портал SRS v1 для мониторинга состояния устройств, например с помощью мониторинга аудио- и видео устройств. На этом портале администраторы могут удаленно собирать диагностические сведения для мониторинга состояния конференц-зала.
-ms.openlocfilehash: 2451d9892bc15b1b1f189a764823c2f9beb019ac
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0b52657d33b4da97266a635b53459ed21fd4a944
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618135"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729118"
 ---
 # <a name="deploy-srs-v1-administrative-web-portal-in-skype-for-business-server"></a>Развертывание административного веб-портала SRS v1 в Skype для бизнеса Server
 
@@ -63,7 +63,7 @@ ms.locfileid: "58618135"
 
     Создайте группу с групповой областью как глобальный и групповой тип как с поддержкой Security.SIP, пользователи, добавленные в эту группу, имеют право использовать все функции портала администрирования в одном Skype комнате. Чтобы включить поддержку для массового управления Skype номеров, обратитесь к шагу 5.
 
-     ![Список групп администраторов с ролью группы безопасности](../../media/LRS_LRSFullAccessAdminGroup.png)
+     ![Список групп администраторов с ролью группы безопасности.](../../media/LRS_LRSFullAccessAdminGroup.png)
 
 5. Создайте группу безопасности Active Directory с именем LRSPowerUserAdminsGroup.
 
@@ -71,11 +71,11 @@ ms.locfileid: "58618135"
 
 6. Добавьте LRSFullAccessAdminGroup в качестве члена LRSSupportAdminGroup.
 
-     ![Страница LRSSupportAdminGroup Properties Members](../../media/LRS_Add_LRSSupportAdminGroup.png)
+     ![Страница LRSSupportAdminGroup Properties Members.](../../media/LRS_Add_LRSSupportAdminGroup.png)
 
 7. Создание включенного пользователя Active Directory с именем LRSSupport. Добавьте этого пользователя в LRSSupportAdminGroup.
 
-     ![Страница LRSSupportAdminGroup Properties Members](../../media/LRS_Add_LRS_SIP_SupportUser.png)
+     ![Страница LRSSupportAdminGroup Properties Members.](../../media/LRS_Add_LRS_SIP_SupportUser.png)
 
 8. Установите [ASP.NET MVC 4 для Visual Studio 2010 SP1 и Visual Web Developer 2010 SP1](https://go.microsoft.com/fwlink/p/?LinkId=323967).
 
@@ -126,7 +126,7 @@ ms.locfileid: "58618135"
 
     Вы не должны видеть ошибок, как показано на следующем изображении:
 
-     ![Вход на экран портала администратора системы Lync Room](../../media/LRS_AdminPortalSignIn.png)
+     ![Lync Room System Admin Portal Sign In screen.](../../media/LRS_AdminPortalSignIn.png)
 
 2. Если вы не видите ошибок, попробуйте получить доступ к следующему URL-адресу с любого другого компьютера в топологии:
 
@@ -147,7 +147,7 @@ ms.locfileid: "58618135"
 
 2. Введите учетные данные для учетной записи LRSSupport или учетной записи, добавленной в группу безопасности LRSSupportAdminGroup.
 
-![Вход на экран портала администратора системы Lync Room](../../media/LRS_AdminPortalSignIn.png)
+![Lync Room System Admin Portal Sign In screen.](../../media/LRS_AdminPortalSignIn.png)
 
 ### <a name="srs-administrative-web-portal-summary-page"></a>Сводная страница административного веб-портала SRS
 
@@ -163,7 +163,7 @@ ms.locfileid: "58618135"
 
 - **Последнее обновление** Отображает последний раз, когда веб-страница была обновлена.
 
-![Сводное представление портала администрирования системы Lync Room](../../media/LRS_AdminPortal_Summary_view.png)
+![Сводное представление портала администрирования системы Lync Room.](../../media/LRS_AdminPortal_Summary_view.png)
 
 > [!NOTE]
 > Вы увидите меню Bulk Management только в том случае, если вы входите в группу безопасности LRSPowerUserAdminsGroup.
@@ -176,13 +176,13 @@ ms.locfileid: "58618135"
 
 В разделе Параметры можно установить пароль, тег комнаты и уровни громкости по умолчанию для комнаты. Если настроить эти параметры, изменения реплицированы только после перезапуска консоли SRS. Параметры обновления системы для устройств SRS будут видеться только с помощью выпуска 15.12 и более поздней версии.
 
-![Lync Room System Admin Portal Room Room Параметры](../../media/LRS_AdminPortal_RoomInfoSettings.png)
+![Lync Room System Admin Portal Room room Параметры.](../../media/LRS_AdminPortal_RoomInfoSettings.png)
 
-#### <a name="details"></a>Сведения
+#### <a name="details"></a>Details
 
 В разделе Details приводится сводка параметров комнаты SRS только для чтения, в том числе: время последнего обновления; следующее собрание; последние обновления, обслуживание и калибровка; параметры динамика, микрофона и звонильщика по умолчанию; версия; SIP URI; количество экранов и сведений о каждом экране; состояние и активность.
 
-![Lync Room System Admin Portal Detail View](../../media/LRS_AdminPortal_Detail_view.png)
+![Lync Room System Admin Portal Detail View.](../../media/LRS_AdminPortal_Detail_view.png)
 
 #### <a name="troubleshooting"></a>Устранение неполадок
 
@@ -192,7 +192,7 @@ ms.locfileid: "58618135"
 
 В разделе Health наглядно указывается состояние подключения Skype для бизнеса Server, звукового устройства, видео устройства, состояния устойчивости и устройства экрана.
 
-![Lync Room System Admin Portal Room Health](../../media/LRS_AdminPortal_RoomInfoHealth.png)
+![Lync Room System Admin Portal Room Health.](../../media/LRS_AdminPortal_RoomInfoHealth.png)
 
 ### <a name="additional-notes-about-the-administrative-web-portal"></a>Дополнительные заметки об административном веб-портале
 

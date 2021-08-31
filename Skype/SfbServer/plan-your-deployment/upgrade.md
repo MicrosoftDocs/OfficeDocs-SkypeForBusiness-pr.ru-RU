@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c62b5f6a-bdbe-4ac1-aabf-89e560e64a26
 description: 'Сводка. Сведения о том, что следует учитывать при планировании обновления до Skype для бизнеса Server 2015 г. Скачайте бесплатную пробную Skype для бизнеса Server 2015 г. из Центра оценки Майкрософт по ссылке: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server .'
-ms.openlocfilehash: a3a36bb7c1acbf5334c108429076aa8126860041
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e503fc555901a78fb2a6cc0fa5b7bc7f112f3eb2
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630413"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729248"
 ---
 # <a name="plan-to-upgrade-to-skype-for-business-server-2015"></a>План обновления до Skype для бизнеса Server 2015 г.
  
@@ -103,7 +103,7 @@ ms.locfileid: "58630413"
   
 На следующей схеме показан обзор этого процесса.
   
-![Lync 2013 Для Skype пользователей в автономном режиме](../media/e5511897-77bc-46aa-96be-85b126d7da79.png)
+![Lync 2013 Для Skype пользователей в автономном режиме.](../media/e5511897-77bc-46aa-96be-85b126d7da79.png)
   
 > [!NOTE]
 > Если у вас есть парные пулы, не переплачивайте их перед обновлением. 

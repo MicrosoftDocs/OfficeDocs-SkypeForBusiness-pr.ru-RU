@@ -22,12 +22,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: fa5d9c3f1c74133b96eda81d7c56c3f353265b99
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9b8d593d4f3238bb588159290655f1aa241beffc
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58615345"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727008"
 ---
 # <a name="manage-the-lists-app-for-your-organization-in-microsoft-teams"></a>Управление приложением Lists для организации в Microsoft Teams
 
@@ -37,11 +37,11 @@ ms.locfileid: "58615345"
 
 В Teams пользователи получают доступ к программе Lists в виде вкладки на канале. Нажмите **+**, чтобы открыть коллекцию вкладок и добавить на канал новый экземпляр вкладки приложения Lists, и приступить к работе.
 
-![Приложение Lists в коллекции вкладок](media/lists-tab.png)
+![Список приложения в коллекции вкладок.](media/lists-tab.png)
 
 Пользователи могут создавать новые списки или закреплять существующие в пределах одной команды или с другого сайта SharePoint, к которому у них есть доступ. Новые списки можно создавать с нуля, из встроенных шаблонов, на основе структуры существующего списка или путем импорта данных из книги Excel. Приложение Lists доступно в классической версии Teams, в Интернете и на мобильных устройствах.
 
-![Создание списка в приложении Lists](media/lists-create-list.png)
+![создание списка в приложении «Списки».](media/lists-create-list.png)
 
 ## <a name="templates"></a>Шаблоны
 

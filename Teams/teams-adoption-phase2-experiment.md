@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a169208d5e59044e4ce8de63098428f9d4e8f085
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9cd56875378d7e38660fd1dfd7a4228e7ce5a7e8
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58636653"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726748"
 ---
 # <a name="microsoft-teams-adoption-phase-2---experiment"></a>Внедрение Microsoft Teams. Этап 2 — эксперименты
 
@@ -34,11 +34,11 @@ ms.locfileid: "58636653"
 
 На этом этапе необходимо выполнить следующие действия:
 
-1. [Создайте программу для своих champions .](teams-adoption-create-champions-program.md)
+1. [Создайте программу для champions .](teams-adoption-create-champions-program.md)
 2. [Краткое руководство.](teams-adoption-governance-quick-start.md)
 3. [Определите случаи использования](teams-adoption-define-usage-scenarios.md).
 4. [Завершать участие в программе ранних принятием](teams-adoption-onboard-early-adopters.md).
 5. [Настройка каналов отзывов](teams-adoption-onboard-early-adopters.md#gather-feedback).
 6. [Привлечение сотрудников службы поддержки](teams-adoption-onboard-support.md)на доску .
 
-![Значок, представляющий следующий ](media/teams-adoption-next-icon.png) шаг: [Создание программы для развития](teams-adoption-create-champions-program.md)
+![Значок, представляющий следующий шаг.](media/teams-adoption-next-icon.png) Далее: [Создание программы для лига 365](teams-adoption-create-champions-program.md)

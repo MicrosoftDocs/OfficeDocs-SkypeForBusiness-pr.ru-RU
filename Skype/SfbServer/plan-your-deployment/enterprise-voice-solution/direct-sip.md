@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0a37737d-9628-4e36-b27b-c134fa5a3882
 description: Прямые подключения SIP поддерживаются между Skype для бизнеса Server шлюзами PSTN и IP-PBX в Корпоративная голосовая связь.
-ms.openlocfilehash: 40c8f5df636fcb6219af3d428de41c206bae906c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1a3a2354074819f40780896897a8e9a2790a9421
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596523"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726268"
 ---
 # <a name="direct-sip-connections-in-skype-for-business-server"></a>Прямые подключения SIP в Skype для бизнеса Server
 
@@ -56,7 +56,7 @@ ms.locfileid: "58596523"
 
 **Дополнительный параметр развертывания**
 
-![Схема Departmental Migration Option](../../media/Fig28_Departmental_migration_option.jpg)
+![Диаграмма Departmental Migration Option.](../../media/Fig28_Departmental_migration_option.jpg)
 
 > [!NOTE]
 > Если вы подключали развертывание Skype для бизнеса Server к сертифицированным партнерам direct SIP, шлюз открытой телефонной сети (PSTN) между сервером-посредником и PBX не требуется. Список сертифицированных партнеров прямого SIP см. в программе открытой межоперабельности [Microsoft Unified Communications.](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md)
@@ -97,7 +97,7 @@ ms.locfileid: "58596523"
 
 **Параметр развертывания только для VoIP**
 
-![Параметр развертывания Greenfidle](../../media/Fig29_Greenfield_deployment_option.jpg)
+![Параметр развертывания Greenfidle.](../../media/Fig29_Greenfield_deployment_option.jpg)
 
 > [!NOTE]
 > Путь мультимедиа, показанный на этом рисунке, имеет включен обход мультимедиа (рекомендуемая конфигурация). Если вы решите отключить обход мультимедиа, путь мультимедиа будет проходить через сервер-посредник.

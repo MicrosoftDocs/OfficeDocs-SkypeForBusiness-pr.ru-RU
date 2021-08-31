@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 0512b9ce-7f5b-48eb-a79e-f3498bacf2de
 description: Сводка. Сведения о запуске или остановке сеанса захвата журнала журнала централизованной службы ведения журнала в Skype для бизнеса Server 2015 г.
-ms.openlocfilehash: 8f21b4b63c4261443cf6749f1daf0b905b1adb11
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5ed9630f21e409c240871c981db6346d2d2d9599
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608062"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726958"
 ---
 # <a name="start-or-stop-cls-log-capture-in-skype-for-business-server-2015"></a>Запуск или остановка захвата журнала CLS в Skype для бизнеса Server 2015 г.
  
@@ -102,7 +102,7 @@ ms.locfileid: "58608062"
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Skype for Business Server 2015 cmdlet"}
 ```
 
-Например,
+Например:
   
 ```PowerShell
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
@@ -121,7 +121,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
    Show-CsClsLogging
    ```
 
-   ![Windows PowerShell консоли после вызова Show-CsCl](../../media/Ops_Show_Stop_CsClsLogging.jpg)
+   ![Windows PowerShell консоли после вызова Show-CsCl.](../../media/Ops_Show_Stop_CsClsLogging.jpg)
   
    Результатом выполнения Show-CsClsLogging являются сводные данные обо всех выполняемых сценариях и областях их выполнения. Подробные сведения см. в статье [Show-CsClsLogging](/powershell/module/skype/show-csclslogging?view=skype-ps).
     

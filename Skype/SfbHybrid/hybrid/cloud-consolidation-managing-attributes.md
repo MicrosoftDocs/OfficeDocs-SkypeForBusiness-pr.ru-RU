@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 description: В этой статье описывается управление атрибутами после вывода из эксплуатации локальной среды.
-ms.openlocfilehash: 9f78dbcfaf1c753d18cc2e85a6b209248c2feea8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 64ba4844a1958cfd386a177d91b9c4f2dff89102
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58636900"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58736028"
 ---
 # <a name="decide-how-to-manage-attributes-after-decommissioning"></a>Выберите, как управлять атрибутами после списания
 
@@ -57,7 +57,7 @@ ms.locfileid: "58636900"
 
 - Чтобы изменить телефонный номер пользователя, `msRTCSIP-Line` *измените, если он уже имеет значение*.
 
-  ![Средство для пользователей и компьютеров Active Directory](../media/disable-hybrid-1.png)
+  ![Средство для пользователей и компьютеров Active Directory.](../media/disable-hybrid-1.png)
   
 -  Если у пользователя изначально не было значения для локального перед перемещением, можно изменить номер телефона с помощью параметра `msRTCSIP-Line` в `onpremLineUri` [командлете Set-CsUser](/powershell/module/skype/set-csuser?view=skype-ps) в модуле Teams PowerShell.
 

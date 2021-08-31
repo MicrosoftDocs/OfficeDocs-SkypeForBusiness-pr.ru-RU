@@ -16,19 +16,19 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-description: Узнайте, как Microsoft 365 и их членство в группах с Microsoft Teams.
-ms.openlocfilehash: e74e2e8c11753fbf97ef1161e8443f57dbb6146d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Узнайте, как Microsoft 365 и членство в группах с Microsoft Teams.
+ms.openlocfilehash: 4e140d50bb16c9ed99f126662545fb026c3df60a
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631563"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729738"
 ---
 # <a name="microsoft-365-groups-and-microsoft-teams"></a>Microsoft 365 Группы и Microsoft Teams
 
-Microsoft 365 Группы — это служба, в составной Microsoft 365. На базовом уровне группа Microsoft 365 — это объект в Azure Active Directory со списком участников и связанными рабочими нагрузками, включая сайт группы SharePoint, общий почтовый ящик Exchange, Планировщик и Power BI рабочей области. В группу можно добавлять и удалять пользователей так же, как и любые другие объекты безопасности на основе группы в Active Directory.
+Microsoft 365 Groups — это служба, в составной Microsoft 365. На базовом уровне группа Microsoft 365 — это объект в Azure Active Directory со списком участников и связанными рабочими нагрузками, включая сайт группы SharePoint, общий почтовый ящик Exchange, Планировщик и рабочая область Power BI. В группу можно добавлять и удалять пользователей так же, как и любые другие объекты безопасности на основе группы в Active Directory.
 
-![Схема, показывающая Microsoft 365 групп и связанных служб](/microsoft-365/media/microsoft-365-groups-hub-spoke.png?view=o365-worldwide)
+![Схема, показывающая Microsoft 365 групп и связанных служб.](/microsoft-365/media/microsoft-365-groups-hub-spoke.png?view=o365-worldwide)
 
 По умолчанию пользователи в Microsoft 365 могут создавать группы и управлять ими. Дополнительные сведения о группах Microsoft 365 см. в Microsoft 365 [группах](https://support.office.com/article/b565caa1-5c40-40ef-9915-60fdb2d97fa2) и группах Microsoft 365 для [ИТ-архитекторов.](teams-architecture-solutions-posters.md#groups-in-microsoft-365)
 
@@ -48,9 +48,9 @@ Microsoft 365 Группы — это служба, в составной Micros
 
 ## <a name="deleting-groups-and-teams"></a>Удаление групп и команд
 
-При удалении Microsoft 365 группы удаляются псевдонимы почтовых ящиков для бесед Outlook/OWA и Teams приглашений на собрания, а сайт SharePoint для удаления. Удаление команды и ее влияние на удаление команды занимает около 20 Outlook. Удаление команды из клиента Teams сразу же удаляет ее из представления для всех участников группы. При удалении участников группы Microsoft 365, для которых включена функциональность Teams, может быть около двух часов, прежде чем группа будет удалена из представления в клиенте Teams для затронутых людей, которые были удалены.
+При удалении Microsoft 365 группы удаляются псевдонимы почтовых ящиков для бесед Outlook/OWA и Teams приглашений на собрания, а также пометка сайта SharePoint для удаления. Удаление команды и ее влияние на удаление команды занимает около 20 Outlook. Удаление команды из клиента Teams сразу же удаляет ее из представления для всех участников группы. При удалении участников группы Microsoft 365, для которых включена функциональность Teams, может быть около двух часов, прежде чем группа будет удалена из представления в клиенте Teams для затронутых людей, которые были удалены.
 
-Подробные сведения о группах и вариантах окончания жизненного цикла групп см. в параметрах окончания жизненного цикла [групп,](/microsoft-365/solutions/end-life-cycle-groups-teams-sites-yammer) групп и Yammer и Архивировать или [удалить команду в Microsoft Teams.](./archive-or-delete-a-team.md)
+Подробные сведения о группах и вариантах окончания жизненного цикла групп см. в параметрах окончания жизненного цикла [групп,](/microsoft-365/solutions/end-life-cycle-groups-teams-sites-yammer) групп и Yammer и Архивировать или удалить команду в [Microsoft Teams.](./archive-or-delete-a-team.md)
 
 ## <a name="related-topics"></a>Статьи по теме
 

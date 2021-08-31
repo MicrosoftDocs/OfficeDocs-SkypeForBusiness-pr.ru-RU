@@ -20,12 +20,12 @@ ms.custom:
 - Setup
 - O365P_RecordingDesc
 description: 'Узнайте, как включить запись для аудио- и видеоконференции, а также что именно включено в запись. '
-ms.openlocfilehash: 8aee8991161364eaab29459ae305e6ba4cf37b50
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a3e4db64b7703ef4f7373c5607838a707767db78
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58625741"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729928"
 ---
 # <a name="let-people-record-their-audio-and-video-conferences"></a>Разрешение записи аудио- и видеоконференций
 
@@ -33,9 +33,9 @@ ms.locfileid: "58625741"
 
 ## <a name="choose-the-default-recording-setting-for-a-single-user-or-everyone-in-your-organization"></a>Выбор параметра записи по умолчанию для одного пользователя или всех пользователей в организации
 
-![Значок с логотипом Skype для бизнеса](../images/sfb-logo-30x30.png) **Использование центра администрирования Skype для бизнеса**
+![Значок с логотипом Skype для бизнеса.](../images/sfb-logo-30x30.png) **Использование центра Skype для бизнеса администрирования**
 
-1. Перейдите в центр администрирования > **Skype для бизнеса** и щелкните **Пользователи**.
+1. Перейдите в Центр администрирования > **Skype для бизнеса** и щелкните **Пользователи**.
     
 2. На странице **Пользователи** выберите пользователя или пользователей из списка и нажмите кнопку **Изменить**.
     

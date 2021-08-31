@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.collection: ''
 description: Обзор использования средств телеметрии Skype для бизнеса Online для мониторинга локальной реализации в гибридном сценарии.
-ms.openlocfilehash: 9d71a362de36d865ba6595626d971206bdbb974a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a85599ee0db012d3c3fbb55a7d7c12f8516ee962
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608646"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726488"
 ---
 # <a name="plan-call-data-connector"></a>Планирование соединителя данных звонка
 
@@ -54,7 +54,7 @@ ms.locfileid: "58608646"
 
 Конечно, может потребоваться сохранить некоторые данные о качестве вызовов в помещениях. Это может быть, например, если вы используете сторонное решение с настраиваемыми отчетами и рабочий процесс.  Соединителю данных вызовов позволяет настроить отправку данных в онлайн-службу, а также сохранить копию данных на локальном сервере, как показано на следующей схеме:
 
-![SfB облачная голосовая почта](../../sfbserver2019/media/call-data-connector-plan-2.png)
+![SfB облачная голосовая почта.](../../sfbserver2019/media/call-data-connector-plan-2.png)
 
 ## <a name="requirements"></a>Требования
 
