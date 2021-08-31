@@ -22,31 +22,31 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b9233f3a807846261a563d11b46d0fea59092780
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: dc4321adbbb8073b3ba290ab3236c543ae6bd320
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58613478"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733578"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>Настройка параметров трансляции в Microsoft Teams
 
-Используйте Teams трансляций, чтобы настроить параметры трансляций, которые проводятся в вашей организации. Вы можете настроить URL-адрес службы поддержки и стороного поставщика видеоконференции. Эти параметры применяются для всех трансляций, созданных в организации.
+Используйте Teams трансляций, чтобы настроить параметры трансляций, которые проводятся в вашей организации. Вы можете настроить URL-адрес службы поддержки и сторонних поставщиков видеоконференции. Эти параметры применяются для всех трансляций, созданных в организации.
 
-Вы можете легко управлять этими настройками в центре Microsoft Teams администрирования. В левой области навигации перейдите к **настройкам трансляций**  >  **собраний**.
+Вы можете легко управлять этими настройками в Microsoft Teams администрирования. В левой области навигации перейдите к **настройкам трансляций**  >  **собраний**.
 
-![Снимок экрана: Teams трансляций](../media/teams-live-events-settings.png "Снимок экрана: Teams трансляций, которые можно настроить в Центре Microsoft Teams администрирования")
+![Снимок экрана: Teams трансляций.](../media/teams-live-events-settings.png "Снимок экрана: Teams трансляций, которые можно настроить в Центре Microsoft Teams администрирования")
 
 ## <a name="set-up-event-support-url"></a>Настройка URL-адреса поддержки событий
 
 Этот URL-адрес отображается для участников трансляции. Добавьте URL-адрес службы поддержки вашей организации, чтобы предоставить участникам возможность обратиться в службу поддержки во время трансляции.
 
-### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Значок с логотипом Microsoft Teams](../media/teams-logo-30x30.png) С помощью Центра администрирования Microsoft Teams
+### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Значок с логотипом Microsoft Teams.](../media/teams-logo-30x30.png) С помощью Центра администрирования Microsoft Teams
 
-1. В левой области навигации перейдите в **параметры события**  >  **Meetings Live**.
+1. В области навигации слева перейдите в **параметры события**  >  **Meetings Live**.
 2. В **области URL-адрес** службы поддержки введите URL-адрес службы поддержки вашей организации.
 
-    ![Параметр URL-адреса поддержки для трансляций в Центре администрирования](../media/teams-live-events-settings-supporturl.png "Снимок экрана: URL-адрес службы поддержки для Teams трансляций")
+    ![Параметр URL-адреса поддержки для трансляций в Центре администрирования.](../media/teams-live-events-settings-supporturl.png "Снимок экрана: URL-адрес службы поддержки для Teams трансляций")
 
 ### <a name="using-windows-powershell"></a>Использование Windows PowerShell
 
@@ -60,20 +60,20 @@ Set-CsTeamsMeetingBroadcastConfiguration -SupportURL “{your URL}”
 
 Если вы приобрели и настроили программное решение для сети (SDN) или корпоративной сети доставки содержимого (eCDN) через партнера Майкрософт по доставке видео, настройте поставщика для трансляций в Teams. 
 
-### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Значок с логотипом Microsoft Teams](../media/teams-logo-30x30.png) С помощью Центра администрирования Microsoft Teams
+### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Значок с логотипом Microsoft Teams.](../media/teams-logo-30x30.png) С помощью Центра администрирования Microsoft Teams
 
-1. В левой области навигации перейдите в **параметры события**  >  **Meetings Live**.
+1. В области навигации слева перейдите в **параметры события**  >  **Meetings Live**.
 2. В **области Сторонние поставщики видеоконференции** выполните следующие этапы: 
 
-    ![Параметры сторонного поставщика видеоконференции в Центре администрирования](../media/teams-live-events-settings-distribution-provider.png "Снимок экрана: параметры сторонного поставщика видеоконференции для трансляций")
+    ![Параметры сторонного поставщика видеоконференции в Центре администрирования.](../media/teams-live-events-settings-distribution-provider.png "Снимок экрана: параметры сторонного поставщика видеоконференции для трансляций")
 
     - **Использование стороного поставщика рассылки** Включим эту возможность, чтобы включить стороного поставщика видеоконференции.
     - **Имя поставщика SDN** Выберите поставщика, который вы используете.
-    - **Ключ лицензии поставщика** Введите номер лицензии, который вы получили у своего поставщика.
+    - **Ключ лицензии поставщика** Введите ИД лицензии, который вы получили у своего поставщика услуг.
     - **URL-адрес шаблона API SDN** Введите URL-адрес шаблона API, который вы получили от своего поставщика услуг.
 
 ### <a name="using-windows-powershell"></a>Использование Windows PowerShell
-Получите от своего поставщика удостоверение лицензии или маркер API и шаблон API, а затем запустите один из следующих решений в зависимости от используемого поставщика:
+Получите от своего контакта ИД лицензии или маркер API и шаблон API, а затем запустите один из следующих решений в зависимости от используемого поставщика:
 
 **Hive** 
 ```PowerShell
@@ -90,6 +90,10 @@ Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $T
 **Ramp** 
 ```PowerShell
 Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName ramp -SdnRuntimeConfiguration "{Configuration provided by RAMP}"
+```
+**Peer5**
+```PowerShell
+Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName peer5 -SdnLicenseId {peer5CustomerId}
 ```
 
 Дополнительные сведения [см. в настройках Set-CsTeamsMeetingBroadcastConfiguration.](/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps)

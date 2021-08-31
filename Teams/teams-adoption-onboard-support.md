@@ -21,20 +21,20 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0f45a3a8e1538032ffffe3fbee6bc94d093889a1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 41b145b4741199a133c602caa383277aa24d02e3
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58583573"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730868"
 ---
 # <a name="onboard-support-for-microsoft-teams"></a>Подключение службы поддержки по Microsoft Teams
 
-Чтобы обеспечить поддержку ранним командам по мере начала работы с Teams, соберите сотрудников службы поддержки и просмотрите возможности Teams. Ключевые сотрудники службы поддержки могут присоединиться к вашей программе ранних принятия. Рекомендуется использовать Teams в своих сценариях. С помощью наших учебных ресурсов вы можете использовать базовые возможности для работы с продуктом.  
+Чтобы обеспечить поддержку ранним командам по мере начала работы с Teams, соберите сотрудников службы поддержки и просмотрите возможности Teams. Ключевые сотрудники организации поддержки могут присоединиться к вашей программе ранних принятия. Рекомендуется использовать Teams в своих сценариях. С помощью наших учебных ресурсов в Интернете вы можете воспользоваться базовыми средствами для подготовки к использованию продукта.  
 
 - [Foundations — основные компоненты Microsoft Teams](https://youtu.be/V6B4KraD-FM)
 - [Устранение неполадок Teams](https://youtu.be/0KNh9KNpXcA)
 - [Известные проблемы и устранение неполадок](/MicrosoftTeams/troubleshoot/teams-welcome)
 - [Обучение работе с Microsoft Teams](./training-microsoft-teams-landing-page.md)
 
-![Значок, представляющий следующий шаг ](media/teams-adoption-next-icon.png) Далее: [Microsoft Teams этап 3. Масштаб](teams-adoption-phase3-enable.md).
+![Значок, представляющий следующий шаг.](media/teams-adoption-next-icon.png) Далее: [Microsoft Teams этап 3: Масштаб](teams-adoption-phase3-enable.md).

@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: bfa31b24-a02f-410f-a8ec-206ca4d5b620
 description: Сводка. Ознакомьтесь с этой темой, чтобы узнать о требованиях к оборудованию и программному обеспечению для Skype для бизнеса Server.
-ms.openlocfilehash: 4f3eff319165a50aa52108903c5f091415a1018d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bfc449abc2e01676a412fc0ead85eeae12aa2610
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58603858"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733544"
 ---
 # <a name="hardware-and-software-requirements-for-conferencing-in-skype-for-business-server"></a>Требования к оборудованию и программному обеспечению для Skype для бизнеса Server
 
@@ -29,7 +29,7 @@ ms.locfileid: "58603858"
 
 **Возможности и требования к конференциям**
 
-![Компоненты conferencing](../../media/9359b98b-b3ab-46a1-acf0-93c7bab6fc67.png)
+![Компоненты conferencing.](../../media/9359b98b-b3ab-46a1-acf0-93c7bab6fc67.png)
 
  Дополнительные сведения о соображениях топологии см. в этой рубке [Plan your conferencing topology for Skype для бизнеса Server.](conferencing-topology.md)
 

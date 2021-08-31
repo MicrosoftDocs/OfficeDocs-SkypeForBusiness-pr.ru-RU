@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: Подготовка и реализация отключения TLS 1.0 и 1.1 в средах.
-ms.openlocfilehash: f10aae3e85e7bcc00aceaf7acf9f22d57e921aa2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 93ebf65101cd3e8ddc36a3a17e945035ad770d49
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608086"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731468"
 ---
 # <a name="disable-tls-1011-in-skype-for-business-server-2015"></a>Отключение TLS 1.0/1.1 в Skype для бизнеса Server 2015 г.
 
@@ -462,7 +462,7 @@ Windows Registry Editor Version 5.00
 7. Возвращайтесь в Internet Explorer и отключайте параметр **только для использования TLS 1.2.**
 8. Снова просмотрите URL-адрес внутренней веб-службы пула SfB 2015 (если не удастся подключиться).
 
-![Параметры Интернета](../../media/internet-options.jpg)
+![Параметры Интернета.](../../media/internet-options.jpg)
 
 ## <a name="advanced-deployment-scenarios"></a>Расширенные сценарии развертывания
 
@@ -521,14 +521,14 @@ Windows Registry Editor Version 5.00
 8. Установка локального магазина конфигурации (шаг 1): 
      - Откройте мастер развертывания, нажмите кнопку Установить или обновить Skype для бизнеса Server и нажмите кнопку **Выполнить** на шаге 1: Установка локального магазина конфигурации.
      - Нажмите **кнопку Далее** в диалоговом окне **Install Local Configuration Store.**
-     ![Установка диалогового окна Локального магазина конфигурации](../../media/local-configuration-store.png)
+     ![Установите диалоговое окно Локального магазина конфигурации.](../../media/local-configuration-store.png)
      - Просмотрите результаты и убедитесь, что состояние задачи завершено. Просмотрите результативный файл журнала, нажав **журнал Представления**.
-     ![Состояние задачи показывается как Завершено](../../media/local-configuration-task-completed.png)
+     ![Состояние задачи показывается как Завершено.](../../media/local-configuration-task-completed.png)
      - Нажмите кнопку **Готово**.
 9. Настройка или удаление Skype для бизнеса Server компонентов (шаг 2):
     - Откройте мастер развертывания, щелкните Установите или **Skype для бизнеса Server систему** и нажмите кнопку **Выполнить** на шаге 2: Настройка или удаление Skype для бизнеса Server компонентов
     - Нажмите **кнопку Далее** в диалоговом окне Настройка Skype для бизнеса Server компонентов.
-    ![окно настройка Skype для бизнеса Server компонентов](../../media/set-up-skype-for-business-server-components-window.png)
+    ![окно Настройка Skype для бизнеса Server компонентов.](../../media/set-up-skype-for-business-server-components-window.png)
     - Просмотрите журнал с помощью журнала View Log и проверьте, завершена ли установка без проблем. 
     - Нажмите кнопку **Готово**.
 10. Приступить к дополнительной установке и конфигурации по мере необходимости (на данном этапе можно возобновить обычные процедуры установки).

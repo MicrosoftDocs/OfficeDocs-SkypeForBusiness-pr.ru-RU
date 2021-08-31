@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bced37aba08ca807e6b83091aa85f16a5c99ea22
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 86de4726585f067235c578353a30e0f5ad86574d
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58586511"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733728"
 ---
 # <a name="microsoft-teams-adoption-phase-3---scale"></a>Внедрение Microsoft Teams. Этап 3 — масштабирование
 
@@ -41,4 +41,4 @@ ms.locfileid: "58586511"
 7. Подготовьтесь к постоянному взаимодействию с бизнесом.
 8. Подготовьтесь к постоянному анализу & служб.
 
-![Значок, представляющий следующий ](media/teams-adoption-next-icon.png) шаг: [Определение результатов и успешности](teams-adoption-define-outcomes.md)
+![Значок, представляющий следующий шаг.](media/teams-adoption-next-icon.png) Далее: [Определение результатов и успешности](teams-adoption-define-outcomes.md)

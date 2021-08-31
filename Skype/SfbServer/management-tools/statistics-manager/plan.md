@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: f0ec68e1-de01-4a92-b67d-703149b05caf
 description: Сводка. Ознакомьтесь с этой темой, чтобы узнать о диспетчере статистики для Skype для бизнеса Server.
-ms.openlocfilehash: 17b01924db7522e2fefc9fbdf399d223429b6c4a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2ba909e5bcc526a40374f5f9fdbbcf15c1cf7c39
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58612078"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730758"
 ---
 # <a name="plan-for-statistics-manager-for-skype-for-business-server"></a>Планирование диспетчера статистики в Skype для бизнеса Server
 
@@ -122,7 +122,7 @@ ms.locfileid: "58612078"
 
 На следующей схеме показано локальное развертывание, в котором веб-сайт диспетчера статистики, концентратор, прослушиватель и система кэшинга Redis размещены на одной машине. Диспетчер статистики отслеживает три Skype для бизнеса, каждый из которых имеет один агент, передающий данные слушателю. Пользователи подключаются к одному веб-сайту, чтобы просмотреть все данные, агрегированные диспетчером статистики:
 
-![Локальное развертывание диспетчера статистики](../../media/c7c9d0b5-a70b-4d8c-aec4-0128a29b90b6.png)
+![Локальное развертывание диспетчера статистики.](../../media/c7c9d0b5-a70b-4d8c-aec4-0128a29b90b6.png)
 
 ## <a name="requirements"></a>Требования
 <a name="BKMK_Requirements"> </a>

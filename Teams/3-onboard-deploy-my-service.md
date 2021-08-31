@@ -11,7 +11,7 @@ ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
-description: Скачайте книгу Site Enablement Playbook, чтобы спланировать процесс Teams, ускорить и оптимизировать процесс принятия пользователями, обеспечить высокое качество и удовлетворенность.
+description: Скачайте приложение Site Enablement Playbook, чтобы спланировать процесс Teams, ускорить и оптимизировать процесс принятия пользователями, повысить качество и удовлетворенность.
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d79e1431d6743f60092acbfab82154037a4c5720
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b5c027da20c6c305fd5924cd6483c5cbd63b8ddd
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58624941"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733548"
 ---
 # <a name="deploy-my-service"></a>Развертывание службы
 
@@ -33,9 +33,9 @@ ms.locfileid: "58624941"
 
 ## <a name="site-enablement-playbook-for-microsoft-teams-voice-workloads"></a>Playbook enablement site for Microsoft Teams voice workloads
 
-Эта книга поможет вашей организации успешно спланировать и выполнить Microsoft Teams голосовой связи на уровне сайта.
+Эта книга поможет вашей организации успешно спланировать и выполнить Microsoft Teams голосовых функций по сайтам.
 
-В этом справочнике, включая все необходимые действия, рекомендуемые временные шкалы и ссылки на соответствующие рекомендации по каждому действию, даются все необходимые инструкции, которые помогут успешно Teams голосовой связи на данном сайте с учетом факторов, важных для пользователя.
+В этом справочнике, включая все необходимые действия, рекомендуемые временные шкалы и ссылки на соответствующие рекомендации по каждому действию, описывается ряд рекомендаций, которые помогут успешно развертывать голосовые данные Teams на данном сайте с учетом факторов, важных для пользователя.
 
 Выполив действия в этом playbook, ваша организация может:
 
@@ -46,13 +46,13 @@ ms.locfileid: "58624941"
 -   Снизить потребности в поддержке и повысить удовлетворенность пользователей.
 
 > [!NOTE]
-> В этой статье и связанной с ней книге не описываются все этапы технической конфигурации, необходимые для реализации службы или предоставления набора номера определенному сайту. Вместо этого они уделяют основное внимание действиям и задачам, рекомендуемым пользователям в сети, и могут начать использовать Teams голосовой нагрузки благодаря быстрому и плавному переходу с высокой скоростью принятия, сводя к минимуму требования к поддержке. Технические рекомендации по настройке среды для голосовой связи Teams см. в контрольных списках для настройки рабочих нагрузок голосовой связи [Teams,](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)настройки прямой маршрутики в [Teams,](onboarding-checklist-configure-direct-routing-in-Microsoft-Teams.md) [Teams](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)основных возможностей, сети для [Teams](prepare-network.md)и включения [Microsoft 365 или Office 365.](onboarding-checklist-enable-office-365.md)
+> В этой статье и связанной с ней книге не описываются все этапы технической конфигурации, необходимые для реализации службы или предоставления набора номера определенному сайту. Вместо этого они уделяют основное внимание действиям и задачам, рекомендуемым пользователям, и могут начать использовать Teams голосовой нагрузки благодаря быстрому и плавному переходу с высокой скоростью принятия, свести к минимуму требования к поддержке. Технические рекомендации по настройке среды для голосовой связи Teams см. в контрольных списках для настройки рабочих нагрузок голосовой связи [Teams,](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)настройки прямой маршрутики в [Teams,](onboarding-checklist-configure-direct-routing-in-Microsoft-Teams.md) [Teams](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)основных возможностей, сети для [Teams](prepare-network.md)и включения [Microsoft 365 или Office 365.](onboarding-checklist-enable-office-365.md)
 
 <!--ENDOFSECTION-->
 
 ## <a name="playbook-focus-areas"></a>Области фокуса в книге воспроизведения
 
-Основное внимание в книге уделяется устранению факторов, влияющих на то, как пользователь может Teams голосового развертывания. Действия и задачи сгруппировать по следующим областям:
+Основное внимание в книге уделяется устранению факторов, влияющих на то, как пользователь может Teams голосового развертывания. Действия и задачи сгруппировали по следующим областям:
 
 -   Проверка готовности службы
     - Аудиоконференция
@@ -67,20 +67,20 @@ ms.locfileid: "58624941"
 
 -   Внедрение
 
-Книга [site Enablement Playbook for Voice (Playbook)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) является Microsoft Excel книги. Каждая из этих пяти областей является отдельным листом в книге, а каждая задача развертывания и действия группируется на один из этих листов.
+Книга [site Enablement Playbook for Voice (Playbook)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) является Microsoft Excel книгой. Каждая из этих пяти областей является отдельным листом в книге, а каждая задача развертывания и действия группируется на один из этих листов.
 
-![Снимок экрана: playbook enablement сайта](media/deploy-my-service-image1.png "Снимок экрана: книга воспроизведения")
+![Снимок экрана: playbook enablement сайта.](media/deploy-my-service-image1.png "Снимок экрана: книга воспроизведения")
 
 > [!NOTE]
-> Вы создайте отдельный экземпляр книги для каждого сайта, в области Teams развернутого.
+> Вы создадим отдельный экземпляр книги для каждого сайта, в области Teams развернутого.
 
 <!--ENDOFSECTION-->
 
 ## <a name="how-to-use-the-playbook"></a>Использование книги
 
-Независимо от размера и сложности расположения для каждого сайта необходимо заранее спланировать задачи и действия и выполнить их в оптимальном порядке — до, во время и после фактического внедрения службы. Мы рекомендуем вам выполнить эти действия по мере планирования и выполнения собственного пути к Microsoft Teams голосовой почты.
+Независимо от размера и сложности расположения для каждого сайта необходимо заранее спланировать задачи и действия и выполнить их в оптимальном порядке — до, во время и после фактического внедрения службы. Мы рекомендуем выполнить эти действия по мере планирования и выполнения собственного пути, чтобы Microsoft Teams голосовой почты.
 
-1. Скачайте [playbook site Enablement для voice (Playbook)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) для Microsoft Teams Voice.
+1. Скачайте [playbook site Enablement playbook for Voice (Playbook)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) для Microsoft Teams Voice.
 
 2. Создайте отдельную копию книги для каждого сайта.
 
@@ -88,28 +88,28 @@ ms.locfileid: "58624941"
 
 4. Введите **имя сайта, код сайта** и запланированную дату **запуска,** как показано ниже. Это крайне важное действие, так как оно корректирует рекомендуемые крайние сроки для всех действий в книге.
 
-   ![Пример с названием сайта, кодом сайта и запланированной датой запуска](media/deploy-my-service-image2.png "Пример с названием сайта в Москве, кодом сайта NY01 и запланированной датой запуска 20 марта 2018 г.")
+   ![Пример с названием сайта, кодом сайта и запланированной датой запуска.](media/deploy-my-service-image2.png "Пример с названием сайта в Москве, кодом сайта NY01 и запланированной датой запуска 20 марта 2018 г.")
 
 5. Просматривайте каждое действие, принимайте необходимые действия и обновляйте состояние по мере просмотра временной шкалы. Состояние представлено графически, как описано ниже.
   
-   - ![Изображение зеленой метки с изображением да или не применимо ](media/deploy-my-service-image3.png) **(зеленый):** действие завершено или не применимо для этого сайта, и никаких дополнительных действий не требуется.</li>
-   - ![Изображение желтого восклицательного пункта Действие еще не завершено ](media/deploy-my-service-image4.png) <strong>(желтое):</strong> действие еще не выполнено и в календарном плане должно быть обновлено до "Да" или "Нет".</li>
-   - ![Красный крестик, указывающий на отсутствие "Нет" ](media/deploy-my-service-image5.png) <strong>(красный):</strong> действие не может быть выполнено из-за проблемы и должно быть выполнено на собрании по состоянии проекта.</li></ul>
+   - ![Изображение зеленой контрольной отметки.](media/deploy-my-service-image3.png) **Да или нет (зеленый):** Действие завершено или не применимо к этому сайту, и никаких дополнительных действий не требуется.</li>
+   - ![Изображение желтого восклицательный пункта.](media/deploy-my-service-image4.png) <strong>Действие еще не завершено (желтое):</strong> Действие еще не выполнено, и его необходимо обновить до "Да" или "Нет" в расписании.</li>
+   - ![Изображение красного крестика, обозначающее "нет".](media/deploy-my-service-image5.png) <strong>Нет (красный):</strong> Действие не может быть выполнено из-за проблемы и должно быть выполнено на собрании по состоянии проекта.</li></ul>
 
 6. Состояние скатится в каждом разделе, а заголовок раздела будет отформатирован с помощью одного из этих индикаторов состояния. **Еженедельное состояние** также обновляется автоматически.
 
-![Снимок экрана: еженедельные скайп-альбомы состояния в книге](media/deploy-my-service-image6.png "Снимок экрана: еженедельные скайп-альбомы состояния в книге")
+![Снимок экрана: еженедельные скайп-альбомы о состоянии в книге.](media/deploy-my-service-image6.png "Снимок экрана: еженедельные скайп-альбомы состояния в книге")
 
 > [!TIP]
-> Повторите эти действия для всех мест, которые у вас есть.
+> Повторите эти действия для всех местоположений, которые у вас есть.
 
 > [!IMPORTANT]
 > Некоторые действия могут быть применимы не для всех местоположений и сайтов. Если определенное действие не относится к сайту, необходимо выбрать значение Не **относится** к этому действию. **НЕ УДАЛЯЙТЕ** строки в книге; В этом случае скаймы состояния не будут работать.<br/><br/>
 Обратите внимание на действия, которые могут занять больше времени, чем вы планировали, например перенос номеров и мероприятия по закупкам. Эти действия могут отрицательно сказаться на временной шкале развертывания сайта. Обязательно просматривайте и обновляйте список действий и связанную с [](./envision-steering-committee-complete-guide.md) ней временную шкалу еженедельно, а затем представить их на собраниях комитета по управлению, чтобы заинтересованные лица знали о состоянии каждого сайта и возможных отклонениях от расписания развертывания.
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Точки принятия решений</td><td><ul><li>Решите, требуется ли для развертывания playbook site Enablement.</li><li>Решите, кто будет отвечать за настройку воспроизведения для Microsoft Teams сайта, который вы будете развертывать.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Дальнейшие действия</td><td><ul><li><a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true" data-raw-source="[Download the Site Enablement Playbook](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true)">Скачайте книгу site Enablement Playbook</a>.</li><li>Настройте книгу воспроизведения enablement сайта для первого сайта.</li><li>При необходимости повторите эти процедуры для дополнительных сайтов.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Точки принятия решений</td><td><ul><li>Решите, требуется ли для развертывания playbook site Enablement.</li><li>Определите, кто будет отвечать за настройку воспроизведения Microsoft Teams для каждого сайта, который вы будете развертывать.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Дальнейшие действия</td><td><ul><li><a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true" data-raw-source="[Download the Site Enablement Playbook](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true)">Скачайте книгу site Enablement Playbook</a>.</li><li>Настройте книгу воспроизведения enablement сайта для первого сайта.</li><li>При необходимости повторите это для дополнительных сайтов.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

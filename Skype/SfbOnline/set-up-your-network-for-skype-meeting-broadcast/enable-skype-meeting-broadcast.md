@@ -18,13 +18,13 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - SMB
-description: Чтобы люди в вашей организации могли Skype трансляцию собраний, необходимо включить ее. Для этого необходимо знать, как использовать Windows PowerShell. Если вы не знаете, Windows PowerShell, возможно, вы нанимаете партнера Майкрософт, который сделает это за вас.
-ms.openlocfilehash: 4f16444a07c81b44e4078a2c294208f59e4d7775
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Чтобы люди в вашей организации могли Skype трансляцию собраний, необходимо включить ее. Для этого необходимо знать, как использовать Windows PowerShell. Если вы не знаете, Windows PowerShell, вы можете нанять партнера Майкрософт, который сделает это за вас.
+ms.openlocfilehash: ec42de04b139537f05cadabbdffb84f645edcf2a
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58599674"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731268"
 ---
 # <a name="enable-skype-meeting-broadcast"></a>Включение трансляции собрания Skype
 
@@ -33,21 +33,21 @@ ms.locfileid: "58599674"
 > [!IMPORTANT]
 > Skype для бизнеса 31 июля 2021 г. заканчивается доступ к службе Online. Мы рекомендуем клиентам начать обновление до Microsoft Teams , основного клиента для связи и командной работы в Microsoft 365.
 
-Чтобы люди в вашей организации могли Skype трансляцию собраний, необходимо включить ее. Для этого необходимо знать, как использовать Windows PowerShell. Если вы не знаете, Windows PowerShell можете нанять партнера [Майкрософт,](https://go.microsoft.com/fwlink/?linkid=391089) который сделает это за вас.
+Чтобы люди в вашей организации могли Skype трансляцию собраний, необходимо включить ее. Для этого необходимо знать, как использовать Windows PowerShell. Если вы не знаете, как Windows PowerShell, вы можете нанять партнера [Майкрософт,](https://go.microsoft.com/fwlink/?linkid=391089) который сделает это за вас.
 
 
 
 > [!NOTE]
-> Центр Microsoft Teams администрирования заменил центр администрирования Skype для бизнеса (устаревший портал). Все параметры управления Skype для бизнеса теперь находятся в Teams администрирования. Для управления функциями Skype для бизнеса Teams в Центре администрирования azure AD вам должна быть назначена роль глобального администратора или администратора Skype для бизнеса администратора azure [AD.](/azure/active-directory/roles/permissions-reference) Дополнительные сведения см. в статье [Управление параметрами Skype для бизнеса в Центре администрирования Microsoft Teams](/MicrosoftTeams/skype-for-business-settings?bc=%2fskypeforbusiness%2fbreadcrumb%2ftoc.json&toc=%2fskypeforbusiness%2fsfbotoc%2ftoc.json)
+> Центр Microsoft Teams администрирования заменил центр администрирования Skype для бизнеса (устаревший портал). Все параметры управления Skype для бизнеса теперь находятся в Teams администрирования. Для управления функциями Skype для бизнеса Teams в Центре администрирования azure [AD](/azure/active-directory/roles/permissions-reference) вам должна быть назначена роль глобального администратора или администратора Skype для бизнеса администратора. Дополнительные сведения см. в статье [Управление параметрами Skype для бизнеса в Центре администрирования Microsoft Teams](/MicrosoftTeams/skype-for-business-settings?bc=%2fskypeforbusiness%2fbreadcrumb%2ftoc.json&toc=%2fskypeforbusiness%2fsfbotoc%2ftoc.json)
 
   
-## <a name="enable-skype-meeting-broadcast-using-the-skype-for-business-admin-center"></a>Включить Skype собрания с помощью центра Skype для бизнеса администрирования
+## <a name="enable-skype-meeting-broadcast-using-the-skype-for-business-admin-center"></a>Включить Skype собрания с помощью Skype для бизнеса администрирования
 
-![Значок с логотипом Skype для бизнеса](../images/sfb-logo-30x30.png) **Использование центра администрирования Skype для бизнеса**
+![Значок с логотипом Skype для бизнеса логотипом.](../images/sfb-logo-30x30.png) **Использование центра Skype для бизнеса администрирования**
 
 1. Во sign in with your global admin account or Skype для бизнеса admin account at [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home) .
     
-2. В Центре администрирования перейдите в **центр** администрирования Teams  >  .
+2. В Центре администрирования перейдите **в** центр администрирования Teams  >  .
     
 3. В Центре **Teams администрирования** перейдите на устаревший портал Онлайн-собрания Трансляция собраний , а затем выберите Включить Skype  >    >   **трансляцию собраний**.
     
@@ -64,7 +64,7 @@ ms.locfileid: "58599674"
    $userCredential = Get-Credential
    Connect-MicrosoftTeams -Credential $userCredential
    ```
-3. Подтвердите текущую конфигурацию Skype трансляции собрания, выведя:
+3. Подтвердите текущую конфигурацию Skype трансляции собрания с помощью:
     
    ```PowerShell
    Get-CsBroadcastMeetingConfiguration
@@ -87,7 +87,7 @@ ms.locfileid: "58599674"
     > [!TIP]
     > После внести изменения на портале широковещательного Skype может потребоваться до часа. 
   
-10. Теперь ваши пользователи могут проводить широковещательные собрания с другими пользователями в вашей компании. Чтобы начать, наведя указатель на пункт Что такое [Skype трансляции собрания?](https://support.office.com/article/c472c76b-21f1-4e4b-ab58-329a6c33757d)
+10. Теперь ваши пользователи могут проводить широковещательные собрания с другими пользователями в вашей компании. Чтобы начать, наведя на них указатель на пункт Что такое [Skype трансляции собрания?](https://support.office.com/article/c472c76b-21f1-4e4b-ab58-329a6c33757d)
     
 ## <a name="configure-your-network-to-broadcast-meetings-with-external-attendees"></a>Настройка сети для трансляции собраний с внешними участниками
 

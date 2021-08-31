@@ -18,16 +18,16 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Узнайте, как дистанционно подавь и войти в Teams устройствах с Android
-ms.openlocfilehash: 31a247f7716d1e97ed3ed1e4b9b7f8d20d0881f8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 668e50eab20d96f28ff7a6be49a0ddcac872b393
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58632203"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733318"
 ---
 # <a name="remote-provisioning-and-sign-in-for-teams-android-devices"></a>Удаленная подготовка и вход для Teams устройств с Android
 
-ИТ-администраторы могут удаленно подавка и вход на устройство Teams Android. Чтобы подготовка устройства была удаленной, администратор должен отправить их коды MAC и создать код проверки. Весь процесс можно завершить удаленно из центра Teams администрирования.
+ИТ-администраторы могут удаленно подавлю и войти на устройство Teams Android. Чтобы подготовка устройства была удаленной, администратор должен отправить их коды MAC и создать код проверки. Весь процесс можно завершить удаленно из центра Teams администрирования.
 
 ## <a name="review-the-supported-devices"></a>Просмотр поддерживаемых устройств
 
@@ -39,22 +39,22 @@ ms.locfileid: "58632203"
 |Teams телефонов|Yealink VP59|91.15.0.58|
 |Teams телефонов|Yealink CP960|73.15.0.117|
 |Teams телефонов|Yealink MP56/MP54/MP58|122.15.0.36|
-|Teams телефонов|Воронова UC-2|1.0.3.52|
+|Teams телефонов|UC-2, UcRon|1.0.3.52|
 |Teams телефонов|  Poly Trio C60|  7.0.2.1071|
 |Teams телефонов|  CCX400/CCX500/CCX600    |7.0.2.1072|
 |Teams телефонов|  Audio Codes C448HD/C450HD/C470HD|   1.10.120|
-|Teams панели|  Январь 770/1070|  1.004.0115|
-|Комнаты Teams для Android|Logitech Висячий линечик mini|1.2.982|
-|Комнаты Teams для Android|Logitech Висячий линечик|1.2.982|
-|Комнаты Teams для Android|AudioCodes RXV80|1.13.361|
-|Комнаты Teams для Android|EPOS EXPAND Vision 3T|1.2.2.21182.10|
-|Комнаты Teams для Android|Панель собраний Yealink A30|133.15.0.60|
-|Комнаты Teams для Android|Панель собраний Yealink A20|133.15.0.60|
-|Комнаты Teams для Android|Сенсорная консоль Yealink CTP18|137.15.0.37|
-|Комнаты Teams для Android|Poly Studio X30|3.5.0.344025|
-|Комнаты Teams для Android|Poly Studio X50|3.5.0.344025|
-|Комнаты Teams для Android|Сенсорная консоль Poly TC8 |3.5.0.210489|
-|Комнаты Teams для Android|Yealink VC210|118.15.0.54|
+|Teams панели|  770/1070|  1.004.0115|
+|Комнаты Teams android|Logitech Висячий линечик mini|1.2.982|
+|Комнаты Teams android|Logitech Висячий линечик|1.2.982|
+|Комнаты Teams android|AudioCodes RXV80|1.13.361|
+|Комнаты Teams android|EPOS EXPAND Vision 3T|1.2.2.21182.10|
+|Комнаты Teams android|Панель собраний Yealink A30|133.15.0.60|
+|Комнаты Teams android|Панель собраний Yealink A20|133.15.0.60|
+|Комнаты Teams android|Сенсорная консоль Yealink CTP18|137.15.0.37|
+|Комнаты Teams android|Poly Studio X30|3.5.0.344025|
+|Комнаты Teams android|Poly Studio X50|3.5.0.344025|
+|Комнаты Teams android|Poly TC8 touch console |3.5.0.210489|
+|Комнаты Teams android|Yealink VC210|118.15.0.54|
 
 ## <a name="add-a-device-mac-address"></a>Добавление адреса MAC устройства
 
@@ -70,13 +70,13 @@ ms.locfileid: "58632203"
 
 1. На **вкладке Ожидание активации** выберите **Добавить mac ID**.
 
-   ![добавление адреса mac устройства вручную](../media/remote-provision-6.png)
+   ![вручную добавьте адрес mac устройства.](../media/remote-provision-6.png)
 
 1. Введите mac ID.
 1. Введите расположение, которое поможет техническим специалистам определить, где установить устройства.
 1. По **завершению** выберите Применить.
 
-### <a name="upload-a-file-to-add-a-device-mac-address"></a>Upload, чтобы добавить адрес mac устройства
+### <a name="upload-a-file-to-add-a-device-mac-address"></a>Upload файл, чтобы добавить адрес mac устройства
 
 1. На **вкладке Ожидание активации** выберите Upload **mac IDs**.
 2. Скачайте шаблон файла.
@@ -85,7 +85,7 @@ ms.locfileid: "58632203"
 
 ## <a name="generate-a-verification-code"></a>Создание проверочных кодов
 
-Вам потребуется код проверки для устройств. Код проверки создается массово или на уровне устройства и действителен в течение 24 часов.
+Для этих устройств необходим код проверки. Код проверки создается массово или на уровне устройства и действителен в течение 24 часов.
 
 1. На **вкладке Ожидание активации** выберите существующий ИД MAC.
    Пароль создается для адреса MAC и отображается в столбце **Код проверки.**
@@ -98,15 +98,15 @@ ms.locfileid: "58632203"
 
 1. Специалист выбирает в **области** подготовка устройство **Параметры.**  
 
-   ![Параметр "Подготовка нового устройства" на вкладке "Действия"](../media/provision-device1.png)
+   ![Параметр "Подготовка нового устройства" на вкладке "Действия".](../media/provision-device1.png)
   
 2. Специалист вводит код проверки для конкретного устройства в предоставленное поле ввода.
 
-   ![Подготовка проверки нового устройства](../media/provision-device-verification1.png)
+   ![Подготовка новой проверки устройства.](../media/provision-device-verification1.png)
 
    После успешной подготовка устройства на странице для регистрации появится имя клиента.
 
-   ![Имя клиента на странице регистрации](../media/provision-code.png)
+   ![Имя клиента на странице регистрации.](../media/provision-code.png)
 
 ## <a name="sign-in-remotely"></a>Удаленный вход
 
@@ -118,7 +118,7 @@ ms.locfileid: "58632203"
 
 2. Следуйте инструкциям в **оке Вход пользователя**, а затем выберите **Закрыть**.
 
-   ![Окно "Вход в окно пользователя" для отдельного устройства](../media/sign-in-user.png)
+   ![Окно "Вход в окно пользователя" для отдельного устройства.](../media/sign-in-user.png)
 
 ## <a name="related-article"></a>Связанная статья
 

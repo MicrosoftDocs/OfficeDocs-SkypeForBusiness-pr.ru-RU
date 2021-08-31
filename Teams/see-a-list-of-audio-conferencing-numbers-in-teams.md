@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: Узнайте, как искать номера для аудиоконференций с телефонным Microsoft Teams.
-ms.openlocfilehash: 3e4e1c80d04cdb07b9d2d7ce993f4cab28de2155
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ccf10c9ce1a7869f271b781a9f772bffb00934d7
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58601114"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58734018"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-microsoft-teams"></a>Просмотр списка номеров для аудиоконференций в Microsoft Teams
 
@@ -35,7 +35,7 @@ ms.locfileid: "58601114"
   
  **Ищете цены?** См. [цены на аудиоконференцию.](https://products.office.com/skype-for-business/audio-conferencing#Requirements)
   
-Если в вашей организации доступен только один телефонный номер, он будет использоваться по умолчанию для всех пользователей. Если доступно несколько номеров телефонов, для каждого пользователя можно выбрать номер телефона по умолчанию. Этот номер по умолчанию будет включен в Microsoft Teams приглашений на собрания.
+Если в вашей организации доступен только один телефонный номер, он будет использоваться по умолчанию для всех пользователей. Если доступно несколько номеров телефонов, для каждого пользователя можно выбрать номер телефона по умолчанию. Этот номер по умолчанию будет включен Microsoft Teams приглашения на собрание.
   
 Чтобы изменить входящий номер одного пользователя, можно просмотреть статью [Установка телефонных номеров, включенных при приглашении](set-the-phone-numbers-included-on-invites-in-teams.md).
 
@@ -44,12 +44,12 @@ ms.locfileid: "58601114"
 
 ## <a name="to-view-your-audio-conferencing-phone-numbers"></a>Просмотр номеров телефона для аудиоконференций
 
-![Значок с логотипом Microsoft Teams](media/teams-logo-30x30.png) **Использование центра администрирования Microsoft Teams**
+![Значок с логотипом Microsoft Teams.](media/teams-logo-30x30.png) **С помощью Центра администрирования Microsoft Teams**
 
 1. На левой навигации перейдите к **мосту Конференц-связь**  >  **собраний**. 
 2. Просмотр номеров телефонов, доступных для аудиоконференций.
 
-- Вы также можете просмотреть расположение и основной язык, которые будет использовать автозаводщик аудиоконференция.
+- Вы также можете просмотреть расположение и основной язык, который будет использовать автозаводщик аудиоконференции.
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>Хотите узнать больше о Windows PowerShell?
 
@@ -57,7 +57,7 @@ Windows PowerShell is all about managing users and what users are allowed or not
     
   - [Шесть причин использовать Windows PowerShell для управления Office 365](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [Лучшие способы управления Microsoft 365 или Office 365 с помощью Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [Лучшие способы управления Microsoft 365 Office 365 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
 Дополнительные сведения о Windows PowerShell см. в [справочнике по Microsoft Teams PowerShell](/powershell/module/teams/?view=teams-ps).
   

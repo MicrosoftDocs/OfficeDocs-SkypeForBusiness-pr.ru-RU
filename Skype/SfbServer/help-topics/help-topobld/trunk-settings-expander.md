@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 3d00e8f4-e599-4094-a4a1-34fd6e8a5580
 description: Чтобы изменить параметры магистральной линии SIP, выполните следующие действия.
-ms.openlocfilehash: 64db5a170c09a1563797bba27f7c427f73af6a9b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: cdbd7a5fc1d49022516298923c61153d78679c0a
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58599090"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731518"
 ---
 # <a name="trunk-settings-expander"></a>Расширитель параметров магистральной линии связи
 
@@ -41,7 +41,7 @@ ms.locfileid: "58599090"
 
  **Связанный** порт сервера-посредника: необходимое значение, это значение задалось значению, которое настраивается для прослушивания сервера-посредника.
 
-![Расширитель параметров магистральной линии связи](../../media/Trunk_Settings_Expander.jpg)
+![Расширитель Параметры магистрали.](../../media/Trunk_Settings_Expander.jpg)
 
 ## <a name="see-also"></a>См. также
 

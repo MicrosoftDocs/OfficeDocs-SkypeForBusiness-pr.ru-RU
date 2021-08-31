@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 4ee527fa-ebec-40a9-a6bf-0cabd098aaa9
 description: 'Щелкните правой кнопкой мыши Магистрали в Topology Builder, чтобы выполнить следующее:'
-ms.openlocfilehash: 6c7d8802ae50b3bdea1a6b984e01e6b2db7d957d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d9fbd8b8eef0a06cc510808966af36a9c7566d50
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58592593"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731498"
 ---
 # <a name="trunks-scope-node"></a>Узел области магистральных линий связи
  
@@ -30,7 +30,7 @@ ms.locfileid: "58592593"
     
 Помимо создания новой магистральной линии связи, можно выполнить следующие задачи общего характера.
   
-![Узел области магистральных линий связи](../../media/Trunks_Scope_Node.jpg)
+![Узел области магистрали.](../../media/Trunks_Scope_Node.jpg)
   
 - **Топология**. С помощью этого параметра можно определить новую топологию, открыть существующую топологию, скачать текущую топологию, сохранить копию топологии, опубликовать топологию, установить базу данных, объединить компоненты из предыдущих версий или удалить развертывание.
     
