@@ -15,18 +15,18 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 087ca1f2-2329-4fa1-b6bb-685f2f4ba296
 description: Вы правой кнопкой мыши Office серверов веб-приложений и выберите сервер Office веб-приложений, чтобы открыть мастер.
-ms.openlocfilehash: b8e7c643c7b5566a11ea8f33e3c5a55489dc4720
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e882da0e748eea333e31dec29508d9e77b683790
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58595611"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730128"
 ---
 # <a name="office-web-apps-servers-scope-node"></a>Узел области серверов Office Web Apps
 
 Щелкните **правой кнопкой мыши Office серверов** веб-приложений и выберите сервер Office **веб-приложений** для открытия мастера.
 
-![Узел области OfficeWebApps Servers](../../media/OfficeWebApps_Servers_Scope_Node.jpg)
+![Узел области OfficeWebApps Servers.](../../media/OfficeWebApps_Servers_Scope_Node.jpg)
 
 - **Топология**. С помощью этого параметра можно определить новую топологию, открыть существующую топологию, скачать текущую топологию, сохранить копию топологии, опубликовать топологию, установить базу данных, объединить компоненты из предыдущих версий или удалить развертывание.
 

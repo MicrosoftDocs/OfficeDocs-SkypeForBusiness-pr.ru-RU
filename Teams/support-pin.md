@@ -13,12 +13,12 @@ search.appverid: MET150
 description: Узнайте, как найти ПИН-код поддержки.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b2c222b74a5fb539b3a492aac833070573775a08629025e3a23f71f8ff76905f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9f5acc34efa0d93d1a89edcdec9774fb21e1fb54
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54332411"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733188"
 ---
 # <a name="how-to-look-up-your-support-pin"></a>Как найти ПИН-код поддержки
 
@@ -30,7 +30,7 @@ ms.locfileid: "54332411"
 
 3. Пин-код поддержки будет отображаться в правой нижней области. При необходимости вы также можете повторно создать ПИН-код.  
 
-   ![Схема, показывающая ПИН-код поддержки](media/support-pin.png)
+   ![Схема, показывающая ПИН-код поддержки.](media/support-pin.png)
 
 
 

@@ -21,13 +21,13 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: Узнайте параметры длины и требований ПИН-кода и узнайте, как установить длительность собраний в Microsoft Teams.
-ms.openlocfilehash: 68297e437bdf0f3be9affa4d5e5518295dd05ab7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Узнайте параметры длины и требований ПИН-кода и узнайте, как установить продолжительность собраний в Microsoft Teams.
+ms.openlocfilehash: 7030849f59679ff63e71e6013757a1e455fa951d
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608786"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731958"
 ---
 # <a name="set-the-pin-length-for-audio-conferencing-meetings-in-microsoft-teams"></a>Установка длины ПИН-кода для собраний аудиоконференций в Microsoft Teams
 
@@ -40,7 +40,7 @@ ms.locfileid: "58608786"
   
 ## <a name="setting-the-pin-length"></a>Установка длины ПИН-кода
 
-![Значок с логотипом Microsoft Teams](media/teams-logo-30x30.png) **Использование центра администрирования Microsoft Teams**
+![Значок с логотипом Microsoft Teams.](media/teams-logo-30x30.png) **С помощью Центра администрирования Microsoft Teams**
 
 1. На панели навигации слева перейдите в раздел **Собрания** > **Мосты конференц-связи**. 
 

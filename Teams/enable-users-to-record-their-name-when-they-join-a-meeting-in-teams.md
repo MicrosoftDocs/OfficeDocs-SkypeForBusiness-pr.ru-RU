@@ -21,13 +21,13 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: Узнайте, как включить или отключить возможность записи имен пользователей при подступе к собранию в Microsoft Teams.
-ms.openlocfilehash: b670c6acb32902da56f76ad1cb2e1fd1a47edbf7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Узнайте, как включить или отключить возможность записи имен пользователями при подступе к собранию в Microsoft Teams.
+ms.openlocfilehash: fdf3f4dc973c199df7cacbe1f5399d21c5d6f170
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627581"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728198"
 ---
 # <a name="enable-users-to-record-their-name-when-they-join-a-meeting-in-microsoft-teams"></a>Предоставление пользователям возможности записи собственного имени при присоединении к собранию в Microsoft Teams
 
@@ -38,11 +38,11 @@ ms.locfileid: "58627581"
   
 ## <a name="set-whether-callers-should-record-their-name"></a>Настройка записи имени вызываемой
 
-![Значок с логотипом Microsoft Teams](media/teams-logo-30x30.png) **Использование центра администрирования Microsoft Teams**
+![Значок с логотипом Microsoft Teams.](media/teams-logo-30x30.png) **С помощью Центра администрирования Microsoft Teams**
 
 1. На панели навигации слева перейдите в раздел **Собрания** > **Мосты конференц-связи**. 
 
-2. В верхней части страницы **Мосты конференций** щелкните **Параметры моста**. 
+2. В верхней части страницы **Мосты** конференций щелкните **Параметры моста**. 
 
 3. Включить или отключить уведомления **о входе и выходе из собрания.**
 

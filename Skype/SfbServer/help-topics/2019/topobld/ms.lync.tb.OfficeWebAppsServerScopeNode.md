@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: f934e076-1022-40cd-8a4a-0b90ccf6f2a6
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Щелкните правой кнопкой мыши Office серверов веб-приложений в Topology Builder, чтобы выполнить следующее:'
-ms.openlocfilehash: 08ea9171b7bd1d3c9585c9c8a8a291ac7c504ef5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1993d208f9af37485736ce6d72b0a8fa246371a7
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58629861"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728278"
 ---
 # <a name="office-web-apps-server-scope-node-expander"></a>Расширитель узла области сервера Office Web Apps
  
@@ -30,7 +30,7 @@ ms.locfileid: "58629861"
     
 В дополнение к параметру New Office Web Apps Server можно выполнить следующие общие задачи:
   
-![Office Узел области webApps Server](../../../media/OfficeWebApps_Server_Scope_Node.jpg)
+![Office Узел области webApps Server.](../../../media/OfficeWebApps_Server_Scope_Node.jpg)
   
 - **Топология**. С помощью этого параметра можно определить новую топологию, открыть существующую топологию, скачать текущую топологию, сохранить копию топологии, опубликовать топологию, установить базу данных, объединить компоненты из предыдущих версий или удалить развертывание.
     

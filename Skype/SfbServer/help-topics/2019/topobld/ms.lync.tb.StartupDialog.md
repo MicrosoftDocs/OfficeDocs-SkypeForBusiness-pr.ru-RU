@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 8761008f-b239-4b95-bcd8-1011198dd070
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Вы начинаете Topology Builder для настройки свойств и конфигурации развертывания. При запуске Topology Builder отображает диалоговое окно с вопросом о том, каким будет источник документа топологии. На выбор предоставляются три варианта:'
-ms.openlocfilehash: 07747193ba46d3159693991a9d304cb0aaec57d3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9f50a5d69de9c22665585eb50dd19ab3b39a9c76
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58621445"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732348"
 ---
 # <a name="topology-builder-startup-dialog"></a>Диалоговое окно запуска построителя топологии
  
@@ -32,5 +32,5 @@ ms.locfileid: "58621445"
     
 - **Новая топология**. Выберите этот параметр, чтобы начать редактирования нового документа топологии. Этот параметр открывает новый документ топологии для настройки в соответствии с требованиями текущего развертывания.
     
-![Диалоговое окно запуска построителя топологии](../../../media/Topology_Builder_Startup_Dialog.jpg)
+![Диалоговое окно topology Builder Startup.](../../../media/Topology_Builder_Startup_Dialog.jpg)
   

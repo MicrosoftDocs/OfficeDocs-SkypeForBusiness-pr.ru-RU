@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.collection: ''
 description: Обзор использования автоспутника Cloud с Skype для бизнеса Server 2019 г.
-ms.openlocfilehash: 5d28618efc2b02240cdfe3e4c05945f9a6e4b575
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 19be069ac5f61c9fb2b81df76156e6752350073b
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58610176"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728444"
 ---
 # <a name="plan-cloud-auto-attendants"></a>Планирование автосекретарей в облаке
 
@@ -34,7 +34,7 @@ ms.locfileid: "58610176"
 
 Входящий вызов автоспутнику Cloud может занять один из нескольких путей, как показано здесь:
 
-![Схема для автоспутников](../../SfBServer2019/media/AA-plan-concept.png)
+![Схема для автоспутников.](../../SfBServer2019/media/AA-plan-concept.png)
 
 1. Via Skype для бизнеса Server 2019
 2. С помощью [пограничного контроллера сеанса](/MicrosoftTeams/direct-routing-border-controllers.md) [и прямого маршрутинга](/MicrosoftTeams/direct-routing-plan.md)

@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 26dff7d8-242a-4576-9870-d6d461758a37
 description: Сводка. Ознакомьтесь с этой темой, чтобы узнать, как развернуть конференцию в Skype для бизнеса Server.
-ms.openlocfilehash: 85aa9b28ddcc262ae65700e0b0425ebec3dd0d12
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: cded58690f7ecc8481f3f273e0eba5e5ef20f03a
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58599544"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730038"
 ---
 # <a name="deploy-conferencing-in-skype-for-business-server"></a>Развертывание конференций в Skype для бизнеса Server
 
@@ -65,7 +65,7 @@ ms.locfileid: "58599544"
 
 **Поток диалогов**
 
-![Развертывание диаграммы потока телефонных телефонных диалогов](../../media/95d2f963-7705-4930-90bc-df6a71a700bf.png)
+![Развертывание диаграммы потока диалогов.](../../media/95d2f963-7705-4930-90bc-df6a71a700bf.png)
 
 **Контрольный список развертывания диалогов**
 

@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7b9c211b-deb0-479d-b184-973f08b96d07
 description: Сводка. Просмотрите эти сценарии, чтобы помочь вам спланировать топологию edge Server в Skype для бизнеса Server.
-ms.openlocfilehash: 213081e5e232ff2d033c556fa9e037cdf813da3a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4035418426975b79a35be7ec84c6affac3ab92d5
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58622181"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732099"
 ---
 # <a name="edge-server-scenarios-in-skype-for-business-server"></a>Сценарии Edge Server в Skype для бизнеса Server
  
@@ -46,53 +46,53 @@ ms.locfileid: "58622181"
 
 В этом сценарии нет возможности для высокой доступности. Это означает, что вы тратите меньше средств на оборудование и имеете более простое развертывание. Если обязательным является высокая доступность, ознакомьтесь с нижеспроимными сценариями с масштабированными консолидированными данными.
   
-![Edge Scenario for Single Consolidated Edge with Private IP Using NAT](../../media/Plan_LyncServer_Edge_Scenario_SingleConsolidatedEdgePrivateIP.jpg)
+![Edge Scenario for Single Consolidated Edge with Private IP Using NAT.](../../media/Plan_LyncServer_Edge_Scenario_SingleConsolidatedEdgePrivateIP.jpg)
   
 ### <a name="port-diagram"></a>Схема порта
 
 У нас также есть схема для портов для единых консолидированных edge Servers.
   
-![Сетевой периметр для одного консолидированного края сценария edge](../../media/Plan_LyncServer_Edge_NetPerimeter_SingleConsolidatedEdge.jpg)
+![Периметр сети для одного консолидированного края сценария edge.](../../media/Plan_LyncServer_Edge_NetPerimeter_SingleConsolidatedEdge.jpg)
   
 ## <a name="single-consolidated-skype-for-business-server-edge-server-with-public-ip-addresses"></a>Единый консолидированный Skype для бизнеса Server Edge Server с общедоступными IP-адресами
 
 В этом сценарии нет возможности для высокой доступности. Это означает, что вы тратите меньше средств на оборудование и имеете более простое развертывание. Если обязательным является высокая доступность, ознакомьтесь с нижеспроимными сценариями с масштабированными консолидированными данными.
   
-![Сценарий edge для единого консолидированного края с общедоступным IP](../../media/Plan_LyncServer_Edge_Scenario_SingleConsolidatedEdgePublicIP.jpg)
+![Сценарий edge для единого консолидированного края с общедоступным IP.](../../media/Plan_LyncServer_Edge_Scenario_SingleConsolidatedEdgePublicIP.jpg)
   
 ### <a name="port-diagram"></a>Схема порта
 
 У нас также есть схема для портов для единых консолидированных edge Servers.
   
-![Сетевой периметр для одного консолидированного края сценария edge](../../media/Plan_LyncServer_Edge_NetPerimeter_SingleConsolidatedEdge.jpg)
+![Периметр сети для одного консолидированного края сценария edge.](../../media/Plan_LyncServer_Edge_NetPerimeter_SingleConsolidatedEdge.jpg)
   
 ## <a name="scaled-consolidated-skype-for-business-server-edge-pool-with-dns-load-balancing-and-private-ip-addresses-and-nat"></a>Масштабированная консолидированная Skype для бизнеса Server Edge с балансировки нагрузки DNS и частными IP-адресами и NAT
 
 При этом сценарии вы можете иметь высокую доступность в развертывании Edge, что дает вам преимущества масштабируемости и поддержки при сбойе.
   
-![Сценарий edge для масштабированного консолидированного края, DNS LB с частным IP с помощью NAT](../../media/Plan_LyncServer_Edge_Scenario_ScaledConsolidatedEdgeDNSLBPrivateIP.jpg)
+![Сценарий edge для масштабированного консолидированного края, DNS LB с закрытым IP с помощью NAT.](../../media/Plan_LyncServer_Edge_Scenario_ScaledConsolidatedEdgeDNSLBPrivateIP.jpg)
   
 ### <a name="port-diagram"></a>Схема порта
 
 У нас также есть схема для масштабированных консолидированных пулов Edge с балансировки нагрузки DNS.
   
-![Периметр сети для масштабированного консолидированного края сценария с помощью DNS LB](../../media/Plan_LyncServer_Edge_NetPerimeter_ScaledConsolidatedEdgeDNSLB.jpg)
+![Периметр сети для сценария edge Scaled Consolidated Edge с помощью DNS LB.](../../media/Plan_LyncServer_Edge_NetPerimeter_ScaledConsolidatedEdgeDNSLB.jpg)
   
 ## <a name="scaled-consolidated-skype-for-business-server-edge-pool-with-dns-load-balancing-and-public-ip-addresses"></a>Масштабированный консолидированный Skype для бизнеса Server Edge с балансировки нагрузки DNS и общедоступными IP-адресами
 
 При этом сценарии вы можете иметь высокую доступность в развертывании Edge, что дает вам преимущества масштабируемости и поддержки при сбойе.
   
-![Сценарий edge для масштабированного консолидированного края, DNS LB с общедоступным IP](../../media/Plan_LyncServer_Edge_Scenario_ScaledConsolidatedEdgeDNSLBPublicIP.jpg)
+![Сценарий edge для масштабированного консолидированного края, DNS LB с общедоступным IP.](../../media/Plan_LyncServer_Edge_Scenario_ScaledConsolidatedEdgeDNSLBPublicIP.jpg)
   
 ### <a name="port-diagram"></a>Схема порта
 
 У нас также есть схема для масштабированных консолидированных пулов Edge с балансировки нагрузки DNS.
   
-![Периметр сети для масштабированного консолидированного края сценария с помощью DNS LB](../../media/Plan_LyncServer_Edge_NetPerimeter_ScaledConsolidatedEdgeDNSLB.jpg)
+![Периметр сети для сценария edge Scaled Consolidated Edge с помощью DNS LB.](../../media/Plan_LyncServer_Edge_NetPerimeter_ScaledConsolidatedEdgeDNSLB.jpg)
   
 ## <a name="scaled-consolidated-skype-for-business-server-edge-pool-with-hardware-load-balancing"></a>Масштабированный консолидированный Skype для бизнеса Server Edge с балансировки аппаратной нагрузки
 
 При этом сценарии вы можете иметь высокую доступность в развертывании Edge, что дает вам преимущества масштабируемости и поддержки при сбойе.
   
-![Сценарий edge для масштабированного консолидированного края с HLB](../../media/Plan_LyncServer_Edge_Scenario_ScaledConsolidatedEdgeHLB.jpg)
+![Сценарий edge для масштабированного консолидированного края с HLB.](../../media/Plan_LyncServer_Edge_Scenario_ScaledConsolidatedEdgeHLB.jpg)
  

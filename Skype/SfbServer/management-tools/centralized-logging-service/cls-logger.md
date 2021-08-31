@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 1eaf8cdf-3dcd-4d6e-ae68-b6f6f9431ad8
 description: Сводка. Сведения об использовании регистратора централизованной службы ведения журнала (CLS) в Skype для бизнеса Server 2015 г.
-ms.openlocfilehash: d811fb1f331cb680f1c9645dec669bd7c81db192
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e35375dd1715f2d9b2e64cc42339af7247d098d4
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58628621"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730238"
 ---
 # <a name="cls-logger-for-skype-for-business-server-2015"></a>Журнал CLS для Skype для бизнеса Server 2015 г.
  
@@ -27,7 +27,7 @@ ms.locfileid: "58628621"
   
 Журнал CLS — это средство, которое помогает управлять журналами, созданными централизованной службой ведения журнала.
   
-## <a name="prerequisites"></a>Необходимые условия
+## <a name="prerequisites"></a>Предварительные требования
 
 Чтобы успешно использовать журнал CLS, необходимо убедиться в том, что следующие ниже факты верны:
   
@@ -71,7 +71,7 @@ ms.locfileid: "58628621"
     
 4. Пользовательский интерфейс будет включен снова после того, как сценарий будет остановлен, сведения о действии также будут показаны в области вывода команд PowerShell.
     
-![Запуск и остановка журнала CLS](../../media/2c4a36c2-b5db-4550-a3b3-41f18e0e2f0c.png)
+![Запуск и остановка регистратора CLS.](../../media/2c4a36c2-b5db-4550-a3b3-41f18e0e2f0c.png)
   
 ## <a name="search-for-logs"></a>Поиск журналов
 
@@ -109,7 +109,7 @@ ms.locfileid: "58628621"
 > 
 > **Пропустить журналы сети** Пропускает поиск любых сетевых журналов при проверке.
     
-![Журналы поиска журнала CLS](../../media/5793ea3c-6f5f-40ef-8b53-100da831eedf.png)
+![Журналы поиска журнала CLS.](../../media/5793ea3c-6f5f-40ef-8b53-100da831eedf.png)
   
 ## <a name="create-a-scenario"></a>Создание сценария
 
@@ -124,7 +124,7 @@ ms.locfileid: "58628621"
     
 ## <a name="modify-a-scenario"></a>Изменение сценария
 
-![Снимок экрана журнала CLS, редактирование сценариев](../../media/abbbcac0-8a2e-48af-a22f-4fee0283a29f.png)
+![Снимок экрана журнала CLS, редактирование сценариев.](../../media/abbbcac0-8a2e-48af-a22f-4fee0283a29f.png)
   
 1. На **вкладке Изменить сценарии** найдите нужный сценарий для изменения.
     

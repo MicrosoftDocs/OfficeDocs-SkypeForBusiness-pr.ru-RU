@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8b86740e-db95-4304-bb83-64d0cbb91d47
 description: Планирование маршрутизов на основе расположения для проведения Skype для бизнеса Server Корпоративная голосовая связь, в том числе для переноса консультативных вызовов.
-ms.openlocfilehash: e5f49dfcc798f4871ff9ecc1ed2fec1beacad8e7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: de074dae5e51156a0926956adcbc2260ed365d8f
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58629531"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733178"
 ---
 # <a name="location-based-routing-for-conferencing-in-skype-for-business-server"></a>Location-Based маршрутику для конференций в Skype для бизнеса Server
 
@@ -67,7 +67,7 @@ Location-Based маршрутизов позволяет ограничить м
 > [!NOTE]
 > При Skype для бизнеса накопительном обновлении 4 следует соблюдать поведение в следующей таблице:
 
-|User|Другая сторона|Действие|Результат|
+|User|Другая сторона|Action|Result|
 |:-----|:-----|:-----|:-----|
 |Skype для бизнеса Mobile  <br/> |ТСОП  <br/> |Skype для бизнеса Мобильный телефон находится в вызове PSTN. Skype для бизнеса Затем Mobile перенагнет вызов в конференц-автосекретарь (CAA).  <br/> |Вызов блокируется с соответствующим сообщением об ошибке.  <br/> |
 |Skype для бизнеса Mobile  <br/> |Skype для бизнеса Клиент или федераированный пользователь  <br/> |Клиент или федераированный пользователь находится на вызове VoIP для пользователя Skype для бизнеса мобильных Location-Based маршрутизатора, и любая сторона перерастает в ЦАА.  <br/> |Вызов эскалации блокируется с соответствующим сообщением об ошибке.  <br/> |
@@ -78,7 +78,7 @@ Location-Based маршрутизов позволяет ограничить м
 
 **Поток вызовов для переноса консультативных вызовов**
 
-![Маршрутия на основе расположения для схемы конференциации](../../media/LocationBasedRoutingForConferencing.jpg)
+![Маршрутивка на основе расположения для схемы конференциации.](../../media/LocationBasedRoutingForConferencing.jpg)
 
 Если пользователь включен для Location-Based маршрутинга инициирует перенос конечной точки PSTN (как показано на предыдущем рисунке), это создает два активных вызова, один вызов между пользователем PSTN и пользователем Skype для бизнеса A, а другой между пользователем Skype для бизнеса A и Skype для бизнеса пользователем B. Следующее поведение обеспечивается приложением Location-Based маршрутизов для приложения conferencing:
 
@@ -151,7 +151,7 @@ Get-CsServerApplication -Identity Service:Registrar:<Pool FQDN>
 New-CsServerApplication -Identity Service:Registrar:<Pool FQDN>/LBRouting -Priority <Application Priority> -Enabled $true -Critical $true -Uri <http://www.microsoft.com/LCS/LBRouting>
 ```
 
-Например,
+Например:
 
 ```powershell
 New-CsServerApplication -Identity Service:Registrar:LS2013CU2LBRPool.contoso.com/LBRouting -Priority 3 -Enabled $true -Critical $true -Uri http://www.microsoft.com/LCS/LBRouting

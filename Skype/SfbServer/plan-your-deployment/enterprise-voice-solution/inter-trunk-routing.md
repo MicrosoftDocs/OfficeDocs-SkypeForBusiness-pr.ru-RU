@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f687a548-1f2e-48ed-9745-a13dc1f3698f
 description: Узнайте, Skype для бизнеса Server Корпоративная голосовая связь поддерживает маршрутику между магистралью.
-ms.openlocfilehash: e7b70ead822f9e80abf5a85a741492ec5608e8b3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5a44f9e269985312e31d827254dd7bbfae10bcfd
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593583"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731818"
 ---
 # <a name="about-inter-trunk-routing-in-skype-for-business-server"></a>О маршрутике между магистралью в Skype для бизнеса Server
  
@@ -31,10 +31,10 @@ Skype для бизнеса Server обеспечивает базовое уп�
   
 На следующем рисунке Skype для бизнеса Server обеспечение взаимосвязи между шлюзом PSTN и IP-PBX.
   
-![Схема подключения Lync Server к шлюзу PSTN/IP-PBX](../../media/inter_trunk01.jpg)
+![Схема Lync Server, соединяющая шлюз PSTN/IP-PBX.](../../media/inter_trunk01.jpg)
   
 На следующем рисунке Skype для бизнеса Server подключение двух систем IP-PBX.
   
-![Схема подключения систем IP-PAX к серверу Lync Server](../../media/inter_trunk02.jpg)
+![Схема подключения систем IP-PAX к серверу Lync Server.](../../media/inter_trunk02.jpg)
   
 
