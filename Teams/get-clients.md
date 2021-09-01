@@ -19,12 +19,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c11ccbac11b546aa53e6d66625f12b12f86483b5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5975bfc6f0e93580ebdee3ce7f564efa9c380d99
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608966"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729958"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Работа с клиентами для Microsoft Teams
 
@@ -207,8 +207,8 @@ sudo zypper install teams
 
 | | | |
 |---|---|---|
-|![Значок, изображающий точку принятия решения](media/Get_clients_for_Microsoft_Teams_image4.png)|Точка принятия решений|Существуют ли ограничения, мешающие пользователям установить на своих устройствах подходящий клиент Microsoft Teams?|
-|![Значок, изображающий дальнейшие действия](media/Get_clients_for_Microsoft_Teams_image5.png)|Дальнейшие действия|Если ваша организация ограничивает установку программного обеспечения, убедитесь в совместимости данного механизма с Microsoft Teams. Примечание. Для установки клиента на Mac требуются права администратора, а на ПК — нет.|
+|![Значок, изображающий точку принятия решения.](media/Get_clients_for_Microsoft_Teams_image4.png)|Точка принятия решений|Существуют ли ограничения, мешающие пользователям установить на своих устройствах подходящий клиент Microsoft Teams?|
+|![Значок, изображающий дальнейшие действия.](media/Get_clients_for_Microsoft_Teams_image5.png)|Дальнейшие действия|Если ваша организация ограничивает установку программного обеспечения, убедитесь в совместимости данного механизма с Microsoft Teams. Примечание. Для установки клиента на Mac требуются права администратора, а на ПК — нет.|
 |
 
 ## <a name="client-update-management"></a>Управление обновлениями клиентов

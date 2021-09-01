@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e50c0c3b7051ec713fff72058a53bd261ab650c3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0237ff7d32a677eab1efd8b804b7dc00ca5e4184
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607696"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733438"
 ---
 # <a name="how-to-provision-teams-at-scale-for-frontline-workers"></a>Как подготовить Teams в масштабе для сотрудников без компьютеров
 
@@ -216,11 +216,11 @@ Connect-MicrosoftTeams -Credential $teams_cred
 1. В левой части панели администрирования Microsoft Teams перейдите в раздел  **Приложения Teams** > **Политики установки**.
 2. Нажмите  **Добавить**.  
 3. Введите имя и описание для политики. Например: политика настройки приложения для руководителя без компьютера.
-    :::image type="content" source="media/flw-flm-app-setup-policy.png" alt-text="Снимок экрана примера имени и описания политики настройки приложения для руководителя без компьютера":::
+    :::image type="content" source="media/flw-flm-app-setup-policy.png" alt-text="Снимок экрана примера имени и описания политики настройки приложения для руководителя без компьютера.":::
 
 4. Отключить **Загрузить пользовательские приложения**.
 5. Отключите **Разрешить закрепление пользователя**.
-    :::image type="content" source="media/flw-allow-user-pinning.png" alt-text="Снимок экрана параметра "Разрешить закрепление пользователей"":::
+    :::image type="content" source="media/flw-allow-user-pinning.png" alt-text="Снимок экрана параметра "Разрешить закрепление пользователей".":::
 
 6. Если его еще нет в списке, добавьте приложение **Смены**. Для получения дополнительной информации о приложении "Смены", нажмите [здесь](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md).
     :::image type="content" source="media/flw-add-pinned-apps.png" alt-text="Снимок экрана добавления закрепленных приложений с кнопкой "Добавить" для приложения "Смены"":::
@@ -234,7 +234,7 @@ Connect-MicrosoftTeams -Credential $teams_cred
     - Календарь
     - Смены
 
-    :::image type="content" source="media/flw-manager-pinned-apps.png" alt-text="Снимок экрана приложений для руководителей без компьютера, перечисленные по порядку":::
+    :::image type="content" source="media/flw-manager-pinned-apps.png" alt-text="Снимок экрана приложений для руководителей без компьютера, перечисленные по порядку.":::
 
 #### <a name="create-the-frontline-worker-app-setup-policy"></a>Создание политики настройки приложения для сотрудника без компьютера
 
@@ -243,11 +243,11 @@ Connect-MicrosoftTeams -Credential $teams_cred
 1. В левой части панели администрирования Microsoft Teams перейдите в раздел  **Приложения Teams** > **Политики установки**.
 2. Нажмите  **Добавить**.
 3. Введите имя и описание для политики. Например, политика настройки приложения для сотрудника без компьютера.
-    :::image type="content" source="media/flw-flw-app-setup-policy.png" alt-text="Снимок экрана примера имени и описания политики настройки приложения для сотрудника без компьютера":::
+    :::image type="content" source="media/flw-flw-app-setup-policy.png" alt-text="Снимок экрана примера имени и описания политики настройки приложения для сотрудника без компьютера.":::
 
 4. Отключить **Загрузить пользовательские приложения**.
 5. Отключите **Разрешить закрепление пользователя**.
-    :::image type="content" source="media/flw-allow-user-pinning.png" alt-text="Снимок экрана параметра "Разрешить закрепление пользователей"":::
+    :::image type="content" source="media/flw-allow-user-pinning.png" alt-text="Снимок экрана параметра "Разрешить закрепление пользователей".":::
 
 6. Если его еще нет в списке, добавьте приложение **Смены**. Для получения дополнительной информации о приложении "Смены", нажмите [здесь](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md).
 
@@ -260,7 +260,7 @@ Connect-MicrosoftTeams -Credential $teams_cred
     - Teams
     - Смены
 
-    :::image type="content" source="media/flw-worker-pinned-apps.png" alt-text="Снимок экрана приложений для сотрудников без компьютера, перечисленные по порядку":::
+    :::image type="content" source="media/flw-worker-pinned-apps.png" alt-text="Снимок экрана приложений для сотрудников без компьютера, перечисленные по порядку.":::
 
 ### <a name="create-teams-app-permission-policies"></a>Создание политик разрешений приложений для Teams
 
@@ -275,7 +275,7 @@ Connect-MicrosoftTeams -Credential $teams_cred
 1. В левой части панели администрирования Microsoft Teams перейдите к разделу  **приложения Teams** > **Политика разрешений**.
 2. Нажмите  **Добавить**.
 
-    :::image type="content" source="media/flw-add-app-permission-policy.png" alt-text="Снимок экрана страницы "Добавление политики разрешений приложения"":::
+    :::image type="content" source="media/flw-add-app-permission-policy.png" alt-text="Снимок экрана страницы "Добавление политики разрешений приложения".":::
 
 3. Введите имя и описание для политики. Например, политика разрешений приложения для руководителя без компьютера.
 4. В  **Microsoft Apps** выберите **Разрешить все приложения**.
@@ -290,7 +290,7 @@ Connect-MicrosoftTeams -Credential $teams_cred
 1. В левой части панели администрирования Microsoft Teams перейдите к разделу  **приложения Teams** > **Политика разрешений**.
 2. Нажмите  **Добавить**.
 
-    :::image type="content" source="media/flw-add-app-permission-policy.png" alt-text="Снимок экрана страницы "Добавление политики разрешений приложения"":::
+    :::image type="content" source="media/flw-add-app-permission-policy.png" alt-text="Снимок экрана страницы "Добавление политики разрешений приложения".":::
 
 3. Введите имя и описание для политики. Например, политика разрешений приложения для сотрудника без компьютера.
 4. В  **Microsoft Apps** выберите **Разрешить все приложения**.

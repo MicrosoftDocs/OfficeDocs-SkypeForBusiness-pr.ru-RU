@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
 description: Узнайте, как звонить, общаться в чатах и добавлять пользователей из-за пределов организации в Microsoft Teams с помощью внешнего доступа (федерации) и гостевого доступа.
-ms.openlocfilehash: b2a8b7a4fb7042596b5f96ab8ac59b65c5b2df58
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8b4665c17559f94152279e86a82bb44c3c73f016
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58582413"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729868"
 ---
 # <a name="use-guest-access-and-external-access-to-collaborate-with-people-outside-your-organization"></a>Использование гостевого и внешнего доступа для совместной работы с людьми из-за пределов организации
 
@@ -40,7 +40,7 @@ ms.locfileid: "58582413"
 
 По умолчанию внешний доступ включен для всех доменов. Вы можете ограничить внешний доступ, разрешив или заблокировав определенные домены либо отключив его.
 
-![Снимок экрана: параметры внешнего доступа](media/external-access-federation-settings.png)
+![Снимок экрана: параметры внешнего доступа.](media/external-access-federation-settings.png)
 
 Сведения о настройке внешнего доступа см. в статье [Управление внешним доступом](manage-external-access.md). 
 

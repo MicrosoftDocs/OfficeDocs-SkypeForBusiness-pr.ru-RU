@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3affebfebdfb34923fbdff37a71f652077d7aa7b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b6a8323c2d8dfd6023a9e27de9a6f0d47c87ae67
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596333"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730898"
 ---
 # <a name="microsoft-teams-deployment-overview"></a>Обзор развертывания Microsoft Teams
 
@@ -32,7 +32,7 @@ ms.locfileid: "58596333"
 
 Так как Teams поддерживает широкий спектр типов организаций и отправных точек, существует несколько возможных вариантов настройки. Чтобы вам было легче найти нужную информацию, мы разделили статьи на две группы в зависимости от аудитории: **Для малого бизнеса** (менее 50 пользователей) и **Для среднего или крупного бизнеса** (более 50 пользователей). При чтении статьи выбирайте вкладку аудитории, которая больше соответствует описанию вашей организации. Вот как выглядят вкладки:
 
-:::image type="content" source="media/small-large-tabs-example.png" alt-text="Пример, показывающий вкладки для малой и крупной аудитории, которые появляются в некоторых статьях":::
+:::image type="content" source="media/small-large-tabs-example.png" alt-text="Пример, показывающий вкладки для малой и крупной аудитории, которые появляются в некоторых статьях.":::
 
 Ниже приведен список разделов, которые можно выбрать в разделе **Начало работы**, и краткое описание каждого из них.
 

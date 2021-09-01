@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8edeb3180710dede90df8cd2bd5ba54c7f2996bd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 057ac60f2033336df024b8a26daa6dff963dafa7
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627071"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58734098"
 ---
 # <a name="manage-the-microsoft-teams-exploratory-license"></a>Управление лицензией на Microsoft Teams Exploratory
 
@@ -92,11 +92,11 @@ ms.locfileid: "58627071"
 
 1. В Центре администрирования Microsoft 365 выберите **Параметры** > **Параметры организации**, щелкните **Службы** и нажмите **Приложения и службы, лицензированные для отдельных пользователей**.
 
-    ![страница "Службы" в Центре администрирования](media/iw-trial-services.png)
+    ![страница "Службы" в Центре администрирования.](media/iw-trial-services.png)
 
 2. Снимите флажок **Разрешить пользователям устанавливать пробные версии приложений и служб**.
 
-    ![страница "Приложения и службы, лицензированные для отдельных пользователей" в Центре администрирования](media/iw-trial-user-owned-apps-services.png)
+    ![страница "Приложения и службы, лицензированные для отдельных пользователей" в Центре администрирования.](media/iw-trial-user-owned-apps-services.png)
 
     > [!NOTE]
     > Если ваша организация не имеет права на использование Teams Exploratory, параметр **Разрешить пользователям устанавливать пробные версии приложений и служб** будет отсутствовать.

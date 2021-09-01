@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 124908362a762a9940f87713dd4e699459443e85
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 041ae19360e5dfc1fbf3ff1158c7f7cfe6cdaaae
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630213"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729228"
 ---
 # <a name="get-started-with-microsoft-teams"></a>Начало работы с Microsoft Teams
 
@@ -43,7 +43,7 @@ ms.locfileid: "58630213"
 - [Собрания и конференции](deploy-meetings-microsoft-teams-landing-page.md)
 - [Голосовая связь в облаке](cloud-voice-landing-page.md)
 
-![Схема, иллюстрирующая пути развертывания Teams](media/get-started-with-teams-quick-start-pathways.png)
+![Схема, иллюстрирующая пути развертывания Teams.](media/get-started-with-teams-quick-start-pathways.png)
 
 Если у вас средняя или крупная организация, [используйте Помощник для Teams для развертывания Microsoft Teams](use-advisor-teams-roll-out.md), который поможет спланировать развертывание этих рабочих нагрузок в вашей организации. Помощник использует Teams, чтобы создавать задачи плана и назначать их владельцам, предоставлять общий доступ к документам и инициировать обсуждения между участниками команды развертывания.
 

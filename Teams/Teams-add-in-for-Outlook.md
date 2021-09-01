@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bb1898d5c172c6f0ebc4f56cf9059bbb5986077b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 493d31189c4136799075554343aaddd694922b30
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58586755"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728228"
 ---
 # <a name="use-the-teams-meeting-add-in-in-outlook"></a>Использование надстройки "Собрание Teams" в Outlook
 
@@ -34,7 +34,7 @@ ms.locfileid: "58586755"
 
 Надстройка "Собрание Teams" автоматически устанавливается для пользователей Windows, на компьютерах которых есть Microsoft Teams и Office 2013, Office 2016 либо Office 2019. Надстройка "Собрание Teams" отображается для пользователей на ленте календаря Outlook.
 
-![Снимок экрана с надстройкой "Собрание Teams" на ленте Outlook](media/Teams-add-in-for-Outlook.png)
+![Снимок экрана с надстройкой "Собрание Teams" на ленте Outlook.](media/Teams-add-in-for-Outlook.png)
 
 > [!NOTE]
 > - **Нет прямого URL-адреса**, ссылающегося на надстройку Teams.
@@ -53,7 +53,7 @@ ms.locfileid: "58586755"
 
 Кнопка собраний Teams в Outlook Web App будет отображаться в процессе создания события, если пользователь работает в более ранней версии Outlook в Интернете. Сведения об использовании более ранних версий Outlook в Интернете см. в [блоге, посвященном Outlook](https://techcommunity.microsoft.com/t5/Outlook-Blog/Designed-to-be-fast-The-Outlook-on-the-web-user-experience-gets/ba-p/234909?utm_source=t.co&utm_medium=referral).
 
-![Снимок экрана с надстройкой "Собрание Teams" в Outlook Web App](media/teams-meeting-add-in-web.png)
+![Снимок экрана с надстройкой "Собрание Teams" в Outlook Web App.](media/teams-meeting-add-in-web.png)
 
 Координаты собрания (ссылка на присоединение к Teams и номера для телефонного подключения) будут добавлены в приглашение на собрание после нажатия кнопки **Отправить**.  
 
@@ -61,7 +61,7 @@ ms.locfileid: "58586755"
 
 Кнопка "Собрание Teams" отображается в последних сборках приложений Outlook для iOS и Android.
 
-![Снимок экрана с надстройкой "Собрание Teams" в Outlook Mobile](media/teams-meeting-add-in-mobile.png)
+![Снимок экрана с надстройкой "Собрание Teams" в Outlook Mobile.](media/teams-meeting-add-in-mobile.png)
 
 Координаты собрания (ссылка на присоединение к Teams и номера для телефонного подключения) будут добавлены в приглашение на собрание после нажатия кнопки **Отправить**.  
 

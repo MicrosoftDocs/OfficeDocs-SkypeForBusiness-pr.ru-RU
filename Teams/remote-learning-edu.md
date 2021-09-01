@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 04c96412e93029858c5444d662e7db3e65224a21
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1e6bd14eabadc96084973d3e998291a577dbbfc7
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58578353"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729818"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>Начните с Microsoft Teams для дистанционного обучения
 
@@ -158,7 +158,7 @@ SDS создает команды за два этапа. На первом эт
 
 Такой гибридный подход позволяет создать группы для каждого класса (рекомендуется) в SDS или сделать это самостоятельно с помощью [API Graph](/graph/api/educationroot-post-classes). После подготовки групп классов преподаватель может преобразовать свои группы в команды с помощью значка **Рекомендуемые классы**.
 
-:::image type="content" source="media/class-teams-edu-suggested-classes.png" alt-text="Снимок экрана со значком "Рекомендуемые классы"":::
+:::image type="content" source="media/class-teams-edu-suggested-classes.png" alt-text="Снимок экрана со значком "Рекомендуемые классы".":::
 
 ##### <a name="benefits"></a>Преимущества
 

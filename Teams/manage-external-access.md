@@ -21,12 +21,12 @@ description: Ваши Teams или ИТ-администратор могут н
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 255b714980db3ac63e9251c8db7af243d91dc72d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2739f1b7f97e39617471ecf292ecf9424a7ac396
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58610308"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726868"
 ---
 # <a name="manage-external-access-in-microsoft-teams"></a>Управление внешним доступом в Microsoft Teams
 
@@ -70,13 +70,13 @@ ms.locfileid: "58610308"
 
 ### <a name="step-1---enable-your-organization-to-communicate-with-another-teams-or-skype-for-business-organizations"></a>Шаг 1. Включите для своей организации возможность общаться с другими организациями в Teams или Skype для бизнеса
 
-![Значок с логотипом Microsoft Teams](media/teams-logo-30x30.png) **Использование центра администрирования Microsoft Teams**
+![Значок с логотипом Microsoft Teams.](media/teams-logo-30x30.png) **Использование центра администрирования Microsoft Teams**
 
 1. В области навигации слева выберите **Параметры на уровне организации** > **Внешний доступ**.
 
 2. Включите параметр **пользователи могут общаться с другими пользователями Skype для бизнеса и Рабочей группы**.
 
-     ![Снимок экрана: пользователи могут общаться с другими пользователями Skype для бизнеса и Teams, которые включены](media/manage-external-access-2.png).
+     ![Снимок экрана: пользователи могут общаться с другими пользователями Skype для бизнеса и Teams, которые включены.](media/manage-external-access-2.png).
 
 3. Если вы хотите, чтобы все организации Teams могли взаимодействовать с пользователями в вашей организации, перейдите к шагу 5.
 
@@ -109,13 +109,13 @@ ms.locfileid: "58610308"
 
 Выполните следующие действия, чтобы пользователи Teams в вашей организации общались и общались с пользователями Skype. Пользователи Teams  могут затем искать и начинать индивидуальную текстовую беседу или аудио- / видео вызов с пользователями Skype и наоборот.
 
-![Значок с логотипом Microsoft Teams](media/teams-logo-30x30.png) **Использование центра администрирования Microsoft Teams**
+![Значок с логотипом Microsoft Teams.](media/teams-logo-30x30.png) **Использование центра администрирования Microsoft Teams**
 
 1. В области навигации слева выберите **Параметры на уровне организации** > **Внешний доступ**.
 
 2. Включите параметр **пользователи могут общаться с пользователями Skype**.
 
-    ![Снимок экрана: пользователи могут общаться с включенной настройкой Skype](media/manage-external-access-5.png).
+    ![Снимок экрана: пользователи могут общаться с включенной настройкой Skype.](media/manage-external-access-5.png).
 
 Чтобы узнать больше о способах взаимодействия пользователей Команд и пользователей Skype, в том числе о применяемых ограничениях, см. [Совместимость Teams и Skype](teams-skype-interop.md).
 

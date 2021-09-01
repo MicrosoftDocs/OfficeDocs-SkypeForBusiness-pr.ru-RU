@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 577060d46bea2196c17a42d82827bdcad7062285
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 89f31f586fc7b3839dd5820089528f91dfad7e93
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58632043"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733846"
 ---
 # <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Управление командами в Центре администрирования Microsoft Teams
 
@@ -45,7 +45,7 @@ ms.locfileid: "58632043"
 
 Средства управления командами находятся в узле **Команды** в Центре администрирования Microsoft Teams. (В Центре администрирования выберите **Команды** > **Управление командами**.)  Группа Microsoft 365 осуществляет резервное копирование каждой команды. В этом узле представлены все группы, которые включены в Microsoft Teams в вашей организации.
 
-![Снимок экрана: сетка обзора Teams](media/manage-teams-in-modern-portal-grid.png)  
+![Снимок экрана: сетка обзора Teams.](media/manage-teams-in-modern-portal-grid.png)  
 
 Сетка содержит следующие свойства:
 
@@ -94,7 +94,7 @@ ms.locfileid: "58632043"
 - Добавить или удалить каналы (обратите внимание, что канал "Общий" удалить нельзя).
 - Изменить параметры команды и группы.
  
-![Снимок экрана: пример профиля команды](media/manage-teams-in-modern-portal-team-profile-page.png)
+![Снимок экрана: пример профиля команды.](media/manage-teams-in-modern-portal-team-profile-page.png)
 
 ## <a name="making-changes-to-teams"></a>Внесение изменений в команды
 

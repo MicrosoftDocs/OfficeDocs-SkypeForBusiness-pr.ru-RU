@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b760d5fad3a694fd0dd41c34116d09297d25dd22
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6002534362126c2cc16954c7e82c865166776c0b
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58579583"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731948"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Обзор команд и каналов в Microsoft Teams
 
@@ -92,7 +92,7 @@ ms.locfileid: "58579583"
 
 Teams отлично способствует упорядочению работы организации и внедрению кросс-функциональных команд, и именно это представление о продукте нужно донести до конечных пользователей.
 
-|Типы команд  |Возможные каналы  |Приложения (вкладки ![Значок в виде папки с вкладкой](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image2.png), соединители ![Значок в виде соединительных блоков](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image3.png), боты ![Значок в виде небольшого робота](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image4.png))  |
+|Типы команд  |Возможные каналы  |Приложения (вкладки ![Значок в виде папки с вкладкой.](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image2.png), соединители ![Значок в виде соединительных блоков](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image3.png), боты ![Значок в виде небольшого робота](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image4.png))  |
 |---------|---------|---------|
 |Продажи     |Ежегодное собрание по продажам<br></br> Квартальный обзор коммерческой деятельности<br></br> Ежемесячный обзор воронки продаж<br></br> Стратегия продаж |Power BI<br></br>Trello<br></br>CRM<br></br>Summarize Bot         |
 |Связи с общественностью     |Пресс-релизы<br></br>Новости и обновления<br></br>Проверка на достоверность         |RSS-канал<br></br>Twitter         |

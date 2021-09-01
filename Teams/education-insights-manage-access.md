@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ae8cfa1ea62472255825684d2e168be1411bb643
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 314e393b3faf0d5b74d25f3a545277dbba64c566
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604538"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730688"
 ---
 # <a name="manage-user-access-to-education-insights"></a>Управление доступом пользователей к Education Insights
 
@@ -41,7 +41,7 @@ ms.locfileid: "58604538"
 
 * Откройте приложение Insights, нажмите **Настройки** и выберите **Разрешения пользователей**.
 
-:::image type="content" source="media/insights-user-permissions.png" alt-text="Настройки":::
+:::image type="content" source="media/insights-user-permissions.png" alt-text="Параметры.":::
 
 > [!NOTE]
 > Когда вы предоставляете разрешение для уровня организации, пользователь может увидеть ниже все подразделения организации.
@@ -62,14 +62,14 @@ ms.locfileid: "58604538"
 
   Вы увидите список ролей в вашей образовательной организации, уровень иерархии каждой их них, количество пользователей, назначенных на роль, и уровень разрешений для каждой роли. 
   
-  :::image type="content" source="media/insights-role-based-permissions.png" alt-text="Разрешения на основе ролей":::
+  :::image type="content" source="media/insights-role-based-permissions.png" alt-text="Разрешения на основе ролей.":::
   
   Если роль имеется на нескольких уровнях организации, она отображается несколько раз: по одному для каждого уровня. На снимке экрана мы видим, что у нас есть роль "директор" на уровне учебного заведения и на уровне района, поэтому есть две строки с этой ролью.
   
 * Чтобы выбрать уровень разрешений для каждой роли, щелкните значок с карандашом. По умолчанию для ролей нет разрешений на просмотр Insights для образования.
 * Выберите уровень разрешений — **Просмотр данных организации** или **Нет**.
 
-  :::image type="content" source="media/insights-role-based-permissions-panel.png" alt-text="Разрешения на основе ролей":::
+  :::image type="content" source="media/insights-role-based-permissions-panel.png" alt-text="Панель разрешений на основе ролей.":::
   
   Если в списке есть пользователь, которому требуется более тонкий уровень разрешений, настройте его роль и /или организацию в [bмпортированных данных из SIS](education-insights-sis-data-sync.md) и [предоставить им отдельные разрешения](#grant-individual-permission-to-a-user) (при необходимости).
 
@@ -86,7 +86,7 @@ ms.locfileid: "58604538"
   
   Вы увидите пользователей в вашей образовательной организации, которым предоставлены отдельные разрешения. 
   
-  :::image type="content" source="media/insights-individual-permissions.png" alt-text="Отдельные разрешения":::
+  :::image type="content" source="media/insights-individual-permissions.png" alt-text="Отдельные разрешения.":::
   
 ### <a name="grant-individual-permission-to-a-user"></a>Предоставление пользователю отдельных разрешений
 * Щелкните **"Предоставить отдельное разрешение"** в верхней части экрана слева.
@@ -103,6 +103,6 @@ ms.locfileid: "58604538"
   * **"Определенная организация"** означает, что пользователь видит выбранное подразделение организации и все подразделения на уровнях ниже. Начните ввод текста и выберите подразделение организации из списка.
   * **Нет** означает, что пользователи видят только автоматически назначенные их ролями подразделения организации (если такие имеются).
   
-  :::image type="content" source="media/insights-individual-permissions-panel.png" alt-text="Панель отдельных разрешений":::
+  :::image type="content" source="media/insights-individual-permissions-panel.png" alt-text="Панель отдельных разрешений.":::
 
 * Нажмите кнопку **"Сохранить изменения"**.

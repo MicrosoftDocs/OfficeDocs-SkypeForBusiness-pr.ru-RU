@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6d0800fb4d3f596abaad82a2714d8daaa0234337
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 368c2ea6b3d937bbd126eb056bf4e2db4163f31f
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631963"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730108"
 ---
 # <a name="it-admin-guide-to-reflect-in-microsoft-teams"></a>Руководство для ИТ-администраторов по Reflect в Microsoft Teams
 
@@ -65,11 +65,11 @@ Reflect отвечает тем же стандартам конфиденциа
 ## <a name="where-do-educators-find-reflect"></a>Где преподаватели берут Reflect?
 После включения Reflect преподаватели могут перейти в класс и выбрать **Новая беседа**. Затем нужно выбрать **...**, чтобы появились доступные расширения для обмена сообщениями, и ввести **Reflect** в панели поиска. Диалоговое окно предоставляет пошаговые инструкции, помогающие сформулировать вопрос и определить, кто из пользователей что может увидеть.
 
-:::image type="content" source="media/reflect-add-app.png" alt-text="Добавить Reflect в команду класса":::
+:::image type="content" source="media/reflect-add-app.png" alt-text="Добавление Reflect в команду класса.":::
 
 Пользователи могут щелкнуть правой кнопкой мыши значок Reflect и выбрать **Закрепить** для удобства доступа.
 
-:::image type="content" source="media/reflect-pin-app.png" alt-text="Закрепление приложения Reflect":::
+:::image type="content" source="media/reflect-pin-app.png" alt-text="Закрепление приложения Reflect.":::
 
 > [!TIP]
 > Приложение Reflect можно также найти по этой ссылке: [https://aka.ms/getReflect](https://aka.ms/getReflect)

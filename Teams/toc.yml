@@ -665,7 +665,7 @@ items:
             href: deploy-audio-conferencing-teams-landing-page.md
           - name: Аудиоконференции в Microsoft 365
             href: audio-conferencing-in-office-365.md
-          - name: 'Открытая предварительная версия: конференц-связь по сети для аудиоконференций'
+          - name: Конференц-связь по сети для аудиоконференций
             href: audio-conferencing-on-network.md
           - name: Общие вопросы об аудиоконференциях
             href: audio-conferencing-common-questions.md

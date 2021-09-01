@@ -17,18 +17,18 @@ description: Получите отчет об участии в собрании
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: 233a76bf8c3ae2d3cd71aeddd487f606dcdbaea6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 93aad3cdee1c3819ee0d524a8538608dbeba1b0c
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58592193"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726378"
 ---
 # <a name="microsoft-teams-meeting-attendance-report"></a>Отчет об участии в собрании Microsoft Teams
 
 Организаторы собраний могут просмотреть и скачать отчет об участии в собрании. Найдите этот отчет в области **Участники** собрания, щелкнув стрелку скачивания, как показано ниже. Вы можете скачать отчет в виде CSV-файла (текстовый формат).
 
-:::image type="content" source="../media/meetings-attendance-download.JPG" alt-text="Управление скачиванием отчетов об участии в собраниях в Microsoft Teams":::
+:::image type="content" source="../media/meetings-attendance-download.JPG" alt-text="Управление скачиванием отчетов об участии в собраниях в Microsoft Teams.":::
 
 Этот отчет удобно использовать в клиентах для образования, чтобы отслеживать участие учащихся в онлайн-занятиях. Например, преподаватель может скачать отчет об участии в начале урока в качестве простого способа "переклички". Дополнительные сведения см. в статье [Скачивание отчетов об участии в Teams](https://support.office.com/article/download-attendance-reports-in-teams-ae7cf170-530c-47d3-84c1-3aedac74d310).
 
