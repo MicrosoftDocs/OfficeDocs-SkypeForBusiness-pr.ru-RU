@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Поиск и управление обновлениями Skype для бизнеса Server 2015/2019 и Lync 2013 в одном месте. Чтобы узнать больше об обновлениях и скачать их, воспользуйтесь ссылками на этой странице.
-ms.openlocfilehash: aa9ae8c2b3b28790028635a9604687995549e6eb
-ms.sourcegitcommit: 22328f851153f3768175321b8b128a672d6adc50
+ms.openlocfilehash: fcdd7212cf7a3f612434594d028b2e7be104af36
+ms.sourcegitcommit: 5a4108219dd1b77468b3ef4aff0500cd19473fa5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "58807452"
+ms.lasthandoff: 09/01/2021
+ms.locfileid: "58852047"
 ---
 # <a name="skype-for-business-server-updates"></a>Обновления Skype для бизнеса Server
 
@@ -32,6 +32,8 @@ KB 4470124 является мастером КБ для Skype для бизне
 
 |Название пакета|Номер статьи в базе знаний|Дата выпуска|
 |:--- |:--- |:--- |
+|Skype для бизнеса Server 2019 Накопительное обновление 5 |[KB 4470124 (MACP3)](https://support.microsoft.com/kb/4470124)| Март 2021 г. |
+|Skype для бизнеса Server 2019 Накопительное обновление 4 Hotfix 1 |[KB 4470124](https://support.microsoft.com/kb/4470124)| Ноябрь 2020 г. |
 |Skype для бизнеса Server 2019 Накопительное обновление 4 |[KB 4470124](https://support.microsoft.com/kb/4470124)| Сентябрь 2020 г. |
 |Skype для бизнеса Server 2019 Накопительное обновление 3 Hotfix 1 |[KB 4470124](https://support.microsoft.com/kb/4470124)| Июль 2020 г. |
 |Skype для бизнеса Server 2019 Накопительное обновление 3 |[KB 4470124](https://support.microsoft.com/kb/4470124)| Март 2020 г. |
@@ -57,6 +59,7 @@ KB 4470124 является мастером КБ для Skype для бизне
 |Название пакета|Номер статьи в базе знаний|Дата выпуска|
 |:--- |:--- |:--- |
 |Skype для бизнеса Server 2015 Накопительное обновление 12|[KB 3061064](https://support.microsoft.com/kb/3061064)| Август 2021 г. |
+|Skype для бизнеса Server 2015 Накопительное обновление 11 Hotfix 2|[KB 3061064](https://support.microsoft.com/kb/3061064)| Ноябрь 2020 г. |
 |Skype для бизнеса Server 2015 Накопительное обновление 11 Hotfix 1|[KB 3061064](https://support.microsoft.com/kb/3061064)| Июль 2020 г. |
 |Skype для бизнеса Server 2015 Накопительное обновление 11|[KB 3061064](https://support.microsoft.com/kb/3061064)| 13 мая 2020 г. |
 |Skype для бизнеса Server 2015 Накопительное обновление 10 Hotfix 1|[KB 3061064](https://support.microsoft.com/kb/3061064)| Август 2019 г. |
