@@ -13,22 +13,22 @@ f1.keywords:
 description: Обзор интегрированного центра контактов как решения для службы (CCaaS) для Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ec4dc5dceccaa515223d3a53255258e190da8788
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: eea312f8943e05b870f7e72409e551869c950c4e
+ms.sourcegitcommit: e5e6c6c99296db8005451bcb08d727469f0ac984
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58606938"
+ms.lasthandoff: 09/02/2021
+ms.locfileid: "58864209"
 ---
-# <a name="contact-center-integrations-for-microsoft-teams"></a>Интеграция центра контактов с Microsoft Teams
+# <a name="contact-center-integrations-for-microsoft-teams"></a>Интеграция центра контактов для Microsoft Teams
 
-  В этой статье представлен обзор интеграции решений Центра контактов с Microsoft Teams и поставщиками решений, участвующими в программе сертификации Microsoft Teams Подключенные контакты Центра контактов.
+  В этой статье представлен обзор интеграции решений Центра контактов с Microsoft Teams и поставщиками решений, участвующими в программе сертификации Microsoft Teams подключенных к центру контактов.
 
 ## <a name="what-is-contact-center-integration-for-microsoft-teams"></a>Интеграция центра контактов с Microsoft Teams
 
-Microsoft Teams поддерживает потоки взаимодействия с клиентом, выступая в качестве центра для внутреннего и внешнего взаимодействия с клиентами в различных режимах общения, включая чат, видеособрации и вызовы. В некоторых организациях Microsoft Teams [возможности](./cloud-voice-landing-page.md)облачного голосового [](./what-are-phone-system-auto-attendants.md) звонка, в том числе автозавод и очереди вызовов, [](./create-a-phone-system-call-queue.md)отвечают их требованиям.
+Microsoft Teams поддерживает потоки взаимодействия с клиентом, выступая в качестве центра для внутреннего и внешнего взаимодействия с клиентами в различных режимах общения, включая чат, видеособрации и вызовы. В некоторых организациях Microsoft Teams [возможности](./cloud-voice-landing-page.md)облачного голосового звонка, в том числе автозаводщика и очереди вызовов, отвечают их требованиям. [](./what-are-phone-system-auto-attendants.md) [](./create-a-phone-system-call-queue.md)
 
-Для организаций, которым нужны решения с бизнес-инструментами и процессами для развития клиентов, интеграция центра контактов с Microsoft Teams позволяет поставщикам решений Центра контактов (CCaaS) интегрировать свои решения в Teams.
+Для организаций, которым нужны решения с бизнес-инструментами и процессами для развития клиентов, интеграция центра контактов с Microsoft Teams позволяет поставщикам решений Центра контактов (CCaaS) интегрировать их в Teams.
 
 
 ## <a name="connected-contact-center-for-microsoft-teams-certification-program"></a>Подключенный центр контактов для Microsoft Teams сертификации
@@ -57,6 +57,7 @@ Microsoft Teams поддерживает потоки взаимодействи
 | `ComputerTalk` | https://www.computer-talk.com/product/enterprise-contact-center/ice-contact-center-for-teams         |
 | `Content Guru` | https://www.contentguru.com/microsoft-teams-integration/    |
 | `Enghouse Interactive` | http://www.enghouseteams.com/         |
+| `Five9` | https://www.five9.com/products/application-integration/uc-integration                                                   |
 | `Genesys` | https://www.genesys.com/campaign/get-started-genesys-cloud-microsoft-teams                                      |
 | `NICE inContact` | https://www.niceincontact.com/microsoft-teams                                                            |
 
@@ -67,7 +68,6 @@ Microsoft Teams поддерживает потоки взаимодействи
 | `Competella` | https://www.competella.com/microsoft-teams-skype-for-business                                  |
 | `ContactCenter4All` | www.contactcenter4all.com |
 | `Cirrus` | https://www.cirrusresponse.com/cloud-contact-centre/microsoft-teams/ |
-| `Five9` | https://www.five9.com/products/application-integration/uc-integration                                                   |
 | `FrontStage` | https://www.frontstage.cc                                                                                        |
 | `Geomant` | https://www.geomant.com/buzzeasy-contact-centre-for-microsoft-teams                                                  |
 | `Intermedia` | https://www.intermedia.com/products/contact-center                          |
