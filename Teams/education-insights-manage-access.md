@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 314e393b3faf0d5b74d25f3a545277dbba64c566
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: b69f885eee0b96b87b5f22d04abbd16d0389b904
+ms.sourcegitcommit: e5e6c6c99296db8005451bcb08d727469f0ac984
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730688"
+ms.lasthandoff: 09/02/2021
+ms.locfileid: "58864199"
 ---
 # <a name="manage-user-access-to-education-insights"></a>Управление доступом пользователей к Education Insights
 
@@ -64,7 +64,7 @@ ms.locfileid: "58730688"
   
   :::image type="content" source="media/insights-role-based-permissions.png" alt-text="Разрешения на основе ролей.":::
   
-  Если роль имеется на нескольких уровнях организации, она отображается несколько раз: по одному для каждого уровня. На снимке экрана мы видим, что у нас есть роль "директор" на уровне учебного заведения и на уровне района, поэтому есть две строки с этой ролью.
+  Если роль имеется на нескольких уровнях организации, она отображается несколько раз: по одному для каждого уровня. На снимке экрана мы видим, что у нас есть роль "директор" на уровне учебного заведения, района и отдела, поэтому есть три строки с этой ролью.
   
 * Чтобы выбрать уровень разрешений для каждой роли, щелкните значок с карандашом. По умолчанию для ролей нет разрешений на просмотр Insights для образования.
 * Выберите уровень разрешений — **Просмотр данных организации** или **Нет**.
