@@ -19,12 +19,12 @@ description: Практическое руководство по разверт
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4f88345045a24fc664458e3c67eb71243a663287
-ms.sourcegitcommit: 8ea133b6ac867496930efb933e84531e5617fb37
+ms.openlocfilehash: 333afdd88313a34b7331617220fa335237a8fbbb
+ms.sourcegitcommit: 1c2364fbefd95151f0847a35e8bc7c4c1b3892f5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "58924083"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "58935885"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Запись облачного собрания в Teams
 
@@ -263,7 +263,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 > 
 > Мы предоставляем сведения о том, как эта функция будет работать в БУДУЩЕМ, чтобы вы могли заранее спланировать это изменение и изменить параметры политики Teams. 
 >
-> Команду для предварительного изменения параметра MeetingExpirationDays в Teams пока невозможно задать.  Когда этот параметр будет доступен для настройки, мы опубликуем обновленную запись в Центре сообщений.
+> Команда для предварительного изменения параметра срока действия по умолчанию в Teams пока недоступна.  Когда этот параметр будет доступен для настройки, мы опубликуем обновленную запись в Центре сообщений.
 >
 >
 
