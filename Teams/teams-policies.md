@@ -1,7 +1,7 @@
 ---
-title: Управление политиками команд в Microsoft Teams
-author: cichur
-ms.author: v-cichur
+title: Управление политиками каналов в Microsoft Teams
+author: MikePlumleyMSFT
+ms.author: mikeplum
 manager: serdars
 ms.reviewer: jastark
 ms.topic: article
@@ -23,17 +23,17 @@ ms.custom:
 - ms.teamsadmincenter.teamsandchannelpolicies.overview
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discover
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.create
-description: Узнайте, как использовать политики команд в организации и управлять ими, чтобы контролировать то, что пользователи могут делать в командах и каналах.
-ms.openlocfilehash: 92b49a31a4ae8cdedb9243293547c42699fed919
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+description: Узнайте, как использовать политики каналов teams в организации и управлять ими, чтобы контролировать то, что пользователи могут делать в командах и каналах.
+ms.openlocfilehash: 727bb8b133d5119cd396c79561dde453281206f0
+ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58725498"
+ms.lasthandoff: 09/17/2021
+ms.locfileid: "59432271"
 ---
-# <a name="manage-teams-policies-in-microsoft-teams"></a>Управление политиками команд в Microsoft Teams
+# <a name="manage-channel-policies-in-microsoft-teams"></a>Управление политиками каналов в Microsoft Teams
 
-Как администратор вы можете использовать политики teams в Microsoft Teams для управления тем, что пользователи в организации могут делать в командах и каналах. Например, вы можете разрешить пользователям создавать частные каналы.
+Как администратор вы можете использовать политики команд в Microsoft Teams управлять тем, что пользователи в вашей организации могут делать в командах и каналах. Например, вы можете разрешить пользователям создавать частные каналы.
 
 Вы управляете политиками команд, **Teams**  >  **Teams политики** в Microsoft Teams администрирования. Вы можете использовать глобальную (по умолчанию в пределах организации) политику или создавать и присваивать настраиваемые политики. Пользователи вашей организации автоматически получают глобальную политику, если вы не создали и не назначили настраиваемую политику.
 
@@ -52,7 +52,7 @@ ms.locfileid: "58725498"
 
 ## <a name="edit-a-teams-policy"></a>Изменение политики teams
 
-Вы можете редактировать глобальную политику или любые настраиваемые политики, которые вы создаете.
+Вы можете изменить глобальную политику или любые настраиваемые политики, которые вы создаете.
 
 1. В левой области навигации Центра Microsoft Teams администрирования перейдите к **Teams**  >  **Teams политики**.
 2. Выберите политику, щелкнув слева от ее имени, а затем нажмите **Изменить**.
@@ -66,7 +66,7 @@ ms.locfileid: "58725498"
 
 [Управление Teams подключенными сайтами и сайтами каналов](/SharePoint/teams-connected-sites)
 
-[Закрытые каналы в Teams](private-channels.md)
+[Частные каналы в Teams](private-channels.md)
 
 [Назначение политик пользователям в Teams](assign-policies.md)
 

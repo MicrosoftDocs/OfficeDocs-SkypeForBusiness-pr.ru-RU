@@ -15,16 +15,16 @@ ms.collection:
 - M365-collaboration
 description: Узнайте о требованиях к поддержке Комнаты Microsoft Teams, включая выбор соответствующего устройства, микрофонов, динамиков, камер и дисплеев.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 608a5f2c7a7b696e24c43dfd65add8381060b7d6
-ms.sourcegitcommit: 69a5d4994ef75b9c16efa99554fb7f2ee1ccf52a
+ms.openlocfilehash: 910b36c0657e167f2581fc8b00ca4341a2e17a90
+ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "58972917"
+ms.lasthandoff: 09/17/2021
+ms.locfileid: "59432521"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Требования к комнатам Microsoft Teams
 
-Комнаты Microsoft Teams разного размера комнаты. Комнаты Teams использовать широкий спектр сертифицированных периферийных устройств для аудио- и видеосвязи в зависимости от размера и использования комнаты. Выбрав нужное основное устройство и консоль в сочетании с микрофонами, динамиками, камерами и мониторами, вы можете развернуть Комнаты Microsoft Teams на пространствах любого размера от небольших мест для конференц-связи до больших конференц-залов и конференц-залов.  Полный набор доступных сертифицированных периферийных аудио и видео устройств, которые можно использовать для настройки комнаты, см. в статье [Демонстрация устройств](https://products.office.com/microsoft-teams/across-devices).
+Комнаты Microsoft Teams разного размера комнаты. Комнаты Teams использовать широкий спектр сертифицированных периферийных устройств для аудио- и видеосвязи в зависимости от размера и использования комнаты. Выбрав нужное основное устройство и консоль в сочетании с микрофонами, динамиками, камерами и мониторами, вы можете развернуть Комнаты Microsoft Teams на любых пространствах любого размера от небольших мест для конференц-связи до больших конференц-залов и помещений для конференц-залов.  Полный набор доступных сертифицированных периферийных аудио и видео устройств, которые можно использовать для настройки комнаты, см. в статье [Демонстрация устройств](https://products.office.com/microsoft-teams/across-devices).
 
 В этой статье представлены общие требования к развертыванию и конфигурации устройств для поддержки комнат Microsoft Teams.
 
@@ -38,7 +38,7 @@ ms.locfileid: "58972917"
 > [!NOTE]
 > Комнаты Microsoft Teams подключаются к Microsoft Teams, Skype для бизнеса Server 2019, Skype для бизнеса Server 2015 или Skype для бизнеса Online, и присоединяются к собраниям любой из этих служб.
 >
-> Такие приложения, как Lync Server 2013, не поддерживаются в Комнатах Microsoft Teams. Комнаты Microsoft Teams не поддерживается в Microsoft 365 или Office 365 под управлением 21Vianet или doD.
+> Такие приложения, как Lync Server 2013, не поддерживаются в Комнатах Microsoft Teams. Комнаты Microsoft Teams не поддерживается в Microsoft 365 или Office 365 под управлением 21Vianet или средах DoD.
 >
 > Если вы используете локальный Exchange server, в комнатах Microsoft Teams необходимо использовать Exchange Server 2013 SP1 или более позднюю версию.
 
@@ -52,7 +52,7 @@ ms.locfileid: "58972917"
   |Консоль|Процессор|ОЗУ|Диск|
   |:-----|:-----|:-----|:-----|
   |[Uc-M130-T с Intel NUC](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M130-T)|Core i5|8 ГБ |128 ГБ |
-  |[UcUc- B130-T с Intel NUC](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B130-T)|Core i5|8 ГБ |128 ГБ |
+  |[Uc-B130-T с Intel NUC](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B130-T)|Core i5|8 ГБ |128 ГБ |
   |[Uc-B140-T с Intel NUC](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B140-T)|Core i5|8 ГБ |128 ГБ |
   [Uc-C140-T с Intel NUC](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C140-T)|Core i7|8 ГБ |128 ГБ|
   |[Uc-M150-T с Intel NUC](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M150-T)  +  [CCS-UCA-MIC](https://www.crestron.com/Products/Audio/Microphones/Wired-Microphones/CCS-UCA-MIC-KIT)|Core i7|8 ГБ |128 ГБ |
@@ -61,7 +61,7 @@ ms.locfileid: "58972917"
   |[Uc-C160-T с Intel NUC](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C160-T)|Core i7|8 ГБ|128 ГБ|
   |[Uc-MMX30-T с UC Presentation Transmitter (UC-PR) и КОМПЬЮТЕРОМ ASUS](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-MMX30-T)|Core i5|8 ГБ |128 ГБ |
   |[Uc-BX30-T с UC Presentation Transmitter (UC-PR) и КОМПЬЮТЕРОМ ASUS](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-BX30-T)|Core i5|8 ГБ |128 ГБ |
-  |[Uc-CX100-T с UC Presentation Transmitter (UC-PR) и КОМПЬЮТЕРОМ ASUS](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-CX100-T)|Core i5|8 ГБ |128 ГБ |
+  |[Uc-CX100-T с UC Presentation Transmitter (UC-PR) и ASUS PC](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-CX100-T)|Core i5|8 ГБ |128 ГБ |
   |[Uc-B30-T с КОМПЬЮТЕРОМ ASUS](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B30-T)|Core i5|8 ГБ |128 ГБ |
    |[Uc-C100-T с КОМПЬЮТЕРОМ ASUS](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T)|Core i5|8 ГБ |128 ГБ |
    |[Uc-M50-T с КОМПЬЮТЕРОМ ASUS](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M50-T)|Core i5|8 ГБ |128 ГБ |
@@ -126,8 +126,9 @@ ms.locfileid: "58972917"
 |[Aver CAM 520 Pro](https://www.averusa.com/products/conference-camera/cam520pro) |0.0.1000.73 |
 |[Aver CAM 520 Pro 2](https://www.averusa.com/products/conference-camera/cam520pro2) |0.0.7200.3 |
 |[Aver CAM 130](https://www.averusa.com/products/conference-camera/cam130) |0.0.7400.03 |
+|[Aver VB130 Camera Soundbar](https://www.averusa.com/products/conference-camera/vb130) |0.0.7300.71 |
 |[Bose Video Bar VB1](https://pro.bose.com/en_us/products/conferencing/videobars/bose-videobar-vb1.html?mc=25_PS_VB_BO_00_BI_&&msclkid=fc99b79880f714727a63e86ea0e5642a&utm_source=bing&utm_medium=cpc&utm_campaign=US%20-%20Brand_Videobar%20VB1_Exact&utm_term=bose%20videobar%20vb1&utm_content=Bose%20Videobar%20VB1&gclid=fc99b79880f714727a63e86ea0e5642a&gclsrc=3p.ds) |19.2|
-|[Vio Devio SCR-20CX Web-Based Conferencing Hub с микрофоном окверха](https://www.biamp.com/products/product-families/devio/huddle-room-solutions) |2.2.0.9|
+|[VioMp Devio SCR-20CX Web-Based Conferencing Hub с микрофоном окверха](https://www.biamp.com/products/product-families/devio/huddle-room-solutions) |2.2.0.9|
 |[Vio Devio SCR-20TX Web-Based Conferencing Hub с настольным микрофоном](https://www.biamp.com/products/product-families/devio/huddle-room-solutions) |2.2.0.9 |
 |[Crestron Huddly IQ](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/CCS-CAM-USB-F-400)   | 1.02.09.33901  | 
 |[Huddly Canvas](https://www.huddly.com/blog/say-hello-to-huddly-canvas-our-latest-ai-technology-for-content-capture-and-enhancement/) | 1.3.25 |  &#x2714; |
@@ -164,32 +165,31 @@ ms.locfileid: "58972917"
 |[EPOS SP20](https://www.eposaudio.com/en/us/enterprise/products/sp-20-ml-142ee5ca-speakerphone-1000226)   |1.2.15   |
 |[EPOS SP30](https://www.eposaudio.com/en/us/enterprise/products/sp-30-78c0cecc-bluetooth-speakerphone-1000223)   |2.1.52  |
 |[EPOS SP30T](https://www.eposaudio.com/en/us/enterprise/products/sp-30t-b949fe9a-bluetooth-speakerphone-1000225)  |3.2.63  |
-|[EPOS Expand 80T + 2 Extension Mics](https://www.eposaudio.com/en/us/enterprise/products/expand-80t-bluetooth-speakerphone-1000203) |Динамик — 4.6.55 <br/> Расширение микрофона — 0.2.314|
+|[EPOS Expand 80T + 2 Extension Mics](https://www.eposaudio.com/en/us/enterprise/products/expand-80t-bluetooth-speakerphone-1000203) |Динамик ( 4.6.55) <br/> Расширение микрофона — 0.2.314|
 |[EpOS Expand Capture 5](https://www.eposaudio.com/en/us/enterprise/products/expand-capture-5-speakerphone-1000895)  |1.0.1|
 |[Jabra 510](http://www.jabra.com/support/Jabra-SPEAK&trade;-510_7510-209)   |2.10.0   |
 |[Jabra 710](http://www.jabra.com/business/speakerphones/jabra-speak-series/jabra-speak-710)   |1.8.0   |
 |[Jabra 810](http://www.jabra.com/supportpages/jabra-speak-810)   |1.2.23   |
 |[Yamaha YVC-1000](http://www.yamaha.com/products/en/communication/usb_conference_speakerphones/yvc-1000/)   |100c   |
-|[Yamaha YVC-1000MS](https://uc.yamaha.com/products/conference-phones/usb-bluetooth/) |1.0.1 |
+|[Yamaha YVC-1000MS](https://uc.yamaha.com/products/conference-phones/usb-bluetooth/) |1.0.0 |
 |[Yealink CP900](https://www.yealink.com/products_150.html) |100.20.0.29 |
 |[Yealink UVC30](https://www.yealink.com/product/microsoft-teams-room-system-uvc30)| 105.420.0.11 |  &#x2714; |
 |[Yealink UVC40 All-in-one Video bar](https://www.yealink.com/product/usb-videobar-uvc40) |128.410.0.10|  
 |[Shure Intellimix P300 Audio Conferencing Processor](https://www.shure.com/products/mixers/p300)+</br></br> [Shure MXA 310 Table Array Mic ](https://www.shure.com/products/microphones/mxa310) | 4.1 |
 |[Shure Intellimix P300 Audio Conferencing Processor](https://www.shure.com/products/mixers/p300) + </br></br> [Shure MXA 910 with Intellimix Ceiling Array Mic](https://www.shure.com/products/microphones/mxa910) | 4.1|
 |[Shure Intellimix P300 Audio Conferencing Processor](https://www.shure.com/products/mixers/p300)+</br></br> [Micre MXA 310 Table Array Mic ](https://www.shure.com/products/microphones/mxa310) +</br></br> [Динамик октата MXN5W-C](https://www.shure.com/en-US/products/loudspeakers/mxn5)| P300 DSP: 4.1.11 </br> Микрофон таблицы MXA310: 4.1.41 </br> Динамик MXN5W-C: 1.0.4 |
-|[Shure Intellimix P300 Audio Conferencing Processor](https://www.shure.com/products/mixers/p300) + </br></br> [Arrayre MXA 910 with Intellimix Ceiling Array Mic](https://www.shure.com/products/microphones/mxa910) +</br></br> [Динамик октата MXN5W-C](https://www.shure.com/en-US/products/loudspeakers/mxn5)| P300 DSP: 4.1.11 </br> Микрофон октаксиса массива MXA910: 4.1.41 </br> Динамик MXN5W-C: 1.0.4 |
+|[Shure Intellimix P300 Audio Conferencing Processor](https://www.shure.com/products/mixers/p300) + </br></br> [Часовой диапазон MXA 910 с микрофоном Intellimix Ceiling Array](https://www.shure.com/products/microphones/mxa910) +</br></br> [Динамик октата MXN5W-C](https://www.shure.com/en-US/products/loudspeakers/mxn5)| P300 DSP: 4.1.11 </br> Микрофон октаксиса массива MXA910: 4.1.41 </br> Динамик MXN5W-C: 1.0.4 |
 |[Microphonere MXA 710 2ft Table Linear Array Microphone](https://www.shure.com/products/microphones/mxa710) + </br></br> [Shure Intellimix P300 Audio Conferencing Processor](https://www.shure.com/products/mixers/p300) +</br></br> [Динамик октата MXN5-C](https://www.shure.com/en-US/products/loudspeakers/mxn5)| MXA710 2ft Table Linear Array Mic: 1.2.0 </br> P300 DSP: 4.4.8 </br> Динамик MXN5-C: 1.1.1 |
 |[Микрофон линейного массива стены 710 4ft](https://www.shure.com/products/microphones/mxa710) + </br></br> [Shure Intellimix P300 Audio Conferencing Processor](https://www.shure.com/products/mixers/p300) +</br></br> [Динамик октата MXN5-C](https://www.shure.com/en-US/products/loudspeakers/mxn5)| MXA710 4ft Wall Linear Array Mic: 1.2.0 </br> P300 DSP: 4.4.8 </br> Динамик MXN5-C: 1.1.1 |
-|[Микрофон массива Intellimix с технологией Intellimix Ceiling Array 910](https://www.shure.com/products/microphones/mxa910) + </br> [Программное обеспечение комнаты Intellimix](https://www.shure.com/products/software/intellimix_room) +</br> [Crestron UC-C100-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T)| Программное обеспечение комнаты Intellimix: 3.0.4.14 </br> Телефона MXA 910 с микрофоном Intellimix Ceiling Array: 4.4.11 </br> Динамики MXN5-C: 1.2.1 </br> UC-C100-T: windows IOT 19h2/20h2 OS версии с версией приложения MTR 4.8.31.0 </br> БИО: ASUS Тека Computer INC 9934 27.08.2020 </br> ЦП: i5–9500TCPU </br> Физическая память: 8 ГБ ОЗУ |
-|Скайпре MXA901 +</br> [ANIUSB](https://www.shure.com/en-US/products/mixers/aniusb-matrix) +</br> [Динамики MXN5](https://www.shure.com/en-US/products/loudspeakers/mxn5)| MXA901: 0.4.1 </br> ANIUSB: 4.5.13 </br> Динамик MXN5: 1.3.3 |
+|[Микрофон массива Intellimix с технологией Intellimix Ceiling Array 910](https://www.shure.com/products/microphones/mxa910) + </br> [Программное обеспечение комнаты Intellimix](https://www.shure.com/products/software/intellimix_room) +</br> [Crestron UC-C100-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T)| Программное обеспечение комнаты Intellimix: 3.0.4.14 </br> Телефона MXA 910 с микрофоном intellimix Ceiling Array: 4.4.11 </br> Динамики MXN5-C: 1.2.1 </br> UC-C100-T: windows IOT 19h2/20h2 OS версии с версией приложения MTR 4.8.31.0 </br> БИО: ASUS Tek Computer INC 9934 27.08.2020 </br> ЦП: i5–9500TCPU </br> Физическая память: 8 ГБ ОЗУ |
 |[Biamp Tesira Fore AVB VT4 Fixed audio DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ &Dagger;</br></br> [Sennheiser TeamConnect Ceiling 2 Microphone](https://sennheiser.com/tcc2)+ &Dagger;</br></br> [Tesira EX-UBT](https://www.biamp.com/products/tesira/tesira-expanders) &Dagger; |  Biamp DSP: 3.12.0.15  </br></br> TCC2: 1.3.3 </br></br> EX-UBT: 3.12.0.15 |
-|[Дефис Tesira FORTÉ AVB VT4 Audio DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ </br></br>[Дефис Parlé TCM-XA окне окне микрофона](https://www.biamp.com/products/product-families/parle/parle-microphones)+</br></br> [Десоно C-IC6, повернутый в динамик](https://www.biamp.com/products/tesira-speakers)| Audio FW version: 3.15|
+|[Записная книжка Tesira FORTÉ AVB VT4 Audio DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ </br></br>[Дефис Parlé TCM-XA окне окне микрофона](https://www.biamp.com/products/product-families/parle/parle-microphones)+</br></br> [Десоно C-IC6, повернутый в динамик](https://www.biamp.com/products/tesira-speakers)| Audio FW version: 3.15|
 |[Дефис TesiraFORTE AVB VT4](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ </br></br>[Parle TTM-X(Table Mic)](https://www.biamp.com/products/product-families/parle/parle-microphones)+</br></br>[Ex-UBT]() |Audio FW version: 3.15|
 |[Bose ControlSpace EX-440C DSP + </br>Bose P2600A AmpLink Amplifier +</br> Sennheiser TCC2 Ceiling Microphone + </br> Bose EdgeMax EM180 Ceiling Speaker](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html)|  Bose DSP: 2.290  </br> P2600A : 1.160  </br> TCC2: 1.4.2  |  |
 |[Bose ControlSpace EX-440C DSP + </br> Bose P2600A AmpLink Amplifier + Sennheiser TCC2 Ceiling Microphone + </br> Bose DesignMax DM2C-P Ceiling Speaker](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html)|  Bose DSP: 2.290  </br> P2600A : 1.160  </br> TCC2: 1.4.2  |  |
 |[Bose ControlSpace EX-1280C DSP](https://pro.bose.com/en_us/products/signal_processing_and_networking/controlspace_ex/cs_ex_1280c.html#v=cs_ex_1280c_black) +</br>Bose P2600A amplink amplifier +</br> [Микрофон в окне "Sennheiser TCC2"](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html) +</br> [DesignMax DM2C -LP Ceiling Speaker](https://pro.bose.com/en_us/products/loudspeakers/background_foreground/designmax/designmax_dm2c_lp.html#v=designmax_dm2c_lp_black) | Bose DSP: 2.290  </br> P2600A : 1.160  </br> TCC2: 1.4.2  | 
 |[Bose ControlSpace EX-1280C DSP](https://pro.bose.com/en_us/products/signal_processing_and_networking/controlspace_ex/cs_ex_1280c.html#v=cs_ex_1280c_black) +</br>Bose P2600A AmpLink Amplifier+</br> [Микрофон в окне "Sennheiser TCC2"](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html) +</br> [Потолочный динамик EdgeMax EM180](https://pro.bose.com/en_us/products/loudspeakers/background_foreground/edgemax/edgemax_em180.html#v=edgemax_em180_white) | Bose DSP: 2.290  </br> P2600A : 1.160  </br> TCC2: 1.4.2  |
-|QSC Q-SYS Core[(110f,](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/core-110f/) [8 Google,](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/core-8-flex/) [Google](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/core-nano/)или [NV-32-H](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/nv-32-h-core-capable/)) + </br> [Микрофон в окне "Sennheiser TCC2"](https://en-us.sennheiser.com/tcc2) + </br> QSC Amplifier[(SPA series](https://www.qsc.com/solutions-products/power-amplifiers/installed/non-network/low-power-applications/spa-series/) or [CX-Q series](https://www.qsc.com/solutions-products/power-amplifiers/installed/network/cx-q-series/)) + </br> [Динамики QSC AcousticDesign ряда](https://www.qsc.com/solutions-products/loudspeakers/installed/passive/solutions/acousticdesigntm-series-solutions/) + </br> IP-камера QSC[(PTZ-IP 20x60,](https://www.qsc.com/solutions-products/q-sys-ecosystem/video/ptz-ip-conference-cameras/) [PTZ-IP 12x72](https://www.qsc.com/solutions-products/q-sys-ecosystem/video/ptz-ip-conference-cameras/)) при желании + </br> [QSC Q-SYS I/O USB Bridge](https://www.qsc.com/solutions-products/q-sys-ecosystem/audio-io-peripherals/io-usb-bridge/) optional | QSC Q-SYS Core, PTZ-IP Camera и I/O USB Bridge: QSC Q-SYS Designer 9.0.1-2104.022 </br> Микрофон октата Sennheiser TCC2: TCC2 - 1.5.1, Dante 1.2.0 </br> QSC Amplifiers: N/A </br> QSC AcousticDesign Series Loudspeakers: N/A | 
+|QSC Q-SYS Core[(110f,](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/core-110f/) [8 Google,](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/core-8-flex/) [Google](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/core-nano/)или [NV-32-H](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/nv-32-h-core-capable/)) + </br> [Микрофон в окне "Sennheiser TCC2"](https://en-us.sennheiser.com/tcc2) + </br> QSC Amplifier[(SPA series](https://www.qsc.com/solutions-products/power-amplifiers/installed/non-network/low-power-applications/spa-series/) or [CX-Q series](https://www.qsc.com/solutions-products/power-amplifiers/installed/network/cx-q-series/)) + </br> [Динамики QSC AcousticDesign ряда](https://www.qsc.com/solutions-products/loudspeakers/installed/passive/solutions/acousticdesigntm-series-solutions/) + </br> IP-камера QSC[(PTZ-IP 20x60,](https://www.qsc.com/solutions-products/q-sys-ecosystem/video/ptz-ip-conference-cameras/) [PTZ-IP 12x72](https://www.qsc.com/solutions-products/q-sys-ecosystem/video/ptz-ip-conference-cameras/)) при желании + </br> [QSC Q-SYS I/O USB Bridge](https://www.qsc.com/solutions-products/q-sys-ecosystem/audio-io-peripherals/io-usb-bridge/) optional | QSC Q-SYS Core, PTZ-IP Camera и I/O USB Bridge: QSC Q-SYS Designer 9.0.1-2104.022 </br> Микрофон в окне "Sennheiser TCC2": TCC2 - 1.5.1, Dante 1.2.0 </br> Amplifiers QSC: N/A </br> QSC AcousticDesign Series Loudspeakers: N/A | 
 
 
 &Dagger; Для этого набора можно использовать интерфейс Dante или сетевой коммутатор, рекомендованный Biamp/Sennheiser для этого пакета.

@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Поиск и управление обновлениями Skype для бизнеса Server 2015/2019 и Lync 2013 в одном месте. Чтобы узнать больше об обновлениях и скачать их, воспользуйтесь ссылками на этой странице.
-ms.openlocfilehash: fcdd7212cf7a3f612434594d028b2e7be104af36
-ms.sourcegitcommit: 5a4108219dd1b77468b3ef4aff0500cd19473fa5
+ms.openlocfilehash: 4f9b8e4de19778d2ded55f14e0de894528590d50
+ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/01/2021
-ms.locfileid: "58852047"
+ms.lasthandoff: 09/17/2021
+ms.locfileid: "59432311"
 ---
 # <a name="skype-for-business-server-updates"></a>Обновления Skype для бизнеса Server
 
@@ -95,6 +95,7 @@ KB 4470124 является мастером КБ для Skype для бизне
 
 |Название пакета|Номер статьи в базе знаний|Дата выпуска|
 |:--- |:--- |:--- |
+|Накопительное обновление Lync Server 2013 10 Hotfix 5 |[KB 2809243](https://support.microsoft.com/kb/2809243)|Сентябрь 2021 г.|
 |Накопительное обновление Lync Server 2013 10 Hotfix 4 |[KB 4515509](https://support.microsoft.com/kb/4515509)|Июль 2020 г.|
 |Накопительное обновление Lync Server 2013 10 Hotfix 3 |[KB 4515509](https://support.microsoft.com/kb/4515509)|Сентябрь 2019 г.|
 |Накопительное обновление 10 Hotfix 2 Lync Server 2013 |[KB 4501392](https://support.microsoft.com/kb/4501392)|Июнь 2019 г.|
@@ -275,4 +276,4 @@ KB 4470124 является мастером КБ для Skype для бизне
 - [Установка Skype для бизнеса Server 2015 г.](./deploy/install/install.md)
 - [Обновление до Skype для бизнеса Server 2015 г.](./deploy/upgrade-to-skype-for-business-server.md)
 - [Последние обновления для версий Skype для бизнеса, Windows установки (MSI)](sfb-client-updates.md)
-- 
+
