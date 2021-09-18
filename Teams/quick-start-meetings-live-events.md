@@ -20,12 +20,12 @@ ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4a089b94cdb8d5568fe864a91e2c98ef26ecc9b0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3e3a74b5e156817ec9b28608d725800858c3b350
+ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631983"
+ms.lasthandoff: 09/17/2021
+ms.locfileid: "59432541"
 ---
 # <a name="quick-start---meetings-webinars-and-live-events"></a>Краткая инструкция — собрания, вебинары и трансляции 
 
@@ -156,8 +156,7 @@ ms.locfileid: "58631983"
 | Статья | Описание | 
 |----------|--------|
 | [Приложения, боты и соединители](deploy-apps-microsoft-teams-landing-page.md) | Введение в приложения и сведения о развертывании приложений для организации. |
-| [Приложения для собраний Teams](/platform/apps-in-teams-meetings/teams-apps-in-meetings.md) | Обзор расширяемости приложений для собраний, справочных материалов по API и действий по включению и настройке приложений для собраний. |
-| [Подробнее о приложениях для собраний Teams](/platform/apps-in-teams-meetings/teams-apps-in-meetings.md) | Включает ссылки на приложения, доступные для собраний Teams. |
+| [Приложения для собраний Teams](/microsoftteams/platform/apps-in-teams-meetings/teams-apps-in-meetings | Обзор расширяемости приложений для собраний, справочных материалов по API и действий по включению и настройке приложений для собраний. |
 | [Управление Доской в Teams](manage-whiteboard.md) | Описание функций Доски и действий по ее включению и отключению для организации. |
 ||
 
