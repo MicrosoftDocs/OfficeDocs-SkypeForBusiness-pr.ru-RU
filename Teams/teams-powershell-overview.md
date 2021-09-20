@@ -13,12 +13,12 @@ ms.collection:
 description: Узнайте, как использовать элементы управления PowerShell для управления Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c3a1bb503ca759835f34220aa8a963f162b73f36d879d4cf3e8a6321e6f5775e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e878acddd27044ecb57d33c76c1af755eaa7c5d8
+ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54328924"
+ms.lasthandoff: 09/20/2021
+ms.locfileid: "59456549"
 ---
 # <a name="microsoft-teams-powershell-overview"></a>Microsoft Teams Обзор PowerShell
 
@@ -35,11 +35,11 @@ Microsoft Teams Модуль PowerShell — это набор командлет
 Модуль Microsoft Teams PowerShell включает следующие возможности: 
 
 - Используется один модуль для управления всеми аспектами администрирования Teams, включая пользователей, группы, политики и конфигурацию.  
-- Поддерживает механизмы проверки подлинности, такие как маркеры доступа и учетные данные. 
+- Поддерживает такие механизмы проверки подлинности, как маркеры доступа и учетные данные. 
 
 ##  <a name="data-collection"></a>Сбор данных 
 
-Microsoft Teams Параметры модуля PowerShell по умолчанию собирают данные телеметрии. Корпорация Майкрософт собирает собранные данные для выявления шаблонов использования и распространенных проблем, таких как проектлеты с низким успехом, чтобы помочь нам определить приоритеты работы по улучшению Teams PowerShell. Microsoft Teams Модуль PowerShell не собирает личные или личные данные.  
+Microsoft Teams Параметры модуля PowerShell по умолчанию собирают данные телеметрии. Корпорация Майкрософт собирает собранные данные для выявления шаблонов использования и распространенных проблем, таких как проектлеты с низким успехом, чтобы помочь нам определить приоритеты работы по улучшению Teams PowerShell. Microsoft Teams Модуль PowerShell не собирает личные или личные данные. Дополнительные сведения можно найти в заявлении [о конфиденциальности Корпорации Майкрософт.](https://privacy.microsoft.com/privacystatement)
 
 ## <a name="related-topics"></a>Статьи по теме
 
