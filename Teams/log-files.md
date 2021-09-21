@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Узнайте о журналах отладки, мультимедиа и рабочего стола, которые были произведены Microsoft Teams, где их можно найти и как они могут помочь в мониторинге и устранении неполадок.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a82b2e9fe2db41e0609b7483bded813eae29cf92
-ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
+ms.openlocfilehash: 8f29271485024445d3494c0b2ee7213253bd64ca
+ms.sourcegitcommit: f16e8f51559a46db86fe489075426f05084bb44e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2021
-ms.locfileid: "59456529"
+ms.lasthandoff: 09/21/2021
+ms.locfileid: "59460648"
 ---
 # <a name="use-log-files-to-monitor-and-troubleshoot-microsoft-teams"></a>Использование файлов журнала для отслеживания и устранения Microsoft Teams
 
@@ -46,8 +46,7 @@ Windows: щелкните правой кнопкой мыши значок Team
 
 Mac: выберите меню Справка и выберите **Сбор файлов поддержки**.
 
-
-Журналы от deug, Desktop и Media будут собраны в одну папку с именем MSTeams Diagnostics Log <local data and time> . Эту папку можно сжать и использовать, когда вы открываете запрос в службу поддержки Майкрософт. Папка будет содержать папки "Рабочий стол", "Собрание (мультимедиа") и "Отложенный" (в Интернете). Для сбора файлов можно использовать следующие сочетания клавиш:
+Журналы от deug, Desktop и Media будут собраны в одну папку с именем _MSTeams Diagnostics Log \<local data and time\>_. Эту папку можно сжать и использовать, когда вы открываете запрос в службу поддержки Майкрософт. Папка будет содержать папки "Рабочий стол", "Собрание (мультимедиа") и "Отложенный" (в Интернете). Для сбора файлов можно использовать следующие сочетания клавиш:
 
 Windows: CTRL+ALT+SHIFT+1
 

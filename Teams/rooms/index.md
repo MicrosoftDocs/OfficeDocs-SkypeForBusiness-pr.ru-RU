@@ -16,18 +16,18 @@ ms.collection:
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: Узнайте, как настроить Комнаты Microsoft Teams, включая планирование, развертывание и управление системой, чтобы создать идеальное виртуальное помещение для собраний.
 ms.custom: seo-marvel-may2020
-ms.openlocfilehash: beaae12c62ca39315275df58e4c95b5163a10843
-ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
+ms.openlocfilehash: cb360bbecb36b8ec10324d05722456cf6bf5636b
+ms.sourcegitcommit: f16e8f51559a46db86fe489075426f05084bb44e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2021
-ms.locfileid: "59432291"
+ms.lasthandoff: 09/21/2021
+ms.locfileid: "59460658"
 ---
 # <a name="microsoft-teams-rooms"></a>Комнаты Microsoft Teams
 
 :::row:::
     :::column span="2":::
-       Преобразуя пространства для собраний, от небольших областей до больших конференц-залов, вы можете использовать Teams простой в использовании, развертывании и управлении.
+       Преобразуя места для собраний, от небольших областей до больших конференц-залов, вы можете использовать Teams простой в использовании, развертывании и управлении.
 
        Начните собрание вовремя с одним касанием, а затем мгновенно проецируемый на экран в комнате и поделитесь с удаленными участниками.
 
@@ -40,7 +40,9 @@ ms.locfileid: "59432291"
     :::column-end:::
 :::row-end:::
 
-|    <img src="https://docs.microsoft.com/office/media/icons/list-123-teams.svg" width="40 px" height="40 px" alt="plan icon">           | <img src="https://docs.microsoft.com/office/media/icons/deploy-teams.svg" width="40 px" height="40 px" alt="deploy icon">              |   <img src="https://docs.microsoft.com/office/media/icons/toolbox.svg" width="40 px" height="40 px" alt="manage icon">            |
+<!-- The following three links to icon images work with site-relative URLs when published on docs.microsoft.com. -->
+
+|    <img src="/office/media/icons/list-123-teams.svg" width="40 px" height="40 px" alt="plan icon">           | <img src="/office/media/icons/deploy-teams.svg" width="40 px" height="40 px" alt="deploy icon">              |   <img src="/office/media/icons/toolbox.svg" width="40 px" height="40 px" alt="manage icon">            |
 | ------------- | ------------- | ------------- |
 |  **[Планирование](./rooms-plan.md)** |  **[Развертывание](./rooms-deploy.md)** |  **[Управление](./rooms-manage.md)** |
 
@@ -52,7 +54,7 @@ ms.locfileid: "59432291"
 >
 > Более ранние платформы, такие как Lync Server 2013, не будут работать с Комнаты Microsoft Teams.
 
-Эти статьи предназначены для пользователей, у которых есть задачи по планированию, развертыванию и управлению этими устройствами, а не для пользователей системы. Пользователям будет больше интересна Комнаты Microsoft Teams [справка в Интернете.](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
+Эти статьи предназначены для пользователей, у которых есть задачи по планированию, развертыванию и управлению этими устройствами, а не для пользователей системы. Пользователям будет больше интересна Комнаты Microsoft Teams [в Интернете.](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
 > [!NOTE]
 > [Skype комнат](../rooms/lrs-migration.md) (ранее Lync Room System) и Комнаты Microsoft Teams разные продукты с разными зависимостями и процедурами развертывания.
