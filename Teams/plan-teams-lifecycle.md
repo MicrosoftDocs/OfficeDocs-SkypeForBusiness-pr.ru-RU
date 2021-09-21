@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 082657f5d114a7228f5b95e39390a87ccf6d0dcb
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: fa4d2cfa493ae6bec4429db9c3d01319d889288e
+ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727828"
+ms.lasthandoff: 09/20/2021
+ms.locfileid: "59456379"
 ---
 # <a name="plan-for-lifecycle-management-in-teams"></a>Планирование управления жизненным циклом в Teams
 
@@ -65,49 +65,7 @@ _Команда_ — объединение пользователей, конт
 > [!Note]
 > Дополнительные сведения о владельцах команд и возможностях участников: [Назначение ролей и разрешений в Microsoft Teams](assign-roles-permissions.md).
 
-Роли администраторов Teams определяют возможности каждого владельца такой роли. Они описаны в следующей таблице.
-
-<table>
- <thead>
-  <tr>
-    <th width="0.5%"></th>
-    <th width="15.5%">Роль&nbsp;&nbsp;</th>
-    <th width="25%">Описание</th>
-    <th width="60%">Может делать следующее с использованием указанных инструментов</th>
-  </tr>
-</thead>
-<tbody>
-   <tr>
-    <td valign="top" colspan="2">Администратор Teams</td>
-    <td valign="top">Управление службой Teams, создание и изменение групп Microsoft 365</td>
-    <td valign="top">Управление собраниями, включая политики собраний, конфигурации и мосты конференций<sup>1</sup><br><br>Управление голосовыми звонками, включая политики звонков, учет и назначение телефонных номеров, очереди звонков и автосекретари<sup>1</sup><br><br>Управление сообщениями, включая политики обмена сообщениями<sup>1</sup><br><br>Управление параметрами на уровне организации, включая федерацию, переход на Teams и параметры клиентов Teams<sup>1</sup><br><br>Управление командами в организации и их настройка, включая членство<sup>2</sup><br><br>Просмотр страницы профиля пользователя и устранение проблем с качеством звонка при помощи расширенного набора инструментов<sup>3</sup></td>
-</tr>
-<tr>
-<td valign="top" colspan="2">Администратор коммуникаций Teams</td>
-<td valign="top">Управление функциями звонков и собраний в службе Microsoft Teams</td>
-<td valign="top">Управление собраниями, включая политики собраний, конфигурации и мосты конференций<sup>1</sup><br><br>Управление голосовыми звонками, включая политики звонков, учет и назначение телефонных номеров, очереди звонков и автосекретари<sup>1</sup><br><br>Просмотр страницы профиля пользователя и устранение проблем с качеством звонка при помощи расширенного набора инструментов<sup>1</sup></td>
-</tr>
-<tr>
-<td valign="top" colspan="2">Специалист по коммуникациям Teams</td>
-<td valign="top">Устранение проблем со связью в Teams при помощи базовых инструментов</td>
-<td valign="top">Доступ к странице профиля пользователя для устранения проблем со звонками в службе "Аналитика звонков". Возможность просмотра сведений только о запрашиваемом пользователе<sup>3</sup>.</td>
-</tr>
-<tr>
-<td valign="top" colspan="2">Инженер поддержки по коммуникациям Teams</td>
-<td valign="top">Устранение проблем со связью в Teams при помощи расширенных инструментов</td>
-<td valign="top">Доступ к странице профиля пользователя для устранения проблем со звонками в службе "Аналитика звонков". Просмотр всех записанных сведений о звонках<sup>3</sup>.</td>
-</tr>
-<tr>
-</tbody>
-<tfoot>
-<tr><td align="right"><sup>1</sup></td><td colspan="3"><a href="/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell
-">Модуль PowerShell — Skype для бизнеса</a> или <a href="/microsoftteams/manage-teams-skypeforbusiness-admin-center">Центр администрирования Microsoft Teams</a></td></tr>
-<tr><td align="right"><sup>2</sup></td><td colspan="3"><a href="https://www.powershellgallery.com/packages/MicrosoftTeams/0.9.3">Модуль PowerShell — Microsoft Teams</a> или <a href="/microsoftteams/manage-teams-skypeforbusiness-admin-center">Центр администрирования Microsoft Teams</a></td></tr>
-<tr><td align="right"><sup>3</sup></td><td colspan="3">Только <a href="/microsoftteams/manage-teams-skypeforbusiness-admin-center">Центр администрирования Microsoft Teams</a></td>
-</tr>
-</tfoot>
-</table>
-
+Роли администраторов Teams определяют возможности каждого владельца такой роли. Они описаны в следующей статье: [Управление Microsoft Teams с помощью ролей администраторов](using-admin-roles.md).
 
 ## <a name="it-decisions-to-make-before-getting-started"></a>Решения по ИТ, которые нужно принять перед началом работы
 

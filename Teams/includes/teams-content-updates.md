@@ -3,6 +3,37 @@
 
 
 
+## <a name="week-of-september-13-2021"></a>Неделя от 13 сентября 2021 г.
+
+
+| Дата публикации |Название статьи | Изменение |
+|------|------------|--------|
+| 9/13/2021 | [Введение в Teams записи на основе политики для & собраний](/MicrosoftTeams/teams-recording-policy) | Изменено |
+| 9/13/2021 | [Руководство для ИТ-администраторов по Insights в Microsoft Teams для образования](/MicrosoftTeams/class-insights) | Изменено |
+| 9/13/2021 | [Пограничные контроллеры сеансов, сертифицированные для прямой маршрутизации](/MicrosoftTeams/direct-routing-border-controllers) | Изменено |
+| 9/13/2021 | [Управление приложениями в Центре Microsoft Teams администрирования](/MicrosoftTeams/manage-apps) | Изменено |
+| 9/14/2021 | [Пограничные контроллеры сеансов, сертифицированные для прямой маршрутизации](/MicrosoftTeams/direct-routing-border-controllers) | Изменено |
+| 9/14/2021 | [Требования к комнатам Microsoft Teams](/MicrosoftTeams/rooms/requirements) | Изменено |
+| 9/15/2021 | [Управление опытом join for Teams посещений в мобильных браузерах](/MicrosoftTeams/expand-teams-across-your-org/mobile-browser-join) | Изменено |
+| 9/16/2021 | [Доступность страны или региона : аудиоконференция, планы звонков](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans) | Изменено |
+| 9/16/2021 | [Teams: управление политиками собраний](/MicrosoftTeams/meeting-policies-in-teams) | Изменено |
+| 9/17/2021 | [Поминутная оплата аудиоконференций](/MicrosoftTeams/audio-conferencing-pay-per-minute) | Изменено |
+| 9/17/2021 | [Запись собрания Teams в облаке](/MicrosoftTeams/cloud-recording) | Изменено |
+| 9/17/2021 | [Доступность страны или региона : аудиоконференция, планы звонков](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans) | Изменено |
+| 9/17/2021 | [Teams: управление политиками собраний](/MicrosoftTeams/meeting-policies-in-teams) | Изменено |
+| 9/17/2021 | [Краткая инструкция — собрания, вебинары и трансляции](/MicrosoftTeams/quick-start-meetings-live-events) | Изменено |
+| 9/17/2021 | [Просмотр списка номеров для аудиоконференции](/MicrosoftTeams/see-a-list-of-audio-conferencing-numbers-in-teams) | Изменено |
+| 9/17/2021 | [Подготовка к трансляциям в Microsoft Teams](/MicrosoftTeams/teams-live-events/set-up-for-teams-live-events) | Изменено |
+| 9/17/2021 | [Управление номерами телефонов для организации](/MicrosoftTeams/manage-phone-numbers-landing-page) | Добавлено |
+| 9/17/2021 | [Получить номера телефонов служб для планов звонков](/MicrosoftTeams/getting-service-phone-numbers) | Изменено |
+| 9/17/2021 | [Сколько телефонных номеров можно получить?](/MicrosoftTeams/how-many-phone-numbers-can-you-get) | Изменено |
+| 9/17/2021 | [Управление номерами телефонов для плана звонков](/MicrosoftTeams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization) | Изменено |
+| 9/17/2021 | [Перенос данных из Slack в Microsoft Teams](/MicrosoftTeams/migrate-slack-to-teams) | Изменено |
+| 9/17/2021 | [Комнаты Microsoft Teams](/MicrosoftTeams/rooms/index) | Изменено |
+| 9/17/2021 | [Поиск номеров телефонов для пользователей](/MicrosoftTeams/search-for-phone-numbers-for-users) | Изменено |
+| 9/17/2021 | [См. список телефонных номеров в организации](/MicrosoftTeams/see-a-list-of-phone-numbers-in-your-organization) | Изменено |
+
+
 ## <a name="week-of-september-06-2021"></a>Неделя с 6 сентября 2021 г.
 
 

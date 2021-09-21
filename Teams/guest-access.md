@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Гостевой доступ в Microsoft Teams позволяет командам в вашей организации сотрудничать с людьми, находящимися за пределами организации, предоставляя им доступ к командам и каналам.
-ms.openlocfilehash: 83ad01ef738cc8e68d0cfdf41ea082493eb7c7b1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: aa14fc3a59d893b152f96d31a20c46119f8a71f9
+ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58603398"
+ms.lasthandoff: 09/20/2021
+ms.locfileid: "59456339"
 ---
 # <a name="guest-access-in-microsoft-teams"></a>Гостевой доступ в Microsoft Teams
 
@@ -53,7 +53,7 @@ ms.locfileid: "58603398"
 - Чтобы настроить гостевой доступ в Teams для общего использования, см. статью [Совместная работа с гостями в команде](/microsoft-365/solutions/collaborate-as-team).
 - Чтобы совместно работать с организацией-партнером, использующей Azure Active Directory, и позволить гостям самостоятельно регистрироваться для получения гостевого доступа, см. статью [Создание экстрасети B2B с управляемыми гостями](/microsoft-365/solutions/b2b-extranet).
 
-Гостевой доступ в Teams настраивается для всей организации и по умолчанию отключен. Можно контролировать гостевой доступ к отдельным командам с помощью [меток конфиденциальности](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites).
+Гостевой доступ в Teams настраивается для всей организации и по умолчанию включен. Можно контролировать гостевой доступ к отдельным командам с помощью [меток конфиденциальности](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites).
 
 ### <a name="turning-guest-access-off"></a>Отключение гостевого доступа
 
