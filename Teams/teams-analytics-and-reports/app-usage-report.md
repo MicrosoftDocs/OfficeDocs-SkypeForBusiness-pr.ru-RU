@@ -32,11 +32,11 @@ ms.locfileid: "58730848"
 
 1.  В левой области навигации Центра администрирования <https://admin.teams.microsoft.com> щелкните Аналитика & **отчеты** \> **об использовании**. На **вкладке Просмотр отчетов** в области **Отчет** выберите **Использование приложений**.
 
-     :::image type="content" source="media/app-usage-report1.png" alt-text="Снимок экрана: пункт меню "Отчеты об использовании".":::
+     :::image type="content" source="media/app-usage-report1.png" alt-text="Снимок экрана: пункт меню Отчеты об использовании.":::
 
 2.  Выберите диапазон в поле **Диапазон дат**, а затем нажмите кнопку **Запустить отчет**.
 
-      :::image type="content" source="media/app-usage-report2.png" alt-text="Снимок экрана: отчет "Использование приложений".":::
+      :::image type="content" source="media/app-usage-report2.png" alt-text="Снимок экрана: отчет Использование приложений.":::
 
 ## <a name="interpret-the-report"></a>Толкование отчета
 
