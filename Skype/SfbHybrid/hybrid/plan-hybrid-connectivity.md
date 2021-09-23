@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 description: Планирование гибридного подключения между Skype для бизнеса Server и Teams путем настройки Skype для бизнеса гибридного режима.
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: ede3c000bf46cc5b3e1e2a181da2adc6dda93855
-ms.sourcegitcommit: 5f19df90443810e027085f8b38d22218e4123a16
+ms.openlocfilehash: 40d89076973e4667c41676684841e8c35c356396
+ms.sourcegitcommit: b2566e64e02cb51d18836630d3aa9b6f27b924da
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 09/23/2021
-ms.locfileid: "59482403"
+ms.locfileid: "59491719"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-teams"></a>Планирование гибридного подключения между Skype для бизнеса Server и Teams
 
@@ -64,7 +64,7 @@ ms.locfileid: "59482403"
 
 > [!Important]
 > - Существующие гибридные организации с пользователями, Skype для бизнеса в Интернете, которые не являются TeamsOnly должны сосредоточиться на обновлении этих пользователей Teams только режим как можно скорее. Если в вашей организации по-прежнему находятся пользователи Skype для бизнеса Online, которые не являются TeamsOnly, может быть назначено обновление с помощью Майкрософт для перехода этих пользователей в TeamsOnly. Это не повлияет на пользователей, которые Skype для бизнеса Server локально. Уведомления о планировании будут заранее отправлены гибридным клиентам с пользователями, которые находятся в Skype для бизнеса Online, прежде чем они будут обновлены до Teams.
-> - В ближайшее время невозможно назначить режим, кроме TeamsOnly, пользователю, который находится в интернете.
+> - Невозможно назначить режим, кроме TeamsOnly, пользователю, который находится в интернете.
 
 ## <a name="about-shared-sip-address-space-functionality"></a>Об общих функциях пространства адресов SIP
 
