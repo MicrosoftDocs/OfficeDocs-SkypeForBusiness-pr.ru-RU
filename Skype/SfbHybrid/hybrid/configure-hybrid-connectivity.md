@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: Инструкции по реализации гибридного подключения между Skype для бизнеса Server и Teams.
-ms.openlocfilehash: 272166852ef86da6318aa5fa2908697a93d65e02
-ms.sourcegitcommit: b2566e64e02cb51d18836630d3aa9b6f27b924da
+ms.openlocfilehash: fee7587c641f2fd55cd8b4ac4da72b3944b819a1
+ms.sourcegitcommit: 64b9f7297d33a883506893fb68d1ad5202b4df1a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "59491699"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59682814"
 ---
 # <a name="configure-hybrid-connectivity-between-skype-for-business-server-and-teams"></a>Настройка гибридного подключения между Skype для бизнеса Server и Teams
 
@@ -45,11 +45,11 @@ ms.locfileid: "59491699"
 
 ## <a name="dns-implications-for-on-premises-organizations-that-become-hybrid"></a>Последствия DNS для локальной организации, которые становятся гибридными
 
-По умолчанию клиенты создаются в режиме TeamsOnly. Администраторы не могут изменить эту конфигурацию. Однако гибридные организации не должны быть режимом TeamsOnly, так как это наломит федерацию для собственных пользователей. Teams имеет встроенный механизм для обеспечения того, чтобы конфигурация TeamsOnly для всех клиентов не применялась к новым гибридным арендаторам и не была удалена от существующих клиентов, которые становятся гибридными. Этот механизм основан на значении записи DNS LyncDiscover для любого проверенного домена Microsoft 365 (так как локальное развертывание Skype для бизнеса Server в большинстве случаев имеет эту запись), как описано ниже.
+По умолчанию клиенты создаются в режиме TeamsOnly. Администраторы не могут изменить эту конфигурацию. Однако гибридные организации не должны быть режимом TeamsOnly, так как это наломит федерацию для собственных пользователей. Teams имеет встроенный механизм для обеспечения того, чтобы конфигурация TeamsOnly для всех клиентов не применялась для новых гибридных клиентов, а также чтобы конфигурация TeamsOnly для всех клиентов была удалена из существующих клиентов, которые становятся *гибридными.* Этот механизм основан на значении записи DNS LyncDiscover для любого проверенного домена Microsoft 365 (так как локальное развертывание Skype для бизнеса Server в большинстве случаев имеет эту запись), как описано ниже.
 
 При первой обработке Microsoft 365 подписки возникает следующее:
 - Если еще нет проверенных Microsoft 365 доменов, клиент создается в режиме TeamsOnly. Значение задано через TeamsUpgradeOverridePolicy, которое может быть задано только Корпорацией Майкрософт. Если значение политики — UpgradeToTeams, оно имеет приоритет над любым значением TeamsUpgradePolicy.
-- Если существуют проверенные Microsoft 365 домены, но не обнаружены общедоступные записи DNS lyncDiscover или если все обнаруженные записи LyncDiscover указывают на Microsoft 365 (sipfed.online.lync.com, sipfed.online.gov.skypeforbusiness.us и т. д.), то клиент создается в режиме TeamsOnly (через TeamsUpgradeOverridePolicy).
+- Если существуют проверенные Microsoft 365 домены, но не обнаружены общедоступные записи DNS LyncDiscover или если все обнаруженные записи LyncDiscover указывают на Microsoft 365 (sipfed.online.lync.com, sipfed.online.gov.skypeforbusiness.us и т. д.), то клиент создается в режиме TeamsOnly (через TeamsUpgradeOverridePolicy).
 - Если существует по крайней мере один проверенный Microsoft 365, для которого обнаружена запись LyncDiscover, и запись указывает где-то, кроме Microsoft 365, то клиент создается в режиме Islands.
 
 При повторной Microsoft 365 клиента (как правило, из-за изменения проверенных доменов или сведений о подписке) возникает следующее:
