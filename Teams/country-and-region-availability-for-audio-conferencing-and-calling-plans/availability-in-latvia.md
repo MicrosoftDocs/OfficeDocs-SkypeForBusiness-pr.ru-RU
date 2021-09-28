@@ -1,9 +1,9 @@
 ---
 title: Доступность в Латвии
-ms.author: crowe
-author: CarolynRowe
+ms.author: czawideh
+author: cazawideh
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
+ms.reviewer: ''
 ms.topic: reference
 ms.assetid: 01085d53-64d7-40ea-ade2-c73a48766746
 ms.tgt.pltfrm: cloud
@@ -24,13 +24,13 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже ются Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Латвии.
-ms.openlocfilehash: c0aa0d54dcbf951bbf2755995b17a3daa534cffc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Латвии.
+ms.openlocfilehash: 3004aa00132e60b1136be24426ed3ed80d72c6c6
+ms.sourcegitcommit: 84706d0b3b93c1bc72baac830fefd3f0a87c5ad1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58603584"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "59942404"
 ---
 # <a name="availability-in-latvia"></a>Доступность в Латвии
 
@@ -59,11 +59,10 @@ ms.locfileid: "58603584"
 
 |**Функция**|**Сведения**|
 |:-----|:-----|
-|Доступно ли приобретение планов звонков?  <br/> |Нет  <br/> |
-|Доступные минуты для планов звонков  <br/> |Неприменимо  <br/> |
-|Кому можно делать исходящие звонки?  <br/> |Неприменимо  <br/> |
-
-Если тарифные планы недоступны для покупки, рассмотрите возможность использования [прямой телефонной системы](../direct-routing-landing-page.md). Благодаря прямой маршрутизации вы можете использовать телефонную систему практически с любым оператором телефонной связи.
+|Доступно ли приобретение планов звонков?  <br/> |Да  <br/> |
+|Минуты, доступные для планов звонков. |В календарный месяц доступны четыре варианта плана: <ul><li>120-минутный план внутренних звонков </li><li>240-минутный план внутренних звонков</li></li><li>1200-минутный план внутренних звонков </li></li><li>План внутренних и международных звонков: 1200 минут внутренних или 600 минут международных звонков (в зависимости от того, какое количество звонков достигается первым в календарном месяце)</li></li></ul>|
+|Могут ли исходящие звонки на номера премиум-класса?  <br/> | В настоящее время поддержка не поддерживается. <br/> |
+|Кому можно делать исходящие звонки?  <br/> | [До 196 стран или регионов.](users-can-make-outbound-calls-to-these-countries-and-regions.md)<br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Платные и бесплатные номера служб
 
@@ -73,7 +72,7 @@ ms.locfileid: "58603584"
 |Доступны ли платные номера?  <br/> |Да  <br/> |
 |Доступны ли бесплатные номера?  <br/> |Да[(по запросу](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
    
- Если вы хотите получить платные и бесплатные номера телефонов для аудиоконференций, автосекретарей и очередей звонков, см. статью [Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](../getting-service-phone-numbers.md).
+Чтобы получить платные и бесплатные номера телефонов для аудиоконференций, автослужб и очередей звонков, см. получение номеров телефонов служб для Skype для бизнеса и [Microsoft Teams.](../getting-service-phone-numbers.md)
   
 ## <a name="communications-credits"></a>Кредиты на связь
 

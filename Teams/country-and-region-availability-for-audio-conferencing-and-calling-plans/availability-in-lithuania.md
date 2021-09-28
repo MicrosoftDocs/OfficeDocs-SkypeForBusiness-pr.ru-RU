@@ -1,9 +1,9 @@
 ---
 title: Доступность в Литве
-ms.author: crowe
-author: CarolynRowe
+ms.author: czawideh
+author: cazawideh
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
+ms.reviewer: ''
 ms.topic: reference
 ms.assetid: c3a51334-fff3-4b31-9618-c150adb53a0c
 ms.tgt.pltfrm: cloud
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже ются Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Литвы.
-ms.openlocfilehash: b61d09f9e6045580de9161bcca82b0bb811c2ce9
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Ниже ются Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams Для Литвы.
+ms.openlocfilehash: 0eb3979986546f9b99437bba568a1d9cd9e69460
+ms.sourcegitcommit: 84706d0b3b93c1bc72baac830fefd3f0a87c5ad1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58603528"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "59942072"
 ---
 # <a name="availability-in-lithuania"></a>Доступность в Литве
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже ются Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Литвы.
+Ниже ются Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams Для Литвы.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 
@@ -59,11 +59,10 @@ ms.locfileid: "58603528"
 
 |**Функция**|**Сведения**|
 |:-----|:-----|
-|Доступно ли приобретение планов звонков?  <br/> |Нет  <br/> |
-|Доступные минуты для планов звонков  <br/> |Неприменимо  <br/> |
-|Кому можно делать исходящие звонки?  <br/> |Неприменимо  <br/> |
-
-Если тарифные планы недоступны для покупки, рассмотрите возможность использования [прямой телефонной системы](../direct-routing-landing-page.md). Благодаря прямой маршрутизации вы можете использовать телефонную систему практически с любым оператором телефонной связи.
+|Доступно ли приобретение планов звонков?  <br/> |Да  <br/> |
+|Минуты, доступные для планов звонков. |В календарный месяц доступны четыре варианта плана: <ul><li>120-минутный план внутренних звонков </li><li>240-минутный план внутренних звонков</li></li><li>1200-минутный план внутренних звонков </li></li><li>План внутренних и международных звонков: 1200 минут внутренних или 600 минут международных звонков (в зависимости от того, какое количество звонков достигается первым в календарном месяце)</li></li></ul>|
+|Могут ли исходящие звонки на номера премиум-класса?  <br/> | В настоящее время поддержка не поддерживается. <br/> |
+|Кому можно делать исходящие звонки?  <br/> | До 196 стран или регионов, включая [эти](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Платные и бесплатные номера служб
 

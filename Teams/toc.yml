@@ -1101,10 +1101,14 @@ items:
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-belgium.md
               - name: Управление номерами телефонов в Канаде
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-canada.md
+              - name: Управление номерами телефонов в Хорватии
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-croatia.md
               - name: Управление номерами телефонов в Чехии
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-czech-republic.md
               - name: Управление номерами телефонов в Дании
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-denmark.md
+              - name: Управление номерами телефонов в Эстонии
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-estonia.md
               - name: Управление номерами телефонов в Финляндии
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-finland.md
               - name: Управление номерами телефонов во Франции
@@ -1119,6 +1123,10 @@ items:
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-italy.md
               - name: Управление номерами телефонов в Японии
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-japan.md
+              - name: Управление номерами телефонов в Латвии
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-latvia.md
+              - name: Управление номерами телефонов в Литве
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-lithuania.md
               - name: Управление номерами телефонов в Люксембурге
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-luxembourg.md
               - name: Управление номерами телефонов в Новой Зеландии
@@ -1135,6 +1143,8 @@ items:
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-singapore.md
               - name: Управление номерами телефонов в Словакии
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-slovakia.md
+              - name: Управление номерами телефонов в Словении
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-slovenia.md
               - name: Управление номерами телефонов в Испании
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-spain.md
               - name: Управление номерами телефонов в Нидерландах
@@ -1559,7 +1569,7 @@ items:
             href: audio-conferencing-with-direct-routing-for-gcch-and-dod.md
           - name: Пакеты политик Teams для государственных организаций
             href: policy-packages-gov.md
-  - name: Справочные материалы
+  - name: Справка
     items:
       - name: Ограничения и спецификации для Teams
         href: limits-specifications-teams.md

@@ -1,9 +1,9 @@
 ---
 title: Доступность в Польше
-ms.author: crowe
-author: CarolynRowe
+ms.author: czawideh
+author: cazawideh
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
+ms.reviewer: ''
 ms.topic: reference
 ms.assetid: c5dcb36b-9700-46c8-8499-d5cadb218a37
 ms.tgt.pltfrm: cloud
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже ются Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Польша.
-ms.openlocfilehash: 93296a036a1c5f145267e508dacd6f43b147838e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Ниже ются Microsoft 365 и Office 365 службы Skype для бизнеса и Microsoft Teams для Польша.
+ms.openlocfilehash: 88cfb406eba215b8c0134c0c479532bf50870ad4
+ms.sourcegitcommit: 84706d0b3b93c1bc72baac830fefd3f0a87c5ad1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617535"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "59941842"
 ---
 # <a name="availability-in-poland"></a>Доступность в Польше
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже ются Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Польша.
+Ниже ются Microsoft 365 и Office 365 службы Skype для бизнеса и Microsoft Teams для Польша.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 
@@ -57,15 +57,12 @@ ms.locfileid: "58617535"
    
 ## <a name="calling-plans"></a>Планы звонков
 
-> [!IMPORTANT]
-> В настоящее время в Польша в связи с выполнением заказов на выполнение новых номеров телефонов и переносом номеров выполняются непредвиденные задержки. Вы можете продолжить размещение заказов, но имейте в виду, что мы ожидаем, что эта задержка будет решена к сентябрю, после чего будут выполнены все ожидающих выполнения заказы.
-
 |**Функция**|**Сведения**|
 |:-----|:-----|
 |Доступно ли приобретение планов звонков?  <br/> |Да  <br/> |
-|Минуты, доступные для планов звонков. |В календарный месяц доступны четыре варианта плана: <ul><li>120-минутный план внутренних звонков </li><li>240-минутный план внутренних звонков</li></li><li>План внутренних звонков на 1200 минут </li></li><li>План внутренних и международных звонков: 1200 минут внутренних или 600 минут международных звонков (в зависимости от того, какое количество звонков достигается первым в календарном месяце)</li></li></ul>|
+|Минуты, доступные для планов звонков. |В календарный месяц доступны четыре варианта плана: <ul><li>120-минутный план внутренних звонков </li><li>240-минутный план внутренних звонков</li></li><li>1200-минутный план внутренних звонков </li></li><li>План внутренних и международных звонков: 1200 минут внутренних или 600 минут международных звонков (в зависимости от того, какое количество звонков достигается первым в календарном месяце)</li></li></ul>|
 |Могут ли исходящие звонки на номера премиум-класса?  <br/> | В настоящее время поддержка не поддерживается. <br/> |
-|Кому можно делать исходящие звонки?  <br/> | В 196 стран мира, в том числе [следующие](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/> |
+|Кому можно делать исходящие звонки?  <br/> | До 196 стран или регионов, включая [эти](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Платные и бесплатные номера служб
 

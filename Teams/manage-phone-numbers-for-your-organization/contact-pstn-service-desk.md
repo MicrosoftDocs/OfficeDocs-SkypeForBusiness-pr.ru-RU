@@ -23,12 +23,12 @@ ms.custom:
 - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
 description: Когда вы получаете номера телефонов или номера портов (передача) для организации, вам может потребоваться помощь и поддержка службы поддержки ТСОП.
-ms.openlocfilehash: 01c54f1b6c5592626349841dea0dd4ec197d7488
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 65ebe954fb9a8b101489c9add7739b24bdd529bc
+ms.sourcegitcommit: 84706d0b3b93c1bc72baac830fefd3f0a87c5ad1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598473"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "59941862"
 ---
 # <a name="pstn-service-desk"></a>Служба поддержки телефонной сети общего пользования 
 
@@ -61,7 +61,6 @@ ms.locfileid: "58598473"
 - **[Оставить отзыв](#view-and-manage-existing-cases)** – поделитесь своим мнением с нами. 
 
 - **[Ваше имя]**  – обновите свое имя в профиле. 
-
 
 ## <a name="create-a-new-case"></a>Создание нового обращения
 

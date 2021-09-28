@@ -1,9 +1,9 @@
 ---
 title: Доступность в Хорватии
-ms.author: crowe
-author: CarolynRowe
+ms.author: czawideh
+author: cazawideh
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
+ms.reviewer: ''
 ms.topic: reference
 ms.assetid: 30a528ca-43bc-4e7f-81fe-3adc7d3d6acb
 ms.tgt.pltfrm: cloud
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Ниже ются Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Хорватии.
-ms.openlocfilehash: 64c0c0ff31fa7952ffc89063ae2c2c5fb52631c8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6726546044b361c9f858ec125f78390c8dabd354
+ms.sourcegitcommit: 84706d0b3b93c1bc72baac830fefd3f0a87c5ad1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58635783"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "59942424"
 ---
 # <a name="availability-in-croatia"></a>Доступность в Хорватии
 
@@ -59,11 +59,10 @@ ms.locfileid: "58635783"
 
 |**Функция**|**Сведения**|
 |:-----|:-----|
-|Доступно ли приобретение планов звонков?  <br/> |Нет  <br/> |
-|Доступные минуты для планов звонков  <br/> |Неприменимо  <br/> |
-|Кому можно делать исходящие звонки?  <br/> |Неприменимо  <br/> |
-
-Если тарифные планы недоступны для покупки, рассмотрите возможность использования [прямой телефонной системы](../direct-routing-landing-page.md). Благодаря прямой маршрутизации вы можете использовать телефонную систему практически с любым оператором телефонной связи.
+|Доступно ли приобретение планов звонков?  <br/> |Да  <br/> |
+|Минуты, доступные для планов звонков. |В календарный месяц доступны четыре варианта плана: <ul><li>120-минутный план внутренних звонков </li><li>240-минутный план внутренних звонков</li></li><li>1200-минутный план внутренних звонков </li></li><li>План внутренних и международных звонков: 1200 минут внутренних или 600 минут международных звонков (в зависимости от того, какое количество звонков достигается первым в календарном месяце)</li></li></ul>|
+|Могут ли исходящие звонки на номера премиум-класса?  <br/> | В настоящее время поддержка не поддерживается. <br/> |
+|Кому можно делать исходящие звонки?  <br/> | До 196 стран или регионов, включая [эти](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Платные и бесплатные номера служб
 
