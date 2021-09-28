@@ -22,12 +22,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d875108648ca8fe91d67c03b7c569c59048cfa43
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 189b821e7238911190c4c72c07b863fc961f3074
+ms.sourcegitcommit: ab9d27d7ddd1494539ae9424de200c9d0e76a9ec
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58589723"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "59984614"
 ---
 # <a name="add-and-update-reporting-labels"></a>Добавление и обновление наклеек для отчетов
 
@@ -40,10 +40,10 @@ ms.locfileid: "58589723"
 
 **Изменение таблицы подсетей и местоположений**
 
-1. В левой области навигации Центра администрирования Microsoft Teams щелкните **Метки** отчетов  >  **о расположениях**.
+1. В левой области навигации Центра администрирования Microsoft Teams нажмите кнопку Аналитика & **отчеты**  >  **Метки отчетов**.
 2. Щелкните **Upload данных**.
 3. В области **Upload** выберите выберите файл **,** а затем найдите и загрузите измененный .csv или TSV-файл.
-4. Нажмите **Upload**.
+4. Нажмите **кнопку Upload**.
 
 Пример шаблона можно скачать [здесь.](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/locations-template.zip?raw=true)
 
@@ -61,7 +61,7 @@ ms.locfileid: "58589723"
 
 Дополнительные сведения о форматирование файла данных см. в материалах Формат файла данных клиента и [Структура файла данных здания.](CQD-upload-tenant-building-data.md#upload-building-data-file)
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
 [Настройка аналитики звонков](set-up-call-analytics.md)
 
