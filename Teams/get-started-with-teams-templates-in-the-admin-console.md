@@ -1,54 +1,55 @@
 ---
-title: Использование шаблонов групп в Центре администрирования
-author: cichur
-ms.author: v-cichur
-manager: serdars
+title: Начало работы с шаблонами групп в Центре Teams администрирования
+author: LanaChin
+ms.author: v-lanachin
+manager: samanro
 audience: Admin
 ms.topic: conceptual
 ms.service: msteams
-ms.reviewer: aaglick
+ms.reviewer: yinchang
 ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-description: Узнайте, как использовать шаблоны команд для создания пространства для совместной работы с каналами для различных тем с помощью предустановленных шаблонов.
+description: Узнайте о шаблонах групп и управлении ими в центре Microsoft Teams администрирования.
 f1.keywords:
 - CSH
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2ab5eb94740138af0405378728516bd4dfbaf2c7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 19333badf3df580129ab7a805cf27c670748d299
+ms.sourcegitcommit: 6a65e318d49d8990f2b3409ff7bb2c61ea1f2525
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58584563"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "59991148"
 ---
-# <a name="get-started-with-team-templates-in-the-admin-center"></a>Начало работы с шаблонами групп в Центре администрирования
+# <a name="get-started-with-team-templates-in-the-teams-admin-center"></a>Начало работы с шаблонами групп в Центре Teams администрирования
 
 **Возможность создавать пользовательские шаблоны пока не поддерживается пользователями EDU.**
 
 > [!NOTE]
 > Частные каналы и метки конфиденциальности в настоящее время не поддерживаются в шаблонах группы. Создание частного канала не включается в определения шаблонов. Параметр метки конфиденциальности в **потоке** создания команды из шаблона не применяется к команде.
 
-Шаблоны команд — это готовые определения структуры группы, разработанной на реализации бизнес-потребности или проекта. Используйте встроенные шаблоны или создайте собственный. С помощью шаблонов команд можно быстро создавать форматные пространства для совместной работы с каналами для разных тем и предустановлять приложения для создания критически важных материалов и служб. Шаблоны групп обеспечивают предопределеобразную структуру команды, которая поможет вам легко создать согласованные команды в организации. В настоящее время вы можете создать команду на Teams или с помощью [Microsoft Graph.](get-started-with-teams-templates.md)
+## <a name="overview"></a>Обзор
 
-В этой статье описаны следующие возможности:
+Шаблон группы в Microsoft Teams — это определение структуры группы, разработанной на реализации бизнес-потребности или проекта. Как администратор вы можете использовать шаблоны для простого развертывания согласованных групп в организации. С помощью шаблонов пользователи могут быстро создавать форматирование пространства для совместной работы с заранее задав параметры, каналы и приложения.
 
-- Свойства, которые можно определить в шаблонах.
-- Базовые типы шаблонов.
-- Как использовать несколько примеров запросов для создания команды на шаблоне.
+Вы можете управлять шаблонами групп в Microsoft Teams центре администрирования или с помощью PowerShell. Вы можете использовать встроенные шаблоны, которые мы предоставляем, а также создавать [собственные.](#create-your-own-team-templates) Вы также [можете применять политики шаблонов](#apply-team-template-policies) для управления тем, какие шаблоны доступны пользователям в Teams.
 
-Эта статья для вас, если вы отвечаете за планирование, развертывание и управление несколькими командами в организации.
+В этой статье представлен обзор работы с шаблонами групп в Центре Teams администрирования. Вы узнаете о свойствах, которые поддерживаются в шаблонах, готовых шаблонах, ограничениях на размер шаблонов, о том, как создавать шаблоны и управлять ими, а также делать много другое.
+
+> [!NOTE]
+> Пользователи могут [создавать команды из встроенных](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c) или настраиваемых шаблонов в Teams приложения. Разработчики также могут программным путем создавать команды из встроенных шаблонов команд с помощью Microsoft Graph. Дополнительные узнать [см.](get-started-with-teams-templates.md)в этой Graph.
 
 ## <a name="team-template-capabilities"></a>Возможности шаблонов команд
 
-Большинство свойств группы включаются и поддерживаются шаблонами. Но есть несколько свойств и функций, которые в настоящее время не поддерживаются. В следующей таблице кратко кратко о том, что включается и что нет в шаблонах команд.
+Большинство свойств группы включаются и поддерживаются шаблонами команд. Но есть несколько свойств и функций, которые в настоящее время не поддерживаются. Вот краткое описание того, что входит в шаблоны команд.
 
 | **Свойства группы, поддерживаемые шаблонами команд** | **Свойства группы пока не поддерживаются шаблонами команд** |
 | ------------------------------------------------ | -------------------------------------------------------- |
-| Тип базового шаблона | Участники команды |
+| Тип шаблона | Участники команды |
 | Название команды | Изображение группы |
 | Описание группы | Параметры канала |
 | Видимость группы (общедоступный или закрытый) | Соединители |
@@ -58,44 +59,42 @@ ms.locfileid: "58584563"
 | Закрепленные вкладки | |
 
 > [!NOTE]
-> Мы будем добавлять дополнительные возможности шаблонов в будущих выпусках Microsoft Teams, поэтому ознакомьтесь с самыми последние сведения о поддерживаемых свойствах.
+> Мы добавим дополнительные возможности шаблонов в будущих выпусках Microsoft Teams, поэтому ознакомьтесь с самой информацией о поддерживаемых свойствах.
 
-## <a name="what-are-base-template-types"></a>Базовые типы шаблонов
+## <a name="pre-built-team-templates-in-the-teams-admin-center"></a>Встроенные шаблоны групп в Центре Teams администрирования
 
-Базовые типы шаблонов — это специальные шаблоны, созданные корпорацией Майкрософт для конкретных отраслей. Эти базовые шаблоны часто содержат собственные приложения, которые недоступны в магазине приложений.
+Вот готовые шаблоны команд, которые можно найти в центре Teams администрирования. Готовые шаблоны — это шаблоны, созданные для определенных отраслей. Чтобы просмотреть эти шаблоны, в левой области навигации центра администрирования Teams перейдите в Teams  >  **шаблоны групп**.
 
-После определения базового типа шаблона можно расширить или переопредидить эти специальные шаблоны с дополнительными свойствами, которые вы хотите указать. Некоторые базовые типы шаблонов содержат свойства, которые нельзя переопрепредить.
+Вы можете дублировать встроенные шаблоны, но не редактировать их. Если вы хотите изменить свойства встроенного шаблона, можно создать новый шаблон из существующего, а затем добавить или удалить нужные свойства. Помните, что некоторые свойства некоторых шаблонов изменить нельзя.
 
-> [!NOTE]
-> Предопределяющиеся базовые шаблоны, Microsoft Teams можно дублировать, но не редактировать.
-
-| Тип базового шаблона | baseTemplateId | Свойства базового шаблона |
+| Тип шаблона | TemplateId | Свойства этого шаблона |
 | ------------------ | -------------- | ----------------------------------------------------- |
-| Принятие Office 365 |`com.microsoft.teams.template.AdoptOffice365`|  Каналы: <ul><li>Общие</li> <li>Объявления</li> <li>Угловой угол химок</li> <li>Формы команд</li><li>Календарь</li></ul> Приложения: <ul><li>Вики</li>  <li>Календарь канала</li> |
-| Управление проектом |`com.microsoft.teams.template.ManageAProject`| Каналы: <ul><li>Общие</li> <li>Объявления</li> <li>Ресурсы</li> <li>Планирование</li></ul> Приложения:<ul><li>Вики</li><li>OneNote</li><li>Планировщик</li><li>Списки</li>  </ul> |
-| Управление событием|`com.microsoft.teams.template.ManageAnEvent` | Каналы: <ul><li>Общие</li> <li>Объявления</li> <li>Бюджет</li> <li>Содержимое</li><li>Логистика</li> <li>Планирование</li> <li> Маркетинг и PR</li></ul> Приложения:<ul><li>Вики</li><li>Сайт</li> <li>YouTube</li> <li>Планировщик</li> <li>OneNote</li> <li>Идеи сотрудников</li> <li>Issue Reporter</li></ul> |
-|Сотрудники, работающие на доске|`com.microsoft.teams.template.OnboardEmployees` | Каналы: <ul><li>Общие</li> <li>Объявления</li> <li>Чат сотрудника</li> <li>Обучение</li></ul>Приложения:<ul><li>Вики</li><li>Общин</li><li>Планировщик</li><li>Идеи сотрудников</li></ul>|
-|Организовать службу поддержки| `com.microsoft.teams.template.OrganizeHelpDesk`|Каналы:<ul><li>Общие</li><li>Объявления</li><li>Вопросы и ответы</li></ul>Приложения:<ul><li>Вики</li><li>OneNote</li><li>Планировщик </li><li>Благодарность</li><li>Issue Reporter</li></ul> |
-| Уход за пациентом| `healthcareWard`| Каналы:<ul><li>Общие</li><li>Объявления</li><li>Совещания</li><li>Обходы</li><li>Персонал</li><li>Обучение</li></ul> Приложения: <ul><li>Вики</li><li>Списки  </li><li>Утверждения</li></ul>|
-| Работайте вместе над глобальными событиями и событиями |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent`| Каналы: <ul><li>Общие<li>Объявления</li><li>Новости мира</li><li>Непрерывность бизнеса</li><li>Удаленная работа</li><li>Внутренние запятые</li><li>Внешние запятые</li><li>Запрос на утверждение</li><li>Жалобы клиентов</li><li>Слава</li><li>Обновление руководства</li></ul>Приложения: <ul><li>Благодарность</li><li>Вики</li><li>Сайт</li><li>Планировщик</li><li>Issue Reporter</li></ul>|
-|Bank branch| `com.microsoft.teams.template.CollaborateWithinABankBranch`|Каналы: <ul><li>Общие<li>Объявления</li><li>Совещания</li><li>Собрания клиентов</li><li>Запрос на утверждение </li><li>Коучинг</li><li>Разработка навыков</li><li>Обработка ссуды</li><li>Жалобы клиентов</li><li>Слава</li><li>Интересные материалы</li><li>Соответствие требованиям</li></ul>Приложения:<ul><li>Благодарность </li><li>Issue Reporter</li></ul>|
-|Реагирование на инцидент| `com.microsoft.teams.template.CoordinateIncidentResponse`|Каналы: <ul><li>Общие<li>Объявления</li><li>Логистика</li><li>Планирование</li><li>Восстановления</li><li>Срочно</li></ul> Приложения: <ul><li>Вики</li><li>Excel</li><li>OneNote</li><li>SharePoint</li><li>Планировщик</li> <li>Утверждения</li> <li>Инспекции</li> </ul>|
-|Больница| `healthcareHospital` |Каналы: <ul><li>Общие</li><li>Объявления</li><li>Соответствие требованиям</li><li>Госпитализация</li><li>Кадры</li><li>Аптека</li></ul> Приложения: <ul><li>Вики</li><li>Списки  </li></ul>|
-|Организация магазина| `retailStore` |Каналы: <ul><li>Общий<li>Передача смены</li><li>Обучение</li></ul> Приложения: <ul><li>Вики</li><li>Планировщик</li></ul>|
-|Качество и безопасность |`com.microsoft.teams.template.QualitySafety`|Каналы: <ul><li>Общие<li>Объявления</li><li>Строка 1</li><li>Строка 2</li><li>Строка 3</li><li>Безопасности</li><li>Обучение</li><li>Обслуживания</li><li>Интересные материалы</li></ul> Приложения: <ul><li>Вики</li><li>Планировщик</li> <li>Issue Reporter</li> <li>Инспекции</li> </ul>|
-|Розничная торговля для руководителей| `retailManagerCollaboration` |Каналы: <ul><li>Общий<li>Операции</li><li>Обучение</li></ul> Приложения: <ul><li>Вики</li><li>Планировщик</li></ul>|
-||||
+| Принять Office 365 |`com.microsoft.teams.template.AdoptOffice365`|  Каналы: <ul><li>Общие</li> <li>Объявления</li> <li>Угловой угол химок</li> <li>Формы команд</li><li>Календарь</li></ul> Приложения: <ul><li>Вики</li>  <li>Календарь канала</li> <li>Вехи</li><li>Бюллетени</li></ul>|
+| Управление проектом |`com.microsoft.teams.template.ManageAProject`| Каналы: <ul><li>Общие</li> <li>Объявления</li> <li>Ресурсы</li> <li>Планирование</li></ul> Приложения:<ul><li>Вики</li><li>OneNote</li><li>Задачи</li><li>Списки</li><li>Power Automate</li></ul> |
+| Управление событием|`com.microsoft.teams.template.ManageAnEvent` | Каналы: <ul><li>Общие</li> <li>Объявления</li> <li>Бюджет</li> <li>Содержимое</li><li>Логистика</li> <li>Планирование</li> <li> Маркетинг и PR</li></ul> Приложения:<ul><li>Вики</li><li>Сайт</li> <li>YouTube</li> <li>Задачи</li> <li>OneNote</li> <li>Идеи сотрудников</li> <li>Issue Reporter</li><li>Power Automate</li><li>Бюллетени</li><li>Вехи</li></ul> |
+|Сотрудники, работающие на доске|`com.microsoft.teams.template.OnboardEmployees` | Каналы: <ul><li>Общие</li> <li>Объявления</li> <li>Чат сотрудника</li> <li>Обучение</li></ul>Приложения:<ul><li>Вики</li><li>Общин</li><li>Задачи</li><li>Идеи сотрудников</li><li>Power Automate</li><li>Бюллетени</li><li>Вехи</li></ul>|
+|Организовать службу поддержки| `com.microsoft.teams.template.OrganizeHelpDesk`|Каналы:<ul><li>Общие</li><li>Объявления</li><li>Вопросы и ответы</li></ul>Приложения:<ul><li>Вики</li><li>OneNote</li><li>Задачи </li><li>Благодарность</li><li>Issue Reporter</li><li>Power Automate</li><li>Бюллетени</li></ul> |
+| Уход за пациентом| `com.microsoft.teams.template.healthcareWard`| Каналы:<ul><li>Общие</li><li>Объявления</li><li>Совещания</li><li>Обходы</li><li>Персонал</li><li>Обучение</li></ul> Приложения: <ul><li>Вики</li><li>Списки  </li><li>Утверждения</li><li>Бюллетени</li><li>Инспекции</li></ul>|
+| Связь скризис |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent`| Каналы: <ul><li>Общие<li>Объявления</li><li>Новости мира</li><li>Внутренние запятые</li><li>Внешние запятые</li><li>Запрос на утверждение</li><li>Рост клиентов</li><li>Обновление руководства</li><li>Планирование</li><li>Логистика</li></ul>Приложения: <ul><li>Сайт</li><li>Задачи</li><li>Issue Reporter</li><li>Утверждения</li><li>Бюллетени</li><li>OneNote</li><li>Power Automate</li><li>SharePoint</li></ul>|
+|Bank branch| `com.microsoft.teams.template.CollaborateWithinABankBranch`|Каналы: <ul><li>Общие<li>Объявления</li><li>Совещания</li><li>Собрания клиентов</li><li>Запрос на утверждение </li><li>Коучинг</li><li>Разработка навыков</li><li>Обработка ссуды</li><li>Жалобы клиентов</li><li>Слава</li><li>Интересные материалы</li><li>Соответствие требованиям</li></ul>Приложения:<ul><li>Благодарность </li><li>Issue Reporter</li><li>Вики</li><li>Календарь</li><li>Утверждения</li><li>Бюллетени</li><li>Идеи</li></ul>|
+|Реагирование на инцидент| `com.microsoft.teams.template.CoordinateIncidentResponse`|Каналы: <ul><li>Общие<li>Объявления</li><li>Логистика</li><li>Планирование</li><li>Восстановления</li><li>Срочно</li></ul> Приложения: <ul><li>Вики</li><li>Excel</li><li>OneNote</li><li>SharePoint</li><li>Задачи</li> <li>Утверждения</li> <li>Инспекции</li> <li>Power Automate</li><li>Бюллетени</li><li>Вехи</li></ul>|
+|Больница| `com.microsoft.teams.template.healthcareHospital` |Каналы: <ul><li>Общие</li><li>Объявления</li><li>Соответствие требованиям</li><li>Госпитализация</li><li>Кадры</li><li>Аптека</li></ul> Приложения: <ul><li>Вики</li><li>Списки</li><li>Задачи</li><li>Утверждения</li><li>Смены</li><li>Бюллетени</li><li>Инспекции</li><li>Идеи</li></ul>|
+|Организация магазина| `com.microsoft.teams.template.retailStore` |Каналы: <ul><li>Общий<li>Передача смены</li><li>Готовность Магазина</li><li>Обучение</li></ul> Приложения: <ul><li>Вики</li><li>Задачи</li><li>Смены</li><li>Инспекции</li></ul>|
+|Розничная торговля для руководителей| `com.microsoft.teams.template.retailManagerCollaboration` |Каналы: <ul><li>Общий<li>Операции</li><li>Обучение</li></ul> Приложения: <ul><li>Вики</li><li>Задачи</li><li>Инспекции</li></ul>|
+|Качество и безопасность |`com.microsoft.teams.template.QualitySafety`|Каналы: <ul><li>Общие<li>Объявления</li><li>Руководство</li><li>Обслуживания</li><li>Production Line 1</li><li>Production Line 2</li><li>Production Line 3</li><li>Здоровье и безопасность</li><li>Учебный курс</li><li>Интересные материалы</li></ul> Приложения: <ul><li>Вики</li><li>Задачи</li> <li>Issue Reporter</li> <li>Инспекции</li> </ul>|
 
-Дополнительные сведения о категориях шаблонов см. в следующих категориях:
+### <a name="team-templates-by-category-and-industry"></a>Шаблоны команд по категориям и от отрасли
 
-- [Финансовые шаблоны](financial-teams-templates-in-the-admin-console.md)
-- [Общие шаблоны](general-teams-templates-in-the-admin-console.md)
-- [Шаблоны для государственных органов](government-teams-templates-in-the-admin-console.md)
-- [Шаблоны для здравоохранения](expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md)
-- [Производственные шаблоны](manufacturing-teams-templates-in-the-admin-console.md)
-- [Шаблоны для розничной торговли](retail-teams-templates-in-the-admin-console.md)
+Дополнительные сведения о способах использования встроенных шаблонов в отрасли см. в:
 
-## <a name="template-size-limits"></a>Ограничения размера шаблона
+- [Шаблоны финансовой группы](financial-teams-templates-in-the-admin-console.md)
+- [Общие шаблоны команд](general-teams-templates-in-the-admin-console.md)
+- [Шаблоны для государственных команд](government-teams-templates-in-the-admin-console.md)
+- [Шаблоны медицинских команд](expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md)
+- [Шаблоны производственных команд](manufacturing-teams-templates-in-the-admin-console.md)
+- [Шаблоны розничных команд](retail-teams-templates-in-the-admin-console.md)
+
+## <a name="team-template-size-limits"></a>Ограничения размера шаблона группы
 
 Шаблоны ограничиваются определенным количеством каналов, вкладок и приложений.
 
@@ -109,11 +108,31 @@ ms.locfileid: "58584563"
 |Приложения для каждого шаблона | 50|
 |||
 
-Дополнительные [сведения см. в Teams](limits-specifications-teams.md) ограничений и спецификаций.
+Дополнительные сведения см. [в Teams.](limits-specifications-teams.md)
 
-## <a name="manage-templates-in-powershell"></a>Управление шаблонами в PowerShell
+## <a name="manage-team-templates"></a>Управление шаблонами команд
 
-Для управления шаблонами в PowerShell используйте следующие cmdlts:
+### <a name="manage-team-templates-in-the-teams-admin-center"></a>Управление шаблонами групп в Центре Teams администрирования
+
+#### <a name="view-team-templates"></a>Просмотр шаблонов команд
+
+Чтобы просмотреть шаблоны групп, в левой области навигации центра администрирования Teams перейдите в Teams  >  **шаблоны групп**. Выберите шаблон, чтобы увидеть дополнительные сведения, включая каналы и приложения, которые он содержит.
+
+#### <a name="create-your-own-team-templates"></a>Создание собственных шаблонов команд
+
+Вы можете создавать собственные настраиваемые шаблоны с нуля, из существующей команды и из существующего шаблона. Дополнительные сведения см. в статьях
+
+- [Создание пользовательского шаблона команды](create-a-team-template.md)
+- [Создание шаблона из существующей команды](create-template-from-existing-team.md)
+- [Создание шаблона команды из существующего шаблона группы](create-template-from-existing-template.md)
+
+#### <a name="apply-team-template-policies"></a>Применение политик шаблонов команд
+
+Чтобы управлять шаблонами, которые пользователи видят Teams для создания команд, можно настроить политики шаблонов и назначить их пользователям и группам в организации. Подробнее см. в центре администрирования Teams [управление шаблонами групп.](templates-policies.md)
+
+### <a name="manage-team-templates-using-powershell"></a>Управление шаблонами команд с помощью PowerShell
+
+Для управления шаблонами в PowerShell используйте следующие cmdlets:
 
 - [Get-CsTeamTemplate](/powershell/module/teams/get-csteamtemplate?view=teams-ps) 
 - [Get-CsTeamTemplateList](/powershell/module/teams/get-csteamtemplatelist?view=teams-ps)
@@ -121,8 +140,7 @@ ms.locfileid: "58584563"
 - [Remove-CsTeamTemplate](/powershell/module/teams/remove-csteamtemplate?view=teams-ps) 
 - [Update-CsTeamTemplate](/powershell/module/teams/update-csteamtemplate?view=teams-ps)
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-articles"></a>Статьи по теме
 
-- [Создание пользовательского шаблона команды](create-a-team-template.md)
-- [Создание шаблона команды из существующего шаблона группы](create-template-from-existing-template.md)
-- [Создание шаблона из существующей команды](create-template-from-existing-team.md)
+- [Создание команды на 2016 г. на 2016 г.](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c)
+- [Начало работы с шаблонами команд с помощью Microsoft Graph](get-started-with-teams-templates.md) 
