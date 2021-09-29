@@ -739,7 +739,7 @@ items:
                 href: ptsn-mask-phone-numbers.md
           - name: Доступность аудиоконференций в различных странах и регионах
             href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
-          - name: Справочные материалы
+          - name: Справка
             items:
               - name: Поддерживаемые языки аудиоконференций
                 href: audio-conferencing-supported-languages.md
@@ -1548,7 +1548,7 @@ items:
       - name: Teams для розничной торговли
         href: expand-teams-across-your-org/teams-for-retail-landing-page.md
         items:
-          - name: Начало работы с шаблонами Teams для розничной торговли
+          - name: Использование шаблонов команд розничной торговли
             href: get-started-with-retail-teams-templates.md
       - name: Teams для государственных организаций
         href: expand-teams-across-your-org/teams-for-government-landing-page.md
