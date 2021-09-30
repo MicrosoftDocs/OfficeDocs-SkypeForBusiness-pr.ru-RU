@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 78a664ba-fefc-4423-ac8f-b58e6fbc2e55
 description: Ознакомьтесь с этой темой, чтобы узнать, есть ли у Skype для бизнеса лицензия на программное обеспечение.
-ms.openlocfilehash: 23ea556a8afd7160e20a1ddd0b4e1d044761d4d1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: dadb373bacd5af72c11d8e8945825acce7bc5b5e
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58583333"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60011533"
 ---
 # <a name="skype-room-system-skype-for-business-software-license"></a>Skype Система номеров: Skype для бизнеса лицензия на программное обеспечение
  
@@ -30,8 +30,6 @@ Skype Room System использует установленный Skype для �
 Если KMS на месте и будет распространять Skype для бизнеса том лицензии, Skype система номеров автоматически активирует Skype для бизнеса клиента. Чтобы узнать, KMS ли они на месте:
   
 Из командной подсказки запустите:  `nslookup -type=srv _vlmcs._tcp >%temp%\kms.txt`
-  
-Дополнительные сведения см. в Office и Windows KMS с помощью DNS и удаление [несанкционированных экземпляров.](https://blogs.technet.com/b/odsupport/archive/2011/11/14/how-to-discover-kms-hosts-via-a-dns-query-and-remove-them-if-need-be.aspx) 
   
 Чтобы настроить KMS, KMS активации [Office 2013](/previous-versions/office/office-2013-resource-kit/ee624357(v=office.15)) г. и GVLKs для KMS и active [Directory активации Office 2013](/DeployOffice/vlactivation/gvlks) г.
   

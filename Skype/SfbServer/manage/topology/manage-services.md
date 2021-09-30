@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Узнайте, как просматривать состояние служб, запускать и останавливать службы и предотвращать сеансы для служб.
-ms.openlocfilehash: 8c1f527e32d50624fddc1b4b261f6fbd20e97a47
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 52d87c8e2f803f31496e773e82d7466a22711550
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604828"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60015113"
 ---
 # <a name="manage-services-in-skype-for-business-server"></a>Управление службами в Skype для бизнеса Server
 
@@ -77,7 +77,7 @@ RoleName                                  Status
 {MediationServer}                         Running
 ```
 
-Подробные сведения [см. в материале Get-CsWindowsService.](/powershell/module/skype/Get-CsWindowsService)
+Подробные сведения [см. в материале Get-CsWindowsService.](/powershell/module/skype/get-cswindowsservice)
 
 ## <a name="start-or-stop-skype-for-business-services"></a>Запуск или остановка Skype для бизнеса служб
 

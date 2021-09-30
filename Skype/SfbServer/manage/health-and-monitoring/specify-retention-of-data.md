@@ -11,17 +11,17 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: c0fd6056-87bc-4136-902a-f1b37cd3a1ca
-description: Сводка. Сведения о том, как управлять данными регистрации детализации вызовов (CDR) для Skype для бизнеса Server.
-ms.openlocfilehash: d79745de9e0194d52bfe3330e516b906fedf464c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Сводка. Сведения об управлении данными записи детализации вызовов (CDR) для Skype для бизнеса Server.
+ms.openlocfilehash: 8588447d7e12123c0d10ae15b07a7727d94c0f27
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593723"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013763"
 ---
 # <a name="specify-retention-of-cdr-data-in-skype-for-business-server"></a>Укажите хранение данных CDR в Skype для бизнеса Server
  
-**Сводка:** Узнайте, как управлять данными записи фиксации вызовов (CDR) для Skype для бизнеса Server.
+**Сводка:** Узнайте, как управлять данными записи детализации вызовов (CDR) для Skype для бизнеса Server.
   
 По умолчанию данные регистрации вызовов (CDR) удаляются по прошествии 60 дней. Можно использовать параметры на странице **Регистрация вызовов**, чтобы задать хранение данных в течение большего или меньшего времени. Если отключить CDR, то данные, которые были записаны до включения CDR, также будут удаляться.
   
@@ -32,9 +32,9 @@ ms.locfileid: "58593723"
   
 ### <a name="to-specify-retention-of-cdr-data"></a>Настройка хранения данных CDR
 
-1. С учетной записи пользователя, которая входит в группу RTCUniversalServerAdmins (или имеет эквивалентные права пользователя) или назначена роли CsServerAdministrator или CsAdministrator, войдите на любой компьютер, который находится в сети, в которой вы развернули Skype для бизнеса Server.
+1. С учетной записи пользователя, которая входит в группу RTCUniversalServerAdmins (или имеет эквивалентные права пользователя) или назначена роли CsServerAdministrator или CsAdministrator, войдите на любой компьютер, который находится в сети, в которой развернут Skype для бизнеса Server.
     
-2. Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель Skype для бизнеса Server управления.  
+2. Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Skype для бизнес-серверов.  
     
 3. В левой панели навигации щелкните **Мониторинг и архивирование**, а затем — **Регистрация вызовов**.
     
@@ -50,7 +50,7 @@ ms.locfileid: "58593723"
     
 ## <a name="specifying-cdr-retention-by-using-windows-powershell-cmdlets"></a>Указание хранения CDR с помощью Windows PowerShell-кодов
 
-Параметры хранения CDR можно создать с помощью Windows PowerShell и командлета Set-CsCdrConfiguration. Этот комлет можно выполнить либо из Skype для бизнеса Server, либо из удаленного сеанса Windows PowerShell. Сведения об использовании удаленных Windows PowerShell для подключения к Skype для бизнеса Server см. в статье блога ["Быстрый запуск: управление Microsoft Lync Server 2010 с](https://go.microsoft.com/fwlink/p/?linkId=255876)помощью удаленной powerShell". Этот процесс в Skype для бизнеса Server.
+Параметры хранения CDR можно создать с помощью Windows PowerShell и командлета Set-CsCdrConfiguration. Этот комлет можно выполнить либо из оболочки управления skype для бизнес-серверов, либо из удаленного сеанса Windows PowerShell. Сведения об использовании удаленных Windows PowerShell для подключения к Skype для бизнеса Server см. в материале [Microsoft Lync Remote PowerShell Administration.](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/) В Skype для бизнеса Server этот процесс является одинаковым.
   
 ### <a name="to-specify-cdr-retention-for-a-specific-location"></a>Задание параметров хранения CDR для конкретного расположения
 

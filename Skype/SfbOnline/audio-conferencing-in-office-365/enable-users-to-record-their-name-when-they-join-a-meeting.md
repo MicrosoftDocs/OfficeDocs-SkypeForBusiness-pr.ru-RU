@@ -20,13 +20,13 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
-description: Узнайте, как включить или отключить возможность записи имен пользователями при подступе к собранию в Skype для бизнеса Online.
-ms.openlocfilehash: cad0f5a904fbec064fd07080b43af7ee6a8a9671
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Узнайте, как включить или отключить возможность записи имен пользователей при их подступе к собранию Skype для бизнеса Online.
+ms.openlocfilehash: 6f1c6c5d582665f411eaa17b76e7c1922ee9e468
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58626261"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012953"
 ---
 # <a name="enable-users-to-record-their-name-when-they-join-a-meeting-in-skype-for-business-online"></a>Позволить пользователям записывать свое имя, когда они присоединяются к собранию в Skype для бизнеса Online
 
@@ -41,7 +41,7 @@ ms.locfileid: "58626261"
 
 ## <a name="set-whether-callers-should-record-their-name"></a>Настройка записи имени вызываемой
     
-1. В центре **Skype для бизнеса** администрирования на левой навигации перейдите в параметры моста  >  **Аудиоконференция Майкрософт**.
+1. В центре **администрирования** Skype для бизнеса навигации слева перейдите в параметры моста Аудиоконференция  >  **Майкрософт**.
     
 2. В разделе **Присоединение к собранию** включите параметр **Включить уведомления о входе и выходе из собрания**.
     
@@ -73,8 +73,8 @@ ms.locfileid: "58626261"
   - [Использование возможностей Windows PowerShell для выполнения стандартных задач управления средой Skype для бизнеса Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
     > [!NOTE]
-    > Модуль Windows PowerShell для Skype для бизнеса online позволяет запускать удаленные сеансы Windows PowerShell с подключением к Skype для бизнеса online. Этот модуль для 64-разрядных систем можно загрузить из Центра загрузки Microsoft здесь: [Модуль Windows PowerShell для Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=294688).
+    > Модуль Windows PowerShell для Skype для бизнеса online позволяет запускать удаленные сеансы Windows PowerShell с подключением к Skype для бизнеса online. Этот модуль, который поддерживается только на 64-битных компьютерах, можно скачать из Центра загрузки Майкрософт на веб-сайте Загрузка и установить [модуль Teams PowerShell.](../set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector.md)
   
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
 [Попробуйте или приобретйте аудиоконференцию в Microsoft 365 или Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

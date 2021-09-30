@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.collection: ''
 description: Обзор использования автоспутника Cloud с Skype для бизнеса Server 2019 г.
-ms.openlocfilehash: 19be069ac5f61c9fb2b81df76156e6752350073b
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: ee79c52b8aaf4518511a51cea95b16d32008694c
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728444"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60011513"
 ---
 # <a name="plan-cloud-auto-attendants"></a>Планирование автосекретарей в облаке
 
@@ -27,7 +27,7 @@ ms.locfileid: "58728444"
 
 Это по сути означает, что вы будете иметь гибридную реализацию Skype для бизнеса Server 2019, если вы хотите использовать унифицированные функции обмена сообщениями, такие как автоспутники. Сведения о настройке гибридного подключения между Skype для бизнеса Server [и Microsoft 365 или Office 365.](configure-hybrid-connectivity.md)
 
-Автоспутник — это облачная служба, которая принимает вызовы клиентов и воспроизводит приветствия, предоставляет им параметры меню и взаимодействует с звонителями с помощью речи или на панели набора телефонов, чтобы перенаправление звонков в нужное место. Каждому автопроизводитесу назначена учетная запись ресурса *(см.* в статью Настройка учетных записей [ресурсов)](configure-onprem-ra.md)в системе Skype для бизнеса Server 2019 г., которая будет напрямую связана с автоспутником в центре администрирования Microsoft Teams администратора. Дополнительные [подробности](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md) о том, что такое автовласти, а также о том, какие параметры и функции существуют для автоспутников, см. в дополнительных подробностях.
+Автоспутник — это облачная служба, которая принимает вызовы клиентов и воспроизводит приветствия, предоставляет им параметры меню и взаимодействует с звонителями с помощью речи или на панели набора телефонов, чтобы перенаправление звонков в нужное место. Каждому автопроизводитесу назначена учетная запись ресурса *(см.* в статью Настройка учетных записей [ресурсов)](configure-onprem-ra.md)в системе Skype для бизнеса Server 2019 г., которая будет напрямую связана с автоспутником в центре администрирования Microsoft Teams администратора. Дополнительные [подробности о](/microsoftteams/create-a-phone-system-auto-attendant) том, что такое автосерсервы и какие варианты и функции существуют для автоспутников, см. в этой статье.
 
 > [!NOTE]
 > Автоспутнику можно назначить несколько номеров служб Майкрософт, номера прямой маршрутки или гибридные номера.
@@ -37,7 +37,7 @@ ms.locfileid: "58728444"
 ![Схема для автоспутников.](../../SfBServer2019/media/AA-plan-concept.png)
 
 1. Via Skype для бизнеса Server 2019
-2. С помощью [пограничного контроллера сеанса](/MicrosoftTeams/direct-routing-border-controllers.md) [и прямого маршрутинга](/MicrosoftTeams/direct-routing-plan.md)
+2. С помощью [пограничного контроллера сеанса](/MicrosoftTeams/direct-routing-border-controllers) [и прямого маршрутинга](/microsoftteams/direct-routing-plan-media-bypass).
 3. С помощью номера, домашнего онлайн в Microsoft 365 или Office 365.
 
 См. также:
@@ -57,10 +57,10 @@ ms.locfileid: "58728444"
 
 - Гибридное подключение. Если вы уже Skype для бизнеса Server и хотите включить автоспутник Cloud для локального пользователя, необходимо убедиться, что между локальной и сетевой средами установлена гибридная связь. Иногда это называется разделенной конфигурацией домена.
 
-   Дополнительные сведения см. в Skype для бизнеса Server и [Microsoft 365 или Office 365](plan-hybrid-connectivity.md) и настройте гибридное подключение между Skype для бизнеса Server и Microsoft 365 или [Office 365](configure-hybrid-connectivity.md).
+   Дополнительные сведения см. в Skype для бизнеса Server и Microsoft 365 или [Office 365](plan-hybrid-connectivity.md) и настройка гибридного подключения между Skype для бизнеса Server и [Microsoft 365 или Office 365](configure-hybrid-connectivity.md).
 
 - Если автоспутнику назначается номер телефона, вам потребуется лицензия Office 365 корпоративный [E5.](../../SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-with-audio-conferencing.md)
-- Создайте [учетную запись веб-ресурса](/MicrosoftTeams/manage-resource-accounts.md) или учетную запись локального ресурса для каждого автоспутника и назначьте номера телефонов и лицензии. [](configure-onprem-ra.md) 
+- Создайте [учетную запись веб-ресурса](/MicrosoftTeams/manage-resource-accounts) или учетную запись локального ресурса для каждого автоспутника и назначьте номера телефонов и лицензии. [](configure-onprem-ra.md) 
 
 ## <a name="migration-and-interoperability"></a>Миграция и интероперабельность
 

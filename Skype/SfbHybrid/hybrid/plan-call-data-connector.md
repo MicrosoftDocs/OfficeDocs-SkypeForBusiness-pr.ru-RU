@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.collection: ''
 description: Обзор использования средств телеметрии Skype для бизнеса Online для мониторинга локальной реализации в гибридном сценарии.
-ms.openlocfilehash: a85599ee0db012d3c3fbb55a7d7c12f8516ee962
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 2584453ca120c3dce9b4b0ce432e244cd15ec53b
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726488"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013333"
 ---
 # <a name="plan-call-data-connector"></a>Планирование соединителя данных звонка
 
@@ -50,7 +50,7 @@ ms.locfileid: "58726488"
 
 - Панель мониторинга качества вызовов фокусируется на производительности сети и проблемах в организации. Skype для бизнеса и сетевые инженеры используют этот инструмент для устранения неполадок и оптимизации производительности сети.
 
-Дополнительные сведения см. в диаграмме Call Analytics и Панель мониторинга качества вызовов [с сведениями о сервере мониторинга.](/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard).
+Дополнительные сведения см. [в Microsoft Teams: мониторинг и улучшение качества вызовов.](/monitor-call-quality-qos)
 
 Конечно, может потребоваться сохранить некоторые данные о качестве вызовов в помещениях. Это может быть, например, если вы используете сторонное решение с настраиваемыми отчетами и рабочий процесс.  Соединителю данных вызовов позволяет настроить отправку данных в онлайн-службу, а также сохранить копию данных на локальном сервере, как показано на следующей схеме:
 
@@ -62,7 +62,7 @@ ms.locfileid: "58726488"
 
 - Включить гибридное подключение. Если вы уже Skype для бизнеса Server и хотите включить соединительную связь с данными вызовов, необходимо убедиться, что между локальной и сетевой средами установлена гибридная связь. Иногда это называется разделенной конфигурацией домена.
 
-   Дополнительные сведения см. в Skype для бизнеса Server и [Microsoft 365 или Office 365](plan-hybrid-connectivity.md) и настройте гибридное подключение между Skype для бизнеса Server и Microsoft 365 или [Office 365](configure-hybrid-connectivity.md).
+   Дополнительные сведения см. в Skype для бизнеса Server и Microsoft 365 или [Office 365](plan-hybrid-connectivity.md) и настройка гибридного подключения между Skype для бизнеса Server и [Microsoft 365 или Office 365](configure-hybrid-connectivity.md).
 
 - Проверка подлинности в Microsoft 365 или Office 365 организации и обеспечение включения следующих ролей:
 

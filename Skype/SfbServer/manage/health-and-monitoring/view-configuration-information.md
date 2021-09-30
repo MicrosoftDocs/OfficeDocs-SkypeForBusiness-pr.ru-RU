@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 77bd553f-da89-4c84-a5d0-2f7e91d04383
 description: Сводка. Узнайте, как использовать запись детализации вызовов (CDR) в Skype для бизнеса Server.
-ms.openlocfilehash: 8bd8ef54510a7353d39735b587d1e1a2a1373fe3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f115c41215f4a559957cae3d85a7276501a96710
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58586911"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60011963"
 ---
 # <a name="view-cdr-configuration-information-in-skype-for-business-server"></a>Просмотр сведений о конфигурации CDR в Skype для бизнеса Server
  
@@ -35,7 +35,7 @@ ms.locfileid: "58586911"
     
 ## <a name="viewing-cdr-configuration-information-by-using-windows-powershell-cmdlets"></a>Просмотр сведений о конфигурации CDR с помощью Windows PowerShell-кодов
 
-Параметры конфигурации CDR можно просматривать с помощью Windows PowerShell и Get-CsCdrConfiguration. Этот комлет можно выполнить либо из Skype для бизнеса Server, либо из удаленного сеанса Windows PowerShell. Сведения об использовании удаленных Windows PowerShell для подключения к Skype для бизнеса Server см. в статье блога ["Быстрый запуск: управление Microsoft Lync Server 2010 с](https://go.microsoft.com/fwlink/p/?linkId=255876)помощью удаленной powerShell". Этот процесс в Skype для бизнеса Server.
+Параметры конфигурации CDR можно просматривать с помощью Windows PowerShell и Get-CsCdrConfiguration. Этот комлет можно выполнить либо из Skype для бизнеса Server, либо из удаленного сеанса Windows PowerShell. Сведения об использовании удаленных Windows PowerShell для подключения к Skype для бизнеса Server см. в [материале Microsoft Lync Remote PowerShell Administration](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/). Этот процесс в Skype для бизнеса Server.
   
 ### <a name="to-view-cdr-configuration-information"></a>Просмотр данных конфигурации CDR
 

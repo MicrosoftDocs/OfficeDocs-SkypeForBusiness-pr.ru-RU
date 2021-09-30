@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c830be5a-2a82-468d-9c46-d3fec0f79fd0
 description: Сводка. Сведения о записи подробных вызовов (CDR) в Skype для бизнеса Server.
-ms.openlocfilehash: e9b30eee578fd83dd0d94fbd78a490bf1b0e65de
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1f508df7d139d81d3c91dc1cf9355b61fd028dbc
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58626611"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60015153"
 ---
 # <a name="create-or-modify-a-collection-of-cdr-configuration-settings-in-skype-for-business-server"></a>Создание или изменение коллекции параметров конфигурации CDR в Skype для бизнеса Server
  
@@ -31,7 +31,7 @@ ms.locfileid: "58626611"
   
 |**Параметр пользовательского интерфейса**|**Параметр PowerShell**|**Описание**|
 |:-----|:-----|:-----|
-|Имя  <br/> |Удостоверение  <br/> |Уникальный идентификатор для созданных параметров конфигурации CDR. Эти параметры можно создать только в области сайта.  <br/> |
+|Имя  <br/> |Identity  <br/> |Уникальный идентификатор для созданных параметров конфигурации CDR. Эти параметры можно создать только в области сайта.  <br/> |
 |Включить мониторинг cdRs  <br/> |EnableCDR  <br/> |Указывает, включен ли мониторинг регистрации вызовов (CDR).  <br/> |
 |Включить чистку CDRs  <br/> |EnablePurging  <br/> |Указывает, будут ли записи CDR периодически удаляться из базы данных CDR.  <br/> |
 |Хранить CD-диски для максимальной продолжительности (дней)  <br/> |KeepCallDetailForDays  <br/> |Указывает количество дней, которые записи CDR будут храниться в базе данных CDR. Любые записи старше указанного числа дней будут автоматически удалены. (Обратите внимание, что чистка будет происходить только при включенной чистке.)  <br/> |
@@ -60,7 +60,7 @@ ms.locfileid: "58626611"
     
 ## <a name="creating-cdr-configuration-settings-by-using-windows-powershell-cmdlets"></a>Создание параметров конфигурации CDR с помощью Windows PowerShell cmdlets
 
-Можно также создать параметры конфигурации CDR с помощью Windows PowerShell и **комлета New-CsCdrConfiguration.** Этот комлет можно выполнить либо из Skype для бизнеса Server, либо из удаленного сеанса Windows PowerShell. Сведения об использовании удаленных Windows PowerShell для подключения к Skype для бизнеса Server см. в статье блога ["Быстрый запуск: управление Microsoft Lync Server 2010 с](https://go.microsoft.com/fwlink/p/?linkId=255876)помощью удаленной powerShell". Этот процесс в Skype для бизнеса Server.
+Можно также создать параметры конфигурации CDR с помощью Windows PowerShell и **комлета New-CsCdrConfiguration.** Этот комлет можно выполнить либо из Skype для бизнеса Server, либо из удаленного сеанса Windows PowerShell. Сведения об использовании удаленных Windows PowerShell для подключения к Skype для бизнеса Server см. в [материале Microsoft Lync Remote PowerShell Administration](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/). Этот процесс в Skype для бизнеса Server.
   
 ### <a name="to-create-a-new-collection-of-cdr-configuration-settings"></a>Создание новой коллекции параметров конфигурации CDR
 

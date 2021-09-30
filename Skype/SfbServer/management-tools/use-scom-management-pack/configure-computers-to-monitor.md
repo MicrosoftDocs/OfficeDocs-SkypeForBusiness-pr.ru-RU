@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: b24ea184-4b3e-4277-a244-157afb4b368b
 description: Сводка. Установите файлы агента Operations Manager на компьютере Skype для бизнеса Server 2015 г., который будет отслеживаться, и настройте компьютер на System Center прокси.
-ms.openlocfilehash: dbca58ff7e8cc837ce5323d24bc127a9d3ee20ec
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: efe7c7bd9ce2862cd423e0b36a5de21d03e32db0
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58606128"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60015313"
 ---
 # <a name="configure-the-skype-for-business-server-computers-to-monitor"></a>Настройка компьютеров Skype для бизнеса Server для мониторинга
 
@@ -32,7 +32,7 @@ ms.locfileid: "58606128"
 
 System Center Агенты Operations Manager, работающие в сети периметра (например, в Skype для бизнеса Server Edge Server), за пределами предприятия (например, внешним узлом синтетического просмотра транзакций) или через границу доверия Active Directory, могут потребовать конфигурации шлюза System Center диспетчера операций. Эта роль сервера позволяет агентам, которые не имеют отношения доверия к корневому серверу управления, повышать оповещения. Подробные сведения см. [в материале Managing Gateway Servers in Operations Manager 2012.](/previous-versions/system-center/system-center-2012-R2/hh212823(v=sc.12))
 
-При развертывании агента в одном из этих местоположений необходимо также запросить и настроить сертификат, который позволяет узлу просмотра отправлять оповещения в System Center Operations Manager. Чтобы упростить этот процесс, группа разработчиков Operations Manager создала набор вспомогательных программ, позволяющих запрашивать и устанавливать нужный тип сертификата на компьютера узла-наблюдателя. Сведения о том, как скачать эти утилиты, см. в материале Получение сертификатов для неимминационных присоединились агенты, сделанные легко [с мастером поколения сертификатов](https://go.microsoft.com/fwlink/p/?LinkID=267421&amp;amp;clcid=0x409).
+При развертывании агента в одном из этих местоположений необходимо также запросить и настроить сертификат, который позволяет узлу просмотра отправлять оповещения в System Center Operations Manager. Чтобы упростить этот процесс, группа разработчиков Operations Manager создала набор вспомогательных программ, позволяющих запрашивать и устанавливать нужный тип сертификата на компьютера узла-наблюдателя. Сведения о том, как скачать эти утилиты, см. в материале Получение сертификатов для неимминационных присоединились агенты, сделанные [легко с мастером поколения сертификатов](https://techcommunity.microsoft.com/t5/system-center-blog/obtaining-certificates-for-non-domain-joined-agents-made-easy/ba-p/340467).
 
 ### <a name="installing-the-operation-manager-agent-files"></a>Установка файлов агента Operation Manager
 

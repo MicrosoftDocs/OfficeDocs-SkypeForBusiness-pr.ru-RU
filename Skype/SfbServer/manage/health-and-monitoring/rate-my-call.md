@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c4e0c905-33a1-49d8-9276-1b338f94d085
 description: Сводка. Сведения о функции Rate My Call в Skype для бизнеса Server.
-ms.openlocfilehash: 0d084e80c94928fc11af099dbef5ad6cca6537b7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 73a08b0acb32651c42de4ddda9fe12c7ae9f9655
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58586989"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014143"
 ---
 # <a name="rate-my-call-in-skype-for-business-server"></a>Оцените мой вызов в Skype для бизнеса Server
 
@@ -67,13 +67,13 @@ Set-CSClientPolicy -Identity <PolicyIdentity> -RateMyCallDisplayPercentage 80 -R
 
 Определения маркеров закодироваться следующим образом:
 
-|||
+|#|Определение|
 |:-----|:-----|
-|1   <br/> |DistortedSpeech  <br/> |
-|2   <br/> | ElectronicFeedback <br/> |
+|1  <br/> |DistortedSpeech  <br/> |
+|2  <br/> | ElectronicFeedback <br/> |
 |3   <br/> | BackgroundNoise <br/> |
 |4   <br/> |MuffledSpeech  <br/> |
-|5   <br/> |Эхо  <br/> |
+|5  <br/> |Эхо  <br/> |
 |21  <br/> | FrozenVideo <br/> |
 |22  <br/> | PixelatedVideo <br/> |
 |23  <br/> | BlurryImage <br/> |

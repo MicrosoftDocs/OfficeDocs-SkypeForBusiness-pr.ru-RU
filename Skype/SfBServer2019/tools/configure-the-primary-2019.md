@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: Сводка. Настройка основного сервера управления, установка System Center диспетчера операций и пакеты управления импортом на Skype для бизнеса Server 2019 г.
-ms.openlocfilehash: 4e0d8a1176beb9d5c82418b65c1a4ce67d587c6d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e5bbe28afbc3b579700686b1fab1af3f420dd83e
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58594903"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012543"
 ---
 # <a name="skype-for-business-server-configure-the-primary-management-server"></a>Skype для бизнеса Server: Настройка основного сервера управления
 
@@ -38,18 +38,14 @@ ms.locfileid: "58594903"
 
 - веб-консоль;
 
-- Отчётность
+- Создание отчетов
 
 - хранилище данных.
 
 > [!IMPORTANT]
-> Перед[установкой Microsoft Report Viewer 2010](https://www.microsoft.com/download/details.aspx?id=6442)необходимо установить пакет System Center 2012.
+> Перед установкой Microsoft Report Viewer 2010 года перед установкой System Center Operations Manager 2012 необходимо установить пакет перераспределения.
 
-Сведения об этих продуктах и их установке см. в следующих ссылках:
-
-- [System Center Диспетчер операций 2012](/previous-versions/system-center/system-center-2012-R2/hh205987(v=sc.12))
-
-- [System Center Operations Manager 2007](https://technet.microsoft.com/library/bb735860.aspx)
+Сведения об этих продуктах и их установке см. в System Center [Operations Manager 2012.](/previous-versions/system-center/system-center-2012-R2/hh205987(v=sc.12))
 
 Имейте в виду, что на развертывание Skype для бизнеса Server может быть только один сервер корневого управления.
 

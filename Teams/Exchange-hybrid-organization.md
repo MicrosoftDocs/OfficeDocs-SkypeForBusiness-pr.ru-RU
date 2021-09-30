@@ -18,14 +18,13 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3ef36b7bc50d21131dd10294566549bb8b642600
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d1b5cb89f28a334b24aecf982dd3913dfce079ac
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58632653"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014875"
 ---
-<a name="configure-an-exchange-hybrid-organization-for-use-with-microsoft-teams"></a>Настройка гибридной организации для работы с Microsoft Teams
-======================================================================
+# <a name="configure-an-exchange-hybrid-organization-for-use-with-microsoft-teams"></a>Настройка гибридной организации для работы с Microsoft Teams
 
 В общем случае настраивать какие-либо функции Exchange Online для работы с Microsoft Teams не требуется. Однако в гибридной среде Exchange нужно принять определенные меры, чтобы синхронизировать членства в группах между Exchange Server (в локальной среде) и Exchange Online. Эта функция включает функции записи группы в Azure AD Подключение а также различные сценарии инициализации: Настройка групп Microsoft 365 с использованием локального Exchange [гибридного Exchange](/exchange/hybrid-deployment/set-up-microsoft-365-groups).

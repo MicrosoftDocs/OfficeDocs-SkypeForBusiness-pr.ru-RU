@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 'Learn to save time, support calls and increase satisfaction by setting up test accounts and computers, and testing dial-in conferencing, online features such as person-to-person calls, conferencing, and sign in and out. '
-ms.openlocfilehash: a022ad3db1890a71016d5ebffeccb0aaf30441ca
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: a8efe71507b6270181fb0451f06f10a80c7a578b
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729908"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014573"
 ---
 # <a name="test-your-skype-for-business-online-installation"></a>Тестирование установки Skype для бизнеса Online
 
@@ -34,7 +34,7 @@ ms.locfileid: "58729908"
 
 Вам потребуются:
 
-- По крайней мере три Microsoft 365 или Office 365 учетных записей (ваша и хотя бы еще две).
+- Как минимум три Microsoft 365 или Office 365 (ваша и хотя бы еще две).
 
 - компьютер для каждой тестовой учетной записи. Настройте компьютеры типичным для организации способом.
 
@@ -66,7 +66,7 @@ ms.locfileid: "58729908"
 
 1. Перейдите на Microsoft 365 или Office 365 и войдите с учетными данными одной из тестовых учетных записей.
 
-2. Перейдите **в Параметры** Параметры: обновите свой профиль, установите программное обеспечение и подключите его к облаку. , а затем щелкните Установить программное обеспечение и подключите ![ его к ](../images/4b83e9cb-c7e4-46c8-b3d1-cfee017123ae.png) **облаку**.
+2. Перейдите **в Параметры** Параметры: обновите свой профиль, установите программное обеспечение и подключите его к облаку. , а затем щелкните Установить программное обеспечение и подключите его к ![ ](../images/4b83e9cb-c7e4-46c8-b3d1-cfee017123ae.png) **облаку**.
 
 ## <a name="set-up-audio-conferencing"></a>Настройка аудиоконференций
 <a name="__toc328126912"> </a>
@@ -107,7 +107,7 @@ ms.locfileid: "58729908"
 |[Sign in to and out of Lync Online](https://support.office.com/article/1f0fb5f3-102e-4397-a5c4-f878cc0009d6) <br/> |Отображается экран входа в Skype для бизнеса.  <br/> |
 |[Sign in to and out of Lync Online](https://support.office.com/article/1f0fb5f3-102e-4397-a5c4-f878cc0009d6) <br/> |Окно Skype для бизнеса закрывается, а из области уведомлений панели задач Windows исчезает значок Skype для бизнеса.  <br/> |
 
-Не можете войти? См. [Устранение проблем со входом в Skype для бизнеса Online](https://support.microsoft.com/kb/2541980).
+Не можете войти? См. [Skype для бизнеса устранение неполадок при входе пользователей.](/skypeforbusiness/troubleshoot/online-sign-in/troubleshoot-sign-in-issues-for-users)
 
  **Контакты, присутствие и обмен мгновенными сообщениями**
 

@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 42b797c6-8db8-4ad7-886e-8ddf8deb06f9
 description: Сводка. Узнайте, как связать отчеты мониторинга с зеркальной базой данных, используемой Skype для бизнеса Server.
-ms.openlocfilehash: 723d01f732259098c714eaac330eeaf8c686acac
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ecdf630f6839fa65bf163715e473a3a37cdbcece
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58600664"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014403"
 ---
 # <a name="associate-monitoring-reports-with-a-mirror-database-in-skype-for-business-server"></a>Связывать отчеты мониторинга с зеркальной базой данных в Skype для бизнеса Server 
  
@@ -33,15 +33,15 @@ ms.locfileid: "58600664"
     
    - **Http:** префикс.
     
-   - Полное доменное имя (FQDN) компьютера, на котором установлены службы отчетности (например, **atl-sql-001.litwareinc.com).**
+   - Полное доменное имя (FQDN) компьютера, на котором установлены службы отчетности (например, `atl-sql-001.litwareinc.com` ).
     
    - Строка **символа /Reports_**.
     
    - Имя экземпляра базы данных, где установлены отчеты мониторинга (например, **archinst).**
     
-     Например, если SQL Server Reporting Services на компьютере atl-sql-001.litwareinc.com отчеты мониторинга используют архив экземпляра базы данных, URL-адрес домашней страницы будет выглядеть так:
+     Например, если SQL Server Reporting Services установлен на компьютере, а отчеты мониторинга используют сводку экземпляра базы данных, URL-адрес домашней страницы будет выглядеть `atl-sql-001.litwareinc.com` так:
     
-     **http://atl-sql-001.litwareinc.com/Reports_archinst**
+     `http://atl-sql-001.litwareinc.com/Reports_archinst`
     
 2. После доступа к домашней странице Службы отчетности щелкните **ServerReports** и нажмите **кнопку Reports_Content**. После этого вы  Reports_Content страницу отчетов Skype для бизнеса Server мониторинга.
     
@@ -61,9 +61,9 @@ ms.locfileid: "58600664"
     
 6. После обновления строки подключения щелкните **Применить**.
     
-7. На странице **CDRDB** щелкните ссылку **Reports_Content.** Щелкните **источник данных QMSDB** и отредактировать строку подключения для базы данных QoE. Например,
+7. На странице **CDRDB** щелкните ссылку **Reports_Content.** Щелкните **источник данных QMSDB** и отредактировать строку подключения для базы данных QoE. Например.
     
-    Источник данных=(локальный)\archinst; Failover Partner=atl-mirror-001\archinst;initial catalog=QoEMetrics
+    `Data source=(local)\archinst;Failover Partner=atl-mirror-001\archinst;initial catalog=QoEMetrics`
     
 8. Нажмите **Применить**.
     

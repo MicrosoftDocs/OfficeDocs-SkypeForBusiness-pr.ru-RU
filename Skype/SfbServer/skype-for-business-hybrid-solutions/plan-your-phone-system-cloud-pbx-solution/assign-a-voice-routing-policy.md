@@ -19,12 +19,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c7f78f23-b74f-402f-bedb-4cc308718f5b
 description: Сводка. Ознакомьтесь с этой темой, чтобы узнать, как назначить голосовую политику для пользователей, использующих телефонная система с локальной связью PSTN.
-ms.openlocfilehash: a3524c77cf27dc4fd9ab3a4f74211fc9040aad75
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: aa31624921aefd1065b0719966af1df9d2b38793
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58582543"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013173"
 ---
 # <a name="assign-a-voice-routing-policy"></a>Назначение политики маршрутизация голосовой связи
  
@@ -37,10 +37,10 @@ ms.locfileid: "58582543"
   
 Другая политика голосовой политики определяет, какие функции вызова доступны пользователю; эта политика голосовой связи определяется Корпорацией Майкрософт и идентична для всех пользователей телефонная система для локального подключения к PSTN. Оно автоматически назначено телефонная система пользователям.
   
-||**Пользователь локальной сети**|**телефонная система с локальной пользователем подключения PSTN**|
+|&nbsp;|Пользователь локальной сети|телефонная система с локальной пользователем подключения PSTN|
 |:-----|:-----|:-----|
-|Функции вызова, определенные в  <br/> |Политика голосовой связи  <br/> |Заранее определенные политики голосовой политики, назначенной автоматически, когда пользователь имеет лицензию на телефонная система.  <br/> |
-|Записи использования PSTN, связанные с  <br/> |Политика голосовой связи  <br/> |Политика маршрутивки голосовых данных, назначенная в то время как пользователь по-прежнему находится в локальном помещении.  <br/> |
+|Функции вызова, определенные в   |Политика голосовой связи   |Заранее определенные политики голосовой политики, назначенной автоматически, когда пользователь имеет лицензию на телефонная система.   |
+|Записи использования PSTN, связанные с   |Политика голосовой связи   |Политика маршрутивки голосовых данных, назначенная в то время как пользователь по-прежнему находится в локальном помещении.   |
    
 Выполните следующие действия, используя локальное развертывание, в то время как пользователь по-прежнему находится в локальном развертывании.
   
@@ -60,7 +60,7 @@ ms.locfileid: "58582543"
    Set-CSVoiceRoutingPolicy -Identity Global -PSTNUsages <PSTNUsagesId> 
    ```
 
-    Например,
+    Например.
     
    ```powershell
    Set-CSVoiceRoutingPolicy -Identity Global -PSTNUsages "Local", "Long Distance" 
@@ -80,7 +80,7 @@ ms.locfileid: "58582543"
    New-CSVoiceRoutingPolicy -Identity <String> -Name <String> -PSTNUsages <PSTNUsagesId>
    ```
 
-    Например,
+    Например.
     
    ```powershell
    New-CSVoiceRoutingPolicy -Identity HybridVoice -Name Hybrid -PSTNUsages "Local", "Long Distance"
@@ -112,4 +112,4 @@ ms.locfileid: "58582543"
 
 В этом примере пользователю с именем Bob Kelly назначена ранее созданная голосовая политика с именем HybridVoice.
   
-Дополнительные сведения о политиках маршрутизации голосовых данных см. в материале Create or modify a voice [policy and configure PSTN use records in Skype для бизнеса 2015,](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md) [New-CsVoiceRoutingPolicy](/powershell/module/skype/new-csvoiceroutingpolicy?view=skype-ps)и [Grant-CsVoicePolicy](/powershell/module/skype/grant-csvoicepolicy?view=skype-ps).
+Дополнительные сведения о политиках маршрутизации голосовых данных см. в материале Create or modify a voice [policy and configure PSTN use records in Skype для бизнеса 2015,](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md) [New-CsVoiceRoutingPolicy](/powershell/module/skype/new-csvoiceroutingpolicy)и [Grant-CsVoicePolicy](/powershell/module/skype/grant-csvoicepolicy).

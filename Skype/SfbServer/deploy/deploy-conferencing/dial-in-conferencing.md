@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 38d9f168-80b8-46f2-a1c0-becd84e58e73
 description: Сводка. Ознакомьтесь с этой темой, чтобы узнать, как настроить диалоговое видеоконференцию в Skype для бизнеса Server.
-ms.openlocfilehash: a9d48b5232a446f81de1acf14cddfa054f74d488
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3533220dc84f131b02f180bb863883b371cbf365
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609956"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013793"
 ---
 # <a name="configure-dial-in-conferencing-in-skype-for-business-server"></a>Настройка телефонных конференций в Skype для бизнеса Server
  
@@ -157,7 +157,7 @@ ms.locfileid: "58609956"
     
 6. В **имя Display** введите описание номера доступа к диалоговом номеру. Это имя, связанное с номером доступа в Skype для бизнеса результатах поиска. Это имя отображается в клиенте, когда пользователь вызывает номер доступа. 
     
-7. В **строке URI** введите номер E.164 номера доступа к телефону в формате TEL URI, включая символ + перед номером и за исключением пробелов. Например, tel:+14255550200.
+7. В **строке URI** введите номер E.164 номера доступа к телефону в формате TEL URI, включая символ + перед номером и за исключением пробелов. Например, `tel:+14255550200`.
     
     > [!NOTE]
     > Один и тот же URI линии не может быть повторно использовать другой номер доступа к диалоговой связи. 

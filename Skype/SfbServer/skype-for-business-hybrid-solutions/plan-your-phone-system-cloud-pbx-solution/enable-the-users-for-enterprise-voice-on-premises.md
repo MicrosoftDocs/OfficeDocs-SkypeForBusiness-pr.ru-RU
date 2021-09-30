@@ -19,12 +19,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4598565a-c228-4265-ad03-d2aef95b31a0
 description: Чтобы пользователь телефонная система (Cloud PBX), сначала необходимо включить Корпоративная голосовая связь и назначить ему номер телефона. Это можно сделать с помощью локального развертывания, пока пользователь по-прежнему находится в локальном развертывании.
-ms.openlocfilehash: 28943670a0919d80c96c97b7574cdc82ac68cfde
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 29fd1eff47a73c7e3469ab7967a1f7cb0a006a75
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58613698"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012513"
 ---
 # <a name="enable-the-users-for-enterprise-voice-on-premises"></a>Включить пользователей для Корпоративная голосовая связь на локальной основе
  
@@ -51,7 +51,7 @@ ms.locfileid: "58613698"
     
 7. В **статье Телефония** нажмите **кнопку Корпоративная голосовая связь**.
     
-8. Щелкните **строку URI** и введите уникальный, нормализованный номер телефона (например, tel:+14255550200). Затем нажмите **кнопку Фиксация**.
+8. Щелкните **строку URI** и введите уникальный, нормализованный номер телефона (например, `tel:+14255550200` ). Затем нажмите **кнопку Фиксация**.
     
 ## <a name="special-considerations-when-enabling-users-for-enterprise-voice-on-premises"></a>Особые соображения при включаемом Корпоративная голосовая связь в помещениях
 

@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c99ee134-8294-4481-bb4e-710fe85a39ca
 description: В этой статье описывается управление службами, работающими Skype для бизнеса Server топологии.
-ms.openlocfilehash: 45af8756feda61d0a0bac06beedddcc693591346
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: be613203b9e15640ead1b136ebe1b89f4c4c50ea
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593643"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014183"
 ---
 # <a name="manage-services-for-skype-for-business-server"></a>Управление службами для Skype для бизнеса Server
 
@@ -55,7 +55,7 @@ ms.locfileid: "58593643"
     
 ### <a name="viewing-service-status-with-windows-powershell-cmdlets"></a>Просмотр состояния службы с Windows powershell
 
-Вы также можете просмотреть состояние службы с помощью Windows PowerShell и **cmdlet Get-CsWindowsService.** Вы можете запустить этот командлет из командной консоли Skype для бизнеса Server или из удаленного сеанса Windows PowerShell. Сведения об использовании удаленных Windows PowerShell для подключения к Skype для бизнеса Server см. в статье блога ["Быстрый запуск: управление Microsoft Lync Server 2010 с](https://go.microsoft.com/fwlink/p/?linkId=255876)помощью удаленной powerShell". Этот процесс в Skype для бизнеса Server.
+Вы также можете просмотреть состояние службы с помощью Windows PowerShell и **cmdlet Get-CsWindowsService.** Вы можете запустить этот командлет из командной консоли Skype для бизнеса Server или из удаленного сеанса Windows PowerShell. Сведения об использовании удаленных Windows PowerShell для подключения к Skype для бизнеса Server см. в [материале Microsoft Lync Remote PowerShell Administration](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/). Этот процесс в Skype для бизнеса Server.
   
 ### <a name="to-view-service-status"></a>Просмотр состояния службы
 

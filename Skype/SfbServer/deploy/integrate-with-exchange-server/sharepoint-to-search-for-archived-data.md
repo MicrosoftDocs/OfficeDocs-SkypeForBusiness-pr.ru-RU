@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 17f49365-8778-4962-a41b-f96faf6902f1
 description: Сводка. Настройте SharePoint Server для поиска данных, архивируемых Exchange Server и Skype для бизнеса Server.
-ms.openlocfilehash: 8a27bb170f0e089d702417a32d93eee96c7c6299
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 081b32ad57d97a793867e56f85ad36d62424bacb
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604208"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013573"
 ---
 # <a name="configure-sharepoint-server-to-search-for-archived-skype-for-business-data"></a>Настройка SharePoint Server для поиска архивных Skype для бизнеса данных
  
@@ -65,7 +65,7 @@ $service.Update()
 > [!NOTE]
 > Обязательно используйте универсальный код ресурса (URI) для службы автоопределения. Не используйте образец URI https://autodiscover.litwareinc.com/autodiscover/metadata/json/1 . 
   
-После создания эмитента маркеров и настройки службы маркеров запустите эти команды, чтобы заменить URL-адрес SharePoint для примера URL-адреса.http://atl-sharepoint-001:
+После создания эмитента маркеров и настройки службы маркеров запустите эти команды, чтобы заменить URL SharePoint сайта для примера `http://atl-sharepoint-001` URL-адрес:
   
 ```powershell
 $exchange = Get-SPTrustedSecurityTokenIssuer "Exchange"
@@ -112,17 +112,17 @@ New-SPSite -Url "https://atl-sharepoint-001/sites/discovery" -OwnerAlias "kenmye
     
 3. В области **Новый источник результатов** укажите имя нового источника результатов (например, **Microsoft Exchange**) в поле **Имя**. Выберите **Exchange** в качестве протокола источника результатов, а затем введите URL-адрес источника веб-служб для Exchange сервера Exchange **URL-адресе** источника. Исходный URL-адрес выглядит следующим образом:
     
-    https://atl-exchange-001.litwareinc.com/ews/exchange.asmx
+    `https://atl-exchange-001.litwareinc.com/ews/exchange.asmx`
     
 4. Убедитесь в том, что не выбран пункт **Использовать автоопределение**, и нажмите **ОК**.
     
-Наконец, создайте новый случай обнаружения электронной почты и новый набор обнаружения, завершив следующую процедуру с сайта SharePoint Discovery (например,https://atl-sharepoint-001/sites/discovery):
+Наконец, создайте новый случай обнаружения электронной почты и новый набор обнаружения, завершив следующую процедуру с сайта SharePoint Discovery (например, `https://atl-sharepoint-001/sites/discovery` ):
   
 1. На странице "Содержимое сайта" выберите **Создать обращение**.
     
 2. На странице "Содержимое сайта: новый сайт SharePoint" укажите псевдоним электронной почты пользователя (например, **kenmyer**) в поле **Заголовок**, после чего добавьте этот URL-адрес в поле **Адрес веб-сайта**. В результате получаем URL-адрес следующего вида:
     
-    https://atl-sharepoint-001/sites/eDiscovery/kenmyer
+    `https://atl-sharepoint-001/sites/eDiscovery/kenmyer`
     
 3. Нажмите **Создать**.
     

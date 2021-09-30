@@ -22,13 +22,13 @@ f1.keywords:
 ms.custom:
 - Phone System
 - seo-marvel-mar2020
-description: Узнайте, как Microsoft Teams и Skype для бизнеса использовать другой язык для приветствия голосовой почты по умолчанию в организации.
-ms.openlocfilehash: f204cdfca0be7eab5964b2c9c50c57f306af94ff
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Узнайте, как настроить Microsoft Teams и Skype для бизнеса использовать другой язык для приветствия голосовой почты по умолчанию в организации.
+ms.openlocfilehash: 4c509edf6efa2fe660a59772f3266e6d49be8d31
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607876"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014423"
 ---
 # <a name="change-the-default-language-for-greetings-and-emails"></a>Изменение языка по умолчанию для приветствий и электронных писем
 
@@ -45,17 +45,17 @@ ms.locfileid: "58607876"
   > [!NOTE]
   > Пользователи могут изменить для себя язык приветствий с помощью своих параметров после входа. Дополнительные сведения см. в Microsoft 365 для [бизнеса.](https://support.office.com/article/change-your-display-language-and-time-zone-in-microsoft-365-for-business-6f238bff-5252-441e-b32b-655d5d85d15b?ui=en-US&rs=en-US&ad=US)
   
-- **Вам требуется записывать исходящие сообщения голосовой почты?** См. статью [Проверка голосовой почты и параметров в Skype для бизнеса](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8). Для Microsoft Teams. Пользователи могут изменять параметры голосовой почты в параметрах Teams [клиента для настольных пк.](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)
+- **Вам требуется записывать исходящие сообщения голосовой почты?** См. статью [Проверка голосовой почты и параметров в Skype для бизнеса](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8). Для Microsoft Teams: пользователи могут изменять параметры голосовой почты в Teams клиента [для настольных пк.](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)
 
-- **Вы хотите изменить язык подсказки голосовой почты?** Для Skype для бизнеса - и выберите новый язык [https://mysettings.lync.com/voicemail](https://mysettings.lync.com/voicemail) в области Язык **запроса**. Для Microsoft Teams: пользователи могут изменять приветствие голосовой почты в параметрах Teams [клиента для настольных пк.](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)
+- **Вы хотите изменить язык подсказки голосовой почты?** Для Skype для бизнеса - [https://mysettings.lync.com/voicemail](https://mysettings.lync.com/voicemail) и выберите новый язык в области Язык **подсказки**. Для Microsoft Teams. Пользователи могут изменять приветствие голосовой почты в параметрах клиента Teams [настольного компьютера.](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)
 
 ## <a name="change-the-system-language-for-everyone-in-your-organization"></a>Изменение языка системы сразу для всех пользователей организации
 
 1. Во sign in with your [global administrator](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) account at [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home) .
 
-2. В области Центр администрирования Microsoft 365 **выберите** Параметры  >  **Параметры**  >  **профиль организации**.
+2. На странице Центр администрирования Microsoft 365 **выберите** Параметры  >  **Параметры**  >  **профиль организации**.
 
-     ![Снимок экрана: выбор Параметры и профиль организации.](media/9d9de520-bb84-409f-9417-96bd8ec86c48.png)
+     ![Снимок экрана: выбор Параметры и профиля организации.](media/9d9de520-bb84-409f-9417-96bd8ec86c48.png)
   
 3. Выберите элемент **Изменить**.
 
@@ -71,9 +71,9 @@ ms.locfileid: "58607876"
 
 - [Настройка планов звонков](set-up-calling-plans.md)
 
-- [Планирование телефонная система в Microsoft 365 или Office 365 с помощью локального подключения к ОКП в Skype для бизнеса Server](/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity)
+- [Планирование телефонная система в Microsoft 365 или Office 365 с помощью локального подключения к ОКП через Skype для бизнеса Server](/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity)
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
 - [Изменение языка и часового пояса в Microsoft 365 или Office 365 для бизнеса](https://support.office.com/article/Change-your-display-language-and-time-zone-in-Office-365-for-Business-6f238bff-5252-441e-b32b-655d5d85d15b)
 

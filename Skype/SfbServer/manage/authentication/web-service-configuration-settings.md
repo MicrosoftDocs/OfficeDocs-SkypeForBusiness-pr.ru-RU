@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: f3f04d81-8a1f-427f-bd0f-fb659024e096
 description: Сводка. Управление настройками конфигурации веб-службы в Skype для бизнеса Server.
-ms.openlocfilehash: f007a93eb71fc015f71ddef51011008315de82e9
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 875993a006cf175432984dc78fc37a34b45e92ee
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58633613"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60015173"
 ---
 # <a name="manage-web-service-configuration-settings-in-skype-for-business-server"></a>Управление настройками веб-службы в Skype для бизнеса Server
  
@@ -102,7 +102,7 @@ ms.locfileid: "58633613"
     
 ## <a name="deleting-web-service-configuration-settings-by-using-windows-powershell-cmdlets"></a>Удаление конфигурации веб-службы Параметры с помощью Windows PowerShell cmdlets
 
-Параметры конфигурации веб-служб можно удалить с помощью Windows PowerShell и **cmdlet Remove-CsWebServiceConfiguration.** Вы можете запустить этот командлет из командной консоли Skype для бизнеса Server или из удаленного сеанса Windows PowerShell. Сведения об использовании удаленных Windows PowerShell для подключения к Skype для бизнеса Server см. в статье блога ["Быстрый запуск: управление Microsoft Lync Server 2010 с](https://go.microsoft.com/fwlink/p/?linkId=255876)помощью удаленной powerShell". Этот процесс в Skype для бизнеса Server.
+Параметры конфигурации веб-служб можно удалить с помощью Windows PowerShell и **cmdlet Remove-CsWebServiceConfiguration.** Вы можете запустить этот командлет из командной консоли Skype для бизнеса Server или из удаленного сеанса Windows PowerShell. Сведения об использовании удаленных Windows PowerShell для подключения к Skype для бизнеса Server см. в [материале Microsoft Lync Remote PowerShell Administration](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/). Этот процесс в Skype для бизнеса Server.
   
 ### <a name="to-delete-a-specific-collection-of-web-service-configuration-settings"></a>Удаление конкретной коллекции параметров конфигурации веб-служб
 

@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Узнайте, как разрешить или запретить анонимным абонентам присоединяться к собранию с помощью центра администрирования Skype for Business admin или путем использования сценария PowerShell. '
-ms.openlocfilehash: 5403d984d5e87b929db4d1ebc3c7eeba34f3744c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d420acff8d5822aa4badd8980481d67bd2eae35b
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58600864"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013373"
 ---
 # <a name="start-an-audio-conference-over-the-phone-without-a-pin-in-skype-for-business-online"></a>Начало аудиоконференции по телефону без PIN-кода в Skype для бизнеса Online
 
@@ -35,7 +35,7 @@ ms.locfileid: "58600864"
 > [!Note]
 > Сведения о начале аудиоконференции без PIN-кода в Microsoft Teams см. в статье [Начало аудиоконференции по телефону без PIN-кода в Microsoft Teams](/MicrosoftTeams/start-an-audio-conference-over-the-phone-without-a-pin-in-teams).
 
-Пользователям, которые будут проходить собрание по телефонной связи, может быть сложно слушать музыку в "Skype для бизнеса, так как организатор собрания не начал собрание. 
+Пользователям, которые будут проходить собрание по телефонной связи, может быть сложно слушать музыку в "Skype для бизнеса, так как организатор собрания еще не начал собрание. 
   
 Если организатор собрания звонит на собрание, по умолчанию для начала собрания требуется ПИН-код. Вы можете настроить его таким образом, чтобы любой человек мог звонить на собрание, а пин-код не выводиться для начала собрания. Чтобы включить или отключить этот параметр для одного пользователя, используйте центр администрирования Skype для бизнеса.
   
@@ -46,7 +46,7 @@ ms.locfileid: "58600864"
   
 ## <a name="enable-or-disable-anonymous-callers-from-joining-a-meeting"></a>Разрешение и запрет присоединения анонимных абонентов к собранию
     
-1. В центре **Skype для бизнеса** на левой навигации перейдите в меню Пользователи аудиоконференции  >  . 
+1. В центре **Skype для бизнеса** на левой навигации перейдите в меню Пользователи аудиоконференации  >  . 
     
 2. Выберите пользователя в списке и в области действий нажмите кнопку **Изменить.** 
     
@@ -86,7 +86,7 @@ ms.locfileid: "58600864"
     
 - Что касается Windows PowerShell, то Skype для бизнеса online дает возможность управлять пользователями, предоставляя им права на определенные действия. С Windows PowerShell вы можете управлять Microsoft 365 или Office 365 с помощью единого администрирования, который упростит выполнение повседневных задач. Для начала работы с Windows PowerShell ознакомьтесь с приведенными ниже разделами.
     
-  - [Зачем нужно использовать Microsoft 365 или Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+  - [Зачем нужна Microsoft 365 или Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
   - [Лучшие способы управления Microsoft 365 или Office 365 с помощью Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
@@ -99,8 +99,8 @@ ms.locfileid: "58600864"
   - [Использование возможностей Windows PowerShell для выполнения стандартных задач управления средой Skype для бизнеса Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
     > [!NOTE]
-    > Модуль Windows PowerShell для Skype для бизнеса online позволяет запускать удаленные сеансы Windows PowerShell с подключением к Skype для бизнеса online. Этот модуль для 64-разрядных систем можно загрузить из Центра загрузки Microsoft здесь: [Модуль Windows PowerShell для Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=294688).
+    > Модуль Windows PowerShell для Skype для бизнеса online позволяет запускать удаленные сеансы Windows PowerShell с подключением к Skype для бизнеса online. Этот модуль, который поддерживается только на 64-битных компьютерах, можно скачать из Центра загрузки Майкрософт по ссылке Скачивание и установка модуля [Teams PowerShell.](../set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector.md)
   
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
 [Попробуйте или приобретйте аудиоконференцию в Microsoft 365 или Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

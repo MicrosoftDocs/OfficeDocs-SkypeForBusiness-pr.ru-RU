@@ -8,7 +8,7 @@
 
 | Дата публикации |Название статьи | Изменение |
 |------|------------|--------|
-| 9/20/2021 | [Просмотр заданий политики в журнале действий в центре Microsoft Teams администрирования](/MicrosoftTeams/activity-log) | Изменено |
+| 9/20/2021 | [Просмотр назначений политик в журнале действий в Microsoft Teams администрирования](/MicrosoftTeams/activity-log) | Изменено |
 | 9/20/2021 | [Доступность приложения "Утверждения" в Teams](/MicrosoftTeams/approval-admin) | Изменено |
 | 9/20/2021 | [Назначение политик вашим пользователям в Microsoft Teams](/MicrosoftTeams/assign-policies) | Изменено |
 | 9/20/2021 | [Пограничные контроллеры сеансов, сертифицированные для прямой маршрутизации](/MicrosoftTeams/direct-routing-border-controllers) | Изменено |
@@ -22,7 +22,7 @@
 | 9/20/2021 | [Настройка аудиоконференций для Microsoft Teams](/MicrosoftTeams/set-up-audio-conferencing-in-teams) | Изменено |
 | 9/20/2021 | [Подготовка к вебинарам в Microsoft Teams](/MicrosoftTeams/set-up-webinars) | Изменено |
 | 9/20/2021 | [Microsoft Teams Обзор PowerShell](/MicrosoftTeams/teams-powershell-overview) | Изменено |
-| 9/20/2021 | [Использование OneDrive для бизнеса и SharePoint записей собраний](/MicrosoftTeams/tmr-meeting-recording-change) | Изменено |
+| 9/20/2021 | [Использование OneDrive для бизнеса и SharePoint для записей собраний](/MicrosoftTeams/tmr-meeting-recording-change) | Изменено |
 | 9/20/2021 | [Комнаты Microsoft Teams](/MicrosoftTeams/rooms/index) | Изменено |
 | 9/20/2021 | [Требования к комнатам Microsoft Teams](/MicrosoftTeams/rooms/requirements) | Изменено |
 | 9/21/2021 | [Настройка администратора для приложения Microsoft Parents в EDU](/MicrosoftTeams/edu-parents-app) | Добавлено |
@@ -49,7 +49,7 @@
 | 9/13/2021 | [Управление приложениями в Центре Microsoft Teams администрирования](/MicrosoftTeams/manage-apps) | Изменено |
 | 9/14/2021 | [Пограничные контроллеры сеансов, сертифицированные для прямой маршрутизации](/MicrosoftTeams/direct-routing-border-controllers) | Изменено |
 | 9/14/2021 | [Требования к комнатам Microsoft Teams](/MicrosoftTeams/rooms/requirements) | Изменено |
-| 9/15/2021 | [Управление опытом присоединиться к Teams виртуальных посещений в мобильных браузерах](/MicrosoftTeams/expand-teams-across-your-org/mobile-browser-join) | Изменено |
+| 9/15/2021 | [Управление опытом join для Teams виртуальных посещений в мобильных браузерах](/MicrosoftTeams/expand-teams-across-your-org/mobile-browser-join) | Изменено |
 | 9/16/2021 | [Доступность страны или региона : аудиоконференция, планы звонков](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans) | Изменено |
 | 9/16/2021 | [Teams: управление политиками собраний](/MicrosoftTeams/meeting-policies-in-teams) | Изменено |
 | 9/17/2021 | [Поминутная оплата аудиоконференций](/MicrosoftTeams/audio-conferencing-pay-per-minute) | Изменено |
@@ -80,7 +80,7 @@
 | 9/8/2021 | [Устройства для Teams](/MicrosoftTeams/devices/teams-ip-phones) | Изменено |
 | 9/8/2021 | [Измерения и размеры: панель мониторинга качества звонка (CQD)](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | Изменено |
 | 9/8/2021 | [Teams для виртуальных посещений](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin) | Изменено |
-| 9/8/2021 | [Управление опытом присоединиться к Teams виртуальных посещений в мобильных браузерах](/MicrosoftTeams/expand-teams-across-your-org/mobile-browser-join) | Добавлено |
+| 9/8/2021 | [Управление опытом join для Teams виртуальных посещений в мобильных браузерах](/MicrosoftTeams/expand-teams-across-your-org/mobile-browser-join) | Добавлено |
 | 9/8/2021 | [Метки конфиденциальности для Microsoft Teams](/MicrosoftTeams/sensitivity-labels) | Изменено |
 | 9/8/2021 | [Использование OneDrive для бизнеса и SharePoint для записей собраний](/MicrosoftTeams/tmr-meeting-recording-change) | Изменено |
 | 9/9/2021 | [Управление политиками собраний для записи и записи разговоров](/MicrosoftTeams/meetings-policies-recording-and-transcription) | Добавлено |

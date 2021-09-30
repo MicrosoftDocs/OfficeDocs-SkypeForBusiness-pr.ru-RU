@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: a0d64779-93de-4d82-ae35-e4454ef8b8f6
 description: Сводка. Узнайте, как управлять номерами доступа к телефонным телефонам в Skype для бизнеса Server.
-ms.openlocfilehash: fd1d32ff82fc7bd922acfaea567780b5683eb684
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d76d6135f32b3ea46368080169bf288a637e7546
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58621075"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60011523"
 ---
 # <a name="manage-dial-in-conferencing-access-numbers-in-skype-for-business-server"></a>Управление номерами доступа к телефонным телефонам в Skype для бизнеса Server
  
@@ -97,7 +97,7 @@ Regions            : {US}
     
     Это имя отображается в клиенте, когда пользователь вызывает номер доступа. 
     
-7. В **строке URI** введите номер E.164 номера доступа к телефону в формате TEL URI, включая символ + перед номером и за исключением пробелов. Например, tel:+14255550200.
+7. В **строке URI** введите номер E.164 номера доступа к телефону в формате TEL URI, включая символ + перед номером и за исключением пробелов. Например, `tel:+14255550200`.
     
     > [!NOTE]
     > Один и тот же URI линии не может быть повторно использовать другой номер доступа к диалоговой связи. 

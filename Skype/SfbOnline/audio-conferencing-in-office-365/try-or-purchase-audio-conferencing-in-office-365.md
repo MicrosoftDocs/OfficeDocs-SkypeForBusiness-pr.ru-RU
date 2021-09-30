@@ -21,26 +21,26 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Узнайте, как загрузить пробную версию или приобрести лицензию на аудиоконференции (конференц-связь по ТСОП) для Office 365, чтобы настроить конференц-связь с возможностью входящих вызовов. '
-ms.openlocfilehash: 80b3dafce07298d2ca84cec94aa0c8a54020d9d3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c8830457873ee5555e503e88a27151d15233e217
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58597433"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012343"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-microsoft-365-or-office-365-for-skype-for-business-online"></a>Попробуйте или приобретйте аудиоконференцию в Microsoft 365 или Office 365 для Skype для бизнеса Online
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 > [!Note]
-> Сведения о аудиоконференциях в Microsoft Teams см. в Microsoft 365 или Office 365 для Skype для [Microsoft Teams.](/MicrosoftTeams/try-or-purchase-audio-conferencing-in-office-365-for-teams)
+> Сведения о аудиоконференциях в Microsoft Teams см. в Microsoft 365 или [Office 365](/MicrosoftTeams/try-or-purchase-audio-conferencing-in-office-365-for-teams)для Skype для Microsoft Teams.
 
 
 В некоторых случаях пользователям в организации требуется телефон, чтобы присоединиться к собранию. Специально для таких ситуаций в Skype для бизнеса предусмотрена функция аудиоконференции. Люди могут присоединяться к собраниям Skype для бизнеса с помощью телефона, а не использовать приложение Skype для бизнеса на мобильном устройстве или компьютере.
 
 Вам нужно настроить аудиоконференцию только для тех, кто планирует планировать или вести собрания. Участникам, которые подключаются к собранию, не нужны ни специально назначенные им лицензии, ни другие настройки.
 
-Информация о ценах приведена в разделе [Цены на аудиоконференции](https://products.office.com/skype-for-business/audio-conferencing#Requirements).
+Сведения о ценах см. в сведениях [о аудиоконференциях.](https://www.microsoft.com/microsoft-teams/audio-conferencing)
 
 ## <a name="step-1-buy-and-assign-audio-conferencing-licenses"></a>Шаг 1. Покупка и назначение лицензий на аудиоконференцию
 
@@ -56,7 +56,7 @@ ms.locfileid: "58597433"
 
    - **Купить ,** см. Skype для бизнеса [и Microsoft Teams лицензирования надстройки](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
 
-3. [Назначайте и удаляйте](https://support.office.com/article//997596b5-4173-4627-b915-36abac6786dc) лицензии для Приложения Microsoft 365 для бизнеса, приобретенных для людей в организации, план которых будет планировать или вести собрания.
+3. [Назначайте и удаляйте](https://support.office.com/article//997596b5-4173-4627-b915-36abac6786dc) лицензии для Приложения Microsoft 365 для бизнеса, приобретенных для людей в организации, которые будут планировать или вести собрания.
 
 4. Дополнительно назначить приобретенные Вами лицензии на надстройку аудиоконференции и кредиты на связь. Инструкции см. в [Skype для бизнеса и Microsoft Teams лицензий.](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)
 
@@ -73,7 +73,7 @@ ms.locfileid: "58597433"
     > [!IMPORTANT]
     > Если кредиты на связь не настроены, для любых пользователей с лицензиями с поминутной оплатой функция аудиоконференции работать не будет. Кроме того, если у вас есть лицензии на аудиоконференцию с поминутной оплатой, вам не нужно назначать лицензии на кредиты на связь отдельно каждому пользователю для использования аудиоконференций, но может потребоваться назначить их для другой службы.
 
-4. [Назначайте и удаляйте](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) лицензии для Приложения Microsoft 365 для бизнеса, приобретенных для людей в организации, план которых будет планировать или вести собрания.
+4. [Назначайте и удаляйте](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) лицензии для Приложения Microsoft 365 для бизнеса, приобретенных для людей в организации, которые будут планировать или вести собрания.
 
 
 ## <a name="step-2-set-the-audio-conferencing-provider-for-people-who-lead-or-schedule-meetings"></a>Шаг 2: задать поставщика аудиоконференций для людей, проводящих или планирующих собрания

@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c1037909-0750-411a-98c1-3a327eed4ae8
 description: Сводка. Сведения о настройке надстройок для комнат чатов сохраняемого чата chat Server в Skype для бизнеса Server 2015 г.
-ms.openlocfilehash: f6ff42e57f72a6fa875e8123af91caa7f4e3efc0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ab2ccbe3c9f23a7397ecdf7510da63bbd84b9d95
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58599984"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013393"
 ---
 # <a name="configure-add-ins-for-persistent-chat-rooms-in-skype-for-business-server-2015"></a>Настройка надстройок для постоянных чатов в Skype для бизнеса Server 2015 г.
  
@@ -71,7 +71,7 @@ ms.locfileid: "58599984"
 
 Новую надстройку можно создать с помощью **комлета New-CsPersistentChatAddin.**
   
-Например, следующая команда создает новую надстройку (с именем ITPersistentChatAddin) для пула atl-cs-001.contoso.com. Параметр URL-адреса и значение параметра указывают расположение http://atl-cs-001.contoso.com/itchat веб-страницы надстройки:
+Например, следующая команда создает новую надстройку (с именем ITPersistentChatAddin) для `atl-cs-001.contoso.com` пула. Параметр URL-адреса и значение параметра указывают расположение `http://atl-cs-001.contoso.com/itchat` веб-страницы надстройки:
   
 ```PowerShell
 New-CsPersistentChatAddin -Name "ITPersistentChatAddin" -PersistentChatPoolFqdn "atl-cs-001.contoso.com" -Url "http://atl-cs-001.contoso.com/itchat"
@@ -79,7 +79,7 @@ New-CsPersistentChatAddin -Name "ITPersistentChatAddin" -PersistentChatPoolFqdn 
 
 ### <a name="configure-settings-for-an-existing-add-in"></a>Настройка параметров существующей надстройки
 
-Параметры существующей надстройки можно настроить с помощью cmdlet **Set-CsPersistentChatAddIn.** Например, следующая команда изменяет URL-адрес, присвоенный надстройке Persistent Chat в ITPersistentChatAddin. В этом случае URL-адрес изменен на http://atl-cs-001.contoso.com/itchat2:
+Параметры существующей надстройки можно настроить с помощью cmdlet **Set-CsPersistentChatAddIn.** Например, следующая команда изменяет URL-адрес, присвоенный надстройке Persistent Chat в ITPersistentChatAddin. В этом случае URL-адрес изменен на `http://atl-cs-001.contoso.com/itchat2` :
   
 ```PowerShell
 Set-CsPersistentChatAddin -Identity "atl-cs-001.contoso.com\ITPersistentChatAddin" -Url "http://atl-cs-001.contoso.com/itchat2"
@@ -95,7 +95,7 @@ Get-CsPersistentChatAddin
 
 ### <a name="remove-an-add-in"></a>Удаление надстройки
 
-Надстройку можно удалить с помощью **cmdlet Remove-CsPersistentChatAddIn.** Например, следующая команда удаляет надстройку Persistent Chat в ITChatAddin, найденную в пуле atl-cs-001.contoso.com:
+Надстройку можно удалить с помощью **cmdlet Remove-CsPersistentChatAddIn.** Например, следующая команда удаляет надстройку Persistent Chat в ITChatAddin, найденную в `atl-cs-001.contoso.com` пуле:
   
 ```PowerShell
 Remove-CsPersistentChatAddin -Identity "atl-cs-001.contoso.com\ITChatAddin"

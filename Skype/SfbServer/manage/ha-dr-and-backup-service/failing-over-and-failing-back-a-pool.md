@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: .
-ms.openlocfilehash: 2c0c18672296254d1b532f0b33cdf809e68d249b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0e738faa84053f9a4d4c92127b008d397f042499
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58612278"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013913"
 ---
 # <a name="failing-over-and-failing-back-a-pool-in-skype-for-business-server"></a>Сбой и сбой обратного пула в Skype для бизнеса Server
 
@@ -49,25 +49,33 @@ ms.locfileid: "58612278"
 
 1. Откройте окно Skype для бизнеса Server и введите следующий код:
 
-        Set-CsEdgeServer -Identity EdgeServer:<Edge Server pool FQDN> -Registrar Registrar:<NextHopPoolFQDN>
+    ```powershell
+    Set-CsEdgeServer -Identity EdgeServer:<Edge Server pool FQDN> -Registrar Registrar:<NextHopPoolFQDN>
+    ```
 
 **Сбой в результате аварийной ситуации над пулом**
 
 1. Найдите пул хозяйского сервера для центрального сервера управления, введя на Front-End в Pool2 следующие команды:
 
-        Invoke-CsManagementServerFailover -Whatif
+    ```powershell
+    Invoke-CsManagementServerFailover -Whatif
+    ```
 
     Результаты этого команды показывают, в котором пуле в настоящее время размещен Центральный сервер управления. В остальной части этой процедуры этот пул называется CMS \_ Pool.
 
 2. Используйте Топологию Builder, чтобы найти версию Skype для бизнеса Server в пуле \_ CMS. Если он работает Skype для бизнеса Server, используйте следующий cmdlet, чтобы найти резервный пул пула пула 1.
 
-        Get-CsPoolBackupRelationship -PoolFQDN <CMS_Pool FQDN>
+    ```powershell
+    Get-CsPoolBackupRelationship -PoolFQDN <CMS_Pool FQDN>
+    ```
 
     Пул \_ резервного копирования будет резервным пулом.
 
 3. Проверьте состояние центрального магазина управления следующим cmdlet:
 
-        Get-CsManagementStoreReplicationStatus -CentralManagementStoreStatus 
+    ```powershell
+    Get-CsManagementStoreReplicationStatus -CentralManagementStoreStatus
+    ```
 
     Этот кодлет должен показать, что как ActiveMasterFQDN, так и ActiveFileTransferAgents указывают на FQDN cmS \_ Pool. Если они пусты, центральный сервер управления недопустим, и его необходимо сбой.
 
@@ -75,27 +83,37 @@ ms.locfileid: "58612278"
 
 5.  Чтобы не сбой в центральном хранилище управления в пуле с Skype для бизнеса Server, сделайте следующее:
 
-      - Сначала проверьте, Back-End сервер в резервном пуле запускает основной экземпляр центра управления, введя \_ следующие данные:
+    1. Сначала проверьте, Back-End сервер в резервном пуле запускает основной экземпляр центра управления, введя \_ следующие данные:
 
-            Get-CsDatabaseMirrorState -DatabaseType Centralmgmt -PoolFqdn <Backup_Pool Fqdn>
+        ```powershell
+        Get-CsDatabaseMirrorState -DatabaseType Centralmgmt -PoolFqdn <Backup_Pool Fqdn>
+        ```
     
-      - Если основной сервер Back-End резервного копирования является \_ основным, введите:
+    1. Если основной сервер Back-End резервного копирования является \_ основным, введите:
+
+        ```powershell        
+        Invoke-CSManagementServerFailover -BackupSQLServerFqdn <Backup_Pool Primary BackEnd Server FQDN> -BackupSQLInstanceName <Backup_Pool Primary SQL Instance Name>
+        ```
         
-            Invoke-CSManagementServerFailover -BackupSQLServerFqdn <Backup_Pool Primary BackEnd Server FQDN> -BackupSQLInstanceName <Backup_Pool Primary SQL Instance Name>
-        
-        Если зеркальный Back-End в резервном пуле является \_ основным, введите:
-        
-            Invoke-CSManagementServerFailover -MirrorSQLServerFqdn <Backup_Pool Mirror BackEnd Server FQDN> -MirrorSQLInstanceName <Backup_Pool Mirror SQL Instance Name>
+    1. Если зеркальный Back-End в резервном пуле является \_ основным, введите:
     
-      - Проверьте, завершен ли сбой центрального сервера управления. Введите следующую команду:
-        
-            Get-CsManagementStoreReplicationStatus -CentralManagementStoreStatus 
+        ```powershell
+        Invoke-CSManagementServerFailover -MirrorSQLServerFqdn <Backup_Pool Mirror BackEnd Server FQDN> -MirrorSQLInstanceName <Backup_Pool Mirror SQL Instance Name>
+        ```
+    
+    1. Проверьте, завершен ли сбой центрального сервера управления. Введите следующую команду:
+    
+        ```powershell    
+        Get-CsManagementStoreReplicationStatus -CentralManagementStoreStatus
+        ```
         
         Убедитесь, что и ActiveMasterFQDN, и ActiveFileTransferAgents указывают на FQDN резервного \_ пула.
     
-      - Наконец, проверьте состояние реплики для всех Front-End серверов, введя следующие:
+    1. Наконец, проверьте состояние реплики для всех Front-End серверов, введя следующие:
         
-            Get-CsManagementStoreReplicationStatus 
+        ```powershell
+        Get-CsManagementStoreReplicationStatus 
+        ```
         
         Проверьте, все ли реплики имеют значение True.
         
@@ -103,45 +121,57 @@ ms.locfileid: "58612278"
 
 6.  Установка центра управления на сервер резервного копирования резервного \_ копирования.
     
-      - Сначала выполните следующую команду:
-        ```PowerShell
-         
+    1. Сначала выполните следующую команду:
+
+        ```powershell
         Install-CsDatabase -CentralManagementDatabase -Clean -SqlServerFqdn <Backup_Pool Back End Server FQDN> -SqlInstanceName rtc  
         ```
     
-      - Запустите следующую команду на одном из передних конечных серверов резервного пула, чтобы заставить переместить \_ центральный магазин управления:
-        
-            Move-CsManagementServer -ConfigurationFileName c:\CsConfigurationFile.zip -LisConfigurationFileName c:\CsLisConfigurationFile.zip -Force 
+    1. Запустите следующую команду на одном из передних конечных серверов резервного пула, чтобы заставить переместить \_ центральный магазин управления:
+
+        ```powershell
+        Move-CsManagementServer -ConfigurationFileName c:\CsConfigurationFile.zip -LisConfigurationFileName c:\CsLisConfigurationFile.zip -Force
+        ```
     
-      - Проверьте, выполнилось ли перемещение.
-        
-            Get-CsManagementStoreReplicationStatus -CentralManagementStoreStatus 
+    1. Проверьте, выполнилось ли перемещение.
+
+        ```powershell
+        Get-CsManagementStoreReplicationStatus -CentralManagementStoreStatus
+        ```
         
         Убедитесь, что и ActiveMasterFQDN, и ActiveFileTransferAgents указывают на FQDN резервного \_ пула.
     
-      - Проверьте состояние реплики для всех серверов переднего плана, введя следующую команду:
-        
-            Get-CsManagementStoreReplicationStatus 
+    1. Проверьте состояние реплики для всех серверов переднего плана, введя следующую команду:
+
+        ```powershell
+        Get-CsManagementStoreReplicationStatus
+        ```
         
         Проверьте, все ли реплики имеют значение True.
     
-      - Установите службу Центрального сервера управления на остальные серверы переднего конца в резервном \_ пуле. Для этого запустите следующую команду на всех серверах переднего конца, за исключением команды, используемой при принуждении к переходу центра управления в начале этой процедуры:
-        
-            Bootstrapper /Setup 
+    1. Установите службу Центрального сервера управления на остальные серверы переднего конца в резервном \_ пуле. Для этого запустите следующую команду на всех серверах переднего конца, за исключением команды, используемой при принуждении к переходу центра управления в начале этой процедуры:
+
+        ```console
+        Bootstrapper /Setup
+        ```
 
 7.  Сбой в работе пользователей из Пула1 в Пул2 при запуске следующего команды в окне Skype для бизнеса Server Management Shell:
-    
-        Invoke-CsPoolFailover -PoolFQDN <Pool1 FQDN> -DisasterMode -Verbose
+
+    ```powershell
+    Invoke-CsPoolFailover -PoolFQDN <Pool1 FQDN> -DisasterMode -Verbose
+    ```
     
     Так как действия, предпринятые в предыдущих частях этой процедуры для проверки состояния магазина Central Management, не являются универсальными, вероятность сбой этого cmdlet сохраняется, так как хранилище Central Management еще не полностью завершено. В этом случае необходимо исправить центральный магазин управления на основе сообщений об ошибках, которые вы видите, а затем запустить этот комдлет снова.
     
     Если выводится приводимое ниже сообщение об ошибке, необходимо изменить пограничный пул на данном сайте, чтобы использовать до обхода отказавшего пула другой пул в качестве следующего перехода. Подробности см. в описании процедур в начале этой статьи.
     
-        Invoke-CsPoolFailOver : This Front-end pool "pool1.contoso.com" is specified in
-        topology as the next hop for the Edge server. Failing over this pool may cause External
-        access/Federation/Split-domain/XMPP features to stop working. Please use Topology Builder to
-        change the Edge internal next hop setting to point to a different Front-end pool,  before you
-        proceed.
+    ```console
+    Invoke-CsPoolFailOver : This Front-end pool "pool1.contoso.com" is specified in
+    topology as the next hop for the Edge server. Failing over this pool may cause External
+    access/Federation/Split-domain/XMPP features to stop working. Please use Topology Builder to
+    change the Edge internal next hop setting to point to a different Front-end pool,  before you
+    proceed.
+    ```
 
 
 ## <a name="fail-back-a-pool"></a>Сбой обратно пула
@@ -151,8 +181,10 @@ ms.locfileid: "58612278"
 Процесс сбойной работы занимает несколько минут. Для справки предполагается, что для пула из 20 000 пользователей может занять до 60 минут.
 
 Восстановите размещение пользователей, которые изначально размещались в пуле Pool1 и были переключены на пул Pool2; для этого введите следующий командлет:
-    
-    Invoke-CsPoolFailback -PoolFQDN <Pool1 FQDN> -Verbose
+
+```powershell
+Invoke-CsPoolFailback -PoolFQDN <Pool1 FQDN> -Verbose
+```
 
 Другие действия не требуются. Если вы не справился с управлением на центральном сервере управления, вы можете оставить его в Pool2.
 
@@ -162,11 +194,11 @@ ms.locfileid: "58612278"
 
 1.  На интерфейсном сервере откройте построитель топологии. **Расширьте пулы** Edge и нажмите правой кнопкой мыши в пуле edge server или edge server, который в настоящее время настроен для Федерации. Выберите пункт **Изменить свойства**.
 
-2.  В разделе **Общие** области **Изменение свойств** снимите флажок **Включение федерации для этого пограничного пула (порт 5061)**. Нажмите **ОК**.
+2.  В разделе **Общие** области **Изменение свойств** снимите флажок **Включение федерации для этого пограничного пула (порт 5061)**. Нажмите **OK**.
 
 3.  **Расширьте пулы** Edge и нажмите правой кнопкой мыши в пуле edge server или Edge Server, которые вы теперь хотите использовать для Федерации. Выберите пункт **Изменить свойства**.
 
-4.  В разделе **Общие** области **Изменение свойств** установите флажок **Включение федерации для этого пограничного пула (порт 5061)**. Нажмите **ОК**.
+4.  В разделе **Общие** области **Изменение свойств** установите флажок **Включение федерации для этого пограничного пула (порт 5061)**. Нажмите **OK**.
 
 5.  Выберите **действие,** выберите **топологию,** выберите **Опубликовать**. Когда предложено опубликовать **топологию,** выберите **Далее**. После завершения публикации выберите **Finish**.
 
@@ -188,26 +220,34 @@ ms.locfileid: "58612278"
 1.  Если у вас еще нет развернутого другого пула Edge (кроме того, который в настоящее время не работает), разверни этот пул. 
 
 2.  На каждом пограничном сервере в новом пограничном пуле, который теперь размещает федерацию XMPP EdgePool2), запустите следующий командлет:
-    
-        Stop-CsWindowsService
+
+    ```powershell
+    Stop-CsWindowsService
+    ```
 
 3.  Выполните следующий командлет, чтобы переопределить маршрут федерации XMPP на сервер EdgePool2:
-    
-        Set-CsSite Site2 -XmppExternalFederationRoute EdgeServer2.contoso.com
+
+    ```powershell
+    Set-CsSite Site2 -XmppExternalFederationRoute EdgeServer2.contoso.com
+    ```
     
     В этом примере Site2 — это сайт, содержащий пограничный пул, который в настоящее время содержит пограничный пул, через который проходит маршрут федерации XMPP, а EdgeServer2.contoso.com — это полное доменное имя пограничного сервера в этом пуле.
 
 4.  На внешнем DNS-сервере измените запись узла A для федерации XMPP, чтобы она указывала на EdgeServer2.contoso.com.
 
 5.  Если отсутствует SRV-запись федерации XMPP, которая разрешается в адрес пограничного пула, поддерживающего в настоящее время федерацию XMPP, необходимо добавить ее, как показано в следующем примере. В этой SRV-записи необходимо указать значение порта 5269.
-    
-        _xmpp-server._tcp.contoso.com
+
+    ```console
+    _xmpp-server._tcp.contoso.com
+    ```
 
 6.  Убедитесь, что на внешнем интерфейсе пограничного пула, в котором теперь размещена федерация XMPP, открыт порт 5269.
 
 7.  Запустите службу на всех пограничных серверах в пограничном пуле, содержащем федерацию XMPP:
-    
-        Start-CsWindowsService
+
+    ```powershell
+    Start-CsWindowsService
+    ```
 
 ## <a name="fail-back-the-edge-pool-used-for-skype-for-business-server-federation-or-xmpp-federation"></a>Отбой обратно в пуле Edge, используемом для Skype для бизнеса Server федерации или федерации XMPP 
 
@@ -217,35 +257,39 @@ ms.locfileid: "58612278"
 
 2.  Если вы хотите отойтки Skype для бизнеса Server федерации, чтобы использовать восстановленный edge Server, сделайте следующее:
     
-      - На интерфейсном сервере откройте построитель топологии. **Разойдитесь** по пулам Edge , нажмите правой кнопкой мыши на сервере Edge или в пуле edge server, который в настоящее время настроен для Федерации. Выберите пункт **Изменить свойства**.
+    1. На интерфейсном сервере откройте построитель топологии. **Разойдитесь** по пулам Edge , нажмите правой кнопкой мыши на сервере Edge или в пуле edge server, который в настоящее время настроен для Федерации. Выберите пункт **Изменить свойства**.
     
-      - В разделе **Общие** области **Изменение свойств** снимите флажок **Включение федерации для этого пограничного пула (порт 5061)**. Нажмите **ОК**.
+    1. В разделе **Общие** области **Изменение свойств** снимите флажок **Включение федерации для этого пограничного пула (порт 5061)**. Нажмите **OK**.
     
-      - **Разойдитесь** по пулам Edge и нажмите правой кнопкой мыши исходный пул edge server или edge server, который вы снова хотите использовать для Федерации. Выберите пункт **Изменить свойства**.
+    1. **Разойдитесь** по пулам Edge и нажмите правой кнопкой мыши исходный пул edge server или edge server, который вы снова хотите использовать для Федерации. Выберите пункт **Изменить свойства**.
     
-      - В разделе **Общие** области **Изменение свойств** установите флажок **Включение федерации для этого пограничного пула (порт 5061)**. Нажмите **ОК**.
+    1. В разделе **Общие** области **Изменение свойств** установите флажок **Включение федерации для этого пограничного пула (порт 5061)**. Нажмите **OK**.
     
-      - Выберите **действие,** выберите **топологию,** выберите **Опубликовать**. Когда предложено опубликовать **топологию,** выберите **Далее**. После завершения публикации выберите **Finish**.
+    1. Выберите **действие,** выберите **топологию,** выберите **Опубликовать**. Когда предложено опубликовать **топологию,** выберите **Далее**. После завершения публикации выберите **Finish**.
     
-      - На сервере Edge откройте мастер Skype для бизнеса Server развертывания. Выберите **установку или обновление Skype для бизнеса Server,** а затем установите или **удалите компоненты Skype для бизнеса Server.** Выберите **Выполнить снова**.
+    1. На сервере Edge откройте мастер Skype для бизнеса Server развертывания. Выберите **установку или обновление Skype для бизнеса Server,** а затем установите или **удалите компоненты Skype для бизнеса Server.** Выберите **Выполнить снова**.
     
-      - Нажмите кнопку **Далее**. В окне сводки будут показаны действия по мере их выполнения. После развертывания выберите view **Log** для просмотра доступных файлов журнала. Выберите **Готово** для завершения развертывания.
+    1. Нажмите кнопку **Далее**. В окне сводки будут показаны действия по мере их выполнения. После развертывания выберите view **Log** для просмотра доступных файлов журнала. Выберите **Готово** для завершения развертывания.
 
 3.  Если необходимо восстановить маршрутизацию федерации XMPP для использования восстановленного пограничного сервера, выполните следующие действия:
     
-      - Выполните следующий командлет, чтобы повторно указать маршрут федерации XMPP к пограничному пулу, в котором теперь будет размещаться федерация XMPP (в данном примере — EdgeServer1):
-        
-            Set-CsSite Site1 -XmppExternalFederationRoute EdgeServer1.contoso.com
+    1. Выполните следующий командлет, чтобы повторно указать маршрут федерации XMPP к пограничному пулу, в котором теперь будет размещаться федерация XMPP (в данном примере — EdgeServer1):
+  
+        ```powershell
+        Set-CsSite Site1 -XmppExternalFederationRoute EdgeServer1.contoso.com
+        ```
         
         В данном примере Site1 — это сайт, содержащий пограничный пул, в котором теперь размещается маршрут федерации XMPP, а EdgeServer1.contoso.com — это полное доменное имя пограничного сервера в этом пуле.
     
-      - Если у вас пока нет записи DNS SRV для федерации XMPP, которая разрешается в пограничный пул, где будет размещаться федерация XMPP, вы должны добавить ее, как указано в следующем примере. Для этой записи SRV необходимо указать значение порта 5269.
-        
-            _xmpp-server._tcp.contoso.com
+    1. Если у вас пока нет записи DNS SRV для федерации XMPP, которая разрешается в пограничный пул, где будет размещаться федерация XMPP, вы должны добавить ее, как указано в следующем примере. Для этой записи SRV необходимо указать значение порта 5269.
+
+        ```console
+        _xmpp-server._tcp.contoso.com
+        ```
     
-      - На внешнем DNS-сервере измените запись DNS A для федерации XMPP таким образом, чтобы она указывала на EdgeServer2.contoso.com.
+    1. На внешнем DNS-сервере измените запись DNS A для федерации XMPP таким образом, чтобы она указывала на EdgeServer2.contoso.com.
     
-      - Убедитесь, что порт 5269 пограничного пула, в котором теперь будет размещаться федерация XMPP, открыт на внешнем уровне.
+    1. Убедитесь, что порт 5269 пограничного пула, в котором теперь будет размещаться федерация XMPP, открыт на внешнем уровне.
 
 4.  Если пулы переднего конца оставались запущенными на сайте, содержащим неудавшиеся и восстановленные пулы Edge, следует обновить службу веб-конференциалов и службу A/V Conferencing на этих пулах переднего конца, чтобы снова использовать пулы Edge на локальном сайте.
 

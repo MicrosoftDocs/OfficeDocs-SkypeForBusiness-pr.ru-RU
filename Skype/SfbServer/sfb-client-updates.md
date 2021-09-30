@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: Предоставляет ИТ-специалисты ссылки на последние сведения об обновлении для постоянных версий Skype для бизнеса 2016, Skype для бизнеса 2015 и Lync 2013
-ms.openlocfilehash: bff52ddfd2a037af9bac9d79d36a2a7acd156baa
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 574deac22c50cfedc71d7d289cfcbe0ecc9e8286
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58581343"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013943"
 ---
 # <a name="latest-updates-for-versions-of-skype-for-business-that-use-windows-installer-msi"></a>Последние обновления для версий Skype для бизнеса, Windows установки (MSI)
 
@@ -143,15 +143,15 @@ Skype для бизнеса совместимость с Microsoft 365 или O
 |Обновление для Skype для бизнеса 2015/Lync 2013|[KB 3114502](https://support.microsoft.com/kb/3114502) | Январь 2016 г. |
 |Обновление безопасности за Skype для бизнеса 2015/Lync 2013|[KB 3114351](https://support.microsoft.com/kb/3114351) | Декабрь 2015 г. |
 |Обновление безопасности за Skype для бизнеса 2015/Lync 2013|[KB 3039776](https://support.microsoft.com/kb/KB3039776) | Декабрь 2015 г. |
-|Обновление безопасности за Skype для бизнеса 2015/Lync 2013|[KB 3101496](https://support.microsoft.com/kb/3101496) | Ноябрь 2015 г. |
+|Обновление безопасности для Skype для бизнеса 2015/Lync 2013|[KB 3101496](https://support.microsoft.com/kb/3101496) | Ноябрь 2015 г. |
 |Обновление для Skype для бизнеса 2015/Lync 2013|[KB 3085581](https://support.microsoft.com/kb/3085581) | Октябрь 2015 г. |
-|Обновление безопасности за Skype для бизнеса 2015/Lync 2013|[KB 3085500](https://support.microsoft.com/kb/3085500) | Сентябрь 2015 г. |
-|Обновление безопасности за Skype для бизнеса 2015/Lync 2013|[KB 3055014](https://support.microsoft.com/kb/3055014) | Август 2015 г. |
+|Обновление безопасности для Skype для бизнеса 2015/Lync 2013|[KB 3085500](https://support.microsoft.com/kb/3085500) | Сентябрь 2015 г. |
+|Обновление безопасности для Skype для бизнеса 2015/Lync 2013|[KB 3055014](https://support.microsoft.com/kb/3055014) | Август 2015 г. |
 |Обновление для Skype для бизнеса 2015/Lync 2013|[KB 3054791](https://support.microsoft.com/kb/3054791) | Июнь 2015 г. |
 
-### <a name="skype-for-business-on-mac-client-updates"></a>Skype для бизнеса обновления клиентов Mac
+### <a name="skype-for-business-on-mac-client-updates"></a>Обновления клиентов Skype для бизнеса на Mac
 
-[Текущие заметки о выпуске Skype для бизнеса на Mac](https://support.office.com/article/cece9f93-add1-4d93-9a38-56cc598e5781#OS_Type=Mac)
+[Текущие заметки о выпуске для Skype для бизнеса на Mac](https://support.office.com/article/cece9f93-add1-4d93-9a38-56cc598e5781#OS_Type=Mac)
 
 * * *
 
@@ -161,7 +161,7 @@ Skype для бизнеса совместимость с Microsoft 365 или O
 |:--- |:--- |:--- |
 |Обновление для Skype для бизнеса 2015/Lync 2013 |[KB 4462207](https://support.microsoft.com/kb/4462207/)| Апрель 2019 г. |
 |Обновление для Skype для бизнеса 2015/Lync 2013 |[KB 4461557](https://support.microsoft.com/kb/4461557/)| Январь 2019 г. |
-|Обновление безопасности за Skype для бизнеса 2015/Lync 2013 |[KB 4461487](https://support.microsoft.com/kb/4461487/)| Ноябрь 2018 г. |
+|Обновление безопасности для Skype для бизнеса 2015/Lync 2013 |[KB 4461487](https://support.microsoft.com/kb/4461487/)| Ноябрь 2018 г. |
 |Обновление для Skype для бизнеса 2015/Lync 2013 |[KB 4461446](https://support.microsoft.com/kb/4461446/)| Октябрь 2018 г. |
 |Обновление для Skype для бизнеса 2015/Lync 2013 |[KB 4092457](https://support.microsoft.com/kb/4092457/)| Сентябрь 2018 г. |
 |Обновление для Skype для бизнеса 2015/Lync 2013 |[KB 4032250](https://support.microsoft.com/kb/4032250/)| Август 2018 г. |
@@ -174,13 +174,13 @@ Skype для бизнеса совместимость с Microsoft 365 или O
 |Обновление для Skype для бизнеса 2015/Lync 2013|[KB 4011638](https://support.microsoft.com/kb/4011638) | Январь 2018 г. |
 |Обновление для Skype для бизнеса 2015/Lync 2013|[KB 4011284](https://support.microsoft.com/kb/4011284) | Декабрь 2017 г. |
 |Обновление для Skype для бизнеса 2015/Lync 2013|[KB 4011255](https://support.microsoft.com/kb/4011255) | Ноябрь 2017 г. |
-|Обновление безопасности за Skype для бизнеса 2015/Lync 2013|[KB 4011179](https://support.microsoft.com/kb/4011179) | Октябрь 2017 г. |
-|Обновление безопасности за Skype для бизнеса 2015/Lync 2013|[KB 4011107](https://support.microsoft.com/kb/4011107) | Сентябрь 2017 г. |
-|Обновление безопасности за Skype для бизнеса 2015/Lync 2013|[KB 3213568](https://support.microsoft.com/kb/3213568) | Сентябрь 2017 г.
+|Обновление безопасности для Skype для бизнеса 2015/Lync 2013|[KB 4011179](https://support.microsoft.com/kb/4011179) | Октябрь 2017 г. |
+|Обновление безопасности для Skype для бизнеса 2015/Lync 2013|[KB 4011107](https://support.microsoft.com/kb/4011107) | Сентябрь 2017 г. |
+|Обновление безопасности для Skype для бизнеса 2015/Lync 2013|[KB 3213568](https://support.microsoft.com/kb/3213568) | Сентябрь 2017 г.
 |Обновление для Skype для бизнеса 2015/Lync 2013|[KB 4011046](https://support.microsoft.com/kb/4011046) | Август 2017 г. |
 |Обновление для Skype для бизнеса 2015/Lync 2013|[KB 3213574](https://support.microsoft.com/kb/3213574) | Июль 2017 г. |
 |Обновление для Skype для бизнеса 2015/Lync 2013|[KB 3191939](https://support.microsoft.com/kb/3191939) | Июнь 2017 г. |
-|Обновление безопасности за Skype для бизнеса 2015/Lync 2013|[KB 3191937](https://support.microsoft.com/kb/3191937) | Июнь 2017 г. |
+|Обновление безопасности для Skype для бизнеса 2015/Lync 2013|[KB 3191937](https://support.microsoft.com/kb/3191937) | Июнь 2017 г. |
 |Обновление Lynchelploc для Skype для бизнеса 2015/Lync 2013|[KB 3191873](https://support.microsoft.com/kb/3191873) | Май 2017 г. |
 |Обновление для Skype для бизнеса 2015/Lync 2013|[KB 3191876](https://support.microsoft.com/kb/3191876) | Май 2017 г. |
 |Обновление для Skype для бизнеса 2015/Lync 2013|[KB 3172492](https://support.microsoft.com/kb/3172492) | Апрель 2017 г. |
@@ -245,15 +245,15 @@ Skype для бизнеса совместимость с Microsoft 365 или O
 
 ### <a name="lync-phone-edition-clients-on-download-center"></a>Клиенты Lync Телефон Edition в Центре загрузки
 
-Название пакета|Дата выпуска|
-|:--- |:--- |:--- |
+| Название пакета | Дата выпуска|
+|:--- |:--- |
 |[Lync Телефон для HP 4110 и HP 4120](https://www.microsoft.com/download/en/details.aspx?id=28158) | Апрель 2017 г. |
 |[Выпуск Lync Телефон для Polycom CX500, Polycom CX600 и Polycom CX3000](https://www.microsoft.com/download/en/details.aspx?id=23866) | Апрель 2017 г. |
 |[Lync Телефон для Polycom CX700 и LG-Nortel IP Телефон 8540](https://www.microsoft.com/download/en/details.aspx?id=21644) | Декабрь 2015 г. |
 
 ### <a name="lync-basic-2013-software"></a>Программное обеспечение Lync Basic 2013
 
-Название пакета|Дата выпуска|
+|Название пакета|Дата выпуска| |
 |:--- |:--- |:--- |
 |[Lync Basic 2013 (32-bit)](https://www.microsoft.com/download/details.aspx?id=35451) | Октябрь 2012 г. |
 |[Lync Basic 2013 (64-bit)](https://www.microsoft.com/download/details.aspx?id=35450) | Октябрь 2012 г. |
@@ -316,6 +316,6 @@ Skype для бизнеса совместимость с Microsoft 365 или O
 | [Lync 2010 Чел . Установка уровня администрирования](https://www.microsoft.com/download/en/details.aspx?id=23396) | Апрель 2013 г.   |
 | [Lync 2010 Чел . Установка уровня пользователя](https://www.microsoft.com/download/en/details.aspx?id=15755)  | Июнь 2014 г.    |
 
-## <a name="related-topics"></a>Похожие темы
+## <a name="related-topics"></a>Статьи по теме
 
 - [Обновления для Skype для бизнеса Server](sfb-server-updates.md)

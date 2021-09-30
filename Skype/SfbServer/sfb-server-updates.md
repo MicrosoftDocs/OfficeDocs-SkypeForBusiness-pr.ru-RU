@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Поиск и управление обновлениями Skype для бизнеса Server 2015/2019 и Lync 2013 в одном месте. Чтобы узнать больше об обновлениях и скачать их, воспользуйтесь ссылками на этой странице.
-ms.openlocfilehash: 4f9b8e4de19778d2ded55f14e0de894528590d50
-ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
+ms.openlocfilehash: e90155c15909ca876362990ba2754e4b136d2ac6
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2021
-ms.locfileid: "59432311"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012383"
 ---
 # <a name="skype-for-business-server-updates"></a>Обновления Skype для бизнеса Server
 
@@ -157,7 +157,7 @@ KB 4470124 является мастером КБ для Skype для бизне
 | Lync Connectivity Analyzer (64-bit) RETIRED |Июнь 2017 г. |
 | Анализатор соответствия рекомендациям Lync Server 2013 |Октябрь 2012 г. |
 |[Калькулятор емкости Lync Server 2013](https://www.microsoft.com/download/details.aspx?id=36828) |Июль 2013 г. |
-|[Средства отладки Lync Server 2013](https://www.microsoft.com/download/details.aspx?id=35453) |Январь 2014 г. |
+|Средства отладки Lync Server 2013 |Январь 2014 г. |
 | Пакет управления Lync Server 2013 |Май 2016 г. |
 | Набор постоянных ресурсов чата Lync Server 2013 |Июль 2013 г. |
 | Средство планирования Lync Server 2013 |Июль 2013 г. |

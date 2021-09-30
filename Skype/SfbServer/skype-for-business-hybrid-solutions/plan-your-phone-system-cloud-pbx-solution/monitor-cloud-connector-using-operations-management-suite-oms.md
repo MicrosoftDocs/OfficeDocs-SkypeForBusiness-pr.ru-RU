@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: edf4a04c-d4c9-4c05-aacc-9e084618bb55
 description: Ознакомьтесь с этой темой, чтобы узнать, как отслеживать развертывание облачной версии 2.1 и более позднее развертывание с помощью пакета управления операциями Майкрософт (OMS).
-ms.openlocfilehash: 0589df251fedb8d60ba115920e76b3aa1b327334
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: cf8a79b9b504b5a98592a169d3a507eb938353b9
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729028"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012313"
 ---
 # <a name="monitor-cloud-connector-using-operations-management-suite-oms"></a>Отслеживание Cloud Connector с помощью Operations Management Suite (OMS)
 
@@ -104,7 +104,7 @@ ms.locfileid: "58729028"
 
    - Lync Server
 
-   - Application
+   - Для приложений
 
      > [!NOTE]
      > Необходимо вручную ввести Lync Server в текстовом окне. Он не появляется в качестве параметра в списке выпаданий. 
@@ -164,7 +164,7 @@ ms.locfileid: "58729028"
 
     В запросе используется компьютерный *фильтр, в котором Компьютер содержит "MediationServer".* Фильтр выбирает только компьютер, имя которого содержит строку "MediationServer".
 
-     Вы замените фильтр собственным компьютерным фильтром или просто удалите его. Можно создавать сложные фильтры строк без регулярных выражений. Дополнительные сведения см. в [стряхтовом операторе.](https://docs.loganalytics.io/docs/Language-Reference/Scalar-operators/String-operators) Вы также можете использовать регулярные выражения. Кроме того, можно создать компьютерную группу, сэкономив поисковый запрос и используя ее в качестве фильтра компьютера в запросе оповещений. Дополнительные сведения см. в [журнале Computer groups in Log Analytics.](/azure/log-analytics/log-analytics-computer-groups)
+     Вы замените фильтр собственным компьютерным фильтром или просто удалите его. Можно создавать сложные фильтры строк без регулярных выражений. Вы также можете использовать регулярные выражения. Кроме того, можно создать компьютерную группу, сэкономив поисковый запрос и используя ее в качестве фильтра компьютера в запросе оповещений. Дополнительные сведения см. в [журнале Computer groups in Log Analytics.](/azure/log-analytics/log-analytics-computer-groups)
 
     Для каждого компьютера запрос об ошибке получит последний журнал событий как для запуска службы RTCMEDSRV, так и для остановки службы. Он возвращает один журнал, если последним событием является событие остановки службы; он не возвращает ничего, если последним событием является событие запуска службы. Короче говоря, запрос возвращает список серверов, RTCMEDSRV которых остановлен в окне времени. 
 
@@ -251,8 +251,6 @@ search *| where Computer contains "MediationServer" | where (Type == "Perf" or T
 Дополнительные сведения о работе с OMS см. в следующих сведениях:
 
 - [Поиск данных с помощью поиска журналов в журнале Analytics](/azure/log-analytics/log-analytics-log-searches)
-
-- [Языковая ссылка Azure Log Analytics](https://docs.loganalytics.io/docs/Language-Reference)
 
 - [Понимание оповещений в журнале Analytics](/azure/log-analytics/log-analytics-alerts)
 

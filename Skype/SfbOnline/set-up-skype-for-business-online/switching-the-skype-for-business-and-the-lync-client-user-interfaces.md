@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 'Узнайте, как переключаться между пользовательскими интерфейсами Skype для бизнеса и Lync с помощью PowerShell в Microsoft 365 или Office 365 '
-ms.openlocfilehash: 2345e30bf43a00342b1238533884d749e32095f1
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: ecb494ea274a9652024056c1b0725159565d22af
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58732268"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014993"
 ---
 # <a name="switching-between-the-skype-for-business-and-the-lync-client-user-interfaces"></a>Переключение между пользовательскими интерфейсами клиентов Skype для бизнеса и Lync
 
@@ -41,7 +41,7 @@ ms.locfileid: "58732268"
   
 ## <a name="switching-the-skype-for-business-user-interface-for-users"></a>Переключение пользовательского интерфейса Skype для бизнеса для пользователей
 
-Модуль Windows PowerShell для Skype для бизнеса Online позволяет запускать удаленные сеансы Windows PowerShell с подключением к Skype для бизнеса Online. Этот модуль для 64-разрядных систем можно загрузить из Центра загрузки Microsoft здесь: [Модуль Windows PowerShell для Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=294688). Для получения других сведений см. раздел [Настройка компьютера для управления Skype для бизнеса Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
+Модуль Windows PowerShell для Skype для бизнеса online позволяет запускать удаленные сеансы Windows PowerShell с подключением к Skype для бизнеса online. Этот модуль, который поддерживается только на 64-битных компьютерах, можно скачать из Центра загрузки Майкрософт по ссылке Скачивание и установка Teams [PowerShell.](../set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector.md) Другие сведения см. в настройках компьютера для [управления Skype для бизнеса Online.](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
   
 > [!IMPORTANT]
 > Параметр политики  _Global_ для переключения пользовательского интерфейса не применяется, если пользователь уже применил настраиваемую политику. Чтобы изменить пользовательский интерфейс, необходимо выполнить следующую команду для каждого пользователя, применившего настраиваемую политику:
@@ -91,7 +91,7 @@ Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI -Identity <username>
 
 Если политика настроена правильно, появится следующая запись:
   
-![Skype для бизнеса Online — пользовательский интерфейс отключен.](../images/61c645e0-67fc-4e03-803c-b7028a47dae3.png)
+![Skype для бизнеса Интернет — пользовательский интерфейс отключен.](../images/61c645e0-67fc-4e03-803c-b7028a47dae3.png)
   
 Чтобы включить клиент Skype для бизнеса для нескольких пользователей в вашей организации, откройте Remote PowerShell и введите следующую команду:
   
@@ -145,7 +145,7 @@ Get-CsOnlineUser -Filter {Department -eq "Sales"} | Grant-CsClientPolicy -Policy
 |:-----|:-----|:-----|
 |`Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI`|Пользователю будет предложено переключиться на пользовательский интерфейс Skype для бизнеса клиента.  <br/> |Пользователь продолжит использовать пользовательский интерфейс Skype для бизнеса клиента.  <br/> |
 |`Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI`|Пользователь продолжит использовать интерфейс Skype для бизнеса (Lync).  <br/> |Пользователю будет предложено переключиться на пользовательский интерфейс Skype для бизнеса (Lync).  <br/> |
-|Политика не установлена.  <br/> |Пользователи не увидят интерфейс Skype для бизнеса (Lync), если политика не настроена. Пользователь будет работать только в пользовательском интерфейсе клиента Skype для бизнеса.  <br/> |Пользователь продолжит использовать пользовательский интерфейс Skype для бизнеса клиента.  <br/> |
+|Политика не установлена.  <br/> |Пользователи не увидят пользовательский интерфейс Skype для бизнеса (Lync), если политика не настроена. Пользователь будет работать только в пользовательском интерфейсе клиента Skype для бизнеса.  <br/> |Пользователь продолжит использовать пользовательский интерфейс Skype для бизнеса клиента.  <br/> |
    
 В этой таблице приводятся все настраиваемые политики, доступные для Online. Эти новые политики были созданы для того, чтобы предоставить администраторам гибкость и сохранить прежнюю настраиваемую политику при переключении флагов EnableSkypeUI. Чтобы назначить пользователям одну из приведенных ниже политик, используйте указанные выше командлеты.
   
@@ -171,11 +171,11 @@ Get-CsOnlineUser -Filter {Department -eq "Sales"} | Grant-CsClientPolicy -Policy
   
 - [Зачем нужна Microsoft 365 или Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-- [Лучшие способы управления Microsoft 365 Office 365 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+- [Лучшие способы управления Microsoft 365 или Office 365 с помощью Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
 ## <a name="first-launch-client-behaviors"></a>Режим работы клиента при первом запуске
 
-По умолчанию при первом запуске Skype для бизнеса пользователи всегда будут видеть интерфейс Skype для бизнеса Lync, даже если вы выбрали интерфейс клиента Lync путем настройки клиентской политики для работы с Lync (), как описано `Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI` выше. Через несколько минут пользователям будет предложено переключиться в режим Lync.
+По умолчанию при первом запуске Skype для бизнеса пользователи всегда будут видеть пользовательский интерфейс Skype для бизнеса, даже если вы выбрали интерфейс клиента Lync путем настройки клиентской политики Lync (), как описано `Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI` выше. Через несколько минут пользователям будет предложено переключиться в режим Lync.
   
 Чтобы отобразить интерфейс Lync при первом запуске клиента Skype для бизнеса, выполните следующие действия до того, как клиент будет запущен в первый раз после обновления.
   
@@ -203,7 +203,7 @@ Get-CsOnlineUser -Filter {Department -eq "Sales"} | Grant-CsClientPolicy -Policy
   
 ### <a name="control-the-display-of-the-welcome-screen-tutorial"></a>Руководство по управлению отображением экрана приветствия
 
-Когда пользователи открывают клиент Skype для бизнеса, по умолчанию отображается экран приветствия, который содержит *7* кратких советов, которые большинство пользователей просят . Вы можете отключить отображение экрана приветствия, но при этом разрешить пользователям получать доступ к учебнику, добавив на клиентский компьютер следующее значение реестра:
+Когда пользователи открывают клиент Skype для бизнеса, по умолчанию отображается экран приветствия, который содержит *7* кратких советов, которые большинство людей просят . Вы можете отключить отображение экрана приветствия, но при этом разрешить пользователям получать доступ к учебнику, добавив на клиентский компьютер следующее значение реестра:
   
 В строке **[HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\15.0\\Lync]** создайте новое **значение DWORD (32-разрядное)**. **Имя значения** должно быть **IsBasicTutorialSeenByUser**. Для **данных значения** задайте **1**.
   

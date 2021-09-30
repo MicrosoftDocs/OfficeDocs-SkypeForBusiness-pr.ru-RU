@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 64f05569-07c7-4f76-a96b-ea4125a510d5
 description: Сводка. Сведения о параметрах качества работы (QoE) в Skype для бизнеса Server.
-ms.openlocfilehash: 564ab88b349b578cf577893e4119e5e1ebf26fb1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8c92f5844562e3a99cfc8d8701d7a72b9022267c
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58585103"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012173"
 ---
 # <a name="create-quality-of-experience-configuration-settings-in-skype-for-business-server"></a>Создание параметров конфигурации experience в Skype для бизнеса Server
  
@@ -31,7 +31,7 @@ ms.locfileid: "58585103"
   
 |**Параметр пользовательского интерфейса**|**Параметр PowerShell**|**Описание**|
 |:-----|:-----|:-----|
-|Имя  <br/> |Удостоверение  <br/> |Уникальный идентификатор создаваемых параметров. Параметры конфигурации качества взаимодействия могут быть созданы только на уровне сайта.  <br/> |
+|Имя  <br/> |Identity  <br/> |Уникальный идентификатор создаваемых параметров. Параметры конфигурации качества взаимодействия могут быть созданы только на уровне сайта.  <br/> |
 |Разрешить отслеживание данных о качестве связи  <br/> |EnableQoE  <br/> |Указывает, будут ли записи качества взаимодействия собраны и сохранены в базу данных мониторинга.  <br/> |
 |Разрешить очистку данных о качестве связи  <br/> |EnablePurging  <br/> |Определяет, можно ли очищать записи после истечения периода времени, определенного в свойстве **Хранить данные о качестве взаимодействия не дольше (дн.)**. <br/> |
 |Хранить данные о качестве взаимодействия не дольше (дн.):  <br/> |KeepQoEDataForDays  <br/> |Число дней хранения данных о качестве взаимодействия до удаления из базы данных. Это значение игнорируется, если очистка отключена.  <br/> |
@@ -63,7 +63,7 @@ ms.locfileid: "58585103"
     
 ## <a name="creating-qoe-configuration-settings-by-using-windows-powershell-cmdlets"></a>Создание конфигурации QoE Параметры с помощью Windows PowerShell cmdlets
 
-Параметры конфигурации QoE можно создать с помощью Windows PowerShell и New-CsQoEConfiguration. Этот комлет можно выполнить либо из Skype для бизнеса Server, либо из удаленного сеанса Windows PowerShell. Сведения об использовании удаленных Windows PowerShell для подключения к Skype для бизнеса Server см. в статье блога ["Быстрый запуск: управление Microsoft Lync Server 2010 с](https://go.microsoft.com/fwlink/p/?linkId=255876)помощью удаленной powerShell". Этот процесс в Skype для бизнеса Server.
+Параметры конфигурации QoE можно создать с помощью Windows PowerShell и New-CsQoEConfiguration. Этот комлет можно выполнить либо из Skype для бизнеса Server, либо из удаленного сеанса Windows PowerShell. Сведения об использовании удаленных Windows PowerShell для подключения к Skype для бизнеса Server см. в [материале Microsoft Lync Remote PowerShell Administration](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/). Этот процесс в Skype для бизнеса Server.
   
 ### <a name="to-create-a-new-collection-of-qoe-configuration-settings"></a>Чтобы создать новую коллекцию параметров конфигурации качества взаимодействия
 

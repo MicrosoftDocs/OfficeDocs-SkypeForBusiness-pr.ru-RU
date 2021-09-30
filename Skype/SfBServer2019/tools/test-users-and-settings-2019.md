@@ -12,13 +12,13 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
-description: Сводка. Настройте тестовые учетные записи пользователей и параметры узлов просмотра для Skype для бизнеса Server синтетических транзакций.
-ms.openlocfilehash: 77e742940b75845e67a48bddb2c19a4450b289e2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Настройка тестовых учетных записей пользователей и параметров узлов просмотра для Skype для бизнеса Server синтетических транзакций.
+ms.openlocfilehash: 2c24b18856aad2face3a1cda7736365631794661
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58580073"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012363"
 ---
 # <a name="skype-for-business-server-configure-watcher-node-test-users-and-settings"></a>Skype для бизнеса Server: Настройка тестовых пользователей и параметров узла просмотра
  
@@ -354,7 +354,7 @@ Test-CsUnifiedContactStore -TargetFqdn pool0.contoso.com -UserSipAddress sip:tes
 
 Синтетическая транзакция по синтетическому протоколу обмена сообщениями и присутствия (XMPP) требует настройки функции XMPP с одним или более федерационными доменами.
   
-Чтобы включить синтетическую транзакцию XMPP, необходимо предоставить параметр XmppTestReceiverMailAddress с учетной записью пользователя в маршрутивом домене XMPP. Например,
+Чтобы включить синтетическую транзакцию XMPP, необходимо предоставить параметр XmppTestReceiverMailAddress с учетной записью пользователя в маршрутивом домене XMPP. Например.
   
 ```PowerShell
 Set-CsWatcherNodeConfiguration -Identity pool0.contoso.com -Tests @{Add="XmppIM"} -XmppTestReceiverMailAddress user1@litwareinc.com

@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Если вы включаете удаленный доступ пользователей для удаленных пользователей, поддерживаемые удаленные пользователи подключаются через Интернет и не должны подключаться с помощью VPN для совместной работы с внутренними пользователями с помощью Skype для бизнеса Server.
-ms.openlocfilehash: c20f6891b463f44fdcd424ca870fbba0826d33bd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 743ec476cc1541fa4163a838f333419280779611
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608196"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014533"
 ---
 # <a name="enable-or-disable-remote-user-access-in-skype-for-business-server"></a>Включить или отключить удаленный доступ к пользователю в Skype для бизнеса Server
 
@@ -46,9 +46,9 @@ ms.locfileid: "58608196"
 
 5.  В области **Edit Access Edge Configuration** (Изменение конфигурации Access Edge) выполните одно из следующих действий:
     
-      - Чтобы включить функцию удаленного доступа пользователей в организации, установите флажок **Enable remote user access** (Включить удаленный доступ пользователей).
+    - Чтобы включить функцию удаленного доступа пользователей в организации, установите флажок **Enable remote user access** (Включить удаленный доступ пользователей).
     
-      - Чтобы отключить функцию удаленного доступа пользователей в организации, снимите флажок **Enable remote user access** (Включить удаленный доступ пользователей).
+    - Чтобы отключить функцию удаленного доступа пользователей в организации, снимите флажок **Enable remote user access** (Включить удаленный доступ пользователей).
 
 6.  Щелкните **Commit** (Выполнить).
 
@@ -61,14 +61,16 @@ ms.locfileid: "58608196"
 
 ## <a name="to-enable-remote-user-access"></a>Включить удаленный доступ пользователей
 
-  - Для включения удаленного доступа пользователей задайте для свойства **AllowOutsideUsers** значение «True» ($True):
-    
-        Set-CsAccessEdgeConfiguration -AllowOutsideUsers $True
+Для включения удаленного доступа пользователей задайте для свойства **AllowOutsideUsers** значение «True» ($True):
+
+```powershell
+Set-CsAccessEdgeConfiguration -AllowOutsideUsers $True
+```
 
 ## <a name="to-disable-remote-user-access"></a>Отключение удаленного доступа пользователей
 
-  - Для отключения удаленного доступа пользователей задайте для свойства **AllowOutsideUsers** значение «False» ($False):
-    
-        Set-CsAccessEdgeConfiguration -AllowOutsideUsers $False
+Для отключения удаленного доступа пользователей задайте для свойства **AllowOutsideUsers** значение «False» ($False):
 
-
+```powershell
+Set-CsAccessEdgeConfiguration -AllowOutsideUsers $False
+```

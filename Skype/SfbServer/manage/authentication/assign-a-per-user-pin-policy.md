@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d8211c64-0b63-4193-a074-673da7d14287
 description: Сводка. Сертификаты stage AV и OAuth для Skype для бизнеса Server.
-ms.openlocfilehash: 82dd1e88330bec6af7a9832fbb23429fbe457d04
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6925b8b042da41f82c505a79afcc5b7678454fbd
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58619845"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012723"
 ---
 # <a name="assign-a-per-user-pin-policy-in-skype-for-business-server"></a>Назначение политики ПИН-кода для каждого пользователя в Skype для бизнеса Server
 
@@ -46,9 +46,9 @@ ms.locfileid: "58619845"
     
 5. (Необязательно) Укажите дополнительные критерии поиска, чтобы сузить результаты:
     
-   а. Нажмите кнопку **Добавить фильтр**.
+   а) Нажмите кнопку **Добавить фильтр**.
     
-   б. Введите свойство пользователя, набрав его или нажав кнопку стрелки в раскрывающемся списке, чтобы выбрать свойство.
+   b. Введите свойство пользователя, набрав его или нажав кнопку стрелки в раскрывающемся списке, чтобы выбрать свойство.
     
    в. В раскрывающемся списке **Равно** щелкните оператор (например, **Равно** или **Не равно**).
     
@@ -80,7 +80,7 @@ ms.locfileid: "58619845"
     
 ## <a name="assigning-a-per-user-pin-policy-by-using-windows-powershell-cmdlets"></a>Назначение политики пин-Per-User с помощью Windows PowerShell-кодов
 
-Политики ПИН-кода для каждого пользователя можно назначить с помощью Windows PowerShell и **cmdlet Grant-CsPinPolicy.** Вы можете запустить этот командлет из командной консоли Skype для бизнеса Server или из удаленного сеанса Windows PowerShell. Сведения об использовании удаленных Windows PowerShell для подключения к Skype для бизнеса Server см. в статье блога ["Быстрый запуск: управление Microsoft Lync Server 2010 с](https://go.microsoft.com/fwlink/p/?linkId=255876)помощью удаленной powerShell". Этот процесс в Skype для бизнеса Server.
+Политики ПИН-кода для каждого пользователя можно назначить с помощью Windows PowerShell и **cmdlet Grant-CsPinPolicy.** Вы можете запустить этот командлет из командной консоли Skype для бизнеса Server или из удаленного сеанса Windows PowerShell. Сведения об использовании удаленных Windows PowerShell для подключения к Skype для бизнеса Server см. в материале [Microsoft Lync Remote PowerShell Administration".](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/) Этот процесс в Skype для бизнеса Server.
   
 ### <a name="to-assign-a-per-user-pin-policy-to-a-single-user"></a>Назначение политики ПИН-кода для каждого пользователя одному пользователю
 

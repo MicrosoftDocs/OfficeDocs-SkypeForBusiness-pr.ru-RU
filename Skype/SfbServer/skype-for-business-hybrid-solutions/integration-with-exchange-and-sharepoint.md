@@ -21,12 +21,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5d456d6c-ad71-420c-b6d8-4d9cd0324f86
 description: Сводка. Сведения об интеграции Skype для бизнеса Server 2015 г. с Exchange и SharePoint.
-ms.openlocfilehash: 5859e247f816739f9febadb9d973ab081d1e4ccc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a2caf4cf409f3631ebc0a85cd2957b30e9d36d2a
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593343"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013143"
 ---
 # <a name="integration-with-exchange-and-sharepoint"></a>Интеграция с Exchange и SharePoint
 
@@ -54,7 +54,7 @@ ms.locfileid: "58593343"
 |Публикация состояния на основе Outlook и сведений о занятости в календаре  <br/> ||
 |Список контактов (через Единый магазин контактов)  <br/> |Требуется Exchange 2016 или Exchange 2013.  <br/> Требуется клиент Lync 2013 или Skype для бизнеса настольного компьютера.  <br/>  Дополнительные сведения см. в [Skype для бизнеса Server 2015 г.](../deploy/integrate-with-exchange-server/use-the-unified-contact-store.md)для использования единого магазина контактов.  <br/> |
 |Контактная фотография с высоким разрешением в клиенте Lync 2013, Skype для бизнеса клиенте и Lync Web App.  <br/> |Требуется Exchange 2016 или Exchange 2013.  <br/> Дополнительные сведения см. в дополнительных сведениях о настройке использования фотографий с высоким разрешением [в Skype для бизнеса Server 2015 г.](../deploy/integrate-with-exchange-server/high-resolution-photos.md)  <br/> Для фотографий в приложении Skype для бизнеса mac и Mobile необходимо настроить интеграцию между Skype для бизнеса Server 2015 и Exchange Server, как описано в [настройках](../deploy/integrate-with-exchange-server/configure-partner-applications.md)партнерских приложений в Skype для бизнеса Server и Exchange Server . <br/> |
-|Делегирования собраний  <br/> |Поддерживается только в том случае, если оба пользователя находятся в интернете в одном лесу или оба находятся в локальном помещении. Дополнительные сведения см. [в Skype для бизнеса гибридных решений.](/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions) <br/> |
+|Делегирования собраний  <br/> |Поддерживается только в том случае, если оба пользователя находятся в интернете в одном лесу или оба находятся в локальном помещении. Дополнительные сведения см. в [перенастройке гибридного подключения между](../../SfbHybrid/hybrid/configure-hybrid-connectivity.md)Skype для бизнеса Server и Teams. <br/> |
 |История пропущенных разговоров и журналы вызовов пишутся в почтовый ящик exchange пользователя  <br/> ||
 |Архивавка контента (im и meeting) в Exchange  <br/> |Требуется Exchange 2016 или Exchange 2013.  <br/> Дополнительные сведения см. в [списке развертывания для архивации.](/previous-versions/office/lync-server-2013/lync-server-2013-deployment-checklist-for-archiving)  <br/> |
 |Поиск архивного контента  <br/> |Требуется Exchange 2016 или Exchange 2013.  <br/> |
@@ -73,7 +73,7 @@ ms.locfileid: "58593343"
 |Присоединяйтесь к онлайн-собранию в мобильных клиентах  <br/> ||
 |Публикация состояния на основе Outlook и сведений о занятости в календаре  <br/> ||
 |Список контактов (через Единый магазин контактов).  <br/> |Только Lync Server 2013. Требуется клиент Lync 2013 или Skype для бизнеса настольного компьютера.  <br/> Дополнительные сведения см. в [Skype для бизнеса Server 2015 г. для использования единого магазина контактов](../deploy/integrate-with-exchange-server/use-the-unified-contact-store.md) <br/> |
-|Контактная фотография с высоким разрешением в клиенте Lync 2013, Skype для бизнеса клиенте и Lync Web App.  <br/> |Дополнительные сведения см. в дополнительных сведениях о настройке использования фотографий с высоким разрешением [в Skype для бизнеса Server 2015 г.](../deploy/integrate-with-exchange-server/high-resolution-photos.md)  <br/> Для фотографий в приложении Skype для бизнеса mac и Mobile необходимо настроить интеграцию между Skype для бизнеса Server 2015 и Exchange Server, как описано в настройках интеграции между локальной Skype для бизнеса Server и [Outlook Web App](../deploy/integrate-with-exchange-server/outlook-web-app.md). <br/> |
+|Контактная фотография с высоким разрешением в клиенте Lync 2013, Skype для бизнеса клиенте и Lync Web App.  <br/> |Дополнительные сведения см. в дополнительных сведениях о настройке использования фотографий с высоким разрешением [в Skype для бизнеса Server 2015 г.](../deploy/integrate-with-exchange-server/high-resolution-photos.md)  <br/> Для фотографий в приложении Skype для бизнеса mac и Mobile интеграция между Skype для бизнеса Server 2015 и Exchange Server должна быть настроена так, как описано в настройках интеграции между локальной Skype для бизнеса Server [и Outlook Web App](../deploy/integrate-with-exchange-server/outlook-web-app.md). <br/> |
 |Делегирования собраний  <br/> |Поддерживается только в том случае, если оба пользователя находятся в интернете в одном лесу или оба находятся в локальном помещении. Дополнительные сведения см. [в Skype для бизнеса гибридных решений.](/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions) <br/> |
 |История пропущенных бесед и журналы вызовов пишутся в почтовый ящик Exchange пользователя  <br/> ||
 |Архивавка контента (im и meeting) в Exchange  <br/> |Дополнительные сведения см. в [списке развертывания для архивации.](/previous-versions/office/lync-server-2013/lync-server-2013-deployment-checklist-for-archiving)  <br/> |

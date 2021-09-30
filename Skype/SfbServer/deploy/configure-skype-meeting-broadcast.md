@@ -17,12 +17,12 @@ ms.collection:
 - IT_Skype4B_Hybrid
 ms.assetid: 2979802e-fc6b-4555-bc43-7cd48f6a1d88
 description: Сводка. Сведения о действиях, которые необходимо выполнить для настройки Skype для локального Skype для бизнеса Server гибридного развертывания.
-ms.openlocfilehash: 92e09820d5c2634041ac91a84e97c90dec243a93
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 99ba1733dc8c353dc17f9a4c9a51a9ed00410d27
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596033"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013713"
 ---
 # <a name="configure-your-on-premises-deployment-for-skype-meeting-broadcast"></a>Настройка локального развертывания для Skype трансляции собраний
  
@@ -48,12 +48,10 @@ Skype Передача собраний — это онлайн-служба, к
     
 3. Настройка нового поставщика с помощью следующих параметров:
     
-|||
-|:-----|:-----|
-|**Включить связь с этим поставщиком:** <br/> |Выбрано  <br/> |
-|**Имя поставщика:** <br/> |LyncOnlineResources  <br/> |
-|**Служба пограничного доступа (полное доменное имя):** <br/> |sipfed.resources.lync.com  <br/> |
-|**Уровень проверки по умолчанию:** <br/> |Разрешить пользователям общаться со всеми пользователями с помощью этого поставщика.  <br/> |
+   - **Включить связь с этим поставщиком:** Выбранный
+   - **Имя поставщика:** LyncOnlineResources
+   - **Служба Access Edge (FQDN): sipfed.resources.lync.com**
+   - **Уровень проверки по умолчанию:** Разрешить пользователям общаться со всеми пользователями с помощью этого поставщика. 
    
 Вы также можете включить федерацию с Skype для бизнеса интернет-ресурсами, заняв следующие команды в Skype для бизнеса Server управленческой оболочки:
   
