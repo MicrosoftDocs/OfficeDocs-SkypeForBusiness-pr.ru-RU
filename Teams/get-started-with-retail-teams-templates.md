@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 073d9ee391b42a476b0657dbf910f8d019699358
-ms.sourcegitcommit: 6a65e318d49d8990f2b3409ff7bb2c61ea1f2525
+ms.openlocfilehash: 2c2bda6467bf819bdf9cf82713c24e8e9cd18d9d
+ms.sourcegitcommit: 5eb5acd7910724f7f4a598ecc28b003e5bbe5ea5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 09/29/2021
-ms.locfileid: "59991208"
+ms.locfileid: "60007799"
 ---
 # <a name="use-retail-team-templates"></a>Использование шаблонов команд розничной торговли
 
@@ -57,7 +57,7 @@ Teams содержит шаблоны, разработанные специал
 | ------------------|-- |----------------------------------------------------- |
 |Организация магазина| `retailStore` |Каналы: <ul><li>Общий<li>Передача смены</li><li>Готовность магазина<ul><li>Проверка&sup1;</li></ul></li><li>Обучение</li></ul> Приложения: <ul><li>Вики</li><li>Задачи</li><li>Смены</li><li>Проверка</li></ul>|
 
-&sup1;Приложение, добавленное в канал в виде вкладки.
+&sup1;Приложение, добавленное в канал в виде вкладки
 
 ### <a name="manager-collaboration"></a>Взаимодействие руководителей
 
@@ -68,7 +68,7 @@ Teams содержит шаблоны, разработанные специал
 |Розница для руководителей|`retailManagerCollaboration` |Каналы: <ul><li>Общий<li>Операции<ul><li>Задачи (операционные задачи)&sup1;</li><li>Проверка&sup1;</li></ul></li><li>Обучение<ul><li>Задачи (задачи обучения)&sup1;</li></ul></li></ul> Приложения: <ul><li>Вики</li><li>Задачи</li><li>Проверка</li></ul>|
 ||||
 
-&sup1;Приложение, добавленное в канал в виде вкладки.
+&sup1;Приложение, добавленное в канал в виде вкладки
 
 ## <a name="use-team-templates-with-microsoft-graph"></a>Использование шаблонов команд с помощью Microsoft Graph
 
