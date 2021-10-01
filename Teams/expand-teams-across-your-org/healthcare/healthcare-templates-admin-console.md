@@ -22,12 +22,12 @@ appliesto:
 ms.reviewer: yinchang
 description: Узнайте, как управлять шаблонами команд для здравоохранения и использовать их в Центре администрирования Teams и с помощью Microsoft Graph для быстрого и простого создания команд для вашей организации здравоохранения.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 00da42e4e573306a3737b1d35e89292b04df4fa4
-ms.sourcegitcommit: 6a65e318d49d8990f2b3409ff7bb2c61ea1f2525
+ms.openlocfilehash: 5345f5e9886bbcb9e4a2274d21d2aabb0be373c6
+ms.sourcegitcommit: 5eb5acd7910724f7f4a598ecc28b003e5bbe5ea5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 09/29/2021
-ms.locfileid: "59991128"
+ms.locfileid: "60007809"
 ---
 # <a name="use-healthcare-team-templates"></a>Использование шаблонов команд для здравоохранения
 
@@ -60,7 +60,7 @@ Teams содержит шаблоны, разработанные специал
 | Уход за пациентом |`healthcareWard` | Каналы:<ul><li>Общие</li><li>Объявления<ul><li>Бюллетени&sup1;</li></ul></li><li>Совещания<ul><li>Списки (список пациентов)&sup1;</li></ul></li><li>Обходы<ul><li>Проверка&sup1;</li></ul></li><li>Персонал</li><li>Обучение</li></ul> Приложения: <ul><li>Вики</li><li>Списки</li><li>Задачи</li><li>Утверждения</li><li>Смены</li><li>Бюллетени</li><li>Проверка</li></ul>|
 ||||
 
-&sup1;Приложение, добавленное в канал в виде вкладки.
+&sup1;Приложение, добавленное в канал в виде вкладки
 ### <a name="hospital"></a>Больница
 
 Этот шаблон предназначен для обмена информацией и взаимодействия между несколькими отделениями, отделами и палатами в пределах одной больницы. Этот шаблон включает набор каналов для работы больниц. Шаблон можно расширять для дополнительной настройки.
@@ -70,7 +70,7 @@ Teams содержит шаблоны, разработанные специал
 |Больница|`healthcareHospital`|Каналы: <ul><li>Общий<ul><li>Списки&sup1;</li></ul></li><li>Объявления<ul><li>Бюллетени&sup1;</li></ul></li><li>Соответствие требованиям</li><ul><li>Проверка&sup1;</li></ul></li><li>Госпитализация</li><li>Кадры<ul><li>Идеи&sup1;</li></ul></li><li>Аптека</li></ul> Приложения: <ul><li>Вики</li><li>Задачи</li><li>Списки</li><li>Утверждения</li><li>Смены</li><li>Бюллетени</li><li>Проверка</li><li>Идеи</li></ul>|
 ||||
 
-&sup1;Приложение, добавленное в канал в виде вкладки.
+&sup1;Приложение, добавленное в канал в виде вкладки
 ## <a name="use-team-templates-with-microsoft-graph"></a>Использование шаблонов команд с помощью Microsoft Graph
 
 Разработчики могут использовать Microsoft Graph для создания команд из готовых шаблонов. Дополнительные сведения об использовании шаблонов команд с помощью Microsoft Graph см. в статье [Начало работы с шаблонами команд с помощью Microsoft Graph](../../get-started-with-teams-templates.md), [Обзор API Microsoft Teams](/graph/teams-concept-overview?view=graph-rest-1.0) и [Тип ресурса teamsTemplate](/graph/api/resources/teamstemplate?view=graph-rest-1.0).
@@ -102,7 +102,7 @@ Teams содержит шаблоны, разработанные специал
 
 ### <a name="how-to-use-team-templates-with-microsoft-graph"></a>Как использовать шаблоны команд с помощью Microsoft Graph
 
-Чтобы использовать эти шаблоны, измените свойство template@odata.bind в тексте запроса со standard на TemplateIds, указанные выше. Дополнительные сведения о развертывании шаблонов команд см. в статье Microsoft Graph о [создании команд](/graph/api/team-post?view=graph-rest-beta).
+Чтобы использовать эти шаблоны, измените свойство template@odata.bind в тексте запроса со "standard" на "TemplateIds", указанные выше. Дополнительные сведения о развертывании шаблонов команд см. в статье Microsoft Graph о [создании команд](/graph/api/team-post?view=graph-rest-beta).
 
 > [!NOTE]
 > Каналы в шаблоне будут автоматически созданы на вкладке **Общий**.
