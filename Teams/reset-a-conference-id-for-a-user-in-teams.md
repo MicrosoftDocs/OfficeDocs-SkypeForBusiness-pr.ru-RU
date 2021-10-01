@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Узнайте, как сбросить ИД конференции пользователя в Microsoft Teams и получить ссылки на средства обновления собраний и миграции.
-ms.openlocfilehash: 6ef5bd8fed266990e5a21edc34e874c218199e87
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 9faff7e86480d85c08e4aba4efdce218ee74a9b0
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728888"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60045521"
 ---
 # <a name="reset-a-conference-id-for-a-user-in-microsoft-teams"></a>Сброс идентификатора конференции для пользователя в Microsoft Teams
 
@@ -37,7 +37,7 @@ ms.locfileid: "58728888"
 
 ## <a name="resetting-the-conference-id-for-a-user"></a>Сброс ИД конференции для пользователя
 
-![Значок с логотипом Microsoft Teams.](media/teams-logo-30x30.png) **С помощью Центра администрирования Microsoft Teams**
+![Значок с логотипом Microsoft Teams.](media/teams-logo-30x30.png) **Использование центра администрирования Microsoft Teams**
 
 1. В левой области навигации щелкните **Пользователи** и выберите пользователя из списка доступных пользователей.
 
@@ -46,10 +46,9 @@ ms.locfileid: "58728888"
 3. В **области Аудиоконференции щелкните** **Сбросить ИД конференции**.
 
 2. В **окне Сброс ИД конференции** нажмите кнопку **Сброс**. A conference ID will be automatically created and an email sent to the user with the new conference ID. По умолчанию сообщения отправляются пользователям, но это можно отключить.   
-
     
 > [!NOTE]
-> После сброса идентификатора конференции на электронную почту пользователя отправляется сообщение с новым идентификатором конференции. Во многих случаях это сообщение отправляется на основной адрес электронной почты Microsoft 365 или Office 365 почтовый ящик. Сообщение электронной почты содержит новый ИД конференции, номера телефонов для телефонного звонка по умолчанию и инструкции по обновлению существующих собраний. 
+> После сброса идентификатора конференции на электронную почту пользователя отправляется сообщение с новым идентификатором конференции. Во многих случаях это сообщение отправляется на основной адрес электронной почты Microsoft 365 или Office 365 почтовый ящик. Сообщение электронной почты содержит новый номер конференции, номера телефонов для телефонного звонка по умолчанию и инструкции по обновлению существующих собраний. 
   
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
@@ -72,7 +71,7 @@ Windows PowerShell is all about managing users and what users are allowed or not
     
   - [Лучшие способы управления Microsoft 365 Office 365 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-Дополнительные сведения о Windows PowerShell см. в [справочнике по Microsoft Teams PowerShell](/powershell/module/teams/?view=teams-ps).
+Дополнительные сведения о Windows PowerShell см. в [справочнике по Microsoft Teams PowerShell](/powershell/module/teams/?view=teams-ps&preserve-view=true).
     
 ## <a name="related-topics"></a>Связанные разделы
 

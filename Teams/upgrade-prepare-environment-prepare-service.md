@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cd80e9bf911287800443a29c4a21674d11014d58
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 056e2e8d626e8993577b945a38b560cc41a1e90b
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727048"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60045546"
 ---
 # <a name="prepare-your-service-for-upgrading-to-teams"></a>Подготовка службы к переходу на Teams
 
@@ -40,7 +40,7 @@ ms.locfileid: "58727048"
 
 В этой статье дается обзор требований для подготовки организации к совместной работе и облачным голосовым службам с Teams. Готовясь к правильной подготовке, вы можете быть готовы предоставить эти возможности своей организации.
 
-## <a name="onboarding-checklists-and-landing-pages-for-microsoft-teams-rollout"></a>Контрольные списки и первой страницы для Microsoft Teams в 2016 г.
+## <a name="onboarding-checklists-and-landing-pages-for-microsoft-teams-rollout"></a>Контрольные списки и первой страницы для Microsoft Teams на доске
 
 В следующих контрольных списках и на важных страницах вы можете развернуть Microsoft Teams организации.
 
@@ -61,15 +61,15 @@ ms.locfileid: "58727048"
 
 Используйте предоставленные контрольные списки для отслеживания состояния каждого отдельного действия и задачи, а также для того, чтобы не пропустить критические действия. Каждое действие содержит подробное описание необходимых действий и ссылки на дополнительные сведения, которые можно использовать для его выполнения.
 
-Несмотря на то, что мы рекомендуем следовать контрольным спискам по порядку, точная последовательность будет зависеть от области развертывания, а также от конфигурации и сложности среды. Они поддерживают развертывание "greenfield" Teams (без предыдущего присутствия Skype для бизнеса Online) или переход с Skype для бизнеса Online на Teams. Если вы обновляете Skype для бизнеса Online, возможно, вы уже выполнили некоторые из этих действий и можете игнорировать их сейчас.
+Несмотря на то, что мы рекомендуем следовать контрольным спискам по порядку, точная последовательность будет зависеть от области развертывания, а также от конфигурации и сложности среды. Они организованы для поддержки развертывания "greenfield" Teams (без предыдущего присутствия Skype для бизнеса Online) или перехода с Skype для бизнеса Online на Teams. Если вы обновляете Skype для бизнеса Online, возможно, вы уже выполнили некоторые из этих действий и можете проигнорировать их сейчас.
 
 Для пользователей, которые будут вовсю использовать для каждого сайта, настоятельно рекомендуется использовать для этих контрольных списков дополнительный контрольный список с помощью приложения Site [Enablement Playbook (Playbook).](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true)
 
 >[!NOTE]
->Большинство параметров конфигурации часто используется в Teams и Skype для бизнеса Online. Эти параметры можно Microsoft Teams в Центре администрирования.
+> Большинство параметров конфигурации часто используется в Teams и Skype для бизнеса Online. Эти параметры можно Microsoft Teams в Центре администрирования.
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting a decision point"/> <br/>Точка принятия решений</td><td><ul><li>Кто будет отвечать за контроль за завершением контрольных списков для взиманий?</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting a decision point"/> <br/>Точка принятия решений</td><td><ul><li>Кто будет отвечать за контроль над завершением контрольных списков?</li></ul></td></tr>
 <tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Дальнейшие действия</td><td><ul><li>Скачайте контрольные списки для в onboarding.</li><li>Пошаговая работа над элементами контрольного списка в рамках развертывания в соответствии с планом развертывания организации.</li></ul></td></tr>
 </table>
 
