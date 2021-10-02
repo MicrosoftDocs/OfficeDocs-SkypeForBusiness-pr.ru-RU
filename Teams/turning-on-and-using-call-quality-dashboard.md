@@ -23,25 +23,25 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: Узнайте, как включить и использовать панель мониторинга качества звонков и получить сводные отчеты о качестве звонков.
-ms.openlocfilehash: 292fa240b9298bd60715d812ec95d8e53403c489
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 5a220ac01965623417354df35a9052648652f607
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58750059"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60081623"
 ---
-# <a name="how-to-set-up-call-quality-dashboard"></a>Настройка панели мониторинга качества звонка
+# <a name="set-up-call-quality-dashboard"></a>Настройка панели мониторинга качества звонка
 
-Откройте панель мониторинга качества звонка (CQD) Майкрософт по ссылке [https://cqd.teams.microsoft.com](https://cqd.teams.microsoft.com) (войди с учетными данными администратора). Или перейдите в Центр администрирования Teams и выберите Панель мониторинга **качества звонка**. 
+Откройте панель мониторинга качества звонка (CQD) Майкрософт по ссылке [https://cqd.teams.microsoft.com](https://cqd.teams.microsoft.com) (войди с учетными данными администратора). Или перейдите в Центр администрирования Teams и выберите аналитические & **отчеты** Панель мониторинга  >  **качества звонка**.
 
-:::image type="content" source="media/turning-on-and-using-call-quality-dashboard3.png" alt-text="Снимок экрана: кнопка панели мониторинга качества Teams центре администрирования.":::
+:::image type="content" source="media/turning-on-and-using-call-quality-dashboard3.png" alt-text="Снимок экрана: кнопка панели мониторинга качества звонка в Teams центре администрирования.":::
 
 На открываемой странице нажмите кнопку **Войти** и введите учетную запись глобального администратора или Microsoft Teams учетную запись администратора. После первого входе CQD начнет сбор и обработку данных. Имейте в виду, что обработка достаточного количества данных для отображения осмысленной информации в отчетах может занять несколько часов.
 
 В CQD показаны качество звонка и собрания на уровне организации для Microsoft Teams, Skype для бизнеса Online и Skype для бизнеса Server 2019. 
 
 > [!IMPORTANT]
-> Чтобы использовать CQD Skype для бизнеса Server 2019, необходимо настроить соединители данных [звонка.](/skypeforbusiness/hybrid/configure-call-data-connector) Перед [началом работы см. планирование соединитела](/skypeforbusiness/hybrid/plan-call-data-connector) данных зова.
+> Чтобы использовать CQD Skype для бизнеса Server 2019, необходимо настроить соединители данных [зова.](/skypeforbusiness/hybrid/configure-call-data-connector) Перед [началом работы см. планирование соединитела](/skypeforbusiness/hybrid/plan-call-data-connector) данных зова.
 
 
 ## <a name="assign-admin-roles-for-access-to-cqd"></a>Назначение ролей администратора для доступа к CQD
@@ -72,23 +72,19 @@ ms.locfileid: "58750059"
 
 После первого входе CQD начнет сбор и обработку данных.
 
-
-
-
 ## <a name="use-power-bi-to-analyze-cqd-data"></a>Использование Power BI для анализа данных CQD
 
-Новые возможности в январе 2020 г.: [скачивание шаблонов Power BI запросов для CQD.](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true) Настраиваемые Power BI шаблоны, которые можно использовать для анализа данных CQD и отчета о них.
+Новые возможности в январе 2020 г.: [Power BI шаблоны запросов для CQD.](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true) Настраиваемые Power BI шаблоны, которые можно использовать для анализа данных CQD и отчета о них.
 
-Дополнительные сведения Power BI статью Использование Power BI данных [CQD.](CQD-Power-BI-query-templates.md)
+Дополнительные [сведения Power BI использовать для анализа данных CQD.](CQD-Power-BI-query-templates.md)
 
-
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
 [Улучшение и отслеживание качества звонка для Teams](monitor-call-quality-qos.md)
 
 [Что такое CQD?](CQD-what-is-call-quality-dashboard.md)
 
-[Upload клиента и здания](CQD-upload-tenant-building-data.md)
+[Upload данных о клиенте и здании](CQD-upload-tenant-building-data.md)
 
 [Данные и отчеты CQD](CQD-data-and-reports.md)
 
