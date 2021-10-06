@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Узнайте, какие пограничные контроллеры сеансов (SCS) были сертифицированы для прямой маршрутизации.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 04f0a500a22868156850ef1ddcf800aeb0ec07c7
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: ae6b338f8e4ab80dc90d06acbf706c1c336c062d
+ms.sourcegitcommit: 99503baa8b5183972caa8fe61e92a362213599d9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60012303"
+ms.lasthandoff: 10/05/2021
+ms.locfileid: "60127386"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>Пограничные контроллеры сеансов, сертифицированные для прямой маршрутизации
 
@@ -41,9 +41,7 @@ ms.locfileid: "60012303"
 
 В следующих таблицах перечислены устройства, сертифицированные для прямой маршрутизации. (Сведения о том, какие поставщики SBC поддерживают оптимизацию локальных файлов мультимедиа, см. в разделе [Настройка оптимизации локальных файлов мультимедиа для прямой маршрутизации](direct-routing-media-optimization-configure.md).)
 
-[Дополнительные сведения о прямой маршрутизации](https://aka.ms/dr).
-Если у вас есть вопросы по программе сертификации SBC для прямой маршрутизации, напишите нам по адресу drsbccertification@microsoft.com
-<br/>
+[Дополнительные сведения о прямой маршрутизации](https://aka.ms/dr). Если у вас есть вопросы по программе сертификации SBC для прямой маршрутизации, напишите нам по адресу drsbccertification@microsoft.com.<br/>
 
 ## <a name="certified-sbc-vendors"></a>Сертифицированные поставщики SBC
 
@@ -157,12 +155,12 @@ ms.locfileid: "60012303"
 | [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  Программное обеспечение VME версии 8.3.0.1.2 |     &#10004;     |
 | [Лента](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions) |   [SBC 1000. Версия программного обеспечения: 8.1.1 (сборка 527)](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Analog+Devices)   |     &#10004;     |
 | [Лента](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions) |   [SBC 2000. Версия программного обеспечения: 8.1.1 (сборка 527)](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Analog+Devices)   |     &#10004;     |
-| [Лента](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions) |   [EdgeMarc 302. Версия программного обеспечения: 16.2.0](https://support.sonus.net/display/VOSDOC162/Configuring+VOS+for+Microsoft+Teams+Direct+Routing)   |     &#10004;     |
-| [Лента](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions) |   [EdgeMarc 304. Версия программного обеспечения: 16.2.0](https://support.sonus.net/display/VOSDOC162/Configuring+VOS+for+Microsoft+Teams+Direct+Routing)   |     &#10004;     |
-| [Лента](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions) |   [EdgeMarc 2900A. Версия программного обеспечения: 16.2.0](https://support.sonus.net/display/VOSDOC162/Configuring+VOS+for+Microsoft+Teams+Direct+Routing)   |     &#10004;     |
-| [Лента](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions) |   [EdgeMarc 4806. Версия программного обеспечения: 16.2.0](https://support.sonus.net/display/VOSDOC162/Configuring+VOS+for+Microsoft+Teams+Direct+Routing)   |     &#10004;     |
-| [Лента](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions) |   [EdgeMarc 4808. Версия программного обеспечения: 16.2.0](https://support.sonus.net/display/VOSDOC162/Configuring+VOS+for+Microsoft+Teams+Direct+Routing)   |     &#10004;     |
-| [Лента](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions) |   [EdgeMarc 6000. Версия программного обеспечения: 16.2.0](https://support.sonus.net/display/VOSDOC162/Configuring+VOS+for+Microsoft+Teams+Direct+Routing)   |     &#10004;     |
+| [Лента](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions) |   [EdgeMarc 302. Версия программного обеспечения: 16.1.1](https://ribboncommunications.com/products/service-provider-products/cloud-and-edge/session-border-controllers/session-border-controllers-edge-appliances)   |     &#10004;     |
+| [Лента](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions) |   [EdgeMarc 304. Версия программного обеспечения: 16.1.1](https://ribboncommunications.com/products/service-provider-products/cloud-and-edge/session-border-controllers/session-border-controllers-edge-appliances)   |     &#10004;     |
+| [Лента](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions) |   [EdgeMarc 2900A. Версия программного обеспечения: 16.1.1](https://ribboncommunications.com/products/service-provider-products/cloud-and-edge/session-border-controllers/session-border-controllers-edge-appliances)   |     &#10004;     |
+| [Лента](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions) |   [EdgeMarc 4806. Версия программного обеспечения: 16.1.1](https://ribboncommunications.com/products/service-provider-products/cloud-and-edge/session-border-controllers/session-border-controllers-edge-appliances)   |     &#10004;     |
+| [Лента](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions) |   [EdgeMarc 4808. Версия программного обеспечения: 16.1.1](https://ribboncommunications.com/products/service-provider-products/cloud-and-edge/session-border-controllers/session-border-controllers-edge-appliances)   |     &#10004;     |
+| [Лента](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions) |   [EdgeMarc 6000. Версия программного обеспечения: 16.1.1](https://ribboncommunications.com/products/service-provider-products/cloud-and-edge/session-border-controllers/session-border-controllers-edge-appliances)   |     &#10004;     |
 | [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/) |  anynode с Grandstream GXW42xx (V1.0.7.10) |     &#10004;     |
   
 Чтобы оставить отзыв о продукте Microsoft Teams, например поделиться идеями новых функций, см. раздел [UserVoice](https://microsoftteams.uservoice.com).
