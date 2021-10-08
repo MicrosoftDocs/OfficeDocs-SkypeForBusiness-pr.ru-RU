@@ -775,6 +775,8 @@ items:
             items:
               - name: Обзор планирования комнат Microsoft Teams
                 href: rooms/rooms-plan.md
+              - name: Сравнение функций устройств Teams между Windows и Android
+                href: rooms/teams-devices-feature-comparison.md
               - name: Поддержка версии
                 href: rooms/rooms-lifecycle-support.md
               - name: Заметки о выпуске
