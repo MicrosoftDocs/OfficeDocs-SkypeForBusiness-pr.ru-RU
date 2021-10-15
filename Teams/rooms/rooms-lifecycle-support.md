@@ -14,12 +14,12 @@ f1.keywords:
 ms.localizationpriority: medium
 description: Узнайте о поддержке жизненного цикла Комнаты Microsoft Teams, включая динамическую структуру поддержки и ее этапы.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7e7a82d7643a925d5c997c9d6fe5661a421d47ab
-ms.sourcegitcommit: 31da77589ac82c43a89a9c53f2a2de5ab52f93c0
+ms.openlocfilehash: 937c6b43ebdc7c775251f0a7fc576cc11e666a7f
+ms.sourcegitcommit: d23185cf6caeeeb055c36609e7c788a2b2e8d07d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/14/2021
-ms.locfileid: "60356427"
+ms.lasthandoff: 10/15/2021
+ms.locfileid: "60367501"
 ---
 # <a name="microsoft-teams-rooms-app-version-support"></a>Комнаты Microsoft Teams версии приложения
  
@@ -30,7 +30,7 @@ ms.locfileid: "60356427"
 Все выпуски перечислены в заметках Комнаты Microsoft Teams [выпусков](rooms-release-note.md).
 
 > [!IMPORTANT]
-> При установке нового устройства, входящего в более старую версию приложения комнаты Teams, рекомендуется вручную обновить приложение после настройки учетной записи, прежде чем скачивать обновления Windows обновления. [](manual-update.md) Это обеспечит установку версии и обновлений correbt OS на вашем устройстве.  
+> При установке нового устройства, входящего в более старую версию приложения комнаты Teams, рекомендуется вручную обновить приложение после настройки учетной записи, прежде чем скачивать обновления Windows обновления. [](manual-update.md) Это гарантирует правильную версию ОС Windows обновления на вашем устройстве.  
 
 ## <a name="windows-10-release-support"></a>Windows 10 выпусков
 
