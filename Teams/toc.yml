@@ -1047,6 +1047,8 @@ items:
             href: what-are-dial-plans.md
           - name: Создание и использование абонентских групп
             href: create-and-manage-dial-plans.md
+          - name: Маршрутизация вызовов на неназначенные номера
+            href: routing-calls-to-unassigned-numbers.md
           - name: Добавление и обновление наклеек для отчетов
             href: learn-more-about-site-upload.md
       - name: Параметры сети и топология

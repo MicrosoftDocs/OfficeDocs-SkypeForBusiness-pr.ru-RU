@@ -3,6 +3,35 @@
 
 
 
+## <a name="week-of-october-11-2021"></a>Неделя от 11 октября 2021 г.
+
+
+| Дата публикации |Название статьи | Изменение |
+|------|------------|--------|
+| 10/11/2021 | [Телефоны и устройства для Microsoft Teams](/MicrosoftTeams/devices/usb-devices) | Изменено |
+| 10/11/2021 | [Пограничные контроллеры сеансов, сертифицированные для прямой маршрутизации](/MicrosoftTeams/direct-routing-border-controllers) | Изменено |
+| 10/12/2021 | [Создание очереди вызовов в Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | Изменено |
+| 10/12/2021 | [Пограничные контроллеры сеансов, сертифицированные для прямой маршрутизации](/MicrosoftTeams/direct-routing-border-controllers) | Изменено |
+| 10/12/2021 | [Настройка Подключение](/MicrosoftTeams/operator-connect-configure) | Изменено |
+| 10/12/2021 | [Использование мастера док-регистрации для работы с фронтовикой](/MicrosoftTeams/flw-onboarding-wizard) | Изменено |
+| 10/12/2021 | [Microsoft 365 телефонная система — лицензии виртуальных пользователей](/MicrosoftTeams/teams-add-on-licensing/virtual-user) | Изменено |
+| 10/13/2021 | [Поиск событий Microsoft Teams в журнале аудита](/MicrosoftTeams/audit-log-events) | Изменено |
+| 10/13/2021 | [Запись собрания Teams в облаке](/MicrosoftTeams/cloud-recording) | Изменено |
+| 10/13/2021 | [Требования к комнатам Microsoft Teams](/MicrosoftTeams/rooms/requirements) | Изменено |
+| 10/13/2021 | [Комнаты Microsoft Teams версии приложения](/MicrosoftTeams/rooms/rooms-lifecycle-support) | Изменено |
+| 10/13/2021 | [Парковка и восстановление звонков в Microsoft Teams](/MicrosoftTeams/call-park-and-retrieve) | Изменено |
+| 10/13/2021 | [Устройства для Teams](/MicrosoftTeams/devices/teams-ip-phones) | Изменено |
+| 10/13/2021 | [Измерения и размеры: панель мониторинга качества звонка (CQD)](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | Изменено |
+| 10/13/2021 | [Настройка локальной оптимизации мультимедиа для прямой маршрутизации](/MicrosoftTeams/direct-routing-media-optimization-configure) | Изменено |
+| 10/13/2021 | [Проведение исследования контента при обнаружении электронных данными](/MicrosoftTeams/ediscovery-investigation) | Изменено |
+| 10/13/2021 | [Музыка при удержании](/MicrosoftTeams/music-on-hold) | Изменено |
+| 10/14/2021 | [Комнаты Microsoft Teams версии приложения](/MicrosoftTeams/rooms/rooms-lifecycle-support) | Изменено |
+| 10/14/2021 | [Настройка облачной голосовой почты](/MicrosoftTeams/set-up-phone-system-voicemail) | Изменено |
+| 10/14/2021 | [Планы звонков для Microsoft 365](/MicrosoftTeams/calling-plans-for-office-365) | Изменено |
+| 10/14/2021 | [Начало работы с шаблонами команд в Центре администрирования Teams](/MicrosoftTeams/get-started-with-teams-templates-in-the-admin-console) | Изменено |
+| 10/14/2021 | [Приобретение сторонних приложений для Teams](/MicrosoftTeams/purchase-third-party-apps) | Изменено |
+
+
 ## <a name="week-of-october-04-2021"></a>Неделя от 4 октября 2021 г.
 
 
@@ -25,7 +54,7 @@
 | 10/6/2021 | [Поиск событий Microsoft Teams в журнале аудита](/MicrosoftTeams/audit-log-events) | Изменено |
 | 10/6/2021 | [Использование контрольных чатов](/MicrosoftTeams/supervise-chats-edu) | Изменено |
 | 10/7/2021 | [Планирование прямой маршрутизации](/MicrosoftTeams/direct-routing-plan) | Изменено |
-| 10/7/2021 | [сравнение Teams общих пробелов между Windows и Android](/MicrosoftTeams/rooms/teams-devices-feature-comparison) | Добавлено |
+| 10/7/2021 | [Teams сравнительные функции для общих Windows и Android](/MicrosoftTeams/rooms/teams-devices-feature-comparison) | Добавлено |
 | 10/8/2021 | [Создание очереди вызовов в Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | Изменено |
 | 10/8/2021 | [Auto Attendant & Call Queue Historical Report](/MicrosoftTeams/aa-cq-cqd-historical-reports) | Изменено |
 | 10/8/2021 | [Ответ на автоответы и вызовы очереди звонков](/MicrosoftTeams/answer-auto-attendant-and-call-queue-calls) | Изменено |
@@ -34,16 +63,16 @@
 | 10/8/2021 | [Парковка и восстановление звонков в Microsoft Teams](/MicrosoftTeams/call-park-and-retrieve) | Изменено |
 | 10/8/2021 | [Настройка автосекретаря для Microsoft Teams](/MicrosoftTeams/create-a-phone-system-auto-attendant) | Изменено |
 | 10/8/2021 | [Microsoft Teams поддерживаемых языков в очереди вызовов](/MicrosoftTeams/create-a-phone-system-call-queue-languages) | Изменено |
-| 10/8/2021 | [Справочник по автоотводу и очереди вызовов и ссылке на распознавание речи](/MicrosoftTeams/dial-voice-reference) | Изменено |
-| 10/8/2021 | [Управление опытом join for Teams посещений в мобильных браузерах](/MicrosoftTeams/expand-teams-across-your-org/mobile-browser-join) | Изменено |
+| 10/8/2021 | [Справочник по автоотзывщику и очереди вызовов и ссылке на распознавание речи](/MicrosoftTeams/dial-voice-reference) | Изменено |
+| 10/8/2021 | [Управление опытом join для Teams виртуальных посещений в мобильных браузерах](/MicrosoftTeams/expand-teams-across-your-org/mobile-browser-join) | Изменено |
 | 10/8/2021 | [Управление учетными записями ресурсов в Teams](/MicrosoftTeams/manage-resource-accounts) | Изменено |
-| 10/8/2021 | [Настройка оператора Подключение](/MicrosoftTeams/operator-connect-configure) | Изменено |
+| 10/8/2021 | [Настройка Подключение](/MicrosoftTeams/operator-connect-configure) | Изменено |
 | 10/8/2021 | [Оператор Подключение](/MicrosoftTeams/operator-connect-plan) | Изменено |
-| 10/8/2021 | [Планирование работы Teams автоспутниками и очередями вызовов](/MicrosoftTeams/plan-auto-attendant-call-queue) | Изменено |
+| 10/8/2021 | [Планирование авто Teams и очередей вызовов](/MicrosoftTeams/plan-auto-attendant-call-queue) | Изменено |
 | 10/8/2021 | [Настройка выходных в Microsoft Teams](/MicrosoftTeams/set-up-holidays-in-teams) | Изменено |
 
 
-## <a name="week-of-september-27-2021"></a>Неделя от 27 сентября 2021 г.
+## <a name="week-of-september-27-2021"></a>Неделя 27 сентября 2021 г.
 
 
 | Дата публикации |Название статьи | Изменение |
@@ -69,7 +98,7 @@
 | 9/28/2021 | [Доступность приложения "Утверждения" в Teams](/MicrosoftTeams/approval-admin) | Изменено |
 | 9/28/2021 | [Развертывание Комнаты Microsoft Teams на устройствах с Android](/MicrosoftTeams/devices/collab-bar-deploy) | Изменено |
 | 9/28/2021 | [Управление устройствами в Microsoft Teams](/MicrosoftTeams/devices/device-management) | Изменено |
-| 9/28/2021 | [Управление тегами Microsoft Teams и их фильтрация](/MicrosoftTeams/devices/manage-device-tags) | Изменено |
+| 9/28/2021 | [Управление тегами Microsoft Teams и фильтрация](/MicrosoftTeams/devices/manage-device-tags) | Изменено |
 | 9/28/2021 | [Удаленная подготовка и вход для Teams устройств с Android](/MicrosoftTeams/devices/remote-provision-remote-login) | Изменено |
 | 9/28/2021 | [Удаленное обновление Microsoft Teams устройств](/MicrosoftTeams/devices/remote-update) | Изменено |
 | 9/28/2021 | [Microsoft Teams панели](/MicrosoftTeams/devices/teams-panels) | Изменено |
@@ -121,7 +150,7 @@
 | 9/29/2021 | [Начало работы с шаблонами команд в Центре администрирования Teams](/MicrosoftTeams/get-started-with-teams-templates-in-the-admin-console) | Изменено |
 | 9/29/2021 | [Получение номеров телефонов для пользователей](/MicrosoftTeams/getting-phone-numbers-for-your-users) | Изменено |
 | 9/29/2021 | [Возможности телефонной системы](/MicrosoftTeams/here-s-what-you-get-with-phone-system) | Изменено |
-| 9/29/2021 | [Сколько номеров телефонов можно получить?](/MicrosoftTeams/how-many-phone-numbers-can-you-get) | Изменено |
+| 9/29/2021 | [Сколько телефонных номеров можно получить?](/MicrosoftTeams/how-many-phone-numbers-can-you-get) | Изменено |
 | 9/29/2021 | [Teams сеансов на ignite 2020](/MicrosoftTeams/ignite-2020-landing-page) | Изменено |
 | 9/29/2021 | [Teams для приветствий голосовой почты и сообщений](/MicrosoftTeams/languages-for-voicemail-greetings-and-messages) | Изменено |
 | 9/29/2021 | [Помещение пользователя или команды Microsoft Teams на удержание по юридическим причинам](/MicrosoftTeams/legal-hold) | Изменено |
@@ -149,12 +178,12 @@
 | 9/30/2021 | [Обновление Teams телефонов до Teams дисплеев](/MicrosoftTeams/devices/upgrade-phones-to-displays) | Изменено |
 | 9/30/2021 | [Безопасный обмен сообщениями для организаций здравоохранения с помощью Microsoft Teams](/MicrosoftTeams/expand-teams-across-your-org/healthcare/messaging-policies-hc) | Изменено |
 | 9/30/2021 | [Управление приложением "Смены" в организации](/MicrosoftTeams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams) | Изменено |
-| 9/30/2021 | [Использование мастера док-регистрации для работы с сотрудниками, работающими на переднем телефоне](/MicrosoftTeams/flw-onboarding-wizard) | Изменено |
+| 9/30/2021 | [Использование мастера док-регистрации для работы с фронтовикой](/MicrosoftTeams/flw-onboarding-wizard) | Изменено |
 | 9/30/2021 | [Настройка Подключение](/MicrosoftTeams/operator-connect-configure) | Изменено |
-| 9/30/2021 | [Передача данных между операторами и майкрософт для операторов Подключение](/MicrosoftTeams/operator-connect-data-transfer) | Изменено |
+| 9/30/2021 | [Передача данных между операторами и корпорацией Майкрософт для Подключение](/MicrosoftTeams/operator-connect-data-transfer) | Изменено |
 | 9/30/2021 | [Оператор Подключение](/MicrosoftTeams/operator-connect-plan) | Изменено |
 | 9/30/2021 | [Отправка заказа на перенос номера вручную](/MicrosoftTeams/phone-number-calling-plans/manually-submit-port-order) | Изменено |
-| 9/30/2021 | [Планирование работы Teams автоспутниками и очередями вызовов](/MicrosoftTeams/plan-auto-attendant-call-queue) | Изменено |
+| 9/30/2021 | [Планирование авто Teams и очередей вызовов](/MicrosoftTeams/plan-auto-attendant-call-queue) | Изменено |
 | 9/30/2021 | [Сброс идентификатора конференции для пользователя в Microsoft Teams](/MicrosoftTeams/reset-a-conference-id-for-a-user-in-teams) | Изменено |
 | 9/30/2021 | [Поиск номеров телефонов для пользователей](/MicrosoftTeams/search-for-phone-numbers-for-users) | Изменено |
 | 9/30/2021 | [См. список пользователей, включенных для аудиоконференций](/MicrosoftTeams/see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams) | Изменено |
@@ -211,7 +240,7 @@
 | 9/20/2021 | [Использование OneDrive для бизнеса и SharePoint для записей собраний](/MicrosoftTeams/tmr-meeting-recording-change) | Изменено |
 | 9/20/2021 | [Комнаты Microsoft Teams](/MicrosoftTeams/rooms/index) | Изменено |
 | 9/20/2021 | [Требования к комнатам Microsoft Teams](/MicrosoftTeams/rooms/requirements) | Изменено |
-| 9/21/2021 | [Настройка администратора для приложения Microsoft Parents в EDU](/MicrosoftTeams/edu-parents-app) | Добавлено |
+| 9/21/2021 | [Настройка администратора для приложения Microsoft Parents EDU](/MicrosoftTeams/edu-parents-app) | Добавлено |
 | 9/21/2021 | [Teams: управление политиками собраний](/MicrosoftTeams/meeting-policies-in-teams) | Изменено |
 | 9/22/2021 | [Планирование прямой маршрутизации](/MicrosoftTeams/direct-routing-plan) | Изменено |
 | 9/22/2021 | [Использование файлов журналов для устранения неполадок в Microsoft Teams](/MicrosoftTeams/log-files) | Изменено |
@@ -235,7 +264,7 @@
 | 9/13/2021 | [Управление приложениями в Центре Microsoft Teams администрирования](/MicrosoftTeams/manage-apps) | Изменено |
 | 9/14/2021 | [Пограничные контроллеры сеансов, сертифицированные для прямой маршрутизации](/MicrosoftTeams/direct-routing-border-controllers) | Изменено |
 | 9/14/2021 | [Требования к комнатам Microsoft Teams](/MicrosoftTeams/rooms/requirements) | Изменено |
-| 9/15/2021 | [Управление опытом join для Teams виртуальных посещений в мобильных браузерах](/MicrosoftTeams/expand-teams-across-your-org/mobile-browser-join) | Изменено |
+| 9/15/2021 | [Управление опытом присоединиться к Teams виртуальных посещений в мобильных браузерах](/MicrosoftTeams/expand-teams-across-your-org/mobile-browser-join) | Изменено |
 | 9/16/2021 | [Доступность страны или региона : аудиоконференция, планы звонков](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans) | Изменено |
 | 9/16/2021 | [Teams: управление политиками собраний](/MicrosoftTeams/meeting-policies-in-teams) | Изменено |
 | 9/17/2021 | [Поминутная оплата аудиоконференций](/MicrosoftTeams/audio-conferencing-pay-per-minute) | Изменено |
@@ -247,42 +276,9 @@
 | 9/17/2021 | [Подготовка к трансляциям в Microsoft Teams](/MicrosoftTeams/teams-live-events/set-up-for-teams-live-events) | Изменено |
 | 9/17/2021 | [Управление номерами телефонов для организации](/MicrosoftTeams/manage-phone-numbers-landing-page) | Добавлено |
 | 9/17/2021 | [Получить номера телефонов служб для планов звонков](/MicrosoftTeams/getting-service-phone-numbers) | Изменено |
-| 9/17/2021 | [Сколько номеров телефонов можно получить?](/MicrosoftTeams/how-many-phone-numbers-can-you-get) | Изменено |
+| 9/17/2021 | [Сколько телефонных номеров можно получить?](/MicrosoftTeams/how-many-phone-numbers-can-you-get) | Изменено |
 | 9/17/2021 | [Управление номерами телефонов для плана звонков](/MicrosoftTeams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization) | Изменено |
 | 9/17/2021 | [Перенос данных из Slack в Microsoft Teams](/MicrosoftTeams/migrate-slack-to-teams) | Изменено |
 | 9/17/2021 | [Комнаты Microsoft Teams](/MicrosoftTeams/rooms/index) | Изменено |
 | 9/17/2021 | [Поиск номеров телефонов для пользователей](/MicrosoftTeams/search-for-phone-numbers-for-users) | Изменено |
 | 9/17/2021 | [См. список телефонных номеров в организации](/MicrosoftTeams/see-a-list-of-phone-numbers-in-your-organization) | Изменено |
-
-
-## <a name="week-of-september-06-2021"></a>Неделя от 6 сентября 2021 г.
-
-
-| Дата публикации |Название статьи | Изменение |
-|------|------------|--------|
-| 9/3/2021 | [Запись собрания Teams в облаке](/MicrosoftTeams/cloud-recording) | Изменено |
-| 9/8/2021 | [Виртуальные визиты с помощью Microsoft Teams и приложения Bookings](/MicrosoftTeams/bookings-app-admin) | Изменено |
-| 9/8/2021 | [Запись собрания Teams в облаке](/MicrosoftTeams/cloud-recording) | Изменено |
-| 9/8/2021 | [Устройства для Teams](/MicrosoftTeams/devices/teams-ip-phones) | Изменено |
-| 9/8/2021 | [Измерения и размеры: панель мониторинга качества звонка (CQD)](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | Изменено |
-| 9/8/2021 | [Teams для виртуальных посещений](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin) | Изменено |
-| 9/8/2021 | [Управление опытом join для Teams виртуальных посещений в мобильных браузерах](/MicrosoftTeams/expand-teams-across-your-org/mobile-browser-join) | Добавлено |
-| 9/8/2021 | [Метки конфиденциальности для Microsoft Teams](/MicrosoftTeams/sensitivity-labels) | Изменено |
-| 9/8/2021 | [Использование OneDrive для бизнеса и SharePoint для записей собраний](/MicrosoftTeams/tmr-meeting-recording-change) | Изменено |
-| 9/9/2021 | [Управление политиками собраний для записи и записи разговоров](/MicrosoftTeams/meetings-policies-recording-and-transcription) | Добавлено |
-| 9/9/2021 | [Настройка ServiceNow для Комнаты Teams](/MicrosoftTeams/rooms/microsoft-teams-rooms-configure-servicenow) | Добавлено |
-| 9/9/2021 | [Руководство по помещению для Teams](/MicrosoftTeams/teams-meeting-room-guidance) | Добавлено |
-| 9/9/2021 | [Управление политиками собраний для аудио- и видеосвязи](/MicrosoftTeams/meeting-policies-audio-and-video) | Изменено |
-| 9/9/2021 | [Управление политиками собраний в Microsoft Teams](/MicrosoftTeams/meeting-policies-overview) | Изменено |
-| 9/9/2021 | [Управление политиками обмена сообщениями в Teams](/MicrosoftTeams/messaging-policies-in-teams) | Изменено |
-| 9/9/2021 | [Чат, команды, каналы и приложения в Microsoft Teams](/MicrosoftTeams/deploy-chat-teams-channels-microsoft-teams-landing-page) | Изменено |
-| 9/9/2021 | [Телефоны и устройства для Microsoft Teams](/MicrosoftTeams/devices/usb-devices) | Изменено |
-| 9/9/2021 | [Требования к комнатам Microsoft Teams](/MicrosoftTeams/rooms/requirements) | Изменено |
-| 9/9/2021 | [Конфиденциальность в Microsoft Teams](/MicrosoftTeams/teams-privacy) | Изменено |
-| 9/9/2021 | [Виртуальные визиты с помощью Microsoft Teams и приложения Bookings](/MicrosoftTeams/expand-teams-across-your-org/bookings-virtual-visits) | Добавлено |
-| 9/9/2021 | [Создание очереди вызовов в Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | Изменено |
-| 9/9/2021 | [Начало работы с Teams для медицинских организаций](/MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc) | Изменено |
-| 9/10/2021 | [Музыка при удержании](/MicrosoftTeams/music-on-hold) | Добавлено |
-| 9/10/2021 | [Настройка ServiceNow для Комнаты Teams](/MicrosoftTeams/rooms/microsoft-teams-rooms-configure-servicenow) | Изменено |
-| 9/10/2021 | [Требования к комнатам Microsoft Teams](/MicrosoftTeams/rooms/requirements) | Изменено |
-| 9/10/2021 | [Управление политиками каналов в Microsoft Teams](/MicrosoftTeams/teams-policies) | Изменено |
