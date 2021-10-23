@@ -20,13 +20,13 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: 'Узнайте, как включить или отключить отправку Skype пользователям при изменениях параметров, таких как изменение пин-кода или номер для Microsoft Teams. '
-ms.openlocfilehash: f81572feb976ab68a6a65631ec772ec4421f2b1e
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+description: 'Узнайте, как включить или отключить отправку Skype пользователям при изменениях параметров, таких как изменение пин-кода или номер по умолчанию для Microsoft Teams. '
+ms.openlocfilehash: fa52306afbee534b52e9bfdbd304a22cda395704
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727448"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60537230"
 ---
 # <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change-in-microsoft-teams"></a>Включение и отключение отправки сообщений электронной почты при изменении настроек аудиоконференций в Microsoft Teams
 
@@ -40,7 +40,7 @@ ms.locfileid: "58727448"
   
 ## <a name="when-are-emails-being-sent-to-your-users"></a>Когда пользователи получают уведомления по электронной почте?
 
-- После включения аудиоконференции пользователям в организации отправляется несколько сообщений электронной почты:
+- После включения аудиоконференции пользователям в организации отправляется несколько сообщений электронной почты.
     
   - При назначении пользователям лицензии **аудиоконференций**.
     
@@ -50,20 +50,20 @@ ms.locfileid: "58727448"
     
   - Если удаляется лицензия  **Аудиоконференции**.
     
-  - При смене поставщика услуг аудиоконференций пользователя с Майкрософт на другого поставщика или **нет**.
+  - При смене поставщика услуг аудиоконференций пользователя с Microsoft на другого поставщика или **нет**.
     
   - При смене поставщика услуг аудиоконференций пользователя на Майкрософт.
 
 
 ## <a name="enable-or-disable-email-from-being-sent-to-users"></a>Включить или отключить отправку электронной почты пользователям
 
-Вы можете Microsoft Teams или Windows PowerShell, чтобы включить или отключить электронную почту, отправленную пользователям.
+Вы можете использовать Microsoft Teams или Windows PowerShell, чтобы включить или отключить электронную почту, отправленную пользователям.
 
-![Значок с логотипом Microsoft Teams.](media/teams-logo-30x30.png) **С помощью Центра администрирования Microsoft Teams**
+ **С помощью Центра администрирования Microsoft Teams**
 
 1. На панели навигации слева перейдите в раздел **Собрания** > **Мосты конференц-связи**. 
 
-2. В верхней части страницы **Мосты конференций** щелкните **Параметры моста**. 
+2. В верхней части страницы **Мосты** конференций щелкните **Параметры моста**. 
 
 3. В области **Параметры моста** включите или отключите параметр Автоматически отправлять сообщения электронной почты пользователям при изменении параметров телефонного **дозвона.**
 
@@ -81,7 +81,7 @@ ms.locfileid: "58727448"
 Set-CsOnlineDialInConferencingTenantSettings -AutomaticallySendEmailsToUsers $true|$false
 ```
 
-С помощью [Set-CsOnlineDialInConferencingTenantSettings](/powershell/module/skype/set-csonlinedialinconferencingtenantsettings) можно управлять другими настройками для организации, включая электронную почту.
+С помощью [set-CsOnlineDialInConferencingTenantSettings](/powershell/module/skype/set-csonlinedialinconferencingtenantsettings) можно управлять другими настройками для организации, включая электронную почту.
 
 Дополнительные сведения см. в Microsoft Teams [PowerShell.](/powershell/module/teams/?view=teams-ps)
 

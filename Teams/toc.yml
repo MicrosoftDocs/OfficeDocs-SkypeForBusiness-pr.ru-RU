@@ -359,8 +359,6 @@ items:
             items:
               - name: О гостевом доступе
                 href: guest-access.md
-              - name: Контрольный список гостевого доступа
-                href: /microsoft-365/solutions/collaborate-as-team
               - name: Работа в режиме гостевого доступа
                 href: guest-experience.md
               - name: Включение или отключение гостевого доступа
