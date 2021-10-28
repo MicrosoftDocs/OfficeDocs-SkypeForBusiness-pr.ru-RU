@@ -20,12 +20,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 16749fa21176622bdd68bcd2034eb94c99773f9e
-ms.sourcegitcommit: b57e19e20900ff02f3196c811bf1dd1acd149c79
+ms.openlocfilehash: 60a6f78d99f6481f2c10db5467f3e7e7bad9f7fb
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/27/2021
-ms.locfileid: "60596942"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60606958"
 ---
 # <a name="calling-and-call-forwarding-in-teams"></a>Вызовы и переадваровка звонков в Teams
 
@@ -87,7 +87,7 @@ ms.locfileid: "60596942"
 
 Этот параметр позволяет перенау числеть делегатам входящие звонки, позволяя делегатам звонить от имени пользователей, которым они делегируют разрешения. Дополнительные сведения см. в теме [Совместное телефонные линии с делегатом.](https://support.office.com/article/share-a-phone-line-with-a-delegate-16307929-a51f-43fc-8323-3b1bf115e5a8)
 
-### <a name="prevent-toll-bypass-and-send-calls-through-the-pstn"></a>Предотвращение платного обхода и отправки звонков через ПСПС 
+### <a name="prevent-toll-bypass-and-send-calls-through-the-pstn"></a>Предотвращение платного обхода и отправки звонков через ПСПС
 
 Если этот параметр **установить для** параметра В сети, звонки будут отправляться через STN и с них взимается плата, а не через сеть и не взимается плата.
 
@@ -97,7 +97,7 @@ ms.locfileid: "60596942"
 
 ### <a name="web-pstn-calling"></a>Вызовы через интернет-службу ЗВОНКОВ через ПСС
 
-Этот параметр позволяет пользователям звонить на номера ННР с помощью Teams клиента.
+Этот параметр позволяет пользователям звонить на номера ОКП с помощью Teams клиента.
 
 ### <a name="incoming-meeting-invites-are-automatically-answered"></a>На входящие приглашения на собрания автоматически отвечают
 
@@ -111,4 +111,4 @@ ms.locfileid: "60596942"
 
 [Set-CSTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)
 
-[Назначение политик пользователям в Teams](assign-policies.md)
+[Назначение политик пользователям в Teams](policy-assignment-overview.md)
