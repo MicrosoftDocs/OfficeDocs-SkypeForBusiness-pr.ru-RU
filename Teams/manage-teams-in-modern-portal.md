@@ -1,5 +1,5 @@
 ---
-title: Управление Microsoft Teams в Центре администрирования Microsoft Teams
+title: Управление командами в Центре администрирования Microsoft Teams
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 89f31f586fc7b3839dd5820089528f91dfad7e93
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: b84957e7451b75b804d2c279e160a260dabfbea8
+ms.sourcegitcommit: b57e19e20900ff02f3196c811bf1dd1acd149c79
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733846"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "60579539"
 ---
 # <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Управление командами в Центре администрирования Microsoft Teams
 
@@ -117,7 +117,7 @@ ms.locfileid: "58733846"
 
 Некоторые команды отсутствуют в списке команд в сетке обзора Teams.
 
-**Причина**. Эта проблема возникает, когда профиль команды неправильно определен (или еще не определен) системой, что может привести к отсутствию свойств для ее распознавания.
+**Причина:** эта проблема возникает, когда профиль команды неправильно определен (или еще не определен) системой, что может привести к отсутствию свойств для ее распознавания.
 
 **Решение: вручную установите для свойства правильное значение с помощью MS Graph**
 

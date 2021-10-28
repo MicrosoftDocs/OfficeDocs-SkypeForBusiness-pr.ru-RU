@@ -1,7 +1,7 @@
 ---
 title: Управление политиками разрешений для приложений в Microsoft Teams
 author: cichur
-ms.author: v-cichur
+ms.author: serdars
 manager: serdars
 ms.reviewer: rarang
 ms.topic: article
@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: b3cacf0ef5305ac1e7bc32ba1f0c8c91ab8ec723
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 2f29678b53171772bf905e2b5dfaddf3131016d9
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730838"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605255"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>Управление политиками разрешений для приложений в Microsoft Teams
 
@@ -45,7 +45,7 @@ ms.locfileid: "58730838"
 Например, вы хотите заблокировать все сторонние приложения и разрешить определенные приложения корпорации Майкрософт для отдела кадров в вашей организации. Сначала перейдите на страницу [Управление приложениями](manage-apps.md) и убедитесь, что приложения, которые вы хотите разрешить для отдела кадров, разрешены на уровне организации. Затем создайте настраиваемую политику с именем "Политика разрешений для приложения отдела кадров", настройте ее, чтобы заблокировать и разрешить нужные приложения, а также назначить их пользователям команды отдела кадров.
 
 > [!NOTE]
-> Если вы развернули Teams в среде Microsoft 365 облако сообщества для государственных организаций High (GCCH) и Department of Defense (DoD), см. управление настройками приложений для всей организации для [Microsoft 365](#manage-org-wide-app-settings-for-microsoft-365-government) Для государственных организаций, чтобы узнать больше о параметрах сторонних приложений, уникальных для GCCH и DoD.
+> Если вы развернули Teams в среде Microsoft 365 облако сообщества для государственных организаций High (GCCH) и Department of Defense [](#manage-org-wide-app-settings-for-microsoft-365-government) (DoD), см. управление настройками приложений для Microsoft 365 для государственных организаций, чтобы узнать больше о уникальных параметрах приложений сторонних разработчиков. GCCH и DoD.
 
 ## <a name="create-a-custom-app-permission-policy"></a>Создание настраиваемой политики разрешений для приложений
 
@@ -155,4 +155,4 @@ ms.locfileid: "58730838"
 
 [Параметры администратора для приложений в Teams](admin-settings.md)
 
-[Назначение политик пользователям в Teams](assign-policies.md)
+[Назначение политик пользователям в Teams](policy-assignment-overview.md)

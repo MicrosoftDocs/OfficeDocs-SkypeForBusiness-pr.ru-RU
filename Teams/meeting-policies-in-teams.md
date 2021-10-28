@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Сведения об управлении параметрами политик собраний в Teams. Используйте параметры политик для управления функциями, которые доступны участникам собраний, запланированных пользователями.
-ms.openlocfilehash: 3abdf46229884996d2a0ba180a36928983c4f7d2
-ms.sourcegitcommit: 4a9ea18808d17e2eb6e4e2e7e3894e33c14e8631
+ms.openlocfilehash: 651d6ec34a86ac7e8468aac8b8a94b8e0c5f18a5
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2021
-ms.locfileid: "59474954"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605245"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Управление политиками собраний в Teams
 
@@ -579,6 +579,6 @@ ms.locfileid: "59474954"
 ## <a name="related-topics"></a>Статьи по теме
 
 - [Обзор PowerShell в Teams](teams-powershell-overview.md)
-- [Назначение политик пользователям в Teams](assign-policies.md)
+- [Назначение политик пользователям в Teams](policy-assignment-overview.md)
 - [Удаление политики собраний Teams RestrictedAnonymousAccess для пользователей](meeting-policies-restricted-anonymous-access.md)
 - [Подготовка к вебинарам в Microsoft Teams](set-up-webinars.md)

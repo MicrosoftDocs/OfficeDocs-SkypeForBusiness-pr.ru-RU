@@ -13,12 +13,12 @@ ms.collection:
 description: Узнайте о последних изменениях в Teams PowerShell.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 232a41dce111b0d913c3888c0e00140bf2b904c0
-ms.sourcegitcommit: b57e19e20900ff02f3196c811bf1dd1acd149c79
+ms.openlocfilehash: 0c95ce8097d8ce70d1f19ac91c8ef66f21453562
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "60579619"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605175"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Microsoft Teams Заметки о выпуске PowerShell
 
@@ -49,7 +49,7 @@ ms.locfileid: "60579619"
 | Ноябрь 2020 г. | [Предварительный просмотр 1.1.7](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.7-preview) | <li>Использование MSAL для проверки подлинности & авторизации</li><li>Refactored Policy Package cmdlets and adds group package assignment</li><li>Refactored targeting hierarchy upload commands to use an asynchronous model</li> <li>Если пользователь не использует параметр -credential, при первоначальной проверке подлинности пользователю будет дважды предложено сделать это. Пользователи могут передавать учетные данные с помощью параметра -credential, чтобы избежать дублирования запроса. Это будет исправлено в следующем выпуске.</li> |
 | Сентябрь 2020 г. | [1.1.6](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.6) | <li>Skype для бизнеса Интеграция с Online Connector</li> |
 | Сентябрь 2020 г. | [1.1.5-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.5-preview) | <li>Skype для бизнеса Интеграция с Online Connector</li> |
-| Июль 2020 г. | [1.1.4](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.4) | <li>Добавлены [cmdlets назначения групповой политики](./assign-policies.md#assign-a-policy-to-a-group)</li> |
+| Июль 2020 г. | [1.1.4](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.4) | <li>Добавлены [cmdlets назначения групповой политики](./assign-policies-users-and-groups.md#assign-a-policy-to-a-group)</li> |
 | Июнь 2020 г. | [Предварительный просмотр 1.1.3](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.3-preview) | <li>Skype для бизнеса Интеграция с Online Connector<li>Get-Team оптимизации<li>Повышенная надежность</li> |
 | Июнь 2020 г. | [1.0.7](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.7) | <li>Добавлена предзагрузка "Cmdlet"<li>платформа .NET Framework оптимизации</li>   |
 | Апрель 2020 г. | [1.0.6](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.6) | <li>Authenticode и подписи сборок<li>Добавлено Get-CsPolicyPackage<li>Добавлено Get-CsUserPolicyPackage<li>Добавлено Get-CsUserPolicyPackageRecommendation<li>Добавлено Grant-CsUserPolicyPackage<li>Добавлено New-CsBatchPolicyPackageAssignmentOperation<li>Добавлено Set-TeamArchivedState<li>Добавлено Set-TeamPicture<li>Удалено Get-TeamHelp</li>  |

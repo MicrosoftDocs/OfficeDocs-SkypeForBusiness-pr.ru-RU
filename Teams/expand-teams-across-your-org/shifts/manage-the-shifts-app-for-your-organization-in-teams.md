@@ -11,7 +11,7 @@ search.appverid: MET150
 searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
-description: Узнайте, как настроить приложение "Смены" и управлять им в Teams для сотрудников, работающих с frontline в организации.
+description: Узнайте, как настроить приложение "Смены" и управлять им в Teams для сотрудников, работающих в вашей организации.
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -22,12 +22,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: d7c1bdde4764b56e8c45a8ad9356437525f00b56
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+ms.openlocfilehash: 87389dfaba68de8cfe02f3291e03d593bb9de75b
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60045725"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605835"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Управление приложением "Смены" для вашей организации в Microsoft Teams
 
@@ -74,9 +74,9 @@ ms.locfileid: "60045725"
 
 Политики настройки приложений позволяют настроить Teams, чтобы выделить приложения, которые наиболее важны для пользователей в организации. Приложения, настроенные в политике, закрепляются на панели приложения&mdash;панели сбоку классического клиента Teams и в нижней части мобильных клиентов Teams,&mdash;где пользователи могут быстро и легко получить к ним доступ.
  
-Teams включает встроенную политику настройки приложения FirstLineWorker, которую можно назначить сотрудникам в вашей организации. По умолчанию политика включает приложения "Действия", "Смены", "Чат" и "Звонки".
+Teams включает встроенную политику настройки приложения FirstLineWorker, которую можно назначить сотрудникам, работающим с frontline в организации. По умолчанию политика включает приложения "Действия", "Смены", "Чат" и "Звонки".
 
-Чтобы просмотреть политику FirstLineWorker, в левой области навигации центра администрирования Microsoft Teams перейдите к Teams **политики** установки  >  **приложений**.
+Чтобы просмотреть политику FirstLineWorker, в левой области навигации центра администрирования Microsoft Teams перейдите к Teams **настройка**  >  **приложений**.
 
 :::image type="content" source="../../media/firstline-worker-app-setup-policy-new.png" alt-text="Снимок экрана: политика настройки приложения FirstLineWorker в центре Microsoft Teams администрирования" lightbox="../../media/firstline-worker-app-setup-policy-new.png":::
 
@@ -95,4 +95,4 @@ Teams включает встроенную политику настройки 
 ## <a name="related-topics"></a>Связанные статьи
 
 - [Справка по сменам для сотрудников, работающих на переднем телефоне](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
-- [Назначение политик пользователям в Teams](../../assign-policies.md)
+- [Назначение политик пользователям в Teams](../../policy-assignment-overview.md)

@@ -1,7 +1,7 @@
 ---
 title: Управление шаблонами групп в Центре администрирования
 author: cichur
-ms.author: v-cichur
+ms.author: serdars
 manager: serdars
 ms.reviewer: yinchang
 ms.topic: article
@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Узнайте, как управлять шаблонами групп в Центре администрирования
-ms.openlocfilehash: c154cdf60b887d5c934e4f63634691c4b9bfcdbd
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: c8b9926290e58fe190d2351820e2bb63560c8c8c
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58732828"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605375"
 ---
 # <a name="manage-team-templates-in-the-admin-center"></a>Управление шаблонами групп в Центре администрирования
 
@@ -52,7 +52,7 @@ ms.locfileid: "58732828"
 
 2. В таблице **Шаблоны для** просмотра выберите шаблоны, которые нужно скрыть, и выберите **скрыть**.
 
-    ![Выбранные шаблоны с выделенной ссылкой "Скрыть".](media/template-policies-2.png)
+    ![Выбранные шаблоны с выделенной скрыть.](media/template-policies-2.png)
 
     Выбранные шаблоны можно увидеть в таблице **Скрытые шаблоны.**
 
@@ -80,7 +80,7 @@ ms.locfileid: "58732828"
 3. Выберите **Применить**.
 
 > [!Note]
-> На то, чтобы новая политика вступила в силу для конечных пользователей, может потребоваться до 24 часов.
+> Для того чтобы новая политика вступила в силу для конечных пользователей, может потребоваться до 24 часов.
 
 ## <a name="size-limits-for-template-policies"></a>Ограничения размера для политик шаблонов
 
@@ -90,7 +90,7 @@ ms.locfileid: "58732828"
 
 **Вопрос. Можно ли пакетно назначить пользователей политикам шаблонов команд?**
   
-Ответ. Да, мы поддерживаем пакетные назначения для политики шаблонов в PowerShell. Тип политики для этого действия — TeamsTemplatePermissionPolicy. [Подробнее](/powershell/module/teams/new-csbatchpolicyassignmentoperation)
+Ответ. Да, мы поддерживаем пакетные назначения для политики шаблонов в PowerShell. Для этого действия тип политики — TeamsTemplatePermissionPolicy. [Подробнее](/powershell/module/teams/new-csbatchpolicyassignmentoperation)
 
 **Вопрос. Могут ли группы быть назначены политикам шаблонов групп?**
 
@@ -111,8 +111,7 @@ ms.locfileid: "58732828"
 1. В Центре администрирования перейдите в группу **Пользователи**.
 1. В таблице списка Пользователи выберите пользователей, которые хотите назначить определенной политике шаблонов.
 1. Выберите Изменить параметры и измените поле Политики шаблонов.
-1. Выберите применить.
-   Подробнее о назначении политик пользователям можно узнать в Microsoft Teams [- Microsoft Teams \| Microsoft Docs.](./assign-policies.md#assign-a-policy-to-a-batch-of-users)
+1. Выберите применить. [Подробнее](./assign-policies-users-and-groups.md#assign-a-policy-to-a-batch-of-users).
 
 **Вопрос. Как просмотреть всех пользователей, которые назначены определенной политике?**
 
@@ -142,6 +141,6 @@ ms.locfileid: "58732828"
 
 - [Создание шаблона команды из существующего шаблона группы](./create-template-from-existing-template.md)
 
-- [Назначение политик пользователям в Microsoft Teams - Microsoft Teams Microsoft \| Docs](./assign-policies.md)
+- [Назначение политик пользователям в Microsoft Teams - Microsoft Teams Microsoft \| Docs](./policy-assignment-overview.md)
 
 - [Пакетное назначение пользователей политике](/powershell/module/teams/new-csbatchpolicyassignmentoperation)

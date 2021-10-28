@@ -1,13 +1,13 @@
 ---
 title: 'Пример сценария PowerShell: создание политики & сообщений'
 author: cichur
-ms.author: v-cichur
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.reviewer: ritikag
 ms.service: msteams
 audience: admin
-description: Используйте этот сценарий PowerShell, чтобы создать политику обмена сообщениями в Teams назначить ее пользователям в организации.
+description: Используйте этот сценарий PowerShell для создания политики обмена сообщениями в Teams и назначения ее пользователям в организации.
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -17,16 +17,16 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 323809b5a47168c67f2a7a01e45922c69fc248ba
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c76f7441e335532fcacaf3fe41561fc0ef7ef516
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58601124"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605195"
 ---
 # <a name="powershell-script-sample---create-and-assign-a-messaging-policy"></a>Пример сценария PowerShell — создание и назначение политики обмена сообщениями
 
-Используйте этот сценарий PowerShell, чтобы создать политику обмена сообщениями в Microsoft Teams назначить ее пользователям. 
+Используйте этот сценарий PowerShell для создания политики сообщений в Microsoft Teams и назначения ее пользователям. 
 
 Дополнительные сведения об использовании этого сценария PowerShell см. в кратком начале [Teams для образования.](../teams-quick-start-edu.yml)
 
@@ -35,9 +35,9 @@ ms.locfileid: "58601124"
 
 ## <a name="before-you-start"></a>Перед началом работы
 
-Скачайте и установите [модуль Skype для бизнеса Online PowerShell](https://www.microsoft.com/download/details.aspx?id=39366), а затем перезагрузите компьютер, если будет предложено.
+Скачайте и установите [модуль Skype для бизнеса Online PowerShell,](https://www.microsoft.com/download/details.aspx?id=39366)а затем перезагрузите компьютер, если будет предложено.
 
-Дополнительные обзоры см. в [Skype для бизнеса Online с помощью Office 365 PowerShell.](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)
+Подробнее см. в [Skype для бизнеса Online с помощью Office 365 PowerShell.](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)
 
 ## <a name="sample-script"></a>Пример сценария
 
@@ -61,4 +61,4 @@ $dataSetFilePath = "<csv file with user ids for newly provisioned students> "
 ```
 
 > [!NOTE]
-> Вы также можете назначить политику обмена сообщениями непосредственно пользователям в масштабе с помощью назначения пакетной политики или группе, участниками которую они являются. Дополнительные сведения [см.](../batch-group-policy-assignment-edu.md) в [Teams.](../assign-policies.md)
+> Вы также можете назначить политику обмена сообщениями непосредственно пользователям в масштабе с помощью назначения пакетной политики или группе, участниками которую они являются. Дополнительные сведения [см.](../batch-group-policy-assignment-edu.md) в [Teams.](../policy-assignment-overview.md)
