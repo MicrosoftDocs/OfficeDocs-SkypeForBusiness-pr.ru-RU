@@ -22,18 +22,18 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: b861278bd4ae8081f7bb930a94c602ba4f7507a7
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: adf3f91e7a2237c52cdd25892a1eb6b3d634ecf7
+ms.sourcegitcommit: 40e00edba47ca4352851222c59443e1815612b1e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726528"
+ms.lasthandoff: 10/29/2021
+ms.locfileid: "60624230"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Что такое трансляции Microsoft Teams
 
 ## <a name="overview"></a>Обзор
 
-С помощью трансляций Teams пользователи в организации могут транслировать видео и содержимое собрания для больших интернет-аудиторий.
+С помощью трансляций Teams пользователи в организации могут транслировать видео и содержимое собрания для большой аудитории в Интернете.
 
 Трансляции Microsoft 365 выводят потоковое видео на новый уровень. Трансляции поощряют связь с участниками на протяжении всего взаимодействия с участниками до, во время и после трансляций. С помощью Microsoft Stream, Teams или Yammer вы можете создавать трансляции везде, где находится ваша аудитория, команда или сообщество.  
 
