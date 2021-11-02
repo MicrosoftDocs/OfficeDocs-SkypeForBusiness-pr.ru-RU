@@ -743,7 +743,7 @@ items:
                 href: ptsn-mask-phone-numbers.md
           - name: Доступность аудиоконференций в различных странах и регионах
             href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
-          - name: Справочные материалы
+          - name: Справка
             items:
               - name: Поддерживаемые языки аудиоконференций
                 href: audio-conferencing-supported-languages.md
@@ -945,7 +945,7 @@ items:
                     href: direct-routing-connect-the-sbc.md
                   - name: Шаг 2. Включение пользователей
                     href: direct-routing-enable-users.md
-                  - name: Шаг 3. Настройка маршрутизации голосовых вызовов
+                  - name: Шаг 3. Настройка маршрутизации вызовов
                     href: direct-routing-voice-routing.md
                   - name: Шаг 4. Перевод телефонных номеров
                     href: direct-routing-translate-numbers.md
@@ -953,7 +953,7 @@ items:
                     href: direct-routing-sbc-multiple-tenants.md
                   - name: Использование аналоговых устройств при прямой маршрутизации
                     href: direct-routing-analog-devices.md
-                  - name: Управление политиками маршрутизации голосовой связи
+                  - name: Управление политикой маршрутизации вызовов
                     href: manage-voice-routing-policies.md
                   - name: Управление уведомлениями о звонках
                     href: direct-routing-call-notifications.md
@@ -1077,7 +1077,7 @@ items:
                 href: emergency-calling-labels.md
           - name: Управление политиками экстренных вызовов
             href: manage-emergency-calling-policies.md
-          - name: Управление политиками маршрутизации экстренной голосовой связи для прямой маршрутизации
+          - name: Управление политиками маршрутизации экстренных вызовов для прямой маршрутизации
             href: manage-emergency-call-routing-policies.md
       - name: Управление политиками голосовой связи и звонков в Teams
         href: voice-and-calling-policies.md
@@ -1577,7 +1577,7 @@ items:
             href: audio-conferencing-with-direct-routing-for-gcch-and-dod.md
           - name: Пакеты политик Teams для государственных организаций
             href: policy-packages-gov.md
-  - name: Справочные материалы
+  - name: Справка
     items:
       - name: Ограничения и спецификации для Teams
         href: limits-specifications-teams.md
