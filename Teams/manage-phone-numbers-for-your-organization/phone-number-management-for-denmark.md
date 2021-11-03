@@ -18,27 +18,27 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: В этой таблице вы найдете сведения о получении номеров телефонов в Дания для Microsoft Teams и управлении Microsoft Teams.
-ms.openlocfilehash: 815feab42163198b06923c44340532cb62fcb302
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Эта таблица используется для поиска сведений о получении номеров телефонов в Дания и управлении Microsoft Teams.
+ms.openlocfilehash: 1247593b5afe63c5a9808bc168cb44220e62c542
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58610256"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60732710"
 ---
 # <a name="phone-number-management-for-denmark"></a>Телефон управления номерами для Дания
 
-В этой таблице вы найдете сведения о получении номеров телефонов в Дания для Microsoft Teams и управлении Microsoft Teams.
+Эта таблица используется для поиска сведений о получении номеров телефонов в Дания и управлении Microsoft Teams.
   
 Дополнительные сведения см. в статье [Управление номерами телефонов для организации](manage-phone-numbers-for-your-organization.md).
   
 |**Требуемое действие**|**Скачайте подходящие формы и отправьте их нам**|
 |:-----|:-----|
-|Получите новые номера телефонов пользователей и служб, которые не указаны в Microsoft Teams центре администрирования.   <br/> |Скачайте одну из этих форм. <br/>  [Новый номер телефона для Дания (v.5.0) (da-dk)](https://download.microsoft.com/download/a/6/2/a6245856-2c6e-49eb-925c-3dea674228bb/new-phone-number-request-for-denmark-(v.5.0)-(da-dk).pdf) <br/>[Новый номер телефона для Дания (v.5.0) (en-us)](https://download.microsoft.com/download/b/6/3/b63b7107-d933-45b3-a0ec-30efd2973fb9/new-phone-number-request-for-denmark-(v.5.0)-(en-us).pdf)<br/><br/>  Заполните его и обратитесь за инструкциями в службу [поддержки ТССК.](contact-pstn-service-desk.md)
-|Перенаправь нам номера телефонов.  <br/> | Скачайте эту форму. <br/>[Док-досье (LOA) для Дания (все номера) (v.5.0) (da-dk)](https://download.microsoft.com/download/f/6/0/f6040034-6559-4c2c-b847-85c813d7a677/letter-of-authorization-(loa)-for-denmark-(all-numbers)-(v.5.0)-(da-dk).pdf) <br/> <br/>Заполните его и обратитесь за инструкциями в службу [поддержки ТССК.](contact-pstn-service-desk.md) <br/> |
-|Публикация и публикация номеров телефонов в национальном каталоге телефонов.  <br/> |[Чтобы получить инструкции по](contact-pstn-service-desk.md) списку номеров телефонов, которые вы хотите опубликовать или от публикации, обратитесь в службу поддержки ТСЗ.      <br/> |
-|Измените номер пользователя на номер службы.  <br/> |[Чтобы получить инструкции по](contact-pstn-service-desk.md) списку номеров пользователей, которые вы хотите преобразовать в номера служб, обратитесь в службу поддержки ТССК. <br/> |
-|Обновление службы каталогов для номеров очереди вызовов или автозаетаря|Чтобы добавить или изменить номера очереди вызовов или автоотечения, обратитесь за инструкциями в службу [поддержки ПСОП.](contact-pstn-service-desk.md) |
+|Получите новые номера телефонов пользователей и служб, которые не указаны в Microsoft Teams центре администрирования.   <br/> |Скачайте одну из этих форм. <br/>  [Новый номер телефона для Дания (v.5.0) (da-dk)](https://download.microsoft.com/download/a/6/2/a6245856-2c6e-49eb-925c-3dea674228bb/new-phone-number-request-for-denmark-(v.5.0)-(da-dk).pdf) <br/>[Новый номер телефона для Дания (v.5.0) (en-us)](https://download.microsoft.com/download/b/6/3/b63b7107-d933-45b3-a0ec-30efd2973fb9/new-phone-number-request-for-denmark-(v.5.0)-(en-us).pdf)<br/><br/>  Заполните его и [обратитесь за инструкциями в службу TNS Service Desk.](contact-tns-service-desk.md)
+|Перенаправь нам номера телефонов.  <br/> | Скачайте эту форму. <br/>[Док-досье (LOA) для Дания (все номера) (v.5.0) (da-dk)](https://download.microsoft.com/download/f/6/0/f6040034-6559-4c2c-b847-85c813d7a677/letter-of-authorization-(loa)-for-denmark-(all-numbers)-(v.5.0)-(da-dk).pdf) <br/> <br/>Заполните его и [обратитесь за инструкциями в службу TNS Service Desk.](contact-tns-service-desk.md) <br/> |
+|Публикация и публикация номеров телефонов в национальном телефонном каталоге.  <br/> |[Чтобы получить инструкции по](contact-tns-service-desk.md) списку номеров телефонов, которые вы хотите опубликовать или отоблести, обратитесь в службу TNS Service Desk.      <br/> |
+|Измените номер пользователя на номер службы.  <br/> |[Чтобы получить инструкции по](contact-tns-service-desk.md) списку пользовательских номеров, которые вы хотите преобразовать в номера служб, обратитесь в службу TNS Service Desk. <br/> |
+|Обновление службы каталогов для номеров очереди вызовов или автозаетаря|Чтобы добавить или изменить номера очереди вызовов или автозавода, обратитесь за инструкциями в [службу TNS Service Desk.](contact-tns-service-desk.md) |
 
 ## <a name="related-topics"></a>См. также:
 

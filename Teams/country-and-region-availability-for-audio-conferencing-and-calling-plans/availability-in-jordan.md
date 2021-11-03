@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже даны Microsoft 365 и Office 365 службы Skype для бизнеса и Microsoft Teams для Андрея.
-ms.openlocfilehash: 6cb407c2377087d55bf1350d4028c900cc6784b2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Ниже даны Microsoft 365 и Office 365 службы Skype для бизнеса и Microsoft Teams для Заметь.
+ms.openlocfilehash: 7b76169fb05f3ee1d853eea536302e2827d0c071
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598604"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733670"
 ---
 # <a name="availability-in-jordan"></a>Доступность в Иордании
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже даны Microsoft 365 и Office 365 службы Skype для бизнеса и Microsoft Teams для Андрея.
+Ниже даны Microsoft 365 и Office 365 службы Skype для бизнеса и Microsoft Teams для Заметь.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 
@@ -69,8 +69,8 @@ ms.locfileid: "58598604"
 
 |**Функция**|**Сведения**|
 |:-----|:-----|
-|Для каких столиц или крупных городов можно получить платные номера?  <br/> |Амман[(по запросу](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md))  <br/> |
-|Доступны ли платные номера?  <br/> |Да[(по запросу](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md))  <br/> |
+|Для каких столиц или крупных городов можно получить платные номера?  <br/> |Амман[(по запросу](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md))  <br/> |
+|Доступны ли платные номера?  <br/> |Да[(по запросу](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md))  <br/> |
 |Доступны ли бесплатные номера?  <br/> |Нет  <br/> |
    
  Если вы хотите получить платные и бесплатные номера телефонов для аудиоконференций, автосекретарей и очередей звонков, см. статью [Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](../getting-service-phone-numbers.md).

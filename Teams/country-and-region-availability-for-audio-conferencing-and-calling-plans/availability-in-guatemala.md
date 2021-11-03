@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Ниже ются Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Заметь.
-ms.openlocfilehash: 437250e1805515ada7dd1d668d47374456e72f24
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1d99352da922f2fa51850aca41be2fcc022ed1e6
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58610376"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60732701"
 ---
 # <a name="availability-in-guatemala"></a>Доступность в 100%2016
 
@@ -41,7 +41,7 @@ ms.locfileid: "58610376"
 
 |**Функция**|**Сведения**|
 |:-----|:-----|
-|Доступно ли приобретение аудиоконференций?  <br/> |Да. Только с поминутной оплатой.  <br/> |
+|Доступно ли приобретение аудиоконференций?  <br/> |Да. Только оплата за минуту.  <br/> |
 |Номера телефонов автоматически назначаются для аудио конференций?  <br/> | Нет |
 |Возможность получить обратный звонок с функцией "Звонок на мой номер"  <br/> | Требуются кредиты связи <br/> |
 
@@ -69,7 +69,7 @@ ms.locfileid: "58610376"
 |**Функция**|**Сведения**|
 |:-----|:-----|
 |Для каких столиц или крупных городов можно получить платные номера?   | Куидад-де-Сроу<br/> |
-|Доступны ли платные номера?  <br/> |Да[(по запросу](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> Платные номера доступны только в пределах страны.|
+|Доступны ли платные номера?  <br/> |Да[(по запросу](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)) <br/> Платные номера доступны только в пределах страны.|
 |Доступны ли бесплатные номера?  <br/> |Нет  <br/> |
 
  Если вы хотите получить платные и бесплатные номера телефонов для аудиоконференций, автослужб и очередей звонков, см. получение номеров телефонов служб для Skype для бизнеса и [Microsoft Teams.](../getting-service-phone-numbers.md)

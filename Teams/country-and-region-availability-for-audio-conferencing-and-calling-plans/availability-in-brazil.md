@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Ниже ются Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Бразилии.
-ms.openlocfilehash: 68379b9c48ed70f590eb3d57a171a6af9f4042be
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 059876da21906264bc1961785b7cddcdc49dd132
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609046"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60732740"
 ---
 # <a name="availability-in-brazil"></a>Доступность в Бразилии
 
@@ -69,7 +69,7 @@ ms.locfileid: "58609046"
 
 |**Функция**|**Сведения**|
 |:-----|:-----|
-|Для каких столиц или крупных городов можно получить платные номера?  <br/> | <ul><li>Рио-де-Жанейро <li>  Сан-Паулу <li>Другие города [по запросу](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)</ul> |
+|Для каких столиц или крупных городов можно получить платные номера?  <br/> | <ul><li>Рио-де-Жанейро <li>  Сан-Паулу <li>Другие города [по запросу](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)</ul> |
 |Доступны ли платные номера?  <br/> |Да  <br/> |
 |Доступны ли бесплатные номера?  <br/> |Да  <br/> |
    

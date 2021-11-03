@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Вот службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные в России.
-ms.openlocfilehash: cad4334c71a3b704dacdd68845fb565e4cde84db
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ac85b5d1a19716a8f5e8d0b16cd0283b59fa8868
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58626341"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733060"
 ---
 # <a name="availability-in-russia"></a>Наличие в России
 
@@ -69,7 +69,7 @@ ms.locfileid: "58626341"
 
 |**Функция**|**Сведения**|
 |:-----|:-----|
-|Для каких столиц или крупных городов можно получить платные номера?  <br/> |<ul><li>Москва <li>Санкт-Петербург ([по запросу](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md))</ul>|
+|Для каких столиц или крупных городов можно получить платные номера?  <br/> |<ul><li>Москва <li>Санкт-Петербург ([по запросу](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md))</ul>|
 |Доступны ли платные номера?  <br/> |Да  <br/> |
 |Доступны ли бесплатные номера?  <br/> |Нет  <br/> |
    

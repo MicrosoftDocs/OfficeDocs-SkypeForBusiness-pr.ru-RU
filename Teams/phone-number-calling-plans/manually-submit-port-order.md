@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Узнайте, как вручную отправить запрос на перенос.
-ms.openlocfilehash: 2a372ee26b9cb7b52b72c635c90a6e0435b7c729
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+ms.openlocfilehash: 221f35bf300ed9ab33ab3088f18e154ecbecc5e3
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60045875"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733500"
 ---
 # <a name="manually-submit-a-port-order"></a>Отправка заказа на перенос номера вручную
 
@@ -33,22 +33,22 @@ ms.locfileid: "60045875"
 
 ## <a name="manually-submit-a-new-port-order-request"></a>Отправка нового запроса на перенос вручную
 
-Чтобы вручную отправить новый заказ на перенос, отправьте заполненную форму досье (LOA) непосредственно в службу обслуживания ННР вашего региона.
+Чтобы вручную отправить новый заказ на перенос, отправьте заполненную форму досье (LOA) непосредственно в службу TNS для вашего региона.
 
 1. Скачайте [loA](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) для своей страны или региона.
-2. Заполнять форму.
-3. Отправьте его в службу [поддержки ННР](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) для вашего региона.
+2. Заполнив форму.
+3. Отправьте его в [службу TNS для](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) вашего региона.
 
 ## <a name="what-else-should-you-know-about-number-porting"></a>Что еще следует знать о переносе номеров
 
 - Чтобы использовать планы звонков, необходимо приобрести и назначить лицензии пользователям. См. [Teams лицензирования надстройки](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
-- Каждому пользователю необходимо назначить новые номера телефонов. См. [назначение, изменение и удаление номера телефона пользователя.](../assign-change-or-remove-a-phone-number-for-a-user.md)
+- Каждому пользователю необходимо назначить новые номера телефонов. См. [назначение, изменение и удаление номера телефона для пользователя.](../assign-change-or-remove-a-phone-number-for-a-user.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 
 - [Что такое заказ на перенос номера?](port-order-overview.md)
 - [Типы номеров телефонов, используемые в планах звонков](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 - [Управление номерами телефонов организации](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 - [Условия и положения, распространяющиеся на экстренные вызовы](../emergency-calling-terms-and-conditions.md)
-- [Отказ от ответственности для экстренных вызовов](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+- [Заявление об отказе от ответственности экстренных вызовов](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
