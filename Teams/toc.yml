@@ -533,6 +533,8 @@ items:
             href: general-teams-templates-in-the-admin-console.md
           - name: Шаблоны Teams производственной категории
             href: manufacturing-teams-templates-in-the-admin-console.md
+          - name: Шаблоны Teams категории некоммерческих организаций
+            href: team-templates-nonprofit.md
           - name: Управление политиками шаблонов Teams
             href: templates-policies.md
       - name: Работа с людьми из-за пределов организации
@@ -1553,6 +1555,11 @@ items:
             href: flw-realwear.md
           - name: Walkie Talkie
             href: walkie-talkie.md
+      - name: Teams для некоммерческих организаций
+        href: expand-teams-across-your-org/teams-for-nonprofit-landing-page.md
+        items:
+          - name: Использование шаблонов команд для некоммерческих организаций
+            href: team-templates-nonprofit.md
       - name: Teams для розничной торговли
         href: expand-teams-across-your-org/teams-for-retail-landing-page.md
         items:
