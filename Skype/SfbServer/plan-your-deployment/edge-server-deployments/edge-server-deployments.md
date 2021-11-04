@@ -1,7 +1,7 @@
 ---
 title: Планирование развертывания edge Server в Skype для бизнеса Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 9cdc3e23-3f6a-4e4d-9e04-f038596b6700
 description: Сводка. Планирование среды Skype для бизнеса Server Edge. В этом разделе вы познакомимся с понятиями Edge и сможете организоваться с помощью более глубоких разделов.
-ms.openlocfilehash: 9acdb42e4ebc46fd6597ab047ee523b0ff309fb5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ad92c0d61381595ac2274bf52aa108efe5703a90
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58602464"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60746865"
 ---
 # <a name="plan-for-edge-server-deployments-in-skype-for-business-server"></a>Планирование развертывания edge Server в Skype для бизнеса Server
  

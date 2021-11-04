@@ -1,7 +1,7 @@
 ---
 title: Таблица ConferenceSessionDetails в Skype для бизнеса Server 2015 г.
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 7/15/2015
@@ -13,18 +13,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 9eae6a54-69fd-4966-aa17-7ecee1297ad8
 description: Каждая запись представляет один сеанс конференц-связи, который может быть сеансом с фокусом или сеансом с определенным сервером конференц-связи.
-ms.openlocfilehash: e64f1d93714a89c8140d4e8f55d6aab8076ed88c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 087dd056dae0041ab63934b25038672a74410343
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58615555"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60759451"
 ---
 # <a name="conferencesessiondetails-table-in-skype-for-business-server-2015"></a>Таблица ConferenceSessionDetails в Skype для бизнеса Server 2015 г.
  
 Каждая запись представляет один сеанс конференц-связи, который может быть сеансом с фокусом или сеансом с определенным сервером конференц-связи.
   
-|**Столбец**|**Тип данных**|**Key/Index**|**Details**|
+|**Столбец**|**Тип данных**|**Key/Index**|**Сведения**|
 |:-----|:-----|:-----|:-----|
 |**SessionIdTime** <br/> |Datetime  <br/> |Первичный, внешний  <br/> |Время запроса сеанса; используется вместе с **SessionIdSeq** для уникальной идентификации сеанса конференц-связи. Дополнительные сведения см. в таблице [Диалоги Skype для бизнеса Server 2015](dialogs.md) г. <br/> |
 |**SessionIdSeq** <br/> |int  <br/> |Основной, внешний  <br/> |Идентификатор для идентификации сеанса. Используется совместно с **SessionIdTime** для уникальной идентификации сеанса конференции. Дополнительные сведения см. в таблице [Диалоги Skype для бизнеса Server 2015](dialogs.md) г. * <br/> |

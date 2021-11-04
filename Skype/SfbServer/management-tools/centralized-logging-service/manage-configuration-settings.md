@@ -1,7 +1,7 @@
 ---
 title: Управление настройками централизованной службы ведения журнала в Skype для бизнеса Server 2015 г.
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 8/17/2015
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 93b9a354-9aea-4b3a-a4fe-68a89f436196
 description: Сводка. Сведения о том, как получить, обновить и создать параметры конфигурации для централизированной службы ведения журнала в Skype для бизнеса Server 2015 г.
-ms.openlocfilehash: 8b2809fd9b91859d0e32e9dfaf0ddb8cbebe7a53
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a6225af25abc2db0375e7ca93ae22c342a1ec498
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58628601"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60778169"
 ---
 # <a name="manage-centralized-logging-service-configuration-settings-in-skype-for-business-server-2015"></a>Управление настройками централизованной службы ведения журнала в Skype для бизнеса Server 2015 г.
 
@@ -44,7 +44,7 @@ ms.locfileid: "58628601"
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "<Skype for Business cmdlet>"}
 ```
 
-Например,
+Например:
 
 ```PowerShell
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}

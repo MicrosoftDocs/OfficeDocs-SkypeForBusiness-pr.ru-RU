@@ -1,7 +1,7 @@
 ---
 title: Экспорт архивных данных в Skype для бизнеса Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 8214bb0a-baa7-414f-9eee-313b65223fa3
 description: Сводка. Узнайте, как экспортировать архивные данные для Skype для бизнеса Server.
-ms.openlocfilehash: 00960625baaeacc74d0e802c7037e2ad3ca24671
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e78ec210e993a11bf0ae17d4e41270602d2bf24a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58632903"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740655"
 ---
 # <a name="export-archived-data-in-skype-for-business-server"></a>Экспорт архивных данных в Skype для бизнеса Server
 
@@ -37,7 +37,7 @@ ms.locfileid: "58632903"
 Export-CsArchivingData -Identity "ArchivingDatabase:atl-sql-001.contoso.com" -StartDate 6/1/2012 -OutputFolder "C:\ArchivingExports"
 ```
 
-Следующая команда экспортирует данные архива для одного пользователя: kenmyer@contoso.com. Это делается путем включив параметр UserUri, за которым следует SIP-адрес пользователя. Например, 
+Следующая команда экспортирует данные архива для одного пользователя: kenmyer@contoso.com. Это делается путем включив параметр UserUri, за которым следует SIP-адрес пользователя. Например: 
   
 ```PowerShell
 Export-CsArchivingData -Identity "ArchivingDatabase:atl-sql-001.contoso.com" -StartDate 6/1/2012 -OutputFolder "C:\ArchivingExports" -UserUri "sip:kenmyer@contoso.com"

@@ -1,7 +1,7 @@
 ---
 title: Службы домена Active Directory для Skype для бизнеса Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 5483afd5-d8af-4825-ae95-a82dbe941dbf
 description: Служба доменов Active Directory выполняет функции службы каталогов для сетей Windows Server 2003, Windows Server 2008, Windows Server 2012 и Windows Server 2012 R2. Службы домена Active Directory также служат основой для Skype для бизнеса Server инфраструктуры безопасности. В этом разделе описывается, как Skype для бизнеса Server службы домена Active Directory для создания надежной среды для чата, веб-конференций, мультимедиа и голосовой связи. Дополнительные сведения о подготовке среды для служб домена Active Directory см. в Skype для бизнеса Server в документации по развертыванию. Сведения о роли служб домена Active Directory в сетях Windows Server см. в документации по используемой версии операционной системы.
-ms.openlocfilehash: 4af4e4b4dd7a64dd133d36a55ca1c334a12fe97e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 496abf7f0210a1663c1158da56c8fb1cce66f068
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604658"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60759471"
 ---
 # <a name="active-directory-domain-services-for-skype-for-business-server"></a>Службы домена Active Directory для Skype для бизнеса Server
  
@@ -101,7 +101,7 @@ Skype для бизнеса Server службы домена Active Directory д
     
 Если один из этих критериев отсутствует, серверу не доверяют, и подключение к ним отказано. Это двойное требование предотвращает возможную, если маловероятно, атаку, в которой сервер-изгой пытается взять на себя FQDN допустимый сервер.
   
-Кроме того, чтобы Microsoft Office communications Server 2007 R2 и Microsoft Office Communications Server 2007 для связи с серверами Skype для бизнеса Server, Skype для бизнеса Server создает контейнеры во время подготовки леса для хранения списков доверенных серверов для предыдущих выпусков. В следующей таблице описываются контейнеры, созданные для обеспечения совместимости с предыдущими развертываниями.
+Кроме того, чтобы Microsoft Office серверов связи 2007 R2 и Microsoft Office Communications Server 2007 для связи с Skype для бизнеса Server серверами, Skype для бизнеса Server создает контейнеры в лесу подготовка к проведению списков доверенных серверов для предыдущих выпусков. В следующей таблице описываются контейнеры, созданные для обеспечения совместимости с предыдущими развертываниями.
   
 **Списки доверенных серверов и их контейнеры Active Directory для совместимости с предыдущими выпусками**
 

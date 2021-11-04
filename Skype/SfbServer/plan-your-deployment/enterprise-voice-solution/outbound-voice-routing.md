@@ -1,7 +1,7 @@
 ---
 title: Планирование маршрутивки исходящие голосовой почты в Skype для бизнеса Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fde45195-6eb4-403c-9094-57df7fc0bd2a
 description: Узнайте о маршрутизации исходящие голоса в Skype для бизнеса Server Корпоративная голосовая связь, включая параметры маршрутизации вызовов, планы набора голосовых номеров, правила нормализации, политики голосовой поддержки, записи использования PSTN и маршруты голосовой почты.
-ms.openlocfilehash: 233556993c5feb3eac9a6b773161a2491361e35e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 47b0b196579d69612c3c9d62c8ca9aade008535e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593553"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60759511"
 ---
 # <a name="plan-for-outbound-voice-routing-in-skype-for-business-server"></a>Планирование маршрутивки исходящие голосовой почты в Skype для бизнеса Server
  

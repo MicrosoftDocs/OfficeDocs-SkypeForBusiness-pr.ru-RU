@@ -1,7 +1,7 @@
 ---
 title: Edge Network (Средство планирования)
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 ms.assetid: d7f85abf-2045-4b08-ba29-c6211a3f6ff6
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Большинство пограничных компонентов развертывается в сети периметра. Следующие компоненты составляют топологию edge сети периметра. Кроме отмеченных, компоненты являются частью сценариев Edge Server в Skype для бизнеса Server и находятся в сети периметра. К пограничным компонентам относятся следующие:'
-ms.openlocfilehash: dd53b8526ffa2610ad279584464ba3b77e155b34
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d216b76e88eb4e7e7499315a0ec33db1f1761767
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58583013"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60752558"
 ---
 # <a name="edge-network-planning-tool-in-skype-for-business"></a>Edge Network (Средство планирования) в Skype для бизнеса 
  
@@ -37,7 +37,7 @@ ms.locfileid: "58583013"
     
 - Балансировка нагрузки для масштабируемых пограничных топологий (балансировка нагрузки DNS или подсистема аппаратной балансировки нагрузки)
     
-## <a name="see-also"></a>Дополнительные материалы
+## <a name="see-also"></a>См. также
 
 [Планирование развертывания edge Server в Skype для бизнеса Server](../../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md)
   

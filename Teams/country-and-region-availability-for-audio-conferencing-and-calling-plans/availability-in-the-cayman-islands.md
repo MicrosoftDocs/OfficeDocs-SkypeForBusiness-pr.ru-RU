@@ -1,7 +1,7 @@
 ---
 title: Доступность на Каймановых островах
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже ются Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams на Каймановых островах.
-ms.openlocfilehash: 3e2212c62281858b8325bd9196c86fe7662c8b74
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Ниже находятся Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams на Каймановых островах.
+ms.openlocfilehash: e4c3b83d0ba8079cd224319341db136fd4a0761e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58603448"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741715"
 ---
 # <a name="availability-in-the-cayman-islands"></a>Доступность на Каймановых островах
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже ются Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams на Каймановых островах.
+Ниже находятся Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams на Каймановых островах.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 

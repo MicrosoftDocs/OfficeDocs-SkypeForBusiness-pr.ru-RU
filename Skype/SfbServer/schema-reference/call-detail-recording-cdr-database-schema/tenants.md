@@ -1,7 +1,7 @@
 ---
 title: Таблица "Клиенты"
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c1b070c1-2c59-4ca9-910b-43f673f97fda
 description: Таблица клиентов является вспомогательной таблицей, в которой хранится список различных клиентов. Каждая запись в таблице представляет одного клиента.
-ms.openlocfilehash: 2705b44830efef4a8f921bf9ccc9c7b8e49f72ec
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6cb4c5edbf2751e06012628be48690c46592ca9a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58583793"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60759411"
 ---
 # <a name="tenants-table"></a>Таблица "Клиенты"
  
@@ -27,7 +27,7 @@ ms.locfileid: "58583793"
 > [!NOTE]
 > В локальном развертывании CDR использует встроенный ИД клиента, чтобы показать различные типы проверки подлинности, такие как общедоступное подключение для обмена мгновенными сообщениями, федеративное подключение или анонимное подключение. 
   
-|**Столбец**|**Тип данных**|**Key/Index**|**Details**|
+|**Столбец**|**Тип данных**|**Key/Index**|**Сведения**|
 |:-----|:-----|:-----|:-----|
 |**TenantId** <br/> |int  <br/> |Primary  <br/> |Уникальное число, определяющее ИД клиента.  <br/> |
 |**TenantKey** <br/> |nvarchar (256)  <br/> || Допустимые значения: <br/>  00000000-0000-0000-00000000000000000000 Enterprise <br/>  00000000-0000-0000-000000000001 — Federated <br/>  00000000-0000-0000-00000000000002 — Anonymous <br/>  00000000-0000-0000-000000000000003 — подключение к общедоступным мгновенным чатам <br/> |

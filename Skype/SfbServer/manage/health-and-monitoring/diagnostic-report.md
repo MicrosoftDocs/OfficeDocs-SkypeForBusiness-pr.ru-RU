@@ -1,7 +1,7 @@
 ---
 title: Диагностический отчет в Skype для бизнеса Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b389dbd9-f2e8-4184-93d0-2e504796ac16
 description: Сводка. Сведения о диагностическом отчете в Skype для бизнеса Server.
-ms.openlocfilehash: dde192aa90cc0a9cd5b1d05fbe2852d1277a6953
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 84274659a45d33a144324334cec8b9f1b25c471b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58590153"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740635"
 ---
 # <a name="diagnostic-report-in-skype-for-business-server"></a>Диагностический отчет в Skype для бизнеса Server
  
@@ -45,7 +45,7 @@ ms.locfileid: "58590153"
   
 **Показатели отчета Diagnostic Report (Диагностический отчет)**
 
-|**Название**|**Возможность сортировки по этому показателю**|**Описание**|
+|**Имя**|**Возможность сортировки по этому показателю**|**Описание**|
 |:-----|:-----|:-----|
 |**Reported time** (Время создания отчета) <br/> |Нет  <br/> |Дата и время создания отчета.  <br/> |
 |**Response code** (Код ответа) <br/> |Нет  <br/> |Код ответа SIP, отправленный при сбое сеанса.  <br/> |

@@ -1,7 +1,7 @@
 ---
 title: Развертывание диспетчера статистики в Skype для бизнеса Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 37b2bb9c-c5d4-4fb0-a976-670b7594b82f
 description: Сводка. Ознакомьтесь с этой темой, чтобы узнать, как развернуть диспетчер статистики для Skype для бизнеса Server.
-ms.openlocfilehash: 966d6aa71eff93f616ae0eb1a7443aebab600016
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6444f89f43ea4951e186af589f5986e5a3e7bc9e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58612098"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60778159"
 ---
 # <a name="deploy-statistics-manager-for-skype-for-business-server"></a>Развертывание диспетчера статистики в Skype для бизнеса Server
  
@@ -170,7 +170,7 @@ ms.locfileid: "58612098"
     
 3. Нажмите **Установить**.
     
-Если вы устанавливаете агент на многочисленных машинах, вы, вероятно, захотите сделать это в без присмотра режиме. Например, 
+Если вы устанавливаете агент на многочисленных машинах, вы, вероятно, захотите сделать это в без присмотра режиме. Например: 
   
 ```console
 msiexec /l install.log /i StatsManPerfAgent.msi SERVICE_THUMBPRINT=<thumbprint> SERVICE_PASSWORD=<password> SERVICE_URI=https://<hostname>:<servicePort>/[INSTALLDIR=<directory>][DIR_  STATSMANAPPDATA=<directory>]
@@ -185,18 +185,18 @@ msiexec /l install.log /i StatsManPerfAgent.msi SERVICE_THUMBPRINT=<thumbprint> 
   
 1. На хосте с Skype для бизнеса Server PowerShell:
     
-    а. Выполните следующую команду: 
+    А. Выполните следующую команду: 
     
    ```PowerShell
    Get-CsPool | Export-Clixml -Path mypoolinfo.xml
    ```
-    б. Скопируйте файл "mypoolinfo.xml" на сервер, на который выполняется прослушиватель.
+    Б. Скопируйте файл "mypoolinfo.xml" на сервер, на который выполняется прослушиватель.
     
 2. На хосте, который запускает прослушиватель:
     
-   а. Запустите PowerShell.
+   А. Запустите PowerShell.
     
-   б. Перейдите к каталогу, в котором установлен прослушиватель. По умолчанию: 
+   Б. Перейдите к каталогу, в котором установлен прослушиватель. По умолчанию: 
     
    ```console
    cd C:\Program Files\Skype for Business Server StatsMan Listener

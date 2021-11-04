@@ -1,7 +1,7 @@
 ---
 title: Доступность в Гуаме
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже ются Microsoft 365 и Office 365 службы для Skype для бизнеса и Microsoft Teams для Гуама.
-ms.openlocfilehash: d4c4721003bbd21a1056143cf6a37a654a6c7886
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Ниже ются Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Гуама.
+ms.openlocfilehash: 78f3b64cd7311ceee0f680c5edc6703f9c2d9b29
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58610386"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60759321"
 ---
 # <a name="availability-in-guam"></a>Доступность в Гуаме
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже ются Microsoft 365 и Office 365 службы для Skype для бизнеса и Microsoft Teams для Гуама.
+Ниже ются Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Гуама.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 

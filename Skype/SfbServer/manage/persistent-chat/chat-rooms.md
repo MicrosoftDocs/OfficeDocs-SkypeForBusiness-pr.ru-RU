@@ -1,7 +1,7 @@
 ---
 title: Управление комнатами чатов в persistent Chat Server в Skype для бизнеса Server 2015 г.
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 1/31/2018
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 7b2e1302-280c-4efe-9ec8-787687b414da
 description: Сводка. Узнайте, как управлять комнатами чата сохраняемой чат-сервера в Skype для бизнеса Server 2015 г.
-ms.openlocfilehash: 928fef65d63165721957ca0622b959860d82704e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5eb69b3f852ce8e093947cdd04cc00b6bfdc19e3
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630573"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60746885"
 ---
 # <a name="manage-chat-rooms-in-persistent-chat-server-in-skype-for-business-server-2015"></a>Управление комнатами чатов в persistent Chat Server в Skype для бизнеса Server 2015 г.
  

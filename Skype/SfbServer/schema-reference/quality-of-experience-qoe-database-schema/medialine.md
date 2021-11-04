@@ -1,7 +1,7 @@
 ---
 title: Представление MediaLine
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 132eca13-8913-4218-9eff-4960ced8c3dc
 description: В Представлении MediaLine хранится информация о каждой строке мультимедиа в базе данных. Один сеанс аудио обычно содержит одну строку мультимедиа. Один сеанс аудио- и видео (A/V) обычно содержит одну аудио-медиа-линию и одну линию мультимедиа; однако сеанс может содержать две линии мультимедиа видео, если используется устройство для конференций или используется Представление галереи. Это представление было представлено в Microsoft Lync Server 2013.
-ms.openlocfilehash: 778e322f737a80c71a046073611c234071e3f24b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2a8f5ad413bb127e20d82927d804379b5e981636
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58582573"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60771875"
 ---
 # <a name="medialine-view"></a>Представление MediaLine
  

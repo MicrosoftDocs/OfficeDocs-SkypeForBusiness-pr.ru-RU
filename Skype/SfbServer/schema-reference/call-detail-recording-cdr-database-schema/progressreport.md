@@ -1,7 +1,7 @@
 ---
 title: Таблица ProgressReport
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 10/20/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 38e5f060-5e9b-4185-87b2-7ef61c4bb75f
 description: Отчеты о ходе выполнения строятся на основе данных, отправляемых клиентом в базу данных после завершения вызова или сеанса. Отчеты о ходе работы будут писаться только для звонков и сеансов, которые Skype для бизнеса Server 2015 г. могут быть полезны для диагностических целей.
-ms.openlocfilehash: 2c744cbf3755118a6d6fbee4837363e80b00ae44
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 666320d64e319816666404dff3afd4f27b7413f4
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58623531"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740285"
 ---
 # <a name="progressreport-table"></a>Таблица ProgressReport
  
@@ -26,7 +26,7 @@ ms.locfileid: "58623531"
   
 Поля ErrorTime, ErrorReportSeq и ProgressReportSeq ссылаются не на ошибки, а на сообщения, которые указывают состояние вызовов или сообщений.
   
-|**Столбец**|**Тип данных**|**Key/Index**|**Details**|
+|**Столбец**|**Тип данных**|**Key/Index**|**Сведения**|
 |:-----|:-----|:-----|:-----|
 |**ErrorTime** <br/> |datetime  <br/> |Первичный, внешний  <br/> |Дата и время отчета об ошибках хода выполнения, который содержит этот отчет о ходе выполнения. Дополнительные сведения см. в таблице [ErrorReport Skype для бизнеса Server 2015](errorreport.md) г. <br/> |
 |**ErrorId** <br/> |int  <br/> |Первичный, внешний  <br/> |Идентификатор, используемый вместе с ErrorTime и ProgressReportSeq для однозначного определения отчета о ходе выполнения. Дополнительные сведения см. в таблице [ErrorReport Skype для бизнеса Server 2015](errorreport.md) г. <br/> |

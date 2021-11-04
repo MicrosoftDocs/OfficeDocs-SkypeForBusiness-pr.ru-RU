@@ -1,7 +1,7 @@
 ---
 title: Обновление диспетчера статистики в Skype для бизнеса Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 71f5d0a0-ca81-4ac1-b590-8f854504f21f
 description: Сводка. Ознакомьтесь с этой темой, чтобы узнать, как обновить диспетчер статистики для Skype для бизнеса Server.
-ms.openlocfilehash: caa2a5f7576a046c990315b638e618a379dd039e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2196f07d25fb761055df4432f0c2fd930368474d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58611988"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60772005"
 ---
 # <a name="upgrade-statistics-manager-for-skype-for-business-server"></a>Обновление диспетчера статистики в Skype для бизнеса Server
  
@@ -34,7 +34,7 @@ ms.locfileid: "58611988"
     
 - **Ручное обновление.** Этот метод предоставляется в качестве резервного плана в необычном случае сбой автоматического обновления.
     
-## <a name="prerequisites"></a>Необходимые условия
+## <a name="prerequisites"></a>Предварительные требования
 
 Перед обновлением убедитесь, что у вас есть следующие сведения:
   

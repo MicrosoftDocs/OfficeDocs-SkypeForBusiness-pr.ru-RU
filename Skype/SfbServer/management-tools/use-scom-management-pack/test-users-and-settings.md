@@ -1,7 +1,7 @@
 ---
 title: Настройка тестовых пользователей и параметров узлов просмотра
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/13/2018
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ab2e0d93-cf52-4a4e-b5a4-fd545df7a1a9
 description: Настройка тестовых учетных записей пользователей и параметров узлов просмотра для Skype для бизнеса Server транзакций.
-ms.openlocfilehash: 7e7c318f6e9176c46a7dbbab6c8d1833f74911e9
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d80e939132c609f9ed6f505a4f759f3fc2c46e07
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58599944"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60759651"
 ---
 # <a name="how-to-configure-watcher-node-test-users-and-settings"></a>Настройка тестовых пользователей и параметров узлов просмотра
  
@@ -361,7 +361,7 @@ Test-CsUnifiedContactStore -TargetFqdn pool0.contoso.com -UserSipAddress sip:tes
 
 Синтетическая транзакция по синтетическому протоколу обмена сообщениями и присутствия (XMPP) требует настройки функции XMPP с одним или более федерационными доменами.
   
-Чтобы включить синтетическую транзакцию XMPP, необходимо предоставить параметр XmppTestReceiverMailAddress с учетной записью пользователя в маршрутивом домене XMPP. Например,
+Чтобы включить синтетическую транзакцию XMPP, необходимо предоставить параметр XmppTestReceiverMailAddress с учетной записью пользователя в маршрутивом домене XMPP. Например:
   
 ```PowerShell
 Set-CsWatcherNodeConfiguration -Identity pool0.contoso.com -Tests @{Add="XmppIM"} -XmppTestReceiverMailAddress user1@litwareinc.com

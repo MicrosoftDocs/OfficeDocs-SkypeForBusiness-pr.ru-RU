@@ -1,6 +1,6 @@
 ---
 title: Планирование клиентского Skype для бизнеса 2015 г. для пользователей
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 ms.reviewer: PhillipGarding
 manager: serdars
@@ -17,16 +17,16 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0df4fd9e-370b-4b9d-a595-f1199fbc9f81
 description: Сводка. Сведения о новых Skype для бизнеса и действиях, которые можно предпринять для подготовки среды и пользователей к обновлению, независимо от того, используете ли вы Skype для бизнеса Online, Skype для бизнеса Server 2019, Skype для бизнеса Server 2015, Lync Server 2013 или Lync Server 2010.
-ms.openlocfilehash: b9ead36cb38c41376c80a85f1356e24e78b51eb7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a35a447d9810952e9aac149f2297eda87575bdf3
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58586871"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740465"
 ---
 # <a name="plan-the-skype-for-business-2015-client-experience-for-your-users"></a>Планирование клиентского Skype для бизнеса 2015 г. для пользователей
  
-**Сводка:** Узнайте о новых Skype для бизнеса и действиях, которые можно предпринять для подготовки среды и пользователей к обновлению, используете ли вы Skype для бизнеса Online, Skype для бизнеса Server 2019, Skype для бизнеса Server 2015, Lync Server 2013 или Lync Server 2010.
+**Сводка:** Узнайте о новых Skype для бизнеса и действиях, которые можно предпринять для подготовки среды и пользователей к обновлению, используете ли вы Skype для бизнеса Online, Skype для бизнеса Server 2019, Skype для бизнеса Server 2015, Lync Server 2013 или Lync  Server 2010.
   
 14 апреля 2015 Office обновления для Lync 2013 включает новый интерфейс Skype для бизнеса пользователя. Это обновление позволяет администраторам управлять внешний вид клиента и выбирать, сохранять ли клиентский опыт Lync 2013 или использовать улучшенную Skype для бизнеса клиентскую Skype для бизнеса. Клиент Skype для бизнеса фактически заменил клиент Lync 2013 и добавил администраторам возможность выбора между существующим клиентом Lync и новым Skype для бизнеса клиентом. Сведения об этом обновлении см. в обновлениях от 14 апреля 2015 г. для [Lync 2013 (Skype для бизнеса) (KB2889923).](https://support.microsoft.com/kb/2889923/)
   
@@ -67,7 +67,7 @@ ms.locfileid: "58586871"
   
 |**Развертывание**|**Skype для бизнеса клиента**|**Клиентский опыт Lync**|
 |:-----|:-----|:-----|
-|Skype для Бизнеса Онлайн  <br/> |Нет дополнительных действий, кроме развертывания клиентской сборки 4711.1002 (апрель 2015 г.) или более поздней.  <br/> |[Использование клиентского опыта Lync с Skype для бизнеса Online](user-experience.md#LyncwithSfBO) <br/> |
+|Skype для бизнеса Online  <br/> |Нет дополнительных действий, кроме развертывания клиентской сборки 4711.1002 (апрель 2015 г.) или более поздней.  <br/> |[Использование клиентского опыта Lync с Skype для бизнеса Online](user-experience.md#LyncwithSfBO) <br/> |
 |Skype для бизнеса Server 2015  <br/> |Нет дополнительных действий, кроме развертывания клиентской сборки 4711.1002 (апрель 2015 г.) или более поздней.  <br/> |[Использование клиентского опыта Lync с Skype для бизнеса Server локальной](user-experience.md#LyncwithSfBServer) <br/> |
 |Lync Server 2013 и Lync Server 2010  <br/> |[Используйте Skype с локальной помощью Lync Server 2013 или Lync Server 2010](user-experience.md#SkypewithLynconprem) <br/> |[Использование клиентской работы Lync с локальной помощью Lync Server 2013 или Lync Server 2010](user-experience.md#LyncwithLynconprem) <br/> |
    

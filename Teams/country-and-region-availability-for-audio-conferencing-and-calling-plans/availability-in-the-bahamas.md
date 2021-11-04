@@ -1,7 +1,7 @@
 ---
 title: Доступность в Багамах
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Ниже ются Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams багам.
-ms.openlocfilehash: ec62268d9acb8498c230e2ce65b1077c9f7a1ffb
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a568158ac60c3bbb30e14abbfda0401553c9b821
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618535"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741725"
 ---
 # <a name="availability-in-the-bahamas"></a>Доступность в Багамах
 

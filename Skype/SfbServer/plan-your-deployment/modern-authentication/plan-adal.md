@@ -1,7 +1,7 @@
 ---
 title: Планирование современной проверки подлинности (ADAL) с помощью Skype для бизнеса
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: В этой статье объясняется, что такое современная проверка подлинности (основанная на библиотеке проверки подлинности Active Directory (ADAL) и OAuth 2.0.
-ms.openlocfilehash: 29bbe33754b2363e84f449115bd51396ad9af932
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: af2ab64b2719348f2c1bb860ae560ea79509921f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58614019"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60759501"
 ---
 # <a name="how-to-use-modern-authentication-adal-with-skype-for-business"></a>Использование современной проверки подлинности (ADAL) с помощью Skype для бизнеса
  

@@ -1,7 +1,7 @@
 ---
 title: Представление FocusJoinsAndLeaves
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,18 +13,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 226460ef-766f-4d61-80cb-f332b65a210d
 description: В представлении FocusJoinsAndLeaves хранятся данные о подключении и отключении от отдельной конференции. Каждая конференции продемонстрирована на этом представлении отдельной записью, которая создается при каждом подключении и отключении пользователя от этой конференции. Это представление было представлено в Microsoft Lync Server 2013.
-ms.openlocfilehash: 102e520c9bfdb9988061db64dec621a8683b1b5e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6195558ec7a59e9e7605db4b56f761aec374f831
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58628561"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740305"
 ---
 # <a name="focusjoinsandleaves-view"></a>Представление FocusJoinsAndLeaves
  
 В представлении FocusJoinsAndLeaves хранятся данные о подключении и отключении от отдельной конференции. Каждая конференции продемонстрирована на этом представлении отдельной записью, которая создается при каждом подключении и отключении пользователя от этой конференции. Это представление было представлено в Microsoft Lync Server 2013.
   
-|**Столбец**|**Тип данных**|**Details**|
+|**Столбец**|**Тип данных**|**Сведения**|
 |:-----|:-----|:-----|
 |**SessionIdTime** <br/> |datetime  <br/> |Время экземпляра конференции. Используется вместе с параметром SessionIdSeq для уникального определения экземпляра конференции. Дополнительные сведения см. в таблице [конференций Skype для бизнеса Server 2015](conferences.md) г. <br/> |
 |**SessionIdSeq** <br/> |int  <br/> |Идентификатор для определения экземпляра конференции. Используется вместе с параметром SessionIdTime для уникального определения экземпляра конференции. Дополнительные сведения см. в таблице [конференций Skype для бизнеса Server 2015](conferences.md) г. <br/> |

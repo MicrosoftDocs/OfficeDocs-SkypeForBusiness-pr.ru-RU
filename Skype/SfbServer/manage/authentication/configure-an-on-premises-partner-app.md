@@ -1,7 +1,7 @@
 ---
 title: Настройка локального партнерского приложения для Skype для бизнеса Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 696f2b26-e5d0-42b5-9785-a26c2ce25bb7
 description: Сводка. Настройка локального партнерского приложения для Skype для бизнеса Server.
-ms.openlocfilehash: d0907d73d6a23c0a5b9a1f1725503b72c5bce993
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 65e5d32787b13043d30b6cb03a7d9cdbc047c46a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60012623"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60772125"
 ---
 # <a name="configure-an-on-premises-partner-application-for-skype-for-business-server"></a>Настройка локального партнерского приложения для Skype для бизнеса Server
  
@@ -88,7 +88,7 @@ Set-CsOAuthConfiguration -ServiceName 00000004-0000-0ff1-ce00-000000000000
 Set-CsOAuthConfiguration -ServiceName 00000004-0000-0ff1-ce00-000000000000 -Realm "contoso.com"
 ```
 
-После внесения этих изменений можно выполнить сценарий и настроить Exchange 2013 и SharePoint как партнерские приложения, запуская файл скрипта из Skype для бизнеса Server оболочки управления. Например.
+После внесения этих изменений можно выполнить сценарий и настроить Exchange 2013 и SharePoint как партнерские приложения, запуская файл скрипта из Skype для бизнеса Server оболочки управления. Например:
   
 ```PowerShell
 C:\Scripts\ServerToServerAuth.ps1

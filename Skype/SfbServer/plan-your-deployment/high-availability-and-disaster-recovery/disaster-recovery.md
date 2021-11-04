@@ -1,7 +1,7 @@
 ---
 title: Восстановление аварийного восстановления пула переднего Skype для бизнеса Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 142caf34-0f20-47f3-9d32-ce25ab622fad
 description: Для аварийного восстановления Skype для бизнеса Server пула в случае сбойной работы одного пула.
-ms.openlocfilehash: b6a2c33c123f70850335ce55aba06071ff4104eb
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 6559b5af285027d9f1cb6ea3682304dedbbb4165
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728838"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740435"
 ---
 # <a name="front-end-pool-disaster-recovery-in-skype-for-business-server"></a>Восстановление аварийного восстановления пула переднего Skype для бизнеса Server
  

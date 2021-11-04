@@ -2,7 +2,7 @@
 title: Настройка и мониторинг службы резервного копирования
 ms.reviewer: ''
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Для настройки и мониторинга службы резервного копирования можно использовать Skype для бизнеса Server команд командной оболочки управления.
-ms.openlocfilehash: df0e7d985e9941e4af41a4cec5456774e5a3a4dd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f50f8ab13c2013505beace71f7e35cbc7674777c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58612298"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60747047"
 ---
 # <a name="configuring-and-monitoring-the-backup-service-in-skype-for-business-server"></a>Настройка и мониторинг службы резервного копирования в Skype для бизнеса Server
 

@@ -1,7 +1,7 @@
 ---
 title: Распространенные угрозы безопасности в современных вычислениях
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/22/2016
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 56d22197-e8e2-46b8-b3a3-507bd663700e
 description: Поскольку Skype для бизнеса Server является системой связи корпоративного класса, следует помнить о распространенных атаках безопасности, которые могут повлиять на ее инфраструктуру и коммуникации.
-ms.openlocfilehash: 04fa1eb040c1e208781d862da0bd92bc68a77dbd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: dcc889ea43c06c2f8166d588b8d7e5eb7075b52c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58629517"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741925"
 ---
 # <a name="common-security-threats-in-modern-day-computing"></a>Распространенные угрозы безопасности в современных вычислениях
  

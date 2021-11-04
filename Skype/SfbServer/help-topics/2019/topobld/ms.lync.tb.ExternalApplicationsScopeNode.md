@@ -1,7 +1,7 @@
 ---
 title: Внешний узел области применения приложений
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 73b422d6-1582-4a76-aceb-690004fa02a3
 ROBOTS: NOINDEX, NOFOLLOW
 description: Узел Серверы доверенных приложений отображает пулы доверенных приложений в этом сайте. Доверенные пулы приложений содержат серверы, которые запускают доверенные приложения Microsoft Unified Communications, но не запускают Skype для бизнеса Server ролей. Здесь можно выполнить следующее действие.
-ms.openlocfilehash: f1324f73db7f102206177aaa74dddc02a1f69bbf
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 04dba3c585e53b9a26c179266a9685e0db70ea31
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58606448"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60738195"
 ---
 # <a name="external-applications-scope-node"></a>Узел области внешних приложений
  

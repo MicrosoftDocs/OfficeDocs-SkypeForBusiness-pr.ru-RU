@@ -1,7 +1,7 @@
 ---
 title: Добавление пула A/V MCU
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: e201875e-1e81-4756-942f-c17d177e997b
 description: Все серверы переднего плана Enterprise Edition центрального сайта, для которых не предусмотрена совместная служба аудио- и видеоконференций, могут использовать один и тот же отдельный пул аудио- и видеоконференций. Для каждого пула аудио- и видеоконференций необходимо указать его полное доменное имя и количество используемых серверов аудио- и видеоконференций (один сервер или несколько серверов с балансировкой нагрузки).
-ms.openlocfilehash: 212b9294a1e1d3578652e595cccb72088d859685
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5419e3ca77eed71fc8e0bae05839e24e8c585217
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58628111"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60772295"
 ---
 # <a name="add-av-mcu-pool"></a>Добавление пула A/V MCU
  
