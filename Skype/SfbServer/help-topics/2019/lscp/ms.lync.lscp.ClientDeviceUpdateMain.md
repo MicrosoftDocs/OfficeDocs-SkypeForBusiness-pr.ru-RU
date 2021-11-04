@@ -1,7 +1,7 @@
 ---
 title: Обновление устройств
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 6f6b7f73-f8f5-41dc-9e2a-727baaaa828b
 ROBOTS: NOINDEX, NOFOLLOW
 description: Корпорация Майкрософт периодически выпускает новый набор обновлений прошивки устройств для Skype для бизнеса Телефон Edition, которые можно импортировать на серверы и распространять среди пользователей. Вы можете получить последний набор правил обновления устройств, заехав на страницу Справка и поддержка на веб-сайте Майкрософт, а также поискав дляPhone Edition.Download последний пакет обновлений и извлекая файлы в папку на компьютере, где должны быть загружены обновления. После извлечения вы можете воспользоваться командлетом Import-CsDeviceUpdate для импорта правил обновления устройств из извлеченного файла CAB (он имеет имя UCUpdates.cab). Подробные сведения см. в материале Import-CsDeviceUpdate.
-ms.openlocfilehash: a670e0b55c0e6f8f61cbe75ef2c51e49b2980787
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fd1dc5613ccab434fab9e196f1595cf7e930790f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58585493"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60758001"
 ---
 # <a name="device-update"></a>Обновление устройств
 
@@ -62,6 +62,6 @@ ms.locfileid: "58585493"
 - **Обновление** Вы можете обновить список, чтобы проверить состояние всех обновлений устройств.
 
 Дополнительные сведения веб-службе обновления устройств см. в разделе [View Software Updates for Devices in Your Organization](/previous-versions/office/lync-server-2013/lync-server-2013-view-software-updates-for-devices-in-your-organization) документации по планированию.
-## <a name="see-also"></a>Дополнительные материалы
+## <a name="see-also"></a>См. также
 
 [Import-CsDeviceUpdate](/powershell/module/skype/import-csdeviceupdate?view=skype-ps)

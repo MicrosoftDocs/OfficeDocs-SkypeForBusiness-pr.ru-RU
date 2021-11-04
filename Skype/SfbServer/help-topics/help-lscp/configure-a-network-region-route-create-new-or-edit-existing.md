@@ -1,7 +1,7 @@
 ---
 title: Настройка маршрута сетевого региона Создание новых или изменение существующих
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 694b3260-770f-489e-b2dd-cb8e026afdbe
 description: Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
-ms.openlocfilehash: 7b5ade2e0a4623104924daa344317741cc5ea954
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 560cbf62c6cb223ca88070222c9c388c0a5391d5
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58602814"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60750548"
 ---
 # <a name="configure-a-network-region-route-create-new-or-edit-existing"></a>Настройка маршрута области сети: создание новых или редактирование существующих
 

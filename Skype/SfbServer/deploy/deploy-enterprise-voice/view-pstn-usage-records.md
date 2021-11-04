@@ -1,7 +1,7 @@
 ---
 title: Просмотр записей использования PSTN в Skype для бизнеса
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 65025c78-c263-472c-9ff9-e170588f10b5
 description: Сводка. Узнайте, как просматривать записи использования PSTN с помощью панели управления Skype для бизнеса Server или Skype для бизнеса Server панели управления.
-ms.openlocfilehash: 7b708a388950424453e833c28d846e6258070ef5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2b09ed19de6ff205ee7d76e7379c8b4c5fc12d06
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58626191"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60771524"
 ---
 # <a name="view-pstn-usage-records-in-skype-for-business"></a>Просмотр записей использования PSTN в Skype для бизнеса
 

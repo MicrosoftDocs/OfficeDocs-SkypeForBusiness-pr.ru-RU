@@ -1,7 +1,7 @@
 ---
 title: Создание записей DNS для Skype для бизнеса Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/15/2018
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 798a663c-0b63-4f75-b0a3-9c553cef8c5f
 description: 'Сводка. Сведения о настройке DNS и создании записей DNS для установки Skype для бизнеса Server. Скачайте бесплатную пробную Skype для бизнеса Server из Центра оценки Майкрософт по ссылке: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server .'
-ms.openlocfilehash: 08a652f3ed2dd19d40aa1830ac91459d205b618a
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 5e84c4c0991f042c0d734f8e62aceceb632b3b11
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726328"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60771477"
 ---
 # <a name="create-dns-records-for-skype-for-business-server"></a>Создание записей DNS для Skype для бизнеса Server
  
@@ -42,7 +42,7 @@ ms.locfileid: "58726328"
 В этом примере используется сбалансированный FQDN нагрузки DNS с именем pool.contoso.local. Этот пул состоит из трех серверов, работающих Skype для бизнеса Server выпуск Enterprise. Сервер выпуск Standard может содержать только один сервер. Используя выпуск Standard, можно использовать только полностью квалифицированное доменное имя (FQDN) одного сервера выпуск Standard при ссылке на передовую роль вместо создания сбалансированного пула серверов нагрузки DNS, как показано в этом примере. Этот простой пример, использующий только роль переднего плана, включает записи DNS в следующей таблице. Чтобы спланировать конкретные требования DNS, [см.](../../plan-your-deployment/network-requirements/dns.md)в Skype для бизнеса Server. 
   
  
-|**Описание**|**Record Type (Тип записи)**|**Название**|**Во что разрешается**|**Тип балансировки нагрузки**|
+|**Описание**|**Record Type (Тип записи)**|**Имя**|**Во что разрешается**|**Тип балансировки нагрузки**|
 |:-----|:-----|:-----|:-----|:-----|
 |Внутренние веб-службы FQDN  <br/> |A  <br/> |webint.contoso.local  <br/> |VIP для внутренних веб-служб  <br/> |Поддерживаемые программное обеспечение и оборудование  <br/> |
 |Полное доменное имя пула  <br/> |A  <br/> |pool.contoso.local  <br/> |IP-адрес сервера SFB01  <br/> |DNS  <br/> |

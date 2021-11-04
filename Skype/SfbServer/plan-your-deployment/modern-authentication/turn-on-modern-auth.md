@@ -1,7 +1,7 @@
 ---
 title: Планирование отключения внутренних и внешних методов проверки подлинности legacy в сети
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -14,12 +14,12 @@ ms.collection: IT_Skype16
 ms.custom: tracyp
 ms.assetid: ''
 description: В этой статье описаны cmdlets, которые дают администраторам больше контроля над методами проверки подлинности, используемыми внутри и снаружи бизнеса. Администраторы могут включить или отключить методы проверки подлинности во внутренней или внешней сети.
-ms.openlocfilehash: 7bad18e79e1595c7dfe4518d73b6dd764e313e22
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 65ec31dcd4a320b42da746eece41009f70e886af
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58601364"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777959"
 ---
 # <a name="planning-to-turn-off-legacy-authentication-methods-internally-and-externally-to-your-network"></a>Планирование отключения внутренних и внешних методов проверки подлинности в сети.
 

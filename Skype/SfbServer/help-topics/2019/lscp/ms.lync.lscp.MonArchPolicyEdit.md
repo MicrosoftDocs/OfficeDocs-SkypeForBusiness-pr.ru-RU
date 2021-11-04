@@ -1,7 +1,7 @@
 ---
 title: Политика архива создания новых или редактирования существующих
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: a4f948e7-e8f6-449a-8907-f61c5b143c05
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Политики архивации используются для управления архиванием внутренних и внешних коммуникаций при развертывании для пользователей, которые размещены в Skype для бизнеса Server. Политики архивирования включают глобальную политику и, дополнительно, одну или несколько политик сайтов и пользователей:'
-ms.openlocfilehash: 0bcc34f3e221c2faf0f358e2161885005e786ea5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a5df0231622f9967484574ac1a11a89f15fd163e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618075"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60773049"
 ---
 # <a name="archiving-policy-create-new-or-edit-existing"></a>Политика архивирования: создание новой или редактирование существующей
  

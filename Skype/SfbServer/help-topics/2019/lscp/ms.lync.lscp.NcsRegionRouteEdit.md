@@ -1,7 +1,7 @@
 ---
 title: Настройка маршрута сетевого региона Создание новых или изменение существующих
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 694b3260-770f-489e-b2dd-cb8e026afdbe
 ROBOTS: NOINDEX, NOFOLLOW
 description: Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
-ms.openlocfilehash: a1f073f74fee50fb120fd85fbe40341c5e912dbe
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e1ea792c755e88170886450df8497741273c3425
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58605408"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60771327"
 ---
 # <a name="configure-a-network-region-route-create-new-or-edit-existing"></a>Настройка маршрута области сети: создание новых или редактирование существующих
 

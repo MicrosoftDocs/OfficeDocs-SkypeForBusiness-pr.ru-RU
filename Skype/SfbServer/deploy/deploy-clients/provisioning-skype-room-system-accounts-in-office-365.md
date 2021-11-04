@@ -1,6 +1,6 @@
 ---
 title: Подготовка Skype учетных записей системы номеров в Microsoft 365 и Office 365
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c36150bb-461c-4f1c-877b-fac7fb232f7c
 description: Ознакомьтесь с этой темой, чтобы узнать о Skype учетных записей системы номеров в Microsoft 365 или Office 365.
-ms.openlocfilehash: e3976d5763128354c934f477003532bf6bbcd3f6
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 1f4262453735baa08e16e7da03909e48ef12f4ff
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58731108"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60758121"
 ---
 # <a name="provisioning-skype-room-system-accounts-in-microsoft-365-and-office-365"></a>Подготовка Skype учетных записей системы номеров в Microsoft 365 и Office 365
  

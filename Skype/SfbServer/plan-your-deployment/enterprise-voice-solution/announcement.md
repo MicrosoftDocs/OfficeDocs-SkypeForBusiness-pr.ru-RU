@@ -1,7 +1,7 @@
 ---
 title: Планирование приложения Объявления в Skype для бизнеса
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 2abee804-2599-48bb-90b2-15df0bae5e20
 description: Планирование приложения объявлений в Skype для бизнеса Server Корпоративная голосовая связь, которое настраивает, что делать с телефонными звонками на неназваные телефонные номера в организациях. Включает требования к аудиофайлам.
-ms.openlocfilehash: 010e49a8578a6ec2482b454b2fb62ca8718939d6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 26dbd9a0bf1513812cb08034216194ca67a92b39
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58583913"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60778099"
 ---
 # <a name="plan-for-the-announcement-application-in-skype-for-business"></a>Планирование приложения Объявления в Skype для бизнеса
 

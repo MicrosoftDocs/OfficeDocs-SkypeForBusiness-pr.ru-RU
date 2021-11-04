@@ -1,7 +1,7 @@
 ---
 title: Запрос сертификата (запрос подписи сертификата)
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: f0541273-92b4-41d6-aa24-34ee5c549db8
 description: Чтобы создать автономный запрос, необходимо сначала создать запрос подписи сертификата. В поле Имя файла введите путь и имя файла для запроса подписи сертификата. Можно нажать кнопку Обзор и выбрать место для создания запроса подписи сертификата. Нажмите кнопку Далее, чтобы продолжить.
-ms.openlocfilehash: 5f4ebd3c52cc569ffcfcafe8ac62a56aad00be0e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b2ff4494fa3f0345eb68d682cb4906b01bb6c19d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58587531"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60750588"
 ---
 # <a name="certificate-request-certificate-signing-request"></a>Запрос сертификата (запрос подписи сертификата)
  

@@ -1,7 +1,7 @@
 ---
 title: Добавление хранилища SQL Server для сервера мониторинга
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: d873a2ad-9d3a-4ef6-9f25-ccdd3716218c
 description: Для хранения данных мониторинга на сервере мониторинга требуется поддерживаемое 64-битное SQL Server программного обеспечения базы данных. Вы можете выбрать ранее указанную базу данных SQL Server, которая будет использоваться для мониторинга, или определить новую базу данных SQL Server, указав полное доменное имя (FQDN) сервера, на котором будет находиться база данных SQL Server, в дополнение к экземпляру SQL Server, который вы хотите использовать для новой базы данных SQL Server (которая может быть экземпляром по умолчанию или именем, который вы указываете).
-ms.openlocfilehash: ad141dff28b978066f5dfb9d6af81047bec2048c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a9417132e1b0bc2d6fc39bffaa4dd1abf86c6817
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593753"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60743835"
 ---
 # <a name="add-monitoring-server-sql-server-store"></a>Добавление хранилища SQL Server для сервера мониторинга
 

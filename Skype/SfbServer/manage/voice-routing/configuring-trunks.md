@@ -1,7 +1,7 @@
 ---
 title: Настройка магистрали в Skype для бизнеса Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: В рамках Корпоративная голосовая связь развертывания можно настроить магистраль между сервером-посредником и одним или несколькою однорангами, чтобы обеспечить подключение к общедоступным переключаемой телефонной сети (PSTN) для Корпоративная голосовая связь клиентов и устройств в вашей организации.
-ms.openlocfilehash: 5f7ce6bac163c481d01e71b3efb4ee13347a49e4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 528dc8accbb2165bb86f3de9f10b3141dea01143
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598803"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60739165"
 ---
 # <a name="configuring-trunks-in-skype-for-business-server"></a>Настройка магистрали в Skype для бизнеса Server
 

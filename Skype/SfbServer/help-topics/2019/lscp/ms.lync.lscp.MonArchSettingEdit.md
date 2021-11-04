@@ -1,7 +1,7 @@
 ---
 title: Конфигурация архивации Создать новые или изменить существующие
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 49096960-c442-4846-be8f-03c167acea41
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Вы используете конфигурации архивации для управления вариантами архивации для развертывания. Конфигурации архивирования включают глобальную конфигурацию и, возможно, одну или несколько конфигураций сайта или пула:'
-ms.openlocfilehash: 01c14b482fb546a83d9cff8bdbbfd75f8f81f1bd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2a9e3a64560e347c959b464fe8da57e994f2e5c9
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58597733"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60757911"
 ---
 # <a name="archiving-configuration-create-new-or-edit-existing"></a>Конфигурация архивирования: создание новой или редактирование существующей
  

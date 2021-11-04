@@ -1,7 +1,7 @@
 ---
 title: Страница установки для создания зеркальной базы данных
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 6f729574-944e-4968-bdb8-eb483ff0ca88
 ROBOTS: NOINDEX, NOFOLLOW
 description: Это предварительная документация, которая подлежит изменениям. Пустые разделы включены в качестве заполнителей.
-ms.openlocfilehash: 4b00a596c078270b7fd6849eb31e1b802ce149ca
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ba5274786516aba835a5895f516865023d160711
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58611012"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60764387"
 ---
 # <a name="install-database-create-mirror-database-page"></a>Страница установки для создания зеркальной базы данных
  

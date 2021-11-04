@@ -1,7 +1,7 @@
 ---
 title: Узел области сохраняемого чата
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 35dfc16f-7190-4993-9d4a-e0262bf35166
 ROBOTS: NOINDEX, NOFOLLOW
 description: Чтобы начать создание нового пула сохраняемого сервера чата или сохраняемого сервера чата, в Topology Builder вы правой кнопкой мыши нажмите кнопку Упорные пулы чата, а затем выберите новый пул постоянных чатов.
-ms.openlocfilehash: 8490ed0f9215d333937a3772ac9466127b7f7b2f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ff7574fef7ef3608867adc0bb71715e55de76a9c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58633243"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60764307"
 ---
 # <a name="persistent-chat-scope-node"></a>Узел области сохраняемого чата
 

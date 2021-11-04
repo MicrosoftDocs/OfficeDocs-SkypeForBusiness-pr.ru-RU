@@ -1,6 +1,6 @@
 ---
 title: Политика conferencing для Skype учетных записей системы номеров
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.reviewer: sohailta
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 4dd8be28-5156-411b-8ccd-eff7f75cb897
 description: Ознакомьтесь с этой темой, чтобы узнать, как назначить политики conferencing для Skype учетных записей системы номеров.
-ms.openlocfilehash: 202440953aedaa54ac69a7bd4549bf7dcbd8d865
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9e6bab608ab68b3f0e0d5075ae1caf8cb16d4c0b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618205"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60771681"
 ---
 # <a name="conferencing-policy-for-skype-room-system-accounts"></a>Политика conferencing для Skype учетных записей системы номеров
  
@@ -27,7 +27,7 @@ ms.locfileid: "58618205"
 
 Политика conferencing, назначенная учетной записи Skype room System, должна иметь определенные характеристики. В большинстве Skype клиент системы номеров присоединяется к запланированному собранию, поэтому политика конференц-связи организатора собрания влияет на конференцию. Однако в Skype для бизнеса Server определенные возможности зависят от конфигурации участника. Например, если политика участника позволяет максимальное разрешение видео в 1080p, участники будут испытывать эту возможность видео с более высоким разрешением на конференции, даже если политика организатора этого не позволяет. В следующей таблице описано несколько таких параметров, о которых следует знать при настройке политик конференций для Skype учетных записей системы номеров в организации. 
   
-|Функция  <br/> |Значение  <br/> |Комментарий  <br/> |
+|Функция  <br/> |Значение  <br/> |Comment  <br/> |
 |:-----|:-----|:-----|
 |AllowIPAudio  <br/> |TRUE  <br/> |Должно быть верно для Skype системы номеров  <br/> |
 |AllowIPVideo  <br/> |TRUE  <br/> |Должно быть верно для Skype системы номеров для работы в сеансах доски Meet Now (ad hoc) в Skype Room System  <br/> |
@@ -45,7 +45,7 @@ ms.locfileid: "58618205"
 |AllowPolls  <br/> |TRUE  <br/> |N/A в собраниях Meet Now (ad hoc), но Skype система номеров может реагировать на опросы на экране в передней части комнаты  <br/> |
 |AllowSharedNotes  <br/> |TRUE  <br/> |N/A в собраниях Meet Now (ad hoc), но Skype система номеров может реагировать на опросы на экране в передней части комнаты  <br/> |
 |EnableDialInConferencing  <br/> |TRUE  <br/> |Влияет на сеансы доски Meet Now (ad hoc) в Skype Room System  <br/> |
-|EnableAppDesktopSharing  <br/> |Рабочий стол  <br/> |Влияет на сеансы доски Meet Now (ad hoc) в Skype Room System  <br/> |
+|EnableAppDesktopSharing  <br/> |Версия для настольного компьютера  <br/> |Влияет на сеансы доски Meet Now (ad hoc) в Skype Room System  <br/> |
 |AllowConferenceRecording  <br/> |FALSE  <br/> |N/A для Skype системы номеров. Если TRUE, удаленная сторона может записывать  <br/> |
 |EnableP2PRecording  <br/> |FALSE  <br/> |N/A для Skype системы номеров. Если TRUE, удаленная сторона может записывать  <br/> |
 |EnableFileTransfer  <br/> |TRUE  <br/> |Н/Д  <br/> |

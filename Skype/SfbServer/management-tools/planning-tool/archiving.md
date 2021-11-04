@@ -1,7 +1,7 @@
 ---
 title: Средство планирования архива
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/27/2015
@@ -14,12 +14,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 45580eaa-4c59-47c6-9e64-9221a3a352b4
 description: Архивировать в Skype для бизнеса Server позволяет архивировать сообщения, которые отправляются через Skype для бизнеса Server.
-ms.openlocfilehash: 89df0bf6083cc92b1c1b2b973897a2861a962478
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0473fd6a9547e662aec77518e3cbad480b6b93b9
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58578763"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60750138"
 ---
 # <a name="archiving-planning-tool"></a>Средство планирования архива
  

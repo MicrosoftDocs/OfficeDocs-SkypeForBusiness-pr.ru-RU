@@ -1,7 +1,7 @@
 ---
 title: Топологии Skype для бизнеса, поддерживаемые современной проверкой подлинности
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -14,12 +14,12 @@ ms.collection: IT_Skype16
 ms.custom: tracyp
 ms.assetid: 258430b0-574a-47fb-90b7-54ee8996b2ec
 description: В этой статье перечислены сетевые и локально-топологии, поддерживаемые современной проверкой подлинности в Skype для бизнеса, а также функции безопасности, применимые к каждой топологии.
-ms.openlocfilehash: 92cab2bbef535062743032438533eb9489155bab
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1d2dd2c691962f0703866a4ece0812467c1f236e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58584974"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777969"
 ---
 # <a name="skype-for-business-topologies-supported-with-modern-authentication"></a>Топологии Skype для бизнеса, поддерживаемые современной проверкой подлинности
 
@@ -79,7 +79,7 @@ Skype для бизнеса может использовать преимуще
 |Имя топологии  <br/> |Пример  <br/> |Описание  <br/> |Поддерживается  <br/> |
 |:-----|:-----|:-----|:-----|
 |Только в облаке  <br/> |![Поддерживаемый SFB с топологией MA, только cloud.](../../media/4d19b47f-8257-4a6f-9dab-0755206f7c52.PNG)Пользователи, расположенные в домашних и почтовых ящиках: Online  <br/> |М.А. для EXO и SFBO.  <br/> Таким образом, сервер авторизации — Azure AD.  <br/> |Многофакторная проверка подлинности (MFA), проверка подлинности на основе клиентского сертификата (CBA), условный доступ (CA)/Управление мобильными приложениями (MAM) с Помощью Intune. \*  <br/> |
-|Только на преме  <br/> |![Поддерживается SFB только локальной топологией ma.](../../media/9773e9a5-7cd6-41ef-940b-c4386c9fce20.PNG)Пользователи, расположенные в домашних и почтовых ящиках: локально  <br/> |В локальном окантовом окантове SFB существует ma..  <br/> Таким образом, сервер авторизации является ADFS.  <br/> Сведения о конфигурации см. в [этой статье.](/microsoft-365/enterprise/hybrid-modern-auth-overview) <br/> |MFA (только Windows desktop — мобильные клиенты не поддерживаются). Нет Exchange интеграции.  <br/><p> **Мы не рекомендуем такой подход. См. здесь:**[https://aka.ms/ModernAuthOverview](/microsoft-365/enterprise/hybrid-modern-auth-overview)<p/> |
+|Только на преме  <br/> |![Поддерживается SFB только локальной топологией ma.](../../media/9773e9a5-7cd6-41ef-940b-c4386c9fce20.PNG)Пользователи, расположенные в домашних и почтовых ящиках: локально  <br/> |В локальном окантовом окантове SFB существует ma..  <br/> Таким образом, сервер авторизации является ADFS.  <br/> Сведения о конфигурации см. в [этой статье.](/microsoft-365/enterprise/hybrid-modern-auth-overview) <br/> |MFA (только Windows desktop — мобильные клиенты не поддерживаются). Нет Exchange интеграции.  <br/><p> **Мы не рекомендуем такой подход. См. здесь:** [https://aka.ms/ModernAuthOverview](/microsoft-365/enterprise/hybrid-modern-auth-overview)<p/> |
 
 > [!IMPORTANT]
 > Для уменьшения количества подсказок рекомендуется, чтобы состояние MA было одинаковым Skype для бизнеса и Exchange (и их онлайн-аналогов).

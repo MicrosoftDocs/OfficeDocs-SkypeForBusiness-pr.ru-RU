@@ -1,7 +1,7 @@
 ---
 title: Запрос сертификата (возврат)
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 4/1/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 4ada9045-0fdf-4470-8574-2fa08bab9392
 description: 'На странице Состояние сетевого запроса сертификата предоставляется важная информация, появляющаяся в результате успешного создания и выдачи сетевого запроса сертификата. На этой странице отображается отпечаток сертификата, уникальным образом определяющий сертификат. По умолчанию назначьте этот сертификат для Skype для бизнеса Server использования сертификата. Если вы нажмете Кнопку Готово, сертификат будет автоматически назначен Lync Server 2013 для целей, определенных во время этапов создания запроса сертификата. По умолчанию сертификат назначается со следующими целями:'
-ms.openlocfilehash: e87e16f79a30aa037ba0a7ee3e9ad1379536ca6e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ec715e7270247ca35707ea89694b4970c7ece25c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58616095"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60764267"
 ---
 # <a name="certificate-request-returned"></a>Запрос сертификата (возврат)
  

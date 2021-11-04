@@ -1,7 +1,7 @@
 ---
 title: Запрос сертификата (домены SIP)
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 1af294a0-5aa1-40a4-b460-231dd4b2f3dc
 ROBOTS: NOINDEX, NOFOLLOW
 description: На странице Параметры альтернативных имен субъектов для домена SIP необходимо установить флажок для основного домена SIP и любых других доменов SIP, если инфраструктура и развертывание соответствуют указанным критериям.
-ms.openlocfilehash: 49d125baa2bfbf5c2363473ebfd6c60cd497474d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3e3b40dd24f91543f17da67508c10feb535e7d2a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58579933"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60773189"
 ---
 # <a name="certificate-request-sip-domains"></a>Запрос сертификата (домены SIP)
  

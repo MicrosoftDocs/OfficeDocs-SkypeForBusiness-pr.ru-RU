@@ -1,7 +1,7 @@
 ---
 title: Политика сохраняемого чата
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: eb9e95b9-f69d-4545-970f-9dfdd93b0eff
 ROBOTS: NOINDEX, NOFOLLOW
 description: Вы можете использовать страницу Политики сохраняемого чата группы сохраняемого чата для управления политиками на глобальном уровне, пуле, сайте или пользователе, включая настройку глобальной политики по умолчанию и создание одной или более дополнительных политик пользователей и сайтов для развертывания. Если постоянный сервер чата включен для пользователя политикой, в клиенте отображается среда Persistent Chat Server.
-ms.openlocfilehash: 05ebe66503560bdacd2f941cf08273031ddf744d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bdc41ee60f58f47e279164ddb5c2b9c92e74a6c3
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58594673"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60757851"
 ---
 # <a name="persistent-chat-policy"></a>Политика сохраняемого чата
 

@@ -1,7 +1,7 @@
 ---
 title: Skype для бизнеса Server 2019 г.
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 10/26/2018
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: Сводка. Сведения о средствах управления службами в Skype для бизнеса Server 2019 г.
-ms.openlocfilehash: 9a19be096630479ce9d98bce4723ebcdb8ce5db0
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 3bc3a4cac04ee0e9d6f52ca6375ae11d111a621e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60011743"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60739025"
 ---
 # <a name="skype-for-business-server-2019-management-tools"></a>Skype для бизнеса Server 2019 г.
  
@@ -28,7 +28,7 @@ Skype для бизнеса Server 2019 г. предлагает решения 
   
 ## <a name="skype-for-business-server-2019-tools"></a>Skype для бизнеса Server 2019
 
-|&nbsp;|Контент|Описание|
+|&nbsp;|Контентная|Описание|
 |:-----|:-----|:-----|
 |![значок панели мониторинга.](../SfbServer/media/144fef0b-3ff0-4298-8b03-978bda9e923b.png)|[Панель мониторинга качества звонка](../SfbServer/management-tools/call-quality-dashboard/call-quality-dashboard.md)  |Панель мониторинга качества вызовов (CQD) — это веб-портал для быстрого создания и организации отчетов на основе данных качества работы (QoE) из Skype для бизнеса среды. CQD развертывает куб SSAS для агрегировать данные в базе данных QoEMetrics, что позволяет пользователям создавать и изменять отчеты и видеть их обновление в режиме реального времени. Кроме того, CQD предоставляет веб-API, которые дают пользователям программный доступ к данным куба для использования в настраиваемой панели мониторинга.   |
 |![значок khI.](../SfbServer/media/8759b767-b689-4a95-94a5-5b27c5688688.png)|[Ресурсы KHI](https://www.microsoft.com/download/details.aspx?id=57519)  |Ключевые индикаторы работоспособности (KHI) — это счетчики производительности с рекомендуемыми порогами, направленные на выявление проблем, которые могут повлиять на работу пользователей. Руководство khI описывает операционный процесс и действия по исправлению для поддержания здорового развертывания и включает пример сценария PowerShell, используемого для настройки сборщиков данных KHI, и книгу анализа и определений, которая может анализировать данные о производительности KHI.   |

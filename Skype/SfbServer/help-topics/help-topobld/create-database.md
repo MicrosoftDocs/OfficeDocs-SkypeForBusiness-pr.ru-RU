@@ -1,7 +1,7 @@
 ---
 title: Создание базы данных
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/26/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 4d391619-1cab-4265-ae8a-2519993705bc
 description: Topology Builder предоставляет способ установки баз данных в SQL Server магазине. При установке баз данных с помощью topology Builder приложение считывая информацию из топологии, а затем устанавливает необходимые базы данных на указанном компьютере SQL Server или SQL Server кластере. Это единственный тип установки базы данных, доступный в построителе топологий. Если вам необходимо установить определенную базу данных на определенном компьютере или если необходимо установить базу данных collocated, необходимо использовать интерфейс командной строки Windows PowerShell и командный Install-CsDatabase командный Install-CsDatabase.
-ms.openlocfilehash: b8c4cc75104093b868d40be18a540eea4019a0b7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1f2bf26626b370e606ce3856f29a2dae2c39ab44
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58619895"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60739295"
 ---
 # <a name="create-database"></a>Создание базы данных
  

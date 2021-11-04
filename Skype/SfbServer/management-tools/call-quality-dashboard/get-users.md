@@ -1,7 +1,7 @@
 ---
 title: Получение пользователей
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 87d34baf-4c31-468d-b8f7-4faca0bc7a54
 description: Сводка. Сведения об операции Get Users, которая является частью службы пользователей. Служба пользователей является частью API репозиториев для панели мониторинга качества вызовов. Панель мониторинга качества вызовов — это средство для Skype для бизнеса Server.
-ms.openlocfilehash: 1f9df5bb241f6263bc298060442581f740303c71
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ecf549dccf73ec6adae7360efbe516ae3710bf17
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630523"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60739125"
 ---
 # <a name="get-users"></a>Получение пользователей
  

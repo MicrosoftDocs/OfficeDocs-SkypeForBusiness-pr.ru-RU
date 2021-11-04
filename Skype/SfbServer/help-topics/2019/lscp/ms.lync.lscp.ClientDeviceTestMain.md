@@ -1,7 +1,7 @@
 ---
 title: Тестовое устройство
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: a1ea564c-f403-4f61-a36b-5a429708e7ca
 ROBOTS: NOINDEX, NOFOLLOW
 description: Вы можете добавить устройство проверки на страницу Устройство проверки и затем использовать его для проверки функциональных возможностей новых обновлений перед их развертыванием на производственных устройствах. Вы можете протестировать устройство глобально (во всей среде) или на одном сайте. Устройство проверки указывается по MAC-адресу или серийному номеру. При добавлении устройства оно отображается в списке на странице тестового устройства панели Skype для бизнеса Server управления.
-ms.openlocfilehash: 3b9fff9a94453cfd6ec8dd59e5979cf6c7d7a0c2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4ecdb6934e2e1022861894b2b0347eb53d84f0f1
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58585489"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60758051"
 ---
 # <a name="test-device"></a>Тестовое устройство
 
@@ -42,7 +42,7 @@ ms.locfileid: "58585489"
 
   - Глобальные
 
-  - Сайт
+  - Site
 
 - **Изменение** Можно изменить параметры тестового устройства в списке. С помощью этой команды можно выполнить следующие действия:
 
@@ -55,7 +55,7 @@ ms.locfileid: "58585489"
 - **Обновление** Вы можете обновить список тестовых устройств, чтобы проверить состояние параметров всех тестовых устройств.
 
 Дополнительные сведения о тестировании устройств см. в разделе [Add a Device to Test Update Functionality](/previous-versions/office/lync-server-2013/lync-server-2013-create-a-device-to-test-update-functionality) документации по использованию.
-## <a name="see-also"></a>Дополнительные материалы
+## <a name="see-also"></a>См. также
 
 [Тестовое устройство: создание нового или редактирование существующего](ms.lync.lscp.ClientDeviceTestEdit.md)
 

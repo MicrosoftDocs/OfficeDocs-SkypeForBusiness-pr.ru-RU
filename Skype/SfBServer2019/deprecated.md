@@ -1,7 +1,7 @@
 ---
 title: What's deprecated from Skype для бизнеса Server 2019
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: Сводка. Эти функции были удалены из Skype для бизнеса Server 2019 г.
-ms.openlocfilehash: cdc7b54f815c324707ee657d8365aa842f28293d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 65229e091d903ca18fee89224e45aedef8c0ca40
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58595033"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60771734"
 ---
 # <a name="whats-deprecated-from-skype-for-business-server-2019"></a>What's deprecated from Skype для бизнеса Server 2019
 
@@ -53,7 +53,7 @@ SQL Зеркальное отражение не может быть разве�
 
 Дополнительные сведения см. в материале [Plan for Mobility for Skype для бизнеса Server](../SfbServer/plan-your-deployment/mobility.md) и Mobile client feature comparison for [Skype для бизнеса.](../SfbServer/plan-your-deployment/clients-and-devices/mobile-feature-comparison.md)
 
-## <a name="tools"></a>Средства
+## <a name="tools"></a>Инструменты
 
 Следующие средства не будут доступны для использования в начальном выпуске Skype для бизнеса Server 2019 г.:
 
