@@ -1,7 +1,7 @@
 ---
 title: Выбор расширений типов файлов
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 3638cdc8-71dd-4a22-8613-83859af97387
 description: Используйте диалоговое окно Выбор расширений типов файлов для выбора расширений типов файлов, которые требуется заблокировать или разрешить, посредством установки флажков (для блокировки) или снятия флажков (для разрешения) рядом с расширениями в разделе Расширения типов файлов. Щелкните стрелку, чтобы развернуть категорию и просмотреть все расширения типов файлов для этой категории. Если требуется выбрать все расширения типов файлов для категории, выделите имя категории.
-ms.openlocfilehash: 18339e11b60e232ed3a85c4708976111ad0a11bb
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c9a7e8301efeb7da59fdcd96dafc96ffd6e3e6e1
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634513"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60764007"
 ---
 # <a name="select-file-type-extensions"></a>Выбор расширений типов файлов
  

@@ -1,7 +1,7 @@
 ---
 title: Справочные топологии для Skype для бизнеса Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0453aeee-c41f-44e6-a6e0-aaace526ca08
 description: Ссылки на топологии для Skype для бизнеса Server, включая схемы и решения, которые необходимо принять для крупных, средних и малых организаций.
-ms.openlocfilehash: 1f6598415627ca48181a6346007704536163ea94
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 270814a8a4dacccdec8919a0e31c9c6098603493
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729758"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60762107"
 ---
 # <a name="reference-topologies-for-skype-for-business-server"></a>Справочные топологии для Skype для бизнеса Server
 

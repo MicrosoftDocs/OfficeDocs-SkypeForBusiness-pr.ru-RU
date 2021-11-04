@@ -1,7 +1,7 @@
 ---
 title: Запуск или остановка захвата журнала CLS в Skype для бизнеса Server 2015 г.
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/1/2018
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 0512b9ce-7f5b-48eb-a79e-f3498bacf2de
 description: Сводка. Сведения о запуске или остановке сеанса захвата журнала журнала централизованной службы ведения журнала в Skype для бизнеса Server 2015 г.
-ms.openlocfilehash: 5ed9630f21e409c240871c981db6346d2d2d9599
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 051ea00f65e6bdcce563c9f4e9d3c0f634e8c09b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726958"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60774615"
 ---
 # <a name="start-or-stop-cls-log-capture-in-skype-for-business-server-2015"></a>Запуск или остановка захвата журнала CLS в Skype для бизнеса Server 2015 г.
  

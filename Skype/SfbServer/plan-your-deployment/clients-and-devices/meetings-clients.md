@@ -1,6 +1,6 @@
 ---
 title: Планирование для клиентов собраний (Web App и Meetings App)
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 ms.reviewer: PhillipGarding
 manager: serdars
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
 description: Сводка. ИТ-специалистам следует просмотреть требования к поддержке приложения Skype для бизнеса Web App и Skype собраний при планировании Skype для бизнеса Server. Эта статья не предназначена для пользователей этих приложений.
-ms.openlocfilehash: 29464c7dffbeee1a8ae6eed33764453bed948c58
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 615fff0be39afd41745087d4dae4ea40385e034b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608026"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60762267"
 ---
 # <a name="plan-for-meetings-clients-web-app-and-meetings-app"></a>Планирование для клиентов собраний (Web App и Meetings App)
  
@@ -40,12 +40,12 @@ ms.locfileid: "58608026"
   
 По умолчанию сервер, на который будет размещено собрание, будет направлять пользователя на загрузку и установку Skype для бизнеса Web App присоединиться к собранию. Сервер Skype для бизнеса Web App хранится на переднем сервере и отправляется участнику собрания. 
   
-Для Skype для бизнеса Server, Skype meetings App (на Windows) и Skype для бизнеса на Mac (на Mac) доступны в качестве замены для Skype для бизнеса Web App начиная с CU5, но для обеспечения замены приложений требуется дополнительная конфигурация, описанная в Приложении Включить Skype Собрания, чтобы заменить [Skype для бизнеса Web App (необязательный).](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable) Если Skype приложения и Skype для бизнеса на Mac собрания включены, пользователи будут скачивать последнюю версию приложений с Microsoft 365 или Office 365 сеть доставки содержимого (CDN), а не с Skype для бизнеса сервера. В Skype для бизнеса Server 2019 г. единственным вариантом является использование Skype и Skype для бизнеса на Mac собраний.
+Для Skype для бизнеса Server, Skype meetings App (на Windows) и Skype для бизнеса на Mac (на Mac) доступны в качестве замены для Skype для бизнеса Web App, начиная с CU5, но для обеспечения замены приложений требуется дополнительная конфигурация, описанная в приложении Enable Skype meetings для замены [Skype для бизнеса Web App (необязательный).](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable) Если Skype приложения и Skype для бизнеса на Mac собрания включены, пользователи будут скачивать последнюю версию приложений из Microsoft 365 или Office 365 сеть доставки содержимого (CDN), а не из вашей Skype для бизнеса сервер. В Skype для бизнеса Server 2019 г. единственным вариантом является использование Skype и Skype для бизнеса на Mac собраний.
   
 Skype Приложение Meetings app предлагает упрощенное браузерное приложение для скачивания и установки приложения и присоединения к собраниям, в том числе одним щелчком мыши для пользователей Internet Explorer. Skype Приложение Meetings App также имеет много улучшений по сравнению с Skype для бизнеса Web App для надежности и опыта собраний. 
   
 > [!NOTE]
-> По Skype для бизнеса Server 2015 cu5 или более поздние собрания, которые проводятся с помощью Skype для бизнеса Online, больше не будут отправлять без клиента пользователя Skype для бизнеса Web App, вместо этого они будут отправлены Skype Meetings App (на Windows) или Skype для бизнеса на Mac (на Mac). По Skype для бизнеса Server 2015 cu5 или более поздней, если вы позволяете [приложению Skype Meetings](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable)заменить Skype для бизнеса Web App (необязательный), пользователи без клиентов будут отправлены Skype Meetings App или Skype для бизнеса на Mac вместо Skype для бизнеса Web App. 
+> По Skype для бизнеса Server 2015 cu5 или более поздние собрания, которые проводятся с помощью Skype для бизнеса Online, больше не будут отправлять без клиента пользователя Skype для бизнеса Web App, вместо этого они будут отправлены Skype Meetings App (на Windows) или Skype для бизнеса на Mac (на Mac). По Skype для бизнеса Server 2015 cu5 или более поздней, если вы позволите Skype Meetings App заменить [Skype для бизнеса Web App (необязательный),](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable)без клиентов пользователи будут отправлены Skype Meetings App или Skype для бизнеса на Mac вместо Skype для бизнеса Web App. 
   
 ## <a name="software-requirements"></a>Требования к программному обеспечению
 <a name="OS-Browser"> </a>
@@ -87,7 +87,7 @@ Skype для бизнеса на Mac на компьютерах с помощь
 
 Требования к компьютерной аппаратуре определяются операционной системой и браузером. Для функций голосовой связи и телефонии требуется микрофон и динамики, гарнитура с микрофоном или эквивалентное устройство, совместимое с компьютером. Для функций видео требуется видео устройство, совместимое с компьютером. Подробные сведения о поддержке оборудования видео и ожидаемом качестве видео см. в Skype для бизнеса [разрешения клиента.](video-resolutions.md)
   
-## <a name="network-requirements"></a>Сетевые требования
+## <a name="network-requirements"></a>Требования к сети
 <a name="Network"> </a>
 
 Если пользователь Skype для бизнеса Web App или Skype meetings App испытывает проблемы с подключением к собраниям, скорее всего, сетовая инфраструктура организации не настроена для поддержки Office 365, как описано в [Office 365 URL Office 365](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US)и диапазонах IP-адресов. Это тот случай, если собрание было создано пользователем Skype для бизнеса Online или Skype для бизнеса Server. 

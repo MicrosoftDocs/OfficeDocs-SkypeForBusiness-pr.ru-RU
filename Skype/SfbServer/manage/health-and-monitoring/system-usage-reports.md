@@ -1,7 +1,7 @@
 ---
 title: Отчеты об использовании системы в Skype для бизнеса Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 187d316d-2456-417e-b636-05527a18ef06
 description: Сводка. Сведения об отчетах об использовании системы в Skype для бизнеса Server.
-ms.openlocfilehash: 0f98e78319e872f978004ac32e24802c6b62bd36
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2e0572b35cf29cf69e9c0515b5f94384b226d8ed
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598833"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60774779"
 ---
 # <a name="system-usage-reports-in-skype-for-business-server"></a>Отчеты об использовании системы в Skype для бизнеса Server
  
@@ -25,7 +25,7 @@ ms.locfileid: "58598833"
   
 Отчеты об использовании системы предоставляют сведения об использовании системы на основе данных записи сведений о звонках (CDR), собранных Skype для бизнеса Server.
   
-## <a name="in-this-section"></a>В этой статье
+## <a name="in-this-section"></a>В этом разделе
 
 - [Отчет о регистрации пользователей в Skype для бизнеса Server](user-registration-report.md)
     

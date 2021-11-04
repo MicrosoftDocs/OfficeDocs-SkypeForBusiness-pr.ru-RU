@@ -1,7 +1,7 @@
 ---
 title: Параметры сети для расширенных Корпоративная голосовая связь в Skype для бизнеса Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,18 +16,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7f6de9e4-c8a4-44e4-8d14-21fe8c45283a
 description: Узнайте о сетевых регионах, сетевых сайтах и подсетях IP. Все они должны быть настроены для развертывания плана обхода мультимедиа в Skype для бизнеса, управления приемом вызовов в Skype для бизнеса Server или планирования служб экстренной помощи в Skype для бизнеса Server в Skype для бизнеса Server Корпоративная голосовая связь.
-ms.openlocfilehash: 97cf81bb3efa9aa5d4b8717018232d479fcbf2c3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fd81c9084ca94e7b0884d1c496c153fd964bcf89
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608006"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60762117"
 ---
 # <a name="network-settings-for-the-advanced-enterprise-voice-features-in-skype-for-business-server"></a>Параметры сети для расширенных Корпоративная голосовая связь в Skype для бизнеса Server
 
 Узнайте о сетевых регионах, сетевых сайтах и подсетях IP. Все они должны быть настроены для развертывания плана обхода мультимедиа в [Skype для бизнеса,](media-bypass.md)планирование [](emergency-services.md) управления приемом вызовов в [Skype для бизнеса Server](call-admission-control.md)или Планирование экстренных служб в Skype для бизнеса Server в Skype для бизнеса Server Корпоративная голосовая связь.
 
-Skype для бизнеса Server имеет три расширенных Корпоративная голосовая связь: Plan [for call admission control in Skype для бизнеса Server,](call-admission-control.md)Plan for [emergency services in Skype для бизнеса Server,](emergency-services.md)and [Plan for media bypass in Skype для бизнеса](media-bypass.md). Эти функции разделяют определенные требования к конфигурации для сетевых регионов, сетевых сайтов и связи каждой подсети в топологии Skype для бизнеса Server с сетевым сайтом.
+Skype для бизнеса Server имеет три расширенных Корпоративная голосовая связь: Plan [for call admission control in Skype для бизнеса Server](call-admission-control.md), Plan for [emergency services in Skype для бизнеса Server](emergency-services.md) и [планирование обхода мультимедиа в Skype для бизнеса](media-bypass.md). Эти функции разделяют определенные требования к конфигурации для сетевых регионов, сетевых сайтов и связи каждой подсети в топологии Skype для бизнеса Server с сетевым сайтом.
 
 В этом разделе представлен обзор требований к конфигурации, которые являются общими для всех трех этих расширенных Корпоративная голосовая связь функций.
 

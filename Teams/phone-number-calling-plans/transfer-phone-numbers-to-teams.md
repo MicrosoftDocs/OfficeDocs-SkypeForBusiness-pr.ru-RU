@@ -1,7 +1,7 @@
 ---
 title: Перенос номеров телефонов в Microsoft Teams
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: tonysmit
 ms.topic: article
@@ -19,12 +19,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Узнайте, как с помощью мастера переноса перенести номер телефона от текущего поставщика услуг в Microsoft Teams.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: b8c2b96da4750ec31616fa577063f58b57a17986
-ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
+ms.openlocfilehash: 2b86210d5e8ac7fe70db0e3774ee7483aad9236a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60733080"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60761747"
 ---
 # <a name="transfer-phone-numbers-to-microsoft-teams"></a>Перенос номеров телефонов в Microsoft Teams
 
@@ -87,9 +87,9 @@ ms.locfileid: "60733080"
 
 ## <a name="what-happens-next"></a>Что дальше?
 
-Когда мы получим ваш заказ на перенос, вы получите сообщение электронной почты с запросом. Ваш запрос проверяется и обновляется ежедневно, и вы будете уведомлены о ходе его выполнения и состоянии по электронной почте. Если проиграв оператор, ваш запрос на перенос будет отклонен, обратитесь в [службу TNS Service Desk.](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)
+Когда мы получим ваш заказ на перенос, вы получите сообщение электронной почты с запросом. Ваш запрос проверяется и обновляется ежедневно, и вы будете уведомлены о ходе его выполнения и состоянии по электронной почте. Если проиграв оператор, ваш запрос на перенос будет отклонен, обратитесь в [службу обслуживания TNS.](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)
 
-Чтобы просмотреть состояние заказа на перенос, в левой области навигации Центра администрирования Microsoft Teams перейдите в > **голосового** порта и щелкните История  >   **заказов**. Каждый статус заказа на перенос указан в **столбце Состояние.** Дополнительные узнать см. в этой теме. Каков [статус заказов на перенос.](port-order-status.md)
+Чтобы просмотреть состояние заказа на перенос, в левой области навигации Центра администрирования Microsoft Teams перейдите в **> заказы** на перенос голосовых портов и щелкните История  >   **заказов**. Каждый статус заказа на перенос указан в **столбце Состояние.** Дополнительные узнать см. в этой теме. Каков [статус заказов на перенос.](port-order-status.md)
 
 ## <a name="related-topics"></a>Статьи по теме
 
@@ -97,4 +97,4 @@ ms.locfileid: "60733080"
 - [Типы номеров телефонов, используемые в планах звонков](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 - [Управление номерами телефонов организации](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 - [Условия и положения, распространяющиеся на экстренные вызовы](../emergency-calling-terms-and-conditions.md)
-- [Заявление об отказе от ответственности экстренных вызовов](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+- [Отказ от ответственности для экстренных вызовов](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)

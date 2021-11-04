@@ -1,7 +1,7 @@
 ---
 title: Развертывание средства SEFAUtil в Skype для бизнеса
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb556e50-88dd-4404-a3d5-be36f5ba41e6
 description: Развертывание средства SEFAUtil в Skype для бизнеса Server.
-ms.openlocfilehash: 4848bc2c73cbcfc132bd996622a25512dedc2bf1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 40f35f227a2e1753f3362cd01b29883e06e1b893
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58612758"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60761537"
 ---
 # <a name="deploy-the-sefautil-tool-in-skype-for-business"></a>Развертывание средства SEFAUtil в Skype для бизнеса
  
@@ -72,9 +72,9 @@ ms.locfileid: "58612758"
     
 7. Убедитесь, что средство SEFAUtil работает правильно, следующим образом: 
     
-    а. Запустите средство из командной Windows с привилегиями администратора, чтобы отобразить параметры переададации вызовов пользователя в развертывании.
+    А. Запустите средство из командной Windows с привилегиями администратора, чтобы отобразить параметры переададации вызовов пользователя в развертывании.
     
-    б. Отображение параметров переададки вызовов пользователя. В командной строке выполните следующую команду:
+    Б. Отображение параметров переададки вызовов пользователя. В командной строке выполните следующую команду:
     
    ```console
    SEFAUtil.exe <user SIP address> /server:<Lync Server/Pool FQDN>

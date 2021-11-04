@@ -1,7 +1,7 @@
 ---
 title: Развертывание Skype для бизнеса Server 2019 г.
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 7/9/2018
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: Сводка. Ознакомьтесь с этими ссылками, чтобы узнать, как установить и настроить Skype для бизнеса Server 2019 г.
-ms.openlocfilehash: 44f1b932451d1e9da3bdf52066ad91d553f86b2b
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: defa81886e5ae2cda536776b35722d3c08e9700e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60012143"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60761623"
 ---
 # <a name="deploy-skype-for-business-server-2019"></a>Развертывание Skype для бизнеса Server 2019 г.
  
@@ -36,7 +36,7 @@ Skype для бизнеса Server предлагает решения для о
 
 Следующие статьи об установке и настройке Skype для бизнеса Server доступны для просмотра в Интернете. 
   
-|&nbsp;|Контент|Описание|
+|&nbsp;|Контентная|Описание|
 |:-----|:-----|:-----|
 |![Значок для документации.](/office/media/icons/paragraph-writing-blue.svg)|[Требования к системе для Skype для бизнеса Server 2019 г.](../plan/system-requirements.md)   |Узнайте о требованиях к серверу и окружающей среде для Skype для бизнеса Server.   |
 |![Значок для документации.](/office/media/icons/paragraph-writing-blue.svg)|[Основы топологии для Skype для бизнеса Server](../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md)  |Узнайте о вариантах топологии и сценариях коллокации сервера для Skype для бизнеса Server.   |
@@ -52,7 +52,7 @@ Skype для бизнеса Server предлагает решения для о
 
 Следующие ресурсы о планировании Skype для бизнеса Server доступны другими специалистами по предметам. 
   
-|&nbsp;|Контент|Описание|
+|&nbsp;|Контентная|Описание|
 |:-----|:-----|:-----|
 |![Значок для docs.](/office/media/icons/paragraph-writing-blue.svg)|[Skype для бизнеса Server для ИТ-специалистов](../../Hub/index.yml)  |Посетите центр ресурсов, чтобы получить доступ к видео, сайтам сообщества, документации, загрузкам и более.|
 |![Значок для контента разработчика.](/office/media/icons/developer-blue.svg)|[Skype Платформа разработчика](/skype-sdk/skypedeveloperplatform)  |Найдите ресурсы разработчика для Skype для бизнеса Server, включая примеры кода, обучение и SDKs.   |

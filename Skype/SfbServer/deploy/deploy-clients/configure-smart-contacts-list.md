@@ -1,7 +1,7 @@
 ---
 title: Настройка списка контактов Smart в Skype для бизнеса клиентах
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 4eecb5f7-3ef7-4582-a6cb-9f4aa068338d
 description: Сводка. Узнайте, как включить функцию списка контактов Smart в Skype для бизнеса клиенте.
-ms.openlocfilehash: d7e2957b6b8622ea8c3ce3dc2974e7dbb7ff51d4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f70ffcd6893c361262c0f0f8e712d7dd0db247e7
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58580003"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60775859"
 ---
 # <a name="configure-smart-contacts-list-in-skype-for-business-clients"></a>Настройка списка контактов Smart в Skype для бизнеса клиентах
 

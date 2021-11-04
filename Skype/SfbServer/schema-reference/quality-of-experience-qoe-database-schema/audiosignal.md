@@ -1,7 +1,7 @@
 ---
 title: Таблица AudioSignal
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/1/2018
@@ -13,18 +13,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 0013c8c6-cdf9-4d70-bc2a-cddd1560f66b
 description: Каждая запись представляет метрики звукового сигнала для одной конечной точки. Как правило, каждый вызов имеет две записи, одна для вызываемой, а одна для вызываемой.
-ms.openlocfilehash: 0f021b438fe31bf180ee06ce83dad86e01c04070
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1e4f7bf92448d4f2efefe3bfad4e1ca556ad44b8
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58592403"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60761787"
 ---
 # <a name="audiosignal-table"></a>Таблица AudioSignal
  
 Каждая запись представляет метрики звукового сигнала для одной конечной точки. Как правило, каждый вызов имеет две записи, одна для вызываемой, а одна для вызываемой. 
   
-|**Столбец**|**Тип данных**|**Key/Index**|**Details**|
+|**Столбец**|**Тип данных**|**Key/Index**|**Сведения**|
 |:-----|:-----|:-----|:-----|
 |**ConferenceDateTime** <br/> |datetime  <br/> |Primary  <br/> |Ссылки из [таблицы MediaLine](medialine-0.md).  <br/> |
 |**SessionSeq** <br/> |int  <br/> |Primary  <br/> |Ссылки из [таблицы MediaLine](medialine-0.md).  <br/> |

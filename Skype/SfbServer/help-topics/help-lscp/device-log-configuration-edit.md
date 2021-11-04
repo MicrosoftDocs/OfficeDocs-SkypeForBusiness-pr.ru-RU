@@ -1,7 +1,7 @@
 ---
 title: Изменение конфигурации журнала устройств
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: e534e6a5-fb3e-40b1-a189-fce64c42f512
 description: Вы можете добавить на страницу Изменение настройки журнала настройку журнала устройств, определяющую максимальный размер кэша журнала, максимальный размер файла журнала или длительность хранения файла журнала перед очисткой. Эти параметры можно изменить в соответствии с требованиями организации.
-ms.openlocfilehash: ff199e0fcf7257137307211827bd6d9a0e8a4c4c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b7f4dbd16ca9bbf03a74f84cfba15ca93e695743
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58579023"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60768977"
 ---
 # <a name="device-log-configuration-edit"></a>Конфигурация журнала устройств: редактирование
  
@@ -53,6 +53,6 @@ ms.locfileid: "58579023"
     
 - **Дни для сохраняемого файла журнала (1-365)** Вы можете указать количество дней, которые хранятся файлы журнала перед их чисткой. По умолчанию — 10 дней.
     
-## <a name="see-also"></a>Дополнительные материалы
+## <a name="see-also"></a>См. также
 
 [Конфигурация журнала устройств](device-log-configuration.md)

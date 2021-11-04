@@ -1,7 +1,7 @@
 ---
 title: Выбор пользователей корпоративной голосовой связи
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/8/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 91a63439-f2a4-47b3-8c4e-29c8f32ee3c5
 description: Используйте диалоговое окно Корпоративная голосовая связь пользователей, чтобы найти пользователей, которые включены для Корпоративная голосовая связь. В поле поиска введите SIP-адрес или отображаемое имя пользователя, которого требуется найти, а затем нажмите кнопку Найти. Чтобы выбрать пользователя, щелкните его в списке результатов поиска, а затем нажмите кнопку ОК. Если вы не можете найти пользователя, который вы ищете, этот пользователь может не быть включен для Корпоративная голосовая связь.
-ms.openlocfilehash: d557cf654cd8b573dab7efe34afeebd240f46b5b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d07316d8fe46924a8492e0c0358bd98ba2e0e6d6
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58584013"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60764017"
 ---
 # <a name="select-enterprise-voice-users"></a>Выбор пользователей корпоративной голосовой связи
  

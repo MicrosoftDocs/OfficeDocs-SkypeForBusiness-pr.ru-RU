@@ -1,7 +1,7 @@
 ---
 title: Управление высокой доступностью и восстановлением аварийности для сохраняемой сервера чата в Skype для бизнеса Server 2015 г.
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 1/31/2018
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 4346e70b-ac48-4ab9-853e-3cdd6dcfe678
 description: Сводка. Узнайте, как управлять высокой доступностью и восстановлением аварийного восстановления сохраняемой сервера чата в Skype для бизнеса Server 2015 г.
-ms.openlocfilehash: 5383a5bc1cb61e4886dcbe2087c6fb319ec4701e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3b45f38f1a530e91b75693196c5e64e206b10121
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58580573"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60774769"
 ---
 # <a name="manage-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Управление высокой доступностью и восстановлением аварийности для сохраняемой сервера чата в Skype для бизнеса Server 2015 г.
  

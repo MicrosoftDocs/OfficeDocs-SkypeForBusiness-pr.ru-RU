@@ -1,7 +1,7 @@
 ---
 title: Расширитель настроек шлюза ТСОП
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 0fd103df-150d-4ea8-b522-18dbc50f5061
 ROBOTS: NOINDEX, NOFOLLOW
 description: Чтобы изменить или отредактировать параметры телефонной сети общего пользования, измените значения следующих полей.
-ms.openlocfilehash: e7cc2d977c2d63bd14bcea8512a18d3921c442ac
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f26bc66b771b872f8601a7c9d6c8928781beca64
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58624021"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60769207"
 ---
 # <a name="pstn-gateway-settings-expander"></a>Расширитель параметров шлюза ТСОП
  

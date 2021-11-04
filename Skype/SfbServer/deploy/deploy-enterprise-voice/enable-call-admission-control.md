@@ -1,7 +1,7 @@
 ---
 title: Включить управление приемом вызовов в Skype для бизнеса Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 80201105-18f7-4c02-9c71-8df5a952f6c7
 description: Включить управление приемом вызовов в Skype для бизнеса Server Корпоративная голосовая связь.
-ms.openlocfilehash: 16accf41f2c5abcef6f4de10ebd73b2d163adacb
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b35e55bbe0a9929222eb5d67f7449e2247cf91e0
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58585759"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60775779"
 ---
 # <a name="enable-call-admission-control-in-skype-for-business-server"></a>Включить управление приемом вызовов в Skype для бизнеса Server
  
@@ -62,7 +62,7 @@ ms.locfileid: "58585759"
   
 6. Щелкните **Commit** (Применить). 
     
-## <a name="see-also"></a>Дополнительные материалы
+## <a name="see-also"></a>См. также
 
 [Get-CsNetworkConfiguration](/powershell/module/skype/get-csnetworkconfiguration?view=skype-ps)
   

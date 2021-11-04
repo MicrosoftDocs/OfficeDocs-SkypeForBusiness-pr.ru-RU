@@ -1,7 +1,7 @@
 ---
 title: Телефон управления номерами для Австрия
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: davlick,krkilaru
 ms.topic: reference
@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: В этой таблице вы найдете сведения о получении номеров телефонов в Австрия и управлении Microsoft Teams.
-ms.openlocfilehash: 411ec652189a9e6040731b9f5b21136fa44530c9
-ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
+ms.openlocfilehash: 6abf2814f37708e8ec13e071c34ab4f1c901f7c3
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60732850"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60761767"
 ---
 # <a name="phone-number-management-for-austria"></a>Телефон управления номерами для Австрия
 
@@ -35,8 +35,8 @@ ms.locfileid: "60732850"
 |**Требуемое действие**|**Скачайте подходящие формы и отправьте их нам**|
 |:-----|:-----|
 |Получите новые номера телефонов пользователей и служб, которые не указаны в Microsoft Teams центре администрирования.   <br/> |Скачайте одну из этих форм. <br/>  [Новый номер телефона для Австрия (v.5.0) (de-de)](https://download.microsoft.com/download/6/7/e/67e342b8-babc-4b85-bc0d-a7d9cdfa3d87/new-phone-number-request-for-austria-(v.5.0)-(de-de).pdf). <br/>  [Новый номер телефона для Австрия (v.5.0) (en-us)](https://download.microsoft.com/download/c/0/e/c0e39cf0-6fa1-41c6-95fd-6f69ed030d15/new-phone-number-request-for-austria-(v.5.0)-(en-us).pdf). <br/>  <br/>Заполните его и [обратитесь за инструкциями в службу TNS Service Desk.](contact-tns-service-desk.md) <br/>  <br/>Кроме того, необходимо включить в него счет за ст. 105. <br/> 
-|Перенаправь нам номера телефонов.  <br/> | Скачайте эту форму. <br/>[Док-досье (LOA) для Австрия (все номера) (v.5.0) (de-at)](https://download.microsoft.com/download/3/e/2/3e27f3ee-0f38-4d73-b8e8-b43b9e1d1381/letter-of-authorization-(loa)-for-austria-(all-numbers)-(v.5.0)-(de-at).pdf) <br/> <br/>Заполните его и [обратитесь за инструкциями в службу TNS Service Desk.](contact-tns-service-desk.md)  <br/> <br/>Кроме того, необходимо включить в него счет за ст. 1009, с которого вы хотите перенести номера.<br/> |
-|Публикация и публикация номеров телефонов в национальном телефонном каталоге.  <br/> |[Чтобы получить инструкции по](contact-tns-service-desk.md) отправке списка номеров телефонов, которые вы хотите опубликовать или от публикации, обратитесь в службу TNS Service Desk.      <br/> |
+|Перенаправь нам номера телефонов.  <br/> | Скачайте эту форму. <br/>[Док-досье (LOA) для Австрия (все номера) (v.5.0) (de-at)](https://download.microsoft.com/download/3/e/2/3e27f3ee-0f38-4d73-b8e8-b43b9e1d1381/letter-of-authorization-(loa)-for-austria-(all-numbers)-(v.5.0)-(de-at).pdf) <br/> <br/>Заполните его и [обратитесь за инструкциями в службу TNS Service Desk.](contact-tns-service-desk.md)  <br/> <br/>Кроме того, необходимо включить в счет за ст. ст. 365(с) адрес, на который вы хотите перенести номера.<br/> |
+|Публикация и публикация номеров телефонов в национальном каталоге телефонов.  <br/> |[Чтобы получить инструкции по](contact-tns-service-desk.md) отправке списка номеров телефонов, которые вы хотите опубликовать или от публикации, обратитесь в службу TNS Service Desk.      <br/> |
 |Измените номер пользователя на номер службы.  <br/> |[Чтобы получить инструкции по](contact-tns-service-desk.md) отправке списка пользовательских номеров, которые вы хотите преобразовать в номера служб, обратитесь в службу TNS Service Desk. <br/> |
 |Обновление службы каталогов для номеров очереди вызовов или автозаетаря|Чтобы добавить или изменить номера очереди вызовов или автозавода, обратитесь за инструкциями в [службу TNS Service Desk.](contact-tns-service-desk.md) |
 

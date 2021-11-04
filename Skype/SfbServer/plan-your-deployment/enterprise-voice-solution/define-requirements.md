@@ -1,7 +1,7 @@
 ---
 title: Определите требования к вызовам экстренных служб в Skype для бизнеса Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d891a212-8ad9-4bfa-9ca7-04921c46fb45
 description: Суммирует действия, необходимые для включения E9-1-1 в Skype для бизнеса Server Корпоративная голосовая связь, в зависимости от того, есть ли у вас поставщик услуг SIP-1-1 или шлюз ELIN.
-ms.openlocfilehash: e51b51f83279f9676ef113e032c406ee09c28fc2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5e60a9c7af7c1245058d4cf7ba54bd275c663a86
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631593"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60762167"
 ---
 # <a name="define-your-requirements-for-emergency-calls-in-skype-for-business-server"></a>Определите требования к вызовам экстренных служб в Skype для бизнеса Server
  

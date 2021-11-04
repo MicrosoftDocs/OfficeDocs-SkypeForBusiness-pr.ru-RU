@@ -1,7 +1,7 @@
 ---
 title: Видеодемонстрация экрана в Skype для бизнеса Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 ms.date: 2/20/2018
 manager: serdars
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 50755399-2228-4324-81db-c2bfc824c299
 description: Skype для бизнеса Server планирования и конфигурации для обмена экранами на основе видео (VbSS)
-ms.openlocfilehash: d4f7b7d9cee9cb87c24c8c78da8e6bf92eac039c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2921330887b4e52aee5069d2bd1f97992a015ba9
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58591133"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60762337"
 ---
 # <a name="video-based-screen-sharing-for-skype-for-business-server"></a>Видеодемонстрация экрана в Skype для бизнеса Server 
  
@@ -68,7 +68,7 @@ Skype для бизнеса Server людей с 1 по 1, а также их м
   
 **Параметры приложения Server QoS/VbSS**
 
-|**Property**|**Значение порта**|**Protocol** (Протокол)|
+|**Свойство**|**Значение порта**|**Protocol** (Протокол)|
 |:-----|:-----|:-----|
 |AudioPortStart  <br/> |49152  <br/> |UDP  <br/> |
 |AudioPortCount  <br/> |8348  <br/> |UDP  <br/> |
@@ -193,7 +193,7 @@ Skype для бизнеса Server людей с 1 по 1, а также их м
 > [!NOTE]
 > На многопартийном собрании Skype для бизнеса клиентские конечные точки будут соблюдать параметр политики организатора собрания. 
   
-## <a name="see-also"></a>Дополнительные материалы
+## <a name="see-also"></a>См. также
 
 [Skype для бизнеса Server 2015 накопительное обновление KB3061064](https://www.microsoft.com/download/details.aspx?id=47690)
   

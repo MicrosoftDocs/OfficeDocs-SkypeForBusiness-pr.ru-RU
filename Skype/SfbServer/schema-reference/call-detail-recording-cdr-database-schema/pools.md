@@ -1,7 +1,7 @@
 ---
 title: Таблица пулов
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,18 +13,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: e0632b8d-e23a-4365-8a7a-6ca0957a46a9
 description: Таблица Пулы — это вспомогательная таблица, которая хранит сведения о различных пулах. Каждая запись в таблице представляет один пул.
-ms.openlocfilehash: 4628f0fbeabd88059c3615c1bbecc23272d65721
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 03a68942bf87f6946ab1335e20b6809a766d441e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58584833"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60762057"
 ---
 # <a name="pools-table"></a>Таблица пулов
  
 Таблица Пулы — это вспомогательная таблица, которая хранит сведения о различных пулах. Каждая запись в таблице представляет один пул.
   
-|**Столбец**|**Тип данных**|**Key/Index**|**Details**|
+|**Столбец**|**Тип данных**|**Key/Index**|**Сведения**|
 |:-----|:-----|:-----|:-----|
 |**PoolId** <br/> |int  <br/> |Primary  <br/> |Уникальный номер, определяющий пул.  <br/> |
 |**PoolFQDN** <br/> |nvarchar (256)  <br/> | <br/> |Полное доменное имя пула.  <br/> |

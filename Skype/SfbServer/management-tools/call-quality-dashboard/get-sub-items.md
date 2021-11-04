@@ -1,7 +1,7 @@
 ---
 title: Получение вложенных элементов
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 0542eba9-3dda-40de-bba8-095d22825e4e
 description: Сводка. Сведения об операции Get Sub-Items, которая является частью службы элементов. Служба элементов является частью API репозиториев для панели мониторинга качества вызовов. Панель мониторинга качества вызовов — это средство для Skype для бизнеса Server.
-ms.openlocfilehash: 0fb1421d604cce450d28077558f2d00f20c2ff01
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3d17ab46ece202ea36dce45b6266a1cd3de74928
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58591123"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60774649"
 ---
 # <a name="get-sub-items"></a>Получение вложенных элементов
  
