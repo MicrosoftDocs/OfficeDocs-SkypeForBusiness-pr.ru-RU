@@ -1,7 +1,7 @@
 ---
 title: Добавление компонентов переднего плана
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 97441ec2-573a-4ba4-ab4c-df4cf6baf321
 description: Выберите все возможности, которые хотите включить для интерфейсного пула. Следует развернуть по крайней мере систему обмена мгновенными сообщениями, так как эта возможность всегда выбрана и не может быть отключена. У вас также есть возможность развертывания других функций, таких как conferencing, Корпоративная голосовая связь и управление приемом вызовов (CAC). Некоторые компоненты являются зависимыми от топологии.
-ms.openlocfilehash: 79aadaa3d7adde3c047c6d389626d72fbfc88dc3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8533809926dddae453ec9d015abb81e9e87745f3
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58578953"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60770507"
 ---
 # <a name="add-front-end-features"></a>Добавление компонентов переднего плана
 

@@ -1,7 +1,7 @@
 ---
 title: Определение правил перевода в Skype для бизнеса Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Skype для бизнеса Server Корпоративная голосовая связь маршрутов вызовов на основе номеров телефонов, нормализуемого до формата E.164. Это означает, что все набраные строки необходимо нормализовать до формата E.164 для выполнения обратного набора номеров (RNL), чтобы они могли быть переведены на их соответствие SIP URI. Skype для бизнеса Server предоставляет возможность манипулировать вызываемой и вызываемой презентацией.
-ms.openlocfilehash: ca51ef7cbb1619877abf1291ffaa2c76087ec6d3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9dee0e90a9cd06abef43d190cc391861f4ad1438
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58629641"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60737725"
 ---
 # <a name="defining-translation-rules-in-skype-for-business-server"></a>Определение правил перевода в Skype для бизнеса Server
 

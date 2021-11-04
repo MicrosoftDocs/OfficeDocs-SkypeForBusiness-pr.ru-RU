@@ -1,7 +1,7 @@
 ---
 title: Управление базами данных с помощью группы доступности AlwaysOn в Skype для бизнеса Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 026c4469-f471-4e4f-a77d-a7d22a925e5a
 description: Сводка. Сведения о добавлении дополнительных Skype для бизнеса Server баз данных в существующую группу доступности AlwaysOn и сведения о необходимых дополнительных действиях после исправления или обновления back end Server, который входит в группу доступности AlwaysOn в Skype для бизнеса Server.
-ms.openlocfilehash: a4c809aaaea4932185bb8a63fa4767784d745988
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c47d5833b7569faa424415b1e5b7315bab4d4aae
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608076"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60756996"
 ---
 # <a name="manage-databases-with-an-alwayson-availability-group-in-skype-for-business-server"></a>Управление базами данных с помощью группы доступности AlwaysOn в Skype для бизнеса Server
 

@@ -1,7 +1,7 @@
 ---
 title: Переход с локальной среды Skype для бизнеса на Teams
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -20,16 +20,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e8d8b104354e442116dd908b686bc5e1d18f22d2
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 584243197f15b746a0fa5638fbba3141e93f34bd
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58731158"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777139"
 ---
 # <a name="upgrade-from-a-skype-for-business-on-premises-deployment-to-teams"></a>Обновление с локального Skype для бизнеса до Teams
 
-![Этапы пути обновления с акцентом на этапе развертывания и реализации.](media/upgrade-banner-deployment.png "Этапы пути обновления с акцентом на этапе развертывания и внедрения")
+![Этапы пути обновления с акцентом на этапе развертывания и реализации.](media/upgrade-banner-deployment.png "Этапы пути обновления с акцентом на этапе развертывания и реализации")
 
 Эта статья является частью этапа развертывания и реализации, на который вы входите. Прежде чем при этом подтверждать, что вы выполнили следующие действия:
 
@@ -50,13 +50,13 @@ ms.locfileid: "58731158"
 
 Для обновления пользователей до Teams необходимо развернуть гибридное подключение.
 
-Дополнительные сведения см. в [теме Развертывание гибридного](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity) подключения между Skype для бизнеса Server и Skype для бизнеса Online.
+Дополнительные сведения см. в [теме Развертывание](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity) гибридного подключения между Skype для бизнеса Server и Skype для бизнеса Online.
 
 ## <a name="step-2-implement-your-chosen-upgrade-journey-for-your-organization"></a>Шаг 2. Реализация выбранного пути обновления для организации
 
 После завершения гибридной настройки вы можете запланировать перемещение пользователей на Microsoft 365 или Office 365.
 
-Дополнительные сведения см. в:
+Дополнительные сведения см. в
 
 - [TeamsUpgradePolicy: управление миграцией и сосуществованием.](upgrade-to-teams-on-prem-tools.md)
 
@@ -64,8 +64,8 @@ ms.locfileid: "58731158"
 
 ## <a name="phone-system-and-teams-upgrade"></a>телефонная система и Teams обновления
 
-Переход с локальной телефонной системы на Teams позволит вам использовать преимущества прямой маршрутации телефонная система ("Прямая маршрутия") или планов звонков, предоставленных Майкрософт для Microsoft 365 или Office 365.
+Переход с локальной телефонной системы на Teams позволит вам воспользоваться преимуществами прямой маршрутиации телефонная система ("Прямая маршрутия") или планов звонков, предоставленных Майкрософт для Microsoft 365 или Office 365.
 
 Если вы не используете планы звонков, необходимо перейти с корпоративного развертывания голосовой связи на прямую маршрутиз телефонная система в рамках обновления до Teams.
 
-Дополнительные сведения см. в [дополнительных сведениях о прямой телефонная система маршрутии.](./direct-routing-landing-page.md) Если вы планируете использовать планы звонков, обратитесь к нашим рекомендациям по переносу номеров телефонов [в Teams.](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)
+Дополнительные сведения см. [в дополнительных сведениях о прямой телефонная система маршрутии.](./direct-routing-landing-page.md) Если вы планируете использовать планы звонков, обратитесь к нашим рекомендациям по переносу номеров телефонов [в](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)Teams.

@@ -1,7 +1,7 @@
 ---
 title: Таблица конференций Skype для бизнеса Server 2015 г.
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 7/15/2015
@@ -13,18 +13,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c3da6271-b3c6-4898-894f-10456ec794d0
 description: Каждая запись в этой таблице содержит сведения об одной конференции.
-ms.openlocfilehash: dfc1c12908e60c7a5b205c154e30175168871ceb
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 22d394ca447852a32d8028770d7ceefea7adbcf1
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58635213"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763417"
 ---
 # <a name="conferences-table-in-skype-for-business-server-2015"></a>Таблица конференций Skype для бизнеса Server 2015 г.
  
 Каждая запись в этой таблице содержит сведения об одной конференции.
   
-|**Столбец**|**Тип данных**|**Key/Index**|**Details**|
+|**Столбец**|**Тип данных**|**Key/Index**|**Сведения**|
 |:-----|:-----|:-----|:-----|
 |**SessionIdTime** <br/> |datetime  <br/> |Primary  <br/> |Время, когда запрос конференции был захвачен агентом CDR. Используется только в качестве основного ключа для уникальной идентификации экземпляра конференции.  <br/> |
 |**SessionIdSeq** <br/> |int  <br/> |Primary  <br/> |Идентификатор сеанса. Используется совместно с **SessionIdTime** для уникальной идентификации экземпляра конференции. * <br/> |

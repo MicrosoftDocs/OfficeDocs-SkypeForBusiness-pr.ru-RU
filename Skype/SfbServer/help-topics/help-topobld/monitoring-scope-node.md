@@ -1,7 +1,7 @@
 ---
 title: Узел области мониторинга
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/25/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 05867db5-ad62-41e3-b1ac-f21f43d1e90b
 description: 'В Lync Server 2013 Topology Builder можно выполнять задачи, связанные с отдельным сервером, на который выполняется мониторинг, щелкнув правой кнопкой мыши на сервере Мониторинга в дереве консоли, нажав действие на панели инструментов или щелкнув задачу в области Действия, а затем щелкнув один из следующих вариантов для сервера, запущенного в мониторинге:'
-ms.openlocfilehash: 4513a0ea5c28d465cd1fc8d8cf949cb09499a7af
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 60bc8ce6abdd8c0ede5e40cce6438223d1e88e16
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630723"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60770417"
 ---
 # <a name="monitoring-scope-node"></a>Узел области мониторинга
  
@@ -28,7 +28,7 @@ ms.locfileid: "58630723"
   
 - **Изменить свойства**. Открывает страницу **Edit Properties** для сервера с мониторингом, на котором можно изменить полностью квалифицированное доменное имя (FQDN) сервера мониторинга или базы данных мониторинга SQL Server мониторинга.
     
-- **удаление**. Удаляет сервер мониторинга из топологии и SQL Server базы данных.
+- **Delete**. Удаляет сервер мониторинга из топологии и SQL Server базы данных.
     
 Помимо приведенных выше в этом разделе параметров сервера мониторинга имеются общие параметры узла "Мониторинг", которые также доступны в других узлах дерева консоли. Сюда входят следующие параметры:
   

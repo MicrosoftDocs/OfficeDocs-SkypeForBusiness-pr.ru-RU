@@ -1,7 +1,7 @@
 ---
 title: Управление Skype для бизнеса Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 603ccdfd-9985-41d8-a526-8570ba9b1b76
 description: Сводка. Ознакомьтесь с этими ссылками, чтобы узнать, как управлять и поддерживать Skype для бизнеса Server.
-ms.openlocfilehash: 550e05fdfefb5f3743452b2ecf080b9835297b45
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 23312383a68b05de6d93e52b68f3b5c4c36192dd
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60012523"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763605"
 ---
 # <a name="manage-skype-for-business-server"></a>Управление Skype для бизнеса Server 
 
@@ -32,7 +32,7 @@ Skype для бизнеса Server предлагает решения для о
 
 Дополнительные сведения об управлении Skype для бизнеса Server.
   
-|&nbsp;|Контент|Описание|
+|&nbsp;|Контентная|Описание|
 |:-----|:-----|:-----|
 |![Значок для технических схем.](../media/87de0d09-77fd-46f2-b9f6-99a7998fd332.png)|[Технические схемы для Skype для бизнеса Server](../technical-diagrams.md)  |См. краткое описание вариантов архитектуры на этих крупноформатных схемах.   |
 |![Значок для видео.](../media/143e0d86-1c68-482a-9bf9-93e7966acca0.png)|Видео демонстрации и обучение —  *скоро!*   |Откройте для себя видео-презентации и обучение для Skype для бизнеса Server.   |
@@ -41,7 +41,7 @@ Skype для бизнеса Server предлагает решения для о
 
 Следующие статьи о настройке, мониторинге и Skype для бизнеса Server доступны для просмотра в Интернете. 
   
-|&nbsp;|Контент|Описание|
+|&nbsp;|Контентная|Описание|
 |:-----|:-----|:-----|
 |![Числовая как значок.](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Управление топологией в Skype для бизнеса Server](topology/topology.md)  |Темы в этом разделе предоставляют пошаговую процедуру обновления, обновления, добавления и удаления серверов с помощью Skype для бизнеса Server панели управления и Skype для бизнеса Server Management Shell.   |
 |![Числовая как значок.](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Управление состоянием и мониторингом в Skype для бизнеса Server](health-and-monitoring/health-and-monitoring.md)  |Разделы в этом разделе предоставляют пошаговую процедуру мониторинга и задач конфигурации здоровья, которые можно выполнить с помощью панели управления Skype для бизнеса Server и Skype для бизнеса Server Management Shell.   |

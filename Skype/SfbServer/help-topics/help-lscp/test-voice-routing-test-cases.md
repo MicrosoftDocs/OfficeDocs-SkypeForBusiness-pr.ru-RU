@@ -1,7 +1,7 @@
 ---
 title: Тестовые тестовые случаи маршрутивки голосовой маршрутики
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: d683c9e6-a2e4-4c6c-89d3-b60ed26de592
 description: Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
-ms.openlocfilehash: f528ef867e8cfcc43d96830d64301ceee4623f30
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4e737d9a7559b8c42cd1e4c39adf792d45a2e17b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618905"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763957"
 ---
 # <a name="test-voice-routing-test-cases"></a>Тестирование маршрутизации голосовой связи: тестовые сценарии
 

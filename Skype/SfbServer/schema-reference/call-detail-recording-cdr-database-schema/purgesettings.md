@@ -1,7 +1,7 @@
 ---
 title: Таблица PurgeSettings
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 10/20/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 9ff2c8fc-4ae8-4f22-96a8-1f4d5eecbf2d
 description: 'Таблица параметров очистки PurgeSettings содержит сведения, указывающие, следует ли автоматически удалять устаревшие записи регистрации вызовов из базы данных CDR, и когда это следует делать. Обратите внимание, что сведения, связанные с чисткой, также можно получить из Skype для бизнеса Server 2015 г., задав следующую команду:'
-ms.openlocfilehash: 3f1f596bd6e8d61c491c93c3664e1f4d110ccf8b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a2b5bc874f6145a121cfb8a43702ab55ab0a5e1d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58623471"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763317"
 ---
 # <a name="purgesettings-table"></a>Таблица PurgeSettings
  
@@ -32,7 +32,7 @@ Get-CsCdrConfiguration
   
 Эта таблица была представлена в Microsoft Lync Server 2013.
   
-|**Столбец**|**Тип данных**|**Key/Index**|**Details**|
+|**Столбец**|**Тип данных**|**Key/Index**|**Сведения**|
 |:-----|:-----|:-----|:-----|
 |**Id** <br/> |int  <br/> |Primary  <br/> |Уникальный идентификатор для набора параметров очистки CDR.  <br/> |
 |**EnablePurge** <br/> |bit  <br/> ||При наборе True (1) Skype для бизнеса Server 2015 г. периодически очищает устаревшие записи из базы данных CDR. Очистка будет происходить каждый день во время, установленное с помощью параметра PurgeHour. Если задано значение False (0), записи не будут очищаться автоматически. Значение по умолчанию — True.  <br/> |

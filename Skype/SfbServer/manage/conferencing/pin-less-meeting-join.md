@@ -1,7 +1,7 @@
 ---
 title: Настройка собрания без ПИН-кода в Skype для бизнеса Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c21e8861-bb75-45e8-8485-38daa3b8121c
 description: Сводка. Сведения о настройке параметра присоединиться к собранию без ПИН-кода в Skype для бизнеса Server.
-ms.openlocfilehash: 5e11a727e42ce4d65e21d3e001404a421fc52541
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1f579a3f88553130bec68a1e6e6070c742f8824d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617895"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60770267"
 ---
 # <a name="configure-pin-less-meeting-join-in-skype-for-business-server"></a>Настройка собрания без ПИН-кода в Skype для бизнеса Server
  

@@ -1,7 +1,7 @@
 ---
 title: Расширитель параметров веб-служб
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: aefc9f51-a171-4a58-be65-7accb470cb2a
 ROBOTS: NOINDEX, NOFOLLOW
 description: В topology Builder можно изменить параметры порта, используемые как для внутренних, так и для внешних веб-служб. Кроме того, при развертывании балансировки нагрузки системы доменных имен (DNS) можно использовать Topology Builder для настройки полностью квалифицированного доменного имени (FQDN) пула, который решается на физические IP-адреса всех серверов этого пула.
-ms.openlocfilehash: f160259a78f5d95bd7e5e7e974579ddebe738115
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d0302c3f892840e32e3efa4342f389e6e24e0206
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596993"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60748455"
 ---
 # <a name="web-services-settings-expander"></a>Расширитель параметров веб-служб
  

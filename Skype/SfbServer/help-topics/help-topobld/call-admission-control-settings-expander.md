@@ -1,7 +1,7 @@
 ---
 title: Расширитель параметров контроля допуска звонков
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/25/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: dc94f75e-9abe-4e02-b835-3c845b317d65
 description: Контроль доступа звонков — это сеть регионов, сайтов и подсетей, которые позволяют вам налагать ограничения на передачу звука и видео в зависимости от доступной пропускной способности. После настройки сети на использование контроля доступа звонков, следует включить контроль доступа звонков для применения заданных ограничений.
-ms.openlocfilehash: 23a881bf502a161a5a81e17a23a889ff1324f6c4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7cd2a5d6637ce6d486bdaf70bc279ab4db10fc0b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58582773"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60747769"
 ---
 # <a name="call-admission-control-settings-expander"></a>Расширитель параметров контроля допуска звонков
  

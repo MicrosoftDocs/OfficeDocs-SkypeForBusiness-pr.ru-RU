@@ -1,7 +1,7 @@
 ---
 title: Доступность в 100%2016
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: fafan
 ms.topic: reference
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Ниже ются Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Заметь.
-ms.openlocfilehash: 1d99352da922f2fa51850aca41be2fcc022ed1e6
-ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
+ms.openlocfilehash: f09690f0614f389e25c0bff0540c33beb3936206
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60732701"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777579"
 ---
 # <a name="availability-in-guatemala"></a>Доступность в 100%2016
 

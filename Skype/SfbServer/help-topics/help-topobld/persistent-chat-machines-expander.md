@@ -1,7 +1,7 @@
 ---
 title: Расширитель параметров компьютеров сохраняемого чата
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/27/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 15bc1c8f-71bd-4d66-bba1-cac0f2fe90bf
 description: Вы активируете или деактивируете развернутый постоянный чат-сервер или пул постоянных чат-серверов с помощью серверов или пулов, перечисленных в параметрах состояния Машины. Выберите сервер или пул в списке и нажмите кнопку Сделать активную, чтобы настроить сервер или пул как активный.
-ms.openlocfilehash: 0bf6d926fe7ee7cdfa985fa707a73d2a83316f03
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 39d1ae3c72d387dea016ee4d76aeb14a6e7b12d1
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58633023"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763927"
 ---
 # <a name="persistent-chat-machines-expander"></a>Расширитель параметров компьютеров сохраняемого чата
  

@@ -1,7 +1,7 @@
 ---
 title: Просмотр сертификата
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: bfc6db2d-141e-4395-819a-65ba4629ccca
 description: На странице Просмотр сертификата имеется панель, на которой можно выбрать любой действующий сертификат в локальном хранилище сертификатов. Выберите сертификат и нажмите кнопку Просмотреть сведения о сертификате. Откроется новая панель с сертификатом. На панели Сертификат можно просмотреть общие сведения о сертификате. На вкладке Сведения отображается подробная информация о сертификате, например имя субъекта и альтернативное имя субъекта. Путь сертификации отображает путь к доверительному пути для сертификата. Завершив просмотр информации, нажмите кнопку ОК.
-ms.openlocfilehash: ffc3e6d39f4b8bd2513aa005263d7371653c44c2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f8c38d6a2270166593f57d26776815249e537f99
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58599242"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60748305"
 ---
 # <a name="view-certificate"></a>Просмотр сертификата
  

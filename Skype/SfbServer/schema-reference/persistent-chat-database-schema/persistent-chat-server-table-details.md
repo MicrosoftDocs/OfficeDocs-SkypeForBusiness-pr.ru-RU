@@ -1,7 +1,7 @@
 ---
 title: Данные таблицы сервера сохраняемого чата
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -13,18 +13,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c22d4a76-da50-49de-9038-e0ed7b8e1b58
 description: В следующих статьях подробно оговарились столбцы в каждой из таблиц схемы базы данных сохраняемого чата.
-ms.openlocfilehash: 68c526a3548f8d52546f3b7ec56a9b317529e03c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8b43994f63f02315fcfc6f66884a4c6a52cbee3c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58578623"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763297"
 ---
 # <a name="persistent-chat-server-table-details"></a>Данные таблицы сервера сохраняемого чата
  
 В следующих статьях подробно оговарились столбцы в каждой из таблиц схемы базы данных сохраняемого чата.
   
-## <a name="in-this-section"></a>В этой статье
+## <a name="in-this-section"></a>В этом разделе
 
 - [tblADCookie](tbladcookie.md)
     

@@ -1,7 +1,7 @@
 ---
 title: Определение полного доменного имени сохраняемого чата
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/27/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: e0123fa6-008b-430e-a68b-61f0cc3fb12e
 description: Вы создаете новый постоянный чат-сервер или пул постоянных чат-серверов с помощью мастера Define New Persistent Chat Pool. Выберите Пул из нескольких компьютеров или Пул из одного компьютера. Если вы выберете один пул компьютеров, а затем потребуется несколько пулов компьютеров, вам потребуется удалить пул одного компьютера, а затем определить несколько пулов компьютеров.
-ms.openlocfilehash: 2136d740a451670fe01d3123c48c63f3d7de0cc1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b443b9a525c2c500de7cf92b104441f7b3a2df72
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58622461"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60747747"
 ---
 # <a name="define-persistent-chat-fqdn"></a>Определение полного доменного имени сохраняемого чата
  

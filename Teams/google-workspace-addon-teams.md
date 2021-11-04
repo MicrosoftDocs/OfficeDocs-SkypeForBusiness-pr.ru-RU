@@ -1,7 +1,7 @@
 ---
 title: Настройка надстройки Microsoft Teams собрания для Google Workspace
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 ms.reviewer: aravin
 manager: serdars
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: msteams
 searchScope:
 - Microsoft Teams
 search.appverid: MET150
-description: Узнайте, как настроить Microsoft Teams собраний для Google Workspace.
+description: Узнайте, как настроить Microsoft Teams собрания в Google Workspace.
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fb5f7574bd5e07598c412cd7d17f02625de2f095
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 05f3c4553e20bb9c02ff99dcf8ad452af05f054e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729918"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777209"
 ---
 # <a name="set-up-microsoft-teams-meeting-add-on-for-google-workspace"></a>Настройка надстройки Microsoft Teams собрания для Google Workspace
 
@@ -33,7 +33,7 @@ ms.locfileid: "58729918"
 
 ## <a name="enable-or-disable-microsoft-teams-meeting-add-on-for-google-workspace-in-the-azure-portal"></a>Enable or disable Microsoft Teams meeting add-on for Google Workspace in the Azure portal
 
-Как администратор клиента вы можете включить или отключить надстройку Microsoft Teams собраний для Google Workspace из учетной записи администратора организации на портале Azure.
+Администратор клиента может включить или отключить надстройку Microsoft Teams собрания для Google Workspace из учетной записи администратора организации на портале Azure.
 
 Надстройка включена по умолчанию.
 
@@ -41,7 +41,7 @@ ms.locfileid: "58729918"
 
 2. Выберите **Enterprise все**  >  **приложения**.
 
-3. Поиск **надстройки Microsoft Teams собрания в Google Workspace.**
+3. Поиск **надстройки Microsoft Teams собрания для Google Workspace.**
 
    ![Портал Azure со всеми приложениями.](media/aad-add-google-workspace.png)
 
@@ -49,7 +49,7 @@ ms.locfileid: "58729918"
 
    ![Портал Azure со свойствами рабочей области Google.](media/google-workspace-properties.png)
 
-5. (Необязательно) Чтобы отключить надстройку, на шаге 4 выберите **Нет** вместо **Да.**
+5. (Необязательно) Чтобы отключить надстройку, в шаге 4 выберите **Нет** вместо **Да.**
 
 ## <a name="disable-microsoft-teams-meeting-add-on-for-google-workspace-using-powershell"></a>Отключение Microsoft Teams собрания в Google Workspace с помощью PowerShell
 
@@ -73,7 +73,7 @@ if ($servicePrincipal) {
 }
 ```
 
-Дополнительные сведения см. [в этой Azure PowerShell.](/powershell/azure/create-azure-service-principal-azureps?view=azps-5.0.0)
+Дополнительные сведения см. в [этой](/powershell/azure/create-azure-service-principal-azureps?view=azps-5.0.0)Azure PowerShell.
 
 ## <a name="delete-the-microsoft-teams-meeting-add-on-for-google-workspace"></a>Удаление надстройки Microsoft Teams собрания Google Workspace
 

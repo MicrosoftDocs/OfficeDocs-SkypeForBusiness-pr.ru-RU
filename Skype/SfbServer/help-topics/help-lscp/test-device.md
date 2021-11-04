@@ -1,7 +1,7 @@
 ---
 title: Тестовое устройство
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/23/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: a1ea564c-f403-4f61-a36b-5a429708e7ca
 description: Вы можете добавить устройство проверки на страницу Устройство проверки и затем использовать его для проверки функциональных возможностей новых обновлений перед их развертыванием на производственных устройствах. Вы можете протестировать устройство глобально (во всей среде) или на одном сайте. Устройство проверки указывается по MAC-адресу или серийному номеру. При добавлении устройства оно отображается в списке на странице тестового устройства панели Skype для бизнеса Server управления.
-ms.openlocfilehash: 5e2d3be8ca9b010e97020004c3cb46c732d1ebc1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 96e9c12444293f6fa7aa0c12f538fae0241474d3
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631713"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60748065"
 ---
 # <a name="test-device"></a>Тестовое устройство
 
@@ -42,7 +42,7 @@ ms.locfileid: "58631713"
 
   - Глобальные
 
-  - Сайт
+  - Site
 
 - **Изменение** Можно изменить параметры тестового устройства в списке. С помощью этой команды можно выполнить следующие действия:
 

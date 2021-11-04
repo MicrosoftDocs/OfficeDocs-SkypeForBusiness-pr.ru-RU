@@ -1,7 +1,7 @@
 ---
 title: Связывание сервера переднего плана с архивированием
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: a0d732ab-e845-4f46-8f7b-3ba506597a92
 ROBOTS: NOINDEX, NOFOLLOW
 description: С каждым интерфейсным пулом и устройством для обеспечения связи в филиалах может быть связан только один сервер архивации. Когда для сайта включена архивация, сервер архивации собирает и записывает содержимое обмена мгновенными сообщениями и веб-конференций из бесед с пользователями, размещенными в связанных пулах и устройствах для обеспечения связи в филиалах.
-ms.openlocfilehash: 71b8c9fe38ea292d541c180a997ae4d0551068b3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 59245f68fb75a1e2cd459ab342ea2eaf2c818291
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631783"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741105"
 ---
 # <a name="associate-front-end-with-archiving"></a>Связывание сервера переднего плана с архивированием
  

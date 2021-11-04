@@ -1,7 +1,7 @@
 ---
 title: Запрос сертификата (учетная запись центра сертификации)
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 6251322d-ac36-4760-b467-bcd543af22aa
 description: Для отправки запроса ваш центр сертификации может потребовать другие учетные данные, отличающиеся от тех, с которыми вы вошли в систему. Чтобы разрешить отправку запроса сертификата от имени другого пользователя, установите флажок Указать другие учетные данные для центра сертификации и введите имя пользователя или домен\имя пользователя для того пользователя, который может запрашивать сертификат. В текстовом поле Пароль введите пароль для указанного пользователя. Имя пользователя и пароль затем отправляются в локальный центр сертификации как часть процесса запроса сертификата, но не в самом запросе сертификата.
-ms.openlocfilehash: 7ff5c20d14e2d42688424866f2f463996aff0d8c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 013d5caa627f1fe24755a0b39d7b993cf1f47ba7
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58626771"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60748375"
 ---
 # <a name="certificate-request-certificate-authority-account"></a>Запрос сертификата (учетная запись центра сертификации)
  

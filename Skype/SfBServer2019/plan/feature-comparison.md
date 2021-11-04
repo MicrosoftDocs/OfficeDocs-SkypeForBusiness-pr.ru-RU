@@ -1,6 +1,6 @@
 ---
 title: Сравнение функций клиента настольных компьютеров Skype для бизнеса Server 2019 г.
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 ms.reviewer: PhillipGarding
 manager: serdars
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: Сводка. Skype для бизнеса Server 2019 или Skype для бизнеса online администраторы могут использовать эти таблицы, чтобы понять, какие функции поддерживаются в каких клиентах.
-ms.openlocfilehash: 5cfe72bbb680a6b127505b57456de2d513fd41bd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 556b88bfe587d1d5a5a1c78461863f0ae8f8fbbf
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58592953"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777409"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2019"></a>Сравнение функций клиента настольных компьютеров Skype для бизнеса Server 2019 г.
 
@@ -34,7 +34,7 @@ ms.locfileid: "58592953"
 В следующих таблицах представлены функции, доступные каждому клиенту, который работает с Skype для бизнеса Server 2019 или Skype для бизнеса Online. Вы также можете сослаться на сравнение функций [мобильных](../../SfbServer/plan-your-deployment/clients-and-devices/mobile-feature-comparison.md) клиентов для Skype для бизнеса для сравнения функций смартфона и планшета. Лицензия на доступ к клиентам или лицензия на подписку на пользователя, приобретаемая организацией, также повлияет на то, какие функции доступны пользователям. Развертывание клиента Full или Basic для пользователей зависит от лицензии или плана, который выбирает ваша организация. Дополнительные [сведения см. в руководстве](https://products.office.com/skype-for-business/it-pros) по лицензированию.
 
 > [!IMPORTANT]
-> Skype для бизнеса Server 2019 и Skype для бизнеса Online поддерживают следующие ранее выпущенные клиенты: Lync 2013, Skype для бизнеса 2015 и Skype для бизнеса 2016, а также клиент Skype для бизнеса 2019. Сведения об этих клиентах, используемых с другими серверами, см. в таблицах сравнения клиентов [для Lync Server 2013](/previous-versions/office/lync-server-2013/lync-server-2013-desktop-client-comparison-tables) и сопоставления функций настольных компьютеров за [Skype для бизнеса 2015](../../SfbServer/plan-your-deployment/clients-and-devices/desktop-feature-comparison.md)г. . 
+> Skype для бизнеса Server 2019 и Skype для бизнеса Online поддерживают следующие ранее выпущенные клиенты: Lync 2013, Skype для бизнеса 2015 и Skype для бизнеса 2016, а также Skype для бизнеса 2019 г. клиента. Сведения об этих клиентах, используемых с другими серверами, см. в таблицах сравнения клиентов [для Lync Server 2013](/previous-versions/office/lync-server-2013/lync-server-2013-desktop-client-comparison-tables) и сопоставления функций настольных компьютеров за [Skype для бизнеса 2015](../../SfbServer/plan-your-deployment/clients-and-devices/desktop-feature-comparison.md)г. . 
 
 
 > [!NOTE]

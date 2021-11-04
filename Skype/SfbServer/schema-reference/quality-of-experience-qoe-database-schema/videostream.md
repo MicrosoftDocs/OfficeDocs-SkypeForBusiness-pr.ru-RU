@@ -1,7 +1,7 @@
 ---
 title: Таблица VideoStream
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/1/2018
@@ -13,18 +13,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 4275ede7-5467-4a97-b8c8-a4b00917bf32
 description: Каждая запись представляет собой один видеопоток. Одна линия мультимедиа видео обычно содержит два видеопотока.
-ms.openlocfilehash: af8ae55e805019b91e9c1750d7bb036bcf79c6f7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 78bc415c7b95fd0f9b6ecb3f3242b5a29c93c0dd
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58628521"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60756070"
 ---
 # <a name="videostream-table"></a>Таблица VideoStream
  
 Каждая запись представляет собой один видеопоток. Одна линия мультимедиа видео обычно содержит два видеопотока.
   
-|**Столбец**|**Тип данных**|**Key/Index**|**Details**|
+|**Столбец**|**Тип данных**|**Key/Index**|**Сведения**|
 |:-----|:-----|:-----|:-----|
 |**ConferenceDateTime** <br/> |datetime  <br/> |Primary  <br/> |Ссылки из [таблицы MediaLine](medialine-0.md).  <br/> |
 |**SessionSeq** <br/> |int  <br/> |Primary  <br/> |R Ссылки из [таблицы MediaLine](medialine-0.md).  <br/> |

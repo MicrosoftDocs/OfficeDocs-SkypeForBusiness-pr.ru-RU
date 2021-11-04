@@ -1,7 +1,7 @@
 ---
 title: Группы реагирования создают новую или редактируемую существующую группу агентов
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/8/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 79eaaf6c-6928-4925-8220-c7ada6b37205
 description: Группы агентов определяют, кто может ответить на звонок в группу ответа (которая также называется агентами), а также параметры, применяемые ко всем агентам в этой группе.
-ms.openlocfilehash: d340795a2ab4ae42baa6f48b9e81a99a6e28e2e3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6b0d28bf9e8aa2ea0b995a0af08c7a608d56b327
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58623951"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60757337"
 ---
 # <a name="response-groups-create-new-or-edit-existing-agent-group"></a>Группы ответа: создание новой или редактирование существующей группы
 

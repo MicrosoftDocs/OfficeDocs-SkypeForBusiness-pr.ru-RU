@@ -1,7 +1,7 @@
 ---
 title: Доступность в Бермудских островах
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже находятся Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для 10555 г.
-ms.openlocfilehash: 11853051ff2b1a6155415eb68be01a271da7be4e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Ниже ются Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для 10555 г.
+ms.openlocfilehash: b6a6d114b2df25df1646ab9c983df51d570e4eef
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607826"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777589"
 ---
 # <a name="availability-in-bermuda"></a>Доступность в Бермудских островах
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже ются Microsoft 365 и Office 365 службы Skype для бизнеса и Microsoft Teams для Заметь.
+Ниже ются Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Заметь.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 

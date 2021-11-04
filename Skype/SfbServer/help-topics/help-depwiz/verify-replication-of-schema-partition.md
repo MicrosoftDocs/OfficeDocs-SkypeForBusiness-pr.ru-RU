@@ -1,7 +1,7 @@
 ---
 title: Проверка репликации раздела схемы
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 0357f230-6d0c-41f1-942c-e14f76e55d31
 description: 'Чтобы убедиться, что расширение схемы успешно реплицируется в лесу служб домена Active Directory, сделайте следующее:'
-ms.openlocfilehash: 6809c95be9ec0fd0de9d686e4b38b6a16ea92573
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: aa66f77c4a6282c3cbe2315bdd138e90bedc3495
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58623981"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60748275"
 ---
 # <a name="verify-replication-of-schema-partition"></a>Проверка репликации раздела схемы
  

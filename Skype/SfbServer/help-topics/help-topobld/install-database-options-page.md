@@ -1,7 +1,7 @@
 ---
 title: Страница установки параметров базы данных
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 926c47a0-3957-4892-b61a-7a4b569552c3
 description: Настраиваются расширенные параметры размещения баз данных и журнальных файлов в SQL Server. Доступны перечисленные ниже варианты.
-ms.openlocfilehash: c8b26656f894fbf2c27b2321f30c174fe10472b3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3bf2eaacd374234795806d3a3ff21ad1d38dc646
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58587343"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777389"
 ---
 # <a name="install-database-options-page"></a>Страница параметров установки базы данных
 
@@ -44,6 +44,6 @@ ms.locfileid: "58587343"
 
  **Справка**: нажмите кнопку "Справка" для перехода на страницу справки.
 
-## <a name="see-also"></a>Дополнительные материалы
+## <a name="see-also"></a>См. также
 
 [Размещение данных и файла журнала SQL Server](/previous-versions/office/lync-server-2013/lync-server-2013-sql-server-data-and-log-file-placement)

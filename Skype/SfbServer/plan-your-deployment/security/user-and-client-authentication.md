@@ -1,7 +1,7 @@
 ---
 title: Проверка подлинности пользователей и клиентов для Skype для бизнеса Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 77f4b62a-f75c-424d-8f02-a6519090015d
 description: Доверенным пользователем является пользователь, учетные данные которого были заверены доверенным сервером в Skype для бизнеса Server. Этот сервер обычно является сервером выпуск Standard, выпуск Enterprise сервером переднего выпуск Enterprise или директором. Skype для бизнеса Server использует службы домена Active Directory как единое надежное хранилище учетных данных пользователей.
-ms.openlocfilehash: 069ce556f37591f7332e8e968dc02e657b090d03
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d256efdf69afce16a06b3b055a9446b29deb7cb0
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627801"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60737645"
 ---
 # <a name="user-and-client-authentication-for-skype-for-business-server"></a>Проверка подлинности пользователей и клиентов для Skype для бизнеса Server
  

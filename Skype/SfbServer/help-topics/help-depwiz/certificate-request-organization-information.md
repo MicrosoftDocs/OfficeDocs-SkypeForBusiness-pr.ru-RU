@@ -1,7 +1,7 @@
 ---
 title: Запрос сертификата (сведения об организации)
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 1ca030ad-82bd-40b2-9b2a-67d80e516f9c
 description: На панели Сведения об организации можно указать название организации и подразделения (обычно филиала или отделения), которое запрашивает сертификат. Информация, которую вы вводите в полях Организация и Подразделение, указывается в сертификате, чтобы ее могли видеть те, кто просматривает сертификат.
-ms.openlocfilehash: 909051415d4bff3cfd2490e03c70bb6af64d5049
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 206a34e77d6228cddcf6cdd44bccb0ac17c42a78
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58610946"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60757591"
 ---
 # <a name="certificate-request-organization-information"></a>Запрос сертификата (сведения об организации)
  

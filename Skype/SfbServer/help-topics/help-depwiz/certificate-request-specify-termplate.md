@@ -1,7 +1,7 @@
 ---
 title: Запрос сертификата (задание шаблона)
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/26/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: d00ed98f-46f2-4367-b34c-513e5eafdd06
 description: На странице Определение дополнительного шаблона сертификата можно определить шаблон сертификата, отличающийся от шаблона сертификата WebServer, который используется по умолчанию. Установите флажок Использовать другой шаблон сертификата для выбранного центра сертификации, затем укажите название альтернативного шаблона сертификата в поле Название шаблона сертификата. Необходимо указывать название шаблона в точности так, как оно определено в центре сертификации (ЦС). Чтобы вернуться на предыдущую страницу, нажмите кнопку Назад. Чтобы закончить процесс запроса сертификата, нажмите кнопку Отмена.
-ms.openlocfilehash: 2a4665b8dd1f051c620f74480ba807ac43f00043
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e55647821e3c2793ca1b6f7f1ecbf85912406906
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58602854"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740945"
 ---
 # <a name="certificate-request-specify-termplate"></a>Запрос сертификата (задание шаблона)
  

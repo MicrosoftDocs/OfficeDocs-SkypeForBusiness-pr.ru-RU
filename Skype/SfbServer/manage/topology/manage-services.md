@@ -1,7 +1,7 @@
 ---
 title: Управление службами в Skype для бизнеса Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Узнайте, как просматривать состояние служб, запускать и останавливать службы и предотвращать сеансы для служб.
-ms.openlocfilehash: 52d87c8e2f803f31496e773e82d7466a22711550
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: c48a6a07605096dfdccc96539d01e5607e171b9b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60015113"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60756986"
 ---
 # <a name="manage-services-in-skype-for-business-server"></a>Управление службами в Skype для бизнеса Server
 
@@ -47,7 +47,7 @@ ms.locfileid: "60015113"
 2. Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления. Дополнительные сведения о различных методах, которые можно использовать для запуска панели управления Skype для бизнеса Server, см. в материале [Install и open administrative tools.](../../management-tools/install-and-open-administrative-tools.md)
 3. In the left navigation bar, click **Topology**.
 4. На странице Состояние отсортируйте список или выполните по нему поиск, чтобы найти интересующий вас компьютер, а затем щелкните имя этого компьютера.
-5. Сделайте один из следующих:
+5. Выполните одно из следующих действий.
     - To see the latest status of services running on the computer, click **Get service status**.
     - Чтобы просмотреть список конкретных служб, запущенных на компьютере, и состояние каждой из них, щелкните **Свойства**, а затем нажмите кнопку **Закрыть** для возврата в список.
 

@@ -1,7 +1,7 @@
 ---
 title: Настройка Exchange Server единой системы обмена сообщениями для Skype для бизнеса Server голосовой почты
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/11/2019
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 1be9c4f4-fd8e-4d64-9798-f8737b12e2ab
 description: Сводка. Настройка Exchange Server единой системы обмена сообщениями для Skype для бизнеса Server голосовой почты.
-ms.openlocfilehash: 94aa013a8330f6469af5a237911b4e627047f7a0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 43a5b34afb2f398ecfd14d884bbb510ffa3631f0
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58621821"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741295"
 ---
 # <a name="configure-exchange-server-unified-messaging-for-skype-for-business-server-voice-mail"></a>Настройка Exchange Server единой системы обмена сообщениями для Skype для бизнеса Server голосовой почты
  
@@ -107,7 +107,7 @@ Test-CsExUMVoiceMail -TargetFqdn "atl-cs-001.litwareinc.com" -ReceiverSipAddress
 
 ## <a name="configuring-unified-messaging-on-microsoft-exchange-server"></a>Настройка единой системы обмена сообщениями на Microsoft Exchange Server 
 > [!IMPORTANT]
-> Если вы хотите использовать Exchange единой системы обмена сообщениями (единой системы обмена сообщениями) для предоставления ответов на вызовы, Outlook голосового доступа или автосервисов для пользователей Корпоративная голосовая связь, ознакомьтесь с разделом Plan [for Exchange Unified Messaging integration in Skype для бизнеса,](../../plan-your-deployment/integrate-with-exchange/unified-messaging.md)а затем следуйте инструкциям в этом разделе. 
+> Если вы хотите использовать Exchange единой системы обмена сообщениями (единой системы обмена сообщениями) для предоставления ответов на вызовы, Outlook голосового доступа или автосервисов для пользователей Корпоративная голосовая связь, ознакомьтесь с планом интеграции Exchange единой системы обмена сообщениями в [Skype для бизнеса,](../../plan-your-deployment/integrate-with-exchange/unified-messaging.md)а затем выполните инструкции в этом разделе. 
 
 Чтобы настроить Exchange единой системы обмена сообщениями (единой системы обмена сообщениями) для работы с Корпоративная голосовая связь, необходимо выполнить следующие задачи:
 
@@ -175,7 +175,7 @@ Test-CsExUMVoiceMail -TargetFqdn "atl-cs-001.litwareinc.com" -ReceiverSipAddress
 
 ### <a name="configure-certificates-on-the-server-running-exchange-server-unified-messaging"></a>Настройка сертификатов на сервере, Exchange Server единой системы обмена сообщениями
  
-Если вы развернули Exchange единой системы обмена сообщениями (единой системы обмена сообщениями), как описано в Exchange планирование интеграции единой системы обмена сообщениями в Skype для бизнеса Server в документации по планированию, и вы хотите предоставить Exchange функции единой системы обмена сообщениями Корпоративная голосовая связь пользователям в вашей организации, вы можете использовать следующие процедуры для настройки сертификата на сервере с Exchange единой системы обмена сообщениями.
+Если вы развернули Exchange единой системы обмена сообщениями (единой системы обмена сообщениями), как описано в Exchange планирование интеграции единой системы обмена сообщениями в Skype для бизнеса Server в документации по планированию, и вы хотите предоставить Exchange функции единой системы обмена сообщениями Корпоративная голосовая связь пользователи в организации могут использовать следующие процедуры для настройки сертификата на сервере, Exchange um.
 
 > [!IMPORTANT]
 > Для внутренних сертификатов как серверы, работающие Skype для бизнеса Server, так и серверы под управлением Microsoft Exchange должны иметь надежные сертификаты корневого управления, которые взаимно доверяются. Может использоваться один и тот же или разные центры сертификации, но корневой сертификат центра сертификации (CA) на серверах должен быть зарегистрирован в хранилище доверенных корневых сертификатов ЦС. 

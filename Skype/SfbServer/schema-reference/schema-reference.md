@@ -1,7 +1,7 @@
 ---
 title: Справочная схема для Skype для бизнеса Server 2015 г.
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 565e3675-a30a-4962-9e12-738ba8c0a19a
-ms.openlocfilehash: 5a3b98b17d007828ededb697b39bafc23b212497
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2f8ed66d37358bcfd8856ac82680a76bc6c3ba30
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58626431"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60769987"
 ---
 # <a name="schema-reference-for-skype-for-business-server-2015"></a>Справочная схема для Skype для бизнеса Server 2015 г.
  
 
-## <a name="in-this-section"></a>В этой статье
+## <a name="in-this-section"></a>В этом разделе
 
 - [Схема записи подробных вызовов (CDR) в Skype для бизнеса Server 2015 г.](call-detail-recording-cdr-database-schema/call-detail-recording-cdr-database-schema.md)
     

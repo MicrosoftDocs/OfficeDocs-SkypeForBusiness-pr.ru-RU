@@ -1,7 +1,7 @@
 ---
 title: Панель управления — обновленный поиск пользователей
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 5/21/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 50feb75f-92a1-4916-b92e-c039e1290c52
 description: Результаты поиска можно использовать для настройки пользователей для Skype для бизнеса Server. Вы можете осуществлять поиск пользователей по отображаемому имени, имени, фамилии, имени учетной записи диспетчера учетных записей безопасности, SIP-адресу или универсальному коду ресурса (URI). Вы также можете искать пользователей с помощью панели управления Lync Server или оснастки пользователей и компьютеров Active Directory.
-ms.openlocfilehash: 2333a92d95a3d93ef9e10c0db89eba0c77c9f809
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ee155a1c81ffe45007d813d64fb8cc4586ba268e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608236"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740905"
 ---
 # <a name="control-panel---updated-user-search"></a>Панель управления — обновлено: поиск пользователей
 

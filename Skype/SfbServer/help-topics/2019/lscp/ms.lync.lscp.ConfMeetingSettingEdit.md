@@ -1,7 +1,7 @@
 ---
 title: Конфигурация собраний Создание новых или изменение существующих
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: e8fc19fa-6cd7-4f68-b90a-1c7e1b649abd
 ROBOTS: NOINDEX, NOFOLLOW
 description: Параметры конфигурации собраний определяют взаимодействие с пользователем при присоединении к конференциям, запланированным пользователями. Эти параметры распространяются только на запланированные собрания. Они не применяются к ad-hoc собраниям, созданным путем нажатия параметра Meet Now в клиенте.
-ms.openlocfilehash: 13eb6ffb440bf50da7525b36307b56e158f6f93f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f95e9f30ab485b80824c31e700fc7f88714a7a5b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607232"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741255"
 ---
 # <a name="meeting-configuration-create-new-or-edit-existing"></a>Конфигурация собрания: создание новой или редактирование существующей
 

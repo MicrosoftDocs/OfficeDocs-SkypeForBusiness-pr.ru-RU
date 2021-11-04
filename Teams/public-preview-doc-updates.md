@@ -1,7 +1,7 @@
 ---
 title: Общедоступная предварительная версия в Microsoft Teams
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -18,12 +18,12 @@ description: Ознакомьтесь с общедоступной предва
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 79d5467bd57900dfe62006a09d5f5cafaf662640
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 0a92e579945d31412c2ad422d5134723846b3c75
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726838"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60756050"
 ---
 # <a name="microsoft-teams-public-preview"></a>Общедоступная предварительная версия Microsoft Teams
 

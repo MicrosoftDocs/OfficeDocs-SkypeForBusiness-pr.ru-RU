@@ -1,7 +1,7 @@
 ---
 title: Подготовка отдельного сервера Standard Edition (введение)
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/23/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: fe11d380-54c9-47e7-a676-02b9a59dc93f
 description: Чтобы начать установку сервера Skype для бизнеса Server 2015 выпуск Standard 2015 г., на который будут размещены центральный магазин управления и другие выбранные вами службы, необходимо войти в систему в качестве члена локальной группы администраторов на сервере, который станет выпуск Standard сервером. На странице Prepare выпуск Standard Server подробно извеются требования к начальной установке. Компьютер должен быть членом домена, в котором вы собираетесь развернуть его, и вы должны успешно завершить подготовку схемы, леса и домена для леса.
-ms.openlocfilehash: 354815d1160593aad66d08291560a4636a293933
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 14012f8d94b4b1f5a6a4a339854270f412743731
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58612558"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60757571"
 ---
 # <a name="prepare-single-standard-edition-server-intro"></a>Подготовка отдельного сервера Standard Edition (введение)
  

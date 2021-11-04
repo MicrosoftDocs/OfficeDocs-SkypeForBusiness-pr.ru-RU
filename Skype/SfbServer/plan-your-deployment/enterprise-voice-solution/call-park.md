@@ -1,7 +1,7 @@
 ---
 title: Планирование парка вызовов в Skype для бизнеса
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 985dc326-0aef-4308-b98b-c1d0069311e7
 description: Планирование парковки вызовов в Skype для бизнеса Server Корпоративная голосовая связь, что позволяет откладывать вызовы и передавать вызовы в отделы. Включает планирование емкости, поддерживаемые вызовы и поддерживаемые клиенты.
-ms.openlocfilehash: 8bc69bedfd3abf7745ce25133ae8ac32d1eda032
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1cba225d966f835e59f75c359cee49ab183d21eb
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58625181"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60770187"
 ---
 # <a name="plan-for-call-park-in-skype-for-business"></a>Планирование парка вызовов в Skype для бизнеса
  
