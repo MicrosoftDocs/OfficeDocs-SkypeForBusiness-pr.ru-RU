@@ -1,7 +1,7 @@
 ---
 title: Назначение политик большому набору пользователей в учебном за учебных заведениях
-author: serdars
-ms.author: serdars
+author: HowlinWolf-92
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: karsmith, angch, cebulnes
 ms.topic: article
@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Узнайте, как назначать политики большому набору пользователей в учебном заведении на основе участия в группах или непосредственно с помощью пакетного задания для удаленного учебного заведения (телеучреждения, телеучреждения).
 f1keywords: ''
-ms.openlocfilehash: 3cd0bfd791d2416de31d998c693002cce87f6fcd
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 7a2321a42910eee77ef9dff3c3aba3165cba156a
+ms.sourcegitcommit: 6da1531dda6a0a3eecdca40e682783cc81c0d3e0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 11/04/2021
-ms.locfileid: "60745705"
+ms.locfileid: "60785082"
 ---
 # <a name="assign-policies-to-large-sets-of-users-in-your-school"></a>Назначение политик большому набору пользователей в учебном за учебных заведениях
 
@@ -195,11 +195,11 @@ Get-CsUserPolicyAssignment -Identity reda@contoso.com
 
 #### <a name="connect-to-the-azure-ad-powershell-for-graph-module-and-the-teams-powershell-module"></a>Подключение в azure AD PowerShell для Graph и Teams PowerShell
 
-Перед выполнением действий, которые были выполнены в этой статье, необходимо установить модуль Azure AD PowerShell для Graph (для идентификации пользователей по назначенной лицензии) и модуль Microsoft Teams PowerShell (чтобы назначить политики этим пользователям).
+Перед выполнением действий, которые были выполнены в этой статье, необходимо установить модуль Azure AD PowerShell для Graph (для идентификации пользователей по назначенной лицензии) и модуль PowerShell Microsoft Teams (чтобы назначить политики этим пользователям).
 
 ##### <a name="install-and-connect-to-the-azure-ad-powershell-for-graph-module"></a>Установка и подключение к Azure AD PowerShell для Graph модуль
 
-Откройте командную Windows PowerShell с повышенными Windows PowerShell (запустите его от Windows PowerShell администратора), а затем запустите следующую команду, чтобы установить Azure Active Directory PowerShell для Graph.
+Откройте командную Windows PowerShell с повышенными Windows PowerShell (запустите его от Windows PowerShell администратора), а затем запустите следующую команду, чтобы установить Azure Active Directory PowerShell для Graph powerShell.
 
 ```powershell
 Install-Module -Name AzureAD
@@ -217,7 +217,7 @@ Connect-AzureAD
 
 ##### <a name="install-and-connect-to-the-microsoft-teams-powershell-module"></a>Установка и подключение к Microsoft Teams PowerShell
 
-Чтобы установить модуль [Teams PowerShell(если](https://www.powershellgallery.com/packages/MicrosoftTeams) он еще не установлен), запустите следующую: Установите версию 1.0.5 или более поздней.
+Чтобы установить модуль [PowerShell Teams PowerShell,](https://www.powershellgallery.com/packages/MicrosoftTeams) запустите следующую: Установите версию 1.0.5 или более поздней.
 
 ```powershell
 Install-Module -Name MicrosoftTeams
