@@ -1,7 +1,7 @@
 ---
 title: Маршрут голосовых данных
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: ec043088-722b-4739-a460-3b07864cf5ea
 ROBOTS: NOINDEX, NOFOLLOW
 description: Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
-ms.openlocfilehash: 895d7f81967d1829af5ca384f84f5f4e8a7337d6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 50be4a69fd9db58857306f398def504ea6b40b6b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58591763"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60739895"
 ---
 # <a name="voice-route"></a>Маршрут голосовых данных
 

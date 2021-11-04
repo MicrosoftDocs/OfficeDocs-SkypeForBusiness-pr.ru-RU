@@ -1,7 +1,7 @@
 ---
 title: Запрос сертификата (возврат)
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 4ada9045-0fdf-4470-8574-2fa08bab9392
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'На странице Состояние сетевого запроса сертификата предоставляется важная информация, появляющаяся в результате успешного создания и выдачи сетевого запроса сертификата. На этой странице отображается отпечаток сертификата, уникальным образом определяющий сертификат. По умолчанию назначьте этот сертификат для Skype для бизнеса Server использования сертификата. При нажатии кнопки Готово сертификат будет автоматически назначен Skype для бизнеса Server для целей, определенных во время этапов создания запроса сертификата. По умолчанию сертификат назначается со следующими целями:'
-ms.openlocfilehash: e181bc5389bc981eed0e3181d4fd5d5f02c179d4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7f92c95fa5d1588d7563791dca38da46c550048b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58581783"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740055"
 ---
 # <a name="certificate-request-returned"></a>Запрос сертификата (возврат)
  

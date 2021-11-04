@@ -1,7 +1,7 @@
 ---
 title: Настройка записи детализации вызовов и параметров качества работы в Skype для бизнеса Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 009a0499-4f8c-450d-9c72-a565a08e9f7a
 description: Сводка. Узнайте, как настроить CDR и QoE в Skype для бизнеса Server.
-ms.openlocfilehash: 5e04ac3fcf269ba9520e874e123f165f2fd4269a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: abb6996a7483afb8526731ac69404174883ce313
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604238"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60745325"
 ---
 # <a name="configure-call-detail-recording-and-quality-of-experience-settings-in-skype-for-business-server"></a>Настройка записи детализации вызовов и параметров качества работы в Skype для бизнеса Server
  
@@ -46,7 +46,7 @@ Set-CsQoEConfiguration -Identity "global" -EnableQoE $False
   
 |**Свойство**|**Описание**|**Значение по умолчанию**|
 |:-----|:-----|:-----|
-|EnableQoE  <br/> |Указывает, включен ли мониторинг QoE. Если установлено значение True, то все записи QoE будут собираться и записываться в базу данных мониторинга.  <br/> |Верно.  <br/> |
+|EnableQoE  <br/> |Указывает, включен ли мониторинг QoE. Если установлено значение True, то все записи QoE будут собираться и записываться в базу данных мониторинга.  <br/> |Верно  <br/> |
 |EnablePurging  <br/> |Указывает, будут ли записи QoE периодически удаляться из базы данных. Если установлено значение True, то записи будут удаляться после периода времени, заданного в свойстве KeepQoEDataForDays. Если параметр имеет значение False, то записи QoE будут сохраняться неопределенное время.  <br/> |Верно  <br/> |
 |KeepQoEDataForDays  <br/> |Задает период в днях, в течение которого записи QoE будут сохраняться в базе данных; все записи старше заданного количества дней будут автоматически удаляться. Однако это будет происходить только в том случае, если включена очистка..  <br/> В качестве значения этого свойства может быть установлено любое целое число от 1 до 2562 дней.  <br/> |60 дней.  <br/> |
    

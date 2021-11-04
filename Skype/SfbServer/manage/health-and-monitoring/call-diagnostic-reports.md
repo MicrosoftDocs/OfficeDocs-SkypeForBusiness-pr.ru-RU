@@ -1,7 +1,7 @@
 ---
 title: Вызов диагностических отчетов в Skype для бизнеса Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 8d362dd9-a119-4601-a3b4-3e7ed0aaa92e
 description: Сводка. Сведения о много пользовательских диагностических отчетах вызовов, используемых в Skype для бизнеса Server.
-ms.openlocfilehash: 4487c320d591c5d64fd209818824ffd1ce045d48
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b98dfdfd6f39893c70297f837355dcccbe0096a1
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58623651"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60762457"
 ---
 # <a name="call-diagnostic-reports-in-skype-for-business-server"></a>Вызов диагностических отчетов в Skype для бизнеса Server
  
@@ -25,7 +25,7 @@ ms.locfileid: "58623651"
   
 Диагностические отчеты по вызовам предоставляют сводные сведения и диагностические данные для неудачных одноранговых сеансов связи и сеансов конференц-связи.
   
-## <a name="in-this-section"></a>В этой статье
+## <a name="in-this-section"></a>В этом разделе
 
 - [Сводный отчет по диагностике вызовов в Skype для бизнеса Server](summary-report.md) Предоставляет общую сводку неудачных одноранговых сеансов и сеансов конференций. Одноранговые сеансы — это сеансы, в которых только два участника. Сеансы конференц-связи включают не менее трех участников.
     

@@ -1,7 +1,7 @@
 ---
 title: Управление приложением Благодарность в Центре Teams администрирования
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: jozhuan
 audience: admin
@@ -9,36 +9,36 @@ ms.topic: article
 ms.service: msteams
 ms.localizationpriority: medium
 description: Параметры администрирования в приложении Благодарность в Центре Microsoft Teams администрирования
-ms.openlocfilehash: 684e6c7feaa19ab7aecdc77eebd6cb1764f431d5
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: a65fae76440a520e4ed0054f9ac039e417c0e60e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733418"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763057"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>Управление приложением Благодарность в Центре Microsoft Teams администрирования
 
 > [!NOTE]
-> Для доступа к этой функции администраторам Teams лицензия. При попытке получить доступ к этой функции без Teams лицензии вы получите сообщение об ошибке.
+> Для доступа к этой функции администраторам Teams лицензия. При попытке доступа к этой функции без Teams лицензии вы получите сообщение об ошибке.
 
-Приложение Благодарность в Microsoft Teams помогает пользователям оценить работу сотрудников своей организации или класса. Благодаря набору наборов эмблем и возможности создавать собственные эмблемы Благодарность помогает распознать трудоемкие процессы, которые Teams пользователи — от преподавателей до сотрудников без компьютеров. Чтобы узнать больше, ознакомьтесь со [Благодарность отправки.](https://support.microsoft.com/office/send-praise-to-people-50f26b47-565f-40fe-8642-5ca2a5ed261e)
+Приложение Благодарность в Microsoft Teams помогает пользователям оценить работу сотрудников своей организации или класса. Если на выбор предлагается набор эмблем и возможность создавать собственные эмблемы, Благодарность помогает распознать трудоемкие процессы, которые Teams пользователи ( от преподавателей до сотрудников переднего персонала). Чтобы узнать больше, ознакомьтесь со [Благодарность отправки.](https://support.microsoft.com/office/send-praise-to-people-50f26b47-565f-40fe-8642-5ca2a5ed261e)
 
-Администраторы могут управлять тем, какие эмблемы доступны их организации Microsoft Teams центре администрирования. В левой области навигации перейдите к Teams **приложениям > Управление приложениями**. В списке приложений **щелкните** Благодарность и выберите **Параметры**.  Здесь вы можете включить наборы эмблем по умолчанию и встроенные, а также создать собственные эмблемы.
+Администраторы могут управлять тем, какие эмблемы доступны в организации, Microsoft Teams центре администрирования. В левой области навигации перейдите к Teams **приложениям > Управление приложениями**. В списке приложений **щелкните** Благодарность и выберите **Параметры**.  Здесь можно включить наборы эмблем по умолчанию и встроенные, а также создать собственные эмблемы.
 
-![Снимок экрана Параметры вкладки для Благодарность приложения.](media/manage-praise-app-settings.png)
+![Снимок Параметры вкладки для Благодарность приложения.](media/manage-praise-app-settings.png)
 
 > [!NOTE]
 > Функция Благодарность приложения недоступна для облаков государственных органов США.
 
 ## <a name="use-built-in-badge-sets"></a>Использование встроенных наборов эмблем
 
-Встроенные наборы — это коллекции эмблем, разработанных корпорацией Майкрософт для Благодарность приложений. Администраторы не могут изменять эти наборы. Набор эмблем по умолчанию уже включен и доступен в Благодарность приложении. Чтобы изменить доступность набора по умолчанию или других наборов эмблем, установите соответствующий переключатель в значение Вкл. или Выкл. 
+Встроенные наборы — это наборы эмблем, разработанных корпорацией Майкрософт для Благодарность приложений. Администраторы не могут изменять эти наборы. Набор эмблем по умолчанию уже включен и доступен в Благодарность приложении. Чтобы изменить доступность набора по умолчанию или других наборов эмблем, установите соответствующий переключатель в значение Вкл. или Выкл. 
 
 <a name="default-badges"></br></a>
 
 ### <a name="default-badges"></a>Эмблемы по умолчанию
 
-Набор эмблем по умолчанию предназначен для того, Teams пользователям распознавать своих коллег, чтобы они не только работали, но и выше.
+Набор эмблем по умолчанию предназначен для того, чтобы Teams распознавать своих коллег, чтобы они не только работали, но и выше.
 
 ![Предварительный просмотр набора эмблем по умолчанию.](media/default-set-praise.png)
 
@@ -65,10 +65,10 @@ ms.locfileid: "58733418"
    > [!TIP]
    > Если вы еще не знаете о hex-значениях, в этой статье вы можете быстро узнать, как их использовать. [](#hex-colors-intro)
 
-3. Upload изображение эмблемы. Тип файла: .PNG. Размер файла изображения не должен быть меньше 40 КБ с максимальным размером 216 x 216 пикселей.
+3. Upload изображение эмблемы. Тип файла: .PNG. Размер файла изображения должен быть меньше 40 КБ с максимальным размером 216 x 216 пикселей.
 ![Эмблема с полями фона, текста и изображений.](media/praise-app-badge-fields.png)
 
-4. Локализовать свое имя эмблемы: В **списке Локализованные имена эмблем** выберите **Добавить**. Выберите нужный локализованный в списке. Затем введите имя эмблемы на указанном языке.
+4. Локализовать свое имя эмблемы: В **списке Локализованные эмблемы** выберите **Добавить**. Выберите нужный локализованный в списке. Затем введите имя эмблемы на указанном языке.
 
 5. Исключить эмблему из определенных стран: в области **Исключить эмблему из** этих стран выберите **Добавить**. Выберите в списке локали, которые нужно исключить.
 
@@ -85,7 +85,7 @@ ms.locfileid: "58733418"
 
 Шестн. цветовых значений — это строки из шести шестназначных цифр, которые представляют интенсивность красного (RR), зеленого (GG) и синего (BB) определенного цвета в масштабе от 00 до FF. При сложении значений всех трех цветов вы получаете hex значение: #RRGGBB
 
-Например, значение hex красного цвета #FF0000 так как красный имеет максимальное возможное значение, FF, а зеленый и синий — по наименьшему из возможных значений — 00.
+Например, значение hex красного цвета #FF0000 так как красный имеет максимальное возможное значение, FF, а зеленый и синий — 00.
 
 Чтобы изучить различные цвета и их значения, ознакомьтесь с Bing [цветов.](https://www.bing.com/search?q=color+picker)
 
@@ -98,7 +98,7 @@ ms.locfileid: "58733418"
 |![hex color #FF75F0.](media/hexColor3.png)|  #FF75F0   |
 |![hex color #00BFFF.](media/hexColor4.png)|  #00BFFF   |
 |![hex color #800080.](media/hexColor5.png)|  #800080   |
-|![hex color #000000.](media/hexColor6.png)|  #000000   |
+|![hex color #0000000.](media/hexColor6.png)|  #000000   |
 
 <a name="best-practices"></br></a>
 
@@ -116,7 +116,7 @@ ms.locfileid: "58733418"
 
 ## <a name="badge-set-assets"></a>Эмблема для набора ресурсов
 
-Встроенные наборы эмблем нельзя изменять, поэтому если включен встроенный набор, все эмблемы в наборе добавляются Благодарность приложения. Если вы хотите добавить определенные эмблемы из встроенного набора и не использовать другие, создайте их повторно. Вы можете скачать изображение эмблемы и найти цвета текста и фона эмблем из встроенных наборов в таблицах ниже.
+Встроенные наборы эмблем нельзя изменять, поэтому если включен встроенный набор, все эмблемы в наборе добавляются в Благодарность приложения. Если вы хотите добавить определенные эмблемы из встроенного набора и не использовать другие, создайте их повторно. Вы можете скачать изображение эмблемы и найти цвета текста и фона эмблем из встроенных наборов в таблицах ниже.
 
 ### <a name="default-badges-assets"></a>Эмблемы по умолчанию
 
@@ -149,11 +149,11 @@ ms.locfileid: "58733418"
 |Критическое мысли |[Критический анализ PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/critical-thinking-badge.png)|#FFFFFF    |#084D26|
 |Любопытство         |[PNG-png](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/curiosity-badge.png)|#FFFFFF    |#008078|
 |Сочувствие           |[Поддержка PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/empathy-badge.png)|#FFFFFF    |#650B35|
-|Goal ветвь      |[Goal в PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/goal-pursuit-badge.png)|#FFFFFF    |#006F95|
+|Goal goal      |[Goal в PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/goal-pursuit-badge.png)|#FFFFFF    |#006F95|
 |Мотивации        |[Мотивация PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/motivation-badge.png)|#FFFFFF    |#C52127|
 |Сохраняемости       |[Сохранение PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/persistence-badge.png)|#FFFFFF    |#167D3E|
 |Уважение           |[Соблюдение PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/respect-badge.png)|#FFFFFF    |#8251A0|
-|Ответственность    |[Responsibility PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/responsibility-badge.png)|#FFFFFF    |#B05DA3|
+|Ответственность    |[PNG для ответственности](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/responsibility-badge.png)|#FFFFFF    |#B05DA3|
 |Самосознание    |[Самостоятельное информирование PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/self-awareness-badge.png)|#FFFFFF    |#1680E5|
 |Самоуправление   |[Самостоятельное управление PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/self-management-badge.png)|#FFFFFF    |#4C144D|
 |Задумчивостью    |[Продумка PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/thoughtfulness-badge.png)|#FFFFFF    |#EE4086|

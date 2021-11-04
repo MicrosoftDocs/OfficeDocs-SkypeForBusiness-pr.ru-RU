@@ -1,7 +1,7 @@
 ---
 title: Таблица PurgeSettings (QoE)
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/1/2018
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 31b85d1c-3f32-4f67-94bf-9389cdd282c5
 description: 'В таблице PurgeSettings содержатся сведения о том, должны ли устаревшие записи автоматически удаляться из базы данных качества обслуживания, и когда это должно происходить. Обратите внимание, что сведения, связанные с чисткой, также можно получить из Skype для бизнеса Server командной оболочки с помощью следующей команды:'
-ms.openlocfilehash: eb5b0570073498580ec2ad468ea50474e0246b07
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2c6eada1b64d5ba4ac1ee34185d89c31abcbd3c0
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58620825"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763117"
 ---
 # <a name="purgesettings-table-qoe"></a>Таблица PurgeSettings (QoE)
  
@@ -30,7 +30,7 @@ Get-CsQoEConfiguration
 
 Эта таблица была представлена в Microsoft Lync Server 2013.
   
-|**Столбец**|**Тип данных**|**Key/Index**|**Details**|
+|**Столбец**|**Тип данных**|**Key/Index**|**Сведения**|
 |:-----|:-----|:-----|:-----|
 |**ИД** <br/> |int  <br/> |Primary  <br/> |Уникальный идентификатор набора параметров, связанных с очисткой записей качества обслуживания.  <br/> |
 |**EnablePurge** <br/> |bit  <br/> ||При наборе True (1) Microsoft Lync Server 2013 периодически очищает устаревшие записи из базы данных QoE. Очистка будет происходить каждый день во время, установленное с помощью параметра PurgeHour. Если задано значение False (0), записи не будут очищаться автоматически. Значение по умолчанию — True.  <br/> |

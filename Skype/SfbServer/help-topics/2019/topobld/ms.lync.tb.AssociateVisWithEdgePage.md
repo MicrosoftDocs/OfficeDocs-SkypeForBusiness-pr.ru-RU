@@ -1,7 +1,7 @@
 ---
 title: Связывание сервера видеовзаимодействия с пограничным
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 64d99926-053d-4a7f-a26d-467eef6c0950
 ROBOTS: NOINDEX, NOFOLLOW
 description: Действия, необходимые для определения нового шлюза VIS или видео в Topology Builder, описаны в интернете в "Создание пула VIS в Skype для бизнеса Server.
-ms.openlocfilehash: 79acc5bb2191aa84fece8bf87d94b3d52d9fb3d3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 18b27cab340b7724206bee6658ef691fcba274e3
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58600464"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60739835"
 ---
 # <a name="associate-vis-with-edge"></a>Связывание сервера видеовзаимодействия с пограничным
  

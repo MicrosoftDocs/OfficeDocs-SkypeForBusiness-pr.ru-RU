@@ -1,7 +1,7 @@
 ---
 title: Приложение Topology Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 8c95b160-3d88-46c7-987c-38384bac3e51
 description: 'На странице Топология: Серверное приложение отображаются серверные приложения в вашем развертывании.'
-ms.openlocfilehash: 174469d51cf1c7233c7c1617060344fdaa38cb2a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 19386d7f9022c8178edc7d8b4b7e362d7c89411d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58581513"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60744515"
 ---
 # <a name="topology-server-application"></a>Топология: серверное приложение
 
@@ -36,7 +36,7 @@ ms.locfileid: "58581513"
 
 - выбрать приложение в качестве критического или отменить такой выбор.
 
-## <a name="see-also"></a>Дополнительные материалы
+## <a name="see-also"></a>См. также
 
 [Включение и отключение серверного приложения MSPL](/previous-versions/office/lync-server-2013/lync-server-2013-enable-or-disable-a-microsoft-sip-processing-language-mspl-server-application)
 

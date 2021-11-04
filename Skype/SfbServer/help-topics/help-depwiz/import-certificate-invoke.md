@@ -1,7 +1,7 @@
 ---
 title: Импорт сертификата (вызов)
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 1c248faa-2023-48b2-8cac-9a28045b72c3
 description: На странице Выполнение команд просмотрите сводную информацию для импортируемого сертификата. В выпадаемом списке выберите файл журнала сертификата импорта. Убедитесь, что файл журнала сертификата импорта виден в списке выпаданий. Нажмите кнопку Просмотр журнала, чтобы просмотреть сведения о импорте сертификата. Когда вы закончите просмотр сводки и файла журнала, нажмите кнопку Готово.
-ms.openlocfilehash: 70248a410394ea6af9583ba473648a44cc399a0a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e93e916124a04b07acfd55950bada9aa6c00e248
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58590203"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60758551"
 ---
 # <a name="import-certificate-invoke"></a>Импорт сертификата (вызов)
  

@@ -1,7 +1,7 @@
 ---
 title: Доступность в Антигуа и Барбуде
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже ются Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступных для Антигуа и Барбуды.
-ms.openlocfilehash: 438a68188bb89b502c9e7e319e025bfcbaf6467a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Ниже ются Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Антигуа и Барбуды.
+ms.openlocfilehash: 66cc66d614ccd579267d7b1fe384b80ca802ed89
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58628371"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777679"
 ---
 # <a name="availability-in-antigua-and-barbuda"></a>Доступность в Антигуа и Барбуде
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)или узнайте больше о доступности страны и региона для аудиоконференций и планов звонков.
 
-Ниже ются Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступных для Антигуа и Барбуды.
+Ниже ются Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Антигуа и Барбуды.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 

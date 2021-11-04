@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams Обновление | Оценка среды, вопросы об обнаружении
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -18,16 +18,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f7b8fa73141777bb55a020871558a7c6b95aba17
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e190445ed74380bfc3745d34b3e1bb94775e016d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58629911"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60758201"
 ---
 # <a name="discovery-questionnaire---evaluate-your-environment"></a>Анкета обнаружения: оценка среды
 
-Ниже следующую таблицу можно задать, чтобы оценить среду перед обновлением до [Teams.](upgrade-plan-journey-evaluate-environment.md)
+Следующий набор вопросов из списка таблиц, которые помогут вам оценить среду перед обновлением до [Teams:](upgrade-plan-journey-evaluate-environment.md)
 
 - [Microsoft 365 или Office 365 сведения об организации](#microsoft-365-or-office-365-organization-details)
 - [Сводка по существующей платформе совместной работы](#existing-collaboration-platform-summary)
@@ -39,7 +39,7 @@ ms.locfileid: "58629911"
 
 ## <a name="microsoft-365-or-office-365-organization-details"></a>Microsoft 365 или Office 365 сведения об организации
 
-Настоятельно рекомендуем вам при работе с анкетой Microsoft 365 или Office 365 организации. Если вы еще не активировали или не настроили Microsoft 365 или Office 365 организации, см. планирование настройки Microsoft 365 [для бизнеса.](https://support.office.com/article/plan-your-setup-of-office-365-for-business-eb926624-018b-4486-bf11-5fba6ee4d645)
+Мы настоятельно рекомендуем вам при работе с анкетой Microsoft 365 или Office 365 организации. Если вы еще не активировали или не настроили Microsoft 365 или Office 365 организации, см. планирование настройки Microsoft 365 [для бизнеса](https://support.office.com/article/plan-your-setup-of-office-365-for-business-eb926624-018b-4486-bf11-5fba6ee4d645).
 
 В таблице ниже фиксироваться сведения о Microsoft 365 или Office 365 организации.
 
@@ -49,11 +49,11 @@ ms.locfileid: "58629911"
 > | В каких регионах развернуты клиенты?| | |
 > | Являются ли эти клиенты Microsoft 365 или Office 365 Multitenant или <br>Выделенный? | <input type="checkbox"> Многопользовательского<br/> <input type="checkbox"> Выделенный | |
 > | Какие продукты Microsoft Online вы используете сейчас? <br/>Обратите внимание на количество пользователей, включенных для каждого из них <br>в столбце Комментарии. | <input type="checkbox">Microsoft Teams <br/> <input type="checkbox">Skype для бизнеса <br>&nbsp; &nbsp; &nbsp;В Интернете <br/> <input type="checkbox">Exchange Online <br/> <input type="checkbox">SharePoint Онлайн <br/> <input type="checkbox">OneDrive для бизнеса <br/> <input type="checkbox">Yammer <br/> <input type="checkbox"> Других| |
-> | Какой уровень лицензии включен для Skype <br>Пользователи Business Online? | <input type="checkbox"> E1/G1 <br/> <input type="checkbox"> E2/G2 <br/> <input type="checkbox"> E3/G3 <br/> <input type="checkbox"> E4/G4 E5 <br/> <input type="checkbox"> Автономный | Количество пользователей <br>для каждого SKU: |
+> | Для какого уровня лицензии Skype <br>Пользователи Business Online? | <input type="checkbox"> E1/G1 <br/> <input type="checkbox"> E2/G2 <br/> <input type="checkbox"> E3/G3 <br/> <input type="checkbox"> E4/G4 E5 <br/> <input type="checkbox"> Автономный | Количество пользователей <br>для каждого SKU: |
 > | Что такое текущий лес Active Directory <br>функциональный уровень в среде? <br/>Если имеется несколько лесов, обратите внимание на подробные сведения <br>в столбце Комментарии. | <input type="checkbox">Windows Server 2000 <br/> <input type="checkbox">Windows Server 2003 <br/> <input type="checkbox">Windows Server 2008<br/> <input type="checkbox">Windows Server 2008 R2 <br/> <input type="checkbox">Windows Server 2012 <br/> <input type="checkbox">Windows Server 2012 R2 <br/> <input type="checkbox">Windows Server 2016| |
 > | Что вы используете для использования в каталоге <br>синхронизация сегодня? |<input type="checkbox"> Нет синхронизации (только в облаке) <br/> <input type="checkbox">Azure Active Directory <br>&nbsp;&nbsp; &nbsp; Подключение <br/> <input type="checkbox"> Другое (укажите в <br>&nbsp;&nbsp; &nbsp; Столбец Комментарии.)| |
 > | Развернуто ли сейчас федеративное удостоверение <br/>(Службы федерации Active Directory или <br>сторонние стороны) | <input type="checkbox"> Да <br/> <input type="checkbox"> Нет | |
-> | Если вы используете федератное удостоверение, что такое <br>инфраструктура федерации? | <input type="checkbox">Windows 2008 R2 AD FS <br/> <input type="checkbox">Windows AD FS 2012 <br/> <input type="checkbox">Windows 2012 R2 AD FS <br/> <input type="checkbox">Windows AD FS 2016 <br/> <input type="checkbox"> Федерация сторонних сторон <br>&nbsp;&nbsp; &nbsp; шлюз <br>&nbsp;&nbsp; &nbsp; (Обратите внимание на сведения в <br>&nbsp;&nbsp; &nbsp; Столбец Комментарии.) | |
+> | Если вы используете федератное удостоверение, что такое <br>инфраструктура федерации? | <input type="checkbox">Windows 2008 R2 AD FS <br/> <input type="checkbox">Windows 2012 AD FS <br/> <input type="checkbox">Windows 2012 R2 AD FS <br/> <input type="checkbox">Windows AD FS 2016 <br/> <input type="checkbox"> Федерация сторонних сторон <br>&nbsp;&nbsp; &nbsp; шлюз <br>&nbsp;&nbsp; &nbsp; (Обратите внимание на сведения в <br>&nbsp;&nbsp; &nbsp; Столбец Комментарии.) | |
 > | Если вы ведете активный Microsoft 365 или Office 365 <br>является доменом SMTP/SIP вашего <br>для целевых пользователей, связанных с клиентом? | <input type="checkbox">Н/Н — нет Microsoft 365 или Office 365 <br>&nbsp;&nbsp; &nbsp; клиент на месте <br/> <input type="checkbox"> Нет, SMTP/SIP пользователей <br>&nbsp;&nbsp; &nbsp; домен не связан <br>&nbsp;&nbsp; &nbsp; с любыми клиентами в <br>&nbsp;&nbsp; &nbsp; Microsoft 365 или Office 365 <br/> <input type="checkbox"> Да, SMTP/SIP пользователей <br>&nbsp;&nbsp; &nbsp; домен связан <br>&nbsp;&nbsp; &nbsp; с существующим клиентом <br>&nbsp;&nbsp; &nbsp; в Microsoft 365 или Office 365 | |
 > | Совпадают ли пользователи-пользователи с основным SMTP-адресом? | <input type="checkbox"> Да <br/> <input type="checkbox"> Нет <br/> <input type="checkbox"> Непоследовательно | |
 
@@ -97,7 +97,7 @@ ms.locfileid: "58629911"
 > |---|---|---|
 > | Типы пользователей, для Skype <br>для бизнеса Online? | <input type="checkbox"> Все пользователи в организации <br/> <input type="checkbox"> Определенные пользователи и группы пользователей <br>&nbsp;&nbsp; &nbsp; (Укажите в столбце Комментарии) | |
 > | Какие модали и функции в настоящее время <br>используется сегодня? | <input type="checkbox"> Обмен мгновенными сообщениями и присутствие (мгновенные сообщения/P)<br/> <input type="checkbox"> Встречи <br/> <input type="checkbox"> Федерации <br/> <input type="checkbox"> Запись собрания <br/> <input type="checkbox"> Аудиоконференция Майкрософт <br/> <input type="checkbox"> Аудиоконференция сторонних сторон <br>&nbsp;&nbsp; &nbsp; (Обратите внимание на сведения в столбце Комментарии.) <br/> <input type="checkbox"> Планы звонков (ранее — "Вызовы через ЗВОНКОВ по ЗВОНКОВ") <br/> <input type="checkbox"> Автоотправления организации <br/> <input type="checkbox"> Очереди вызовов | |
-> | Вы специально заблокировали любые Skype для <br>Возможности Business Online? <br>Если да, обратите внимание на сведения в столбце Комментарии. | <input type="checkbox"> Да <br/> <input type="checkbox"> Нет | |
+> | Вы специально заблокировали все Skype <br>Возможности Business Online? <br>Если да, обратите внимание на сведения в столбце Комментарии. | <input type="checkbox"> Да <br/> <input type="checkbox"> Нет | |
 > | Какой метод вы используете или планируете использовать <br>подключить телефонная система (ранее Облачная УАКС) к <br>ДНР? <br/>Выберите все, что применимо. | <input type="checkbox"> Планы звонков (ранее — "Вызовы через ЗВОНКОВ по ЗВОНКОВ") <br/> <input type="checkbox"> Локальное подключение к STN (использование существующих <br>&nbsp;&nbsp; &nbsp; Skype для бизнеса 2015 или Lync Server 2013 <br>&nbsp;&nbsp; &nbsp; развертывание) <br/> <input type="checkbox"> Подключение к локальной сети STN (с помощью Cloud Connector) | |
 > | Есть ли у вас телефонные номера, перенесенные в Майкрософт <br/>Это относится к планам звонков и звуку <br>Функции для conferencing. | <input type="checkbox"> Да <br/> <input type="checkbox"> Нет | |
 
@@ -127,7 +127,7 @@ ms.locfileid: "58629911"
 > | Используется ли сейчас ExpressRoute? | <input type="checkbox"> Да <br/> <input type="checkbox"> Нет <br/> <input type="checkbox"> Нет, но оно планируется | |
 > | Вы выполнили оценку готовности сети? | <input type="checkbox"> Да <br/> <input type="checkbox"> Нет | |
 > | Требуется ли пользователям использовать VPN при подключении к <br>удаленные корпоративные ресурсы? | <input type="checkbox"> Да <br/> <input type="checkbox"> Нет | |
-> | Если используется VPN, можно исключить Teams трафика из <br>VPN для доступа к Microsoft 365 или Office 365 службам напрямую? | <input type="checkbox"> Да <br/> <input type="checkbox"> Нет | |
+> | Если используется VPN, Teams исключить трафик из <br>VPN для напрямую Microsoft 365 или Office 365 служб? | <input type="checkbox"> Да <br/> <input type="checkbox"> Нет | |
 > | Поддерживает ли ваша сеть качество обслуживания (QoS)? | <input type="checkbox"> Да <br/> <input type="checkbox"> Нет | |
 > | Можно ли расставить приоритеты Teams и видеопотока <br>чтобы повысить качество работы? | <input type="checkbox"> Да <br/> <input type="checkbox"> Нет | |
 > | Во всех расположениях в регионе есть доступ к Интернету, <br>или централизована ли ереси Интернета для всего региона? | <input type="checkbox"> Региональный доступ к Интернету <br/> <input type="checkbox"> Централизованный доступ к Интернету | |

@@ -1,7 +1,7 @@
 ---
 title: Изменения, внесенные при подготовке домена в Skype для бизнеса Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 9191221e-6166-4c2b-837e-fa73d90fdf80
 description: В следующей таблице перечислены записи управления доступом (ACE), которые создаются при подготовке домена в корневом домене. Все записи ACE наследуются, если не указано иное.
-ms.openlocfilehash: af84828aac349f4b09627d96d3a84cc97ff49a79
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2a1e5b8d7de785d08686de074e251e8c1c20709c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630393"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777799"
 ---
 # <a name="changes-made-by-domain-preparation-in-skype-for-business-server"></a>Изменения, внесенные при подготовке домена в Skype для бизнеса Server
  

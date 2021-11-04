@@ -1,7 +1,7 @@
 ---
 title: Создание администраторов панели управления Skype для бизнеса Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 3312926a-4671-4030-bb92-90ac24c778dd
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Чтобы предоставить доступ к Skype для бизнеса Server, сделайте следующее:'
-ms.openlocfilehash: a1fb3f5e303851c434ca54ebd9e4a57b62efa6f2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7023af3163500dbc8052a3fc35dab37aa37cbf71
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58594047"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60755242"
 ---
 # <a name="create-skype-for-business-server-control-panel-administrators"></a>Создание администраторов панели управления Skype для бизнеса Server
  

@@ -1,7 +1,7 @@
 ---
 title: Таблица AudioStream
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,18 +13,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 49ccbbc3-2f73-45fc-80a6-e612535cbc10
 description: Каждая запись представляет собой один звуковой поток. Одна аудио-медиа-строка обычно содержит два аудиопотока.
-ms.openlocfilehash: 5b442c011d9e65e67fdc5cb06dd79c0f5fbee8c4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0ca913e042b988d20aad644af65fed7970d2afa8
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627761"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763257"
 ---
 # <a name="audiostream-table"></a>Таблица AudioStream
  
 Каждая запись представляет собой один звуковой поток. Одна аудио-медиа-строка обычно содержит два аудиопотока.
   
-|Столбец|Тип данных|Key/Index|Сведения|
+|Столбец|Тип данных|Key/Index|Details|
 |:-----|:-----|:-----|:-----|
 |**ConferenceDateTime** <br/> |datetime  <br/> |Primary  <br/> |Ссылки из [таблицы MediaLine](medialine-0.md).  <br/> |
 |**SessionSeq** <br/> |int  <br/> |Primary  <br/> |Ссылки из [таблицы MediaLine](medialine-0.md).  <br/> |

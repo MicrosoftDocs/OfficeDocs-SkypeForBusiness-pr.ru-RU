@@ -5,7 +5,7 @@ ms:assetid: 736fcaad-9f95-4896-b767-e199d86a00a4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398551(v=OCS.15)
 ms:contentKeyID: 48184483
 mtps_version: v=OCS.15
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Если пользователь включен для Skype для бизнеса Server, вы можете настроить SIP-федерацию, удаленный доступ к пользователю и подключение к общедоступным мгновенным сообщениями (IM) в панели управления Skype для бизнеса Server, применяя соответствующие политики для определенных пользователей.
-ms.openlocfilehash: 4a5f6bfe13c27360c535957cefcfd4093b6a1bad
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e0e1fd7c1597200f576ff329433eb106f1c425da
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58587023"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60762467"
 ---
 # <a name="assign-an-external-user-access-policy-to-a-skype-for-business-enabled-user"></a>Назначение внешней политики доступа к пользователю для Skype для бизнеса включенного пользователя
 

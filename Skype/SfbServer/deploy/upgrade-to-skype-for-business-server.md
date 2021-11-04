@@ -1,7 +1,7 @@
 ---
 title: Обновление до Skype для бизнеса Server 2015 г.
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 7/14/2016
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 74ce73bc-356b-4705-83b1-341ee010fd19
 description: 'Сводка. Сведения об обновлении с Lync Server 2013 до Skype для бизнеса Server 2015 г. Скачайте бесплатную пробную Skype для бизнеса Server 2015 г. из Центра оценки Майкрософт по ссылке: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server .'
-ms.openlocfilehash: 14fe3926fbf3cb6ffcee368227fcaf5ead9ec0c4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 02455d4c013f55363e173f16c9f4de60b71939d9
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58590553"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740085"
 ---
 # <a name="upgrade-to-skype-for-business-server-2015"></a>Обновление до Skype для бизнеса Server 2015 г.
  
@@ -182,7 +182,7 @@ Disable-CsComputer -Scorch
 ### <a name="step-5-upgrade-front-end-pools-and-non-front-end-pool-servers"></a>Шаг 5. Обновление пулов передней части и серверов пулов, не входных
 
 > [!NOTE]
->  Перед обновлением установите все необходимые для Skype для бизнеса Server 2015 г. новые условия, включающие:> не менее 32 ГБ свободного пространства перед попыткой обновления. Кроме того, убедитесь, что диск является фиксированным локальным диском, не подключен USB или Firewire, форматирован с помощью файловой системы NTFS, не сжимается и не содержит файл страницы.> PowerShell версии 6.2.9 200.0 или более поздней версии.> Последнее накопительное обновление Lync Server 2013 installed.> SQL Server 2012 SP1 установлено.> Установлено следующее КБ (установлено автоматически при использовании Microsoft Update:> Windows Server 2008 R2 -[KB2533623](https://support.microsoft.com/kb/2533623)> Windows Server 2012 -[KB2858668](https://support.microsoft.com/kb/2858668)> Windows Server 2012 R2 -[KB2982006](https://support.microsoft.com/kb/2982006)
+>  Перед обновлением установите все необходимые для Skype для бизнеса Server 2015 г. новые условия, включающие:> не менее 32 ГБ свободного пространства перед попыткой обновления. Кроме того, убедитесь, что диск является фиксированным локальным диском, не подключен USB или Firewire, форматируется с помощью файловой системы NTFS, не сжимается и не содержит файл страницы.> PowerShell версии 6.2.9200.0 или более поздней версии.> Последнее накопительное обновление Lync Server 2013 установлено.> SQL Server 2012 SP1 установлено.> Установленное ниже KB (установлено автоматически при использовании Microsoft Update): > Windows 2008 R2 -[KB2533623](https://support.microsoft.com/kb/2533623)> Windows Server 2012 -[KB2858668](https://support.microsoft.com/kb/2858668)> Windows Server 2012 R2 -[KB2982006](https://support.microsoft.com/kb/2982006)
   
 Используйте обновление In-Place на каждом сервере для обновления пула переднего конца, пула edge, сервера-посредника и пула постоянных чатов.
   
@@ -241,7 +241,7 @@ Disable-CsComputer -Scorch
   
 Если обновление In-Place сбой при  проверке готовности к обновлению или установке отсутствующих предпосылок, убедитесь, что на сервере установлены все последние Windows Server, Lync Server и SQL Server применены обновления, а также установлено все необходимое программное обеспечение и роли. Список необходимых требований см. в перечне требований к серверу для [Skype для бизнеса Server 2015](../plan-your-deployment/requirements-for-your-environment/server-requirements.md) г., а также в Skype для бизнеса Server [2015](install/install-prerequisites.md)г. .
   
-## <a name="see-also"></a>Дополнительные материалы
+## <a name="see-also"></a>См. также
 
 [План обновления до Skype для бизнеса Server 2015 г.](../plan-your-deployment/upgrade.md)
   

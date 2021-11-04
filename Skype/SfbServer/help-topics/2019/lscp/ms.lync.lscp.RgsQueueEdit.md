@@ -1,7 +1,7 @@
 ---
 title: Очередь групп отклика Создать новые или изменить существующие
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: cbdde536-8668-4a08-9862-8615e8691fd7
 ROBOTS: NOINDEX, NOFOLLOW
 description: Очереди группы ответов удерживают вызовы в группе ответа до тех пор, пока агент не ответит на вызов.
-ms.openlocfilehash: 194fd2f0660c4aaf8447ff692bf964719ad0b2e7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 995a2ec25184f451fe28a7f32ac9335b1b7248e3
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58587723"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60745225"
 ---
 # <a name="response-groups-queue-create-new-or-edit-existing"></a>Очередь группы ответа: создание новой или редактирование существующей
 

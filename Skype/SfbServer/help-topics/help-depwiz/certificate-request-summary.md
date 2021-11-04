@@ -1,7 +1,7 @@
 ---
 title: Запрос сертификата (сводка)
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/26/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: e907e36b-c168-464c-8b52-edd409704a02
 description: На странице Сводка о запросе сертификата отображается сводная информация по всем компонентам и настройкам для сертификата. В сводке указывается, что будет содержать запрос сертификата и как сертификат будет выдаваться. Внимательно просмотрите сводную информацию и убедитесь, что все элементы и компоненты выбраны правильно. Если все правильно, нажмите кнопку Далее, чтобы перейти к формированию запроса и его подготовке для отправки в центр сертификации.
-ms.openlocfilehash: 485f67faca83d97f2ab626c3a1809220e9f2c82d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8d3d2f987d66670e6b15ad84bb1ac07ef834e9f0
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58633853"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60739685"
 ---
 # <a name="certificate-request-summary"></a>Запрос сертификата (сводка)
  

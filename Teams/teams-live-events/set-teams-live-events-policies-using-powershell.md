@@ -1,7 +1,7 @@
 ---
 title: Настройка политик трансляций с помощью PowerShell
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.date: 07/10/2019
 ms.topic: article
@@ -14,20 +14,20 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
-description: Примеры использования PowerShell для того, чтобы настроить политики в Teams, чтобы контролировать, кто может проводить трансляции в организации, и какие функции доступны в них.
+description: Примеры использования PowerShell для того, чтобы настроить политики в Teams, чтобы контролировать, кто может проводить трансляции в организации, и какие функции доступны для них.
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: dd408ab17d91a826b0d85a6c2515e8f21013242a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0c167d29811008718b7de080e79b62da1117d118
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58629181"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60769797"
 ---
 # <a name="use-powershell-to-set-live-events-policies-in-microsoft-teams"></a>Настройка политик трансляции Microsoft Teams с помощью PowerShell
 
-Для настройки и назначения параметров политики для трансляций в Windows PowerShell можно использовать следующие Teams: 
+Для настройки и назначения параметров политики для трансляций в Teams можно использовать следующие Windows PowerShell: 
 - [Get-CsTeamsMeetingBroadcastPolicy](/powershell/module/skype/get-csteamsmeetingbroadcastpolicy?view=skype-ps)
 - [Set-CsTeamsMeetingBroadcastPolicy](/powershell/module/skype/set-csteamsmeetingbroadcastpolicy?view=skype-ps)
 - [New-CsTeamsMeetingBroadcastPolicy](/powershell/module/skype/new-csteamsmeetingbroadcastpolicy?view=skype-ps)
@@ -37,7 +37,7 @@ ms.locfileid: "58629181"
 Вот несколько примеров.
 
 > [!NOTE]
-> Перед запуском этих cmdlets необходимо подключение к Skype для бизнеса Online PowerShell. Дополнительные сведения см. в Skype для бизнеса Online с Microsoft 365 [или Office 365 PowerShell.](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)
+> Перед запуском этих cmdlets необходимо подключение к Skype для бизнеса Online PowerShell. Дополнительные сведения см. в Skype для бизнеса Online с [помощью Microsoft 365 или Office 365 PowerShell.](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)
 
 ## <a name="allow-users-to-schedule-live-events"></a>Разрешить пользователям планировать трансляции 
 
@@ -146,5 +146,5 @@ Set-CsTeamsMeetingBroadcastPolicy -Identity Global -AllowBroadcastTranscription 
 ```
 
 ### <a name="related-topics"></a>Статьи по теме
-- [Настройка трансляций Teams](set-up-for-teams-live-events.md)
+- [Настройка прямых трансляций Teams](set-up-for-teams-live-events.md)
 - [Обзор PowerShell в Teams](../teams-powershell-overview.md)

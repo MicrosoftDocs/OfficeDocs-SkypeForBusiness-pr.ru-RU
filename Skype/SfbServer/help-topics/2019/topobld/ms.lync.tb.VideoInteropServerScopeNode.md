@@ -1,7 +1,7 @@
 ---
 title: Сервер видеовзаимодействия — создание области для узла
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 8c01299a-e832-45a1-8fd9-af432f36a8d4
 ROBOTS: NOINDEX, NOFOLLOW
 description: Действия, необходимые для определения нового шлюза VIS или видео в Topology Builder, описаны в интернете в "Создание пула VIS в Skype для бизнеса Server.
-ms.openlocfilehash: 36326c1c61545dbe38ab2207235ea2d17cc49816
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f5b2289b8077cc01c4fb804626a2411a040d5e90
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58591613"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60744925"
 ---
 # <a name="video-interop-server---scope-the-node"></a>Сервер видеовзаимодействия — создание области для узла
  
@@ -34,6 +34,6 @@ ms.locfileid: "58591613"
   
  Параметры VTC, которые необходимо установить в интерфейсе Cisco для межоперации с видео шлюзом и viS, описаны в Интернете на [сайте Configure a VTC for Interoperation with Skype для бизнеса Server](../../../deploy/deploy-video-interop-server/configure-a-vtc-for-interoperation.md).
   
-## <a name="see-also"></a>Дополнительные материалы
+## <a name="see-also"></a>См. также
 
 [Планирование видео-interop Server в Skype для бизнеса Server](../../../plan-your-deployment/video-interop-server.md)

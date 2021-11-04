@@ -1,7 +1,7 @@
 ---
 title: Teams виртуальных посещений — отчеты для администраторов
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -23,22 +23,22 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ansantam
 description: Просмотр отчетов администраторов о посещениях Teams EHR
-ms.openlocfilehash: fd1b7577079c65d12fa85cc4098702cb26b2a1da
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 3a7514dec687fdd5d82928e4a2a8986b3add4eee
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730198"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60769867"
 ---
-# <a name="microsoft-teams-ehr-connector-admin-reports"></a>Microsoft Teams Отчеты об администрировании соединители EHR
+# <a name="microsoft-teams-ehr-connector-admin-reports"></a>Microsoft Teams Отчеты администратора соединитела eHR
 
 Диалоговое Microsoft Teams отчет об администрировании соединитела (EHR) обеспечивает быстрое и удобное для чтения представление данных об использовании.
 
 Чтобы просмотреть отчет Microsoft Teams EHR, переходить на панель Microsoft Teams центра администрирования и просматривать диалоговое окно.
 
-Доступ к отчету можно получить Microsoft Teams панели мониторинга Центра администрирования.
+Доступ к отчету можно получить с Microsoft Teams панели мониторинга Центра администрирования.
 
- ![диалоговое окно с распределением и ограничениями виртуальных посещений.](../../media/admin-connector-report.png)
+ ![диалоговое окно объемов виртуальных посещений и ограничений.](../../media/admin-connector-report.png)
 
 Диалоговое окно содержит следующие данные:
 

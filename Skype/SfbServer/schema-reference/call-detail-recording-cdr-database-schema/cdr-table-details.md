@@ -1,7 +1,7 @@
 ---
 title: Сведения о таблице CDR в Skype для бизнеса Server 2015 г.
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -13,18 +13,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 896198f5-672b-48ea-852f-0211c0c90857
 description: В следующих разделах описываются столбцы таблиц схемы базы данных записей регистрации вызовов.
-ms.openlocfilehash: 17450a04cee6463cf5ae9a04f8f4976f59421e80
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9e368669c03e3b81e6eb7a9e2778a8f0edfe2eef
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58583813"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60744045"
 ---
 # <a name="cdr-table-details-in-skype-for-business-server-2015"></a>Сведения о таблице CDR в Skype для бизнеса Server 2015 г.
  
 В следующих разделах описываются столбцы таблиц схемы базы данных записей регистрации вызовов.
   
-## <a name="in-this-section"></a>В этой статье
+## <a name="in-this-section"></a>В этом разделе
 
 - [Таблица приложений Skype для бизнеса Server 2015 г.](application.md)
     
