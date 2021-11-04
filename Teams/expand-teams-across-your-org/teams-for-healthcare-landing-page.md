@@ -2,7 +2,7 @@
 title: Teams для сферы здравоохранения
 description: Узнайте о ресурсах администратора, доступных для управления Teams для команд здравоохранения в организации.
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
 audience: admin
@@ -17,12 +17,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ce4bf4f19aa9bee13aa41a1a7090172e41cb5851
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: cf556f8041f4b94d49813f24702ceff7ecde4afb
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730118"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60764997"
 ---
 # <a name="teams-for-healthcare"></a>Teams для сферы здравоохранения
 
@@ -30,6 +30,6 @@ Teams позволяет рабочим группам и специалиста
 
 |    &nbsp;           |         &nbsp;      |
 | ------------- | ------------- |
-| ![Снимок экрана: рука с пальцем, указывавным на значок стрелки.](../media/get-started-teams.svg)  |  [Начало работы с Teams для организаций в сфере здравоохранения](./healthcare/teams-in-hc.md) |
+| ![Снимок экрана: рука, указывкающий на значок стрелки](../media/get-started-teams.svg)  |  [Начало работы с Teams для организаций в сфере здравоохранения](./healthcare/teams-in-hc.md) |
 | ![Снимок экрана: значок карты.](../media/walkthrough-map-teams.svg) | [Начало работы с шаблонами Teams для организаций в сфере здравоохранения](./healthcare/healthcare-templates-admin-console.md) |
 | ![Снимок экрана: значок пузырьков диалогов.](../media/chat.svg)  |  [Начало работы с безопасным обменом сообщениями для организаций в сфере здравоохранения](./healthcare/messaging-policies-hc.md) |

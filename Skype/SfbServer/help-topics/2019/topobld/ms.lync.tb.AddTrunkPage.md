@@ -1,7 +1,7 @@
 ---
 title: Определение новой линии связи
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: e5d97b27-5ae8-41e0-8ee9-0c3f6d5dd123
 ROBOTS: NOINDEX, NOFOLLOW
 description: Вы можете определить новый канал связи по протоколу SIP, указав следующие сведения.
-ms.openlocfilehash: 9267ae7dc501fd56c7c18a5475ca0dade94bf03d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9b86ef8d130b673cfeda8812cad0628e093ff762
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58587614"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60776769"
 ---
 # <a name="define-a-new-trunk"></a>Определение новой линии связи
 
@@ -38,7 +38,7 @@ ms.locfileid: "58587614"
 
 - **Связанный порт** сервера-посредника: установите значение порта, равное значению порта TCP или TLS сервера-посредника, которое будет использовать этот магистраль SIP
 
-## <a name="see-also"></a>Дополнительные материалы
+## <a name="see-also"></a>См. также
 
 [Магистраль M:N в Skype для бизнеса Server](../../../plan-your-deployment/enterprise-voice-solution/m-n-trunk.md)
 

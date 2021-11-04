@@ -1,7 +1,7 @@
 ---
 title: Настройка политик начальной загрузки клиентов
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 45042eca-b845-4207-b12f-b8b7f5d44bdf
 description: Сводка. Управление групповыми политиками.
-ms.openlocfilehash: 3fccd578b18686ea6c9ce1a5686042f5c25c4f54
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0cf5dedc464dfbfb542d41cbf0477011cd1fbfd4
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58578153"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751388"
 ---
 # <a name="configure-client-bootstrapping-policies"></a>Настройка политик начальной загрузки клиентов
  
@@ -51,10 +51,10 @@ ms.locfileid: "58578153"
 
 |**Приоритет**|**Место или способ установки**|
 |:-----|:-----|
-|1   <br/> |Skype для бизнеса Server в диапазоне подготовка  <br/> |
-|2   <br/> |HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Office\16.0\Lync  <br/> |
-|3   <br/> |HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Lync  <br/> |
-|4   <br/> |Диалоговое окно Options в Skype для бизнеса  <br/> |
+|1  <br/> |Skype для бизнеса Server в диапазоне подготовка  <br/> |
+|2  <br/> |HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Office\16.0\Lync  <br/> |
+|3  <br/> |HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Lync  <br/> |
+|4  <br/> |Диалоговое окно Options в Skype для бизнеса  <br/> |
    
 ### <a name="to-define-group-policy-settings-by-using-the-skype-for-business-administrative-template-files"></a>Определение параметров групповой политики с помощью Skype для бизнеса файлов административных шаблонов
 

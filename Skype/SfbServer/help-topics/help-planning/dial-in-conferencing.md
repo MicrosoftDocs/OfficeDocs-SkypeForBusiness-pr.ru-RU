@@ -1,7 +1,7 @@
 ---
 title: Skype для бизнеса Server Средство планирования телефонных телефонных окей
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 4/6/2016
@@ -16,12 +16,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: c1f79a05-165c-47ec-8593-0bb3d43ee16f
 description: Skype для бизнеса Server конференц-связи 2015 позволяет пользователям присоединяться к аудиозаписи конференции Skype для бизнеса Server 2015 г., используя телефон с общедоступным переключателем телефонной сети (PSTN), не требуя стороннее поставщика аудиоконференции.
-ms.openlocfilehash: 9664cf06825156a2cae5889eca16859673ece63c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 39e0686ceaa9cd4bc753a460b9eb3d3b8a96329e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58628821"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60746155"
 ---
 # <a name="skype-for-business-server-dial-in-conferencing-planning-tool"></a>Skype для бизнеса Server Средство планирования телефонных телефонных окей
  

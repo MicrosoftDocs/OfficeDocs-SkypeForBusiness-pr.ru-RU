@@ -1,7 +1,7 @@
 ---
 title: Внедрение Microsoft Teams. Этап 2 — эксперименты
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -21,24 +21,24 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9cd56875378d7e38660fd1dfd7a4228e7ce5a7e8
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 177ce9d4ee32f1cb620482acfdbf12086e5b5966
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726748"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60745465"
 ---
 # <a name="microsoft-teams-adoption-phase-2---experiment"></a>Внедрение Microsoft Teams. Этап 2 — эксперименты
 
-Теперь у вас отличная проектная группа и важные сведения о вашей организации, и вы готовы поэкспериментировать с Teams. Мы рекомендуем поэкспериментировать с от 2 до 3 реальных проектов в группе, которой является заинтересованный лицо, с которым у вас положительные отношения и в организации достаточное количество ранних пользователей, чтобы предоставить осмысленные отзывы. Независимо от того, велика ли ваша организация, мы рекомендуем завершить этот этап, чтобы понять, как Teams повысить эффективность совместной работы, не используя возможности чата и хранилища файлов.  
+Теперь у вас отличная команда проекта и важная информация о вашей организации, и вы готовы поэкспериментировать с Teams. Мы рекомендуем поэкспериментировать с от 2 до 3 реальных проектов в группе, которой является заинтересованный лицо, с которым у вас положительные отношения и в организации достаточное количество ранних пользователей, чтобы предоставить осмысленные отзывы. Независимо от того, велика ли ваша организация, мы рекомендуем завершить этот этап, чтобы понять, как Teams повысить эффективность совместной работы, не используя возможности чата и хранилища файлов.  
 
-На этом этапе необходимо выполнить следующие действия:
+На этом этапе вы выполните следующие действия:
 
 1. [Создайте программу для champions .](teams-adoption-create-champions-program.md)
 2. [Краткое руководство.](teams-adoption-governance-quick-start.md)
 3. [Определите случаи использования](teams-adoption-define-usage-scenarios.md).
-4. [Завершать участие в программе ранних принятием](teams-adoption-onboard-early-adopters.md).
+4. [Завершать участников программы ранних принятия.](teams-adoption-onboard-early-adopters.md)
 5. [Настройка каналов отзывов](teams-adoption-onboard-early-adopters.md#gather-feedback).
 6. [Привлечение сотрудников службы поддержки](teams-adoption-onboard-support.md)на доску .
 
-![Значок, представляющий следующий шаг.](media/teams-adoption-next-icon.png) Далее: [Создание программы для лига 365](teams-adoption-create-champions-program.md)
+![Значок, представляющий следующий шаг.](media/teams-adoption-next-icon.png) Далее: [Создание программы для хим.](teams-adoption-create-champions-program.md)

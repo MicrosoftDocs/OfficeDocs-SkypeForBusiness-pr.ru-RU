@@ -1,7 +1,7 @@
 ---
 title: Представление сеанса
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 10/20/2015
@@ -13,18 +13,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 49e33f5b-45d0-4146-a5a4-76954d895a98
 description: В представлении сеанса сохраняются сведения о сеансах, для которых есть записи в базе данных. Это представление было представлено в Microsoft Lync Server 2013.
-ms.openlocfilehash: e39f6c744280e96a6f0fd33c28125196f90ed7cc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 22ad5fdc02eb7b3dc7531a18f4b40bee0334ce09
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593353"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60776019"
 ---
 # <a name="session-view"></a>Представление сеанса
  
 В представлении сеанса сохраняются сведения о сеансах, для которых есть записи в базе данных. Это представление было представлено в Microsoft Lync Server 2013.
   
-|**Столбец**|**Тип данных**|**Details**|
+|**Столбец**|**Тип данных**|**Сведения**|
 |:-----|:-----|:-----|
 |ConferenceDateTime  <br/> |datetime  <br/> |Ссылка из таблицы линии медиаданных.  <br/> |
 |ConferenceURI  <br/> |nvarchar (450)  <br/> |URI конференции, если это конференция, или DialogID, если это сеанс между одноранговыми узлами.  <br/> |

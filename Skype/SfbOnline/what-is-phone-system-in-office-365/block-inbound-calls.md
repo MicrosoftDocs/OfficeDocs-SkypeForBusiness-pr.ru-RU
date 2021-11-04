@@ -1,6 +1,6 @@
 ---
 title: Блокировать входящие звонки в Skype для бизнеса Online
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.topic: article
@@ -13,18 +13,18 @@ appliesto:
 - Skype for Business
 ms.localizationpriority: medium
 ms.custom: Learn how to use PowerShell to manage inbound call blocking in Skype for Business Online.
-ms.openlocfilehash: 8b4c26fb1f0a34c2dd0b7fb5159398e7eaf54df3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6fa72103448d20d9c659eff32735fa5d14389509
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58581133"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751398"
 ---
 # <a name="block-inbound-calls"></a>Блокировать входящие звонки
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-Skype для бизнеса Планы звонков по сети теперь поддерживают блокирование входящие вызовы из телефонной сети общего звонков (ПССК). Эта функция позволяет определить глобальный список шаблонов номеров клиента, чтобы в списке на совпадение можно было проверить ИД звонящая для каждого входящих вызовов по НН. Если совпадение выполнено, входящий звонок отклоняется.
+Skype для бизнеса Планы звонков по сети теперь поддерживают блокирование входящие вызовы из телефонной сети общего звонков (STN). Эта функция позволяет определить глобальный список шаблонов номеров клиента, чтобы в списке на совпадение можно было проверить ИД звонящая для каждого входящих вызовов по ДНР в клиенте. Если совпадение выполнено, входящий звонок отклоняется.
 
 Эта функция блокировки входящие звонков работает только для входящие звонков, исходящие из ПСПС, и работает только на глобальной основе клиента. Она недоступна для каждого пользователя.  
 
@@ -35,17 +35,17 @@ Skype для бизнеса Планы звонков по сети теперь
 
 ## <a name="call-blocking-admin-controls-and-information"></a>Блокировка вызовов элементов управления и сведений администратора
 
-Элементы управления блокировкой номеров предоставляются только с помощью PowerShell. Шаблоны блоков числов определяются как шаблоны регулярных выражений. Порядок выражений не имеет ошеломления— первый шаблон, совпадающий с шаблоном в списке, приводит к блокированию вызова. На то, чтобы шаблон стал активным, может потребоваться до 24 часов, чтобы добавить или удалить его из списка заблокированных вызывающих пользователей.
+Элементы управления блокировкой номеров предоставляются только с помощью PowerShell. Шаблоны блоков числов определяются как шаблоны регулярных выражений. Порядок выражений не имеет важного отношения— первый шаблон, совпадающий с шаблоном в списке, приводит к блокированию звонка. На то, чтобы шаблон стал активным, может потребоваться до 24 часов, чтобы новый номер или шаблон, который был добавлен или удален в списке заблокированных вызывающих пользователей.
 
 ## <a name="call-blocking-powershell-commands"></a>Команды PowerShell, блокирующие вызовы
 
 Шаблоны номеров можно управлять с ```CsInboundBlockedNumberPattern``` помощью команд , , и ```New``` ```Get``` ```Set``` ```Remove``` . Вы можете управлять заданным шаблоном с помощью этих cmdlets, включая возможность переключения активации заданного шаблона.
-- [Get-CsInboundBlockedNumberPattern](/powershell/module/skype/get-csinboundblockednumberpattern) возвращает список всех шаблонов заблокированных номеров, добавленных в список клиентов, включая Name, Description, Enabled (True/False) и Pattern для каждого из них.
+- [Get-CsInboundBlockedNumberPattern](/powershell/module/skype/get-csinboundblockednumberpattern) возвращает список всех шаблонов заблокированных номеров, добавленных в список клиентов, включая Имя, Описание, Включено (true/False) и Pattern для каждого из них.
 - [New-CsInboundBlockedNumberPattern](/powershell/module/skype/new-csinboundblockednumberpattern) добавляет в список клиентов шаблон заблокированных номеров.
 - [Remove-CsInboundBlockedNumberPattern](/powershell/module/skype/remove-csinboundblockednumberpattern) удаляет шаблон заблокированных номеров из списка клиентов.
 - [Set-CsInboundBlockedNumberPattern](/powershell/module/skype/set-csinboundblockednumberpattern) изменяет один или несколько параметров шаблона заблокированных номеров в списке клиентов.
 
-Просмотром и активацией всей функции блокировки зовов управляется с помощью ```CsTenantBlockingCallingNumbers``` команд ```Get``` и ```Set``` .
+Просмотром и активацией всей функции блокировки зовов управляется ```CsTenantBlockingCallingNumbers``` с помощью команд и ```Get``` ```Set``` .
 
 - [Get-CsTenantBlockedCallingNumbers](/powershell/module/skype/get-cstenantblockedcallingnumbers) возвращает параметры глобального списка заблокированных номеров, включая Enabled (True/False). Существует одна глобальная политика клиента, которую нельзя изменить вручную, кроме как включить или отключить эту функцию.
 - [Set-CsTenantBlockedCallingNumbers](/powershell/module/skype/set-cstenantblockedcallingnumbers) позволяет изменять глобальные звонки, заблокированные клиентом, на уровне клиента.
@@ -74,7 +74,7 @@ New-CsInboundBlockedNumberPattern -Name “<name>” -Enabled $True -Description
 Remove-CsInboundBlockedNumberPattern -Identity “<identity>”
 ```
  
-Если удостоверение неизвестно, используйте его, чтобы сначала найти нужный шаблон и ```Get-CsInboundBlockedNumberPattern``` заметить удостоверение. Затем запустите ```Remove-CsTenantBlockedNumberPattern``` этот cmdlet и передатите соответствующее значение удостоверения.
+Если удостоверение неизвестно, используйте его, чтобы сначала найти нужный шаблон и ```Get-CsInboundBlockedNumberPattern``` заметить удостоверение. Затем запустите ```Remove-CsTenantBlockedNumberPattern``` cmdlet и передатите соответствующее значение удостоверения.
 
 Разрешить время репликации перед проверкой и проверкой.
 
@@ -137,7 +137,7 @@ Set-CsTenantBlockedNumberExceptionPattern -Identity InternationalPrefix -Tenant 
 
 #### <a name="remove-a-number-exception"></a>Удаление числого исключения
 
-В этом примере ```-Identity``` параметр является требуемой. Этот cmdlet удалит заданный шаблон номера из списка клиентов.  Если удостоверение неизвестно, используйте его, чтобы сначала найти нужный шаблон и ```Get-CsInboundBlockedNumberPattern``` заметить удостоверение. Затем запустите ```Remove-CsTenantBlockedNumberExceptionPattern``` этот cmdlet и передатите соответствующее значение удостоверения.Разрешить время репликации перед проверкой и проверкой.  
+В этом примере ```-Identity``` параметр является требуемой. Этот cmdlet удалит заданный шаблон номера из списка клиентов.  Если удостоверение неизвестно, используйте его, чтобы сначала найти нужный шаблон и ```Get-CsInboundBlockedNumberPattern``` заметить удостоверение. Затем запустите ```Remove-CsTenantBlockedNumberExceptionPattern``` cmdlet и передатите соответствующее значение удостоверения.Разрешить время репликации перед проверкой и проверкой.  
 
 ```powershell
 Remove-CsTenantBlockedNumberExceptionPattern -Identity <XdsGlobalRelativeIdentity> -Tenant <GUID>
@@ -175,7 +175,7 @@ Test-CsInboundBlockedNumberPattern -Tenant e09ad6bc-1d3c-4650-8cae-02f6c5a04b45 
 
 ## <a name="a-note-about-regex"></a>Примечание о Regex
 
-Как говорилось ранее, соответствие шаблона для блокировки вызывающих океров делается с помощью Regex. В Интернете доступно несколько инструментов для проверки совпадения с шаблоном Regex. Если вы не знакомы с шаблонами Regex, советуем ознакомиться с основами в течение некоторого времени. Чтобы убедиться в том, что вы получаете ожидаемые результаты, используйте инструмент для проверки совпадений с шаблоном перед добавлением новых заблокированных номеров в клиент. 
+Как говорилось ранее, соответствие шаблона для блокирования вызывающих вызовов делается с помощью Regex. В Интернете доступно несколько инструментов для проверки совпадения с шаблоном Regex. Если вы не знакомы с шаблонами Regex, советуем ознакомиться с основами в течение некоторого времени. Чтобы убедиться в том, что вы получаете ожидаемые результаты, используйте инструмент для проверки совпадений с шаблоном перед добавлением новых заблокированных номеров в клиент. 
 
 ## <a name="related-topics"></a>Статьи по теме
 

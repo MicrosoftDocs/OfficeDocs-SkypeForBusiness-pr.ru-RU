@@ -1,7 +1,7 @@
 ---
 title: Область применения видеошлюзов
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/8/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: a3adee56-819e-48a5-a5a8-673eca45ec16
 description: Действия, необходимые для определения нового шлюза VIS или видео в Topology Builder, описаны в интернете в "Создание пула VIS в Skype для бизнеса Server 2015 г.
-ms.openlocfilehash: 78358363f045748d46fdb63f3ea3ac35b2bd7dbe
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 357cc11173a4e7d914f2e2557e5164e90d541ec8
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58628741"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751878"
 ---
 # <a name="video-gateways-scope"></a>Область применения видеошлюзов
  

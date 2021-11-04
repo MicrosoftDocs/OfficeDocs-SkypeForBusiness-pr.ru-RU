@@ -1,7 +1,7 @@
 ---
 title: Доступность в Марокко
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже находятся Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams Для Марокко.
-ms.openlocfilehash: 232e50d35f746a4f1281f1efd93f9d28874b4dc3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Ниже находятся Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Марокко.
+ms.openlocfilehash: e04e6a6a5fe8dd084fdddc1f252c2b4dbc887232
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634893"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60775989"
 ---
 # <a name="availability-in-morocco"></a>Доступность в Марокко
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже находятся Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams Для Марокко.
+Ниже находятся Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Марокко.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 

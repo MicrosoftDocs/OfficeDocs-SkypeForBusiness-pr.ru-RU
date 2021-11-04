@@ -1,7 +1,7 @@
 ---
 title: Skype для бизнеса Server Средство планирования аварийного восстановления
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 4/8/2016
@@ -16,12 +16,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 88ad1820-d4ef-4eb6-831b-a8574c085bd0
 description: Skype для бизнеса Server 2015 г. включает в себя меры аварийного восстановления, позволяющие спарить пулы переднего конца, расположенные в двух центрах обработки данных.
-ms.openlocfilehash: 97baf11efb001b6ff02dc9beb083590205536449
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f331b82015804de7a5d12ab273350e651e6a0ed8
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58628801"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60746115"
 ---
 # <a name="skype-for-business-server-disaster-recovery-planning-tool"></a>Skype для бизнеса Server Средство планирования аварийного восстановления
  

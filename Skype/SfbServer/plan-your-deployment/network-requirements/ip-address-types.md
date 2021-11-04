@@ -1,7 +1,7 @@
 ---
 title: Настройка типов IP-адресов в Skype для бизнеса
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 17e756c0-6652-4cd5-b185-4b25929e3a42
 description: Сводка. Просмотрите ниже соображения типа IP-адресов перед реализацией Skype для бизнеса Server.
-ms.openlocfilehash: cc091a7d075af1f0ad8c48e615baa304ec162072
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 931d0af8dd064ebec854c08442abfe573333bf8e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58584963"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60765227"
 ---
 # <a name="configure-ip-address-types-in-skype-for-business"></a>Настройка типов IP-адресов в Skype для бизнеса
 

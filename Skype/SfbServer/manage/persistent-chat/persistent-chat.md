@@ -1,7 +1,7 @@
 ---
 title: Управление постоянным сервером чата в Skype для бизнеса Server 2015 г.
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/28/2016
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c58ee4f4-563b-4d0c-be91-c62df886caa9
 description: Сводка. Сведения о том, как управлять стойким сервером чата в Skype для бизнеса Server 2015 г.
-ms.openlocfilehash: cf3db48a15c0b8897277d172d114112bcb6df79b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 821442de529c50d8ac8db3ab5272dcc48d06c8e5
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58622211"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766477"
 ---
 # <a name="manage-persistent-chat-server-in-skype-for-business-server-2015"></a>Управление постоянным сервером чата в Skype для бизнеса Server 2015 г.
  

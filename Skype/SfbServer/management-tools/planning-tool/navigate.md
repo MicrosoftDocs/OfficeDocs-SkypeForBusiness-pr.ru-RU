@@ -1,7 +1,7 @@
 ---
 title: Навигация по средству планирования Skype для бизнеса Server 2015 г.
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 4/5/2016
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 01d28e07-7fdc-41f9-9b6d-75dad8c14f6a
 description: Средство планирования Skype для бизнеса Server 2015 г., используя сочетание панели инструментов, кнопок и ссылок, определенных для страниц, и с учетом контекста. В контекстных областях предоставляется проектная информация для планирования и емкости, которая имеет отношение к вариантам выбора на определенной странице.
-ms.openlocfilehash: 37a5a3e9ba2934422ef9a89ef7c0cb3df25f1a4a
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 6601b4830c1bee071ea5ad7e9dbaaa533d7d761a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58725708"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751598"
 ---
 # <a name="navigate-the-planning-tool-in-skype-for-business-server-2015"></a>Навигация по средству планирования Skype для бизнеса Server 2015 г.
 

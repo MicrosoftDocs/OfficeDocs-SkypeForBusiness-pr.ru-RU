@@ -1,7 +1,7 @@
 ---
 title: Планирование мониторинга в Skype для бизнеса Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 5d5eb658-7fe0-42e6-acaf-700051d0a823
 description: Сводка. Просмотрите эту тему при планировании службы мониторинга в Skype для бизнеса Server.
-ms.openlocfilehash: 561bff18f7c5c9a358513ab73c2ff272546f93c3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0a0b1c80498819a6fffc78d02f603950a9169779
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58620945"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60744125"
 ---
 # <a name="plan-for-monitoring-in-skype-for-business-server"></a>Планирование мониторинга в Skype для бизнеса Server
 

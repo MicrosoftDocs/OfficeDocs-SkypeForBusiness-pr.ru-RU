@@ -1,7 +1,7 @@
 ---
 title: Примеры разработки CQD
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 8ca9bf7a-2d6f-48d5-a821-531009726525
 description: Сводка. Просмотрите примеры учебника и разработки для панели мониторинга качества вызовов. Панель мониторинга качества вызовов — это средство для Skype для бизнеса Server.
-ms.openlocfilehash: 3d6c813ea8df6a1b1c9b6c991767c45c85f9fb34
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: ba49af8e8ce79b87c57d761a47b54b6574f3a7f5
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727518"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751718"
 ---
 # <a name="cqd-development-samples"></a>Примеры разработки CQD
 
@@ -102,9 +102,9 @@ $($.fn.freeFormReport = function (queries, urlApi, presentation) {
 
 1. Построение запроса (в примере это определяется в переменной "запрос"). Запрос определяется как объект JSON, который включает следующие данные:
 
-   a) Нуль или больше размеров. Каждое измерение указывается dataModelName.
+   А. Нуль или больше размеров. Каждое измерение указывается dataModelName.
 
-   б) Нулевой или более фильтров. Каждый фильтр имеет:
+   Б. Нулевой или более фильтров. Каждый фильтр имеет:
 
    - DataModelName (измерение, которое будет иметь набор фильтров).
 
@@ -112,21 +112,21 @@ $($.fn.freeFormReport = function (queries, urlApi, presentation) {
 
    - Operand (тип сравнения, 0 означает "Равный").
 
-     в) Одно или несколько измерений.
+     c. Одно или несколько измерений.
 
 2. Отправка запроса в службу данных по вызову AJAX. Необходимо упросить следующие параметры запроса:
 
-   a) url (который должен быть http://[ServerName]/QoEDataService/RunQuery).
+   А. url (который должен быть http://[ServerName]/QoEDataService/RunQuery).
 
-   б) данных (это строковая репрезентация объекта JSON, определенного в переменной "запрос"). Служба данных возвращает результаты запроса в качестве параметра функции обратного вызова для успешного выполнения.
+   Б. данных (это строковая репрезентация объекта JSON, определенного в переменной "запрос"). Служба данных возвращает результаты запроса в качестве параметра функции обратного вызова для успешного выполнения.
 
-   в) тип (для QoEDataService RunQuery принимает только запросы "POST").
+   c. тип (для QoEDataService RunQuery принимает только запросы "POST").
 
-   г. async (флаг, указывающий, должен ли вызов AJAX синхронным или асинхронным).
+   d. async (флаг, указывающий, должен ли вызов AJAX синхронным или асинхронным).
 
-   д. contentType (должно быть "application/json").
+   e. contentType (должно быть "application/json").
 
-   е. успех (функция обратного вызова при успешном завершении вызова AJAX).
+   е) успех (функция обратного вызова при успешном завершении вызова AJAX).
 
    ж. ошибка (функция обработки ошибок при сбой вызовов AJAX).
 

@@ -1,7 +1,7 @@
 ---
 title: Настройка проверки подлинности от сервера к серверу для Skype для бизнеса Server гибридной среды
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 700639ec-5264-4449-a8a6-d7386fad8719
 description: Сводка. Настройка проверки подлинности от сервера к серверу для Skype для бизнеса Server гибридной среды.
-ms.openlocfilehash: 1da99f335e5d26523bb29ef6e11251019e2020c8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fcec1e982af0c5ad778a83fe6af9b58fbd44c7e4
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58587201"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60746075"
 ---
 # <a name="configure-server-to-server-authentication-for-a-skype-for-business-server-hybrid-environment"></a>Настройка проверки подлинности от сервера к серверу для Skype для бизнеса Server гибридной среды.
 
@@ -79,7 +79,7 @@ $TenantID = (Get-CsTenant -Filter {DisplayName -eq "Fabrikam.com"}).TenantId
 
 
 
-После настройки Microsoft 365 или Office 365, а также после создания Microsoft 365 или Office 365 для Skype для бизнеса Server и Exchange 2013 года необходимо зарегистрировать учетные данные в этих главах служб. Для этого необходимо сначала получить сертификат X.509 Base64, сохраненный в качестве . CER-файл. Затем этот сертификат будет применяться к Microsoft 365 или Office 365 службы.
+После настройки Microsoft 365 или Office 365, а также после создания Microsoft 365 или Office 365 для Skype для бизнеса Server и Exchange 2013 года необходимо зарегистрировать учетные данные с этими главами служб. Для этого необходимо сначала получить сертификат X.509 Base64, сохраненный в качестве . CER-файл. Затем этот сертификат будет применяться к Microsoft 365 или Office 365 службы.
 
 Когда вы получили сертификат X.509, откройте консоль PowerShell и импортируете модуль Microsoft Online Windows PowerShell, содержащий командлеты, которые можно использовать для управления основными службами:
 

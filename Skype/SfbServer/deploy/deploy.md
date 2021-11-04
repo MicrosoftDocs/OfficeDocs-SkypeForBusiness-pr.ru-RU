@@ -1,7 +1,7 @@
 ---
 title: Развертывание Skype для бизнеса Server 2015 г.
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 12/20/2018
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0cf43c54-e544-40c5-8659-a876f614a3b3
 description: Сводка. Ознакомьтесь с этими ссылками, чтобы узнать, как установить и настроить Skype для бизнеса Server 2015 г. и обновить более ранние версии Lync Server.
-ms.openlocfilehash: ec5843fde868f29d6b345da654b47830c13f376f
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 0b7a43533708af8f3ab017b5796b5c9dc413cafc
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60011973"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60764787"
 ---
 # <a name="deploy-skype-for-business-server-2015"></a>Развертывание Skype для бизнеса Server 2015 г.
  
@@ -35,7 +35,7 @@ Skype для бизнеса Server предлагает решения для о
 
 Дополнительные сведения о развертывании Skype для бизнеса Server.
   
-|&nbsp;|Контент|Описание|
+|&nbsp;|Контентная|Описание|
 |:-----|:-----|:-----|
 |![Значок для технических схем.](../media/87de0d09-77fd-46f2-b9f6-99a7998fd332.png)|[Технические схемы Skype для бизнеса Server 2015 г.](../technical-diagrams.md)  |См. краткое описание вариантов архитектуры на этих крупноформатных схемах.   |
 |![Значок для видео.](../media/143e0d86-1c68-482a-9bf9-93e7966acca0.png)|Видео об установке Skype для бизнеса Server - *скоро!*   |Откройте для себя видео-презентации и обучение для Skype для бизнеса Server.   |
@@ -44,7 +44,7 @@ Skype для бизнеса Server предлагает решения для о
 
 Следующие статьи об установке и настройке Skype для бизнеса Server доступны для просмотра в Интернете. 
   
-|&nbsp;|Контент|Описание|
+|&nbsp;|Контентная|Описание|
 |:-----|:-----|:-----|
 |![Значок для документации.](../media/e4c786ef-1fff-4512-87c5-748543c60222.png)|[Требования к вашей Skype для бизнеса среде](../plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment.md)  |Узнайте о требованиях к серверу и окружающей среде для Skype для бизнеса Server.   |
 |![Значок для документации.](../media/e4c786ef-1fff-4512-87c5-748543c60222.png)|[Основы топологии для Skype для бизнеса Server 2015 г.](../plan-your-deployment/topology-basics/topology-basics.md)  |Узнайте о вариантах топологии и сценариях коллокации сервера для Skype для бизнеса Server.   |
@@ -61,7 +61,7 @@ Skype для бизнеса Server предлагает решения для о
 
 Следующие ресурсы о планировании Skype для бизнеса Server доступны другими специалистами по предметам. 
   
-|&nbsp;|Контент|Описание|
+|&nbsp;|Контентная|Описание|
 |:-----|:-----|:-----|
 |![Значок для docs.](../media/4eff581b-890b-46cb-8224-a4122137d27e.png)|[Skype для бизнеса Server для ИТ-специалистов](../../Hub/index.yml)  |Посетите центр ресурсов, чтобы получить доступ к видео, сайтам сообщества, документации, загрузкам и более.   |
 |![Значок для контента разработчика.](../media/3626138a-2778-407e-911f-a0dcbdc36684.png)|[Skype Платформа разработчика](/skype-sdk/skypedeveloperplatform)  |Найдите ресурсы разработчика для Skype для бизнеса Server, включая примеры кода, обучение и SDKs.   |

@@ -1,7 +1,7 @@
 ---
 title: Таблица ErrorReport в Skype для бизнеса Server 2015 г.
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 7/15/2015
@@ -13,18 +13,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: ae0287b4-e8ca-4f8c-84ef-502897dcaa2a
 description: В таблице ErrorReport хранится информация об ошибках, которые произошли. Каждая запись соответствует одному случаю возникновения ошибки. Ошибки фиксируются агентом CDR, работающим на сервере переднего плана, или передаются клиентом.
-ms.openlocfilehash: d2fccd6f1f99884e9d4412cb9814f24d581248a5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fd74743ed0b9dcd2fb9bb4cfa651f840528cb58c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634183"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60745775"
 ---
 # <a name="errorreport-table-in-skype-for-business-server-2015"></a>Таблица ErrorReport в Skype для бизнеса Server 2015 г.
  
 В таблице ErrorReport хранится информация об ошибках, которые произошли. Каждая запись соответствует одному случаю возникновения ошибки. Ошибки фиксируются агентом CDR, работающим на сервере переднего плана, или передаются клиентом.
   
-|**Столбец**|**Тип данных**|**Key/Index**|**Details**|
+|**Столбец**|**Тип данных**|**Key/Index**|**Сведения**|
 |:-----|:-----|:-----|:-----|
 |**ErrorTime** <br/> |datetime  <br/> |Primary  <br/> |Дата и время ошибки.  <br/> |
 |**ErrorReportSeq** <br/> |int  <br/> |Primary  <br/> |ID-номер для определения отчета об ошибке. Используется совместно с **ErrorTime** для уникальной идентификации отчета об ошибке. <br/> |

@@ -1,7 +1,7 @@
 ---
 title: Интеграция Skype для бизнеса Online и Exchange сервера
 ms.reviewer: cbland
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 4/2/2019
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ffe4c3ba-7bab-49f1-b229-5142a87f94e6
 description: Настройка проверки подлинности OAuth между Exchange и Skype для бизнеса Online позволяет использовать функции интеграции Skype для бизнеса и Exchange, описанные в службе поддержки компонентов.
-ms.openlocfilehash: 8adb5209a00d1b42dc57f9de8635ade40966f9f1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0e811a7feb713e2c356acdeba5461a212bfff17e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58621781"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60764777"
 ---
 # <a name="configure-integration-and-oauth-between-skype-for-business-online-and-exchange-server"></a>Настройка интеграции и OAuth между Skype для бизнеса Online и Exchange Server 
 
@@ -152,6 +152,6 @@ Get-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-00000
 
 Вот пример [настройки,](/archive/blogs/kaevans/updated-fiddler-oauth-inspector)но вы можете использовать любой сетевой инструмент отслеживания, который вам нравится для этого процесса.
 
-## <a name="related-topics"></a>Похожие темы
+## <a name="related-topics"></a>Статьи по теме
 
 [Настройка проверки подлинности OAuth между организациями Exchange и Exchange Online](/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)

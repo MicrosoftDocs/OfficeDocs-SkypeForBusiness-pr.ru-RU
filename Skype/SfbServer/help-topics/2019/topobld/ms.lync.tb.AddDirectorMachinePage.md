@@ -1,7 +1,7 @@
 ---
 title: Добавление компьютера Директора
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 7d51493a-1b7a-43ad-b562-49e45f899796
 ROBOTS: NOINDEX, NOFOLLOW
 description: Укажите полное доменное имя каждого компьютера, который следует добавить в качестве директора в этот пул. После добавления компьютера в список в любое время до публикации топологии можно обновить полное доменное имя компьютера или удалить этот компьютер из пула. После публикации топологии изменение полного доменного имени осуществляется путем удаления сервера в построителе топологий с последующим добавлением нового сервера в пул с новым полным доменным именем.
-ms.openlocfilehash: 36902ed7a9d069c990a6f0f528beddd8cc5a06c2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 86a415b8f403b45b6aad8f5a8fcb8e3d8b2ea060
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58590363"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60750768"
 ---
 # <a name="add-director-machine"></a>Добавление компьютера директора
  

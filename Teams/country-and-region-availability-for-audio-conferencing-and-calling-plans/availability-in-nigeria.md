@@ -1,7 +1,7 @@
 ---
 title: Доступность в Нигерии
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Ниже ются Microsoft 365 и Office 365 службы для Skype для бизнеса и Microsoft Teams для Microsoft Teams Для России.
-ms.openlocfilehash: 77622c915cc616d94ff5f8624177a9d01101bc3b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d88d602fba36803cf9b3ef7972c6fb90fe04516d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58605938"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60745665"
 ---
 # <a name="availability-in-nigeria"></a>Доступность в Нигерии
 

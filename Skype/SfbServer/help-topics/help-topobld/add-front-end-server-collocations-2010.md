@@ -1,7 +1,7 @@
 ---
 title: Добавление размещений сервера переднего плана 2010
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 4d328bf4-85bc-4870-8d6f-008c0e46520e
 description: При развертывании Enterprise Edition можно совместить службу аудио- и видеоконференций, сервер-посредник или и то, и другое с интерфейсным пулом или развернуть каждый из перечисленных компонентов в качестве отдельных серверов. При развертывании сервера Standard Edition служба аудио- и видеоконференций всегда совмещается, если включена поддержка конференц-связи.
-ms.openlocfilehash: c0efab1ee8b388a7d8dfa710c8937f314e83721e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4abf3d4a762ed14d95b7e9f1a4964b50c77a2884
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58626651"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60744250"
 ---
 # <a name="add-front-end-server-collocations-2010"></a>Добавление размещений сервера переднего плана 2010
 

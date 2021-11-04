@@ -1,7 +1,7 @@
 ---
 title: Расширитель общих параметров сервера мониторинга
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: b45e4b2f-a6e8-4919-979e-1ba74fd46028
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'В Topology Builder вы можете изменить свойства для отдельного сервера мониторинга, щелкнув правой кнопкой мыши сервер мониторинга в дереве консоли, а затем щелкнув Действие в панели инструментов, или щелкнув задачу в области Действия, а затем щелкнув Изменить свойства, и изменив любой из следующих вариантов:'
-ms.openlocfilehash: 0b3aec1737d4b36a05ca8f0c01f41cce686f386f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3f4238d253207e2dca28154bc50fc7d806e53c57
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618065"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60750718"
 ---
 # <a name="monitoring-server-general-settings-expander"></a>Расширитель общих параметров сервера мониторинга
  

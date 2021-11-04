@@ -1,7 +1,7 @@
 ---
 title: Director (Средство планирования)
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 ms.assetid: 02795b46-21ec-4a85-9890-959c91d97df3
 ROBOTS: NOINDEX, NOFOLLOW
 description: Director — это сервер, Skype для бизнеса Server средства связи, которые могут проверить подлинность запросов пользователей, но не являются домашними учетными записями пользователей.
-ms.openlocfilehash: 26a6e7e0807f29622214d733b1d848180a3e437c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c8aa280fec1d7b3d57edd0027ebad4cbdb909827
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58597143"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60750908"
 ---
 # <a name="director-planning-tool"></a>Director (Средство планирования)
  

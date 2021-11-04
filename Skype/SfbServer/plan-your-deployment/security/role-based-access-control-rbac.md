@@ -1,7 +1,7 @@
 ---
 title: Управление доступом на основе ролей (RBAC) для Skype для бизнеса Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d01fba36-eb7e-4de9-9bba-5102ae157820
 description: Skype для бизнеса Server включает Role-Based управления доступом (RBAC), которые позволяют делегировать административные задачи при сохранении высоких стандартов безопасности. Эти группы создаются во время подготовки леса. Сведения о подготовке леса см. в материале Active Directory Domain Services for Skype для бизнеса Server. Сведения о конкретных группах, созданных при подготовке леса, см. в документации по развертыванию в Skype для бизнеса Server изменения, внесенные подготовкой леса.
-ms.openlocfilehash: 1768c61f902dddb456f6a80bccf3b72bd9757f77
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 05f1b4873e6d671ecb53e6778a67b5558d4aa1ee
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627941"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60744106"
 ---
 # <a name="role-based-access-control-rbac-for-skype-for-business-server"></a>Управление доступом на основе ролей (RBAC) для Skype для бизнеса Server
  

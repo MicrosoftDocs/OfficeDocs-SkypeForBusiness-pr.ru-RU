@@ -1,6 +1,6 @@
 ---
 title: Skype Гибридное развертывание room System
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: eba70d88-13b3-4598-95d5-8a343c9e7d26
 description: Ознакомьтесь с этой темой, чтобы узнать, как Skype систему номеров в гибридной среде.
-ms.openlocfilehash: b5a512871a60a502d1e2f5e981593291149d3361
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c47809fcf5277ed34f11955b19306e6a4078d650
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598193"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751358"
 ---
 # <a name="skype-room-system-hybrid-deployments"></a>Skype Гибридное развертывание room System
 
@@ -60,6 +60,6 @@ ms.locfileid: "58598193"
    ```
 
 > [!NOTE]
-> Если вы Skype для бизнеса Online вместо Skype для бизнеса Server в вышеуказанной ситуации, то после Exchange почтового ящика ресурса Skype для бизнеса учетную запись, как описано в Skype для бизнеса Online Provisioning. 
+> Если вы Skype для бизнеса Online вместо Skype для бизнеса Server в описанной выше ситуации, то после Exchange почтового ящика ресурса Skype для бизнеса учетную запись, описанную в Skype для бизнеса Online Подготовка. 
   
 

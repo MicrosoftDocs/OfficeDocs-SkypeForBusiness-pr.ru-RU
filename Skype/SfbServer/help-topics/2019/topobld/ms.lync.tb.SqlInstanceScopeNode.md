@@ -1,7 +1,7 @@
 ---
 title: Узел области применения экземпляра SQL
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: bd270488-ceb9-4920-bef3-ed9fe8eff36c
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Этот узел показывает полное доменное имя этого Microsoft SQL Server и экземпляр SQL Server на этом сервере, а также пулы или серверы, которые используют этот SQL Server. Можно выполнить следующие действия:'
-ms.openlocfilehash: 9019c2c7486ab4aa27011cb1df778f01d7625829
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e863b2dd4972eab75f0bfa1d012ff403a3dbc6fa
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58626821"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60750638"
 ---
 # <a name="sql-instance-scope-node"></a>Узел области экземпляра SQL
  
