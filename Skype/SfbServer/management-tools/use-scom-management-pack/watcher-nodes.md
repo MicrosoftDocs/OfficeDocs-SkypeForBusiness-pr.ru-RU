@@ -1,7 +1,7 @@
 ---
 title: Установка и настройка узлов для просмотра
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/20/2015
@@ -14,14 +14,14 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 7392e4f8-6e2d-447b-aaa3-878f73995f9d
 description: Установка и настройка узлов для просмотра для Skype для бизнеса Server транзакций.
-ms.openlocfilehash: c73958e9173040e7fb800fdb2d1fd36c7ab65ae1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: aca051b005c3ec9a901c5366a7788af5e95d06f0
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58637014"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766217"
 ---
-# <a name="learn-how-to-install-and-configure-watcher-nodes"></a>Узнайте, как установить и настроить узлы для просмотра
+# <a name="how-to-install-and-configure-watcher-nodes"></a>Установка и настройка узлов для просмотра
  
 **Сводка:** Установка и настройка узлов для просмотра для Skype для бизнеса Server синтетических транзакций.
   
@@ -112,7 +112,7 @@ ms.locfileid: "58637014"
   
 1. На компьютере узла-наблюдателя щелкните кнопку Пуск, последовательно щелкните пункты Все программы, Стандартные, щелкните правой кнопкой мыши значок Командная строка и в контекстном меню выберите пункт Запуск от имени администратора.
     
-2. В окне консоли введите следующую команду и нажмите кнопку ENTER. Убедитесь, что введите соответствующий путь к файлам установки Skype для бизнеса Server: D:\Setup.exe/BootstrapLocalMgmtTo убедитесь, что основные компоненты Skype для бизнеса Server успешно установлены, нажмите кнопку Начните **,** нажмите кнопку Все программы **,** нажмите **Skype для бизнеса Server 2015,** а затем нажмите **кнопку Skype для бизнеса Server Management Shell**. В командной Skype для бизнеса Server введите следующую команду Windows PowerShell и нажмите кнопку ENTER:
+2. В окне консоли введите следующую команду и нажмите кнопку ENTER. Обязательно введите соответствующий путь к файлам установки Skype для бизнеса Server: D:\Setup.exe /BootstrapLocalMgmtTo убедитесь, что основные компоненты Skype для бизнеса Server успешно установлены, нажмите кнопку Начните **,** нажмите кнопку Все программы **,** нажмите **кнопку Skype для бизнеса Server 2015**, и нажмите **кнопку Skype для бизнеса Server управленческой оболочки**. В командной Skype для бизнеса Server введите следующую команду Windows PowerShell и нажмите кнопку ENTER:
   
 ```PowerShell
 Get-CsWatcherNodeConfiguration

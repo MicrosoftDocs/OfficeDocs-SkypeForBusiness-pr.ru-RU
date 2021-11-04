@@ -1,7 +1,7 @@
 ---
 title: Удаление политики собраний Teams RestrictedAnonymousAccess для пользователей
-author: cichur
-ms.author: serdars
+author: serdars
+ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -15,19 +15,19 @@ appliesto:
 - Microsoft Teams
 f1.keywords: ''
 ms.custom: ''
-description: Узнайте, как удалить политику restrictedAnonymousAccess Teams собраний для пользователей в организации.
-ms.openlocfilehash: 3ba00e8d68a4c30a31ca929e1a41e07cc0fbc104
-ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
+description: Узнайте, как удалить restrictedAnonymousAccess Teams собраний для пользователей в организации.
+ms.openlocfilehash: e1b5cc0f72419bc17fcca34e3a586ef781f93c93
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/28/2021
-ms.locfileid: "60605765"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766138"
 ---
 # <a name="remove-the-restrictedanonymousaccess-teams-meeting-policy-from-users"></a>Удаление политики собраний Teams RestrictedAnonymousAccess для пользователей
 
 [Политики собраний](meeting-policies-overview.md) в Microsoft Teams используются для управления функциями, доступными участникам собрания для собраний, запланированных пользователями в организации. 
 
-Teams включает встроенную политику RestrictedAnonymousAccess, которая содержит предопределяющие параметры, ограничивающие анонимных пользователей начинать собрания. (Анонимные пользователи — это пользователи, которые не были авторификацией.) Администраторы не могут изменять или изменять предопределяйте параметры в политике собраний.
+Teams включает встроенную политику RestrictedAnonymousAccess, которая содержит предопределяющие параметры, которые включают ограничение анонимных пользователей начинать собрания. (Анонимные пользователи — это пользователи, которые не были авторификацией.) Администраторы не могут изменять или изменять предопределяйте параметры в политике собраний.
 
 В этой статье показано, как с помощью PowerShell удалить политику собраний RestrictedAnonymousAccess для пользователей, которым назначена эта политика. Дополнительные сведения об управлении Teams помощью PowerShell см. в Teams [PowerShell.](teams-powershell-overview.md)
 
@@ -35,9 +35,9 @@ Teams включает встроенную политику RestrictedAnonymous
 
 Установите и подключите модуль [Skype для бизнеса PowerShell.](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell) Пошаговую инструкцию см. в [Microsoft Teams PowerShell.](teams-powershell-install.md)
 
-## <a name="get-the-teams-meeting-policy-assignments-for-your-organization"></a>Получите Teams по назначениям политики собраний для вашей организации
+## <a name="get-the-teams-meeting-policy-assignments-for-your-organization"></a>Получите Teams назначений политики собраний для своей организации
 
-Чтобы получить назначения политики Teams собраний для вашей организации, запустите следующую:
+Чтобы получить назначения политики Teams собраний для организации, следуйте следующим советам:
 
 ```powershell
 Get-CsOnlineUser | Select-Object objectid, TeamsMeetingPolicy | Group-Object TeamsMeetingPolicy
@@ -53,7 +53,7 @@ Count  Name                               Group
 2      RestrictedAnonymousAccess          {@{ObjectId=38b35ebf-cc8b-4b61-a2db-f6e67c3f614b; TeamsMeetingPolicy=RestrictedAnonymousAccess...
 ```
 
-## <a name="unassign-the-restrictedanonymous-meeting-policy-from-users"></a>Отогнание от пользователей политики restrictedAnonymous для собраний
+## <a name="unassign-the-restrictedanonymous-meeting-policy-from-users"></a>Отогнание от пользователей политики собраний RestrictedAnonymous
 
 Чтобы удалить политику собраний RestrictedAnonymous для пользователей, используйте для этого cmdlet [Grant-CSTeamsMeetingPolicy,](/powershell/module/skype/grant-csteamsmeetingpolicy) если пользователей мало (например, менее 100). Если у вас много пользователей (например, более 100), для отправки пакетной операции эффективнее использовать [new-CsBatchPolicyAssignmentOperation.](/powershell/module/teams/new-csbatchpolicyassignmentoperation)
 
@@ -67,10 +67,10 @@ Get-CsOnlineUser |? TeamsMeetingPolicy -eq "RestrictedAnonymousAccess" | Select-
 
 ### <a name="use-the-new-csbatchpolicyassignmentoperation-cmdlet"></a>Использование New-CsBatchPolicyAssignmentOperation управления
 
-При [назначении пакетной](assign-policies-users-and-groups.md#assign-a-policy-to-a-batch-of-users)политики максимальное количество пользователей, для которых можно удалить или обновить политики, составляет 5000 за один раз. Например, если у вас более 5000 пользователей, необходимо отправить несколько пакетов. Для лучших результатов не от отправки нескольких пакетов за один раз. Разрешить обработку пакетов перед отправкой дополнительных пакетов.
+При [назначении пакетной](assign-policies-users-and-groups.md#assign-a-policy-to-a-batch-of-users)политики максимальное количество пользователей, для которых можно удалить или обновить политики, составляет 5000 за раз. Например, если у вас более 5000 пользователей, необходимо отправить несколько пакетов. Для лучших результатов не от отправки нескольких пакетов за один раз. Разрешить обработку пакетов перед отправкой дополнительных пакетов.
 
 > [!NOTE]
-> Командлет [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation) находится в Teams PowerShell. Прежде чем выполнять эти действия, установите модуль [Teams PowerShell.](https://www.powershellgallery.com/packages/MicrosoftTeams) Пошаговую инструкцию см. в [Microsoft Teams PowerShell.](teams-powershell-install.md)
+> Командлет [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation) находится в Teams PowerShell. Прежде чем выполнять эти действия, установите модуль [PowerShell и подключите его к Teams PowerShell.](https://www.powershellgallery.com/packages/MicrosoftTeams) Пошаговую инструкцию см. в [Microsoft Teams PowerShell.](teams-powershell-install.md)
 
 Чтобы удалить политику собраний RestrictedAnonymousAccess для пакета пользователей, следуя следующим командам:
 
@@ -90,7 +90,7 @@ New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMeetingPolicy -PolicyName 
 Get-CsBatchPolicyAssignmentOperation -OperationId 62557b78-e734-42d6-952f-41a454ed6115
 ```
 
-Убедитесь, **что значение ErrorCount** **— 0** (ноль) и **OverallStatus** **— Завершено.**
+Убедитесь, **что значение ErrorCount** **— 0** (ноль) и **OverallStatus** **— завершено.**
 
 ## <a name="related-topics"></a>Статьи по теме
 

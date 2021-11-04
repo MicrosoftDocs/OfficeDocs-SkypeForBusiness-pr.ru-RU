@@ -1,7 +1,7 @@
 ---
 title: Настройка сценариев для централизованной службы ведения журнала в Skype для бизнеса Server 2015 г.
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 12/20/2018
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 6c3bf826-e7fd-4002-95dc-01020641ef01
 description: Сводка. Сведения о создании, изменении и устранении сценариев для службы централизованного ведения журнала в Skype для бизнеса Server 2015 г.
-ms.openlocfilehash: b4dea0146cfb80d8f28a102d4cf719a28b7bb188
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: da9a3c431be78a3abeab929fab86f1bf45e6cfa7
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58619715"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766347"
 ---
 # <a name="configure-scenarios-for-the-centralized-logging-service-in-skype-for-business-server-2015"></a>Настройка сценариев для централизованной службы ведения журнала в Skype для бизнеса Server 2015 г.
  

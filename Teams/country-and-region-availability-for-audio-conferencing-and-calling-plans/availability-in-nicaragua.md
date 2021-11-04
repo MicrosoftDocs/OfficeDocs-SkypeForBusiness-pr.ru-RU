@@ -1,7 +1,7 @@
 ---
 title: Доступность в 100%2016
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
 ms.topic: reference
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Ниже ются Microsoft 365 и Office 365 службы для Skype для бизнеса и Microsoft Teams для нее.
-ms.openlocfilehash: d289a6283d5854e427a35dcf7cac9fd11fbbec29
-ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
+ms.openlocfilehash: e1b3681cf859f668b366e1ee920da24ba05e944c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60733650"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60743035"
 ---
 # <a name="availability-in-nicaragua"></a>Доступность в 100%2016
 
@@ -68,7 +68,7 @@ ms.locfileid: "60733650"
 
 |**Функция**|**Сведения**|
 |:-----|:-----|
-|Для каких столиц или крупных городов можно получить платные номера?   | Managua[(on request](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)) <br/> |
+|Для каких столиц или крупных городов можно получить платные номера?   | Managua[(по запросу](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)) <br/> |
 |Доступны ли платные номера?  <br/> |Да[(по запросу](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)) <br/> |
 |Доступны ли бесплатные номера?  <br/> |Нет  <br/> |
    

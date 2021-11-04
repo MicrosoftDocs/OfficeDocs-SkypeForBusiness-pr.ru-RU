@@ -1,7 +1,7 @@
 ---
 title: Таблица MediaLine
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/1/2018
@@ -13,18 +13,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 414b1d63-ae97-4c27-bac0-c9ad0f808ff0
 description: Каждая запись представляет одну строку мультимедиа. (Один сеанс аудио обычно содержит одну строку мультимедиа. Один сеанс аудио- и видеосвязи (A/V) обычно содержит одну аудио-медиа-линию и одну линию видеосвязи, хотя сеанс может содержать две линии видеосвязи, если используется устройство-конференция или используется Представление галереи.
-ms.openlocfilehash: 9f96c18fcbe5799440e557cb180a52e990f61ec8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ae2d776b47f7fe0ef172c9904ea77ae6188535fc
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627721"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60754288"
 ---
 # <a name="medialine-table"></a>Таблица MediaLine
  
 Каждая запись представляет одну строку мультимедиа. (Один сеанс аудио обычно содержит одну строку мультимедиа. Один сеанс аудио- и видеосвязи (A/V) обычно содержит одну аудио-медиа-линию и одну линию видеосвязи, хотя сеанс может содержать две линии видеосвязи, если используется устройство-конференция или используется Представление галереи.
   
-|**Столбец**|**Тип данных**|**Key/Index**|**Details**|
+|**Столбец**|**Тип данных**|**Key/Index**|**Сведения**|
 |:-----|:-----|:-----|:-----|
 |**ConferenceDateTime** <br/> |datetime  <br/> |Primary  <br/> |Ссылки из [таблицы Сеанс](session.md).  <br/> |
 |**SessionSeq** <br/> |int  <br/> |Primary  <br/> |Ссылки из [таблицы Сеанс](session.md).  <br/> |

@@ -1,7 +1,7 @@
 ---
 title: Связывать отчеты мониторинга с зеркальной базой данных в Skype для бизнеса Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 42b797c6-8db8-4ad7-886e-8ddf8deb06f9
 description: Сводка. Узнайте, как связать отчеты мониторинга с зеркальной базой данных, используемой Skype для бизнеса Server.
-ms.openlocfilehash: ecdf630f6839fa65bf163715e473a3a37cdbcece
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: a30a107f8a5f5df6bb11bc8c409bf7376438f619
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60014403"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60748855"
 ---
 # <a name="associate-monitoring-reports-with-a-mirror-database-in-skype-for-business-server"></a>Связывать отчеты мониторинга с зеркальной базой данных в Skype для бизнеса Server 
  
@@ -61,7 +61,7 @@ ms.locfileid: "60014403"
     
 6. После обновления строки подключения щелкните **Применить**.
     
-7. На странице **CDRDB** щелкните ссылку **Reports_Content.** Щелкните **источник данных QMSDB** и отредактировать строку подключения для базы данных QoE. Например.
+7. На странице **CDRDB** щелкните ссылку **Reports_Content.** Щелкните **источник данных QMSDB** и отредактировать строку подключения для базы данных QoE. Например:
     
     `Data source=(local)\archinst;Failover Partner=atl-mirror-001\archinst;initial catalog=QoEMetrics`
     

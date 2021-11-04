@@ -1,7 +1,7 @@
 ---
 title: Установка или удаление компонентов Skype для бизнеса Server (вызов)
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 1925db10-223e-4213-84cc-1de933878b28
 ROBOTS: NOINDEX, NOFOLLOW
 description: На странице Выполнение команд отображается сводка выполнения задач по развертыванию роли сервера. После выполнения задач развертывание и активация, деактивации и деинсталлации отображается сводка. Кроме того, в раскрывающемся списке можно выбрать любые файлы журнала, которые создаются при выполнении команды. Выберите в раскрывающемся списке файл журнала, который хотите просмотреть, и нажмите кнопку Просмотреть журнал.
-ms.openlocfilehash: 0aada4a7af1210c6370bc74a479f4e87db059861
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8feb4d595c7845f77140cccec5b566d970fefea3
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58622951"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60753208"
 ---
 # <a name="setup-or-remove-skype-for-business-server-components-invoke"></a>Установка или удаление компонентов Skype для бизнеса Server (вызов)
  

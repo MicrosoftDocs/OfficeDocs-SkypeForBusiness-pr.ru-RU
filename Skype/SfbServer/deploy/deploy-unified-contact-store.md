@@ -1,7 +1,7 @@
 ---
 title: 'Развертывание единого магазина контактов в Skype для бизнеса Server '
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: d1c9ebd8-af42-42a0-87d9-fc899fbd7c42
 description: Сводка. Включить единый магазин контактов в Skype для бизнеса Server.
-ms.openlocfilehash: 181c23b9dc7ab1c4361e3406a9f1f61b4bcf5057
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 459626fe40f76cc19534aaff67d1b1b39c268469
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609936"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60748835"
 ---
 # <a name="deploy-unified-contact-store-in-skype-for-business-server"></a>Развертывание единого магазина контактов в Skype для бизнеса Server
  
@@ -56,7 +56,7 @@ ms.locfileid: "58609936"
    New-CsUserServicesPolicy -Identity site:<site name> -UcsAllowed $True
    ```
 
-   Например,
+   Например:
     
    ```powershell
    New-CsUserServicesPolicy -Identity site:Redmond -UcsAllowed $True
@@ -68,7 +68,7 @@ ms.locfileid: "58609936"
    Set-CsUserServicesPolicy -Tenant <tenantId> -UcsAllowed $True
    ```
 
-   Например,
+   Например:
     
    ```powershell
    Set-CsUserServicesPolicy -Tenant "38aad667-af54-4397-aaa7-e94c79ec2308" -UcsAllowed $True
@@ -139,7 +139,7 @@ ms.locfileid: "58609936"
 - Если вы экспортируете данные пользователей после переноса пользователей в 2013 Exchange 2013 г., откатите миграцию, а затем по какой-то причине импортируете данные из после миграции, данные единого магазина контактов и списки контактов будут повреждены.
     
 > [!IMPORTANT]
-> Перед перемещением Exchange почтового ящика с Exchange 2013 г. по Exchange 2010 г. администратор Exchange должен убедиться, что администратор Skype для бизнеса Server впервые откатил контакты Skype для бизнеса Server пользователей с Exchange 2013 г. до Skype для бизнеса Server. Чтобы откатать контакты единого магазина контактов в Skype для бизнеса Server, см. процедуру "Откат унифицированных контактных контактов магазина с Exchange 2013 г. до Skype для бизнеса Server", далее в этом разделе. 
+> Перед перемещением Exchange почтового ящика с Exchange 2013 г. на Exchange 2010 г. администратор Exchange должен убедиться, что администратор Skype для бизнеса Server впервые откатил Skype для бизнеса Server пользователя контакты с Exchange 2013 г. Skype для бизнеса Server. Чтобы откатать контакты единого магазина контактов в Skype для бизнеса Server, см. процедуру "Откат унифицированных контактных контактов магазина с Exchange 2013 г. до Skype для бизнеса Server", далее в этом разделе. 
   
  **Как откат контактов пользователей:** Если вы используете **командалет Move-CsUser** для перемещения пользователей между Skype для бизнеса Server 2015 и Lync Server 2010, можно пропустить эти действия, так как **командалет Move-CsUser** автоматически откатывает единый магазин контактов при переходе пользователей с Skype для бизнеса Server 2015 г. на Lync Server 2010. **Move-CsUser** не отключит унифицированную политику магазина контактов, поэтому миграция в единый магазин контактов будет повторяться, если пользователь будет перемещен Skype для бизнеса Server 2015 г.
   

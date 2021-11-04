@@ -1,7 +1,7 @@
 ---
 title: Добавление компьютера-посредника
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: f186be15-626a-4454-9b54-55aa5d90c520
 ROBOTS: NOINDEX, NOFOLLOW
 description: Укажите полное доменное имя для каждого компьютера, который нужно добавить в качестве сервера переднего плана в этот пул. Добавив компьютер в список, вы можете обновить полное доменное имя или удалить его из пула в любое время до публикации топологии. После публикации топологии для изменения полного доменного имени потребуется сначала удалить сервер в построителе топологий, а затем добавить новый сервер в пул с новым полным доменным именем.
-ms.openlocfilehash: 6b6cdbcda7eaaa5b96be03ef118cf2809dfc0dba
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bb470322b3b7adc9b91b2e7482d0696417f12774
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631093"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60742495"
 ---
 # <a name="add-mediation-machine"></a>Добавление компьютера-посредника
  

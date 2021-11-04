@@ -1,7 +1,7 @@
 ---
 title: Вызов установки локального хранилища конфигурации (настройка)
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 92dccbca-7a5b-4064-9f2e-964b8e62433c
 ROBOTS: NOINDEX, NOFOLLOW
 description: Чтобы приступить к установке базы данных, в которой будет храниться локализованная только для чтения копия центра управления, необходимо выбрать между сбором определенной конфигурации, опубликованной с помощью Topology Builder из уже установленного и настроенного центра управления, или чтением заданной конфигурации из других средств массовой информации. Для машины, которая находится во внутренней сети организации, выберите конфигурацию Retrieve автоматически из Центра управления.
-ms.openlocfilehash: 53b7f7c8067f248a5eae09d2a7a7e94d42600e66
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 78c5a1697c77ed1a370739dd173718a74ead148e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58625601"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60742805"
 ---
 # <a name="install-local-configuration-store-invoke-configure"></a>Вызов установки локального хранилища конфигурации (настройка)
  

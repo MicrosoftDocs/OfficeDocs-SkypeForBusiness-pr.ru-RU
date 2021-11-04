@@ -1,7 +1,7 @@
 ---
 title: Назначение сертификата (из запроса)
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 5cd7cab0-1826-4d7f-aca6-d30054d2a9ae
 ROBOTS: NOINDEX, NOFOLLOW
 description: На странице Назначение сертификата начинается процесс назначения сертификата запрашиваемого использования на сервере ролей. Для просмотра сертификата щелкните Просмотреть сведения о сертификате. Вы можете выбрать вкладку General, вкладку Details или вкладку Путь сертификации. На вкладке General будут отображаться основные сведения о сертификате, такие как полномочия по выдаче сертификата и состояние закрытого ключа. На вкладке "Сведения" отображается такая информация о сертификате, как имя субъекта, альтернативные имена субъектов и прочие сведения. На вкладке Путь сертификации будет отображаться сертификат доверия из сертификата через любые органы сертификации или промежуточные органы сертификации (если они присутствуют) в корневом органе сертификации.
-ms.openlocfilehash: af0dc39c33bfd7dc828e6daf1ec7f88f755eb0bc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7fa2e1265e2b2162df1dd69c0d4b352e1bd62665
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58579363"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60765817"
 ---
 # <a name="certificate-assignment-from-request"></a>Назначение сертификата (из запроса)
  

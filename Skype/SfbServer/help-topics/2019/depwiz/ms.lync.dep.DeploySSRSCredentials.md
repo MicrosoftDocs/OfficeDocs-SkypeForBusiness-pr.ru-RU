@@ -1,7 +1,7 @@
 ---
 title: Службы SQL Server Reporting Services (учетные данные)
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 033906cd-385f-4b04-9607-376888ec414d
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Чтобы указать учетные данные для обращения служб SQL Server Reporting Services (SSRS) к базе данных мониторинга, сделайте следующее:'
-ms.openlocfilehash: 8d2b1789eb51346b32af4fe4cf9c2fc7167620bd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ef411764d1b4711b98aeae2e855775546227bcfd
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58594003"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60738495"
 ---
 # <a name="sql-server-reporting-services-credentials"></a>Службы SQL Server Reporting Services (учетные данные)
  

@@ -1,7 +1,7 @@
 ---
 title: Развертывание Корпоративная голосовая связь в Skype для бизнеса Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b5b593a6-ac30-461c-8c8c-0041e2c9ab04
 description: Сводка. Сведения о развертывании Корпоративная голосовая связь для Skype для бизнеса Server на центральном сайте.
-ms.openlocfilehash: 3a47e66bf9ae65d0a994a25b40f182dcc95b87d7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: df2926bc0d425057431db68e9800763f6f49d4d2
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58600694"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60765897"
 ---
 # <a name="deploy-enterprise-voice-in-skype-for-business-server"></a>Развертывание Корпоративная голосовая связь в Skype для бизнеса Server
 
@@ -30,7 +30,7 @@ ms.locfileid: "58600694"
 Используйте эту тему для развертывания Корпоративная голосовая связь на центральном сайте. Чтобы развернуть Корпоративная голосовая связь на сайте филиала, переперейти к [развертыванию сайтов филиалов.](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-branch-sites)
 
 В этом разделе содержатся процедуры развертывания, в которых сервер-посредник находится на каждом переднем или выпуск Standard сервере, как рекомендуется, а также для развертывания с автономным пулом серверов-посредников. Вы можете пропустить следующий контент, если вы использовали Topology Builder для определения и публикации топологии, которая коллокирует сервер-посредник на каждом переднем или выпуск Standard сервере, так как мастер развертывания уже автоматически установил файлы для сервера-посредника при установке файлов для пула переднего конечного сервера или выпуск Standard сервера:
-## <a name="in-this-section"></a>В этой статье
+## <a name="in-this-section"></a>В этом разделе
 
 - [Условия безопасности и конфигурации для Корпоративная голосовая связь в Skype для бизнеса Server](enterprise-voice-security.md)
 

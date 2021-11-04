@@ -1,7 +1,7 @@
 ---
 title: Управление шаблонами групп в Центре администрирования
-author: cichur
-ms.author: serdars
+author: serdars
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: yinchang
 ms.topic: article
@@ -18,17 +18,17 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Узнайте, как управлять шаблонами групп в Центре администрирования
-ms.openlocfilehash: c8b9926290e58fe190d2351820e2bb63560c8c8c
-ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
+ms.openlocfilehash: 0ab167cc66a897c0f89679cd2a403a385b2b1b01
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/28/2021
-ms.locfileid: "60605375"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766067"
 ---
 # <a name="manage-team-templates-in-the-admin-center"></a>Управление шаблонами групп в Центре администрирования
 
 Управляйте шаблонами групп, которые видят пользователи, создавая политики шаблонов в Центре администрирования. В каждой политике шаблонов можно узначить, какие шаблоны должны быть показаны или скрыты.
-Назначьте разным пользователям различные политики шаблонов, чтобы пользователи просматривали только указанные подмножество шаблонов группы.
+Назначайте разным пользователям различные политики шаблонов, чтобы пользователи просматривали только указанные подмножество шаблонов группы.
 
 Просмотрите это короткое видео, чтобы узнать, как управлять политиками шаблонов.
 
@@ -80,7 +80,7 @@ ms.locfileid: "60605375"
 3. Выберите **Применить**.
 
 > [!Note]
-> Для того чтобы новая политика вступила в силу для конечных пользователей, может потребоваться до 24 часов.
+> На то, чтобы новая политика вступила в силу для конечных пользователей, может потребоваться до 24 часов.
 
 ## <a name="size-limits-for-template-policies"></a>Ограничения размера для политик шаблонов
 
@@ -141,6 +141,6 @@ ms.locfileid: "60605375"
 
 - [Создание шаблона команды из существующего шаблона группы](./create-template-from-existing-template.md)
 
-- [Назначение политик пользователям в Microsoft Teams - Microsoft Teams Microsoft \| Docs](./policy-assignment-overview.md)
+- [Назначение политик пользователям в Microsoft Teams - Microsoft Teams \| Microsoft Docs](./policy-assignment-overview.md)
 
 - [Пакетное назначение пользователей политике](/powershell/module/teams/new-csbatchpolicyassignmentoperation)

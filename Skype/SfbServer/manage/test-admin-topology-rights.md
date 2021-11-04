@@ -1,7 +1,7 @@
 ---
 title: Тестирование прав топологии администратора в Skype для бизнеса Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Проверка прав топологии в Skype для бизнеса Server
-ms.openlocfilehash: 7e1d7b8fe1f2b35cffd63aa8816b36946cdc500f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2da77957baaa510ef7669fb6a980de2aacf428a4
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58580543"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60759721"
 ---
 # <a name="testing-admin-topology-rights-in-skype-for-business-server"></a>Тестирование прав топологии администратора в Skype для бизнеса Server
 
@@ -47,17 +47,17 @@ ms.locfileid: "58580543"
 
 Верно 
 
-Если разрешения не установлены, Test-CsSetupPermission возвращает значение False. Обратите внимание, что это значение обычно будет заключено во многих предупреждающих сообщениях. Например,
+Если разрешения не установлены, Test-CsSetupPermission возвращает значение False. Обратите внимание, что это значение обычно будет заключено во многих предупреждающих сообщениях. Например:
 
 ВНИМАНИЕ. Запись управления доступом (ACE) atl-cs-001\RTCUniversalServerAdmins; Разрешить; ExtendedRight; Нет; Нет; 1131f6aa-9c07-11d1-f79f-00c04fc2dcd2 
 
 ВНИМАНИЕ. Записи управления доступом (ACEs) на объекте "CN=Computers,DC=litwareinc,DC=com" не готовы. 
 
-False 
+Неверно 
 
 ВНИМАНИЕ. Обработка "Test-CsSetupPermission" завершена с помощью предупреждений. Во время этого запуска были записаны предупреждения "2". 
 
-ВНИМАНИЕ. Подробные результаты можно найти на "C:\Users\Admin\AppData\Local\Temp\Test-CsSetupPermission-1da99ba6-abe2-45e4-8b16-dfd244763118.html". 
+ВНИМАНИЕ. Подробные результаты можно найти в "C:\Users\Admin\AppData\Local\Temp\Test-CsSetupPermission-1da99ba6-abe2-45e4-8b16-dfd244763118.html". 
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Причины сбой теста
 

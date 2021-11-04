@@ -1,7 +1,7 @@
 ---
 title: Управление Skype для бизнеса Server 2015 г. с помощью пакета управления SCOM
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/13/2018
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ca03f9ab-a227-4903-85a8-427df6a0a5bb
 description: Сводка. Узнайте, как настроить инфраструктуру Skype для бизнеса Server 2015 г. для работы с System Center Operations Manager.
-ms.openlocfilehash: 0349949afe27c5351f9eefda7a5cc5f44a0a072d
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 43fba4fa3672621052d51314e1d39ead5f4d568b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60014943"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766277"
 ---
 # <a name="manage-skype-for-business-server-2015-using-scom-management-pack"></a>Управление Skype для бизнеса Server 2015 г. с помощью пакета управления SCOM
  
@@ -130,8 +130,8 @@ Skype для бизнеса Server пакеты управления 2015 г. о
 |:-----|:-----|:-----|
 |1   |Регистрация (вход пользователя)   |Доступные Lync Server 2010 и более   |
 |2   |Служба адресной книги (загрузка файлов)   |Доступные Lync Server 2010 и более   |
-|3    |Веб-запрос адресной книги   |Доступные Lync Server 2010 и более   |
-|4    |Присутствие   |Доступные Lync Server 2010 и более   |
+|3   |Веб-запрос адресной книги   |Доступные Lync Server 2010 и более   |
+|4   |Присутствие   |Доступные Lync Server 2010 и более   |
 |5   |Единое хранилище контактов   |Доступные Lync Server 2013 и более   |
 
   

@@ -1,7 +1,7 @@
 ---
 title: Выбор агентов
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: b5cf912b-8273-4c2c-a1e5-f25530b264d0
 ROBOTS: NOINDEX, NOFOLLOW
 description: Агенты — это пользователи, назначенные для ответа на вызовы группы ответов. Группе ответа должна быть назначена группа агентов, определяющая, какие агенты могут принимать звонки для данной группы ответа. Один из способов создания группы агентов заключается в определении настраиваемой группы посредством выбора подходящих пользователей. Соответствующие пользователи включены для Skype для бизнеса Server и Корпоративная голосовая связь.
-ms.openlocfilehash: 0751bfc3e5b4c836a2be52f45844a0ce38cd5019
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6d1aaa217589ec2448e5a176dbe94dcf78cf5fed
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58579783"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60778739"
 ---
 # <a name="select-agents"></a>Выбор агентов
 

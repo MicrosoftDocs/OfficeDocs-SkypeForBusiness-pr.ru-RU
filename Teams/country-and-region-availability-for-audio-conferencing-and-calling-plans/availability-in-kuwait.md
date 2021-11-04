@@ -1,7 +1,7 @@
 ---
 title: Доступность в Катаре
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Ниже ются Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Захуа.
-ms.openlocfilehash: b85d8189bdfeb4dd975fa5d782340d35b619bdcc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2067077acba0c3604c83bbc46483b6bd8ee6dc22
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58601134"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766197"
 ---
 # <a name="availability-in-kuwait"></a>Доступность в Катаре
 

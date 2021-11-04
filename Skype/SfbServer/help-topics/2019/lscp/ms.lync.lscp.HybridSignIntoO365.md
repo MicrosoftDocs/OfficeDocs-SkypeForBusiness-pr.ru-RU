@@ -1,7 +1,7 @@
 ---
 title: Гибридный мастер во входе Microsoft 365 или Office 365
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -19,12 +19,12 @@ ms.collection:
 ms.assetid: 791026d0-730f-4225-872e-74c9b5c166d7
 ROBOTS: NOINDEX, NOFOLLOW
 description: Используйте мастер Skype для бизнеса Server управляемости, чтобы настроить среду для гибридной Skype для бизнеса Online.
-ms.openlocfilehash: fa7299fc612974e5f1f79e815284d68403527b49
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 545cdd86397c5f8b358d87f2aef279fc11796e0b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609736"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60742755"
 ---
 # <a name="hybrid-wizard-sign-in-to-microsoft-365-or-office-365"></a>Гибридный мастер: вход в Microsoft 365 или Office 365
 

@@ -1,7 +1,7 @@
 ---
 title: Условия безопасности и конфигурации для Корпоративная голосовая связь в Skype для бизнеса Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 15354abe-733e-466b-bcd4-a6cfbf58caf8
 description: Сводка. Сведения о предпосылок безопасности и конфигурации для Корпоративная голосовая связь в Skype для бизнеса Server.
-ms.openlocfilehash: 0f46de6fa8b8c2027a3828df67a0330212392e45
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 48cb415208008441f306dd0384c494149f65c4e4
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617025"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60778919"
 ---
 # <a name="security-and-configuration-prerequisites-for-enterprise-voice-in-skype-for-business-server"></a>Условия безопасности и конфигурации для Корпоративная голосовая связь в Skype для бизнеса Server
  

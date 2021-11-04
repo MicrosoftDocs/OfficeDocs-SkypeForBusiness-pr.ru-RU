@@ -1,7 +1,7 @@
 ---
 title: Установка средств администрирования в Skype для бизнеса Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 7/14/2018
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 52ee7da4-59ba-499a-a105-d93fa9941334
 description: 'Сводка. Узнайте, как установить административные средства, необходимые для установки Skype для бизнеса Server. Скачайте бесплатную пробную Skype для бизнеса Server из Центра оценки Майкрософт по ссылке: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server .'
-ms.openlocfilehash: 346022633f4c15d2e1601fddbca174f5b0e6f67d
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: d2f80627aceee47559a06ab604e1cc8827d310b8
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726298"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60753252"
 ---
 # <a name="install-administrative-tools-in-skype-for-business-server"></a>Установка средств администрирования в Skype для бизнеса Server
  

@@ -1,7 +1,7 @@
 ---
 title: Управление сетевыми регионами
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Область сети* — это сетевые концентраторы или магистрали, используемые в конфигурации управления приемом вызовов, E9-1-1 и обхода мультимедиа.
-ms.openlocfilehash: 0fc7b1cdc41f73535aef83e6ec46f9bd4622da48
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5bfe3051404b41cd6a1d96bfac240e83070bbdbc
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630583"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60759741"
 ---
 # <a name="managing-network-regions-in-skype-for-business-server"></a>Управление областями сети в Skype для бизнеса Server
 

@@ -1,7 +1,7 @@
 ---
 title: Настройка музыки Парка вызовов на удержание вSkype для бизнеса
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3d78e6f9-a4ae-49f4-a89f-4515acb49dac
 description: Настройка музыки Call Park на удержание в Skype для бизнеса Server Корпоративная голосовая связь.
-ms.openlocfilehash: 5fd9872c0cc6ac8c63e996d38b3cfe2c34b6fc68
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 925749819a041ed451df816902dae8b932cffbbd
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58585850"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60753620"
 ---
 # <a name="customize-call-park-music-on-hold-inskype-for-business"></a>Настройка музыки Парка вызовов на удержание вSkype для бизнеса
  
@@ -38,7 +38,7 @@ ms.locfileid: "58585850"
     
 2. Запустите Skype для бизнеса Server: нажмите кнопку Начните, щелкните Все **программы,** нажмите кнопку Skype для бизнеса **2015,** а затем нажмите кнопку **Skype для бизнеса Server.**
     
-3. Выполните команду: 
+3. Запустите: 
     
    ```powershell
    Set-CsCallParkServiceMusicOnHoldFile -Service <ServiceID where the Call Park application resides> -Content <Byte >
@@ -54,7 +54,7 @@ ms.locfileid: "58585850"
    Set-CsCallParkServiceMusicOnHoldFile -Service Redmond1-applicationserver-1 -Content $a
    ```
 
-## <a name="see-also"></a>Дополнительные материалы
+## <a name="see-also"></a>См. также
 
 [Set-CsCallParkServiceMusicOnHoldFile](/powershell/module/skype/set-cscallparkservicemusiconholdfile?view=skype-ps)
   

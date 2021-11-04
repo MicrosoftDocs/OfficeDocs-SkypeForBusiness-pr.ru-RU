@@ -1,7 +1,7 @@
 ---
 title: Настройка модерирования канала и управление им
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: jotaing
 ms.topic: article
@@ -18,12 +18,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Узнайте, как настроить каналы для модерации в Microsoft Teams, а также как добавить участников группы в качестве модераторов каналов.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 5e1a58f7f09c94ae5178add3897b84e3571eef03
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: a012eb26ac9017e0d6a1110505aa1d1025c6a779
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726138"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60753992"
 ---
 # <a name="set-up-and-manage-channel-moderation-in-microsoft-teams"></a>Настройка модерации канала и управление им в Microsoft Teams
 

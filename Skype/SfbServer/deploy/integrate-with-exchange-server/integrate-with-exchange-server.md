@@ -1,7 +1,7 @@
 ---
 title: Интеграция Skype для бизнеса Server с Exchange Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 12/20/2018
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 795dc1c6-524f-4012-8b66-103b55198044
 description: Сводка. Обзор действий по интеграции Exchange Server 2016 или Exchange Server 2013 и Skype для бизнеса Server.
-ms.openlocfilehash: 44b27328252384d6c7635cee2f0c98dafdd180ac
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 46e7380669ee93a9fa4a61511f362a809387a022
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58621791"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60778849"
 ---
 # <a name="integrate-skype-for-business-server-with-exchange-server"></a>Интеграция Skype для бизнеса Server с Exchange Server
 
@@ -33,7 +33,7 @@ Exchange Server 2013 или Skype для бизнеса Server совмести�
 
 Если вы интегрировали Skype для бизнеса Online с Exchange Server на локальной основе, см. в рубке [Настройка OAuth](oauth-with-online-and-on-premises.md)между Skype для бизнеса Online и Exchange в помещениях .
 
-## <a name="in-this-section"></a>В этой статье
+## <a name="in-this-section"></a>В этом разделе
 
 [Настройка партнерских приложений в Skype для бизнеса Server и Exchange Server](configure-partner-applications.md)
 

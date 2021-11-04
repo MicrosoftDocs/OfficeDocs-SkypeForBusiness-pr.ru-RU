@@ -1,7 +1,7 @@
 ---
 title: (Необязательный) Проверка развертывания объявления в Skype для бизнеса
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 54da13fb-cf5e-40d0-88fb-aee1658f67eb
 description: Проверка развертывания приложения Объявления в Skype для бизнеса Server Корпоративная голосовая связь. Это влияет на обработку вызовов на ненанаписаные номера.
-ms.openlocfilehash: 8de808b9818811c124a40e684d0bd3b23a27079e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8dbc5e2165d02d87b968620e835405cf6dc634ef
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58626181"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60753476"
 ---
 # <a name="optional-verify-announcement-deployment-in-skype-for-business"></a>(Необязательный) Проверка развертывания объявления в Skype для бизнеса
  

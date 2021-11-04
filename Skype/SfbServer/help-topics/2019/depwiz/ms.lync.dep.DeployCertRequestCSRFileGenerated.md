@@ -1,7 +1,7 @@
 ---
 title: Запрос сертификата (запрос подписи сертификата создан)
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 728f6a92-8df8-40c9-8054-cd7306d7d60f
 ROBOTS: NOINDEX, NOFOLLOW
 description: Страница Файл запроса сертификата отображается после завершения автономного запроса сертификата. Чтобы просмотреть запрос сертификата и подготовить его к отправке в локальный или общий центр сертификации, нажмите кнопку Просмотреть. Запрос сертификата отображается в Блокноте Windows (по умолчанию). Вы можете копировать и вставлять кодированный запрос сертификата на этом экране или закончить обработку запроса сертификата, следуя указаниям из выбранного локального или общего центра сертификации. Нажмите кнопку Готово, чтобы продолжить.
-ms.openlocfilehash: 956f78869fc6e892f661617e7c073b18e65f4c54
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 11ffad0a3c6762c918026b9a34a4eeb436c74bd2
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598113"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60748785"
 ---
 # <a name="certificate-request-certificate-signing-request-generated"></a>Запрос сертификата (запрос подписи сертификата создан)
  

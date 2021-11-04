@@ -1,7 +1,7 @@
 ---
 title: Выбор групп
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: d780f676-c2c5-4f57-90dd-df5fcd204d76
 ROBOTS: NOINDEX, NOFOLLOW
 description: Очереди группы ответов удерживают вызовы в группах ответов, пока агент не ответит на вызов. Очереди имеют назначенные группы агентов. При создании или изменении очереди вы используете диалоговое окно Выбор групп для выбора одной или нескольких групп агентов, которые требуется назначить очереди.
-ms.openlocfilehash: 73c52e37624dc2468ea25aa7d892e8ebaa21ba04
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3202887986c3a384f158b487148d09fece3df2d5
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58610026"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60742705"
 ---
 # <a name="select-groups"></a>Выбор групп
 

@@ -1,7 +1,7 @@
 ---
 title: Просмотр аналитики в Teams
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -13,15 +13,15 @@ ms.localizationpriority: medium
 search.appverid: MET150
 MS.collection:
 - M365-collaboration
-description: Узнайте в Teams о меж командной аналитике, аналитике по группам и по каналам, в которой пользователи могут видеть данные об использовании команд или каналов, в которых они находятся.
+description: Узнайте в Teams о меж командной аналитике, аналитике по группам и аналитике по каналам, которая позволяет пользователям видеть данные об использовании команд или каналов, в которых они находятся.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 54abc3545ca6d2935a78e3924cbd62e948c02bf1
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 86c14b49de7b6ea8175d486aa86e03ceeff068c7
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58731740"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60742975"
 ---
 # <a name="view-analytics-in-teams"></a>Просмотр аналитики в Teams
 

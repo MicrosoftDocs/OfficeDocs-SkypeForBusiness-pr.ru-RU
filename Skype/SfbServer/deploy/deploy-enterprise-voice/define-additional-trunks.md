@@ -1,7 +1,7 @@
 ---
 title: Определите дополнительные магистрали в Topology Builder в Skype для бизнеса Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e68b8377-50a2-452a-bf5c-910929e34236
 description: Сводка. Узнайте, как определить дополнительный магистраль между сервером-посредником и шлюзом в Topology Builder в Skype для бизнеса Server.
-ms.openlocfilehash: 42f435079a66f7dba6c325ad8afbb1b28a3e3753
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a3a1094bdc9d0f92eba5cfa1ace87f14db0011de
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58585859"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60748875"
 ---
 # <a name="define-additional-trunks-in-topology-builder-in-skype-for-business-server"></a>Определите дополнительные магистрали в Topology Builder в Skype для бизнеса Server
  

@@ -1,7 +1,7 @@
 ---
 title: Подготовка текущего леса (местонахождение универсальной группы)
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 1da76935-ab93-46e5-a862-3f2a77171760
 ROBOTS: NOINDEX, NOFOLLOW
 description: Необходимо указать место для создания универсальных групп в лесу. На странице Расположение универсальной группы используется домен, по умолчанию содержащий компьютер, на котором вы выполнили вход. Если вы хотите создать универсальные группы в другом домене, отличающемся от указанного по умолчанию в поле Локальный домен, выберите Полное доменное имя домена и введите полное имя домена в текстовом поле. Альтернативное имя домена может оказаться полезным, когда задача подготовки леса выполняется не из того домена, в котором вы хотите создать универсальные группы. Нажмите кнопку Далее, чтобы продолжить.
-ms.openlocfilehash: e501cc75c9eccbba8b340c6b04fe68b5b78eb570
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6eafa75f862b1462921fd19da5f5548565b7b14c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608566"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60738751"
 ---
 # <a name="prepare-current-forest-universal-group-location"></a>Подготовка текущего леса (расположение универсальной группы)
  

@@ -1,7 +1,7 @@
 ---
 title: Выбор магистральной линии связи
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 3b513864-15c0-4afb-b934-bb050d5d2dcd
 description: Используйте диалоговое окно Выберите магистральную линию связи для поиска существующей пригодной для использования магистральной линии связи.
-ms.openlocfilehash: cf0d3fc35f0fdfcd3c8bd4c1d8d14c7c58ad7602
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bd1bc09465381f8b2b907d94358850b97527417f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618895"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60772435"
 ---
 # <a name="select-trunk"></a>Выбор магистральной линии связи
  
