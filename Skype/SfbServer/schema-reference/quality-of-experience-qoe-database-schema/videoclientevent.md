@@ -1,7 +1,7 @@
 ---
 title: Таблица VideoClientEvent
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/1/2018
@@ -13,18 +13,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: e8ab963b-fe1d-45b3-b9bd-66a5f44c1629
 description: Каждая запись содержит событие клиента для одной конечной точки видеосвязи. Обычно один вызов имеет две записи, одну для вызываемой и одну для вызываемой.
-ms.openlocfilehash: de088fb6f4bb5cd41c4f4be69fba2445c61c3e96
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a5bfbd33a5416cf68e7df45caf389133eb517e20
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58595259"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767277"
 ---
 # <a name="videoclientevent-table"></a>Таблица VideoClientEvent
  
 Каждая запись содержит событие клиента для одной конечной точки видеосвязи. Обычно один вызов имеет две записи, одну для вызываемой и одну для вызываемой.
   
-|**Столбец**|**Тип данных**|**Key/Index**|**Details**|
+|**Столбец**|**Тип данных**|**Key/Index**|**Сведения**|
 |:-----|:-----|:-----|:-----|
 |**ConferenceDateTime** <br/> |datetime  <br/> |Primary  <br/> |Ссылки из [таблицы MediaLine](medialine-0.md).  <br/> |
 |**SessionSeq** <br/> |int  <br/> |Primary  <br/> |Ссылки из [таблицы MediaLine](medialine-0.md).  <br/> |

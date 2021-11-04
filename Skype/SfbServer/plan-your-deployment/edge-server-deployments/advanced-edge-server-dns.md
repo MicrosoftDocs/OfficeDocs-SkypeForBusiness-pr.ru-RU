@@ -1,7 +1,7 @@
 ---
 title: Планирование развертывания advanced Edge Server для Skype для бизнеса Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3a5895f-f64f-44eb-9a5e-8d606ac1fc38
 description: Просмотрите сценарии Skype для бизнеса Server вариантов развертывания, хотите ли вы один сервер или предпочитаете пул серверов с DNS или HLB.
-ms.openlocfilehash: a5086d68f8cac1fd68dbc3c0414b0136e463efff
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5b58d9aa79566f7aee3ac102f1c5e73996bc6dae
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58595497"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767647"
 ---
 # <a name="plan-advanced-edge-server-deployment-for-skype-for-business-server"></a>Планирование развертывания advanced Edge Server для Skype для бизнеса Server
  
@@ -114,7 +114,7 @@ Skype для бизнеса похожи на предыдущие версии 
     
 - Все интерфейсы Skype для бизнеса Server edge в сети периметра используют эту внутреннюю зону DNS для решения запросов contoso.com.
     
-- Все серверы, работающие Skype для бизнеса Server, и клиенты, работающие Skype для бизнеса Server в корпоративной сети, указывают на внутренние DNS-серверы для решения запросов до contoso.com или используют файл Host на каждом краевом сервере и перечисляют записи A и AAAA (если вы используете адресную службу IPv6) для следующего сервера хмеля (специально для VIP-сервера пула директоров или директоров, VIP-службы переднего пула или выпуск Standard сервера).
+- Все серверы, работающие Skype для бизнеса Server, и клиенты, работающие Skype для бизнеса Server в корпоративной сети, указывают на внутренние DNS-серверы для разрешения запросов на contoso.com или используют хост-файл на каждом краевом сервере и перечисляют записи A и AAAA (если вы используете адреса IPv6) для следующего сервера хмеля (в частности, для VIP-службы пула директоров или директоров). , VIP-клиент пула переднего выпуск Standard или сервера).
     
 ### <a name="external-dns"></a>Внешний DNS
 

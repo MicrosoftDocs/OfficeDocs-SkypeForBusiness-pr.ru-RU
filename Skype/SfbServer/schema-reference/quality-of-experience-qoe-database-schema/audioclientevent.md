@@ -1,7 +1,7 @@
 ---
 title: Таблица AudioClientEvent
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/1/2018
@@ -13,18 +13,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: fef73d8f-7261-4e5b-9769-82435b007979
 description: Каждая запись содержит событие клиента для одной конечной точки в звуковом вызове. Обычно один вызов имеет две записи, одну для вызываемой и одну для вызываемой.
-ms.openlocfilehash: 65897c03f44cac5fd10a0e2c56e78bb5751ae7e3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a7e5e481fd9398532212f4bda767bab83815250c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58583763"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767317"
 ---
 # <a name="audioclientevent-table"></a>Таблица AudioClientEvent
  
 Каждая запись содержит событие клиента для одной конечной точки в звуковом вызове. Обычно один вызов имеет две записи, одну для вызываемой и одну для вызываемой.
   
-|**Столбец**|**Тип данных**|**Key/Index**|**Details**|
+|**Столбец**|**Тип данных**|**Key/Index**|**Сведения**|
 |:-----|:-----|:-----|:-----|
 |**ConferenceDateTime** <br/> |datetime  <br/> |Primary  <br/> |Ссылки из [таблицы MediaLine](medialine-0.md).  <br/> |
 |**SessionSeq** <br/> |int  <br/> |Primary  <br/> |Ссылки из [таблицы MediaLine](medialine-0.md).  <br/> |

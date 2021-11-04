@@ -1,7 +1,7 @@
 ---
 title: Заключительный контрольный список развертывания управления приемом вызовов для Skype для бизнеса Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d56a525f-3da5-4ac0-a311-0c5efd98c9df
 description: Заключительный контрольный список развертывания управления приемом вызовов (CAC) в Skype для бизнеса Server Корпоративная голосовая связь.
-ms.openlocfilehash: 70fadce643fa21d9551a6a6ba26a2883579eee1f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 11bf5a69b273f1311399090cc893bee1f4732443
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58594147"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60759081"
 ---
 # <a name="call-admission-control-deployment-final-checklist-for-skype-for-business-server"></a>Развертывание управления приемом вызовов: окончательный контрольный список для Skype для бизнеса Server
  

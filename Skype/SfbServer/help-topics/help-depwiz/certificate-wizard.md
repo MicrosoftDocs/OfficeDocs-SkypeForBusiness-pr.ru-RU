@@ -1,7 +1,7 @@
 ---
 title: Мастер сертификатов
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/26/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 6ab661d7-5741-4cad-bbe4-62cf862ded85
 description: В мастере сертификатов можно Запросить, Назначить, Удалить или Просмотреть сертификаты. Вы должны войти как участник группы RTCUniversalServerAdmins. Для запроса сертификата из общего центра сертификации необходимо дополнительное участие в группах. Чтобы запросить сертификат в инфраструктуре общедоступных ключевых элементов организации (PKI), необходимо подтвердить, какие дополнительные или, если таково, членство в группе вам потребуется. Во время задачи Запрос можно ввести альтернативные учетные данные, которые будут использоваться для запроса сертификата в ЦС вашего PKI.
-ms.openlocfilehash: 489c4218a062c17bc4b7a8979b2ff9a68cd4cd29
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 61d1ecd172572242eb1a0c291cd42d07c2c644a6
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58605218"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60752348"
 ---
 # <a name="certificate-wizard"></a>Мастер сертификатов
  

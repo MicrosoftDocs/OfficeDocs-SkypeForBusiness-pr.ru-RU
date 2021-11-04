@@ -1,7 +1,7 @@
 ---
 title: Категория сохраняемого чата
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/27/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 6875d930-7502-4e47-bdb3-45eaeb065350
 description: Для настройки категорий можно использовать раздел Category страницы "Стойкий чат". Категория Persistent Chat room — это логическая структура для организации комнат чатов. Категория определяет набор списков управления доступом (ACL) по умолчанию для управления пользователями и группами пользователей, которые могут создавать комнаты чата или присоединяться к ним. Категории можно использовать для применения этических границ между различными подразделениями в организациях.
-ms.openlocfilehash: be326978d25039e095e8d679b40194f7468f7a8e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 57e97faa0dd7c3cb80d75f9a06a8f5d2602ba162
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630973"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60760847"
 ---
 # <a name="persistent-chat-category"></a>Категория сохраняемого чата
  
@@ -81,6 +81,6 @@ ms.locfileid: "58630973"
     
 ## <a name="see-also"></a>См. также
 
-Дополнительные сведения о настойчивых возможностях и возможностях сервера чата см. в материале Plan [for Persistent Chat Server в Skype для бизнеса Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)г., Развертывание серверов сохраняемого чата в Skype для бизнеса Server [2015](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md)г. и управление стойким сервером чата в [Skype для бизнеса Server 2015](../../manage/persistent-chat/persistent-chat.md)г. .
+Дополнительные сведения о настойчивых возможностях и возможностях сервера чата см. в материале Plan [for Persistent Chat Server в Skype для бизнеса Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)г., Развертывание стойкого сервера чата в Skype для бизнеса Server [2015](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md)г. и управление стойким сервером чата в [Skype для бизнеса Server 2015 г. ](../../manage/persistent-chat/persistent-chat.md).
   
 

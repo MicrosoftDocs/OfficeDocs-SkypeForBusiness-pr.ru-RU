@@ -1,7 +1,7 @@
 ---
 title: Включить качество работы в Skype для бизнеса Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c8bb3c67-b324-4d94-8158-00c792c7ac42
 description: Сводка. Узнайте, как включить качество работы (QoE) в Skype для бизнеса Server.
-ms.openlocfilehash: 3edd7aa136499dcc4b1fd423a1369dcff33f0968
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: aa1f755dbc19da959f54f6af882bff2049363d6f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60014753"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767707"
 ---
 # <a name="enable-quality-of-experience-in-skype-for-business-server"></a>Включить качество работы в Skype для бизнеса Server
 

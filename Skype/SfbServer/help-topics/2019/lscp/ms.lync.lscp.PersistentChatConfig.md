@@ -1,7 +1,7 @@
 ---
 title: Настройка сохраняемого чата
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 3f2891e6-bad3-4a23-a345-b7de4cae3bd9
 ROBOTS: NOINDEX, NOFOLLOW
 description: В развертывании стойких чат-серверов может быть размещено множество одновременно постоянных комнат чата. Комнаты чата можно организовать как набор категорий на сервере. Каждая комната чата принадлежит одной категории и наследует некоторые параметры из этой категории. Такая организация создает полезную структуру для определения бесед на основе их бизнес-цели и обеспечивает делегированное администрирование и упрощает управление.
-ms.openlocfilehash: 0679ecb2e44fc751c497d0116955138605a96c34
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a2937c6b34adf894cf71066cabe4018a62cd50ad
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58605398"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60758891"
 ---
 # <a name="persistent-chat-configuration"></a>Настройка сохраняемого чата
 

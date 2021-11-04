@@ -1,7 +1,7 @@
 ---
 title: Корпоративная голосовая связь (Средство планирования)
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 ms.assetid: 8749fc54-4cd1-4c25-9a64-60e4bdab9767
 ROBOTS: NOINDEX, NOFOLLOW
 description: С Корпоративная голосовая связь Skype для бизнеса Server предоставляет автономный голосовой голос по протоколу Интернета (VoIP), предлагающий усовершенствовать или заменить традиционные системы обмена частными филиалами (PBX).
-ms.openlocfilehash: dbee817188e808323c25ca27e6135fadd2911c27
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 48243173af31d9c8c5e1c9b12893b141934b0421
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58592753"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766997"
 ---
 # <a name="enterprise-voice-planning-tool"></a>Корпоративная голосовая связь (Средство планирования)
  

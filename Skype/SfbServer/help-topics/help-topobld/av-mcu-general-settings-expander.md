@@ -1,7 +1,7 @@
 ---
 title: Расширитель общих настроек AV MCU
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 16449f7c-dd2c-4b51-b428-8fba42f93f83
 description: Чтобы изменить свойства пула серверов аудио- и видеоконференций, которые уже были определены, можно выполнить приведенные ниже действия.
-ms.openlocfilehash: 2311ecea7a09153705c52f41061a2df78c268f1c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 97838dae78a413306fc352a80fd04ebc67f70855
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58606358"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751988"
 ---
 # <a name="av-mcu-general-settings-expander"></a>Расширитель общих параметров AV MCU
  

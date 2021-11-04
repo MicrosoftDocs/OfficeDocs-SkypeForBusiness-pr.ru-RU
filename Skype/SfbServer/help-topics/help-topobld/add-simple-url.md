@@ -1,7 +1,7 @@
 ---
 title: Добавление простого URL-адреса
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 202b9fa2-41ab-4c86-a283-ebc8dece7ddf
 description: Чтобы добавить дополнительные простые URL-адреса в определение развертывания, укажите новый простой URL-адрес.
-ms.openlocfilehash: a91fee84df2442c11c71a5760fba57b39b44255c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6008a57576fbd755643dcb876e67dddc61f1cdbb
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634413"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60752118"
 ---
 # <a name="add-simple-url"></a>Добавление простого URL-адреса
  

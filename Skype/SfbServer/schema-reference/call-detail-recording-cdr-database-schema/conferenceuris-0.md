@@ -1,7 +1,7 @@
 ---
 title: Представление ConferenceUris
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,18 +13,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 9a3cdcea-426e-4b6b-9876-ba746a8de706
 description: В представлении ConfernceUris хранятся сведения об идентификаторах URI, которые участвовали в сеансах конференц-связи. Это представление было представлено в Microsoft Lync Server 2013.
-ms.openlocfilehash: 40c4538df2b551b86826b3601b901f66b4e917d5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 79b4efda696bd757cb63d681e2c82f00d7a7b263
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598693"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60749898"
 ---
 # <a name="conferenceuris-view"></a>Представление ConferenceUris
  
 В представлении ConfernceUris хранятся сведения об идентификаторах URI, которые участвовали в сеансах конференц-связи. Это представление было представлено в Microsoft Lync Server 2013.
   
-|**Столбец**|**Тип данных**|**Details**|
+|**Столбец**|**Тип данных**|**Сведения**|
 |:-----|:-----|:-----|
 |ConferenceUriId  <br/> |int  <br/> |Уникальный номер, идентифицирующий URI конференции.  <br/> |
 |ConferenceUri  <br/> |nvarchar (450)  <br/> |Идентификатор URI конференции.  <br/> |

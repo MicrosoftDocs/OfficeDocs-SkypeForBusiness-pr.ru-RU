@@ -1,7 +1,7 @@
 ---
 title: Тестирование разрешений администратора в Skype для бизнеса Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Проверка разрешений администратора в Skype для бизнеса Server
-ms.openlocfilehash: 08721b556de6e7b162eb76fbed953dae422b33b7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 80971dab292252775f9a58cbf822d746326c8abf
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58580563"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60760697"
 ---
 # <a name="testing-admin-permissions-in-skype-for-business-server"></a>Тестирование разрешений администратора в Skype для бизнеса Server
 
@@ -54,17 +54,17 @@ ms.locfileid: "58580563"
 
 Верно
 
-Если необходимые разрешения не установлены, Test-CsOUPermission возвращает значение False. Возможно, вам придется найти момент, чтобы найти это значение. Как правило, он будет встроен в несколько сопутствующих предупреждений. Например,
+Если необходимые разрешения не установлены, Test-CsOUPermission возвращает значение False. Возможно, вам придется найти момент, чтобы найти это значение. Как правило, он будет встроен в несколько сопутствующих предупреждений. Например:
 
 ВНИМАНИЕ: запись управления доступом (ACE) atl-cs-001\RTCUniversalUserReadOnlyGroup; разрешить; ReadProperty; ContainerInherit; Потомки; bf967aba-0de6-11d0-00aa003049e2; d819615a-3b9b-4738-b47e-f1bd8ee3aea4 
 
 ВНИМАНИЕ. Записи управления доступом (ACEs) на объекте "OU=NorthAmerica,DC=atl-cs-001\DC=litwareinc,DC=com" не готовы. 
 
-False 
+Неверно 
 
 ВНИМАНИЕ. Обработка "Test-CsOUPermission" завершена с помощью предупреждений. Во время этого запуска были записаны предупреждения "2". 
 
-ВНИМАНИЕ. Подробные результаты можно найти на "C:\Users\Admin\AppData\Local\Temp\Test-CsOUPermission-5d7a89af-f854-4a9c-87e3-69e37e58de.html". 
+ВНИМАНИЕ. Подробные результаты можно найти в "C:\Users\Admin\AppData\Local\Temp\Test-CsOUPermission-5d7a89af-f854-4a9c-87e3-69e37e58de.html". 
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Причины сбой теста
 

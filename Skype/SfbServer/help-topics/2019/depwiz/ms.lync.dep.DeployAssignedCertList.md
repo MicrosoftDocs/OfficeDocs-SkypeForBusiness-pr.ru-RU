@@ -1,7 +1,7 @@
 ---
 title: Просмотр сертификата
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: bfc6db2d-141e-4395-819a-65ba4629ccca
 ROBOTS: NOINDEX, NOFOLLOW
 description: На странице Просмотр сертификата имеется панель, на которой можно выбрать любой действующий сертификат в локальном хранилище сертификатов. Выберите сертификат и нажмите кнопку Просмотреть сведения о сертификате. Откроется новая панель с сертификатом. На панели Сертификат можно просмотреть общие сведения о сертификате. На вкладке Сведения отображается подробная информация о сертификате, например имя субъекта и альтернативное имя субъекта. Путь сертификации отображает путь к доверительному пути для сертификата. Завершив просмотр информации, нажмите кнопку ОК.
-ms.openlocfilehash: e266caa65b5b2ce0e74871651a94ad13efedb26d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: cb76e0720ad1a1f50946bf573a19e9996c2e647d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58622971"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60749350"
 ---
 # <a name="view-certificate"></a>Просмотр сертификата
  

@@ -1,7 +1,7 @@
 ---
 title: Интеграция с Exchange и SharePoint
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/13/2018
@@ -21,12 +21,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5d456d6c-ad71-420c-b6d8-4d9cd0324f86
 description: Сводка. Сведения об интеграции Skype для бизнеса Server 2015 г. с Exchange и SharePoint.
-ms.openlocfilehash: a2caf4cf409f3631ebc0a85cd2957b30e9d36d2a
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 6805296716970df896a42a3e01a89eb212930ecb
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60013143"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60746515"
 ---
 # <a name="integration-with-exchange-and-sharepoint"></a>Интеграция с Exchange и SharePoint
 

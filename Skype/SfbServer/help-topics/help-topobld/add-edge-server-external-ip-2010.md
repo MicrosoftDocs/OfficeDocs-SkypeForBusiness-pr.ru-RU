@@ -1,7 +1,7 @@
 ---
 title: Добавление внешнего IP-адреса пограничного сервера 2010
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: adb2778d-fd46-4ab9-899d-f97f71493659
 description: Вы можете настроить свойства на этой странице, чтобы указать edge Server на внешние расположения службы Access Edge, службы Web Conferencing Edge и службы A/V Edge.
-ms.openlocfilehash: 32a98e391c547877074911adccd7813ca7a12923
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 88636f9718bb600a220cdf4dd912ec12abfca7e1
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58614269"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60752148"
 ---
 # <a name="add-edge-server-external-ip-2010"></a>Добавление внешнего IP-адреса пограничного сервера 2010
 

@@ -1,7 +1,7 @@
 ---
 title: Развертывание общих строк в Skype для бизнеса Server 2015 г.
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/7/2018
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 474a5e4a-9479-4e86-8607-b9f41a0fa648
 description: Ознакомьтесь с этой темой, чтобы узнать, как развернуть общий внешний вид (SLA) в Skype для бизнеса Server 2015 г., ноябрь 2015 г. Накопительное обновление. SLA — это функция для обработки нескольких вызовов на определенном номере, называемом общим номером.
-ms.openlocfilehash: 43c792f7a63d3d58c734036e949250a85a621438
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: edf731976ae9fbf36f99266f0d993c9e4e78fa34
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58591913"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60749448"
 ---
 # <a name="deploy-shared-line-appearance-in-skype-for-business-server-2015"></a>Развертывание общих строк в Skype для бизнеса Server 2015 г.
 
@@ -38,7 +38,7 @@ ms.locfileid: "58591913"
 
 2. Установщик развернет последнюю версию приложения SLA, однако по умолчанию приложение не включено. Она включена, следуя описанным ниже шагам:
 
-    а. Зарегистрируйте SLA в качестве серверного приложения, задав следующую команду для каждого пула:
+    А. Зарегистрируйте SLA в качестве серверного приложения, задав следующую команду для каждого пула:
 
    ```powershell
    New-CsServerApplication -Identity 'Service:Registrar:%FQDN%/SharedLineAppearance' -Uri   http://www.microsoft.com/LCS/SharedLineAppearance -Critical $false -Enabled $true -Priority (Get-CsServerApplication -Identity  'Service:Registrar:%FQDN%/UserServices').Priority
@@ -46,13 +46,13 @@ ms.locfileid: "58591913"
 
    где %FQDN% — это полностью квалифицированное доменное имя пула.
 
-    б. Запустите следующую команду, чтобы обновить роли RBAC для командлетов SLA:
+    Б. Запустите следующую команду, чтобы обновить роли RBAC для командлетов SLA:
 
    ```powershell
    Update-CsAdminRole
    ```
 
-    в. Перезапустите все серверы переднего конца (служба RTCSRV) во всех пулах, где была установлена и включена SLA:
+    c. Перезапустите все серверы переднего конца (служба RTCSRV) во всех пулах, где была установлена и включена SLA:
 
    ```powershell
    Stop-CsWindowsService RTCSRV Start-CsWindowsService RTCSRV
@@ -132,7 +132,7 @@ ms.locfileid: "58591913"
   Remove-CsSlaDelegates -Identity <IdentityOfGroup> -Delegate <NameOfDelegate@domain>
   ```
 
-    Например,
+    Например:
 
   ```powershell
   Remove-CsSlaDelegates -Identity SLAGroup1 -Delegate sip:SLA_Delegate3@contoso.com

@@ -1,7 +1,7 @@
 ---
 title: Сопоставление сервера переднего плана с AV MCU
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 314e3b0b-9ca7-423b-9c8e-80eb6013d36f
 description: Аудио- и видеоконференции позволяют пользователям использовать аудио- и видеосвязь в режиме реального времени (пользователи должны иметь соответствующие клиентские устройства, такие как гарнитуры для аудиоконференций и веб-камеры для видеоконференций). Если в развертывании поддерживаются конференции и включены как веб-конференции, так и аудио- и видеоконференции, можно совместить сервер аудио- и видеоконференций и интерфейсный сервер или развернуть один или несколько отдельных серверов аудио- и видеоконференций (пул аудио- и видеоконференций). Если вы решите развернуть автономный сервер A/V Conferencing Server, его необходимо определить в Topology Builder.
-ms.openlocfilehash: b9bc82356ff0891344fc54669236630c18ddbc7e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 652b5a582d603e907deb003b23285344f6fbfc6b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58625231"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60768127"
 ---
 # <a name="associate-front-end-with-av-mcu"></a>Связывание сервера переднего плана с AV MCU
  

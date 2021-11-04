@@ -1,6 +1,6 @@
 ---
 title: Доступность в Запа
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, fafan
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже находятся Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Компании.
-ms.openlocfilehash: eac947ef58bd6166f23451287bed2d419f57258e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Ниже находятся Microsoft 365 и Office 365 службы Skype для бизнеса и Microsoft Teams, доступные для Компании.
+ms.openlocfilehash: d5e0e46cc82ceb6747fd0248ff3cbbe97dbaa462
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58619575"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60760527"
 ---
 # <a name="availability-in-dominica"></a>Доступность в Скайпа
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже находятся Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Компании.
+Ниже находятся Microsoft 365 и Office 365 службы Skype для бизнеса и Microsoft Teams, доступные для Компании.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 

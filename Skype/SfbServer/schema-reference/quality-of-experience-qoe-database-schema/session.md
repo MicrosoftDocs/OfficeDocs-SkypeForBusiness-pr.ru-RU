@@ -1,7 +1,7 @@
 ---
 title: Таблица сеансов
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/1/2018
@@ -13,18 +13,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 7f05529c-794d-41ed-bca4-2e85b87b2dec
 description: Каждая запись представляет один сеанс, который включает аудио- или аудио- и видео. Он содержит общую информацию о сеансе. Сеанс определяется как диалоговое окно протокола инициации сеанса аудио или видео(SIP) между двумя конечными точками.
-ms.openlocfilehash: bc88a924d16e8e2193b0cce5c487004ab66f47a7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bc81bb3c67f91b975643929170354c7b152d2237
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58611848"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60768327"
 ---
 # <a name="session-table"></a>Таблица сеансов
  
 Каждая запись представляет один сеанс, который включает аудио- или аудио- и видео. Он содержит общую информацию о сеансе. Сеанс определяется как диалоговое окно протокола инициации сеанса аудио или видео(SIP) между двумя конечными точками.
   
-|**Столбец**|**Тип данных**|**Key/Index**|**Details**|
+|**Столбец**|**Тип данных**|**Key/Index**|**Сведения**|
 |:-----|:-----|:-----|:-----|
 |**ConferenceDateTime** <br/> |datetime  <br/> |Primary  <br/> |Ссылки из [таблицы Диалог](dialog.md).  <br/> |
 |**SessionSeq** <br/> |int  <br/> |Primary  <br/> |Ссылки из [таблицы Диалог](dialog.md).  <br/> |

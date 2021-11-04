@@ -1,7 +1,7 @@
 ---
 title: Конфигурация устройств
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: e1148124-e04a-4ae6-b601-ed48df69d194
 ROBOTS: NOINDEX, NOFOLLOW
 description: Конфигурация устройства — это набор параметров, используемых для управления устройствами Skype для бизнеса Телефон Edition на глобальном уровне или на сайте. Эти настройки позволяют настраивать такие параметры, как требуемый режим безопасности, уровень ведения журнала на устройстве, качество обслуживания голосовой связи (QoS), и определять необходимость автоматической блокировки телефонов по истечении заданного периода неактивности.
-ms.openlocfilehash: 2a97c318d3d810e7479ed7b43ec75ebc24886a09
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ed01dad680f686ab552b8d549c35cacf56e72b69
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58625591"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60749320"
 ---
 # <a name="device-configuration"></a>Конфигурация устройств
  
@@ -42,7 +42,7 @@ ms.locfileid: "58625591"
     
   - Глобальные
     
-  - Сайт
+  - Site
     
 - **Изменение** В списке можно изменить параметры конфигурации устройства. С помощью этой команды можно выполнить следующие действия:
     

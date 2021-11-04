@@ -1,6 +1,6 @@
 ---
 title: Ограничения на бесплатный набор номеров в Италия
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.reviewer: davlick, krkilaru
@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Это поможет вам узнать, как набирать бесплатные номера в каждой стране или регионе. После выбора страны или региона вы будете перенараны на страницу, которая содержит подробные сведения, ограничения и ограничения доступности бесплатных служб, где доступна бесплатная служба. Форматы набора показывают коды доступа, необходимые для набора бесплатного номера в каждой стране или регионе.
-ms.openlocfilehash: 04bf9363511293a4c43bf0f035d6b692365c3156
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: efb87d7032e8313d5fab979b1adcb17ecddea292
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58601064"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60760357"
 ---
 # <a name="toll-free-dialing-restrictions-in-italy"></a>Ограничения на бесплатный набор номеров в Италия
 

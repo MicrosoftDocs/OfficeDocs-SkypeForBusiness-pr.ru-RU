@@ -1,7 +1,7 @@
 ---
 title: План обновления до Skype для бизнеса Server 2015 г.
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 12/20/2018
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c62b5f6a-bdbe-4ac1-aabf-89e560e64a26
 description: 'Сводка. Сведения о том, что следует учитывать при планировании обновления до Skype для бизнеса Server 2015 г. Скачайте бесплатную пробную Skype для бизнеса Server 2015 г. из Центра оценки Майкрософт по ссылке: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server .'
-ms.openlocfilehash: e503fc555901a78fb2a6cc0fa5b7bc7f112f3eb2
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 3cd670d239d04f51ef8268ca74e0bba13f29d249
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729248"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60768487"
 ---
 # <a name="plan-to-upgrade-to-skype-for-business-server-2015"></a>План обновления до Skype для бизнеса Server 2015 г.
  

@@ -1,7 +1,7 @@
 ---
 title: 'Microsoft Teams: ресурсы для администраторов образования'
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.topic: reference
 ms.service: msteams
@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9cf78332ea9ed37a7d91d7ab2e038329b7e7c1fb
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 2342f68403120f04e865203c304c2c4e14d41c0a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727438"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767197"
 ---
 # <a name="microsoft-teams-resources-for-education-admins"></a>Ресурсы Microsoft Teams для администраторов учебных заведений
 
@@ -32,7 +32,7 @@ ms.locfileid: "58727438"
 
 ## <a name="adoption-content"></a>Материалы по внедрению
 
-Подумайте, как Microsoft Teams электронной почтой, плакатами, раздатными данными и другими ресурсами, которые вы можете использовать сейчас. Вы также можете связаться с учащимися через Интернет и в разных учебных заведениях с помощью нового цифрового инструмента, который заполняется баннерами, GIF-ссылками и видео. Начало работы уже сегодня!
+Подумайте, как Microsoft Teams электронной почтой, плакатами, раздатными данными и другими ресурсами, которые вы можете использовать сейчас. Вы также можете связаться с учащимися через Интернет и в разных учебных заведениях с помощью нового цифрового инструмента с баннерами, GIF-ссылками и видео. Начало работы уже сегодня!
 
 Перед [использованием](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/license_agreement_teams_for_education.pdf?raw=true) этих материалов ознакомьтесь с условиями.
 
@@ -57,7 +57,7 @@ ms.locfileid: "58727438"
 ## <a name="call-to-action"></a>Призыв к действию
 
 - Посетите [страницу Teams для образования](https://www.microsoft.com/en-us/education/products/teams/default.aspx) обучающие, видео и интерактивные демонстрации
-- Включите Teams [в](https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns) Центр администрирования Microsoft 365 (во Office 365 администратора)
+- Включите Teams в [Центр администрирования Microsoft 365](https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns) (во Office 365 администратора)
 - Скачайте клиенты Teams: [Microsoft Teams работает на всех ваших устройствах](https://teams.microsoft.com/downloads).
 - Получите дополнительные сведения об Office 365 для образования в [Центре справки "Образование"](https://support.office.com/education).
 

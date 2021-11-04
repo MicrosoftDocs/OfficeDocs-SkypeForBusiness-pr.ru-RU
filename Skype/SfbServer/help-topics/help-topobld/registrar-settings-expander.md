@@ -1,7 +1,7 @@
 ---
 title: Расширитель параметров регистратора
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: c7486ab3-61fd-45c6-9edc-a15535f273ff
 description: Компонент устойчивости обеспечивает высокую доступность и аварийное восстановление для пула регистратора. Если при сбое основного регистратора доступен резервный регистратор, он может взять на себя функции основного неработающего регистратора, позволяя пользователям выполнять вход и взаимодействовать. В этом случае пользователям могут быть доступны не все функциональные возможности, это зависит от того, на каких еще системах, кроме основного регистратора, возник сбой.
-ms.openlocfilehash: 44623d15a7f053a0982d031f8d3f153acd537a53
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fd138232b2d1561fbd4628ebacd30e83a571dc62
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58623761"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60768057"
 ---
 # <a name="registrar-settings-expander"></a>Расширитель параметров регистратора
  

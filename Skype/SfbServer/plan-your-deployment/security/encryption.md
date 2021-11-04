@@ -1,7 +1,7 @@
 ---
 title: Шифрование для Skype для бизнеса Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d18c74a6-385b-407b-98eb-0d525fa38fea
 description: Skype для бизнеса Server TLS и MTLS для шифрования мгновенных сообщений. Весь трафик от сервера к серверу требует MTLS, независимо от того, ограничивается ли трафик внутренней сетью или пересекает внутренний периметр сети. При подключении Skype для бизнеса Server к 3-й стороне системы IPPBX или SIP магистрали TLS необязательный, но настоятельно рекомендуется между сервером-посредником и шлюзом мультимедиа. Если TLS настроен по этой ссылке, требуется MTLS. Поэтому шлюз должен быть настроен с помощью сертификата от ЦС, которому доверяет сервер-посредник.
-ms.openlocfilehash: ec87f7d2a32e02e8dcd4a4c489b77d2add3ac43a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5a7f4d562c3433a2ca44c61659aa4ca2fe7ed271
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58586861"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60746705"
 ---
 # <a name="encryption-for-skype-for-business-server"></a>Шифрование для Skype для бизнеса Server
  

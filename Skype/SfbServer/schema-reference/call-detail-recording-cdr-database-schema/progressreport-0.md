@@ -1,7 +1,7 @@
 ---
 title: Представление ProgressReport
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b49f3fc7-0e2f-498f-8505-aaaf54e435f9
 description: В представлении ProgressReport хранятся сведения о завершенных сеансах. Отчеты о ходе выполнения записываются только для тех звонков и сеансов, которые Lync Server 2013 определяет как полезные для диагностических целей. Это представление было представлено в Microsoft Lync Server 2013.
-ms.openlocfilehash: 8e21b83b1ca6c4856ba31a579e4a7999ba8b31a6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 42229b0a756b6ed30c9736f4b97e0d00a653565e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58623541"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767477"
 ---
 # <a name="progressreport-view"></a>Представление ProgressReport
  
@@ -27,7 +27,7 @@ ms.locfileid: "58623541"
 > [!NOTE]
 > Поля ErrorTime, ErrorReportSeq и ProgressReportSeq ссылаются не на ошибки, а на сообщения, которые указывают состояние вызовов или сообщений. 
   
-|**Столбец**|**Тип данных**|**Details**|
+|**Столбец**|**Тип данных**|**Сведения**|
 |:-----|:-----|:-----|
 |**ErrorTime** <br/> |datetime  <br/> |Время возникновения ошибки. Используется в сочетании с параметром ErrorReportSeq для уникальной идентификации ошибки.  <br/> |
 |**ErrorReportSeq** <br/> |int  <br/> |Идентификационный номер ошибки. В сочетании со значением ErrorTime уникально идентифицирует ошибку.  <br/> |

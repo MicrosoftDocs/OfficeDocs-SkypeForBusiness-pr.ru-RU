@@ -1,7 +1,7 @@
 ---
 title: Включить пользователей для Корпоративная голосовая связь в Skype для бизнеса Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f252b23b-9641-4160-aa81-bf06dc2eced3
 description: Сводка. Узнайте, как включить пользователей для звонков и получения с помощью Корпоративная голосовая связь в Skype для бизнеса Server.
-ms.openlocfilehash: 04533245348672afedfac113f3fd64188a2efba2
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 27c60b7532411c50d6613635a28a638a5cfbc97d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60012773"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60749370"
 ---
 # <a name="enable-users-for-enterprise-voice-in-skype-for-business-server"></a>Включить пользователей для Корпоративная голосовая связь в Skype для бизнеса Server
  

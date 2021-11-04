@@ -1,8 +1,8 @@
 ---
-title: Проблемы с получением сообщений и звонков в устаревших системах Teams
+title: Проблемы с получением сообщений и звонков в устаревших системах в Teams
 ms.reviewer: ''
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.date: 05/29/2020
 ms.topic: troubleshooting
@@ -17,12 +17,12 @@ description: Устранение неполадок, связанных с по
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 002354418c06980600f5cebef035b8480d0f1bef
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: fb36f4be70b174a324f017b1e52529f457e83f36
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58235004"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60768307"
 ---
 # <a name="issues-receiving-messages-and-calls-on-legacy-systems"></a>Проблемы с получением сообщений и звонков в устаревших системах
 

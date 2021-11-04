@@ -1,7 +1,7 @@
 ---
 title: Определение сетевых элементов, используемых для определения расположения в Skype для бизнеса Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7538779d-055d-44ed-8dd7-11c45fc1b9f5
 description: Решения, необходимые для планирования сетевых компонентов, которые вы будете использовать для картографии вызывателей к расположениям для развертывания E9-1-1 в Skype для бизнеса Server Корпоративная голосовая связь.
-ms.openlocfilehash: e3a1ef0c5f500327d97a263b4dad206624617ffa
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 908e8b45f1825d7bd98693810ac97b13d4aa3273
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58632703"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60768507"
 ---
 # <a name="define-the-network-elements-used-to-determine-location-in-skype-for-business-server"></a>Определение сетевых элементов, используемых для определения расположения в Skype для бизнеса Server
  

@@ -1,7 +1,7 @@
 ---
 title: Развертывание обмена мгновенными сообщениями и присутствие в Skype для бизнеса Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: ad792bb2-aee0-4986-a070-116ff3c10fe7
 description: Сводка. Сведения о шагах развертывания для обмена мгновенными сообщениями и присутствия в Skype для бизнеса Server.
-ms.openlocfilehash: f4eb4d7215005d7d22a0d844105cb785fff9c22e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0671d7493489a3987d0893bd38b1998c558989e1
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58588951"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60758951"
 ---
 # <a name="deploy-instant-messaging-and-presence-in-skype-for-business-server"></a>Развертывание обмена мгновенными сообщениями и присутствие в Skype для бизнеса Server
  
@@ -29,7 +29,7 @@ ms.locfileid: "58588951"
   
 В этом разделе вы узнаете о некоторых действиях развертывания, которые можно настроить для настройки сценариев обмена мгновенными сообщениями и присутствия.
   
-## <a name="in-this-section"></a>В этой статье
+## <a name="in-this-section"></a>В этом разделе
 
 > [Включить или отключить автономный обмен мгновенными сообщениями (IM) в Skype для бизнеса Server](enable-or-disable-offline-im.md)
     

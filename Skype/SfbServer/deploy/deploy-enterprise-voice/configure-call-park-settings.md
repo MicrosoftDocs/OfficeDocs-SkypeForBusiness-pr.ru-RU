@@ -1,7 +1,7 @@
 ---
 title: Настройка параметров парка вызовов в Skype для бизнеса
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3bed9d09-8363-4fff-a220-f0f6d3a81241
 description: Изменение параметров парка вызовов в Skype для бизнеса Server Корпоративная голосовая связь.
-ms.openlocfilehash: 2946d0a1082b8e2b2ce9473dcff18a057c8c01f4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 81d523991f1df5d9bc24f19d212ae63fa5b0beb1
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58585933"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60759141"
 ---
 # <a name="configure-call-park-settings-in-skype-for-business"></a>Настройка параметров парка вызовов в Skype для бизнеса
 
@@ -46,7 +46,7 @@ ms.locfileid: "58585933"
 
 1. Запустите Skype для бизнеса Server: нажмите кнопку Начните, щелкните Все **программы,** нажмите кнопку Skype для бизнеса **2015,** а затем нажмите кнопку **Skype для бизнеса Server.**
 
-2. Выполните команду: 
+2. Запустите: 
 
    ```powershell
    New-CsCpsConfiguration -Identity site:<sitename to apply settings> [-CallPickupTimeoutThreshold <hh:mm:ss>] -[EnableMusicOnHold <$true | $false>] [-MaxCallPickupAttempts <number of rings>] [-OnTimeoutURI sip:<sip URI for routing unanswered call>]

@@ -1,7 +1,7 @@
 ---
 title: Настройка основного сервера управления
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/1/2018
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: Сводка. Настройка основного сервера управления, установка System Center диспетчера операций и пакеты управления импортом на Skype для бизнеса Server 2019 г.
-ms.openlocfilehash: e5bbe28afbc3b579700686b1fab1af3f420dd83e
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 8dd5b3ff94f393ccce88dd5a27bd8133810b4c1c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60012543"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60760347"
 ---
 # <a name="skype-for-business-server-configure-the-primary-management-server"></a>Skype для бизнеса Server: Настройка основного сервера управления
 

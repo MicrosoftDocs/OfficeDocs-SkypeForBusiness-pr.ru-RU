@@ -1,7 +1,7 @@
 ---
 title: Планирование приложения группы реагирования в Skype для бизнеса Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6cc333e7-4029-4372-86b2-016040c415fb
 description: Планирование групп ответа в Skype для бизнеса Server Корпоративная голосовая связь, что позволяет настроить маршрутику вызовов для групп пользователей. Включает требования к аудиофайлам.
-ms.openlocfilehash: 41decf3e61e32867dd6b1d726bb551f8c2ae38f0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3ca8159ca3d6fc37aa5c8f1f3f88f8188929f71f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631583"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767557"
 ---
 # <a name="plan-for-the-response-group-application-in-skype-for-business-server"></a>Планирование приложения группы реагирования в Skype для бизнеса Server
 
@@ -88,7 +88,7 @@ ms.locfileid: "58631583"
 
 Приложение Группы реагирования имеет те же требования к оборудованию, требованиям операционной системы и требованиям к программному обеспечению, что и серверы переднего конца.
 
-Если для музыки и анонсов группы откликов используются файлы Windows Media Audio (WMA), все серверы front End Server или Standard Editions, на которые запущено приложение Группы отклика, должны иметь время запуска Windows формата мультимедиа для серверов, работающих Windows Server 2008 R2, или Microsoft Media Foundation для серверов, работающих Windows Server 2012 или Windows Server 2012 R2. Для Windows Server 2008 R2 Windows формата мультимедиа устанавливается в Windows Desktop Experience.
+Если вы используете файлы Windows Media Audio (WMA) для музыки и объявлений группы отклика, все серверы front End Server или Standard Editions, на которые запущено приложение Группы отклика, должны иметь время запуска Windows формата мультимедиа для серверов, работающих Windows Server 2008 R2, или Microsoft Media Foundation для серверов, работающих Windows Server 2012 или Windows Server 2012 R2. Для Windows Server 2008 R2 Windows формата мультимедиа устанавливается в Windows Desktop Experience.
 
 Группа реагирования использует **языковые пакеты** для поддержки распознавания речи и речи. Эти технологии речи используются при настройке сообщений, например приветственного сообщения и других приглашений, а также вопросов и ответов для система предварительно записанных голосовых сообщений (interactive voice response — IVR). По умолчанию 26 поддерживаемых языковых пакетов устанавливаются при развертывании Skype для бизнеса Server.
 
@@ -209,7 +209,7 @@ ms.locfileid: "58631583"
 
 |**Метрика**|**Пул выпуск Enterprise <br/> (с 8 серверами переднего конца)**|**Для каждого сервера Standard Edition**|
 |:-----|:-----|:-----|
-|Входящих звонков в секунду  <br/> |16   <br/> |2   <br/> |
+|Входящих звонков в секунду  <br/> |16  <br/> |2  <br/> |
 |Число звонков, одновременно подключенных к интерактивному автоответчику или находящихся на удержании  <br/> |480  <br/> |60  <br/> |
 |Число одновременных анонимных сеансов (без учета сеансов обмена мгновенными сообщениями)  <br/> |224  <br/> |28  <br/> |
 |Число одновременных анонимных сеансов (с учетом сеансов обмена мгновенными сообщениями)  <br/> |64  <br/> |8   <br/> |

@@ -1,7 +1,7 @@
 ---
 title: Объединение с устаревшей версией
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 085fde15-e33a-4d95-8d06-4da1d5d7c770
 ROBOTS: NOINDEX, NOFOLLOW
 description: Внешний FQDN веб-конференций позволяет внешним пользователям присоединяться к локальному собранию. Введите полное доменное имя (FQDN) внешнего интерфейса веб-конференции устаревшего edge Server.
-ms.openlocfilehash: e312bb142d22a607d8050ed84f702bbf2e875fac
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e0a832ce8696d73e3d64a07ff8d1b8405d585b24
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58584153"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766907"
 ---
 # <a name="legacy-merge"></a>Объединение с устаревшей версией
 
