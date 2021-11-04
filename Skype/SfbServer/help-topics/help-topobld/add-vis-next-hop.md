@@ -1,7 +1,7 @@
 ---
 title: Добавление следующего перехода сервера видеовзаимодействия
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/8/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 8c25449d-375b-477b-b8d0-ed19e6775906
 description: Действия, необходимые для определения нового шлюза VIS или видео в Topology Builder, описаны в интернете в "Создание пула VIS в Skype для бизнеса Server 2015 г.
-ms.openlocfilehash: 3dd75a479828460a482103205a37ee2c474169e4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e6833cb9d5b405584b9972f94fa23980809ab27e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630853"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60773979"
 ---
 # <a name="add-vis-next-hop"></a>Добавление следующего перехода сервера видеовзаимодействия
  
