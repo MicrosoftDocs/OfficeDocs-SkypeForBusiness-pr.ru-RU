@@ -22,20 +22,20 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: Узнайте о доступных лицензиях для различных типов функций звонков и собраний в Комнаты Microsoft Teams.
-ms.openlocfilehash: e1d545b6ea48e7ec9e94a1e5f0c5ba8cd1e41198
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6abf7a28b3ceb84b0de82f75f5863c186db27170
+ms.sourcegitcommit: eba9fc680233e9e03773a2942f22afe6247eec41
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627161"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60824668"
 ---
 # <a name="teams-meeting-room-licensing-update"></a>Teams Конференц-зал лицензирования
 
 ## <a name="licensing-solutions-for-shared-communication-devices"></a>Решения лицензирования общих коммуникационных устройств
 
-У Корпорации Майкрософт есть два специальных номера номеров sk для лицензирования собраний и звонков на разных устройствах для устройств с комнатами собраний (таких как Комнаты Microsoft Teams, Microsoft Surface Hub и Microsoft Teams).
+У корпорации Майкрософт есть два специальных номера номеров специальных номеров для лицензирования собраний и звонков на разных устройствах для устройств с комнатами собраний (например, Комнаты Microsoft Teams, Microsoft Surface Hub и полос совместной работы для Microsoft Teams).
 
-|&nbsp;|Комнаты Microsoft Teams Стандартный |Комнаты Microsoft Teams Premium |
+|&nbsp;|Комнаты Microsoft Teams стандартный |Комнаты Microsoft Teams премиум |
 |:--- |:---: |:---: |
 |Skype для бизнеса |&#x2714;| &#x2714;|
 |Microsoft Teams|  &#x2714;|  &#x2714;|
@@ -59,19 +59,19 @@ ms.locfileid: "58627161"
 > [!IMPORTANT]
 > Если вы используете Skype для бизнеса 2, вы можете использовать Комнаты Microsoft Teams только в режиме Skype для бизнеса, то есть все собрания будут Skype для бизнеса собраниями. Чтобы включить в комнате собрания Microsoft Teams собрания, рекомендуем приобрести лицензию Конференц-зал собрания. 
 
-В следующей таблице перечислены функции, доступные в Комнаты Microsoft Teams и какие лицензии необходимо приобрести для их получения.
+В таблице ниже перечислены функции, доступные в Комнаты Microsoft Teams и какие лицензии необходимо приобрести для их получения.
   
 > [!NOTE]
 > Настраиваемая комната должна быть объектом пользователя и иметь следующие назначенные лицензии.
 
 | &nbsp; | У вас Microsoft Teams или Skype для бизнеса Online <br/> Что необходимо приобрести   |У вас Skype для бизнеса Server 2015/2019 (локальное или гибридное). <br/> Что необходимо приобрести|
 |:-----|:-----|:-----|
-|Присоединение к запланированному собранию  | Комнаты Microsoft Teams Стандартные или Premium  |Клиентская лицензия Server Standard для Skype для бизнеса  |
-|Начало собрания | Комнаты Microsoft Teams Стандартные или Premium  |Клиентская лицензия Server Standard для Skype для бизнеса  <br/> Клиентская лицензия Server Enterprise для Skype для бизнеса|
-|Начало собрания и звонок с собрания на телефонные номера |  Комнаты Microsoft Teams Стандартные или Premium |Skype для бизнеса Клиентская лицензия Standard  <br/> Клиентская лицензия Server Enterprise для Skype для бизнеса|
-|Придать комнате номер телефона и позвонить или принять звонок из комнаты или присоединиться к аудиоконференции с помощью номера телефона  | При прямой маршрутизации: Комнаты Microsoft Teams стандартный или Premium<br/>Без прямой маршрутии: план внутренних или международных звонков<br/>Корпоративная голосовая связь Microsoft 365  |Клиентская лицензия Server Standard для Skype для бизнеса  <br/> Skype для бизнеса Клиентская лицензия Server Plus  |
-|Управление устройством комнаты с помощью Microsoft Intune |Комнаты Microsoft Teams Стандартные или Premium  |Microsoft Intune с [локальной службой MDM](/configmgr/mdm/plan-design/plan-on-premises-mdm) |
-|Комнаты Microsoft Teams Управляемые службы | Комнаты Microsoft Teams Premium ||
+|Присоединение к запланированному собранию  | Комнаты Microsoft Teams стандартный или Premium  |Клиентская лицензия Server Standard для Skype для бизнеса  |
+|Начало собрания | Комнаты Microsoft Teams стандартный или Premium  |Клиентская лицензия Server Standard для Skype для бизнеса  <br/> Клиентская лицензия Server Enterprise для Skype для бизнеса|
+|Начало собрания и звонок с собрания на телефонные номера |  Комнаты Microsoft Teams стандартный или Premium |Skype для бизнеса Клиентская лицензия Standard  <br/> Клиентская лицензия Server Enterprise для Skype для бизнеса|
+|Придать комнате номер телефона и позвонить или принять звонок из комнаты или присоединиться к аудиоконференции с помощью номера телефона  | При прямой маршрутике: Комнаты Microsoft Teams стандартный или Premium<br/>Без прямой маршрутии: план внутренних или международных звонков<br/>Корпоративная голосовая связь Microsoft 365  |Клиентская лицензия Server Standard для Skype для бизнеса  <br/> Skype для бизнеса Клиентская лицензия Server Plus  |
+|Управление устройством комнаты с помощью Microsoft Intune |Комнаты Microsoft Teams стандартный или Premium  |Microsoft Intune с [локальной службой MDM](/configmgr/mdm/plan-design/plan-on-premises-mdm) |
+|Комнаты Microsoft Teams Управляемые службы | Комнаты Microsoft Teams премиум ||
 | |||
 
 > [!NOTE]
@@ -79,4 +79,4 @@ ms.locfileid: "58627161"
 
  **Используйте правильные версии** Windows 10 : для клиентов, которые хотят развернуть Windows 10 изображений на своих устройствах, см. Комнаты Microsoft Teams [консоли](./console.md). Вы можете получить копию из [Volume Licensing Service Center.](https://www.microsoft.com/Licensing/servicecenter/) 
  
- См. [также Отличные возможности комнаты](https://www.microsoft.com/microsoft-365/blog/2020/07/21/microsoft-teams-meetings-hybrid-workplace-options/)для собраний. Познакомьтесь с новыми стандартными Комнаты Microsoft Teams и Premium.
+ См. [также Отличные возможности комнаты](https://www.microsoft.com/en-us/microsoft-365/blog/2020/07/21/microsoft-teams-meetings-hybrid-workplace-options/)для собраний. Познакомьтесь с новыми Комнаты Microsoft Teams стандартный и Premium .

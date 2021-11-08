@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: В этой статье представлен обзор новой панели управления.
-ms.openlocfilehash: 8a4f8e073b424969951a69c620dd5f65a582fd75
-ms.sourcegitcommit: b57e19e20900ff02f3196c811bf1dd1acd149c79
+ms.openlocfilehash: 77e26b810bfd61effa5d94ec3648c440476a7cbe
+ms.sourcegitcommit: eba9fc680233e9e03773a2942f22afe6247eec41
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "60579997"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60824647"
 ---
 # <a name="control-panel"></a>Панель управления
 
@@ -50,3 +50,11 @@ ms.locfileid: "60579997"
 |Конфигурация устройств         |    [Конфигурация устройств](use-powershell-client-menu.md#device-configuration)     |
 |Политика мобильности         |    [Политика мобильности](use-powershell-client-menu.md#mobility-policy)     |
 |Конфигурация push-уведомлений         |    [Конфигурация push-уведомлений](use-powershell-client-menu.md#push-notification-configuration)     |
+
+## <a name="security"></a>Безопасность
+
+|Sub-menu  |Источник информации для cmdlet  |
+|---------|---------|
+|Регистратор         |    [Регистратор](use-powershell-security-menu.md#registrar)     |
+|Веб-служба      |  [Веб-служба](use-powershell-security-menu.md#web-service)       |
+|Политика ПИН-кодов    | [Политика ПИН-кодов](use-powershell-security-menu.md#pin-policy)        |
