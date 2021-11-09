@@ -2,7 +2,7 @@
 title: Узел области серверов архивации
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 0c5f46c7-67bf-4daa-b7a9-4b59fd7792a0
 ROBOTS: NOINDEX, NOFOLLOW
 description: В Topology Builder можно выполнять задачи, связанные с отдельным сервером архива, щелкнув правой кнопкой мыши сервер архива в дереве консоли, щелкнув действие на панели инструментов или нажав задачу в области Действия, а затем щелкнув следующий параметр Архивирование Сервера.
-ms.openlocfilehash: 488d7a4909001cf34750a4a6faf15ed1ba21e99d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6a169d15dbbe9a3dc1cf8c4b958be9c97fc18a4e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60739845"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60836781"
 ---
 # <a name="archiving-servers-scope-node"></a>Узел области серверов архивации
  

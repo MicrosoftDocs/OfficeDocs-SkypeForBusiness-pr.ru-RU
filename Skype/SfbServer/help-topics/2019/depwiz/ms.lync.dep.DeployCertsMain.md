@@ -2,7 +2,7 @@
 title: Мастер сертификатов
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 6ab661d7-5741-4cad-bbe4-62cf862ded85
 ROBOTS: NOINDEX, NOFOLLOW
 description: В мастере сертификатов можно Запросить, Назначить, Удалить или Просмотреть сертификаты. Вы должны войти как участник группы RTCUniversalServerAdmins. Для запроса сертификата из общего центра сертификации необходимо дополнительное участие в группах. Чтобы запросить сертификат в инфраструктуре общедоступных ключевых элементов организации (PKI), необходимо подтвердить, какие дополнительные или, если таково, членство в группе вам потребуется. Во время задачи Запрос можно ввести альтернативные учетные данные, которые будут использоваться для запроса сертификата в ЦС вашего PKI.
-ms.openlocfilehash: 7b5776de91b814b289f28b86c38f29e3a35e54c6
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: dda1d93544ac1d7ef5599b9b2f5bf9c860a3b303
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60738785"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60849342"
 ---
 # <a name="certificate-wizard"></a>Мастер сертификатов
  

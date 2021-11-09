@@ -2,7 +2,7 @@
 title: Список таблиц качества взаимодействия
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/13/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 176194d7-d184-4e23-94bb-cb62b4db47f5
 description: Схема базы данных состоит из следующих таблиц.
-ms.openlocfilehash: 0532d1574bcbbe80a58195d2c14ea6920375153f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 7b97746b3f8a490da7fb06d903ca6f7676f2d6b5
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60767297"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60849592"
 ---
 # <a name="list-of-qoe-tables"></a>Список таблиц качества взаимодействия
  

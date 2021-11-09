@@ -2,7 +2,7 @@
 title: Добавление машины специального типа мультимедиа для аудио и видео
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 56f6f46e-7482-45dc-87dc-c2b30e3ec67f
 ROBOTS: NOINDEX, NOFOLLOW
 description: Укажите полное доменное имя каждого компьютера, который следует добавить в качестве сервера аудио- и видеоконференций в этот пул аудио- и видеоконференций. После добавления компьютера в список в любое время до публикации топологии можно обновить полное доменное имя компьютера или удалить этот компьютер из пула. После публикации топологии изменение полного доменного имени осуществляется путем удаления сервера в построителе топологий с последующим добавлением нового сервера в пул с новым полным доменным именем.
-ms.openlocfilehash: 4149f668d6939786e2bc2a755a0ec20e9239dbe9
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 3fec808f188ad1b7701c432723d2d778db309629
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60769407"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60830483"
 ---
 # <a name="add-av-mcu-machine"></a>Добавление компьютера A/V MCU
  

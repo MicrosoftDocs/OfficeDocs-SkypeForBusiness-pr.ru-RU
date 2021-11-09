@@ -2,7 +2,7 @@
 title: Политика расположения Создание новых или изменение существующих
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: d9b30b3b-570b-49a6-b2b4-46b0cf490153
 ROBOTS: NOINDEX, NOFOLLOW
 description: Вы можете настроить политики расположения, чтобы определить, включена ли расширенная 9-1-1 (E9-1-1) и как она используется, а также как сведения о расположении используются для пользователей и контактов.
-ms.openlocfilehash: 8f45fefbd13d20e5bdbef2500b17a394f544aad1
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 95f11519421926074201d02a92bcfc64758ed015
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60764647"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60863006"
 ---
 # <a name="location-policy-create-new-or-edit-existing"></a>Политика определения местонахождения: создание новой или редактирование существующей
 

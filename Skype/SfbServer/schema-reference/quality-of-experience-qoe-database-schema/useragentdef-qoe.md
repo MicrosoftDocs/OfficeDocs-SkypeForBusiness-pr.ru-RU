@@ -2,7 +2,7 @@
 title: Таблица UserAgentDef (QoE)
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: cfd8e3e0-4076-4162-9381-5276da8316d9
 description: Таблица UserAgentDef сопополагает идентификаторы агентов пользователей с описательными именами агента. Агенты пользователей — это клиенты программного обеспечения, используемые для подключения к Skype для бизнеса Server.
-ms.openlocfilehash: 62166c7cedc895cd02ad101c41ad31098eaa9542
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 23ea6310ddd463b75d0bccd9a4d94a4485f2351e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60763097"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60863266"
 ---
 # <a name="useragentdef-table-qoe"></a>Таблица UserAgentDef (QoE)
  

@@ -1,6 +1,6 @@
 ---
 title: Создание шаблона из существующей команды в Microsoft Teams
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 ms.reviewer: aaglick
 manager: serdars
@@ -16,20 +16,20 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e48c41e7c6b1a28d6d16cdd76c4fcb70bd795861
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: a5f22f9acbd3cf39c144ca07cce1c5d690267b6b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60749688"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60828482"
 ---
-# <a name="create-a-team-template-from-an-existing-team-in-microsoft-teams"></a>Создание шаблона команды из существующей команды в Microsoft Teams
+# <a name="create-a-team-template-from-an-existing-team-in-microsoft-teams"></a>Создание шаблона группы из существующей команды в Microsoft Teams
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 **Пользовательские шаблоны пока не поддерживаются пользователями EDU.**
 
-Microsoft Teams вы можете создать шаблон из существующей команды, который можно сохранить и изменить в определенных организационных потребностях.
+Microsoft Teams вы можете создать шаблон из существующей команды, который можно сохранить и изменить для конкретных потребностей организации.
 
 1. Войдите в Центр администрирования Teams.
 

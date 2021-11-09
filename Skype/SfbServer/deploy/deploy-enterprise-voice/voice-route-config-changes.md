@@ -2,7 +2,7 @@
 title: Публикация ожидающих изменений конфигурации маршрутиации голосовой почты в Skype для бизнеса
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ff941d0b-fb4b-47d2-b866-6d990ac66b81
 description: Сводка. Узнайте, как просмотреть, опубликовать или отменить изменения конфигурации маршрутов голосовой маршрутики в Skype для бизнеса Server с помощью панели управления Skype для бизнеса Server.
-ms.openlocfilehash: bf859dd7ed31a9a08fcba18af1b65cd1f34e8d16
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: e0ffa60557623eb217f7f43a61cad7b2e0923c77
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60764857"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60856286"
 ---
 # <a name="publish-pending-changes-to-the-voice-routing-configuration-in-skype-for-business"></a>Публикация ожидающих изменений конфигурации маршрутиации голосовой почты в Skype для бизнеса
  

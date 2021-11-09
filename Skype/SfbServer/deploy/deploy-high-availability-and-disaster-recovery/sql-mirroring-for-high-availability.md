@@ -2,7 +2,7 @@
 title: Развертывание SQL для высокой доступности back End Server в Skype для бизнеса Server 2015 г.
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 70224520-b5c8-4940-a08e-7fb9b1adde8d
 description: 'Для развертывания зеркального SQL серверы должны запускать минимум SQL Server R2 2008. Эта версия должна работать на всех участвующих серверах: первичном, зеркальном и свидетельном. Подробные сведения см. в материале Накопительный пакет обновления 9 для SQL Server 2008 Пакет обновления 1 .'
-ms.openlocfilehash: 862b7ba5a381ea422c63dfc96bde202a5330bfd5
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b27fed99cafa109da8c13e369c93985d7bc4cf64
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60742875"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60849452"
 ---
 # <a name="deploy-sql-mirroring-for-back-end-server-high-availability-in-skype-for-business-server-2015"></a>Развертывание SQL зеркального зеркала для высокой доступности back End Server в Skype для бизнеса сервере 2015 г.
 
@@ -75,7 +75,7 @@ ms.locfileid: "60742875"
 
 5. Если необходимо использовать ресурс-свидетель для этого зеркала, выполните следующие действия:
 
-    А. Выберите **Использовать ресурс-свидетель зеркального отображения SQL для включения автоматического переключения**.
+    а. Выберите **Использовать ресурс-свидетель зеркального отображения SQL для включения автоматического переключения**.
 
     Б. На странице **Определение хранилища SQL** выберите **Использовать ресурс-свидетель зеркального отображения SQL для включения автоматического переключения** и укажите хранилище SQL для использования в качестве ресурса-свидетеля.
 

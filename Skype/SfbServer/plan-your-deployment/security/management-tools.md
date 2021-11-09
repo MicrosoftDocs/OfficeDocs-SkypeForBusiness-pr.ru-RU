@@ -2,7 +2,7 @@
 title: Windows PowerShell и Skype для бизнеса Server управления
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 6a285f7c-0ef5-4cab-9976-d03be276e35d
 description: 'В Skype для бизнеса Server средства управления реализуются с помощью Windows PowerShell. Windows PowerShell включает среду командной строки, команды, определенные продуктом, и полный язык скриптов. Skype для бизнеса Server средства, реализуемые с Windows PowerShell, включают следующие:'
-ms.openlocfilehash: 0c9707a9af4befc9a055021426ebd5041c534d7d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 09726fa35caf569f9f3215b2d3d2217cce3be235
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60767507"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60849712"
 ---
 # <a name="windows-powershell-and-skype-for-business-server-management-tools"></a>Windows PowerShell и Skype для бизнеса Server управления
  

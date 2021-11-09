@@ -1,6 +1,6 @@
 ---
 title: Доступность в 100%2016
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: fafan
@@ -23,27 +23,27 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже ются Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Заметь.
-ms.openlocfilehash: f09690f0614f389e25c0bff0540c33beb3936206
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: Ниже ются Microsoft 365 и Office 365 службы Skype для бизнеса и Microsoft Teams для Нее.
+ms.openlocfilehash: 8f15dbb4304cede5140501b8365475e70346ca50
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777579"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60863176"
 ---
 # <a name="availability-in-guatemala"></a>Доступность в 100%2016
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже ются Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Заметь.
+Ниже ются Microsoft 365 и Office 365 службы Skype для бизнеса и Microsoft Teams для Нее.
   
-## <a name="audio-conferencing"></a>Аудиоконференции
+## <a name="audio-conferencing"></a>Аудиоконференция
 
 |**Функция**|**Сведения**|
 |:-----|:-----|
-|Доступно ли приобретение аудиоконференций?  <br/> |Да. Только оплата за минуту.  <br/> |
-|Номера телефонов автоматически назначаются для аудио конференций?  <br/> | Нет |
-|Возможность получить обратный звонок с функцией "Звонок на мой номер"  <br/> | Требуются кредиты связи <br/> |
+|Доступно ли приобретение аудиоконференций?  <br/> |Да. Только с поминутной оплатой.  <br/> |
+|Назначаются ли номера телефонов для аудиоконференций автоматически?  <br/> | Нет |
+|Возможность дозвона с помощью функции «Позвони мне»  <br/> | Требуются кредиты связи <br/> |
 
 ## <a name="phone-system"></a>Телефонная система
 
@@ -68,7 +68,7 @@ ms.locfileid: "60777579"
 
 |**Функция**|**Сведения**|
 |:-----|:-----|
-|Для каких столиц или крупных городов можно получить платные номера?   | Куидад-де-Сроу<br/> |
+|Для каких столиц или крупных городов можно получить платные номера?   | Куидад-де-Жанейро<br/> |
 |Доступны ли платные номера?  <br/> |Да[(по запросу](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)) <br/> Платные номера доступны только в пределах страны.|
 |Доступны ли бесплатные номера?  <br/> |Нет  <br/> |
 

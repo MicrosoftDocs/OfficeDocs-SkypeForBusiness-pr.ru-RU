@@ -2,7 +2,7 @@
 title: Exchange Средство планирования Параметры единой системы обмена сообщениями
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
@@ -14,12 +14,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: d4c4a5d9-1523-49ff-b994-882b037ed46f
 description: Skype для бизнеса Server 2015 г. поддерживает интеграцию с Exchange единой системы обмена сообщениями для объединения голосовых сообщений и сообщений электронной почты в единую инфраструктуру обмена сообщениями.
-ms.openlocfilehash: 5b5b987e64ea25e8ae79d706cfc807f08157e90a
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 7dd02b4bf7a9ce0046608f24b505ae0456f65e6c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60768657"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60830823"
 ---
 # <a name="exchange-unified-messaging-settings-planning-tool"></a>Exchange Средство планирования Параметры единой системы обмена сообщениями
 

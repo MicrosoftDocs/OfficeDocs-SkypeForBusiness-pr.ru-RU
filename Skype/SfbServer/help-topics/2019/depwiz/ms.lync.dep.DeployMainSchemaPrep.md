@@ -2,7 +2,7 @@
 title: Подготовка схемы
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 337aa234-c5f3-4468-a047-2023848e942c
 ROBOTS: NOINDEX, NOFOLLOW
 description: Чтобы подготовить схему для служб домена Active Directory, вы запустите этап Подготовка схемы в мастере Skype для бизнеса Server развертывания. Нажмите кнопку Выполнить, чтобы начать подготовку схемы.
-ms.openlocfilehash: 6eb657bab4f4985c6ea5dd6d75c93f2e42cd6ef0
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 88a9ca5f93263b4d8a514db3c987bcd3a63d87a0
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60738626"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60842351"
 ---
 # <a name="prepare-schema"></a>Подготовка схемы
  

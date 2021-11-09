@@ -2,7 +2,7 @@
 title: Планирование развертывания Skype для бизнеса Server 2019 г.
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/8/2019
 audience: ITPro
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: Сводка. Ознакомьтесь с этими ссылками, чтобы узнать, как разрабатывать концептуальные, логические и физические проекты для Skype для бизнеса Server 2019 функций, серверов и топологий.
-ms.openlocfilehash: 6e4afa2d473b2ee668ab129506df15f612fa08ce
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: fd75f705c0307adc8819b09bb9c738dbdc9c38c3
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741515"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60863126"
 ---
 # <a name="plan-for-your-skype-for-business-server-2019-deployment"></a>Планирование развертывания Skype для бизнеса Server 2019 г.
  
@@ -35,7 +35,7 @@ Skype для бизнеса Server предлагает решения для о
 
 Дополнительные сведения о планировании развертывания Skype для бизнеса Server ниже.
   
-|&nbsp;|Контентная|Описание|
+|&nbsp;|Контентная|Description|
 |:--- |:--- |:--- |
 |![Значок для видео.](../media/get_started.png)|<UL><LI>[Skype для бизнеса: быстрое введение](https://www.youtube.com/watch?v=PRJqMuwW5yc&amp;feature=youtu.be) </li><li>  [Skype для бизнеса: пошаговая руководство для новых пользователей](https://www.youtube.com/watch?v=7_c4zVJ739M&amp;feature=youtu.be)</li></ul>   |Откройте для себя видео-презентации и обучение для Skype для бизнеса.    |
    
@@ -58,7 +58,7 @@ Skype для бизнеса Server предлагает решения для о
 
 Следующие ресурсы о планировании Skype для бизнеса Server доступны другими специалистами по предметам. 
   
-|&nbsp;&nbsp;&nbsp;|Контентная|Описание|
+|&nbsp;&nbsp;&nbsp;|Контентная|Description|
 |:--- |:--- |:--- |
 |![Значок для DMC.](../media/paragraph_writing.png)| [Skype для бизнеса Server для ИТ-специалистов](../../Hub/index.yml)   |Посетите docs.microsoft.com и центры ресурсов, чтобы получить доступ к видео, сайтам сообщества, документации, загрузкам и многому еще.    |
 |![Значок для контента разработчика.](../media/developer.png)|[Skype Платформа разработчика](/skype-sdk/skypedeveloperplatform)   | Найдите ресурсы разработчика для Skype для бизнеса Server, включая примеры кода, обучение и SDKs.    |

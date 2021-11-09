@@ -2,7 +2,7 @@
 title: Создание или изменение очереди в Skype для бизнеса
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b9d6366a-839f-4651-a01d-9254546cadeb
 description: Создание или изменение очереди группы ответов в Skype для бизнеса Server Корпоративная голосовая связь.
-ms.openlocfilehash: 7cc079b458f4aae2748c212dd5c0bcf710142716
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6a4eb09e144bd7381ababdf37a0905c4ea9bac06
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60765907"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60842431"
 ---
 # <a name="create-or-modify-a-queue-in-skype-for-business"></a>Создание или изменение очереди в Skype для бизнеса
  
@@ -65,7 +65,7 @@ ms.locfileid: "60765907"
   
 8. Чтобы задать максимальный период ожидания ответа агента (период удержания звонящего), установите флажок **Enable queue time-out** (Включить время ожидания очереди) и затем выполните следующие действия:
     
-    А. В поле **Time-out period (seconds)** (Время ожидания (сек)) укажите максимальное время ожидания ответа агента на звонок.
+    а. В поле **Time-out period (seconds)** (Время ожидания (сек)) укажите максимальное время ожидания ответа агента на звонок.
     
     Б. В **Call Action** (Действие вызова) выберите действие, выполняемое после завершения периода ожидания:
     
@@ -81,7 +81,7 @@ ms.locfileid: "60765907"
     
 9. Чтобы указать максимальное число звонков в очереди, установите флажок **Enable queue overflow** (Разрешить переполнение очереди) и затем выполните следующие действия:
     
-    А. В поле **Maximum number of calls** (Максимальное число звонков) выберите максимальное число звонков, находящихся в очереди. 
+    а. В поле **Maximum number of calls** (Максимальное число звонков) выберите максимальное число звонков, находящихся в очереди. 
     
     Б. В поле **Forward the call** (Переадресация звонка) выберите звонок, который будет переадресован при переполнении очереди (**Newest Call** (Последний звонок) или **Oldest Call** (Первый звонок)).
     

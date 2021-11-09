@@ -2,7 +2,7 @@
 title: Настройка CUCM для интеропераций с помощью Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: eab3d9f6-ec40-49bf-9162-1a7f5a59451f
 description: Сводка. Настройка CUCM для работы с Skype для бизнеса Server.
-ms.openlocfilehash: 809ad19e89f398c507673ec677b4ce882d341327
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 2e5e2cfc207fd9c4e52f7cd4da553dc756fddb4c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741325"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60863096"
 ---
 # <a name="configure-cucm-for-interoperation-with-skype-for-business-server"></a>Настройка CUCM для интеропераций с помощью Skype для бизнеса Server
  
@@ -47,7 +47,7 @@ ms.locfileid: "60741325"
     
    |**Параметр**|**Рекомендуемый параметр**|
    |:-----|:-----|
-   |Название  <br/> |SfBVideoInterop_SecurityProfile  <br/> |
+   |Имя  <br/> |SfBVideoInterop_SecurityProfile  <br/> |
    |Режим безопасности устройств  <br/> |Небезопасная  <br/> |
    |Тип входящих транспортных средств  <br/> |TCP + UDP  <br/> |
    |Исходяющий тип транспорта  <br/> |TCP  <br/> |
@@ -59,8 +59,8 @@ ms.locfileid: "60741325"
     
    |**Параметр**|**Рекомендуемый параметр**|
    |:-----|:-----|
-   |Название  <br/> |SfBVideoInterop_SIPProfile  <br/> |
-   |Описание  <br/> |SfBVideoInterop_SIPProfile  <br/> |
+   |Имя  <br/> |SfBVideoInterop_SIPProfile  <br/> |
+   |Description  <br/> |SfBVideoInterop_SIPProfile  <br/> |
    
 9. На этом же экране прокрутите вниз раздел Сведения о профиле SDP. **Модификатор** пропускной способности сеансов SDP для раннего предложения и повторного приглашения по умолчанию устанавливается для TIAS и AS. Измените этот параметр только на TIAS. Если вы оставите этот параметр в его параметре по умолчанию, Skype для бизнеса Server не будет понимать сведения о модификаторе пропускной способности в сообщении SIP. TIAS означает Transport Independent Application Specific, в то время как AS означает Application Specific. Это параметры SIP, указанные в RFC3890.
     
@@ -109,7 +109,7 @@ ms.locfileid: "60741325"
     |:-----|:-----|
     |Шаблон маршрута  <br/> |7779999  <br/> |
     |Раздел маршрутов  <br/> |SfBVideoInterop_RoutePartition  <br/> |
-    |Описание  <br/> |Раздел для SfBVideoInterop  <br/> |
+    |Description  <br/> |Раздел для SfBVideoInterop  <br/> |
     |Список шлюзов и маршрутов  <br/> |SfBVideoInterop_SIPTrunk  <br/> |
     |Вызванная маска преобразования партии  <br/> |+14257779999  <br/> |
    
@@ -122,7 +122,7 @@ ms.locfileid: "60741325"
     | Использование шаблонов <br/> |Маршрутивка домена  <br/> |
     |Шаблон IPv4  <br/> |contoso.com (оставьте пустым при использовании IPv6)  <br/> |
     |Шаблон IPv6  <br/> |contoso.com (оставьте пустым при использовании IPv4)  <br/> |
-    |Описание  <br/> |Шаблон SIPRoute в mediarv  <br/> |
+    |Description  <br/> |Шаблон SIPRoute в mediarv  <br/> |
     |Раздел маршрутов  <br/> |SfBVideoInterop_RoutePartition  <br/> |
     |Список магистральных и маршрутных маршрутов SIP  <br/> |SfBVideoInterop_SIPTrunk  <br/> |
     |Блок-почтовый ящик Pattern  <br/> |оставьте без перепроверки  <br/> |

@@ -2,7 +2,7 @@
 title: Средство планирования директора
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 4/8/2016
 audience: ITPro
@@ -14,12 +14,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 02795b46-21ec-4a85-9890-959c91d97df3
 description: Director — это сервер, на Skype для бизнеса Server 2015 г., который может проверить подлинность запросов пользователей, но не является домом для учетных записей пользователей.
-ms.openlocfilehash: bd2a7dfef3be16f8e2916a76c1bcb40971cdf8cc
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 535cac849a4fed5a1af3882af4223adec08c8639
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60750118"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60830843"
 ---
 # <a name="director-planning-tool"></a>Средство планирования директора
  

@@ -2,7 +2,7 @@
 title: Подготовка отдельного сервера Standard Edition (вызов)
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 5da0aa73-8bf8-41f3-81e7-94f955cda541
 ROBOTS: NOINDEX, NOFOLLOW
 description: На странице Выполнение команд можно просмотреть в области задач SQL Server Express и настройки, чтобы действовать в качестве центра управления. По умолчанию создается экземпляр SQL Server базы данных с именем RTC. Правила брандмауэра также создаются, чтобы разрешить входящий и исходящие доступы для серверов и клиентов для связи с базой данных и экземпляром. После завершения задачи можно выбрать файл журнала из выпадаемого списка. Файл журнала называется локальной машиной Bootstrap. После выбора файла журнала нажмите кнопку Просмотр журнала. Просмотрите файл журнала для любых ошибок и предупреждений. Когда вы будете готовы к этому, нажмите кнопку Готово. Теперь необходимо определить топологию с помощью Topology Builder, если вы еще этого не сделали.
-ms.openlocfilehash: bc827767249b0631088005c174df01f90ad01d3c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 2a221d62044bcc7af98cbf21f531f83c9650fadc
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60758961"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60863056"
 ---
 # <a name="prepare-single-standard-edition-server-invoke"></a>Подготовка отдельного сервера Standard Edition (вызов)
  

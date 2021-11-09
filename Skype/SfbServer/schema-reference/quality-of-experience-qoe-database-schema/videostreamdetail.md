@@ -2,7 +2,7 @@
 title: Представление VideoStreamDetail
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: ec8c45e1-307d-40ec-a75e-6083306105f2
 description: Представление VideoStreamDetail хранит сведения о каждом видеопотоке в базе данных. Это представление было представлено в Microsoft Lync Server 2013.
-ms.openlocfilehash: 1fc778060163047b80ad7c523e2ca93414a23e25
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 38f97d5cd97d6a92961a377129cb533fd96ccd6d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60756060"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60863236"
 ---
 # <a name="videostreamdetail-view"></a>Представление VideoStreamDetail
  

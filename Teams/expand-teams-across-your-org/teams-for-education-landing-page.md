@@ -1,8 +1,8 @@
 ---
 title: Teams для образовательных учреждений
-description: Узнайте о ресурсах администратора, которые помогут вам успешно развернуть, развернуть и Teams в учебном заведении или учебном заведении.
+description: Узнайте о ресурсах для администраторов, которые помогут вам успешно развернуть, развернуть и Teams в учебном заведении или учебном заведении.
 ms.topic: conceptual
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 audience: admin
@@ -19,16 +19,16 @@ appliesto:
 ms.custom:
 - seo-marvel-apr2020
 - ms.teamsadmincenter.assignments.overview
-ms.openlocfilehash: c7d2429a412c74ebf175d6e4f99dfe1a6d8b522a
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 563cf727031ebad6f27c7989499a95040e8fa104
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60749085"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60863146"
 ---
 # <a name="teams-for-education"></a>Teams для образовательных учреждений
 
-Благодаря Teams преподаватели и преподаватели могут создавать аудитории для совместной работы, общаться в профессиональных сообществах и общаться с учащимися и преподавателями. Воспользуйтесь здесь ресурсами для успешного развертывания, принятия и Teams в учебном заведении или учебном заведении. 
+Благодаря Teams преподавателям и преподавателям можно создавать аудитории для совместной работы, общаться в профессиональных сообществах и общаться с учащимися и преподавателями. Воспользуйтесь здесь ресурсами администратора, чтобы помочь вам успешно развернуть, развернуть и Teams в учебном заведении или учебном заведении. 
 
 
 |&nbsp;|&nbsp;|
@@ -37,4 +37,4 @@ ms.locfileid: "60749085"
 | ![Снимок экрана: значок бумаги и карандаша.](../media/sign-up-teams.svg) | [Задания в Teams для образовательных учреждений](./assignments-in-teams.md) |
 | ![Снимок экрана: значок анализа.](../media/insights-teams.svg) | [Аналитика в Teams для образования](../class-insights.md) |
 | ![Снимок экрана: значок панели инструментов.](../media/toolbox.svg)  |  [Ресурсы для Teams для образования администраторов](../resources-teams-edu.md) |
-| ![Снимок экрана: значок контрольного списка.](../media/task-checklist-planning-teams.svg)  |  [Вопросы и вопросы об управлении для Teams для образования администраторов](../plan-teams-governance-edu.md) |
+| ![Снимок экрана: значок контрольного списка.](../media/task-checklist-planning-teams.svg)  |  [Вопросы и вопросы об управлении Teams для образования администраторов](../plan-teams-governance-edu.md) |
