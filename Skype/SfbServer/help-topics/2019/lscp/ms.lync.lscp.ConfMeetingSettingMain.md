@@ -2,7 +2,7 @@
 title: Конфигурация собрания
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 24e8f749-d54c-4315-a8fe-bb9303b356ef
 ROBOTS: NOINDEX, NOFOLLOW
 description: Параметры конфигурации собраний определяют тип конференций (также называемыхmeetings), которые пользователи могут создавать, и контролировать, как анонимные пользователи и пользователи конференц-конференций с диалогом могут присоединяться к этим конференциям. Эти параметры распространяются только на запланированные собрания. Они не применяются к ad-hoc собраниям, созданным путем нажатия параметра Meet Now в клиенте.
-ms.openlocfilehash: 3ed5a27acef99f05fe9bc0a5f2ba9bbb5300a15e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 4eb66e999cfc8c3682e0c1f5b54004bf57efa1e7
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60769527"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60831533"
 ---
 # <a name="meeting-configuration"></a>Конфигурация собрания
 

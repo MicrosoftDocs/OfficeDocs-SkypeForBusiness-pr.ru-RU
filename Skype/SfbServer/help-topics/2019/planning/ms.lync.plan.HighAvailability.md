@@ -2,7 +2,7 @@
 title: Высокая доступность (средство планирования)
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 ms.assetid: 14a897b3-2406-46c7-b08f-490085b3d048
 ROBOTS: NOINDEX, NOFOLLOW
 description: Основная схема высокой доступности большинства ролей сервера в Skype для бизнеса Server основана на избыточности сервера с помощью пулинга. При сбое сервера с определенными ролями остальные серверы в пуле с такими же ролями берут на себя нагрузку этого сервера.
-ms.openlocfilehash: 57a12aeb3ea3997f160949d374f2d430137c32c2
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 3bd8d5f56055e75cfdccaaf7867c5b59feb9e39e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60758771"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60841711"
 ---
 # <a name="high-availability-planning-tool"></a>Высокая доступность (средство планирования)
  

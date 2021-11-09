@@ -2,7 +2,7 @@
 title: Планирование управления приемом вызовов в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/16/2018
 audience: ITPro
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6fda0195-4c89-4dea-82e8-624f03e3d062
 description: Узнайте о контроле допуска вызовов, который может предотвратить вызовы, если они будут иметь низкое качество мультимедиа, в Skype для бизнеса Server Корпоративная голосовая связь.
-ms.openlocfilehash: 59b8d3f74d138e087f4a5b49b7a40d6ec935a829
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6260321a29ad138fae41eacb9a1bee5d322d1684
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60768647"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60841081"
 ---
 # <a name="plan-for-call-admission-control-in-skype-for-business-server"></a>Планирование управления приемом вызовов в Skype для бизнеса Server
 

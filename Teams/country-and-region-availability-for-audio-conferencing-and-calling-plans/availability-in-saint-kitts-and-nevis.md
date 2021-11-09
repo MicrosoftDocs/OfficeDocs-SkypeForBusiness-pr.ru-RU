@@ -1,6 +1,6 @@
 ---
 title: Доступность в Сент-Китс и Невис
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
@@ -23,27 +23,27 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже крощены Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Сент-Китс и Невис.
-ms.openlocfilehash: acb4b5f60248f1a881a8ecb2f392c20b4a389f08
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: Ниже крощены Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams сент-Китс и Невис.
+ms.openlocfilehash: 0fd87457c253964d91d91af9d5d4cbb22c9a6d88
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60745635"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60840881"
 ---
 # <a name="availability-in-saint-kitts-and-nevis"></a>Доступность в Сент-Китс и Невис
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже крощены Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Сент-Китс и Невис.
+Ниже крощены Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams сент-Китс и Невис.
   
-## <a name="audio-conferencing"></a>Аудиоконференции
+## <a name="audio-conferencing"></a>Аудиоконференция
 
 |**Функция**|**Сведения**|
 |:-----|:-----|
 |Доступно ли приобретение аудиоконференций?  <br/> |Да, только с [поминутной оплатой](../audio-conferencing-pay-per-minute.md)  <br/> |
 |Номера телефонов автоматически назначаются для аудио конференций?  <br/> | Нет |
-|Возможность получить обратный звонок с функцией "Звонок на мой номер"  <br/> | Требуются кредиты связи <br/> |
+|Возможность дозвона с помощью функции «Позвони мне»  <br/> | Требуются кредиты связи <br/> |
    
 ## <a name="phone-system"></a>Телефонная система
 

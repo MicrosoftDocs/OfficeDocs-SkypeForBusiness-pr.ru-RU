@@ -2,7 +2,7 @@
 title: Управление учетной записью пользователей для Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 2fe7e3a7-bc75-4d4b-94af-a8818722b0d3
 description: В разделах этой статьи описывается, как включить, временно отключить или удалить пользователей Active Directory из Skype для бизнеса Server.
-ms.openlocfilehash: e079895d80366ecbd6a10be864b78b0d625e495a
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 0bdb2e1d8319a3e4c6379a2563f5d858c3648a77
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60742085"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60856646"
 ---
 # <a name="manage-user-accounts-for-skype-for-business-server"></a>Управление учетной записью пользователей для Skype для бизнеса Server
 
@@ -59,7 +59,7 @@ ms.locfileid: "60742085"
 
 5. (Необязательно) Укажите дополнительные условия поиска, чтобы уменьшить количество результатов:
 
-   А. Нажмите кнопку со стрелкой развертывания в верхнем правом углу экрана над элементом **Search results** (Результаты поиска) и нажмите кнопку **Add Filter** (Добавить фильтр).
+   а. Нажмите кнопку со стрелкой развертывания в верхнем правом углу экрана над элементом **Search results** (Результаты поиска) и нажмите кнопку **Add Filter** (Добавить фильтр).
 
    Б. Укажите свойство пользователя, введя его вручную или щелкнув стрелку в раскрывающемся списке и выбрав свойство в этом списке.
 

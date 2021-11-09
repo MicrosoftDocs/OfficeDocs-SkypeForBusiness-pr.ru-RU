@@ -2,7 +2,7 @@
 title: Экспорт или импорт файла конфигурации голосового маршрута в Skype для бизнеса
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 02ce922d-9ca8-4513-b09f-9de51f5c5bdc
 description: Сводка. Узнайте, как экспортировать или импортировать файл конфигурации голосовой маршрутики в Skype для бизнеса Server с помощью панели управления Skype для бизнеса Server.
-ms.openlocfilehash: 7b3b0ae7e7fe49b645fd5a6ee6b6b4d9fcc1affd
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: cb9f5acde66c006945c873b24f53f58d35d14ac2
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60773229"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60832903"
 ---
 # <a name="export-or-import-a-voice-route-configuration-file-in-skype-for-business"></a>Экспорт или импорт файла конфигурации голосового маршрута в Skype для бизнеса
  

@@ -2,7 +2,7 @@
 title: Узел области применения AV MCU
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 76edf3b8-10c6-4c61-bbef-395f56d298ed
 description: Узел Пулы аудио- и видеоконференций отображает пулы аудио- и видеоконференций в используемой топологии. Доступно следующее действие.
-ms.openlocfilehash: 0819a847c57ed3bc9a8a27961b3492a904a6022c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 8a38a3d980750aeb684a1306acf0e065e5fe24dd
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60751938"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60863686"
 ---
 # <a name="av-mcus-scope-node"></a>Узел области AV MCU
  

@@ -2,7 +2,7 @@
 title: Планирование диспетчера статистики в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: f0ec68e1-de01-4a92-b67d-703149b05caf
 description: Сводка. Ознакомьтесь с этой темой, чтобы узнать о диспетчере статистики для Skype для бизнеса Server.
-ms.openlocfilehash: 79f8bc38169d6cba52160772cd9ba0869e761b30
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 166390fe0f034c907e21a3d3147b516d9f502954
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60778149"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60857406"
 ---
 # <a name="plan-for-statistics-manager-for-skype-for-business-server"></a>Планирование диспетчера статистики в Skype для бизнеса Server
 
@@ -124,7 +124,7 @@ ms.locfileid: "60778149"
 
 ![Локальное развертывание диспетчера статистики.](../../media/c7c9d0b5-a70b-4d8c-aec4-0128a29b90b6.png)
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements
 <a name="BKMK_Requirements"> </a>
 
 Перед развертыванием диспетчера статистики необходимо рассмотреть следующие требования к программному обеспечению, сетевым и аппаратным средствам.

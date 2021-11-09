@@ -2,7 +2,7 @@
 title: Расширитель параметров порта сервера видеовзаимодействия
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 416ba609-5a32-4c60-b346-ef3119932c91
 ROBOTS: NOINDEX, NOFOLLOW
 description: Действия, необходимые для определения нового шлюза VIS или видео в Topology Builder, описаны в интернете в "Создание пула VIS в Skype для бизнеса Server.
-ms.openlocfilehash: 7926092f419130fbc15ce11dbb05a5aea79aa477
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b020d53158b6fbdde58ee139c0284216f5973834
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60738065"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60832472"
 ---
 # <a name="video-interop-server-port-settings-expander"></a>Расширитель параметров порта сервера видеовзаимодействия
  

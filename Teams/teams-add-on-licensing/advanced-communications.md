@@ -1,6 +1,6 @@
 ---
 title: Надстройка Advanced Communications для Microsoft Teams
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.topic: reference
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ea12429b0ae8e63e0e1ee43ae66af4aea1a81672
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 7eb4708e032f713f85cf6532fe1726d9d8e7a3b2
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60759211"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60833003"
 ---
 # <a name="advanced-communications-add-on-for-microsoft-teams"></a>Надстройка Advanced Communications для Microsoft Teams
 
@@ -37,7 +37,7 @@ Advanced Communications включает расширенные настройк
 - Отслеживайте, отслеживайте и анализируйте данные на пользователях и устройствах, чтобы обеспечить бесперебойную телеметрию в режиме реального времени.
 - Настраиваемые интерфейсы настраиваемого пакета политики путем набора собственных наборов политик для пользователей с похожими ролями в организации с помощью Teams центра администрирования или PowerShell. Для получения пользовательского назначения пакета политики каждому пользователю потребуется лицензия. 
 
-Advanced Communications доступна на всех Microsoft 365 в качестве дополнения для всех платных Microsoft 365 или Office 365 подписки. Функции, включенные в advanced Communications, не добавляются в другие планы Microsoft 365 или Office 365 и не могут быть приобретены отдельно. Чтобы получить эти функции, необходимо приобрести надстройку.
+Advanced Communications доступна на всех Microsoft 365 странах в качестве дополнения для любой платной подписки Microsoft 365 или Office 365 подписки. Функции, включенные в advanced Communications, не добавляются в другие планы Microsoft 365 или Office 365 и не могут быть приобретены отдельно. Чтобы получить эти функции, необходимо приобрести надстройку.
 
 > [!NOTE]
 > Функции будут выпущены по мере их выпуска. Посетите [общедоступный план Microsoft 365, чтобы](https://www.microsoft.com/microsoft-365/roadmap?filters=Microsoft%20Teams) у вас были последние сроки.

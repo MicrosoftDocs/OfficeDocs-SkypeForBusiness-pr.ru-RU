@@ -1,7 +1,7 @@
 ---
 title: Teams для сферы здравоохранения
 description: Узнайте о ресурсах администратора, доступных для управления Teams для команд здравоохранения в организации.
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
@@ -17,19 +17,19 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: cf556f8041f4b94d49813f24702ceff7ecde4afb
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 53f3d72bee414eec06ba1fe847de1d58e9015a95
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60764997"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60840761"
 ---
 # <a name="teams-for-healthcare"></a>Teams для сферы здравоохранения
 
-Teams позволяет рабочим группам и специалистам в области здравоохранения безопасно общаться, координировать уход за пациентом и повысить эффективность работы. Здесь вы найдете ресурсы администратора, необходимые для управления Teams для команд здравоохранения в организации.
+Teams позволяет группам здравоохранения и специалистам в области здравоохранения безопасно общаться, координировать уход за пациентом и повысить эффективность работы. Здесь вы найдете ресурсы администратора, необходимые для управления Teams для команд здравоохранения в организации.
 
 |    &nbsp;           |         &nbsp;      |
 | ------------- | ------------- |
-| ![Снимок экрана: рука, указывкающий на значок стрелки](../media/get-started-teams.svg)  |  [Начало работы с Teams для организаций в сфере здравоохранения](./healthcare/teams-in-hc.md) |
+| ![Снимок экрана: рука с пальцем, указывавным на значок стрелки.](../media/get-started-teams.svg)  |  [Начало работы с Teams для организаций в сфере здравоохранения](./healthcare/teams-in-hc.md) |
 | ![Снимок экрана: значок карты.](../media/walkthrough-map-teams.svg) | [Начало работы с шаблонами Teams для организаций в сфере здравоохранения](./healthcare/healthcare-templates-admin-console.md) |
 | ![Снимок экрана: значок пузырьков диалогов.](../media/chat.svg)  |  [Начало работы с безопасным обменом сообщениями для организаций в сфере здравоохранения](./healthcare/messaging-policies-hc.md) |

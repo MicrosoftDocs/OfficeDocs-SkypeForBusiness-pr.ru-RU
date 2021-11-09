@@ -2,7 +2,7 @@
 title: Привязка регионов сети
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 'Вы можете настроить канал между двумя областями сети как часть контроля допуска звонков (CAC). '
-ms.openlocfilehash: d194daf8e35a3e4b6b23c1c34fc8b4d4c2fea14f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 718f9223749c86fdff5ce98d1d652a0a3f1a9fbc
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60746895"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60841181"
 ---
 # <a name="linking-network-regions-in-skype-for-business-server"></a>Связывание областей сети в Skype для бизнеса Server
 

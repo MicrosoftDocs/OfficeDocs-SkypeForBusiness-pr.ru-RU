@@ -2,7 +2,7 @@
 title: Настройка ссылки сетевого региона Создание новых или изменение существующих
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 4c4225d4-3a51-4f54-a6cb-c262e07c51fd
 description: Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
-ms.openlocfilehash: a00ed938d66bbaab983c073d92cac60b6451a1ca
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 236a07934f8980c14349f52de00dc35d22be96b9
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60764157"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60831073"
 ---
 # <a name="configure-a-network-region-link-create-new-or-edit-existing"></a>Настройка связи области сети: создание новых или редактирование существующих
 

@@ -2,7 +2,7 @@
 title: Параметры следующего перехода сервера видеовзаимодействия
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 5a161404-b294-47fa-ad62-0e12bffcd8e4
 description: Действия, необходимые для определения нового шлюза VIS или видео в Topology Builder, описаны в интернете в "Создание пула VIS в Skype для бизнеса Server 2015 г.
-ms.openlocfilehash: 14d431833d91f0ccc6a6d505a5728a53a44698a6
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 1b84bdde7ad2bc42d40a63aa4ba55327624e2583
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60770297"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60841281"
 ---
 # <a name="video-interop-server-next-hop-settings"></a>Параметры следующего перехода сервера видеовзаимодействия
  

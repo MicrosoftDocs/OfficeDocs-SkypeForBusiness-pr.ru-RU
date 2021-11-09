@@ -2,7 +2,7 @@
 title: Установка и настройка узлов для просмотра
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/20/2015
 audience: ITPro
@@ -13,15 +13,15 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 7392e4f8-6e2d-447b-aaa3-878f73995f9d
-description: Установка и настройка узлов для просмотра для Skype для бизнеса Server транзакций.
-ms.openlocfilehash: aca051b005c3ec9a901c5366a7788af5e95d06f0
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: Описывает процесс установки и настройки узлов для просмотра для Skype для бизнеса Server транзакций.
+ms.openlocfilehash: 9b0faf7f449bf75083d3b83e40c7807207ad51a1
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60766217"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60833093"
 ---
-# <a name="how-to-install-and-configure-watcher-nodes"></a>Установка и настройка узлов для просмотра
+# <a name="learn-to-install-configure-watcher-nodes"></a>Научитесь устанавливать, настраивать узлы для просмотра
  
 **Сводка:** Установка и настройка узлов для просмотра для Skype для бизнеса Server синтетических транзакций.
   

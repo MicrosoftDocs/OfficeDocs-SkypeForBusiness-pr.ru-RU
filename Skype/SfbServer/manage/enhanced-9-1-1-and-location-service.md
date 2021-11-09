@@ -2,7 +2,7 @@
 title: Управление расширенной службой 9-1-1 и службой расположения
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Skype для бизнеса Server поддерживает вызов расширенного 9-1-1 (E9-1-1) от Skype для бизнеса клиентов. При настройке Skype для бизнеса Server для E9-1-1 вызовы экстренных служб, Skype для бизнеса включают сведения о местоположении аварийного реагирования (ERL) из базы данных службы информации о расположении.
-ms.openlocfilehash: cff19de879066163f53de6b8d51ef8384d451438
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 5eb5fe86449147c38c5719976f202591f13a67fb
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60763777"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60848532"
 ---
 # <a name="manage-enhanced-9-1-1-and-the-location-service-in-skype-for-busines-server"></a>Управление расширенной службой 9-1-1 и службой расположения в Skype Busines Server
 

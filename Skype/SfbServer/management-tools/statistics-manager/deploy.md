@@ -2,7 +2,7 @@
 title: Развертывание диспетчера статистики в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 37b2bb9c-c5d4-4fb0-a976-670b7594b82f
 description: Сводка. Ознакомьтесь с этой темой, чтобы узнать, как развернуть диспетчер статистики для Skype для бизнеса Server.
-ms.openlocfilehash: 6444f89f43ea4951e186af589f5986e5a3e7bc9e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 4cfedb385078cd12413cb9f27059f7b5ed8023a1
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60778159"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60857436"
 ---
 # <a name="deploy-statistics-manager-for-skype-for-business-server"></a>Развертывание диспетчера статистики в Skype для бизнеса Server
  
@@ -185,7 +185,7 @@ msiexec /l install.log /i StatsManPerfAgent.msi SERVICE_THUMBPRINT=<thumbprint> 
   
 1. На хосте с Skype для бизнеса Server PowerShell:
     
-    А. Выполните следующую команду: 
+    а. Выполните следующую команду: 
     
    ```PowerShell
    Get-CsPool | Export-Clixml -Path mypoolinfo.xml
@@ -194,7 +194,7 @@ msiexec /l install.log /i StatsManPerfAgent.msi SERVICE_THUMBPRINT=<thumbprint> 
     
 2. На хосте, который запускает прослушиватель:
     
-   А. Запустите PowerShell.
+   а. Запустите PowerShell.
     
    Б. Перейдите к каталогу, в котором установлен прослушиватель. По умолчанию: 
     

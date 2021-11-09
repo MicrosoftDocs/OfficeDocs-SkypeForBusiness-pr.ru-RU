@@ -2,7 +2,7 @@
 title: Настройка свойств учетных записей пользователей для Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 505d9619-adab-4cc4-b054-89286e18a19b
 description: Процедуры в этом разделе можно использовать для изменения свойств отдельных учетных записей пользователей.
-ms.openlocfilehash: 47e1c09e898a023bbebacbeb57f855568a9a0131
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: c2a2f63e31d17e90cea528c3fc8ef88dd1952902
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60750158"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60856656"
 ---
 # <a name="customize-user-account-properties-for-skype-for-business-server"></a>Настройка свойств учетных записей пользователей для Skype для бизнеса Server
  
@@ -146,7 +146,7 @@ Skype для бизнеса Server телефонии пользователей
 
 1. В зависимости от Windows PowerShell команд (то есть локально или удаленно), необходимо входить в систему как член правильного Skype для бизнеса Server административных ролей следующим образом:
     
-   А. Если вы работаете с командами на локальном компьютере (например, вы входите непосредственно на интерфейсный сервер): войдите на компьютер, на котором Skype для бизнеса Server Management Shell устанавливается в качестве члена группы RTCUniversalServerAdmins или с необходимыми правами пользователя, как описано в разрешениях делегирования **установки.**
+   а. Если вы работаете с командами на локальном компьютере (например, вы входите непосредственно на интерфейсный сервер): войдите на компьютер, на котором Skype для бизнеса Server Management Shell устанавливается в качестве члена группы RTCUniversalServerAdmins или с необходимыми правами пользователя, как описано в разрешениях делегирования **установки.**
     
    Б. Если вы управляете командами удаленно на другом компьютере (например, вы входите на компьютер и запустите команды удаленно на переднем сервере выпуск Standard): Из учетной записи пользователя, назначенной роли CsUserAdministrator или роли CsAdministrator, войдите на любой компьютер во внутреннем развертывании.
     

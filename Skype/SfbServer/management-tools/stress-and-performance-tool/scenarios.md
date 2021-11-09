@@ -2,7 +2,7 @@
 title: Сценарии производительности для Skype для бизнеса Server 2015 г.
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 ms.date: 12/17/2015
 manager: serdars
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d972382f-971e-4fa7-b7ee-8ab9d3a5c11d
 description: Задачи, которые необходимо сделать для настройки Skype для бизнеса Server 2015 г. для выполнения тестирования производительности и нагрузки с помощью средства stress and Performance Tool.
-ms.openlocfilehash: a56e2ec12547937ef44973932ef79d3405573039
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 0a04d94bc0c43b9de2043b9ee601a294b7945a45
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777259"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60841111"
 ---
 # <a name="performance-scenarios-for-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Сценарии производительности для Skype для бизнеса Server 2015 г.
  
