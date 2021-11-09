@@ -2,7 +2,7 @@
 title: Конфигурация клиентской версии Создание новых или изменение существующих
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/23/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 07fec57c-5cd3-422a-829a-0b62cb0092c4
 description: Параметры конфигурации используются для включения и отключения управления версиями клиентов. Конфигурация глобальной клиентской версии устанавливается с Skype для бизнеса Server и используется для того, чтобы включить или отключить управление клиентской версией для всего развертывания сервера. Когда включена глобальная конфигурация, при попытке пользователя войти в систему применяются все заданные политики версий клиентов. Вы можете отключить глобальную конфигурацию версий клиентов, если не хотите применять какое-либо управление версиями.
-ms.openlocfilehash: 5dd3f1297ec618346a35424ca323d236b8527c62
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: bbd83279edabaf5f8474e3b07a98bd5fbd676dc1
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60752318"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60847838"
 ---
 # <a name="client-version-configuration-create-new-or-edit-existing"></a>Конфигурация версий клиентов: создание новой или редактирование существующей
 

@@ -2,7 +2,7 @@
 title: Skype для бизнеса Server 2019 г.
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 10/26/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: Сводка. Сведения о средствах управления службами в Skype для бизнеса Server 2019 г.
-ms.openlocfilehash: 3bc3a4cac04ee0e9d6f52ca6375ae11d111a621e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 72b5f9a704aa57a9550bf3f0da3145a8a0c3b931
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60739025"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60848062"
 ---
 # <a name="skype-for-business-server-2019-management-tools"></a>Skype для бизнеса Server 2019 г.
  
@@ -28,7 +28,7 @@ Skype для бизнеса Server 2019 г. предлагает решения 
   
 ## <a name="skype-for-business-server-2019-tools"></a>Skype для бизнеса Server 2019
 
-|&nbsp;|Контентная|Описание|
+|&nbsp;|Контентная|Description|
 |:-----|:-----|:-----|
 |![значок панели мониторинга.](../SfbServer/media/144fef0b-3ff0-4298-8b03-978bda9e923b.png)|[Панель мониторинга качества звонка](../SfbServer/management-tools/call-quality-dashboard/call-quality-dashboard.md)  |Панель мониторинга качества вызовов (CQD) — это веб-портал для быстрого создания и организации отчетов на основе данных качества работы (QoE) из Skype для бизнеса среды. CQD развертывает куб SSAS для агрегировать данные в базе данных QoEMetrics, что позволяет пользователям создавать и изменять отчеты и видеть их обновление в режиме реального времени. Кроме того, CQD предоставляет веб-API, которые дают пользователям программный доступ к данным куба для использования в настраиваемой панели мониторинга.   |
 |![значок khI.](../SfbServer/media/8759b767-b689-4a95-94a5-5b27c5688688.png)|[Ресурсы KHI](https://www.microsoft.com/download/details.aspx?id=57519)  |Ключевые индикаторы работоспособности (KHI) — это счетчики производительности с рекомендуемыми порогами, направленные на выявление проблем, которые могут повлиять на работу пользователей. Руководство khI описывает операционный процесс и действия по исправлению для поддержания здорового развертывания и включает пример сценария PowerShell, используемого для настройки сборщиков данных KHI, и книгу анализа и определений, которая может анализировать данные о производительности KHI.   |

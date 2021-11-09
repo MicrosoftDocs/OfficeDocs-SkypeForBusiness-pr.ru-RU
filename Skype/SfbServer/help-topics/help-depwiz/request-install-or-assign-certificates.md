@@ -2,7 +2,7 @@
 title: Запрос, установка или назначение сертификатов
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 332ec40f-78be-440a-8c1d-ada6114897db
 description: Шаг 3. Запрашивать, устанавливать или назначать сертификаты запускает мастер сертификатов при нажатии кнопки Выполнить. Сертификаты, настроенные с помощью мастера, основаны на определении топологии Skype для бизнеса Server 2015 г., настроенной и опубликованной компанией Topology Builder в центральном магазине управления. Чтобы успешно выполнить мастер сертификатов для органа сертификации в интернете (CA) в организации, необходимо войти на компьютер в качестве пользователя, который является членом группы локальных администраторов компьютера. Вы также должны быть пользователем домена с проверкой подлинности в домене, в котором существует компьютер и ЦС. Мастер сертификатов предоставляет возможность указать альтернативные учетные данные для доступа к ЦС организации.
-ms.openlocfilehash: 475f5863fe4c8906a8ce416f983b1b5fd5e858fe
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b9a4f5fb5fbb4fe816f9bf141d70ab8d5cfc820f
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60748325"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60850132"
 ---
 # <a name="request-install-or-assign-certificates"></a>Запрос, установка или назначение сертификатов
  

@@ -2,7 +2,7 @@
 title: Добавьте политику расположения на сетевой сайт в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 43bfab8a-3d6b-4ca4-8425-879fd910502e
 description: Назначение политик расположения E9-1-1 сетевым сайтам в Skype для бизнеса Server Корпоративная голосовая связь.
-ms.openlocfilehash: 9d248d91703284d58b27e5fd593af95ddf4edaf3
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ae35958d9ff95e32f129d3992d52145e3bef51b5
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60765957"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60848052"
 ---
 # <a name="add-a-location-policy-to-a-network-site-in-skype-for-business-server"></a>Добавьте политику расположения на сетевой сайт в Skype для бизнеса Server
  

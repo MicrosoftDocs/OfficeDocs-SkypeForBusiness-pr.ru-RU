@@ -2,7 +2,7 @@
 title: Калькулятор планирования мощности Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 ms.date: 2/1/2018
 manager: serdars
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: bc4d93b1-0c38-4bf8-8b65-692ff3e2446d
 description: Сводка. Использование средства калькулятора емкости.
-ms.openlocfilehash: bfceeb643f9043053c70670f19cbc91b325acbb4
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b0369ffd30a4904057a44d594527ad017a712096
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60745925"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60862196"
 ---
 # <a name="skype-for-business-server-capacity-planning-calculator"></a>Калькулятор планирования мощности Skype для бизнеса Server
  

@@ -1,7 +1,7 @@
 ---
 title: Skype для бизнеса требования к клиентам Mac
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 2/16/2018
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 790d3e89-2b68-411b-b282-38de5d34dd10
 description: Ознакомьтесь с этой темой, чтобы узнать о требованиях к оборудованию, программному обеспечению и инфраструктуре для Skype для бизнеса на Mac.
-ms.openlocfilehash: 3a4d80bea5bd56f94b5239a537d059c4409d8f33
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b7d3ce484ea3e333e85c2f8473cdcdaaebe44057
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60745915"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60847222"
 ---
 # <a name="skype-for-business-on-mac-client-requirements"></a>Skype для бизнеса требования к клиентам Mac
  
@@ -53,7 +53,7 @@ Skype для бизнеса Server 2015 г. также поддерживает 
   
 Клиент имеет те же требования, что и наши клиенты мобильности, в том, что в поддерживаемой конфигурации должны быть развернуты сервер Access Edge Server и обратный прокси. 
   
-### <a name="authentication"></a>Аутентификация
+### <a name="authentication"></a>Проверка подлинности
 
 Клиент Skype для бизнеса Mac поддерживает проверку подлинности на основе cert, современную проверку подлинности Майкрософт и многофакторную проверку подлинности при развертывании и включении.
   

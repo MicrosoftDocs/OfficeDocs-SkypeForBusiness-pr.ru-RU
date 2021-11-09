@@ -1,6 +1,6 @@
 ---
 title: Доступность в Скайбадосе
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
@@ -23,27 +23,27 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже находятся Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams НаБерего.
-ms.openlocfilehash: 1f81e5896cf138babe93feaa10c5288675b58af8
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: Ниже находятся Microsoft 365 и Office 365 службы Skype для бизнеса и Microsoft Teams на Дабадосе.
+ms.openlocfilehash: c2eeb85e27bdcc0f7b41e9e83754a430bca251dd
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777609"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60848202"
 ---
 # <a name="availability-in-barbados"></a>Доступность в Скайбадосе
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже находятся Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams НаБерего.
+Ниже находятся Microsoft 365 и Office 365 службы Skype для бизнеса и Microsoft Teams на Дабадосе.
   
-## <a name="audio-conferencing"></a>Аудиоконференции
+## <a name="audio-conferencing"></a>Аудиоконференция
 
 |**Функция**|**Сведения**|
 |:-----|:-----|
 |Доступно ли приобретение аудиоконференций?  <br/> |Да, только с [поминутной оплатой](../audio-conferencing-pay-per-minute.md)  <br/> |
 |Номера телефонов автоматически назначаются для аудио конференций?  <br/> | Нет |
-|Возможность получить обратный звонок с функцией "Звонок на мой номер"  <br/> | Требуются кредиты связи <br/> |
+|Возможность дозвона с помощью функции «Позвони мне»  <br/> | Требуются кредиты связи <br/> |
    
 ## <a name="phone-system"></a>Телефонная система
 

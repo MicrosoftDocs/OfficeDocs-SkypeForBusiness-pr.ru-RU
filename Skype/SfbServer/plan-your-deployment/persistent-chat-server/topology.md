@@ -2,7 +2,7 @@
 title: Планирование топологии стойких чат-серверов
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 5/17/2016
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 6a0a14a0-baad-44e9-b26e-4d192c0a0e70
 description: Сводка. Ознакомьтесь с этой темой, чтобы узнать о компонентах и топологиях сервера сохраняемого чата в Skype для бизнеса Server 2015 г.
-ms.openlocfilehash: f50059617ca777b283a62eb8a487b59c3742327a
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 1b57d9d9ace6e51001acfa39101eb185a8e00939
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60749938"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60862076"
 ---
 # <a name="plan-persistent-chat-server-topology"></a>Планирование топологии стойких чат-серверов
  

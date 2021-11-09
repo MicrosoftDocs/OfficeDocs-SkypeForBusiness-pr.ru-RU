@@ -2,7 +2,7 @@
 title: Список таблиц CDR в Skype для бизнеса Server 2015 г.
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 031843fd-c7ff-4534-9b02-8847aad70807
 description: Схема базы данных регистрации вызовов (call detail recording — CDR) состоит из следующих таблиц.
-ms.openlocfilehash: 1e8c76080089005977154c3e23d924a4b98dc6b5
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: a8b89664482d05c60e00b10f64f7e2e853280d94
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60746665"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60847082"
 ---
 # <a name="list-of-cdr-tables-in-skype-for-business-server-2015"></a>Список таблиц CDR в Skype для бизнеса Server 2015 г.
  

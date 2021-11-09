@@ -2,7 +2,7 @@
 title: Получить родительских элементов
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d39b1dbc-1514-43ec-8593-9f23b3fcae62
 description: Сводка. Сведения об операции Get Item Ancestors, которая является частью службы элементов. Служба элементов является частью API репозиториев для панели мониторинга качества вызовов. Панель мониторинга качества вызовов — это средство для Skype для бизнеса Server.
-ms.openlocfilehash: 96fae0992ed6952d36ff966a559ef74da76e2606
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ec62275bc3c63d501370d4e27c57d69d1d9f4d5e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60765347"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60847252"
 ---
 # <a name="get-item-ancestors"></a>Получить родительских элементов
  

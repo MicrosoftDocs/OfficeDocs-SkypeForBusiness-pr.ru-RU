@@ -2,7 +2,7 @@
 title: Управление двух-факторной проверкой подлинности в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 16f08710-8961-4659-acbf-ebb95a198fb4
 description: Сводка. Управление двух-факторной проверкой подлинности в Skype для бизнеса Server.
-ms.openlocfilehash: d5d5500cbcab93f53e58626bf5826dcc060903e2
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: af21fd551c8495a49c8617b25e4669bdd27ec0c0
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60747175"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60847422"
 ---
 # <a name="manage-two-factor-authentication-in-skype-for-business-server"></a>Управление двух-факторной проверкой подлинности в Skype для бизнеса Server
  
@@ -42,8 +42,8 @@ ms.locfileid: "60747175"
 |:-----|:-----|:-----|:-----|
 |Веб-служба  <br/> |WebServer  <br/> |Директор  <br/> |Kerberos, NTLM и Certificate  <br/> |
 |Веб-служба  <br/> |WebServer  <br/> |Сервер переднего плана  <br/> |Kerberos, NTLM и Certificate  <br/> |
-|Прокси  <br/> |EdgeServer  <br/> |Microsoft Edge  <br/> |Kerberos и NTLM  <br/> |
-|Прокси  <br/> |Регистратор  <br/> |Сервер переднего плана  <br/> |Kerberos и NTLM  <br/> |
+|Прокси-сервер  <br/> |EdgeServer  <br/> |Microsoft Edge  <br/> |Kerberos и NTLM  <br/> |
+|Прокси-сервер  <br/> |Регистратор  <br/> |Сервер переднего плана  <br/> |Kerberos и NTLM  <br/> |
    
 Если эти типы проверки подлинности не отключены на уровне службы, все другие версии клиента не смогут успешно войти после включения двух факторов проверки подлинности в развертывании.
   
