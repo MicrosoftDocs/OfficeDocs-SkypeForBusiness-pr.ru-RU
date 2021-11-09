@@ -2,7 +2,7 @@
 title: Запрос сертификата (вызов)
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: c60afd78-147a-42ce-8673-314acbfd6cc7
 description: На странице Выполнение команд отображается панель состояния задач, обновляемая по мере выполнения команд для создания запроса сертификации. По завершении задач в раскрывающемся списке под панелью появляются файлы журналов. Выберите в списке файл журнала для просмотра и нажмите кнопку Просмотреть журнал. Запустится Internet Explorer, в котором откроется файл журнала. Если возникает ошибка запроса, необходимо просмотреть файлы журналов и определить причину ошибки. Вы можете вернуть запрос сертификата, чтобы устранить проблему, указанную в файле журнала. Пройдя по страницам запроса сертификата, запросите сертификат еще раз.
-ms.openlocfilehash: f30b74448d7fb35d0554a644923b688d96f0fb92
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 74968979cf4c94c4f566dc1c0f6c6e8797026634
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60744905"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60855806"
 ---
 # <a name="certificate-request-invoke"></a>Запрос сертификата (вызов)
  

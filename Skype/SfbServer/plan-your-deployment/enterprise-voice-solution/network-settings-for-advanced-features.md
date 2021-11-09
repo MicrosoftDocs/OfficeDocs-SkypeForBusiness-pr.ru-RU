@@ -2,7 +2,7 @@
 title: Параметры сети для расширенных Корпоративная голосовая связь в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7f6de9e4-c8a4-44e4-8d14-21fe8c45283a
 description: Узнайте о сетевых регионах, сетевых сайтах и подсетях IP. Все они должны быть настроены для развертывания плана обхода мультимедиа в Skype для бизнеса, управления приемом вызовов в Skype для бизнеса Server или планирования служб экстренной помощи в Skype для бизнеса Server в Skype для бизнеса Server Корпоративная голосовая связь.
-ms.openlocfilehash: fd81c9084ca94e7b0884d1c496c153fd964bcf89
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 50e076cd4be0e0c98b6319a7d0b4ce1a848689cd
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60762117"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60861096"
 ---
 # <a name="network-settings-for-the-advanced-enterprise-voice-features-in-skype-for-business-server"></a>Параметры сети для расширенных Корпоративная голосовая связь в Skype для бизнеса Server
 

@@ -2,7 +2,7 @@
 title: 'Skype для бизнеса Server: Удаление существующей коллекции параметров конфигурации магистрали SIP'
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3b25f14d-884b-42dd-a866-460d276d3e43
 description: Сводка. Узнайте, как удалить коллекцию параметров конфигурации магистрали с помощью панели управления Skype для бизнеса Server.
-ms.openlocfilehash: 19de05f2b31bc7a083aca7a04d71c32f17d0ea85
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: d438db687c8af918a1ac0da67542048ac2fa0bae
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60771544"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60860886"
 ---
 # <a name="skype-for-business-server-delete-an-existing-collection-of-sip-trunk-configuration-settings"></a>Skype для бизнеса Server: Удаление существующей коллекции параметров конфигурации магистрали SIP 
  

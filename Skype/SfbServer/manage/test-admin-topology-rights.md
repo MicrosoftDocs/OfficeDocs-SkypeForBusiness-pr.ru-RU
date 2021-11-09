@@ -2,7 +2,7 @@
 title: Тестирование прав топологии администратора в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Проверка прав топологии в Skype для бизнеса Server
-ms.openlocfilehash: 2da77957baaa510ef7669fb6a980de2aacf428a4
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6f4eed0271d9dd6d099d19287f7caa37148f6026
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60759721"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60861316"
 ---
 # <a name="testing-admin-topology-rights-in-skype-for-business-server"></a>Тестирование прав топологии администратора в Skype для бизнеса Server
 
@@ -27,7 +27,7 @@ ms.locfileid: "60759721"
 |Необходимые разрешения|При локальном запуске с Skype для бизнеса Server службы управления пользователи должны быть членами группы безопасности RTCUniversalServerAdmins.<br/><br/>При запуске с помощью удаленного экземпляра Windows PowerShell пользователям должна быть назначена роль RBAC, которая имеет разрешение на Test-CsSetupPermission cmdlet. Чтобы увидеть список всех ролей RBAC, которые могут использовать этот командлет, запустите следующую команду из Windows PowerShell:<br/><br/>Get-CsAdminRole Where-Object \| {$_. Командлеты -match "Test-CsSetupPermission"}|
 |||
 
-## <a name="description"></a>Описание
+## <a name="description"></a>Description
 
 По умолчанию только администраторы домена могут включить топологию Skype для бизнеса Server и внести большие изменения в Skype для бизнеса Server инфраструктуру. Это не будет проблемой до тех пор, пока администраторы домена и Skype для бизнеса Server администраторы одно и то же. Во многих организациях Skype для бизнеса Server администраторы не имеют административных прав на весь домен. По умолчанию это означает, что эти администраторы (определенные как члены группы RTCUniversalServerAdmins) не могут Skype для бизнеса Server топологии. Чтобы дать членам группы RTCUniversalServerAdmins право вносить изменения в топологию, необходимо назначить необходимые разрешения Active Directory с помощью команды [Grant-CsSetupPermission.](/powershell/module/skype/Grant-CsSetupPermission)
  

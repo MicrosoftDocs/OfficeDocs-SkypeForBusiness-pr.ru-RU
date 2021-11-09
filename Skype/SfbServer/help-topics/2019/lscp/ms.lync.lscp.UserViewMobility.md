@@ -2,7 +2,7 @@
 title: Пользователи просматривают политику мобильности
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: a6df69e2-c374-4a80-8197-5152b7d0b5d2
 ROBOTS: NOINDEX, NOFOLLOW
 description: В диалоговом окне Вид — Политика мобильных устройств отображаются свойства выбранной политики мобильных устройств.
-ms.openlocfilehash: 973844e405f83cbbc1eb4146ec1709e4ddc5d364
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: eb4ce4d588f11bdb75cc3fc6b15030d08b8d8a82
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60769427"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60861646"
 ---
 # <a name="users-view-mobility-policy"></a>Пользователи: просмотр политики мобильных устройств
 

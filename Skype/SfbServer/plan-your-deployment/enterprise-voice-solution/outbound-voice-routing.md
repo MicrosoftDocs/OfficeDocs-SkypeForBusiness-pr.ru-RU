@@ -2,7 +2,7 @@
 title: Планирование маршрутивки исходящие голосовой почты в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fde45195-6eb4-403c-9094-57df7fc0bd2a
 description: Узнайте о маршрутизации исходящие голоса в Skype для бизнеса Server Корпоративная голосовая связь, включая параметры маршрутизации вызовов, планы набора голосовых номеров, правила нормализации, политики голосовой поддержки, записи использования PSTN и маршруты голосовой почты.
-ms.openlocfilehash: 47b0b196579d69612c3c9d62c8ca9aade008535e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 1c8331f1959b03166ecd02b65e6fa1080bb43993
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60759511"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60861076"
 ---
 # <a name="plan-for-outbound-voice-routing-in-skype-for-business-server"></a>Планирование маршрутивки исходящие голосовой почты в Skype для бизнеса Server
  
@@ -96,7 +96,7 @@ ms.locfileid: "60759511"
   
 Наборная строка Simple Name предварительно заполнена строкой, полученной из имени плана набора. Поле "Простое имя" доступно для редактирования, что позволяет вам создать для абонентских групп более описательный контекст именования. Значение TheSimple Name не может быть пустым и должно быть уникальным. Рекомендуется разработать контекст именования для всей организации и последовательно использовать его для всех сайтов и пользователей.
   
-#### <a name="description"></a>Описание
+#### <a name="description"></a>Description
 
 Рекомендуется вводить общеупотребительные узнаваемые имена географических расположений, к которым применяются соответствующие абонентские группы. Например, если имя абонентской группы — London.Contoso.com, рекомендуемым описанием будет "Лондон". 
   

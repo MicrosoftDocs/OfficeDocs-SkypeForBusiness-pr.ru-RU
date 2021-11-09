@@ -2,7 +2,7 @@
 title: Планирование развертывания Skype для бизнеса Server 2015 г.
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/21/2018
 audience: ITPro
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fefd4fff-57cc-4019-b3eb-3535ad3729a8
 description: Сводка. Ознакомьтесь с этими ссылками, чтобы узнать, как разрабатывать концептуальные, логические и физические проекты для настройки Skype для бизнеса Server 2015 г., серверов и топологий.
-ms.openlocfilehash: 8896d962920cdf580685332d324e2d20eb5c9c94
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 5ac742f416f22b4a9875c2b78315225545d9c13d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60754446"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60860966"
 ---
 # <a name="plan-for-your-skype-for-business-server-2015-deployment"></a>Планирование развертывания Skype для бизнеса Server 2015 г.
  
@@ -35,7 +35,7 @@ Skype для бизнеса Server предлагает решения для о
 
 Дополнительные сведения о планировании развертывания Skype для бизнеса Server ниже.
   
-|&nbsp;|Контентная|Описание|
+|&nbsp;|Контентная|Description|
 |:--- |:--- |:--- |
 |![Значок для технических схем.](../media/87de0d09-77fd-46f2-b9f6-99a7998fd332.png)|[Технические схемы Skype для бизнеса Server 2015 г.](../technical-diagrams.md)  |См. краткое описание вариантов архитектуры на этих крупноформатных схемах.   |
 |![Значок для видео.](../media/143e0d86-1c68-482a-9bf9-93e7966acca0.png)|[Skype для бизнеса: краткое](https://www.youtube.com/watch?v=PRJqMuwW5yc&amp;feature=youtu.be)[введение Skype для бизнеса: пошаговая руководство для новых пользователей](https://www.youtube.com/watch?v=7_c4zVJ739M&amp;feature=youtu.be)    |Откройте для себя видео-презентации и обучение для Skype для бизнеса.   |
@@ -60,7 +60,7 @@ Skype для бизнеса Server предлагает решения для о
 
 Следующие ресурсы о планировании Skype для бизнеса Server доступны другими специалистами по предметам. 
   
-|&nbsp;|Контентная|Описание|
+|&nbsp;|Контентная|Description|
 |:--- |:--- |:--- |
 |![Значок для docs.](../media/4eff581b-890b-46cb-8224-a4122137d27e.png)|[Skype для бизнеса Server для ИТ-специалистов](../../Hub/index.yml)  |Посетите центр ресурсов, чтобы получить доступ к видео, сайтам сообщества, документации, загрузкам и более.   |
 |![Значок для контента разработчика.](../media/3626138a-2778-407e-911f-a0dcbdc36684.png)|[Skype Платформа разработчика](/skype-sdk/skypedeveloperplatform)  |Найдите ресурсы разработчика для Skype для бизнеса Server, включая примеры кода, обучение и SDKs.   |

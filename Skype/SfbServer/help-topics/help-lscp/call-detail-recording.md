@@ -2,7 +2,7 @@
 title: Запись сведений о звонке
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: e3daddf8-ac49-4b96-bf05-44b5a01d7aab
 description: Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
-ms.openlocfilehash: a6517279d0c534270ae4255192daa3ddc43bc1e3
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 98ffec58ddc348350e38eb710e754e909dddc352
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60764187"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60860526"
 ---
 # <a name="call-detail-recording"></a>Запись сведений о звонке
  

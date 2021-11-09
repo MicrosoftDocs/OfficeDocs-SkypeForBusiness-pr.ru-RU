@@ -2,7 +2,7 @@
 title: Конфигурация устройства Создание новых или изменение существующих
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/23/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: aac152bf-80e9-408a-9dbb-60d0843484ab
 description: На странице Конфигурация нового устройства или изменение конфигурации устройства можно создать или изменить коллекцию параметров, используемых для управления Skype для бизнеса Телефон Edition. Эти настройки позволяют настраивать такие параметры, как требуемый режим безопасности, уровень ведения журнала на устройстве, качество обслуживания голосовой связи (QoS), и определять необходимость автоматической блокировки телефонов по истечении заданного периода неактивности.
-ms.openlocfilehash: 8211e31ddb4f28d72c50b90d982fbb1e16ab0f63
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 849406c7c2a22f3ce96e50a8a49b14f27a1a5103
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60758451"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60860466"
 ---
 # <a name="device-configuration-create-new-or-edit-existing"></a>Конфигурация устройств: создание новой или редактирование существующей
  

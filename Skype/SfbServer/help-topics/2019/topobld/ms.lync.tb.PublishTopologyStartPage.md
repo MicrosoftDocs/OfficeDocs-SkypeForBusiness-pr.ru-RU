@@ -2,7 +2,7 @@
 title: Публикация топологии
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 2ea9613d-e74f-434b-aa51-eaaab206ff1e
 ROBOTS: NOINDEX, NOFOLLOW
 description: Страница Публикация топологии отображается при запуске публикации. Прежде чем продолжить, убедитесь, что указанные задачи завершены. Когда вы будете готовы продолжить, нажмите кнопку Далее. Если необходимо прервать процесс публикации, нажмите кнопку Отмена.
-ms.openlocfilehash: 42b4e1b1be8ece0aa354ff76aca6a77cac5732ce
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: e684d3432d6f5e2b26a04f692ea6249a95510b91
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60759901"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60860556"
 ---
 # <a name="publish-topology"></a>Публикация топологии
  

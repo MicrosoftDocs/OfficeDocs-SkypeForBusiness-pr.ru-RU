@@ -2,7 +2,7 @@
 title: Подготовка текущего домена (вызов)
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 27553998-2adf-4727-a6e8-841679603ff2
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'На странице Выполнение команд отображается сводка задач по мере их выполнения. Просмотрите сводку и убедитесь, что задачи успешно выполнены и нет ошибок. Просмотрите предупреждения и убедитесь, что среди них нет неожиданных. Ниже панели сводки должна появиться запись Состояние задачи: Завершено. Файл журнала Подготовка домена должен присутствовать в раскрывающемся списке. Выберите файл журнала и нажмите кнопку Просмотреть журнал для просмотра подробных сведений о действиях и результатах выполнения задач. Нажмите кнопку Готово, чтобы завершить подготовку домена.'
-ms.openlocfilehash: 329e8023fa69928a652fbd947697f6552014b80e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 4dbbd127ab9f1f97d50d4391272cd761273f4247
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60755586"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60861706"
 ---
 # <a name="prepare-current-domain-invoke"></a>Подготовка текущего домена (вызов)
  

@@ -2,7 +2,7 @@
 title: Лучшие практики для основной инфраструктуры в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 44aff88d-536c-4613-a81e-5398c9c6a648
 description: Вероятно, вы уже приняли меры для разработки допуска неисправностей в системе, используя такие методы, как обеспечение избыточности оборудования, охрана от потери питания, регулярное установка обновлений безопасности и антивирусных мер, а также активность Monitoring Server. Эти методы могут принести пользу не только Skype для бизнеса Server инфраструктуре, но и всей сети. Если вы не реализовали эти методы, рекомендуем сделать это перед развертывание Skype для бизнеса Server.
-ms.openlocfilehash: c3f07914f69881f4a9ce0c1f7d4451809b06f8e4
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 352541cf2dfa91eef24f09c4aebd2788c589a10f
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60737635"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60860946"
 ---
 # <a name="best-practices-for-your-core-infrastructure-in-skype-for-business-server"></a>Лучшие практики для основной инфраструктуры в Skype для бизнеса Server
  

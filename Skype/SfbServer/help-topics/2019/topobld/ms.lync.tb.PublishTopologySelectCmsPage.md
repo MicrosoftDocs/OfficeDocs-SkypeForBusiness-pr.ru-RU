@@ -2,7 +2,7 @@
 title: Страница публикации CMS выбора топологии
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: df447066-2840-431b-bc4e-acf8aa692d71
 ROBOTS: NOINDEX, NOFOLLOW
 description: Вы публикуете топологию, настроенную с помощью Topology Builder. Вам будет предложено выбрать из списка, который front End Server или пул переднего плана будет выполнять роль хранения центра управления. Только один пул переднего плана или переднего плана может удерживать эту роль в любой момент времени.
-ms.openlocfilehash: 435b13109e573116734ae3a688abd07044199509
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 4f4658b13a634d5f1d231d4e8fe7683b3fc38b8f
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60771027"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60860566"
 ---
 # <a name="publish-topology-select-cms-page"></a>Страница публикации CMS выбора топологии
  

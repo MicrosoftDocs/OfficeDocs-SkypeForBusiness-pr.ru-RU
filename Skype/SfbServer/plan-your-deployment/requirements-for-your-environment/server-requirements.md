@@ -2,7 +2,7 @@
 title: Требования к серверу для Skype для бизнеса Server 2015 г.
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/15/2018
 audience: ITPro
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8d47b242-b93d-4c2e-a658-23b78bca30b1
 description: Сводка. Подготовка Skype для бизнеса Server серверов 2015 г. с этой темой. Оборудование, ОС, базы данных, программное обеспечение, все системные требования и рекомендации здесь, чтобы обеспечить успешную установку и развертывание фермы серверов.
-ms.openlocfilehash: ece492adcf126870990ed810455d144c9b90aa5b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f12dcd955f044e626deda5e8e21fec00e53b876c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60743355"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60860956"
 ---
 # <a name="server-requirements-for-skype-for-business-server-2015"></a>Требования к серверу для Skype для бизнеса Server 2015 г.
  
@@ -47,7 +47,7 @@ ms.locfileid: "60743355"
   
 Рекомендуемое оборудование для серверов переднего конца, серверов back end, выпуск Standard серверов и постоянных серверов чата:
   
-|Компонент оборудования|Рекомендации|
+|Компонент оборудования|Рекомендовано|
 |:-----|:-----|
 |ЦП   |64-bit dual processor, hex-core, 2.26 gigahertz (GHz) or higher.  <br/> Процессоры Intel Itanium не поддерживаются для ролей Skype для бизнеса Server 2015 г.   |
 |Память   |32 гигабайта (ГБ).   |
@@ -56,7 +56,7 @@ ms.locfileid: "60743355"
    
 Рекомендуемое оборудование для edge Servers, автономных серверов-посредников, серверов видеосвязи и директоров:
   
-|Компонент оборудования|Рекомендации|
+|Компонент оборудования|Рекомендовано|
 |:-----|:-----|
 |ЦП   |64-bit dual processor, quad-core, 2.26 gigahertz (GHz) or higher.  <br/> Процессоры Intel Itanium не поддерживаются для ролей Skype для бизнеса Server 2015 г.   |
 |Память   |16 гигабайт.   |

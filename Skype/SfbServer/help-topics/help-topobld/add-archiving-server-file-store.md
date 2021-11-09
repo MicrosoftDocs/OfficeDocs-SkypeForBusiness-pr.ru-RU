@@ -2,7 +2,7 @@
 title: Добавление файлового хранилища сервера архивации
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: e95f938e-4dd2-48b8-95a3-05b4c63d4810
 description: Для архивации сеансов мгновенных сообщений и веб-конференций (собрания) необходимо указать общий файловый ресурс, который будет использоваться в качестве хранилища копий всего контента веб-конференций. В качестве хранилища файлов архива можно использовать существующий общий файловый ресурс. Кроме того, можно добавить новый общий файловый ресурс, указав полное доменное имя файлового сервера, на котором расположен общий файловый ресурс, и имя папки для нового общего файлового ресурса.
-ms.openlocfilehash: 716016b080c6db6f5e31a8390f220fb6a1f3cabd
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 32a7cf2374ca43182c5486129dcda402ebeb52ad
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60749300"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60861496"
 ---
 # <a name="add-archiving-server-file-store"></a>Добавление файлового хранилища сервера архивации
 

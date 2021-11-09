@@ -2,7 +2,7 @@
 title: Политика клиентской версии Создать новые или изменить существующие
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/23/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: e32c6712-6dc9-4de9-8d74-9fdccf3de1ba
 description: Вы может указать версию клиентов, поддерживаемых в вашей среде. При взаимодействии двух клиентов с разными версиями возможности, доступные обоим клиентам, могут быть ограничены возможностями другого клиента. Чтобы максимально использовать функции, включенные в Skype для бизнеса Server 2015 г., и улучшить общий пользовательский интерфейс, можно использовать фильтр клиентской версии, чтобы ограничить клиентские версии, используемые в среде. Используя этот фильтр, вы также можете сократить расходы, связанные с поддержкой нескольких версий клиентов.
-ms.openlocfilehash: 84a89c4bf8c2881f9633480eb1942e18dc42019e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6b54280f1401af89003c048720772891706b6b77
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60776579"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60861556"
 ---
 # <a name="client-version-policy-create-new-or-edit-existing"></a>Политика версий клиентов: создание новой или редактирование существующей
 
