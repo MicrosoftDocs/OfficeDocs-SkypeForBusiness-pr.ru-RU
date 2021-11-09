@@ -2,7 +2,7 @@
 title: Запрос сертификата (сетевой, автономный)
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 83697d4c-320b-4797-beb0-dd0bc4f1d0d6
 ROBOTS: NOINDEX, NOFOLLOW
 description: Чтобы создать отложенный или автономный запрос, выберите Подготовить запрос сейчас, но отправить позже (автономный запрос сертификата). Чтобы создать непосредственный запрос в орган сертификации в Интернете (как правило, внутренняя система в инфраструктуре общедоступных ключей организации), выберите Отправить запрос немедленно в орган сертификации в Интернете.
-ms.openlocfilehash: f599a6ded2ee30e4898bd906b12e2ecc947f70e8
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 3968c46596b3865f83549c0e841d6bca180d89cd
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60753028"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60837301"
 ---
 # <a name="certificate-request-online-offline"></a>Запрос сертификата (сетевой, автономный)
  

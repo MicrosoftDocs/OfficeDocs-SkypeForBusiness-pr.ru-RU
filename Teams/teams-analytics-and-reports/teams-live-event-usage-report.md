@@ -1,6 +1,6 @@
 ---
 title: Microsoft Teams отчет об использовании трансляций
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 audience: Admin
@@ -17,12 +17,12 @@ description: Узнайте, как с помощью Teams использова
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a6c533a9c07c1c620dbc1bd2d26919bbf5251cf3
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: e46c0e55eb4808f3c0b112dae72049649fc7f4a8
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60763027"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60865548"
 ---
 # <a name="microsoft-teams-live-event-usage-report"></a>Microsoft Teams отчет об использовании трансляций
 
@@ -31,11 +31,11 @@ ms.locfileid: "60763027"
 ## <a name="view-the-live-event-usage-report"></a>Просмотр отчета об использовании трансляций
 
 1. В левой области навигации Центра администрирования Microsoft Teams нажмите кнопку Аналитика & **отчеты об** использовании  >  . На **вкладке Просмотр отчетов** в области **Отчет** выберите Teams **использования трансляций**.
-2. В **области Диапазон дат** выберите предопределяемый диапазон или установите настраиваемый диапазон. Вы можете настроить диапазон для показа данных на год, за шесть месяцев до и после текущей даты.
+2. В **области Диапазон дат** выберите предопределяемый диапазон или задать настраиваемый диапазон. Вы можете настроить диапазон для показа данных на год, за шесть месяцев до и после текущей даты.
 3. (Необязательно) В **области** Организатор вы можете показывать только трансляции, организованные определенным пользователем.
 4. Нажмите **кнопку Выполнить отчет**.  
 
-    ![Снимок экрана: Teams использования трансляций в Центре администрирования Teams с помощью перетаксовок.](../media/teams-live-event-usage-report-with-callouts.png "Снимок экрана: отчет Teams использования трансляций в Центре администрирования Teams с помощью висяк")
+    ![Снимок экрана: Teams об использовании трансляций в Центре администрирования Teams с помощью перетаксовок.](../media/teams-live-event-usage-report-with-callouts.png "Снимок экрана: отчет Teams использования трансляций в Центре администрирования Teams с помощью перетаксовок")
 
 ## <a name="interpret-the-report"></a>Толкование отчета
 

@@ -1,6 +1,6 @@
 ---
 title: Доступность в Сент-Лусии
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
@@ -23,27 +23,27 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже находятся Microsoft 365 и Office 365 службы для Skype для бизнеса и Microsoft Teams для Сент-Лусии.
-ms.openlocfilehash: 9a75204e41d98f27bbb73c26b65262c7d29f3093
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: Ниже ются Microsoft 365 и Office 365 службы для Skype для бизнеса и Microsoft Teams для Сент-Ция.
+ms.openlocfilehash: 11e5b37535ed3258ff388c0cfde55209021169b9
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60765027"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60852763"
 ---
 # <a name="availability-in-saint-lucia"></a>Доступность в Сент-Лусии
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже находятся Microsoft 365 и Office 365 службы для Skype для бизнеса и Microsoft Teams для Сент-Лусии.
+Ниже ются Microsoft 365 и Office 365 службы для Skype для бизнеса и Microsoft Teams для Сент-Ция.
   
-## <a name="audio-conferencing"></a>Аудиоконференции
+## <a name="audio-conferencing"></a>Аудиоконференция
 
 |**Функция**|**Сведения**|
 |:-----|:-----|
 |Доступно ли приобретение аудиоконференций?  <br/> |Да, только с [поминутной оплатой](../audio-conferencing-pay-per-minute.md)  <br/> |
 |Номера телефонов автоматически назначаются для аудио конференций?  <br/> | Нет |
-|Возможность получить обратный звонок с функцией "Звонок на мой номер"  <br/> | Требуются кредиты связи <br/> |
+|Возможность дозвона с помощью функции «Позвони мне»  <br/> | Требуются кредиты связи <br/> |
    
 ## <a name="phone-system"></a>Телефонная система
 

@@ -2,7 +2,7 @@
 title: Добавление мониторинга Директора
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: a9009434-3771-475f-8314-c104f2716a29
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Вы можете выполнить Определение хранилища SQL Server для мониторинга, настроив следующие свойства:'
-ms.openlocfilehash: 2dd13a9c3fee71f4e639ca8d7fbf6826bb941aec
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b2e1c0781529e4e7e1d8904561cf2fe3decaab8c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60758751"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60839401"
 ---
 # <a name="add-director-monitoring"></a>Добавление мониторинга директора
  

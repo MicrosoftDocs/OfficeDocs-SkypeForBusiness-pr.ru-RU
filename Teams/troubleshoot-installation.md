@@ -1,6 +1,6 @@
 ---
 title: Устранение неполадок при установке и обновлении Microsoft Teams в Windows
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: lenatarhun
@@ -16,12 +16,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Узнайте, как устранять проблемы с установкой и обновлением клиентского приложения Teams для настольных компьютеров в Windows.
-ms.openlocfilehash: f65e4b6d6bebd463d143bedc1b1cd50f031cb299
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 71a7162e243779ae779a4e0224d54955ec611e07
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777159"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60865447"
 ---
 # <a name="troubleshoot-microsoft-teams-installation-and-update-issues-on-windows"></a>Устранение неполадок при установке и обновлении Microsoft Teams в Windows
 
@@ -123,7 +123,7 @@ Teams может автоматически запускать процесс о
 - Чтобы подтвердить, что это проблема, с которой вы столкнулись, закройте Teams (щелкните правой кнопкой мыши Teams на панели задач и выберите **Выйти**). Затем откройте диспетчер задач в Windows, чтобы увидеть, работает ли экземпляр Teams.  
 - Если вы не на компьютере, на котором возникла эта проблема, проверьте файл SquirrelTemp.log, собранный с компьютера, на котором возникла эта проблема, и найдите запись «Программа: невозможно завершить процесс в журнале».
 - Чтобы определить, что препятствует выходу Teams.exe, просмотрите журналы Dlls.txt и Handles.txt. Они рассказывают вам о процессах, которые препятствовали выходу Teams.
-- Другим виновником, который может помешать выходу Teams, является драйвер фильтра файловой системы режима ядра. Используйте инструмент SysInternals, [ProcDump](/sysinternals/downloads/procdump), чтобы собрать дамп процесса в режиме ядра, запустив ```procdump -mk <pid>```, где <pid> - это идентификатор процесса, полученный из диспетчера задач. Вы также можете проверить файл журнала Driverquery.txt, чтобы увидеть активные драйверы фильтров, которые могут мешать командам.
+- Другим виновником, который может помешать выходу Teams, является драйвер фильтра файловой системы режима ядра. Используйте инструмент SysInternals, [ProcDump](/sysinternals/downloads/procdump), чтобы собрать дамп процесса в режиме ядра, запустив ```procdump -mk <pid>```, где \<pid> - это идентификатор процесса, полученный из диспетчера задач. Вы также можете проверить файл журнала Driverquery.txt, чтобы увидеть активные драйверы фильтров, которые могут мешать командам.
 - Чтобы выйти из этого состояния, перезагрузите компьютер.
 
 #### <a name="file-permissions"></a>Разрешения для файлов

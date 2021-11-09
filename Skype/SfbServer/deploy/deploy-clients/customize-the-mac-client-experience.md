@@ -1,7 +1,7 @@
 ---
 title: Настройка клиентского опыта Mac в Skype для бизнеса
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.reviewer: PhillipGarding
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: d1d9cfec-e923-4d02-a306-ee40a9114cb8
 description: В этой статье описываются клиентские предпочтения и по умолчанию, доступные для Skype для бизнеса mac-клиента, а также то, как их редактировать из-за пределов приложения.
-ms.openlocfilehash: ed702585e0fb7cdd78bdf318b77b8a2513870498
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 909756b25f9ad3ee17536f24a4143b5b72180918
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60773359"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60838351"
 ---
 # <a name="customize-the-mac-client-experience-in-skype-for-business"></a>Настройка клиентского опыта Mac в Skype для бизнеса
  
@@ -37,15 +37,15 @@ ms.locfileid: "60773359"
 | Key | Тип | Значение | Описание |
 |:-----|:-----|:-----|:-----|
 |autoDetectAutoDicoveryURLs    |Логический    |0 = ручная конфигурация сервера  <br/> 1 = автоматическое обнаружение сервера (по умолчанию)    |Укажите, Skype для бизнеса определяет транспорт и сервер для использования во время входной записи. Если вы включаете этот параметр политики, необходимо указать **internalAutoDiscoveryURL** и **externalAutoDiscoveryURL**.   |
-|internalAutoDiscoveryURL    |String    |Полный URL-адрес автооткрытия    |ВНУТРЕННИЙ URL-адрес автооткрытия    |
-|externalAutoDiscoveryURL    |String    |Полный URL-адрес автооткрытия    |Внешний URL-адрес автооткрытия    |
-|httpProxyDomain    |String    ||Домен HTTP Прокси    |
-|httpProxyUserName    |String    ||ИМЯ пользователя HTTP Прокси    |
-|httpProxyPassword    |String    ||Пароль прокси-сервера HTTP    |
+|internalAutoDiscoveryURL    |Строка    |Полный URL-адрес автооткрытия    |ВНУТРЕННИЙ URL-адрес автооткрытия    |
+|externalAutoDiscoveryURL    |Строка    |Полный URL-адрес автооткрытия    |Внешний URL-адрес автооткрытия    |
+|httpProxyDomain    |Строка    ||Домен HTTP Прокси    |
+|httpProxyUserName    |Строка    ||ИМЯ пользователя HTTP Прокси    |
+|httpProxyPassword    |Строка    ||Пароль прокси-сервера HTTP    |
 |trustedDomainList    |Массив    ||Список доверенных доменов для перенаправлений HTTP.    |
-|autoAcceptTimeout    |Числовой    |300 (по умолчанию)    |Автоматическое принятие времени для пользователей без истории беседы на стороне сервера.    |
+|autoAcceptTimeout    |Число    |300 (по умолчанию)    |Автоматическое принятие времени для пользователей без истории беседы на стороне сервера.    |
 |warnWhenUnknownLocationForE911    |Логический    |0 = Отключено  <br/> 1 = Включено    |Предупреждает пользователя при наборе экстренного номера из неизвестного расположения.    |
-|sipAddress    |String    ||SIP-адрес (электронная почта), используемый для регистрации Skype для бизнеса.    |
+|sipAddress    |Строка    ||SIP-адрес (электронная почта), используемый для регистрации Skype для бизнеса.    |
 |userName    |String    ||UpN (UserName), используемый для регистрации для Skype для бизнеса.    |
 |userNameInAdvancedOnly    |Логический    |0 = отображение поля Имя пользователя на главном экране входной записи и в диалоговом окне Advanced Properties  <br/> 1 = отображение поля Имя пользователя только в диалоговом окне Advanced Properties (по умолчанию)    |Укажите, где отображается поле Имя пользователя при входе.    |
    

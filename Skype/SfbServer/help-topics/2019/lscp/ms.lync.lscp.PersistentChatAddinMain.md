@@ -2,7 +2,7 @@
 title: Главная страница надстройки сохраняемого чата
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 0c0ecf64-258d-4b43-8fac-fa5ffa4e7646
 ROBOTS: NOINDEX, NOFOLLOW
 description: Вы можете использовать раздел надстройки страницы "Постоянный чат", чтобы связать URL-адреса со стойкими комнатами чата. Эти URL-адреса отображаются в клиенте в комнате чата в области разностойности беседы. Администратор должен добавить надстройки в список зарегистрированных надстройок, а администраторы и создатели чата должны связать комнаты с одной из зарегистрированных надстройок, прежде чем пользователи смогут увидеть это обновление в своем клиенте.
-ms.openlocfilehash: 5e6723c3416103f1a39285b0f617d8b65a645406
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 4e842436bd9f95d6441c52e4917bcba2a4081b96
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60757861"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60839471"
 ---
 # <a name="persistent-chat-add-in-main-page"></a>Главная страница надстройки сохраняемого чата
 

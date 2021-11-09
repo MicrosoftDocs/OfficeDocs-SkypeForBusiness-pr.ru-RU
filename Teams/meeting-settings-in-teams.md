@@ -1,6 +1,6 @@
 ---
 title: Управление параметрами собраний
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: sonua
@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: Узнайте, как управлять настройками собраний команд, которые пользователи планируют в своей организации.
-ms.openlocfilehash: 6e3314ee7e1b36f98da45806361aa29829690710
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 7b12dfacc5b9bd6ebe5bb0e3de17a40bb0148ef0
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60753936"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60839741"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Управление настройками собраний в Microsoft Teams
 

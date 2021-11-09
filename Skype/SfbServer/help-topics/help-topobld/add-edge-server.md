@@ -2,7 +2,7 @@
 title: Добавление пограничного сервера
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 9bd9c2b2-8329-4b31-a937-e462f5cc7293
 description: Чтобы внедрить пограничный сервер или пул пограничных серверов в структуру топологии, необходимо указать полное доменное имя сервера, на котором требуется развернуть пограничный сервер или пул пограничных серверов. Перед публикацией топологии, которая включает в себя пул Edge Server или Edge Server и установку Skype для бизнеса Server, необходимо завершить все необходимые условия для развертывания внешнего доступа пользователей. Дополнительные сведения об этих требованиях см. в разделе Preparing for Installation of Servers in the Perimeter Network документации по развертыванию.
-ms.openlocfilehash: 4436ce21de7402b53cd256224000457a06a2aa91
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 04ab27281bd382b95ec088a9db995237d6ff7d6d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60770547"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60837871"
 ---
 # <a name="add-edge-server"></a>Добавление пограничного сервера
 

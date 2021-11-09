@@ -2,7 +2,7 @@
 title: Используйте двух факторов проверку подлинности с Skype для бизнеса клиентом и Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d4136e61-c3ab-4b26-85c8-c1b2c24f5ee3
 description: Сводка. Используйте двух факторов проверку подлинности с Skype для бизнеса Server и Skype для бизнеса.
-ms.openlocfilehash: 3bcba5d4bdd6aacee794b40273b2cb92c83df50a
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 50237639172a70fdf68e1cca122d74cbf785f68e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60767867"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60839941"
 ---
 # <a name="use-two-factor-authentication-with-skype-for-business-client-and-skype-for-business-server"></a>Используйте двух факторов проверку подлинности с Skype для бизнеса клиентом и Skype для бизнеса Server
  
@@ -90,7 +90,7 @@ ms.locfileid: "60767867"
     
 7. Теперь вы увидите страницу под названием Станция регистрации смарт-карт. Одобрить запрос на установку ActiveX, а затем заполнить форму предварительного запроса сертификата следующим образом:
     
-    А. Выберите **пользователя Smartcard из** списка **выпаданий** шаблона сертификатов.
+    а. Выберите **пользователя Smartcard из** списка **выпаданий** шаблона сертификатов.
     
     Б. Выберите **Создание нового набора ключей.**
     

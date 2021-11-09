@@ -2,7 +2,7 @@
 title: Использование средства Skype для бизнеса Server и производительности 2015 г.
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 ms.date: 2/13/2018
 manager: serdars
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 93f42230-24a2-418d-9770-bf4670a9d78f
 description: Чтобы запустить Skype для бизнеса Server 2015 года, необходимо иметь возможность управлять как пользователями, контактами, так и профилями пользователей, настраивать средство для выполнения, а затем просмотреть результаты или результаты, полученные с помощью этого средства.
-ms.openlocfilehash: d54374e81319a6a95ec61fbb2ab5885e2ec368ca
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b71148f4fcf26726b530861b147336a1c7b1d12e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60751588"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60839851"
 ---
 # <a name="using-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Использование средства Skype для бизнеса Server и производительности 2015 г.
  

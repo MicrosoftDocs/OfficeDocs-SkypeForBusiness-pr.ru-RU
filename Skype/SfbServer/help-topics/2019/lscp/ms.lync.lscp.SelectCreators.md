@@ -2,7 +2,7 @@
 title: Выбор создателей
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: f8d9ed6f-22ba-470e-b0b4-0da3cea5e961
 ROBOTS: NOINDEX, NOFOLLOW
 description: Создание и управление стойкими комнатами чата намного проще при правильном использовании категорий. Администратор сохраняемого чата может определять allowedMembers и Creators для каждой категории, а также определять параметры и поведение комнаты чата по умолчанию, которые будут применяться во всех комнатах чата, созданных в этой категории. Постоянные администраторы чата создают и управляют категориями с помощью Skype для бизнеса Server панели управления или Windows PowerShell.
-ms.openlocfilehash: e91abee35f75c7b477f004a4e92b01b8d43c1693
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f191560425e243bec7a1c3d63ba02ca1dd55678b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60771277"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60852563"
 ---
 # <a name="select-creators"></a>Выбор создателей
 

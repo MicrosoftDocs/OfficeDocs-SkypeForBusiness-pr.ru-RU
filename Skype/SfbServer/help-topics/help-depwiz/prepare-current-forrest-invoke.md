@@ -2,7 +2,7 @@
 title: Подготовка текущего леса (вызов)
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 18bab895-6cb1-4c07-a88d-ad0aed67293a
 description: 'На странице Выполнение команд отображается сводка задач по мере их выполнения. Просмотрите сводку и убедитесь, что задачи успешно завершены и нет ошибок. Просмотрите предупреждения и убедитесь, что среди них нет неожиданных. На панели сводки должна отображаться надпись Состояние задачи: Завершено. Файл журнала Подготовка леса должен быть виден в раскрывающемся списке. Выберите файл журнала и нажмите кнопку Просмотреть журнал для просмотра подробных сведений о действиях и результатах выполнения задач. Нажмите кнопку Готово, чтобы завершить подготовку леса.'
-ms.openlocfilehash: 27eecddedb075df7d6933e286237d73f0f2663c2
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: cd87821342bf4b9ac57b7c6635e566241db18025
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60761017"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60853373"
 ---
 # <a name="prepare-current-forrest-invoke"></a>Подготовка текущего леса (вызов)
  

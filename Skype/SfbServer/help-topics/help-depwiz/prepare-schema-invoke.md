@@ -2,7 +2,7 @@
 title: Подготовка схемы (вызов)
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: f031eb6d-0749-4247-842c-c1e701027ffb
 description: 'На странице "Команды выполнения" отображается сводка команд, выдающихся для расширения схемы для Skype для бизнеса Server 2015 г. По завершении задач на панели сводки указывается, успешно завершилась задача или с ошибкой. Просмотрите сводный экран и убедитесь, что на панели сводки указана запись Состояние задачи: Завершено. В раскрывающемся списке под панелью сводки можно выбрать файл журнала "Подготовка схемы". Для просмотра файла журнала нажмите кнопку Просмотреть журнал. Если во время подготовки схемы возникают ошибки, эти ошибки, обнаруженные задачей, записываются в журнал. Вы затем можете попытаться исправить ошибки и снова выполнить подготовку схемы.'
-ms.openlocfilehash: 9ef4aaeca2d4bb90b8333c7272fab5162beecbdc
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6e99f53b045f19190bc1790f40517749aeae83b6
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60752338"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60852433"
 ---
 # <a name="prepare-schema-invoke"></a>Подготовка схемы (вызов)
  

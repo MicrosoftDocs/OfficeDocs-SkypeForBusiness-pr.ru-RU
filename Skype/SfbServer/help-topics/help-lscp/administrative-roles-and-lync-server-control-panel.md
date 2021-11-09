@@ -2,7 +2,7 @@
 title: Административные роли и панель управления Lync Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/23/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 7d1ff1e0-eb89-4703-be50-71e94329d8b2
 description: Чтобы вы могли делегировать административные задачи при сохранении высоких стандартов безопасности, Skype для бизнеса Server поддерживает управление доступом на основе ролей (RBAC). При использовании RBAC административные привилегии выдаются с помощью назначения пользователям предварительно заданных административных ролей. Skype для бизнеса Server содержит богатый набор встроенных административных ролей, а также позволяет создавать новые роли и указывать настраиваемый список cmdlets для каждой новой роли. Вы можете также добавлять сценарии командлетов в разрешенные задачи как предопределенных, так и пользовательских ролей RBAC. Подробные сведения, включая предопределяемую административную роль, доступные в Skype для бизнеса Server, см. в Role-Based Access Control.
-ms.openlocfilehash: 0e23d91a04cf16ffbf6b9fd375a22b34503572ca
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: da22d09a1d3e6c324f1955a5b38c67818cb3fe85
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60744805"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60838841"
 ---
 # <a name="administrative-roles-and-lync-server-control-panel"></a>Административные роли и панель управления Lync Server
 

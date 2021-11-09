@@ -2,7 +2,7 @@
 title: Конфигурация журнала устройств
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/23/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: c9b81f20-ce8c-40f1-8bed-50775cc35e58
 description: Веб-служба обновления устройства автоматически создает файлы журналов, которые записывают действия по обновлению устройства. В рамках стратегии управления данными организации может потребоваться установить пороговые значения по размеру кэша данных журнала, размеру файла журнала или времени хранения файла журнала до его чистки. Эти параметры можно изменить в соответствии с требованиями организации. Если веб-служба обновления устройств не требуется автоматически очищать файлы журналов, их можно очистить вручную, если это необходимо. Параметры журналов можно изменять глобально или на уровне сайта.
-ms.openlocfilehash: cd9227d16e06d221a0c997787d906001d57c2f33
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 17c83ff64940271220bde51d8ea3d4cb5e01adaa
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60757395"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60838081"
 ---
 # <a name="device-log-configuration"></a>Конфигурация журнала устройств
 

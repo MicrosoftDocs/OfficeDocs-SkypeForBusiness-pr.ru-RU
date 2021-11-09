@@ -1,6 +1,6 @@
 ---
 title: Телефон управления номерами для Чешской Республика
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: chandra.kilaru, kristen.kutser
@@ -19,19 +19,19 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: Эта таблица используется для поиска сведений о получении номеров телефонов в Чешской Microsoft Teams и управлении Microsoft Teams.
-ms.openlocfilehash: 295b65198e3635a8af15ffa647b57efe67d8af50
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: В этой таблице вы найдете сведения о получении номеров телефонов в Чешских республиках и управлении Microsoft Teams.
+ms.openlocfilehash: 679e411fa28b18139cc6cdebf9572c46023007f9
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60774559"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60853913"
 ---
 # <a name="phone-number-management-for-the-czech-republic"></a>Телефон управления номерами для Чешской Республика
 
 [!INCLUDE [preview-feature](../includes/preview-feature.md)]
 
-Эта таблица используется для поиска сведений о получении номеров телефонов в Чешской Microsoft Teams и управлении Microsoft Teams.
+В этой таблице вы найдете сведения о получении номеров телефонов в Чешских республиках и управлении Microsoft Teams.
   
 Дополнительные сведения см. в статье [Управление номерами телефонов для организации](manage-phone-numbers-for-your-organization.md).
   
@@ -43,7 +43,7 @@ ms.locfileid: "60774559"
 |Измените номер пользователя на номер службы.  <br/> |[Чтобы получить инструкции по](contact-tns-service-desk.md) списку пользовательских номеров, которые вы хотите преобразовать в номера служб, обратитесь в службу TNS Service Desk. <br/> |
 |Обновление службы каталогов для номеров очереди вызовов или автозаетаря|Чтобы добавить или изменить номера очереди вызовов или автозавода, обратитесь за инструкциями в [службу TNS Service Desk.](contact-tns-service-desk.md) |
    
-## <a name="related-topics"></a>См. также:
+## <a name="related-topics"></a>Статьи по теме
 
 [Типы номеров телефонов, используемые в планах звонков](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 

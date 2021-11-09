@@ -2,7 +2,7 @@
 title: Перемещение данных хранения файлов в новый файловый магазин в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.assetid: 8d1d5819-add2-4f5d-a436-74c00a281df0
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Если необходимо удалить файловый сервер, который в настоящее время действует как хранилище файлов для развертывания Skype для бизнеса Server, или если необходимо внести другие изменения, которые сделают текущий хранилище файлов недоступным, сначала необходимо создать новую долю. Затем необходимо выполнить следующие действия:'
-ms.openlocfilehash: 82916786bfe6fd3f780b409a697320daf8adfbec
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 58b42d267723d96163d276e5578d5b044c700b26
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60750898"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60853483"
 ---
 # <a name="move-file-store-data-to-a-new-file-store-in-skype-for-business-server"></a>Перемещение данных хранения файлов в новый файловый магазин в Skype для бизнеса Server
 

@@ -1,6 +1,6 @@
 ---
-title: Доступность в 100%2016
-author: cichur
+title: Доступность в Неве
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
@@ -23,27 +23,27 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже ются Microsoft 365 и Office 365 службы Skype для бизнеса и Microsoft Teams для Нее.
-ms.openlocfilehash: d37be85d42c11b549961220e777fdb641bd328a5
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: Ниже ются Microsoft 365 и Office 365 службы Skype для бизнеса и Microsoft Teams для нее.
+ms.openlocfilehash: e3f9758ba606c4effba4b4e91e031ba6b4ada83d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60775979"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60852753"
 ---
-# <a name="availability-in-tunisia"></a>Доступность в 100%2016
+# <a name="availability-in-tunisia"></a>Доступность в Неве
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже ются Microsoft 365 и Office 365 службы Skype для бизнеса и Microsoft Teams для Нее.
+Ниже ются Microsoft 365 и Office 365 службы Skype для бизнеса и Microsoft Teams для нее.
   
-## <a name="audio-conferencing"></a>Аудиоконференции
+## <a name="audio-conferencing"></a>Аудиоконференция
 
 |**Функция**|**Сведения**|
 |:-----|:-----|
 |Доступно ли приобретение аудиоконференций?  <br/> |Да, только с [поминутной оплатой](../audio-conferencing-pay-per-minute.md) <br/> |
 |Номера телефонов автоматически назначаются для аудио конференций?  <br/> |Нет  <br/> |
-|Возможность получить обратный звонок с функцией "Звонок на мой номер"  <br/> | Требуются кредиты связи <br/> |
+|Возможность дозвона с помощью функции «Позвони мне»  <br/> | Требуются кредиты связи <br/> |
    
 ## <a name="phone-system"></a>Телефонная система
 

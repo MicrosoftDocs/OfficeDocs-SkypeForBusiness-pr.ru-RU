@@ -1,6 +1,6 @@
 ---
 title: 'Microsoft Teams: ресурсы для администраторов образования'
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.topic: reference
@@ -17,22 +17,22 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2342f68403120f04e865203c304c2c4e14d41c0a
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: cabaace50bea563ac2803c33f2b302f2f326bfa4
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60767197"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60865668"
 ---
 # <a name="microsoft-teams-resources-for-education-admins"></a>Ресурсы Microsoft Teams для администраторов учебных заведений
 
 ## <a name="resources-for-remote-learning"></a>Ресурсы для дистанционного обучения
 
-Требуется ли вашему учебному заую или университету включить Microsoft Teams дистанционного обучения? Быстро привяжите к работе с помощью [one-pager "Начало](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-for-education-getting-started-1-pager.pdf?raw=true) работы" и любого из ниже материалов по внедрению!
+Требуется ли вашему учебному Microsoft Teams для дистанционного обучения? Быстро привяжите к работе с помощью [one-pager "Начало](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-for-education-getting-started-1-pager.pdf?raw=true) работы" и любого из ниже материалов по внедрению!
 
 ## <a name="adoption-content"></a>Материалы по внедрению
 
-Подумайте, как Microsoft Teams электронной почтой, плакатами, раздатными данными и другими ресурсами, которые вы можете использовать сейчас. Вы также можете связаться с учащимися через Интернет и в разных учебных заведениях с помощью нового цифрового инструмента с баннерами, GIF-ссылками и видео. Начало работы уже сегодня!
+С помощью писем, плакатов, раздаток и других ресурсов, которые вы можете использовать, Microsoft Teams ваше учебное заведения. Вы также можете связаться с учащимися через Интернет и в разных учебных заведениях с помощью нового цифрового инструмента, который заполняется баннерами, GIF-ссылками и видео. Начало работы уже сегодня!
 
 Перед [использованием](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/license_agreement_teams_for_education.pdf?raw=true) этих материалов ознакомьтесь с условиями.
 
@@ -57,7 +57,7 @@ ms.locfileid: "60767197"
 ## <a name="call-to-action"></a>Призыв к действию
 
 - Посетите [страницу Teams для образования](https://www.microsoft.com/en-us/education/products/teams/default.aspx) обучающие, видео и интерактивные демонстрации
-- Включите Teams в [Центр администрирования Microsoft 365](https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns) (во Office 365 администратора)
+- Включите Teams [в](https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns) Центр администрирования Microsoft 365 (во Office 365 администратора)
 - Скачайте клиенты Teams: [Microsoft Teams работает на всех ваших устройствах](https://teams.microsoft.com/downloads).
 - Получите дополнительные сведения об Office 365 для образования в [Центре справки "Образование"](https://support.office.com/education).
 

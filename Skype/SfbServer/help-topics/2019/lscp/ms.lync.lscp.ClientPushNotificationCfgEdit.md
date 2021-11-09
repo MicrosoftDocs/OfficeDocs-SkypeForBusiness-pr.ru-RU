@@ -2,7 +2,7 @@
 title: Конфигурация push-уведомлений для мобильных клиентов
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: fb39af60-c999-42fb-9538-0bd87098f508
 ROBOTS: NOINDEX, NOFOLLOW
 description: Push-уведомление и Клиш-хаус push-уведомлений (PNCH) являются двумя ключевыми частями функции мобильности. Push-уведомления — это процесс, в котором уведомления отправляются в систему PNCH. Сообщение удерживается в системе до тех пор, пока оно не сможет быть доставлено на мобильный клиент или не закончится срок его действия.
-ms.openlocfilehash: ebc548658fad03af743acdaa25db4b5307549b4c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 233cd1e9cccb56f65b72b7e47b6dffa093e45da1
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60751118"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60839571"
 ---
 # <a name="mobile-client-create-or-edit-push-notification-configuration"></a>Мобильный клиент: создание или редактирование конфигурации push-уведомлений
  

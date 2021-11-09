@@ -1,7 +1,7 @@
 ---
 title: Доступность в Запа
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, fafan
 ms.topic: reference
@@ -24,27 +24,27 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже находятся Microsoft 365 и Office 365 службы Skype для бизнеса и Microsoft Teams, доступные для Компании.
-ms.openlocfilehash: d5e0e46cc82ceb6747fd0248ff3cbbe97dbaa462
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: Ниже находятся Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Компании.
+ms.openlocfilehash: f890a0f5ff6971cafb5a4e158fa860567369682b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60760527"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60853943"
 ---
 # <a name="availability-in-dominica"></a>Доступность в Скайпа
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже находятся Microsoft 365 и Office 365 службы Skype для бизнеса и Microsoft Teams, доступные для Компании.
+Ниже находятся Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Компании.
   
-## <a name="audio-conferencing"></a>Аудиоконференции
+## <a name="audio-conferencing"></a>Аудиоконференция
 
 |**Функция**|**Сведения**|
 |:-----|:-----|
 |Доступно ли приобретение аудиоконференций?  <br/> |Да, только с [поминутной оплатой](../audio-conferencing-pay-per-minute.md)  <br/> |
 |Номера телефонов автоматически назначаются для аудио конференций?  <br/> |Нет <br> |
-|Возможность получить обратный звонок с функцией "Звонок на мой номер"  <br/> |Требуются кредиты связи  <br/> |
+|Возможность дозвона с помощью функции «Позвони мне»  <br/> |Требуются кредиты связи  <br/> |
    
    
 ## <a name="phone-system"></a>Телефонная система

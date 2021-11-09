@@ -2,7 +2,7 @@
 title: Добавление компьютера переднего плана
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: e7fe2522-1bd2-416a-9dbb-51cacea9c6e0
 ROBOTS: NOINDEX, NOFOLLOW
 description: Укажите полное доменное имя каждого компьютера, который нужно добавить в качестве сервера переднего плана в пул. После добавления компьютера в список можно обновить полное доменное имя компьютера или удалить его из пула в любой момент до публикации топологии. После публикации топологии для изменения полного доменного имени необходимо удалить сервер в построителе топологий, а затем добавить новый сервер в пул с новым полным доменным именем. Дополнительные сведения о добавлении пула переднего плана в топологию см. в разделе Define and Configure a Front End Pool руководства по развертыванию.
-ms.openlocfilehash: 356ad03beeda1816747e95801379b7b7ba7c0ab8
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: df6753d27d6e70227b415a3cd0d1f1f6c85fdee6
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60771038"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60839311"
 ---
 # <a name="add-front-end-machine"></a>Добавление компьютера переднего плана
 

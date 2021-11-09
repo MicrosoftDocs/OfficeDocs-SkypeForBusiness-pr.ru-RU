@@ -2,7 +2,7 @@
 title: Развертывание и настройка мобильности для Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 8ec6197a-3d1e-4b42-9465-564044cdab1a
 description: В этой статье вы сможете настроить существующую установку Skype для бизнеса Server для использования службы Mobility, что позволит мобильным устройствам использовать возможности Skype для бизнеса Server Mobility.
-ms.openlocfilehash: 598a6b1879f08bb27a0ef5cb44a5033bc3e0339e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b4ca8b229fb0d6fc15305bb15c32466a678955f3
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741505"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60865427"
 ---
 # <a name="deploy-and-configure-mobility-for-skype-for-business-server"></a>Развертывание и настройка мобильности для Skype для бизнеса Server  
  
@@ -317,7 +317,7 @@ TMG больше не предлагается Корпорацией Майкр
     
    - **Принимать запросы,** но это должно быть для доменного имени.
     
-   - Для **имени** необходимо ввести **lyncdiscover.** <sipdomain> (это внешний URL-адрес службы автооткрытия). Теперь, если создается правило для внешнего URL-адреса веб-служб в пуле переднего конца, необходимо ввести FQDN для внешних веб-служб в пуле переднего конца (например, lyncwebextpool01.contoso.com).
+   - Для **имени** необходимо ввести **lyncdiscover.**\<sipdomain> (это внешний URL-адрес службы автооткрытия). Теперь, если создается правило для внешнего URL-адреса веб-служб в пуле переднего конца, необходимо ввести FQDN для внешних веб-служб в пуле переднего конца (например, lyncwebextpool01.contoso.com).
     
    - Будет параметр **Path,** и вам потребуется ввести **/\\** * здесь.
     
@@ -363,7 +363,7 @@ TMG больше не предлагается Корпорацией Майкр
     
    - **Принимать запросы,** но это должно быть для доменного имени.
     
-   - Для **имени** необходимо ввести **lyncdiscover.** <sipdomain> (это внешний URL-адрес службы автооткрытия).
+   - Для **имени** необходимо ввести **lyncdiscover.**\<sipdomain> (это внешний URL-адрес службы автооткрытия).
     
    - Будет параметр **Path,** и вам потребуется ввести **/\\** * здесь.
     
@@ -463,7 +463,7 @@ TMG больше не предлагается Корпорацией Майкр
    Test-CsMcxP2PIM -TargetFqdn pool01.contoso.com -Authentication Negotiate -SenderSipAddress sip:UserName1@contoso.com -SenderCredential $tuc1 -ReceiverSipAddress sip:UserName2@contoso.com -ReceiverCredential $tuc2 -v
    ```
 
-Чтобы просмотреть процедуры команд, вы можете проверить [Test-CsUcwaConference](/powershell/module/skype/test-csucwaconference?view=skype-ps) и [Test-CsMcxP2PIM.](/powershell/module/skype/test-csmcxp2pim?view=skype-ps)
+Чтобы просмотреть процедуры команд, вы можете проверить [Test-CsUcwaConference](/powershell/module/skype/test-csucwaconference) и [Test-CsMcxP2PIM.](/powershell/module/skype/test-csmcxp2pim)
   
 ## <a name="configure-for-push-notifications"></a>Настройка для использования push-уведомлений
 <a name="ConfigPush"> </a>
@@ -592,7 +592,7 @@ Push-уведомления в виде значков, значков или о
     > [!NOTE]
     > Вы можете отключить вызов с помощью Work, не отключив доступ к Mobility. Но вы не можете отключить Мобильность, не отключив вызов с помощью work. 
   
-    Дополнительные сведения можно получить в [set-CsMobilityPolicy.](/powershell/module/skype/set-csmobilitypolicy?view=skype-ps)
+    Дополнительные сведения можно получить в [set-CsMobilityPolicy.](/powershell/module/skype/set-csmobilitypolicy)
     
 ### <a name="modify-mobility-policy-by-site"></a>Изменение политики мобильности по сайту
 
@@ -606,7 +606,7 @@ Push-уведомления в виде значков, значков или о
    New-CsMobilityPolicy -Identity site:<site identifier> -EnableIPAudioVideo $false -RequireWiFiForIPAudio $True -RequireWiFiforIPVideo $True
    ```
 
-    Дополнительные новости в [New-CsMobilityPolicy](/powershell/module/skype/new-csmobilitypolicy?view=skype-ps).
+    Дополнительные новости в [New-CsMobilityPolicy](/powershell/module/skype/new-csmobilitypolicy).
     
 ### <a name="modify-mobility-policy-by-user"></a>Изменение политики мобильности пользователем
 

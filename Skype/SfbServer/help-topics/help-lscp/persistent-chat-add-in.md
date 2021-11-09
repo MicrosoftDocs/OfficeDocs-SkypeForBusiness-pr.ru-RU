@@ -2,7 +2,7 @@
 title: Надстройка сохраняемого чата
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 66124a70-67e8-4bda-9da5-8ab13afccf49
 description: Вы можете использовать раздел надстройки страницы "Постоянный чат", чтобы связать URL-адреса со стойкими комнатами чата. Эти URL-адреса отображаются в клиенте в комнате чата в области разностойности беседы. Администратор должен добавить надстройки в список зарегистрированных надстройок, а администраторы и создатели чата должны связать комнаты с одной из зарегистрированных надстройок, прежде чем пользователи смогут увидеть это обновление в своем клиенте.
-ms.openlocfilehash: 344568f1beeb9b3ecdf1b651879b4b278fe34b42
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 4eaaf9f82fb820813fe2d9721193b7b93dc43da2
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60764107"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60853273"
 ---
 # <a name="persistent-chat-add-in"></a>Надстройка сохраняемого чата
 
