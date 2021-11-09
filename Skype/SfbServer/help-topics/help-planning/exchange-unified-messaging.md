@@ -2,7 +2,7 @@
 title: Skype для бизнеса Server Exchange единого средства планирования обмена сообщениями
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
@@ -16,12 +16,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: cb767f83-2684-4006-a1f2-c6f0adf50f62
 description: Skype для бизнеса Server поддерживает интеграцию с Exchange единой системы обмена сообщениями для объединения голосовых сообщений и сообщений электронной почты в единую инфраструктуру обмена сообщениями.
-ms.openlocfilehash: 008b50b3bfd1c6732c3a7164f31dcc596461156b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: c886aaa6ffcc563daa7c616e3d3670765f3d2e7e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60772365"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60844592"
 ---
 # <a name="skype-for-business-server-exchange-unified-messaging-planning-tool"></a>Skype для бизнеса Server Exchange единого средства планирования обмена сообщениями
 

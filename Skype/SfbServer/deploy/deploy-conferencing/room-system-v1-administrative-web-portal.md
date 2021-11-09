@@ -2,7 +2,7 @@
 title: Развертывание административного веб-портала SRS v1 в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.assetid: 81822efa-2100-4017-a470-8a5b98c49522
 ms.collection: M365-voice
 description: Административный веб-портал Skype для бизнеса Server Skype Room Systems v1 (SRS v1, ранее известный как Lync Room System) — веб-портал, который организации могут использовать для обслуживания конференц-залов Skype комнат. Администраторы могут использовать административный веб-портал SRS v1 для мониторинга состояния устройств, например с помощью мониторинга аудио- и видео устройств. На этом портале администраторы могут удаленно собирать диагностические сведения для мониторинга состояния конференц-зала.
-ms.openlocfilehash: aa59b142ee7147772af3c13a7e9bf4dffbbc520c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: c25671717db51af880bd4b7e2700bb9e795f2790
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60751348"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60843972"
 ---
 # <a name="deploy-srs-v1-administrative-web-portal-in-skype-for-business-server"></a>Развертывание административного веб-портала SRS v1 в Skype для бизнеса Server
 
@@ -172,7 +172,7 @@ ms.locfileid: "60751348"
 
 Раздел Информация о комнатах портала позволяет просматривать и настраивать отдельные номера SRS. Он содержит четыре раздела: Параметры, Details, Logging и Health.
 
-#### <a name="settings"></a>Settings
+#### <a name="settings"></a>Параметры
 
 В разделе Параметры можно установить пароль, тег комнаты и уровни громкости по умолчанию для комнаты. Если настроить эти параметры, изменения реплицированы только после перезапуска консоли SRS. Параметры обновления системы для устройств SRS будут видеться только с помощью выпуска 15.12 и более поздней версии.
 

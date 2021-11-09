@@ -2,7 +2,7 @@
 title: Планирование экстренных служб в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ed843ed7-371f-46cc-969a-f8062c06fc55
 description: Узнайте об расширенных службах 9-1-1 (E9-1-1) в Skype для бизнеса Server Корпоративная голосовая связь, включая приобретение местоположения и маршрутику вызовов.
-ms.openlocfilehash: f3efcea6747c27e041e581b5d0461fd4c925eb84
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 4f75dcce3bc8de2e8e4f806c1c571c2e7cad1afe
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60767617"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60844162"
 ---
 # <a name="plan-for-emergency-services-in-skype-for-business-server"></a>Планирование экстренных служб в Skype для бизнеса Server
 

@@ -2,7 +2,7 @@
 title: Настройка локального развертывания для Skype трансляции собраний
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -17,12 +17,12 @@ ms.collection:
 - IT_Skype4B_Hybrid
 ms.assetid: 2979802e-fc6b-4555-bc43-7cd48f6a1d88
 description: Сводка. Сведения о действиях, которые необходимо выполнить для настройки Skype для локального Skype для бизнеса Server гибридного развертывания.
-ms.openlocfilehash: 9d1ccadfc6a8bed52a7f6d4aa72bd72c2a5e94c8
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: a9dd4e90248548863237445f9a4b9876979321f2
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60771701"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60843982"
 ---
 # <a name="configure-your-on-premises-deployment-for-skype-meeting-broadcast"></a>Настройка локального развертывания для Skype трансляции собраний
  

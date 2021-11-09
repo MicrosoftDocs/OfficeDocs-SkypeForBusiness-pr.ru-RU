@@ -2,7 +2,7 @@
 title: Выбор правил преобразования
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 55776a94-4888-4436-a3b6-0e6f8252e392
 ROBOTS: NOINDEX, NOFOLLOW
 description: Корпоративная голосовая связь, чтобы все строки набора были нормализованы до формата E.164 для выполнения обратного набора номеров (RNL). Ответная часть магистрали (то есть связанный шлюз, УАТС или магистраль SIP) может требовать того, чтобы номера были в местном формате набора номеров. Чтобы преобразовать номера из формата E.164 в местный формат набора номеров, можно задать одно или несколько правил преобразования, которые будут изменять URI запроса перед отправкой его в ответную часть магистрали. Например, можно написать правило преобразования для удаления +44 из начала строки набора и замены этой последовательности номером 0144.
-ms.openlocfilehash: 41c037a80d5d32737b33373a5549a662311438a9
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 164986f47dbbc7bbe14e9612f0091448ba1f9364
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60760112"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60859476"
 ---
 # <a name="select-translation-rules"></a>Выбор правил преобразования
  

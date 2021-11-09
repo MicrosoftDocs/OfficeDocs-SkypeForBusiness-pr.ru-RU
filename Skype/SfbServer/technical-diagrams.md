@@ -2,7 +2,7 @@
 title: Плакаты Skype для бизнеса Server 2015 | Голосовой PSTN
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: hub-page
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7b6da49b-ac72-4ab0-8957-166e330b38fa
 description: Сводка. Просмотрите эти плакаты по мере необходимости при планировании, реализации или управлении Skype для бизнеса Server.
-ms.openlocfilehash: a5ad11aca26d279be415d558be89505f37e0f7ba
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 4042f554c53f18a1cadc25f12bfb7e393b685160
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60754236"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60859756"
 ---
 # <a name="technical-diagrams-for-skype-for-business-server"></a>Технические схемы для Skype для бизнеса Server
 
@@ -43,7 +43,7 @@ ms.locfileid: "60754236"
 
 Дополнительные сведения об использовании Microsoft Teams см. в [Microsoft Teams ИТ-архитектуры](/MicrosoftTeams/teams-architecture-solutions-posters)и плакатов решений телефонии.
 
-|Title|Описание|
+|Title|Description|
 |:---|:---|
 |**Skype для бизнеса Server Рабочие нагрузки протокола** <br/>![Плакат Рабочих нагрузок протокола SfB.](media/0dccf933-eab3-4793-a8a4-4f6b9b0b4fa0.png)<br/>[PDF-версия](https://go.microsoft.com/fwlink/p/?LinkId=550989) (лучше всего для мобильных устройств или планшетных компьютеров) <br/> [Visio](https://go.microsoft.com/fwlink/p/?LinkId=550991) (лучше всего для пользователей с Visio) |Скачайте этот плакат, чтобы лучше понять требования Skype для бизнеса серверов и клиентов с различными уровнями сложности службы.<br/> <br/> Размер: 11 на 17 дюймов (несколько листов, удобно размером для печати на большинстве офисных принтеров) <br/> <br/> Этот плакат был создан с Visio 2015 года. Не следует вносить изменения в определенную среду. |
 |**Skype для бизнеса Методология качества вызовов** <br/> ![Плакат "Методология качества вызовов". ](media/69d33707-8dc4-446a-8d72-0a77be59a64a.png)[PDF-версия](https://go.microsoft.com/fwlink/p/?LinkId=617899) (лучше всего для мобильных устройств или планшетных компьютеров) <br/> [Visio](https://go.microsoft.com/fwlink/p/?LinkId=617900) (лучше всего для пользователей с Visio) |Скачайте этот плакат, чтобы узнать о CQM, методологии качества вызовов для Skype для бизнеса Server 2015 г., которая помогает находить и устранять проблемы, влияющие на качество вызовов и пользовательский опыт для реализации, включающих корпоративные функции голосовой связи. <br/> <br/> Используйте [страницу сведений о](https://go.microsoft.com/fwlink/p/?LinkId=617898) загрузке, чтобы получить печатные карточки и правила, если вы хотите играть в нее в качестве настольных игр. Используйте этот плакат с [карточкой показателей CQM](https://go.microsoft.com/fwlink/p/?LinkId=617904). <br/><br/> Размер: 34 на 44 дюйма <br/> <br/> Этот плакат был создан с Visio 2015 года. Не следует вносить изменения в определенную среду. |

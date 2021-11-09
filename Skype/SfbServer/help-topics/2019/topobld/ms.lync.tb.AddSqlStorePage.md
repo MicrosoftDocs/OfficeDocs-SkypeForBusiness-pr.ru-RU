@@ -2,7 +2,7 @@
 title: Добавление хранилища SQL
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 8ec39dfc-c58d-4fdb-b61e-f71dd691cef8
 ROBOTS: NOINDEX, NOFOLLOW
 description: Чтобы определить новый SQL Store, это означает, что для SQL Server базы данных и экземпляра SQL Server — экземпляр по умолчанию или именуемого экземпляра — укажите следующее.
-ms.openlocfilehash: fee7fcd3a7d18f9bf6f3c8fe91c3c971c9cdcba0
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: d738fb2efa3703686f99ada3ce1ed7a181f7b1a7
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60769337"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60836921"
 ---
 # <a name="add-sql-store"></a>Добавление хранилища SQL
 

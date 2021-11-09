@@ -2,7 +2,7 @@
 title: Установка локального хранилища конфигурации
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: d9c4bcc2-11a7-4d4d-858d-224db217ad32
 ROBOTS: NOINDEX, NOFOLLOW
 description: Чтобы приступить к установке нового сервера Skype для бизнеса Server ролей, сначала необходимо установить локальный SQL Server, в который будет храниться локализованная конфигурация. Локальный магазин конфигурации будет выступать в качестве только для чтения реплики Skype для бизнеса Server центрального магазина управления (CMS).
-ms.openlocfilehash: 993eaa4e07a1b14e1ddeef11c80a15b4869b7719
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 82e82bc87a20f1bd4c86c4aa7c3e8c6bc8858c1b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60738665"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60859576"
 ---
 # <a name="install-local-configuration-store"></a>Установка локального хранилища конфигурации
 

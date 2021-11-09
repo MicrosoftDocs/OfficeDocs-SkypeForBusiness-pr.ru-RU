@@ -2,7 +2,7 @@
 title: Видеодемонстрация экрана в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 ms.date: 2/20/2018
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 50755399-2228-4324-81db-c2bfc824c299
 description: Skype для бизнеса Server планирования и конфигурации для обмена экранами на основе видео (VbSS)
-ms.openlocfilehash: 2921330887b4e52aee5069d2bd1f97992a015ba9
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ff8dc9e21ab4b00741acca5dcc4ac972e5d13e68
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60762337"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60859976"
 ---
 # <a name="video-based-screen-sharing-for-skype-for-business-server"></a>Видеодемонстрация экрана в Skype для бизнеса Server 
  

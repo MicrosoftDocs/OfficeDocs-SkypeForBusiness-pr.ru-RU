@@ -2,7 +2,7 @@
 title: Federated Domains Create New or Edit Existing
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 90979ccd-7439-4a66-b82d-222df1554d66
 ROBOTS: NOINDEX, NOFOLLOW
 description: Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
-ms.openlocfilehash: f9968538c85914b8acd5ef85ec9a7a226741aec7
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 59b3c8e2fd2fec3c2bb19974966c5c387a68e5fc
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60778779"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60834617"
 ---
 # <a name="federated-domains-create-new-or-edit-existing"></a>Федеративные домены: создание новых или редактирование существующих
 

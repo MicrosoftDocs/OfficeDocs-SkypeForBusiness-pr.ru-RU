@@ -2,7 +2,7 @@
 title: Планирование устойчивости Корпоративная голосовая связь в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b3671dcb-6a8b-4a06-84da-0c8837b35099
 description: Узнайте, как поддерживать отказоустойчивость голосовой Skype для бизнеса Server Корпоративная голосовая связь, как на центральных сайтах, так и на сайтах филиалов. Параметры веб-сайтов филиала включают развертывание устройств для выживших филиалов или серверов филиалов.
-ms.openlocfilehash: ec0d542318023fdc638926e78ff6ffdeceefba5f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: a2dc18817f28595cdfdf65be35df85d0ad93239b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60778009"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60851883"
 ---
 # <a name="plan-for-enterprise-voice-resiliency-in-skype-for-business-server"></a>Планирование устойчивости Корпоративная голосовая связь в Skype для бизнеса Server
 
@@ -384,7 +384,7 @@ Skype для бизнеса клиенты могут обнаружить Skype
 
 | **Название маршрута**             | **Шаблон номера** | **Использование телефонов**         | **Магистраль**                                 | **Шлюз**                                     |
 |:---------------------------|:-------------------|:------------------------|:------------------------------------------|:------------------------------------------------|
-| Локальный маршрут в Редмонде  <br/> | ^\+1(425           | 206                     | 253)(\d {7} )$  <br/>                       | Локальный  <br/> RedmondLocal  <br/>                |
+| Локальный маршрут в Редмонде  <br/> | ^\+1(425           | 30W                     | 253)(\d {7} )$  <br/>                       | Локальный  <br/> RedmondLocal  <br/>                |
 | Локальный маршрут в Далласе  <br/>  | ^\+1(972           | 214                     | 469)(\d {7} )$  <br/>                       | Локальный  <br/>                                    |
 | Универсальный маршрут  <br/>     | ^\+? \*(\d) $  <br/> | GlobalPSTNHopoff  <br/> | Trunk1  <br/> Trunk2  <br/> Trunk3  <br/> | Red-GW1  <br/> Red-GW2  <br/> Dallas-GW1  <br/> |
 | Маршрут для пользователей в Далласе  <br/>  | ^\+? \*(\d) $  <br/> | DallasUsers  <br/>      | Trunk3  <br/>                             | Dallas-GW1  <br/>                               |

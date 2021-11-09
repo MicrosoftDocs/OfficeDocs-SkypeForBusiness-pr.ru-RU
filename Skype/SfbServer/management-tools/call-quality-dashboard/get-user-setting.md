@@ -2,7 +2,7 @@
 title: Получение параметра пользователя
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 16611a55-79fb-487a-a936-20caca829f87
 description: Сводка. Сведения о операции Get User Setting, которая является частью службы пользовательских Параметры. Служба Параметры является частью API репозитория для панели мониторинга качества вызовов. Панель мониторинга качества вызовов — это средство для Skype для бизнеса Server.
-ms.openlocfilehash: 2be81d09c45a93c967af2556ba7ed8fbca9ce0f9
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 8091172cd28bc737ff9a2899672ca5643c12de7c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60774629"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60851903"
 ---
 # <a name="get-user-setting"></a>Получение параметра пользователя
  

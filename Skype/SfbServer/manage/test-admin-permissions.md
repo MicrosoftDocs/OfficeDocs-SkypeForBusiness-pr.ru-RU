@@ -2,7 +2,7 @@
 title: Тестирование разрешений администратора в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Проверка разрешений администратора в Skype для бизнеса Server
-ms.openlocfilehash: 80971dab292252775f9a58cbf822d746326c8abf
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 2c4525d83f3a097abfa168b706885a939e3b0663
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60760697"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60859986"
 ---
 # <a name="testing-admin-permissions-in-skype-for-business-server"></a>Тестирование разрешений администратора в Skype для бизнеса Server
 
@@ -27,7 +27,7 @@ ms.locfileid: "60760697"
 |Необходимые разрешения|При локальном запуске с Skype для бизнеса Server службы управления пользователи должны быть членами группы безопасности RTCUniversalServerAdmins.<br><br/>При запуске с помощью удаленного экземпляра Windows PowerShell пользователям должна быть назначена роль RBAC, которая имеет разрешение на Test-CsOUPermission cmdlet. Чтобы увидеть список всех ролей RBAC, которые могут использовать этот командлет, запустите следующую команду из Windows PowerShell:<br/><br/>Get-CsAdminRole Where-Object \| {$_. Командлеты -match "Test-CsOUPermission"}|
 |||
 
-## <a name="description"></a>Описание
+## <a name="description"></a>Description
 
 При установке Skype для бизнеса Server одна из задач, выполняемых программой Установки, предоставляет группе RTCUniversalUserAdmins разрешения Active Directory, необходимые для управления пользователями, компьютерами, контактами, контактами приложений и пользователями InetOrg. Если у вас отключено наследование разрешений в Active Directory, установка не сможет назначить эти разрешения. В результате члены группы RTCUniversalUserAdmins не смогут управлять Skype для бизнеса Server сущностями. Эти привилегии управления будут доступны только администраторам доменов. 
 

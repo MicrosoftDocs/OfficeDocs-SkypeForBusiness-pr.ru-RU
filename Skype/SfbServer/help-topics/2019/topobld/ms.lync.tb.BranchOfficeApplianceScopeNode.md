@@ -2,7 +2,7 @@
 title: Узел области применения устройства для обеспечения связи в филиалах
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 8632ddaa-9572-4129-9db4-de0f13438d43
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Этот узел отображает полностью квалифицированное доменное имя (FQDN), связанные пулы и серверы, а также сведения о устойчивости этого устройства для ветвей. Можно выполнить следующие действия:'
-ms.openlocfilehash: e90799cb106030dc26a3331e51c8d7163b84a68f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6a48424e57f43aa6d942aa53c5e1bb94579eacb9
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60775399"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60834447"
 ---
 # <a name="branch-office-appliance-scope-node"></a>Узел области устройства для обеспечения связи в филиалах
  

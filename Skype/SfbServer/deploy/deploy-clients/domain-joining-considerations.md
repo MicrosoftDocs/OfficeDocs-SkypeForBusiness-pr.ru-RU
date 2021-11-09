@@ -1,7 +1,7 @@
 ---
 title: Skype Соображения присоединения домена Room System к домену
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 3034fdcb-7c89-42c4-9c5e-13400e82d88f
 description: Ознакомьтесь с этой темой, чтобы узнать, как присоединиться к компьютеру Skype системы номеров к вашему домену.
-ms.openlocfilehash: a3a5e4b8fb1f4af7c67e0cfa91ff9237be438347
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: d3c94a4983bddb051bda29badf5c569eeef635a3
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60751378"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60844872"
 ---
 # <a name="skype-room-system-domain-joining-considerations"></a>Skype Соображения присоединения домена Room System к домену
  

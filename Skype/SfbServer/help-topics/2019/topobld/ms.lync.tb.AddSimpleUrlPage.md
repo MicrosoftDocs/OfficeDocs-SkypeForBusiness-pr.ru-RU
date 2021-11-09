@@ -2,7 +2,7 @@
 title: Добавление простого URL-адреса
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 202b9fa2-41ab-4c86-a283-ebc8dece7ddf
 ROBOTS: NOINDEX, NOFOLLOW
 description: Чтобы добавить дополнительные простые URL-адреса в определение развертывания, укажите новый простой URL-адрес.
-ms.openlocfilehash: 6248a816697e22a348c296904966eda0d9a5418c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 89b11fd755a6076c5ce8188805fa67bfba5a5b24
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60778599"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60837001"
 ---
 # <a name="add-simple-url"></a>Добавление простого URL-адреса
  

@@ -2,7 +2,7 @@
 title: Развертывание обхода мультимедиа в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 1bd35f90-8587-48a1-b0c2-095a4053fc77
 description: Развертывание обхода мультимедиа в Skype для бизнеса Server Корпоративная голосовая связь. Включает необходимые условия и контрольный список процесса развертывания.
-ms.openlocfilehash: f5bed4cf31158ea170b78110f3b6f5561aedb21d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: c5699d1116faa6bc3b8ae0178ec617bcf06c1ef4
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60769667"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60834697"
 ---
 # <a name="deploy-media-bypass-in-skype-for-business-server"></a>Развертывание обхода мультимедиа в Skype для бизнеса Server
  

@@ -2,7 +2,7 @@
 title: Узел области мониторинга
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 05867db5-ad62-41e3-b1ac-f21f43d1e90b
 description: 'В Lync Server 2013 Topology Builder можно выполнять задачи, связанные с отдельным сервером, на который выполняется мониторинг, щелкнув правой кнопкой мыши на сервере Мониторинга в дереве консоли, нажав действие на панели инструментов или щелкнув задачу в области Действия, а затем щелкнув один из следующих вариантов для сервера, запущенного в мониторинге:'
-ms.openlocfilehash: 60bc8ce6abdd8c0ede5e40cce6438223d1e88e16
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 054636ad6b1d5eab604085d918afc0bfca02a5bf
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60770417"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60860106"
 ---
 # <a name="monitoring-scope-node"></a>Узел области мониторинга
  

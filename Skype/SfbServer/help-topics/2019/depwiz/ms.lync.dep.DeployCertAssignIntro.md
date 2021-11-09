@@ -2,7 +2,7 @@
 title: Назначение сертификата (введение)
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 26d6b07e-d2c7-4ff7-aca4-4bbb29f13f8d
 ROBOTS: NOINDEX, NOFOLLOW
 description: Чтобы приступить к назначению сертификата для использования в Skype для бизнеса Server, нажмите кнопку Далее.
-ms.openlocfilehash: 24eb6b3fbe3110bdbba69f7e3e373d0047ceb643
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b6baec791798a1060f76d9c9728ce70954c5c128
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60764727"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60844792"
 ---
 # <a name="certificate-assignment-intro"></a>Назначение сертификата (введение)
  

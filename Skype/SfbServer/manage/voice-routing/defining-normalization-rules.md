@@ -2,7 +2,7 @@
 title: Определение правил нормализации в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Skype для бизнеса Server правила нормализации используют платформа .NET Framework регулярные выражения для перевода набраных номеров телефонов в формат E.164; Другими словами, правила нормализации принимают номер телефона, набираемого пользователем, и преобразовывать его в формат, используемый Skype для бизнеса Server. Каждой абонентской группе должно быть назначено одно или несколько правил нормализации.
-ms.openlocfilehash: e2cf2deaefa18323dcd69e9f09703d6994f101c4
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 0319a27dd7a6f0d42fffb4e65fcf71fe152cec18
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60778289"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60859916"
 ---
 # <a name="defining-normalization-rules-in-skype-for-business-server"></a>Определение правил нормализации в Skype для бизнеса Server
 

@@ -2,7 +2,7 @@
 title: Включить пользователей для E9-1-1 в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3cc64f5b-492e-4c47-9713-3c376f2aad02
 description: Решения, необходимые для политики расположения для развертывания E9-1-1 в Skype для бизнеса Server Корпоративная голосовая связь, в том числе о том, какие пользователи могут включить и как поддерживать пользователей роуминга.
-ms.openlocfilehash: 61f545018def3268c92729bb52edbbf6e2a5ed29
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 631c74f8ee4d91f1a70f1d2edbfa129602913a6f
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60765287"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60844142"
 ---
 # <a name="enable-users-for-e9-1-1-in-skype-for-business-server"></a>Включить пользователей для E9-1-1 в Skype для бизнеса Server
  

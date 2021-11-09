@@ -2,7 +2,7 @@
 title: Общие параметры сервера видеовзаимодействия
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 5c508eab-0b08-4fb2-b2b2-eca2eaf2053a
 description: Действия, необходимые для определения нового шлюза VIS или видео в Topology Builder, описаны в интернете в "Создание пула VIS в Skype для бизнеса Server 2015 г.
-ms.openlocfilehash: f9c7847cb9758146d9597acd2047e6c2ec5a56dc
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b63620b4c979f54a3ab0abd966a4b7089509f051
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60760757"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60851132"
 ---
 # <a name="video-interop-server-general-settings"></a>Общие параметры сервера видеовзаимодействия
  
