@@ -2,7 +2,7 @@
 title: Проверка топологии в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 7/14/2018
 audience: ITPro
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a4f4bad1-fc59-47ce-a3ea-b1b893769db6
 description: 'Сводка. Узнайте, как проверить, Skype для бизнеса Server серверы топологии и Active Directory работают как ожидалось. Скачайте бесплатную пробную Skype для бизнеса Server из Центра оценки Майкрософт по ссылке: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server .'
-ms.openlocfilehash: ba098dd808fec192cc944ed3796d5e11b0d8af31
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 32d9e4302109ef9a7d5cb34946722eb8a8e9f38c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60753242"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864266"
 ---
 # <a name="verify-the-topology-in-skype-for-business-server"></a>Проверка топологии в Skype для бизнеса Server
  

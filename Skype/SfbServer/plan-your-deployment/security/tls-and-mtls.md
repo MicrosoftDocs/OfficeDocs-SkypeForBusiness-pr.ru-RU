@@ -2,7 +2,7 @@
 title: TLS и MTLS для Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: b32a5b85-fc82-42dc-a9b2-96400f8cd2b8
 description: Протоколы безопасности транспортного слоя (TLS) и Mutual Transport Layer Security (MTLS) обеспечивают зашифрованную связь и проверку подлинности конечных точек в Интернете. Skype для бизнеса Server эти два протокола используются для создания сети доверенных серверов и обеспечения шифрования всех сообщений по этой сети. Все SIP-связи между серверами происходят через MTLS. SIP-сообщения от клиента к серверу происходят через TLS.
-ms.openlocfilehash: 05dbde5907831867e6dfba7cf6f26b83e3e1c60b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 7156df69c8c01e97a1feabfb92cd0c2330083899
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60744055"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864626"
 ---
 # <a name="tls-and-mtls-for-skype-for-business-server"></a>TLS и MTLS для Skype для бизнеса Server
  

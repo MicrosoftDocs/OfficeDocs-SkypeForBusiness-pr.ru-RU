@@ -1,6 +1,6 @@
 ---
 title: Управление приложением Lists для организации
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 ms.reviewer: anach,v-jasuk
 manager: serdars
@@ -22,12 +22,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: fdcb2b5bee239bd5dada14689080c3e1cca248a9
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 72235497f2b020aaed1228ecadff781ed76b7341
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60746445"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60829553"
 ---
 # <a name="manage-the-lists-app-for-your-organization-in-microsoft-teams"></a>Управление приложением Lists для организации в Microsoft Teams
 
@@ -93,7 +93,7 @@ ms.locfileid: "60746445"
 
 По умолчанию приложение Lists включено для всех пользователей Teams в организации. Вы можете отключить или включить приложение на уровне организации на странице [Управление приложениями](manage-apps.md) в Центре администрирования Microsoft Teams.
 
-1. В левой части панели администрирования Microsoft Teams перейдите к разделу **Приложения Teams** > **Управление приложениями**.
+1. В левой части панели администрирования Microsoft Teams перейдите к разделу **Приложения Teams** > **Политика разрешений**.
 2. Выполните одно из следующих действий.
 
     - Чтобы отключить Lists для организации, найдите приложение Lists, выделите его и нажмите **Блокировать**.

@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.collection: ''
 description: Обзор использования автоспутника Cloud с Skype для бизнеса Server 2019 г.
-ms.openlocfilehash: ee79c52b8aaf4518511a51cea95b16d32008694c
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 832ba7fc5e93a76cc3e05d09baecd880241f6c46
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60011513"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60857086"
 ---
 # <a name="plan-cloud-auto-attendants"></a>Планирование автосекретарей в облаке
 
@@ -37,7 +37,7 @@ ms.locfileid: "60011513"
 ![Схема для автоспутников.](../../SfBServer2019/media/AA-plan-concept.png)
 
 1. Via Skype для бизнеса Server 2019
-2. С помощью [пограничного контроллера сеанса](/MicrosoftTeams/direct-routing-border-controllers) [и прямого маршрутинга](/microsoftteams/direct-routing-plan-media-bypass).
+2. С помощью [пограничного контроллера сеанса](/microsoftteams/direct-routing-border-controllers) [и прямого маршрутинга](/microsoftteams/direct-routing-plan-media-bypass).
 3. С помощью номера, домашнего онлайн в Microsoft 365 или Office 365.
 
 См. также:
@@ -45,7 +45,7 @@ ms.locfileid: "60011513"
 - [Настройка облачного автосекретаря](/microsoftteams/create-a-phone-system-auto-attendant)
 - [Автоматический ответ и маршрутизация для входящих вызовов](/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/automatically-answer-and-route-calls)
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements
 
 Следующие требования предполагают, что вы уже Skype для бизнеса Server 2019 году в поддерживаемой топологии.  Ваши требования зависят от сценария:
 

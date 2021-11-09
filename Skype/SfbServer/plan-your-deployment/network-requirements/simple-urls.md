@@ -2,7 +2,7 @@
 title: Требования DNS для простых URL-адресов в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 3a3c9b22-892f-45a7-b05c-539d358a1a86
 description: Сводка. Просмотрите простые соображения URL-адреса в этом разделе перед реализацией записей DNS для Skype для бизнеса Server.
-ms.openlocfilehash: d638ff2d3d1b89deaad90c054698692e70ffaae7
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 1dd3b4b06b704e7d840dd6f430a9ba9782913a3b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777919"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864676"
 ---
 # <a name="dns-requirements-for-simple-urls-in-skype-for-business-server"></a>Требования DNS для простых URL-адресов в Skype для бизнеса Server
 
@@ -123,7 +123,7 @@ Meet-ext.geolb.contoso.com
 
 Можно задать ту же конфигурацию для простого URL-адреса Dial-In. Для этого создайте дополнительные записи, как в предыдущем примере, заменив их в  `dialin` `meet` записях DNS. Для простого URL-адреса Admin используйте один из трех вариантов, приведенных выше в этом разделе.
 
-После настройки этой конфигурации необходимо использовать приложение мониторинга для настройки мониторинга HTTP на предмет сбоев. Для внешнего доступа убедитесь, что HTTPS GET lyncdiscover.<sipdomain> запросы на внешний веб-FQDN или IP-адрес балансира нагрузки для двух пулов являются успешными. Например, следующие запросы не должны содержать какие-либо заголовки **ACCEPT** и должны возвращать **200 OK**.
+После настройки этой конфигурации необходимо использовать приложение мониторинга для настройки мониторинга HTTP на предмет сбоев. Для внешнего доступа убедитесь, что HTTPS GET lyncdiscover.\<sipdomain> запросы на внешний веб-FQDN или IP-адрес балансира нагрузки для двух пулов являются успешными. Например, следующие запросы не должны содержать какие-либо заголовки **ACCEPT** и должны возвращать **200 OK**.
 
 ```console
 HTTPS GET Pool1ExternalWebFQDN.contoso.com/autodiscover/autodiscoverservice.svc/root

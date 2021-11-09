@@ -1,6 +1,6 @@
 ---
 title: Управление настройками моста в Teams
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: ''
@@ -18,18 +18,18 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Узнайте, как управлять настройками моста в Microsoft Teams
-ms.openlocfilehash: 28db50677b9ef09fb7ac7da7f080da034d56de17
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 5eac35e18a3b5958cd2c333f17cb5d539206e007
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60737455"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60829573"
 ---
 # <a name="manage-bridge-settings-in-teams"></a>Управление настройками моста в Teams
 
 До и во время Microsoft Teams или телефонного звонка организатор собрания может выбрать параметры моста. Дополнительные сведения см. в следующих статьях:
 
 - [Сообщения электронной почты, отправленные пользователям при изменении их параметров в Teams](emails-sent-to-users-when-their-settings-change-in-teams.md)
-- [Позволить пользователям записывать свои имена, когда они присоединяются к собранию](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
-- [Отключение входа и выхода из собраний Teams собрания](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)
+- [Позволить пользователям записывать свои имена при подступе к собранию](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
+- [Отключение входов и выход из собраний Teams собрания](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)
 - [Маскировка номеров телефонов](ptsn-mask-phone-numbers.md)

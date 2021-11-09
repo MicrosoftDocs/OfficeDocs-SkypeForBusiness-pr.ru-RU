@@ -2,7 +2,7 @@
 title: Добавление компьютера Директора
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 7d51493a-1b7a-43ad-b562-49e45f899796
 description: Укажите полное доменное имя каждого компьютера, который следует добавить в качестве директора в этот пул. После добавления компьютера в список в любое время до публикации топологии можно обновить полное доменное имя компьютера или удалить этот компьютер из пула. После публикации топологии изменение полного доменного имени осуществляется путем удаления сервера в построителе топологий с последующим добавлением нового сервера в пул с новым полным доменным именем.
-ms.openlocfilehash: c2f9c01eaa6a88b324897e878a9908089de810fb
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6d751c3a00e7aa0d9f324d327b01677b8f1d9286
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60762817"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60827672"
 ---
 # <a name="add-director-machine"></a>Добавление компьютера директора
  

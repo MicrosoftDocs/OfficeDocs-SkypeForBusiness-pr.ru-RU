@@ -2,7 +2,7 @@
 title: Выбор групп
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: d780f676-c2c5-4f57-90dd-df5fcd204d76
 description: Очереди группы ответов удерживают вызовы в группах ответов, пока агент не ответит на вызов. Очереди имеют назначенные группы агентов. При создании или изменении очереди вы используете диалоговое окно Выбор групп для выбора одной или нескольких групп агентов, которые требуется назначить очереди.
-ms.openlocfilehash: d3c81cca2c396b158521866c27d06300fc2f4001
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 192963d7d8f2d72c330793a4cf63627d8f0b8dc6
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60742265"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60843002"
 ---
 # <a name="select-groups"></a>Выбор групп
 

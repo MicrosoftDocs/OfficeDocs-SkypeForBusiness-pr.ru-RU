@@ -2,7 +2,7 @@
 title: Серверы видеовзаимодействия — создание области для узла
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 963e6693-26bc-439f-b76d-04389e6ebbf9
 ROBOTS: NOINDEX, NOFOLLOW
 description: Действия, необходимые для определения нового шлюза VIS или видео в Topology Builder, описаны в интернете в "Создание пула VIS в Skype для бизнеса Server.
-ms.openlocfilehash: 242358555ef9d0f3d92001f61babd1fbccb6acb3
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 5f045cfada3c5362b910f1b9036c52b8d977da6b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60744915"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60843162"
 ---
 # <a name="video-interop-servers---scope-the-node"></a>Серверы видеовзаимодействия — создание области для узла
  

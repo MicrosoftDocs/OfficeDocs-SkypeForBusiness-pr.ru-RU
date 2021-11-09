@@ -2,7 +2,7 @@
 title: Планирование на стойкий сервер чата в Skype для бизнеса Server 2015 г.
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 8/17/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 9e652487-a123-40c0-ae61-47fb8ecc4a20
 description: Сводка. Ознакомьтесь с этой темой, чтобы узнать, как планировать постоянный сервер чата в Skype для бизнеса Server 2015 г.
-ms.openlocfilehash: a697337570dfbf66e752234435d1335661638c54
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 7adeb623f581d7ce6f3bfad5dadafd143299fad5
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60763467"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60842721"
 ---
 # <a name="plan-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Планирование на стойкий сервер чата в Skype для бизнеса Server 2015 г.
  

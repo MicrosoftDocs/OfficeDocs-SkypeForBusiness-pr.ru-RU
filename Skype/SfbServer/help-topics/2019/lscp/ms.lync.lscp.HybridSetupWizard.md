@@ -2,7 +2,7 @@
 title: Мастер гибридного управления
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: c8600c4e-dc54-4af2-a72e-c1b997d83443
 ROBOTS: NOINDEX, NOFOLLOW
 description: Мастер гибридной управляемости можно использовать для выполнения некоторых задач конфигурации, необходимых для настройки гибридного развертывания Skype для бизнеса Online. Дополнительные сведения о том, как настроить развертывание на гибрид, см. в этой ссылке Настройка среды с помощью мастера гибридной управляемости.
-ms.openlocfilehash: 51b1b1cdd72e3ebe963529bcd10c739010df9258
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: e215e04287f992da7f96b75614507b5d1c0fef4f
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60751088"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60829383"
 ---
 # <a name="hybrid-manageability-wizard"></a>Мастер гибридного управления
 

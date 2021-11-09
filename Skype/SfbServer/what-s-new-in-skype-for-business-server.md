@@ -2,7 +2,7 @@
 title: Новые возможности Skype для бизнеса Server 2015 г.
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 12/20/2017
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: e62c9229-b738-45ef-b637-0b58ca8225a4
 description: Сводка. Ознакомьтесь с этой темой, чтобы узнать о новых Skype для бизнеса Server 2015 г. Подробные сведения о новом клиенте см. в Skype для бизнеса Lync.
-ms.openlocfilehash: aac68c369983b85ecb95b5000dc41d95e2080d6d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: d0ef9ff1790eba546dd54a9fa78c9f63f2b532f4
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60760567"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60829753"
 ---
 # <a name="whats-new-in-skype-for-business-server-2015"></a>Новые возможности Skype для бизнеса Server 2015 г.
 

@@ -2,7 +2,7 @@
 title: Узел области применения общих компонентов
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: dc8238a0-24aa-47a0-b871-4465ada1761e
 ROBOTS: NOINDEX, NOFOLLOW
 description: Чтобы создать новые общие компоненты или получить доступ к параметрам уровня топологии, щелкните правой кнопкой мыши общие компоненты в дереве иерархии Topology Builder.
-ms.openlocfilehash: b81a00e59af30c278566fec02b67c2cc1bceb13d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: a586191e15ce92c12ca1f6e8d6e1127ca4a0a0b4
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60739725"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60829243"
 ---
 # <a name="shared-components-scope-node"></a>Узел области общих компонентов
  

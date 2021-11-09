@@ -1,6 +1,6 @@
 ---
 title: Доступность в островах Теркс и Кайкос
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: fafan
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Ниже находятся Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для островов Теркс и Кайкос.
-ms.openlocfilehash: 965d77110919d382033fc1c7a32b9545ef1666d3
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 1f79533266e91255332c475560883faefb008364
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741705"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60827352"
 ---
 # <a name="availability-in-turks-and-caicos-islands"></a>Доступность в островах Теркс и Кайкос
 
@@ -37,13 +37,13 @@ ms.locfileid: "60741705"
 
 Ниже находятся Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для островов Теркс и Кайкос.
   
-## <a name="audio-conferencing"></a>Аудиоконференции
+## <a name="audio-conferencing"></a>Аудиоконференция
 
 |**Функция**|**Сведения**|
 |:-----|:-----|
 |Доступно ли приобретение аудиоконференций?  <br/> |Да. Только оплата за минуту. <br/> |
-|Номера телефонов автоматически назначаются для аудио конференций?  <br/> | Нет |
-|Возможность получить обратный звонок с функцией "Звонок на мой номер"  <br/> | Требуются кредиты связи <br/> |
+|Назначаются ли номера телефонов для аудиоконференций автоматически?  <br/> | Нет |
+|Возможность дозвона с помощью функции «Позвони мне»  <br/> | Требуются кредиты связи <br/> |
    
 ## <a name="phone-system"></a>Телефонная система
 

@@ -2,7 +2,7 @@
 title: Расширитель настроек CMS
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 4b882923-ed6f-44f3-ad9c-aabad5a3bc00
 description: Центральный сервер управления можно изменить с одного заданного пула переднего плана на другой заданный пул переднего плана. Чтобы изменить расположение центрального сервера управления, выберите пул переднего плана в раскрывающемся списке Сервер переднего плана для установки центрального хранилища управления. В качестве сервера переднего плана может выступать пул переднего плана Enterprise Edition или сервер переднего плана Standard Edition.
-ms.openlocfilehash: 3e36f0e70123c9e3065951d917d2428431774553
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 9f8866420bd4309a908c77150378529605cd0016
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60743765"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60830203"
 ---
 # <a name="cms-settings-expander"></a>Расширитель параметров CMS
  

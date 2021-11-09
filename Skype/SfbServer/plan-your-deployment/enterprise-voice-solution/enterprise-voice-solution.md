@@ -2,7 +2,7 @@
 title: Планирование решения Корпоративная голосовая связь в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f9c6fd1d-c379-47d1-8447-19274ace9951
 description: Сводка. Сведения о вариантах планирования единого решения голосовой связи и связи в Skype для бизнеса Server.
-ms.openlocfilehash: 2cd47f1b3655166ced3bec5591a7b8197639544a
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 71fc511d6c435ab6b1cd5f553d668acd2fb606a7
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60749958"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60829863"
 ---
 # <a name="plan-your-enterprise-voice-solution-in-skype-for-business-server"></a>Планирование решения Корпоративная голосовая связь в Skype для бизнеса Server
  

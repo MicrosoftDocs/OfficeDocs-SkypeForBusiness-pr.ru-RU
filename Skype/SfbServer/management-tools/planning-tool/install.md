@@ -2,7 +2,7 @@
 title: Установка средства планирования в Skype для бизнеса Server 2015 г.
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 4/5/2016
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: b95b3301-fa1e-4b96-9af4-05b43d39db8d
 description: Прежде чем приступить к разработке и планированию инфраструктуры Skype для бизнеса Server 2015 г., используя средство планирования Skype для бизнеса Server 2015 г., необходимо сначала установить средство планирования. Средство планирования не должно быть развернуто на рабочей станции или сервере, который является частью домена или инфраструктуры, где планируется установить Skype для бизнеса Server 2015 г. Файл Readme, сопровождающий средство планирования, подробно сообщает важные сведения об установке и использовании этого средства. Некоторые сведения в файле Readme дублируются здесь для ясности.
-ms.openlocfilehash: b476d5d39515fe14d3f13a3ee9dc0c5b5298fdc1
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 5d9dc6204647daf03adfab6fcf3cf091d7ba5415
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60756888"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60850892"
 ---
 # <a name="install-the-planning-tool-in-skype-for-business-server-2015"></a>Установка средства планирования в Skype для бизнеса Server 2015 г.
 

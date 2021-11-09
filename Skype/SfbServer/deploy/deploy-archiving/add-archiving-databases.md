@@ -2,7 +2,7 @@
 title: Добавьте базы данных архивации в существующее развертывание в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 f1.keywords:
@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 3b67df85-181d-45ca-ba48-bb74a439f242
 description: Сводка. Ознакомьтесь с этой темой, чтобы узнать, как добавить базы данных архивации в Skype для бизнеса Server развертывания.
-ms.openlocfilehash: d7174919ef34cd77bf7da316d23808ea1cfaff7f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: d9434ffaf2141ea176b99825571ad2a17d0d5601
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60778939"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864476"
 ---
 # <a name="add-archiving-databases-to-an-existing-deployment-in-skype-for-business-server"></a>Добавьте базы данных архивации в существующее развертывание в Skype для бизнеса Server
  
@@ -66,7 +66,7 @@ ms.locfileid: "60778939"
     
    - Чтобы указать новый SQL Server для зеркального хранения, щелкните New **,** а затем в диалоговом окне Define New **SQL Server Store** сделайте одно из следующих:
     
-     А. В **SQL Server FQDN** укажите FQDN SQL Server, на котором необходимо создать новый SQL Server магазин.
+     а. В **SQL Server FQDN** укажите FQDN SQL Server, на котором необходимо создать новый SQL Server магазин.
     
      Б. Либо нажмите **Экземпляр по умолчанию** либо, чтобы указать другой экземпляр нажмите нажмите **Именованный экземпляр**, и затем укажите нужный.
     
@@ -74,7 +74,7 @@ ms.locfileid: "60778939"
     
    - Если вы включаете SQL Server зеркальное отражение и хотите включить SQL Server зеркального свидетеля (третий, отдельный экземпляр SQL Server, который может обнаружить состояние основных экземпляров SQL Server и зеркальных экземпляров), выберите свидетель зеркального использования **SQL Server,** чтобы включить автоматическую проверку сбой, а затем сделать один из th e:
     
-     А. В **SQL Server FQDN** укажите FQDN сервера, на котором необходимо создать новый SQL Server зеркального свидетеля.
+     а. В **SQL Server FQDN** укажите FQDN сервера, на котором необходимо создать новый SQL Server зеркального свидетеля.
     
      Б. Либо нажмите **Экземпляр по умолчанию**, либо **Именованный экземпляр**, чтобы указать нужный экземпляр.
     

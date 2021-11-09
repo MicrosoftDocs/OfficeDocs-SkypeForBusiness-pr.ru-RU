@@ -2,7 +2,7 @@
 title: Подготовка текущего домена
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: bfcb37ca-34eb-4d0d-9694-6edd2e7fe0f3
 description: 'Чтобы подготовить домен к серверам, работающим Skype для бизнеса Server 2015 или Skype для бизнеса Server пользователям, необходимо выполнить шаг 5: Подготовка текущего домена, как описано в разделе Использование установки для запуска подготовки домена. Чтобы выполнить этот шаг, необходимо войти в группу администраторов домена в готовяемом домене или в качестве члена группы администраторов Enterprise леса, к которой принадлежит домен. Чтобы подготовить домен:'
-ms.openlocfilehash: c5d4a7509e8b0193b04591bfc010c7f25aa99ac2
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 99c74ad910228eb73666fd6640b288c5ba84523a
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60744855"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60835587"
 ---
 # <a name="prepare-current-domain"></a>Подготовка текущего домена
 

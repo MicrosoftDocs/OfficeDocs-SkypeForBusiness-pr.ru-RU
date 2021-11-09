@@ -2,7 +2,7 @@
 title: Запрос сертификата (запрос подписи сертификата)
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: f0541273-92b4-41d6-aa24-34ee5c549db8
 ROBOTS: NOINDEX, NOFOLLOW
 description: Чтобы создать автономный запрос, необходимо сначала создать запрос подписи сертификата. В поле Имя файла введите путь и имя файла для запроса подписи сертификата. Можно нажать кнопку Обзор и выбрать место для создания запроса подписи сертификата. Нажмите кнопку Далее, чтобы продолжить.
-ms.openlocfilehash: 628e6312eebde90dd81930a30f24eb4407041d4c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 62b1286868d86834f1430837ab3bbdf57b7f7638
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60751138"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60850342"
 ---
 # <a name="certificate-request-certificate-signing-request"></a>Запрос сертификата (запрос подписи сертификата)
  

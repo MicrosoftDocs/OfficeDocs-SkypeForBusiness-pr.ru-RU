@@ -2,7 +2,7 @@
 title: Установите пин-код телефонных контактов пользователя в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 4252b5a5-4267-4513-b18e-0253a8d66f72
 description: Сводка. Установите пин-код телефонных телефонных контактов пользователя для Skype для бизнеса Server.
-ms.openlocfilehash: e5735c58f6e46d16f55146521ad876cd8990151f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 45ee99a0e9ab1b10c429fae470e528ffdd2c3326
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60772105"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60856686"
 ---
 # <a name="set-a-users-dial-in-conferencing-pin-in-skype-for-business-server"></a>Установите пин-код телефонных контактов пользователя в Skype для бизнеса Server
  
@@ -45,7 +45,7 @@ ms.locfileid: "60772105"
     
 5. (Необязательно) Укажите дополнительные критерии поиска, чтобы сузить результаты:
     
-   А. Нажмите кнопку **Добавить фильтр**.
+   а. Нажмите кнопку **Добавить фильтр**.
     
    Б. Введите свойство пользователя, набрав его или нажав кнопку стрелки в раскрывающемся списке, чтобы выбрать свойство.
     

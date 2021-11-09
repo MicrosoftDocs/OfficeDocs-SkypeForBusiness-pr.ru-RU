@@ -2,7 +2,7 @@
 title: (Необязательный) Определение часов работы группы ответов в Skype для бизнеса
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d62551b2-1847-4e1b-abe8-683b72aa94d5
 description: Создание или изменение рабочих часов группы реагирования в Skype для бизнеса Server Корпоративная голосовая связь.
-ms.openlocfilehash: 0afdd3c5f21b947d2c20ba79e9ae8296c582060e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 0a7e22d02a4540973f2f3e3f2ea39fabe848f17c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60753580"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60850412"
 ---
 # <a name="optional-define-response-group-business-hours-in-skype-for-business"></a>(Необязательный) Определение часов работы группы ответов в Skype для бизнеса 
  

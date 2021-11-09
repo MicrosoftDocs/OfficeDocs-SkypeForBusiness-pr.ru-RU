@@ -1,7 +1,7 @@
 ---
 title: Skype Развертывание нескольких лесных локальной системы Room System
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 6793fca0-3970-44e4-8703-1925428c1967
 description: Ознакомьтесь с этой темой, чтобы узнать, как Skype систему номеров в локальной среде с несколькими лесами.
-ms.openlocfilehash: 49885d1e64c40f161eb0fc07ec79187b5ea3bdb1
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 34b52f32ec3f1c611d8560c8f053e7fbe16b53bf
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60761587"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60857052"
 ---
 # <a name="skype-room-system-multiple-forest-on-premises-deployments"></a>Skype Развертывание нескольких лесных локальной системы Room System
  

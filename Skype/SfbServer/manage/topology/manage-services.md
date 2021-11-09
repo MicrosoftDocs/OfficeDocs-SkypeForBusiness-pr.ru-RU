@@ -2,7 +2,7 @@
 title: Управление службами в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Узнайте, как просматривать состояние служб, запускать и останавливать службы и предотвращать сеансы для служб.
-ms.openlocfilehash: c48a6a07605096dfdccc96539d01e5607e171b9b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: cc5218f5347eb2124f42b8881bce730c74889bda
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60756986"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864736"
 ---
 # <a name="manage-services-in-skype-for-business-server"></a>Управление службами в Skype для бизнеса Server
 

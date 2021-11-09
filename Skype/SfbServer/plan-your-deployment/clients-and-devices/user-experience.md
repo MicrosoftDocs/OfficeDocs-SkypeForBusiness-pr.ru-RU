@@ -1,7 +1,7 @@
 ---
 title: Планирование клиентского Skype для бизнеса 2015 г. для пользователей
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 12/20/2018
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0df4fd9e-370b-4b9d-a595-f1199fbc9f81
 description: Сводка. Сведения о новых Skype для бизнеса и действиях, которые можно предпринять для подготовки среды и пользователей к обновлению, независимо от того, используете ли вы Skype для бизнеса Online, Skype для бизнеса Server 2019, Skype для бизнеса Server 2015, Lync Server 2013 или Lync Server 2010.
-ms.openlocfilehash: a35a447d9810952e9aac149f2297eda87575bdf3
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 9979b7d9fe449de926358097b9fd2fdd36e5afb4
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60740465"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864746"
 ---
 # <a name="plan-the-skype-for-business-2015-client-experience-for-your-users"></a>Планирование клиентского Skype для бизнеса 2015 г. для пользователей
  

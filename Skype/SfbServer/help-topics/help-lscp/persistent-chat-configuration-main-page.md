@@ -2,7 +2,7 @@
 title: Главная страница конфигурации сохраняемого чата
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 1e75d352-12cf-4548-9301-5d4c0e1c8f46
 description: В развертывании стойких чат-серверов может быть размещено множество одновременно постоянных комнат чата. Комнаты чата можно организовать как набор категорий на сервере. Каждая комната чата принадлежит одной категории и наследует некоторые параметры из этой категории. Такая организация создает полезную структуру для определения бесед на основе их бизнес-цели и обеспечивает делегированное администрирование и упрощает управление.
-ms.openlocfilehash: 7ad37dc23fde40d0a72b15b0da17222ef5aaa57d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b0a193fd5b8c56e1f6833328b8670c482bd7a5e7
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60740875"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60835527"
 ---
 # <a name="persistent-chat-configuration-main-page"></a>Главная страница конфигурации сохраняемого чата
  
