@@ -1,13 +1,13 @@
 ---
 title: Microsoft Teams Переход сообщений электронной почты и опросов | Базовое обновление
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: Образцы сообщений электронной почты и опросов, которые можно использовать в разных адресах, в том числе с помощью разувершенного десятишагового плана действий по переходу с Skype для бизнеса до Teams
+description: Образцы сообщений электронной почты и опросов, которые можно использовать в разных почтовых ящиках, в том числе с помощью разувершенного десятишагового плана действий по переходу с Skype для бизнеса до Teams
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4bda42ca439268a4d1e14c8b10d26e0dcea38332
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6b88a8030b2e808f95e8601147acce9cfa31da33
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60760367"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60842001"
 ---
 # <a name="sample-emails-and-surveys-for-upgrade-basic-communications"></a>Образцы сообщений электронной почты и опросов для сообщений об обновлении
 
@@ -113,7 +113,7 @@ Should you have questions about this upgrade, contact <<insert alias or contact 
 
 <a name="step-7-email"></a>
 
-### <a name="welcome-users-email-from-the-executive-sponsor-for-step-7"></a>Приветствие пользователей электронной почты от руководителя спонсора для шага 7
+### <a name="welcome-users-email-from-the-executive-sponsor-for-step-7"></a>Приветствие пользователей по электронной почте от руководителя спонсора для шага 7
 
 Строка темы:
 
@@ -170,7 +170,7 @@ Should you have questions, contact <<insert alias or contact info>>.
 
 <a name="step-10-email"></a>
 
-### <a name="email-to-ask-users-to-give-teams-and-channels-a-try-for-step-10"></a>Сообщение электронной почты с вопросом о том, как предоставить пользователям доступ к командам и каналам для шага 10
+### <a name="email-to-ask-users-to-give-teams-and-channels-a-try-for-step-10"></a>Отправить сообщение электронной почты с запросом на доступ к командам и каналам для шага 10
 
 Строка темы:
 
@@ -201,7 +201,7 @@ Should you have questions, contact <<insert alias or contact info>>.
 
 ## <a name="sample-surveys"></a>Образцы опросов
 
-Указать, насколько вы квалифицированы в выполнении следующих действий в Teams и есть ли одно или несколько действий, о которые вы хотите узнать подробнее.
+Указать, насколько вы опытны, выполняя следующие действия в Teams, и указать, есть ли одно или несколько действий, о которые вы хотите узнать подробнее.
 
 | &nbsp; | Очень опытные | Несколько опытных | Совсем не опытные | Хотите узнать больше | Н/Д | Не знаете или не знаете |&nbsp; | &nbsp;|&nbsp; |&nbsp; |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -214,7 +214,7 @@ Should you have questions, contact <<insert alias or contact info>>.
 |---|---|
 | Я никогда не слышали об этом | &#9744; |
 | У меня не установлено приложение на компьютере | &#9744; |
-| Я не понимаю, как это было бы полезно для меня или для людей, с которых я работаю | &#9744; |
+| Я не понимаю, как это было бы полезно мне или людям, с которых я работаю | &#9744; |
 | У меня не было времени на его оценку в моих потребностях | &#9744; |
 | Я уже использую другие приложения, которые отвечают моим потребностям для общения и совместной работы | &#9744; |
 | Перед использованием этой программы мне потребуется обучение | &#9744; |

@@ -2,7 +2,7 @@
 title: Отложенный сертификат (вызов)
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: adb5e0f3-17a6-40c2-9c95-c9cd2b558b54
 ROBOTS: NOINDEX, NOFOLLOW
 description: На странице Выполнение команд отображается состояние команд, получающих отложенный сертификат. По завершении задачи становится доступен файл журнала Получение отложенных сертификатов. Для просмотра состояния процесса и завершения задачи нажмите кнопку Просмотреть журнал. Нажмите кнопку Далее, чтобы продолжить.
-ms.openlocfilehash: 878995a346ceb149b650c6ac974ef9c29286e47a
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 91446802c2060e3a91815965b6ff2f8cc20d19bf
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60765783"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60858626"
 ---
 # <a name="pending-certificate-invoke"></a>Отложенный сертификат (вызов)
  

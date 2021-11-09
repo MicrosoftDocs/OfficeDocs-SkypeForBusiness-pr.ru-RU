@@ -2,7 +2,7 @@
 title: Политика архивирования
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 9b69f1fa-8f3b-450e-aa89-91fd462f198d
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Вы используете политики архива, чтобы включить и отключить архивировать для пользователей, Skype для бизнеса Server. В каждой политике архивирования можно включить или отключить архивирование для следующих параметров:'
-ms.openlocfilehash: 0e8a68ab2bdc4b1ee5eb98f8a8f852f52fbf9c74
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: eae717d8c3a70b7f7c631f432f78dc4a18f82507
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60775659"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864196"
 ---
 # <a name="archiving-policy"></a>Политика архивирования
  

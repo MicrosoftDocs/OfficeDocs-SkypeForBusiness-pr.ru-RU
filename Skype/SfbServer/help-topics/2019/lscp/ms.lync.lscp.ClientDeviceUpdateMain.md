@@ -2,7 +2,7 @@
 title: Обновление устройств
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 6f6b7f73-f8f5-41dc-9e2a-727baaaa828b
 ROBOTS: NOINDEX, NOFOLLOW
 description: Корпорация Майкрософт периодически выпускает новый набор обновлений прошивки устройств для Skype для бизнеса Телефон Edition, которые можно импортировать на серверы и распространять среди пользователей. Вы можете получить последний набор правил обновления устройств, заехав на страницу Справка и поддержка на веб-сайте Майкрософт, а также поискав дляPhone Edition.Download последний пакет обновлений и извлекая файлы в папку на компьютере, где должны быть загружены обновления. После извлечения вы можете воспользоваться командлетом Import-CsDeviceUpdate для импорта правил обновления устройств из извлеченного файла CAB (он имеет имя UCUpdates.cab). Подробные сведения см. в материале Import-CsDeviceUpdate.
-ms.openlocfilehash: fd1dc5613ccab434fab9e196f1595cf7e930790f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 19815f81a3a6fe9a3c35b1528b5eefb066003481
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60758001"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60858606"
 ---
 # <a name="device-update"></a>Обновление устройств
 

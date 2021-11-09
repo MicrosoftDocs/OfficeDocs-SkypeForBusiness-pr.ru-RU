@@ -2,7 +2,7 @@
 title: Полное доменное имя устаревшего объединения
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: d72841ff-3c4d-4233-a933-f3a95d75d89b
 ROBOTS: NOINDEX, NOFOLLOW
 description: Внутреннее полное доменное имя пограничного пула доступа используется в самых разных сценариях, где внутренние пользователи взаимодействуют с внешними пользователями для обеспечения федерации, удаленного доступа пользователей и общедоступной связи посредством мгновенных сообщений. Если в вашей устаревшей среде был развернут пограничный сервер с балансировкой нагрузки, введите полное доменное имя внутренней подсистемы балансировки нагрузки.
-ms.openlocfilehash: a3a2017f62ffabe8f427f7e5bd048f8c6e5c3d67
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 749452c5fcf697bd0fc52a2b2c7276777620b1e8
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60752388"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60849102"
 ---
 # <a name="legacy-merge-fqdn"></a>Полное доменное имя для объединения с устаревшей версией
  

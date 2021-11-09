@@ -2,7 +2,7 @@
 title: Управление настройками конфигурации регистратора в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: eddfbdd2-cfd0-4c03-986e-443d6728db7d
 description: Сводка. Управление настройками конфигурации регистратора для Skype для бизнеса Server.
-ms.openlocfilehash: 78a9e2b7af9b01fb5094e6d4286742a4c3147cfb
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 9e5eddde712180820579840587abb18bc9809fe4
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60773739"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60832133"
 ---
 # <a name="manage-registrar-configuration-settings-in-skype-for-business-server"></a>Управление настройками конфигурации регистратора в Skype для бизнеса Server
  

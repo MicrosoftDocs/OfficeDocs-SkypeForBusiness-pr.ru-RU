@@ -2,7 +2,7 @@
 title: Настройка Exchange Server единой системы обмена сообщениями для Skype для бизнеса Server голосовой почты
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/11/2019
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 1be9c4f4-fd8e-4d64-9798-f8737b12e2ab
 description: Сводка. Настройка Exchange Server единой системы обмена сообщениями для Skype для бизнеса Server голосовой почты.
-ms.openlocfilehash: 43a5b34afb2f398ecfd14d884bbb510ffa3631f0
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: e434309c67469ccaa6994ec90cb3431b9de4f13b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741295"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60865286"
 ---
 # <a name="configure-exchange-server-unified-messaging-for-skype-for-business-server-voice-mail"></a>Настройка Exchange Server единой системы обмена сообщениями для Skype для бизнеса Server голосовой почты
  
@@ -89,14 +89,14 @@ Enable-UMMailbox -Extensions 100 -SIPResourceIdentifier "kenmyer@litwareinc.com"
 
 В предыдущей команде параметр Extensions представляет номер расширения телефона для пользователя. В этом примере у пользователя есть номер расширения 100.
   
-После включения почтового ящика пользователь должен kenmyer@litwareinc.com использовать Exchange единой системы обмена сообщениями. Вы можете убедиться в том, что пользователь может подключиться к Exchange um, заняв команды [Test-CsExUMConnectivity](/powershell/module/skype/test-csexumconnectivity?view=skype-ps) из Skype для бизнеса Server управленческой оболочки:
+После включения почтового ящика пользователь должен kenmyer@litwareinc.com использовать Exchange единой системы обмена сообщениями. Вы можете убедиться в том, что пользователь может подключиться к Exchange um, заняв команды [Test-CsExUMConnectivity](/powershell/module/skype/test-csexumconnectivity) из Skype для бизнеса Server управленческой оболочки:
   
 ```powershell
 $credential = Get-Credential "litwareinc\kenmyer"
 Test-CsExUMConnectivity -TargetFqdn "atl-cs-001.litwareinc.com" -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 ```
 
-Если у вас есть второй пользователь, который включен для единой системы обмена сообщениями, вы можете использовать комлет [Test-CsExUMVoiceMail,](/powershell/module/skype/test-csexumvoicemail?view=skype-ps) чтобы убедиться, что этот второй пользователь может оставить сообщение голосовой почты для первого пользователя.
+Если у вас есть второй пользователь, который включен для единой системы обмена сообщениями, вы можете использовать комлет [Test-CsExUMVoiceMail,](/powershell/module/skype/test-csexumvoicemail) чтобы убедиться, что этот второй пользователь может оставить сообщение голосовой почты для первого пользователя.
   
 ```powershell
 $credential = Get-Credential "litwareinc\pilar"
@@ -155,7 +155,7 @@ Test-CsExUMVoiceMail -TargetFqdn "atl-cs-001.litwareinc.com" -ReceiverSipAddress
 - Создает сервисную группу единой системы обмена сообщениями для каждого шлюза IP единой системы обмена сообщениями. Пилотный идентификатор каждой группы охоты указывает наборную группу SIP SIP, используемую пулом Skype для бизнеса Server или сервером выпуск Standard, связанным с шлюзом IP-адресов um.
 - Предоставляет Skype для бизнеса Server для чтения объектов контейнеров Active Directory, таких как номера um, автоспутники, шлюзы IP-адресов и группы охоты на um.
   > [!IMPORTANT]
-  > Каждый лес um должен быть настроен таким образом, чтобы доверять лесу, в котором Skype для бизнеса Server развертывается, а лес, в котором Skype для бизнеса Server 2013 г., должен быть настроен таким образом, чтобы доверять каждому лесу. Если Exchange установлена в нескольких лесах, Exchange Server необходимо выполнить шаги интеграции для каждого леса um или указать Skype для бизнеса Server домена. Например, ExchUcUtil.ps1 -Forest:<lync-domain-controller-fqdn>. 
+  > Каждый лес um должен быть настроен таким образом, чтобы доверять лесу, в котором Skype для бизнеса Server развертывается, а лес, в котором Skype для бизнеса Server 2013 г., должен быть настроен таким образом, чтобы доверять каждому лесу. Если Exchange установлена в нескольких лесах, Exchange Server необходимо выполнить шаги интеграции для каждого леса um или указать Skype для бизнеса Server домена. Например, ExchUcUtil.ps1 -Forest: \<lync-domain-controller-fqdn> . 
 
 ### <a name="use-the-shell-to-run-the-exchucutilps1-script"></a>Использование командной консоли Exchange для запуска сценария ExchUcUtil.ps1
 

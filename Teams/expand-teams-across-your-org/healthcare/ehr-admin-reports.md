@@ -1,6 +1,6 @@
 ---
 title: Teams виртуальных посещений — отчеты для администраторов
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 audience: ITPro
@@ -23,22 +23,22 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ansantam
 description: Просмотр отчетов администраторов о посещениях Teams EHR
-ms.openlocfilehash: 3a7514dec687fdd5d82928e4a2a8986b3add4eee
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 7ec22bdfd7a73ba39c9e94d0c65f2da6f1f5f973
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60769867"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60858766"
 ---
-# <a name="microsoft-teams-ehr-connector-admin-reports"></a>Microsoft Teams Отчеты администратора соединитела eHR
+# <a name="microsoft-teams-ehr-connector-admin-reports"></a>Microsoft Teams Отчеты об администрировании соединители EHR
 
 Диалоговое Microsoft Teams отчет об администрировании соединитела (EHR) обеспечивает быстрое и удобное для чтения представление данных об использовании.
 
-Чтобы просмотреть отчет Microsoft Teams EHR, переходить на панель Microsoft Teams центра администрирования и просматривать диалоговое окно.
+Отчет об администрировании Microsoft Teams EHR можно просмотреть на панели Microsoft Teams центра администрирования и просмотреть диалоговое окно.
 
 Доступ к отчету можно получить с Microsoft Teams панели мониторинга Центра администрирования.
 
- ![диалоговое окно объемов виртуальных посещений и ограничений.](../../media/admin-connector-report.png)
+ ![диалоговое окно с распределением и ограничениями виртуальных посещений.](../../media/admin-connector-report.png)
 
 Диалоговое окно содержит следующие данные:
 
@@ -46,7 +46,7 @@ ms.locfileid: "60769867"
 - Оставшиеся выделение
 - Завершенные посещения
 
-Диалоговое окно отчета можно использовать для покупки дополнительных виртуальных посещений.
+Вы можете использовать диалоговое окно отчета для покупки дополнительных виртуальных посещений.
 
 ## <a name="related-topics"></a>Статьи по теме
 

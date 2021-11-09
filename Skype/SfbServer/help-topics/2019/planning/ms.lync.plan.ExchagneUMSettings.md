@@ -2,7 +2,7 @@
 title: Exchange Единое средство Параметры сообщений (средство планирования)
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 ms.assetid: d4c4a5d9-1523-49ff-b994-882b037ed46f
 ROBOTS: NOINDEX, NOFOLLOW
 description: Skype для бизнеса Server 2015 г. поддерживает интеграцию с Exchange единой системы обмена сообщениями для объединения голосовых сообщений и обмена сообщениями в единую инфраструктуру обмена сообщениями.
-ms.openlocfilehash: 36b2a2c3ca0c5ac62f100ac477d077ebd1f0ce30
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: d366de5e0e7d3c7cac348c3fd5b0caa4902cf4e9
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60771099"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60858526"
 ---
 # <a name="exchange-unified-messaging-settings-planning-tool-in-skype-for-business-2015"></a>Exchange Единое средство Параметры сообщений в Skype для бизнеса 2015 г.
 

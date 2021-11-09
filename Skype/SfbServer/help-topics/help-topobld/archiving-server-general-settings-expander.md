@@ -2,7 +2,7 @@
 title: Расширитель общих настроек сервера архивации
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 0b820af7-8d00-42e2-979c-dbae17159a08
 description: 'В Topology Builder можно изменить свойства для отдельного сервера, на который работает архивирование, правой кнопкой мыши на сервере, нажав архивирование в дереве консоли и нажав действие на панели инструментов, или щелкнув задачу в области Действия, а затем щелкнув изменить свойства и изменив любой из следующих вариантов:'
-ms.openlocfilehash: c8537e661a5e2b854df144782977507b5e3a4f3f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: a415adabb757ff7e9129dde85327f691112fd2a5
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60768137"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60833505"
 ---
 # <a name="archiving-server-general-settings-expander"></a>Расширитель общих параметров сервера архивации
  

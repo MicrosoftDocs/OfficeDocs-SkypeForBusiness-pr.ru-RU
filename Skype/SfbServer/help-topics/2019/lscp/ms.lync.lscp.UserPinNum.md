@@ -2,7 +2,7 @@
 title: ПИН-код задан успешно
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: c6e210d1-bcac-4527-adc6-691a5723270c
 ROBOTS: NOINDEX, NOFOLLOW
 description: Чтобы использовать электронную почту для отправки ПИН-кодов пользователям, щелкните Открыть приложение электронной почты для отправки нового ПИН-кода пользователю. Чтобы скопировать ПИН-код в сообщение электронной почты, выберите Показать ПИН-код.
-ms.openlocfilehash: 19f1615fc2e0080263fb5a49ca13de7c60e63825
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 3f037682ac6781d9edd3ea6b130b2d621e48dab6
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60760152"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60841781"
 ---
 # <a name="pin-set-successfully"></a>Успешная настройка ПИН-кода
  

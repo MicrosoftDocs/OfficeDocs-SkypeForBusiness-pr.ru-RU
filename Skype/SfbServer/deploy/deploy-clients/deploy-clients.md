@@ -1,7 +1,7 @@
 ---
 title: Развертывание клиентов для Skype для бизнеса Server
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.reviewer: PhillipGarding
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 3d10abf2-d484-4fa0-8f10-4a5f9dfba4f5
 description: Сводка. Обзор методов установки корпоративных клиентов для Skype для бизнеса.
-ms.openlocfilehash: 60da950c4ef330f704d45944a900e579478c558c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: d21424d268e6b03e46bfa11b06b7d1929bb015b1
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60778929"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60841961"
 ---
 # <a name="deploy-clients-for-skype-for-business-server"></a>Развертывание клиентов для Skype для бизнеса Server
  

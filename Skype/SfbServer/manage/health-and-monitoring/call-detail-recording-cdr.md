@@ -2,7 +2,7 @@
 title: Запись детализации вызовов (CDR) в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 67726075-c77c-4191-a64f-a1cf5c7bcbb2
 description: Сводка. Сведения о записях с подробными сведениями о вызовах, используемых в Skype для бизнеса Server.
-ms.openlocfilehash: 93085e0078456cfe371eafe1103bd54ae8006802
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 4b699b382443d0820845856bebd83604374bf236
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60767767"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60858336"
 ---
 # <a name="call-detail-recording-cdr-in-skype-for-business-server"></a>Запись детализации вызовов (CDR) в Skype для бизнеса Server
  

@@ -2,7 +2,7 @@
 title: Добавление хранилища SQL для сервера архивации
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 26e0a748-e31d-4c66-b225-b37e0a45408f
 ROBOTS: NOINDEX, NOFOLLOW
 description: Сервер архива требует поддерживаемого 64-битного выпуска программного SQL Server базы данных для хранения архивных данных. Вы можете выбрать ранее SQL Server базу данных, которая будет использоваться для архива, или определить новую базу данных SQL Server, указав полное доменное имя (FQDN) сервера, на котором будет находиться база данных SQL Server, и экземпляр SQL Server, который вы хотите использовать для нового SQL Server datab ase (который может быть экземпляром по умолчанию или названным экземпляром, который вы указываете).
-ms.openlocfilehash: 11ca3b8a83d565064e573ae8a080f896f846175a
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: a2a9785235586640350e774286bdae6c66156e80
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60775469"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60857816"
 ---
 # <a name="add-archiving-server-sql-server-store"></a>Добавление хранилища SQL для сервера архивации
 

@@ -1,7 +1,7 @@
 ---
 title: Использование Config.xml для выполнения задач установки в Skype для бизнеса клиентах
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.reviewer: PhillipGarding
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 0813184a-ab40-417c-b3a3-c2090766b831
 description: Сводка. Использование файла Config.xml для указания дополнительных инструкций по установке.
-ms.openlocfilehash: 76bf5980f7ced3c2e92f53ade8a51eaf3835054d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: e0dcc16a09540965346ea014a8c39be0470e4f09
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60742945"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60858676"
 ---
 # <a name="use-configxml-to-perform-installation-tasks-in-skype-for-business-clients"></a>Использование Config.xml для выполнения задач установки в Skype для бизнеса клиентах
 
@@ -54,7 +54,7 @@ ms.locfileid: "60742945"
 | OptionState  <br/>       | Определяет, как при установке будут обрабатываться компоненты конкретного продукта. Используйте следующие атрибуты, чтобы предотвратить установку Business Connectivity Services, которая включает общие компоненты, которые мешают Outlook: <br/>  Id="LOBiMain" <br/>  State="Absent" <br/>  Children="Force" <br/> |
 | Отображение  <br/>           | Уровень пользовательского интерфейса, отображаемого пользователю программой установки. Обычно используются следующие атрибуты: <br/>  CompletionNotice="Yes"                                                                                                                                                                                |
 | Ведение журнала  <br/>           | Параметры ведения журнала программой установки. Обычно используются следующие атрибуты: <br/>  Тип ="Off"                                                                                                                                                                                       |
-| Setting  <br/>           | Определяет значения для свойств программы установщика Windows. Обычно используются следующие атрибуты:<br/>  Настройка имени Id=" (имя свойства Windows установки)  <br/>  Значение=" (значение для назначения свойству)  <br/>                                                             |
+| Параметр  <br/>           | Определяет значения для свойств программы установщика Windows. Обычно используются следующие атрибуты:<br/>  Настройка имени Id=" (имя свойства Windows установки)  <br/>  Значение=" (значение для назначения свойству)  <br/>                                                             |
 | DistributionPoint  <br/> | Полный доменный путь точки сетевой установки, из которой запускается установка. Содержит атрибут Location:<br/>  Путь *Location="*  <br/>                                                                                                                                     |
 
 В следующем примере Config.xml файл для типичной бесшумной установки Skype для бизнеса клиента. 

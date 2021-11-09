@@ -1,6 +1,6 @@
 ---
-title: Доступность в Загонах
-author: cichur
+title: Доступность в Неве
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: fafan
@@ -23,27 +23,27 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже ются Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для нее.
-ms.openlocfilehash: 423c8c690c99e30dcd0e02851485015f11611a79
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: Ниже ются Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Нее.
+ms.openlocfilehash: b618c288f06c01a037a3c386d3d65baa7a0c25c3
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60759331"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60858916"
 ---
-# <a name="availability-in-albania"></a>Доступность в Загонах
+# <a name="availability-in-albania"></a>Доступность в Неве
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже ются Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для нее.
+Ниже ются Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Нее.
   
-## <a name="audio-conferencing"></a>Аудиоконференции
+## <a name="audio-conferencing"></a>Аудиоконференция
 
 |**Функция**|**Сведения**|
 |:-----|:-----|
 |Доступно ли приобретение аудиоконференций?  <br/> |Да. Оплата только за минуту  <br/> |
-|Номера телефонов автоматически назначаются для аудио конференций?  <br/> | Нет |
-|Возможность получить обратный звонок с функцией "Звонок на мой номер"  <br/> | Требуются кредиты связи <br/> |
+|Назначаются ли номера телефонов для аудиоконференций автоматически?  <br/> | Нет |
+|Возможность дозвона с помощью функции «Позвони мне»  <br/> | Требуются кредиты связи <br/> |
    
 ## <a name="phone-system"></a>Телефонная система
 

@@ -2,7 +2,7 @@
 title: Импорт сертификата (введение)
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 474fac52-0b11-45dd-a211-fd2f1727238b
 ROBOTS: NOINDEX, NOFOLLOW
 description: Чтобы импортировать сертификат, необходимо указать путь к файлу сертификата. В поле Выбрать файл сертификата можно либо ввести полный путь и имя файла, либо нажать кнопку Обзор и выбрать путь и имя файла (обычно это файл с расширением .p7b, .pfx или .cer).
-ms.openlocfilehash: 112a8239d9bc1f48404ac0806ec176ead9480e3d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 8a0b48b6bec3e9f502c8a20635e46931a5b24362
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60740065"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60843472"
 ---
 # <a name="import-certificate-intro"></a>Импорт сертификата (введение)
  

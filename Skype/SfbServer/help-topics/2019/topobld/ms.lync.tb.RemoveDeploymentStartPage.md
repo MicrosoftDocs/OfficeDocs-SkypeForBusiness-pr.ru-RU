@@ -2,7 +2,7 @@
 title: Введение в удаление развертывания
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 8659fefa-97f1-4d4a-9628-5c6dae86b244
 ROBOTS: NOINDEX, NOFOLLOW
 description: Запускайте Мастер удаления развертывания, только если необходимо ликвидировать все развертывания. Этот мастер создает пустую топологию, состоящую из одного интерфейсного сервера. После запуска этого мастера и публикации пустой топологии будет невозможно вернуться к исходной топологии.
-ms.openlocfilehash: 6485515eeef5bb9d2d7b0e095c58760ddb83ffea
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: bf7da6378f261cfba67dc58b13eb3026d5620ff6
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60750708"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60865026"
 ---
 # <a name="remove-deployment-introduction"></a>Введение в удаление развертывания
  

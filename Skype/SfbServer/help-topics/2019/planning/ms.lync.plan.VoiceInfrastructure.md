@@ -2,7 +2,7 @@
 title: Голосовая инфраструктура (средство планирования)
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 ms.assetid: ab341060-3f2e-4a41-9be0-9ee8d29c35c5
 ROBOTS: NOINDEX, NOFOLLOW
 description: Skype для бизнеса Server обеспечивает надежную масштабируемую возможность подключения к PSTN с помощью магистрали SIP, прямых SIP-подключений к шлюзу PSTN или прямых подключений SIP к PBX. Подробные сведения см. в материале Plan for PSTN connectivity in Skype для бизнеса Server.
-ms.openlocfilehash: 78dc587143df2e87a94e3a88d9d23a2025e57693
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 0f274cf7cee3998dd71327b5deb5adb6c9fe153c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60757771"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60833655"
 ---
 # <a name="voice-infrastructure-planning-tool"></a>Голосовая инфраструктура (средство планирования)
  

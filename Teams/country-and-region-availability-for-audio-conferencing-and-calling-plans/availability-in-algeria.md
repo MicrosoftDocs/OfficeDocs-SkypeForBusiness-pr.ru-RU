@@ -1,6 +1,6 @@
 ---
 title: Доступность в Неве
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
@@ -23,27 +23,27 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже ются Microsoft 365 и Office 365 службы для Skype для бизнеса и Microsoft Teams доступны для ветвей.
-ms.openlocfilehash: 370a31dcca0528dd3768f025c1ad090f2a20941b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: Ниже ются Microsoft 365 и Office 365 службы для Skype для бизнеса и Microsoft Teams для нее.
+ms.openlocfilehash: 7b83eaf1ddf776e301258bf696549e479d0ff9c1
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777719"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60858906"
 ---
 # <a name="availability-in-algeria"></a>Доступность в Неве
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже ются Microsoft 365 и Office 365 службы для Skype для бизнеса и Microsoft Teams доступны для ветвей.
+Ниже ются Microsoft 365 и Office 365 службы для Skype для бизнеса и Microsoft Teams для нее.
   
-## <a name="audio-conferencing"></a>Аудиоконференции
+## <a name="audio-conferencing"></a>Аудиоконференция
 
 |**Функция**|**Сведения**|
 |:-----|:-----|
 |Доступно ли приобретение аудиоконференций?  <br/> |Да. Только оплата за минуту.  <br/> |
-|Номера телефонов автоматически назначаются для аудио конференций?  <br/> | Нет |
-|Возможность получить обратный звонок с функцией "Звонок на мой номер"  <br/> | Требуются кредиты связи <br/> |
+|Назначаются ли номера телефонов для аудиоконференций автоматически?  <br/> | Нет |
+|Возможность дозвона с помощью функции «Позвони мне»  <br/> | Требуются кредиты связи <br/> |
    
 ## <a name="phone-system"></a>Телефонная система
 
@@ -68,7 +68,7 @@ ms.locfileid: "60777719"
 
 |**Функция**|**Сведения**|
 |:-----|:-----|
-|Для каких столиц или крупных городов можно получить платные номера?   | Не географическое положение. Номера телефонов не связаны с конкретным городом или местоположением. <br/> |
+|Для каких столиц или крупных городов можно получить платные номера?   | Не географическое. Номера телефонов не связаны с конкретным городом или местоположением. <br/> |
 |Доступны ли платные номера?  <br/> |Не географическое положение[(по запросу](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)) <br/> |
 |Доступны ли бесплатные номера?  <br/> |Нет  <br/> |
    

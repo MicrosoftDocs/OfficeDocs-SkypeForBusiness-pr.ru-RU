@@ -2,7 +2,7 @@
 title: Создание параметров конфигурации experience в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 64f05569-07c7-4f76-a96b-ea4125a510d5
 description: Сводка. Сведения о параметрах качества работы (QoE) в Skype для бизнеса Server.
-ms.openlocfilehash: 71fda331338e8792245c7ac0ee3dfa408345f390
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 842e9bbf3100efc30346e88b4b5f660cdd42ec53
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60762397"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60858326"
 ---
 # <a name="create-quality-of-experience-configuration-settings-in-skype-for-business-server"></a>Создание параметров конфигурации experience в Skype для бизнеса Server
  
@@ -31,7 +31,7 @@ ms.locfileid: "60762397"
   
 |**Параметр пользовательского интерфейса**|**Параметр PowerShell**|**Описание**|
 |:-----|:-----|:-----|
-|Имя  <br/> |Identity  <br/> |Уникальный идентификатор создаваемых параметров. Параметры конфигурации качества взаимодействия могут быть созданы только на уровне сайта.  <br/> |
+|Имя  <br/> |Удостоверение  <br/> |Уникальный идентификатор создаваемых параметров. Параметры конфигурации качества взаимодействия могут быть созданы только на уровне сайта.  <br/> |
 |Разрешить отслеживание данных о качестве связи  <br/> |EnableQoE  <br/> |Указывает, будут ли записи качества взаимодействия собраны и сохранены в базу данных мониторинга.  <br/> |
 |Разрешить очистку данных о качестве связи  <br/> |EnablePurging  <br/> |Определяет, можно ли очищать записи после истечения периода времени, определенного в свойстве **Хранить данные о качестве взаимодействия не дольше (дн.)**. <br/> |
 |Хранить данные о качестве взаимодействия не дольше (дн.):  <br/> |KeepQoEDataForDays  <br/> |Число дней хранения данных о качестве взаимодействия до удаления из базы данных. Это значение игнорируется, если очистка отключена.  <br/> |

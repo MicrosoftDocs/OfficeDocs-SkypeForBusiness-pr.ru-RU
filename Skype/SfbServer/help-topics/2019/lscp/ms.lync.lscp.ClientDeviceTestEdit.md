@@ -2,7 +2,7 @@
 title: Test Device Create New or Edit Existing
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 8f9125dd-04b3-4a6d-9f41-4f19ddaf7a2d
 ROBOTS: NOINDEX, NOFOLLOW
 description: Возможность "Устройство проверки" работает совместно с возможностью "Обновление устройства". Вы можете добавить устройство проверки на страницу Устройство проверки и затем использовать его для проверки функциональных возможностей новых обновлений перед их развертыванием на производственных устройствах. Вы можете протестировать устройство глобально (во всей среде) или на одном сайте. Устройство проверки указывается по MAC-адресу или серийному номеру. При добавлении устройства оно отображается в списке на странице тестового устройства панели Skype для бизнеса Server управления.
-ms.openlocfilehash: 180db6228b858c329d0f956c909f728aa365074f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 1ced6887bf0cae82050c477a7115ccfa0a2215cf
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60761397"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60857906"
 ---
 # <a name="test-device-create-new-or-edit-existing"></a>Тестовое устройство: создание нового или редактирование существующего
 

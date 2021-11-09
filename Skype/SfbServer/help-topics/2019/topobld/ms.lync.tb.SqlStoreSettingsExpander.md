@@ -2,7 +2,7 @@
 title: Расширитель параметров хранилища SQL
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: bd269d52-6f87-4433-b9b0-2b543fea845d
 ROBOTS: NOINDEX, NOFOLLOW
 description: Чтобы изменить свойства базы данных SQL Server, необходимо изменить экземпляр SQL Server базы данных. Вы не можете использовать диалоговое окно Изменение свойств для выполнения таких задач, как перемещение базы данных сервера архивации с одного компьютера на другой. Кроме того, нельзя использовать диалоговое окно Edit Properties для изменения экземпляра SQL Server, в котором размещен центральный магазин управления.
-ms.openlocfilehash: 53d0092b634e102f7fd2511ff57d32fe575e886e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f77eeb2f397b02231b7d1b004c243f218967c040
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60739695"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864106"
 ---
 # <a name="sql-store-settings-expander"></a>Расширитель параметров хранилища SQL
  

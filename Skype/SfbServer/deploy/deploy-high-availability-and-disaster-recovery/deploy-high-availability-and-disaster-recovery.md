@@ -2,7 +2,7 @@
 title: Развертывание функций высокой доступности и аварийного восстановления
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 21007bad-62ce-4553-98e0-02aaa1345781
 description: Skype для бизнеса Server обеспечивает высокую доступность с объединением серверов, восстановлением аварийности с сопряжением пула и несколькими режимами высокой доступности back End Server, включая группы доступности AlwaysOn, зеркальное зеркальное отражение баз данных и кластеризация SQL сбой.
-ms.openlocfilehash: 03a7c1e91651f2d73b1e22692f726ed3188588e6
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 897bd52d265a123d3eebec2bc16d71d95ba6185e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60761487"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60865306"
 ---
 # <a name="deploy-high-availability-and-disaster-recovery"></a>Развертывание функций высокой доступности и аварийного восстановления
  

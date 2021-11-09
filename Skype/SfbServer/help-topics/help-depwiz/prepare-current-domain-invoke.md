@@ -2,7 +2,7 @@
 title: Подготовка текущего домена (вызов)
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 27553998-2adf-4727-a6e8-841679603ff2
 description: 'На странице Выполнение команд отображается сводка задач по мере их выполнения. Просмотрите сводку и убедитесь, что задачи успешно выполнены и нет ошибок. Просмотрите предупреждения и убедитесь, что среди них нет неожиданных. Ниже панели сводки должна появиться запись Состояние задачи: Завершено. Файл журнала Подготовка домена должен присутствовать в раскрывающемся списке. Выберите файл журнала и нажмите кнопку Просмотреть журнал для просмотра подробных сведений о действиях и результатах выполнения задач. Нажмите кнопку Готово, чтобы завершить подготовку домена.'
-ms.openlocfilehash: 902cf8ddc98a957462f4a0d5a2b744cf4f3310db
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: e16743ab0f041755afdcede4db7fbac0e2751179
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60758531"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60842121"
 ---
 # <a name="prepare-current-domain-invoke"></a>Подготовка текущего домена (вызов)
  

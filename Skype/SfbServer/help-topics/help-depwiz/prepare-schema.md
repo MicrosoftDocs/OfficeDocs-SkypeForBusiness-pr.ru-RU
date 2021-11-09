@@ -2,7 +2,7 @@
 title: Подготовка схемы
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 337aa234-c5f3-4468-a047-2023848e942c
 description: Чтобы подготовить схему для служб домена Active Directory, вы запустите этап Подготовка схемы в мастере Skype для бизнеса Server развертывания. Нажмите кнопку Выполнить, чтобы начать подготовку схемы. Шаг Подготовка схемы считывает предоставленные файлы определения схемы в каталоге /Program Files/Microsoft Lync Server 2013/Deployment/Setup в системе, на которую работает мастер развертывания. Эти файлы также доступны в средствах установки в каталоге Support/Schema. Шаг "Подготовка схемы" осуществляет расширение схемы и сообщает о состоянии процесса. Вы получите уведомление, когда процесс завершится. На экране сводки можно просмотреть журналы процесса. Просмотрите журналы и убедитесь, что подготовка была успешно завершена.
-ms.openlocfilehash: aabebbe8ccf3dc9ab2ac59f19eac015353e6def3
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: c4e1faa8a26fa74579d9c9177d2efbfda29fa40f
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60740915"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60849052"
 ---
 # <a name="prepare-schema"></a>Подготовка схемы
  

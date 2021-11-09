@@ -2,7 +2,7 @@
 title: Выбор запрещенных участников
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: c626b6b4-15f3-4a59-bb1d-55dc8c60f5cb
 ROBOTS: NOINDEX, NOFOLLOW
 description: Постоянный администратор чата может создавать и управлять категориями комнат чата. В рамках создания и управления категориями комнат чата администратор сохраняемого чата может настраивать директоров (группы/контейнеры/пользователи active Directory Domain Services), которые имеют доступ к членам или создателям комнат чатов определенной категории. Администратор сохраняемой беседы также может добавлять DeniedMembers в категорию, и они становятся явными исключениями в разрешенный список. DeniedMembers переопределяют то, что есть в AllowedMembers.
-ms.openlocfilehash: 1d83c747ccafc8c5841d1a7dc156d75d8bd91e7c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: d423486d0c7c17a703846f416041d4d080aca2f8
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60745165"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60865166"
 ---
 # <a name="select-denied-members"></a>Выбор запрещенных участников
 

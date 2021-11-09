@@ -2,7 +2,7 @@
 title: Службы домена Active Directory для Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 5483afd5-d8af-4825-ae95-a82dbe941dbf
 description: Служба доменов Active Directory выполняет функции службы каталогов для сетей Windows Server 2003, Windows Server 2008, Windows Server 2012 и Windows Server 2012 R2. Службы домена Active Directory также служат основой для Skype для бизнеса Server инфраструктуры безопасности. В этом разделе описывается, как Skype для бизнеса Server службы домена Active Directory для создания надежной среды для чата, веб-конференций, мультимедиа и голосовой связи. Дополнительные сведения о подготовке среды для служб домена Active Directory см. в Skype для бизнеса Server в документации по развертыванию. Сведения о роли служб домена Active Directory в сетях Windows Server см. в документации по используемой версии операционной системы.
-ms.openlocfilehash: 496abf7f0210a1663c1158da56c8fb1cce66f068
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: a96d2691513ae98195856f717b338a98e589a28e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60759471"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60859016"
 ---
 # <a name="active-directory-domain-services-for-skype-for-business-server"></a>Службы домена Active Directory для Skype для бизнеса Server
  

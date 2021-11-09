@@ -2,7 +2,7 @@
 title: Создание или изменение голосового маршрута в Skype для бизнеса
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d189057d-cc9d-4622-9d10-f5385d703faf
 description: Сводка. Сведения о создании или изменении голосового маршрута в Skype для бизнеса Server с помощью панели Skype для бизнеса Server управления.
-ms.openlocfilehash: ee7f4a0f5d09a36fd1d8e5bcd88a15cd01cc6657
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 28acf24352f2eb517f75a6afa5ce35a7d5166ab2
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60755772"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60831639"
 ---
 # <a name="create-or-modify-a-voice-route-in-skype-for-business"></a>Создание или изменение голосового маршрута в Skype для бизнеса
  

@@ -2,7 +2,7 @@
 title: Узел области мониторинга
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 05867db5-ad62-41e3-b1ac-f21f43d1e90b
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'В Topology Builder можно выполнять задачи, связанные с отдельным сервером, на который выполняется мониторинг, либо щелкнув правой кнопкой мыши сервер, запущенный в дереве консоли, нажав действие на панели инструментов, либо нажав задачу в области Действия, а затем нажав один из следующих вариантов для сервера, на который выполняется мониторинг:'
-ms.openlocfilehash: 8bbd3bb046e8628963d6663ebf752a80274ab8bd
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 4adca3702b6200632afae51fb237e6682c560d5c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60764357"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60865136"
 ---
 # <a name="monitoring-scope-node"></a>Узел области мониторинга
  
