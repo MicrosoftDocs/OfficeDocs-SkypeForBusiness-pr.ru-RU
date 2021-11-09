@@ -1,6 +1,6 @@
 ---
 title: Назначение Teams надстройки пользователям
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.reviewer: mikedav
 description: Узнайте, как назначать Teams надстройки пользователям для таких функций, как аудиоконференция, телефонная система и планы звонков.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 47d5f5838b382459fe6820f210a29b4809525e18
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 200e2bb36940bb4b447c4a46856c4e3ffa07f588
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60766127"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60846032"
 ---
 # <a name="assign-teams-add-on-licenses-to-users"></a>Назначение Teams надстройки пользователям
 
@@ -73,7 +73,7 @@ ms.locfileid: "60766127"
     4. Если вам будет предложено установить модуль из PSGallery, введите **Y** и нажмите ввод.
 3. В командной Windows PowerShell запустите следующий сценарий, чтобы назначить лицензии пользователям, где указаны название организации и идентификатор лицензии, которую вы \<CompanyName:License> хотите назначить. Например, litwareinc:MCOMEETADV.
 
-    Идентификатор отличается от удобного имени лицензии. Например, идентификатором аудиоконференции является MCOMEETADV. Дополнительные см. в [документе Названия продуктов и идентификаторы SKU для лицензирования.](#product-names-and-sku-identifiers-for-licensing)
+    Идентификатор отличается от удобного имени лицензии. Например, идентификатор аудиоконференции — MCOMEETADV. Дополнительные см. в [документе Названия продуктов и идентификаторы SKU для лицензирования.](#product-names-and-sku-identifiers-for-licensing)
 
     ```powershell
     #Create a text file with a single column that lists the user principal names (UPNs) of users to assign licenses to. The MSOL service uses the UPN to license user accounts.

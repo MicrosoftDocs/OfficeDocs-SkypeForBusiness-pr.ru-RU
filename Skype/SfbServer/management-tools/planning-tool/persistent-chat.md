@@ -2,7 +2,7 @@
 title: Средство планирования постоянных чатов
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
@@ -14,12 +14,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: ec111e2e-15dd-4b9b-ba9c-6125139319a1
 description: С помощью сохраняемого сервера чата пользователи могут участвовать в многопартийных тематических беседах, которые сохраняются со временем.
-ms.openlocfilehash: 5d215207990b068f1e8b8330918a14e4a1bb4992
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 7623abec14283afba3d078f88e72607ddaffa595
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777329"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60845342"
 ---
 # <a name="persistent-chat-planning-tool"></a>Средство планирования постоянных чатов
  

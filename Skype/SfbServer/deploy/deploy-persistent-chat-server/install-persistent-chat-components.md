@@ -2,7 +2,7 @@
 title: Установка компонентов сохраняемой беседы в Skype для бизнеса Server 2015 г.
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/28/2016
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 61370aa6-9708-4ff8-b531-b258a928806f
 description: Сводка. Ознакомьтесь с этой темой, чтобы узнать, как использовать мастер развертывания Skype для бизнеса Server для установки компонентов и служб Skype для бизнеса Server 2015 г.
-ms.openlocfilehash: 333519783e7bd1844c7ad5f84c247e7644132056
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: e0e0e8ca13448c7af19b9d589f8b0abd5b1e641b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60738875"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60845872"
 ---
 # <a name="install-persistent-chat-components-in-skype-for-business-server-2015"></a>Установка компонентов сохраняемой беседы в Skype для бизнеса Server 2015 г.
  

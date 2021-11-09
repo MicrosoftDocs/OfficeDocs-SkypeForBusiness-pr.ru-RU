@@ -2,7 +2,7 @@
 title: Средство планирования голосовой инфраструктуры
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 4/6/2016
 audience: ITPro
@@ -14,12 +14,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: ab341060-3f2e-4a41-9be0-9ee8d29c35c5
 description: Skype для бизнеса Server 2015 г. обеспечивает надежную масштабируемую возможность подключения PSTN с помощью магистрали SIP, прямых SIP-подключений к шлюзу PSTN или прямых подключений SIP к PBX. Дополнительные сведения см. в проекте Plan for PSTN connectivity in Skype для бизнеса Server 2015.
-ms.openlocfilehash: 988938f95e5c1b1a345971f37f86abec83e78406
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: abf62f1d90ea76d73aaf58bb6ad1dc15cc56044e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60766287"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60845252"
 ---
 # <a name="voice-infrastructure-planning-tool"></a>Средство планирования голосовой инфраструктуры
  

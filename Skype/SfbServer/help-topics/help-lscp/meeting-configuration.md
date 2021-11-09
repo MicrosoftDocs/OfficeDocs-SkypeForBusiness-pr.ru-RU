@@ -2,7 +2,7 @@
 title: Конфигурация собрания
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 24e8f749-d54c-4315-a8fe-bb9303b356ef
 description: Параметры конфигурации собраний определяют тип конференций (также называемыхmeetings), которые пользователи могут создавать, и контролировать, как анонимные пользователи и пользователи конференц-конференций с диалогом могут присоединяться к этим конференциям. Эти параметры распространяются только на запланированные собрания. Они не применяются к ad-hoc собраниям, созданным путем нажатия параметра Meet Now в клиенте.
-ms.openlocfilehash: a54d6d11e2df3554331c407518f93290ae8cc8fb
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 009985af02283752f29be14379d55da59cf066d2
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60766757"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60855656"
 ---
 # <a name="meeting-configuration"></a>Конфигурация собрания
 

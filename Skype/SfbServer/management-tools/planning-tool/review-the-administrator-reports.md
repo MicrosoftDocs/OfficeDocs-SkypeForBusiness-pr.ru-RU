@@ -2,7 +2,7 @@
 title: Обзор отчетов администратора в Skype для бизнеса Server 2015 г.
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 4/5/2016
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 22d480ea-cd64-4d09-99fe-96e997570844
 description: Отчеты администратора — это подробные сведения о развертывании и операциях. Отчеты создаются на основе выборов, отмеченных на сайтах разработки. Конструктор может дополнительно добавить значение отчетов администратора, редактировать сетевые схемы и определять полные IP-адреса и полностью квалифицированные доменные имена (FQDNs) для серверов, пулов и балансировщиков нагрузки.
-ms.openlocfilehash: e2a30e27b5b1928dacc36e5592033090484f065a
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: fd48494a603b6e279790a92e38040c3e26b01668
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60766297"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60845302"
 ---
 # <a name="review-the-administrator-reports-in-skype-for-business-server-2015"></a>Обзор отчетов администратора в Skype для бизнеса Server 2015 г.
 

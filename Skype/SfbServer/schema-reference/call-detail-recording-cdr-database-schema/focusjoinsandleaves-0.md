@@ -2,7 +2,7 @@
 title: Представление FocusJoinsAndLeaves
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 226460ef-766f-4d61-80cb-f332b65a210d
 description: В представлении FocusJoinsAndLeaves хранятся данные о подключении и отключении от отдельной конференции. Каждая конференции продемонстрирована на этом представлении отдельной записью, которая создается при каждом подключении и отключении пользователя от этой конференции. Это представление было представлено в Microsoft Lync Server 2013.
-ms.openlocfilehash: 6195558ec7a59e9e7605db4b56f761aec374f831
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 8dcc82fe641b451190236f813f432c237e7fa2e2
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60740305"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60845062"
 ---
 # <a name="focusjoinsandleaves-view"></a>Представление FocusJoinsAndLeaves
  

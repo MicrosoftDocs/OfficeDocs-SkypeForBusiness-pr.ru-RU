@@ -1,6 +1,6 @@
 ---
 title: Настройка надстройки Microsoft Teams собрания для Google Workspace
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 ms.reviewer: aravin
 manager: serdars
@@ -10,7 +10,7 @@ ms.service: msteams
 searchScope:
 - Microsoft Teams
 search.appverid: MET150
-description: Узнайте, как настроить Microsoft Teams собрания в Google Workspace.
+description: Узнайте, как настроить Microsoft Teams собрания для Google Workspace.
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
@@ -18,18 +18,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 05f3c4553e20bb9c02ff99dcf8ad452af05f054e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6116567a14aa55a5295b995336b49b30c7bb56ef
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777209"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60846112"
 ---
 # <a name="set-up-microsoft-teams-meeting-add-on-for-google-workspace"></a>Настройка надстройки Microsoft Teams собрания для Google Workspace
 
-Использование надстройки Microsoft Teams собрания позволяет пользователям календаря Google планировать собрания и присоединяться к ним Microsoft Teams непосредственно из Google Workspace. Пользователи получат доступ к Teams собраниям, включая видео- и аудиоконференцию, общий доступ к экрану, чат собрания, цифровые доски и т. д. Оставайтесь на связи и организовывайтесь для более тесной совместной работы, учебного заведения и жизни.
+С помощью Microsoft Teams собрания пользователи календаря Google могут планировать собрания и присоединяться к ним Microsoft Teams непосредственно из Google Workspace. Пользователи получат доступ к Teams собраниям, включая видео- и аудиоконференцию, общий доступ к экрану, чат собрания, цифровые доски и т. д. Оставайтесь на связи и организовывайтесь для более тесной совместной работы, учебного заведения и жизни.
 
-Надстройка Microsoft Teams собрания для Google Workspace должна быть включена администратором Teams, чтобы пользователи клиента могли получить доступ к приложению.
+Надстройка Microsoft Teams собраний для Google Workspace должна быть включена администратором Teams, чтобы пользователи клиента могли получить доступ к приложению.
 
 ## <a name="enable-or-disable-microsoft-teams-meeting-add-on-for-google-workspace-in-the-azure-portal"></a>Enable or disable Microsoft Teams meeting add-on for Google Workspace in the Azure portal
 
@@ -73,7 +73,7 @@ if ($servicePrincipal) {
 }
 ```
 
-Дополнительные сведения см. в [этой](/powershell/azure/create-azure-service-principal-azureps?view=azps-5.0.0)Azure PowerShell.
+Дополнительные сведения см. [в этой Azure PowerShell.](/powershell/azure/create-azure-service-principal-azureps?view=azps-5.0.0)
 
 ## <a name="delete-the-microsoft-teams-meeting-add-on-for-google-workspace"></a>Удаление надстройки Microsoft Teams собрания Google Workspace
 

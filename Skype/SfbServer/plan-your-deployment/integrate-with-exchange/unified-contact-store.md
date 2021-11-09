@@ -2,7 +2,7 @@
 title: Планирование единого магазина контактов в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 6/8/2017
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d56e11be-43dd-45d4-8ac6-3adfb03f5d1a
 description: Сводка. Просмотрите эту тему при планировании интеграции Skype для бизнеса Server с Exchange 2013 г.
-ms.openlocfilehash: f14d089717ac593ee94cf021a7e742d260dcf6dc
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 9334d8cdacfcc4ab2bf6cc733ce26faa7ff05280
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60762097"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60855233"
 ---
 # <a name="plan-for-unified-contact-store-in-skype-for-business-server-2015"></a>Планирование единого магазина контактов в Skype для бизнеса Server 2015 г.
  

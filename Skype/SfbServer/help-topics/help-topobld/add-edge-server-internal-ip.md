@@ -2,7 +2,7 @@
 title: Добавление внутреннего IP-адреса пограничного сервера
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 13485e9d-190e-4ece-b997-1cbf45aae77c
 description: Внутренний IP-адрес — это IP-адрес внутреннего интерфейса пограничного сервера.
-ms.openlocfilehash: 1966052f0dbd59c38c9910b4c0adc2da2ff76b72
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 40e01dee6c4377eda5392974ef9ffb9288fc8383
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60776389"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60846502"
 ---
 # <a name="add-edge-server-internal-ip"></a>Добавление внутреннего IP-адреса пограничного сервера
 

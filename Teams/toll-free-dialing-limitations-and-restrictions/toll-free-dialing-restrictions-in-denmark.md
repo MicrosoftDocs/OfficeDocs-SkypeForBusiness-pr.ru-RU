@@ -1,7 +1,7 @@
 ---
 title: Ограничения набора бесплатных номеров в Дании
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.reviewer: davlick, krkilaru
 ms.topic: reference
@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Это поможет вам узнать, как набирать бесплатные номера в каждой стране или регионе. После выбора страны или региона вы будете перенараны на страницу, которая содержит подробные сведения, ограничения и ограничения доступности бесплатных служб, где доступна бесплатная служба. В формате набора вы сможете использовать коды доступа, необходимые для набора бесплатного номера в каждой стране или регионе.
-ms.openlocfilehash: f7ec53112c2b3b72ab620b86b30b90bfcce5e0a8
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ef8f8aad694c9083c805d9f1ba7c42027dc053e3
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60745425"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60855123"
 ---
 # <a name="toll-free-dialing-restrictions-in-denmark"></a>Ограничения набора бесплатных номеров в Дании
 

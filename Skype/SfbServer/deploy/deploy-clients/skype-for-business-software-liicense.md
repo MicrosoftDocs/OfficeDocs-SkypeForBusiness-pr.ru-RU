@@ -1,7 +1,7 @@
 ---
 title: Skype Лицензия Skype для бизнеса системы номеров
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 78a664ba-fefc-4423-ac8f-b58e6fbc2e55
 description: Ознакомьтесь с этой темой, чтобы узнать, есть ли у Skype для бизнеса лицензия на программное обеспечение.
-ms.openlocfilehash: dc605af5bc4f922e1da1669fb471ad46173a7646
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 805a9abb6d4d49e653e779edc1d9e1cfb8d2a6ca
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60761577"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60845972"
 ---
 # <a name="skype-room-system-skype-for-business-software-license"></a>Skype Система номеров: Skype для бизнеса лицензия на программное обеспечение
  

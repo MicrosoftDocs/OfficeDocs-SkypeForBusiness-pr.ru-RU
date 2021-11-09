@@ -2,7 +2,7 @@
 title: Определение компьютеров в пуле сохраняемого чата
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: f87c3abb-d8b4-4e51-af84-9b579e3807c5
 ROBOTS: NOINDEX, NOFOLLOW
 description: Вы определяете компьютеры, которые будут частью пула серверов сохраняемого чата, введя полное доменное имя (FQDN) в компьютере FQDN. Оно должно совпадать с именем компьютера, указанного в записях хоста службы доменных имен (A или AAAA).
-ms.openlocfilehash: 6cc3665ebb874f4255d06615369fe92ea394cf84
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 47b2cf34cd442aa41a290f10d9b161a01a43e58c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60759971"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60854713"
 ---
 # <a name="define-computers-in-persistent-chat-pool"></a>Определение компьютеров в пуле сохраняемого чата
 

@@ -2,7 +2,7 @@
 title: Планирование маршрутов на основе расположения в Skype для бизнеса
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4aa494bd-0d66-4335-b9e8-f758d44a7202
 description: Планирование маршрутов на основе расположения в Skype для бизнеса Server Корпоративная голосовая связь, включая взаимодействие с одновременным звоном и делегирования, а также поддерживаемые сценарии маршрутирования на основе расположения.
-ms.openlocfilehash: 928a44ed9484f1766013404d23b61a2cc56841d2
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: aada1db39d4dacbd5a6ec7f5dec1ede08468c50e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741976"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60855336"
 ---
 # <a name="plan-for-location-based-routing-in-skype-for-business"></a>Планирование маршрутов на основе расположения в Skype для бизнеса
 
@@ -162,7 +162,7 @@ Location-Based маршрутике применяются следующие о
 
 В следующей таблице будут ходить некоторые из сценариев после накопительного обновления 4:
 
-|Location-Based маршрутивка пользователя|Другая сторона|Действие|Result|
+|Location-Based маршрутивка пользователя|Другая сторона|Action|Result|
 |:-----|:-----|:-----|:-----|
 |Skype для бизнеса Mobile   |ТСОП   |Skype для бизнеса Мобильный получает входящий вызов PSTN.   |Вызов осуществляется по вызову с помощью Work (CvW), а не VoIP.   |
 |Skype для бизнеса Mobile   |ТСОП   |Skype для бизнеса Mobile делает исходяющий вызов PSTN.   |Вызов осуществляется через CvW, а не VoIP.   |

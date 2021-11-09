@@ -2,7 +2,7 @@
 title: Установка SQL Server Reporting Services в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 638a1d0c-1ac7-4735-83f2-4df3d03c7cf9
 description: Сводка. Узнайте, куда идти, чтобы найти сведения о SQL Server Reporting Services, используемых Skype для бизнеса Server.
-ms.openlocfilehash: 8fcf219de49cb47c63585650cf64060afacf088d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 7fb22af9ec580b2d4086702330d9a5835751ce1d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60764837"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60845902"
 ---
 # <a name="install-sql-server-reporting-services-in-skype-for-business-server"></a>Установка SQL Server Reporting Services в Skype для бизнеса Server 
  

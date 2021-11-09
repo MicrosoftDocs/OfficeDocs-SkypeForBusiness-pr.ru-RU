@@ -2,7 +2,7 @@
 title: Настройка поставщиков для централизованной службы ведения журнала в Skype для бизнеса Server 2015 г.
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 6a197ecf-b56b-45e0-8e7c-f532ec5164ff
 description: Сводка. Сведения о настройке поставщиков сценариев для централизированной службы ведения журнала в Skype для бизнеса Server 2015 г.
-ms.openlocfilehash: a0c15061f209da9389018412322ea705f93b614f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 526c42e1a6fd741b228cd99450b9d11bc3152670
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60751668"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60855456"
 ---
 # <a name="configure-providers-for-centralized-logging-service-in-skype-for-business-server-2015"></a>Настройка поставщиков для централизованной службы ведения журнала в Skype для бизнеса Server 2015 г.
  

@@ -2,7 +2,7 @@
 title: Назначение политики ПИН-кода для каждого пользователя в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d8211c64-0b63-4193-a074-673da7d14287
 description: Сводка. Сертификаты stage AV и OAuth для Skype для бизнеса Server.
-ms.openlocfilehash: 2ca870ff500c5a963db17f90262c2f128c847d60
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 51bf650d907923c83801799a28220eae9a1f385c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60750358"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60845482"
 ---
 # <a name="assign-a-per-user-pin-policy-in-skype-for-business-server"></a>Назначение политики ПИН-кода для каждого пользователя в Skype для бизнеса Server
 
@@ -46,7 +46,7 @@ ms.locfileid: "60750358"
     
 5. (Необязательно) Укажите дополнительные критерии поиска, чтобы сузить результаты:
     
-   А. Нажмите кнопку **Добавить фильтр**.
+   а. Нажмите кнопку **Добавить фильтр**.
     
    Б. Введите свойство пользователя, набрав его или нажав кнопку стрелки в раскрывающемся списке, чтобы выбрать свойство.
     

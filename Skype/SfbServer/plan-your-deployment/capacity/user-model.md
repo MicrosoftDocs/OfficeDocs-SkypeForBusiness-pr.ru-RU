@@ -2,7 +2,7 @@
 title: Использование пользовательской модели планирования емкости для Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 902ab23e-94d6-482a-9d6e-c0b28dc3e03d
 description: В этой статье приводится руководство по количеству серверов, необходимых на сайте для количества пользователей на этом сайте, в соответствии с использованием, описанным в моделях пользователей в Skype для бизнеса Server.
-ms.openlocfilehash: 4f2027debf7a8c2f787a77149212bccf2f8c90c0
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 145e790c0f6c7ceeaa7330c0cd48ad68bc15b331
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60750008"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60846362"
 ---
 # <a name="capacity-planning-user-model-usage-for-skype-for-business-server"></a>Использование пользовательской модели планирования емкости для Skype для бизнеса Server
 
@@ -33,7 +33,7 @@ ms.locfileid: "60750008"
 
 **Оборудование, использованное при проведении тестирования**
 
-|Компонент оборудования|Рекомендации|
+|Компонент оборудования|Рекомендовано|
 |:-----|:-----|
 |ЦП   |64-bit dual processor, hex-core, 2.26 gigahertz (GHz) or higher.  <br/> Процессоры Intel Itanium не поддерживаются для Skype для бизнеса Server ролей сервера.   |
 |Память   |32 гигабайта (ГБ).   |
@@ -174,7 +174,7 @@ ms.locfileid: "60750008"
 
 **Оборудование, использованное при тестировании производительности мониторинга и архивации**
 
-|Компонент оборудования|Рекомендации|
+|Компонент оборудования|Рекомендовано|
 |:-----|:-----|
 |ЦП   |Два 64-разрядных шестиядерных процессора 2,26 ГГц или более мощных   |
 |Память   |48 ГБ   |

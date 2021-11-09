@@ -2,7 +2,7 @@
 title: Расширитель интерфейсных общих параметров для Lync Server 2010
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 58269c38-98d9-499f-ab69-6a63a6e5530e
 description: Вы редактируете свойства переднего конечного сервера или переднего конечного пула путем редактирования или настройки следующих атрибутов. Страница конфигурации разделена на следующие разделы.
-ms.openlocfilehash: d7257a8abf61f2d081562e72b40811017dcefaa0
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b515acd1aa475247f0f87206a0af50eedb21a294
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60768777"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60855566"
 ---
 # <a name="front-end-general-settings-expander-for-lync-server-2010"></a>Расширитель общих параметров сервера переднего плана для Lync Server 2010
 
