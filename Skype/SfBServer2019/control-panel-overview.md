@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: В этой статье представлен обзор новой панели управления.
-ms.openlocfilehash: 77e26b810bfd61effa5d94ec3648c440476a7cbe
-ms.sourcegitcommit: eba9fc680233e9e03773a2942f22afe6247eec41
+ms.openlocfilehash: 355a8b93e428b860a775ad01cf31df726c644654
+ms.sourcegitcommit: 11a803d569a57410e7e648f53b28df80a53337b6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60824647"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "60887307"
 ---
 # <a name="control-panel"></a>Панель управления
 
@@ -58,3 +58,10 @@ ms.locfileid: "60824647"
 |Регистратор         |    [Регистратор](use-powershell-security-menu.md#registrar)     |
 |Веб-служба      |  [Веб-служба](use-powershell-security-menu.md#web-service)       |
 |Политика ПИН-кодов    | [Политика ПИН-кодов](use-powershell-security-menu.md#pin-policy)        |
+
+## <a name="im-and-presence"></a>Обмен мгновенными сообщениями и сведениями о присутствии
+
+|Sub-menu  |Источник информации для cmdlet  |
+|---------|---------|
+|Фильтр файлов         |    [Фильтр файлов](use-powershell-im-and-presence-menu.md#file-filter)     |
+|Фильтр URL-адресов      |  [Фильтр URL-адресов](use-powershell-im-and-presence-menu.md#url-filter)       |
