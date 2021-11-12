@@ -21,17 +21,14 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Узнайте, как перена маршрутизации звонков для ненанамер номера в организации.
-ms.openlocfilehash: 2574a0ac734ed6caee1eadf5a5ee006111713055
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: 93d9ce289820bdcf9bb4a1e13e78bb8794b77dbd
+ms.sourcegitcommit: bdca3b5eb35a17b27c5a052d83ab229b7c911dd4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60537000"
+ms.lasthandoff: 11/12/2021
+ms.locfileid: "60947506"
 ---
 # <a name="routing-calls-to-unassigned-numbers"></a>Маршруты звонков на ненаписаные номера
-
-> [!NOTE]
-> Эта функция доступна как общедоступный предварительный выпуск.
 
 Как администратор вы можете перенаправление звонков на ненаправленные номера в организации. Например, вам может потребоваться перенанакомить звонки на ненанаписаные номера следующим образом: 
 
@@ -45,7 +42,7 @@ ms.locfileid: "60537000"
 
 Для переназначения звонков на неназначенный номер используйте командлет New/Get/Set/Remove-CsTeamsNussignedNumberTreatment, доступный в модуле Teams PowerShell 2.5.1 или более поздней.
 
-Необходимо указать номер или диапазон номеров, а также связанную маршрутику для звонков на эти номера. Например, следующая команда указывает, что все вызовы на номер +1 (555) 222-3333 будут перенаадресовы на учетную запись ресурса aa@contoso.com:
+Необходимо указать номер или диапазон номеров, а также связанную маршрутику для звонков на эти номера. Например, следующая команда указывает на то, что все звонки на номер +1 (555) 222-3333 будут перенаадресовы в учетную запись aa@contoso.com:
 
 ``` PowerShell
 $RAObjectId = (Get-CsOnlineApplicationInstance -Identity aa@contoso.com).ObjectId
