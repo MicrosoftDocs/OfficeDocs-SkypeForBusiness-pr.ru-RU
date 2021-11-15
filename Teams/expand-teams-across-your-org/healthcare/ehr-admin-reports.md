@@ -1,5 +1,5 @@
 ---
-title: Teams виртуальных посещений — отчеты для администраторов
+title: Teams виртуальных посещений — отчеты администраторов соединитегорий EHR
 author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
@@ -23,22 +23,22 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ansantam
 description: Просмотр отчетов администраторов о посещениях Teams EHR
-ms.openlocfilehash: 7ec22bdfd7a73ba39c9e94d0c65f2da6f1f5f973
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 256a93dc9e78036659eccf86c54d9da62f4277bb
+ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858766"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60959888"
 ---
-# <a name="microsoft-teams-ehr-connector-admin-reports"></a>Microsoft Teams Отчеты об администрировании соединители EHR
+# <a name="microsoft-teams-ehr-connector-admin-reports"></a>Microsoft Teams отчеты администратора соединители eHR
 
-Диалоговое Microsoft Teams отчет об администрировании соединитела (EHR) обеспечивает быстрое и удобное для чтения представление данных об использовании.
+Диалоговое окно Microsoft Teams отчете администратора электронной записи здоровья (EHR) обеспечивает быстрое и удобное для чтения представление данных об использовании.
 
-Отчет об администрировании Microsoft Teams EHR можно просмотреть на панели Microsoft Teams центра администрирования и просмотреть диалоговое окно.
+Чтобы просмотреть отчет Teams EHR, переходить на панель Microsoft Teams центра администрирования и просматривать диалоговое окно.
 
 Доступ к отчету можно получить с Microsoft Teams панели мониторинга Центра администрирования.
 
- ![диалоговое окно с распределением и ограничениями виртуальных посещений.](../../media/admin-connector-report.png)
+ ![диалоговое окно объемов виртуальных посещений и ограничений.](../../media/admin-connector-report.png)
 
 Диалоговое окно содержит следующие данные:
 
@@ -46,8 +46,9 @@ ms.locfileid: "60858766"
 - Оставшиеся выделение
 - Завершенные посещения
 
-Вы можете использовать диалоговое окно отчета для покупки дополнительных виртуальных посещений.
+Диалоговое окно отчета можно использовать для покупки дополнительных виртуальных посещений.
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-articles"></a>Статьи по теме
 
-[Teams виртуальных посещений](ehr-admin.md)
+- [Виртуальные посещения с Teams интеграция с EHR Cerner](ehr-admin-cerner.md)
+- [Виртуальные посещения с Teams Интеграция с EHR](ehr-admin.md)

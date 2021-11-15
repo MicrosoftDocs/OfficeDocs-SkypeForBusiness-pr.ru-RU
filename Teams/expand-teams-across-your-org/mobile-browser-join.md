@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: hafarmer
 description: Узнайте о том, как присоединиться к Teams в мобильных браузерах.
-ms.openlocfilehash: a0c7bc626414280a8cba5ea55aaa9062ef190ca3
-ms.sourcegitcommit: e7f6125d348b6f14eeba28e09d5f1975ad4fde69
+ms.openlocfilehash: f8307902d7689cf56f10f3705ca3d5611a0f3d11
+ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2021
-ms.locfileid: "60249761"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60960118"
 ---
 # <a name="manage-the-join-experience-for-teams-virtual-visits-on-mobile-browsers"></a>Управление опытом join для Teams виртуальных посещений в мобильных браузерах
 
@@ -35,7 +35,10 @@ Microsoft Teams позволяет людям присоединяться к в
 В настоящее время для встреч, запланированных с помощью мобильного браузера, доступны следующие варианты:
 
 - [Приложение Bookings](https://support.microsoft.com/office/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?ui=en-us&rs=en-us&ad=us#PickTab=Bookings)
-- [Microsoft Teams Соединитектор электронных медицинских записей (EHR)](healthcare/ehr-admin.md)
+- Microsoft Teams EHR
+
+  - Интеграция [с EHR Cerner](healthcare/ehr-admin-cerner.md)
+  - Интеграция [с EHR](healthcare/ehr-admin.md)
 
 ## <a name="set-up-mobile-browser-join"></a>Настройка присоединиться к мобильному браузеру
 
@@ -43,7 +46,7 @@ Microsoft Teams позволяет людям присоединяться к в
 
 Планиры в вашей организации могут включить эту функцию для определенных типов встреч и для отдельных встреч в приложении Bookings.
 
-После того как эта функция будет включена, подтверждение или SMS-сообщение, отправленное участникам, будет содержать ссылку на собрание, которая открывается Teams в мобильном браузере. На мобильных устройствах с Android Teams в Chrome. На мобильных устройствах с iOS Teams в Safari.
+После того как эта функция будет включена, в подтверждении сообщения электронной почты или SMS,отправленного участникам, будет содержаться ссылка на собрание, которая открывается Teams в мобильном браузере. На мобильных устройствах с Android Teams в Chrome. На мобильных устройствах с iOS Teams в Safari.
 
 #### <a name="turn-on-mobile-browser-join-for-an-appointment-type"></a>Включив мобильное присоединиться к браузеру для типа встречи
 
@@ -57,11 +60,13 @@ Microsoft Teams позволяет людям присоединяться к в
 
 :::image type="content" source="../media/mobile-browser-join-bookings-form.png" alt-text="Снимок экрана: параметр "Разрешить участникам присоединяться из мобильного браузера" в новой форме резервирования в приложении Bookings":::
 
-### <a name="appointments-scheduled-through-the-teams-ehr-connector"></a>Встречи, запланированные через соедините Teams EHR
+### <a name="appointments-scheduled-through-the-teams-ehr-connector"></a>Встречи, запланированные через Teams EHR
 
 Вы и ваши сотрудники не должны ничего настроить!
 
-Соединит Teams EHR поддерживает пациентов, которые присоединяются к виртуальным посещениям через MyChart в Интернете и на мобильных устройствах. Во время встречи пациенты могут начать виртуальный визит с myChart с помощью кнопки **Начать виртуальное посещение.** Пациент выбирает нужный браузер, а затем Teams в этом браузере.
+**Интеграция с EHR Cerner:** соединитер Teams EHR поддерживает пациентов, которые присоединяются к виртуальным посещениям с помощью мобильных устройств. Во время встречи пациенты могут присоединиться к виртуальному посещению, коснувшись ссылки в SMS-сообщении. Пациент выбирает нужный браузер, а затем Teams в этом браузере.
+
+**Интеграция с EHR:** соединит Teams EHR поддерживает пациентов, которые присоединяются к виртуальным посещениям через MyChart в Интернете и на мобильных устройствах. Во время встречи пациенты могут начать виртуальный визит с myChart с помощью кнопки **Начать виртуальное посещение.** Пациент выбирает нужный браузер, а затем Teams в этом браузере.
 
 ## <a name="supported-mobile-browsers"></a>Поддерживаемые браузеры мобильных устройств
 
@@ -82,11 +87,12 @@ Microsoft Teams позволяет людям присоединяться к в
 Сотрудник, который проводит виртуальное посещение, может поделиться своим экраном со своего рабочего Teams, мобильного или веб-клиента с участником, который присоединяется из мобильного браузера. Однако участники не могут делиться своим экраном в мобильном браузере.
 
 > [!NOTE]
-> Мы добавляем дополнительные возможности для присоединиться к собранию в будущих выпусках Teams, поэтому проверяйте эту возможность, чтобы получить самые последние сведения. Чтобы быть в верхней части предстоящих Teams, ознакомьтесь с Microsoft 365 [развития](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams).
+> Мы добавляем дополнительные возможности для присоединиться к собранию в будущих выпусках Teams, поэтому проверяйте эту возможность, чтобы получить самые последние сведения. Чтобы быть в верхней части предстоящих Teams возможностей, ознакомьтесь с Microsoft 365 [развития](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams).
 
 ## <a name="related-articles"></a>Статьи по теме
 
 - [Виртуальные посещения с Teams и приложением Bookings](bookings-virtual-visits.md)
 - [Создание типа встречи в Bookings](https://support.microsoft.com/office/create-an-appointment-type-810eac77-6a65-4dc8-964d-c00eadf43887)
 - [Присоединиться к встрече с Bookings в качестве участника](https://support.microsoft.com/office/join-a-bookings-appointment-as-an-attendee-95cea12d-2220-421f-a663-6efb20913c7f)
-- [Виртуальные посещения с помощью Teams — интеграция с электронными медицинскими картами](healthcare/ehr-admin.md)
+- [Виртуальные посещения с Teams интеграция с EHR Cerner](healthcare/ehr-admin-cerner.md)
+- [Виртуальные посещения с Teams Интеграция с EHR](healthcare/ehr-admin.md)
