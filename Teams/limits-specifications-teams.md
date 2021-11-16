@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9ac3ebe8d4b8e2572c5e4d6766d671a86101340b
-ms.sourcegitcommit: 5a28d052379aef67531d3023cbe4dff30dba1136
+ms.openlocfilehash: 3260ec894de12b405e0fea8e0d3c75a550d896d4
+ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60465829"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60959918"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Ограничения и спецификации для Microsoft Teams
 
@@ -162,7 +162,7 @@ ms.locfileid: "60465829"
 > [!IMPORTANT]
 > **Повышение предельных значений для трансляций Microsoft 365**
 >
-> **Чтобы продолжить поддерживать потребности наших клиентов, временное увеличение лимитов на прямые трансляции продлевается до 31 декабря 2021 года, включая**:
+> **Чтобы продолжить поддерживать потребности наших клиентов, временное увеличение лимитов на трансляции продлевается до 30 января 2022 года, в том числе**:
 >
 >- Поддержка событий для до 20 000 участников
 >- 50 одновременных трансляций в клиенте
