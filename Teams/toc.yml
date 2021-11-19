@@ -745,7 +745,7 @@ items:
                 href: ptsn-mask-phone-numbers.md
           - name: Доступность аудиоконференций в различных странах и регионах
             href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
-          - name: Справочные материалы
+          - name: Справка
             items:
               - name: Поддерживаемые языки аудиоконференций
                 href: audio-conferencing-supported-languages.md
@@ -1586,7 +1586,7 @@ items:
             href: audio-conferencing-with-direct-routing-for-gcch-and-dod.md
           - name: Пакеты политик Teams для государственных организаций
             href: policy-packages-gov.md
-  - name: Справочные материалы
+  - name: Справка
     items:
       - name: Ограничения и спецификации для Teams
         href: limits-specifications-teams.md
@@ -1641,6 +1641,8 @@ items:
             href: devices/device-management.md
           - name: Удаленная подготовка и вход
             href: devices/remote-provision-remote-login.md
+          - name: Удаленный вход и выход
+            href: devices/remote-sign-in-and-sign-out.md
           - name: Удаленное обновление устройств
             href: devices/remote-update.md
           - name: Управление тегами устройств Teams
