@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: ''
 description: Узнайте, как управлять приложением Bookings в Teams для пользователей в организации.
-ms.openlocfilehash: 42e7c4741104f417f7e24a0e6441acb57cac203a
-ms.sourcegitcommit: 69a5d4994ef75b9c16efa99554fb7f2ee1ccf52a
+ms.openlocfilehash: ae471bfee1901396ee3419380fcd7620e21231fe
+ms.sourcegitcommit: 5c88a07f07f9faad294d614d507e43173efc5f46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "58973057"
+ms.lasthandoff: 11/19/2021
+ms.locfileid: "61111979"
 ---
 # <a name="manage-the-bookings-app-in-microsoft-teams"></a>Управление приложением Bookings в Microsoft Teams
 
@@ -41,7 +41,7 @@ ms.locfileid: "58973057"
 
 - Для организации должна быть включена служба Microsoft Bookings.
 
-- У пользователей должна быть соответствующая лицензия. Office 365 A3, A5, E3, E5, F1, F3, Microsoft 365 A3, A5, E3 и E5, бизнес-стандарт.
+- У пользователей должна быть соответствующая лицензия. Office 365 A3, A5, E3, E5, F1, F3, Microsoft 365 A3, A5, E3, E5, F1, F3 и Business Standard.
 
 - У всех пользователей приложения Bookings и всех сотрудников, участвующих в собраниях, должна быть лицензия, которая Teams планирования собраний.
 
@@ -49,19 +49,19 @@ ms.locfileid: "58973057"
 
 ## <a name="availability-of-bookings-in-teams"></a>Доступность Bookings в Teams
 
-Приложение Microsoft Bookings для Teams доступно на компьютере и в Интернете. Его можно найти в статье [Приложения Teams](https://teams.microsoft.com/l/app/4c4ec2e8-4a2c-4bce-8d8f-00fc664a4e5b?source=store-copy-link) и **Управление** приложениями в Teams центре администрирования.
+Приложение Microsoft Bookings для Teams доступно на компьютере и в Интернете. Его можно найти в статье Приложения [в Teams](https://teams.microsoft.com/l/app/4c4ec2e8-4a2c-4bce-8d8f-00fc664a4e5b?source=store-copy-link) и **в** статье Управление приложениями в Teams центре администрирования.
 
 ### <a name="control-access-to-bookings-within-your-organization"></a>Управление доступом к Bookings в организации
 
 Существует несколько способов управления доступом к приложению Bookings и определенным функциям приложения.
 
-Чтобы узнать, как включить или отключить Microsoft Bookings в Центр администрирования Microsoft 365 и как создать политику приложения Bookings, которая позволит выбранным пользователям создавать календари [Bookings,](https://support.microsoft.com/en-us/office/get-access-to-microsoft-bookings-5382dc07-aaa5-45c9-8767-502333b214ce)см. в этой теме.
+Чтобы узнать, как включить или отключить Microsoft Bookings в Центр администрирования Microsoft 365 и как создать политику приложения Bookings, позволяющую выбранным пользователям создавать календари [Bookings,](https://support.microsoft.com/en-us/office/get-access-to-microsoft-bookings-5382dc07-aaa5-45c9-8767-502333b214ce)см. в этой теме.
 
-Вы также [можете создать политику Teams приложения, чтобы закрепить приложение Bookings для некоторых пользователей.](teams-app-setup-policies.md)
+Вы также можете создать политику Teams приложения, чтобы [закрепить приложение Bookings для некоторых пользователей.](teams-app-setup-policies.md)
 
 ## <a name="recommended-meeting-policy-settings"></a>Рекомендуемые параметры политики собраний
 
-Чтобы обеспечить оптимальный опыт работы с Bookings, создайте политику  Teams собрания, чтобы автоматически допустить всех пользователей в организации и назначить ее сотрудникам. Это позволит сотрудникам автоматически присоединяться к встрече и включить работу с "lobby" для внешних участников. Подробнее об автоматическом [допуске людей к собраниям.](meeting-policies-participants-and-guests.md#automatically-admit-people)
+Чтобы обеспечить оптимальный опыт работы с Bookings, создайте политику  Teams собрания, чтобы автоматически допустить всех пользователей в организации и назначить ее сотрудникам. Это позволит сотрудникам автоматически присоединяться к встрече и включить работу с "lobby" для внешних участников. Подробнее об автоматическом допуске людей [к собраниям.](meeting-policies-participants-and-guests.md#automatically-admit-people)
 
 ## <a name="optional-staff-approvals-setting"></a>Дополнительная настройка согласования с сотрудниками
 
@@ -98,11 +98,11 @@ Set-Mailbox -identity business@domain.onmicrosoft.com -WindowsEmailAddress busin
   - Пробелы в функциях или отсутствие функций
   - Дефекты и проблемы
   
-Чтобы отправить отзыв,  в нижней части левой панели навигации Teams  кнопку Справка, а затем выберите сообщить о проблеме **для всех.** Указать в начале отчета о отзывах, что вы отправляете отзыв о "Bookings", чтобы мы могли легко определить проблемы с Bookings.
+Чтобы отправить отзыв,  в нижней части панели навигации слева Teams  кнопку Справка, а затем выберите Сообщить о проблеме **для ВСЕХ.** Указать в начале отчета о отзывах, что вы отправляете отзыв о "Bookings", чтобы мы могли легко определить проблемы с Bookings.
 
 ## <a name="related-articles"></a>Статьи по теме
 
-[Управление опытом join для Teams виртуальных посещений в мобильных браузерах](expand-teams-across-your-org/mobile-browser-join.md)
+[Управление опытом присоединиться к Teams виртуальных посещений в мобильных браузерах](expand-teams-across-your-org/mobile-browser-join.md)
 
 
   [Документация по Bookings для конечных пользователей](https://support.office.com/en-us/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?ui=en-US&rs=en-US&ad=US#PickTab=Bookings)
