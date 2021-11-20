@@ -18,12 +18,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c2e598a44fade1805824354606229668fb3494d3
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d9c75d531cc2371c8ce5c6baf2eb22924129bbb6
+ms.sourcegitcommit: 32ba2ed0343e19f56e62fb3c507923c95f11b1bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850582"
+ms.lasthandoff: 11/19/2021
+ms.locfileid: "61124246"
 ---
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>Установите Microsoft Teams с помощью Microsoft Endpoint Configuration Manager
 
@@ -38,14 +38,12 @@ ms.locfileid: "60850582"
 |---------|---------|---------|-----------|
 |Коммерческий сектор     | [32-разрядная версия](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)        | [64-разрядная версия](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)       | [ARM64](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=arm64&managedInstaller=true&download=true)|
 |Государственные правительственные GCC     | [32-разрядная версия](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&ring=general_gcc&download=true)       | [64-разрядная версия](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&ring=general_gcc&download=true)        |[ARM64](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=arm64&managedInstaller=true&download=true) |
-|Государственные правительственные правительственные GCC высокая    | [32-разрядная версия](https://gov.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)         | [64-разрядная версия](https://gov.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)        |[ARM64](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=arm64&managedInstaller=true&download=true) |
-|Правительственные правительственные окки США     | [32-разрядная версия](https://dod.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)        | [64-разрядная версия](https://dod.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)        | [ARM64](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=arm64&managedInstaller=true&download=true)|
+|Государственные правительственные правительственные GCC высокий    | [32-разрядная версия](https://gov.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)         | [64-разрядная версия](https://gov.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)        |[ARM64](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=arm64&managedInstaller=true&download=true) |
+|Правительственные правительственные компании США     | [32-разрядная версия](https://dod.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)        | [64-разрядная версия](https://dod.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)        | [ARM64](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=arm64&managedInstaller=true&download=true)|
 
 **Чтобы обеспечить успешное развертывание, учитывайте следующее:**
 
 - Устанавливайте 64-разрядную версию Teams в 64-разрядных операционных системах. При попытке установить 64-разрядную версию Teams в 32-разрядной операционной системе, установка завершится неудачно, и вы не получите сообщение об ошибке.
-
-- Если клиент пользователя находится в облаках GCCH или DoD, пользователю необходимо установить начальную конечную точку в реестре, добавив значение **CloudType** в раздел реестра **HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Teams**. Типом для **CloudType** является **DWORD**, а значения — (0 = Не задано, 1 = коммерческий сектор, 2 = GCC, 3 = GCCH, 4 = DOD). Установка конечной точки с помощью раздела реестра ограничивает Teams подключением к правильной облачной конечной точке для подключения к Teams перед входом.
 
 - Приложение Teams также может быть включено в развертывание приложений Microsoft 365 для предприятий. Дополнительные сведения см. в статье [Развертывание Microsoft Teams с помощью Приложений Microsoft 365 для предприятий](/deployoffice/teams-install).
 
