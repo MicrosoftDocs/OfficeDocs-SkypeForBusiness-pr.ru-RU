@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: Узнайте, как управлять политиками веб-Teams собраний.
-ms.openlocfilehash: 35c0cc2ab6c05d123aae45bc0c375cf815db36b4
-ms.sourcegitcommit: 74d3ab35c344d70b2399bc46a6ced3ab2762a470
+ms.openlocfilehash: 19918d7a32a9a5069dab8dc87011de6112bbe364
+ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60138215"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "61205559"
 ---
 # <a name="set-up-for-webinars-in-microsoft-teams"></a>Подготовка к вебинарам в Microsoft Teams
 
@@ -37,18 +37,18 @@ ms.locfileid: "60138215"
 После настройки вебинары в организации пользователи могут планировать вебинары и открывать регистрацию для участников. В отличие от обычных собраний, которые содержат много обсуждений и заданий задач, вебинары предназначены для интерактивных презентаций и предоставляют инструменты для анализа участников.
 
 > [!IMPORTANT]
-> Чтобы позволить пользователям настраивать вебинары, Microsoft Списки необходимо настроить в SharePoint, включив создание личных списков. Дополнительные параметры см. в [Microsoft Списки.](/sharepoint/control-lists)
+> Чтобы позволить пользователям настраивать вебинары, Microsoft Списки необходимо настроить SharePoint, включив создание личных списков. Дополнительные параметры см. в [Microsoft Списки.](/sharepoint/control-lists)
 
 ## <a name="allow-users-to-schedule-webinars-in-the-teams-admin-center"></a>Разрешить пользователям планировать вебинары в центре Teams администрирования
 
-Вебинары для Teams организации можно использовать в Центре администрирования. Политики для вебинары можно найти в центре администрирования Teams в статье Политики собраний  >  **собраний.**
+С помощью центра Teams администрирования можно настроить вебинары для своей организации. Политики для вебинары можно найти в центре администрирования Teams в статье Политики собраний  >  **собраний.**
 
-### <a name="allow-meeting-registration"></a>Разрешить регистрацию на собрании
+### <a name="meeting-registration"></a>Регистрация на собрании
 
 Если включить этот режим, пользователи смогут планировать вебинары. По умолчанию этот режим включен. Если вы хотите отключить регистрацию на собрании, установите для этой политики **отключение**.
 
 > [!IMPORTANT]
-> **Для регистрации собраний необходимо** разрешить планирование частных собраний. По умолчанию эта политика включена в центре Teams администрирования. Для учащихся в клиентах для образования эта политика по умолчанию отключена. Дополнительные сведения о том, как включить планирование частных собраний для учащихся, см. в Teams для образования политик и [пакетов политик.](policy-packages-edu.md)
+> **Для регистрации собрания** необходимо запланировать частные собрания. По умолчанию эта политика включена в центре Teams администрирования. Для учащихся в клиентах для образования эта политика по умолчанию отключена. Дополнительные сведения о том, как включить планирование частных собраний для учащихся, см. в Teams для образования политик и [пакетов политик.](policy-packages-edu.md)
 
 ### <a name="who-can-register"></a>Кто можете зарегистрировать
 
@@ -57,17 +57,17 @@ ms.locfileid: "60138215"
 > [!NOTE]
 > По умолчанию для Кто **можно зарегистрировать** значение Все **в организации в** клиентах для образования. Дополнительные сведения см. [в Teams для образования политики](easy-policy-setup-edu.md).
 
-### <a name="allow-engagement-report"></a>Разрешить отчет о взаимодействии
+### <a name="engagement-report"></a>Отчет о взаимодействии
 
-Если включить эту службу, организаторы смогут видеть отчеты о том, кто зарегистрировался и участвовал в вебинары, которые они настроили. По умолчанию эта политика отключена. Дополнительные сведения см. в теме Политики собраний [в Teams - Разрешить отчет о взаимодействии.](meeting-policies-in-teams-general.md#allow-engagement-report) Сведения о пользовательском интерфейсе см. в теме Просмотр и скачивание отчетов [об посещении собраний.](https://support.microsoft.com/office/view-and-download-meeting-attendance-reports-in-teams-ae7cf170-530c-47d3-84c1-3aedac74d310?ui=en-US&#x26;rs=en-US&#x26;ad=US)
+Если включить эту службу, организаторы смогут видеть отчеты о том, кто зарегистрировался и участвовал в вебинары, которые они настроили. По умолчанию эта политика отключена. Дополнительные сведения см. в политике [собраний в Teams — отчет о взаимодействии.](meeting-policies-in-teams-general.md#engagement-report) Сведения о пользовательском интерфейсе см. в теме Просмотр и скачивание отчетов [об посещении собраний.](https://support.microsoft.com/office/view-and-download-meeting-attendance-reports-in-teams-ae7cf170-530c-47d3-84c1-3aedac74d310?ui=en-US&#x26;rs=en-US&#x26;ad=US)
 
 ## <a name="allow-users-to-schedule-webinars-using-powershell"></a>Разрешить пользователям планировать вебинары с помощью PowerShell
 
-Чтобы настроить вебинары в Windows PowerShell, можно использовать следующие атрибуты Windows PowerShell **Set-CsTeamsMeetingPoli Teams cy.**
+Чтобы настроить вебинары в Windows PowerShell, можно использовать следующие Teams атрибуты Windows PowerShell **Set-CsTeamsMeetingPolicy.**
 
-- AllowMeetingRegistration
+- MeetingRegistration
 - WhoCanRegister
-- AllowPrivateMeetingScheduling
+- Планирование закрытого собрания
 
 Дополнительные сведения о cmdlet см. в документе [Set-CsTeamsMeetingPolicy.](/powershell/module/skype/set-csteamsmeetingpolicy)
 
@@ -76,21 +76,21 @@ ms.locfileid: "60138215"
 
 ### <a name="allow-users-to-schedule-webinars"></a>Разрешить пользователям планировать вебинары
 
-Вы можете ограничить регистрацию только пользователями в организации или открыть ее для всех пользователей в клиенте и за ее пределами. По умолчанию **в whoCanRegister** включено значение Все для глобальной **политики (по** умолчанию в организации).  Если вы хотите отключить регистрацию на собрании, установите **для allowMeetingRegistration (РазрешитьMeetingRegistration)** **ложное.**
+Вы можете ограничить регистрацию только пользователями в организации или открыть ее для всех пользователей в клиенте и за ее пределами. По умолчанию **в whoCanRegister** включено значение Все для глобальной **политики (по** умолчанию в организации).  Если вы хотите отключить регистрацию на собрании, установите **для meetingRegistration (Собрание)** false **(Ложь).**
 
 > [!IMPORTANT]
-> **Чтобы разрешитьMeetingRegistration, задайте для allowPrivateMeetingMeetingScheduling** (Планирование планирования событий **AllowPrivateMeetingScheduling)** true. 
+> **Чтобы планирование закрытого собрания**  работало, необходимо установить для расписания частных собраний **true.**
 
 1. Включить регистрацию собраний
 
 ```powershell
-Set-CsTeamsMeetingPolicy -AllowMeetingRegistration $True
+Set-CsTeamsMeetingPolicy -MeetingRegistration $True
 ```
 
 2. Включить планирование частных собраний
 
 ```powershell
-Set-CsTeamsMeetingPolicy -AllowPrivateMeetingScheduling $True
+Set-CsTeamsMeetingPolicy -PrivateMeetingScheduling $True
 ```
 
 3. Настройка пользователей, которые могут регистрироваться на вебинары
@@ -112,10 +112,10 @@ Set-CsTeamsMeetingPolicy -WhoCanRegister Everyone
 
 ### <a name="collect-meeting-attendance"></a>Сбор участия в собраниях
 
-Если вы хотите, чтобы организаторы проанализировали, кто зарегистрировал вебинары и участвовал в них, необходимо включить политику **AllowEngagementReport.** Для этого в PowerShell запустите следующую команду:
+Если вы хотите, чтобы организаторы проанализировали, кто зарегистрировал вебинары и участвовал в них, необходимо включить политику **EngagementReport.** Для этого в PowerShell запустите следующую команду:
 
 ```powershell
-Set-CsTeamsMeetingPolicy -AllowEngagementReport Enabled
+Set-CsTeamsMeetingPolicy -EngagementReport Enabled
 ```
 
 ## <a name="configure-webinar-settings"></a>Настройка параметров вебинара
@@ -126,4 +126,4 @@ Set-CsTeamsMeetingPolicy -AllowEngagementReport Enabled
 
 - [Политики собраний в Teams - общие](meeting-policies-in-teams-general.md)
 - [Документация по Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)
-- [Teams для образования Мастер политик](easy-policy-setup-edu.md)
+- [Teams для образования политики](easy-policy-setup-edu.md)
