@@ -19,12 +19,12 @@ description: Практическое руководство по разверт
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a4008aa9f69f525e3fbbeb6fd7596822d7ac9be8
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: 37d7c3999986373e7ad72176cfc0182f09144e3a
+ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60536900"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "61205419"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Запись облачного собрания в Teams
 
@@ -79,7 +79,7 @@ ms.locfileid: "60536900"
 
 Вы можете использовать центр администрирования Microsoft Teams или PowerShell, чтобы установить политику собраний команд, чтобы контролировать возможность записи собраний пользователей.
 
-В центре администрирования Microsoft Teams включите или выключите параметр **Разрешить запись в облаке** в политике собрания. Подробнее: [Параметры политики собраний для аудио- и видеофайлов](meetings-policies-recording-and-transcription.md#allow-cloud-recording).
+В Центре администрирования Microsoft Teams включите или выключите параметр **Запись в облаке** в политике собраний. Подробнее: [Параметры политики собраний для аудио- и видеофайлов](meetings-policies-recording-and-transcription.md#allow-cloud-recording).
 
 Используя PowerShell, вы настраиваете параметр AllowCloudRecording в TeamsMeetingPolicy. Чтобы узнать больше, см. [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy)и [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy).
 
@@ -177,7 +177,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 |Я хочу, чтобы все пользователи в моей компании могли транскрибировать записи собраний. |<ol><li>Убедитесь, что параметр AllowTranscription глобальной политики CsTeamsMeetingPolicy имеет значение True. <li>Все пользователи имеют глобальную политику csTeamsMeetingPolicy ИЛИ одну из политик CsTeamsMeetingPolicy со значением AllowTranscription = True. </ol>|
 |Я хочу, чтобы большинство моих пользователей могли транскрибировать записи собраний, но выборочно запретить транскрибирование определенным пользователям. |<ol><li>Убедитесь, что параметр AllowTranscription глобальной политики CsTeamsMeetingPolicy имеет значение True. <li>У большинства пользователей есть глобальные политики CsTeamsMeetingPolicy ИЛИ одна из политик CsTeamsMeetingPolicy с AllowTranscription = True <li>Всем другим пользователям была предоставлена одна из политик CsTeamsMeetingPolicy с AllowTranscription = False </ol>|
 |Я хочу, чтобы транскрибирование записи было отключено на 100 %. |<ol><li>Убедитесь, что параметр AllowTranscription глобальной политики CsTeamsMeetingPolicy имеет значение False. <li>Всем пользователям была предоставлена глобальная политика CsTeamsMeetingPolicy ИЛИ одна из политик CsTeamsMeetingPolicy с AllowTranscription = False </ol>|
-|Я хочу, чтобы транскрибирование было отключено для большинства пользователей, но выборочно разрешить транскрибирование определенным пользователям. |<ol><li>Убедитесь, что параметр AllowCloudRecording глобальной политики CsTeamsMeetingPolicy имеет значение False. <li>Большинству пользователей была предоставлена глобальная политика CsTeamsMeetingPolicy ИЛИ одна из политик CsTeamsMeetingPolicy с AllowCloudRecording = False. <li>Всем остальным пользователям была предоставлена одна из политик CsTeamsMeetingPolicy с AllowCloudRecording = True. </ol>|
+|Я хочу, чтобы транскрибирование было отключено для большинства пользователей, но выборочно разрешить транскрибирование определенным пользователям. |<ol><li>Убедитесь, что параметр AllowCloudRecording глобальной политики CsTeamsMeetingPolicy имеет значение False. <li>Большинству пользователей была предоставлена глобальная политика CsTeamsMeetingPolicy ИЛИ одна из политик CsTeamsMeetingPolicy с AllowCloudRecording = False. <li>Всем другим пользователям была предоставлена одна из политик CsTeamsMeetingPolicy с AllowCloudRecording = True. </ol>|
 
 ### <a name="terms-of-use-acceptance"></a>Принятие условий использования
 Если в вашей организации действует политика записи собраний, которую пользователи должны принять перед записью какого-либо собрания, используйте функцию [условий использования Azure Active Directory](/azure/active-directory/conditional-access/terms-of-use). Эта функция позволяет пользователям принимать условия пользовательской политики вашей организации перед получением доступа к Microsoft Teams. Эта функция относится не только к нажатию кнопки записи, но и к использованию Teams и других приложений Microsoft 365 в целом. Мы рекомендуем добавить информацию о записи собраний в общие условия использования Teams или Microsoft 365. 
@@ -431,7 +431,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -**New** MeetingRecordingExpirationDay
 
 ### <a name="retention-policies"></a>Политики хранения
 
-С помощью свойства ProgID можно применять автоматические метки хранения только к видеофайлам записи собраний Teams. Дополнительную информацию см. в [этой статье](/microsoft-365/compliance/apply-retention-labels-automatically?view=o365-worldwide#microsoft-teams-meeting-recordings).
+С помощью свойства ProgID можно применять автоматические метки хранения только к видеофайлам записи собраний Teams. Дополнительную информацию см. в [этой статье](/microsoft-365/compliance/apply-retention-labels-automatically#microsoft-teams-meeting-recordings).
 
 ### <a name="data-loss-prevention-dlp-policies"></a>Политики защиты от потери данных (DLP)
 
