@@ -3,12 +3,48 @@
 
 
 
+## <a name="week-of-november-22-2021"></a>Неделя от 22 ноября 2021 г.
+
+
+| Дата публикации |Название статьи | Изменение |
+|------|------------|--------|
+| 11/22/2021 | [Устройства для Teams](/MicrosoftTeams/devices/teams-ip-phones) | Изменено |
+| 11/22/2021 | [Пограничные контроллеры сеансов, сертифицированные для прямой маршрутизации](/MicrosoftTeams/direct-routing-border-controllers) | Изменено |
+| 11/22/2021 | [Microsoft Teams отчет об использовании трансляций](/MicrosoftTeams/teams-analytics-and-reports/teams-live-event-usage-report) | Изменено |
+| 11/22/2021 | [Планирование трансляций в Microsoft Teams](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | Изменено |
+| 11/23/2021 | [Управление параметрами собрания](/MicrosoftTeams/meeting-settings-in-teams) | Изменено |
+| 11/23/2021 | [Развертывание комнаты Microsoft Teams с Exchange Online](/MicrosoftTeams/rooms/with-exchange-online) | Изменено |
+| 11/23/2021 | [Развертывание Комнаты Microsoft Teams с Microsoft 365 или Office 365](/MicrosoftTeams/rooms/with-office-365) | Изменено |
+| 11/24/2021 | [Использование надстройки собраний Microsoft Teams в Outlook](/MicrosoftTeams/teams-add-in-for-outlook) | Изменено |
+| 11/24/2021 | [Взаимодействие Microsoft Teams и Exchange](/MicrosoftTeams/exchange-teams-interact) | Изменено |
+| 11/24/2021 | [Microsoft Teams приложений и бизнес-приложений на Teams панели](/MicrosoftTeams/app-support-on-teams-panels) | Изменено |
+| 11/24/2021 | [Запись собрания Teams в облаке](/MicrosoftTeams/cloud-recording) | Изменено |
+| 11/24/2021 | [Совместный доступ к рабочему столу в Microsoft Teams](/MicrosoftTeams/configure-desktop-sharing) | Изменено |
+| 11/24/2021 | [Кортана голосовой помощи в Microsoft Teams](/MicrosoftTeams/cortana-in-teams) | Изменено |
+| 11/24/2021 | [Teams для образования политики для простого применения политик для безопасного обучения](/MicrosoftTeams/easy-policy-setup-edu) | Изменено |
+| 11/24/2021 | [Политики собраний и срок их действия в Microsoft Teams](/MicrosoftTeams/meeting-expiration) | Изменено |
+| 11/24/2021 | [Управление политиками собраний для аудио- и видеосвязи](/MicrosoftTeams/meeting-policies-audio-and-video) | Изменено |
+| 11/24/2021 | [Управление политиками собраний для общего доступа к содержимому](/MicrosoftTeams/meeting-policies-content-sharing) | Изменено |
+| 11/24/2021 | [Управление общими политиками собраний](/MicrosoftTeams/meeting-policies-in-teams-general) | Изменено |
+| 11/24/2021 | [Управление политиками собраний в Microsoft Teams](/MicrosoftTeams/meeting-policies-overview) | Изменено |
+| 11/24/2021 | [Управление политиками собраний для участников и гостей](/MicrosoftTeams/meeting-policies-participants-and-guests) | Изменено |
+| 11/24/2021 | [Управление параметрами собрания](/MicrosoftTeams/meeting-settings-in-teams) | Изменено |
+| 11/24/2021 | [Управление политиками обмена сообщениями в Teams](/MicrosoftTeams/messaging-policies-in-teams) | Изменено |
+| 11/24/2021 | [Управление администрированием клиента для распознавания речи (профиля голосовой почты) в Комнаты Teams](/MicrosoftTeams/rooms/voice-recognition) | Изменено |
+| 11/24/2021 | [Подготовка к вебинарам в Microsoft Teams](/MicrosoftTeams/set-up-webinars) | Изменено |
+| 11/24/2021 | [Надстройка Advanced Communications для Microsoft Teams](/MicrosoftTeams/teams-add-on-licensing/advanced-communications) | Изменено |
+| 11/24/2021 | [Отчет об участии в собрании Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/meeting-attendance-report) | Изменено |
+| 11/24/2021 | [Управление политиками настройки приложений в Microsoft Teams](/MicrosoftTeams/teams-app-setup-policies) | Изменено |
+| 11/24/2021 | [Настройка параметров трансляции в Microsoft Teams](/MicrosoftTeams/teams-live-events/configure-teams-live-events) | Изменено |
+| 11/24/2021 | [Подготовка к трансляциям в Microsoft Teams](/MicrosoftTeams/teams-live-events/set-up-for-teams-live-events) | Изменено |
+
+
 ## <a name="week-of-november-15-2021"></a>Неделя от 15 ноября 2021 г.
 
 
 | Дата публикации |Название статьи | Изменение |
 |------|------------|--------|
-| 11/15/2021 | [Виртуальные посещения с Teams интеграция с EHR Cerner](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin-cerner) | Изменено |
+| 11/15/2021 | [Виртуальные посещения с Teams — интеграция с EHR Cerner](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin-cerner) | Изменено |
 | 11/15/2021 | [Музыка при удержании](/MicrosoftTeams/music-on-hold) | Изменено |
 | 11/16/2021 | [Прямая маршрутизация телефонной системы](/MicrosoftTeams/direct-routing-protocols-sip) | Изменено |
 | 11/16/2021 | [Общие сведения об управлении политикой в Microsoft Teams](/MicrosoftTeams/policy-control-overview) | Изменено |
@@ -25,9 +61,9 @@
 | 11/17/2021 | [Настройка кредитов на связь для организации](/MicrosoftTeams/set-up-communications-credits-for-your-organization) | Изменено |
 | 11/17/2021 | [Отчет о действиях пользователей Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/user-activity-report) | Изменено |
 | 11/17/2021 | [Teams для инфраструктуры виртуальных рабочих столов](/MicrosoftTeams/teams-for-vdi) | Изменено |
-| 11/17/2021 | [Ограничения на исходящие звонки — аудиоконференция & звонков по ЗВОНКОВ по ННР](/MicrosoftTeams/outbound-calling-restriction-policies) | Изменено |
+| 11/17/2021 | [Ограничения на исходящие звонки — аудиоконференция & звонками по ЗВОНКОВ по ННР](/MicrosoftTeams/outbound-calling-restriction-policies) | Изменено |
 | 11/17/2021 | [Использование телеметрии в режиме реального времени для устранения неполадок с качеством собрания](/MicrosoftTeams/use-real-time-telemetry-to-troubleshoot-poor-meeting-quality) | Изменено |
-| 11/18/2021 | [Удаленная подготовка и вход в Teams устройствах с Android](/MicrosoftTeams/devices/remote-provision-remote-login) | Изменено |
+| 11/18/2021 | [Удаленная подготовка и вход для Teams устройств с Android](/MicrosoftTeams/devices/remote-provision-remote-login) | Изменено |
 | 11/18/2021 | [Удаленный вход и выход для Teams устройств с Android](/MicrosoftTeams/devices/remote-sign-in-and-sign-out) | Добавлено |
 | 11/18/2021 | [Microsoft Teams powerShell заметки о выпуске](/MicrosoftTeams/teams-powershell-release-notes) | Изменено |
 | 11/18/2021 | [Управление приложением Bookings в Microsoft Teams](/MicrosoftTeams/bookings-app-admin) | Изменено |
@@ -102,81 +138,3 @@
 | 10/27/2021 | [Управление шаблонами групп в Центре администрирования](/MicrosoftTeams/templates-policies) | Изменено |
 | 10/27/2021 | [Использование OneDrive для бизнеса и SharePoint для записей собраний](/MicrosoftTeams/tmr-meeting-recording-change) | Изменено |
 | 10/28/2021 | [Информационные барьеры в Microsoft Teams](/MicrosoftTeams/information-barriers-in-teams) | Изменено |
-
-
-## <a name="week-of-october-18-2021"></a>Неделя от 18 октября 2021 г.
-
-
-| Дата публикации |Название статьи | Изменение |
-|------|------------|--------|
-| 10/18/2021 | [Запись собрания Teams в облаке](/MicrosoftTeams/cloud-recording) | Изменено |
-| 10/18/2021 | [Кортана голосовой помощи в Microsoft Teams](/MicrosoftTeams/cortana-in-teams) | Изменено |
-| 10/18/2021 | [Настройка автосекретаря для Microsoft Teams](/MicrosoftTeams/create-a-phone-system-auto-attendant) | Изменено |
-| 10/18/2021 | [Создание очереди вызовов в Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | Изменено |
-| 10/18/2021 | [Отслеживание и устранение неполадок прямой маршрутизации](/MicrosoftTeams/direct-routing-monitor-and-troubleshoot) | Изменено |
-| 10/18/2021 | [Гостевой доступ в Microsoft Teams](/MicrosoftTeams/guest-access) | Изменено |
-| 10/18/2021 | [Управление внешним доступом (федерация)](/MicrosoftTeams/manage-external-access) | Изменено |
-| 10/18/2021 | [Управление комнатами Microsoft Teams](/MicrosoftTeams/rooms/rooms-manage) | Изменено |
-| 10/18/2021 | [Настройка облачной голосовой почты](/MicrosoftTeams/set-up-phone-system-voicemail) | Изменено |
-| 10/18/2021 | [Функция Shared Line Appearance в Microsoft Teams](/MicrosoftTeams/shared-line-appearance) | Изменено |
-| 10/18/2021 | [Маршруты звонков на ненаписаные номера](/MicrosoftTeams/routing-calls-to-unassigned-numbers) | Добавлено |
-| 10/18/2021 | [Добавление, изменение и удаление мест для экстренного размещения](/MicrosoftTeams/add-change-remove-emergency-place-organization) | Изменено |
-| 10/18/2021 | [Назначение или изменение расположения для экстренного реагирования для пользователя](/MicrosoftTeams/assign-change-emergency-location-user) | Изменено |
-| 10/18/2021 | [Назначение, изменение мест для экстренного размещения для пользователей](/MicrosoftTeams/assign-change-emergency-place-user) | Изменено |
-| 10/18/2021 | [Настройка динамических экстренных вызовов](/MicrosoftTeams/configure-dynamic-emergency-calling) | Изменено |
-| 10/18/2021 | [Возможности телефонной системы](/MicrosoftTeams/here-s-what-you-get-with-phone-system) | Изменено |
-| 10/18/2021 | [Информационные барьеры в Microsoft Teams](/MicrosoftTeams/information-barriers-in-teams) | Изменено |
-| 10/18/2021 | [Ограничения и спецификации для Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | Изменено |
-| 10/18/2021 | [Управление политиками голосовой маршрутии для прямой маршрутии в экстренных службах](/MicrosoftTeams/manage-emergency-call-routing-policies) | Изменено |
-| 10/18/2021 | [Управление политиками экстренных вызовов в Microsoft Teams](/MicrosoftTeams/manage-emergency-calling-policies) | Изменено |
-| 10/18/2021 | [Управление топологией сети для облачных голосовых функций в Microsoft Teams](/MicrosoftTeams/manage-your-network-topology) | Изменено |
-| 10/18/2021 | [Планирование экстренных вызовов и управление ими](/MicrosoftTeams/what-are-emergency-locations-addresses-and-call-routing) | Изменено |
-| 10/19/2021 | [Чат, команды, каналы и приложения в Microsoft Teams](/MicrosoftTeams/deploy-chat-teams-channels-microsoft-teams-landing-page) | Изменено |
-| 10/19/2021 | [Настройка администратора для приложения Microsoft Parents EDU](/MicrosoftTeams/edu-parents-app) | Изменено |
-| 10/19/2021 | [Частные каналы в Microsoft Teams](/MicrosoftTeams/private-channels) | Изменено |
-| 10/20/2021 | [Поиск событий Microsoft Teams в журнале аудита](/MicrosoftTeams/audit-log-events) | Изменено |
-| 10/20/2021 | [Настройка администратора для приложения Microsoft Parents EDU](/MicrosoftTeams/edu-parents-app) | Изменено |
-| 10/20/2021 | [Маршруты звонков на ненаписаные номера](/MicrosoftTeams/routing-calls-to-unassigned-numbers) | Изменено |
-| 10/20/2021 | [Добавление, изменение и удаление местоположений для экстренного устранения](/MicrosoftTeams/add-change-remove-emergency-location-organization) | Изменено |
-| 10/20/2021 | [Добавление, изменение и удаление мест для экстренного размещения](/MicrosoftTeams/add-change-remove-emergency-place-organization) | Изменено |
-| 10/20/2021 | [Инструменты и скачиваемые материалы по внедрению](/MicrosoftTeams/adopt-tools-and-downloads) | Изменено |
-| 10/20/2021 | [Назначение или изменение расположения для экстренного реагирования для пользователя](/MicrosoftTeams/assign-change-emergency-location-user) | Изменено |
-| 10/20/2021 | [Назначение, изменение мест для экстренного размещения для пользователей](/MicrosoftTeams/assign-change-emergency-place-user) | Изменено |
-| 10/20/2021 | [Назначение, изменение и удаление номера телефона пользователя](/MicrosoftTeams/assign-change-or-remove-a-phone-number-for-a-user) | Изменено |
-| 10/20/2021 | [Изменение номеров телефонов на мосте аудиоконференции](/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge) | Изменено |
-| 10/20/2021 | [Изменение настроек для моста аудиоконференций](/MicrosoftTeams/change-the-settings-for-an-audio-conferencing-bridge) | Изменено |
-| 10/20/2021 | [Электронные письма, отправляемые пользователям при изменении параметров](/MicrosoftTeams/emails-sent-to-users-when-their-settings-change-in-teams) | Изменено |
-| 10/20/2021 | [Параметры электронной почты при изменении параметров аудиоконференции](/MicrosoftTeams/enable-or-disable-sending-emails-when-their-settings-change-in-teams) | Изменено |
-| 10/20/2021 | [Позволить пользователям записывать свое имя для собрания](/MicrosoftTeams/enable-users-to-record-their-name-when-they-join-a-meeting-in-teams) | Изменено |
-| 10/20/2021 | [Получение номеров телефонов для пользователей](/MicrosoftTeams/getting-phone-numbers-for-your-users) | Изменено |
-| 10/20/2021 | [Управление политиками экстренных вызовов в Microsoft Teams](/MicrosoftTeams/manage-emergency-calling-policies) | Изменено |
-| 10/20/2021 | [Управление внешним доступом (федерация)](/MicrosoftTeams/manage-external-access) | Изменено |
-| 10/20/2021 | [Управление настройками аудиоконференции для пользователей](/MicrosoftTeams/manage-the-audio-conferencing-settings-for-a-user-in-teams) | Изменено |
-| 10/20/2021 | [Управление настройками аудиоконференций](/MicrosoftTeams/manage-the-audio-conferencing-settings-for-my-organization-in-teams) | Изменено |
-| 10/20/2021 | [Управление параметрами собрания](/MicrosoftTeams/meeting-settings-in-teams) | Изменено |
-| 10/20/2021 | [Ограничения на исходящие звонки — аудиоконференция & звонков по ЗВОНКОВ по ПССО](/MicrosoftTeams/outbound-calling-restriction-policies) | Изменено |
-| 10/20/2021 | [Сброс идентификатора конференции для пользователя в Microsoft Teams](/MicrosoftTeams/reset-a-conference-id-for-a-user-in-teams) | Изменено |
-| 10/20/2021 | [Сброс ПИН-кода аудиоконференций в Microsoft Teams](/MicrosoftTeams/reset-the-audio-conferencing-pin-in-teams) | Изменено |
-| 10/20/2021 | [Просмотр списка номеров для аудиоконференции](/MicrosoftTeams/see-a-list-of-audio-conferencing-numbers-in-teams) | Изменено |
-| 10/20/2021 | [Просмотр, изменение и сброс ИД конференции пользователя](/MicrosoftTeams/see-change-and-reset-a-conference-id-assigned-to-a-user-in-teams) | Изменено |
-| 10/20/2021 | [Отправка пользователю по электронной почте сведений об аудиоконференциях](/MicrosoftTeams/send-an-email-to-a-user-with-their-dial-in-information-in-teams) | Изменено |
-| 10/20/2021 | [Настройка языков автоконференции для аудиоконферентов](/MicrosoftTeams/set-auto-attendant-languages-for-audio-conferencing-in-teams) | Изменено |
-| 10/20/2021 | [Указание номеров телефонов, которые можно включать в приглашения](/MicrosoftTeams/set-the-phone-numbers-included-on-invites-in-teams) | Изменено |
-| 10/20/2021 | [Установка длины ПИН-кода для аудиоконференции](/MicrosoftTeams/set-the-pin-length-for-audio-conferencing-meetings-in-teams) | Изменено |
-| 10/20/2021 | [Настройка аудиоконференций для Microsoft Teams](/MicrosoftTeams/set-up-audio-conferencing-in-teams) | Изменено |
-| 10/20/2021 | [Настройка сосуществования и обновления](/MicrosoftTeams/setting-your-coexistence-and-upgrade-settings) | Изменено |
-| 10/20/2021 | [Начать аудиоконференции по телефону без ПИН-кода в Teams](/MicrosoftTeams/start-an-audio-conference-over-the-phone-without-a-pin-in-teams) | Изменено |
-| 10/20/2021 | [Настройка параметров трансляции в Microsoft Teams](/MicrosoftTeams/teams-live-events/configure-teams-live-events) | Изменено |
-| 10/20/2021 | [Microsoft Teams powerShell заметки о выпуске](/MicrosoftTeams/teams-powershell-release-notes) | Изменено |
-| 10/20/2021 | [Включите или отключите объявления о входе и выходе для собраний в Teams](/MicrosoftTeams/turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams) | Изменено |
-| 10/21/2021 | [Запись собрания Teams в облаке](/MicrosoftTeams/cloud-recording) | Изменено |
-| 10/21/2021 | [Microsoft Teams мониторинга и оповещений устройств](/MicrosoftTeams/alerts/device-health-status) | Изменено |
-| 10/21/2021 | [Ограничения на исходящие звонки — аудиоконференция & звонков по ЗВОНКОВ по ПССО](/MicrosoftTeams/outbound-calling-restriction-policies) | Изменено |
-| 10/21/2021 | [Настройка аудиоконференций для Microsoft Teams](/MicrosoftTeams/set-up-audio-conferencing-in-teams) | Изменено |
-| 10/21/2021 | [Вход в Microsoft Teams](/MicrosoftTeams/sign-in-teams) | Изменено |
-| 10/22/2021 | [Настройка автосекретаря для Microsoft Teams](/MicrosoftTeams/create-a-phone-system-auto-attendant) | Изменено |
-| 10/22/2021 | [Direct Routing SBA](/MicrosoftTeams/direct-routing-survivable-branch-appliance) | Изменено |
-| 10/22/2021 | [Гостевой доступ в Microsoft Teams](/MicrosoftTeams/guest-access) | Изменено |
-| 10/22/2021 | [Обзор команд и каналов в Microsoft Teams](/MicrosoftTeams/teams-channels-overview) | Изменено |
-| 10/22/2021 | [Microsoft Teams powerShell заметки о выпуске](/MicrosoftTeams/teams-powershell-release-notes) | Изменено |
-| 10/22/2021 | [Настройка аудиоконференций для Microsoft Teams](/MicrosoftTeams/set-up-audio-conferencing-in-teams) | Изменено |
