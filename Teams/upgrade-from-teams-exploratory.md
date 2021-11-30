@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5f40ddcfdd9e9491fd5d4fc7f82c77d5e5dca66f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d4816f3f05c37fe1a690ffea7f48789c41fd2603
+ms.sourcegitcommit: 949fbc3215f96e48c01b75b13c400bdb47c37e4b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58636993"
+ms.lasthandoff: 11/29/2021
+ms.locfileid: "61216675"
 ---
 # <a name="upgrade-users-from-the-teams-exploratory-trial"></a>Перевод пользователей с пробной версии Teams Exploratory
 
@@ -50,7 +50,7 @@ ms.locfileid: "58636993"
 
 - **Переход на существующую подписку Microsoft 365.** Используйте этот вариант, если у организации есть подписки на другие продукты Office, которые не включают Teams. Дополнительные сведения см. в статье <a href="/microsoft-365/commerce/subscriptions/upgrade-to-different-plan?view=o365-worldwide" target="_blank">Переход на другой бизнес-план</a>. Чтобы увидеть список активных пользователей существующей подписки, откройте раздел **Пользователи >** <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank"><b>Активные пользователи</b></a> в Центре администрирования Microsoft 365.
 
-- **Добавление пользователей к существующей подписке на Microsoft 365.** Используйте этот вариант, если у вашей организации недостаточно платных лицензий на Teams для пользователей Teams Exploratory. Дополнительные сведения см. в статье <a href="/microsoft-365/commerce/licenses/buy-licenses?view=o365-worldwide" target="_blank">Покупка и удаление лицензий</a>. Сведения о том, как добавить пользователей в существующую подписку, в которой уже есть достаточно доступных лицензий, см. в статье <a href="/microsoft-365/commerce/subscriptions/move-users-different-subscription?view=o365-worldwide" target="_blank">Перемещение пользователей в другую подписку</a>. Чтобы увидеть список активных пользователей существующей подписки, откройте раздел **Пользователи >** <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank"><b>Активные пользователи</b></a> в Центре администрирования Microsoft 365.
+- **Добавление пользователей к существующей подписке на Microsoft 365.** Выберите этот вариант, если в вашей организации недостаточно платных лицензий Teams для пользователей Teams Exploratory. Дополнительные сведения см. в статье <a href="/microsoft-365/commerce/licenses/buy-licenses?view=o365-worldwide" target="_blank">Покупка и удаление лицензий</a>. Сведения о том, как добавить пользователей в существующую подписку, в которой уже есть достаточно доступных лицензий, см. в статье <a href="/microsoft-365/commerce/subscriptions/move-users-different-subscription?view=o365-worldwide" target="_blank">Перемещение пользователей в другую подписку</a>. Чтобы увидеть список активных пользователей существующей подписки, откройте раздел **Пользователи >** <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank"><b>Активные пользователи</b></a> в Центре администрирования Microsoft 365.
 
 - **Покупка новой подписки на Microsoft 365.** Используйте этот вариант, если у вашей организации нет подписок на продукты Office или требуется купить подписку, отличную от имеющейся, для пользователей Teams Exploratory.  Дополнительные сведения см. в статье <a href="/microsoft-365/commerce/try-or-buy-microsoft-365?view=o365-worldwide%22%20\#buy-a-different-subscription" target="_blank">Покупка другой подписки на Microsoft 365 бизнес</a>.
 
