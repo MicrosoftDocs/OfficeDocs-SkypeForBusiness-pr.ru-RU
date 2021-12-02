@@ -849,17 +849,17 @@ items:
                 href: rooms/xml-config-file.md
               - name: Использование средства восстановления
                 href: rooms/recovery-tool.md
-  - name: Голосовая связь — телефонная система и связь с ТСОП
+  - name: Голосовая связь — Телефонная система Teams и связь с ТСОП
     items:
       - name: Планирование голосового решения в Teams
         href: cloud-voice-landing-page.md
-      - name: Телефонная система
+      - name: Телефонная система Teams
         items:
-          - name: Что такое телефонная система?
+          - name: Что такое Телефонная система Teams
             href: what-is-phone-system-in-office-365.md
-          - name: Возможности телефонной системы
+          - name: Возможности Телефонной системы Teams
             href: here-s-what-you-get-with-phone-system.md
-          - name: Настройка телефонной системы
+          - name: Настройка Телефонной системы Teams
             href: setting-up-your-phone-system.md
           - name: Настройка телефонов общего пользования
             href: set-up-common-area-phones.md
@@ -1093,7 +1093,7 @@ items:
             href: voice-case-study-overview.md
           - name: План перехода на Teams
             href: voice-case-study-migration-plan.md
-          - name: Телефонная система
+          - name: Телефонная система Teams
             href: voice-case-study-phone-system.md
           - name: Маршрутизация с учетом расположения
             href: voice-case-study-location-based-routing.md
@@ -1620,6 +1620,10 @@ items:
             href: teams-add-on-licensing/pri-message.md
           - name: Телефонная система Microsoft 365 — лицензия виртуального пользователя
             href: teams-add-on-licensing/virtual-user.md
+          - name: Начало работы с Teams базовый
+            href: get-started-with-teams-essentials.md
+          - name: Подключение Teams базовый (удостоверение AAD) к электронной почте
+            href: connect-teams-essentials-to-email.md
       - name: Взаимодействие с Microsoft 365 и Office 365
         items:
           - name: Группы Microsoft 365 и Teams
