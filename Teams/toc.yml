@@ -675,6 +675,12 @@ items:
             href: audio-conferencing-common-questions.md
           - name: Платная или пробная версия аудиоконференций в Microsoft 365
             href: try-or-purchase-audio-conferencing-in-office-365-for-teams.md
+          - name: Operator Connect Conferencing
+            items:
+              - name: Обзор
+                href: operator-connect-conferencing-plan.md
+              - name: Настройка Operator Connect Conferencing
+                href: operator-connect-conferencing-configure.md
           - name: Дополнительные минуты исходящих звонков для США и Канады
             href: dial-out-minutes-canada-us.md
           - name: Льготный период обратных звонков для аудиоконференций
