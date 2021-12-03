@@ -1543,6 +1543,8 @@ items:
             href: teams-edu-licensing.md
           - name: Справочник по SKU для образования
             href: sku-reference-edu.md
+          - name: Устройства Teams для образования
+            href: devices-for-education.md
       - name: Teams для сотрудников без компьютеров
         items:
           - name: Краткое руководство по началу работу для сотрудников без компьютеров
@@ -1641,8 +1643,6 @@ items:
                 href: /microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365
           - name: Взаимодействие SharePoint Online и OneDrive для бизнеса с Teams
             href: sharepoint-onedrive-interact.md
-      - name: Устройства Teams для образования
-        href: devices-for-education.md
       - name: Поддерживаемые устройства
         items:
           - name: Управление устройствами в Teams

@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6d113446971375ace51335a6654c8599f8d2c35b
-ms.sourcegitcommit: be8b820caf4b5a1a91ad444ba93da1df20bf63ae
+ms.openlocfilehash: 682f7bcd4e90e96534e954cd0e22c6f5952db08b
+ms.sourcegitcommit: 563567ab140d5802756170c846dade3645d0b9e4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2021
-ms.locfileid: "61257557"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "61284797"
 ---
 # <a name="connect-microsoft-teams-essentials-aad-identity-to-an-existing-email-system-with-calendar"></a>Подключение Microsoft Teams основные (удостоверения AAD) в существующую почтовую систему с календарем
 
@@ -63,13 +63,13 @@ Microsoft Teams основные (удостоверения AAD) объедин
 
 ### <a name="connect-teams-essentials-to-third-party-email-using-vanity-domain-google-workspace-example"></a>Подключение Teams основные для работы со сторонними электронными письмами с помощью иммеривного домена (пример Google Workspace)
 
-В следующем разделе показано, как подключить Microsoft Teams к существующей почтовой системе с помощью календаря, например Google Workspace. Вы сможете выполнить это подключение, сохранив текущую почтовую систему, переад Exchange Online всю почту, отфильтровав все, кроме сообщений календаря. При этом сообщения календаря автоматически отображаются в календаре Teams, принятых как под вопросом, и сообщения, не включающие календарь, удаляются.
+В следующем разделе показано, как подключить Microsoft Teams к существующей почтовой системе с помощью календаря, например Google Workspace. Для этого необходимо оставить текущую почтовую систему без изменений, перенапечатать все сообщения на Exchange Online, отфильтровать все, кроме сообщений календаря. При этом сообщения календаря автоматически отображаются в календаре Teams, принятых как под вопросом, и сообщения, не включающие календарь, удаляются.
 
 Все сообщения, созданные в Microsoft 365, перенанаются в Google Workspace, чтобы пользователи Teams напоминания и уведомления. Удостоверения пользователей, например основной адрес электронной почты пользователя, могут дублироваться. Единый вход также возможен, но не требуется. Пользователи должны присоединяться к собраниям Teams из стороного календаря или Teams календаря. Другие Teams будут работать так, как ожидалось.
 
 :::image type="content" source="media/essentials-googleworkspace.png" alt-text="Изображение схемы потока почты между EXO и Gmail":::
 
-В этих примерах есть [команда Подключение ExchangeOnline](/powershell/module/exchange/connect-exchangeonline?view=exchange-ps&preserve-view=true) PowerShell, которая входит в [модуль Exchange Online PowerShell V2.](/powershell/exchange/exchange-online-powershell-v2&preserve-view=true) Если при запуске Подключение ExchangeOnline произошла ошибка, убедитесь, что вы следовать инструкциям по установке модуля с помощью установки модуля [EXO V2.](/powershell/exchange/exchange-online-powershell-v2?view=exchange-ps&preserve-view=true) При Connect-ExchangeOnline запроса учетных данных используйте учетную запись администратора клиента.
+Эти примеры зависят от [Подключение-ExchangeOnline](/powershell/module/exchange/connect-exchangeonline?view=exchange-ps&preserve-view=true) PowerShell, который входит в [модуль Exchange Online PowerShell V2.](/powershell/exchange/exchange-online-powershell-v2&preserve-view=true) Если при запуске Подключение ExchangeOnline произошла ошибка, убедитесь, что вы следовать инструкциям по установке модуля с помощью установки модуля [EXO V2.](/powershell/exchange/exchange-online-powershell-v2?view=exchange-ps&preserve-view=true) При Connect-ExchangeOnline запроса учетных данных используйте учетную запись администратора клиента.
 
 **Шаг 1. Настройка нового домена Microsoft 365 клиента**
 
@@ -79,19 +79,19 @@ Microsoft Teams основные (удостоверения AAD) объедин
 
 3. Проверьте домен с помощью записи TXT, следуя шагам в окте [Проверка с помощью записи TXT.](/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider?view=o365-worldwide&preserve-view=true)
 
-4. При запросе выберите Не Microsoft 365 **настроить DNS.**
+4. При запросе выберите **Не разрешая Microsoft 365 настроить DNS.**
 
 5. При запросе оставьте существующие записи MX на месте, не изменяя их.
 
 6. Обновив существующую запись TXT SPF, включив Microsoft 365.
 
-7. Настройте почту DomainKeys Identified Mail (DKIM) для Microsoft 365 с помощью указанных ниже действий для настройки [DKIM вручную.](/microsoft-365/security/office-365-security/use-dkim-to-validate-outbound-email?view=o365-worldwide&preserve-view=true)
+7. Настройте почту DomainKeys Identified Mail (DKIM) для Microsoft 365 с помощью этих действий, чтобы настроить [DKIM вручную.](/microsoft-365/security/office-365-security/use-dkim-to-validate-outbound-email?view=o365-worldwide&preserve-view=true)
 
-8. Снова войди в <https://admin.microsoft.com/AdminPortal/> Центр администрирования Microsoft 365, чтобы включить DKIM
+8. Снова во <https://admin.microsoft.com/AdminPortal/> Центр администрирования Microsoft 365, чтобы включить DKIM
 
 9. В области навигации слева выберите **Настройка**  >  **доменов**
 
-10. С помощью этого списка выберите существующий домен, который не является доменом Майкрософт (например, JohannaL@contosolandscapting2.m365master.com) из текущих списков доменов.
+10. С помощью этого контрольного списка выберите существующий домен, который не является доменом Майкрософт (например, JohannaL@contosolandscapting2.m365master.com) из текущих списков доменов.
 
 11. Чтобы открыть **меню, выберите** кнопку с тремя вертикальными точками.
 
@@ -119,7 +119,7 @@ Microsoft Teams основные (удостоверения AAD) объедин
 
 6. Выберите **Далее**, просмотрите параметры нового пользователя, при необходимости внести другие изменения, а затем выберите Завершить **добавление**, а затем закрыть.
 
-Чтобы добавить сразу несколько пользователей, выполните действия, рекомендуемые в оке Добавление пользователей и назначение лицензий Microsoft 365 администратора [| Документы Майкрософт](/microsoft-365/admin/add-users/add-users?view=o365-worldwide&preserve-view=true)
+Чтобы добавить сразу несколько пользователей, выполните действия, рекомендуемые в оке Добавление пользователей и назначение лицензий [Microsoft 365 администратора | Документы Майкрософт](/microsoft-365/admin/add-users/add-users?view=o365-worldwide&preserve-view=true)
 
 **Шаг 3. Настройка Google Workspace**
 
@@ -190,7 +190,7 @@ Microsoft Teams основные (удостоверения AAD) объедин
 
 10. В **диалоговом** окте Маршрут почты на другой сервер обратите внимание на сервер, на который будет перенаться почта (например, в aspmx.l.google.com) и выберите Использовать **другой почтовый сервер.**
 
-***Разрешить отправку электронной почты Microsoft 365 обхода фильтра НЕЖЕЛАТЕЛЬНОЙ ПОЧТы***
+***Разрешить отправку электронной почты Microsoft 365 в обход фильтра НЕЖЕЛАТЕЛЬНОЙ ПОЧТЫ***
 
 1. Найдите соответствующий заглавный Microsoft 365 клиента, отправив сообщение электронной почты пользователю в рабочей области Google.
 
@@ -216,11 +216,11 @@ Microsoft Teams основные (удостоверения AAD) объедин
 
 12. В **области Тип совпадения** выберите **вариант "Полный текст"**
 
-13. Под содержимым введите заглавную почту, которая однозначно определяет сообщения, отправленные из клиента Microsoft 365 (например, X-MS-Exchange-CrossTenant-id: 92f60fc7-eab3-403b-9d7d-9d683bf0a4b5).
+13. Под содержимым введите заглавную почту, которая однозначно определяет электронную почту, отправленную из клиента Microsoft 365 (например, X-MS-Exchange-CrossTenant-id: 92f60fc7-eab3-403b-9d7d-9d683bf0a4b5).
 
 14. Выберите **"Сохранить"**
 
-15. В поле Если эти выражения  совпадают, сделайте  следующее поле > Сообщение и в поле Спам проверьте обход фильтра нежелательной почты для **этого сообщения.** 
+15. В поле Если эти выражения совпадают, сделайте  следующее поле  **>** Сообщение и в поле Спам проверьте обход фильтра нежелательной почты для **этого сообщения.**
 
 16. Выберите **"Сохранить"**
 
@@ -256,7 +256,7 @@ Microsoft Teams основные (удостоверения AAD) объедин
 
 14. Когда вы увидите уведомление о созданном соединители, нажмите кнопку **Готово.**
 
-*Пересылать почту из Microsoft 365 почтовых ящиков в Gmail*
+*Пересылать почту Microsoft 365 почтовых ящиков в Gmail*
 
 1. Используйте центр **Microsoft 365 Admin для** обновления каждого почтового ящика или используйте сценарий **PowerShell,** например:
 
@@ -272,7 +272,7 @@ Microsoft Teams основные (удостоверения AAD) объедин
 
 *Настройка Exchange Online к правилу транспорта календаря*
 
-1. При настройке этого параметра приглашения в календарь будут автоматически приниматься, чтобы они Teams календаре, не требуя от пользователей взаимодействовать с Outlook Web App.
+1. При настройке этого параметра приглашения календаря будут автоматически приниматься, чтобы они Teams календаре, не требуя от пользователей взаимодействовать с ними в Outlook Web App.
 
 2. Для создания правил транспорта можно использовать следующий сценарий:
 
@@ -285,9 +285,9 @@ Microsoft Teams основные (удостоверения AAD) объедин
 
 *Отключение Outlook в Интернете почтовых ящиков*
 
-1. Следуйте инструкциям в Outlook в Интернете для почтового [ящика](/exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-outlook-web-app&preserve-view=true) Exchange Online, чтобы Outlook в Интернете для почтовых ящиков.
+1. Следуйте инструкциям [](/exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-outlook-web-app) в Outlook в Интернете включить или отключить Exchange Online для почтовых ящиков, чтобы Outlook в Интернете для почтовых ящиков.
 
-2. Вы можете отключить Outlook в Интернете с помощью **Exchange или** **PowerShell.** Чтобы отключить Outlook в Интернете всех почтовых ящиков, можно использовать следующий пример PowerShell:
+2. Вы можете отключить Outlook в Интернете с помощью **Exchange или** **PowerShell.** Чтобы отключить Outlook в Интернете для всех почтовых ящиков, можно использовать следующий пример PowerShell:
 
     ```powershell
     Connect-ExchangeOnline
@@ -311,7 +311,7 @@ Microsoft Teams основные (удостоверения AAD) объедин
 
 5. Коснитесь доменного имени, настроенного в стороной системе (например, contosoLandscaping2.m365master.com)
 
-    :::image type="content" source="media/essentials-internalrelay1.png" alt-text="Изображение параметров Exchange в Центре администрирования для потока обработки почты.":::
+    :::image type="content" source="media/essentials-internalrelay1.png" alt-text="Изображение с Exchange параметров Центра администрирования для потока обработки почты.":::
 
 6. Выберите **Внутренняя ретранслятор** и нажмите кнопку **Сохранить.**
 
@@ -329,7 +329,7 @@ Microsoft Teams основные (удостоверения AAD) объедин
 
 ### <a name="connect-teams-essentials-to-third-party-email-not-using-vanity-domain-gmail-example"></a>Подключение Teams основные для электронной почты сторонних служб, не использующих неохответный домен (пример Gmail)
 
-Вы можете запланировать собрание Teams и присоединиться к нему непосредственно из Google Workspace, подключив учетную запись Gmail для потребителей к Teams Essentials, при этом в основном Teams [G Suite Добавить](https://support.microsoft.com/en-us/office/install-the-teams-meeting-add-on-for-google-workspace-bba2dfbe-0b2b-4ee7-be10-261ad80ddb60)в . Это позволяет запланировать аудио- и видеоконференцию с совместным доступом к экрану, чатом собрания, цифровыми досками и другими данными.
+Вы можете запланировать собрание Teams и присоединиться к нему непосредственно из Google Workspace, подключив учетную запись Gmail для потребителей к Teams Essentials с основной зависимостью от Teams [G Suite Добавить](https://support.microsoft.com/en-us/office/install-the-teams-meeting-add-on-for-google-workspace-bba2dfbe-0b2b-4ee7-be10-261ad80ddb60)в . Это позволяет запланировать аудио- и видеоконференцию с совместным доступом к экрану, чатом собрания, цифровыми досками и другими данными.
 
 Вы настроите Gmail так, чтобы электронная почта Exchange Online, созданная в Microsoft 365 и Teams в Gmail. Для выполнения этого подключения может потребоваться отключить значения по умолчанию для системы безопасности, что делает использование уникального пароля важным. Настраиваемый домен не требуется для этого сценария, но его можно настроить в Microsoft 365 для использования в Gmail.
 
