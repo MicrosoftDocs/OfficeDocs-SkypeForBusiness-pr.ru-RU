@@ -979,6 +979,8 @@ items:
             href: what-are-emergency-locations-addresses-and-call-routing.md
           - name: Настройка динамических экстренных вызовов
             href: configure-dynamic-emergency-calling.md
+          - name: Адреса экстренного реагирования для удаленных местоположений
+            href: emergency-calling-dispatchable-location.md
           - name: Управление адресами для экстренного реагирования
             items:
               - name: 'Добавление, изменение и удаление расположения для экстренного реагирования для организации'
