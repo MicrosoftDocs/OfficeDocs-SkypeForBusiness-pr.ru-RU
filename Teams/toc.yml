@@ -759,96 +759,6 @@ items:
                 href: audio-conferencing-zones.md
               - name: Видео- и аудиоконференции в Teams
                 href: ./audio-conferencing-in-office-365.md
-      - name: Комнаты Microsoft Teams
-        items:
-          - name: Обзор
-            href: rooms/index.md
-          - name: Руководство по комнате собраний для Teams
-            href: teams-meeting-room-guidance.md
-          - name: Управляемая служба "Комнаты Microsoft Teams"
-            items:
-              - name: Управление планированием
-                href: rooms/microsoft-teams-rooms-premium.md
-              - name: Управление доступом на основе ролей
-                href: rooms/microsoft-teams-rooms-premium-rbac.md
-              - name: Получение и назначение лицензии
-                href: rooms/obtaining-assigning-license.md
-              - name: Регистрация в управляемой службе MTRP
-                href: rooms/enrolling-mtrp-managed-service.md
-              - name: Настройка ServiceNow для Комнат Teams
-                href: rooms/microsoft-teams-rooms-configure-servicenow.md
-          - name: Планирование
-            items:
-              - name: Обзор планирования комнат Microsoft Teams
-                href: rooms/rooms-plan.md
-              - name: Сравнение функций устройств Teams между Windows и Android
-                href: rooms/teams-devices-feature-comparison.md
-              - name: Поддержка версии
-                href: rooms/rooms-lifecycle-support.md
-              - name: Заметки о выпуске
-                href: rooms/rooms-release-note.md
-              - name: Подготовка среды
-                href: rooms/rooms-prep.md
-              - name: Требования
-                href: rooms/requirements.md
-              - name: Безопасность
-                href: rooms/security.md
-              - name: Интернет-лицензирование
-                href: rooms/rooms-licensing.md
-              - name: Планирование управления с помощью Azure Monitor
-                href: rooms/azure-monitor-plan.md
-          - name: Развертывание
-            items:
-              - name: Обзор развертывания
-                href: rooms/rooms-deploy.md
-              - name: Настройка учетных записей
-                href: rooms/rooms-configure-accounts.md
-              - name: Surface Hub
-                items:
-                  - name: Настройка координированных собраний
-                    href: rooms/coordinated-meetings.md
-                  - name: Управление параметрами Microsoft Teams
-                    href: rooms/surface-hub-manage-config.md
-              - name: В Office 365
-                href: rooms/with-office-365.md
-              - name: В Skype для бизнеса Server
-                href: rooms/with-skype-for-business-server-2015.md
-              - name: В Exchange Online (гибридная среда)
-                href: rooms/with-exchange-online.md
-              - name: В локальном приложении Exchange (гибридная среда)
-                href: rooms/with-exchange-on-premises.md
-              - name: Настройка консоли
-                href: rooms/console.md
-              - name: Обновление устройства вручную
-                href: rooms/manual-update.md
-              - name: Настройка проверки подлинности
-                href: rooms/rooms-authentication.md
-              - name: Присоединение к сторонним собраниям
-                href: rooms/third-party-join.md
-              - name: С помощью Microsoft Endpoint Configuration Manager
-                href: rooms/rooms-scale.md
-              - name: Управление с помощью Azure Monitor
-                href: rooms/azure-monitor-deploy.md
-              - name: Перенос SRS версии 1 или LRS
-                href: rooms/lrs-migration.md
-              - name: Камеры содержимого
-                href: rooms/content-camera.md
-              - name: Элементы управления распознаванием голоса для интеллектуальных динамиков
-                href: rooms/voice-recognition.md
-          - name: Управление
-            items:
-              - name: Обзор управления
-                href: rooms/rooms-manage.md
-              - name: Обслуживание и эксплуатация
-                href: rooms/rooms-operations.md
-              - name: Известные проблемы
-                href: rooms/known-issues.md
-              - name: Устройства с Azure Monitor
-                href: rooms/azure-monitor-manage.md
-              - name: Управление настройками с помощью XML-файла
-                href: rooms/xml-config-file.md
-              - name: Использование средства восстановления
-                href: rooms/recovery-tool.md
   - name: Голосовая связь — Телефонная система Teams и связь с ТСОП
     items:
       - name: Планирование голосового решения в Teams
@@ -1377,6 +1287,148 @@ items:
             href: business-voice/analytics-dashboard.md
       - name: Ресурсы партнеров
         href: business-voice/partner-resources.md
+  - name: Управление устройствами и комнатами
+    items:
+      - name: Комнаты Microsoft Teams
+        items:
+          - name: Обзор
+            href: rooms/index.md
+          - name: Руководство по комнате собраний для Teams
+            href: teams-meeting-room-guidance.md
+          - name: Планирование
+            items:
+              - name: Обзор планирования комнат Microsoft Teams
+                href: rooms/rooms-plan.md
+              - name: Сравнение функций устройств Teams между Windows и Android
+                href: rooms/teams-devices-feature-comparison.md
+              - name: Поддержка версии
+                href: rooms/rooms-lifecycle-support.md
+              - name: Заметки о выпуске
+                href: rooms/rooms-release-note.md
+              - name: Подготовка среды
+                href: rooms/rooms-prep.md
+              - name: Требования
+                href: rooms/requirements.md
+              - name: Безопасность
+                href: rooms/security.md
+              - name: Интернет-лицензирование
+                href: rooms/rooms-licensing.md
+              - name: Планирование управления с помощью Azure Monitor
+                href: rooms/azure-monitor-plan.md
+          - name: Развертывание
+            items:
+              - name: Обзор развертывания
+                href: rooms/rooms-deploy.md
+              - name: Настройка учетных записей
+                href: rooms/rooms-configure-accounts.md
+              - name: Surface Hub
+                items:
+                  - name: Настройка координированных собраний
+                    href: rooms/coordinated-meetings.md
+                  - name: Управление параметрами Microsoft Teams
+                    href: rooms/surface-hub-manage-config.md
+              - name: В Office 365
+                href: rooms/with-office-365.md
+              - name: В Skype для бизнеса Server
+                href: rooms/with-skype-for-business-server-2015.md
+              - name: В Exchange Online (гибридная среда)
+                href: rooms/with-exchange-online.md
+              - name: В локальном приложении Exchange (гибридная среда)
+                href: rooms/with-exchange-on-premises.md
+              - name: Настройка консоли
+                href: rooms/console.md
+              - name: Обновление устройства вручную
+                href: rooms/manual-update.md
+              - name: Настройка проверки подлинности
+                href: rooms/rooms-authentication.md
+              - name: Присоединение к сторонним собраниям
+                href: rooms/third-party-join.md
+              - name: С помощью Microsoft Endpoint Configuration Manager
+                href: rooms/rooms-scale.md
+              - name: Управление с помощью Azure Monitor
+                href: rooms/azure-monitor-deploy.md
+              - name: Перенос SRS версии 1 или LRS
+                href: rooms/lrs-migration.md
+              - name: Камеры содержимого
+                href: rooms/content-camera.md
+              - name: Элементы управления распознаванием голоса для интеллектуальных динамиков
+                href: rooms/voice-recognition.md
+          - name: Управление
+            items:
+              - name: Обзор управления
+                href: rooms/rooms-manage.md
+              - name: Обслуживание и эксплуатация
+                href: rooms/rooms-operations.md
+              - name: Известные проблемы
+                href: rooms/known-issues.md
+              - name: Устройства с Azure Monitor
+                href: rooms/azure-monitor-manage.md
+              - name: Управление настройками с помощью XML-файла
+                href: rooms/xml-config-file.md
+              - name: Использование средства восстановления
+                href: rooms/recovery-tool.md
+      - name: Управляемая служба "Комнаты Microsoft Teams"
+        items:
+          - name: Управление планированием
+            href: rooms/microsoft-teams-rooms-premium.md
+          - name: Управление доступом на основе ролей
+            href: rooms/microsoft-teams-rooms-premium-rbac.md
+          - name: Получение и назначение лицензии
+            href: rooms/obtaining-assigning-license.md
+          - name: Регистрация в управляемой службе MTRP
+            href: rooms/enrolling-mtrp-managed-service.md
+          - name: Настройка ServiceNow для Комнат Teams
+            href: rooms/microsoft-teams-rooms-configure-servicenow.md
+      - name: Устройства
+        items:
+          - name: Управление устройствами в Teams
+            href: devices/device-management.md
+          - name: Удаленная подготовка и вход
+            href: devices/remote-provision-remote-login.md
+          - name: Удаленный вход и выход
+            href: devices/remote-sign-in-and-sign-out.md
+          - name: Удаленное обновление устройств
+            href: devices/remote-update.md
+          - name: Управление тегами устройств Teams
+            href: devices/manage-device-tags.md
+          - name: Телефоны для Teams
+            href: devices/phones-for-teams.md
+          - name: Дисплеи Teams
+            href: devices/teams-displays.md
+          - name: Панели Teams
+            items:
+              - name: Панели Teams
+                href: devices/teams-panels.md
+              - name: Использование панелей Teams
+                href: devices/use-teams-panels.md
+              - name: Поддержка приложений на панелях Teams
+                href: app-support-on-Teams-panels.md
+          - name: Обновление телефонов Teams до дисплеев Teams
+            href: devices/upgrade-phones-to-displays.md
+          - name: Развертывание телефонов Teams и дисплеев Teams с помощью Intune
+            href: devices/phones-displays-deploy.md
+          - name: USB-устройства для аудио и видео
+            href: devices/usb-devices.md
+          - name: Развертывание Комнат Microsoft Teams на Android
+            href: devices/collab-bar-deploy.md
+          - name: Настройка пользовательского интерфейса для устройств с Android в Microsoft Teams
+            href: devices/Teams-Android-devices-user-interface.md
+          - name: Комнатные устройства и решения для проведения собраний
+            href: /skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
+          - name: Сертифицированные устройства Teams
+            href: devices/teams-ip-phones.md
+          - name: SIP-шлюз
+            items:
+              - name: Планирование SIP-шлюза
+                href: sip-gateway-plan.md
+              - name: Настройка SIP-шлюза
+                href: sip-gateway-configure.md
+          - name: Оповещения и мониторинг в Teams
+            href: alerts/teams-admin-alerts.md
+          - name: Мониторинг работоспособности устройств в Teams
+            href: alerts/device-health-status.md
+          - name: Устройства и периферийные аксессуары Teams
+            href: teams-device-health.md
   - name: 'Приложения, боты и соединители'
     items:
       - name: Обзор
@@ -1643,60 +1695,6 @@ items:
                 href: /microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365
           - name: Взаимодействие SharePoint Online и OneDrive для бизнеса с Teams
             href: sharepoint-onedrive-interact.md
-      - name: Устройства Teams для образования
-        href: devices-for-education.md
-      - name: Устройства
-        items:
-          - name: Управление устройствами в Teams
-            href: devices/device-management.md
-          - name: Удаленная подготовка и вход
-            href: devices/remote-provision-remote-login.md
-          - name: Удаленный вход и выход
-            href: devices/remote-sign-in-and-sign-out.md
-          - name: Удаленное обновление устройств
-            href: devices/remote-update.md
-          - name: Управление тегами устройств Teams
-            href: devices/manage-device-tags.md
-          - name: Телефоны для Teams
-            href: devices/phones-for-teams.md
-          - name: Дисплеи Teams
-            href: devices/teams-displays.md
-          - name: Панели Teams
-            items:
-              - name: Панели Teams
-                href: devices/teams-panels.md
-              - name: Использование панелей Teams
-                href: devices/use-teams-panels.md
-              - name: Поддержка приложений на панелях Teams
-                href: app-support-on-Teams-panels.md
-          - name: Обновление телефонов Teams до дисплеев Teams
-            href: devices/upgrade-phones-to-displays.md
-          - name: Развертывание телефонов Teams и дисплеев Teams с помощью Intune
-            href: devices/phones-displays-deploy.md
-          - name: USB-устройства для аудио и видео
-            href: devices/usb-devices.md
-          - name: Развертывание Комнат Microsoft Teams на Android
-            href: devices/collab-bar-deploy.md
-          - name: Настройка пользовательского интерфейса для устройств с Android в Microsoft Teams
-            href: devices/Teams-Android-devices-user-interface.md
-          - name: Комнатные устройства и решения для проведения собраний
-            href: /skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
-          - name: Сертифицированные устройства Teams
-            href: devices/teams-ip-phones.md
-          - name: SIP-шлюз
-            items:
-              - name: Планирование SIP-шлюза
-                href: sip-gateway-plan.md
-              - name: Настройка SIP-шлюза
-                href: sip-gateway-configure.md
-          - name: Телефоны для приложения Skype для бизнеса Online
-            href: /SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
-          - name: Оповещения и мониторинг в Teams
-            href: alerts/teams-admin-alerts.md
-          - name: Мониторинг работоспособности устройств в Teams
-            href: alerts/device-health-status.md
-          - name: Устройства и периферийные аксессуары Teams
-            href: teams-device-health.md
       - name: PowerShell в Teams
         items:
           - name: Обзор
