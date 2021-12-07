@@ -3,6 +3,54 @@
 
 
 
+## <a name="week-of-november-29-2021"></a>Неделя от 29 ноября 2021 г.
+
+
+| Дата публикации |Название статьи | Изменение |
+|------|------------|--------|
+| 11/29/2021 | [Устройства для Teams](/MicrosoftTeams/devices/teams-ip-phones) | Изменено |
+| 11/29/2021 | [Установите Microsoft Teams с помощью Microsoft Endpoint Configuration Manager](/MicrosoftTeams/msi-deployment) | Изменено |
+| 11/29/2021 | [Переход с пробной версии Teams Exploratory](/MicrosoftTeams/upgrade-from-teams-exploratory) | Изменено |
+| 11/30/2021 | [Управление политиками собраний для участников и гостей](/MicrosoftTeams/meeting-policies-participants-and-guests) | Изменено |
+| 11/30/2021 | [Настройка администратором приложения "Родители Microsoft EDU" в Teams](/MicrosoftTeams/edu-parents-app) | Изменено |
+| 12/1/2021 | [Подключение Microsoft Teams основные (удостоверения AAD) в существующую почтовую систему с календарем](/MicrosoftTeams/connect-teams-essentials-to-email) | Добавлено |
+| 12/1/2021 | [Руководство по быстрому запуску Teams базовый для малого бизнеса](/MicrosoftTeams/get-started-with-teams-essentials) | Добавлено |
+| 12/1/2021 | [Настройка оператора Подключение конференцию](/MicrosoftTeams/operator-connect-conferencing-configure) | Добавлено |
+| 12/1/2021 | [Планирование операторов Подключение конференцию](/MicrosoftTeams/operator-connect-conferencing-plan) | Добавлено |
+| 12/1/2021 | [Teams для инфраструктуры виртуальных рабочих столов](/MicrosoftTeams/teams-for-vdi) | Изменено |
+| 12/1/2021 | [Политики записи трансляций](/MicrosoftTeams/teams-live-events/live-events-recording-policies) | Изменено |
+| 12/1/2021 | [Microsoft Teams powerShell заметки о выпуске](/MicrosoftTeams/teams-powershell-release-notes) | Изменено |
+| 12/1/2021 | [Обновление Microsoft Teams бесплатной (классической) до подписки](/MicrosoftTeams/upgrade-freemium) | Изменено |
+| 12/1/2021 | [Руководство по быстрому запуску Teams базовый для малого бизнеса](/MicrosoftTeams/get-started-with-teams-essentials) | Изменено |
+| 12/1/2021 | [Вот что можно получить с помощью Teams Телефон](/MicrosoftTeams/here-s-what-you-get-with-phone-system) | Изменено |
+| 12/1/2021 | [Настройка Teams Телефон в организации](/MicrosoftTeams/setting-up-your-phone-system) | Изменено |
+| 12/1/2021 | [Что Teams Телефон](/MicrosoftTeams/what-is-phone-system-in-office-365) | Изменено |
+| 12/2/2021 | [Планирование голосового решения в Microsoft Teams](/MicrosoftTeams/cloud-voice-landing-page) | Изменено |
+| 12/2/2021 | [Телефоны и устройства для Microsoft Teams](/MicrosoftTeams/devices/usb-devices) | Изменено |
+| 12/2/2021 | [Измерения и измерения: панель мониторинга качества звонка (CQD)](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | Изменено |
+| 12/2/2021 | [Параметры подключения через ДНР](/MicrosoftTeams/pstn-connectivity) | Изменено |
+| 12/2/2021 | [Insights для образования уведомления для конечных пользователей](/MicrosoftTeams/insights-end-user-notice) | Добавлено |
+| 12/2/2021 | [Настройка динамических экстренных вызовов](/MicrosoftTeams/configure-dynamic-emergency-calling) | Изменено |
+| 12/2/2021 | [Подключение Microsoft Teams основные (удостоверения AAD) в существующую почтовую систему с календарем](/MicrosoftTeams/connect-teams-essentials-to-email) | Изменено |
+| 12/3/2021 | Назначение политик вашим пользователям в Microsoft Teams | Удалено |
+| 12/3/2021 | [Поиск событий Microsoft Teams в журнале аудита](/MicrosoftTeams/audit-log-events) | Изменено |
+| 12/3/2021 | [Устройства для Teams](/MicrosoftTeams/devices/teams-ip-phones) | Изменено |
+| 12/3/2021 | [Планирование обхода сервера-посредника с прямой маршрутизацией](/MicrosoftTeams/direct-routing-plan-media-bypass) | Изменено |
+| 12/3/2021 | [Руководство по быстрому запуску Teams базовый для малого бизнеса](/MicrosoftTeams/get-started-with-teams-essentials) | Изменено |
+| 12/3/2021 | [Настройка консоли комнат Microsoft Teams](/MicrosoftTeams/rooms/console) | Изменено |
+| 12/3/2021 | [Узнайте, как настроить камеры контента — Microsoft Teams](/MicrosoftTeams/rooms/content-camera) | Изменено |
+| 12/3/2021 | [Настройка согласованных собраний с Комнаты Microsoft Teams и Surface Hub](/MicrosoftTeams/rooms/coordinated-meetings) | Изменено |
+| 12/3/2021 | [Требования к комнатам Microsoft Teams](/MicrosoftTeams/rooms/requirements) | Изменено |
+| 12/3/2021 | [Проверка подлинности в Комнаты Microsoft Teams](/MicrosoftTeams/rooms/rooms-authentication) | Изменено |
+| 12/3/2021 | [Настройка учетных записей для Комнаты Microsoft Teams](/MicrosoftTeams/rooms/rooms-configure-accounts) | Изменено |
+| 12/3/2021 | [Развертывание комнат Microsoft Teams](/MicrosoftTeams/rooms/rooms-deploy) | Изменено |
+| 12/3/2021 | [Лицензии комнаты Microsoft Teams](/MicrosoftTeams/rooms/rooms-licensing) | Изменено |
+| 12/3/2021 | [Комнаты Microsoft Teams версии приложения](/MicrosoftTeams/rooms/rooms-lifecycle-support) | Изменено |
+| 12/3/2021 | [Управление комнатами Microsoft Teams](/MicrosoftTeams/rooms/rooms-manage) | Изменено |
+| 12/3/2021 | [Комнаты Microsoft Teams обслуживания и операций](/MicrosoftTeams/rooms/rooms-operations) | Изменено |
+| 12/3/2021 | [Комнаты Microsoft Teams безопасность](/MicrosoftTeams/rooms/security) | Изменено |
+
+
 ## <a name="week-of-november-22-2021"></a>Неделя от 22 ноября 2021 г.
 
 
@@ -44,7 +92,7 @@
 
 | Дата публикации |Название статьи | Изменение |
 |------|------------|--------|
-| 11/15/2021 | [Виртуальные посещения с Teams — интеграция с EHR Cerner](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin-cerner) | Изменено |
+| 11/15/2021 | [Виртуальные посещения с Teams интеграция с EHR Cerner](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin-cerner) | Изменено |
 | 11/15/2021 | [Музыка при удержании](/MicrosoftTeams/music-on-hold) | Изменено |
 | 11/16/2021 | [Прямая маршрутизация телефонной системы](/MicrosoftTeams/direct-routing-protocols-sip) | Изменено |
 | 11/16/2021 | [Общие сведения об управлении политикой в Microsoft Teams](/MicrosoftTeams/policy-control-overview) | Изменено |
@@ -61,7 +109,7 @@
 | 11/17/2021 | [Настройка кредитов на связь для организации](/MicrosoftTeams/set-up-communications-credits-for-your-organization) | Изменено |
 | 11/17/2021 | [Отчет о действиях пользователей Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/user-activity-report) | Изменено |
 | 11/17/2021 | [Teams для инфраструктуры виртуальных рабочих столов](/MicrosoftTeams/teams-for-vdi) | Изменено |
-| 11/17/2021 | [Ограничения на исходящие звонки — аудиоконференция & звонками по ЗВОНКОВ по ННР](/MicrosoftTeams/outbound-calling-restriction-policies) | Изменено |
+| 11/17/2021 | [Ограничения на исходящие звонки — аудиоконференция & звонков по ЗВОНКОВ по ННП](/MicrosoftTeams/outbound-calling-restriction-policies) | Изменено |
 | 11/17/2021 | [Использование телеметрии в режиме реального времени для устранения неполадок с качеством собрания](/MicrosoftTeams/use-real-time-telemetry-to-troubleshoot-poor-meeting-quality) | Изменено |
 | 11/18/2021 | [Удаленная подготовка и вход для Teams устройств с Android](/MicrosoftTeams/devices/remote-provision-remote-login) | Изменено |
 | 11/18/2021 | [Удаленный вход и выход для Teams устройств с Android](/MicrosoftTeams/devices/remote-sign-in-and-sign-out) | Добавлено |
@@ -79,62 +127,3 @@
 | 11/19/2021 | [Контрольный список по переходу\| Переход со Skype для бизнеса на Microsoft Teams \| Основные этапы](/MicrosoftTeams/upgrade-basic) | Изменено |
 | 11/19/2021 | Объявление соответствия специальным возможности ( Франция) | Удалено |
 | 11/19/2021 | [Microsoft Teams: объявление соответствия специальным возможности ( Франция)](/MicrosoftTeams/accessibility-declaration-of-conformance-in-france-for-teams) | Изменено |
-
-
-## <a name="week-of-october-25-2021"></a>Неделя 25 октября 2021 г.
-
-
-| Дата публикации |Название статьи | Изменение |
-|------|------------|--------|
-| 10/25/2021 | [Сквозное шифрование для Microsoft Teams](/MicrosoftTeams/teams-end-to-end-encryption) | Добавлено |
-| 10/25/2021 | [Политики звонков в Microsoft Teams: функции переадваровки звонков и звонков](/MicrosoftTeams/teams-calling-policy) | Изменено |
-| 10/25/2021 | [Управление состоянием Teams устройств](/MicrosoftTeams/teams-device-health) | Изменено |
-| 10/25/2021 | [Обзор руководства по безопасности для Microsoft Teams](/MicrosoftTeams/teams-security-guide) | Изменено |
-| 10/26/2021 | [Доступность страны или региона : аудиоконференция, планы звонков](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans) | Изменено |
-| 10/26/2021 | [Устройства для Teams](/MicrosoftTeams/devices/teams-ip-phones) | Изменено |
-| 10/26/2021 | [Microsoft Teams использования приложений](/MicrosoftTeams/teams-analytics-and-reports/app-usage-report) | Изменено |
-| 10/26/2021 | [Microsoft Teams powerShell заметки о выпуске](/MicrosoftTeams/teams-powershell-release-notes) | Изменено |
-| 10/26/2021 | [Управление командами в Центре администрирования Microsoft Teams](/MicrosoftTeams/manage-teams-in-modern-portal) | Изменено |
-| 10/27/2021 | [Телефоны и устройства для Microsoft Teams](/MicrosoftTeams/devices/usb-devices) | Изменено |
-| 10/27/2021 | [Требования к оборудованию для Microsoft Teams](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | Изменено |
-| 10/27/2021 | [Приобретение сторонних приложений для Teams](/MicrosoftTeams/purchase-third-party-apps) | Изменено |
-| 10/27/2021 | [Требования к комнатам Microsoft Teams](/MicrosoftTeams/rooms/requirements) | Изменено |
-| 10/27/2021 | [Введение в Teams записи на основе политики для & собраний](/MicrosoftTeams/teams-recording-policy) | Изменено |
-| 10/27/2021 | [Просмотр заданий политики в журнале действий в центре Microsoft Teams администрирования](/MicrosoftTeams/activity-log) | Изменено |
-| 10/27/2021 | [Назначение политик большому набору пользователей в учебном за учебных заведениях](/MicrosoftTeams/batch-group-policy-assignment-edu) | Изменено |
-| 10/27/2021 | [Парковка и восстановление звонков в Microsoft Teams](/MicrosoftTeams/call-park-and-retrieve) | Изменено |
-| 10/27/2021 | [Управление политиками идентификации вызывающего абонента в Microsoft Teams](/MicrosoftTeams/caller-id-policies) | Изменено |
-| 10/27/2021 | [Настройка Microsoft Teams в организации](/MicrosoftTeams/deploy-enterprise-setup) | Изменено |
-| 10/27/2021 | [Собрания и конференции в Microsoft Teams](/MicrosoftTeams/deploy-meetings-microsoft-teams-landing-page) | Изменено |
-| 10/27/2021 | [Teams для образования политики для простого применения политик для безопасного обучения](/MicrosoftTeams/easy-policy-setup-edu) | Изменено |
-| 10/27/2021 | [Управление приложением "Смены" в организации](/MicrosoftTeams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams) | Изменено |
-| 10/27/2021 | [Подготовка Microsoft Teams в масштабе для сотрудников без компьютеров](/MicrosoftTeams/flw-scripted-deployment) | Изменено |
-| 10/27/2021 | [Управление политиками голосовой маршрутии для прямой маршрутии в экстренных службах](/MicrosoftTeams/manage-emergency-call-routing-policies) | Изменено |
-| 10/27/2021 | [Управление политиками экстренных вызовов в Microsoft Teams](/MicrosoftTeams/manage-emergency-calling-policies) | Изменено |
-| 10/27/2021 | [Управление политиками отзывов в Microsoft Teams](/MicrosoftTeams/manage-feedback-policies-in-teams) | Изменено |
-| 10/27/2021 | [Управление и отслеживание Teams](/MicrosoftTeams/manage-teams-overview) | Изменено |
-| 10/27/2021 | [Управление Teams политиками](/MicrosoftTeams/manage-teams-with-policies) | Изменено |
-| 10/27/2021 | [Управление политиками голосовой маршрутии для прямой маршрутии](/MicrosoftTeams/manage-voice-routing-policies) | Изменено |
-| 10/27/2021 | [Политики собраний и срок их действия в Microsoft Teams](/MicrosoftTeams/meeting-expiration) | Изменено |
-| 10/27/2021 | [Управление политиками собраний для общего доступа к содержимому](/MicrosoftTeams/meeting-policies-content-sharing) | Изменено |
-| 10/27/2021 | [Teams: управление политиками собраний](/MicrosoftTeams/meeting-policies-in-teams) | Изменено |
-| 10/27/2021 | [Управление политиками собраний для участников и гостей](/MicrosoftTeams/meeting-policies-participants-and-guests) | Изменено |
-| 10/27/2021 | [Удаление политики собраний Teams RestrictedAnonymousAccess для пользователей](/MicrosoftTeams/meeting-policies-restricted-anonymous-access) | Изменено |
-| 10/27/2021 | [Музыка при удержании](/MicrosoftTeams/music-on-hold) | Изменено |
-| 10/27/2021 | [Планирование управления в Teams — Microsoft Teams](/MicrosoftTeams/plan-teams-governance) | Изменено |
-| 10/27/2021 | [Политики и пакеты политик Microsoft Teams для администраторов образовательных учреждений](/MicrosoftTeams/policy-packages-edu) | Изменено |
-| 10/27/2021 | [Teams пакеты политик для государственных органов](/MicrosoftTeams/policy-packages-gov) | Изменено |
-| 10/27/2021 | [Пакеты политик Teams для здравоохранения](/MicrosoftTeams/policy-packages-healthcare) | Изменено |
-| 10/27/2021 | [Начните с Microsoft Teams для дистанционного обучения](/MicrosoftTeams/remote-learning-edu) | Изменено |
-| 10/27/2021 | [Управление администрированием клиента для распознавания речи (профиля голосовой почты) в Комнаты Teams](/MicrosoftTeams/rooms/voice-recognition) | Изменено |
-| 10/27/2021 | [Пример сценария PowerShell: создание групп безопасности для преподавателей и учащихся в учебном за учебных заведениях](/MicrosoftTeams/scripts/powershell-script-security-groups-edu) | Изменено |
-| 10/27/2021 | [Пример сценария PowerShell: создание политики & сообщений](/MicrosoftTeams/scripts/powershell-script-teams-messaging-policy-edu) | Изменено |
-| 10/27/2021 | [Управление политиками разрешений для приложений в Microsoft Teams](/MicrosoftTeams/teams-app-permission-policies) | Изменено |
-| 10/27/2021 | [Политики звонков в Microsoft Teams: функции переадваровки звонков и звонков](/MicrosoftTeams/teams-calling-policy) | Изменено |
-| 10/27/2021 | [Teams для инфраструктуры виртуальных рабочих столов](/MicrosoftTeams/teams-for-vdi) | Изменено |
-| 10/27/2021 | [Использование Teams со службами удаленного рабочего стола](/MicrosoftTeams/teams-on-rdp) | Изменено |
-| 10/27/2021 | [Управление политиками каналов в Microsoft Teams](/MicrosoftTeams/teams-policies) | Изменено |
-| 10/27/2021 | [Microsoft Teams powerShell заметки о выпуске](/MicrosoftTeams/teams-powershell-release-notes) | Изменено |
-| 10/27/2021 | [Управление шаблонами групп в Центре администрирования](/MicrosoftTeams/templates-policies) | Изменено |
-| 10/27/2021 | [Использование OneDrive для бизнеса и SharePoint для записей собраний](/MicrosoftTeams/tmr-meeting-recording-change) | Изменено |
-| 10/28/2021 | [Информационные барьеры в Microsoft Teams](/MicrosoftTeams/information-barriers-in-teams) | Изменено |
