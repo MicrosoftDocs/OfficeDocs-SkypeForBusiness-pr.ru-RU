@@ -15,20 +15,20 @@ ms.collection:
 - M365-collaboration
 description: Узнайте о требованиях к поддержке Комнаты Microsoft Teams, включая выбор соответствующего устройства, микрофонов, динамиков, камер и дисплеев.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8524f1481c98425e726f902a76ce82ce536ed419
-ms.sourcegitcommit: 7eb66cb2955b17e89e1c162b6ca1b9bdb18189b2
+ms.openlocfilehash: f700edf52c5280a7262d5f8dfcdc48b38acd7e1b
+ms.sourcegitcommit: c8951fe3504c1776d7aec14b79605aaf5d317e7f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/04/2021
-ms.locfileid: "61306134"
+ms.lasthandoff: 12/08/2021
+ms.locfileid: "61331120"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Требования к комнатам Microsoft Teams
 
-Комнаты Microsoft Teams разного размера комнаты. Комнаты Teams использовать широкий спектр сертифицированных периферийных устройств для аудио- и видеосвязи в зависимости от размера и использования комнаты. Выбрав нужное основное устройство и консоль в сочетании с микрофонами, динамиками, камерами и мониторами, вы можете развернуть Комнаты Microsoft Teams на любых пространствах любого размера от небольших мест на конференциях до больших конференц-залов и конференц-залов.  Полный набор доступных сертифицированных периферийных аудио и видео устройств, которые можно использовать для настройки комнаты, см. в статье [Демонстрация устройств](https://products.office.com/microsoft-teams/across-devices).
+Комнаты Microsoft Teams разного размера комнаты. Комнаты Teams использовать широкий спектр сертифицированных периферийных устройств для аудио- и видеосвязи в зависимости от размера и использования комнаты. Выбрав нужное основное устройство и консоль в сочетании с микрофонами, динамиками, камерами и мониторами, вы можете развернуть Комнаты Microsoft Teams на пространствах любого размера от небольших мест для конференц-связи до больших конференц-залов и конференц-залов.  Полный набор доступных сертифицированных периферийных аудио и видео устройств, которые можно использовать для настройки комнаты, см. в статье [Демонстрация устройств](https://products.office.com/microsoft-teams/across-devices).
 
 В этой статье представлены общие требования к развертыванию и конфигурации устройств для поддержки комнат Microsoft Teams.
 
-Развертывание включает создание и настройку учетных записей Комнаты Teams, как описано в [Комнаты Microsoft Teams.](rooms-deploy.md)
+Развертывание включает создание и настройку учетных записей ресурсов Комнаты Teams, как описано в [Комнаты Microsoft Teams.](rooms-deploy.md)
 
 Обратитесь к:
 
@@ -37,7 +37,7 @@ ms.locfileid: "61306134"
 > [!NOTE]
 > Комнаты Microsoft Teams войти в Microsoft Teams, Skype для бизнеса Server 2019 или Skype для бизнеса Server 2015, и может присоединиться к собраниям, которые будут проводиться в любой из этих служб.
 >
-> Такие приложения, как Lync Server 2013, не поддерживаются в Комнатах Microsoft Teams. Комнаты Microsoft Teams не поддерживается в Microsoft 365 или Office 365 под управлением 21Vianet или doD.
+> Такие приложения, как Lync Server 2013, не поддерживаются в Комнатах Microsoft Teams. Комнаты Microsoft Teams не поддерживается в Microsoft 365 или Office 365 под управлением 21Vianet или средах DoD.
 >
 > Если вы используете локальный Exchange server, в комнатах Microsoft Teams необходимо использовать Exchange Server 2013 SP1 или более позднюю версию.
 
@@ -68,7 +68,7 @@ ms.locfileid: "61306134"
    |[Uc-MX50-T с КОМПЬЮТЕРОМ ASUS](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-MX50-T)|Core i5|8 ГБ |128 ГБ |
    |[Uc-MX70-T с КОМПЬЮТЕРОМ ASUS](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-MX70-T)|Core i5|8 ГБ |128 ГБ |
   |[Манкрон Миллиметр (Mini UC-MM30-T)](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-MM30-T)|Core i5|8 ГБ |128 ГБ |
-  |[Dell OptiPlex 7080 с logitech TAP](https://www.dell.com/work/shop/cty/pdp/spd/optiplex-7080-xe-teams) | Core i7 |16 ГБ |128 ГБ|
+  |[Dell OptiPlex 7080 с logitech TAP](https://www.dell.com/en-us/work/shop/cty/pdp/spd/optiplex-7080-xe-teams) | Core i7 |16 ГБ |128 ГБ|
   |[HP Elite Slice для Meeting Rooms G2](https://www8.hp.com/us/en/elite-family/elite-slice-for-meetings.html) |Core i5 |8 ГБ |128 ГБ |
   |[HP Elite Slice G2 с готовым аудио для комнат Microsoft Teams](https://store.hp.com/us/en/pdp/hp-elite-slice-for-meeting-rooms-g2-skype-room-systems-audio-ready?jumpid=cp_r12131_us/en/psg/elite_slice_for_meetings/product/shop-now-eliteslicemeeting-g2-audio) |Core i5 |8 ГБ |128 ГБ |
   |[HP Slice Partner Ready with Logitech TAP]( https://www.logitech.com/video-collaboration/partners/hp.html)|Core i5|8 ГБ|128 ГБ| 
@@ -179,6 +179,8 @@ ms.locfileid: "61306134"
 |[Yealink CP900](https://www.yealink.com/products_150.html) |100.20.0.29 |
 |[Yealink UVC30](https://www.yealink.com/product/microsoft-teams-room-system-uvc30)| 105.420.0.11 |  &#x2714; |
 |[Yealink UVC40 All-in-one Video bar](https://www.yealink.com/product/usb-videobar-uvc40) |128.410.0.10|  
+|[Yealink UVC84](https://www.yealink.com/product/camera-uvc84) |262.410.0.10|
+|[Yealink UVC86]( https://www.yealink.com/product/camera-uvc86) |151.410.0.5|
 |[Shure Intellimix P300 Audio Conferencing Processor](https://www.shure.com/products/mixers/p300)+</br></br> [Shure MXA 310 Table Array Mic ](https://www.shure.com/products/microphones/mxa310) | 4.1 |
 |[Shure Intellimix P300 Audio Conferencing Processor](https://www.shure.com/products/mixers/p300) + </br></br> [Shure MXA 910 with Intellimix Ceiling Array Mic](https://www.shure.com/products/microphones/mxa910) | 4.1|
 |[Shure Intellimix P300 Audio Conferencing Processor](https://www.shure.com/products/mixers/p300)+</br></br> [Micre MXA 310 Table Array Mic ](https://www.shure.com/products/microphones/mxa310) +</br></br> [Динамик октата MXN5W-C](https://www.shure.com/en-US/products/loudspeakers/mxn5)| P300 DSP: 4.1.11 </br> Микрофон таблицы MXA310: 4.1.41 </br> Динамик MXN5W-C: 1.0.4 |
