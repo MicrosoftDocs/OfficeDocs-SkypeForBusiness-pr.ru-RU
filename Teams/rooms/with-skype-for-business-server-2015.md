@@ -15,19 +15,18 @@ ms.collection:
 ms.assetid: a038e34d-8bc8-4a59-8ed2-3fc00ec33dd7
 description: Дополнительные сведения о развертывании Комнаты Microsoft Teams с помощью Skype для бизнеса Server.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2990e1314ee851156bc11430ecf933fe31552117
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 702eb2128dd37980fd3fc76548638102d45d7af9
+ms.sourcegitcommit: 1165a74b1d2e79e1a085b01e0e00f7c65483d729
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58615195"
+ms.lasthandoff: 12/08/2021
+ms.locfileid: "61355628"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-skype-for-business-server"></a>Развертывание Комнаты Microsoft Teams с помощью Skype для бизнеса Server
   
-В этой теме объясняется, как добавить учетную запись для Комнаты Microsoft Teams при развертывании с одним лесом в локальном развертывании.
+В этой теме объясняется, как добавить учетную запись ресурса для Комнаты Microsoft Teams при развертывании с одним лесом в локальном развертывании.
   
-Если у вас один лес, локальное развертывание с Exchange 2013 с SP1 или более поздней и Skype для бизнеса Server 2015 или более поздней, вы можете использовать предоставленные сценарии Windows PowerShell для создания учетных записей устройств. При развертывании с несколькими лесами можно использовать эквивалентные cmdlets, которые будут работать с одинаковыми результатами. В этой статье описываются необходимые для этого командлеты.
-
+Если у вас один лес, локальное развертывание с Exchange 2013 с sp1 или более поздней и Skype для бизнеса Server 2015 или более поздней, вы можете использовать предоставленные сценарии Windows PowerShell для создания учетных записей устройств. При развертывании с несколькими лесами можно использовать эквивалентные cmdlets, которые будут работать с одинаковыми результатами. В этой статье описываются необходимые для этого командлеты.
   
 Прежде чем приступить к развертыванию Комнаты Microsoft Teams, убедитесь, что у вас есть права на запуск связанных с ними cmdlets.
   
@@ -43,78 +42,76 @@ ms.locfileid: "58615195"
    Import-PSSession $sessLync
    ```
 
-   Обратите внимание$strExchangeServer что $strExchangeServer — полное доменное имя вашего Exchange-сервера, а $strLyncFQDN — полное доменное Skype для бизнеса Server развертывания.
+   Обратите внимание$strExchangeServer что $strExchangeServer — это полное доменное имя вашего сервера Exchange, а $strLyncFQDN — полное доменное Skype для бизнеса Server развертывания.
 
-2. После создания сеанса вам нужно создать новый почтовый ящик и включить его в качестве учетной записи RoomMailboxAccount или изменить параметры существующего почтового ящика комнаты. Это позволит учетной записи проверить подлинность для Комнаты Microsoft Teams.
+2. После создания сеанса вы либо создайте новый почтовый ящик, чтобы включить его в качестве учетной записи RoomMailboxAccount, либо измените параметры существующего почтового ящика комнаты. Это позволит учетной записи проверить подлинность для Комнаты Microsoft Teams.
 
     Изменение существующего почтового ящика ресурса:
 
    ``` Powershell
-   Set-Mailbox -Identity 'PROJECTRIGEL01' -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password>
+   Set-Mailbox -Identity 'ConferenceRoome01' -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password>
    -AsPlainText -Force)
    ```
 
    Если вы создаете новый почтовый ящик ресурса:
 
    ``` Powershell
-   New-Mailbox -UserPrincipalName PROJECTRIGEL01@contoso.com -Alias PROJECTRIGEL01 -Name "Project-Rigel-01" -Room
+   New-Mailbox -UserPrincipalName ConferenceRoom01@contoso.com -Alias ConferenceRoom01 -Name "Conference Room 01" -Room
    -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
    ```
 
-3. Вы можете настроить различные Exchange в учетной записи устройства, чтобы улучшить собрание для пользователей. Описание необходимых настроек приводится в разделе "Свойства Exchange".
+3. Вы можете настроить различные Exchange в учетной записи Комнаты Teams ресурсов, чтобы улучшить собрание для пользователей. Описание необходимых настроек приводится в разделе "Свойства Exchange".
 
    ``` Powershell
-   Set-CalendarProcessing -Identity $acctUpn -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -AllowConflicts $false -DeleteComments
+   Set-CalendarProcessing -Identity ConferenceRoom01 -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -AllowConflicts $false -DeleteComments
    $false -DeleteSubject $false -RemovePrivateProperty $false
-   Set-CalendarProcessing -Identity $acctUpn -AddAdditionalResponse $true -AdditionalResponse "This is a Skype Meeting room!"
+   Set-CalendarProcessing -Identity ConferenceRoom01 -AddAdditionalResponse $true -AdditionalResponse "This is a Microsoft Teams and Skype for Business meeting room!"
    ```
 
-4. Если вы решите, что срок действия пароля не истек, вы также можете Windows PowerShell с помощью Windows PowerShell. Дополнительные сведения см. в разделе "Управление паролями".
+4. Отключите срок действия пароля для учетной записи ресурса.
 
    ``` Powershell
-   Set-AdUser $acctUpn -PasswordNeverExpires $true
+   Set-AdUser ConferenceRoom01@contoso.com -PasswordNeverExpires $true
    ```
 
-5. В этой службе можно включить учетную запись в Active Directory, чтобы она пройдет проверку подлинности Комнаты Microsoft Teams.
+5. В этой службе можно включить учетную запись ресурса в Active Directory, чтобы она пройдет проверку подлинности Комнаты Microsoft Teams.
 
    ``` Powershell
-   Set-AdUser $acctUpn -Enabled $true
+   Set-AdUser ConferenceRoom01@contoso.com -Enabled $true
    ```
 
-6. Включите учетную запись устройства Skype для бизнеса Server, включив учетную запись Комнаты Microsoft Teams Active Directory в Skype для бизнеса Server пуле:
+6. Включите учетную запись ресурса Skype для бизнеса Server, включив учетную запись Комнаты Microsoft Teams Active Directory в Skype для бизнеса Server пуле:
 
    ``` Powershell
-   Enable-CsMeetingRoom -SipAddress sip:PROJECTRIGEL01@contoso.com -DomainController DC-ND-001.contoso.com
-   -RegistrarPool LYNCPool15.contoso.com -Identity PROJECTRIGEL01
+   Enable-CsMeetingRoom -Identity ConferenceRoom01 -SipAddress sip:ConferenceRoom01@contoso.com -DomainController DC-ND-001.contoso.com
+   -RegistrarPool LYNCPool15.contoso.com 
    ```
 
-    Для этого вам понадобятся SIP-адрес и контроллер домена проекта.
+    Измените `-DomainController` значения `-RegistrarPool` и атрибуты на значения, подходящие для вашей среды.
 
-7. **Необязательный**. Вы также можете разрешить Комнаты Microsoft Teams телефонную сеть общего звонков (STN), включив Корпоративная голосовая связь для вашей учетной записи. Корпоративная голосовая связь не является требованием для Комнаты Microsoft Teams, но если вы хотите, чтобы для клиента Комнаты Microsoft Teams телефонной службы были Комнаты Microsoft Teams ОКП, его можно включить.
+7. **Необязательный**. Вы также можете разрешить Комнаты Microsoft Teams телефонной сети общего звонков (STN), включив Корпоративная голосовая связь для вашей учетной записи. Корпоративная голосовая связь не является требованием для Комнаты Microsoft Teams, но если вы хотите, чтобы Комнаты Microsoft Teams ОКП, вот как это сделать:
 
    ``` Powershell
-   Set-CsMeetingRoom PROJECTRIGEL01 -DomainController DC-ND-001.contoso.com -LineURI "tel:+14255550555;ext=50555"
-   Set-CsMeetingRoom -DomainController DC-ND-001.contoso.com -Identity PROJECTRIGEL01 -EnterpriseVoiceEnabled $true
-   Grant-CsVoicePolicy -PolicyName VP1 -Identity PROJECTRIGEL01
-   Grant-CsDialPlan -PolicyName DP1 -Identity PROJECTRIGEL01
+   Set-CsMeetingRoom -Identity ConferenceRoom01 -DomainController DC-ND-001.contoso.com -LineURI "tel:+14255550555;ext=50555"
+   Set-CsMeetingRoom -Identity ConferenceRoom01 -DomainController DC-ND-001.contoso.com -EnterpriseVoiceEnabled $true
+   Grant-CsVoicePolicy -Identity ConferenceRoom01 -PolicyName VP1
+   Grant-CsDialPlan -Identity ConferenceRoom01 -PolicyName DP1
    ```
 
-   Обратите внимание, что используемые в примере контроллер домена и номер телефона необходимо заменить данными, соответствующими вашей среде. Значение параметра $true остается прежним.
+   Обратите внимание, что используемые в примере контроллер домена и номер телефона необходимо заменить данными, соответствующими вашей среде. Значение параметра $true остается прежним. Вам также потребуется заменить названия политик голосовой политики и плана набора номера.
 
-## <a name="sample-room-account-setup-in-exchange-and-skype-for-business-server-on-premises"></a>Пример: настройка учетной записи комнаты Exchange и Skype для бизнеса Server локально
+## <a name="sample-room-account-setup-in-exchange-and-skype-for-business-server-on-premises"></a>Пример: настройка учетной записи Exchange и Skype для бизнеса Server локально
 
 ``` Powershell
-New-Mailbox -Alias rigel1 -Name "Rigel 1" -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String "" -AsPlainText -Force)
--UserPrincipalName rigel1@contoso.com
+New-Mailbox -Alias ConferenceRoom01 -Name "Conference Room 01" -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String "" -AsPlainText -Force) -UserPrincipalName ConferenceRoom01@contoso.com
 
-Set-CalendarProcessing -Identity rigel1 -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -AllowConflicts $false -DeleteComments $false -DeleteSubject $false
--RemovePrivateProperty $false
-Set-CalendarProcessing -Identity rigel1 -AddAdditionalResponse $true -AdditionalResponse "This is a Skype Meeting room!"
+Set-CalendarProcessing -Identity ConferenceRoom01 -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -AllowConflicts $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false
+Set-CalendarProcessing -Identity ConferenceRoom01 -AddAdditionalResponse $true -AdditionalResponse "This is a Microsoft Teams and Skype for Business meeting room!"
 
-Enable-CsMeetingRoom -Identity rigel1@contoso.com -RegistrarPool cs3.contoso.com -SipAddressType EmailAddress
-Set-CsMeetingRoom -Identity rigel1 -EnterpriseVoiceEnabled $true -LineURI tel:+155555555555
-Grant-CsVoicePolicy -PolicyName dk -Identity rigel1
-Grant-CsDialPlan -PolicyName e15dp2.contoso.com -Identity rigel1
+Enable-CsMeetingRoom -Identity ConferenceRoom01@contoso.com -RegistrarPool cs3.contoso.com -SipAddressType EmailAddress
+Set-CsMeetingRoom -Identity ConferenceRoom01 -EnterpriseVoiceEnabled $true -LineURI tel:+155555555555
+Grant-CsVoicePolicy -Identity ConferenceRoom01 -PolicyName dk
+Grant-CsDialPlan -Identity ConferenceRoom01 -PolicyName e15dp2.contoso.com
 ```
 
 ## <a name="related-topics"></a>Статьи по теме
