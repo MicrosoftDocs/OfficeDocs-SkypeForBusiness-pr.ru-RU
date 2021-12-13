@@ -52,7 +52,7 @@ ms.locfileid: "61055390"
 
 ## <a name="installation"></a>Установка 
 
-В следующих действиях предполагается, что Power BI Desktop уже установлен на компьютере и что у вашей учетной записи есть необходимые разрешения на доступ к каналу данных CQD.
+В следующих действиях предполагается, что Power BI Desktop на компьютере уже установлены и что у вашей учетной записи есть необходимые разрешения на доступ к каналу данных CQD.
 
 Выполните следующие действия:
 
@@ -89,7 +89,7 @@ ms.locfileid: "61055390"
 
 - Выберите **Подключение** и просмотрите обновление данных.
 
-## <a name="data-latency-and-aa--cq-analytics"></a>Задержка данных и аналитика CQ & AA
+## <a name="data-latency-and-aa--cq-analytics"></a>Задержка данных и аналитика & AA
 
 Данные будут доступны в канале данных CQD в течение 30 минут.
 
@@ -201,14 +201,14 @@ ms.locfileid: "61055390"
 |fCallQueueAnalytics          |CallQueueAnalytics           |Нет             |
 |fCallQueueFinalStateAction   |CallQueueFinalStateAction    |Нет             |
 
-|Раздел отчета                      |Таблица > полей                |Примененные фильтры       |
+|Раздел отчета                      |Использовано полей > таблиц                |Примененные фильтры       |
 |:-----------------------------------|:-------------------------------------|:---------------------|
 |Выбор даты                       |Даты и > даты и времени                     |Нет                  |
 |Удостоверение очереди вызовов                 |dCQ-CQIdentity -> очереди вызовов |Нет                  |
 |Источник входящих<sup>вызовов 1</sup>    |fCallQueueAnalytics -> количество вызовов<br>fCallQueueAnalytics -> Тип звонка    |Внешние звонки: внешний тип звонка<br>Внутренние звонки: тип звонка — внутренний |
-|Avg Waiting Time                    |fCallQueueFinalStateAction -> Средняя длительность звонка (в секундах) |Перед передачей: результат звонка в очереди звонка agent_joined_conference или transferred_to_agent<br>Перед повесить трубку: результат звонка в очереди звонка не agent_joined_conference или transferred_to_agent |
+|Avg Waiting Time                    |fCallQueueFinalStateAction -> Средняя длительность звонка (в секундах) |Перед передачей: результат звонка в очереди звонка agent_joined_conference или transferred_to_agent<br>Перед повесить трубку: результат звонка в очереди вызовов не agent_joined_conference или transferred_to_agent |
 |Результат вызова                         |fCallQueueAnalytics -> количество вызовов<br>fCallQueueAnalytics -> result | Нет |
-|Timeout/Overflow calls total action |fCallQueueFinalStateAction -> Call Count<br>fCallQueueFinalStateAction -> Call Queue Final State Action |Действие "Конечное состояние очереди вызовов" не переадпоряется |
+|Timeout/Overflow calls total action |fCallQueueFinalStateAction -> количество вызовов<br>fCallQueueFinalStateAction -> Call Queue Final State Action |Действие "Конечное состояние очереди вызовов" не переадпоряется |
 |Итоги для целевого показателя transfer/Forard       |fCallQueueAnalytics -> количество вызовов<br>fCallQueueAnalytics -> тип целевого типа очереди вызовов |Нет |
 |Громкость вызовов                        |fCallQueueAnalytics -> количество вызовов<br>fCallQueueAnalytics -> определение очереди вызовов<br>fCallQueueAnalytics -> date |Нет |
 |Отмененные звонки                     |fCallQueueAnalytics -> %Abandoned Calls<br>fCallQueueAnalytics -> количество вызовов<br>fCallQueueAnalytics -> date<br>fCallQueueAnalytics -> IsAbandoned |IsAbandoned is True |
@@ -288,7 +288,7 @@ ms.locfileid: "61055390"
 
 |Имя                                    |Тип данных                |Описание                                         |
 |:---------------------------------------|:------------------------|:---------------------------------------------------|
-|Имя агента                              |Текст                     |Имя пользователя (UPN)<br>Если полное имя пользователя **user@microsoft.com** это значение будет: **пользователь** |
+|Имя агента                              |Текст                     |Имя пользователя (UPN)<br>Если полное имя пользователя **user@microsoft.com** это значение будет: **user** |
 |Средняя длительность звонка (секунды)          |Десятичной число           |Суммировать: Сумма<br>Средняя длительность звонков в очереди звонков в секундах |
 |Количество вызовов                              |Целое число             |Суммировать: Сумма<br>Количество звонков, обрабатываемого агентом                    |
 |Длительность вызова (минута)                  |Целое число             |Суммировать: Сумма<br>Общая длительность звонков в очереди звонков в минутах  |
