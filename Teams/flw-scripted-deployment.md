@@ -220,7 +220,7 @@ Connect-MicrosoftTeams -Credential $teams_cred
 
 4. Отключить **Загрузить пользовательские приложения**.
 5. Отключите **Разрешить закрепление пользователя**.
-    :::image type="content" source="media/flw-allow-user-pinning.png" alt-text="Снимок экрана параметра "Разрешить закрепление пользователей".":::
+    :::image type="content" source="media/flw-allow-user-pinning.png" alt-text="Снимок экрана параметра Разрешить закрепление пользователей.":::
 
 6. Если его еще нет в списке, добавьте приложение **Смены**. Для получения дополнительной информации о приложении "Смены", нажмите [здесь](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md).
     :::image type="content" source="media/flw-add-pinned-apps.png" alt-text="Снимок экрана добавления закрепленных приложений с кнопкой Добавить для приложения Смены":::
