@@ -158,7 +158,7 @@ SDS создает команды за два этапа. На первом эт
 
 Такой гибридный подход позволяет создать группы для каждого класса (рекомендуется) в SDS или сделать это самостоятельно с помощью [API Graph](/graph/api/educationroot-post-classes). После подготовки групп классов преподаватель может преобразовать свои группы в команды с помощью значка **Рекомендуемые классы**.
 
-:::image type="content" source="media/class-teams-edu-suggested-classes.png" alt-text="Снимок экрана со значком "Рекомендуемые классы".":::
+:::image type="content" source="media/class-teams-edu-suggested-classes.png" alt-text="Снимок экрана со значком Рекомендуемые классы.":::
 
 ##### <a name="benefits"></a>Преимущества
 

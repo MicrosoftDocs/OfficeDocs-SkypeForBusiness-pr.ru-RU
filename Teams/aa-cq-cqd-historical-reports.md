@@ -108,7 +108,7 @@ ms.locfileid: "61055390"
 Выполните следующие действия:
 - На **ленте выберите вкладку** Вид.
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="Снимок экрана: выбор вкладки "Вид" для изменения цветовой схемы":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="Снимок экрана: выбор вкладки Вид для изменения цветовой схемы":::
 
 - Выберите цветовую схему в списке.
 

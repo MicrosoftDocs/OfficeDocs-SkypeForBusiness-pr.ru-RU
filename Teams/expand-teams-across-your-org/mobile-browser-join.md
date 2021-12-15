@@ -52,13 +52,13 @@ Microsoft Teams позволяет людям присоединяться к в
 
 В Bookings перейдите Параметры типы встреч , выберите тип встречи , а затем включив разрешить участникам присоединяться в   >   **мобильном браузере.** [](https://support.microsoft.com/office/create-an-appointment-type-810eac77-6a65-4dc8-964d-c00eadf43887) Это позволяет присоединяться к мобильным браузерам для всех встреч этого типа.
 
-:::image type="content" source="../media/mobile-browser-join-bookings-appointment-type.png" alt-text="Снимок экрана: параметр "Разрешить участникам присоединяться из мобильного браузера" для типов встреч в приложении Bookings":::
+:::image type="content" source="../media/mobile-browser-join-bookings-appointment-type.png" alt-text="Снимок экрана: параметр Разрешить участникам присоединяться из мобильного браузера для типов встреч в приложении Bookings":::
 
 #### <a name="turn-on-mobile-browser-join-for-an-individual-appointment"></a>Включив мобильное присоединиться к браузеру для отдельной встречи
 
 В Bookings выберите **Новое резервирование**, а затем включив разрешить участникам **присоединяться из мобильного браузера.**
 
-:::image type="content" source="../media/mobile-browser-join-bookings-form.png" alt-text="Снимок экрана: параметр "Разрешить участникам присоединяться из мобильного браузера" в новой форме резервирования в приложении Bookings":::
+:::image type="content" source="../media/mobile-browser-join-bookings-form.png" alt-text="Снимок экрана: параметр Разрешить участникам присоединяться из мобильного браузера в новой форме резервирования в приложении Bookings":::
 
 ### <a name="appointments-scheduled-through-the-teams-ehr-connector"></a>Встречи, запланированные через соедините Teams EHR
 

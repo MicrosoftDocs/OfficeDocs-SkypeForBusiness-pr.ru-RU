@@ -161,7 +161,7 @@ Microsoft Teams базовый можно приобрести напрямую 
 
 #### <a name="how-do-i-upgrade-my-organization"></a>Как выполнить переход в организации?
 
-Чтобы перейти на версию Microsoft Teams базовый, выберите **...** в верхнем меню области навигации. Затем нажмите кнопку **Обновить**  в нижней части раскрывающегося меню.   :::image type="content" source="media/teams-free-upgrade-essentials.png" alt-text="снимок экрана: кнопка "Обновить""::: 
+Чтобы перейти на версию Microsoft Teams базовый, выберите **...** в верхнем меню области навигации. Затем нажмите кнопку **Обновить**  в нижней части раскрывающегося меню.   :::image type="content" source="media/teams-free-upgrade-essentials.png" alt-text="снимок экрана: кнопка Обновить"::: 
 
 После нажатия кнопки **Обновить** в Teams вы будете направлены на страницу [Microsoft Teams для малого бизнеса](https://www.microsoft.com/microsoft-teams/upgrade-teams).
 

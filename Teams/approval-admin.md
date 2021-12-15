@@ -120,7 +120,7 @@ Common Data Model (CDM) — это язык общих данных, испол�
 
   5. Выберите положение переключателя, соответствующее отключению приложения для вашей организации.
 
-     :::image type="content" alt-text="подробные сведения о приложении "Утверждения"." source="media/approvals-details-new.png" lightbox="media/approvals-details-new.png":::
+     :::image type="content" alt-text="подробные сведения о приложении Утверждения." source="media/approvals-details-new.png" lightbox="media/approvals-details-new.png":::
 
 ## <a name="retention-policy"></a>Политика хранения
 
