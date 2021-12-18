@@ -19,25 +19,25 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3cc3db88-0210-4804-b54e-ba4af1234884
 description: 'В этом разделе описывается, как включить пользователей для телефонная система с локальной подключением PSTN. Прежде чем следовать шагам в этом разделе, необходимо прочитать следующее: .'
-ms.openlocfilehash: 22e0db6b9cd99c7909bcc6477db28546feef21d3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ffd7e9f02466dddeef31ba7ffd3a194a04b9b2ff
+ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58625041"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "61563666"
 ---
 # <a name="enable-users-for-phone-system-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>Активация пользователей телефонной системы с соединением по локальной ТСОП в Skype для бизнеса Server
 
 В этом разделе описывается, как включить пользователей для телефонная система с локальной подключением PSTN. Прежде чем следовать шагам в этом разделе, необходимо прочитать следующее: .
   
-- Чтобы узнать, как настроить гибридное подключение, см. в веб-сайте [Plan hybrid connectivity between Skype для бизнеса Server и Skype для бизнеса Online](../../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json) и Deploy hybrid [connectivity between Skype для бизнеса Server и Skype для бизнеса Online.](../../../SfbHybrid/hybrid/configure-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json)
+- Чтобы узнать, как настроить гибридную связь, см. в этой Skype для бизнеса Server и [Skype для бизнеса Online](../../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json) и развертывание гибридного подключения между Skype для бизнеса Server [и Skype для бизнеса Online](../../../SfbHybrid/hybrid/configure-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json).
     
 - Подробнее о планировании развертывания см. в телефонная система plan [Skype для бизнеса Server.](plan-phone-system-with-on-premises-pstn-connectivity.md)
     
 - Дополнительные дополнительные телефонная система, включая лицензирование и планы, см. в [Skype для бизнеса.](https://support.office.com/article/PSTN-Calling-plans-for-Skype-for-Business-f47c6a97-bc8b-42e6-b5d4-ce6b41ed1918)
     
 > [!Important]
-> Skype для бизнеса С 31 июля 2021 г. служба будет отменена.  Кроме того, подключение PSTN между локальной средой через Skype для бизнеса Server или Cloud Connector Edition и Skype для бизнеса Online больше не будет поддерживаться.  Узнайте, как подключить сеть локальной телефонии к Teams с помощью [прямого маршрутного маршрутинга.](/MicrosoftTeams/direct-routing-landing-page)
+> Skype для бизнеса Online была отменена 31 июля 2021 г. И подключение КПС между локальной средой, будь то Skype для бизнеса Server или Cloud Connector Edition и Skype для бизнеса Online, больше не поддерживается. Узнайте, как подключить сеть локальной телефонии к Teams с помощью [прямого маршрутного маршрутинга.](/MicrosoftTeams/direct-routing-landing-page)
 
 ## <a name="moving-users-to-phone-system-with-on-premises-pstn-connectivity"></a>Перемещение пользователей в телефонная система с локальной подключением PSTN
 

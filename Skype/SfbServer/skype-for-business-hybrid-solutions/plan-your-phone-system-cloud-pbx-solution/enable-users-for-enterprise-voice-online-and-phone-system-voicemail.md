@@ -19,17 +19,17 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 28daebcb-c2dc-4338-b2d1-04345ece9c19
 description: Узнайте, как включить телефонная система голосовых служб для Skype для бизнеса пользователей.
-ms.openlocfilehash: b82121dff3c7a82827d6e19fdb0b78bfeee263f2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9c9123b79a1fd5557d0d31db7b4b150bcda80af3
+ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58602314"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "61563442"
 ---
 # <a name="enable-users-for-enterprise-voice-online-and-phone-system-voicemail"></a>Предоставление пользователям доступа к корпоративной голосовой связи через сеть и к голосовой почте по телефонной линии
  
 > [!Important]
-> Skype для бизнеса С 31 июля 2021 г. служба будет отменена.  Кроме того, подключение PSTN между локальной средой через Skype для бизнеса Server или Cloud Connector Edition и Skype для бизнеса Online больше не будет поддерживаться.  Узнайте, как подключить сеть локальной телефонии к Teams с помощью [прямого маршрутного маршрутинга.](/MicrosoftTeams/direct-routing-landing-page)
+> Skype для бизнеса Online была отменена 31 июля 2021 г. И подключение КПС между локальной средой, будь то Skype для бизнеса Server или Cloud Connector Edition и Skype для бизнеса Online, больше не поддерживается.  Узнайте, как подключить сеть локальной телефонии к Teams с помощью [прямого маршрутного маршрутинга.](/MicrosoftTeams/direct-routing-landing-page)
 
 Узнайте, как включить телефонная система голосовых служб для Skype для бизнеса пользователей.
   
@@ -42,7 +42,7 @@ ms.locfileid: "58602314"
 ### <a name="to-enable-your-users-for-phone-system-voice-and-voicemail"></a>Чтобы включить пользователей для телефонная система голосовой почты и голосовой почты
 
 > [!NOTE]
-> Skype для бизнеса Online Connector в настоящее время является частью последнего Teams PowerShell Module.
+> Skype для бизнеса в настоящее время является частью последнего Teams PowerShell Module.
 > Если вы используете последний общедоступный [Teams PowerShell,](https://www.powershellgallery.com/packages/MicrosoftTeams/)вам не нужно устанавливать Skype для бизнеса Online Connector.
 
 1. Перед началом убедитесь, что Teams PowerShell установлен на переднем сервере. Если это не так, установите с помощью инструкций в Teams [PowerShell Module Installation](/microsoftteams/teams-powershell-install).
@@ -66,7 +66,7 @@ ms.locfileid: "58602314"
    Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
    ```
 
-    Например,
+    Например:
     
    ```powershell
    Set-CsUser -Identity "Bob Kelly" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
@@ -134,7 +134,7 @@ ms.locfileid: "58602314"
 телефонная система пользователям должна быть назначена политика маршрутизов голосовой почты для успешного маршрута звонков. Это отличается от локального бизнеса голосовых пользователей, которым требуется, чтобы им была назначена голосовая политика для успешного маршрута вызовов. Политика маршрутизации голосовой почты должна содержать использование PSTN, определяющие разрешенные вызовы и маршруты для телефонная система пользователей. Эти ПСПС можно скопировать из существующих голосовых политик в новые политики маршрутивки голосовой почты. Дополнительные сведения см. [в рублях New-CsVoiceRoutingPolicy.](/powershell/module/skype/new-csvoiceroutingpolicy?view=skype-ps)
   
 > [!NOTE]
-> Всем телефонная система пользователям назначена та же политика голосовой почты в Интернете с именем BusinessVoice, которая определяет разрешенные функции вызова; например, разрешить одновременное кольцо. 
+> Всем телефонная система пользователям назначена та же политика голосовой почты в Интернете с именем BusinessVoice, которая определяет разрешенные функции вызова; например, Разрешить одновременное кольцо. 
   
 ### <a name="to-assign-a-per-user-voice-routing-policy-to-a-single-user"></a>Назначение политики маршрутинга голосовых данных для каждого пользователя одному пользователю
 

@@ -19,17 +19,17 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c7f78f23-b74f-402f-bedb-4cc308718f5b
 description: Сводка. Ознакомьтесь с этой темой, чтобы узнать, как назначить голосовую политику для пользователей, использующих телефонная система с локальной связью PSTN.
-ms.openlocfilehash: aa31624921aefd1065b0719966af1df9d2b38793
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 158cd8e7bcd996297077adfb2c812febf4dc491b
+ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60013173"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "61563360"
 ---
 # <a name="assign-a-voice-routing-policy"></a>Назначение политики маршрутизация голосовой связи
  
 > [!Important]
-> Skype для бизнеса С 31 июля 2021 г. служба будет отменена.  Кроме того, подключение PSTN между локальной средой через Skype для бизнеса Server или Cloud Connector Edition и Skype для бизнеса Online больше не будет поддерживаться.  Узнайте, как подключить сеть локальной телефонии к Teams с помощью [прямого маршрутного маршрутинга.](/MicrosoftTeams/direct-routing-landing-page)
+> Skype для бизнеса Online была отменена 31 июля 2021 г. И подключение КПС между локальной средой, будь то Skype для бизнеса Server или Cloud Connector Edition и Skype для бизнеса Online, больше не поддерживается.  Узнайте, как подключить сеть локальной телефонии к Teams с помощью [прямого маршрутного маршрутинга.](/MicrosoftTeams/direct-routing-landing-page)
 
 **Сводка:** Ознакомьтесь с этой темой, чтобы узнать, как назначить голосовую политику пользователям, использующим телефонная система с локальной связью PSTN. 
   
@@ -60,7 +60,7 @@ ms.locfileid: "60013173"
    Set-CSVoiceRoutingPolicy -Identity Global -PSTNUsages <PSTNUsagesId> 
    ```
 
-    Например.
+    Пример:
     
    ```powershell
    Set-CSVoiceRoutingPolicy -Identity Global -PSTNUsages "Local", "Long Distance" 
@@ -80,7 +80,7 @@ ms.locfileid: "60013173"
    New-CSVoiceRoutingPolicy -Identity <String> -Name <String> -PSTNUsages <PSTNUsagesId>
    ```
 
-    Например.
+    Например:
     
    ```powershell
    New-CSVoiceRoutingPolicy -Identity HybridVoice -Name Hybrid -PSTNUsages "Local", "Long Distance"

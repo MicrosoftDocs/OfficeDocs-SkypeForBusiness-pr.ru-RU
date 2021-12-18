@@ -19,19 +19,19 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4598565a-c228-4265-ad03-d2aef95b31a0
 description: Чтобы пользователь телефонная система (Cloud PBX), сначала необходимо включить Корпоративная голосовая связь и назначить ему номер телефона. Это можно сделать с помощью локального развертывания, пока пользователь по-прежнему находится в локальном развертывании.
-ms.openlocfilehash: 29fd1eff47a73c7e3469ab7967a1f7cb0a006a75
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: a71b47b5b7b5ec7ca7328bbe9b0ee864b87f36ac
+ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60012513"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "61563718"
 ---
 # <a name="enable-the-users-for-enterprise-voice-on-premises"></a>Включить пользователей для Корпоративная голосовая связь на локальной основе
  
 Чтобы пользователь телефонная система (Cloud PBX), сначала необходимо включить Корпоративная голосовая связь и назначить ему номер телефона. Это можно сделать с помощью локального развертывания, пока пользователь по-прежнему находится в локальном развертывании.
 
 > [!Important]
-> Skype для бизнеса С 31 июля 2021 г. служба будет отменена.  Кроме того, подключение PSTN между локальной средой через Skype для бизнеса Server или Cloud Connector Edition и Skype для бизнеса Online больше не будет поддерживаться.  Узнайте, как подключить сеть локальной телефонии к Teams с помощью [прямого маршрутного маршрутинга.](/MicrosoftTeams/direct-routing-landing-page)
+> Skype для бизнеса Online была отменена 31 июля 2021 г. И подключение КПС между локальной средой, будь то Skype для бизнеса Server или Cloud Connector Edition и Skype для бизнеса Online, больше не поддерживается.  Узнайте, как подключить сеть локальной телефонии к Teams с помощью [прямого маршрутного маршрутинга.](/MicrosoftTeams/direct-routing-landing-page)
   
 ### <a name="to-enable-a-user-for-enterprise-voice-on-premises-and-assign-a-phone-number"></a>Чтобы включить пользователя для Корпоративная голосовая связь на месте и назначить номер телефона
 
