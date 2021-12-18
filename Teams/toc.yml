@@ -749,7 +749,7 @@ items:
                 href: ptsn-mask-phone-numbers.md
           - name: Доступность аудиоконференций в различных странах и регионах
             href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
-          - name: Справка
+          - name: Справочные материалы
             items:
               - name: Поддерживаемые языки аудиоконференций
                 href: audio-conferencing-supported-languages.md
@@ -1415,6 +1415,8 @@ items:
             href: devices/collab-bar-deploy.md
           - name: Настройка пользовательского интерфейса для устройств с Android в Microsoft Teams
             href: devices/Teams-Android-devices-user-interface.md
+          - name: Рекомендации по проверке подлинности для устройств с Android
+            href: devices/authentication-best-practices-for-android-devices.md
           - name: Комнатные устройства и решения для проведения собраний
             href: /skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
           - name: Сертифицированные устройства Teams
@@ -1642,7 +1644,7 @@ items:
             href: audio-conferencing-with-direct-routing-for-gcch-and-dod.md
           - name: Пакеты политик Teams для государственных организаций
             href: policy-packages-gov.md
-  - name: Справка
+  - name: Справочные материалы
     items:
       - name: Ограничения и спецификации для Teams
         href: limits-specifications-teams.md
