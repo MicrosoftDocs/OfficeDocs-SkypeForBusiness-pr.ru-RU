@@ -1,14 +1,13 @@
 ---
 title: "\"Смены\" для Teams"
-description: Получите рекомендации администратора, необходимые для создания и управления сменами, средством управления расписанием, в Teams.
+description: Получите рекомендации администратора, необходимые для создания и управления сменами , средством управления расписанием, в Teams.
 ms.topic: conceptual
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: LanaChin
+ms.author: v-lanachin
 audience: admin
-manager: serdars
+manager: samanro
 f1.keywords:
 - NOCSH
-ms.date: 03/29/2019
 ms.service: msteams
 ms.collection:
 - M365-collaboration
@@ -21,33 +20,39 @@ searchScope:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: 509345043de3e26821043322454ec4f0e4ad05a2
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: c559f3df8ed810bab9e1ce7f48ce0486631d7699
+ms.sourcegitcommit: 7aa446f90c3a82f35a24c4eb83158fc2144dc4ed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848212"
+ms.lasthandoff: 12/22/2021
+ms.locfileid: "61583824"
 ---
 # <a name="shifts-for-teams"></a>"Смены" для Teams
 
-Teams сотрудников, работающих с сотрудниками в вашей организации, с помощью инструментов, необходимых для эффективного общения и совместной работы. В следующих ресурсах вы узнаете больше о том, как настроить и управлять сменами , средством управления расписанием в Teams.
+Смены, средство управления расписанием в Teams, обеспечивает связь и синхронизацию сотрудников. Оно сначала встроено на мобильных устройствах для быстрого и эффективного управления расписаниями и связи. С помощью shifts руководители и работники могут легко управлять расписаниями и поддерживать связь.
 
-### <a name="set-up-and-manage-shifts-for-your-organization"></a>Настройка смен и управление ими в организации
+Руководители могут создавать, обновлять расписания смен и управлять ими в своих командах. Они могут назначать смены, добавлять открытые смены и утверждать запросы на расписание от сотрудников. Сотрудники могут просматривать собственные расписания и расписания своей группы, устанавливать их доступность, запрашивать обмен сменами или предлагать смены, запрашивать отключки, а также часы в и на работе.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE42FjP]
+
+Воспользуйтесь следующими ресурсами, чтобы настроить смены в организации и управлять ими.
+
+## <a name="set-up-and-manage-shifts"></a>Настройка смен и управление ими
 
 |&nbsp;|&nbsp;|&nbsp;|&nbsp;|
 | ------------- | ------------- | ------------- | ------------- |
-|![группы планирования контрольного списка задач.](../media/task-checklist-planning-teams-small.svg) | **[Управление сменами в организации](./shifts/manage-the-shifts-app-for-your-organization-in-teams.md)** |![Дизайн](../media/Help-small.svg)  | **[Справка по сменам для сотрудников, работающих на переднем телефоне](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b#PickTab=Specific_apps)** |
+|<img src="/office/media/icons/calendar-teams.png" alt="Calendar symbol."> | **[Управление сменами в организации](shifts/manage-the-shifts-app-for-your-organization-in-teams.md)** |<img src="/office/media/icons/users-people.png" alt="Users/people symbol.">  |**[Управление владельцами расписания для управления сменами](shifts/schedule-owner-for-shift-management.md)**|
 
-### <a name="shifts-extensions"></a>Расширения смен
+## <a name="shifts-extensions"></a>Расширения смен
 
 |&nbsp;|&nbsp;|
 | ------------- | ------------- |
-| ![Api.](../media/api-small.svg) | **[API Graph shift](/graph/api/resources/shift?view=graph-rest-1.0)** Смены Graph API позволяют интегрировать данные Shifts с системами управления внешними ресурсами. Вы сможете создавать пользовательские смены в задней части, предоставляя пользователям гибкий и передний Teams.             |
-| ![Api.](../media/api-small.svg) | **[Интеграция управления трудовыми ресурсами](https://github.com/OfficeDev/Microsoft-Teams-Shifts-WFM-Connectors)** Если вы используете сторонние системы управления трудовыми ресурсами, такие как Kronos и JDA, для планирования, времени и посещения, вы можете напрямую интегрироваться со сменами с помощью API и SDK со сменами Graph aPI и SDK с интеграцией с открытым кодом. |
-| ![Api.](../media/process-flow-teams-small.svg) | **[Shifts+ Power Automate](https://github.com/OfficeDev/Microsoft-Teams-Shifts-Power-Automate-Templates)** С помощью Power Automate shifts вы можете получить информацию из приложения Shifts и создать настраиваемые рабочие процессы с другими приложениями и выполнять масштабные операции. Автоматизировать ключевые процессы практически без кода. Триггеры и шаблоны поддерживают различные сценарии, например включение автоматического утверждения запросов на смену, если утверждение руководителя не требуется. |
+| <img src="/office/media/icons/api.png" alt="Three gears - API."> | **[Shift Graph API](/graph/api/resources/shift)** Shifts Graph API позволяют интегрировать данные Shifts с системами управления внешними ресурсами. Вы сможете создавать пользовательские смены в задней части, предоставляя пользователям гибкий и передний Teams.             |
+| <img src="/office/media/icons/api.png" alt="Three gears - API.">| **[Интеграция управления трудовыми ресурсами](https://github.com/OfficeDev/Microsoft-Teams-Shifts-WFM-Connectors)** Если вы используете сторонние системы управления трудовыми ресурсами, такие как Kronos и JDA, для планирования, времени и посещения, вы можете напрямую интегрироваться со сменами с помощью API и SDK в shifts Graph aPI и SDK с интеграцией с открытым кодом. |
+|<img src="/office/media/icons/process-flow-teams.png" alt="Process/flow chart symbol."> | **[С помощью shifts+ Power Automate](https://github.com/OfficeDev/Microsoft-Teams-Shifts-Power-Automate-Templates)** shifts + Power Automate вы можете взять информацию из shifts и создать пользовательские рабочие процессы с другими приложениями и выполнять масштабные операции. Автоматизировать ключевые процессы практически без кода. Триггеры и шаблоны поддерживают различные сценарии, например включение автоматического утверждения запросов на смену, если утверждение руководителя не требуется. |
 
 ## <a name="featured-training"></a>Тематическое обучение
 
 |&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| ![arrow-right-2-teams.](../media/arrow-right-2-teams-small.svg)  |  [Видео. Что такое смены?](https://support.office.com/article/what-is-shifts-f8efe6e4-ddb3-4d23-b81b-bb812296b821) |![clock-teams](../media/clock-teams-small.svg)  |  [Видео. Что такое смены?](https://support.office.com/article/create-a-shifts-schedule-2b94ca38-36db-4a1c-8fee-f8f0fec9a984) |![blocks-teams](../media/blocks-teams-small.svg)  |  [Видео: управление расписанием смен](https://support.office.com/article/manage-a-shifts-schedule-63acda7b-ea39-441a-b1c6-c404a72e79f7) |
+| <img src="/office/media/icons/get-started-teams.png" alt="Get started symbol.">  |  [Видео. Что такое смены?](https://support.office.com/article/what-is-shifts-f8efe6e4-ddb3-4d23-b81b-bb812296b821) |<img src="/office/media/icons/clock-teams.png" alt="Clock symbol."> |  [Видео: создание расписания смен](https://support.microsoft.com/office/create-a-shifts-schedule-2b94ca38-36db-4a1c-8fee-f8f0fec9a984) |<img src="/office/media/icons/blocks-teams.png." alt="Blocks symbol.">|  [Видео: управление расписанием смен](https://support.microsoft.com/office/manage-and-view-a-shifts-schedule-63acda7b-ea39-441a-b1c6-c404a72e79f7) |
