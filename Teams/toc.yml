@@ -1461,7 +1461,7 @@ items:
             href: purchase-third-party-apps.md
       - name: Шаблоны приложений для Teams
         href: /microsoftteams/platform/samples/app-templates?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fMicrosoftTeams%2ftoc.json
-      - name: Сборка и настройка собственных приложений
+      - name: Как создавать и настраивать приложения
         items:
           - name: Интеграция с Power Platform
             href: teams-power-platfom-integration.md
@@ -1471,14 +1471,26 @@ items:
             href: submit-approve-custom-apps.md
           - name: Публикация настраиваемого приложения путем отправки пакета приложений
             href: upload-custom-apps.md
+          - name: Настройка параметров в Teams
+            href: customize-apps.md
           - name: Магазин настраиваемых приложений
             href: customize-your-app-store.md
+          - name: Использование встроенных и настраиваемых вкладок
+            href: built-in-custom-tabs.md
       - name: Управление приложениями для Teams
         items:
           - name: Обзор
             href: manage-apps.md
-          - name: Управление политиками приложений в Teams
-            href: app-policies.md
+          - name: Политики приложений
+            items:
+              - name: Управление политиками приложений в Teams
+                href: app-policies.md
+              - name: Управление политиками разрешений для приложений в Teams
+                href: teams-app-permission-policies.md
+              - name: Управление политиками настройки приложений в Teams
+                href: teams-app-setup-policies.md
+              - name: Управление пользовательскими политиками и параметрами приложений в Teams
+                href: teams-custom-app-policies-and-settings.md
           - name: Просмотр разрешений приложений и предоставление согласия администратора
             href: app-permissions-admin-center.md
           - name: Согласие для определенных ресурсов
@@ -1487,20 +1499,10 @@ items:
             href: app-permissions.md
           - name: Параметры администратора для приложений в Teams
             href: admin-settings.md
-          - name: Использование встроенных и настраиваемых вкладок
-            href: built-in-custom-tabs.md
           - name: Использование Microsoft 365 или Office 365 и настраиваемых соединителей
             href: Office-365-custom-connectors.md
           - name: Поведение приложений Teams для нестандартных пользователей
             href: non-standard-users.md
-          - name: Управление политиками разрешений для приложений в Teams
-            href: teams-app-permission-policies.md
-          - name: Управление политиками настройки приложений в Teams
-            href: teams-app-setup-policies.md
-          - name: Управление пользовательскими политиками и параметрами приложений в Teams
-            href: teams-custom-app-policies-and-settings.md
-          - name: Настройка параметров в Teams
-            href: customize-apps.md
           - name: Обновление функций для приложений
             href: apps-update-experience.md
   - name: Руководство для отраслей и государственных организаций
