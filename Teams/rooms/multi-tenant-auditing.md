@@ -1,5 +1,5 @@
 ---
-title: Комнаты Microsoft Teams портала
+title: Аудит нескольких клиентов
 author: donnah007
 ms.author: v-donnahill
 manager: serdars
@@ -17,14 +17,14 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Ведение журнала аудита для TRM.
 f1keywords: ''
-ms.openlocfilehash: e5e5cd25385f6e8a71484c57aa9c44da5d4c9cd8
-ms.sourcegitcommit: c8951fe3504c1776d7aec14b79605aaf5d317e7f
+ms.openlocfilehash: bb002ad546553e906339b03ff7b36ff2ccce8506
+ms.sourcegitcommit: 848e462c4f0c94548d3f90f28fb1c69a9bce64be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2021
-ms.locfileid: "61331270"
+ms.lasthandoff: 12/28/2021
+ms.locfileid: "61620533"
 ---
-# <a name="audit-logging-in-the-teams-rooms-managed-service"></a>Ведение журнала аудита в Комнаты Teams Managed
+# <a name="audit-logging-in-the-teams-rooms-managed-service"></a>Ведение журнала аудита в Комнаты Teams Управляемой службе
 
 Аудит в Комнаты Teams управляемых служб (TRM) позволяет искать записи аудита для действий, выполняемных на портале пользователями и администраторами. Эта функция включена по умолчанию. Только администратор управляемых служб имеет разрешение на экспорт и просмотр журналов.
 
