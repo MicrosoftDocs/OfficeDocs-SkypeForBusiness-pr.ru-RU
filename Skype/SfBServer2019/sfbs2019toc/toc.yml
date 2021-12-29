@@ -990,6 +990,12 @@
               href: ../../SfbServer2019/use-powershell-security-menu.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Обмен мгновенными сообщениями и сведениями о присутствии
               href: ../../SfbServer2019/use-powershell-im-and-presence-menu.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: Мониторинг и архивирование
+              href: ../../SfbServer2019/use-powershell-monitoring-and-archiving-menu.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: Конфигурация сети
+              href: ../../SfbServer2019/use-powershell-network-configuration-menu.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: Топология
+              href: ../../SfbServer2019/use-powershell-topology-menu.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
         - name: Проверка подлинности
           href: ../../SfbServer/manage/authentication/authentication.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
           items:

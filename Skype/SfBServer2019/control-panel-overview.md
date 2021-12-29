@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: В этой статье представлен обзор новой панели управления.
-ms.openlocfilehash: 355a8b93e428b860a775ad01cf31df726c644654
-ms.sourcegitcommit: 11a803d569a57410e7e648f53b28df80a53337b6
+ms.openlocfilehash: 7def5267b88260b66b6aa345c9585b83659f6ea3
+ms.sourcegitcommit: 3b5ae6ebf4384166c628f66a4f17e6fe4455b708
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "60887307"
+ms.lasthandoff: 12/29/2021
+ms.locfileid: "61625940"
 ---
 # <a name="control-panel"></a>Панель управления
 
@@ -38,7 +38,7 @@ ms.locfileid: "60887307"
 > [!NOTE]
 > Документация по другим пунктам меню будет постепенно доступна.
 
-## <a name="client"></a>Client
+## <a name="client"></a>Клиент
 
 |Sub-menu  |Источник информации для cmdlet  |
 |---------|---------|
@@ -65,3 +65,33 @@ ms.locfileid: "60887307"
 |---------|---------|
 |Фильтр файлов         |    [Фильтр файлов](use-powershell-im-and-presence-menu.md#file-filter)     |
 |Фильтр URL-адресов      |  [Фильтр URL-адресов](use-powershell-im-and-presence-menu.md#url-filter)       |
+
+## <a name="monitoring-and-archiving"></a>Мониторинг и архивирование
+
+|Sub-menu  |Источник информации для cmdlet  |
+|---------|---------|
+|Запись сведений о звонке       |    [Запись сведений о звонке](use-powershell-monitoring-and-archiving-menu.md#call-detail-recording)     |
+|Качество данных по опыту      |  [Качество данных по опыту](use-powershell-monitoring-and-archiving-menu.md#quality-of-experience-data)       |
+|Политика архивирования       |    [Политика архивирования](use-powershell-monitoring-and-archiving-menu.md#archiving-policy)     |
+|Конфигурация архивирования      |  [Конфигурация архивирования](use-powershell-monitoring-and-archiving-menu.md#archiving-configuration)       |
+
+## <a name="network-configuration"></a>Конфигурация сети
+
+|Sub-menu  |Источник информации для cmdlet  |
+|---------|---------|
+|Политика определения местонахождения       |    [Политика расположения](use-powershell-network-configuration-menu.md#location-policy)     |
+|Политика пропускной способности      |  [Политика пропускной способности](use-powershell-network-configuration-menu.md#bandwidth-policy)       |
+|Регион       |    [Region](use-powershell-network-configuration-menu.md#region)     |
+|Site      |  [Site](use-powershell-network-configuration-menu.md#site)       |
+|Подсеть      |  [Subnet](use-powershell-network-configuration-menu.md#subnet)       |
+|Регион Ссылка       |    [Регион Ссылка](use-powershell-network-configuration-menu.md#region-link)     |
+|Маршрут региона      |  [Маршрут региона](use-powershell-network-configuration-menu.md#region-route)       |
+
+## <a name="topology"></a>Топология
+
+|Sub-menu  |Источник информации для cmdlet  |
+|---------|---------|
+|Состояние       |    [Status](use-powershell-topology-menu.md#status)     |
+|Приложение server      |  [Приложение server](use-powershell-topology-menu.md#server-application)       |
+|Простой URL-адрес       |    [Простой URL-адрес](use-powershell-topology-menu.md#simple-url)     |
+|Надежное приложение       |    [Надежное приложение](use-powershell-topology-menu.md#trusted-application)     |
