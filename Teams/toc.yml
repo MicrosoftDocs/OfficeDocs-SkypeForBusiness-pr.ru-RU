@@ -277,6 +277,8 @@ items:
         items:
           - name: Информационные барьеры
             href: information-barriers-in-teams.md
+          - name: Изменение режимов информационных барьеров с помощью сценария PowerShell
+            href: information-barriers-mode-script.md
           - name: Политики хранения
             href: retention-policies.md
           - name: Соответствие требованиям к обмену данными
@@ -1015,7 +1017,63 @@ items:
             href: voice-case-study-audio-conferencing.md
           - name: Автосекретари и очереди вызовов
             href: voice-case-study-call-queues.md
-      - name: Справка
+      - name: Руководство для малого и среднего бизнеса
+        items:
+          - name: Руководство по Телефонной системе Teams для малого и среднего бизнеса
+            href: business-voice/whats-business-voice.md
+          - name: Доступность в странах и регионах
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
+          - name: Проверка подключения к Интернету
+            href: business-voice/get-ready-internet.md
+          - name: Обратитесь за помощью к торговому посреднику или партнеру
+            href: business-voice/reseller-partner-support.md
+          - name: Настройка Телефонной системы Teams для малого и среднего бизнеса
+            items:
+              - name: Обзор
+                href: business-voice/set-up-overview.md
+              - name: Шаг 1. Настройка местоположений для экстренного реагирования
+                href: business-voice/set-up-emergency-locations.md
+              - name: Шаг 2. Настройка номеров телефонов
+                href: business-voice/set-up-phone-numbers.md
+              - name: Шаг 3. Назначение лицензий
+                href: business-voice/set-up-licenses.md
+              - name: Шаг 4. Настройка учетной записи ресурса
+                href: business-voice/set-up-resource-account.md
+              - name: Шаг 5. Назначение номеров телефонов пользователям
+                href: business-voice/set-up-assign-numbers.md
+              - name: Шаг 6. Настройка автосекретаря
+                href: business-voice/set-up-auto-attendant.md
+              - name: Шаг 7. Перенос номеров телефонов (необязательно)
+                href: business-voice/port-phone-numbers.md
+              - name: Ресурсы после настройки
+                href: business-voice/set-up-finish.md
+          - name: Изменение настройки Телефонной системы Teams для малого и среднего бизнеса
+            items:
+              - name: Параметры настройки
+                href: business-voice/customize-business-voice.md
+              - name: Настройка политик звонков
+                href: business-voice/set-up-policies.md
+              - name: Управление пакетами политик
+                href: business-voice/policy-packages.md
+              - name: Создание дополнительных пользователей
+                href: business-voice/create-users.md
+              - name: Настройка очереди вызовов
+                href: business-voice/create-a-phone-system-call-queue-smb.md
+              - name: Настройка автосекретаря
+                href: business-voice/create-a-phone-system-auto-attendant-smb.md
+          - name: Управление настройкой Телефонной системы Teams для малого и среднего бизнеса
+            items:
+              - name: Создание одного или нескольких пользователей
+                href: business-voice/create-users.md
+              - name: Управление устройствами
+                href: business-voice/manage-devices.md
+              - name: Отслеживание качества звонка
+                href: business-voice/monitor-quality.md
+              - name: Панель мониторинга качества звонка
+                href: business-voice/analytics-dashboard.md
+          - name: Ресурсы партнеров
+            href: 'https://cloudpartners.transform.microsoft.com/products/m365-business-voice-partner-playbook'
+      - name: Справочные материалы
         items:
           - name: Управление номерами телефонов в различных странах
             items:
@@ -1227,68 +1285,6 @@ items:
                 href: add-funds-and-manage-communications-credits.md
           - name: Потоки звонков Microsoft Teams
             href: microsoft-teams-online-call-flows.md
-  - name: Голосовая связь Microsoft 365 бизнес
-    items:
-      - name: Что такое голосовая связь Microsoft 365 бизнес?
-        href: business-voice/whats-business-voice.md
-      - name: Доступность в странах и регионах
-        href: business-voice/country-region-availability.md
-      - name: Что нужно знать перед приобретением
-        items:
-          - name: 'Что нужно приобрести, чтобы получить корпоративную голосовую связь'
-            href: business-voice/what-to-buy.md
-          - name: Обратитесь за помощью к торговому посреднику или партнеру
-            href: business-voice/reseller-partner-support.md
-          - name: Проверка подключения к Интернету
-            href: business-voice/get-ready-internet.md
-          - name: Подготовка пользователей
-            href: business-voice/prepare-users.md
-      - name: Настройка голосовой связи для бизнеса
-        items:
-          - name: Обзор
-            href: business-voice/set-up-overview.md
-          - name: Шаг 1. Настройка местоположений для экстренного реагирования
-            href: business-voice/set-up-emergency-locations.md
-          - name: Шаг 2. Настройка номеров телефонов
-            href: business-voice/set-up-phone-numbers.md
-          - name: Шаг 3. Назначение лицензий
-            href: business-voice/set-up-licenses.md
-          - name: Шаг 4. Настройка учетной записи ресурса
-            href: business-voice/set-up-resource-account.md
-          - name: Шаг 5. Назначение номеров телефонов пользователям
-            href: business-voice/set-up-assign-numbers.md
-          - name: Шаг 6. Настройка автосекретаря
-            href: business-voice/set-up-auto-attendant.md
-          - name: Шаг 7. Перенос номеров телефонов (необязательно)
-            href: business-voice/port-phone-numbers.md
-          - name: Ресурсы после настройки
-            href: business-voice/set-up-finish.md
-      - name: Настройка установки
-        items:
-          - name: Параметры настройки
-            href: business-voice/customize-business-voice.md
-          - name: Настройка политик звонков
-            href: business-voice/set-up-policies.md
-          - name: Управление пакетами политик
-            href: business-voice/policy-packages.md
-          - name: Создание дополнительных пользователей
-            href: business-voice/create-users.md
-          - name: Настройка очереди вызовов
-            href: business-voice/create-a-phone-system-call-queue-smb.md
-          - name: Настройка автосекретаря
-            href: business-voice/create-a-phone-system-auto-attendant-smb.md
-      - name: Управление настройкой
-        items:
-          - name: Создание одного или нескольких пользователей
-            href: business-voice/create-users.md
-          - name: Управление устройствами
-            href: business-voice/manage-devices.md
-          - name: Отслеживание качества звонка
-            href: business-voice/monitor-quality.md
-          - name: Панель мониторинга качества звонка
-            href: business-voice/analytics-dashboard.md
-      - name: Ресурсы партнеров
-        href: business-voice/partner-resources.md
   - name: Управление устройствами и комнатами
     items:
       - name: Комнаты Microsoft Teams
@@ -1345,8 +1341,6 @@ items:
                 href: rooms/rooms-authentication.md
               - name: Присоединение к сторонним собраниям
                 href: rooms/third-party-join.md
-              - name: С помощью Microsoft Endpoint Configuration Manager
-                href: rooms/rooms-scale.md
               - name: Управление с помощью Azure Monitor
                 href: rooms/azure-monitor-deploy.md
               - name: Перенос SRS версии 1 или LRS
@@ -1381,6 +1375,12 @@ items:
             href: rooms/enrolling-mtrp-managed-service.md
           - name: Настройка ServiceNow для Комнат Teams
             href: rooms/microsoft-teams-rooms-configure-servicenow.md
+          - name: Управление несколькими клиентами для партнеров
+            href: rooms/multi-tenant-management-partner.md
+          - name: Управление несколькими клиентами для пользователей
+            href: rooms/multi-tenant-management-customer.md
+          - name: Журналы аудита действий комнат
+            href: rooms/multi-tenant-auditing.md
       - name: Устройства
         items:
           - name: Управление устройствами в Teams

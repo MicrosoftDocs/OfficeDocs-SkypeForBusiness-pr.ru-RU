@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Узнайте, какие пограничные контроллеры сеансов (SCS) были сертифицированы для прямой маршрутизации.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 97f8ffbf6613ca4106a68284c8e889375a7b0feb
-ms.sourcegitcommit: b3b295557d494f77a7ebd9f49ec55f2507da956c
+ms.openlocfilehash: 9fef14aa5d6e58bea3a33fbd8c86a3044b0ab778
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/22/2021
-ms.locfileid: "61135202"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766982"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>Пограничные контроллеры сеансов, сертифицированные для прямой маршрутизации
 
@@ -122,13 +122,13 @@ ms.locfileid: "61135202"
 | Поставщик | ПРОИЗВЕД |    Версия программного обеспечения |
 |:------------|:-------|:-------|
 | [Audiocodes](https://www.audiocodes.com/media/13253/connecting-audiocodes-sbc-to-microsoft-teams-direct-routing-enterprise-model-configuration-note.pdf) |    Mediant 500 SBC |   7.20A.256 | 
-|            |  Mediant 800 SBC |   7.20A.258 | 
-|            |  Mediant 2600 SBC |  7.20A.258 | 
-|            |  Mediant 4000 SBC |  7.20A.258 | 
-|            |  Mediant 1000B SBC | 7.20A.256 | 
-|            |  Mediant 9000 SBC |  7.20A.258 | 
-|            |  Mediant Virtual Edition SBC |   7.20A.258 | 
-|            |  Mediant Cloud Edition SBC | 7.20A.258 |
+|            |  Mediant 800 SBC |   Поддерживается 7.20A.258 (рекомендуется 7.40A.100)  |  
+|            |  Mediant 2600 SBC |  Поддерживается 7.20A.258 (рекомендуется 7.40A.100)  |  
+|            |  Mediant 4000 SBC |  Поддерживается 7.20A.258 (рекомендуется 7.40A.100)  |  
+|            |  Mediant 1000B SBC | Поддерживается 7.20A.258 (рекомендуется 7.40A.100)  |  
+|            |  Mediant 9000 SBC |  Поддерживается 7.20A.258 (рекомендуется 7.40A.100)  |  
+|            |  Mediant Virtual Edition SBC |   Поддерживается 7.20A.258 (рекомендуется 7.40A.100)  |  
+|            |  Mediant Cloud Edition SBC | Поддерживается 7.20A.258 (рекомендуется 7.40A.100)  |
 | [Ribbon SBC Core](https://support.sonus.net/display/ALLDOC/SBC+8.2+-+Configure+Local+Media+Optimization)  |  SBC 5110         | 8.2  |
 |            |  SBC 5210         | 8.2  |
 |            |  SBC 5400         | 8.2  |

@@ -17,55 +17,62 @@ ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection:
 - M365-collaboration
 description: В этой теме вы также ознакомьтесь с информацией о развертывании Комнаты Microsoft Teams в гибридной среде с Exchange локальной среде.
-ms.openlocfilehash: 15936a805e45ce17ec35822bb02980b4d47499b8
-ms.sourcegitcommit: 1165a74b1d2e79e1a085b01e0e00f7c65483d729
+ms.openlocfilehash: ea05ef6b6bf6e13ee907d84d1d48200c0cea5a09
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2021
-ms.locfileid: "61355624"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61767232"
 ---
-# <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises-hybrid"></a>Развертывание Комнаты Microsoft Teams с Exchange локальной (гибридная)
+# <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises-hybrid"></a>Развертывание Комнаты Microsoft Teams с локальной Exchange (гибридная)
 
 В этой теме вы также ознакомьтесь с информацией о развертывании Комнаты Microsoft Teams в гибридной среде с Exchange локальной и Microsoft Teams.
   
-Если в вашей организации есть несколько служб( одни из них — локально, а другие — в Интернете), то конфигурация будет зависеть от того, где именно находится та или иная служба. В этой теме описывается гибридное развертывание Комнаты Microsoft Teams с Exchange локальной службой. Так как в развертывании такого типа много разных вариантов, предоставить подробные инструкции для всех из них невозможно. Этот процесс будет работать для многих конфигураций. Если процесс не подгоняет под установку, рекомендуем использовать Windows PowerShell, чтобы получить такой же конечный результат, как описано здесь, а также для других вариантов развертывания.
+Если в вашей организации есть несколько служб( одни из них — локально, а другие — в Интернете), то конфигурация будет зависеть от того, где именно находится та или иная служба. В этой теме описывается гибридное развертывание Комнаты Microsoft Teams с Exchange размещенной локальной службой. Так как в развертывании такого типа много разных вариантов, предоставить подробные инструкции для всех из них невозможно. Этот процесс будет работать для многих конфигураций. Если процесс не подстроен для настройки, рекомендуем использовать Windows PowerShell, чтобы получить такой же конечный результат, как описано здесь, а также для других вариантов развертывания.
   
 ## <a name="requirements"></a>Требования
 
-Прежде чем развертывать Комнаты Microsoft Teams с локальной Exchange, убедитесь, что выполнили требования. Дополнительные сведения см. в Комнаты Microsoft Teams [требованиях.](requirements.md)
-  
-При развертывании Комнаты Microsoft Teams локальной Exchange вы будете использовать средства администрирования Active Directory, чтобы добавить адрес электронной почты для локальной учетной записи домена. Эта учетная запись будет синхронизирована с Microsoft 365 или Office 365. Выполните указанные ниже действия.
-  
-- Создайте учетную запись и синхронизуйте ее с Azure Active Directory.
-
-- Включите удаленный почтовый ящик и задайте его свойства.
-
-- Назначьте Microsoft 365 или Office 365 лицензию.
-
-### <a name="create-an-account-and-synchronize-with-azure-active-directory"></a>Создание учетной записи и синхронизация с Azure Active Directory
-
-1. В **средстве "Пользователи** и компьютеры" Active Directory щелкните правой кнопкой мыши папку или организационную единицу, в которую будут созданы учетные записи Комнаты Microsoft Teams, нажмите кнопку Создать и выберите пользователь **.** 
-
-2. Введите отображаемого имени в **поле** Полное имя, а псевдоним в поле **Имя пользователя.** Нажмите кнопку **Далее**.
-
-3. Введите пароль учетной записи. Подтвердите пароль. Убедитесь, что выбран только параметр **Срок действия пароля не ограничен**.
-
-    > [!NOTE]
-    > Для **этого необходимо выбрать пароль без** Комнаты Microsoft Teams. В некоторых случаях пароли с неограниченным сроком действия могут быть запрещены правилами домена. В этом случае необходимо создать исключение для каждой учетной записи Комнаты Microsoft Teams учетной записи.
-  
-4. После создания учетной записи выполните синхронизацию каталогов. После этого перейдите на страницу пользователи в своей учетной записи Центр администрирования Microsoft 365 и убедитесь, что учетная запись, созданная на предыдущих шагах, синхронизирована с Интернетом.
+Прежде чем Комнаты Microsoft Teams развертывание Exchange локально, убедитесь, что выполнили требования. Дополнительные сведения см. в Комнаты Microsoft Teams [требованиях.](requirements.md)
 
 ### <a name="enable-the-remote-mailbox-and-set-properties"></a>Включите удаленный почтовый ящик и задайте его свойства.
 
 1. [Откройте Exchange или](/powershell/exchange/exchange-server/open-the-exchange-management-shell) подключите его к серверу [Exchange с помощью удаленной оболочки PowerShell.](/powershell/exchange/exchange-server/connect-to-exchange-servers-using-remote-powershell)
 
-2. В Exchange PowerShell создайте почтовый ящик для этой учетной записи (для этого можно включить учетную запись) с помощью следующей команды:
+2. В Exchange PowerShell создайте новый почтовый ящик комнаты или измените существующий почтовый ящик комнаты. По умолчанию у почтовых ящиков помещений нет связанных учетных записей, поэтому при создании или изменении почтового ящика комнаты вам потребуется добавить учетную запись, которая позволяет ей проверку подлинности с помощью Microsoft Teams.
 
-   ```PowerShell
-   Enable-Mailbox ConferenceRoom01@contoso.com -Room
-   ```
+   - Чтобы создать почтовый ящик помещения, используйте следующий синтаксис:
 
-   Подробные сведения о синтаксисе и параметрах см. в [описании Enable-Mailbox.](/powershell/module/exchange/mailboxes/enable-mailbox)
+     ``` PowerShell
+     New-Mailbox -UserPrincipalName <UPN> -Name <String> -Alias <String> -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '<Password>' -AsPlainText -Force)
+     ```
+     
+     В этом примере создается почтовый ящик помещения со следующими настройками:
+
+     - Учетная запись: ConferenceRoom01@contoso.com
+  
+     - Имя: конференц-зал01
+
+     - Псевдоним: Конференц-зал01
+
+     - Пароль учетной записи: P@$$W 0rd5959
+
+     ``` PowerShell
+     New-Mailbox -UserPrincipalName ConferenceRoom01@contoso.com -Name "ConferenceRoom01" -Alias ConferenceRoom01 -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String 'P@$$W0rd5959' -AsPlainText -Force)
+     ```
+
+   - Чтобы изменить существующий почтовый ящик помещения, используйте следующий синтаксис:
+
+     ``` PowerShell
+     Set-Mailbox -Identity <RoomMailboxIdentity> -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '<Password>' -AsPlainText -Force)
+     ```
+
+     В этом примере включается учетная запись существующего почтового ящика комнаты со значением псевдонима ConferenceRoom02 и устанавливается пароль 9898P@$$W 0rd. Обратите внимание, что учетная запись ConferenceRoom02@contoso.com из-за существующего значения псевдонима.
+
+     ``` PowerShell
+     Set-Mailbox -Identity ConferenceRoom02 -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '9898P@$$W0rd' -AsPlainText -Force)
+     ```
+
+   Подробные сведения о синтаксисе и параметрах см. в настройках [New-Mailbox](/powershell/module/exchange/mailboxes/new-mailbox) и [Set-Mailbox.](/powershell/module/exchange/mailboxes/set-mailbox)
 
 3. В Exchange PowerShell настройте следующие параметры почтового ящика комнаты, чтобы улучшить собрание:
 
@@ -77,7 +84,7 @@ ms.locfileid: "61355624"
 
    - DeleteSubject: $false (Тема входящих запросов на собрания.)
 
-   - RemovePrivateProperty: $false (гарантирует, что личный флажок, отправленный организатором собрания в исходном запросе на собрание, не будет установлен.)
+   - RemovePrivateProperty: $false (гарантирует, что личный флажок, отправленный организатором собрания в исходном запросе на собрание, останется указанным.)
 
    - AddAdditionalResponse: $true (текст, заданный параметром AdditionalResponse, добавляется в запросы на собрания.)
 
@@ -91,6 +98,15 @@ ms.locfileid: "61355624"
 
    Подробные сведения о синтаксисе и параметрах см. в описании [set-CalendarProcessing.](/powershell/module/exchange/mailboxes/set-calendarprocessing)
 
+### <a name="set-password-to-never-expire"></a>Установить срок действия пароля
+
+1. В **средстве "Пользователи** и компьютеры" Active Directory найдите учетную запись Комнаты Microsoft Teams, щелкните ее правой кнопкой мыши и выберите **Свойства**.
+
+2. Выберите **пароль, срок действия которого никогда** не истекает, и нажмите кнопку **ОК.**
+
+   > [!NOTE]
+   > Для этого **необходимо выбрать пароль,** срок действия которого никогда Комнаты Microsoft Teams не истекает. В некоторых случаях пароли с неограниченным сроком действия могут быть запрещены правилами домена. В этом случае необходимо создать исключение для каждой учетной записи Комнаты Microsoft Teams учетной записи.
+
 ### <a name="assign-a-microsoft-365-or-office-365-license"></a>Назначение лицензии Microsoft 365 или Office 365 лицензии
 
 1. Подключение Azure Active Directory. Подробные сведения о Azure Active Directory см. в [azure ActiveDirectory (MSOnline) 1.0.](/powershell/azure/active-directory/overview?view=azureadps-1.0) 
@@ -100,23 +116,27 @@ ms.locfileid: "61355624"
 
 2. У учетной записи ресурса должна быть действительная Microsoft 365 лицензия Office 365 или Exchange и Microsoft Teams не будет работать. Если у вас есть лицензия, необходимо назначить для нее место использования — это определяет, какие номера номеров лицензий доступны для вашей учетной записи. Вы можете использовать `Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> , чтобы получить список доступных skus.
 
-<!--   ``` Powershell
+   ```Powershell
+   Get-MsolAccountSku
+   ```
+
+   <!--
+   ```Powershell
    Get-AzureADSubscribedSku | Select -Property Sku*,ConsumedUnits -ExpandProperty PrepaidUnits
-   ``` -->
-
-3. Затем вы можете добавить лицензию с помощью `Set-MsolUserLicense` <!-- Set-AzureADUserLicense --> Командлет. В этом случае будет отображаться код SKU $strLicense (например, contoso:STANDARDPACK).
-
-  ``` PowerShell
-  Set-MsolUser -UserPrincipalName 'ConferenceRoom01@contoso.com' -UsageLocation 'US'
-  Get-MsolAccountSku
-  Set-MsolUserLicense -UserPrincipalName 'ConferenceRoom01@contoso.com' -AddLicenses $strLicense
-  ```
-
-<!--   ``` Powershell
-   Set-AzureADUserLicense -UserPrincipalName $acctUpn -UsageLocation "US"
-   Get-AzureADSubscribedSku
-   Set-AzureADUserLicense -UserPrincipalName $acctUpn -AddLicenses $strLicense
    ```  -->
+
+3. Затем вы можете добавить лицензию с помощью `Set-MsolUserLicense` <!--Set-AzureADUserLicense --> Командлет. В этом примере лицензия Конференц-зал к учетной записи:
+
+   ```PowerShell
+   Set-MsolUser -UserPrincipalName "ConferenceRoom01@contoso.com" -UsageLocation "US"
+   Set-MsolUserLicense -UserPrincipalName "ConferenceRoom01@contoso.com" -AddLicenses "Contoso:MEETING_ROOM"
+   ```
+
+   <!-- 
+   ```Powershell
+   Set-AzureADUser -UserPrincipalName "Rigel1@contoso.onmicrosoft.com" -UsageLocation "US"
+   Set-AzureADUserLicense -UserPrincipalName "Rigel1@contoso.onmicrosoft.com" -AddLicenses "Contoso:MEETING_ROOM"
+   ```   -->
 
    Подробные инструкции см. в описании назначения лицензий учетным записям пользователей с [помощью Office 365 PowerShell.](/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell)
 

@@ -20,13 +20,13 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: Узнайте, как настроить и протестировать автоотводщики для малого бизнеса в Голосовая связь Microsoft 365 бизнес.
-ms.openlocfilehash: 176dc3c742ea60dbf5bf9b7bf0e6ce077957ace1
-ms.sourcegitcommit: e7f6125d348b6f14eeba28e09d5f1975ad4fde69
+description: Узнайте, как настроить и протестировать автоответников для малого бизнеса в Microsoft 365 Teams Телефон с помощью плана звонков.
+ms.openlocfilehash: b5c3b27b0b7bdc835d0dbe30a9478b52f4300ab4
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2021
-ms.locfileid: "60249481"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61767352"
 ---
 # <a name="set-up-an-auto-attendant---small-business-tutorial"></a>Настройка автозавода — учебник по малому бизнесу
 

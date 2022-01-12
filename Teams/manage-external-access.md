@@ -21,12 +21,12 @@ description: Ваш администратор Teams или ИТ-админис�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 16a30b9e4ce9ed86516cfcf7fb0cbdb22e6c2141
-ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
+ms.openlocfilehash: 5a52e479b7dd813af786c33e494675fe7b8e9743
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "61563566"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766612"
 ---
 # <a name="manage-external-access-in-microsoft-teams"></a>Управление внешним доступом в Microsoft Teams
 
@@ -181,7 +181,7 @@ New-CsBatchPolicyAssignmentOperation -PolicyType ExternalAccessPolicy -PolicyNam
 
 Чтобы ознакомиться с дополнительными примерами компиляции списка пользователей, см. [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation).
 
-Новую политику можно просмотреть, запустив `Get-CsExternalAccessPolicy -Include All`.
+Новую политику можно просмотреть, запустив `Get-CsExternalAccessPolicy`.
 
 
 См. также [New-CsExternalAccessPolicy](/powershell/module/skype/new-csexternalaccesspolicy) и [Set-CsExternalAccessPolicy](/powershell/module/skype/set-csexternalaccesspolicy).

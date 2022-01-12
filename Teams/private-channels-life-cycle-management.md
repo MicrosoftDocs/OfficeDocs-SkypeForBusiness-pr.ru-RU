@@ -18,16 +18,16 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Узнайте, как управлять частными каналами в организации с Graph API.
-ms.openlocfilehash: a2cb9b45afb005c837b260ac3da22c250d16c758
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 25065401216a29e28e0d4aa3f1ad02d071215188
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58615325"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766382"
 ---
 # <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>Управление жизненным циклом закрытых каналов в Microsoft Teams
 
-Здесь вы найдете рекомендации, необходимые для управления использованием API Graph API для управления Teams каналов [в](./private-channels.md) организации.
+Здесь вы найдете рекомендации по использованию API Graph для управления Teams каналами [в](./private-channels.md) организации.
 
 ## <a name="set-whether-team-members-can-create-private-channels"></a>Укажите, могут ли участники команды создавать закрытые каналы
 
@@ -52,7 +52,7 @@ POST /teams/{id}/channels
   "displayName": "<Channel_Name>",
   "members":[{    
            "@odata.type":"#microsoft.graph.aadUserConversationMember",
-           "user@odata.bind":"https://graph.microsoft.com/beta/users('<user_id>')",
+           "user@odata.bind":"https://graph.microsoft.com/users('<user_id>')",
            "roles":["owner"]
             }]
 ```
@@ -79,7 +79,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
     **Запрос**
 
     ```Graph API
-    GET https://graph.microsoft.com/beta/teams/<group_id>/channels?$filter=membershipType eq 'private'
+    GET https://graph.microsoft.com/teams/<group_id>/channels?$filter=membershipType eq 'private'
     ```
 
     **Ответ**
@@ -109,7 +109,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
     **Запрос**
 
     ```Graph API
-    GET https://graph.microsoft.com/beta/teams/<group_id>/channels/<channel_id>/filesFolder
+    GET https://graph.microsoft.com/teams/<group_id>/channels/<channel_id>/filesFolder
     ```
 
     **Ответ**
@@ -138,7 +138,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
 Возможно, вы хотите составить список владельцев и участников закрытого канала, чтобы решить, нужно ли повысить уровень некоторых участников до владельца. Это происходит в тех случаях, когда владельцы закрытых каналов покинули организацию и необходима помощь администратора, чтобы заявить о праве собственности на закрытый канал.
 
-Администратор может использовать API Graph для выполнения этих действий.
+Как администратор вы можете использовать API Graph для выполнения этих действий.
 
 Эти команды можно выполнить, используя [песочницу Graph](https://developer.microsoft.com/graph/graph-explorer).
 
@@ -147,7 +147,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
     **Запрос**
 
     ```Graph API
-    GET https://graph.microsoft.com/beta/teams/<group_id>/channels/<channel_id>/members
+    GET https://graph.microsoft.com/teams/<group_id>/channels/<channel_id>/members
     ```
 
     **Ответ**
@@ -156,7 +156,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
     HTTP/1.1 200 OK Content-type: application/json
     Content-length: 
     {
-          "@odata.context": "https://graph.microsoft.com/beta/$metadata#teams({group_id}')/channels('{channel_id}')/members",
+          "@odata.context": "https://graph.microsoft.com/$metadata#teams({group_id}')/channels('{channel_id}')/members",
           "@odata.count": 2,
           "value": [
               {
@@ -185,7 +185,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
     ```Graph API
     PATCH 
-    https://graph.microsoft.com/beta/teams/<group_id>/channels/<channel_id>/members/<id>
+    https://graph.microsoft.com/teams/<group_id>/channels/<channel_id>/members/<id>
       
     {
     "@odata.type": "#microsoft.graph.aadUserConversationMember",
@@ -200,7 +200,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
     Content-type: application/json
 
     {
-      "@odata.context": "https://graph.microsoft.com/beta/$metadata#teams('{group_id}')/channels('{channel_id}')/members/$entity",
+      "@odata.context": "https://graph.microsoft.com/$metadata#teams('{group_id}')/channels('{channel_id}')/members/$entity",
       "@odata.type": "#microsoft.graph.aadUserConversationMember",
       "id": "id-value",
       "roles": ["owner"],

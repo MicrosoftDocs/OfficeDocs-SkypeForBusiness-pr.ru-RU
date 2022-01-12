@@ -1,9 +1,9 @@
 ### YamlMime:Hub
-title: Голосовая связь Microsoft 365 бизнес документации
-summary: 'Узнайте, как спланировать, настроить и использовать корпоративную голосовую связь Microsoft 365 в организации. Корпоративная голосовая связь позволяет небольшим и средним организациям легко настроить эффективную и гибкую телефонную систему, не увеличивая затраты и сложность, как при собственных решениях.'
+title: Microsoft 365 Teams Телефон с пакетной документацией по плану звонков
+summary: 'Узнайте, как спланировать, настроить и использовать Microsoft 365 Teams Телефон с пакетом плана звонков в организации. Пакет Teams Телефон с планом звонков упрощает для небольших и средних организаций мощные и гибкие телефонные системы без затрат и сложности решений.'
 metadata:
-  title: Голосовая связь Microsoft 365 бизнес документации
-  description: 'Узнайте, как планировать, разворачивать и использовать корпоративную голосовую связь Microsoft 365.'
+  title: Microsoft 365 Teams Телефон с пакетной документацией по плану звонков
+  description: 'Узнайте, как планировать, развертывать и использовать Microsoft 365 Teams Телефон с пакетом плана звонков.'
   ms.topic: hub-page
   author: dstrome
   ms.author: dstrome
@@ -14,22 +14,22 @@ productDirectory:
       imageSrc: 'https://docs.microsoft.com/office/media/icons/blocks-blue.svg'
       links:
         - url: whats-business-voice.md
-          text: Что такое корпоративная голосовая связь
+          text: Teams Телефон с помощью руководства по плану звонков для малого и среднего бизнеса
         - url: 'https://www.microsoft.com/microsoft-365/business-voice'
-          text: Корпоративная голосовая связь Microsoft 365
-        - url: /office365/servicedescriptions/microsoft-365-business-voice-service-description
-          text: Описание служб
+          text: Microsoft 365 Teams Телефон с пакетом плана звонков
+        - url: /office365/servicedescriptions/teams-service-description
+          text: Teams описание службы
     - title: Настройка
       imageSrc: 'https://docs.microsoft.com/office/media/icons/deploy-blue.svg'
       links:
-        - url: ./what-to-buy.md
-          text: Как получить корпоративную голосовую связь
+        - url: ./whats-business-voice.md#what-do-i-need-to-buy-to-get-voice-capabilities-for-my-small-or-medium-business
+          text: Как получить пакет Teams Телефон с помощью плана звонков
         - url: get-ready-internet.md
           text: Проверка подключения к Интернету
         - url: prepare-users.md
           text: Подготовка пользователей
         - url: set-up-overview.md
-          text: Настройка голосовой почты для бизнеса
+          text: Настройка Teams Телефон с помощью плана звонков
     - title: Настройка установки
       imageSrc: 'https://docs.microsoft.com/office/media/icons/migration-blue.svg'
       links:
@@ -57,10 +57,8 @@ productDirectory:
       links:
         - url: /partner-center/
           text: Получение Microsoft 365 бизнес в Центре партнеров
-        - url: 'https://www.microsoft.com/microsoft-365/partners/businessvoice'
-          text: Корпоративная голосовая связь Microsoft 365 для партнеров
-        - url: partner-resources.md
-          text: Ресурсы поддержки партнеров для корпоративной голосовой связи Microsoft 365
+        - url: 'https://cloudpartners.transform.microsoft.com/products/m365-business-voice-partner-playbook'
+          text: Microsoft 365 Teams Телефон с пакетом звонков в playbook партнера
     - title: Нужна помощь?
       imageSrc: 'https://docs.microsoft.com/office/media/icons/users-people.svg'
       links:

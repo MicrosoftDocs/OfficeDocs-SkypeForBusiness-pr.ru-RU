@@ -1,5 +1,5 @@
 ---
-title: Создание пользователей Microsoft 365, добавление лицензий на корпоративную голосовую связь и назначение номеров телефонов
+title: Создание Microsoft 365 пользователей, добавление Teams Телефон с помощью лицензий на план звонков и назначение номеров телефонов
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -8,36 +8,35 @@ ms.service: msteams
 audience: admin
 f1.keywords:
 - NOCSH
-ms.localizationpriority: high
+ms.localizationpriority: medium
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
-- Teams_Business_Voice
 search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 33367a75eef98a847edfe6ce985f952719bfcf4c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
-ms.translationtype: HT
+ms.openlocfilehash: 00eb2842b063399f69563571180197de0238588e
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58605968"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766192"
 ---
-# <a name="create-and-license-business-voice-users-and-assign-them-phone-numbers"></a>Создание пользователей, предоставление им лицензии на корпоративную голосовую связь и назначение им номеров телефонов
+# <a name="create-and-license-teams-phone-with-calling-plan-users-and-assign-them-phone-numbers"></a>Создание и лицензирование Teams Телефон с пользователями плана звонков и назначение им номеров телефонов
 
-Чтобы использовать :::no-loc text="Microsoft 365 Business Voice":::, требуется учетная запись :::no-loc text="Microsoft 365"::: с лицензией на :::no-loc text="Microsoft 365 Business Voice":::. Если у вас есть учетная запись и лицензия, ей можно назначить номер телефона.
+Чтобы использовать :::no-loc text="Microsoft 365 Teams Phone with Calling Plan":::, требуется учетная запись :::no-loc text="Microsoft 365"::: с лицензией на :::no-loc text="Microsoft 365 Teams Phone with Calling Plan":::. Если у вас есть учетная запись и лицензия, ей можно назначить номер телефона.
 
 ## <a name="create-and-license-users"></a>Создание и лицензирование пользователей
 
 Следуйте инструкциям из статьи [Добавление пользователей по одному или массово](/microsoft-365/admin/add-users/add-users) и [Назначение лицензий пользователям](/microsoft-365/admin/manage/assign-licenses-to-users).
 
 > [!NOTE]
-> В области **Назначение лицензий на продукты** выберите пункт **:::no-loc text="Microsoft 365 Business Voice":::**.
+> В области **Назначение лицензий на продукты** выберите пункт **:::no-loc text="Microsoft 365 Teams Phone with Calling Plan":::**.
 
 ## <a name="assign-phone-numbers-to-users"></a>Назначение номеров телефонов пользователям
 
-После создания пользователей и назначения им лицензии :::no-loc text="Microsoft 365 Business Voice"::: им можно присвоить номера телефонов. Для каждого пользователя, которому требуется выполнять или принимать звонки на внешние номера телефонов, потребуется один неназначенный номер телефона. Если у вас недостаточно неназначенных номеров телефонов, см. раздел [Получить дополнительные номера телефонов](#get-more-phone-numbers) далее в этой статье.
+После создания пользователей и назначения им лицензии :::no-loc text="Microsoft 365 Teams Phone with Calling Plan"::: им можно присвоить номера телефонов. Для каждого пользователя, которому требуется выполнять или принимать звонки на внешние номера телефонов, потребуется один неназначенный номер телефона. Если у вас недостаточно неназначенных номеров телефонов, см. раздел [Получить дополнительные номера телефонов](#get-more-phone-numbers) далее в этой статье.
 
 1. Перейдите на сайт https://admin.teams.microsoft.com.
 2. Введите имя и описание запроса на номер телефона.

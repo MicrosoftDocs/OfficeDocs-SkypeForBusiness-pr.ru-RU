@@ -1,5 +1,5 @@
 ---
-title: Регистрация устройства Комнаты Teams в службе Комнаты Microsoft Teams Premium.
+title: Регистрация устройства Комнаты Teams в управляемой Комнаты Microsoft Teams премиум
 author: v-smandalika
 ms.author: v-smandalika
 manager: serdars
@@ -15,16 +15,16 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Узнайте, как зарегистрировать Комнаты Microsoft Teams учетные записи в Комнаты Microsoft Teams Premium управляемой службе.
+description: Узнайте, как зарегистрировать Комнаты Microsoft Teams учетные записи в Комнаты Microsoft Teams премиум управляемой службе.
 f1keywords: ''
-ms.openlocfilehash: a6aa59a798e06c407c1bbde6734ec9ab3ecedcd1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 79dee52cc9c814338c6c5dc4c91245155ef2fd41
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58637024"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766972"
 ---
-# <a name="enroll-a-device-in-the-microsoft-teams-rooms-premium-managed-service"></a>Регистрация устройства в управляемой Комнаты Microsoft Teams Premium службе
+# <a name="enroll-a-device-in-the-microsoft-teams-rooms-premium-managed-service"></a>Регистрация устройства в управляемой Комнаты Microsoft Teams премиум
 
 Чтобы зарегистрировать устройство Комнаты Microsoft Teams в управляемой службе Комнаты Teams Premium, необходимо назначить администратору управляемой службы еще одного пользователя, а затем выполнить действия по регистрации с его помощью.
 
@@ -40,29 +40,30 @@ ms.locfileid: "58637024"
 
 Пользователи, которым назначена роль администратора управляемой службы, отвечают за ежедневное управление и мониторинг Комнаты Teams Premium портала управляемых служб.
 
-После того как вы настроят для пользователей роль [](#enroll-a-teams-rooms-device) администратора управляемой службы, пере продолжите в разделе Регистрация устройства, чтобы добавить устройство Комнаты Teams на портал управляемых служб.
+После того как вы настроят для пользователей роль [](#enroll-a-teams-rooms-device) администратора управляемой службы, перенаправьсь в раздел Регистрация устройства, чтобы добавить устройство Комнаты Teams на портал управляемых служб.
 
-## <a name="enroll-a-teams-rooms-device"></a>Регистрация устройства Комнаты Teams устройства
+## <a name="enroll-a-teams-rooms-device"></a>Регистрация устройства Комнаты Teams
 
-Чтобы зарегистрировать устройство в управляемой службе Комнаты Teams Premium, выполните следующие действия:
+ Чтобы зарегистрировать устройство в управляемой Комнаты Teams Premium, см. мониторинг [установки программного обеспечения устройства.](monitor-software-installation-guide.md)
 
-1. Войдите на [Комнаты Teams Premium с](https://portal.rooms.microsoft.com/) пользователем, которым назначена роль администратора управляемой службы.
-2. Выберите на **?** в правом верхнем углу портала, чтобы запустить меню справки. В меню справки содержится руководство [по установке,](https://portal.rooms.microsoft.com/docs/MMR%20Monitoring%20Software%20Installation%20Guide%20Feb%202021.pdf) содержащее подробные инструкции по регистрации:
+<!--2. Select on the **?** icon at the top right-hand corner of the portal to launch the help menu. The help menu includes an [Installation guide](https://portal.rooms.microsoft.com/docs/MMR%20Monitoring%20Software%20Installation%20Guide%20Feb%202021.pdf) containing detailed enrollment instructions:
 
-    1. Просмотрите **раздел Предварительные требования** в руководстве по установке. Подтвердите, что URL-адреса, перечисленные в списке URL-адресов, необходимых для связи, добавлены в список разрешаний трафика брандмауэра. 
-    2. Следуйте инструкциям в разделе Включение **TPM Параметры,** чтобы включить функцию доверенного модуля платформы (TPM) на вашем устройстве.
-    3. Следуйте инструкциям в разделе Добавление прокси-сервера **Параметры,** чтобы настроить устройство для использования прокси-шлюза, если он у вас есть.
-    4. Следуйте инструкциям в разделе **Процесс,** чтобы установить программное обеспечение агента мониторинга и настроить ключ самостоятельной регистрации на устройстве.
+    1. Review the **Pre-requisites** section in the Installation guide. Confirm that the URLs listed in the **URLs Required for Communication** list are added to your firewall's traffic allow list.
+    2. Follow the instructions in the **Enabling TPM Settings** section to enable the Trusted Platform Module (TPM) functionality on your device.
+    3. Follow the instructions in the **Adding Proxy Settings** section to configure your device to use your proxy gateway, if you have one.
+    4. Follow the instructions in the **Process** section to install the monitoring agent software and configure the self enrollment key on your device.
 
-3. После настройки агента мониторинга и уникального XML-ключа  на устройстве перейдите в > комнаты > **состояние,** а затем выберите **Зарегистрировать**.
+3. After the monitoring agent and unique XML key are configured on your device, navigate to **Rooms** > room name > **Status**, and then select **Enroll**.
 
     > [!NOTE]
-    > Устройство Комнаты Teams будет оставаться в  состоянии "Вклинение", пока администратор управляемой службы не зарегистрит его на портале.
+    > The Teams Rooms device will remain in the **Onboarding** state until a Managed Service Administrator enrolls the device using the portal.
 
-## <a name="link-to-installation-guide"></a>Ссылка на руководство по установке
+    See [Monitoring device software installation](monitoring-software-installation-guide.md).
 
-Меню **Справка** содержит ссылку на руководство по [установке,](https://portal.rooms.microsoft.com/docs/MMR%20Monitoring%20Software%20Installation%20Guide%20Feb%202021.pdf) которое, в свою очередь, содержит следующие сведения:
+<!--## Link to Installation guide
 
-- Инструкции по URL-адресам, которые должны быть указаны в списке, чтобы включить функцию телеметрии комнаты в управляемой службе.
-- Инструкции по применении Комнаты Microsoft Teams Premium мониторинга и уникального XML-ключа при регистрации устройства в управляемой службе.
-- Инструкции по устранению неполадок.
+The **Help** menu provides a link to the [Installation guide](https://portal.rooms.microsoft.com/docs/MMR%20Monitoring%20Software%20Installation%20Guide%20Feb%202021.pdf) which in turn provides the following information:
+
+- Instructions on URLs that need to be allow-listed to serve to enable room telemetry to be sent to the managed service.
+- Instructions for applying the Microsoft Teams Rooms Premium monitoring agent and unique XML key as part of enrolling a device in the managed service.
+- Troubleshooting instructions.-->

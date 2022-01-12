@@ -1,5 +1,5 @@
 ---
-title: Назначение Голосовая связь Microsoft 365 бизнес лицензий
+title: Назначение Microsoft 365 Teams Телефон с помощью лицензий на план звонков
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -14,27 +14,23 @@ MS.collection:
 - M365-collaboration
 - Teams_Business_Voice
 search.appverid: MET150
-description: Узнайте, как назначать Голосовая связь Microsoft 365 бизнес лицензии пользователям
+description: Узнайте, как назначить пользователям Microsoft 365 Teams Телефон с пакетом лицензий на план звонков.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 879862446aef2f5d7a2b8dd1a6515c80a1d6b741
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5e26d8ce219d697791c220d9c76afb46df411c3e
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58635823"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766332"
 ---
-# <a name="step-3-assign-business-voice-licenses"></a>Шаг 3. Назначение лицензий на бизнес-голосовые номера
+# <a name="step-3-assign-the-teams-phone-with-calling-plan-bundle-licenses"></a>Шаг 3. Назначение лицензий Teams Телефон плана звонков
 
-Каждому пользователю, который должен использовать Голосовая связь Microsoft 365 бизнес голосовой почты, должны быть назначены лицензии на голосовые данные для бизнеса.
+Каждому пользователю, который должен использовать Microsoft 365 Teams Телефон с планом звонков, должны быть назначены лицензии для Teams Телефон с пакетом плана звонков.
 
-В следующем видео показано, как выполнить эти действия в Центр администрирования Microsoft 365.
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWENAx]
-
-1. Откройте Центр администрирования Microsoft 365 и войдите с пользователем, который является глобальным администратором (обычно это учетная запись, которую вы использовали для регистрации в Microsoft 365).
+1. Откройте Центр администрирования Microsoft 365 и войдите с пользователем, который является глобальным администратором. Обычно это учетная запись, которая использовалась для регистрации Microsoft 365.
 1. В области навигации слева перейдите в меню <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank"> **Лицензии на**  >  **выставление счета**</a>.
-1. Выберите **Голосовая связь Microsoft 365 бизнес**.
+1. Выберите Microsoft 365 Teams Телефон **с планом звонков**.
 1. На странице сведений о продукте выберите **Назначение лицензий**.
 1. В области **Назначение лицензий пользователям** начните вводить имя, а затем выберите его в результатах, чтобы добавить его в список. Вы можете добавить до 20 пользователей одновременно.
 1. После завершения нажмите **Назначить**, а затем — **Закрыть**.
@@ -42,4 +38,4 @@ ms.locfileid: "58635823"
 
 
 > [!div class="nextstepaction"]
-> [Следующий шаг: настройка учетной Teams ресурсов](set-up-resource-account.md)
+> [Следующий шаг: настройка Teams ресурса](set-up-resource-account.md)

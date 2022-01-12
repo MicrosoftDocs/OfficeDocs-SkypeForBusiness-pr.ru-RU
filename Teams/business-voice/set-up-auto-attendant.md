@@ -14,25 +14,23 @@ MS.collection:
 - M365-collaboration
 - Teams_Business_Voice
 search.appverid: MET150
-description: Узнайте, как настроить автоотводщика (очереди вызовов) Голосовая связь Microsoft 365 бизнес.
+description: Узнайте, как настроить автоотводщика (очереди вызовов) Microsoft 365 Teams Телефон.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8f4ab103178456dd6347a6691383291fb26f4aef
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f30dcdca74306b27c2516de54e0ab25133b77803
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58590923"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766232"
 ---
 # <a name="step-6-set-up-an-auto-attendant-for-your-companys-main-phone-number"></a>Шаг 6. Настройка автозавода для основного номера телефона компании
 
-Автозаверяющий может настроить меню звонка, чтобы вызывающие звонки на основной номер могли выбрать один из вариантов. Например, можно подключиться к отделу продаж или технической поддержки, конкретному сотруднику, кнопщику и даже к другому автоотводу.
-
-В следующем видео показано, как выполнить эти действия в Центре Teams администрирования.
+Автоотводчик позволяет настроить меню звонков, чтобы вызывающие звонки на основной номер могли выбрать один из вариантов. Например, можно подключиться к отделу продаж или поддержки, конкретному лицу, кнопщику и даже к другому автоотводу.
 
 [!INCLUDE [business-voice-create-auto-attendant](../includes/business-voice-create-auto-attendant.md)]
 
-Когда вы настроили автосборщик, настроив все вкладки выше, нажмите следующую кнопку, чтобы перейти к следующей статье.
+Когда вы настроили автоотвод, нажав следующую кнопку, чтобы перейти к следующей статье, пройдитесь по всем вкладкам выше.
 
 > [!div class="nextstepaction"]
-> [Следующий шаг: Перенос номеров телефонов в business Voice](port-phone-numbers.md)
+> [Следующий шаг: Перенос номеров телефонов в Teams Телефон](port-phone-numbers.md)
