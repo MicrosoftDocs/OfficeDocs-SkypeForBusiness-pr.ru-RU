@@ -19,12 +19,12 @@ description: Практическое руководство по разверт
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 37d7c3999986373e7ad72176cfc0182f09144e3a
-ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
+ms.openlocfilehash: 1221747b1ad8487c0b5852b6adaf5129b5a5288e
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "61205419"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766772"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Запись облачного собрания в Teams
 
@@ -267,6 +267,10 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 >
 >
 
+Дополнительные сведения об изменениях, касающихся администратора, можно получить [здесь](meeting-expiration.md#changes-to-meeting-expiration).
+
+Дополнительные сведения о том, как конечные пользователи могут управлять сроком действия собраний, можно получить [здесь](https://support.microsoft.com/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24#bkmk_view_change_expiration_date).
+  
 Ознакомьтесь с часто задаваемыми вопросами для администраторов и конечных пользователей, чтобы получить представление о том, как будет работать автоматическое истечение срока действия записей собраний Teams, какие действия можно предпринять сейчас и какие действия можно предпринять после запуска функции.
   
 ## <a name="frequently-asked-questions"></a>Вопросы и ответы
