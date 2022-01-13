@@ -15,18 +15,27 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 30a9017417e6c4d50745fe1ec1bf492d65dc6b81
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 9142434cc467da1e8ae5154dc8083b648d3247ad
+ms.sourcegitcommit: 45756a51857ed1d8714175d2b715c388e2f0db81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858786"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "62027582"
 ---
 # <a name="expand-microsoft-teams-across-your-organization"></a>Использование Microsoft Teams во всей организации
 
 Эти ресурсы рассчитаны на Teams развертывания и помогут вам использовать все возможности Teams определенных типов организаций. Если вы еще не развернули Teams, см. рекомендуемый путь к Teams в этой [Microsoft Teams.](../deploy-overview.md)
 
-|&nbsp; |&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;| 
-| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | 
-| ![группы планирования контрольного списка задач.](../media/clock-teams-small.svg)  |  ["Смены" для Teams](./shifts-for-teams-landing-page.md) |![health-teams](../media/health-teams-small.svg)  | [Teams для сферы здравоохранения](./teams-for-healthcare-landing-page.md) |![education-tutorial-teams](../media/education-tutorial-teams-small.svg) |  [Teams для сферы образования](./teams-for-education-landing-page.md) 
-|![small-business-teams.](../media/small-business-teams-small.svg)  | [Teams для розничной торговли](./teams-for-retail-landing-page.md) |![blocks-teams](../media/blocks-teams-small.svg)  | [Teams для государственных организаций](./teams-for-government-landing-page.md) |               |               |
+Узнайте, что можно делать с помощью Teams:
+
+- [Образования](./teams-for-education-landing-page.md)
+- [Сотрудники, работающие с передней линией](../flw-landing-page.md)
+- [Правительство](./teams-for-government-landing-page.md)
+- [Здравоохранения](./teams-for-healthcare-landing-page.md)
+- [Некоммерческой](./teams-for-nonprofit-landing-page.md)
+- [Розничных](./teams-for-retail-landing-page.md)
+
+Или узнайте больше об этих приложениях, доступных во всех отраслях:
+
+- ["Смены" для Teams](./shifts-for-teams-landing-page.md)
+- [Bookings в Teams](../bookings-app-admin.md)
