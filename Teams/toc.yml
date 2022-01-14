@@ -1571,6 +1571,10 @@ items:
             href: devices-for-education.md
       - name: Teams для сотрудников без компьютеров
         items:
+          - name: Начало работы с Teams для сотрудников без компьютеров
+            href: flw-landing-page.md
+          - name: Варианты лицензирования для сотрудников без компьютеров
+            href: flw-licensing-options.md
           - name: Краткое руководство по началу работу для сотрудников без компьютеров
             href: flw-quickstart.yml
           - name: Мастер подключения сотрудников без компьютеров
