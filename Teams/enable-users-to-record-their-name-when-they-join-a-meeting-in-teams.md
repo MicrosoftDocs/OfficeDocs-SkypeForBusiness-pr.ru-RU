@@ -1,7 +1,7 @@
 ---
 title: Позволить пользователям записывать свое имя для собрания
-ms.author: tonysmit
-author: tonysmit
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: oscarr
 ms.topic: article
@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Узнайте, как включить или отключить возможность записи имен пользователями при подступе к собранию в Microsoft Teams.
-ms.openlocfilehash: 4b78430ba3cc0d776176876235f2cefa5daa631d
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: 801b71f2880eb7e8a590a43654f84e75bb4c1d38
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60536700"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055429"
 ---
 # <a name="enable-users-to-record-their-name-when-they-join-a-meeting-in-microsoft-teams"></a>Предоставление пользователям возможности записи собственного имени при присоединении к собранию в Microsoft Teams
 
@@ -35,32 +35,31 @@ ms.locfileid: "60536700"
   
 Мост конференц-связи обеспечивает ответ на вызов пользователя, который присоединяется к собранию с телефона. Мост конференц-связи отвечает вызывающей стороне голосовыми подсказками с помощью автосекретаря, а затем, в зависимости от настроек, может воспроизвести уведомления, попросить вызывающую сторону записать свое имя и настроить ПИН-код безопасности для организаторов собрания. ПИН-коды предоставляются организаторам собраний. Организаторы могут начать собрание, введя ПИН-код. Однако собрание можно настроить таким образом, чтобы ПИН-код не требовался.
 
-  
-## <a name="set-whether-callers-should-record-their-name"></a>Настройка записи имени вызываемой
+## <a name="set-whether-callers-should-record-their-name"></a>Настройка записи имени вызывающих
 
- **С помощью Центра администрирования Microsoft Teams**
+В Центре Microsoft Teams администрирования:
 
-1. На панели навигации слева перейдите в раздел **Собрания** > **Мосты конференц-связи**. 
+1. На панели навигации слева перейдите в раздел **Собрания** > **Мосты конференц-связи**.
 
-2. В верхней части страницы **Мосты** конференций щелкните **Параметры моста**. 
+2. В верхней части страницы **Мосты** конференций щелкните **Параметры моста**.
 
 3. Включить или отключить уведомления **о входе и выходе из собрания.**
 
-4. Если включить уведомления,  выберите Имена или номера телефонов в списке Тип объявления о входе или выходе **,** а затем включив попросить звоняющих записать свое имя перед присоединением **к собранию.**
+4. Если включить уведомления,  выберите Имена или номера телефонов в списке Тип объявления о входе или выходе **,** а затем включив возможность Попросить звоняющих записать свое имя перед присоединением **к собранию.**
 
-6. Нажмите кнопку **Сохранить**.
-    
+5. Нажмите кнопку **Сохранить**.
+
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>Хотите узнать больше о Windows PowerShell?
 
 Windows PowerShell is all about managing users and what users are allowed or not allowed to do. С Windows PowerShell вы можете управлять Microsoft 365 или Office 365 с помощью единого администрирования, который упростит выполнение повседневных задач. Для начала работы с Windows PowerShell ознакомьтесь с приведенными ниже разделами.
-    
-  - [Шесть причин использовать Windows PowerShell для управления Office 365](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
-    
-  - [Лучшие способы управления Office 365 с помощью Windows PowerShell](/previous-versions//dn568025(v=technet.10))
-    
+
+- [Шесть причин использовать Windows PowerShell для управления Office 365](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+
+- [Лучшие способы управления Office 365 с помощью Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+
 Дополнительные сведения о Windows PowerShell см. в [справочнике по Microsoft Teams PowerShell](/powershell/module/teams/?view=teams-ps).
   
 ## <a name="related-topics"></a>Связанные разделы

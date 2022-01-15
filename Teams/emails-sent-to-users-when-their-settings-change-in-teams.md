@@ -1,7 +1,7 @@
 ---
 title: Электронные письма, отправляемые пользователям при изменении параметров
-ms.author: tonysmit
-author: tonysmit
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: oscarr
 ms.topic: article
@@ -20,13 +20,13 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: 'Узнайте, какие сведения автоматически отправляются пользователям по электронной почте при изменении их параметров для Microsoft Teams. '
-ms.openlocfilehash: ad61f7886d5a71fb8753b887ebfd6cd90f4f6a82
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+description: 'Узнайте, какие сведения автоматически отправляются пользователям по электронной почте при изменении параметров их параметров для телефонного Microsoft Teams. '
+ms.openlocfilehash: 81faefb3bfe2fd6c93584c5a9f48fd99a6040c99
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60536480"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055479"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-microsoft-teams"></a>Сообщения электронной почты, отправляемые пользователям при изменении их настроек в Microsoft Teams
 
@@ -36,14 +36,14 @@ ms.locfileid: "60536480"
 
 - **Им назначена лицензия на аудиоконференцию или при смене поставщика аудиоконференций на Майкрософт.**
 
-     Это сообщение электронной почты содержит код конференции, номер телефона конференции по умолчанию для собраний, ПИН-код аудиоконференции для пользователя, а также инструкции и ссылку для использования средства обновления собраний по сети Skype для бизнеса, которое используется для обновления существующих собраний для пользователя. См. [Microsoft Teams лицензии](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md) на надстройки или Назначение Майкрософт в качестве поставщика аудиоконференций. [](/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider)
+     Это сообщение электронной почты содержит код конференции, номер телефона конференции по умолчанию для собраний, ПИН-код аудиоконференции для пользователя, а также инструкции и ссылку для использования средства обновления собраний по сети Skype для бизнеса, которое используется для обновления существующих собраний для пользователя. См. Microsoft Teams лицензии на [надстройки](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md) или Назначение Майкрософт в качестве поставщика аудиоконференций. [](/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider)
 
     > [!NOTE]
-    > Если в вашей организации включены динамические ИД конференции, у всех собраний пользователя, которые он запланет, будут уникальные. Вы можете настроить [динамические](/skypeforbusiness/audio-conferencing-in-office-365/reset-a-conference-id-for-a-user)ИД аудиоконференции в своей организации. 
+    > Если в вашей организации включены динамические ИД конференции, у всех собраний пользователя, которые он запланет, будут уникальные. Вы можете настроить [динамические](/skypeforbusiness/audio-conferencing-in-office-365/reset-a-conference-id-for-a-user)ИД аудиоконференции в своей организации.
 
     Вот пример такого сообщения:
 
-     ![Skype для бизнеса Проверить лицензию.](media/teams-emails-sent-to-users-when-settings-change-image1.png)
+     ![Skype для бизнеса проверить лицензию.](media/teams-emails-sent-to-users-when-settings-change-image1.png)
 
     Дополнительные информацию о лицензировании см. в Microsoft Teams [лицензировании надстройки.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 
@@ -58,9 +58,9 @@ ms.locfileid: "60536480"
 - **Пин-код аудиоконференции пользователя сбрасывается.**
 
     Это сообщение электронной почты содержит ПИН-код аудиоконференции организатора, существующий код конференции и телефонный номер конференции по умолчанию для пользователя. См. [сброс ПИН-кода аудиоконференции.](reset-the-audio-conferencing-pin-in-teams.md)
-    
+
      Вот пример такого сообщения:
-    
+
      ![Изменен ПИН-код для телефонной телефонной телефонии.](media/teams-emails-sent-to-users-when-settings-change-image3.png)
   
 - **Лицензия пользователя удаляется либо поставщик аудиоконференций изменяется с Майкрософт на другого поставщика или нет.**
@@ -78,19 +78,19 @@ ms.locfileid: "60536480"
 
 ## <a name="make-changes-to-the-email-messages-that-are-sent-to-them"></a>Внесение изменений в отправленные им сообщения электронной почты
 
-Вы можете вносить изменения в сообщения электронной почты, которые автоматически отправляются пользователям. По умолчанию отправитель сообщений отправляется из Microsoft 365 или Office 365, но вы можете изменить отображаемого имени с помощью Windows PowerShell. Дополнительные сведения см. в Microsoft Teams [PowerShell.](/powershell/module/teams/?view=teams-ps)
+Вы можете вносить изменения в сообщения электронной почты, которые автоматически отправляются пользователям. По умолчанию отправитель сообщений отправляется из Microsoft 365 или Office 365, но вы можете изменить отображаемую Windows PowerShell. Дополнительные сведения см. в Microsoft Teams [PowerShell.](/powershell/module/teams/?view=teams-ps)
 
 ## <a name="what-if-you-dont-want-email-to-be-sent-to-them"></a>Что делать, если вы не хотите, чтобы им отправляли электронную почту?
 
 Если отключить отправку сообщений пользователям, они не будут отправляться, даже если пользователю назначена лицензия. В этом случае код конференции, номер телефона для конференц-связи по умолчанию и, что важнее, ПИН-код аудиоконференции не будут отправлены пользователю. В этом случае вы должны сообщить пользователю, отправив ему отдельное сообщение электронной почты или позвонив ему.
 
-По умолчанию пользователям отправляются сообщения электронной почты, но если вы хотите запретить им получать электронную почту для аудиоконференций, вы можете использовать Microsoft Teams или Windows PowerShell. 
+По умолчанию пользователям отправляются сообщения электронной почты, но если вы хотите запретить им получать электронную почту для аудиоконференций, вы можете использовать Microsoft Teams или Windows PowerShell.
 
- **С помощью Центра администрирования Microsoft Teams**
+### <a name="using-the-microsoft-teams-admin-center"></a>С помощью Центра администрирования Microsoft Teams
 
-1. На панели навигации слева перейдите в раздел **Собрания** > **Мосты конференц-связи**. 
+1. На панели навигации слева перейдите в раздел **Собрания** > **Мосты конференц-связи**.
 
-2. В верхней части страницы **Мосты** конференций щелкните **Параметры моста**. 
+2. В верхней части страницы **Мосты** конференций щелкните **Параметры моста**.
 
 3. В области **Параметры моста** включите или отключите параметр Автоматически отправлять сообщения электронной почты пользователям при изменении параметров телефонного **дозвона.**
 
@@ -99,7 +99,7 @@ ms.locfileid: "60536480"
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
-**Использование Windows PowerShell**
+### <a name="using-windows-powershell"></a>Использование Windows PowerShell
 
 Вы также можете использовать модуль Microsoft Teams PowerShell и выполнить:
 
@@ -113,16 +113,15 @@ Set-CsOnlineDialInConferencingTenantSettings -AutomaticallySendEmailsToUsers $tr
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>Хотите узнать больше о Windows PowerShell?
 
-По умолчанию отправитель сообщений отправляется из Microsoft 365 или Office 365, но вы можете изменить адрес электронной почты и отображаемого имени с помощью Windows PowerShell. 
+По умолчанию отправитель сообщений отправляется из Microsoft 365 или Office 365, но вы можете изменить адрес электронной почты и отображаемого имени с помощью Windows PowerShell.
 
 Windows PowerShell is all about managing users and what users are allowed or not allowed to do. С Windows PowerShell вы можете управлять Microsoft 365 или Office 365 с помощью единого администрирования, который упростит выполнение повседневных задач. Для начала работы с Windows PowerShell ознакомьтесь с приведенными ниже разделами.
 
-  - [Шесть причин использовать Windows PowerShell для управления Office 365](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+- [Шесть причин использовать Windows PowerShell для управления Office 365](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
 
-  - [Лучшие способы управления Office 365 с помощью Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+- [Лучшие способы управления Office 365 с помощью Windows PowerShell](/previous-versions//dn568025(v=technet.10))
 
 Дополнительные сведения о Windows PowerShell см. в [справочнике по Microsoft Teams PowerShell](/powershell/module/teams/?view=teams-ps).
-
 
 ## <a name="related-topics"></a>Связанные разделы
 

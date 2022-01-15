@@ -1,7 +1,7 @@
 ---
 title: Развертывание комнаты Microsoft Teams с Exchange Online
-ms.author: dstrome
-author: dstrome
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -9,18 +9,18 @@ ms.topic: quickstart
 ms.service: msteams
 f1.keywords:
 - NOCSH
-ms.localizationpriority: medium
+localization_priority: Normal
 ms.collection:
 - M365-collaboration
-ms.custom: seo-marvel-apr2020
+ms.custom: ''
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
-description: Дополнительные сведения о развертывании Комнаты Microsoft Teams с Exchange Online и Skype для бизнеса Server локальной основе.
-ms.openlocfilehash: 8f8511f4dd05b6d2eb073aaab0a14305c9d67831
-ms.sourcegitcommit: 1165a74b1d2e79e1a085b01e0e00f7c65483d729
+description: Дополнительные сведения о развертывании Комнаты Microsoft Teams с помощью Exchange Online.
+ms.openlocfilehash: e6eb3253d7edb999ba74d28ef9a6d8ae835ac16d
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2021
-ms.locfileid: "61355638"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055489"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-online"></a>Развертывание комнаты Microsoft Teams с Exchange Online
 
@@ -32,19 +32,18 @@ ms.locfileid: "61355638"
 
 Прежде чем Комнаты Microsoft Teams с Exchange Online, убедитесь, что выполнены требования. Дополнительные сведения см. в Комнаты Microsoft Teams [требованиях.](requirements.md)
   
-Чтобы развернуть Комнаты Microsoft Teams с Exchange Online, выполните следующие действия. Убедитесь в том, что у вас есть необходимые разрешения для выполнения соответствующих командлетов. 
+Чтобы развернуть Комнаты Microsoft Teams с Exchange Online, выполните следующие действия: Убедитесь, что у вас есть права на запуск cmdlets. 
 
    > [!NOTE]
-   >  Модуль Azure Active Directory для [Windows PowerShell](/powershell/azure/active-directory/overview) в этом разделе (например, Set-MsolUser) был протестирован при настройке учетных записей для Комнаты Microsoft Teams устройств. Возможно, другие cmdlets могут работать, но они не были протестированы в этом конкретном сценарии.
+   >  Модуль Azure Active Directory для [Windows PowerShell](/powershell/azure/active-directory/overview?view=azureadps-1.0) в этом разделе (например, Set-MsolUser) был протестирован при настройке учетных записей для Комнаты Microsoft Teams. Возможно, другие cmdlets могут работать, но они не были протестированы в этом конкретном сценарии.
 
 Если вы развернули службы федерации Active Directory (AD FS), вам может потребоваться преобразовать учетную запись пользователя в управляемого пользователя, прежде чем выполнять эти действия, а затем преобразовать пользователя обратно в федератора.
   
 ### <a name="create-an-account-and-set-exchange-properties"></a>Создание учетной записи и настройка свойств Exchange
 
-1. Начните сеанс удаленного Windows PowerShell на компьютере и подключите Exchange Online:
+1. Начните сеанс удаленного Windows PowerShell на компьютере и подключите его к Exchange Online следующим образом:
 
     ``` Powershell
-   Import-Module ExchangeOnlineManagement
    Connect-ExchangeOnline
     ```
 
@@ -59,14 +58,14 @@ ms.locfileid: "61355638"
     Если вы создаете новый почтовый ящик ресурса:
 
    ``` Powershell
-   New-Mailbox -MicrosoftOnlineServicesID 'ConferenceRoom01@contoso.com' -Alias ConferenceRoom01 -Name "Conference Room 01" -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
+   New-Mailbox -MicrosoftOnlineServicesID 'ConferenceRoom01@contoso.com' -Alias ConferenceRoom01 -Name 'ConferenceRoom01' -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
    ```
 
 3. Чтобы улучшить собрание, необходимо настроить свойства Exchange для учетной записи пользователя следующим образом:
 
    ``` Powershell
    Set-CalendarProcessing -Identity 'ConferenceRoom01@contoso.com' -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -AllowConflicts $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false
-   Set-CalendarProcessing -Identity 'ConferenceRoom01@contoso.com' -AddAdditionalResponse $true -AdditionalResponse "This is a Microsoft Teams Meeting room!"
+   Set-CalendarProcessing -Identity 'ConferenceRoom01@contoso.com' -AddAdditionalResponse $true -AdditionalResponse "This is a Microsoft Teams Rooms enabled  room!"
    ```
 
 ### <a name="add-an-email-address-for-your-on-premises-domain-account"></a>Добавление адреса электронной почты для локальной учетной записи домена
@@ -76,41 +75,39 @@ ms.locfileid: "61355638"
 3. Введите пароль учетной записи. Подтвердите пароль. Убедитесь, что выбран только параметр **Срок действия пароля не ограничен**.
 
     > [!NOTE]
-    > Выбор пароля **сроком действия не истекает** — это требование для Skype для бизнеса Server в Комнаты Microsoft Teams. В некоторых случаях пароли с неограниченным сроком действия могут быть запрещены правилами домена. В этом случае необходимо создать исключение для каждой учетной записи Комнаты Microsoft Teams пользователя.
+    > Для **этого необходимо выбрать пароль без** Комнаты Microsoft Teams. В некоторых случаях пароли с неограниченным сроком действия могут быть запрещены правилами домена. В этом случае необходимо создать исключение для каждой учетной записи Комнаты Microsoft Teams пользователя.
   
 4. Чтобы создать учетную запись, нажмите кнопку **Готово**.
-5. После создания учетной записи запустите синхронизацию каталогов. Для этого можно использовать [set-MsolDirSyncConfiguration](/powershell/module/msonline/set-msoldirsyncconfiguration) в PowerShell. После этого перейдите на страницу пользователи и убедитесь, что две учетные записи, созданные на предыдущих шагах, объединены.
+5. После создания учетной записи запустите синхронизацию каталогов. Для этого можно использовать [set-MsolDirSyncConfiguration](/powershell/module/msonline/set-msoldirsyncconfiguration?view=azureadps-1.0) в PowerShell. После этого перейдите на страницу пользователя и убедитесь, что две учетные записи, созданные на предыдущих шагах, объединены.
 
-### <a name="assign-a-microsoft-365-or-office-365-license"></a>Назначение лицензии Microsoft 365 или Office 365 лицензии
+### <a name="assign-an-office-365-license"></a>Назначение лицензии Office 365
 
-1. Сначала подключите Azure AD, чтобы применить некоторые параметры учетной записи. Для подключения можно использовать следующий командлет. Подробные сведения об Active Directory см. в [azure ActiveDirectory (MSOnline) 1.0.](/powershell/azure/active-directory/overview)
+1. Сначала подключите Azure AD, чтобы применить некоторые параметры учетной записи. Для подключения можно использовать следующий командлет. Подробные сведения об Active Directory см. в [azure ActiveDirectory (MSOnline) 1.0.](/powershell/azure/active-directory/overview?view=azureadps-1.0)
 
    > [!NOTE]
-   > [Azure Active Directory PowerShell 2.0](/powershell/azure/active-directory/overview) не поддерживается.
+   > [Azure Active Directory PowerShell 2.0](/powershell/azure/active-directory/overview?view=azureadps-2.0) не поддерживается.
 
     ``` PowerShell
    Connect-MsolService
     ```
-  <!--   ``` Powershell
-     Connect-AzureAD -Credential $cred
-     ``` -->
 
-2. У учетной записи пользователя должна быть действительная Microsoft 365 или Office 365, чтобы Exchange работать. При наличии лицензии вам необходимо назначить учетной записи устройства место использования, которое определяет, какие номера SKU лицензий будут доступны вашей учетной записи. Задание будет выполняться в следующем шаге.
-3. Затем используйте `Get-MsolAccountSku` <!--Get-AzureADSubscribedSku--> , чтобы получить список доступных skUs для вашей Microsoft 365 или Office 365 организации.
-4. Вы можете добавить лицензию с помощью `Set-MsolUserLicense` <!-- Set-AzureADUserLicense--> Командлет. В этом случае применяется Комнаты Microsoft Teams стандартный лицензия. 
+2. Для подключения к Office 365 учетной записи пользователя должна быть действительная Microsoft Teams. При наличии лицензии вам необходимо назначить учетной записи устройства место использования, которое определяет, какие номера SKU лицензий будут доступны вашей учетной записи.
+3. Используйте get-MsolAccountSku, чтобы получить список доступных skus для Office 365 клиента.
+4. После добавления номеров номеров номеров ВК можно добавить лицензию с помощью 'Set-MsolUserLicense'. <!-- Set-AzureADUserLicense--> Командлет. 
 
     ```PowerShell
-    Set-MsolUser -UserPrincipalName 'ConferenceRoom01@contoso.com' -UsageLocation 'US'
-    Get-MsolAccountSku
-    Set-MsolUserLicense -UserPrincipalName 'ConferenceRoom01@contoso.com' -AddLicenses "contoso:MEETING_ROOM"
+     Set-MsolUser -UserPrincipalName 'ConferenceRoom01@contoso.com' -UsageLocation 'US'
+     Get-MsolAccountSku
+     Set-MsolUserLicense -UserPrincipalName 'ConferenceRoom01@contoso.com' -AddLicenses 'contoso:MEETING_ROOM
     ```
-  <!--   ``` Powershell
-     Set-AzureADUserLicense -UserPrincipalName 'PROJECT01@contoso.com' -UsageLocation 'US'
-     Get-AzureADSubscribedSku
-     Set-AzureADUserLicense -UserPrincipalName 'PROJECT01@contoso.com' -AddLicenses $strLicense
-     ``` -->
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="validate"></a>Проверить
+
+Для проверки вы можете войти в созданную учетную запись с помощью Microsoft Teams клиента.
+  
+## <a name="see-also"></a>См. также
+
+[Обновление почтовых ящиков помещений с помощью дополнительных метаданных для улучшения поиска и предложения помещений](/powershell/module/exchange/set-place)
 
 [Настройка учетных записей для Комнаты Microsoft Teams](rooms-configure-accounts.md)
 
