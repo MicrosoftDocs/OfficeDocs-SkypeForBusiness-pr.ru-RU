@@ -19,12 +19,12 @@ description: Практическое руководство по разверт
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1221747b1ad8487c0b5852b6adaf5129b5a5288e
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: e9f10a35e3be27b446fa7f55b5c9d97e3418fe36
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61766772"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62056089"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Запись облачного собрания в Teams
 
@@ -255,17 +255,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 Размер 1-часовой записи составляет 400 МБ. Определите емкость, необходимую для записанных файлов, и убедитесь, что в OneDrive для бизнеса и SharePoint Online достаточно места для хранения.  О базовом объеме, включенном в подписку, и приобретении дополнительного объема читайте в статьях [Настройка стандартного размера хранилища OneDrive для бизнеса](/onedrive/set-default-storage-space) и [Управление ограничениями хранилища для сайтов SharePoint Online](/sharepoint/manage-site-collection-storage-limits).
 
  <a name="auto-expiration"></a>
-### <a name="auto-expiration-of-teams-meeting-recordings"></a>Автоматическое окончание срока действия записей собраний Teams: 
-
-> [!IMPORTANT]
->
-> Функция автоматического окончания срока действия, рассмотренная в этой статье, еще не запущена. Дополнительные сведения о дате поставки см. в [дорожной карте (ИД функции: 84580)](https://www.microsoft.com/microsoft-365/roadmap?searchterms=82057&filters=&searchterms=84580).
-> 
-> Мы предоставляем сведения о том, как эта функция будет работать в будущем, чтобы вы могли заранее спланировать это изменение и изменить параметры политики Teams.
->
-> Команда предварительного изменения параметра срока действия по умолчанию в Teams в настоящее время развертывается, но вы можете увидеть атрибут в PowerShell. В настоящее время этот параметр недоступен в Центрах администрирования Teams. Эти параметры станут доступны (с публикацией в центре сообщений соответствующей записи) не менее чем за 30 дней до запуска функции.
->
->
+### <a name="auto-expiration-of-teams-meeting-recordings"></a>Автоматическое окончание срока действия записей собраний Teams
 
 Дополнительные сведения об изменениях, касающихся администратора, можно получить [здесь](meeting-expiration.md#changes-to-meeting-expiration).
 
