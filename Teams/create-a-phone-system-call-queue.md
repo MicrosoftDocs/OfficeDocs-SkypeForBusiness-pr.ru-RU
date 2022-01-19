@@ -21,15 +21,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
-- Phone System
-- seo-marvel-apr2020
+- Phone System - seo-marvel-apr2020
 description: Узнайте, как настроить очереди вызовов для крупных организаций в Microsoft Teams, которая предоставляет приветствие, музыку, перенаправление звонка и другие функции.
-ms.openlocfilehash: ab5a99802ea9170ece7c1cd8d043b84c2cee452d
-ms.sourcegitcommit: c7904086e6956ad8d0e5544530bcc90d608b6e6a
+ms.openlocfilehash: c1f1ade144b416668c1512472adfee4a88afb780
+ms.sourcegitcommit: 268660f101609852f02f3f9d1a8436f2a99dade7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "62039902"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "62070977"
 ---
 # <a name="create-a-call-queue"></a>Создание очереди вызовов
 
@@ -58,7 +57,7 @@ ms.locfileid: "62039902"
 
 ## <a name="create-the-call-queue"></a>Создание очереди вызовов
 
-Чтобы настроить очередь вызовов, в Центре администрирования Teams разметка голосовой почты **,** щелкните Очереди вызовов **и** нажмите кнопку **Добавить**.
+Чтобы настроить очередь вызовов, в Центре администрирования Teams раз нажмите кнопку Очереди вызовов и выберите **добавить**. 
 
 Введите имя очереди вызовов.
 
@@ -68,7 +67,7 @@ ms.locfileid: "62039902"
 
 Нажмите **кнопку Добавить учетные** записи , найдите учетную запись ресурса, которую вы хотите использовать с этой очередью вызовов, нажмите кнопку Добавить **и** выберите **добавить**. (Агенты увидят имя учетной записи ресурса, когда получат входящий звонок.)
 
-Дополнительные сведения см. в Teams [учетных записей](manage-resource-accounts.md) ресурсов.
+Дополнительные сведения см. в [Teams учетных записей ресурсов.](manage-resource-accounts.md)
 
 ### <a name="assign-calling-id"></a>Назначение ИД звонка
 
@@ -78,10 +77,10 @@ ms.locfileid: "62039902"
 
 Нажмите **кнопку** Добавить , найдите учетные записи ресурсов, к которые вы хотите разрешить агентам при звонках по ИД при исходящем звонке, нажмите кнопку **Добавить,** а затем нажмите кнопку **Добавить.**
 
-Если вы не используете канал Teams для управления членством в агентах, можно непосредственно настроить для участников очереди вызовов номер службы очереди вызовов или для соответствующего автозавода. Дополнительные [сведения см.](caller-id-policies.md) в Microsoft Teams управление политиками ИД звоня.
+Если вы не используете канал Teams для управления членством в агентах, можно непосредственно настроить для участников очереди параметров звонка номер службы очереди вызовов или соответствующий автослужб. Дополнительные сведения см. в [этой](caller-id-policies.md)Microsoft Teams.
 
 > [!NOTE]
-> Учетная запись ресурса, используемая для звонков, должна иметь лицензию виртуального пользователя Microsoft 365 телефонная система и одну из следующих лицензий:
+> Учетная запись ресурса, используемая для звонков, должна иметь лицензию виртуального пользователя Microsoft Teams телефонная система и одну из следующих лицензий:
 >
 > - Лицензия на план звонков и номер телефона, который назначен
 > - Номер Подключение оператора
@@ -100,10 +99,10 @@ ms.locfileid: "62039902"
 
 Укажите, хотите ли вы воспроизведения приветствия для вызывающих людей при их поступления в очередь. Необходимо отправить файл MP3, WAV или WMA, содержащий приветствие, которое вы хотите воспроизведения. Размер загруженной записи не должен быть больше 5 МБ.
 
-Teams предоставляет вызывателям музыку по умолчанию, когда они находятся на удержании в очереди. По умолчанию музыка, которая поставляется Teams очередях вызовов, не предоставляется вашей организацией. Если вы хотите воспроизведения определенного  звукового файла, выберите Вариант воспроизведения звукового файла и загрузите файл MP3, WAV или WMA.
+Teams предоставляет вызывателям музыку по умолчанию, когда они находятся на удержании в очереди. Музыка по умолчанию, которая поставляется Teams очередях вызовов, не предоставляется вашей организацией. Если вы хотите воспроизведения определенного  звукового файла, выберите Вариант воспроизведения звукового файла и загрузите файл MP3, WAV или WMA.
 
 > [!NOTE]
-> Вы несете ответственность за независимое очистку и обеспечение всех необходимых прав и разрешений на использование музыки или звуковых файлов в службе Microsoft Teams, которые могут включать интеллектуальную собственность и другие права в музыку, звуковые эффекты, звуковые эффекты, названия, имена и другое содержимое звукового файла от всех соответствующих владельцев прав, которые могут включать исполнителей, субъектов,  исполнителей, авторов, владельцев, редакторов, меток записей, издателей музыки, союзов, прав, авторов прав, организаций, которые являются их владельцем, контролируют или лицензируют музыкальные авторские права, звуковые эффекты, звуковые и другие права на интеллектуальную собственность.
+> Вы несете ответственность за независимое очистку и обеспечение всех необходимых прав и разрешений на использование музыки или звуковых файлов в службе Microsoft Teams, которые могут включать интеллектуальную собственность и другие права музыки, звуковых эффектов, звуковых эффектов, названий, имен и другого содержимого в звуковом файле от всех соответствующих владельцев прав, которые могут включать исполнителей, субъектов,  исполнителей, авторов, владельцев, редакторов, меток записей, издателей музыки, союзов, прав, авторов прав, организаций, которые являются их владельцем, контролируют или лицензируют музыкальные авторские права, звуковые эффекты, звуковые и другие права на интеллектуальную собственность.
 
 ## <a name="call-agents"></a>Агенты вызовов
 
@@ -113,9 +112,9 @@ Teams предоставляет вызывателям музыку по умо
 
 ##### <a name="teams-channel"></a>Teams канале
 
-Вы можете добавить до 200 агентов через Teams канале. Обратите внимание, что для добавления канала в очередь необходимо быть участником команды, создателем или владельцем канала.
+Вы можете добавить до 200 агентов через Teams канале. Для добавления канала в очередь необходимо быть участником команды, создателем или владельцем канала.
 
-Если вы хотите использовать [канал Teams](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e)для управления очередью, выберите команду Выбрать команду и нажмите кнопку **Добавить канал**.  Найдите команду, которую хотите использовать, выберите ее и нажмите кнопку **Добавить.** Выберите нужный канал (поддерживаются только стандартные каналы) и нажмите кнопку **Применить**. 
+Если вы хотите использовать [канал Teams для](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e)управления очередью, выберите команду Выбрать команду и нажмите кнопку Добавить **канал**.  Найдите команду, которую хотите использовать, выберите ее и нажмите кнопку **Добавить.** Выберите нужный канал (поддерживаются только стандартные каналы) и нажмите кнопку **Применить**. 
 
 При использовании канала Teams для очередей вызовов поддерживаются следующие клиенты: 
 
@@ -144,7 +143,7 @@ Teams предоставляет вызывателям музыку по умо
 
 **Режим конференции** значительно сокращает время, необходимое для связи звоняного с агентом, после того как агент принимает звонок. Чтобы режим конференции работал, агенты из очереди зовов должны использовать один из следующих клиентов:
 
-  - Последняя версия клиента Microsoft Teams, приложения для Android или приложения для iOS
+  - Последняя версия клиента Microsoft Teams, приложения Для Android или iOS
   - Microsoft Teams Телефон версии 1449/1.0.94.2020051601 или более поздней
   
 Для Teams агентов необходимо установить режим Teams только для агентов. Агенты, не отвечающие требованиям, не включаются в список маршрутов зовов. Мы рекомендуем использовать режим конференции для очередей вызовов, если все ваши агенты используют совместимые клиенты.
@@ -202,7 +201,7 @@ Teams предоставляет вызывателям музыку по умо
 
 **Максимальное число звонков** в очереди определяет максимальное количество звонков, которые могут быть в очереди в любое время. Значение по умолчанию — 50, но может быть от 0 до 200. Когда достигается это ограничение, звонок обрабатывается в том случае, если установлено максимальное количество **звонков.**
 
-Вы можете отключить звонок или перенаправить его в любую из маршрутизов. Например, вы можете оставить голосовое сообщение для агентов в очереди. Сведения о внешних [](plan-auto-attendant-call-queue.md#prerequisites) переводах: [](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details) технические сведения о формате номеров.
+Вы можете отключить звонок или перенаправить его в любую из маршрутизов. Например, вы можете оставить голосовое сообщение для агентов в очереди. Сведения о внешних переводах см. в сведениях о предварительных и внешних передачах номеров [](plan-auto-attendant-call-queue.md#prerequisites) [телефонов — технические](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details) сведения о формате номеров.
 
 > [!NOTE]
 > Если максимальное количество звонков — 0, приветствие не будет воспроизведения.
@@ -239,24 +238,67 @@ Teams предоставляет вызывателям музыку по умо
   - Клиент iPad Skype для бизнеса (версия 6.16.0 и более поздние)
   - Microsoft Teams Windows (32- и 64-битные версии)
   - Клиент Microsoft Teams Mac
-  - Microsoft Teams в [инфраструктуре виртуальных](/microsoftteams/teams-for-vdi) рабочих Windows (виртуальный рабочий стол, Citrix и VMWARE)
+  - Microsoft Teams в инфраструктуре [виртуальных](/microsoftteams/teams-for-vdi) рабочих Windows (виртуальный рабочий стол, Citrix и VMWARE)
   - Microsoft Teams iPhone приложение
   - Microsoft Teams android
 
     > [!NOTE]
-    > Очереди вызовов, которые назначены прямому маршруту, не поддерживают Skype для бизнеса клиентов, клиентов Lync и Skype для бизнеса IP-телефонов в качестве агентов. Клиент Teams поддерживается только в режиме Teams [.](/microsoftteams/setting-your-coexistence-and-upgrade-settings)
+    > Очереди вызовов, которые назначены прямому маршруту, не поддерживают Skype для бизнеса, клиентов Lync и IP-телефонов Skype для бизнеса в качестве агентов. Клиент Teams поддерживается только в режиме Teams [.](/microsoftteams/setting-your-coexistence-and-upgrade-settings)
 
 ## <a name="call-queue-cmdlets"></a>Командлеты для работы с очередями звонков
 
-Для создания и настройки очередей звонков также можно использовать Windows PowerShell. Ниже 2016 2010:
+Windows PowerShell позволяет создавать очереди вызовов и управлять ими с помощью командной строки пакетным или программным способом.
 
-- [New-CsCallQueue](/powershell/module/skype/new-CsCallQueue)
+Управление очередью вызовов можно управлять следующими cmdlets:
 
-- [Set-CsCallQueue](/powershell/module/skype/set-CsCallQueue)
+- [New-CsCallQueue](/powershell/module/skype/New-CsCallQueue)
+- [Get-CsCallQueue](/powershell/module/skype/Get-CsCallQueue)
+- [Set-CsCallQueue](/powershell/module/skype/Set-CsCallQueue)
+- [Remove-CsCallQueue](/powershell/module/skype/Remove-CsCallQueue)
 
-- [Get-CsCallQueue](/powershell/module/skype/get-CsCallQueue)
+Для управления пользователями, учетными записями ресурсов, лицензиями на Microsoft Teams Телефон, номерами телефонов, звуковые файлы и поддерживаемым языком, который будет использоваться с очередями звонков, также требуются следующие дополнительные cmdlets:
 
-- [Remove-CsCallQueue](/powershell/module/skype/remove-CsCallQueue)
+Пользователи и Teams
+
+- Пользователи
+- - [Get-CsOnlineUser](/powershell/module/skype/Get-CsOnlineUser)
+
+- Teams: 
+- - [Get-Team](/powershell/module/teams/Get-Team)
+- - [Get-TeamChannel](/powershell/module/teams/Get-TeamChannel)
+
+Учетные записи ресурсов:
+
+- [New-CsOnlineApplicationInstance](/powershell/module/skype/New-CsOnlineApplicationInstance)
+- [Find-CsOnlineApplicationInstance](/powershell/module/skype/Find-CsOnlineApplicationInstance)
+- [Get-CsOnlineApplicationInstance](/powershell/module/skype/Get-CsOnlineApplicationInstance)
+- [Set-CsOnlineApplicationInstance](/powershell/module/skype/Set-CsOnlineApplicationInstance)
+
+- [New-CsOnlineApplicationInstanceAssociation](/powershell/module/skype/New-CsOnlineApplicationInstanceAssociation)
+- [Get-CsOnlineApplicationInstanceAssociation](/powershell/module/skype/Get-CsOnlineApplicationInstanceAssociation)
+- [Get-CsOnlineApplicationInstanceAssociationStatus](/powershell/module/skype/Get-CsOnlineApplicationInstanceAssociationStatus)
+- [Remove-CsOnlineApplicationInstanceAssociation](/powershell/module/skype/Remove-CsOnlineApplicationInstanceAssociation)
+
+Лицензии Teams Телефон виртуальных лицензий:
+
+- [Set-MsolUserLicense](/powershell/module/skype/Set-MsolUserLicense)
+
+Телефон назначение номера:
+
+- [Set-CsOnlineVoiceApplicationInstance](/powershell/module/skype/Set-CsOnlineVoiceApplicationInstance)
+
+Звуковые файлы
+
+- [Get-CsOnlineAudioFile](/powershell/module/skype/Get-CsOnlineAudioFile)
+- [Import-CsOnlineAudioFile](/powershell/module/skype/Import-CsOnlineAudioFile)
+- [Export-CsOnlineAudioFile](/powershell/module/skype/Export-CsOnlineAudioFile)
+- [Remove-CsOnlineAudioFile](/powershell/module/skype/Remove-CsOnlineAudioFile)
+
+Списки языков поддержки
+
+- [Get-CsAutoAttendantSupportedLanguage](/powershell/module/skype/Get-CsAutoAttendantSupportedLanguage)
+
+Пошаговые руководства по созданию очередей вызовов с помощью PowerShell см. в руководстве По созданию очередей вызовов с помощью [powerShell.](create-a-phone-system-call-queue-via-cmdlets.md)
 
 ## <a name="call-queue-diagnostic-tool"></a>Средство диагностики очереди вызовов
 
@@ -278,7 +320,3 @@ Teams предоставляет вызывателям музыку по умо
 [Получение служебных номеров телефонов](getting-service-phone-numbers.md)
 
 [Доступность аудиоконференций и тарифных планов в различных странах и регионах](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-
-[New-CsOnlineApplicationInstance](/powershell/module/skype/new-csonlineapplicationinstance)
-
-[Введение в Windows PowerShell и Skype для бизнеса Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)

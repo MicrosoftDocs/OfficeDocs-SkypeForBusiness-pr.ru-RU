@@ -15,20 +15,20 @@ ms.collection:
 - M365-collaboration
 description: Узнайте о требованиях к поддержке Комнаты Microsoft Teams, включая выбор соответствующего устройства, микрофонов, динамиков, камер и дисплеев.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 56ca188db185e16aa2d85aa88d4e0c00fa4e3d8c
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: 83e4984ea9cdb689310ec673134b9831bb0c0f00
+ms.sourcegitcommit: 268660f101609852f02f3f9d1a8436f2a99dade7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61767362"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "62070927"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Требования к комнатам Microsoft Teams
 
-Комнаты Microsoft Teams разного размера комнаты. Комнаты Teams использовать широкий спектр сертифицированных периферийных устройств для аудио- и видеосвязи в зависимости от размера и использования комнаты. Выбрав нужное основное устройство и консоль в сочетании с микрофонами, динамиками, камерами и мониторами, вы можете развернуть Комнаты Microsoft Teams на любых пространствах любого размера от небольших мест для конференц-связи до больших конференц-залов и конференц-залов.  Полный набор доступных сертифицированных периферийных аудио и видео устройств, которые можно использовать для настройки комнаты, см. в статье [Демонстрация устройств](https://products.office.com/microsoft-teams/across-devices).
+Комнаты Microsoft Teams разного размера комнаты. Комнаты Teams использовать широкий спектр сертифицированных периферийных устройств для аудио- и видеосвязи в зависимости от размера и использования комнаты. Выбрав нужное основное устройство и консоль в сочетании с микрофонами, динамиками, камерами и мониторами, вы можете развернуть Комнаты Microsoft Teams на пространствах любого размера от небольших мест для конференц-связи до больших конференц-залов и конференц-залов.  Полный набор доступных сертифицированных периферийных аудио и видео устройств, которые можно использовать для настройки комнаты, см. в статье [Демонстрация устройств](https://products.office.com/microsoft-teams/across-devices).
 
 В этой статье представлены общие требования к развертыванию и конфигурации устройств для поддержки комнат Microsoft Teams.
 
-Развертывание включает создание и настройку учетных записей Комнаты Teams, как описано в [Комнаты Microsoft Teams.](rooms-deploy.md)
+Развертывание включает создание и настройку учетных записей Комнаты Teams ресурсов, как описано в [Комнаты Microsoft Teams.](rooms-deploy.md)
 
 Обратитесь к:
 
@@ -37,7 +37,7 @@ ms.locfileid: "61767362"
 > [!NOTE]
 > Комнаты Microsoft Teams войти в Microsoft Teams, Skype для бизнеса Server 2019 или Skype для бизнеса Server 2015, и может присоединиться к собраниям, которые будут проводиться в любой из этих служб.
 >
-> Такие приложения, как Lync Server 2013, не поддерживаются в Комнатах Microsoft Teams. Комнаты Microsoft Teams не поддерживается в Microsoft 365 или Office 365 под управлением 21Vianet или doD.
+> Такие приложения, как Lync Server 2013, не поддерживаются в Комнатах Microsoft Teams. Комнаты Microsoft Teams не поддерживается в Microsoft 365 или Office 365 под управлением 21Vianet или среды DoD.
 >
 > Если вы используете локальный Exchange server, в комнатах Microsoft Teams необходимо использовать Exchange Server 2013 SP1 или более позднюю версию.
 
@@ -131,7 +131,7 @@ ms.locfileid: "61767362"
 |[Aver CAM 130](https://www.averusa.com/products/conference-camera/cam130) |0.0.7450.02 | &#x2714; |
 |[Aver VB130 Camera Soundbar](https://www.averusa.com/products/conference-camera/vb130) |0.0.7300.71 |
 |[Bose Video Bar VB1](https://pro.bose.com/en_us/products/conferencing/videobars/bose-videobar-vb1.html?mc=25_PS_VB_BO_00_BI_&&msclkid=fc99b79880f714727a63e86ea0e5642a&utm_source=bing&utm_medium=cpc&utm_campaign=US%20-%20Brand_Videobar%20VB1_Exact&utm_term=bose%20videobar%20vb1&utm_content=Bose%20Videobar%20VB1&gclid=fc99b79880f714727a63e86ea0e5642a&gclsrc=3p.ds) |19.2|
-|[Vio Devio SCR-20CX Web-Based Conferencing Hub с микрофоном окверха](https://www.biamp.com/products/product-families/devio/huddle-room-solutions) |2.2.0.9|
+|[Vio Devio SCR-20CX Web-Based Conferencing Hub с микрофоном повергания](https://www.biamp.com/products/product-families/devio/huddle-room-solutions) |2.2.0.9|
 |[Vio Devio SCR-20TX Web-Based Conferencing Hub с настольным микрофоном](https://www.biamp.com/products/product-families/devio/huddle-room-solutions) |2.2.0.9 |
 |[Crestron Huddly IQ](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/CCS-CAM-USB-F-400)   | 1.02.09.33901  | 
 |[Huddly Canvas](https://www.huddly.com/blog/say-hello-to-huddly-canvas-our-latest-ai-technology-for-content-capture-and-enhancement/) | 1.3.25 |  &#x2714; |
@@ -172,7 +172,7 @@ ms.locfileid: "61767362"
 |[EPOS SP30T](https://www.eposaudio.com/en/us/enterprise/products/sp-30t-b949fe9a-bluetooth-speakerphone-1000225)  |3.2.63  |
 |[EPOS Expand 80T + 2 Extension Mics](https://www.eposaudio.com/en/us/enterprise/products/expand-80t-bluetooth-speakerphone-1000203) |Динамик ( 4.6.55) <br/> Расширение микрофона — 0.2.314|
 |[EpOS Expand Capture 5](https://www.eposaudio.com/en/us/enterprise/products/expand-capture-5-speakerphone-1000895)  |1.0.1|
-|[Exпис DMP128 PLUS C V AT DSP System (DMP 128 Plus C V AT, DMP 128 Plus C AT, DMP 128 Plus C V, DMP 128 Plus C, DMP 128 Plus AT, DMP 128 Plus AT, DMP 128 Plus)](https://www.extron.com/product/dmp128plus) | 1.08 |
+|[Exпис DMP128 PLUS C V AT DSP System (DMP 128 Plus C V AT, DMP 128 Plus C AT, DMP 128 Plus C V, DMP 128 Plus C, DMP 128 Plus AT, DMP 128 Plus, DMP 128Plus C AT, DMP 128](https://www.extron.com/product/dmp128plus) | 1.08 |
 |[Jabra 510](http://www.jabra.com/support/Jabra-SPEAK&trade;-510_7510-209)   |2.10.0   |
 |[Jabra 710](http://www.jabra.com/business/speakerphones/jabra-speak-series/jabra-speak-710)   |1.8.0   |
 |[Jabra 810](http://www.jabra.com/supportpages/jabra-speak-810)   |1.2.23   |

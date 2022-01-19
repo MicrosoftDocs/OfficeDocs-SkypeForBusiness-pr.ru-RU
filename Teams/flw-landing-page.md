@@ -14,12 +14,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b7f4a31a5482c3649a21e99fe5c82adc4cae6a68
-ms.sourcegitcommit: 45756a51857ed1d8714175d2b715c388e2f0db81
+ms.openlocfilehash: ddcad10c08edbbd6010d5c1c576e4142a1a83383
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "62027923"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055369"
 ---
 # <a name="get-started-with-teams-for-frontline-workers"></a>Начало работы с Teams для сотрудников без компьютеров
 
@@ -27,12 +27,13 @@ ms.locfileid: "62027923"
 
 [Microsoft 365 для сотрудников без компьютеров](https://www.microsoft.com/microsoft-365/enterprise/frontline) оптимизирован для мобильных рабочих ресурсов, которые в основном взаимодействуют с клиентами, но также должны оставаться на связи с остальными сотрудниками вашей организации. Узнайте больше о [вариантах лицензирования для сотрудников без компьютеров](flw-licensing-options.md), а также о типах лицензий, которые следует использовать для разных типов пользователей в организации.
 
-Содержание: 
+Содержание:
 
-- [Быстрое начало: сотрудник без компьютера в Microsoft Teams](flw-quickstart.yml)
+- [Краткая инструкция. Teams для сотрудников без компьютеров](flw-quickstart.yml)
 - [Использование мастера подключения сотрудника без компьютера для подготовки персонала без компьютеров](flw-onboarding-wizard.md)
 - [Как подготовить Teams в масштабе для сотрудников без компьютеров](flw-scripted-deployment.md)
 - [Пакеты политик для сотрудников без компьютеров и руководителей](manage-policy-packages.md)
+- [Настройка приложений Teams для сотрудников без компьютеров](pin-teams-apps-based-on-license.md) (ожидается в ближайшее время)
 - Приложения от Майкрософт для сотрудников без компьютеров:
   - [Смены](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
   - [Задачи](manage-tasks-app.md)
@@ -40,4 +41,4 @@ ms.locfileid: "62027923"
   - [Списки](manage-lists-app.md)
   - [Благодарность](manage-praise-app.md)
   - [Рация](walkie-talkie.md)
-  - [RealWear для Teams](flw-realwear.md)
+- [RealWear для Teams](flw-realwear.md)
