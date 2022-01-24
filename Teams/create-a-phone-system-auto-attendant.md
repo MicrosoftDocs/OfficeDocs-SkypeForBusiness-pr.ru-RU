@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Узнайте, как настраивать и тестировать автосекретарей для крупных организаций в Microsoft Teams.
-ms.openlocfilehash: 407d548a58240cb66cecabce01129fc3a7c270ca
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: 834ca1b68e64047c6405c2aefba361e0ef4f1e81
+ms.sourcegitcommit: bc686eedb37e565148d0c7a61ffa865aaca37d20
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61767142"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62180962"
 ---
 # <a name="set-up-an-auto-attendant"></a>Настройка автосекретаря
 
@@ -228,38 +228,88 @@ ms.locfileid: "61767142"
 
 - Для учетной записи ресурса [](operator-connect-plan.md) с лицензией на план звонков или номером Подключение оператора необходимо вводить номер внешнего переносного телефона в формате E.164 (+[код страны][код города][номер телефона]). [](calling-plans-for-office-365.md)
 
-- Для учетной записи ресурса с лицензией на телефонную систему и политикой прямой маршрутизации голосовой связи по сети формат номера телефона для внешней передачи зависит от параметров [пограничного контроллера сеансов (SBC)](direct-routing-connect-the-sbc.md).
+- Для учетной записи ресурса с лицензией Microsoft Teams Телефон и политикой прямой маршрутистики в Интернете формат номера внешнего переносимого телефона зависит от параметров [SBC.](direct-routing-connect-the-sbc.md)
 
 Отображаемый исходящий номер телефона определяется следующим образом.
 
-  - Для номеров Подключение и операторов звонков отображается исходный номер телефона звоня.
+  - Для номеров Подключение и оператора звонков отображается исходный номер телефона звоня.
   - Для номеров прямой маршрутизации отправляемый номер основан на параметре P-Asserted-Identity (PAI) в SBC следующим образом:
     - Если установлено значение "Отключено", отображается исходный номер телефона звонящего абонента. Это параметр по умолчанию (рекомендуемый).
     - Если установлено значение "Включено", отображается номер телефона учетной записи ресурса.
 
 В гибридной среде Skype для бизнеса для передачи звонка автосекретаря в ТСОП создайте нового локального пользователя с переадресацией звонков на номер ТСОП. Для пользователя должна быть включена корпоративная голосовая связь и назначена политика голосовой связи. Дополнительные сведения см. в разделе [Передача звонка автосекретаря в ТСОП](/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support#auto-attendant-call-transfer-to-pstn).
 
-### <a name="create-an-auto-attendant-with-powershell"></a>Создание автосекретаря с помощью PowerShell
+## <a name="auto-attendant-cmdlets"></a>Командлеты для работы с автосекретарями
 
-Вы также можете использовать PowerShell для создания и настройки автосекретарей. Далее перечислены командлеты, необходимые для управления автосекретарем:
+Windows PowerShell позволяет создавать автоотправки и управлять ими с помощью командной строки пакетным или программным способом.
+
+Для управления автозаправщиками можно использовать следующие cmdlets:
 
 - [New-CsAutoAttendant](/powershell/module/skype/new-csautoattendant)  
-- [Set-CsAutoAttendant](/powershell/module/skype/set-csautoattendant)
 - [Get-CsAutoAttendant](/powershell/module/skype/get-csautoattendant)
-- [Get-CsAutoAttendantHolidays](/powershell/module/skype/get-csautoattendantholidays)
+- [Set-CsAutoAttendant](/powershell/module/skype/set-csautoattendant)
+- [Update-CsAutoAttendant](/powershell/module/skype/update-csautoattendant)
 - [Remove-CsAutoAttendant](/powershell/module/skype/remove-csautoattendant)
-- [New-CsAutoAttendantMenu](/powershell/module/skype/new-csautoattendantmenu)
-- [New-CsOnlineAudioFile](/powershell/module/skype/new-CsOnlineAudioFile)
-- [New-CsAutoAttendantCallFlow](/powershell/module/skype/New-CsAutoAttendantCallFlow)
-- [Export-CsAutoAttendantHolidays](/powershell/module/skype/export-csorganizationalautoattendantholidays)
 - [New-CsOnlineTimeRange](/powershell/module/skype/new-csonlinetimerange)
 - [New-CsOnlineDateTimeRange](/powershell/module/skype/new-csonlinedatetimerange)
 - [New-CsOnlineSchedule](/powershell/module/skype/New-CsOnlineSchedule)
-- [Get-CsAutoAttendantSupportedTimeZone](/powershell/module/skype/Get-CsAutoAttendantSupportedTimeZone)
-- [New-CsAutoAttendantCallHandlingAssociation](/powershell/module/skype/New-CsAutoAttendantCallHandlingAssociation)
-- [Get-CsAutoAttendantSupportedLanguage](/powershell/module/skype/Get-CsAutoAttendantSupportedLanguage)
+- [Get-CsAutoAttendantHolidays](/powershell/module/skype/get-csautoattendantholidays)
 - [Import-CsAutoAttendantHolidays](/powershell/module/skype/import-csautoattendantholidays)
+- [Export-CsAutoAttendantHolidays](/powershell/module/skype/export-csautoattendantholidays)
+- [New-CsAutoAttendantDialScope](/powershell/module/skype/New-CsAutoAttendantDialScope)
+- [New-CsAutoAttendantPrompt](/powershell/module/skype/New-CsAutoAttendantPrompt)
 - [New-CsAutoAttendantCallableEntity](/powershell/module/skype/New-CsAutoAttendantCallableEntity)
+- [New-CsAutoAttendantMenuOption](/powershell/module/skype/New-CsAutoAttendantMenuOption)
+- [New-CsAutoAttendantMenu](/powershell/module/skype/new-csautoattendantmenu)
+- [New-CsAutoAttendantCallFlow](/powershell/module/skype/New-CsAutoAttendantCallFlow)
+- [New-CsAutoAttendantCallHandlingAssociation](/powershell/module/skype/New-CsAutoAttendantCallHandlingAssociation)
+- [Get-CsAutoAttendantStatus](/powershell/module/skype/Get-CsAutoAttendantStatus)
+- [Get-CsAutoAttendantTenantInformation](/powershell/module/skype/Get-CsAutoAttendantTenantInformation)
+
+Для управления пользователями, учетными записями ресурсов, лицензиями на Microsoft Teams Телефон, номерами телефонов, звуковые файлы и поддерживаемым языком, который будет использоваться с очередями звонков, также необходимы следующие дополнительные cmdlets:
+
+Пользователи и Teams
+
+- Пользователи
+- - [Get-CsOnlineUser](/powershell/module/skype/Get-CsOnlineUser)
+
+- Teams: 
+- - [Get-Team](/powershell/module/teams/Get-Team)
+
+Учетные записи ресурсов:
+
+- [New-CsOnlineApplicationInstance](/powershell/module/skype/New-CsOnlineApplicationInstance)
+- [Find-CsOnlineApplicationInstance](/powershell/module/skype/Find-CsOnlineApplicationInstance)
+- [Get-CsOnlineApplicationInstance](/powershell/module/skype/Get-CsOnlineApplicationInstance)
+- [Set-CsOnlineApplicationInstance](/powershell/module/skype/Set-CsOnlineApplicationInstance)
+- [New-CsOnlineApplicationInstanceAssociation](/powershell/module/skype/New-CsOnlineApplicationInstanceAssociation)
+- [Get-CsOnlineApplicationInstanceAssociation](/powershell/module/skype/Get-CsOnlineApplicationInstanceAssociation)
+- [Remove-CsOnlineApplicationInstanceAssociation](/powershell/module/skype/Remove-CsOnlineApplicationInstanceAssociation)
+- [Get-CsOnlineApplicationInstanceAssociationStatus](/powershell/module/skype/Get-CsOnlineApplicationInstanceAssociationStatus)
+
+Лицензии Teams Телефон виртуальных лицензий:
+
+- [Get-MsolAccountSku](/powershell/module/msonline/get-msolaccountsku)
+- [Set-MsolUserLicense](/powershell/module/msonline/set-msoluserlicense)
+
+Телефон номеров:
+
+- [Get-CsOnlineTelephoneNumber](/powershell/module/skype/Get-CsOnlineTelephoneNumber)
+- [Set-CsPhoneNumberAssignment](/powershell/module/teams/Set-CsPhoneNumberAssignment)
+
+Звуковые файлы
+
+- [Get-CsOnlineAudioFile](/powershell/module/skype/Get-CsOnlineAudioFile)
+- [Import-CsOnlineAudioFile](/powershell/module/skype/Import-CsOnlineAudioFile)
+- [Export-CsOnlineAudioFile](/powershell/module/skype/Export-CsOnlineAudioFile)
+- [Remove-CsOnlineAudioFile](/powershell/module/skype/Remove-CsOnlineAudioFile)
+
+Поддержка языков и часовых поясов
+
+- [Get-CsAutoAttendantSupportedLanguage](/powershell/module/skype/Get-CsAutoAttendantSupportedLanguage)
+- [Get-CsAutoAttendantSupportedTimeZone](/powershell/module/skype/Get-CsAutoAttendantSupportedTimeZone)
+
+Пошаговые руководства по созданию автоотводников с помощью PowerShell см. в руководстве По созданию автоотводников с помощью [powerShell.](create-a-phone-system-auto-attendant-via-cmdlets.md)
 
 ## <a name="auto-attendant-diagnostic-tool"></a>Средство диагностики автоотвода
 

@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: В этой статье вы узнаете, как назначить или изменить местоположение для экстренного ситуация для пользователей в организации.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: efe6b81961a4f7ca4eeb39e3f10b0c117cba7d6e
-ms.sourcegitcommit: 197debacdcd1f7902f6e16940ef9bec8b07641af
+ms.openlocfilehash: 004635be112bb8d38b88277e89c24d263b21ec37
+ms.sourcegitcommit: bc686eedb37e565148d0c7a61ffa865aaca37d20
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "60634908"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62180902"
 ---
 # <a name="assign-or-change-an-emergency-location-for-a-user"></a>Назначение или изменение расположения для экстренного реагирования для пользователя
 
@@ -33,7 +33,7 @@ ms.locfileid: "60634908"
 
 В этой статье описано, как назначить или изменить местоположение для экстренного ситуация для пользователя. 
 
-Эта статья относится к планам звонков и Подключение.
+Эта статья относится к планам звонков и операторам Подключение.
   
 Вы можете назначить или изменить местоположение для экстренного ситуация для пользователя в центре Microsoft Teams или с помощью PowerShell.
 
@@ -55,7 +55,7 @@ ms.locfileid: "60634908"
 
 ## <a name="using-powershell"></a>С помощью PowerShell
 
-См. [set-CsOnlineVoiceUser.](/powershell/module/skype/set-csonlinevoiceuser) 
+См. [set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment). 
 
     
 ## <a name="related-topics"></a>Статьи по теме
@@ -64,5 +64,5 @@ ms.locfileid: "60634908"
 - [Добавление, изменение и удаление расположения для экстренного реагирования для организации](add-change-remove-emergency-location-organization.md)
 - [Назначение или изменение места для расположения для экстренного реагирования для пользователя](assign-change-emergency-place-user.md)
 - [Добавление, изменение и удаление места для расположения для экстренного реагирования для организации](add-change-remove-emergency-place-organization.md)
-- [Управление номерами телефонов организации](/microsoftteams/manage-phone-numbers-for-your-organization)
+- [Управление номерами телефонов для организации](/microsoftteams/manage-phone-numbers-for-your-organization)
 - [Условия и положения, распространяющиеся на экстренные вызовы](./emergency-calling-terms-and-conditions.md)
