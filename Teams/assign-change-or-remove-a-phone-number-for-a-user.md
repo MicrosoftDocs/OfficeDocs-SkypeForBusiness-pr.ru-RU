@@ -20,16 +20,16 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Узнайте, как назначить, изменить или удалить рабочий номер телефона для Teams, чтобы внешние компании и клиенты могли звонить.
-ms.openlocfilehash: 40d8f2d12cb824b57b2c01da4880cc35afb0a663
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: 1836de6997f2e917e599efc091b689877856c4c7
+ms.sourcegitcommit: bc686eedb37e565148d0c7a61ffa865aaca37d20
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61766572"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62181082"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>Назначение, изменение и удаление номера телефона пользователя
 
-При настройках планов звонков или операторов Подключение номера телефонов назначаются пользователям. В Microsoft Teams при нажатии кнопки Звонки будет указан номер телефона, который вы **назначаете.** 
+При настройках планов звонков или операторов Подключение вы назначаете номера телефонов пользователям. В Microsoft Teams при нажатии кнопки Звонки будет указан номер телефона, который вы **назначаете.** 
 
 Эта статья относится к планам звонков и Подключение. Сведения о назначении, изменении и удалении номера телефона пользователя в сценарии прямой маршрутии см. в этой ссылке. [](./direct-routing-enable-users.md)
 
@@ -37,7 +37,7 @@ ms.locfileid: "61766572"
 
   
 > [!NOTE]
-> Чтобы узнать, назначена ли пользователю лицензия, переходить в центр администрирования Microsoft Teams и > **пользователи.** Если лицензия назначена, она будет указана на странице.  Вы также можете использовать Центр администрирования Microsoft 365.
+> Чтобы узнать, назначена ли пользователю лицензия, переходить в Центр администрирования Microsoft Teams пользователей > **пользователей.** Если лицензия назначена, она будет указана на странице.  Вы также можете использовать Центр администрирования Microsoft 365.
 
 > [!NOTE]
 > Эта заметка относится к клиентам, у которых гибридное развертывание с локальной службой Active Directory. Если вы хотите назначить номер телефона Подключение или плану звонков учетной записи пользователя или ресурса, необходимо убедиться, что номер телефона в локальной службе Active Directory удален, а изменения синхронизированы с Microsoft 365.
@@ -46,7 +46,7 @@ ms.locfileid: "61766572"
 
 При назначении номера телефона пользователю убедитесь в том, что номер телефона и расположение использования пользователя находятся в одной стране.
 
-Чтобы назначить номер с помощью Teams администрирования:
+Чтобы назначить номер в Центре администрирования Teams:
     
 1. В области навигации слева выберите **Голосовая**  >  **Телефон номера**.
 
@@ -57,23 +57,29 @@ ms.locfileid: "61766572"
 4. Чтобы назначить или изменить связанное местоположение для экстренного ситуация, в области Местоположение для экстренного **ситуация** найди и выберите нужное расположение.
 
    > [!NOTE]
-   > Если вы назначаете номера пользователям Подключение, вы можете или не сможете назначить или изменить связанное местоположение для экстренного ситуация. Эта функция будет зависеть от оператора. За дополнительными сведениями обратитесь к оператору.
+   > Если вы назначаете номера оператору Подключение пользователей, вы можете или не сможете назначить или изменить связанное местоположение для экстренного ситуация. Эта функция будет зависеть от оператора. За дополнительными сведениями обратитесь к оператору.
 
 5. В зависимости от того, хотите ли вы отправить пользователю сообщение электронной почты со сведениями о телефонном номере, отключите или включите отправку электронной почты пользователю со сведениями о **телефонном номере**. По умолчанию этот режим в том же режиме. 
 
 6. Нажмите кнопку **Сохранить**.
 
-Чтобы назначить числа с помощью [](/powershell/module/skype/set-csonlinevoiceuser) PowerShell, выполните следующим образом:
+Чтобы назначить числа с помощью [](/powershell/module/teams/set-csphonenumberassignment) PowerShell, выполните следующим образом:
 
-
+Для номеров планов звонков
 ```PowerShell
-Set-CsOnlineVoiceUser -Identity <user>  -TelephoneNumber <phone number> 
+Set-CsPhoneNumberAssignment -Identity <user>  -PhoneNumber <phone number> -PhoneNumberType CallingPlan
+```
+
+Для номеров Подключение операторов
+```PowerShell
+Set-CsPhoneNumberAssignment -Identity <user>  -PhoneNumber <phone number> -PhoneNumberType OperatorConnect
 ```
 
 Например:
 
 ```PowerShell
-Set-CsOnlineVoiceUser -Identity john@contoso.com -TelephoneNumber +14255550101
+Set-CsPhoneNumberAssignment -Identity john@contoso.com -PhoneNumber "+14255550101" -PhoneNumberType CallingPlan
+Set-CsPhoneNumberAssignment -Identity jack@contoso.com -PhoneNumber "+14255550102" -PhoneNumberType OperatorConnect
 ```
 
 > [!NOTE]
@@ -105,7 +111,7 @@ Set-CsOnlineVoiceUser -Identity john@contoso.com -TelephoneNumber +14255550101
 
 9. Нажмите кнопку **Сохранить**.
 
-Пример PowerShell см. [в примере Set-CsOnlineVoiceUser.](/powershell/module/skype/set-csonlinevoiceuser)
+Пример PowerShell см. в [примере Set-CsPhoneNumberAssignment.](/powershell/module/teams/set-csphonenumberassignment)
 
 ## <a name="remove-a-phone-number-from-a-user"></a>Удаление номера телефона пользователя
 
@@ -121,7 +127,7 @@ Set-CsOnlineVoiceUser -Identity john@contoso.com -TelephoneNumber +14255550101
 
 5. Нажмите кнопку **Сохранить**.
 
-Пример PowerShell см. [в примере Set-CsOnlineVoiceUser.](/powershell/module/skype/set-csonlinevoiceuser)
+Пример PowerShell см. в [примере Remove-CsPhoneNumberAssignment.](/powershell/module/teams/remove-csphonenumberassignment)
 
 ## <a name="related-topics"></a>Статьи по теме
 
@@ -133,5 +139,7 @@ Set-CsOnlineVoiceUser -Identity john@contoso.com -TelephoneNumber +14255550101
 
 [Заявление об отказе от ответственности экстренных вызовов](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
-[Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser)
+[Set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment)
+
+[Remove-CsPhoneNumberAssignment](/powershell/module/teams/remove-csphonenumberassignment)
 

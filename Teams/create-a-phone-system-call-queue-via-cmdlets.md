@@ -24,18 +24,18 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Узнайте, как настроить очереди вызовов с помощью cmdlets
-ms.openlocfilehash: 8ffbef5541a230755bb7439507e3002a5cb92462
-ms.sourcegitcommit: 268660f101609852f02f3f9d1a8436f2a99dade7
+ms.openlocfilehash: a8f24f11cb19f448fc897043c7cb046a08c32341
+ms.sourcegitcommit: bc686eedb37e565148d0c7a61ffa865aaca37d20
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "62071118"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62181112"
 ---
 # <a name="create-a-call-queue-via-cmdlets"></a>Создание очереди вызовов с помощью cmdlets
 
 ## <a name="assumptions"></a>Предположения
 1)  На компьютере установлена powerShell
-- Настройка компьютера для [Windows PowerShell](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
+- Настройка компьютера для [Windows PowerShell](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 - Модуль MSTeams установлен ````  (Install-Module -Name MicrosoftTeams -Force -AllowClobber) ````
 - Модуль MSOnline установлен ```` Install-Module -Name MSOnline -Force -AllowClobber ````
 2)  У вас есть права на администрирование клиента
@@ -161,6 +161,8 @@ Get-MsolAccountSku
 - - Автоотчет: ce933385-9390-45d1-9512-c8d228074e07
 - - Очередь вызовов: 11cd3e2e-fccb-42ad-ad00-878b93575e07
 
+Примечание. Тип лицензии, показанный ниже (PHONESYSTEM_VIRTUALUSER), должен быть указан в Get-MsolAccountSku выше.
+
 ````
 New-CsOnlineApplicationInstance -UserPrincipalName Sales-RA@contoso.com -DisplayName "Sales" -ApplicationID "11cd3e2e-fccb-42ad-ad00-878b93575e07"
 
@@ -211,10 +213,13 @@ Get-MsolAccountSku
 ````
 
 ### <a name="create-and-assign-resource-account"></a>Создание и назначение учетной записи ресурса
-Примечание. Телефон номер, не требующийся здесь, так как автоотека с номером перед очереди вызовов перенастройка
+Примечание. Телефон номер, не требующийся здесь, так как автоотека с номером очереди вызовов перенастройка
 - ApplicationID
 - - Автоотчет: ce933385-9390-45d1-9512-c8d228074e07
 - - Очередь вызовов: 11cd3e2e-fccb-42ad-ad00-878b93575e07
+
+Примечание. Тип лицензии, показанный ниже (PHONESYSTEM_VIRTUALUSER), должен быть указан в Get-MsolAccountSku выше.
+
 ````
 New-CsOnlineApplicationInstance -UserPrincipalName Support-RA@contoso.com -DisplayName "Support" -ApplicationID "11cd3e2e-fccb-42ad-ad00-878b93575e07"
 
@@ -267,12 +272,15 @@ Get-MsolAccountSku
 ````
 
 ### <a name="create-and-assign-resource-account"></a>Создание и назначение учетной записи ресурса
-Примечание. Телефон номер, не требующийся здесь, так как автоотека с номером перед очереди вызовов перенастройка
+Примечание. Телефон номер, не требующийся здесь, так как автоотека с номером перед очереди вызовов является номером
 - ApplicationID
 - - Автоотчет: ce933385-9390-45d1-9512-c8d228074e07
 - - Очередь вызовов: 11cd3e2e-fccb-42ad-ad00-878b93575e07
+
+Примечание. Тип лицензии, показанный ниже (PHONESYSTEM_VIRTUALUSER), должен быть указан в Get-MsolAccountSku выше.
+
 ````
-New-CsOnlineApplicationInstance -UserPrincipalName Support-RA@contoso.com -DisplayName "Facilities" -ApplicationID "11cd3e2e-fccb-42ad-ad00-878b93575e07"
+New-CsOnlineApplicationInstance -UserPrincipalName Facilities-RA@contoso.com -DisplayName "Facilities" -ApplicationID "11cd3e2e-fccb-42ad-ad00-878b93575e07"
 
 Set-MsolUser -UserPrincipalName "Facilities-RA@contoso.com" -UsageLocation US
 
