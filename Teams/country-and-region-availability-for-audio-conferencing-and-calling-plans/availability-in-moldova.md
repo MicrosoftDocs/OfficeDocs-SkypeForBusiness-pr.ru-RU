@@ -25,27 +25,27 @@ ms.custom:
 - Phone System
 - Calling Plans for Business and Microsoft Teams available for Moldova."
 - seo-marvel-mar2020
-description: Сведения о том, Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams доступны в области "Microsoft Teams".
-ms.openlocfilehash: f7fe5633f7ca2756b8e6611f1c44fabc4ff8c0c8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Сведения о том, какие Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams доступны в области "Microsoft Teams".
+ms.openlocfilehash: fad85c4f1e875ffd65f255fb95eac209f74c8f7b
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58589803"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62191570"
 ---
 # <a name="availability-in-moldova"></a>Доступность в Молдове
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже ются Microsoft 365 и Office 365 службы для Skype для бизнеса и Microsoft Teams для Нее.
+Ниже ются Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Заметь.
   
-## <a name="audio-conferencing"></a>Аудиоконференции
+## <a name="audio-conferencing"></a>Аудиоконференция
 
 |**Функция**|**Сведения**|
 |:-----|:-----|
 |Доступно ли приобретение аудиоконференций?  <br/> |Да, только с [поминутной оплатой](../audio-conferencing-pay-per-minute.md)  <br/> |
 |Номера телефонов автоматически назначаются для аудио конференций?  <br/> |Нет  <br/> |
-|Возможность получить обратный звонок с функцией "Звонок на мой номер"  <br/> |Требуются кредиты связи  <br/> |
+|Возможность дозвона с помощью функции «Позвони мне»  <br/> |Требуются кредиты связи  <br/> |
    
 ## <a name="phone-system"></a>Телефонная система
 
@@ -64,7 +64,7 @@ ms.locfileid: "58589803"
 |Доступные минуты для планов звонков  <br/> |Неприменимо  <br/> |
 |Кому можно делать исходящие звонки?  <br/> |Неприменимо  <br/> |
 
-Если тарифные планы недоступны для покупки, рассмотрите возможность использования [прямой телефонной системы](../direct-routing-landing-page.md). Благодаря прямой маршрутизации вы можете использовать телефонную систему практически с любым оператором телефонной связи.
+Если планы звонков недоступны для приобретения, см. параметры подключения через [ПСС](../pstn-connectivity.md) для всех доступных параметров.
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Платные и бесплатные номера служб
 

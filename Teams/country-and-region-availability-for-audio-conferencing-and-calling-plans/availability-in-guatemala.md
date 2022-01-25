@@ -1,5 +1,5 @@
 ---
-title: Доступность в 100%2016
+title: Доступность в Загонах
 author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
@@ -23,25 +23,25 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже ются Microsoft 365 и Office 365 службы Skype для бизнеса и Microsoft Teams для Нее.
-ms.openlocfilehash: 8f15dbb4304cede5140501b8365475e70346ca50
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+description: Ниже ются Microsoft 365 и Office 365 службы Skype для бизнеса и Microsoft Teams для нее.
+ms.openlocfilehash: e23e5dc96e629a34686c9ec679b549fdef807b84
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60863176"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62191440"
 ---
-# <a name="availability-in-guatemala"></a>Доступность в 100%2016
+# <a name="availability-in-guatemala"></a>Доступность в Загонах
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже ются Microsoft 365 и Office 365 службы Skype для бизнеса и Microsoft Teams для Нее.
+Ниже ются Microsoft 365 и Office 365 службы Skype для бизнеса и Microsoft Teams для нее.
   
 ## <a name="audio-conferencing"></a>Аудиоконференция
 
 |**Функция**|**Сведения**|
 |:-----|:-----|
-|Доступно ли приобретение аудиоконференций?  <br/> |Да. Только с поминутной оплатой.  <br/> |
+|Доступно ли приобретение аудиоконференций?  <br/> |Да. Только оплата за минуту.  <br/> |
 |Назначаются ли номера телефонов для аудиоконференций автоматически?  <br/> | Нет |
 |Возможность дозвона с помощью функции «Позвони мне»  <br/> | Требуются кредиты связи <br/> |
 
@@ -62,7 +62,7 @@ ms.locfileid: "60863176"
 |Доступные минуты для планов звонков  <br/> |Неприменимо  <br/> |
 |Кому можно делать исходящие звонки?  <br/> |Неприменимо  <br/> |
 
-Если тарифные планы недоступны для покупки, рассмотрите возможность использования [прямой телефонной системы](../direct-routing-landing-page.md). Благодаря прямой маршрутизации вы можете использовать телефонную систему практически с любым оператором телефонной связи.
+Если планы звонков недоступны для приобретения, см. параметры подключения через [ПСС](../pstn-connectivity.md) для всех доступных параметров.
 
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Платные и бесплатные номера для служб
 

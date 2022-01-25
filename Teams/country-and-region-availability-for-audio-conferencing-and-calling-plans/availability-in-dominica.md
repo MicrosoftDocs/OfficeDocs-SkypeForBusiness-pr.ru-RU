@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже находятся Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Компании.
-ms.openlocfilehash: f890a0f5ff6971cafb5a4e158fa860567369682b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+description: Ниже находятся Microsoft 365 и Office 365 службы Skype для бизнеса и Microsoft Teams, доступные для Компании.
+ms.openlocfilehash: fa26187e076544a2d5913b40491a331cc79d72f1
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60853943"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62191030"
 ---
 # <a name="availability-in-dominica"></a>Доступность в Скайпа
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже находятся Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Компании.
+Ниже находятся Microsoft 365 и Office 365 службы Skype для бизнеса и Microsoft Teams, доступные для Компании.
   
 ## <a name="audio-conferencing"></a>Аудиоконференция
 
@@ -64,7 +64,7 @@ ms.locfileid: "60853943"
 |Доступные минуты для планов звонков  <br/> | Неприменимо<br/> |
 |Кому можно делать исходящие звонки?  <br/> |Неприменимо  <br/> |
 
-Если тарифные планы недоступны для покупки, рассмотрите возможность использования [прямой телефонной системы](../direct-routing-landing-page.md). Благодаря прямой маршрутизации вы можете использовать телефонную систему практически с любым оператором телефонной связи.
+Если планы звонков недоступны для приобретения, см. параметры подключения через [ПСС](../pstn-connectivity.md) для всех доступных параметров.
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Платные и бесплатные номера служб
 

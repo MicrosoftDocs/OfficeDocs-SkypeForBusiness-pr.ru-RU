@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Ниже находятся Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Украины.
-ms.openlocfilehash: cf4235a2dbdd7862471803c608240ed5535c5f52
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 90009ddb0d35e920c13389caa5acfb838204adbb
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609026"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62191450"
 ---
 # <a name="availability-in-the-ukraine"></a>Доступность на Украине
 
@@ -38,7 +38,7 @@ ms.locfileid: "58609026"
 
 Ниже находятся Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Украины.
   
-## <a name="audio-conferencing"></a>Аудиоконференции
+## <a name="audio-conferencing"></a>Аудиоконференция
 
 |**Функция**|**Сведения**|
 |:-----|:-----|
@@ -63,7 +63,7 @@ ms.locfileid: "58609026"
 |Доступные минуты для планов звонков  <br/> |Неприменимо  <br/> |
 |Кому можно делать исходящие звонки?  <br/> |Неприменимо  <br/> |
 
-Если тарифные планы недоступны для покупки, рассмотрите возможность использования [прямой телефонной системы](../direct-routing-landing-page.md). Благодаря прямой маршрутизации вы можете использовать телефонную систему практически с любым оператором телефонной связи.
+Если планы звонков недоступны для приобретения, см. параметры подключения через [ПСС](../pstn-connectivity.md) для всех доступных параметров.
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Платные и бесплатные номера служб
 

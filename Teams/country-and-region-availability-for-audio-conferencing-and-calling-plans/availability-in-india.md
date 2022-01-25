@@ -24,21 +24,21 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже ются Microsoft 365 и Office 365 службы Skype для бизнеса и Microsoft Teams для Индии.
-ms.openlocfilehash: 9468da224b7f5079f091125cb0d2841c4bd79290
-ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
+description: Ниже находятся Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Индии.
+ms.openlocfilehash: 8a6a3878e2dcafafd03be7ea3e75316083d12d42
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60733070"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62191120"
 ---
 # <a name="availability-in-india"></a>Доступность в Индии
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже ются Microsoft 365 и Office 365 службы Skype для бизнеса и Microsoft Teams для Индии.
+Ниже находятся Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Индии.
   
-## <a name="audio-conferencing"></a>Аудиоконференции
+## <a name="audio-conferencing"></a>Аудиоконференция
 
 |**Функция**|**Сведения**|
 |:-----|:-----|
@@ -63,7 +63,7 @@ ms.locfileid: "60733070"
 |Доступные минуты для планов звонков  <br/> |Неприменимо  <br/> |
 |Кому можно делать исходящие звонки?  <br/> |Неприменимо  <br/> |
 
-Если тарифные планы недоступны для покупки, рассмотрите возможность использования [прямой телефонной системы](../direct-routing-landing-page.md). Благодаря прямой маршрутизации вы можете использовать телефонную систему практически с любым оператором телефонной связи.
+Если планы звонков недоступны для приобретения, см. параметры подключения через [ПСС](../pstn-connectivity.md) для всех доступных параметров.
 
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Платные и бесплатные номера служб
 
@@ -73,7 +73,7 @@ ms.locfileid: "60733070"
 |Доступны ли платные номера?  <br/> |Да  <br/> |
 |Доступны ли бесплатные номера?  <br/> |Да  <br/> |
 
- Обратите внимание, что в Индии номера служб можно использовать только для аудиоконференций. Поэтому если вы хотите получить платные и бесплатные номера телефонов для аудиоконференций, см. получение номеров телефонов служб для Skype для бизнеса и [Microsoft Teams.](../getting-service-phone-numbers.md)
+ Обратите внимание, что в Индии номера служб можно использовать только для аудиоконференций. Таким образом, если вы хотите получить платные и бесплатные номера телефонов для аудиоконференции, см. получение номеров телефонов служб для Skype для бизнеса и [Microsoft Teams.](../getting-service-phone-numbers.md)
   
 ## <a name="communications-credits"></a>Кредиты на связь
 

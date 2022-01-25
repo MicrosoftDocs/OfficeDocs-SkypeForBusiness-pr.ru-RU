@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Ниже ются Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Венесуэлы.
-ms.openlocfilehash: f85eb1c781d0cd7a3f10f3ce5218a1586ca5e159
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a17f676708859d7cb9cdb5035a4d6f62c4a95120
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58581313"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62191956"
 ---
 # <a name="availability-in-venezuela"></a>Доступность в Венесуэле
 
@@ -38,13 +38,13 @@ ms.locfileid: "58581313"
 
 Ниже ются Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Венесуэлы.
   
-## <a name="audio-conferencing"></a>Аудиоконференции
+## <a name="audio-conferencing"></a>Аудиоконференция
 
 |**Функция**|**Сведения**|
 |:-----|:-----|
 |Доступно ли приобретение аудиоконференций?  <br/> |Да  <br/> |
 |Назначаются ли номера телефонов для аудиоконференций автоматически?  <br/> |Нет  <br/> |
-|Возможность получить обратный звонок с функцией "Звонок на мой номер"  <br/> |Требуются кредиты связи  <br/> |
+|Возможность дозвона с помощью функции «Позвони мне»  <br/> |Требуются кредиты связи  <br/> |
    
 ## <a name="phone-system"></a>Телефонная система
 
@@ -63,7 +63,7 @@ ms.locfileid: "58581313"
 |Доступные минуты для планов звонков  <br/> |Неприменимо  <br/> |
 |Кому можно делать исходящие звонки?  <br/> |Неприменимо  <br/> |
 
-Если тарифные планы недоступны для покупки, рассмотрите возможность использования [прямой телефонной системы](../direct-routing-landing-page.md). Благодаря прямой маршрутизации вы можете использовать телефонную систему практически с любым оператором телефонной связи.
+Если планы звонков недоступны для приобретения, см. параметры подключения через [ПСС](../pstn-connectivity.md) для всех доступных параметров.
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Платные и бесплатные номера служб
 

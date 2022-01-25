@@ -24,21 +24,21 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже ются Microsoft 365 и Office 365 службы Skype для бизнеса и Microsoft Teams для Даму.
-ms.openlocfilehash: d3c43e6fe4f73fc00e61c229b40060dd1c1bc69f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Ниже ются Microsoft 365 и Office 365 службы Skype для бизнеса и Microsoft Teams для Омского.
+ms.openlocfilehash: 471898a25343d0c79533d9d3d12ae6beb61372a7
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58588261"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62191260"
 ---
 # <a name="availability-in-pakistan"></a>Доступность в Пакистане
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже ются Microsoft 365 и Office 365 службы Skype для бизнеса и Microsoft Teams для Даму.
+Ниже ются Microsoft 365 и Office 365 службы Skype для бизнеса и Microsoft Teams для Омского.
   
-## <a name="audio-conferencing"></a>Аудиоконференции
+## <a name="audio-conferencing"></a>Аудиоконференция
 
 |**Функция**|**Сведения**|
 |:-----|:-----|
@@ -63,7 +63,7 @@ ms.locfileid: "58588261"
 |Доступные минуты для планов звонков  <br/> |Неприменимо  <br/> |
 |Кому можно делать исходящие звонки?  <br/> |Неприменимо  <br/> |
 
-Если тарифные планы недоступны для покупки, рассмотрите возможность использования [прямой телефонной системы](../direct-routing-landing-page.md). Благодаря прямой маршрутизации вы можете использовать телефонную систему практически с любым оператором телефонной связи.
+Если планы звонков недоступны для приобретения, см. параметры подключения через [ПСС](../pstn-connectivity.md) для всех доступных параметров.
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Платные и бесплатные номера служб
 
@@ -73,7 +73,7 @@ ms.locfileid: "58588261"
 |Доступны ли платные номера?  <br/> |Да  <br/> |
 |Доступны ли бесплатные номера?  <br/> |Нет  <br/> |
    
- Обратите внимание на то, что в Этом году номера служб можно использовать только для аудиоконференции. Поэтому если вы хотите получить платные и бесплатные номера для аудиоконференций, см. получение номеров телефонов служб для Skype для бизнеса и [Microsoft Teams.](../getting-service-phone-numbers.md)
+ Обратите внимание на то, что в Этом же формате номера служб можно использовать только для аудиоконференций. Поэтому если вы хотите получить платные и бесплатные номера для аудиоконференций, см. получение номеров телефонов служб для Skype для бизнеса и [Microsoft Teams.](../getting-service-phone-numbers.md)
   
 ## <a name="communications-credits"></a>Кредиты на связь
 

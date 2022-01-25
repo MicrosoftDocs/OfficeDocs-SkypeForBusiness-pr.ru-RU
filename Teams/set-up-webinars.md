@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: Узнайте, как управлять политиками веб-Teams собраний.
-ms.openlocfilehash: 19918d7a32a9a5069dab8dc87011de6112bbe364
-ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
+ms.openlocfilehash: 92970e754f50deffe34993a44fb92a2d5a7b5581
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "61205559"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62192190"
 ---
 # <a name="set-up-for-webinars-in-microsoft-teams"></a>Подготовка к вебинарам в Microsoft Teams
 
@@ -41,7 +41,7 @@ ms.locfileid: "61205559"
 
 ## <a name="allow-users-to-schedule-webinars-in-the-teams-admin-center"></a>Разрешить пользователям планировать вебинары в центре Teams администрирования
 
-С помощью центра Teams администрирования можно настроить вебинары для своей организации. Политики для вебинары можно найти в центре администрирования Teams в статье Политики собраний  >  **собраний.**
+В Центре администрирования Teams можно настроить вебинары для своей организации. Политики для настроить вебинары можно найти в центре администрирования Teams в статье Политики собраний  >  **собраний.**
 
 ### <a name="meeting-registration"></a>Регистрация на собрании
 
@@ -59,11 +59,11 @@ ms.locfileid: "61205559"
 
 ### <a name="engagement-report"></a>Отчет о взаимодействии
 
-Если включить эту службу, организаторы смогут видеть отчеты о том, кто зарегистрировался и участвовал в вебинары, которые они настроили. По умолчанию эта политика отключена. Дополнительные сведения см. в политике [собраний в Teams — отчет о взаимодействии.](meeting-policies-in-teams-general.md#engagement-report) Сведения о пользовательском интерфейсе см. в теме Просмотр и скачивание отчетов [об посещении собраний.](https://support.microsoft.com/office/view-and-download-meeting-attendance-reports-in-teams-ae7cf170-530c-47d3-84c1-3aedac74d310?ui=en-US&#x26;rs=en-US&#x26;ad=US)
+После этого организаторы могут видеть отчеты о том, кто зарегистрировался и посещал вебинары, которые они настроили. Эта политика по умолчанию заданной. Дополнительные сведения см. в теме Политики [собраний в Teams - отчет о взаимодействии.](meeting-policies-in-teams-general.md#engagement-report) Сведения о пользовательском интерфейсе см. в теме Просмотр и скачивание отчетов [об посещении собраний.](https://support.microsoft.com/office/view-and-download-meeting-attendance-reports-in-teams-ae7cf170-530c-47d3-84c1-3aedac74d310?ui=en-US&#x26;rs=en-US&#x26;ad=US)
 
 ## <a name="allow-users-to-schedule-webinars-using-powershell"></a>Разрешить пользователям планировать вебинары с помощью PowerShell
 
-Чтобы настроить вебинары в Windows PowerShell, можно использовать следующие Teams атрибуты Windows PowerShell **Set-CsTeamsMeetingPolicy.**
+Чтобы настроить вебинары в Teams, можно использовать следующие атрибуты Windows PowerShell **Set-CsTeamsMeetingPolicy.**
 
 - MeetingRegistration
 - WhoCanRegister
@@ -112,10 +112,10 @@ Set-CsTeamsMeetingPolicy -WhoCanRegister Everyone
 
 ### <a name="collect-meeting-attendance"></a>Сбор участия в собраниях
 
-Если вы хотите, чтобы организаторы проанализировали, кто зарегистрировал вебинары и участвовал в них, необходимо включить политику **EngagementReport.** Для этого в PowerShell запустите следующую команду:
+Параметр **AllowEngagementReport** позволяет узнать, кто зарегистрировался и участвовал в вебинарах. Эта политика включена по умолчанию. Чтобы отключить ее, в PowerShell запустите следующую команду:
 
 ```powershell
-Set-CsTeamsMeetingPolicy -EngagementReport Enabled
+Set-CsTeamsMeetingPolicy -AllowEngagementReport Disabled
 ```
 
 ## <a name="configure-webinar-settings"></a>Настройка параметров вебинара

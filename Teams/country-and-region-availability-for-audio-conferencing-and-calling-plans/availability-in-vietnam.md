@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Ниже ются Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Вьетнама.
-ms.openlocfilehash: 8992019aa20a6c72dd16dd1b5d0588202e40ab1f
-ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
+ms.openlocfilehash: 4332fcab208c55ff7899a76727b1b5738282267b
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60733720"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62192430"
 ---
 # <a name="availability-in-vietnam"></a>Доступность во Вьетнаме
 
@@ -38,13 +38,13 @@ ms.locfileid: "60733720"
 
 Ниже ются Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Вьетнама.
   
-## <a name="audio-conferencing"></a>Аудиоконференции
+## <a name="audio-conferencing"></a>Аудиоконференция
 
 |**Функция**|**Сведения**|
 |:-----|:-----|
 |Доступно ли приобретение аудиоконференций?  <br/> |Да  <br/> |
 |Назначаются ли номера телефонов для аудиоконференций автоматически?  <br/> |Нет  <br/> |
-|Возможность получить обратный звонок с функцией "Звонок на мой номер"  <br/> |Требуются кредиты связи  <br/> |
+|Возможность дозвона с помощью функции «Позвони мне»  <br/> |Требуются кредиты связи  <br/> |
    
 ## <a name="phone-system"></a>Телефонная система
 
@@ -63,13 +63,13 @@ ms.locfileid: "60733720"
 |Доступные минуты для планов звонков  <br/> |Неприменимо  <br/> |
 |Кому можно делать исходящие звонки?  <br/> |Неприменимо  <br/> |
 
-Если тарифные планы недоступны для покупки, рассмотрите возможность использования [прямой телефонной системы](../direct-routing-landing-page.md). Благодаря прямой маршрутизации вы можете использовать телефонную систему практически с любым оператором телефонной связи.
+Если планы звонков недоступны для приобретения, см. параметры подключения через [ПСС](../pstn-connectivity.md) для всех доступных параметров.
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Платные и бесплатные номера служб
 
 |**Функция**|**Сведения**|
 |:-----|:-----|
-|Для каких столиц или крупных городов можно получить платные номера?  <br/> |<ul><li>Ханой[(по запросу](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md))<li>Ho Chi Minh ([по запросу](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md))</ul>  <br/> |
+|Для каких столиц или крупных городов можно получить платные номера?  <br/> |<ul><li>Hanoi ([по запросу](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md))<li>Ho Chi Minh ([по запросу](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md))</ul>  <br/> |
 |Доступны ли платные номера?  <br/> |Да[(по запросу](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)) <br/> |
 |Доступны ли бесплатные номера?  <br/> |Да  <br/> |
    

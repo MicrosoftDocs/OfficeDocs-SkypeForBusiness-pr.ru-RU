@@ -24,21 +24,21 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже ются Microsoft 365 и Office 365 службы для Skype для бизнеса и Microsoft Teams для Шри-Ланка.
-ms.openlocfilehash: c493199d163b2ffcbb14cd81f63d4ba492e6d044
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Ниже находятся Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Шри-Ланка.
+ms.openlocfilehash: ba5ae750e21a2fee49ea4c506e2214a224d3d69a
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58584713"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62191090"
 ---
 # <a name="availability-in-sri-lanka"></a>Доступность в Шри-Ланке
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже ются Microsoft 365 и Office 365 службы для Skype для бизнеса и Microsoft Teams для Шри-Ланка.
+Ниже находятся Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Шри-Ланка.
   
-## <a name="audio-conferencing"></a>Аудиоконференции
+## <a name="audio-conferencing"></a>Аудиоконференция
 
 |**Функция**|**Сведения**|
 |:-----|:-----|
@@ -63,7 +63,7 @@ ms.locfileid: "58584713"
 |Доступные минуты для планов звонков  <br/> |Неприменимо  <br/> |
 |Кому можно делать исходящие звонки?  <br/> |Неприменимо  <br/> |
 
-Если тарифные планы недоступны для покупки, рассмотрите возможность использования [прямой телефонной системы](../direct-routing-landing-page.md). Благодаря прямой маршрутизации вы можете использовать телефонную систему практически с любым оператором телефонной связи.
+Если планы звонков недоступны для приобретения, см. параметры подключения через [ПСС](../pstn-connectivity.md) для всех доступных параметров.
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Платные и бесплатные номера служб
 

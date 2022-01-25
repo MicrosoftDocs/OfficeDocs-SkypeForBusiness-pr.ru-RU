@@ -24,27 +24,27 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже даны Microsoft 365 и Office 365 службы Skype для бизнеса и Microsoft Teams для Заметь.
-ms.openlocfilehash: 7b76169fb05f3ee1d853eea536302e2827d0c071
-ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
+description: Ниже даны Microsoft 365 и Office 365 службы для Skype для бизнеса и Microsoft Teams для Заметь.
+ms.openlocfilehash: 2062025923513285c4014c747c3a95fd3f808f0e
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60733670"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62191430"
 ---
 # <a name="availability-in-jordan"></a>Доступность в Иордании
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже даны Microsoft 365 и Office 365 службы Skype для бизнеса и Microsoft Teams для Заметь.
+Ниже даны Microsoft 365 и Office 365 службы для Skype для бизнеса и Microsoft Teams для Заметь.
   
-## <a name="audio-conferencing"></a>Аудиоконференции
+## <a name="audio-conferencing"></a>Аудиоконференция
 
 |**Функция**|**Сведения**|
 |:-----|:-----|
 |Доступно ли приобретение аудиоконференций?  <br/> |Да  <br/> |
 |Назначаются ли номера телефонов для аудиоконференций автоматически?  <br/> |Нет  <br/> |
-|Возможность получить обратный звонок с функцией "Звонок на мой номер"  <br/> |Требуются кредиты связи  <br/> |
+|Возможность дозвона с помощью функции «Позвони мне»  <br/> |Требуются кредиты связи  <br/> |
    
 ## <a name="phone-system"></a>Телефонная система
 
@@ -63,7 +63,7 @@ ms.locfileid: "60733670"
 |Доступные минуты для планов звонков  <br/> |Неприменимо  <br/> |
 |Кому можно делать исходящие звонки?  <br/> |Неприменимо  <br/> |
 
-Если тарифные планы недоступны для покупки, рассмотрите возможность использования [прямой телефонной системы](../direct-routing-landing-page.md). Благодаря прямой маршрутизации вы можете использовать телефонную систему практически с любым оператором телефонной связи.
+Если планы звонков недоступны для приобретения, см. параметры подключения через [ПСС](../pstn-connectivity.md) для всех доступных параметров.
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Платные и бесплатные номера служб
 
