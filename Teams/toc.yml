@@ -753,7 +753,7 @@ items:
                 href: ptsn-mask-phone-numbers.md
           - name: Доступность аудиоконференций в различных странах и регионах
             href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
-          - name: Справочные материалы
+          - name: Справка
             items:
               - name: Поддерживаемые языки аудиоконференций
                 href: audio-conferencing-supported-languages.md
@@ -1539,7 +1539,7 @@ items:
                 href: expand-teams-across-your-org/shifts/schedule-owner-for-shift-management.md
               - name: Соединители приложения "Смены"
                 items:
-                  - name: Обзор соединителей приложения "Смены"
+                  - name: Обзор
                     href: expand-teams-across-your-org/shifts/shifts-connectors.md
       - name: Teams для образования
         href: expand-teams-across-your-org/teams-for-education-landing-page.md

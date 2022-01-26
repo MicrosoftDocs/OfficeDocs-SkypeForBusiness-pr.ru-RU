@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: Узнайте, как управлять политиками веб-Teams собраний.
-ms.openlocfilehash: 92970e754f50deffe34993a44fb92a2d5a7b5581
-ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
+ms.openlocfilehash: 5536a6c03df15be349edea7d980932b5fc0173ab
+ms.sourcegitcommit: faeb8976299375e7658499ff31d25e8ef6003144
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62192190"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "62224006"
 ---
 # <a name="set-up-for-webinars-in-microsoft-teams"></a>Подготовка к вебинарам в Microsoft Teams
 
@@ -37,11 +37,11 @@ ms.locfileid: "62192190"
 После настройки вебинары в организации пользователи могут планировать вебинары и открывать регистрацию для участников. В отличие от обычных собраний, которые содержат много обсуждений и заданий задач, вебинары предназначены для интерактивных презентаций и предоставляют инструменты для анализа участников.
 
 > [!IMPORTANT]
-> Чтобы позволить пользователям настраивать вебинары, Microsoft Списки необходимо настроить SharePoint, включив создание личных списков. Дополнительные параметры см. в [Microsoft Списки.](/sharepoint/control-lists)
+> Чтобы позволить пользователям настраивать вебинары, Microsoft Списки необходимо настроить SharePoint, включив создание личных списков. Дополнительные параметры см. [в](/sharepoint/control-lists)Microsoft Списки.
 
 ## <a name="allow-users-to-schedule-webinars-in-the-teams-admin-center"></a>Разрешить пользователям планировать вебинары в центре Teams администрирования
 
-В Центре администрирования Teams можно настроить вебинары для своей организации. Политики для настроить вебинары можно найти в центре администрирования Teams в статье Политики собраний  >  **собраний.**
+В Центре администрирования Teams можно настроить вебинары для своей организации. Политики для вебинары можно найти в центре администрирования Teams в статье Политики собраний  >  **собраний.**
 
 ### <a name="meeting-registration"></a>Регистрация на собрании
 
@@ -59,15 +59,15 @@ ms.locfileid: "62192190"
 
 ### <a name="engagement-report"></a>Отчет о взаимодействии
 
-После этого организаторы могут видеть отчеты о том, кто зарегистрировался и посещал вебинары, которые они настроили. Эта политика по умолчанию заданной. Дополнительные сведения см. в теме Политики [собраний в Teams - отчет о взаимодействии.](meeting-policies-in-teams-general.md#engagement-report) Сведения о пользовательском интерфейсе см. в теме Просмотр и скачивание отчетов [об посещении собраний.](https://support.microsoft.com/office/view-and-download-meeting-attendance-reports-in-teams-ae7cf170-530c-47d3-84c1-3aedac74d310?ui=en-US&#x26;rs=en-US&#x26;ad=US)
+После этого организаторы могут видеть отчеты о том, кто зарегистрировался и посещал вебинары, которые они настроили. Эта политика по умолчанию заданной. Дополнительные сведения см. в теме Политики [собраний в Teams — отчет о взаимодействии.](meeting-policies-in-teams-general.md#engagement-report) Сведения о пользовательском интерфейсе см. в теме Просмотр и скачивание отчетов [об посещении собраний.](https://support.microsoft.com/office/view-and-download-meeting-attendance-reports-in-teams-ae7cf170-530c-47d3-84c1-3aedac74d310?ui=en-US&#x26;rs=en-US&#x26;ad=US)
 
 ## <a name="allow-users-to-schedule-webinars-using-powershell"></a>Разрешить пользователям планировать вебинары с помощью PowerShell
 
-Чтобы настроить вебинары в Teams, можно использовать следующие атрибуты Windows PowerShell **Set-CsTeamsMeetingPolicy.**
+Чтобы настроить вебинары в Windows PowerShell, можно использовать следующие Teams атрибуты Windows PowerShell **Set-CsTeamsMeetingPolicy.**
 
-- MeetingRegistration
+- AllowMeetingRegistration
 - WhoCanRegister
-- Планирование закрытого собрания
+- AllowPrivateMeetingScheduling
 
 Дополнительные сведения о cmdlet см. в документе [Set-CsTeamsMeetingPolicy.](/powershell/module/skype/set-csteamsmeetingpolicy)
 
@@ -76,21 +76,21 @@ ms.locfileid: "62192190"
 
 ### <a name="allow-users-to-schedule-webinars"></a>Разрешить пользователям планировать вебинары
 
-Вы можете ограничить регистрацию только пользователями в организации или открыть ее для всех пользователей в клиенте и за ее пределами. По умолчанию **в whoCanRegister** включено значение Все для глобальной **политики (по** умолчанию в организации).  Если вы хотите отключить регистрацию на собрании, установите **для meetingRegistration (Собрание)** false **(Ложь).**
+Вы можете ограничить регистрацию только пользователями в организации или открыть ее для всех пользователей в клиенте и за ее пределами. По умолчанию **в whoCanRegister** включено значение Все для глобальной **политики (по** умолчанию в организации).  Если вы хотите отключить регистрацию на собрании, установите **для allowMeetingRegistration (РазрешитьMeetingRegistration)** **ложное.**
 
 > [!IMPORTANT]
-> **Чтобы планирование закрытого собрания**  работало, необходимо установить для расписания частных собраний **true.**
+> **Чтобы разрешитьMeetingRegistration, задайте для allowPrivateMeetingMeetingScheduling** (Планирование планирования событий **AllowPrivateMeetingScheduling)** true. 
 
 1. Включить регистрацию собраний
 
 ```powershell
-Set-CsTeamsMeetingPolicy -MeetingRegistration $True
+Set-CsTeamsMeetingPolicy -AllowMeetingRegistration $True
 ```
 
 2. Включить планирование частных собраний
 
 ```powershell
-Set-CsTeamsMeetingPolicy -PrivateMeetingScheduling $True
+Set-CsTeamsMeetingPolicy -AllowPrivateMeetingScheduling $True
 ```
 
 3. Настройка пользователей, которые могут регистрироваться на вебинары
