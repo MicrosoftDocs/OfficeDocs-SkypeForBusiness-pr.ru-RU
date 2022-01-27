@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Узнайте, как настроить облачная голосовая почта для пользователей.
-ms.openlocfilehash: cf4edb7043c3d9965f2f01710f1ed9e7fa7f96b8
-ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
+ms.openlocfilehash: cb0a8b6ad8a82ef44ace21dceb9adbbfc7c04139
+ms.sourcegitcommit: cd9fbda4ea85a83cb22e241a94d0825ff8186cca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62191080"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "62228947"
 ---
 # <a name="set-up-cloud-voicemail"></a>Настройка облачной голосовой почты
 
@@ -39,7 +39,7 @@ ms.locfileid: "62191080"
 
 ## <a name="help-your-users-learn-teams-voicemail-features"></a>Помощь пользователям в Teams голосовой почты
 
-Пользователи могут получить следующие сведения об использовании голосовой почты в Teams и управлении Teams.
+Пользователи могут получить следующие сведения об использовании голосовой почты и управлении Teams:
 
 - [Проверка голосовой почты в Teams](https://support.microsoft.com/office/check-your-voicemail-in-teams-f8d568ce-7329-4fe2-a6a2-325ec2e2b419)
 - [Управление настройками параметров звонка в Teams](https://support.microsoft.com/office/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)
@@ -50,11 +50,11 @@ ms.locfileid: "62191080"
 
 ### <a name="set-up-cloud-voicemail-for-exchange-server-mailbox-users"></a>Настройка облачная голосовая почта для Exchange Server почтовых ящиков
 
-Ниже данная информация о настройке облачная голосовая почта для работы с Microsoft Teams Телефон пользователями, у которых есть почтовый ящик Exchange Server.
+Ниже данная информация о настройке облачная голосовая почта для работы с Microsoft Teams Телефон, у которых есть почтовый ящик Exchange Server.
 
 1. Сообщения голосовой почты доставляются в почтовый Exchange пользователей через SMTP, маршрутный через Exchange Online Protection. Чтобы обеспечить успешную доставку этих сообщений, убедитесь, что соединители Exchange правильно настроены между серверами Exchange и Exchange Online Protection; [Настройте почтовые Flow с помощью соедините Flow.](/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow)
 
-2. Чтобы включить функции голосовой почты, такие как настройка приветствий и визуальной голосовой почты в клиентах Skype для бизнеса, требуется подключение из Microsoft 365 или Office 365 к почтовому ящику Exchange сервера через веб-службы Exchange. Чтобы включить это подключение, необходимо настроить новый протокол проверки подлинности Exchange Oauth, описанный в окне Настройка проверки подлинности [OAuth](/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)между организациями Exchange и Exchange Online, или запустить мастер гибридной конфигурации Exchange в Exchange 2013 CU5 или более новой. Кроме того, необходимо настроить интеграцию и Oauth между серверами Skype для бизнеса Online и Exchange, описанными в окне Настройка интеграции и [OAuth](/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)между Skype для бизнеса Online и Exchange Server.
+2. Чтобы включить функции голосовой почты, такие как настройка приветствий и визуальной голосовой почты в клиентах Skype для бизнеса, требуется подключение Microsoft 365 или Office 365 к почтовому ящику Exchange-сервера через веб-службы Exchange. Чтобы включить это подключение, необходимо настроить новый протокол проверки подлинности Exchange Oauth, описанный в окне Настройка проверки подлинности [OAuth](/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)между организациями Exchange и Exchange Online или запустить мастер гибридной конфигурации Exchange в Exchange 2013 CU5 или более новой. Кроме того, необходимо настроить интеграцию и Oauth между серверами Skype для бизнеса Online и Exchange, описанными в окне Настройка интеграции и [OAuth](/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)между Skype для бизнеса Online и Exchange Server.
 
 ### <a name="set-up-cloud-voicemail-for-skype-for-business-server-users"></a>Настройка облачная голосовая почта для Skype для бизнеса Server пользователей
 
@@ -62,6 +62,6 @@ ms.locfileid: "62191080"
 
 ## <a name="enabling-protected-voicemail-in-your-organization"></a>Включение защищенной голосовой почты в организации
 
-Когда кто-то покидает сообщение голосовой почты для пользователя в вашей организации, голосовая почта доставляется в почтовый ящик пользователя в виде вложения сообщения электронной почты. Используя правила потока почты для применения шифрования сообщений, вы можете запретить их пересылку другим получателям. Если включить защищенную голосовую почту, пользователи смогут прослушивать защищенные сообщения голосовой почты, позвонив в свой почтовый ящик голосовой почты или открыв их в Outlook, Outlook в Интернете или в Outlook для Android или iOS. Защищенные сообщения голосовой почты нельзя открывать в Skype для бизнеса или Microsoft Teams.
+Когда кто-то покидает сообщение голосовой почты для пользователя в вашей организации, голосовая почта доставляется в почтовый ящик пользователя в виде вложения сообщения электронной почты. Используя правила потока почты для применения шифрования сообщений, вы можете запретить их пересылку другим получателям. Если включить защищенную голосовую почту, пользователи смогут прослушивать защищенные сообщения голосовой почты, позвонив в свой почтовый ящик голосовой почты или открыв их в Outlook, Outlook в Интернете или Outlook для Android или iOS. Защищенные сообщения голосовой почты нельзя открывать в Skype для бизнеса или Microsoft Teams.
 
 Дополнительные сведения о шифровании сообщений см. в теме Определение правил потока [почты для шифрования сообщений электронной почты.](/microsoft-365/compliance/define-mail-flow-rules-to-encrypt-email)
