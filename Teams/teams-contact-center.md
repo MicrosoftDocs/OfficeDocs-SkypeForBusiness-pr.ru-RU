@@ -10,23 +10,23 @@ ms.reviewer: anblak
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
-description: Обзор интегрированного центра контактов в качестве решения службы (CCaaS) для Microsoft Teams
+description: Общие сведения об интегрированном центре контактов в качестве решения службы (CCaaS) для Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 52abf252d82b8208a0474d2393bd6d3938eaacb7
-ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
+ms.openlocfilehash: 6ca66a625b2050bb1c224085b78645375ae19895
+ms.sourcegitcommit: 9f1f5cd828c24676c20df727b2c67daf56ff884c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62192170"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62248690"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Интеграция центра контактов для Microsoft Teams
 
-  В этой статье представлен обзор интеграции решений Центра контактов с Microsoft Teams и поставщиками решений, участвующими в программе сертификации Microsoft Teams подключенных к центру контактов.
+  В этой статье представлен обзор интеграции решений Центра контактов с Microsoft Teams и поставщиками решений, участвующими в программе сертификации Microsoft Teams Подключенный центр контактов.
 
 ## <a name="what-is-contact-center-integration-for-microsoft-teams"></a>Что такое интеграция центра контактов с Microsoft Teams?
 
-Microsoft Teams поддерживает потоки взаимодействия с клиентом, выступая в качестве центра для внутреннего и внешнего взаимодействия с клиентами в различных режимах общения, включая чат, видеособрации и вызовы. В некоторых организациях Microsoft Teams [возможности](./cloud-voice-landing-page.md)облачной голосовой [](./what-are-phone-system-auto-attendants.md) почты, в том числе автоотекатаря и очереди вызовов, [](./create-a-phone-system-call-queue.md)отвечают их требованиям.
+Microsoft Teams поддерживает потоки взаимодействия с клиентом, выступая в качестве центра для внутреннего и внешнего взаимодействия с клиентами в различных режимах общения, включая чат, видеособрации и вызовы. В некоторых организациях Microsoft Teams [возможности](./cloud-voice-landing-page.md)облачной голосовой почты, в том числе автоотекатаря и очереди вызовов, отвечают их требованиям. [](./what-are-phone-system-auto-attendants.md) [](./create-a-phone-system-call-queue.md)
 
 Для организаций, которым нужны решения с бизнес-инструментами и процессами для развития клиентов, интеграция центра контактов с Microsoft Teams позволяет поставщикам решений Центра контактов (CCaaS) интегрировать свои решения в Teams.
 
@@ -75,6 +75,7 @@ Microsoft Teams поддерживает потоки взаимодействи
 | `Landis Technologies` | https://landistechnologies.com/microsoft-teams-contact-center/                                          |
 | `Luware` | https://luware.com/en/solutions/                                                                                       |
 | `Mida Solutions` | https://www.midasolutions.com/c3-cloud-contact-center-for-teams/                                        |
+| `novomind` | https://www.netcall.com/platform/contact-centre/                         |
 | `novomind` | https://www.novomind.com/en/customer-service-software-call-center/microsoft-teams/                             |
 | `talkdesk` | https://www.talkdesk.com/cloud-contact-center/integrations/microsoft-teams/                                  |
 | `Tendfor` | https://www.tendfor.com/en/                                                                                     |
