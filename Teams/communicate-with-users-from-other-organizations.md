@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
 description: Узнайте, как звонить, общаться в чатах и добавлять пользователей из-за пределов организации в Microsoft Teams с помощью внешнего доступа (федерации) и гостевого доступа.
-ms.openlocfilehash: 63077f500f1cf4953abf200913d39c37846eb4e5
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ab6a15edc1aa8d0de6f77b96ed176171ff5d65ae
+ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60763077"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "62288437"
 ---
 # <a name="use-guest-access-and-external-access-to-collaborate-with-people-outside-your-organization"></a>Использование гостевого и внешнего доступа для совместной работы с людьми из-за пределов организации
 
@@ -45,7 +45,7 @@ ms.locfileid: "60763077"
 Сведения о настройке внешнего доступа см. в статье [Управление внешним доступом](manage-external-access.md). 
 
 >[!NOTE]
->Бесплатные лицензии Microsoft Teams не поддерживают внешний доступ.
+> Лицензии [бесплатной версии Microsoft Teams (классической)](https://support.microsoft.com/office/welcome-to-microsoft-teams-free-classic-6d79a648-6913-4696-9237-ed13de64ae3c) не поддерживают внешний доступ.
 
 ## <a name="guest-access"></a>Гостевой доступ
 
