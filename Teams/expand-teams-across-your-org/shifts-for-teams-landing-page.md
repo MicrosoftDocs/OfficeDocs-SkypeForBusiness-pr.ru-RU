@@ -13,23 +13,25 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_FLW
 - microsoftcloud-healthcare
+- microsoftcloud-retail
 search.appverid: MET150
 searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
+- Microsoft Cloud for Retail
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: 905e846537e40178eba55f1a4ccd9a0d1fd1f993
-ms.sourcegitcommit: 909b0a709983d21fa6f2b547a78cc6a1222188df
+ms.openlocfilehash: 4c3ed73b3238be2795c30fa7d162ed201cd77afd
+ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/30/2022
-ms.locfileid: "62279186"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "62288507"
 ---
 # <a name="shifts-for-teams"></a>"Смены" для Teams
 
-Смены, средство управления расписанием в Teams, обеспечивает связь и синхронизацию сотрудников. Оно сначала встроено на мобильных устройствах для быстрого и эффективного управления расписаниями и связи. С помощью shifts руководители и работники могут легко управлять расписаниями и поддерживать связь.
+Смены, средство управления расписанием в Teams, обеспечивает подключение и синхронизацию сотрудников. Оно сначала встроено на мобильных устройствах для быстрого и эффективного управления расписаниями и связи. С помощью shifts руководители и работники могут легко управлять расписаниями и поддерживать связь.
 
 Руководители могут создавать, обновлять расписания смен и управлять ими в своих командах. Они могут назначать смены, добавлять открытые смены и утверждать запросы на расписание от сотрудников. Сотрудники могут просматривать собственные расписания и расписания своей группы, устанавливать их доступность, запрашивать обмен сменами или предлагать смены, запрашивать отключки, а также часы в и на работе.
 
@@ -52,7 +54,7 @@ ms.locfileid: "62279186"
 |---------|---------|
 |<img src="/office/media/icons/connector-teams.png" alt="Connector symbol.">     | **[Общие сведения о соединителах смен](shifts/shifts-connectors.md)** Общие сведения о соединителах Смены и их работе. Узнайте о доступных соединителах с управляемыми данными и с открытым кодом, а также о поддерживаемых системах WFM.   |
 |<img src="/office/media/icons/connector-teams.png" alt="Connector symbol.">     | **[Соединители управляемых смен](shifts/shifts-connectors.md#managed-shifts-connectors)** Соединители Управляемые смены, разработанные в совместной работе с нашими партнерами, находятся и управляются нами или нашими партнерами. Если вы используете WFM-систему Reflexis, дополнительные Microsoft Teams [в этой](shifts/shifts-connectors.md#reflexis-shifts-connector-for-microsoft-teams) области.    |
-|<img src="/office/media/icons/api.png" alt="Three gears - API.">    | **[Соединители Смены с открытым кодом](/microsoftteams/platform/samples/shifts-wfm-connectors)** Узнайте, как использовать [](https://github.com/OfficeDev/Microsoft-Teams-Shifts-WFM-Connectors) соединителы с открытым кодом на основе сообщества для интеграции системы Kronos или JDA WFM с помощью API и SDK с помощью Graph Shifts.    |
+|<img src="/office/media/icons/api.png" alt="Three gears - API.">    | **[Соединители Смены с открытым кодом](/microsoftteams/platform/samples/shifts-wfm-connectors)** Узнайте, как использовать [](https://github.com/OfficeDev/Microsoft-Teams-Shifts-WFM-Connectors) соединителы с открытым кодом на основе сообщества для интеграции системы Kronos или JDA WFM с помощью API и SDK на основе Graph Shifts.    |
 
 ## <a name="shifts-extensions"></a>Расширения смен
 

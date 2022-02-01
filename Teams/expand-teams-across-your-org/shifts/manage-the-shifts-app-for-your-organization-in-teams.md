@@ -11,6 +11,7 @@ search.appverid: MET150
 searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
+- Microsoft Cloud for Retail
 description: Узнайте, как настроить приложение "Смены" и управлять им в Teams для сотрудников, работающих в вашей организации.
 f1.keywords:
 - NOCSH
@@ -19,15 +20,16 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_FLW
 - microsoftcloud-healthcare
+- microsoftcloud-retail
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ec708d310ea72ac56b5f6ad6bb65a4ab436915f6
-ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
+ms.openlocfilehash: fa274c8aa068d7b17ce35d17525b58152677de07
+ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62192380"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "62288377"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Управление приложением "Смены" для вашей организации в Microsoft Teams
 
@@ -58,7 +60,7 @@ ms.locfileid: "62192380"
 По умолчанию приложение "Смены" включено для всех пользователей Teams в организации. Вы можете отключить или включить приложение на уровне организации на странице [Управление приложениями](../../manage-apps.md) в Центре администрирования Microsoft Teams.
 
 1. В левой панели навигации Центра администрирования Microsoft Teams выберите **Приложения Teams** > **Управление приложениями**.
-2. В списке приложений найди приложение "Смены", выберите  его и переключение переключателя Состояние в положение **Заблокировано** или **Разрешено.**
+2. В списке приложений найди приложение "Смены", выберите его и переключение переключателя Состояние на **Заблокировано** или **Разрешено**.
 
 ### <a name="enable-or-disable-shifts-for-specific-users-in-your-organization"></a>Включение и отключение Смен для определенных пользователей в организации
 
@@ -68,7 +70,7 @@ ms.locfileid: "62192380"
 
 Политики настройки приложений позволяют настроить Teams, чтобы выделить приложения, которые наиболее важны для пользователей в организации. Приложения, настроенные в политике, закрепляются на панели приложения&mdash;панели сбоку классического клиента Teams и в нижней части мобильных клиентов Teams,&mdash;где пользователи могут быстро и легко получить к ним доступ.
 
-Вы можете создать [настраиваемую политику настройки приложения,](../../teams-app-setup-policies.md) [](../../assign-policies-users-and-groups.md) добавив приложение "Смены", а затем назначив ее пользователям. Вы также можете использовать политику настройки приложений, которая входит в пакеты политик Frontline Worker и Frontline Manager.
+Вы можете создать [настраиваемую политику настройки приложения](../../teams-app-setup-policies.md), добавив приложение "Смены", [](../../assign-policies-users-and-groups.md) а затем назначив ее пользователям. Вы также можете использовать политику настройки приложений, которая входит в пакеты политик Frontline Worker и Frontline Manager.
 
 Пакет [политики в](../../manage-policy-packages.md) Teams — это набор предопределевших политик и параметров политики, которые можно назначить пользователям с похожими ролями в организации. Набор политик в пакетах политики Frontline Worker и Frontline Manager включает политику настройки приложения, которая закреплена в приложении "Смены" и других приложениях, которые поддерживают взаимодействие и совместную работу для этой роли.
 
