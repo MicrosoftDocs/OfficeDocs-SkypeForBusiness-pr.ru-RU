@@ -34,7 +34,7 @@ ms.locfileid: "61625930"
 
 Не пропустите наше видео "Добро пожаловать в Teams" для администраторов Teams (чуть больше 3 минут):
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE47cdp]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4vAJL]
 
 Если вы ищете справку по Teams для пользователей, щелкните **Справка** в левой части приложения или перейдите в [Справочный центр Microsoft Teams](https://support.office.com/teams). Для обучения перейдите в раздел [Обучение работе с Microsoft Teams](training-microsoft-teams-landing-page.md). 
 
