@@ -1754,8 +1754,10 @@ items:
                 href: exchange-hybrid-organization.md
               - name: Использование правил потока обработки почты в Exchange
                 href: /microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365
-          - name: Взаимодействие SharePoint Online и OneDrive для бизнеса с Teams
-            href: sharepoint-onedrive-interact.md
+          - name: Обзор интеграции Teams и SharePoint
+            href: /sharepoint/teams-connected-sites?bc=%2fteamss%2fbreadcrumb%2ftoc.json&toc=%2fteams%2ftoc.json
+          - name: Управление параметрами интеграции SharePoint и Teams
+            href: /sharepoint/manage-teams-sharepoint-experiences?bc=%2fteamss%2fbreadcrumb%2ftoc.json&toc=%2fteams%2ftoc.json
       - name: PowerShell в Teams
         items:
           - name: Обзор
