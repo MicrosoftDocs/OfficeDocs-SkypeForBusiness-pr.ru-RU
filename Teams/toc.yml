@@ -495,8 +495,8 @@ items:
         href: turn-off-teams-native-file-upload-policy.md
       - name: Настройка модерации канала в Teams
         href: manage-channel-moderation-in-teams.md
-      - name: Управление интерактивными компонентами
-        href: live-components-in-teams.md
+      - name: Управление компонентами Loop
+        href: loop-components-in-teams.md
       - name: Teams и интеграция электронной почты Outlook
         href: teams-outlook-email-integration.md
       - name: Поделиться в Teams из Outlook
@@ -1755,9 +1755,9 @@ items:
               - name: Использование правил потока обработки почты в Exchange
                 href: /microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365
           - name: Обзор интеграции Teams и SharePoint
-            href: /sharepoint/teams-connected-sites?bc=%2fteamss%2fbreadcrumb%2ftoc.json&toc=%2fteams%2ftoc.json
+            href: /sharepoint/teams-connected-sites?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
           - name: Управление параметрами интеграции SharePoint и Teams
-            href: /sharepoint/manage-teams-sharepoint-experiences?bc=%2fteamss%2fbreadcrumb%2ftoc.json&toc=%2fteams%2ftoc.json
+            href: /sharepoint/manage-teams-sharepoint-experiences?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
       - name: PowerShell в Teams
         items:
           - name: Обзор
