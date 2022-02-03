@@ -753,7 +753,7 @@ items:
                 href: ptsn-mask-phone-numbers.md
           - name: Доступность аудиоконференций в различных странах и регионах
             href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
-          - name: Справочные материалы
+          - name: Справка
             items:
               - name: Поддерживаемые языки аудиоконференций
                 href: audio-conferencing-supported-languages.md
@@ -1429,6 +1429,8 @@ items:
             href: devices/Teams-Android-devices-user-interface.md
           - name: Рекомендации по проверке подлинности для устройств с Android
             href: devices/authentication-best-practices-for-android-devices.md
+          - name: Настройка автоматического ответа для устройств с Android в Teams
+            href: set-up-auto-answer-on-teams-android.md
           - name: Комнатные устройства и решения для проведения собраний
             href: /skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
           - name: Сертифицированные устройства Teams
