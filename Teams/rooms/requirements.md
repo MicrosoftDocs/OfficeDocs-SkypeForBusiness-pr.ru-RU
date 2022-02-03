@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Узнайте о требованиях к поддержке Комнаты Microsoft Teams, включая выбор соответствующего устройства, микрофонов, динамиков, камер и дисплеев.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9525c4dba78cc26c3d45ee4ee5831eb3deee93a5
-ms.sourcegitcommit: d3c48f0c147cf0c47d5eb4ea1128b5bca13be718
+ms.openlocfilehash: 0609fc0267a20d716d897ad4782842395b9835b1
+ms.sourcegitcommit: 5e9a8d3cdb72b57adfb842200159c5d753b70ecb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62299044"
+ms.lasthandoff: 02/03/2022
+ms.locfileid: "62329049"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Требования к комнатам Microsoft Teams
 
@@ -132,13 +132,16 @@ ms.locfileid: "62299044"
 |[Aver CAM 130](https://www.averusa.com/products/conference-camera/cam130) |0.0.7450.02 | &#x2714; |
 |[Aver VB130 Camera Soundbar](https://www.averusa.com/products/conference-camera/vb130) |0.0.7300.71 |
 |[Bose Video Bar VB1](https://pro.bose.com/en_us/products/conferencing/videobars/bose-videobar-vb1.html?mc=25_PS_VB_BO_00_BI_&&msclkid=fc99b79880f714727a63e86ea0e5642a&utm_source=bing&utm_medium=cpc&utm_campaign=US%20-%20Brand_Videobar%20VB1_Exact&utm_term=bose%20videobar%20vb1&utm_content=Bose%20Videobar%20VB1&gclid=fc99b79880f714727a63e86ea0e5642a&gclsrc=3p.ds) |19.2|
-|[Vio Devio SCR-20CX Web-Based Conferencing Hub с микрофоном окверха](https://www.biamp.com/products/product-families/devio/huddle-room-solutions) |2.2.0.9|
+|[VioMp Devio SCR-20CX Web-Based Conferencing Hub с микрофоном окверха](https://www.biamp.com/products/product-families/devio/huddle-room-solutions) |2.2.0.9|
 |[Vio Devio SCR-20TX Web-Based Conferencing Hub с настольным микрофоном](https://www.biamp.com/products/product-families/devio/huddle-room-solutions) |2.2.0.9 |
 |[Crestron Huddly IQ](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/CCS-CAM-USB-F-400)   | 1.02.09.33901  | 
 |[Huddly Canvas](https://www.huddly.com/blog/say-hello-to-huddly-canvas-our-latest-ai-technology-for-content-capture-and-enhancement/) | 1.3.25 |  &#x2714; |
 |[Huddly IQ](https://www.huddly.com/conference-cameras/iq/) |1.3.22|
 |[Huddly IQ Lite](https://www.huddly.com/conference-cameras/iq/) |1.3.29|
 |[Huddly IQ Camera](https://www.huddly.com/conference-cameras/iq/) |1.3.27|
+|Камера Huddly L1 с пакетом [MTR Для UC-C100-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T) | Камера Huddly L1: 1.2.1 </br> Для вычислений 1.0.20.246 или более |
+|Камера Huddly L1 с пакетом MTR в Моделироне UC-M70-T | Камера Huddly L1: 1.2.1 </br> Для вычислений с 1.0.20.246 или более высокой производительной осью UC-M70-T с ASUS Tek Computer INC 9934 |
+|Камера Huddly L1 с пакетом MTR в Моделироне UC-MX70-T | Камера Huddly L1: 1.2.1 </br> Для вычислений 1.0.20.246 или более высокой оси с помощью asUS Tek Computer INC 9934 можно укадрять UC-MX70-T с ASUS Tek Computer INC 9934. |
 |[Камера Jabra Panacast3](https://www.jabra.com/business/video-conferencing/jabra-panacast)|1.3.9.12|
 |[Jabra Panacast 50 Video Bar](https://www.jabra.com/business/video-conferencing/jabra-panacast-50)|1.13.7| &#x2714; |
 |[Lenovo ThinkSmart Cam Camera](https://www.lenovo.com/us/en/accessories-and-monitors/webcams-and-video/webcams/SMARTOF-BO-ThinkSmart-Cam/p/4Y71C41660)|1.0.111.4|
@@ -191,7 +194,7 @@ ms.locfileid: "62299044"
 |[Shure Intellimix P300 Audio Conferencing Processor](https://www.shure.com/products/mixers/p300) + </br></br> [Часовой диапазон MXA 910 с микрофоном Intellimix Ceiling Array](https://www.shure.com/products/microphones/mxa910) +</br></br> [Динамик октата MXN5W-C](https://www.shure.com/en-US/products/loudspeakers/mxn5)| P300 DSP: 4.1.11 </br> Микрофон октаксиса массива MXA910: 4.1.41 </br> Динамик MXN5W-C: 1.0.4 |
 |[Microphonere MXA 710 2ft Table Linear Array Microphone](https://www.shure.com/products/microphones/mxa710) + </br></br> [Shure Intellimix P300 Audio Conferencing Processor](https://www.shure.com/products/mixers/p300) +</br></br> [Динамик октата MXN5-C](https://www.shure.com/en-US/products/loudspeakers/mxn5)| MXA710 2ft Table Linear Array Mic: 1.2.0 </br> P300 DSP: 4.4.8 </br> Динамик MXN5-C: 1.1.1 |
 |[Микрофон линейного массива стены 710 4ft](https://www.shure.com/products/microphones/mxa710) + </br></br> [Shure Intellimix P300 Audio Conferencing Processor](https://www.shure.com/products/mixers/p300) +</br></br> [Динамик октата MXN5-C](https://www.shure.com/en-US/products/loudspeakers/mxn5)| MXA710 4ft Wall Linear Array Mic: 1.2.0 </br> P300 DSP: 4.4.8 </br> Динамик MXN5-C: 1.1.1 |
-|[Микрофон массива Intellimix с технологией Intellimix Ceiling Array 910](https://www.shure.com/products/microphones/mxa910) + </br> [Программное обеспечение комнаты Intellimix](https://www.shure.com/products/software/intellimix_room) +</br> [Crestron UC-C100-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T)| Программное обеспечение комнаты Intellimix: 3.0.4.14 </br> Телефона MXA 910 с микрофоном intellimix Ceiling Array: 4.4.11 </br> Динамики MXN5-C: 1.2.1 </br> UC-C100-T: windows IOT 19h2/20h2 OS версии с версией приложения MTR 4.8.31.0 </br> БИО: ASUS Tek Computer INC 9934 27.08.2020 </br> ЦП: i5–9500TCPU/i7-9700T </br> Физическая память: 8 ГБ ОЗУ | 
+|[Микрофон массива Intellimix с технологией Intellimix Ceiling Array 910](https://www.shure.com/products/microphones/mxa910) + </br> [Программное обеспечение комнаты Intellimix](https://www.shure.com/products/software/intellimix_room) +</br> [Crestron UC-C100-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T)| Программное обеспечение комнаты Intellimix: 3.0.4.14 </br> Телефона MXA 910 с микрофоном intellimix Ceiling Array: 4.4.11 </br> Динамики MXN5-C: 1.2.1 </br> Computron UC-C100-T с asUS Tek Computer INC 9934 | 
 |[Biamp Tesira Fore AVB VT4 Fixed audio DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ &Dagger;</br></br> [Sennheiser TeamConnect Ceiling 2 Microphone](https://sennheiser.com/tcc2)+ &Dagger;</br></br> [Tesira EX-UBT](https://www.biamp.com/products/tesira/tesira-expanders) &Dagger; |  Biamp DSP: 3.12.0.15  </br></br> TCC2: 1.3.3 </br></br> EX-UBT: 3.12.0.15 |
 |[Записная книжка Tesira FORTÉ AVB VT4 Audio DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ </br></br>[Дефис Parlé TCM-XA окне окне микрофона](https://www.biamp.com/products/product-families/parle/parle-microphones)+</br></br> [Десоно C-IC6, повернутый в динамик](https://www.biamp.com/products/tesira-speakers)| Audio FW version: 3.15|
 |[Дефис TesiraFORTE AVB VT4](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ </br></br>[Parle TTM-X(Table Mic)](https://www.biamp.com/products/product-families/parle/parle-microphones)+</br></br>[Ex-UBT]() |Audio FW version: 3.15|
