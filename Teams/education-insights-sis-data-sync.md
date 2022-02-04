@@ -1,7 +1,7 @@
 ---
 title: Синхронизация сведений системы данных об учащихся (SIS) с помощью Insights для образования
-author: MicrosoftHeidi
-ms.author: heidip
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.topic: reference
 ms.service: msteams
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e5a7a6ec9bab56bacc2eb8beab4c40da80946e60
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b22b66800e71f1cea90c31b7091eb98a99466e9f
+ms.sourcegitcommit: 1129841e68e927fe7cc31de3ad63a3e9247253cd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58603458"
+ms.lasthandoff: 02/03/2022
+ms.locfileid: "62363025"
 ---
 # <a name="sync-student-information-system-sis-data-with-education-insights"></a>Синхронизация сведений системы данных об учащихся (SIS) с помощью Insights для образования
 Чем больше данных вводится в [Insights для образования](class-insights.md), тем лучше преподаватели могут поддерживать своих учащихся, а руководители образовательных учреждений поддерживать преподавателей.

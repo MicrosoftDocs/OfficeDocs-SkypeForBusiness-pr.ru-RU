@@ -1,7 +1,7 @@
 ---
 title: Политики и пакеты политик Microsoft Teams для администраторов образовательных учреждений
-author: MicrosoftHeidi
-ms.author: heidip
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.reviewer: prkuch
 ms.topic: article
@@ -21,12 +21,12 @@ ms.custom: ms.teamsadmincenter.policypackages.overview
 ms.localizationpriority: high
 search.appverid: MET150
 description: Узнайте о политиках в параметрах образовательных учреждениях или средах, а также о способах использования и управления пакетами политик в Microsoft Teams.
-ms.openlocfilehash: 80e4b7becb720a6e4e89740ce7bf8c1c49e33af9
-ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
+ms.openlocfilehash: ce2c3a93d524ce9e08c3e97dd51ef8c6f19d9111
+ms.sourcegitcommit: 1129841e68e927fe7cc31de3ad63a3e9247253cd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/28/2021
-ms.locfileid: "60605385"
+ms.lasthandoff: 02/03/2022
+ms.locfileid: "62363005"
 ---
 # <a name="teams-policies-and-policy-packages-for-education"></a>Политики и пакеты политик Teams для образования
 
@@ -78,7 +78,7 @@ Microsoft Teams позволяет пользователям участвова
 
 Чтобы создать или изменить определения политик, перейдите к политикам в нужной области возможностей (например, политикам обмена сообщениями). Чтобы создать новое настраиваемое определение политики, выберите **Добавить**. Чтобы изменить существующее определение политики, нажмите **Изменить**.
 
-:::image type="content" source="media/edu-messaging-policies-add-closeup.png" alt-text="Крупный план раздела политик обмена сообщениями с отображением кнопки Добавить.":::
+:::image type="content" source="media/edu-messaging-policies-add-closeup.png" alt-text="Крупный план раздела политик обмена сообщениями с отображением кнопки "Добавить".":::
 
 Если вы решите добавить или изменить определение политики, вы перейдете в представление со списком всех параметров политик, относящихся к этой области. Используйте этот список, чтобы выбрать значения, которые нужно настроить в определении политики.
 
@@ -144,7 +144,7 @@ Microsoft Teams позволяет пользователям участвова
 |**Education_PrimaryStudent_RemoteLearning**| Учащиеся начальной школы| Создает набор политик, применимых к учащимся начальных классов, для обеспечения максимальной безопасности и совместной работы учащихся при использовании дистанционного обучения.
 |||
 
-:::image type="content" source="media/edu-policy-packages-list.png" alt-text="Страница Пакеты политик со списком пакетов политик на выбор.":::
+:::image type="content" source="media/edu-policy-packages-list.png" alt-text="Страница "Пакеты политик" со списком пакетов политик на выбор.":::
 
 Для удобного определения политики, связанной с пакетом политик, каждой отдельной политике присваивается имя соответствующего пакета политик. Например, когда вы назначаете пакет политик "Образование (преподаватель)" преподавателям в образовательном учреждении, для каждой политики в пакете создается политика с именем "Образование (преподаватель)".
 

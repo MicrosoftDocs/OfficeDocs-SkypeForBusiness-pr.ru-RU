@@ -15,43 +15,43 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: Узнайте, какие USB-периферийные устройства (например, гарнитуры, динамики, веб-камеры и мониторы) сертифицированы для Microsoft Teams.
-ms.openlocfilehash: 32d4f7002739114bc69c9d6b9cb2818c0c57febb
-ms.sourcegitcommit: 9caa3131e9896b140afe10edea2b1e599eacd02b
+ms.openlocfilehash: d47e4723efae7ba339b54f5aa62064775d882e38
+ms.sourcegitcommit: 1129841e68e927fe7cc31de3ad63a3e9247253cd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "62082185"
+ms.lasthandoff: 02/03/2022
+ms.locfileid: "62363195"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Аудио- и видео устройства USB, сертифицированные для Microsoft Teams
 
 Программа сертификации периферийных устройств гарантирует, что периферийные устройства USB (например, гарнитуры, динамики, веб-камеры и мониторы) обеспечивают высокое качество звука и видео. Сертифицированные устройства работают (подключаются & воспроизведения) без дополнительной настройки и предлагают управление звонками с помощью Microsoft Teams и Skype для бизнеса. Эти продукты обеспечивают отличный опыт для конечных пользователей и администраторов.
 
-Чтобы изучить устройства, протестированных и сертифицированные для Microsoft Teams, посетите магазин [Teams .](https://products.office.com/microsoft-teams/across-devices/devices)
+Чтобы изучить устройства, протестированных и сертифицированные для Microsoft Teams, откройте Teams [Магазине](https://products.office.com/microsoft-teams/across-devices/devices).
 
 Дополнительные сведения о поддержке управления звонками с помощью Teams см. в этой [Teams.](https://support.office.com/article/Control-calls-using-a-headset-in-Teams-65d6e104-444d-4013-b8c2-f11317dd69a8)
 
 > [!TIP]
-> Ищете устройства, сертифицированные для Skype для бизнеса? Перенайму аудио- и [видео устройства USB, сертифицированные для Skype для бизнеса.](/skypeforbusiness/certification/devices-usb-devices)
+> Ищете устройства, сертифицированные для Skype для бизнеса? Перенайму [аудио- и видео устройства USB, сертифицированные для Skype для бизнеса](/skypeforbusiness/certification/devices-usb-devices).
 
 ## <a name="understanding-certification-categories"></a>Категории сертификации
 
 Пользователям не нужно заменять ранее сертифицированные устройства при обновлении до Teams из Skype для бизнеса.  Все сертифицированные устройства поддерживаются Microsoft Teams и Skype для бизнеса пользователями с несколькими различиями.  Сертификация также обеспечивает дальнейшую классификацию для определенных категорий устройств.
 
-- **Skype для бизнеса сертифицированы с Teams обновления** Устройства, сертифицированные на этом уровне, изначально сертифицированы для Skype для бизнеса. Корпорация Майкрософт вместе с производителями устройств обеспечивает наилучшее Teams интеграцию без каких-либо изменений исходного оборудования. Кнопка *"Подключиться"* работает как Teams во время звонка и со временем может включать дополнительные функции.  Устройства в этой категории могут Teams сертификации в маркетинговых материалах.
+- **Skype для бизнеса сертифицированы с Teams обновления** Устройства, сертифицированные на этом уровне, изначально сертифицированы для Skype для бизнеса. Корпорация Майкрософт вместе с производителями устройств обеспечивает наилучшее Teams интеграции без изменения исходного оборудования. *Кнопка "Подключиться*" работает как Teams во время звонка и со временем может включать дополнительные функции.  Устройства этой категории могут иметь Teams сертификации в маркетинговых материалах.
 - **Сертифицированные для Microsoft Teams** устройства, сертифицированные на этом уровне, указывают на новые устройства, сертифицированные для Teams работы. Эти устройства предлагают все преимущества предыдущей сертификации, а также специальную кнопку Teams с индикатором LED. В большинстве форм кнопка Teams легко найти кнопку тактиль с Teams логотипом. Корпорация Майкрософт продолжает работать с производителями устройств, чтобы со временем предоставлять новые возможности с помощью обновлений по программному обеспечениям.
 
 ### <a name="special-usage-designations"></a>Специальные обозначений использования
 
-- **Premium Микрофон** для open Office все гарнитуры проверяются на четкость звука, но открытый офис и другие шумные среды представляют собой большую проблему. Гарнитуры с таким обозначением подбирают голос пользователя гарнитуры, но не передают звук его микрофона.
+- Premium Микрофон для **open Office** все гарнитуры проверяются на четкость звука, но открытый офис и другие шумные среды представляют собой большую проблему. Гарнитуры с таким обозначением подбирают голос пользователя гарнитуры, но не передают звук его микрофона.
 - **Размер комнаты для собраний** Общие устройства, такие как динамики и камеры, поддерживают расстояние использования. Рекомендуемые расстояния зависят от производителя. Чтобы предоставить клиентам четкие рекомендации, все общие устройства проверяются на сертификацию на уровне четко определенных размеров помещений и шумовых сред.
 
-Просмотрите [устройства, сертифицированные для Microsoft Teams.](https://products.office.com/microsoft-teams/across-devices/devices)
+[Просмотрите устройства, сертифицированные Microsoft Teams](https://products.office.com/microsoft-teams/across-devices/devices).
 
 ## <a name="end-user-experience"></a>Характер работы пользователей
 
-### <a name="new-teams-certification-benefits"></a>Новые преимущества Teams сертификации
+### <a name="new-teams-certification-benefits"></a>Новые Teams сертификации
 
-- Выделенная Teams и индикатора LED.
+- Выделенная кнопка Teams и индикатор с индикатором LED.
 - Уведомления пользователей о событиях и оповещениях от клиента Teams (например, начало собрания, голосовая почта или пропущенный звонок).
 - Возможность активировать Teams клиента или ответить на уведомление с помощью кнопки (например, присоединиться к собранию).
 - Сертификация, предназначенная для доступности (новые функции устройства и клиента, которые будут поставляться с помощью обновления по фирменому ПО).
@@ -70,15 +70,15 @@ ms.locfileid: "62082185"
 - Подготовка не требуется
 - На всех устройствах поддерживаются обновления по программному обеспечениям, что позволяет улучшить новые функции и производительность.
 
-Если вы изготовитель и хотите присоединиться к [](/skypeforbusiness/certification/how-to-join) программе сертификации, см. статью Как присоединиться к требованиям и доступным программам.
+Если вы изготовитель и хотите присоединиться к программе сертификации, см. статью Как присоединиться к требованиям и доступным программам.[](/skypeforbusiness/certification/how-to-join)
 
 ## <a name="certified-devices"></a>Сертифицированные устройства
 
-*Таблица обновлена в январе 2022 г.*
+*Таблица обновлена в феврале 2022 г.*
 
 | Производитель        | Модели                                                     | Квалифицированных      | Сертифицированная программа                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
-|Поли                 |Синхронизация 10 динамиков                                       |1/18/2021       |Сертифицировано для Microsoft Teams                           |
+|Dell                 |Slim Conferencing Soundbar SB522A                          |1/25/2022       |Сертифицировано для Microsoft Teams                           | 
 |Lenovo               |Перейти к проводной гарнитуре ANC                                       |1/12/2022       |Сертифицировано для Microsoft Teams                           |
 |Lenovo               |Перейти проводной динамик                                      |1/10/2022       |Сертифицировано для Microsoft Teams                           |
 |ЭПОС                 |IMPACT SDW 5066T                                           |12/1/2021       |Сертифицировано для Microsoft Teams                           |
@@ -88,7 +88,7 @@ ms.locfileid: "62082185"
 |ЭПОС                 |IMPACT SDW 5016T                                           |12/1/2021       |Сертифицировано для Microsoft Teams                           |
 |ЭПОС                 |IMPACT SDW 5013T                                           |12/1/2021       |Сертифицировано для Microsoft Teams                           |
 |Jabra                |PanaCast 20                                                |11/26/2021      |Сертифицировано для Microsoft Teams                           |
-|Поли                 |"Фокус 2" и "Office".                    |10/20/2021      |Сертифицировано для Microsoft Teams                           |
+|Поли                 |Фокус 2 и Говер Office Base                    |10/20/2021      |Сертифицировано для Microsoft Teams                           |
 |Поли                 |Гон 4320 и Office Base                       |10/20/2021      |Сертифицировано для Microsoft Teams                           |
 |Поли                 |Гон 4310 и Office Base                       |10/20/2021      |Сертифицировано для Microsoft Teams                           |
 |Jabra                |Гарнитура Evolve 2 75                                        |10/8/2021       |Сертифицировано для Microsoft Teams                           |
@@ -105,11 +105,11 @@ ms.locfileid: "62082185"
 |Поли                 |EncorePro 515-M                                            |4/26/2021       |Сертифицировано для Microsoft Teams                           |
 |Dell                 |Беспроводная гарнитура ANC для WL70222 Premier                        |4/22/2021       |Сертифицировано для Microsoft Teams                           |
 |Dell                 |Беспроводная гарнитура Pro WL5022                                |4/22/2021       |Сертифицировано для Microsoft Teams                           |
-|Dell                 |Проводная гарнитура WH3022 Pro WH3022                                   |4/22/2021       |Сертифицировано для Microsoft Teams                           |
+|Dell                 |Проводная гарнитура WH3022 Pro                                   |4/22/2021       |Сертифицировано для Microsoft Teams                           |
 |Logitech             |Веб-камера C920e                                               |4/22/2021       |Сертифицировано для Microsoft Teams                           |
 |Поли                 |Studio P5 Webcam                                           |4/22/2021       |Сертифицировано для Microsoft Teams                           |
-|Jabra                |Biz 2400 II                                                |4/22/2021       |Skype для бизнеса с обновлением до Microsoft Teams      |
-|Jabra                |Biz 2300                                                   |4/22/2021       |Skype для бизнеса с обновлением до Microsoft Teams      |
+|Jabra                |Biz 2400 II                                                |4/22/2021       |Skype для бизнеса обновления до Microsoft Teams      |
+|Jabra                |Biz 2300                                                   |4/22/2021       |Skype для бизнеса обновления до Microsoft Teams      |
 |Microsoft            |Современная беспроводная гарнитура                                    |4/19/2021       |Сертифицировано для Microsoft Teams                           |
 |Microsoft            |Современный динамик USB-C                                       |4/15/2021       |Сертифицировано для Microsoft Teams                           |
 |Microsoft            |Современная USB-гарнитура                                         |4/15/2021       |Сертифицировано для Microsoft Teams                           |
@@ -141,20 +141,20 @@ ms.locfileid: "62082185"
 |Dell                 |Монитор C2422HE                                            |12/11/2020      |Сертифицировано для Microsoft Teams                           |
 |Поли                 |Синхронизация 20 + динамикфон с поли BT600 USB Dongle          |11/9/2020       |Сертифицировано для Microsoft Teams                           |
 |Поли                 |Синхронизация 20 динамиков                                       |11/9/2020       |Сертифицировано для Microsoft Teams                           |
-|Jabra                |Гарнитура Evolve 65t                                         |10/31/2020      |Skype для бизнеса с обновлением до Microsoft Teams      |
-|EPOS/Sennheiser      |МБ Pro 1                                                   |10/2/2020       |Skype для бизнеса с обновлением до Microsoft Teams      |
-|EPOS/Sennheiser      |МБ Pro 2                                                   |10/2/2020       |Skype для бизнеса с обновлением до Microsoft Teams      |
-|Jabra                |Гарнитура Evolve 80                                          |8/23/2020       |Skype для бизнеса с обновлением до Microsoft Teams      |
-|Jabra                |Гарнитура Evolve 40                                          |8/23/2020       |Skype для бизнеса с обновлением до Microsoft Teams      |
-|Jabra                |Гарнитура Evolve 30 II                                       |8/23/2020       |Skype для бизнеса с обновлением до Microsoft Teams      |
-|Jabra                |Гарнитура Evolve 20                                          |8/23/2020       |Skype для бизнеса с обновлением до Microsoft Teams      |
-|EPOS/Sennhesier      |COMMAND 260 USB PTT                                        |8/20/2020       |Skype для бизнеса с обновлением до Microsoft Teams      |
-|EPOS/Sennheiser      |Impact SC 660 with USB-ED CC 01 MS connector               |8/20/2020       |Skype для бизнеса с обновлением до Microsoft Teams      |
-|EPOS/Sennheiser      |Impact SC 630 with USB-ED CC 01 MS connector               |8/20/2020       |Skype для бизнеса с обновлением до Microsoft Teams      |
-|EPOS/Sennheiser      |Impact SC 260 with USB-ED CC 01 MS connector               |8/20/2020       |Skype для бизнеса с обновлением до Microsoft Teams      |
-|Jabra                |Гарнитура Evolve 75                                          |7/31/2020       |Skype для бизнеса с обновлением до Microsoft Teams      |
-|Jabra                |Гарнитура Evolve 65                                          |7/31/2020       |Skype для бизнеса с обновлением до Microsoft Teams      |
-|Jabra                |Гарнитура Engage 50                                          |7/31/2020       |Skype для бизнеса с обновлением до Microsoft Teams      |
+|Jabra                |Гарнитура Evolve 65t                                         |10/31/2020      |Skype для бизнеса обновления до Microsoft Teams      |
+|EPOS/Sennheiser      |МБ Pro 1                                                   |10/2/2020       |Skype для бизнеса обновления до Microsoft Teams      |
+|EPOS/Sennheiser      |МБ Pro 2                                                   |10/2/2020       |Skype для бизнеса обновления до Microsoft Teams      |
+|Jabra                |Гарнитура Evolve 80                                          |8/23/2020       |Skype для бизнеса обновления до Microsoft Teams      |
+|Jabra                |Гарнитура Evolve 40                                          |8/23/2020       |Skype для бизнеса обновления до Microsoft Teams      |
+|Jabra                |Гарнитура Evolve 30 II                                       |8/23/2020       |Skype для бизнеса обновления до Microsoft Teams      |
+|Jabra                |Гарнитура Evolve 20                                          |8/23/2020       |Skype для бизнеса обновления до Microsoft Teams      |
+|EPOS/Sennhesier      |COMMAND 260 USB PTT                                        |8/20/2020       |Skype для бизнеса обновления до Microsoft Teams      |
+|EPOS/Sennheiser      |Impact SC 660 with USB-ED CC 01 MS connector               |8/20/2020       |Skype для бизнеса обновления до Microsoft Teams      |
+|EPOS/Sennheiser      |Impact SC 630 with USB-ED CC 01 MS connector               |8/20/2020       |Skype для бизнеса обновления до Microsoft Teams      |
+|EPOS/Sennheiser      |Impact SC 260 with USB-ED CC 01 MS connector               |8/20/2020       |Skype для бизнеса обновления до Microsoft Teams      |
+|Jabra                |Гарнитура Evolve 75                                          |7/31/2020       |Skype для бизнеса обновления до Microsoft Teams      |
+|Jabra                |Гарнитура Evolve 65                                          |7/31/2020       |Skype для бизнеса обновления до Microsoft Teams      |
+|Jabra                |Гарнитура Engage 50                                          |7/31/2020       |Skype для бизнеса обновления до Microsoft Teams      |
 |Avocor               |WCD- AVW-6555                                              |7/30/2020       |Сертифицировано для Microsoft Teams                           |
 |Jabra                |Гарнитура Evolve2 85                                         |7/17/2020       |Сертифицировано для Microsoft Teams                           |
 |Bose                 |Гарнитура NC 700                                             |6/8/2020        |Сертифицировано для Microsoft Teams                           |
@@ -164,46 +164,46 @@ ms.locfileid: "62082185"
 | ЭПОС                | Гарнитура Sennheiser Adapt 460T                             | 5/15/2020      | Сертифицировано для Microsoft Teams                          |
 | ЭПОС                | Гарнитура Sennheiser Adapt 360                              | 5/15/2020      | Сертифицировано для Microsoft Teams                          |
 | Yealink             | ГАРНИТУРА36                                              | 5/13/2020      | Сертифицировано для Microsoft Teams                          |
-| Поли                | Savi 8210 Office                                          | 4/20/2020      | Skype для бизнеса с обновлением до Microsoft Teams     |
-| Поли                | Savi 8210 UC                                              | 4/20/2020      | Skype для бизнеса с обновлением до Microsoft Teams     |
-| Поли                | Savi 8220 Office                                          | 4/20/2020      | Skype для бизнеса с обновлением до Microsoft Teams     |
-| Поли                | Savi 8220 UC                                              | 4/20/2020      | Skype для бизнеса с обновлением до Microsoft Teams     |
-| Поли                | Savi 8240 Office                                          | 4/20/2020      | Skype для бизнеса с обновлением до Microsoft Teams     |
-| Поли                | Savi 8240 UC                                              | 4/20/2020      | Skype для бизнеса с обновлением до Microsoft Teams     |
-| Поли                | Savi 8245 Office                                          | 4/20/2020      | Skype для бизнеса с обновлением до Microsoft Teams     |
-| Поли                | Savi 8245 UC                                             | 4/20/2020      | Skype для бизнеса с обновлением до Microsoft Teams     |
-| Поли                | Гарнитура Blackwire 5210                                    | 4/20/2020      | Skype для бизнеса с обновлением до Microsoft Teams     |
-| Поли                | Гарнитура Blackwire 5220                                    | 4/20/2020      | Skype для бизнеса с обновлением до Microsoft Teams     |
-| Поли                | Гарнитура Blackwire 7225                                    | 4/20/2020      | Skype для бизнеса с обновлением до Microsoft Teams     |
-| Поли                | Оглавка "Фокус"                                          | 4/20/2020      | Skype для бизнеса с обновлением до Microsoft Teams     |
+| Поли                | Savi 8210 Office                                          | 4/20/2020      | Skype для бизнеса обновления до Microsoft Teams     |
+| Поли                | Savi 8210 UC                                              | 4/20/2020      | Skype для бизнеса обновления до Microsoft Teams     |
+| Поли                | Savi 8220 Office                                          | 4/20/2020      | Skype для бизнеса обновления до Microsoft Teams     |
+| Поли                | Savi 8220 UC                                              | 4/20/2020      | Skype для бизнеса обновления до Microsoft Teams     |
+| Поли                | Savi 8240 Office                                          | 4/20/2020      | Skype для бизнеса обновления до Microsoft Teams     |
+| Поли                | Savi 8240 UC                                              | 4/20/2020      | Skype для бизнеса обновления до Microsoft Teams     |
+| Поли                | Savi 8245 Office                                          | 4/20/2020      | Skype для бизнеса обновления до Microsoft Teams     |
+| Поли                | Savi 8245 UC                                             | 4/20/2020      | Skype для бизнеса обновления до Microsoft Teams     |
+| Поли                | Гарнитура Blackwire 5210                                    | 4/20/2020      | Skype для бизнеса обновления до Microsoft Teams     |
+| Поли                | Гарнитура Blackwire 5220                                    | 4/20/2020      | Skype для бизнеса обновления до Microsoft Teams     |
+| Поли                | Гарнитура Blackwire 7225                                    | 4/20/2020      | Skype для бизнеса обновления до Microsoft Teams     |
+| Поли                | Оглавка "Фокус"                                          | 4/20/2020      | Skype для бизнеса обновления до Microsoft Teams     |
 | Yealink             | CP700                                                     | 4/13/2020      | Сертифицировано для Microsoft Teams                          |
 | Jabra               | Гарнитура Evolve2 65                                        | 4/13/2020      | Сертифицировано для Microsoft Teams                          |
-| EPOS/Sennheiser     | Impact SC 30                                              | 4/9/2020       | Skype для бизнеса с обновлением до Microsoft Teams     |
-| EPOS/Sennheiser     | Impact SC 45                                              | 4/9/2020       | Skype для бизнеса с обновлением до Microsoft Teams     |
-| EPOS/Sennheiser     | Impact SC 60                                              | 4/9/2020       | Skype для бизнеса с обновлением до Microsoft Teams     |
-| EPOS/Sennheiser     | Impact SC 75 MS                                           | 4/9/2020       | Skype для бизнеса с обновлением до Microsoft Teams     |
-| EPOS/Sennheiser     | Impact SC 75 MS EUL                                       | 4/9/2020       | Skype для бизнеса с обновлением до Microsoft Teams     |
-| EPOS/Sennheiser     | Impact SC 230 USB MS II                                   | 4/9/2020       | Skype для бизнеса с обновлением до Microsoft Teams     |
-| EPOS/Sennheiser     | Impact SC 260 USB MS II                                   | 4/9/2020       | Skype для бизнеса с обновлением до Microsoft Teams     |
-| EPOS/Sennheiser     | Impact SC 630 USB MS                                      | 4/9/2020       | Skype для бизнеса с обновлением до Microsoft Teams     |
-| EPOS/Sennheiser     | Impact SC 635 USB                                         | 4/9/2020       | Skype для бизнеса с обновлением до Microsoft Teams     |
-| EPOS/Sennheiser     | Impact SC 660 USB MS                                      | 4/9/2020       | Skype для бизнеса с обновлением до Microsoft Teams     |
-| EPOS/Sennheiser     | Impact SC 660 ANC USB                                     | 4/9/2020       | Skype для бизнеса с обновлением до Microsoft Teams     |
-| EPOS/Sennheiser     | Impact SC 665 USB                                         | 4/9/2020       | Skype для бизнеса с обновлением до Microsoft Teams     |
+| EPOS/Sennheiser     | Impact SC 30                                              | 4/9/2020       | Skype для бизнеса обновления до Microsoft Teams     |
+| EPOS/Sennheiser     | Impact SC 45                                              | 4/9/2020       | Skype для бизнеса обновления до Microsoft Teams     |
+| EPOS/Sennheiser     | Impact SC 60                                              | 4/9/2020       | Skype для бизнеса обновления до Microsoft Teams     |
+| EPOS/Sennheiser     | Impact SC 75 MS                                           | 4/9/2020       | Skype для бизнеса обновления до Microsoft Teams     |
+| EPOS/Sennheiser     | Impact SC 75 MS EUL                                       | 4/9/2020       | Skype для бизнеса обновления до Microsoft Teams     |
+| EPOS/Sennheiser     | Impact SC 230 USB MS II                                   | 4/9/2020       | Skype для бизнеса обновления до Microsoft Teams     |
+| EPOS/Sennheiser     | Impact SC 260 USB MS II                                   | 4/9/2020       | Skype для бизнеса обновления до Microsoft Teams     |
+| EPOS/Sennheiser     | Impact SC 630 USB MS                                      | 4/9/2020       | Skype для бизнеса обновления до Microsoft Teams     |
+| EPOS/Sennheiser     | Impact SC 635 USB                                         | 4/9/2020       | Skype для бизнеса обновления до Microsoft Teams     |
+| EPOS/Sennheiser     | Impact SC 660 USB MS                                      | 4/9/2020       | Skype для бизнеса обновления до Microsoft Teams     |
+| EPOS/Sennheiser     | Impact SC 660 ANC USB                                     | 4/9/2020       | Skype для бизнеса обновления до Microsoft Teams     |
+| EPOS/Sennheiser     | Impact SC 665 USB                                         | 4/9/2020       | Skype для бизнеса обновления до Microsoft Teams     |
 | Logitech            | Zone Wireless                                             | 4/8/2020       | Сертифицировано для Microsoft Teams                          |
-| Поли                | Voyager 8200 Headset                                      | 3/26/2020      | Skype для бизнеса с обновлением до Microsoft Teams     |
+| Поли                | Voyager 8200 Headset                                      | 3/26/2020      | Skype для бизнеса обновления до Microsoft Teams     |
 | Logitech            | Zone Wired                                                | 3/26/2020      | Сертифицировано для Microsoft Teams                          |
 | Jabra               | Гарнитура Evolve2 40                                        | 3/26/2020      | Сертифицировано для Microsoft Teams                          |
-| Поли                | Voyager 6200 Headset                                      | 3/23/2020      | Skype для бизнеса с обновлением до Microsoft Teams     |
+| Поли                | Voyager 6200 Headset                                      | 3/23/2020      | Skype для бизнеса обновления до Microsoft Teams     |
 | Поли                | Квервер 4245 Office                                       | 3/23/2020      | Сертифицировано для Microsoft Teams                          |
 | Поли                | Гарнитура Blackwire 8225                                    | 3/23/2020      | Сертифицировано для Microsoft Teams                          |
 | Поли                | Calisto 5300-M                                            | 03/05/2020     | Сертифицировано для Microsoft Teams                          |
-| Поли                | Гоголев 4210 Office                                       | 03/05/2020     | Сертифицировано для Microsoft Teams                          |
-| Поли                | Скайвер 4210 UC                                           | 03/05/2020     | Skype для бизнеса с обновлением до Microsoft Teams     |
+| Поли                | Квервер 4210 Office                                       | 03/05/2020     | Сертифицировано для Microsoft Teams                          |
+| Поли                | Скайвер 4210 UC                                           | 03/05/2020     | Skype для бизнеса обновления до Microsoft Teams     |
 | Поли                | Квервер 4220 Office                                       | 03/05/2020     | Сертифицировано для Microsoft Teams                          |
-| Поли                | Скайвер 4220 UC                                           | 03/05/2020     | Skype для бизнеса с обновлением до Microsoft Teams     |
+| Поли                | Скайвер 4220 UC                                           | 03/05/2020     | Skype для бизнеса обновления до Microsoft Teams     |
 | Поли                | Квервер 5200 Office                                       | 03/05/2020     | Сертифицировано для Microsoft Teams                          |
-| Поли                | Окаймер 5200 UC                                           | 03/05/2020     | Skype для бизнеса с обновлением до Microsoft Teams     |
+| Поли                | Окаймер 5200 UC                                           | 03/05/2020     | Skype для бизнеса обновления до Microsoft Teams     |
 | Поли                | Blackwire 3310-M                                          | 03/05/2020     | Сертифицировано для Microsoft Teams                          |
 | Поли                | Blackwire 3315-M                                          | 03/03/2020     | Сертифицировано для Microsoft Teams                          |
 | Поли                | Blackwire 3320-M                                          | 03/05/2020     | Сертифицировано для Microsoft Teams                          |

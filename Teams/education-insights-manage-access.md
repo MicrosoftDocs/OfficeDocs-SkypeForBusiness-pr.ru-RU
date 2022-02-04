@@ -1,7 +1,7 @@
 ---
 title: Управление доступом пользователей к Education Insights
-author: MicrosoftHeidi
-ms.author: heidip
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.topic: reference
 ms.service: msteams
@@ -16,18 +16,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b69f885eee0b96b87b5f22d04abbd16d0389b904
-ms.sourcegitcommit: e5e6c6c99296db8005451bcb08d727469f0ac984
+ms.openlocfilehash: f97b2aea15fe626c7780f022e2d024729ad02589
+ms.sourcegitcommit: 1129841e68e927fe7cc31de3ad63a3e9247253cd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/02/2021
-ms.locfileid: "58864199"
+ms.lasthandoff: 02/03/2022
+ms.locfileid: "62363185"
 ---
 # <a name="manage-user-access-to-education-insights"></a>Управление доступом пользователей к Education Insights
 
 В этом документе описаны действия, необходимые для управления доступом пользователей к [Education Insights в Microsoft Teams](class-insights.md).
 
-Вам нужно предоставить разрешения лидерам образовательных учреждений, руководителям округа, школьным директорам, старшим преподавателям, консультантам, руководителям областей обучения, директорам программ, социальным работникам и психологам. Преподаватели получают разрешение *автоматически*, если они владеют командой класса.
+Вам нужно предоставить разрешения лидерам образовательных учреждений, руководителям округа, школьным директорам, старшим преподавателям, консультантам, руководителям областей обучения, директорам программ, социальным работникам и психологам. Преподаватели получают разрешение *автоматически*, если они являются владельцами команды класса.
 
 Чтобы обеспечить аналитику на уровне организации, вы должны [импортировать данные из системы данных об учащихся (SDS)](education-insights-sis-data-sync.md), чтобы средство Insights правильно сопоставило иерархическую структуру системы образования.
 
