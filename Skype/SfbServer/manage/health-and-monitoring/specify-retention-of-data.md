@@ -1,24 +1,19 @@
 ---
 title: Укажите хранение данных CDR в Skype для бизнеса Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: c0fd6056-87bc-4136-902a-f1b37cd3a1ca
-description: Сводка. Сведения о том, как управлять данными регистрации детализации вызовов (CDR) для Skype для бизнеса Server.
-ms.openlocfilehash: b232e853e28f2dbdee33c666e65ca89932796941
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60852013"
+description: 'Сводка. Сведения о том, как управлять данными регистрации детализации вызовов (CDR) для Skype для бизнеса Server.'
 ---
+
 # <a name="specify-retention-of-cdr-data-in-skype-for-business-server"></a>Укажите хранение данных CDR в Skype для бизнеса Server
  
 **Сводка:** Узнайте, как управлять данными записи фиксации вызовов (CDR) для Skype для бизнеса Server.
@@ -68,7 +63,7 @@ ms.locfileid: "60852013"
   Get-CsCdrConfiguration | Set-CsCdrConfiguration-EnablePurging -KeepCallDetailForDays 20 -KeepErrorReportForDays 20
   ```
 
-Дополнительные сведения см. в разделе справка для [cmdlet Set-CsCdrConfiguration.](/powershell/module/skype/set-cscdrconfiguration?view=skype-ps)
+Дополнительные сведения см. в разделе справка для [cmdlet Set-CsCdrConfiguration](/powershell/module/skype/set-cscdrconfiguration?view=skype-ps) .
   
 ## <a name="see-also"></a>См. также
 

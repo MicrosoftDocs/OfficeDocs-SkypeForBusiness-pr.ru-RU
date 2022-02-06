@@ -1,25 +1,20 @@
 ---
 title: Создание новой политики ПИН-кода в Skype для бизнеса Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 8bdf0478-fe9f-4371-93ff-db39381a25db
 description: Сводка. Создайте новую политику ПИН-кода в Skype для бизнеса Server.
-ms.openlocfilehash: cf9a35c634c9b53b557601009fa131c3c24e7db2
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60844212"
 ---
+
 # <a name="create-a-new-pin-policy-in-skype-for-business-server"></a>Создание новой политики ПИН-кода в Skype для бизнеса Server
  
 **Сводка:** Создайте новую политику ПИН-кода в Skype для бизнеса Server.

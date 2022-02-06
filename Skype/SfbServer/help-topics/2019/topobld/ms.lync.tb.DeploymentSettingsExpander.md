@@ -1,27 +1,22 @@
 ---
 title: Расширитель параметров развертывания
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.DeploymentSettingsExpander
+  - ms.lync.tb.DeploymentSettingsExpander
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 7220ec1f-38cb-4297-870e-591a832cd2f2
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: 'Свойства существующего развертывания можно изменить следующими разделами:'
-ms.openlocfilehash: fa5e519a43a2fefaab99a9349ca32239702d42d1
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864096"
 ---
+
 # <a name="deployment-settings-expander"></a>Расширитель параметров развертывания
 
 Свойства существующего развертывания можно изменить следующими разделами:
@@ -73,7 +68,7 @@ ms.locfileid: "60864096"
 > [!IMPORTANT]
 > После определения, опубликовано ли и развернуто центральное хранилище управления для инфраструктуры, невозможно изменить местоположение центрального хранилища управления без переноса этого хранилище на другой интерфейсный сервер для внешней обработки.
 
-Подробные сведения о перемещении центра управления см. в справке [Move-CsManagementServer](/powershell/module/skype/move-csmanagementserver?view=skype-ps) Windows PowerShell ссылке.
+Подробные сведения о перемещении центра управления см. в справке [Move-CsManagementServer](/powershell/module/skype/move-csmanagementserver?view=skype-ps) Windows PowerShell cmdlet.
 
 
 Сведения об определении и настройке этих параметров см. в разделе [Defining and Configuring the Topology](/previous-versions/office/lync-server-2013/lync-server-2013-defining-and-configuring-the-topology).

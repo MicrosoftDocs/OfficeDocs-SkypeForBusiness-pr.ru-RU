@@ -1,25 +1,20 @@
 ---
 title: Планирование интеграции Skype для бизнеса и Exchange
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ea22beb9-c02e-47cb-836d-97a556969052
-description: Сводка. Просмотрите эту тему для получения сведений о том, как интегрировать Skype для бизнеса Server с Exchange Server 2016 или Exchange Server 2013 г.
-ms.openlocfilehash: 5edfdf44b50d2a58c097bed5ee83855f375ff895
-ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "61562841"
+description: 'Сводка. Просмотрите эту тему для получения сведений о том, как интегрировать Skype для бизнеса Server с Exchange Server 2016 или Exchange Server 2013 г.'
 ---
+
 # <a name="plan-to-integrate-skype-for-business-and-exchange"></a>Планирование интеграции Skype для бизнеса и Exchange
  
 **Сводка:** Просмотрите эту тему, чтобы узнать, как интегрировать Skype для бизнеса Server с Exchange Server 2016 или Exchange Server 2013 г.
@@ -28,7 +23,7 @@ ms.locfileid: "61562841"
   
 Дополнительные сведения об установке Exchange Server см. в Exchange Server документации по планированию и развертыванию для Exchange. 
    
-После запуска и работы серверов необходимо назначить сертификаты проверки подлинности от сервера к серверу как Skype для бизнеса Server, так и Exchange Server; эти сертификаты позволяют Skype для бизнеса Server и Exchange Server  обмен информацией и общение друг с другом. При установке Exchange Server для вас создается самозаверяется сертификат с именем Microsoft Exchange Server сертификата Auth. Этот сертификат, который можно найти в локальном хранилище сертификатов компьютера, следует использовать для проверки подлинности от сервера к серверу на Exchange Server. Сведения о назначении сертификатов в Exchange Server см. в [материале Configure Mail Flow клиентского доступа.](/exchange/configure-mail-flow-and-client-access-exchange-2013-help)
+После запуска и работы серверов необходимо назначить сертификаты проверки подлинности от сервера к серверу как Skype для бизнеса Server, так и Exchange Server; эти сертификаты позволяют Skype для бизнеса Server и Exchange Server  обмен информацией и общение друг с другом. При установке Exchange Server для вас создается самозаверяется сертификат с именем Microsoft Exchange Server сертификата Auth. Этот сертификат, который можно найти в локальном хранилище сертификатов компьютера, следует использовать для проверки подлинности от сервера к серверу на Exchange Server. Сведения о назначении сертификатов в Exchange Server см. в Flow [и клиентского доступа](/exchange/configure-mail-flow-and-client-access-exchange-2013-help).
   
 Для Skype для бизнеса Server вы можете использовать существующий сертификат Skype для бизнеса Server в качестве сертификата проверки подлинности от сервера к серверу; например, сертификат по умолчанию также может использоваться в качестве сертификата OAuthTokenIssuer. Skype для бизнеса Server позволяет использовать любой сертификат веб-сервера в качестве сертификата для проверки подлинности от сервера к серверу при условии, что:
   
@@ -38,7 +33,7 @@ ms.locfileid: "61562841"
     
 - длина сертификата составляет не менее 2048 бит.
     
-Сведения о сертификатах проверки подлинности от сервера к серверу для Skype для бизнеса Server см. в материале Назначение сертификата проверки подлинности от сервера к [Skype для бизнеса Server](../../manage/authentication/assign-a-server-to-server-certificate.md).
+Сведения о сертификатах проверки подлинности от сервера к Skype для бизнеса Server см. в материале Назначение сертификата проверки подлинности от сервера к [серверу](../../manage/authentication/assign-a-server-to-server-certificate.md) Skype для бизнеса Server.
   
 После присвоения сертификатов необходимо настроить службу автооткрытия в Exchange Server. В Exchange Server служба автооткрытия настраивает профили пользователей и предоставляет доступ к Exchange при входе пользователей в систему. Пользователи предоставляют службе автообнаружения свой адрес электронной почты и пароль; в свою очередь службы предоставляют пользователю следующую информацию:
   
@@ -64,9 +59,9 @@ URI автообнаружения можно назначить с помощь
 Get-ClientAccessServer | Set-ClientAccessServer -AutoDiscoverServiceInternalUri "https://autodiscover.litwareinc.com/autodiscover/autodiscover.xml"
 ```
 
-Сведения о службе автооткрытия см. в материале [Autodiscover Service.](/Exchange/architecture/client-access/autodiscover)
+Сведения о службе автооткрытия см. в материале [Autodiscover Service](/Exchange/architecture/client-access/autodiscover).
   
-После настройки службы автооткрытия необходимо изменить параметры конфигурации Skype для бизнеса Server OAuth; это гарантирует, что Skype для бизнеса Server знает, где найти службу автооткрытия. Чтобы изменить параметры конфигурации OAuth в Skype для бизнеса Server, запустите следующую команду из Skype для бизнеса Server командной оболочки. При запуске этой команды убедитесь, что вы указываете службу автообнаружения службе автообнаружения Exchange Server и что вы используете **autodiscover.svc** для указания расположения службы вместо **autodiscover.xml** (что указывает на XML-файл, используемый службой):
+После настройки службы автооткрытия необходимо изменить параметры конфигурации Skype для бизнеса Server OAuth; это гарантирует, что Skype для бизнеса Server знает, где найти службу автооткрытия. Чтобы изменить параметры конфигурации OAuth в Skype для бизнеса Server, запустите следующую команду из Skype для бизнеса Server командной оболочки. При запуске этой команды убедитесь, что URI указывается службе автообнаружения, запущенной на Exchange Server, и что вы используете **autodiscover.svc** для указания расположения службы вместо **autodiscover.xml** (что указывает на XML-файл, используемый службой):
   
 ```PowerShell
 Set-CsOAuthConfiguration -Identity global -ExchangeAutodiscoverUrl "https://autodiscover.litwareinc.com/autodiscover/autodiscover.svc" 
@@ -76,14 +71,14 @@ Set-CsOAuthConfiguration -Identity global -ExchangeAutodiscoverUrl "https://auto
 > Параметр Identity в предыдущей команде необязателен; это потому, что Skype для бизнеса Server позволяет иметь только одну глобальную коллекцию параметров конфигурации OAuth. Помимо прочего, это означает, что вы можете настроить URL-адрес автооткрытия с помощью этой немного более простой команды: 
 > 
 > [!NOTE]
-> Set-CsOAuthConfiguration-ExchangeAutodiscoverUrl <https://autodiscover.litwareinc.com/autodiscover/autodiscover.svc> " " 
+> Set-CsOAuthConfiguration-ExchangeAutodiscoverUrl "<https://autodiscover.litwareinc.com/autodiscover/autodiscover.svc>" 
 > 
 > [!NOTE]
 > Если вы не знакомы с этой технологией, OAuth — это стандартный протокол авторизации, который применяется на различных крупных веб-сайтах. При использовании OAuth учетные данные и пароли пользователей не переносятся с одного компьютера на другой. Вместо этого проверка подлинности и авторизация основаны на обмене маркерами безопасности, которые предоставляют доступ к определенному набору ресурсов в течение определенного промежутка времени. 
   
 Помимо настройки службы автооткрытия необходимо также создать запись DNS для службы, которая указывает на Exchange Server. Например, если служба автооткрытия расположена по адресу autodiscover.litwareinc.com, вам потребуется создать запись DNS для autodiscover.litwareinc.com, которая разрешит полное доменное имя вашего Exchange Server (например, atl-exchange-001.litwareinc.com).
   
-Если вы интегрируете Skype для бизнеса Server с Exchange Online, ваши дальнейшие действия находятся в настройке интеграции между локальной Skype для бизнеса Server и [Outlook Web App,](../../deploy/integrate-with-exchange-server/outlook-web-app.md)в противном случае см. в [ Skype для бизнеса Server с Exchange Server](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md).
+Если вы интегрируете Skype для бизнеса Server с Exchange Online, ваши дальнейшие действия находятся в настройке интеграции между локальной Skype для бизнеса Server и [Outlook Web App](../../deploy/integrate-with-exchange-server/outlook-web-app.md), в противном случае см. в этой ссылке [Интеграция Skype для бизнеса Server с Exchange Server](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md).
   
 ## <a name="feature-support"></a>Поддержка функций
 <a name="feature_support"> </a>

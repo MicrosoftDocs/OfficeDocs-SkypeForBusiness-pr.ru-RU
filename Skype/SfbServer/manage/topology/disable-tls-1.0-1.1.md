@@ -1,24 +1,19 @@
 ---
 title: Отключение TLS 1.0/1.1 в Skype для бизнеса Server 2015 г.
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: Подготовка и реализация отключения TLS 1.0 и 1.1 в средах.
-ms.openlocfilehash: d80cdbd42d3e9c11f066ecfefa774b3a2d911ede
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60827562"
 ---
+
 # <a name="disable-tls-1011-in-skype-for-business-server-2015"></a>Отключение TLS 1.0/1.1 в Skype для бизнеса Server 2015 г.
 
 В этой статье вы можете подготовиться и реализовать отключение TLS 1.0 и 1.1 в средах. Этот процесс требует тщательного планирования и подготовки. Внимательно просмотрите все сведения в этой статье при планировании отключения TLS 1.0 и 1.1 для организации. Существует множество внешних зависимостей и условий подключения, на которые может повлиять отключение TLS 1.0/1.1, поэтому необходимо тщательное планирование и тестирование.
@@ -29,9 +24,9 @@ ms.locfileid: "60827562"
 
 ## <a name="background-and-scope"></a>Фон и область
 
-Основными драйверами для предоставления TLS 1.0 и 1.1 отключения поддержки для Skype для бизнеса Server локальной службы являются Совет по стандартам безопасности индустрии платежных карт (PCI) и требования к федеральным стандартам обработки информации. Дополнительные сведения о требованиях PCI можно найти [здесь.](https://blog.pcisecuritystandards.org/are-you-ready-for-30-june-2018-sayin-goodbye-to-ssl-early-tls)  Корпорация Майкрософт не может предоставить рекомендации о том, требуется ли вашей организации придерживаться этих или других требований. Необходимо определить, требуется ли отключить TLS 1.0 и/или 1.1 в средах.
+Основными драйверами для предоставления TLS 1.0 и 1.1 отключения поддержки для Skype для бизнеса Server локальной службы являются Совет по стандартам безопасности индустрии платежных карт (PCI) и требования к федеральным стандартам обработки информации. Дополнительные сведения о требованиях PCI можно найти [здесь](https://blog.pcisecuritystandards.org/are-you-ready-for-30-june-2018-sayin-goodbye-to-ssl-early-tls).  Корпорация Майкрософт не может предоставить рекомендации о том, требуется ли вашей организации придерживаться этих или других требований. Необходимо определить, требуется ли отключить TLS 1.0 и/или 1.1 в средах.
 
-Корпорация Майкрософт подготовила белый [](https://cloudblogs.microsoft.com/microsoftsecure/2017/06/20/tls-1-2-support-at-microsoft/)документ по TLS, доступный здесь, и мы также рекомендуем фоновое чтение, доступное в этом Exchange [блоге](https://blogs.technet.microsoft.com/exchange/2018/01/26/exchange-server-tls-guidance-part-1-getting-ready-for-tls-1-2/).
+Корпорация Майкрософт подготовила документ по TLS[,](https://cloudblogs.microsoft.com/microsoftsecure/2017/06/20/tls-1-2-support-at-microsoft/) доступный здесь, и мы также рекомендуем фоновое чтение, доступное в этом Exchange [блоге](https://blogs.technet.microsoft.com/exchange/2018/01/26/exchange-server-tls-guidance-part-1-getting-ready-for-tls-1-2/).
 
 ## <a name="supportability-scope"></a>Область поддержки
 
@@ -40,20 +35,20 @@ ms.locfileid: "60827562"
 ### <a name="fully-tested-and-supported-servers"></a>Полностью протестированная и поддерживаемая серверы
 
 - Skype для бизнеса Server 2019 cu1 17.0.2046.123 (июнь 2019 г.) или выше
-- Skype для бизнеса Server 2015 cu9 6.0.9319.548 (май 2019 г.) или выше на Windows Server 2012 (с обновлением KB [3140245](https://support.microsoft.com/help/3140245/update-to-enable-tls-1-1-and-tls-1-2-as-a-default-secure-protocols-in) или замеса), 2012 R2 или 2016.
-- На месте обновлено Skype для бизнеса Server 2015 г., с cu9 6.0.9319.548 (май 2019 г.) или более высокой на Windows Server 2008 R2, 2012 г. (с обновлением KB [3140245](https://support.microsoft.com/help/3140245/update-to-enable-tls-1-1-and-tls-1-2-as-a-default-secure-protocols-in) или с замеса) или R2 2012 г.
-- Exchange Подключение и Outlook Web App с Exchange Server 2010 SP3 RU19 или выше, руководство [здесь](https://blogs.technet.microsoft.com/exchange/2018/01/26/exchange-server-tls-guidance-part-1-getting-ready-for-tls-1-2/)
+- Skype для бизнеса Server 2015 cu9 6.0.9319.548 (май 2019 г.) или выше по Windows Server 2012 (с обновлением KB [3140245](https://support.microsoft.com/help/3140245/update-to-enable-tls-1-1-and-tls-1-2-as-a-default-secure-protocols-in) или замеса), 2012 R2 или 2016.
+- На месте обновлено Skype для бизнеса Server 2015 г., с cu9 6.0.9319.548 (май 2019 г.) или более высокой на Windows Server 2008 R2, 2012 г. (с обновлением KB [3140245](https://support.microsoft.com/help/3140245/update-to-enable-tls-1-1-and-tls-1-2-as-a-default-secure-protocols-in) или с выходом на место) или R2 2012 г.
+- Exchange подключения и Outlook Web App с Exchange Server 2010 SP3 RU19 или выше, руководство [здесь](https://blogs.technet.microsoft.com/exchange/2018/01/26/exchange-server-tls-guidance-part-1-getting-ready-for-tls-1-2/)
 - Уцелевшие устройства филиала (SBA) с Skype для бизнеса Server 2015 CU6 HF2 или выше (подтвердите у поставщика, что они упаковал соответствующие обновления и были доступны для вашего устройства)
 - Выживший сервер филиалов (SBS) с Skype для бизнеса Server 2015 CU6 HF2 или выше
-- Lync Server 2013 **Edge Role Only**, это потому, что роль Edge не имеет зависимости Windows Fabric 1.0.
+- Только для Lync Server 2013 Edge **Role** это происходит из-за того, что роль Edge не имеет зависимости Windows Fabric 1.0.
 
 ### <a name="fully-tested-and-supported-clients"></a>Полностью протестированная и поддерживаемая клиенты
 
 - Lync 2013 (Skype для бизнеса) Настольный клиент, MSI и C2R, включая Базовые [15.0.5023.1000 или более](https://support.microsoft.com/help/4018334/april-3-2018-update-for-skype-for-business-2015-lync-2013-kb4018334)
-- Skype для бизнеса 2016 настольный клиент MSI [16.0.4678.1000](https://support.microsoft.com/help/4018323/april-3-2018-update-for-skype-for-business-2016-kb4018323)или выше, включая Basic
-- Skype для бизнеса 2016 нажмите кнопку Выполнить Требуй обновлений за апрель [2018](/officeupdates/release-notes-office365-proplus) г.: 
-    - Ежемесячные и Semi-Annual, 16 \. 0 \. 9126 \. 2152 или более
-    - Semi-Annual и отложенный канал, 16 \. 0 \. 8431 \. 2242 или более
+- Skype для бизнеса 2016 настольный клиент MSI [16.0.4678.1000](https://support.microsoft.com/help/4018323/april-3-2018-update-for-skype-for-business-2016-kb4018323) или выше, включая Basic
+- Skype для бизнеса 2016 нажмите кнопку Выполнить Требуй обновлений [за апрель 2018](/officeupdates/release-notes-office365-proplus) г.: 
+    - Ежемесячные и Semi-Annual, 16091262152\.\.\. или более
+    - Semi-Annual и отложенный канал, 16084312242\.\.\. или более
 - Skype для бизнеса Mac 16.15 или выше
 - Skype для бизнеса для iOS и Android 6.19 или выше
 - Комнаты Microsoft Teams (ранее Skype система номеров V2 SRS V2) 4.0.64.0 (декабрь 2018 г.) или выше
@@ -70,7 +65,7 @@ ms.locfileid: "60827562"
 
 - Lync Server 2013
 - Lync Server 2010
-- Windows Server 2008 или более низкий
+- Windows Server 2008 или ниже
 - Lync для Mac 2011
 - Lync 2013 для Mobile — iOS, iPad, Android или Windows Phone
 - Клиент Lync "MX" Windows Store
@@ -87,7 +82,7 @@ ms.locfileid: "60827562"
 
 Lync Server 2013 зависит от Windows Fabric версии 1.0.  На этапе разработки Lync Server 2013 Windows Fabric 1.0 была выбрана для его убедительной и новой распределенной архитектуры для обеспечения репликации, высокой доступности и допуска неисправностей.  Со временем Skype для бизнеса Server и Windows Fabric значительно улучшили эту совместную архитектуру с существенным перепроектом в последующих версиях.  Например, Skype для бизнеса 2015 server использует Windows Fabric 3.0.
 
-К сожалению, Windows Fabric 1.0 **не поддерживает TLS 1.2.  Тем не менее, мы будем обновлять Lync Server 2013 для работы с TLS 1.2**. Это будет в следующем накопительном обновлении для Lync Server 2013.  Мы предоставляем поддержку TLS 1.2 для обеспечения совместной жизни, миграции, федерации и гибридных сценариев.
+К сожалению, Windows Fabric 1.0 **не поддерживает TLS 1.2.  Однако мы будем обновлять Lync Server 2013 для работы с TLS 1.2**. Это будет в следующем накопительном обновлении для Lync Server 2013.  Мы предоставляем поддержку TLS 1.2 для обеспечения совместной жизни, миграции, федерации и гибридных сценариев.
 
 Если вашей организации требуется отключить TLS 1.0 и 1.1, а вы в настоящее время используете Lync Server 2013, рекомендуем приступить к планированию с возможностью переноса обновления на месте или переноса (новые пулы, перемещение пользователей) в Skype для бизнеса Server 2015 или более.  Или вы можете ускорить миграцию до Skype для бизнеса Online.
 
@@ -95,9 +90,9 @@ Lync Server 2013 зависит от Windows Fabric версии 1.0.  На эт
 
 Панель мониторинга качества вызовов локального вызова в настоящее время имеет зависимость от TLS 1.0 во время новой установки (при первой установке в локальной среде).  В настоящее время мы исследуем эту проблему и планируем выпустить исправление в ближайшем будущем.  Если планируется установить CQD, а также отключить TLS 1.0, рекомендуется сначала завершить установку CQD, а затем приступить к отключению TLS 1.0.
 
-#### <a name="skype-for-business-sdn-manager"></a>Skype для бизнеса Диспетчер SDN
+#### <a name="skype-for-business-sdn-manager"></a>Skype для бизнеса SDN Manager
 
-Skype для бизнеса Диспетчер SDN с SQL базы данных имеет зависимость от TLS 1.0 при новой установке. Если вы планируете установить Skype для бизнеса SDN Manager с помощью SQL базы данных, а также отключить TLS 1.0, рекомендуется сначала выполнить Skype для бизнеса SDN Manager, а затем приступить к отключению TLS 1.0. В случае отключения TLS 1.0 до установки необходимо временно включить TLS 1.0 в SQL Server сервере, который будет использоваться для Skype для бизнеса базы данных SDN Manager SQL.
+Skype для бизнеса SDN Manager с SQL базы данных имеет зависимость от TLS 1.0 во время новой установки. Если вы планируете установить Skype для бизнеса SDN Manager с помощью SQL базы данных, а также отключить TLS 1.0, рекомендуется сначала выполнить Skype для бизнеса SDN Manager, а затем приступить к отключению TLS 1.0. В случае отключения TLS 1.0 до установки необходимо временно включить TLS 1.0 в SQL Server сервере, который будет использоваться для Skype для бизнеса базы данных SDN Manager SQL.
 
 #### <a name="third-party-devices"></a>Сторонние устройства
 
@@ -111,17 +106,17 @@ Skype для бизнеса Диспетчер SDN с SQL базы данных 
 
 Корпорация Майкрософт не может предоставить советы или рекомендации относительно того, относится ли ваша сеть Edge (или к какой-либо сети) к стандарту PCI; которые должны определяться отдельной компанией.
 
-Skype для бизнеса Он-лайн способен TLS 1.2 сегодня, поэтому никакого влияния на гибридную и федерацию с Online не ожидается.
+Skype для бизнеса Online сегодня способен на TLS 1.2, поэтому никакого влияния на гибридную и федерацию с Интернетом не ожидается.
 
-Pic (Public Im Connectivity) для службы Skype: Мы не ожидаем отключения TLS 1.0/1.1 для Skype [подключения;](../../deploy/deploy-skype-connectivity.md) Шлюзы MICROSOFT PIC уже способны к TLS 1.2.
+PIC (Подключение к чату) для Skype: Мы не ожидаем отключения TLS 1.0/1.1 для Skype [подключения](../../deploy/deploy-skype-connectivity.md); Шлюзы MICROSOFT PIC уже способны к TLS 1.2.
 
 ## <a name="prerequisites-and-process"></a>Необходимые условия и процесс
 
 Кроме случаев, когда отмечено выше, после отключения серверов TLS 1.0 и 1.1 клиенты и устройства будут работать должным образом или вообще. Это может означать, что необходимо приостановить и дождаться обновленных указаний от Корпорации Майкрософт. После того как вы будете удовлетворены тем, что вы соответствуете всем требованиям и имеете план устранения пробелов, продолжайте.
 
-На высоком уровне, в то время как Skype для бизнеса Server 2019 г. готов к процедуре при установке, Skype для бизнеса Server 2015 г. потребуется установить CU9, применяя предварительные обновления к .NET и SQL, развертывание ключей реестра предварительных условий и, наконец, отдельный раунд обновлений конфигурации ОС (например, отключение TLS 1.0 и 1.1 через файл реестра).  импорт). Крайне важно завершить установку всех необходимых условий, включая Skype для бизнеса Server 2015 ГФ2 CU6, до отключения TLS 1.0 и 1.1 на любом сервере в вашей среде. Каждый Skype для бизнеса сервер, включая роль Edge и SQL backends, требует обновлений. Кроме того, убедитесь, что все поддерживаемые (в области) клиенты были обновлены до необходимых минимальных версий. Не забудьте также обновить рабочие станции управления.
+На высоком уровне, пока Skype для бизнеса Server 2019 г. готова к процедуре при установке, Skype для бизнеса Server 2015 г. потребуется установить CU9, применяя предварительные обновления к .NET и SQL развертывание ключей реестра предварительных условий и, наконец, отдельный раунд обновлений конфигурации ОС (например, отключение TLS 1.0 и 1.1 с помощью импорта файлов реестра). Крайне важно завершить установку всех необходимых условий, включая Skype для бизнеса Server 2015 ГФ2 CU6, до отключения TLS 1.0 и 1.1 на любом сервере в вашей среде. Каждый Skype для бизнеса сервер, включая роль Edge и SQL backends, требует обновлений. Кроме того, убедитесь, что все поддерживаемые (в области) клиенты были обновлены до необходимых минимальных версий. Не забудьте также обновить рабочие станции управления.
 
-Мы хотим следовать обычному порядку операций "наизнано" для обновления Skype для бизнеса серверов. Относитесь к пулам Director, сохраняемой беседе и парным пулам таким же образом, как обычно. Порядок и методы обновления здесь [и](topology.md) [здесь.](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015)
+Мы хотим следовать обычному порядку операций "наизнано" для обновления Skype для бизнеса серверов. Относитесь к пулам Director, сохраняемой беседе и парным пулам таким же образом, как обычно. Порядок и методы обновления [охватываются здесь](topology.md) и [здесь](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015).
 
 ### <a name="high-level-process"></a>Процесс высокого уровня
 
@@ -142,11 +137,11 @@ Pic (Public Im Connectivity) для службы Skype: Мы не ожидаем
 Перед отключением TLS 1.0 и 1.1 на уровне операционной системы в развертываниях 2015 Skype для бизнеса Server требуется масштабное обновление зависимости. Ниже приводится минимум версий, которые могут поддерживать TLS 1.2. Перед отключением TLS 1.0 и 1.1 развертывайте все необходимые обновления на каждом сервере Skype для бизнеса среды.
 
 - Skype для бизнеса Server 2015 cu9 6.0.9319.548 (май 2019 г.) или выше
-- [платформа .NET Framework 4.7](https://www.microsoft.com/download/details.aspx?id=55167) или выше с включенной в реестр SchUseStrongCrypto (приведено ниже)
+- [платформа .NET Framework 4.7](https://www.microsoft.com/download/details.aspx?id=55167) или выше с включенной в реестр SchUseStrongCrypto (приведен ниже)
 - SQL должны быть обновлены на всех серверах и Skype для бизнеса 2015 года. Сначала выпуск Enterprise пул SQL, а затем соответствующие FEs. 
-    - [SQL Server 2014 SP1 + CU5](https://support.microsoft.com/help/3130926), или выше / SQL Server 2012 SP2 + CU16 или выше / [SQL Server 2014 RTM + CU12](https://support.microsoft.com/help/3130923/cumulative-update-12-for-sql-server-2014), или выше / SQL Server 2014 SP2
+    - [SQL Server 2014 sp1 + CU5](https://support.microsoft.com/help/3130926), или выше / SQL Server 2012 SP2 + CU16 или выше / [SQL Server 2014 RTM + CU12](https://support.microsoft.com/help/3130923/cumulative-update-12-for-sql-server-2014), или выше / SQL Server 2014 SP2
      - [SQL Server Native Client за SQL Server 2012 г.](https://www.microsoft.com/download/details.aspx?id=50402)
-     - [Драйвер Microsoft ODBC 11 для SQL Server](https://www.microsoft.com/download/details.aspx?id=36434)или выше
+     - [Драйвер Microsoft ODBC 11 для SQL Server](https://www.microsoft.com/download/details.aspx?id=36434) или выше
      - [Общие объекты управления для SQL Server 2014 SP2](https://www.microsoft.com/download/details.aspx?id=53164)
      - [SQLSysClrTypes для SQL 2014 SP2](https://www.microsoft.com/download/details.aspx?id=42295)
 
@@ -154,7 +149,7 @@ Pic (Public Im Connectivity) для службы Skype: Мы не ожидаем
 
 1. Установите обновление Skype для бизнеса Server CU9 на все серверы. 
     1. Установите обновление на компоненты с помощью обновления.
-    2. Обновление баз данных в соответствии с задокументированными процедурами. За Skype для бизнеса Server 2015 г. см. в [3061064.](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015)
+    2. Обновление баз данных в соответствии с задокументированными процедурами. За Skype для бизнеса Server 2015 г. [см. в](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015) 3061064.
     3. Проверка функциональных возможностей продукта в развертывании до перехода к любым другим изменениям.
 2. Скачайте автономный установщик .NET 4.7. 
     1. Справочные материалы: [https://www.microsoft.com/download/details.aspx?id=55167](https://www.microsoft.com/download/details.aspx?id=55167)
@@ -175,7 +170,7 @@ Pic (Public Im Connectivity) для службы Skype: Мы не ожидаем
     5. Откройте командный запрос администратора и обновим все установленные компоненты и экземпляры 
         - Пример: C:\01_2014SqlSp2\SQLServer2014SP2-KB3171021-x64-ENU.exe /qs /IAcceptSQLServerLicenseTerms /Action=Patch /AllInstances
 4. Обновление SQL Native Client. 
-    1. Справка. [https://support.microsoft.com/help/3135244/tls-1-2-support-for-microsoft-sql-server](https://support.microsoft.com/help/3135244/tls-1-2-support-for-microsoft-sql-server) .
+    1. Справка. [https://support.microsoft.com/help/3135244/tls-1-2-support-for-microsoft-sql-server](https://support.microsoft.com/help/3135244/tls-1-2-support-for-microsoft-sql-server).
     2. Загрузка из [https://www.microsoft.com/download/details.aspx?id=50402](https://www.microsoft.com/download/details.aspx?id=50402)
     3. Убедитесь Skype для бизнеса Server что службы 2015 года остановлены на сервере переднего конца. 
         - Ex (выпуск Standard):```Stop-CsWindowsServices```
@@ -185,8 +180,8 @@ Pic (Public Im Connectivity) для службы Skype: Мы не ожидаем
         - Ex: ```Get-Service 'MSSQL$LYNCLOCAL' | Stop-Service```
         - Ex (выпуск Standard только):```Get-Service 'MSSQL$RTC' | Stop-Service```
     5. Установите обновление.
-5. Обновление драйвера ODBC 11 для SQL Server включить поддержку TLS 1.2 (KB [3135244).](https://support.microsoft.com/help/3135244/tls-1-2-support-for-microsoft-sql-server)
-    1. Скачайте [драйвер ODBC 11 для SQL Server - Windows](https://www.microsoft.com/download/confirmation.aspx?id=36434).
+5. Обновление драйвера ODBC 11 для SQL Server включить поддержку TLS 1.2 (KB [3135244](https://support.microsoft.com/help/3135244/tls-1-2-support-for-microsoft-sql-server)).
+    1. [Скачайте драйвер ODBC 11 для SQL Server - Windows](https://www.microsoft.com/download/confirmation.aspx?id=36434).
     2. Убедитесь Skype для бизнеса Server что службы 2015 года остановлены на переднем сервере.
         - Пример (выпуск Standard):```Stop-CsWindowsService```
         - Пример (выпуск Enterprise):```Invoke-CsComputerFailover```
@@ -239,7 +234,7 @@ Windows Registry Editor Version 5.00
 "Enabled"=dword:00000001
 ```
 
-Для SQL для выпуск Enterprise пулов необходимо рассматривать предварительные условия и отключение TLS как любые SQL или обновления ОС; обратитесь к:[https://docs.microsoft.com/skypeforbusiness/manage/topology/patch-or-update-a-back-end-or-standard-edition-server](./patch-or-update-a-back-end-or-standard-edition-server.md)
+Для SQL для выпуск Enterprise пулов необходимо рассматривать предварительные условия и отключение TLS как любые обновления SQL или ОС; обратитесь к:[https://docs.microsoft.com/skypeforbusiness/manage/topology/patch-or-update-a-back-end-or-standard-edition-server](./patch-or-update-a-back-end-or-standard-edition-server.md)
 
 Хотя необходимое приложение и действия по отключению TLS можно объединить, мы настоятельно рекомендуем применять все необходимые условия перед началом работы с отключением TLS 1.0 и 1.1 на уровне операционной системы. Оптимальный подход заключается в подготовке среды путем развертывания всех необходимых условий, проверки правильности и правильности всех рабочих нагрузок, а затем отключения TLS 1.0/1.1 в более позднее время.
 
@@ -247,7 +242,7 @@ Windows Registry Editor Version 5.00
 
 Прежде чем приступить к следующим шагам, убедитесь, что вы выполнили все необходимые условия и *обновили Skype для бизнеса Серверы*.
 
-Скопируйте следующий текст в Блокнот и переименуйте **его в TLSDisable.reg:**
+Скопируйте следующий текст в Блокнот и переименуйте **его в TLSDisable.reg**:
 
 ```console
 Windows Registry Editor Version 5.00
@@ -454,12 +449,12 @@ Windows Registry Editor Version 5.00
 Кроме того, можно использовать Internet Explorer для тестирования подключений TLS к веб-службам с Skype для бизнеса Server 2015 г. после отключения TLS 1.0 и TLS 1.1.
 
 1. Запуск Internet Explorer.
-2. Выберите **Параметры**  >  **Интернета Средства**.
+2. Выберите **Сервис** > **Свойства браузера**.
 3. Выберите вкладку **Дополнительно**.
 4. В **Параметры** прокрутите вниз.
 5. Убедитесь, что включены TLS 1.0, TLS 1.1 и TLS 1.2.
 6. Просмотрите URL-адрес внутренней веб-службы пула SfB 2015 (должен успешно подключиться).
-7. Возвращайтесь в Internet Explorer и отключайте параметр **только для использования TLS 1.2.**
+7. Возвращайтесь в Internet Explorer и отключайте параметр **только для использования TLS 1.2** .
 8. Снова просмотрите URL-адрес внутренней веб-службы пула SfB 2015 (если не удастся подключиться).
 
 ![Параметры Интернета.](../../media/internet-options.jpg)
@@ -490,10 +485,10 @@ Windows Registry Editor Version 5.00
 1. [Установка необходимых условий для Skype для бизнеса Server](../../deploy/install/install-prerequisites.md)  
 2. Установка .NET 4.7: 
       - **Примечание:** Впервые мы представили поддержку .NET 4.7 в Skype для бизнеса Server 2015 cu5 (6.0.9319.281). Таким образом, в последующих шагах ниже мы будем обновлять основные компоненты до основной установки.
-      - Скачать: https://www.microsoft.com/download/details.aspx?id=55167 . 
-      - Справка. Программное обеспечение, которое должно быть установлено перед [развертыванием Skype для бизнеса Server 2015 г.](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md#software-that-should-be-installed-before-a-skype-for-business-server-2015-deployment)
+      - Скачать: https://www.microsoft.com/download/details.aspx?id=55167. 
+      - Справка. Программное обеспечение, которое должно быть [установлено перед развертыванием Skype для бизнеса Server 2015 г](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md#software-that-should-be-installed-before-a-skype-for-business-server-2015-deployment).
 3. Копирование файлов ISO/папок: 
-    - При присоединении Skype для бизнеса Server 2015 isO откройте корневой каталог диска, который он присоединен как (Ex: D: \) in File Explorer).
+    - При присоединении Skype для бизнеса Server 2015 isO откройте корневой каталог диска, который он присоединен как (Ex: D:\) in File Explorer).
     - Скопируйте все папки и файлы в папку на локальном диске (Ex: C:\SkypeForBusiness2015ISO).
     - **Примечание:** Перед установкой компонентов необходимо обновить некоторые файлы для поддержки TLS 1.2.
 4. Замените пакеты MSI/EXE: 
@@ -502,12 +497,12 @@ Windows Registry Editor Version 5.00
         - Переименовать SQLEXPR_x64 на локальном компьютере и заменить существующий файл в папке Установки/amd64/средства установки.
     - SQL Native Client:https://www.microsoft.com/download/details.aspx?id=50402 
         - **Примечание:** Переименуй это, sqlncli.msi, а затем замените существующий файл, существующий в папке Setup/amd64/of the installation media.
-    - SQL Объекты управления:https://www.microsoft.com/download/details.aspx?id=53164 
+    - SQL объекты управления:https://www.microsoft.com/download/details.aspx?id=53164 
         - **Примечание:** Пакет функций будет иметь множество элементов, которые можно скачать. Выберите для загрузки SharedManagementObjects.msi только.
         - **Примечание:** Замените существующий файл, существующий в папке установки/amd64/.
-    - SQL Типы CLR:https://www.microsoft.com/download/details.aspx?id=53164 
+    - SQL типов CLR:https://www.microsoft.com/download/details.aspx?id=53164 
         - **Примечание:** Пакет функций будет иметь множество элементов, которые можно скачать. Выберите для загрузки CQLSysClrTypes.msi только
-        - **Примечание.** Замените существующий файл, существующий в папке установки/amd64/.
+        - **Примечание**. Замените существующий файл, существующий в папке установки/amd64/.
 5. Установка основных компонентов: 
     - Запустите Setup.exe из папки Установки/amd64/средства установки. Следуйте инструкциям по установке основных компонентов
     - Закрыть основные компоненты.
@@ -520,9 +515,9 @@ Windows Registry Editor Version 5.00
     - Это установит Microsoft SQL Server 2012 родной клиент, объекты управления SQL Server 2014 (x64) и типы CLR системы Майкрософт для SQL Server 2014 (x64) с помощью обновленных файлов. Кроме того, панель Skype для бизнеса Server топологии 2015 г. будет доступна на локальной машине.
 8. Установка локального магазина конфигурации (шаг 1): 
      - Откройте мастер развертывания, нажмите кнопку Установить или обновить Skype для бизнеса Server и нажмите кнопку **Выполнить** на шаге 1: Установка локального магазина конфигурации.
-     - Нажмите **кнопку Далее** в диалоговом окне **Install Local Configuration Store.**
+     - Нажмите **кнопку Далее** в диалоговом окне **Install Local Configuration Store** .
      ![Установите диалоговое окно Локального магазина конфигурации.](../../media/local-configuration-store.png)
-     - Просмотрите результаты и убедитесь, что состояние задачи завершено. Просмотрите результативный файл журнала, нажав **журнал Представления**.
+     - Просмотрите результаты и убедитесь, что состояние задачи завершено. Просмотрите результативный файл журнала, щелкнув **журнал Представления**.
      ![Состояние задачи показывается как Завершено.](../../media/local-configuration-task-completed.png)
      - Нажмите кнопку **Готово**.
 9. Настройка или удаление Skype для бизнеса Server компонентов (шаг 2):

@@ -1,27 +1,22 @@
 ---
 title: Внешний узел области применения приложений
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.ExternalApplicationScopeNode
+  - ms.lync.tb.ExternalApplicationScopeNode
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: dfd21945-331a-4058-97b6-d17690353702
 description: 'Для этого узла указывается полное доменное имя пула, параметр репликации и пул следующего перехода для пула доверенных приложений. Вы можете выполнить следующие действия:'
-ms.openlocfilehash: cfa374b21d1e60fc658cd7fa6777d4890d6bbfec
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60860246"
 ---
+
 # <a name="external-application-scope-node"></a>Узел области внешнего приложения
  
 Для этого узла указывается полное доменное имя пула, параметр репликации и пул следующего перехода для пула доверенных приложений. Вы можете выполнить следующие действия:

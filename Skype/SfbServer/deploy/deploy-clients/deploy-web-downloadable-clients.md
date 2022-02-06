@@ -1,24 +1,19 @@
 ---
 title: Развертывание веб-загружаемых клиентов в Skype для бизнеса Server
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.reviewer: PhillipGarding
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: b6301e98-051c-4e4b-8e10-ec922a8f508a
-description: Сводка. Развертывание приложения Skype для бизнеса Web App и Skype собраний, используемой с Skype для бизнеса.
-ms.openlocfilehash: abb0a24d234043d793b09a538cbff23d0d549ac0
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60842501"
+description: 'Сводка. Развертывание приложения Skype для бизнеса Web App и Skype собраний, используемой с Skype для бизнеса.'
 ---
+
 # <a name="deploy-web-downloadable-clients-in-skype-for-business-server"></a>Развертывание веб-загружаемых клиентов в Skype для бизнеса Server
 
 **Сводка:** Развертывание Skype для бизнеса 2015 г. и Skype собраний, используемой с Skype для бизнеса Server.
@@ -28,7 +23,7 @@ Skype для бизнеса Web App является веб службы IIS(IIS
 Функции голосового, видео и общего доступа Skype для бизнеса Web App требуют управления microsoft ActiveX, который используется в качестве плагина в браузере пользователя. Вы можете либо установить элемент управления ActiveX, либо разрешить пользователям устанавливать его при первом использовании Skype для бизнеса Web App или при первом доступе к функции, требуемой ActiveX управления.
 
 > [!NOTE]
-> В Skype для бизнеса Server развертывании Edge Server для доступа клиентов требуется обратный прокси HTTPS в сети периметра Skype для бизнеса Web App. Вам также нужно опубликовать простые URL-адреса. Подробные сведения см. [в материале Настройка обратных](/previous-versions/office/lync-server-2013/lync-server-2013-setting-up-reverse-proxy-servers) прокси-серверов и DNS-требований к простым URL-адресам [в Skype для бизнеса Server.](../../plan-your-deployment/network-requirements/simple-urls.md)
+> В Skype для бизнеса Server развертывании Edge Server для доступа клиентов требуется обратный прокси HTTPS в сети периметра Skype для бизнеса Web App. Вам также нужно опубликовать простые URL-адреса. Подробные сведения см. [в материале Настройка обратных](/previous-versions/office/lync-server-2013/lync-server-2013-setting-up-reverse-proxy-servers) прокси-серверов и [DNS-требований](../../plan-your-deployment/network-requirements/simple-urls.md) к простым URL-адресам в Skype для бизнеса Server.
 
 ## <a name="enable-multi-factor-authentication-for-skype-for-business-web-app"></a>Включить многофакторную проверку подлинности для Skype для бизнеса Web App
 <a name="MFA"> </a>
@@ -48,7 +43,7 @@ Skype для бизнеса Web App, Skype и Skype для бизнеса на M
 
 ### <a name="configure-multi-factor-authentication"></a>Настройка многофакторной проверки подлинности
 
-1. Установите роль сервера федерации службы федерации Active Directory. Сведения см. в руководстве по развертыванию [Active Directory Federation Services 2.0](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd807092(v=ws.10))
+1. Установите роль сервера федерации службы федерации Active Directory. Сведения см. в [руководстве по развертыванию Active Directory Federation Services 2.0](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd807092(v=ws.10))
 
 2. Создание сертификатов для AD FS. Дополнительные сведения см. в разделе ["Сертификаты](/previous-versions/azure/azure-services/jj205462(v=azure.100)) сервера Федерации" в разделе Plan for and deploy AD FS for use with single sign-on topic.
 
@@ -77,7 +72,7 @@ Skype для бизнеса Web App, Skype и Skype для бизнеса на M
 
 Функция BranchCache в Windows 7 и Windows Server 2008 R2 может мешать Skype для бизнеса Web App веб-компонентам. Чтобы предотвратить проблемы для Skype для бизнеса Web App пользователей, убедитесь, что BranchCache не включен.
 
-Сведения об отключении BranchCache см. в руководстве по развертыванию [BranchCache.](/windows-server/networking/branchcache/deploy/branchcache-deployment-guide)
+Сведения об отключении BranchCache см. в [руководстве по развертыванию BranchCache](/windows-server/networking/branchcache/deploy/branchcache-deployment-guide).
 
 ## <a name="verifying-skype-for-business-web-app-deployment"></a>Проверка Skype для бизнеса Web App развертывания
 <a name="MFA"> </a>
@@ -135,7 +130,7 @@ Skype для бизнеса Web App, Skype и Skype для бизнеса на M
    Set-CsWebServiceConfiguration -MeetingUxEnableTelemetry $True
    ```
 
-    Сведения, отправленные в Корпорацию Майкрософт, строго Skype для бизнеса [практике сбора данных.](/skypeforbusiness/legal-and-regulatory/data-collection-practices)
+    Сведения, отправленные в Корпорацию Майкрософт, [строго Skype для бизнеса практике сбора данных](/skypeforbusiness/legal-and-regulatory/data-collection-practices).
 
 3. Задайте время перед тем, как вернуться к локально размещенной Skype для бизнеса Web App, если CDN недоступна. Значение по умолчанию — 6 секунд. Если это значение установлено до 0, время не будет.
 
@@ -144,7 +139,7 @@ Skype для бизнеса Web App, Skype и Skype для бизнеса на M
    ```
 
 > [!NOTE]
-> В meetingUxUseCdn в Skype для бизнеса Server 2015 накопительного обновления 5 значение по умолчанию задается значение False. Это приводит к проблеме, Skype для бизнеса на Mac клиент не может присоединиться к собраниям не федерационных партнеров в качестве гостя, даже если Skype для бизнеса администратор установил MeetingUxUseCdn для True. Для этого в Skype для бизнеса Server 2015 г. необходимо иметь накопительное обновление 7, 6.0.9319.534 или более позднее. См. в Skype в приложении [Enable Skype для бизнеса Web App 2015 Skype для бизнеса Server.](https://support.microsoft.com/kb/4132312)
+> В meetingUxUseCdn в Skype для бизнеса Server 2015 накопительного обновления 5 значение по умолчанию задается значение False. Это приводит к проблеме, Skype для бизнеса на Mac клиент не может присоединиться к собраниям не федерационных партнеров в качестве гостя, даже если Skype для бизнеса администратор установил MeetingUxUseCdn для True. Для этого в Skype для бизнеса Server 2015 г. необходимо иметь накопительное обновление 7, 6.0.9319.534 или более позднее. См[. в Skype в 2015](https://support.microsoft.com/kb/4132312) г. Skype для бизнеса Web App Skype для бизнеса Server приложение Enable Skype meetings App.
 
 
 ## <a name="see-also"></a>См. также

@@ -1,25 +1,20 @@
 ---
 title: Оценка использования голосовых данных и трафика для Skype для бизнеса Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 621b08fb-f894-4d91-ac38-e443401b098b
-description: Для оценки пользовательского трафика на каждом сайте и количества портов, необходимых для поддержки этого трафика, можно использовать следующую метрику.
-ms.openlocfilehash: 6c9dd60c2610e1c0a93e193f48b6363a0120255c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848412"
+description: 'Для оценки пользовательского трафика на каждом сайте и количества портов, необходимых для поддержки этого трафика, можно использовать следующую метрику.'
 ---
+
 # <a name="estimating-voice-usage-and-traffic-for-skype-for-business-server"></a>Оценка использования голосовых данных и трафика для Skype для бизнеса Server
  
 Для оценки пользовательского трафика на каждом сайте и количества портов, необходимых для поддержки этого трафика, можно использовать следующую метрику.

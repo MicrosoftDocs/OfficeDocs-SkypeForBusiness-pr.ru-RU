@@ -1,27 +1,22 @@
 ---
 title: Узел области применения устройств для обеспечения связи в филиалах
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.BranchOfficeAppliancesScopeNode
+  - ms.lync.tb.BranchOfficeAppliancesScopeNode
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 8117b88a-0a34-4bf4-b1dd-ded72b5c9c18
 description: Узел Устройства для обеспечения связи в филиалах содержит список устройств для обеспечения связи на этом сайте филиала. Можно выполнить следующее действие.
-ms.openlocfilehash: e49ae455b7d0b8944b0a65818767dd9a945b5c82
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840081"
 ---
+
 # <a name="branch-office-appliances-scope-node"></a>Узел области устройств для обеспечения связи в филиалах
  
 Узел **Устройства для обеспечения связи в филиалах** содержит список устройств для обеспечения связи на этом сайте филиала. Можно выполнить следующее действие.

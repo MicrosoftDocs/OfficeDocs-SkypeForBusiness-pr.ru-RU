@@ -1,29 +1,24 @@
 ---
 title: Управление политиками конференций в Skype для бизнеса Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 34ec5e41-6fe6-450b-81b0-0d17b9989839
-description: Сводка. Узнайте, как управлять политиками конференций в Skype для бизнеса Server.
-ms.openlocfilehash: 8a4c209e711ba6ff332873147c0523839807b108
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835307"
+description: 'Сводка. Узнайте, как управлять политиками конференций в Skype для бизнеса Server.'
 ---
+
 # <a name="manage-conferencing-policies-in-skype-for-business-server"></a>Управление политиками конференций в Skype для бизнеса Server
  
 **Сводка:** Узнайте, как управлять политиками conferencing в Skype для бизнеса Server.
   
-В этом разделе описывается управление политиками конференций. Дополнительные сведения о планировании и развертывании конференций см. в Skype для бизнеса Server Plan [for conferencing in Skype для бизнеса Server](../../plan-your-deployment/conferencing/conferencing.md) и Deploy [conferencing in Skype для бизнеса Server](../../deploy/deploy-conferencing/deploy-conferencing.md).
+В этом разделе описывается управление политиками конференций. Дополнительные сведения о планировании и развертывании конференций см. в Skype для бизнеса Server Plan [for conferencing in Skype для бизнеса Server](../../plan-your-deployment/conferencing/conferencing.md).[](../../deploy/deploy-conferencing/deploy-conferencing.md)
   
 Политики конференциации позволяют определить самые разнообразные варианты планирования и участия, начиная от того, может ли собрание включать ip-аудио и видео до максимального числа людей, которые могут присутствовать. Политики проведения собраний можно использовать для управления безопасностью, пропускной способностью и юридическими аспектами собраний.
   

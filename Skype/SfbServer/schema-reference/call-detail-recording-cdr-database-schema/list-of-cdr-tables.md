@@ -1,25 +1,20 @@
 ---
 title: Список таблиц CDR в Skype для бизнеса Server 2015 г.
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 031843fd-c7ff-4534-9b02-8847aad70807
 description: Схема базы данных регистрации вызовов (call detail recording — CDR) состоит из следующих таблиц.
-ms.openlocfilehash: a8b89664482d05c60e00b10f64f7e2e853280d94
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847082"
 ---
+
 # <a name="list-of-cdr-tables-in-skype-for-business-server-2015"></a>Список таблиц CDR в Skype для бизнеса Server 2015 г.
  
 Схема базы данных регистрации вызовов (call detail recording — CDR) состоит из следующих таблиц. 
@@ -90,7 +85,7 @@ ms.locfileid: "60847082"
 |[Таблица VoipDetails](voipdetails-0.md) <br/> |Сохранение информации о вызове, включая идентификатор телефона VoIP, используемый шлюз и сторону, прервавшую вызов, для каждого двустороннего вызова VoIP/ТСОП. Ссылается на [таблицу SessionDetails](sessiondetails.md) для времени начала и окончания вызовов и кода ответа. <br/> |
    
 > [!NOTE]
-> Если один участник вызова является пользователем VoIP или при выполнении вызова задействован сервер-посредник, в этой таблице создается соответствующая запись. Сведения о звонках VoIP/VoIP, не связанных с телефоном с общедоступными переключаемой телефонной сетью (PSTN), запечатлены в таблице [SessionDetails.](sessiondetails.md) 
+> Если один участник вызова является пользователем VoIP или при выполнении вызова задействован сервер-посредник, в этой таблице создается соответствующая запись. Сведения о звонках VoIP/VoIP, не связанных с телефоном с общедоступным переключаемой телефонной сетью (PSTN), запечатлены в таблице [SessionDetails](sessiondetails.md). 
   
 ## <a name="table-for-e9-1-1-call-auditing"></a>Таблица для аудита вызовов E9-1-1
 

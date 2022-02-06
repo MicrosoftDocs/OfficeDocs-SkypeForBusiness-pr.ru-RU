@@ -1,25 +1,20 @@
 ---
 title: Требования к оборудованию и программному обеспечению для постоянного сервера чата в Skype для бизнеса Server 2015 г.
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 7/19/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 692b7d99-1bc9-4c99-a050-2bc2be8688b2
-description: Сводка. Ознакомьтесь с этой темой, чтобы узнать о требованиях к оборудованию и программному обеспечению для сохраняемой сервера чата в Skype для бизнеса Server 2015 г.
-ms.openlocfilehash: d911cdeb3aefddbf37d8857e86207fe84c4dce98
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833293"
+description: 'Сводка. Ознакомьтесь с этой темой, чтобы узнать о требованиях к оборудованию и программному обеспечению для сохраняемой сервера чата в Skype для бизнеса Server 2015 г.'
 ---
+
 # <a name="hardware-and-software-requirements-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Требования к оборудованию и программному обеспечению для постоянного сервера чата в Skype для бизнеса Server 2015 г.
  
 **Сводка:** Ознакомьтесь с этой темой, чтобы узнать о требованиях к оборудованию и программному обеспечению для сохраняемой сервера чатов в Skype для бизнеса Server 2015 г.
@@ -28,11 +23,11 @@ ms.locfileid: "60833293"
   
 Перед развертыванием постоянного сервера чата необходимо убедиться в том, что следующие требования к оборудованию и программному обеспечению будут выполнены:
   
-- Оборудование, которое отвечает минимальным требованиям для поддержки Skype для бизнеса Server 2015 г., сохраняемой системы чата, серверов баз данных и файлов. Дополнительные сведения см. в дополнительных сведениях о требованиях [к серверу для Skype для бизнеса Server 2015 г.](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md).
+- Оборудование, которое отвечает минимальным требованиям для поддержки Skype для бизнеса Server 2015 г., сохраняемой системы чата, серверов баз данных и файлов. Дополнительные сведения см. в дополнительных сведениях о требованиях [Server к Skype для бизнеса Server 2015 г](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md).
     
 - Поддерживаемая операционная система и программное обеспечение базы данных.
     
-    Подробные сведения о поддерживаемых операционных системах и программном обеспечении баз данных и Windows обновления см. в Skype для бизнеса Server [2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)г.
+    Сведения о поддерживаемых операционных системах и программном обеспечении баз данных и Windows обновления см. в Skype для бизнеса Server [2015 г](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md).
     
 - Skype для бизнеса Server 2015 front End Server. Передний конечный сервер является основой маршрутиации протокола инициирования сеанса (SIP), что позволяет общаться между компьютерами, работающими на стойком сервере чата, и функциями сохраняемого чата. 
     
@@ -41,7 +36,7 @@ ms.locfileid: "60833293"
 В следующих разделах описываются конкретные требования к серверу сохраняемой системы чата и базе данных, в которой хранится информация о сохраняемом чате.
 
 > [!NOTE] 
-> Постоянный чат доступен в Skype для бизнеса Server 2015 г., но больше не поддерживается Skype для бизнеса Server 2019 г. Такая же функциональность доступна в Teams. Дополнительные сведения см. в ссылке Начало работы [с обновлением Microsoft Teams обновления.](/microsoftteams/upgrade-start-here) Если вам нужно использовать постоянный чат, вы можете либо перенести пользователей, требующих Teams, либо продолжить использование Skype для бизнеса Server 2015 г. 
+> Постоянный чат доступен в Skype для бизнеса Server 2015 г., но больше не поддерживается Skype для бизнеса Server 2019 г. Такая же функциональность доступна в Teams. Дополнительные сведения см. в [ссылке Начало работы с Microsoft Teams обновления](/microsoftteams/upgrade-start-here). Если вам нужно использовать постоянный чат, вы можете либо перенести пользователей, требующих Teams, либо продолжить использование Skype для бизнеса Server 2015 г. 
   
 ## <a name="front-end-server-requirements"></a>Требования к переднему серверу
 
@@ -63,21 +58,21 @@ ms.locfileid: "60833293"
     
 - База данных сохраняемого чата (mgc) и база данных соответствия требованиям (mgccomp) могут располагаться в одном экземпляре SQL Server или на SQL серверах.
     
-Чтобы подготовить платформу сервера базы данных, убедитесь, что каждый компьютер соответствует требованиям к оборудованию, а затем установите все необходимые программные компоненты. Серверная платформа для серверов базы данных сохраняемого чата требует того же оборудования, что и Skype для бизнеса Server сервер базы данных 2015 года. Подробные сведения [см. в материале Server requirements for Skype для бизнеса Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md).
+Чтобы подготовить платформу сервера базы данных, убедитесь, что каждый компьютер соответствует требованиям к оборудованию, а затем установите все необходимые программные компоненты. Серверная платформа для серверов базы данных сохраняемого чата требует того же оборудования, что и Skype для бизнеса Server сервер базы данных 2015 года. Подробные сведения см[. в материале Server requirements for Skype для бизнеса Server 2015.](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
   
 На сервере базы данных убедитесь, что установлено одно из следующих программных приложений:
 
 - Microsoft SQL Server 2017 с последним пакетом услуг.
 
-- Microsoft SQL Server 2016 с Пакет обновления 1, и вы должны запустить с Skype для бизнеса Server накопительного обновления 7 или более поздних выпусков. Мы рекомендовали SQL Server 2016 с последним пакетом услуг. Дополнительные сведения об установке Microsoft SQL Server 2016 г. см. в SQL Server [2016](/sql/database-engine/install-windows/install-sql-server?view=sql-server-2016)г.
+- Microsoft SQL Server 2016 с Пакет обновления 1, и вы должны запустить с Skype для бизнеса Server накопительного обновления 7 или более поздних выпусков. Мы рекомендовали SQL Server 2016 с последним пакетом услуг. Дополнительные сведения об установке Microsoft SQL Server 2016 г. см. в SQL Server [2016 г](/sql/database-engine/install-windows/install-sql-server?view=sql-server-2016).
 
-- Microsoft SQL Server 2014 г., и вы должны запустить Skype для бизнеса Server накопительного обновления 6 или более поздних выпусков. Мы рекомендовали SQL Server 2014 с последним пакетом услуг. Дополнительные сведения об установке Microsoft SQL Server 2014 г. см. в SQL Server [2014 г.](/sql/database-engine/install-windows/install-sql-server?view=sql-server-2014)
+- Microsoft SQL Server 2014 г., и вы должны запустить Skype для бизнеса Server накопительного обновления 6 или более поздних выпусков. Мы рекомендовали SQL Server 2014 с последним пакетом услуг. Дополнительные сведения об установке Microsoft SQL Server 2014 г. см. в SQL Server [2014 г](/sql/database-engine/install-windows/install-sql-server?view=sql-server-2014).
 
-- Microsoft SQL Server 2012 (64-битное издание), и мы рекомендовали работать с последним пакетом службы. Дополнительные сведения об установке Microsoft SQL Server 2012 г. см. в SQL Server [2012](/previous-versions/sql/sql-server-2012/bb500395(v=sql.110))г.
+- Microsoft SQL Server 2012 (64-битное издание), и мы рекомендовали работать с последним пакетом службы. Дополнительные сведения об установке Microsoft SQL Server 2012 г. см. в SQL Server [2012 г](/previous-versions/sql/sql-server-2012/bb500395(v=sql.110)).
 
 ## <a name="persistent-chat-server-certificate-requirements"></a>Постоянные требования к сертификату Chat Server
 
-Дополнительные сведения о приобретении сертификатов, создании SQL Server базы данных и создании файловых магазинов см. в Skype для бизнеса Server [2015](../../deploy/deploy.md)г. 
+Дополнительные сведения о приобретении сертификатов, создании SQL Server базы данных и создании файловых магазинов см. в Skype для бизнеса Server [2015 г](../../deploy/deploy.md). 
   
 ## <a name="for-more-information"></a>Дополнительные сведения
 

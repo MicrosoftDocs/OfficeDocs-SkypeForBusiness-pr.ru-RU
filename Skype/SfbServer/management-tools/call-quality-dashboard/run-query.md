@@ -1,25 +1,20 @@
 ---
 title: Запуск запроса
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 45a77f7e-b137-462b-9146-3a0f43d8e0c7
-description: Сводка. Сведения об операции Run Query, которая входит в API данных для панели мониторинга качества вызовов. Панель мониторинга качества вызовов — это средство для Skype для бизнеса Server.
-ms.openlocfilehash: 00060baabff5bdcc4e930f56f7885de273060597
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849812"
+description: 'Сводка. Сведения об операции Run Query, которая входит в API данных для панели мониторинга качества вызовов. Панель мониторинга качества вызовов — это средство для Skype для бизнеса Server.'
 ---
+
 # <a name="run-query"></a>Запуск запроса
 
 **Сводка:** Сведения об операции Run Query, которая входит в API данных для панели мониторинга качества вызовов. Панель мониторинга качества вызовов — это средство для Skype для бизнеса Server.
@@ -33,7 +28,7 @@ ms.locfileid: "60849812"
 
 |**Способ**|**Запрос URI**|**ВЕРСИЯ HTTP**|
 |:-----|:-----|:-----|
-|POST  <br/> |https:// \<portal\> /QoEDataService/RunQuery  <br/> |HTTP/1.1  <br/> |
+|POST  <br/> |\<portal\>https:///QoEDataService/RunQuery  <br/> |HTTP/1.1  <br/> |
 
  **Параметры URI** . Нет.
 
@@ -82,7 +77,7 @@ ms.locfileid: "60849812"
 
  *Trend*  — дополнительные инструкции по контролю для настройки данных результатов.
 
- **Ответ.** Ответ включает код состояния HTTP и набор заглавных заглавных ответов.
+ **Ответ** . Ответ включает код состояния HTTP и набор заглавных заглавных ответов.
 
  **Код состояния** — успешная операция возвращает код состояния 200 (OK).
 

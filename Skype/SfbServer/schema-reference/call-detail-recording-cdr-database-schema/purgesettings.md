@@ -1,25 +1,20 @@
 ---
 title: Таблица PurgeSettings
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 9ff2c8fc-4ae8-4f22-96a8-1f4d5eecbf2d
 description: 'Таблица параметров очистки PurgeSettings содержит сведения, указывающие, следует ли автоматически удалять устаревшие записи регистрации вызовов из базы данных CDR, и когда это следует делать. Обратите внимание, что сведения, связанные с чисткой, также можно получить из Skype для бизнеса Server 2015 г., задав следующую команду:'
-ms.openlocfilehash: 119c357ed9b0f3da456d34899c8fb9bd7007a375
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60859826"
 ---
+
 # <a name="purgesettings-table"></a>Таблица PurgeSettings
  
 Таблица параметров очистки PurgeSettings содержит сведения, указывающие, следует ли автоматически удалять устаревшие записи регистрации вызовов из базы данных CDR, и когда это следует делать. Обратите внимание, что сведения, связанные с чисткой, также можно получить из Skype для бизнеса Server 2015 г., задав следующую команду:
@@ -28,7 +23,7 @@ ms.locfileid: "60859826"
 Get-CsCdrConfiguration
 ```
 
-Администраторы должны рассматривать таблицу PurgeSettings только для чтения: изменения параметров очистки деталей вызовов следует вносить только с помощью групп [New-CsCDrConfiguration](/powershell/module/skype/new-cscdrconfiguration?view=skype-ps) или [Set-CsCDrConfiguration.](/powershell/module/skype/set-cscdrconfiguration?view=skype-ps)
+Администраторы должны рассматривать таблицу PurgeSettings только для чтения: изменения параметров очистки деталей вызовов следует вносить только с помощью групп [New-CsCDrConfiguration](/powershell/module/skype/new-cscdrconfiguration?view=skype-ps) или [Set-CsCDrConfiguration](/powershell/module/skype/set-cscdrconfiguration?view=skype-ps) .
   
 Эта таблица была представлена в Microsoft Lync Server 2013.
   

@@ -1,25 +1,20 @@
 ---
 title: Исключения для антивирусного сканирования для Skype для бизнеса Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 5d742259-ef3b-417a-920b-e1fa0e48f043
 description: Обзор межоперации антивирусного сканера с Skype для бизнеса Server.
-ms.openlocfilehash: 8a4ffae692704755753fbdaa2c84207af796d75d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858996"
 ---
+
 # <a name="antivirus-scanning-exclusions-for-skype-for-business-server"></a>Исключения для антивирусного сканирования для Skype для бизнеса Server
 
 Обзор межоперации антивирусного сканера с Skype для бизнеса Server.
@@ -82,7 +77,7 @@ ms.locfileid: "60858996"
 
   - XmppTGW.exe
 
-- Windows Fabric Процессы службы host:
+- Windows Fabric службы хост-служб:
 
   - Fabric.exe
 
@@ -113,7 +108,7 @@ ms.locfileid: "60858996"
 
   - %ProgramFiles%\Microsoft SQL Server\MSSQL12.RTCLOCAL\MSSQL\Binn\SQLServr.exe
 
-  - выпуск Standard Экземпляр установки RTC
+  - выпуск Standard экземпляр установки RTC
 
   - %ProgramFiles%\Microsoft SQL Server\MSSQL12.RTC\MSSQL\Binn\SQLServr.exe
 
@@ -140,6 +135,6 @@ ms.locfileid: "60858996"
 
   - Хранилище обмена файлами (указанное в topology Builder). Хранилища файлов указаны в Topology Builder.
 
-  - SQL Server данных и файлов журналов, в том числе для базы данных, магазина пользователей, архивного магазина, магазина мониторинга и магазина приложений. Файлы баз данных и журналов могут быть указаны в Topology Builder. Сведения о данных и файлах журналов для каждой базы данных, включая имена по умолчанию, [см.](/previous-versions/office/lync-server-2013/lync-server-2013-sql-server-data-and-log-file-placement) в SQL Server в документации по развертыванию.
+  - SQL Server данных и файлов журналов, в том числе для базы данных, магазина пользователей, архивного магазина, магазина мониторинга и магазина приложений. Файлы баз данных и журналов могут быть указаны в Topology Builder. Сведения о данных и файлах журналов для каждой базы данных, включая имена по умолчанию, см. в SQL Server [data and Log File Placement](/previous-versions/office/lync-server-2013/lync-server-2013-sql-server-data-and-log-file-placement) in the Deployment documentation.
 
   - SQL Server данных и файлов журналов, в том числе для базы данных front-end, Skype для бизнеса магазина и магазина RtcDatabase. Обычно они находятся под %localdrive%\CSData.

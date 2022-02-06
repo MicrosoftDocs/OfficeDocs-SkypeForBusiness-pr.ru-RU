@@ -1,24 +1,19 @@
 ---
 title: Удаление существующей политики архива в Skype для бизнеса Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 8b88bed9-2b37-4caf-b119-48688076e06a
 description: Сводка. Сведения об удалении политики архива для Skype для бизнеса Server.
-ms.openlocfilehash: f475eb3ea70eea98c2bfa67b1dea02e30a0b977c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60852093"
 ---
+
 # <a name="delete-an-existing-archiving-policy-in-skype-for-business-server"></a>Удаление существующей политики архива в Skype для бизнеса Server
 
 **Сводка:** Узнайте, как удалить политику архива для Skype для бизнеса Server.
@@ -31,7 +26,7 @@ ms.locfileid: "60852093"
     
 2. Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель Skype для бизнеса Server управления. 
     
-3. В левой панели навигации щелкните **Мониторинг** и архивации, а затем нажмите кнопку **Политика архивации**.
+3. В левой панели навигации щелкните **Мониторинг и архивации**, а затем нажмите **кнопку Политика архивации**.
     
 4. В списке политик архивации щелкните политику пользователей или сайта, которую следует удалить, щелкните **Изменить**, затем **Удалить**.
     
@@ -39,7 +34,7 @@ ms.locfileid: "60852093"
     
 ## <a name="delete-a-policy-by-using-windows-powershell"></a>Удаление политики с помощью Windows PowerShell
 
-Вы также можете удалить политики архива с помощью **cmdlet Remove-CsArchivingPolicy.**
+Вы также можете удалить политики архива с помощью **cmdlet Remove-CsArchivingPolicy** .
   
 Например, следующая команда удаляет политику с помощью сайта Identity:Redmond. При удалении политики, настроенной на уровне сайта, пользователи, ранее управляемые политикой сайта, будут автоматически управляться глобальной политикой архива:
   
@@ -59,4 +54,4 @@ Get-CsArchivingPolicy -Filter "tag:*" | Remove-CsArchivingPolicy
 Get-CsArchivingPolicy | Where-Object {$_.ArchiveInternal -eq $False} | Remove-CsArchivingPolicy
 ```
 
-Дополнительные сведения см. в разделе Справка для [cmdlet Remove-CsArchivingPolicy.](/powershell/module/skype/remove-csarchivingpolicy?view=skype-ps)
+Дополнительные сведения см. в разделе Справка для [cmdlet Remove-CsArchivingPolicy](/powershell/module/skype/remove-csarchivingpolicy?view=skype-ps) .

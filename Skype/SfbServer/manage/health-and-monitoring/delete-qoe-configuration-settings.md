@@ -1,24 +1,19 @@
 ---
 title: Удаление параметров конфигурации Experience в Skype для бизнеса Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: fd0c4c2f-3bfb-42cb-9b6a-f0f8d5aa9e81
 description: Сводка. Сведения об удалении параметров качества работы (QoE) в Skype для бизнеса Server.
-ms.openlocfilehash: 96c6f15903a3e7cdc4305c6c90faddf0ee8ff743
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60854313"
 ---
+
 # <a name="delete-quality-of-experience-configuration-settings-in-skype-for-business-server"></a>Удаление параметров конфигурации Experience в Skype для бизнеса Server
  
 **Сводка:** Узнайте, как удалить параметры Quality of Experience (QoE) в Skype для бизнеса Server.
@@ -29,7 +24,7 @@ ms.locfileid: "60854313"
   
 Обратите внимание, что можно также "удалить" глобальные параметры. Однако фактическое удаление глобальных параметров при этом не выполняется. Вместо этого все свойства в этой коллекции сбрасываются на значения по умолчанию. Например, по умолчанию в коллекции параметров конфигурации качества взаимодействия включена очистка. Предположим, что вы изменяете глобальную коллекцию, чтобы отключить очистку. Если вы позднее удаляете глобальные параметры, все свойства будут сброшены в значения по умолчанию. В данном случае это означает, что очистка будет снова включена.
   
-Параметры конфигурации QoE можно удалить с помощью панели управления Skype для бизнеса Server или с помощью [cmdlet Remove-CsQoEConfiguration.](/powershell/module/skype/remove-csqoeconfiguration?view=skype-ps)
+Параметры конфигурации QoE можно удалить с Skype для бизнеса Server панели управления или с помощью [cmdlet Remove-CsQoEConfiguration](/powershell/module/skype/remove-csqoeconfiguration?view=skype-ps).
   
 ### <a name="to-delete-qoe-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Удаление параметров конфигурации QoE с помощью Skype для бизнеса Server панели управления
 
@@ -45,7 +40,7 @@ ms.locfileid: "60854313"
     
 ## <a name="removing-qoe-configuration-settings-by-using-windows-powershell-cmdlets"></a>Удаление конфигурации QoE Параметры с помощью Windows PowerShell cmdlets
 
-Параметры конфигурации QoE можно удалить с помощью Windows PowerShell и **cmdlet Remove-CsQoEConfiguration.** Этот комлет можно выполнить либо из Skype для бизнеса Server, либо из удаленного сеанса Windows PowerShell. Сведения об использовании удаленных Windows PowerShell для подключения к Skype для бизнеса Server см. в [материале Microsoft Lync Remote PowerShell Administration](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/). Этот процесс в Skype для бизнеса Server.
+Параметры конфигурации QoE можно удалить с помощью Windows PowerShell и **cmdlet Remove-CsQoEConfiguration**. Этот комлет можно выполнить либо из Skype для бизнеса Server, либо из удаленного сеанса Windows PowerShell. Сведения об использовании удаленных Windows PowerShell для подключения к Skype для бизнеса Server см. в [материале Microsoft Lync Remote PowerShell Administration](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/). Этот процесс в Skype для бизнеса Server.
   
 ### <a name="to-remove-a-specified-collection-of-qoe-configuration-settings"></a>Удаление указанной коллекции параметров конфигурации качества взаимодействия
 
@@ -71,7 +66,7 @@ ms.locfileid: "60854313"
   Get-CsQoEConfiguration | Where-Object {$_.EnableQoE -eq $False} | Remove-CsQoEConfiguration
   ```
 
-Подробные сведения см. [в материале Remove-CsQoEConfiguration.](/powershell/module/skype/remove-csqoeconfiguration?view=skype-ps)
+Подробные сведения см. [в материале Remove-CsQoEConfiguration](/powershell/module/skype/remove-csqoeconfiguration?view=skype-ps).
   
 ## <a name="see-also"></a>См. также
 

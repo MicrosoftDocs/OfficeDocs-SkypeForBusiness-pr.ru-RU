@@ -1,31 +1,26 @@
 ---
 title: Управление учетными записями системы комнат Skype
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 7b389efc-9685-42e9-9504-be437d20ff57
 ms.collection: M365-voice
-description: Ознакомьтесь с этой темой, чтобы узнать, как управлять Skype учетных записей системы номеров.
-ms.openlocfilehash: 2ae91a977a837e2b1b54db8d127551b5f53bb1a8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864456"
+description: 'Ознакомьтесь с этой темой, чтобы узнать, как управлять Skype учетных записей системы номеров.'
 ---
+
 # <a name="manage-skype-room-system-accounts"></a>Управление учетными записями системы комнат Skype
  
 Ознакомьтесь с этой темой, чтобы узнать, как управлять Skype учетных записей системы номеров. 
 
 > [!NOTE]
-> Комнаты Microsoft Teams — это другой продукт с различными зависимостями и процедурами развертывания. Сведения о Комнаты Microsoft Teams см. в Комнаты Microsoft Teams [руководстве.](/microsoftteams/rooms/rooms-manage)
+> Комнаты Microsoft Teams — это другой продукт с различными зависимостями и процедурами развертывания. Сведения о Комнаты Microsoft Teams см. в Комнаты Microsoft Teams [обзоре управления](/microsoftteams/rooms/rooms-manage).
   
 ## <a name="move-the-skype-room-system-account-between-pools"></a>Перемещение учетной записи Skype комнат между пулами
 

@@ -1,27 +1,22 @@
 ---
 title: Политика архива создания новых или редактирования существующих
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.lscp.MonArchPolicyEdit
+  - ms.lync.lscp.MonArchPolicyEdit
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: a4f948e7-e8f6-449a-8907-f61c5b143c05
 description: 'Политики архивации используются для управления архиванием внутренних и внешних коммуникаций при развертывании для пользователей, которые размещены в Skype для бизнеса Server. Политики архивирования включают глобальную политику и, дополнительно, одну или несколько политик сайтов и пользователей:'
-ms.openlocfilehash: a32ca25092c5240b3be2080098b8bd8bc3477ec6
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60838791"
 ---
+
 # <a name="archiving-policy-create-new-or-edit-existing"></a>Политика архивирования: создание новой или редактирование существующей
  
 Политики архивации используются для управления архиванием внутренних и внешних коммуникаций при развертывании для пользователей, которые размещены в Skype для бизнеса Server. Политики архивирования включают глобальную политику и, дополнительно, одну или несколько политик сайтов и пользователей:
@@ -50,5 +45,5 @@ ms.locfileid: "60838791"
     
 - **Архив внешних коммуникаций** Выберите этот контрольный ящик, чтобы включить архивировать сообщения, включающие внешних пользователей, таких как удаленные пользователи (в том числе анонимные и пользователи с настройками PIC) и федеративную партнеров. По умолчанию этот параметр не включен ни в одной политике.
     
-Дополнительные сведения о функции архивации и возможностях, включая интеграцию Exchange, см. в материале Plan [for archiving in Skype для бизнеса Server 2015,](../../plan-your-deployment/archiving/archiving.md) [Deploy archiving for Skype для бизнеса Server 2015](../../deploy/deploy-archiving/deploy-archiving.md)и [Manage archiving in Skype для бизнеса Server 2015](../../manage/archiving/archiving.md).
+Дополнительные сведения о функции архивации и возможностях, включая интеграцию Exchange, см. в рублях Plan [for archiving in Skype для бизнеса Server 2015](../../plan-your-deployment/archiving/archiving.md), [Deploy archiving for Skype для бизнеса Server 2015](../../deploy/deploy-archiving/deploy-archiving.md) и [Manage archiving in Skype для бизнеса Server  2015 г](../../manage/archiving/archiving.md).
 

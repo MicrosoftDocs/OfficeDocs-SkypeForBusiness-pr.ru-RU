@@ -1,26 +1,21 @@
 ---
-title: Топологии Skype для бизнеса, поддерживаемые современной проверкой подлинности
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: 'Топологии Skype для бизнеса, поддерживаемые современной проверкой подлинности'
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.custom: tracyp
 ms.assetid: 258430b0-574a-47fb-90b7-54ee8996b2ec
-description: В этой статье перечислены сетевые и локально-топологии, поддерживаемые современной проверкой подлинности в Skype для бизнеса, а также функции безопасности, применимые к каждой топологии.
-ms.openlocfilehash: ed6710e0f25e946e8cb9e7034300bd450dd07baa
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835077"
+description: 'В этой статье перечислены сетевые и локально-топологии, поддерживаемые современной проверкой подлинности в Skype для бизнеса, а также функции безопасности, применимые к каждой топологии.'
 ---
+
 # <a name="skype-for-business-topologies-supported-with-modern-authentication"></a>Топологии Skype для бизнеса, поддерживаемые современной проверкой подлинности
 
 В этой статье перечислены сетевые и локально-топологии, поддерживаемые современной проверкой подлинности в Skype для бизнеса, а также функции безопасности, применимые к каждой топологии.
@@ -74,7 +69,7 @@ Skype для бизнеса может использовать преимуще
 Сначала рассмотрим ma с помощью Skype для бизнеса в локальной или облачной топологиях.
 
 > [!IMPORTANT]
-> Готовы ли вы настроить современную проверку подлинности в Skype для бизнеса Online? Действия, чтобы включить эту [](https://social.technet.microsoft.com/wiki/contents/articles/34339.skype-for-business-online-enable-your-tenant-for-modern-authentication.aspx)функцию, здесь .
+> Готовы ли вы настроить современную проверку подлинности в Skype для бизнеса Online? Действия по в том, чтобы включить эту [функцию, здесь](https://social.technet.microsoft.com/wiki/contents/articles/34339.skype-for-business-online-enable-your-tenant-for-modern-authentication.aspx).
 
 |Имя топологии  <br/> |Пример  <br/> |Описание  <br/> |Поддерживается  <br/> |
 |:-----|:-----|:-----|:-----|
@@ -98,7 +93,7 @@ Skype для бизнеса может использовать преимуще
 \*- MFA включает Windows, MAC, iOS, android-устройства и Windows телефоны; CBA включает в себя Windows настольные, iOS и Android устройства; Ca/MAM с Intune включает устройства Android и iOS.
 
 > [!IMPORTANT]
-> Очень важно отметить, что в  некоторых случаях пользователи могут видеть несколько подсказок, в частности, когда состояние ma не одинаково для всех серверных ресурсов, которые могут потребоваться клиентам, как это имеет место в случае со всеми версиями смешанных топологий.
+> Очень важно отметить, что в некоторых случаях пользователи могут видеть  несколько подсказок, в частности, когда состояние ma не одинаково для всех серверных ресурсов, которые могут потребоваться клиентам, как это имеет место в случае со всеми версиями смешанных топологий.
 
 > [!IMPORTANT]
-> Кроме того, обратите внимание, что в некоторых случаях (смешанные 1, 3 и 5 в частности) ключ реестра [AllowADALForNonLyncIndependentOfLync](https://support.microsoft.com/help/3082803/info-about-the-allowadalfornonlyncindependentoflync-setting-in-skype-for-business,-lync-2013,-and-exchange-online) необходимо задать для надлежащей конфигурации для Windows настольных клиентов.
+> Кроме того, обратите внимание, что в некоторых случаях (смешанные 1, 3 и 5 в частности) необходимо задать ключ реестра [AllowADALForNonLyncIndependentOfLync](https://support.microsoft.com/help/3082803/info-about-the-allowadalfornonlyncindependentoflync-setting-in-skype-for-business,-lync-2013,-and-exchange-online) для правильной конфигурации для Windows настольных клиентов.

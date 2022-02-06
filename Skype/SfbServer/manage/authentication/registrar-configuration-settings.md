@@ -1,25 +1,20 @@
 ---
 title: Управление настройками конфигурации регистратора в Skype для бизнеса Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: eddfbdd2-cfd0-4c03-986e-443d6728db7d
 description: Сводка. Управление настройками конфигурации регистратора для Skype для бизнеса Server.
-ms.openlocfilehash: 9e5eddde712180820579840587abb18bc9809fe4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60832133"
 ---
+
 # <a name="manage-registrar-configuration-settings-in-skype-for-business-server"></a>Управление настройками конфигурации регистратора в Skype для бизнеса Server
  
 **Сводка:** Управление настройками конфигурации регистратора для Skype для бизнеса Server.
@@ -30,7 +25,7 @@ ms.locfileid: "60832133"
     
 - **NTLM** Это проверка подлинности на основе паролей для клиентов, которые используют схему хаширования вызовов на пароль. Это единственная форма проверки подлинности, доступная клиентам без подключения к центру распространения ключей (контроллеру домена Kerberos), таким как удаленные пользователи. Если сервер проверяет подлинность только удаленных пользователей, то следует выбрать NTLM.
     
-- **Проверка подлинности сертификатов** Это новый метод проверки подлинности, когда серверу необходимо получать сертификаты от клиентов Lync Телефон Edition, телефонов общей области, Skype для бизнеса и приложения Lync Windows Store. В клиентах Lync Телефон Edition после того, как пользователь войдет и успешно прошел проверку подлинности, предоставив личный идентификационный номер (PIN-код), Skype для бизнеса Server затем предоставляет SIP URI на телефон и предоставляет сертификат Skype для бизнеса Server или сертификат пользователя, который идентифицирует Джо (Ex: SN=joe@contoso.com) для  телефон. Этот сертификат используется для проверки подлинности с помощью регистратора и веб-служб
+- **Проверка подлинности сертификатов** Это новый метод проверки подлинности, когда серверу необходимо получать сертификаты от клиентов Lync Телефон Edition, телефонов общей области, Skype для бизнеса и приложения Lync Windows Store. В клиентах Lync Телефон Edition после того, как пользователь войди и успешно прошел проверку подлинности, предоставив личный идентификационный номер (PIN-код), Skype для бизнеса Server затем предоставляет SIP URI на телефон и предоставляет Skype для бизнеса Server  подписанный сертификат или сертификат пользователя, который идентифицирует Joe (Ex: SN=joe@contoso.com) на телефон. Этот сертификат используется для проверки подлинности с помощью регистратора и веб-служб
     
 > [!NOTE]
 > Если сервер поддерживает проверку подлинности для удаленных клиентов и для клиентов предприятия, рекомендуется включить и Kerberos, и NTLM. Пограничный сервер и внутренние серверы взаимодействуют, чтобы убедиться, что для удаленных клиентов предлагается только проверка подлинности NTLM. Если на этих серверах включен только Kerberos, они не могут выполнять проверку подлинности удаленных пользователей. Если пользователи предприятия также проходят проверку подлинности на сервере, то используется Kerberos. 
@@ -104,7 +99,7 @@ ms.locfileid: "60832133"
     
 ## <a name="removing-registrar-configuration-settings-by-using-windows-powershell-cmdlets"></a>Удаление конфигурации регистратора Параметры с помощью Windows PowerShell cmdlets
 
-Параметры конфигурации Регистратора можно удалить с помощью Windows PowerShell и **cmdlet Remove-CsProxyConfiguration.** Вы можете запустить этот командлет из командной консоли Skype для бизнеса Server или из удаленного сеанса Windows PowerShell. Сведения об использовании удаленных Windows PowerShell для подключения к Skype для бизнеса Server см. в [материале Microsoft Lync Remote PowerShell Administration](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/).
+Параметры конфигурации Регистратора можно удалить с помощью Windows PowerShell и **cmdlet Remove-CsProxyConfiguration**. Вы можете запустить этот командлет из командной консоли Skype для бизнеса Server или из удаленного сеанса Windows PowerShell. Сведения об использовании удаленных Windows PowerShell для подключения к Skype для бизнеса Server см. в [материале Microsoft Lync Remote PowerShell Administration](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/).
   
 ### <a name="to-remove-a-specific-set-of-registrar-security-settings"></a>Удаление определенного набора параметров безопасности Регистратора
 
@@ -130,4 +125,4 @@ ms.locfileid: "60832133"
   Get-CsProxyConfiguration | Where-Object {$_.UseNtlmForClientToProxyAuth -eq $True}| Remove-CsProxyConfiguration
   ```
 
-Подробнее см. в [материале Remove-CsProxyConfiguration.](/powershell/module/skype/remove-csproxyconfiguration?view=skype-ps)
+Подробные сведения см. [в материале Remove-CsProxyConfiguration](/powershell/module/skype/remove-csproxyconfiguration?view=skype-ps).

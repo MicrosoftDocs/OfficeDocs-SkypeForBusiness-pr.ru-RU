@@ -1,41 +1,36 @@
 ---
 title: Доступность в Антигуа и Барбуде
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
+ms.reviewer: 'mikedav, jastark, oscarr, v-sukade, rcole, fafan'
 ms.topic: reference
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- M365-collaboration
-- M365-voice
+  - M365-collaboration
+  - M365-voice
 search.appverid: MET150
 audience: Admin
 appliesto:
-- Skype for Business
-- Microsoft Teams
+  - Skype for Business
+  - Microsoft Teams
 ms.localizationpriority: medium
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.custom:
-- Audio Conferencing
-- Phone System
-- Calling Plans
-description: Ниже ниже Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступных для Антигуа и Барбуды.
-ms.openlocfilehash: c798002c4f0043be352f6b500729edb72ebd1744
-ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62191330"
+  - Audio Conferencing
+  - Phone System
+  - Calling Plans
+description: Ниже  находятся Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Антигуа и Барбуды.
 ---
+
 # <a name="availability-in-antigua-and-barbuda"></a>Доступность в Антигуа и Барбуде
 
-[Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)или узнайте больше о доступности страны и региона для аудиоконференций и планов звонков.
+[Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности страны и региона для аудиоконференций и планов звонков.
 
-Ниже ниже Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступных для Антигуа и Барбуды.
+Ниже  находятся Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Антигуа и Барбуды.
   
 ## <a name="audio-conferencing"></a>Аудиоконференция
 
@@ -62,7 +57,7 @@ ms.locfileid: "62191330"
 |Доступные минуты для планов звонков  <br/> |Неприменимо  <br/> |
 |Кому можно делать исходящие звонки?  <br/> |Неприменимо  <br/> |
 
-Если планы звонков недоступны для приобретения, см. параметры подключения через [ПСС](../pstn-connectivity.md) для всех доступных параметров.
+Если планы звонков недоступны для приобретения, см. параметры подключения через ПСС [для всех](../pstn-connectivity.md) доступных параметров.
 
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Платные и бесплатные номера для служб
@@ -73,7 +68,7 @@ ms.locfileid: "62191330"
 |Доступны ли платные номера?  <br/> |Нет <br/> |
 |Доступны ли бесплатные номера?  <br/> |Да  <br/> |
    
- Если вы хотите получить платные и бесплатные номера телефонов для аудиоконференций, автослужб и очередей звонков, см. получение номеров телефонов служб для Skype для бизнеса и [Microsoft Teams.](../getting-service-phone-numbers.md)
+ Если вы хотите получить платные и бесплатные номера телефонов для аудиоконференций, автослужб и очередей звонков, см. получение номеров телефонов служб для Skype для бизнеса и [Microsoft Teams](../getting-service-phone-numbers.md).
   
 ## <a name="communications-credits"></a>Кредиты на связь
 

@@ -1,24 +1,19 @@
 ---
 title: Планирование современной проверки подлинности в Skype для бизнеса
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 audience: ITPro
 ms.topic: conceptual
 manager: serdars
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 25e68396-96dc-4e4b-8a65-d30ea80d1bc9
-description: Планирование тем для проверки подлинности и авторизации для Skype для бизнеса Server, включая интеграцию с другими продуктами
-ms.openlocfilehash: 3bcd9ab78c9703dd938230740fddba4034aff315
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851873"
+description: 'Планирование тем для проверки подлинности и авторизации для Skype для бизнеса Server, включая интеграцию с другими продуктами'
 ---
+
 # <a name="discussing-authentication-and-authorization-in-skype-for-business"></a>Обсуждение проверки подлинности и авторизации в Skype для бизнеса
 
 Проверка подлинности и авторизация являются связанными понятиями, но они работают по-другому (хотя оба необходимы). Проще говоря, authenciation (AuthN) зависит от секретов, которые знает или имеет только действительный пользователь, который может быть паролем, кодом, отпечатком пальцев, сертификатом, сочетанием утверждений о пользователе, которые являются правдой, или сочетанием этих вещей, используемых вместе. AuthN это процесс, чтобы доказать, что вы те, кто вы говорите, что вы.

@@ -1,33 +1,28 @@
 ---
 title: Настройка поддержки федерации для клиента Skype для бизнеса Online
-ms.reviewer: ''
-ms:assetid: e5f7f38d-ede5-4af3-88c2-026e8a78df12
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202193(v=OCS.15)
-ms:contentKeyID: 48185669
+ms.reviewer: null
+'ms:assetid': e5f7f38d-ede5-4af3-88c2-026e8a78df12
+'ms:mtpsurl': 'https://technet.microsoft.com/en-us/library/Hh202193(v=OCS.15)'
+'ms:contentKeyID': 48185669
 mtps_version: v=OCS.15
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 description: 'Если вы Skype для бизнеса в организации, вы можете федератировать с доменами одного или Skype для бизнеса клиентов Online. '
-ms.openlocfilehash: 6b8a22dd4b45f31be9ad4433b486fe3122ae868c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60836401"
 ---
+
 # <a name="configuring-federation-support-for-a-skype-for-business-online-customer-in-skype-for-business-server"></a>Настройка поддержки федерации для клиента Skype для бизнеса Online в Skype для бизнеса Server
 
 Вы можете предоставить службы мгновенных сообщений пользователям свой организации любым из следующих способов:
 
-- Развертывание Skype для бизнеса Server в организации (известные как локальное *обслуживание)* и настройка Skype для бизнеса учетных записей пользователей в организации.
-- Настройка учетной записи Skype для бизнеса Microsoft Online с поставщиком хостинга и настройка учетных записей пользователей с поставщиком хостинга (известным как *онлайн-службы).*
+- Развертывание Skype для бизнеса Server организации (известных как локальное *обслуживание) и* настройка Skype для бизнеса учетных записей пользователей в организации.
+- Настройка учетной записи Skype для бизнеса Microsoft Online с поставщиком хостинга и настройка учетных записей пользователей с поставщиком хостинга (известным как *онлайн-службы*).
 
 Если вы Skype для бизнеса в организации, вы можете федератировать с доменами одного или Skype для бизнеса клиентов Online. Чтобы включить федерацию между пользователями локального Skype для бизнеса развертывания и пользователями клиента Skype для бизнеса Online, необходимо настроить поддержку для домена и пользователей клиента Skype для бизнеса Online.
 
@@ -42,15 +37,15 @@ ms.locfileid: "60836401"
 
 - Развертывание по крайней мере выпуск Standard сервера или выпуск Enterprise пула переднего конца в организации.
 - Включение внутренних учетных записей пользователей для Skype для бизнеса Server.
-- Развертывание по крайней мере одного edge Server и других компонентов, необходимых для поддержки внешнего доступа пользователей. Подробные сведения см. [в материале Managing federation and external access to Skype для бизнеса Server.](../managing-federation-and-external-access.md)
-- Активация поддержки федераций в организации и настройка надлежащего метода управлением доступа к федеративным доменам. Подробные сведения см. в материале [Включить](../access-edge/enable-or-disable-remote-user-access.md) или отключить удаленный доступ к пользователю и управлять федератными поставщиками [SIP для вашей организации.](../sip-providers/manage-sip-federated-providers-for-your-organization.md)
-- Активация внешнего доступа для пользователей в организации. Дополнительные сведения см. в материале Назначение внешней политики доступа к пользователю Skype для бизнеса [включенного пользователя.](../external-access-policies/assign-an-external-user-access-policy.md)
+- Развертывание по крайней мере одного edge Server и других компонентов, необходимых для поддержки внешнего доступа пользователей. Подробные сведения см. [в материале Managing federation and external access to Skype для бизнеса Server](../managing-federation-and-external-access.md).
+- Активация поддержки федераций в организации и настройка надлежащего метода управлением доступа к федеративным доменам. Подробные сведения см. в материале [Включить или](../access-edge/enable-or-disable-remote-user-access.md) отключить удаленный доступ к пользователю и [управлять федерадными поставщиками SIP для вашей организации](../sip-providers/manage-sip-federated-providers-for-your-organization.md).
+- Активация внешнего доступа для пользователей в организации. Дополнительные сведения см. [в материале Назначение](../external-access-policies/assign-an-external-user-access-policy.md) внешней политики доступа пользователей к Skype для бизнеса включенного пользователя.
 
 ## <a name="configure-federation-support-for-a-skype-for-business-online-domain"></a>Настройка поддержки федерации для домена Skype для бизнеса Online
 
 Федерация с клиентом Skype для бизнеса Online требует выполнения следующих действий:
 
-- Настройка поддержки домена клиента Skype для бизнеса Online 2010 (например, contoso.onmicrosoft.com). Как указано в Необходимые условия для [федерации](#prerequisites-for-federating-with-a-skype-for-business-online-customer)с клиентом Skype для бизнеса Online, необходимо уже включить федерацию для вашей организации. Включение федерации требует указания метода, используемого для управления доступом к федератным доменам. Если вы настроили организацию на использование обнаружения, добавление домена в разрешенный список организации является необязательным. Если вы не впустили обнаружение домена, необходимо добавить доменное имя клиента Skype для бизнеса Online в список разрешенных доменов. Доменное имя можно добавить с Skype для бизнеса Server панели управления или с помощью **cmdlet New-CSAllowedDomain.** Сведения об использовании Skype для бизнеса Server панели управления, включая включение обнаружения доменов, см. в материале Управление федерадными поставщиками [SIP](../sip-providers/manage-sip-federated-providers-for-your-organization.md)для вашей организации в Skype для бизнеса Server . Дополнительные сведения об использовании **комлета New-CSAllowedDomain** для добавления домена см. в [материале New-CsAllowedDomain.](/powershell/module/skype/New-CsAllowedDomain)
+- Настройка поддержки домена клиента Skype для бизнеса Online 2010 (например, contoso.onmicrosoft.com). Как указано в [Необходимые условия для федерации](#prerequisites-for-federating-with-a-skype-for-business-online-customer) с клиентом Skype для бизнеса Online, необходимо уже включить федерацию для вашей организации. Включение федерации требует указания метода, используемого для управления доступом к федератным доменам. Если вы настроили организацию на использование обнаружения, добавление домена в разрешенный список организации является необязательным. Если вы не впустили обнаружение домена, необходимо добавить доменное имя клиента Skype для бизнеса Online в список разрешенных доменов. Доменное имя можно добавить с помощью панели Skype для бизнеса Server или с помощью комлета **New-CSAllowedDomain**. Сведения об использовании Skype для бизнеса Server панели управления, включая включение обнаружения доменов, см. в материале [Manage SIP federated providers for your organization in Skype для бизнеса Server](../sip-providers/manage-sip-federated-providers-for-your-organization.md). Дополнительные сведения об использовании **комлета New-CSAllowedDomain** для добавления домена см. в [материале New-CsAllowedDomain](/powershell/module/skype/New-CsAllowedDomain).
 
   > [!NOTE]  
   > Клиент Skype для бизнеса Online может иметь несколько доменов. Если вы хотите использовать несколько доменов, необходимо настроить поддержку для каждого отдельного домена, с помощью которого вы хотите поддерживать федерацию, а администратор клиента Skype для бизнеса Online должен включить федерацию для каждого из доменов для федерации.
@@ -62,7 +57,7 @@ ms.locfileid: "60836401"
 
 ### <a name="to-configure-support-for-a-hosting-provider"></a>Настройка поддержки для поставщика хостинга
 
-1. На переднем сервере запустите Skype для бизнеса Server: нажмите кнопку Начните, нажмите кнопку Все **программы,** нажмите кнопку **Skype для бизнеса Server,** а затем нажмите кнопку **Skype для бизнеса Server.**
+1. На переднем сервере запустите Skype для бизнеса Server: нажмите кнопку **Начните, нажмите** кнопку Все **программы, нажмите** кнопку **Skype для бизнеса Server, а** затем нажмите кнопку Skype для бизнеса Server **управленческой оболочки**.
 
 2. Запустите **комлет New-CsHostingProvider** для создания и настройки поставщика хостинга. Например, выполните следующую команду:
 
@@ -86,18 +81,18 @@ ms.locfileid: "60836401"
 
     - **IsLocal** указывает, содержится ли прокси-сервер, используемый поставщиком хостинга, в топологии Skype для бизнеса Server.
 
-    Сведения об использовании этого комлета см. в [материале New-CsHostingProvider.](/powershell/module/skype/New-CsHostingProvider)
+    Сведения об использовании этого комлета см. в [материале New-CsHostingProvider](/powershell/module/skype/New-CsHostingProvider).
 
 ## <a name="configure-user-access-for-federation-with-a-skype-for-business-online-customer"></a>Настройка доступа пользователей для федерации с клиентом Skype для бизнеса Online
 
-Вам нужно настроить учетные записи всех пользователей организации, которым должно быть разрешено взаимодействие с федеративными партнерами. Эта конфигурация применяется для всех федерадных партнеров, включая все домены клиентов Microsoft Skype для бизнеса Online, с которыми вы поддерживаете федерацию. Дополнительные сведения о настройке поддержки федерации для учетных записей пользователей см. в материале [Configure policies to control federated user access](../external-access-policies/configure-policies-to-control-federated-user-access.md) and [Assign an external user access policy to a Skype для бизнеса включенного пользователя.](../external-access-policies/assign-an-external-user-access-policy.md)
+Вам нужно настроить учетные записи всех пользователей организации, которым должно быть разрешено взаимодействие с федеративными партнерами. Эта конфигурация применяется для всех федерадных партнеров, включая все домены клиентов Microsoft Skype для бизнеса Online, с которыми вы поддерживаете федерацию. Дополнительные сведения о настройке поддержки федерации для учетных записей пользователей см. в материале [Configure policies to control federated user access](../external-access-policies/configure-policies-to-control-federated-user-access.md) and [Assign an external user access policy to a Skype для бизнеса включенного пользователя](../external-access-policies/assign-an-external-user-access-policy.md).
 
 ## <a name="verify-communications-with-a-skype-for-business-online-customer-in-skype-for-business-server"></a>Проверка связи с клиентом Skype для бизнеса Online в Skype для бизнеса Server
 
 Чтобы Skype для бизнеса организации могли общаться с пользователями клиента Skype для бизнеса Online, необходимо завершить следующие действия:
 
-- Соблюсти все обязательные условия. К ним относятся развертывание внутренних и пограничных серверов, включение поддержки федерации для организации и настройка пользовательских учетных записей. Подробные сведения см. [в материале Необходимые условия для федерации с клиентом Skype для бизнеса Online.](#prerequisites-for-federating-with-a-skype-for-business-online-customer)
-- Настроить поддержку доступа к домену во внутреннем развертывании. Это включает создание записи поставщика хостов и настройку развертывания, чтобы разрешить доступ Skype для бизнеса домена клиента в Интернете. Подробные сведения [см. в материале Configure federation support for a Skype для бизнеса Online domain.](#configure-federation-support-for-a-skype-for-business-online-domain)
-- Настроить пользовательские учетные записи для поддержки федерации. Подробные сведения см. в материале Настройка доступа пользователей к федерации с [клиентом Skype для бизнеса Online.](#configure-user-access-for-federation-with-a-skype-for-business-online-customer)
+- Соблюсти все обязательные условия. К ним относятся развертывание внутренних и пограничных серверов, включение поддержки федерации для организации и настройка пользовательских учетных записей. Подробные сведения см. [в материале Необходимые условия для федерации с клиентом Skype для бизнеса Online](#prerequisites-for-federating-with-a-skype-for-business-online-customer).
+- Настроить поддержку доступа к домену во внутреннем развертывании. Это включает создание записи поставщика хостов и настройку развертывания, чтобы разрешить доступ Skype для бизнеса домена клиента в Интернете. Подробные сведения см[. в материале Configure federation support for a Skype для бизнеса Online domain](#configure-federation-support-for-a-skype-for-business-online-domain).
+- Настроить пользовательские учетные записи для поддержки федерации. Подробные сведения см. [в материале Настройка доступа пользователей к федерации с клиентом Skype для бизнеса Online](#configure-user-access-for-federation-with-a-skype-for-business-online-customer).
 
 После выполнения всех этих действий администратор клиента Skype для бизнеса Online завершает всю конфигурацию своих онлайн-служб для поддержки федерации с организацией, проверит связь, проверив связь между внутренним пользователем в вашей организации и пользователем клиента Skype для бизнеса Online. Если связь не удалась, используйте средство ведения журнала с вашего edge Server для захвата журналов и файлов трассировки, чтобы устранить проблему.

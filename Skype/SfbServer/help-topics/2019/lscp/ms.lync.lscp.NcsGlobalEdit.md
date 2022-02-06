@@ -1,27 +1,22 @@
 ---
 title: Изменение глобального параметра конфигурации сети
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.lscp.NcsGlobalEdit
+  - ms.lync.lscp.NcsGlobalEdit
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: abc2f59c-d21a-4d3f-bf23-6ac86effcd86
-ROBOTS: NOINDEX, NOFOLLOW
-description: Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
-ms.openlocfilehash: 18faecfc6abf7393a2f926eaf08824e2d74ad473
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60854983"
+ROBOTS: 'NOINDEX, NOFOLLOW'
+description: 'Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.'
 ---
+
 # <a name="network-configuration-edit-global-setting"></a>Конфигурация сети: изменение глобальной настройки
 
 Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.

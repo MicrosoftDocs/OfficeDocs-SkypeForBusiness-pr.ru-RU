@@ -1,35 +1,30 @@
 ---
 title: Управление телефонным диалогом в Skype для бизнеса Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 85644a2d-7694-4573-8301-aa6490b43ff4
-description: Сводка. Узнайте, как управлять телефонным диалогом в Skype для бизнеса Server.
-ms.openlocfilehash: e2b836cf45bf3e9253ea6161c4bd634864337e5f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60830863"
+description: 'Сводка. Узнайте, как управлять телефонным диалогом в Skype для бизнеса Server.'
 ---
+
 # <a name="manage-dial-in-conferencing-in-skype-for-business-server"></a>Управление телефонным диалогом в Skype для бизнеса Server
  
 **Сводка:** Узнайте, как управлять телефонным диалогом в Skype для бизнеса Server.
   
-В этом разделе описывается управление телефонной беседой. Дополнительные сведения о планировании и настройке телефонных телефонных конференций при развертывании см. в дополнительных сведениях: Plan [for dial-in conferencing in Skype для бизнеса Server](../../plan-your-deployment/conferencing/dial-in-conferencing.md) and [Configure dial-in conferencing in Skype для бизнеса Server](../../deploy/deploy-conferencing/dial-in-conferencing.md).
+В этом разделе описывается управление телефонной беседой. Дополнительные сведения о планировании и настройке телефонных конференций при развертывании см. в этой Skype для бизнеса Server plan [for dial-in conferencing in](../../plan-your-deployment/conferencing/dial-in-conferencing.md) [Skype для бизнеса Server](../../deploy/deploy-conferencing/dial-in-conferencing.md).
   
 Вы можете выполнять следующие задачи по управлению конференц-конференц-залами с телефонным входом: включить или отключить конференц-конференции, управлять номерами доступа, управлять политиками ПИН-кода для набора номера в конференц-залах, управлять объявлениями о присоединении к конференции и оставлять их, изменять сопоставления ключей для команд DTMF и приветствовать пользователей на конференц-конференциях. 
   
-Дополнительные сведения об управлении наборами телефонных планов см. в этой [Skype для бизнеса Server.](../../deploy/deploy-enterprise-voice/dial-plans.md)
+Дополнительные сведения об управлении планами набора см. в этой [Skype для бизнеса Server.](../../deploy/deploy-enterprise-voice/dial-plans.md)
   
-Дополнительные сведения об использовании PSTN см. в дополнительных сведениях о настройке голосовых политик, записей использования [PSTN](../../deploy/deploy-enterprise-voice/voice-and-pstn.md)и маршрутов голосовой Skype для бизнеса .
+Дополнительные сведения об использовании PSTN см. в дополнительных сведениях о настройке голосовых политик, записей использования [PSTN](../../deploy/deploy-enterprise-voice/voice-and-pstn.md) и маршрутов голосовой Skype для бизнеса.
   
 ## <a name="manage-dial-in-conferencing-by-using-skype-for-business-server-control-panel"></a>Управление телефонным диалогом с помощью панели управления Skype для бизнеса Server
 
@@ -47,7 +42,7 @@ ms.locfileid: "60830863"
     
 2.  Откройте панель Skype для бизнеса Server управления.
     
-3. В левой панели навигации нажмите **маршрутику голосовой почты**.
+3. В левой панели навигации щелкните **маршрутику голосовой почты**.
     
 ## <a name="manage-dial-in-conferencing-by-using-skype-for-business-server-management-shell"></a>Управление телефонным диалогом с помощью Skype для бизнеса Server shell
 

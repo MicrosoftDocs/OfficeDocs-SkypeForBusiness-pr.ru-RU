@@ -1,27 +1,22 @@
 ---
 title: Связывание сервера переднего плана с архивированием
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.AssociateFrontEndWithArchivingPage
+  - ms.lync.tb.AssociateFrontEndWithArchivingPage
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: a0d732ab-e845-4f46-8f7b-3ba506597a92
-ROBOTS: NOINDEX, NOFOLLOW
-description: С каждым интерфейсным пулом и устройством для обеспечения связи в филиалах может быть связан только один сервер архивации. Когда для сайта включена архивация, сервер архивации собирает и записывает содержимое обмена мгновенными сообщениями и веб-конференций из бесед с пользователями, размещенными в связанных пулах и устройствах для обеспечения связи в филиалах.
-ms.openlocfilehash: f2d9977664bf6e7981ae7f641f63fe3ab40a2449
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60839281"
+ROBOTS: 'NOINDEX, NOFOLLOW'
+description: 'С каждым интерфейсным пулом и устройством для обеспечения связи в филиалах может быть связан только один сервер архивации. Когда для сайта включена архивация, сервер архивации собирает и записывает содержимое обмена мгновенными сообщениями и веб-конференций из бесед с пользователями, размещенными в связанных пулах и устройствах для обеспечения связи в филиалах.'
 ---
+
 # <a name="associate-front-end-with-archiving"></a>Связывание сервера переднего плана с архивированием
  
 С каждым интерфейсным пулом и устройством для обеспечения связи в филиалах может быть связан только один сервер архивации. Когда для сайта включена архивация, сервер архивации собирает и записывает содержимое обмена мгновенными сообщениями и веб-конференций из бесед с пользователями, размещенными в связанных пулах и устройствах для обеспечения связи в филиалах. 

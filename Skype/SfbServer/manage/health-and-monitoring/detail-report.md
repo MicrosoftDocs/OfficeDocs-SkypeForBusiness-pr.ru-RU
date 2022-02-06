@@ -1,24 +1,19 @@
 ---
 title: Отчет о подробностях конференции в Skype для бизнеса Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 1d61cd81-dcfe-40b4-9a41-a73b038bc216
-description: Сводка. Сведения о отчете о подробностях конференции, используемом в Skype для бизнеса Server.
-ms.openlocfilehash: a86124c05e0d35caef3f92c4ec43b561eb54938c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829993"
+description: 'Сводка. Сведения о отчете о подробностях конференции, используемом в Skype для бизнеса Server.'
 ---
+
 # <a name="conference-detail-report-in-skype-for-business-server"></a>Отчет о подробностях конференции в Skype для бизнеса Server
 
 **Сводка:** Узнайте о отчете о подробностях конференции, используемом в Skype для бизнеса Server.
@@ -48,7 +43,7 @@ ms.locfileid: "60829993"
 **Метрики информации о конференции**
 
 
-| **Название**                 | **Описание**                                                                                                            |
+| **Имя**                 | **Описание**                                                                                                            |
 |:-------------------------|:---------------------------------------------------------------------------------------------------------------------------|
 | **Conference URI** (URI конференции) <br/> | URI, назначенный конференции. Например:  <br/> sip:kmyer@litwareinc.com;gruu;opaque=app:conf:focus:id:drg2y8v4  <br/> |
 | **Pool FQDN** (Полное доменное имя пула) <br/>      | Полное доменное имя пула Регистратора или участвующего в сеансе пограничного сервера.  <br/>                             |
@@ -60,7 +55,7 @@ ms.locfileid: "60829993"
 
 **Метрики участия в конференции**
 
-|**Название**|**Описание**|
+|**Имя**|**Описание**|
 |:-----|:-----|
 |**Пользователь** <br/> |SIP-адрес пользователя, участвовавшего в конференции.  <br/> |
 |**Role** <br/> |Роль (например, выступающий) участника конференции.  <br/> |
@@ -74,7 +69,7 @@ ms.locfileid: "60829993"
 
 **Метрики модальностей конференции**
 
-|**Название**|**Описание**|
+|**Имя**|**Описание**|
 |:-----|:-----|
 |**Пользователь** <br/> |SIP-адрес пользователя, участвовавшего в конференции.  <br/> |
 |**Join time** (Время присоединения) <br/> |Дата и время присоединения участника к конференции.  <br/> |

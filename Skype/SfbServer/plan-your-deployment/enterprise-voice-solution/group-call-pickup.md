@@ -1,28 +1,23 @@
 ---
 title: Планирование группового вызова в Skype для бизнеса
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 3dc0eca8-c773-463c-96bb-9cd6afa2a840
-description: Планирование группового вызова в Skype для бизнеса Server Корпоративная голосовая связь, что позволяет пользователям отвечать на вызовы, изначально предназначенные для других.
-ms.openlocfilehash: 94868d78790d9cfaafaf35915c9c3cd1c7a9793f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850702"
+description: 'Планирование группового вызова в Skype для бизнеса Server Корпоративная голосовая связь, что позволяет пользователям отвечать на вызовы, изначально предназначенные для других.'
 ---
+
 # <a name="plan-for-group-call-pickup-in-skype-for-business"></a>Планирование группового вызова в Skype для бизнеса
  
 Планирование группового вызова в Skype для бизнеса Server Корпоративная голосовая связь, что позволяет пользователям отвечать на вызовы, изначально предназначенные для других.

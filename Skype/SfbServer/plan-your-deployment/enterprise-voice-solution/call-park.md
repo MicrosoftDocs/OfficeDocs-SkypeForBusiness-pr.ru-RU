@@ -1,28 +1,23 @@
 ---
 title: Планирование парка вызовов в Skype для бизнеса
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 985dc326-0aef-4308-b98b-c1d0069311e7
-description: Планирование парковки вызовов в Skype для бизнеса Server Корпоративная голосовая связь, что позволяет откладывать вызовы и передавать вызовы в отделы. Включает планирование емкости, поддерживаемые вызовы и поддерживаемые клиенты.
-ms.openlocfilehash: 29ca14f85aeccaa8394ede4420c66af77e5c66c8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60839841"
+description: 'Планирование парковки вызовов в Skype для бизнеса Server Корпоративная голосовая связь, что позволяет откладывать вызовы и передавать вызовы в отделы. Включает планирование емкости, поддерживаемые вызовы и поддерживаемые клиенты.'
 ---
+
 # <a name="plan-for-call-park-in-skype-for-business"></a>Планирование парка вызовов в Skype для бизнеса
  
 Планирование парковки вызовов в Skype для бизнеса Server Корпоративная голосовая связь, что позволяет откладывать вызовы и передавать вызовы в отделы. Включает планирование емкости, поддерживаемые вызовы и поддерживаемые клиенты.
@@ -56,7 +51,7 @@ ms.locfileid: "60839841"
   
 ### <a name="software-requirements"></a>Требования к программному обеспечению
 
-Все серверы переднего выпуск Standard, на которых развернут call-парк, должны иметь время запуска формата Windows для серверов, работающих Windows Server 2008 R2, или Microsoft Media Foundation для серверов с Windows Server 2012 или Windows Server 2012 R2. Для Windows Server 2008 R2 Windows формата мультимедиа устанавливается в Windows Desktop Experience. Windows Время запуска формата мультимедиа или Microsoft Media Foundation требуется для Windows мультимедиа аудио (wma), которые call Park воспроизводит для музыки на удержание.
+Все серверы переднего и выпуск Standard, на которых развернут Call Park, должны иметь время запуска Windows формата мультимедиа для серверов, работающих Windows Server 2008 R2, или Microsoft Media Foundation для серверов с Windows Server 2012 или Windows Server 2012 R2. Для Windows Server 2008 R2 Windows формата мультимедиа устанавливается в Windows Desktop Experience. Windows формата мультимедиа или Microsoft Media Foundation требуется для Windows мультимедиа аудио (wma), которые Call Park воспроизводит для музыки на удержание.
   
 ### <a name="port-requirements"></a>Требования к портам
 
@@ -67,7 +62,7 @@ ms.locfileid: "60839841"
   
 ### <a name="audio-file-requirements"></a>Требования к аудиофайлам
 
-Приложение Call Park поддерживает только Windows мультимедиа аудио (wma) для музыки в удержании. Вы можете использовать Microsoft Expression Encoder 4 для настройки файлов для удержания музыки. Чтобы скачать экспрессию Encoder 4, см. в рубрике ["Экспресс-кодер 4".](https://go.microsoft.com/fwlink/p/?linkId=202843) Используйте этот инструмент для преобразования файла в формат wma. Рекомендуемый формат для файлов музыки на удержании в Парке вызовов: Media Audio 9, 44 кГц, 16 бит, Mono, CBR, 32 кб/с.
+Приложение Call Park поддерживает только Windows мультимедиа аудио (wma) для музыки в удержании. Вы можете использовать Microsoft Expression Encoder 4 для настройки файлов для удержания музыки. Чтобы скачать экспрессию Encoder 4, см. в рубрике   ["Экспресс-кодер 4"](https://go.microsoft.com/fwlink/p/?linkId=202843). Используйте этот инструмент для преобразования файла в формат wma. Рекомендуемый формат для файлов музыки на удержании в Парке вызовов: Media Audio 9, 44 кГц, 16 бит, Mono, CBR, 32 кб/с.
   
 > [!NOTE]
 > Преобразованный файл воспроизводится на телефоне только на 16 кГц, даже если он был записан на 44 кГц. 

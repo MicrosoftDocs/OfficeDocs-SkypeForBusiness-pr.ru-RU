@@ -1,25 +1,20 @@
 ---
 title: Таблица AudioClientEvent
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: fef73d8f-7261-4e5b-9769-82435b007979
-description: Каждая запись содержит событие клиента для одной конечной точки в звуковом вызове. Обычно один вызов имеет две записи, одну для вызываемой и одну для вызываемой.
-ms.openlocfilehash: e51146211567af3abfe68fdc415814d433e84884
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843652"
+description: 'Каждая запись содержит событие клиента для одной конечной точки в звуковом вызове. Обычно один вызов имеет две записи, одну для вызываемой и одну для вызываемой.'
 ---
+
 # <a name="audioclientevent-table"></a>Таблица AudioClientEvent
  
 Каждая запись содержит событие клиента для одной конечной точки в звуковом вызове. Обычно один вызов имеет две записи, одну для вызываемой и одну для вызываемой.

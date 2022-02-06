@@ -1,25 +1,20 @@
 ---
 title: Управление настройками ПИН-кода в Skype для бизнеса Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d4a104e2-830c-47f1-a5dd-de7a937cc83a
 description: Сводка. Управление настройками ПИН-кода в Skype для бизнеса Server.
-ms.openlocfilehash: 840da2accd7a84caa8c5e4b409873d721d679732
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848572"
 ---
+
 # <a name="manage-pin-settings-in-skype-for-business-server"></a>Управление настройками ПИН-кода в Skype для бизнеса Server
  
 **Сводка:** Управление настройками ПИН-кода в Skype для бизнеса Server.
@@ -38,7 +33,7 @@ ms.locfileid: "60848572"
     
 - [Назначение политики ПИН-кода для каждого пользователя в Skype для бизнеса Server](assign-a-per-user-pin-policy.md)
     
-Используйте следующие процедуры для управления ПИН-данными телефонных телефонных  телефонов пользователей из раздела Пользователи Skype для бизнеса Server панели управления.
+Используйте следующие процедуры для управления ПИН-данными телефонных телефонных телефонов пользователей из раздела Пользователи Skype для бизнеса Server  панели управления.
   
 - [Установите пин-код телефонных контактов пользователя в Skype для бизнеса Server](set-a-user-s-dial-in-conferencing-pin.md)
     

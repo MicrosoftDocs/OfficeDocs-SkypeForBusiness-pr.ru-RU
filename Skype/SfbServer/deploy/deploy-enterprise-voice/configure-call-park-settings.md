@@ -1,33 +1,28 @@
 ---
 title: Настройка параметров парка вызовов в Skype для бизнеса
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 3bed9d09-8363-4fff-a220-f0f6d3a81241
 description: Изменение параметров парка вызовов в Skype для бизнеса Server Корпоративная голосовая связь.
-ms.openlocfilehash: 686484fd42982f2b64623b652851482b85d3e1b8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833935"
 ---
+
 # <a name="configure-call-park-settings-in-skype-for-business"></a>Настройка параметров парка вызовов в Skype для бизнеса
 
 Изменение параметров парка вызовов в Skype для бизнеса Server Корпоративная голосовая связь.
 
-Если вы не хотите использовать параметры Call Park по умолчанию, их можно настроить. При установке приложения Call Park глобальные параметры настраиваются по умолчанию. Можно изменить глобальные параметры, а также указать параметры, определенные для сайта. Для создания новых параметров, определенных для сайта, используйте комлет **New-CsCpsConfiguration.** Чтобы изменить существующие параметры, используйте комлет **Set-CsCpsConfiguration.**
+Если вы не хотите использовать параметры Call Park по умолчанию, их можно настроить. При установке приложения Call Park глобальные параметры настраиваются по умолчанию. Можно изменить глобальные параметры, а также указать параметры, определенные для сайта. Для создания новых параметров, определенных для сайта, используйте комлет **New-CsCpsConfiguration** . Чтобы изменить существующие параметры, используйте комлет **Set-CsCpsConfiguration** .
 
 > [!NOTE]
 > Мы рекомендуем вам настроить хотя бы параметр **OnTimeoutURI** для резервного назначения, используемого в случае истечения времени ожидания запаркованного вызова и сбоя переключения на удерживаемого абонента.
@@ -44,7 +39,7 @@ ms.locfileid: "60833935"
 
 ### <a name="to-configure-call-park-settings"></a>Настройка параметров парка вызовов
 
-1. Запустите Skype для бизнеса Server: нажмите кнопку Начните, щелкните Все **программы,** нажмите кнопку Skype для бизнеса **2015,** а затем нажмите кнопку **Skype для бизнеса Server.**
+1. Запустите Skype для бизнеса Server: нажмите кнопку **Начните, нажмите** кнопку Все **программы, нажмите** кнопку Skype для бизнеса **2015**, а затем нажмите кнопку **Skype для бизнеса Server управленческой оболочки**.
 
 2. Запустите: 
 

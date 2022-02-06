@@ -1,27 +1,22 @@
 ---
 title: Топология Просмотр простого URL-адреса
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.lscp.TopoSimpleUrlMain
+  - ms.lync.lscp.TopoSimpleUrlMain
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: c17f13f2-2e45-44d6-b56d-74ec8989eef1
-description: Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
-ms.openlocfilehash: a23e0c510209e1e3bbb1be7a0d4f0a149a289978
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60830343"
+description: 'Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.'
 ---
+
 # <a name="topology-view-simple-url"></a>Топология: просмотр простых URL-адресов
 
 Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
@@ -30,4 +25,4 @@ ms.locfileid: "60830343"
 
 - [Управление простыми URL-адресами](/previous-versions/office/lync-server-2013/lync-server-2013-managing-simple-urls)
 
-Сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнеса Server, см. в Skype для бизнеса Server [2015](../../manage/manage.md)г.
+Сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнеса Server, см. в Skype для бизнеса Server [2015 г](../../manage/manage.md).

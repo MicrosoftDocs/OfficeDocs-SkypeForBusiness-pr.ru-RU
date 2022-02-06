@@ -1,25 +1,20 @@
 ---
 title: Получение последних данных интеграции
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: e7967dd9-0d6a-4a80-8b59-b8fc2e5615f8
-description: Сводка. Сведения о операции Get Last Integration Data, которая входит в API данных для панели мониторинга качества вызовов. Панель мониторинга качества вызовов — это средство для Skype для бизнеса Server.
-ms.openlocfilehash: 7bc9323c4a2d3933706be0a39a2ff4b86b11eb42
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851973"
+description: 'Сводка. Сведения о операции Get Last Integration Data, которая входит в API данных для панели мониторинга качества вызовов. Панель мониторинга качества вызовов — это средство для Skype для бизнеса Server.'
 ---
+
 # <a name="get-last-integration-data"></a>Получение последних данных интеграции
  
 **Сводка:** Узнайте об операции Get Last Integration Data, которая входит в API данных для панели мониторинга качества вызовов. Панель мониторинга качества вызовов — это средство для Skype для бизнеса Server.
@@ -35,7 +30,7 @@ ms.locfileid: "60851973"
 
 |**Способ**|**Запрос URI**|**ВЕРСИЯ HTTP**|
 |:-----|:-----|:-----|
-|GET  <br/> |https:// \<portal\> /QoEDataService/IntegrationLog/Status  <br/> |HTTP/1.1  <br/> |
+|GET  <br/> |\<portal\>https:///QoEDataService/IntegrationLog/Status  <br/> |HTTP/1.1  <br/> |
    
  **Параметры URI** . Нет.
   
@@ -43,7 +38,7 @@ ms.locfileid: "60851973"
   
  **Тело запроса** . Нет.
   
- **Ответ.** Ответ включает код состояния HTTP и набор заглавных заглавных ответов.
+ **Ответ** . Ответ включает код состояния HTTP и набор заглавных заглавных ответов.
   
  **Код состояния** — успешная операция возвращает код состояния 200 (OK).
   

@@ -1,34 +1,29 @@
 ---
 title: Создание базы данных
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.PublishTopologyCreateDatabasePage
+  - ms.lync.tb.PublishTopologyCreateDatabasePage
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 4d391619-1cab-4265-ae8a-2519993705bc
-description: Topology Builder предоставляет способ установки баз данных в SQL Server магазине. При установке баз данных с помощью topology Builder приложение считывая информацию из топологии, а затем устанавливает необходимые базы данных на указанном компьютере SQL Server или SQL Server кластере. Это единственный тип установки базы данных, доступный в построителе топологий. Если вам необходимо установить определенную базу данных на определенном компьютере или если необходимо установить базу данных collocated, необходимо использовать интерфейс командной строки Windows PowerShell и командный Install-CsDatabase командный Install-CsDatabase.
-ms.openlocfilehash: c6923f81de97fb6210861366ad71f3f87cdd83f8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60830193"
+description: 'Topology Builder предоставляет способ установки баз данных в SQL Server магазине. При установке баз данных с помощью topology Builder приложение считывая информацию из топологии, а затем устанавливает необходимые базы данных на указанном компьютере SQL Server или SQL Server кластере. Это единственный тип установки базы данных, доступный в построителе топологий. Если вам необходимо установить определенную базу данных на определенном компьютере или если необходимо установить базу данных collocated, необходимо использовать интерфейс командной строки Windows PowerShell и командный Install-CsDatabase командный Install-CsDatabase.'
 ---
+
 # <a name="create-database"></a>Создание базы данных
  
-Topology Builder предоставляет способ установки баз данных в SQL Server магазине. При установке баз данных с помощью topology Builder приложение считывая информацию из топологии, а затем устанавливает необходимые базы данных на указанном компьютере SQL Server или SQL Server кластере. Это единственный тип установки базы данных, доступный в построителе топологий. Если необходимо установить определенную базу данных на определенном компьютере или если необходимо установить базу данных collocated, необходимо использовать интерфейс командной строки Windows PowerShell и командлет [Install-CsDatabase.](/powershell/module/skype/install-csdatabase?view=skype-ps)
+Topology Builder предоставляет способ установки баз данных в SQL Server магазине. При установке баз данных с помощью topology Builder приложение считывая информацию из топологии, а затем устанавливает необходимые базы данных на указанном компьютере SQL Server или SQL Server кластере. Это единственный тип установки базы данных, доступный в построителе топологий. Если вам необходимо установить определенную базу данных на определенном компьютере или если необходимо установить базу данных collocated, необходимо использовать интерфейс командной строки Windows PowerShell и командлет [Install-CsDatabase](/powershell/module/skype/install-csdatabase?view=skype-ps).
   
 ### <a name="creating-a-database"></a>Создание базы данных
 
-1. Щелкните узел Skype для бизнеса Server 2015 г., а затем нажмите **кнопку Установить базу данных.**
+1. Щелкните узел Skype для бизнеса Server 2015 г., а затем нажмите **кнопку Установить базу данных**.
     
 2. В диалоговом окне Install **Databases** на странице **Создание** базы данных выберите полное доменное имя (FQDN) магазина SQL Server, где должны быть созданы новые базы данных.
     

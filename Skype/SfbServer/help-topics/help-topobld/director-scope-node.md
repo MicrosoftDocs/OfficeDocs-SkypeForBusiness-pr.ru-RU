@@ -1,27 +1,22 @@
 ---
 title: Узел области применения Директора
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.DirectorScopeNode
+  - ms.lync.tb.DirectorScopeNode
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 790396f1-9821-45cd-906d-80c1f170f5ef
-description: Этот узел отображает полное доменное имя, порты и связанное хранилище файлов для этого пула директоров. Можно выполнить следующие действия.
-ms.openlocfilehash: de50c3152578bb38bb260c65f3a1ef41fbe08866
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851163"
+description: 'Этот узел отображает полное доменное имя, порты и связанное хранилище файлов для этого пула директоров. Можно выполнить следующие действия.'
 ---
+
 # <a name="director-scope-node"></a>Узел области директора
  
 Этот узел отображает полное доменное имя, порты и связанное хранилище файлов для этого пула директоров. Можно выполнить следующие действия.

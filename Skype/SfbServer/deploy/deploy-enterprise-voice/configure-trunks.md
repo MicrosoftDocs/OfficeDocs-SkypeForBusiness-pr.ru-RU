@@ -1,28 +1,23 @@
 ---
 title: Настройка магистрали в Skype для бизнеса Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: a1309c09-ad9a-4c54-9650-4e3f5b2a4a00
-description: Сводка. Узнайте, как настроить магистраль между сервером-посредником и однорангами для Корпоративная голосовая связь в Skype для бизнеса Server.
-ms.openlocfilehash: f2d88d71476e428230aac0298cb0445844757e1c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60839111"
+description: 'Сводка. Узнайте, как настроить магистраль между сервером-посредником и однорангами для Корпоративная голосовая связь в Skype для бизнеса Server.'
 ---
+
 # <a name="configure-trunks-in-skype-for-business-server"></a>Настройка магистрали в Skype для бизнеса Server
  
 **Сводка:** Узнайте, как настроить магистраль между сервером-посредником и однорангами для Корпоративная голосовая связь в Skype для бизнеса Server.
@@ -35,7 +30,7 @@ ms.locfileid: "60839111"
     
 - УАТС
     
-Дополнительные сведения см. [в материале Plan for PSTN connectivity in Skype для бизнеса Server.](../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity-0.md)
+Дополнительные сведения см. [в материале Plan for PSTN connectivity in Skype для бизнеса Server](../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity-0.md).
   
 Skype для бизнеса Server поддерживает несколько ассоциаций между шлюзами и серверами-посредниками. Эти ассоциации сделаны путем определения магистрали, что является логической связью между пулом серверов-посредников и шлюзом открытой телефонной сети (PSTN), диспетчером пограничной связи сеанса (SBC) или IP-PBX. Используйте топологию Builder для связывать шлюзы с серверами-посредниками (то есть магистральными).
   

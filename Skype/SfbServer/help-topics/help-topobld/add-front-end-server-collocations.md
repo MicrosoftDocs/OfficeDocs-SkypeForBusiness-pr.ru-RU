@@ -1,27 +1,22 @@
 ---
 title: Добавление размещений сервера переднего плана
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.AddFrontEndCollocationsPage
+  - ms.lync.tb.AddFrontEndCollocationsPage
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 23e3bda7-a8bf-4da4-88e5-098ae2aa268f
-description: При развертывании Enterprise Edition служба аудио- и видеоконференции совмещается с интерфейсным пулом. Можно также совместить сервер-посредник с интерфейсным пулом или развернуть его как отдельный сервер. Служба аудио- и видеоконференций всегда совмещена, если включена поддержка конференций.
-ms.openlocfilehash: cdce077dedaba831775364980afed8e52d9751c9
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60860366"
+description: 'При развертывании Enterprise Edition служба аудио- и видеоконференции совмещается с интерфейсным пулом. Можно также совместить сервер-посредник с интерфейсным пулом или развернуть его как отдельный сервер. Служба аудио- и видеоконференций всегда совмещена, если включена поддержка конференций.'
 ---
+
 # <a name="add-front-end-server-collocations"></a>Добавление размещений сервера переднего плана
 
 При развертывании Enterprise Edition служба аудио- и видеоконференции совмещается с интерфейсным пулом. Можно также совместить сервер-посредник с интерфейсным пулом или развернуть его как отдельный сервер. Служба аудио- и видеоконференций всегда совмещена, если включена поддержка конференций.
@@ -37,4 +32,4 @@ ms.locfileid: "60860366"
 
 Вы можете использовать средство планирования Microsoft Lync Server 2013 для оценки того, может ли пул переднего плана, в котором необходимо создать сервер-посредник, справиться с нагрузкой. Если ваша среда не удовлетворяет данным требованиям, следует развернуть отдельный пул серверов-посредников.
 
-В целом, совмещение сервера-посредника не рекомендуется в том случае, если в организации требуется высокая доступность и масштабируемость. Сведения о совмещении этих ролей серверов в интерфейсном пуле при развертывании Enterprise Edition см. в разделе [Define and Configure a Front End Pool](/previous-versions/office/lync-server-2013/lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server) документации по развертыванию. Подробные сведения о функциональной возможности и компонентах аудио- и видеоконференций см. в разделе [Planning for Conferencing](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-conferencing) документации по планированию. Подробные сведения о Корпоративная голосовая связь и компонентах, включая mediation Server, см. в Корпоративная голосовая связь в Skype для бизнеса Server [2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md) г. в документации по планированию.
+В целом, совмещение сервера-посредника не рекомендуется в том случае, если в организации требуется высокая доступность и масштабируемость. Сведения о совмещении этих ролей серверов в интерфейсном пуле при развертывании Enterprise Edition см. в разделе [Define and Configure a Front End Pool](/previous-versions/office/lync-server-2013/lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server) документации по развертыванию. Подробные сведения о функциональной возможности и компонентах аудио- и видеоконференций см. в разделе [Planning for Conferencing](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-conferencing) документации по планированию. Сведения о Корпоративная голосовая связь и компонентах, включая mediation Server, см. в Корпоративная голосовая связь в Skype для бизнеса Server [2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md) г. в документации по планированию.

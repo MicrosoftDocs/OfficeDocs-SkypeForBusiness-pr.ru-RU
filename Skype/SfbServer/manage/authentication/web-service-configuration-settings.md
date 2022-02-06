@@ -1,30 +1,25 @@
 ---
 title: Управление настройками веб-службы в Skype для бизнеса Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: f3f04d81-8a1f-427f-bd0f-fb659024e096
 description: Сводка. Управление настройками конфигурации веб-службы в Skype для бизнеса Server.
-ms.openlocfilehash: 006b2b80514c3902c7ce27e212fd451aea9921b4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847392"
 ---
+
 # <a name="manage-web-service-configuration-settings-in-skype-for-business-server"></a>Управление настройками веб-службы в Skype для бизнеса Server
  
 **Сводка:** Управление настройками веб-службы в Skype для бизнеса Server.
   
-Вы можете использовать **страницу Веб-службы** для настройки методов проверки подлинности для доступа Skype для бизнеса Server веб-серверов и веб-служб.
+Вы можете использовать **страницу Веб-службы** для настройки методов проверки подлинности для доступа Skype для бизнеса Server связанных веб-серверов и веб-служб.
   
 Чтобы создать политику веб-службы, выполните следующие действия.
   
@@ -56,7 +51,7 @@ ms.locfileid: "60847392"
     
 ## <a name="modify-existing-web-service-configuration-settings"></a>Изменение существующих параметров конфигурации веб-службы
 
-Вы можете использовать **страницу Веб-службы** для настройки методов проверки подлинности для доступа Skype для бизнеса Server веб-серверов и веб-служб.
+Вы можете использовать **страницу Веб-службы** для настройки методов проверки подлинности для доступа Skype для бизнеса Server связанных веб-серверов и веб-служб.
   
 Чтобы изменить политику существующей веб-службы, выполните следующие действия.
   
@@ -102,7 +97,7 @@ ms.locfileid: "60847392"
     
 ## <a name="deleting-web-service-configuration-settings-by-using-windows-powershell-cmdlets"></a>Удаление конфигурации веб-службы Параметры с помощью Windows PowerShell cmdlets
 
-Параметры конфигурации веб-служб можно удалить с помощью Windows PowerShell и **cmdlet Remove-CsWebServiceConfiguration.** Вы можете запустить этот командлет из командной консоли Skype для бизнеса Server или из удаленного сеанса Windows PowerShell. Сведения об использовании удаленных Windows PowerShell для подключения к Skype для бизнеса Server см. в [материале Microsoft Lync Remote PowerShell Administration](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/). Этот процесс в Skype для бизнеса Server.
+Параметры конфигурации веб-служб можно удалить с помощью Windows PowerShell и **cmdlet Remove-CsWebServiceConfiguration**. Вы можете запустить этот командлет из командной консоли Skype для бизнеса Server или из удаленного сеанса Windows PowerShell. Сведения об использовании удаленных Windows PowerShell для подключения к Skype для бизнеса Server см. в [материале Microsoft Lync Remote PowerShell Administration](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/). Этот процесс в Skype для бизнеса Server.
   
 ### <a name="to-delete-a-specific-collection-of-web-service-configuration-settings"></a>Удаление конкретной коллекции параметров конфигурации веб-служб
 
@@ -128,4 +123,4 @@ ms.locfileid: "60847392"
   Get-CsWebServiceConfiguration | Where-Object {$_.UseCertificateAuth -eq $True} | Remove-CsWebServiceConfiguration
   ```
 
-Подробные сведения см. [в материале Remove-CsWebServiceConfiguration.](/powershell/module/skype/remove-cswebserviceconfiguration?view=skype-ps)
+Подробные сведения см. [в материале Remove-CsWebServiceConfiguration](/powershell/module/skype/remove-cswebserviceconfiguration?view=skype-ps).

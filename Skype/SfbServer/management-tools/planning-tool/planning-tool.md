@@ -1,26 +1,21 @@
 ---
 title: Skype для бизнеса Server 2015 г.
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 2a352f62-c5cb-4ef1-9aa9-7f0c1ab47455
 description: Руководство по использованию Skype для бизнеса Server 2015 г.
-ms.openlocfilehash: d88504af2935ad0143c7f7c1ca85f17e3f9c7c8b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60845322"
 ---
+
 # <a name="skype-for-business-server-2015-planning-tool"></a>Skype для бизнеса Server 2015 г.
  
 Руководство по использованию Skype для бизнеса Server 2015 г.
@@ -31,7 +26,7 @@ ms.locfileid: "60845322"
   
 После настройки топологии с TCP/IP-адресами инфраструктуры и полностью квалифицированными доменными именами (FQDNs), средство планирования дает доступ к серии отчетов, которые охватывают имя доменной системы (DNS), правила брандмауэра, сертификаты и другие. 
   
-Использование этого средства является первым шагом в планировании реализации. Следующим шагом будет ввод сведений о вашем сайте в калькулятор емкости [Skype для бизнеса Server 2015](https://www.microsoft.com/download/details.aspx?id=51196)г., настройка по мере необходимости, а затем использование средства стресса и производительности Skype для бизнеса Server [2015](https://www.microsoft.com/download/details.aspx?id=50367) г. для имитации и проверки выполнения ваших потребностей.
+Использование этого средства является первым шагом в планировании реализации. Следующим шагом будет ввод сведений о вашем сайте в калькулятор емкости [Skype для бизнеса Server 2015](https://www.microsoft.com/download/details.aspx?id=51196) г., настройка по мере необходимости, а затем использование средства стресса и производительности [Skype для бизнеса Server 2015](https://www.microsoft.com/download/details.aspx?id=50367) г. для имитации и проверки выполнения ваших потребностей.
   
 Средство планирования также предоставляет возможность экспорта информации в двух форматах:
   
@@ -41,7 +36,7 @@ ms.locfileid: "60845322"
     
 В следующих темах вводится и подробное средство планирования.
   
-## <a name="in-this-section"></a>В этом разделе
+## <a name="in-this-section"></a>В этой статье
 
 - [Установка средства планирования в Skype для бизнеса Server 2015 г.](install.md)
     

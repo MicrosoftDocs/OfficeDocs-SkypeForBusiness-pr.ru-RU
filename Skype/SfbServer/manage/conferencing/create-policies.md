@@ -1,24 +1,19 @@
 ---
 title: Создание политик для конференций в Skype для бизнеса Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 8c685326-8356-4075-bf95-32324b16ef81
 description: Сводка. Сведения о создании политик конференций в Skype для бизнеса Server.
-ms.openlocfilehash: 56404f98389dbe2fca6a6022e7d6f175bcca030c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60828832"
 ---
+
 # <a name="create-conferencing-policies-in-skype-for-business-server"></a>Создание политик для конференций в Skype для бизнеса Server
  
 **Сводка:** Узнайте, как создать политики конференциинга в Skype для бизнеса Server.
@@ -70,7 +65,7 @@ ms.locfileid: "60828832"
     
     - Если вы разрешили пользователям присоединяться к собраниям по телефону и хотите разрешить неавторизованным (анонимным) пользователям присоединяться к собраниям обратным звонком, установите флажок **Allow anonymous participants to dial out (Разрешить анонимным участникам присоединяться обратным звонком)**. При обратном звонке сервер конференций вызывает пользователя, и пользователь отвечает по телефону, чтобы присоединиться к собранию. По умолчанию анонимные пользователи не могут присоединяться к собраниям обратным звонком.
     
-12. Если вы решили разрешить использование видео в **аудио/ видео,** проверьте **Разрешить несколько потоков видео**.
+12. Если вы решили разрешить использование видео в **audio/video**, проверьте **Разрешить несколько потоков видео**.
     
 13. В разделе **Data collaboration (Совместная работа с данными)** выполните одно из следующих действий.
     
@@ -84,7 +79,7 @@ ms.locfileid: "60828832"
     
     - Чтобы запретить передачу файлов, снимите флажок **Allow participants to transfer files (Разрешить передачу файлов участникам)**. По умолчанию пользователи могут передавать файлы.
     
-    - Чтобы запретить использование заметок, снимите флажок **Enable annotations (Разрешить заметки)**. Чтобы использовать аннотации в общих PowerPoint презентациях, очистить **аннотации Enable PowerPoint.** По умолчанию заметки разрешены.
+    - Чтобы запретить использование заметок, снимите флажок **Enable annotations (Разрешить заметки)**. Чтобы использовать аннотации в общих PowerPoint презентации, очистить **аннотации Включить** PowerPoint. По умолчанию заметки разрешены.
     
     - Чтобы запретить использование опросов, снимите флажок **Enable polls (Разрешить опросы)**. По умолчанию опросы разрешены.
     
@@ -118,7 +113,7 @@ ms.locfileid: "60828832"
     
 ## <a name="create-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>Создание политик conferencing с помощью Skype для бизнеса Server shell управления
 
-Чтобы создать политики конференции, используйте **комлет New-CsConferencingPolicy.**
+Чтобы создать политики конференции, используйте **комлет New-CsConferencingPolicy** .
   
 В следующем примере создается новая политика конференции с помощью identity SalesConferencingPolicy. Эта политика будет использовать все значения по умолчанию для политики конференциалов, за исключением одной: MaxMeetingSize. В этом примере максимальный размер собрания будет установлен до 50 вместо значения по умолчанию 250:
   
@@ -126,4 +121,4 @@ ms.locfileid: "60828832"
 New-CsConferencingPolicy -Identity SalesConferencingPolicy -MaxMeetingSize 50
 ```
 
-Дополнительные сведения, включая полное описание синтаксиса и список параметров, см. в обзоре [New-CsConferencingPolicy.](/powershell/module/skype/new-csconferencingpolicy?view=skype-ps)
+Дополнительные сведения, включая полное описание синтаксиса и список параметров, см. в обзоре [New-CsConferencingPolicy](/powershell/module/skype/new-csconferencingpolicy?view=skype-ps).

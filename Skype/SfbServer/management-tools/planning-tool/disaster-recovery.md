@@ -1,26 +1,21 @@
 ---
 title: Средство планирования аварийного восстановления
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 4/8/2016
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- ms.lync.plan.DisasterRecovery
-- ms.lync.plan.DisasterRecovery
+  - ms.lync.plan.DisasterRecovery
+  - ms.lync.plan.DisasterRecovery
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 88ad1820-d4ef-4eb6-831b-a8574c085bd0
-description: Skype для бизнеса Server 2015 г. включает меры по аварийному восстановлению, включив сопряжение фронтовых пулов, расположенных в двух центрах обработки данных.
-ms.openlocfilehash: fde68bf16928573a5ea96b41960aaadf870e28bf
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861206"
+description: 'Skype для бизнеса Server 2015 г. включает меры по аварийному восстановлению, включив сопряжение фронтовых пулов, расположенных в двух центрах обработки данных.'
 ---
+
 # <a name="disaster-recovery-planning-tool"></a>Средство планирования аварийного восстановления
  
 Skype для бизнеса Server 2015 г. включает в себя меры аварийного восстановления, позволяющие спарить пулы переднего конца, расположенные в двух центрах обработки данных.

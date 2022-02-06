@@ -1,28 +1,23 @@
 ---
 title: Планирование нескольких номеров экстренных служб в Skype для бизнеса Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 5ed45a22-ddf0-419f-84da-895a73df855f
-description: Ознакомьтесь с этой темой, чтобы узнать, как спланировать несколько номеров экстренных служб в Skype для бизнеса Server.
-ms.openlocfilehash: fbff70b3772b9d941d615f3d1aaf2ad668177e30
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861136"
+description: 'Ознакомьтесь с этой темой, чтобы узнать, как спланировать несколько номеров экстренных служб в Skype для бизнеса Server.'
 ---
+
 # <a name="plan-for-multiple-emergency-numbers-in-skype-for-business-server"></a>Планирование нескольких номеров экстренных служб в Skype для бизнеса Server
  
 Ознакомьтесь с этой темой, чтобы узнать, как спланировать несколько номеров экстренных служб в Skype для бизнеса Server.
@@ -35,14 +30,14 @@ Skype для бизнеса Server поддерживает конфигурац
 
 Вы настраивает вызов экстренной помощи, создав политики расположения, определяя, как будет реализован вызов экстренных служб. Вы используете политику расположения, чтобы определить, какой номер представляет собой экстренный вызов, например, 911 в США; 999 и 112 в Великобритании. Политика расположения определяет, включен ли пользователь для вызова экстренных служб, и если да, то каково поведение экстренного вызова. Вы также можете определить, следует ли автоматически уведомить о корпоративной безопасности и как должен быть маршрутифицирован вызов.
   
-Дополнительные сведения о определении и изменении политики расположения см. в Skype для бизнеса Server plan [location policies for Skype для бизнеса Server](location-policies.md) и Create location [policies in Skype для бизнеса Server.](../../deploy/deploy-enterprise-voice/create-location-policies.md) В этих темах описываются понятия о политиках расположения; Однако необходимо следовать инструкциям в [настройках](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md) нескольких номеров экстренных служб в Skype для бизнеса, чтобы настроить несколько номеров экстренных служб.
+Дополнительные сведения об определении и изменении политики расположения см. в Skype для бизнеса Server plan [location policies for Skype для бизнеса Server](location-policies.md) [и Create location policies in Skype для бизнеса Server](../../deploy/deploy-enterprise-voice/create-location-policies.md). В этих темах описываются понятия о политиках расположения; однако необходимо следовать инструкциям в [Настройка](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md) нескольких номеров аварийной ситуации в Skype для бизнеса, чтобы настроить несколько номеров экстренных служб.
   
 При планировании нескольких номеров экстренных служб имейте в виду следующее:
   
 - С накопительным обновлением за июнь 2016 г. можно определить до 5 номеров экстренных служб для определенной политики расположения. С накопительным обновлением за ноябрь 2016 г. это число увеличивается до 100.
     
     > [!NOTE]
-    > Если вы еще не обновили накопительное обновление за ноябрь 2016 г., см. в Skype для бизнеса Server [обновления 2015](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015)г. 
+    > Если вы еще не обновили накопительное обновление за ноябрь 2016 г., см. в Skype для бизнеса Server [обновления 2015 г](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015). 
   
 - Для каждого экстренного номера можно указать маски набора номеров нулевой или более аварийной ситуации, которые являются уникальными для данной политики расположения.
     
@@ -52,18 +47,18 @@ Skype для бизнеса Server поддерживает конфигурац
     
 - Если в политике расположения определены как параметры EmergencyNumbers, так и DialString, а клиент поддерживает несколько номеров экстренных служб, приоритет имеет номер аварийной службы. Если клиент не поддерживает несколько экстренных номеров, используется строка экстренного набора.
     
-- Сведения о том, Skype для бизнеса клиенты и клиенты Lync поддерживают получение нескольких номеров экстренных служб, маски для набора номера и использование телефонной сети с общедоступным переключателем,см. в руб. в рубке [Client support](multiple-emergency-numbers.md#BKMK_Clients).
+- Сведения о том, Skype для бизнеса и клиентов Lync поддерживают получение нескольких номеров экстренных служб, маски для набора номера и использования телефонной сети с общедоступным переключателем (PSTN), см. в этой [информации.](multiple-emergency-numbers.md#BKMK_Clients)
     
 > [!NOTE]
 > Вы не можете настроить несколько номеров аварийной ситуации с помощью Skype для бизнеса панели управления. Чтобы настроить несколько номеров аварийной ситуации, необходимо использовать PowerShell. 
   
 Перед настройкой нескольких номеров экстренных служб имейте в виду следующее:
   
-- Чтобы настроить несколько номеров аварийной ситуации, необходимо использовать New-CsEmergencyNumber и определить политики расположения, поддерживаюющие несколько номеров аварийной ситуации, указав параметр EmergencyNumbers с помощью комлетов [New-CsLocationPolicy](/powershell/module/skype/new-cslocationpolicy?view=skype-ps) и [Set-CsLocationPolicy.](/powershell/module/skype/set-cslocationpolicy?view=skype-ps)
+- Чтобы настроить несколько номеров аварийной ситуации, необходимо использовать New-CsEmergencyNumber и определить политики расположения, поддерживаюющие несколько номеров аварийной ситуации, указав параметр EmergencyNumbers с помощью комлетов [New-CsLocationPolicy](/powershell/module/skype/new-cslocationpolicy?view=skype-ps) и [Set-CsLocationPolicy](/powershell/module/skype/set-cslocationpolicy?view=skype-ps) .
     
 - Если у вас есть существующие номера, определенные с помощью Set-CsLocationPolicy или New-CsLocationPolicy с параметрами EmergencyDialString и EmergencyDialMask, значения, указанные с параметром EmergencyNumbers, будут иметь приоритет над старыми значениями. То есть значения параметров EmergencyDialString и EmergencyDialMask будут игнорироваться.
     
-- Если у вас есть существующие номера, определенные с помощью Set-CsLocationPolicy или New-CsLocationPolicy с параметрами EmergencyDialString  и EmergencyDialMask, и вы не настроили новые номера экстренных служб, существующие номера будут использоваться и впредь.
+- Если у вас есть существующие номера, определенные с помощью Set-CsLocationPolicy или New-CsLocationPolicy с параметрами EmergencyDialString и EmergencyDialMask  *, и*  вы не настраивать новые номера экстренных служб, существующие номера будут продолжать использоваться.
     
 - Чтобы несколько аварийных номеров работали, клиентские версии, которые вы запускали, должны быть в состоянии поддерживать новую функцию. Старые клиенты будут по-прежнему использовать старые значения, указанные в Set-CsLocationPolicy или New-CsLocationPolicy с параметрами EmergencyDialString и EmergencyDialMask. 
     
@@ -101,9 +96,9 @@ Skype для бизнеса Server поддерживает конфигурац
 ||DC (Отложенный канал), выпущенный 11 октября 2016 г. — версия 1605 (сборка 6965.2092)  <br/> |
 |**MSI** <br/> |Обновление от 7 июня [https://support.microsoft.com/kb/3115087](https://support.microsoft.com/kb/3115087) <br/> |
 |**Mac и iOS** <br/> |**Версия** <br/> |
-||Skype для бизнеса Клиентская версия Mac 16.9  <br/> Skype для бизнеса iOS клиентская версия 6.16  <br/> |
+||Skype для бизнеса Mac клиентская версия 16.9  <br/> Skype для бизнеса iOS клиентская версия 6.16  <br/> |
 |**Android** <br/> |**Версия** <br/> |
-||Skype для бизнеса Клиентская версия Android 6.17  <br/> |
+||Skype для бизнеса android-клиентская версия 6.17  <br/> |
 |**Lync Phone Edition** <br/> |**Версия** <br/> |
 || Телефоны Aastra 6721ip и Aastra 6725ip — накопительное обновление за сентябрь 2016 г. (сборка 7577.4512) —[https://support.microsoft.com/kb/3194831](https://support.microsoft.com/kb/3194831) <br/> |
 || Телефоны HP 4110 и HP 4120 — накопительное обновление за сентябрь 2016 г. (сборка 7577.4512) —[https://support.microsoft.com/kb/3194832](https://support.microsoft.com/kb/3194832) <br/> |

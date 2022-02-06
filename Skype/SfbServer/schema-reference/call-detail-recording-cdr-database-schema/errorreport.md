@@ -1,25 +1,20 @@
 ---
 title: Таблица ErrorReport в Skype для бизнеса Server 2015 г.
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 7/15/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: ae0287b4-e8ca-4f8c-84ef-502897dcaa2a
-description: В таблице ErrorReport хранится информация об ошибках, которые произошли. Каждая запись соответствует одному случаю возникновения ошибки. Ошибки фиксируются агентом CDR, работающим на сервере переднего плана, или передаются клиентом.
-ms.openlocfilehash: 3047ede92ec248f612249a27b7c04fc3c9f046c1
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849642"
+description: 'В таблице ErrorReport хранится информация об ошибках, которые произошли. Каждая запись соответствует одному случаю возникновения ошибки. Ошибки фиксируются агентом CDR, работающим на сервере переднего плана, или передаются клиентом.'
 ---
+
 # <a name="errorreport-table-in-skype-for-business-server-2015"></a>Таблица ErrorReport в Skype для бизнеса Server 2015 г.
  
 В таблице ErrorReport хранится информация об ошибках, которые произошли. Каждая запись соответствует одному случаю возникновения ошибки. Ошибки фиксируются агентом CDR, работающим на сервере переднего плана, или передаются клиентом.
@@ -29,12 +24,12 @@ ms.locfileid: "60849642"
 |**ErrorTime** <br/> |datetime  <br/> |Primary  <br/> |Дата и время ошибки.  <br/> |
 |**ErrorReportSeq** <br/> |int  <br/> |Primary  <br/> |ID-номер для определения отчета об ошибке. Используется совместно с **ErrorTime** для уникальной идентификации отчета об ошибке. <br/> |
 |**ErrorId** <br/> |int  <br/> |Foreign  <br/> |Уникальный ID типа ошибки. Дополнительные сведения см. в таблице [ErrorDef Skype для бизнеса Server 2015](errordef.md) г. <br/> |
-|**FromUserId** <br/> |int  <br/> |Foreign  <br/> |Пользователь, зародивший запрос, вызваввший ошибку. Дополнительные [сведения см.](users.md) в таблице Пользователи. <br/> |
-|**ToUserId** <br/> |int  <br/> |Foreign  <br/> |Пользователь назначения для запроса, который вызвал ошибку. Дополнительные [сведения см.](users.md) в таблице Пользователи. <br/> |
-|**ConferenceUriId** <br/> |int  <br/> |Foreign  <br/> |URI конференции связан с ошибкой. Дополнительные сведения см. в таблице [ConferenceUris Skype для бизнеса Server 2015](conferenceuris.md) г. Как правило, если ConferenceUriId не является null, то либо FromUserId, либо ToUserId будет null. <br/> |
+|**FromUserId** <br/> |int  <br/> |Foreign  <br/> |Пользователь, зародивший запрос, вызваввший ошибку. Дополнительные [сведения см](users.md) . в таблице Пользователи. <br/> |
+|**ToUserId** <br/> |int  <br/> |Foreign  <br/> |Пользователь назначения для запроса, который вызвал ошибку. Дополнительные [сведения см](users.md) . в таблице Пользователи. <br/> |
+|**ConferenceUriId** <br/> |int  <br/> |Foreign  <br/> |URI конференции связан с ошибкой. Дополнительные [сведения см. в таблице ConferenceUris Skype для бизнеса Server 2015](conferenceuris.md) г. Как правило, если ConferenceUriId не является null, то либо FromUserId, либо ToUserId будет null. <br/> |
 |**SessionIdTime** <br/> |datetime  <br/> |Foreign  <br/> |В сочетании с параметром **SessionIdSeq** определяет сеанс уникальным образом. Дополнительные сведения см. в таблице [Диалоги Skype для бизнеса Server 2015](dialogs.md) г. <br/> |
 |**SessionIdSeq** <br/> |int  <br/> |Foreign  <br/> |Идентификатор для идентификации сеанса. В сочетании с параметром **SessionIdTime** определяет сеанс уникальным образом. Дополнительные сведения см. в таблице [Диалоги Skype для бизнеса Server 2015](dialogs.md) г. <br/> |
-|**SourceId** <br/> |int  <br/> |Foreign  <br/> |Сервер, отправив отчет об ошибке (если отчет отправляется из компонента сервера). Дополнительные сведения см. в таблице [Servers.](servers.md) <br/> Это поле было внедрено в Microsoft Lync Server 2013.  <br/> |
+|**SourceId** <br/> |int  <br/> |Foreign  <br/> |Сервер, отправив отчет об ошибке (если отчет отправляется из компонента сервера). Дополнительные [сведения см. в таблице Servers](servers.md) . <br/> Это поле было внедрено в Microsoft Lync Server 2013.  <br/> |
 |**ApplicationId** <br/> |int  <br/> |Foreign  <br/> |Сервер, отправив отчет об ошибке (если отчет отправляется из компонента сервера). Дополнительные [сведения см. в таблице приложения Skype для бизнеса Server 2015](application.md) г. <br/> Это поле было внедрено в Microsoft Lync Server 2013.  <br/> |
 |**MsDiagHeader** <br/> |изображение  <br/> | <br/> |Дополнительные сведения об ошибке.  <br/> Эти данные можно преобразовать в текстовый формат, используя следующий синтаксис:  <br/>  `cast(cast(Detail as varbinary(max)) as varchar(max))` <br/> |
 |**ClientVersionId** <br/> |int  <br/> |Foreign  <br/> |Клиентская версия конечной точки, которая отправляет отчет об ошибке. Дополнительные сведения см. в таблице [ClientVersions Skype для бизнеса Server 2015](clientversions.md) г. <br/> |

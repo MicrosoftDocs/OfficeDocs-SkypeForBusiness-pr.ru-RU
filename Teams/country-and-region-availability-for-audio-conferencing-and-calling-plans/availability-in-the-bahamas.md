@@ -1,41 +1,36 @@
 ---
 title: Доступность в Багамах
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
+ms.reviewer: 'mikedav, jastark, oscarr, v-sukade, rcole, fafan'
 ms.topic: reference
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- M365-collaboration
-- M365-voice
+  - M365-collaboration
+  - M365-voice
 search.appverid: MET150
 audience: Admin
 appliesto:
-- Skype for Business
-- Microsoft Teams
+  - Skype for Business
+  - Microsoft Teams
 ms.localizationpriority: medium
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.custom:
-- Audio Conferencing
-- Phone System
-- Calling Plans
-description: Ниже ются Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams багам.
-ms.openlocfilehash: d1a5a54b15da9b2adaf6d138c2c168bbde1375d8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60827382"
+  - Audio Conferencing
+  - Phone System
+  - Calling Plans
+description: Вот Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams багам.
 ---
+
 # <a name="availability-in-the-bahamas"></a>Доступность в Багамах
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже ются Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams багам.
+Вот Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams багам.
   
 ## <a name="audio-conferencing"></a>Аудиоконференция
 
@@ -62,7 +57,7 @@ ms.locfileid: "60827382"
 |Доступные минуты для планов звонков  <br/> |Неприменимо  <br/> |
 |Кому можно делать исходящие звонки?  <br/> |Неприменимо  <br/> |
 
-Если планы звонков недоступны для приобретения, думайте использовать [прямую маршрутику.](../direct-routing-landing-page.md) Благодаря прямой маршрутизации вы можете использовать телефонную систему практически с любым оператором телефонной связи.
+Если планы звонков недоступны для приобретения, думайте использовать [прямую маршрутику](../direct-routing-landing-page.md). Благодаря прямой маршрутизации вы можете использовать телефонную систему практически с любым оператором телефонной связи.
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Платные и бесплатные номера для служб
 
@@ -72,7 +67,7 @@ ms.locfileid: "60827382"
 |Доступны ли платные номера?  <br/> |Нет <br/> |
 |Доступны ли бесплатные номера? <br/> | Да  <br/> |
    
- Если вы хотите получить платные и бесплатные номера телефонов для аудиоконференций, автослужб и очередей звонков, см. получение номеров телефонов служб для Skype для бизнеса и [Microsoft Teams.](../getting-service-phone-numbers.md)
+ Если вы хотите получить платные и бесплатные номера телефонов для аудиоконференций, автослужб и очередей звонков, см. получение номеров телефонов служб для Skype для бизнеса и [Microsoft Teams](../getting-service-phone-numbers.md).
   
 ## <a name="communications-credits"></a>Кредиты на связь
 

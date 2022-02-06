@@ -1,25 +1,20 @@
 ---
 title: Удаление политики ПИН-кода в Skype для бизнеса Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 7c378927-2e41-418e-9721-327021bd2e45
 description: Сводка. Удалите ПИН-код для телефонных Skype для бизнеса Server.
-ms.openlocfilehash: 61bd6aabf823ab73f26832b1494bf625d3ea641c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847432"
 ---
+
 # <a name="delete-a-pin-policy-in-skype-for-business-server"></a>Удаление политики ПИН-кода в Skype для бизнеса Server
  
 **Сводка:** Удаление ПИН-кода для телефонных контактов пользователя для Skype для бизнеса Server.
@@ -71,4 +66,4 @@ ms.locfileid: "60847432"
   et-CsPinPolicy | Where-Object {$_.AllowCommonPatterns -eq $True} | Remove-CsPinPolicy
   ```
 
-Дополнительные сведения см. в разделе Справка для [cmdlet Remove-CsPinPolicy.](/powershell/module/skype/remove-cspinpolicy?view=skype-ps)
+Дополнительные сведения см. в разделе Справка для [cmdlet Remove-CsPinPolicy](/powershell/module/skype/remove-cspinpolicy?view=skype-ps) .

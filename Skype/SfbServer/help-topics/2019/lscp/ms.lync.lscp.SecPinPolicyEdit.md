@@ -1,27 +1,22 @@
 ---
 title: Политика PIN-кода Создать новые или изменить существующие
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.lscp.SecPinPolicyEdit
+  - ms.lync.lscp.SecPinPolicyEdit
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: 344b9be6-dd37-46bc-bfa4-5c06f6666aa7
-ROBOTS: NOINDEX, NOFOLLOW
-description: Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
-ms.openlocfilehash: 00d4b0eb0aa8f163c770f436241a18f1d45793de
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60852633"
+ROBOTS: 'NOINDEX, NOFOLLOW'
+description: 'Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.'
 ---
+
 # <a name="pin-policy-create-new-or-edit-existing"></a>Политика ПИН-кодов: создание новой или редактирование существующей
 
 Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.

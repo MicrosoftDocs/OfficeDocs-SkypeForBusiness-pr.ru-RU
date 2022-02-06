@@ -1,25 +1,20 @@
 ---
 title: Схема изменяется в Skype для бизнеса Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: d760cb93-77d4-4d64-adb7-416b808f36f8
-description: Прежде чем развернуть и Skype для бизнеса Server, необходимо подготовить службы домена Active Directory, расширив схему. Расширения схем добавляют классы и атрибуты, необходимые Skype для бизнеса Server.
-ms.openlocfilehash: 9f5a0f5e3b70925a39d94df9d3fec6728ef6429c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829823"
+description: 'Прежде чем развернуть и Skype для бизнеса Server, необходимо подготовить службы домена Active Directory, расширив схему. Расширения схем добавляют классы и атрибуты, необходимые Skype для бизнеса Server.'
 ---
+
 # <a name="schema-changes-in-skype-for-business-server"></a>Схема изменяется в Skype для бизнеса Server
  
 Прежде чем развернуть и Skype для бизнеса Server, необходимо подготовить службы домена Active Directory, расширив схему. Расширения схем добавляют классы и атрибуты, необходимые Skype для бизнеса Server.
@@ -69,7 +64,7 @@ Skype для бизнеса Server требует нескольких новы�
 
 |**Class**|**Изменение**|**Класс или атрибут**|
 |:-----|:-----|:-----|
-|User  <br/> |add: mayContain  <br/> add: mayContain  <br/> |ProxyAddresses  <br/> msRTCSIP-UserRoutingGroupId  <br/> |
+|Пользователь.  <br/> |add: mayContain  <br/> add: mayContain  <br/> |ProxyAddresses  <br/> msRTCSIP-UserRoutingGroupId  <br/> |
 |Contact  <br/> |add: mayContain  <br/> add: mayContain  <br/> |ProxyAddresses  <br/> msRTCSIP-UserRoutingGroupId  <br/> |
 |Mail-Recipient  <br/> |add: mayContain  <br/> |msExchUserHoldPolicies  <br/> |
 |msRTCSIP-GlobalTopologySetting  <br/> |add: mayContain  <br/> |msRTCSIP-MirrorBackEndServer  <br/> |

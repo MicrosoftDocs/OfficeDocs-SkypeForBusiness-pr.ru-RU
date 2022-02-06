@@ -1,24 +1,19 @@
 ---
 title: Управление вариантами архива в Skype для бизнеса Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 50399f26-58a3-4ce2-8229-32a8cafc7733
-description: Сводка. Узнайте, как настроить параметры архива для Skype для бизнеса Server.
-ms.openlocfilehash: d382cd829a9db8472df286580f6bd5d4b3baf036
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856776"
+description: 'Сводка. Узнайте, как настроить параметры архива для Skype для бизнеса Server.'
 ---
+
 # <a name="manage-archiving-options-in-skype-for-business-server"></a>Управление вариантами архива в Skype для бизнеса Server
 
 **Сводка:** Узнайте, как настроить параметры архива для Skype для бизнеса Server.
@@ -45,7 +40,7 @@ ms.locfileid: "60856776"
     
 - Необязательные конфигурации уровня пула, определяющие реализацию архивации для определенного пула
     
-Вы можете удалить конфигурацию сайта или конфигурацию пула, но не можете удалить глобальную конфигурацию. Если вы все же удалите глобальную конфигурацию, параметрам будут автоматически присвоены значения по умолчанию. Сведения о реализации конфигураций архивации и иерархии конфигураций архивации см. в материале [Plan for archiving in Skype для бизнеса Server.](../../plan-your-deployment/archiving/archiving.md)
+Вы можете удалить конфигурацию сайта или конфигурацию пула, но не можете удалить глобальную конфигурацию. Если вы все же удалите глобальную конфигурацию, параметрам будут автоматически присвоены значения по умолчанию. Сведения о реализации конфигураций архивации и иерархии конфигураций архивации см. в материале [Plan for archiving in Skype для бизнеса Server](../../plan-your-deployment/archiving/archiving.md).
   
 ## <a name="configure-archiving-options-by-using-the-control-panel"></a>Настройка параметров архива с помощью панели управления
 
@@ -55,11 +50,11 @@ ms.locfileid: "60856776"
     
 2. Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель Skype для бизнеса Server управления. 
     
-3. В левой панели навигации нажмите **кнопку Архивация Конфигурация**.
+3. В левой панели навигации щелкните **Конфигурация архивации**.
     
 ## <a name="configure-archiving-options-by-using-windows-powershell"></a>Настройка параметров архива с помощью Windows PowerShell
 
-Вы также можете настроить параметры архива с помощью Windows PowerShell, перечисленных в следующей таблице. Подробные сведения о синтаксисе, включая все доступные параметры, [см. в Skype для бизнеса Server Management Shell.](../management-shell.md)
+Вы также можете настроить параметры архива с помощью Windows PowerShell, перечисленных в следующей таблице. Подробные сведения о синтаксисе, включая все доступные параметры, [см. в Skype для бизнеса Server Management Shell](../management-shell.md).
   
 
 |**Командлет**|**Описание**|

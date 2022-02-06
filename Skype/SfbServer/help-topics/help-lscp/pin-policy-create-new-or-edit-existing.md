@@ -1,27 +1,22 @@
 ---
 title: Политика PIN-кода Создать новые или изменить существующие
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.lscp.SecPinPolicyEdit
+  - ms.lync.lscp.SecPinPolicyEdit
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 344b9be6-dd37-46bc-bfa4-5c06f6666aa7
-description: Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
-ms.openlocfilehash: e863f072077c798c6f9f24c558e48b15e6488687
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862746"
+description: 'Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.'
 ---
+
 # <a name="pin-policy-create-new-or-edit-existing"></a>Политика ПИН-кодов: создание новой или редактирование существующей
 
 Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
@@ -38,4 +33,4 @@ ms.locfileid: "60862746"
 
 - [Удаление ПИН-кода для Параметры для сайта или группы пользователей](/previous-versions/office/lync-server-2013/lync-server-2013-delete-dial-in-conferencing-pin-settings-for-a-site-or-group-of-users)
 
-Сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнеса Server, см. в Skype для бизнеса Server [2015](../../manage/manage.md)г.
+Сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнеса Server, см. в Skype для бизнеса Server [2015 г](../../manage/manage.md).

@@ -1,37 +1,32 @@
 ---
-title: Доступность в Неве
-author: HowlinWolf-92
-ms.author: v-mahoffman
+title: Доступность в Загонах
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: fafan
 ms.topic: reference
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- M365-collaboration
-- M365-voice
+  - M365-collaboration
+  - M365-voice
 search.appverid: MET150
 audience: Admin
 appliesto:
-- Skype for Business
-- Microsoft Teams
+  - Skype for Business
+  - Microsoft Teams
 ms.localizationpriority: medium
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.custom:
-- Audio Conferencing
-- Phone System
-- Calling Plans
+  - Audio Conferencing
+  - Phone System
+  - Calling Plans
 description: Ниже ются Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Нее.
-ms.openlocfilehash: b618c288f06c01a037a3c386d3d65baa7a0c25c3
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858916"
 ---
-# <a name="availability-in-albania"></a>Доступность в Неве
+
+# <a name="availability-in-albania"></a>Доступность в Загонах
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
@@ -69,10 +64,10 @@ ms.locfileid: "60858916"
 |**Функция**|**Сведения**|
 |:-----|:-----|
 |Для каких столиц или крупных городов можно получить платные номера?   | Тирана <br/> |
-|Доступны ли платные номера?  <br/> |Да[(по запросу](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)) <br/> |
+|Доступны ли платные номера?  <br/> |Да ([по запросу](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)) <br/> |
 |Доступны ли бесплатные номера?  <br/> |Нет  <br/> |
    
- Если вы хотите получить платные и бесплатные номера телефонов для аудиоконференций, автослужб и очередей звонков, см. получение номеров телефонов служб для Skype для бизнеса и [Microsoft Teams.](../getting-service-phone-numbers.md)
+ Если вы хотите получить платные и бесплатные номера телефонов для аудиоконференций, автослужб и очередей звонков, см. получение номеров телефонов служб для Skype для бизнеса и [Microsoft Teams](../getting-service-phone-numbers.md).
   
 ## <a name="communications-credits"></a>Кредиты на связь
 

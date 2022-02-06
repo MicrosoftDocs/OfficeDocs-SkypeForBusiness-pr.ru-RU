@@ -1,28 +1,23 @@
 ---
 title: Правила перевода в Skype для бизнеса Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 6e067bd4-4931-4385-81ac-2acae45a16d8
 description: Узнайте о правилах перевода и нормализации строк в Skype для бизнеса Server Корпоративная голосовая связь.
-ms.openlocfilehash: 1ad2434a0f57e57f6d86b8bda0c9c2e7af6c3de9
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841011"
 ---
+
 # <a name="translation-rules-in-skype-for-business-server"></a>Правила перевода в Skype для бизнеса Server
 
 Узнайте о правилах перевода и нормализации строк в Skype для бизнеса Server Корпоративная голосовая связь.
@@ -42,5 +37,5 @@ ms.locfileid: "60841011"
 
 |**Описание**|**Цифры в начале**|**Length**|**Цифры для удаления**|**Цифры для добавления**|**Шаблон соответствия**|**Преобразование**|**Пример**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|Обычный междугородний звонок в США.  <br/> (размыть '+')  <br/> |+1  <br/> |Точно 12  <br/> |1  <br/> |0  <br/> |^\+(1\d) {10} $  <br/> |$1  <br/> |+14255551010 становится 14255551010  <br/> |
-|Международный звонок из США  <br/> (размыть "+" и добавить 011)  <br/> |+  <br/> |Не менее 11  <br/> |1  <br/> |011  <br/> |^\+(\d {9} \d+)$  <br/> |011$1  <br/> |+441235551010 становится 011441235551010  <br/> |
+|Обычный междугородний звонок в США.  <br/> (размыть '+')  <br/> |+1  <br/> |Точно 12  <br/> |1  <br/> |0  <br/> |^\+(1\d{10}) $  <br/> |$1  <br/> |+14255551010 становится 14255551010  <br/> |
+|Международный звонок из США  <br/> (размыть "+" и добавить 011)  <br/> |+  <br/> |Не менее 11  <br/> |1  <br/> |011  <br/> |^\+(\d{9}\d+)$  <br/> |011$1  <br/> |+441235551010 становится 011441235551010  <br/> |

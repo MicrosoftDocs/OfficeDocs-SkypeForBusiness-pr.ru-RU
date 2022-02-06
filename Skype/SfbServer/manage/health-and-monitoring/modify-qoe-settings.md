@@ -1,24 +1,19 @@
 ---
 title: Изменение параметров качества работы в Skype для бизнеса Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: a6b41de2-1466-4240-8a70-14ce6f0f3ddc
-description: Сводка. Узнайте, как указать хранение данных QoE в Skype для бизнеса Server.
-ms.openlocfilehash: 7960f7c89ce16a7105cf24cc89d5efd660fe260b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855526"
+description: 'Сводка. Узнайте, как указать хранение данных QoE в Skype для бизнеса Server.'
 ---
+
 # <a name="modify-quality-of-experience-settings-in-skype-for-business-server"></a>Изменение параметров качества работы в Skype для бизнеса Server
 
 **Сводка:** Узнайте, как указать хранение данных QoE в Skype для бизнеса Server.
@@ -48,7 +43,7 @@ ms.locfileid: "60855526"
 
 ## <a name="specifying-qoe-retention-by-using-windows-powershell-cmdlets"></a>Указание хранения QoE с помощью Windows PowerShell cmdlets
 
-Параметры хранения QoE можно создать с помощью Windows PowerShell **и комлета Set-CsQoEConfiguration.** Этот комлет можно выполнить либо из Skype для бизнеса Server, либо из удаленного сеанса Windows PowerShell. Сведения об использовании удаленных Windows PowerShell для подключения к Skype для бизнеса Server см. в [материале Microsoft Lync Remote PowerShell Administration](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/). Этот процесс в Skype для бизнеса Server.
+Параметры хранения QoE можно создать с помощью Windows PowerShell **и комлета Set-CsQoEConfiguration**. Этот комлет можно выполнить либо из Skype для бизнеса Server, либо из удаленного сеанса Windows PowerShell. Сведения об использовании удаленных Windows PowerShell для подключения к Skype для бизнеса Server см. в [материале Microsoft Lync Remote PowerShell Administration](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/). Этот процесс в Skype для бизнеса Server.
 
 ### <a name="to-specify-qoe-retention-for-a-specific-location"></a>Указание срока хранения данных о качестве взаимодействия для определенного расположения
 
@@ -66,7 +61,7 @@ ms.locfileid: "60855526"
   Get-CsQoEConfiguration | Set-CsQoEConfiguration-EnablePurging -KeepQoEDataForDays 20
   ```
 
-Дополнительные сведения см. в разделе Справка для [cmdlet Set-CsQoEConfiguration.](/powershell/module/skype/set-csqoeconfiguration?view=skype-ps)
+Дополнительные сведения см. в разделе Справка для [cmdlet Set-CsQoEConfiguration](/powershell/module/skype/set-csqoeconfiguration?view=skype-ps) .
 
 ## <a name="see-also"></a>См. также
 

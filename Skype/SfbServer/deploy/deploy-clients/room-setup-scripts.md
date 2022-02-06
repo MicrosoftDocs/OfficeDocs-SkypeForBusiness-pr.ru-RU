@@ -1,25 +1,20 @@
 ---
-title: Skype Сценарии настройки комнатной системы
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: Skype сценарии настройки комнатной системы
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: a66067d2-22b0-48f1-a5d0-e0cd0ece2e5a
-description: Ознакомьтесь с этой темой, чтобы найти примеры сценариев для Skype учетных записей системы номеров.
-ms.openlocfilehash: ef70cc0c36cf4a1434b0ca1e120a8d81799d7640
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60859636"
+description: 'Ознакомьтесь с этой темой, чтобы найти примеры сценариев для Skype учетных записей системы номеров.'
 ---
-# <a name="skype-room-system-room-setup-scripts"></a>Skype Сценарии настройки комнатной системы
+
+# <a name="skype-room-system-room-setup-scripts"></a>Skype сценарии настройки комнатной системы
  
 Ознакомьтесь с этой темой, чтобы найти примеры сценариев для Skype учетных записей системы номеров.
   
@@ -47,7 +42,7 @@ Set-CsMeetingRoom -Identity "conference room" -LineURI "tel:+14255551669;ext=166
     
 - Windows Azure Active Directory модуль для Windows PowerShell (64-битная версия) или (32-битная версия)
     
-- Teams Модуль PowerShell
+- Teams PowerShell Module
     
 - Перезагрузка при необходимости
     

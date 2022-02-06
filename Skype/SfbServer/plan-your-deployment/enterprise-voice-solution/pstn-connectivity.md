@@ -1,28 +1,23 @@
 ---
 title: Компоненты подключения к PSTN в Skype для бизнеса Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 6b2a3f7d-760f-4f09-8432-312c98a7e6b7
 description: Узнайте о магистральных шлюзах SIP и PSTN для Корпоративная голосовая связь в Skype для бизнеса Server.
-ms.openlocfilehash: 5b5bfd467c0269c6eea77db8f787ad5f4b769278
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861036"
 ---
+
 # <a name="pstn-connectivity-components-in-skype-for-business-server"></a>Компоненты подключения к PSTN в Skype для бизнеса Server
  
 Узнайте о магистральных шлюзах SIP и PSTN для Корпоративная голосовая связь в Skype для бизнеса Server.
@@ -43,7 +38,7 @@ ms.locfileid: "60861036"
   
 ## <a name="pstn-gateways"></a>Шлюзы ТСОП
 
-Шлюзы ТСОП — это устройства сторонних производителей, которые передают сигналы и мультимедиа между инфраструктурой корпоративной голосовой связи и ТСОП или УАТС. Шлюзы ТСОП работают с сервером-посредником, чтобы представить вызов ТСОП или УАТС клиенту корпоративной голосовой связи. Сервер-посредник также представляет вызовы клиентов корпоративной голосовой связи в шлюз ТСОП для маршрутизации в ТСОП или УАТС. Список партнеров, которые работают с Корпорацией Майкрософт по предоставлению устройств, которые работают с Skype для бизнеса Server, см. на сайте [Microsoft Unified Communications Partners.](https://go.microsoft.com/fwlink/p/?linkId=202836) 
+Шлюзы ТСОП — это устройства сторонних производителей, которые передают сигналы и мультимедиа между инфраструктурой корпоративной голосовой связи и ТСОП или УАТС. Шлюзы ТСОП работают с сервером-посредником, чтобы представить вызов ТСОП или УАТС клиенту корпоративной голосовой связи. Сервер-посредник также представляет вызовы клиентов корпоративной голосовой связи в шлюз ТСОП для маршрутизации в ТСОП или УАТС. Список партнеров, которые работают с Корпорацией Майкрософт по предоставлению устройств, которые работают с Skype для бизнеса Server, см. на сайте [Microsoft Unified Communications Partners](https://go.microsoft.com/fwlink/p/?linkId=202836). 
   
 ## <a name="private-branch-exchanges"></a>Станции УАТС
 
@@ -58,8 +53,8 @@ ms.locfileid: "60861036"
 - УАТС с временным мультиплексированием с изолированным шлюзом ТСОП.
     
 > [!NOTE]
-> Обход сервера-посредника не будет взаимодействовать с каждым шлюзом ТСОП, IP-УАТС и SBC. Корпорация Майкрософт протестировала ряд шлюзов ТСОП и SBC с сертифицированными партнерами и выполнила некоторые тесты с IP-УАТС компании Cisco. Обход мультимедиа поддерживается только продуктами и версиями, перечисленными в программе open [interoperability Unified Communications - Lync Server.](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md) 
+> Обход сервера-посредника не будет взаимодействовать с каждым шлюзом ТСОП, IP-УАТС и SBC. Корпорация Майкрософт протестировала ряд шлюзов ТСОП и SBC с сертифицированными партнерами и выполнила некоторые тесты с IP-УАТС компании Cisco. Обход мультимедиа поддерживается только продуктами и версиями, перечисленными в [программе open interoperability Unified Communications - Lync Server](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md). 
   
-Сведения о партнерах, предлагавших Корпоративная голосовая связь решения, см. на сайте [Microsoft Unified Communications Partners.](https://go.microsoft.com/fwlink/p/?linkId=202836)
+Сведения о партнерах, предлагавших Корпоративная голосовая связь решения, см. на сайте [Microsoft Unified Communications Partners](https://go.microsoft.com/fwlink/p/?linkId=202836).
   
-Подробные сведения о партнерах, Корпоративная голосовая связь аппаратных решениях, включая шлюзы PSTN, см. на сайте [Microsoft Unified Communications Partners.](https://go.microsoft.com/fwlink/p/?linkId=202836)
+Подробные сведения о партнерах, Корпоративная голосовая связь аппаратных решениях, включая шлюзы PSTN, см. на сайте [Microsoft Unified Communications Partners](https://go.microsoft.com/fwlink/p/?linkId=202836).

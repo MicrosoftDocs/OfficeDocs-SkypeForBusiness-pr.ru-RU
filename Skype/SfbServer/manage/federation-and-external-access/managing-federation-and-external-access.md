@@ -1,34 +1,30 @@
 ---
 title: 'Lync Server 2013: управление федерацией и внешним доступом к Skype для бизнеса Server'
-ms.reviewer: ''
-ms:assetid: 26f806c1-f284-4637-b06b-06270336c540
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520966(v=OCS.15)
-ms:contentKeyID: 48183665
+ms.reviewer: null
+'ms:assetid': 26f806c1-f284-4637-b06b-06270336c540
+'ms:mtpsurl': 'https://technet.microsoft.com/en-us/library/Gg520966(v=OCS.15)'
+'ms:contentKeyID': 48183665
 mtps_version: v=OCS.15
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
-description: Вы включаете и настраивает внешний доступ пользователей, чтобы контролировать, могут ли поддерживаемые внешние пользователи сотрудничать с внутренними Skype для бизнеса Server пользователями.
-ms.openlocfilehash: 42e0644cbad51681f979f83041e4c260788039d1
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60836371"
+description: 'Вы включаете и настраивает внешний доступ пользователей, чтобы контролировать, могут ли поддерживаемые внешние пользователи сотрудничать с внутренними Skype для бизнеса Server пользователями.'
 ---
+
+
 # <a name="managing-federation-and-external-access-to-skype-for-business-server"></a>Управление федерацией и внешним доступом к Skype для бизнеса Server
 
-Чтобы обеспечить поддержку внешних пользователей, в первую очередь необходимо развернуть пограничный сервер или пограничный пул. Дополнительные сведения о развертывании edge Server см. в материале [Deploy Edge Server в Skype для бизнеса Server.](../../deploy/deploy-edge-server/deploy-edge-server.md)
+Чтобы обеспечить поддержку внешних пользователей, в первую очередь необходимо развернуть пограничный сервер или пограничный пул. Дополнительные сведения о развертывании edge Server см. в материале [Deploy Edge Server в Skype для бизнеса Server](../../deploy/deploy-edge-server/deploy-edge-server.md).
 
 После установки и настройки внутреннего развертывания Skype для бизнеса Server внутренних пользователей в организации можно сотрудничать с другими внутренними пользователями, у которых есть учетные записи SIP в службе домена Active Directory (AD DS). Совместная работа может включать отправку и получение мгновенных сообщений, обновление состояния присутствия и участие в конференциях (также называемых собраниями). Вы включаете и настраивает внешний доступ пользователей, чтобы контролировать, могут ли поддерживаемые внешние пользователи сотрудничать с внутренними Skype для бизнеса Server пользователями. Внешние пользователи могут включать удаленных пользователей развертывания, федераированных пользователей (в том числе поддерживаемых пользователей поставщиков общедоступных служб обмена мгновенными сообщениями) и анонимных участников конференций.
 
-Если ваше развертывание включало установку Skype для бизнеса Server Edge Server или пула Edge, область возможных типов связи значительно расширяется с помощью ряда вариантов внешнего доступа к пользователю, связи с членами других федеративных доменов SIP и федеративами SIP. После настройки пула Edge Server или Edge вы включаете типы внешнего доступа пользователей, которые необходимо предоставить, и настройте политики для управления внешним доступом. В Skype для бизнеса Server вы включаете и настраивает внешний доступ к пользователю и политики [](../management-shell.md)с помощью панели управления Skype для бизнеса Server, Skype для бизнеса Server панели управления или обоих, в зависимости от требований к задачам. 
+Если ваше развертывание включало установку Skype для бизнеса Server Edge Server или пула Edge, область возможных типов связи значительно расширяется с помощью ряда вариантов внешнего доступа к пользователю, связи с членами других федеративных доменов SIP и федеративами SIP. После настройки пула Edge Server или Edge вы включаете типы внешнего доступа пользователей, которые необходимо предоставить, и настройте политики для управления внешним доступом. В Skype для бизнеса Server вы включаете и настраивает внешний доступ к пользователю и политики с помощью панели управления Skype для бизнеса Server, Skype для бизнеса Server [управленческой](../management-shell.md) оболочки или обоих, в зависимости от требований к задачам. 
 
 
 
@@ -48,37 +44,37 @@ ms.locfileid: "60836371"
 
 **Хотите ли вы разрешить внутренним и внешним пользователям домена взаимодействовать друг с другом с помощью мгновенных сообщений, веб-конференций, а также аудио- и видеосвязи?**
 
-Настройте параметры как подробные в темах [Настройка](external-access-policies/configure-policies-to-control-remote-user-access.md)политик для управления удаленными подключениями пользователей, а также включить или отключить федерацию и подключение к общедоступным [чатам.](access-edge/enable-or-disable-federation-and-public-im-connectivity.md)
+Настройте параметры как подробные в темах [Настройка](external-access-policies/configure-policies-to-control-remote-user-access.md) политик для управления удаленными пользовательскими подключениями, а также включить или отключить федерацию и подключение [к чату](access-edge/enable-or-disable-federation-and-public-im-connectivity.md).
 
 **Хотите ли вы разрешить анонимным пользователям получать приглашения и принимать участие в конференциях, проводимых пользователями вашего развертывания?**
 
-Настройка параметров, как подробно описано в разделе Назначение политик [conferencing](access-edge/assign-conferencing-policies-to-support-anonymous-users.md) для поддержки анонимных пользователей и создание политик [conferencing](../conferencing/create-policies.md).
+Настройка параметров, как подробно описано в разделе [Назначение политик conferencing](access-edge/assign-conferencing-policies-to-support-anonymous-users.md) для поддержки анонимных пользователей и [создание политик conferencing](../conferencing/create-policies.md).
 
 **Хотите ли вы разрешить пользователям связываться с контактами федеративного домена SIP?**
 
-Настройте параметры как подробные в темах Настройка политик для управления федерадным доступом [пользователей,](external-access-policies/configure-policies-to-control-federated-user-access.md)включить или отключить федерацию и подключение к общедоступным чатам, [](access-edge/enable-or-disable-federation-and-public-im-connectivity.md)а также управлять федератными доменами [SIP](sip-domains/manage-sip-federated-domains-for-your-organization.md)для вашей организации .
+Настройка параметров, подробных в темах Настройка политик для управления федерадным доступом [пользователей, включить](external-access-policies/configure-policies-to-control-federated-user-access.md) или отключить федерацию и подключение к общедоступным чатам [, а](access-edge/enable-or-disable-federation-and-public-im-connectivity.md) также управлять федератными доменами [SIP](sip-domains/manage-sip-federated-domains-for-your-organization.md) для вашей организации.
 
 
 **Если вы включили связь с федеративными доменами SIP, вы хотите включить автоматическое обнаружение SIP Federation?**
 
-Настройка параметров в разделе Включить или отключить обнаружение партнеров [федерации.](access-edge/enable-or-disable-discovery-of-federation-partners.md)
+Настройка параметров в разделе Включить или отключить [обнаружение партнеров федерации](access-edge/enable-or-disable-discovery-of-federation-partners.md).
 
 **Если вы включили взаимодействие с федеративными доменами SIP, хотите ли вы включить отправку им уведомлений о том, что вы используете архивацию и сообщения могут архивироваться?**
 
-Настройте параметры как подробные в разделе Включить или отключить отправку об отказе от архива [федеративным](access-edge/enable-or-disable-sending-an-archiving-disclaimer-to-federated-partners.md)партнерам в .
+Настройте параметры как подробные в разделе Включить или отключить отправку об отказе от архива [федеративным партнерам](access-edge/enable-or-disable-sending-an-archiving-disclaimer-to-federated-partners.md).
 
 **Вы хотите разрешить пользователям общаться с поставщиками SIP Federated, которые позволяют общаться с общедоступными поставщиками?**
 
-Настройка параметров, подробных в темах [Настройка](external-access-policies/configure-policies-to-control-public-user-access.md)политик для управления доступом к общедоступным [пользователям,](access-edge/enable-or-disable-federation-and-public-im-connectivity.md)включить или отключить подключение федерации и общедоступных im, а также создать или изменить общедоступные поставщики [SIP федератов](sip-providers/manage-sip-federated-providers-for-your-organization.md#create-or-edit-public-sip-federated-providers-in-skype-for-business-server)
+Настройка параметров, подробных в темах [Настройка](external-access-policies/configure-policies-to-control-public-user-access.md) политик для управления доступом к общедоступным [пользователям, включить](access-edge/enable-or-disable-federation-and-public-im-connectivity.md) или отключить федерацию и подключение к общедоступным чатам, а также создать или изменить общедоступные поставщики [SIP федератов](sip-providers/manage-sip-federated-providers-for-your-organization.md#create-or-edit-public-sip-federated-providers-in-skype-for-business-server)
 
 
 **Вы хотите разрешить пользователям общаться с поставщиками SIP Federated, которые являются хостинг-поставщиками, работающими Microsoft 365 или Office 365 и Skype для бизнеса Online?**
 
-Настройка параметров, как подробно описано в темАх [Включить](access-edge/enable-or-disable-federation-and-public-im-connectivity.md) или отключить федерацию и общедоступные подключения к чату и создать или изменить развернутые [поставщики SIP федератов](sip-providers/manage-sip-federated-providers-for-your-organization.md#create-or-edit-hosted-sip-federated-providers-in-skype-for-business-server).
+Настройте параметры как подробные в темах [Включить](access-edge/enable-or-disable-federation-and-public-im-connectivity.md) или отключить подключение федерации и общедоступных чатов и создать или редактировать развернутые [поставщики SIP- федератов](sip-providers/manage-sip-federated-providers-for-your-organization.md#create-or-edit-hosted-sip-federated-providers-in-skype-for-business-server).
 
 **Настроен ли в вашем развертывании разделенный (или гибридный) домен, в котором у некоторых пользователей имеется почтовый сервер в локальном развертывании, а у других пользователей — почтовый сервер в сетевой среде?**
 
-Настройте параметры как подробные в темах [Настройка](external-access-policies/configure-policies-to-control-federated-user-access.md)политик для управления федерадным доступом [пользователей,](access-edge/enable-or-disable-federation-and-public-im-connectivity.md)включить или отключить федерацию и подключение к общедоступным чатам, а также создать или редактировать развернутые поставщики федератов [SIP.](sip-providers/manage-sip-federated-providers-for-your-organization.md#create-or-edit-hosted-sip-federated-providers-in-skype-for-business-server)
+Настройте параметры как подробные в темах Настройка политик для управления федерадным доступом [пользователей, включить](external-access-policies/configure-policies-to-control-federated-user-access.md) или отключить федерацию и подключение к общедоступным мгновенным [данным, а](access-edge/enable-or-disable-federation-and-public-im-connectivity.md) также создать или редактировать развернутые поставщики федератов [SIP](sip-providers/manage-sip-federated-providers-for-your-organization.md#create-or-edit-hosted-sip-federated-providers-in-skype-for-business-server).
 
 
 Можно настроить параметры доступа внешних пользователей, включая любые политики, которые необходимо использовать для управления доступом внешних пользователей, даже если вы не разрешили доступ внешних пользователей в организации. Однако политики и другие настраиваемые параметры действуют только в том случае, если доступ внешних пользователей в организации разрешен. Внешние пользователи не могут устанавливать связь с пользователями организации, если доступ внешних пользователей отключен или политики доступа внешних пользователей не настроены для поддержки такого доступа.

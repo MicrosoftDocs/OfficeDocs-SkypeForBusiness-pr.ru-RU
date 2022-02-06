@@ -1,29 +1,24 @@
 ---
 title: Управление conferencing в Skype для бизнеса Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 825e051c-83a5-420d-a5ef-f77afa368e2e
-description: Сводка. Узнайте, как управлять конференцией в Skype для бизнеса Server.
-ms.openlocfilehash: 122b7d797983df9bb3ef6252234099869650a66e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60845462"
+description: 'Сводка. Узнайте, как управлять конференцией в Skype для бизнеса Server.'
 ---
+
 # <a name="manage-conferencing-in-skype-for-business-server"></a>Управление conferencing в Skype для бизнеса Server
  
 **Сводка:** Узнайте, как управлять конференцией в Skype для бизнеса Server.
   
-В этом разделе описывается, как управлять конференцией. Дополнительные сведения о планировании и развертывании конференций см. в Skype для бизнеса Server Plan [for conferencing in Skype для бизнеса Server](../../plan-your-deployment/conferencing/conferencing.md) и Deploy [conferencing in Skype для бизнеса Server](../../deploy/deploy-conferencing/deploy-conferencing.md).
+В этом разделе описывается, как управлять конференцией. Дополнительные сведения о планировании и развертывании конференций см. в Skype для бизнеса Server Plan [for conferencing in Skype для бизнеса Server](../../plan-your-deployment/conferencing/conferencing.md).[](../../deploy/deploy-conferencing/deploy-conferencing.md)
   
 В Skype для бизнеса Server вы управляете сведениями о конференциации, указав параметры конфигурации и политики следующим образом. Обратите внимание, что термины conferencing и meeting иногда используются взаимозаменяемо. Но, как правило, собрание можно придумать как конкретный экземпляр проведения собраний.
   
@@ -51,35 +46,35 @@ ms.locfileid: "60845462"
     
   - В панели управления выберите **| Политика conferencing**.
     
-  - В PowerShell найди **кодлеты -CsConferencingPolicy.**
+  - В PowerShell найди **кодлеты -CsConferencingPolicy** .
     
 - Управление настройками конфигурации собраний:
     
-  - В панели управления выберите **| Конфигурация собраний.**
+  - В панели управления выберите **| Конфигурация собрания**.
     
-  - В Skype для бизнеса Server управленческой оболочки ищите команды **-CsMeetingConfiguration.**
+  - В Skype для бизнеса Server управленческой оболочки ищите **команды -CsMeetingConfiguration**.
     
 - Для управления настройками номеров доступа к диалоговому номеру:
     
-  - В панели управления выберите **| Номер доступа с диалогом.**
+  - В панели управления выберите **| Номер доступа с диалогом**.
     
-  - В Skype для бизнеса Server управленческой оболочки ищите **команды CsDialInConferencing.**
+  - В Skype для бизнеса Server управленческой оболочки ищите **команды CsDialInConferencing**.
     
 - Управление данными о доступе к диалоговым номерам, такими как телефонная политика, голосовая политика, маршрут и использование PSTN: 
     
   - В панели управления выберите **| Маршрутивка голосовой почты**.
     
-  - В Skype для бизнеса Server управленческой оболочки ищите команды **-CsDialPlan** и **CsVoice.**
+  - В Skype для бизнеса Server управленческой оболочки ищите команды **-CsDialPlan** и **CsVoice**.
     
 - Управление настройками политики ПИН-кода:
     
-  - В панели управления выберите **| Политика PIN-кода.**
+  - В панели управления выберите **| Политика PIN-кода**.
     
-  - В Skype для бизнеса Server управленческой оболочки ищите команды **-CsPinPolicy.**
+  - В Skype для бизнеса Server управленческой оболочки поискате команды **CsPinPolicy**.
     
-- Для управления настройками конфигурации конференций необходимо использовать Skype для бизнеса Server management Shell. Поиск **смещающихся CsConferencingConfiguration.**
+- Для управления настройками конфигурации конференций необходимо использовать Skype для бизнеса Server management Shell. Поиск **смещающихся CsConferencingConfiguration** .
     
-## <a name="skype-for-business-server-management-shell-cmdlets"></a>Skype для бизнеса Server Команды управленческой оболочки
+## <a name="skype-for-business-server-management-shell-cmdlets"></a>Skype для бизнеса Server команды Management Shell
 
 Для управления conferencing можно использовать Skype для бизнеса Server команды Management Shell: 
   
@@ -170,6 +165,6 @@ ms.locfileid: "60845462"
 |[Test-CsDataConference](/powershell/module/skype/test-csdataconference?view=skype-ps) <br/> |Проверяет, может ли пара пользователей участвовать в веб-конференции Skype для бизнеса Server, которая включает такие действия, как совместное использование или просмотр PowerPoint слайдов, доски или опросы. Кроме того, в этом проекте проверяется, что Skype для бизнеса Server веб-Office может обнаружить Office веб-сервер приложений и что клиент может загрузить файл PowerPoint для Office веб-приложения Server.  <br/> |
 |[Test-CsDialInConferencing](/powershell/module/skype/test-csdialinconferencing?view=skype-ps) <br/> |Проверяет, может ли пользователь принять участие в сеансе телефонной встречи.  <br/> |
 |[Test-CsDialPlan](/powershell/module/skype/test-csdialplan?view=skype-ps) <br/> |Тестирует номер телефона на абонентскую группу (которая раньше называлась профилем местоположения) и возвращает правило нормализации, которое будет применяться к номеру, а также преобразованный номер после применения правила нормализации.  <br/> |
-|[Test-CsMcxConference](/powershell/module/skype/test-csmcxconference?view=skype-ps) <br/> |Проверяет возможность участия трех пользователей в конференции Skype для бизнеса Server мобильности. Служба мобильности позволяет пользователям мобильных телефонов, таких как iPhone и Windows, делать такие вещи, как обмен мгновенными сообщениями и сведения о присутствии; хранение и извлечение голосовой почты внутренне, а не с их беспроводным поставщиком; и воспользоваться преимуществами Skype для бизнеса Server, таких как call via Work и dial-out conferencing.  <br/> **Примечание:** Клиенты, которые используют MCX, не поддерживаются Skype для бизнеса Server 2019 г.|
+|[Test-CsMcxConference](/powershell/module/skype/test-csmcxconference?view=skype-ps) <br/> |Проверяет возможность участия трех пользователей в конференции Skype для бизнеса Server мобильности. Служба мобильности позволяет пользователям мобильных телефонов, таких как iPhone и Windows Phones, обмениваться мгновенными сообщениями и информацией о присутствии; хранить и получать голосовую почту внутренне, а не с их беспроводным поставщиком; а также использовать возможности Skype для бизнеса Server, такие как call via Work и dial-out conferencing.  <br/> **Примечание:** Клиенты, которые используют MCX, не поддерживаются Skype для бизнеса Server 2019 г.|
 |[Test-CsUcwaConference](/powershell/module/skype/test-csucwaconference?view=skype-ps) <br/> |Проверяет способность пары пользователей планировать, присоединяться и проводить онлайн-конференцию с помощью API Единой системы связи (UCWA).  <br/> |
 |[Debug-CsDataConference](/powershell/module/skype/debug-csdataconference?view=skype-ps) <br/> |Возвращает диагностические сведения для возможностей конференциинга данных, включенных в Skype для бизнеса Server.  <br/> |

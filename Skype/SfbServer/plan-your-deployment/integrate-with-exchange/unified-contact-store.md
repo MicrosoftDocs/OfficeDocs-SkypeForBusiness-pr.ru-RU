@@ -1,31 +1,26 @@
 ---
 title: Планирование единого магазина контактов в Skype для бизнеса Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 6/8/2017
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d56e11be-43dd-45d4-8ac6-3adfb03f5d1a
 description: Сводка. Просмотрите эту тему при планировании интеграции Skype для бизнеса Server с Exchange 2013 г.
-ms.openlocfilehash: 9334d8cdacfcc4ab2bf6cc733ce26faa7ff05280
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855233"
 ---
+
 # <a name="plan-for-unified-contact-store-in-skype-for-business-server-2015"></a>Планирование единого магазина контактов в Skype для бизнеса Server 2015 г.
  
 **Сводка:** Просмотрите эту тему при планировании интеграции Skype для бизнеса Server с Exchange 2013 или 2016 г.
   
-Объединенный магазин контактов обеспечивает согласованную контактную связь между Microsoft Office продуктами и позволяет пользователям хранить всю контактную информацию в Exchange 2013 г., но позволяет получать информацию по всему Skype для бизнеса, Exchange, Outlook и Outlook веб-доступа.
+Объединенный магазин контактов обеспечивает согласованную контактную связь между Microsoft Office продуктами и позволяет пользователям хранить всю контактную информацию в Exchange 2013 г., но позволяет использовать эти сведения по всему Skype для бизнеса, Exchange, Outlook и Outlook веб-доступ.
   
 ## <a name="requirements-for-unified-contact-store"></a>Требования к единому магазину контактов
 
@@ -40,7 +35,7 @@ ms.locfileid: "60855233"
 - Проверка подлинности от сервера к серверу должна быть настроена между Skype для бизнеса Server и Exchange 2013 или 2016 г.
     
     > [!NOTE]
-    > Подробные требования по настройке проверки подлинности между Skype для бизнеса Server и Exchange 2013 или 2016 г. см. в документе Управление проверкой подлинности от сервера к серверу [(OAuth)](../../manage/authentication/server-to-server-and-partner-applications.md) и партнерскими приложениями в Skype для бизнеса Server документации по операциям.
+    > Подробные требования по настройке проверки подлинности между Skype для бизнеса Server и Exchange 2013 или 2016 г. см. в документации по операциям manage [server-to-server (OAuth) и партнерских приложений в Skype для бизнеса Server](../../manage/authentication/server-to-server-and-partner-applications.md).
   
 ## <a name="see-also"></a>См. также
 

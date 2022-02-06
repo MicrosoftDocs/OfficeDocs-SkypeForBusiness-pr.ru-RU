@@ -1,27 +1,22 @@
 ---
 title: Расширитель общих параметров внешних приложений
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.ExternalApplicationGeneralSettingsExpander
+  - ms.lync.tb.ExternalApplicationGeneralSettingsExpander
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: aa7268ac-b9e3-4d25-bff4-e59d305120f2
-ROBOTS: NOINDEX, NOFOLLOW
-description: Чтобы изменить свойства для уже определенного доверенного сервера приложений, следуйте приведенным ниже инструкциям.
-ms.openlocfilehash: 1941b32b24138ba87877f0bb262928e1d0b972dc
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843182"
+ROBOTS: 'NOINDEX, NOFOLLOW'
+description: 'Чтобы изменить свойства для уже определенного доверенного сервера приложений, следуйте приведенным ниже инструкциям.'
 ---
+
 # <a name="external-application-general-settings-expander"></a>Расширитель общих параметров внешних приложений
  
 Чтобы изменить свойства для уже определенного доверенного сервера приложений, следуйте приведенным ниже инструкциям.
@@ -43,6 +38,6 @@ ms.locfileid: "60843182"
 Следующий хоп-сервер пула доверенных серверов приложений можно указать, выбрав определенный пул выпуск Enterprise или выпуск Standard front End Server из отсевного списка. Директор или пул директоров нельзя выбрать для следующего перехода доверенного сервера приложений, поэтому они отсутствуют в списке.
   
 
-Нажмите **кнопку ОК,** чтобы принять и сохранить изменения. Нажмите кнопку **Отмена**, чтобы отменить изменения и покинуть страницу свойств.
+Нажмите **кнопку ОК** , чтобы принять и сохранить изменения. Нажмите кнопку **Отмена**, чтобы отменить изменения и покинуть страницу свойств.
   
 

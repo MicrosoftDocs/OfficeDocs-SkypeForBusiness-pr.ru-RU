@@ -1,27 +1,22 @@
 ---
 title: Настройка маршрута области сети
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.lscp.NcsRegionRouteMain
+  - ms.lync.lscp.NcsRegionRouteMain
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: 35c1511f-8143-4893-a91c-5bc7c18ec0bf
-ROBOTS: NOINDEX, NOFOLLOW
-description: Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
-ms.openlocfilehash: 36ab41c8eb03f94a8256d7aa18dff22d9bbb55c9
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60844772"
+ROBOTS: 'NOINDEX, NOFOLLOW'
+description: 'Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.'
 ---
+
 # <a name="configure-a-network-region-route"></a>Настройка маршрута области сети
 
 Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
