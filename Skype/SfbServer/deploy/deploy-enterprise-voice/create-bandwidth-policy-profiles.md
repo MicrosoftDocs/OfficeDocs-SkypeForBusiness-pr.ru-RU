@@ -1,35 +1,30 @@
 ---
 title: Создание профилей политики пропускной способности в Skype для бизнеса Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: a71881ef-b04a-465e-9abb-0577bfd182f3
-description: Создание или изменение политик пропускной способности, которые используются Корпоративная голосовая связь управления приемом вызовов в Skype для бизнеса Server.
-ms.openlocfilehash: d1c7391abb535f3d7309809adea5b66a28087c75
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841911"
+description: 'Создание или изменение политик пропускной способности, которые используются Корпоративная голосовая связь управления приемом вызовов в Skype для бизнеса Server.'
 ---
+
 # <a name="create-bandwidth-policy-profiles-in-skype-for-business-server"></a>Создание профилей политики пропускной способности в Skype для бизнеса Server 
  
 Создание или изменение политик пропускной способности, которые используются Корпоративная голосовая связь управления приемом вызовов в Skype для бизнеса Server. 
   
 Политики пропускной способности задают ограничения пропускной способности сети для режимов передачи аудио и видеоданных в реальном времени. Политики пропускной способности применяются к профилям политикbandwidth, которые могут применяться к нескольким сетевым сайтам для управления приемом вызовов.
   
-Рекомендации о том, какие ограничения пропускной способности следует установить в развертывании CAC, см. в статью [Plan for call admission control in Skype для бизнеса Server.](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)
+Рекомендации по ограничению пропускной способности, которые необходимо установить в развертывании CAC, см. в статью [Plan for call admission control in Skype для бизнеса Server](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md).
   
 Примеры политик, созданных в следующей процедуре, задают ограничения для общего трафика аудиоданных, отдельных аудиосеансов, общего трафика видеоданных и отдельных видеосеансов. Например, профиль политики пропускной способности 5Mb_Link задает следующие ограничения: 
   
@@ -46,7 +41,7 @@ ms.locfileid: "60841911"
   
 ### <a name="to-create-bandwidth-policy-profiles-by-using-skype-for-business-server-management-shell"></a>Создание профилей политики пропускной способности с помощью Skype для бизнеса Server управленческой оболочки
 
-1. Запустите Skype для бизнеса Server: нажмите кнопку Начните, щелкните Все **программы,** нажмите кнопку Skype для бизнеса **2015,** а затем нажмите кнопку **Skype для бизнеса Server.**
+1. Запустите Skype для бизнеса Server: нажмите кнопку **Начните, нажмите** кнопку Все **программы, нажмите** кнопку Skype для бизнеса **2015**, а затем нажмите кнопку **Skype для бизнеса Server управленческой оболочки**.
     
 2. Выполните командлет New-CsNetworkBandwidthPolicyProfile для каждого создаваемого профиля политики пропускной способности. Пример:
     

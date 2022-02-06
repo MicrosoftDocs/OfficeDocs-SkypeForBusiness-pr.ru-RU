@@ -1,25 +1,20 @@
 ---
 title: (Необязательный) Определение наборов праздников группы ответов в Skype для бизнеса
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 56c37b3b-6517-49b9-86b7-ae48cc349119
 description: Создание или изменение наборов праздников группы ответов в Skype для бизнеса Server Корпоративная голосовая связь.
-ms.openlocfilehash: 307dfefb42f31102755bd4469ed8c24129e41767
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60852723"
 ---
+
 # <a name="optional-define-response-group-holiday-sets-in-skype-for-business"></a>(Необязательный) Определение наборов праздников группы ответов в Skype для бизнеса
  
 Создание или изменение наборов праздников группы ответов в Skype для бизнеса Server Корпоративная голосовая связь.
@@ -33,7 +28,7 @@ ms.locfileid: "60852723"
 
 1. Войдите в группу RTCUniversalServerAdmins или в качестве члена одной из предопределяемой административной роли, поддерживаемой группой реагирования.
     
-2. Запустите Skype для бизнеса Server: нажмите кнопку Начните, щелкните Все **программы,** нажмите кнопку Skype для бизнеса **2015,** а затем нажмите кнопку **Skype для бизнеса Server.**
+2. Запустите Skype для бизнеса Server: нажмите кнопку **Начните, нажмите** кнопку Все **программы, нажмите** кнопку Skype для бизнеса **2015**, а затем нажмите кнопку **Skype для бизнеса Server управленческой оболочки**.
     
 3. Для каждого праздника, который следует определить, выполните следующую команду:
     

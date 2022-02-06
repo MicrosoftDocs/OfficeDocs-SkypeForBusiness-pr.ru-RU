@@ -1,23 +1,19 @@
 ---
-title: Управление восстановлением аварийного восстановления, высокой доступностью и службой резервного копирования
-ms.reviewer: ''
-author: HowlinWolf-92
-ms.author: v-mahoffman
+title: 'Управление восстановлением аварийного восстановления, высокой доступностью и службой резервного копирования'
+ms.reviewer: null
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
-description: Узнайте о процедурах операций аварийного восстановления, а также о службе резервного копирования, которая синхронизирует данные в парных пулах переднего конца.
-ms.openlocfilehash: 6d3eb3356c48a99974390f43bc0114d7d6507353
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849942"
+description: 'Узнайте о процедурах операций аварийного восстановления, а также о службе резервного копирования, которая синхронизирует данные в парных пулах переднего конца.'
 ---
+
+
 # <a name="managing-skype-for-business-server-disaster-recovery-high-availability-and-backup-service"></a>Управление восстановлением Skype для бизнеса Server, высокой доступностью и службой резервного копирования
 
 В этом разделе содержатся процедуры для операций аварийного восстановления, а также для обслуживания службы резервного копирования, которая синхронизирует данные в парных пулах переднего конца.
@@ -26,7 +22,7 @@ ms.locfileid: "60849942"
 
 Процедуры аварийного восстановления в этом разделе предполагают следующее:
 
-  - Развертывание с парными пулами переднего плана расположено на разных сайтах, как описано в [Plan for high availability and disaster recovery.](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md) Служба резервного копирования работает в этих сопряженных пулах для поддержания их синхронизации.
+  - Развертывание с парами пулов переднего плана расположено на разных сайтах, как описано в [Plan for high availability and disaster recovery](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md). Служба резервного копирования работает в этих сопряженных пулах для поддержания их синхронизации.
 
   - Если центральный магазин управления размещен в любом пуле, он устанавливается и работает на обоих парных пулах, в одном из этих пулов размещен активный мастер, а в другом пуле размещен режим ожидания.
 

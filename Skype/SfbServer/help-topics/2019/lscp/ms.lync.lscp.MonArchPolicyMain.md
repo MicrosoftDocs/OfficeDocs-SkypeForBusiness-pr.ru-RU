@@ -1,27 +1,22 @@
 ---
 title: Политика архивирования
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.lscp.MonArchPolicyMain
+  - ms.lync.lscp.MonArchPolicyMain
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: 9b69f1fa-8f3b-450e-aa89-91fd462f198d
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: 'Вы используете политики архива, чтобы включить и отключить архивировать для пользователей, Skype для бизнеса Server. В каждой политике архивирования можно включить или отключить архивирование для следующих параметров:'
-ms.openlocfilehash: eae717d8c3a70b7f7c631f432f78dc4a18f82507
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864196"
 ---
+
 # <a name="archiving-policy"></a>Политика архивирования
  
 Вы используете политики архива, чтобы включить и отключить архивировать для пользователей, Skype для бизнеса Server. В каждой политике архивирования можно включить или отключить архивирование для следующих параметров:
@@ -42,7 +37,7 @@ ms.locfileid: "60864196"
 > Политики архива применяются только к пользователям, которые Skype для бизнеса Server. Если вы Exchange для хранения данных архивации в Microsoft Exchange, Exchange политики контролируют архивацию для пользователей, Exchange. Чтобы включить архивативную рассылку для этих пользователей, почтовый ящик пользователя должен быть размещен на In-Place Hold. 
   
 На странице **Политика архивирования** перечислены все политики архивирования, которые настроены для развертывания. Здесь также показано имя политики, область действия (глобальная, сайта или пользователя) и то, какие параметры архивирования включены для политики архивирования. На странице **Политика архивирования** предоставлены следующие варианты действий:
-- **Новые** Вы можете добавить одну или несколько из следующих необязательных политик архива:
+- **Новые функции** Вы можете добавить одну или несколько из следующих необязательных политик архива:
     
   - Политика сайта
     
@@ -68,5 +63,5 @@ ms.locfileid: "60864196"
     
 - **Обновление** Вы можете обновить страницу **политики** архива, чтобы проверить состояние параметров всех политик архива.
     
-Дополнительные сведения о функции архивации и возможностях, включая интеграцию Exchange, см. в материале [Plan for archiving in Skype для бизнеса Server,](../../../plan-your-deployment/archiving/archiving.md) [Deploy archiving for Skype для бизнеса Server](../../../deploy/deploy-archiving/deploy-archiving.md)и Manage [archiving in Skype для бизнеса Server](../../../manage/archiving/archiving.md).
+Дополнительные сведения о функции архивации и возможностях, включая интеграцию Exchange, см. в материале [Plan for archiving in Skype для бизнеса Server](../../../plan-your-deployment/archiving/archiving.md), [Deploy archiving for Skype для бизнеса Server](../../../deploy/deploy-archiving/deploy-archiving.md) and [Manage archiving in Skype для бизнеса Server](../../../manage/archiving/archiving.md).
 

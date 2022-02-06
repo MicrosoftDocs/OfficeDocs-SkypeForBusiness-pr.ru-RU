@@ -1,30 +1,25 @@
 ---
 title: Расширитель параметров полного доменного имени пограничного сервера
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.EdgeFqdnsSettingsExpander
+  - ms.lync.tb.EdgeFqdnsSettingsExpander
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 9e4e9445-0147-4dd6-84f0-b41de142b332
-ROBOTS: NOINDEX, NOFOLLOW
-description: Чтобы изменить или указать внешние Параметры для edge Servers, сначала необходимо определить, будут ли вы использовать отдельные IP-адреса для доступа к протоколу инициации сеансов, службе веб-конференциации Edge и службе аудио- и видеоконференции.
-ms.openlocfilehash: 79e60b5785f24ecdcd774b661f406e8d83b31747
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858476"
+ROBOTS: 'NOINDEX, NOFOLLOW'
+description: 'Чтобы изменить или указать внешние Параметры для edge Servers, сначала необходимо определить, будут ли вы использовать отдельные IP-адреса для доступа к протоколу инициации сеансов, службе веб-конференциации Edge и службе аудио- и видеоконференции.'
 ---
+
 # <a name="edge-server-fqdns-settings-expander"></a>Расширитель параметров полного доменного имени пограничного сервера
 
-Чтобы изменить или указать внешние **Параметры** для edge Servers, сначала необходимо определить, будут ли вы использовать отдельные IP-адреса для доступа к протоколу инициации сеанса, службе веб-конференциации Edge и службе аудио- и видеоконференции.
+Чтобы изменить или указать внешние **Параметры** для edge Servers, сначала необходимо определить, будут ли вы использовать отдельные IP-адреса для доступа к протоколу инициации сеансов, службе веб-конференциации Edge и службе аудио- и видеоконференции.
 
 Если вы намереваетесь для каждого из компонентов использовать разные IP-адреса, установите флажок **Включить отдельное полное доменное имя и IP-адрес для служб веб-конференций и аудио- и видеоконференций**. Для каждой службы должна быть создана соответствующая запись хоста (A) службы доменных имен (DNS).
 
@@ -38,4 +33,4 @@ ms.locfileid: "60858476"
 > [!IMPORTANT]
 > Если внести какие-либо изменения любые из этих параметров, включая использования раздельных полных доменных имен, а также IP-адресов и портов, необходимо обновить все остальные службы, которые зависят от изначально настраиваемых значений.
 
-Сведения об определении и настройке параметров для служб Edge см. в материале [Define Your Edge Topology.](/previous-versions/office/lync-server-2013/lync-server-2013-define-your-edge-topology)
+Сведения об определении и настройке параметров для служб Edge см. в материале [Define Your Edge Topology](/previous-versions/office/lync-server-2013/lync-server-2013-define-your-edge-topology).

@@ -1,27 +1,22 @@
 ---
 title: Конфигурация архивирования
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.lscp.MonArchSettingMain
+  - ms.lync.lscp.MonArchSettingMain
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 9c2fd164-a9b8-40e6-a1c4-423a7fe34aba
 description: 'Конфигурации архивации используются для управления вариантами архивации Skype для бизнеса Server развертывания, включая включение и отключение следующих параметров:'
-ms.openlocfilehash: b2babf5e5fdc5c1a0f7b01bb0a22c516fde062d5
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60838811"
 ---
+
 # <a name="archiving-configuration"></a>Конфигурация архивирования
  
 Конфигурации архивации используются для управления вариантами архивации Skype для бизнеса Server развертывания, включая включение и отключение следующих параметров:
@@ -44,7 +39,7 @@ ms.locfileid: "60838811"
 > Конфигурации архивации применяются к пользователям, которые находятся в Skype для бизнеса Server году, и, если вы используете Exchange для хранения данных архивации в Microsoft Exchange, для пользователей, которые были Exchange 2013 г., но реализуются несколько иначе для пользователей, Exchange 2013 г. Различия описаны в следующем разделе. 
   
 На странице **Конфигурация архивирования** перечислены все политики архивирования, которые настроены для развертывания. Здесь также показано имя политики, область действия (глобальная, сайта или пула) и то, какие параметры архивирования включены для конфигурации архивирования. На странице **Конфигурация архивирования** предоставлены следующие варианты действий:
-- **Новые** Вы можете добавить одну или несколько из следующих дополнительных конфигураций архивации.
+- **Новые функции** Вы можете добавить одну или несколько из следующих дополнительных конфигураций архивации.
     
   - Конфигурация сайта
     
@@ -68,5 +63,5 @@ ms.locfileid: "60838811"
     
 - **Обновление** Вы можете обновить страницу **конфигурации** архивации, чтобы проверить состояние параметров всех конфигураций архивации.
     
-Дополнительные сведения о функции архивации и возможностях, включая интеграцию Exchange, см. в материале Plan [for archiving in Skype для бизнеса Server 2015,](../../plan-your-deployment/archiving/archiving.md) [Deploy archiving for Skype для бизнеса Server 2015](../../deploy/deploy-archiving/deploy-archiving.md)и [Manage archiving in Skype для бизнеса Server 2015](../../manage/archiving/archiving.md).
+Дополнительные сведения о функции архивации и возможностях, включая интеграцию Exchange, см. в рублях Plan [for archiving in Skype для бизнеса Server 2015](../../plan-your-deployment/archiving/archiving.md), [Deploy archiving for Skype для бизнеса Server 2015](../../deploy/deploy-archiving/deploy-archiving.md) и [Manage archiving in Skype для бизнеса Server  2015 г](../../manage/archiving/archiving.md).
 

@@ -1,27 +1,22 @@
 ---
 title: Отложенный сертификат (возврат)
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.dep.DeployCertPendingReturned
+  - ms.lync.dep.DeployCertPendingReturned
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 3ee3f595-947a-41c4-acb8-036336b4f17e
-description: На странице Состояние сетевого запроса сертификата отображается текущее состояние сертификата. Если сертификат все еще ожидает утверждения администратором центра сертификации (то есть если он еще не утвержден), состояние показывает, что сертификат все еще обрабатывается.
-ms.openlocfilehash: 4c8df97e4be26393806b6af8772764a12e6f6828
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835627"
+description: 'На странице Состояние сетевого запроса сертификата отображается текущее состояние сертификата. Если сертификат все еще ожидает утверждения администратором центра сертификации (то есть если он еще не утвержден), состояние показывает, что сертификат все еще обрабатывается.'
 ---
+
 # <a name="pending-certificate-returned"></a>Отложенный сертификат (возврат)
  
 На странице **Состояние сетевого запроса сертификата** отображается текущее состояние сертификата. Если сертификат все еще ожидает утверждения администратором центра сертификации (то есть если он еще не утвержден), состояние показывает, что сертификат все еще обрабатывается.

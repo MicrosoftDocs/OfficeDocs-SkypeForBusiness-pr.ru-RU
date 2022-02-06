@@ -1,33 +1,28 @@
 ---
 title: Просмотр записей использования PSTN в Skype для бизнеса
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 65025c78-c263-472c-9ff9-e170588f10b5
-description: Сводка. Узнайте, как просматривать записи использования PSTN с помощью панели управления Skype для бизнеса Server или Skype для бизнеса Server панели управления.
-ms.openlocfilehash: f5da972c6a8403a89764433c898c8717dd0630a8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850392"
+description: 'Сводка. Узнайте, как просматривать записи использования PSTN с помощью панели управления Skype для бизнеса Server или Skype для бизнеса Server панели управления.'
 ---
+
 # <a name="view-pstn-usage-records-in-skype-for-business"></a>Просмотр записей использования PSTN в Skype для бизнеса
 
 **Сводка:** Узнайте, как просматривать записи использования PSTN с помощью панели управления Skype для бизнеса Server или Skype для бизнеса Server панели управления.
 
-Запись использования общедоступных переключений телефонной сети (PSTN) указывает класс вызова (например, внутренний, локальный или междугородний), который может быть выполнен различными пользователями или группами пользователей в организации. Подробные сведения [см.](/previous-versions/office/lync-server-2013/lync-server-2013-pstn-usage-records) в документации по планированию.
+Запись использования общедоступных переключений телефонной сети (PSTN) указывает класс вызова (например, внутренний, локальный или междугородний), который может быть выполнен различными пользователями или группами пользователей в организации. Подробные [сведения см.](/previous-versions/office/lync-server-2013/lync-server-2013-pstn-usage-records) в документации по планированию.
 
 ### <a name="to-view-a-pstn-usage-record-by-using-skype-for-business-server-control-panel"></a>Просмотр записи использования PSTN с помощью панели Skype для бизнеса Server управления
 
