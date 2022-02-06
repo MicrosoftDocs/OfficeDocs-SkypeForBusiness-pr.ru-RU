@@ -1,24 +1,19 @@
 ---
 title: Удаление существующей коллекции параметров конфигурации CDR в Skype для бизнеса Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 8ebf5da8-c0fc-498c-8d85-527d3be8479a
-description: Сводка. Узнайте, как удалить параметры конфигурации CDR в Skype для бизнеса Server.
-ms.openlocfilehash: 8218d0b51045d3962825555bd5b248cb58262a37
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60854323"
+description: 'Сводка. Узнайте, как удалить параметры конфигурации CDR в Skype для бизнеса Server.'
 ---
+
 # <a name="delete-an-existing-collection-of-cdr-configuration-settings-in-skype-for-business-server"></a>Удаление существующей коллекции параметров конфигурации CDR в Skype для бизнеса Server
  
 **Сводка:** Узнайте, как удалить параметры конфигурации CDR в Skype для бизнеса Server.
@@ -29,7 +24,7 @@ ms.locfileid: "60854323"
   
 Обратите внимание, что можно также "удалить" глобальные параметры. Однако фактическое удаление глобальных параметров при этом не выполняется. Вместо этого все свойства в этой коллекции сбрасываются на значения по умолчанию. Например, по умолчанию чистка включена в наборе параметров конфигурации CDR. Предположим, что вы изменяете глобальную коллекцию, чтобы отключить очистку. Если вы позднее удаляете глобальные параметры, все свойства будут сброшены в значения по умолчанию. В данном случае это означает, что очистка будет снова включена.
   
-Параметры конфигурации CDR можно удалить с помощью панели управления Skype для бизнеса Server или [cmdlet Remove-CsCdrConfiguration.](/powershell/module/skype/remove-cscdrconfiguration?view=skype-ps)
+Параметры конфигурации CDR можно удалить с помощью панели управления Skype для бизнеса Server или [cmdlet Remove-CsCdrConfiguration](/powershell/module/skype/remove-cscdrconfiguration?view=skype-ps).
   
 ### <a name="to-remove-cdr-configuration-settings-with-skype-for-business-server-control-panel"></a>Удаление параметров конфигурации CDR с Skype для бизнеса Server панели управления
 
@@ -43,7 +38,7 @@ ms.locfileid: "60854323"
     
 ## <a name="removing-cdr-configuration-settings-by-using-windows-powershell-cmdlets"></a>Удаление параметров конфигурации CDR с помощью Windows PowerShell cmdlets
 
-Параметры конфигурации записи параметров записи вызовов можно удалить с помощью Windows PowerShell и **cmdlet Remove-CsCdrConfiguration.** Этот комлет можно выполнить либо из Skype для бизнеса Server, либо из удаленного сеанса Windows PowerShell. Сведения об использовании удаленных Windows PowerShell для подключения к Skype для бизнеса Server см. в [материале Microsoft Lync Remote PowerShell Administration](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/). Этот процесс в Skype для бизнеса Server.
+Параметры конфигурации записи детализации вызовов можно удалить с помощью Windows PowerShell и **cmdlet Remove-CsCdrConfiguration**. Этот комлет можно выполнить либо из Skype для бизнеса Server, либо из удаленного сеанса Windows PowerShell. Сведения об использовании удаленных Windows PowerShell для подключения к Skype для бизнеса Server см. в [материале Microsoft Lync Remote PowerShell Administration](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/). Этот процесс в Skype для бизнеса Server.
   
 ### <a name="to-remove-a-specified-collection-of-cdr-configuration-settings"></a>Удаление определенной коллекции параметров конфигурации CDR
 
@@ -69,7 +64,7 @@ ms.locfileid: "60854323"
   Get-CsCdrConfiguration | Where-Object {$_.EnableCDR -eq $False} | Remove-CsCdrConfiguration
   ```
 
-Дополнительные сведения см. в разделе Справка для [cmdlet Remove-CsCdrConfiguration.](/powershell/module/skype/remove-cscdrconfiguration?view=skype-ps)
+Дополнительные сведения см. в разделе Справка для [cmdlet Remove-CsCdrConfiguration](/powershell/module/skype/remove-cscdrconfiguration?view=skype-ps) .
   
 ## <a name="see-also"></a>См. также
 

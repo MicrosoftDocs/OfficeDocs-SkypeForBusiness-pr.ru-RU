@@ -1,27 +1,22 @@
 ---
 title: Проверка развертывания Edge в Skype для бизнеса Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 audience: ITPro
 manager: serdars
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- Strat_SB_Hybrid
-ms.custom: ''
+  - Strat_SB_Hybrid
+ms.custom: null
 ms.assetid: 69837f86-d141-4884-a4ca-c7e7463afaad
-description: Сводка. Узнайте, как убедиться, что развертывание пула Edge Server или Edge Server работает в Skype для бизнеса Server.
-ms.openlocfilehash: b8a538d457c2f785d2bdff96dd379524c2df1a28
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841931"
+description: 'Сводка. Узнайте, как убедиться, что развертывание пула Edge Server или Edge Server работает в Skype для бизнеса Server.'
 ---
+
 # <a name="validate-your-edge-deployment-in-skype-for-business-server"></a>Проверка развертывания Edge в Skype для бизнеса Server
  
 **Сводка:** Узнайте, как убедиться, что развертывание пула Edge Server или Edge Server работает в Skype для бизнеса Server.
@@ -36,7 +31,7 @@ ms.locfileid: "60841931"
   
 ## <a name="verify-connectivity-for-your-external-users"></a>Проверка подключения для внешних пользователей
 
-У нас есть отличный инструмент для подтверждения конфигурации edge Server, а также возможность подключения, отправки и получения правильных сообщений для сценариев Edge Server. Это сайт [Удаленного подключения Anaylzer](https://testconnectivity.microsoft.com/). Это сайт, управляемый и поддерживаемый Службой поддержки Майкрософт. Чтобы использовать этот инструмент, просмотрите веб-сайт и следуйте инструкциям, чтобы выбрать правильный сценарий для вас.
+У нас есть отличный инструмент для подтверждения конфигурации edge Server, а также возможность подключения, отправки и получения правильных сообщений для сценариев Edge Server. Это сайт [Remote Connectivity Anaylzer](https://testconnectivity.microsoft.com/). Это сайт, управляемый и поддерживаемый Службой поддержки Майкрософт. Чтобы использовать этот инструмент, просмотрите веб-сайт и следуйте инструкциям, чтобы выбрать правильный сценарий для вас.
   
 ### <a name="things-to-consider-when-testing-external-user-connectivity"></a>Что следует учитывать при тестировании внешних подключений пользователей
 

@@ -1,24 +1,19 @@
 ---
 title: Просмотр параметров конфигурации собраний в Skype для бизнеса Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 932c7e2d-6de3-4176-ac6e-ec230f8230f2
 description: Сводка. Сведения о просмотре параметров конфигурации собраний в Skype для бизнеса Server.
-ms.openlocfilehash: 4d55d4213b0eb7cbd89045960d87c05340520cbc
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60837631"
 ---
+
 # <a name="view-meeting-configuration-settings-in-skype-for-business-server"></a>Просмотр параметров конфигурации собраний в Skype для бизнеса Server
  
 **Сводка:** Узнайте, как просматривать параметры конфигурации собраний в Skype для бизнеса Server.
@@ -36,16 +31,16 @@ ms.locfileid: "60837631"
     
 4. На странице **Meeting Configuration** (Конфигурация собраний) щелкните конфигурацию собраний, которую вы хотите просмотреть.
     
-5. В **фильтре редактирования файла** выберите поле **"Сведения** о шоу".
+5. В **фильтре редактирования файлов** выберите контрольный **окне "Сведения о шоу** ".
     
-    **Изменение конфигурации \<policy\> собраний —** открывает отображение параметров выбранной политики.
+    **Изменение конфигурации собраний — \<policy\>** открывает отображение параметров выбранной политики.
     
-    Дополнительные сведения о настройке параметров см. в материале [Create meeting configuration settings in Skype для бизнеса Server.](create-settings.md)
+    Дополнительные сведения о настройке параметров см. в материале [Create meeting configuration settings in Skype для бизнеса Server](create-settings.md).
     
 ## <a name="view-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>Просмотр параметров конфигурации собраний с помощью Skype для бизнеса Server management Shell
 <a name="BKMK_ViewJoinSettings"> </a>
 
-Чтобы просмотреть сведения обо всех параметрах конфигурации собраний, используйте комлет **Get-CsMeetingConfiguration:**
+Чтобы просмотреть сведения обо всех параметрах конфигурации собраний, используйте комлет **Get-CsMeetingConfiguration** :
   
 ```
 Get-CsMeetingConfiguration
@@ -68,4 +63,4 @@ CustomFooterText                :
 AllowConferenceRecording        : True
 </pre>
 
-Дополнительные сведения, включая полный список параметров, см. в [списке Get-CsMeetingConfiguration.](/powershell/module/skype/get-csmeetingconfiguration?view=skype-ps)
+Дополнительные сведения, включая полный список параметров, см. в [списке Get-CsMeetingConfiguration](/powershell/module/skype/get-csmeetingconfiguration?view=skype-ps).

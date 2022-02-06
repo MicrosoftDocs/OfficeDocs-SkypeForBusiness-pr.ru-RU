@@ -1,28 +1,23 @@
 ---
 title: Процесс развертывания для группового вызова в Skype для бизнеса
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 082daeac-e667-4e2d-b78d-8e0901f9f0e9
 description: Процесс развертывания и действия для группового вызова в Skype для бизнеса Server Корпоративная голосовая связь.
-ms.openlocfilehash: 9debddc22b536ed65578916d0db303ca34146b4b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857936"
 ---
+
 # <a name="deployment-process-for-group-call-pickup-in-skype-for-business"></a>Процесс развертывания для группового вызова в Skype для бизнеса
  
 Процесс развертывания и действия для группового вызова в Skype для бизнеса Server Корпоративная голосовая связь.
@@ -35,8 +30,8 @@ ms.locfileid: "60857936"
 
 |**Этап**|**Действия**|**Необходимые группы и роли**|**Документация по развертыванию**|
 |:-----|:-----|:-----|:-----|
-|Включить средство SEFAUtil в топологии|Используйте New-CsTrustedApplicationPool для создания нового доверенного пула приложений. Используйте этот New-CsTrustedApplication, чтобы указать средство SEFAUtil в качестве надежного приложения. Запустите Enable-CsTopology, чтобы включить топологию. Если его еще нет, скачайте Skype для бизнеса Server средство SEFAUtil из этого расположения и установите его в пул доверенных приложений, созданный на шаге 1. Убедитесь, что SEFAUtil работает правильно, запуская его, чтобы отобразить параметры переададации вызовов пользователя в развертывании. |RTCUniversalServerAdmins  <br/> |[Развертывание средства SEFAUtil в Skype для бизнеса](deploy-the-sefautil-tool.md) <br/> [New-CsTrustedApplicationPool](/powershell/module/skype/new-cstrustedapplicationpool?view=skype-ps) </br>[New-CsTrustedApplication](/powershell/module/skype/new-cstrustedapplication?view=skype-ps)</br>[Enable-CsTopology](/powershell/module/skype/enable-cstopology?view=skype-ps) <br/> [Skype для бизнеса Server 2015 Документация по средствам набора ресурсов](../../management-tools/resource-kit-tools.md). (Для Skype для бизнеса Server необходимо использовать текущую версию средства, но эта документация из Lync Server 2013 по-прежнему применяется.)  <br/> |
-|Настройка диапазонов номеров вызова в таблице орбиты парка вызовов  <br/> |Используйте **комлет New-CSCallParkOrbit** для создания диапазонов номеров вызова в таблице орбиты парка вызовов и назначения диапазонам вызова тип **GroupPickup**.  <br/> Для бесшовной интеграции с существующими наборными планами диапазоны номеров обычно настраиваются как блок виртуальных расширений. Назначение номеров прямого внутреннего набора (DID) в качестве номеров диапазона в таблице орбиты парка вызовов не поддерживается.  <br/> |RTCUniversalServerAdmins  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[Создание или изменение диапазона номеров группового вызова в Skype для бизнеса](create-or-modify-a-group-call-pickup-number-range.md) <br/> |
+|Включить средство SEFAUtil в топологии|Используйте New-CsTrustedApplicationPool для создания нового доверенного пула приложений. Используйте этот New-CsTrustedApplication, чтобы указать средство SEFAUtil в качестве надежного приложения. Запустите Enable-CsTopology, чтобы включить топологию. Если его еще нет, скачайте Skype для бизнеса Server средство SEFAUtil из этого расположения и установите его в пул доверенных приложений, созданный на шаге 1. Убедитесь, что SEFAUtil работает правильно, запуская его, чтобы отобразить параметры переададации вызовов пользователя в развертывании. |RTCUniversalServerAdmins  <br/> |[Развертывание средства SEFAUtil в Skype для бизнеса](deploy-the-sefautil-tool.md) <br/> [New-CsTrustedApplicationPool](/powershell/module/skype/new-cstrustedapplicationpool?view=skype-ps) </br>[New-CsTrustedApplication](/powershell/module/skype/new-cstrustedapplication?view=skype-ps)</br>[Enable-CsTopology](/powershell/module/skype/enable-cstopology?view=skype-ps) <br/> [Skype для бизнеса Server 2015 документация по набору ресурсов](../../management-tools/resource-kit-tools.md). (Для Skype для бизнеса Server необходимо использовать текущую версию средства, но эта документация из Lync Server 2013 по-прежнему применяется.)  <br/> |
+|Настройка диапазонов номеров вызова в таблице орбиты парка вызовов  <br/> |С помощью **cmdlet New-CSCallParkOrbit** создайте диапазоны номеров вызова в таблице орбиты парка вызовов и назначьте диапазоны вызова типа **GroupPickup**.  <br/> Для бесшовной интеграции с существующими наборными планами диапазоны номеров обычно настраиваются как блок виртуальных расширений. Назначение номеров прямого внутреннего набора (DID) в качестве номеров диапазона в таблице орбиты парка вызовов не поддерживается.  <br/> |RTCUniversalServerAdmins  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[Создание или изменение диапазона номеров группового вызова в Skype для бизнеса](create-or-modify-a-group-call-pickup-number-range.md) <br/> |
 |Назначить пользователям номер вызова и включить групповую группу вызова для пользователей  <br/> |Используйте параметр /enablegrouppickup в средстве набора ресурсов SEFAUtil, чтобы включить групповой вызов и назначить номер вызова для пользователей.  <br/> |-  <br/> |[Включить групповой вызов для пользователей и назначить номер группы в Skype для бизнеса](enable-group-call-pickup-for-users-and-assign-a-group-number.md) <br/> |
 |Оповещать пользователей о назначенной им номере вызова и любом другом интересуемом номере  <br/> |После того как вы включаете групповой вызов для пользователей, используйте электронную почту или другой механизм, чтобы уведомить пользователей о номере группы вызова. Оповещайте пользователей о групповом номере группы вызова для любой группы, которую они могут отслеживать. Поскольку пользователи могут получать вызовы для других пользователей, даже если они не находятся в одной группе, пользователям может потребоваться номер группы вызова для нескольких групп.  <br/> |-  <br/> ||
 |Проверка развертывания группового вызова  <br/> | Проверьте размещение и ирисовку вызовов, чтобы убедиться, что конфигурация работает так, как ожидалось. Как минимум убедитесь в следующем: <br/>  Вызов пользователя, включенного для группового вызова, и получить вызов другого пользователя. Другой пользователь может быть в одной группе, в другой группе или не включить групповую группу вызова. <br/>  Вызов пользователя, включенного для группового вызова, и не отвечать на вызов. <br/> |-  <br/> ||

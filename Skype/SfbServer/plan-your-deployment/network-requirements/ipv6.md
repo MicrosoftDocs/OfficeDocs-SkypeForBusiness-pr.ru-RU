@@ -1,28 +1,23 @@
 ---
 title: Планирование IPv6 в Skype для бизнеса
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 01f77196-38f4-4292-9480-2e2fbd57eabe
 description: Сводка. Реализация IPv6 перед установкой Skype для бизнеса Server.
-ms.openlocfilehash: 21fa37d187f32c9b679a49a3b8181b1a5e2732d1
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849752"
 ---
+
 # <a name="plan-for-ipv6-in-skype-for-business"></a>Планирование IPv6 в Skype для бизнеса
  
 **Сводка:** Реализуйте IPv6 перед установкой Skype для бизнеса Server.
@@ -41,7 +36,7 @@ Skype для бизнеса Server включает поддержку IP-адр
     
 - [Вопросы миграции и сосуществования для IPv6](ipv6.md#migration)
     
-Если вы определите, что вы будете использовать адреса IPv6, обратитесь к типам настраиваемых IP-адресов в Skype для бизнеса [статье.](ip-address-types.md)
+Если вы определите, что вы будете использовать адреса IPv6, обратитесь к типам настраиваемых [IP-адресов в Skype для бизнеса](ip-address-types.md) статье.
   
 ## <a name="overview-of-ip-address-types"></a>Обзор типов IP-адресов
 <a name="over"> </a>

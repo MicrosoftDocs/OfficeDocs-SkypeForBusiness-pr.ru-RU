@@ -1,24 +1,19 @@
 ---
 title: Доступ к данным мониторинга в Skype для бизнеса Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 845385ca-5532-4fa2-91b9-51c6de6fec91
-description: Сводка. Сведения о данных мониторинга, используемых в Skype для бизнеса Server.
-ms.openlocfilehash: 49adf9caca82f97b0483743f65c7dea7b0f72a01
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60852073"
+description: 'Сводка. Сведения о данных мониторинга, используемых в Skype для бизнеса Server.'
 ---
+
 # <a name="access-monitoring-data-in-skype-for-business-server"></a>Доступ к данным мониторинга в Skype для бизнеса Server
  
 **Сводка:** Сведения о данных мониторинга, используемых в Skype для бизнеса Server.
@@ -29,6 +24,6 @@ ms.locfileid: "60852073"
   
 Как было отмечено, для отчетов мониторинга требуется служба SQL Server Reporting Service, которую можно установить вместе с SQL Server в любое время после установки SQL Server.
   
-Дополнительные сведения см. в разделе [Install Monitoring Reports in Skype для бизнеса Server.](../../deploy/deploy-monitoring/install-monitoring-reports.md)
+Дополнительные сведения см. в разделе [Install Monitoring Reports in Skype для бизнеса Server](../../deploy/deploy-monitoring/install-monitoring-reports.md).
   
 

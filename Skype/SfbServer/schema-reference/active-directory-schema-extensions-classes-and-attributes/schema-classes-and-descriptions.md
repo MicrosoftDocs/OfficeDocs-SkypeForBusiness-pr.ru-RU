@@ -1,25 +1,20 @@
 ---
 title: Классы и описания схемы в Skype для бизнеса Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 7d43b920-ac37-40cc-adfe-be289bda6e9e
-description: В этом разделе описываются все классы схемы, используемые Skype для бизнеса Server.
-ms.openlocfilehash: fbd3e3293cef72ba6592b86932639bd499464858
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829773"
+description: 'В этом разделе описываются все классы схемы, используемые Skype для бизнеса Server.'
 ---
+
 # <a name="schema-classes-and-descriptions-in-skype-for-business-server"></a>Классы и описания схемы в Skype для бизнеса Server
  
 В этом разделе описываются все классы схемы, используемые Skype для бизнеса Server. 
@@ -28,7 +23,7 @@ ms.locfileid: "60829773"
 
 |**Класс**|**Описание**|**Comments**|
 |:-----|:-----|:-----|
-|Mail-Recipient  <br/> |Exchange Получатель электронной почты Единой системы обмена сообщениями (ЕДИНОЙ СИСТЕМЫ обмена сообщениями).  <br/> |Этот вспомогательный класс совместно с Exchange um.  <br/> |
+|Mail-Recipient  <br/> |Exchange получателя электронной почты единой системы обмена сообщениями.  <br/> |Этот вспомогательный класс совместно с Exchange um.  <br/> |
 |msRTCSIP-ApplicationContacts  <br/> |Этот класс является контейнером для нескольких контактов приложения и не содержит никакие атрибуты.  <br/> |Новое в Microsoft Office Communications Server 2007 R2.  <br/> |
 |msRTCSIP-ApplicationServer  <br/> |Этот класс размещает запись точки управления службой для экземпляра служб Unified Communications Application Services (UCAS).  <br/> |Новое в Office Communications Server 2007 R2.  <br/> |
 |msRTCSIP-ApplicationServerService  <br/> |Этот класс предоставляет связь из определенного пула в свою службу приложений.  <br/> |Новое в communications Server 2007 R2.  <br/> |
@@ -50,7 +45,7 @@ ms.locfileid: "60829773"
 |msRTCSIP-GlobalTopologySetting  <br/> |Локальный объект параметров глобальной топологии.  <br/> |Новое в Lync Server 2010.  <br/> |
 |msRTCSIP-GlobalTopologySettings  <br/> |Контейнер для хранения объектов параметров глобальной топологии.  <br/> |Новое в Lync Server 2010.  <br/> |
 |msRTCSIP-LocalNormalization  <br/> |Этот класс является контейнером, представляющим экземпляр правила нормализации местонахождения.  <br/> |-  <br/> |
-|msRTCSIP-LocationContactMapping  <br/> |Этот класс создается с помощью приложение и содержит атрибуты, используемые для классификации номеров телефонов конференции по регионам.  <br/> |Новое в communications Server 2007 R2.  <br/> |
+|msRTCSIP-LocationContactMapping  <br/> |Этот класс создается с помощью приложение  и содержит атрибуты, используемые для классификации номеров телефонов конференции по регионам.  <br/> |Новое в communications Server 2007 R2.  <br/> |
 |msRTCSIP-LocationContactMappings  <br/> |Этот класс является контейнером для нескольких экземпляров сопоставлений контактов местонахождений и не содержит никакие атрибуты.  <br/> |Новое в communications Server 2007 R2.  <br/> |
 |msRTCSIP-LocationProfile  <br/> |Этот класс является контейнером, представляющим конкретный профиль местонахождения.  <br/> |-  <br/> |
 |msRTCSIP-LocationProfiles (устаревший)  <br/> |Этот класс является контейнером для нескольких профилей местонахождений и не содержит какие-либо атрибуты.  <br/> |Устаревший в Lync Server 2010.  <br/> |

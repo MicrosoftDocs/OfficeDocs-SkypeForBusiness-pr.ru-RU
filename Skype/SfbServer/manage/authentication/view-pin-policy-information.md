@@ -1,30 +1,25 @@
 ---
 title: Просмотр сведений о политике ПИН-кода в Skype для бизнеса Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 1d48b060-d77f-44ee-b70f-3ce128aedac4
 description: Сводка. Просмотр сведений о пин-политике пользователя для Skype для бизнеса Server.
-ms.openlocfilehash: 0a0e67d45a89e2c03f45017bfddb1ffaa9bec285
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862486"
 ---
+
 # <a name="view-pin-policy-information-in-skype-for-business-server"></a>Просмотр сведений о политике ПИН-кода в Skype для бизнеса Server
  
 **Сводка:** Просмотр сведений о пин-политике пользователя для Skype для бизнеса Server.
   
-Вы можете использовать **вкладку ПОЛИТИКИ** ПИН-кода для просмотра проверки подлинности личного идентификационного номера (ПИН-кода) пользователей, подключающихся к Skype для бизнеса с IP-телефонами. Чтобы использовать проверку подлинности на основе ПИН-кодов, необходимо установить флажок **Enable PIN Authentication (Включить проверку подлинности на основе ПИН-кодов)** в параметрах веб-службы.
+Вы можете использовать вкладку **ПОЛИТИКИ** ПИН-кода для просмотра проверки подлинности личного идентификационного номера (ПИН-кода) пользователей, подключающихся к Skype для бизнеса с IP-телефонами. Чтобы использовать проверку подлинности на основе ПИН-кодов, необходимо установить флажок **Enable PIN Authentication (Включить проверку подлинности на основе ПИН-кодов)** в параметрах веб-службы.
   
 Чтобы изменить политику ПИН-кода на уровне пользователя или сайта, выполните следующие действия. 
   
@@ -62,7 +57,7 @@ PINLifetime          : 0
 MaximumLogonAttempts :
 </pre>
 
-Дополнительные сведения см. в разделе Справка для [cmdlet Get-CsPinPolicy.](/powershell/module/skype/get-cspinpolicy?view=skype-ps)
+Дополнительные сведения см. в разделе Справка для [cmdlet Get-CsPinPolicy](/powershell/module/skype/get-cspinpolicy?view=skype-ps) .
   
 ## <a name="see-also"></a>См. также
 

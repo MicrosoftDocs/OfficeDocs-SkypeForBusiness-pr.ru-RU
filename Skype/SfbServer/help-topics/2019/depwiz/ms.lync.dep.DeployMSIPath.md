@@ -1,29 +1,24 @@
 ---
 title: Путь мастера развертывания к установщику MSI
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.dep.DeployMSIPath
+  - ms.lync.dep.DeployMSIPath
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: 81aaa294-aca1-4ff6-894e-de8098b6eb17
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: Дополнительные сведения об использовании мастера развертывания для установки Skype для бизнеса Server см. в Skype для бизнеса Server.
-ms.openlocfilehash: e53da5da5cae39c674a7227194f6554a2eceb9d2
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60830633"
 ---
+
 # <a name="deployment-wizard-path-to-msi-installer"></a>Мастер развертывания: путь к установщику MSI
  
-Дополнительные сведения об использовании мастера развертывания для установки Skype для бизнеса Server см. в [Skype для бизнеса Server.](../../../deploy/install/install.md)
+Дополнительные сведения об использовании мастера развертывания для установки Skype для бизнеса Server см. в [Skype для бизнеса Server](../../../deploy/install/install.md).
   
 

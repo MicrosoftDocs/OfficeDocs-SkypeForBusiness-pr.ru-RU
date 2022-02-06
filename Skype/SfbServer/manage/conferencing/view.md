@@ -1,24 +1,19 @@
 ---
 title: Просмотр политик conferencing в Skype для бизнеса Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: c1c0976e-2bfb-475b-9255-ed6b093d8798
-description: Сводка. Узнайте, как просматривать политики конференций в Skype для бизнеса Server.
-ms.openlocfilehash: 7a7768aaef91fde0914c2f1e693bdcca6a6a74b7
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60836441"
+description: 'Сводка. Узнайте, как просматривать политики конференций в Skype для бизнеса Server.'
 ---
+
 # <a name="view-conferencing-policies-in-skype-for-business-server"></a>Просмотр политик conferencing в Skype для бизнеса Server
  
 **Сводка:** Узнайте, как просматривать политики conferencing в Skype для бизнеса Server.
@@ -35,15 +30,15 @@ ms.locfileid: "60836441"
     
 4. На странице **Политика конференц-связи** дважды щелкните политику, которую вы хотите просмотреть.
     
-5. В **фильтре редактирования файла** выберите поле **"Сведения** о шоу".
+5. В **фильтре редактирования файлов** выберите контрольный **окне "Сведения о шоу** ".
     
     **Изменение политики conferencing — \<policy\>** открывает отображение параметров выбранной политики.
     
-    Дополнительные сведения о настройке параметров см. в материале [Create conferencing policies in Skype для бизнеса Server.](create-policies.md)
+    Дополнительные сведения о настройке параметров см. в материале [Create conferencing policies in Skype для бизнеса Server](create-policies.md).
     
 ## <a name="view-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>Просмотр политик conferencing с помощью Skype для бизнеса Server управленческой оболочки
 
-Чтобы просмотреть политики conferencing, используйте **cmdlet Get-CsConferencingPolicy:**
+Чтобы просмотреть политики conferencing, используйте **cmdlet Get-CsConferencingPolicy** :
   
 ```PowerShell
 Get-CsConferencingPolicy
@@ -88,4 +83,4 @@ TotalReceiveVideoBitRateKb                : 6000
 EnableMultiViewJoin                       : True
 </pre>
 
-Дополнительные сведения, включая полное описание синтаксиса и список параметров, см. в обзоре [Get-CsConferencingPolicy.](/powershell/module/skype/get-csconferencingpolicy?view=skype-ps)
+Дополнительные сведения, включая полное описание синтаксиса и список параметров, см. в обзоре [Get-CsConferencingPolicy](/powershell/module/skype/get-csconferencingpolicy?view=skype-ps).

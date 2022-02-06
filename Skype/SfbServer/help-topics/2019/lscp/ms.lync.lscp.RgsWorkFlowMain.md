@@ -1,36 +1,31 @@
 ---
 title: Рабочий процесс групп ответа
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.lscp.RgsWorkFlowMain
+  - ms.lync.lscp.RgsWorkFlowMain
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: e4ee8abb-e1e5-413c-919d-cd3fb7193840
-ROBOTS: NOINDEX, NOFOLLOW
-description: Группы ответа состоят из агентов, очередей и рабочих процессов. В рабочего процессах группы реагирования определяются действия, которые принимаются, когда приложение Группы отклика получает телефонный звонок.
-ms.openlocfilehash: 2a43d8c9c51ec91f31f2ecb726da8f8b11c3aa71
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60839451"
+ROBOTS: 'NOINDEX, NOFOLLOW'
+description: 'Группы ответа состоят из агентов, очередей и рабочих процессов. В рабочего процессах группы реагирования определяются действия, которые принимаются, когда приложение Группы отклика получает телефонный звонок.'
 ---
+
 # <a name="response-groups-workflow"></a>Рабочий процесс групп ответа
 
 Группы ответа состоят из агентов, очередей и рабочих процессов. В рабочего процессах группы реагирования определяются действия, которые принимаются, когда приложение Группы отклика получает телефонный звонок.
 
-На **странице Рабочий процесс** групп реагирования отображается список всех процессов группы ответов, определенных для  -   организации.
+На **странице Response** **GroupsWorkflow** -  отображается список всех процессов группы ответов, определенных для организации.
 
 ## <a name="tasks-you-can-perform"></a>Задачи, которые вы можете выполнить
 
-Следующие задачи можно выполнить на странице Рабочий процесс **групп**  -   реагирования:
+Вы можете выполнить следующие задачи со страницы **Response** **GroupsWorkflow** - :
 
 - создать или изменить рабочий процесс сервисной группы;
 
@@ -48,7 +43,7 @@ ms.locfileid: "60839451"
 
 - **Имя** Уникальное имя, назначенное рабочего процесса.
 
-- **Служба** Служба **ApplicationServer,** в котором находится рабочий процесс.
+- **Служба** Служба **ApplicationServer** , в котором находится рабочий процесс.
 
 - **SIP-адрес** SIP-адрес группы, которая будет отвечать на вызовы в рабочий процесс.
 
@@ -60,4 +55,4 @@ ms.locfileid: "60839451"
 
 - **Включено** Указывает, активируется ли рабочий процесс для получения вызовов.
 
-Сведения о возможностях и возможностях группы реагирования см. в приложении [Plan for the Response Group Skype для бизнеса Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) документации по планированию. Подробные сведения о работе с рабочими процессами группы реагирования см. в документе ["Управление](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-workflows) рабочими процессами группы реагирования".
+Сведения о возможностях и возможностях группы реагирования см. в материале [Plan for the Response Group application in Skype для бизнеса Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) документации по планированию. Подробные сведения о работе с рабочими процессами группы реагирования см. в документе ["](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-workflows) Управление рабочими процессами группы реагирования".

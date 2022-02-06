@@ -1,27 +1,22 @@
 ---
 title: Расширитель параметров пограничного компьютера
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.EdgeMachineSettingsExpander
+  - ms.lync.tb.EdgeMachineSettingsExpander
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 747456dd-d237-44e6-9e64-63b0e7212a08
-ROBOTS: NOINDEX, NOFOLLOW
-description: Чтобы изменить свойства сервера в пуле пограничных серверов, выполните следующие действия.
-ms.openlocfilehash: 60c4aaa65f989d7e460539b19a380551e7ac1b74
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857796"
+ROBOTS: 'NOINDEX, NOFOLLOW'
+description: 'Чтобы изменить свойства сервера в пуле пограничных серверов, выполните следующие действия.'
 ---
+
 # <a name="edge-machine-settings-expander"></a>Расширитель параметров пограничного компьютера
  
 Чтобы изменить свойства сервера в пуле пограничных серверов, выполните следующие действия.

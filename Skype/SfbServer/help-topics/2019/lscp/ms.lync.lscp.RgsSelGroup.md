@@ -1,27 +1,22 @@
 ---
 title: Выбор групп
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.lscp.RgsSelGroup
+  - ms.lync.lscp.RgsSelGroup
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: d780f676-c2c5-4f57-90dd-df5fcd204d76
-ROBOTS: NOINDEX, NOFOLLOW
-description: Очереди группы ответов удерживают вызовы в группах ответов, пока агент не ответит на вызов. Очереди имеют назначенные группы агентов. При создании или изменении очереди вы используете диалоговое окно Выбор групп для выбора одной или нескольких групп агентов, которые требуется назначить очереди.
-ms.openlocfilehash: 7f58d4004b894b9bf79c1dc63f5d61a5add223fb
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60830603"
+ROBOTS: 'NOINDEX, NOFOLLOW'
+description: 'Очереди группы ответов удерживают вызовы в группах ответов, пока агент не ответит на вызов. Очереди имеют назначенные группы агентов. При создании или изменении очереди вы используете диалоговое окно Выбор групп для выбора одной или нескольких групп агентов, которые требуется назначить очереди.'
 ---
+
 # <a name="select-groups"></a>Выбор групп
 
 Очереди группы ответов удерживают вызовы в группах ответов, пока агент не ответит на вызов. Очереди имеют назначенные группы агентов. При создании или изменении очереди вы используете диалоговое окно **Выбор групп** для выбора одной или нескольких групп агентов, которые требуется назначить очереди.

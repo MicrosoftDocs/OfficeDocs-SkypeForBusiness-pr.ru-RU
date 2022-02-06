@@ -1,24 +1,19 @@
 ---
 title: Управление серверами переднего Skype для бизнеса Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
-description: Сводка. Сведения о добавлении, удалите, заплатите или обновите серверы переднего Skype для бизнеса Server.
-ms.openlocfilehash: daa56be66a09d0969c193021aa3b847fc5972413
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60837531"
+description: 'Сводка. Сведения о добавлении, удалите, заплатите или обновите серверы переднего Skype для бизнеса Server.'
 ---
+
 # <a name="manage-front-end-servers-in-skype-for-business-server"></a>Управление серверами переднего Skype для бизнеса Server
  
 В этой статье рассказывается о том, как добавлять или удалять серверы переднего конца и как применять обновления или исправления к передним конечным серверам.
@@ -54,7 +49,7 @@ ms.locfileid: "60837531"
     > Если добавить или удалить сервер в пул в топологии, а затем опубликовать обновленную топологию, это приведет к одновременной перезагрузке всех серверов в пуле. В то время как серверы перезапуска пула находится в автономном режиме, что будет прерывать службу для пользователей, подключенных к этому пулу. Чтобы предотвратить прерывание службы для пользователей, запланируйте публикацию топологии с новым сервером в пуле в не-бизнес-часы. 
   
   > [!NOTE]
-> Кроме того, при добавлении или удалении сервера в пул необходимо запустить мастер развертывания Skype для бизнеса Server на каждом добавленном или удаленном компьютере, дополнительные сведения см. в Skype для бизнеса Server Install [Skype для бизнеса Server](../../deploy/install/install-skype-for-business-server.md) на серверах топологии.
+> Кроме того, при добавлении или удалении сервера в пул необходимо запустить мастер развертывания Skype для бизнеса Server на каждом добавленном или удаленном компьютере, дополнительные сведения см. в Skype для бизнеса Server install [Skype для бизнеса Server](../../deploy/install/install-skype-for-business-server.md) на серверах топологии.
   
 4. Если вы изменили количество серверов в пуле передней части любым из следующих способов, сбросите пул, введя следующий cmdlet: Reset-CsPoolRegistrarState-ResetType FullReset -PoolFqdn 
     

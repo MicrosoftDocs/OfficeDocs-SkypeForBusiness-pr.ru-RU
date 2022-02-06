@@ -1,27 +1,22 @@
 ---
 title: Настройка сетевого сайта
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.lscp.NcsSiteMain
+  - ms.lync.lscp.NcsSiteMain
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: 9d65238a-d255-4b13-abe8-e4301b44c21c
-ROBOTS: NOINDEX, NOFOLLOW
-description: Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
-ms.openlocfilehash: fcf3d33884ef09948a8cea2f963c3b71165beedd
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843352"
+ROBOTS: 'NOINDEX, NOFOLLOW'
+description: 'Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.'
 ---
+
 # <a name="configure-a-network-site"></a>Настройка сетевого сайта
 
 Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.

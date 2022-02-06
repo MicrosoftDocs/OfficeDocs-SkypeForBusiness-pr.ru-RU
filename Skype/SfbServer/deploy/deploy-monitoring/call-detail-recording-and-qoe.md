@@ -1,24 +1,19 @@
 ---
 title: Настройка записи детализации вызовов и параметров качества работы в Skype для бизнеса Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 009a0499-4f8c-450d-9c72-a565a08e9f7a
-description: Сводка. Узнайте, как настроить CDR и QoE в Skype для бизнеса Server.
-ms.openlocfilehash: 9275ead7fee4b9751141dd683bafb8b41e077530
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60839641"
+description: 'Сводка. Узнайте, как настроить CDR и QoE в Skype для бизнеса Server.'
 ---
+
 # <a name="configure-call-detail-recording-and-quality-of-experience-settings-in-skype-for-business-server"></a>Настройка записи детализации вызовов и параметров качества работы в Skype для бизнеса Server
  
 **Сводка:** Узнайте, как настроить CDR и QoE в Skype для бизнеса Server.
@@ -27,7 +22,7 @@ ms.locfileid: "60839641"
   
 ## <a name="configure-cdr-and-qoe"></a>Настройка CDR и QoE
 
-После того как вы связали хранилище мониторинга с пулом переднего конца, настройте хранилище мониторинга, а затем установите и настройте отчеты SQL Server Reporting Services и мониторинга, вы сможете управлять записью детализации вызовов (CDR) и мониторингом качества работы (QoE) с помощью Skype для бизнеса Server Management Shell. Skype для бизнеса Server Команды Management Shell позволяют включить и отключить мониторинг CDR и/или QoE для определенного сайта или для Skype для бизнеса Server развертывания; что можно сделать с помощью команды так же просто, как это:
+После того как вы связали хранилище мониторинга с пулом переднего конца, настройте хранилище мониторинга, а затем установите и настройте отчеты SQL Server Reporting Services и мониторинга, вы сможете управлять записью детализации вызовов (CDR) и мониторингом качества работы (QoE) с помощью Skype для бизнеса Server Management Shell. Skype для бизнеса Server командлеты Management Shell позволяют включить и отключить мониторинг CDR и/или QoE для определенного сайта или для всего развертывания Skype для бизнеса Server; это можно сделать с помощью команды так же просто, как это:
   
 ```powershell
 Set-CsQoEConfiguration -Identity "global" -EnableQoE $False
@@ -50,7 +45,7 @@ Set-CsQoEConfiguration -Identity "global" -EnableQoE $False
 |EnablePurging  <br/> |Указывает, будут ли записи QoE периодически удаляться из базы данных. Если установлено значение True, то записи будут удаляться после периода времени, заданного в свойстве KeepQoEDataForDays. Если параметр имеет значение False, то записи QoE будут сохраняться неопределенное время.  <br/> |Верно  <br/> |
 |KeepQoEDataForDays  <br/> |Задает период в днях, в течение которого записи QoE будут сохраняться в базе данных; все записи старше заданного количества дней будут автоматически удаляться. Однако это будет происходить только в том случае, если включена очистка..  <br/> В качестве значения этого свойства может быть установлено любое целое число от 1 до 2562 дней.  <br/> |60 дней.  <br/> |
    
-Если требуется изменить эти глобальные параметры, то это можно сделать с помощью командлетов Set-CsCdrConfiguration и Set-CsQoEConfiguration. Например, эта команда (запуск из Skype для бизнеса Server командной оболочки) отключает мониторинг CDR в глобальном масштабе; это делается путем установки свойства EnableCDR на False ($False):
+Если требуется изменить эти глобальные параметры, то это можно сделать с помощью командлетов Set-CsCdrConfiguration и Set-CsQoEConfiguration. Например, эта команда (запускаемая из Skype для бизнеса Server командной оболочки) отключает мониторинг CDR в глобальной области; это делается путем установки свойства EnableCDR на False ($False):
   
 ```powershell
 Set-CsCdrConfiguration -Identity "global" -EnableCDR $False

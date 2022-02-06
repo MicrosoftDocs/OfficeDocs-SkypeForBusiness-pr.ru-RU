@@ -1,24 +1,19 @@
 ---
 title: Удаление конфигурации архивации в Skype для бизнеса Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: fed12cb5-2c80-476a-af3b-d55b450c5fbc
 description: Сводка. Сведения об удалении конфигурации архивации в Skype для бизнеса Server.
-ms.openlocfilehash: defd9377453234e400dbf75a7d0261c52904adda
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851032"
 ---
+
 # <a name="delete-an-archiving-configuration-in-skype-for-business-server"></a>Удаление конфигурации архивации в Skype для бизнеса Server
 
 **Сводка:** Узнайте, как удалить конфигурацию архивации в Skype для бизнеса Server.
@@ -33,7 +28,7 @@ ms.locfileid: "60851032"
     
 2. Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель Skype для бизнеса Server управления. 
     
-3. В левой панели навигации щелкните Мониторинг и **архивация,** а затем щелкните **конфигурацию архивации.**
+3. В левой панели навигации щелкните **Мониторинг и архивация**, а затем щелкните **Конфигурация архивации**.
     
 4. В списке конфигураций архивации щелкните конфигурацию сайта или пула, которую необходимо удалить, а затем щелкните **Edit** (Изменить) и **Delete** (Удалить).
     
@@ -44,7 +39,7 @@ ms.locfileid: "60851032"
     
 ## <a name="delete-an-archiving-configuration-by-using-windows-powershell"></a>Удаление конфигурации архивации с помощью Windows PowerShell
 
-Вы также можете удалить конфигурацию архивации с помощью **cmdlet Remove-CsArchivingConfiguration.**
+Вы также можете удалить конфигурацию архивации с помощью **cmdlet Remove-CsArchivingConfiguration** .
   
 Например, следующая команда удаляет параметры конфигурации архивации, примененные к сайту Redmond. При удалении политики, настроенной в области сайта, пользователи, ранее управляемые политикой сайта, будут автоматически управляться глобальной политикой архива:
   
@@ -64,10 +59,10 @@ Get-CsArchivingConfiguration -Filter "site:*" | Remove-CsArchivingConfiguration
 Get-CsArchivingConfiguration | Where-Object {$_.EnableExchangeArchiving -eq $False} | Remove-CsArchivingConfiguration
 ```
 
-Для сброса глобальных параметров к значениям по умолчанию можно также использовать комлет **Remove-CsArchivingConfiguration.** Например, предположим, что вы включили архивировку сеансов im на глобальном уровне; Следующая команда сбросит значение по умолчанию none, что отключит архивировать на глобальном уровне:
+Для сброса глобальных параметров к значениям по умолчанию можно также использовать комлет **Remove-CsArchivingConfiguration** . Например, предположим, что вы включили архивировку сеансов im на глобальном уровне; Следующая команда сбросит значение по умолчанию none, что отключит архивировать на глобальном уровне:
   
 ```PowerShell
 Remove-CsArchivingConfiguration -Identity global
 ```
 
-Дополнительные сведения см. в разделе Справка для [cmdlet Remove-CsArchivingConfiguration.](/powershell/module/skype/remove-csarchivingconfiguration?view=skype-ps)
+Дополнительные сведения см. в разделе Справка для [cmdlet Remove-CsArchivingConfiguration](/powershell/module/skype/remove-csarchivingconfiguration?view=skype-ps) .

@@ -1,25 +1,20 @@
 ---
 title: Планирование на стойкий сервер чата в Skype для бизнеса Server 2015 г.
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 8/17/2015
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 9e652487-a123-40c0-ae61-47fb8ecc4a20
-description: Сводка. Ознакомьтесь с этой темой, чтобы узнать, как планировать постоянный сервер чата в Skype для бизнеса Server 2015 г.
-ms.openlocfilehash: 7adeb623f581d7ce6f3bfad5dadafd143299fad5
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60842721"
+description: 'Сводка. Ознакомьтесь с этой темой, чтобы узнать, как планировать постоянный сервер чата в Skype для бизнеса Server 2015 г.'
 ---
+
 # <a name="plan-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Планирование на стойкий сервер чата в Skype для бизнеса Server 2015 г.
  
 **Сводка:** Ознакомьтесь с этой темой, чтобы узнать, как планировать постоянный сервер чата в Skype для бизнеса Server 2015 г.
@@ -39,7 +34,7 @@ ms.locfileid: "60842721"
 - Следуя правилам соответствия требованиям, необязательный развертывание службы сохраняемой системы соответствия требованиям чата
 
 > [!NOTE] 
-> Постоянный чат доступен в Skype для бизнеса Server 2015 г., но больше не поддерживается Skype для бизнеса Server 2019 г. Такая же функциональность доступна в Teams. Дополнительные сведения см. в ссылке Начало работы [с обновлением Microsoft Teams обновления.](/microsoftteams/upgrade-start-here) Если вам нужно использовать постоянный чат, вы можете либо перенести пользователей, требующих Teams, либо продолжить использование Skype для бизнеса Server 2015 г. 
+> Постоянный чат доступен в Skype для бизнеса Server 2015 г., но больше не поддерживается Skype для бизнеса Server 2019 г. Такая же функциональность доступна в Teams. Дополнительные сведения см. в [ссылке Начало работы с Microsoft Teams обновления](/microsoftteams/upgrade-start-here). Если вам нужно использовать постоянный чат, вы можете либо перенести пользователей, требующих Teams, либо продолжить использование Skype для бизнеса Server 2015 г. 
     
 ## <a name="persistent-chat-server-high-level-architecture"></a>Архитектура сохраняемого сервера чата высокого уровня
 
@@ -114,8 +109,8 @@ Skype для бизнеса Server 2015 г. взаимодействует со 
 
 Дополнительные сведения об установке и настройке стойких серверов чата см. в следующих темах:
   
-- Дополнительные сведения о развертывании постоянного сервера чата см. в материале [Deploy Persistent Chat Server в Skype для бизнеса Server 2015 г.](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md) 
+- Дополнительные сведения о развертывании постоянного сервера чата см. в материале [Deploy Persistent Chat Server в Skype для бизнеса Server 2015 г](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md). 
     
-- Подробные сведения о настройке параметров на развертывании постоянного сервера чата см. в материале Manage Persistent Chat Server в Skype для бизнеса Server [2015 г.](../../manage/persistent-chat/persistent-chat.md)
+- Подробные сведения о настройке параметров развертывания постоянного сервера чата см. в материале [Manage Persistent Chat Server в Skype для бизнеса Server 2015 г](../../manage/persistent-chat/persistent-chat.md).
     
 

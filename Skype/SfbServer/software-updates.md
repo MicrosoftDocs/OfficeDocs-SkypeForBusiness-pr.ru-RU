@@ -1,28 +1,23 @@
 ---
 title: Загрузки и обновления Skype для бизнеса
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 07/23/2018
 audience: ITPro
 ms.topic: overview
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
-description: Поиск и управление обновлениями Skype для бизнеса Server Lync 2013. Используйте ссылки, чтобы получить дополнительные сведения, а затем скачать обновления.
-ms.openlocfilehash: ce7676064bc6e2ca67c65a8a4f34c543a0fa75f1
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855203"
+description: 'Поиск и управление обновлениями Skype для бизнеса Server Lync 2013. Используйте ссылки, чтобы получить дополнительные сведения, а затем скачать обновления.'
 ---
+
 # <a name="skype-for-business-downloads-and-updates"></a>Загрузки и обновления Skype для бизнеса
 
-_Веб Skype для бизнеса загрузки_ и обновления веб-страницы, которая когда-то была на Technet, была отменена. Содержимое было реорганизовано на клиентские и серверные страницы. Следуйте этим ссылкам на необходимое содержимое:
+Веб _Skype для бизнеса загрузки и обновления_ веб-страницы, которая когда-то была на Technet, была отменена. Содержимое было реорганизовано на клиентские и серверные страницы. Следуйте этим ссылкам на необходимое содержимое:
 
 - [Обновления для Skype для бизнеса,](sfb-client-updates.md) которые содержат разделы:
     - [Skype для бизнеса обновления клиентов за 2016 г.](sfb-client-updates.md#skype-for-business-2016-client-updates)

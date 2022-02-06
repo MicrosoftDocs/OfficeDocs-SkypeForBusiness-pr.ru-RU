@@ -1,27 +1,22 @@
 ---
 title: Узел области применения экземпляра SQL
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.SqlInstanceScopeNode
+  - ms.lync.tb.SqlInstanceScopeNode
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: bd270488-ceb9-4920-bef3-ed9fe8eff36c
 description: 'Этот узел показывает полное доменное имя этого Microsoft SQL Server и экземпляр SQL Server на этом сервере, а также пулы или серверы, которые используют этот SQL Server. Можно выполнить следующие действия:'
-ms.openlocfilehash: b046b70396af5fdd4249456fc1dea6203580a673
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861426"
 ---
+
 # <a name="sql-instance-scope-node"></a>Узел области экземпляра SQL
  
 Этот узел показывает полное доменное имя этого Microsoft SQL Server и экземпляр SQL Server на этом сервере, а также пулы или серверы, которые используют этот SQL Server. Можно выполнить следующие действия.

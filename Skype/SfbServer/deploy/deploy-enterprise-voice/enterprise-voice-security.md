@@ -1,28 +1,23 @@
 ---
 title: Условия безопасности и конфигурации для Корпоративная голосовая связь в Skype для бизнеса Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 15354abe-733e-466b-bcd4-a6cfbf58caf8
 description: Сводка. Сведения о предпосылок безопасности и конфигурации для Корпоративная голосовая связь в Skype для бизнеса Server.
-ms.openlocfilehash: 01f7be3bfe3e43d53d574632f228681be5af4ba4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60839081"
 ---
+
 # <a name="security-and-configuration-prerequisites-for-enterprise-voice-in-skype-for-business-server"></a>Условия безопасности и конфигурации для Корпоративная голосовая связь в Skype для бизнеса Server
  
 **Сводка:** Узнайте о предпосылок безопасности и конфигурации для Корпоративная голосовая связь в Skype для бизнеса Server.
@@ -46,7 +41,7 @@ ms.locfileid: "60839081"
 - Развертывание и настройка управляемой ключевой инфраструктуры (MKI) осуществляются с помощью инфраструктуры Майкрософт или стороннего центра сертификации (CA).
     
     > [!NOTE]
-    > Сведения о требованиях к сертификатам в Skype для бизнеса Server см. в Skype для бизнеса Server [2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) г. или требования к серверу для [Skype для бизнеса Server 2019 г.](../../../SfBServer2019/plan/system-requirements.md) 
+    > Подробные сведения о требованиях к сертификатам в Skype для бизнеса Server см. в Skype для бизнеса Server [2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) г. или требования к серверу Skype для бизнеса Server [2019 г](../../../SfBServer2019/plan/system-requirements.md). 
   
 ## <a name="user-configuration"></a>Конфигурация пользователя
 
@@ -55,14 +50,14 @@ ms.locfileid: "60839081"
 Если на этот раз вы заново развертываете рабочую нагрузку корпоративной голосовой связи, перед началом процесса развертывания назначьте основной номер телефона каждому пользователю, для которого вы планируете активировать функцию корпоративной голосовой связи. Как администратор вы несете ответственность за то, чтобы данный номер был уникальным. Перед реализацией все основные телефонные номера должны быть нормализованы (правильно отформатированы) и скопированы в свойство **Line URI** каждого пользователя с помощью Skype для бизнеса Server панели управления.
   
 > [!NOTE]
-> Примеры основных номеров телефонов, необходимых для Корпоративная голосовая связь развертывания, см. в [примере Правил нормализации.](../../plan-your-deployment/enterprise-voice-solution/outbound-voice-routing.md#BKMK_SampleNormalizationRules) 
+> Примеры основных номеров телефонов, необходимых для Корпоративная голосовая связь развертывания, см. в [примере Правил нормализации](../../plan-your-deployment/enterprise-voice-solution/outbound-voice-routing.md#BKMK_SampleNormalizationRules). 
   
 ## <a name="next-steps-install-files-or-configure-pstn-connectivity"></a>Дальнейшие действия: Установка файлов или настройка подключения к PSTN
 
 После проверки необходимых условий программного обеспечения и среды для Корпоративная голосовая связь можно либо:
   
-- Установите сервер-посредник, как описано в развертывании сервера-посредника в [Topology Builder](deploy-a-mediation-server.md)в Skype для бизнеса Server году, но только если вы хотите развернуть автономный сервер-посредник или пул, так как серверы-посредники устанавливаются как часть пула переднего выпуск Standard развертывания сервера при подстройке.
+- Установите сервер-посредник, как описано в развертывании сервера-посредника в [Topology Builder в Skype для бизнеса Server](deploy-a-mediation-server.md) году, но только если вы хотите развернуть автономный сервер-посредник или пул, так как серверы-посредники устанавливаются как часть пула переднего выпуск Standard развертывания сервера при подстройке.
     
-- Или приступить к настройке параметров маршрутных вызовов для Корпоративная голосовая связь пользователей, как описано в [настройках магистральных](configure-trunks.md)Skype для бизнеса Server .
+- Или приступить к настройке параметров маршрутизировать вызовы для Корпоративная голосовая связь пользователей, как описано в Настройка магистральных магистрали [в Skype для бизнеса Server](configure-trunks.md).
     
 

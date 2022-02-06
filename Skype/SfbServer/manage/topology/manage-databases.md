@@ -1,27 +1,22 @@
 ---
 title: Управление базами данных с помощью группы доступности AlwaysOn в Skype для бизнеса Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 026c4469-f471-4e4f-a77d-a7d22a925e5a
-description: Сводка. Сведения о добавлении дополнительных Skype для бизнеса Server баз данных в существующую группу доступности AlwaysOn и сведения о необходимых дополнительных действиях после исправления или обновления back end Server, который входит в группу доступности AlwaysOn в Skype для бизнеса Server.
-ms.openlocfilehash: fe74cd804aff746a3d6c52163ed96d6b270703ce
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60827512"
+description: 'Сводка. Сведения о добавлении дополнительных Skype для бизнеса Server баз данных в существующую группу доступности AlwaysOn и сведения о необходимых дополнительных действиях после исправления или обновления back end Server, который входит в группу доступности AlwaysOn в Skype для бизнеса Server.'
 ---
+
 # <a name="manage-databases-with-an-alwayson-availability-group-in-skype-for-business-server"></a>Управление базами данных с помощью группы доступности AlwaysOn в Skype для бизнеса Server
 
-Используйте шаги в этой статье, чтобы добавить больше Skype для бизнеса Server баз данных в существующую группу доступности AlwaysOn в Skype для бизнеса Server году и узнать о необходимых дополнительных действиях после исправления или обновления back end Server, который входит в группу доступности AlwaysOn в Skype для бизнеса Server.
+Используйте шаги в этой статье, чтобы добавить дополнительные Skype для бизнеса Server базы данных в существующую группу доступности AlwaysOn в Skype для бизнеса Server году и узнать о необходимых дополнительных действиях после исправления или обновления back end Server, который входит в группу доступности AlwaysOn в Skype для бизнеса Server.
 
 ## <a name="add-databases-to-an-alwayson-availability-group"></a>Добавление баз данных в группу доступности AlwaysOn 
 
@@ -29,13 +24,13 @@ ms.locfileid: "60827512"
     
 2. В Topology Builder установите SQL Server FQDN группы доступности AlwaysOn в FQDN основного узла этой группы.
     
-   - Откройте топологию Builder, выберите **топологию загрузки** из существующего развертывания и нажмите **кнопку ОК.**
+   - Откройте топологию Builder, выберите **топологию загрузки из существующего развертывания** и нажмите **кнопку ОК**.
     
-   - Расширяйте Skype для бизнеса Server, расширяйте топологию и **расширяйте SQL Server Магазины.** Щелкните правой кнопкой мыши SQL магазина новой группы доступности AlwaysOn и нажмите **кнопку Изменить свойства**.
+   - Расширяйте Skype для бизнеса Server, расширяйте топологию и **расширяйте SQL Server Магазины**. Щелкните правой кнопкой мыши SQL хранилище новой группы доступности AlwaysOn и нажмите **кнопку Изменить свойства**.
     
    - В нижней части страницы в поле **SQL Server FQDN** введите в FQDN основной узел группы доступности AlwaysOn.
     
-3. Опубликуйте топологию. Из меню **Действия** нажмите **топологию** и опубликуй .  Затем на странице подтверждения нажмите **кнопку Далее**.
+3. Опубликуйте топологию. Из меню **Действия** нажмите **топологию** и опубликуй. Затем на странице подтверждения нажмите **кнопку Далее**.
     
 4. Используйте SQL Server Management Studio, чтобы добавить новую базу данных в группу доступности AlwaysOn.
     

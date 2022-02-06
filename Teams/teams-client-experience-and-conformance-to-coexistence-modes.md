@@ -1,41 +1,36 @@
 ---
 title: Взаимодействие с клиентом Teams и соответствие режимам сосуществования
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: bjwhalen
 audience: admin
-description: Узнайте о Teams и соответствии режимам сосуществования (SfBOnly, SfBWithTeamsCollab, SfBWithTeamsCollabAndMeetings).
+description: 'Узнайте о Teams и соответствии режимам сосуществования (SfBOnly, SfBWithTeamsCollab, SfBWithTeamsCollabAndMeetings).'
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- Teams-upgrade-guidance
-- seo-marvel-apr2020
+  - Teams-upgrade-guidance
+  - seo-marvel-apr2020
 ms.collection:
-- Teams_ITAdmin_JourneyFromSfB
-- M365-collaboration
+  - Teams_ITAdmin_JourneyFromSfB
+  - M365-collaboration
 appliesto:
-- Microsoft Teams
-ms.openlocfilehash: d346f8f6259eef89b798bec6298f1c1fde0ac0a5
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60865658"
+  - Microsoft Teams
 ---
+
 # <a name="teams-client-experience-and-conformance-to-coexistence-modes"></a>Взаимодействие с клиентом Teams и соответствие режимам сосуществования
 
 <a name="about-upgrade-basic"></a>
 
-Режимы Skype для бизнеса (SfBOnly, SfBWithTeamsCollab, SfBWithTeamsCollabAndMeetings) обеспечивают простой и предсказуемый опыт для конечных пользователей по мере перехода организации с Skype для бизнеса на Teams.  Для организации, перемещаемой в  Teams, режим "только Teams" является конечным пунктом назначения для  каждого пользователя, хотя не всем пользователям необходимо одновременно на Teams (или любой другой режим).  До выхода пользователей в режим TeamsOnly организации могут использовать любой из режимов Skype для бизнеса, чтобы обеспечить  предсказуемую связь между пользователями, которые работают только Teams, и теми, кто еще не используется. 
+Режимы сосуществования Skype для бизнеса (SfBOnly, SfBWithTeamsCollab, SfBWithTeamsCollabAndMeetings) обеспечивают простой и предсказуемый опыт для конечных пользователей по мере перехода организаций с Skype для бизнеса на Teams.  Для организации, перемещаемой в Teams, режим  "только Teams" является конечным пунктом назначения для каждого пользователя, хотя не всем пользователям необходимо одновременно на Teams (или любой другой режим).  До выхода пользователей в режим TeamsOnly организации могут использовать любой из режимов Skype для бизнеса, чтобы обеспечить предсказуемую связь между пользователями, которые работают только Teams, и теми, кто  еще не используется. 
 
 Когда пользователь находится в любом из режимов Skype для бизнеса, все входящие чаты и звонки перенанаются его Skype для бизнеса клиенту. Чтобы избежать путаницы с конечными пользователями и обеспечить правильную маршрутику, вызовы и чаты в клиенте Teams отключены, когда пользователь Skype для бизнеса режиме. Точно так же планирование собраний в Teams отключено, если пользователи находятся в режиме SfBOnly или SfBWithTeamsCollab и явно включены, когда пользователь находится в режиме SfBWithTeamsCollabAndMeetings.
 
-Так как присутствие указывает на доступность в чате и звонках, то при отключке чата и звонков в Teams (т. е. отображение собственного присутствия в клиенте Teams на фотографии пользователя) также скрыто. 
+Так как присутствие указывает на доступность в чате и звонках, когда чат и вызовы отключены, в Teams (т. е. отображение собственного присутствия в клиенте Teams на фотографии пользователя) также скрыто. 
 
 ## <a name="how-the-available-functionality-in-teams-client-changes-based-on-mode"></a>Изменение доступных функций Teams клиента в зависимости от режима
 
@@ -45,10 +40,10 @@ ms.locfileid: "60865658"
 |---|---|
 |Любой Skype для бизнеса режиме|Вызовы, чат и самосовершенные вызовы отключены.|
 |SfBWithTeamsCollabAndMeetings|Доступно планирование собраний|
-|SfBWithTeamsCollab или SfBOnly<sup>1</sup>|Планирование собраний недоступно|
+|SfBWithTeamsCollab или SfBOnly1<sup></sup>|Планирование собраний недоступно|
 |||
 
-На снимках экрана ниже показано, чем отличается режим Teams **или** "Только **на** островах" и другими режимами. Обратите внимание, что значки чата и звонков  по умолчанию доступны в режиме Teams **Или** Только на островах (снимок слева), но не в других режимах (снимок справа):
+На снимках экрана ниже показано, чем отличается режим Teams **или** "Только **на** островах" и всеми другими режимами. Обратите внимание, что значки чата и звонков по умолчанию доступны в режиме Teams **Или** Только на островах (снимок слева), но не в других режимах (снимок справа):
 
 ![Сравнение режимов Teams.](media/teams-mode-comparison.png)
 
@@ -56,8 +51,8 @@ ms.locfileid: "60865658"
 
 ![Снимок экрана: самосовершенная присутствие в первом собрании.](media/meetings-first-no-self-presence-general.png)
  
-**Примечание.** 
- <sup>1.</sup> В настоящее время SfBwithTeamsCollab и SfBOnly ведут себя одинаково, но в режиме SfBOnly необходимо также отключить функции channels и Files в Teams. Тем временем каналы могут быть скрыты с помощью политики разрешений приложений.
+**Примечание:**
+ <sup>1</sup>. В настоящее время SfBwithTeamsCollab и SfBOnly ведут себя одинаково, но в режиме SfBOnly необходимо также отключить функции channels и Files в Teams. Тем временем каналы могут быть скрыты с помощью политики разрешений приложений.
 
 
 ## <a name="impact-of-mode-on-other-policy-settings"></a>Влияние режима на другие параметры политики
@@ -79,7 +74,7 @@ ms.locfileid: "60865658"
 |SfBWithTeamsCollab или SfBOnly|Отключено|Отключено|Отключено|Отключено|
 ||||||
 
-При использовании PowerShell командлет проверяет конфигурацию соответствующих параметров `Grant-CsTeamsUpgradePolicy` в TeamsMessagingPolicy, TeamsCallingPolicy и TeamsMeetingPolicy, чтобы определить, будут ли эти параметры подменимы TeamsUpgradePolicy, и в этом случае в PowerShell будет выслано информационное сообщение.  Как было отмечено выше, больше не нужно настраивать другие параметры политики. Ниже приводится пример предупреждения PowerShell:
+При использовании PowerShell `Grant-CsTeamsUpgradePolicy` командлет проверяет конфигурацию соответствующих параметров в TeamsMessagingPolicy, TeamsCallingPolicy и TeamsMeetingPolicy, чтобы определить, будут ли эти параметры подменимы TeamsUpgradePolicy и, если да, в PowerShell выведется информационное сообщение.  Как было отмечено выше, больше не нужно настраивать другие параметры политики. Вот как выглядит предупреждение PowerShell:
 
 `Grant-CsTeamsUpgradePolicy -Identity user1@contoso.com -PolicyName SfBWithTeamsCollab`
 

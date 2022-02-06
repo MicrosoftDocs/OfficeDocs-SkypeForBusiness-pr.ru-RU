@@ -1,28 +1,23 @@
 ---
 title: Заключительный контрольный список развертывания управления приемом вызовов для Skype для бизнеса Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: d56a525f-3da5-4ac0-a311-0c5efd98c9df
 description: Заключительный контрольный список развертывания управления приемом вызовов (CAC) в Skype для бизнеса Server Корпоративная голосовая связь.
-ms.openlocfilehash: ca9162604d1a25ecbde0df800e891931cd756d99
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855113"
 ---
+
 # <a name="call-admission-control-deployment-final-checklist-for-skype-for-business-server"></a>Развертывание управления приемом вызовов: окончательный контрольный список для Skype для бизнеса Server
  
 Заключительный контрольный список развертывания управления приемом вызовов (CAC) в Skype для бизнеса Server Корпоративная голосовая связь. 
@@ -34,11 +29,11 @@ ms.locfileid: "60855113"
     > [!NOTE]
     > Edge Servers не требуется для реализации CAC. 
   
-- Убедитесь, что CAC включен, как указано в [ключаем](enable-call-admission-control.md)управление приемом вызовов в Skype для бизнеса Server .
+- Убедитесь, что CAC включен, как указано [включаем управление приемом вызовов в Skype для бизнеса Server](enable-call-admission-control.md).
     
 - Убедитесь, что контроль допуска звонков включен на всех центральных сайтах. Это можно сделать с помощью конструктора топологии. Если предупреждение создается при публикации,  *не игнорируйте*  его.
     
-- Убедитесь, что все подсети, управляемые в корпоративной сети, настроены в параметрах конфигурации сети. Важно также, чтобы каждая подсеть была связана с сетевым сайтом, как это объясняется в регионах развертывания сетей, сайтах и подсетях в [Skype для бизнеса.](deploy-network.md)
+- Убедитесь, что все подсети, управляемые в корпоративной сети, настроены в параметрах конфигурации сети. Важно также, чтобы каждая подсеть была связана с сетевым сайтом, как это объясняется в регионах развертывания сетей, сайтах и подсетях в [Skype для бизнеса](deploy-network.md).
     
 - Убедитесь, что подсеть или IP-адреса всех серверов переднего плана, устройств для обеспечения связи в филиалах, серверов аудио- и видеоконференций (если они размещаются в отдельном пуле) и серверов-посредников настроены в параметрах конфигурации сети.
     

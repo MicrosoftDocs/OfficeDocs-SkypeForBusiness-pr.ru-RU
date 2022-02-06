@@ -1,27 +1,22 @@
 ---
 title: Узел области применения шлюза ТСОП
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.PstnGatewayScopeNode
+  - ms.lync.tb.PstnGatewayScopeNode
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 85a52bf7-98cb-4dd4-892e-2d1ba5669593
-description: В этом узле отображается полное доменное имя, связанный сервер-посредник и другие базовые сведения, относящиеся к этому шлюзу ТСОП. Можно выполнить следующие действия.
-ms.openlocfilehash: 2d9f0665076731b91d82ce00a86f6feb1bcd1606
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833425"
+description: 'В этом узле отображается полное доменное имя, связанный сервер-посредник и другие базовые сведения, относящиеся к этому шлюзу ТСОП. Можно выполнить следующие действия.'
 ---
+
 # <a name="pstn-gateway-scope-node"></a>Узел области шлюза ТСОП
  
 В этом узле отображается полное доменное имя, связанный сервер-посредник и другие базовые сведения, относящиеся к этому шлюзу ТСОП. Можно выполнить следующие действия.

@@ -1,24 +1,19 @@
 ---
 title: Вручную очищают базы данных данных о детализации вызовов и качестве Skype для бизнеса Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 3a3a965b-b861-41a4-b9a8-27184d622c17
-description: Сводка. Узнайте, как вручную очищать записи из баз данных CDR и QoE, используемых Skype для бизнеса Server.
-ms.openlocfilehash: edaeb5d34fefe1ea8f50da4d7bb4bb31c94c62b5
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851603"
+description: 'Сводка. Узнайте, как вручную очищать записи из баз данных CDR и QoE, используемых Skype для бизнеса Server.'
 ---
+
 # <a name="manually-purge-the-call-detail-recording-and-quality-of-experience-databases-in-skype-for-business-server"></a>Вручную очищают базы данных данных о детализации вызовов и качестве Skype для бизнеса Server
  
 **Сводка:** Узнайте, как вручную очищать записи из баз данных CDR и QoE, используемых Skype для бизнеса Server.
@@ -29,7 +24,7 @@ ms.locfileid: "60851603"
 
 Администраторы могут настраивать базы данных записи окружных данных (CDR) и/или базы данных "Качество работы" (QoE), чтобы автоматически очищать старые записи из базы данных; это происходит, если для указанной базы данных (CDR или QoE) включена чистка, а также если в базе данных есть записи дольше указанного времени. Например, каждый день в 1:00 администраторы могут настраивать систему, чтобы удалить из базы данных QoE записи старше 60 дней.
   
-Помимо автоматической чистки в &#x2014; Invoke-CsCdrDatabasePurge и Invoke-CsQoEDatbasePurge &#x2014; добавлены два новых Skype для бизнеса Server; эти комлеты позволяют администраторам вручную очищать записи из баз данных CDR и QoE в любое время. Например, чтобы вручную удалить из базы данных CDR все записи старше 10 дней, вы можете использовать команду, аналогичную следующей:
+Помимо автоматической очистки, в Skype для бизнеса Server добавлены два новых &#x2014; Invoke-CsCdrDatabasePurge и Invoke-CsQoEDatbasePurge &#x2014;. Эти кодлеты позволяют администраторам вручную очищать записи из баз данных CDR и QoE в любое время. Например, чтобы вручную удалить из базы данных CDR все записи старше 10 дней, вы можете использовать команду, аналогичную следующей:
   
 ```powershell
 Invoke-CsCdrDatabasePurge -Identity service:MonitoringDatabase:atl-sql-001.litwareinc.com -PurgeCallDetailDataOlderThanDays 10 -PurgeDiagnosticDataOlderThanDays 10

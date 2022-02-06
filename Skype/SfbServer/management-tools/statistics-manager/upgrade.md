@@ -1,32 +1,27 @@
 ---
 title: Обновление диспетчера статистики в Skype для бизнеса Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 71f5d0a0-ca81-4ac1-b590-8f854504f21f
-description: Сводка. Ознакомьтесь с этой темой, чтобы узнать, как обновить диспетчер статистики для Skype для бизнеса Server.
-ms.openlocfilehash: 297da8efc1259c1128fd0d60584e1db761465217
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857336"
+description: 'Сводка. Ознакомьтесь с этой темой, чтобы узнать, как обновить диспетчер статистики для Skype для бизнеса Server.'
 ---
+
 # <a name="upgrade-statistics-manager-for-skype-for-business-server"></a>Обновление диспетчера статистики в Skype для бизнеса Server
  
 **Сводка:** Ознакомьтесь с этой темой, чтобы узнать, как обновить диспетчер статистики для Skype для бизнеса Server.
   
 В этом разделе описывается обновление существующей установки диспетчера статистики для Skype для бизнеса Server — мощного средства, который позволяет просматривать данные о работоспособности и производительности Skype для бизнеса Server в режиме реального времени. Вы можете просматривать данные о производительности на сотнях серверов каждые несколько секунд и мгновенно просматривать результаты на веб-сайте диспетчера статистики. 
   
-Дополнительные сведения о диспетчере статистики и новых функций в выпуске 2.0 см. в выпуске [Plan for Statistics Manager for Skype для бизнеса Server](plan.md) и Deploy [Statistics Manager for Skype для бизнеса Server](deploy.md).
+Дополнительные сведения о диспетчере статистики и новых функций в выпуске 2.0 см. в Skype для бизнеса Server [Plan for Statistics Manager for Skype для бизнеса Server](plan.md)[.](deploy.md)
   
 Существует два метода обновления:
   
@@ -34,7 +29,7 @@ ms.locfileid: "60857336"
     
 - **Ручное обновление.** Этот метод предоставляется в качестве резервного плана в необычном случае сбой автоматического обновления.
     
-## <a name="prerequisites"></a>Предварительные требования
+## <a name="prerequisites"></a>Необходимые компоненты
 
 Перед обновлением убедитесь, что у вас есть следующие сведения:
   
@@ -101,7 +96,7 @@ ms.locfileid: "60857336"
     > [!NOTE]
     >  Сохраните установку Redis таким образом, чтобы данные в кэше поддерживалися в процессе обновления.
   
-2. Установите новые версии компонентов, в том числе сохраненные выше значения при запросе на них. Дополнительные сведения об установке компонентов см. в [элементе Deploy Statistics Manager.](deploy.md#BKMK_Deploy)
+2. Установите новые версии компонентов, в том числе сохраненные выше значения при запросе на них. Дополнительные сведения об установке компонентов см. в [элементе Deploy Statistics Manager](deploy.md#BKMK_Deploy).
 
     
 ## <a name="for-more-information"></a>Дополнительные сведения

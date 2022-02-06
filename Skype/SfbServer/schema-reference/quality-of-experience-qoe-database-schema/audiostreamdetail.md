@@ -1,25 +1,20 @@
 ---
 title: Представление AudioStreamDetail
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: b6a435b3-103c-41c4-96ed-33c3784534c0
 description: В представлении AudioStreamDetail хранятся сведения о всех аудиопотоках в базе данных. Это представление было представлено в Microsoft Lync Server 2013.
-ms.openlocfilehash: 2b75d803c75b0d936bf54e5b543ee39e18ee1896
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847022"
 ---
+
 # <a name="audiostreamdetail-view"></a>Представление AudioStreamDetail
  
 В представлении AudioStreamDetail хранятся сведения о всех аудиопотоках в базе данных. Это представление было представлено в Microsoft Lync Server 2013.
@@ -31,7 +26,7 @@ ms.locfileid: "60847022"
 |StreamId  <br/> |int  <br/> |Уникальный идентификатор в линии мультимедиа.  <br/> |
 |StartTime  <br/> |datetime  <br/> |Время начала сеанса.  <br/> |
 |EndTime  <br/> |datetime  <br/> |Время окончания сеанса.  <br/> |
-|DialogCategory  <br/> |bit  <br/> |Категория диалогов: 0 — это Skype для бизнеса Server сервера-посредника; 1 — это этап шлюза сервера-посредника в PSTN.  <br/> |
+|DialogCategory  <br/> |bit  <br/> |Категория диалоговое окно: 0 — это Skype для бизнеса Server для сервера-посредника; 1 — этап шлюза сервера-посредника для PSTN.  <br/> |
 |MediationServerBypassFlag  <br/> |bit  <br/> |Флаг, указывающий, выполнял ли вызов обход сервера-посредника.  <br/> |
 |MediaBypassWarningFlag  <br/> |int  <br/> |Если это поле присутствует, оно указывает, почему вызов не выполнял обход сервера-посредника, даже если идентификаторы обхода соответствовали. Задается только одно значение:  <br/> 0x0001 — неизвестный iD обхода для сетевого адаптера по умолчанию.  <br/> |
 |CallPriority  <br/> |int  <br/> |Приоритет вызова.  <br/> |
@@ -40,11 +35,11 @@ ms.locfileid: "60847022"
 |Вызывающая сторона  <br/> |nvarchar (450)  <br/> |URI вызываемой.  <br/> |
 |Callee  <br/> |nvarchar (450)  <br/> |URI вызываемой.  <br/> |
 |CallerUserAgent  <br/> |nvarchar (256)  <br/> |Строка агента пользователя вызываемой.  <br/> |
-|CallerUserAgentType  <br/> |smallint  <br/> |Тип агента пользователя вызываемого пользователя. Сведения см. [в таблице UserAgent.](useragent.md) <br/> |
-|CallerUserAgentCategory  <br/> |nvarchar (64)  <br/> |Категория агента пользователя вызываемого пользователя. Сведения см. [в таблице UserAgentDef (QoE).](useragentdef-qoe.md) <br/> |
+|CallerUserAgentType  <br/> |smallint  <br/> |Тип агента пользователя вызываемого пользователя. Сведения см. [в таблице UserAgent](useragent.md) . <br/> |
+|CallerUserAgentCategory  <br/> |nvarchar (64)  <br/> |Категория агента пользователя вызываемого пользователя. Сведения см. [в таблице UserAgentDef (QoE](useragentdef-qoe.md) ). <br/> |
 |CalleeUserAgent  <br/> |nvarchar (256)  <br/> |Строка агента пользователя callee.  <br/> |
-|CalleeUserAgentType  <br/> |smallint  <br/> |Тип агента пользователя вызываемого пользователя. Сведения см. [в таблице UserAgent.](useragent.md) <br/> |
-|CalleeUserAgentCategory  <br/> |nvarchar (64)  <br/> |Категория агента пользователя вызываемого пользователя. Сведения см. [в таблице UserAgentDef (QoE).](useragentdef-qoe.md) <br/> |
+|CalleeUserAgentType  <br/> |smallint  <br/> |Тип агента пользователя вызываемого пользователя. Сведения см. [в таблице UserAgent](useragent.md) . <br/> |
+|CalleeUserAgentCategory  <br/> |nvarchar (64)  <br/> |Категория агента пользователя вызываемого пользователя. Сведения см. [в таблице UserAgentDef (QoE](useragentdef-qoe.md) ). <br/> |
 |CallerEndpoint  <br/> |nvarchar (256)  <br/> |Имя конечной точки вызываемой точки.  <br/> |
 |CalleeEndpoint  <br/> |nvarchar (256)  <br/> |Имя конечной точки вызываемой точки.  <br/> |
 |CallerOS  <br/> |nvarchar (128)  <br/> |Операционная система (ОС) конечной точки вызываемого.  <br/> |
@@ -55,10 +50,10 @@ ms.locfileid: "60847022"
 |CalleeCPUNumberOfCores  <br/> |smallint  <br/> |Количество ядер ЦП в конечной точке вызываемого.  <br/> |
 |CallerCPUProcessorSpeed  <br/> |int  <br/> |Скорость процессора процессора конечной точки вызываемого.  <br/> |
 |CalleeCPUProcessorSpeed  <br/> |int  <br/> |Скорость процессора ЦП конечной точки вызываемого.  <br/> |
-|CallerVirtualizationFlag  <br/> |tinyint  <br/> |Указывает, запущена ли система вызываемого в виртуализированной среде. Дополнительные сведения см. в таблице [Endpoint.](endpoint.md) <br/> |
-|CalleeVirtualizationFlag  <br/> |tinyint  <br/> |Указывает, работает ли система вызываемого в виртуализированной среде. Дополнительные сведения см. в таблице [Endpoint.](endpoint.md) <br/> |
+|CallerVirtualizationFlag  <br/> |tinyint  <br/> |Указывает, запущена ли система вызываемого в виртуализированной среде. Дополнительные сведения [см. в таблице Endpoint](endpoint.md) . <br/> |
+|CalleeVirtualizationFlag  <br/> |tinyint  <br/> |Указывает, работает ли система вызываемого в виртуализированной среде. Дополнительные сведения [см. в таблице Endpoint](endpoint.md) . <br/> |
 |CorrelationKey  <br/> ||Ключ корреляции. Ссылки из [таблицы SessionCorrelation](sessioncorrelation.md).  <br/> |
-|ConnectivityIce  <br/> |tinyint  <br/> |Сведения о канале передачи медиаданных, например прямой или ретранслируемый. Дополнительные сведения см. в таблице [MediaLine.](medialine-0.md) <br/> |
+|ConnectivityIce  <br/> |tinyint  <br/> |Сведения о канале передачи медиаданных, например прямой или ретранслируемый. Дополнительные [сведения см. в таблице MediaLine](medialine-0.md) . <br/> |
 |CallerIceWarningFlags  <br/> |int  <br/> |Сведения о технологии ICE (Interactive Connectivity Establishment), описанные в битовых флагах, для вызывающего абонента. Дополнительные сведения см. в спецификации протокола сервера мониторинга качества взаимодействия.  <br/> |
 |CalleeIceWarningFlags  <br/> |int  <br/> |Сведения о технологии ICE (Interactive Connectivity Establishment), описанные в битовых флагах, для вызываемого абонента. Дополнительные сведения см. в спецификации протокола сервера мониторинга качества взаимодействия.  <br/> |
 |Transport  <br/> |tinyint  <br/> |Тип транспорта: 0 — UDP, 1 — TCP.  <br/> |
@@ -72,9 +67,9 @@ ms.locfileid: "60847022"
 |CallerRegion  <br/> |nvarchar (128)  <br/> |Имя страны или региона сайта вызываемого.  <br/> |
 |CalleeUserSite  <br/> |nvarchar (128)  <br/> |Имя сайта вызываемого.  <br/> |
 |CalleeRegion  <br/> |nvarchar (128)  <br/> |Имя страны или региона сайта вызываемого.  <br/> |
-|CallerRelayIPAddr  <br/> |var (50)  <br/> |IP-адрес пограничной службы обработки аудио- и видеоданных, используемой вызывающим абонентом. Дополнительные сведения см. в таблице [IPAddress.](ipaddress.md) <br/> |
+|CallerRelayIPAddr  <br/> |var (50)  <br/> |IP-адрес пограничной службы обработки аудио- и видеоданных, используемой вызывающим абонентом. Дополнительные [сведения см. в таблице IPAddress](ipaddress.md) . <br/> |
 |CallerRelayPort  <br/> |int  <br/> |Порт, используемый вызывающим абонентом в пограничной службе обработки аудио- и видеоданных.  <br/> |
-|CalleeRelayIPAddr  <br/> |var (50)  <br/> |IP-адрес пограничной службы обработки аудио- и видеоданных, используемой вызываемым абонентом. Дополнительные сведения см. в таблице [IPAddress.](ipaddress.md) <br/> |
+|CalleeRelayIPAddr  <br/> |var (50)  <br/> |IP-адрес пограничной службы обработки аудио- и видеоданных, используемой вызываемым абонентом. Дополнительные [сведения см. в таблице IPAddress](ipaddress.md) . <br/> |
 |CalleeRelayPort  <br/> |int  <br/> |Порт, используемый вызываемым абонентом в пограничной службе обработки аудио- и видеоданных.  <br/> |
 |CallerCaptureDev  <br/> |varchar (256)  <br/> |Имя устройства захвата вызываемой.  <br/> |
 |CallerRenderDev  <br/> |varchar (256)  <br/> |Имя устройства визуализации вызываемой.  <br/> |
@@ -106,7 +101,7 @@ ms.locfileid: "60847022"
 |DegradationMax  <br/> |десятичной (3,2)  <br/> |Максимальное снижение экспертной оценки качества (MOS) в сети во время звонка.  <br/> |
 |DegradationJitterAvg  <br/> |десятичной (3,2)  <br/> |Снижение экспертной оценки качества (MOS) в сети, вызванное дрожанием.  <br/> |
 |DegradationPacketLossAvg  <br/> |десятичной (3,2)  <br/> |Снижение экспертной оценки качества (MOS) в сети, вызванное потерей пакетов.  <br/> |
-|PayloadDescription  <br/> |int  <br/> |Звуковой кодек, используемый для вызова, ссылается на таблицу [PayloadDescription.](payloaddescription.md)  <br/> |
+|PayloadDescription  <br/> |int  <br/> |Звуковой кодек, используемый для вызова, ссылается на таблицу [PayloadDescription](payloaddescription.md).  <br/> |
 |AudioSampleRate  <br/> |int  <br/> |Частота выборки для аудиопотока.  <br/> |
 |CallerSendSignalLevel  <br/> |int  <br/> |Послеаналоговая регулировка уровня звукового сигнала для аудиопотока, отправленного вызывающим абонентом. Единица измерения для этого показателя — дБмо. Для приемлемого качества значение должно быть не менее 30 дБмо. Этот показатель не сообщается сервером аудио- и видеоконференций и IP-телефонами.  <br/> |
 |CallerRecvSignalLevel  <br/> |int  <br/> |Уровень звукового сигнала для аудиопотока, принятого вызывающим абонентом. Единица измерения для этого показателя — дБмо. Для приемлемого качества значение должно быть не менее 30 дБмо. Этот показатель не сообщается сервером аудио- и видеоконференций и IP-телефонами.  <br/> |
@@ -119,8 +114,8 @@ ms.locfileid: "60847022"
 |CallerTimestampDriftRateSpk  <br/> |десятичной (9,2)  <br/> |Скорость дрифта устройства динамика устройства вызываемой связи по отношению к часам ЦП.  <br/> |
 |CallerTimestampErrorMicMs  <br/> |десятичной (9,2)  <br/> |Средняя ошибка метки времени для потока захвата микрофоном, в миллисекундах, в последние 20 секунд вызова.  <br/> |
 |CallerTimestampErrorSpkMs  <br/> |десятичной (9,2)  <br/> |Среднее значение ошибки отпечаток времени потока в миллисекундных значениях в течение последних 20 секунд вызова.  <br/> |
-|CallerVsEntryCauses  <br/> |smallint  <br/> |Речевой коммутатор — это полудуплексный режим с уменьшенной возможностью прерывания. Дополнительные сведения см. в таблице [MediaLine.](medialine-0.md) <br/> |
-|CallerEchoEventCauses  <br/> |tinyint  <br/> |Причины события эхосигнала для вызывающего абонента. Дополнительные сведения см. в таблице [MediaLine.](medialine-0.md) <br/> |
+|CallerVsEntryCauses  <br/> |smallint  <br/> |Речевой коммутатор — это полудуплексный режим с уменьшенной возможностью прерывания. Дополнительные [сведения см. в таблице MediaLine](medialine-0.md) . <br/> |
+|CallerEchoEventCauses  <br/> |tinyint  <br/> |Причины события эхосигнала для вызывающего абонента. Дополнительные [сведения см. в таблице MediaLine](medialine-0.md) . <br/> |
 |CallerEchoPercentMicIn  <br/> |десятичной (5,2)  <br/> |Процент времени обнаружения эхо в потоке захвата микрофона вызываемого. Если используется гарнитура, то значение должно быть низким.  <br/> |
 |CallerEchoPercentSend  <br/> |десятичной (5,2)  <br/> |Процент времени обнаружения эхо в потоке отправленного вызываемого. Высокое значение в отправленных потоках указывает на утечку эхосигнала.  <br/> |
 |CallerRxAGCSignalLevel  <br/> |int  <br/> |Полученный уровень сигнала на сервере-посреднике из шлюза для аудиозаписи вызываемой стороны; это относится только к серверу-посреднику. Единица измерения — dBoV. Приемлемый диапазон для хорошего качества — от -30 до -18 dBoV.  <br/> |
@@ -138,8 +133,8 @@ ms.locfileid: "60847022"
 |CalleeTimestampDriftRateSpk  <br/> |десятичной (9,2)  <br/> |Скорость дрифта динамика устройства вызываемой связи относительно часов ЦП.  <br/> |
 |CalleeTimestampErrorMicMs  <br/> |десятичной (9,2)  <br/> |Средняя ошибка метки времени для потока захвата микрофоном, в миллисекундах, в последние 20 секунд вызова.  <br/> |
 |CalleeTimestampErrorSpkMs  <br/> |десятичной (9,2)  <br/> |Среднее значение ошибки отпечаток времени отрисовки потока в миллисекунах за последние 20 секунд звонка.  <br/> |
-|CalleeVsEntryCauses  <br/> |smallint  <br/> |Речевой коммутатор — это полудуплексный режим с уменьшенной возможностью прерывания. Дополнительные сведения см. в таблице [MediaLine.](medialine-0.md) <br/> |
-|CalleeEchoEventCauses  <br/> |tinyint  <br/> |Причины события эхосигнала для вызываемого абонента. Дополнительные сведения см. в таблице [MediaLine.](medialine-0.md) <br/> |
+|CalleeVsEntryCauses  <br/> |smallint  <br/> |Речевой коммутатор — это полудуплексный режим с уменьшенной возможностью прерывания. Дополнительные [сведения см. в таблице MediaLine](medialine-0.md) . <br/> |
+|CalleeEchoEventCauses  <br/> |tinyint  <br/> |Причины события эхосигнала для вызываемого абонента. Дополнительные [сведения см. в таблице MediaLine](medialine-0.md) . <br/> |
 |CalleeEchoPercentMicIn  <br/> |десятичной (5,2)  <br/> |Процент времени обнаружения эхо в потоке захвата микрофона вызываемого. Если используется гарнитура, то значение должно быть низким.  <br/> |
 |CalleeEchoPercentSend  <br/> |десятичной (5,2)  <br/> |Процент времени обнаружения эхо в отправленном потоке вызываемого. Высокое значение в отправленных потоках указывает на утечку эхосигнала.  <br/> |
 |CalleeRxAGCSignalLevel  <br/> |int  <br/> |Полученный уровень сигнала на сервере-посреднике из шлюза для аудиозаписи вызываемой стороны; это относится только к серверу-посреднику. Единица измерения — dBoV. Приемлемый диапазон для хорошего качества — от -30 до -18 dBoV.  <br/> |

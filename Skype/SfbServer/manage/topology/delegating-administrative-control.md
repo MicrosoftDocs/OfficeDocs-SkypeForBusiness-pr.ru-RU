@@ -1,23 +1,18 @@
 ---
 title: Делегировать административный контроль Skype для бизнеса Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 description: ''
-ms.openlocfilehash: 54348e05a53f5c8fcc7241dbc7ed86b1be4e27a3
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861286"
 ---
+
 # <a name="delegate-administrative-control-of-skype-for-business-server"></a>Делегировать административный контроль Skype для бизнеса Server 
 
 В Skype для бизнеса Server административные задачи делегируются пользователям с помощью функции управления доступом на основе ролей (RBAC). При установке Skype для бизнеса Server для вас создается несколько ролей RBAC. Эти роли соответствуют универсальным группам безопасности в службах домена Active Directory. Например, роль RBAC CsHelpDesk соответствует группе CsHelpDesk, найденной в контейнере Пользователей в службах домена Active Directory. Кроме того, каждая роль RBAC связана с набором Skype для бизнеса ServerWindows PowerShell.   Эти cmdlets представляют задачи, которые могут выполняться пользователями, которым назначена данной роли RBAC. Например, роли CsHelpDesk назначены Lock-CsClientPin и UnlockCsClientPin. Это означает, что пользователи, которым назначена роль CsHelpDesk, могут заблокировать и разблокировать пин-код пользователя. Однако роль CsHelpDesk не была назначена New-CsVoicePolicy. Это означает, что пользователи, которым назначена роль CsHelpDesk, не могут создавать новые политики голосовой поддержки.
@@ -43,7 +38,7 @@ ms.locfileid: "60861286"
 3. В окне «Пользователи и компьютеры Active Directory» разверните имя своего домена и щелкните контейнер **Users**.
 4. Щелкните группу безопасности **CsLocationAdministrator** правой кнопкой мыши и выберите **Свойства**.
 5. В диалоговом окне **Свойства** на вкладке **Члены** нажмите кнопку **Добавить**.
-6. В диалоговом окне Выбор **пользователей, компьютеров,** контактов или групп введите имя пользователя или отображаемого имени пользователя, которое будет добавлено в группу (например, Ken Myer) в поле **Введите** имена объектов, чтобы выбрать поле, а затем нажмите кнопку **ОК**.
+6. В диалоговом окне Select **Users, Computers, Contacts или Groups** введите имя пользователя или отображайте имя пользователя, которое будет добавлено в группу (например, Ken Myer) в поле **Введите** имена объектов, чтобы выбрать поле, а затем нажмите кнопку **ОК.**
 7. В диалоговом окне **Свойства** нажмите кнопку **ОК**.
 
 Чтобы убедиться, что роль управления доступом на основе ролей была назначена, используйте командлет Get-CsAdminRoleAssignment, передавая в него SamAccountName (имя для входа Active Directory) пользователя. Например, запустите эту команду из Skype для бизнеса Server командной оболочки:

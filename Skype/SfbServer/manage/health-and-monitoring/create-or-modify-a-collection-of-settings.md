@@ -1,24 +1,19 @@
 ---
 title: Создание или изменение коллекции параметров конфигурации CDR в Skype для бизнеса Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: c830be5a-2a82-468d-9c46-d3fec0f79fd0
 description: Сводка. Сведения о записи подробных вызовов (CDR) в Skype для бизнеса Server.
-ms.openlocfilehash: d0057a8a7966307dd570ac1faed716484ca82331
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841251"
 ---
+
 # <a name="create-or-modify-a-collection-of-cdr-configuration-settings-in-skype-for-business-server"></a>Создание или изменение коллекции параметров конфигурации CDR в Skype для бизнеса Server
  
 **Сводка:** Узнайте о записи детализации вызовов (CDR) в Skype для бизнеса Server.
@@ -27,7 +22,7 @@ ms.locfileid: "60841251"
   
 При установке Skype для бизнеса Server для вас создается глобальная коллекция параметров конфигурации CDR. Администраторы также имеют возможность создания пользовательских параметров на уровне сайта. При использовании эти параметров уровня сайта имеют приоритет над глобальными параметрами. Например, если вы создаете параметры на сайте Redmond, то эти параметры (а не глобальные параметры) будут использоваться для управления CDR в Редмонде.
   
-Параметры конфигурации CDR можно создать с помощью панели управления Skype для бизнеса Server или [комлета New-CsCdrConfiguration.](/powershell/module/skype/new-cscdrconfiguration?view=skype-ps) Для изменения существующих параметров можно использовать Skype для бизнеса Server панели управления или комлет [Set-CsCDrConfiguration.](/powershell/module/skype/set-cscdrconfiguration?view=skype-ps) Если вы используете панель Skype для бизнеса Server для создания или изменения параметров, вам будут доступны следующие параметры:
+Параметры конфигурации CDR можно создать с помощью панели управления Skype для бизнеса Server или [cmdlet New-CsCdrConfiguration](/powershell/module/skype/new-cscdrconfiguration?view=skype-ps). Для изменения существующих параметров Skype для бизнеса Server панель управления или комлет [Set-CsCDrConfiguration](/powershell/module/skype/set-cscdrconfiguration?view=skype-ps). Если вы используете панель Skype для бизнеса Server для создания или изменения параметров, вам будут доступны следующие параметры:
   
 |**Параметр пользовательского интерфейса**|**Параметр PowerShell**|**Описание**|
 |:-----|:-----|:-----|
@@ -38,29 +33,29 @@ ms.locfileid: "60841251"
 |Хранить данные отчета об ошибках для максимальной продолжительности (дней)  <br/> |KeepErrorReportForDays  <br/> |Указывает количество дней, которые хранятся отчеты об ошибках CDR. Любые отчеты старше указанного числа дней будут автоматически удалены. Отчеты об ошибках CDR — это диагностические отчеты, загруженные клиентские приложения.  <br/> |
    
 > [!NOTE]
-> В New-CsCdrConfiguration и Set-CsCdrConfiguration содержатся дополнительные параметры, недоступные Skype для бизнеса Server панели управления. Дополнительные сведения см. в разделе [New-CsCdrConfiguration](/powershell/module/skype/new-cscdrconfiguration?view=skype-ps) и [Set-CsCdrConfiguration.](/powershell/module/skype/set-cscdrconfiguration?view=skype-ps)
+> В New-CsCdrConfiguration и Set-CsCdrConfiguration содержатся дополнительные параметры, недоступные Skype для бизнеса Server панели управления. Дополнительные сведения см. в разделе [New-CsCdrConfiguration](/powershell/module/skype/new-cscdrconfiguration?view=skype-ps) и [Set-CsCdrConfiguration](/powershell/module/skype/set-cscdrconfiguration?view=skype-ps) .
   
 ### <a name="to-create-cdr-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Создание параметров конфигурации CDR с помощью Skype для бизнеса Server панели управления
 
-1. В Skype для бизнеса Server панели управления щелкните **Мониторинг и архива.**
+1. В Skype для бизнеса Server панели управления нажмите **кнопку Мониторинг и архива.**
     
 2. На **вкладке Запись детализации вызовов** нажмите **кнопку New**.
     
 3. В **диалоговом окне Выберите** сайт выберите сайт, на котором должны быть созданы новые параметры конфигурации. Если диалоговое окно пусто, это означает, что всем вашим сайтам уже назначена коллекция параметров конфигурации CDR. Каждый сайт ограничен одной такой коллекцией. В этом случае можно либо удалить, либо повторно создать параметры, либо просто изменить существующие параметры.
     
-4. В диалоговом диалоговом окантовке параметра **New Call Detail Recording (CDR)** сделайте нужный выбор и нажмите **кнопку Фиксация**.
+4. В диалоговом диалоговом окантовке Параметры "Новая запись зовов **" (CDR)** сделайте нужные выборы и нажмите **кнопку Фиксация**.
     
 ### <a name="to-modify-existing-cdr-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Изменение существующих параметров конфигурации CDR с помощью Skype для бизнеса Server панели управления
 
-1. В Skype для бизнеса Server панели управления щелкните **Мониторинг и архива.**
+1. В Skype для бизнеса Server панели управления нажмите **кнопку Мониторинг и архива.**
     
-2. Дважды щелкните коллекцию параметров, которые необходимо изменить, или выберите коллекцию, нажмите **кнопку Изменить** и нажмите **кнопку Показать сведения**. Обратите внимание, что одновременно можно изменять только одну коллекцию. Чтобы внести те же изменения в несколько коллекций, используйте Skype для бизнеса Server управленческой оболочки.
+2. Дважды щелкните коллекцию параметров, которые необходимо изменить, или выберите коллекцию, нажмите **кнопку Изменить**, а затем щелкните **Показать сведения**. Обратите внимание, что одновременно можно изменять только одну коллекцию. Чтобы внести те же изменения в несколько коллекций, используйте Skype для бизнеса Server управленческой оболочки.
     
-3. В диалоговом диалоговом диалоговом окантовке "Изменение детализации **вызовов" (CDR)** сделайте нужные выборы и нажмите **кнопку Фиксация**.
+3. В **диалоговом диалоговом** окантовке Параметр Изменить детализацию вызовов (CDR) сделайте нужный выбор и нажмите кнопку **Фиксация**.
     
 ## <a name="creating-cdr-configuration-settings-by-using-windows-powershell-cmdlets"></a>Создание параметров конфигурации CDR с помощью Windows PowerShell cmdlets
 
-Можно также создать параметры конфигурации CDR с помощью Windows PowerShell и **комлета New-CsCdrConfiguration.** Этот комлет можно выполнить либо из Skype для бизнеса Server, либо из удаленного сеанса Windows PowerShell. Сведения об использовании удаленных Windows PowerShell для подключения к Skype для бизнеса Server см. в [материале Microsoft Lync Remote PowerShell Administration](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/). Этот процесс в Skype для бизнеса Server.
+Можно также создать параметры конфигурации CDR с помощью Windows PowerShell и **комлета New-CsCdrConfiguration**. Этот комлет можно выполнить либо из Skype для бизнеса Server, либо из удаленного сеанса Windows PowerShell. Сведения об использовании удаленных Windows PowerShell для подключения к Skype для бизнеса Server см. в [материале Microsoft Lync Remote PowerShell Administration](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/). Этот процесс в Skype для бизнеса Server.
   
 ### <a name="to-create-a-new-collection-of-cdr-configuration-settings"></a>Создание новой коллекции параметров конфигурации CDR
 
@@ -86,4 +81,4 @@ ms.locfileid: "60841251"
   New-CsCdrConfiguration -Identity "site:Redmond" -KeepCallDetailForDays 30 -KeepErrorReportForDays 90
   ```
 
-Дополнительные сведения см. в разделе Справка для [cmdlet New-CsCdrConfiguration.](/powershell/module/skype/new-cscdrconfiguration?view=skype-ps)
+Дополнительные сведения см. в разделе Справка для [cmdlet New-CsCdrConfiguration](/powershell/module/skype/new-cscdrconfiguration?view=skype-ps) .

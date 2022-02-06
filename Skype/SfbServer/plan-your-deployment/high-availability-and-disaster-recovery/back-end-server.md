@@ -1,25 +1,20 @@
 ---
 title: Высокая доступность back End Server в Skype для бизнеса Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: c559aacb-4e1d-4e78-9582-41f966ad418d
-description: Узнайте о вариантах высокой доступности back End Server, поддерживаемых в Skype для бизнеса Server, включая группы доступности AlwaysOn, экземпляры кластера failover AlwaysOn, зеркальное зеркальное отражение баз данных и кластеризация SQL сбой.
-ms.openlocfilehash: 9e7b06fc1894c67d6d4cee1e2ec04bf910181df5
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847182"
+description: 'Узнайте о вариантах высокой доступности back End Server, поддерживаемых в Skype для бизнеса Server, включая группы доступности AlwaysOn, экземпляры кластера failover AlwaysOn, зеркальное зеркальное отражение баз данных и кластеризация SQL сбой.'
 ---
+
 # <a name="back-end-server-high-availability-in-skype-for-business-server"></a>Высокая доступность back End Server в Skype для бизнеса Server
  
 Узнайте о вариантах высокой доступности back End Server, поддерживаемых в Skype для бизнеса Server, включая группы доступности AlwaysOn, экземпляры кластера failover AlwaysOn, зеркальное зеркальное отражение баз данных и кластеризация SQL сбой.
@@ -56,7 +51,7 @@ Skype для бизнеса Server поддерживает зеркальное
     
 
 > [!NOTE]
-> SQL Зеркальное зеркальное Skype для бизнеса Server 2015 г., но больше не поддерживается Skype для бизнеса Server 2019 г. Единственными поддерживаемыми вариантами с Skype для бизнеса Server 2019 г. являются группы доступности AlwaysOn, экземпляры кластеров неудачной передачи alwaysOn и SQL кластеры неудачной работы.
+> SQL зеркальное отражение доступно в Skype для бизнеса Server 2015 г., но больше не поддерживается Skype для бизнеса Server 2019 г. Единственными поддерживаемыми вариантами с Skype для бизнеса Server 2019 г. являются группы доступности AlwaysOn, экземпляры кластеров неудачной передачи alwaysOn и SQL кластеры неудачной работы.
     
 Асинхронное зеркальное зеркальное отражение базы данных не поддерживается для высокой доступности back End Server в Skype для бизнеса Server. В остальной части этого документа зеркальное отражение баз данных означает синхронное зеркальное отражение базы данных, если не указано иное. 
   
@@ -78,9 +73,9 @@ Skype для бизнеса Server поддерживает зеркальное
     
 - На основном и зеркальном ресурсах должен быть установлен один и тот же выпуск SQL Server. На ресурсе-свидетеле может быть установлен другой выпуск.
     
-Для SQL с точки зрения того, какие SQL версии поддерживаются для [](/sql/database-engine/database-mirroring/database-mirroring-witness) роли свидетеля, см. в библиотека MSDN.
+Для SQL с точки зрения того, какие SQL версии поддерживаются для роли свидетеля, см. в библиотека MSDN.[](/sql/database-engine/database-mirroring/database-mirroring-witness)
   
-Перед настройкой зеркального зеркального сервера сначала необходимо правильно настроить SQL базы данных. Подробные сведения см. в материале "Настройка учетных записей входа для зеркального зеркального учета баз данных или [групп доступности AlwaysOn (SQL Server)".](/sql/database-engine/database-mirroring/set-up-login-accounts-database-mirroring-always-on-availability)
+Перед настройкой зеркального зеркального сервера сначала необходимо правильно настроить SQL базы данных. Подробные сведения см. в материале "Настройка учетных записей входа для зеркального зеркального доступа к базам данных или [групп доступности AlwaysOn (SQL Server)"](/sql/database-engine/database-mirroring/set-up-login-accounts-database-mirroring-always-on-availability).
   
 При использовании зеркального отображения SQL режим восстановления базы данных всегда задан как **Полный**, т. е. вы должны регулярно внимательно следить за размером журнала транзакций и журналов транзакций резервного копирования, чтобы предотвратить нехватку места на диске на фоновых серверах. Частота резервного копирования журналов транзакций зависит от скорости роста журналов, которая в свою очередь зависит от транзакций баз данных в результате действий пользователей в пуле переднего плана. Рекомендуется определить ожидаемую скорость роста журналов для полезной нагрузки развертывания Lync, чтобы вы могли правильно провести планирование. В следующих статьях представлены дополнительные сведения об управлении резервным копированием и журналами SQL:
   
@@ -88,7 +83,7 @@ Skype для бизнеса Server поддерживает зеркальное
 > Использование topology Builder или cmdlets для SQL зеркального зеркального SQL поддерживается только в том случае, если первичные, зеркальные и свидетельские (при желании) серверы относятся к одному домену. Если необходимо настроить зеркальное отображение SQL для серверов в других доменах, см. документацию по SQL Server. 
 
 > [!NOTE]
-> SQL Зеркальное зеркальное Skype для бизнеса Server 2015 г., но больше не поддерживается Skype для бизнеса Server 2019 г. В 2019 г. предпочтительны группы доступности AlwaysOn, экземпляры кластера неудачной передачи alwaysOn и SQL Skype для бизнеса Server кластеризация неудачи.
+> SQL зеркальное отражение доступно в Skype для бизнеса Server 2015 г., но больше не поддерживается Skype для бизнеса Server 2019 г. В 2019 г. предпочтительны группы доступности AlwaysOn, экземпляры кластера неудачной передачи alwaysOn и SQL Skype для бизнеса Server кластеризация неудачи.
   
 ### <a name="recovery-time-for-automatic-back-end-server-failover-with-database-mirroring"></a>Время восстановления при автоматическом сбойе back End Server с зеркальным отражением базы данных
 
@@ -132,14 +127,14 @@ Skype для бизнеса Server поддерживает AlwaysOn с помо
 > SQL Server 2019, 2017 и 2016 являются единственными версиями, поддерживаемыми Skype для бизнеса Server 2019.
 
 > [!NOTE]
-> Always On Availability  Groups не поддерживается в SQL 2016, 2017 и 2019 стандартных выпусках, но можно использовать экземпляры кластера Always On Failover. Дополнительные новости см. в выпуске [Editions и поддерживаемых SQL Server 2016](/sql/sql-server/editions-and-components-of-sql-server-2016?view=sql-server-2017) г.
+> Always On Availability Groups не  поддерживается в SQL 2016, 2017 и 2019 стандартных выпусках, но можно использовать экземпляры кластера Always On Failover. Дополнительные новости см. в выпуске [Editions и поддерживаемых SQL Server 2016](/sql/sql-server/editions-and-components-of-sql-server-2016?view=sql-server-2017).
   
 > [!IMPORTANT]
 > Имена экземпляров для нескольких экземпляров группы доступности AlwaysOn должны быть одинаковыми. 
   
-Действия по развертыванию групп доступности AlwaysOn см. в примере Развертывание группы доступности AlwaysOn на сервере back [end в Skype для бизнеса Server.](../../deploy/deploy-high-availability-and-disaster-recovery/alwayson-availability-group.md)
+Действия по развертыванию групп доступности AlwaysOn см. в статью [Развертывание группы доступности AlwaysOn](../../deploy/deploy-high-availability-and-disaster-recovery/alwayson-availability-group.md) на сервере back end в Skype для бизнеса Server.
   
-## <a name="sql-server-failover-clustering"></a>SQL Server Кластеризация failover
+## <a name="sql-server-failover-clustering"></a>SQL Server кластеризация failover
 
 Skype для бизнеса Server поддерживает кластеризация SQL Server с помощью следующего программного обеспечения базы данных:
   
@@ -153,11 +148,11 @@ Skype для бизнеса Server поддерживает кластериза
     
 - SQL Server 2012 sp2 и CU2, как выпуск Enterprise, так и выпуск Standard
 
-Чтобы использовать SQL кластеров, необходимо сначала настроить и настроить кластер SQL Server перед развертыванием пула переднего конца. В 2012 г. см. инструкции по настройке кластеров для неудачной работы SQL Server 2012 [https://technet.microsoft.com/library/hh231721.aspx](/sql/sql-server/failover-clusters/install/sql-server-failover-cluster-installation) г.
+Чтобы использовать SQL кластеров, необходимо сначала настроить и настроить кластер SQL Server перед развертыванием пула переднего конца. В 2012 г. см. инструкции по настройке кластеров для неудачной работы SQL Server 2012 г[https://technet.microsoft.com/library/hh231721.aspx](/sql/sql-server/failover-clusters/install/sql-server-failover-cluster-installation).
 
 > [!NOTE]
 > SQL Server 2019, 2017 и SQL Server 2016 являются единственными версиями, поддерживаемыми Skype для бизнеса Server 2019.
     
-Чтобы использовать SQL кластеров, необходимо сначала настроить и настроить кластер SQL Server перед развертыванием пула переднего конца. Лучшие практики и инструкции по настройке кластеров неудачной работы в SQL Server 2014 и 2016 годах [https://technet.microsoft.com/library/hh231721.aspx](/sql/sql-server/failover-clusters/install/sql-server-failover-cluster-installation) см. в . Кластеризация неудачи в SQL Server 2008 г. [https://technet.microsoft.com/library/ms189134(v=sql.105).aspx](/previous-versions/sql/sql-server-2008-r2/ms189134(v=sql.105)) см. в .
+Чтобы использовать SQL кластеров, необходимо сначала настроить и настроить кластер SQL Server перед развертыванием пула переднего конца. Лучшие практики и инструкции по настройке кластеров неудачной работы в SQL Server 2014 и 2016 [https://technet.microsoft.com/library/hh231721.aspx](/sql/sql-server/failover-clusters/install/sql-server-failover-cluster-installation)годах см. в . Кластеризация неудачи в SQL Server 2008 г[https://technet.microsoft.com/library/ms189134(v=sql.105).aspx](/previous-versions/sql/sql-server-2008-r2/ms189134(v=sql.105)). см. в .
   
 При установке SQL Server необходимо установить SQL Server Management Studio для управления расположениями баз данных и расположения файлов журналов. SQL Server Management Studio устанавливается как необязательный компонент при установке SQL Server.
