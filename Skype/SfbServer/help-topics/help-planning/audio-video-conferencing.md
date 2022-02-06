@@ -1,29 +1,24 @@
 ---
-title: Skype для бизнеса Server Средство планирования аудио-видеоконференций
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: Skype для бизнеса Server средства планирования аудио-видеоконференций
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 4/6/2016
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.plan.AV
-- ms.lync.plan.AV
+  - ms.lync.plan.AV
+  - ms.lync.plan.AV
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 466f5d2e-0e70-434c-8318-dfdefe679a31
 description: Skype для бизнеса Server 2015 аудио- и видеоконференции позволяют пользователям участвовать в аудио- или видеоконференции в режиме реального времени.
-ms.openlocfilehash: a74a6c5fca942fcbbfc0c2d73af5e32e3f9979dc
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60832263"
 ---
-# <a name="skype-for-business-server-audio-video-conferencing-planning-tool"></a>Skype для бизнеса Server Средство планирования аудио-видеоконференций
+
+# <a name="skype-for-business-server-audio-video-conferencing-planning-tool"></a>Skype для бизнеса Server средства планирования аудио-видеоконференций
  
 Skype для бизнеса Server 2015 аудио- и видеоконференции позволяют пользователям участвовать в аудио- или видеоконференции в режиме реального времени.
   

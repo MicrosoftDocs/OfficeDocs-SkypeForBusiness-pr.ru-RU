@@ -1,24 +1,19 @@
 ---
 title: Настройка интеграции с сервером Office приложений в Skype для бизнеса Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: b7e9149e-bf16-4120-afe0-3ee09c88f5eb
-description: Сводка. Ознакомьтесь с этой темой, чтобы узнать, как настроить интеграцию между сервером Office и сервером Skype для бизнеса Server, чтобы включить PowerPoint презентации для веб-конференций.
-ms.openlocfilehash: 291e246651a5c4f909f2e739e76de65d8c983c5b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835957"
+description: 'Сводка. Ознакомьтесь с этой темой, чтобы узнать, как настроить интеграцию между сервером Office и сервером Skype для бизнеса Server, чтобы включить PowerPoint презентации для веб-конференций.'
 ---
+
 # <a name="configure-integration-with-office-web-apps-server-in-skype-for-business-server"></a>Настройка интеграции с сервером Office приложений в Skype для бизнеса Server
  
 **Сводка:** Ознакомьтесь с этой темой, чтобы узнать, как настроить интеграцию между сервером Office и сервером Skype для бизнеса Server, чтобы включить PowerPoint презентации для веб-конференциации.
@@ -30,7 +25,7 @@ Skype для бизнеса Server использует сервер Office пр
 После Office успешного установки сервера веб-приложений и правильной настройки веб-фермы необходимо настроить Skype для бизнеса Server для связи с новым сервером, добавив URL-адрес обнаружения Office Web Apps Server в топологию Skype для бизнеса Server. 
   
 > [!NOTE]
-> Последняя итерация Office web Apps Server называется Office Online Server, которая поддерживается Skype для бизнеса Server. Дополнительные подробности можно найти в Office Online Server [документации.](/officeonlineserver/office-online-server) 
+> Последняя итерация Office web Apps Server называется Office Online Server, которая поддерживается Skype для бизнеса Server. Дополнительные подробности можно найти в Office Online Server [документации](/officeonlineserver/office-online-server). 
   
 ## <a name="configure-skype-for-business-server-to-communicate-with-office-web-apps-server"></a>Настройка Skype для бизнеса Server для связи с Office сервером веб-приложений
 
@@ -42,13 +37,13 @@ Skype для бизнеса Server использует сервер Office пр
     
 3. В диалоговом окне **Сохранить топологию как** введите имя документа топологии (например, **PreWebAppsServerTopology**) в поле **Имя файла**, а затем щелкните **Сохранить**. Затем можно будет восстановить и повторно опубликовать эту топологию в случае возникновения проблем с новой топологией.
     
-4. В Topology Builder **Skype для бизнеса Server,** расширите имя сайта, расширите выпуск Enterprise пулы переднего **конца,** щелкните правой кнопкой мыши имя одного из пулов, а затем нажмите кнопку **Изменить свойства**.
+4. В Topology Builder Skype для бизнеса Server, расширите имя сайта, расширите выпуск Enterprise пулы переднего **конца,** щелкните правой кнопкой мыши имя одного из пулов и нажмите кнопку **Изменить свойства**.
     
 5. В диалоговом окне **Изменить свойства** на вкладке **Общие** найдите заголовок **Связать сервер Office Web Apps**, а затем щелкните **Создать** (или выберите существующий сервер Office Web Apps в раскрывающемся списке).
     
 6. В диалоговом окне **Указать новый сервер Office Web Apps** введите полное доменное имя (FQDN) сервера Office Web Apps в поле **Полное доменное имя сервера Office Web Apps**; при этом URL-адрес обнаружения сервера Office Web Apps должен автоматически отобразиться в поле **URL-адрес обнаружения сервера Office Web Apps**.
     
-   - Если сервер Office веб-приложений установлен локально и в той же сетевой зоне, что и Skype для бизнеса Server, то параметр Office сервер веб-приложений развертывается во внешней сети (то есть периметре **или Интернете)** не следует выбирать.
+   - Если сервер Office веб-приложений установлен локально и в той же сетевой зоне, что и Skype для бизнеса Server, то параметр Office Web **Apps Server** развертывается во внешней сети (то есть периметре или Интернете) не следует выбирать.
     
    - Если сервер Office Web Apps развернут за пределами внутреннего брандмауэра, выберите параметр **Сервер Office Web Apps развернут во внешней сети (то есть в периметре/Интернете)**.
     
@@ -80,15 +75,15 @@ Skype для бизнеса Server использует сервер Office пр
   
  **Успешное открытие веб-Office сервера веб-Office серверов веб-приложений.**
   
- **Office Страница внутреннего презента web Apps Server: https://atl-officewebapps-001.litwareinc.com/m/Presenter.aspx?a=0&amp ;embed=**
+ **Office веб-приложения сервер внутренних presenter страницы: https://atl-officewebapps-001.litwareinc.com/m/Presenter.aspx?a=0&amp;embed=**
   
- **Office Страница внутреннего участника Web Apps Server: https://atl-officewebapps-001.litwareinc.com/m/ParticipantFrame.aspx?a=0&amp ;embed=true&amp;=**
+ **Office веб-приложения Сервер внутренних участников страницы: https://atl-officewebapps-001.litwareinc.com/m/ParticipantFrame.aspx?a=0&amp;embed=true&amp;=**
   
 Если у вас есть настроенный доступ для внешних пользователей, вы также увидите что-то похожее на:
   
- **Office Страница внешнего презентера Web Apps Server: https://atl-officewebapps-001.litwareinc.com/m/Presenter.aspx?a=0&amp ;embed**
+ **Office веб-приложения Сервер внешний presenter страница: https://atl-officewebapps-001.litwareinc.com/m/Presenter.aspx?a=0&amp;embed**
   
- **Office Страница внутреннего участника Web Apps Server: <https://atl-officewebapps-001.litwareinc.com/m/ParticipantFrame.aspx?a=0&amp;embed=true&amp> ;**
+ **Office веб-приложений Сервер внутренних участников страницы: <https://atl-officewebapps-001.litwareinc.com/m/ParticipantFrame.aspx?a=0&amp;embed=true&amp>;**
   
 Если событие LS Data MCU отображается с идентификатором события 41033, это означает, что произошел сбой обнаружения сервера Office Web Apps Server. В этом случае Skype для бизнеса Server будет пытаться столько раз, сколько необходимо, чтобы обнаружить недавно настроенный сервер Office веб-приложений. Если происходит многократный сбой процесса обнаружения, следует удалить сервер Office Web Apps из документа топологии, опубликовать обновленную топологию, а затем снова попробовать добавить сервер Office Web Apps в топологию после устранения неполадок, связанных с подключением.
   

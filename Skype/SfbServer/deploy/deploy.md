@@ -1,29 +1,24 @@
 ---
 title: Развертывание Skype для бизнеса Server 2015 г.
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 0cf43c54-e544-40c5-8659-a876f614a3b3
-description: Сводка. Ознакомьтесь с этими ссылками, чтобы узнать, как установить и настроить Skype для бизнеса Server 2015 г. и обновить более ранние версии Lync Server.
-ms.openlocfilehash: 67643b7f28ea3155c9867dd7a4107e4630ddab15
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60863086"
+description: 'Сводка. Ознакомьтесь с этими ссылками, чтобы узнать, как установить и настроить Skype для бизнеса Server 2015 г. и обновить более ранние версии Lync Server.'
 ---
+
 # <a name="deploy-skype-for-business-server-2015"></a>Развертывание Skype для бизнеса Server 2015 г.
  
 **Сводка:** Ознакомьтесь с этими ссылками, чтобы узнать, как установить и настроить Skype для бизнеса Server 2015 г. и обновить более ранние версии Lync Server.
@@ -35,7 +30,7 @@ Skype для бизнеса Server предлагает решения для о
 
 Дополнительные сведения о развертывании Skype для бизнеса Server.
   
-|&nbsp;|Контентная|Description|
+|&nbsp;|Содержимое|Описание|
 |:-----|:-----|:-----|
 |![Значок для технических схем.](../media/87de0d09-77fd-46f2-b9f6-99a7998fd332.png)|[Технические схемы Skype для бизнеса Server 2015 г.](../technical-diagrams.md)  |См. краткое описание вариантов архитектуры на этих крупноформатных схемах.   |
 |![Значок для видео.](../media/143e0d86-1c68-482a-9bf9-93e7966acca0.png)|Видео об установке Skype для бизнеса Server - *скоро!*   |Откройте для себя видео-презентации и обучение для Skype для бизнеса Server.   |
@@ -44,7 +39,7 @@ Skype для бизнеса Server предлагает решения для о
 
 Следующие статьи об установке и настройке Skype для бизнеса Server доступны для просмотра в Интернете. 
   
-|&nbsp;|Контентная|Description|
+|&nbsp;|Содержимое|Описание|
 |:-----|:-----|:-----|
 |![Значок для документации.](../media/e4c786ef-1fff-4512-87c5-748543c60222.png)|[Требования к вашей Skype для бизнеса среде](../plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment.md)  |Узнайте о требованиях к серверу и окружающей среде для Skype для бизнеса Server.   |
 |![Значок для документации.](../media/e4c786ef-1fff-4512-87c5-748543c60222.png)|[Основы топологии для Skype для бизнеса Server 2015 г.](../plan-your-deployment/topology-basics/topology-basics.md)  |Узнайте о вариантах топологии и сценариях коллокации сервера для Skype для бизнеса Server.   |
@@ -61,9 +56,9 @@ Skype для бизнеса Server предлагает решения для о
 
 Следующие ресурсы о планировании Skype для бизнеса Server доступны другими специалистами по предметам. 
   
-|&nbsp;|Контентная|Description|
+|&nbsp;|Содержимое|Описание|
 |:-----|:-----|:-----|
 |![Значок для docs.](../media/4eff581b-890b-46cb-8224-a4122137d27e.png)|[Skype для бизнеса Server для ИТ-специалистов](../../Hub/index.yml)  |Посетите центр ресурсов, чтобы получить доступ к видео, сайтам сообщества, документации, загрузкам и более.   |
-|![Значок для контента разработчика.](../media/3626138a-2778-407e-911f-a0dcbdc36684.png)|[Skype Платформа разработчика](/skype-sdk/skypedeveloperplatform)  |Найдите ресурсы разработчика для Skype для бизнеса Server, включая примеры кода, обучение и SDKs.   |
+|![Значок для контента разработчика.](../media/3626138a-2778-407e-911f-a0dcbdc36684.png)|[Skype платформа разработчиков](/skype-sdk/skypedeveloperplatform)  |Найдите ресурсы разработчика для Skype для бизнеса Server, включая примеры кода, обучение и SDKs.   |
 |![Значок для новостей, блогов и так далее.](../media/ac692cb8-7db8-4810-b53f-1bc88b1e4cac.png) | [Управление изменениями и принятие](https://go.microsoft.com/fwlink/p/?LinkId=532796) <br/> [Блоги Office](https://go.microsoft.com/fwlink/p/?LinkId=528899)   <br/> [Skype блога группы](https://go.microsoft.com/fwlink/p/?LinkId=532818)  |Следите за новостями из групп, создав и Skype для бизнеса Server.   |
 

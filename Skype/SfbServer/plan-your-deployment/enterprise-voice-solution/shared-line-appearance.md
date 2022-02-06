@@ -1,29 +1,24 @@
 ---
 title: Планирование появления общих строк в Skype для бизнеса Server 2015 г.
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/21/2016
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 6356aad4-700d-495c-8fc8-58eb1d4f6f18
-description: Ознакомьтесь с этой темой, чтобы узнать, как планировать появление общих строк в Skype для бизнеса Server 2015 г., ноябрь 2015 г. Накопительное обновление.
-ms.openlocfilehash: 9400a4a68c992c822162be3a5f84ea4a9d0ede31
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847212"
+description: 'Ознакомьтесь с этой темой, чтобы узнать, как планировать появление общих строк в Skype для бизнеса Server 2015 г., ноябрь 2015 г. Накопительное обновление.'
 ---
+
 # <a name="plan-for-shared-line-appearance-in-skype-for-business-server-2015"></a>Планирование появления общих строк в Skype для бизнеса Server 2015 г.
  
 Ознакомьтесь с этой темой, чтобы узнать, как планировать появление общих строк в Skype для бизнеса Server 2015 г., ноябрь 2015 г. Накопительное обновление. 
@@ -42,7 +37,7 @@ SLA поддерживается только на следующих телеф
     
 SLA — это новая функция в Skype для бизнеса Server, ноябрь 2015 г. Накопительное обновление. 
   
-Сведения о развертывании SLA см. в раздел Развертывание общих строк [в Skype для бизнеса Server 2015 г.](../../deploy/deploy-enterprise-voice/deploy-shared-line-appearance.md)
+Сведения о развертывании SLA см. в раздел Развертывание общих строк [в Skype для бизнеса Server 2015 г](../../deploy/deploy-enterprise-voice/deploy-shared-line-appearance.md).
   
 ## <a name="feature-list"></a>Список функций
 

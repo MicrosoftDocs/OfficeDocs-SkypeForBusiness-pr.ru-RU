@@ -1,41 +1,35 @@
 ---
 title: Microsoft Teams отчет об использовании трансляций
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: svemu
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
-- M365-collaboration
-description: Узнайте, как с помощью Teams использования трансляций в Центре администрирования Microsoft Teams, чтобы получить обзор Teams трансляций в вашей организации.
+  - M365-collaboration
+description: 'Узнайте, как с помощью Teams использования трансляций в Центре администрирования Microsoft Teams, чтобы получить обзор Teams трансляций в вашей организации.'
 appliesto:
-- Microsoft Teams
+  - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2e2b9d4a9f60b905e03ee27397e24feb74ac3c17
-ms.sourcegitcommit: b3b295557d494f77a7ebd9f49ec55f2507da956c
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/22/2021
-ms.locfileid: "61135232"
 ---
 # <a name="microsoft-teams-live-event-usage-report"></a>Microsoft Teams отчет об использовании трансляций
 
-В Teams использования трансляций в Центре администрирования Microsoft Teams вы можете получить обзор действий для трансляций, которые проводятся в вашей организации. Для каждого события можно просмотреть сведения об использовании, включая состояние события, время начала, представления и тип продукции. Вы можете получить представление о тенденциях использования и посмотреть, кто в вашей организации будет планировать, представлять и создавать трансляции.
+В Teams использования трансляций в Центре администрирования Microsoft Teams вы можете получить обзор действий с трансляций, которые проводятся в вашей организации. Для каждого события можно просмотреть сведения об использовании, включая состояние события, время начала, представления и тип продукции. Вы можете получить представление о тенденциях использования и посмотреть, кто в вашей организации будет планировать, представлять и создавать трансляции.
 
 ## <a name="view-the-live-event-usage-report"></a>Просмотр отчета об использовании трансляций
 
-1. В левой области навигации Центра администрирования Microsoft Teams нажмите кнопку Аналитика & **отчеты об** использовании  >  . На **вкладке Просмотр отчетов** в области **Отчет** выберите Teams **использования трансляций**.
+1. В левой области навигации Центра администрирования Microsoft Teams нажмите кнопку **Аналитика** & отчетыИспользование  > **отчетов**. На **вкладке Просмотр отчетов** в области **Отчет** выберите Teams **трансляции**.
 2. В **области Диапазон дат** выберите предопределяемый диапазон или установите настраиваемый диапазон. Вы можете настроить диапазон для показа данных на год, за шесть месяцев до и после текущей даты.
-3. (Необязательно) В **области** Организатор вы можете показывать только трансляции, организованные определенным пользователем.
+3. (Необязательно) В **области** Организатор можно выбрать показ только трансляций, организованных определенным пользователем.
 4. Нажмите **кнопку Выполнить отчет**.  
 
-   :::image type="content" alt-text="Снимок экрана: Teams использования трансляций в Центре администрирования Teams с помощью перетаксовок." source="../media/teams-live-event-usage-report-with-callouts.png" lightbox="../media/teams-live-event-usage-report-with-callouts.png":::
+   :::image type="content" alt-text="Снимок экрана: Teams об использовании трансляций в Центре администрирования Teams с помощью перетаксовок." source="../media/teams-live-event-usage-report-with-callouts.png" lightbox="../media/teams-live-event-usage-report-with-callouts.png":::
 
 ## <a name="interpret-the-report"></a>Толкование отчета
 
@@ -60,7 +54,7 @@ ms.locfileid: "61135232"
 
 :::image type="content" alt-text="Снимок экрана: подробные сведения о трансляции." source="../media/teams-live-event-usage-report-event-detail.png" lightbox="../media/teams-live-event-usage-report-event-detail.png":::
 
-Если в вашей [](https://www.hivestreaming.com/partners/integration-partners/microsoft/) организации включена возможность ECDN или [Kollective](https://kollective.com) eCDN, вы можете получить дополнительную аналитику участников, щелкнув ссылку отчета о партнере.
+Если в вашей организации включена [](https://www.hivestreaming.com/partners/integration-partners/microsoft/) возможность ECDN или [Kollective](https://kollective.com) eCDN, вы можете получить дополнительную аналитику участников, щелкнув ссылку отчета о партнере.
 
 ## <a name="related-topics"></a>Статьи по теме
 

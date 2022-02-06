@@ -1,28 +1,23 @@
 ---
 title: Определите требования к вызовам экстренных служб в Skype для бизнеса Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: d891a212-8ad9-4bfa-9ca7-04921c46fb45
-description: Суммирует действия, необходимые для включения E9-1-1 в Skype для бизнеса Server Корпоративная голосовая связь, в зависимости от того, есть ли у вас поставщик услуг SIP-1-1 или шлюз ELIN.
-ms.openlocfilehash: 5bb4d4ba27d48118ed28c4a687105dbf5c685013
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857286"
+description: 'Суммирует действия, необходимые для включения E9-1-1 в Skype для бизнеса Server Корпоративная голосовая связь, в зависимости от того, есть ли у вас поставщик услуг SIP-1-1 или шлюз ELIN.'
 ---
+
 # <a name="define-your-requirements-for-emergency-calls-in-skype-for-business-server"></a>Определите требования к вызовам экстренных служб в Skype для бизнеса Server
  
 Суммирует действия, необходимые для включения E9-1-1 в Skype для бизнеса Server Корпоративная голосовая связь, в зависимости от того, есть ли у вас поставщик услуг SIP-1-1 или шлюз ELIN.

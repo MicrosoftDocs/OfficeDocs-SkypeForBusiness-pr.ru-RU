@@ -1,29 +1,24 @@
 ---
-title: Skype для бизнеса Server Средство планирования директора
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: Skype для бизнеса Server director planning tool
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 4/8/2016
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.plan.Director
-- ms.lync.plan.Director
+  - ms.lync.plan.Director
+  - ms.lync.plan.Director
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 02795b46-21ec-4a85-9890-959c91d97df3
-description: Director — это сервер, на Skype для бизнеса Server 2015 г., который может проверить подлинность запросов пользователей, но не имеет учетных записей пользователей.
-ms.openlocfilehash: d96ba36f98bb6ef2fb3d70dec2b700e916008a9a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840181"
+description: 'Director — это сервер, на Skype для бизнеса Server 2015 г., который может проверить подлинность запросов пользователей, но не имеет учетных записей пользователей.'
 ---
-# <a name="skype-for-business-server-director-planning-tool"></a>Skype для бизнеса Server Средство планирования директора
+
+# <a name="skype-for-business-server-director-planning-tool"></a>Skype для бизнеса Server director planning tool
  
 Director — это сервер, на Skype для бизнеса Server 2015 г., который может проверить подлинность запросов пользователей, но не имеет учетных записей пользователей. 
   

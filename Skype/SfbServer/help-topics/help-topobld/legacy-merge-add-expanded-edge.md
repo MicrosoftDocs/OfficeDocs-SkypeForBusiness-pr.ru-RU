@@ -1,27 +1,22 @@
 ---
 title: Добавление пограничного сервера расширенной конфигурации при объединении с устаревшей версией
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.LegacyMergeAddExpandedEdgePage
+  - ms.lync.tb.LegacyMergeAddExpandedEdgePage
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 324349df-ff11-40b5-93cf-4504e18b8985
 description: Skype для бизнеса Server не поддерживает объединение устаревшей конфигурации Office communications Server 2007 R2. Расширенный пограничный сервер должен быть преобразован в консолидированную конфигурацию пограничного сервера перед объединением данных пограничного сервера.
-ms.openlocfilehash: 140fc4212ae4d5b454b0957d0b86b3b7ab9bf37a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847672"
 ---
+
 # <a name="legacy-merge-add-expanded-edge"></a>Добавление пограничного сервера расширенной конфигурации при объединении с устаревшей версией
  
 Skype для бизнеса Server не поддерживает объединение устаревшей конфигурации Office communications Server 2007 R2. Расширенный пограничный сервер должен быть преобразован в консолидированную конфигурацию пограничного сервера перед объединением данных пограничного сервера. 

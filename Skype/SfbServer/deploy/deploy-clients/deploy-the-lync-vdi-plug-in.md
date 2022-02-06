@@ -1,38 +1,33 @@
 ---
 title: Развертывание плагина VDI Lync с помощью Skype для бизнеса Server
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: krishra
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 11d3bd5d-6dd3-471c-b842-b072fa197714
 description: В этом разделе обсуждаются процедуры развертывания для Skype для бизнеса при подключении к удаленному виртуальному рабочему столу.
-ms.openlocfilehash: 853bcfcc41d058983c0aabb2868351f1f59de08e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840571"
 ---
+
 # <a name="deploy-the-lync-vdi-plug-in-with-skype-for-business-server"></a>Развертывание плагина VDI Lync с помощью Skype для бизнеса Server
  
-В этом разделе обсуждаются процедуры развертывания для Skype для бизнеса при подключении к удаленному виртуальному рабочему столу. Вопросы планирования рассматриваются в [plan for Skype для бизнеса в средах VDI.](../../plan-your-deployment/clients-and-devices/vdi-environments.md)
+В этом разделе обсуждаются процедуры развертывания для Skype для бизнеса при подключении к удаленному виртуальному рабочему столу. Вопросы планирования рассматриваются в [plan for Skype для бизнеса в средах VDI](../../plan-your-deployment/clients-and-devices/vdi-environments.md).
   
 Среда инфраструктура виртуальных рабочих столов (VDI) используется в некоторых организациях, где вопросы безопасности и соответствия требованиям являются особенно чувствительными. Их пользователи находятся на локальных Windows компьютерах и используют клиентов на виртуальном рабочем столе. Использование Skype для бизнеса подключения, которое требует дополнительного программного обеспечения плагина VDI.
   
 Для компонента плагина VDI доступны два решения: одно, предложенное Корпорацией Майкрософт, и одно, предложенное Citrix. Корпорация Майкрософт рекомендует использовать новое решение пакета оптимизации hdX в реальном времени в новых развертываниях, но будет продолжать поддерживать исходный VDI-плагин Lync для оставшегося жизненного цикла. 
   
-В этом разделе приводится подробная информация о развертывании плагина Microsoft Lync VDI, который поддерживается только на Windows 7 и Windows 8 или Windows Server 2008 и поддерживает только Lync 2013 или Skype для бизнеса клиентов. Обновление этого плагина не планируется, но пакет оптимизации [citrix HDX](../../plan-your-deployment/clients-and-devices/vdi-environments.md#Citrix_RT) в реальном времени для Skype для бизнеса будет обновляться по мере необходимости.
+В этом разделе приводится подробная информация о развертывании плагина Microsoft Lync VDI, который поддерживается только на Windows 7 и Windows 8 или Windows Server 2008 и поддерживает только Lync 2013 или Skype для бизнеса клиентов. Обновление этого плагина не планируется, но пакет оптимизации реального времени [Citrix HDX](../../plan-your-deployment/clients-and-devices/vdi-environments.md#Citrix_RT) для Skype для бизнеса будет обновляться по мере необходимости.
   
 ## <a name="prepare-your-environment-for-the-lync-vdi-plug-in"></a>Подготовка среды для плагина Lync VDI
 <a name="Prepare_vdi"> </a>
 
-1. В Skype для бизнеса Server убедитесь, что enableMediaRedirection установлен для TRUE для всех пользователей плагина Lync VDI. Подробные сведения см. в разделе Справка для cmdlet [New-CsClientPolicy](/powershell/module/skype/new-csclientpolicy?view=skype-ps) и [cmdlet Set-CsClientPolicy.](/powershell/module/skype/set-csclientpolicy?view=skype-ps)
+1. В Skype для бизнеса Server убедитесь, что enableMediaRedirection установлен для TRUE для всех пользователей плагина Lync VDI. Подробные сведения см. в разделе Справка для cmdlet [New-CsClientPolicy](/powershell/module/skype/new-csclientpolicy?view=skype-ps) и [cmdlet Set-CsClientPolicy](/powershell/module/skype/set-csclientpolicy?view=skype-ps) .
     
 2. На сервере центра обработки данных установите Skype для бизнеса на всех виртуальных настольных компьютерах.
     
@@ -45,7 +40,7 @@ ms.locfileid: "60840571"
 
 Чтобы подготовить удаленное подключение к рабочему столу для плагина Lync VDI, выполните следующие действия на локальном компьютере:
   
-1. Если локальный компьютер работает Windows 8, пропустите этот шаг. Если локальный компьютер работает Windows 7 с sp1, установите последнюю версию Windows 8 клиента удаленных настольных [служб.](/windows-server/remote/remote-desktop-services/clients/remote-desktop-clients)
+1. Если локальный компьютер работает Windows 8, пропустите этот шаг. Если локальный компьютер работает Windows 7 с sp1, установите последнюю версию Windows 8 клиента [удаленных настольных служб](/windows-server/remote/remote-desktop-services/clients/remote-desktop-clients).
     
 2. Запустите клиент служб удаленных рабочих столов, выбрав в меню **Пуск** пункт **Подключение к удаленному рабочему столу**.
     
@@ -61,7 +56,7 @@ ms.locfileid: "60840571"
     
 5. Перейдите на вкладку **Experience** (Взаимодействие). В разделе **Performance** (Производительность) снимите флажок **Persistent bitmap caching** (Постоянное кэширование точечных рисунков).
     
-6. Щелкните **вкладку General.** В **компьютере** введите имя виртуального рабочего стола, а затем **нажмите кнопку Подключение**. 
+6. Щелкните **вкладку General**. В **компьютере** введите имя виртуального рабочего стола и нажмите **кнопку Подключение**. 
     
 ## <a name="sign-in-and-use-skype-for-business-on-the-virtual-desktop"></a>Вход и использование Skype для бизнеса на виртуальном рабочем столе
 <a name="SfB_signin"> </a>

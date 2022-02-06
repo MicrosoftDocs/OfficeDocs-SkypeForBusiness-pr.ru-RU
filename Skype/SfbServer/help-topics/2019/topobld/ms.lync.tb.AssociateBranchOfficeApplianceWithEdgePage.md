@@ -1,27 +1,22 @@
 ---
 title: Сопоставление устройства для обеспечения связи в филиалах с пограничным сервером
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.AssociateBranchOfficeApplianceWithEdgePage
+  - ms.lync.tb.AssociateBranchOfficeApplianceWithEdgePage
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 3f02e4bd-f86f-4a84-9c04-28d2a53b10b1
-ROBOTS: NOINDEX, NOFOLLOW
-description: Если развернуты edge Servers и вам необходимо предоставить службы мультимедиа для внешнего использования, выберите edge Server или пул, который будет связан с устройством для ветвей или уцелевшим сервером, выбрав его в выпадаемом списке. Для продолжения нажмите кнопку Далее.
-ms.openlocfilehash: b38a5e223d1429eb59922fa22ab4523f744d4a21
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60836771"
+ROBOTS: 'NOINDEX, NOFOLLOW'
+description: 'Если развернуты edge Servers и вам необходимо предоставить службы мультимедиа для внешнего использования, выберите edge Server или пул, который будет связан с устройством для ветвей или уцелевшим сервером, выбрав его в выпадаемом списке. Для продолжения нажмите кнопку Далее.'
 ---
+
 # <a name="associate-branch-office-appliance-with-edge"></a>Связывание устройства для обеспечения связи в филиалах с пограничным сервером
  
 Если развернуты edge Servers и вам необходимо предоставить службы мультимедиа для внешнего использования, выберите edge Server или пул, который будет связан с устройством для ветвей или уцелевшим сервером, выбрав его в выпадаемом списке. Для продолжения нажмите кнопку **Далее**.

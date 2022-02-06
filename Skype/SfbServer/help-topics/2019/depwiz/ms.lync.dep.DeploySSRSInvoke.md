@@ -1,27 +1,22 @@
 ---
 title: Службы SQL Server Reporting Services (вызов)
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.dep.DeploySSRSInvoke
+  - ms.lync.dep.DeploySSRSInvoke
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: 4a4ba8d6-ba43-45b3-b834-372d092561e7
-ROBOTS: NOINDEX, NOFOLLOW
-description: После поставки необходимых сведений для развертывания отчетов monitoring Server в R2 Microsoft SQL Server 2008 или службе отчетов Microsoft SQL Server 2012 г. на странице Исполняйте команды отображается сводка команд, выдающихся для установки отчетов в SQL Server Reporting Services.
-ms.openlocfilehash: 6ba343e31df4fbf5c29b90dbebd26c7c008732b6
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60860776"
+ROBOTS: 'NOINDEX, NOFOLLOW'
+description: 'После поставки необходимых сведений для развертывания отчетов Monitoring Server в R2 Microsoft SQL Server 2008 или в службы отчетов Microsoft SQL Server 2012 г. на странице Execute Commands отображается сводка команд, выдающихся для установки отчетов в SQL Server Reporting Services .'
 ---
+
 # <a name="sql-server-reporting-services-invoke"></a>Службы SQL Server Reporting Services (вызов)
  
 После поставки необходимых сведений для развертывания отчетов monitoring Server в службы Microsoft SQL Server отчетов на странице Исполняйте команды отображается сводка команд, выдающихся для установки отчетов в SQL Server Reporting Services.
@@ -31,4 +26,4 @@ ms.locfileid: "60860776"
 > [!IMPORTANT]
 > Для успешного развертывания отчетов служб отчетности и получения доступа к отчетам после завершения развертывания необходимо иметь TCP/IP-порт 80 (и необязательно порт TCP 443 для SSL, если вы назначите сертификат службам отчетности), открытый в брандмауэре Windows с расширенными службами безопасности на SQL Server. Подробные сведения см. в Windows брандмауэра для SQL Server [доступа](/sql/sql-server/install/configure-the-windows-firewall-to-allow-sql-server-access) Microsoft SQL Server R2 2008.
   
-После просмотра сводки нажмите кнопку **Готово,** чтобы завершить установку отчетов в SQL Server Reporting Services.
+После просмотра сводки щелкните **Готово**, чтобы завершить установку отчетов в SQL Server Reporting Services.

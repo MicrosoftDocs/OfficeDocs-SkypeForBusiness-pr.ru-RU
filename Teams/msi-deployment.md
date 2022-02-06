@@ -1,7 +1,7 @@
 ---
 title: Установите Microsoft Teams с помощью Microsoft Endpoint Configuration Manager
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -11,20 +11,15 @@ description: Используйте Microsoft Endpoint Configuration Manager д�
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.collection:
-- M365-collaboration
-- m365initiative-deployteams
+  - M365-collaboration
+  - m365initiative-deployteams
 ms.custom: seo-marvel-apr2020
 appliesto:
-- Microsoft Teams
-ms.openlocfilehash: 4a26970bdef120ae6b6ba80fac80838320a06fd7
-ms.sourcegitcommit: 8d728ca42dc917a28b94e2de84ce4f5b2515d485
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 12/15/2021
-ms.locfileid: "61513510"
+  - Microsoft Teams
 ---
+
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>Установите Microsoft Teams с помощью Microsoft Endpoint Configuration Manager
 
 > [!Tip]

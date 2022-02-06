@@ -1,29 +1,24 @@
 ---
 title: Интеграция Skype для бизнеса Online и Exchange сервера
 ms.reviewer: cbland
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 4/2/2019
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ffe4c3ba-7bab-49f1-b229-5142a87f94e6
-description: Настройка проверки подлинности OAuth между Exchange и Skype для бизнеса Online позволяет использовать функции интеграции Skype для бизнеса и Exchange, описанные в службе поддержки компонентов.
-ms.openlocfilehash: dfc1bf25b19779b6a568a70e2cf18287d2f95d18
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864236"
+description: 'Настройка проверки подлинности OAuth между Exchange и Skype для бизнеса Online позволяет использовать функции интеграции Skype для бизнеса и Exchange, описанные в службе поддержки компонентов.'
 ---
+
 # <a name="configure-integration-and-oauth-between-skype-for-business-online-and-exchange-server"></a>Настройка интеграции и OAuth между Skype для бизнеса Online и Exchange Server 
 
-Настройка интеграции между сервером Exchange и Skype для бизнеса Online позволяет использовать функции интеграции Skype для бизнеса и Exchange, описанные в [службе поддержки компонентов.](../../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md#feature_support)
+Настройка интеграции между сервером Exchange и Skype для бизнеса Online позволяет использовать Skype для бизнеса и Exchange интеграции, описанные в [службе поддержки компонентов](../../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md#feature_support).
 
 Этот раздел относится к интеграции с Exchange Server 2013 по 2019 годы.
 
@@ -31,11 +26,11 @@ ms.locfileid: "60864236"
 
 - Предполагаемое время выполнения задачи: 15 минут.
 
--  Для выполнения этой процедуры (процедур) необходимы соответствующие разрешения. Чтобы узнать, какие разрешения вам нужны, см. в [разделе Exchange разрешений](/exchange/exchange-and-shell-infrastructure-permissions-exchange-2013-help) инфраструктуры и инфраструктуры Shell.
+-  Для выполнения этой процедуры (процедур) необходимы соответствующие разрешения. Чтобы узнать, какие разрешения вам нужны, см. в [разделе Exchange и разрешений](/exchange/exchange-and-shell-infrastructure-permissions-exchange-2013-help) инфраструктуры Shell.
 
 - Сочетания клавиш для процедур, описанных в этой статье, приведены в статье [Сочетания клавиш в Центре администрирования Exchange]( https://go.microsoft.com/fwlink/p/?LinkId=746512).
 
-- Сведения о совместимости см. в [Skype для бизнеса совместимости с Office приложениями.](../../plan-your-deployment/clients-and-devices/compatibility-with-office.md)
+- Сведения о совместимости см. в [Skype для бизнеса совместимости с Office приложениями](../../plan-your-deployment/clients-and-devices/compatibility-with-office.md).
 
 ## <a name="configure-integration-between-exchange-server-and-o365"></a>Настройка интеграции между Exchange Server и O365
 
@@ -107,7 +102,7 @@ $CertFile = "$env:SYSTEMDRIVE\OAuthConfig\OAuthCert.cer"
 
 1. Щелкните ярлык **Модуль Azure Active Directory для Windows PowerShell**, чтобы открыть рабочее пространство Windows PowerShell с установленными командлетами Azure AD. Все команды на этом этапе выполняются с помощью Windows PowerShell для консоли Azure Active Directory.
 
-2. Сохраните следующий текст в файле скрипта PowerShell с именем,  `UploadAuthCert.ps1` например.
+2. Сохраните следующий текст в файле скрипта PowerShell с именем, например. `UploadAuthCert.ps1`
 
    ```powershell
    Connect-MsolService;
@@ -144,13 +139,13 @@ Get-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-00000
 
 2. Подтверждение истории бесед для мобильных клиентов отображается в папке Outlook истории бесед.
 
-3. Подтверждение того, что архивные сообщения чата вложены в локальном почтовом ящике пользователя в папке Purges с помощью [EWSEditor.](/archive/blogs/webdav_101/where-to-get-ewseditor)
+3. Подтверждение того, что архивные сообщения чата вложены в локальном почтовом ящике пользователя в папке Purges с помощью [EWSEditor](/archive/blogs/webdav_101/where-to-get-ewseditor).
 
 Поочередно посмотрите на трафик. Трафик в рукопожатии OAuth действительно отличается (и не похож на базовую проверку подлинности), особенно вокруг областей, где вы увидите трафик эмитента, который выглядит так: 000000004-0000-0ff1-ce00-00000000000000@ (иногда с / перед знаком @) в маркерах, которые передаются. Вы не увидите имя пользователя или пароль, который является точкой OAuth. Но вы увидите эмитент "Office" ( в данном случае Skype для бизнеса 4) и область подписки.
 
-Если вы хотите убедиться, что вы успешно используете OAuth, убедитесь, что вы знаете, чего ожидать, и знаете, как должен выглядеть трафик. Вот что можно [ожидать,](https://tools.ietf.org/html/draft-ietf-oauth-v2-23#page-34)вот довольно стандартный пример трафика [OAuth](https://download.microsoft.com/download/8/5/8/858F2155-D48D-4C68-9205-29460FD7698F/[MS-SPS2SAUTH].pdf)  в приложении Майкрософт (действительно полезно читать, хотя он не использует маркеры обновления), и есть расширения Fiddler, которые позволит вам заглянуть в OAuth JWT (JSON Web Token).
+Если вы хотите убедиться, что вы успешно используете OAuth, убедитесь, что вы знаете, чего ожидать, и знаете, как должен выглядеть трафик. Вот что следует [ожидать, вот](https://tools.ietf.org/html/draft-ietf-oauth-v2-23#page-34) довольно стандартный пример трафика [OAuth](https://download.microsoft.com/download/8/5/8/858F2155-D48D-4C68-9205-29460FD7698F/[MS-SPS2SAUTH].pdf)  в приложении Майкрософт (действительно полезно читать, хотя он не использует маркеры обновления), и есть расширения Fiddler, которые позволит вам заглянуть в OAuth JWT (JSON Web Token).
 
-Вот пример [настройки,](/archive/blogs/kaevans/updated-fiddler-oauth-inspector)но вы можете использовать любой сетевой инструмент отслеживания, который вам нравится для этого процесса.
+Вот [пример настройки,](/archive/blogs/kaevans/updated-fiddler-oauth-inspector) но для этого можно использовать любой сетевой инструмент отслеживания.
 
 ## <a name="related-topics"></a>Статьи по теме
 

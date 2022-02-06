@@ -1,24 +1,19 @@
 ---
 title: Настройка политик начальной загрузки клиентов
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 45042eca-b845-4207-b12f-b8b7f5d44bdf
 description: Сводка. Управление групповыми политиками.
-ms.openlocfilehash: 073bd23219b3fa0a39ed06a94a5ef0586a740e6d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60831653"
 ---
+
 # <a name="configure-client-bootstrapping-policies"></a>Настройка политик начальной загрузки клиентов
  
 **Сводка:** Управление групповыми политиками.
@@ -29,7 +24,7 @@ ms.locfileid: "60831653"
   
 **Групповой Параметры для Skype для бизнеса**
 
-|Параметр групповой политики|Description|
+|Параметр групповой политики|Описание|
 |:-----|:-----|
 |Укажите сервер (ConfigurationMode)  <br/> | Указывает, Skype для бизнеса определяет транспорт и сервер для использования во время регистрации. В этом параметре задаются следующие значения. <br/>  ServerAddressExternal: указывает имя или IP-адрес сервера, используемого клиентами и федеративными контактами при подключении за пределами внешнего брандмауэра. <br/>  ServerAddressInternal: указывает имя сервера или IP-адрес, используемый при подключении клиентов из брандмауэра организации. <br/>  Transport: указывает протокол TCP (Transmission Control Protocol) или протокол TLS (Transport Layer Security). <br/> |
 |Дополнительные поддерживаемые версии сервера (ConfiguredServerCheckValues)  <br/> |Указывает список имен версий серверов, разделенных полу-колонами, на которые Skype для бизнеса Server войти, в дополнение к версиям серверов, поддерживаемых по умолчанию.  <br/> |

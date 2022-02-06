@@ -1,25 +1,20 @@
 ---
 title: Получение параметра пользователя
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 16611a55-79fb-487a-a936-20caca829f87
-description: Сводка. Сведения о операции Get User Setting, которая является частью службы пользовательских Параметры. Служба Параметры является частью API репозитория для панели мониторинга качества вызовов. Панель мониторинга качества вызовов — это средство для Skype для бизнеса Server.
-ms.openlocfilehash: 8091172cd28bc737ff9a2899672ca5643c12de7c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851903"
+description: 'Сводка. Сведения о операции Get User Setting, которая является частью службы пользовательских Параметры. Служба Параметры является частью API репозитория для панели мониторинга качества вызовов. Панель мониторинга качества вызовов — это средство для Skype для бизнеса Server.'
 ---
+
 # <a name="get-user-setting"></a>Получение параметра пользователя
  
 **Сводка:** Узнайте об операции Get User Setting, которая является частью службы пользовательских Параметры. Служба Параметры является частью API репозитория для панели мониторинга качества вызовов. Панель мониторинга качества вызовов — это средство для Skype для бизнеса Server.
@@ -33,7 +28,7 @@ ms.locfileid: "60851903"
 
 |**Способ**|**Запрос URI**|**ВЕРСИЯ HTTP**|
 |:-----|:-----|:-----|
-|GET  <br/> |https:// \<portal\> /QoERepositoryService/repository/user/{userId}/setting/{key}  <br/> |HTTP/1.1  <br/> |
+|GET  <br/> |\<portal\>https:///QoERepositoryService/repository/user/{userId}/setting/{key}  <br/> |HTTP/1.1  <br/> |
    
  **Параметры URI** . Нет.
   
@@ -41,7 +36,7 @@ ms.locfileid: "60851903"
   
  **Тело запроса** . Нет.
   
- **Ответ.** Ответ включает код состояния HTTP и набор заглавных заглавных ответов.
+ **Ответ** . Ответ включает код состояния HTTP и набор заглавных заглавных ответов.
   
  **Код состояния** — успешная операция возвращает код состояния 200 (OK).
   

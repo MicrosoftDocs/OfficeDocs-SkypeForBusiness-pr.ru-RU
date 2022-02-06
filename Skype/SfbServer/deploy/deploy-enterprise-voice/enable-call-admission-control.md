@@ -1,28 +1,23 @@
 ---
 title: Включить управление приемом вызовов в Skype для бизнеса Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 80201105-18f7-4c02-9c71-8df5a952f6c7
 description: Включить управление приемом вызовов в Skype для бизнеса Server Корпоративная голосовая связь.
-ms.openlocfilehash: 9532208e9734f0a404e95e5c8035e0d4d0aff463
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60842411"
 ---
+
 # <a name="enable-call-admission-control-in-skype-for-business-server"></a>Включить управление приемом вызовов в Skype для бизнеса Server
  
 Включить управление приемом вызовов в Skype для бизнеса Server Корпоративная голосовая связь. 
@@ -31,7 +26,7 @@ ms.locfileid: "60842411"
   
 ### <a name="to-enable-call-admission-control-by-using-skype-for-business-server-management-shell"></a>Включить управление приемом вызовов с помощью Skype для бизнеса Server Management Shell
 
-1. Запустите Skype для бизнеса Server: нажмите кнопку Начните, щелкните Все **программы,** нажмите кнопку Skype для бизнеса **2015,** а затем нажмите кнопку **Skype для бизнеса Server.**
+1. Запустите Skype для бизнеса Server: нажмите кнопку **Начните, нажмите** кнопку Все **программы, нажмите** кнопку Skype для бизнеса **2015**, а затем нажмите кнопку **Skype для бизнеса Server управленческой оболочки**.
     
 2. Чтобы включить службу контроля допуска звонков в сети, выполните командлет Set-CsNetworkConfiguration. Пример:
     

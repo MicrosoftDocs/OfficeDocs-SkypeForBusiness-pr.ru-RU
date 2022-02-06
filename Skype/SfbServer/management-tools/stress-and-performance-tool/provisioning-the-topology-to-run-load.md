@@ -1,26 +1,21 @@
 ---
 title: Подготовка топологии для выполнения нагрузки в сценариях "Стресс" и "Производительность"
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 ms.date: 12/17/2015
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 143cf9bd-b935-494d-817c-a8b0ccc61eb8
-description: Skype для бизнеса Server 2015 г. изменения или подготовка к работе с топологией, чтобы пользователи успешно запускали средство Stress и Performance.
-ms.openlocfilehash: 50bd77dd7b3531a150e1e62f6192d32666fa5ba7
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60854263"
+description: 'Skype для бизнеса Server 2015 г. изменения или подготовка к работе с топологией, чтобы пользователи успешно запускали средство Stress и Performance.'
 ---
+
 # <a name="provisioning-the-topology-to-run-load-in-stress-and-performance-scenarios"></a>Подготовка топологии для выполнения нагрузки в сценариях "Стресс" и "Производительность"
  
 Skype для бизнеса Server 2015 г. изменения или подготовка к работе с топологией, чтобы пользователи успешно запускали средство Stress и Performance.
@@ -51,7 +46,7 @@ Skype для бизнеса Server 2015 г. изменения или подго
    PowerShell.exe -file <path to the file>
    ```
 
-4. Как правило, после запуска скрипта из этого пакета в файле будут храниться следы, которые будут храниться в том же пути, где запускался сценарий. Существует также формат именования, $h \<scriptname\> $m $s.txt. Если вы запустили ArchivingPolicy.ps1 в 12:15, вы получите файл журнала с именем ArchivingPolicy121500.txt.
+4. Как правило, после запуска скрипта из этого пакета в файле будут храниться следы, которые будут храниться в том же пути, где запускался сценарий. Существует также формат именования, \<scriptname\>$h $m $s.txt. Если вы запустили ArchivingPolicy.ps1 в 12:15, вы получите файл журнала с именем ArchivingPolicy121500.txt.
     
 5. Хотя мы и предоставили эти примеры для конфигурации сервера, вы можете изменить конфигурацию и восстановить или откатить ее после завершения тестирования нагрузки.
     

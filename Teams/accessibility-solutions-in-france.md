@@ -1,7 +1,7 @@
 ---
 title: Решения со специальными возможностями для Skype для бизнеса Online и Microsoft Teams
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: lshook
 ms.topic: article
@@ -11,28 +11,23 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- M365-collaboration
+  - M365-collaboration
 appliesto:
-- Skype for Business
-- Microsoft Teams
-ms.localizationpriority: ''
+  - Skype for Business
+  - Microsoft Teams
+ms.localizationpriority: null
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- Legal
-- seo-marvel-jul2020
+  - Legal
+  - seo-marvel-jul2020
 hideEdit: true
-description: Fournir des expériences accessibles à tous est au càur de la mission de Microsoft, qui consiste à permettre à chaque personne et à chaque organisation de la planète d'accomplir davantage. Microsoft offre un certain nombre de fonctionnalités d'accessibilité pour Skype Веб-часть et Microsoft Teams qui s'inscrivent dans son engagement fort en faveur de l'accessibilité et de l'inclusion.
-ms.openlocfilehash: 7f8b3fb225e04785e3454fdcffa3a7a6a33e8bae
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849572"
+description: 'Fournir des expériences accessibles à tous est au càur de la mission de Microsoft, qui consiste à permettre à chaque personne et à chaque organisation de la planète d''accomplir davantage. Microsoft offre un certain nombre de fonctionnalités d''accessibilité pour Skype Веб-часть et Microsoft Teams qui s''inscrivent dans son engagement fort en faveur de l''accessibilité et de l''inclusion.'
 ---
+
 # <a name="accessibility-solutions-for-skype-for-business-online-and-microsoft-teams-in-france"></a>Решения для Skype для бизнеса Online и Microsoft Teams во Франции
 
-<span class="underline">Pourport sur les actions engagées par Microsoft pour favoriser l'accès des personnes en situation deux communications éleciques</span>
+<span class="underline">Sur les actions engagées par Microsoft pour favoriser l'accès des personnes en situation deux communications éleciques</span>
 
 Fournir des expériences accessibles à tous est au càur de la mission de Microsoft, qui consiste à permettre à chaque personne et à chaque organisation de la planète d'accomplir davantage. Microsoft offre un certain nombre de fonctionnalités d'accessibilité pour Skype Веб-часть et Microsoft Teams qui s'inscrivent dans son engagement fort en faveur de l'accessibilité et de l'inclusion.
 
@@ -40,8 +35,8 @@ Fournir des expériences accessibles à tous est au càur de la mission de Micro
 
 *Ву д'Ыт*
 
-Microsoft Teams et Skype для бизнеса dans Office 365 sont des outils de collaboration sur le lieu de travail avec des fonctions de conversation, de vidéoconférence et d'appel. Chacune de ces plateformes comprend des fonctionnalités d'accessibilité pourfoner la communication des utilisateurs ayant une déficience visuelle, une dextérité limitée ou d'autres pours. Un résumé de ces fonctionnalités est disponible sur le site web Accessibilité de Microsoft Teams [https://support.office.com/fr-fr/article/prise-en-charge-de-l-accessibilit%C3%A9-dans-microsoft-teams-d12ee53f-d15f-445e-be8d-f0ba2c5ee68f?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR](https://support.office.com/fr-fr/article/prise-en-charge-de-l-accessibilit%C3%A9-dans-microsoft-teams-d12ee53f-d15f-445e-be8d-f0ba2c5ee68f?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR) et sur le site web Accessibilité de Skype Веб-сайт . [https://support.office.com/fr-fr/article/prise-en-charge-de-l-accessibilit%C3%A9-dans-skype-entreprise-fbe39411-6f25-405d-acb4-861735865d18?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR](https://support.office.com/fr-fr/article/prise-en-charge-de-l-accessibilit%C3%A9-dans-skype-entreprise-fbe39411-6f25-405d-acb4-861735865d18?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR)
-Залить une description plus détaillée des fonctionnalités d'accessibilité de Microsoft Teams et de Skype Доступ к этим данным, nous vous invitons à lire ce qui suit.
+Microsoft Teams et Skype для бизнеса dans Office 365 sont des outils de collaboration sur le lieu de travail avec des fonctions de conversation, de vidéoconférence et d'appel. Chacune de ces plateformes comprend des fonctionnalités d'accessibilité pourfoner la communication des utilisateurs ayant une déficience visuelle, une dextérité limitée ou d'autres pours. Un résumé de ces fonctionnalités est disponible sur le site web Accessibilité de Microsoft Teams [https://support.office.com/fr-fr/article/prise-en-charge-de-l-accessibilit%C3%A9-dans-microsoft-teams-d12ee53f-d15f-445e-be8d-f0ba2c5ee68f?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR](https://support.office.com/fr-fr/article/prise-en-charge-de-l-accessibilit%C3%A9-dans-microsoft-teams-d12ee53f-d15f-445e-be8d-f0ba2c5ee68f?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR) et sur le site web Accessibilité de Skype Веб-сайт [https://support.office.com/fr-fr/article/prise-en-charge-de-l-accessibilit%C3%A9-dans-skype-entreprise-fbe39411-6f25-405d-acb4-861735865d18?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR](https://support.office.com/fr-fr/article/prise-en-charge-de-l-accessibilit%C3%A9-dans-skype-entreprise-fbe39411-6f25-405d-acb4-861735865d18?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR).
+Pour une description plus détaillée des fonctionnalités d'accessibilité de Microsoft Teams et de Skype Pourprise, nous vous invitons à lire ce qui suit.
 
 *Fonctionnalités d'accessibilité*
 
@@ -55,43 +50,43 @@ Microsoft Teams fournit des pages d'aide avec des raccourcisравvier et des in
 
 - Utilisation d'un lecteur d'écran pour trouver et répondre aux alertes dans Microsoft Teams [https://support.office.com/fr-fr/article/utiliser-un-lecteur-d-%C3%A9cran-pour-rechercher-des-alertes-et-y-r%C3%A9pondre-dans-microsoft-teams-8290757e-789d-4e5a-a2ac-9ae4a07d55c2?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR](https://support.office.com/fr-fr/article/utiliser-un-lecteur-d-%C3%A9cran-pour-rechercher-des-alertes-et-y-r%C3%A9pondre-dans-microsoft-teams-8290757e-789d-4e5a-a2ac-9ae4a07d55c2?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR)
 
-Microsoft Teams permet désormais aux utilisateurs de ruuiller leur arrière-plan ou d'utiliser une image de pendant les réunions, ce qui peut être êtile aux personnes malentendantes qui ont du mal à lire sur les lèvres et à celles qui peuvent être facilement distraites par un environnement actif: [ https://support.office.com/fr-fr/article/rendre-votre-arri ère-plan-flou-dans-une-réunion-en-équipe-f77a2381-443a-499d-825e-509a140f4780?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR](https://support.office.com/fr-fr/article/rendre-votre-arrière-plan-flou-dans-une-réunion-en-équipe-f77a2381-443a-499d-825e-509a140f4780?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR).
+Microsoft Teams permet désormais aux utilisateurs de ruuiller leur arrière-plan ou d'utiliser une image de pendant les réunions, ce qui peut être utile aux personnes malentendantes qui ont du mal à lire sur les lèvres et à celles qui peuvent être facilement distraites par un environnement actif: [https://support.office.com/fr-fr/article/rendre-votre-arrière-plan-flou-dans-une-réunion-en-équipe-f77a2381-443a-499d-825e-509a140f4780?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR](https://support.office.com/fr-fr/article/rendre-votre-arrière-plan-flou-dans-une-réunion-en-équipe-f77a2381-443a-499d-825e-509a140f4780?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR).
 Les utilisateurs de Microsoft Teams peuvent gérer les notifications par le biais des paramètres, désactiver entièrement les notifications en activant le mode "Ne pas déranger", et masquer, mettre envirdine et épingler les discussions, tout cela contribuant à distractionr les distractions et à aider l'utilisateur à se concentrer dans un environnement très actif. La possibilité d'activer la suppression du bruit en temps réel pour réduire le bruit de pendant les réunions sera ajoutée.
 
 Microsoft Teams introduit une fonction "lever la main" qui permettra à toute personne participant à une réunion Microsoft Teams d'foner un signal visuel indiquant qu'elle a quelque chose à dire, utile à tous les utilisateurs qui souhaitent participer pleinement aux discussions de la réunion, y compris les personnes souffrant de troubles de la parole.
 
-Microsoft Teams permet aux utilisateurs d'épingler et de recadrer les vidéos et de passer de la visualisation du contenu partagé pendant une réunion à celle des personnes qui y participent, ce qui peut être utile aux personnes malentendantes qui lisent sur les lèvres ou utilisent un interprète en langue des signes. Les utilisateurs peuvent également скайлер des messages audio et utiliser la technologie de dictée assistée par Microsoft Windows pour convertir la parole en texte, ce qui peut aider les personnes malvoyantes et malentendantes à communiquer avec les autres participants à la réunion.
+Microsoft Teams permet aux utilisateurs d'épingler et de recadrer les vidéos et de passer de la visualisation du contenu partagé pendant une réunion à celle des personnes qui y participent, ce qui peut être utile aux personnes malentendantes qui lisent sur les lèvres ou utilisent un interprète en langue des signes. Les utilisateurs peuvent également скайплер des messages audio et utiliser la technologie de dictée assistée par Microsoft Windows pour convertir la parole en texte, ce qui peut aider les personnes malvoyantes et malentendantes à communiquer avec les autres participants à la réunion.
 
-En outre, la fonction de chat des équipes de Microsoft Teams est compatible avec un large éventail de technologies d'assistance, notamment les les lecteurs d'écran, les logiciels de dictée, le contrôle visuel (sous Windows 10), le contrôle вы (sous iOS et Android), les agrandisseurs d'écran et les commutateurs d'accès (sous iOS et Android).
+En outre, la fonction de chat des équipes de Microsoft Teams est compatible avec un large éventail de technologies d'assistance, notamment les les lecteurs d'écran, les logiciels de dictée, le contrôle visuel (sous Windows 10), le contrôle в (sous iOS et Android), les agrandisseurs d'écran et les commutateurs d'accès (sous iOS et Android).
 
-Skype Висячие Office 365 за prend également en charge разнообразные fonctionnalités d'accessibilité. Pour les personnes qui utilisent des lecteurs d'écran, l'interface utilisateur de Skype Pourprise peut être parcourue à l'aide du duprvier, et des pages d'aide sont fournies pour expliquer:
+Skype Fonctionnalités d'accessibilité Office 365 prend également en charge diverses fonctionnalités d'accessibilité. Pour les personnes qui utilisent des lecteurs d'écran, l'interface utilisateur de Skype Pourprise peut être parcourue à l'aide du duprvier, et des pages d'aide sont fournies pour expliquer:
 
-- les raccourcisравvier dans Skype Срприйс[https://support.office.com/fr-fr/article/Raccourcis-clavier-dans-Skype-entreprise-42ff538f-67f2-4752-afe8-7169c207f659?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR](https://support.office.com/fr-fr/article/Raccourcis-clavier-dans-Skype-entreprise-42ff538f-67f2-4752-afe8-7169c207f659?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR)
+- les raccourcis Skype Dans[https://support.office.com/fr-fr/article/Raccourcis-clavier-dans-Skype-entreprise-42ff538f-67f2-4752-afe8-7169c207f659?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR](https://support.office.com/fr-fr/article/Raccourcis-clavier-dans-Skype-entreprise-42ff538f-67f2-4752-afe8-7169c207f659?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR)
 
 - Comment ajouter des personnes à la liste de contacts en utilisant Skype Prise avec un lecteur d'écran[https://support.office.com/fr-fr/article/Ajouter-des-personnes-%c3%a0-vos-contacts-avec-Skype-Entreprise-et-un-lecteur-d-%c3%a9cran-669b53a4-9dd1-4506-8fe2-aee42d8bafe8?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR](https://support.office.com/fr-fr/article/Ajouter-des-personnes-%c3%a0-vos-contacts-avec-Skype-Entreprise-et-un-lecteur-d-%c3%a9cran-669b53a4-9dd1-4506-8fe2-aee42d8bafe8?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR)
 
 - Comment passer ou reciseir un appel dans Skype Prise à l'aide d'un lecteur d'écran[https://support.office.com/fr-fr/article/Passer-ou-recevoir-un-appel-%c3%a0-l-aide-de-Skype-Entreprise-avec-un-lecteur-d-%c3%a9cran-d73b5b49-080f-436f-802c-208b958204e4?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR](https://support.office.com/fr-fr/article/Passer-ou-recevoir-un-appel-%c3%a0-l-aide-de-Skype-Entreprise-avec-un-lecteur-d-%c3%a9cran-d73b5b49-080f-436f-802c-208b958204e4?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR)
 
-- Comment utiliser un lecteur d'écran avec Skype Prise pour consulter la messageeur pour[https://support.office.com/fr-fr/article/Utiliser-un-lecteur-d-%c3%a9cran-avec-Skype-Entreprise-pour-consulter-la-messagerie-vocale-6e2f9f74-980b-42c7-92d8-e2afbe69b7d9?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR](https://support.office.com/fr-fr/article/Utiliser-un-lecteur-d-%c3%a9cran-avec-Skype-Entreprise-pour-consulter-la-messagerie-vocale-6e2f9f74-980b-42c7-92d8-e2afbe69b7d9?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR)
+- Comment utiliser un lecteur d'écran avec Skype Pour Consulter la messageeur pour[https://support.office.com/fr-fr/article/Utiliser-un-lecteur-d-%c3%a9cran-avec-Skype-Entreprise-pour-consulter-la-messagerie-vocale-6e2f9f74-980b-42c7-92d8-e2afbe69b7d9?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR](https://support.office.com/fr-fr/article/Utiliser-un-lecteur-d-%c3%a9cran-avec-Skype-Entreprise-pour-consulter-la-messagerie-vocale-6e2f9f74-980b-42c7-92d8-e2afbe69b7d9?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR)
 
 - Скайплер при комментариев un message instantané dans Skype Собчак à l'aide d'un lecteur d'écran[https://support.office.com/fr-fr/article/Envoi-d-un-message-instantan%c3%a9-dans-Skype-Entreprise-%c3%a0-l-aide-d-un-lecteur-d-%c3%a9cran-e7059839-94fb-4f73-92b4-76de51133f2e?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR](https://support.office.com/fr-fr/article/Envoi-d-un-message-instantan%c3%a9-dans-Skype-Entreprise-%c3%a0-l-aide-d-un-lecteur-d-%c3%a9cran-e7059839-94fb-4f73-92b4-76de51133f2e?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR)
 
-- Comment participer à une réunion en ligne en utilisant Skype Eur avec un lecteur d'écran[https://support.office.com/fr-fr/article/Participer-%c3%a0-une-r%c3%a9union-en-ligne-avec-Skype-Entreprise-et-un-lecteur-d-%c3%a9cran-68e8a11a-8796-4ce9-89d6-38a15b6da456?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR](https://support.office.com/fr-fr/article/Participer-%c3%a0-une-r%c3%a9union-en-ligne-avec-Skype-Entreprise-et-un-lecteur-d-%c3%a9cran-68e8a11a-8796-4ce9-89d6-38a15b6da456?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR)
+- Comment participer à une réunion en ligne en utilisant Skype Собчак avec un lecteur d'écran[https://support.office.com/fr-fr/article/Participer-%c3%a0-une-r%c3%a9union-en-ligne-avec-Skype-Entreprise-et-un-lecteur-d-%c3%a9cran-68e8a11a-8796-4ce9-89d6-38a15b6da456?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR](https://support.office.com/fr-fr/article/Participer-%c3%a0-une-r%c3%a9union-en-ligne-avec-Skype-Entreprise-et-un-lecteur-d-%c3%a9cran-68e8a11a-8796-4ce9-89d6-38a15b6da456?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR)
 
-- Comment partager son écran en utilisant Skype Сррес avec un lecteur d'écran[https://support.office.com/fr-fr/article/Partager-votre-%c3%a9cran-avec-Skype-Entreprise-et-un-lecteur-d-%c3%a9cran-678ce631-1499-4a24-8d32-a68498ce9ff4?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR](https://support.office.com/fr-fr/article/Partager-votre-%c3%a9cran-avec-Skype-Entreprise-et-un-lecteur-d-%c3%a9cran-678ce631-1499-4a24-8d32-a68498ce9ff4?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR)
+- Comment partager son écran en utilisant Skype Prise avec un lecteur d'écran[https://support.office.com/fr-fr/article/Partager-votre-%c3%a9cran-avec-Skype-Entreprise-et-un-lecteur-d-%c3%a9cran-678ce631-1499-4a24-8d32-a68498ce9ff4?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR](https://support.office.com/fr-fr/article/Partager-votre-%c3%a9cran-avec-Skype-Entreprise-et-un-lecteur-d-%c3%a9cran-678ce631-1499-4a24-8d32-a68498ce9ff4?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR)
 
-Lorsque vous utilisez Skype Prise, les menus interactifs de réponse utilise peuvent être ralen деlen де, accélérés et redémarrés, et les utilisateurs peuventтраisir de sauter des messages, et Microsoft Teams prend en charge le réglage de la vitesse de la botete Microsoft Teams et Skype Иприза заранее заряжать тексты les appels (TTY).
-Les utilisateurs de Skype Pourprise utilisant Outlook 2010 ou des versions plus récentes peuvent peuvent pourisir de reciseir leurs messages vocise au format texte, ce qui peut être bénéfique pour les personnes malentendantes ou ou êdes : [https://support.microsoft.com/fr-fr/office/consultation-de-la-messagerie-vocale-et-des-options-de-skype-entreprise-2deea7f8-831f-4e85-a0d4-b34da55945a8?ui=fr-fr&rs=fr-fr&ad=fr](https://support.microsoft.com/fr-fr/office/consultation-de-la-messagerie-vocale-et-des-options-de-skype-entreprise-2deea7f8-831f-4e85-a0d4-b34da55945a8?ui=fr-fr&rs=fr-fr&ad=fr) .
-Les administrateurs informatiques de Microsoft Teams peuvent gérer la transcription pour leurs clients. Pour une lecture plus facile, Microsoft Teams prend en charge le zoom et Skype Pourprise permet d'ajuster la taille du texte des messages instantanés.
+Lorsque vous utilisez Skype Prise, les menus interactifs de réponse utilise peuvent être ralen деlen де, accélérés et redémarrés, et les utilisateurs peuventтраisir de sauter des messages, et Microsoft Teams prend en charge le réglage de la vitesse de la botete Microsoft Teams et Skype Вехиприза заранее заряжать тексты les appels (TTY).
+Les utilisateurs de Skype Pourprise utilisant Outlook 2010 ou des versions plus récentes peuvent peuvent pourisir de reciseir leurs messages vocmax au format texte, ce qui peut être bénéfique pour les personnes malentendantes ou ou êdes : [https://support.microsoft.com/fr-fr/office/consultation-de-la-messagerie-vocale-et-des-options-de-skype-entreprise-2deea7f8-831f-4e85-a0d4-b34da55945a8?ui=fr-fr&rs=fr-fr&ad=fr](https://support.microsoft.com/fr-fr/office/consultation-de-la-messagerie-vocale-et-des-options-de-skype-entreprise-2deea7f8-831f-4e85-a0d4-b34da55945a8?ui=fr-fr&rs=fr-fr&ad=fr).
+Les administrateurs informatiques de Microsoft Teams peuvent gérer la transcription pour leurs clients. Pour une lecture plus facile, Microsoft Teams prend en charge le zoom et Skype Prise permet d'ajuster la taille du texte des messages instantanés.
 
 Les pages consacrées à chacune de ces plates-formes décrivent comment se présent généralement Skype Uneprise et Microsoft Teams sur les appareils qui prennent en charge ces plates-formes, telles que Windows, Mac, iOS et Android. Les descriptions de des agencements de Skype Prise peuvent être particulièrement utiles aux utilisateurs aveugles, malvoyants ou à mobilité réduite pour les aider à construire une représentation mentale des points de repère des interfaces utilisateur (IU) afin deèer la navigation dans l'IU.
 
-La ветвь de Windows peut également aider les personnes à mobilité réduite et bénéficier de l'utilisation de commandes plutôt que du du duôvier ou de la utilisis. Les instructions pour activer la pour activer la pour sur unordinateur fonctionnant sous Windows 10 sont disponibles ici : [https://support.microsoft.com/fr-fr/help/17208/windows-10-use-speech-recognition](https://support.microsoft.com/fr-fr/help/17208/windows-10-use-speech-recognition) .
+La ветвь de Windows peut également aider les personnes à mobilité réduite et bénéficier de l'utilisation de commandes utilisation de commandes plutôt que du duvier ou de la utilisis. Les instructions pour activer la pour activer la pour sur unordinateur fonctionnant sous Windows 10 sont disponibles ici : [https://support.microsoft.com/fr-fr/help/17208/windows-10-use-speech-recognition](https://support.microsoft.com/fr-fr/help/17208/windows-10-use-speech-recognition).
 
-## <a name="assistance-client"></a>Клиент-помощь
+## <a name="assistance-client"></a>Клиент помощи
 
-Afin d'offrir la meilleure expérience possible à tous nos clients, Microsoft suggeste une assistance technique pour les questions liées à l'accessibilité par l'intermédiaire de son bureau de réponse aux questions des personnes pourées. L'équipe d'assistance du Answer Desk Accessibilité est formée à l'utilisation de nombreuses technologies d'assistance populaires et peut offrir une assistance en français par téléphone ou par chat : [<span class="underline">https://support.microsoft.com/fr-fr/accessibility/disability-answer-desk</span>](https://support.microsoft.com/fr-fr/accessibility/disability-answer-desk) .
+Afin d'offrir la meilleure expérience possible à tous nos clients, Microsoft suggeste une assistance technique pour les questions liées à l'accessibilité par l'intermédiaire de son bureau de réponse aux questions des personnes pourées. L'équipe d'assistance du Answer Desk Accessibilité est formée à l'utilisation de nombreuses technologies d'assistance populaires et peut offrir une assistance en français par téléphone ou par chat : [<span class="underline">https://support.microsoft.com/fr-fr/accessibility/disability-answer-desk</span>](https://support.microsoft.com/fr-fr/accessibility/disability-answer-desk).
 
 ## <a name="dclarations-de-conformit--la-norme-en-301-549"></a>Déclarations de conformité à la norme EN 301 549
 
-Pour aider ses clients à évaluer l'accessibilité, Корпорация Майкрософт предлагает отослать документацию qui décrit comment Skype Веб-сайт Et Microsoft Teams se conforment à la norme européenne EN 301 549 relative aux exigences d'accessibilité applicables aux marchés publics des produits et services liés aux TIC (Technologies de l'Information et de la Communication) en Europe. Des copies des скопированные en 301 549 sont jointes en.
+Pour aider ses clients à évaluer l'accessibilité, Корпорация Майкрософт предлагает отослать документацию qui décrit comment Skype Служочно et Microsoft Teams se conforment à la norme européenne EN 301 549 relative aux exigences d'accessibilité applicables aux marchés publics des produits et services liés aux TIC (Technologies de l'Information et de la Communication) en Europe. Des copies des скопированные en 301 549 sont jointes en.
