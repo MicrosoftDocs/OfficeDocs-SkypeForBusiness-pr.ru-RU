@@ -1,27 +1,22 @@
 ---
 title: Проверка репликации раздела леса
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.dep.DeployMainVerifyForestPrep
+  - ms.lync.dep.DeployMainVerifyForestPrep
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: 94e87632-7c28-43df-9238-f5a47c1c43c0
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: 'Чтобы проверить успешность репликации глобального каталога и создания объектов в ходе подготовки леса, сделайте следующее:'
-ms.openlocfilehash: f56b2d81029a5518e01eea62a47690081318ac3c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60839001"
 ---
+
 # <a name="verify-replication-of-forest-preparation"></a>Проверка репликации раздела леса
  
 Чтобы проверить успешность репликации глобального каталога и создания объектов в ходе подготовки леса, сделайте следующее:

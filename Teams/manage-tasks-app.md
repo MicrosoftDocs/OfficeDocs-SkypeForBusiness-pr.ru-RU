@@ -1,33 +1,28 @@
 ---
-title: Управление приложением "Задачи" для вашей организации в Microsoft Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+title: "Управление приложением \"Задачи\" для вашей организации в Microsoft\_Teams"
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: andfried
 search.appverid: MET150
 searchScope:
-- Microsoft Teams
-- Microsoft Cloud for Healthcare
-- Microsoft Cloud for Retail
+  - Microsoft Teams
+  - Microsoft Cloud for Healthcare
+  - Microsoft Cloud for Retail
 audience: admin
-description: Узнайте, как управлять приложением "Задачи" для пользователей в организации.
+description: 'Узнайте, как управлять приложением "Задачи" для пользователей в организации.'
 ms.localizationpriority: medium
 MS.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
-- microsoftcloud-healthcare
-- microsoftcloud-retail
+  - Teams_ITAdmin_Help
+  - M365-collaboration
+  - microsoftcloud-healthcare
+  - microsoftcloud-retail
 appliesto:
-- Microsoft Teams
-ms.openlocfilehash: 6412da5bdce345c1d187fd150b3877a63602b40b
-ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62288357"
+  - Microsoft Teams
 ---
+
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>Управление приложением "Задачи" для вашей организации в Microsoft Teams
 
 ## <a name="overview-of-tasks"></a>Обзор "Задач"
@@ -77,15 +72,15 @@ ms.locfileid: "62288357"
 
 ### <a name="use-an-app-setup-policy-to-pin-tasks-to-teams"></a>Использование политики настройки приложений для закрепления "Задач" в Teams
 
-Политики настройки приложений позволяют настроить Teams, чтобы выделить приложения, которые наиболее важны для пользователей в организации. Приложения, установленные в политике, закреплены на панели приложений — в боковой части Teams и в нижней части мобильного клиента Teams, где пользователи могут быстро и легко получить к ним доступ.
+Политики настройки приложений позволяют настроить Teams, чтобы выделить приложения, которые наиболее важны для пользователей в организации. Приложения, установленные в политике, закреплены на панели приложений — в боковой части настольного клиента Teams и в нижней части мобильного клиента Teams, где пользователи могут быстро и легко получить к ним доступ.
 
 Чтобы закрепить приложение "Задачи" для пользователей, можно изменить глобальную политику (по умолчанию в пределах организации) или создать и назначить настраиваемую политику настройки приложений. Дополнительные сведения см. в статье [Управление политиками и параметрами пользовательских приложений в Teams](teams-app-setup-policies.md).
 
 ### <a name="a-users-my-tasks-is-visible-if-the-user-is-licensed-for-exchange-online"></a>"Мои задачи" пользователя отображаются только при наличии у него лицензии на Exchange Online
 
-Если вы не хотите, чтобы пользователь видел раздел **Мои задачи**, вы можете скрыть его. Чтобы скрыть **мои задачи**, [удалите лицензию](/microsoft-365/admin/manage/remove-licenses-from-users) на Exchange Online пользователя. Важно знать, что после удаления лицензии на Exchange Online пользователь больше не будет иметь доступ к своему почтовому ящику.  Данные почтового ящика хранятся в течение 30 дней, после чего данные будут удалены и не смогут быть восстановлены, если для почтового ящика не будет установлено [удержание на месте или удержание для судебного разбирательства](/exchange/security-and-compliance/in-place-and-litigation-holds).
+Если вы не хотите, чтобы пользователь видел раздел **Мои задачи**, вы можете скрыть его. Чтобы скрыть **мои задачи**, [удалите лицензию Exchange Online пользователя](/microsoft-365/admin/manage/remove-licenses-from-users). Важно знать, что после удаления лицензии на Exchange Online пользователь больше не будет иметь доступ к своему почтовому ящику.  Данные почтового ящика хранятся в течение 30 дней, после чего данные будут удалены и не смогут быть восстановлены, если для почтового ящика не будет установлено [удержание на месте или удержание для судебного разбирательства](/exchange/security-and-compliance/in-place-and-litigation-holds).
 
-Не рекомендуется удалять лицензию на Exchange Online для информационных работников, но в некоторых случаях можно скрыть мои задачи таким образом, например для сотрудников,  которые не зависят от электронной почты.
+Не рекомендуется удалять лицензию Exchange Online для информационных работников, но в некоторых случаях можно скрыть мои задачи таким образом, например для сотрудников, которые  не зависят от электронной почты.
 
 ## <a name="task-publishing"></a>Публикация задач
 

@@ -1,27 +1,22 @@
 ---
 title: Проверка репликации раздела схемы
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.dep.DeployMainVerifySchemaPrep
+  - ms.lync.dep.DeployMainVerifySchemaPrep
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: 0357f230-6d0c-41f1-942c-e14f76e55d31
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: 'Чтобы убедиться, что расширение схемы успешно реплицируется в лесу служб домена Active Directory, сделайте следующее:'
-ms.openlocfilehash: ad48543f6b14e3e65750582caa42d050b0c2cd58
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848002"
 ---
+
 # <a name="verify-replication-of-schema-partition"></a>Проверка репликации раздела схемы
  
 Чтобы убедиться, что расширение схемы успешно реплицируется в лесу служб домена Active Directory, сделайте следующее:

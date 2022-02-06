@@ -1,36 +1,31 @@
 ---
 title: Управление приложением Lists для организации
-author: HowlinWolf-92
-ms.author: v-mahoffman
-ms.reviewer: anach,v-jasuk
+author: SerdarSoysal
+ms.author: serdars
+ms.reviewer: 'anach,v-jasuk'
 manager: serdars
 ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
 searchScope:
-- Microsoft Teams
-- Microsoft Cloud for Healthcare
-- Microsoft Cloud for Retail
-description: Узнайте, как управлять приложением Lists в Teams для пользователей в организации.
+  - Microsoft Teams
+  - Microsoft Cloud for Healthcare
+  - Microsoft Cloud for Retail
+description: 'Узнайте, как управлять приложением Lists в Teams для пользователей в организации.'
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- M365-collaboration
-- microsoftcloud-healthcare
-- microsoftcloud-retail
-- m365initiative-lists
+  - M365-collaboration
+  - microsoftcloud-healthcare
+  - microsoftcloud-retail
+  - m365initiative-lists
 appliesto:
-- Microsoft Teams
-ms.custom: ''
-ms.openlocfilehash: bd70e5fbca82637299e6adef745bccc725525311
-ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62288487"
+  - Microsoft Teams
+ms.custom: null
 ---
+
 # <a name="manage-the-lists-app-for-your-organization-in-microsoft-teams"></a>Управление приложением Lists для организации в Microsoft Teams
 
 ## <a name="overview-of-lists"></a>Обзор приложения Lists
@@ -60,7 +55,7 @@ ms.locfileid: "62288487"
 
 После собрания почтальоны забирают почту и начинают свой маршрут доставки. Инциденты могут произойти во время прохождения маршрута, например, автомобильная авария, проблема с собакой, или социальные протесты. Когда почтальоны сталкиваются с инцидентом, они используют Teams на своих мобильных устройствах для записи сведений об инциденте, который отслеживается в списке в канале команды. Все участники команды, включая почтальонов на местах, могут видеть эту информацию и оставаться в курсе.
 
-Перед переходом Teams почтовым операторам пришлось вернуться в почтовое сообщение, чтобы заполнить форму с жесткой копией, чтобы сообщить об инциденте, который был введен в Excel электронной таблицы. Teams дает почтальонам возможность в первую очередь использовать мобильные устройства и приложение Lists, чтобы сообщать об инцидентах по мере их возникновения, делиться деталями с членами команды, обсуждать их на канале и доводить инциденты до разрешения.
+Перед перемещением Teams почтовым операторам пришлось вернуться в почтовое сообщение, чтобы заполнить форму с жесткой копией, чтобы сообщить об инциденте, который был введен в Excel электронной таблицы. Teams дает почтальонам возможность в первую очередь использовать мобильные устройства и приложение Lists, чтобы сообщать об инцидентах по мере их возникновения, делиться деталями с членами команды, обсуждать их на канале и доводить инциденты до разрешения.
 
 ## <a name="what-you-need-to-know-about-lists"></a>Что нужно знать о приложении Lists
 

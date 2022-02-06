@@ -1,28 +1,23 @@
 ---
 title: Federation (Средство планирования)
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.plan.Federation
-- ms.lync.plan.Federation
+  - ms.lync.plan.Federation
+  - ms.lync.plan.Federation
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 63ea8a5e-a040-4892-9440-0fdbeef66fc0
-ROBOTS: NOINDEX, NOFOLLOW
-description: Edge Servers можно настроить, чтобы позволить внутренним и внешним пользователям получать доступ к контактам в партнерских организациях или службах.
-ms.openlocfilehash: 768d67d236e5da2fc53ee63eb3ba1765c1248bcc
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840411"
+ROBOTS: 'NOINDEX, NOFOLLOW'
+description: 'Edge Servers можно настроить, чтобы позволить внутренним и внешним пользователям получать доступ к контактам в партнерских организациях или службах.'
 ---
+
 # <a name="federation-planning-tool"></a>Federation (Средство планирования)
  
 Edge Servers можно настроить, чтобы позволить внутренним и внешним пользователям получать доступ к контактам в партнерских организациях или службах.

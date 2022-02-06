@@ -1,29 +1,24 @@
 ---
-title: Skype для бизнеса Server Средство планирования высокой доступности
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: Skype для бизнеса Server средства планирования высокой доступности
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 4/8/2016
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.plan.HighAvailability
-- ms.lync.plan.HighAvailability
+  - ms.lync.plan.HighAvailability
+  - ms.lync.plan.HighAvailability
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 14a897b3-2406-46c7-b08f-490085b3d048
 description: Основная схема высокой доступности большинства ролей сервера в Skype для бизнеса Server 2015 г. основана на избыточности сервера с помощью пулинга. При сбое сервера с определенными ролями остальные серверы в пуле с такими же ролями берут на себя нагрузку этого сервера.
-ms.openlocfilehash: 47b7eb48b3825cf86e4f24652ad38af2f0cf86d8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862696"
 ---
-# <a name="skype-for-business-server-high-availability-planning-tool"></a>Skype для бизнеса Server Средство планирования высокой доступности
+
+# <a name="skype-for-business-server-high-availability-planning-tool"></a>Skype для бизнеса Server средства планирования высокой доступности
  
 Основная схема высокой доступности большинства ролей сервера в Skype для бизнеса Server 2015 г. основана на избыточности сервера с помощью пулинга. При сбое сервера с определенными ролями остальные серверы в пуле с такими же ролями берут на себя нагрузку этого сервера.
   

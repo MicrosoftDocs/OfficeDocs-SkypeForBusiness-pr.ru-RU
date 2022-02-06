@@ -1,27 +1,22 @@
 ---
 title: Подробное представление службы топологии
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.lscp.TopoStatusSvcEdit
+  - ms.lync.lscp.TopoStatusSvcEdit
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 0a5a0ce5-a191-42d1-acad-f8f17895305d
-description: Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
-ms.openlocfilehash: e5fa85a565669c1f08dd2d5d0dd341e9fae6e759
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829163"
+description: 'Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.'
 ---
+
 # <a name="topology-view-service-detail"></a>Топология: просмотр сведений о службе
 
 Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
@@ -34,4 +29,4 @@ ms.locfileid: "60829163"
 
 - [Предотвращение новых подключений к службам](/previous-versions/office/lync-server-2013/lync-server-2013-prevent-sessions-for-services)
 
-Сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнеса Server, см. в Skype для бизнеса Server [2015](../../manage/manage.md)г.
+Сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнеса Server, см. в Skype для бизнеса Server [2015 г](../../manage/manage.md).

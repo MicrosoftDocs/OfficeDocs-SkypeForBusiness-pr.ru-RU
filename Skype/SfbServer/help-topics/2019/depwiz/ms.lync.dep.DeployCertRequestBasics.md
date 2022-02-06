@@ -1,30 +1,25 @@
 ---
 title: Запрос сертификата (основные сведения)
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.dep.DeployCertRequestBasics
+  - ms.lync.dep.DeployCertRequestBasics
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: 2c6b40d5-207a-4ca9-a090-e43350f4968f
-ROBOTS: NOINDEX, NOFOLLOW
-description: На странице Name and Security Параметры текстовое поле для определения дружественного имени, выпадаемого списка для длины бита пары закрытых и общедоступных ключей, а также поле, которое позволяет пометить закрытый ключ сертификата как экспортируемый.
-ms.openlocfilehash: da3125456a97408dd9f3e694a16238d5657fc1d6
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861756"
+ROBOTS: 'NOINDEX, NOFOLLOW'
+description: 'На странице Name and Security Параметры текстовое поле для определения дружественного имени, выпадаемого списка для длины бита пары закрытых и общедоступных ключей, а также поле, которое позволяет пометить закрытый ключ сертификата как экспортируемый.'
 ---
+
 # <a name="certificate-request-basic"></a>Запрос сертификата (основные сведения)
  
-На странице Имя и **Параметры** безопасности предоставляется текстовое поле для определения дружественного **имени,** отпадательный список для длины бита пары закрытых и общедоступных ключей, а также поле, которое позволяет пометить закрытый ключ сертификата как экспортируемый **.** 
+На странице **Name and Security Параметры** текстовое поле для определения дружественного  **имени,** выпадаемого списка для длины бита пары закрытых и общедоступных ключей, а также чековое поле, которое позволяет пометить закрытый ключ сертификата как экспортируемый **.**
   
 Понятное, или простое, имя в сертификате используется для того, чтобы тому, кто просматривает сертификат, было проще его опознать.
   
