@@ -1,27 +1,22 @@
 ---
 title: Расширитель параметров пограничного сервера для Lync Server 2010
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.EdgeMachineSettingsExpander2010
+  - ms.lync.tb.EdgeMachineSettingsExpander2010
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: fb72a5b5-70f4-44af-8dfd-c5d32e563882
 description: 'Чтобы изменить свойства для компьютеров Edge Server в качестве одного edge Server или в качестве компьютеров-членов в пуле Edge, необходимо настроить параметры конфигурации имени и IP-адресов Сервера:'
-ms.openlocfilehash: 667d0736e3a964d95842f5d7b8551c7fd0be5e07
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829043"
 ---
+
 # <a name="edge-machine-settings-expander-for-lync-server-2010"></a>Расширитель параметров пограничного сервера для Lync Server 2010
  
 Чтобы изменить свойства для компьютеров Edge Server в качестве одного edge Server или в качестве компьютеров-членов в пуле Edge, необходимо настроить параметры конфигурации имени и **IP-адресов** Сервера:
@@ -30,14 +25,14 @@ ms.locfileid: "60829043"
     
 - **Внутренний адрес IPv4**. Введите IPv4-адрес для внутренней сетевой карты данного компьютера.
     
-- Настраивается внешний адрес **IPv4** **службы Access Edge,** связанный с этим компьютером.
+- Настраивается внешний адрес **IPv4** **службы Access Edge**, связанный с этим компьютером.
     
     > [!IMPORTANT]
     > Если вы выбрали один IP-адрес для конфигурации Edge Server, вы сможете изменить внешний адрес IPv4 для службы Access Edge. Другие службы Edge будут иметь тот же адрес IPv4, что и служба Access Edge. 
   
-- При наличии для редактирования  настраивается внешний адрес службы веб-конференций **IPv4,** связанный с этим компьютером.
+- При наличии для редактирования настраивается внешний адрес  службы веб-конференций **IPv4**, связанный с этим компьютером.
     
-- При наличии для редактирования настраивается внешний адрес **IPv4** **службы A/V Edge,** связанный с этим компьютером.
+- При наличии для редактирования настраивается внешний адрес **IPv4** **службы A/V Edge**, связанный с этим компьютером.
     
 - Следует настроить **общедоступный IPv4-адрес с поддержкой преобразования сетевых адресов (NAT)**, связанный с этим компьютером.
     

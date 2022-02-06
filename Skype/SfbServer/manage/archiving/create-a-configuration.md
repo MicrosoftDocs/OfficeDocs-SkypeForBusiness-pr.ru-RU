@@ -1,24 +1,19 @@
 ---
 title: Создание конфигурации архивации в Skype для бизнеса Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: dc574afa-0b7d-404f-99b3-c812430b7c70
 description: Сводка. Сведения о создании конфигурации архивации для Skype для бизнеса Server.
-ms.openlocfilehash: 76fd2785f172cc9dd4b76df97d3c29a78e831e46
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850042"
 ---
+
 # <a name="create-an-archiving-configuration-in-skype-for-business-server"></a>Создание конфигурации архивации в Skype для бизнеса Server
 
 **Сводка:** Узнайте, как создать конфигурацию архивации для Skype для бизнеса Server.
@@ -31,13 +26,13 @@ ms.locfileid: "60850042"
     
 2. Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель Skype для бизнеса Server управления. 
     
-3. В левой панели навигации щелкните Мониторинг и **архивация,** а затем щелкните **конфигурацию архивации.**
+3. В левой панели навигации щелкните **Мониторинг и архивация**, а затем щелкните **Конфигурация архивации**.
     
 4. На странице **Конфигурация архивирования** щелкните **Создать**, а затем выполните одно из следующих действий: 
     
-   - Чтобы создать конфигурацию архивации сайта, нажмите кнопку **Конфигурация** сайта, а затем выберите сайт, который будет настроен для архивации. 
+   - Чтобы создать конфигурацию архивации сайта, нажмите кнопку **Конфигурация** сайта, а затем выберите **сайт,** настроенный для архивации.
     
-   - Чтобы создать конфигурацию архивации пула, нажмите кнопку **Конфигурация** пула, а затем выберите **пул,** который будет настроен для архивации.
+   - Чтобы создать конфигурацию архивации пула, нажмите кнопку **Конфигурация** пула, а затем выберите **пул, который** будет настроен для архивации.
     
 5. В разделе **Новый параметр архивирования**, в раскрывающемся списке **Параметр архивирования** выполните одно из следующих действий:
     
@@ -45,13 +40,13 @@ ms.locfileid: "60850042"
     
    - Чтобы включить архивирование для обмена мгновенными сообщениями и веб-конференций, щелкните элемент **Archive IM and web conferencing sessions** (Архивировать сеансы обмена мгновенными сообщениями и веб-конференций).
     
-   - Чтобы отключить архивацию для этой конфигурации, щелкните **Отключение архивации.**
+   - Чтобы отключить архивацию для этой конфигурации, щелкните **Отключение архивации**.
     
 6. Также в разделе **Новый параметр архивирования** выполните следующее:
     
    - Чтобы заблокировать действия, когда архивирование невозможно, установите флажок **Block instant messaging (IM) or web conferencing sessions if archiving fails** (Блокировать сеансы обмена мгновенными сообщениями или веб-конференций, если не удается выполнить архивирование).
     
-   - Чтобы использовать Microsoft Exchange Server для хранения данных архивации, щелкните контрольный **Exchange Microsoft.**
+   - Чтобы использовать Microsoft Exchange Server для хранения данных архивации, нажмите кнопку **Microsoft Exchange интеграции**.
     
    - Чтобы включить удаление данных, установите флажок **Включить удаление архивных данных**, а затем выполните одно из следующих действий:
     
@@ -63,7 +58,7 @@ ms.locfileid: "60850042"
     
 ## <a name="configure-archiving-options-by-using-windows-powershell"></a>Настройка параметров архива с помощью Windows PowerShell
 
-Вы также можете настроить параметры архивации для определенного сайта или пула с помощью **cmdlet New-CsArchivingConfiguration.**
+Вы также можете настроить параметры архивации для определенного сайта или пула с помощью **cmdlet New-CsArchivingConfiguration** .
   
 Следующая команда создает новую коллекцию параметров конфигурации архивации для сайта Redmond:
   
@@ -85,4 +80,4 @@ New-CsArchivingConfiguration -Identity "site:Redmond" -EnableArchiving "ImOnly"
 New-CsArchivingConfiguration -Identity "site:Redmond" -EnableArchiving "ImOnly" -BlockOnArchiveFailure $True
 ```
 
-Дополнительные сведения см. в разделе справка для [cmdlet New-CsArchivingConfiguration.](/powershell/module/skype/new-csarchivingconfiguration?view=skype-ps)
+Дополнительные сведения см. в разделе справка для [cmdlet New-CsArchivingConfiguration](/powershell/module/skype/new-csarchivingconfiguration?view=skype-ps) .
