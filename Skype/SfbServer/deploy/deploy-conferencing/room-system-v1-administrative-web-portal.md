@@ -1,25 +1,20 @@
 ---
 title: Развертывание административного веб-портала SRS v1 в Skype для бизнеса Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 81822efa-2100-4017-a470-8a5b98c49522
 ms.collection: M365-voice
-description: Административный веб-портал Skype для бизнеса Server Skype Room Systems v1 (SRS v1, ранее известный как Lync Room System) — веб-портал, который организации могут использовать для обслуживания конференц-залов Skype комнат. Администраторы могут использовать административный веб-портал SRS v1 для мониторинга состояния устройств, например с помощью мониторинга аудио- и видео устройств. На этом портале администраторы могут удаленно собирать диагностические сведения для мониторинга состояния конференц-зала.
-ms.openlocfilehash: c25671717db51af880bd4b7e2700bb9e795f2790
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843972"
+description: 'Административный веб-портал Skype для бизнеса Server Skype Room Systems v1 (SRS v1, ранее известный как Lync Room System) — веб-портал, который организации могут использовать для обслуживания конференц-залов Skype комнат. Администраторы могут использовать административный веб-портал SRS v1 для мониторинга состояния устройств, например с помощью мониторинга аудио- и видео устройств. На этом портале администраторы могут удаленно собирать диагностические сведения для мониторинга состояния конференц-зала.'
 ---
+
 # <a name="deploy-srs-v1-administrative-web-portal-in-skype-for-business-server"></a>Развертывание административного веб-портала SRS v1 в Skype для бизнеса Server
 
 Административный веб-портал Skype для бизнеса Server Skype Room Systems v1 (SRS v1, ранее известный как Lync Room System) — веб-портал, который организации могут использовать для обслуживания конференц-залов Skype комнат. Администраторы могут использовать административный веб-портал SRS v1 для мониторинга состояния устройств, например с помощью мониторинга аудио- и видео устройств. На этом портале администраторы могут удаленно собирать диагностические сведения для мониторинга состояния конференц-зала.
@@ -29,7 +24,7 @@ ms.locfileid: "60843972"
 После развертывания на сервере административного веб-портала SRS v1 администраторы могут проверить состояние устройств SRS v1, войдя на сайт с собственных компьютеров или ноутбуков.
 
 > [!IMPORTANT]
-> Скачайте [веб-портал Microsoft Skype room Systems v1 Administrative Web Portal для Skype для бизнеса Server 2015 .](https://www.microsoft.com/download/details.aspx?id=46906)
+> Скачайте [веб-Skype Microsoft Skype 1 Административный веб-портал для Skype для бизнеса Server 2015 г](https://www.microsoft.com/download/details.aspx?id=46906).
 
 Содержание раздела
 
@@ -49,7 +44,7 @@ ms.locfileid: "60843972"
 
 1. Установка Skype для бизнеса Server накопительных обновлений в топологии Skype для бизнеса Server.
 
-    Чтобы получить обновление или узнать, что с ним включено, см. в Skype для бизнеса Server [2015](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015)г.
+    Чтобы получить обновление или узнать, что с ним включено, см. в Skype для бизнеса Server [2015 г](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015).
 
 2. Создание пользователя Active Directory с поддержкой SIP.
 
@@ -77,12 +72,12 @@ ms.locfileid: "60843972"
 
      ![Страница LRSSupportAdminGroup Properties Members.](../../media/LRS_Add_LRS_SIP_SupportUser.png)
 
-8. Установите [ASP.NET MVC 4 для Visual Studio 2010 SP1 и Visual Web Developer 2010 SP1](https://go.microsoft.com/fwlink/p/?LinkId=323967).
+8. Установите [ASP.NET MVC 4 для Visual Studio 2010 sp1 и Visual Web Developer 2010 SP1](https://go.microsoft.com/fwlink/p/?LinkId=323967).
 
 ## <a name="install-the-srs-v1-administrative-web-portal"></a>Установка административного веб-портала SRS v1
 <a name="Install_SRS"> </a>
 
-Скачайте [веб-портал Microsoft Skype room Systems v1 Administrative Web Portal для Skype для бизнеса Server 2015 .](https://www.microsoft.com/download/details.aspx?id=46906)
+Скачайте [веб-Skype Microsoft Skype 1 Административный веб-портал для Skype для бизнеса Server 2015 г](https://www.microsoft.com/download/details.aspx?id=46906).
 
 Чтобы установить административный веб-портал SRS v1, используйте следующие действия.
 
@@ -98,7 +93,7 @@ ms.locfileid: "60843972"
 
     %Program Files%\Skype для бизнеса Server 2015\Web Components\Конференц-зал Portal\Int\Handler\
 
-4. В файле Web.Config измените имя portalUserName на имя пользователя, созданное в шаге 2 в разделе "Настройка среды для административного веб-портала[SRS v1"](room-system-v1-administrative-web-portal.md#Config_Env)(рекомендуемое имя на шаге — LRSApp):
+4. В Web.Config файле измените имя portalUserName на имя пользователя, созданное в шаге 2 в разделе "Настройка среды для административного веб-портала [SRS v1](room-system-v1-administrative-web-portal.md#Config_Env)" (рекомендуемое имя на шаге — LRSApp):
 
     ```xml
     <add key="PortalUserName" value="sip:LRSApp@domain.com" />
@@ -122,7 +117,7 @@ ms.locfileid: "60843972"
 
 1. На переднем сервере просмотрите следующий URL-адрес:
 
-    https:// \<fe-server\> /lrs
+    \<fe-server\>https:///lrs
 
     Вы не должны видеть ошибок, как показано на следующем изображении:
 
@@ -130,9 +125,9 @@ ms.locfileid: "60843972"
 
 2. Если вы не видите ошибок, попробуйте получить доступ к следующему URL-адресу с любого другого компьютера в топологии:
 
-    https:// \<fe-server\> /lrs
+    \<fe-server\>https:///lrs
 
-    Чтобы получить доступ к странице, необходимо добавить записи DNS, описанные в["Необходимые DNS-записи](/previous-versions/office/communications-server/bb663700(v=office.12))для автоматического входного клиента".
+    Чтобы получить доступ к странице, необходимо добавить записи DNS, описанные в "[Необходимые записи DNS для автоматического входного клиента](/previous-versions/office/communications-server/bb663700(v=office.12))".
 
 ## <a name="use-the-srs-administrative-web-portal"></a>Использование веб-портала администрирования SRS
 <a name="Use_Portal"> </a>
@@ -143,7 +138,7 @@ ms.locfileid: "60843972"
 
 1. Просмотрите следующий URL-адрес:
 
-    https:// \<fe-server\> /lrs
+    \<fe-server\>https:///lrs
 
 2. Введите учетные данные для учетной записи LRSSupport или учетной записи, добавленной в группу безопасности LRSSupportAdminGroup.
 
@@ -172,7 +167,7 @@ ms.locfileid: "60843972"
 
 Раздел Информация о комнатах портала позволяет просматривать и настраивать отдельные номера SRS. Он содержит четыре раздела: Параметры, Details, Logging и Health.
 
-#### <a name="settings"></a>Параметры
+#### <a name="settings"></a>Settings
 
 В разделе Параметры можно установить пароль, тег комнаты и уровни громкости по умолчанию для комнаты. Если настроить эти параметры, изменения реплицированы только после перезапуска консоли SRS. Параметры обновления системы для устройств SRS будут видеться только с помощью выпуска 15.12 и более поздней версии.
 
@@ -203,7 +198,7 @@ ms.locfileid: "60843972"
 
 Массовое управление комнатами SRS — это функция, предназначенная для продвинутых ИТ-администраторов, которая упрощает рабочий процесс и позволяет им с помощью удобного средства экономии времени удаленно управлять несколькими комнатами массово.
 
-Чтобы увидеть эту функциональность, необходимо, чтобы пользователь был участником специальной группы безопасности **LRSPowerUserAdminsGroup.**
+Чтобы увидеть эту функциональность, необходимо, чтобы пользователь был участником специальной группы безопасности **LRSPowerUserAdminsGroup**.
 
 Количество номеров SRS, которые можно выбрать для массового управления, не ограничивается. Однако одновременно можно выполнить только одну операцию по массовому управлению.
 
@@ -213,7 +208,7 @@ ms.locfileid: "60843972"
 
 #### <a name="why-cant-i-sign-in-to-the-administrative-web-portal"></a>Почему я не могу войти на административный веб-портал?
 
-Когда вы откроете, вы сможете увидеть знак на странице, но при введите учетные данные, вы https://localhost/lrs не можете войти. В этом случае необходимо открыть вход на https://FQDNofFEserver/SRS административный веб-портал.
+Когда вы откроете https://localhost/lrs, вы сможете увидеть знак на странице, но при введите учетные данные, вы не можете войти. В этом случае необходимо открыть вход https://FQDNofFEserver/SRS на административный веб-портал.
 
 #### <a name="why-cant-i-see-srs-v1-in-the-administrative-web-portal"></a>Почему я не могу видеть SRS v1 на административном веб-портале?
 
@@ -240,7 +235,7 @@ ms.locfileid: "60843972"
 
 - Убедитесь, что учетная запись пользователя LRSApp включена с поддержкой SIP.
 
-- Если у вас еще возникли проблемы, соберите файл **Trace.log** в системе SRS из D:\Tracing\LRSAdminLogs и отправьте его в службу поддержки \, SRS.
+- Если у вас еще возникли проблемы, соберите файл **Trace.log** в системе SRS из D:\Tracing\LRSAdminLogs\, и отправьте его в службу поддержки SRS.
 
 #### <a name="why-cant-i-see-the-bulk-management-menus-for-srs-in-the-administrative-web-portal"></a>Почему на административном веб-портале не видно меню управления массовыми рассылками для SRS?
 

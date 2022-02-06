@@ -1,27 +1,22 @@
 ---
 title: Определение корневой магистральной линии для нового шлюза IP или ТСОП
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.AddPstnGatewayTrunkPage
+  - ms.lync.tb.AddPstnGatewayTrunkPage
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 22203d9a-4612-45c7-9375-69ae9964ce1e
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: 'Корневую магистраль для IP-телефонии или ТСОП можно определить, настроив следующие параметры:'
-ms.openlocfilehash: 1a255c6b4dbe9b2e880c564abae90b2557a965cb
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60832593"
 ---
+
 # <a name="define-the-root-trunk-for-a-new-ip-or-pstn-gateway"></a>Определение корневой магистральной линии для нового шлюза IP или ТСОП
 
 Корневую магистраль для IP-телефонии или ТСОП можно определить, настроив следующие параметры:
@@ -32,9 +27,9 @@ ms.locfileid: "60832593"
 
 - **Транспортный протокол SIP** — выберите в списке **TCP** или **TLS** в зависимости от потребностей магистрали
 
-- **Связанный сервер-посредник:** выберите из списка доступных серверов-посредников в развертывании
+- **Связанный сервер-посредник**: выберите из списка доступных серверов-посредников в развертывании
 
-- **Связанный порт сервера-посредника:** определите порт, на который прослушивается выбранный сервер-посредник
+- **Связанный порт сервера-посредника**: определите порт, на который прослушивается выбранный сервер-посредник.
 
 ## <a name="see-also"></a>См. также
 

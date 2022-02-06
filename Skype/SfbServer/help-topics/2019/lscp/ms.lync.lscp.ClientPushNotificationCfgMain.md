@@ -1,27 +1,22 @@
 ---
 title: Конфигурация push-уведомлений для мобильных клиентов
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.lscp.ClientPushNotificationCfgMain
+  - ms.lync.lscp.ClientPushNotificationCfgMain
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: b7a85d75-9d36-4980-b669-2a009799d905
-ROBOTS: NOINDEX, NOFOLLOW
-description: Чтобы настроить push-уведомления Майкрософт и push-уведомления Apple, необходимо создать политику, определяющую тип требуемых push-уведомлений.
-ms.openlocfilehash: 0f0d5a465abecf9ba0f5fb2b5de594c537801914
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847982"
+ROBOTS: 'NOINDEX, NOFOLLOW'
+description: 'Чтобы настроить push-уведомления Майкрософт и push-уведомления Apple, необходимо создать политику, определяющую тип требуемых push-уведомлений.'
 ---
+
 # <a name="mobile-client-push-notification-configuration"></a>Мобильный клиент: конфигурация push-уведомлений
  
 Чтобы настроить **push-уведомления Майкрософт** и **push-уведомления Apple**, необходимо создать политику, определяющую тип требуемых push-уведомлений.

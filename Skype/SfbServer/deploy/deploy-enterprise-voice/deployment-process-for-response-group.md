@@ -1,28 +1,23 @@
 ---
 title: Процесс развертывания группы реагирования в Skype для бизнеса
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: d390c8a1-dc6e-44d8-b386-2be1fca9877c
 description: Процесс развертывания и действия группы реагирования в Skype для бизнеса Server Корпоративная голосовая связь.
-ms.openlocfilehash: 13a83c5fbedc2a7b38118b0e7935c4722e3855ca
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60853703"
 ---
+
 # <a name="deployment-process-for-response-group-in-skype-for-business"></a>Процесс развертывания группы реагирования в Skype для бизнеса
 
 Процесс развертывания и действия группы реагирования в Skype для бизнеса Server Корпоративная голосовая связь.
@@ -71,7 +66,7 @@ ms.locfileid: "60853703"
 
 ### <a name="enabling-users"></a>Включение пользователей
 
-Первым шагом в настройке группы реагирования является создание групп агентов. Прежде чем создать группу агентов, необходимо включить пользователей, которые будут агентами группы ответов для Skype для бизнеса и Корпоративная голосовая связь. Включение пользователей для Skype для бизнеса обычно является шагом в развертывании выпуск Enterprise или выпуск Standard сервера. Сведения о том, как включить пользователей для Skype для бизнеса, см. в материале [Enable or Disable Users for Lync Server 2013 Preview.](/previous-versions/office/lync-server-2013/lync-server-2013-disable-or-re-enable-user-account-for-lync-server) Включение пользователей для Корпоративная голосовая связь обычно является шагом в Корпоративная голосовая связь развертывания. Подробные сведения см. [в материале Включить пользователей для Корпоративная голосовая связь в Skype для бизнеса Server.](enable-users-for-enterprise-voice.md)
+Первым шагом в настройке группы реагирования является создание групп агентов. Прежде чем создать группу агентов, необходимо включить пользователей, которые будут агентами группы ответов для Skype для бизнеса и Корпоративная голосовая связь. Включение пользователей для Skype для бизнеса обычно является шагом в развертывании выпуск Enterprise или выпуск Standard сервера. Сведения о том, как включить пользователей для Skype для бизнеса, см. в материале [Enable or Disable Users for Lync Server 2013 Preview](/previous-versions/office/lync-server-2013/lync-server-2013-disable-or-re-enable-user-account-for-lync-server). Включение пользователей для Корпоративная голосовая связь обычно является шагом в Корпоративная голосовая связь развертывания. Подробные сведения см. [в материале Включить пользователей для Корпоративная голосовая связь в Skype для бизнеса Server](enable-users-for-enterprise-voice.md).
 
 ### <a name="complying-with-fips-requirements"></a>Соответствие требованиям стандарта FIPS
 
@@ -85,7 +80,7 @@ ms.locfileid: "60853703"
 
 2. В Web.config файле найдите  `<system.web>` раздел.
 
-3. Добавьте в  `<machineKey>` раздел следующий `<system.web>` раздел:
+3. Добавьте в раздел следующий  `<machineKey>` `<system.web>` раздел:
 
    ```xml
    <machineKey validationKey="AutoGenerate,IsolateApps" decryptionKey="AutoGenerate,IsolateApps" validation="3DES" decryption="3DES"/>
@@ -104,7 +99,7 @@ ms.locfileid: "60853703"
 Данный раздел относится к вам, только если вашей организации нужна поддержка подобных символов
 
 > [!NOTE]
-> Сведения о том, что такое символы Yi, Meng и Zang и почему они могут иметь важное значение для развертывания, см. в сведениях о наборах символов GB18030. [https://go.microsoft.com/fwlink/p/?linkId=240223](/previous-versions/sql/sql-server-2008-r2/ms180991(v=sql.105))
+> Сведения о том, что такое символы Yi, Meng и Zang и почему они могут иметь важное значение для развертывания, см. в сведениях о наборах символов GB18030 [https://go.microsoft.com/fwlink/p/?linkId=240223](/previous-versions/sql/sql-server-2008-r2/ms180991(v=sql.105)).
 
 Для поддержки данных символов необходимо изменить параметры сортировки базы данных Rgsconfig. Измените параметры сортировки столбца **Название** в следующих таблицах каждой базы данных Rgsconfig:
 
@@ -120,9 +115,9 @@ ms.locfileid: "60853703"
 
 Для SQL Server R2 и SQL Server 2012 используйте Latin_General_100 (Accent Sensitive). При использовании этих параметров сортировки все имена объектов не учитывают регистр.
 
-Изменить параметры сортировки можно с помощью Microsoft SQL Server Management Studio. Сведения об использовании этого средства см. в [материале "Использование SQL Server Management Studio".](/sql/ssms/sql-server-management-studio-ssms) Чтобы изменить параметры сортировки, выполните следующее:
+Изменить параметры сортировки можно с помощью Microsoft SQL Server Management Studio. Сведения об использовании этого средства см. в [материале "Использование SQL Server Management Studio"](/sql/ssms/sql-server-management-studio-ssms). Чтобы изменить параметры сортировки, выполните следующее:
 
-1. Убедитесь в том, что SQL Server Management Studio настроен так, что можно было бы вносить изменения, требующие пересоздания таблиц. Подробные сведения см. [в материале "Сохранить (не разрешено) диалоговое окно".](/sql/ssms/visual-db-tools/save-not-permitted-dialog-box) Подробные сведения о настройке коллаций столбцов см. в статье ["Как: набор коллаций столбцов (средства визуальной базы данных)".](/previous-versions/sql/sql-server-2008-r2/ms187473(v=sql.105))
+1. Убедитесь в том, что SQL Server Management Studio настроен так, что можно было бы вносить изменения, требующие пересоздания таблиц. Подробные сведения см. [в материале "Сохранить (не разрешено) диалоговое окно"](/sql/ssms/visual-db-tools/save-not-permitted-dialog-box). Подробные сведения о настройке коллаций столбцов см. в статье ["How to: Set Column Collation (Visual Database Tools)"](/previous-versions/sql/sql-server-2008-r2/ms187473(v=sql.105)).
 
 2. Используя Microsoft SQL Server Management Studio подключитесь к базе данных Rgsconfig.
 
@@ -137,7 +132,7 @@ ms.locfileid: "60853703"
 |**Этап**|**Действия**|**Разрешения**|**Документация по развертыванию**|
 |:-----|:-----|:-----|:-----|
 |Включить пользователей для Skype для бизнеса и для Корпоративная голосовая связь  <br/> |Включить пользователей, которые будут агентами для Skype для бизнеса и Корпоративная голосовая связь. Пользователей необходимо включить до того, как их можно будет добавлять в группы агентов. Как правило, пользователи включены для Skype для бизнеса во время выпуск Enterprise или выпуск Standard сервера. Пользователи включены для Корпоративная голосовая связь во время Корпоративная голосовая связь развертывания.  <br/> |RTCUniversalUserAdmins  <br/> CsUserAdministrator  <br/> CsAdministrator  <br/> |[Включить или отключить пользователей для предварительного просмотра Lync Server 2013](/previous-versions/office/lync-server-2013/lync-server-2013-disable-or-re-enable-user-account-for-lync-server) <br/> [Включить пользователей для Корпоративная голосовая связь в Skype для бизнеса Server](enable-users-for-enterprise-voice.md) <br/> |
-|Создание и настройка групп ответа, которые состоят из групп агентов, очередей и рабочих процессов  <br/> |1. Используйте панель управления Skype для бизнеса Server или Skype для бизнеса Server панели управления, чтобы сделать следующее:  <br/> а. Создайте и настройте группы агентов.  <br/> Б. Создайте и настройте очереди.  <br/> 2. Необязательно использовать Skype для бизнеса Server для создания заранее рабочих часов и праздников группы ответов.  <br/> 3. Используйте средство конфигурации группы ответов или Skype для бизнеса Server для создания рабочих процессов (групп охоты или потоков интерактивного голосового ответа (IVR), включая пользовательские рабочие часы и праздники группы ответов.  <br/> Вы можете получить доступ к средству конфигурации группы ответов Skype для бизнеса Server панели управления.  <br/> |RTCUniversalServerAdmins  <br/> CsResponseGroupAdministrator  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> CsResponseGroupManager  <br/> |[Создание групп агента группы ответа](/previous-versions/office/lync-server-2013/lync-server-2013-create-response-group-agent-groups) <br/> [Создание очередей группы ответа](/previous-versions/office/lync-server-2013/lync-server-2013-create-response-group-queues) <br/> [(Необязательный) Определение часов работы группы ответов в Skype для бизнеса](optional-define-response-group-business-hours.md) <br/> [(Необязательный) Определение наборов праздников группы ответов в Skype для бизнеса](optional-define-response-group-holiday-sets.md) <br/> [Разработка и создание рабочих процессов группы ответов в Skype для бизнеса](designing-and-creating-response-group-workflows.md) <br/> |
+|Создание и настройка групп ответа, которые состоят из групп агентов, очередей и рабочих процессов  <br/> |1. Используйте панель управления Skype для бизнеса Server или Skype для бизнеса Server панели управления, чтобы сделать следующее:  <br/> а. Создайте и настройте группы агентов.  <br/> б. Создайте и настройте очереди.  <br/> 2. Необязательно использовать Skype для бизнеса Server для создания заранее рабочих часов и праздников группы ответов.  <br/> 3. Используйте средство конфигурации группы ответов или Skype для бизнеса Server для создания рабочих процессов (групп охоты или потоков интерактивного голосового ответа (IVR), включая пользовательские рабочие часы и праздники группы ответов.  <br/> Вы можете получить доступ к средству конфигурации группы ответов Skype для бизнеса Server панели управления.  <br/> |RTCUniversalServerAdmins  <br/> CsResponseGroupAdministrator  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> CsResponseGroupManager  <br/> |[Создание групп агента группы ответа](/previous-versions/office/lync-server-2013/lync-server-2013-create-response-group-agent-groups) <br/> [Создание очередей группы ответа](/previous-versions/office/lync-server-2013/lync-server-2013-create-response-group-queues) <br/> [(Необязательный) Определение часов работы группы ответов в Skype для бизнеса](optional-define-response-group-business-hours.md) <br/> [(Необязательный) Определение наборов праздников группы ответов в Skype для бизнеса](optional-define-response-group-holiday-sets.md) <br/> [Разработка и создание рабочих процессов группы ответов в Skype для бизнеса](designing-and-creating-response-group-workflows.md) <br/> |
 |(Необязательно) Задание настроек на уровне приложения  <br/> |Используйте Skype для бизнеса Server Management Shell для настройки конфигурации музыки на удержание по умолчанию, аудиофайла с музыкой на удержании по умолчанию, льготного периода извещества агента и конфигурации контекста вызовов.  <br/> |RTCUniversalServerAdmins  <br/> CsResponseGroupAdministrator  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[Управление настройками группы реагирования на уровне приложений в Skype для бизнеса](managing-application-level-response-group-settings.md) <br/> |
 |(Необязательно) Делегирование управления группами реагирования  <br/> |Назначьте пользователям роль CsResponseGroupManager для делегирования настройки групп ответа. Затем руководители групп реагирования могут настроить группы ответов, назначенные им.  <br/> |RTCUniversalServerAdmins  <br/> CsResponseGroupAdministrator  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[Планирование контроля доступа на основе ролей](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-role-based-access-control) <br/> |
 |Проверка развертывания группы ответа  <br/> |Протестируйте ответ на звонки в сервисную группу и рабочие процессы IVR, чтобы гарантировать правильную работу конфигурации.  <br/> |-  <br/> |-  <br/> |
