@@ -10,27 +10,22 @@ audience: admin
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- M365-collaboration
+  - M365-collaboration
 appliesto:
-- Microsoft Teams
+  - Microsoft Teams
 f1.keywords:
-- CSH
-ms.custom: ''
-description: Узнайте, как настроить функцию автоотвода для Teams устройств с Android с помощью PowerShell.
-ms.openlocfilehash: e25b0694b54d1047c64ecaba026380ac9c4a9949
-ms.sourcegitcommit: 5e9a8d3cdb72b57adfb842200159c5d753b70ecb
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2022
-ms.locfileid: "62329108"
+  - CSH
+ms.custom: null
+description: 'Узнайте, как настроить функцию автоматического ответа для Комнаты Microsoft Teams на устройствах с Android и Teams с помощью PowerShell.'
 ---
-# <a name="set-up-auto-answer-for-teams-android-devices"></a>Настройка автоотвода для Teams Android
 
-Эта статья поможет вам настроить функцию автоотвода на Teams устройствах с Android. Автоответ позволяет пользователям в вашей организации с административными привилегиями изменять параметры устройства, чтобы автоматически принимать входящие приглашения на собрания и автоматически принимать звонки с видео.
+# <a name="set-up-auto-answer-for-microsoft-teams-rooms-on-android-and-teams-video-phone-devices"></a>Настройка автоотвода для Комнаты Microsoft Teams на устройствах с Android и Teams телефонов
+
+Эта статья поможет вам настроить функцию автоотвода на Комнаты Microsoft Teams на устройствах с Android и Teams телефонах. Автоответ позволяет пользователям в вашей организации с административными привилегиями изменять параметры устройства, чтобы автоматически принимать входящие приглашения на собрания и автоматически принимать звонки с видео.
 
 ## <a name="enable-auto-answer-with-powershell"></a>Включить автоотвод с помощью PowerShell
 
-Используйте следующие атрибуты, чтобы включить автоот ответ на Teams устройствах с Android:
+Используйте следующие атрибуты, чтобы включить автоотвод на Комнаты Microsoft Teams на устройствах с Android и Teams телефонах:
 
 - **Set-CsTeamsCallingPolicy -AutoAnswerEnabledType**
 - **Set-CsTeamsIPPhonePolicy -SignInMode**
