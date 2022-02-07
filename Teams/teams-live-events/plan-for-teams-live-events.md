@@ -1,32 +1,27 @@
 ---
 title: Планирование трансляций в Microsoft Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: sonua
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: high
 ms.collection:
-- M365-collaboration
-- m365initiative-meetings
-- m365initiative-meetings-enabler
-- enabler-strategic
+  - M365-collaboration
+  - m365initiative-meetings
+  - m365initiative-meetings-enabler
+  - enabler-strategic
 search.appverid: MET150
-description: В этой статье вы ознакомитесь с факторами, которые следует учитывать перед настройкой трансляций в Microsoft Teams.
+description: 'В этой статье вы ознакомитесь с факторами, которые следует учитывать перед настройкой трансляций в Microsoft Teams.'
 appliesto:
-- Microsoft Teams
+  - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c8d15111af3815cbf111d7c1d0e2e77298b7d3d5
-ms.sourcegitcommit: b3b295557d494f77a7ebd9f49ec55f2507da956c
-ms.translationtype: HT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/22/2021
-ms.locfileid: "61135192"
 ---
+
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Планирование трансляций в Microsoft Teams
 
 При планировании трансляций в Teams для проведения крупных собраний в организации необходимо учесть ряд факторов перед началом настройки.
