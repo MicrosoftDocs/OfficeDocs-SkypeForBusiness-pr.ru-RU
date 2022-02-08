@@ -1,8 +1,8 @@
 ---
 title: Включить запись детализации вызовов в Skype для бизнеса Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 3b28e432-596f-45a5-a070-577d6fa748d9
 description: Сводка. Сведения о том, как включить записи детализации вызовов (CDR) в Skype для бизнеса Server.
-ms.openlocfilehash: 7c987eccb9e75d1dc71f98e3cebea4003432523c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: bb041b82a32c4e3c03a62faf1129a066db5f9448
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60863586"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62390191"
 ---
 # <a name="enable-call-detail-recording-in-skype-for-business-server"></a>Включить запись детализации вызовов в Skype для бизнеса Server
 
@@ -45,7 +45,7 @@ ms.locfileid: "60863586"
 
 ## <a name="enabling-cdr-by-using-windows-powershell-cmdlets"></a>Включение CDR с помощью Windows PowerShell-кодов
 
-Можно включить CDR с помощью Windows PowerShell **и комлета Set-CsCdrConfiguration.** Этот комлет можно выполнить либо из Skype для бизнеса Server, либо из удаленного сеанса Windows PowerShell. Сведения об использовании удаленных Windows PowerShell для подключения к Skype для бизнеса Server см. в [материале Microsoft Lync Remote PowerShell Administration](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/). Этот процесс в Skype для бизнеса Server.
+Можно включить CDR с помощью Windows PowerShell **и комлета Set-CsCdrConfiguration**. Этот комлет можно выполнить либо из Skype для бизнеса Server, либо из удаленного сеанса Windows PowerShell. Сведения об использовании удаленных Windows PowerShell для подключения к Skype для бизнеса Server см. в [материале Microsoft Lync Remote PowerShell Administration](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/). Этот процесс в Skype для бизнеса Server.
 
 ### <a name="to-enable-cdr-for-a-single-location"></a>Включение CDR для отдельного места
 
@@ -71,7 +71,7 @@ ms.locfileid: "60863586"
   Get-CsCdrConfiguration | Set-CsCdrConfiguration -EnableCDR $True
   ```
 
-Дополнительные сведения см. в разделе справка для [cmdlet Set-CsCdrConfiguration.](/powershell/module/skype/set-cscdrconfiguration?view=skype-ps)
+Дополнительные сведения см. в разделе справка для [cmdlet Set-CsCdrConfiguration](/powershell/module/skype/set-cscdrconfiguration?view=skype-ps) .
 
 ## <a name="see-also"></a>См. также
 

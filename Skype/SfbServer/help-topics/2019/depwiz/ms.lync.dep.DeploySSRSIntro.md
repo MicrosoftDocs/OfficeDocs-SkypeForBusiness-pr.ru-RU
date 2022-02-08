@@ -1,8 +1,8 @@
 ---
 title: Службы SQL Server Reporting Services (введение)
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: f3cda686-6301-419c-af68-b49cc785e5fc
 ROBOTS: NOINDEX, NOFOLLOW
 description: С каждым пулом переднего плана и комплексом для обеспечения связи в филиалах может быть связан только один сервер мониторинга. Если мониторинг включен для сайта, сервер мониторинга обеспечивает сбор данных и создание отчетов для регистрации вызовов (CDR) и качества взаимодействия (QoE).
-ms.openlocfilehash: b7eeca39b79cfdcf2894441f19dfaf614992df83
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d6be2c31b3e8cf432a8577ea35fa8883e7332931
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849312"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62392091"
 ---
 # <a name="sql-server-reporting-services-intro"></a>Службы SQL Server Reporting Services (введение)
  

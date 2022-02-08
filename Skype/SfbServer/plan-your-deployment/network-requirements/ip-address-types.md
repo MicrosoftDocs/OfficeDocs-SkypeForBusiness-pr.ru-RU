@@ -1,8 +1,8 @@
 ---
 title: Настройка типов IP-адресов в Skype для бизнеса
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 17e756c0-6652-4cd5-b185-4b25929e3a42
 description: Сводка. Просмотрите ниже соображения типа IP-адресов перед реализацией Skype для бизнеса Server.
-ms.openlocfilehash: 936857f79cf71328303e3a0a842b230694cf86c1
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 076c0e0a3901a3c69a9c6dece73fda487cddfa8c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834997"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62390911"
 ---
 # <a name="configure-ip-address-types-in-skype-for-business"></a>Настройка типов IP-адресов в Skype для бизнеса
 
@@ -37,7 +37,7 @@ ms.locfileid: "60834997"
 
 1. В узле **Enterprise Edition Front End pools** (Интерфейсные пулы Enterprise Edition) щелкните правой кнопкой мыши сервер пула и затем выберите команду **Edit Properties** (Изменить свойства). (Либо выберите сервер и затем в меню **Action** (Действие) выберите команду **Edit Properties** (Изменить свойства).)
 
-2. В диалоговом окне **Edit Properties** (Изменение свойств) выберите тип IP-адреса, который необходимо настроить. Для конфигурации с двойным стеком выберите **Включить IPv4** и **включить IPv6.**
+2. В диалоговом окне **Edit Properties** (Изменение свойств) выберите тип IP-адреса, который необходимо настроить. Для конфигурации с двойным стеком выберите **Включить IPv4** и **включить IPv6**.
 
    **Диалоговое окно Edit Properties (Изменение свойств) для пула серверов переднего плана**
 
@@ -53,7 +53,7 @@ ms.locfileid: "60834997"
    - **PSTN IP address** (IP-адрес ТСОП). Укажите IP-адрес ТСОП, используемый при расположении сервера-посредника на сервере переднего плана. Введенный IP-адрес должен соответствовать формату выбранного типа адресов.
 
 > [!NOTE]
-> Установка дополнительных карт сетевого интерфейса (NICs) для поддержки конфигурации IP-адресов PSTN (или по любой другой причине) на интерфейсных серверах не поддерживается. Дополнительные сведения о поддерживаемых конфигурациях NIC для Skype для бизнеса Server см. в Skype для бизнеса Server серверных платформах [для Lync Server 2013.](/previous-versions/office/lync-server-2013/lync-server-2013-server-hardware-platforms)
+> Установка дополнительных карт сетевого интерфейса (NICs) для поддержки конфигурации IP-адресов PSTN (или по любой другой причине) на интерфейсных серверах не поддерживается. Дополнительные сведения о поддерживаемых конфигурациях NIC для Skype для бизнеса Server см. в Skype для бизнеса Server [server hardware platforms for Lync Server 2013](/previous-versions/office/lync-server-2013/lync-server-2013-server-hardware-platforms).
 
 ## <a name="deploy-ip-address-types-on-a-mediation-server"></a>Развертывание типов IP-адресов на сервере-посреднике
 
@@ -81,8 +81,8 @@ ms.locfileid: "60834997"
 > Мы поддерживаем только две сетевые карты на *выделенных* серверах-посредниках. Если роль посредника Sserver расположена в переднем конце, то двойные сетевые карты не поддерживаются. 
 
 > [!NOTE]
-> - Дополнительные сведения о поддерживаемых конфигурациях NIC за Skype для бизнеса Server 2015 г. см. в Skype для бизнеса Server [2015](../requirements-for-your-environment/server-requirements.md#hardware-for-skype-for-business-server-2015) г.
-> - Дополнительные сведения о поддерживаемых конфигурациях NIC Skype для бизнеса Server 2019 г. см. в Skype для бизнеса Server [2019 г.](../../../SfBServer2019/plan/system-requirements.md#hardware-for-skype-for-business-server-2019)
+> - Дополнительные сведения о поддерживаемых конфигурациях NIC за Skype для бизнеса Server 2015 г. см. в Skype для бизнеса Server [2015 г](../requirements-for-your-environment/server-requirements.md#hardware-for-skype-for-business-server-2015).
+> - Дополнительные сведения о поддерживаемых конфигурациях NIC Skype для бизнеса Server 2019 г. см. в [Skype для бизнеса Server 2019 г](../../../SfBServer2019/plan/system-requirements.md#hardware-for-skype-for-business-server-2019).
 
 
 
@@ -92,7 +92,7 @@ ms.locfileid: "60834997"
 
 ### <a name="to-deploy-ip-address-types-on-an-edge-server"></a>Развертывание типов IP-адресов в пограничном сервере
 
-1. В Topology Builder в **пулах Edge** щелкните правой кнопкой мыши сервер в пуле, а затем выберите **Edit Properties**. (можно также выбрать сервер, а затем выбрать пункт **Edit Properties (Изменить свойства)** в меню **Action (Действие)**.)
+1. В Topology Builder в **пулах Edge** щелкните правой кнопкой мыши сервер в пуле, а затем выберите **Изменить свойства**. (можно также выбрать сервер, а затем выбрать пункт **Edit Properties (Изменить свойства)** в меню **Action (Действие)**.)
 
 2. В окне **изменения свойств** выберите конфигурацию IP-адресов, которую планируется поддерживать.
 

@@ -1,8 +1,8 @@
 ---
 title: Добавление файлового хранилища сохраняемого чата
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: e1068706-ff61-4a98-8e51-4202111d936a
 description: Необходимо указать общий файловый ресурс, который будет использоваться в качестве хранилища файлов для сервера Standard Edition или пула переднего плана Enterprise Edition. В качестве хранилища файлов можно использовать существующий общий файловый ресурс. Кроме того, можно добавить новый общий файловый ресурс, указав полное доменное имя файлового сервера, на котором расположен общий файловый ресурс, и имя папки для нового общего файлового ресурса.
-ms.openlocfilehash: 528c1e2d78f67391af0536296588f6b047ee1c87
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d049f84307d5bd9d2db0e833dbb44b85164e6cd6
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850062"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62391211"
 ---
 # <a name="add-persistent-chat-file-store"></a>Добавление файлового хранилища сохраняемого чата
  

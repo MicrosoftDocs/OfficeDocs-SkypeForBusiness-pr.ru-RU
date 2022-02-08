@@ -1,8 +1,8 @@
 ---
 title: Удаление параметров конфигурации собраний в Skype для бизнеса Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 8ebafb86-13b9-468e-beda-f85f6786da85
 description: Сводка. Сведения об удалении параметров конфигурации собраний в Skype для бизнеса Server.
-ms.openlocfilehash: 95eda4da393f1eb677fc331ffb824e6222e35113
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: f08869e2cb9c59dc6fb382de6568ad913c329c1a
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60830903"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62391131"
 ---
 # <a name="delete-meeting-configuration-settings-in-skype-for-business-server"></a>Удаление параметров конфигурации собраний в Skype для бизнеса Server
  
@@ -39,7 +39,7 @@ ms.locfileid: "60830903"
     
 ## <a name="delete-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>Удаление параметров конфигурации собраний с помощью Skype для бизнеса Server управленческой оболочки
 
-Чтобы удалить параметры собраний, используйте комлет **Remove-CsMeetingConfiguration.**
+Чтобы удалить параметры собраний, используйте комлет **Remove-CsMeetingConfiguration** .
   
 Следующая команда удаляет параметры конфигурации собраний, применяемые к сайту Redmond:
   
@@ -53,4 +53,4 @@ Remove-CsMeetingConfiguration -Identity "site:Redmond"
 Get-CsMeetingConfiguration -Filter "site:*" | Remove-CsMeetingConfiguration
 ```
 
-Дополнительные сведения, включая полный список параметров, см. в [рублях Remove-CsMeetingConfiguration.](/powershell/module/skype/remove-csmeetingconfiguration?view=skype-ps)
+Дополнительные сведения, в том числе полный список параметров, см. в [рублях Remove-CsMeetingConfiguration](/powershell/module/skype/remove-csmeetingconfiguration?view=skype-ps).

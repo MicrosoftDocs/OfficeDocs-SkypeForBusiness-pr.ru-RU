@@ -1,8 +1,8 @@
 ---
 title: Компоненты и топологии для управления приемом вызовов в Skype для бизнеса
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0beec6be-2431-4255-a3d2-512dd030e66a
 description: Планирование управления приемом вызовов (CAC), если у вас есть сеть MPLS, магистраль SIP или сторонний шлюз PSTN или PBX. Применяется к Skype для бизнеса Server Корпоративная голосовая связь.
-ms.openlocfilehash: fe9eb0208787eaef6945ae2ca11935e59e8c7072
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: b813e4ae9bf50fd41c048796d9173a74068dd78f
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855436"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62390921"
 ---
 # <a name="components-and-topologies-for-call-admission-control-in-skype-for-business"></a>Компоненты и топологии для управления приемом вызовов в Skype для бизнеса
 
@@ -60,7 +60,7 @@ ms.locfileid: "60855436"
     > [!NOTE]
     > Для ITSP конфигурация этого сетевого узла не функциональна. Значения политики пропускной способности фактически применяются в шаге 2.
 
-2. Создайте межсайтовую ссылку для магистрали SIP с использованием соответствующих значений параметров для сайта, созданного на шаге 1. Например, используйте имя сетевого сайта в вашем предприятии в качестве значения параметра NetworkSiteID1, а сетевого сайта ITSP как значение параметра NetworkSiteID2. Дополнительные сведения см. в материале [Create network intersite policies in Skype для бизнеса Server](../../deploy/deploy-enterprise-voice/create-network-intersite-policies.md) документации по развертыванию и [New-CsNetworkInterSitePolicy.](/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps)
+2. Создайте межсайтовую ссылку для магистрали SIP с использованием соответствующих значений параметров для сайта, созданного на шаге 1. Например, используйте имя сетевого сайта в вашем предприятии в качестве значения параметра NetworkSiteID1, а сетевого сайта ITSP как значение параметра NetworkSiteID2. Дополнительные сведения см. в материале [Create network intersite policies in Skype для бизнеса Server](../../deploy/deploy-enterprise-voice/create-network-intersite-policies.md) документации по развертыванию и [New-CsNetworkInterSitePolicy](/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps).
 
 3. Получите IP-адрес точки прерывания мультимедиа диспетчера сеанса (SCB) в своем ITSP. Добавить этот IP-адрес с маской подсети 32 к сетевому узлу, представляющему ITSP. Подробные сведения см. в статье [Associate a Subnet with a Network Site](/previous-versions/office/lync-server-2013/lync-server-2013-associate-a-subnet-with-a-network-site).
 

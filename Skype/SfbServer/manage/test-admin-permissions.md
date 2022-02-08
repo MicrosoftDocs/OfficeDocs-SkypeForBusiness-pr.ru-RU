@@ -1,8 +1,8 @@
 ---
 title: Тестирование разрешений администратора в Skype для бизнеса Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Проверка разрешений администратора в Skype для бизнеса Server
-ms.openlocfilehash: 2c4525d83f3a097abfa168b706885a939e3b0663
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 48ffbe6863a85ecaa98cb526c16819f3d520def0
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60859986"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62391121"
 ---
 # <a name="testing-admin-permissions-in-skype-for-business-server"></a>Тестирование разрешений администратора в Skype для бизнеса Server
 
@@ -24,14 +24,14 @@ ms.locfileid: "60859986"
 |--|--|
 |Расписание проверки|После первоначального Skype для бизнеса Server развертывания. При необходимости, если возникают проблемы, связанные с разрешениями.|
 |Средство тестирования|Windows PowerShell|
-|Необходимые разрешения|При локальном запуске с Skype для бизнеса Server службы управления пользователи должны быть членами группы безопасности RTCUniversalServerAdmins.<br><br/>При запуске с помощью удаленного экземпляра Windows PowerShell пользователям должна быть назначена роль RBAC, которая имеет разрешение на Test-CsOUPermission cmdlet. Чтобы увидеть список всех ролей RBAC, которые могут использовать этот командлет, запустите следующую команду из Windows PowerShell:<br/><br/>Get-CsAdminRole Where-Object \| {$_. Командлеты -match "Test-CsOUPermission"}|
+|Необходимые разрешения|При локальном запуске с Skype для бизнеса Server службы управления пользователи должны быть членами группы безопасности RTCUniversalServerAdmins.<br><br/>При запуске с помощью удаленного экземпляра Windows PowerShell пользователям должна быть назначена роль RBAC, которая имеет разрешение на Test-CsOUPermission cmdlet. Чтобы увидеть список всех ролей RBAC, которые могут использовать этот командлет, запустите следующую команду из Windows PowerShell:<br/><br/>\| Get-CsAdminRole Where-Object {$_. Командлеты -match "Test-CsOUPermission"}|
 |||
 
-## <a name="description"></a>Description
+## <a name="description"></a>Описание
 
 При установке Skype для бизнеса Server одна из задач, выполняемых программой Установки, предоставляет группе RTCUniversalUserAdmins разрешения Active Directory, необходимые для управления пользователями, компьютерами, контактами, контактами приложений и пользователями InetOrg. Если у вас отключено наследование разрешений в Active Directory, установка не сможет назначить эти разрешения. В результате члены группы RTCUniversalUserAdmins не смогут управлять Skype для бизнеса Server сущностями. Эти привилегии управления будут доступны только администраторам доменов. 
 
-Этот Test-CsOUPermission проверяет, что необходимые разрешения, необходимые для управления пользователями, компьютерами и другими объектами, устанавливаются в контейнере Active Directory. Если эти разрешения не заданы, эту проблему можно решить, заняв кодлет [Grant-CsOUPermission.](/powershell/module/skype/Grant-CsOUPermission) 
+Этот Test-CsOUPermission проверяет, что необходимые разрешения, необходимые для управления пользователями, компьютерами и другими объектами, устанавливаются в контейнере Active Directory. Если эти разрешения не заданы, эту проблему можно решить с помощью [комлета Grant-CsOUPermission](/powershell/module/skype/Grant-CsOUPermission). 
 
 Обратите внимание, Grant-CsOUPermission могут назначать разрешения только членам группы RTCUniversalUserAdmins. Этот кодлет нельзя использовать для предоставления разрешений произвольному пользователю или группе. Если вы хотите, чтобы у другого пользователя или группы были разрешения на управление пользователями, следует добавить этого пользователя (или группу) в группу RTCUniversalUserAdmins. 
 

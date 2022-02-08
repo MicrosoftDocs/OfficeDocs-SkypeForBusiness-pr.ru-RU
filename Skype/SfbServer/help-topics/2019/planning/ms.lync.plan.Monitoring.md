@@ -1,8 +1,8 @@
 ---
-title: Skype для бизнеса Server Средство планирования мониторинга
+title: Skype для бизнеса Server мониторинга планирования
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,15 +15,15 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 9bbe86d0-b51a-4787-9029-d59e73c7906a
 description: В Skype для бизнеса Server мониторинг используется для сбора данных об использовании и качества работы (QoE) о сеансах связи, в которые вовлечены пользователи.
-ms.openlocfilehash: fb3aa79b207d61ebe6624b1e569f5881f59df9bb
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 90e633f04f1698c9dd66f780da2fcbe78141c280
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60828152"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62392061"
 ---
-# <a name="skype-for-business-server-monitoring-planning-tool"></a>Skype для бизнеса Server Средство планирования мониторинга
+# <a name="skype-for-business-server-monitoring-planning-tool"></a>Skype для бизнеса Server мониторинга планирования
 
 В Skype для бизнеса Server мониторинг используется для сбора данных об использовании и качества работы (QoE) о сеансах связи, в которые вовлечены пользователи.
 
-Дополнительные сведения о планировании для monitoring Server см. в [материале Planning for Monitoring.](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-monitoring)
+Дополнительные сведения о планировании мониторинга server см. в [материале Planning for Monitoring](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-monitoring).

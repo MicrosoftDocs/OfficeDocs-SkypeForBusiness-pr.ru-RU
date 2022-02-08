@@ -1,8 +1,8 @@
 ---
 title: Получение элементов измерений
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: bd89bbf7-cb98-4cd8-bbfa-0484663d14db
 description: Сводка. Сведения об операции Get Dimension Members. Операция Get Dimension Members является частью API данных для панели мониторинга качества вызовов. Панель мониторинга качества вызовов — это средство для Skype для бизнеса Server.
-ms.openlocfilehash: e8f3cfcfcc11a7c7e7834cf4043f610bb0606931
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: a88ae16a3ccf15a60a36805f475894b657641e6e
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862206"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62391041"
 ---
 # <a name="get-dimension-members"></a>Получение элементов измерений
  
@@ -33,7 +33,7 @@ ms.locfileid: "60862206"
 
 |**Способ**|**Запрос URI**|**ВЕРСИЯ HTTP**|
 |:-----|:-----|:-----|
-|POST  <br/> |https:// \<portal\> /QoEDataService/DimensionMembers  <br/> |HTTP/1.1  <br/> |
+|POST  <br/> |\<portal\>https:///QoEDataService/DimensionMembers  <br/> |HTTP/1.1  <br/> |
    
  **Параметры URI** . Нет.
   
@@ -52,7 +52,7 @@ ms.locfileid: "60862206"
 }
 ```
 
- **Ответ.** Ответ включает код состояния HTTP и набор заглавных заглавных ответов.
+ **Ответ** . Ответ включает код состояния HTTP и набор заглавных заглавных ответов.
   
  **Код состояния** — успешная операция возвращает код состояния 200 (OK).
   

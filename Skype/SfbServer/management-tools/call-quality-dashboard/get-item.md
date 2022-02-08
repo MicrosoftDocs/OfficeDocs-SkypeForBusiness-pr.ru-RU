@@ -1,8 +1,8 @@
 ---
 title: Получение элемента
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: e77bf649-d62a-4d94-80de-066ba47730cd
 description: Сводка. Сведения об операции Get Item, которая является частью службы элементов. Служба элементов является частью API репозиториев для панели мониторинга качества вызовов. Панель мониторинга качества вызовов — это средство для Skype для бизнеса Server.
-ms.openlocfilehash: 1818bb0538fdc02d77c731cad7404643dc84fe28
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: c99e848860d12b77a13dbf453298dc697cd2a665
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861236"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62390991"
 ---
 # <a name="get-item"></a>Получение элемента
  
@@ -32,7 +32,7 @@ ms.locfileid: "60861236"
   
 |**Способ**|**Запрос URI**|**ВЕРСИЯ HTTP**|
 |:-----|:-----|:-----|
-|GET  <br/> |https:// \<portal\> /QoERepositoryService/repository/item/{itemId}  <br/> |HTTP/1.1  <br/> |
+|GET  <br/> |\<portal\>https:///QoERepositoryService/repository/item/{itemId}  <br/> |HTTP/1.1  <br/> |
    
  **Параметры URI** . Нет.
   
@@ -40,7 +40,7 @@ ms.locfileid: "60861236"
   
  **Тело запроса** . Нет.
   
- **Ответ.** Ответ включает код состояния HTTP и набор заглавных заглавных ответов.
+ **Ответ** . Ответ включает код состояния HTTP и набор заглавных заглавных ответов.
   
  **Код состояния** — успешная операция возвращает код состояния 200 (OK). Если указанный код элемента не найден, он возвращает код состояния 404 (Не найден).
   

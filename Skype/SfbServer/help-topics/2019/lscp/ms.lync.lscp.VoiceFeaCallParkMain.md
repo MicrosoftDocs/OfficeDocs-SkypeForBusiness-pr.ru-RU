@@ -1,8 +1,8 @@
 ---
 title: Парковка вызовов
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: b752617d-554d-470e-b17b-387403ac74ed
 ROBOTS: NOINDEX, NOFOLLOW
 description: Когда вызов припаркован, он передается на временный номер, где вызов проводится до тех пор, пока кто-то не извлекает его или не разовьется. Вам необходимо настроить таблицу с диапазонами номеров расширения, которые вы reserving для припаркованных вызовов. Эти добавочные номера должны быть виртуальными (то есть не иметь назначенного пользователя или назначенный телефон). Каждый пул, который запускает приложение Call Park, может иметь один или несколько диапазонов расширений. Эти диапазоны должны быть уникальными в рамках всего развертывания.
-ms.openlocfilehash: f37913066bb2bf0a0eb6eec767501a3b16534ec6
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 2f5044eb6701a3231f3fd34f7d60aad79e0326c4
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60845702"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62391571"
 ---
 # <a name="call-park"></a>Парковка вызовов
 
@@ -42,7 +42,7 @@ ms.locfileid: "60845702"
 
 В следующем списке описываются команды на странице.
 
-- **Новые** Запускает новый диапазон номеров Call Park.
+- **Новые функции** Запускает новый диапазон номеров Call Park.
 
 - **Изменение** Открывает выбранный диапазон номеров для редактирования, выбирает все диапазоны номеров в списке или удаляет выбранный диапазон номеров.
 
@@ -58,4 +58,4 @@ ms.locfileid: "60845702"
 
 - **Назначение** Полное доменное имя (FQDN) или номер службы службы приложений, в котором размещено приложение Call Park для диапазона номеров.
 
-Сведения о возможностях и возможностях Call Park см. в материале [Plan for Call Park в Skype для бизнеса.](../../../plan-your-deployment/enterprise-voice-solution/call-park.md) Сведения о работе с диапазонами номеров Call Park см. в Телефон расширения номеров [для звонков о парковке.](/previous-versions/office/lync-server-2013/lync-server-2013-configure-phone-number-extensions-for-parking-calls)
+Сведения о возможностях и возможностях Call Park см. в материале [Plan for Call Park в Skype для бизнеса](../../../plan-your-deployment/enterprise-voice-solution/call-park.md). Сведения о работе с диапазонами номеров Call Park см. в Телефон расширения номеров [для звонков о парковке](/previous-versions/office/lync-server-2013/lync-server-2013-configure-phone-number-extensions-for-parking-calls).

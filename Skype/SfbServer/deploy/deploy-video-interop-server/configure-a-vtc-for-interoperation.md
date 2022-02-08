@@ -1,8 +1,8 @@
 ---
 title: Настройка VTC для межоперации с помощью Skype для бизнеса Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 1016aed6-99fe-452e-8b20-81c814808c3d
 description: Сводка. Настройте устройства VTC для работы с Skype для бизнеса Server.
-ms.openlocfilehash: f3804c0d7f86710fbefa9477d6cf1790b0f16af9
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 8044e2038ebb8e9c1b68b5b91473e9e57dd1fb7a
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861806"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62389661"
 ---
 # <a name="configure-a-vtc-for-interoperation-with-skype-for-business-server"></a>Настройка VTC для межоперации с помощью Skype для бизнеса Server
  
@@ -30,7 +30,7 @@ ms.locfileid: "60861806"
   
 ### <a name="configure-a-vtc-registered-with-cucm"></a>Настройка VTC, зарегистрированного в CUCM
 
-1. Войдите на устройство Cisco VTC и перейдите к конфигурации \> системы- \> подготовка.
+1. Войдите на устройство Cisco VTC и перейдите к конфигурации-подготовка\>\> конфигурации системы.
     
 2. Проверьте следующие параметры, исправив при необходимости: 
     
@@ -40,7 +40,7 @@ ms.locfileid: "60861806"
    |Адрес ExternalManager  <br/> | FQDN CUCM <br/> |
    | Домен ExternalManager <br/> |Домен CUCM  <br/> |
    
-3. Перейдите к конфигурации- \> конфигурации системы \> сети.
+3. Перейдите к конфигурации-system\> Configuration-Network\>.
     
 4. Проверьте следующие параметры, исправив при необходимости: 
     
@@ -49,7 +49,7 @@ ms.locfileid: "60861806"
    |Доменное имя DNS  <br/> | Доменное имя CUCM <br/> |
    |Адрес DNS Server 1  <br/> | желаемый адрес сервера DNS <br/> |
    
-5. Перейдите к \> службам конфигурации и конфигурации \> системы. Убедитесь, что режим H.323 отключен и включен режим SIP. 
+5. Перейдите к службам конфигурации-системы\> Конфигурация-Сеть\>. Убедитесь, что режим H.323 отключен и включен режим SIP. 
     
 6. Эти параметры устанавливаются автоматически при регистрации конечной точки в CUCM. Проверьте следующие параметры, исправив при необходимости: 
     
@@ -62,7 +62,7 @@ ms.locfileid: "60861806"
    |WelcomeText  <br/> | Вкл. <br/> |
    |Режим XMLAPI  <br/> | Вкл. <br/> |
    
-7. Перейдите к \> configuration-System \> Configuration-SIP.
+7. Перейдите к конфигурации-system\> Configuration-SIP\>.
     
 8. Проверьте следующие параметры, исправив при необходимости: 
     
@@ -78,7 +78,7 @@ ms.locfileid: "60861806"
 Теперь VTC настроен для межоперации. Перед началом службы необходимо выполнить последние действия на стороне CUCM.
 ### <a name="configure-vtc-devices-on-cucm"></a>Настройка устройств VTC на CUCM
 
-1. Войдите в систему CUCM и перейдите к Cisco Unified CM \> Administration-Device-Телефон-Find. \> \> 
+1. Войдите в систему CUCM и перейдите в Cisco Unified CM Administration-Device-Телефон-Find\>\>\>. 
     
 2. Выберите настраиваемое устройство VTC. Проверьте следующие параметры на экране Телефон конфигурации, исправив при необходимости. После изменения или проверки этих параметров нажмите кнопку **Сохранить**.
     

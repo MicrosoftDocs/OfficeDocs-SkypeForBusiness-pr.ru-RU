@@ -1,8 +1,8 @@
 ---
 title: Планирование видео-interop Server в Skype для бизнеса Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 4a8daf23-77ba-428b-bcbc-161f6af52c11
 description: Сводка. Просмотрите эту тему при планировании интеграции Skype для бизнеса Server с сторонними устройствами телеконференции.
-ms.openlocfilehash: b928e432b464e6bf1a5ccb8748ebf75ef8cc596b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 38e5baebc55cbcb209260f003ea107af590f94e8
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862066"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62389941"
 ---
 # <a name="plan-for-video-interop-server-in-skype-for-business-server"></a>Планирование видео-interop Server в Skype для бизнеса Server
  
@@ -58,7 +58,7 @@ Skype для бизнеса Server теперь позволяет интегр�
   
 ![Схема VIS в SfB.](../media/87753af5-b1d9-4107-9216-fde45a1af197.png)
   
-## <a name="features"></a>Функции
+## <a name="features"></a>Возможности
 
 Эта роль сервера обеспечивает:
   

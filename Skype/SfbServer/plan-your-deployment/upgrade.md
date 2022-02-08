@@ -1,8 +1,8 @@
 ---
 title: План обновления до Skype для бизнеса Server 2015 г.
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
@@ -16,22 +16,22 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: c62b5f6a-bdbe-4ac1-aabf-89e560e64a26
-description: 'Сводка. Сведения о том, что следует учитывать при планировании обновления до Skype для бизнеса Server 2015 г. Скачайте бесплатную пробную Skype для бизнеса Server 2015 г. из Центра оценки Майкрософт по ссылке: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server .'
-ms.openlocfilehash: be1d780230f15b1bf8c8205f2453f7b852fdb27a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+description: 'Сводка. Сведения о том, что следует учитывать при планировании обновления до Skype для бизнеса Server 2015 г. Скачайте бесплатную пробную Skype для бизнеса Server 2015 г. из Центра оценки Майкрософт по ссылке: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
+ms.openlocfilehash: ac78b3868713e3502ac3646a731b92695bd9c926
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849682"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62392321"
 ---
 # <a name="plan-to-upgrade-to-skype-for-business-server-2015"></a>План обновления до Skype для бизнеса Server 2015 г.
  
-Сводка. Сведения о том, что следует учитывать при планировании обновления до Skype для бизнеса Server 2015 г. Скачайте бесплатную пробную Skype для бизнеса Server 2015 г. из Центра оценки Майкрософт по ссылке: [https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server) .
+Сводка. Сведения о том, что следует учитывать при планировании обновления до Skype для бизнеса Server 2015 г. Скачайте бесплатную пробную Skype для бизнеса Server 2015 г. из Центра оценки Майкрософт по ссылке: [https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
   
 В рамках плана обновления до Skype для бизнеса Server 2015 г. используйте эту тему, чтобы понять рекомендуемые пути обновления до Skype для бизнеса Server 2015 г., как работает In-Place Upgrade, каковы поддерживаемые сценарии сосуществования и как выглядит процесс обновления.
 
 > [!NOTE]
-> Обновления на месте были доступны в Skype для бизнеса Server 2015 г., но больше не поддерживаются Skype для бизнеса Server 2019 г. Поддерживается совместное сосуществование, см. в Skype для бизнеса Server [2019](../../SfBServer2019/migration/migration-to-skype-for-business-server-2019.md) г. Дополнительные сведения.
+> Обновления на месте были доступны в Skype для бизнеса Server 2015 г., но больше не поддерживаются Skype для бизнеса Server 2019 г. Поддерживается совместное сосуществование, дополнительные сведения см. в [Skype для бизнеса Server 2019](../../SfBServer2019/migration/migration-to-skype-for-business-server-2019.md) г.
   
 ## <a name="recommended-upgrade-paths-to-skype-for-business-server-2015"></a>Рекомендуемые пути обновления Skype для бизнеса Server 2015 г.
 
@@ -42,13 +42,13 @@ ms.locfileid: "60849682"
   
 |**Версия**|**Рекомендации**|
 |:-----|:-----|
-|Lync Server 2013  <br/> | Для обновления используйте Skype для бизнеса Server topology Builder и новую функцию In-Place обновления на каждом из серверов, связанных с пулом. см. в описании План обновления с [Lync Server 2013 до Skype для бизнеса Server 2015](upgrade.md#BKMK_PlanUpgradeFromLync2013) г. и обновление до Skype для бизнеса Server [2015](../deploy/upgrade-to-skype-for-business-server.md) г. для подробных действий. <br/> |
+|Lync Server 2013  <br/> | Для обновления используйте Skype для бизнеса Server topology Builder и новую функцию In-Place обновления на каждом из серверов, связанных с пулом. см. подробные действия по обновлению с [Lync Server 2013 до Skype для бизнеса Server 2015](upgrade.md#BKMK_PlanUpgradeFromLync2013) г. и [обновление до Skype для бизнеса Server 2015](../deploy/upgrade-to-skype-for-business-server.md) г. <br/> |
 |Lync Server 2010 + Lync Server 2013 (двойной режим)  <br/> |Сначала обновим Lync Server 2013, а затем Skype для бизнеса Server 2015 с помощью новой функции In-Place обновления. Однако, если топология является основной Lync Server 2010, вы также можете откатать компоненты Lync Server 2013 в Lync Server 2010, а затем обновиться непосредственно до Skype для бизнеса Server 2015. В этом случае вы не сможете воспользоваться преимуществами In-Place и использовать прямое сосуществование между Lync Server 2010 и Skype для бизнеса Server 2015. Tri-existence не поддерживается, но сосуществование поддерживается.  <br/> |
-|Lync Server 2010  <br/> |Вывести новый пул Skype для бизнеса Server 2015 г., а затем перенести пользователей в этот новый пул. Затем можно списание старого пула Lync Server 2010. Обновление с Lync Server 2010 до Skype для бизнеса Server 2015 г. аналогично обновлению с Lync Server 2010 до Lync Server 2013. См. миграцию с [Lync Server 2010 на Lync Server 2013.](/previous-versions/office/lync-server-2013/migration-from-lync-server-2010-to-lync-server-2013)  <br/> |
-|Office Communications Server 2007 R2  <br/> | Выберите один из двух вариантов: <br/>  Настройка новой среды Skype для бизнеса Server 2015 г. <br/>  Или если ваше оборудование и программное обеспечение соответствуют требованиям Skype для бизнеса Server 2015 г., переехав в Lync Server 2013, а затем Skype для бизнеса Server 2015 г., используя новую функцию In-Place Upgrade. Дополнительные сведения см. в Skype для бизнеса Server Server [2015](requirements-for-your-environment/server-requirements.md) и миграции с [Office Communications Server 2007 R2 на Lync Server 2013.](/previous-versions/office/lync-server-2013/migration-from-office-communications-server-2007-r2-to-lync-server-2013)  <br/> |
+|Lync Server 2010  <br/> |Вывести новый пул Skype для бизнеса Server 2015 г., а затем перенести пользователей в этот новый пул. Затем можно списание старого пула Lync Server 2010. Обновление с Lync Server 2010 до Skype для бизнеса Server 2015 г. аналогично обновлению с Lync Server 2010 до Lync Server 2013. См. [миграцию с Lync Server 2010 на Lync Server 2013](/previous-versions/office/lync-server-2013/migration-from-lync-server-2010-to-lync-server-2013).  <br/> |
+|Office Communications Server 2007 R2  <br/> | Выберите один из двух вариантов: <br/>  Настройка новой среды Skype для бизнеса Server 2015 г. <br/>  Или если ваше оборудование и программное обеспечение соответствуют требованиям Skype для бизнеса Server 2015 г., переехав в Lync Server 2013, а затем Skype для бизнеса Server 2015 г., используя новую функцию In-Place Upgrade. Дополнительные сведения см. в дополнительных сведениях о требованиях к серверу [Skype для бизнеса Server 2015](requirements-for-your-environment/server-requirements.md) г. и миграции с [Office Communications Server 2007 R2 на Lync Server 2013](/previous-versions/office/lync-server-2013/migration-from-office-communications-server-2007-r2-to-lync-server-2013).  <br/> |
    
 > [!NOTE]
-> SQL Server 2014 г. поддерживается Skype для бизнеса Server 2015 г., но не поддерживается в Lync Server 2013. Если вы хотите обновить SQL Server 2012 г. до SQL Server 2014 г., пул сначала необходимо обновить до Skype для бизнеса Server 2015 г. с помощью метода In-Place Upgrade, как описано в этом документе. Затем можно обновить SQL Server 2012 г. SQL Server 2014 г. см. в SQL Server [2014](/sql/database-engine/install-windows/upgrade-sql-server?viewFallbackFrom=sql-server-2014)г. Дополнительные новости о требованиях к базе данных см. в Skype для бизнеса Server [2015 г.](requirements-for-your-environment/server-requirements.md) 
+> SQL Server 2014 г. поддерживается Skype для бизнеса Server 2015 г., но не поддерживается в Lync Server 2013. Если вы хотите обновить SQL Server 2012 г. до SQL Server 2014 г., пул сначала необходимо обновить до Skype для бизнеса Server 2015 г. с помощью метода In-Place Upgrade, как описано в этом документе. Затем можно обновить SQL Server 2012 г. SQL Server 2014 г. см. в SQL Server [2014 г](/sql/database-engine/install-windows/upgrade-sql-server?viewFallbackFrom=sql-server-2014). Дополнительные новости о требованиях к базе данных см. в Skype для бизнеса Server [2015 г](requirements-for-your-environment/server-requirements.md). 
   
 ## <a name="plan-to-upgrade-from-lync-server-2013-to-skype-for-business-server-2015"></a>План обновления с Lync Server 2013 до Skype для бизнеса Server 2015 г.
 <a name="BKMK_PlanUpgradeFromLync2013"> </a>
@@ -70,7 +70,7 @@ ms.locfileid: "60849682"
 1. Понимание текущей топологии.
     
     > [!NOTE]
-    > Не забудьте удалить средство администрирования LRS для Lync Server 2013 перед запуском In-Place обновления. Средство администрирования LRS для Lync Server 2013 не может сосуществовать с Skype для бизнеса Server 2015 г. После запуска In-Place установите новый инструмент администрирования LRS. Дополнительные сведения см. в Skype для бизнеса Server [2015](https://go.microsoft.com/fwlink/?LinkID=544807) г.
+    > Не забудьте удалить средство администрирования LRS для Lync Server 2013 перед запуском In-Place обновления. Средство администрирования LRS для Lync Server 2013 не может сосуществовать с Skype для бизнеса Server 2015 г. После запуска In-Place установите новый инструмент администрирования LRS. Дополнительные сведения см. в веб-портале административной системы microsoft [Lync Room для Skype для бизнеса Server 2015](https://go.microsoft.com/fwlink/?LinkID=544807) г.
   
 2. Основной пул обновления.
     
@@ -123,7 +123,7 @@ ms.locfileid: "60849682"
 #### <a name="move-users-for-hardware-upgrade"></a>Перемещение пользователей для обновления оборудования
 <a name="bkmk_MoveUsersMethod"> </a>
 
- Если ваше оборудование не соответствует требованиям Server для Skype для бизнеса Server [2015 г.,](requirements-for-your-environment/server-requirements.md)установите новую среду Skype для бизнеса Server 2015 г. и переместите пользователей туда. На следующей схеме показан обзор этого процесса обновления с Lync Server 2010. 
+ Если ваше оборудование не соответствует требованиям Server для Skype для бизнеса Server [2015](requirements-for-your-environment/server-requirements.md) г., установите новую среду Skype для бизнеса Server 2015 г. и переместите пользователей туда. На следующей схеме показан обзор этого процесса обновления с Lync Server 2010. 
   
 ![Схема переулок для плавания, на которую показано, как пользователи основного пула переднего конца Lync Server перемещаются в Skype для бизнеса Server 2015 г., а пул Lync Server выводит из эксплуатации.](../media/5e97ced8-72f4-4925-b09d-bda28a69d448.png)
   
@@ -150,7 +150,7 @@ ms.locfileid: "60849682"
    - Для серверов, не входив в серверы, используйте Start-CSWindowsService.
     
 > [!NOTE]
->  Если вы не хотите обновлять существующие базы данных архивации и мониторинга, удалите зависимость перед обновлением топологии. Если вы хотите создать новые базы данных архива и мониторинга, во время обновления можно создать новый SQL и связать его с пулом. Вы можете найти действия по этому вопросу в разделе[Upgrade to Skype для бизнеса Server 2015](../deploy/upgrade-to-skype-for-business-server.md). > обновления на месте не поддерживает высокую доступность или аварийное восстановление для Skype для бизнеса Server. Чтобы не прерывать работу служб пользователей, используйте метод [Move Users (без](upgrade.md#bkmk_MoveUsersMethod) простоя пользователя) для обновления.> В процессе обновления xds-replica помещается в локализованную общую папку на диске с самым свободным пространством. Если этот диск будет удален позже, вы можете начать работать с такими вопросами, как не запускаемая служба.
+>  Если вы не хотите обновлять существующие базы данных архивации и мониторинга, удалите зависимость перед обновлением топологии. Если вы хотите создать новые базы данных архива и мониторинга, во время обновления можно создать новый SQL и связать его с пулом. Действия по этому вопросу можно найти в разделе [Upgrade to Skype для бизнеса Server 2015.](../deploy/upgrade-to-skype-for-business-server.md) > обновления на месте не поддерживает высокую доступность или аварийное восстановление для Skype для бизнеса Server. Чтобы не прерывать работу служб пользователей, используйте метод [Move Users (](upgrade.md#bkmk_MoveUsersMethod) без простоя пользователя) для обновления.> В процессе обновления xds-replica помещается в локализованную общую папку на диске с самым свободным пространством. Если этот диск будет удален позже, вы можете начать работать с такими вопросами, как не запускаемая служба.
   
 ### <a name="upgrade-order"></a>Порядок обновления
 
@@ -158,14 +158,14 @@ ms.locfileid: "60849682"
   
 ### <a name="kerberos-authentication-considerations"></a>Соображения проверки подлинности Kerberos
 
-Если вы используете проверку подлинности Kerberos для веб-служб, необходимо перенаправить учетные записи Kerberos и сбросить пароль после завершения In-Place обновления. Чтобы узнать, как это сделать, см. в этой ленте [Настройка проверки подлинности Kerberos.](/previous-versions/office/lync-server-2013/lync-server-2013-setting-up-kerberos-authentication)
+Если вы используете проверку подлинности Kerberos для веб-служб, необходимо перенаправить учетные записи Kerberos и сбросить пароль после завершения In-Place обновления. Чтобы узнать, как это сделать, см. [в этой ленте Настройка проверки подлинности Kerberos](/previous-versions/office/lync-server-2013/lync-server-2013-setting-up-kerberos-authentication).
   
 ## <a name="support-for-coexistence-with-lync-server-2013-and-lync-server-2010"></a>Поддержка сосуществования с Lync Server 2013 и Lync Server 2010
 <a name="BKMK_PlanUpgradeFromLync2013"> </a>
 
 Вы можете выполнить Skype для бизнеса Server 2015 в той же топологии, что и Lync Server 2013 или Lync Server 2010, но вы не можете иметь все три в одной топологии.
   
-При совместном существовании между Lync Server 2010 и Lync Server 2013 рекомендуется обновить всю топологию до Lync Server 2013, а затем обновить до Skype для бизнеса Server 2015 с помощью In-Place Upgrade. Дополнительные сведения см. в [руб. Миграция с Lync Server 2010 на Lync Server 2013.](/previous-versions/office/lync-server-2013/migration-from-lync-server-2010-to-lync-server-2013)
+При совместном существовании между Lync Server 2010 и Lync Server 2013 рекомендуется обновить всю топологию до Lync Server 2013, а затем обновить до Skype для бизнеса Server 2015 с помощью In-Place Upgrade. Дополнительные сведения см. в [переналичении Миграция с Lync Server 2010 на Lync Server 2013](/previous-versions/office/lync-server-2013/migration-from-lync-server-2010-to-lync-server-2013).
   
 Если топология в основном Lync Server 2010, откатите компоненты Lync Server 2013 в Lync Server 2010 перед обновлением топологии до Skype для бизнеса Server 2015 г. В этом случае вы теряете преимущество In-Place обновления и имеете топологию сосуществования между Lync Server 2010 и Skype для бизнеса Server 2015.
   
@@ -180,9 +180,9 @@ Skype для бизнеса Server 2015 г. не поддерживает обн
   
 Однако мы поддерживаем сосуществование центра обработки Skype для бизнеса Server с Lync Server 2010 или Lync Server 2013 SBA/SBS. 
   
-При планировании In-Place обновления пула переднего плана Lync Server 2013 с связанной ветвью можно оставить существующих пользователей на SBA/SBS Lync Server 2013. Во время обновления пользователи SBA/SBS будут работать в режиме устойчивости и возвращаются к нормальной функциональности после завершения обновления. Дополнительные сведения об опыте пользователей в режиме устойчивости см. в [веб-сайте Branch-site resiliency features in Lync Server 2013.](/previous-versions/office/lync-server-2013/lync-server-2013-branch-site-resiliency-features)
+При планировании In-Place обновления пула переднего плана Lync Server 2013 с связанной ветвью можно оставить существующих пользователей на SBA/SBS Lync Server 2013. Во время обновления пользователи SBA/SBS будут работать в режиме устойчивости и возвращаются к нормальной функциональности после завершения обновления. Дополнительные сведения об опыте пользователей в режиме устойчивости см. в [веб-сайте Branch-site resiliency features in Lync Server 2013](/previous-versions/office/lync-server-2013/lync-server-2013-branch-site-resiliency-features).
   
-При переносе топологии Lync Server 2010 в Skype для бизнеса Server 2015 г. SBA/SBS должна быть добавлена в топологию, аналогично миграции в Lync Server 2013. Для необходимых действий ознакомьтесь с возможностью подключения к пулу передней части [Lync Server 2013.](/previous-versions/office/lync-server-2013/lync-server-2013-connecting-survivable-branch-appliance-to-lync-server-2013-front-end-pool)
+При переносе топологии Lync Server 2010 в Skype для бизнеса Server 2015 г. SBA/SBS должна быть добавлена в топологию, аналогично миграции в Lync Server 2013. Для необходимых действий ознакомьтесь с документом [Connecting Survivable Branch Appliance to Lync Server 2013 Front End pool](/previous-versions/office/lync-server-2013/lync-server-2013-connecting-survivable-branch-appliance-to-lync-server-2013-front-end-pool).
   
 Для совместной работы тополилогий Lync Server 2010 и Lync Server 2013 в первую очередь выполняем рекомендации, сделанные в разделе "Поддержка сосуществования с Lync Server 2013 и Lync Server 2010".
   

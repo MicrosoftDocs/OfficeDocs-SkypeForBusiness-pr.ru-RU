@@ -1,8 +1,8 @@
 ---
 title: Страница параметров установки зеркальной базы данных
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,18 +15,18 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 7500896a-14ea-4b11-aaee-be3d81314536
 description: Параметры зеркальной базы данных определяются следующим образом.
-ms.openlocfilehash: 2869af0b7ca4d455fc2fe1aea973e8764cbe0be7
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 548980ea6271dcfa98793ccbeed34e7121cd51d5
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847712"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62390271"
 ---
 # <a name="install-mirror-database-option-page"></a>Страница параметров установки зеркальной базы данных
  
 **Параметры зеркальной базы данных** определяются следующим образом.
   
-- Введите **путь к файлу,** чтобы определить расположение резервного SQL Server для зеркального копирования базы данных.
+- Введите **раздел Путь к файлу,** чтобы определить расположение резервного SQL Server для зеркального копирования базы данных.
     
     > [!NOTE]
     > У основного SQL Server (либо имени экземпляра, либо экземпляра по умолчанию) должны быть разрешения на записи в определенный здесь файл. Экземпляр зеркального SQL Server (или названный экземпляр или экземпляр по умолчанию) должен иметь разрешения на чтение одной и той же папки файла. 

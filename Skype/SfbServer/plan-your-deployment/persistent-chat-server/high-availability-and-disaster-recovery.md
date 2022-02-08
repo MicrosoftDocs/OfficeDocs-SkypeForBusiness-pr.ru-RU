@@ -1,8 +1,8 @@
 ---
 title: Планирование высокой доступности и аварийного восстановления для сохраняемой сервера чата в Skype для бизнеса Server 2015 г.
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 5/17/2016
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: d9aa622a-95a3-4d8e-8d49-cbfe183f25bf
 description: Сводка. Ознакомьтесь с этой темой, чтобы узнать о планировании высокой доступности и аварийного восстановления для стойких чат-серверов в Skype для бизнеса Server 2015 г.
-ms.openlocfilehash: 042080aebf57a14554820eea9b5bb9d5c9bb1f71
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 029258461e4248ccaebb6e3787f49d544f7fe4a2
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60836231"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62391871"
 ---
 # <a name="plan-for-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Планирование высокой доступности и аварийного восстановления для сохраняемой сервера чата в Skype для бизнеса Server 2015 г.
  
@@ -30,7 +30,7 @@ ms.locfileid: "60836231"
 > Использование SQL Групп доступности AlwaysOn не поддерживается с помощью баз данных сохраняемой системы чат-сервера. 
 
 > [!NOTE] 
-> Постоянный чат доступен в Skype для бизнеса Server 2015 г., но больше не поддерживается Skype для бизнеса Server 2019 г. Такая же функциональность доступна в Teams. Дополнительные сведения см. в ссылке Начало работы [с обновлением Microsoft Teams обновления.](/microsoftteams/upgrade-start-here) Если вам нужно использовать постоянный чат, вы можете либо перенести пользователей, требующих Teams, либо продолжить использование Skype для бизнеса Server 2015 г. 
+> Постоянный чат доступен в Skype для бизнеса Server 2015 г., но больше не поддерживается Skype для бизнеса Server 2019 г. Такая же функциональность доступна в Teams. Дополнительные сведения см. в [ссылке Начало работы с Microsoft Teams обновления](/microsoftteams/upgrade-start-here). Если вам нужно использовать постоянный чат, вы можете либо перенести пользователей, требующих Teams, либо продолжить использование Skype для бизнеса Server 2015 г. 
   
 ## <a name="resource-requirements"></a>Требуемые ресурсы
 
@@ -50,11 +50,11 @@ ms.locfileid: "60836231"
     
 ## <a name="disaster-recovery-and-high-availability-solutions"></a>Аварийное восстановление и решения с высокой доступностью
 
-Skype для бизнеса Server поддерживает несколько режимов высокой доступности для серверов back end, включая зеркальное отражение базы данных. Дополнительные сведения см. в [проекте Plan for high availability and disaster recovery in Skype для бизнеса Server 2015.](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md) 
+Skype для бизнеса Server поддерживает несколько режимов высокой доступности для серверов back end, включая зеркальное отражение базы данных. Дополнительные сведения см. в [руб. Plan for high availability and disaster recovery in Skype для бизнеса Server 2015.](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md) 
   
 Решение аварийного восстановления для стойких чат-серверов, описанных в этой теме, построено на растянутой пуле стойких серверов чата. Для растянутой сети виртуальной локальной области (VLAN) не существует требования. Растягивая пул сохраняемого сервера чата, вы логически настраиваете один пул топологии, но физически поместите серверы в пул в два разных центра обработки данных. Таким же образом SQL Server зеркальное отражение для базы данных и развертывание базы данных и зеркала в том же центре обработки данных. Необходимо настроить базу данных резервного копирования во вторичном центре обработки данных (с необязательным зеркалом для обеспечения высокой доступности во время аварийного восстановления). Это база данных резервного копирования, используемая для сбойов при аварийном восстановлении. 
   
-Подробные сведения о настройке высокой доступности и аварийного восстановления для стойких чат-серверов см. в материале [Configure high availability and disaster recovery for Persistent Chat Server в Skype для бизнеса Server 2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md)г. . 
+Сведения о настройке высокой доступности и аварийного восстановления для стойких чат-серверов см. в материале [Configure high availability and disaster recovery for Persistent Chat Server в Skype для бизнеса Server 2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md) г. 
   
 На следующих рисунках покажите, как можно настроить пул Persistent Chat Server в двух разных топологиях пула:
   

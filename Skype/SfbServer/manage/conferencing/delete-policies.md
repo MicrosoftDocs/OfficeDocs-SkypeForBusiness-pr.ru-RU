@@ -1,8 +1,8 @@
 ---
 title: Удаление политик conferencing в Skype для бизнеса Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 497e6ca0-7a49-4f3e-9804-14414cf87b57
 description: Сводка. Сведения об удалении политик конференциинга в Skype для бизнеса Server.
-ms.openlocfilehash: 47138386812ddd401b7aa9edb54f5a619914f6fe
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d0447facef0f94b4e2a9c073b23f51438db7080a
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847382"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62391171"
 ---
 # <a name="delete-conferencing-policies-in-skype-for-business-server"></a>Удаление политик conferencing в Skype для бизнеса Server
  
@@ -33,11 +33,11 @@ ms.locfileid: "60847382"
     
 3. В левой панели навигации нажмите **кнопку Conferencing** и нажмите кнопку **Политика конференциации**.
     
-4. В списке политик конференциинга щелкните веб-сайт или политику пользователей, которые необходимо удалить, нажмите кнопку **Изменить** и нажмите **кнопку Удалить**.
+4. В списке политик conferencing щелкните веб-сайт или политику пользователя, которую необходимо удалить, нажмите кнопку **Изменить**, а затем нажмите **кнопку Удалить**.
     
 ## <a name="delete-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>Удаление политик conferencing с помощью Skype для бизнеса Server управленческой оболочки
 
-Чтобы удалить политики conferencing, используйте **cmdlet Remove-CsConferencingPolicy.**
+Чтобы удалить политики conferencing, используйте **cmdlet Remove-CsConferencingPolicy** .
   
 Следующая команда удаляет политику конференц-связи с идентификатором RedmondConferencingPolicy:
   
@@ -51,4 +51,4 @@ Remove-CsConferencingPolicy -Identity "RedmondConferencingPolicy"
 Get-CsConferencingPolicy | Where-Object {$_.AllowExternalUsersToRecordMeetings -eq $True} | Remove-CsConferencingPolicy
 ```
 
-Дополнительные сведения, включая полный синтаксис и список параметров, см. в обзоре [Remove-CsConferencingPolicy.](/powershell/module/skype/remove-csconferencingpolicy?view=skype-ps)
+Дополнительные сведения, включая полный синтаксис и список параметров, см. в обзоре [Remove-CsConferencingPolicy](/powershell/module/skype/remove-csconferencingpolicy?view=skype-ps).

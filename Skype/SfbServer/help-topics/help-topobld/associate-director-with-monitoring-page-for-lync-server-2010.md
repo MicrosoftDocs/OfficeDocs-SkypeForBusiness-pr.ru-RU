@@ -1,8 +1,8 @@
 ---
 title: Страница сопоставления директора с мониторингом для Lync Server 2010
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 4ad77291-832d-41ee-9ffc-61132691363b
 description: 'Чтобы настроить сервер мониторинга и связать его с пулом Директор или Директор:'
-ms.openlocfilehash: 342a5c81ed0217b2275897e7bc166d44bea1f1e6
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: ea5a5da88c04cc21e4f31c3262f223f410b91a8c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60842822"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62392701"
 ---
 # <a name="associate-director-with-monitoring-page-for-lync-server-2010"></a>Страница сопоставления директора с мониторингом для Lync Server 2010
  
@@ -28,7 +28,7 @@ ms.locfileid: "60842822"
   
 В **статье Monitoring Server** выберите из списка сервер мониторинга.
   
-Если нет сервера мониторинга, и вы хотите создать сервер мониторинга сейчас, нажмите **кнопку New**.
+Если нет сервера мониторинга и вы хотите создать сервер мониторинга сейчас, нажмите **кнопку New**.
   
  **Назад**. Возврат в предыдущее диалоговое окно
   

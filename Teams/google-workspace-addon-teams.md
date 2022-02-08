@@ -1,7 +1,7 @@
 ---
 title: Настройка надстройки Microsoft Teams собрания для Google Workspace
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 ms.reviewer: aravin
 manager: serdars
 ms.topic: article
@@ -18,16 +18,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c5b3d873dd327be4cbc28d4d979ad06cb6f9c9ea
-ms.sourcegitcommit: 9ed5aecbf671accae93ac5084ad7875e82e3858b
+ms.openlocfilehash: b93fecea83a4fb44a19f490af514626a0d17f3ff
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/31/2021
-ms.locfileid: "61648887"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62388991"
 ---
 # <a name="set-up-microsoft-teams-meeting-add-on-for-google-workspace"></a>Настройка надстройки Microsoft Teams собрания для Google Workspace
 
-Использование надстройки Microsoft Teams собраний позволяет пользователям календаря Google планировать и присоединяться Microsoft Teams собрания непосредственно из Google Workspace. Пользователи получат доступ к Teams собраниям, включая видео- и аудиоконференцию, общий доступ к экрану, чат собрания, цифровые доски и т. д. Оставайтесь на связи и организовывайтесь для более тесной совместной работы, учебного заведения и жизни.
+С помощью Microsoft Teams собрания пользователи календаря Google могут планировать собрания и присоединяться к ним Microsoft Teams непосредственно из Google Workspace. Пользователи получат доступ к Teams собраниям, включая видео- и аудиоконференцию, общий доступ к экрану, чат собрания, цифровые доски и т. д. Оставайтесь на связи и организовывайтесь для более тесной совместной работы, учебного заведения и жизни.
 
 Надстройка Microsoft Teams собрания для Google Workspace должна быть включена администратором Teams, чтобы пользователи клиента могли получить доступ к приложению.
 
@@ -39,9 +39,9 @@ ms.locfileid: "61648887"
 
 1. Во войти на портал Azure.
 
-2. Выберите **Enterprise все**  >  **приложения**.
+2. Выберите **Enterprise** **приложенияВсе** >  приложения.
 
-3. Поиск **надстройки Microsoft Teams собрания для Google Workspace.**
+3. Поиск **надстройки Microsoft Teams собрания в Google Workspace**.
 
    ![Портал Azure со всеми приложениями.](media/aad-add-google-workspace.png)
 
@@ -49,7 +49,7 @@ ms.locfileid: "61648887"
 
    ![Портал Azure со свойствами рабочей области Google.](media/google-workspace-properties.png)
 
-5. (Необязательно) Чтобы отключить надстройку, в шаге 4 выберите **Нет** вместо **Да.**
+5. (Необязательно) Чтобы отключить надстройку, в шаге 4 выберите **Нет** вместо **Да** .
 
 ## <a name="disable-microsoft-teams-meeting-add-on-for-google-workspace-using-powershell"></a>Отключение Microsoft Teams собрания в Google Workspace с помощью PowerShell
 
@@ -73,11 +73,11 @@ if ($servicePrincipal) {
 }
 ```
 
-Дополнительные сведения см. [в этой](/powershell/azure/create-azure-service-principal-azureps?view=azps-5.0.0)Azure PowerShell.
+Дополнительные сведения см. [в этой](/powershell/azure/create-azure-service-principal-azureps?view=azps-5.0.0) Azure PowerShell.
 
 ## <a name="delete-the-microsoft-teams-meeting-add-on-for-google-workspace"></a>Удаление надстройки Microsoft Teams собрания Google Workspace
 
-Инструкции см. в документации Google Удаление [приложения Google Workspace Marketplace.](https://support.google.com/a/answer/6216211?hl=en)
+Инструкции см. в [документации Google Удаление приложения Google Workspace Marketplace](https://support.google.com/a/answer/6216211?hl=en) .
 
 ## <a name="create-the-microsoft-teams-meeting-add-on-for-google-workspace-using-powershell"></a>Создание надстройки Microsoft Teams собрания для Google Workspace с помощью PowerShell
 

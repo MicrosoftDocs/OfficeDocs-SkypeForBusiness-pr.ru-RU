@@ -1,8 +1,8 @@
 ---
 title: Контрольный список первого запуска для панели управления Skype для бизнеса Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/23/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 4d0c7306-e87e-464a-82ad-a5537f141500
 description: Добро пожаловать в панель Skype для бизнеса Server, веб-интерфейс пользователя для администрирования и управления Skype для бизнеса Server. Панели управления можно использовать для выполнения типов административных задач, выполняемых с помощью консоли управления Майкрософт в предыдущих выпусках.
-ms.openlocfilehash: 987ec6afc4a6e6ed341452857d24354390235250
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 40086a1f38a7b4e8adf8b39bbdfe0e98a9b8e515
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60836641"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62391901"
 ---
 # <a name="first-run-checklist-for-skype-for-business-server-control-panel"></a>Контрольный список первого запуска для панели управления Skype для бизнеса Server
 
@@ -29,7 +29,7 @@ ms.locfileid: "60836641"
 Существует ряд важных задач, которые мы настоятельно рекомендуем выполнять после развертывания Skype для бизнеса Server. Некоторые из этих задач — это начальные этапы конфигурации, которые вы, возможно, уже выполнили во время развертывания, а другие — уточнения или изменения параметров, настроенных во время развертывания или параметров по умолчанию. Другие задачи, описанные в этом разделе, проверяют конфигурации, которые были сделаны во время процесса развертывания.
 
 > [!NOTE]
-> Перед выполнением задач в следующей таблице убедитесь, что вы входите в систему с использованием правильных прав [](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-role-based-access-control) пользователей, разрешений и роли, как описано в разделе "Роли и область" в разделе Управление доступом на основе ролей.
+> Перед выполнением задач в следующей таблице убедитесь, что вы входите в систему с использованием правильных прав пользователей, разрешений и роли, как описано в разделе "Роли и область[](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-role-based-access-control)" в разделе Управление доступом на основе ролей.
 
 ## <a name="first-run-checklist"></a>Контрольный список первого запуска
 
