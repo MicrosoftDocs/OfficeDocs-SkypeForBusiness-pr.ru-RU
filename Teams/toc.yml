@@ -249,6 +249,18 @@ items:
                 href: /SkypeForBusiness/hybrid/cloud-consolidation-aad-connect
           - name: Интеграция с Exchange и SharePoint
             href: /SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint
+  - name: Переход с Kaizala
+    items:
+      - name: Начало работы
+        href: get-started-kaizala-teams.md
+      - name: Подготовка к обновлению
+        href: prepare-for-teams-kaizala.md
+      - name: Планирование процедуры обновления
+        href: plan-your-move-kaizala.md
+      - name: Обзор Microsoft Teams
+        href: navigate-teams.md
+      - name: Знакомство с Microsoft Teams
+        href: drive-adoption-optimize-kaizala.md
   - name: 'Безопасность, соответствие требованиям и конфиденциальность'
     items:
       - name: Обзор
@@ -753,7 +765,7 @@ items:
                 href: ptsn-mask-phone-numbers.md
           - name: Доступность аудиоконференций в различных странах и регионах
             href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
-          - name: Справка
+          - name: Справочные материалы
             items:
               - name: Поддерживаемые языки аудиоконференций
                 href: audio-conferencing-supported-languages.md
