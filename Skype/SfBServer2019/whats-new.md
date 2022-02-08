@@ -1,8 +1,8 @@
 ---
 title: Новые возможности Skype для бизнеса Server 2019 | Функции
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: overview
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: Сводка. Эти функции являются новыми в Skype для бизнеса Server 2019.
-ms.openlocfilehash: 2acfaef02b140d8e52fce43e0fef9125378047ea
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 79e6ef88f327b43fd9049c2e1a3ce1492fc9b8ee
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858026"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62393454"
 ---
 # <a name="whats-in-skype-for-business-server-2019"></a>What's in Skype для бизнеса Server 2019
 
@@ -31,14 +31,14 @@ ms.locfileid: "60858026"
 
 ## <a name="unified-messaging-services-cloud-voicemail"></a>Единые службы обмена сообщениями: облачная голосовая почта
 
-Exchange В 2019 Skype для бизнеса Server 2019 г. при интеграции Skype для бизнеса 2019 г. с Exchange 2013 г. или Exchange 2016 г. Из-за изменений в поддержке Exchange 2019 г. Exchange интеграция um отостановки в пользу облачная голосовая почта и облачных автосекретарь функций.  
+Exchange 2019 г. Skype для бизнеса Server 2019 г. при интеграции Skype для бизнеса 2019 г. с Exchange 2013 г. или Exchange 2016 г. Из-за изменений в поддержке Exchange 2019 г. Exchange интеграция um отостановки в пользу облачная голосовая почта и облачных автосекретарь функций.  
 
 облачная голосовая почта позволяет всем пользователям Skype для бизнеса 2019 г.&#x2014;независимо от того, находятся ли они в помещении или&#x2014;в Интернете, доступ к одной и той же службе голосовой почты в Microsoft Cloud. облачная голосовая почта предоставляет следующие преимущества как для локального, так и для пользователей в Интернете:
 
 - Доступ к голосовой почте в Exchange почтовый ящик с помощью Skype для бизнеса Online, Teams или Outlook клиентов
 - Возможность использования веб-портала для управления вариантами голосовой почты
 
-Дополнительные [сведения см. в](../sfbhybrid/hybrid/plan-cloud-voicemail.md) облачная голосовая почта службе Plan Skype для бизнеса Server [и Exchange Server миграции.](../sfbhybrid/hybrid/plan-um-migration.md)
+[Дополнительные сведения см. в](../sfbhybrid/hybrid/plan-cloud-voicemail.md) облачная голосовая почта [службе Plan Skype для бизнеса Server и Exchange Server миграции](../sfbhybrid/hybrid/plan-um-migration.md).
   
 ## <a name="call-monitoring-call-data-connector"></a>Мониторинг вызовов: соединители данные вызовов
 

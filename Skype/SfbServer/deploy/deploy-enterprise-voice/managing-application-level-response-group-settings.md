@@ -1,8 +1,8 @@
 ---
 title: Управление настройками группы реагирования на уровне приложений в Skype для бизнеса
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: aab749a1-fa2d-4ce8-a6c6-ebcfa37ce02a
 description: Управление настройками группы реагирования на уровне приложений, такими как параметры "музыка на удержание" и "звон" в Skype для бизнеса Server Корпоративная голосовая связь.
-ms.openlocfilehash: 7ac6b9e03f8a738baa5bb41bac858da1ce057c8b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 05ff86de40efe4d75b9d7fcb54b50615ae7245a8
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60839671"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394311"
 ---
 # <a name="managing-application-level-response-group-settings-in-skype-for-business"></a>Управление настройками группы реагирования на уровне приложений в Skype для бизнеса
  
@@ -35,7 +35,7 @@ ms.locfileid: "60839671"
 
 1. Войдите в группу RTCUniversalServerAdmins или в качестве члена одной из предопределяемой административной роли, поддерживаемой группой реагирования.
     
-2. Запустите Skype для бизнеса Server: нажмите кнопку Начните, щелкните Все **программы,** нажмите кнопку Skype для бизнеса **2015,** а затем нажмите кнопку **Skype для бизнеса Server.**
+2. Запустите Skype для бизнеса Server: нажмите кнопку **Начните, нажмите** кнопку Все **программы, нажмите** кнопку Skype для бизнеса **2015**, а затем нажмите кнопку **Skype для бизнеса Server управленческой оболочки**.
     
 3. В командной строке выполните следующую команду:
     

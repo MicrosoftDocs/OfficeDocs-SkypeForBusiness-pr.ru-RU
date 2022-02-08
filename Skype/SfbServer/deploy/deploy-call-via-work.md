@@ -1,8 +1,8 @@
 ---
 title: Развертывание вызовов с помощью Skype для бизнеса Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,18 +15,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4802d733-14ef-4509-92b9-07173614e45f
 description: Сводка. Узнайте, как развернуть call Via Work в Skype для бизнеса Server для некоторых или всех пользователей.
-ms.openlocfilehash: 932d94c13d4ba9ead63504cfba66175db52084d7
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 7ac3d09d81e602c108e1804ad837dd1c87d17e1b
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851623"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62393421"
 ---
 # <a name="deploy-call-via-work-in-skype-for-business-server"></a>Развертывание вызовов с помощью Skype для бизнеса Server
  
 **Сводка:** Узнайте, как развернуть call Via Work в Skype для бизнеса Server для некоторых или всех пользователей.
   
-Используйте эти действия для развертывания call Via Work для пользователей. Соображения планирования обсуждаются в [plan for Call Via Work в Skype для бизнеса Server.](../plan-your-deployment/enterprise-voice-solution/call-via-work.md) В предыдущих версиях удаленного управления вызовами Lync Server была функция, которая позволяла пользователям управлять своими PBX-телефонами с помощью Lync Server. В Skype для бизнеса Server эта функция была заменена на Call Via Work. 
+Используйте эти действия для развертывания call Via Work для пользователей. Соображения планирования обсуждаются в [plan for Call Via Work в Skype для бизнеса Server](../plan-your-deployment/enterprise-voice-solution/call-via-work.md). В предыдущих версиях удаленного управления вызовами Lync Server была функция, которая позволяла пользователям управлять своими PBX-телефонами с помощью Lync Server. В Skype для бизнеса Server эта функция была заменена на Call Via Work. 
   
 ## <a name="prerequisites-for-call-via-work"></a>Необходимые условия для вызова с помощью работы
 
@@ -38,7 +38,7 @@ Call Via Work использует веб-API единой связи (UCWA), к
     
 - Необходимо включить все пользователи call Via Work для Корпоративная голосовая связь. При этом необходимо настроить номер Skype для бизнеса did для каждого пользователя на соответствующий номер DID для соответствующей телефонной системы PBX. 
     
-- Все пользователи, которые будут использовать  Call Via Work, должны иметь автоматическую конфигурацию, выбранную в их варианте **Расширенные** подключения в Skype для бизнеса клиенте. Это позволяет клиенту открывать URL-адреса UCWA. **Автоматическая конфигурация** — это выбор по умолчанию.
+- Все пользователи, которые будут использовать Call Via Work, должны  иметь автоматическую конфигурацию, выбранную в их варианте **Расширенные** подключения в Skype для бизнеса клиенте. Это позволяет клиенту открывать URL-адреса UCWA. **Автоматическая конфигурация** — это выбор по умолчанию.
     
 - Для каждого пользователя Call Via Work взовите переададку вызовов и одновременный звон. 
     
@@ -92,7 +92,7 @@ Call Via Work использует веб-API единой связи (UCWA), к
   Grant-CsCallViaWorkPolicy -Identity <UserName> -PolicyName Tag:<PolicyName>
   ```
 
-    Например, следующий кодлет назначает политику Call Via Work "ContosoUser1CvWP" пользователю с именем **ContosoUser1.**
+    Например, следующий кодлет назначает политику Call Via Work "ContosoUser1CvWP" пользователю с именем **ContosoUser1**.
     
   ```powershell
   Grant-CsCallViaWorkPolicy -Identity ContosoUser1 -PolicyName Tag:ContosoUser1CvWP

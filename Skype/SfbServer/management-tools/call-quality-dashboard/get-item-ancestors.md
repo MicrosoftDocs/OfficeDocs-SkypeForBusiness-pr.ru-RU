@@ -1,8 +1,8 @@
 ---
 title: Получить родительских элементов
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d39b1dbc-1514-43ec-8593-9f23b3fcae62
 description: Сводка. Сведения об операции Get Item Ancestors, которая является частью службы элементов. Служба элементов является частью API репозиториев для панели мониторинга качества вызовов. Панель мониторинга качества вызовов — это средство для Skype для бизнеса Server.
-ms.openlocfilehash: ec62275bc3c63d501370d4e27c57d69d1d9f4d5e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0cfc5385af1c0c821d4dc64e9ba0e0bd092fe833
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847252"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62393741"
 ---
 # <a name="get-item-ancestors"></a>Получить родительских элементов
  
@@ -33,7 +33,7 @@ Get Item Ancestors returns a specific items ancestors from the repository.
 
 |**Способ**|**Запрос URI**|**ВЕРСИЯ HTTP**|
 |:-----|:-----|:-----|
-|GET  <br/> |https:// \<portal\> /QoERepositoryService/repository/itemAncestors/{itemId}  <br/> |HTTP/1.1  <br/> |
+|GET  <br/> |\<portal\>https:///QoERepositoryService/repository/itemAncestors/{itemId}  <br/> |HTTP/1.1  <br/> |
    
  **Параметры URI** . Нет.
   
@@ -41,7 +41,7 @@ Get Item Ancestors returns a specific items ancestors from the repository.
   
  **Тело запроса** . Нет.
   
- **Ответ.** Ответ включает код состояния HTTP и набор заглавных заглавных ответов.
+ **Ответ** . Ответ включает код состояния HTTP и набор заглавных заглавных ответов.
   
  **Код состояния** — успешная операция возвращает код состояния 200 (OK). Если указанный код пользователя не найден, он возвращает код состояния 404 (Не найден).
   

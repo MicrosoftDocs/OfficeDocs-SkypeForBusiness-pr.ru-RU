@@ -1,8 +1,8 @@
 ---
 title: Таблица VideoStream
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 4275ede7-5467-4a97-b8c8-a4b00917bf32
 description: Каждая запись представляет собой один видеопоток. Одна линия мультимедиа видео обычно содержит два видеопотока.
-ms.openlocfilehash: 5e1b566db7ee3f79219835055d6e617beeea6da6
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: b6a67f6bc6c968e997882fb6406e7dc43d1ba7c4
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60863256"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62393571"
 ---
 # <a name="videostream-table"></a>Таблица VideoStream
  
@@ -30,7 +30,7 @@ ms.locfileid: "60863256"
 |**SessionSeq** <br/> |int  <br/> |Primary  <br/> |R Ссылки из [таблицы MediaLine](medialine-0.md).  <br/> |
 |**MediaLineLabel** <br/> |tinyint  <br/> |Primary  <br/> |Ссылки из [таблицы MediaLine](medialine-0.md).  <br/> |
 |**StreamID** <br/> |int  <br/> |Primary  <br/> |Уникальный идентификатор в линии мультимедиа.  <br/> |
-|**VideoPayloadDescription** <br/> |smallint  <br/> |Foreign, Primary  <br/> |Описание полезной нагрузки. Дополнительные сведения см. в таблице [PayloadDescription.](payloaddescription.md) <br/> |
+|**VideoPayloadDescription** <br/> |smallint  <br/> |Foreign, Primary  <br/> |Описание полезной нагрузки. Дополнительные сведения см. [в таблице PayloadDescription](payloaddescription.md) . <br/> |
 |**JitterInterArrival** <br/> |int  <br/> | <br/> |Средний уровень дрожания в сети на основе статистики протокола RTCP.  <br/> |
 |**JitterInterArrivalMax** <br/> |int  <br/> | <br/> |Максимальный нервный срыв сети во время сеанса видео.  <br/> |
 |**RoundTrip** <br/> |int  <br/> | <br/> |Время приема-передачи на основе статистики RTCP.  <br/> |
@@ -77,14 +77,14 @@ ms.locfileid: "60863256"
 |**RelativeOneWayGapDuration** <br/> |float  <br/> ||Общая длительность разрывов в одну сторону. "Взрывная" передача — это передача, в которой потоки данных в непредсказуемых очередях, а не в стабильном потоке; пробелы указывают на задержки между этими всплесками. С помощью данной метрики измеряется поток данных между клиентом и сервером.  <br/> Этот столбец был представлен в Microsoft Lync Server 2013.  <br/> |
 |**VideoPacketLossRate** <br/> |десятичной (9,4)  <br/> ||Скорость потери видеопакетов.  <br/> Этот столбец был представлен в Microsoft Lync Server 2013.  <br/> |
 |**VideoAllocateBWAvg** <br/> |int  <br/> ||Средний объем выделенной полосы пропускания для видео.  <br/> Этот столбец был представлен в Microsoft Lync Server 2013.  <br/> |
-|**SendCodecTypes** <br/> |smallint  <br/> |Foreign  <br/> |Тип видео-кодеков, используемых отправителю. Дополнительные сведения см. в таблице [CodecDescription.](codecdescription.md) <br/> Этот столбец был представлен в Microsoft Lync Server 2013.  <br/> |
+|**SendCodecTypes** <br/> |smallint  <br/> |Foreign  <br/> |Тип видео-кодеков, используемых отправителю. Дополнительные сведения см. [в таблице CodecDescription](codecdescription.md) . <br/> Этот столбец был представлен в Microsoft Lync Server 2013.  <br/> |
 |**SendResolutionWidth** <br/> |int  <br/> ||Ширина разрешения, используемая отправителю.  <br/> Этот столбец был представлен в Microsoft Lync Server 2013.  <br/> |
 |**SendResolutionHeight** <br/> |int  <br/> ||Высота разрешения, используемая отправителю.  <br/> Этот столбец был представлен в Microsoft Lync Server 2013.  <br/> |
 |**SendFrameRateAverage** <br/> |float  <br/> ||Средняя скорость передачи кадров видео, используемая отправителю.  <br/> Этот столбец был представлен в Microsoft Lync Server 2013.  <br/> |
 |**SendBitRateMaximum** <br/> |int  <br/> ||Максимальная скорость бита для отправитель.  <br/> Этот столбец был представлен в Microsoft Lync Server 2013.  <br/> |
 |**SendBitRateAverage** <br/> |int  <br/> ||Средняя скорость бита для отправляемой.  <br/> |
 |**SendVideoStreamsMax** <br/> |int  <br/> ||Максимальное количество видеопотоков, используемых отправивщиком.  <br/> Этот столбец был представлен в Microsoft Lync Server 2013.  <br/> |
-|**RecvCodecTypes** <br/> |smallint  <br/> |Foreign  <br/> |Видео-коды, используемые приемником. Дополнительные сведения см. в таблице [CodecDescription.](codecdescription.md) <br/> Этот столбец был представлен в Microsoft Lync Server 2013.  <br/> |
+|**RecvCodecTypes** <br/> |smallint  <br/> |Foreign  <br/> |Видео-коды, используемые приемником. Дополнительные сведения см. [в таблице CodecDescription](codecdescription.md) . <br/> Этот столбец был представлен в Microsoft Lync Server 2013.  <br/> |
 |**RecvResolutionWidth** <br/> |int  <br/> ||Ширина разрешения, используемая приемником.  <br/> Этот столбец был представлен в Microsoft Lync Server 2013.  <br/> |
 |**RecvResolutionHeight** <br/> |int  <br/> ||Высота разрешения, используемая приемником.  <br/> Этот столбец был представлен в Microsoft Lync Server 2013.  <br/> |
 |**RecvFrameRateAverage** <br/> |float  <br/> ||Средняя частота кадров видео, используемая приемником.  <br/> Этот столбец был представлен в Microsoft Lync Server 2013.  <br/> |

@@ -1,7 +1,7 @@
 ---
-title: Управление доступом на основе смен для сотрудников, работающих с телефоном, в Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+title: Управление доступом на основе смен для сотрудников, работающих с Teams
+author: SerdarSoysal
+ms.author: serdars
 ms.reviewer: aaku
 manager: serdars
 ms.topic: article
@@ -15,21 +15,21 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 01ef7d91b0119501a3f7570b85ea902c0ebbb7a4
-ms.sourcegitcommit: bc686eedb37e565148d0c7a61ffa865aaca37d20
+ms.openlocfilehash: d177ac362b7b8c0d1f91be5322fb49696a5cc9b7
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62180882"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62393491"
 ---
-# <a name="manage-shift-based-access-for-frontline-workers-in-teams"></a>Управление доступом на основе смен для сотрудников, работающих с телефоном, в Teams
+# <a name="manage-shift-based-access-for-frontline-workers-in-teams"></a>Управление доступом на основе смен для сотрудников, работающих с Teams
 ## <a name="overview"></a>Обзор
 
 [!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
 Присутствие в Microsoft Teams указывает на текущую доступность и статус пользователя для других пользователей. Присутствие сотрудников, работающих на переднем телефоне, часто менее предсказуемо, чем у других сотрудников, так как их рабочие часы обычно не одинаковы каждый день. Как администратор вы можете настроить Teams, чтобы показать сотрудникам вашей организации набор состояния присутствия на основе смены, чтобы они могли указать, когда они находятся в работе и отключается.
 
-Эти состояния присутствия на основе смены обозначены зеленой сплошной зеленой &mdash; ![ меткой, которая указывает на "В сдвиге".](../../media/flw-presence-on-shift.png) **On shift**, ![ Gray circle with x, indicates Off shift.](../../media/flw-presence-off-shift.png) **Отключенная смена**, ![ сплошной красный круг, означает, что занят не является набором состояния присутствия по умолчанию в ](../../media/flw-presence-busy.png)  &mdash; Teams. [](../../presence-admins.md) С помощью этих двух наборов состояния присутствия вы можете настраивать разные функции для пользователей в организации в зависимости от их роли.
+Эти состояния присутствия с учетом сменЫНазение&mdash;![ зеленой метки, которая означает В сдвиге.](../../media/flw-presence-on-shift.png) **При смене** серый ![кружок с x означает, что отключена смена.](../../media/flw-presence-off-shift.png) **Выкл.** (Сплошной ![красный кружок) означает, &mdash;](../../media/flw-presence-busy.png) что занят [](../../presence-admins.md) занят отдельно от набора состояния присутствия по умолчанию в Teams. С помощью этих двух наборов состояния присутствия вы можете настраивать разные функции для пользователей в организации в зависимости от их роли.
 
 С помощью shift-based access вы можете управлять доступом к Teams, когда сотрудники, работающие в переднем телефоне, отключались от смены. Например, можно настроить отображение Teams, что сотрудники переднего экрана должны подтвердить, что они смогут использовать Teams, если они не в запланированной смене.  
 
@@ -51,9 +51,9 @@ ms.locfileid: "62180882"
 |![Серый кружок с x, означает Отключение смены](../../media/flw-presence-off-shift.png) Отключена смена     |         |Автоматическое изменение в конце смены         |
 |![Сплошной красный кружок означает "Занят(а)".](../../media/flw-presence-busy.png) Занят(а)      | ![Сплошной красный кружок означает "Занят(а)"](../../media/flw-presence-busy.png) Занят(а)         |Настроить автоматически. Кроме того, этот режим можно настроить вручную, когда сотрудник в режиме смены.|
 
-## <a name="off-shift-access-to-teams"></a>Отключение доступа к Teams
+## <a name="off-shift-access-to-teams"></a>Отключение shift access для Teams
 
-Эта функция позволяет управлять доступом к учетным Teams, когда сотрудники, работающие в переднем телефоне, отключались от смены. Можно настроить отображение Teams для сотрудников, работающих с передней линией, если они работают с Teams при выходе из смены. Перед использованием  этого сообщения сотрудники, работающие с frontline, должны нажать кнопку Я принимаю, чтобы подтвердить Teams.
+Эта функция позволяет управлять доступом к учетным Teams, когда сотрудники, работающие в переднем телефоне, отключались от смены. Вы можете настроить Teams для отображения сообщения сотрудникам, которые работают с Teams при выходе из смены. Перед использованием этого сообщения  сотрудники, работающие с frontline, должны нажать кнопку Я принимаю, чтобы подтвердить Teams.
 
 Вы можете использовать сообщение по умолчанию, выбрать один из стандартных сообщений или настроить отображение нужного текста. Это сообщение по умолчанию:
 
@@ -73,29 +73,29 @@ ms.locfileid: "62180882"
 
 Используйте New-CsTeamsShiftsPolicy для создания новой политики, задайте нужные параметры политики, а затем используйте Grant-CsTeamsShiftsPolicy для назначения политики пользователям.
 
-Вот некоторые примеры. Подробные сведения о каждом параметре политики и параметре, включая список предопределений сообщений о сменах, которые можно выбрать, см. в описании [New-CsTeamsShiftsPolicy.](/powershell/module/teams/new-csteamsshiftspolicy)
+Вот некоторые примеры. Подробные сведения о каждом параметре политики и параметре, включая список предопределений сообщений о сменах, которые можно выбрать, см. в описании [New-CsTeamsShiftsPolicy](/powershell/module/teams/new-csteamsshiftspolicy).
 
 ### <a name="example-1"></a>Пример 1
 
-В этом примере мы создадим политику Off Shift Teams Access Default Message. В этой политике включено присутствие с учетом смены, и сообщение по умолчанию отображается каждый раз, когда пользователь, которому назначена эта политика, Teams при выходе из нее. Пользователь может использовать Teams при выходе из смены, если принимает сообщение, и период отсрочки между началом первой смены или окончанием последней смены и ограничением доступа составляет 10 минут.  
+В этом примере мы создадим политику Off Shift Teams Access Default Message. В этой политике включено присутствие с учетом смены, и сообщение по умолчанию отображается каждый раз, когда пользователь, которому назначена эта политика, Teams при выходе из нее. Пользователь может использовать Teams, если принимает сообщение, и период отсрочки между началом первой смены или окончанием последней смены и ограничением доступа составляет 10 минут.  
 
 ```powershell
 New-CsTeamsShiftsPolicy -Identity "Off Shift Teams Access Default Message" -EnableShiftPresence $true -ShiftNoticeFrequency always -ShiftNoticeMessageType DefaultMessage -AccessType UnrestrictedAccess_TeamsApp -AccessGracePeriodMinutes 10
 ```
 
 > [!NOTE]
-> С помощью **параметра ShiftNoticeMessageType** можно настроить сообщение, которое вы хотите отобразить. Список предварительно определенных сообщений, которые можно выбрать для этого параметра, см. в списке [New-CsTeamsShiftsPolicy.](/powershell/module/teams/new-csteamsshiftspolicy)
+> С помощью **параметра ShiftNoticeMessageType** можно настроить сообщение, которое вы хотите отобразить. Список предварительно определенных сообщений, которые можно выбрать для этого параметра, см. в списке [New-CsTeamsShiftsPolicy](/powershell/module/teams/new-csteamsshiftspolicy).
 
 ### <a name="example-2"></a>Пример 2 
 
-В этом примере мы создадим политику Off Shift Teams Access Custom Message. В этой политике включено присутствие на основе смены, и каждый раз, когда пользователь, которому назначена эта политика, получает доступ Teams при выходе из нее. Пользователь может использовать Teams в отключившейся смене, если принимает сообщение, и период отсрочки между началом первой смены или окончанием последней смены и ограничением доступа составляет 15 минут.  
+В этом примере мы создадим политику Off Shift Teams Access Custom Message. В этой политике включено присутствие на основе смены, и каждый раз, когда пользователь, которому назначена эта политика, получает доступ Teams при выходе из нее. Пользователь может использовать Teams, если принимает сообщение, и период отсрочки между началом первой смены или окончанием последней смены и ограничением доступа составляет 15 минут.  
 
 ```powershell
 New-CsTeamsShiftsPolicy -Identity "Off Shift Teams Access Custom Message" -EnableShiftPresence $true -ShiftNoticeFrequency always -ShiftNoticeMessageType CustomMessage -ShiftNoticeMessageCustom "Your time on Teams when on off shift won't count toward payable hours" -AccessType UnrestrictedAccess_TeamsApp -AccessGracePeriodMinutes 15
 ```
 
 > [!NOTE]
-> С помощью **параметра ShiftNoticeMessageType** можно настроить сообщение, которое вы хотите отобразить. Дополнительные информации см. [в new-CsTeamsShiftsPolicy.](/powershell/module/teams/new-csteamsshiftspolicy)
+> С помощью **параметра ShiftNoticeMessageType** можно настроить сообщение, которое вы хотите отобразить. Дополнительные информации см [. в new-CsTeamsShiftsPolicy](/powershell/module/teams/new-csteamsshiftspolicy).
 
 ### <a name="example-3"></a>Пример 3
 
@@ -110,7 +110,7 @@ New-CsTeamsShiftsPolicy -Identity "Off Shift Teams Access Message1" -EnableShi
 ```
 
 > [!NOTE]
-> С помощью **параметра ShiftNoticeMessageType** можно настроить сообщение, которое вы хотите отобразить. Список предварительно определенных сообщений, которые можно выбрать для этого параметра, см. в списке [New-CsTeamsShiftsPolicy.](/powershell/module/teams/new-csteamsshiftspolicy)
+> С помощью **параметра ShiftNoticeMessageType** можно настроить сообщение, которое вы хотите отобразить. Список предварительно определенных сообщений, которые можно выбрать для этого параметра, см. в списке [New-CsTeamsShiftsPolicy](/powershell/module/teams/new-csteamsshiftspolicy).
 
 ### <a name="example-4"></a>Пример 4
 

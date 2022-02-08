@@ -1,8 +1,8 @@
 ---
 title: Процесс развертывания для парка вызовов в Skype для бизнеса
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 2000d672-a85f-4262-9d69-0bee9ae3709a
 description: Процесс развертывания и действия для парка вызовов в Skype для бизнеса Server Корпоративная голосовая связь.
-ms.openlocfilehash: b734aba8c2944cab37071773d27bbc9411a18b9c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: bfc6a2455ba010f05083872ee8c394244ef4827b
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861856"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62393391"
 ---
 # <a name="deployment-process-for-call-park-in-skype-for-business"></a>Процесс развертывания для парка вызовов в Skype для бизнеса
  
@@ -35,10 +35,10 @@ ms.locfileid: "60861856"
 
 |**Этап**|**Действия**|**Необходимые группы и роли**|**Документация по развертыванию**|
 |:-----|:-----|:-----|:-----|
-|Настройка диапазонов орбит парковки вызовов в таблице орбит  <br/> |Чтобы создать диапазоны орбит в таблице орбиты парка вызовов и связать их со службой приложения, в котором размещено приложение Call Park, используйте панель управления Skype для бизнеса Server или **cmdlet New-CSCallParkOrbit.** <br/> **Примечание:** Для бесшовной интеграции с существующими наборными планами диапазоны орбит обычно настраиваются как блок виртуальных расширений. Назначение номеров DID как номеров орбит в таблице орбит парковки вызовов не поддерживается. <br/> |RTCUniversalServerAdmins  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[Создание или изменение диапазона орбиты Call Park в Skype для бизнеса](create-or-modify-a-call-park-orbit-range.md) <br/> |
-|Настройка параметров парковки вызовов  <br/> | Для настройки параметров парка вызовов используйте комлет **Set-CsCpsConfiguration.** Как минимум рекомендуется настроить параметр **OnTimeoutURI,** чтобы настроить пункт назначения отката для использования при припаркованном времени вызова. Вы также можете настроить следующие параметры: <br/>  **EnableMusicOnHold** для включения и выключения музыки при удержании вызова (необязательный параметр); <br/>  **MaxCallPickupAttempts** для определения количества ответных звонков припаркованным вызовом в адрес отвечающего телефона до переадресации звонка на резервный URI (необязательный параметр); <br/>  **CallPickupTimeoutThreshold** для определения времени между парковкой вызова и вызовом телефонного номера, по которому на вызов был получен ответ (необязательный параметр); <br/> |RTCUniversalServerAdmins  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[Настройка параметров парка вызовов в Skype для бизнеса](configure-call-park-settings.md) <br/> |
+|Настройка диапазонов орбит парковки вызовов в таблице орбит  <br/> |Используйте Skype для бизнеса Server панель управления или комдлет **New-CSCallParkOrbit** для создания диапазонов орбиты в таблице орбиты парка вызовов и связывать их со службой приложения, в котором размещено приложение Call Park. <br/> **Примечание:** Для бесшовной интеграции с существующими наборными планами диапазоны орбит обычно настраиваются как блок виртуальных расширений. Назначение номеров DID как номеров орбит в таблице орбит парковки вызовов не поддерживается. <br/> |RTCUniversalServerAdmins  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[Создание или изменение диапазона орбиты Call Park в Skype для бизнеса](create-or-modify-a-call-park-orbit-range.md) <br/> |
+|Настройка параметров парковки вызовов  <br/> | Для настройки параметров парка вызовов используйте комлет **Set-CsCpsConfiguration** . Как минимум рекомендуется настроить параметр **OnTimeoutURI** , чтобы настроить пункт назначения отката для использования при припаркованном времени вызова. Вы также можете настроить следующие параметры: <br/>  **EnableMusicOnHold** для включения и выключения музыки при удержании вызова (необязательный параметр); <br/>  **MaxCallPickupAttempts** для определения количества ответных звонков припаркованным вызовом в адрес отвечающего телефона до переадресации звонка на резервный URI (необязательный параметр); <br/>  **CallPickupTimeoutThreshold** для определения времени между парковкой вызова и вызовом телефонного номера, по которому на вызов был получен ответ (необязательный параметр); <br/> |RTCUniversalServerAdmins  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[Настройка параметров парка вызовов в Skype для бизнеса](configure-call-park-settings.md) <br/> |
 |Можно настроить музыку при удержании (необязательно)  <br/> |Используйте командлет **Set-CsCallParkServiceMusicOnHoldFile** для настройки и загрузки аудиофайла, если вы не хотите использовать стандартную музыку при удержании. <br/> |RTCUniversalServerAdmins  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[Настройка музыки Парка вызовов на удержание вSkype для бизнеса](customize-call-park-music-on-hold.md) <br/> |
-|Настройка голосовой политики, чтобы включить Call Park для пользователей  <br/> |Используйте Skype для бизнеса Server панель управления или комлет **Set-CSVoicePolicy** с опцией **EnableCallPark,** чтобы включить call-парк для пользователей в голосовой политике. <br/> По умолчанию call-парк отключен для всех пользователей.  <br/> При наличии нескольких политик голосовой связи убедитесь в том, что свойство EnableCallPark задано для каждой политики голосовой связи, а не только для политики по умолчанию.  <br/> |RTCUniversalServerAdmins  <br/> CsVoiceAdministrator  <br/> CsUserAdministrator  <br/> CsAdministrator  <br/> |[Включить парк вызовов для пользователей в Skype для бизнеса](enable-call-park-for-users.md) <br/> |
+|Настройка голосовой политики, чтобы включить Call Park для пользователей  <br/> |Используйте Skype для бизнеса Server панель управления или комлет **Set-CSVoicePolicy** с опцией **EnableCallPark**, чтобы включить парк вызовов для пользователей в голосовой политике. <br/> По умолчанию call-парк отключен для всех пользователей.  <br/> При наличии нескольких политик голосовой связи убедитесь в том, что свойство EnableCallPark задано для каждой политики голосовой связи, а не только для политики по умолчанию.  <br/> |RTCUniversalServerAdmins  <br/> CsVoiceAdministrator  <br/> CsUserAdministrator  <br/> CsAdministrator  <br/> |[Включить парк вызовов для пользователей в Skype для бизнеса](enable-call-park-for-users.md) <br/> |
 |Проверка правил нормализации для парковки вызовов  <br/> |Орбиты парковки вызовов не требуют нормализации. Убедитесь, что правила нормализации не включают ваши диапазоны орбиты. При необходимости создайте дополнительные правила нормализации для блокирования нормализации орбит.  <br/> |RTCUniversalServerAdmins  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[Проверка правил нормализации для call Park в Skype для бизнеса](verify-normalization-rules-for-call-park.md) <br/> |
 |Проверка развертывания парка вызовов  <br/> |Проверьте парковку и вызовы, чтобы убедиться, что конфигурация работает так, как ожидалось.  <br/> |-  <br/> |[(Необязательный) Проверка развертывания Call Park в Skype для бизнеса](optional-verify-call-park-deployment.md) <br/> |
    
