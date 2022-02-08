@@ -1,8 +1,8 @@
 ---
 title: Обновление до Skype для бизнеса Server 2015 г.
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 7/14/2016
 audience: ITPro
@@ -16,34 +16,34 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 74ce73bc-356b-4705-83b1-341ee010fd19
-description: 'Сводка. Сведения об обновлении с Lync Server 2013 до Skype для бизнеса Server 2015 г. Скачайте бесплатную пробную Skype для бизнеса Server 2015 г. из Центра оценки Майкрософт по ссылке: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server .'
-ms.openlocfilehash: 4279bb9141d896cb6aaa479f872e1684f2a3e8d3
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+description: 'Сводка. Сведения об обновлении с Lync Server 2013 до Skype для бизнеса Server 2015 г. Скачайте бесплатную пробную Skype для бизнеса Server 2015 г. из Центра оценки Майкрософт по ссылке: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
+ms.openlocfilehash: a673d9d192dbeb754024821c4e50c5fba77aa952
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849402"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385217"
 ---
 # <a name="upgrade-to-skype-for-business-server-2015"></a>Обновление до Skype для бизнеса Server 2015 г.
  
-**Сводка:** Узнайте, как обновиться с Lync Server 2013 до Skype для бизнеса Server 2015. Скачайте бесплатную пробную Skype для бизнеса Server 2015 г. из [Центра оценки Майкрософт.](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)
+**Сводка:** Узнайте, как обновиться с Lync Server 2013 до Skype для бизнеса Server 2015. Скачайте бесплатную пробную Skype для бизнеса Server 2015 г. из [Центра оценки Майкрософт](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
   
-Используйте процедуры в этом документе для обновления с Lync Server 2013 до Skype для бизнеса Server 2015 с помощью Skype для бизнеса Server Topology Builder и новой функции In-Place Upgrade. Если вы хотите обновиться с Lync Server 2010 или Office Communications Server 2007 R2, см. в сообщении [Plan to upgrade to Skype для бизнеса Server 2015](../plan-your-deployment/upgrade.md).
+Используйте процедуры в этом документе для обновления с Lync Server 2013 до Skype для бизнеса Server 2015 с помощью Skype для бизнеса Server Topology Builder и новой функции In-Place Upgrade. Если вы хотите обновиться с Lync Server 2010 или Office Communications Server 2007 R2, см. в руб. План обновления до [Skype для бизнеса Server 2015](../plan-your-deployment/upgrade.md) г.
 
 > [!NOTE]
-> Обновления на месте были доступны в Skype для бизнеса Server 2015 г., но больше не поддерживаются Skype для бизнеса Server 2019 г. Поддерживается совместное сосуществование, см. в Skype для бизнеса Server [2019](../../SfBServer2019/migration/migration-to-skype-for-business-server-2019.md) г. Дополнительные сведения.
+> Обновления на месте были доступны в Skype для бизнеса Server 2015 г., но больше не поддерживаются Skype для бизнеса Server 2019 г. Поддерживается совместное сосуществование, дополнительные сведения см. в [Skype для бизнеса Server 2019](../../SfBServer2019/migration/migration-to-skype-for-business-server-2019.md) г.
   
 ## <a name="upgrade-from-lync-server-2013"></a>Обновление с Lync Server 2013
 
 Обновление Lync Server 2013 до Skype для бизнеса Server 2015 включает установку необходимого программного обеспечения, использование Skype для бизнеса Server Topology Builder для обновления баз данных в пуле и Skype для бизнеса Server In-Place обновление на каждом из серверов, связанных с пулом. Чтобы завершить обновление, выполните восемь действий в этом разделе.
   
-### <a name="before-you-begin"></a>Прежде чем начать
+### <a name="before-you-begin"></a>Подготовка к работе
 
-- Обзор [Плана обновления до Skype для бизнеса Server 2015](../plan-your-deployment/upgrade.md).
+- [Просмотрите план обновления до Skype для бизнеса Server 2015 г](../plan-your-deployment/upgrade.md).
     
-- Просмотрите требования к [серверу Skype для бизнеса Server 2015 г.](../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
+- [Просмотрите требования к серверу Skype для бизнеса Server 2015 г](../plan-your-deployment/requirements-for-your-environment/server-requirements.md).
     
-- [Установка необходимых условий для Skype для бизнеса Server 2015 г.](install/install-prerequisites.md)
+- [Установка необходимых условий для Skype для бизнеса Server 2015 г](install/install-prerequisites.md).
     
 - [Установка Skype для бизнеса Server 2015](install/install.md) .
     
@@ -51,7 +51,7 @@ ms.locfileid: "60849402"
 
 1. Подключение компьютер в топологии, где не установлен Lync OCSCore или любые другие компоненты Lync.
     
-2. В Skype для бизнеса Server 2015 г. запуститеSetup.exeиз **OCS_Volume\Setup\AMD64**.  
+2. С Skype для бизнеса Server 2015 года запуститеSetup.exeиз **OCS_Volume\Setup\AMD64**.**** 
     
 3. Нажмите **Установить**. 
     
@@ -85,11 +85,11 @@ ms.locfileid: "60849402"
 
 Если в обновляемом пуле имеется зависимость магазина архивации и мониторинга, при использовании следующих действий также будет обновлен магазин архивации и мониторинга.
   
-1. В Topology Builder щелкните правой кнопкой мыши пул Lync Server 2013, выберите обновление до **Skype для бизнеса Server 2015** г. и выполните следующие действия. 
+1. В Topology Builder щелкните правой кнопкой мыши пул Lync Server 2013, выберите обновление до Skype для бизнеса Server **2015** г. и выполните действия. 
     
      ![Снимок экрана меню правой кнопкой мыши с параметром обновления для Lync Server 2013.](../media/7d5b25b1-e5c0-474c-a024-a5ba33f1b3a1.png)
   
-2. В Topology Builder нажмите **кнопку Action**  >  **Publish топологию** или   >  **топологию**  >  **действий.** 
+2. В Topology Builder щелкните **топологию ActionPublish**  >  или **ActionTopologyPublish** >  > . 
     
      ![Снимок экрана меню Действий с параметром Публикация топологии в Topology Builder.](../media/d6712634-9205-401f-a0b0-3ea096ca51bf.png)
   
@@ -103,9 +103,9 @@ ms.locfileid: "60849402"
     
 2. Удалите зависимость в хранилищах архивации и мониторинга Lync Server 2013. 
     
-   - Перейдите к   >  **свойствам редактирования действий.**
+   - Перейдите к **свойствам ActionEdit** > .
     
-   - Очистка **контрольного окна архива.**
+   - Очистка **контрольного окна архива** .
     
      ![Снимок экрана контрольного ящика архива в диалоговом окне Свойства редактирования.](../media/9a88427e-80ee-49d0-a767-809fa9a5faf1.png)
   
@@ -113,11 +113,11 @@ ms.locfileid: "60849402"
     
      ![Снимок экрана диалогового номера Изменить свойства, который показывает контрольный ящик мониторинга.](../media/880acf33-57bb-4521-8717-cf5b67261ed4.png)
   
-3. Щелкните правой кнопкой мыши пул Lync Server 2013, выберите обновление до **Skype для бизнеса Server 2015** г. и выполните действия. 
+3. Щелкните правой кнопкой мыши пул Lync Server 2013, выберите **обновление Skype для бизнеса Server 2015** г. и выполните действия. 
     
      ![Снимок экрана меню правой кнопкой мыши с параметром обновления для Lync Server 2013.](../media/7d5b25b1-e5c0-474c-a024-a5ba33f1b3a1.png)
   
-4. В Topology Builder нажмите **кнопку Action**  >  **Publish топологию** или   >  **топологию**  >  **действий.** 
+4. В Topology Builder щелкните **топологию ActionPublish**  >  или **ActionTopologyPublish** >  > . 
     
 #### <a name="option-3-upgrade-front-end-pool-and-associated-it-to-new-skype-for-business-server-2015-archiving-and-monitoring-stores"></a>Вариант 3. Обновление пула переднего конца и его связывание с новыми хранилищами архива Skype для бизнеса Server 2015 г.
 
@@ -127,9 +127,9 @@ ms.locfileid: "60849402"
     
 2. Удалите зависимость в хранилищах архивации и мониторинга Lync Server 2013. 
     
-   - Перейдите к   >  **свойствам редактирования действий.**
+   - Перейдите к **свойствам ActionEdit** > .
     
-   - Очистка **контрольного окна архива.**
+   - Очистка **контрольного окна архива** .
     
      ![Снимок экрана контрольного ящика архива в диалоговом окне Свойства редактирования.](../media/9a88427e-80ee-49d0-a767-809fa9a5faf1.png)
   
@@ -137,15 +137,15 @@ ms.locfileid: "60849402"
     
      ![Снимок экрана диалогового номера Изменить свойства, который показывает контрольный ящик мониторинга.](../media/880acf33-57bb-4521-8717-cf5b67261ed4.png)
   
-3. Щелкните правой кнопкой мыши пул Lync Server 2013, выберите обновление до **Skype для бизнеса Server 2015** г. и выполните действия. 
+3. Щелкните правой кнопкой мыши пул Lync Server 2013, выберите **обновление Skype для бизнеса Server 2015** г. и выполните действия. 
     
      ![Снимок экрана меню правой кнопкой мыши с параметром обновления для Lync Server 2013.](../media/7d5b25b1-e5c0-474c-a024-a5ba33f1b3a1.png)
   
 4. Создайте новый SQL для архива. 
     
-   - Выберите свойства пула **и**  >  **изменения действий.** 
+   - Выберите свойства пула **и** **ActionEdit** > . 
     
-   -  Выберите поле **архива.**
+   -  Выберите поле **архива** .
     
    - Нажмите кнопку **Создать**.
     
@@ -153,7 +153,7 @@ ms.locfileid: "60849402"
   
 5. Создание нового SQL для мониторинга. 
     
-   - Выберите свойства пула **и**  >  **изменения действий.** 
+   - Выберите свойства пула **и** **ActionEdit** > . 
     
    -  Выберите **контрольный** окне Мониторинга.
     
@@ -161,7 +161,7 @@ ms.locfileid: "60849402"
     
      ![Снимок экрана диалогового номера Изменить свойства, которые показывают новую кнопку в разделе Мониторинг.](../media/729c72a7-0068-4e0d-99dc-e480a6bfbf1d.png)
   
-6. В Topology Builder нажмите **кнопку Action**  >  **Publish топологию** или   >  **топологию**  >  **действий.** 
+6. В Topology Builder щелкните **топологию ActionPublish**  >  или **ActionTopologyPublish** >  > . 
     
 7. Во время публикации выберите установку базы данных в новом хранилище архива и мониторинга.
     
@@ -182,7 +182,7 @@ Disable-CsComputer -Scorch
 ### <a name="step-5-upgrade-front-end-pools-and-non-front-end-pool-servers"></a>Шаг 5. Обновление пулов передней части и серверов пулов, не входных
 
 > [!NOTE]
->  Перед обновлением установите все необходимые для Skype для бизнеса Server 2015 г. новые условия, включающие:> не менее 32 ГБ свободного пространства перед попыткой обновления. Кроме того, убедитесь, что диск является фиксированным локальным диском, не подключен USB или Firewire, форматируется с помощью файловой системы NTFS, не сжимается и не содержит файл страницы.> PowerShell версии 6.2.9200.0 или более поздней версии.> Последнее накопительное обновление Lync Server 2013 установлено.> SQL Server 2012 SP1 установлено.> Установленное ниже KB (установлено автоматически при использовании Microsoft Update): > Windows 2008 R2 -[KB2533623](https://support.microsoft.com/kb/2533623)> Windows Server 2012 -[KB2858668](https://support.microsoft.com/kb/2858668)> Windows Server 2012 R2 -[KB2982006](https://support.microsoft.com/kb/2982006)
+>  Перед обновлением установите все необходимые для Skype для бизнеса Server 2015 г. новые условия, включающие:> не менее 32 ГБ свободного пространства перед попыткой обновления. Кроме того, убедитесь, что диск является фиксированным локальным диском, не подключен USB или Firewire, форматируется с помощью файловой системы NTFS, не сжимается и не содержит файл страницы.> PowerShell версии 6.2.9200.0 или более поздней версии.> Последнее накопительное обновление Lync Server 2013 установлено.> SQL Server 2012 SP1 установлено.> Установленное ниже KB (установлено автоматически при использовании Microsoft Update): > Windows 2008 R2 -[KB2533623](https://support.microsoft.com/kb/2533623) [> Windows Server 2012-KB2858668](https://support.microsoft.com/kb/2858668)> Windows Server 2012 R2 -[KB2982006](https://support.microsoft.com/kb/2982006)
   
 Используйте обновление In-Place на каждом сервере для обновления пула переднего конца, пула edge, сервера-посредника и пула постоянных чатов.
   
@@ -237,9 +237,9 @@ Disable-CsComputer -Scorch
   
 ![Снимок экрана, который показывает сбой обновления на месте, так как не установлено необходимое накопительное обновление.](../media/f84db06b-0841-45a9-870d-7ba4b5a463d5.png)
   
-Просмотрите полное сообщение в нижней части страницы, чтобы устранить проблему. Нажмите **кнопку Просмотр журналов,** чтобы получить более подробные данные.
+Просмотрите полное сообщение в нижней части страницы, чтобы устранить проблему. Нажмите **кнопку Просмотр журналов** , чтобы получить более подробные данные.
   
-Если обновление In-Place сбой при  проверке готовности к обновлению или установке отсутствующих предпосылок, убедитесь, что на сервере установлены все последние Windows Server, Lync Server и SQL Server применены обновления, а также установлено все необходимое программное обеспечение и роли. Список необходимых требований см. в перечне требований к серверу для [Skype для бизнеса Server 2015](../plan-your-deployment/requirements-for-your-environment/server-requirements.md) г., а также в Skype для бизнеса Server [2015](install/install-prerequisites.md)г. .
+Если обновление In-Place при проверке готовности к  обновлению или установке отсутствующих предпосылок **,** убедитесь, что на сервере установлены все последние обновления Windows Server, Lync Server и SQL Server, а также установлено все необходимое программное обеспечение и роли. Список необходимых требований см. в перечне требований server для Skype для бизнеса Server [2015](../plan-your-deployment/requirements-for-your-environment/server-requirements.md) г., а также в Skype для бизнеса Server [2015 г](install/install-prerequisites.md).
   
 ## <a name="see-also"></a>См. также
 

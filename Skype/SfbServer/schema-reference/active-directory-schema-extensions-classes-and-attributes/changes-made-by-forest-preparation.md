@@ -1,8 +1,8 @@
 ---
 title: Изменения, внесенные подготовкой леса в Skype для бизнеса Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 2e12613e-59f2-4810-a32d-24a9789a4a6e
 description: В данном разделе описываются глобальные параметры и объекты, а также универсальные группы служб и административные группы, создаваемые на этапе подготовки леса.
-ms.openlocfilehash: 8226c2e9b692699902faa751fafe14424e43ed45
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: f5df54a579da84c6e55a055d7949bb60f5774c6c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60828642"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62389881"
 ---
 # <a name="changes-made-by-forest-preparation-in-skype-for-business-server"></a>Изменения, внесенные подготовкой леса в Skype для бизнеса Server
 
@@ -26,7 +26,7 @@ ms.locfileid: "60828642"
 
 ## <a name="active-directory-global-settings-and-objects"></a>Глобальные параметры и объекты Active Directory
 
-Если вы сохраняете глобальные параметры в контейнере Configuration (как это имеет место для всех новых развертывании Skype для бизнеса Server), подготовка леса использует существующий контейнер Службы и добавляет объект **RTC Service** в объект Configuration\Services. В объект RTC Service процедура подготовки лета добавляет объект **Global Settings** типа msRTCSIP-GlobalContainer. Объект глобальных параметров содержит все параметры, применимые к Skype для бизнеса Server развертывания. Если вы храните глобальные параметры в контейнере System, процедура подготовки леса использует контейнер Microsoft в контейнере System корневого домена и объект RTC Service в объекте System\Microsoft.
+Если в контейнере Конфигурация хранятся глобальные параметры (как и для всех новых развертывается Skype для бизнеса Server), подготовка леса использует существующий контейнер Services и добавляет объект **RTC Service** в объект Configuration\Services. В объект RTC Service процедура подготовки лета добавляет объект **Global Settings** типа msRTCSIP-GlobalContainer. Объект глобальных параметров содержит все параметры, применимые к Skype для бизнеса Server развертывания. Если вы храните глобальные параметры в контейнере System, процедура подготовки леса использует контейнер Microsoft в контейнере System корневого домена и объект RTC Service в объекте System\Microsoft.
 
 Процедура подготовки леса также добавляет новый объект **msRTCSIP-Domain** для корневого домена, в котором выполняется процедура.
 

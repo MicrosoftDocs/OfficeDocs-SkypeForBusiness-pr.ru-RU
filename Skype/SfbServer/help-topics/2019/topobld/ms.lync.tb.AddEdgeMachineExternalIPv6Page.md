@@ -1,8 +1,8 @@
 ---
 title: Добавление внешнего адреса IPv6 пограничного компьютера
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,15 +15,15 @@ ms.localizationpriority: medium
 ms.assetid: e901509e-f667-41ef-96f5-67251b05a167
 ROBOTS: NOINDEX, NOFOLLOW
 description: В внешнем адресе IPv6 введите внешний IP-адрес, который указывает на службу Access Edge, службу Web Conferencing Edge и службу A/V Edge.
-ms.openlocfilehash: cf70cc5f802e08ff9d36b1649eda35946c952f70
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 1ed70766089d8cfe1611af8af4a6b0523891de74
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60852543"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62388757"
 ---
 # <a name="add-edge-machine-external-ipv6"></a>Добавление внешнего адреса IPv6 пограничного компьютера
  
-В **адресе External IPv6** введите внешний IP-адрес, который указывает на службу Access Edge, веб-службу Edge и службу A/V Edge.
+В **внешнем адресе IPv6** введите внешний IP-адрес, который указывает на службу Access Edge, службу Web Conferencing Edge и службу A/V Edge.
   
 

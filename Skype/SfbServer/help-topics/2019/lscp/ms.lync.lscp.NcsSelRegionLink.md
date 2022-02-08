@@ -1,8 +1,8 @@
 ---
 title: Выбор связи между областями
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: a26f7d86-1811-4d72-afee-a577a1898cc8
 ROBOTS: NOINDEX, NOFOLLOW
 description: Диалоговое окно Region Link используется для поиска областных ссылок, доступных в среде. Чтобы использовать существующую связь между областями, щелкните связь в списке, а затем нажмите кнопку ОК.
-ms.openlocfilehash: 30997934ad871c3261155f1db6aded965e529a0e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 98e34bb7525a08dda71a3f1f9b57eaa008a33202
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856096"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62386197"
 ---
 # <a name="select-a-region-link"></a>Выбор связи между областями
  

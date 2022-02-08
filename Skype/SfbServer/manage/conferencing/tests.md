@@ -1,8 +1,8 @@
 ---
 title: Тестирование телефонных конференций в Skype для бизнеса Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: f4ccbfd4-6075-466f-b459-20561318803d
 description: Сводка. Сведения о проверке телефонных телефонных Skype для бизнеса Server.
-ms.openlocfilehash: 4c4e56c846cd6c4f522abdfc0a4a9cc76b5fe979
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: b6f33828646a8d56574091e296ed5ca4dde75af5
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847362"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385600"
 ---
 # <a name="test-dial-in-conferencing-in-skype-for-business-server"></a>Тестирование телефонных конференций в Skype для бизнеса Server
  
@@ -29,7 +29,7 @@ ms.locfileid: "60847362"
 
 1. Войдите на компьютер как член группы RTCUniversalServerAdmins или участник роли Cs-ServerAdministrator или CsAdministrator.
     
-2. Запустите Skype для бизнеса Server: нажмите кнопку Начните, щелкните Все **программы,** нажмите кнопку Skype для бизнеса **2015,** а затем нажмите кнопку **Skype для бизнеса Server.**
+2. Запустите Skype для бизнеса Server: нажмите кнопку **Начните, нажмите** кнопку Все **программы, нажмите** кнопку Skype для бизнеса **2015**, а затем нажмите кнопку **Skype для бизнеса Server управленческой оболочки**.
     
 3. Выполните следующий командлет:
     
@@ -39,13 +39,13 @@ ms.locfileid: "60847362"
 
     Этот командлет возвращает все абонентские группы с регионом конференц-связи с телефонным подключением, для которого не задан ни один номер доступа.
     
-Дополнительные сведения см. [в рублях Get-CsDialInConferencingAccessNumber.](/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps)
+Дополнительные сведения см [. в рублях Get-CsDialInConferencingAccessNumber](/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps).
   
 ## <a name="find-access-numbers-without-assigned-regions"></a>Поиск номеров доступа без присвоенных регионов
 
 1. Войдите на компьютер как член группы RTCUniversalServerAdmins или участник роли Cs-ServerAdministrator или CsAdministrator.
     
-2. Запустите Skype для бизнеса Server: нажмите кнопку Начните, щелкните Все **программы,** нажмите кнопку Skype для бизнеса **2015,** а затем нажмите кнопку **Skype для бизнеса Server.**
+2. Запустите Skype для бизнеса Server: нажмите кнопку **Начните, нажмите** кнопку Все **программы, нажмите** кнопку Skype для бизнеса **2015**, а затем нажмите кнопку **Skype для бизнеса Server управленческой оболочки**.
     
 3. Выполните следующий командлет:
     
@@ -55,7 +55,7 @@ ms.locfileid: "60847362"
 
     Этот командлет возвращает все номера доступа к конференц-связи с телефонным подключением, которые не связаны ни с одним регионом.
     
-Дополнительные сведения см. [в рублях Get-CsDialInConferencingAccessNumber.](/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps)
+Дополнительные сведения см [. в рублях Get-CsDialInConferencingAccessNumber](/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps).
   
 ## <a name="test-webpage-and-access-numbers"></a>Тестовые номера веб-страницы и доступа
 
@@ -69,7 +69,7 @@ ms.locfileid: "60847362"
 
 1. Войдите на компьютер как член группы RTCUniversalServerAdmins или роли Cs-ServerAdministrator или CsAdministrator.
     
-2. Запустите Skype для бизнеса Server: нажмите кнопку Начните, щелкните Все **программы,** нажмите кнопку Skype для бизнеса **2015,** а затем нажмите кнопку **Skype для бизнеса Server.**
+2. Запустите Skype для бизнеса Server: нажмите кнопку **Начните, нажмите** кнопку Все **программы, нажмите** кнопку Skype для бизнеса **2015**, а затем нажмите кнопку **Skype для бизнеса Server управленческой оболочки**.
     
 3. Выполните следующую команду в командной строке:
     
@@ -82,4 +82,4 @@ ms.locfileid: "60847362"
 
     Полученный отчет показывает успешность или сбой операции, а также содержит диагностические сведения. Флаг -Verbose предоставляет более подробные сведения о количестве найденных номеров доступа и сведениях о них.
     
-Дополнительные сведения см. [в рублях Test-CsDialInConferencing.](/powershell/module/skype/test-csdialinconferencing?view=skype-ps)
+Дополнительные сведения см. [в test-CsDialInConferencing](/powershell/module/skype/test-csdialinconferencing?view=skype-ps).

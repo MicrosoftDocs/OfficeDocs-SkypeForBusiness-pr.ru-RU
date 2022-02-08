@@ -1,8 +1,8 @@
 ---
 title: Таблица мультимедиа
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 1e1b427f-59b5-4564-bde5-1002a80439ee
 description: Каждая запись представляет один тип мультимедиа, используемый в одноранговом сеансе. Если бы использовалось более одного типа мультимедиа, один сеанс был бы представлен несколькими записями в таблице.
-ms.openlocfilehash: 02a11f296ec24e9f907927d93bc0fb8acb103b8a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 4b2bb3252945b34a38e9a2863f82c517729e9f89
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855223"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385457"
 ---
 # <a name="media-table"></a>Таблица мультимедиа
  
@@ -31,7 +31,7 @@ ms.locfileid: "60855223"
 |:-----|:-----|:-----|:-----|
 |**SessionIdTime** <br/> |datetime  <br/> |Основной, внешний  <br/> |Время запроса сеанса. В сочетании с параметром **SessionIdSeq** определяет сеанс уникальным образом. Дополнительные сведения см. в таблице [Диалоги Skype для бизнеса Server 2015](dialogs.md) г. <br/> |
 |**SessionIdSeq** <br/> |int  <br/> |Основной, внешний  <br/> |Идентификатор для идентификации сеанса. В сочетании с параметром **SessionIdTime** определяет сеанс уникальным образом. Дополнительные сведения см. в таблице [Диалоги Skype для бизнеса Server 2015](dialogs.md) г. <br/> |
-|**MediaId** <br/> |tinyint  <br/> |Первичный, внешний  <br/> |Уникальный номер, идентифицирующий этот тип мультимедиа. Дополнительные сведения см. в таблице [MediaList.](medialist.md) <br/> |
+|**MediaId** <br/> |tinyint  <br/> |Первичный, внешний  <br/> |Уникальный номер, идентифицирующий этот тип мультимедиа. Дополнительные [сведения см. в таблице MediaList](medialist.md) . <br/> |
 |**StartTime** <br/> |datetime  <br/> |Primary  <br/> |Время отправки запроса мультимедиа, а не фактическое время начала обмена мультимедиа. **StartTime** включает в себя время настройки сеанса.<br/> |
 |**EndTime** <br/> |datetime  <br/> ||Время завершения этого сеанса.  <br/> |
    

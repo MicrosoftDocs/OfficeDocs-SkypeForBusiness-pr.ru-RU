@@ -1,8 +1,8 @@
 ---
 title: Добавление файлового хранилища Директора
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: a15b69e0-d3d1-4648-af25-1c0f25e5da8e
 description: Необходимо указать общий файловый ресурс, который будет использоваться в качестве хранилища файлов для директоров. В качестве хранилища файлов можно использовать существующий общий файловый ресурс. Кроме того, можно добавить новый общий файловый ресурс, указав полное доменное имя файлового сервера, на котором расположен общий файловый ресурс, и имя папки для нового общего файлового ресурса.
-ms.openlocfilehash: 43239a85aab3d07d3b9c30fb3356fa0167ed204c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: c62a929efe6601f1a9705060bd456c43034d77ff
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60827722"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62390361"
 ---
 # <a name="add-director-file-store"></a>Добавление файлового хранилища директора
 
@@ -29,4 +29,4 @@ ms.locfileid: "60827722"
 > [!IMPORTANT]
 > При добавлении директоров в топологию для публикации топологии требуется доступ, позволяющий настроить хранилище файлов и сконфигурировать списки управления доступом на уровне пользователей (DACL) для общего файлового ресурса, который используется для хранилища файлов. При запуске построителя топологии и публикации новой топологии необходимо войти в систему с использованием учетной записи с полными правами на управление (чтение/запись/изменение) для общего файлового ресурса.
 
-Подробные сведения о поддержке хранения для файловых акций [см.](/previous-versions/office/lync-server-2013/lync-server-2013-file-storage-support) в служба хранилища в документации по поддержке и [SQL Server](/previous-versions/office/lync-server-2013/lync-server-2013-sql-server-data-and-log-file-placement) и размещении файлов журнала в документации развертывания. Дополнительные сведения о выровненном размещении общего файлового ресурса см. в разделе [Supported Server Collocation](/previous-versions/office/lync-server-2013/lync-server-2013-supported-server-collocation) в документации по поддержке. Дополнительные сведения о разработке топологии для директоров см. в разделе [Define a Single Director in Topology Builder](/previous-versions/office/lync-server-2013/lync-server-2013-define-optional-director-topologies-in-your-topology) документации по развертыванию.
+Сведения о поддержке хранения для файловых акций см. в служба хранилища [в](/previous-versions/office/lync-server-2013/lync-server-2013-file-storage-support) документации по поддержке и SQL Server и размещении файлов журнала в документации развертывания.[](/previous-versions/office/lync-server-2013/lync-server-2013-sql-server-data-and-log-file-placement) Дополнительные сведения о выровненном размещении общего файлового ресурса см. в разделе [Supported Server Collocation](/previous-versions/office/lync-server-2013/lync-server-2013-supported-server-collocation) в документации по поддержке. Дополнительные сведения о разработке топологии для директоров см. в разделе [Define a Single Director in Topology Builder](/previous-versions/office/lync-server-2013/lync-server-2013-define-optional-director-topologies-in-your-topology) документации по развертыванию.

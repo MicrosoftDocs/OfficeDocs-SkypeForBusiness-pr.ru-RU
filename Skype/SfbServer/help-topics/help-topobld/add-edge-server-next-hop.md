@@ -1,8 +1,8 @@
 ---
 title: Добавление следующего скачка для пограничного сервера
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 8ef7235d-626c-4cc9-b6ec-9dfeab495cc0
 description: Узлом следующего перехода для пограничного пуля является интерфейсный пул (который может быть пулом Enterprise или Standard Edition) или директор, если этот компонент задействуется в развертывании.
-ms.openlocfilehash: b7d4e813e82aa944a284f4aecba7b75bd376efc3
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 1ef7dbc1107687ea8290595c9eaec3c7da26e73e
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60860436"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385867"
 ---
 # <a name="add-edge-server-next-hop"></a>Добавление следующего перехода для пограничного сервера
 

@@ -1,8 +1,8 @@
 ---
 title: Конфигурация клиентской версии Создание новых или изменение существующих
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/23/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 07fec57c-5cd3-422a-829a-0b62cb0092c4
 description: Параметры конфигурации используются для включения и отключения управления версиями клиентов. Конфигурация глобальной клиентской версии устанавливается с Skype для бизнеса Server и используется для того, чтобы включить или отключить управление клиентской версией для всего развертывания сервера. Когда включена глобальная конфигурация, при попытке пользователя войти в систему применяются все заданные политики версий клиентов. Вы можете отключить глобальную конфигурацию версий клиентов, если не хотите применять какое-либо управление версиями.
-ms.openlocfilehash: bbd83279edabaf5f8474e3b07a98bd5fbd676dc1
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 8148e842b53fd08bed27690bf759ccd97284bacc
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847838"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62389251"
 ---
 # <a name="client-version-configuration-create-new-or-edit-existing"></a>Конфигурация версий клиентов: создание новой или редактирование существующей
 
@@ -58,6 +58,6 @@ ms.locfileid: "60847838"
 
   - **Разрешить с URL-адресом** Позволяет клиенту войти в систему, если клиентская версия не соответствует любому фильтру в списке политик клиентских версий, и содержит сообщение об ошибке, содержащее URL-адрес, в котором можно скачать более новый клиент.
 
-  - **URL-адрес** Если вы выбрали **Блок с URL-адресом** или Разрешить с URL-адресом, вы можете указать URL-адрес загрузки клиента, чтобы включить его в сообщение об ошибке. 
+  - **URL-адрес** Если вы выбрали **Блок с URL-адресом** или **Разрешить с URL-адресом**, вы можете указать URL-адрес загрузки клиента, чтобы включить его в сообщение об ошибке.
 
 Дополнительные сведения о взаимодействии клиентов и версиях клиентов см. в разделе [Client Interoperability in Lync 2013 Preview](/previous-versions/office/lync-server-2013/lync-server-2013-client-interoperability-in-lync-2013) в документации по планированию. Дополнительные сведения о работе с конфигурациями версий клиентов см. в разделе [Modify the Default Action for Clients Not Explicitly Supported or Restricted](/previous-versions/office/lync-server-2013/lync-server-2013-modify-the-default-action-for-clients-not-explicitly-supported-or-restricted) в документации по использованию.

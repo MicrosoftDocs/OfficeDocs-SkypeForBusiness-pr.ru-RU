@@ -1,8 +1,8 @@
 ---
 title: Настройка сервера межоператной видеосвязи в Skype для бизнеса Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 0fde142b-70b1-46c6-b1f9-f9d70115371d
 description: Сводка. Настройка роли video Interop Server (VIS) в Skype для бизнеса Server.
-ms.openlocfilehash: 4148cf404fba4718f56c3c8db7ffe180881b3ae7
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: c6122e27f3b462a69a365259827a394b9b379012
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835817"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62389621"
 ---
 # <a name="configure-the-video-interop-server-in-skype-for-business-server"></a>Настройка сервера межоператной видеосвязи в Skype для бизнеса Server
  
@@ -84,7 +84,7 @@ ms.locfileid: "60835817"
   
  **EnableSessionTimer** Этот параметр включает или отключает время сеанса на стороне VIS для каждого диалоговика SIP, связанного с магистралью SIP видео. Значение по умолчанию - **false**.
   
- **ForwardErrorCorrectionType** Этот параметр используется для определения того, следует ли применять исправление ошибок вперед (FEC) для видеопотоков на ноге между сервером видеосвязи и шлюзом видео. Настройка ForwardErrorCorrectionType на "Нет" отключит FEC между VIS и видео шлюзом/VTC. Настройка ForwardErrorCorrectionType в "Cisco" позволяет FEC совместим с видео шлюзами Cisco, такими как Cisco Unified Communications Manager (CUCM). По умолчанию **нет**.
+ **ForwardErrorCorrectionType** Этот параметр используется для определения того, следует ли применять исправление ошибок вперед (FEC) для видеопотоков на ноге между сервером видеосвязи и шлюзом видео. Настройка ForwardErrorCorrectionType на "Нет" отключит FEC между VIS и видео шлюзом/VTC. Настройка ForwardErrorCorrectionType в "Cisco" позволяет FEC совместим с видео шлюзами Cisco, такими как Cisco Unified Communications Manager (CUCM). По **умолчанию нет.**
   
 ## <a name="see-also"></a>См. также
 

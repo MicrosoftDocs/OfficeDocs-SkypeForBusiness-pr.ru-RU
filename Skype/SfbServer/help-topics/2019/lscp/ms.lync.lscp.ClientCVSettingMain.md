@@ -1,8 +1,8 @@
 ---
 title: Конфигурация версий клиентов
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: cb17314e-b89e-4821-8855-12f8fd2edc9b
 ROBOTS: NOINDEX, NOFOLLOW
 description: Кроме указания версии клиентов, поддержку которой вы хотите обеспечить в своей среде, вы можете также указать действие по умолчанию для клиентов, пока не имеющих заданной политики выбора версий. Это позволяет ограничить число используемых в среде версий клиентов, что помогает управлять затратами на поддержку нескольких версий клиентов.
-ms.openlocfilehash: fbbe0e6386af8474a621d974faa9936d03d33dbf
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 57720ae070f8051febc53b0287d6aa9d87985257
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857916"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387197"
 ---
 # <a name="client-version-configuration"></a>Конфигурация версий клиентов
 
@@ -30,7 +30,7 @@ ms.locfileid: "60857916"
 
 На странице **Настройка версии клиента** можно выполнить следующие задачи:
 
-- Изменение конфигурации клиентской версии по умолчанию **(глобальная).**
+- Изменение конфигурации **клиентской** версии по умолчанию ..
 
 - создать настройку версии клиентов для конкретного сайта;
 
@@ -43,7 +43,7 @@ ms.locfileid: "60857916"
 
 В следующих списках описываются меню, команды, поля и свойства на этой странице.
 
-- **Новые** Можно создать конфигурацию клиентской версии для определенного сайта.
+- **Новые функции** Можно создать конфигурацию клиентской версии для определенного сайта.
 
 - **Изменение** Вы можете изменить параметры любой из политик клиентской версии. С помощью этой команды можно выполнить следующие действия:
 
@@ -55,4 +55,4 @@ ms.locfileid: "60857916"
 
 - **Обновление** Вы можете обновить список конфигурации клиентской версии, чтобы проверить состояние параметров всех конфигураций клиентской версии.
 
-Сведения о взаимосвязи между клиентами и версиями клиентов см. в документации по планированию. [](/previous-versions/office/lync-server-2013/lync-server-2013-client-interoperability-in-lync-2013) Дополнительные сведения о работе с конфигурациями версий клиентов см. в разделе [Modify the Default Action for Clients Not Explicitly Supported or Restricted](/previous-versions/office/lync-server-2013/lync-server-2013-modify-the-default-action-for-clients-not-explicitly-supported-or-restricted) в документации по использованию.
+Сведения о взаимосвязи между клиентами и версиями клиентов см. в документации по планированию.[](/previous-versions/office/lync-server-2013/lync-server-2013-client-interoperability-in-lync-2013) Дополнительные сведения о работе с конфигурациями версий клиентов см. в разделе [Modify the Default Action for Clients Not Explicitly Supported or Restricted](/previous-versions/office/lync-server-2013/lync-server-2013-modify-the-default-action-for-clients-not-explicitly-supported-or-restricted) в документации по использованию.

@@ -1,7 +1,7 @@
 ---
 title: Сравнение функций клиента настольных компьютеров Skype для бизнеса Server 2015 г.
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 2/16/2018
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: Сводка. Skype для бизнеса Server 2015 или Skype для бизнеса администраторы Online могут использовать эти таблицы, чтобы понять, какие функции поддерживаются клиентами.
-ms.openlocfilehash: 6b9aa102e7bde4a991295694b0a0d9d92985dbee
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 1b855cca4830473cd0cb9c4198784cec93868fc7
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841101"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62388037"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2015"></a>Сравнение функций клиента настольных компьютеров Skype для бизнеса Server 2015 г.
 
@@ -30,20 +30,20 @@ ms.locfileid: "60841101"
   
  Перед развертыванием или обновлением Skype для бизнеса проверьте, какие клиенты уже используются в вашей организации. Используйте таблицы ниже, чтобы понять влияние поддержки функций на этих клиентов. Это поможет вам донести изменения до пользователей, побок процесса выкатки и полностью понять преимущества обновления до последнего клиента.
   
-Некоторые функции, доступные Skype для бизнеса Server 2015 г., недоступны в Skype для бизнеса Online, см. ограничения учетной записи пользователей Online или [Hybrid](desktop-feature-comparison.md#Online-Hybrid) для определенных компонентов. Skype для бизнеса Администраторы сети могут обратиться к Skype для бизнеса [online Service Description](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description) для получения сведений о различных планах, доступных для них.
+Некоторые функции, доступные Skype для бизнеса Server 2015 г., недоступны в Skype для бизнеса Online, см. ограничения учетной записи пользователей [Online или Hybrid](desktop-feature-comparison.md#Online-Hybrid) для конкретных данных. Skype для бизнеса администраторы могут обратиться к Skype для бизнеса [Online Service Description](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description) для получения сведений о различных планах, доступных для них.
 
-Сравнение клиентских функций настольных [компьютеров Skype для бизнеса 2019](../../../SfBServer2019/plan/feature-comparison.md) г. для поддержки Skype для бизнеса Server 2019 г.
+Сравнение [клиентских функций настольных компьютеров Skype для бизнеса 2019](../../../SfBServer2019/plan/feature-comparison.md) г. для поддержки Skype для бизнеса Server 2019 г.
   
 В следующих таблицах представлены функции, доступные каждому клиенту, который работает с Skype для бизнеса Server 2015 или Skype для бизнеса Online. Вы также можете сослаться на сравнение функций [мобильных](mobile-feature-comparison.md) клиентов для Skype для бизнеса для сравнения функций смартфона и планшета. Лицензия на доступ к клиентам или лицензия на подписку на пользователя, приобретаемая организацией, также повлияет на то, какие функции доступны пользователям. Развертывание клиента Full или Basic для пользователей зависит от лицензии или плана, который выбирает ваша организация. Дополнительные [сведения см. в руководстве](https://products.office.com/skype-for-business/it-pros) по лицензированию.
   
 > [!IMPORTANT]
-> Skype для бизнеса Server 2015 и Skype для бизнеса Online поддерживают следующие ранее выпущенные клиенты: Lync 2013, Lync 2010, Lync 2010 Mobile, Lync Телефон Edition и Lync 2010 Attendant. Сведения об этих клиентах, используемых на других серверах, см. в таблицах сравнения клиента [для Lync Server 2013](/previous-versions/office/lync-server-2013/lync-server-2013-desktop-client-comparison-tables) и таблицы сравнения клиентов [для Lync Server 2010.](/previous-versions/office/skype-server-2010/gg425836(v=ocs.14))
+> Skype для бизнеса Server 2015 и Skype для бизнеса Online поддерживают следующие ранее выпущенные клиенты: Lync 2013, Lync 2010, Lync 2010 Mobile, Lync Телефон Edition и Lync 2010 Attendant. Сведения об этих клиентах, используемых с другими серверами, см. в таблицах сравнения клиентов [для Lync Server 2013](/previous-versions/office/lync-server-2013/lync-server-2013-desktop-client-comparison-tables) и [Client comparison tables for Lync Server 2010](/previous-versions/office/skype-server-2010/gg425836(v=ocs.14)).
 
 > [!NOTE]
 > Клиент **Lync 2010 Attendant** не поддерживается в Skype для бизнеса Online.
 
 > [!NOTE]
-> Клиент Skype для бизнеса Web App браузера и приложение Skype meetings App Windows 10 предоставляют только [поддержку Meetings.](desktop-feature-comparison.md#BKMK_Conferencing) Дополнительные данные см. в приложении Plan [for Meetings (Web App and Meetings App).](meetings-clients.md)
+> Клиент Skype для бизнеса Web App браузера и приложение Skype meetings App Windows 10 предоставляют только [поддержку Meetings](desktop-feature-comparison.md#BKMK_Conferencing). Дополнительные данные см. в приложении Plan [for Meetings (Web App and Meetings App).](meetings-clients.md)
   
 ## <a name="enhanced-presence-support"></a>Расширенная поддержка присутствия
 
@@ -115,10 +115,10 @@ ms.locfileid: "60841101"
 В этой таблице представлены функции, связанные с поддержкой Meetings.
   
 > [!NOTE]
-> Skype для бизнеса возможности собраний недоступны в Skype для бизнеса Online Standalone Plan 1.  План 1 в настоящее время [снят.](../../../SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-for-business-online-plan-1-retirement.md)
+> Skype для бизнеса возможности собраний недоступны в Skype для бизнеса Online Standalone Plan 1.  План 1 в настоящее время [снят](../../../SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-for-business-online-plan-1-retirement.md).
 
 В Skype сеансах Skype пользователи Skype для бизнеса Online Plan 1 могут участвовать в совместном использовании настольных компьютеров и совместном использовании приложений, если они приглашены пользователем, который имеет доступ к функциям общего доступа.
-Подробные сведения см. [в Skype для бизнеса Online Service Description.](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description)
+Подробные сведения см. [в Skype для бизнеса Online Service Description](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description).
   
 |Функция/возможности | Skype для бизнеса 2016 г. | Skype для бизнеса на Mac | Skype для бизнеса Web App | Skype для бизнеса 2015 г. | Клиент Lync 2013 | Приложение Lync Windows Store | Lync 2010 | Lync 2010 Attendant | Lync Phone Edition | Communicator для Mac 2011 | Lync для Mac 2011 |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
@@ -141,7 +141,7 @@ ms.locfileid: "60841101"
 |Проведение опросов |&#x2714;||&#x2714;|&#x2714;|&#x2714;||&#x2714;|||||
 |Upload для обмена файлами с другими |&#x2714;||&#x2714;|&#x2714;|&#x2714;||&#x2714;||||&#x2714;|
 |Расписание собрания или конференции |Outlook или веб-планировщик Skype для бизнеса |Outlook или веб-планировщик Skype для бизнеса |веб-планировщик Skype для бизнеса |Outlook или веб-планировщик Skype для бизнеса |Outlook или веб-планировщик Lync |Outlook или веб-планировщик Lync |Outlook ||||Outlook |
-|Q &amp; A Manager |&#x2714;|||||||||||
+|Менеджер QA&amp; |&#x2714;|||||||||||
 |Отключение видео участника|&#x2714;||&#x2714;|||||||||
  | |Отключение чата собраний  |&#x2714;||&#x2714;|&#x2714;|&#x2714;|||||||
 |Немая аудитория   |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;||||||&#x2714;|
@@ -165,7 +165,7 @@ ms.locfileid: "60841101"
 В этой таблице представлены функции, связанные с поддержкой голосовых служб.
   
 > [!NOTE]
-> Skype для бизнеса Функции голосовой связи (телефонии) ограничены определенными Skype для бизнеса подписки в Интернете. Подробные сведения см. [в Skype для бизнеса Online Service Description.](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description)
+> Skype для бизнеса голосовой связи (телефония) ограничены определенными Skype для бизнеса подписки в Интернете. Подробные сведения см. [в Skype для бизнеса Online Service Description](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description).
   
 | Функция/возможности | Skype для бизнеса 2015 или 2016 | Skype для бизнеса на Mac | Клиент Lync 2013 | Приложение Lync Windows Store | Lync 2010 | Lync 2010 Attendant | Lync Phone Edition | Communicator для Mac 2011 | Lync для Mac 2011 |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
@@ -226,7 +226,7 @@ ms.locfileid: "60841101"
 
 В этой таблице представлены функции, требующие поддержки современной проверки подлинности.
   
-Современная проверка подлинности также требует топологии, описанной в Skype для бизнеса топологии, поддерживаемой [современной проверкой подлинности.](../../plan-your-deployment/modern-authentication/topologies-supported.md)
+Современная проверка подлинности также требует топологии, описанной в Skype для бизнеса топологии, поддерживаемой [современной проверкой подлинности](../../plan-your-deployment/modern-authentication/topologies-supported.md).
 
 | Функция/возможности | Skype для бизнеса 2015 или 2016 | Skype для бизнеса на Mac | Клиент Lync 2013 | Приложение Lync Windows Store | Lync 2010 | Lync 2010 Attendant | Lync Phone Edition | Communicator для Mac 2011 | Lync для Mac 2011 |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|

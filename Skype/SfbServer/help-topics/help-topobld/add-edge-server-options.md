@@ -1,8 +1,8 @@
 ---
 title: Добавление параметров пограничного сервера
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 2405f227-4297-40d0-a117-55427a9e4052
 description: Выберите каждый компонент, который следует включить для пограничного пула. По умолчанию в пуле Edge поддерживаются удаленные пользователи в организации, входившие из-за брандмауэра с помощью виртуальной частной сети (VPN). Кроме того, поддерживаются следующие параметры пограничного пула.
-ms.openlocfilehash: e9da9c45335cf023dc7da99656fe8a266164efc9
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 5595f8cbb0ab09015878ee70b5b1ec01839aa995
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862626"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62384677"
 ---
 # <a name="add-edge-server-options"></a>Добавление параметров пограничного сервера
 

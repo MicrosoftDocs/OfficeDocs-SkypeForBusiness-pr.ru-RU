@@ -1,8 +1,8 @@
 ---
 title: Сценарии производительности для Skype для бизнеса Server 2015 г.
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 ms.date: 12/17/2015
 manager: serdars
 audience: ITPro
@@ -14,18 +14,18 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d972382f-971e-4fa7-b7ee-8ab9d3a5c11d
 description: Задачи, которые необходимо сделать для настройки Skype для бизнеса Server 2015 г. для выполнения тестирования производительности и нагрузки с помощью средства stress and Performance Tool.
-ms.openlocfilehash: 0a04d94bc0c43b9de2043b9ee601a294b7945a45
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 3f8818018120a7230bcdaaa9b6cd04009e761640
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841111"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62390061"
 ---
 # <a name="performance-scenarios-for-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Сценарии производительности для Skype для бизнеса Server 2015 г.
  
 Задачи, которые необходимо сделать для настройки Skype для бизнеса Server 2015 г. для выполнения тестирования производительности и нагрузки с помощью средства stress and Performance Tool.
   
-Чтобы запустить средство Skype для бизнеса Server и производительности 2015 (LyncPerfTool), сначала необходимо настроить топологию Skype для бизнеса Server 2015 г. для соответствующих сценариев. Если Skype для бизнеса Server 2015 г. не настроен или настроен неправильно, моделирование нагрузки, скорее всего, не удастся. С помощью Skype для бизнеса Server 2015 года средства стресса и производительности мы предоставляем примеры сценариев Skype для бизнеса Server и базовых файлов ресурсов в качестве части загрузки [инструмента.](https://www.microsoft.com/download/details.aspx?id=50367) Они могут использоваться в качестве отправной точки для настройки Skype для бизнеса Server развертывания. В этой статье описываются Windows PowerShell предоставленные примеры.
+Чтобы запустить средство Skype для бизнеса Server и производительности 2015 (LyncPerfTool), сначала необходимо настроить топологию Skype для бизнеса Server 2015 г. для соответствующих сценариев. Если Skype для бизнеса Server 2015 г. не настроен или настроен неправильно, моделирование нагрузки, скорее всего, не удастся. С помощью средства Skype для бизнеса Server 2015 года мы предоставляем примеры сценариев Skype для бизнеса Server и базовых файлов ресурсов в качестве части загрузки [инструмента](https://www.microsoft.com/download/details.aspx?id=50367). Они могут использоваться в качестве отправной точки для настройки Skype для бизнеса Server развертывания. В этой статье описываются Windows PowerShell предоставленные примеры.
   
 > [!NOTE]
 > Этот раздел не поможет вам описать, как настроить Skype для бизнеса Server 2015 в целом, для этого у нас есть другие темы планирования и развертывания. Дополнительные сведения о работе с Windows PowerShell в Skype для бизнеса Server 2015 г. см. в документации Skype для бизнеса Server Management Shell в вставки введение ЗДЕСЬ. 
@@ -39,7 +39,7 @@ ms.locfileid: "60841111"
   
 ## <a name="stress-and-performance-tool-client-version-names"></a>Имена клиентских версий stress и Performance Tool
 
-Может потребоваться настроить политику проверки клиентской версии, если вы ранее изменили параметры из значений по умолчанию. Если вы не уверены в этом, проверьте документацию [проверки версии клиента.](/previous-versions/office/lync-server-2013/lync-server-2013-view-client-version-policy-rules)
+Может потребоваться настроить политику проверки клиентской версии, если вы ранее изменили параметры из значений по умолчанию. Если вы не уверены в этом, проверьте документацию [проверки версии клиента](/previous-versions/office/lync-server-2013/lync-server-2013-view-client-version-policy-rules).
   
 Средство стресса и производительности использует следующие версии агента пользователя по умолчанию при Skype для бизнеса Server 2015 г.:
   

@@ -1,8 +1,8 @@
 ---
 title: Планирование развертывания edge Server в Skype для бизнеса Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 9cdc3e23-3f6a-4e4d-9e04-f038596b6700
 description: Сводка. Планирование среды Skype для бизнеса Server Edge. В этом разделе вы познакомимся с понятиями Edge и сможете организоваться с помощью более глубоких разделов.
-ms.openlocfilehash: ae6dd672e3da6568d41898a4bc2ae022b23ad3f3
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 97b34ba69be5a7461c1ff1f1847c66898b5dface
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834117"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387937"
 ---
 # <a name="plan-for-edge-server-deployments-in-skype-for-business-server"></a>Планирование развертывания edge Server в Skype для бизнеса Server
  
@@ -50,7 +50,7 @@ ms.locfileid: "60834117"
 Если это звучит как то, что необходимо вашей организации, планирование среды Edge будет большой помощью в ее развертывании. Для дальнейшего чтения ниже приведены разделы.
 
 > [!NOTE]
-> Шлюзы и прокси XMPP доступны в Skype для бизнеса Server 2015 г., но больше не поддерживаются Skype для бизнеса Server 2019 г. Дополнительные сведения см. в дополнительных сведениях о переносе федерации [XMPP.](../../../SfBServer2019/migration/migrating-xmpp-federation.md) 
+> Шлюзы и прокси XMPP доступны в Skype для бизнеса Server 2015 г., но больше не поддерживаются Skype для бизнеса Server 2019 г. Дополнительные сведения см. в дополнительных сведениях о переносе федерации [XMPP](../../../SfBServer2019/migration/migrating-xmpp-federation.md) . 
   
 ## <a name="planning-topics"></a>Темы планирования:
 

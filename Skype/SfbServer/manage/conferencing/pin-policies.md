@@ -1,8 +1,8 @@
 ---
 title: Управление политиками ПИН-кода для телефонных телефонных Skype для бизнеса Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 459e80bf-5791-49f8-878d-4a5178b3a210
 description: Сводка. Узнайте, как управлять политиками ПИН-кода для телефонных телефонных Skype для бизнеса Server.
-ms.openlocfilehash: bf78a565cefb38a9a6e747c2b22b74a640a9e706
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 93ee04292ec3ea06299b91c75c2c2fe89a2b2298
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862476"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385611"
 ---
 # <a name="manage-pin-policies-for-dial-in-conferencing-in-skype-for-business-server"></a>Управление политиками ПИН-кода для телефонных телефонных Skype для бизнеса Server
  
@@ -43,17 +43,17 @@ Skype для бизнеса Server пользователи, которые им
     
 3. В левой панели навигации щелкните элемент **Conferencing** (Конференц-связь), а затем щелкните элемент **PIN Policy** (Политика ПИН-кодов).
     
-4. На странице **ПОЛИТИКА ПИН-кода** щелкните политику ПИН-кода, которую необходимо просмотреть, нажмите **кнопку Изменить,** а затем нажмите **кнопку Показать сведения**.
+4. На странице **Политика ПИН-кода** щелкните политику ПИН-кода, которую необходимо просмотреть, нажмите **кнопку Изменить**, а затем нажмите **кнопку Показать сведения**.
     
 ### <a name="view-information-about-pin-policies-by-using-skype-for-business-server-management-shell"></a>Просмотр сведений о политиках ПИН-кода с помощью Skype для бизнеса Server shell управления
 
-Чтобы просмотреть сведения о политиках ПИН-кода, используйте **cmdlet Get-CsPinPolicy.** Например, следующая команда возвращает сведения о единой политике ПИН-кода с сайта Identity:Redmond:
+Чтобы просмотреть сведения о политиках **ПИН-кода, используйте cmdlet Get-CsPinPolicy** . Например, следующая команда возвращает сведения о единой политике ПИН-кода с сайта Identity:Redmond:
   
 ```PowerShell
 Get-CsPinPolicy -Identity "site:Redmond"
 ```
 
-Дополнительные сведения, в том числе полное описание синтаксиса и список параметров, см. в [обзоре Get-CsPinPolicy.](/powershell/module/skype/get-cspinpolicy?view=skype-ps)
+Дополнительные сведения, включая полное описание синтаксиса и список параметров, см. в [обзоре Get-CsPinPolicy](/powershell/module/skype/get-cspinpolicy?view=skype-ps).
   
 ## <a name="modify-the-global-pin-policy"></a>Изменение глобальной политики ПИН-кода
 
@@ -90,15 +90,15 @@ Get-CsPinPolicy -Identity "site:Redmond"
     
 ### <a name="modify-the-global-dial-in-conferencing-pin-policy-by-using-skype-for-business-server-management-shell"></a>Измените глобальную политику ПИН-кода для диалогов с помощью Skype для бизнеса Server management Shell
 
-Чтобы изменить глобальную политику ПИН-кода для телефонных телефонных контактов, используйте комлет **Set-CsPinPolicy.**
+Чтобы изменить глобальную политику ПИН-кода для телефонных телефонных контактов, используйте комлет **Set-CsPinPolicy** .
   
-Следующая команда изменяет значение MinPasswordLength для всех политик ПИН-кода, настроенных для использования в организации. При этом команда сначала вызывает командлет **Get-CsPinPolicy** без каких-либо параметров для получения набора существующих политик PIN-кодов. Затем эта коллекция передается в кодлет **Set-CsPinPolicy,** который изменяет значение свойства MinPasswordLength для каждой политики в коллекции:
+Следующая команда изменяет значение MinPasswordLength для всех политик ПИН-кода, настроенных для использования в организации. При этом команда сначала вызывает командлет **Get-CsPinPolicy** без каких-либо параметров для получения набора существующих политик PIN-кодов. Затем эта коллекция передается в кодлет **Set-CsPinPolicy** , который изменяет значение свойства MinPasswordLength для каждой политики в коллекции:
   
 ```PowerShell
 Get-CsPinPolicy | Set-CsPinPolicy -MinPasswordLength 10
 ```
 
-Дополнительные сведения, включая полное описание синтаксиса и список параметров, см. [в этой ссылке Set-CsPinPolicy.](/powershell/module/skype/set-cspinpolicy?view=skype-ps)
+Дополнительные сведения, включая полное описание синтаксиса и список параметров, см. [в обзоре Set-CsPinPolicy](/powershell/module/skype/set-cspinpolicy?view=skype-ps).
   
 ## <a name="create-a-user-or-site-pin-policy"></a>Создание политики ПИН-кода пользователя или сайта
 
@@ -141,7 +141,7 @@ Get-CsPinPolicy | Set-CsPinPolicy -MinPasswordLength 10
     
 ### <a name="create-a-user-or-site-pin-policy-by-using-skype-for-business-server-management-shell"></a>Создание политики ПИН-кода пользователя или сайта с помощью Skype для бизнеса Server управленческой оболочки
 
-Чтобы создать политику ПИН-кода пользователя или сайта, используйте **кодлет New-CsPinPolicy.**
+Чтобы создать политику ПИН-кода пользователя или сайта, используйте **кодлет New-CsPinPolicy** .
   
 Следующая команда создает новую политику ПИН-кода с помощью сайта Identity:Redmond. Эта команда включает только один необязательный параметр MinPasswordLength, который используется для набора свойства MinPasswordLength до 7. Все остальные свойства политики будут настраиваться с использованием значений по умолчанию.
   
@@ -149,7 +149,7 @@ Get-CsPinPolicy | Set-CsPinPolicy -MinPasswordLength 10
 New-CsPinPolicy -Identity "site:Redmond" -MinPasswordLength 7
 ```
 
- Дополнительные сведения, в том числе полное описание синтаксиса и список параметров, см. в [обзоре New-CsPinPolicy.](/powershell/module/skype/new-cspinpolicy?view=skype-ps)
+ Дополнительные сведения, включая полное описание синтаксиса и список параметров, см. в [обзоре New-CsPinPolicy](/powershell/module/skype/new-cspinpolicy?view=skype-ps).
   
 ## <a name="modify-a-user-or-site-pin-policy"></a>Изменение политики ПИН-кода пользователя или сайта
 
@@ -171,7 +171,7 @@ New-CsPinPolicy -Identity "site:Redmond" -MinPasswordLength 7
     
 ### <a name="modify-a-user-or-site-pin-policy-by-using-skype-for-business-server-management-shell"></a>Изменение политики ПИН-кода пользователя или сайта с помощью Skype для бизнеса Server управленческой оболочки
 
-Чтобы изменить политику ПИН-кода для телефонных телефонных контактов, используйте **комдлет Set-CsPinPolicy.**
+Чтобы изменить политику ПИН-кода для телефонных телефонных контактов, используйте **комдлет Set-CsPinPolicy** .
   
 Следующая команда изменяет политику ПИН-кода, назначенную сайту Redmond. В этом случае команда изменяет значение свойства MinPasswordLength до 10; это означает, что новые ПИН-коды должны содержать не менее 10 цифр:
   
@@ -179,7 +179,7 @@ New-CsPinPolicy -Identity "site:Redmond" -MinPasswordLength 7
 Set-CsPinPolicy -Identity site:Redmond -MinPasswordLength 10
 ```
 
-Дополнительные сведения, включая полное описание синтаксиса и список параметров, см. [в этой ссылке Set-CsPinPolicy.](/powershell/module/skype/set-cspinpolicy?view=skype-ps)
+Дополнительные сведения, включая полное описание синтаксиса и список параметров, см. [в обзоре Set-CsPinPolicy](/powershell/module/skype/set-cspinpolicy?view=skype-ps).
   
 ## <a name="delete-a-user-or-site-pin-policy"></a>Удаление политики ПИН-кода пользователя или сайта
 
@@ -193,16 +193,16 @@ Set-CsPinPolicy -Identity site:Redmond -MinPasswordLength 10
     
 3. В левой панели навигации щелкните элемент **Conferencing** (Конференц-связь), а затем щелкните элемент **PIN Policy** (Политика ПИН-кодов).
     
-4. На странице **ПОЛИТИКА ПИН-кода** щелкните политику ПИН-кода, которую необходимо изменить, нажмите **кнопку Изменить** и нажмите **кнопку Удалить**.
+4. На странице **ПОЛИТИКА ПИН-кода** щелкните политику ПИН-кода, которую необходимо изменить, нажмите **кнопку Изменить**, а затем нажмите **кнопку Удалить**.
     
 ### <a name="delete-a-user-or-site-pin-policy-by-using-skype-for-business-server-management-shell"></a>Удаление политики ПИН-кода пользователя или сайта с помощью Skype для бизнеса Server управленческой оболочки
 
-Чтобы удалить политику ПИН-кода пользователя или сайта, используйте **cmdlet Remove-CsPinPolicy.**
+Чтобы удалить политику ПИН-кода пользователя или сайта, используйте **cmdlet Remove-CsPinPolicy** .
   
-Следующая команда удаляет все политики ПИН-кода, настроенные в области сайта. Для этого используйте комлет **Get-CsPinPolicy** вместе с параметром Filter, чтобы вернуть коллекцию всех политик, которые имеют удостоверение, которое начинается с символов "site:". Затем эта коллекция передается в **кодлет Remove-CsPinPolicy,** который удаляет каждую политику в коллекции:
+Следующая команда удаляет все политики ПИН-кода, настроенные в области сайта. Для этого используйте комлет **Get-CsPinPolicy** вместе с параметром Filter, чтобы вернуть коллекцию всех политик, которые имеют удостоверение, которое начинается с символов "site:". Затем эта коллекция передается в **кодлет Remove-CsPinPolicy** , который удаляет каждую политику в коллекции:
   
 ```PowerShell
 Get-CsPinPolicy -Filter "site:*" | Remove-CsPinPolicy
 ```
 
-Дополнительные сведения, включая полное описание синтаксиса и список параметров, см. в этой [ссылке Remove-CsPinPolicy.](/powershell/module/skype/remove-cspinpolicy?view=skype-ps)
+Дополнительные сведения, включая полное описание синтаксиса и список параметров, см. в этой ссылке [Remove-CsPinPolicy](/powershell/module/skype/remove-cspinpolicy?view=skype-ps).

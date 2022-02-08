@@ -1,8 +1,8 @@
 ---
 title: Выбор разрешенных участников
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: e9e6df4a-e58a-4104-9f72-2f5c818353e1
 description: Создание и управление стойкими комнатами чата намного проще при правильном использовании категорий. Администратор сохраняемого чата может определять allowedMembers и Creators для каждой категории, а также определять параметры и поведение комнаты чата по умолчанию, которые будут применяться во всех комнатах чата, созданных в этой категории. Постоянные администраторы чата создают и управляют категориями с помощью панели управления или Windows PowerShell.
-ms.openlocfilehash: e08673c6b2d29e24aabef0d56ddbbb19ef776f35
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 69e75459e7b94981a2a32885e6db0ea5ebea9804
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840221"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62386017"
 ---
 # <a name="select-allowed-members"></a>Выбор разрешенных участников
 
@@ -36,14 +36,14 @@ ms.locfileid: "60840221"
 
 - [Новые функции сервера сохраняемого чата](/previous-versions/office/lync-server-2013/lync-server-2013-new-persistent-chat-server-features)
 
-Сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнеса Server, см. в Skype для бизнеса Server [2015](../../manage/manage.md)г.
+Сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнеса Server, см. в Skype для бизнеса Server [2015 г](../../manage/manage.md).
 
 ## <a name="to-configure-categories-for-chat-rooms"></a>Настройка категорий для комнат чата
 
-В **разделе** Членство, в разделе Разрешенные участники добавьте или удалите пользователей и других руководителей служб домена Active Directory (пользователи, группы рассылки, организационные подразделения и так далее), которые разрешены добавлять в качестве членов комнат чатов, принадлежащих к этой категории.  Разрешенные в категории субъекты могут выполнять поиск комнат в этой категории (если только комната не является скрытой — такую комнату могут искать в каталоге только ее участники).
+В разделе Членство в разделе  Разрешенные участники добавьте или удалите пользователей и других руководителей доменных служб Active Directory (пользователи, группы рассылки, организационные подразделения и так далее), которые могут быть добавлены в качестве членов комнат чатов, принадлежащих к этой категории. Разрешенные в категории субъекты могут выполнять поиск комнат в этой категории (если только комната не является скрытой — такую комнату могут искать в каталоге только ее участники).
 
 
-Подробные сведения о возможностях и возможностях сохраняемого сервера чата см. в обзоре сохраняемого сервера [чата](/previous-versions/office/lync-server-2013/lync-server-2013-overview-of-persistent-chat-server) в документации по планированию. Подробные сведения о работе с настойчивыми конфигурациями сервера чата см. в материале Настройка стойких серверов чата в документации по развертыванию и управление [Lync Server 2013, Persistent Chat Server](/previous-versions/office/lync-server-2013/managing-lync-server-2013-persistent-chat-server) в документации по операциям. [](/previous-versions/office/lync-server-2013/lync-server-2013-configuring-persistent-chat-server)
+Подробные сведения о возможностях и возможностях сохраняемого сервера чата см. в [обзоре сохраняемого сервера чата](/previous-versions/office/lync-server-2013/lync-server-2013-overview-of-persistent-chat-server) в документации по планированию. Подробные сведения о работе с настойчивыми конфигурациями сервера чата см. в материале Настройка стойких серверов чата в документации по развертыванию и управление [Lync Server 2013, Persistent Chat Server](/previous-versions/office/lync-server-2013/managing-lync-server-2013-persistent-chat-server) в документации по операциям.[](/previous-versions/office/lync-server-2013/lync-server-2013-configuring-persistent-chat-server)
 
 ## <a name="see-also"></a>См. также
 

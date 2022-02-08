@@ -1,8 +1,8 @@
 ---
 title: Получение вложенных элементов
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 0542eba9-3dda-40de-bba8-095d22825e4e
 description: Сводка. Сведения об операции Get Sub-Items, которая является частью службы элементов. Служба элементов является частью API репозиториев для панели мониторинга качества вызовов. Панель мониторинга качества вызовов — это средство для Skype для бизнеса Server.
-ms.openlocfilehash: a1e439b9bfdfddf7009babbeb39a8175adc2a569
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 6bfa8e449610317caeeaf512e088f2b56441bd2b
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851913"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385577"
 ---
 # <a name="get-sub-items"></a>Получение вложенных элементов
  
@@ -33,7 +33,7 @@ ms.locfileid: "60851913"
 
 |**Способ**|**Запрос URI**|**ВЕРСИЯ HTTP**|
 |:-----|:-----|:-----|
-|GET  <br/> |https:// \<portal\> /QoERepositoryService/repository/item/{itemId}/subitem  <br/> |HTTP/1.1  <br/> |
+|GET  <br/> |\<portal\>https:///QoERepositoryService/repository/item/{itemId}/subitem  <br/> |HTTP/1.1  <br/> |
    
  **Параметры URI** . Нет.
   
@@ -41,7 +41,7 @@ ms.locfileid: "60851913"
   
  **Тело запроса** . Нет.
   
- **Ответ.** Ответ включает код состояния HTTP и набор заглавных заглавных ответов.
+ **Ответ** . Ответ включает код состояния HTTP и набор заглавных заглавных ответов.
   
  **Код состояния** — успешная операция возвращает код состояния 200 (OK). Если указанный код пользователя не найден, он возвращает код состояния 404 (Не найден).
   
@@ -74,6 +74,6 @@ ms.locfileid: "60851913"
  *тип*  . Тип контента. Это поле заданной приложениями.
   
 > [!NOTE]
->  `Content` и поля не включаются в ответ, чтобы уменьшить объем данных, передаваемых `subItems` по сети.
+>  `Content` и `subItems` поля не включаются в ответ, чтобы уменьшить объем данных, передаваемых по сети.
   
 

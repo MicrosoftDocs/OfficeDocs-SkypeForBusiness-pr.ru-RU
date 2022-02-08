@@ -1,8 +1,8 @@
 ---
 title: Навигация по средству планирования Skype для бизнеса Server 2015 г.
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 4/5/2016
 audience: ITPro
@@ -14,22 +14,22 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 01d28e07-7fdc-41f9-9b6d-75dad8c14f6a
 description: Средство планирования Skype для бизнеса Server 2015 г., используя сочетание панели инструментов, кнопок и ссылок, определенных для страниц, и с учетом контекста. В контекстных областях предоставляется проектная информация для планирования и емкости, которая имеет отношение к вариантам выбора на определенной странице.
-ms.openlocfilehash: 6485d23d8f7aa6bfafd039ab1832be7a06f65449
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: ed248fad77615d37abf3eb6b7434d8d20ad1703b
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60845382"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62388047"
 ---
 # <a name="navigate-the-planning-tool-in-skype-for-business-server-2015"></a>Навигация по средству планирования Skype для бизнеса Server 2015 г.
 
 Средство планирования Skype для бизнеса Server 2015 г., используя сочетание панели инструментов, кнопок и ссылок, определенных для страниц, и с учетом контекста. В контекстных областях предоставляется проектная информация для планирования и емкости, которая имеет отношение к вариантам выбора на определенной странице.
 
-При запуске средства планирования конструктор впервые увидит страницу **Welcome to the Planning Tool for Skype для бизнеса Server 2015.**
+При запуске средства планирования конструктор впервые увидит страницу **Welcome to the Planning Tool for Skype для бизнеса Server 2015**.
 
 ![Страница Welcome tool planning.](../../media/Planning_Tool_Welcome.png)
 
-На странице Welcome дизайнер выбирает **Начало работы,** **веб-сайты** или **отображение.** Дополнительные сведения см. [в материале Create the initial topology design for Skype для бизнеса Server 2015.](create-the-initial-design.md)
+На странице Welcome дизайнер выбирает **веб-Начало работы**, **сайты разработки** или **отображение**. Дополнительные сведения см. [в материале Create the initial topology design for Skype для бизнеса Server 2015.](create-the-initial-design.md)
 
 В верхней части средства планирования находится панель инструментов, которая обеспечивает легкий доступ к часто используемым функциям. Панель инструментов отображается здесь для справки, и каждая функция будет обсуждаться в связанных темах.
 

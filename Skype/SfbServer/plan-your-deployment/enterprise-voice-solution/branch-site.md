@@ -1,8 +1,8 @@
 ---
 title: Магистраль SIP-сайта филиала в Skype для бизнеса Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,18 +16,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c4d9dfcd-8baa-41ea-9677-48b0e429429d
 description: Узнайте о магистрали SIP на сайтах филиалов в Skype для бизнеса Server Корпоративная голосовая связь.
-ms.openlocfilehash: b8c1c930bb2500ca9330b14cce7fd5b341db60a9
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 24c9dd53e8c8ce7a00b38ee50b617e9394b7e88c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829903"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387847"
 ---
 # <a name="branch-site-sip-trunking-in-skype-for-business-server"></a>Магистраль SIP-сайта филиала в Skype для бизнеса Server
  
 Узнайте о магистрали SIP на сайтах филиалов в Skype для бизнеса Server Корпоративная голосовая связь.
   
-В некоторых случаях может потребоваться реализовать распределенную магистраль SIP на выбранных сайтах филиалов. Чтобы определить, нужен ли магистраль SIP для сайта филиала, а также сведения о поддерживаемых вариантах топологии для развертывания магистрали SIP на сайтах филиалов см. в материале [SIP trunking in Skype для бизнеса Server.](sip-trunking.md)
+В некоторых случаях может потребоваться реализовать распределенную магистраль SIP на выбранных сайтах филиалов. Чтобы определить, нужен ли магистраль SIP для сайта филиала, а также сведения о поддерживаемых вариантах топологии для развертывания магистрали [SIP](sip-trunking.md) на сайтах филиалов, см. в Skype для бизнеса Server.
   
 ## <a name="example-branch-site-sip-trunk-requirements-analysis"></a>Пример анализа требований к магистрали SIP для офиса филиала
 

@@ -1,8 +1,8 @@
 ---
 title: Планирование приложения Объявления в Skype для бизнеса
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 2abee804-2599-48bb-90b2-15df0bae5e20
 description: Планирование приложения объявлений в Skype для бизнеса Server Корпоративная голосовая связь, которое настраивает, что делать с телефонными звонками на неназваные телефонные номера в организациях. Включает требования к аудиофайлам.
-ms.openlocfilehash: 6dc2317c170585c6688e04b191182cf7ae500b12
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: c895575a88d49bc29a74e53fac1618991b042745
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60838501"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387877"
 ---
 # <a name="plan-for-the-announcement-application-in-skype-for-business"></a>Планирование приложения Объявления в Skype для бизнеса
 
@@ -39,7 +39,7 @@ ms.locfileid: "60838501"
 
 ### <a name="software-requirements"></a>Требования к программному обеспечению
 
-Все серверы переднего выпуск Standard, на которые запущено приложение Announcement, должны иметь время запуска формата Windows для серверов, работающих Windows Server 2008 R2, или Microsoft Media Foundation для серверов с Windows Server 2012 или Windows Server 2012 R2. Для Windows Server 2008 R2 время запуска Windows формата мультимедиа устанавливается в Windows Desktop Experience. Windows Время запуска формата мультимедиа или Microsoft Media Foundation требуется для Windows мультимедиа аудио (wma), которые приложение Announcement воспроизводит для объявлений и музыки.
+Все серверы переднего выпуск Standard, на которые запущено приложение Объявление, должны иметь время запуска Windows формата мультимедиа для серверов, работающих Windows Server 2008 R2, или Microsoft Media Foundation для серверов с Windows Server 2012 или Windows Server 2012 R2. Для Windows Server 2008 R2 время запуска Windows формата мультимедиа устанавливается в Windows Desktop Experience. Windows формата мультимедиа или Microsoft Media Foundation требуется для Windows мультимедиа аудио (.wma), которые приложение Announcement воспроизводит для объявлений и музыки.
 
 ### <a name="port-requirements"></a>Требования к портам
 

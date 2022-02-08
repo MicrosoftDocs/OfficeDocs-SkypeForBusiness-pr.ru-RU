@@ -5,8 +5,8 @@ ms:assetid: c8e9a2fa-9dc1-4e4d-919f-56ece8004864
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182584(v=OCS.15)
 ms:contentKeyID: 48185391
 mtps_version: v=OCS.15
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,19 +15,19 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Включите или отключите отправку об отказе от архива федеративным партнерам в Skype для бизнеса Server.
-ms.openlocfilehash: cbdfe6a53df73c5af3ef8d4b07b1bd2a4fc27a0a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 020ba61ed45a214466ac22e1d13cbe27563697a1
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861356"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62386668"
 ---
 # <a name="enable-or-disable-sending-an-archiving-disclaimer-to-federated-partners-in-skype-for-business-server"></a>Включить или отключить отправку об отказе от архива федеративным партнерам в Skype для бизнеса Server
 
 Во время развертывания edge Servers и включенной федерации для вашей организации необходимо было укастерить, следует ли автоматически отправлять отказ от архивизации федеративным партнерам. Если вы архивировать внешние сообщения, следует включить отправку об отказе от архива. Используйте процедуру, описанную в данном разделе, для изменения этой конфигурации.
 
 > [!NOTE]
-> В следующей процедуре предполагается, что федерация уже включена для организации. Сведения о включаемой федерации см. в материале [Включение или отключение удаленного доступа к пользователю.](enable-or-disable-remote-user-access.md)
+> В следующей процедуре предполагается, что федерация уже включена для организации. Сведения о включаемой федерации см. в материале [Включение или отключение удаленного доступа пользователей](enable-or-disable-remote-user-access.md).
 
 
 ## <a name="to-enable-or-disable-sending-of-an-archiving-disclaimer-to-federated-partners"></a>Чтобы включить или отключить отправку об отказе от архива федеративным партнерам
@@ -38,13 +38,13 @@ ms.locfileid: "60861356"
 
 3.  В левой панели навигации щелкните **Доступ для внешних пользователей** и **Настройка пограничного доступа**.
 
-4.  На **вкладке Конфигурация края** доступа щелкните **Глобальный,** нажмите **кнопку Изменить,** а затем нажмите **показать сведения**.
+4.  На **вкладке Конфигурация края** доступа щелкните **Глобальный**, нажмите **кнопку Изменить**, а затем нажмите **кнопку Показать сведения**.
 
-5.  В **статье Изменение** конфигурации края доступа в статье Включить связь  с федеративными пользователями **выберите** или уберйте отказ от архивации отправки в федеративную проверку партнеров, чтобы включить или отключить автоматически отправку обязвления об отказе от архивации.
+5.  В статье **Изменение** конфигурации края доступа в статье Включить связь с федеративными пользователями **выберите или** очистить отказ от архивации отправки для федеративных партнеров, чтобы включить или отключить автоматически отправку обязвления об отказе от архивации.
 
 6.  Щелкните **Исполнить**.
 
-Чтобы федератированные пользователи могли сотрудничать с пользователями в Skype для бизнеса Server развертывания, необходимо также настроить по крайней мере одну политику внешнего доступа для поддержки федератного доступа пользователей. Сведения об управлении доступом к определенным федератным доменам см. в материале [Configure support for allowed external domains.](../sip-domains/manage-sip-federated-domains-for-your-organization.md#configure-support-for-allowed-external-domains-in-skype-for-business-server)
+Чтобы федератированные пользователи могли сотрудничать с пользователями в Skype для бизнеса Server развертывания, необходимо также настроить по крайней мере одну политику внешнего доступа для поддержки федератного доступа пользователей. Сведения об управлении доступом к определенным федератным доменам см. в материале [Configure support for allowed external domains](../sip-domains/manage-sip-federated-domains-for-your-organization.md#configure-support-for-allowed-external-domains-in-skype-for-business-server).
 
 
 ## <a name="enabling-or-disabling-the-archiving-disclaimer-by-using-windows-powershell-cmdlets"></a>Включение или отключение отказов от архива с помощью Windows PowerShell-

@@ -1,8 +1,8 @@
 ---
 title: Расширитель параметров SBA регистратора
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 68ea1fc0-9cd1-4e0a-995e-b53845493477
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Измените параметры для функции Устойчивость и настройте следующие свойства:'
-ms.openlocfilehash: 02c89e7b8938d6446171919655215c63c1c04628
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: bdcbbfaebf2cafab53cbae9100e4415ca6904725
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60845622"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62384837"
 ---
 # <a name="registrar-sba-settings-expander"></a>Расширитель параметров SBA регистратора
 

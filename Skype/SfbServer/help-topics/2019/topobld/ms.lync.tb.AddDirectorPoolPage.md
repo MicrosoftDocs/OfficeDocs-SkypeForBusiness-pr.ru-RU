@@ -1,8 +1,8 @@
 ---
 title: Добавление пула директоров
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 751ead48-b97f-4c6f-ba6b-14d446473658
 ROBOTS: NOINDEX, NOFOLLOW
 description: Чтобы определить полное доменное имя пула директоров, выберите пул с несколькими компьютерами, состоящий из двух и более директоров в пуле с балансировкой нагрузки, или пул из одного компьютера. Кроме того, необходимо ввести полное доменное имя (FQDN), которое будет использоваться для подключения к пулу Director или FQDN одного директора. Для пула директоров этим именем будет DNS-запись для виртуального IP-адреса аппаратного балансировщика нагрузки или общая DNS-запись для балансировки нагрузки DNS.
-ms.openlocfilehash: 70df13a0339c11d47e907ff70be395f613cdb1fe
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 5591f8de15a898a107c25ca7e2cf29649a827110
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60839341"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385007"
 ---
 # <a name="add-director-pool"></a>Добавление пула директоров
  

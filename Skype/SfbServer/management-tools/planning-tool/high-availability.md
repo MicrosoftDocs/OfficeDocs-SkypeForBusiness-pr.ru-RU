@@ -1,8 +1,8 @@
 ---
 title: Средство панорамирования высокой доступности
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 4/8/2016
 audience: ITPro
@@ -14,12 +14,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 14a897b3-2406-46c7-b08f-490085b3d048
 description: Основная схема высокой доступности большинства ролей сервера в Skype для бизнеса Server 2015 г. основана на избыточности сервера с помощью пулинга. Если сервер с определенной ролью сервера сбой, другие серверы в пуле, которые работают с той же ролью, берут нагрузку с этого сервера.
-ms.openlocfilehash: bd29171be4d30f688f29f9ceb6d793894b0d7938
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 351a8c317c128e37f603f8a64e312c972a76b7cb
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850912"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62386477"
 ---
 # <a name="high-availability-planning-tool"></a>Средство планирования высокой доступности
  
@@ -35,6 +35,6 @@ Skype для бизнеса Server 2015 г. для обеспечения выс
     
 Средство планирования также добавляет зеркальную SQL базы данных для всех баз данных. Например, если имеется база данных SQL Server переднего плана, средство планирования добавит другую базу данных в качестве зеркальной базы данных для этого и назовет ее как "переднее SQL базы данных.
   
-Дополнительные сведения о подготовке среды к высокой доступности см. в руб. [Plan for high availability and disaster recovery in Skype для бизнеса Server 2015.](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)
+Дополнительные сведения о подготовке среды к высокой доступности см. в рубли [Plan for high availability and disaster recovery in Skype для бизнеса Server 2015.](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)
   
 

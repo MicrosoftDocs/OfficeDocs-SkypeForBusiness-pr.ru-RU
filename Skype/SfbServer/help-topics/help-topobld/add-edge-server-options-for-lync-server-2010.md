@@ -1,8 +1,8 @@
 ---
 title: Добавление параметров пограничных серверов для Lync Server 2010
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 0b059af5-e83f-4564-90b2-d7ebb9e551c2
 description: Вы определяете новый пул Edge Server или Edge и имеете возможность определить возможности для нового сервера или пула. Доступные для выбора параметры приведены ниже.
-ms.openlocfilehash: 0c02e03a1e0e1a8c8455be48915f1c488f4d021f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 94d8986a1b5e7317e768de4cb54c84a5b0735a07
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60845542"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385847"
 ---
 # <a name="add-edge-server-options-for-lync-server-2010"></a>Добавление параметров пограничных серверов для Lync Server 2010
 
@@ -33,7 +33,7 @@ ms.locfileid: "60845542"
 
 - **Включить федерацию (порт 5061)**. Установите этот флажок, если необходимо установить федерацию с другими федерациями, поставщиками или узлами SIP.
 
-- Внешний IP-адрес этого пула **Edge** переведен nat : Выберите этот контрольный ящик, если вы используете частные IP-адреса для внешних интерфейсов Edge и предоставит устройство для перевода сетевых адресов (NAT), чтобы логически разместить пул Edge Server или Edge.
+- Внешний IP-адрес этого пула **Edge** переведен nat: Выберите этот контрольный ящик, если вы используете частные IP-адреса для внешних интерфейсов Edge и предоставит устройство для перевода сетевых адресов (NAT), чтобы логически разместить пул Edge Server или Edge.
 
 ## <a name="see-also"></a>См. также
 

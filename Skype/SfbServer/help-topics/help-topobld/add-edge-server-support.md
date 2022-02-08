@@ -1,8 +1,8 @@
 ---
 title: Добавление поддержки для пограничного сервера
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: f7f90070-fcdc-4ec5-9551-cc7da2ed271c
 description: Вы можете добавить поддержку доступа внешних пользователей или при развертывании первоначальной топологии, или позднее. Дополнительные сведения о добавлении пограничных серверов к существующей топологии см. в разделе Define Your Edge Topology руководства по развертыванию пограничного сервера.
-ms.openlocfilehash: 07ec12dda8fd75a46a7e92280cacf7333bd5018b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 5b4c9cdce7a5c35f7d3682068ad7676c1bcbfb01
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60844562"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385837"
 ---
 # <a name="add-edge-server-support"></a>Добавление поддержки для пограничного сервера
 

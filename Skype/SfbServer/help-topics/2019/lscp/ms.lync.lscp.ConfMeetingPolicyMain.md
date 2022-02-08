@@ -1,8 +1,8 @@
 ---
 title: Политика конференц-связи
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 90eaa64e-369e-448d-bac4-2574c7c598b8
 ROBOTS: NOINDEX, NOFOLLOW
 description: Политика конференц-связи определяет функции и возможности, доступные пользователям во время конференции (также называемой собранием).
-ms.openlocfilehash: d79a6450e94e970ea0c034563d38bbf66a2861b8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: afb97809edf186d40fd681e935e15329e7fb311a
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60831543"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387177"
 ---
 # <a name="conferencing-policy"></a>Политика конференц-связи
 
@@ -50,7 +50,7 @@ ms.locfileid: "60831543"
 
 В следующем списке описываются команды на странице.
 
-- **Новые** Запускает новую политику веб-конференций или политику пользовательских конференций.
+- **Новые функции** Запускает новую политику веб-конференций или политику пользовательских конференций.
 
 - **Изменение** Открывает выбранную политику для редактирования, выбирает все политики конференций в списке или удаляет выбранную политику сайта или политику пользователей.
 

@@ -1,8 +1,8 @@
 ---
 title: Федеративные партнеры XMPP
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,16 +15,16 @@ ms.localizationpriority: medium
 ms.assetid: 3e270f9f-c5b7-4aa8-8425-83acadfbfb9a
 ROBOTS: NOINDEX, NOFOLLOW
 description: Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
-ms.openlocfilehash: b4049595359fe01bbdc74527874ecfa2857d3da5
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 5e6dcc42691c1a119e9fc9354bce9ab313e76bdb
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60837271"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387167"
 ---
 # <a name="xmpp-federated-partners"></a>Федеративные партнеры XMPP
 
 > [!NOTE]
-> Шлюзы и прокси XMPP доступны в Skype для бизнеса Server 2015 г., но больше не поддерживаются Skype для бизнеса Server 2019 г. Дополнительные сведения см. в дополнительных сведениях о переносе федерации [XMPP.](../../../../SfBServer2019/migration/migrating-xmpp-federation.md)
+> Шлюзы и прокси XMPP доступны в Skype для бизнеса Server 2015 г., но больше не поддерживаются Skype для бизнеса Server 2019 г. Дополнительные сведения см. в дополнительных сведениях о переносе федерации [XMPP](../../../../SfBServer2019/migration/migrating-xmpp-federation.md) .
 
-См. [в ок. Управление федерадными партнерами XMPP для вашей организации](/previous-versions/office/lync-server-2013/lync-server-2013-manage-xmpp-federated-partners-for-your-organization)
+См [. в ок. Управление федерадными партнерами XMPP для вашей организации](/previous-versions/office/lync-server-2013/lync-server-2013-manage-xmpp-federated-partners-for-your-organization)

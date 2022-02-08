@@ -1,8 +1,8 @@
 ---
 title: API репозиториев для панели мониторинга качества вызовов (CQD) в Skype для бизнеса Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d53e990f-1c5f-46d1-9eb1-8396782c2753
 description: Сводка. Сведения об API репозитория для панели мониторинга качества вызовов. Панель мониторинга качества вызовов — это средство для Skype для бизнеса Server.
-ms.openlocfilehash: e050ecd4367f2d63febf376e42f435c5ec6850f8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 19d1f456afdf9f72721d1a246b206ad4f7259f14
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849892"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62386577"
 ---
 # <a name="repository-api-for-call-quality-dashboard-cqd-in-skype-for-business-server"></a>API репозиториев для панели мониторинга качества вызовов (CQD) в Skype для бизнеса Server
  
@@ -34,9 +34,9 @@ API репозитория состоит из трех общих служб:
   
 - [Служба пользователей для CQD](user-service.md) — для доступа к пользователям.
     
-- Служба элементов для панели мониторинга качества вызовов [(CQD)](item-service.md) — для доступа к элементам и контенту, хранямуся в Items.
+- [Служба элементов для панели мониторинга качества вызовов (CQD)](item-service.md) — для доступа к элементам и контенту, хранямуся в Items.
     
-- Служба Параметры для мониторинга качества вызовов [(CQD)](user-settings-service.md) для доступа к пользовательским Параметры.
+- [Служба Параметры для мониторинга качества вызовов (CQD)](user-settings-service.md) для доступа к пользовательским Параметры.
     
 Панель мониторинга качества вызовов использует API репозиториев для управления следующей информацией: 
   

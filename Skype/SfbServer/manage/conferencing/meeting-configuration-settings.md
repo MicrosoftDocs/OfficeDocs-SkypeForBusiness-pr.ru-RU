@@ -1,8 +1,8 @@
 ---
 title: Управление настройками собраний в Skype для бизнеса Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,18 +12,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 2e6c4f48-464e-4b8e-b7f4-68cdc1ae4ad9
 description: Сводка. Узнайте, как управлять настройками конфигурации собраний в Skype для бизнеса Server.
-ms.openlocfilehash: ccbb1a43364ddd5507fb01c59000397130a9c22e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d05cb5df7f6a187f8642f6e7c91127019e255107
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60832103"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385747"
 ---
 # <a name="manage-meeting-configuration-settings-in-skype-for-business-server"></a>Управление настройками собраний в Skype для бизнеса Server
  
 **Сводка:** Узнайте, как управлять настройками собраний в Skype для бизнеса Server.
   
-В этом разделе описывается управление настройками конфигурации собраний. Дополнительные сведения о планировании и развертывании конференций см. в Skype для бизнеса Server Plan [for conferencing in Skype для бизнеса Server](../../plan-your-deployment/conferencing/conferencing.md) и Deploy [conferencing in Skype для бизнеса Server](../../deploy/deploy-conferencing/deploy-conferencing.md).
+В этом разделе описывается управление настройками конфигурации собраний. Дополнительные сведения о планировании и развертывании конференций см. в Skype для бизнеса Server Plan [for conferencing in Skype для бизнеса Server](../../plan-your-deployment/conferencing/conferencing.md).[](../../deploy/deploy-conferencing/deploy-conferencing.md)
   
 Параметры конфигурации собраний диктуют тип собраний, которые пользователи могут создавать, в дополнение к контролю того, как (или даже если) анонимные пользователи и пользователи телефонных собраний могут присоединяться к этим собраниям. Обратите внимание, что эти параметры влияют только на запланированные собрания; они не влияют на собрания, созданные путем нажатия параметра Meet Now в Skype для бизнеса.
   

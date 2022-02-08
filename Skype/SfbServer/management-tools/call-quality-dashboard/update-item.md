@@ -1,8 +1,8 @@
 ---
 title: Обновление элемента
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b1c15c56-cdae-4f3e-838a-52f0940cf729
 description: Сводка. Сведения об операции "Элемент обновления", которая является частью службы элементов. Служба элементов является частью API репозиториев для панели мониторинга качества вызовов. Панель мониторинга качества вызовов — это средство для Skype для бизнеса Server.
-ms.openlocfilehash: 4140909786c3144dbc043568a5ca6aa2995a0720
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 9ea8a72f70b252cb44a1e4cb15e24cc3718e4be2
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60845402"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62384257"
 ---
 # <a name="update-item"></a>Обновление элемента
  
@@ -32,11 +32,11 @@ ms.locfileid: "60845402"
 
 |**Способ**|**Запрос URI**|**ВЕРСИЯ HTTP**|
 |:-----|:-----|:-----|
-|PUT  <br/> |https:// \<portal\> /QoERepositoryService/repository/item/{itemId}  <br/> |HTTP/1.1  <br/> |
+|PUT  <br/> |\<portal\>https:///QoERepositoryService/repository/item/{itemId}  <br/> |HTTP/1.1  <br/> |
    
  **Параметры URI** . Нет.
   
- **Запрос** headers-Content-Type: application/json.
+ **Запрос headers-Content-Type** : application/json.
   
  **Тело запроса** — JSON.
   
@@ -51,7 +51,7 @@ ms.locfileid: "60845402"
 
  *контент*  Форматированные данные JSON, которые будут храниться в качестве нового контента существующего элемента. Технически репозиторий может хранить любое содержимое любой схемы, но при этом используется для панели мониторинга качества вызовов, она должна быть отчетом или запросом. *тип*  Всегда укажите "application/json" для панели мониторинга качества вызовов.
   
- **Ответ.** Ответ включает код состояния HTTP и набор заглавных заглавных ответов.
+ **Ответ** . Ответ включает код состояния HTTP и набор заглавных заглавных ответов.
   
  **Код состояния** — успешная операция возвращает код состояния 204 (без контента). Если указанный код элемента не найден, он возвращает код состояния 404 (Не найден).
   

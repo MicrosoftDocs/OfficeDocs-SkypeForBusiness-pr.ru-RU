@@ -1,8 +1,8 @@
 ---
 title: 'Skype для бизнеса Server: Удаление существующей коллекции параметров конфигурации магистрали SIP'
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3b25f14d-884b-42dd-a866-460d276d3e43
 description: Сводка. Узнайте, как удалить коллекцию параметров конфигурации магистрали с помощью панели управления Skype для бизнеса Server.
-ms.openlocfilehash: d438db687c8af918a1ac0da67542048ac2fa0bae
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0258b509dee67a657b67d567f5986b240823cf29
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60860886"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62388891"
 ---
 # <a name="skype-for-business-server-delete-an-existing-collection-of-sip-trunk-configuration-settings"></a>Skype для бизнеса Server: Удаление существующей коллекции параметров конфигурации магистрали SIP 
  
@@ -35,7 +35,7 @@ ms.locfileid: "60860886"
     
 - Требуется ли шифрование безопасного транспортного протокола реального времени (SRTP) для каждого магистрали
     
-При установке Skype для бизнеса Server для вас создается глобальная коллекция параметров конфигурации магистрали SIP. Эта глобальная коллекция параметров не подлежит удалению. Однако для "сброса" свойств глобальной коллекции с их значениями по умолчанию можно использовать панель управления Skype для бизнеса Server или [cmdlet Remove-CsTrunkConfiguration.](/powershell/module/skype/remove-cstrunkconfiguration) Например, если задать свойство Enable3pccRefer как True, то при сбросе глобальной коллекции для свойства Enable3pccRefer возвращается значение по умолчанию False.
+При установке Skype для бизнеса Server для вас создается глобальная коллекция параметров конфигурации магистрали SIP. Эта глобальная коллекция параметров не подлежит удалению. Однако для "сброса" свойств глобальной коллекции по умолчанию можно использовать панель управления Skype для бизнеса Server или группу [Remove-CsTrunkConfiguration](/powershell/module/skype/remove-cstrunkconfiguration). Например, если задать свойство Enable3pccRefer как True, то при сбросе глобальной коллекции для свойства Enable3pccRefer возвращается значение по умолчанию False.
   
 Администраторы могут также создавать пользовательские параметры конфигурации магистральной линии для области сайта или службы (отдельного шлюза ТСОП); эти пользовательские параметры могут быть удалены. При удалении этих настраиваемой настройки имейте в виду следующие вещи:
   
@@ -59,7 +59,7 @@ ms.locfileid: "60860886"
     
 ## <a name="removing-trunk-configuration-settings-by-using-skype-for-business-server-management-shell-cmdlets"></a>Удаление конфигурации магистрали Параметры с помощью Skype для бизнеса Server команды оболочки управления
 
-Параметры конфигурации магистрали можно удалить с помощью Skype для бизнеса Server и команды **Remove-CsTrunkConfiguration.** Этот комлет можно выполнить либо из Skype для бизнеса Server, либо из удаленного сеанса Skype для бизнеса Server management Shell.
+Параметры конфигурации магистрали можно удалить с помощью Skype для бизнеса Server и команды **Remove-CsTrunkConfiguration**. Этот комлет можно выполнить либо из Skype для бизнеса Server, либо из удаленного сеанса Skype для бизнеса Server management Shell.
   
 ### <a name="to-remove-a-specified-collection-of-settings"></a>Удаление указанного собрания параметров
 
@@ -85,4 +85,4 @@ ms.locfileid: "60860886"
   Get-CsTrunkConfiguration | Where-Object {$_.EnableBypass -eq $True} | Remove-CsTrunkConfiguration
   ```
 
-Дополнительные сведения см. в разделе Справка для [cmdlet Remove-CsTrunkConfiguration.](/powershell/module/skype/remove-cstrunkconfiguration)
+Дополнительные сведения см. в разделе Справка для [cmdlet Remove-CsTrunkConfiguration](/powershell/module/skype/remove-cstrunkconfiguration) .

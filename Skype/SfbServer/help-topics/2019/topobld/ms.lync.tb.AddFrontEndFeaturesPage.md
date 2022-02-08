@@ -1,8 +1,8 @@
 ---
 title: Добавление компонентов переднего плана
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 97441ec2-573a-4ba4-ab4c-df4cf6baf321
 ROBOTS: NOINDEX, NOFOLLOW
 description: Выберите все возможности, которые хотите включить для интерфейсного пула. Следует развернуть по крайней мере систему обмена мгновенными сообщениями, так как эта возможность всегда выбрана и не может быть отключена. У вас также есть возможность развертывания других функций, таких как conferencing, Корпоративная голосовая связь и управление приемом вызовов (CAC). Некоторые компоненты являются зависимыми от топологии.
-ms.openlocfilehash: 6989234d12c4e6a415eb9949550a6ad1c187b25a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 053088c38242f19e8fe2280c67190cd7c0e4f124
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60832603"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387067"
 ---
 # <a name="add-front-end-features"></a>Добавление компонентов переднего плана
 

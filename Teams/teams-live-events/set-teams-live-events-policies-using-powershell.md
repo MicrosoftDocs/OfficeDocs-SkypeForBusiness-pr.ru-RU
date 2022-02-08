@@ -1,7 +1,7 @@
 ---
 title: Настройка политик трансляций с помощью PowerShell
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 07/10/2019
 ms.topic: article
@@ -14,20 +14,20 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
-description: Примеры использования PowerShell для того, чтобы настроить политики в Teams, чтобы контролировать, кто может проводить трансляции в организации, и какие функции доступны в них.
+description: Примеры использования PowerShell для того, чтобы настроить политики в Teams, чтобы контролировать, кто может проводить трансляции в организации, и какие функции доступны для них.
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: cda9da872d8464064c137713e8eb16ceede7941e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 8a834cfd85cdf9f4839b9351b16c1a2e1ca43e9c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851733"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387427"
 ---
 # <a name="use-powershell-to-set-live-events-policies-in-microsoft-teams"></a>Настройка политик трансляции Microsoft Teams с помощью PowerShell
 
-Для настройки и назначения параметров политики для трансляций в Windows PowerShell можно использовать следующие Teams: 
+Для настройки и назначения параметров политики для трансляций в Teams можно использовать следующие Windows PowerShell: 
 - [Get-CsTeamsMeetingBroadcastPolicy](/powershell/module/skype/get-csteamsmeetingbroadcastpolicy?view=skype-ps)
 - [Set-CsTeamsMeetingBroadcastPolicy](/powershell/module/skype/set-csteamsmeetingbroadcastpolicy?view=skype-ps)
 - [New-CsTeamsMeetingBroadcastPolicy](/powershell/module/skype/new-csteamsmeetingbroadcastpolicy?view=skype-ps)
@@ -37,16 +37,16 @@ ms.locfileid: "60851733"
 Вот несколько примеров.
 
 > [!NOTE]
-> Перед запуском этих cmdlets необходимо подключение к Skype для бизнеса Online PowerShell. Дополнительные сведения см. в Skype для бизнеса Online с [помощью Microsoft 365 или Office 365 PowerShell.](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)
+> Перед запуском этих cmdlets необходимо подключение к Skype для бизнеса Online PowerShell. Дополнительные сведения см. в [Skype для бизнеса Online с Microsoft 365 или Office 365 PowerShell](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell).
 
 ## <a name="allow-users-to-schedule-live-events"></a>Разрешить пользователям планировать трансляции 
 
 > [!NOTE]
-> Эти примеры можно привести для событий, которые были произведены в Teams. Для событий, которые были произведены с помощью внешнего приложения или устройства, необходимо сделать дополнительные действия. Дополнительные сведения см. в статьи Возможность пользователям планировать события, которые были произведены с помощью [внешнего приложения или устройства.](set-up-for-teams-live-events.md#enable-users-to-schedule-events-that-were-produced-with-an-external-app-or-device)
+> Эти примеры можно привести для событий, которые были произведены в Teams. Для событий, произведенных с помощью внешнего приложения или устройства, необходимо сделать дополнительные действия. Дополнительные сведения см. в статьи Возможность планировать события, которые были произведены [с помощью внешнего приложения или устройства](set-up-for-teams-live-events.md#enable-users-to-schedule-events-that-were-produced-with-an-external-app-or-device).
 
 **Разрешить пользователю планировать трансляции**
 
-Если пользователю назначена глобальная политика, запустите и убедитесь, что параметр *AllowBroadcastScheduling* имеет *true:*
+Если пользователю назначена глобальная политика, запустите и убедитесь, что параметр *AllowBroadcastScheduling* имеет *true*:
 ```PowerShell
 Get-CsTeamsMeetingBroadcastPolicy -identity Global
 ```
@@ -58,11 +58,11 @@ Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
 ### <a name="user-scenarios"></a>Сценарии для пользователей
 **Вы хотите, чтобы все пользователи в организации могли планировать трансляции**
 
-Если пользователям назначена глобальная политика, запустите и убедитесь, что *для allowBroadcastScheduling* *установлено *true:*
+Если пользователям назначена глобальная политика, запустите и убедитесь, что *для allowBroadcastScheduling* *установлено *true*:
 ```PowerShell
 Get-CsTeamsMeetingBroadcastPolicy -identity Global
 ```
-Если пользователям назначена политика, которая не является глобальной, запустите и убедитесь, что для *-AllowBroadcastScheduling* за установлено *true:*
+Если пользователям назначена политика, относягая к глобальной, запустите и убедитесь, что для - *AllowBroadcastScheduling* за установлено *true*:
 ```PowerShell
 Get-CsTeamsMeetingBroadcastPolicy -identity {policy name}
 ```
@@ -79,11 +79,11 @@ Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
 
 **Вы хотите, чтобы большое количество пользователей могли планировать трансляции и запретить им планировать их**
 
-Запустите и убедитесь, что *для allowBroadcastScheduling* за установлено *true:*
+Запустите и убедитесь, что *для allowBroadcastScheduling* за установлено *true*:
 ```PowerShell
 Get-CsTeamsMeetingBroadcastPolicy -Identity Global
 ```
-Затем назначьте пользователя или пользователей глобальной политике, запустите 2016.
+Затем назначьте пользователя или пользователя глобальной политике, запустите 2016.
 ```PowerShell
 Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
 ```
@@ -96,7 +96,7 @@ New-CSTeamsMeetingBroadcastPolicy -Identity DisabledBroadcastSchedulingPolicy
 ```PowerShell
 Set-CsTeamsMeetingBroadcastPolicy -Identity DisabledBroadcastSchedulingPolicy -AllowBroadcastScheduling $false
 ```
-Затем назначьте пользователей этой политике и запустите:
+Затем назначьте пользователей этой политике, запустите 2016.
 ```PowerShell
 Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName DisabledBroadcastSchedulingPolicy -Verbose
 ```
@@ -118,7 +118,7 @@ New-CSTeamsMeetingBroadcastPolicy -identity EnableBroadcastSchedulingpolicy
 ```PowerShell
 Set-CsTeamsMeetingBroadcastPolicy -identity EnableBroadcastSchedulingpolicy -AllowBroadcastScheduling $true
 ```
-Затем назначьте пользователей этой политике и запустите:
+Затем назначьте пользователей этой политике, запустите 2016.
 ```PowerShell
 Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName EnableBroadcastSchedulingpolicy -Verbose
 ```

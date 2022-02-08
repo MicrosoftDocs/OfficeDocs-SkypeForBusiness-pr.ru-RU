@@ -1,8 +1,8 @@
 ---
 title: Управление присоединиться к конференции и оставить объявления в Skype для бизнеса Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,18 +12,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: cb09f9c2-c6dc-4083-b45a-8b6773341373
 description: Сводка. Узнайте, как управлять регистрациями на конференции и оставлять объявления в Skype для бизнеса Server.
-ms.openlocfilehash: ee624ee347bb52f4bbdf4fbfae42f5303c8b6a54
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: ac259999daaa2fed0988e59d9ab40b9370a2fba8
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60837671"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385787"
 ---
 # <a name="manage-conference-join-and-leave-announcements-in-skype-for-business-server"></a>Управление присоединиться к конференции и оставить объявления в Skype для бизнеса Server
  
 **Сводка:** Узнайте, как управлять присоединиться к конференции и оставить объявления в Skype для бизнеса Server.
   
-Когда пользователи со звонками присоединяются к конференции или покидают ее, приложение могут объявить о входе или выходе, играя в тон или говоря их имена. Вы можете изменить работу объявлений с помощью Skype для бизнеса Server и команды **Set-CsDialinConferencing** со следующими параметрами:
+Когда пользователи со звонками присоединяются к конференции или покидают ее, приложение  могут объявить о входе или выходе, играя в тон или говоря их имена. Вы можете изменить работу объявлений с помощью Skype для бизнеса Server и команды **Set-CsDialinConferencing** со следующими параметрами:
   
 - EnableNameRecording — определяет, просят ли анонимные участники записывать свое имя перед входом на конференцию. По умолчанию используется значение "$true", что означает, что анонимным участникам предлагается указать свое имя при присоединении к конференции. (Прошедшие проверку подлинности участники не записывают свое имя, поскольку используется их отображаемое имя.)
     
@@ -38,7 +38,7 @@ ms.locfileid: "60837671"
 
 1. Войдите на компьютер как член группы RTCUniversalServerAdmins или участник роли Cs-ServerAdministrator или CsAdministrator.
     
-2. Запустите Skype для бизнеса Server: нажмите кнопку Начните, щелкните Все **программы,** нажмите кнопку Skype для бизнеса **2015,** а затем нажмите кнопку **Skype для бизнеса Server.**
+2. Запустите Skype для бизнеса Server: нажмите кнопку **Начните, нажмите** кнопку Все **программы, нажмите** кнопку Skype для бизнеса **2015**, а затем нажмите кнопку **Skype для бизнеса Server управленческой оболочки**.
     
 3. Выполните в командной строке следующую команду:
     
@@ -66,4 +66,4 @@ Set-CsDialinConferencingConfiguration -Identity site:Redmond
 -EntryExitAnnouncementsType ToneOnly
 ```
 
-Дополнительные сведения, включая синтаксис и полный список параметров, см. в [обзоре Set-CsDialInConferencingConfiguration.](/powershell/module/skype/set-csdialinconferencingconfiguration?view=skype-ps)
+Дополнительные сведения, включая синтаксис и полный список параметров, см. в ссылке [Set-CsDialInConferencingConfiguration](/powershell/module/skype/set-csdialinconferencingconfiguration?view=skype-ps).

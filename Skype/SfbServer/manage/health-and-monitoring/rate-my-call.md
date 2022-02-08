@@ -1,8 +1,8 @@
 ---
 title: Оцените мой вызов в Skype для бизнеса Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c4e0c905-33a1-49d8-9276-1b338f94d085
 description: Сводка. Сведения о функции Rate My Call в Skype для бизнеса Server.
-ms.openlocfilehash: f19424edfb4169a27e10a8b5ac1624065e6288dd
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 27fbfa68026feeef54d478ba473961601db0ae8d
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864836"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62390131"
 ---
 # <a name="rate-my-call-in-skype-for-business-server"></a>Оцените мой вызов в Skype для бизнеса Server
 
@@ -110,7 +110,7 @@ Set-CSClientPolicy -Identity <PolicyIdentity> -RateMyCallDisplayPercentage 80 -R
 
  **[QoeMetrics]. [dbo]. [CallQualityFeedback]** В этой таблице содержатся результаты опроса по результатам голосования "Звезда" и отзывы клиентов, если включено.
 
-Данные из таблиц можно обзвоть с помощью запроса **\* [Table.Name]** или с помощью Microsoft SQL Server Management Studio.
+Данные из таблиц можно назвать с **\*** помощью выбора запроса [Table.Name] или с помощью Microsoft SQL Server Management Studio.
 
 Можно использовать следующие SQL запросы:
 
@@ -190,7 +190,7 @@ SELECT
 
 ## <a name="updating-token-definitions"></a>Обновление определений маркеров
 
-Последние Skype для бизнеса сообщают о новых идентификациях маркеров проблем (100), которые могут не присутствовать в \> вашем [QoeMetrics].[ dbo]. [CallQualityFeedbackTokenDef] таблица. Чтобы обновить таблицу баз данных с помощью последних определений маркеров, SQL команду можно выполнить в базе данных мониторинга с помощью Microsoft SQL Server Management Studio. Эта команда заменит все записи в [QoeMetrics]. [dbo]. [CallQualityFeedbackTokenDef] таблица.
+Последние Skype для бизнеса сообщают о новых идентификациях маркеров проблем (\>100), которые могут не присутствовать в вашем [QoeMetrics].[ dbo]. [CallQualityFeedbackTokenDef] таблица. Чтобы обновить таблицу баз данных с помощью последних определений маркеров, SQL команду можно выполнить в базе данных мониторинга с помощью Microsoft SQL Server Management Studio. Эта команда заменит все записи в [QoeMetrics]. [dbo]. [CallQualityFeedbackTokenDef] таблица.
 
 ```SQL
 DELETE FROM [CallQualityFeedbackTokenDef];

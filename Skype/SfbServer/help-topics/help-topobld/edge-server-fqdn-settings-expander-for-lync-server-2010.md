@@ -1,8 +1,8 @@
 ---
 title: Расширитель параметров полного доменного имени пограничного сервера для Lync Server 2010
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: eb57268c-2419-4655-ace1-91cf871f25c7
 description: Чтобы определить свойства в области Внешние параметры, выполните следующую настройку.
-ms.openlocfilehash: 763fed345ec3d53496be216dbd94e26825c2766b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 640fcbbafde0648f1e7d8b193d93b354437d79fc
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60828922"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385807"
 ---
 # <a name="edge-server-fqdn-settings-expander-for-lync-server-2010"></a>Расширитель параметров полного доменного имени пограничного сервера для Lync Server 2010
  

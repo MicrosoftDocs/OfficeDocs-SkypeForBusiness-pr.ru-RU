@@ -1,8 +1,8 @@
 ---
 title: Расширитель общих настроек сервера-посредника
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,12 +14,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 0e0ad9f0-27d5-4975-ae88-0b8ff8a4c514
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: c2734796a841827fda3b18c3b1528dda784f2979
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 20253f6e212d2e8453312e010f976a423890f299
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840331"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62386907"
 ---
 # <a name="mediation-server-general-settings-expander"></a>Расширитель общих параметров сервера-посредника
  
@@ -35,7 +35,7 @@ ms.locfileid: "60840331"
   
 ## <a name="next-hop-settings"></a>Настройки следующего перехода
 
-Вы определяете пул серверов-посредников или следующий переход сервера-посредника, выбирая заданный пул переднего плана Enterprise Edition или сервер переднего плана Standard Edition в раскрывающемся списке. Директор или пул директоров нельзя выбрать для пула серверов-посредников или следующего перехода сервера-посредника, поэтому они отсутствуют в списке. Нажмите **кнопку ОК,** чтобы принять и сохранить изменения. Нажмите кнопку **Отмена**, чтобы отменить изменения и покинуть страницу свойств.
+Вы определяете пул серверов-посредников или следующий переход сервера-посредника, выбирая заданный пул переднего плана Enterprise Edition или сервер переднего плана Standard Edition в раскрывающемся списке. Директор или пул директоров нельзя выбрать для пула серверов-посредников или следующего перехода сервера-посредника, поэтому они отсутствуют в списке. Нажмите **кнопку ОК** , чтобы принять и сохранить изменения. Нажмите кнопку **Отмена**, чтобы отменить изменения и покинуть страницу свойств.
   
 ## <a name="pstn-gateway-settings"></a>Настройки шлюза ТСОП
 
