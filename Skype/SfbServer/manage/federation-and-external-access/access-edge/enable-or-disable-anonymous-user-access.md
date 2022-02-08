@@ -5,8 +5,8 @@ ms:assetid: f10c19e6-b6f9-4d26-9923-0165f36e4af8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ619192(v=OCS.15)
 ms:contentKeyID: 49733872
 mtps_version: v=OCS.15
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Как включить и отключить анонимный доступ пользователей в Skype для бизнеса Server.
-ms.openlocfilehash: 8010261ad63810ff4227b3cf38983067f80c6f7c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 382bc8bcbfce478677264a6a6da2e791a05b945e
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848462"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62395331"
 ---
 # <a name="enable-or-disable-anonymous-user-access-in-skype-for-business-server"></a>Включить или отключить анонимный доступ к пользователю в Skype для бизнеса Server
 
@@ -29,7 +29,7 @@ ms.locfileid: "60848462"
 Если позднее вам потребуется запретить анонимный доступ пользователей на временной или постоянной основе, вы можете отключить его в своей организации. Используйте приведенную здесь процедуру для включения и отключения анонимного доступа пользователей в своей организации.
 
 > [!NOTE]  
-> Включив анонимный доступ пользователей для своей организации, вы просто указываете, что ваши серверы с пограничной службой доступа поддерживают анонимный доступ пользователей. Анонимные пользователи не могут участвовать в собраниях вашей организации, пока вы не настроите хотя бы одну политику конференц-связи и не примените ее к одному или нескольким пользователям или группам пользователей. Приглашать анонимных пользователей на собрания могут только пользователи, которым назначена политика конференц-связи, настроенная для поддержки анонимных пользователей. Сведения о настройке политик conferencing для поддержки приглашения анонимных пользователей см. в материале [Manage conferencing policies.](../../conferencing/conferencing-policies.md)
+> Включив анонимный доступ пользователей для своей организации, вы просто указываете, что ваши серверы с пограничной службой доступа поддерживают анонимный доступ пользователей. Анонимные пользователи не могут участвовать в собраниях вашей организации, пока вы не настроите хотя бы одну политику конференц-связи и не примените ее к одному или нескольким пользователям или группам пользователей. Приглашать анонимных пользователей на собрания могут только пользователи, которым назначена политика конференц-связи, настроенная для поддержки анонимных пользователей. Сведения о настройке политик conferencing для поддержки приглашения анонимных пользователей см. в материале [Manage conferencing policies](../../conferencing/conferencing-policies.md).
 
 ## <a name="to-enable-or-disable-anonymous-user-access-for-your-organization"></a>Включение и отключение анонимного доступа пользователей в своей организации
 
@@ -52,7 +52,7 @@ ms.locfileid: "60848462"
 
 ## <a name="enabling-or-disabling-anonymous-user-access-by-using-windows-powershell-cmdlets"></a>Включение или отключение анонимного доступа пользователей с помощью Windows PowerShell-кодлетов
 
-Управлять анонимным доступом пользователей можно с помощью Windows PowerShell и **комлета Set-CsAccessEdgeConfiguration.** Этот комлет можно выполнить либо из Skype для бизнеса Server, либо из удаленного сеанса Windows PowerShell. 
+Управлять анонимным доступом пользователей можно с помощью Windows PowerShell **и комлета Set-CsAccessEdgeConfiguration**. Этот комлет можно выполнить либо из Skype для бизнеса Server, либо из удаленного сеанса Windows PowerShell. 
 
 ## <a name="to-enable-anonymous-user-access"></a>Для обеспечения анонимного доступа пользователей
 

@@ -1,8 +1,8 @@
 ---
 title: Выбор правил преобразования вызывающего номера
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,16 +15,16 @@ ms.localizationpriority: medium
 ms.assetid: b9009c02-6628-4038-bc80-650c7a2b8741
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'В диалоговом окне "Выбор правил трансляции вызывающего номера" отображаются правила преобразования, настроенные для вашего развертывания. Дополнительные сведения о правилах преобразования см. в следующих разделах:'
-ms.openlocfilehash: 4b48ad38bf4607a87c86ec68eadeeee2d42a1888
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 5e2772d4eafb961202d10a7f1f16e0fc19296b3d
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60854893"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62393251"
 ---
 # <a name="select-calling-number-rules-translation"></a>Выбор правил преобразования вызывающего номера
 
-Диалоговое **окно "Правила** перевода номеров звонков" отображает правила перевода, настроенные для развертывания. Дополнительные сведения о правилах преобразования см. в следующих разделах:
+**Диалоговое окно "Правила** перевода номеров звонков" отображает правила перевода, настроенные для развертывания. Дополнительные сведения о правилах преобразования см. в следующих разделах:
 
 1. [Правила перевода в Skype для бизнеса Server](../../../plan-your-deployment/enterprise-voice-solution/translation-rules.md)
 

@@ -1,8 +1,8 @@
 ---
 title: Представление VideoStreamDetail
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: ec8c45e1-307d-40ec-a75e-6083306105f2
 description: Представление VideoStreamDetail хранит сведения о каждом видеопотоке в базе данных. Это представление было представлено в Microsoft Lync Server 2013.
-ms.openlocfilehash: 38f97d5cd97d6a92961a377129cb533fd96ccd6d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0e34791bd3081497c4c8501dbd01d2e9d39503f1
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60863236"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62393541"
 ---
 # <a name="videostreamdetail-view"></a>Представление VideoStreamDetail
  
@@ -38,11 +38,11 @@ ms.locfileid: "60863236"
 |Вызывающая сторона  <br/> |nvarchar (450)  <br/> |URI вызываемой.  <br/> |
 |Callee  <br/> |nvarchar (450)  <br/> |URI вызываемой.  <br/> |
 |CallerUserAgent  <br/> |nvarchar (256)  <br/> |Строка агента пользователя вызываемой.  <br/> |
-|CallerUserAgentType  <br/> |smallint  <br/> |Тип агента пользователя вызываемого пользователя. Сведения см. [в таблице UserAgent.](useragent.md) <br/> |
-|CallerUserAgentCategory  <br/> |nvarchar (64)  <br/> |Категория агента пользователя вызываемого пользователя. Сведения см. [в таблице UserAgentDef (QoE).](useragentdef-qoe.md) <br/> |
+|CallerUserAgentType  <br/> |smallint  <br/> |Тип агента пользователя вызываемого пользователя. Сведения см. [в таблице UserAgent](useragent.md) . <br/> |
+|CallerUserAgentCategory  <br/> |nvarchar (64)  <br/> |Категория агента пользователя вызываемого пользователя. Сведения см. [в таблице UserAgentDef (QoE](useragentdef-qoe.md) ). <br/> |
 |CalleeUserAgent  <br/> |nvarchar (256)  <br/> |Строка агента пользователя callee.  <br/> |
-|CalleeUserAgentType  <br/> |smallint  <br/> |Тип агента пользователя вызываемого пользователя. Сведения см. [в таблице UserAgent.](useragent.md) <br/> |
-|CalleeUserAgentCategory  <br/> |nvarchar (64)  <br/> |Категория агента пользователя вызываемого пользователя. Сведения см. [в таблице UserAgentDef (QoE).](useragentdef-qoe.md) <br/> |
+|CalleeUserAgentType  <br/> |smallint  <br/> |Тип агента пользователя вызываемого пользователя. Сведения см. [в таблице UserAgent](useragent.md) . <br/> |
+|CalleeUserAgentCategory  <br/> |nvarchar (64)  <br/> |Категория агента пользователя вызываемого пользователя. Сведения см. [в таблице UserAgentDef (QoE](useragentdef-qoe.md) ). <br/> |
 |CallerEndpoint  <br/> |nvarchar (256)  <br/> |Имя конечной точки вызываемой точки.  <br/> |
 |CalleeEndpoint  <br/> |nvarchar (256)  <br/> |Имя конечной точки вызываемой точки.  <br/> |
 |CallerOS  <br/> |nvarchar (128)  <br/> |Операционная система (ОС) конечной точки вызываемого.  <br/> |
@@ -53,9 +53,9 @@ ms.locfileid: "60863236"
 |CalleeCPUNumberOfCores  <br/> |smallint  <br/> |Количество ядер ЦП конечной точки вызываемого.  <br/> |
 |CallerCPUProcessorSpeed  <br/> |int  <br/> |Скорость процессора процессора конечной точки вызываемого.  <br/> |
 |CalleeCPUProcessorSpeed  <br/> |int  <br/> |Скорость процессора ЦП конечной точки вызываемого.  <br/> |
-|CallerVirtualizationFlag  <br/> |tinyint  <br/> |Указывает, запущена ли система вызываемого в виртуализированной среде. Дополнительные сведения см. в таблице [Endpoint.](endpoint.md) <br/> |
-|CalleeVirtualizationFlag  <br/> |tinyint  <br/> |Указывает, работает ли система вызываемого в виртуализированной среде. Дополнительные сведения см. в таблице [Endpoint.](endpoint.md) <br/> |
-|ConnectivityIce  <br/> |tinyint  <br/> |Информация о пути к носителю, например прямой или с ретрансляцией. Дополнительные сведения см. в таблице [MediaLine.](medialine-0.md) <br/> |
+|CallerVirtualizationFlag  <br/> |tinyint  <br/> |Указывает, запущена ли система вызываемого в виртуализированной среде. Дополнительные сведения [см. в таблице Endpoint](endpoint.md) . <br/> |
+|CalleeVirtualizationFlag  <br/> |tinyint  <br/> |Указывает, работает ли система вызываемого в виртуализированной среде. Дополнительные сведения [см. в таблице Endpoint](endpoint.md) . <br/> |
+|ConnectivityIce  <br/> |tinyint  <br/> |Информация о пути к носителю, например прямой или с ретрансляцией. Дополнительные [сведения см. в таблице MediaLine](medialine-0.md) . <br/> |
 |CallerIceWarningFlags  <br/> |int  <br/> |Сведения о технологии ICE (Interactive Connectivity Establishment), описанные в битовых флагах, для вызывающего абонента. Дополнительные сведения см. в спецификации протокола сервера мониторинга качества взаимодействия.  <br/> |
 |CalleeIceWarningFlags  <br/> |int  <br/> |Сведения о технологии ICE (Interactive Connectivity Establishment), описанные в битовых флагах, для вызываемого абонента. Дополнительные сведения см. в спецификации протокола сервера мониторинга качества взаимодействия.  <br/> |
 |Transport  <br/> |int  <br/> |Вид транспорта: 0 — UDP, 1 — TCP.  <br/> |
@@ -69,9 +69,9 @@ ms.locfileid: "60863236"
 |CallerRegion  <br/> |nvarchar (128)  <br/> |Имя страны или региона сайта вызываемого.  <br/> |
 |CalleeUserSite  <br/> |nvarchar (128)  <br/> |Имя сайта вызываемого.  <br/> |
 |CalleeRegion  <br/> |nvarchar (128)  <br/> |Имя страны или региона сайта вызываемого.  <br/> |
-|CallerRelayIPAddr  <br/> |var (50)  <br/> |IP-адрес пограничной службы обработки аудио- и видеоданных, используемой вызывающим абонентом. Дополнительные сведения см. в таблице [IPAddress.](ipaddress.md) <br/> |
+|CallerRelayIPAddr  <br/> |var (50)  <br/> |IP-адрес пограничной службы обработки аудио- и видеоданных, используемой вызывающим абонентом. Дополнительные [сведения см. в таблице IPAddress](ipaddress.md) . <br/> |
 |CallerRelayPort  <br/> |int  <br/> |Порт пограничной службы обмена аудио-видео данными, используемой звонящим абонентом.  <br/> |
-|CalleeRelayIPAddr  <br/> |var (50)  <br/> |IP-адрес пограничной службы обработки аудио- и видеоданных, используемой вызываемым абонентом. Дополнительные сведения см. в таблице [IPAddress.](ipaddress.md) <br/> |
+|CalleeRelayIPAddr  <br/> |var (50)  <br/> |IP-адрес пограничной службы обработки аудио- и видеоданных, используемой вызываемым абонентом. Дополнительные [сведения см. в таблице IPAddress](ipaddress.md) . <br/> |
 |CalleeRelayPort  <br/> |int  <br/> |Порт пограничной службы обмена аудио-видео данными, используемой вызываемым абонентом.  <br/> |
 |CallerCaptureDev  <br/> |varchar (256)  <br/> |Имя устройства захвата вызываемой.  <br/> |
 |CallerRenderDev  <br/> |varchar (256)  <br/> |Имя устройства визуализации вызываемой.  <br/> |

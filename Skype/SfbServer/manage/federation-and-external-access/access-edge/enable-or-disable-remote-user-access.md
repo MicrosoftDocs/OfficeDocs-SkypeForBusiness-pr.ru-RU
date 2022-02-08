@@ -5,8 +5,8 @@ ms:assetid: cd9d3ddc-4839-457a-86d9-b15413e74002
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182586(v=OCS.15)
 ms:contentKeyID: 48185660
 mtps_version: v=OCS.15
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Если вы включаете удаленный доступ пользователей для удаленных пользователей, поддерживаемые удаленные пользователи подключаются через Интернет и не должны подключаться с помощью VPN для совместной работы с внутренними пользователями с помощью Skype для бизнеса Server.
-ms.openlocfilehash: 8ff48e9fd10a9b5bad6cf1e7ccebebb87bc7ed69
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 94ff8263e61e8113a2f1d47104524d073a082665
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60853043"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62395281"
 ---
 # <a name="enable-or-disable-remote-user-access-in-skype-for-business-server"></a>Включить или отключить удаленный доступ к пользователю в Skype для бизнеса Server
 
@@ -31,7 +31,7 @@ ms.locfileid: "60853043"
 
 
 > [!NOTE]  
-> Включение удаленного доступа к пользователю указывает только, что серверы службы Access Edge поддерживают связь с удаленными пользователями, но удаленные пользователи не могут участвовать в мгновенных сообщениях или конференциях в организации, пока не настроите хотя бы одну политику для управления использованием удаленного доступа пользователей. Skype для бизнеса Server политики, применяемые на одном уровне политики, могут переопределять параметры, применяемые на другом уровне политики. Приоритет политик в Skype для бизнеса Server: политика пользователя (наибольшее влияние) переопределяет политику сайта, а политика сайта переопределяет глобальную политику (наименьшее влияние).  То есть, чем ближе параметр политики к объекту, на который она влияет, тем больше влияния она оказывает на объект. Сведения о настройке политик для использования удаленного доступа к пользователю см. в материале [Configure policies to control remote user access in Skype для бизнеса Server.](../external-access-policies/configure-policies-to-control-remote-user-access.md)
+> Включение удаленного доступа к пользователю указывает только, что серверы службы Access Edge поддерживают связь с удаленными пользователями, но удаленные пользователи не могут участвовать в мгновенных сообщениях или конференциях в организации, пока не настроите хотя бы одну политику для управления использованием удаленного доступа пользователей. Skype для бизнеса Server политики, применяемые на одном уровне политики, могут переопределять параметры, применяемые на другом уровне политики. Приоритет политик в Skype для бизнеса Server: политика пользователя (наибольшее влияние) переопределяет политику сайта, а политика сайта переопределяет глобальную политику (наименьшее влияние).  То есть, чем ближе параметр политики к объекту, на который она влияет, тем больше влияния она оказывает на объект. Сведения о настройке политик для использования удаленного доступа пользователей см. в материале [Configure policies to control remote user access in Skype для бизнеса Server](../external-access-policies/configure-policies-to-control-remote-user-access.md).
 
 
 ## <a name="to-enable-or-disable-remote-user-access-for-your-organization"></a>Включение и выключение функции удаленного доступа пользователей в организации
@@ -52,7 +52,7 @@ ms.locfileid: "60853043"
 
 6.  Щелкните **Commit** (Выполнить).
 
-Чтобы удаленные пользователи могли войти на серверы, работающие Skype для бизнеса Server, необходимо также настроить по крайней мере одну внешнюю политику доступа для поддержки удаленного доступа пользователей. Подробные сведения см. в [материале Configure policies to control remote user access in Skype для бизнеса Server.](../external-access-policies/configure-policies-to-control-remote-user-access.md)
+Чтобы удаленные пользователи могли войти на серверы, работающие Skype для бизнеса Server, необходимо также настроить по крайней мере одну внешнюю политику доступа для поддержки удаленного доступа пользователей. Подробные сведения см. в [материале Configure policies to control remote user access in Skype для бизнеса Server](../external-access-policies/configure-policies-to-control-remote-user-access.md).
 
 
 ## <a name="enabling-or-disabling-remote-user-access-by-using-windows-powershell-cmdlets"></a>Включение или отключение удаленного доступа к пользователю с помощью Windows PowerShell-

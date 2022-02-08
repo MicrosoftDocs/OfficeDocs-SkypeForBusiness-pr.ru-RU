@@ -5,8 +5,8 @@ ms:assetid: 736fcaad-9f95-4896-b767-e199d86a00a4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398551(v=OCS.15)
 ms:contentKeyID: 48184483
 mtps_version: v=OCS.15
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Если пользователь включен для Skype для бизнеса Server, вы можете настроить SIP-федерацию, удаленный доступ к пользователю и подключение к общедоступным мгновенным сообщениями (IM) в панели управления Skype для бизнеса Server, применяя соответствующие политики для определенных пользователей.
-ms.openlocfilehash: 400c49dfc7d0c893af98a8da7bc53894a39d6a9a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 7430cbe015802d377e4d0ca2f1159006a9951a4f
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843922"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62395251"
 ---
 # <a name="assign-an-external-user-access-policy-to-a-skype-for-business-enabled-user"></a>Назначение внешней политики доступа к пользователю для Skype для бизнеса включенного пользователя
 
@@ -28,7 +28,7 @@ ms.locfileid: "60843922"
 
 
 > [!NOTE]  
-> Для поддержки внешних пользователей необходимо включить поддержку для каждого типа внешнего доступа, который вы хотите поддерживать, а также настроить соответствующие политики и другие параметры для управления использования этой технологии. Подробные сведения см. [в материале Managing federation and external access to Skype для бизнеса Server.](../managing-federation-and-external-access.md)
+> Для поддержки внешних пользователей необходимо включить поддержку для каждого типа внешнего доступа, который вы хотите поддерживать, а также настроить соответствующие политики и другие параметры для управления использования этой технологии. Подробные сведения см. [в материале Managing federation and external access to Skype для бизнеса Server](../managing-federation-and-external-access.md).
 
 
 Используйте процедуру, описанную в этом разделе, для применения ранее созданной политики доступа внешних пользователей к одним или нескольким учетным записям пользователей.
@@ -61,7 +61,7 @@ ms.locfileid: "60843922"
 
 ## <a name="to-assign-a-per-user-external-access-policy-to-multiple-users"></a>Назначение политики внешнего доступа для каждого пользователя нескольким пользователям
 
-  - Эта команда назначает политику внешнего доступа на уровне пользователя USAExternalAccessPolicy всем пользователям с учетными записями в подразделении UnitedStates в Active Directory. Дополнительные сведения о параметре OU, используемом в этой команде, см. в документации для [командлета Get-CsUser.](/powershell/module/skype/Get-CsUser)<br/><br/>Get-CsUser -OU "ou=United States,dc=litwareinc,dc=com" | Grant-CsExternalAccessPolicy -PolicyName "USAExternalAccessPolicy"
+  - Эта команда назначает политику внешнего доступа на уровне пользователя USAExternalAccessPolicy всем пользователям с учетными записями в подразделении UnitedStates в Active Directory. Дополнительные сведения о параметре OU, используемом в этой команде, см. в документации для [командлета Get-CsUser](/powershell/module/skype/Get-CsUser) .<br/><br/>Get-CsUser -OU "ou=United States,dc=litwareinc,dc=com" | Grant-CsExternalAccessPolicy -PolicyName "USAExternalAccessPolicy"
 
 
 ## <a name="to-unassign-a-per-user-external-access-policy"></a>Чтобы отогнать политику внешнего доступа для каждого пользователя
@@ -69,4 +69,4 @@ ms.locfileid: "60843922"
   - Следующая команда отменяет назначение политики внешнего доступа, ранее назначенной для Ken Myer. После отмены назначения политики пользователь Ken Myer будет автоматически управляться глобальной политикой или, если такая существует, локальной политикой сайта. Политика сайта имеет более высокий приоритет, чем глобальная политика.<br/><br/>Grant-CsExternalAccessPolicy -Identity "Ken Myer" -PolicyName $Null
 
 
-Дополнительные сведения см. в разделе Справка для [cmdlet Grant-CsExternalAccessPolicy.](/powershell/module/skype/Grant-CsExternalAccessPolicy)
+Дополнительные сведения см. в разделе Справка для [cmdlet Grant-CsExternalAccessPolicy](/powershell/module/skype/Grant-CsExternalAccessPolicy) .

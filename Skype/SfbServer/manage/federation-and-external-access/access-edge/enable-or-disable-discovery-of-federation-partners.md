@@ -5,8 +5,8 @@ ms:assetid: 91fd036b-b1af-47cf-b1cf-0aa0a783c2aa
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182550(v=OCS.15)
 ms:contentKeyID: 48184857
 mtps_version: v=OCS.15
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,19 +15,19 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Во время развертывания пограничных серверов и включения федерации для организации необходимо указать, должно ли поддерживаться автоматическое обнаружение федеративных доменов партнеров.
-ms.openlocfilehash: 4e425566fb0b8aa463c93f0940582487dabaae3d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0742c8ecb2288ca91d8e7f72fc439f7347a7f55e
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60830013"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62395321"
 ---
 # <a name="enable-or-disable-discovery-of-federation-partners-in-skype-for-business-server"></a>Включить или отключить обнаружение партнеров федерации в Skype для бизнеса Server
 
 Во время развертывания пограничных серверов и включения федерации для организации необходимо указать, должно ли поддерживаться автоматическое обнаружение федеративных доменов партнеров. Используйте процедуру, описанную в данном разделе, для изменения этой конфигурации.
 
 > [!NOTE]  
-> В следующей процедуре предполагается, что федерация уже включена для организации. Сведения о включаемой федерации см. в материале [Включение или отключение удаленного доступа к пользователю.](enable-or-disable-remote-user-access.md)
+> В следующей процедуре предполагается, что федерация уже включена для организации. Сведения о включаемой федерации см. в материале [Включение или отключение удаленного доступа пользователей](enable-or-disable-remote-user-access.md).
 
 ## <a name="to-enable-or-disable-automatic-discovery-of-federated-domains-for-your-organization"></a>Включение или отключение автоматического обнаружения федеративных доменов для организации
 
@@ -43,7 +43,7 @@ ms.locfileid: "60830013"
 
 6.  Нажмите кнопку **Сохранить**.
 
-Чтобы федератированные пользователи могли сотрудничать с пользователями в Skype для бизнеса Server развертывания, необходимо также настроить по крайней мере одну политику внешнего доступа для поддержки федератного доступа пользователей. Подробные сведения см. в материале [Enable or disable federation and public IM connectivity.](enable-or-disable-federation-and-public-im-connectivity.md) Сведения об управлении доступом для определенных федераированных доменов см. в материале Управление федерадными доменами [SIP](../sip-domains/manage-sip-federated-domains-for-your-organization.md) и управление федерадными [поставщиками SIP.](../sip-providers/manage-sip-federated-providers-for-your-organization.md)
+Чтобы федератированные пользователи могли сотрудничать с пользователями в Skype для бизнеса Server развертывания, необходимо также настроить по крайней мере одну политику внешнего доступа для поддержки федератного доступа пользователей. Подробные сведения см. в [материале Enable or disable federation and public IM connectivity](enable-or-disable-federation-and-public-im-connectivity.md). Сведения об управлении доступом к определенным федератным доменам см. в материале [Управление](../sip-domains/manage-sip-federated-domains-for-your-organization.md) федерадными доменами [SIP и управление федерадными поставщиками SIP](../sip-providers/manage-sip-federated-providers-for-your-organization.md).
 
 
 ## <a name="enabling-or-disabling-discovery-of-federation-partners-by-using-windows-powershell-cmdlets"></a>Включение или отключение обнаружения партнеров федерации с помощью Windows PowerShell-

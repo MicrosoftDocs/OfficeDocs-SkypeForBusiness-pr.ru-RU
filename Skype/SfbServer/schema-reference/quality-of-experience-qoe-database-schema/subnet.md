@@ -1,8 +1,8 @@
 ---
 title: Таблица subnet
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 76f5c995-96c8-4aa3-bc30-1d74991d7c42
 description: Таблица Subnet является вспомогательной. Каждая запись представляет одну подсеть, определенную в параметрах конфигурации сети.
-ms.openlocfilehash: abbc1317c6a0db1da0b52e5b0eef56abbfad06f5
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 92e582332e0e7c20c443a57c4ba0cc6abbb66cad
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834847"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394601"
 ---
 # <a name="subnet-table"></a>Таблица subnet
  

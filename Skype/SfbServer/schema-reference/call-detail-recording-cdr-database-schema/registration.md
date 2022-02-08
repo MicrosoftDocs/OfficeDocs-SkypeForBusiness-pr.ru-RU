@@ -1,8 +1,8 @@
 ---
 title: Таблица регистрации
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 7/15/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 05ff9dd3-1aaa-4af0-bd69-8789fb8eaeb3
 description: Каждая запись представляет одно событие регистрации пользователя.
-ms.openlocfilehash: 45aa007b242d2a85aa8f19f35571fc367e298433
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: df06364cc466d40ec571328089a7fab5d4970761
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60859816"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394891"
 ---
 # <a name="registration-table"></a>Таблица регистрации
  
@@ -28,11 +28,11 @@ ms.locfileid: "60859816"
 |:-----|:-----|:-----|:-----|
 |**SessionIdTime** <br/> |datetime  <br/> |Основной, внешний  <br/> |Время запроса сеанса. В сочетании с параметром **SessionIdSeq** определяет сеанс уникальным образом. Дополнительные сведения см. в таблице [Диалоги Skype для бизнеса Server 2015](dialogs.md) г. <br/> |
 |**SessionIdSeq** <br/> |int  <br/> |Основной, внешний  <br/> |Идентификатор для идентификации сеанса. В сочетании с параметром **SessionIdTime** определяет сеанс уникальным образом. Дополнительные сведения см. в таблице [Диалоги Skype для бизнеса Server 2015](dialogs.md) г. <br/> |
-|**UserId** <br/> |int  <br/> |Foreign  <br/> |Идентификатор пользователя. Дополнительные [сведения см.](users.md) в таблице Пользователи. <br/> |
+|**UserId** <br/> |int  <br/> |Foreign  <br/> |Идентификатор пользователя. Дополнительные [сведения см](users.md) . в таблице Пользователи. <br/> |
 |**EndpointId** <br/> |uniqueidentifier  <br/> ||GUID для идентификации конечной точки регистрации. Обычно события регистрации с одного и того же компьютера и одного и того же пользователя будут иметь одинаковый идентификатор конечной точки. Разные компьютеры имеют разные идентификаторы конечной точки.  <br/> |
 |**EndpointEra** <br/> |uniqueIdentifier  <br/> ||Идентификатор, используемый, чтобы отличать друг от друга регистрации, в которых участвует один и тот же пользователь и одна и та же конечная точка.  <br/> Это поле было внедрено в Microsoft Lync Server 2013.  <br/> |
 |**ClientVersionId** <br/> |int  <br/> |Foreign  <br/> |Версия клиента текущего пользователя. Дополнительные сведения см. в таблице [ClientVersions Skype для бизнеса Server 2015](clientversions.md) г. <br/> |
-|**RegistrarId** <br/> |int  <br/> |Foreign  <br/> |Идентификатор сервера регистратора, использовавшегося для регистрации. Дополнительные сведения см. в таблице [Servers.](servers.md) <br/> |
+|**RegistrarId** <br/> |int  <br/> |Foreign  <br/> |Идентификатор сервера регистратора, использовавшегося для регистрации. Дополнительные [сведения см. в таблице Servers](servers.md) . <br/> |
 |**PoolId** <br/> |int  <br/> |Foreign  <br/> |Идентификатор пула, в котором был записан сеанс. Дополнительные [сведения см. в](pools.md) таблице Пулы. <br/> |
 |**EdgeServerId** <br/> |int  <br/> |Foreign  <br/> |Пограничный сервер, через который проходила регистрация. Дополнительные сведения см. в таблице [EdgeServers Skype для бизнеса Server 2015](edgeservers.md) г. <br/> |
 |**IsInternal** <br/> |Bit  <br/> ||Вошел ли пользователь из внутренней сети или нет.  <br/> |

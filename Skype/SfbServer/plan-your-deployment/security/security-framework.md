@@ -1,8 +1,8 @@
 ---
 title: Рамки безопасности для Skype для бизнеса Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 01131e28-b38e-40d9-8524-06725b9c6608
 description: В этом разделе представлен обзор основных элементов, составляющих основу безопасности для Skype для бизнеса Server. Понимание совместной работы этих элементов имеет важное значение для принятия обоснованных решений по обеспечению безопасности конкретного Skype для бизнеса Server развертывания.
-ms.openlocfilehash: 9b0947e488987df7e0250bef7ba0c59d1980c5a3
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 927b51fca298d665e45597d943bbb8cbd3e2a2ac
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834045"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394971"
 ---
 # <a name="security-framework-for-skype-for-business-server"></a>Рамки безопасности для Skype для бизнеса Server
  
@@ -40,7 +40,7 @@ ms.locfileid: "60834045"
     
 Эти основные элементы безопасности работают вместе для определения доверенных пользователей, серверов, подключений и операций, чтобы обеспечить безопасную основу для Skype для бизнеса Server.
   
-## <a name="in-this-section"></a>В этом разделе
+## <a name="in-this-section"></a>В этой статье
 
 В разделах описано, как каждый из этих фундаментальных элементов работает для повышения безопасности Skype для бизнеса Server инфраструктуры.
   

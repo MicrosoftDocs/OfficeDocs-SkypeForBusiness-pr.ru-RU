@@ -1,7 +1,7 @@
 ---
 title: Планирование Skype для бизнеса среды VDI
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 ms.reviewer: krishra
 manager: serdars
 ms.date: 1/9/2018
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ea68414b-bb7e-483a-b731-b6b5a44372b1
 description: В этом разделе рассматриваются соображения планирования использования Skype для бизнеса при подключении к удаленному виртуальному рабочему столу.
-ms.openlocfilehash: 63dbdb11abf6188cb11d5f96b54ddeb541f1b9fe
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 052c8b8252846204020ccb29a4d28d6150027963
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864726"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62395081"
 ---
 # <a name="plan-for-skype-for-business-in-vdi-environments"></a>Планирование Skype для бизнеса среды VDI
  
@@ -45,11 +45,11 @@ ms.locfileid: "60864726"
 
 Плагин среды VDI Citrix (функция XenApp и XenDesktop) совместим с клиентами Lync 2013 и Skype для бизнеса 2015 и 2016 годов (полные клиенты, использующие любой щелчок для запуска установщика или установщики MSI, выпущенные после января 2017 г. PU), установлены на виртуальном рабочем столе. Его общее функционирование основано на плагине Microsoft Lync VDI, но работает на более широком спектре клиентских операционных систем, включая Windows 10, Macintosh и Linux.
   
-Полный список функций и поддерживаемых технологий можно найти на веб-сайте Citrix в службе доставки [microsoft Skype для бизнеса пользователям XenApp и XenDesktop.](https://www.citrix.com/content/dam/citrix/en_us/documents/products-solutions/delivering-microsoft-lync-to-xenapp-and-xendesktop-users.pdf)
+Полный список функций и поддерживаемых технологий можно найти на веб-сайте Citrix в службе доставки [microsoft Skype для бизнеса пользователям XenApp и XenDesktop](https://www.citrix.com/content/dam/citrix/en_us/documents/products-solutions/delivering-microsoft-lync-to-xenapp-and-xendesktop-users.pdf).
   
 Дополнительные сведения по следующим ссылкам:
   
-- Пакет оптимизации Citrix HDX в реальном времени [2.1](https://docs.citrix.com/en-us/hdx-optimization/2-1.mdl)
+- Пакет оптимизации [Citrix HDX в реальном времени 2.1](https://docs.citrix.com/en-us/hdx-optimization/2-1.mdl)
     
 - [Технический обзор](https://docs.citrix.com/en-us/hdx-optimization/2-1/about.mdl)
     
@@ -95,7 +95,7 @@ ms.locfileid: "60864726"
     
 - Статья Центра знаний Citrix [CTX138408](https://support.citrix.com/article/CTX138408)
     
-Плагин Microsoft VDI доступен в [плагине Microsoft Lync VDI 2013 (32 бита)](https://www.microsoft.com/download/details.aspx?id=35457) или [плагине Microsoft Lync VDI 2013 (64 бита).](https://www.microsoft.com/download/details.aspx?id=35454) Этот плагин поддерживается с клиентом Skype для бизнеса 2015, несмотря на имя.
+Плагин Microsoft VDI доступен в [плагине Microsoft Lync VDI 2013 (32 бита)](https://www.microsoft.com/download/details.aspx?id=35457) или [плагине Microsoft Lync VDI 2013 (64 бита)](https://www.microsoft.com/download/details.aspx?id=35454). Этот плагин поддерживается с клиентом Skype для бизнеса 2015, несмотря на имя.
   
 ### <a name="supported-virtualization-technologies-and-known-limitations"></a>Поддерживаемые технологии виртуализации и известные ограничения
 <a name="Supported_virt"> </a>
@@ -106,7 +106,7 @@ ms.locfileid: "60864726"
 
 Подключаемый модуль Lync VDI поддерживает удаленные сеансы полного рабочего стола в сценарии личного виртуального рабочего стола, но не в сценарии сеанса удаленного рабочего стола. Эти сценарии можно описать следующим образом:
   
-- **Поддерживается: персонализированные виртуальные настольные компьютеры или инфраструктура виртуальных рабочих столов (VDI).** В этом сценарии каждый пользователь входит в настраиваемый виртуальный рабочий стол и может сохранять файлы на рабочем столе, которые сохраняются во время сеансов. Удаленный рабочий стол (Майкрософт) Службы и представление горизонта VMware — это примеры реализации, протестированная для использования Skype для бизнеса 2015 г. Другие реализации, проходящие проверку, включают Citrix XenDesktop. Сведения о средах VDI, определенных для поставщиков, и клиентских аппаратных средствах, которые были протестированы Корпорацией Майкрософт, см. в рублях [Infrastructure Lync.](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md)
+- **Поддерживается: персонализированные виртуальные настольные компьютеры или инфраструктура виртуальных рабочих столов (VDI).** В этом сценарии каждый пользователь входит в настраиваемый виртуальный рабочий стол и может сохранять файлы на рабочем столе, которые сохраняются во время сеансов. Удаленный рабочий стол (Майкрософт) Services и VMware Horizon View — это примеры реализации, протестированная для использования Skype для бизнеса 2015 г. Другие реализации, проходящие проверку, включают Citrix XenDesktop. Сведения о средах VDI, определенных для поставщиков, и клиентских аппаратных средствах, которые были протестированы Корпорацией Майкрософт, см. в рублях [Infrastructure Lync](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md).
     
 - **Не поддерживается: сеансы удаленного рабочего стола.** В этом сценарии каждый пользователь входит в общий сеанс виртуального рабочего стола, который невозможно настроить. Примеры включают Удаленный рабочий стол (Майкрософт) (RDSH) и Citrix XenApp в сочетании с приемником Citrix.
     
@@ -120,7 +120,7 @@ ms.locfileid: "60864726"
 В среде VDI виртуальные машины и локальный компьютер пользователя должны соответствовать требованиям, описанным в этом разделе.
   
 > [!NOTE]
->  Поставщик решений для виртуализации может предоставить сведения об установке и развертывании среды. Общие сведения о развертывании виртуализированной среды на основе служб Hyper-V и удаленных настольных компьютеров см. в следующих статьях в Microsoft Library: [Hyper-V](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753637(v=ws.10)), [Remote Desktop Services in Windows Server 2008 R2](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd736539(v=ws.10)) 
+>  Поставщик решений для виртуализации может предоставить сведения об установке и развертывании среды. Общие сведения о развертывании виртуализированной среды на основе служб Hyper-V и удаленных настольных компьютеров см. в следующих статьях в microsoft Library: [Hyper-V](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753637(v=ws.10)), [Remote Desktop Services в Windows Server 2008 R2](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd736539(v=ws.10)) 
   
 Виртуальные машины должны быть настроены с Windows 8, Windows 7 или Windows Server 2008 R2 с последними пакетами служб.
   
@@ -132,11 +132,11 @@ ms.locfileid: "60864726"
     
 - Если вы используете службы удаленного рабочего стола, выберите 32-битный или 64-битный подключаемый модуль Lync VDI, чтобы соответствовать операционной системе локального компьютера. Для локального компьютера и виртуальной машины не требуется иметь 32-битные или 64-битные операционные системы. Если вы используете другое решение или платформу виртуализации, обратитесь к требованиям поставщика.
     
-- На локальном компьютере должна быть запущена [последняя версия удаленного настольного клиента.](/windows-server/remote/remote-desktop-services/clients/remote-desktop-clients) Установите последние обновления клиента служб удаленного рабочего стола корпорации Майкрософт или последнюю версию клиента удаленного рабочего стола поставщика решения виртуализации. 
+- На локальном компьютере должна быть запущена [последняя версия удаленного настольного клиента](/windows-server/remote/remote-desktop-services/clients/remote-desktop-clients). Установите последние обновления клиента служб удаленного рабочего стола корпорации Майкрософт или последнюю версию клиента удаленного рабочего стола поставщика решения виртуализации. 
     
 - На локальном компьютере необходимо настроить параметры удаленного клиента для настольных компьютеров, чтобы отключить воспроизведение звука на локальном компьютере и отключить удаленную запись. Чтобы настроить эти параметры для удаленного подключения к настольным компьютерам в Windows, см. в следующем разделе "Настройка параметров удаленного подключения к рабочему столу". 
     
-Плагин Microsoft VDI доступен в [плагине Microsoft Lync VDI 2013 (32 бита)](https://www.microsoft.com/download/details.aspx?id=35457) или [плагине Microsoft Lync VDI 2013 (64 бита).](https://www.microsoft.com/download/details.aspx?id=35454)
+Плагин Microsoft VDI доступен в [плагине Microsoft Lync VDI 2013 (32 бита)](https://www.microsoft.com/download/details.aspx?id=35457) или [плагине Microsoft Lync VDI 2013 (64 бита)](https://www.microsoft.com/download/details.aspx?id=35454).
   
 #### <a name="known-feature-limitations"></a>Известные ограничения функций
 <a name="VDI_prereq"> </a>
@@ -164,7 +164,7 @@ ms.locfileid: "60864726"
 Плагин Lync VDI не поддерживается в Microsoft 365 или Office 365 средах.
   
 > [!NOTE]
-> Пакет оптимизации citrix RealTime поддерживает Microsoft 365 и Office 365. В виртуальных средах на основе Citrix [](https://docs.citrix.com/en-us/hdx-optimization/2-0/hdx-realtime-optimization-pack-about.mdl) просмотрите документацию По техническому обзору Citrix для списка поддерживаемых функций и версий.
+> Пакет оптимизации citrix RealTime поддерживает Microsoft 365 и Office 365. В виртуальных средах на основе Citrix просмотрите документацию По техническому обзору Citrix для списка поддерживаемых функций и версий.[](https://docs.citrix.com/en-us/hdx-optimization/2-0/hdx-realtime-optimization-pack-about.mdl)
   
 ## <a name="see-also"></a>См. также
 <a name="Citrix_RT"> </a>

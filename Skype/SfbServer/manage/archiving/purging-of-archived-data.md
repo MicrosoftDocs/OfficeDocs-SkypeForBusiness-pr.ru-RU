@@ -1,8 +1,8 @@
 ---
 title: Управление чисткой архивных данных в Skype для бизнеса Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 14c2b4fd-f612-4909-808d-09c655fc9f8a
 description: Сводка. Узнайте, как управлять чисткой архивных данных для Skype для бизнеса Server.
-ms.openlocfilehash: 4050bc40d72cb8a2b306ab050298bb74b7c96dbd
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 9868277bc79a95b869383025da7e1c52aed35921
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847442"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62395381"
 ---
 # <a name="manage-purging-of-archived-data-in-skype-for-business-server"></a>Управление чисткой архивных данных в Skype для бизнеса Server
 
@@ -35,7 +35,7 @@ ms.locfileid: "60847442"
     
 2. Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель Skype для бизнеса Server управления. 
     
-3. В левой панели навигации щелкните Мониторинг и **архивация,** а затем щелкните **конфигурацию архивации.**
+3. В левой панели навигации щелкните **Мониторинг и архивация**, а затем щелкните **Конфигурация архивации**.
     
 4. В списке конфигураций архивации выберите название соответствующей глобальной конфигурации, конфигурации узла или пула, в меню **Правка** выберите пункт **Показать подробности** и затем сделайте следующее.
     
@@ -63,13 +63,13 @@ ms.locfileid: "60847442"
 Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $True
 ```
 
-Следующая команда ограничивает чистку архивных записей, экспортируемых в файл данных (с помощью **командлета Export-CSArchivingData).** Необходимо также установить параметр PurgeExportedArchivesOnly для True ($True):
+Следующая команда ограничивает чистку архивных записей, экспортируемых в файл данных (с помощью **командлета Export-CSArchivingData** ). Необходимо также установить параметр PurgeExportedArchivesOnly для True ($True):
   
 ```PowerShell
 Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $True -PurgeExportedArchivesOnly $True
 ```
 
-После запуска этой команды Skype для бизнеса Server только записи архивации, которые соответствуют двум критериям: 1) они старше значения, указанного для параметра KeepArchivingDataForDays; и 2) они экспортируются с помощью **cmdlet Export-CsArchivingData.**
+После запуска этой команды Skype для бизнеса Server только записи архивации, которые соответствуют двум критериям: 1) они старше значения, указанного для параметра KeepArchivingDataForDays; и 2) они экспортируются с помощью **cmdlet Export-CsArchivingData**.
   
 Чтобы отключить автоматическую чистку архивных записей, установите параметр EnablePurging false ($False):
   

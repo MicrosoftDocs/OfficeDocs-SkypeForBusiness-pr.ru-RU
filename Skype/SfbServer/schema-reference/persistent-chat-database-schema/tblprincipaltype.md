@@ -1,8 +1,8 @@
 ---
 title: tblPrincipalType
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 32e1c1d6-80f4-4624-bf4e-b4c77d3982fa
 description: Таблица tblPrincipalType содержит типы субъектов для разделения содержимого таблицы tblPrincipal по категориям.
-ms.openlocfilehash: cf55ba04afe3688d3ecfd397dc4ffcbe50da2c19
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: cafc8ef175cd3a24178331ce308cf66942c55324
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60844072"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394811"
 ---
 # <a name="tblprincipaltype"></a>tblPrincipalType
  
@@ -47,7 +47,7 @@ ms.locfileid: "60844072"
 |2  <br/> |AnyUser  <br/> |Общий субъект типа "пользователь". Не используется в таблице tblPrincipal.  <br/> |Да  <br/> |
 |3  <br/> |AnyGroup  <br/> |Общий субъект типа "группа". Не используется в таблице tblPrincipal.  <br/> ||
 |4  <br/> |SystemUser  <br/> |Основной, используемый внутренним сервером сохраняемой чат-сервера.  <br/> ||
-|5  <br/> |User  <br/> |Обычный пользователь.  <br/> |Да  <br/> |
+|5  <br/> |Пользователь.  <br/> |Обычный пользователь.  <br/> |Да  <br/> |
 |8   <br/> |DC  <br/> |Контроллер домена Active Directory Domain Services.  <br/> ||
 |9   <br/> |Group  <br/> |Группа безопасности Active Directory.  <br/> ||
 |10   <br/> |Folder  <br/> |Контейнер или подразделение Active Directory.  <br/> ||

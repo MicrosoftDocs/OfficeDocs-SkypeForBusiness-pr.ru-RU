@@ -1,8 +1,8 @@
 ---
 title: Таблица сеансов
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 7f05529c-794d-41ed-bca4-2e85b87b2dec
 description: Каждая запись представляет один сеанс, который включает аудио- или аудио- и видео. Он содержит общую информацию о сеансе. Сеанс определяется как диалоговое окно протокола инициации сеанса аудио или видео(SIP) между двумя конечными точками.
-ms.openlocfilehash: 044d7d2626ca0d04bb55b7a060d39e7ec330312d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 6e69ca38a0338075975919f087c066f683fcfb87
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840931"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394618"
 ---
 # <a name="session-table"></a>Таблица сеансов
  
@@ -37,12 +37,12 @@ ms.locfileid: "60840931"
 |**EndTime** <br/> |datetime  <br/> | <br/> |Время окончания вызова.  <br/> |
 |**CallerPool** <br/> |int  <br/> |Foreign  <br/> |Пул вызываемого. Ссылки из [таблицы Пул](pool.md).  <br/> |
 |**CalleePool** <br/> |int  <br/> |Foreign  <br/> |Пул приемного вызова. Ссылки из [таблицы Пул](pool.md).  <br/> |
-|**CalleePAI** <br/> |int  <br/> |Foreign  <br/> |SIP URI в SIP p-asserted identity (PAI) конечной точки получения. Ссылки из [таблицы Пользователей](user-0.md).  <br/> |
-|**CallerURI** <br/> |int  <br/> |Foreign  <br/> |URI вызываемой. Ссылки из [таблицы Пользователей](user-0.md).  <br/> |
+|**CalleePAI** <br/> |int  <br/> |Foreign  <br/> |SIP URI в SIP p-asserted identity (PAI) конечной точки получения. Ссылки из [таблицы Пользователя](user-0.md).  <br/> |
+|**CallerURI** <br/> |int  <br/> |Foreign  <br/> |URI вызываемой. Ссылки из [таблицы Пользователя](user-0.md).  <br/> |
 |**CallerEndpoint** <br/> |int  <br/> |Foreign  <br/> |Конечная точка вызываемой. Ссылки из [таблицы Endpoint](endpoint.md).  <br/> |
 |**CallerUserAgent** <br/> |bit  <br/> |Foreign  <br/> |Агент пользователя вызываемой. Ссылки из [таблицы UserAgent](useragent.md).  <br/> |
 |**CallPriority** <br/> |smallint  <br/> ||Приоритет этого вызова.  <br/> |
-|**ClassifiedPoorCall** <br/> |bit  <br/> ||Этот столбец был обесценив и не используется в Skype для бизнеса Server. Вместо этого эти сведения сообщаются на основе строки для мультимедиа. Дополнительные сведения можно получить в таблице [MediaLine.](medialine-0.md) <br/> |
+|**ClassifiedPoorCall** <br/> |bit  <br/> ||Этот столбец был обесценив и не используется в Skype для бизнеса Server. Вместо этого эти сведения сообщаются на основе строки для мультимедиа. Дополнительные сведения можно получить в таблице [MediaLine](medialine-0.md) . <br/> |
 |**CallerPAI** <br/> |int  <br/> |Foreign  <br/> |P-Asserted-Identity пользователя, который разместил вызов. P-Asserted-Identity (PAI) используется для передачи истинного удостоверения пользователя, который разместил вызов.  <br/> |
 |**CalleeEndpoint** <br/> |int  <br/> |Foreign  <br/> |Конечная точка, которая получила вызов.  <br/> |
 |**CalleeUserAgent** <br/> |int  <br/> |Foreign  <br/> |Агент пользователя, нанятый пользователем, который получил вызов. Агенты пользователей представляют конечный клиентский аппарат.  <br/> |

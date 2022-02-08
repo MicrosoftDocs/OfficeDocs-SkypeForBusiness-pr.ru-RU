@@ -1,7 +1,7 @@
 ---
 title: Сравнение функций мобильных клиентов для Skype для бизнеса
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 2/16/2018
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b2c950c9-76a5-400a-b146-9b1a22790c12
 description: Сводка. Просмотрите поддержку функций для мобильного клиента при планировании Skype для бизнеса Server.
-ms.openlocfilehash: f1bbb046827ef762f5def1d532089e9621c32b28
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: a4696adda500b3011f52ac113b58f283ab7bfd96
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834127"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62395101"
 ---
 # <a name="mobile-client-feature-comparison-for-skype-for-business"></a>Сравнение функций мобильных клиентов для Skype для бизнеса
  
@@ -247,7 +247,7 @@ ms.locfileid: "60834127"
 
 В этой таблице представлены функции, требующие поддержки современной проверки подлинности.
   
-Современная проверка подлинности также требует топологии, описанной в Skype для бизнеса топологии, поддерживаемой [современной проверкой подлинности.](../../plan-your-deployment/modern-authentication/topologies-supported.md)
+Современная проверка подлинности также требует топологии, описанной в Skype для бизнеса топологии, поддерживаемой [современной проверкой подлинности](../../plan-your-deployment/modern-authentication/topologies-supported.md).
   
 
  | Функция/возможности  | Skype для бизнеса настольного клиента  | Windows Phone  | iOS  | Android |
