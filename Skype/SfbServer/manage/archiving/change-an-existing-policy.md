@@ -1,8 +1,8 @@
 ---
 title: Измените существующую политику архива в Skype для бизнеса Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 4cf600be-ba3d-4bce-aa22-e158b9ccf8a9
 description: Сводка. Сведения об изменении политик архива пользователей для Skype для бизнеса Server.
-ms.openlocfilehash: b6ddc379f2b5652311be051d47d644a8e2923c1c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 494ed5ab3bd9e7bf4b64926533d3866e515fe34a
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60854393"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62416622"
 ---
 # <a name="change-an-existing-archiving-policy-in-skype-for-business-server"></a>Измените существующую политику архива в Skype для бизнеса Server
  
@@ -31,7 +31,7 @@ ms.locfileid: "60854393"
     
 2. Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель Skype для бизнеса Server управления. 
     
-3. В левой панели навигации щелкните **Мониторинг** и архивации, а затем нажмите кнопку **Политика архивации**.
+3. В левой панели навигации щелкните **Мониторинг и архивации**, а затем нажмите **кнопку Политика архивации**.
     
 4. В списке политик выполните одно из следующих действий: 
     
@@ -50,11 +50,11 @@ ms.locfileid: "60854393"
 6. Щелкните **Commit** (Применить).
     
     > [!IMPORTANT]
-    > Параметры политики пользователя применяются только к тем пользователям и группам пользователей, к которым применяется политика. Дополнительные сведения [см. в материале Apply an archiving policy to users in Skype для бизнеса Server.](apply-a-policy-to-users.md) 
+    > Параметры политики пользователя применяются только к тем пользователям и группам пользователей, к которым применяется политика. Дополнительные сведения см[. в материале Apply an archiving policy to users in Skype для бизнеса Server](apply-a-policy-to-users.md). 
   
 ## <a name="change-archiving-policies-by-using-windows-powershell"></a>Изменение политик архива с помощью Windows PowerShell
 
-Вы также можете изменить политики архива с помощью Windows PowerShell **set-CsArchivingPolicy.**
+Вы также можете изменить политики архива с помощью Windows PowerShell **set-CsArchivingPolicy**.
   
 ### <a name="enable-archiving-policies"></a>Включить политики архива
 

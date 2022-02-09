@@ -1,7 +1,7 @@
 ---
 title: Skype для бизнеса требования к клиентам Mac
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 2/16/2018
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 790d3e89-2b68-411b-b282-38de5d34dd10
 description: Ознакомьтесь с этой темой, чтобы узнать о требованиях к оборудованию, программному обеспечению и инфраструктуре для Skype для бизнеса на Mac.
-ms.openlocfilehash: b7d3ce484ea3e333e85c2f8473cdcdaaebe44057
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 5d4e07bda176efa398d8e6766e410be243873bbe
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847222"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62416472"
 ---
 # <a name="skype-for-business-on-mac-client-requirements"></a>Skype для бизнеса требования к клиентам Mac
  
@@ -31,18 +31,18 @@ ms.locfileid: "60847222"
   
 ## <a name="hardware-and-software-requirements-for-skype-for-business-on-mac"></a>Требования к оборудованию и программному обеспечению для Skype для бизнеса на Mac
 
-Для Skype для бизнеса Mac требуется Mac OS X El Capitan и более высокий уровень и используется не менее 100 МБ дискового пространства. Мы поддерживаем использование всех встроенных аудио- и видео устройств. Внешние устройства должны быть указаны [на Microsoft Teams устройствах.](https://www.microsoft.com/microsoft-teams/across-devices/devices) 
+Для Skype для бизнеса Mac требуется Mac OS X El Capitan и более высокий уровень и используется не менее 100 МБ дискового пространства. Мы поддерживаем использование всех встроенных аудио- и видео устройств. Внешние устройства должны быть указаны [на Microsoft Teams устройствах](https://www.microsoft.com/microsoft-teams/across-devices/devices). 
   
 > [!NOTE]
 > Этот список является предварительным, и некоторые устройства могут быть квалифицированы для Lync, но не поддерживаются Skype для бизнеса на Mac. Обратитесь к [требованиям системы к](https://products.office.com/office-system-requirements) минимально необходимому оборудованию.
   
 ### <a name="legacy-mac-clients"></a>Устаревшие клиенты Mac
 
-Skype для бизнеса Server 2015 г. также поддерживает следующие устаревшие клиенты на компьютерах с операционной системой Mac OS 10.5.8 или последним пакетом служб или выпуска (операционная система Mac OS 10.9 в настоящее время не поддерживается). Подробные сведения о поддерживаемых функциях см. в материале Сравнение функций клиента [desktop для Skype для бизнеса.](desktop-feature-comparison.md)
+Skype для бизнеса Server 2015 г. также поддерживает следующие устаревшие клиенты на компьютерах с операционной системой Mac OS 10.5.8 или последним пакетом служб или выпуска (операционная система Mac OS 10.9 в настоящее время не поддерживается). Подробные сведения о поддерживаемых функциях см. в материале Сравнение функций клиента [для настольных компьютеров для Skype для бизнеса](desktop-feature-comparison.md).
   
-- Microsoft Lync для Mac 2011 (см. руководство по развертыванию [Lync для Mac 2011)](/previous-versions/office/office-for-mac-2011/jj984275(v=office.14))
+- Microsoft Lync для Mac 2011 (см. руководство по развертыванию [Lync для Mac 2011](/previous-versions/office/office-for-mac-2011/jj984275(v=office.14)))
     
-- Microsoft Communicator для Mac 2011 (см. Communicator руководство по развертыванию [Mac 2011)](/previous-versions/office/office-for-mac-2011/jj984270(v=office.14))
+- Microsoft Communicator для Mac 2011 (см. Communicator руководства по [развертыванию Mac 2011](/previous-versions/office/office-for-mac-2011/jj984270(v=office.14)))
  
 Эти клиенты не поддерживаются Skype для бизнеса Server 2019 г.
    
@@ -74,7 +74,7 @@ Skype для бизнеса Server 2015 г. также поддерживает 
     
 - lyncdiscover.\<sipdomain\>
     
-Дополнительные сведения можно найти в руководстве по мобильности [Lync Server 2013](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-mobility)и руководстве по мобильности [Microsoft Lync Server 2010.](https://go.microsoft.com/fwlink//p/?LinkId=798226)
+Дополнительные сведения: Развертывание мобильности в [Lync Server 2013](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-mobility) и Руководство по мобильности [Microsoft Lync Server 2010](https://go.microsoft.com/fwlink//p/?LinkId=798226).
   
 ## <a name="see-also"></a>См. также
 <a name="Infrastructure"> </a>

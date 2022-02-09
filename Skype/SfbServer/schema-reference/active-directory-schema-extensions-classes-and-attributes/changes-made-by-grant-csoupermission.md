@@ -1,8 +1,8 @@
 ---
 title: Изменения, внесенные Grant-CsOUPermission в Skype для бизнеса Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: d744d352-1ad9-4447-8e2b-28e768d2ed1b
 description: Чтобы делегировать Skype для бизнеса Server администрирование, можно добавить разрешения к указанным организационным единицам (OUs), чтобы члены универсальных групп RTC, созданные при подготовке леса, могли получать доступ к OUs, не являясь членами группы администраторов домена.
-ms.openlocfilehash: c8b7841fc6754c5f852945807a68089c922f6497
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 412fd5eb19f3dac23bbbf68cfd4eb751f56fa3bc
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60838471"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62416402"
 ---
 # <a name="changes-made-by-grant-csoupermission-in-skype-for-business-server"></a>Изменения, внесенные Grant-CsOUPermission в Skype для бизнеса Server
  
@@ -32,7 +32,7 @@ ms.locfileid: "60838471"
   
 **Разрешения, предоставленные объектам-пользователям**
 
-|**Group**|**Разрешение**|**Область применения**|
+|**Группа**|**Разрешение**|**Область применения**|
 |:-----|:-----|:-----|
 |RTCHSUniversalServices  <br/> |Репликация изменений каталога  <br/> |Только к этому объекту  <br/> |
 |RTCUniversalServerReadOnlyGroup  <br/> |Содержимое списка  <br/> Чтение всех свойств  <br/> Разрешения на чтение  <br/> |Только к этому объекту  <br/> |
@@ -46,7 +46,7 @@ ms.locfileid: "60838471"
   
 **Разрешения, предоставленные объектам-компьютерам**
 
-|**Group**|**Разрешение**|**Область применения**|
+|**Группа**|**Разрешение**|**Область применения**|
 |:-----|:-----|:-----|
 |RTCHSUniversalServices  <br/> |Репликация изменений каталога  <br/> |Только к этому объекту  <br/> |
 |RTCUniversalServerReadOnlyGroup  <br/> |Содержимое списка  <br/> Чтение всех свойств  <br/> Разрешения на чтение  <br/> |Только к этому объекту  <br/> |
@@ -60,7 +60,7 @@ ms.locfileid: "60838471"
   
 **Разрешения, предоставленные контактным объектам и объектам AppContact**
 
-|**Group**|**Разрешение**|**Область применения**|
+|**Группа**|**Разрешение**|**Область применения**|
 |:-----|:-----|:-----|
 |RTCHSUniversalServices  <br/> |Репликация изменений каталога  <br/> |Только к этому объекту  <br/> |
 |RTCUniversalServerReadOnlyGroup  <br/> |Содержимое списка  <br/> Чтение всех свойств  <br/> Разрешения на чтение  <br/> |Только к этому объекту  <br/> |
@@ -74,7 +74,7 @@ ms.locfileid: "60838471"
   
 **Разрешения, предоставленные объектам-устройствам**
 
-|**Group**|**Разрешение**|**Область применения**|
+|**Группа**|**Разрешение**|**Область применения**|
 |:-----|:-----|:-----|
 |RTCHSUniversalServices  <br/> |Репликация изменений каталога  <br/> |Только к этому объекту  <br/> |
 |RTCUniversalServerReadOnlyGroup  <br/> |Содержимое списка  <br/> Чтение всех свойств  <br/> Разрешения на чтение  <br/> |Только к этому объекту  <br/> |
@@ -90,7 +90,7 @@ ms.locfileid: "60838471"
   
 **Разрешения, предоставленные объектам inetOrgPerson**
 
-|**Group**|**Разрешение**|**Область применения**|
+|**Группа**|**Разрешение**|**Область применения**|
 |:-----|:-----|:-----|
 |RTCHSUniversalServices  <br/> |Репликация изменений каталога  <br/> |Только к этому объекту  <br/> |
 |RTCUniversalServerReadOnlyGroup  <br/> |Содержимое списка  <br/> Чтение всех свойств  <br/> Разрешения на чтение  <br/> |Только к этому объекту  <br/> |

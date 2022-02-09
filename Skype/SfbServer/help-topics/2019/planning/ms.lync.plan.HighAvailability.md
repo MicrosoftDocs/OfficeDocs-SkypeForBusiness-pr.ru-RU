@@ -1,8 +1,8 @@
 ---
 title: Высокая доступность (средство планирования)
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 ms.assetid: 14a897b3-2406-46c7-b08f-490085b3d048
 ROBOTS: NOINDEX, NOFOLLOW
 description: Основная схема высокой доступности большинства ролей сервера в Skype для бизнеса Server основана на избыточности сервера с помощью пулинга. При сбое сервера с определенными ролями остальные серверы в пуле с такими же ролями берут на себя нагрузку этого сервера.
-ms.openlocfilehash: 3bd8d5f56055e75cfdccaaf7867c5b59feb9e39e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0d19099e156b5c67bb443cb0ca81566d3771e465
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841711"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62411232"
 ---
 # <a name="high-availability-planning-tool"></a>Высокая доступность (средство планирования)
  
@@ -36,9 +36,9 @@ Skype для бизнеса Server для обеспечения высокой 
 - Если развертывание содержит постоянный чат, средство планирования добавит дополнительный сервер, но не увеличит номер пула. Например, если развертывание уже содержит четыре сервера, средство планирования предложит добавить дополнительный сервер (в общей сложности пять серверов), но будет поддерживать один пул. 
 
     > [!NOTE] 
-    > Постоянный чат доступен в Skype для бизнеса Server 2015 г., но больше не поддерживается Skype для бизнеса Server 2019 г. Такая же функциональность доступна в Teams. Дополнительные сведения см. [в Skype для бизнеса Microsoft Teams обновления.](/MicrosoftTeams/upgrade-start-here) Если вам нужно использовать постоянный чат, вы можете либо перенести пользователей, требующих Teams, либо продолжить использование Skype для бизнеса Server 2015. 
+    > Постоянный чат доступен в Skype для бизнеса Server 2015 г., но больше не поддерживается Skype для бизнеса Server 2019 г. Такая же функциональность доступна в Teams. Дополнительные сведения см. [в Skype для бизнеса Microsoft Teams обновления](/MicrosoftTeams/upgrade-start-here). Если вам нужно использовать постоянный чат, вы можете либо перенести пользователей, требующих Teams, либо продолжить использование Skype для бизнеса Server 2015. 
 
     
 Средство планирования также добавляет зеркальную SQL базы данных для всех баз данных. Например, если имеется база данных SQL Server переднего плана, средство планирования добавит другую базу данных в качестве зеркальной базы данных для этой базы данных и назовет ее как "переднее SQL базы данных.
   
-Дополнительные сведения о подготовке среды к высокой доступности см. в материале [Plan for high availability and disaster recovery in Skype для бизнеса Server.](../../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)
+Дополнительные сведения о подготовке среды к высокой доступности см. в материале [Plan for high availability and disaster recovery in Skype для бизнеса Server](../../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).

@@ -1,8 +1,8 @@
 ---
 title: Необходимые условия и настройка Skype для средства стрессов и производительности Busines
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 ms.date: 12/20/2018
 manager: serdars
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 948c176c-75ce-418d-891a-a68427d61e40
 description: Требования или необходимые условия для Skype для бизнеса Server 2015 года. Установка или установка средства стресса и производительности.
-ms.openlocfilehash: 60ff4476a92949b2f5ba0d7a027b5cadf3eab533
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: ec7e2b66427d360a9d54c38146289e4d08f9238d
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835167"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62399623"
 ---
 # <a name="prerequisites-and-setup-for-the-skype-for-busines-stress-and-performance-tool"></a>Необходимые условия и настройка Skype для средства стрессов и производительности Busines
  
@@ -33,7 +33,7 @@ ms.locfileid: "60835167"
     
 - [Требования к конфигурации](prerequisites-and-setup.md#ConfigReqs)
     
-Кроме того, ниже приведен раздел для установки средства [Skype для бизнеса Server 2015 г.](prerequisites-and-setup.md#Installing)
+Кроме того, ниже приведен раздел для установки средства [Skype для бизнеса Server 2015 г](prerequisites-and-setup.md#Installing).
   
 ## <a name="client-hardware-requirements"></a>Требования к оборудованию клиента
 <a name="ClientHardwareReqs"> </a>
@@ -51,7 +51,7 @@ ms.locfileid: "60835167"
 
 Поддерживаемые операционные системы для Средства стресса и производительности:
   
-- Windows Server 2012
+- Windows Server 2012
     
 - Windows Server 2008 (64-bit)
     
@@ -81,7 +81,7 @@ ms.locfileid: "60835167"
 ## <a name="installing-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Установка средства Skype для бизнеса Server 2015 г.
 <a name="Installing"> </a>
 
-Установка не может быть проще. Вам необходимо запустить файл Windows установки, **CapacityPlanningTool.msi,** на каждом клиентном компьютере, который вы собираетесь использовать для имитации пользовательского трафика, и на переднем сервере в каждом пуле, где будут создаваться пользователи и контакты.
+Установка не может быть проще. Необходимо запустить файл Windows installer **CapacityPlanningTool.msi** на каждом клиентном компьютере, который вы собираетесь использовать для имитации пользовательского трафика, и на переднем сервере в каждом пуле, где будут создаваться пользователи и контакты.
   
 Чтобы скачать .msi, а также примеры сценариев, упомянутых в других статьях, перейдите по ссылке Центр скачивания: [Skype для бизнеса Server 2015, Stress and Performance Tool](https://www.microsoft.com/download/details.aspx?id=50367).
   

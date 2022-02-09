@@ -1,8 +1,8 @@
 ---
 title: Развертывание edge Server в Skype для бизнеса Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 2fdf418e-e571-4f2b-bb83-91fdcf738edb
 description: Сводка. Сведения о развертывании edge Server или пула Edge в Skype для бизнеса Server среде.
-ms.openlocfilehash: a555f0d083c03466f874c9796664137f8189b017
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 7841e773e70368bef0bf8a9c34c3a9b3d494ce35
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850472"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62410612"
 ---
 # <a name="deploy-edge-server-in-skype-for-business-server"></a>Развертывание edge Server в Skype для бизнеса Server
  
@@ -32,7 +32,7 @@ ms.locfileid: "60850472"
 
 Как уже отмечалось выше, для развертывания Edge Server для Skype для бизнеса Server. Этот контрольный список предоставляет обзор задач, которые необходимо выполнить, и ссылки на более подробные действия.
   
-Мы надеемся, что вы начали развертывание Edge Server в разделе [Skype для бизнеса Server.](../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md) Если нет, то здесь подробно описаны многие из вещей, на которые мы ссылаемся. В разделе развертывание содержатся только процедуры, поэтому если вы хотите знать мотивы этих действий, планирование — это место для начала.
+Мы надеемся, что вы начали развертывание [edge Server в разделе Plan for Edge Server Skype для бизнеса Server](../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md). Если нет, то здесь подробно описаны многие из вещей, на которые мы ссылаемся. В разделе развертывание содержатся только процедуры, поэтому если вы хотите знать мотивы этих действий, планирование — это место для начала.
   
 Эта документация также предполагает, что вы уже завершили базовое развертывание Skype для бизнеса Server. Возможно, это развертывание будет выполняться бок о бок с edge, но сначала необходимо следовать этим шагам, а затем вы сможете внести изменения топологии для края, которые описаны здесь.
   

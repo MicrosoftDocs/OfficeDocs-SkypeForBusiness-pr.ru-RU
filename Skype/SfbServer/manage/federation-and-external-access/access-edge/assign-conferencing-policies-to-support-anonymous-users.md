@@ -5,8 +5,8 @@ ms:assetid: 662de022-1111-40f7-bad4-f2b686f30973
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg521007(v=OCS.15)
 ms:contentKeyID: 48184333
 mtps_version: v=OCS.15
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,22 +15,22 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Администратор управляет, кто может приглашать анонимных пользователей, путем настройки политики конференц-связи для поддержки анонимных пользователей и применения этой политики конференц-связи к определенным пользователям.
-ms.openlocfilehash: 25762861b6086750213553bca9bfd02dab01187d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 31978a997b3344367068c00978de9257585c6d4b
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848502"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62399713"
 ---
 # <a name="assign-conferencing-policies-to-support-anonymous-users-in-skype-for-business-server"></a>Назначение политик конференций для поддержки анонимных пользователей в Skype для бизнеса Server 
 
 
-По умолчанию все пользователи не могут пригласить анонимных пользователей для участия в собрании. Администратор управляет, кто может приглашать анонимных пользователей, путем настройки политики конференц-связи для поддержки анонимных пользователей и применения этой политики конференц-связи к определенным пользователям. Дополнительные сведения о настройке политик conferencing для поддержки анонимных пользователей см. в материале [Create conferencing policies in Skype для бизнеса Server](../../conferencing/create-policies.md) and [Managing federation and external access to Skype для бизнеса Server.](../managing-federation-and-external-access.md)
+По умолчанию все пользователи не могут пригласить анонимных пользователей для участия в собрании. Администратор управляет, кто может приглашать анонимных пользователей, путем настройки политики конференц-связи для поддержки анонимных пользователей и применения этой политики конференц-связи к определенным пользователям. Дополнительные сведения о настройке политик conferencing для поддержки анонимных пользователей см. в материале [Create conferencing policies in Skype для бизнеса Server](../../conferencing/create-policies.md) и [Managing federation and external access to Skype для бизнеса Server](../managing-federation-and-external-access.md).
 
 Используйте процедуру в этом разделе для применения уже созданной политики конференц-связи к одному или нескольким пользователям, а также к группам пользователей.
 
 > [!NOTE]  
-> В дополнение к настройке и применению политики для разрешения пользователям приглашать анонимных пользователей необходимо также обеспечивать поддержку анонимных пользователей в организации. Подробные сведения см. в [материале Configure policies to control public user access in Skype для бизнеса Server.](../external-access-policies/configure-policies-to-control-public-user-access.md)
+> В дополнение к настройке и применению политики для разрешения пользователям приглашать анонимных пользователей необходимо также обеспечивать поддержку анонимных пользователей в организации. Подробные сведения см. [в материале Configure policies to control public user access in Skype для бизнеса Server](../external-access-policies/configure-policies-to-control-public-user-access.md).
 
 
 ## <a name="to-configure-a-user-policy-for-anonymous-participation-in-meetings"></a>Чтобы настроить политику пользователей для анонимного участия в собраниях
@@ -53,11 +53,11 @@ ms.locfileid: "60848502"
 
 7.  В таблице, в которой перечислены результаты поиска, щелкните учетную запись пользователя, нажмите кнопку **Изменить** и нажмите кнопку **Подробнее**.
 
-8.  В **статье Изменить Skype для бизнеса Server пользователя** в соответствии с политикой **conferencing** выберите политику пользователя с конфигурацией анонимного доступа пользователей, которую необходимо применить к этому пользователю.  
+8.  В **статье Изменение Skype для бизнеса Server пользователя** в соответствии с политикой **conferencing** выберите политику пользователя с конфигурацией анонимного доступа пользователей, которую необходимо применить к этому пользователю.  
 
     > [!NOTE]  
-    > <STRONG> &lt; Автоматические &gt; </STRONG> параметры применяют параметры установки сервера по умолчанию и автоматически применяются сервером.
+    > Автоматические <STRONG>&lt;&gt;</STRONG> параметры применяют параметры установки сервера по умолчанию и автоматически применяются сервером.
 
 
-Чтобы разрешить пользователям приглашать анонимных пользователей в конференции, необходимо также включить поддержку анонимных пользователей в организации. Подробные сведения см. в [материале Configure policies to control public user access in Skype для бизнеса Server.](../external-access-policies/configure-policies-to-control-public-user-access.md)
+Чтобы разрешить пользователям приглашать анонимных пользователей в конференции, необходимо также включить поддержку анонимных пользователей в организации. Подробные сведения см. [в материале Configure policies to control public user access in Skype для бизнеса Server](../external-access-policies/configure-policies-to-control-public-user-access.md).
 

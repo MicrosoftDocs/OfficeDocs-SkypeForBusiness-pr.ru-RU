@@ -1,8 +1,8 @@
 ---
 title: Список таблиц качества взаимодействия
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/13/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 176194d7-d184-4e23-94bb-cb62b4db47f5
 description: Схема базы данных состоит из следующих таблиц.
-ms.openlocfilehash: 7b97746b3f8a490da7fb06d903ca6f7676f2d6b5
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: ac00cc41ede9e9a78e6b9a4d811496f4bc17faed
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849592"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62420852"
 ---
 # <a name="list-of-qoe-tables"></a>Список таблиц качества взаимодействия
  
@@ -30,7 +30,7 @@ ms.locfileid: "60849592"
 |:-----|:-----|
 |[Таблица AppSharingMetricsThreshold](appsharingmetricsthreshold.md) <br/> |Сохраняет оптимальные и приемлемые значения для метрик Quality of Experience, используемых при совместном использовании приложений.  <br/> |
 |[Таблица CodecDescription](codecdescription.md) <br/> |Карты идентификаторы кодека в соответствующий кодек.  <br/> |
-|[Таблица IPAddress](ipaddress.md) <br/> |Карты IP-адреса уникальных идентификаторов IP-адресов, используемых в других частях базы данных quality of Experience.  <br/> |
+|[Таблица IPAddress](ipaddress.md) <br/> |Карты IP-адреса к уникальным идентификаторам IP-адресов, используемым в других частях базы данных quality of Experience.  <br/> |
 |[Таблица NetworkConnectionDetail](networkconnectiondetail.md) <br/> |Карты типов сетевого подключения к идентификаторам сетевых подключений, используемым в других местах базы данных Quality of Experience.  <br/> |
 |[Таблица PurgeSettings (QoE)](purgesettings-qoe.md) <br/> |Сохраняет информацию, которая указывает, будут ли (и когда) устаревшие записи качества работы автоматически удалены из базы данных QoE.  <br/> |
 |[Таблица TraceRoute](traceroute.md) <br/> |Сохраняет сведения о маршрутике для звонков.  <br/> |

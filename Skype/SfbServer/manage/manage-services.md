@@ -1,8 +1,8 @@
 ---
 title: Управление службами для Skype для бизнеса Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c99ee134-8294-4481-bb4e-710fe85a39ca
 description: В этой статье описывается управление службами, работающими Skype для бизнеса Server топологии.
-ms.openlocfilehash: 3bb4092d2538bc994de3f71467cb03aedf8dc302
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 9a26accf8e8c9a4c20b9fea99eac6d9dc2cbadea
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856676"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62410792"
 ---
 # <a name="manage-services-for-skype-for-business-server"></a>Управление службами для Skype для бизнеса Server
 
@@ -30,7 +30,7 @@ ms.locfileid: "60856676"
   
 ### <a name="to-view-a-list-of-computers-running-skype-for-business-server"></a>Просмотр списка компьютеров, работающих Skype для бизнеса Server
 
-1. Из учетной записи пользователя, назначенной любой из предопределяемых административных ролей для Skype для бизнеса Server, войдите на любой компьютер во внутреннем развертывании. Сведения о предопределеных административных ролях, доступных в Skype для бизнеса Server, см. в Role-Based **Планирование доступа.**   
+1. Из учетной записи пользователя, назначенной любой из предопределяемых административных ролей для Skype для бизнеса Server, войдите на любой компьютер во внутреннем развертывании. Подробные сведения о предопределеных административных ролях, доступных в Skype для бизнеса Server, см. в Role-Based **Управление доступом**.   
 2. Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель Skype для бизнеса Server управления.   
 3. В левой панели навигации щелкните элемент **Топология**, а затем элемент **Состояние**.   
 4. На странице **Состояние** выполните все необходимые действия из приведенных ниже.
@@ -55,7 +55,7 @@ ms.locfileid: "60856676"
     
 ### <a name="viewing-service-status-with-windows-powershell-cmdlets"></a>Просмотр состояния службы с Windows powershell
 
-Вы также можете просмотреть состояние службы с помощью Windows PowerShell и **cmdlet Get-CsWindowsService.** Вы можете запустить этот командлет из командной консоли Skype для бизнеса Server или из удаленного сеанса Windows PowerShell. Сведения об использовании удаленных Windows PowerShell для подключения к Skype для бизнеса Server см. в [материале Microsoft Lync Remote PowerShell Administration](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/). Этот процесс в Skype для бизнеса Server.
+Вы также можете просмотреть состояние службы с помощью Windows PowerShell и **cmdlet Get-CsWindowsService**. Вы можете запустить этот командлет из командной консоли Skype для бизнеса Server или из удаленного сеанса Windows PowerShell. Сведения об использовании удаленных Windows PowerShell для подключения к Skype для бизнеса Server см. в [материале Microsoft Lync Remote PowerShell Administration](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/). Этот процесс в Skype для бизнеса Server.
   
 ### <a name="to-view-service-status"></a>Просмотр состояния службы
 
@@ -69,15 +69,15 @@ Get-CsWindowsService -ComputerName atl-cs-001.litwareinc.com | Select-Object Rol
   
 |**Имя roleName**|**Состояние**|
 |:-----|:-----|
-|{W3SVC}  <br/> |Работает  <br/> |
-|{CentralManagement}  <br/> | Работает <br/> |
-|{ClsAgent}  <br/> |Работает  <br/> |
-|{Registrar, UserServer, EdgeServer}  <br/> |Работает  <br/> |
-|{ApplicationServer}  <br/> |Работает  <br/> |
-|{ConferencingServer}  <br/> |Работает  <br/> |
-|{MediationServer}  <br/> |Работает  <br/> |
+|{W3SVC}  <br/> |Выполняется  <br/> |
+|{CentralManagement}  <br/> | Выполняется <br/> |
+|{ClsAgent}  <br/> |Выполняется  <br/> |
+|{Registrar, UserServer, EdgeServer}  <br/> |Выполняется  <br/> |
+|{ApplicationServer}  <br/> |Выполняется  <br/> |
+|{ConferencingServer}  <br/> |Выполняется  <br/> |
+|{MediationServer}  <br/> |Выполняется  <br/> |
    
-Подробные сведения [см. в материале Get-CsWindowsService.](/powershell/module/skype/get-cswindowsservice.md?view=skype-ps)
+Подробные сведения см [. в материале Get-CsWindowsService](/powershell/module/skype/get-cswindowsservice.md?view=skype-ps).
   
 ## <a name="view-details-about-a-service"></a>Просмотр сведений о службе
 <a name="view_details"> </a>
@@ -86,7 +86,7 @@ Get-CsWindowsService -ComputerName atl-cs-001.litwareinc.com | Select-Object Rol
   
 ### <a name="to-view-details-for-a-service"></a>Просмотр сведений о службе
 
-1. Из учетной записи пользователя, назначенной любой из предопределяемых административных ролей для Skype для бизнеса Server, войдите на любой компьютер во внутреннем развертывании. Сведения о предопределеных административных ролях, доступных в Skype для бизнеса Server, см. в Role-Based **Планирование доступа.**
+1. Из учетной записи пользователя, назначенной любой из предопределяемых административных ролей для Skype для бизнеса Server, войдите на любой компьютер во внутреннем развертывании. Подробные сведения о предопределеных административных ролях, доступных в Skype для бизнеса Server, см. в Role-Based **Управление доступом**.
 2. Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель Skype для бизнеса Server управления. 
 3. В левой панели навигации щелкните **Топология** и затем щелкните **Состояние**.
 4. На странице **Состояние** выполните сортировку списка или найдите требуемый компьютер.

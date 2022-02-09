@@ -1,7 +1,7 @@
 ---
 title: Установка и тестирование Skype для бизнеса для iOS
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.reviewer: PhillipGarding
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 142abc98-608d-40c7-ab4d-66acc010426b
 description: Сводка. Как установить и проверить Skype для бизнеса для приложения iOS.
-ms.openlocfilehash: b3bcdddbafe5ae0c578f1f5e38f44696ed01dd66
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: a485893e1433e3c1f45377acd11526a9396e85cc
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843532"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62417322"
 ---
 # <a name="install-and-test-skype-for-business-for-ios"></a>Установка и тестирование Skype для бизнеса для iOS
  
@@ -27,9 +27,9 @@ ms.locfileid: "60843532"
   
 ## <a name="installing-skype-for-business-for-ios"></a>Установка Skype для бизнеса для iOS
 
-1. На устройстве iOS нажмите **кнопку App Store** и Skype для бизнеса **для iOS.**
+1. На устройстве iOS нажмите **кнопку App Store** **и Skype для бизнеса для iOS**.
     
-2. Нажмите **кнопку**  >  **Скачать Открыть**. 
+2. Нажмите **кнопку DownloadOpen** > . 
     
 3. Вход в приложение.
     
@@ -55,7 +55,7 @@ ms.locfileid: "60843532"
     
 2. На мобильном устройстве откройте приглашение на собрание. 
     
-3. Нажмите **кнопку Присоединиться к собранию.**
+3. Нажмите **кнопку Присоединиться к собранию** .
     
 4. Ответьте на звонок из службы конференции и убедитесь, что вы подключены к аудиосвязи собрания. 
     

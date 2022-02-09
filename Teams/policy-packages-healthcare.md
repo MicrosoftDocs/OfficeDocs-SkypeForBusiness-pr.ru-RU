@@ -1,7 +1,7 @@
 ---
 title: Пакеты политик Teams для здравоохранения
 author: serdars
-ms.author: v-mahoffman
+ms.author: serdars
 manager: serdars
 ms.reviewer: aaglick
 ms.topic: article
@@ -21,12 +21,12 @@ searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
 description: Узнайте, как использовать пакеты политик Teams для своей медицинской организации и управлять ими.
-ms.openlocfilehash: 752effdf7a30fc228dae9bcec00a5e2272199ced
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: d61075f03af034148205520f1d9f08c313b739ed
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741595"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62417382"
 ---
 # <a name="teams-policy-packages-for-healthcare"></a>Пакеты политик Teams для здравоохранения
 
@@ -56,7 +56,7 @@ ms.locfileid: "60741595"
 
 Каждой отдельной политике присваивается имя пакета политики, чтобы легко определять политики, связанные с пакетом. Например, когда вы назначаете пакет политик "Медицинский работник в учреждении здравоохранения" медицинским работникам в своей организации, для каждой политики в пакете создается политика с именем Healthcare_ClinicalWorker.
 
-![Снимок экрана: политики в пакете медицинских учреждений.](media/policy-packages-healthcare-clinical-worker.png)
+![Снимок экрана: политики в пакете "Медицинские работники".](media/policy-packages-healthcare-clinical-worker.png)
 
 ## <a name="get-started-with-policy-packages"></a>Начало работы с пакетами политик
 

@@ -1,7 +1,7 @@
 ---
 title: Телефон управления номерами для Новой Зеландии
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: chandra.kilaru, kristen.kutser
 ms.topic: reference
@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: В этой таблице вы найдете сведения о получении номеров телефонов в Новой Зеландии и управлении Microsoft Teams.
-ms.openlocfilehash: 549dc8706c38ee0190fef7f440b194594ea05560
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 9b06890b682e873fa6f61a50ba2a50384e26d8ca
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60830803"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62420812"
 ---
 # <a name="phone-number-management-for-new-zealand"></a>Телефон управления номерами для Новой Зеландии
 
@@ -37,11 +37,11 @@ ms.locfileid: "60830803"
   
 |**Требуемое действие**|**Загрузка подходящих форм**|
 |:-----|:-----|
-|Получите новые номера пользователей или номеров телефонов служб, которые не указаны в Microsoft Teams центре администрирования.|В Новой Зеландии вы можете получить номера телефонов для своей организации с помощью центра Microsoft Teams администрирования. Вы также можете отправить запрос на новый номер телефона, скачав форму и обратившись за инструкциями в [службу TNS Service Desk.](contact-tns-service-desk.md)<br/><br/>[Новый запрос на номер телефона для Новой Зеландии (v.1.0) (mi-nz).](https://download.microsoft.com/download/4/a/a/4aa04212-a13d-46bf-b09e-1efbcbb2e622/new-phone-number-request-for-new-zealand-(v1.0)-(mi-NZ).pdf) <br/><br/> Прежде чем вам будет назначен номер телефона, необходимо скачать форму "Знать о клиенте", заполнить ее полностью и обратиться за инструкциями в [службу TNS Service Desk.](contact-tns-service-desk.md)<br/><br/>Заполнение новых заказов на этом рынке может занять от двух до трех недель.  |
-|Перенаправь нам номера телефонов.  <br/> | Скачайте эту форму. <br/>[Досье (LOA) для Новой Зеландии (все номера) (v.1.0) (en-nz)](https://download.microsoft.com/download/e/6/7/e67f46ef-e1cd-4e70-a5cc-f53fd74285aa/letter-of-authorization-(loa)-for-new-zealand-(all-numbers)-(v1.0)-(en-nz).pdf) <br/> <br/>Заполните его и [обратитесь за инструкциями в службу TNS Service Desk.](contact-tns-service-desk.md) <br/><br>Перенос номеров на этом рынке может занять от одной до шести недель в зависимости от сложности порта.<br/><br/>В настоящее время эти номера нельзя использовать для использования для связи.  |
-|Публикация и публикация номеров телефонов в национальном телефонном каталоге.  <br/> |[Чтобы получить инструкции по](contact-tns-service-desk.md) списку номеров телефонов, которые вы хотите опубликовать или отоблести, обратитесь в службу TNS Service Desk. <br/> |
+|Получите новые номера телефонов пользователей или служб, которые не указаны в Microsoft Teams центре администрирования.|В Новой Зеландии вы можете получить номера телефонов для своей организации с помощью центра Microsoft Teams администрирования. Вы также можете отправить запрос на новый номер телефона, скачав форму и обратившись за инструкциями в [службу TNS Service Desk](contact-tns-service-desk.md).<br/><br/>[Новый запрос на номер телефона для Новой Зеландии (1.0) (mi-nz).](https://download.microsoft.com/download/4/a/a/4aa04212-a13d-46bf-b09e-1efbcbb2e622/new-phone-number-request-for-new-zealand-(v1.0)-(mi-NZ).pdf) <br/><br/> Прежде чем вам будет назначен номер телефона, необходимо скачать форму "Знать о клиенте", заполнить ее полностью и обратиться за инструкциями в [службу TNS Service Desk](contact-tns-service-desk.md).<br/><br/>Заполнение новых заказов на этом рынке может занять от двух до трех недель.  |
+|Перенаправь нам номера телефонов.  <br/> | Скачайте эту форму. <br/>[Досье (LOA) для Новой Зеландии (все номера) (v.1.0) (en-nz)](https://download.microsoft.com/download/e/6/7/e67f46ef-e1cd-4e70-a5cc-f53fd74285aa/letter-of-authorization-(loa)-for-new-zealand-(all-numbers)-(v1.0)-(en-nz).pdf) <br/> <br/>Заполните его и [обратитесь за инструкциями в службу TNS Service Desk](contact-tns-service-desk.md). <br/><br>Перенос номеров на этом рынке может занять от одной до шести недель в зависимости от сложности порта.<br/><br/>В настоящее время эти номера нельзя использовать для использования для связи.  |
+|Публикация и публикация номеров телефонов в национальном телефонном каталоге.  <br/> |[Чтобы получить инструкции по](contact-tns-service-desk.md) списку номеров телефонов, которые вы хотите опубликовать или от публикации, обратитесь в службу TNS Service Desk. <br/> |
 |Измените номер пользователя на номер службы.  <br/> |[Чтобы получить инструкции по](contact-tns-service-desk.md) списку пользовательских номеров, которые вы хотите преобразовать в номера служб, обратитесь в службу TNS Service Desk. <br/> |
-|Обновление службы каталогов для номеров очереди вызовов или автозаетаря|Чтобы добавить или изменить номера очереди вызовов или автозавода, обратитесь за инструкциями в [службу TNS Service Desk.](contact-tns-service-desk.md)|
+|Обновление службы каталогов для номеров очереди  вызовов и номеров автослужб|Чтобы добавить или изменить номера очереди вызовов или автозавода, обратитесь за [инструкциями в службу TNS Service Desk](contact-tns-service-desk.md).|
 
 ## <a name="related-topics"></a>Статьи по теме
 
@@ -51,4 +51,4 @@ ms.locfileid: "60830803"
 
 [Условия и положения, распространяющиеся на экстренные вызовы](../emergency-calling-terms-and-conditions.md)
   
-[Отказ от ответственности для экстренных вызовов](https://download.microsoft.com/download/a/8/0/a807c43d-2177-4fe0-8732-86b3784ae6e5/emergency-calling-label-(en-us)-(v.1.0).zip)
+[Заявление об отказе от ответственности экстренных вызовов](https://download.microsoft.com/download/a/8/0/a807c43d-2177-4fe0-8732-86b3784ae6e5/emergency-calling-label-(en-us)-(v.1.0).zip)

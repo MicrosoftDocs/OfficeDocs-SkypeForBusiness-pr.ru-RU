@@ -1,8 +1,8 @@
 ---
 title: Таблица ConferenceSessionDetails в Skype для бизнеса Server 2015 г.
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 7/15/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 9eae6a54-69fd-4966-aa17-7ecee1297ad8
 description: Каждая запись представляет один сеанс конференц-связи, который может быть сеансом с фокусом или сеансом с определенным сервером конференц-связи.
-ms.openlocfilehash: fc69150cf95ca0f00a4c1731aeda44f1e674a6cd
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d6bb5b76f7ad8a5d5843be91db0ab420eea3d9f4
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843672"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62416392"
 ---
 # <a name="conferencesessiondetails-table-in-skype-for-business-server-2015"></a>Таблица ConferenceSessionDetails в Skype для бизнеса Server 2015 г.
  
@@ -28,13 +28,13 @@ ms.locfileid: "60843672"
 |:-----|:-----|:-----|:-----|
 |**SessionIdTime** <br/> |Datetime  <br/> |Первичный, внешний  <br/> |Время запроса сеанса; используется вместе с **SessionIdSeq** для уникальной идентификации сеанса конференц-связи. Дополнительные сведения см. в таблице [Диалоги Skype для бизнеса Server 2015](dialogs.md) г. <br/> |
 |**SessionIdSeq** <br/> |int  <br/> |Основной, внешний  <br/> |Идентификатор для идентификации сеанса. Используется совместно с **SessionIdTime** для уникальной идентификации сеанса конференции. Дополнительные сведения см. в таблице [Диалоги Skype для бизнеса Server 2015](dialogs.md) г. * <br/> |
-|**ConferenceUriId** <br/> |int  <br/> |Foreign  <br/> |URI конференции с центром конференций, связанной с этим сеансом. Дополнительные сведения см. в таблице [ConferenceUris Skype для бизнеса Server 2015](conferenceuris.md) г. Это URI конференции на основе центра конференций. <br/> |
+|**ConferenceUriId** <br/> |int  <br/> |Foreign  <br/> |URI конференции с центром конференций, связанной с этим сеансом. Дополнительные [сведения см. в таблице ConferenceUris Skype для бизнеса Server 2015](conferenceuris.md) г. Это URI конференции на основе центра конференций. <br/> |
 |**ConfInstance** <br/> |uniqueIdentifier  <br/> ||Идентификатор, который разделяет экземпляры повторяющихся конференций. Каждый повторяющийся экземпляр конференции имеет один и тот же ConferenceURI, но разное значение ConfInstance.  <br/> Это поле было внедрено в Microsoft Lync Server 2013.  <br/> |
-|**McuConferenceUriId** <br/> |int  <br/> |Foreign  <br/> |URI конференции с сервером конференций, относящейся к этому сеансу. Дополнительные сведения см. в таблице [ConferenceUris Skype для бизнеса Server 2015](conferenceuris.md) г. Это URI конференции на основе сервера конференций. Для сеансов конференц-связи с центром конференций этот столбец будет пустым. <br/> |
-|**UserId** <br/> |int  <br/> |Foreign  <br/> |Идентификатор одного пользователя в этом сеансе конференц-связи. Дополнительные [сведения см.](users.md) в таблице Пользователи. <br/> |
+|**McuConferenceUriId** <br/> |int  <br/> |Foreign  <br/> |URI конференции с сервером конференций, относящейся к этому сеансу. Дополнительные [сведения см. в таблице ConferenceUris Skype для бизнеса Server 2015](conferenceuris.md) г. Это URI конференции на основе сервера конференций. Для сеансов конференц-связи с центром конференций этот столбец будет пустым. <br/> |
+|**UserId** <br/> |int  <br/> |Foreign  <br/> |Идентификатор одного пользователя в этом сеансе конференц-связи. Дополнительные [сведения см](users.md) . в таблице Пользователи. <br/> |
 |**UserEndpointId** <br/> |uniqueidentifier  <br/> ||GUID для идентификации экземпляра конечной точки. Например, если один пользователь входит на разные компьютеры с одной и той же учетной записью, то все эти компьютеры будут иметь разные идентификаторы конечной точки.  <br/> |
-|**OnBehalfOfId** <br/> |int  <br/> |Foreign  <br/> |Определяет идентификатор пользователя, которого представляет вызывающий абонент. Дополнительные [сведения см.](users.md) в таблице Пользователи. <br/> |
-|**ReferredById** <br/> |int  <br/> |Foreign  <br/> |Идентификатор пользователя, который ссылается на вызов. Дополнительные [сведения см.](users.md) в таблице Пользователи. <br/> |
+|**OnBehalfOfId** <br/> |int  <br/> |Foreign  <br/> |Определяет идентификатор пользователя, которого представляет вызывающий абонент. Дополнительные [сведения см](users.md) . в таблице Пользователи. <br/> |
+|**ReferredById** <br/> |int  <br/> |Foreign  <br/> |Идентификатор пользователя, который ссылается на вызов. Дополнительные [сведения см](users.md) . в таблице Пользователи. <br/> |
 |**UserClientVersionId** <br/> |int  <br/> |Foreign  <br/> |Версия клиента, используемого пользователем конференц-связи. Дополнительные сведения см. в таблице [ClientVersions Skype для бизнеса Server 2015](clientversions.md) г. <br/> |
 |**ConfClientVersionId** <br/> |int  <br/> |Foreign  <br/> |Версия клиента, используемого сервером конференций. Дополнительные сведения см. в таблице [ClientVersions Skype для бизнеса Server 2015](clientversions.md) г. <br/> |
 |**ReplaceDialogIdTime** <br/> |datetime  <br/> |Foreign  <br/> |Идентификационный номер для определения диалога, замененного текущим сеансом. Дополнительные сведения см. в таблице [Диалоги Skype для бизнеса Server 2015](dialogs.md) г. <br/> |
@@ -44,16 +44,16 @@ ms.locfileid: "60843672"
 |**IsUserInternal** <br/> |bit  <br/> ||Вошел ли пользователь из внутренней сети.  <br/> |
 |**ResponseCode** <br/> |int  <br/> ||Код SIP-ответа на приглашение в сеанс. Это поле обычно заполняется данными, генерируемыми из исходного сообщения INVITE в сеансе. Если сообщения INVITE нет, поле заполняется датой и временем первого релевантного SIP-сообщения (BYE, CANCEL, MESSAGE или INFO).  <br/> |
 |**DiagnosticId** <br/> |int  <br/> ||Диагностический идентификатор, захваченный из заголовка SIP.  <br/> |
-|**ServerId** <br/> |int  <br/> |Foreign  <br/> |Идентификатор сервера переднего плана, используемого для этого сеанса. Дополнительные сведения см. в таблице [Servers.](servers.md) <br/> |
+|**ServerId** <br/> |int  <br/> |Foreign  <br/> |Идентификатор сервера переднего плана, используемого для этого сеанса. Дополнительные [сведения см. в таблице Servers](servers.md) . <br/> |
 |**PoolId** <br/> |int  <br/> |Foreign  <br/> |Идентификатор пула, в котором был записан сеанс. Дополнительные [сведения см. в](pools.md) таблице Пулы. <br/> |
-|**MediationServerId** <br/> |int  <br/> |Foreign  <br/> |Сервер-посредник, который использовался вызовом. Дополнительные сведения см. в таблице [MediationServers.](mediationservers.md) <br/> |
-|**GatewayId** <br/> |int  <br/> |Foreign  <br/> |Шлюз, который использовался вызовом. Дополнительные сведения см. в [таблице Шлюзы Skype для бизнеса Server 2015](gateways.md) г. <br/> |
+|**MediationServerId** <br/> |int  <br/> |Foreign  <br/> |Сервер-посредник, который использовался вызовом. Дополнительные сведения см. [в таблице MediationServers](mediationservers.md) . <br/> |
+|**GatewayId** <br/> |int  <br/> |Foreign  <br/> |Шлюз, который использовался вызовом. Дополнительные сведения см. в таблице [Шлюзы Skype для бизнеса Server 2015](gateways.md) г. <br/> |
 |**EdgeServerId** <br/> |int  <br/> |Foreign  <br/> |Пограничный сервер, который использовался вызовом. Дополнительные сведения см. в таблице [EdgeServers Skype для бизнеса Server 2015](edgeservers.md) г. <br/> |
 |**ContentTypeId** <br/> |int  <br/> |Foreign  <br/> |Тип контента, используемый в сеансе. Дополнительные сведения см. в таблице [ContentTypes Skype для бизнеса Server 2015](contenttypes.md) г. <br/> |
 |**InviteTime** <br/> |datetime  <br/> ||Время первого запроса INVITE. Это поле обычно заполняется данными, генерируемыми из исходного сообщения INVITE в сеансе. Если сообщения INVITE нет, поле заполняется датой и временем первого релевантного SIP-сообщения (BYE, CANCEL, MESSAGE или INFO).  <br/> |
 |**ResponseTime** <br/> |datetime  <br/> ||Время первого ответа SIP. Это поле обычно заполняется данными, генерируемыми из исходного сообщения INVITE в сеансе. Если сообщения INVITE нет, поле заполняется датой и временем первого релевантного SIP-сообщения (BYE, CANCEL, MESSAGE или INFO).  <br/> |
 |**SessionEndTime** <br/> |datetime  <br/> ||Время окончания сеанса.  <br/> |
-|**UriTypeId** <br/> |tinyint  <br/> |Foreign  <br/> |Содержит значение типа MCU URI из таблицы [UriTypes.](uritypes.md) Это поле используется для повышения производительности запроса.  <br/> Это поле было внедрено в Microsoft Lync Server 2013.  <br/> |
+|**UriTypeId** <br/> |tinyint  <br/> |Foreign  <br/> |Содержит значение типа MCU URI из [таблицы UriTypes](uritypes.md). Это поле используется для повышения производительности запроса.  <br/> Это поле было внедрено в Microsoft Lync Server 2013.  <br/> |
 |**UserFlag** <br/> |smallint  <br/> || Набор битов, указывающий атрибуты пользователя. Перечисляются следующие определения атрибутов: <br/>  интеграция со стационарным телефоном — 1 <br/> |
 |**CallFlag** <br/> |smallint  <br/> || Набор битов, указывающий атрибуты вызова. Перечисляются следующие определения атрибутов: <br/>  повторный сеанс — 1 <br/> |
 |**LastModifiedTime** <br/> |Datetime  <br/> ||Для внутреннего использования службой мониторинга.  <br/> Это поле было введено Skype для бизнеса Server 2015 г.  <br/> |

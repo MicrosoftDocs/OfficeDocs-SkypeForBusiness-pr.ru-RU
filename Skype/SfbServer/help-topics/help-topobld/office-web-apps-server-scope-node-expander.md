@@ -1,8 +1,8 @@
 ---
 title: Расширитель узла области применения сервера Office Web Apps
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
@@ -15,22 +15,22 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: f934e076-1022-40cd-8a4a-0b90ccf6f2a6
 description: 'Щелкните правой кнопкой мыши Office серверов веб-приложений в Topology Builder, чтобы выполнить следующее:'
-ms.openlocfilehash: 68cc30e456f314984b802b0b7c04037f4317c466
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 792b843f3ce97cbca3a247c782d8dd531cd0a227
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60854463"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62399773"
 ---
 # <a name="office-web-apps-server-scope-node-expander"></a>Расширитель узла области сервера Office Web Apps
  
 Щелкните правой кнопкой **мыши Office серверов веб-приложений** в Topology Builder, чтобы выполнить следующее:
   
-- **Новый Office** сервер веб-приложений: запускает мастер Office **веб-приложений,** используемый для определения нового Office сервера веб-приложений.
+- **Новый Office** сервера веб-приложений: запускает мастер Office **веб-приложений**, используемый для определения нового Office сервера веб-приложений.
     
 В дополнение к параметру New Office Web Apps Server можно выполнить следующие общие задачи:
   
-![Office Узел области webApps Server.](../../media/OfficeWebApps_Server_Scope_Node.jpg)
+![Office WebApps Server Scope Node.](../../media/OfficeWebApps_Server_Scope_Node.jpg)
   
 - **Топология**. С помощью этого параметра можно определить новую топологию, открыть существующую топологию, скачать текущую топологию, сохранить копию топологии, опубликовать топологию, установить базу данных, объединить компоненты из предыдущих версий или удалить развертывание.
     

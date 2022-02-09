@@ -1,8 +1,8 @@
 ---
 title: Представление MediaLine
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 132eca13-8913-4218-9eff-4960ced8c3dc
 description: В Представлении MediaLine хранится информация о каждой строке мультимедиа в базе данных. Один сеанс аудио обычно содержит одну строку мультимедиа. Один сеанс аудио- и видео (A/V) обычно содержит одну аудио-медиа-линию и одну линию мультимедиа; однако сеанс может содержать две линии мультимедиа видео, если используется устройство для конференций или используется Представление галереи. Это представление было представлено в Microsoft Lync Server 2013.
-ms.openlocfilehash: cf360f06fa293dc75c33caa2a10ac761ae156e91
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 8ef825fd75fc4cf61f0416b5ce2b64ca9f58634c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858126"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62417422"
 ---
 # <a name="medialine-view"></a>Представление MediaLine
  
@@ -37,7 +37,7 @@ ms.locfileid: "60858126"
 |CallerPort  <br/> |int  <br/> |Порт, используемый вызывающим абонентом.  <br/> |
 |CallerInside  <br/> |bit  <br/> |Показывает, находится или нет вызывающий абонент внутри сети организации. 1 означает, что вызывающий абонент находится внутри сети предприятия. 0 означает, что вызывающий абонент находится вне такой сети.  <br/> |
 |CallerMacAddress  <br/> |varchar (256)  <br/> |MAC-адрес сетевого интерфейса, используемый вызывающим абонентом.  <br/> |
-|CallerRelayIPAddr  <br/> |var (50)  <br/> |IP-адрес пограничной службы обработки аудио- и видеоданных, используемой вызывающим абонентом. Дополнительные сведения см. в таблице [IPAddress.](ipaddress.md) <br/> |
+|CallerRelayIPAddr  <br/> |var (50)  <br/> |IP-адрес пограничной службы обработки аудио- и видеоданных, используемой вызывающим абонентом. Дополнительные [сведения см. в таблице IPAddress](ipaddress.md) . <br/> |
 |CalleeRelayPort  <br/> |int  <br/> |Порт, задействованный пограничной службой аудио и видеоконференций, используемой вызывающим абонентом.  <br/> |
 |CallerReflexiveIPAddr  <br/> |var (50)  <br/> |IP-адрес вызываемой стороны, как сообщает служба A/V Edge. Этот адрес может отличаться от CallerIPAddr, если клиент, например, использует протокол преобразования сетевых адресов (NAT).  <br/> |
 |CallerCaptureDev  <br/> |varchar (256)  <br/> |Имя устройства захвата вызываемой.  <br/> |
@@ -46,14 +46,14 @@ ms.locfileid: "60858126"
 |CallerRenderDevDriver  <br/> |varchar (256)  <br/> |Имя драйвера устройства визуализации вызываемой.  <br/> |
 |CallerWifiDriverDeviceDesc  <br/> |varchar (256)  <br/> |Описание драйвера Wi-Fi вызываемой.  <br/> |
 |CallerWifiDriverVersion  <br/> |varchar (256)  <br/> |Версия драйвера Wi-Fi вызываемой.  <br/> |
-|CalleeNetworkConnectionDetail  <br/> |varchar (256)  <br/> |Сведения о сетевом подключении вызываемого. Дополнительные сведения см. в таблице [NetworkConnectionDetail.](networkconnectiondetail.md) <br/> |
+|CalleeNetworkConnectionDetail  <br/> |varchar (256)  <br/> |Сведения о сетевом подключении вызываемого. Дополнительные [сведения см. в таблице NetworkConnectionDetail](networkconnectiondetail.md) . <br/> |
 |CallerBssid  <br/> |varchar (256)  <br/> |Идентификатор базового набора служб, используемый беспроводным (Wi-Fi) подключением вызывающих абонентов.  <br/> |
 |CallerVPN  <br/> |bit  <br/> |Показывает, подключен ли вызывающий абонент к виртуальной частной сети (VPN). 1 – подключен к виртуальной частной сети, 0 – не подключен к виртуальной частной сети.  <br/> |
 |CalleeIPAddr  <br/> |var (50)  <br/> |IP-адрес вызываемого абонента. Это может быть адрес или по протоколу IPv4, или по протоколу IPv6.  <br/> |
 |CalleePort  <br/> |int  <br/> |Порт, используемый вызываемым абонентом.  <br/> |
 |CalleeInside  <br/> |bit  <br/> |Показывает, находится ли вызываемый абонент внутри сети предприятия. 1 означает, что вызываемый абонент находится внутри сети предприятия, 0 означает, что вызываемый абонент находится вне сети предприятия.  <br/> |
 |CalleeMacAddress  <br/> |varchar (256)  <br/> |MAC-адрес сетевого интерфейса, используемый вызываемым абонентом.  <br/> |
-|CalleeRelayIPAddr  <br/> |var (50)  <br/> |IP-адрес пограничной службы аудио и видеоконференций, используемой вызываемым абонентом. Дополнительные сведения см. в таблице [IPAddress.](ipaddress.md) <br/> |
+|CalleeRelayIPAddr  <br/> |var (50)  <br/> |IP-адрес пограничной службы аудио и видеоконференций, используемой вызываемым абонентом. Дополнительные [сведения см. в таблице IPAddress](ipaddress.md) . <br/> |
 |CalleeRelayPort  <br/> |int  <br/> |Порт, задействованный пограничной службой аудио и видеоконференций, используемой вызываемым абонентом.  <br/> |
 |CalleeReflexiveIPAddr  <br/> |var (50)  <br/> |IP-адрес вызываемой почты, как сообщает служба A/V Edge. Этот адрес может отличаться от CalleeIPAddr, если клиент, например, использует протокол преобразования сетевых адресов.  <br/> |
 |CalleeCaptureDev  <br/> |var (50)  <br/> |Имя устройства захвата вызываемой.  <br/> |
@@ -62,7 +62,7 @@ ms.locfileid: "60858126"
 |CalleeRenderDevDriver  <br/> |varchar (256)  <br/> |Имя драйвера отображения устройства callee.  <br/> |
 |CalleeWifiDriverDeviceDesc  <br/> |varchar (256)  <br/> |Описание драйвера Wi-Fi для callee.  <br/> |
 |CalleeWifiDriverVersion  <br/> |varchar (256)  <br/> |Версия драйвера Wi-Fi для callee.  <br/> |
-|CalleeNetworkConnectionDetail  <br/> |varchar (256)  <br/> |Сведения о сетевом подключении вызываемого. Дополнительные сведения см. в таблице [NetworkConnectionDetail.](networkconnectiondetail.md) <br/> |
+|CalleeNetworkConnectionDetail  <br/> |varchar (256)  <br/> |Сведения о сетевом подключении вызываемого. Дополнительные [сведения см. в таблице NetworkConnectionDetail](networkconnectiondetail.md) . <br/> |
 |CalleeBssid  <br/> |varchar (256)  <br/> |Идентификатор базового набора служб, используемый при подстройке WiFi вызываемой стороны.  <br/> |
 |CalleeVPN  <br/> |bit  <br/> |Показывает, подключен ли вызываемый абонент к виртуальной частной сети. 1 – подключен к виртуальной частной сети, 0 – не подключен к виртуальной частной сети.  <br/> |
 |ConversationalMOS  <br/> |десятичной (3,2)  <br/> |Узкополосный MOS аудиосеансов (на основе обоих аудиопотоков).  <br/> |

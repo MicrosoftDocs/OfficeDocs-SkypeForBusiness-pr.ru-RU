@@ -1,8 +1,8 @@
 ---
 title: Диалоговое окно запуска построителя топологии
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 8761008f-b239-4b95-bcd8-1011198dd070
 description: 'Вы начинаете Topology Builder для настройки свойств и конфигурации развертывания Microsoft Lync Server 2013. При запуске Topology Builder отображает диалоговое окно с вопросом о том, каким будет источник документа топологии. На выбор предоставляются три варианта:'
-ms.openlocfilehash: 991e6bcdfc62e046c7d46fb3d249ccee27bb9187
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 35b1d598d95cfc2598cd29ab69d3409a9419177a
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60863596"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62417592"
 ---
 # <a name="topology-builder-startup-dialog"></a>Диалоговое окно запуска построителя топологии
 

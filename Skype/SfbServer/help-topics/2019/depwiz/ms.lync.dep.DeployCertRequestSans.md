@@ -1,8 +1,8 @@
 ---
 title: Запрос сертификата (дополнительные альтернативные имена субъектов)
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 99ef9628-72a5-463d-8dd6-4b783dcc8360
 ROBOTS: NOINDEX, NOFOLLOW
 description: С помощью функции Настройка дополнительных альтернативных имен субъектов можно добавить в сертификат дополнительные альтернативные имена субъектов перед завершением и отправкой запроса сертификата. Чтобы добавить альтернативное имя субъекта, введите полное доменное имя и нажмите кнопку Добавить. Если необходимо удалить добавленное имя, выделите его и нажмите кнопку Удалить. Чтобы удалить все добавленные альтернативные имена субъектов, нажмите кнопку Очистить все.
-ms.openlocfilehash: b1c6ebc2f505853c39268142661d03ed70a9aef5
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d3013b3eebc428063dae3f89a87a8db581ce1f60
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60860786"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62410482"
 ---
 # <a name="certificate-request-additional-subject-alternate-names"></a>Запрос сертификата (дополнительные альтернативные имена субъектов)
  

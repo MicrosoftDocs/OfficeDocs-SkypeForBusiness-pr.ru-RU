@@ -1,8 +1,8 @@
 ---
 title: Представление SessionDetails
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 7/15/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: ea328c6f-cf22-48dd-8f7f-f1666c9148c8
 description: В представлении SessionDetails хранится информация о одноранговых сеансах, которые могут быть телефонным VoIP-VoIP, двухпартийным сеансом чата или другим типом сеанса. Это представление было представлено в Microsoft Lync Server 2013.
-ms.openlocfilehash: 6a100fcd2143244bda5ad7273b5a681468ad5713
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 6565a24bda2a227f58b61883f4f868409998a207
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60852923"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62399613"
 ---
 # <a name="sessiondetails-view"></a>Представление SessionDetails
  
@@ -26,34 +26,34 @@ ms.locfileid: "60852923"
   
 |**Столбец**|**Тип данных**|**Сведения**|
 |:-----|:-----|:-----|
-|**SessionIdTime** <br/> |datetime  <br/> |Время запроса сеанса. Используется вместе с параметром SessionIdSeq для уникального определения сеанса. Дополнительные сведения см. в [таблице Диалоги Skype для бизнеса Server 2015.](dialogs.md) <br/> |
+|**SessionIdTime** <br/> |datetime  <br/> |Время запроса сеанса. Используется вместе с параметром SessionIdSeq для уникального определения сеанса. Дополнительные сведения см. в таблице [Диалоги Skype для бизнеса Server 2015](dialogs.md). <br/> |
 |**SessionIdSeq** <br/> |int  <br/> |Идентификационный номер для идентификации сеанса. Используется совместно с параметром SessionIdTime для уникальной идентификации сеанса. Дополнительные сведения см. в таблице [Диалоги Skype для бизнеса Server 2015](dialogs.md) г. <br/> |
 |**InviteTime** <br/> |datetime  <br/> |Время первого запроса INVITE. Обычно это поле содержит данные из первоначального сообщения INVITE в сеансе. Если сообщение INVITE отсутствует, в поле записывается дата и время первого соответствующего SIP-сообщения (BYE, CANCEL, MESSAGE или INFO). Время первого запроса INVITE. Обычно это поле содержит данные из первоначального сообщения INVITE в сеансе. Если сообщение INVITE отсутствует, в поле записывается дата и время первого соответствующего SIP-сообщения (BYE, CANCEL, MESSAGE или INFO).  <br/> |
 |**FromUri** <br/> |nvarchar (450)  <br/> |URI пользователя, запустившего сеанс.  <br/> |
 |**ToUri** <br/> |nvarchar (450)  <br/> |URI пользователя, который присоединился к сеансу.  <br/> |
-|**FromUriType** <br/> |nvarchar (256)  <br/> |Тип URI пользователя, запустившего сеанс. Дополнительные сведения см. в таблице [UriTypes.](uritypes.md) <br/> |
-|**ToUriType** <br/> |nvarchar (256)  <br/> |Тип URI пользователя, который присоединился к сеансу. Дополнительные сведения см. в таблице [UriTypes.](uritypes.md) <br/> |
-|**FromTenant** <br/> |nvarchar (450)  <br/> |Клиент пользователя, запустившего сеанс. Дополнительные сведения см. в таблице [Tenants.](tenants.md) <br/> |
-|**ToTenant** <br/> |nvarchar (256)  <br/> |Клиент пользователя, который присоединился к сеансу. Дополнительные сведения см. в таблице [Tenants.](tenants.md) <br/> |
+|**FromUriType** <br/> |nvarchar (256)  <br/> |Тип URI пользователя, запустившего сеанс. Дополнительные сведения [см. в таблице UriTypes](uritypes.md) . <br/> |
+|**ToUriType** <br/> |nvarchar (256)  <br/> |Тип URI пользователя, который присоединился к сеансу. Дополнительные сведения [см. в таблице UriTypes](uritypes.md) . <br/> |
+|**FromTenant** <br/> |nvarchar (450)  <br/> |Клиент пользователя, запустившего сеанс. Дополнительные [сведения см. в таблице Tenants](tenants.md) . <br/> |
+|**ToTenant** <br/> |nvarchar (256)  <br/> |Клиент пользователя, который присоединился к сеансу. Дополнительные [сведения см. в таблице Tenants](tenants.md) . <br/> |
 |**FromEndpointId** <br/> |uniqueidentifier  <br/> |Уникальный идентификатор конечной точки пользователя, запустившего сеанса.  <br/> |
 |**ToEndpointId** <br/> |uniqueidentifier  <br/> |Уникальный идентификатор конечной точки пользователя, который присоединился к сеансу.  <br/> |
 |**EndTime** <br/> |datetime  <br/> |Время окончания сеанса.  <br/> |
 |**FromMessageCount** <br/> |int  <br/> |Число сообщений, отправленных пользователем, запустившим сеанс.  <br/> |
 |**ToMessageCount** <br/> |int  <br/> |Число сообщений, отправленных пользователем, который присоединился к сеансу.  <br/> |
 |**FromClientVersion** <br/> |nvarchar (256)  <br/> |Версия клиента пользователя, запустившего сеанс.  <br/> |
-|**FromClientType** <br/> |int  <br/> |Версия клиента пользователя, который запустил сеанс. Дополнительные сведения см. в таблице [UserAgentDef.](useragentdef.md) <br/> |
+|**FromClientType** <br/> |int  <br/> |Версия клиента пользователя, который запустил сеанс. Дополнительные сведения см. [в таблице UserAgentDef](useragentdef.md) . <br/> |
 |**FromClientCategory** <br/> |nvarchar (64)  <br/> |Имя категории клиента пользователя, запустившего сеанс.  <br/> |
 |**ToClientVersion** <br/> |nvarchar (256)  <br/> |Версия клиента пользователя, который присоединился к сеансу.  <br/> |
-|**ToClientType** <br/> |int  <br/> |Версия клиента пользователя, который присоединился к сеансу. Дополнительные сведения см. в таблице [UserAgentDef.](useragentdef.md) <br/> |
+|**ToClientType** <br/> |int  <br/> |Версия клиента пользователя, который присоединился к сеансу. Дополнительные сведения см. [в таблице UserAgentDef](useragentdef.md) . <br/> |
 |**ToClientCategory** <br/> |nvarchar (64)  <br/> |Имя категории клиента пользователя, который присоединился к сеансу.  <br/> |
 |**TargetUri** <br/> |nvarchar (450)  <br/> |URI целевого пользователя сеанса.  <br/> |
-|**TargetUriType** <br/> |nvarchar (450)  <br/> |Тип URI целевого пользователя сеанса. Дополнительные сведения см. в таблице [UriTypes.](uritypes.md) <br/> |
+|**TargetUriType** <br/> |nvarchar (450)  <br/> |Тип URI целевого пользователя сеанса. Дополнительные сведения [см. в таблице UriTypes](uritypes.md) . <br/> |
 |**OnBehalfOfUri** <br/> |nvarchar (450)  <br/> |URI пользователя, от имени которого был запущен сеанс.  <br/> |
-|**OnnnBehalfOfUriType** <br/> |nvarchar (256)  <br/> |Тип URI пользователя, от имени которого был запущен сеанс. Дополнительные сведения см. в таблице [UriTypes.](uritypes.md) <br/> |
-|**OnBehalfOfTenant** <br/> |nvarchar (256)  <br/> |Клиент пользователя, от имени которого был запущен сеанс. Дополнительные сведения см. в таблице [Tenants.](tenants.md) <br/> |
+|**OnnnBehalfOfUriType** <br/> |nvarchar (256)  <br/> |Тип URI пользователя, от имени которого был запущен сеанс. Дополнительные сведения [см. в таблице UriTypes](uritypes.md) . <br/> |
+|**OnBehalfOfTenant** <br/> |nvarchar (256)  <br/> |Клиент пользователя, от имени которого был запущен сеанс. Дополнительные [сведения см. в таблице Tenants](tenants.md) . <br/> |
 |**ReferredByUri** <br/> |nvarchar (450)  <br/> |URI пользователя, который указал ссылку на сеанс.  <br/> |
-|**ReferredByUriType** <br/> |nvarchar (256)  <br/> |Тип URI пользователя, который указал ссылку на сеанс. Дополнительные сведения см. в таблице [UriTypes.](uritypes.md) <br/> |
-|**ReferredByTenant** <br/> |nvarchar (256)  <br/> |Клиент пользователя, который указал ссылку на сеанс. Дополнительные сведения см. в таблице [Tenants.](tenants.md) <br/> |
+|**ReferredByUriType** <br/> |nvarchar (256)  <br/> |Тип URI пользователя, который указал ссылку на сеанс. Дополнительные сведения [см. в таблице UriTypes](uritypes.md) . <br/> |
+|**ReferredByTenant** <br/> |nvarchar (256)  <br/> |Клиент пользователя, который указал ссылку на сеанс. Дополнительные [сведения см. в таблице Tenants](tenants.md) . <br/> |
 |**Диалоговое окно** <br/> |varchar (775)  <br/> |Код диалога SIP. Формат:  <br/> диалоговое окно; от тега;до тега  <br/> |
 |**CorrelationId** <br/> |uniqueidentifier  <br/> |GUID, используемый для сопоставления нескольких сеансов.  <br/> |
 |**ReplaceDialogIdTime** <br/> |datetime  <br/> |Время диалога, который был заменен сеансом. Используется совместно с ReplaceDialogIdSeq для уникальной идентификации диалога, который был заменен сеансом. Дополнительные сведения см. в таблице [Диалоги Skype для бизнеса Server 2015](dialogs.md) г. <br/> |

@@ -1,8 +1,8 @@
 ---
 title: Очередь группы ответа
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,22 +15,22 @@ ms.localizationpriority: medium
 ms.assetid: 29bde940-6107-494f-9bee-b6ebfa135e41
 ROBOTS: NOINDEX, NOFOLLOW
 description: Группы ответа состоят из агентов, очередей и рабочих процессов. Очереди группы ответов удерживают вызовы в группе ответа до тех пор, пока агент не ответит на вызов.
-ms.openlocfilehash: f33df7df7a0c129bbe522c39d9612377e85774ef
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: e5b921c55176e7abbfaf6362129172d50f2d416f
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60831393"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62417122"
 ---
 # <a name="response-groups-queue"></a>Очередь группы ответа
 
 Группы ответа состоят из агентов, очередей и рабочих процессов. Очереди группы ответов удерживают вызовы в группе ответа до тех пор, пока агент не ответит на вызов.
 
-На **странице Очередь групп** ответов отображается список всех очередей группы ответов, определенных  -   для организации.
+На **странице Response** **GroupsQueue** -  отображается список всех очередей группы ответов, определенных для организации.
 
 ## <a name="tasks-you-can-perform"></a>Задачи, которые вы можете выполнить
 
-Следующие задачи можно выполнить на странице **Очередь** групп  -   реагирования:
+Вы можете выполнить следующие задачи со страницы **Response** **GroupsQueue** - :
 
 - создать новую очередь;
 
@@ -42,7 +42,7 @@ ms.locfileid: "60831393"
 
 В следующем списке описываются команды на странице.
 
-- **Новые** Запускает новую очередь.
+- **Новые функции** Запускает новую очередь.
 
 - **Изменение** Открывает выбранную очередь для ее редактирования, выбирает всю очередь в списке или удаляет выбранную очередь.
 
@@ -52,8 +52,8 @@ ms.locfileid: "60831393"
 
 - **Имя** Уникальное имя, которое идентифицирует очередь.
 
-- **Служба** Служба **ApplicationServer,** в котором размещена очередь.
+- **Служба** Служба **ApplicationServer** , в котором размещена очередь.
 
 - **Описание** Описание очереди.
 
-Сведения о возможностях и возможностях группы реагирования см. в приложении [Plan for the Response Group Skype для бизнеса Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) документации по планированию. Подробные сведения о работе с очередями группы реагирования см. в документе [Управление](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-queues) очередями групп реагирования в документации по операциям.
+Сведения о возможностях и возможностях группы реагирования см. в материале [Plan for the Response Group application in Skype для бизнеса Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) документации по планированию. Подробные сведения о работе с очередями группы реагирования см. в документе [Управление](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-queues) очередями групп реагирования в документации по операциям.

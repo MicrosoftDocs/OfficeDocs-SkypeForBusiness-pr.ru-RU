@@ -22,27 +22,27 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Узнайте, как настроить автоотвещающий с помощью cmdlets
-ms.openlocfilehash: 1a8a105da3cfeaad0b6bc4069d877d2d8ad95796
-ms.sourcegitcommit: bc686eedb37e565148d0c7a61ffa865aaca37d20
+ms.openlocfilehash: 3911010b201e2b19376c24c6c4b84ae8dbcc5db8
+ms.sourcegitcommit: 79dfda39db208cf943d0f7b4906883bb9d034281
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62181176"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62457469"
 ---
 # <a name="create-an-auto-attendant-via-cmdlets"></a>Создание автозавода с помощью рабочихлетов
 
 ## <a name="assumptions"></a>Предположения
 1)  На компьютере установлена powerShell
-- Настройка компьютера для [Windows PowerShell](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
+- Настройка компьютера [для Windows PowerShell](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 - Модуль MSTeams установлен ````  (Install-Module -Name MicrosoftTeams -Force -AllowClobber) ````
 - Модуль MSOnline установлен ```` Install-Module -Name MSOnline -Force -AllowClobber ````
 2)  У вас есть права на администрирование клиента
 3)  Вы приобрели Microsoft Teams Телефон
-4)  Очереди вызовов, на которые ссылается ниже, уже были настроены в соответствии с руководством по созданию очередей вызовов с помощью [powerShell.](create-a-phone-system-call-queue-via-cmdlets.md)
+4)  Очереди вызовов, на которые ссылается ниже, уже были настроены в соответствии с руководством по созданию очередей вызовов с помощью [powerShell](create-a-phone-system-call-queue-via-cmdlets.md) .
                                                                                                
-Примечание. Некоторые командлеты, на которые ссылается ниже, могут быть частью общедоступных предварительных версий Teams PowerShell.  Дополнительные сведения см. в Teams предварительной версии [PowerShell](teams-powershell-install.md) и заметках о выпуске [PowerShell Microsoft Teams PowerShell.](teams-powershell-release-notes.md)
+Примечание. Некоторые командлеты, на которые ссылается ниже, могут быть частью общедоступных предварительных версий Teams PowerShell.  Дополнительные сведения см. в Teams предварительной версии [PowerShell](teams-powershell-install.md) и заметках о выпуске [PowerShell Microsoft Teams PowerShell](teams-powershell-release-notes.md).
 
-Пользователям, у которых уже установлен модуль MicrosoftTeams, необходимо установить наиболее новую ````Update-Module MicrosoftTeams```` версию.
+Пользователям, у которых уже установлен модуль MicrosoftTeams ````Update-Module MicrosoftTeams```` , необходимо установить наиболее новую версию.
 
 ## <a name="scenario"></a>Сценарий
 
@@ -95,10 +95,10 @@ Get-MsolAccountSku
 ````
 
 ### <a name="create-and-assign-resource-account"></a>Создание и назначение учетной записи ресурса
-Примечание. Телефон номер, который здесь не требуется, так как очередь вызовов заканчивается автоотехнщиком
+Примечание. Телефон номер, который здесь не требуется, так как очередь  вызовов заканчивается автоотехнщиком
 - ApplicationID
 - - Автоотчет: ce933385-9390-45d1-9512-c8d228074e07
-- - Очередь вызовов: 11cd3e2e-fccb-42ad-ad00-878b93575e07
+- - Очередь  вызовов: 11cd3e2e-fccb-42ad-ad00-878b93575e07
 ````
 New-CsOnlineApplicationInstance -UserPrincipalName ContosoDialByNameAA-RA@contoso.com -DisplayName "Contoso Dial By Name AA" -ApplicationID "ce933385-9390-45d1-9512-c8d228074e07"
 
@@ -235,10 +235,9 @@ Get-MsolAccountSku
 ````
 
 ### <a name="create-and-assign-resource-account"></a>Создание и назначение учетной записи ресурса
-Примечание. Телефон номер, который здесь не требуется, так как очередь вызовов заканчивается автоотехнщиком
 - ApplicationID
 - - Автоотчет: ce933385-9390-45d1-9512-c8d228074e07
-- - Очередь вызовов: 11cd3e2e-fccb-42ad-ad00-878b93575e07
+- - Очередь  вызовов: 11cd3e2e-fccb-42ad-ad00-878b93575e07
 ````
 New-CsOnlineApplicationInstance -UserPrincipalName ContosoMainAA-RA@contoso.com -DisplayName "Contoso Main AA" -ApplicationID "ce933385-9390-45d1-9512-c8d228074e07"
 
