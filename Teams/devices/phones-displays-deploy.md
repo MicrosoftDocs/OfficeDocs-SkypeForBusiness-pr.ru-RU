@@ -1,5 +1,5 @@
 ---
-title: 'Развертывание Teams телефонов, Teams дисплеев, Teams панелей и Комнаты Microsoft Teams на устройствах Android с помощью Intune'
+title: Развертывание Teams телефонов, Teams дисплеев и Комнаты Microsoft Teams на устройствах Android с помощью Intune
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -8,23 +8,28 @@ ms.topic: reference
 ms.service: msteams
 audience: Admin
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.collection:
-  - M365-voice
+- M365-voice
 search.appverid: MET150
 ms.localizationpriority: medium
-description: 'В этой статье представлены общие сведения и функции, поддерживаемые Microsoft Teams устройствах с Android.'
+description: В этой статье дается обзор функций, поддерживаемых Microsoft Teams дисплеев.
+ms.openlocfilehash: 632fcb207f8800a348dbe04fe7087145bae83d98
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396237"
 ---
+# <a name="deploy-teams-phones-teams-displays-and-microsoft-teams-rooms-on-android-using-intune"></a>Развертывание Teams телефонов, Teams дисплеев и Комнаты Microsoft Teams на устройствах Android с помощью Intune
 
-# <a name="deploy-teams-phones-teams-displays-teams-panels-and-microsoft-teams-rooms-on-android-using-intune"></a>Развертывание Teams телефонов, Teams дисплеев, Teams панелей и Комнаты Microsoft Teams на устройствах Android с помощью Intune
-
-В этой статье представлены общие сведения о развертывании Teams телефонов, Teams дисплеев, Teams панелей и Комнаты Microsoft Teams на устройствах с Android с помощью Intune.
+В этой статье представлены общие сведения о развертывании Teams телефонов, Teams дисплеев и Комнаты Microsoft Teams на устройствах Android с помощью Intune.
 
 ## <a name="conditional-access"></a>Условный доступ
 
-Условный доступ — это Azure Active Directory (Azure AD), которая помогает обеспечить правильное управление устройствами, Office 365 ресурсами.  Если вы применяйте политики условного доступа к службе Teams, устройства с Android (включая телефоны Teams, экраны Teams, панели Teams и Комнаты Microsoft Teams на устройствах с Android), которые имеют доступ к Teams, должны быть зарегистрированы в Intune, а их параметры должны соответствовать вашим политикам.  Если устройство не зарегистрировать в Intune или зарегистрировать его, но его параметры не соответствуют вашим политикам, Условный доступ не позволит пользователю войди в приложение Teams на устройстве.
+Условный доступ — это Azure Active Directory (Azure AD), которая помогает обеспечить правильное управление устройствами, Office 365 ресурсами.  Если вы применяли политики условного доступа к службе Teams, устройства с Android (включая телефоны Teams, экраны Teams и Комнаты Microsoft Teams на устройствах с Android), которые имеют доступ к Teams, должны быть зарегистрированы в Intune, а их параметры должны соответствовать вашим политикам.  Если устройство не зарегистрировать в Intune или зарегистрировать его, но его параметры не соответствуют вашим политикам, Условный доступ не позволит пользователю войди в приложение Teams на устройстве.
 
 Как правило, политики соответствия требованиям, определенные в Intune, назначены группам пользователей.  Это означает, что если назначить политику соответствия user@contoso.com Android, она будет в равной степени применяться к смартфону Android и к любому устройству с Android Teams которое user@contoso.com.
 
