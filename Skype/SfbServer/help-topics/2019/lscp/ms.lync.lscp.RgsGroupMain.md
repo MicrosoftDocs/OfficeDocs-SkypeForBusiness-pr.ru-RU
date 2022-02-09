@@ -1,8 +1,8 @@
 ---
 title: Группа групп реагирования
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,22 +15,22 @@ ms.localizationpriority: medium
 ms.assetid: b8bd4c3f-3d32-42b2-9712-2d0f159577d8
 ROBOTS: NOINDEX, NOFOLLOW
 description: Группы ответа состоят из агентов, очередей и рабочих процессов. Группа агентов — это группа людей, назначенных для ответа на вызовы группы ответов.
-ms.openlocfilehash: 276bdd91edc34e20b47429ae9364c5068ddb8ce5
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 52184e7a3c9d95d8aa7d2121ebe5741047d81374
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840441"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62401073"
 ---
 # <a name="response-groups-group"></a>Группы ответа: группа
 
 Группы ответа состоят из агентов, очередей и рабочих процессов. Группа агентов — это группа людей, назначенных для ответа на вызовы группы ответов.
 
-На **странице Группы** ответов отображается список всех групп агентов, определенных  -   для вашей организации.
+На **странице Группы реагирования** -  отображается список всех групп агентов, определенных для вашей организации.
 
 ## <a name="tasks-you-can-perform"></a>Задачи, которые вы можете выполнить
 
-Вы можете выполнить следующие задачи со страницы **группы групп**  -   реагирования:
+Вы можете выполнить следующие задачи со страницы **Группы** -  **реагирования:**
 
 - создать новую группу агентов;
 
@@ -42,7 +42,7 @@ ms.locfileid: "60840441"
 
 В следующем списке описываются команды на странице.
 
-- **Новые** Запускает новую группу агентов.
+- **Новые функции** Запускает новую группу агентов.
 
 - **Изменение** Открывает выбранную группу агентов для ее редактирования, выбирает все группы агентов в списке или удаляет выбранные группы агентов.
 
@@ -52,8 +52,8 @@ ms.locfileid: "60840441"
 
 - **Имя** Уникальное имя, которое идентифицирует группу агентов.
 
-- **Служба** Служба **ApplicationServer,** в котором размещена группа агентов.
+- **Служба** Служба **ApplicationServer** , в котором размещена группа агентов.
 
 - **Описание** Описание группы агентов.
 
-Сведения о возможностях и возможностях группы реагирования см. в приложении [Plan for the Response Group Skype для бизнеса Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) документации по планированию. Дополнительные сведения о работе с группами агентов см. в разделе [Managing Agent Groups](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-agent-groups) документации по использованию.
+Сведения о возможностях и возможностях группы реагирования см. в материале [Plan for the Response Group application in Skype для бизнеса Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) документации по планированию. Дополнительные сведения о работе с группами агентов см. в разделе [Managing Agent Groups](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-agent-groups) документации по использованию.

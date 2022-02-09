@@ -1,8 +1,8 @@
 ---
 title: Настройка базы данных расположения в Skype для бизнеса Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb84f5b6-c991-4893-bdbf-f195b4b7d28e
 description: Настройка, заполнение и публикация базы данных расположения E9-1-1 в Skype для бизнеса Server Корпоративная голосовая связь.
-ms.openlocfilehash: 8cd4f10a383d279421af6f9152a31f637ee47474
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 5ebace7eabe0db04f06611bc9c11263021733367
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851613"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62400723"
 ---
 # <a name="configure-the-location-database-in-skype-for-business-server"></a>Настройка базы данных расположения в Skype для бизнеса Server
  
@@ -31,7 +31,7 @@ ms.locfileid: "60851613"
   
 Чтобы настроить базу данных расположения, выполните следующие задачи:
   
-- Заполните базу данных с сопоставлением сетевых элементов местоположениям. При использовании шлюза идентификации аварийного местоположения (ELIN) необходимо включить ELIN в \<CompanyName\> поле.
+- Заполните базу данных с сопоставлением сетевых элементов местоположениям. При использовании шлюза идентификации аварийного местоположения (ELIN) необходимо включить ELIN в поле \<CompanyName\> .
     
     Если вы не заполняете базу данных расположений, и для параметра **Location Required** (Требуется расположение) в политике расположения задано значение **Да** или **Заявление об отказе**, клиент будет предлагать пользователю ввести расположение вручную.
     
@@ -51,7 +51,7 @@ ms.locfileid: "60851613"
 |:-----|:-----|
 |**Точка беспроводного доступа** <br/> |\<BSSID\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<PreDirectional\>,…  <br/> …\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\>  <br/> |
 |**Subnet** <br/> |\<Subnet\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<PreDirectional\>,…  <br/> …\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\>  <br/> |
-|**Port** <br/> |\<ChassisID\>,\<PortIDSubType\>,\<PortID\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,…  <br/> …\<PreDirectional\>,\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\>  <br/> |
+|**Port (Порт)** <br/> |\<ChassisID\>,\<PortIDSubType\>,\<PortID\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,…  <br/> …\<PreDirectional\>,\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\>  <br/> |
 |**Переключатель** <br/> |\<ChassisID\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<PreDirectional\>,…  <br/> …\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\>  <br/> |
    
 ### <a name="to-add-network-elements-to-the-location-database"></a>Добавление элементов сети в базу данных расположений
@@ -120,7 +120,7 @@ ms.locfileid: "60851613"
 
 ### <a name="to-validate-addresses-located-in-the-location-database"></a>Проверка адресов, хранящихся в базе данных местонахождения
 
-1.  Запустите Skype для бизнеса Server: нажмите кнопку Начните, щелкните Все **программы,** нажмите кнопку Skype для бизнеса **2015,** а затем нажмите кнопку **Skype для бизнеса Server.**
+1.  Запустите Skype для бизнеса Server: нажмите кнопку **Начните, нажмите** кнопку Все **программы, нажмите** кнопку Skype для бизнеса **2015**, а затем нажмите кнопку **Skype для бизнеса Server управленческой оболочки**.
     
 2. Чтобы настроить подключение к поставщику экстренной службы, выполните следующие командлеты.
     
@@ -145,7 +145,7 @@ ms.locfileid: "60851613"
   
 ### <a name="to-publish-the-location-database"></a>Публикация базы данных местоположений
 
--  Запустите Skype для бизнеса Server: нажмите кнопку Начните, щелкните Все **программы,** нажмите кнопку Skype для бизнеса **2015,** а затем нажмите кнопку **Skype для бизнеса Server.**
+-  Запустите Skype для бизнеса Server: нажмите кнопку **Начните, нажмите** кнопку Все **программы, нажмите** кнопку Skype для бизнеса **2015**, а затем нажмите кнопку **Skype для бизнеса Server управленческой оболочки**.
     
 - Чтобы опубликовать базу данных местоположений, выполните следующий командлет.
     

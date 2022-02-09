@@ -1,7 +1,7 @@
 ---
 title: Skype для бизнеса совместимость с Office приложениями
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 2/16/2018
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ac3a1046-b438-4e21-9d4f-3b0057dd685d
 description: Понимание способов доступа к Skype для бизнеса из Outlook и других Microsoft Office приложений.
-ms.openlocfilehash: 06a019416ad8d32b0234b08c01b09630dd07a2ef
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 249b66eb366d9fa2d5911c24fb7dc88d0dcd6633
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862136"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62409902"
 ---
 # <a name="skype-for-business-compatibility-with-office-apps"></a>Skype для бизнеса совместимость с Office приложениями
  
@@ -31,7 +31,7 @@ ms.locfileid: "60862136"
   
 ## <a name="office-and-skype-for-business"></a>Office и Skype для бизнеса
 
-В следующей таблице описываются Skype для бизнеса, поддерживаемые различными версиями Office после развертывания и интеграции Exchange, как описано в Skype для бизнеса Server с [Exchange Server](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md).
+В следующей таблице описываются Skype для бизнеса, поддерживаемые различными версиями Office после развертывания Exchange и интеграции, как описано в статье [Skype для бизнеса Server с Exchange Server](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md).
   
 **Skype для бизнеса и Microsoft Office совместимости**
 
@@ -65,7 +65,7 @@ ms.locfileid: "60862136"
 |:-----|:-----|
 |Exchange Server 2019 г. (только Skype для бизнеса Server 2019 г.) |То же, что Exchange Server 2013 г.    |
 |Exchange Server 2016    |То же, что Exchange Server 2013 г.  <br/> |
-|Exchange Server 2013  <br/> |То же, Exchange Server 2010 г., с добавлением  <br/>&bull;&nbsp;&nbsp;Объединенный магазин контактов  <br/>&bull;&nbsp;&nbsp;Изображения с высоким разрешением  <br/>&bull;&nbsp;&nbsp;Интеграция архивации  <br/> **Примечание:** Подробные сведения см. [в Skype для бизнеса Server интеграции с Exchange Server.](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md)  <br/> |
+|Exchange Server 2013  <br/> |То же, Exchange Server 2010 г., с добавлением  <br/>&bull;&nbsp;&nbsp;Объединенный магазин контактов  <br/>&bull;&nbsp;&nbsp;Изображения с высоким разрешением  <br/>&bull;&nbsp;&nbsp;Интеграция архивации  <br/> **Примечание:** Подробные сведения см. в [Skype для бизнеса Server Exchange Server](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md).  <br/> |
 |Exchange Server 2010  <br/>(только Skype для бизнеса Server 2015 г.) |Следующие функции доступны только через EWS:  <br/>&bull;&nbsp;&nbsp;Чтение или удаление элементов в папке История бесед  <br/>&bull;&nbsp;&nbsp;Чтение или удаление элементов голосовой почты  <br/>&bull;&nbsp;&nbsp;Отображение расширенных бесплатных и загруженных сведений, темы собраний и расположения  <br/>&bull;&nbsp;&nbsp;Exchange синхронизации контактов  <br/> Общедоступные папки являются необязательными в Exchange Server 2010 г.  <br/> |
    
 ## <a name="see-also"></a>См. также

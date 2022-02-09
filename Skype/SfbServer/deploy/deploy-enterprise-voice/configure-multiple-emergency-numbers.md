@@ -1,8 +1,8 @@
 ---
 title: Настройка нескольких номеров экстренных служб в Skype для бизнеса
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,25 +15,25 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 2e869df0-5fdb-4e70-bd81-cb012556eb1a
 description: Ознакомьтесь с этой темой, чтобы узнать, как настроить несколько номеров экстренных служб в Skype для бизнеса Server.
-ms.openlocfilehash: d79a57e64d52bfc6b0f1d8ee9a9bd9c3c1509658
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 318cf1f5f2fce443f939a9603f395573209959e0
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833915"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62401573"
 ---
 # <a name="configure-multiple-emergency-numbers-in-skype-for-business"></a>Настройка нескольких номеров экстренных служб в Skype для бизнеса
 
 Ознакомьтесь с этой темой, чтобы узнать, как настроить несколько номеров экстренных служб в Skype для бизнеса Server.
 
-Skype для бизнеса Server поддерживает несколько номеров экстренных служб для клиента. Несколько номеров экстренных служб — это новая функция, представленная в накопительном обновлении за июнь 2016 г. Перед настройкой среды для поддержки нескольких номеров экстренных служб обязательно ознакомьтесь с планом для нескольких номеров экстренных служб в [Skype для бизнеса Server.](../../plan-your-deployment/enterprise-voice-solution/multiple-emergency-numbers.md)
+Skype для бизнеса Server поддерживает несколько номеров экстренных служб для клиента. Несколько номеров экстренных служб — это новая функция, представленная в накопительном обновлении за июнь 2016 г. Перед настройкой среды для поддержки нескольких номеров экстренных служб обязательно ознакомьтесь с планом для нескольких номеров экстренных служб в [Skype для бизнеса Server](../../plan-your-deployment/enterprise-voice-solution/multiple-emergency-numbers.md).
 
 > [!NOTE]
-> Если вы еще не обновили накопительное обновление за ноябрь 2016 г., см. в Skype для бизнеса Server [обновления 2015](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015)г. С накопительным обновлением за ноябрь 2016 г. число номеров экстренных служб поддержки увеличивается с 5 до 100.
+> Если вы еще не обновили накопительное обновление за ноябрь 2016 г., см. в Skype для бизнеса Server [обновления 2015 г](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015). С накопительным обновлением за ноябрь 2016 г. число номеров экстренных служб поддержки увеличивается с 5 до 100.
 
 ## <a name="configure-multiple-emergency-numbers"></a>Настройка нескольких номеров экстренных служб
 
-Чтобы настроить несколько номеров аварийной ситуации, используйте New-CsEmergencyNumber, а затем укажите параметр EmergencyNumbers с помощью cmdlets [New-CsLocationPolicy](/powershell/module/skype/new-cslocationpolicy?view=skype-ps) и [Set-CsLocationPolicy.](/powershell/module/skype/set-cslocationpolicy?view=skype-ps) Полное описание всех параметров политики расположения, таких как использование PSTN и требуемое расположение, см. [в инструкции Set-CsLocationPolicy.](/powershell/module/skype/set-cslocationpolicy?view=skype-ps)
+Чтобы настроить несколько номеров аварийной ситуации, используйте New-CsEmergencyNumber, а затем укажите параметр EmergencyNumbers с помощью cmdlets [New-CsLocationPolicy](/powershell/module/skype/new-cslocationpolicy?view=skype-ps) и [Set-CsLocationPolicy](/powershell/module/skype/set-cslocationpolicy?view=skype-ps) . Полное описание всех параметров политики расположения, таких как использование PSTN и требуемое расположение, см. [в инструкции Set-CsLocationPolicy](/powershell/module/skype/set-cslocationpolicy?view=skype-ps).
 
 Следующая команда создает новый номер аварийной ситуации со строкой 911 с помощью командлета New-CsEmergency:
 

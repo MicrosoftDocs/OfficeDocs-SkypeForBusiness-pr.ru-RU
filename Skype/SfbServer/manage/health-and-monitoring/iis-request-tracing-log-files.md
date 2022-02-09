@@ -1,8 +1,8 @@
 ---
 title: Мониторинг IIS запрашивает отслеживание файлов журналов в Skype для бизнеса Server 2015 г.
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b6730e92-6d74-4fa7-a83f-50b7bdadbffa
 description: Сводка. Сведения о службе мобильности (Mcx) в Skype для бизнеса Server 2015 г. для устаревших клиентов.
-ms.openlocfilehash: 2b571ceb583f7a42c6f41fba3c868fbe1628631a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: a2331d4f18488171b1862e53f06f4910b463ccb5
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857556"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396561"
 ---
 # <a name="monitoring-iis-request-tracing-log-files-in-skype-for-business-server-2015"></a>Мониторинг IIS запрашивает отслеживание файлов журналов в Skype для бизнеса Server 2015 г.
  
@@ -38,4 +38,4 @@ ms.locfileid: "60857556"
 %SystemDrive%\Windows\System32\inetsrv\appcmd set config /section:httpLogging /dontLog:True
 ```
 
-Сведения о команде **httpLogging см.** в [ссылке на командную ссылку.](/previous-versions/iis/settings-schema/aa347466(v=vs.90))
+Сведения о команде **httpLogging см.** в [ссылке на команду](/previous-versions/iis/settings-schema/aa347466(v=vs.90)).

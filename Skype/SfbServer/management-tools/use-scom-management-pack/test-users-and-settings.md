@@ -1,8 +1,8 @@
 ---
 title: Настройка тестовых пользователей и параметров узлов просмотра
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/13/2018
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ab2e0d93-cf52-4a4e-b5a4-fd545df7a1a9
 description: Настройка тестовых учетных записей пользователей и параметров узлов просмотра для Skype для бизнеса Server транзакций.
-ms.openlocfilehash: e21842550da1a5a96c96cef5ac7e8c728777799b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 503d7f0fd23d3fbbacd0510654d156b07e2ebd7e
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849762"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62409942"
 ---
 # <a name="how-to-configure-watcher-node-test-users-and-settings"></a>Настройка тестовых пользователей и параметров узлов просмотра
  
@@ -85,7 +85,7 @@ $pstnTest = New-CsExtendedTest -TestUsers "sip:watcher1@litwareinc.com", "sip:wa
 > [!NOTE]
 > Результаты этой команды должны храниться в переменной. В этом примере переменная называется $pstnTest. 
   
-Далее можно использовать комлет **New-CsWatcherNodeConfiguration,** чтобы связать тип теста (хранимый в переменной $pstnTest) с Skype для бизнеса Server пулом. Например, следующая команда создает новую конфигурацию узла просмотра для пула atl-cs-001.litwareinc.com, добавляя двух тестовых пользователей, созданных ранее, и добавляя тип теста PSTN:
+Далее можно использовать комлет **New-CsWatcherNodeConfiguration**, чтобы связать тип теста (хранимый в переменной $pstnTest) с Skype для бизнеса Server пулом. Например, следующая команда создает новую конфигурацию узла просмотра для пула atl-cs-001.litwareinc.com, добавляя двух тестовых пользователей, созданных ранее, и добавляя тип теста PSTN:
   
 ```PowerShell
 New-CsWatcherNodeConfiguration -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumber 5061 -TestUsers @{Add= "sip:watcher1@litwareinc.com","sip:watcher2@litwareinc.com"} -ExtendedTests @{Add=$pstnTest}
@@ -93,7 +93,7 @@ New-CsWatcherNodeConfiguration -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumb
 
 При не установке основных Skype для бизнеса Server и базы данных RTCLocal на компьютере узла просмотра предыдущей команды сбой. 
   
-Чтобы протестировать несколько голосовых политик, можно создать расширенный тест для каждой политики с помощью cmdlet **New-CsExtendedTest.** Предоставленные пользователи должны быть настроены с помощью нужных голосовых политик. Расширенные тесты передаются в **cmdlet New-CsWatcherNodeConfiguration** с помощью запятой-делимитеров, таких как:
+Чтобы протестировать несколько голосовых политик, можно создать расширенный тест для каждой политики с помощью cmdlet **New-CsExtendedTest** . Предоставленные пользователи должны быть настроены с помощью нужных голосовых политик. Расширенные тесты передаются в **cmdlet New-CsWatcherNodeConfiguration** с помощью запятой-делимитеров, таких как:
   
 -ExtendedTests @{Add=$pstnTest 1,$pstnTest 2,$pstnTest 3}
   
@@ -272,7 +272,7 @@ Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -UseIn
   
 ### <a name="data-conferencing-synthetic-transaction"></a>Синтетическая транзакция для конференций данных
 
-Если ваш узел просмотра находится за пределами сети периметра, вы, вероятно, не сможете выполнить синтетическую транзакцию по конференции данных, если сначала не отключите параметры прокси-сервера Windows Internet Explorer® прокси-сервера интернет-браузера для учетной записи сетевой службы, завершив следующие действия:
+Если ваш узел просмотра находится за пределами сети периметра, вы, вероятно, не сможете выполнить синтетическую транзакцию по конференции данных, если сначала не отключите параметры прокси Windows internet Explorer® для учетной записи сетевой службы, завершив следующие действия:
   
 1. На компьютере узла-наблюдателя в меню **Пуск** щелкните **Все программы**, выберите **Стандартные**, щелкните правой кнопкой мыши **Командная строка**, а затем выберите команду **Запуск от имени администратора**.
     
@@ -294,7 +294,7 @@ Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -UseIn
       
     В этом сообщении указывается, что вы отключили параметры прокси-сервера Internet Explorer для учетной записи сетевой службы.
   
-### <a name="exchange-unified-messaging-synthetic-transaction"></a>Exchange Синтетическая транзакция единой системы обмена сообщениями
+### <a name="exchange-unified-messaging-synthetic-transaction"></a>Exchange синтетическая транзакция единой системы обмена сообщениями
 
 Синтетическая транзакция Exchange единой системы обмена сообщениями проверяет, что тестовые пользователи могут подключаться к учетным записям голосовой почты, которые Exchange.
   
@@ -370,15 +370,15 @@ Set-CsWatcherNodeConfiguration -Identity pool0.contoso.com -Tests @{Add="XmppIM"
 В этом примере необходимо Skype для бизнеса Server, чтобы маршрутить сообщения для litwareinc.com к шлюзу XMPP.
 
 > [!NOTE]
-> Шлюзы и прокси XMPP доступны в Skype для бизнеса Server 2015 г., но больше не поддерживаются Skype для бизнеса Server 2019 г. Дополнительные сведения см. в [дополнительных сведениях в федерации переноса XMPP.](../../../SfBServer2019/migration/migrating-xmpp-federation.md)
+> Шлюзы и прокси XMPP доступны в Skype для бизнеса Server 2015 г., но больше не поддерживаются Skype для бизнеса Server 2019 г. Дополнительные сведения см. в [перенаселении федерации XMPP](../../../SfBServer2019/migration/migrating-xmpp-federation.md).
   
 ### <a name="video-interop-server-vis-synthetic-transaction"></a>Синтетическая транзакция Video Interop Server (VIS)
 
-Синтетическая транзакция Video Interop Server (VIS) требует скачивания и установки файлов поддержки синтетических[ транзакций (VISSTSupportPackage.msi). ](https://www.microsoft.com/download/details.aspx?id=46921) 
+Синтетическая транзакция Video Interop Server (VIS) требует скачивания и установки файлов поддержки синтетических транзакций ([VISSTSupportPackage.msi](https://www.microsoft.com/download/details.aspx?id=46921)). 
   
 Чтобы установить VISSTSupportPackage.msi, уже установлены зависимости (в соответствии с требованиями системы) для msi. Запустите VISSTSupportPackage.msi, чтобы выполнить простую установку. В .msi устанавливается все файлы в следующем пути: "%ProgramFiles%\VIS Пакет поддержки синтетических транзакций".
   
-Дополнительные информатины о запуске синтетической транзакции VIS см. в документации для cmdlet [Test-CsP2PVideoInteropServerSipTrunkAV.](/powershell/module/skype/Test-CsP2PVideoInteropServerSipTrunkAV)
+Дополнительные информатины о запуске синтетической транзакции VIS см. в документации для cmdlet [Test-CsP2PVideoInteropServerSipTrunkAV](/powershell/module/skype/Test-CsP2PVideoInteropServerSipTrunkAV) .
   
 ## <a name="changing-the-run-frequency-for-synthetic-transactions"></a>Изменение частоты запуска для синтетических транзакций
 <a name="special_synthetictrans"> </a>
@@ -452,4 +452,4 @@ $RegistrationTest.ToXML() | Out-File C:\Logs\Registration.xml
 Синтетические транзакции, которые запускаются из System Center диспетчера операций, автоматически генерируют эти файлы журналов для сбоев. Эти журналы не будут созданы, если выполнение не удастся выполнить до Skype для бизнеса Server PowerShell сможет загрузить и запустить синтетическую транзакцию. 
   
 > [!IMPORTANT]
-> По умолчанию Skype для бизнеса Server сохраняет файлы журналов в папку, которая не является общей. Чтобы сделать эти журналы доступными, следует поделиться этой папкой. Например: \\ atl-watcher-001.litwareinc.com\WatcherNode.
+> По умолчанию Skype для бизнеса Server сохраняет файлы журналов в папку, которая не является общей. Чтобы сделать эти журналы доступными, следует поделиться этой папкой. Например: \\atl-watcher-001.litwareinc.com\WatcherNode.

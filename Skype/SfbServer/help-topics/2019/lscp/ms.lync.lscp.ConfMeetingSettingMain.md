@@ -1,8 +1,8 @@
 ---
 title: Конфигурация собрания
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 24e8f749-d54c-4315-a8fe-bb9303b356ef
 ROBOTS: NOINDEX, NOFOLLOW
 description: Параметры конфигурации собраний определяют тип конференций (также называемыхmeetings), которые пользователи могут создавать, и контролировать, как анонимные пользователи и пользователи конференц-конференций с диалогом могут присоединяться к этим конференциям. Эти параметры распространяются только на запланированные собрания. Они не применяются к ad-hoc собраниям, созданным путем нажатия параметра Meet Now в клиенте.
-ms.openlocfilehash: 4eb66e999cfc8c3682e0c1f5b54004bf57efa1e7
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: bdb2dddf5d510ed3024897bc621a4d7def0d88af
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60831533"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62399333"
 ---
 # <a name="meeting-configuration"></a>Конфигурация собрания
 
@@ -50,7 +50,7 @@ ms.locfileid: "60831533"
 
 В следующем списке описываются команды на странице.
 
-- **Новые** Запускает новую конфигурацию собрания сайта или конфигурацию собраний пула.
+- **Новые функции** Запускает новую конфигурацию собрания сайта или конфигурацию собраний пула.
 
 - **Изменение** Открывает выбранную конфигурацию собрания для ее редактирования, выбирает все конфигурации собраний в списке или удаляет выбранную конфигурацию сайта или конфигурацию пула.
 

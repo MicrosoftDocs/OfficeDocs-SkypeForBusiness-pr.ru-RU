@@ -1,8 +1,8 @@
 ---
 title: Таблица PurgeSettings (QoE)
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 31b85d1c-3f32-4f67-94bf-9389cdd282c5
 description: 'В таблице PurgeSettings содержатся сведения о том, должны ли устаревшие записи автоматически удаляться из базы данных качества обслуживания, и когда это должно происходить. Обратите внимание, что сведения, связанные с чисткой, также можно получить из Skype для бизнеса Server командной оболочки с помощью следующей команды:'
-ms.openlocfilehash: ec89cdfbd634c32ab7a51265ed28e9ee89207892
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 93d7f7c5bbb1d05daaf11372cbddf9e515bb90ed
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858086"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62398523"
 ---
 # <a name="purgesettings-table-qoe"></a>Таблица PurgeSettings (QoE)
  

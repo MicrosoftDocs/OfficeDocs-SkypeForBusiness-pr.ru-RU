@@ -1,8 +1,8 @@
 ---
 title: Запись детализации вызовов (CDR) в Skype для бизнеса Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 67726075-c77c-4191-a64f-a1cf5c7bcbb2
 description: Сводка. Сведения о записях с подробными сведениями о вызовах, используемых в Skype для бизнеса Server.
-ms.openlocfilehash: 4b699b382443d0820845856bebd83604374bf236
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 8f7699a0232426c1b4f7898c3a8f6b124a8e28d6
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858336"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62410022"
 ---
 # <a name="call-detail-recording-cdr-in-skype-for-business-server"></a>Запись детализации вызовов (CDR) в Skype для бизнеса Server
  
@@ -25,7 +25,7 @@ ms.locfileid: "60858336"
   
 Записи регистрации вызовов (CDR) и диагностическая информация об одноранговой активности, включая мгновенные сообщения, VoIP-вызовы, общий доступ к приложениям, передачу файлов и собрания. Данные об использовании могут применяться для расчета окупаемости инвестиций, а данные диагностики — для устранения неполадок, связанных с одноранговой активностью и собраниями. При установке Skype для бизнеса Server установят предопределяемую коллекцию параметров глобальной конфигурации для CDR. Используйте темы этого раздела для настройки регистрации вызовов.
   
-## <a name="in-this-section"></a>В этом разделе
+## <a name="in-this-section"></a>В этой статье
 
 - [Просмотр сведений о конфигурации CDR в Skype для бизнеса Server](view-configuration-information.md)
     

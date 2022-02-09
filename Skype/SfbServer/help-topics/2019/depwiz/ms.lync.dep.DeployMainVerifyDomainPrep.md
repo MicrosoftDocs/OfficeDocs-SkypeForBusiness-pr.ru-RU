@@ -1,8 +1,8 @@
 ---
 title: Проверка репликации в домене
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,18 +15,18 @@ ms.localizationpriority: medium
 ms.assetid: 4846b787-d55e-4364-bdcd-2dee33f0251c
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Для проверки репликации подготовки домена, выполненной в шаге 1: Подготовка схемы, необходимо выполнить командылет из Skype для бизнеса Server shell управления Lync Server Management Shell. Чтобы запустить Windows PowerShell, войдите на компьютер, который является членом подготовленного домена, и в качестве члена группы администраторов домена. Выполните указанные ниже действия.'
-ms.openlocfilehash: 8227d47acf0a24c4d2da1af30498662f6433a612
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 86a58198797b40942e5ac165065a4fda17add9e9
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855063"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62404321"
 ---
 # <a name="verify-replication-in-the-domain"></a>Проверка репликации в домене
  
-Для проверки репликации подготовки домена, выполненной в шаге **1: Подготовка** схемы, необходимо выполнить командылет из Skype для бизнеса Server управленческой оболочки Lync Server Management Shell. Чтобы запустить Windows PowerShell, войдите на компьютер, который является членом подготовленного домена, и в качестве члена группы администраторов домена. Выполните указанные ниже действия.
+Для проверки репликации подготовки домена, выполненной в шаге **1:** Подготовка схемы, необходимо выполнить командылет из Skype для бизнеса Server управленческой оболочки Lync Server Management Shell. Чтобы запустить Windows PowerShell, войдите на компьютер, который является членом подготовленного домена, и в качестве члена группы администраторов домена. Выполните указанные ниже действия.
   
-1. Запустите Skype для бизнеса Server: нажмите кнопку Начните, щелкните Все **программы,** нажмите кнопку **Skype для бизнеса,** а затем нажмите кнопку **Skype для бизнеса Server.**
+1. Запустите Skype для бизнеса Server: нажмите кнопку **Начните, нажмите** кнопку Все **программы, нажмите** кнопку **Skype для бизнеса и** нажмите кнопку Skype для бизнеса Server **управленческой оболочки**.
     
 2. В Windows PowerShell введите следующее:
     

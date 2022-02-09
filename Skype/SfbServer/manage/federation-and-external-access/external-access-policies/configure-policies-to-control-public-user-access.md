@@ -5,8 +5,8 @@ ms:assetid: 090aea0f-ef0b-49da-9c80-02d9279f2fa6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520946(v=OCS.15)
 ms:contentKeyID: 48183343
 mtps_version: v=OCS.15
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Ublic instant messaging (IM) connectivity enables users in your organisation to use IM to communicate with users of IM services provided by public IM service providers.
-ms.openlocfilehash: b5c7d75a6048a584fcb872ed8eb3cd82dfe2076f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d05827c7af0f7712db6d2436f2ecdb00838ea53f
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847312"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62398963"
 ---
 # <a name="configure-policies-to-control-public-user-access-in-skype-for-business-server"></a>Настройка политик для управления доступом к общедоступным пользователям в Skype для бизнеса Server
 
@@ -33,7 +33,7 @@ ms.locfileid: "60847312"
 
 
 > [!NOTE]  
-> Политики управления доступом пользователей общедоступных служб можно настроить даже при отсутствии федерации в организации. Но настроенные политики действуют только при включенных федеративных отношениях для организации. Сведения о включаемой федерации см. в материале [Включение или отключение удаленного доступа к пользователю.](../access-edge/enable-or-disable-remote-user-access.md) Кроме того, если указана политика пользователя для управления доступом к общедоступным пользователям, эта политика применяется только к пользователям, которые Skype для бизнеса Server и настроены на использование политики. Дополнительные сведения о указании общедоступных пользователей, которые могут войти в Skype для бизнеса Server, см. в материале Назначение внешней политики доступа [пользователей.](assign-an-external-user-access-policy.md)
+> Политики управления доступом пользователей общедоступных служб можно настроить даже при отсутствии федерации в организации. Но настроенные политики действуют только при включенных федеративных отношениях для организации. Сведения о включаемой федерации см. в материале [Включение или отключение удаленного доступа пользователей](../access-edge/enable-or-disable-remote-user-access.md). Кроме того, если указана политика пользователя для управления доступом к общедоступным пользователям, эта политика применяется только к пользователям, которые Skype для бизнеса Server и настроены на использование политики. Дополнительные сведения о указании общедоступных пользователей, которые могут войти в Skype для бизнеса Server, см. в материале [Назначение внешней политики доступа к пользователю](assign-an-external-user-access-policy.md).
 
 
 Для настройки политики, поддерживающей доступ пользователей одного или нескольких общедоступных поставщиков услуг обмена мгновенными сообщениями, используется следующая процедура.
@@ -66,7 +66,7 @@ ms.locfileid: "60847312"
 
 7.  Нажмите кнопку **Сохранить**.
 
-Чтобы включить доступ пользователей общедоступных служб, необходимо также включить в организации поддержку федерации. Подробные сведения см. в [материале Configure policies to control federated user access in Skype для бизнеса Server.](configure-policies-to-control-federated-user-access.md)
+Чтобы включить доступ пользователей общедоступных служб, необходимо также включить в организации поддержку федерации. Подробные сведения см. [в материале Configure policies to control federated user access in Skype для бизнеса Server](configure-policies-to-control-federated-user-access.md).
 
 В случае пользовательской политики, также необходимо настроить и применить политику к пользователям общедоступных служб, которым требуется разрешить совместную работу с пользователями общедоступных служб. 
 

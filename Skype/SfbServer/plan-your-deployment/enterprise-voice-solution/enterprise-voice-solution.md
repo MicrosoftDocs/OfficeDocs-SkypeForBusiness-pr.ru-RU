@@ -1,8 +1,8 @@
 ---
 title: Планирование решения Корпоративная голосовая связь в Skype для бизнеса Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,18 +16,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f9c6fd1d-c379-47d1-8447-19274ace9951
 description: Сводка. Сведения о вариантах планирования единого решения голосовой связи и связи в Skype для бизнеса Server.
-ms.openlocfilehash: 71fc511d6c435ab6b1cd5f553d668acd2fb606a7
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 500a34784ea94e16b5531bc94adf222047998a64
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829863"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62409892"
 ---
 # <a name="plan-your-enterprise-voice-solution-in-skype-for-business-server"></a>Планирование решения Корпоративная голосовая связь в Skype для бизнеса Server
  
 **Сводка:** Узнайте о вариантах планирования единого решения для голосовой связи и связи в Skype для бизнеса Server.
   
-Skype для бизнеса Server предлагает два локального Корпоративная голосовая связь— Корпоративная голосовая связь и Call Via Work — для интеграции телефонной системы организации с развертыванием Skype для бизнеса Server, что позволяет создать истинное единое решение для связи. Оба варианта позволяют пользователям использовать Skype для бизнеса клиента для инициировать голосовые вызовы с другими пользователями, как внутри, так и за ее пределами.
+Skype для бизнеса Server предлагает два локального Корпоративная голосовая связь— Корпоративная голосовая связь и Call Via Work — для интеграции телефонной системы организации с Skype для бизнеса Server  развертывание, создание подлинного единого решения для связи. Оба варианта позволяют пользователям использовать Skype для бизнеса клиента для инициировать голосовые вызовы с другими пользователями, как внутри, так и за ее пределами.
   
 Вы также можете использовать как Корпоративная голосовая связь, так и call Via Work together.
   

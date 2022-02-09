@@ -1,8 +1,8 @@
 ---
 title: Расширитель настроек маршрута федерации
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 22aa11b8-80ba-4c6a-9396-d11166903066
 ROBOTS: NOINDEX, NOFOLLOW
 description: Чтобы задать назначение маршрута федерации для сайта, необходимо сначала включить федерацию на пограничном сервере или в пуле пограничных серверов. Если федерация не включена на пограничном сервере или в пуле, параметры назначения маршрута федерации не будут доступны для изменения.
-ms.openlocfilehash: 2cf088fbb95f6d4d7ed563313c332d5a9dd47dd4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 68ef5eed810aceacdcaf573c2f7ccba7ccd026d9
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833645"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62410282"
 ---
 # <a name="federation-route-settings-expander"></a>Расширитель параметров маршрута федерации
  
@@ -35,6 +35,6 @@ ms.locfileid: "60833645"
 - **Включить федерацию XMPP** Выберите этот параметр, чтобы включить маршрут федерации XMPP, а затем выберите пул Director или Edge в качестве маршрута федерации.
 - 
   > [!NOTE]
-  > Шлюзы и прокси XMPP доступны в Skype для бизнеса Server 2015 г., но больше не поддерживаются Skype для бизнеса Server 2019 г. Дополнительные сведения см. в дополнительных сведениях о переносе федерации [XMPP.](../../../../SfBServer2019/migration/migrating-xmpp-federation.md)
+  > Шлюзы и прокси XMPP доступны в Skype для бизнеса Server 2015 г., но больше не поддерживаются Skype для бизнеса Server 2019 г. Дополнительные сведения см. в дополнительных сведениях о переносе федерации [XMPP](../../../../SfBServer2019/migration/migrating-xmpp-federation.md) .
     
 

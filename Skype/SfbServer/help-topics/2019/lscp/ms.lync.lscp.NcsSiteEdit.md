@@ -1,8 +1,8 @@
 ---
 title: Настройка сетевого сайта Создание нового или редактирования существующих
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 091aea61-22c2-4363-acd0-ccbc193755dd
 ROBOTS: NOINDEX, NOFOLLOW
 description: Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
-ms.openlocfilehash: a5658fe1dd49aee3730759e3d42f8598157a5432
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 47570f9cfd70753674aa713faccb2edd7b453590
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60837238"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397218"
 ---
 # <a name="configure-a-network-site-create-new-or-edit-existing"></a>Настройка сетевого сайта: создание нового или редактирование существующего
 

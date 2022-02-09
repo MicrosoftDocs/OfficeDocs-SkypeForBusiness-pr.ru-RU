@@ -1,8 +1,8 @@
 ---
 title: Skype для бизнеса Server 2015 г. Средство стресса и производительности
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 ms.date: 4/6/2016
 manager: serdars
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: f2f7d19b-18c8-4a41-9b17-80d35b73d742
 description: Средство Skype для бизнеса Server и производительности 2015 года используется при планировании емкости и настройке производительности в непроизводимых или тестовых средах.
-ms.openlocfilehash: 140ca0d169c9863fe3104837dae294ee49bc0f48
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: b8858d4aa9ca0b31bd53489c505181e34af9cf4f
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60839861"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396311"
 ---
 # <a name="skype-for-business-server-2015-stress-and-performance-tool"></a>Skype для бизнеса Server 2015 г. Средство стресса и производительности
  
@@ -33,7 +33,7 @@ ms.locfileid: "60839861"
     
 - Измерение производительности Skype для бизнеса Server развертывания
     
-Обычно этот инструмент используется после использования средства [планирования Skype для бизнеса Server 2015](../../management-tools/planning-tool/planning-tool.md) г. для разработки топологии и уточнения топологии с помощью калькулятора планирования емкости [2015 Skype для бизнеса Server 2015](../../management-tools/capacity-planning-calculator.md)г. 
+Обычно этот инструмент используется после использования средства [планирования Skype для бизнеса Server 2015](../../management-tools/planning-tool/planning-tool.md) г. для разработки топологии и уточнения топологии с помощью калькулятора планирования емкости Skype для бизнеса Server [2015](../../management-tools/capacity-planning-calculator.md) г. 
 
 > [!NOTE]
 > Этот инструмент не будет обновляться Skype для бизнеса Server 2019 г.
@@ -56,7 +56,7 @@ ms.locfileid: "60839861"
 
 Эти приложения являются частью средства Skype для бизнеса Server и производительности:
   
-|Средство|Description|
+|Средство|Описание|
 |:-----|:-----|
 |UserProvisioningTool.exe   |Этот инструмент используется для создания пользователей и контактов.   |
 |UserProfileGenerator.exe   |Используется для настройки характеристик загружаемой вами пользовательской нагрузки.   |

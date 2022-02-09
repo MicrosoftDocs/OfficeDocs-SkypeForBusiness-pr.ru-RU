@@ -2,8 +2,8 @@
 title: Использование Microsoft Teams во всей организации
 description: Узнайте о ресурсах, которые можно использовать в стандартном развертывании Teams, чтобы использовать все возможности Teams определенных типов организаций.
 ms.topic: conceptual
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 audience: admin
 f1.keywords:
@@ -15,12 +15,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9142434cc467da1e8ae5154dc8083b648d3247ad
-ms.sourcegitcommit: 45756a51857ed1d8714175d2b715c388e2f0db81
+ms.openlocfilehash: 32d9c9d528c01de4b8cf575973b70d2e716103f3
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "62027582"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62401653"
 ---
 # <a name="expand-microsoft-teams-across-your-organization"></a>Использование Microsoft Teams во всей организации
 

@@ -1,8 +1,8 @@
 ---
 title: Настройка интеграции между локальной Skype для бизнеса Server и Outlook Web App
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/7/2016
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 95a20117-2064-43c4-94fe-cac892cadb6f
 description: Сводка. Интеграция Skype для бизнеса Server и Outlook Web App.
-ms.openlocfilehash: cebb8fed6b87dac6ec2c981730d303994c952741
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0284fee227d9adf5560b5f65e56d71c1d46fac0c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60853683"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397295"
 ---
 # <a name="configure-integration-between-on-premises-skype-for-business-server-and-outlook-web-app"></a>Настройка интеграции между локальной Skype для бизнеса Server и Outlook Web App
 
@@ -37,7 +37,7 @@ ms.locfileid: "60853683"
 
 Чтобы интегрировать локальное Skype для бизнеса Server с Exchange Online, необходимо настроить общее адресное пространство SIP. Одно и то же пространство адресов домена SIP поддерживается как Skype для бизнеса Server, так и Exchange Online службой.
 
-Используя Skype для бизнеса Server, настройте edge Server для федерации, заняв команды **Set-CSAccessEdgeConfiguration,** используя параметры, отображаемые в следующем примере:
+С помощью Skype для бизнеса Server управленческой оболочки настройте edge Server для федерации с помощью команды **Set-CSAccessEdgeConfiguration**, используя параметры, отображаемые в следующем примере:
 
 ```powershell
 Set-CsAccessEdgeConfiguration -AllowFederatedUsers $True
@@ -45,11 +45,11 @@ Set-CsAccessEdgeConfiguration -AllowFederatedUsers $True
 
 - Параметр **AllowFederatedUsers** указывает, разрешено ли внутренним пользователям связываться с пользователями из федеративных доменов. Это свойство также определяет, могут ли внутренние пользователи общаться с пользователями в совместном сценарии адресного пространства SIP с Skype для бизнеса Server и Exchange Online.
 
-Сведения об использовании оболочки управления Skype для бизнеса Server см. в [Skype для бизнеса Server Management Shell.](../../manage/management-shell.md)
+Подробные сведения об использовании Skype для бизнеса Server управления см. в [Skype для бизнеса Server Management Shell](../../manage/management-shell.md).
 
 ## <a name="configure-a-hosting-provider-on-the-edge-server"></a>Настройка поставщика услуг размещения на пограничном сервере
 
-С помощью Skype для бизнеса Server службы управления настройте поставщика хостинга на edge Server с помощью команды **New-CsHostingProvider,** используя параметры в следующем примере:
+С помощью Skype для бизнеса Server management Shell настройте поставщика хостинга на edge Server, заняв команды **New-CsHostingProvider**, используя параметры в следующем примере:
 
 ```powershell
 New-CsHostingProvider -Identity "Exchange Online" -Enabled $True -EnabledSharedAddressSpace $True -HostsOCSUsers $False -ProxyFqdn "exap.um.outlook.com" -IsLocal $False -VerificationLevel UseSourceVerification
@@ -94,4 +94,4 @@ Get-CsHostingProvider -LocalStore
 
 [Предоставление Skype для бизнеса Server голосовой почты пользователей на Exchange um](/previous-versions/office/lync-server-2013/lync-server-2013-providing-lync-server-users-voice-mail-on-hosted-exchange-um)
 
-[размещенный Exchange Интеграция единой системы обмена сообщениями в Skype для бизнеса Server](/previous-versions/office/lync-server-2013/lync-server-2013-hosted-exchange-unified-messaging-integration)
+[размещенный Exchange интеграции единой системы обмена сообщениями в Skype для бизнеса Server](/previous-versions/office/lync-server-2013/lync-server-2013-hosted-exchange-unified-messaging-integration)

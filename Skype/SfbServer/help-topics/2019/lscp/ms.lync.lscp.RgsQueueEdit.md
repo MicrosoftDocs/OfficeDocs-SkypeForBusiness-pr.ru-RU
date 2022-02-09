@@ -1,8 +1,8 @@
 ---
 title: Очередь групп отклика Создать новые или изменить существующие
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: cbdde536-8668-4a08-9862-8615e8691fd7
 ROBOTS: NOINDEX, NOFOLLOW
 description: Очереди группы ответов удерживают вызовы в группе ответа до тех пор, пока агент не ответит на вызов.
-ms.openlocfilehash: 1595439c8d85bf5525ef5cecdc250856d9d2596f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0a333badcf5dbc034f08b70407a2f9ed9ffaf00e
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60832703"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62399303"
 ---
 # <a name="response-groups-queue-create-new-or-edit-existing"></a>Очередь группы ответа: создание новой или редактирование существующей
 
@@ -46,11 +46,11 @@ ms.locfileid: "60832703"
 
   - **Disconnect**
 
-  - **Пересылать голосовую почту** При выборе этого параметра в SIP-адресе введите адрес голосовой почты в формате **SIP:** \<username> @ \<domainname> (например, sip:bob \@ contoso.com).
+  - **Пересылать голосовую почту** При выборе этого параметра в SIP-адресе введите адрес голосовой почты в формате **SIP**:\<username>@\<domainname> (например, sip:bob\@ contoso.com).
 
-  - **Переад. на телефонный номер** При выборе этого параметра в **SIP-адресе** введите номер телефона в формате \<number> @ \<domainname> SIP: (например, sip:+14255550121 \@ contoso.com).
+  - **Переад. на телефонный номер** Если выбрать этот параметр, в **SIP-адрес** введите номер телефона в формате SIP:\<number>@\<domainname> (например, sip:+14255550121\@ contoso.com).
 
-  - **Forward to SIP address** Выберите этот параметр, чтобы переадлить вызов другому пользователю. В **SIP-адресе** введите URI для пользователя в формате SIP: \<username> @ \<domainname> .
+  - **Forward to SIP address** Выберите этот параметр, чтобы переадлить вызов другому пользователю. В **SIP-адресе** введите URI для пользователя в формате sip:\<username>@\<domainname>.
 
   - **Переадстройка в другую очередь** Если вы выберете этот параметр, просмотрите очередь, которая будет принимать вызовы при выходе вызовов.
 
@@ -64,12 +64,12 @@ ms.locfileid: "60832703"
 
   - **Disconnect**
 
-  - **Пересылать голосовую почту** При выборе этого параметра в **SIP-адресе** введите адрес голосовой почты в формате SIP: \<username> @ \<domainname> (например, sip:bob@contoso.com).
+  - **Пересылать голосовую почту** При выборе этого параметра в **SIP-адресе** введите адрес голосовой почты в формате SIP:\<username>@\<domainname> (например, sip:bob@contoso.com).
 
-  - **Переад. на телефонный номер** При выборе этого параметра в **SIP-адресе** введите номер телефона в формате SIP: \<number> @ \<domainname> (например, sip:+14255550121@contoso.com).
+  - **Переад. на телефонный номер** Если вы выберете этот параметр, в **SIP-адрес** введите номер телефона в формате SIP:\<number>@\<domainname> (например, sip:+14255550121@contoso.com).
 
-  - **Forward to SIP address** Выберите этот параметр, чтобы переадлить вызов другому пользователю. В **SIP-адресе** введите URI для пользователя в формате SIP: \<username> @ \<domainname> .
+  - **Forward to SIP address** Выберите этот параметр, чтобы переадлить вызов другому пользователю. В **SIP-адресе** введите URI для пользователя в формате sip:\<username>@\<domainname>.
 
   - **Переадстройка в другую очередь** Если выбран этот параметр, просмотрите очередь, которая будет принимать вызовы при превышении порога переполнения очереди.
 
-Сведения о возможностях и возможностях группы реагирования см. в приложении [Plan for the Response Group Skype для бизнеса Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) документации по планированию. Дополнительные сведения о работе с очередями см. в разделе [Managing Response Group Queues](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-queues) документации по использованию.
+Сведения о возможностях и возможностях группы реагирования см. в материале [Plan for the Response Group application in Skype для бизнеса Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) документации по планированию. Дополнительные сведения о работе с очередями см. в разделе [Managing Response Group Queues](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-queues) документации по использованию.

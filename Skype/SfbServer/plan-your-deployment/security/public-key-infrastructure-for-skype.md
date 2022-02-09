@@ -1,8 +1,8 @@
 ---
 title: Инфраструктура общедоступных ключей для Skype для бизнеса Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 737c8a25-23e9-4494-ab76-5a7b729b44ca
 description: Skype для бизнеса Server для проверки подлинности серверов и создания цепочки доверия между клиентами и серверами, а также между различными ролями сервера. Инфраструктура Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 и Windows Server 2008 public key Infrastructure (PKI) предоставляет инфраструктуру для создания и проверки этой цепочки доверия.
-ms.openlocfilehash: 61381840d6c82ce26f0b8e7e5210ebd37c3532c0
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 49217bcf053db5a90445915cd46a37f839855e00
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840961"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62400183"
 ---
 # <a name="public-key-infrastructure-for-skype-for-business-server"></a>Инфраструктура общедоступных ключей для Skype для бизнеса Server
  

@@ -1,8 +1,8 @@
 ---
 title: Политика клиентской версии Создать новые или изменить существующие
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: e32c6712-6dc9-4de9-8d74-9fdccf3de1ba
 ROBOTS: NOINDEX, NOFOLLOW
 description: Вы может указать версию клиентов, поддерживаемых в вашей среде. При взаимодействии двух клиентов с разными версиями возможности, доступные обоим клиентам, могут быть ограничены возможностями другого клиента.
-ms.openlocfilehash: a3549bc94cc886526610c40ee4cddb75310ebe74
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 825969cc9ed6010a1e9858879d1db17b7b77f508
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840531"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62398252"
 ---
 # <a name="client-version-policy-create-new-or-edit-existing"></a>Политика версий клиентов: создание новой или редактирование существующей
 
@@ -47,7 +47,7 @@ ms.locfileid: "60840531"
 
 - **Описание** Вы можете добавить описание, чтобы помочь в определении политики в списке на странице Политика клиентской версии.
 
-- **Новые** Вы можете добавить в политику новое правило клиентской версии.
+- **Новые функции** Вы можете добавить в политику новое правило клиентской версии.
 
 - **Демонстрация сведений** Этот параметр открывает диалоговое окно, в котором можно изменить параметры правила клиентской версии.
 
@@ -55,4 +55,4 @@ ms.locfileid: "60840531"
 
 - **Стрелки вверх и вниз** Этот параметр перемещает правило выбранной клиентской версии вверх или вниз по приоритету. Правила обрабатываются в порядке, перечисленом.
 
-Сведения о взаимосвязи между клиентами и клиентской версией см. в материале [Client Interoperability.](/previous-versions/office/lync-server-2013/lync-server-2013-client-interoperability-in-lync-2013) Дополнительные сведения о работе с политиками версий клиентов см. в разделе [Specify the Client Versions Supported in Your Organization](/previous-versions/office/lync-server-2013/lync-server-2013-specifying-the-client-applications-that-can-be-used-to-log-on-to-lync-server-2013) в документации по применению.
+Сведения о взаимосвязи между клиентами и клиентской версией см. в материале [Client Interoperability](/previous-versions/office/lync-server-2013/lync-server-2013-client-interoperability-in-lync-2013). Дополнительные сведения о работе с политиками версий клиентов см. в разделе [Specify the Client Versions Supported in Your Organization](/previous-versions/office/lync-server-2013/lync-server-2013-specifying-the-client-applications-that-can-be-used-to-log-on-to-lync-server-2013) в документации по применению.

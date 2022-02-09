@@ -1,8 +1,8 @@
 ---
 title: Расширитель пограничных параметров
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: c73780cd-0033-4287-9ecd-ecf65ca61e62
 description: 'Чтобы изменить параметры для одного или нескольких существующих пулов пограничных серверов, можно воспользоваться следующими разделами параметров:'
-ms.openlocfilehash: e0ad220836bb1a72ebf762e866ab6d3e4a7cd2fb
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: ab0a94634ba1bd69d4e67a4b47866103ca7b18be
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60852173"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397833"
 ---
 # <a name="edge-settings-expander"></a>Расширитель параметров пограничного сервера
 

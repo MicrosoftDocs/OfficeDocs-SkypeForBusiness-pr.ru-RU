@@ -1,8 +1,8 @@
 ---
 title: Диагностический отчет в Skype для бизнеса Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b389dbd9-f2e8-4184-93d0-2e504796ac16
 description: Сводка. Сведения о диагностическом отчете в Skype для бизнеса Server.
-ms.openlocfilehash: 6b04dfd74e13568e6d22448ad9160a874dd6f79b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 9ab417619828f4c48695ce19d68a5d1bc0f91171
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855536"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397783"
 ---
 # <a name="diagnostic-report-in-skype-for-business-server"></a>Диагностический отчет в Skype для бизнеса Server
  
@@ -33,7 +33,7 @@ ms.locfileid: "60855536"
     
 ## <a name="accessing-the-diagnostic-report"></a>Доступ к диагностическому отчету
 
-Диагностический отчет можно получить, щелкнув метрику Диагностический [](peer-to-peer-session-detail-report.md) отчет (Подробно) в отчете о подробностях одноранговых сеансов в Skype для бизнеса Server или в отчете о подробностях конференции.
+Диагностический отчет можно получить, щелкнув метрику Диагностический отчет (Подробно) в отчете о подробностях одноранговых сеансов в Skype для бизнеса Server или в отчете о подробностях конференции.[](peer-to-peer-session-detail-report.md)
   
 ## <a name="filters"></a>Фильтры
 
@@ -45,7 +45,7 @@ ms.locfileid: "60855536"
   
 **Показатели отчета Diagnostic Report (Диагностический отчет)**
 
-|**Название**|**Возможность сортировки по этому показателю**|**Описание**|
+|**Имя**|**Возможность сортировки по этому показателю**|**Описание**|
 |:-----|:-----|:-----|
 |**Reported time** (Время создания отчета) <br/> |Нет  <br/> |Дата и время создания отчета.  <br/> |
 |**Response code** (Код ответа) <br/> |Нет  <br/> |Код ответа SIP, отправленный при сбое сеанса.  <br/> |
@@ -60,4 +60,4 @@ ms.locfileid: "60855536"
 |**Время присоединения к конференции (мс)** <br/> |Нет  <br/> |Период времени (в миллисекундах), требуемый для присоединения пользователя к конференции.  <br/> |
 |**Diagnostic header** (Заголовок диагностики) <br/> |Нет  <br/> |Описание ИД диагностики.  <br/> |
    
-Список диагностических ошибок можно найти на странице [Ms-Diagnostics Header.](/openspecs/office_protocols/ms-ocer/f6787b39-0842-43ca-94a2-6afadda5f0a3)
+Список диагностических ошибок можно найти на странице [Ms-Diagnostics Header](/openspecs/office_protocols/ms-ocer/f6787b39-0842-43ca-94a2-6afadda5f0a3).

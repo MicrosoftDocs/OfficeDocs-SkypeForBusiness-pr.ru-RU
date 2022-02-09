@@ -1,8 +1,8 @@
 ---
 title: Добавление пула A/V MCU
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: e201875e-1e81-4756-942f-c17d177e997b
 ROBOTS: NOINDEX, NOFOLLOW
 description: Все серверы переднего плана Enterprise Edition центрального сайта, для которых не предусмотрена совместная служба аудио- и видеоконференций, могут использовать один и тот же отдельный пул аудио- и видеоконференций. Для каждого пула аудио- и видеоконференций необходимо указать его полное доменное имя и количество используемых серверов аудио- и видеоконференций (один сервер или несколько серверов с балансировкой нагрузки).
-ms.openlocfilehash: feb97e668ff2baf115b41295a5a798b856683ec2
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 89c253d5f05255060650e1e7efe1acea9c58e784
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60839421"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62401033"
 ---
 # <a name="add-av-mcu-pool"></a>Добавление пула A/V MCU
  

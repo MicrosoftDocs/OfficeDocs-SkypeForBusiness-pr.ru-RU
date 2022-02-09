@@ -1,7 +1,7 @@
 ---
 title: Поделиться с Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -14,27 +14,27 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9367a865c1eb3a8b71c60f492a8b222431c98d73
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: cb13db7a7ebb5728913b58fb712ad86d851d469a
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60832943"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62409832"
 ---
 # <a name="share-to-teams-from-outlook"></a>Поделиться с Teams из Outlook
 
-Отправка Teams из Outlook (Поделиться в Teams) позволяет пользователям обмениваться электронной почтой, включая вложения, от Outlook до любого чата или канала в Teams.
+Отправка Teams из Outlook (Поделиться в Teams) позволяет пользователям делиться электронной почтой, включая вложения, от Outlook до любого чата или канала в Teams.
 
 ## <a name="outlook-add-in-for-share-to-teams"></a>Outlook надстройки для share to Teams 
 
-Для Teams "Поделиться" требуется надстройка для Outlook. Эта надстройка устанавливается автоматически при входе пользователя в веб-приложение Teams или Teams настольного клиента.
+Для Teams "Поделиться" требуется надстройка для Outlook. Эта надстройка устанавливается автоматически при входе пользователя в веб-приложение Teams или Teams клиенте.
 
 > [!NOTE]
-> Обязательно просмотрите надстройки для Outlook в [Exchange Online](/exchange/clients-and-mobile-in-exchange-online/add-ins-for-outlook/add-ins-for-outlook) и Правила клиентского доступа в [Exchange Online,](/exchange/clients-and-mobile-in-exchange-online/client-access-rules/client-access-rules) чтобы убедиться, что надстройки для Outlook работают правильно. Кроме того, отключение подключенных опытом может помешать правильной работе надстройок Outlook для других пользователей. Дополнительные [сведения см.](https://support.microsoft.com/topic/connected-experiences-in-office-8d2c04f7-6428-4e6e-ac58-5828d4da5b7c) в Office Подключенные Office.  
+> Обязательно просмотрите надстройки для Outlook в [Exchange Online](/exchange/clients-and-mobile-in-exchange-online/add-ins-for-outlook/add-ins-for-outlook) и Правила клиентского доступа в [Exchange Online](/exchange/clients-and-mobile-in-exchange-online/client-access-rules/client-access-rules), чтобы убедиться, что надстройки для Outlook работают правильно. Кроме того, отключение подключенных опытом может помешать правильной работе надстройок Outlook для других пользователей. [Дополнительные сведения см](https://support.microsoft.com/topic/connected-experiences-in-office-8d2c04f7-6428-4e6e-ac58-5828d4da5b7c). в Office Подключенные Office.  
 
-Для отправки Teams используется тот же механизм транспорта, что и при отправке сообщений в канал. Для общего доступа к чатам сообщения электронной почты (включая вложения) копируется в OneDrive. Для общего доступа к каналам сообщения электронной  почты и вложения копируется в папку Сообщения электронной почты в SharePoint.
+Для отправки Teams используется тот же механизм транспорта, что и при отправке сообщений в канал. Для общего доступа к чатам сообщения электронной почты (включая вложения) копируется в OneDrive. Для общего доступа к каналам сообщения электронной почты и вложения копируется  в папку Сообщения электронной почты в SharePoint.
 
-Надстройка Outlook для share to Teams использует набор требований 1.7, как описано в документации к надстройки [Outlook,](/exchange/clients-and-mobile-in-exchange-online/add-ins-for-outlook/add-ins-for-outlook)в которой содержатся сведения о надстройки Outlook, требованиях к среде для надстройок Outlook и конкретных клиентах Outlook, которые поддерживаются с набором требований 1.7.
+Надстройка Outlook для share to Teams использует набор требований 1.7, как описано в документации надстройок [Outlook](/exchange/clients-and-mobile-in-exchange-online/add-ins-for-outlook/add-ins-for-outlook), в которой подробно описаны надстройки Outlook, требования к среде для надстройок Outlook и конкретные клиенты Outlook, которые поддерживаются с набором требований 1.7.
 
 ## <a name="enabling-or-disabling-share-to-teams"></a>Включение и отключение share to Teams
 
@@ -45,13 +45,13 @@ ms.locfileid: "60832943"
 
 Чтобы отключить надстройку для Outlook share to Teams, запустите [найденный здесь cmdlet](/powershell/module/exchange/disable-app?view=exchange-ps). 
 
-Чтобы включить надстройку для Outlook share to Teams, запустите найденную [здесь надстройку](/powershell/module/exchange/enable-app?view=exchange-ps).
+Чтобы включить надстройку для Outlook share to Teams, запустите [найденный здесь cmdlet](/powershell/module/exchange/enable-app?view=exchange-ps).
 
 ## <a name="browsers-and-single-sign-on"></a>Браузеры и единый вход
 
-Совместное Teams, как в Outlook в Интернете, так и в Outlook классических клиентах, использует браузер WebView. Дополнительные сведения о том, какие клиенты [используют конкретные браузеры,](/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins) см. в Office, используемых Office надстройки. 
+Совместное Teams, Outlook в Интернете и Outlook классических клиентах использует браузер WebView. [Дополнительные сведения о том, какие клиенты используют конкретные браузеры,](/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins) см. в Office, используемых Office надстройки. 
 
 > [!IMPORTANT]
 > Для Teams пользователей должны быть включены как сторонние файлы cookie, так и доступ к локальному хранилищу.
 
-Предоставление Teams с помощью единого входа (SSO), то есть пользователям не нужно предоставлять свои учетные данные при использовании надстройки через share to Teams. SSO для Outlook в Интернете по умолчанию поддерживает https://outlook.office365.com/owa/extSSO.aspx https://outlook.office.com/owa/extSSO.aspx URL-адреса и ответы на них. Для именных доменов администраторам необходимо добавить соответствующий url-Azure Active Directory ответа.
+Предоставление Teams с помощью единого входа (SSO), то есть пользователям не нужно предоставлять свои учетные данные при использовании надстройки через share to Teams. SSO для Outlook в Интернете по https://outlook.office365.com/owa/extSSO.aspx https://outlook.office.com/owa/extSSO.aspx умолчанию поддерживает URL-адреса и ответы на них. Для именных доменов администраторам необходимо добавить соответствующий url-Azure Active Directory ответа.

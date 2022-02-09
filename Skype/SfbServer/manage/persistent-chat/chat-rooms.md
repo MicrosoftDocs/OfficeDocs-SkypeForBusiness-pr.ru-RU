@@ -1,8 +1,8 @@
 ---
 title: Управление комнатами чатов в persistent Chat Server в Skype для бизнеса Server 2015 г.
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 1/31/2018
 audience: ITPro
@@ -13,21 +13,21 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 7b2e1302-280c-4efe-9ec8-787687b414da
 description: Сводка. Узнайте, как управлять комнатами чата сохраняемой чат-сервера в Skype для бизнеса Server 2015 г.
-ms.openlocfilehash: 63566d897901be32b7d0f33ea099bac202e61515
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 02b933d1fcd73f87ac3d04e0618bae2e03306bfb
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60830853"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62398913"
 ---
 # <a name="manage-chat-rooms-in-persistent-chat-server-in-skype-for-business-server-2015"></a>Управление комнатами чатов в persistent Chat Server в Skype для бизнеса Server 2015 г.
  
 **Сводка:** Узнайте, как управлять комнатами чатов с постоянными чатами в Skype для бизнеса Server 2015 г.
   
-Создание и управление комнатами чатов намного проще при правильном использовании категорий. Категория определяет, кто может создавать или присоединяться к чатам. Прежде чем пытаться управлять комнатами чатов, обязательно ознакомьтесь с категориями постоянных чатов, чатами и ролями пользователей в [Skype для бизнеса Server 2015](../../plan-your-deployment/persistent-chat-server/categories-chat-rooms-and-user-roles.md) г. и категориями Manage в Persistent Chat Server в [Skype для бизнеса Server 2015](categories.md)г. .
+Создание и управление комнатами чатов намного проще при правильном использовании категорий. Категория определяет, кто может создавать или присоединяться к чатам. Прежде чем пытаться управлять комнатами чатов, обязательно ознакомьтесь с категориями "Стойкий чат", комнатами чатов и ролями пользователей в [Skype для бизнеса Server 2015](../../plan-your-deployment/persistent-chat-server/categories-chat-rooms-and-user-roles.md) г. и "Управление категориями" в [Persistent Chat Server в Skype для бизнеса Server 2015](categories.md) г.
   
 > [!NOTE]
-> Постоянный чат доступен в Skype для бизнеса Server 2015 г., но больше не поддерживается Skype для бизнеса Server 2019 г. Такая же функциональность доступна в Teams. Дополнительные сведения см. в ссылке Начало работы [с обновлением Microsoft Teams обновления.](/microsoftteams/upgrade-start-here) Если вам нужно использовать постоянный чат, вы можете либо перенести пользователей, требующих Teams, либо продолжить использование Skype для бизнеса Server 2015 г. 
+> Постоянный чат доступен в Skype для бизнеса Server 2015 г., но больше не поддерживается Skype для бизнеса Server 2019 г. Такая же функциональность доступна в Teams. Дополнительные сведения см. в [ссылке Начало работы с Microsoft Teams обновления](/microsoftteams/upgrade-start-here). Если вам нужно использовать постоянный чат, вы можете либо перенести пользователей, требующих Teams, либо продолжить использование Skype для бизнеса Server 2015 г. 
 
 Вы можете настроить и управлять комнатами чата с Windows PowerShell интерфейсом командной строки или с помощью Skype для бизнеса клиента, если вы член комнаты чата. В этом разделе описывается управление комнатами чатов с помощью интерфейса Windows PowerShell командной строки. Если вы хотите управлять комнатами чатов с помощью Skype для бизнеса клиента, см. в справке клиента. 
   
@@ -79,11 +79,11 @@ ms.locfileid: "60830853"
     
 - Презентаторы. Позволяет назначать презентаторов в комнату чата Auditorium. 
     
-  Подробные сведения о синтаксис, включая все параметры, см. в Skype для бизнеса Server [2015 года.](../management-shell.md)
+  Подробные сведения о синтаксисе, включая все параметры, [см. в Skype для бизнеса Server 2015 года](../management-shell.md).
   
 ## <a name="create-a-new-room"></a>Создание новой комнаты
 
-Создать новую комнату можно с помощью **комлета New-CsPersistentChatRoom.** Например, следующая команда создает новую комнату чата с именем ITChatRoom в пуле atl-cs-001.contoso.com. В этом примере комната чата добавляется к категории ИТ:
+Создать новую комнату можно с помощью **комлета New-CsPersistentChatRoom** . Например, следующая команда создает новую комнату чата с именем ITChatRoom в пуле atl-cs-001.contoso.com. В этом примере комната чата добавляется к категории ИТ:
   
 ```PowerShell
 New-CsPersistentChatRoom -Name "ITChatRoom" -PersistentChatPoolFqdn "atl-cs-001.contoso.com"-Category "IT"
@@ -99,7 +99,7 @@ New-CsPersistentChatRoom -Name "ITChatRoom" -PersistentChatPoolFqdn "atl-cs-001.
     
 ## <a name="configure-an-existing-room"></a>Настройка существующей комнаты
 
-Можно настроить существующую комнату с помощью **комлета Set-CsPersistentChatRoom.** Например, следующая команда назначает user1 в качестве члена и презентатора, а user2 в качестве диспетчера в аудитории testCat:
+Можно настроить существующую комнату с помощью **комлета Set-CsPersistentChatRoom** . Например, следующая команда назначает user1 в качестве члена и презентатора, а user2 в качестве диспетчера в аудитории testCat:
   
 ```PowerShell
 Set-CsPersistentChatRoom -Identity testCat -Members @{Add="sip:user1@contoso.com", "CN=container,DC=contoso,DC=com"}
@@ -123,7 +123,7 @@ Set-CsPersistentChatRoom -PersistentChatPoolFqdn "atl-cs-001.contoso.com\NorthAm
 
 Если тема сохраняемого чата больше не актуальна, вы можете сделать комнату чата недоступной для пользователей, отключив ее. Когда чат отключен, все подключенные на данный момент участники отключаются от него. Пользователи не могут снова подключиться к чату или найти его через поиск после его отключения.
   
-Если история чата сохраняется, содержимое сохраняется при отключении комнаты чата. Тем не менее, содержимое не будет отображаться в поиске, пока чат остается в отключенном состоянии. Если включить чат позднее, пользователи смогут находить сообщения, опубликованные до того, как чат был отключен. Сведения о настройке истории комнат чата см. в рубрике Управление категориями в [persistent Chat Server Skype для бизнеса Server 2015 г.](categories.md) 
+Если история чата сохраняется, содержимое сохраняется при отключении комнаты чата. Тем не менее, содержимое не будет отображаться в поиске, пока чат остается в отключенном состоянии. Если включить чат позднее, пользователи смогут находить сообщения, опубликованные до того, как чат был отключен. Сведения о настройке истории комнат чата см. в рубрике Управление категориями [в Persistent Chat Server в Skype для бизнеса Server 2015 г](categories.md). 
   
 Если чат отключен, список его участников и другие параметры сохраняются. Как администратор вы можете включить отключенную комнату, и вам не нужно вручную повторно создавать параметры.
   
@@ -141,7 +141,7 @@ Set-CsPersistentChatRoom -Identity "atl-cs-001.contoso.com\ITChatRoom" -Disabled
 
 ## <a name="get-information-about-rooms"></a>Сведения о комнатах
 
-Чтобы получить сведения о комнатах, настроенных для использования в организации, можно использовать cmdlet **Get-CsPersistentChatRoom.**
+Чтобы получить сведения о комнатах, настроенных для использования в организации, можно использовать cmdlet **Get-CsPersistentChatRoom** .
   
 Следующая команда возвращает сведения обо всех комнатах чата, настроенных для использования в организации:
   
@@ -151,7 +151,7 @@ Get-CsPersistentChatRoom
 
 ## <a name="remove-all-content-from-a-room"></a>Удаление всего контента из комнаты
 
-Вы можете удалить содержимое из комнаты с помощью **cmdlet Clear-CsPersistentChatRoom.** Например, следующая команда удаляет все содержимое из комнаты постоянных чатов ITChatRoom, которая была добавлена в комнату до 1 марта 2015 г.:
+Вы можете удалить содержимое из комнаты с помощью **cmdlet Clear-CsPersistentChatRoom** . Например, следующая команда удаляет все содержимое из комнаты постоянных чатов ITChatRoom, которая была добавлена в комнату до 1 марта 2015 г.:
   
 ```PowerShell
 Clear-CsPersistentChatRoom -Identity "atl-cs-001.contoso.com\ITChatRoom" -EndDate "3/1/2015"
@@ -159,7 +159,7 @@ Clear-CsPersistentChatRoom -Identity "atl-cs-001.contoso.com\ITChatRoom" -EndDat
 
 ## <a name="remove-a-message-from-a-room"></a>Удаление сообщения из комнаты
 
-Вы можете удалить одно или несколько сообщений в базе данных сохраняемого чата и необязательно заменить сообщение сообщением по умолчанию или сообщением, предоставленным администратором, с помощью cmdlet **Remove-CsPersistentChatMessage.** Например, следующая команда удаляет все сообщения из комнаты чата ITChatRoom, которые были размещены пользователем kenmyer@contoso.com:
+Вы можете удалить одно или несколько сообщений в базе данных сохраняемого чата и необязательно заменить сообщение сообщением по умолчанию или сообщением, предоставленным администратором, с помощью cmdlet **Remove-CsPersistentChatMessage** . Например, следующая команда удаляет все сообщения из комнаты чата ITChatRoom, которые были размещены пользователем kenmyer@contoso.com:
   
 ```PowerShell
 Remove-CsPersistentChatMessage -Identity "atl-persistentchat-001.contoso.com\ITChatRoom" -UserUri "sip:kenmyer@contoso.com"
@@ -173,7 +173,7 @@ Remove-CsPersistentChatMessage -Identity "atl-persistentchat-001.contoso.com\ITC
 
 ## <a name="remove-a-room"></a>Удаление комнаты
 
-Удалить комнату можно с помощью **комлета Remove-CsPersistentChatRoom.**
+Удалить комнату можно с помощью **комлета Remove-CsPersistentChatRoom** .
   
 Например, следующая команда удаляет комнату чата RedmondChatRoom:
   

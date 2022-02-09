@@ -1,8 +1,8 @@
 ---
 title: Управление политиками архива в Skype для бизнеса Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/28/2016
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 75ce32ba-eb82-4339-9c02-5df5f2c2ebd2
 description: Сводка. Узнайте, как управлять политиками пользователей для архива для Skype для бизнеса Server.
-ms.openlocfilehash: aefb05c4ee1be0af0af4d2ab4ab4d53efbd71912
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: c4d5278ece9c812254c67d2d783b5a9f9175330c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856766"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397803"
 ---
 # <a name="manage-archiving-policies-in-skype-for-business-server"></a>Управление политиками архива в Skype для бизнеса Server
 
@@ -33,7 +33,7 @@ ms.locfileid: "60856766"
 Политики архива можно установить на глобальном уровне, на сайте или на уровне пользователя.
   
 > [!NOTE]
-> Если вы включили Exchange Microsoft для развертывания, Exchange политики контролируют, включена ли архивация для пользователей, которые размещены в Exchange и чтобы их почтовые ящики были In-Place Hold. Подробные сведения см. в материале [Plan for archiving in Skype для бизнеса Server](../../plan-your-deployment/archiving/archiving.md) и [Configure integration with Exchange для Skype для бизнеса Server.](../../deploy/deploy-archiving/configure-integration-with-exchange-storage.md) 
+> Если вы включили Exchange Microsoft для развертывания, Exchange политики контролируют, включена ли архивация для пользователей, которые размещены в Exchange и чтобы их почтовые ящики были In-Place Hold. Подробные сведения см. в материале [Plan for archiving in Skype для бизнеса Server](../../plan-your-deployment/archiving/archiving.md) [и Configure integration with Exchange для Skype для бизнеса Server](../../deploy/deploy-archiving/configure-integration-with-exchange-storage.md). 
   
 ## <a name="manage-archiving-policies-by-using-the-control-panel"></a>Управление политиками архива с помощью панели управления
 
@@ -47,7 +47,7 @@ ms.locfileid: "60856766"
     
 ## <a name="manage-archiving-policies-by-using-windows-powershell"></a>Управление политиками архива с помощью Windows PowerShell
 
-Можно также настроить политики архива с помощью Windows PowerShell, перечисленных в следующей таблице. Подробные сведения о синтаксисе, включая все доступные параметры, [см. в Skype для бизнеса Server Management Shell.](../management-shell.md)
+Можно также настроить политики архива с помощью Windows PowerShell, перечисленных в следующей таблице. Подробные сведения о синтаксисе, включая все доступные параметры, [см. в Skype для бизнеса Server Management Shell](../management-shell.md).
   
 
 |**Командлет**|**Описание**|

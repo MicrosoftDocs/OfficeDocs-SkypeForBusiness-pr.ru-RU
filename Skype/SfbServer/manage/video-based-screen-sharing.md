@@ -1,8 +1,8 @@
 ---
 title: Видеодемонстрация экрана в Skype для бизнеса Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 ms.date: 2/20/2018
 manager: serdars
 audience: ITPro
@@ -13,16 +13,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 50755399-2228-4324-81db-c2bfc824c299
 description: Skype для бизнеса Server планирования и конфигурации для обмена экранами на основе видео (VbSS)
-ms.openlocfilehash: ff8dc9e21ab4b00741acca5dcc4ac972e5d13e68
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0eb381504e797879d9e4235d7ae9cce69f1a468c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60859976"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396431"
 ---
 # <a name="video-based-screen-sharing-for-skype-for-business-server"></a>Видеодемонстрация экрана в Skype для бизнеса Server 
  
-Видео-файл обмена экранами (VbSS) в Skype Для бизнеса Server 2015 теперь доступен для скачивания: [Skype для бизнеса Server 2015 Накопительное обновление KB3061064](https://www.microsoft.com/download/details.aspx?id=47690). VbSS включен в Skype для бизнеса Server 2019 г.
+Видео-файл обмена экранами (VbSS) в Skype Для бизнеса Server 2015 теперь доступен для скачивания: Skype для бизнеса Server [2015 Накопительное обновление KB3061064](https://www.microsoft.com/download/details.aspx?id=47690). VbSS включен в Skype для бизнеса Server 2019 г.
   
 Video-based Screen Sharing, or VbSS, grew out of Lync screen-sharing. Разница между VbSS и традиционным обменом экранами имеет значение для используемых протоколов и их отличий. При совместном использовании экрана используется протокол удаленного рабочего стола (RDP), который отлично подходит для создания тысяч сеансов от 1 до 1 между компьютерами людей. Более новая технология , VbSS, будет использовать протокол пользовательских datagram (UDP).
   
@@ -50,14 +50,14 @@ Skype для бизнеса Server людей с 1 по 1, а также их м
 
 **Необходимые порты серверов**
 
-|**Роль сервера**|**Имя службы**|**Диапазон портов или портов**|**Protocol** (Протокол)|**Примечания**|
+|**Роль сервера**|**Имя службы**|**Диапазон портов или портов**|**Protocol (Протокол)**|**Примечания**|
 |:-----|:-----|:-----|:-----|:-----|
-|Серверы переднего плана  <br/> |Skype для бизнеса Server Служба общего доступа к приложениям  <br/> |5065  <br/> |TCP  <br/> |Используется для входящих SIP-запросов на прослушивание для общего доступа к приложению.  <br/> |
-|Серверы переднего плана  <br/> |Skype для бизнеса Server Служба общего доступа к приложениям  <br/> |49152-65535  <br/> |TCP/UDP  <br/> |Диапазон портов, используемых для общего доступа к приложению.  <br/> |
+|Серверы переднего плана  <br/> |Skype для бизнеса Server службы совместного использования приложений  <br/> |5065  <br/> |TCP  <br/> |Используется для входящих SIP-запросов на прослушивание для общего доступа к приложению.  <br/> |
+|Серверы переднего плана  <br/> |Skype для бизнеса Server службы совместного использования приложений  <br/> |49152-65535  <br/> |TCP/UDP  <br/> |Диапазон портов, используемых для общего доступа к приложению.  <br/> |
    
 **Необходимые клиентские порты**
 
-|**Компонент**|**Диапазон порта**|**Protocol** (Протокол)|**Примечания**|
+|**Компонент**|**Диапазон порта**|**Protocol (Протокол)**|**Примечания**|
 |:-----|:-----|:-----|:-----|
 |Клиенты  <br/> |1024-65535  <br/> |TCP/UDP  <br/> |Совместное использование приложений.  <br/> |
    
@@ -68,7 +68,7 @@ Skype для бизнеса Server людей с 1 по 1, а также их м
   
 **Параметры приложения Server QoS/VbSS**
 
-|**Свойство**|**Значение порта**|**Protocol** (Протокол)|
+|**Свойство**|**Значение порта**|**Protocol (Протокол)**|
 |:-----|:-----|:-----|
 |AudioPortStart  <br/> |49152  <br/> |UDP  <br/> |
 |AudioPortCount  <br/> |8348  <br/> |UDP  <br/> |
@@ -117,7 +117,7 @@ Skype для бизнеса Server людей с 1 по 1, а также их м
    
 ## <a name="clients-and-servers-support"></a>Поддержка клиентов и серверов
 
-Для обмена экранами на основе видео требуется Skype для бизнеса Server 2015 cu3 или более [](../plan-your-deployment/clients-and-devices/mobile-feature-comparison.md) поздней версии, а также текущая версия поддерживающих клиентов, перечисленных в сопоставлении функций мобильных клиентов для Skype для бизнеса и поддержки собраний. [](../plan-your-deployment/clients-and-devices/desktop-feature-comparison.md#BKMK_Conferencing) 
+Для совместного использования экрана на основе видео требуется Skype для бизнеса Server 2015 cu3 или более поздней версии, а также текущая версия поддерживаемых клиентов, [](../plan-your-deployment/clients-and-devices/mobile-feature-comparison.md) перечисленных в сопоставлении функций мобильных клиентов для Skype для бизнеса и собраний[.](../plan-your-deployment/clients-and-devices/desktop-feature-comparison.md#BKMK_Conferencing) 
   
 Существуют ситуации, в которых обмен экранами переходит на RDP, например:
   
@@ -153,7 +153,7 @@ Skype для бизнеса Server людей с 1 по 1, а также их м
   Set-CsConferencingPolicy -ApplicationSharingMode RDP
   ```
 
-    Дополнительные сведения об этой команде см. [в сайте Set-CsConferencingPolicy.](/powershell/module/skype/set-csconferencingpolicy?view=skype-ps)
+    Дополнительные сведения об этой команде см. [в сайте Set-CsConferencingPolicy](/powershell/module/skype/set-csconferencingpolicy?view=skype-ps).
     
 - Если требуется полностью отключить VbSS, можно выполнить эту команду:
     
@@ -161,7 +161,7 @@ Skype для бизнеса Server людей с 1 по 1, а также их м
   Set-CsMediaConfiguration -EnableVideoBasedSharing $false
   ```
 
-    Дополнительные сведения об этой команде см. [в ссылке Set-CsMediaConfiguration.](/powershell/module/skype/set-csmediaconfiguration?view=skype-ps)
+    Дополнительные сведения об этой команде см. [в ссылке Set-CsMediaConfiguration](/powershell/module/skype/set-csmediaconfiguration?view=skype-ps).
     
 > [!NOTE]
 > В многопартийном Skype для бизнеса все конечные точки клиента будут соблюдать параметр политики для организатора собрания. 
@@ -180,7 +180,7 @@ Skype для бизнеса Server людей с 1 по 1, а также их м
   Set-CsConferencingPolicy -ApplicationSharingMode VideoWithFallback
   ```
 
-    Дополнительные сведения об этой команде см. [в сайте Set-CsConferencingPolicy.](/powershell/module/skype/set-csconferencingpolicy?view=skype-ps)
+    Дополнительные сведения об этой команде см. [в сайте Set-CsConferencingPolicy](/powershell/module/skype/set-csconferencingpolicy?view=skype-ps).
     
 - Если необходимо включить VbSS после выключения (он по умолчанию), можно выполнить эту команду:
     
@@ -188,7 +188,7 @@ Skype для бизнеса Server людей с 1 по 1, а также их м
   Set-CsMediaConfiguration -EnableVideoBasedSharing $true
   ```
 
-    Дополнительные сведения об этой команде см. [в ссылке Set-CsMediaConfiguration.](/powershell/module/skype/set-csmediaconfiguration?view=skype-ps)
+    Дополнительные сведения об этой команде см. [в ссылке Set-CsMediaConfiguration](/powershell/module/skype/set-csmediaconfiguration?view=skype-ps).
     
 > [!NOTE]
 > На многопартийном собрании Skype для бизнеса клиентские конечные точки будут соблюдать параметр политики организатора собрания. 

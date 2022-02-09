@@ -1,8 +1,8 @@
 ---
 title: Выбор расширений типов файлов
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 3638cdc8-71dd-4a22-8613-83859af97387
 description: Используйте диалоговое окно Выбор расширений типов файлов для выбора расширений типов файлов, которые требуется заблокировать или разрешить, посредством установки флажков (для блокировки) или снятия флажков (для разрешения) рядом с расширениями в разделе Расширения типов файлов. Щелкните стрелку, чтобы развернуть категорию и просмотреть все расширения типов файлов для этой категории. Если требуется выбрать все расширения типов файлов для категории, выделите имя категории.
-ms.openlocfilehash: f3346ad1c783be4a57378ff40242fe3547c59efd
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 1a8dd6931d4251f5725342d05c1f5bc86033e95c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858356"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396746"
 ---
 # <a name="select-file-type-extensions"></a>Выбор расширений типов файлов
  
@@ -30,6 +30,6 @@ ms.locfileid: "60858356"
   
 После добавления в список **Выбранные расширения типов файлов** всех необходимых расширений типов файлов нажмите кнопку **ОК**.
   
-Сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнеса Server, см. в Skype для бизнеса Server [2015](../../manage/manage.md)г.
+Сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнеса Server, см. в Skype для бизнеса Server [2015 г](../../manage/manage.md).
   
 

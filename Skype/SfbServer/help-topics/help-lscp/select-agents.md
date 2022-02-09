@@ -1,8 +1,8 @@
 ---
 title: Выбор агентов
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: b5cf912b-8273-4c2c-a1e5-f25530b264d0
 description: Агенты — это пользователи, назначенные для ответа на вызовы группы ответов. Группе ответа должна быть назначена группа агентов, определяющая, какие агенты могут принимать звонки для данной группы ответа. Один из способов создания группы агентов заключается в определении настраиваемой группы посредством выбора подходящих пользователей. Соответствующие пользователи включены для Skype для бизнеса Server и Корпоративная голосовая связь.
-ms.openlocfilehash: bd80934a90d6b0241c312f60aab435f134d12187
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 894adb3d9724df8238b31c9e13b8bdb6a92fe9c8
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60836571"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62400413"
 ---
 # <a name="select-agents"></a>Выбор агентов
 
@@ -42,8 +42,8 @@ ms.locfileid: "60836571"
 
 - **SIP-адрес** Отображает пользовательские SIP-адреса, возвращенные поиском.
 
-- **Телефония** Отображает значение поля **телефонии,** определенного для пользователей.
+- **Телефония** Отображает значение поля **телефонии** , определенного для пользователей.
 
-- **Включено** Отображает значение поля **Enabled for Lync Server,** определенного для пользователей.
+- **Включено** Отображает значение поля **Enabled for Lync Server** , определенного для пользователей.
 
 Дополнительные сведения о работе с группами агентов см. в разделе [Managing Agent Groups](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-agent-groups) документации по использованию.

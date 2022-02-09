@@ -1,8 +1,8 @@
 ---
 title: Неназначенный номер телефона
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 24eca749-a9f3-40e7-839b-d21c3ef7d533
 description: Неназначенные номера — это телефонные номера, допустимые для вашей организации, но не назначенные пользователю или телефону. В таблице неназначенных номеров указывается, как обрабатываются такие номера.
-ms.openlocfilehash: 7b09083238f034a7f087ed8aadfa9169c644ceb1
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: b42c490363cd5de4247faeb707b9e608d12f9838
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864006"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62404081"
 ---
 # <a name="unassigned-phone-number"></a>Неназначенный номер телефона
 
@@ -49,7 +49,7 @@ ms.locfileid: "60864006"
 
 В следующем списке описываются команды на странице.
 
-- **Новые** Запускает новый диапазон ненаписаных номеров.
+- **Новые функции** Запускает новый диапазон ненаписаных номеров.
 
 - **Изменение** Открывает выбранный диапазон ненаназранных номеров для редактирования, выбирает все ненаназранные диапазоны номеров в списке или удаляет выбранный диапазон ненаназранных номеров.
 
@@ -81,4 +81,4 @@ ms.locfileid: "60864006"
 
 - **Объявление** Объявление, которое будет отыграно для этого диапазона неназвных номеров.
 
-Подробные сведения о возможностях и возможностях объявления см. в документации По планированию в [Skype для бизнеса 2015](../../plan-your-deployment/enterprise-voice-solution/announcement.md) г. Дополнительные сведения о работе с диапазонами неназначенных номеров см. в разделе [Configure Routing of Unassigned Phone Numbers](/previous-versions/office/lync-server-2013/lync-server-2013-configure-unassigned-phone-numbers) в документации по применению.
+Подробные сведения о возможностях и возможностях объявления см. в приложении [Plan for the Announcement в Skype для бизнеса 2015](../../plan-your-deployment/enterprise-voice-solution/announcement.md) г. в документации по планированию. Дополнительные сведения о работе с диапазонами неназначенных номеров см. в разделе [Configure Routing of Unassigned Phone Numbers](/previous-versions/office/lync-server-2013/lync-server-2013-configure-unassigned-phone-numbers) в документации по применению.

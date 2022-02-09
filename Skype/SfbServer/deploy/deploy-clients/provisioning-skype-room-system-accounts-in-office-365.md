@@ -1,7 +1,7 @@
 ---
 title: Подготовка Skype учетных записей системы номеров в Microsoft 365 и Office 365
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c36150bb-461c-4f1c-877b-fac7fb232f7c
 description: Ознакомьтесь с этой темой, чтобы узнать о Skype учетных записей системы номеров в Microsoft 365 или Office 365.
-ms.openlocfilehash: 77416d34c3b478f0013cf41c63dcebd52e52f3ce
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 157e55232f0f2341a6420b54ece6faf9ee28f9fd
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60853773"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62404471"
 ---
 # <a name="provisioning-skype-room-system-accounts-in-microsoft-365-and-office-365"></a>Подготовка Skype учетных записей системы номеров в Microsoft 365 и Office 365
  
@@ -29,7 +29,7 @@ ms.locfileid: "60853773"
 
 Ваш онлайн-клиент должен соответствовать следующим требованиям:
   
-- План Microsoft 365 или Office 365 должен включать Skype для бизнеса Online Plan 2 или Office 365 E1, E3 или E5. <br/>Подробные сведения о Skype для бизнеса Online Plans см. в [Skype для бизнеса Описание службы.](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description)
+- План Microsoft 365 или Office 365 должен включать Skype для бизнеса Online Plan 2 или Office 365 E1, E3 или E5. <br/>Сведения о планах Skype для бизнеса в Интернете см. в [Skype для бизнеса описание службы.](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description)
     
 - Клиент должен иметь возможность конференциинга с Skype для бизнеса включенной.
     
@@ -37,9 +37,9 @@ ms.locfileid: "60853773"
     
 - Удаленный администратор клиента должен иметь следующий доступ к PowerShell:
     
-  - Exchange Удаленный доступ к PowerShell
+  - Exchange удаленный доступ PowerShell
     
-  - Skype для бизнеса Доступ к удаленной сети PowerShell
+  - Skype для бизнеса удаленный доступ PowerShell
     
   - Windows Azure Active Directory модуль для Windows PowerShell доступа Microsoft 365 или Office 365 каталога
     
@@ -53,11 +53,11 @@ ms.locfileid: "60853773"
     
 - Лицензия Exchange Online не требуется для учетной записи Skype Room, так как учетная запись должна быть настроена как учетная запись почтового ящика ресурса.
     
-## <a name="provisioning-overview"></a>Обзор подготовка
+## <a name="provisioning-overview"></a>Обзор подготовки к работе
 
 На следующей схеме представлен обзор потока Skype учетной записи системы номеров.
   
-![Skype Этапы подготовка системы номеров.](../../media/354c5659-317b-4e85-a1bc-c60c07f305a4.png)
+![Skype этапы подготовка системы номеров.](../../media/354c5659-317b-4e85-a1bc-c60c07f305a4.png)
   
 ## <a name="identify-a-new-conference-room"></a>Определение нового конференц-зала
 
@@ -69,7 +69,7 @@ ms.locfileid: "60853773"
     
 ## <a name="exchange-online-provisioning"></a>Exchange Online подготовка
 
-Во-первых, подключите Exchange Online PowerShell, следуя инструкциям в этой теме, Подключение [Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell).
+Во-первых, подключите Exchange Online PowerShell, следуя инструкциям в этой теме, [Подключение Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell).
   
 Чтобы установить существующую учетную запись почтового ящика комнаты ресурсов для Skype Room System, запустите следующие команды в Exchange Online PowerShell:
   
@@ -93,15 +93,15 @@ New-Mailbox -Name "Conf Room 2" -MicrosoftOnlineServicesID $rm -Room  -EnableRoo
 
 ## <a name="assigning-a-skype-for-business-online-license"></a>Назначение лицензии Skype для бизнеса Online
 
-Теперь вы можете назначить лицензию Skype для бизнеса Online (Plan 2) или Skype для бизнеса Online (Plan 3) с помощью [](https://support.office.com/article/Assign-or-remove-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc?ui=en-US&amp;rs=en-US&amp;ad=US) портала администрирования Microsoft 365, как описано в описании Назначение или удаление лицензий для Microsoft 365 для бизнеса или Skype для бизнеса лицензирования надстройки [.](https://support.office.com/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7) 
+Теперь вы можете назначить лицензию Skype для бизнеса Online (Plan 2) или Skype для бизнеса Online (Plan 3), используя административный портал Microsoft 365, как описано в описании Назначение или удаление лицензий для [](https://support.office.com/article/Assign-or-remove-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc?ui=en-US&amp;rs=en-US&amp;ad=US) Microsoft 365 для бизнеса или [Skype для бизнеса  лицензирование надстройки](https://support.office.com/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7). 
   
 После назначения лицензии для Skype для бизнеса Online вы сможете войти и проверить, активна ли учетная запись с помощью Skype для бизнеса клиента.
   
-## <a name="skype-for-business-online-provisioning"></a>Skype для бизнеса Подготовка в Интернете
+## <a name="skype-for-business-online-provisioning"></a>Skype для бизнеса подготовка в Интернете
 
-После создания и включения учетной записи почтового ящика комнаты ресурсов, как показано ранее, и вы лицензируете учетную запись для Skype Для бизнеса Online, учетная запись синхронизируется с лесом Exchange Online до Skype для бизнеса Online с помощью Windows Azure Active Directory леса. Для предоставления учетной записи Skype в пуле Skype для бизнеса Online требуются следующие действия. Эти действия одинаковы как для существующей учетной записи почтового ящика ресурса, так и для вновь созданной учетной записи (confrm1 или confrm2), так как после включения в Exchange Online обе эти учетные записи будут синхронизированы с Skype для бизнеса Online таким же образом:
+После создания и включения учетной записи почтового ящика комнаты ресурсов, как показано ранее, и вы лицензируете учетную запись для Skype Для бизнеса Online, учетная запись синхронизируется с лесом Exchange Online до Skype для бизнеса Online с помощью Windows Azure Active Directory лес. Для предоставления учетной записи Skype в пуле Skype для бизнеса Online требуются следующие действия. Эти действия одинаковы как для существующей учетной записи почтового ящика ресурса, так и для вновь созданной учетной записи (confrm1 или confrm2), так как после включения в Exchange Online обе эти учетные записи будут синхронизированы с Skype для бизнеса Online таким же образом:
   
-1. Создание сеанса Удаленной PowerShell. Обратите внимание, что вам потребуется [скачать Teams PowerShell.](/microsoftteams/teams-powershell-install)
+1. Создание сеанса Удаленной PowerShell. Обратите внимание, что вам потребуется скачать [Teams PowerShell](/microsoftteams/teams-powershell-install).
     
   ```powershell
   # When using Teams PowerShell Module
@@ -143,7 +143,7 @@ New-Mailbox -Name "Conf Room 2" -MicrosoftOnlineServicesID $rm -Room  -EnableRoo
    Set-MsolUser -UserPrincipalName confrm1@skypelrs.onmicrosoft.com -PasswordNeverExpires $true
    ```
 
-Дополнительные сведения см. [в дополнительных сведениях о настройках](../../../SfbOnline/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)компьютера для Windows PowerShell.
+Дополнительные сведения см. в [Windows PowerShell](../../../SfbOnline/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
   
 ## <a name="validate"></a>Проверка
 

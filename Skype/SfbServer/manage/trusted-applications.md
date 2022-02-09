@@ -1,8 +1,8 @@
 ---
 title: Управление доверенными приложениями
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,16 +11,16 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Доверенным приложением является приложение на основе API управляемых единой связи (UCMA) 3.0 Core SDK, которому доверяют Skype для бизнеса Server.
-ms.openlocfilehash: d328eab38e44915998d05f3c16c2b1e4e2f1dc33
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: ef4f6aed1ec4964ba5f3d9cfed770dae4437b2f8
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857476"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62398843"
 ---
 # <a name="manage-trusted-applications-in-skype-for-business-server"></a>Управление доверенными приложениями в Skype для бизнеса Server
 
-Доверенным *приложением* является приложение на основе API управляемых единой связи (UCMA) 3.0 Core SDK, которому доверяют Skype для бизнеса Server. Подробные сведения о приложениях UCMA см. в материале "Объединенные коммуникации управляемый API 3.0 Core SDK https://go.microsoft.com/fwlink/p/?linkId=210320 Documentation".
+*Доверенным приложением* является приложение, основанное на API управляемых единой связи Microsoft (UCMA) 3.0 Core SDK, которому доверяют Skype для бизнеса Server. Подробные сведения о приложениях UCMA см. в материале "Объединенные коммуникации управляемый API 3.0 Core SDK Documentation" https://go.microsoft.com/fwlink/p/?linkId=210320.
 
 Чтобы успешно опубликовать, включить или отключить топологию при добавлении или удалении роли сервера, необходимо войти в систему с учетной записью члена групп RTCUniversalServerAdmins или "Администраторы домена". 
 
@@ -30,21 +30,21 @@ ms.locfileid: "60857476"
 
 1.  Войдите в систему компьютера, на котором построитель топологий установлен как член группы администраторов доменов и группы RTCUniversalServerAdmins.
 
-2.  Начните строитель топологии: нажмите кнопку **Начните,** щелкните Все **программы,** **нажмите кнопку Skype для бизнеса Server,** а затем нажмите кнопку Skype для бизнеса Server **Topology Builder**.
+2.  Начните строитель топологии: нажмите кнопку **Начните, нажмите** кнопку Все **программы, нажмите** кнопку **Skype для бизнеса Server, а** затем нажмите кнопку Skype для бизнеса Server **Топология Builder**.
 
 3.  Выберите **Download topology from existing deployment** (Загрузить топологию из существующего развертывания) и затем нажмите кнопку **ОК**.
 
-4.  В **диалоговом окне Сохранить** топологию как диалоговое окно щелкните файл Topology Builder, который необходимо использовать, а затем нажмите **кнопку Сохранить**.
+4.  В **диалоговом** окне Сохранить топологию в качестве диалоговой окне нажмите файл Topology Builder, который необходимо использовать, а затем нажмите **кнопку Сохранить**.
 
 5.  В области слева щелкните правой кнопкой мыши пункт **Серверы доверенных приложений** и выберите команду **Создать пул доверенных приложений**.
 
 6.  В поле **Pool FQDN** (Полное доменное имя пула) введите полное доменное имя пула доверенных приложений, укажите параметры пула (пул из одного компьютера или нескольких компьютеров) и затем нажмите кнопку **Next** (Далее).
 
-7.  На **следующей странице "Выберите переход"** из списка выберите Skype для бизнеса Server пула переднего конца.
+7.  На **следующей странице "Выберите переход**" из списка выберите Skype для бизнеса Server переднего конца.
 
 8.  Нажмите кнопку **Готово**.
 
-9.  Выберите верхний узел **Skype для бизнеса Server,** а затем из меню **Действия** нажмите **кнопку Опубликовать топологию**.
+9.  Выберите верхний узел **Skype для бизнеса Server**, а затем из меню **Действия** нажмите кнопку **Опубликовать топологию**.
     
     Пул **доверенных приложений** должен был быть создан успешно и связан с правильным пулом переднего конца.
 
@@ -66,7 +66,7 @@ ms.locfileid: "60857476"
 
 ### <a name="to-view-a-list-of-trusted-applications"></a>Просмотр списка доверенных приложений
 
-1.  Из учетной записи пользователя, назначенной роли CsServerAdministrator, CsAdministrator, CsHelpDesk или роли CsViewOnlyAdministrator, войдите на любой компьютер во внутреннем развертывании. Сведения о предопределеных административных ролях, доступных в Skype для бизнеса Server, см. в материале [Role-based access control (RBAC).](../plan-your-deployment/security/role-based-access-control-rbac.md)
+1.  Из учетной записи пользователя, назначенной роли CsServerAdministrator, CsAdministrator, CsHelpDesk или роли CsViewOnlyAdministrator, войдите на любой компьютер во внутреннем развертывании. Сведения о предопределеных административных ролях, доступных в Skype для бизнеса Server, см. в материале [Role-based access control (RBAC).](../plan-your-deployment/security/role-based-access-control-rbac.md).
 
 2.  Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель Skype для бизнеса Server управления.
 
@@ -77,7 +77,7 @@ ms.locfileid: "60857476"
 
 ## <a name="view-trusted-application-information"></a>Просмотр доверенных сведений о приложениях
 
-Сведения о доверенных приложениях можно просматривать с помощью Windows PowerShell **и cmdlet Get-CsTrustedApplication.** Этот комлет можно запускать из Skype для бизнеса Server или удаленного сеанса Windows PowerShell. 
+Сведения о доверенных приложениях можно просмотреть с помощью Windows PowerShell **и cmdlet Get-CsTrustedApplication**. Этот комлет можно запускать из Skype для бизнеса Server или удаленного сеанса Windows PowerShell. 
 
 
 ### <a name="to-view-trusted-applications"></a>Просмотр доверенных приложений

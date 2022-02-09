@@ -1,8 +1,8 @@
 ---
 title: Добавление доверенного компьютера приложений
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: e951328e-d06b-4c9d-af21-305b2357188b
 description: Укажите полное доменное имя каждого компьютера, который нужно добавить в качестве сервера доверенных приложений в пул. После добавления компьютера в список можно обновить полное доменное имя компьютера или удалить его из пула в любой момент до публикации топологии. После публикации топологии для изменения полного доменного имени необходимо удалить сервер в построителе топологий, а затем добавить новый сервер в пул с новым полным доменным именем.
-ms.openlocfilehash: e3763bddeecee8f7bf9cc10cb687f169b0035a82
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 7df62dfecd729244db45a740ef7dbfe31d7f32f8
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60844442"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62395637"
 ---
 # <a name="add-trusted-application-machine"></a>Добавление компьютера доверенных приложений
  

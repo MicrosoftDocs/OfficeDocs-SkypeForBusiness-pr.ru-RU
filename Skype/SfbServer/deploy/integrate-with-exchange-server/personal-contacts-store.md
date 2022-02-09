@@ -1,8 +1,8 @@
 ---
 title: Настройка магазина личных контактов на клиентских компьютерах Lync 2010
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 1/29/2019
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ec69a6cb-07f2-4057-9544-55035f83eeae
 description: Сводка. Настройте личный магазин контактов, используемый устаревшими клиентами.
-ms.openlocfilehash: de9bc9472f619f7d35bbc4585d806f6cd82c295a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d2678eb7f0d9bcdf3d981cb08e91cf9a4858f26c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60842371"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397308"
 ---
 # <a name="configure-the-personal-contacts-store-on-lync-2010-client-computers"></a>Настройка магазина личных контактов на клиентских компьютерах Lync 2010
   
@@ -32,9 +32,9 @@ ms.locfileid: "60842371"
   
 1. На клиентский компьютер нажмите **кнопку Начните и** нажмите кнопку **Выполнить**.
 2. В диалоговом окне **Выполнить** введите regedit, затем нажмите ВВОД.
-3. В редакторе реестра расширим HKEY_LOCAL_MACHINE, расширим программное **обеспечение,** расширим **политики,** расширим **Microsoft,** а затем Communicator **.**
-4. Щелкните **правой кнопкой мыши Communicator,** указать **значение New**, а затем нажмите **значение DWORD (32-bit).**
+3. В редакторе реестра **расширяй HKEY_LOCAL_MACHINE, расширяй** программное **обеспечение,** расширяй **политики,** расширяй **Microsoft**, а затем **расширяй Communicator**.
+4. Щелкните **правой кнопкой мыши Communicator**, указать **значение New**, а затем нажмите **значение DWORD (32-bit).**
 5. После создания значения введите PersonalContactStoreOverride и нажмите клавишу ВВОД, чтобы переименовать значение.
 6. Убедитесь, что значение PersonalContactStoreOverride равно 0, а затем закройте редактор реестра.
 
-Если нужно внести это изменение на нескольких компьютерах, это можно сделать, создав пользовательский объект групповой политики. Дополнительные сведения об этом в Windows 10 см. в статье [Create a Group Policy Object.](/windows/security/threat-protection/windows-firewall/create-a-group-policy-object)
+Если нужно внести это изменение на нескольких компьютерах, это можно сделать, создав пользовательский объект групповой политики. Дополнительные сведения об этом в Windows 10 см. в статье [Create a Group Policy Object](/windows/security/threat-protection/windows-firewall/create-a-group-policy-object).

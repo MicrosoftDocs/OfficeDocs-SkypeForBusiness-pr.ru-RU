@@ -1,8 +1,8 @@
 ---
 title: Представление ConferenceSessionDetails
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 5858c84d-baed-421d-ad1d-3726e150e256
 description: Представление ConferenceSessionDetails хранит сведения о многосторонних сеансах. Каждая запись представляет один сеанс конференц-связи, который может быть сеансом с фокусом или сеансом с определенным сервером конференц-связи. Это представление было представлено в Microsoft Lync Server 2013.
-ms.openlocfilehash: f35a815743dcfb8dba3d2a69943c9c5c42344a86
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 902cf40a042d51d6765a0653da439b1bc1a86478
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849672"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62400863"
 ---
 # <a name="conferencesessiondetails-view"></a>Представление ConferenceSessionDetails
  
@@ -30,27 +30,27 @@ ms.locfileid: "60849672"
 |**SessionIdSeq** <br/> |int  <br/> |Идентификационный номер для идентификации сеанса. Используется совместно с параметром SessionIdTime для уникальной идентификации сеанса. Дополнительные сведения см. в таблице [Диалоги Skype для бизнеса Server 2015](dialogs.md) г. <br/> |
 |**InviteTime** <br/> |datetime  <br/> |Время первого запроса INVITE. Это поле обычно заполняется данными, генерируемыми из исходного сообщения INVITE в сеансе. При отсутствии сообщения INVITE поле заполняется датой и временем первого соответствующего сообщения SIP (BYE, CANCEL, MESSAGE или INFO).  <br/> |
 |**ConferenceUri** <br/> |nvarchar (450)  <br/> |Идентификатор URI конференции.  <br/> |
-|**ConferenceUriType** <br/> |nvarchar (256)  <br/> |Тип идентификатора URI конференции. Дополнительные сведения см. в таблице [UriTypes.](uritypes.md) <br/> |
+|**ConferenceUriType** <br/> |nvarchar (256)  <br/> |Тип идентификатора URI конференции. Дополнительные сведения [см. в таблице UriTypes](uritypes.md) . <br/> |
 |**ConfInstance** <br/> |uniqueidentifier  <br/> |Идентификатор, который разделяет экземпляры повторяющихся конференций. Каждый повторяющийся экземпляр конференции имеет один и тот же ConferenceURI, но разное значение ConfInstance.  <br/> |
 |**McuConferenceUri** <br/> |nvarchar (450)  <br/> |Идентификатор URI сервера конференц-связи.  <br/> |
-|**McuConferenceUriType** <br/> |nvarchar (256)  <br/> |Тип идентификатора URI сервера конференц-связи. Дополнительные сведения см. в таблице [UriTypes.](uritypes.md) <br/> |
+|**McuConferenceUriType** <br/> |nvarchar (256)  <br/> |Тип идентификатора URI сервера конференц-связи. Дополнительные сведения [см. в таблице UriTypes](uritypes.md) . <br/> |
 |**UserUri** <br/> |nvarchar (450)  <br/> |URI пользователя, участвующего в сеансе.  <br/> |
-|**UserUriType** <br/> |nvarchar (256)  <br/> |Тип URI пользователя, который являлся участником сеанса. Дополнительные сведения см. в таблице [UriTypes.](uritypes.md) <br/> |
-|**UserTenant** <br/> |nvarchar (256)  <br/> |Клиент пользователя, который являлся участником сеанса. Дополнительные сведения см. в таблице [Tenants.](tenants.md) <br/> |
+|**UserUriType** <br/> |nvarchar (256)  <br/> |Тип URI пользователя, который являлся участником сеанса. Дополнительные сведения [см. в таблице UriTypes](uritypes.md) . <br/> |
+|**UserTenant** <br/> |nvarchar (256)  <br/> |Клиент пользователя, который являлся участником сеанса. Дополнительные [сведения см. в таблице Tenants](tenants.md) . <br/> |
 |**UserEndpointId** <br/> |uniqueidentifier  <br/> |Уникальный идентификатор пользователя, который являлся участником сеанса.  <br/> |
 |**EndTime** <br/> |datetime  <br/> |Время окончания сеанса.  <br/> |
 |**ConferenceClientVersion** <br/> |nvarchar (256)  <br/> |Версия сервера конференц-связи.  <br/> |
-|**ConferenceClientType** <br/> |int  <br/> |Тип сервера конференц-связи. Дополнительные сведения см. [в таблице UserAgentDef.](useragentdef.md) <br/> |
+|**ConferenceClientType** <br/> |int  <br/> |Тип сервера конференц-связи. Дополнительные сведения см. [в таблице UserAgentDef](useragentdef.md) . <br/> |
 |**ConferenceCategory** <br/> |nvarchar (64)  <br/> |Категория сервера конференц-связи.  <br/> |
 |**UserClientVersion** <br/> |nvarchar (256)  <br/> |Версия клиента, используемая пользователем, который являлся участником сеанса.  <br/> |
-|**UserClientType** <br/> |int  <br/> |Клиент, использованный пользователем, который являлся участником сеанса. Дополнительные сведения см. в таблице [UserAgentDef.](useragentdef.md) <br/> |
+|**UserClientType** <br/> |int  <br/> |Клиент, использованный пользователем, который являлся участником сеанса. Дополнительные сведения см. [в таблице UserAgentDef](useragentdef.md) . <br/> |
 |**UserClientCategory** <br/> |nvarchar (64)  <br/> |Название категории клиента, использованной пользователем, который являлся частью сеанса.  <br/> |
 |**OnBehalfOfUri** <br/> |nvarchar (450)  <br/> |URI пользователя, от чьего имени был запущен сеанс.  <br/> |
-|**OnBehalfOfUriType** <br/> |nvarchar (256)  <br/> |Тип URI пользователя, от имени которого был запущен сеанс. Дополнительные сведения см. в таблице [UriTypes.](uritypes.md) <br/> |
-|**OnBehalfOfTenant** <br/> |nvarchar (256)  <br/> |Клиент пользователя, от имени которого был запущен сеанс. Дополнительные сведения см. в таблице [Tenants.](tenants.md) <br/> |
+|**OnBehalfOfUriType** <br/> |nvarchar (256)  <br/> |Тип URI пользователя, от имени которого был запущен сеанс. Дополнительные сведения [см. в таблице UriTypes](uritypes.md) . <br/> |
+|**OnBehalfOfTenant** <br/> |nvarchar (256)  <br/> |Клиент пользователя, от имени которого был запущен сеанс. Дополнительные [сведения см. в таблице Tenants](tenants.md) . <br/> |
 |**ReferredByUri** <br/> |nvarchar (450)  <br/> |URI пользователя, который указал ссылку на сеанс.  <br/> |
-|**ReferredByUriType** <br/> |nvarchar (256)  <br/> |Тип URI пользователя, который указал ссылку на сеанс. Дополнительные сведения см. в таблице [UriTypes.](uritypes.md) <br/> |
-|**ReferredByUriTenant** <br/> |nvarchar (256)  <br/> |Клиент пользователя, который указал ссылку на сеанс. Дополнительные сведения см. в таблице [Tenants.](tenants.md) <br/> |
+|**ReferredByUriType** <br/> |nvarchar (256)  <br/> |Тип URI пользователя, который указал ссылку на сеанс. Дополнительные сведения [см. в таблице UriTypes](uritypes.md) . <br/> |
+|**ReferredByUriTenant** <br/> |nvarchar (256)  <br/> |Клиент пользователя, который указал ссылку на сеанс. Дополнительные [сведения см. в таблице Tenants](tenants.md) . <br/> |
 |**Диалоговое окно** <br/> |varstring (775)  <br/> |ИД диалога SIP в следующем формате:  <br/> :d ialog;from-tag;to-tag  <br/> |
 |**ReplaceDialogIdTime** <br/> |datetime  <br/> |Идентификатор диалога, который был замещен текущим сеансом. Дополнительные сведения см. в таблице [Диалоги Skype для бизнеса Server 2015](dialogs.md) г. <br/> |
 |**ReplaceDialogIdSeq** <br/> |int  <br/> |Идентификационный номер для идентификации сеанса. Используется совместно с параметром ReplaceDialogIdTime для уникальной идентификации сеанса, замененного данным сеансом. Дополнительные сведения см. в таблице [Диалоги Skype для бизнеса Server 2015](dialogs.md) г. <br/> |

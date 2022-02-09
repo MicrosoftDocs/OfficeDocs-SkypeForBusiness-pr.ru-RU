@@ -1,8 +1,8 @@
 ---
 title: Добавление хранилища файлов переднего плана
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 4d18a648-a0e1-4401-a1e6-7a2755ba8c66
 ROBOTS: NOINDEX, NOFOLLOW
 description: Необходимо указать общую папку файлов, которая будет использоваться как файловое хранилище для сервера Standard Edition или интерфейсного пула Enterprise Edition. Можно использовать существующую общую папку файлов для файлового хранилища или определить новую общую папку файлов, указав полное доменное имя файлового сервера, на котором будет располагаться общая папка файлов, и имя этой папки.
-ms.openlocfilehash: 0a99c731690b7b41c1fee28306f47956a9dfaa32
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 10b07e5bbe075194e393fce8ac9a9c99bc85c01e
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829373"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397032"
 ---
 # <a name="add-front-end-file-store"></a>Добавление хранилища файлов переднего плана
 
@@ -35,4 +35,4 @@ ms.locfileid: "60829373"
 > [!IMPORTANT]
 > При добавлении в топологию интерфейсного пула Enterprise или сервера Standard Edition построитель топологий должен иметь возможность настройки файлового хранилища и списков управления доступом на уровне пользователей (DACL) для общей папке файлов, которая будет использоваться для файлового хранилища. Для этого требуется войти в систему под учетной записью, имеющей права полного доступа (чтение, запись, изменение) к общей папке файлов при публикации новой топологии в построителей топологий.
 
-Подробные сведения о поддержке хранения для файловых акций [см.](/previous-versions/office/lync-server-2013/lync-server-2013-file-storage-support) в служба хранилища в документации по поддержке и [SQL Server](/previous-versions/office/lync-server-2013/lync-server-2013-sql-server-data-and-log-file-placement) и размещении файлов журнала в документации развертывания. Дополнительные сведения о выровненном размещении общего файлового ресурса см. в разделе [Supported Server Collocation](/previous-versions/office/lync-server-2013/lync-server-2013-supported-server-collocation) в документации по поддержке. Сведения о разработке топологии для интерфейсного пула Enterprise Edition см. в разделе [Define and Configure a Front End Pool](/previous-versions/office/lync-server-2013/lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server) документации по развертыванию.
+Сведения о поддержке хранения для файловых акций см. в служба хранилища [в](/previous-versions/office/lync-server-2013/lync-server-2013-file-storage-support) документации по поддержке и SQL Server и размещении файлов журнала в документации развертывания.[](/previous-versions/office/lync-server-2013/lync-server-2013-sql-server-data-and-log-file-placement) Дополнительные сведения о выровненном размещении общего файлового ресурса см. в разделе [Supported Server Collocation](/previous-versions/office/lync-server-2013/lync-server-2013-supported-server-collocation) в документации по поддержке. Сведения о разработке топологии для интерфейсного пула Enterprise Edition см. в разделе [Define and Configure a Front End Pool](/previous-versions/office/lync-server-2013/lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server) документации по развертыванию.

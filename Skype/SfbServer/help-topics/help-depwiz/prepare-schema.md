@@ -1,8 +1,8 @@
 ---
 title: Подготовка схемы
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 337aa234-c5f3-4468-a047-2023848e942c
 description: Чтобы подготовить схему для служб домена Active Directory, вы запустите этап Подготовка схемы в мастере Skype для бизнеса Server развертывания. Нажмите кнопку Выполнить, чтобы начать подготовку схемы. Шаг Подготовка схемы считывает предоставленные файлы определения схемы в каталоге /Program Files/Microsoft Lync Server 2013/Deployment/Setup в системе, на которую работает мастер развертывания. Эти файлы также доступны в средствах установки в каталоге Support/Schema. Шаг "Подготовка схемы" осуществляет расширение схемы и сообщает о состоянии процесса. Вы получите уведомление, когда процесс завершится. На экране сводки можно просмотреть журналы процесса. Просмотрите журналы и убедитесь, что подготовка была успешно завершена.
-ms.openlocfilehash: c4e1faa8a26fa74579d9c9177d2efbfda29fa40f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 162937b56a4acc91c3fef70712feb713547cd2e2
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849052"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62402263"
 ---
 # <a name="prepare-schema"></a>Подготовка схемы
  
@@ -29,7 +29,7 @@ ms.locfileid: "60849052"
 > [!IMPORTANT]
 > Для расширения схемы вы должны войти в домен как участник группы администраторов схемы или группы администраторов предприятия. 
   
-Классы и атрибуты добавляются для расширения схемы служб домена Active Directory для поддержки серверных, сервисных и пользовательских объектов Skype для бизнеса Server 2015 г. Перед расширением схемы создайте резервную копию состояния системы контроллера домена, содержащего роль хозяина схемы. Сведения о процессе резервного копирования Windows Server 2008 R2 с SP1 [https://go.microsoft.com/fwlink/p/?linkId=207198](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ee849849(v=ws.10)) см. в . Для Windows Server 2003 и Windows Server 2003 R2 [https://go.microsoft.com/fwlink/p/?linkId=207199](/previous-versions/windows/it-pro/windows-server-2003/cc787254(v=ws.10)) см. в .
+Классы и атрибуты добавляются для расширения схемы служб домена Active Directory для поддержки серверных, сервисных и пользовательских объектов Skype для бизнеса Server 2015 г. Перед расширением схемы создайте резервную копию состояния системы контроллера домена, содержащего роль хозяина схемы. Сведения о процессе резервного копирования Windows Server 2008 R2 с SP1 см. в [https://go.microsoft.com/fwlink/p/?linkId=207198](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ee849849(v=ws.10)). Для Windows Server 2003 и Windows Server 2003 R2 см. в .[https://go.microsoft.com/fwlink/p/?linkId=207199](/previous-versions/windows/it-pro/windows-server-2003/cc787254(v=ws.10))
   
 > [!CAUTION]
 > Расширение схемы необратимо. Вы должны постараться максимально ограничить возможные последствия неудачного расширения схемы и приложить все усилия, чтобы это расширение было успешным. В частности, это критично при потере соединения или любом другом сбое сервера. Необходимо выполнить резервное копирование контроллера домена схемы и полное резервное копирование Active Directory. 

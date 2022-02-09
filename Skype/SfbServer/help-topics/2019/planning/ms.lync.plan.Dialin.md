@@ -1,8 +1,8 @@
 ---
 title: Dial-in Conferencing (Planning Tool)
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 ms.assetid: c1f79a05-165c-47ec-8593-0bb3d43ee16f
 ROBOTS: NOINDEX, NOFOLLOW
 description: Skype для бизнеса Server конференц-связи позволяет пользователям присоединяться к звуковой части конференции Skype для бизнеса Server с помощью телефона с общедоступным переключаемой телефонной сетью (PSTN) без необходимости стороннее поставщика аудиоконференции.
-ms.openlocfilehash: eaef9b534078ce03cac6772cbf7bb6bf57cd4091
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 4db9877a339b245fdcf0ae54ce4cc33a247e6ba0
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847952"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62399293"
 ---
 # <a name="dial-in-conferencing-planning-tool"></a>Dial-in Conferencing (Planning Tool)
  

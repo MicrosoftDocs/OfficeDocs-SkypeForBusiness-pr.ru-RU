@@ -1,8 +1,8 @@
 ---
 title: Выбор записи использования ТСОП
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 80a5b130-2b36-4318-9870-f5176c8d8f62
 description: Используйте диалоговое окно Выбрать запись об использовании ТСОП для поиска существующего режима работы с телефонной сетью общего пользования (ТСОП), который вы могли бы использовать.
-ms.openlocfilehash: ca908332f52537635b3f9ad14c71850316a08e4d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: a30617b81d33ebae2401321d88b8ed9fef51b246
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840201"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62401273"
 ---
 # <a name="select-pstn-usage-record"></a>Выбор записи использования ТСОП
  
@@ -29,6 +29,6 @@ ms.locfileid: "60840201"
 > [!NOTE]
 > Чтобы получить все доступные режимы работы с ТСОП, ничего не вводите в поле поиска и нажмите значок поиска. 
   
-Сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнеса Server, см. в Skype для бизнеса Server [2015](../../manage/manage.md)г.
+Сведения о различных процедурах, которые можно выполнить с помощью панели управления Skype для бизнеса Server, см. в Skype для бизнеса Server [2015 г](../../manage/manage.md).
   
 

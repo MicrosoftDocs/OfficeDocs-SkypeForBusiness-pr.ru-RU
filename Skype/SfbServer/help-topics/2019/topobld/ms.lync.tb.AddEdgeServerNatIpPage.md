@@ -1,8 +1,8 @@
 ---
 title: Добавление IP-адреса NAT пограничного сервера
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: aa97fd0e-48b9-4a66-b55a-12291641c967
 ROBOTS: NOINDEX, NOFOLLOW
 description: Общедоступный IP-адрес — это IP-адрес, который используется при преобразовании сетевых адресов (NAT). Такой IP-адрес должен обеспечивать общедоступную маршрутизацию. Это требуется из-за того, что вы выбрали параметр Внешний IP-адрес данного пограничного пула преобразуется системой NAT на странице Выбрать функции данного матера.
-ms.openlocfilehash: 178b8af0fbb97a0fc3d7737a7e12381b9fdba1eb
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 15d270032ea0ba60d53962085cd63a70f775d02d
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840361"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62398232"
 ---
 # <a name="add-edge-server-nat-ip"></a>Добавление IP-адреса NAT пограничного сервера
 

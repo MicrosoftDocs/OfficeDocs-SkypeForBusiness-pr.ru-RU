@@ -1,8 +1,8 @@
 ---
 title: Просмотр данных магистрали SIP в Skype для бизнеса Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: adfacb74-7ea5-4c53-934e-ba7ec59879eb
 description: Сводка. Узнайте, как просматривать сведения о магистральных SIP в Skype для бизнеса Server.
-ms.openlocfilehash: cf2bf0f6cf586e80fa6b3f2ba1308ee6254ea7e9
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: dd33f9e7719802081a35ce718e7fd534ac107269
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835857"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62399903"
 ---
 # <a name="skype-for-business-server-view-information-about-individual-sip-trunks"></a>Skype для бизнеса Server. Просмотр сведений об отдельных магистральных магистрали SIP 
  
@@ -29,7 +29,7 @@ ms.locfileid: "60835857"
   
 Магистрали SIP используются для подключения Skype для бизнеса Server голосовой связи через ip-телефонную сеть с открытой телефонной сетью(PSTN). В предыдущих версиях продукта магистрали использовались для маршрутизации исходящих звонков с сервера-посредника на шлюз ТСОП, причем для каждого шлюза использовалась только одна магистраль. Поэтому шлюз ТСОП и магистраль SIP были практически равнозначны. Для администраторов это означало возможность просмотра сведений об отдельной магистрали SIP путем просмотра сведений о связанном шлюзе ТСОП.
   
-В Skype для бизнеса Server, однако, несколько магистральных магистрали теперь могут быть назначены одному шлюзу PSTN; это означает, что шлюзы и магистрали больше не одно и то же. В свою очередь, это означает, что администраторы должны использовать новый комлет [Get-CsTrunk](/powershell/module/skype/get-cstrunk) для просмотра сведений об отдельном магистрали SIP.
+В Skype для бизнеса Server, однако, несколько магистральных магистрали теперь могут быть назначены одному шлюзу PSTN. Это означает, что шлюзы и магистрали уже не одно и то же. В свою очередь, это означает, что администраторы должны использовать новый комлет [Get-CsTrunk](/powershell/module/skype/get-cstrunk) для просмотра сведений об отдельном магистрали SIP.
   
 ### <a name="to-view-information-for-all-your-sip-trunks"></a>Просмотр сведений для всех магистральных SIP
 

@@ -1,8 +1,8 @@
 ---
 title: Включение и отключение обхода мультимедиа
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Используйте процедуры в этой статье, чтобы включить или отключить обход мультимедиа с помощью панели Skype для бизнеса Server управления.
-ms.openlocfilehash: e8465d376e32d677d52cb0bdb57e86d9aa9fac44
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d312e74c796b9e68558447c5a56fc199e8920d6a
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60852003"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396491"
 ---
 # <a name="enabling-and-disabling-media-bypass-in-skype-for-business-server"></a>Включение и отключение обхода сервера-посредника в Skype для бизнеса Server
 
@@ -24,7 +24,7 @@ ms.locfileid: "60852003"
 
 ## <a name="enable-network-media-bypass"></a>Включить обход сетевых средств массовой информации 
 
-Параметры обхода мультимедиа применяются глобально в Skype для бизнеса Server развертывания. Обход сервера-посредника позволяет звонкам обходить сервер-посредник. Сведения о том, когда использовать обход мультимедиа, см. в материале [Plan for media bypass.](../../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)
+Параметры обхода мультимедиа применяются глобально в Skype для бизнеса Server развертывания. Обход сервера-посредника позволяет звонкам обходить сервер-посредник. Сведения о том, когда использовать обход мультимедиа, см. в материале [Plan for media bypass](../../../plan-your-deployment/enterprise-voice-solution/media-bypass.md).
 
 Вы можете включить и настроить обход мультимедиа с Skype для бизнеса Server панели управления.
 
@@ -60,7 +60,7 @@ ms.locfileid: "60852003"
 
 ## <a name="disable-network-media-bypass"></a>Отключение обхода сетевых средств массовой информации
 
-Параметры обхода мультимедиа применяются глобально в Skype для бизнеса Server развертывания. Обход сервера-посредника позволяет звонкам обходить сервер-посредник. Сведения о том, когда использовать обход мультимедиа, см. в материале [Plan for media bypass.](../../../plan-your-deployment/enterprise-voice-solution/media-bypass.md) Можно отключить обход мультимедиа из панели Skype для бизнеса Server управления. 
+Параметры обхода мультимедиа применяются глобально в Skype для бизнеса Server развертывания. Обход сервера-посредника позволяет звонкам обходить сервер-посредник. Сведения о том, когда использовать обход мультимедиа, см. в материале [Plan for media bypass](../../../plan-your-deployment/enterprise-voice-solution/media-bypass.md). Можно отключить обход мультимедиа из панели Skype для бизнеса Server управления. 
 
 
 ### <a name="to-disable-media-bypass"></a>Отключение обхода медиаданных

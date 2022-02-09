@@ -1,7 +1,7 @@
 ---
 title: Знакомство с командами и каналами в Microsoft Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 10/29/2018
 audience: Admin
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d3d71e8c542b5f39ab979ae876e0c82868ca380a
-ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
+ms.openlocfilehash: 09aba3d8f6bcdb06d75bf0563a437a87197cb254
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2021
-ms.locfileid: "60959818"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62400843"
 ---
 # <a name="understand-teams-and-channels-in-microsoft-teams"></a>Знакомство с командами и каналами в Microsoft Teams
 
@@ -36,7 +36,7 @@ ms.locfileid: "60959818"
 
 - Каналы — это пространство для совместной работы в команде, в которой фактические трудоемкие работы. 
 
-Дополнительные сведения о командах и каналах см. в обзоре команд и каналов в [Microsoft Teams.](teams-channels-overview.md) Полный перечень Teams по внедрению можно получить в Teams [по внедрению.](https://aka.ms/teamstoolkit) Дополнительные информацию о группах Teams Microsoft 365 см. в Microsoft 365 [группах](office-365-groups.md) и Microsoft Teams и Дополнительные Microsoft 365 [Группах.](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)
+Дополнительные сведения о командах и каналах см. в обзоре команд и каналов в [Microsoft Teams](teams-channels-overview.md). Полный перечень Teams по внедрению можно получить в Teams [по внедрению](https://aka.ms/teamstoolkit). Дополнительные информацию о группах Teams Microsoft 365 см. в Microsoft 365 [группах](office-365-groups.md) и Microsoft Teams и Дополнительные Microsoft 365 [Группах](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
 
 
 | &nbsp; |&nbsp;  |
@@ -59,6 +59,6 @@ ms.locfileid: "60959818"
 
 В организационной команде (показана слева) можно совместно использовать основные сведения о том, как в организации выполняется бизнес, события группы, основные стратегии и другие оперативные данные, например обзоры бизнеса. Для команды, показанной справа, данные района разбиты на каналы, которые представляют категории работы, выполненной этой командой. Участники этой группы могут не сообщать об этом одному человеку, но они все занимаются управлением результатами для района.
   
-На втором этапе реализации вы [](teams-adoption-phase2-experiment.md) сможете более подробно поработать над структурой команд.
+На втором этапе реализации вы сможете более подробно поработать над структурой команд.[](teams-adoption-phase2-experiment.md)
 
 ![Значок, изображающий следующее действие.](media/teams-adoption-next-icon.png) Далее: [Создание первых команд](teams-adoption-your-first-teams.md)

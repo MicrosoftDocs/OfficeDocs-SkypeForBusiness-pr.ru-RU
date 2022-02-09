@@ -1,8 +1,8 @@
 ---
 title: Добавление полного доменного имени интерфейсного пула
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 02ae996c-a1c6-4ff4-b6d6-bdef4ad44d2a
 ROBOTS: NOINDEX, NOFOLLOW
 description: Укажите полное доменное имя создаваемого интерфейсного пула. Невозможно изменить полное доменное имя пула после публикации топологии, содержащей интерфейсный пул. Если необходимо переименовать пул, следует удалить пул, а затем добавить новый пул с новым полным доменным именем.
-ms.openlocfilehash: 8df962b5a26947ceb14c0f4989dd8400544600b4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 77ce785ad3d4cfae0161140be34eb81db72b5802
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60854773"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62398132"
 ---
 # <a name="add-front-end-pool-fqdn"></a>Добавление полного доменного имени интерфейсного пула
  
