@@ -17,26 +17,27 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a53ab4ad866f3d9ad6acb1258247da59b15a27d9
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: b2a3d74220b685be8a856dc2398b45d0002129ed
+ms.sourcegitcommit: 79dfda39db208cf943d0f7b4906883bb9d034281
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62399493"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62457199"
 ---
 # <a name="enable-location-based-routing-for-direct-routing"></a>Включение функции "Маршрутизация на основе расположения" для прямой маршрутизации
 
-Прежде чем выполнять действия, которые вы выполните в этой статье, прочитайте [](location-based-routing-plan.md) статью Location-Based Маршруты для прямой маршрутии и выполните действия, которые необходимо предпринять в статье Настройка параметров сети для Location-Based [маршрутии](location-based-routing-configure-network-settings.md).
+В этой статье описано, как включить Location-Based для прямой маршрутии. Прежде чем выполнять действия, которые вы выполните в этой статье, прочитайте [](location-based-routing-plan.md) статью Location-Based Маршруты для прямой маршрутии и выполните действия, которые необходимо предпринять в статье Настройка параметров сети для Location-Based [маршрутии](location-based-routing-configure-network-settings.md).
 
-В этой статье описано, как включить Location-Based для прямой маршрутии. После развертывания телефонная система прямой маршрутизации и настроив сетевые регионы, сайты и подсети, вы можете включить Location-Based маршрутизации. Для выполнения действий, которые вы выполните в этой статье, необходимо ознакомиться с помощью cmdlets PowerShell. Дополнительные сведения см. [в Teams Обзор PowerShell](teams-powershell-overview.md).
+ После развертывания прямой маршрутизации и настроив сетевые регионы, сайты и подсети, вы можете включить Location-Based маршрутизации. Для выполнения действий, которые вы выполните в этой статье, необходимо ознакомиться с помощью cmdlets PowerShell. Дополнительные сведения см. в [Teams PowerShell.](teams-powershell-overview.md)
 
  Для этого необходимо Location-Based маршрутику.
+
 - Пользователи
 - Сетевые сайты
 - Конфигурации шлюза
 - Политики звонков
 
-Вы можете включить [Microsoft Teams или](#using-the-microsoft-teams-admin-center) [PowerShell](#using-powershell), чтобы Location-Based маршрутику.
+Вы можете включить [Teams или](#using-the-microsoft-teams-admin-center) [PowerShell](#using-powershell), чтобы Location-Based маршрутику.
 
 ## <a name="using-the-microsoft-teams-admin-center"></a>С помощью Центра администрирования Microsoft Teams
 
@@ -45,7 +46,9 @@ ms.locfileid: "62399493"
 1. Создайте политику маршрутинга голосовой почты и назначьте политике использование услуг STN. При назначении политик использования услуг ННР необходимо сделать одно из следующих:
 
     - Использование услуг STN, связанных с голосовой маршрутией, которые используют локальный шлюз STN на сайте.
+
     - Использование услуг ННП, связанных с голосовой маршрутикой, в которой используется шлюз ННР, расположенный в регионе, где Location-Based маршруты не нужны.
+
 2. Назначьте политику маршрутинга голосовой почты пользователям, для которых требуются ограничения маршрутики.
 
 Дополнительные информацию о создании политик голосовой маршрутии и их назначении пользователям см. в [Microsoft Teams.](manage-voice-routing-policies.md)
@@ -61,9 +64,13 @@ ms.locfileid: "62399493"
 В Location-Based маршрутизов можно включить маршрутизовы шлюзов, которые перенаустанавлиют вызовы на шлюзы ПСС, которые перенанаустанавлиют вызовы на STN, и связать сетевой сайт, на котором находится шлюз. 
 
 1. В области навигации слева перейдите в **voiceDirect** >  Routing и щелкните **вкладку SBCs**.
+
 2. Выберите SBC и нажмите кнопку **Изменить**. 
+
 3. В **области Маршрутизация на основе расположения и оптимизация мультимедиа** включите включить маршрутизация **на основе расположения**.
+
 4. Укажите ИД сайта шлюза, а затем установите режим обхода.
+
 5. Нажмите кнопку **Сохранить**.
 
 ### <a name="enable-location-based-routing-for-calling-policies"></a>Включить Location-Based маршрутизов для политик звонков
@@ -76,31 +83,37 @@ ms.locfileid: "62399493"
 
 ### <a name="enable-location-based-routing-for-users"></a>Включить Location-Based маршрутии для пользователей
 
-1. Для этого [используйте для этого cmdlet Set-CsOnlinePstnUsage](/powershell/module/skype/set-csonlinepstnusage?view=skype-ps) . Для нескольких вариантов использования разделять каждое использование запятой.
+1. Чтобы настроить использование ПСОП, используйте для этого cmdlet [Set-CsOnlinePstnUsage](/powershell/module/skype/set-csonlinepstnusage?view=skype-ps) . Для нескольких вариантов использования разделять каждое использование запятой.
 
     ```PowerShell
     Set-CsOnlinePstnUsage -Usage <usages> 
     ```
+
     Например:
+
     ```PowerShell
     Set-CsOnlinePstnUsage -Usage "Long Distance", "Local", "Internal" 
     ```
-2. С помощью [нового-CsOnlineVoiceRoutingPolicy](/powershell/module/skype/new-csonlinevoiceroutingpolicy?view=skype-ps) создайте политику маршрутизации голосовой связи, чтобы связать пользователя с соответствующими использованием ОКП.
+
+2. Чтобы создать политику маршрутизации голосовой связи, чтобы связать пользователя с соответствующим использованием ОКП, воспользуйтесь помощью cmdlet [New-CsOnlineVoiceRoutingPolicy](/powershell/module/skype/new-csonlinevoiceroutingpolicy?view=skype-ps) .
 
     ```PowerShell
     New-CsOnlineVoiceRoutingPolicy -Identity <voice routing policy ID> -Description <voice routing policy name> -OnlinePstnUsages <usages> 
     ```
     
     При назначении использования услуг ННР политике голосовой маршрутии убедитесь в том, что вы делаете одно из следующих:
-    - Использование службы STN, связанных с голосовой маршрутией, в сети с локальным шлюзом STN на сайте
+
+    - Использование услуг STN, связанных с голосовой маршрутией, которые используют локальный шлюз STN на сайте.
+
     - Использование услуг ННП, связанных с голосовой маршрутикой, в которой используется шлюз ННР, расположенный в регионе, где Location-Based маршруты не нужны.
 
-    В этом примере мы создадим две новые политики маршрутинга голосовой связи и назначим им использование услуг STN. 
+    В следующем примере создаются две новые политики маршрутинга голосовой почты и назначаются использование услуг ННП. 
 
     ```PowerShell
     New-CsOnlineVoiceRoutingPolicy -Identity "DelhiVoiceRoutingPolicy" -Description "Delhi voice routing policy" -OnlinePstnUsages "Long Distance" 
     New-CsOnlineVoiceRoutingPolicy -Identity "HyderabadVoiceRoutingPolicy" -Description " Hyderabad voice routing policy" -OnlinePstnUsages "Long Distance", "Local", "Internal" 
-    ```
+    ``` 
+
     В таблице ниже показаны политики маршрутии голосовой связи, определенные в данном примере. 
     
     |&nbsp;|Политика маршрутинга голосовой почты 1|Политика маршрутинга голосовой почты 2|
@@ -108,18 +121,21 @@ ms.locfileid: "62399493"
     |ИД голосовой политики в Интернете   |Политика маршрутистики голосовой почты в Интернете   |Политика маршрутинга голосовой почты в Интернете    |
     |Использование сетевых услуг STN  |Длинное расстояние  |Длинное расстояние, Локальное, Внутреннее  |
 
-3. Используйте для [связывания](/powershell/module/skype/grant-csonlinevoiceroutingpolicy?view=skype-ps) политик маршрутизации голосовой маршрутизации в Интернете с пользователями, для которых требуются ограничения маршрутизации.
+3. Чтобы связать политики маршрутизации голосовой почты в Интернете с пользователями, для которых требуются ограничения маршрутизации, используйте для этого cmdlet [Grant-CsOnlineVoiceRoutingPolicy](/powershell/module/skype/grant-csonlinevoiceroutingpolicy?view=skype-ps) .
+
     ```PowerShell
     Grant-CsOnlineVoiceRoutingPolicy -Identity <User> -Tenant <TenantId>
     ```
+
 ### <a name="enable-location-based-routing-for-network-sites"></a>Включить Location-Based маршрутику для сетевых сайтов
 
-1.  С помощью [командлета Set-CsTenantNetworkSite](/powershell/module/skype/set-cstenantnetworksite?view=skype-ps) можно включить Location-Based маршрутизации и связать политики маршрутизации голосовой связи с сетевыми сайтами, которые должны применять ограничения маршрутизации.
+1. Чтобы включить Location-Based маршрутизации и связать политики голосовой маршрутизации с сетевыми сайтами, на которые необходимо навести ограничения, используйте командлет [Set-CsTenantNetworkSite](/powershell/module/skype/set-cstenantnetworksite?view=skype-ps) .
+
     ```PowerShell
     Set-CsTenantNetworkSite -Identity <site ID> -EnableLocationBasedRouting <$true|$false>  
     ```
 
-    В этом примере мы в Location-Based маршрутику для сайта "Неавтохимя" и сайта "Омерово". 
+    В этом примере Location-Based маршрутику для сайта "Совхода" и сайта "Обмер". 
 
     ```PowerShell
     Set-CsTenantNetworkSite -Identity "Delhi" -EnableLocationBasedRouting $true  
@@ -133,22 +149,25 @@ ms.locfileid: "62399493"
     |EnableLocationBasedRouting    |Верно    |Верно    |
     |Подсети     |Подсеть 1 (Висяче)     |Подсеть 2 (Кузнецов)     |
 
+
 ### <a name="enable-location-based-routing-for-gateways"></a>Включить Location-Based маршрутов для шлюзов
 
-1. Создайте конфигурацию шлюза для каждого шлюза или сайта сети с помощью [нового-CsOnlinePSTNGateway](/powershell/module/skype/new-csonlinepstngateway?view=skype-ps) . 
+1. Чтобы создать конфигурацию шлюза для каждого шлюза или сетевого сайта, используйте для этого [cmdlet New-CsOnlinePSTNGateway](/powershell/module/skype/new-csonlinepstngateway?view=skype-ps) . 
 
     ```PowerShell
     New-CSOnlinePSTNGateway -Fqdn <FDQN registered for the SBC> -Identity <gateway configuration ID> -SipSignalingPort <listening port used> -Enabled $true 
     ```
+
     Если с системой связано несколько шлюзов (например, Шлюз или УАКС), измените каждый шлюз, чтобы включить Location-Based маршрутии. 
 
-    В этом примере для каждого шлюза создается одна конфигурация. 
+    В следующем примере создается одна конфигурация шлюза для каждого шлюза. 
+
     ```PowerShell
     New-CsOnlinePSTNGateway -Fqdn sbc.contoso.com -Enabled $true -SipSignalingPort 5067 
     ```
     Дополнительные сведения см. [в этой ссылке](direct-routing-configure.md).
     
-2. Чтобы включить маршрутиз Location-Based шлюзов, которые должны применять ограничения маршрутизации, используйте Location-Based [CSOnlinePSTNGateway](/powershell/module/skype/set-csonlinepstngateway?view=skype-ps) . 
+2. Чтобы включить Location-Based маршрутику для шлюзов, для выполнения ограничений на маршрутику используйте [cmdlet Set-CSOnlinePSTNGateway](/powershell/module/skype/set-csonlinepstngateway?view=skype-ps) . 
 
     В Location-Based маршрутизов можно включить маршрутизовы шлюзов, которые перенаустанавлиют вызовы на шлюзы ПСС, которые перенанаустанавлиют вызовы на STN, и связать сетевой сайт, на котором находится шлюз.
 
@@ -156,12 +175,14 @@ ms.locfileid: "62399493"
     Set-CSOnlinePSTNGateway -Identity <gateway configuration ID> -GatewaySiteLbrEnabled $true -GatewaySiteID <site ID> 
     ```
 
-    В этом примере мы Location-Based маршрутику для каждого шлюза, связанного со шлюзами STN, на сайтах "Висяк" и "Подмайник". 
+   В следующем примере Location-Based маршрутику для каждого шлюза, связанного со шлюзами STN, на сайтах "Висяк" и "Подмалинник". 
+
     ```PowerShell
     Set-CSOnlinePSTNGateway -Identity sbc.contoso.com  -GatewaySiteLbrEnabled $true –GatewaySiteID "Delhi"
     Set-CSOnlinePSTNGateway -Identity sbc1.contoso.com  -GatewaySiteLbrEnabled $true -GatewaySiteID "Hyderabad" 
     ```
-    Не в Location-Based маршрутизов для шлюзов, которые не перенаустанавлиют вызовы в ОКП. Однако вам все равно придется связать шлюз с сетевым сайтом, на котором расположена система. Это связано с темLocation-Based что для звонков по ДНР, которые находятся в конечных точках, подключенных с помощью этого шлюза, необходимо ввести Location-Based маршрутизов. В этом примере Location-Based для каждого шлюза, связанного с системами УАКС, на сайтах "Висячая" и "Подсистема".
+
+    Не в Location-Based маршрутизов для шлюзов, которые не перенана могут перенанапорять звонки на ДНР. Однако вам все равно придется связать шлюз с сетевым сайтом, на котором расположена система. Это связано с темLocation-Based что для звонков по ДНР, которые проходят через конечные точки, подключенные через этот шлюз, необходимо ввести ограничения на маршрутику. В этом примере Location-Based не включена для каждого шлюза, связанного с системами УАКС, на сайтах "Висячая" и "Подсистема".
 
     ```PowerShell
     Get-CSONlinePSTNGateway -Identity sbc.contoso.com 
@@ -179,11 +200,13 @@ ms.locfileid: "62399493"
 
 Чтобы принудительно Location-Based маршрутику для определенных пользователей, установите для них голосовую политику, чтобы запретить обход платных номеров ТССК. 
 
-Используйте для [этого](/powershell/module/skype/grant-csteamscallingpolicy?view=skype-ps) Location-Based маршрутизации, предотвращая обход платных номеров ОКП.
+Чтобы Location-Based маршрутизации, предотвращая обход платных номеров ОКП, используйте для этого cmdlet [Grant-CsTeamsCallingPolicy](/powershell/module/skype/grant-csteamscallingpolicy?view=skype-ps) .
+
 
 ```PowerShell
 Grant-CsTeamsCallingPolicy -PolicyName <policy name> -id <user id> 
 ```
+
 В этом примере мы не мешаем обходу платных номеров ЗВОНКОВ через пользовательские политики звонков. 
 
 ```PowerShell
@@ -192,4 +215,4 @@ Grant-CsTeamsCallingPolicy –PolicyName "AllowCallingPreventTollBypass" -id "Us
 
 ## <a name="related-topics"></a>Статьи по теме
 
-- [Параметры сети для облачных функций голосовой связи в Teams](cloud-voice-network-settings.md)
+- [Параметры сети для облачных голосовых функций в Teams](cloud-voice-network-settings.md)
