@@ -765,7 +765,7 @@ items:
                 href: ptsn-mask-phone-numbers.md
           - name: Доступность аудиоконференций в различных странах и регионах
             href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
-          - name: Справочные материалы
+          - name: Справка
             items:
               - name: Поддерживаемые языки аудиоконференций
                 href: audio-conferencing-supported-languages.md
@@ -775,17 +775,17 @@ items:
                 href: audio-conferencing-zones.md
               - name: Видео- и аудиоконференции в Teams
                 href: ./audio-conferencing-in-office-365.md
-  - name: Голосовая связь — Телефонная система Teams и связь с ТСОП
+  - name: Голосовая связь — телефонная система и связь с ТСОП
     items:
       - name: Планирование голосового решения в Teams
         href: cloud-voice-landing-page.md
-      - name: Телефонная система Teams
+      - name: Телефонная система
         items:
-          - name: Что такое Телефонная система Teams
+          - name: Что такое телефонная система?
             href: what-is-phone-system-in-office-365.md
-          - name: Возможности Телефонной системы Teams
+          - name: Возможности телефонной системы
             href: here-s-what-you-get-with-phone-system.md
-          - name: Настройка Телефонной системы Teams
+          - name: Настройка телефонной системы
             href: setting-up-your-phone-system.md
           - name: Настройка телефонов общего пользования
             href: set-up-common-area-phones.md
@@ -1021,7 +1021,7 @@ items:
             href: voice-case-study-overview.md
           - name: План перехода на Teams
             href: voice-case-study-migration-plan.md
-          - name: Телефонная система Teams
+          - name: Телефонная система
             href: voice-case-study-phone-system.md
           - name: Маршрутизация с учетом расположения
             href: voice-case-study-location-based-routing.md
@@ -1033,7 +1033,7 @@ items:
             href: voice-case-study-call-queues.md
       - name: Руководство для малого и среднего бизнеса
         items:
-          - name: Руководство по Телефонной системе Teams для малого и среднего бизнеса
+          - name: Руководство по телефонной системе для малого и среднего бизнеса
             href: business-voice/whats-business-voice.md
           - name: Доступность в странах и регионах
             href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
@@ -1041,7 +1041,7 @@ items:
             href: business-voice/get-ready-internet.md
           - name: Обратитесь за помощью к торговому посреднику или партнеру
             href: business-voice/reseller-partner-support.md
-          - name: Настройка Телефонной системы Teams для малого и среднего бизнеса
+          - name: Настройка телефонной системы для малого и среднего бизнеса
             items:
               - name: Обзор
                 href: business-voice/set-up-overview.md
@@ -1061,7 +1061,7 @@ items:
                 href: business-voice/port-phone-numbers.md
               - name: Ресурсы после настройки
                 href: business-voice/set-up-finish.md
-          - name: Изменение настройки Телефонной системы Teams для малого и среднего бизнеса
+          - name: Изменение настройки телефонной системы для малого и среднего бизнеса
             items:
               - name: Параметры настройки
                 href: business-voice/customize-business-voice.md
@@ -1075,7 +1075,7 @@ items:
                 href: business-voice/create-a-phone-system-call-queue-smb.md
               - name: Настройка автосекретаря
                 href: business-voice/create-a-phone-system-auto-attendant-smb.md
-          - name: Управление настройкой Телефонной системы Teams для малого и среднего бизнеса
+          - name: Управление настройкой телефонной системы для малого и среднего бизнеса
             items:
               - name: Создание одного или нескольких пользователей
                 href: business-voice/create-users.md
