@@ -13,18 +13,18 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Поиск и управление обновлениями Skype для бизнеса Server 2015/2019 и Lync 2013 в одном месте. Чтобы узнать больше об обновлениях и скачать их, воспользуйтесь ссылками на этой странице.
-ms.openlocfilehash: e90155c15909ca876362990ba2754e4b136d2ac6
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: ea8d88f9287c8795ee3b3f4252c2e0664695a44a
+ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60012383"
+ms.lasthandoff: 02/11/2022
+ms.locfileid: "62763344"
 ---
 # <a name="skype-for-business-server-updates"></a>Обновления Skype для бизнеса Server
 
-Поиск и управление обновлениями [Skype для бизнеса Server 2019](#skype-for-business-server-2019-update-history), [Skype для бизнеса Server 2015](#skype-for-business-server-2015-update-history), [Lync Server 2013](#lync-server-2013-update-history)и [Lync Server 2010](#lync-server-2010-update-history) в одном месте. Чтобы узнать больше об обновлениях и скачать их, воспользуйтесь ссылками на этой странице.
+Поиск и управление обновлениями [Skype для бизнеса Server 2019](#skype-for-business-server-2019-update-history), [Skype для бизнеса Server 2015](#skype-for-business-server-2015-update-history), [Lync Server 2013](#lync-server-2013-update-history) и [Lync Server 2010](#lync-server-2010-update-history) в одном месте. Чтобы узнать больше об обновлениях и скачать их, воспользуйтесь ссылками на этой странице.
 
-Последние обновления Skype для бизнеса Online и Microsoft 365 см. в Microsoft 365 [Roadmap.](https://go.microsoft.com/fwlink/p/?linkid=529454)
+Последние обновления Skype для бизнеса и Microsoft 365 см. в Microsoft 365 [Roadmap](https://go.microsoft.com/fwlink/p/?linkid=529454).
 
 ## <a name="skype-for-business-server-2019-update-history"></a>Skype для бизнеса Server обновления 2019 г.
 
@@ -54,17 +54,18 @@ KB 4470124 является мастером КБ для Skype для бизне
 
 ## <a name="skype-for-business-server-2015-update-history"></a>Skype для бизнеса Server обновления 2015 г.
 
-[KB 3061064](https://support.microsoft.com/kb/3061064) содержит все выпущенные накопительные обновления. 
+[KB 3061064](https://support.microsoft.com/kb/3061064) содержит все накопительные обновления, которые были выпущены. 
 
 |Название пакета|Номер статьи в базе знаний|Дата выпуска|
 |:--- |:--- |:--- |
-|Skype для бизнеса Server 2015 Накопительное обновление 12|[KB 3061064](https://support.microsoft.com/kb/3061064)| Август 2021 г. |
-|Skype для бизнеса Server 2015 Накопительное обновление 11 Hotfix 2|[KB 3061064](https://support.microsoft.com/kb/3061064)| Ноябрь 2020 г. |
-|Skype для бизнеса Server 2015 Накопительное обновление 11 Hotfix 1|[KB 3061064](https://support.microsoft.com/kb/3061064)| Июль 2020 г. |
-|Skype для бизнеса Server 2015 Накопительное обновление 11|[KB 3061064](https://support.microsoft.com/kb/3061064)| 13 мая 2020 г. |
-|Skype для бизнеса Server 2015 Накопительное обновление 10 Hotfix 1|[KB 3061064](https://support.microsoft.com/kb/3061064)| Август 2019 г. |
-|Skype для бизнеса Server 2015 Накопительное обновление 10 |[KB 3061064](https://support.microsoft.com/kb/3061064)| Июль 2019 г. |
-|Накопительное обновление 9 Skype для бизнеса Server 2015 г., Сервер веб-компонентов|[KB 4487981](https://support.microsoft.com/kb/4487981)| Май 2019 г. |
+|Skype для бизнеса Server 2015 Накопительное обновление 12 Hotfix 1|[KB 3061064](https://support.microsoft.com/kb/3061064)|Февраль 2022 г. |
+|Skype для бизнеса Server 2015 Накопительное обновление 12|[KB 3061064](https://support.microsoft.com/kb/3061064)|Август 2021 г. |
+|Skype для бизнеса Server 2015 Накопительное обновление 11 Hotfix 2|[KB 3061064](https://support.microsoft.com/kb/3061064)|Ноябрь 2020 г. |
+|Skype для бизнеса Server 2015 Накопительное обновление 11 Hotfix 1|[KB 3061064](https://support.microsoft.com/kb/3061064)|Июль 2020 г. |
+|Skype для бизнеса Server 2015 Накопительное обновление 11|[KB 3061064](https://support.microsoft.com/kb/3061064)|13 мая 2020 г. |
+|Skype для бизнеса Server 2015 Накопительное обновление 10 Hotfix 1|[KB 3061064](https://support.microsoft.com/kb/3061064)|Август 2019 г. |
+|Skype для бизнеса Server 2015 Накопительное обновление 10 |[KB 3061064](https://support.microsoft.com/kb/3061064)|Июль 2019 г. |
+|Накопительное обновление 9 Skype для бизнеса Server 2015 г., Сервер веб-компонентов|[KB 4487981](https://support.microsoft.com/kb/4487981)|Май 2019 г. |
 |Накопительное обновление 8 Skype для бизнеса Server 2015 г., front End Server и Edge Server|[KB 4464355](https://support.microsoft.com/kb/4464355)|Январь 2019 г.|
 |Накопительное обновление 7 для Skype для бизнеса Server 2015 г., переднего и краевого серверов |[KB 4340904](https://support.microsoft.com/kb/4340904) |Июль 2018 г. |
 |Накопительное обновление 6 Hotfix 2 для Skype для бизнеса Server 2015 г., переднего и краевого серверов |[KB 4086059](https://support.microsoft.com/kb/4086059) |Март 2018 г. |
@@ -91,7 +92,7 @@ KB 4470124 является мастером КБ для Skype для бизне
 
 ## <a name="lync-server-2013-update-history"></a>История обновления Lync Server 2013
 
-[KB 2809243](https://support.microsoft.com/kb/2809243) содержит все накопительные обновления, которые были выпущены.
+[KB 2809243](https://support.microsoft.com/kb/2809243) содержит все выпущенные накопительные обновления.
 
 |Название пакета|Номер статьи в базе знаний|Дата выпуска|
 |:--- |:--- |:--- |
@@ -241,14 +242,14 @@ KB 4470124 является мастером КБ для Skype для бизне
 |[Файл справки о документации Lync Server 2010](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=9720c3f1-ddd4-426b-b98a-f1205561ce00)|Март 2012 г. |
 |[Страница Приветствие Lync Server 2010](/previous-versions/office/skype-server-2010/gg398616(v=ocs.14))|Октябрь 2012 г. |
 |[Im эксперт по документации Microsoft Lync Server 2010](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=8E4546AA-9B24-435D-9043-A2181B4E6D06&displaylang=en)|Март 2012 г. |
-|[Lync 2010 Заметки о](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=d76f8027-d97f-4336-adbc-7979c2b069b3)выпуске .aspx)|Январь 2011 г. |
+|[Lync 2010 Release](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=d76f8027-d97f-4336-adbc-7979c2b069b3) Notes.aspx)|Январь 2011 г. |
 |[Заметки о выпуске Lync Server 2010](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=782975c4-8610-46b6-9fc4-d1d30de7c76d)|Январь 2011 г. |
 |[Средство планирования Lync Server 2010 Readme](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=c8ba3275-270f-4c0b-90bb-edc1d1216c2d)|Январь 2011 г. |
 |[Схемы архитектуры Lync Server 2010 Edge Server](https://www.microsoft.com/download/details.aspx?id=13791)|Март 2011 г. |
 
 ### <a name="resource-kit-technical-reference"></a>Набор ресурсов (техническая справка)
 
-Посетите сайт загрузки комплекта ресурсов Microsoft [Lync Server 2010,](https://www.microsoft.com/download/en/details.aspx?id=22644) чтобы скачать главы книг по отдельности или скачать файл .zip, содержащий все [19](https://download.microsoft.com/download/9/4/E/94ED1EF4-A2EF-4686-9841-B0390072D524/Microsoft_Lync_Server_2010_Resource_Kit_Chapters.zip)глав набора ресурсов.
+Посетите сайт загрузки комплекта ресурсов Microsoft [Lync Server 2010](https://www.microsoft.com/download/en/details.aspx?id=22644) , чтобы скачать главы книг по отдельности или скачать .zip файл, содержащий все [19](https://download.microsoft.com/download/9/4/E/94ED1EF4-A2EF-4686-9841-B0390072D524/Microsoft_Lync_Server_2010_Resource_Kit_Chapters.zip) глав набора ресурсов.
 
 ### <a name="group-chat"></a>Group Chat
 

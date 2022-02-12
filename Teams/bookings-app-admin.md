@@ -21,16 +21,16 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: ''
 description: Узнайте, как управлять приложением Bookings в Teams для пользователей в организации.
-ms.openlocfilehash: 2bbc671b1054cfa4340abf7656e17939d147dea2
-ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
+ms.openlocfilehash: 147089c51ebc6d3e5eb6bf567579c9aa7fc5f2ce
+ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62288347"
+ms.lasthandoff: 02/11/2022
+ms.locfileid: "62763733"
 ---
 # <a name="manage-the-bookings-app-in-microsoft-teams"></a>Управление приложением Bookings в Microsoft Teams
 
-Приложение Bookings в Microsoft Teams предлагает простой способ запланировать личные и виртуальные встречи, например посещение врача, финансовые консультации, собеседования, поддержку клиентов, учебные часы и многое другое. Подробнее см. в [виртуальных посещениях Teams и приложении Bookings](expand-teams-across-your-org/bookings-virtual-visits.md).
+Приложение Bookings в Microsoft Teams предлагает простой способ запланировать личные и виртуальные встречи, например посещение врача, финансовые консультации, собеседования, поддержку клиентов, учебные часы и многое другое. Дополнительные информации см. в [Teams и приложении Bookings](expand-teams-across-your-org/bookings-virtual-visits.md).
 
 Планировщики могут управлять несколькими календарями отделов и сотрудников, а также взаимодействием с внутренними и внешними участниками одной встречи. Виртуальные встречи проводятся через Microsoft Teams, что обеспечивает надежные возможности видеоконференции.
 
@@ -51,7 +51,7 @@ ms.locfileid: "62288347"
 
 ## <a name="availability-of-bookings-in-teams"></a>Доступность Bookings в Teams
 
-Приложение Microsoft Bookings для Teams доступно на компьютере и в Интернете. Его можно найти в статье Приложения [Teams](https://teams.microsoft.com/l/app/4c4ec2e8-4a2c-4bce-8d8f-00fc664a4e5b?source=store-copy-link) **и Управление** приложениями в центре Teams администрирования.
+Приложение Microsoft Bookings для Teams доступно на компьютере и в Интернете. Его можно найти в статье [Приложения в Teams](https://teams.microsoft.com/l/app/4c4ec2e8-4a2c-4bce-8d8f-00fc664a4e5b?source=store-copy-link) **и в статье** Управление приложениями в Teams центре администрирования.
 
 ### <a name="control-access-to-bookings-within-your-organization"></a>Управление доступом к Bookings в организации
 
@@ -90,7 +90,7 @@ Set-Mailbox -identity business@domain.onmicrosoft.com -WindowsEmailAddress busin
 Дополнительные сведения см. в документации по PowerShell для командлета [Set-Mailbox](/powershell/module/exchange/mailboxes/set-mailbox).
 
 > [!NOTE]
-> Если вы используете гибридную конфигурацию Exchange, мы рекомендуем тщательно проверить потоки почты между локальной Exchange и Exchange Online при изменении домена по умолчанию.
+> Если вы используете гибридную конфигурацию Exchange, рекомендуем тщательно проверить потоки почты между локальной Exchange и Exchange Online при изменении домена по умолчанию.
 
 ## <a name="sending-feedback"></a>Отправка отзывов
 
@@ -100,11 +100,11 @@ Set-Mailbox -identity business@domain.onmicrosoft.com -WindowsEmailAddress busin
   - Пробелы в функциях или отсутствие функций
   - Дефекты и проблемы
   
-Чтобы отправить отзыв, в нижней части панели навигации слева Teams кнопку Справка, а затем выберите Сообщить о проблеме **для ВСЕХ**.  Указать в начале отчета о отзывах, что вы отправляете отзыв о "Bookings", чтобы мы могли легко определить проблемы с Bookings.
+Чтобы отправить отзыв, в нижней части левой панели навигации Teams кнопку Справка, а затем выберите Сообщить о проблеме **для всех**.  Указать в начале отчета о отзывах, что вы отправляете отзыв о "Bookings", чтобы мы могли легко определить проблемы с Bookings.
 
 ## <a name="related-articles"></a>Статьи по теме
 
-[Управление опытом  join для Teams виртуальных посещений в мобильных браузерах](expand-teams-across-your-org/mobile-browser-join.md)
+[Управление опытом  присоединиться к Teams виртуальных посещений в мобильных браузерах](expand-teams-across-your-org/mobile-browser-join.md)
 
 
   [Документация по Bookings для конечных пользователей](https://support.office.com/en-us/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?ui=en-US&rs=en-US&ad=US#PickTab=Bookings)
