@@ -249,18 +249,6 @@ items:
                 href: /SkypeForBusiness/hybrid/cloud-consolidation-aad-connect
           - name: Интеграция с Exchange и SharePoint
             href: /SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint
-  - name: Переход с Kaizala
-    items:
-      - name: Начало работы
-        href: get-started-kaizala-teams.md
-      - name: Подготовка к обновлению
-        href: prepare-for-teams-kaizala.md
-      - name: Планирование процедуры обновления
-        href: plan-your-move-kaizala.md
-      - name: Обзор Microsoft Teams
-        href: navigate-teams.md
-      - name: Знакомство с Microsoft Teams
-        href: drive-adoption-optimize-kaizala.md
   - name: 'Безопасность, соответствие требованиям и конфиденциальность'
     items:
       - name: Обзор
@@ -765,7 +753,7 @@ items:
                 href: ptsn-mask-phone-numbers.md
           - name: Доступность аудиоконференций в различных странах и регионах
             href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
-          - name: Справка
+          - name: Справочные материалы
             items:
               - name: Поддерживаемые языки аудиоконференций
                 href: audio-conferencing-supported-languages.md
@@ -909,10 +897,6 @@ items:
                     href: direct-routing-media-optimization.md
                   - name: Настройка оптимизации локальных файлов мультимедиа
                     href: direct-routing-media-optimization-configure.md
-              - name: Учетные записи пользователей в гибридной среде со связью с ТСОП
-                href: direct-routing-user-accounts-in-a-hybrid-environment.md
-              - name: Переход на прямую маршрутизацию
-                href: direct-routing-migrating.md
               - name: Отслеживание и устранение неполадок прямой маршрутизации
                 items:
                   - name: Обзор
@@ -972,7 +956,7 @@ items:
           - name: Управление номерами телефонов для Operator Connect
             href: operator-connect-configure.md#set-up-phone-numbers
           - name: Управление номерами телефонов для прямой маршрутизации
-            href: direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice-and-voicemail-online
+            href: direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice
       - name: Маршрутизация голосовой связи
         items:
           - name: Что такое абонентские группы?
@@ -1753,6 +1737,18 @@ items:
             href: get-started-with-teams-essentials.md
           - name: Подключение Teams базовый (удостоверение AAD) к электронной почте
             href: connect-teams-essentials-to-email.md
+      - name: Переход с Kaizala
+        items:
+          - name: Начало работы
+            href: get-started-kaizala-teams.md
+          - name: Подготовка к обновлению
+            href: prepare-for-teams-kaizala.md
+          - name: Планирование процедуры обновления
+            href: plan-your-move-kaizala.md
+          - name: Обзор Microsoft Teams
+            href: navigate-teams.md
+          - name: Знакомство с Microsoft Teams
+            href: drive-adoption-optimize-kaizala.md
       - name: Взаимодействие с Microsoft 365 и Office 365
         items:
           - name: Группы Microsoft 365 и Teams
@@ -1762,8 +1758,9 @@ items:
           - name: Улучшение существующих групп Microsoft 365 с помощью Teams
             href: enhance-office-365-groups.md
           - name: Взаимодействие Exchange и Teams
-            href: exchange-teams-interact.md
             items:
+              - name: Взаимодействие Exchange и Teams
+                href: exchange-teams-interact.md
               - name: Настройка гибридной организации Exchange для работы с Teams
                 href: exchange-hybrid-organization.md
               - name: Использование правил потока обработки почты в Exchange
