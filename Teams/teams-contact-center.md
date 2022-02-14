@@ -13,20 +13,20 @@ f1.keywords:
 description: Общие сведения об интегрированном центре контактов в качестве решения службы (CCaaS) для Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6ca66a625b2050bb1c224085b78645375ae19895
-ms.sourcegitcommit: 9f1f5cd828c24676c20df727b2c67daf56ff884c
+ms.openlocfilehash: 9c31ed6194dbf3cf7cf4169983b7292699cce918
+ms.sourcegitcommit: 2612020cd932117148440b60be818ba31208b1d1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62248690"
+ms.lasthandoff: 02/14/2022
+ms.locfileid: "62805450"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Интеграция центра контактов для Microsoft Teams
 
-  В этой статье представлен обзор интеграции решений Центра контактов с Microsoft Teams и поставщиками решений, участвующими в программе сертификации Microsoft Teams Подключенный центр контактов.
+  В этой статье представлен обзор интеграции решений Центра контактов с Microsoft Teams и поставщиками решений, участвующими в программе сертификации Microsoft Teams подключенных к Центру контактов.
 
 ## <a name="what-is-contact-center-integration-for-microsoft-teams"></a>Что такое интеграция центра контактов с Microsoft Teams?
 
-Microsoft Teams поддерживает потоки взаимодействия с клиентом, выступая в качестве центра для внутреннего и внешнего взаимодействия с клиентами в различных режимах общения, включая чат, видеособрации и вызовы. В некоторых организациях Microsoft Teams [возможности](./cloud-voice-landing-page.md)облачной голосовой почты, в том числе автоотекатаря и очереди вызовов, отвечают их требованиям. [](./what-are-phone-system-auto-attendants.md) [](./create-a-phone-system-call-queue.md)
+Microsoft Teams поддерживает потоки взаимодействия с клиентом, выступая в качестве центра для внутреннего и внешнего взаимодействия с клиентами в различных режимах общения, включая чат, видеособрации и вызовы. В некоторых организациях [Microsoft Teams возможности облачного](./cloud-voice-landing-page.md) голосового звонка, в том числе автозавод и очереди [](./what-are-phone-system-auto-attendants.md) вызовов[, отвечают](./create-a-phone-system-call-queue.md) их требованиям.
 
 Для организаций, которым нужны решения с бизнес-инструментами и процессами для развития клиентов, интеграция центра контактов с Microsoft Teams позволяет поставщикам решений Центра контактов (CCaaS) интегрировать свои решения в Teams.
 
@@ -35,9 +35,9 @@ Microsoft Teams поддерживает потоки взаимодействи
 
 Подключенный центр контактов для Microsoft Teams сертификации проверяет, что решение каждого из участвующих поставщиков обеспечивает качество, совместимость и надежность решений Майкрософт.
 
-Если вы хотите найти интегрированное решение центра контактов, см. статью Сертифицированные решения Microsoft Teams для центров [](#connected-contact-center-solutions) контактов список сертифицированных поставщиков решений и Подключенные решения центра контактов для списка поставщиков в процессе сертификации. [](https://cloudpartners.transform.microsoft.com/contact-center-solutions)
+Если вы ищете интегрированное решение центра контактов, см. статью Сертифицированные [](https://cloudpartners.transform.microsoft.com/contact-center-solutions) решения Microsoft Teams для центров контактов список сертифицированных поставщиков решений и Подключенные решения центра контактов [](#connected-contact-center-solutions) для списка поставщиков в процессе сертификации.
 
-Если вы хотите присоединиться к программе сертификации, отправьте письмо по электронной <Teamscategorypartner@microsoft.com> почте.
+Если вы хотите присоединиться к программе сертификации, отправьте письмо по электронной почте <Teamscategorypartner@microsoft.com>.
 
 [!INCLUDE [contact-center-integration-models](./includes/contact-center-integration-models.md)]
 
@@ -75,9 +75,9 @@ Microsoft Teams поддерживает потоки взаимодействи
 | `Landis Technologies` | https://landistechnologies.com/microsoft-teams-contact-center/                                          |
 | `Luware` | https://luware.com/en/solutions/                                                                                       |
 | `Mida Solutions` | https://www.midasolutions.com/c3-cloud-contact-center-for-teams/                                        |
-| `novomind` | https://www.netcall.com/platform/contact-centre/                         |
+| `Netcall` | https://www.netcall.com/platform/contact-centre/                         |
 | `novomind` | https://www.novomind.com/en/customer-service-software-call-center/microsoft-teams/                             |
 | `talkdesk` | https://www.talkdesk.com/cloud-contact-center/integrations/microsoft-teams/                                  |
 | `Tendfor` | https://www.tendfor.com/en/                                                                                     |
 
-Этот список будет обновляться по мере join more solution providers (Новые поставщики решений) и соответствует условиям сертификации.
+Этот список будет обновляться по мере  join more solution providers (Новые поставщики решений) и соответствует условиям сертификации.
