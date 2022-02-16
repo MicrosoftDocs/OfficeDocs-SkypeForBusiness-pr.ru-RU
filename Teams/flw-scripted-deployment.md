@@ -20,10 +20,10 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 4f37e364450104b07adfe6a48c8cc29bab607470
-ms.sourcegitcommit: cd9fbda4ea85a83cb22e241a94d0825ff8186cca
+ms.sourcegitcommit: 5880de47e986854fca873ae75f76a7ecad194dff
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/26/2022
+ms.lasthandoff: 02/15/2022
 ms.locfileid: "61545010"
 ---
 # <a name="how-to-provision-teams-at-scale-for-frontline-workers"></a>Как подготовить Teams в масштабе для сотрудников без компьютеров
