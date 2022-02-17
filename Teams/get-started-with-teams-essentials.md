@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a779d094e7a1f266a19aaecf6bbb86732f75f66b
-ms.sourcegitcommit: 909b0a709983d21fa6f2b547a78cc6a1222188df
+ms.openlocfilehash: 3c80b93ef457048d006fb7a7eb6085b3ed5d8eb4
+ms.sourcegitcommit: 1190cd73656dbc9131d46e0a827e28bcd960dfc5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/30/2022
-ms.locfileid: "62279377"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "62864032"
 ---
 # <a name="microsoft-teams-essentials-quickstart-guide-for-small-businesses"></a>Руководство по быстрому запуску Microsoft Teams базовый для малого бизнеса
 
@@ -100,14 +100,6 @@ Microsoft Teams базовый можно приобрести напрямую 
 > Чтобы получить расширенные возможности администрирования и полный набор функций Teams, перейдите на полную версию Teams, купив соответствующий [план подписки Microsoft 365 или Office 365](https://www.microsoft.com/en-us/microsoft-teams/compare-microsoft-teams-options) для пользователей. Рекомендуется сделать это, так как у вас будет больше гибкости для управления взаимодействием организации.
 
 ## <a name="administration-limits-and-specifications-for-microsoft-teams-essentials"></a>Ограничения и спецификации администрирования для Microsoft Teams базовый
-
-Вот несколько важных ограничений и спецификаций Teams базовый, которые следует учитывать в качестве администратора:
-
-  - **Администрирование.** Подписка Teams базовый **не** предоставляет доступ к Центру администрирования Teams. Пользователи Teams базовый могут применять упрощенное представление Центра администрирования Microsoft 365 для выполнения важных задач, таких как управление подписками и настройка новых пользователей.
-
-  - **Microsoft Teams PowerShell.** Вы **не** можете управлять Teams базовый напрямую с помощью командной строки PowerShell, так как PowerShell не поддерживается.
-
-  - **Хранилище**. Teams базовый использует личное облачное хранилище OneDrive для хранения файлов.
 
 Дополнительные сведения об ограничениях, спецификациях и других требованиях, применяемых к Teams, см. в разделе [Ограничения и спецификации Microsoft Teams](/microsoftteams/limits-specifications-teams).
 
