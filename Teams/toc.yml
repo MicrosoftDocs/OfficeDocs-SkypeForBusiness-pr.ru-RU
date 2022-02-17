@@ -475,8 +475,6 @@ items:
         href: teams-channels-overview.md
       - name: Обзор закрытых каналов
         href: private-channels.md
-      - name: Управление жизненным циклом закрытых каналов
-        href: private-channels-life-cycle-management.md
       - name: Назначение владельцев и участников команд в Teams
         href: assign-roles-permissions.md
       - name: Общие сведения о динамическом членстве в командах
@@ -753,7 +751,7 @@ items:
                 href: ptsn-mask-phone-numbers.md
           - name: Доступность аудиоконференций в различных странах и регионах
             href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
-          - name: Справочные материалы
+          - name: Справка
             items:
               - name: Поддерживаемые языки аудиоконференций
                 href: audio-conferencing-supported-languages.md
