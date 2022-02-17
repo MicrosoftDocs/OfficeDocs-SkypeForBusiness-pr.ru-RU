@@ -6,24 +6,29 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.collection:
-  - M365-collaboration
-  - m365initiative-meetings
-  - m365solution-spcomms
-  - m365solution-scenario
+- M365-collaboration
+- m365initiative-meetings
+- m365solution-spcomms
+- m365solution-scenario
 ms.reviewer: sonua
 audience: admin
 search.appverid: MET150
-description: 'Узнайте, как с помощью трансляций пользователи могут транслировать видео и содержимое для больших интернет-аудиторий в Teams, Yammer и Stream.'
+description: Узнайте, как с помощью трансляций пользователи могут транслировать видео и содержимое для больших интернет-аудиторий в Teams, Yammer и Stream.
 f1.keywords:
-  - CSH
+- CSH
 ms.custom:
-  - ms.teamsadmincenter.dashboard.helparticle.liveevents
-  - ms.teamsadmincenter.liveevents.policies
+- ms.teamsadmincenter.dashboard.helparticle.liveevents
+- ms.teamsadmincenter.liveevents.policies
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
 ms.localizationpriority: high
+ms.openlocfilehash: 53a49355b10a3250366d2bc67655f120412e1cc3
+ms.sourcegitcommit: 5aae5eace62e491dac655882d24974824ce1aa07
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "62856677"
 ---
-
 # <a name="what-are-microsoft-teams-live-events"></a>Что такое трансляции Microsoft Teams
 
 ## <a name="overview"></a>Обзор
@@ -97,7 +102,7 @@ Teams обеспечивает совместную работу в чате, з
 - [Kollective](https://kollective.com/ecdn-solutions/microsoft-live-events/)
 - [Ramp](https://rampecdn.com)
 - [Riverbed](https://www.riverbed.com/solutions/office-365.html)
-- [Peer5](https://www.peer5.com/) (ожидается в ближайшее время)
+- [Peer5](https://www.peer5.com/)
 
 ### <a name="attendee-experience"></a>Взаимодействие с участниками
 
