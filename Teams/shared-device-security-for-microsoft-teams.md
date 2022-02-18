@@ -20,18 +20,18 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 689899ed6e2aaf576a3d743c7a48ca36a647691c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c97ebd8cf9e43ada8d077ffbd33f6b39c8d9c64c
+ms.sourcegitcommit: a9a056b93b4add3a4d978bb341ea4b66a042b4d0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58623221"
+ms.lasthandoff: 02/18/2022
+ms.locfileid: "62893548"
 ---
 # <a name="use-microsoft-teams-securely-on-shared-computers"></a>Безопасное использование Microsoft Teams на общих компьютерах
 
 По возможности предприятиям *рекомендуется* использовать подход "Никому не доверяй" для клиентских устройств посредством возможностей управления устройством, проверок работоспособности и внедрения политик устройства, шифрования на уровне устройства и других функций безопасности.
 
-:::image type="content" source="media/tp_ZeroTrustPrinciples.PNG" alt-text="Изображение подхода Никому не доверяй c демонстрацией явной проверки, предоставления минимальных разрешений и предположения бреши в системе безопасности (основных принципов подхода Никому не доверяй) в синих кругах.":::
+:::image type="content" source="media/tp_ZeroTrustPrinciples.PNG" alt-text="Изображение подхода "Никому не доверяй" c демонстрацией явной проверки, предоставления минимальных разрешений и предположения бреши в системе безопасности (основных принципов подхода "Никому не доверяй") в синих кругах.":::
 
 Администраторы могут создавать безопасные условия, *настаивая* на проверке, предоставляя минимальные разрешения и предполагая компрометацию, — стандарты, обеспечивающие действия, снижающие риски для пользователей и данных.
 
@@ -78,6 +78,6 @@ ms.locfileid: "58623221"
 
 [Статья о центре безопасности Microsoft Defender](/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-security-center-antivirus)
 
-[Веб-клиент Teams/веб-приложение Teams](./get-clients.md#web-client)
+[Веб-клиент Teams/веб-приложение Teams](./get-clients.md#browser-client)
 
 [Безопасность и Microsoft Teams](./teams-security-guide.md)

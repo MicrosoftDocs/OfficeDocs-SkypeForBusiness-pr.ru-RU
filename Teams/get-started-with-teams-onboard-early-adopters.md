@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 04873436e120f87794037a72ce35efacb85e5ef2
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: 3ac3a069aa54e9e8d871c7daccbf068c510b0fc0
+ms.sourcegitcommit: a9a056b93b4add3a4d978bb341ea4b66a042b4d0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62394521"
+ms.lasthandoff: 02/18/2022
+ms.locfileid: "62893588"
 ---
 # <a name="onboard-early-adopters-to-microsoft-teams"></a>Подключение первых пользователей к Microsoft Teams
 
@@ -55,7 +55,7 @@ ms.locfileid: "62394521"
 
 ### <a name="desktop-client"></a>Настольный клиент
 
-Настольный клиент Teams предоставляет пользователям Windows и Mac самый оптимальный опыт использования. Дополнительные сведения см. в статье [Получить клиенты для Teams (настольный клиент)](./get-clients.md#desktop-client) и [Требования к оборудованию для приложения Microsoft Teams](./hardware-requirements-for-the-teams-app.md).
+Настольный клиент Teams предоставляет пользователям Windows и Mac самый оптимальный опыт использования. Дополнительные сведения см. в статье [Получить клиенты для Teams (настольный клиент)](./get-clients.md#desktop-clients) и [Требования к оборудованию для приложения Microsoft Teams](./hardware-requirements-for-the-teams-app.md).
 
 > [!NOTE]
 > Как администратор вы можете выбрать способ распространения файлов установки на компьютерах организации, например Microsoft Endpoint Configuration Manager (Windows) или Jamf Pro (macOS).

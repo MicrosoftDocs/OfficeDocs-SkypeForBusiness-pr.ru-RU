@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Используйте эти инструкции для поддержки удаленных сотрудников с целью обеспечения их эффективности, если они работают из дома в связи со вспышкой эпидемии COVID-19 (коронавируса).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 06be01aad7a8bea73c608cd4709149042daec9e2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 631fdd7668e8dd0bc8781509671dc11a1c631816
+ms.sourcegitcommit: a9a056b93b4add3a4d978bb341ea4b66a042b4d0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58610526"
+ms.lasthandoff: 02/18/2022
+ms.locfileid: "62893538"
 ---
 # <a name="faq-support-your-remote-workforce"></a>Вопросы и ответы: поддержка удаленных сотрудников
 
@@ -83,7 +83,7 @@ ms.locfileid: "58610526"
 
 ### <a name="i-have-microsoft-365-already-but-i-dont-use-teams-are-you-providing-trial-licenses"></a>Я уже использую Microsoft 365, но не использую Teams. Предоставляются ли лицензии на пробные версии?
 
-Если у вас есть Microsoft 365, у вас уже есть приложение Teams. [Включите его](Office-365-set-up.md) для всех пользователей. После включения ваши пользователи смогут запускать Teams, установив [классические](get-clients.md#desktop-client) и [мобильные](get-clients.md#mobile-clients) клиенты, или [в браузере](get-clients.md#mobile-clients) на сайте [https://teams.microsoft.com](https://teams.microsoft.com). 
+Если у вас есть Microsoft 365, у вас уже есть приложение Teams. [Включите его](Office-365-set-up.md) для всех пользователей. После включения ваши пользователи смогут запускать Teams, установив [классические](get-clients.md#desktop-clients) и [мобильные](get-clients.md#mobile-clients) клиенты, или [в браузере](get-clients.md#mobile-clients) на сайте [https://teams.microsoft.com](https://teams.microsoft.com). 
 
 ### <a name="how-do-i-get-help-to-get-started-with-teams-and-make-sure-the-deployment-is-successful"></a>Как получить помощь по началу работы с Teams и убедиться, что развертывание прошло успешно?
 
