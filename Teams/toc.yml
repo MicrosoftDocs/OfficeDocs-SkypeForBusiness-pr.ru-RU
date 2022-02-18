@@ -89,32 +89,32 @@ items:
                     href: teams-adoption-drive-awareness.md
                   - name: Планирование проверок работоспособности служб
                     href: teams-adoption-schedule-service-health-reviews.md
-          - name: Развертывание клиентов Teams
+          - name: Развертывания клиентов
             items:
-              - name: Работа с клиентами для Teams
+              - name: Получение клиентов Teams
                 href: get-clients.md
-              - name: Получение Teams для Android в Китае
-                href: get-teams-android-in-china.md
-              - name: Аппаратные требования для приложения Teams
-                href: hardware-requirements-for-the-teams-app.md
-              - name: Рекомендации по драйверам аппаратного декодера и кодировщика
-                href: hardware-decoders-and-encoders.md
-              - name: Установите Microsoft Teams с помощью Microsoft Endpoint Configuration Manager
+              - name: Обновления клиента Teams
+                href: teams-client-update.md
+              - name: Массовая установка Teams с помощью установщика Windows
                 href: msi-deployment.md
-              - name: Включение Teams в организации
-                href: Office-365-set-up.md
-              - name: Использование памяти в Microsoft Teams
-                href: teams-memory-usage-perf.md
-              - name: URL-адреса и диапазоны IP-адресов в Microsoft 365 и Office 365
-                href: office-365-urls-ip-address-ranges.md
               - name: Teams для инфраструктуры виртуальных рабочих столов (VDI)
                 href: teams-for-vdi.md
               - name: Teams для среды удаленных рабочих столов (RDP)
                 href: teams-on-rdp.md
-              - name: Обновления клиента Teams
-                href: teams-client-update.md
               - name: Устранение неполадок при установке и обновлении
                 href: troubleshoot-installation.md
+              - name: Ссылка
+                items:
+                  - name: URL-адреса и диапазоны IP-адресов Microsoft 365
+                    href: office-365-urls-ip-address-ranges.md
+                  - name: Требования к оборудованию
+                    href: hardware-requirements-for-the-teams-app.md
+                  - name: Использование памяти в Teams
+                    href: teams-memory-usage-perf.md
+                  - name: Рекомендации по драйверам аппаратного декодера и кодировщика
+                    href: hardware-decoders-and-encoders.md
+                  - name: Сценарий PowerShell брандмауэра Teams
+                    href: client-firewall-script.md
       - name: Обучение работе с Teams
         items:
           - name: Обучение для администраторов Teams
@@ -1767,6 +1767,8 @@ items:
             href: /sharepoint/teams-connected-sites?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
           - name: Управление параметрами интеграции SharePoint и Teams
             href: /sharepoint/manage-teams-sharepoint-experiences?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
+      - name: Включение Teams в организации
+        href: Office-365-set-up.md
       - name: PowerShell в Teams
         items:
           - name: Обзор
