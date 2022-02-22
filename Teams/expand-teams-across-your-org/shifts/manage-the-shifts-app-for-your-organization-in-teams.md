@@ -24,12 +24,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: fa274c8aa068d7b17ce35d17525b58152677de07
-ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
+ms.openlocfilehash: dd40888ec8f1f7c5c05c3f5a2bf5a867ece93a65
+ms.sourcegitcommit: 10bee789272e648ea1e93d7d7c27ec645d0a8bdd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62288377"
+ms.lasthandoff: 02/22/2022
+ms.locfileid: "62918882"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Управление приложением "Смены" для вашей организации в Microsoft Teams
 
@@ -52,6 +52,10 @@ ms.locfileid: "62288377"
 ## <a name="location-of-shifts-data"></a>Расположение данных Смен
 
 В настоящее время данные Смен хранятся в центрах обработки данных Azure в Северной Америке, Западной Европе и Азиатско-Тихоокеанском регионе. Дополнительные сведения о месте хранения данных см. в статье [Где находятся мои данные?](http://o365datacentermap.azurewebsites.net/)
+
+## <a name="shifts-data"></a>Сдвиг данных
+
+Дополнительные сведения о том, где хранятся данные Shifts, а также о хранении, истилке и шифровании данных Shifts, см. в вопросе о [сменах](shifts-data-faq.md).
 
 ## <a name="set-up-shifts"></a>Настройка Смен
 
@@ -86,6 +90,7 @@ ms.locfileid: "62288377"
 
 ## <a name="related-topics"></a>Связанные статьи
 
+- ["Смены" для Teams](../shifts-for-teams-landing-page.md)
 - [Справка по сменам для сотрудников, работающих на переднем телефоне](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
-- [Назначение политик пользователям в Teams](../../policy-assignment-overview.md)
 - [Соединитетели смен](shifts-connectors.md)
+- [Назначение политик пользователям в Teams](../../policy-assignment-overview.md)

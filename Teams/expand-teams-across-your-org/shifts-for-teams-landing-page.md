@@ -22,12 +22,12 @@ searchScope:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: 4c3ed73b3238be2795c30fa7d162ed201cd77afd
-ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
+ms.openlocfilehash: b92cca01512d31fe193a718eede74fd04f44ae2e
+ms.sourcegitcommit: 10bee789272e648ea1e93d7d7c27ec645d0a8bdd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62288507"
+ms.lasthandoff: 02/22/2022
+ms.locfileid: "62918872"
 ---
 # <a name="shifts-for-teams"></a>"Смены" для Teams
 
@@ -43,18 +43,19 @@ ms.locfileid: "62288507"
 
 |&nbsp;  |&nbsp; |
 |---------|---------|
-|<img src="/office/media/icons/calendar-teams.png" alt="Calendar symbol.">|**[Управление сменами в организации](shifts/manage-the-shifts-app-for-your-organization-in-teams.md)** Узнайте, как управлять сменами в организации. |
-|<img src="/office/media/icons/users-people.png" alt="Users/people symbol.">|**[Управление владельцами расписания для управления сменами](shifts/schedule-owner-for-shift-management.md)** Эта функция позволяет повысить разрешения участника группы до владельца расписания, не назначить сотрудника владельцем команды. |
+|<img src="/office/media/icons/calendar-teams.png" alt="Calendar symbol.">   |**[Управление сменами](shifts/manage-the-shifts-app-for-your-organization-in-teams.md)** Узнайте, как управлять сменами в организации.         |
+|<img src="/office/media/icons/users-people.png" alt="Users/people symbol.">   |**[Управление владельцами расписания для управления сменами](shifts/schedule-owner-for-shift-management.md)** Эта функция позволяет повысить разрешения участника группы до владельца расписания, не назначить сотрудника владельцем команды.         |
+|<img src="/office/media/icons/help.png" alt="Help symbol.">     | **[Смены данных: faq](shifts/shifts-data-faq.md)** Узнайте, где хранятся данные Shifts, и другие разделы, связанные с данными Shifts, включая хранение, и извлечь данные и шифрование.        |
 
 ## <a name="shifts-connectors"></a>Соединитетели смен
 
-Если вы используете для планирования систему управления трудовыми ресурсами сторонних компаний, вы можете интегрироваться непосредственно со сменами через управляемые соединители смен, а также через API и SDK для shifts Graph Shifts с открытым кодом. После того как вы настроите подключение, сотрудники, работающие с телефоном, смогут без проблем просматривать свои расписания в WFM-системе и управлять ими в сменах.
+Если вы используете для планирования систему управления трудовыми ресурсами сторонних компаний, вы можете интегрироваться непосредственно со сменами через соединители управляемых смен и через API и SDK для shifts Graph Shifts с открытым кодом. После того как вы настроите подключение, сотрудники, работающие с телефоном, смогут без проблем просматривать свои расписания в WFM-системе и управлять ими в сменах.
 
 |&nbsp;  |&nbsp;  |
 |---------|---------|
 |<img src="/office/media/icons/connector-teams.png" alt="Connector symbol.">     | **[Общие сведения о соединителах смен](shifts/shifts-connectors.md)** Общие сведения о соединителах Смены и их работе. Узнайте о доступных соединителах с управляемыми данными и с открытым кодом, а также о поддерживаемых системах WFM.   |
 |<img src="/office/media/icons/connector-teams.png" alt="Connector symbol.">     | **[Соединители управляемых смен](shifts/shifts-connectors.md#managed-shifts-connectors)** Соединители Управляемые смены, разработанные в совместной работе с нашими партнерами, находятся и управляются нами или нашими партнерами. Если вы используете WFM-систему Reflexis, дополнительные Microsoft Teams [в этой](shifts/shifts-connectors.md#reflexis-shifts-connector-for-microsoft-teams) области.    |
-|<img src="/office/media/icons/api.png" alt="Three gears - API.">    | **[Соединители Смены с открытым кодом](/microsoftteams/platform/samples/shifts-wfm-connectors)** Узнайте, как использовать [](https://github.com/OfficeDev/Microsoft-Teams-Shifts-WFM-Connectors) соединителы с открытым кодом на основе сообщества для интеграции системы Kronos или JDA WFM с помощью API и SDK на основе Graph Shifts.    |
+|<img src="/office/media/icons/api.png" alt="Three gears - API.">    | **[Соединители Смены с открытым кодом](/microsoftteams/platform/samples/shifts-wfm-connectors)** Узнайте, как использовать [](https://github.com/OfficeDev/Microsoft-Teams-Shifts-WFM-Connectors) соединителы с открытым кодом на основе сообщества для интеграции системы Kronos или JDA WFM с помощью API и SDK для Graph Shifts.    |
 
 ## <a name="shifts-extensions"></a>Расширения смен
 

@@ -1539,6 +1539,8 @@ items:
                 items:
                   - name: Обзор
                     href: expand-teams-across-your-org/shifts/shifts-connectors.md
+              - name: 'Данные смен: вопросы и ответы'
+                href: expand-teams-across-your-org/shifts/shifts-data-faq.md
       - name: Teams для образования
         href: expand-teams-across-your-org/teams-for-education-landing-page.md
         items:
