@@ -15,16 +15,16 @@ ms.collection:
 - M365-collaboration
 description: Узнайте о требованиях к поддержке Комнаты Microsoft Teams, включая выбор соответствующего устройства, микрофонов, динамиков, камер и дисплеев.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0609fc0267a20d716d897ad4782842395b9835b1
-ms.sourcegitcommit: 5e9a8d3cdb72b57adfb842200159c5d753b70ecb
+ms.openlocfilehash: 83430fd401a601ede397de188d956a61c93ac206
+ms.sourcegitcommit: 5ca04ee10e3f254e1b24506de116591fdfd51d18
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2022
-ms.locfileid: "62329049"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "62929234"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Требования к комнатам Microsoft Teams
 
-Комнаты Microsoft Teams разного размера комнаты. Комнаты Teams использовать широкий спектр сертифицированных периферийных устройств для аудио- и видеосвязи в зависимости от размера и использования комнаты. Выбрав нужное основное устройство и консоль в сочетании с микрофонами, динамиками, камерами и мониторами, вы можете развернуть Комнаты Microsoft Teams на пространствах любого размера от небольших мест для конференц-связи до больших конференц-залов и конференц-залов.  Полный набор доступных сертифицированных периферийных аудио и видео устройств, которые можно использовать для настройки комнаты, см. в статье [Демонстрация устройств](https://products.office.com/microsoft-teams/across-devices).
+Комнаты Microsoft Teams разного размера комнаты. Комнаты Teams использовать широкий спектр сертифицированных периферийных устройств для аудио- и видеосвязи в зависимости от размера и использования комнаты. Выбрав нужное основное устройство и консоль в сочетании с микрофонами, динамиками, камерами и мониторами, вы можете развернуть Комнаты Microsoft Teams на любых пространствах любого размера от небольших мест для конференц-связи до больших конференц-залов и конференц-залов.  Полный набор доступных сертифицированных периферийных аудио и видео устройств, которые можно использовать для настройки комнаты, см. в статье [Демонстрация устройств](https://products.office.com/microsoft-teams/across-devices).
 
 В этой статье представлены общие требования к развертыванию и конфигурации устройств для поддержки комнат Microsoft Teams.
 
@@ -37,7 +37,7 @@ ms.locfileid: "62329049"
 > [!NOTE]
 > Комнаты Microsoft Teams войти в Microsoft Teams, Skype для бизнеса Server 2019 или Skype для бизнеса Server 2015, и может присоединиться к собраниям, которые будут проводиться в любой из этих служб.
 >
-> Такие приложения, как Lync Server 2013, не поддерживаются в Комнатах Microsoft Teams. Комнаты Microsoft Teams не поддерживается в Microsoft 365 или Office 365 под управлением 21Vianet или средах DoD.
+> Такие приложения, как Lync Server 2013, не поддерживаются в Комнатах Microsoft Teams. Комнаты Microsoft Teams не поддерживается в Microsoft 365 или Office 365 под управлением 21Vianet или в средах DoD.
 >
 > Если вы используете локальный Exchange server, в комнатах Microsoft Teams необходимо использовать Exchange Server 2013 SP1 или более позднюю версию.
 
@@ -67,6 +67,16 @@ ms.locfileid: "62329049"
    |[Uc-M70-T с КОМПЬЮТЕРОМ ASUS](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M70-T)|Core i5/i7|8 ГБ |128 ГБ |
    |[Uc-MX50-T с КОМПЬЮТЕРОМ ASUS](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-MX50-T)|Core i5/i7|8 ГБ |128 ГБ |
    |[Uc-MX70-T с КОМПЬЮТЕРОМ ASUS](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-MX70-T)|Core i5/i7|8 ГБ |128 ГБ |
+   |Uc-B30-T с Dell OPTIPLEX|Core i5|8 ГБ|128 ГБ|
+   |Uc-Bx30-T с Dell OPTIPLEX|Core i5|8 ГБ|128 ГБ|
+   |Висячая UC-MM30-T с Dell OPTIPLEX|Core i5|8 ГБ|128 ГБ|
+   |Висячая UC-MMX30-T с Dell OPTIPLEX|Core i5|8 ГБ|128 ГБ|
+   |Висячая UC-M50-T с Dell OPTIPLEX|Core i5|8 ГБ|128 ГБ|
+   |Висячая UC-MX50-T с Dell OPTIPLEX|Core i5|8 ГБ|128 ГБ|
+   |Висячая UC-M70-T с Dell OPTIPLEX|Core i5|8 ГБ|128 ГБ|
+   |Висячая UC-MX70-T с Dell OPTIPLEX|Core i5|8 ГБ|128 ГБ|
+   |100-T с Dell OPTIPLEX|Core i5|8 ГБ|128 ГБ|
+   |100-T с Dell OPTIPLEX|Core i5|8 ГБ|128 ГБ|
   |[Манкрон Миллиметр (Mini UC-MM30-T)](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-MM30-T)|Core i5|8 ГБ |128 ГБ |
   |[Dell OptiPlex 7080 с logitech TAP](https://www.dell.com/en-us/work/shop/cty/pdp/spd/optiplex-7080-xe-teams) | Core i7 |16 ГБ |128 ГБ|
   |[HP Elite Slice для Meeting Rooms G2](https://www8.hp.com/us/en/elite-family/elite-slice-for-meetings.html) |Core i5 |8 ГБ |128 ГБ |
@@ -140,6 +150,7 @@ ms.locfileid: "62329049"
 |[Huddly IQ Lite](https://www.huddly.com/conference-cameras/iq/) |1.3.29|
 |[Huddly IQ Camera](https://www.huddly.com/conference-cameras/iq/) |1.3.27|
 |Камера Huddly L1 с пакетом [MTR Для UC-C100-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T) | Камера Huddly L1: 1.2.1 </br> Для вычислений 1.0.20.246 или более |
+|Камера Huddly L1 с [UC-CX100-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-CX100-T) MTR-W Kit | Камера Huddly L1: 1.2.9 </br> Uc-CX100-T с ASUS Tek Computer INC 9934 1.00.20.246 или более |
 |Камера Huddly L1 с пакетом MTR в Моделироне UC-M70-T | Камера Huddly L1: 1.2.1 </br> Для вычислений с 1.0.20.246 или более высокой производительной осью UC-M70-T с ASUS Tek Computer INC 9934 |
 |Камера Huddly L1 с пакетом MTR в Моделироне UC-MX70-T | Камера Huddly L1: 1.2.1 </br> Для вычислений 1.0.20.246 или более высокой оси с помощью asUS Tek Computer INC 9934 можно укадрять UC-MX70-T с ASUS Tek Computer INC 9934. |
 |[Камера Jabra Panacast3](https://www.jabra.com/business/video-conferencing/jabra-panacast)|1.3.9.12|
@@ -177,11 +188,13 @@ ms.locfileid: "62329049"
 |[EPOS Expand 80T + 2 Extension Mics](https://www.eposaudio.com/en/us/enterprise/products/expand-80t-bluetooth-speakerphone-1000203) |Динамик ( 4.6.55) <br/> Расширение микрофона — 0.2.314|
 |[EpOS Expand Capture 5](https://www.eposaudio.com/en/us/enterprise/products/expand-capture-5-speakerphone-1000895)  |1.0.1|
 |[Exпис DMP128 PLUS C V AT DSP System (DMP 128 Plus C V AT, DMP 128 Plus C AT, DMP 128 Plus C V, DMP 128 Plus C, DMP 128 Plus AT, DMP 128 Plus, DMP 128Plus C AT, DMP 128](https://www.extron.com/product/dmp128plus) | 1.08 |
+|[Exпис DMP 64 PLUS C V AT DSP System (DMP 64 Plus C V AT, DMP 64 Plus C AT, DMP 64 Plus C V, DMP 64 Plus C)](https://www.extron.com/product/dmp64plus) | 1.08|
 |[Jabra 510](http://www.jabra.com/support/Jabra-SPEAK&trade;-510_7510-209)   |2.10.0   |
 |[Jabra 710](http://www.jabra.com/business/speakerphones/jabra-speak-series/jabra-speak-710)   |1.8.0   |
 |[Jabra 810](http://www.jabra.com/supportpages/jabra-speak-810)   |1.2.23   |
 |[Yamaha YVC-1000](http://www.yamaha.com/products/en/communication/usb_conference_speakerphones/yvc-1000/)   |100c   |
 |[Yamaha YVC-1000MS](https://uc.yamaha.com/products/conference-phones/usb-bluetooth/) |1.0.0 |
+|[Решение ADECIA Ceiling](https://uc.yamaha.com/products/microphone-systems/adecia/)|1.2.0|
 |[Yealink CP900](https://www.yealink.com/products_150.html) |100.20.0.29 |
 |[Yealink UVC30](https://www.yealink.com/product/microsoft-teams-room-system-uvc30)| 105.420.0.11 |  &#x2714; |
 |[Видеосайт "Все в одном" в Yealink UVC34](https://www.yealink.com/product/usb-videobar-uvc34) | 265.410.0.9 |
@@ -195,6 +208,7 @@ ms.locfileid: "62329049"
 |[Microphonere MXA 710 2ft Table Linear Array Microphone](https://www.shure.com/products/microphones/mxa710) + </br></br> [Shure Intellimix P300 Audio Conferencing Processor](https://www.shure.com/products/mixers/p300) +</br></br> [Динамик октата MXN5-C](https://www.shure.com/en-US/products/loudspeakers/mxn5)| MXA710 2ft Table Linear Array Mic: 1.2.0 </br> P300 DSP: 4.4.8 </br> Динамик MXN5-C: 1.1.1 |
 |[Микрофон линейного массива стены 710 4ft](https://www.shure.com/products/microphones/mxa710) + </br></br> [Shure Intellimix P300 Audio Conferencing Processor](https://www.shure.com/products/mixers/p300) +</br></br> [Динамик октата MXN5-C](https://www.shure.com/en-US/products/loudspeakers/mxn5)| MXA710 4ft Wall Linear Array Mic: 1.2.0 </br> P300 DSP: 4.4.8 </br> Динамик MXN5-C: 1.1.1 |
 |[Микрофон массива Intellimix с технологией Intellimix Ceiling Array 910](https://www.shure.com/products/microphones/mxa910) + </br> [Программное обеспечение комнаты Intellimix](https://www.shure.com/products/software/intellimix_room) +</br> [Crestron UC-C100-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T)| Программное обеспечение комнаты Intellimix: 3.0.4.14 </br> Телефона MXA 910 с микрофоном intellimix Ceiling Array: 4.4.11 </br> Динамики MXN5-C: 1.2.1 </br> Computron UC-C100-T с asUS Tek Computer INC 9934 | 
+|[Sennheiser TeamConnect Intelligent Speaker/TC ISP (T-Rock)](https://en-us.sennheiser.com/tcisp)|1.0.2|
 |[Biamp Tesira Fore AVB VT4 Fixed audio DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ &Dagger;</br></br> [Sennheiser TeamConnect Ceiling 2 Microphone](https://sennheiser.com/tcc2)+ &Dagger;</br></br> [Tesira EX-UBT](https://www.biamp.com/products/tesira/tesira-expanders) &Dagger; |  Biamp DSP: 3.12.0.15  </br></br> TCC2: 1.3.3 </br></br> EX-UBT: 3.12.0.15 |
 |[Записная книжка Tesira FORTÉ AVB VT4 Audio DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ </br></br>[Дефис Parlé TCM-XA окне окне микрофона](https://www.biamp.com/products/product-families/parle/parle-microphones)+</br></br> [Десоно C-IC6, повернутый в динамик](https://www.biamp.com/products/tesira-speakers)| Audio FW version: 3.15|
 |[Дефис TesiraFORTE AVB VT4](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ </br></br>[Parle TTM-X(Table Mic)](https://www.biamp.com/products/product-families/parle/parle-microphones)+</br></br>[Ex-UBT]() |Audio FW version: 3.15|
