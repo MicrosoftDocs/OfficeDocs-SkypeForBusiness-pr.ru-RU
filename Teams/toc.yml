@@ -457,6 +457,8 @@ items:
                 href: teams-analytics-and-reports/teams-live-event-usage-report.md
               - name: Отчет лицензии для защиты информации Teams
                 href: teams-analytics-and-reports/information-protection-license-report.md
+              - name: Отчет об использовании виртуальных визитов Teams
+                href: teams-analytics-and-reports/virtual-visits-usage-report.md
       - name: 'Файлы журнала, работоспособность служб и поддержка'
         items:
           - name: Использование файлов журнала для мониторинга и устранения неполадок в Teams
@@ -751,7 +753,7 @@ items:
                 href: ptsn-mask-phone-numbers.md
           - name: Доступность аудиоконференций в различных странах и регионах
             href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
-          - name: Справка
+          - name: Справочные материалы
             items:
               - name: Поддерживаемые языки аудиоконференций
                 href: audio-conferencing-supported-languages.md
@@ -1527,6 +1529,10 @@ items:
                 href: expand-teams-across-your-org/bookings-virtual-visits.md
               - name: Управление приложением Bookings
                 href: bookings-app-admin.md
+              - name: Управление возможностями присоединения в мобильных браузерах
+                href: expand-teams-across-your-org/mobile-browser-join.md
+              - name: Отчет об использовании виртуальных визитов
+                href: teams-analytics-and-reports/virtual-visits-usage-report.md
           - name: '"Смены" для Teams'
             items:
               - name: Начало работы с приложением "Смены"
@@ -1645,6 +1651,8 @@ items:
                 href: expand-teams-across-your-org/healthcare/ehr-admin-reports.md
               - name: Виртуальные визиты с помощью Teams и Bookings
                 href: expand-teams-across-your-org/bookings-virtual-visits.md
+              - name: Отчет об использовании виртуальных визитов
+                href: teams-analytics-and-reports/virtual-visits-usage-report.md
               - name: Управление возможностями присоединения в мобильных браузерах
                 href: expand-teams-across-your-org/mobile-browser-join.md
           - name: Просмотр и назначение пакетов политик
