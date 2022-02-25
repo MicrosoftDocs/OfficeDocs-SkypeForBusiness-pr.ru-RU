@@ -18,12 +18,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Узнайте, как настроить каналы для модерации в Microsoft Teams, включая добавление участников группы в качестве модераторов каналов.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 9fd15b6d7eeecf0f1b7e6ec25e33236f50fd83b3
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: 4441eea880b5dcf1d71ca11f0ad32cf148f90cf4
+ms.sourcegitcommit: eb5fadedacbf4651ed5b05f1b0d6abf57e9eda2d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62400853"
+ms.lasthandoff: 02/25/2022
+ms.locfileid: "62960011"
 ---
 # <a name="set-up-and-manage-channel-moderation-in-microsoft-teams"></a>Настройка модерации канала и управление им в Microsoft Teams
 
@@ -62,7 +62,7 @@ ms.locfileid: "62400853"
 
 В Teams перейдите в канал, щелкните **Дополнительные параметры ...** >  **"Управление каналом"**. Здесь можно включить и отключить модерирование, добавить участников группы в качестве модераторов и настроить параметры.
 
-Модерирование канала — это параметр для каждого канала. Для модерирования канала на уровне клиента нет параметра. Если вы хотите, чтобы мы добавили параметр модерации канала на уровне клиента, задайте его на сайте [Teams UserVoice](https://microsoftteams.uservoice.com/).
+Модерирование канала — это параметр для каждого канала. Для модерирования канала на уровне клиента нет параметра. Если вы хотите, чтобы мы добавили параметр модерации канала на уровне клиента, задайте его на портале отзывов Teams [отзывов](https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472).
 
 [!INCLUDE [uservoice-disclaimer-note](includes/uservoice-disclaimer-note.md)]
 

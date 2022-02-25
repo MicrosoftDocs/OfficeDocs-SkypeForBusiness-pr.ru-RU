@@ -20,12 +20,12 @@ metadata:
   - Teams_ITAdmin_RemoteWorkers
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: bfdb7ceab9e4a3d3ffebf903b073c5ec707e7bc6
-  ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
+  ms.openlocfilehash: 1737461b1eface3038957a862ab2bcb743ca4615
+  ms.sourcegitcommit: eb5fadedacbf4651ed5b05f1b0d6abf57e9eda2d
   ms.translationtype: MT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 10/28/2021
-  ms.locfileid: "60605605"
+  ms.lasthandoff: 02/25/2022
+  ms.locfileid: "62960061"
 items:
 - durationInMinutes: 1
   content: >
@@ -67,7 +67,7 @@ items:
     -   Оставьте сообщение в разделе комментариев в нижней части страницы "Дальнейшие действия" этого руководства.
 
 
-    Чтобы оставить отзыв о продукте Microsoft Teams, например поделиться идеями новых функций, зайдите на портал [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public).
+    Чтобы предоставить нам отзывы о новых Teams, например идеи для новых функций, посетите портал Teams [отзывов](https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472).
 - title: Собрания в Teams
   durationInMinutes: 16
   content: "\nДля ознакомления с собраниями в Teams см. следующие материалы:\n-   Have Meetings (Проведение собраний) в разделе [Собрания и звонки](https://support.office.com/article/Meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8) (примерное время чтения: 6 минут).\n\n-   Видео [Незапланированное собрание](https://support.office.com/article/Video-Meet-now-26e06837-853d-4df1-a729-06bf700d4ecf) (1 минута 45 секунд)\n\n-   Видео [Запланированные собрания](https://support.office.com/article/Video-Scheduled-meetings-ba44d0fd-da3c-4541-a3eb-a868f5e2b137) (1 минута 45 секунд)\n\n-   Статья [9 tips for meeting with Microsoft Teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/9-tips-for-meeting-with-Microsoft-Teams/ba-p/151444) (9 советов по собраниям в Microsoft Teams), которая познакомит вас с \"залом ожидания\", присоединением к собраниям анонимно и другими возможностями (примерное время чтения: 6 минут)\n"
@@ -108,7 +108,7 @@ items:
 
     2.  Отправьте нам отзыв:
         - Оставьте сообщение в разделе комментариев внизу этой страницы.
-        - Вы можете предоставить отзыв о продукте Teams или запросить новые функции на сайте [Teams UserVoice](https://microsoftteams.uservoice.com/forums/555103-public).
+        - Чтобы предоставить нам Teams продукта или запросить новую функцию, перейдите на портал [Teams отзывов](https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472).
     3.  Будьте в курсе событий
         - Подпишитесь на [блог Teams](https://aka.ms/teamsblog).
         - Ознакомьтесь с [дорожной картой](https://aka.ms/O365Roadmap) Teams.
