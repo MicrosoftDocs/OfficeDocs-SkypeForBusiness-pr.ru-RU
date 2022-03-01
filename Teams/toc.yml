@@ -1564,7 +1564,7 @@ items:
             href: edu-remote-low-bandwidth.md
           - name: Мастер политики Teams для образования
             href: easy-policy-setup-edu.md
-          - name: Развертывание приложения "Родители" для Teams
+          - name: Родители в Teams для образования
             href: edu-parents-app.md
           - name: Приложение "Профконсультант" в Teams для образования
             href: career-coach.md

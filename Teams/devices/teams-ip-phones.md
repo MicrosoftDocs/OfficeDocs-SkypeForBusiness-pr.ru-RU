@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Узнайте, какие настольные и конференц-телефоны сертифицированы для Microsoft Teams для получения наилучших результатов.
-ms.openlocfilehash: f3d82d9e546b2a2ba1b3e741173695898a72eb4d
-ms.sourcegitcommit: edf68b7ac4f1861259a0990157ee6ae84f68ca42
+ms.openlocfilehash: 6ce43dca8c425b65fa1fa4cb1722d656d33b725c
+ms.sourcegitcommit: 2044fdcb0c5db10dbc77c5d66e382c1b927ccdc4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/26/2022
-ms.locfileid: "62974486"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "63039917"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams сертифицированных устройств с Android
 
@@ -88,7 +88,7 @@ ms.locfileid: "62974486"
 
 ## <a name="certified-teams-displays"></a>Сертифицированные Teams Дисплеи
 
-В программе сертификации Microsoft Teams Android сертифицированы следующие устройства:
+Следующие устройства сертифицированы в программе сертификации Microsoft Teams Android.
 
 | Модель устройства | Версия программы-программы | Текущая дата окончания сертификации  | Версия ос Android |
 |:------------------------|:-----------------|:--------------|----------------------------------|
@@ -133,6 +133,8 @@ ms.locfileid: "62974486"
 
 | Модель устройства  | Версия программы-программы  | Включенный выпуск продукта  |
 |:----------------|:--------------|:----------------------------|
+| Poly Trio C60   | `7.2.1.1831`  | Обновление 2022 г. 1                        |
+| Poly CCX400/CCX500/CCX600   | `7.2.1.1826`  | Обновление 2022 г. 1                 |
 |UC-2, UcRon     | `1.0.4.75`    | Обновление 2022 г. 1 |
 |Audiocodes C455HD | `1.15.271`    | Обновление 2022 г. 1
 |Audiocodes C448HD  | `1.14.500` | Обновление 2022 г. 1 |

@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Узнайте, какие пограничные контроллеры сеансов (SCS) были сертифицированы для прямой маршрутизации.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 69add2b195da03dee69b2a33583b5dbed8f614e8
-ms.sourcegitcommit: 5e9b50cd1b513f06734be6c024ac06d293b27089
+ms.openlocfilehash: 3805a87171a770298e41337dfdd569c1b7d76985
+ms.sourcegitcommit: 2044fdcb0c5db10dbc77c5d66e382c1b927ccdc4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/10/2022
-ms.locfileid: "62518931"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "63039997"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>Пограничные контроллеры сеансов, сертифицированные для прямой маршрутизации
 
@@ -173,9 +173,9 @@ ms.locfileid: "62518931"
 | [Лента](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions) |   [EdgeMarc 6000. Версия программного обеспечения: 16.1.1](https://ribboncommunications.com/products/service-provider-products/cloud-and-edge/session-border-controllers/session-border-controllers-edge-appliances)   |     &#10004;     |
 | [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/) |  anynode с Grandstream GXW42xx (V1.0.7.10) |     &#10004;     |
   
-Чтобы оставить отзыв о Teams, например, поделиться идеями новых функций, см. раздел [UserVoice](https://microsoftteams.uservoice.com).
-
-
-[!INCLUDE [uservoice-disclaimer-note](includes/uservoice-disclaimer-note.md)]
 
 Обратите внимание на сертификат, предоставленный основной версии. Это означает, что поддерживается прошивка с любым номером во встроенном ПО пограничного контроллера сеансов, следующим за основной версией.
+
+Чтобы оставить отзыв о Teams, например поделиться идеями новых функций, используйте [портал отзывов Майкрософт](https://feedbackportal.microsoft.com/).
+
+

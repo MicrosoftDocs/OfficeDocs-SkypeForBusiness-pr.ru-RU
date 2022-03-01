@@ -24,12 +24,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: dd40888ec8f1f7c5c05c3f5a2bf5a867ece93a65
-ms.sourcegitcommit: 10bee789272e648ea1e93d7d7c27ec645d0a8bdd
+ms.openlocfilehash: d38af9f55f1620a1f38ad5860c71366201bb9444
+ms.sourcegitcommit: 2044fdcb0c5db10dbc77c5d66e382c1b927ccdc4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/22/2022
-ms.locfileid: "62918882"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "63039907"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Управление приложением "Смены" для вашей организации в Microsoft Teams
 
@@ -49,13 +49,14 @@ ms.locfileid: "62918882"
 
 Смены доступны во всех корпоративных SKU, где доступно приложение Teams.
 
+> [!NOTE]
+> Смены доступны в облако сообщества для государственных организаций (GCC), но не в GCC высокой или doD.
+
 ## <a name="location-of-shifts-data"></a>Расположение данных Смен
 
-В настоящее время данные Смен хранятся в центрах обработки данных Azure в Северной Америке, Западной Европе и Азиатско-Тихоокеанском регионе. Дополнительные сведения о месте хранения данных см. в статье [Где находятся мои данные?](http://o365datacentermap.azurewebsites.net/)
+В настоящее время данные shifts хранятся в Azure в центрах обработки данных в Азиатско-Тихоокеанском регионе (APAC), Европейском союзе (ЕС) и Северной Америке. Дополнительные сведения о месте хранения данных см. в статье [Где находятся мои данные?](http://o365datacentermap.azurewebsites.net/)
 
-## <a name="shifts-data"></a>Сдвиг данных
-
-Дополнительные сведения о том, где хранятся данные Shifts, а также о хранении, истилке и шифровании данных Shifts, см. в вопросе о [сменах](shifts-data-faq.md).
+Дополнительные сведения о данных Shifts, в том числе о хранении, хранении, истилке и шифровании данных Shifts, см. в вопросе о [сменах](shifts-data-faq.md).
 
 ## <a name="set-up-shifts"></a>Настройка Смен
 
@@ -88,9 +89,10 @@ ms.locfileid: "62918882"
 
 Прежде чем выполнять поиск в журнале аудита, необходимо сначала включить функцию аудита в [Центре безопасности и соответствия требованиям](https://protection.office.com). Дополнительные сведения см. в статье [Включение и отключение поиска в журнале аудита](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014). Обратите внимание, что данные аудита доступны только с момента его включения.
 
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-articles"></a>Статьи по теме
 
 - ["Смены" для Teams](../shifts-for-teams-landing-page.md)
-- [Справка по сменам для сотрудников, работающих на переднем телефоне](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
+- [Смены данных: faq](shifts-data-faq.md)
 - [Соединитетели смен](shifts-connectors.md)
+- [Справка по сменам для сотрудников, работающих на переднем телефоне](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
 - [Назначение политик пользователям в Teams](../../policy-assignment-overview.md)
