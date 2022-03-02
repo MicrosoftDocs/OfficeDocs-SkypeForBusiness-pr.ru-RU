@@ -24,12 +24,12 @@ ms.custom:
 - seo-marvel-apr2020
 - intro-get-started
 description: Пошаговая информация о том, как настроить Teams телефонная система организации в Microsoft 365.
-ms.openlocfilehash: 1a8f7ed554a360b94e568058be29697c0f2b1767
-ms.sourcegitcommit: 2044fdcb0c5db10dbc77c5d66e382c1b927ccdc4
+ms.openlocfilehash: 3a5c275c7d7d881ff770e6e84a3d4fa935d2827f
+ms.sourcegitcommit: 71edff2670367082312de59c4e21775682871418
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 03/01/2022
-ms.locfileid: "63039987"
+ms.locfileid: "63043347"
 ---
 # <a name="set-up-phone-system-in-your-organization"></a>Настройка телефонной системы в организации
 
@@ -50,7 +50,7 @@ ms.locfileid: "63039987"
 
 ## <a name="step-1-buy-and-assign-a-phone-system-license"></a>Шаг 1. Покупка и назначение телефонная система лицензии
 
-Чтобы назначить телефонная система лицензию одному пользователю, нужно сделать то же самое, что Microsoft 365 лицензию. Вы также можете массово назначить лицензии нескольким пользователям. Дополнительные сведения о доступных телефонная система лицензиях, а также об их приобретении и назначении [](/teams-add-on-licensing/microsoft-teams-add-on-licensing.md) см. в Teams и Назначение лицензий на Microsoft Teams надстройки.[](/teams-add-on-licensing/assign-teams-add-on-licenses.md)
+Чтобы назначить телефонная система лицензию одному пользователю, нужно сделать то же самое, что Microsoft 365 лицензию. Вы также можете массово назначить лицензии нескольким пользователям. Дополнительные сведения о доступных телефонная система лицензиях, а также об их приобретении и назначении [](/microsoftteams//teams-add-on-licensing/microsoft-teams-add-on-licensing) см. в Teams лицензиях на надстройки и Назначение лицензий на Teams [microsot](/microsoftteams/teams-add-on-licensing/assign-teams-add-on-licenses).
 
 ## <a name="step-2-choose-a-pstn-connectivity-option"></a>Шаг 2. Выбор варианта подключения через ДНР 
  

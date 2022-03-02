@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 660ecd7542eadd56b284642895e5da15a1cdd434
-ms.sourcegitcommit: 10bee789272e648ea1e93d7d7c27ec645d0a8bdd
+ms.openlocfilehash: 3f9ca97a0088c703dc482d69406a9e9c2c8b2a22
+ms.sourcegitcommit: 71edff2670367082312de59c4e21775682871418
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/22/2022
-ms.locfileid: "62918943"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "63043377"
 ---
 # <a name="overview-of-loop-components-in-teams"></a>Обзор компонентов цикла в Teams
 
@@ -36,7 +36,7 @@ ms.locfileid: "62918943"
 
 **"Поделиться компонентами".** В этом выпуске вы можете делиться компонентами циклов в различных Teams чатах. Получатели могут редактировать сообщения, где бы они ни находились, и сразу же видеть обновления независимо от того, где они были внесены.
 
-**Начните в чате, создайте оттуда.** Каждый компонент, который вы Teams чате, автоматически сохраняются в файле OneDrive. Таким образом, вы можете приступить к совместной работы в чате, а затем перейти к файлу, где у вас больше места для редактирования и вы можете добавить столько компонентов, сколько вам нужно.
+**Начните в чате, создайте оттуда.** Каждый компонент, который вы Teams чате, автоматически сохраняются в файле в OneDrive. Таким образом, вы можете приступить к совместной работы в чате, а затем перейти к файлу, где у вас больше места для редактирования и вы можете добавить столько компонентов, сколько вам нужно.
 
 Сведения о параметрах администрирования компонентов циклов в Teams см. в [SharePoint.](/sharepoint/manage-loop-components)
 
@@ -44,33 +44,33 @@ ms.locfileid: "62918943"
 
 Доступно в Teams на Windows, Mac, Linux, iOS и Android.
 
-## <a name="loop-components-and-fluid-files"></a>Компоненты цикла и .fluid-файлы
+## <a name="loop-components-and-loop-files"></a>Компоненты циклов и .loop-файлы
 
-Компоненты цикла, созданные в Teams, создаются на OneDrive. Если файл находится в OneDrive пользователи могут создавать компоненты циклов (.fluid-файлы) и управлять ими, а также управлять ими так же легко, как Office документ. .fluid files work with data governance features like eDiscovery, auditing, reporting, and legal hold.
+Компоненты цикла, созданные Teams, создаются на OneDrive. Если файл находится в OneDrive пользователи могут создавать компоненты циклов (LOOP-файлы) и управлять ими, а также управлять ими так же легко, как Office документ. .loop files work with data governance features like eDiscovery, auditing, reporting, and legal hold.
 
-## <a name="how-are-fluid--files-stored"></a>Как хранятся .fluid-файлы?
+## <a name="how-are-loop--files-stored"></a>Как хранятся .loop-файлы?
 
-.fluid files appear on Office.com and OneDrive, such as in the Recent and Recommended areas. Пользователи могут искать содержимое в .fluid-файлах с Office.com и OneDrive. .fluid files can be restored to previous versions from OneDrive. Чтобы создать компоненты цикла, у участников чата должна быть OneDrive учетная запись. Если у вас нет OneDrive учетной записи, участники чата могут по-прежнему иметь возможность совместно работать над компонентом, созданным другими пользователями, у которых есть действительная OneDrive учетная запись, но не может создать собственную. 
+.loop files appear on Office.com and OneDrive, such as in the Recent and Recommended areas. Пользователи могут искать содержимое в циклных файлах с Office.com и OneDrive. Циклные файлы можно восстановить в предыдущих версиях из OneDrive. Чтобы создать компоненты цикла, у участников чата должна быть OneDrive учетная запись. Если у вас OneDrive учетная запись, участники чата могут по-прежнему иметь возможность совместно работать над компонентом, созданным другими пользователями, у которых есть действительная OneDrive учетная запись, но не может создать собственную. 
 
-При перемещении .fluid file from OneDrive на SharePoint-сайт не удается загрузить компонент в Teams чате.
+При перемещении файла из OneDrive на сайт SharePoint не удается загрузить компонент Teams чате.
 
 ## <a name="what-happens-if-the-owner-of-the-file-leaves-the-company"></a>Что произойдет, если владелец файла покидает компанию?
 
-OneDrive политики хранения применяются к .fluid-файлам точно так же, как к другому контенту, созданному пользователем.
+OneDrive политики хранения применяются к .loop-файлам точно так же, как к другому контенту, созданному пользователем.
 
-## <a name="how-are-fluid-files-shared"></a>Как можно делиться .fluid-файлами?
+## <a name="how-are-loop-files-shared"></a>Как можно делиться файлами с циклом?
 
 Компоненты цикла можно вставлять в Teams чате или копировать из одного чата в другой. (Компоненты цикла пока не поддерживаются в каналах.) Они по умолчанию имеют существующие разрешения для организации, но пользователи могут изменять разрешения перед отправкой, чтобы обеспечить доступ всем пользователям.
 
-При открытии компонентов из Teams чата в Office.com в верхней части окна доступны функции общего доступа, аналогичные возможностям общего доступа для Office документов.
+При открытии компонентов из Teams чата в Office.com в верхней части окна доступны функции общего доступа, аналогичные возможностям общего доступа для других Office документов.
 
-## <a name="what-if-a-fluid-file-becomes-corrupted-or-damaged"></a>Что делать, если .fluid-файл поврежден?
+## <a name="what-if-a-loop-file-becomes-corrupted-or-damaged"></a>Что делать, если циклный файл поврежден или поврежден?
 
 История версий позволяет просмотреть и скопировать файл из предыдущих версий.
 
-## <a name="what-apps-can-open-and-edit-fluid-files"></a>Какие приложения можно открывать и редактировать .fluid files?
+## <a name="what-apps-can-open-and-edit-loop-files"></a>Какие приложения могут открывать и редактировать ЦИКЛные файлы?
 
-.fluid files can be opened only as links in your browser, such as Office.com, and as Loop components in Teams chat. Если они скачались, их невозможно снова открыть, не загрузив их обратно в OneDrive или SharePoint.
+Циклные файлы можно открывать только в браузере как ссылки, например Office.com, и как компоненты цикла в Teams чате. Если они скачались, их невозможно снова открыть, не загрузив их обратно в OneDrive или SharePoint.
 
 ## <a name="known-issues"></a>Известные проблемы
 
