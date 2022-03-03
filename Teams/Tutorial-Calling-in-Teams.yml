@@ -17,12 +17,12 @@ metadata:
   - M365-voice
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 1570c7e7a92a2a3914d01733fed3691d61282e16
-  ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+  ms.openlocfilehash: 976b0303dfe17ad9f51f37e574e141beea59741f
+  ms.sourcegitcommit: f8b935e009895138eddfc1ae360b7b2ace747d3c
   ms.translationtype: MT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 11/08/2021
-  ms.locfileid: "60834807"
+  ms.lasthandoff: 03/02/2022
+  ms.locfileid: "63050885"
 items:
 - durationInMinutes: 1
   content: >
@@ -62,7 +62,7 @@ items:
     - Оставьте сообщение в разделе комментариев в нижней части страницы "Дальнейшие действия" этого руководства.</a>
 
 
-    Чтобы оставить отзыв о продукте Microsoft Teams, например поделиться идеями новых функций, зайдите на портал [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public).
+    Чтобы предоставить нам отзывы о новых Teams, например идеи для новых функций, посетите портал Teams [отзывов](https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472).
 - title: Что такое звонки в Microsoft Teams?
   durationInMinutes: 15
   content: >
@@ -249,4 +249,4 @@ items:
   content: "\nСпланировав и внедрив Телефонную систему в своей среде, вы должны удостовериться, что эта система используется и пользователям удобно с ней работать. Хотя подробное описание выходит за рамки этого учебного руководства, мы выделим ряд самых важных направлений взаимодействия:\n\n-   Управление внедрением и трансформацией. Пользователи могут просто начать работу со службой, когда вы им ее предложите. Но они могут и проигнорировать нововведение. Поэтому важно проконтролировать освоение и ввести эффективное управление изменениями.\n\n-   Использование мониторинга и управления. Рекомендуем задать число активных пользователей в качестве одного из показателей KSI. Это поможет оценить, насколько полно пользователи приняли Teams в качестве своего телефонного клиента.\n\n-   Мониторинг и повышение качества\n\nУдовлетворенность пользователей напрямую связана с качеством звонков. Поэтому важно контролировать качество звонков и при необходимости улучшать его. Мы предлагаем отдельное учебное руководство по работе с панелью мониторинга качества звонков. Хотя эти видео были созданы для Skype для бизнеса, они также применимы к Teams: <https://aka.ms/sof-cqd>.\n"
 - title: Дальнейшие действия
   durationInMinutes: 1
-  content: "\nВ рамках этого руководства мы рассмотрели следующие ключевые разделы:\n-   Что такое звонки в Microsoft Teams?\n\n-   Как запланировать внедрение звонков в Microsoft Teams\n\n-   Как настроить звонки в Microsoft Teams\n\nДополнительные сведения:\n\n-   [Телефонная система с тарифными планами](calling-plan-landing-page.md)\n\n-   [Краткое руководство по началу работы. Настройка планов звонков в Microsoft Teams](./configuring-teams-calling-quickstartguide.md)\n\nДальнейшие действия\n\n1.  Начните развертывание Телефонной системы для Microsoft Teams\n2.  Отправьте нам отзыв:\n    - Оставьте сообщение в разделе комментариев внизу этой страницы.\n    - Чтобы оставить отзыв о Teams или поделиться идеями о новых функциях, посетите страницу [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public).\n3.  Будьте в курсе событий\n    - Подпишитесь на [блог Teams](https://aka.ms/teamsblog).\n    - Ознакомьтесь с [дорожной картой](https://aka.ms/O365Roadmap) Teams.\n    - Сведения о последних выпущенных компонентах см. в [Заметках о выпуске](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de)\n4.  Посмотрите [другие обучающие курсы и материалы](/OfficeDocs-SkypeForBusiness-pr/blob/master/Teams/ITAdmin-readiness#technical-training).\n"
+  content: "\nВ рамках этого руководства мы рассмотрели следующие ключевые разделы:\n-   Что такое звонки в Microsoft Teams?\n\n-   Как запланировать внедрение звонков в Microsoft Teams\n\n-   Как настроить звонки в Microsoft Teams\n\nДополнительные сведения:\n\n-   [Телефонная система с тарифными планами](calling-plan-landing-page.md)\n\n-   [Краткое руководство по началу работы. Настройка планов звонков в Microsoft Teams](./configuring-teams-calling-quickstartguide.md)\n\nДальнейшие действия\n\n1.  Начните развертывание Телефонной системы для Microsoft Teams\n2.  Отправьте нам отзыв:\n    - Оставьте сообщение в разделе комментариев внизу этой страницы.\n    - Чтобы поделиться с нами своим мнением Teams или поделиться своими идеями о новых функций, посетите портал Teams [отзывов](https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472).\n3.  Будьте в курсе событий\n    - Подпишитесь на [блог Teams](https://aka.ms/teamsblog).\n    - Ознакомьтесь с [дорожной картой](https://aka.ms/O365Roadmap) Teams.\n    - Сведения о последних выпущенных компонентах см. в [Заметках о выпуске](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de)\n4.  Посмотрите [другие обучающие курсы и материалы](/OfficeDocs-SkypeForBusiness-pr/blob/master/Teams/ITAdmin-readiness#technical-training).\n"
