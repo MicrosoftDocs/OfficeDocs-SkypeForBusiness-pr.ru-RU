@@ -20,16 +20,16 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: Узнайте, как настроить и протестировать автоответников для малого бизнеса в Microsoft 365 Teams Телефон с помощью плана звонков.
-ms.openlocfilehash: b5c3b27b0b7bdc835d0dbe30a9478b52f4300ab4
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+description: Узнайте, как настроить и протестировать автоответников для малых предприятий в Microsoft Teams телефонная система с помощью плана звонков.
+ms.openlocfilehash: c47733969d32f75222783d85bb9b8bcbcb5dc689
+ms.sourcegitcommit: e86e3824c300c24e022d5cb1848338278a5a96a8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61767352"
+ms.lasthandoff: 03/03/2022
+ms.locfileid: "63053228"
 ---
 # <a name="set-up-an-auto-attendant---small-business-tutorial"></a>Настройка автозавода — учебник по малому бизнесу
 
-Автосекретари позволяют людям звонить в вашу организацию и перемещаться в системе меню для связи с нужным отделом, очередью вызовов, сотрудником или оператором. В Центре администрирования Microsoft Teams администраторов организации.
+Автосекретари позволяют людям звонить в вашу организацию и перемещаться в системе меню для связи с нужным отделом, очередью вызовов, сотрудником или оператором. В Центре администрирования Microsoft Teams для организации можно создавать Microsoft Teams.
 
 [!INCLUDE [business-voice-create-auto-attendant](../includes/business-voice-create-auto-attendant.md)]
