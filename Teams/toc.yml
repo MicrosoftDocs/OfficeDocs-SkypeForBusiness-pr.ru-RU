@@ -1017,7 +1017,7 @@ items:
             href: voice-case-study-call-queues.md
       - name: Руководство для малого и среднего бизнеса
         items:
-          - name: Руководство по телефонной системе для малого и среднего бизнеса
+          - name: Руководство по телефонной системе
             href: business-voice/whats-business-voice.md
           - name: Доступность в странах и регионах
             href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
@@ -1025,7 +1025,7 @@ items:
             href: business-voice/get-ready-internet.md
           - name: Обратитесь за помощью к торговому посреднику или партнеру
             href: business-voice/reseller-partner-support.md
-          - name: Настройка телефонной системы для малого и среднего бизнеса
+          - name: Настройка телефонной системы
             items:
               - name: Обзор
                 href: business-voice/set-up-overview.md
@@ -1045,7 +1045,7 @@ items:
                 href: business-voice/port-phone-numbers.md
               - name: Ресурсы после настройки
                 href: business-voice/set-up-finish.md
-          - name: Изменение настройки телефонной системы для малого и среднего бизнеса
+          - name: Настройка телефонной системы
             items:
               - name: Параметры настройки
                 href: business-voice/customize-business-voice.md
@@ -1059,7 +1059,7 @@ items:
                 href: business-voice/create-a-phone-system-call-queue-smb.md
               - name: Настройка автосекретаря
                 href: business-voice/create-a-phone-system-auto-attendant-smb.md
-          - name: Управление настройкой телефонной системы для малого и среднего бизнеса
+          - name: Управление настройкой телефонной системы
             items:
               - name: Создание одного или нескольких пользователей
                 href: business-voice/create-users.md
@@ -1309,6 +1309,10 @@ items:
                 href: rooms/security.md
               - name: Интернет-лицензирование
                 href: rooms/rooms-licensing.md
+              - name: Рекомендации по использованию условного доступа и соответствия требованиям Intune
+                href: rooms/conditional-access-and-compliance-for-devices.md
+              - name: Поддерживаемые политики условного доступа и соответствия требованиям Intune
+                href: rooms/supported-ca-and-compliance-policies.md
               - name: Планирование управления с помощью Azure Monitor
                 href: rooms/azure-monitor-plan.md
           - name: Развертывание
@@ -1566,7 +1570,7 @@ items:
             href: edu-remote-low-bandwidth.md
           - name: Мастер политики Teams для образования
             href: easy-policy-setup-edu.md
-          - name: Родители в Teams для образования
+          - name: Связь с родителями в Teams для образования
             href: edu-parents-app.md
           - name: Приложение "Профконсультант" в Teams для образования
             href: career-coach.md
