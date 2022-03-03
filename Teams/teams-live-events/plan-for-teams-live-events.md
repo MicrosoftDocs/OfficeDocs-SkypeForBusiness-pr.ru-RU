@@ -8,20 +8,25 @@ ms.service: msteams
 audience: admin
 ms.reviewer: sonua
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.localizationpriority: high
 ms.collection:
-  - M365-collaboration
-  - m365initiative-meetings
-  - m365initiative-meetings-enabler
-  - enabler-strategic
+- M365-collaboration
+- m365initiative-meetings
+- m365initiative-meetings-enabler
+- enabler-strategic
 search.appverid: MET150
-description: 'В этой статье вы ознакомитесь с факторами, которые следует учитывать перед настройкой трансляций в Microsoft Teams.'
+description: В этой статье вы ознакомитесь с факторами, которые следует учитывать перед настройкой трансляций в Microsoft Teams.
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
 ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: f7ce782db18c15e3b08367e0956003f7af2dde75
+ms.sourcegitcommit: 5b1d8d6f811fab0b350a09e5187d982f952d0edb
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 03/02/2022
+ms.locfileid: "63047149"
 ---
-
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Планирование трансляций в Microsoft Teams
 
 При планировании трансляций в Teams для проведения крупных собраний в организации необходимо учесть ряд факторов перед началом настройки.
@@ -181,7 +186,10 @@ ms.custom: seo-marvel-apr2020
 **Исключения и рекомендации**
 
 - **Расположение данных:** расположения данных Teams, за исключением перечисленных выше, в настоящее время не поддерживаются.
-- **Китай:** члены команды и участники мероприятия не смогут использовать прямые трансляции команд, так как Azure CDN недоступен в Китае. Обходной путь - использовать корпоративное VPN-соединение, которое подключает клиента к CDN через корпоративную сеть клиента.
+
+>[!Note]
+> Трансляции зависят от служб Azure CDN, которые могут быть недоступны в некоторых странах. Вам, как администратору, возможно потребуется настроить VPN в соответствии со всеми применимыми законами и нормативными актами, чтобы подключиться к корпоративной сети для бесперебойной работы этих приложений. После этого люди из вашей организации смогут планировать трансляции и посещать их.
+
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
