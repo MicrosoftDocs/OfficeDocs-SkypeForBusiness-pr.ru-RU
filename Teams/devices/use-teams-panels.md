@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 ms.localizationpriority: medium
 description: В этой статье вы можете найти рекомендации по использованию Teams панелей.
-ms.openlocfilehash: bd1a7a865d6e07cec47838a518d19523afef5134
-ms.sourcegitcommit: f8b935e009895138eddfc1ae360b7b2ace747d3c
+ms.openlocfilehash: e39b54d290ac3c8d4809f9da011c2e28451c2ae7
+ms.sourcegitcommit: e97c981489ff1f02674df57426da3b22cc6d68c1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "63050905"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "63062543"
 ---
 # <a name="how-to-use-microsoft-teams-panels"></a>Использование Microsoft Teams панели
 
@@ -204,7 +204,7 @@ Teams панели предустановлены с Microsoft Teams и отоб
 
 Параметры регистрации и выпуска помещений. Пользователи могут заехать на собрание на панели Teams в помещении, зарезервированном в начале собрания. Если пользователь не сможет сделать это в течение заданного времени после начала собрания, помещение будет выпущено и станет доступно для резерва.
 
-Если панель Teams с панелью Microsoft Teams в Android, уведомления о регистрации можно включить для отображения на переднем экране при позднем запуске собраний.
+Если Teams Панели сопряжены с Microsoft Teams Room на Android, уведомления о регистрации можно включить для отображения на экране при позднем запуске собраний.
 
 Чтобы включить регистрацию и выпуск помещений, см. в этой Microsoft Teams [панели](check-in-and-room-release.md).
 

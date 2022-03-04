@@ -17,18 +17,22 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: af6433cb3e5ca0e1849322bdd128915e826e219b
-ms.sourcegitcommit: 2044fdcb0c5db10dbc77c5d66e382c1b927ccdc4
+ms.openlocfilehash: 8d1b84fc78558fcbb1945cbc56b311b5e06234a5
+ms.sourcegitcommit: e97c981489ff1f02674df57426da3b22cc6d68c1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "63040067"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "63062533"
 ---
 # <a name="set-up-parent-connection-in-microsoft-teams-for-education"></a>Настройка родительского подключения в Microsoft Teams для образования
 
 Родительское подключение в Teams для образования помогает преподавателям безопасно общаться с родителями и опекунами учащихся в их командах класса с помощью Teams чата, который будет масштабироваться в масштабах всей организации преподавателя. Все данные об опекунах и родителях Синхронизация сведений о школе, что позволяет ИТ-сотрудникам настроить все условия.
 
-После того как родители и опекуны настроены, они могут общаться с преподавателями своих учеников, используя Teams чата. Инструкции по подключению родителей и опекунов к преподавателям см. в Подключение с преподавателями в [Teams](https://support.microsoft.com/topic/connect-with-educators-in-teams-ec2430c3-952a-4ba4-9891-1d1cab577960).
+После того как преподаватели и опекуны настроены, они могут общаться друг с другом, используя Teams чата. 
+
+Инструкции по подключению родителей и опекунов к преподавателям см. в Подключение с преподавателями в [Teams](https://support.microsoft.com/topic/connect-with-educators-in-teams-ec2430c3-952a-4ba4-9891-1d1cab577960).
+
+Инструкции по настройкам общения преподавателей с родителями и [опекунами](https://support.microsoft.com/topic/communicate-with-guardians-in-microsoft-teams-01471ecd-eb5d-4eda-9c5d-0064d672960e?ui=en-us&rs=en-us&ad=us) см. в этой Microsoft Teams.
 
 Родители также работают с контролируемым чатом. Родители и опекуны не имеют полных разрешений на доступ Teams, что означает, что они не могут начинать беседы с учащимися или удалять пользователей с полными разрешениями (например, преподавателей) из чатов. Дополнительные сведения о контрольном чате см[. в этой](supervise-chats-edu.md) Microsoft Teams.
 
@@ -61,7 +65,7 @@ ms.locfileid: "63040067"
 > [!NOTE]
 >Родители и опекуны классифицируются как внешние пользователи в функции "Родители", то есть у них нет полных прав клиента. У них есть доступ только к чату или чатам, в которые они добавлены, а также к файлам, изображениям и другому содержимому, к совместному доступу в чате.
 >
->Кроме того, внешние пользователи могут видеть присутствие (в автономном режиме, в сети, занят и т. д.), но его можно отключить с помощью PowerShell для защиты конфиденциальности пользователей. В PowerShell используйте [Set-CsPrivacyConfiguration](/powershell/module/skype/set-csprivacyconfiguration?view=skype-ps) и установите ``EnablePrivacyMode=true``.
+>Кроме того, внешние пользователи могут видеть присутствие (в автономном режиме, в сети, занят и т. д.), но его можно отключить с помощью PowerShell для защиты конфиденциальности пользователей. В PowerShell используйте [Set-CsPrivacyConfiguration](/powershell/module/skype/set-csprivacyconfiguration) и установите ``EnablePrivacyMode=true``.
 >
 >Даже если родители и опекуны являются внешними пользователями, их вклад в чаты можно обнаружить. Узнайте, как проводить исследования Teams eDiscovery, изучив их в этой [Microsoft Teams.](ediscovery-investigation.md)
 

@@ -1389,6 +1389,8 @@ items:
             href: rooms/multi-tenant-management-customer.md
           - name: Журналы аудита действий комнат
             href: rooms/multi-tenant-auditing.md
+          - name: Планировщик стандартов и помещений
+            href: rooms/standards-and-room-planner.md
       - name: Устройства
         items:
           - name: Управление устройствами в Teams
