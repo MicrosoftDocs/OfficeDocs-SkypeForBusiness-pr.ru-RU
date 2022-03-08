@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже находятся Microsoft 365 и Office 365 службы Skype для бизнеса и Microsoft Teams для Южная Африка.
-ms.openlocfilehash: cccc1b801b2627ecb93eafd38b0ab944baac91aa
-ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
+description: Ниже ются Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для ЮАКА.
+ms.openlocfilehash: 7c56d5bb6fd8ee3449b110b21b00000eda9dac55
+ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62190820"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "63070578"
 ---
 # <a name="availability-in-south-africa"></a>Доступность в ЮАР
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже находятся Microsoft 365 и Office 365 службы Skype для бизнеса и Microsoft Teams для Южная Африка.
+Ниже ются Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для ЮАКА.
   
 ## <a name="audio-conferencing"></a>Аудиоконференция
 
@@ -59,11 +59,12 @@ ms.locfileid: "62190820"
 
 |**Функция**|**Сведения**|
 |:-----|:-----|
-|Доступно ли приобретение планов звонков?  <br/> |Нет  <br/> |
-|Доступные минуты для планов звонков  <br/> |Неприменимо  <br/> |
-|Кому можно делать исходящие звонки?  <br/> |Неприменимо  <br/> |
+|Доступно ли приобретение планов звонков?  <br/> |Да  <br/> |
+|Минуты, доступные для планов звонков. |В календарный месяц доступны четыре варианта плана: <ul><li>120-минутный план внутренних звонков </li><li>240-минутный план внутренних звонков</li></li><li>1200-минутный план внутренних звонков </li></li><li>План внутренних и международных звонков: 1200 минут внутренних или 600 минут международных звонков (в зависимости от того, какое количество звонков достигается первым в календарном месяце)</li></li></ul>|
+|Могут ли исходящие звонки на номера премиум-класса?  <br/> | В настоящее время поддержка не поддерживается. <br/> |
+|Кому можно делать исходящие звонки?  <br/> | До 196 стран или регионов, включая [эти.](users-can-make-outbound-calls-to-these-countries-and-regions.md)<br/> |
 
-Если планы звонков недоступны для приобретения, см. параметры подключения через [ПСС](../pstn-connectivity.md) для всех доступных параметров.
+Если планы звонков недоступны для приобретения, см. параметры подключения через ПСС [для всех](../pstn-connectivity.md) доступных параметров.
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Платные и бесплатные номера служб
 

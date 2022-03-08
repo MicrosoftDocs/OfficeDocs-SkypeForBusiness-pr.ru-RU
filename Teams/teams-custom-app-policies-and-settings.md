@@ -1,30 +1,35 @@
 ---
 title: Управление настраиваемой политикой и настройками приложений
-author: SerdarSoysal
-ms.author: serdars
-manager: serdars
+author: guptaashish
+ms.author: guptaashish
+manager: prkosh
 ms.reviewer: akino
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 ms.collection:
-  - M365-collaboration
+- M365-collaboration
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 'Узнайте, как управлять настраиваемой политикой и настройками приложений, чтобы управлять возможностью отправки пользовательских приложений в Microsoft Teams.'
+description: Узнайте, как управлять настраиваемой политикой и настройками приложений, чтобы управлять возможностью отправки пользовательских приложений в Microsoft Teams.
 f1.keywords:
-  - CSH
+- CSH
 ms.custom:
-  - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
-  - ms.teamsadmincenter.appsetuppolicies.allowsideloading
-  - ms.teamsadmincenter.appsetuppolicies.tooltip.allowsideloading
-  - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
-  - seo-marvel-mar2020
+- ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
+- ms.teamsadmincenter.appsetuppolicies.allowsideloading
+- ms.teamsadmincenter.appsetuppolicies.tooltip.allowsideloading
+- ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
+- seo-marvel-mar2020
+ms.openlocfilehash: 391c852edc1eef06c41277a43661fc1cf15b7cd6
+ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "63070358"
 ---
-
 # <a name="manage-custom-app-policies-and-settings-in-microsoft-teams"></a>Управление пользовательскими политиками и параметрами приложений в Microsoft Teams
 
 > [!NOTE]
@@ -50,7 +55,7 @@ ms.custom:
 
 ### <a name="user-custom-app-policy"></a>Пользовательская политика настраиваемого приложения
 
-В рамках политик [настройки](teams-app-setup-policies.md) приложений администраторы могут использовать параметры **политики Upload** настраиваемые приложения, чтобы управлять возможностью отправки пользовательских приложений в Teams.
+В рамках политик [настройки](teams-app-setup-policies.md) приложений администраторы могут использовать параметры **политики Upload** настраиваемые приложения, чтобы управлять возможностью отправки пользовательских приложений Teams.
  
 Если этот параметр отключен:
 
@@ -109,11 +114,11 @@ ms.custom:
 
 ## <a name="how-custom-app-policies-and-settings-work-together"></a>Как настраиваемые политики и параметры приложений работают вместе
 
-В этой таблице Teams 2010 2016 2016 2016 2016 2016 2013 2016 2013 2016 г. 2013 2016 г.
+В этой таблице 2010 2016 2016 2016 2016 2016 2013 2016 2013 2016 г. 2016 2016 г. 2016, 2016, 2016, 2016, 2016, 2016, 2016, Teams
 
 Например, вы хотите разрешить только владельцам команд загружать пользовательские приложения в определенные команды. Вы можете настроить следующие следующую следующую:
 
-- Включите **параметр Разрешить взаимодействие с пользовательскими приложениями** в Microsoft Teams администрирования.
+- Включите **параметр Разрешить взаимодействие с пользовательскими** приложениями в Microsoft Teams администрирования.
 - Отключите **разрешение участникам загружать пользовательские приложения** для каждой группы, доступ к которой вы хотите ограничить.
 - Создайте и назначьте настраиваемую политику настройки приложений в Центре администрирования Microsoft Teams с  включенной настройкой Upload и назначьте ее владельцам команд.
 

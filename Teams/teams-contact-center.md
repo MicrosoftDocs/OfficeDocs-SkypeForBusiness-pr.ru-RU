@@ -13,20 +13,20 @@ f1.keywords:
 description: Общие сведения об интегрированном центре контактов в качестве решения службы (CCaaS) для Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7593264efff9935df0606c1fad7e32006ea52c44
-ms.sourcegitcommit: 1190cd73656dbc9131d46e0a827e28bcd960dfc5
+ms.openlocfilehash: 52de716c35e934e13140af278814a93620dd4962
+ms.sourcegitcommit: 2c8d6183920fd0df7e0491cf4e79b2311503dba7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "62863912"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63073747"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Интеграция центра контактов для Microsoft Teams
 
-  В этой статье приводится обзор интеграции решений Центра контактов с Microsoft Teams и поставщиками решений, участвующими в программе сертификации Microsoft Teams Подключенный центр контактов.
+  В этой статье представлен обзор интеграции решений Центра контактов с Microsoft Teams и поставщиками решений, участвующими в программе сертификации Microsoft Teams Подключенный центр контактов.
 
 ## <a name="what-is-contact-center-integration-for-microsoft-teams"></a>Что такое интеграция центра контактов с Microsoft Teams?
 
-Microsoft Teams поддерживает потоки взаимодействия с клиентом, выступая в качестве центра для внутреннего и внешнего взаимодействия с клиентами в различных режимах общения, включая чат, видеособрации и вызовы. В некоторых организациях [Microsoft Teams возможности облачного](./cloud-voice-landing-page.md) голосового звонка, в том числе автозавод и очереди [](./what-are-phone-system-auto-attendants.md) вызовов[, отвечают](./create-a-phone-system-call-queue.md) их требованиям.
+Microsoft Teams поддерживает потоки взаимодействия с клиентом, выступая в качестве центра для внутреннего и внешнего взаимодействия с клиентами в различных режимах общения, включая чат, видеособрации и вызовы. В некоторых организациях [Microsoft Teams возможности облачной](./cloud-voice-landing-page.md) голосовой почты, в том числе [](./what-are-phone-system-auto-attendants.md) автоотекатаря и очереди вызовов[,](./create-a-phone-system-call-queue.md) отвечают их требованиям.
 
 Для организаций, которым нужны решения с бизнес-инструментами и процессами для развития клиентов, интеграция центра контактов с Microsoft Teams позволяет поставщикам решений Центра контактов (CCaaS) интегрировать свои решения в Teams.
 
@@ -60,6 +60,7 @@ Microsoft Teams поддерживает потоки взаимодействи
 | `Five9` | https://www.five9.com/products/application-integration/uc-integration                                                   |
 | `Genesys` | https://www.genesys.com/campaign/get-started-genesys-cloud-microsoft-teams                                      |
 | `NICE inContact` | https://www.niceincontact.com/microsoft-teams                                                            |
+| `Tendfor` | https://www.tendfor.com                                                            |
 
 ### <a name="solutions-currently-in-the-certification-process"></a>Решения, которые в настоящее время находятся в процессе сертификации
 
@@ -78,6 +79,5 @@ Microsoft Teams поддерживает потоки взаимодействи
 | `Netcall` | https://www.netcall.com/platform/contact-centre/                         |
 | `novomind` | https://www.novomind.com/en/customer-service-software-call-center/microsoft-teams/                             |
 | `talkdesk` | https://www.talkdesk.com/cloud-contact-center/integrations/microsoft-teams/                                  |
-| `Tendfor` | https://www.tendfor.com/en/                                                                                     |
 
 Этот список будет обновляться по мере  join more solution providers (Новые поставщики решений) и соответствует условиям сертификации.

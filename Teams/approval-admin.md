@@ -1,9 +1,9 @@
 ---
 title: Доступность приложения "Утверждения" в Teams
-author: SerdarSoysal
-ms.author: serdars
+author: guptaashish
+ms.author: guptaashish
 ms.reviewer: farhazk
-manager: serdars
+manager: prkosh
 ms.topic: article
 audience: admin
 ms.service: msteams
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ea3da24dc0fa3a64d90b38a67b13be0fa4d041ce
-ms.sourcegitcommit: 5880de47e986854fca873ae75f76a7ecad194dff
+ms.openlocfilehash: 10adab9046a7cbd8cebccf6167075e38b1204dea
+ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "62421552"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "63070438"
 ---
 # <a name="teams-approvals-app-availability"></a>Доступность приложения "Утверждения" Teams
 
@@ -110,7 +110,7 @@ Common Data Model (CDM) — это язык общих данных, испол�
 
   1. Войдите в Центр администрирования Teams.
 
-  2. Перейдите **в Teams Управляемые** >  **приложениями**.
+  2. Перейдите в **Приложения Teams** > **Управление приложениями**.
 
   3. Выполните поиск приложения "Утверждения".
 

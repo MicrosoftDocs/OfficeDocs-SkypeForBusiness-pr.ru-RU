@@ -1,8 +1,8 @@
 ---
 title: Настройка приложений в Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
-manager: serdars
+author: guptaashish
+ms.author: guptaashish
+manager: prkosh
 ms.reviewer: v-tbasra
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -18,16 +18,16 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Узнайте, как настроить приложения в Microsoft Teams.
-ms.openlocfilehash: cac5bc4e5d2748b8e4a9143d50e40dbf96ae80a0
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: 7fb940ed512c96bd4aa4519bcdabbf9adcbe86a8
+ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62410622"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "63070428"
 ---
 # <a name="customize-apps-in-microsoft-teams"></a>Настройка приложений в Microsoft Teams
 
- Microsoft Teams позволяет настроить приложение для улучшения Teams приложения. Некоторые разработчики приложений позволяют администратору Teams приложение. Администратор может изменить или изменить свойства приложения в зависимости от потребностей организации, используя страницу Teams Управление **приложениями**. Вы можете настроить такие сведения:
+ Microsoft Teams позволяет настраивать приложения для улучшения Teams приложения. Некоторые разработчики приложений позволяют администратору Teams приложение. Администратор может изменить или изменить свойства приложения в зависимости от потребностей организации, используя страницу Teams Управление **приложениями**. Вы можете настроить такие сведения:
 
 - Короткое имя
 - Краткое описание
@@ -39,10 +39,10 @@ ms.locfileid: "62410622"
 - Значок "Контур"
 - Цвет акцента
 
-Подробные [сведения о полях, которые можно настроить](/microsoftteams/platform/resources/schema/manifest-schema), см. в схеме манифеста Teams манифеста.
+Подробные [сведения о полях, которые можно настроить,](/microsoftteams/platform/resources/schema/manifest-schema) см. в схеме манифеста Teams манифеста.
 
 > [!NOTE]
-> В настоящее время настройка приложений облако сообщества для государственных организаций высокая (GCCH) или Department of Defense (DoD).
+> В настоящее время настройка приложений не поддерживается в облако сообщества для государственных организаций (GCCH) или Department of Defense (DoD).
 > В настоящее время эта функция недоступна для Microsoft Teams приложений.
 
 ## <a name="customize-the-apps-details"></a>Настройка сведений о приложении

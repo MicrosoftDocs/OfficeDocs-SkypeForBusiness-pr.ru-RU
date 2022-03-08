@@ -1,31 +1,36 @@
 ---
 title: Управление приложением Lists для организации
-author: SerdarSoysal
-ms.author: serdars
-ms.reviewer: 'anach,v-jasuk'
-manager: serdars
+author: guptaashish
+ms.author: guptaashish
+ms.reviewer: anach,v-jasuk
+manager: prkosh
 ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
 searchScope:
-  - Microsoft Teams
-  - Microsoft Cloud for Healthcare
-  - Microsoft Cloud for Retail
-description: 'Узнайте, как управлять приложением Lists в Teams для пользователей в организации.'
+- Microsoft Teams
+- Microsoft Cloud for Healthcare
+- Microsoft Cloud for Retail
+description: Узнайте, как управлять приложением Lists в Teams для пользователей в организации.
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.localizationpriority: medium
 ms.collection:
-  - M365-collaboration
-  - microsoftcloud-healthcare
-  - microsoftcloud-retail
-  - m365initiative-lists
+- M365-collaboration
+- microsoftcloud-healthcare
+- microsoftcloud-retail
+- m365initiative-lists
 appliesto:
-  - Microsoft Teams
-ms.custom: null
+- Microsoft Teams
+ms.custom: ''
+ms.openlocfilehash: 1028a1e5826a2519de83d8dc73b7d2f55282ca4b
+ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "63070615"
 ---
-
 # <a name="manage-the-lists-app-for-your-organization-in-microsoft-teams"></a>Управление приложением Lists для организации в Microsoft Teams
 
 ## <a name="overview-of-lists"></a>Обзор приложения Lists
@@ -55,7 +60,7 @@ ms.custom: null
 
 После собрания почтальоны забирают почту и начинают свой маршрут доставки. Инциденты могут произойти во время прохождения маршрута, например, автомобильная авария, проблема с собакой, или социальные протесты. Когда почтальоны сталкиваются с инцидентом, они используют Teams на своих мобильных устройствах для записи сведений об инциденте, который отслеживается в списке в канале команды. Все участники команды, включая почтальонов на местах, могут видеть эту информацию и оставаться в курсе.
 
-Перед перемещением Teams почтовым операторам пришлось вернуться в почтовое сообщение, чтобы заполнить форму с жесткой копией, чтобы сообщить об инциденте, который был введен в Excel электронной таблицы. Teams дает почтальонам возможность в первую очередь использовать мобильные устройства и приложение Lists, чтобы сообщать об инцидентах по мере их возникновения, делиться деталями с членами команды, обсуждать их на канале и доводить инциденты до разрешения.
+Перед переходом Teams почтовым операторам пришлось вернуться в почтовое сообщение, чтобы заполнить форму с жесткой копией, чтобы сообщить об инциденте, который был введен в Excel электронной таблицы. Teams дает почтальонам возможность в первую очередь использовать мобильные устройства и приложение Lists, чтобы сообщать об инцидентах по мере их возникновения, делиться деталями с членами команды, обсуждать их на канале и доводить инциденты до разрешения.
 
 ## <a name="what-you-need-to-know-about-lists"></a>Что нужно знать о приложении Lists
 
@@ -114,7 +119,7 @@ ms.custom: null
 
 ## <a name="give-feedback-or-report-an-issue"></a>Отзывы и отчеты о неполадках
   
-Чтобы отправить отзыв или сообщить о проблеме, выберите  Справка в нижней части левой области навигации Teams и выберите **Сообщить о проблеме**. Выберите **Lists**, а затем введите свой отзыв или подробные сведения о возникшей неполадке.
+Чтобы отправить отзыв или сообщить о проблеме, выберите  Справка в нижней части левой области навигации в Teams, а затем выберите **Сообщить о проблеме**. Выберите **Lists**, а затем введите свой отзыв или подробные сведения о возникшей неполадке.
 
 ## <a name="related-articles"></a>Статьи по теме
 

@@ -1,8 +1,8 @@
 ---
 title: Управление приложениями в Центре Microsoft Teams администрирования
-author: KarliStites
-ms.author: kastites
-manager: serdars
+author: guptaashish
+ms.author: guptaashish
+manager: prkosh
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -17,12 +17,12 @@ description: Узнайте, как управлять приложениями 
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 8e0c475eaf2186c13174d27687a5bd10c2fa1057
-ms.sourcegitcommit: e97c981489ff1f02674df57426da3b22cc6d68c1
+ms.openlocfilehash: ad1dd28f4de0bc6db0ab7b2870a1cf7b2dae007a
+ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "63062553"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "63070228"
 ---
 # <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>Управление приложениями в Центре Microsoft Teams администрирования
 
@@ -55,7 +55,7 @@ ms.locfileid: "63062553"
 ![Снимок экрана: страница сведений о приложениях.](media/app-detail-page.jpg)
 
 - **Имя**: имя приложения. Выберите имя приложения, чтобы перейти на страницу сведений о приложении, чтобы увидеть дополнительные сведения о нем. К ним относятся описание приложения( разрешено или заблокировано, версия, политика конфиденциальности, условия использования, категории, применимые к приложению, состояние сертификации, поддерживаемые возможности и ИД приложения.
-- **Сертификация**. Если приложение прошло сертификацию, вы увидите либо Microsoft 365, либо  Publisher **сертификацию**. Выберите ссылку, чтобы просмотреть сведения о сертификации для приложения. Если вы видите "**--**", у нас нет сведений о сертификации для приложения. Дополнительные информацию о сертифицированных приложениях в Teams, Microsoft 365 [сертификации приложений](/microsoft-365-app-certification/overview).
+- **Сертификация**. Если приложение прошло сертификацию, вы увидите либо Microsoft 365, либо  Publisher **сертификацию**. Выберите ссылку, чтобы просмотреть сведения о сертификации для приложения. Если вы видите `--`, у нас нет сведений о сертификации для приложения. Дополнительные информацию о сертифицированных приложениях в Teams, Microsoft 365 [сертификации приложений](/microsoft-365-app-certification/overview).
 - **Publisher**: имя издателя.
 - **Состояние публикации**: состояние публикации пользовательских приложений.
 - **Состояние**: состояние приложения на уровне организации, которое может быть одним из следующих:
