@@ -7,49 +7,49 @@ metadata:
   description: 'Корпорация Майкрософт рады предоставить бесплатные виртуальные учебные курсы в режиме жизни, разработанные для вас Teams. Если вы являетесь лицом, принимающим решения в бизнесе, администратором, ИТ-специалистом или конечным пользователем, вы найдете занятия, которые вам подойдут. Присоединяйтесь к нам, чтобы Microsoft Teams в действии, получать ответы на вопросы и взаимодействовать с нашими инструкторами в прямом эфире. Щелкните сеанс ниже, чтобы зарегистрироваться и обязательно ознакомьтесь с дополнительными курсами ниже.'
   ms.topic: hub-page
   author: SerdarSoysal
-  ms.author: serdars
-  ms.date: 06/16/2020
+  ms.author: samanro
+  ms.date: 03/04/2022
 highlightedContent:
   items:
-    - title: Добро пожаловать в Microsoft Teams
+    - title: Введение в Microsoft Teams
       itemType: overview
-      url: 'https://aka.ms/SayhelloTeams'
-    - title: Обучение пользователей по запросу
+      url: 'https://youtu.be/UoWHXrmIszg'
+    - title: Начало работы с Teams
       itemType: video
-      url: 'https://support.microsoft.com/office/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7'
+      url: 'https://aka.ms/GetstartedwithMSTeams'
     - title: Инструменты принятия Microsoft 365
       itemType: deploy
       url: 'https://adoption.microsoft.com'
 productDirectory:
   items:
-    - title: Начало работы с Teams
-      imageSrc: 'https://docs.microsoft.com/office/media/icons/get-started-teams.svg'
-      summary: 'Начиная с чатов и собраний и заканчивая группами и каналами, в ходе этого учебного занятия пользователи получат основные знания, необходимые для уверенной работы с Teams. (Аудитория: все)'
-      url: 'https://aka.ms/GetstartedwithMSTeams'
-    - title: Использование чата и звонков в Teams
+    - title: Вызовы и собрания в Teams
       imageSrc: 'https://docs.microsoft.com/office/media/icons/chat.svg'
-      summary: 'Узнайте, как управлять всеми беседами с одной центральной платформы. (Аудитория: все)'
-      url: 'https://aka.ms/ChatCallingInTeams'
-    - title: Проведение эффективных собраний в Teams
-      imageSrc: 'https://docs.microsoft.com/office/media/icons/calendar-teams.svg'
-      summary: 'Узнайте, как сделать собрания более интересными, продуктивными и конструктивными. (Аудитория: все)'
-      url: 'https://aka.ms/RunmeetingsTeams'
+      summary: 'Используйте вызовы и собрания для совместной работы в режиме реального времени, всегда оставаться на связи и получать доступ к общему контенту в любое время для получения информации, планирования и присоединения к ним. (Уровень: Teams основы; Аудитория: все)'
+      url: 'https://aka.ms/CallingMeetingsTraining'
     - title: Обзор команд и каналов в Teams
       imageSrc: 'https://docs.microsoft.com/office/media/icons/users-group.svg'
-      summary: 'Узнайте, как упростить совместную работу над проектами и в группах. (Аудитория: все)'
-      url: 'https://aka.ms/TeamsandchannelsinTeams'
-    - title: Создание рабочих областей совместной работы в Teams
-      imageSrc: 'https://docs.microsoft.com/office/media/icons/structure-teams.svg'
-      summary: 'Обзор способов определения лучшего подхода к созданию рабочих областей для проектов и рабочих групп. (Аудитория: все)'
-      url: 'https://aka.ms/CollaborateInTeams'
-    - title: Используйте профессиональные советы в Teams
+      summary: 'Понимание значения команд и каналов и их помощи в совместной работе в виртуальных рабочей области или всей группе. (Уровень: Teams основы; Аудитория: все)'
+      url: 'https://aka.ms/TeamsChannelsTraining'
+    - title: 'Советы, сочетания клавиш и новые возможности Teams'
       imageSrc: 'https://docs.microsoft.com/office/media/icons/lightbulb-idea-capture-teams.svg'
-      summary: 'Узнайте, как Teams может помочь вам организовать свой рабочий день и оставаться на связи с коллегами. (Аудитория: все)'
+      summary: 'Узнайте советы и сочетания клавиш, которые помогут вам стать питанием. Узнайте о новых и найдите экспертное руководство по новейшим функциям. (Уровень: Teams основы; Аудитория: все)'
       url: 'https://aka.ms/TeamsProTips'
-    - title: Microsoft Teams youTube
-      imageSrc: 'https://docs.microsoft.com/office/media/icons/video-play.svg'
-      summary: 'Подпишитесь и будьте первыми, чтобы узнать о новейших функций, советах и советах и не только. (Аудитория: все)'
-      url: 'https://www.youtube.com/MicrosoftTeams'
+    - title: Перейти к дальнейшему совместному Teams собраний
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/calendar-teams.svg'
+      summary: 'Изучите основные Teams собраний и вебинары, в том числе инструменты для совместной работы, комнаты для разрыва и доступ к ресурсам собраний. (Уровень: Teams Далее; Аудитория: все)'
+      url: 'https://aka.ms/MeetingsGoFurther'
+    - title: Настройка Teams приложениями
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/blocks-teams.svg'
+      summary: 'Узнайте, как интеграция приложений в Teams в едином пользовательском интерфейсе и позволяет сотрудникам лучше работать вместе. (Уровень: Teams Далее; Аудитория: все)'
+      url: 'https://aka.ms/Teamsappstraining'
+    - title: Гибридные решения для работы
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/hybrid-teams.svg'
+      summary: 'Оставайтесь на связи, в безопасности и продуктивности по мере адаптации к новым способам работы. Узнайте, как эффективно работать в одном месте: собрания, звонки, чат, приложения и другие. (Уровень: Teams Далее; Аудитория: все)'
+      url: 'https://aka.ms/HybridWorkTraining'
+    - title: Повышение совместной работы с Teams
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/structure-teams.svg'
+      summary: 'Узнайте, как использовать все каналы, чат и подключенные приложения, чтобы улучшить взаимодействие и улучшить совместную работу в командах любого размера. (Уровень: Teams основы; Аудитория: все)'
+      url: 'https://aka.ms/CollaborateInTeams'
     - title: Teams для образовательных учреждений - Вебинары
       imageSrc: 'https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg'
       summary: 'Сведения об использовании Teams в высшем образовании. (Аудитория: преподаватели, учащиеся, исследовательские факультеты, ИТ-специалисты)'
@@ -60,7 +60,7 @@ productDirectory:
       url: 'https://aka.ms/upgradeworkshops'
 additionalContent:
   sections:
-    - title: Курсы
+    - title: Дополнительное обучение
       items:
         - title: Путь к специалисту по Обучение командной работы
           summary: 'Совместная работа — это важный навык для сегодняшней рабочей группы. Узнайте, как надежные Microsoft Teams позволяют оставаться на связи и эффективнее работать со своей командой.'
@@ -68,3 +68,6 @@ additionalContent:
         - title: Путь к службе Обучение по внедрению служб
           summary: 'Специалисты по внедрению служб Майкрософт Обучение Path Teams и другими Microsoft 365 службами. Узнайте, как управлять внедрением службы Майкрософт в организации.'
           url: /learn/paths/m365-service-adoption
+        - title: Обучающие видео по запросу
+          summary: Нет времени на занятие? Ознакомьтесь с каталогом видео из службы поддержки Майкрософт для обучения по запросу.
+          url: 'https://support.microsoft.com/office/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7'
