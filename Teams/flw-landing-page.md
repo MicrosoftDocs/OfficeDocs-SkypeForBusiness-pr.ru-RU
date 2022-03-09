@@ -14,12 +14,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ddcad10c08edbbd6010d5c1c576e4142a1a83383
-ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
+ms.openlocfilehash: f2ea4c6f1257b0b206d04c4ef8591c1f2d257292
+ms.sourcegitcommit: fe71ecbe35b8adfb9166188923ed1111b3b8e2a1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "62055369"
+ms.lasthandoff: 03/09/2022
+ms.locfileid: "63388201"
 ---
 # <a name="get-started-with-teams-for-frontline-workers"></a>Начало работы с Teams для сотрудников без компьютеров
 
@@ -34,6 +34,8 @@ ms.locfileid: "62055369"
 - [Как подготовить Teams в масштабе для сотрудников без компьютеров](flw-scripted-deployment.md)
 - [Пакеты политик для сотрудников без компьютеров и руководителей](manage-policy-packages.md)
 - [Настройка приложений Teams для сотрудников без компьютеров](pin-teams-apps-based-on-license.md) (ожидается в ближайшее время)
+- [Вход в Teams](sign-in-teams.md)
+- [Выход из Teams](sign-out-of-teams.md)
 - Приложения от Майкрософт для сотрудников без компьютеров:
   - [Смены](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
   - [Задачи](manage-tasks-app.md)
