@@ -1,8 +1,8 @@
 ---
 title: Настройка надстройок для постоянных чатов в Skype для бизнеса Server 2015 г.
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/28/2016
 audience: ITPro
@@ -12,13 +12,13 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: c1037909-0750-411a-98c1-3a327eed4ae8
-description: Сводка. Сведения о настройке надстройок для комнат чатов сохраняемого чата chat Server в Skype для бизнеса Server 2015 г.
-ms.openlocfilehash: c23a0dd11d51bbfa1c49d8a910decda5be0ac48f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+description: Сводка. Узнайте, как настроить надстройки для комнат чатов сохраняемого чата chat Server в Skype для бизнеса Server 2015 г.
+ms.openlocfilehash: 0020c85b5354738083a213e66cc7cc953e5b7e32
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60854303"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62402893"
 ---
 # <a name="configure-add-ins-for-persistent-chat-rooms-in-skype-for-business-server-2015"></a>Настройка надстройок для постоянных чатов в Skype для бизнеса Server 2015 г.
  
@@ -29,7 +29,7 @@ ms.locfileid: "60854303"
  Прежде чем пользователи смогут увидеть надстройку в клиенте, необходимо добавить надстройку в список зарегистрированных надстройок, а администраторам или создателям чата необходимо связать комнаты с надстройкой.
   
 > [!NOTE]
-> Постоянный чат доступен в Skype для бизнеса Server 2015 г., но больше не поддерживается Skype для бизнеса Server 2019 г. Такая же функциональность доступна в Teams. Дополнительные сведения см. в ссылке Начало работы [с обновлением Microsoft Teams обновления.](/microsoftteams/upgrade-start-here) Если вам нужно использовать постоянный чат, вы можете либо перенести пользователей, требующих Teams, либо продолжить использование Skype для бизнеса Server 2015 г. 
+> Постоянный чат доступен в Skype для бизнеса Server 2015 г., но больше не поддерживается Skype для бизнеса Server 2019 г. Такая же функциональность доступна в Teams. Дополнительные сведения см. в [ссылке Начало работы с обновлением Microsoft Teams обновления](/microsoftteams/upgrade-start-here). Если вам нужно использовать постоянный чат, вы можете либо перенести пользователей, требующих Teams, либо продолжить использование Skype для бизнеса Server 2015 г. 
 
 ## <a name="configure-add-ins-for-chat-rooms-by-using-the-control-panel"></a>Настройка надстройок для чатов с помощью панели управления
 
@@ -45,7 +45,7 @@ ms.locfileid: "60854303"
     
 4. На странице **Надстройка** нажмите кнопку **Создать**.
     
-5. В **Выберите службу** выберите службу, соответствующую пулу серверов сохраняемого чата, где необходимо создать надстройки. Надстройки нельзя переместить из одного пула в другой и нельзя сделать их общими для разных пулов.
+5. В **Выбор службы** выберите службу, соответствующую пулу Стойкий сервер чата, где необходимо создать надстройки. Надстройки нельзя переместить из одного пула в другой и нельзя сделать их общими для разных пулов.
     
 6. В окне **Создание надстройки** выполните следующие действия.
     
@@ -57,7 +57,7 @@ ms.locfileid: "60854303"
     
 ## <a name="configure-add-ins-by-using-windows-powershell"></a>Настройка надстройок с помощью Windows PowerShell
 
-Надстройки для чатов можно настроить с помощью следующих Windows PowerShell. Подробные сведения о синтаксис, включая все доступные параметры, см. в Skype для бизнеса Server [2015 года.](../management-shell.md)
+Надстройки для чатов можно настроить с помощью следующих Windows PowerShell. Подробные сведения о синтаксисе, включая все доступные параметры, [см. в Skype для бизнеса Server 2015 года](../management-shell.md).
   
 
 |**Командлет**|**Описание**|
@@ -69,9 +69,9 @@ ms.locfileid: "60854303"
    
 ### <a name="create-a-new-add-in"></a>Создание новой надстройки
 
-Новую надстройку можно создать с помощью **комлета New-CsPersistentChatAddin.**
+Новую надстройку можно создать с помощью **комлета New-CsPersistentChatAddin** .
   
-Например, следующая команда создает новую надстройку (с именем ITPersistentChatAddin) для `atl-cs-001.contoso.com` пула. Параметр URL-адреса и значение параметра указывают расположение `http://atl-cs-001.contoso.com/itchat` веб-страницы надстройки:
+Например, следующая команда создает новую надстройку (с именем ITPersistentChatAddin) для пула `atl-cs-001.contoso.com`. Параметр URL-адреса и значение параметра `http://atl-cs-001.contoso.com/itchat` указывают расположение веб-страницы надстройки:
   
 ```PowerShell
 New-CsPersistentChatAddin -Name "ITPersistentChatAddin" -PersistentChatPoolFqdn "atl-cs-001.contoso.com" -Url "http://atl-cs-001.contoso.com/itchat"
@@ -79,7 +79,7 @@ New-CsPersistentChatAddin -Name "ITPersistentChatAddin" -PersistentChatPoolFqdn 
 
 ### <a name="configure-settings-for-an-existing-add-in"></a>Настройка параметров существующей надстройки
 
-Параметры существующей надстройки можно настроить с помощью cmdlet **Set-CsPersistentChatAddIn.** Например, следующая команда изменяет URL-адрес, присвоенный надстройке Persistent Chat в ITPersistentChatAddin. В этом случае URL-адрес изменен на `http://atl-cs-001.contoso.com/itchat2` :
+Параметры существующей надстройки можно настроить с помощью cmdlet **Set-CsPersistentChatAddIn** . Например, следующая команда изменяет URL-адрес, присвоенный надстройке Persistent Chat в ITPersistentChatAddin. В этом случае URL-адрес изменен на `http://atl-cs-001.contoso.com/itchat2`:
   
 ```PowerShell
 Set-CsPersistentChatAddin -Identity "atl-cs-001.contoso.com\ITPersistentChatAddin" -Url "http://atl-cs-001.contoso.com/itchat2"
@@ -87,7 +87,7 @@ Set-CsPersistentChatAddin -Identity "atl-cs-001.contoso.com\ITPersistentChatAddi
 
 ### <a name="retrieve-information-about-add-ins"></a>Извлечение сведений о надстройки
 
-Сведения о надстройке можно получить с помощью **cmdlet Get-CsPersistentChatAddin.** Например, следующая команда возвращает сведения обо всех надстройках Persistent Chat, настроенных для использования в организации:
+Сведения о надстройке можно получить с помощью **cmdlet Get-CsPersistentChatAddin** . Например, следующая команда возвращает сведения обо всех надстройках Persistent Chat, настроенных для использования в организации:
   
 ```PowerShell
 Get-CsPersistentChatAddin
@@ -95,7 +95,7 @@ Get-CsPersistentChatAddin
 
 ### <a name="remove-an-add-in"></a>Удаление надстройки
 
-Надстройку можно удалить с помощью **cmdlet Remove-CsPersistentChatAddIn.** Например, следующая команда удаляет надстройку Persistent Chat в ITChatAddin, найденную в `atl-cs-001.contoso.com` пуле:
+Надстройку можно удалить с помощью **cmdlet Remove-CsPersistentChatAddIn** . Например, следующая команда удаляет надстройку Persistent Chat в ITChatAddin, найденную в пуле `atl-cs-001.contoso.com`:
   
 ```PowerShell
 Remove-CsPersistentChatAddin -Identity "atl-cs-001.contoso.com\ITChatAddin"

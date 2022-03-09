@@ -1,8 +1,8 @@
 ---
 title: Создание узла области применения серверов сохраняемого чата
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
@@ -15,18 +15,18 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: c5f2873f-6601-4483-850d-c135b530392a
 description: 'Щелкните правой кнопкой мыши в Пуле постоянных чатов в Topology Builder, чтобы выполнить следующее:'
-ms.openlocfilehash: ac3ff02be89a27b19dd02213fba9cd19d3cfaafe
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: df2aa063362bc4179e61bd3db4e99eb10e92906b
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60830183"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62410952"
 ---
 # <a name="create-persistent-chat-servers-scope-node"></a>Создание узла области серверов сохраняемого чата
  
 Щелкните правой кнопкой мыши **в Пуле постоянных чатов** в Topology Builder, чтобы выполнить следующее:
   
-- **Новый постоянный пул** чата: запускает мастер определить новый мастер сохраняемой пула чатов, используемый для определения нового сервера или пула постоянных чатов. 
+- **Новый постоянный пул** чата: запускает мастер **определить новый мастер пула** постоянных чатов, используемый для определения нового сервера или пула постоянных чатов.
     
 Помимо определения нового сервера пула сохраняемого чата можно выполнять следующие общие задачи:
   
@@ -38,4 +38,4 @@ ms.locfileid: "60830183"
 
 [Планирование на стойкий сервер чата в Skype для бизнеса Server 2015 г.](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   
-[Добавление постоянного сервера чата в топологию Skype для бизнеса Server 2015 г.](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
+[Добавление стойких чат-серверов в топологию Skype для бизнеса Server 2015 г.](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
