@@ -3,7 +3,7 @@ title: Сквозное шифрование для Microsoft Teams
 author: kccross
 ms.author: krowley
 manager: laurawi
-ms.date: 10/23/2021
+ms.date: 03/08/2022
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
@@ -19,21 +19,21 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cdce0e30c1aaa3b40f362acda47c1a9ffa35161f
-ms.sourcegitcommit: 5e9b50cd1b513f06734be6c024ac06d293b27089
+ms.openlocfilehash: 202aee527896b331a6c8e64e1fc8736fa4942ecb
+ms.sourcegitcommit: fe71ecbe35b8adfb9166188923ed1111b3b8e2a1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/10/2022
-ms.locfileid: "62518941"
+ms.lasthandoff: 03/09/2022
+ms.locfileid: "63388193"
 ---
-# <a name="use-end-to-end-encryption-for-one-to-one-microsoft-teams-calls-public-preview"></a>Сквозное шифрование для звонков Microsoft Teams (общедоступная предварительная версия)
+# <a name="use-end-to-end-encryption-for-one-to-one-microsoft-teams-calls"></a>Сквозное шифрование для звонков Microsoft Teams
 
 > [!IMPORTANT]
 > Чтобы улучшить взаимодействие с пользователями, в модель службы Teams и поддержку шифрования могут вноситься изменения. Например, служба регулярно рекомендует не использовать наборы шифров, которые больше не считаются безопасными. Любые изменения такого рода направлены на безопасность и обеспечиваемую дизайном защищенность Teams. Кроме того, шифруется весь контент клиента в центрах обработки данных Майкрософт. Сведения об уровнях шифрования в Microsoft 365 см. в статье о [шифровании в Microsoft 365.](/microsoft-365/compliance/encryption)
 
 Сквозное шифрование (E2EE) происходит при шифровании содержимого перед его отправлением и расшифровывается только предполагаемым получателем. При сквозном шифровании только две системы конечных точек участвуют в шифровании и расшифровке данных вызова. Ни одна другая сторона, включая Майкрософт, не имеет доступа к расшифрованной беседе.
 
-В этом выпуске общедоступной предварительной версии мы развертываем E2EE для незапланированных личных звонков. Сквозным способом шифруется только поток мультимедиа в режиме реального времени, то есть видео- и голосовые данные во время личных звонков в Teams. Обе стороны должны включить этот параметр, чтобы включить шифрование. [Шифрование в Microsoft 365](/microsoft-365/compliance/encryption) защищает чат, обмен файлами, присутствие и другое содержимое во время звонка.
+При использовании E2EE для незапланированных личных звонков сквозным способом шифруется только поток мультимедиа в режиме реального времени, то есть видео- и голосовые данные во время личных звонков в Teams. Обе стороны должны включить этот параметр, чтобы включить шифрование. [Шифрование в Microsoft 365](/microsoft-365/compliance/encryption) защищает чат, обмен файлами, присутствие и другое содержимое во время звонка.
 
 Если не включать шифрование, Teams обеспечивает защиту звонка или собрания с использованием шифрования на основе отраслевых стандартов. Обмен данными во время звонков всегда безопасен во время передачи и хранения. Дополнительные сведения см. в разделе [Шифрование медиа в Teams](teams-security-guide.md#media-encryption).
 
@@ -109,7 +109,7 @@ ms.locfileid: "62518941"
 
 #### <a name="to-enable-end-to-end-encryption-for-your-entire-tenant-using-the-global-policy"></a>Чтобы включить сквозное шифрование для всего клиента с помощью глобальной политики
 
-По умолчанию сквозное шифрование отключено. Чтобы включить сквозное шифрование для всего клиента, настроив глобальную политику по умолчанию, выполните командлет [Set-CsTeamsEnhancedEncryptionPolicy](/powershell/module/teams/Set-CsTeamsEnhancedEncryptionPolicy) следующим образом.
+Сквозное шифрование выключено по умолчанию. Чтобы включить сквозное шифрование для всего клиента, настроив глобальную политику по умолчанию, выполните командлет [Set-CsTeamsEnhancedEncryptionPolicy](/powershell/module/teams/Set-CsTeamsEnhancedEncryptionPolicy) следующим образом.
 
 ```powershell
 Set-CsTeamsEnhancedEncryptionPolicy -Identity Global -CallingEndtoEndEncryptionEnabledType DisabledUserOverride
@@ -123,7 +123,7 @@ Set-CsTeamsEnhancedEncryptionPolicy -Identity Global -CallingEndtoEndEncryptionE
 
 #### <a name="to-disable-end-to-end-encryption-for-your-entire-tenant-using-the-global-policy"></a>Отключение сквозного шифрования для всего клиента с помощью глобальной политики
 
-По умолчанию сквозное шифрование отключено. Если вы внесли изменения в глобальную политику, можно вернуть этот параметр, выполнив командлет [Grant-CsTeamsEnhancedEncryptionPolicy.](/powershell/module/teams/Grant-CsTeamsEnhancedEncryptionPolicy) следующим образом.
+Сквозное шифрование выключено по умолчанию. Если вы внесли изменения в глобальную политику, можно вернуть этот параметр, выполнив командлет [Grant-CsTeamsEnhancedEncryptionPolicy.](/powershell/module/teams/Grant-CsTeamsEnhancedEncryptionPolicy) следующим образом.
 
 ```powershell
 Grant-CsTeamsEnhancedEncryptionPolicy -Identity Global -CallingEndtoEndEncryptionEnabledType Disabled

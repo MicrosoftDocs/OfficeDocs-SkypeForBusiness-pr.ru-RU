@@ -365,7 +365,7 @@ items:
                 href: guest-access.md
               - name: Работа в режиме гостевого доступа
                 href: guest-experience.md
-              - name: Включение или отключение гостевого доступа
+              - name: Включение и отключение гостевого доступа
                 href: set-up-guests.md
               - name: Просмотр гостей в команде
                 href: view-guests.md
