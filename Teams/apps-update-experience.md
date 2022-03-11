@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Узнайте, как обновить приложения в Microsoft Teams.
-ms.openlocfilehash: aaba298f928e88ad38b862e533cd98bb5aae690f
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: fac8f10808300280f52a62501ebb5cb8d69b4bb8
+ms.sourcegitcommit: ff975c21725e1812e6db8fc9fe37de1362f168c3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070238"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63435713"
 ---
 # <a name="update-apps-in-microsoft-teams"></a>Обновление приложений в Microsoft Teams
 
@@ -32,10 +32,10 @@ ms.locfileid: "63070238"
 * Бот был добавлен или удален
 * Изменено свойство botId существующего бота
 * Изменено свойство isNotificationOnly существующего бота
-* Добавлены возможности "Поддержка", "ПоддержкаВидео" и "ПоддержкаFiles"
+* Добавлены возможности "Поддержка", "ПоддержкаВидео" и "ПоддержкаFiles" в ботах
 * Добавлено расширение для сообщений
 * Добавлен новый соединител
-* Свойства внутри "webApplicationInfo" изменены
+* Были добавлены или изменены разрешения в области "Авторизация"
 
 ![доступна новая версия.](media/manage-your-custom-apps-update1.png)
 

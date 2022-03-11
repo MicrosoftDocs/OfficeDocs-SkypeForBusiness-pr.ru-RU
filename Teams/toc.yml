@@ -829,6 +829,8 @@ items:
             href: dial-pad-configuration.md
           - name: Музыка в режиме удержания
             href: music-on-hold.md
+          - name: Настройка параметров звонков для ваших пользователей
+            href: user-call-settings.md
       - name: Варианты подключения ТСОП
         items:
           - name: Обзор
@@ -1527,6 +1529,8 @@ items:
             href: non-standard-users.md
           - name: Обновление функций для приложений
             href: apps-update-experience.md
+          - name: Управление доступом к сторонним приложениям Teams в Microsoft 365
+            href: manage-third-party-teams-apps.md
   - name: Руководство для отраслей и государственных организаций
     items:
       - name: Обзор
