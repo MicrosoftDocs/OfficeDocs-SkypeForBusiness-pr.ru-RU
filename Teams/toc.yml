@@ -1325,12 +1325,6 @@ items:
                 href: rooms/rooms-deploy.md
               - name: Настройка учетных записей
                 href: rooms/rooms-configure-accounts.md
-              - name: Surface Hub
-                items:
-                  - name: Настройка координированных собраний
-                    href: rooms/coordinated-meetings.md
-                  - name: Управление параметрами Microsoft Teams
-                    href: rooms/surface-hub-manage-config.md
               - name: В Office 365
                 href: rooms/with-office-365.md
               - name: В Skype для бизнеса Server
@@ -1339,6 +1333,8 @@ items:
                 href: rooms/with-exchange-online.md
               - name: В локальном приложении Exchange (гибридная среда)
                 href: rooms/with-exchange-on-premises.md
+              - name: Развертывание Комнат Microsoft Teams на Android
+                href: devices/collab-bar-deploy.md
               - name: Настройка консоли
                 href: rooms/console.md
               - name: Обновление устройства вручную
@@ -1355,6 +1351,12 @@ items:
                 href: rooms/content-camera.md
               - name: Элементы управления распознаванием голоса для интеллектуальных динамиков
                 href: rooms/voice-recognition.md
+              - name: Surface Hub
+                items:
+                  - name: Настройка координированных собраний
+                    href: rooms/coordinated-meetings.md
+                  - name: Управление параметрами Microsoft Teams
+                    href: rooms/surface-hub-manage-config.md
           - name: Управление
             items:
               - name: Обзор управления
@@ -1397,66 +1399,74 @@ items:
             href: rooms/standards-and-room-planner.md
       - name: Устройства
         items:
-          - name: Управление устройствами в Teams
-            href: devices/device-management.md
-          - name: Удаленная подготовка и вход
-            href: devices/remote-provision-remote-login.md
-          - name: Удаленный вход и выход
-            href: devices/remote-sign-in-and-sign-out.md
-          - name: Удаленное обновление устройств
-            href: devices/remote-update.md
-          - name: Управление тегами устройств Teams
-            href: devices/manage-device-tags.md
-          - name: Планирование развертывания телефонов и дисплеев
-            href: devices/plan-device-deployment.md
-          - name: Телефоны для Teams
-            href: devices/phones-for-teams.md
-          - name: Настройка телефонов общего пользования
-            href: set-up-common-area-phones.md
-          - name: Дисплеи Teams
-            href: devices/teams-displays.md
-          - name: Панели Teams
+          - name: Развертывание
             items:
+              - name: Развертывание телефонов Teams и дисплеев Teams с помощью Intune
+                href: devices/phones-displays-deploy.md
+              - name: Настройка телефонов общего пользования
+                href: set-up-common-area-phones.md
+              - name: SIP-шлюз
+                items:
+                  - name: Планирование SIP-шлюза
+                    href: sip-gateway-plan.md
+                  - name: Настройка SIP-шлюза
+                    href: sip-gateway-configure.md
+              - name: Настройка автоматического ответа для устройств с Android в Teams
+                href: set-up-auto-answer-on-teams-android.md
+              - name: Удаленная подготовка и вход
+                href: devices/remote-provision-remote-login.md
+              - name: Удаленный вход и выход
+                href: devices/remote-sign-in-and-sign-out.md
+              - name: Рекомендации по проверке подлинности для устройств с Android
+                href: devices/authentication-best-practices-for-android-devices.md
+          - name: Управление и отслеживание
+            items:
+              - name: Управление устройствами в Teams
+                href: devices/device-management.md
+              - name: Использование административных единиц для управления устройствами
+                href: administrative-unit.md
+              - name: Управление тегами устройств Teams
+                href: devices/manage-device-tags.md
+              - name: Удаленное обновление устройств
+                href: devices/remote-update.md
+              - name: Телефоны для Teams
+                href: devices/phones-for-teams.md
+              - name: Дисплеи Teams
+                href: devices/teams-displays.md
+              - name: Обновление телефонов Teams до дисплеев Teams
+                href: devices/upgrade-phones-to-displays.md
               - name: Панели Teams
-                href: devices/teams-panels.md
-              - name: Использование панелей Teams
-                href: devices/use-teams-panels.md
-              - name: Поддержка приложений на панелях Teams
-                href: app-support-on-Teams-panels.md
-              - name: Регистрация и освобождение комнаты
-                href: devices/check-in-and-room-release.md
-          - name: Обновление телефонов Teams до дисплеев Teams
-            href: devices/upgrade-phones-to-displays.md
-          - name: Развертывание телефонов Teams и дисплеев Teams с помощью Intune
-            href: devices/phones-displays-deploy.md
-          - name: USB-устройства для аудио и видео
-            href: devices/usb-devices.md
-          - name: Развертывание Комнат Microsoft Teams на Android
-            href: devices/collab-bar-deploy.md
-          - name: Настройка пользовательского интерфейса для устройств с Android в Microsoft Teams
-            href: devices/Teams-Android-devices-user-interface.md
-          - name: Рекомендации по проверке подлинности для устройств с Android
-            href: devices/authentication-best-practices-for-android-devices.md
-          - name: Настройка автоматического ответа для устройств с Android в Teams
-            href: set-up-auto-answer-on-teams-android.md
-          - name: Комнатные устройства и решения для проведения собраний
-            href: /skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
+                items:
+                  - name: Панели Teams
+                    href: devices/teams-panels.md
+                  - name: Использование панелей Teams
+                    href: devices/use-teams-panels.md
+                  - name: Поддержка приложений на панелях Teams
+                    href: app-support-on-Teams-panels.md
+                  - name: Регистрация и освобождение комнаты
+                    href: devices/check-in-and-room-release.md
+              - name: Обновление телефонов Teams до дисплеев Teams
+                href: devices/upgrade-phones-to-displays.md
+              - name: Развертывание телефонов Teams и дисплеев Teams с помощью Intune
+                href: devices/phones-displays-deploy.md
+              - name: USB-устройства для аудио и видео
+                href: devices/usb-devices.md
+              - name: Мониторинг
+                items:
+                  - name: Оповещения и мониторинг в Teams
+                    href: alerts/teams-admin-alerts.md
+                  - name: Мониторинг работоспособности устройств в Teams
+                    href: alerts/device-health-status.md
+                  - name: Устройства и периферийные аксессуары Teams
+                    href: teams-device-health.md
+      - name: Ссылка
+        items:
           - name: Сертифицированные устройства Teams
             href: devices/teams-ip-phones.md
-          - name: SIP-шлюз
-            items:
-              - name: Планирование SIP-шлюза
-                href: sip-gateway-plan.md
-              - name: Настройка SIP-шлюза
-                href: sip-gateway-configure.md
-          - name: Оповещения и мониторинг в Teams
-            href: alerts/teams-admin-alerts.md
-          - name: Мониторинг работоспособности устройств в Teams
-            href: alerts/device-health-status.md
-          - name: Устройства и периферийные аксессуары Teams
-            href: teams-device-health.md
-          - name: Использование административных единиц для управления устройствами
-            href: administrative-unit.md
+          - name: Комнатные устройства и решения для проведения собраний
+            href: /skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
+          - name: Планирование развертывания телефонов и дисплеев
+            href: devices/plan-device-deployment.md
   - name: 'Приложения, боты и соединители'
     items:
       - name: Обзор
@@ -1803,6 +1813,8 @@ items:
             href: teams-powershell-managing-teams.md
           - name: Заметки о выпуске PowerShell в Teams
             href: teams-powershell-release-notes.md
+          - name: Поддерживаемые версии PowerShell в Teams
+            href: teams-powershell-supported-versions.md
           - name: Переход с соединителя Skype для бизнеса Online на модуль Teams PowerShell
             href: teams-powershell-move-from-sfbo.md
           - name: Справочник по командлетам для Teams
