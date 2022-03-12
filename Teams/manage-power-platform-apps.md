@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Узнайте, как управлять доступом к пользовательским приложениям, созданным на платформе Microsoft Power Platform, Microsoft Teams центре администрирования.
-ms.openlocfilehash: d2ccb100a0d6354b1fca62911b17afdd3479887b
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: c093d432faa8d4977f4d931ac948a35dc6fe6509
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070538"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442675"
 ---
 # <a name="manage-microsoft-power-platform-apps-in-the-microsoft-teams-admin-center"></a>Управление приложениями Microsoft Power Platform в Центре Microsoft Teams администрирования
 
@@ -76,7 +76,7 @@ ms.locfileid: "63070538"
 
 ### <a name="allow-or-block-microsoft-power-platform-apps-for-specific-users"></a>Разрешение и блокировка приложений Microsoft Power Platform для определенных пользователей
 
-Чтобы разрешить или заблокировать доступ к приложениям, созданным в Power Apps или Power Virtual Agents, создайте и назначьте одну или несколько настраиваемой [политики разрешений для приложений](teams-app-permission-policies.md). 
+Чтобы разрешить или заблокировать доступ к приложениям, созданным в Power Apps или Power Virtual Agents, создайте и назначьте одну или несколько настраиваемой [политики разрешений для приложений](teams-app-permission-policies.md).
 
 Например, чтобы заблокировать доступ определенных пользователей к приложениям, созданным в Power Apps, создайте настраиваемую политику разрешений приложений, чтобы заблокировать общие Power Apps, а затем назначьте ее этим пользователям.
 
@@ -84,7 +84,7 @@ ms.locfileid: "63070538"
 
 ### <a name="use-audit-logs-to-investigate-microsoft-power-platform-installation-activity"></a>Использование журналов аудита для изучения действий при установке Microsoft Power Platform
 
-Журналы аудита можно использовать для Teams, чтобы исследовать события, в которых пользователи установили приложения Microsoft Power Platform, из  раздела "Встроенные коллегами" страницы "Приложения" в Teams. Для этого [в журнале](./audit-log-events.md) аудита найдите событие  установленного приложения Teams (в рамках операции **AppInstalled**) для пользователя или набора пользователей. Чтобы найти приложения, установленные в приложении **Built by your colleagues**, найдите значение **TemplatedInstance** в свойстве **AppDistributionMode** в сведениях заданной записи. 
+Журналы аудита можно использовать для Teams, чтобы исследовать события, в которых пользователи установили приложения Microsoft Power Platform, из  раздела "Встроенные коллегами" страницы "Приложения" в Teams. Для этого [в журнале](./audit-log-events.md) аудита найдите событие  установленного приложения Teams (в рамках операции **AppInstalled**) для пользователя или набора пользователей. Чтобы найти приложения, установленные в приложении **Built by your colleagues**, найдите значение **TemplatedInstance** в свойстве **AppDistributionMode** в сведениях заданной записи.
 
 :::image type="content" source="media/manage-power-platform-apps-audit.png" alt-text="Снимок экрана: значение TemplatedInstance в свойстве AppDistributionMode.":::
 

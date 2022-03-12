@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: adfdfa74dd00314cb0b7fad5524a89619e8772d2
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: b5100bd09b371d90d5bede76b440f423eb527b9c
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070748"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442345"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Управление политиками настройки приложений в Microsoft Teams
 
@@ -51,7 +51,7 @@ ms.locfileid: "63070748"
 
 |Классический клиент Teams  |Мобильный клиент Teams |
 |---------|---------|
-|![Клиент Teams настольного компьютера.](media/app-setup-policies-desktop-app-bar.png)<br>  |   ![Мобильный Teams](media/mobile-app-ui.png)      |
+|![Клиент Teams настольного компьютера.](media/app-setup-policies-desktop-app-bar.png)<  |   ![Мобильный Teams](media/mobile-app-ui.png)      |
 
 > [!NOTE]
 > Если вы Teams для образования, важно знать, что приложение "Задания" по умолчанию закреплено в глобальной политике, хотя в настоящее время оно не указано в глобальной политике. Это будет четвертое приложение в списке закрепленных приложений на Teams клиентах.
@@ -193,7 +193,7 @@ ms.locfileid: "63070748"
 |Классический клиент Teams |Мобильный клиент Teams |
 |---------|---------|
 |На панели приложения сбоку Teams выберите **... Другие приложения**.| На панели приложения в нижней части Teams проведите пальцем вверх.|
-|![Другие приложения в Teams для настольных ПК.](media/app-setup-policies-desktop-more-apps.png)<br>   |![Другие приложения в Teams мобильном клиенте](media/app-setup-policies-mobile-more-apps.png)  
+|![Другие приложения в Teams для настольных ПК.](media/app-setup-policies-desktop-more-apps.png)   |![Другие приложения в Teams мобильном клиенте](media/app-setup-policies-mobile-more-apps.png)  
 
 #### <a name="what-do-i-need-to-know-about-the-teams-mobile-experience"></a>Что нужно знать о Teams мобильном устройстве
 

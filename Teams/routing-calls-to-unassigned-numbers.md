@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Узнайте, как перена маршрутизации звонков на ненанамер номера в организации.
-ms.openlocfilehash: 4d9c40a0b4a01f7fae4a755603cb5cf7eb132f5c
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: f53e83b3d4f26123feed70bdecad32cb45bc5588
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61767372"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442797"
 ---
 # <a name="routing-calls-to-unassigned-numbers"></a>Маршруты звонков на ненаписаные номера
 
@@ -67,7 +67,7 @@ New-CsTeamsUnassignedNumberTreatment -Identity TR1 -Pattern "^\+1555333\d{4}$" -
 
 - Если маршрутия к объявлению, звуковой файл будет один разыграно вызываемой.
 
-- Чтобы перена маршрутизировать звонки на ненаназваченные абонентские номера плана звонков Майкрософт, ваш клиент должен иметь доступные кредиты [на](what-are-communications-credits.md)связь.
+- Чтобы перена маршрутизировать звонки на ненаназваченные абонентские номера плана звонков Майкрософт, ваш клиент должен иметь доступные кредиты [на связь](what-are-communications-credits.md).
 
 - Чтобы перена маршрутизировать звонки на нена назначенные номера служб плана звонков Майкрософт, у вашего клиента должна быть по крайней мере одна лицензия телефонная система — виртуальный пользователь.
 
@@ -82,3 +82,5 @@ New-CsTeamsUnassignedNumberTreatment -Identity TR1 -Pattern "^\+1555333\d{4}$" -
 - [Set-CsTeamsNussignedNumberTreatment](/powershell/module/teams/set-csteamsunassignednumbertreatment)
 
 - [Remove-CsTeamsNussignedNumberTreatment](/powershell/module/teams/remove-csteamsunassignednumbertreatment)
+
+- [Test-CsTeamsNussignedNumberTreatment](/powershell/module/teams/test-csteamsunassignednumbertreatment)

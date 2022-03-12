@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Узнайте, как настроить облачная голосовая почта для пользователей.
-ms.openlocfilehash: d2bb29130bad312dbd420c0adb8b16558232c258
-ms.sourcegitcommit: c5f281342c5f2af65492692ab1249789c637e457
+ms.openlocfilehash: d78942c5cbfc6af8e921c26c806378b45f480835
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2022
-ms.locfileid: "63392877"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442325"
 ---
 # <a name="set-up-cloud-voicemail"></a>Настройка облачной голосовой почты
 
@@ -107,7 +107,7 @@ ms.locfileid: "63392877"
 
 Если включить защищенную голосовую почту, пользователи смогут прослушивать защищенные сообщения голосовой почты, позвонив в свой почтовый ящик голосовой почты или открыв их в Outlook, Outlook в Интернете или Outlook для Android или iOS. Защищенные сообщения голосовой почты нельзя открывать в Microsoft Teams или Skype для busimes.
 
-Чтобы создать метку конфиденциальности для голосовой почты, см [. использование меток конфиденциальности](/microsoft-365/compliance/encryption-sensitivity-labels?view=o365-worldwide#let-users-assign-permissions). Выберите **В Outlook ввести одно** из следующих ограничений, а затем выберите параметр **Не переадранить**.
+Чтобы создать метку конфиденциальности для голосовой почты, см [. использование меток конфиденциальности](/microsoft-365/compliance/encryption-sensitivity-labels?view=o365-worldwide#let-users-assign-permissions). В разделе **Шифрование** выберите **разрешить пользователям назначать разрешения при применении метки**. Выберите **В Outlook ввести одно** из следующих ограничений, а затем выберите параметр **Не переадранить**.
 
 Чтобы создать политику автоматической метки для применения метки конфиденциальности к голосовой почте, см[](/microsoft-365/compliance/apply-sensitivity-label-automatically?view=o365-worldwide#how-to-configure-auto-labeling-policies-for-sharepoint-onedrive-and-exchange). настройка политик автоматической метки и настройка следующих параметров:
 
