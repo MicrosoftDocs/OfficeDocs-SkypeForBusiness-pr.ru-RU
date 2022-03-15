@@ -1,7 +1,7 @@
 ---
 title: Планирование Комнаты Microsoft Teams мониторинга с помощью Azure Monitor
-ms.author: dstrome
-author: dstrome
+ms.author: czawideh
+author: cazawideh
 ms.reviewer: Turgayo
 manager: serdars
 audience: ITPro
@@ -15,23 +15,23 @@ ms.collection:
 - M365-collaboration
 description: В этой статье рассматриваются вопросы планирования использования Azure Monitor для отслеживания Комнаты Microsoft Teams в Skype для бизнеса или Teams реализации.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 13c16234773792f9dc394723521224123c5e2141
-ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
+ms.openlocfilehash: 510f249ea4aef78b898294db0a2c3fbeef8fc283
+ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "62015209"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63504126"
 ---
 # <a name="plan-microsoft-teams-rooms-monitoring-with-azure-monitor"></a>Планирование Комнаты Microsoft Teams мониторинга с помощью Azure Monitor
  
  В этой статье рассматриваются вопросы планирования использования Azure Monitor для администрирования Комнаты Microsoft Teams устройств в Microsoft Teams или Skype для бизнеса реализации.
 
 > [!NOTE]
-> Вы также можете [настроить мониторинг](../alerts/device-health-status.md) состояния Комнаты Teams с помощью Teams центра администрирования.
+> Вы также можете [настроить мониторинг состояния Комнаты Teams](../alerts/device-health-status.md) с помощью Teams администрирования.
 
 [Azure Monitor](/azure/azure-monitor/overview) — это набор служб мониторинга, разработанных в облаке с самого начала. Компоненты монитора Azure размещаются в Azure, а не развертываются и управляются локально. Конфигурация минимальна, и вы можете работать в течение нескольких минут. С помощью некоторых настроек можно контролировать Комнаты Microsoft Teams за счет уведомлений о состоянии системы или о неисправностях отдельных систем комнат, а также управлять тысячами Комнаты Microsoft Teams.
   
-В этой статье данная статья содержит информацию о требованиях, проектировании и архитектуре и методиках внедрения, необходимых для внедрения мониторинга Комнаты Microsoft Teams. Кроме того, здесь вы можете найти ссылки на подробные статьи о внедрении azure Monitor для Комнаты Microsoft Teams и важные справочные сведения для постоянного мониторинга Комнаты Microsoft Teams помещений.
+В этой статье данная статья содержит информацию о требованиях, проектировании и архитектуре и методиках внедрения, необходимых для внедрения мониторинга на основе монитора Azure Комнаты Microsoft Teams. Кроме того, здесь вы можете найти ссылки на подробные статьи о внедрении azure Monitor для Комнаты Microsoft Teams и важные справочные сведения для постоянного мониторинга Комнаты Microsoft Teams помещений.
   
 ## <a name="functional-overview"></a>Функциональный обзор
 
@@ -45,23 +45,23 @@ ms.locfileid: "62015209"
   
 ## <a name="azure-monitor-requirements"></a>Требования к Azure Monitor
 
-Для использования функций аналитики журналов у вас должна быть действительная подписка на Azure Monitor. См. создание подписки для организации в рабочей области ["Аналитика](/azure/azure-monitor/learn/quick-create-workspace) журналов".
+Для использования функций аналитики журналов у вас должна быть действительная подписка на Azure Monitor. См [. создание](/azure/azure-monitor/learn/quick-create-workspace) подписки для организации в рабочей области "Аналитика журналов".
   
-Вам следует ознакомиться с использованием конструктора представления "Аналитика журналов". Эти [сведения см. в](/azure/azure-monitor/platform/view-designer) области Представления в средстве аналитики журналов.
+Вам следует ознакомиться с использованием конструктора представления "Аналитика журналов". Эти [сведения см. в области Представления в средстве](/azure/azure-monitor/platform/view-designer) аналитики журналов.
   
 ### <a name="related-tasks"></a>Связанные задачи
 
-1. Подписався на azure Monitor Log Analytics, создайте настраиваемые поля (как описано в поле [Карта),](azure-monitor-deploy.md#Custom_fields)необходимые для анализа сведений, которые будут Комнаты Microsoft Teams. Это включает понимание схемы JSON, задокументированной в [окне "Понимание записей журнала".](azure-monitor-manage.md#understand-the-log-entries)
+1. Подписався на azure Monitor Log Analytics, создайте настраиваемые поля (как описано в поле [Карта),](azure-monitor-deploy.md#Custom_fields) необходимые для анализа сведений, которые будут Комнаты Microsoft Teams. Это включает в себя понимание схемы JSON, описанной в [описании записей журнала](azure-monitor-manage.md#understand-the-log-entries).
     
-2. Разработайте Комнаты Microsoft Teams управления журналами в средстве аналитики журналов. Вы можете [создать панель Комнаты Microsoft Teams вручную.](azure-monitor-deploy.md#create-a-microsoft-teams-rooms-dashboard-manually)
+2. Разработайте Комнаты Microsoft Teams управления журналами в средстве аналитики журналов. Вы можете [создать панель Комнаты Microsoft Teams вручную](azure-monitor-deploy.md#create-a-microsoft-teams-rooms-dashboard-manually).
     
 ## <a name="individual-microsoft-teams-rooms-requirements"></a>Индивидуальные Комнаты Microsoft Teams требованиям
 
-Комнаты Microsoft Teams — это приложение, запущенное на компьютере в режиме киоска. Как и любое Windows, приложение Комнаты Microsoft Teams записывает такие события, как ошибки запуска и оборудования, в журнал событий Windows устройств. Добавление агента Microsoft Monitor Комнаты Microsoft Teams позволяет собирать эти события. (Подробные Подключение Windows см. в Подключение Windows службе [Log Analytics в Azure.)](/azure/azure-monitor/platform/agent-windows)
+Комнаты Microsoft Teams — это приложение, запущенное на компьютере в режиме киоска. Как и любое Windows, приложение Комнаты Microsoft Teams записывает такие события, как ошибки запуска и оборудования, в журнал Windows событий. Добавление агента Microsoft Monitor Комнаты Microsoft Teams позволяет собирать эти события. (Подробные Подключение Windows см. в Подключение Windows службе [Log Analytics в Azure](/azure/azure-monitor/platform/agent-windows).)
   
 ## <a name="ongoing-management"></a>Текущее управление
 
-При использовании azure Monitor для отслеживания Комнаты Microsoft Teams необходимо понимать сведения, содержащиеся в журналах событий, используемых Azure Monitor. Подробные [сведения об этих сообщениях](azure-monitor-manage.md#understand-the-log-entries) о состоянии см. в статьях Сведения о записях журнала.
+При использовании azure Monitor для отслеживания Комнаты Microsoft Teams необходимо понимать сведения, содержащиеся в журналах событий, используемых Azure Monitor. [Подробные сведения об этих сообщениях](azure-monitor-manage.md#understand-the-log-entries) о состоянии см. в статьях Сведения о записях журнала.
   
 ### <a name="related-tasks"></a>Связанные задачи
 

@@ -1,8 +1,8 @@
 ---
 title: Комнаты Microsoft Teams
 ms.reviewer: ''
-ms.author: dstrome
-author: dstrome
+ms.author: czawideh
+author: cazawideh
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -16,18 +16,18 @@ ms.collection:
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: Узнайте, как настроить Комнаты Microsoft Teams, включая планирование, развертывание и управление системой, чтобы создать идеальное виртуальное помещение для собраний.
 ms.custom: seo-marvel-may2020
-ms.openlocfilehash: 92c738d9fc036a7757655b0d57a366a0849ca9ea
-ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
+ms.openlocfilehash: 0458513bc75bf352aed1b611895ef918fc621dcc
+ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "62015289"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63504116"
 ---
 # <a name="microsoft-teams-rooms"></a>Комнаты Microsoft Teams
 
 :::row:::
     :::column span="2":::
-       Преобразуя пространства для собраний, от небольших областей до больших конференц-залов, вы можете использовать Teams простой в использовании, развертывании и управлении.
+       Преобразуя места для собраний, от небольших областей до больших конференц-залов, вы можете использовать Teams простой в использовании, развертывании и управлении.
 
        Начните собрание вовремя с одним касанием, а затем мгновенно проецируемый на экран в комнате и поделитесь с удаленными участниками.
 
@@ -54,7 +54,7 @@ ms.locfileid: "62015289"
 >
 > Более ранние платформы, такие как Lync Server 2013, не поддерживаются Комнаты Microsoft Teams.
 
-Эти статьи предназначены для людей, у которых есть задачи по планированию, развертыванию и управлению этими Комнаты Microsoft Teams. Конечным пользователям будет больше интересна справка по Комнаты Microsoft Teams [в Интернете.](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
+Эти статьи предназначены для людей, у которых есть задачи по планированию, развертыванию и управлению этими Комнаты Microsoft Teams. Конечным пользователям будет больше интересна Комнаты Microsoft Teams [в Интернете](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2).
 
 > [!NOTE]
 > [Skype комнат](../rooms/lrs-migration.md) (ранее Lync Room System) и Комнаты Microsoft Teams разные продукты с разными зависимостями и процедурами развертывания.

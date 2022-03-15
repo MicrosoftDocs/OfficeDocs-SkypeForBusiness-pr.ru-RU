@@ -1,7 +1,7 @@
 ---
 title: Развертывание Комнаты Microsoft Teams с помощью Skype для бизнеса Server
-ms.author: dstrome
-author: dstrome
+ms.author: czawideh
+author: cazawideh
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -15,20 +15,20 @@ ms.collection:
 ms.assetid: a038e34d-8bc8-4a59-8ed2-3fc00ec33dd7
 description: Дополнительные сведения о развертывании Комнаты Microsoft Teams с помощью Skype для бизнеса Server.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 702eb2128dd37980fd3fc76548638102d45d7af9
-ms.sourcegitcommit: 1165a74b1d2e79e1a085b01e0e00f7c65483d729
+ms.openlocfilehash: 358fa9295ec150f9c57a18252c76d309078b8e29
+ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2021
-ms.locfileid: "61355628"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63503486"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-skype-for-business-server"></a>Развертывание Комнаты Microsoft Teams с помощью Skype для бизнеса Server
   
 В этой теме объясняется, как добавить учетную запись ресурса для Комнаты Microsoft Teams при развертывании с одним лесом в локальном развертывании.
   
-Если у вас один лес, локальное развертывание с Exchange 2013 с sp1 или более поздней и Skype для бизнеса Server 2015 или более поздней, вы можете использовать предоставленные сценарии Windows PowerShell для создания учетных записей устройств. При развертывании с несколькими лесами можно использовать эквивалентные cmdlets, которые будут работать с одинаковыми результатами. В этой статье описываются необходимые для этого командлеты.
+Если у вас один лес, локальное развертывание с Exchange 2013 с SP1 или более поздней и Skype для бизнеса Server 2015 или более поздней, то вы можете создавать учетные записи устройств с помощью Windows PowerShell сценариев. При развертывании с несколькими лесами можно использовать эквивалентные cmdlets, которые будут работать с одинаковыми результатами. В этой статье описываются необходимые для этого командлеты.
   
-Прежде чем приступить к развертыванию Комнаты Microsoft Teams, убедитесь, что у вас есть права на запуск связанных с ними cmdlets.
+Прежде чем приступить к развертыванию Комнаты Microsoft Teams, убедитесь, что у вас есть права на запуск связанных с ней cmdlets.
   
 
    ``` Powershell
@@ -60,7 +60,7 @@ ms.locfileid: "61355628"
    -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
    ```
 
-3. Вы можете настроить различные Exchange в учетной записи Комнаты Teams ресурсов, чтобы улучшить собрание для пользователей. Описание необходимых настроек приводится в разделе "Свойства Exchange".
+3. Вы можете настроить различные Exchange в учетной записи Комнаты Teams ресурсов, чтобы улучшить качество собраний для пользователей. Описание необходимых настроек приводится в разделе "Свойства Exchange".
 
    ``` Powershell
    Set-CalendarProcessing -Identity ConferenceRoom01 -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -AllowConflicts $false -DeleteComments
@@ -87,9 +87,9 @@ ms.locfileid: "61355628"
    -RegistrarPool LYNCPool15.contoso.com 
    ```
 
-    Измените `-DomainController` значения `-RegistrarPool` и атрибуты на значения, подходящие для вашей среды.
+    Измените `-DomainController` значения и `-RegistrarPool` атрибуты на значения, подходящие для вашей среды.
 
-7. **Необязательный**. Вы также можете разрешить Комнаты Microsoft Teams телефонной сети общего звонков (STN), включив Корпоративная голосовая связь для вашей учетной записи. Корпоративная голосовая связь не является требованием для Комнаты Microsoft Teams, но если вы хотите, чтобы Комнаты Microsoft Teams ОКП, вот как это сделать:
+7. **Необязательный**. Вы также можете разрешить Комнаты Microsoft Teams телефонную сеть общего звонков (STN), включив Корпоративная голосовая связь для вашей учетной записи. Корпоративная голосовая связь не является требованием для Комнаты Microsoft Teams, но если вы хотите использовать функции набора номера через Комнаты Microsoft Teams, вот как это сделать:
 
    ``` Powershell
    Set-CsMeetingRoom -Identity ConferenceRoom01 -DomainController DC-ND-001.contoso.com -LineURI "tel:+14255550555;ext=50555"
