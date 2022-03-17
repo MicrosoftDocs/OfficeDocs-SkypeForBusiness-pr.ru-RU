@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: Узнайте, какие USB-периферийные устройства (например, гарнитуры, динамики, веб-камеры и мониторы) сертифицированы для Microsoft Teams.
-ms.openlocfilehash: 0e85a2317ba79bdedeca30dbd566ab84b557ec6f
-ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
+ms.openlocfilehash: 3fccae62c996e0301e6bbe928cae17ff163c650e
+ms.sourcegitcommit: dafe48cea1643e1bd79390482da9b002d7e9e0bb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2022
-ms.locfileid: "63503556"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63514530"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Аудио- и видео устройства USB, сертифицированные для Microsoft Teams
 
@@ -78,6 +78,9 @@ ms.locfileid: "63503556"
 
 | Производитель        | Модели                                                     | Квалифицированных      | Сертифицированная программа                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|ЭПОС                 |ADAPT 661                                                  |3/11/2022       |Сертифицировано для Microsoft Teams                           |
+|ЭПОС                 |ADAPT 461T                                                 |3/11/2022       |Сертифицировано для Microsoft Teams                           |
+|ЭПОС                 |ADAPT 361                                                  |3/11/2022       |Сертифицировано для Microsoft Teams                           |
 |Dell                 |Speakerphone SP3022                                        |2/7/2022        |Сертифицировано для Microsoft Teams                           |
 |Dell                 |Slim Conferencing Soundbar SB522A                          |1/25/2022       |Сертифицировано для Microsoft Teams                           | 
 |Lenovo               |Перейти к проводной гарнитуре ANC                                       |1/12/2022       |Сертифицировано для Microsoft Teams                           |

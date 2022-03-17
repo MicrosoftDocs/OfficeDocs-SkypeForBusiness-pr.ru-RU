@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: В этой статье вы узнаете о развертывании Комнаты Microsoft Teams на устройствах с Android.
-ms.openlocfilehash: 55e410b1863effd671f08cba663211b78f76e30f
-ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
+ms.openlocfilehash: 7b37f03bdecf0bb6b1d3f3545d096836aa81b805
+ms.sourcegitcommit: dafe48cea1643e1bd79390482da9b002d7e9e0bb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2022
-ms.locfileid: "63503546"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63514520"
 ---
 # <a name="deploy-microsoft-teams-rooms-on-android"></a>Развертывание Комнаты Microsoft Teams на устройствах с Android
 
@@ -122,6 +122,4 @@ ms.locfileid: "63503546"
 
 ## <a name="related-topics"></a>Статьи по теме
 
-[Настройка учетных записей для Комнаты Microsoft Teams с Microsoft Teams администрирования](resource-account-ui.md)
-
-<!-- [Configure accounts for collaboration bars for Microsoft Teams using PowerShell](resource-account-ps.md) -->
+[Создание учетных записей ресурсов для помещений и общих Teams устройств](../rooms/with-office-365.md)

@@ -753,7 +753,7 @@ items:
                 href: ptsn-mask-phone-numbers.md
           - name: Доступность аудиоконференций в различных странах и регионах
             href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
-          - name: Справочные материалы
+          - name: Справка
             items:
               - name: Поддерживаемые языки аудиоконференций
                 href: audio-conferencing-supported-languages.md
@@ -1325,16 +1325,16 @@ items:
                 href: rooms/rooms-deploy.md
               - name: Настройка учетных записей
                 href: rooms/rooms-configure-accounts.md
-              - name: В Office 365
+              - name: Surface Hub
+                items:
+                  - name: Настройка координированных собраний
+                    href: rooms/coordinated-meetings.md
+                  - name: Управление параметрами Microsoft Teams
+                    href: rooms/surface-hub-manage-config.md
+              - name: Создание учетных записей ресурсов
                 href: rooms/with-office-365.md
               - name: В Skype для бизнеса Server
                 href: rooms/with-skype-for-business-server-2015.md
-              - name: В Exchange Online (гибридная среда)
-                href: rooms/with-exchange-online.md
-              - name: В локальном приложении Exchange (гибридная среда)
-                href: rooms/with-exchange-on-premises.md
-              - name: Развертывание Комнат Microsoft Teams на Android
-                href: devices/collab-bar-deploy.md
               - name: Настройка консоли
                 href: rooms/console.md
               - name: Обновление устройства вручную
@@ -1785,8 +1785,6 @@ items:
         items:
           - name: Группы Microsoft 365 и Teams
             href: office-365-groups.md
-          - name: Создание учетной записи ресурса Microsoft 365 с помощью Центра администрирования Microsoft 365
-            href: devices/resource-account-ui.md
           - name: Улучшение существующих групп Microsoft 365 с помощью Teams
             href: enhance-office-365-groups.md
           - name: Взаимодействие Exchange и Teams
