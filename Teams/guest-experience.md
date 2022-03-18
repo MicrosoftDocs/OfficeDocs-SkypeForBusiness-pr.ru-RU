@@ -19,16 +19,19 @@ appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
 description: В этой статье описываются функции Microsoft Teams, доступные для гостей.
-ms.openlocfilehash: 5d8bb9ab670da0a4002f69cf5ddec9f245cd9c13
-ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
+ms.openlocfilehash: c7052eb22a68b146c3ee998b57ba877da82e11b4
+ms.sourcegitcommit: 640f55fe6144ff867b41b57e52f45b8a64cf779e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62190700"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63556635"
 ---
 # <a name="guest-experience-in-teams"></a>Возможности гостя в Teams
 
 Когда гостя приглашают присоединиться к команде, он получает приветственное сообщение электронной почты. Это сообщение содержит некоторые сведения о команде и приобретаемых возможностях участников. Прежде чем получить доступ к команде и ее каналам, гость должен принять приглашение, выбрав в сообщении электронной почты **Открыть Microsoft Teams**.
+
+> [!NOTE]
+> После того как гость будет добавлен в команду, может потребоваться несколько часов, прежде чем он будет иметь доступ.
     
 ![Снимок экрана: пример приветствия сообщения электронной почты.](media/guest-experience-image1.png)
     

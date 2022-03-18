@@ -629,8 +629,6 @@ items:
                 href: cloud-recording.md
               - name: Использование OneDrive для бизнеса и SharePoint или Stream для записи собраний
                 href: tmr-meeting-recording-change.md
-              - name: Интеграция центра контактов
-                href: teams-contact-center.md
               - name: Использование надстройки "Собрание Teams" в Outlook
                 href: teams-add-in-for-outlook.md
               - name: Настройка приложения "Собрания Skype" для работы с Teams
@@ -1287,6 +1285,8 @@ items:
                 href: add-funds-and-manage-communications-credits.md
           - name: Потоки звонков Microsoft Teams
             href: microsoft-teams-online-call-flows.md
+          - name: Интеграция центра контактов
+            href: teams-contact-center.md
   - name: Управление устройствами и комнатами
     items:
       - name: Комнаты Microsoft Teams
