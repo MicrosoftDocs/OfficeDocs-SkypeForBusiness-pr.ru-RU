@@ -1539,7 +1539,7 @@ items:
             href: non-standard-users.md
           - name: Обновление функций для приложений
             href: apps-update-experience.md
-          - name: Управление доступом к сторонним приложениям Teams в Microsoft 365
+          - name: Управление доступом к приложениям Teams в Microsoft 365
             href: manage-third-party-teams-apps.md
   - name: Руководство для отраслей и государственных организаций
     items:
