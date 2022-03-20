@@ -751,7 +751,7 @@ items:
                 href: ptsn-mask-phone-numbers.md
           - name: Доступность аудиоконференций в различных странах и регионах
             href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
-          - name: Справка
+          - name: Справочные материалы
             items:
               - name: Поддерживаемые языки аудиоконференций
                 href: audio-conferencing-supported-languages.md
@@ -973,6 +973,8 @@ items:
             href: cloud-voice-network-settings.md
           - name: Управление топологией сети для функций голосовой связи в облаке
             href: manage-your-network-topology.md
+          - name: Управление настройками видео и мультимедиа
+            href: network-roaming-policy.md
       - name: Экстренные вызовы
         items:
           - name: Обзор
@@ -1364,7 +1366,7 @@ items:
               - name: Обслуживание и эксплуатация
                 href: rooms/rooms-operations.md
               - name: Известные проблемы
-                href: rooms/known-issues.md
+                href: /microsoftteams/troubleshoot/teams-devices-and-rooms/rooms-known-issues
               - name: Устройства с Azure Monitor
                 href: rooms/azure-monitor-manage.md
               - name: Управление настройками с помощью XML-файла
