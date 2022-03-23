@@ -13,12 +13,12 @@ ms.collection:
 description: Узнайте о последних изменениях в Teams PowerShell.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8e45a80f4e16c211ae37579dc7de273c53f64d16
-ms.sourcegitcommit: ff975c21725e1812e6db8fc9fe37de1362f168c3
+ms.openlocfilehash: dea6b9d93d3950d4a831fdf669a98e28028f3c41
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2022
-ms.locfileid: "63435743"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711713"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Microsoft Teams о выпуске PowerShell
 
@@ -31,6 +31,7 @@ ms.locfileid: "63435743"
 
 | Дата | Версия | Обновления |
 |------- | -------------------- | ------------------------------ |
+| Март 2022 г. | [Предварительный просмотр 4.0.1](https://www.powershellgallery.com/packages/MicrosoftTeams/4.0.1-preview) |<li>Исправлены проблемы с общим параметром ErrorAction.</li>
 | Март 2022 г. | [4.0.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.0.0) |<li>Этот выпуск завершает обновление всех важных для Teams организаций. Современные версии будут постепенно разоснаваться, поэтому в некоторых организациях будут по-прежнему поддерживаться старые версии для переумногуирования.</li><li>Выпуски [NewSetRemove\|\|]-CsUserCallingDelegate и [GetSet\|]-CsUserCallingSettings в Ga.</li><li>[РАЗРЫВ ИЗМЕНЕНИЯ] Кроме New-CsVoiceNormalizationRule; Переключатель InMemory больше не поддерживается для других cmdlets.</li><li>Неподдерживаются следующие cmdlets: ConvertTo-JsonForPSWS, Set-CsUserServicesPolicy, [GetSet]-CsNetworkConfiguration, [SetRemove]-CsTenantNetworkConfiguration, New-CsNetworkMediaBypassConfiguration, [GetGrantNewRemoveSet\|\|\|\|]-CsTeamsVerticalPackagePolicy,[GetRemoveSet\|\|]-CsVoiceNormalizationRule.\|\|</li>
 | Февраль 2022 г. | [Предварительный просмотр 3.2.0](https://www.powershellgallery.com/packages/MicrosoftTeams/3.2.0-preview) |<li>Этот выпуск завершает полное обновление всех важных для Teams организаций. Современные версии будут постепенно разоснаваться, поэтому в некоторых организациях будут по-прежнему поддерживаться старые версии для переумногуирования.</li><li>[РАЗРЫВ ИЗМЕНЕНИЯ] Кроме New-CsVoiceNormalizationRule; Переключатель InMemory больше не поддерживается для других cmdlets.</li><li>Connect-MicrosoftTeams производительности.</li><li>Исправления для Import-Module с помощью префикса.</li><li>Исправление портов обработки с помощью косой черты "/" в [GetSetRemove\|\|]-CsOnlineLisPort.</li><li>Выпуск Test-CsTeamsUnassignedNumberTreatment.</li><li>Неподдерживаются следующие cmdlets: ConvertTo-JsonForPSWS, Set-CsUserServicesPolicy, [GetSet]-CsNetworkConfiguration, [SetRemove]-CsTenantNetworkConfiguration, New-CsNetworkMediaBypassConfiguration, [GetGrantNewRemoveSet\|\|\|\|]-CsTeamsVerticalPackagePolicy, [GetRemoveSet\|\|]-CsVoiceNormalizationRule.\|\|</li>
 | Февраль 2022 г. | [3.1.1](https://www.powershellgallery.com/packages/MicrosoftTeams/3.1.1) |<li>Повышение производительности для import-Module.</li><li>Исправлена проблема десериализации PSListModifier.</li>
@@ -63,7 +64,7 @@ ms.locfileid: "63435743"
 | Март 2020 г. | [1.0.5](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.5) |<li>Добавлено New-CsBatchPolicyAssignmentOperation</li> |
 | Февраль 2020 г. | [1.0.4](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.4) | <li>Get-Team оптимизации</li>  |
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
 [Обзор PowerShell в Teams](teams-powershell-overview.md)
 

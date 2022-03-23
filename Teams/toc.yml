@@ -277,6 +277,8 @@ items:
         items:
           - name: Информационные барьеры
             href: information-barriers-in-teams.md
+          - name: Информационные барьеры и общие каналы
+            href: information-barriers-shared-channels.md
           - name: Изменение режимов информационных барьеров с помощью сценария PowerShell
             href: information-barriers-mode-script.md
           - name: Политики хранения
@@ -477,6 +479,8 @@ items:
         href: teams-channels-overview.md
       - name: Обзор закрытых каналов
         href: private-channels.md
+      - name: Обзор общих каналов
+        href: shared-channels.md
       - name: Назначение владельцев и участников команд в Teams
         href: assign-roles-permissions.md
       - name: Общие сведения о динамическом членстве в командах
@@ -751,7 +755,7 @@ items:
                 href: ptsn-mask-phone-numbers.md
           - name: Доступность аудиоконференций в различных странах и регионах
             href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
-          - name: Справочные материалы
+          - name: Справка
             items:
               - name: Поддерживаемые языки аудиоконференций
                 href: audio-conferencing-supported-languages.md
@@ -1469,11 +1473,11 @@ items:
             href: /skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
           - name: Планирование развертывания телефонов и дисплеев
             href: devices/plan-device-deployment.md
-  - name: 'Приложения, боты и соединители'
+  - name: 'Управление приложениями, ботами и соединителями в Teams'
     items:
       - name: Обзор
         href: deploy-apps-microsoft-teams-landing-page.md
-      - name: Приложения от Майкрософт
+      - name: 'Управление стандартными приложениями, предоставленными Microsoft'
         items:
           - name: Управление приложением Bookings
             href: bookings-app-admin.md
@@ -1487,33 +1491,33 @@ items:
             href: approval-admin.md
           - name: Управление приложением "Смены"
             href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
-      - name: Сторонние приложения
+      - name: Администрирование сторонних приложений
         items:
-          - name: Сертификация приложения
+          - name: 'Безопасность, соответствие требованиям, конфиденциальность и обработка данных для сторонних приложений'
             href: /microsoft-365-app-certification/overview
           - name: Приобретение сторонних приложений для Teams
             href: purchase-third-party-apps.md
       - name: Шаблоны приложений для Teams
         href: /microsoftteams/platform/samples/app-templates?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fMicrosoftTeams%2ftoc.json
-      - name: Как создавать и настраивать приложения
+      - name: Управление пользовательскими бизнес-приложениями
         items:
           - name: Интеграция с Power Platform
             href: teams-power-platfom-integration.md
           - name: Управление приложениями Power Platform в Центре администрирования Microsoft Teams
             href: manage-power-platform-apps.md
-          - name: 'Публикация настраиваемого приложения, отправленного с помощью API передачи приложений Teams'
+          - name: Публикация пользовательских приложений в магазине вашей организации
             href: submit-approve-custom-apps.md
           - name: Публикация настраиваемого приложения путем отправки пакета приложений
             href: upload-custom-apps.md
           - name: Настройка параметров в Teams
             href: customize-apps.md
-          - name: Магазин настраиваемых приложений
+          - name: Настройка фирменного стиля магазина приложений вашей организации
             href: customize-your-app-store.md
           - name: Использование встроенных и настраиваемых вкладок
             href: built-in-custom-tabs.md
-      - name: Управление приложениями для Teams
+      - name: Элементы управления для администраторов и управление приложениями
         items:
-          - name: Обзор
+          - name: Обзор управления приложениями для администраторов
             href: manage-apps.md
           - name: Политики приложений
             items:
@@ -1527,22 +1531,24 @@ items:
                 href: teams-custom-app-policies-and-settings.md
           - name: Настройка приложений Teams с учетом лицензии
             href: pin-teams-apps-based-on-license.md
-          - name: Просмотр разрешений приложений и предоставление согласия администратора
+          - name: Обзор разрешений приложений Azure AD и предоставление согласия администратора
             href: app-permissions-admin-center.md
-          - name: Согласие для определенных ресурсов
+          - name: Управление связанным с конкретными ресурсами согласием для вашей организации
             href: resource-specific-consent.md
-          - name: Разрешения и рекомендации для приложений
+          - name: Информация о разрешениях приложений и доступе к ресурсам
             href: app-permissions.md
           - name: Параметры администратора для приложений в Teams
             href: admin-settings.md
           - name: Использование Microsoft 365 или Office 365 и настраиваемых соединителей
             href: Office-365-custom-connectors.md
-          - name: Поведение приложений Teams для нестандартных пользователей
+          - name: Поведение приложений в зависимости от типов пользователей
             href: non-standard-users.md
-          - name: Обновление функций для приложений
+          - name: 'Обновление приложений до новых версий, выполняемое конечными пользователями'
             href: apps-update-experience.md
           - name: Управление доступом к приложениям Teams в Microsoft 365
             href: manage-third-party-teams-apps.md
+      - name: Отчет об использовании приложения
+        href: teams-analytics-and-reports/app-usage-report.md
   - name: Руководство для отраслей и государственных организаций
     items:
       - name: Обзор

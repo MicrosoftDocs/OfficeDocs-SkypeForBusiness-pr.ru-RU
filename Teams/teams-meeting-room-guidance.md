@@ -20,12 +20,12 @@ f1.keywords:
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cb74dcb92328890b71317818b3230571151fd0a6
-ms.sourcegitcommit: e97c981489ff1f02674df57426da3b22cc6d68c1
+ms.openlocfilehash: b02e3f441ad7a4a338c86e89b2740561d3d552d7
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "63062735"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711573"
 ---
 # <a name="meeting-room-guidance-for-teams"></a>Руководство по помещению для Teams
 
@@ -536,11 +536,12 @@ ms.locfileid: "63062735"
 
 ### <a name="displays"></a>Отображает
 
--   Лазерная проектор с коротким наброском с высоким разрешением при автоматическом подключании при синхронизации и охладании во время работы функции спящий режим.
+- Лазерная проектор с коротким или коротким наброском, высоким разрешением и высокой яркостью при автоматическом подключении при синхронизации и охладании во время работы функции спящий режим. Экран проектора с низкими улучшениями с свойствами отклония окружающего света обеспечивает наилучшее качество изображения в ярких помещениях.
 
-Как показано ниже:
+Как показано ниже: 
 
-Epson EpiqVision™ Ultra LS500
+- [Проектор Epson EB-PU1007 с линзами ELPLX01S Ultra Short Throw](https://epson.com/For-Work/Projectors/Large-Venue/EB-PU1007B-WUXGA-3LCD-Laser-Projector-with-4K-Enhancement/p/V11HA34820)
+- [Экран контура Da-Lite UTB | Hd Progressive 0.6 Screen | Cinemascope 138" Diagonal](https://www.legrandav.com/products/da-lite/screens/fixed_frame_screens/utb_contour)
 
 Другие параметры:
 

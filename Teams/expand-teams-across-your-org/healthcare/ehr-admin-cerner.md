@@ -23,16 +23,14 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ansantam
 description: Узнайте, как интегрировать Teams EHR, чтобы поставщики услуг здравоохранения в вашей организации могли проводить виртуальные визиты с пациентами или другими поставщиками услуг в Teams непосредственно из системы EHR Cerner.
-ms.openlocfilehash: d7f34be9729989f7930cc6f478738b43b716f6ac
-ms.sourcegitcommit: ff975c21725e1812e6db8fc9fe37de1362f168c3
+ms.openlocfilehash: 6c0f0020cbbee5ba6ecbb186681454b8d8b8a103
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2022
-ms.locfileid: "63435883"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711753"
 ---
 # <a name="virtual-visits-with-teams---integration-into-cerner-ehr"></a>Виртуальные посещения с Teams интеграция с EHR Cerner
-
-[!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
 Соединит Microsoft Teams электронной медицинских записей (EHR) позволяет стоматологам легко посетить виртуального пациента или обратиться к другому поставщику в Microsoft Teams непосредственно из системы EHR Cerner. На основе облака Microsoft 365, Teams обеспечивает простую и безопасную совместную работу и общение с чатом, видео, голосовой связью и средствами здравоохранения в едином центре, который поддерживает соответствие требованиям с сертификатами HIPAA, HITECH и другими решениями.
 

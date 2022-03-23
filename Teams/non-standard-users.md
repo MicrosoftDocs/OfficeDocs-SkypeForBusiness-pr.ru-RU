@@ -1,5 +1,5 @@
 ---
-title: Teams для нестандартных пользователей
+title: Teams приложений на основе типов пользователей
 author: guptaashish
 ms.author: guptaashish
 ms.reviewer: joglocke
@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Узнайте, как приложения Microsoft Teams для пользователей нестандартных типов.
+description: Узнайте, как приложения Microsoft Teams для разных типов пользователей.
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
@@ -17,16 +17,16 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4dd2a96b7df3ebcb3ae8659222744ed0f3273fa3
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: 765c0b97d5e277bd086ac4b25ee11ac80cb6fc11
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070218"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711483"
 ---
-# <a name="microsoft-teams-apps-behavior-for-non-standard-users"></a>Microsoft Teams для нестандартных пользователей
+# <a name="microsoft-teams-apps-behavior-based-on-types-of-users"></a>Microsoft Teams приложений на основе типов пользователей
 
-В этой статье описано поведение приложений в Teams, когда гостевых, внешних (федеранных) и анонимных пользователей присутствуют в Teams контексте.
+Teams приложения работают, когда в контексте присутствуют гости, внешние (федераированные) Teams пользователи.
 
 - Гость **— это** человек, который не является сотрудником, студентом или сотрудником вашей организации. У него нет учебной или рабочей учетной записи, предоставленной вашей организацией.
 
@@ -84,6 +84,6 @@ ms.locfileid: "63070218"
 
 Анонимные пользователи наследуют глобальную политику разрешений по умолчанию. Они могут взаимодействовать с приложениями Teams собраниях, если это включено политикой разрешений на уровне пользователя. Анонимные пользователи могут работать только с приложениями, которые уже доступны на собрании, и не могут приобрести их или управлять ими.
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
 [Управление политиками настройки приложений в Microsoft Teams](teams-app-setup-policies.md)

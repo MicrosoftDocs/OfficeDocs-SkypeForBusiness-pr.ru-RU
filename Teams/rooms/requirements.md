@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Узнайте о требованиях к поддержке Комнаты Microsoft Teams, включая выбор соответствующего устройства, микрофонов, динамиков, камер и дисплеев.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d479ff31b95acf349bf7e34aaf29bbe64c10309b
-ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
+ms.openlocfilehash: fccfe4561f4cbbd480350a7de4eb2ec85fe82e64
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2022
-ms.locfileid: "63503736"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711313"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Требования к комнатам Microsoft Teams
 
@@ -208,6 +208,7 @@ ms.locfileid: "63503736"
 |[Microphonere MXA 710 2ft Table Linear Array Microphone](https://www.shure.com/products/microphones/mxa710) + </br></br> [Shure Intellimix P300 Audio Conferencing Processor](https://www.shure.com/products/mixers/p300) +</br></br> [Динамик октата MXN5-C](https://www.shure.com/en-US/products/loudspeakers/mxn5)| MXA710 2ft Table Linear Array Mic: 1.2.0 </br> P300 DSP: 4.4.8 </br> Динамик MXN5-C: 1.1.1 |
 |[Микрофон линейного массива стены 710 4ft](https://www.shure.com/products/microphones/mxa710) + </br></br> [Shure Intellimix P300 Audio Conferencing Processor](https://www.shure.com/products/mixers/p300) +</br></br> [Динамик октата MXN5-C](https://www.shure.com/en-US/products/loudspeakers/mxn5)| MXA710 4ft Wall Linear Array Mic: 1.2.0 </br> P300 DSP: 4.4.8 </br> Динамик MXN5-C: 1.1.1 |
 |[Микрофон массива Intellimix с технологией Intellimix Ceiling Array 910](https://www.shure.com/products/microphones/mxa910) + </br> [Программное обеспечение комнаты Intellimix](https://www.shure.com/products/software/intellimix_room) +</br> [Crestron UC-C100-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T)| Программное обеспечение комнаты Intellimix: 3.0.4.14 </br> Телефона MXA 910 с микрофоном intellimix Ceiling Array: 4.4.11 </br> Динамики MXN5-C: 1.2.1 </br> Computron UC-C100-T с asUS Tek Computer INC 9934 | 
+|[Микрофон массива Intellimix с технологией Intellimix Ceiling Array 910](https://www.shure.com/products/microphones/mxa910) + </br> [Программное обеспечение комнаты Intellimix](https://www.shure.com/products/software/intellimix_room) +</br>Lenovo ThinkSmart Core | Программное обеспечение комнаты Intellimix: 3.2.0.52 </br> Телефона MXA 910 с микрофоном intellimix Ceiling Array: 4.4.11 </br> Динамики MXN5-C: 1.2.1 </br> Lenovo ThinkSmart Core: Windows IoT 19h2/20h2 OS version |
 |[Sennheiser TeamConnect Intelligent Speaker/TC ISP (T-Rock)](https://en-us.sennheiser.com/tcisp)|1.0.2|
 |[Biamp Tesira Fore AVB VT4 Fixed audio DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ &Dagger;</br></br> [Sennheiser TeamConnect Ceiling 2 Microphone](https://sennheiser.com/tcc2)+ &Dagger;</br></br> [Tesira EX-UBT](https://www.biamp.com/products/tesira/tesira-expanders) &Dagger; |  Biamp DSP: 3.12.0.15  </br></br> TCC2: 1.3.3 </br></br> EX-UBT: 3.12.0.15 |
 |[Записная книжка Tesira FORTÉ AVB VT4 Audio DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ </br></br>[Дефис Parlé TCM-XA окне окне микрофона](https://www.biamp.com/products/product-families/parle/parle-microphones)+</br></br> [Десоно C-IC6, повернутый в динамик](https://www.biamp.com/products/tesira-speakers)| Audio FW version: 3.15|
