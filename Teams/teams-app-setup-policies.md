@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: b5100bd09b371d90d5bede76b440f423eb527b9c
-ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
+ms.openlocfilehash: 677ee2b0d57477ee79a9af7510d0ccf2dfbcae28
+ms.sourcegitcommit: b91d83739a078b175770c797c17d602eb5c83a4f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2022
-ms.locfileid: "63442345"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63774018"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Управление политиками настройки приложений в Microsoft Teams
 
@@ -35,6 +35,9 @@ ms.locfileid: "63442345"
 - **Upload настраиваемые приложения:** политики настройки приложений позволяют пользователям загружать пользовательские приложения в Teams. Дополнительные сведения см. в Upload [пользовательских приложений](#upload-custom-apps).
 
 ## <a name="pin-apps"></a>Закрепление приложений
+
+> [!NOTE]
+> Для сотрудников, работающих с frontline в вашей организации, мы рекомендуем использовать специализированное приложение для работы с передней линией. Эта функция закреплена в наиболее подходящих приложениях Teams для пользователей с F-лицензией[](https://www.microsoft.com/en-us/microsoft-365/enterprise/frontline?rtc=1#office-SKUChooser-0dbn8nt). Дополнительные информации см. [в Teams приложения для сотрудников, работающих с переднем телефоном](pin-teams-apps-based-on-license.md).
 
 Закрепление приложений позволяет демонстрировать приложения, которые нужны пользователям в вашей организации, в том числе приложения, встроенные сторонними разработчиками или разработчиками.
 

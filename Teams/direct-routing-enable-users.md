@@ -15,13 +15,13 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: Узнайте, как включить прямую маршрутику Microsoft Teams Телефон пользователей.
-ms.openlocfilehash: be2f0e0f33bd236591c8c8a2d9cf415972e018d6
-ms.sourcegitcommit: e9b0a274fdfee3d5bc8211cb099155546b281fe0
+description: Узнайте, как включить для Microsoft Teams Телефон прямую маршрутику.
+ms.openlocfilehash: e82865abcc7bb37835009fb9ab7f93e11c423d66
+ms.sourcegitcommit: b91d83739a078b175770c797c17d602eb5c83a4f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "62926302"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63774098"
 ---
 # <a name="enable-users-for-direct-routing"></a>Включить для пользователей прямую маршрутику
 
@@ -49,24 +49,24 @@ ms.locfileid: "62926302"
 - Создайте пользователя в локальной службе Active Directory и синхронизируйте его с облаком. См[. интеграцию локального каталога с Azure Active Directory](/azure/active-directory/connect/active-directory-aadconnect).
 - Создайте пользователя непосредственно в Центр администрирования Microsoft 365. См[. добавление пользователей по отдельности или массово в Microsoft 365 или Office 365 — справка для администраторов](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec). 
 
-Если развертывание Skype для бизнеса Online сосуществовает с локальной Skype для бизнеса 2015 или Lync 2010 или 2013, единственный поддерживаемый вариант — создать пользователя в локальной службе Active Directory и синхронизировать его с облаком (вариант 1). 
+Если развертывание Skype для бизнеса Online сосуществовает с локальной Skype для бизнеса 2015 или Lync 2010 или 2013, единственным вариантом является создание пользователя в локальной службе Active Directory и синхронизация пользователя с облаком (вариант 1). 
 
 Сведения о требованиях к лицензиям см. [в лицензировании](direct-routing-plan.md#licensing-and-other-requirements) и других требованиях в [области Планирование прямой маршрутии](direct-routing-plan.md).
 
 ## <a name="ensure-that-the-user-is-homed-online"></a>Убедитесь, что пользователь находится в Интернете 
 
-Этот шаг относится к Skype для бизнеса Server Корпоративная голосовая связь, которые были перенесены Teams прямую маршрутику.
+Этот шаг относится к Skype для бизнеса Server Корпоративная голосовая связь, которые были перенесены на Teams прямую маршрутику.
 
-Прямая маршрутная маршрутия требует, чтобы пользователь был домашним в Интернете. Чтобы проверить это, обратитесь к параметру RegistrarPool, который должен иметь значение в infra.lync.com домене. Корпорация Майкрософт рекомендует,но не требует, чтобы при миграции пользователей на прямую маршрутную маршрутию вы Teams uri из локальной службы в веб-службу. 
+Прямая маршрутная маршрутия требует, чтобы пользователь был домашним в Интернете. Чтобы проверить это, обратитесь к параметру RegistrarPool, который должен иметь значение в infra.lync.com домене. Корпорация Майкрософт рекомендует,но не требует, чтобы при переносе пользователей на прямую маршрутную маршрутию вы Teams uri из локальной службы в веб-службу. 
 
 1. Подключение сеанс Microsoft Teams PowerShell.
 
 2. Выдай команду: 
 
     ```PowerShell
-    Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool,OnPremLineUriManuallySet,OnPremLineUri,LineUri
+    Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool,OnPremLineUri,LineUri
     ``` 
-    Если для onPremLineUriManuallySet установлено число False, а для lineUri замер номер телефона <E.164>, этот номер был назначен локально и синхронизирован с Microsoft 365. Если вы хотите управлять номером телефона в Интернете, очистите параметр с помощью локальной управляемой оболочки Skype для бизнеса и синхронизируются с Microsoft 365 перед настройкой номера телефона с помощью Teams PowerShell. 
+    Если onPremLineUri заполнен номером <E.164>, этот номер был назначен локально и синхронизирован с Microsoft 365. Если вы хотите управлять номером телефона в Интернете, очистите параметр с помощью локальной оболочки Skype для бизнеса Management Shell и синхронизируются с Microsoft 365 перед настройкой номера телефона с помощью Teams PowerShell. 
 
 1. В командной Skype для бизнеса командной оболочки: 
 
@@ -76,7 +76,7 @@ ms.locfileid: "62926302"
  > [!NOTE]
  > Не устанавливайте для EnterpriseVoiceEnabled состояние False, так как это не требуется, и это может привести к проблемам нормализации набора, если используются устаревшие телефоны Skype для бизнеса и гибридная конфигурация клиента настроена с использованием UseOnPremDialPlan $True. 
     
-   После синхронизации изменений с Microsoft 365 ожидается `Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool,OnPremLineUriManuallySet,OnPremLineUri,LineUri` выход:
+   После синхронизации изменений с Microsoft 365 ожидаемым выходом `Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool,OnPremLineUriManuallySet,OnPremLineUri,LineUri` будет:
 
    ```console
    RegistrarPool                        : pool.infra.lync.com
@@ -85,7 +85,7 @@ ms.locfileid: "62926302"
    LineURI                              : 
    ```
  > [!NOTE]
- > Для декодирования локальной среды необходимо управлять [всеми атрибутами Skype для бизнеса телефона](/skypeforbusiness/hybrid/decommission-on-prem-overview). 
+ > Для декодирования локальной сети необходимо управлять всеми атрибутами телефона [пользователя Skype для бизнеса сети](/skypeforbusiness/hybrid/decommission-on-prem-overview). 
 
 ## <a name="configure-the-phone-number-and-enable-enterprise-voice"></a>Настройка номера телефона и возможность корпоративной голосовой связи 
 
@@ -101,7 +101,7 @@ ms.locfileid: "62926302"
 
 2. В **области Общие сведения** **об учетной записи** выберите **Изменить**.
 
-3. В **пункте Назначить** номер телефона **в Телефон тип** номера выберите прямая **маршрутия**.
+3. В **пункте Назначить** номер телефона **в Телефон тип** номера выберите Прямая **маршрутная маршрутия**.
 
 4. Введите номер назначенного телефона и его расширение, если его можно укабель.
 
@@ -116,7 +116,7 @@ ms.locfileid: "62926302"
 
 2. Дальнейшие действия зависят от того, как вы управляете номером телефона пользователя в локальной или сетевой сети. Если вы управляете номером телефона локально, необходимо использовать локальное решение Skype для бизнеса, панель управления или один из способов, которые вы можете найти в статьи Управление атрибутами после декомиссии[.](/skypeforbusiness/hybrid/cloud-consolidation-managing-attributes)
 
-   - Если вы управляете телефонным номером пользователя локально, убедитесь, что он Корпоративная голосовая связь в сети с помощью следующей команды:
+   - Если вы управляете телефонным номером пользователя локально, убедитесь, что он Корпоративная голосовая связь в сети, используя следующую команду:
 
        ```PowerShell
        Set-CsPhoneNumberAssignment -Identity "<User name>" -EnterpriseVoiceEnabled $true
@@ -151,7 +151,7 @@ ms.locfileid: "62926302"
 
 Прямая маршрутия позволяет прекратить звонок пользователю и отправить его непосредственно в голосовую почту пользователя. Если вы хотите отправить звонок непосредственно в голосовую почту, вложите непрозрачной=app:голосовой почты в заглавный URI запроса. Например, "sip:user@yourdomain.com;opaque=app:voicemail". Пользователь Teams не получит уведомление о вызове, звонок будет напрямую подключен к голосовой почте пользователя.
 
-## <a name="assign-teams-only-mode-to-users-to-ensure-calls-land-in-microsoft-teams"></a>Назначьте Teams только пользователям, чтобы обеспечить доступ к звонкам в Microsoft Teams
+## <a name="assign-teams-only-mode-to-users-to-ensure-calls-land-in-microsoft-teams"></a>Назначьте Teams режим только пользователям, чтобы обеспечить доступ к звонкам в Microsoft Teams
 
 Прямая маршрутия требует, чтобы Teams режиме только для входящих звонков в клиенте Teams маршрутизов. Чтобы перейти в Teams, назначьте им экземпляр UpgradeToTeams TeamsUpgradePolicy. Дополнительные сведения см. в [стратегии обновления для ИТ-администраторов](upgrade-to-teams-on-prem-implement.md). Если в вашей организации Skype для бизнеса Server, см. статью о взаимосвязи между Skype и [Teams:](migration-interop-guidance-for-teams-with-skype.md) миграция и взаимодействия с Skype для бизнеса.
 

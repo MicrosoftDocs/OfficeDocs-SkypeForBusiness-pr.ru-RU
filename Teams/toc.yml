@@ -755,7 +755,7 @@ items:
                 href: ptsn-mask-phone-numbers.md
           - name: Доступность аудиоконференций в различных странах и регионах
             href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
-          - name: Справка
+          - name: Справочные материалы
             items:
               - name: Поддерживаемые языки аудиоконференций
                 href: audio-conferencing-supported-languages.md
@@ -1529,7 +1529,7 @@ items:
                 href: teams-app-setup-policies.md
               - name: Управление пользовательскими политиками и параметрами приложений в Teams
                 href: teams-custom-app-policies-and-settings.md
-          - name: Настройка приложений Teams с учетом лицензии
+          - name: Настройка приложения Teams для сотрудников без компьютеров
             href: pin-teams-apps-based-on-license.md
           - name: Обзор разрешений приложений Azure AD и предоставление согласия администратора
             href: app-permissions-admin-center.md

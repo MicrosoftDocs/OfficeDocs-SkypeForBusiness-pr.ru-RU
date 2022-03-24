@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3260ec894de12b405e0fea8e0d3c75a550d896d4
-ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
+ms.openlocfilehash: 647e5e12f7140abc3da8dc63964d5b94d9785e16
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2021
-ms.locfileid: "60959918"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711513"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Ограничения и спецификации для Microsoft Teams
 
@@ -59,7 +59,10 @@ ms.locfileid: "60959918"
 
 <sup>5</sup> 28 КБ — это приблизительное ограничение, так как сюда входит само сообщение (текст, ссылки на изображения и т. д.), @-упоминания, число соединителей и реакции.
 
-<sup>6</sup> Команды в GCC могут иметь не более 25 000 участников, а в GCCH и DoD не более 2 500. Необходимо также отметить, что в командах с более чем 10 000 участниками упоминания команд или каналов блокируются.
+<sup>6</sup> Это ограничение распространяется на участников общих каналов, не входящих в команду. Команды в GCC могут иметь не более 25 000 участников, а команды в GCCH и DoD — не более 2 500. Необходимо также отметить, что в командах с более чем 10 000 участниками упоминания команд или каналов блокируются.
+
+> [!NOTE]
+> Ограничения для ознакомительной версии общих каналов см. в статье [Ограничения для общих каналов (ознакомительная версия)](/MicrosoftTeams/shared-channels#limits-for-shared-channels-preview).
 
 ## <a name="messaging"></a>Обмен сообщениями
 

@@ -16,12 +16,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Узнайте, как использовать теги в организации в Microsoft Teams.
-ms.openlocfilehash: 2e099c611cbbfd22cc2cc32c189edc8243ea362d
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: af9855f1ca771cb9f5d4739194e26cba746859ff
+ms.sourcegitcommit: caaed4b48b8f2b05d035c1bdea00a61301bc9f05
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711583"
+ms.locfileid: "63740206"
 ---
 # <a name="manage-tags-in-microsoft-teams"></a>Управление тегами в Microsoft Teams
 
@@ -35,7 +35,7 @@ ms.locfileid: "63711583"
 - **Пометка** по сменам. С помощью этой функции людям автоматически присваиваются теги, соответствующие их расписанию [](https://support.microsoft.com/office/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6#bkmk_openshiftsappdesktop) и названию группы смен в приложении "Смены" в Teams. Например, тег "EngineerOnCall" достигает всех инженеров, запланированных в сменах для работы в то время, когда тег используется в чате или сообщении канала. Когда вы помечаете данные по сменам, Teams знать имена сотрудников в смене, когда пользователям нужно быстро ретранслировать информацию. Кроме того, теги по сменам можно использовать в основных системах управления трудовыми ресурсами, например JDA, Kronos и AMiON, путем их интеграции со Teams. Дополнительные информацию о том, как настроить эту функцию, см. в этой [теме](#set-up-tagging-by-shift).
 
 > [!NOTE]
-> Теги не поддерживаются в закрытых и общих каналах. Теги недоступны в организациях, в организациях, где есть doD. 
+> Теги не поддерживаются в закрытых и общих каналах.  
 
 ## <a name="how-tags-work"></a>Как работают теги
 

@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Узнайте, как использовать и управлять частными каналами Microsoft Teams.
-ms.openlocfilehash: 097c7e4c43c6127b59423cab94b97ac949a2df57
-ms.sourcegitcommit: b635f3765498ae23f535a33fa9ffea5068eecb14
+ms.openlocfilehash: e3b8208f760d2ec549e242d390190fce8acba5fd
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/14/2022
-ms.locfileid: "63463752"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711473"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Частные каналы в Microsoft Teams
 
@@ -97,7 +97,7 @@ Teams управляет жизненным циклом сайта закрыт
 Если закрытый канал или команда, содержащая закрытый канал, будут восстановлены, сайты будут восстановлены вместе с ними. Если закрытый канал восстановлен после завершения 30-дневного периода обратимого удаления, сайт работает автономно.
 
 > [!NOTE]
-> Когда вы создаете новую команду или закрытый канал в Microsoft Teams, автоматически создается сайт команды в SharePoint. Чтобы изменить описание сайта или классификацию для этого сайта команды перейдите в раздел [параметров в Microsoft Teams](https://support.microsoft.com/office/change-a-team-s-data-security-classification-in-teams-bf39798f-90d2-44fb-a750-55fa05a56f1d) для соответствующего канала.
+> Когда вы создаете новую команду либо частный или общий канал в Microsoft Teams, автоматически создается сайт команды в SharePoint. Чтобы изменить описание сайта или классификацию для этого сайта команды перейдите в раздел [параметров в Microsoft Teams](https://support.microsoft.com/office/change-a-team-s-data-security-classification-in-teams-bf39798f-90d2-44fb-a750-55fa05a56f1d) для соответствующего канала.
 >
 > Узнайте больше об управлении [сайтами команд, подключенных к Microsoft Teams](/SharePoint/teams-connected-sites).
 
@@ -105,7 +105,7 @@ Teams управляет жизненным циклом сайта закрыт
 
 Соответствующие требованиям копии сообщений, отправленных в частный канал, доставляются в почтовый ящик всех участников частного канала, а не в групповой почтовый ящик. Названия соответствующих требованиям копий форматируются, чтобы указать, из какого частного канала они были отправлены.
 
-Для получения дополнительной информации о выполнении поиска eDiscovery для сообщений частного канала см. Раздел [eDiscovery частных каналов](ediscovery-investigation.md#ediscovery-of-private-channels).
+Для получения дополнительной информации о выполнении поиска eDiscovery для сообщений частного канала см. Раздел [eDiscovery частных каналов](ediscovery-investigation.md#ediscovery-of-private-and-shared-channels).
 
 ## <a name="considerations-around-file-access-in-private-channels"></a>Информация по поводу доступа к файлам в закрытых каналах
 
@@ -123,11 +123,13 @@ Teams управляет жизненным циклом сайта закрыт
 
 При создании команды из уже существующей закрытые каналы существующей команды не копируются.
 
-В настоящее время уведомления от частных каналов не включаются в письма о пропущенных действиях.
+Уведомления из частных каналов не включаются в письма о пропущенных действиях.
 
 Собрания канала нельзя запланировать.
 
 ## <a name="related-topics"></a>Статьи по теме
+
+[Общие каналы в Microsoft Teams](/MicrosoftTeams/shared-channels)
 
 [Обзор команд и каналов в Teams](teams-channels-overview.md)
 
