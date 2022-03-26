@@ -12,34 +12,35 @@ ms.collection:
 description: Узнайте о версиях, поддерживаемых модулем Teams PowerShell, который используется для администрирования Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ea8a755c75c5f91c5dbf3a4cd4dd749ac576557c
-ms.sourcegitcommit: b878c57b8e822913b7aac8c105f476bc4ebfcd7d
+ms.openlocfilehash: 3fc980420b53d850c48e680d25bdbf6ec437e8f8
+ms.sourcegitcommit: d3d3d5a70a69359fc71f072ad6c651556f4eda00
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "63762013"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63783969"
 ---
 # <a name="teams-powershell-module---supported-versions"></a>Teams PowerShell — поддерживаемые версии
 
-Microsoft Teams модуль PowerShell (TPM) версии 4.0.0 или выше будут поддерживаться только в будущем. Все более ранние версии находятся на пути выхода на пенсию.
+Microsoft Teams версии модуля PowerShell (TPM) в 4.x.x или более новых версиях будут поддерживаться в будущем. Все более ранние версии находятся на пути выхода на пенсию. Рекомендуется обновить модуль Teams PowerShell до последней версии.
 
 
 
 ## <a name="new-organizations"></a>Новые организации
 
-С 1 апреля 2022 Teams организации смогут использовать только Teams PowerShell Module 4.0.0 или более новых.
+С 1 апреля 2022 г. организации, недавно внося в Teams, смогут использовать модуль Teams PowerShell в ряду 4.x.x или более новой.
 
 
 
 ## <a name="current-organizations-non-tpm-active"></a>Текущие организации (активные не TPM)
 
-Организации, которые не использовали TPM в течение последних трех месяцев (с 22 января по 22 марта), смогут использовать TPM только 4.0.0 или более, начиная с 1 апреля 2022 г.
+Организации, которые не использовали модуль Teams PowerShell в течение последних трех месяцев (22 января — 22 марта), смогут использовать модуль PowerShell Teams только в ряду 4.x.x или более, начиная с 1 апреля 2022 г.
 
 
 
 ## <a name="current-organizations-tpm-active"></a>Текущие организации (активна TPM)
 
-Организации, использующие TPM в течение последних трех месяцев (22 января — 22 марта), смогут использовать TPM 4.0.0 или более, начиная с 15 июня 2022 г. Рекомендуется обновить модуль Teams PowerShell до последней версии.
+Организации, использующие модуль Teams PowerShell в течение последних трех месяцев (22 января — 22 марта), смогут использовать модуль PowerShell Teams только в ряду 4.x.x или более, начиная с 15 июня 2022 г. 
+
 
 
 ## <a name="important-notes"></a>Важные заметки
@@ -54,10 +55,10 @@ Microsoft Teams модуль PowerShell (TPM) версии 4.0.0 или выше
 
 -   При обновлении Teams PowerShell версии 1.1.6 обновите `Connect-MicrosoftTeams` сценарии для использования `New-CsOnlineSession`вместо .
 
--   Во время обновления предлагается не использовать TPM 4.x.x/3.x.x вместе с более старыми версиями, чем 3.0.0. Например, не рекомендуется использовать версии 4.0.0 & 2.6.0 для различных операций администрирования в одной организации. 
+-   Во время обновления предлагается не использовать TPM 4.x.x/3.x.x вместе с более старыми версиями, чем 3.0.0. Например, не рекомендуется использовать версии 4.x.x & 2.6.0 для различных операций администрирования в одной организации. 
 
 - Связанные изменения
-  * Обновления для Get-CsOnlineUser & Get-CsOnlineVoiceUser в TPM 3.0.0 и выше — дополнительные сведения см. в окне [Get-CsOnlineUserGet-CsOnlineVoiceUser](/powershell/module/skype/get-csonlineuser) &  (публикация центра сообщений — MC340774).[](/powershell/module/skype/get-csonlinevoiceuser)
+  * Обновления для Get-CsOnlineUser & Get-CsOnlineVoiceUser в TPM 3.x.x и выше — дополнительные сведения см. в [get-CsOnlineUserGet-CsOnlineVoiceUser](/powershell/module/skype/get-csonlineuser) &  (публикация Центра сообщений — MC340774).[](/powershell/module/skype/get-csonlinevoiceuser)
 
   * Изменения, внося в Телефон номера : дополнительные сведения в [Set-CsUser](/powershell/module/skype/set-csuser), [Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser), [Set-CsOnlineApplicationInstanceSet-CsOnlineVoiceApplicationInstance](/powershell/module/skype/set-csonlineapplicationinstance) &  (публикация центра сообщений — MC316139)[](/powershell/module/skype/set-csonlinevoiceapplicationinstance)
 

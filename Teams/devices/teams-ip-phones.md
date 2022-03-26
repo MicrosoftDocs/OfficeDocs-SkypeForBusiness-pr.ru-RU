@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Узнайте, какие настольные и конференц-телефоны сертифицированы для Microsoft Teams для получения наилучших результатов.
-ms.openlocfilehash: 745252b624f6b64800c91b91a9d1a6ee60f21614
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: 3418abb7196e855ab86fff72bc7c1e10eb37bfc0
+ms.sourcegitcommit: d3d3d5a70a69359fc71f072ad6c651556f4eda00
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711953"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63783918"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams сертифицированных устройств с Android
 
@@ -102,6 +102,7 @@ ms.locfileid: "63711953"
 
 | Модель устройства| Версия программы-программы | Текущая дата окончания сертификации | Версия ос Android |                                         
 |:------------------------|:-----------------|:--------------|-----------------------|
+|Упряжаемая панели         | `NFB1.20220211.1158` | 5 августа 2023 г. | 9 |
 |Crestron TSS-770 | `1.003.0082` |5 декабря 2022 г.  | 8.1 |
 |Crestron TSS-1070 | `1.003.0082`|5 декабря 2022 г. | 8.1 |
 |Yealink RoomPanel | `147.15.0.1`|5 августа 2023 г.   | 9 |
