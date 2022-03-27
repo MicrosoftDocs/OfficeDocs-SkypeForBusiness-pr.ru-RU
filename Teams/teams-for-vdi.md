@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5ff97fae1fb2483dcddf301715018b6a94f908a7
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: d0f2364471b3800042e7536d1013b82d76209a02
+ms.sourcegitcommit: 39378888464ade3cb45879a449143f40f202f3e9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711443"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64457072"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams для инфраструктуры виртуальных рабочих столов
 
@@ -488,6 +488,10 @@ if($cleanup){
 - В настоящее время виртуальный рабочий стол Azure не поддерживает клиенты macOS и Linux.
 - Быстрый переключение клиента может привести к проблемам со звонками в VDI, например к недоступнию общего доступа к экрану. При перезапуске клиента эти проблемы устраняются.
 
+### <a name="notifications"></a>Уведомления
+
+- Уведомления о подсчете сообщений и их присутствии Windows на панели задач не поддерживаются на Windows Server 2016.
+
 ### <a name="calling-and-meetings"></a>Вызовы и собрания
 
 Не поддерживаются следующие функции звонков и собраний:
@@ -536,7 +540,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Citrix\CtxHook\AppInit_Dlls\SfrHook\Teams.exe
 
 Затем перезапустите VDA. Подробнее см. в этой статье поддержки Citrix Устранение неполадок с оптимизацией [HDX для](https://support.citrix.com/article/CTX253754) Microsoft Teams.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 
 - [Массовое Teams с помощью установщика Windows (MSI)](msi-deployment.md)
 - [Обзор PowerShell в Teams](teams-powershell-overview.md)
