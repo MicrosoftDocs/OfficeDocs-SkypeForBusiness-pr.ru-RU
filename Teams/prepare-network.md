@@ -19,12 +19,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: f9e11a089c75f1060e509dc9895e97176fc30345
-ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
+ms.openlocfilehash: 748380aec60c578ff6c2b7687cd51a8a07a8024c
+ms.sourcegitcommit: 39378888464ade3cb45879a449143f40f202f3e9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2021
-ms.locfileid: "59456349"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64457062"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Подготовка сети организации к использованию Microsoft Teams 
 
@@ -91,7 +91,7 @@ ms.locfileid: "59456349"
 </tr>
 <tr class="even">
 <td>Помощник для Teams</td>
-<td><a href="/microsoftteams/use-advisor-teams-roll-out">Помощник для Teams</a> — компонент <a href="https://admin.teams.microsoft.com">Центра администрирования Teams</a>. Он оценивает вашу среду Microsoft 365 или Office 365 и определяет самые распространенные конфигурации, которые может потребоваться обновить или изменить, чтобы успешно развернуть Teams.</td>
+<td><a href="/microsoftteams/use-advisor-teams-roll-out">Помощник для Teams</a> является частью <a href="https://admin.teams.microsoft.com">Центра администрирования Teams</a>. Он оценивает вашу среду Microsoft 365 или Office 365 и определяет самые распространенные конфигурации, которые может потребоваться обновить или изменить, чтобы успешно развернуть Teams.</td>
 </tr>
 <tr class="odd">
 <td>Внешнее разрешение имен</td>
@@ -106,7 +106,7 @@ ms.locfileid: "59456349"
 </tr>
 <tr class="even">
 <td>Маршрутизация в центры обработки данных Майкрософт</td>
-<td><a href="/office365/enterprise/client-connectivity">Реализуйте наиболее эффективную маршрутизацию в центры обработки данных Майкрософт</a>. Определите расположения, в которых можно использовать локальные или региональные точки выхода для наиболее эффективного подключения к сети Майкрософт.</td>
+<td><a href="/office365/enterprise/client-connectivity">Внедрите самые эффективные маршруты в центры обработки данных Майкрософт</a>. Определите расположения, в которых можно использовать локальные или региональные точки выхода для наиболее эффективного подключения к сети Майкрософт.</td>
 </tr>
 <tr class="odd">
 <td>Указания по обнаружению и предотвращению вторжений</td>
@@ -153,7 +153,7 @@ ms.locfileid: "59456349"
       **Модальность**
    :::column-end:::
    :::column span="3":::
-      **Требования к пропускной способности (скорость в КБ/с вверх/вниз)**
+      **Требования к пропускной способности (скорость в КБ/с вверх/вниз)**    
    :::column-end:::
 :::row-end:::
 :::row:::

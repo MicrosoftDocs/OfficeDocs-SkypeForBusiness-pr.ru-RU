@@ -3,6 +3,86 @@
 
 
 
+## <a name="week-of-march-21-2022"></a>Неделя от 21 марта 2022 г.
+
+
+| Дата публикации |Название статьи | Изменение |
+|------|------------|--------|
+| 3/21/2022 | [Общие каналы в Microsoft Teams (предварительная версия)](/MicrosoftTeams/shared-channels) | Добавлено |
+| 3/21/2022 | [Назначение владельцев и участников команды в Microsoft Teams](/MicrosoftTeams/assign-roles-permissions) | Изменено |
+| 3/21/2022 | [Поиск событий Microsoft Teams в журнале аудита](/MicrosoftTeams/audit-log-events) | Изменено |
+| 3/21/2022 | [Лучшие методики организации команд](/MicrosoftTeams/best-practices-organizing) | Изменено |
+| 3/21/2022 | [Чат, команды, каналы и приложения в Microsoft Teams](/MicrosoftTeams/deploy-chat-teams-channels-microsoft-teams-landing-page) | Изменено |
+| 3/21/2022 | [Устройства для Teams](/MicrosoftTeams/devices/teams-ip-phones) | Изменено |
+| 3/21/2022 | [Проведение исследования контента при обнаружении электронных данными](/MicrosoftTeams/ediscovery-investigation) | Изменено |
+| 3/21/2022 | [Teams для образования политики для простого применения политик для безопасного обучения](/MicrosoftTeams/easy-policy-setup-edu) | Изменено |
+| 3/21/2022 | [Виртуальные посещения с Teams интеграция с EHR Cerner](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin-cerner) | Изменено |
+| 3/21/2022 | [Начало работы с шаблонами команд в Центре администрирования Teams](/MicrosoftTeams/get-started-with-teams-templates-in-the-admin-console) | Изменено |
+| 3/21/2022 | [Гостевой доступ в Microsoft Teams](/MicrosoftTeams/guest-access) | Изменено |
+| 3/21/2022 | [Помещение пользователя или команды Microsoft Teams на удержание по юридическим причинам](/MicrosoftTeams/legal-hold) | Изменено |
+| 3/21/2022 | [Ограничения и спецификации для Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | Изменено |
+| 3/21/2022 | [Настройка модерации канала и управление им](/MicrosoftTeams/manage-channel-moderation-in-teams) | Изменено |
+| 3/21/2022 | [Управление тегами в Microsoft Teams](/MicrosoftTeams/manage-tags) | Изменено |
+| 3/21/2022 | [Управление политиками обмена сообщениями в Teams](/MicrosoftTeams/messaging-policies-in-teams) | Изменено |
+| 3/21/2022 | [Перенос данных из Slack в Microsoft Teams](/MicrosoftTeams/migrate-slack-to-teams) | Изменено |
+| 3/21/2022 | [Teams приложений на основе типов пользователей](/MicrosoftTeams/non-standard-users) | Изменено |
+| 3/21/2022 | [Планирование управления в Teams — Microsoft Teams](/MicrosoftTeams/plan-teams-governance) | Изменено |
+| 3/21/2022 | [Частные каналы в Microsoft Teams](/MicrosoftTeams/private-channels) | Изменено |
+| 3/21/2022 | [Прекращение поддержки Skype для бизнеса Online](/MicrosoftTeams/skype-for-business-online-retirement) | Изменено |
+| 3/21/2022 | [Обзор команд и каналов в Microsoft Teams](/MicrosoftTeams/teams-channels-overview) | Изменено |
+| 3/21/2022 | [Управление политиками каналов в Microsoft Teams](/MicrosoftTeams/teams-policies) | Изменено |
+| 3/21/2022 | [Teams интеграции с Microsoft Power Platform](/MicrosoftTeams/teams-power-platfom-integration) | Изменено |
+| 3/21/2022 | [Информационные барьеры и общие каналы (предварительная версия)](/MicrosoftTeams/information-barriers-shared-channels) | Добавлено |
+| 3/21/2022 | [Информационные барьеры в Microsoft Teams](/MicrosoftTeams/information-barriers-in-teams) | Изменено |
+| 3/21/2022 | [Использование отчета CQD Power BI для просмотра отчета об & очереди  вызовов](/MicrosoftTeams/cqd-teams-aa-cq-historical-report) | Изменено |
+| 3/21/2022 | [Auto Attendant & Call Queue Historical Report](/MicrosoftTeams/aa-cq-cqd-historical-reports) | Изменено |
+| 3/21/2022 | [Настройка автосекретаря для Microsoft Teams](/MicrosoftTeams/create-a-phone-system-auto-attendant) | Изменено |
+| 3/21/2022 | [Создание очереди  вызовов в Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | Изменено |
+| 3/21/2022 | [Справочник по автоотводу и очереди  вызовов и ссылке на распознавание речи](/MicrosoftTeams/dial-voice-reference) | Изменено |
+| 3/21/2022 | [Управление политиками хранения для Microsoft Teams](/MicrosoftTeams/retention-policies) | Изменено |
+| 3/21/2022 | [Требования к комнатам Microsoft Teams](/MicrosoftTeams/rooms/requirements) | Изменено |
+| 3/21/2022 | [Руководство по помещению для Teams](/MicrosoftTeams/teams-meeting-room-guidance) | Изменено |
+| 3/22/2022 | [Комнаты Microsoft Teams стандартов и планирования помещений](/MicrosoftTeams/rooms/standards-and-room-planner) | Изменено |
+| 3/22/2022 | [Обзор команд и каналов в Microsoft Teams](/MicrosoftTeams/teams-channels-overview) | Изменено |
+| 3/22/2022 | [Teams для инфраструктуры виртуальных рабочих столов](/MicrosoftTeams/teams-for-vdi) | Изменено |
+| 3/22/2022 | [Microsoft Teams о выпуске PowerShell](/MicrosoftTeams/teams-powershell-release-notes) | Изменено |
+| 3/22/2022 | [Управление тегами в Microsoft Teams](/MicrosoftTeams/manage-tags) | Изменено |
+| 3/23/2022 | [Назначение политик пользователям и группам](/MicrosoftTeams/assign-policies-users-and-groups) | Изменено |
+| 3/23/2022 | [Microsoft Teams документации администратора # < 60 chars](/MicrosoftTeams/index) | Изменено |
+| 3/23/2022 | [Частные каналы в Microsoft Teams](/MicrosoftTeams/private-channels) | Изменено |
+| 3/23/2022 | [Мониторинг Комнаты Microsoft Teams устройств с помощью Azure Monitor](/MicrosoftTeams/rooms/azure-monitor-manage) | Изменено |
+| 3/23/2022 | [Teams PowerShell — поддерживаемые версии](/MicrosoftTeams/teams-powershell-supported-versions) | Изменено |
+| 3/23/2022 | [Введение в Teams записи на основе политики для & собраний](/MicrosoftTeams/teams-recording-policy) | Изменено |
+| 3/23/2022 | [Пограничные контроллеры сеансов, сертифицированные для прямой маршрутизации](/MicrosoftTeams/direct-routing-border-controllers) | Изменено |
+| 3/23/2022 | [Включить для пользователей прямую маршрутику](/MicrosoftTeams/direct-routing-enable-users) | Изменено |
+| 3/23/2022 | [Прямая маршрутизация телефонной системы](/MicrosoftTeams/direct-routing-protocols-sip) | Изменено |
+| 3/23/2022 | [Использование файлов журналов для устранения неполадок в Microsoft Teams](/MicrosoftTeams/log-files) | Изменено |
+| 3/23/2022 | [Управление приложениями в Центре Microsoft Teams администрирования](/MicrosoftTeams/manage-apps) | Изменено |
+| 3/23/2022 | [Под Teams приложений для сотрудников, работающих на переднем телефоне](/MicrosoftTeams/pin-teams-apps-based-on-license) | Изменено |
+| 3/23/2022 | [Настройка шлюза SIP](/MicrosoftTeams/sip-gateway-configure) | Изменено |
+| 3/23/2022 | [Управление политиками настройки приложений в Microsoft Teams](/MicrosoftTeams/teams-app-setup-policies) | Изменено |
+| 3/24/2022 | [Устройства для Teams](/MicrosoftTeams/devices/teams-ip-phones) | Изменено |
+| 3/24/2022 | [Прекращение поддержки Skype для бизнеса Online](/MicrosoftTeams/skype-for-business-online-retirement) | Изменено |
+| 3/24/2022 | [Teams PowerShell — поддерживаемые версии](/MicrosoftTeams/teams-powershell-supported-versions) | Изменено |
+| 3/24/2022 | [Вспомогательные обновления Skype \| Business Online для Teams обновления](/MicrosoftTeams/upgrade-assisted) | Изменено |
+| 3/24/2022 | [Приложения, боты и соединители в Microsoft Teams](/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page) | Изменено |
+| 3/24/2022 | [Измерения и измерения: панель мониторинга качества звонка (CQD)](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | Изменено |
+| 3/24/2022 | [Teams для розничной торговли](/MicrosoftTeams/expand-teams-across-your-org/teams-for-retail-landing-page) | Изменено |
+| 3/24/2022 | [Управление политиками собраний для общего доступа к содержимому](/MicrosoftTeams/meeting-policies-content-sharing) | Изменено |
+| 3/24/2022 | Teams интеграции с Microsoft Power Platform | Удалено |
+| 3/25/2022 | [Назначение, изменение и удаление номера телефона пользователя](/MicrosoftTeams/assign-change-or-remove-a-phone-number-for-a-user) | Изменено |
+| 3/25/2022 | [Настройка приложений в Microsoft Teams](/MicrosoftTeams/customize-apps) | Изменено |
+| 3/25/2022 | [Teams устройств](/MicrosoftTeams/devices/device-store) | Изменено |
+| 3/25/2022 | [Управление командами в Центре администрирования Microsoft Teams](/MicrosoftTeams/manage-teams-in-modern-portal) | Изменено |
+| 3/25/2022 | [Подготовка сети организации к использованию Teams](/MicrosoftTeams/prepare-network) | Изменено |
+| 3/25/2022 | [Настройка общей лицензии Телефон области](/MicrosoftTeams/set-up-common-area-phones) | Изменено |
+| 3/25/2022 | [Отправка и утверждение пользовательских приложений с помощью API отправки Teams приложений](/MicrosoftTeams/submit-approve-custom-apps) | Изменено |
+| 3/25/2022 | [Управление политиками разрешений для приложений в Microsoft Teams](/MicrosoftTeams/teams-app-permission-policies) | Изменено |
+| 3/25/2022 | [Teams для инфраструктуры виртуальных рабочих столов](/MicrosoftTeams/teams-for-vdi) | Изменено |
+| 3/25/2022 | [Вспомогательные обновления Skype \| Business Online для Teams обновления](/MicrosoftTeams/upgrade-assisted) | Изменено |
+| 3/25/2022 | [Управление Microsoft Teams с помощью ролей администраторов](/MicrosoftTeams/using-admin-roles) | Изменено |
+
+
 ## <a name="week-of-march-14-2022"></a>Неделя от 14 марта 2022 г.
 
 

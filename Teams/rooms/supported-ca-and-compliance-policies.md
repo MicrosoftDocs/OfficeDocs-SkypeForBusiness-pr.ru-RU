@@ -12,12 +12,12 @@ f1.keywords:
 ms.collection:
 - M365-collaboration
 description: Узнайте о поддерживаемых и рекомендуемых политиках соответствия устройствам с Условным доступом и Intune для Комнаты Microsoft Teams.
-ms.openlocfilehash: f3b115430779324a260232ce45ba125859abdde8
-ms.sourcegitcommit: dafe48cea1643e1bd79390482da9b002d7e9e0bb
+ms.openlocfilehash: ea27f71a7d4f64bc1d9e8c8a3cd3d7b2a52151f3
+ms.sourcegitcommit: ecc67b7b9378cc72f85517f30c32680045056fda
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/16/2022
-ms.locfileid: "63689185"
+ms.lasthandoff: 03/28/2022
+ms.locfileid: "64504199"
 ---
 # <a name="supported-conditional-access-and-intune-device-compliance-policies-for-microsoft-teams-rooms"></a>Поддерживаемые политики соответствия для условного доступа и устройств Intune для Комнаты Microsoft Teams
 
@@ -28,7 +28,7 @@ ms.locfileid: "63689185"
 
 ## <a name="supported-conditional-access-policies"></a>Поддерживаемые политики условного доступа  
 
-В следующий список включены поддерживаемые политики условного доступа для Комнаты Teams на Windows и на устройствах с Android:
+Ниже 201 Windows Комнаты Teams 0 г. 2016 г. 2016 г. Поддерживаемые политики Android применяются к всем устройствам, телефонам и панелям Android.
 
 | Назначение | Windows | Android |
 |------------|---------|---------|

@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: be7ee83b510096d8d6ffc0c4a0a5984917ad55c5
-ms.sourcegitcommit: 42c355d3f4bbe52c063b8f2119baefc0b88f9563
+ms.openlocfilehash: bd5ab3395aa870d0be073a0afcd08aafe9110637
+ms.sourcegitcommit: 867e8b4120e81c93c029c0c1b9cb69c161fc87a4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2022
-ms.locfileid: "64403980"
+ms.lasthandoff: 03/26/2022
+ms.locfileid: "64480661"
 ---
 # <a name="about-apps-in-microsoft-teams"></a>О приложениях в Microsoft Teams
 
@@ -94,7 +94,7 @@ Teams предоставляется с набором встроенных пр
 
 ### <a name="custom-connectors"></a>Настраиваемые соединители
 
-Соединители помогают поддерживать текущую работу команды, предоставляя контент и обновления из служб, которые вы часто используете, непосредственно в канале. С помощью соединителей пользователи Teams могут получать обновления из таких популярных служб, как Twitter, Trello, Wunderlist, GitHub и Azure DevOps Services, прямо в чатах Teams.
+Соединители помогают поддерживать текущую работу команды, предоставляя контент и обновления из служб, которые вы часто используете, непосредственно в канале. С помощью соединителей пользователи Teams могут получать обновления из таких популярных служб, как Trello, Wunderlist, GitHub и Azure DevOps Services, прямо в чатах Teams.
 
 | Задайте себе вопрос | Действие |
 |--------------|--------|

@@ -755,7 +755,7 @@ items:
                 href: ptsn-mask-phone-numbers.md
           - name: Доступность аудиоконференций в различных странах и регионах
             href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
-          - name: Справочные материалы
+          - name: Справка
             items:
               - name: Поддерживаемые языки аудиоконференций
                 href: audio-conferencing-supported-languages.md
@@ -981,7 +981,7 @@ items:
             href: network-roaming-policy.md
       - name: Экстренные вызовы
         items:
-          - name: Обзор
+          - name: Общие сведения
             href: what-are-emergency-locations-addresses-and-call-routing.md
           - name: Настройка динамических экстренных вызовов
             href: configure-dynamic-emergency-calling.md
@@ -1149,7 +1149,7 @@ items:
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md
           - name: Ограничения и запреты для бесплатных номеров
             items:
-              - name: Обзор
+              - name: Общие сведения
                 href: toll-free-dialing-limitations-and-restrictions.md
               - name: Аргентина
                 href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-argentina.md
@@ -1331,12 +1331,6 @@ items:
                 href: rooms/rooms-deploy.md
               - name: Настройка учетных записей
                 href: rooms/rooms-configure-accounts.md
-              - name: Surface Hub
-                items:
-                  - name: Настройка координированных собраний
-                    href: rooms/coordinated-meetings.md
-                  - name: Управление параметрами Microsoft Teams
-                    href: rooms/surface-hub-manage-config.md
               - name: Создание учетных записей ресурсов
                 href: rooms/with-office-365.md
               - name: В Skype для бизнеса Server
