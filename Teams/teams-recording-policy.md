@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 18e7b02a52a0ddc7c380ed3fb4c5879b45fe18dc
-ms.sourcegitcommit: b878c57b8e822913b7aac8c105f476bc4ebfcd7d
+ms.openlocfilehash: 554c2e893272ca8dfca1fde6c746e72f1b462f1e
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "63761933"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556560"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>Введение в Teams на основе политики для звонков & собраниях
 
@@ -138,7 +138,7 @@ Graph документацию по конкретным API можно найт
 
 ## <a name="compliance-recording-policy-assignment-and-provisioning"></a>Назначение и подготовка политики записи соответствия
 
-ИТ-администраторы могут определить, какие пользователи должны быть записаны и какие записи будут использоваться для каждого пользователя, создав и назначив политики записи соответствия. Регистраторы автоматически приглашаются к беседам в зависимости от конфигурации этих политик при взаимодействии. Политика записи соответствия требованиям управляется с помощью [Microsoft PowerShell](./teams-powershell-overview.md) и может применяться на уровне клиента, пользователя и группы безопасности для каждой организации. Дополнительные сведения можно найти в microsoft Docs [для политик](./meeting-policies-overview.md) собраний [, политик](./teams-calling-policy.md) звонков и  [групповых политик](./assign-policies-users-and-groups.md#assign-a-policy-to-a-group).
+ИТ-администраторы могут определить, какие пользователи должны быть записаны и какие записи будут использоваться для каждого пользователя, создав и назначив политики записи соответствия. Регистраторы автоматически приглашаются к беседам в зависимости от конфигурации этих политик при взаимодействии. Политика записи соответствия требованиям управляется с помощью [Microsoft PowerShell](./teams-powershell-overview.md) и может применяться на уровне клиента, пользователя и группы безопасности для каждой организации. Дополнительные сведения о политиках Документация Майкрософт собраний[, политиках](./meeting-policies-overview.md) звонков и [](./teams-calling-policy.md) [групповых политиках можно найти](./assign-policies-users-and-groups.md#assign-a-policy-to-a-group) здесь.
 
 1. Создайте экземпляр приложения в своем клиенте.
 
@@ -226,7 +226,8 @@ Graph документацию по конкретным API можно найт
 |CallCabinet |[https://www.callcabinet.com/compliance-microsoft-teams-call-recording](https://www.callcabinet.com/compliance-microsoft-teams-call-recording ) |
 |Дублбер |[https://www.dubber.net/call-recording/](https://www.dubber.net/call-recording/) |
 |Технология Insightful |[https://insightfultechnology.com/teams/](https://insightfultechnology.com/teams/) |
-|ХОРОШИЙ |[https://www.niceactimize.com/compliance/ms-teams-recording.html](https://www.niceactimize.com/compliance/ms-teams-recording.html) |
+|NICE Engage |[https://www.nice.com/products/workforce-engagement/call-recording/air-and-engage](https://www.nice.com/products/workforce-engagement/call-recording/air-and-engage) |
+|NICE NTR |[https://www.niceactimize.com/compliance/ms-teams-recording.html](https://www.niceactimize.com/compliance/ms-teams-recording.html) |
 |Numonix |[https://numonix.cloud](https://numonix.cloud)    |
 |Инновации |[https://www.oakinnovate.com/clarify](https://www.oakinnovate.com/clarify) |
 |Красный квадрат |[https://www.redboxvoice.com/compliance-recording-for-microsoft-teams](https://www.redboxvoice.com/compliance-recording-for-microsoft-teams)  |

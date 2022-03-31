@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Узнайте, как настроить приложения в Microsoft Teams.
-ms.openlocfilehash: 2696768bbd7ed930652d8671600f9721f15960b7
-ms.sourcegitcommit: ecc67b7b9378cc72f85517f30c32680045056fda
+ms.openlocfilehash: 927c8abd9458be18661e26daf7686ce791bd6428
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2022
-ms.locfileid: "64504129"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556510"
 ---
 # <a name="customize-apps-in-microsoft-teams"></a>Настройка приложений в Microsoft Teams
 
@@ -65,7 +65,7 @@ ms.locfileid: "64504129"
 
    - Выберите имя приложения и значок редактирования в **настраиваемом режиме**.
 
-     ![Параметр "Настроить выбор" 2.](media/app-details-customizable.png)
+     ![Параметр "Настроить выбор" 2.](media/communities-microsoft.png)
 
    - Выберите имя приложения, щелкните меню **переполнения** , наведите курсор на **действия** и выберите настроить.
 

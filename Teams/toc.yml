@@ -855,6 +855,8 @@ items:
                 href: operator-connect-configure.md
           - name: Прямая маршрутизация
             items:
+              - name: Новые возможности
+                href: direct-routing-whats-new.md
               - name: Обзор
                 href: direct-routing-landing-page.md
               - name: Планирование прямой маршрутизации
@@ -981,7 +983,7 @@ items:
             href: network-roaming-policy.md
       - name: Экстренные вызовы
         items:
-          - name: Общие сведения
+          - name: Обзор
             href: what-are-emergency-locations-addresses-and-call-routing.md
           - name: Настройка динамических экстренных вызовов
             href: configure-dynamic-emergency-calling.md
@@ -1149,7 +1151,7 @@ items:
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md
           - name: Ограничения и запреты для бесплатных номеров
             items:
-              - name: Общие сведения
+              - name: Обзор
                 href: toll-free-dialing-limitations-and-restrictions.md
               - name: Аргентина
                 href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-argentina.md

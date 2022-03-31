@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 765c0b97d5e277bd086ac4b25ee11ac80cb6fc11
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: fe3ad067844de3c7a5dda0a042dee837a9638eae
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711483"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556290"
 ---
 # <a name="microsoft-teams-apps-behavior-based-on-types-of-users"></a>Microsoft Teams приложений на основе типов пользователей
 
@@ -49,7 +49,7 @@ Teams приложения работают, когда в контексте п
 
 #### <a name="bots-installed-to-a-channel"></a>Боты, установленные на канале
 
-Боты могут заблаговременно отправлять гостю сообщения, но они не могут взаимодействовать с ботом. Гости не могут отправить сообщение боту один к одному, упомянуть бота или использовать адаптивные карточки, которые общаются с ботом.
+Гости могут упоминать бота и работать с адаптивными карточками.
 
 #### <a name="personal-bots-installed-with-policies"></a>Личные боты, установленные с политиками
 
@@ -84,6 +84,6 @@ Teams приложения работают, когда в контексте п
 
 Анонимные пользователи наследуют глобальную политику разрешений по умолчанию. Они могут взаимодействовать с приложениями Teams собраниях, если это включено политикой разрешений на уровне пользователя. Анонимные пользователи могут работать только с приложениями, которые уже доступны на собрании, и не могут приобрести их или управлять ими.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 
 [Управление политиками настройки приложений в Microsoft Teams](teams-app-setup-policies.md)
