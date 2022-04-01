@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b6f2ec21ec3e7f4278443d6bcab4b4220db3619f
-ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
+ms.openlocfilehash: 53a1c2730ebf6db06fb92ac2fc4e0873563c98ce
+ms.sourcegitcommit: 9e868a155bcd20dd5dafdedcff091ff77ca7398b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/30/2022
-ms.locfileid: "64556747"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64584334"
 ---
 # <a name="whats-new-for-direct-routing"></a>Новые возможности прямой маршрутии
 
@@ -62,7 +62,7 @@ Microsoft 365 обновляет Teams и другие службы, чтобы 
 
 Проверьте конфигурации SBC и убедитесь, что вы не используете заменять заглавные в запросах SIP.
 
-## <a name="tls10-and-10"></a>TLS1.0 и 1.0
+## <a name="tls10-and-11"></a>TLS1.0 и 1.1
 
 Чтобы обеспечить наилучшее шифрование в классе, корпорация Майкрософт планирует депрецировать TLS-версии 1.0 и 1.1. 3 апреля 2022 г. корпорация Майкрософт привячит к использованию TLS1.2 для интерфейса SIP прямой маршрутии.
 

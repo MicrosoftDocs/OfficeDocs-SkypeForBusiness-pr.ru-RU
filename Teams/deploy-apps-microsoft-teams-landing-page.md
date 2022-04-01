@@ -1,7 +1,7 @@
 ---
-title: Приложения, боты и соединители в Microsoft Teams
+title: Сведения о приложениях в Microsoft Teams
 ms.reviewer: ''
-description: Узнайте о приложениях, ботах и соединителях, а также о принятии решения об их развертывании в Microsoft Teams на основе профиля и бизнес-требований вашей организации.
+description: Узнайте о приложениях и решите, какие приложения разрешить в Teams, на основе профиля и бизнес-требований вашей организации.
 ms.topic: article
 author: guptaashish
 ms.author: guptaashish
@@ -18,26 +18,26 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bd5ab3395aa870d0be073a0afcd08aafe9110637
-ms.sourcegitcommit: 867e8b4120e81c93c029c0c1b9cb69c161fc87a4
+ms.openlocfilehash: b6fd5ef344550cf85420faef1748c34f6e87e88b
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/26/2022
-ms.locfileid: "64480661"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556530"
 ---
 # <a name="about-apps-in-microsoft-teams"></a>О приложениях в Microsoft Teams
 
-Приложения позволяют вам находить контент из ваших любимых сервисов и делиться им в Teams. Они позволяют вам выполнять такие действия, как закрепление сервисов сверху канала, общение в чате с ботами или предоставление общего доступа и назначение задач. Ознакомьтесь со статьей [Общие сведения о приложениях в Teams](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0) для получения дополнительной информации.
+Приложения позволяют пользователям находить контент из любимых сервисов и делиться им в Teams. Они позволяют выполнять такие задачи, как закрепление служб вверху канала, автоматизация уведомлений при использовании ботов или открытие доступа к задачам и их назначение. Дополнительные сведения об использовании приложений см. в статье [Обзор приложений для пользователей](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0).
 
-Вы можете добавлять приложения в Teams, используя приложения, предоставляемые с Microsoft Teams, сертифицированные сторонние приложения и шаблоны, а также создавая собственные приложения.
+Различные типы приложений, которые пользователи могут использовать в Teams, включают приложения, созданные корпорацией Майкрософт, сертифицированные сторонние приложения и пользовательские приложения, созданные организацией.
 
 ## <a name="use-microsoft-provided-apps"></a>Использование приложений, предоставляемых корпорацией Майкрософт
 
-Teams предоставляется с набором встроенных приложений, включая Lists, "Задачи", "Благодарность", "Утверждения" и т. д. Рекомендуется включить избранные приложения Teams, например Планировщик, в первоначальное развертывание Teams. Добавляйте другие приложения, боты и соединители по мере внедрения Teams.
+Teams предоставляется с набором встроенных приложений, включая Lists, "Задачи", "Благодарность", "Утверждения" и т. д. Рекомендуется включить избранные приложения Teams, например Планировщик, в первоначальное развертывание Teams. Добавляйте другие приложения по мере внедрения Teams. Некоторые стандартные функции, такие как лента активности, чат, календарь и звонки, доступны по умолчанию и также закреплены для удобства пользователей.
 
 ## <a name="use-third-party-apps"></a>Использование сторонних приложений
 
-Помимо приложений, предоставляемых корпорацией Майкрософт, можно использовать сторонние приложения, сертифицированные Майкрософт. Корпорация Майкрософт сотрудничает с партнерами по разработке Microsoft 365, чтобы предоставлять сведения, необходимые для ускорения принятия решений об использовании приложений и надстроек Teams. Дополнительные сведения см. в статье [Безопасность приложений Microsoft Teams и их соответствие требованиям](/microsoft-365-app-certification/teams/teams-apps).
+Помимо приложений, предоставляемых корпорацией Майкрософт, можно использовать сторонние приложения, проверенные Майкрософт. Корпорация Майкрософт сотрудничает с партнерами по разработке Microsoft 365, чтобы предоставлять сведения, необходимые для ускорения принятия решений об использовании приложений Teams. Дополнительные сведения см. в статье [Безопасность приложений Microsoft Teams и их соответствие требованиям](/microsoft-365-app-certification/teams/teams-apps).
 
 ## <a name="use-open-source-sample-apps-provided-by-microsoft"></a>Использование примеров приложений с открытым кодом, предоставленных корпорацией Майкрософт
 
@@ -68,41 +68,43 @@ Teams предоставляется с набором встроенных пр
 
 ### <a name="app-permissions-and-other-considerations"></a>Разрешения приложения и другие рекомендации
 
-Приложения получают согласие со стороны пользователей и управляются администратором или IT специалистами в соответствии с политиками. Тем не менее, в целом разрешения и профиль риска определяются самим приложением.
-
 Приложения получают согласие со стороны пользователей и управляются администратором или IT специалистами в соответствии с политиками. Тем не менее, разрешения приложения и его профиль риска определяются самим приложением.
 
 | Задайте себе вопрос | Действие |
 |--------------|--------|
 |<br>Каким приложениям я хочу предоставить доступ? Каким приложениями я не хочу предоставлять доступ?  | <ul><li>В статье [Разрешения и рекомендации для приложений Microsoft Teams](app-permissions.md) см. список того, что следует учитывать при предоставлении доступа к приложению, боту, вкладке или соединителю.</li><li>Информацию о том, как сделать приложение доступным для пользователей в вашей организации, см. В разделе [Управление приложениями](manage-apps.md) в центре администрирования Microsoft Teams.</li></ul>|
 
-### <a name="bots-for-private-chats-and-channels"></a>Боты для приватных чатов и каналов
+<!--- TBD: Rewrite this to talk about bots and tabs as a capability of apps. Admins do not govern bots, tabs, etc. Admins only govern apps that contain capabilities such as connectors, bots, etc. This writeup gives an impression that admins manage apps + bots + tabs + connectors, etc.
 
-Боты — это автоматические программы, которые отвечают на запросы или предоставляют интересующие пользователя уведомления и данные. Боты позволяют пользователю взаимодействовать с облачными службами, например, службами для управления задачами, планирования и проведения опросов, с помощью чата в Teams. Teams поддерживает боты в личных чатах и каналах. Администраторы могут определять, разрешено ли использование ботов в организации Microsoft 365 или Office 365.
+### Bots for private chats and channels
 
-| Задайте себе вопрос | Действие |
+Bots are automated programs that respond to queries or give updates and notifications about details users find interesting or want to stay informed about. Bots allow users to interact with cloud services such as task management, scheduling, and polling in a Teams chat. Teams supports bots in private chats and channels. Administrators can control whether the use of bots is allowed in a Microsoft 365 or Office 365 organization.
+
+| Ask yourself | Action |
 |--------------|--------|
-|Хочу ли я разрешить использование настраиваемых ботов в моей организации?|Дополнительные сведения о добавлении ботов см. в статье [Добавление ботов в личные чаты и каналы в Microsoft Teams](/microsoftteams/platform/bots/what-are-bots). Сведения о включении или отключении настраиваемых ботов см. в статье [Параметры администрирования для приложений в Microsoft Teams](admin-settings.md).|
+|Do I want to allow custom bots in my organization?|For more information about adding bots, see [Add bots for private chats and channels in Microsoft Teams](/microsoftteams/platform/bots/what-are-bots). For information about turning custom bots on or off, see [Admin settings for apps in Microsoft Teams](admin-settings.md).|
 
-### <a name="built-in-and-custom-tabs"></a>Встроенные и настраиваемые вкладки
+### Built-in and custom tabs
 
-Владельцы и участники команды могут добавлять вкладки в канал, приватный чат или групповой чат для интеграции с соответствующими облачными службами. Добавляйте вкладки, чтобы помочь пользователям получать доступ и управлять данными, которые им необходимы или часто ими используются. В каналах по умолчанию создаются вкладки Беседы и Файлы. В каждом приватном чате по умолчанию создаются вкладки Беседы, Файлы, Организация и Активность. Помимо этих встроенных вкладок можно создавать и добавлять собственные вкладки. Дополнительные данные о включении и отключении приложений Teams для вашей организации см. в статье [Параметры администрирования приложений в Teams](admin-settings.md).
+Owners and team members can add tabs to a channel, private chat, and group chat to help integrate their cloud services. Add tabs to help users access and manage the data they need or use the most. In channels, the Conversations and Files tabs are created by default. In every private chat, the Conversations, Files, Organization, and Activity tabs are created by default. In addition to these built-in tabs, you can design and add custom tabs. To learn about turning Teams apps on or off for your organization, read [Admin settings for apps in Teams](admin-settings.md).
 
-| Задайте себе вопрос | Действие |
+| Ask yourself | Action |
 |--------------|--------|
-|Хочу ли я разрешить использование настраиваемых вкладок в моей организации?|Дополнительные сведения см. в статье [Использование встроенных и настраиваемых вкладок в Teams](built-in-custom-tabs.md).|
+|Do I want to allow custom tabs in my organization?|For more information, see [Use built-in and custom tabs in Teams](built-in-custom-tabs.md).|
 
-### <a name="custom-connectors"></a>Настраиваемые соединители
+### Custom connectors
 
-Соединители помогают поддерживать текущую работу команды, предоставляя контент и обновления из служб, которые вы часто используете, непосредственно в канале. С помощью соединителей пользователи Teams могут получать обновления из таких популярных служб, как Trello, Wunderlist, GitHub и Azure DevOps Services, прямо в чатах Teams.
+Connectors keep your team current by delivering content and updates from services you frequently use directly into a channel. With connectors, your Teams users can receive updates from popular services such as Trello, Wunderlist, GitHub, and Azure DevOps Services in their Teams chats.
 
-| Задайте себе вопрос | Действие |
+| Ask yourself | Action |
 |--------------|--------|
-|Я хочу разрешать пользователям создавать настраиваемые соединители?|Дополнительную информацию см. в статье [Использование настраиваемых соединителей в Teams](office-365-custom-connectors.md).|
+|Do I want to allow users to create custom connectors?|For more information, see [Use custom connectors in Teams](office-365-custom-connectors.md).|
+
+--->
 
 ## <a name="additional-deployment-decisions"></a>Дополнительные решения по развертыванию
 
-Вы можете изменить эти параметры, исходя из потребностей вашей организации и используемой конфигурации.
+Вы можете изменить эти параметры, исходя из потребностей организации и используемой конфигурации.
 
 ### <a name="activity-reports"></a>Отчеты о действиях
 
@@ -114,7 +116,7 @@ Teams предоставляется с набором встроенных пр
 
 ### <a name="app-templates"></a>Шаблоны приложений
 
-Шаблоны приложений — это готовые использованию в рабочей среде приложения для Microsoft Teams, которые поддерживаются сообществом, имеют открытый исходный код и доступны в GitHub. В каждом из шаблонов приведены подробные инструкции по развертыванию и установке приложения для вашей организации, что позволяет получить готовое для установки приложение, с которым можно сразу начать работать.
+Шаблоны приложений — это готовые использованию в рабочей среде приложения для Майкрософт, которые поддерживаются сообществом, имеют открытый исходный код и доступны в GitHub. Каждое приложение содержит подробные инструкции по его развертыванию и установке для организации и готово к использованию, что позволяет установить и сразу же начать использовать его.
 
 Кроме того, вы получаете полный исходный код, который можно изучить максимально подробно или создать свое ответвление и изменить его для своих конкретных нужд.
 

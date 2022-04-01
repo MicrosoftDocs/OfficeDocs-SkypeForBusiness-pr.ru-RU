@@ -17,12 +17,12 @@ f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0e02013ddc158e1e64386bc22652404ec387aee1
-ms.sourcegitcommit: a9a056b93b4add3a4d978bb341ea4b66a042b4d0
+ms.openlocfilehash: 4b922607955d8b825006217bd2fe333eaadbc1ce
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/18/2022
-ms.locfileid: "62893558"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556570"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Работа с клиентами для Microsoft Teams
 
@@ -46,7 +46,7 @@ Microsoft Teams можно установить на ПК, компьютеры 
 - Linux (в форматах `.deb` и `.rpm`)
 - Chrome OS (дополнительные сведения см. в статье [Как использовать Microsoft Office на Chromebook](https://support.office.com/article/how-to-install-and-run-microsoft-office-on-a-chromebook-32f14a23-2c1a-4579-b973-d4b1d78561ad))
 
-Конечные пользователи могут загрузить и установить классические клиенты непосредственно из [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754), если у них есть соответствующие локальные разрешения. Для установки клиента Teams на ПК с Windows разрешения администратора не требуются, но они требуются на компьютерах Mac.
+При наличии соответствующих локальных разрешений (для установки клиента Teams на компьютере Mac требуются права администратора, а на компьютере с Windows — нет) пользователи могут скачать и установить классические клиенты прямо со страницы [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754).
 
 ИТ-профессионалы могут выбрать предпочтительный способ распространения установочных файлов на компьютеры в своей организации. Некоторые примеры включают Microsoft Endpoint Configuration Manager (Windows) или Jamf Pro (macOS). Дополнительные сведения о распространении Teams см. в следующих статьях:
 
@@ -63,9 +63,9 @@ Microsoft Teams можно установить на ПК, компьютеры 
 
 Teams для Windows предоставляет скачиваемые установщики MSI в [32-разрядной](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true), [64-разрядной](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true) архитектуре и в архитектуре [ARM64](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=arm64&managedInstaller=true&download=true). Архитектура x86 Microsoft Teams (32- или 64-разрядная) не зависит от архитектуры Windows или установленного набора Office. Рекомендуется использовать 64-разрядную версию Teams в 64-разрядных системах.
 
-Для Teams требуется .NET Framework 4.5 или более поздней версии. Если .NET Framework или более поздняя версия не установлены, установщик Teams предложит установить платформу.
+Для Teams требуется .NET Framework 4.5 или более поздней версии. Если платформа .NET Framework 4.5 или более поздней версии не установлена, установщик Teams предложит установить ее.
 
-Клиент Windows развертывается в папке AppData внутри профиля пользователя. Развертывание в локальный профиль пользователя позволяет установить клиент без повышенных прав. Клиент Windows использует следующие расположения:
+Клиент Windows развертывается в папке AppData внутри профиля пользователя. Развертывание в локальный профиль пользователя позволяет установить клиент без повышенного уровня разрешений. Клиент Windows использует следующие расположения:
 
 - %LocalAppData%\\Microsoft\\Teams
 
@@ -205,4 +205,4 @@ sudo zypper install teams
 
 [!INCLUDE [browser-support](includes/browser-support.md)]
 
-Клиент-браузер определяет версию браузера при подключении к сайту [https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753). В случае обнаружения неподдерживаемой версии блокируется доступ к интерфейсу браузера и пользователю рекомендуется скачать классический клиент или мобильное приложение.
+Клиент-браузер определяет версию браузера при подключении к сайту [https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753). В случае обнаружения неподдерживаемой версии он блокирует доступ к интерфейсу браузера и рекомендует пользователю скачать классический клиент или мобильное приложение.

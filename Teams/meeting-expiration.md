@@ -17,12 +17,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: Узнайте, как с помощью параметров политики собраний управлять сроком действия собрания в Microsoft Teams.
-ms.openlocfilehash: d4752251f65dac0afb41ba357ad03063b3f6dfb0
-ms.sourcegitcommit: dafe48cea1643e1bd79390482da9b002d7e9e0bb
+ms.openlocfilehash: ed76ea0278cdbf8a00bbd0d3e8434103aad2f270
+ms.sourcegitcommit: 2388838163812eeabcbd5331aaf680b79da3ccba
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/16/2022
-ms.locfileid: "63514692"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64592814"
 ---
 # <a name="meeting-policies-and-meeting-expiration-in-microsoft-teams"></a>Политики собраний и срок их действия в Microsoft Teams
 
@@ -76,9 +76,6 @@ ms.locfileid: "63514692"
 > Если приглашение на собрание было отправлено делегатом, которому предоставлены разрешения на отправку приглашений на собрание от имени другого пользователя, например руководителя, параметр политики собрания применяется к человеку, который предоставил разрешение (руководителю).
 
 ## <a name="changes-to-meeting-expiration"></a>Изменения срока действия собрания
-
-> [!IMPORTANT]
-> Если вы хотите включить Teams собрания в своем клиенте раньше срока действия, задайте Microsoft Teams [ранним](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR8YMDA0A9INMv_DZ8yW5uG1URDc3U1VVMklPTzVMS0RLR0pUQTlWU1BEVC4u) принятием собрания.
 
 Срок действия всех Teams записей собраний по умолчанию составляет 120 дней. Этот режим по умолчанию для всех клиентов. Это означает, что по умолчанию все TMRs,  созданные после того, как эта функция была включена, будут удалены через 120 дней после даты создания. Администраторы также могут настроить автоматическое истечение **срока действия собраний**. Система OneDrive и SharePoint отслеживает срок действия, установленный для всех TMRs, и автоматически перемещает их в корзину в день их окончания.
 
@@ -155,7 +152,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -NewMeetingRecordingExpirationDays 50
 
 Если запись не удается отправить в OneDrive или SharePoint, приложение Teams отображает в чате сообщение, в течение 21 дня для скачивания TMR до его окончательного удаления с Teams-сервера. Этот срок действия из-за сбойной отправки TMR не связан с функцией автоматического OneDrive и SharePoint, которая обсуждается в документе справки.
 
-### <a name="how-do-i-know-the-distribution-of-tmr-playbacks-so-i-know-what-the-optimal-auto-expiration-default-should-be-for-my-tenant"></a>Как узнать о распространении воспроизведения TMR, чтобы узнать, каким должен быть оптимальный вариант автоматического окончания срока действия для моего клиента?
+### <a name="how-do-i-know-the-distribution-of-tmr-playbacks-so-i-know-what-the-optimal-auto-expiration-default-should-be-for-my-tenant"></a>Разделы справки известно о распространении воспроизведения TMR, чтобы знать, каким должен быть оптимальный вариант автоматического окончания срока действия для моего клиента?
 
 1. Найдите видео в библиотеке.
 1. Выберите **...** >  **Детали**
