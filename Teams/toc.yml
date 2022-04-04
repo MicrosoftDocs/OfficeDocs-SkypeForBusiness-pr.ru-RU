@@ -415,6 +415,8 @@ items:
                 href: use-call-analytics-to-troubleshoot-poor-call-quality.md
               - name: Использование телеметрии в реальном времени для устранения неполадок с качеством собраний
                 href: use-real-time-telemetry-to-troubleshoot-poor-meeting-quality.md
+              - name: Добавление и обновление наклеек для отчетов
+                href: learn-more-about-site-upload.md
           - name: Качество обслуживания (QoS)
             items:
               - name: Настройка качества обслуживания в Teams
@@ -755,7 +757,7 @@ items:
                 href: ptsn-mask-phone-numbers.md
           - name: Доступность аудиоконференций в различных странах и регионах
             href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
-          - name: Справка
+          - name: Справочные материалы
             items:
               - name: Поддерживаемые языки аудиоконференций
                 href: audio-conferencing-supported-languages.md
@@ -839,6 +841,8 @@ items:
             href: pstn-connectivity.md
           - name: Планы звонков
             items:
+              - name: Тарифные планы для Microsoft 365
+                href: calling-plans-for-office-365.md
               - name: Какой план звонков подходит вам?
                 href: calling-plan-landing-page.md
               - name: Настройка планов звонков для организации
@@ -963,7 +967,7 @@ items:
             href: operator-connect-configure.md#set-up-phone-numbers
           - name: Управление номерами телефонов для прямой маршрутизации
             href: direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice
-      - name: Маршрутизация голосовой связи
+      - name: Абонентские группы и маршрутизация
         items:
           - name: Что такое абонентские группы?
             href: what-are-dial-plans.md
@@ -971,8 +975,6 @@ items:
             href: create-and-manage-dial-plans.md
           - name: Маршрутизация вызовов на неназначенные номера
             href: routing-calls-to-unassigned-numbers.md
-          - name: Добавление и обновление наклеек для отчетов
-            href: learn-more-about-site-upload.md
       - name: Параметры сети и топология
         items:
           - name: Параметры сети для функций голосовой связи в облаке
@@ -1573,6 +1575,12 @@ items:
                 items:
                   - name: Обзор
                     href: expand-teams-across-your-org/shifts/shifts-connectors.md
+                  - name: Настройка подключения к Blue Yonder WFM с помощью мастера соединителя "Смены"
+                    href: expand-teams-across-your-org/shifts/shifts-connector-wizard.md
+                  - name: Настройка подключения к Blue Yonder WFM с помощью PowerShell
+                    href: expand-teams-across-your-org/shifts/shifts-connector-blue-yonder-powershell-setup.md
+                  - name: Использование PowerShell для управления подключением Смен к Blue Yonder WFM
+                    href: expand-teams-across-your-org/shifts/shifts-connector-powershell-manage.md
               - name: 'Данные смен: вопросы и ответы'
                 href: expand-teams-across-your-org/shifts/shifts-data-faq.md
       - name: Teams для образования

@@ -12,12 +12,12 @@ ms.collection:
 description: Узнайте о версиях, поддерживаемых модулем Teams PowerShell, который используется для администрирования Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3fc980420b53d850c48e680d25bdbf6ec437e8f8
-ms.sourcegitcommit: d3d3d5a70a69359fc71f072ad6c651556f4eda00
+ms.openlocfilehash: e292e3ea5659920bca6fe6f663afc53164da5b49
+ms.sourcegitcommit: e3a4df81721abe83886714a7c3c798e4c0888c35
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2022
-ms.locfileid: "63783969"
+ms.lasthandoff: 04/01/2022
+ms.locfileid: "64617710"
 ---
 # <a name="teams-powershell-module---supported-versions"></a>Teams PowerShell — поддерживаемые версии
 
@@ -39,7 +39,7 @@ Microsoft Teams версии модуля PowerShell (TPM) в 4.x.x или бо�
 
 ## <a name="current-organizations-tpm-active"></a>Текущие организации (активна TPM)
 
-Организации, использующие модуль Teams PowerShell в течение последних трех месяцев (22 января — 22 марта), смогут использовать модуль PowerShell Teams только в ряду 4.x.x или более, начиная с 15 июня 2022 г. 
+Организации, использующие модуль Teams PowerShell в течение последних трех месяцев (22 января — 22 марта), смогут использовать модуль PowerShell Teams только в ряду 4.x.x или более, начиная с 15 июня 2022 г. Сообщение в Центре сообщений для справки — MC350371. 
 
 
 
@@ -62,9 +62,11 @@ Microsoft Teams версии модуля PowerShell (TPM) в 4.x.x или бо�
 
   * Изменения, внося в Телефон номера : дополнительные сведения в [Set-CsUser](/powershell/module/skype/set-csuser), [Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser), [Set-CsOnlineApplicationInstanceSet-CsOnlineVoiceApplicationInstance](/powershell/module/skype/set-csonlineapplicationinstance) &  (публикация центра сообщений — MC316139)[](/powershell/module/skype/set-csonlinevoiceapplicationinstance)
 
+  * Депрецация Get-CsOnlineDirectoryTenant — дополнительные сведения в [get-CsOnlineDirectoryTenant](/powershell/module/skype/get-csonlinedirectorytenant) (публикация Центра сообщений — MC346902).
 
 
-## <a name="related-topics"></a>Статьи по теме
+
+## <a name="related-topics"></a>См. также
 
 [Teams о выпуске PowerShell](teams-powershell-release-notes.md)
 

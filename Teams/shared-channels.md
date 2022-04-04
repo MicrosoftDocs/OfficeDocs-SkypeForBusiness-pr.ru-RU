@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Узнайте, как использовать общие каналы в Microsoft Teams (предварительная версия) и управлять ими.
-ms.openlocfilehash: 3a5b7f1005af95580f56b87188bc8a67325d440d
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: 0c66d308ef5182c6ace69a7bdcd004c865109bec
+ms.sourcegitcommit: 3e7c491d2bb13c86ac8e73b1c6c9735660c673e3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63712138"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64590387"
 ---
 # <a name="shared-channels-in-microsoft-teams-preview"></a>Общие каналы в Microsoft Teams (предварительная версия)
 
@@ -122,6 +122,22 @@ Teams управляет жизненным циклом сайта общего
 Если пользователю предоставлен доступ к файлу, папке или записной книжке в общем канале с помощью SharePoint, то при удалении этого пользователя из команды или из общего канала доступ этого пользователя файлу, папке или записной книжке сохранится.
 
 Если добавить существующую записную книжку в общий канал в виде вкладки, то доступ к общему каналу не изменится, а у записной книжки сохранятся существующие разрешения.
+
+## <a name="resources-for-your-users"></a>Ресурсы для пользователей
+
+Следующие статьи могут быть полезны пользователям в организации при использовании общих каналов.
+
+[Создание общего канала в Teams](https://support.microsoft.com/office/80712457-579e-42b2-b54f-112329578aaa)
+
+[Совместное использование канала с другими пользователями в Teams](https://support.microsoft.com/office/5f60de2d-0080-4e55-b26f-33a9dafa120e)
+
+[Совместное использование канала с командой](https://support.microsoft.com/office/b2e89992-2708-4583-b11e-bbb6edb4f1c3)
+
+[Зачем использовать общий канал в сравнении с другими типами каналов в Teams?](https://support.microsoft.com/office/e6ad61d0-6b3f-4e1b-baac-63e2978bd92e)
+
+[Гости и общие каналы в Teams](https://support.microsoft.com/office/612de4ce-e7a3-4579-b086-bb8ff9f2d11e)
+
+[Владелец общего канала и роли участника в Teams](https://support.microsoft.com/office/75b379f4-8e9c-4202-acf1-6ffc3878a2d7)
 
 ## <a name="limits-for-shared-channels-preview"></a>Ограничения для общих каналов (предварительная версия)
 
