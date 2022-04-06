@@ -1493,6 +1493,10 @@ items:
             href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
       - name: Администрирование сторонних приложений
         items:
+          - name: Распознавание сторонних приложений
+            href: overview-third-party-apps.md
+          - name: Распознавание проверки приложений корпорацией Майкрософт
+            href: overview-of-app-validation.md
           - name: 'Безопасность, соответствие требованиям, конфиденциальность и обработка данных для сторонних приложений'
             href: /microsoft-365-app-certification/overview
           - name: Использование Microsoft 365 или Office 365 и настраиваемых соединителей
