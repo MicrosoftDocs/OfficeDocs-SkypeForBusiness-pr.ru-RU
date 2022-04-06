@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: Узнайте, как управлять настройками собраний команд, которые пользователи планируют в своей организации.
-ms.openlocfilehash: 294bbac570d1f1741449c7c81cb9389b20cdcdc6
-ms.sourcegitcommit: eb5fadedacbf4651ed5b05f1b0d6abf57e9eda2d
-ms.translationtype: HT
+ms.openlocfilehash: 10afbcc30404122e9e4d497570bf0b69e4ef6fa7
+ms.sourcegitcommit: 2ce3e95401ac06c0370a54862372a94ec6291d01
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/25/2022
-ms.locfileid: "62960031"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "64642923"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Управление настройками собраний в Microsoft Teams
 
@@ -70,7 +70,7 @@ ms.locfileid: "62960031"
 
 Любое другое сочетание значений не позволит анонимным пользователям присоединяться к собраниям.
 > [!NOTE]
-> Чтобы использовать политику на уровне организатора для организаций с отключенным анонимным присоединением для организации, администраторам необходимо создать политику и назначить ее пользователям. Сведения о том, как это сделать, см. в статье [Управление политиками собраний в Microsoft Teams](/microsoftteams/meeting-policies-overview).
+> Дополнительные информацию об управлении политиками собраний см. в этой [Microsoft Teams.](/microsoftteams/meeting-policies-overview)
 
 ### <a name="blocking-anonymous-join-for-specific-client-types"></a>Блокирование анонимного присоединения для определенных типов клиентов
 

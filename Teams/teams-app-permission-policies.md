@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 35246d03fb7611971bd846370413ca0580397647
-ms.sourcegitcommit: 39378888464ade3cb45879a449143f40f202f3e9
+ms.openlocfilehash: e4a09c92fad10f91abad697a92764429deed3bf8
+ms.sourcegitcommit: 2ce3e95401ac06c0370a54862372a94ec6291d01
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "64457052"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "64643083"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>Управление политиками разрешений для приложений в Microsoft Teams
 
@@ -89,9 +89,12 @@ ms.locfileid: "64457052"
 
 При развертывании Microsoft 365 GCCH и DoD Teams важно знать о параметрах сторонних приложений, которые уникальны для GCCH и DoD.
 
-В GCCH и DoD все сторонние приложения по умолчанию блокируются. Кроме того, на странице политик разрешений для приложений в Центре администрирования Microsoft Teams отобразится следующая заметка об управлении сторонними приложениями.
+В GCC все сторонние приложения заблокированы по умолчанию. Кроме того, на странице политик разрешений для приложений в Центре администрирования Microsoft Teams отобразится следующая заметка об управлении сторонними приложениями.
 
-![Снимок экрана: политика разрешений приложений в GCCH и DoD.](media/app-permission-policies-gcc.png)
+:::image type="content" source="media/app-permission-policies-gcc-trimmed.png" alt-text="Снимок экрана: политика разрешений приложений в GCCH и DoD." lightbox="media/app-permission-policies-gcc.png":::
+
+> [!NOTE]
+> В облаках GCCH и DOD сторонние приложения недоступны.
 
 Используйте параметры приложений в пределах организации, чтобы указать, могут ли пользователи устанавливать приложения сторонних разработчиков. Параметры приложения в пределах организации определяют поведение всех пользователей и переопределяют любые другие политики разрешений для приложений, назначенных пользователям. Их можно использовать для управления вредоносными или проблемными приложениями.
 

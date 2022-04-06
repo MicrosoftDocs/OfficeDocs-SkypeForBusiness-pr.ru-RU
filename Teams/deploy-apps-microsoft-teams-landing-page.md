@@ -7,7 +7,7 @@ author: guptaashish
 ms.author: guptaashish
 manager: prkosh
 audience: admin
-ms.date: 02/10/2021
+ms.date: 04/05/2022
 ms.service: msteams
 ms.collection:
 - M365-collaboration
@@ -18,61 +18,128 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b6fd5ef344550cf85420faef1748c34f6e87e88b
-ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
-ms.translationtype: HT
+ms.openlocfilehash: f8579d7c2c49749058c174aa71430803dce63286
+ms.sourcegitcommit: 2ce3e95401ac06c0370a54862372a94ec6291d01
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/30/2022
-ms.locfileid: "64556530"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "64643023"
 ---
 # <a name="about-apps-in-microsoft-teams"></a>О приложениях в Microsoft Teams
 
-Приложения позволяют пользователям находить контент из любимых сервисов и делиться им в Teams. Они позволяют выполнять такие задачи, как закрепление служб вверху канала, автоматизация уведомлений при использовании ботов или открытие доступа к задачам и их назначение. Дополнительные сведения об использовании приложений см. в статье [Обзор приложений для пользователей](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0).
+Приложения — это отличный способ использовать инструменты и службы вашей компании для совместной работы с другими людьми. Приложения помогают конечным пользователям работать эффективнее, совместно и эффективно в своих задачах. Организации используют приложения для связи со своими клиентами, предоставления услуг и обмена информацией. С помощью приложений пользователи могут эффективнее Teams чатах, собраниях и каналах. Примерами могут быть пользователи, использующие закрепленный календарь в Teams для быстрой совместной работы, приложение с функциями ботов, информирующих пользователей о QoS веб-службе в канале Teams, и приложение для обмена задачами и назначения задач различным конечным пользователям в канале.
 
-Различные типы приложений, которые пользователи могут использовать в Teams, включают приложения, созданные корпорацией Майкрософт, сертифицированные сторонние приложения и пользовательские приложения, созданные организацией.
+Широкий выбор проверенных и безопасных приложений в Магазине обеспечивает пользователям доступ к инструментам и службам, которые необходимы вашей организации каждый день. Microsoft Teams являются веб-приложениями SaaS, которые не требуется развертывать. Конечные пользователи могут использовать приложения в Teams только на основе разрешений, предоставленных вами. Как администратор вы просто утвердите или заблокировали использование любого приложения для пользователей организации. Вы управляете доступностью приложений для всех пользователей во время собраний, чатов и каналов.
 
-## <a name="use-microsoft-provided-apps"></a>Использование приложений, предоставляемых корпорацией Майкрософт
+Чтобы предоставить пользователям нужные приложения, прочитайте эту статью о типах приложений и о том, где пользователи могут получать к ним доступ. Дополнительные сведения об использовании приложений можно найти в обзоре [приложений для пользователей](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0).
 
-Teams предоставляется с набором встроенных приложений, включая Lists, "Задачи", "Благодарность", "Утверждения" и т. д. Рекомендуется включить избранные приложения Teams, например Планировщик, в первоначальное развертывание Teams. Добавляйте другие приложения по мере внедрения Teams. Некоторые стандартные функции, такие как лента активности, чат, календарь и звонки, доступны по умолчанию и также закреплены для удобства пользователей.
+<!--- Commenting the previous content as part of this article revamp.
 
-## <a name="use-third-party-apps"></a>Использование сторонних приложений
+Apps let users find content from their favorite services and share it in Teams. They let you do tasks such as pin services at the top of a channel, automate notifications using bots, or share and assign tasks.
 
-Помимо приложений, предоставляемых корпорацией Майкрософт, можно использовать сторонние приложения, проверенные Майкрософт. Корпорация Майкрософт сотрудничает с партнерами по разработке Microsoft 365, чтобы предоставлять сведения, необходимые для ускорения принятия решений об использовании приложений Teams. Дополнительные сведения см. в статье [Безопасность приложений Microsoft Teams и их соответствие требованиям](/microsoft-365-app-certification/teams/teams-apps).
+--->
 
-## <a name="use-open-source-sample-apps-provided-by-microsoft"></a>Использование примеров приложений с открытым кодом, предоставленных корпорацией Майкрософт
+Пользователи могут использовать разные типы приложений в Teams:
 
-Вы также можете использовать [шаблоны Teams](/microsoftteams/platform/samples/app-templates?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fMicrosoftTeams%2ftoc.json) — готовые к использованию в рабочей среде приложения для Microsoft Teams, которые поддерживаются сообществом, имеют открытый исходный код и доступны в GitHub.
+* [Основные приложения, которые являются частью Teams](#core-apps).
+* Другие [приложения, созданные корпорацией Майкрософт](#microsoft-provided-apps).
+* [Сторонние приложения от](#third-party-apps-validated-by-microsoft) партнеров (проверены корпорацией Майкрософт).
+* [Пользовательские приложения](#custom-apps) , созданные вашей организацией.
 
-## <a name="create-custom-apps"></a>Создание собственных приложений
+## <a name="core-apps"></a>Основные приложения
 
-Вы можете быстро создать собственные решения с минимальным написанием кода, используя интеграцию Teams с [Microsoft Power Platform](/microsoftteams/platform/samples/teams-low-code-solutions). Кроме того, вы можете создать собственное приложение, соответствующее потребностям вашей организации. Дополнительные сведения см. в статье [Создание приложений для Microsoft Teams](/microsoftteams/platform/overview).  
+Некоторые функции по умолчанию, такие как веб-канал активности, Teams каналы, чат, календарь и звонки, по умолчанию доступны и закреплены для пользователей. Как администратор вы можете изменить поведение по умолчанию с помощью [политики установки](/microsoftteams/teams-app-setup-policies).
 
-## <a name="apps-deployment-decisions"></a>Решения по развертыванию приложений
+:::image type="content" source="media/core-apps-pinned1.png" alt-text="Основные приложения — это приложения, закрепленные Teams по умолчанию." lightbox="media/core-apps-pinned2.png":::
 
-В Teams реализованы прекрасные встроенные возможности совместной работы для вашей организации, и большинство организаций обнаружат, что параметры по умолчанию прекрасно им подходят. Эта статья поможет вам решить, следует ли изменить какие-либо параметры по умолчанию, руководствуясь профилем вашей организации и потребностям бизнеса, а затем поможет вам внести любое изменение. Мы разделили параметры на две группы, начиная с набора основных [изменений, которые вы, скорее всего, внесете](#core-deployment-decisions). Во вторую группу включены [дополнительные параметры](#additional-deployment-decisions), которые можно настроить, исходя из потребностей вашей организации.
+## <a name="microsoft-provided-apps"></a>Приложения Майкрософт
 
-## <a name="core-deployment-decisions"></a>Решения по развертыванию основных функций
+Корпорация Майкрософт предоставляет множество приложений для повышения производительности и совместной работы. Вы и конечные пользователи можете найти эти приложения, найдите Майкрософт в качестве поставщика Publisher в Центре администрирования или в списке Поставщик в Магазине групп.
 
-Ниже перечислены параметры приложений, которые большинство организаций предпочитают изменить (если параметры Teams по умолчанию вам не подходят).
+Teams предоставляется с набором встроенных приложений, включая Lists, "Задачи", "Благодарность", "Утверждения" и т. д. Рекомендуется включить избранные приложения Teams, например Планировщик, в первоначальное развертывание Teams.
 
-### <a name="app-availability-settings"></a>Настройки доступности приложения
+:::image type="content" source="media/microsoft-apps-in-tac1.png" alt-text="Приложения Майкрософт в Teams администрирования" lightbox="media/microsoft-apps-in-tac2.png":::
 
-В Teams есть множество приложений, опубликованных Майкрософт и сторонними разработчиками, для вовлечения пользователей, поддержки производительности и интеграции часто используемых бизнес-служб в Teams.
-Загрузите приложения из магазина Teams. По умолчанию все приложения, включая пользовательские приложения, которые вы отправляете через [процесс утверждения в Teams Store](/microsoftteams/platform/publishing/apps-publish#microsoft-teams-app-approval-process), активируются для всех пользователей. Например, пользователи могут использовать приложение Планировщик для организации и управления командной работой в Teams.
+## <a name="third-party-apps-validated-by-microsoft"></a>Сторонние приложения, проверенные корпорацией Майкрософт
 
-По умолчанию все предоставляемые Майкрософт и пользовательские приложения и приложения третьих сторон доступны, а вы можете включать или отключать отдельные приложения. Существуют параметры на уровне организации, позволяющие включить или отключить все приложения третьих сторон и (или) пользовательские приложения для вас или всей организации.
+Помимо приложений, предоставленных Майкрософт, вы можете использовать сторонние приложения, проверенные Майкрософт. Корпорация Майкрософт проверяет функциональные возможности и безопасность этих приложений, прежде чем делать их доступными в Teams Магазине.
 
-| Задайте себе вопрос | Действие |
+<!--- TBD: Link to the new article later when it is created.
+To understand the benefits of app validation, see [validation of third-party apps]().
+
+--->
+
+:::image type="content" source="media/3p-apps-in-teams.png" alt-text="Пример сторонних приложений в Teams Store":::
+
+<!--- TBD: Check the relevance of this link here.
+For more information, see [Microsoft Teams App Security and Compliance](/microsoft-365-app-certification/teams/teams-apps).
+--->
+
+## <a name="custom-apps"></a>Пользовательские приложения
+
+Приложения, созданные разработчиками в вашей организации, называются пользовательскими приложениями. Разработка такого приложения разрешается в определенных требованиях организации, и у вас есть средства контроля, позволяющие разрешать и отопускать такие приложения. Разработчики в вашей организации могут быстро создавать пользовательские решения с низким кодом, Teams интеграцию с [Microsoft Power Platform](/microsoftteams/platform/samples/teams-low-code-solutions).
+
+После того как администратор разрешит использование пользовательских приложений, конечные пользователи смогут найти такие приложения,  щелкнув Встроенные для вашей организации в левой области навигации Teams Store.
+
+:::image type="content" source="media/built-for-your-org1.png" alt-text="Пользовательские приложения в Teams в Teams приложении" lightbox="media/built-for-your-org2.png":::
+
+### <a name="understand-sideloading-of-custom-apps"></a>Загрузка нестандартных приложений
+
+При разработке пользовательских приложений и их распространении среди конечных пользователей разработчики тестировали их, добавляя их в магазин для самостоятельной проверки или проверяя с командой, в которой они работают на стороне приложения. Этот способ называется загрузкой приложений на стороне и применяется только к пользовательским приложениям.
+
+Разработчики могут загрузку приложения в боковой загрузке, чтобы сделать его доступным для участников определенной группы, как правило, для тестирования приложения, которое находится в стадии разработки. Это не требует утверждения администратора, если разрешена загрузка нео разгрузки. Как администратор вы можете отостановить загрузку на стороне для любого разработчика.
+
+Если вы перезагрузили приложение, разработчики по-прежнему смогут протестировать свои приложения в [тестовом клиенте](/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant). После завершения разработки пользовательских приложений разработчики просят администраторов распространить свое приложение среди пользователей. Подробные сведения см. [в том, как опубликовать пользовательское приложение](/microsoftteams/upload-custom-apps). Как администратор вы можете разрешить или отоать использование пользовательского приложения для определенных пользователей.
+
+### <a name="about-app-templates"></a>Шаблоны приложений
+
+Шаблоны приложений для Teams — это функциональные, готовые к использованию образцы приложений, созданные корпорацией Майкрософт для иллюстрации популярных вариантов использования, демонстрации лучших методик разработки приложений и предоставления приложений с открытым кодом, которые разработчики могут расширить для создания пользовательских приложений. Разработчики вашей организации настраивают шаблоны приложений для своих потребностей, внося простые изменения в код, доступные в GitHub. Как администратор вы предоставляете эти приложения в качестве пользовательских приложений для конечных пользователей.
+
+Дополнительные новости см. [в Microsoft Teams шаблонов приложений](https://adoption.microsoft.com/microsoft-teams/app-templates/).
+
+## <a name="understand-app-capabilities"></a>Возможности приложения
+
+Приложения для обмена сообщениями включают содержимое из приложения в канале или чате. Приложения для упростительности собраний интегрируют приложения разработчика в собрания и предлагают адаптивный доступ к собраниям. Чтобы предоставить различные функции, разработчики приложений используют следующие возможности приложения:
+
+Боты предоставляют ответы, обновления и помощь. Вы можете общаться с ними один на один или в канале. Они помогают в управлении задачами, планировании и других задачах. Например, с помощью приложения Polly можно создавать быстрые опросы, получать отзывы и проверять пульс.
+
+С помощью вкладок, закрепленных в верхней части канала, можно взаимодействовать с контентом и службами в веб-браузере.
+Соединитетели доставляют содержимое и обновления из часто используемых служб (таких как Jira Cloud и Bitbucket) непосредственно в беседу канала.
+
+Расширения для сообщений — это ярлыки для вставки содержимого приложения или для работы с сообщением, при этом пользователям не нужно переходить из беседы. Расширения для сообщений могут иметь команды поиска для пользователей, чтобы быстро находить внешний контент и вставлять его в сообщения или команды действий.
+
+Чтобы просмотреть распространенные случаи использования, Teams возможности, см. в этой Teams [приложения](/microsoftteams/platform/concepts/design/map-use-cases).
+
+<!--- TBD: Admins do many considerations and decisions around app adoption and app governance. These are to be covered in a separate article. Commenting the below content for now as part of this article revamp.
+
+## Apps deployment decisions
+
+Teams provides a great out-of-the-box collaboration experience for your organization, and most organizations find that the default settings work for them. This article helps you decide whether to change any of the default settings, based on your organization's profile and business requirements, then it walks you through each change. We've split the settings into two groups, starting with the core set of [changes you're more likely to make](#core-deployment-decisions). The second group includes the [additional settings](#additional-deployment-decisions) you may want to configure, based on your organization's needs.
+
+## Core deployment decisions
+
+These are the apps settings that most organizations want to change (if the Teams default settings don't work for them).
+
+### App availability settings
+
+Teams provides many apps published by Microsoft and by third parties to engage users, support productivity, and integrate commonly used business services into Teams.
+Get apps from the Teams Store. By default, all apps, including custom apps that you've submitted via the [Teams Store approval process](/microsoftteams/platform/publishing/apps-publish#microsoft-teams-app-approval-process), are turned on for all users. For example, users can use the Planner app to build and manage team tasks in Teams.
+
+By default, all Microsoft-provided, third-party, and custom apps are available, and you can turn individual apps on or off. There are org-wide settings that let you turn all third-party and/or custom apps on or off for your entire organization.
+
+| Ask yourself | Action |
 |--------------|--------|
-|Будете ли вы изменять параметры приложений Teams по умолчанию? | Дополнительные сведения о политиках и параметрах, которые можно использовать для управления приложениями в организации, см. в статье [Параметры администратора для приложений в Microsoft Teams](admin-settings.md).|
+|Will you change the default Teams apps settings? | For more information about policies and settings that you can use to manage apps in your organization, see [Admin settings for apps in Microsoft Teams](admin-settings.md).|
 
-### <a name="app-permissions-and-other-considerations"></a>Разрешения приложения и другие рекомендации
+### App permissions and other considerations
 
-Приложения получают согласие со стороны пользователей и управляются администратором или IT специалистами в соответствии с политиками. Тем не менее, разрешения приложения и его профиль риска определяются самим приложением.
+Apps are consented to by users and managed by the admin or IT pro through policies. However, app permissions and risk profile are defined in the app itself.
 
-| Задайте себе вопрос | Действие |
+| Ask yourself | Action |
 |--------------|--------|
-|<br>Каким приложениям я хочу предоставить доступ? Каким приложениями я не хочу предоставлять доступ?  | <ul><li>В статье [Разрешения и рекомендации для приложений Microsoft Teams](app-permissions.md) см. список того, что следует учитывать при предоставлении доступа к приложению, боту, вкладке или соединителю.</li><li>Информацию о том, как сделать приложение доступным для пользователей в вашей организации, см. В разделе [Управление приложениями](manage-apps.md) в центре администрирования Microsoft Teams.</li></ul>|
+|<br>Which apps do I want to allow access to? Which ones do I not want to allow access to?  | <ul><li>See [Microsoft Teams apps permissions and considerations](app-permissions.md) for a list of things you should consider when allowing access to an app, bot, tab, or connector.</li><li>See [Manage your apps in the Microsoft Teams admin center](manage-apps.md) for information about making an app available to users in your organization.</li></ul>|
+
+--->
 
 <!--- TBD: Rewrite this to talk about bots and tabs as a capability of apps. Admins do not govern bots, tabs, etc. Admins only govern apps that contain capabilities such as connectors, bots, etc. This writeup gives an impression that admins manage apps + bots + tabs + connectors, etc.
 
@@ -90,7 +157,7 @@ Owners and team members can add tabs to a channel, private chat, and group chat 
 
 | Ask yourself | Action |
 |--------------|--------|
-|Do I want to allow custom tabs in my organization?|For more information, see [Use built-in and custom tabs in Teams](built-in-custom-tabs.md).|
+|Do I want to allow custom tabs in my organization?|For more information, see [Use built-in and custom tabs in Teams](/microsoftteams/platform/tabs/what-are-tabs).|
 
 ### Custom connectors
 
@@ -102,24 +169,14 @@ Connectors keep your team current by delivering content and updates from service
 
 --->
 
-## <a name="additional-deployment-decisions"></a>Дополнительные решения по развертыванию
+<!--- TBD: Activity reports is not part of app overview. Commenting for now. To be reused in a different article later.
 
-Вы можете изменить эти параметры, исходя из потребностей организации и используемой конфигурации.
+### Activity reports
 
-### <a name="activity-reports"></a>Отчеты о действиях
+You can use activity reports to see how users in your organization are using Teams. For example, if some don't use Teams yet, they might not know how to get started or understand how they can use Teams to be more productive and collaborative. Your organization can use the activity reports to decide where to prioritize training and communication efforts. To view activity reports, you must be a global admin in Microsoft 365 or Office 365, Teams service admin, or Skype for Business admin.
 
-Чтобы узнать, как пользователи в вашей организации используют Teams, можно использовать отчеты об активности. Например, если некоторые из них еще не используют Команды, они могут не знать, с чего начать, или не понимать, как они могут использовать Команды, чтобы повысить продуктивность и совместную работу. Вы можете использовать отчеты об активности в вашей организации, чтобы определить, где существует приоритетная потребность в обучении и улучшении коммуникации. Чтобы просмотреть отчеты об активности, вы должны обладать правами глобального администратора в Microsoft 365 и Office 365, быть администратором службы Teams или администратором Skype для бизнеса.
-
-| Задайте себе вопрос | Действие |
+| Ask yourself | Action |
 |--------------|--------|
-| <br>Кому требуется просмотр отчетов об активности, и есть ли у них разрешение на просмотр отчетов? |<ul><li>Если вы не хотите передавать пользователю роль администратора, вы можете [назначить ему роль с правами чтения отчетов](teams-activity-reports.md#reports-reader-role).</li><li>См. статьи [Роли и разрешения](/azure/active-directory/users-groups-roles/directory-assign-admin-roles) и [Просмотр и назначение ролей](/azure/active-directory/users-groups-roles/directory-manage-roles-portal) для получения информации и о назначении ролей администратора в Azure Active Directory.</li></ul> |
+| <br>Who needs to see the activity reports, and do they have the correct permissions to view them? |<ul><li>If you don't want to assign an admin role to a user, you can [assign the Reports reader role](teams-activity-reports.md#reports-reader-role).</li><li>See [Roles and permissions](/azure/active-directory/users-groups-roles/directory-assign-admin-roles) and [View and assign roles](/azure/active-directory/users-groups-roles/directory-manage-roles-portal) for information about assigning admin roles in Azure Active Directory.</li></ul> |
 
-### <a name="app-templates"></a>Шаблоны приложений
-
-Шаблоны приложений — это готовые использованию в рабочей среде приложения для Майкрософт, которые поддерживаются сообществом, имеют открытый исходный код и доступны в GitHub. Каждое приложение содержит подробные инструкции по его развертыванию и установке для организации и готово к использованию, что позволяет установить и сразу же начать использовать его.
-
-Кроме того, вы получаете полный исходный код, который можно изучить максимально подробно или создать свое ответвление и изменить его для своих конкретных нужд.
-
-| Задайте себе вопрос | Действие |
-|--------------|--------|
-| Нужно ли мне установить какие-нибудь шаблоны приложений Teams, например, Icebreaker? |Дополнительные сведения см. в статье [Шаблоны приложений для Teams](/microsoftteams/platform/samples/app-templates?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=MicrosoftTeams%2ftoc.json).|
+--->

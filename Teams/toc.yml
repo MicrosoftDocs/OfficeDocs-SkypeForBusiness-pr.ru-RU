@@ -757,7 +757,7 @@ items:
                 href: ptsn-mask-phone-numbers.md
           - name: Доступность аудиоконференций в различных странах и регионах
             href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
-          - name: Справочные материалы
+          - name: Справка
             items:
               - name: Поддерживаемые языки аудиоконференций
                 href: audio-conferencing-supported-languages.md
@@ -1495,6 +1495,8 @@ items:
         items:
           - name: 'Безопасность, соответствие требованиям, конфиденциальность и обработка данных для сторонних приложений'
             href: /microsoft-365-app-certification/overview
+          - name: Использование Microsoft 365 или Office 365 и настраиваемых соединителей
+            href: Office-365-custom-connectors.md
           - name: Приобретение сторонних приложений для Teams
             href: purchase-third-party-apps.md
       - name: Шаблоны приложений для Teams
@@ -1511,8 +1513,6 @@ items:
             href: customize-apps.md
           - name: Настройка фирменного стиля магазина приложений вашей организации
             href: customize-your-app-store.md
-          - name: Использование встроенных и настраиваемых вкладок
-            href: built-in-custom-tabs.md
       - name: Элементы управления для администраторов и управление приложениями
         items:
           - name: Обзор управления приложениями для администраторов
@@ -1537,8 +1537,6 @@ items:
             href: app-permissions.md
           - name: Параметры администратора для приложений в Teams
             href: admin-settings.md
-          - name: Использование Microsoft 365 или Office 365 и настраиваемых соединителей
-            href: Office-365-custom-connectors.md
           - name: Поведение приложений в зависимости от типов пользователей
             href: non-standard-users.md
           - name: 'Обновление приложений до новых версий, выполняемое конечными пользователями'
