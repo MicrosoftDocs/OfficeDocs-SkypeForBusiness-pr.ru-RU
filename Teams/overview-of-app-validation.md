@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9accce27ded20f8ce78d4d5b80f6aff474213675
-ms.sourcegitcommit: c2a77ef9c1c9e6f00b3a4589bf02b100c37f5801
+ms.openlocfilehash: 384a57abb724ee29feb5f93fa171d0bc5ec96f3d
+ms.sourcegitcommit: 4847f24e8c644336d2b2f48aa09e2cf91360e4dd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/05/2022
-ms.locfileid: "64649040"
+ms.lasthandoff: 04/06/2022
+ms.locfileid: "64686496"
 ---
 # <a name="checks-and-validation-performed-by-microsoft-on-teams-apps"></a>Проверки и проверки, выполняемые корпорацией Майкрософт в Teams приложениях
 
@@ -31,15 +31,10 @@ ms.locfileid: "64649040"
 
 Все приложения обязательно должны соответствовать политикам сертификации приложений Майкрософт. Команда Teams магазина выполняет более 400 тестов, чтобы обеспечить удобство использования приложений и соблюдение высоких стандартов конфиденциальности и безопасности.
 
-Подробные рекомендации по проверке, которые придерживаются разработчики приложений, см. в руководстве по проверке [для разработчиков](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/teams-store-validation-guidelines).
+Подробные рекомендации по проверке, которые придерживаются разработчики приложений, см. в руководстве по проверке [для разработчиков](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/teams-store-validation-guidelines). Руководство основано на политиках [сертификации для Teams приложений](/legal/marketplace/certification-policies#1140-teams).
 
 > [!NOTE]
 > Проверка и проверки корпорацией Майкрософт недоступны для пользовательского приложения, так как оно разработано в вашей организации и доступно только членам вашей организации.
-
-<!--- TBD: Add the link later. 
-To review the certification policies of any app, see [App certification policies]().
-Is the link /microsoft-365-app-certification/teams/teams-apps
---->
 
 ## <a name="app-validation-and-testing"></a>Проверка и тестирование приложений
 

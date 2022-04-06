@@ -969,6 +969,8 @@ items:
             href: direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice
       - name: Абонентские группы и маршрутизация
         items:
+          - name: Обзор
+            href: dial-plans-routing-overview.md
           - name: Что такое абонентские группы?
             href: what-are-dial-plans.md
           - name: Создание и использование абонентских групп
