@@ -1,5 +1,5 @@
 ---
-title: Auto Attendant & Call Queue Historical Report
+title: Отчет об & очереди вызовов автосекретаря
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -21,52 +21,52 @@ ms.custom:
 - Reporting
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
-description: Узнайте, как использовать панель мониторинга качества Power BI для просмотра исторических данных автозавода и очереди  вызовов.
+description: Узнайте, как использовать панель мониторинга качества Power BI для просмотра данных журнала автосекретаря и очереди вызовов.
 ms.openlocfilehash: 57552af3a1df108dbbf86172793bb9ea86ed1b10
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.sourcegitcommit: f3c380f745af4c3aaa2720234860b45696a0c333
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2022
+ms.lasthandoff: 04/09/2022
 ms.locfileid: "63711493"
 ---
-# <a name="auto-attendant--call-queue-historical-report"></a>Auto Attendant & Call Queue Historical Report
+# <a name="auto-attendant--call-queue-historical-report"></a>Отчет об & очереди вызовов автосекретаря
 
-Шаблон Teams истории & очереди  вызовов Power BI содержит три отчета:
+Шаблон Teams автосекретаря & очереди вызовов Power BI отчетов предоставляет следующие три отчета:
 
-- [Автоответ](media/cqd-teams-aa-cq-historical-report-sample-aa.png) : отображение аналитики для звонков, которые будут приходить в автоответы.
-- [Очередь](media/cqd-teams-aa-cq-historical-report-sample-cq.png) звонков— отображение аналитики для звонков, которые будут приходить в очереди звонков.
-- [Временная шкала](media/cqd-teams-aa-cq-historical-report-sample-at.png) агента— отображение временной шкалы, в которой агенты активны при звонках в очереди звонков.
+- [Автосекретарь](media/cqd-teams-aa-cq-historical-report-sample-aa.png) — отображение аналитики для вызовов, поступающих в автосекретаря.
+- [Очередь вызовов](media/cqd-teams-aa-cq-historical-report-sample-cq.png) — отображение аналитики для вызовов, поступающих в очереди звонков.
+- [Временная шкала](media/cqd-teams-aa-cq-historical-report-sample-at.png) агента — отображение представления временной шкалы активности агентов в вызовах очереди вызовов.
 
-В этих отчетах используются данные из магазина [данных "Панель мониторинга](CQD-Power-BI-query-templates.md) качества звонка". С помощью отчетов организации могут сообщать о количестве звонков, обрабатываемых автоответами и очередями звонков.  Отчеты также дают представление о производительности агента в очередях  вызовов.
+В этих отчетах используются данные из хранилища данных панели [мониторинга](CQD-Power-BI-query-templates.md) качества вызовов. Отчеты позволяют организациям сообщать о количестве вызовов, обрабатываемых автосекретарями и очередями звонков.  Отчеты также предоставляют аналитические сведения о производительности агента в очередях вызовов.
 
 ## <a name="prerequisites"></a>Необходимые компоненты
 
 ### <a name="power-bi-desktop"></a>Power BI Desktop
-Необходимо установить Power BI Desktop. Вы можете установить его из [Microsoft Windows Store](https://aka.ms/pbidesktopstore).
+Необходимо установить Power BI Desktop. Его можно установить из [Microsoft Windows Store](https://aka.ms/pbidesktopstore).
 
-Вы можете использовать бесплатную версию Power BI Desktop. Минимальная совместимая версия: 2.85.681.0 (сентябрь 2020 г.).
+Вы можете использовать бесплатную версию Power BI Desktop. Минимальная совместимая версия — 2.85.681.0 (сентябрь 2020 г.).
 
-### <a name="permissions-to-access-the-cqd-pipeline"></a>Разрешения на доступ к каналу CQD
+### <a name="permissions-to-access-the-cqd-pipeline"></a>Разрешения на доступ к конвейеру CQD
 
-У учетной записи, используемой для просмотра отчета, должны быть разрешения на доступ к каналу данных CQD. Дополнительные сведения см. в области [Роль доступа к CQD](./turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd).
+Учетная запись, используемая для просмотра исторических отчетов, должна иметь разрешения на доступ к конвейеру данных CQD. Дополнительные сведения см. в [описании роли доступа CQD](./turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd).
 
 ## <a name="installation"></a>Установка 
 
-В следующих действиях предполагается, что Power BI Desktop уже установлены на компьютере и что у вашей учетной записи есть необходимые разрешения на доступ к каналу данных CQD.
+В следующих шагах предполагается, что вы уже установили Power BI Desktop компьютере и у вашей учетной записи есть необходимые разрешения для доступа к конвейеру данных CQD.
 
 Выполните следующие действия:
 
-- Скачайте [шаблоны запросов Power BI CQD](https://www.microsoft.com/download/details.aspx?id=102291) и сохраните ZIP-файл в каталоге на компьютере.
+- Скачайте [CQD Power BI шаблоны](https://www.microsoft.com/download/details.aspx?id=102291) запросов и сохраните ZIP-файл в каталоге на компьютере.
 
 - Дважды щелкните ZIP-файл, чтобы открыть его.
 
-- Дважды щелкните файл шаблона "CQ и AA combined Analytics 20201105.pbit". Должна Power BI Desktop запускаться.
+- Дважды щелкните файл шаблона CQ и AA combined Analytics 20201105.pbit. Должен Power BI Desktop запуститься.
 
-- Вам будет предложено выбрать область CQD-канал данных. Выберите регион, в котором находится ваш клиент.
+- Вам будет предложено выбрать регион конвейера данных CQD. Выберите регион, в котором находится клиент.
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="Снимок экрана: выбор области CQD-каналов данных.":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="Снимок экрана: выбор области конвейера данных CQD.":::
 
-- Регион, в котором находится ваш клиент, можно получить с помощью [cmdlet Get-CsTenant](/powershell/module/skype/get-cstenant) .
+- Регион, в котором находится клиент, можно получить с помощью [командлета Get-CsTenant](/powershell/module/skype/get-cstenant) .
 
     ```PowerShell
     (Get-CsTenant).ServiceInstance
@@ -75,237 +75,237 @@ ms.locfileid: "63711493"
     microsoftcommunicationsonline/noam-4a-s7
     ```
 
-    - Регион будет отображаться после **/** того, как в примере выше, где регион: noam
+    - Регион будет отображаться после того, **/** как показано в приведенном выше примере, где регион: noam
 
- - Отчет будет запущен с образцом данных.
+ - Отчет будет запущен с примерами данных.
  
- - Чтобы увидеть собственные данные, на вкладке Главная в области Запросы в Power BI Desktop.
+ - Чтобы просмотреть собственные данные, **выберите "Обновить**" на вкладке "Главная" в разделе "Запросы" Power BI Desktop.
 
    :::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="Снимок экрана: выбор параметра обновления.":::
 
-- После этого вам будет предложено войти в нее. Выберите **Учетная запись организации** , а затем выберите **Войти**.
+- После этого вам будет предложено войти в систему. Выберите **учетную запись организации** и нажмите **кнопку "Войти"**.
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="Снимок экрана: вход.":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="Снимок экрана: имя входа.":::
 
 - Выберите **Подключение** и просмотрите обновление данных.
 
 ## <a name="data-latency-and-aa--cq-analytics"></a>Задержка данных и аналитика CQ & AA
 
-Данные будут доступны в канале данных CQD в течение 30 минут.
+Данные будут доступны в конвейере данных CQD в течение 30 минут.
 
-Чтобы увидеть новые аналитические данные, необходимо обновить данные. 
+Чтобы просмотреть новые аналитические данные, необходимо обновить данные. 
 
 ## <a name="customization"></a>Настройки 
 
-Вы можете настроить определенные аспекты визуализации отчетов, например добавить или удалить поля, которые будут показаны в различных визуализациях, изменить тип диаграммы и так далее.
+Вы можете настроить определенные аспекты визуализации отчетов, такие как добавление или удаление полей для отображения в различных визуализациях, изменение типа диаграммы и т. д.
 
-В отчет невозможно добавить дополнительные поля данных.
+В отчет нельзя добавить дополнительные поля данных.
 
-### <a name="change-color-schema"></a>Изменение цветовой схемы 
+### <a name="change-color-schema"></a>Изменение схемы цвета 
 
-В следующих действиях предполагается, что вы уже выполнили действия по установке.
+В следующих шагах предполагается, что вы уже выполнили действия по установке.
 
 Выполните следующие действия:
-- На **ленте выберите вкладку** Вид.
+- Выберите **вкладку "Вид** " на ленте.
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="Снимок экрана: выбор вкладки "Вид" для изменения цветовой схемы":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="Снимок экрана: вкладка &quot;Вид&quot; для изменения цветовой схемы.":::
 
-- Выберите цветовую схему в списке.
+- Выберите цветовую схему из раскрывающегося списка.
 
   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-05.png" alt-text="Снимок экрана: различные цветовые схемы.":::
   
-## <a name="auto-attendant-and-call-queue-historical-reports-definitions"></a>Auto Attendant and Call Queue Historical Reports Definitions
+## <a name="auto-attendant-and-call-queue-historical-reports-definitions"></a>Определения исторических отчетов автосекретаря и очереди вызовов
 
-### <a name="cloud-auto-attendant-analytics"></a>Аналитика автоотвода в облаке
+### <a name="cloud-auto-attendant-analytics"></a>Аналитика автосекретаря облака
 
 #### <a name="report-description"></a>Описание отчета
 
 |Раздел отчета                          |Описание                                                       |
 |:---------------------------------------|:-----------------------------------------------------------------|
-|Источник входящих <sup>вызовов1</sup>        |Распространение звонков по внутреннему или внешнему источнику звонков             |
-|Итоги метода поиска по каталогу          |Распределение звонков по типу поиска                               |
-|Действие вызываемой вызовы                           |Распространение звонков по приемнику звонков                             |
-|Результат вызова                             |Распространение звонков по состояниям конечного звонка                          |
-|Количество действий вызываемой вызовы                     |Распределение звонков по числовому действию, используемом во время звонка        |
+|Источник входящего <sup>вызова1</sup>        |Распределение вызовов по внутреннему или внешнему источнику вызовов             |
+|Итоги методов поиска по каталогам          |Распределение вызовов по типу поиска                               |
+|Действие вызывающего абонента                           |Распределение звонков по приемнику звонков                             |
+|Результат вызова                             |Распределение вызовов по последнему состоянию вызова                          |
+|Число действий вызывающего абонента                     |Распределение вызовов по числовой функции, используемой во время вызова        |
 
 
-#### <a name="report-to-cqd-table-and-field-mapping"></a>Сопоставление таблиц и полей отчета с CQD
+#### <a name="report-to-cqd-table-and-field-mapping"></a>Сопоставление таблиц и полей отчета в CQD
 
-|Вкладка "Отчет"            |Имя таблицы отчета     |Глобальный фильтр                          |
+|Вкладка "Отчет"            |Имя таблицы отчетов     |Глобальный фильтр                          |
 |:---------------------|:---------------------|:--------------------------------------|
 |Автосекретаря        |fAutoAttendant        |AAStartTime находится в течение последних 28 дней |
 
 
-|Имя таблицы отчета            |Имя таблицы-источника            |Обработки       |
+|Имя таблицы отчетов            |Имя исходной таблицы            |Обработки       |
 |:----------------------------|:----------------------------|:----------------|
-|fAutoAttendant               |AutoAttendant                |Source = AutoAttendant, <br>#"Отфильтрованные строки" = Table.SelectRows(Source, each true), <br>#"Auto Attendant" = Table.AddColumn(#"Filtered Rows", "AA Name", each List.First(Text.Split([AAIdentity], "@")) <br>#"Changed Type" = Table.TransformColumnTypes(#"Auto Attendant",{{"AAStartTime", type datetime}}), <br>#"Удалены столбцы" = Table.RemoveColumns(#"Changed Type",{"AAIdentity"}) |
+|fAutoAttendant               |AutoAttendant                |Source = AutoAttendant, <br>#"Отфильтрованные строки" = Table.SelectRows(Source, each true), <br>#"Auto Attendant" = Table.AddColumn(#"Filtered Rows", "AA Name", each List.First(Text.Split([AAIdentity], "@")) <br>#"Измененный тип" = Table.TransformColumnTypes(#"Auto Attendant",{{"AAStartTime", тип datetime}}), <br>#"Удаленные столбцы" = Table.RemoveColumns(#"Измененный тип",{"AAIdentity"}) |
 
 
-|Раздел отчета                                  |Использовано полей                              |Примененные фильтры     |
+|Раздел отчета                                  |Используемые поля                              |Примененные фильтры     |
 |:-----------------------------------------------|:------------------------------------------|:-------------------|
 |Выбор даты                                   |AAStartTime                                |Нет                |
-|Автосекретаря                                  |Имя АА                                    |Нет                |
-|Источник входящих <sup>вызовов1</sup>                |Тип вызова<br>TotalCallCount                |Внешние звонки: внешний тип звонка<br>Внутренние звонки: тип звонка — внутренний |
-|Итоги метода поиска по каталогу                  |AADirectorySearchMethod<br>TotalCallCount  |AADirectorySearchMethod abs_search_dtmf или abs_search_name    |
-|Действия вызываемой стороны                                  |AATransferAction<br>TotalCallCount         |Нет                                                             |
-|Среднее количество секунд в АА<br>Среднее число действий вызываемой стороны |AAChainDuration<br>AACallerActionCount     |Нет                                                             |
-|Результаты зовов                                    |AACallResult<br>TotalCallCount             |Нет                                                             |
-|Количество действий вызываемой стороны                            |AACallerActionCount<br>TotalCallCount      |Нет                                                             |
-|Нижняя часть отчета                         |Имя АА<br>AACallFlow<br>AACallResult<br>AAChainDuration<br>Тип вызова<br>TotalCallCount |Нет                |
+|Автосекретаря                                  |Имя AA                                    |Нет                |
+|Источник входящего <sup>вызова1</sup>                |Тип вызова<br>TotalCallCount                |Внешние вызовы: тип вызова — external<br>Внутренние вызовы: тип вызова является внутренним |
+|Итоги методов поиска по каталогам                  |AADirectorySearchMethod<br>TotalCallCount  |AADirectorySearchMethod abs_search_dtmf или abs_search_name    |
+|Действия вызывающего абонента                                  |AATransferAction<br>TotalCallCount         |Нет                                                             |
+|Среднее время в секундах в AA<br>Среднее число действий вызывающего абонента |AAChainDuration<br>AACallerActionCount     |Нет                                                             |
+|Результаты вызова                                    |AACallResult<br>TotalCallCount             |Нет                                                             |
+|Число действий вызывающего абонента                            |AACallerActionCount<br>TotalCallCount      |Нет                                                             |
+|Нижняя часть отчета                         |Имя AA<br>AACallFlow<br>AACallResult<br>AAChainDuration<br>Тип вызова<br>TotalCallCount |Нет                |
 
 #### <a name="fautoattendant-cqd-fields-description"></a>Описание полей CQD fAutoAttendant
 
 |Имя                                    |Тип данных                |Описание                            |
 |:---------------------------------------|:------------------------|:--------------------------------------|
-|Имя АА                                 |Текст                     |Имя учетной записи ресурса, вложенной в автоотчет<br><br>Если полное имя учетной записи **ресурса aa_test@microsoft.com** это значение будет: **aa_test** |
-|AACallerActionCount                     |Целое число             |Суммировать: Сумма<br>Количество действий, выбранных звонив в автоотзывщике во время звонка  |
-|AACallFlow                              |Текст                     |Инкапсулирует различные состояния вызова автоответа — возможные значения:<br><br>§ abs_search<br>Объявление §<br>§ automatic_menu<br>§ call_termination<br>§ call_transfer<br>§ first_level_menu<br>§ main_menu<br>§ speech_input_confirmation<br>§ user_selection |
-|AACallResult                            |Текст                     |Результат последнего звонка : возможные значения:<br><br>§ failed_to_establish_media<br>§ failover_to_operator<br>§ oaa_chain_too_long<br>§ oaa_session_too_long<br>§ service_declined<br>§ service_terminated<br>§ terminated_automatic_selection<br>§ terminated_no_operator<br>§ terminated_transfer_failed<br>***§ transferred_to_operator***<br>§ transferred_to_receptionist<br>§ transferred_to_self<br>§ transferred_to_shared_voicemail<br>§ transferred_to_user<br>§ неизвестно<br>§ user_terminated |
-|AAChainDuration                         |Десятичной число           |Суммировать: Сумма<br>Длительность вызова в автозаводе                     |
+|Имя AA                                 |Текст                     |Имя учетной записи ресурса, присоединенной к автосекретарю<br><br>Если полное имя учетной записи **ресурса aa_test@microsoft.com** это значение будет: **aa_test** |
+|AACallerActionCount                     |Целое число             |Summarize: Sum<br>Количество действий, выбранных вызывающим абонентом в автосекретаре во время звонка  |
+|AACallFlow                              |Текст                     |Инкапсулирует различные состояния вызова автосекретаря — возможные значения:<br><br>§ abs_search<br>Объявление §<br>§ automatic_menu<br>§ call_termination<br>§ call_transfer<br>§ first_level_menu<br>§ main_menu<br>§ speech_input_confirmation<br>§ user_selection |
+|AACallResult                            |Текст                     |Конечный результат вызова — возможные значения:<br><br>§ failed_to_establish_media<br>§ failover_to_operator<br>§ oaa_chain_too_long<br>§ oaa_session_too_long<br>§ service_declined<br>§ service_terminated<br>§ terminated_automatic_selection<br>§ terminated_no_operator<br>§ terminated_transfer_failed<br>***§ transferred_to_operator***<br>§ transferred_to_receptionist<br>§ transferred_to_self<br>§ transferred_to_shared_voicemail<br>§ transferred_to_user<br>§ неизвестно<br>§ user_terminated |
+|AAChainDuration                         |Десятичное число           |Summarize: Sum<br>Длительность звонка в автосекретаре                     |
 |AAChainIndex                            |Текст                     |                                                                         |
-|AAConnectivityType                      |Текст                     |Тип звонка — возможные значения:<br><br>§ ExternalCall<br>§ InternalCall |
-|AACount                                 |Текст                     |Количество автозаводников, участвующих в звонке                               |
-|AADirectorySearchMethod                 |Текст                     |Метод поиска в последней адресной книге: возможные значения:<br><br>§ abs_search_dtmf<br>§ abs_search_extension_x<br>§ abs_search_name |
-|AAStartTime                             |Дата и время                |Время начала вызова автозавода                                           |
-|AATransferAction                        |Текст                     |Целевой тип пере звонока: возможные значения:<br><br>***§ приложение — сущность голосового** _<br>приложения§ external_pstn<br>_*_§ hunt_group - Queue entity_*_<br>_*_§ orgaa - Organizational Auto Attendant entity_**<br>§ shared_voicemail<br>§ неизвестно<br>§ пользователь |
-|Тип <sup>звонка1</sup>                   |Текст                     |Тип звонка — возможные значения:<br><br>§ Внешний<br>§ Внутренние         |
+|AAConnectivityType                      |Текст                     |Тип вызова — возможные значения:<br><br>§ ExternalCall<br>§ InternalCall |
+|AACount                                 |Текст                     |Количество автосекретарей, участвующих в звонках                               |
+|AADirectorySearchMethod                 |Текст                     |Последний метод поиска адресной книги — возможные значения:<br><br>§ abs_search_dtmf<br>§ abs_search_extension_x<br>§ abs_search_name |
+|AAStartTime                             |Дата и время                |Время начала вызова автосекретаря                                           |
+|AATransferAction                        |Текст                     |Тип целевого объекта передачи вызовов — возможные значения:<br><br>***§ application - voice application entity**_<br>§ external_pstn<br>_*_§ hunt_group - Call Queue entity_*_<br>_*_§ orgaa - Organizational Auto Attendant entity_**<br>§ shared_voicemail<br>§ неизвестно<br>Пользователь § |
+|Тип <sup>вызова 1</sup>                   |Текст                     |Тип вызова — возможные значения:<br><br>§ Внешнее<br>§ Внутренняя         |
 |IsAAInvolved                            |Текст                     |Всегда 1                                                                 |
-|PSTNMinutes                             |Целое число             |Суммировать: Сумма<br>Общее использование минут                                     |
-|TotalCallCount                          |Целое число             |Суммировать: Сумма<br>Всегда 1 — используется для предоставления суммы всех звонков            |
+|PSTNMinutes                             |Целое число             |Summarize: Sum<br>Общее использование минут                                     |
+|TotalCallCount                          |Целое число             |Summarize: Sum<br>Всегда 1 — используется для предоставления суммы всех вызовов            |
 
 
-### <a name="cloud-call-queue-analytics"></a>Аналитика очереди облачных  вызовов
+### <a name="cloud-call-queue-analytics"></a>Аналитика очередей облачных вызовов
 
 #### <a name="report-description"></a>Описание отчета
 
 |Раздел отчета                          |Описание                                                        |
 |:---------------------------------------|:------------------------------------------------------------------|
-|Источник входящих <sup>вызовов1</sup>        |Распространение звонка по внутреннему или внешнему источнику  вызовов              |
-|Громкость вызова                             |Распределение  вызовов по очередям  вызовов                                |
-|Результат для вызываемой связи                           |Распространение звонка по результатам звонка                                |
-|Суммарное действие вызова в timeout/Overflow      |Распределение  звонка NOT forwarded(abandoned) по результатам звонка       |
-|Итоги для целевой передачи и переадвартовки          |Распространение  звонка, переадвароваемого по результату звонка                      |
-|Отношение отказа от звонков                   |Отношение успешного количества вызовов к отмененным                        |
-|Средняя продолжительность сеанса (в секундах)        |Длительность звонка в секундах с группировкой по отмененным и успешным звонкам       |
+|Источник входящего <sup>вызова1</sup>        |Распределение вызовов по внутреннему или внешнему источнику вызовов              |
+|Громкость вызова                             |Распределение звонков по очередям звонков                                |
+|Результат вызывающего абонента                           |Распределение звонка по результату вызова                                |
+|Всего действий по вызову времени ожидания и переполнения      |Распределение вызова NOT forwarded(abandoned) по результату вызова       |
+|Итоги целевого объекта передачи и пересылки          |Распределение перенаправленных вызовов по результату вызова                      |
+|Коэффициент прерванных вызовов                   |Соотношение успешных и прерванных вызовов                        |
+|Средняя продолжительность сеанса (в секундах)        |Длина звонка в секундах, сгруппированных по прерванным или успешным вызовам       |
 
-#### <a name="report-to-cqd-table-and-field-mapping"></a>Сопоставление таблиц и полей отчета с CQD
+#### <a name="report-to-cqd-table-and-field-mapping"></a>Сопоставление таблиц и полей отчета в CQD
 
 |Вкладка "Отчет"         |Имена таблиц отчетов                                                          |Глобальный фильтр |
 |:------------------|:---------------------------------------------------------------------------|:-------------|
-|Очередь  вызовов         |Даты<br>dCQ-CQIdenity<br>fCallQueueAnalytics<br>fCallQueueFinalStateAction |Нет          |
+|Очередь вызовов         |Даты<br>dCQ-CQIdenity<br>fCallQueueAnalytics<br>fCallQueueFinalStateAction |Нет          |
  
-|Имя таблицы отчета            |Имя таблицы-источника            |Обработки       |
+|Имя таблицы отчетов            |Имя исходной таблицы            |Обработки       |
 |:----------------------------|:----------------------------|:----------------|
 |Даты                        |Даты                        |Нет             |
-|dCQ-CQIdentity               |CallQueueAnalytics           |Source = CallQueueAnalytics, <br>#"Removed Columns" = Table.RemoveColumns(Source,{"Call Count", "Call Queue Call Result", "Date", "PSTN Connectivity Type", "Call Queue Target Type", "PSTN Total Minutes"}),<br>Distinct = Table.Distinct(#"Removed Columns") |
+|dCQ-CQIdentity               |CallQueueAnalytics           |Source = CallQueueAnalytics, <br>#"Удаленные столбцы" = Table.RemoveColumns(Source,{"Call Count", "Call Queue Call Call Result", "Date", "PSTN Connectivity Type", "Call Queue Target Type", "PSTN Total Minutes"}),<br>Distinct = Table.Distinct(#"Removed Columns") |
 |fCallQueueAnalytics          |CallQueueAnalytics           |Нет             |
 |fCallQueueFinalStateAction   |CallQueueFinalStateAction    |Нет             |
 
-|Раздел отчета                      |Таблица > полей                |Примененные фильтры       |
+|Раздел отчета                      |Таблица — > используемые поля                |Примененные фильтры       |
 |:-----------------------------------|:-------------------------------------|:---------------------|
-|Выбор даты                       |Даты и > даты и времени                     |Нет                  |
-|Удостоверение очереди  вызовов                 |dCQ-CQIdentity -> очереди  вызовов |Нет                  |
-|Источник входящих <sup>вызовов1</sup>    |fCallQueueAnalytics -> количество вызовов<br>fCallQueueAnalytics -> Тип звонка    |Внешние звонки: внешний тип звонка<br>Внутренние звонки: тип звонка — внутренний |
-|Avg Waiting Time                    |fCallQueueFinalStateAction -> Средняя длительность звонка (в секундах) |Перед передачей: результат звонка в очереди  звонка agent_joined_conference или transferred_to_agent<br>Перед повесить трубку: результат звонка в очереди  вызовов не agent_joined_conference или transferred_to_agent |
-|Результат вызова                         |fCallQueueAnalytics -> количество вызовов<br>fCallQueueAnalytics -> result | Нет |
-|Timeout/Overflow calls total action |fCallQueueFinalStateAction -> Call Count<br>fCallQueueFinalStateAction -> Call Queue Final State Action |Действие "Конечное состояние очереди  вызовов" не переадпоряется |
-|Итоги для целевого показателя transfer/Forard       |fCallQueueAnalytics -> количество вызовов<br>fCallQueueAnalytics -> тип очереди  вызовов |Нет |
-|Громкость  вызовов                        |fCallQueueAnalytics -> количество вызовов<br>fCallQueueAnalytics -> определение очереди  вызовов<br>fCallQueueAnalytics -> date |Нет |
-|Отмененные звонки                     |fCallQueueAnalytics -> %Abandoned Calls<br>fCallQueueAnalytics -> количество вызовов<br>fCallQueueAnalytics -> date<br>fCallQueueAnalytics -> IsAbandoned |IsAbandoned is True |
-|Средняя продолжительность сеанса (в секундах)    |fCallQueueFinalStateAction -> Средняя длительность звонка<br>fCallQueueFinalStateAction -> Date<br>fCallQueueFinalStateAction -> IsAbandoned |Нет |
+|Выбор даты                       |Даты — > DateTime                     |Нет                  |
+|Удостоверение очереди вызовов                 |dCQ-CQIdentity - > очереди вызовов |Нет                  |
+|Источник входящего <sup>вызова1</sup>    |fCallQueueAnalytics — > число вызовов<br>fCallQueueAnalytics — > типа вызова    |Внешние вызовы: тип вызова — external<br>Внутренние вызовы: тип вызова является внутренним |
+|Среднее время ожидания                    |fCallQueueFinalStateAction -> средняя длительность вызова (в секундах) |Перед передачей: результат вызова очереди вызовов agent_joined_conference или transferred_to_agent<br>Перед зависанием: результат вызова очереди вызовов не agent_joined_conference или transferred_to_agent |
+|Результат вызова                         |fCallQueueAnalytics — > число вызовов<br>fCallQueueAnalytics — > вызова очереди вызовов | Нет |
+|Время ожидания или переполнение вызывает общее действие |fCallQueueFinalStateAction -> число вызовов<br>fCallQueueFinalStateAction -> Конечное действие состояния очереди вызовов |Действие конечного состояния очереди вызовов не пересылается |
+|Итоги передачи и целевого объекта Forard       |fCallQueueAnalytics — > число вызовов<br>fCallQueueAnalytics —> целевого типа очереди вызовов |Нет |
+|Тома вызовов                        |fCallQueueAnalytics — > число вызовов<br>fCallQueueAnalytics — > очередь вызовов<br>fCallQueueAnalytics — > дата |Нет |
+|Прерванные вызовы                     |fCallQueueAnalytics -> %Abandoned Calls<br>fCallQueueAnalytics — > число вызовов<br>fCallQueueAnalytics — > дата<br>fCallQueueAnalytics -> IsAbandoned |IsAbandoned имеет значение True |
+|Средняя продолжительность сеанса (в секундах)    |fCallQueueFinalStateAction -> средняя длительность вызова<br>fCallQueueFinalStateAction -> Date<br>fCallQueueFinalStateAction -> IsAbandoned |Нет |
 
-#### <a name="dcq-cqidenity-cqd-fields-description"></a>Описание полей dCQ-CQIdenity CQD
+#### <a name="dcq-cqidenity-cqd-fields-description"></a>Описание полей DCQ-CQIdenity CQD
 
 |Имя                                    |Тип данных                |Описание                            |
 |:---------------------------------------|:------------------------|:--------------------------------------|
-|Удостоверение очереди  вызовов                     |Текст                     |Имя учетной записи ресурса, подключенной к очереди  вызовов<br><br>Если полное имя учетной записи **ресурса cq_test@microsoft.com** это значение будет: **cq_test** |
+|Удостоверение очереди вызовов                     |Текст                     |Имя учетной записи ресурса, присоединенной к очереди вызовов<br><br>Если полное имя учетной записи **ресурса cq_test@microsoft.com** это значение будет: **cq_test** |
 
-#### <a name="fcallqueueanalytics-cqd-fields-description"></a>Описание полей CQD для fCallQueueAnalytics
+#### <a name="fcallqueueanalytics-cqd-fields-description"></a>Описание полей CQD fCallQueueAnalytics
 
 |Имя                                    |Тип данных                |Описание                                                                |
 |:---------------------------------------|:------------------------|:--------------------------------------------------------------------------|
-|Количество  вызовов                              |Целое число             |Суммировать: Сумма<br>Число звонков                                          |
-|Результат вызова в очереди  вызовов                  |Текст                     |Конечное состояние очереди  вызовов : возможные значения:<br><br>§ agent_joined_conference<br>§ отклонено<br>§ отключено<br>Ошибка §<br>§ не удалось<br>§ недопустимый<br>§ overflown<br>§ timed_out<br>§ transferred_to_agent |
-|Удостоверение очереди  вызовов                     |Текст                     |Имя учетной записи ресурса, подключенной к очереди  вызовов<br><br>Если полное имя учетной записи **ресурса cq_test@microsoft.com** это значение будет: **cq_test** |
-|Тип целевого типа очереди  вызовов                  |Текст                     |***Целевой тип перенаправления вызовов: возможные значения:***<br><br>§ ApplicationEndpoint<br>§ Почтовый ящик<br>§ Other<br>§ Пользователь |
-|Тип <sup>звонка1</sup>                   |Текст                     |Тип звонка — возможные значения:<br><br>§ Внешний<br>§ Внутренние           |
-|Дата                                    |Дата и время                |Дата начала и время начала и времени (в часах) очереди  вызовов (UTC)                           | 
-|IsAbandoned                             |True/false               |True, если агент не отвечает на звонок                                   |
-|Тип подключения через ПС                  |Текст                     |Тип звонка — возможные значения:<br><br>§ ExternalCall<br>§ InternalCall   |
-|Общая сумма минут по ПСПС                      |Целое число             |Суммировать: Сумма<br>Общее использование минут для звонков по ОКП                       |
+|Число вызовов                              |Целое число             |Summarize: Sum<br>Число звонков                                          |
+|Результат вызова очереди звонков                  |Текст                     |Конечное состояние вызова очереди вызовов — возможные значения:<br><br>§ agent_joined_conference<br>§ отклонено<br>§ отключено<br>Ошибка §<br>Сбой §<br>§ недействительный<br>§ overflown<br>§ timed_out<br>§ transferred_to_agent |
+|Удостоверение очереди вызовов                     |Текст                     |Имя учетной записи ресурса, присоединенной к очереди вызовов<br><br>Если полное имя учетной записи **ресурса cq_test@microsoft.com** это значение будет: **cq_test** |
+|Тип целевого объекта очереди вызовов                  |Текст                     |***Тип целевого объекта перенаправления вызовов — возможные значения:***<br><br>§ ApplicationEndpoint<br>§ Почтовый ящик<br>§ Другое<br>§ Пользователь |
+|Тип <sup>вызова 1</sup>                   |Текст                     |Тип вызова — возможные значения:<br><br>§ Внешнее<br>§ Внутренняя           |
+|Дата                                    |Дата и время                |Дата и время начала вызова очереди звонков (час) (UTC)                           | 
+|IsAbandoned                             |True или false               |Значение true, если агент не отвечает на вызов                                   |
+|Тип подключения ТСОП                  |Текст                     |Тип вызова — возможные значения:<br><br>§ ExternalCall<br>§ InternalCall   |
+|Общее количество минут ТСОП                      |Целое число             |Summarize: Sum<br>Общее использование минут для вызовов ТСОП                       |
 
-#### <a name="fcallqueueanalytics-measures-description"></a>описание мер fCallQueueAnalytics
+#### <a name="fcallqueueanalytics-measures-description"></a>Описание мер fCallQueueAnalytics
 
 |Имя                                    |Тип данных                |Описание                              |
 |:---------------------------------------|:------------------------|:----------------------------------------|
-|***% отмененных звонков***                 |Процент               |Мера: количество отмененных звонков и общее количество звонков    |
-|Всего звонков                             |Целое число             |Мера: агент суммы ответил на звонки        |
-|TotalCallCount                          |Целое число             |Мера: Sum(Количество зовов)                 |
+|***% прерванных вызовов***                 |Процент               |Мера: количество прерванных вызовов и общее количество вызовов    |
+|Всего вызовов                             |Целое число             |Measure: Sum agent answered calls        |
+|TotalCallCount                          |Целое число             |Measure: Sum(Call Count)                 |
 
-#### <a name="fcallqueuefinalstateaction--cqd-fields-description"></a>fCallQueueFinalStateAction CQD fields description
+#### <a name="fcallqueuefinalstateaction--cqd-fields-description"></a>Описание полей CQD fCallQueueFinalStateAction
 
 |Имя                                    |Тип данных                |Описание                                        |
 |:---------------------------------------|:------------------------|:--------------------------------------------------|
-|Средняя длительность звонка (в секундах)         |Десятичной число           |Суммировать: Сумма<br>Средняя длительность звонка в секундах |
-|Количество  вызовов                              |Целое число             |Суммировать: Сумма<br>Число звонков                  |
-|Результат вызова в очереди  вызовов                  |Текст                     |Конечное состояние очереди  вызовов : возможные значения:<br><br>§ agent_joined_conference<br>§ отклонено<br>§ отключено<br>Ошибка §<br>§ не удалось<br>§ недопустимый<br>§ overflown<br>§ timed_out<br>§ transferred_to_agent |
-|Действие "Конечное состояние очереди  вызовов"           |Текст                     |Конечное действие очереди  вызовов — возможные значения:<br><br>§ отключить (timed_out вызовов)<br>§ disconnect_with_busy (переполнение звонков)<br>§ failed_to_accept_call<br>§ вперед<br>§ shared_voicemail<br>§ другое<br>§ голосовая почта |
-|Удостоверение очереди  вызовов                     |Текст                     |Имя учетной записи ресурса, подключенной к очереди  вызовов<br><br>Если полное имя учетной записи **ресурса cq_test@microsoft.com** это значение будет: **cq_test** |
-|Дата                                    |Дата и время                |Дата начала и время начала и времени (в часах) очереди  вызовов (UTC)   |
-|IsAbandoned                             |True/false               |True, если агент не отвечает на звонок           |
+|Средняя длительность звонка (в секундах)         |Десятичное число           |Summarize: Sum<br>Средняя длительность звонка в секундах |
+|Число вызовов                              |Целое число             |Summarize: Sum<br>Число звонков                  |
+|Результат вызова очереди звонков                  |Текст                     |Конечное состояние вызова очереди вызовов — возможные значения:<br><br>§ agent_joined_conference<br>§ отклонено<br>§ отключено<br>Ошибка §<br>Сбой §<br>§ недействительный<br>§ overflown<br>§ timed_out<br>§ transferred_to_agent |
+|Действие конечного состояния очереди вызовов           |Текст                     |Последнее действие очереди вызовов — возможные значения:<br><br>§ disconnect (timed_out вызовы)<br>§ disconnect_with_busy (переполнение вызовов)<br>§ failed_to_accept_call<br>§ вперед<br>§ shared_voicemail<br>§ другое<br>§ голосовая почта |
+|Удостоверение очереди вызовов                     |Текст                     |Имя учетной записи ресурса, присоединенной к очереди вызовов<br><br>Если полное имя учетной записи **ресурса cq_test@microsoft.com** это значение будет: **cq_test** |
+|Дата                                    |Дата и время                |Дата и время начала вызова очереди звонков (час) (UTC)   |
+|IsAbandoned                             |True или false               |Значение true, если агент не отвечает на вызов           |
 
 
-### <a name="cloud-call-queue-agent-timeline"></a>Временная шкала агента очереди облачных  вызовов
+### <a name="cloud-call-queue-agent-timeline"></a>Временная шкала агента очереди вызовов облака
 
 #### <a name="report-description"></a>Описание отчета
 
 |Раздел отчета                                          |Описание                                                  |
 |:-------------------------------------------------------|:------------------------------------------------------------|
-|# звонки от агента                                        |Распространение звонка по очереди  вызовов и агенту                 |
-|Общая длительность звонка (в секундах) по агенту и очереди  вызовов   |Общая длительность (в секундах) звонка от агента и очереди  вызовов     |
-|Средняя длительность звонка (в секундах) по имени агента           |Средняя длительность (в секундах) звонка агентом                  |
+|# вызовы по агенту                                        |Распределение звонков по очереди вызовов и агенту                 |
+|Общая длительность вызова (в секундах) по агентам и очереди вызовов   |Общая длительность (в секундах) вызова агентом и очередью вызовов     |
+|Средняя длительность вызова (в секундах) по имени агента           |Средняя продолжительность (в секундах) вызова агентом                  |
 
-#### <a name="report-to-cqd-table-and-field-mapping"></a>Сопоставление таблиц и полей отчета с CQD
+#### <a name="report-to-cqd-table-and-field-mapping"></a>Сопоставление таблиц и полей отчета в CQD
 
 |Вкладка "Отчет"         |Имена таблиц отчетов        |Глобальный фильтр |
 |:------------------|:-------------------------|:-------------|
 |Временная шкала агента     |fAgentTimelineAnalytics   |Нет          |
  
-|Имя таблицы отчета            |Имя таблицы-источника            |Обработки       |
+|Имя таблицы отчетов            |Имя исходной таблицы            |Обработки       |
 |:----------------------------|:----------------------------|:----------------|
-|fAgentTimelineAnalytics      |AgentTimelineAnalytics       |Source = AgentTimelineAnalytics, <br>#"Changed Type" = Table.TransformColumnTypes(Source,{{"Call Count", Int64.Type}, {"Call Duration (Minute)", Int64.Type}, {"Average Call Duration (Second)", type number}, {"Date", type date}})|
+|fAgentTimelineAnalytics      |AgentTimelineAnalytics       |Source = AgentTimelineAnalytics, <br>#"Измененный тип" = Table.TransformColumnTypes(Source,{{"Call Count", Int64.Type}, {"Call Duration (Minute)", Int64.Type}, {"Average Call Duration (Second)", type number}, {"Date", type date}})|
 
-|Раздел отчета                                |Использовано полей                         |Примененные фильтры       |
+|Раздел отчета                                |Используемые поля                         |Примененные фильтры       |
 |:---------------------------------------------|:-------------------------------------|:---------------------|
 |Имя агента                                    |Имя агента                            |Нет                  |
-|Имя очереди  вызовов                               |Имя очереди  вызовов                       |Нет                  |
-|#Calls по агенту                               |Имя агента<br>Количество  вызовов<br>Дата      |Нет                  |
-|Распределение по агенту и очереди  вызовов          |Имя агента<br>Количество  вызовов<br>Длительность вызова (в минутах)<br>Имя очереди  вызовов |Нет                      |
-|Слева внизу                                   |Имя агента<br>Средняя длительность звонка (секунды)<br>Количество  вызовов<br>Длительность вызова (минута)<br>Имя очереди  вызовов | Нет |
-|Средняя длительность звонка (в секундах) по имени агента |Имя агента<br>Средняя длительность звонка (секунды)<br>Количество  вызовов<br>Длительность вызова (минута)<br>Имя очереди  вызовов | Нет |
+|Имя очереди вызовов                               |Имя очереди вызовов                       |Нет                  |
+|#Calls по агенту                               |Имя агента<br>Число вызовов<br>Дата      |Нет                  |
+|Распределение по агенту и очереди вызовов          |Имя агента<br>Число вызовов<br>Длительность вызова (в минутах)<br>Имя очереди вызовов |Нет                      |
+|Снизу слева                                   |Имя агента<br>Средняя длительность звонка (секунда)<br>Число вызовов<br>Длительность вызова (минута)<br>Имя очереди вызовов | Нет |
+|Средняя длительность вызова (в секундах) по имени агента |Имя агента<br>Средняя длительность звонка (секунда)<br>Число вызовов<br>Длительность вызова (минута)<br>Имя очереди вызовов | Нет |
 
-#### <a name="fagenttimelineanalytics-cqd-fields-description"></a>Описание полей CQD для fAgentTimelineAnalytics
+#### <a name="fagenttimelineanalytics-cqd-fields-description"></a>Описание полей CQD fAgentTimelineAnalytics
 
 |Имя                                    |Тип данных                |Описание                                         |
 |:---------------------------------------|:------------------------|:---------------------------------------------------|
-|Имя агента                              |Текст                     |Имя пользователя (UPN)<br>Если полное имя пользователя **user@microsoft.com** это значение будет: **пользователь** |
-|Средняя длительность звонка (секунды)          |Десятичной число           |Суммировать: Сумма<br>Средняя длительность ответных звонков в очереди звонков в секундах |
-|Количество  вызовов                              |Целое число             |Суммировать: Сумма<br>Количество звонков, представленных агентом и на которые ответил агент     |
-|Длительность вызова (минута)                  |Целое число             |Суммировать: Сумма<br>Общая продолжительность звонков в очереди в минутах (округится до ближайшей минуты)  |
-|Имя очереди  вызовов                         |Текст                     |Имя учетной записи ресурса, подключенной к очереди  вызовов<br><br>Если полное имя учетной записи **ресурса cq_test@microsoft.com** это значение будет: **cq_test** |
+|Имя агента                              |Текст                     |Имя участника-пользователя<br>Если полное имя **пользователя user@microsoft.com это** значение будет: **user** |
+|Средняя длительность звонка (секунда)          |Десятичное число           |Summarize: Sum<br>Средняя продолжительность вызовов в очереди вызовов в секундах |
+|Число вызовов                              |Целое число             |Summarize: Sum<br>Количество вызовов, представленных агентом и ответив на них     |
+|Длительность вызова (минута)                  |Целое число             |Summarize: Sum<br>Общая длительность звонков в очереди звонков в минутах (округляется до ближайшей минуты)  |
+|Имя очереди вызовов                         |Текст                     |Имя учетной записи ресурса, присоединенной к очереди вызовов<br><br>Если полное имя учетной записи **ресурса cq_test@microsoft.com** это значение будет: **cq_test** |
 |Дата                                    |Дата                     |                                                    |
 
 
 > [!NOTE]
-> 1) В этом отчете показано количество звонков с точки зрения агентов, поэтому общее количество звонков в этом отчете обычно превышает общее количество звонков в отчете Cloud **Call Queue Analytics** . Каждый звонок в очереди может быть представлен одному или несколько агентам хотя бы один раз перед ответом на него. В этом отчете учитываются все вызовы очереди  вызовов, представленные агенту, даже если на него не ответил агент. Разница в подсчете вызовов между этими двумя отчетами более звучна с помощью параметра Маршруты Attendant, который звонит каждому агенту для каждого звонка. 
-> 2) При первом приеме звонка в первую очередь звонков, если количество звонков, уже ожидающих в этой очереди, превышает ограничение  обработки переполнения звонков и если параметр перенаправления отправляет звонки во вторую очередь звонков, то агенты во второй очереди будут показаны как в первой очереди звонков в этом отчете. 
+> 1) В этом отчете показано количество вызовов с точки зрения агентов, поэтому общее количество вызовов в этом отчете обычно превышает общее количество вызовов в отчете **Cloud Call Queue Analytics** . Каждый вызов в очереди может быть представлен одному или нескольким агентам по крайней мере один раз перед ответом на него. Каждый вызов очереди вызовов, представленный агенту, учитывается в этом отчете, даже если агент не ответил на него. Разница в количестве вызовов между этими двумя отчетами более выражена с помощью параметра  маршрутизации "Помощник", который вызывает каждый агент для каждого вызова. 
+> 2) При первом поступлении вызова в первую очередь вызовов, если количество вызовов, уже ожидающих в этой очереди,  превышает ограничение обработки переполнения вызовов и если параметр перенаправления отправляет вызовы во вторую очередь вызовов, то агенты во второй очереди вызовов будут отображаться как в первой очереди вызовов в этом отчете. 
 
 ## <a name="known-issues"></a>Известные проблемы
 
-- В очереди  вызовов и автоотехниках вместо имен очереди зовов и автоотехников отображается ИД учетной записи ресурса.  Чтобы отобрать весь трафик для автозавода или очереди  вызовов, необходимо выбрать все учетные записи ресурсов, которые назначены автозаводщику или очереди  вызовов.
+- Очередь вызовов и автосекретари отображаются по идентификатору учетной записи ресурса вместо имен очереди звонков или автосекретаря.  Чтобы отобразить весь трафик для автосекретаря или очереди звонков, необходимо выбрать все учетные записи ресурсов, назначенные автосекретарю или очереди вызовов.
 
-- На панели мониторинга доступны только 28 дней истории, так как данные очереди  вызовов и автоотехватаря считаются личными данными и подстраховываются под политики хранения данных.
+- На панели мониторинга доступны только 28 дней журнала, так как данные очереди вызовов или автосекретаря считаются персональными данными и подлежат политикам хранения конфиденциальности данных.
 
-- В некоторых случаях количество ответов агента в отчете "Агент очереди облачных звонков" может быть не таким, как показано в истории Teams звонков. История Teams клиента является правильной. В настоящее время поддержка изучается, но в настоящее время нет времени на восстановление.
+- В некоторых сценариях количество вызовов агента, ответив на запросы, в отчете о временной шкале агента облачной очереди вызовов может отличаться от количества вызовов, отображаемых в журнале вызовов Teams клиента. Журнал Teams клиента указан правильно. Служба поддержки изучает эту проблему, но в настоящее время нет предполагаемого времени для восстановления.
 
-- <sup>1</sup> **Источник входящих** вызовов в графиках автозавода и очереди зовов показывает конечный источник, а не исходный источник зова. Например, если автоотекатарь принимает внешний звонок и переносит звонок другому автозаводщику или очереди  зовов, источник входящих вызовов будет называться Внутренний.
+- <sup>1</sup> **Источник входящих вызовов** в графах автосекретаря и очереди вызовов показывает конечный источник звонков, а не исходный источник звонков. Например, если автосекретарь получает внешний вызов и передает его другому автосекретарю или очереди вызовов, источник входящего вызова будет отображаться как внутренний.
