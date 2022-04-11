@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Узнайте о лицензиях на надстройки для Microsoft Teams и возможностях, которые вы получаете с каждой лицензией.
-ms.openlocfilehash: 785ae1495e3a210883f489528ac401ad9442b526
-ms.sourcegitcommit: 4847f24e8c644336d2b2f48aa09e2cf91360e4dd
+ms.openlocfilehash: 000678a0b41e660371de295ae40d2c6359774efe
+ms.sourcegitcommit: b70f01d7eae2e3e6f7495c685518a2037aaece31
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/06/2022
-ms.locfileid: "64686386"
+ms.lasthandoff: 04/11/2022
+ms.locfileid: "64756955"
 ---
 # <a name="microsoft-teams-add-on-licenses"></a>Microsoft Teams надстройки
 
@@ -50,12 +50,6 @@ ms.locfileid: "64686386"
 ## <a name="which-microsoft-capabilities-are-available-with-my-plan"></a>Какие возможности Майкрософт доступны в моем плане?
 
 Все Microsoft 365 позволяют Teams пользователей выполнять одноранговые вызовы в организации с помощью технологии VoIP. Однако вам может потребоваться добавить различные лицензии для таких возможностей, как вызовы номеров ТСОП или настройка УАТС.
-
-### <a name="audio-conferencing"></a>Аудиоконференции
-
-Вы можете бесплатно **добавить** лицензии на аудиоконференции во Microsoft 365 подписки.
-
-Microsoft 365 E5/A5/G5 включают лицензии на аудиоконференции, поэтому вам не нужно приобретать дополнительные лицензии на аудиоконференции с этими планами.
 
 ### <a name="voice-and-pstn-connectivity"></a>Голосовое подключение и подключение по ТСОП
 
