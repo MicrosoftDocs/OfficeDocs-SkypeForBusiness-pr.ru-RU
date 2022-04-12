@@ -757,7 +757,7 @@ items:
                 href: ptsn-mask-phone-numbers.md
           - name: Доступность аудиоконференций в различных странах и регионах
             href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
-          - name: Справка
+          - name: Справочные материалы
             items:
               - name: Поддерживаемые языки аудиоконференций
                 href: audio-conferencing-supported-languages.md
@@ -1401,8 +1401,12 @@ items:
             href: rooms/multi-tenant-management-customer.md
           - name: Журналы аудита действий комнат
             href: rooms/multi-tenant-auditing.md
+          - name: Отчеты о работоспособности и использовании
+            href: rooms/health-and-usage-reports.md
           - name: Планировщик стандартов и помещений
             href: rooms/standards-and-room-planner.md
+          - name: 'Инциденты, о которых сообщил клиент'
+            href: rooms/customer-reported-incidents.md
       - name: Устройства
         items:
           - name: Магазин устройств Teams
@@ -1499,8 +1503,8 @@ items:
             href: overview-third-party-apps.md
           - name: Распознавание проверки приложений корпорацией Майкрософт
             href: overview-of-app-validation.md
-          - name: 'Безопасность, соответствие требованиям, конфиденциальность и обработка данных для сторонних приложений'
-            href: /microsoft-365-app-certification/overview
+          - name: 'Безопасность, соответствие требованиям и конфиденциальность сторонних приложений'
+            href: overview-of-app-certification.md
           - name: Использование Microsoft 365 или Office 365 и настраиваемых соединителей
             href: Office-365-custom-connectors.md
           - name: Приобретение сторонних приложений для Teams
