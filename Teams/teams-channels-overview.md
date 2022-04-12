@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 97af2abe8542a885f8a0056ed90f2a61330ba8a0
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: 4bd98159e9e209cba855e1a0f2d0ee853b3ba889
+ms.sourcegitcommit: b70f01d7eae2e3e6f7495c685518a2037aaece31
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711933"
+ms.lasthandoff: 04/11/2022
+ms.locfileid: "64756895"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Обзор команд и каналов в Microsoft Teams
 
@@ -96,6 +96,9 @@ ms.locfileid: "63711933"
 |Доступом к каналу можно делиться непосредственно с его родительской командой.|Н/Д|Нет|Да|
 |В канале могут участвовать гости.|Да|Да|Нет|
 |Канал доступен внешним участникам (с помощью подключения B2B Direct).|Нет|Нет|Да|
+|Модерирование|Да|Нет|Нет|
+|Переговорные комнаты|Да|Нет|Нет|
+|Скопировать ссылку на канал|Да|Нет|Нет|
 |У каждого канала есть специальный сайт SharePoint.|Нет|Да|Да|
 |Запланированные собрания|Да|Нет|Да|
 |Планировщик|Да|Нет|Нет|
