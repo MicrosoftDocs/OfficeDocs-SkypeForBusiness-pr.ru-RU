@@ -369,10 +369,6 @@ items:
                 href: guest-experience.md
               - name: Включение и отключение гостевого доступа
                 href: set-up-guests.md
-              - name: Просмотр гостей в команде
-                href: view-guests.md
-              - name: Изменение сведений о гостях
-                href: edit-guests-information.md
       - name: Отслеживание качества звонка и управление им
         items:
           - name: Отслеживание и улучшение качества звонка
@@ -1483,7 +1479,7 @@ items:
     items:
       - name: Обзор
         href: deploy-apps-microsoft-teams-landing-page.md
-      - name: 'Управление стандартными приложениями, предоставленными Microsoft'
+      - name: 'Управление приложениями, предоставленными корпорацией Майкрософт'
         items:
           - name: Управление приложением Bookings
             href: bookings-app-admin.md
