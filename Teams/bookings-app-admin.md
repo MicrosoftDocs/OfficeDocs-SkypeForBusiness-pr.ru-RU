@@ -21,16 +21,16 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: ''
 description: Узнайте, как управлять приложением Bookings в Teams для пользователей в организации.
-ms.openlocfilehash: 98834770d48e0fd35f146b155e4970df7ddaaba3
-ms.sourcegitcommit: 1e8cff687b12348d4ecc538084ab57bbba23b523
+ms.openlocfilehash: aab7ce7a4813d851574f9a5796f5ce21d44774ff
+ms.sourcegitcommit: 68162a8c9dee9a27af596353baabeda9b8fa64f3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/07/2022
-ms.locfileid: "64703615"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "64853070"
 ---
 # <a name="manage-the-bookings-app-in-microsoft-teams"></a>Управление приложением Bookings в Microsoft Teams
 
-Приложение Bookings в Microsoft Teams предлагает простой способ планирования  person и виртуальных встреч. Например, посещения здравоохранения, финансовые консультации, собеседования, поддержка клиентов и рабочее время для образовательных учреждений. Дополнительные сведения см. в [статье о виртуальных посещениях Teams и Bookings приложения](expand-teams-across-your-org/bookings-virtual-visits.md).
+Приложение Bookings в Microsoft Teams предлагает простой способ планирования  person и виртуальных встреч. Например, посещения здравоохранения, финансовые консультации, собеседования, поддержка клиентов и рабочее время для образовательных учреждений. Дополнительные сведения см. в статье о виртуальных встречах [Teams и Bookings приложения](expand-teams-across-your-org/bookings-virtual-visits.md).
 
 Планировщики могут управлять несколькими календарями отделов и сотрудников, а также взаимодействием с внутренними и внешними участниками в одном интерфейсе. Виртуальные встречи проводится через Microsoft Teams, которые предоставляют надежные возможности видеоконференций.
 
@@ -98,7 +98,7 @@ Set-Mailbox -identity business@domain.onmicrosoft.com -WindowsEmailAddress busin
 
 ## <a name="related-articles"></a>Статьи по теме
 
-[Управление интерфейсом присоединения для Teams виртуальных посещений в браузерах](expand-teams-across-your-org/browser-join.md)
+[Управление интерфейсом присоединения для Teams виртуальных встреч в браузерах](expand-teams-across-your-org/browser-join.md)
 
 
   [Документация по Bookings для конечных пользователей](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?ui=en-US&rs=en-US&ad=US#PickTab=Bookings)
