@@ -20,10 +20,10 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 4f37e364450104b07adfe6a48c8cc29bab607470
-ms.sourcegitcommit: 5880de47e986854fca873ae75f76a7ecad194dff
+ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2022
+ms.lasthandoff: 04/14/2022
 ms.locfileid: "61545010"
 ---
 # <a name="how-to-provision-teams-at-scale-for-frontline-workers"></a>Как подготовить Teams в масштабе для сотрудников без компьютеров
@@ -221,10 +221,10 @@ Connect-MicrosoftTeams -Credential $teams_cred
 
 4. Отключить **Загрузить пользовательские приложения**.
 5. Отключите **Разрешить закрепление пользователя**.
-    :::image type="content" source="media/flw-allow-user-pinning.png" alt-text="Снимок экрана параметра "Разрешить закрепление пользователей".":::
+    :::image type="content" source="media/flw-allow-user-pinning.png" alt-text="Снимок экрана параметра &quot;Разрешить закрепление пользователей&quot;.":::
 
 6. Если его еще нет в списке, добавьте приложение **Смены**. Для получения дополнительной информации о приложении "Смены", нажмите [здесь](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md).
-    :::image type="content" source="media/flw-add-pinned-apps.png" alt-text="Снимок экрана добавления закрепленных приложений с кнопкой "Добавить" для приложения "Смены"":::
+    :::image type="content" source="media/flw-add-pinned-apps.png" alt-text="Снимок экрана добавления закрепленных приложений с кнопкой &quot;Добавить&quot; для приложения &quot;Смены&quot;":::
 
 7. Удалите "Вызов", если он появляется. Удаление этой функции не отключит ее для пользователя, но предотвратит ее появление на панели приложений, чтобы упростить работу конечного пользователя.
 8. Расположите приложения в следующем порядке, чтобы определить их порядок на панели приложений команд, а затем нажмите  **Сохранить**.
@@ -248,11 +248,11 @@ Connect-MicrosoftTeams -Credential $teams_cred
 
 4. Отключить **Загрузить пользовательские приложения**.
 5. Отключите **Разрешить закрепление пользователя**.
-    :::image type="content" source="media/flw-allow-user-pinning.png" alt-text="Снимок экрана параметра "Разрешить закрепление пользователей".":::
+    :::image type="content" source="media/flw-allow-user-pinning.png" alt-text="Снимок экрана параметра &quot;Разрешить закрепление пользователей&quot;.":::
 
 6. Если его еще нет в списке, добавьте приложение **Смены**. Для получения дополнительной информации о приложении "Смены", нажмите [здесь](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md).
 
-    :::image type="content" source="media/flw-add-pinned-apps.png" alt-text="Снимок экрана добавления закрепленных приложений с кнопкой "Добавить" для приложения "Смены"":::
+    :::image type="content" source="media/flw-add-pinned-apps.png" alt-text="Снимок экрана добавления закрепленных приложений с кнопкой &quot;Добавить&quot; для приложения &quot;Смены&quot;":::
 
 7. Удалите "Встречи" и "Звонки", если они появляются. Удаление этих функций не отключит их для пользователя, но предотвратит их появление на панели приложений, чтобы упростить работу конечного пользователя.
 8. Расположите приложения в следующем порядке, чтобы определить их порядок на панели приложений команд, а затем нажмите  **Сохранить**.
@@ -276,7 +276,7 @@ Connect-MicrosoftTeams -Credential $teams_cred
 1. В левой части панели администрирования Microsoft Teams перейдите к разделу  **приложения Teams** > **Политика разрешений**.
 2. Нажмите  **Добавить**.
 
-    :::image type="content" source="media/flw-add-app-permission-policy.png" alt-text="Снимок экрана страницы "Добавление политики разрешений приложения".":::
+    :::image type="content" source="media/flw-add-app-permission-policy.png" alt-text="Снимок экрана страницы &quot;Добавление политики разрешений приложения&quot;.":::
 
 3. Введите имя и описание для политики. Например, политика разрешений приложения для руководителя без компьютера.
 4. В  **Microsoft Apps** выберите **Разрешить все приложения**.
@@ -291,7 +291,7 @@ Connect-MicrosoftTeams -Credential $teams_cred
 1. В левой части панели администрирования Microsoft Teams перейдите к разделу  **приложения Teams** > **Политика разрешений**.
 2. Нажмите  **Добавить**.
 
-    :::image type="content" source="media/flw-add-app-permission-policy.png" alt-text="Снимок экрана страницы "Добавление политики разрешений приложения".":::
+    :::image type="content" source="media/flw-add-app-permission-policy.png" alt-text="Снимок экрана страницы &quot;Добавление политики разрешений приложения&quot;.":::
 
 3. Введите имя и описание для политики. Например, политика разрешений приложения для сотрудника без компьютера.
 4. В  **Microsoft Apps** выберите **Разрешить все приложения**.

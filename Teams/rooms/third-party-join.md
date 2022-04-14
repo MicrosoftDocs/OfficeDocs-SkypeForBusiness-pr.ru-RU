@@ -13,14 +13,17 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: В этой статье описывается, как настроить организацию и Комнаты Teams устройства для поддержки присоединения сторонних собраний к Cisco WebEx и Zoom.
-ms.openlocfilehash: 04be17003e39890ba74d6c7c4fc2393ba809f5c6
-ms.sourcegitcommit: 3beef904411a9d5787a73678464003a868630649
+ms.openlocfilehash: 6defa9c9287b130eb5534f0aea158a78f2de8b18
+ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/12/2022
-ms.locfileid: "64817670"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "64846608"
 ---
 # <a name="enable-teams-room-devices-to-join-third-party-meetings"></a>Включение Teams комнаты для присоединения к сторонним собраниям
+
+> [!NOTE]
+> В настоящее время эта функция доступна только Комнаты Teams на Windows.
 
 Комнаты Microsoft Teams устройства поддерживают одно касание для присоединения к сторонним онлайн-собраниям, также называемым прямым гостевым присоединением. Если этот параметр включен, вы можете Комнаты Teams к собраниям, размещенным в Cisco WebEx и Zoom, так же легко, как и к собраниям, размещенным в Microsoft Teams.
 

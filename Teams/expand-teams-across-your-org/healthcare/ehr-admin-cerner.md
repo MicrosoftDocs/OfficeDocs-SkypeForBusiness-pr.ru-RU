@@ -24,10 +24,10 @@ appliesto:
 ms.reviewer: ansantam
 description: Узнайте, как интегрировать соединитель Teams EHR, чтобы разрешить поставщикам услуг здравоохранения в вашей организации проводить виртуальные посещения с пациентов или другими поставщиками в Teams непосредственно из системы EHR Cerner.
 ms.openlocfilehash: b5a5a860036b3b561d5a6e18a13b71e072998aa4
-ms.sourcegitcommit: 1e8cff687b12348d4ecc538084ab57bbba23b523
+ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/07/2022
+ms.lasthandoff: 04/14/2022
 ms.locfileid: "64703695"
 ---
 # <a name="virtual-visits-with-teams---integration-into-cerner-ehr"></a>Виртуальные посещения с Teams — интеграция с Cerner EHR
