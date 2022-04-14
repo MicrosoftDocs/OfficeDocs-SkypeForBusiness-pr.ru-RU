@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Узнайте, как использовать и управлять частными каналами Microsoft Teams.
-ms.openlocfilehash: 908432588c1744027b03efee44b9506ea4388fa2
-ms.sourcegitcommit: b878c57b8e822913b7aac8c105f476bc4ebfcd7d
+ms.openlocfilehash: 775019bc0151215557e7b0962619c4fe8fb8fe85
+ms.sourcegitcommit: 3beef904411a9d5787a73678464003a868630649
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "63761923"
+ms.lasthandoff: 04/12/2022
+ms.locfileid: "64817830"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Частные каналы в Microsoft Teams
 
@@ -39,6 +39,8 @@ ms.locfileid: "63761923"
 Значок замка обозначает частный канал. Видеть частные каналы и участвовать в них могут только участники, которые к ним добавлены.
 
 Когда создается частный канал, он связывается с родительской командой и не может быть перемещен в другую команду. Кроме того, частные каналы не могут быть преобразованы в стандартные каналы и наоборот.
+
+[Сравните частные каналы с другими типами каналов](/microsoftteams/teams-channels-overview#channel-feature-comparison).
 
 ![Снимок экрана: частные каналы в команде.](media/private-channels-in-teams.png)
 

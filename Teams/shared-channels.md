@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Узнайте, как использовать общие каналы в Microsoft Teams (предварительная версия) и управлять ими.
-ms.openlocfilehash: 0c66d308ef5182c6ace69a7bdcd004c865109bec
-ms.sourcegitcommit: 3e7c491d2bb13c86ac8e73b1c6c9735660c673e3
+ms.openlocfilehash: feecbdfe45e890b1e302d49bfdcaf7b6d3e19157
+ms.sourcegitcommit: 3beef904411a9d5787a73678464003a868630649
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "64590387"
+ms.lasthandoff: 04/12/2022
+ms.locfileid: "64817850"
 ---
 # <a name="shared-channels-in-microsoft-teams-preview"></a>Общие каналы в Microsoft Teams (предварительная версия)
 
@@ -34,6 +34,8 @@ ms.locfileid: "64590387"
 Только участники общих каналов могут видеть общие каналы, в которые они добавлены, и участвовать в них. Другие участники команды, к которой подключен общий канал, не увидят этот канал.
 
 При создании общий канал связывается с родительской командой. Его невозможно переместить в другую команду. Кроме того, невозможно преобразовать общие каналы в стандартные каналы и наоборот.
+
+[Сравните общие каналы с другими типами каналов](/microsoftteams/teams-channels-overview#channel-feature-comparison).
 
 ## <a name="best-practices-for-the-shared-channels-preview"></a>Лучшие методики использования общих каналов (предварительная версия)
 
