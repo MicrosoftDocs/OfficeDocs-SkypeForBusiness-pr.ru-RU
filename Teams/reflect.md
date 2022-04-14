@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 62aa82c42acf3ca4477da6da60b1faec6c847be1
-ms.sourcegitcommit: 0d61ca384e7d76612743de41c8fea4729072fb5e
+ms.openlocfilehash: d17409a09cbadc535e3b7971d6224b4e2fcb678b
+ms.sourcegitcommit: 9bee7cb9433bfc687387647a102f814dc52c8591
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 04/13/2022
-ms.locfileid: "64837452"
+ms.locfileid: "64839040"
 ---
 # <a name="it-admin-guide-to-reflect-in-microsoft-teams"></a>Руководство для ИТ-администраторов по Reflect в Microsoft Teams
 
@@ -44,7 +44,7 @@ ms.locfileid: "64837452"
 
 > [!TIP]
 > * Дополнительные сведения о том, как Майкрософт защищает ваши данные, см. в [Центре управления безопасностью (Майкрософт)](https://www.microsoft.com/trust-center).
-> * Посетите страницу [Предложения Майкрософт для соответствия требованиям](/compliance/regulatory/offering-home), чтобы узнать, как Microsoft 365 помогает вашему учреждению соблюдать стандарты соответствия нормативным требованиям.
+> * Посетите страницу [Предложения Майкрософт по обеспечению соответствия требованиям](/compliance/regulatory/offering-home), чтобы узнать, как Microsoft 365 помогает вашему учреждению соблюдать стандарты соответствия нормативным требованиям.
 
 ## <a name="data-collection-and-storage"></a>Сбор и хранение данных
 Данные принадлежат учебному заведению, и Майкрософт лишь собирает и хранит их. Сотрудники Майкрософт не имеют доступа к данным и не могут просматривать их, кроме как для доступа под наблюдением, осуществляемого для поддержания работы сервиса — например, для восстановления данных.
