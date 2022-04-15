@@ -16,12 +16,12 @@ search.appverid:
 f1.keywords:
 - NOCSH
 description: Сводка. Сведения о логической архитектуре служб повышения производительности в Microsoft 365, начиная с Microsoft Teams. А также сведения о решениях голосовой связи для Teams.
-ms.openlocfilehash: ec608f192c08a33b9505008eacb6f6549780e7bd
-ms.sourcegitcommit: abe942c294ed5fca70efdf039d38d611b9c21fe9
+ms.openlocfilehash: 6ac6f7f88ec838b445d382dbc6ba8d5ee4ec1bcf
+ms.sourcegitcommit: 204e4654f2c3977db260670f3ee1784d1ad6ed17
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/18/2022
-ms.locfileid: "63564751"
+ms.lasthandoff: 04/15/2022
+ms.locfileid: "64866194"
 ---
 # <a name="microsoft-teams-it-architecture-and-voice-solutions-posters"></a>Плакаты ИТ-архитектуры и решений голосовой связи Microsoft Teams
 
@@ -37,7 +37,7 @@ ms.locfileid: "63564751"
 
 Что следует знать ИТ-архитекторам о группах в Microsoft 365. На этих иллюстрациях подробно показаны разные типы групп, как они создаются и управляются, а также приводится несколько рекомендаций по управлению.
 
-[![Эскиз инфографики групп.](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-groups-architecture-thumb.png)](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-groups.pdf)  <br/> [PDF](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-groups.pdf) | [Visio](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-groups.vsdx)
+[![Эскиз инфографики групп.](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-groups-architecture-thumb.png)](https://download.microsoft.com/download/6/3/0/6309218f-a169-4f2d-af4c-2fe49e30ba17/msft-m365-groups.pdf)  <br/> [PDF](https://download.microsoft.com/download/6/3/0/6309218f-a169-4f2d-af4c-2fe49e30ba17/msft-m365-groups.pdf) | [Visio](https://download.microsoft.com/download/6/3/0/6309218f-a169-4f2d-af4c-2fe49e30ba17/msft-m365-groups.vsdx)
 
 ## <a name="microsoft-voice-solutions"></a>Решения Майкрософт для голосовой связи
 
