@@ -1559,7 +1559,7 @@ items:
         items:
           - name: Bookings в Teams
             items:
-              - name: Виртуальные визиты с помощью Teams и Bookings
+              - name: Виртуальные встречи с помощью Teams и Bookings
                 href: expand-teams-across-your-org/bookings-virtual-visits.md
               - name: Управление приложением Bookings
                 href: bookings-app-admin.md
@@ -1683,15 +1683,15 @@ items:
         items:
           - name: Начало работы с Teams для сферы здравоохранения
             href: expand-teams-across-your-org/healthcare/teams-in-hc.md
-          - name: Виртуальные визиты
+          - name: Виртуальные встречи
             items:
-              - name: Виртуальные визиты с помощью Teams — интеграция с электронными медицинскими картами Cerner
+              - name: Виртуальные встречи с помощью Teams — интеграция с электронными медицинскими картами Cerner
                 href: expand-teams-across-your-org/healthcare/ehr-admin-cerner.md
-              - name: Виртуальные визиты с помощью Teams — интеграция с электронными медицинскими картами Epic
+              - name: Виртуальные встречи с помощью Teams — интеграция с электронными медицинскими картами Epic
                 href: expand-teams-across-your-org/healthcare/ehr-admin.md
               - name: Отчеты администратора электронных медицинских карт
                 href: expand-teams-across-your-org/healthcare/ehr-admin-reports.md
-              - name: Виртуальные визиты с помощью Teams и Bookings
+              - name: Виртуальные встречи с помощью Teams и Bookings
                 href: expand-teams-across-your-org/bookings-virtual-visits.md
               - name: Отчет об использовании виртуальных визитов
                 href: teams-analytics-and-reports/virtual-visits-usage-report.md
