@@ -12,15 +12,15 @@ f1.keywords:
 - NOCSH
 ms.reviewer: anwara
 search.appverid: MET150
-description: Узнайте, как Microsoft Teams данные из журнала аудита в Центр соответствия требованиям Microsoft 365.
+description: Узнайте, как Microsoft Teams данные из журнала аудита на портале соответствия требованиям Microsoft Purview.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cdca912b77969e4157af641076dc683c3d17921c
-ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
+ms.openlocfilehash: 744a18f2a8f7f2ed406853ef7efbc9842d0096f5
+ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "63711333"
+ms.lasthandoff: 04/19/2022
+ms.locfileid: "64922640"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Поиск событий Microsoft Teams в журнале аудита
 
@@ -42,7 +42,7 @@ ms.locfileid: "63711333"
 
 ## <a name="turn-on-auditing-in-teams"></a>Включение аудита в Teams
 
-Прежде чем просмотреть данные аудита, необходимо сначала включить аудит в Центр соответствия требованиям Microsoft 365. Дополнительные сведения см. в разделе "Включение и отключение [аудита"](/microsoft-365/compliance/turn-audit-log-search-on-or-off).
+Прежде чем просмотреть данные аудита, необходимо сначала включить аудит на портале соответствия требованиям Microsoft Purview. Дополнительные сведения см. в разделе "Включение и отключение [аудита"](/microsoft-365/compliance/turn-audit-log-search-on-or-off).
 
 > [!IMPORTANT]
 > Данные аудита доступны только в том моменте, когда вы включили аудит.
@@ -233,6 +233,6 @@ API действий Office 365 управления можно использо
 
 Мы работаем над интеграцией событий Teams в политики обнаружения аномалий. Сейчас вы можете настроить политики обнаружения аномалий для других продуктов Office и выполнять действия с пользователями, соответствующими этим политикам.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 
-- [Поиск в журнале аудита в Центр соответствия требованиям Microsoft 365](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)
+- [Поиск в журнале аудита на портале соответствия требованиям Microsoft Purview](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)

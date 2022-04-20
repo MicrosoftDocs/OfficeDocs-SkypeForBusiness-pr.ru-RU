@@ -16,16 +16,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b4ab8adcbe4a717e62e0dff66ecf00fb1650e31b
-ms.sourcegitcommit: 823ad7fe5f7a27f681c95b2d369ce2cbe71cfdfe
+ms.openlocfilehash: 091fe5eba9d17cefc442978cb3090aaca87844d8
+ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/06/2022
-ms.locfileid: "64691454"
+ms.lasthandoff: 04/19/2022
+ms.locfileid: "64922650"
 ---
 # <a name="communication-compliance-with-microsoft-teams"></a>Соответствие требованиям к обмену данными с Microsoft Teams
 
-Соответствие требованиям к обмену данными — это решение для внутренних рисков в Microsoft 365, которое помогает свести к минимуму риски обмена данными, помогая обнаруживать, записывать и действовать с недопустимыми сообщениями в организации.
+Соответствие требованиям к обмену данными Microsoft Purview — это решение для внутренних рисков в Microsoft 365, которое помогает свести к минимуму риски обмена данными, помогая обнаруживать, записывать и действовать с недопустимыми сообщениями в организации.
 
 Для Microsoft Teams соответствие требованиям к обмену данными помогает определить [](/microsoft-365/compliance/communication-compliance-feature-reference) следующие типы нежелательного содержимого в каналах Teams, частных Teams каналах или в чатах 1:1 и групповых чатах:
 
@@ -33,7 +33,7 @@ ms.locfileid: "64691454"
 - Изображения для взрослых, непристойных и gory
 - Общий доступ к конфиденциальной информации
 
-Дополнительные сведения о соответствии требованиям к обмену данными и настройке политик для организации см. в разделе "Соответствие требованиям к обмену данными["](/microsoft-365/compliance/communication-compliance) Microsoft 365. Сведения о подписках Microsoft 365, включающее соответствие требованиям к обмену данными, см. в статье "Решения для оценки [рисков для участников программы предварительной оценки"](/microsoft-365/compliance/insider-risk-solution-overview#communication-compliance).
+Дополнительные сведения о соответствии требованиям к обмену данными и настройке политик для организации см. в статье ["Сведения о соответствии требованиям к обмену данными"](/microsoft-365/compliance/communication-compliance).
 
 ## <a name="how-to-use-communication-compliance-in-microsoft-teams"></a>Использование соответствия требованиям к обмену данными в Microsoft Teams
 

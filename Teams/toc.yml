@@ -39,8 +39,6 @@ items:
                 href: tutorial-network-planner-example.yml
               - name: Прокси-серверы для Teams или Skype для бизнеса Online
                 href: proxy-servers-for-skype-for-business-online.md
-              - name: Планирование использования групп Microsoft 365 при создании команд в Teams
-                href: plan-office-365-groups.md
               - name: Планирование управления жизненным циклом в Teams
                 href: plan-teams-lifecycle.md
               - name: Планирование управления в Teams

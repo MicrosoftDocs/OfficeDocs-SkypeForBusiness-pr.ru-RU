@@ -19,12 +19,12 @@ description: Практическое руководство по разверт
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c91e964d9cc0bfc3047ed8413dff15e5aafb0cb8
-ms.sourcegitcommit: 4c608bf06f43e88c844492c262a26dcf3eacb4c3
+ms.openlocfilehash: aab8f71ec8c9eb5ad1e984a68985a8a425e21f16
+ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/16/2022
-ms.locfileid: "63523808"
+ms.lasthandoff: 04/19/2022
+ms.locfileid: "64922670"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Запись облачного собрания в Teams
 
@@ -313,7 +313,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 
 С помощью свойства ProgID можно применять автоматические метки хранения только к видеофайлам записи собраний Teams. Дополнительную информацию см. в [этой статье](/microsoft-365/compliance/apply-retention-labels-automatically#microsoft-teams-meeting-recordings).
 
-### <a name="data-loss-prevention-dlp-policies"></a>Политики защиты от потери данных (DLP)
+### <a name="microsoft-purview-data-loss-prevention-dlp-policies"></a>Политики защиты от потери данных (DLP) Microsoft Purview
 
 С помощью свойства ProgID к файлам записи собраний также можно применять политики DLP. В правиле DLP для файлов в SharePoint Online и OneDrive для бизнеса установите условия:
 

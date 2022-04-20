@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 85171e8125fc4e6cecbfde4a0f6832b48ca7ca84
-ms.sourcegitcommit: b70f01d7eae2e3e6f7495c685518a2037aaece31
+ms.openlocfilehash: 90395ab4bd9563a6bd9ad12ae6d9c1d164ddc89b
+ms.sourcegitcommit: 745d707ec63685ce7f973785e7056628472b9c45
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/11/2022
-ms.locfileid: "64756965"
+ms.lasthandoff: 04/18/2022
+ms.locfileid: "64910875"
 ---
 # <a name="overview-of-third-party-apps-in-microsoft-teams"></a>Обзор сторонних приложений в Microsoft Teams
 
@@ -34,8 +34,9 @@ ms.locfileid: "64756965"
 Помимо того, что администраторы имеют контроль над сторонними приложениями, корпорация Майкрософт также гарантирует, что в магазине доступны только качественные приложения. Мы требуем, чтобы все приложения прошли обязательный этап проверки корпорацией Майкрософт, на котором проверяют функциональности приложения, определяют издателя, разрешения, необходимые приложению, а также соответствие требованиям, конфиденциальность и безопасность данных, собранных приложением. Мы рекомендуем приложениям участвовать в необязательной программе соответствия требованиям, чтобы продемонстрировать дополнительный фокус на безопасности и соответствии отраслевым стандартам. Об этих программах можно узнать в следующих статьях.
 
 1. [Проверка приложения](overview-of-app-validation.md#app-validation-and-testing)
-1. [Проверка издателя](overview-of-app-validation.md#publisher-verification)
+
 1. Программа соответствия приложений Microsoft требованиям
 
+   * [Проверка издателя](overview-of-app-certification.md#publisher-verification)
    * [Аттестация издателя](overview-of-app-certification.md#publisher-attestation)
    * [Сертификация Microsoft 365](overview-of-app-certification.md#microsoft-365-certification)
