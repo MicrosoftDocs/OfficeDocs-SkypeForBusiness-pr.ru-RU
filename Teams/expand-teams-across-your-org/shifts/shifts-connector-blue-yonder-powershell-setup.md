@@ -1,5 +1,5 @@
 ---
-title: Использование PowerShell для подключения shifts к управлению ресурсами "синий Yonder"
+title: Подключение shifts к Blue Yonder Workforce Management с помощью PowerShell
 author: LanaChin
 ms.author: v-lanachin
 ms.reviewer: ''
@@ -8,38 +8,38 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Узнайте, как использовать PowerShell для интеграции shifts с управлением ресурсами "Синий Yonder".
+description: Узнайте, как использовать PowerShell для интеграции Shifts с Blue Yonder Workforce Management.
 ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9b78f45919649fda29f09ea338a160c2ab376c1a
-ms.sourcegitcommit: 2388838163812eeabcbd5331aaf680b79da3ccba
+ms.openlocfilehash: ad0f7e84dcd65f844e457d4821717ff7593593ce
+ms.sourcegitcommit: 2ce3e95401ac06c0370a54862372a94ec6291d01
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "64593710"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "64976026"
 ---
-# <a name="use-powershell-to-connect-shifts-to-blue-yonder-workforce-management"></a>Использование PowerShell для подключения shifts к управлению ресурсами "синий Yonder"
+# <a name="use-powershell-to-connect-shifts-to-blue-yonder-workforce-management"></a>Подключение shifts к Blue Yonder Workforce Management с помощью PowerShell
 
 ## <a name="overview"></a>Обзор
 
-Используйте [соединителя Microsoft Teams Shifts для blue Yonder](shifts-connectors.md#microsoft-teams-shifts-connector-for-blue-yonder), чтобы интегрировать приложение "Смены" в Microsoft Teams с управлением ресурсами "Синий Yonder" (blue Yonder WFM). После того как подключение будет настроено, сотрудники, работающие с телефоном, смогут без проблем просматривать свои расписания и управлять ими в службе WFM "Синий Yonder" в представлении "Смены".
+Используйте [соединитель Microsoft Teams Shifts для Blue Yonder](shifts-connectors.md#microsoft-teams-shifts-connector-for-blue-yonder), чтобы интегрировать приложение Shifts в Microsoft Teams с Blue Yonder Workforce Management (Blue Yonder WFM). После настройки подключения сотрудники переднего плана могут легко просматривать свои расписания в Blue Yonder WFM и управлять ими в shifts.
 
-В этой статье мы поймем, как использовать PowerShell для настройки соединителя для интеграции Shifts с WFM "Синий Yonder".
+Из этой статьи вы узнаете, как с помощью PowerShell настроить соединитель для интеграции Shifts с Blue Yonder WFM.
 
-Чтобы настроить подключение, запустите сценарий PowerShell. Сценарий настраивает соединителя, применяет параметры синхронизации, создает подключение и сопомечает сайты WFM "Синий Yonder" с командами. Параметры синхронизации определяют функции, включенные в функции Shifts, и сведения о расписании, синхронизируются между WFM и Shifts blue Yonder. Сопоставления определяют отношение синхронизации между сайтами WFM и группами WFM Teams. Вы можете соеоставить карту с существующими и новыми командами.
+Чтобы настроить подключение, запустите сценарий PowerShell. Скрипт настраивает соединитель, применяет параметры синхронизации, создает подключение и сопоставляет сайты Blue Yonder WFM с командами. Параметры синхронизации определяют функции, включенные в shifts, и сведения о расписании, синхронизированные между Blue Yonder WFM и Shifts. Сопоставления определяют связь синхронизации между сайтами WFM Blue Yonder и командами в Teams. Вы можете сопоставить существующие команды и новые команды.
 
-Мы предоставляем два сценария. Вы можете использовать любой сценарий в зависимости от того, хотите ли вы соединать существующие команды или создать новые.
+Мы предоставляем два сценария. Вы можете использовать любой сценарий в зависимости от того, нужно ли сопоставлять существующие команды или создавать новые команды для сопоставления.
 
-Вы можете настроить несколько подключений с разными настройками синхронизации. Например, если в вашей организации есть несколько расположений с различными требованиями к расписанию, создайте подключение с уникальными настройками синхронизации для каждого расположения. Имейте в виду, что сайт WFM "Синий yonder" можно соотнося только с одной командой в любое время. Если сайт уже соедем с командой, его нельзя соедеть с другой командой.
+Можно настроить несколько подключений, каждое из которых имеет разные параметры синхронизации. Например, если в организации есть несколько расположений с разными требованиями к расписанию, создайте подключение с уникальными параметрами синхронизации для каждого расположения. Имейте в виду, что сайт WFM Blue Yonder можно сопоставить только с одной командой в любой момент времени. Если сайт уже сопоставлен с командой, его нельзя сопоставить с другой командой.
 
-Благодаря службе WFM "Синий Yonder" в качестве системы записей сотрудники, работающие в переднем телефоне, могут видеть и менять смены, управлять доступностью и запрашивать отработки отработки в shifts на своих устройствах. Руководители frontline могут по-прежнему использовать WFM "Синий yonder" для работы с расписаниями.
+С помощью Blue Yonder WFM в качестве системы записи сотрудники переднего плана могут просматривать и менять смены, управлять своей доступностью и запрашивать отгулы в shifts на своих устройствах. Руководители переднего плана могут по-прежнему использовать Blue Yonder WFM для настройки расписаний.
 
 > [!NOTE]
-> Для подключения [shifts](shifts-connector-wizard.md) к WFM "Синий Центр администрирования Microsoft 365", можно также использовать мастер соединителя shifts в Центр администрирования Microsoft 365.
+> Вы также можете использовать мастер соединителя [shifts](shifts-connector-wizard.md) в Центр администрирования Microsoft 365 для подключения shifts к Blue Yonder WFM.
 
 ## <a name="before-you-begin"></a>Подготовка к работе
 
@@ -47,7 +47,7 @@ ms.locfileid: "64593710"
 
 [!INCLUDE [shifts-connector-prerequisites](../../includes/shifts-connector-prerequisites.md)]
 
-### <a name="admin-role-to-manage-the-connector-using-powershell"></a>Роль администратора для управления соединитетелем с помощью PowerShell
+### <a name="admin-role-to-manage-the-connector-using-powershell"></a>Роль администратора для управления соединителем с помощью PowerShell
 
 [!INCLUDE [shifts-connector-admin-role](../../includes/shifts-connector-admin-role.md)]
 
@@ -55,51 +55,61 @@ ms.locfileid: "64593710"
 
 [!INCLUDE [shifts-connector-set-up-environment](../../includes/shifts-connector-set-up-environment.md)]
 
-## <a name="identify-the-teams-you-want-to-map"></a>Определите группы, которые вы хотите составить
+## <a name="connect-to-teams"></a>Подключение Teams
+
+Выполните следующую команду, чтобы подключиться к Teams.
+
+```powershell
+Connect-MicrosoftTeams
+```
+
+При появлении запроса войдите в систему, используя учетные данные администратора. Теперь вы настроили выполнение скриптов, указанных в этой статье, и командлетов соединителя Shifts.
+
+## <a name="identify-the-teams-you-want-to-map"></a>Определение команд, которые вы хотите сопоставить
 
 > [!NOTE]
-> Выполните это шаг, если вы соотношали сайты WFM "Синий Yonder" с существующими командами. Если вы создаете новые команды для связи, вы можете пропустить этот шаг.
+> Выполните этот шаг, если вы сопошаете сайты WFM Blue Yonder с существующими командами. Если вы создаете новые команды для сопоставления, этот шаг можно пропустить.
 
-В портал Azure перейдите на страницу Все группы, [](https://ms.portal.azure.com/#blade/Microsoft_AAD_IAM/GroupsManagementMenuBlade/AllGroups) чтобы получить список TeamIds команд в организации.
+В портал Azure перейдите на страницу "Все группы[](https://ms.portal.azure.com/#blade/Microsoft_AAD_IAM/GroupsManagementMenuBlade/AllGroups)", чтобы получить список teamId команд в организации.
 
-Заметьте teamIds команд, которые вы хотите составить. Сценарий запросит ввод этой информации.
+Запишите идентификаторы команд, которые вы хотите сопоставить. Сценарий предложит ввести эти сведения.
 
 > [!NOTE]
-> Если у одной или более команд есть существующее расписание, сценарий удалит их. В противном случае вы увидите повторяющиеся смены.
+> Если у одной или нескольких команд есть расписание, сценарий удалит эти расписания из этих команд. В противном случае вы увидите повторяющиеся смены.
 
 ## <a name="run-the-script"></a>Запуск сценария
 
-Запустите сценарий:
+Запустите скрипт:
 
-- Чтобы настроить подключение и создать новые группы для карты, [запустите этот сценарий](#set-up-a-connection-and-create-new-teams-to-map).
-- Чтобы настроить подключение и сое связь с существующими командами, [запустите этот сценарий](#set-up-a-connection-and-map-to-existing-teams).
+- Чтобы настроить подключение и создать новые команды для сопоставления, [выполните этот сценарий](#set-up-a-connection-and-create-new-teams-to-map).
+- Чтобы настроить подключение и сопоставить его с существующими командами, [выполните этот сценарий](#set-up-a-connection-and-map-to-existing-teams).
 
-Сценарий делает следующие действия: Вам будет предложено ввести сведения о настройке и конфигурации.
+Скрипт выполняет следующие действия. Вам будет предложено ввести сведения о настройке и конфигурации.
 
-1. Проверяет подключение к WFM "Синий Yonder" с помощью учетных данных учетной записи службы WFM "Синий Yonder" и URL-адресов служб, которые вы вводите.
-1. Настройка соединитела Смены.
-1. Применяет параметры синхронизации. Эти параметры включают частоту синхронизации (в минутах) и данные расписания, синхронизируются между WFM и Shifts "Синий Yonder". Данные расписания определены в следующих параметрах:
+1. Проверяет и проверяет подключение к Blue Yonder WFM с помощью учетных данных учетной записи службы Blue Yonder WFM и URL-адресов службы, которые вы вводите.
+1. Настраивает соединитель Shifts.
+1. Применяет параметры синхронизации. Эти параметры включают частоту синхронизации (в минутах) и данные расписания, синхронизированные между Blue Yonder WFM и Shifts. Данные расписания определяются в следующих параметрах:
 
-    - Параметр **enabledConnectorScenarios** определяет данные, синхронизированные с blue Yonder WFM с Shifts. Возможные варианты: `Shift`, `SwapRequest``UserShiftPreferences`, `OpenShift`, `OpenShiftRequest`, `TimeOff`. `TimeOffRequest`
-    - Параметр **enabledWfiScenarios** определяет данные, синхронизированные со сменами с blue Yonder WFM. Возможные варианты: `SwapRequest`, `OpenShiftRequest`, `TimeOffRequest`. `UserShiftPreferences`
+    - Параметр **enabledConnectorScenarios** определяет данные, синхронизированные из Blue Yonder WFM в shifts. Параметры: `Shift`, `SwapRequest`, `UserShiftPreferences`, `OpenShift`, `OpenShiftRequest`, `TimeOffRequest``TimeOff`.
+    - Параметр **enabledWfiScenarios** определяет данные, синхронизированные из shifts в Blue Yonder WFM. Параметры: `SwapRequest`, `OpenShiftRequest`, `TimeOffRequest`. `UserShiftPreferences`
 
-    Дополнительные информации см. [в new-CsTeamsShiftsConnectionInstance](/powershell/module/teams/new-csteamsshiftsconnectioninstance?view=teams-ps). Чтобы увидеть список поддерживаемых параметров синхронизации для каждого параметра, запустите [Get-CsTeamsShiftsConnectionConnector](/powershell/module/teams/get-csteamsshiftsconnectionconnector?view=teams-ps).
+    Дополнительные сведения см. в [разделе New-CsTeamsShiftsConnectionInstance](/powershell/module/teams/new-csteamsshiftsconnectioninstance?view=teams-ps). Чтобы просмотреть список поддерживаемых параметров синхронизации для каждого параметра, выполните [командную строку Get-CsTeamsShiftsConnectionConnector](/powershell/module/teams/get-csteamsshiftsconnectionconnector?view=teams-ps).
 
     > [!IMPORTANT]
-    > Сценарий включает синхронизацию для всех этих параметров. Если вы хотите изменить параметры синхронизации, это можно сделать после настройки подключения. Дополнительные узнать об этом см. в руководстве по управлению подключением к сменам с помощью [PowerShell](shifts-connector-powershell-manage.md).
+    > Сценарий включает синхронизацию для всех этих параметров. Если вы хотите изменить параметры синхронизации, это можно сделать после настройки подключения. Дополнительные сведения см. в статье Об управлении подключением [Shifts к Blue Yonder Workforce Management с помощью PowerShell](shifts-connector-powershell-manage.md).
 
 1. Создает подключение.
-1. Карты сайтов WFM "Синий Yonder" в группы. Сопоставления основаны на ИД сайта WFM blue Yonder и TeamIds, которые вы вводите, или новых групп, которые вы создаете, в зависимости от сценария, который вы запустите. Если у группы есть существующее расписание, сценарий удаляет данные расписания для за указанного вами диапазона дат и времени.
+1. Карты сайты WFM Blue Yonder для команд. Сопоставления основаны на идентификаторах сайтов WFM Blue Yonder и TeamId, которые вы вводите, или на новых командах, которые вы создаете, в зависимости от скрипта, который вы выполняете. Если у команды есть существующее расписание, скрипт удаляет данные расписания для задаваемого диапазона даты и времени.
 
-Сообщение об успехе на экране указывает на то, что подключение успешно настроено.
+Сообщение об успешном выполнении на экране означает, что подключение успешно настроено.
 
-## <a name="if-you-need-to-make-changes-to-a-connection"></a>Если вам нужно внести изменения в подключение
+## <a name="if-you-need-to-make-changes-to-a-connection"></a>Если необходимо внести изменения в подключение
 
-Чтобы внести изменения в подключение после его настроки, см. использование PowerShell для управления подключением "Смены" к управлению ресурсами "Синий [Yonder"](shifts-connector-powershell-manage.md). Например, можно обновить параметры синхронизации, сопоставления команд и отключить синхронизацию для подключения.
+Сведения о внесении изменений в подключение после его настройки см. в разделе "Управление подключением к blue [Yonder Workforce Management с помощью PowerShell"](shifts-connector-powershell-manage.md). Например, можно обновить параметры синхронизации, сопоставления команд и отключить синхронизацию для подключения.
 
 ## <a name="scripts"></a>Сценарии
 
-### <a name="set-up-a-connection-and-create-new-teams-to-map"></a>Настройка подключения и создание новых групп для карты
+### <a name="set-up-a-connection-and-create-new-teams-to-map"></a>Настройка подключения и создание новых команд для сопоставления
 
 ```powershell
 #Map WFM sites to teams script
@@ -113,12 +123,6 @@ try {
 } catch {
     throw
 }
-
-#Authenticate with powershell as to the authorization capabilities of the caller.
-#Connect to Teams
-Write-Host "Connecting to Teams"
-Connect-MicrosoftTeams
-Write-Host "Connected"
 
 #Connect to MS Graph
 Connect-MgGraph -Scopes "User.Read.All","Group.ReadWrite.All"
@@ -178,7 +182,7 @@ $InstanceResponse = New-CsTeamsShiftsConnectionInstance -Name $InstanceName -Con
 $InstanceId = $InstanceResponse.id
 $Etag = $InstanceResponse.etag
 if ($InstanceId -ne $null){
-    Write-Host "Suceess"
+    Write-Host "Success"
 } else {
     throw "Connector instance creation failed"
 }
@@ -255,10 +259,9 @@ if ($decision -eq 1) {
 #The Teams admin was set as an owner directly when creating a new team, removing it from owners
 Remove-TeamUser -GroupId $TeamsTeamId -User $currentUser -Role Owner
 Disconnect-MgGraph
-Disconnect-MicrosoftTeams
 ```
 
-### <a name="set-up-a-connection-and-map-to-existing-teams"></a>Настройка подключения и карты для существующих команд
+### <a name="set-up-a-connection-and-map-to-existing-teams"></a>Настройка подключения и сопоставления с существующими командами
 
 ```powershell
 #Map WFM sites to existing teams script
@@ -272,12 +275,6 @@ try {
 } catch {
     throw
 }
-
-#Authenticate with powershell as to the authorization capabilities of the caller.
-#Connect to Teams
-Write-Host "Connecting to Teams"
-Connect-MicrosoftTeams
-Write-Host "Connected"
 
 #Connect to MS Graph
 Connect-MgGraph -Scopes "User.Read.All","Group.ReadWrite.All"
@@ -393,12 +390,11 @@ if ($decision -eq 1) {
 }
 }
 Disconnect-MgGraph
-Disconnect-MicrosoftTeams
 ```
 
-## <a name="shifts-connector-cmdlets"></a>Cmdlets connector shifts
+## <a name="shifts-connector-cmdlets"></a>Командлеты соединителя Shifts
 
-Для справки по соединительным системам Shifts, включая используемые в сценариях, найди **CsTeamsShiftsConnection** в ссылке на Teams [PowerShell](/powershell/teams/intro?view=teams-ps). Ниже lydlets (Ссылки на часто используемые cmdlets).
+Чтобы получить справку по командлетам соединителя Shifts, включая командлеты, используемые в скриптах, выполните поиск **CsTeamsShiftsConnection** в справочнике по [командлетам Teams PowerShell](/powershell/teams/intro?view=teams-ps). Ниже приведены ссылки на некоторые часто используемые командлеты.
 
 - [Get-CsTeamsShiftsConnectionOperation](/powershell/module/teams/get-csteamsshiftsconnectionoperation?view=teams-ps)
 - [New-CsTeamsShiftsConnectionInstance](/powershell/module/teams/new-csteamsshiftsconnectioninstance?view=teams-ps)
@@ -418,8 +414,8 @@ Disconnect-MicrosoftTeams
 
 ## <a name="related-articles"></a>Статьи по теме
 
-- [Соединитетели смен](shifts-connectors.md)
-- [Использование PowerShell для управления подключением к сменам для управления ресурсами "Синий Yonder"](shifts-connector-powershell-manage.md)
+- [Соединители shifts](shifts-connectors.md)
+- [Управление подключением Shifts к Blue Yonder Workforce Management с помощью PowerShell](shifts-connector-powershell-manage.md)
 - [Управление приложением "Смены"](manage-the-shifts-app-for-your-organization-in-teams.md)
 - [Обзор PowerShell в Teams](../../teams-powershell-overview.md)
-- [Teams справочник по Teams PowerShell](/powershell/teams/intro?view=teams-ps)
+- [Teams командлета PowerShell](/powershell/teams/intro?view=teams-ps)

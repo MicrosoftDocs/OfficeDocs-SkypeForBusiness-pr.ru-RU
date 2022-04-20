@@ -5,14 +5,14 @@ ms.date: 03/31/2022
 ms.topic: include
 audience: admin
 ms.service: msteams
-ms.openlocfilehash: c612f8d8e0f48249d9eabe19c5ae7513b0ae9d75
-ms.sourcegitcommit: 2388838163812eeabcbd5331aaf680b79da3ccba
+ms.openlocfilehash: 3d4ec38f0007460fa119e69eadc79cd9c51887ee
+ms.sourcegitcommit: 2ce3e95401ac06c0370a54862372a94ec6291d01
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "64593701"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "64976025"
 ---
-1. Установите PowerShell версии 7 или более поздней. Пошаговую инструкцию см. в этой [Windows.](/powershell/scripting/install/installing-powershell-on-windows)
+1. Установите PowerShell версии 7 или более поздней. Пошаговые инструкции см. в [статье об установке PowerShell Windows](/powershell/scripting/install/installing-powershell-on-windows).
 
 1. Запустите PowerShell в режиме администратора.
 1. Установите модуль Microsoft Graph PowerShell.
@@ -22,39 +22,32 @@ ms.locfileid: "64593701"
     Import-Module Microsoft.Graph
     ```
 
-    Убедитесь, что это версия 1.6.1 или более поздней.
+    Убедитесь, что это версия 1.6.1 или более поздняя.
 
     ```powershell
     Get-InstalledModule Microsoft.Graph 
     ```
 
-1. Установите модуль Teams Preview PowerShell.
+1. Установите модуль Teams Предварительной версии PowerShell.
 
     ```powershell
     Install-Module -Name MicrosoftTeams -AllowPrerelease -Force
     Import-Module MicrosoftTeams 
     ```
 
-    Убедитесь, что это версия не ниже 4.1.0 и содержит cmdlets соединителя Shifts.
+    Убедитесь, что он имеет версию не ниже 4.1.0 и содержит командлеты соединителя Shifts.
 
     ```powershell
     Get-Command -Module MicrosoftTeams -Name *teamsshiftsconnection* 
     ```
- 
-1. Установите модуль MSAL PowerShell.
 
-    ```powershell
-    Install-Module -Name MSAL.PS
-    Import-Module MSAL.PS
-    ```
-
-1. Установите powerShell на выход, если при запуске сценария возникает ошибка.
+1. Задайте выход Из PowerShell при возникновении ошибки при выполнении скрипта.
 
     ```powershell
     $ErrorActionPreference = "Stop" 
     ```
 
-1. В этой области можно включить сценарии для Windows.
+1. Включите сценарии для выполнения в Windows.
 
     ```powershell
     Set-ExecutionPolicy bypass 
