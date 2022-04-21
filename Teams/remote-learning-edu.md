@@ -19,10 +19,10 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: d061fa0cda1620980e7da68a345fc13acb6fc12a
-ms.sourcegitcommit: 1129841e68e927fe7cc31de3ad63a3e9247253cd
+ms.sourcegitcommit: bf0071417188b33fc23e2a420187da5024d4bd40
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2022
+ms.lasthandoff: 04/20/2022
 ms.locfileid: "62362985"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>Начните с Microsoft Teams для дистанционного обучения
@@ -42,7 +42,7 @@ ms.locfileid: "62362985"
 > - Быстро начните работу в Teams в своем образовательном заведении с помощью [**одностраничного документа по началу работу**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-for-education-getting-started-1-pager.pdf?raw=true).
 > - Скачайте документ [**Как начать работу с Teams**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/Teams-for-Education-ITAdmin-get-started-guide.pptx?raw=true) — руководство для ИТ-специалистов с полезными рекомендациями по безопасности и управлению изменениями.
 > - Сборник статей, написанных для преподавателей, включая практические рекомендации для наиболее важных [**первых шагов в обучении в Teams**](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114).
-> - 1-часовой онлайн-курс в Центре преподавателей Microsoft показывает, как преподаватели используют команды в своей профессиональной жизни. [**Преобразование обучения с помощью Microsoft Teams**](https://education.microsoft.com/course/9c9f5c11/overview).
+> - 1-часовой онлайн-курс в Microsoft Educator Center показывает, как преподаватели используют Teams в своей профессиональной жизни. [**Трансформируйте обучение с помощью Microsoft Teams**](https://education.microsoft.com/course/9c9f5c11/overview).
 > - 1-часовой онлайн-курс в Центре Microsoft Educator проводит преподавателей через обучение в групповых группах. [**Создание среды для совместной работы с помощью классических групп**](https://education.microsoft.com/course/b1e15cfc/overview).
 > - Если вы педагог, учащийся, родитель или опекун, получите дополнительные инструкции по [**дистанционному обучению и преподаванию с Office 365**](https://aka.ms/RemoteLearningHelp).
 > - Родители и опекуны также могут перейти на нашу [**Страницу поддержки родителей**](https://support.office.com/article/remote-learning-with-office-365-guidance-for-parents-and-guardians-89d514f9-bf5e-4374-a731-a75d38ddd588) для помощи в дистанционном обучении.
@@ -158,7 +158,7 @@ SDS создает команды за два этапа. На первом эт
 
 Такой гибридный подход позволяет создать группы для каждого класса (рекомендуется) в SDS или сделать это самостоятельно с помощью [API Graph](/graph/api/educationroot-post-classes). После подготовки групп классов преподаватель может преобразовать свои группы в команды с помощью значка **Рекомендуемые классы**.
 
-:::image type="content" source="media/class-teams-edu-suggested-classes.png" alt-text="Снимок экрана со значком "Рекомендуемые классы".":::
+:::image type="content" source="media/class-teams-edu-suggested-classes.png" alt-text="Снимок экрана со значком &quot;Рекомендуемые классы&quot;.":::
 
 ##### <a name="benefits"></a>Преимущества
 
@@ -232,7 +232,7 @@ SDS создает команды за два этапа. На первом эт
 
 - Развертывайте заранее! Разверните команды заранее, чтобы убедиться в их надежной работе и готовности к первому дню учебы.
 - Если у вас больше 500 000 команд, рекомендуем использовать [метод создания команд под руководством преподавателя](#educator-led-team-creation-from-office-365-class-groups). Он сокращает количество неиспользуемых команд и лишних элементов, так как создаются только нужные команды классов.  
-- Если возникнут проблемы с автоматическим созданием команд SDS (например, отсутствие классов), но они будут нужны преподавателям сразу, можно попробовать [метод создания команд под руководством преподавателя](#educator-led-team-creation-from-office-365-class-groups). Еще одно решение — [создание команды вручную](#manual-team-creation). Но при этом не обновляются данные о членстве в командах.  
+- Если есть проблемы (например, отсутствуют классы) с автоматическим созданием команды SDS, но это нужно сделать немедленно, можно использовать [ метод создания команды под руководством преподавателя](#educator-led-team-creation-from-office-365-class-groups), чтобы повторить попытку. [Создание команды вручную](#manual-team-creation) — еще одно решение, но это не будет обновлять членство в вашей команде  
 - Максимальное количество команд в клиенте — 500 000. Следовательно, администраторам следует заранее сократить количество неиспользуемых команд, чтобы настройка не затянулась из-за превышения этого предела. Дополнительные сведения об ограничениях см. в статье [Ограничения и спецификации для Microsoft Teams](limits-specifications-teams.md).  
 
 #### <a name="early-access-to-class-teams"></a>Ранний доступ к командам классов

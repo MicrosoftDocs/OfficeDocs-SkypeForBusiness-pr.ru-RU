@@ -17,10 +17,10 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 3c80b93ef457048d006fb7a7eb6085b3ed5d8eb4
-ms.sourcegitcommit: 1190cd73656dbc9131d46e0a827e28bcd960dfc5
+ms.sourcegitcommit: bf0071417188b33fc23e2a420187da5024d4bd40
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/17/2022
+ms.lasthandoff: 04/20/2022
 ms.locfileid: "62864032"
 ---
 # <a name="microsoft-teams-essentials-quickstart-guide-for-small-businesses"></a>Руководство по быстрому запуску Microsoft Teams базовый для малого бизнеса
@@ -97,7 +97,7 @@ Microsoft Teams базовый можно приобрести напрямую 
 
 
 > [!IMPORTANT] 
-> Чтобы получить расширенные возможности администрирования и полный набор функций Teams, перейдите на полную версию Teams, купив соответствующий [план подписки Microsoft 365 или Office 365](https://www.microsoft.com/en-us/microsoft-teams/compare-microsoft-teams-options) для пользователей. Рекомендуется сделать это, так как у вас будет больше гибкости для управления взаимодействием организации.
+> Чтобы воспользоваться улучшенным администрированием и полным набором функций Teams, вам необходимо перейти на полную версию Teams, купив для своих пользователей соответствующий [ план подписки на Microsoft 365 или Office 365](https://www.microsoft.com/en-us/microsoft-teams/compare-microsoft-teams-options). Мы рекомендуем это, потому что у вас будет больше гибкости для управления совместной работой вашей организации.
 
 ## <a name="administration-limits-and-specifications-for-microsoft-teams-essentials"></a>Ограничения и спецификации администрирования для Microsoft Teams базовый
 
@@ -109,9 +109,9 @@ Microsoft Teams базовый можно приобрести напрямую 
 
 Чтобы начать работу с Teams базовый, выполните следующие действия.
 
-1. **Приобретите подписку.** Перейдите на страницу [Microsoft Teams базовый для малого бизнеса](https://www.microsoft.com/microsoft-teams/compare-microsoft-teams-options) и выберите **Купить** в разделе Microsoft Teams базовый.
+1. **Приобретите подписку.** Перейдите в раздел [Microsoft Teams Essentials для малого бизнеса](https://www.microsoft.com/microsoft-teams/compare-microsoft-teams-options) и выберите **Купить сейчас** в разделе Microsoft Teams Essentials.
 2. **Зарегистрируйтесь с помощью существующего адреса электронной почты.** Используйте существующий адрес электронной почты и следуйте инструкциям по приобретению пользовательских лицензий.
-3. **Просмотрите описание службы Teams.** Дополнительные сведения о Microsoft Teams см. в [описании службы Microsoft Teams](/office365/servicedescriptions/teams-service-description).
+3. **Ознакомьтесь с описанием службы Teams.** Посетите [описание службы Microsoft Teams](/office365/servicedescriptions/teams-service-description), чтобы узнать больше о Microsoft Teams.
 
 После выполнения этих задач вы можете планировать, развертывать и использовать приложения Teams.
 
@@ -153,7 +153,7 @@ Microsoft Teams базовый можно приобрести напрямую 
 
 #### <a name="how-do-i-upgrade-my-organization"></a>Как выполнить переход в организации?
 
-Чтобы перейти на версию Microsoft Teams базовый, выберите **...** в верхнем меню навигации. Затем нажмите кнопку **Обновить**  в нижней части раскрывающегося меню.   :::image type="content" source="media/teams-free-upgrade-essentials.png" alt-text="снимок экрана: кнопка "Обновить""::: 
+Чтобы перейти на версию Microsoft Teams базовый, выберите **...** в верхнем меню навигации. Затем нажмите кнопку **Обновить**  в нижней части раскрывающегося меню.   :::image type="content" source="media/teams-free-upgrade-essentials.png" alt-text="снимок экрана: кнопка &quot;Обновить&quot;"::: 
 
 После нажатия кнопки **Обновить** в Teams вы будете направлены на страницу [Microsoft Teams для малого бизнеса](https://www.microsoft.com/microsoft-teams/upgrade-teams).
 
@@ -166,10 +166,10 @@ Microsoft Teams базовый можно приобрести напрямую 
 
 ### <a name="can-i-use-an-existing-email-system-with-microsoft-teams-essentials"></a>Можно ли использовать существующую почтовую систему с Microsoft Teams базовый?  
 
-Да. Вы можете сохранить существующую почтовую систему и использовать Teams базовый для собраний, чатов и совместной работы.  
+Да. Вы можете сохранить существующую систему обмена сообщениями и использовать Teams Essentials для встреч, общения и совместной работы.  
 
 ### <a name="can-i-connect-my-existing-calendar-solution-with-teams-essentials"></a>Можно ли подключить существующее решение календаря к Teams базовый?
-Да. Вы можете синхронизировать существующие календари из Outlook.com и Google с Teams базовый.
+Да. Вы можете синхронизировать существующие календари из Outlook.com и Google с Teams Essentials.
 
 Чтобы подключить существующее решение календаря к Teams базовый (удостоверение AAD), следуйте инструкциям ниже в этой статье.
 
