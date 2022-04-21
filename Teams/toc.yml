@@ -667,90 +667,94 @@ items:
                 href: teams-live-events/live-events-recording-policies.md
       - name: Аудиоконференции
         items:
-          - name: Планирование развертывания
-            href: deploy-audio-conferencing-teams-landing-page.md
-          - name: Аудиоконференции в Microsoft 365
+          - name: Аудиоконференции в M365
             href: audio-conferencing-in-office-365.md
-          - name: Конференц-связь по сети для аудиоконференций
-            href: audio-conferencing-on-network.md
-          - name: Общие вопросы об аудиоконференциях
-            href: audio-conferencing-common-questions.md
-          - name: Платная или пробная версия аудиоконференций в Microsoft 365
-            href: try-or-purchase-audio-conferencing-in-office-365-for-teams.md
+          - name: Планирование
+            items:
+              - name: Планирование развертывания
+                href: deploy-audio-conferencing-teams-landing-page.md
+              - name: Конференц-связь по сети для аудиоконференций
+                href: audio-conferencing-on-network.md
+              - name: Общие вопросы об аудиоконференциях
+                href: audio-conferencing-common-questions.md
+              - name: Платная или пробная версия аудиоконференций в Microsoft 365
+                href: try-or-purchase-audio-conferencing-in-office-365-for-teams.md
+          - name: Настройка
+            items:
+              - name: Настройка аудиоконференций
+                href: set-up-audio-conferencing-in-teams.md
+              - name: Настройка аудиоконференций — краткое руководство для малых и средних предприятий
+                href: audio-conferencing-smb.md
+          - name: Управление
+            items:
+              - name: Управление вашей службой аудиоконференций
+                items:
+                  - name: Дополнительные минуты исходящих звонков для США и Канады
+                    href: dial-out-minutes-canada-us.md
+                  - name: Преимущество подписки с аудиоконференциями "Обратный звонок"/"Позвонить мне на номер"
+                    href: /SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
+                  - name: Поминутная оплата аудиоконференций
+                    href: audio-conferencing-pay-per-minute.md
+              - name: Управление мостом аудиоконференций
+                items:
+                  - name: Изменение номеров телефонов для моста аудиоконференций
+                    href: change-the-phone-numbers-on-your-audio-conferencing-bridge.md
+                  - name: Изменение настроек для моста аудиоконференций
+                    href: change-the-settings-for-an-audio-conferencing-bridge.md
+                  - name: Просмотр списка номеров для аудиоконференций
+                    href: see-a-list-of-audio-conferencing-numbers-in-teams.md
+                  - name: Установка языков автосекретаря для аудиоконференций
+                    href: set-auto-attendant-languages-for-audio-conferencing-in-teams.md
+                  - name: Настройка подтверждения присоединения к собранию исходящим звонком для пользователей
+                    href: set-up-meeting-dial-out-confirmation.md
+              - name: Управление настройками аудиоконференций для организации
+                href: manage-the-audio-conferencing-settings-for-my-organization-in-teams.md
+              - name: Управление настройками аудиоконференций для пользователей
+                items:
+                  - name: Обзор
+                    href: manage-the-audio-conferencing-settings-for-a-user-in-teams.md
+                  - name: Список пользователей с включенными аудиоконференциями
+                    href: see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams.md
+                  - name: Разрешение пользователям записывать свои имена при присоединении к собранию
+                    href: enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md
+                  - name: Сброс идентификатора конференции для пользователя
+                    href: reset-a-conference-id-for-a-user-in-teams.md
+                  - name: Сброс ПИН-кода для аудиоконференции для пользователя
+                    href: reset-the-audio-conferencing-pin-in-teams.md
+                  - name: Автоматическая отправка пользователям писем при смене настроек
+                    href: emails-sent-to-users-when-their-settings-change-in-teams.md
+                  - name: Включение и отключение отправки писем при смене настроек аудиоконференций
+                    href: enable-or-disable-sending-emails-when-their-settings-change-in-teams.md
+                  - name: Параметры политики для платных и бесплатных номеров
+                    href: audio-conferencing-toll-free-numbers-policy.md
+                  - name: Отключение бесплатных номеров для отдельных пользователей
+                    href: disabling-toll-free-numbers-for-specific-teams-users.md
+                  - name: Политики ограничений для исходящих звонков аудиоконференций и пользовательских звонков по ТСОП
+                    href: outbound-calling-restriction-policies.md
+                  - name: 'Просмотр и сброс идентификатора конференции, назначенного пользователю'
+                    href: see-change-and-reset-a-conference-id-assigned-to-a-user-in-teams.md
+                  - name: Отправка пользователю сообщения электронной почты со сведениями об аудиоконференции
+                    href: send-an-email-to-a-user-with-their-dial-in-information-in-teams.md
+              - name: Управление настройками собраний для аудиоконференций
+                items:
+                  - name: 'Исходящие звонки, позволяющие другим людям присоединиться к собранию'
+                    href: dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md
+                  - name: Включение и отключение объявлений о входе и выходе в собраниях
+                    href: turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md
+                  - name: Установка длины ПИН-кода для собраний аудиоконференций
+                    href: set-the-pin-length-for-audio-conferencing-meetings-in-teams.md
+                  - name: 'Настройка телефонных номеров, включаемых в приглашения'
+                    href: set-the-phone-numbers-included-on-invites-in-teams.md
+                  - name: Начало аудиоконференции по телефону без ПИН-кода
+                    href: start-an-audio-conference-over-the-phone-without-a-pin-in-teams.md
+                  - name: Маскировка телефонных номеров в собраниях Teams
+                    href: ptsn-mask-phone-numbers.md
           - name: Operator Connect Conferencing
             items:
               - name: Обзор
                 href: operator-connect-conferencing-plan.md
               - name: Настройка Operator Connect Conferencing
                 href: operator-connect-conferencing-configure.md
-          - name: Дополнительные минуты исходящих звонков для США и Канады
-            href: dial-out-minutes-canada-us.md
-          - name: Льготный период обратных звонков для аудиоконференций
-            href: complimentary-dial-out-period.md
-          - name: Преимущество подписки с аудиоконференциями "Обратный звонок"/"Позвонить мне на номер"
-            href: audio-conferencing-subscription-dial-out.md
-          - name: Настройка аудиоконференций
-            href: set-up-audio-conferencing-in-teams.md
-          - name: Настройка аудиоконференций — краткое руководство для малых и средних предприятий
-            href: audio-conferencing-smb.md
-          - name: Назначение Майкрософт поставщиком услуг аудиоконференций
-            href: /SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
-          - name: Управление мостом аудиоконференций
-            items:
-              - name: Изменение номеров телефонов для моста аудиоконференций
-                href: change-the-phone-numbers-on-your-audio-conferencing-bridge.md
-              - name: Изменение настроек для моста аудиоконференций
-                href: change-the-settings-for-an-audio-conferencing-bridge.md
-              - name: Просмотр списка номеров для аудиоконференций
-                href: see-a-list-of-audio-conferencing-numbers-in-teams.md
-              - name: Установка языков автосекретаря для аудиоконференций
-                href: set-auto-attendant-languages-for-audio-conferencing-in-teams.md
-              - name: Настройка подтверждения присоединения к собранию исходящим звонком для пользователей
-                href: set-up-meeting-dial-out-confirmation.md
-          - name: Управление настройками аудиоконференций для организации
-            href: manage-the-audio-conferencing-settings-for-my-organization-in-teams.md
-          - name: Поминутная оплата аудиоконференций
-            href: audio-conferencing-pay-per-minute.md
-          - name: Управление настройками аудиоконференций для пользователей
-            items:
-              - name: Обзор
-                href: manage-the-audio-conferencing-settings-for-a-user-in-teams.md
-              - name: Список пользователей с включенными аудиоконференциями
-                href: see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams.md
-              - name: Разрешение пользователям записывать свои имена при присоединении к собранию
-                href: enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md
-              - name: Сброс идентификатора конференции для пользователя
-                href: reset-a-conference-id-for-a-user-in-teams.md
-              - name: Сброс ПИН-кода для аудиоконференции для пользователя
-                href: reset-the-audio-conferencing-pin-in-teams.md
-              - name: Автоматическая отправка пользователям писем при смене настроек
-                href: emails-sent-to-users-when-their-settings-change-in-teams.md
-              - name: Включение и отключение отправки писем при смене настроек аудиоконференций
-                href: enable-or-disable-sending-emails-when-their-settings-change-in-teams.md
-              - name: Отключение бесплатных номеров для отдельных пользователей
-                href: disabling-toll-free-numbers-for-specific-teams-users.md
-              - name: Политики ограничений для исходящих звонков аудиоконференций и пользовательских звонков по ТСОП
-                href: outbound-calling-restriction-policies.md
-              - name: 'Просмотр и сброс идентификатора конференции, назначенного пользователю'
-                href: see-change-and-reset-a-conference-id-assigned-to-a-user-in-teams.md
-              - name: Отправка пользователю сообщения электронной почты со сведениями об аудиоконференции
-                href: send-an-email-to-a-user-with-their-dial-in-information-in-teams.md
-          - name: Управление настройками собраний для аудиоконференций
-            items:
-              - name: 'Исходящие звонки, позволяющие другим людям присоединиться к собранию'
-                href: dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md
-              - name: Включение и отключение объявлений о входе и выходе в собраниях
-                href: turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md
-              - name: Установка длины ПИН-кода для собраний аудиоконференций
-                href: set-the-pin-length-for-audio-conferencing-meetings-in-teams.md
-              - name: 'Настройка телефонных номеров, включаемых в приглашения'
-                href: set-the-phone-numbers-included-on-invites-in-teams.md
-              - name: Начало аудиоконференции по телефону без ПИН-кода
-                href: start-an-audio-conference-over-the-phone-without-a-pin-in-teams.md
-              - name: Маскировка телефонных номеров в собраниях Teams
-                href: ptsn-mask-phone-numbers.md
-          - name: Доступность аудиоконференций в различных странах и регионах
-            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
           - name: Справочные материалы
             items:
               - name: Поддерживаемые языки аудиоконференций
@@ -759,6 +763,10 @@ items:
                 href: phone-numbers-for-audio-conferencing-in-teams.md
               - name: Доступность аудиоконференций в различных странах и регионах
                 href: audio-conferencing-zones.md
+              - name: Доступность аудиоконференций в различных странах и регионах
+                href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
+              - name: Льготный период обратных звонков для аудиоконференций
+                href: complimentary-dial-out-period.md
               - name: Видео- и аудиоконференции в Teams
                 href: ./audio-conferencing-in-office-365.md
   - name: Голосовая связь — телефонная система и связь с ТСОП
