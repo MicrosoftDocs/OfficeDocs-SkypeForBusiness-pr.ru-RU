@@ -1,7 +1,7 @@
 ---
 title: Поиск событий Microsoft Teams в журнале аудита
-author: markjjo
-ms.author: markjjo
+author: v-tophillips
+ms.author: v-tophillips
 manager: laurawi
 ms.topic: article
 audience: admin
@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Узнайте, как Microsoft Teams данные из журнала аудита на портале соответствия требованиям Microsoft Purview.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 744a18f2a8f7f2ed406853ef7efbc9842d0096f5
-ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
+ms.openlocfilehash: 82da7932fb87101ee04759ede3d96b68cbb64aa2
+ms.sourcegitcommit: 7d5266ae7e4a440ee45ab1873a30f4056bdcca1f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64922640"
+ms.lasthandoff: 04/22/2022
+ms.locfileid: "65031894"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Поиск событий Microsoft Teams в журнале аудита
 
@@ -141,7 +141,7 @@ ms.locfileid: "64922640"
 ||||
 
 > [!NOTE]
-> <sup>1</sup> Запись аудита для этого события регистрируется только при выполнении операции путем вызова microsoft API Graph. Если операция выполняется в клиенте Teams, запись аудита не регистрируется<br/><sup>2</sup> Это событие доступно только в режиме расширенного аудита. Это означает, что пользователям должна быть назначена соответствующая лицензия, прежде чем эти события будут регистрироваться в журнале аудита. Дополнительные сведения о действиях, доступных только в режиме расширенного аудита, см. в разделе ["Расширенный аудит" Microsoft 365](/microsoft-365/compliance/advanced-audit#advanced-audit-events). Дополнительные требования к лицензированию аудита см. в разделе "Решения аудита[" Microsoft 365](/microsoft-365/compliance/auditing-solutions-overview#licensing-requirements). <br/> <sup>3</sup> . Это событие находится в общедоступной предварительной версии.
+> <sup>1</sup> Запись аудита для этого события регистрируется только при выполнении операции путем вызова microsoft API Graph. Если операция выполняется в клиенте Teams, запись аудита не регистрируется<br/><sup>2</sup> Это событие доступно только в audit (Premium). Это означает, что пользователям должна быть назначена соответствующая лицензия, прежде чем эти события будут регистрироваться в журнале аудита. Дополнительные сведения о действиях, доступных только в режиме аудита (Premium), см. в разделе [аудита (Premium) в Microsoft Purview](/microsoft-365/compliance/advanced-audit#advanced-audit-events). Сведения о требованиях Premium аудита см. в разделе "Решения аудита[" в Microsoft 365](/microsoft-365/compliance/auditing-solutions-overview#licensing-requirements). <br/> <sup>3</sup> . Это событие находится в общедоступной предварительной версии.
 
 ## <a name="shifts-in-teams-activities"></a>Смены Teams действий
 

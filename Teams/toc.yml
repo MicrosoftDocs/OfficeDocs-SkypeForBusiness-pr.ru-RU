@@ -1547,8 +1547,6 @@ items:
             href: resource-specific-consent.md
           - name: Информация о разрешениях приложений и доступе к ресурсам
             href: app-permissions.md
-          - name: Параметры администратора для приложений в Teams
-            href: admin-settings.md
           - name: Поведение приложений в зависимости от типов пользователей
             href: non-standard-users.md
           - name: 'Обновление приложений до новых версий, выполняемое конечными пользователями'

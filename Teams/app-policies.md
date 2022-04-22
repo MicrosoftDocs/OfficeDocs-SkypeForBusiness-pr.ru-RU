@@ -1,5 +1,5 @@
 ---
-title: Управление политиками приложений в Teams
+title: Общие сведения о политиках приложений для управления приложениями в Teams
 author: guptaashish
 ms.author: guptaashish
 manager: prkosh
@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: ''
 search.appverid: ''
-description: Узнайте о Teams приложений.
+description: Сведения о политиках в Teams приложения.
 audience: admin
 ms.localizationpriority: medium
 MS.collection:
@@ -15,32 +15,32 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 691ad4a26a4d396b6f06dd478bd0012a94861d4f
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: 95adb8d95f003dc85596a55b16af594be828a1c2
+ms.sourcegitcommit: 06d1c50c9b55b062d61844a856676d9837fd5abe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070548"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "65030885"
 ---
-# <a name="manage-app-policies-in-microsoft-teams"></a>Управление политиками приложений в Microsoft Teams
+# <a name="overview-of-app-policies-used-to-manage-apps-in-microsoft-teams"></a>Общие сведения о политиках приложений, используемых для управления приложениями в Microsoft Teams
 
 Политики приложений используются для управления приложениями в Microsoft Teams.
 
 ## <a name="app-permission-policies"></a>Политики разрешений приложений
 
-**Политики разрешений приложений** используются для управления приложениями, доступными для пользователей. Как администратор вы можете разрешить или заблокировать определенные приложения, установленные пользователями из Teams App Store. [Управление политиками разрешений](teams-app-permission-policies.md) приложений Microsoft Teams центре администрирования.
+**Политики разрешений приложений** используются для управления приложениями, доступными для пользователей. Администратор может разрешить или заблокировать определенные приложения, которые пользователи устанавливают из Teams app Store. [Управление политиками разрешений](teams-app-permission-policies.md) приложений осуществляется через Microsoft Teams администрирования.
 
-![Снимок экрана: политика разрешений для приложений.](media/app-permission-policy.png)
+![Снимок экрана: политика разрешений приложения.](media/app-permission-policy.png)
 
-## <a name="app-setup-policies"></a>Политики настройки приложений
+## <a name="app-setup-policies"></a>Политики установки приложений
 
-**Политики настройки приложений** позволяют закрепить и установить приложения от имени пользователей и управлять этими настройками для вашей организации. [Управление политиками настройки](teams-app-setup-policies.md) приложений Teams центре администрирования.
+**Политики установки приложений** позволяют закреплять и устанавливать приложения от имени пользователей и управлять этими параметрами для вашей организации. [Управление политиками установки приложений](teams-app-setup-policies.md) Teams центре администрирования.
 
-![Снимок экрана: политика настройки приложений в Teams администрирования.](media/app-setup-policy.png)
+![Снимок экрана: политика установки приложения в Teams администрирования.](media/app-setup-policy.png)
 
-## <a name="custom-app-policies"></a>Настраиваемые политики приложений
+## <a name="custom-app-policies"></a>Пользовательские политики приложений
 
-Вы можете управлять тем, кто может загружать пользовательские приложения Teams с помощью **настраиваемой политики приложений**. [Настраиваемые параметры и политики](teams-custom-app-policies-and-settings.md) приложений настраиваются в Центре Microsoft Teams администрирования.
+Вы можете контролировать, кто может отправлять пользовательские приложения в Teams с помощью **настраиваемых политик приложений**. [Управление настраиваемыми параметрами и политиками](teams-custom-app-policies-and-settings.md) приложения осуществляется через Microsoft Teams администрирования.
 
 ![Снимок экрана: настраиваемая политика приложения.](media/custom-app-policy.png)
 
@@ -49,4 +49,4 @@ ms.locfileid: "63070548"
 * [Управление пользовательскими политиками и параметрами приложений в Teams](teams-custom-app-policies-and-settings.md)
 * [Управление политиками настройки приложений в Teams](teams-app-setup-policies.md)
 * [Управление политиками разрешений для приложений в Teams](teams-app-permission-policies.md)
-* [Управление Teams политиками](manage-teams-with-policies.md)
+* [Управление Teams с помощью политик](manage-teams-with-policies.md)

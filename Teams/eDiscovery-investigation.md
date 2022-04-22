@@ -1,7 +1,7 @@
 ---
 title: Проведение исследования содержимого при обнаружении электронных данных
-author: markjjo
-ms.author: markjjo
+author: v-tophillips
+ms.author: v-tophillips
 manager: laurawi
 ms.topic: article
 ms.service: msteams
@@ -17,12 +17,12 @@ description: Узнайте, что делать, если необходимо 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: d0906e24cc4bb749779bf432fe27c9c2af6ac0e3
-ms.sourcegitcommit: 204e4654f2c3977db260670f3ee1784d1ad6ed17
+ms.openlocfilehash: 207164f3e16768b7643d2bba2177d52d6b3940f3
+ms.sourcegitcommit: 7d5266ae7e4a440ee45ab1873a30f4056bdcca1f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "64866204"
+ms.lasthandoff: 04/22/2022
+ms.locfileid: "65031924"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Обнаружение электронных данных в Microsoft Teams
 
@@ -82,7 +82,7 @@ ms.locfileid: "64866204"
   > [!div class="mx-imgBorder"]
   > ![Метаданные собрания из копии соответствия.](media/conversationOption3.png)
 
-Дополнительные сведения о проведении исследования обнаружения электронных данных см. в начало работы [с core eDiscovery](/microsoft-365/compliance/get-started-core-ediscovery).
+Дополнительные сведения о проведении исследования обнаружения электронных данных см. в начало работы с обнаружением электронных данных (цен. категория "[Стандартный").](/microsoft-365/compliance/get-started-core-ediscovery)
 
 Microsoft Teams данных будут отображаться в виде мгновенных сообщений или бесед в выходных данных Excel экспорта eDiscovery. Вы можете открыть файл `.pst` в Outlook, чтобы просмотреть эти сообщения после их экспорта.
 
@@ -131,7 +131,7 @@ Microsoft Teams данных будут отображаться в виде м�
     Get-TeamChannelUser -GroupId <parent team GroupId> -DisplayName "Partner Shared Channel"
    ```
 
-4. Включите почтовые ящики владельцев и участников закрытого канала в поисковый запрос обнаружения электронных данных в [Core eDiscovery](/microsoft-365/compliance/search-for-content-in-core-ediscovery) или при обнаружении и сборе содержимого хранителя в [Advanced eDiscovery.](/microsoft-365/compliance/add-custodians-to-case)
+4. Включите почтовые ящики владельцев и участников закрытого канала в поисковый запрос обнаружения электронных данных в службе обнаружения электронных данных (цен. категория "Стандартный[")](/microsoft-365/compliance/search-for-content-in-core-ediscovery) или при определении и сборе содержимого хранителя в службе обнаружения электронных данных [(Premium)](/microsoft-365/compliance/add-custodians-to-case).
 
 ### <a name="identifying-the-sharepoint-site-for-private-and-shared-channels"></a>Определение SharePoint для частных и общих каналов
 
@@ -166,7 +166,7 @@ Microsoft Teams данных будут отображаться в виде м�
     foreach ($site in $sites) {$x= Get-SpoSite -Identity $site.url -Detail; if ($x.RelatedGroupId -eq $groupID) {$x.RelatedGroupId;$x.url}}
     ```
 
-4. Включите сайт, связанный с частным или общим каналом, как часть поискового запроса обнаружения электронных данных в [Core eDiscovery](/microsoft-365/compliance/search-for-content-in-core-ediscovery) или при определении и сборе содержимого [хранителя](/microsoft-365/compliance/add-custodians-to-case) в Advanced eDiscovery.
+4. Включите сайт, связанный с частным или общим каналом, как часть поискового запроса обнаружения электронных данных в [eDiscovery (](/microsoft-365/compliance/search-for-content-in-core-ediscovery)стандартный) или при определении и сборе содержимого хранителя в [eDiscovery (Premium)](/microsoft-365/compliance/add-custodians-to-case).
 
 ## <a name="search-for-content-for-guest-users"></a>Поиск содержимого для гостевых пользователей
 
@@ -251,6 +251,6 @@ Microsoft Teams данных будут отображаться в виде м�
 ## <a name="related-topics"></a>Статьи по теме
 
 - [Microsoft 365 обнаружения электронных данных](/microsoft-365/compliance/ediscovery)
-- [начало работы core eDiscovery](/microsoft-365/compliance/get-started-core-ediscovery)
-- [Teams рабочего процесса в Advanced eDiscovery](/microsoft-365/compliance/teams-workflow-in-advanced-ediscovery)
+- [начало работы обнаружения электронных данных (цен. категория "Стандартный")](/microsoft-365/compliance/get-started-core-ediscovery)
+- [Teams в службе обнаружения электронных данных (Premium)](/microsoft-365/compliance/teams-workflow-in-advanced-ediscovery)
 - [Обзор PowerShell в Teams](teams-powershell-overview.md)

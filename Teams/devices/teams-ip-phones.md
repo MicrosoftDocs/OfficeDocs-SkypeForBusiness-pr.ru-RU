@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Узнайте, какие стационарные и конференции сертифицированы для Microsoft Teams для получения наилучших результатов.
-ms.openlocfilehash: 353b96f1270ac1f7e52d454f76821b321c60a3e9
-ms.sourcegitcommit: 5bfd2e210617e4388241500eeda7b50d5f2a0ba3
+ms.openlocfilehash: 29cc086cd88ccf801eb1b19e56833f36e6ef86b6
+ms.sourcegitcommit: 06d1c50c9b55b062d61844a856676d9837fd5abe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2022
-ms.locfileid: "64885017"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "65030895"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams сертифицированных устройств Android
 
@@ -237,6 +237,8 @@ ms.locfileid: "64885017"
 
 | Модель устройства  | Версия встроенного ПО | Включенный выпуск продукта |
 |:--------------|:-----------------|:-------------------------|
+| Logi Вайс |   `1.5.705`   | Обновление 1 за 2022 г.    |
+| Logi Rallybar Mini   |   `1.5.705`   | Обновление 1 за 2022 г.    |
 | Logi Rallybar    |   `1.5.705`   | Обновление 1 за 2022 г.    |
 | EPOS EXPAND Vision 3T |`1.2.4.22042.05`   | Обновление 1 за 2022 г. |
 | AudioCodes RXV80 | `1.16.164 `   | Обновление 1 за 2022 г. |

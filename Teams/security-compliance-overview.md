@@ -22,12 +22,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e2e0238439bb79a7ca7833ef082f4f499c082aa9
-ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
+ms.openlocfilehash: 1c41ac53e95c179fc62b5e2e469bb614cbdcd516
+ms.sourcegitcommit: 7d5266ae7e4a440ee45ab1873a30f4056bdcca1f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64922620"
+ms.lasthandoff: 04/22/2022
+ms.locfileid: "65031904"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Безопасность и соответствие требованиям в Microsoft Teams
 
@@ -149,9 +149,9 @@ Microsoft 365 предоставляет дополнительный урове
 
 У нас есть Teams для получения дополнительных сведений в статье "Проведение исследования электронных данных о содержимом в Microsoft Teams["](eDiscovery-investigation.md).
 
-Клиенты могут использовать обнаружение электронных данных [или](/microsoft-365/compliance/office-365-advanced-ediscovery) Advanced eDiscovery согласно своим требованиям. Разница между двумя этими подходами описана в следующей таблице:
+Клиенты могут использовать обнаружение электронных данных или [обнаружение электронных данных (Premium)](/microsoft-365/compliance/office-365-advanced-ediscovery) в соответствии со своими требованиями. Разница между двумя этими подходами описана в следующей таблице:
 
-|&nbsp; |Обнаружение электронных данных  |Advanced eDiscovery  |
+|&nbsp; |Обнаружение электронных данных  |обнаружение электронных данных (Premium)  |
 |---------|---------|---------|
 |Управление обращениями     |X        |X         |
 |Управление доступом  |X         |X         |
@@ -216,7 +216,7 @@ Microsoft 365 предоставляет дополнительный урове
 Сведения об определении требований лицензирования для реализации функций безопасности и соответствия требованиям см. в разделе [](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance) о требованиях к лицензированию для функций обеспечения безопасности и соответствия требованиям.
 
 > [!NOTE]
-> Для работы поиска контента, обнаружения основных электронных данных и Advanced eDiscovery не нужно включить на портале соответствия требованиям Microsoft Purview. Дополнительные сведения см[. в Microsoft 365 решениях для обнаружения электронных данных](/microsoft-365/compliance/ediscovery).
+> Для работы поиска контента, обнаружения электронных данных (стандартная версия) и обнаружения электронных данных (Premium) не требуется включить на портале соответствия требованиям Microsoft Purview. Дополнительные сведения см[. в Microsoft 365 решениях для обнаружения электронных данных](/microsoft-365/compliance/ediscovery).
 
 ## <a name="location-of-data-in-teams"></a>Расположение данных в Teams
 
