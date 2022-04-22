@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 647e5e12f7140abc3da8dc63964d5b94d9785e16
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: 0d9cb6888243f86e1967105720e3859fa905cfb5
+ms.sourcegitcommit: 06d1c50c9b55b062d61844a856676d9837fd5abe
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711513"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "65030905"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Ограничения и спецификации для Microsoft Teams
 
@@ -124,6 +124,7 @@ ms.locfileid: "63711513"
 |------------|---------------|
 |Количество людей на встрече (могут общаться и звонить)  | 1000, включает GCC, GCCH и DoD, но пока не включает A1 (300). Режим **только просмотр** позволяет 20 000 участников подключиться в режиме прослушивания к собранию, у организатора которого есть лицензия на SKU E3/E5/A3/A5, а также выпуск для государственных организаций (GCC, GCC High, DoD). Интерфейс только для просмотра скоро также будет доступен для вебинаров. Узнайте больше о [взаимодействии в режиме "Только просмотр"](view-only-meeting-experience.md).<sup>1,2</sup>|
 |Количество людей, подключившихся к видео- или аудиоконференции из чата | 20 |
+|Количество одновременных активных звонков | 4 |
 |Максимальный размер файла PowerPoint | 2 ГБ|
 |Teams хранит [записи собраний](cloud-recording.md), которые не отправляются в Microsoft Stream и доступны для скачивания | 20 дней |
   

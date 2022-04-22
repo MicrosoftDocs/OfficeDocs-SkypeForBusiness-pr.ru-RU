@@ -295,7 +295,7 @@ items:
             href: legal-hold.md
           - name: Поиск контента
             href: content-search.md
-          - name: Рабочий процесс Teams в Advanced eDiscovery
+          - name: Рабочий процесс Teams в eDiscovery (премиум)
             href: /microsoft-365/compliance/teams-workflow-in-advanced-ediscovery
           - name: Аудит
             href: audit-log-events.md
@@ -989,7 +989,7 @@ items:
             href: network-roaming-policy.md
       - name: Экстренные вызовы
         items:
-          - name: Обзор
+          - name: Общие сведения
             href: what-are-emergency-locations-addresses-and-call-routing.md
           - name: Настройка динамических экстренных вызовов
             href: configure-dynamic-emergency-calling.md
@@ -1157,7 +1157,7 @@ items:
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md
           - name: Ограничения и запреты для бесплатных номеров
             items:
-              - name: Обзор
+              - name: Общие сведения
                 href: toll-free-dialing-limitations-and-restrictions.md
               - name: Аргентина
                 href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-argentina.md
