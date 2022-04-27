@@ -17,12 +17,12 @@ description: Узнайте, как управлять приложениями 
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: a6e6adbfbed5e1b371655ca74aa6ca6c717490c9
-ms.sourcegitcommit: 06d1c50c9b55b062d61844a856676d9837fd5abe
+ms.openlocfilehash: 2a4062bbf71c3ad112a52a10ad9c1b3ff71f3dad
+ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "65030945"
+ms.lasthandoff: 04/26/2022
+ms.locfileid: "65059080"
 ---
 # <a name="manage-teams-apps-in-the-microsoft-teams-admin-center"></a>Управление Teams приложениями в Microsoft Teams администрирования
 
@@ -30,9 +30,9 @@ ms.locfileid: "65030945"
 
 ![Снимок экрана: страница "Управление приложениями".](media/manage-apps.png)
 
-Для управления приложениями используются следующие политики для управления разрешениями для пользователей, установки приложений и отправки пользовательских приложений, созданных в организации. Сведения о политиках см [. в разделе "Общие сведения о политиках приложений"](app-policies.md).
+Чтобы использовать Teams администрирования, необходимо быть глобальным администратором или администратором Teams службы. Дополнительные сведения см[. в Teams роли администратора](./using-admin-roles.md).
 
-Дополнительные сведения о получении ролей и разрешений администратора см. Teams [роли администратора](./using-admin-roles.md).
+Для управления приложениями используются политики для управления разрешениями для пользователей, установки приложений и отправки пользовательских приложений, созданных в организации. Сведения о политиках см [. в разделе "Общие сведения о политиках приложений"](app-policies.md).
 
 > [!NOTE]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]

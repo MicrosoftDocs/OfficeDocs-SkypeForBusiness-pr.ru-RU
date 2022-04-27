@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: Узнайте, какие USB-периферийные устройства (например, гарнитуры, динамики, веб-камеры и мониторы) сертифицированы для Microsoft Teams.
-ms.openlocfilehash: e9196c52d74d8cdc7b0f511a3310e93228fe1bae
-ms.sourcegitcommit: 3beef904411a9d5787a73678464003a868630649
+ms.openlocfilehash: ee6f3c2634b44c4c510deb2c7a50818f6bc5ef7c
+ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/12/2022
-ms.locfileid: "64817661"
+ms.lasthandoff: 04/26/2022
+ms.locfileid: "65059220"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>USB-аудио- и видеоустройства, сертифицированные для Microsoft Teams
 
@@ -75,6 +75,9 @@ ms.locfileid: "64817661"
 ## <a name="certified-devices"></a>Сертифицированные устройства
 
 *Таблица обновлена в апреле 2022 г.*
+
+> [!NOTE]
+> Формат даты — MMDDYYYY.
 
 | Производитель        | Модели                                                     | Квалифицированных      | Сертифицированная программа                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|

@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6afd8cbf6a62665dbdb4c472df9620d623011452
-ms.sourcegitcommit: 3beef904411a9d5787a73678464003a868630649
+ms.openlocfilehash: 95f3b03ddad75cd36bb6dbbfd51eac08d7742aac
+ms.sourcegitcommit: 20d44ce9a62ba2fb60f989d2e7bbc9333055e783
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/12/2022
-ms.locfileid: "64817710"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "65063260"
 ---
 # <a name="manage-voice-recognition-technology-controls-for-an-intelligent-speaker"></a>Управление элементами управления технологиями распознавания речи для интеллектуального динамика
 
@@ -44,7 +44,7 @@ ms.locfileid: "64817710"
 Поддерживаются интеллектуальные динамики Epos, Sennheiser и Yealink.
 
 > [!NOTE]
-> Intelligent Speaker доступен во всех странах и регионах, кроме Индии, которая пока не поддерживается. Список [языков, поддерживаемых](#supported-locales) в настоящее время для биометрической регистрации и транскрибирования на собрании, см. в разделе "Поддерживаемые языковые стандарты".
+> Intelligent Speaker доступен во всех странах и регионах. Список [языков, поддерживаемых](#supported-locales) в настоящее время для биометрической регистрации и транскрибирования на собрании, см. в разделе "Поддерживаемые языковые стандарты".
 
 ## <a name="set-up-an-intelligent-speaker"></a>Настройка интеллектуального динамика
 

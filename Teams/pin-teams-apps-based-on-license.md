@@ -1,5 +1,5 @@
 ---
-title: Адаптация Teams приложений для сотрудников без компьютеров
+title: Настройка приложений Teams для сотрудников без компьютеров
 author: LanaChin
 ms.author: v-lanachin
 ms.reviewer: aaglick
@@ -15,14 +15,14 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fb5bf166d9f7253a5cb72ffc92b674613d959334
-ms.sourcegitcommit: bf0071417188b33fc23e2a420187da5024d4bd40
+ms.openlocfilehash: 5c3112740ab2b25b0f0107823d41c5b5e2d68f0f
+ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/20/2022
-ms.locfileid: "64961292"
+ms.lasthandoff: 04/26/2022
+ms.locfileid: "65059310"
 ---
-# <a name="tailor-teams-apps-for-your-frontline-workers"></a>Адаптация Teams приложений для сотрудников без компьютеров
+# <a name="tailor-teams-apps-for-your-frontline-workers"></a>Настройка приложений Teams для сотрудников без компьютеров
 
 > [!NOTE]
 > Эта функция в настоящее время развертывается и может быть недоступна в вашей организации. Чтобы не отключались от предстоящих Teams, ознакомьтесь с Microsoft 365 [стратегии](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams).
@@ -32,6 +32,8 @@ ms.locfileid: "64961292"
 Teams предоставляет простой способ закрепить приложения для сотрудников без компьютеров. Эта функция закрепляет приложения на основе лицензии, чтобы предоставить сотрудникам без компьютеров встроенные возможности в Teams, адаптированные для их потребностей.
 
 Благодаря специализированным интерфейсным приложениям ваши сотрудники переднего плана получают наиболее релевантные приложения в Teams без каких-либо действий от администратора.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4VuCH]
 
 ## <a name="tailored-frontline-app-experience"></a>Специализированное интерфейсное приложение
 
