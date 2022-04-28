@@ -1327,34 +1327,28 @@ items:
                 href: rooms/security.md
               - name: Интернет-лицензирование
                 href: rooms/rooms-licensing.md
-              - name: Рекомендации по использованию условного доступа и соответствия требованиям Intune
-                href: rooms/conditional-access-and-compliance-for-devices.md
-              - name: Поддерживаемые политики условного доступа и соответствия требованиям Intune
-                href: rooms/supported-ca-and-compliance-policies.md
               - name: Планирование управления с помощью Azure Monitor
                 href: rooms/azure-monitor-plan.md
           - name: Развертывание
             items:
               - name: Обзор развертывания
                 href: rooms/rooms-deploy.md
-              - name: Настройка учетных записей
-                href: rooms/rooms-configure-accounts.md
               - name: Создание учетных записей ресурсов
                 href: rooms/with-office-365.md
-              - name: В Skype для бизнеса Server
-                href: rooms/with-skype-for-business-server-2015.md
               - name: Настройка консоли
                 href: rooms/console.md
+              - name: Проверка подлинности
+                items:
+                  - name: Настройка проверки подлинности
+                    href: rooms/rooms-authentication.md
+                  - name: Рекомендации по использованию условного доступа и соответствия требованиям Intune
+                    href: rooms/conditional-access-and-compliance-for-devices.md
+                  - name: Поддерживаемые политики условного доступа и соответствия требованиям Intune
+                    href: rooms/supported-ca-and-compliance-policies.md
               - name: Обновление устройства вручную
                 href: rooms/manual-update.md
-              - name: Настройка проверки подлинности
-                href: rooms/rooms-authentication.md
-              - name: Присоединение к сторонним собраниям
-                href: rooms/third-party-join.md
               - name: Управление с помощью Azure Monitor
                 href: rooms/azure-monitor-deploy.md
-              - name: Перенос SRS версии 1 или LRS
-                href: rooms/lrs-migration.md
               - name: Камеры содержимого
                 href: rooms/content-camera.md
               - name: Элементы управления распознаванием голоса для интеллектуальных динамиков
@@ -1371,11 +1365,13 @@ items:
                 href: rooms/rooms-manage.md
               - name: Обслуживание и эксплуатация
                 href: rooms/rooms-operations.md
+              - name: Присоединение к сторонним собраниям
+                href: rooms/third-party-join.md
               - name: Известные проблемы
                 href: /microsoftteams/troubleshoot/teams-devices-and-rooms/rooms-known-issues
-              - name: Устройства с Azure Monitor
+              - name: Управление устройствами с помощью Azure Monitor
                 href: rooms/azure-monitor-manage.md
-              - name: Управление настройками с помощью XML-файла
+              - name: Управление параметрами с помощью XML-файла
                 href: rooms/xml-config-file.md
               - name: Использование средства восстановления
                 href: rooms/recovery-tool.md
@@ -1481,6 +1477,8 @@ items:
             href: /skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
           - name: Планирование развертывания телефонов и дисплеев
             href: devices/plan-device-deployment.md
+          - name: Учетные записи ресурсов для Skype для бизнеса Server
+            href: rooms/with-skype-for-business-server-2015.md
   - name: Управление приложениями
     items:
       - name: Обзор
