@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Сведения об управлении Комнаты Microsoft Teams.
-ms.openlocfilehash: e214d0b438ea7dd9b710a7aba8597de6c5b76bdf
-ms.sourcegitcommit: 0967f725aad0a7b9c430b2e30a37ea333007558a
+ms.openlocfilehash: d57f84aa07c90b6a75693f0cbf739402a6e90a4c
+ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "65106264"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65125474"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Комнаты Microsoft Teams обслуживания и операций
  
@@ -37,6 +37,15 @@ powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\Scrip
 ```
 
 Журналы будут записываться в ZIP-файле в каталоге c:\rigel.
+
+### <a name="managing-disk-space"></a>Управление диском
+<a name="Space"> </a>
+
+Загруженные журналы на устройстве могут занимать место на диске. Если журналы не очищаются регулярно, они могут мешать нормальной работе комнаты. Комнаты Teams удаляет загруженные журналы через 30 дней. ИТ-администраторы могут переопределить очистку журнала с помощью параметра реестра устройств.
+
+|Параметр|Позволяет|
+|:-----|:-----|
+|HKLM\SOFTWARE\Microsoft\PPI\SkypeSettings\LogCleanupAgeThreshold  <br/> |Очищает журналы через 30 дней.  <br/> |
   
 ## <a name="front-of-room-display-settings"></a>Параметры отображения переднего плана комнаты
 <a name="Display"> </a>

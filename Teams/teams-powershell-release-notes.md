@@ -13,12 +13,12 @@ ms.collection:
 description: Узнайте о последних изменениях в Teams PowerShell.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 66ed3281b2376810e4a87db8103b4b140e4675bd
-ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
+ms.openlocfilehash: 827f38a2be539583a30d6b94341bbfa76203f8c4
+ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64922450"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65125664"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Microsoft Teams о выпуске PowerShell
 
@@ -31,6 +31,7 @@ ms.locfileid: "64922450"
 
 | Дата | Версия | Обновления |
 |------- | -------------------- | ------------------------------ |
+| Апрель 2022 г. | [4.2.1-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/4.2.1-preview) |<li>Исправляет обработку ошибок для командлетов [SetRemove\|]-CsPhoneNumberAssignment.</li><li>[Получить\| SetRemove\|]-CsOnlineLisSubnet — исправления для параметра подсети в современных командлетах.</li><li>[Получить\| Set]-CsOnlineLisLocation & [GetSet\|]-CsOnlineLisCivicAddress — исправления поддерживаемых параметров в современных командлетах.</li>
 | Апрель 2022 г. | [4.2.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.2.0) |<li>Поддержка прокси-сервера для всех командлетов, относящихся к Teams. Поддерживаемые командлеты развертываются постепенно.</li><li>Устранены проблемы с [NewSet\|]: современные командлеты политики при использовании с параметрами типа PSListModifier.</li><li>[КРИТИЧЕСКОЕ ИЗМЕНЕНИЕ] Параметры типа PSListModifier принимают только хэш-таблицу с добавлением или удалением. Хэш-таблица с заменой сейчас не поддерживается. Вместо этого значения можно задать непосредственно в параметре.</li><li>Устранены проблемы с форматированием [GetNew\|]: несколько командлетов современной политики (CsVideoInteropServiceProvider, CsInboundBlockedNumberPattern, CsTeamsComplianceRecordingApplication, CsTeamsTranslationRule, CsTeamsUnassignedNumberTreatment, CsVoiceNormalizationRule).</li><li>Повышена производительность обработки входных данных конвейера с помощью современных командлетов.</li><li>Устраняет незначительные проблемы с результатами ввода конвейера.</li><li>Get-CsOnlineUser: добавлен атрибут Country (известный как CountryOrRegionDisplayName в версиях, предшествующих 3.x.x).</li><li>[КРИТИЧЕСКОЕ ИЗМЕНЕНИЕ] Get-CsOnlineUser: атрибут CountryAbbreviation теперь доступен только при использовании с параметром -Identity.</li>
 | Март 2022 г. | [4.1.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.1.0) |<li>Устраняет проблемы с переменными предупреждений и ошибок.</li><li>Устранены проблемы с использованием современных командлетов с пространствами выполнения PowerShell.</li><li>Выпуски командлетов [GetNewSetRemove\|\|\|]-CsTeamsShiftsConnectionInstance.</li><li>Выпуски командлетов [GetNewRemove\|\|]-CsTeamsShiftsConnectionTeamMap.</li><li>Освобождает командлеты Get-CsTeamsShiftsConnectionWfm[UserTeam\|].</li><li>Выпуски Get-CsTeamsShiftsConnectionConnector, Get-CsTeamsShiftsConnectionSyncResult, New-CsTeamsShiftsConnectionBatchTeamMap, Remove-CsTeamsShiftsScheduleRecord, Test-CsTeamsShiftsConnectionValidate, Get-CsTeamsShiftsConnectionOperation & Get-CsTeamsShiftsConnectionErrorReport Cmdlets.</li>
 | Март 2022 г. | [4.0.1-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/4.0.1-preview) |<li>Устранены проблемы с общим параметром ErrorAction.</li>

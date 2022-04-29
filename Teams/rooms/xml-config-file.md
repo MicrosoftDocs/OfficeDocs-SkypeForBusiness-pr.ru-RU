@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-mar2020
 description: Удаленное управление параметрами по умолчанию, используемыми устройством Комнаты Microsoft Teams, включая применение пользовательской темы и создание файла основных параметров.
-ms.openlocfilehash: ae529b99fc2e76aeb6c7f511de533be57b65ac08
-ms.sourcegitcommit: 0967f725aad0a7b9c430b2e30a37ea333007558a
+ms.openlocfilehash: c363dce55df4d9bdcf125492c2ca92b3b20feba7
+ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "65106284"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65125464"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>Удаленное управление Комнаты Microsoft Teams консоли с помощью XML-файла конфигурации
 
@@ -64,6 +64,8 @@ ms.locfileid: "65106284"
   <DisableTeamsAudioSharing>true</DisableTeamsAudioSharing>
   <FrontRowEnabled>true</FrontRowEnabled>
   <DefaultFoRExperience>0</DefaultFoRExperience>
+  <EnablePublicPreview>false</EnablePublicPreview>
+  <NoiseSuppressionDefault>0</NoiseSuppressionDefault>
   <SendLogs>
     <EmailAddressForLogsAndFeedback>username@microsoft.com</EmailAddressForLogsAndFeedback>
     <SendLogsAndFeedback>True</SendLogsAndFeedback>
@@ -137,6 +139,8 @@ ms.locfileid: "65106284"
 | \<DisableTeamsAudioSharing\>                | Логические &#x2777;            | Первый &#x2776; | Задайте значение true, чтобы отключить общий доступ к аудиоданных HDMI участникам собрания Teams собрании. Значение по умолчанию — False.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | \<FrontRowEnabled>                          | Логические &#x2777;            | Первый &#x2776; | По умолчанию данная возможность включена. Если значение равно false, строка переднего плана отключена.
 | \<DefaultFoRExperience>                     | Логические &#x2777;            | Первый &#x2776; | Представление коллекции по умолчанию. Поместите 1, чтобы изменить макет по умолчанию из представления коллекции на front Row.
+| \<EnablePublicPreview\>                     | Логические &#x2777;            | Первый &#x2776; | По умолчанию данная возможность отключена. Если значение равно true, общедоступная предварительная версия включена, и конечные пользователи могут получить доступ к функциям в общедоступной предварительной версии Комнаты Teams. [Дополнительные сведения см. в Комнаты Microsoft Teams предварительной версии Windows](../public-preview-doc-updates.md#public-preview-for-microsoft-teams-rooms-on-windows). |
+| \<NoiseSuppressionDefault\>                 | Логические &#x2777;            | Первый &#x2776; | По умолчанию данная возможность включена. Отключите значение 0. Отключение не повлияет на настройку рабочего стола, которая применяется только Teams учетной записи комнаты.
 | \<CortanaWakewordEnabled\>                  | Логические &#x2777;            | Первый &#x2776; | Задайте значение true, чтобы включить Кортана "Привет, Кортана". Этот параметр не действует, если служба Кортана не поддерживается в вашей стране или регионе, а подключенное звуковое периферийное устройство Кортана. Значение по умолчанию — False.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | \<SendLogs\>                                | Контейнер                   | Первый &#x2776; |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | \<EmailAddressForLogsAndFeedback\>          | Строковый &#x2778;            |                | Задает необязательный адрес электронной почты, на который можно отправлять журналы при появлении окна "Отправить отзыв".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |

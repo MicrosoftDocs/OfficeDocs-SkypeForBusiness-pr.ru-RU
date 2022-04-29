@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.users.activity.audioqualitycolumn
 - Reporting
 description: Используйте телеметрию в режиме реального времени с подробными сведениями об устройствах, сетях и подключении для устранения проблем пользователей с Microsoft Teams запланированных собраниях.
-ms.openlocfilehash: 09c31b7734a849740cf1b0ff5749e4d82c667faf
-ms.sourcegitcommit: bf0071417188b33fc23e2a420187da5024d4bd40
+ms.openlocfilehash: 4f56e50ddc8ac861e109bbc4d4a2a74533043d24
+ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/20/2022
-ms.locfileid: "62518731"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65125804"
 ---
 # <a name="use-real-time-telemetry-to-troubleshoot-poor-meeting-quality"></a>Использование телеметрии в режиме реального времени для устранения неполадок с качеством собраний
 
@@ -57,11 +57,11 @@ Real-Time Analytics отображает подробные сведения о 
 
 Чтобы получить дополнительные сведения о участниках собрания, которое выполняется, включая статистику устройства, сети и звука, найдите собрание в разделе "Недавние  собрания" и щелкните ссылку в столбце **"Участники**".
 
-:::image type="content" alt-text="Снимок экрана: таблица сведений о участнике." source="media/participant-details.png" lightbox="media/participant-details.png":::
+:::image type="content" alt-text="Снимок экрана: таблица сведений о участнике." source="media/participant-details-edit.png" lightbox="media/participant-details-edit.png":::
 
 Чтобы просмотреть данные телеметрии заданного пользователя для выполнения собрания, включая сведения об устройстве, сети, звуке, видео и сведениях о совместном использовании содержимого, выберите идентификатор **собрания**.
 
-:::image type="content" alt-text="Снимок экрана: данные сеанса пользователя аналитики звонков." source="media/real-time-telemetry.png" lightbox="media/real-time-telemetry.png":::
+:::image type="content" alt-text="Снимок экрана: данные сеанса пользователя аналитики звонков." source="media/real-time-telemetry-edit.png" lightbox="media/real-time-telemetry-edit.png":::
 
 ## <a name="measures-available-in-real-time-analytics"></a>Меры, доступные в Real-Time Analytics
 
