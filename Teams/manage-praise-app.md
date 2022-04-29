@@ -9,12 +9,12 @@ ms.topic: article
 ms.service: msteams
 ms.localizationpriority: medium
 description: Узнайте, как управлять приложением Благодарность в центре Microsoft Teams администрирования.
-ms.openlocfilehash: 364fb60b6a729062e358685426acd98704c7ac02
-ms.sourcegitcommit: bf0071417188b33fc23e2a420187da5024d4bd40
+ms.openlocfilehash: 16f59a8fbe0958a63f824762cfede020dbf54b8e
+ms.sourcegitcommit: 836926a4914eb33fc3e0d8d6c84cee886cb1a5a7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/20/2022
-ms.locfileid: "63442685"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65136980"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>Управление приложением Благодарность в центре Microsoft Teams администрирования
 
@@ -31,7 +31,7 @@ ms.locfileid: "63442685"
 
 :::image type="content" source="media/manage-praise-app-admin-center.png" alt-text="Снимок экрана: Благодарность сведений о приложении в центре администрирования Teams, на которой отображается переключатель &quot;Состояние&quot;.":::
 
-1. В левой панели навигации Центра администрирования Microsoft Teams выберите **Приложения Teams** > **Управление приложениями**.
+1. В левой области центра администрирования Microsoft Teams перейдите к Teams **appsManage** > .
 2. В списке приложений найдите Благодарность, выберите его, а затем переключите переключатель "Состояние" на  **"Заблокировано**" или "**Разрешено"**.
 
 Помните, что этот параметр влияет как на Благодарность, так и на Благодарность в приложении Viva Аналитика в Teams.
