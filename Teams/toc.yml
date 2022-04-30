@@ -451,6 +451,8 @@ items:
                 href: teams-analytics-and-reports/pstn-minute-pools-report.md
               - name: Отчет об использовании ТСОП
                 href: teams-analytics-and-reports/pstn-usage-report.md
+              - name: Отчет об использовании исходящих вызовов аудиоконференций Teams
+                href: audio-conferencing-dial-out-usage-report.md
               - name: Отчет об использовании трансляций в Teams
                 href: teams-analytics-and-reports/teams-live-event-usage-report.md
               - name: Отчет лицензии для защиты информации Teams
@@ -543,9 +545,9 @@ items:
         items:
           - name: Общение с пользователями из других организаций
             href: communicate-with-users-from-other-organizations.md
-          - name: Внешний доступ (федерация)
+          - name: Внешние собрания и чат
             items:
-              - name: Управление внешним доступом
+              - name: Управление внешними собраниями и чатом
                 href: manage-external-access.md
               - name: Встроенные чаты Teams
                 href: native-chat-for-external-users.md
