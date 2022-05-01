@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Узнайте, какие пограничные контроллеры сеансов (SCS) были сертифицированы для прямой маршрутизации.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d8a1a3e739188859cf34ea60c0160e9532a9ab3d
-ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
+ms.openlocfilehash: 2ebc88b42257ca6f6f6cdce482d042b0dc3b406c
+ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/30/2022
-ms.locfileid: "64556580"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65125764"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>Пограничные контроллеры сеансов, сертифицированные для прямой маршрутизации
 
@@ -49,9 +49,7 @@ ms.locfileid: "64556580"
 
 В следующих таблицах перечислены устройства, сертифицированные для прямой маршрутизации. (Сведения о том, какие поставщики SBC поддерживают оптимизацию локальных файлов мультимедиа, см. в разделе [Настройка оптимизации локальных файлов мультимедиа для прямой маршрутизации](direct-routing-media-optimization-configure.md).)
 
-[Дополнительные сведения о прямой маршрутизации](https://aka.ms/dr).
-Если у вас есть вопросы по программе сертификации SBC для прямой маршрутизации, напишите нам по адресу drsbccertification@microsoft.com. Обратите внимание, что мы не принимаем новые заявки на сертификацию до дополнительного уведомления.
-<br/>
+[Дополнительные сведения о прямой маршрутизации](https://aka.ms/dr). Обратите внимание, что мы не принимаем новые заявки на сертификацию до дополнительного уведомления.<br/>
 
 ## <a name="certified-sbc-vendors"></a>Сертифицированные поставщики SBC
 
@@ -91,8 +89,7 @@ ms.locfileid: "64556580"
 |                                 |     Cisco Unified Border Element (CUBE) для маршрутизаторов служб агрегации серии 1000      |     &#10004;   | &#10004; |      Поддерживается IOS XE Amsterdam 17.2.1r (рекомендуется 17.6.1a)         |    &#10004;     |    |
 |                                 |     Cisco Unified Border Element (CUBE) для пограничных платформ Catalyst 8000      |     &#10004;   | &#10004; |      Поддерживается IOS XE Amsterdam 17.3.2 (рекомендуется 17.6.1a)      |    &#10004;     |    |
 |                     [Avaya](https://support.avaya.com/products/P0997/avaya-session-border-controller-for-enterprise/8.1.x)|    Пограничный контроллер сеансов Avaya для предприятий (ASBCE)    |     &#10004;     |       &#10004;     |       Выпуск 8.1.1 (8.1.2 для обхода сервера-посредника)      |     |    |
-|                     [Nokia](https://documentation.nokia.com/aces/cgi-bin/chk_access.cgi/3TB30222GBAAACZZA.zip)|    Пограничный контроллер сеанса Nokia    |     &#10004;     |           |       19.5 (1908)       |     |    |
-|                     |    Пограничный контроллер сеанса Nokia    |     &#10004;     |           |       20.8       |      &#10004;        |    |
+|                     [Nokia](https://documentation.nokia.com/aces/cgi-bin/chk_access.cgi/3TB30222GBAAACZZA.zip)|    Пограничный контроллер сеанса Nokia    |     &#10004;     |      &#10004;     |       22.0       |   &#10004;  |    |
 |                     [Italtel](https://www.italtel.com/italtel-provides-direct-routing-sbc-for-microsoft-teams/)|    NetMatch-S CI     |     &#10004;     |      &#10004;     |       Поддерживаются: 5.0, 5.1 (рекомендуется 5.3)     |     |    |
 |                     [Ericsson](https://www.ericsson.com/en/portfolio/digital-services/cloud-communication/enterprise-communication/business-communication-services-and-enablers/sip-trunking)|    vSBC 2.16     |     &#10004;     |           |              |     |    |
 |                     [Cataleya](https://cataleya.com/orchidplatforms/)|    Ссылка Orchid    |     &#10004;     |           |      3.1        |     |    |
