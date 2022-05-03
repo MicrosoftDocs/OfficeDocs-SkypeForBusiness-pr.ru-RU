@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 328f2676ccec6cd1450166d7032877e176d5f1cd
-ms.sourcegitcommit: 745d707ec63685ce7f973785e7056628472b9c45
+ms.openlocfilehash: 7c00a5e70684a93f31a11d48ac542920fca3b697
+ms.sourcegitcommit: 9f7372f7568b4275169590510d2b7a0c0ad7577b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "64910825"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "65171735"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Управление политиками настройки приложений в Microsoft Teams
 
@@ -80,7 +80,7 @@ ms.locfileid: "64910825"
 
 1. На панели **приложений или** в **расширениях** для обмена сообщениями расположите приложения в том порядке, в котором они должны отображаться в Teams.
 
-   ![Раздел закрепленных приложений.](media/pin-messaging-extensions.png)
+   :::image type="content" source="media/pin-messaging-extensions.png" alt-text="Раздел закрепленных приложений"border="true":::
 
 1. Нажмите **Сохранить**.
 
