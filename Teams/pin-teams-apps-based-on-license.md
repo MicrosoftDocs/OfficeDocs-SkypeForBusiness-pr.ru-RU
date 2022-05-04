@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5c3112740ab2b25b0f0107823d41c5b5e2d68f0f
-ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
+ms.openlocfilehash: 4f717672c4cb297d7f3d2e95ceaa038eeceaa2ee
+ms.sourcegitcommit: ad8447b683381bc07f993bf843a93a4bdb77d840
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2022
-ms.locfileid: "65059310"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "65187125"
 ---
 # <a name="tailor-teams-apps-for-your-frontline-workers"></a>Настройка приложений Teams для сотрудников без компьютеров
 
@@ -29,7 +29,7 @@ ms.locfileid: "65059310"
 
 ## <a name="overview"></a>Обзор
 
-Teams предоставляет простой способ закрепить приложения для сотрудников без компьютеров. Эта функция закрепляет приложения на основе лицензии, чтобы предоставить сотрудникам без компьютеров встроенные возможности в Teams, адаптированные для их потребностей.
+Teams закрепляет приложения на основе лицензии, чтобы предоставить сотрудникам без компьютеров встроенные возможности в Teams, адаптированные для их потребностей. 
 
 Благодаря специализированным интерфейсным приложениям ваши сотрудники переднего плана получают наиболее релевантные приложения в Teams без каких-либо действий от администратора.
 
