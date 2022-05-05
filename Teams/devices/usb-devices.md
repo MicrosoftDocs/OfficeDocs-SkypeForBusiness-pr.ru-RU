@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: Узнайте, какие USB-периферийные устройства (например, гарнитуры, динамики, веб-камеры и мониторы) сертифицированы для Microsoft Teams.
-ms.openlocfilehash: ee6f3c2634b44c4c510deb2c7a50818f6bc5ef7c
-ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
+ms.openlocfilehash: 272d0c0eb1b3885da9a313666c8eac2d7bb09fe0
+ms.sourcegitcommit: e102d72e67ab1c440c29ae6a048fc2cf8545fe01
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2022
-ms.locfileid: "65059220"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "65217923"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>USB-аудио- и видеоустройства, сертифицированные для Microsoft Teams
 
@@ -74,13 +74,16 @@ ms.locfileid: "65059220"
 
 ## <a name="certified-devices"></a>Сертифицированные устройства
 
-*Таблица обновлена в апреле 2022 г.*
+*Таблица обновлена за май 2022 г.*
 
 > [!NOTE]
 > Формат даты — MMDDYYYY.
 
 | Производитель        | Модели                                                     | Квалифицированных      | Сертифицированная программа                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Yealink              |ГАРНИТУРА 38                                               |5/2/2022        |Сертифицировано для Microsoft Teams                           |   
+|Yealink              |Гарнитура BH72                                               |5/2/2022        |Сертифицировано для Microsoft Teams                           |
+|Logitech             |Беспроводные наушники зоны True                                 |5/2/2022        |Сертифицировано для Microsoft Teams                           |
 |Lenovo               |Беспроводная гарнитура ANC Go                                    |4/11/2022       |Сертифицировано для Microsoft Teams                           |
 |ЭПОС                 |ADAPT 661                                                  |3/11/2022       |Сертифицировано для Microsoft Teams                           |
 |ЭПОС                 |ADAPT 461T                                                 |3/11/2022       |Сертифицировано для Microsoft Teams                           |
