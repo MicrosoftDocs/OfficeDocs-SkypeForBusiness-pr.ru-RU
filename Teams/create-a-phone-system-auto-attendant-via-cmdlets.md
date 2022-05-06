@@ -1,5 +1,5 @@
 ---
-title: Создание автозавода с помощью рабочихлетов
+title: Создание автосекретаря с помощью командлетов
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -21,84 +21,84 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: Узнайте, как настроить автоотвещающий с помощью cmdlets
-ms.openlocfilehash: 3911010b201e2b19376c24c6c4b84ae8dbcc5db8
-ms.sourcegitcommit: 79dfda39db208cf943d0f7b4906883bb9d034281
+description: Узнайте, как настроить автосекретарей с помощью командлетов
+ms.openlocfilehash: 8161071a277f7f98633d5e2f5b80a069c1908215
+ms.sourcegitcommit: c06d806778f3e6ea4b184bae271e55c34fd9594d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62457469"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "65244926"
 ---
-# <a name="create-an-auto-attendant-via-cmdlets"></a>Создание автозавода с помощью рабочихлетов
+# <a name="create-an-auto-attendant-via-cmdlets"></a>Создание автосекретаря с помощью командлетов
 
 ## <a name="assumptions"></a>Предположения
-1)  На компьютере установлена powerShell
+1)  На компьютере установлен PowerShell
 - Настройка компьютера [для Windows PowerShell](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
-- Модуль MSTeams установлен ````  (Install-Module -Name MicrosoftTeams -Force -AllowClobber) ````
-- Модуль MSOnline установлен ```` Install-Module -Name MSOnline -Force -AllowClobber ````
+- Установленный модуль MSTeams ````  (Install-Module -Name MicrosoftTeams -Force -AllowClobber) ````
+- Установленный модуль MSOnline ```` Install-Module -Name MSOnline -Force -AllowClobber ````
 2)  У вас есть права на администрирование клиента
 3)  Вы приобрели Microsoft Teams Телефон
-4)  Очереди вызовов, на которые ссылается ниже, уже были настроены в соответствии с руководством по созданию очередей вызовов с помощью [powerShell](create-a-phone-system-call-queue-via-cmdlets.md) .
+4)  Очереди вызовов, указанные ниже, уже настроены в руководстве по созданию очередей вызовов с помощью [командлетов PowerShell](create-a-phone-system-call-queue-via-cmdlets.md) .
                                                                                                
-Примечание. Некоторые командлеты, на которые ссылается ниже, могут быть частью общедоступных предварительных версий Teams PowerShell.  Дополнительные сведения см. в Teams предварительной версии [PowerShell](teams-powershell-install.md) и заметках о выпуске [PowerShell Microsoft Teams PowerShell](teams-powershell-release-notes.md).
+Примечание. Некоторые командлеты, на которые ссылаются ниже, могут быть частью общедоступной предварительной версии Teams PowerShell.  Дополнительные сведения см. в Teams [powerShell](teams-powershell-install.md), а также в Microsoft Teams [выпуске PowerShell](teams-powershell-release-notes.md).
 
-Пользователям, у которых уже установлен модуль MicrosoftTeams ````Update-Module MicrosoftTeams```` , необходимо установить наиболее новую версию.
+Пользователи, у которых уже установлен модуль MicrosoftTeams ````Update-Module MicrosoftTeams```` , должны убедиться, что установлена самая последняя версия.
 
 ## <a name="scenario"></a>Сценарий
 
-Будет создан следующий поток вызовов автоотетаря:
+Будет создан следующий поток вызовов автосекретаря:
 
-![Схема потока автоматических вызовов, который строится с помощью комлетов.](media/create-a-phone-system-auto-attendant-via-cmdlets.png)
+![Схема автоматического потока вызовов attenant, который создается с помощью командлетов.](media/create-a-phone-system-auto-attendant-via-cmdlets.png)
 
 Дополнительные сведения о конфигурации:
 
-- Автозаводец: Contso Main
-- - Оператор: Адели Вандер (Adele Vance)
-- - Включить голосовой ввод: Выключите
-- - Поиск по каталогу: нет
+- Автосекретарь: Contso Main
+- - Оператор: Адель Вэнс (Adele Vance)
+- - Включение голосовых входных данных: выкл.
+- - Поиск по каталогам: нет
 - - Праздники:
 - - - 1 января 2022 г.
 - - - 24 декабря 2022 г.
 - - - 25 декабря 2022 г.
 
-- Auto Attendant: Contoso Dial By Name
-- - Оператор: Адели Вандер (Adele Vance)
+- Автосекретарь: contoso Dial By Name
+- - Оператор: Адель Вэнс (Adele Vance)
 - - Часовой пояс: UTC
 - - Язык: английский (США)
-- - Включить голосовой ввод: В включить
+- - Включение голосовых входов: включено
 - - Приветствие: нет
-- - Меню: TTS: "Пожалуйста, скажите или введите имя человека, с которого вы хотите связаться. Чтобы вернуться к предыдущему меню, нажмите 9"
-- - Поиск по каталогу: набор номера по имени
-- - Область набора номера: участники & по продажам
+- - Меню: TTS: "Скажите или введите имя человека, к которому вы хотите обратиться. Чтобы вернуться к предыдущему меню, нажмите 9"
+- - Поиск по каталогам: набор номера по имени
+- - Dial Scope: Sales & Support members
 
 ## <a name="login"></a>Вход
-Вам будет предложено ввести свои учетные данные Teams администратора.
+Вам будет предложено ввести учетные данные Teams администратора.
 ```
 $credential = Get-Credential
 Connect-MicrosoftTeams -Credential $credential
 Connect-MsolService -Credential $credential
 ````
 
-## <a name="get-operator-information"></a>Получить сведения об операторе
+## <a name="get-operator-information"></a>Получение сведений об операторе
 ````
-$operatorID = (Get-CsOnlineUser -Identity “sip:adele@contoso.com”).ObjectID
+$operatorID = (Get-CsOnlineUser -Identity “sip:adele@contoso.com”).Identity
 
 $operatorEntity = New-CsAutoAttendantCallableEntity -Identity $operatorID -Type User
 ````
 
-## <a name="dial-by-name-auto-attendant---resource-account-creation"></a>Dial By Name Auto Attendant - Resource Account Creation
-Примечание. Создав здесь учетную запись ресурса, на нее можно ссылаться в главном автозаводе.  Автозаводщик набора номера будет создан позднее.
+## <a name="dial-by-name-auto-attendant---resource-account-creation"></a>Автосекретарь набора по имени — создание учетной записи ресурса
+Примечание. Создайте здесь учетную запись ресурса, чтобы на нее можно было ссылаться на главного автосекретаря.  Фактический автосекретарь набора по имени будет создан позже.
 
-### <a name="get-license-types"></a>Получить типы лицензий
+### <a name="get-license-types"></a>Получение типов лицензий
 ````
 Get-MsolAccountSku
 ````
 
 ### <a name="create-and-assign-resource-account"></a>Создание и назначение учетной записи ресурса
-Примечание. Телефон номер, который здесь не требуется, так как очередь  вызовов заканчивается автоотехнщиком
+Примечание. Телефон номер не требуется, так как очередь вызовов заканчивается автосекретарем
 - ApplicationID
-- - Автоотчет: ce933385-9390-45d1-9512-c8d228074e07
-- - Очередь  вызовов: 11cd3e2e-fccb-42ad-ad00-878b93575e07
+- - Автосекретарь: ce933385-9390-45d1-9512-c8d228074e07
+- - Очередь вызовов: 11cd3e2e-fccb-42ad-ad00-878b93575e07
 ````
 New-CsOnlineApplicationInstance -UserPrincipalName ContosoDialByNameAA-RA@contoso.com -DisplayName "Contoso Dial By Name AA" -ApplicationID "ce933385-9390-45d1-9512-c8d228074e07"
 
@@ -109,8 +109,8 @@ Set-MsolUserLicense -UserPrincipalName “ContosoDialByNameAA-RA@contoso.com” 
 $dialByNameApplicationInstanceID = (Get-CsOnlineUser "ContosoDialByNameAA-RA@contoso.com").ObjectID
 ````
 
-## <a name="contoso-main-menu-auto-attendant"></a>Автозаводщик главного меню Contoso
-### <a name="create-holiday-schedules"></a>Создание расписания праздников
+## <a name="contoso-main-menu-auto-attendant"></a>Автосекретарь главного меню Contoso
+### <a name="create-holiday-schedules"></a>Создание расписаний на праздники
 ````
 $dtr = New-CsOnlineDateTimeRange -Start "24/12/2022" -End "25/12/2022"
 
@@ -121,12 +121,12 @@ $dtr = New-CsOnlineDateTimeRange -Start "01/01/2022" -End "02/01/2022"
 $newyearSchedule = New-CsOnlineSchedule -Name "New Year" -FixedSchedule -DateTimeRanges @($dtr)
 ````
 
-### <a name="create-address-fax-and-email-information-prompt"></a>Запрос на создание адреса, факса и сведений электронной почты
+### <a name="create-address-fax-and-email-information-prompt"></a>Запрос на создание адреса, факса и электронной почты
 ````
 $addressPrompt = New-CsAutoAttendantPrompt -TextToSpeechPrompt "To repeat this information at any time press the * key. Our mailing address is: 123 Main Street, Any town, Any Place, County. Our email address is: info@contoso.com. Our fax number is: 929-555-0151"
 ````
 
-### <a name="create-holiday-prompts-and-menu-options"></a>Создание праздничных подсказок и параметров меню
+### <a name="create-holiday-prompts-and-menu-options"></a>Создание запросов на праздники и параметров меню
 ````
 $christmasGreetingPrompt = New-CsAutoAttendantPrompt -TextToSpeechPrompt "Thank you for calling Contoso. Our offices ae currently closed for the Christmas holiday. Our Sales and Support teams will be happy to take your call on the next business day. Regular business hours are Monday through Friday from 8:30 am to 5:00 pm and Saturday from 10:00 am to 4:00 pm eastern time. Thank you for calling Contso."
 
@@ -149,7 +149,7 @@ $newyearCallFlow = New-CsAutoAttendantCallFlow -Name "New Year" -Greetings @($ne
 $newyearCallHandlingAssociation = New-CsAutoAttendantCallHandlingAssociation -Type Holiday -ScheduleId $newyearSchedule.Id -CallFlowId $newyearCallFlow.Id
 ````
 
-### <a name="create-after-hours-schedules"></a>Создание расписа дней
+### <a name="create-after-hours-schedules"></a>Создание расписаний в нерабочее время
 ````
 $timerangeMoFr = New-CsOnlineTimeRange -Start 08:30 -end 17:00
 
@@ -158,7 +158,7 @@ $timerangeSa = New-CsOnlineTimeRange -Start 10:00 -end 16:00
 $afterHoursSchedule = New-CsOnlineSchedule -Name "After Hours Schedule" -WeeklyRecurrentSchedule -MondayHours @($timerangeMoFr) -TuesdayHours @($timerangeMoFr) -WednesdayHours @($timerangeMoFr) -ThursdayHours @($timerangeMoFr) -FridayHours @($timerangeMoFr) -SaturdayHours @($timerangeSa) -Complement
 ````
 
-### <a name="create-after-hours-prompts-and-menu-options"></a>Создание подсказок и параметров меню
+### <a name="create-after-hours-prompts-and-menu-options"></a>Создание запросов в нерабочее время и параметров меню
 ````
 $afterHoursGreetingPrompt = New-CsAutoAttendantPrompt -TextToSpeechPrompt "Thank you for calling Contoso. Our offices are now closed. Regular business hours are Monday through Friday from 8:30 am to 5:00 pm and Saturday from 10:00 am to 4:00 pm eastern time."
 
@@ -176,7 +176,7 @@ $afterHoursMenuOption2Entity = New-CsAutoAttendantCallableEntity -Identity $afte
 
 $afterHoursMenuOption2 = New-CsAutoAttendantMenuOption -Action TransferCallToTarget -DtmfResponse Tone2 -CallTarget $afterHoursMenuOption2Entity
 
-$dialbynameAAOption3Target = (Get-CsOnlineUser -Identity “ContosoDialByNameAA-RA@contso.com”).ObjectID
+$dialbynameAAOption3Target = (Get-CsOnlineUser -Identity “ContosoDialByNameAA-RA@contso.com”).Identity
 
 $dialbynameAAMenuOption3Entity = New-CsAutoAttendantCallableEntity -Identity $dialbynameAAOption3Target -Type applicationendpoint
 
@@ -185,7 +185,7 @@ $dialbynameAAMenuOption3 = New-CsAutoAttendantMenuOption -Action TransferCallToT
 $afterHoursMenuOption4 = New-CsAutoAttendantMenuOption -Action Announcement -DtmfResponse Tone4 -Prompt $addressPrompt
 ````
 
-### <a name="create-after-hours-menu-and-call-flow"></a>Создание меню "Не по часам" и вызов Flow
+### <a name="create-after-hours-menu-and-call-flow"></a>Создание меню "Нерабочее время" и вызов Flow
 ````
 $afterHoursMenu = New-CsAutoAttendantMenu -Name "After Hours Menu" -MenuOptions @($afterHoursMenuOption1, $afterHoursMenuOption2, $dialbynameAAMenuOption3, $afterHoursMenuOption4) -Prompt $afterHoursMenuPrompt
 
@@ -194,7 +194,7 @@ $afterHoursCallFlow = New-CsAutoAttendantCallFlow -Name "After Hours Call Flow" 
 $afterHoursCallHandlingAssociation = New-CsAutoAttendantCallHandlingAssociation -Type AfterHours -ScheduleId $afterHoursSchedule.Id -CallFlowId $afterHoursCallFlow.Id
 ````
 
-### <a name="create-open-hours-prompts-and-menu-options"></a>Создание подсказок и параметров меню в открытом времени
+### <a name="create-open-hours-prompts-and-menu-options"></a>Создание запросов и параметров меню "Часы открытия"
 ````
 $openHoursGreetingPrompt = New-CsAutoAttendantPrompt -TextToSpeechPrompt " Thank you for calling Contoso."
 
@@ -217,27 +217,27 @@ $openHoursMenuOption4 = New-CsAutoAttendantMenuOption -Action Announcement -Dtmf
 $openHoursMenuOption0 = New-CsAutoAttendantMenuOption -Action TransferCallToOperator -DtmfResponse Tone0
 ````
 
-### <a name="create-open-hours-menu"></a>Меню "Создание открытых часов"
+### <a name="create-open-hours-menu"></a>Меню "Создать часы открытия"
 ````
 $openHoursMenu = New-CsAutoAttendantMenu -Name "Open Hours Menu" -MenuOptions @($openHoursMenuOption1, $openHoursMenuOption2, $dialbynameAAMenuOption3, $openHoursMenuOption4, $openHoursMenuOption0) -Prompt $openHoursMenuPrompt
 
 $openHoursCallFlow = New-CsAutoAttendantCallFlow -Name "Open Hours Call Flow" -Greetings @($openHoursGreetingPrompt) -Menu $openHoursMenu
 ````
 
-### <a name="create-auto-attendant"></a>Создание автоотекатаря
+### <a name="create-auto-attendant"></a>Создание автосекретаря
 ````
 $autoAttendant = New-CsAutoAttendant -Name “Contoso Main” -DefaultCallFlow $openHoursCallFlow -CallFlows @($afterHoursCallFlow, $christmasCallFlow, $newyearCallFlow) -CallHandlingAssociations @($afterHoursCallHandlingAssociation, $christmasCallHandlingAssociation, $newyearCallHandlingAssociation) -LanguageId “en-US” -TimeZoneId “Eastern Standard Time” -Operator $operatorEntity
 ````
 
-### <a name="get-license-types"></a>Получить типы лицензий
+### <a name="get-license-types"></a>Получение типов лицензий
 ````
 Get-MsolAccountSku
 ````
 
 ### <a name="create-and-assign-resource-account"></a>Создание и назначение учетной записи ресурса
 - ApplicationID
-- - Автоотчет: ce933385-9390-45d1-9512-c8d228074e07
-- - Очередь  вызовов: 11cd3e2e-fccb-42ad-ad00-878b93575e07
+- - Автосекретарь: ce933385-9390-45d1-9512-c8d228074e07
+- - Очередь вызовов: 11cd3e2e-fccb-42ad-ad00-878b93575e07
 ````
 New-CsOnlineApplicationInstance -UserPrincipalName ContosoMainAA-RA@contoso.com -DisplayName "Contoso Main AA" -ApplicationID "ce933385-9390-45d1-9512-c8d228074e07"
 
@@ -245,26 +245,26 @@ Set-MsolUser -UserPrincipalName "ContosoMainAA-RA@contoso.com" -UsageLocation US
 
 Set-MsolUserLicense -UserPrincipalName “ContosoMainAA-RA@contoso.com” -AddLicenses "contoso:PHONESYSTEM_VIRTUALUSER"
 
-$applicationInstanceID = (Get-CsOnlineUser "ContosoMainAA-RA@contoso.com").ObjectID
+$applicationInstanceID = (Get-CsOnlineUser "ContosoMainAA-RA@contoso.com").Identity
 
 $autoAttendantID = (Get-CsAutoAttendant -NameFilter "Contoso Main").Identity
 
 New-CsOnlineApplicationInstanceAssociation -Identities @($applicationInstanceID) -ConfigurationID $autoAttendantID -ConfigurationType AutoAttendant
 ````
 
-### <a name="get-list-of-unassigned-service-numbers"></a>Получить список ненаученных номеров служб
+### <a name="get-list-of-unassigned-service-numbers"></a>Получение списка неназначенных номеров служб
 ````
 Get-CsOnlineTelephoneNumber -IsNotAssigned -InventoryType Service
 ````
 
 #### <a name="assign-available-phone-number"></a>Назначение доступного номера телефона
-Примечание. Место использования, назначенное номеру телефона, должно соответствовать расположению, назначенном для учетной записи ресурса.
+Примечание. Место использования, назначенное номеру телефона, должно совпадать с расположением использования, назначенным учетной записи ресурса.
 
 ````
 Set-CsPhoneNumberAssignment -Identity ContosoMainAA-RA@contoso.com -PhoneNumber +{spare number from output of above command} -PhoneNumberType CallingPlan
 ````
 
-## <a name="dial-by-name-auto-attendant---completion"></a>Набор номера по имени автозаводщика : завершение
+## <a name="dial-by-name-auto-attendant---completion"></a>Автосекретарь набора по имени — завершение
 ### <a name="create-dial-scope"></a>Создание области набора номера
 ````
 $salesGroupID = Find-CsGroup -SearchQuery "Sales" | % { $_.Id }
@@ -274,11 +274,11 @@ $supportGroupID = Find-CsGroup -SearchQuery "Support" | % { $_.Id }
 $dialScope = New-CsAutoAttendantDialScope -GroupScope -GroupIds @($salesGroupID, $supportGroupID)
 ````
 
-### <a name="create-prompts-and-menu-options"></a>Создание подсказок и параметров меню
+### <a name="create-prompts-and-menu-options"></a>Создание запросов и параметров меню
 ````
 $dialByNameMenuPrompt = New-CsAutoAttendantPrompt -TextToSpeechPrompt "Please say or enter the name of the person you would like to reach. To return to the previous menu press 9”
 
-$dialByNameMenuOption9Target = (Get-CsOnlineUser "ContosoMainAA-RA@contoso.com").ObjectID
+$dialByNameMenuOption9Target = (Get-CsOnlineUser "ContosoMainAA-RA@contoso.com").Identity
 
 $dialByNameMenuOption9Entity = New-CsAutoAttendantCallableEntity -Identity $dialByNameMenuOption9Target -Type applicationendpoint
 

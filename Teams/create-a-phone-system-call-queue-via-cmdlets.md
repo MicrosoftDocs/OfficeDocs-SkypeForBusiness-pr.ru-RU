@@ -1,5 +1,5 @@
 ---
-title: Создание очереди  вызовов с помощью cmdlets
+title: Создание очереди вызовов с помощью командлетов
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -23,101 +23,101 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
 - seo-marvel-apr2020
-description: Узнайте, как настроить очереди  вызовов с помощью cmdlets
-ms.openlocfilehash: aa3330af2a47c87fc71f63396b84f8ad017e19b5
-ms.sourcegitcommit: 79dfda39db208cf943d0f7b4906883bb9d034281
+description: Узнайте, как настроить очереди вызовов с помощью командлетов
+ms.openlocfilehash: bdaf538164a74a366779bd3a4928330a2bc3b085
+ms.sourcegitcommit: c06d806778f3e6ea4b184bae271e55c34fd9594d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62457449"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "65244906"
 ---
-# <a name="create-a-call-queue-via-cmdlets"></a>Создание очереди  вызовов с помощью cmdlets
+# <a name="create-a-call-queue-via-cmdlets"></a>Создание очереди вызовов с помощью командлетов
 
 ## <a name="assumptions"></a>Предположения
-1)  На компьютере установлена powerShell
+1)  На компьютере установлен PowerShell
 - Настройка компьютера [для Windows PowerShell](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
-- Модуль MSTeams установлен ````  (Install-Module -Name MicrosoftTeams -Force -AllowClobber) ````
-- Модуль MSOnline установлен ```` Install-Module -Name MSOnline -Force -AllowClobber ````
+- Установленный модуль MSTeams ````  (Install-Module -Name MicrosoftTeams -Force -AllowClobber) ````
+- Установленный модуль MSOnline ```` Install-Module -Name MSOnline -Force -AllowClobber ````
 2)  У вас есть права на администрирование клиента
 3)  Вы приобрели Microsoft Teams Телефон
-4)  Агенты, списки рассылки и Teams каналы, на которые ссылается ниже, уже созданы
+4)  Агенты, списки рассылки и Teams, указанные ниже, уже созданы.
 
-Примечание. Командлет Teams Channel, используемый ниже, является частью общедоступных предварительных версий Teams PowerShell.  Дополнительные сведения см. в Teams предварительной версии [PowerShell](teams-powershell-install.md) и заметках о выпуске [PowerShell Microsoft Teams PowerShell](teams-powershell-release-notes.md).
+Примечание. Командлет Teams Channel, используемый ниже, является частью общедоступной предварительной версии модуля Teams PowerShell.  Дополнительные сведения см. в Teams [powerShell](teams-powershell-install.md), а также в Microsoft Teams [выпуске PowerShell](teams-powershell-release-notes.md).
 
-Пользователям, у которых уже установлен модуль MicrosoftTeams ````Update-Module MicrosoftTeams```` , необходимо установить наиболее новую версию.
+Пользователи, у которых уже установлен модуль MicrosoftTeams ````Update-Module MicrosoftTeams```` , должны убедиться, что установлена самая последняя версия.
 
 
 ## <a name="scenario"></a>Сценарий
 
-Будут созданы три очереди  вызовов:
+Будут созданы следующие три очереди вызовов:
 
-Сведения о очереди  вызовов продаж:
-- При найме автозавода: Да
-- Прямые вызовы из ОКП: Нет
+Сведения о очереди звонков по продажам:
+- Перед автосекретарем: да
+- Прямой вызов из ТСОП: нет
 - Язык: английский (США)
 - Приветствие: нет
-- Музыка при удержании: звуковые файлы
-- - Filename: sales-hold-in-queue-music.wav
-- Ответы на звонки: пользователи
+- Музыка на удержании: воспроизведение звукового файла
+- - Имя файла: sales-hold-in-queue-music.wav
+- Ответы на вызовы: пользователи
 - - Bill@contoso.com
 - - Mary@contoso.com
-- Режим конференции: в режиме
-- Способ маршрутинга: Attendant
-- Маршруты на основе присутствия: Выключите
-- Агенты звонков могут отказаться от приема звонков: Да
-- Время оповещения агента звонка: 15
-- Обработка переполнения  вызовов: 200
-- - Перенаправить на: Adele@contoso.com
-- Обработка времени вызова: 120 секунд
-- - Перенаправить на: Adele@contoso.com
+- Режим конференции: включен
+- Метод маршрутизации: Attendant
+- Маршрутизация на основе присутствия: выкл.
+- Агенты вызовов могут отказаться от звонков: Да
+- Время оповещения агента вызова: 15
+- Обработка переполнения вызовов: 200
+- - Перенаправление на: Adele@contoso.com
+- Обработка времени ожидания вызова: 120 секунд
+- - Перенаправление на: Adele@contoso.com
 
-Сведения об очереди  вызовов службы поддержки:
-- При найме автозавода: Да
-- Прямые вызовы из ОКП: Нет
+Сведения о очереди звонков в службу поддержки:
+- Перед автосекретарем: да
+- Прямой вызов из ТСОП: нет
 -   Язык: английский (Соединенное Королевство)
--   Приветствие: звуковые файлы
+-   Приветствие: воспроизведение звукового файла
 -   - Имя файла: support-greeting.wav
--   Музыка при удержании: звуковые файлы
+-   Музыка на удержании: воспроизведение звукового файла
 -   - Имя файла: support-hold-in-queue-music.wav
--   Ответ на звонки: список рассылки поддержки
+-   Ответ на звонок: список рассылки поддержки
 -   - Support@contoso.com
--   Режим конференции: в режиме
--   Способ маршрутиста: longest Idle
--   Маршруты на основе присутствия: N/A — по умолчанию в сети из-за самой длинной неавтомайтной
--   Агенты звонков могут отказаться от приема звонков: Нет
--   Время оповещения агента звонка: 15
--   Обработка переполнения  вызовов: 200
+-   Режим конференции: включен
+-   Метод маршрутизации: самый длинный бездействующий
+-   Маршрутизация на основе присутствия: Н/Д — включена по умолчанию из-за самого длительного простоя
+-   Агенты вызовов могут отказаться от звонков: Нет
+-   Время оповещения агента вызова: 15
+-   Обработка переполнения вызовов: 200
 -   - Перенаправление: поддержка общей голосовой почты
-- - -   Звуковые файлы (support-shared-voicemail-greeting.wav)
-- - -   Транскрибация включена
--   Обработка времени вызова: 45 минут
+- - -   Воспроизведение звукового файла (support-shared-voicemail-greeting.wav)
+- - -   Транскрибирование включено
+-   Обработка времени ожидания звонков: 45 минут
 -   - Перенаправление: поддержка общей голосовой почты
-- - - TTS: "К сожалению, мы не можем ждать, а теперь перена можем перевести звонок на голосовую почту".
-- - - Транскрибация включена
+- - - TTS: "К сожалению, вы ждете и теперь переносите звонок на голосовую почту".
+- - - Транскрибирование включено
 
 
-Сведения о очереди для совместной работы с помещениями:
-- Fronted by Auto Attendant: No
-- Прямые вызовы из ДНР: Нет (только внутренние вызовы)
--   Язык: французский (FR)
+Сведения о очереди совместных вызовов Facilities:
+- Перед автосекретарем: нет
+- Прямой вызов из ТСОП: нет (только внутренние вызовы)
+-   Язык: французский fr
 -   Приветствие: нет
--   Музыка при удержании: по умолчанию
--   Ответ на звонки: Группа: помещения
--   Канал ответа на звонки: службы поддержки
+-   Музыка на удержании: по умолчанию
+-   Ответ на вызовы: Команда: средства
+-   Канал ответов на звонок: служба технической поддержки
 -   - Владелец канала: Fred@contoso.com
--   Режим конференции: в режиме
--   Способ маршрутии: Округл Илья
--   Маршруты на основе присутствия: В сети
--   Агенты звонков могут отказаться от приема звонков: Нет
--   Время оповещения агента звонка: 15
--   Обработка переполнения  вызовов: 200
+-   Режим конференции: включен
+-   Метод маршрутизации: Циклический перебор
+-   Маршрутизация на основе присутствия: включена
+-   Агенты вызовов могут отказаться от звонков: Нет
+-   Время оповещения агента вызова: 15
+-   Обработка переполнения вызовов: 200
 -   - Отключить
--   Обработка времени вызова: 45 минут
+-   Обработка времени ожидания звонков: 45 минут
 -   - Отключить
 
 
 ## <a name="login"></a>Вход
-Вам будет предложено ввести свои учетные данные Teams администратора.
+Вам будет предложено ввести учетные данные Teams администратора.
 ```
 $credential = Get-Credential
 Connect-MicrosoftTeams -Credential $credential
@@ -126,42 +126,42 @@ Connect-MsolService -Credential $credential
 
 ## <a name="sales-queue"></a>Очередь продаж
 ### <a name="create-audio-files"></a>Создание звуковых файлов
-Замените "d:\\" путем к месту хранения WAV-файлов на компьютере.
+Замените "d:\\" путем к папке, в которой хранятся WAV-файлы на компьютере.
 
 ````
 $content = Get-Content “d:\sales-hold-in-queue-music.wav” -Encoding byte -ReadCount 0
 $audioFileSalesHoldInQueueMusicID = (Import-CsOnlineAudioFile -ApplicationID HuntGroup -FileName "sales-hold-in-queue-music.wav" -Content $content).ID
 ````
 
-### <a name="get-users-id"></a>Получить ИД пользователей
+### <a name="get-users-id"></a>Получение идентификатора пользователей
 ````
-$userAdeleID = (Get-CsOnlineUser -Identity “sip:adele@contoso.com”).ObjectID
-$userSalesBillID = (Get-CsOnlineUser -Identity “sip:bill@contoso.com”).ObectID
-$userSalesMaryID = (Get-CsOnlineUser -Identity “sip:mary@contoso.com”).ObjectID
+$userAdeleID = (Get-CsOnlineUser -Identity “sip:adele@contoso.com”).Identity
+$userSalesBillID = (Get-CsOnlineUser -Identity “sip:bill@contoso.com”).Identity
+$userSalesMaryID = (Get-CsOnlineUser -Identity “sip:mary@contoso.com”).Identity
 ````
 
-### <a name="get-list-of-supported-languages"></a>Получить список поддерживаемых языков
+### <a name="get-list-of-supported-languages"></a>Получение списка поддерживаемых языков
 ````
 Get-CsAutoAttendantSupportedLanguage
 ````
 
-### <a name="create-call-queue"></a>Создание очереди  вызовов
+### <a name="create-call-queue"></a>Создание очереди вызовов
 ````
 New-CsCallQueue -Name “Sales” -AgentAlertTime 15 -AllowOptOut $true -MusicOnHoldAudioFileID $audioFileSalesHoldInQueueMusicID -OverflowAction Forward -OverflowActionTarget $userAdeleID -OverflowThreshold 200 -TimeoutAction Forward -TimeoutActionTarget $userAdeleID -TimeoutThreshold 120 -RoutingMethod Attendant -ConferenceMode $true -User @($userSalesBillID, $userSalesMaryID) -LanguageID “en-US”
 ````
 
-### <a name="get-license-types"></a>Получить типы лицензий
+### <a name="get-license-types"></a>Получение типов лицензий
 ````
 Get-MsolAccountSku
 ````
 
 ### <a name="create-and-assign-resource-account"></a>Создание и назначение учетной записи ресурса
-Примечание. Телефон номер, который здесь не требуется, так как очередь  вызовов заканчивается автозаводом
+Примечание. Телефон номер не требуется, так как очередь вызовов заканчивается автосекретарем
 - ApplicationID
-- - Автоотчет: ce933385-9390-45d1-9512-c8d228074e07
-- - Очередь  вызовов: 11cd3e2e-fccb-42ad-ad00-878b93575e07
+- - Автосекретарь: ce933385-9390-45d1-9512-c8d228074e07
+- - Очередь вызовов: 11cd3e2e-fccb-42ad-ad00-878b93575e07
 
-Примечание. Тип лицензии, показанный ниже (PHONESYSTEM_VIRTUALUSER), должен быть указан в Get-MsolAccountSku выше.
+Примечание. Указанный ниже тип лицензии (PHONESYSTEM_VIRTUALUSER) должен быть указан командлетом Get-MsolAccountSku выше.
 
 ````
 New-CsOnlineApplicationInstance -UserPrincipalName Sales-RA@contoso.com -DisplayName "Sales" -ApplicationID "11cd3e2e-fccb-42ad-ad00-878b93575e07"
@@ -170,7 +170,7 @@ Set-MsolUser -UserPrincipalName "Sales-RA@contoso.com" -UsageLocation US
 
 Set-MsolUserLicense -UserPrincipalName “Sales-RA@contoso.com” -AddLicenses "contoso:PHONESYSTEM_VIRTUALUSER"
 
-$applicationInstanceID = (Get-CsOnlineUser -Identity "Sales-RA@contoso.com").ObjectID
+$applicationInstanceID = (Get-CsOnlineUser -Identity "Sales-RA@contoso.com").Identity
 $callQueueID = (Get-CsCallQueue -NameFilter "Sales").Identity
 
 New-CsOnlineApplicationInstanceAssociation -Identities @($applicationInstanceID) -ConfigurationID $callQueueID -ConfigurationType CallQueue
@@ -179,7 +179,7 @@ New-CsOnlineApplicationInstanceAssociation -Identities @($applicationInstanceID)
 
 ## <a name="support-queue"></a>Очередь поддержки
 ### <a name="create-audio-files"></a>Создание звуковых файлов
-Замените "d:\\" путем к месту хранения WAV-файлов на компьютере.
+Замените "d:\\" путем к папке, в которой хранятся WAV-файлы на компьютере.
 
 ````
 $content = Get-Content “d:\support-greeting.wav” -Encoding byte -ReadCount 0
@@ -192,33 +192,33 @@ $content = Get-Content “d:\support-shared-voicemail-greeting.wav” -Encoding 
 $audioFileSupportSharedVoicemailGreetingID = (Import-CsOnlineAudioFile -ApplicationID HuntGroup -FileName "support-shared-voicemail-greeting.wav" -Content $content).ID
 ````
 
-### <a name="get-support-team-group-id"></a>Получить ИД группы поддержки
+### <a name="get-support-team-group-id"></a>Получение идентификатора группы поддержки
 ````
 $teamSupportID = (Get-Team -displayname "Support").GroupID
 ````
 
-### <a name="get-list-of-supported-languages"></a>Получить список поддерживаемых языков
+### <a name="get-list-of-supported-languages"></a>Получение списка поддерживаемых языков
 ````
 Get-CsAutoAttendantSupportedLanguage
 ````
 
-### <a name="create-call-queue"></a>Создание очереди  вызовов
+### <a name="create-call-queue"></a>Создание очереди вызовов
 ````
 New-CsCallQueue -Name “Support” -AgentAlertTime 15 -AllowOptOut $false -DistributionLists $teamSupportID -WelcomeMusicAudioFileID $audioFileSupportGreetingID -MusicOnHoldAudioFileID $audioFileSupportHoldInQueueMusicID -OverflowAction SharedVoicemail -OverflowActionTarget $teamSupportID -OverflowThreshold 200 -OverflowSharedVoicemailAudioFilePrompt $audioFileSupportSharedVoicemailGreetingID -EnableOverflowSharedVoicemailTranscription $true -TimeoutAction SharedVoicemail -TimeoutActionTarget $teamSupportID -TimeoutThreshold 2700 -TimeoutSharedVoicemailTextToSpeechPrompt "We're sorry to have kept you waiting and are now transferring your call to voicemail." -EnableTimeoutSharedVoicemailTranscription $true -RoutingMethod LongestIdle -ConferenceMode $true -LanguageID “en-US”
 ````
 
-### <a name="get-license-types"></a>Получить типы лицензий
+### <a name="get-license-types"></a>Получение типов лицензий
 ````
 Get-MsolAccountSku
 ````
 
 ### <a name="create-and-assign-resource-account"></a>Создание и назначение учетной записи ресурса
-Примечание. Телефон номер, не требующийся здесь, так как автоследник перед очереди  вызовов перезаконил номер
+Примечание. Телефон номер не требуется, так как очередь вызовов является интерфейсной для автосекретаря
 - ApplicationID
-- - Автоотчет: ce933385-9390-45d1-9512-c8d228074e07
-- - Очередь  вызовов: 11cd3e2e-fccb-42ad-ad00-878b93575e07
+- - Автосекретарь: ce933385-9390-45d1-9512-c8d228074e07
+- - Очередь вызовов: 11cd3e2e-fccb-42ad-ad00-878b93575e07
 
-Примечание. Тип лицензии, показанный ниже (PHONESYSTEM_VIRTUALUSER), должен быть указан в Get-MsolAccountSku выше.
+Примечание. Указанный ниже тип лицензии (PHONESYSTEM_VIRTUALUSER) должен быть указан командлетом Get-MsolAccountSku выше.
 
 ````
 New-CsOnlineApplicationInstance -UserPrincipalName Support-RA@contoso.com -DisplayName "Support" -ApplicationID "11cd3e2e-fccb-42ad-ad00-878b93575e07"
@@ -227,57 +227,57 @@ Set-MsolUser -UserPrincipalName "Support-RA@contoso.com" -UsageLocation US
 
 Set-MsolUserLicense -UserPrincipalName “Support-RA@contoso.com” -AddLicenses "contoso:PHONESYSTEM_VIRTUALUSER"
 
-$applicationInstanceID = (Get-CsOnlineUser -Identity "Support-RA@contoso.com").ObjectID
+$applicationInstanceID = (Get-CsOnlineUser -Identity "Support-RA@contoso.com").Identity
 $callQueueID = (Get-CsCallQueue -NameFilter "Support").Identity
 
 New-CsOnlineApplicationInstanceAssociation -Identities @($applicationInstanceID) -ConfigurationID $callQueueID -ConfigurationType CallQueue
 ````
 
 
-## <a name="facilities-collaborative-calling-queue"></a>Очередь для совместной работы с помещениями
-### <a name="get-facilities-team-group-id"></a>Get Facilities team group ID
+## <a name="facilities-collaborative-calling-queue"></a>Очередь совместных вызовов Facilities
+### <a name="get-facilities-team-group-id"></a>Получение идентификатора группы Facilities
 ````
 $teamFacilitiesGroupID = (Get-Team -DisplayName "Facilities").GroupID
 ````
 
-### <a name="get-facilities-help-desk-team-channel-id"></a>Get Facilities Help Desk team channel ID
+### <a name="get-facilities-help-desk-team-channel-id"></a>Идентификатор канала группы технической поддержки Get Facilities
 ````
 Get-TeamChannel -GroupId $teamFacilitiesGroupID
 $teamFacilitiesHelpDeskChannelID = "{assign ID from output of above command}"
 ````
 
-### <a name="get-facilities-help-desk-channel-owner-user-id"></a>Get Facilities Help Desk channel owner user ID
+### <a name="get-facilities-help-desk-channel-owner-user-id"></a>Получение идентификатора пользователя владельца канала службы технической поддержки Средств
 ````
 $teamFacilitiesHelpDeskChannelUserID = (Get-TeamChannelUser -GroupId $teamFacilitiesGroupID -DisplayName "Help Desk" -Role Owner).UserId
 ````
 
-### <a name="get-on-behalf-of-calling-resource-account-id"></a>Получить от имени ИД учетной записи ресурса для звонков
+### <a name="get-on-behalf-of-calling-resource-account-id"></a>Получение от имени вызывающего идентификатора учетной записи ресурса
 ````
-$oboResourceAccountID = (Get-CsOnlineUser -Identity "MainAA-RA@contoso.com").ObjectID
+$oboResourceAccountID = (Get-CsOnlineUser -Identity "MainAA-RA@contoso.com").Identity
 ````
 
-### <a name="get-list-of-supported-languages"></a>Получить список поддерживаемых языков
+### <a name="get-list-of-supported-languages"></a>Получение списка поддерживаемых языков
 ````
 Get-CsAutoAttendantSupportedLanguage
 ````
 
-### <a name="create-call-queue"></a>Создание очереди  вызовов
+### <a name="create-call-queue"></a>Создание очереди вызовов
 ````
 New-CsCallQueue -Name “Facilities” -AgentAlertTime 15 -AllowOptOut $false -ChannelId $teamFacilitiesHelpDeskChannelID -ChannelUserObjectId $teamFacilitiesHelpDeskChannelUserID  -ConferenceMode $true -DistributionList $teamFacilitiesGroupID -LanguageID “fr-FR” -OboResourceAccountIds $oboResourceAccountID -OverflowAction DisconnectWithBusy -OverflowThreshold 200 -RoutingMethod RoundRobin -TimeoutAction Disconnect -TimeoutThreshold 2700 -UseDefaultMusicOnHold $true 
 ````
 
-### <a name="get-license-types"></a>Получить типы лицензий
+### <a name="get-license-types"></a>Получение типов лицензий
 ````
 Get-MsolAccountSku
 ````
 
 ### <a name="create-and-assign-resource-account"></a>Создание и назначение учетной записи ресурса
-Примечание. Телефон номер, не требующийся здесь, так как автоследник перед очереди  вызовов перезаконил номер
+Примечание. Телефон номер не требуется, так как очередь вызовов является интерфейсной для автосекретаря
 - ApplicationID
-- - Автоотчет: ce933385-9390-45d1-9512-c8d228074e07
-- - Очередь  вызовов: 11cd3e2e-fccb-42ad-ad00-878b93575e07
+- - Автосекретарь: ce933385-9390-45d1-9512-c8d228074e07
+- - Очередь вызовов: 11cd3e2e-fccb-42ad-ad00-878b93575e07
 
-Примечание. Тип лицензии, показанный ниже (PHONESYSTEM_VIRTUALUSER), должен быть указан в Get-MsolAccountSku выше.
+Примечание. Указанный ниже тип лицензии (PHONESYSTEM_VIRTUALUSER) должен быть указан командлетом Get-MsolAccountSku выше.
 
 ````
 New-CsOnlineApplicationInstance -UserPrincipalName Facilities-RA@contoso.com -DisplayName "Facilities" -ApplicationID "11cd3e2e-fccb-42ad-ad00-878b93575e07"
@@ -286,7 +286,7 @@ Set-MsolUser -UserPrincipalName "Facilities-RA@contoso.com" -UsageLocation US
 
 Set-MsolUserLicense -UserPrincipalName “Facilities-RA@contoso.com” -AddLicenses "contoso:PHONESYSTEM_VIRTUALUSER"
 
-$applicationInstanceID = (Get-CsOnlineUser -Identity "Facilities-RA@contoso.com").ObjectID
+$applicationInstanceID = (Get-CsOnlineUser -Identity "Facilities-RA@contoso.com").Identity
 $callQueueID = (Get-CsCallQueue -NameFilter "Facilities").Identity
 
 New-CsOnlineApplicationInstanceAssociation -Identities @($applicationInstanceID) -ConfigurationID $callQueueID -ConfigurationType CallQueue
