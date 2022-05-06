@@ -1,5 +1,5 @@
 ---
-title: Teams набора номера
+title: Teams конфигурации панели набора номера
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -16,86 +16,86 @@ appliesto:
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
-description: Узнайте, как настроить панель набора номера в клиенте Teams, чтобы пользователи могли получать доступ к функциям телефонной сети общего присоединения.
-ms.openlocfilehash: 6f67aeda059505ec5c1e78d117407f0e9703f732
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Узнайте, как настроить панель набора номера в клиенте Teams, чтобы пользователи могли получить доступ к функциям телефонной сети общего пользования (ТСОП).
+ms.openlocfilehash: 7fc2622ce0fda97ce608e13d67ff786431a30aa5
+ms.sourcegitcommit: 140c34f20f9cd48d7180ff03fddd60f5d1d3459f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627621"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "65248931"
 ---
-# <a name="dial-pad-configuration"></a>Настройка панели набора номера
+# <a name="dial-pad-configuration"></a>Конфигурация панели набора номера
 
-В клиенте Teams панель набора номера позволяет пользователям получать доступ к функциям телефонной сети общего присоединения (STN). Панель набора номера доступна для пользователей с телефонная система, если они настроены правильно. Для показа панели набора номера необходимы следующие условия:
+В Teams клиенте панель набора номера позволяет пользователям получать доступ к функциям телефонной сети общего пользования (ТСОП). Панель набора номера доступна для пользователей с телефонная система лицензией при условии, что они настроены правильно. Для отображения панели набора номера требуются следующие критерии:
 
-- У пользователя есть включенная телефонная система "MCOEV".
-- У пользователя есть план звонков Майкрософт или включена прямая маршрутия
+- У пользователя есть включенная телефонная система (MCOEV).
+- У пользователя есть план звонков Майкрософт, Operator Connect или включена прямая маршрутизация
 - Пользователь включил Корпоративная голосовая связь
-- Пользователь находится в Интернете, а не в локальной Skype для бизнеса.
-- Для пользователя включена Teams звонков
+- Пользователь размещен в Сети, а не Skype для бизнеса локально
+- Пользователь включил Teams звонков
 
-В следующих разделах описано, как проверить условия с помощью PowerShell. В большинстве случаев необходимо посмотреть на различные свойства в результатах Get-CsOnlineUser. В примерах $user имя-имя пользователя или SIP-адрес пользователя.
+В следующих разделах описывается, как использовать PowerShell для проверки критериев. В большинстве случаев необходимо просмотреть различные свойства в выходных данных Get-CsOnlineUser командлета. В примерах $user имя участника-пользователя или SIP-адрес пользователя.
 
-## <a name="user-has-an-enabled-phone-system-mcoev-license"></a>У пользователя есть включенная телефонная система "MCOEV".
+## <a name="user-has-an-enabled-phone-system-mcoev-license"></a>У пользователя есть включенная телефонная система (MCOEV).
 
-Убедитесь, что в назначенном плане для пользователя для атрибута **CapabilityStatus** заказано имя Enabled, а для плана возможностей — **MCOEV** (телефонная система лицензия). Вы можете увидеть MCOEV, MCOEV1 и другие. Все это допустимо, если план возможностей начинается с MCOEV.
+Убедитесь, что назначенный план для пользователя отображает атрибут **CapabilityStatus**, для которого задано значение "Включено", а для параметра "Возможность" — **значение MCOEV** (телефонная система лицензия). Вы можете увидеть MCOEV, MCOEV1 и т. д. Все они допустимы, если возможность начинается с MCOEV.
 
-Чтобы проверить правильность атрибутов, воспользуйтесь следующей командой:
-
-```
-Get-CsOnlineUser -Identity $user|select AssignedPlan|fl
-```
-
-Результат будет выглядеть следующим образом: Вам нужно только проверить **атрибуты CapabilityStatus** и **Capability Plan:**
+Чтобы убедиться, что атрибуты задано правильно, используйте следующую команду:
 
 ```
-<Plan SubscribedPlanId="2f9eda01-4630-4a5c-bdb3-cf195f22d240"  
-   ServiceInstance="MicrosoftCommunicationsOnline/NOAM-0M-DMT" 
-   CapabilityStatus="Enabled"  
-   AssignedTimestamp="2020-04-21T18:31:13Z" 
-   ServicePlanId="4828c8ec-dc2e-4779-b502-87ac9ce28ab7" 
-   xmlns="http://schemas.microsoft.com/online/directoryservices/change/2008/11"> 
-  <Capability> 
-     <Capability Plan="MCOEV" 
-     xmlns="http://schemas.microsoft.com/online/MCO/2009/01"/> 
-  </Capability>
-</Plan>
+(Get-CsOnlineUser -Identity $user).AssignedPlan
+```
+
+Выходные данные будут выглядеть следующим образом. Вам нужно только проверить **CapabilityStatus** и **атрибуты capability** :
+
+```
+AssignedTimestamp   Capability      CapabilityStatus ServiceInstance                          ServicePlanId
+-----------------   ----------      ---------------- ---------------                          -------------
+07-02-2020 12:28:48 MCOEV           Enabled          MicrosoftCommunicationsOnline/NOAM-4A-S7 4828c8ec-dc2e-4779-b502-…
+07-02-2020 12:28:48 Teams           Enabled          TeamspaceAPI/NA001                       57ff2da0-773e-42df-b2af-…
 ```
 
 
-## <a name="user-has-microsoft-calling-plan-or-is-enabled-for-direct-routing"></a>У пользователя включен план звонков Майкрософт ИЛИ включена прямая маршрутия
+## <a name="user-has-microsoft-calling-plan-operator-connect-or-is-enabled-for-direct-routing"></a>У пользователя есть план звонков Майкрософт, Operator Connect OR включена прямая маршрутизация
 
-Если у пользователя есть план звонков **(Майкрософт),** убедитесь, что для атрибута **CapabilityStatus** за установлено имя Enabled (Включено), а для плана возможностей — **MCOPSTN ( MCOPSTN).** Вы можете увидеть MCOPSTN1, MCOPSTN2 и другие. Все они допустимы, если план возможностей начинается с MCOPSTN.
+**Если у пользователя есть** план звонков Майкрософт, убедитесь, что для атрибута **CapabilityStatus** задано значение Enabled и что для параметра **Capability задано значение MCOPSTN**. Вы можете увидеть MCOPSTN1, MCOPSTN2 и т. д. Все они допустимы, если возможность начинается с MCOPSTN.
 
 Чтобы проверить атрибуты, используйте следующую команду:
 
 ```
-Get-CsOnlineUser -Identity $user|select AssignedPlan|fl
+(Get-CsOnlineUser -Identity $user).AssignedPlan
 ```
 
-Результат будет выглядеть следующим образом: Вам нужно только проверить **атрибуты CapabilityStatus** и **Capability Plan:**
+Выходные данные будут выглядеть следующим образом. Вам нужно только проверить **CapabilityStatus** и **атрибуты capability** :
 
 ```  
-<Plan SubscribedPlanId="71d1258e-a4e6-443f-884e-0f3d6f644bb1" 
-ServiceInstance="MicrosoftCommunicationsOnline/NOAM-0M-DMT" 
-CapabilityStatus="Enabled"    
-AssignedTimestamp="2018-09-18T18:41:42Z" 
-ServicePlanId="5a10155d-f5c1-411a-a8ec-e99aae125390" 
-xmlns="http://schemas.microsoft.com/online/directoryservices/change/2008/11">
- <Capability>
-    <Capability Plan="MCOPSTN2" 
-    xmlns="http://schemas.microsoft.com/online/MCO/2009/01" />
- </Capability>
-</Plan>
-  ```
+AssignedTimestamp   Capability      CapabilityStatus ServiceInstance                          ServicePlanId
+-----------------   ----------      ---------------- ---------------                          -------------
+07-02-2020 12:28:48 MCOEV           Enabled          MicrosoftCommunicationsOnline/NOAM-4A-S7 4828c8ec-dc2e-4779-b502-…
+07-02-2020 12:28:48 MCOPSTN2        Enabled          MicrosoftCommunicationsOnline/NOAM-4A-S7 5a10155d-f5c1-411a-a8ec-…
+07-02-2020 12:28:48 Teams           Enabled          TeamspaceAPI/NA001                       57ff2da0-773e-42df-b2af-…
+```
+**Если пользователь включен для** Operator Connect, он должен иметь значение, отличное от NULL, для TeamsCarrierEmergencyCallRoutingPolicy. Чтобы проверить атрибут, используйте следующую команду:
+  
+```
+Get-CsOnlineUser -Identity $user|Select TeamsCarrierEmergencyCallRoutingPolicy
+```
 
-**Если для пользователя включена** прямая маршрутизация, ему должно быть назначено ненулевую стоимость для OnlineVoiceRoutingPolicy. Чтобы проверить атрибут, используйте следующую команду:
+Выходные данные должны иметь значение, отличное от NULL, например:
+
+```
+TeamsCarrierEmergencyCallRoutingPolicy
+--------------------------------------
+Synergy_98d1a5cb-d3e6-4306-885e-69a95f2da5c3
+```
+
+**Если пользователь включен для** прямой маршрутизации, пользователю должно быть назначено значение, отличное от NULL, для OnlineVoiceRoutingPolicy. Чтобы проверить атрибут, используйте следующую команду:
   
 ```
 Get-CsOnlineUser -Identity $user|Select OnlineVoiceRoutingPolicy 
 ```
 
-Выходные данные должны иметь ненулевую величину, например:
+Выходные данные должны иметь значение, отличное от NULL, например:
 
 ```
 OnlineVoiceRoutingPolicy
@@ -111,7 +111,7 @@ Test_Policy
 Get-CsOnlineUser -Identity $user|Select EnterpriseVoiceEnabled
 ```
 
-Результат должен выглядеть так:
+Выходные данные должны выглядеть следующим образом:
 
 ```
 EnterpriseVoiceEnabled
@@ -120,15 +120,15 @@ EnterpriseVoiceEnabled
 
 ```
  
-## <a name="user-is-homed-online-and-not-in-skype-for-business-on-premises"></a>Пользователь находится в Интернете, а не в локальной Skype для бизнеса.
+## <a name="user-is-homed-online-and-not-in-skype-for-business-on-premises"></a>Пользователь размещен в Сети, а не Skype для бизнеса локально
 
-Чтобы гарантировать, что пользователь размещен в Интернете, а не в локальной Skype для бизнеса, registrarPool не должен иметь значение NULL, а HostingProvider должен содержать значение, которое начинается с sipfed.online.  Чтобы проверить значения, используйте следующую команду:
+Чтобы убедиться, что пользователь размещен в сети, а не в Skype для бизнеса локально, RegistrarPool не должен иметь значение NULL, а HostingProvider должен содержать значение, которое начинается с "sipfed.online".  Чтобы проверить значения, используйте следующую команду:
 
 ```
 Get-CsOnlineUser -Identity $user|Select RegistrarPool, HostingProvider
 ```
 
-Результат должен быть примерно таким:
+Выходные данные должны выглядеть примерно так:
 
 ```
 RegistrarPool                 HostingProvider
@@ -136,17 +136,17 @@ RegistrarPool                 HostingProvider
 sippoolbn10M02.infra.lync.com sipfed.online.lync.com
 ```
 
-## <a name="user-has-teams-calling-policy-enabled"></a>Для пользователя включена Teams звонков
+## <a name="user-has-teams-calling-policy-enabled"></a>Пользователь включил Teams звонков
 
-Для эффективной работы пользователя в TeamsCallingPolicy должно быть установлено разрешение AllowPrivateCalling на true.  По умолчанию пользователи наследуют глобальную политику, для которой по умолчанию за установлено значение AllowPrivateCallingPolicy true.
+Для действующего пользователя TeamsCallingPolicy должно быть установлено значение AllowPrivateCalling, равное true.  По умолчанию пользователи наследуют глобальную политику, для которой allowPrivateCallingPolicy по умолчанию имеет значение true.
 
-Чтобы получить TeamsCallingPolicy для пользователя и проверить, что для allowPrivateCalling за установлено true, используйте следующую команду:
+Чтобы получить TeamsCallingPolicy для пользователя и убедиться, что параметр AllowPrivateCalling имеет значение true, используйте следующую команду:
 
 ```
-if (($p=(get-csonlineuser -Identity $user).TeamsCallingPolicy) -eq $null) {Get-CsTeamsCallingPolicy -Identity global} else {get-csteamscallingpolicy -Identity $p}
+if (($p=Get-CsUserPolicyAssignment -Identity $user -PolicyType TeamsCallingPolicy) -eq $null) {Get-CsTeamsCallingPolicy -Identity Global} else {Get-CsTeamsCallingPolicy -Identity $p.PolicyName}
 ```
 
-Результат должен выглядеть так:
+Выходные данные должны выглядеть следующим образом:
 
 ```
 Identity                   : Global
@@ -165,16 +165,16 @@ MusicOnHoldEnabledType     : Enabled
 
 ## <a name="additional-notes"></a>Дополнительные заметки
 
--   После внесения каких-либо изменений конфигурации может потребоваться перезапустить Teams клиента.
+-   Может потребоваться перезапустить клиент Teams после внесения каких-либо из этих изменений конфигурации.
 
--   Если вы недавно обновили любое из этих критериев, может потребоваться подождать несколько часов, пока клиент получит новые параметры.
+-   Если вы недавно обновили любой из указанных выше условий, может потребоваться подождать несколько часов, пока клиент получит новые параметры.
 
--   Если вы по-прежнему не видите панель набора номера, проверьте, нет ли ошибки при подготовкае, используя следующую команду:
+-   Если панель набора номера по-прежнему не отображается, проверьте наличие ошибки подготовки с помощью следующей команды:
 
   ```
-  Get-CsOnlineUser -Identity $user|Select McoValidationError
+  Get-CsOnlineUser -Identity $user|Select UserValidationErrors
   ```
 
--    Если на это время было больше 24 часов и проблемы по-прежнему возникают, обратитесь в службу поддержки.
+-    Если это было более 24 часов и вы по-прежнему видите проблемы, обратитесь в службу поддержки.
 
 
