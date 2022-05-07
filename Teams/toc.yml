@@ -349,11 +349,11 @@ items:
         items:
           - name: Безопасный обмен файлами и совместная работа с Teams
             href: /microsoft-365/solutions/setup-secure-collaboration-with-teams?wt.mc_id=TeamsTOCSecureCollab001
-          - name: Общение с пользователями из других организаций
+          - name: 'Совместная работа с людьми, находящимися за пределами организации'
             href: communicate-with-users-from-other-organizations.md
-          - name: Внешний доступ (федерация)
+          - name: Внешние собрания и чат
             items:
-              - name: Управление внешним доступом
+              - name: Управление внешними собраниями и чатом
                 href: manage-external-access.md
               - name: Встроенные чаты Teams
                 href: native-chat-for-external-users.md
