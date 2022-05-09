@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4bcb26d86e9b95ee629c252ea7cec25fc5f3eaf4
-ms.sourcegitcommit: 5bfd2e210617e4388241500eeda7b50d5f2a0ba3
+ms.openlocfilehash: 222ea1852ef4336c21cfb24c977c20665a667ff3
+ms.sourcegitcommit: 9968ef7d58c526e35cb58174db3535fd6b2bd1db
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2022
-ms.locfileid: "64885007"
+ms.lasthandoff: 05/09/2022
+ms.locfileid: "65284074"
 ---
 # <a name="configure-operator-connect"></a>Настройка Operator Connect
 
@@ -104,52 +104,51 @@ ms.locfileid: "64885007"
 
 #### <a name="step-1---remove-existing-direct-routing-numbers"></a>Шаг 1. Удаление существующих номеров прямой маршрутизации.
 
-Способ удаления существующих номеров прямой маршрутизации зависит от того, назначено ли это число локально или в сети. Чтобы проверить это, выполните следующую команду:
+Способ удаления существующих номеров прямой маршрутизации зависит от того, назначено ли это число локально или в сети. Чтобы проверить, выполните следующую Teams модуля PowerShell:
     
 ```PowerShell
-Get-CsOnlineUser -Identity <user> | fl RegistrarPool,OnPremLineURIManuallySet, OnPremLineURI, LineURI 
+Get-CsOnlineUser -Identity <user> | fl RegistrarPool, OnPremLineURI, LineURI 
 ```
 
-Если `OnPremLineUriManuallySet` задано и `False` `LineUri` заполнен номер телефона E.164, номер телефона был назначен локально и синхронизирован с Office 365.
+Если `OnPremLineUri` указан номер телефона E.164, номер телефона был назначен локально и синхронизирован с Office 365.
     
-**Чтобы удалить номера прямой маршрутизации** , назначенные локально, выполните следующую команду:
+**Чтобы удалить номера прямой маршрутизации**, назначенные локально, выполните следующую Skype для бизнеса Server PowerShell:
     
 ```PowerShell
 Set-CsUser -Identity <user> -LineURI $null 
 ```
 
-Время, необходимое для того, чтобы удаление вступает в силу, зависит от конфигурации. Чтобы проверить, удален ли локальный номер и синхронизированы изменения, выполните следующую команду PowerShell: 
+Время, необходимое для того, чтобы удаление вступает в силу, зависит от конфигурации. Чтобы проверить, удален ли локальный номер и синхронизированы изменения, выполните следующую команду Teams модуля PowerShell: 
     
 ```PowerShell
-Get-CsOnlineUser -Identity <user> | fl RegistrarPool,OnPremLineURIManuallySet, OnPremLineURI, LineURI 
+Get-CsOnlineUser -Identity <user> | fl RegistrarPool, OnPremLineURI, LineURI 
 ```
        
 После синхронизации изменений с Office 365 каталогом, ожидаемые выходные данные: 
        
  ```console
 RegistrarPool                        : pool.infra.lync.com
- OnPremLineURIManuallySet             : True
- OnPremLineURI                        : 
+OnPremLineURI                        : 
 LineURI                              : 
 ```
 
-<br> **Чтобы удалить существующие сетевые номера прямой маршрутизации, назначьте их в сети,** выполните следующую команду PowerShell:
+<br> **Чтобы удалить существующие сетевые номера** прямой маршрутизации, назначенные в сети, выполните следующую Teams модуля PowerShell:
 
 
 ```PowerShell
 Remove-CsPhoneNumberAssignment -Identity <user> -PhoneNumber <pn> -PhoneNumberType DirectRouting
 ```
 
-Удаление номера телефона может занять до 10 минут. В редких случаях это может занять до 24 часов. Чтобы проверить, удален ли локальный номер и синхронизированы изменения, выполните следующую команду PowerShell: 
+Удаление номера телефона может занять до 10 минут. В редких случаях это может занять до 24 часов. Чтобы проверить, удален ли номер телефона, выполните следующую Teams модуля PowerShell: 
 
 
 ```PowerShell
-Get-CsOnlineUser -Identity <user> | fl Number
+Get-CsOnlineUser -Identity <user> | fl LineUri
 ```
 
 #### <a name="step-2---remove-the-online-voice-routing-policy-associated-with-your-user"></a>Шаг 2. Удаление политики сетевой маршрутизации голосовой связи, связанной с пользователем
 
-После отмены назначения номера удалите политику сетевой маршрутизации голосовой связи, связанную с пользователем, выполнив следующую команду PowerShell:
+После отмены назначения номера удалите политику сетевой маршрутизации голосовой связи, связанную с пользователем, выполнив следующую команду Teams модуля PowerShell:
 
 ```PowerShell
 Grant-CsOnlineVoiceRoutingPolicy -Identity <user> -PolicyName $Null
