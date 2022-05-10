@@ -3,6 +3,28 @@
 
 
 
+## <a name="week-of-may-02-2022"></a>Неделя с 2 мая 2022 г.
+
+
+| Дата публикации |Название статьи | Изменение |
+|------|------------|--------|
+| 5/2/2022 | [Microsoft Teams ТСОП](/MicrosoftTeams/teams-analytics-and-reports/pstn-usage-report) | Изменено |
+| 5/3/2022 | [Доступность приложения "Утверждения" в Teams](/MicrosoftTeams/approval-admin) | Изменено |
+| 5/3/2022 | [Настройка родительских элементов в Teams для образования](/MicrosoftTeams/edu-parents-app) | Изменено |
+| 5/3/2022 | [Управление приложением "Смены" в организации](/MicrosoftTeams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams) | Изменено |
+| 5/3/2022 | [Управление приложением "Задачи" для вашей организации в Microsoft Teams](/MicrosoftTeams/manage-tasks-app) | Изменено |
+| 5/3/2022 | [Приложение "Рация" в Microsoft Teams](/MicrosoftTeams/walkie-talkie) | Изменено |
+| 5/4/2022 | Управление параметрами для организации | Удалено |
+| 5/4/2022 | [Microsoft Teams отчета об использовании приложения](/MicrosoftTeams/teams-analytics-and-reports/app-usage-report) | Изменено |
+| 5/4/2022 | [Возврат и выпуск комнаты на Microsoft Teams панели](/MicrosoftTeams/devices/check-in-and-room-release) | Изменено |
+| 5/4/2022 | [Управление устройствами в Microsoft Teams](/MicrosoftTeams/devices/device-management) | Изменено |
+| 5/5/2022 | [Создание очереди вызовов с помощью командлетов](/MicrosoftTeams/create-a-phone-system-call-queue-via-cmdlets) | Изменено |
+| 5/5/2022 | Использование отчетов об активности в Microsoft Teams | Удалено |
+| 5/6/2022 | [Teams конфигурации панели набора номера](/MicrosoftTeams/dial-pad-configuration) | Изменено |
+| 5/6/2022 | [Управление шаблонами команд в Центре администрирования](/MicrosoftTeams/templates-policies) | Изменено |
+| 5/6/2022 | [Поддерживаемые политики условного доступа и Intune устройств для Комнаты Microsoft Teams](/MicrosoftTeams/rooms/supported-ca-and-compliance-policies) | Изменено |
+
+
 ## <a name="week-of-april-25-2022"></a>Неделя с 25 апреля 2022 г.
 
 
@@ -71,55 +93,3 @@
 | 4/21/2022 | [Проведение исследования содержимого при обнаружении электронных данных](/MicrosoftTeams/ediscovery-investigation) | Изменено |
 | 4/22/2022 | [Kaizala Microsoft Teams](/MicrosoftTeams/get-started-kaizala-teams) | Изменено |
 | 4/22/2022 | [Навигация по Microsoft Teams](/MicrosoftTeams/navigate-teams) | Изменено |
-
-
-## <a name="week-of-april-04-2022"></a>Неделя с 4 апреля 2022 г.
-
-
-| Дата публикации |Название статьи | Изменение |
-|------|------------|--------|
-| 4/4/2022 | [Использование Microsoft 365 и пользовательских соединителей](/MicrosoftTeams/office-365-custom-connectors) | Изменено |
-| 4/4/2022 | [Доступность приложения "Утверждения" в Teams](/MicrosoftTeams/approval-admin) | Изменено |
-| 4/1/2022 | Использование встроенных и настраиваемых вкладок в Microsoft Teams | Удалено |
-| 4/4/2022 | [Сведения о приложениях в Microsoft Teams](/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page) | Изменено |
-| 4/4/2022 | [Как использовать устройства Microsoft Teams панелей](/MicrosoftTeams/devices/use-teams-panels) | Изменено |
-| 4/4/2022 | [Упрощение бизнес-процессов в средах розничной торговли](/MicrosoftTeams/expand-teams-across-your-org/retail-business-processes) | Изменено |
-| 4/4/2022 | [Подключение shifts к Blue Yonder Workforce Management с помощью PowerShell](/MicrosoftTeams/expand-teams-across-your-org/shifts/shifts-connector-blue-yonder-powershell-setup) | Изменено |
-| 4/4/2022 | [Управление подключением Shifts к Blue Yonder Workforce Management с помощью PowerShell](/MicrosoftTeams/expand-teams-across-your-org/shifts/shifts-connector-powershell-manage) | Изменено |
-| 4/4/2022 | [Управление внешним доступом (федерация)](/MicrosoftTeams/manage-external-access) | Изменено |
-| 4/4/2022 | [Управление политиками разрешений для приложений в Microsoft Teams](/MicrosoftTeams/teams-app-permission-policies) | Изменено |
-| 4/4/2022 | [Microsoft Teams мониторинга и оповещений](/MicrosoftTeams/alerts/teams-admin-alerts) | Изменено |
-| 4/4/2022 | [Управление тегами в Microsoft Teams](/MicrosoftTeams/manage-tags) | Изменено |
-| 4/4/2022 | [Управление параметрами собрания](/MicrosoftTeams/meeting-settings-in-teams) | Изменено |
-| 4/4/2022 | [Функция Shared Line Appearance в Microsoft Teams](/MicrosoftTeams/shared-line-appearance) | Изменено |
-| 4/4/2022 | [Отчет об использовании Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/teams-usage-report) | Изменено |
-| 4/4/2022 | [Отчет о действиях пользователей Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/user-activity-report) | Изменено |
-| 4/5/2022 | [Настройка Microsoft Teams в организации](/MicrosoftTeams/deploy-enterprise-setup) | Изменено |
-| 4/5/2022 | [Управление доступом к Teams приложениям в Microsoft 365](/MicrosoftTeams/manage-third-party-teams-apps) | Изменено |
-| 4/5/2022 | [Общие сведения о проверке и тестировании приложений корпорацией Майкрософт](/MicrosoftTeams/overview-of-app-validation) | Добавлено |
-| 4/5/2022 | [Сведения о сторонних приложениях в Microsoft Teams](/MicrosoftTeams/overview-third-party-apps) | Добавлено |
-| 4/6/2022 | [Планы звонков в Microsoft Teams](/MicrosoftTeams/calling-plan-landing-page) | Изменено |
-| 4/6/2022 | [Доступность по странам и регионам — аудиоконференции, планы звонков](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans) | Изменено |
-| 4/6/2022 | [Сведения о приложениях в Microsoft Teams](/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page) | Изменено |
-| 4/6/2022 | [Абонентские группы и маршрутизация](/MicrosoftTeams/dial-plans-routing-overview) | Добавлено |
-| 4/6/2022 | [Получение номеров телефонов для пользователей](/MicrosoftTeams/getting-phone-numbers-for-your-users) | Изменено |
-| 4/6/2022 | [Сколько телефонных номеров можно получить?](/MicrosoftTeams/how-many-phone-numbers-can-you-get) | Изменено |
-| 4/6/2022 | [Управление общими политиками собраний](/MicrosoftTeams/meeting-policies-in-teams-general) | Изменено |
-| 4/6/2022 | [Общие сведения о проверке и тестировании приложений корпорацией Майкрософт](/MicrosoftTeams/overview-of-app-validation) | Изменено |
-| 4/6/2022 | [Поиск номеров телефонов для пользователей](/MicrosoftTeams/search-for-phone-numbers-for-users) | Изменено |
-| 4/6/2022 | [Microsoft Teams надстройки](/MicrosoftTeams/teams-add-on-licensing/microsoft-teams-add-on-licensing) | Изменено |
-| 4/6/2022 | [Соответствие требованиям к обмену данными с Microsoft Teams](/MicrosoftTeams/communication-compliance) | Изменено |
-| 4/6/2022 | [Создание очереди вызовов в Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | Изменено |
-| 4/7/2022 | [Управление приложением Bookings в Microsoft Teams](/MicrosoftTeams/bookings-app-admin) | Изменено |
-| 4/7/2022 | [Виртуальные визиты с помощью Microsoft Teams и приложения Bookings](/MicrosoftTeams/expand-teams-across-your-org/bookings-virtual-visits) | Изменено |
-| 4/7/2022 | [Управление интерфейсом присоединения для Teams виртуальных посещений в браузерах](/MicrosoftTeams/expand-teams-across-your-org/browser-join) | Добавлено |
-| 4/7/2022 | [Виртуальные посещения с Teams — интеграция с Cerner EHR](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin-cerner) | Изменено |
-| 4/7/2022 | [Виртуальные посещения с Teams — интеграция с EHR для ситуаций](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin) | Изменено |
-| 4/6/2022 | Управление интерфейсом присоединения для Teams виртуальных посещений в мобильных браузерах | Удалено |
-| 4/7/2022 | [Использование мастера подключения сотрудника без компьютера для подготовки персонала без компьютеров](/MicrosoftTeams/flw-onboarding-wizard) | Изменено |
-| 4/7/2022 | [Приобретение сторонних приложений для Teams](/MicrosoftTeams/purchase-third-party-apps) | Изменено |
-| 4/7/2022 | [Teams PowerShell — поддерживаемые версии](/MicrosoftTeams/teams-powershell-supported-versions) | Изменено |
-| 4/8/2022 | [Устройства для Teams](/MicrosoftTeams/devices/teams-ip-phones) | Изменено |
-| 4/8/2022 | [Поддерживаемые политики условного доступа и Intune устройств для Комнаты Microsoft Teams](/MicrosoftTeams/rooms/supported-ca-and-compliance-policies) | Изменено |
-| 4/8/2022 | [Teams PowerShell — поддерживаемые версии](/MicrosoftTeams/teams-powershell-supported-versions) | Изменено |
-| 4/8/2022 | [Ограничьте пользователей, которые могут видеть при поиске в каталоге в Teams](/MicrosoftTeams/teams-scoped-directory-search) | Изменено |
