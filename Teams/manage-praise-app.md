@@ -9,12 +9,12 @@ ms.topic: article
 ms.service: msteams
 ms.localizationpriority: medium
 description: Узнайте, как управлять приложением Благодарность в центре Microsoft Teams администрирования.
-ms.openlocfilehash: 495000af61c2b5d48dfdc30fe3b013a4ca8b8811
-ms.sourcegitcommit: d847256fca80e4e8954f767863c880dc8472ca04
+ms.openlocfilehash: ff9985025146136ae78d8e822dd5b61903443605
+ms.sourcegitcommit: 73df40ce6fbd1d305fd381140f293a2feb0d27bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "65303991"
+ms.lasthandoff: 05/11/2022
+ms.locfileid: "65359779"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>Управление приложением Благодарность в центре Microsoft Teams администрирования
 
@@ -36,7 +36,7 @@ ms.locfileid: "65303991"
 
 Помните, что этот параметр влияет как на Благодарность, так и на Благодарность в приложении Viva Аналитика в Teams.
 
-Если для параметра "Состояние" задано значение "Заблокировано", Благодарность заблокировано в течение нескольких минут. Однако для блокировки Viva Аналитика может потребоваться от 7 до 9 дней.
+Если задано значение "Состояние заблокировано", Благодарность заблокировано в течение нескольких минут в течение Teams. Однако для блокировки Viva Аналитика может потребоваться от 7 до 9 дней.
 
 ## <a name="enable-or-disable-praise-for-specific-users-in-your-organization"></a>Включение или отключение Благодарность для определенных пользователей в организации
 
