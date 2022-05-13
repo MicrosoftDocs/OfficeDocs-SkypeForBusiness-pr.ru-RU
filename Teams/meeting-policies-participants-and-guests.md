@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Узнайте, как управлять параметрами политики собраний в Teams для участников и гостей.
-ms.openlocfilehash: 05408ade76aa96b64f07899881beb68fa52c74b4
-ms.sourcegitcommit: a31c02892e35babbbcf5e7c303c7f14d7ba5cb52
+ms.openlocfilehash: 6a3c2dda51c40c57cd100eda9c8c959583dfb60b
+ms.sourcegitcommit: 0c7d199b2f7580dbfa8ce755eda97ec70bc86978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/12/2022
-ms.locfileid: "64784703"
+ms.lasthandoff: 05/13/2022
+ms.locfileid: "65393753"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>Параметры политик собраний — участники и гости
 
@@ -32,6 +32,7 @@ ms.locfileid: "64784703"
 
 Эти параметры определяют, какие участники собрания будут находиться в "зале ожидания" перед допуском в собрание, а также разрешенный для них уровень участия в собрании.
 
+- [Разрешить анонимным пользователям присоединяться к собранию](#let-anonymous-people-join-a-meeting)
 - [Разрешать анонимным пользователям начинать собрания](#let-anonymous-people-start-a-meeting)
 - [Автоматически допускать пользователей](#automatically-admit-people)
 - [Разрешить пользователям с телефонным подключением обходить "зал ожидания"](#allow-dial-in-users-to-bypass-the-lobby)
@@ -41,6 +42,9 @@ ms.locfileid: "64784703"
 > [!NOTE]
 >Варианты присоединения к собранию зависят от параметров каждой группы Teams и метода подключения. Если ваша группа поддерживает аудиоконференции и использует их для подключения, см. раздел [Аудиоконференции](/microsoftteams/audio-conferencing-in-office-365). Если в вашей группе Teams нет аудиоконференций, см. раздел [Присоединение к собранию в Teams](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9).
 
+## <a name="let-anonymous-people-join-a-meeting"></a>Разрешить анонимным пользователям присоединяться к собранию
+
+Этот параметр для каждого организатора позволяет любому пользователю присоединяться к собраниям в качестве анонимного пользователя, щелкая ссылку в приглашении на собрание. Чтобы узнать больше, см. [Присоединение к собранию без учетной записи Teams](https://support.office.com/article/join-a-meeting-without-a-teams-account-c6efc38f-4e03-4e79-b28f-e65a4c039508). Возможность анонимных пользователей присоединяться к собраниям также контролируется на уровне организации. Более строгие параметры будут эффективными. Дополнительные сведения см. в Microsoft Teams центра [администрирования для настройки политики для всей организации](meeting-settings-in-teams.md#allow-anonymous-users-to-join-meetings).
 
 ## <a name="let-anonymous-people-start-a-meeting"></a>Разрешать анонимным пользователям начинать собрания
 

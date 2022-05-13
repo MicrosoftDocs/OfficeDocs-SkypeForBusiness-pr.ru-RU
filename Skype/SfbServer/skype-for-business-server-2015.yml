@@ -1,9 +1,9 @@
 ### YamlMime:Landing
 title: Skype для бизнеса Server 2015 г.
-summary: Узнайте, как реализовать Skype для бизнеса Server 2015 г.
+summary: Узнайте, как реализовать Skype для бизнеса Server 2015.
 metadata:
   title: Skype для бизнеса Server 2015 г.
-  description: Узнайте, как реализовать Skype для бизнеса Server 2015 г.
+  description: Узнайте, как реализовать Skype для бизнеса Server 2015.
   ms.service: skype-for-business-online
   audience: ITPro
   ms.topic: landing-page
@@ -11,14 +11,14 @@ metadata:
   author: lanachin
   ms.author: v-lanac
   ms.date: 06/23/2020
-  ms.openlocfilehash: b4ebe6851e6ee92d5b43fd781a3111fd015ba062
-  ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+  ms.openlocfilehash: feaab2b9acf9fa7d76ae564233930a00fb243006
+  ms.sourcegitcommit: 0c7d199b2f7580dbfa8ce755eda97ec70bc86978
   ms.translationtype: MT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 09/30/2021
-  ms.locfileid: "60014903"
+  ms.lasthandoff: 05/13/2022
+  ms.locfileid: "65393733"
 landingContent:
-- title: Около Skype для бизнеса Server 2015 г.
+- title: О Skype для бизнеса Server 2015
   linkLists:
   - linkListType: overview
     links:
@@ -30,10 +30,6 @@ landingContent:
       url: https://support.office.com/article/what-is-a-skype-meeting-broadcast-c472c76b-21f1-4e4b-ab58-329a6c33757d
     - text: Технические графики
       url: ./technical-diagrams.md
-  - linkListType: download
-    links:
-    - text: Скачайте сейчас!
-      url: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server
 - title: Планирование
   linkLists:
   - linkListType: overview
@@ -42,7 +38,7 @@ landingContent:
       url: ./plan-your-deployment/plan-your-deployment.md
     - text: Планирование гибридного подключения
       url: /SkypeForBusiness/skype-for-business-hybrid-solutions/plan-hybrid-connectivity
-    - text: Планирование для клиентов и устройств
+    - text: Планирование клиентов и устройств
       url: ./plan-your-deployment/clients-and-devices/clients-and-devices.md
     - text: Планирование Корпоративная голосовая связь решения
       url: ./plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution.md
@@ -58,7 +54,7 @@ landingContent:
       url: ./deploy/upgrade-to-skype-for-business-server.md
     - text: Развертывание корпоративной голосовой связи
       url: ./deploy/deploy-enterprise-voice/deploy-enterprise-voice.md
-    - text: Настройка локального развертывания для Skype трансляции собраний
+    - text: Настройка локального развертывания для трансляции Skype собрания
       url: ./deploy/configure-skype-meeting-broadcast.md
   - linkListType: how-to-guide
     links:
@@ -70,5 +66,5 @@ landingContent:
     links:
     - text: Skype для бизнеса Server 2019 г.
       url: ../SfBServer2019/skype-for-business-server-2019.yml
-    - text: Документация Lync Server 2013
+    - text: Документация по Lync Server 2013
       url: /lyncserver/microsoft-lync-server-2013
