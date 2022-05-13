@@ -18,24 +18,27 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 776f0f31d54788fbffd86bbcbedd44e30ada28a3
-ms.sourcegitcommit: ad8447b683381bc07f993bf843a93a4bdb77d840
+ms.openlocfilehash: 29a632efc433a14d578eff80fdeb74a6f167dfc3
+ms.sourcegitcommit: a388fd72e399f6e205c34707dc92cc309997e737
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "65186975"
+ms.lasthandoff: 05/13/2022
+ms.locfileid: "65400235"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Приложение "Рация" в Microsoft Teams
 
-Приложение Walkie Talkie в Teams обеспечивает мгновенный обмен push-связью (PTT) для вашей команды и теперь доступно в Android & iOS. С помощью рации пользователи в команде могут общаться друг с другом, используя те же каналы, в которых они участвуют. Только пользователи, которые подключились к рации в канале, становятся участниками разговора и могут говорить друг с другом по очереди.
+Приложение Walkie Talkie в Teams обеспечивает мгновенное взаимодействие с пользователем (PTT) и теперь доступно в Android & iOS. С помощью рации пользователи в команде могут общаться друг с другом, используя те же каналы, в которых они участвуют. Только пользователи, которые подключились к рации в канале, становятся участниками разговора и могут говорить друг с другом по очереди.
 
 С помощью рации в Teams сотрудники переднего плана теперь могут безопасно взаимодействовать с привычным интерфейсом PTT, не перенося массовые радио, а рация работает в любом месте с подключением через Wi-Fi или мобильный Интернет.
+
+> [!NOTE]
+> Рация в настоящее время недоступна в Китае.
 
 ## <a name="getting-started"></a>Начало работы
 
 ### <a name="deploying-walkie-talkie"></a>Развертывание рации
 
-Рация поддерживается на устройствах Android с устройствами Google мобильные службы (GMS) и iOS.
+Рация поддерживается на Android устройствах с Google мобильные службы (GMS) и iOS устройствах.
 
 ### <a name="pin-walkie-talkie-to-teams"></a>Закрепление рации в Teams
 
@@ -80,9 +83,9 @@ ms.locfileid: "65186975"
 - **Гарнитуры**
   - Беспроводные гарнитуры (iOS & Android)
     - [BlueParrott](https://www.blueparrott.com/microsoft-teams-walkie-talkie)
-  - Проводные гарнитуры (только для Android)
+  - Проводные гарнитуры (только Android)
     - [Электронная почта](https://www.kleinelectronics.com/poc-accessories/mtwt/)
-- **Защищенные телефоны Android**
+- **Защищенные Android телефонов**
   - Samsung [Galaxy XCover Pro](https://www.samsung.com/us/business/products/mobile/phones/galaxy-xcover-pro/), [Galaxy XCover 5](https://www.samsung.com/de/smartphones/others/galaxy-xcover-5-black-64gb-sm-g525fzkdeeb/buy), [Galaxy Tab Active 3](https://www.samsung.com/us/business/tablets/galaxy-tab-active/buy/)
     - Настройка вручную. Teams установлен, перейдите к разделу Параметры > advanced Features > XCover/Active Key. Включите "Control XCover key with app" (Управление ключом XCover с помощью приложения) и выберите "Teams"
     - [Настройка MDM](https://docs.samsungknox.com/admin/knox-service-plugin/intune-teams.htm)
@@ -98,9 +101,9 @@ ms.locfileid: "65186975"
 
 ## <a name="further-information"></a>Дополнительные сведения
 
-- ИТ-администраторы могут контролировать использование рации с помощью политик приложений.
+- ИТ-администраторы могут контролировать, кто использует Рация с помощью политик приложений.
 - Если ваш сотрудник переднего плана использует мобильные данные для обмена данными Teams, Walkie Talkie будет использовать тот же метод.
-- Рация хорошо работает в ситуациях с малой пропускной способностью или в ситуациях, когда смартфон подключен и работает. Если подключения нет, рация не будет работать.
+- Рация хорошо работает в ситуациях с малой пропускной способностью или в ситуациях, когда смартфон подключен и работает. Рация не будет работать, если нет подключения.
 
 Дополнительно о работе конечных пользователей можно прочитать в статьях
 
