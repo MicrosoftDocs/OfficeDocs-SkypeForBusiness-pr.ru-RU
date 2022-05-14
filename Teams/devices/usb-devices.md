@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: Узнайте, какие USB-периферийные устройства (например, гарнитуры, динамики, веб-камеры и мониторы) сертифицированы для Microsoft Teams.
-ms.openlocfilehash: 272d0c0eb1b3885da9a313666c8eac2d7bb09fe0
-ms.sourcegitcommit: e102d72e67ab1c440c29ae6a048fc2cf8545fe01
+ms.openlocfilehash: 91f7a1a8d3e8ea68b113d98d667aeaae9a90dd4e
+ms.sourcegitcommit: 4b0bd129af9cd487123ef6a5dc19ace0ec5a6c41
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "65217923"
+ms.lasthandoff: 05/13/2022
+ms.locfileid: "65406405"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>USB-аудио- и видеоустройства, сертифицированные для Microsoft Teams
 
@@ -81,6 +81,7 @@ ms.locfileid: "65217923"
 
 | Производитель        | Модели                                                     | Квалифицированных      | Сертифицированная программа                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Поли                 |Монитор Studio P21                                         |5/12/2022       |Сертифицировано для Microsoft Teams                           |
 |Yealink              |ГАРНИТУРА 38                                               |5/2/2022        |Сертифицировано для Microsoft Teams                           |   
 |Yealink              |Гарнитура BH72                                               |5/2/2022        |Сертифицировано для Microsoft Teams                           |
 |Logitech             |Беспроводные наушники зоны True                                 |5/2/2022        |Сертифицировано для Microsoft Teams                           |
