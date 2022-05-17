@@ -3,6 +3,25 @@
 
 
 
+## <a name="week-of-may-09-2022"></a>Неделя с 9 мая 2022 г.
+
+
+| Дата публикации |Название статьи | Изменение |
+|------|------------|--------|
+| 5/9/2022 | [Включение прямой маршрутизации для пользователей](/MicrosoftTeams/direct-routing-enable-users) | Изменено |
+| 5/9/2022 | [Настройка Operator Connect](/MicrosoftTeams/operator-connect-configure) | Изменено |
+| 5/9/2022 | [Назначение политик в Teams](/MicrosoftTeams/policy-assignment-overview) | Изменено |
+| 5/9/2022 | [Отчет об & очереди вызовов автосекретаря](/MicrosoftTeams/aa-cq-cqd-historical-reports) | Изменено |
+| 5/10/2022 | [Планирование маршрутизации на основе расположения для прямой маршрутизации](/MicrosoftTeams/location-based-routing-plan) | Изменено |
+| 5/10/2022 | [Политики звонков в Microsoft Teams: функции звонков и переадресации звонков](/MicrosoftTeams/teams-calling-policy) | Изменено |
+| 5/10/2022 | [Комнаты Microsoft Teams версии приложения](/MicrosoftTeams/rooms/rooms-lifecycle-support) | Изменено |
+| 5/12/2022 | [Управление политиками голосовой почты](/MicrosoftTeams/manage-voicemail-policies) | Изменено |
+| 5/12/2022 | [Настройка шлюза SIP](/MicrosoftTeams/sip-gateway-configure) | Изменено |
+| 5/12/2022 | [Настройка родительских элементов в Teams для образования](/MicrosoftTeams/edu-parents-app) | Изменено |
+| 5/13/2022 | [Приложение "Рация" в Microsoft Teams](/MicrosoftTeams/walkie-talkie) | Изменено |
+| 5/13/2022 | [Требования к комнатам Microsoft Teams](/MicrosoftTeams/rooms/requirements) | Изменено |
+
+
 ## <a name="week-of-may-02-2022"></a>Неделя с 2 мая 2022 г.
 
 
@@ -33,7 +52,7 @@
 | 4/25/2022 | [Общедоступная предварительная версия в Microsoft Teams](/MicrosoftTeams/public-preview-doc-updates) | Изменено |
 | 4/26/2022 | [Обзор Loop компонентов в Teams](/MicrosoftTeams/loop-components-in-teams) | Изменено |
 | 4/26/2022 | Функция срока действия записи собрания | Удалено |
-| 4/27/2022 | [Отчет об использовании аудиоконференций с телефонным подключением](/MicrosoftTeams/audio-conferencing-dial-out-usage-report) | Добавлено |
+| 4/27/2022 | [Аудиоконференции с отчетом об использовании телефонного исходящего номера](/MicrosoftTeams/audio-conferencing-dial-out-usage-report) | Добавлено |
 | 4/27/2022 | Рекомендации по присоединению к домену для системы комнат Skype | Удалено |
 | 4/27/2022 | Перенос устройств системы комнат Lync в Комнаты Microsoft Teams | Удалено |
 | 4/27/2022 | [Проверка подлинности в Комнаты Microsoft Teams](/MicrosoftTeams/rooms/rooms-authentication) | Изменено |
@@ -52,7 +71,7 @@
 | 4/25/2022 | [Общедоступная предварительная версия в Microsoft Teams](/MicrosoftTeams/public-preview-doc-updates) | Изменено |
 | 4/26/2022 | [Обзор Loop компонентов в Teams](/MicrosoftTeams/loop-components-in-teams) | Изменено |
 | 4/26/2022 | Функция срока действия записи собрания | Удалено |
-| 4/27/2022 | [Отчет об использовании аудиоконференций с телефонным подключением](/MicrosoftTeams/audio-conferencing-dial-out-usage-report) | Добавлено |
+| 4/27/2022 | [Аудиоконференции с отчетом об использовании телефонного исходящего номера](/MicrosoftTeams/audio-conferencing-dial-out-usage-report) | Добавлено |
 | 4/27/2022 | Рекомендации по присоединению к домену для системы комнат Skype | Удалено |
 | 4/27/2022 | Перенос устройств системы комнат Lync в Комнаты Microsoft Teams | Удалено |
 | 4/27/2022 | [Проверка подлинности в Комнаты Microsoft Teams](/MicrosoftTeams/rooms/rooms-authentication) | Изменено |
@@ -81,10 +100,10 @@
 | 4/19/2022 | [Музыка на удержании](/MicrosoftTeams/music-on-hold) | Изменено |
 | 4/19/2022 | [Teams приложения на основе типов пользователей](/MicrosoftTeams/non-standard-users) | Изменено |
 | 4/19/2022 | [Общие сведения о безопасности и соответствии требованиям](/MicrosoftTeams/security-compliance-overview) | Изменено |
-| 4/20/2022 | [Политики бесплатных номеров аудиоконференций](/MicrosoftTeams/audio-conferencing-toll-free-numbers-policy) | Добавлено |
-| 4/20/2022 | [Изменение номеров телефонов в мосте аудиоконференций](/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge) | Изменено |
+| 4/20/2022 | [Аудиоконференции политики бесплатных номеров](/MicrosoftTeams/audio-conferencing-toll-free-numbers-policy) | Добавлено |
+| 4/20/2022 | [Изменение номеров телефонов Аудиоконференции моста](/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge) | Изменено |
 | 4/20/2022 | [Отключение бесплатных номеров для отдельных пользователей Teams](/MicrosoftTeams/disabling-toll-free-numbers-for-specific-teams-users) | Изменено |
-| 4/20/2022 | [Управление параметрами аудиоконференций](/MicrosoftTeams/manage-the-audio-conferencing-settings-for-my-organization-in-teams) | Изменено |
+| 4/20/2022 | [Управление Аудиоконференции параметров](/MicrosoftTeams/manage-the-audio-conferencing-settings-for-my-organization-in-teams) | Изменено |
 | 4/20/2022 | [Указание номеров телефонов, которые можно включать в приглашения](/MicrosoftTeams/set-the-phone-numbers-included-on-invites-in-teams) | Изменено |
 | 4/20/2022 | [Настройка аудиоконференций для Microsoft Teams](/MicrosoftTeams/set-up-audio-conferencing-in-teams) | Изменено |
 | 4/21/2022 | Поддержка Microsoft StaffHub прекращена | Удалено |
