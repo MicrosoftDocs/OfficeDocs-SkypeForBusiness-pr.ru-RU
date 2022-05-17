@@ -13,14 +13,14 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: В этой статье описывается, как настроить организацию и Комнаты Teams устройства для поддержки присоединения сторонних собраний к Cisco WebEx и Zoom.
-ms.openlocfilehash: 6defa9c9287b130eb5534f0aea158a78f2de8b18
-ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
+ms.openlocfilehash: 91b730f998a1c17ed41f42a1e2990c82045d3117
+ms.sourcegitcommit: 54cb804e6e8338f2d09499e53416e6d55ef1cc40
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "64846608"
+ms.lasthandoff: 05/17/2022
+ms.locfileid: "65442005"
 ---
-# <a name="enable-teams-room-devices-to-join-third-party-meetings"></a>Включение Teams комнаты для присоединения к сторонним собраниям
+# <a name="enable-teams-rooms-devices-to-join-third-party-meetings"></a>Включение Комнаты Teams устройств для присоединения к сторонним собраниям
 
 > [!NOTE]
 > В настоящее время эта функция доступна только Комнаты Teams на Windows.
@@ -65,8 +65,8 @@ ms.locfileid: "64846608"
 
 Вот несколько примеров записей, которые может потребоваться добавить в список *Defender для Office 365 Сейф Ссылки* не перезаписывать список или сторонний список исключений перезаписи URL-адресов:
 
-- **Cisco WebEx** `*.webex.com*`
-- **Zoom**`*.zoom.us*`, `*.zoom.com*``*.zoomgov.com*`
+- **Cisco WebEx** `*.webex.com/*`
+- **Zoom**`*.zoom.us/*`, `*.zoom.com/*``*.zoomgov.com/*`
 
 Чтобы получить полный список URL-адресов для добавления в список Defender для Office 365 Сейф Links Do *not rewrite* list or third-party URL rewrite exception list, обратитесь к стороннему поставщику службы собраний, от которого вы хотите принять приглашения на собрания.
 

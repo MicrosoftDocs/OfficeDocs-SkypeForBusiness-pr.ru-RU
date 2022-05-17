@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 2a4862b1daedd90dce4d486ed1517efbfeaca336
-ms.sourcegitcommit: f3c380f745af4c3aaa2720234860b45696a0c333
+ms.openlocfilehash: a7276c2a538eacefc579a7233bb99fb7882afb8f
+ms.sourcegitcommit: 54cb804e6e8338f2d09499e53416e6d55ef1cc40
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/09/2022
-ms.locfileid: "64737581"
+ms.lasthandoff: 05/17/2022
+ms.locfileid: "65442045"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>Управление политиками разрешений для приложений в Microsoft Teams
 
@@ -87,14 +87,9 @@ ms.locfileid: "64737581"
 
 ## <a name="manage-org-wide-app-settings-for-microsoft-365-government"></a>Управление параметрами приложений в пределах организации в Microsoft 365 для государственных организаций  
 
-В развертывании Microsoft 365 для государственных организаций — GCCH и DoD Teams важно знать следующее о параметрах сторонних приложений, которые уникальны для GCCH и DoD.
+В развертывании Microsoft 365 для государственных GCC, GCCH и DoD Teams все сторонние приложения блокируются по умолчанию. В облаках GCCH и DOD сторонние приложения недоступны. Кроме того, в GCC вы увидите следующее примечание об управлении сторонними приложениями на странице политик разрешений приложений в Microsoft Teams администрирования.
 
-В GCC, GCCH и DoD все сторонние приложения блокируются по умолчанию. Кроме того, в GCC вы увидите следующее примечание об управлении сторонними приложениями на странице политик разрешений приложений в Microsoft Teams администрирования.
-
-:::image type="content" source="media/app-permission-policies-gcc-trimmed.png" alt-text="Снимок экрана: политика разрешений приложения в GCCH и DoD." lightbox="media/app-permission-policies-gcc.png":::
-
-> [!NOTE]
-> В облаках GCCH и DOD сторонние приложения недоступны.
+:::image type="content" source="media/app-permission-policies-gcc.png" alt-text="Снимок экрана: политика разрешений приложения в GCCH и DoD.":::
 
 Используйте параметры приложений в пределах организации, чтобы указать, могут ли пользователи устанавливать приложения сторонних разработчиков. Параметры приложения в пределах организации определяют поведение всех пользователей и переопределяют любые другие политики разрешений для приложений, назначенных пользователям. Их можно использовать для управления вредоносными или проблемными приложениями.
 

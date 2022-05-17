@@ -13,12 +13,12 @@ ms.collection:
 description: Узнайте о последних изменениях в Teams PowerShell.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 169519741bb0107086679a0472ead65c0e512529
-ms.sourcegitcommit: 3aa1c3cbd8ba9919e2a4dd4c7d4b95c40ed3d55d
+ms.openlocfilehash: 2bd7507767cb7f8747d8abbf4a23adda39738182
+ms.sourcegitcommit: 54cb804e6e8338f2d09499e53416e6d55ef1cc40
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "65230983"
+ms.lasthandoff: 05/17/2022
+ms.locfileid: "65442035"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Microsoft Teams о выпуске PowerShell
 
@@ -31,6 +31,7 @@ ms.locfileid: "65230983"
 
 | Дата | Версия | Обновления |
 |------- | -------------------- | ------------------------------ |
+| Май 2022 г. | [4.3.1-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/4.3.1-preview) |<li>Улучшения размера модуля.</li><li>Параметры, не поддерживаемые в обновленной версии всех командлетов, будут привести к ошибке.</li><li>Исправлена обработка ошибок для командлетов [GetSet\|]-CsOnlineDialInConferencingUser, Get-CsOnlineDialInConferencingBridge, [GetSetRegisterUnregister\|\|\|]-CsOnlineDialInConferencingServiceNumber & Get-CsOnlineDialInConferencingLanguagesSupported.</li><li>Выпуск командлетов развертывания в масштабе в предварительной версии — New-CsBatchTeamsDeployment & Get-CsBatchTeamsDeploymentStatus.</li>
 | Май 2022 г. | [4.3.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.3.0) |<li>Исправляет обработку ошибок для командлетов [SetRemove\|]-CsPhoneNumberAssignment.</li><li>[Получить\| SetRemove\|]-CsOnlineLisSubnet — исправления для параметра подсети в современных командлетах.</li><li>[Получить\| Set]-CsOnlineLisLocation & [GetSet\|]-CsOnlineLisCivicAddress — исправления поддерживаемых параметров в современных командлетах (дополнительные сведения см. в соответствующих общедоступных документациях).</li>
 | Апрель 2022 г. | [4.2.1-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/4.2.1-preview) |<li>Исправляет обработку ошибок для командлетов [SetRemove\|]-CsPhoneNumberAssignment.</li><li>[Получить\| SetRemove\|]-CsOnlineLisSubnet — исправления для параметра подсети в современных командлетах.</li><li>[Получить\| Set]-CsOnlineLisLocation & [GetSet\|]-CsOnlineLisCivicAddress — исправления поддерживаемых параметров в современных командлетах.</li>
 | Апрель 2022 г. | [4.2.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.2.0) |<li>Поддержка прокси-сервера для всех командлетов, относящихся к Teams. Поддерживаемые командлеты развертываются постепенно.</li><li>Устранены проблемы с [NewSet\|]: современные командлеты политики при использовании с параметрами типа PSListModifier.</li><li>[КРИТИЧЕСКОЕ ИЗМЕНЕНИЕ] Параметры типа PSListModifier принимают только хэш-таблицу с добавлением или удалением. Хэш-таблица с заменой сейчас не поддерживается. Вместо этого значения можно задать непосредственно в параметре.</li><li>Устранены проблемы с форматированием [GetNew\|]: несколько командлетов современной политики (CsVideoInteropServiceProvider, CsInboundBlockedNumberPattern, CsTeamsComplianceRecordingApplication, CsTeamsTranslationRule, CsTeamsUnassignedNumberTreatment, CsVoiceNormalizationRule).</li><li>Повышена производительность обработки входных данных конвейера с помощью современных командлетов.</li><li>Устраняет незначительные проблемы с результатами ввода конвейера.</li><li>Get-CsOnlineUser: добавлен атрибут Country (известный как CountryOrRegionDisplayName в версиях, предшествующих 3.x.x).</li><li>[КРИТИЧЕСКОЕ ИЗМЕНЕНИЕ] Get-CsOnlineUser: атрибут CountryAbbreviation теперь доступен только при использовании с параметром -Identity.</li>
@@ -68,7 +69,7 @@ ms.locfileid: "65230983"
 | Март 2020 г. | [1.0.5](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.5) |<li>Добавлены New-CsBatchPolicyAssignmentOperation</li> |
 | Февраль 2020 г. | [1.0.4](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.4) | <li>Get-Team оптимизации</li>  |
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
 [Обзор PowerShell в Teams](teams-powershell-overview.md)
 
