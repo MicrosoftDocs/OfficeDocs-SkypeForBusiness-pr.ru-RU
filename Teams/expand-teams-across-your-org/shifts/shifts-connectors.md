@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 930f4b7a311acc7c34e60b7916071d10349c0313
-ms.sourcegitcommit: bf0071417188b33fc23e2a420187da5024d4bd40
+ms.openlocfilehash: a4759bc010367e6531a557e2a5ff951d1b613505
+ms.sourcegitcommit: 3b86e55787c34da76428d6915964ac4f3c6239fc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/20/2022
-ms.locfileid: "64592894"
+ms.lasthandoff: 05/20/2022
+ms.locfileid: "65598362"
 ---
 # <a name="shifts-connectors"></a>Соединители shifts
 
@@ -30,7 +30,7 @@ ms.locfileid: "64592894"
 
 Подключение системы WFM к Teams позволяет сотрудникам frontline эффективнее управлять расписаниями и упрощает повседневные процессы для повышения вовлеченности и повышения производительности. У сотрудников переднего плана есть единое место для планирования, обмена данными и совместной работы, необходимых для выполнения работы из любого места на любом устройстве.
 
-Мы предлагаем управляемые соединители shifts с открытым кодом. В этой статье приводятся общие сведения о соединителях Shifts и их работе.
+В этой статье приводятся общие сведения о соединителях Shifts и их работе.
 
 ## <a name="how-shifts-connectors-work"></a>Принцип работы соединителей shifts
 
@@ -115,17 +115,6 @@ Eden, руководитель, публикует расписание в Blue 
 - Запрашивать отгулы, открывать смены, переключать и предлагать смены в сменах.
 
 Дополнительные сведения см. в статье https://connect.zebra.com/microsoft-connectors
-
-## <a name="open-source-shifts-connectors"></a>Соединители shifts с открытым кодом
-
-Соединители shifts с открытым кодом — это управляемые сообществом интеграции, основанные на [shifts Graph API](/graph/api/resources/shift). Доступны следующие соединители с открытым кодом:
-
-- Kronos-to-Teams WFC в локальной среде
-- Соединитель JDA-Teams Shifts (для Blue Yonder версии 2017 до 2020.2)
-
-Каждый соединитель содержит подробные инструкции по развертыванию и настройке. Они включают сценарии Resource Manager Azure (ARM), которые позволяют разместить все необходимые службы в Microsoft Azure. Исходный код и скрипты развертывания доступны для скачивания в GitHub [репозитории](https://github.com/OfficeDev/Microsoft-Teams-Shifts-WFM-Connectors). Вы можете выполнить развертывание "как есть", настроить или расширить его в соответствии со своими потребностями.
-
-Дополнительные сведения см. в [разделе о соединителях Shifts, готовых к использованию в рабочей среде](/microsoftteams/platform/samples/shifts-wfm-connectors).
 
 ## <a name="related-articles"></a>Статьи по теме
 

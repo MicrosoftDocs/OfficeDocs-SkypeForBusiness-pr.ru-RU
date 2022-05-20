@@ -20,12 +20,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5097586825b231decd220a30bdde85bf258e27fc
-ms.sourcegitcommit: d847256fca80e4e8954f767863c880dc8472ca04
+ms.openlocfilehash: 6a52b30e1ced457377d7dd1c820192cb856827ba
+ms.sourcegitcommit: 3b86e55787c34da76428d6915964ac4f3c6239fc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "65313111"
+ms.lasthandoff: 05/20/2022
+ms.locfileid: "65601678"
 ---
 # <a name="calling-and-call-forwarding-in-teams"></a>Вызовы и переадресация звонков в Teams
 
@@ -99,7 +99,7 @@ ms.locfileid: "65313111"
 
 Этот параметр позволяет пользователям вызывать номера ТСОП с помощью Teams веб-клиента.
 
-### <a name="incoming-meeting-invites-are-automatically-answered"></a>На входящие приглашения на собрания автоматически отвечают
+### <a name="automatically-answer-incoming-meeting-invites"></a>Автоматически отвечать на входящие приглашения на собрания
 
 Этот параметр определяет, будут ли автоматически отвечать на приглашения на входящие собрания. Она по умолчанию отключена. Помните, что этот параметр применяется только к входящим приглашениям на собрания. Он не применяется к другим типам вызовов.
 
