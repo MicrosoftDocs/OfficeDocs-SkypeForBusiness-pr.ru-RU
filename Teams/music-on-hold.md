@@ -15,12 +15,12 @@ appliesto:
 ms.localizationpriority: medium
 ms.custom: ''
 description: Узнайте, как управлять функцией "Музыка при удержании" в телефонная система.
-ms.openlocfilehash: 3e3e9c12eb459fdf52506be4577dfea88943ffa7
-ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
+ms.openlocfilehash: 4899ffd2a3b6bfda80164ca2df4a5460a2b005e2
+ms.sourcegitcommit: 4435ac0efcb95e4e5e1f21289e46761e79482ab5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64922660"
+ms.lasthandoff: 05/20/2022
+ms.locfileid: "65624243"
 ---
 # <a name="music-on-hold"></a>Музыка на удержании
 
@@ -61,15 +61,15 @@ ms.locfileid: "64922660"
 
 1. Убедитесь, что Teams на удержании пользователя "Музыка" для вызывающих абонентов ТСОП установлено значение "Включено" Teams политики звонков. 
 
-2. Upload пользовательский звуковой файл.
+2. Отправьте пользовательский звуковой файл.
 
 3. Создайте Teams удержания параметров, ссылаясь на пользовательский звуковой файл, и назначьте его Teams пользователю.
 
-### <a name="upload-the-custom-audio-file"></a>Upload настраиваемого звукового файла
+### <a name="upload-the-custom-audio-file"></a>Отправка пользовательского звукового файла
 
 Настройка пользовательской музыки на удержании начинается с отправки звукового файла. Для этой цели используется командлет PowerShell [Import-CsOnlineAudioFile](/powershell/module/skype/import-csonlineaudiofile) .
 
-Ниже приведен пример отправки звукового файла MP3 с помощью интерфейса PowerShell.
+Ниже приведен пример отправки звукового файла MP3 с Windows PowerShell 5.1. Другие примеры см. в [разделе Import-CsOnlineAudioFile](/powershell/module/skype/import-csonlineaudiofile).
 
 ```PowerShell
 C:\> $content = Get-Content "C:\tmp\customMoH1.mp3" -Encoding byte -ReadCount 0
@@ -132,6 +132,10 @@ C:\> Grant-CsTeamsCallHoldPolicy -PolicyName "CustomMoH1" -Identity user1@contos
 
 - [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)
 
+- [Import-CsOnlineAudioFile](/powershell/module/skype/import-csonlineaudiofile)
+
+- [Export-CsOnlineAudioFile](/powershell/module/skype/export-csonlineaudiofile)
+
 - [Get-CsOnlineAudioFile](/powershell/module/skype/get-csonlineaudiofile)
 
 - [Remove-CsOnlineAudioFile](/powershell/module/skype/remove-csonlineaudiofile)
@@ -144,6 +148,3 @@ C:\> Grant-CsTeamsCallHoldPolicy -PolicyName "CustomMoH1" -Identity user1@contos
 
 - [Remove-CsTeamsCallHoldPolicy](/powershell/module/skype/remove-csteamscallholdpolicy)
 
-- [Import-CsOnlineAudioFile](/powershell/module/skype/import-csonlineaudiofile)
-
-- [Export-CsOnlineAudioFile](/powershell/module/skype/export-csonlineaudiofile)

@@ -3,7 +3,7 @@ title: Изменение языка по умолчанию для привет
 author: dstrome
 ms.author: dstrome
 manager: serdars
-ms.reviewer: wasseemh
+ms.reviewer: jenstr
 ms.topic: article
 ms.assetid: 820c3892-1b7e-47d3-ae8d-6e27e7cbcf38
 ms.tgt.pltfrm: cloud
@@ -22,61 +22,78 @@ f1.keywords:
 ms.custom:
 - Phone System
 - seo-marvel-mar2020
-description: Узнайте, как настроить Microsoft Teams и Skype для бизнеса использовать другой язык для приветствия голосовой почты по умолчанию в организации.
-ms.openlocfilehash: 4c509edf6efa2fe660a59772f3266e6d49be8d31
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+description: Узнайте, как настроить Microsoft Teams и Skype для бизнеса использовать другой язык для приветствия голосовой почты организации по умолчанию.
+ms.openlocfilehash: 5e486e94470fd6303d132fdaa9c23b0ca6f65b98
+ms.sourcegitcommit: 4435ac0efcb95e4e5e1f21289e46761e79482ab5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60014423"
+ms.lasthandoff: 05/20/2022
+ms.locfileid: "65624093"
 ---
 # <a name="change-the-default-language-for-greetings-and-emails"></a>Изменение языка по умолчанию для приветствий и электронных писем
 
-Если вы глобальный [администратор,](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)вы можете настроить Skype для бизнеса для воспроизведения приветствия голосовой почты по умолчанию на другом языке. По умолчанию в системе задано примерно следующее приветствие: "Оставьте сообщение для Александра Петрова. После сигнала запишите сообщение. По окончании записи повесьте трубку или нажмите решетку для перехода к дополнительным параметрам".
-  
- **Сначала ознакомьтесь со следующей важной информацией:**
-  
-- **Доступные языки определяются местоположением организации**. Например, если организация находится в США, вы можете задать английский или испанский в качестве языка по умолчанию. Если организация находится в Канаде, вы можете выбрать между английским или французским языком. Список поддерживаемых языков в Teams и Skype для бизнеса см. в следующих списках:
-  - [Microsoft Teams поддерживаемых языков](languages-for-voicemail-greetings-and-messages.md)
-  - [Skype для бизнеса поддерживаемых языков](/skypeforbusiness/what-is-phone-system-in-office-365/phone-system-voicemail/languages-for-voicemail-greetings-and-messages)
+облачная голосовая почта использует различные языковые параметры для воспроизведения приветствий, создания переводов транскрибирования и создания сообщений голосовой почты. Языковые параметры могут быть заданы по умолчанию на уровне клиента, с помощью политики или отдельно для конкретного пользователя.
 
-- **Изменение языков для приветствия голосовой почты и сообщений голосовой почты отдельных пользователей.** Вы можете изменить предпочитаемый язык для пользователей, чтобы изменить язык приветствия голосовой почты и сообщений голосовой почты, отправленных Outlook почтовому ящику. Дополнительные сведения [см.](/office365/troubleshoot/access-management/set-language-and-region)в этой Microsoft 365 или Office 365.
+## <a name="greetings"></a>Приветствия
+Приветствия воспроизводится для вызывающего абонента, покидающего голосовую почту, и могут иметь следующие типы:
 
-  > [!NOTE]
-  > Пользователи могут изменить для себя язык приветствий с помощью своих параметров после входа. Дополнительные сведения см. в Microsoft 365 для [бизнеса.](https://support.office.com/article/change-your-display-language-and-time-zone-in-microsoft-365-for-business-6f238bff-5252-441e-b32b-655d5d85d15b?ui=en-US&rs=en-US&ad=US)
-  
-- **Вам требуется записывать исходящие сообщения голосовой почты?** См. статью [Проверка голосовой почты и параметров в Skype для бизнеса](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8). Для Microsoft Teams: пользователи могут изменять параметры голосовой почты в Teams клиента [для настольных пк.](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)
+- Приветствия системы
+- Пользовательские приветствия, записанные вызываемым пользователем
+- Настраиваемое приветствие преобразования текста в речь, указанное для вызываемого пользователя
 
-- **Вы хотите изменить язык подсказки голосовой почты?** Для Skype для бизнеса - [https://mysettings.lync.com/voicemail](https://mysettings.lync.com/voicemail) и выберите новый язык в области Язык **подсказки**. Для Microsoft Teams. Пользователи могут изменять приветствие голосовой почты в параметрах клиента Teams [настольного компьютера.](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)
+Язык, используемый для воспроизведения приветствий системы, в порядке приоритета — это основной и дополнительный язык запросов, указанный в политике голосовой почты в Интернете, назначенной пользователю, предпочтительный язык, указанный для пользователя, или язык клиента по умолчанию.
+
+Настраиваемое приветствие и приветствие без офиса записываются пользователем на языке, выбранном пользователем.
+
+Если пользовательские приветствия преобразования текста в речь заданы пользователем либо пользователем, либо администратором клиента, языком, используемым для создания речи, является PromptLanguage, указанный вместе с приветствием преобразования текста в речь.
+
+Настраиваемые приветствия преобразования текста в речь используются только в том случае, если пользователь не записал настраиваемые приветствия.
+
+## <a name="transcription"></a>Транскрипции
+Если политика голосовой почты в Сети включена для вызываемого пользователя, облачная голосовая почта попытается транскрибировать голосовую почту, оставленную вызывающим абонентом. Он будет использовать функцию распознавания речи, чтобы понять язык, используемый в звуковом содержимом, и по возможности транскрибировать содержимое с помощью обнаруженного языка.
+
+## <a name="transcription-translation"></a>Транскрибирование
+Если политика голосовой почты в Сети включена для вызываемого пользователя, облачная голосовая почта переведите транскрибированную голосовую почту. Он будет выполнять перевод с языка, обнаруженного при обнаружении речи, на предпочтительный язык, указанный для пользователя, или язык клиента по умолчанию.
+
+## <a name="voicemail-message-template"></a>Шаблон сообщения голосовой почты
+облачная голосовая почта будет создавать сообщение голосовой почты с помощью шаблона языка на основе предпочтительного языка, указанного для пользователя, или языка клиента по умолчанию.
+
+## <a name="setting-the-preferred-language-for-a-user"></a>Настройка предпочтительного языка для пользователя
+Вы можете задать предпочтительный язык для пользователя с помощью PowerShell Azure Active Directory или локальная служба Active Directory. Дополнительные сведения см. в разделе "Настройка параметров языка и региона для Microsoft 365 [или Office 365](/office365/troubleshoot/access-management/set-language-and-region)".
+
+Пользователи могут изменить собственный предпочитаемый язык с помощью своих параметров после входа. Дополнительные сведения см. в статье ["Изменение языка интерфейса и часового пояса в Microsoft 365 для бизнеса"](https://support.office.com/article/change-your-display-language-and-time-zone-in-microsoft-365-for-business-6f238bff-5252-441e-b32b-655d5d85d15b?ui=en-US&rs=en-US&ad=US).
 
 ## <a name="change-the-system-language-for-everyone-in-your-organization"></a>Изменение языка системы сразу для всех пользователей организации
 
-1. Во sign in with your [global administrator](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) account at [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home) .
+1. Войдите с помощью [учетной записи глобального администратора](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) по адресу [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home).
 
-2. На странице Центр администрирования Microsoft 365 **выберите** Параметры  >  **Параметры**  >  **профиль организации**.
-
-     ![Снимок экрана: выбор Параметры и профиля организации.](media/9d9de520-bb84-409f-9417-96bd8ec86c48.png)
-  
-3. Выберите элемент **Изменить**.
-
-    ![Снимок экрана: параметр "Изменить".](media/e4a0b09d-2b68-4bc8-a0d3-230939843ee2.png)
-  
+2. В Центр администрирования Microsoft 365 выберите **Параметры** >  **Org settingsOrganization** > .
+3. Выберите **сведения об организации**.
 4. Выберите язык из списка **Предпочитаемый язык** для всех пользователей в организации.
-
 5. Нажмите кнопку **Сохранить**.
 
-## <a name="related-articles-for-the-admin"></a>Дополнительные статьи для администраторов
+**Доступные языки определяются местоположением организации**. Например, если организация находится в США, вы можете задать английский или испанский в качестве языка по умолчанию. Если организация находится в Канаде, вы можете выбрать между английским или французским языком.
 
-- [Телефонная система и тарифные планы](calling-plan-landing-page.md)
+## <a name="supported-languages-in-cloud-voicemail"></a>Поддерживаемые языки в облачная голосовая почта
+Список поддерживаемых языков в облачная голосовая почта для Microsoft Teams и Skype для бизнеса см. в облачная голосовая почта [языках](languages-for-voicemail-greetings-and-messages.md).
+  
 
-- [Настройка планов звонков](set-up-calling-plans.md)
+## <a name="custom-greeting-recorded-by-a-user"></a>Пользовательское приветствие, записанное пользователем
+Пользователи могут записывать собственные настраиваемые и неавтные настраиваемые приветствия. См[. Teams параметров настольного](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f) клиента, [а также Skype для бизнеса голосовой почты и параметров](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8).
 
-- [Планирование телефонная система в Microsoft 365 или Office 365 с помощью локального подключения к ОКП через Skype для бизнеса Server](/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity)
+## <a name="custom-text-to-speech-greeting-specified-for-a-user"></a>Настраиваемое приветствие преобразования текста в речь, указанное для пользователя
+Администратор клиента может указать пользовательский язык приветствия и запроса текста для пользователя с помощью командлета [Set-CsOnlineVoicemailUserSettings](/powershell/module/skype/set-csonlinevoicemailusersettings) .
 
-## <a name="related-topics"></a>См. также
+## <a name="custom-text-to-speech-greeting-specified-by-a-user"></a>Настраиваемое приветствие преобразования текста в речь, указанное пользователем
+Пользователи могут указать собственные настраиваемые приветствия преобразования текста в речь и язык, используемый для приветствия. Для Microsoft Teams — пользователи могут изменить приветствие голосовой почты из параметров Teams [клиента.](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f) Для Skype для бизнеса — [https://mysettings.lync.com/voicemail](https://mysettings.lync.com/voicemail) и выберите новый язык в разделе **"Язык запроса"**. 
 
-- [Изменение языка и часового пояса в Microsoft 365 или Office 365 для бизнеса](https://support.office.com/article/Change-your-display-language-and-time-zone-in-Office-365-for-Business-6f238bff-5252-441e-b32b-655d5d85d15b)
 
-- [Выбор дополнительного языка и настройка языковых параметров в Office 2010 и более поздних версиях](https://support.office.com/article/Add-a-language-or-set-language-preferences-in-Office-663d9d94-ca99-4a0d-973e-7c4a6b8a827d)
+## <a name="related-articles"></a>Статьи по теме
 
-- [Включение или переключение языка раскладки клавиатуры](https://support.office.com/article/Enable-or-change-a-keyboard-layout-language-1c2242c0-fe15-4bc3-99bc-535de6f4f258)
+[Set-CsOnlineVoicemailUserSettings](/powershell/module/skype/set-csonlinevoicemailusersettings)
+
+[Get-CsOnlineVoicemailUserSettings](/powershell/module/skype/get-csonlinevoicemailusersettings)
+
+[Set-CsOnlineVoicemailPolicy](/powershell/module/skype/set-csonlinevoicemailpolicy)
+
+[Get-CsOnlineVoicemailPolicy](/powershell/module/skype/get-csonlinevoicemailpolicy)
