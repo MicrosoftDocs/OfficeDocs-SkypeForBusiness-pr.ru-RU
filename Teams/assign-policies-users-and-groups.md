@@ -1,7 +1,7 @@
 ---
 title: Назначение политик пользователям и группам
-author: KarliStites
-ms.author: kastites
+author: mkbond007
+ms.author: mabond
 ms.reviewer: tomkau, saragava, ritikag, jastark
 manager: serdars
 ms.topic: article
@@ -18,12 +18,12 @@ description: Узнайте о различных способах назнач�
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: b332f66328048f08bae5e92d0b5421dfabde5a07
-ms.sourcegitcommit: 7a9c3e8857608b97d0f456ab296b46228a806acb
+ms.openlocfilehash: 60d3835a3cdda752dab0305b68b68e91446e10d7
+ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "65587659"
+ms.lasthandoff: 05/23/2022
+ms.locfileid: "65646438"
 ---
 # <a name="assign-policies-to-users-and-groups"></a>Назначение политик пользователям и группам
 

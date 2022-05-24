@@ -1,7 +1,7 @@
 ---
 title: Политики собраний и срок действия собраний в Microsoft Teams
-author: KarliStites
-ms.author: kastites
+author: mkbond007
+ms.author: mabond
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -17,12 +17,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: Узнайте, как использовать параметры политики собраний для управления сроком действия собрания в Microsoft Teams.
-ms.openlocfilehash: 74b47d296b06d2ef9462dfafec136a99ebff0a34
-ms.sourcegitcommit: 54cb804e6e8338f2d09499e53416e6d55ef1cc40
+ms.openlocfilehash: 014989cd2fda0ce28ef96ee53c82908f814ee8c7
+ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2022
-ms.locfileid: "65442025"
+ms.lasthandoff: 05/23/2022
+ms.locfileid: "65646218"
 ---
 # <a name="meeting-policies-and-meeting-expiration-in-microsoft-teams"></a>Политики собраний и срок действия собраний в Microsoft Teams
 
@@ -172,7 +172,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -NewMeetingRecordingExpirationDays 50
 > [!NOTE]
 > По истечении срока действия запись перемещается в корзину, а поле даты окончания срока действия очищается. Если вы восстановите запись из корзины, она больше не будет удалена этой функцией, так как дата окончания срока действия снята.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 
 [Изменение даты окончания срока действия собрания — элементы управления конечными пользователями](https://support.microsoft.com/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24#bkmk_view_change_expiration_date)
 
