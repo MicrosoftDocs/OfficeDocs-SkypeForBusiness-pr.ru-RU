@@ -987,7 +987,7 @@ items:
             href: network-roaming-policy.md
       - name: Экстренные вызовы
         items:
-          - name: Обзор
+          - name: Общие сведения
             href: what-are-emergency-locations-addresses-and-call-routing.md
           - name: Настройка динамических экстренных вызовов
             href: configure-dynamic-emergency-calling.md
@@ -1155,7 +1155,7 @@ items:
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md
           - name: Ограничения и запреты для бесплатных номеров
             items:
-              - name: Обзор
+              - name: Общие сведения
                 href: toll-free-dialing-limitations-and-restrictions.md
               - name: Аргентина
                 href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-argentina.md
@@ -1640,6 +1640,8 @@ items:
         items:
           - name: Начало работы с Teams для сотрудников без компьютеров
             href: flw-landing-page.md
+          - name: Запустить пробную версию для сотрудников без компьютеров
+            href: flw-trial.md
           - name: Варианты лицензирования для сотрудников без компьютеров
             href: flw-licensing-options.md
           - name: Краткое руководство по началу работу для сотрудников без компьютеров

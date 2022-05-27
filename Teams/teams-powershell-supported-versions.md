@@ -12,12 +12,12 @@ ms.collection:
 description: Сведения о версиях, поддерживаемых Teams PowerShell, используемом для администрирования Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 80465e1685ea05d6f49c6119110ddf2004098055
-ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
+ms.openlocfilehash: 6915448d76de64a65a9ac50e5c66e3ca41e051ef
+ms.sourcegitcommit: 8ce73ea99be607f5cdccb22a5366bc96e8fb09c8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65681920"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65758317"
 ---
 # <a name="teams-powershell-module---supported-versions"></a>Teams PowerShell — поддерживаемые версии
 
@@ -29,11 +29,11 @@ Microsoft Teams версии модуля PowerShell (TPM) в серии 4.x.x �
 
 ## <a name="current-organizations-non-tpm-active"></a>Текущие организации (не активные TPM)
 
-Организации, которые не использовали модуль Teams PowerShell в течение последних трех месяцев (с 22 января по 22 марта), смогут использовать модуль Teams PowerShell в серии 4.x.x или более поздней версии, начиная с 1 апреля 2022 г.
+Организации, которые не использовали модуль Teams PowerShell в период с 22 января по 22 марта, смогут использовать модуль Teams PowerShell в серии 4.x.x или более поздней версии, начиная с 1 апреля 2022 г.
 
 ## <a name="current-organizations-tpm-active"></a>Текущие организации (активный TPM)
 
-Организации, использующие модуль PowerShell Teams за последние три месяца (с 22 января по 22 января), смогут использовать модуль PowerShell Teams только в серии 4.x.x или более поздней версии, начиная с 15 июня 2022 г. Запись центра сообщений для справки — MC350371.
+Организации, которые использовали Teams PowerShell в период с 22 января по 22 марта, смогут использовать модуль PowerShell Teams только в серии 4.x.x или более поздней версии, начиная с 15 июня 2022 г. Запись центра сообщений для справки — MC350371.
 
 ## <a name="important-notes"></a>Важные примечания
 
@@ -54,7 +54,9 @@ Microsoft Teams версии модуля PowerShell (TPM) в серии 4.x.x �
 
   - Изменения, внесенные в Телефон номеров — дополнительные сведения в [Set-CsUser](/powershell/module/skype/set-csuser), [Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser), [Set-CsOnlineApplicationInstance](/powershell/module/skype/set-csonlineapplicationinstance) & [Set-CsOnlineVoiceApplicationInstance](/powershell/module/skype/set-csonlinevoiceapplicationinstance) (message center post — MC316139).
 
-  - Изменения параметров в Get-CsTenant — дополнительные сведения [в Get-CsTenant](/powershell/module/skype/get-cstenant).
+  - Изменения параметров в Get-CsTenant — дополнительные сведения в [Get-CsTenant](/powershell/module/skype/get-cstenant) (сообщение центра сообщений — MC365397).
+  
+  - Если в скриптах используются командлеты New/Set of Policy или Configuration с параметрами типа PSListModifier, рекомендуется использовать последнюю версию (4.2.0 или более позднюю).
 
 - При использовании TPM 4.x.x или более поздней версии не рекомендуется использовать ни один из нерекомендуемых или неподдерживаемых командлетов, упомянутых [ниже](#deprecated-cmdlets).
 
@@ -77,7 +79,7 @@ Microsoft Teams версии модуля PowerShell (TPM) в серии 4.x.x �
   - [Предоставить| Get| Задать| Новое| Remove]-CsClientPolicy
   - [Предоставить| Get]-CsHostedVoicemailPolicy
   - [Предоставить| Get| Задать| Новое| Remove]-CsMobilityPolicy
-  - [Предоставить| Get] CsVoiceRoutingPolicy
+  - [Предоставить| Get]-CsVoiceRoutingPolicy
   - [Предоставить| Get]-CsBroadcastMeetingPolicy
   - [Предоставить| Get]-CsCloudMeetingPolicy
   - [Предоставить| Get]-CsGraphPolicy
@@ -96,7 +98,7 @@ Microsoft Teams версии модуля PowerShell (TPM) в серии 4.x.x �
   - Get-CsHostingProvider
   - [Get| Задать| Регистрация| Unregister]-CsHybridPSTNAppliance
   - [Get| Задать| Новое| Remove]-CsHybridPSTNSite
-  - [Get| Set]- CsHybridMediationServer
+  - [Get| Set]-CsHybridMediationServer
   - [Get| Задать| Новое| Remove]-CsTenantUpdateTimeWindow
   - Get-CsUserLocationStatus
   - Invoke-CsUcsRollback
