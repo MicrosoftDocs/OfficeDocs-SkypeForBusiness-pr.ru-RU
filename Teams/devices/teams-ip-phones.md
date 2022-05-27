@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Узнайте, какие стационарные и конференции сертифицированы для Microsoft Teams для получения наилучших результатов.
-ms.openlocfilehash: 43e408defc9f1202cb31d6d46cccbc8df7704254
-ms.sourcegitcommit: c53c22069b1babce7a2364de631057ff501ca1c0
+ms.openlocfilehash: c5b4ab39768d0485de5fb5f6060d5567d035a343
+ms.sourcegitcommit: de0233e51364b7730c4b307fd41a2166eda3c3fc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65671785"
+ms.lasthandoff: 05/26/2022
+ms.locfileid: "65741901"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams сертифицированных Android устройств
 
@@ -48,8 +48,6 @@ ms.locfileid: "65671785"
 | AudioCodes C450HD                      | `1.17.443`                                                  |    5 августа 2023 г.              | 9 |
 | AudioCodes C448HD(Cap Mode Only)       |  `1.17.443`                                                   | 5 августа 2023 г.            | 9 |
 | Yealink CP965    | `143.15.0.7 `          | 3 сентября 2025 г.     | 11 |
-| AudioCodes C450HD                      | `C450HD_TEAMS_0.225`                                                  | 22 апреля 2022 г.               | 7.1.x |
-| AudioCodes C448HD(Cap Mode Only)       | `C450HD_TEAMS_0.225`                                                  | 22 апреля 2022 г.               | 7.1.x |
 | Crestron UC-P10/T/CT                   | `1.0.0.80`       | 5 августа 2023 г.            | 9 |
 | UC-P8/T /CT                   | `1.0.0.56`       | 5 августа 2023 г.            | 9 |
 | Audiocodes C470HD                      | `1.8.293   `                                               | 5 августа 2023 г.               | 9 |
@@ -231,6 +229,7 @@ ms.locfileid: "65671785"
 
 | Выпуск продукта| Дата выпуска | Microsoft Teams версии приложения | Корпоративный портал версии | Администратор версии агента |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
+| Обновление 2 за 2022 г.  | 25 мая 2022 г. |`1449/1.0.96.2022051102`| `5.0.5304.0` | `1.0.0.202112100118.product version code : 322` |
 | Обновление 1 за 2022 г.  | 24 февраля 2022 г. |`1449/1.0.96.2022011305`| `5.0.5304.0` | `1.0.0.202112100118.product version code : 322` |
 | Обновление 2021 #2A | 15 июля 2021 г.  |`1449/1.0.96.2021070803`|  `5.0.5088.0` |  `1.0.0.202104280345.product version code: 262` |
 | Обновление No 2 за 2021 г. | 28 июня 2021 г.  |`1449/1.0.96.2021051904`|  `5.0.5088.0` |  `1.0.0.202104280345.product version code: 262` |

@@ -15,16 +15,16 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c1208636547258524816ca77e57ddc3b83646144
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8e6313d64f5ce4b2b22d6969d0ca7115d42d5a31
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618475"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65676281"
 ---
 # <a name="manage-the-office-365-g1-trial-for-us-government"></a>Управление пробной версией Office 365 G1 для государственных учреждений США 
 
-С 1 июля 2020 г. лицензия на пробную версию Office 365 E1 больше не доступна. Если вам нужно лицензировать пользователей для использования Microsoft Teams, см. статью [Описание службы Microsoft Teams](/office365/servicedescriptions/teams-service-description), где приведен список платных подписок, включающих Teams. 
+С 1 июля 2020 г. лицензия на пробную версию Office 365 E1 больше не доступна. Если вам нужно назначить пользователям лицензии на Microsoft Teams, см. статью [Описание службы Microsoft Teams](/office365/servicedescriptions/teams-service-description), где приведен список платных подписок, включающих Teams. 
 
 Используйте инструкции, приведенные в этой статье, для управления существующими лицензиями на пробную версию Office 365 G1, в том числе для [обновления до платной подписки](#upgrade-users-from-the-office-365-g1-trial-license). Подробнее см. в разделах [Планы Microsoft 365 для государственных учреждений](https://www.microsoft.com/microsoft-365/government/compare-office-365-government-plans) и [Возможности Microsoft Teams, доступные в облаке GCC](plan-for-government-gcc.md).
 

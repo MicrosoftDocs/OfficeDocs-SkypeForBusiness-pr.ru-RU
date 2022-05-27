@@ -17,12 +17,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: Узнайте, как использовать параметры политики собраний для управления сроком действия собрания в Microsoft Teams.
-ms.openlocfilehash: 014989cd2fda0ce28ef96ee53c82908f814ee8c7
-ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
+ms.openlocfilehash: 08cdcd9b7d7f18dafa468bd33ca065dafb5768a6
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65646218"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675361"
 ---
 # <a name="meeting-policies-and-meeting-expiration-in-microsoft-teams"></a>Политики собраний и срок действия собраний в Microsoft Teams
 
@@ -112,7 +112,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -NewMeetingRecordingExpirationDays 50
 
 Вы можете задать дату окончания срока действия в центре администрирования Teams в разделе **"Политики собраний".** После автоматического включения **срока** действия собраний вы получите возможность задать срок действия записи.
 
-![Снимок экрана Центра администрирования: политика истечения срока действия собрания.](media/meeting-expiration-policy.jpg)
+![Администратор центральном снимке экрана с политикой истечения срока действия собрания.](media/meeting-expiration-policy.jpg)
 
 ### <a name="security-and-compliance"></a>Безопасность и соответствие требованиям
 
@@ -131,7 +131,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -NewMeetingRecordingExpirationDays 50
 
 ### <a name="will-this-feature-enforce-file-retention"></a>Будет ли эта функция обеспечивать сохранение файлов?
 
-Нет, файлы не будут храниться из-за этой функции или ее параметров. Если пользователь с разрешениями на удаление пытается удалить запись собрания Teams, для которого установлен срок действия, будет выполнено действие удаления этого пользователя.
+Нет, файлы не будут храниться из-за этой функции или ее параметров. Если пользователь с разрешениями на удаление попытается удалить TMR с параметром срока действия, будет выполнено действие удаления этого пользователя.
 
 ### <a name="what-skus-are-required-for-this-feature"></a>Какие номера SKU требуются для этой функции?
 

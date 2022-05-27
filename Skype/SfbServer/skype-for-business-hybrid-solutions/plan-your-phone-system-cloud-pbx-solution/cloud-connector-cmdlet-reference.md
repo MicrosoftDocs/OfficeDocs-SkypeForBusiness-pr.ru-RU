@@ -12,61 +12,61 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 072b4bdc-0f1e-4fce-a41e-5c60d24556d5
-description: В следующей таблице перечислены Skype для бизнеса Cloud Connector Edition с кратким описанием и ссылками на дополнительные сведения.
-ms.openlocfilehash: 19fc33912075e7737a4fa7fc242e74dd1de92289
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: В следующей таблице перечислены Skype для бизнеса Cloud Connector Edition командлеты с кратким описанием и ссылками на дополнительные сведения.
+ms.openlocfilehash: efe4a048e939b6491acc93b7ccd4717ffc9aca8b
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58583733"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65676171"
 ---
 # <a name="cloud-connector-cmdlet-reference"></a>Справочник по командлетам Cloud Connector
- 
-> [!Important]
-> Cloud Connector Edition завершится 31 июля 2021 г. вместе с Skype для бизнеса Online. После обновления организации Teams, узнайте, как подключить локальной телефонной сети к Teams с помощью прямой [маршрутизации](/MicrosoftTeams/direct-routing-landing-page).
 
-В следующей таблице перечислены Skype для бизнеса Cloud Connector Edition с кратким описанием и ссылками на дополнительные сведения.
+> [!Important]
+> Выпуск Cloud Connector будет снят с учета 31 июля 2021 г. вместе с Skype для бизнеса Online. После обновления организации до Teams узнайте, как подключить локальную телефонную сеть к Teams с помощью прямой [маршрутизации](/MicrosoftTeams/direct-routing-landing-page).
+
+В следующей таблице перечислены Skype для бизнеса Cloud Connector Edition командлеты с кратким описанием и ссылками на дополнительные сведения.
   
 > [!NOTE]
-> Необходимо выполнить все cmdlets на хост-машине облачного соединителя и запустить сеанс PowerShell в качестве администратора. 
+> Необходимо выполнить все командлеты на хост-компьютере Cloud Connector и запустить сеанс PowerShell от имени администратора. 
   
-|**Имя командлета**|**Описание**|
-|:-----|:-----|
-|[Backup-CcCertificationAuthority](backup-cccertificationauthority.md) <br/> Версия 1.4.2 и более поздние версии  <br/> |Возвращает службу сертификации в файл и сохраняет его в папке ЦС в каталоге акций сайта.     <br/> |
-|[Convert-CcIsoToVhdx](convert-ccisotovhdx.md) <br/> |Создает базовый виртуальный жесткий дисковый файл (VHDX) с помощью Windows Server 2012 R2 ISO. Файл VHDX будет использоваться во время развертывания connectorCloud.  <br/> |
-|[Enter-CcUpdate](enter-ccupdate.md) <br/> |Подготавливает хост-сервер облачного соединителю для процесса обновления, вводя его в режим обслуживания. Устройство "осушили"; то есть все существующие вызовы будут завершены, но новые вызовы будут отклонены.  <br/> |
-|[Exit-CcUpdate](exit-ccupdate.md) <br/> |Выходы из режима обслуживания обновления на сервере хост-сервера облачного соединитела.  <br/> |
-|[Export-CcConfiguration](export-ccconfiguration.md) <br/> | Экспортирует конфигурацию Skype для бизнеса Cloud Connector Edition локальному файлу на Skype для бизнеса Cloud Connector Edition сервере. <br/> |
-|[Export-CcConfigurationSampleFile](export-ccconfigurationsamplefile.md) <br/> |Экспортирует пример файла конфигурации облачного соединитетеля (.ini) в каталог устройств устройства устройства Cloud Connector. Вы можете изменить и переименовать файл для развертывания.  <br/> |
-|[Export-CcRootCertificate](export-ccrootcertificate.md) <br/> Версия 1.4.2 и более поздние версии  <br/> |Экспорт корневого сертификата ЦС в локальный файл на сервере хост-сервера Cloud Connector.  <br/> |
-|[Get-CcApplianceDirectory](get-ccappliancedirectory.md) <br/> |Извлекает рабочий каталог на сервере хост-сервера Cloud Connector. Все файлы развертывания хранятся в этом каталоге.  <br/> |
-|[Get-CcApplianceLogDirectory](get-ccappliancelogdirectory.md) <br/> |Показывает текущий каталог, в котором хранятся журналы для устройства облачного соединитела..  <br/> |
-|[Get-CcApplianceStatus](get-ccappliancestatus.md) <br/> Версия 2.1 и более поздние версии  <br/> |Предоставляет диагностические сведения для устройства Cloud Connector.  <br/> |
-|[Get-CcCredential](get-cccredential.md) <br/> |Возвращает учетные данные текущего развертывания облачного соединитела.  <br/> |
-|[Get-CcExternalCertificateFilePath](get-ccexternalcertificatefilepath.md) <br/> |Возвращает путь внешнего файла сертификата для развертывания облачного соединитела. Пользователь готовит этот сертификат.  <br/> |
-|[Get-CcSiteDirectory](get-ccsitedirectory.md) <br/> |Показывает текущий каталог, в котором хранятся файлы конфигурации уровня сайта. Папка содержит базовые файлы установки VHD и облачного соединителя. Эта папка должна быть совместной со всеми другими устройствами сайта Cloud Connector.  <br/> |
-|[Get-CcSiteLogDirectory](get-ccsitelogdirectory.md) <br/> |Показывает текущий каталог, в котором хранятся журналы уровня сайта для облачного соединитела.  <br/> |
-|[Get-CcVersion](get-ccversion.md) <br/> Версия 2.0 и более поздние версии  <br/> |Возвращает версию в экземпляре Cloud Connector. Get-CCVersion можно использовать только в хост-машине Cloud Connector.  <br/> |
-|[Import-CcConfiguration](import-ccconfiguration.md) <br/> Версия 2.0 и более поздние версии  <br/> |Импортирует конфигурацию Skype для бизнеса Cloud Connector Edition из локального файла на сервер хост-сервера облачного соединитела.  <br/> |
-|[Install-CcAppliance](install-ccappliance.md) <br/> |Устанавливает устройство облачного соединителя, включая виртуальные машины AD, Центрального магазина управления, сервера-посредника и edge Server на сервере хост-сервера.  <br/> |
-|[Publish-CcAppliance](publish-ccappliance.md) <br/> | Получает сведения о высокой доступности из конфигурации клиента в Интернете и публикует ее в устройство Cloud Connector на сервере хост-сервера. <br/> |
-|[Register-CcAppliance](register-ccappliance.md) <br/> | Регистрирует сведения о устройстве на сайте PSTN в конфигурации онлайн-клиента. Перед развертыванием и управлением устройством должна быть зарегистрирована служба управления облачным соединитетелем. <br/> |
-|[Remove-CcCertificationAuthorityFile](remove-cccertificationauthorityfile.md) <br/> Версия 1.4.2 и более поздние версии  <br/> |Удаляет файл резервного копирования службы сертификации \<SiteRootDirectory\> \CA\SfB CCE Root.p12" в папке ЦС в каталоге совместной работы сайта для cloud Connector.  <br/> |
-|[Remove-CcLegacyServerCertificate](remove-cclegacyservercertificate.md) <br/> Версия 1.4.2 и более поздние версии  <br/> |Удаляет устаревшие сертификаты сервера в Центральном хранилище управления, сервере-посреднике и edge Server после выполнения Renew-CcCACertificate или обновления CcServerCertificate.  <br/> |
-|[Renew-CcCACertificate](renew-cccacertificate.md) <br/> Только версия 1.4.2  <br/> |Переустановка сервера AD Server службы сертификации для создания нового корневого сертификата ЦС.  <br/> |
-|[Renew-CcServerCertificate](renew-ccservercertificate.md) <br/> Только версия 1.4.2  <br/> |Обновляет сертификаты для облачного соединитетеля, когда они истекли или уже истекли.  <br/> |
-|[Reset-CcCACertificate](reset-cccacertificate.md) <br/> Версия 1.4.2 и более поздние версии  <br/> |Сбрасывает серверы полномочий сертификата для установки нового сертификата.  <br/> |
-|[Restore-CcCredentials](restore-cccredentials.md) <br/> Версия 2.1 и более поздние версии  <br/> |Очистка учетных данных и повторное ввод всех учетных данных, используемых для текущего развертывания облачного соединитела.  <br/> |
-|[Search-CcLog](search-cclog.md) <br/> |Поиск журналов входящих и исходяющих вызовов в каталоге журнала устройств cloud Connector  <br/> |
-|[Set-CcApplianceDirectory](set-ccappliancedirectory.md) <br/> |Задает рабочий каталог на сервере хост-сервера Cloud Connector. Все файлы развертывания хранятся в этом каталоге.  <br/> |
-|[Set-CcCredential](set-cccredential.md) <br/> |Задает учетные данные текущего развертывания облачного соединитела.  <br/> |
-|[Set-CcExternalCertificateFilePath](set-ccexternalcertificatefilepath.md) <br/> |Указывает путь, по котором хранится сертификат для сервера-посредника или edge Server.  <br/> |
-|[Set-CcSiteDirectory](set-ccsitedirectory.md) <br/> |Задает каталог, в котором будут храниться файлы конфигурации уровня сайта для облачного соединитела. Папка будет содержать базовые файлы конфигурации VHD и облачного соединитела.  <br/> |
-|[Start-CcDownload](start-ccdownload.md) <br/> |Синхронно загружает биты облачного соединитетеля и файл msi.  <br/> |
-|[Start-CcLogging](start-cclogging.md) <br/> |Создает журнал входящих и исходяющих вызовов для устройства облачного соединитела.  <br/> |
-|[Stop-CcLogging](stop-cclogging.md) <br/> |Перестает создавать журнал входящих и исходяющих вызовов для устройства облачного соединитела.  <br/> |
-|[Switch-CcVersion](switch-ccversion.md) <br/> |Отключает запущенный прибор и переключается на недавно развернутый или резервный.  <br/> |
-|[Uninstall-CcAppliance](uninstall-ccappliance.md) <br/> |Uninstalls the running Cloud Connector appliance from the host server.  <br/> |
-|[Unregister-CcAppliance](unregister-ccappliance.md) <br/> |Unregisters the current Cloud Connector appliance from a PSTN site in the online tenant configuration.  <br/> |
-|[Update-CcCACertificate](update-cccacertificate.md) <br/> Версия 2.0 и более поздние версии  <br/> |Переустановка сервера AD Server службы сертификации для создания нового корневого сертификата ЦС.  <br/> |
-|[Update-CcServerCertificate](update-ccservercertificate.md) <br/> Версия 2.0 и более поздние версии  <br/> |Обновляет сертификаты для облачного соединитетеля, когда они истекли или уже истекли.  <br/> |
+|Имя командлета**|Описание|
+|---|---|
+|[Backup-CcCertificationAuthority](backup-cccertificationauthority.md) <p> Версия 1.4.2 и более поздние|Создает резервную копию службы центра сертификации в файл и сохраняет его в папке ЦС в каталоге общего ресурса сайта.|
+|[Convert-CcIsoToVhdx](convert-ccisotovhdx.md)|Создает базовый файл виртуального жесткого диска (VHDX), используя предоставленный клиентом Windows Server 2012 R2 ISO-файл. VHDX-файл будет использоваться во время развертывания СоединителяCloud.|
+|[Enter-CcUpdate](enter-ccupdate.md)|Подготавливает сервер узла Cloud Connector к процессу обновления, помещая его в режим обслуживания. Устройство "размыкается"; То есть все существующие вызовы будут завершены, но новые вызовы будут отклонены.|
+|[Exit-CcUpdate](exit-ccupdate.md)|Выход из режима обслуживания обновления на сервере узла Cloud Connector.|
+|[Export-CcConfiguration](export-ccconfiguration.md)|Экспортирует конфигурацию Skype для бизнеса Cloud Connector Edition в локальный файл на сервере Skype для бизнеса Cloud Connector Edition узла.|
+|[Export-CcConfigurationSampleFile](export-ccconfigurationsamplefile.md)|Экспортирует пример файла конфигурации Cloud Connector (.ini) в каталог устройства cloud Connector. Вы можете изменить и переименовать файл, который будет использовать для развертывания.|
+|[Export-CcRootCertificate](export-ccrootcertificate.md) <p> Версия 1.4.2 и более поздние|Экспортирует сертификат корневого ЦС в локальный файл на сервере узла Cloud Connector.|
+|[Get-CcApplianceDirectory](get-ccappliancedirectory.md)|Извлекает рабочий каталог на сервере узла Cloud Connector. Все файлы развертывания хранятся в этом каталоге.|
+|[Get-CcApplianceLogDirectory](get-ccappliancelogdirectory.md)|Показывает текущий каталог, в котором хранятся журналы для устройства Cloud Connector.|
+|[Get-CcApplianceStatus](get-ccappliancestatus.md) <p> Версия 2.1 и более поздние|Предоставляет диагностические сведения для устройства Cloud Connector.|
+|[Get-CcCredential](get-cccredential.md)|Возвращает учетные данные текущего развертывания Cloud Connector.|
+|[Get-CcExternalCertificateFilePath](get-ccexternalcertificatefilepath.md)|Возвращает путь к файлу внешнего сертификата для развертывания Cloud Connector. Пользователь подготавливает этот сертификат.|
+|[Get-CcSiteDirectory](get-ccsitedirectory.md)|Показывает текущий каталог, в котором хранятся файлы конфигурации уровня сайта. Папка содержит базовые файлы установки VHD и Cloud Connector. Эта папка должна совместно использоваться всеми другими устройствами сайта Cloud Connector.|
+|[Get-CcSiteLogDirectory](get-ccsitelogdirectory.md)|Показывает текущий каталог, в котором хранятся журналы уровня сайта для Cloud Connector.|
+|[Get-CcVersion](get-ccversion.md) <p> Версия 2.0 и более поздние|Возвращает версию в экземпляре Cloud Connector. Get-CCVersion можно использовать только на хост-компьютере Cloud Connector.|
+|[Import-CcConfiguration](import-ccconfiguration.md) <p> Версия 2.0 и более поздние|Импортирует конфигурацию Skype для бизнеса Cloud Connector Edition из локального файла на сервер узла Cloud Connector.|
+|[Install-CcAppliance](install-ccappliance.md)|Устанавливает устройство Cloud Connector, включая AD, центральное хранилище управления, сервер-посредник и виртуальные машины пограничного сервера, на сервере узла.|
+|[Publish-CcAppliance](publish-ccappliance.md)|Получает сведения о высокой доступности из сетевой конфигурации клиента и публикует их на устройстве Cloud Connector на сервере узла.|
+|[Register-CcAppliance](register-ccappliance.md)|Регистрирует сведения об устройстве на сайте ТСОП в сетевой конфигурации клиента. Устройство должно быть зарегистрировано, прежде чем его можно будет развернуть и управлять службой управления Cloud Connector.|
+|[Remove-CcCertificationAuthorityFile](remove-cccertificationauthorityfile.md) <p> Версия 1.4.2 и более поздние|Удаляет файл резервной копии службы центра сертификации \\<SiteRootDirectory\>CA\SfB CCE Root.p12 в папке ЦС в каталоге общего ресурса сайта для Cloud Connector.|
+|[Remove-CcLegacyServerCertificate](remove-cclegacyservercertificate.md) <p> Версия 1.4.2 и более поздние|Удаляет устаревшие сертификаты сервера в центральном хранилище управления, сервере-посреднике и пограничном сервере после выполнения командлетов Renew-CcCACertificate или обновления CcServerCertificate.|
+|[Renew-CcCACertificate](renew-cccacertificate.md) <p> Только версия 1.4.2|Переустановит сервер AD Службы центра сертификации, чтобы создать сертификат корневого ЦС.|
+|[Renew-CcServerCertificate](renew-ccservercertificate.md) <p> Только версия 1.4.2|Обновляет сертификаты для Cloud Connector, когда срок их действия истек или срок их действия истек.|
+|[Reset-CcCACertificate](reset-cccacertificate.md) <p> Версия 1.4.2 и более поздние|Сбрасывает серверы центра сертификации для установки нового сертификата центра сертификации.|
+|[Restore-CcCredentials](restore-cccredentials.md) <p> Версия 2.1 и более поздние|Очищает учетные данные и предлагает повторно ввести все учетные данные, используемые для текущего развертывания Cloud Connector.|
+|[Search-CcLog](search-cclog.md)|Поиск журналов входящих и исходящих вызовов в каталоге журнала устройства Cloud Connector|
+|[Set-CcApplianceDirectory](set-ccappliancedirectory.md)|Задает рабочий каталог на сервере узла Cloud Connector. Все файлы развертывания хранятся в этом каталоге.|
+|[Set-CcCredential](set-cccredential.md)|Задает учетные данные текущего развертывания Cloud Connector.|
+|[Set-CcExternalCertificateFilePath](set-ccexternalcertificatefilepath.md)|Указывает путь, по которому хранится сертификат для сервера-посредника или пограничного сервера.|
+|[Set-CcSiteDirectory](set-ccsitedirectory.md)|Задает каталог, в котором будут храниться файлы конфигурации уровня сайта для Cloud Connector. Папка будет содержать базовые файлы конфигурации VHD и Cloud Connector.|
+|[Start-CcDownload](start-ccdownload.md)|Скачивает биты Cloud Connector и MSI-файл синхронно.|
+|[Start-CcLogging](start-cclogging.md)|Создает журнал входящих и исходящих вызовов для устройства Cloud Connector.|
+|[Stop-CcLogging](stop-cclogging.md)|Прекращает создание журнала входящих и исходящих вызовов для устройства Cloud Connector.|
+|[Switch-CcVersion](switch-ccversion.md)|Отключает работающее устройство и переключается на только что развернутый или резервный модуль.|
+|[Uninstall-CcAppliance](uninstall-ccappliance.md)|Удаляет работающее устройство Cloud Connector с сервера узла.|
+|[Unregister-CcAppliance](unregister-ccappliance.md)|Отменяет регистрацию текущего устройства Cloud Connector на сайте ТСОП в конфигурации сетевого клиента.|
+|[Update-CcCACertificate](update-cccacertificate.md) <p> Версия 2.0 и более поздние|Переустановит сервер AD Службы центра сертификации, чтобы создать сертификат корневого ЦС.|
+|[Update-CcServerCertificate](update-ccservercertificate.md) <p> Версия 2.0 и более поздние|Обновляет сертификаты для Cloud Connector, когда срок их действия истек или срок их действия истек.|

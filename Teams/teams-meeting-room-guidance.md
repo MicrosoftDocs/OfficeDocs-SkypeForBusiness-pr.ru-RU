@@ -20,12 +20,12 @@ f1.keywords:
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3345cdecbb6b55f1b5dc83693a1caee5b1a6e77f
-ms.sourcegitcommit: d425748a50964ebc78e5d38fce564a444a449f43
+ms.openlocfilehash: 4fb3eb61de1372012f2a530be86d394ca46893a6
+ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65635377"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65681750"
 ---
 # <a name="meeting-room-guidance-for-teams"></a>Руководство по конференц-залу для Teams
 
@@ -37,7 +37,7 @@ ms.locfileid: "65635377"
 
 Комнаты Microsoft Teams решения обеспечивают гибкость назначения и даже гибкость перемещения по пространству, которого нет в традиционных комнатах для собраний. Например, с помощью Комнаты Teams пользователи могут улучшить совместную работу с помощью цифровой доски, а интеллектуальные камеры отслеживания людей позволяют видеть всех локальных участников независимо от того, где они находятся в комнате. Любой тип пространства и любой тип собрания можно оптимизировать с помощью Комнаты Teams устройств или Комнаты Teams решений.
 
-### <a name="presentation-focused-meetings"></a>Собрания, ориентированные на презентацию 
+### <a name="presentation-focused-meetings"></a>Собрания, ориентированные на презентацию
 
 Собрания и собрания являются первым контейнером, и это собрание обычно является более формальным. Аудио-визуальный элемент является приоритетом, и основное внимание уделяется показу содержимого. Устройство обычно исправлено, позволяя пользователям оставаться на месте при взаимодействии с устройством из центральной консоли таблицы.
 
@@ -60,6 +60,7 @@ ms.locfileid: "65635377"
 **Комбинированное представление и макеты пространства совместного создания:** Сочетание вариантов использования из других сценариев собраний можно объединить для формирования многоэтапных комнат, где собрания, ориентированные на презентацию, а также совместная работа, могут быть достигнуты с одинаковой эффективностью, часто одновременно.
 
 ## <a name="optimizing-the-meeting-experience"></a>Оптимизация взаимодействия с собранием
+
 Отличное взаимодействие с собранием — это результат использования максимально возможной технологии для проведения собраний способами, которые упрощают обмен идеями без каких-либо навязок.
 
 ### <a name="native-teams-rooms-experiences-versus-other-devices"></a>Собственные Комнаты Teams по сравнению с другими устройствами
@@ -118,33 +119,33 @@ ms.locfileid: "65635377"
 
 Рекомендации по звуку очень важны для того, чтобы удаленные и локальные участники были четко распознаны и понятны. Покрытие микрофона и динамика должно включать каждое место в комнате, не выходя из пробелов.
 
-*Правильные звуковые устройства для каждого пространства*
+*Правильные звуковые устройства для каждого пространства*:
 
 Для обеспечения того, чтобы в комнате для собраний не было проблем со звуком, необходим единый источник звука для пространства.
 
 Связывание правого микрофона и динамиков для каждого пространства позволит получить наилучшие результаты для четкого звука, не отвлекаясь на это.
 
--   В общих пространствах параметры расширяются, но остаются те же принципы: участники собрания должны быть четко слышать и слышать других участников.
+- В общих пространствах параметры расширяются, но остаются те же принципы: участники собрания должны быть четко слышать и слышать других участников.
 
-    -   Все звуковые устройства — это удобные в развертывании высокоуровневые параметры для небольших пространств с ограниченным количеством участников, которые находятся относительно близко к звуковому устройству.
+  - Все звуковые устройства — это удобные в развертывании высокоуровневые параметры для небольших пространств с ограниченным количеством участников, которые находятся относительно близко к звуковому устройству.
 
-    -   В **больших пространствах** микрофоны и динамики отделены, чтобы обеспечить максимальное покрытие для всех участников в пространстве. Многие решения для комнат среднего и большого размера доступны в составе комплекта, который не требует настройки, а только физической установки микрофонов и динамиков.
+  - В **больших пространствах** микрофоны и динамики отделены, чтобы обеспечить максимальное покрытие для всех участников в пространстве. Многие решения для комнат среднего и большого размера доступны в составе комплекта, который не требует настройки, а только физической установки микрофонов и динамиков.
 
-    -   В самых больших и сложных пространствах доступны **решения,** позволяющие использовать различные типы микрофонов и динамиков, такие как захват микрофона и голоса аудитории из большого зала, одновременно привнося звонок всем. Эти решения лучше всего достичь при развертывании с партнером Майкрософт, который обладает опытом проектирования и развертывания более технически связанных решений.
+  - В самых больших и сложных пространствах доступны **решения,** позволяющие использовать различные типы микрофонов и динамиков, такие как захват микрофона и голоса аудитории из большого зала, одновременно привнося звонок всем. Эти решения лучше всего достичь при развертывании с партнером Майкрософт, который обладает опытом проектирования и развертывания более технически связанных решений.
 
 ### <a name="video"></a>Видео
 
 Видео не менее важно, чем звук. Захват физического, невербального общения, например выражений лиц или жестов, так же важен, как содержимое аудитории или собрания, чтобы обеспечить максимальное вовлечение и понимание. Комнаты должны быть оснащены соответствующим размером экрана, чтобы все могли правильно работать с собранием как в комнате, так и в удаленном режиме. Именно поэтому комнаты также должны иметь правильное покрытие камеры и поле зрения (FOV), чтобы эффективно захватывать всех участников собрания в помещении для тех, кто присоединяется удаленно.
 
-*Правильные камеры для каждого пространства*
+*Правые камеры для каждого пространства*:
 
 Как и хорошее аудио, высококачественное видео является необходимостью для современной Teams совместной работы. Технология для камер значительно расширена благодаря высококачественным камерам, которые теперь доступны для всех пространств.
 
--   Включенные камеры на таких устройствах, как ноутбуки и планшеты, следует использовать во всех собраниях, чтобы обеспечить их просмотр и прослушивание. Для пользователей, которые ищут более широкие возможности видео в личном  **пространстве,** внешние камеры представляют собой шаг вверх от внедренных устройств и могут использоваться в большем количестве сценариев и конфигураций, гарантируя, что участники звонков совместно используют наилучшее представление о себе. Эти устройства легко установить с помощью простого USB-подключения, найденного на каждом компьютере.
+- Включенные камеры на таких устройствах, как ноутбуки и планшеты, следует использовать во всех собраниях, чтобы обеспечить их просмотр и прослушивание. Для пользователей, которые ищут более широкие возможности видео в личном  **пространстве,** внешние камеры представляют собой шаг вверх от внедренных устройств и могут использоваться в большем количестве сценариев и конфигураций, гарантируя, что участники звонков совместно используют наилучшее представление о себе. Эти устройства легко установить с помощью простого USB-подключения, найденного на каждом компьютере.
 
--   В общих пространствах параметры и компоненты расширяются. **Комнаты меньшего** размера могут быть охвачены камерами, включенными в все звуковые устройства, такие как звуковые панели. Эти камеры обычно обладают широким полем зрения, гарантируя, что они зафиксируются каждый участник в пространстве за один снимок. Многие из этих камер также содержат такие функции, как интеллектуальное кадрирование изображения, чтобы камера отображала только людей на собрании, а не пустых людей или людей, которые подсчитывались, для отслеживания и понимания использования пространства.
+- В общих пространствах параметры и компоненты расширяются. **Комнаты меньшего** размера могут быть охвачены камерами, включенными в все звуковые устройства, такие как звуковые панели. Эти камеры обычно обладают широким полем зрения, гарантируя, что они зафиксируются каждый участник в пространстве за один снимок. Многие из этих камер также содержат такие функции, как интеллектуальное кадрирование изображения, чтобы камера отображала только людей на собрании, а не пустых людей или людей, которые подсчитывались, для отслеживания и понимания использования пространства.
 
--   В **больших комнатах** камеры используют технологию, необходимую для захвата участников в различных местах на разных расстояниях. Эти камеры могут захватывать группы или сосредоточиться на определенных пользователях, сохраняя при этом большую наглядность. Устройства, которые могут отслеживать и использовать только активных докладчиков, регулярно используются в больших пространствах, чтобы многие участники могли быть по отдельности отображаться на собрании по мере того, как они внося свой вклад в свои мысли.
+- В **больших комнатах** камеры используют технологию, необходимую для захвата участников в различных местах на разных расстояниях. Эти камеры могут захватывать группы или сосредоточиться на определенных пользователях, сохраняя при этом большую наглядность. Устройства, которые могут отслеживать и использовать только активных докладчиков, регулярно используются в больших пространствах, чтобы многие участники могли быть по отдельности отображаться на собрании по мере того, как они внося свой вклад в свои мысли.
 
 # <a name="enhanced-microsoft-teams-room"></a>[Расширенные Microsoft Teams комнаты](#tab/emtr)
 
@@ -172,25 +173,25 @@ ms.locfileid: "65635377"
 
 Принципы проектирования:
 
--   Удаленные участники могут установить истинное присутствие в комнате
+- Удаленные участники могут установить истинное присутствие в комнате
 
--   Участники комнаты могут сохранить свои индивидуальные удостоверения на собрании
+- Участники комнаты могут сохранить свои индивидуальные удостоверения на собрании
 
--   Все участники собрания могут участвовать в бесграничной совместной работе.
+- Все участники собрания могут участвовать в бесграничной совместной работе.
 
 **Цель 2. Подключения — это естественное и иммерсивное взаимодействие.**
 
 Принципы проектирования:
 
--   Возможности масштабируются для человеческих подключений, обеспечивая взаимодействие, которое кажется, что все находятся в одной комнате.
+- Возможности масштабируются для человеческих подключений, обеспечивая взаимодействие, которое кажется, что все находятся в одной комнате.
 
 Улучшенный интерфейс комнаты — это все эти компоненты и идеи, которые не определяют взаимодействие. Отдельные функции и концепции, которые можно найти в Комнаты Microsoft Teams, также могут быть развернуты самостоятельно.
 
 Примеры развертывания определенных функций:
 
--   Воспользуйтесь преимуществами нового интерфейсного интерфейса во всех типах конференц-залов, где есть Microsoft Teams room, которое его поддерживает.
+- Воспользуйтесь преимуществами нового интерфейсного интерфейса во всех типах конференц-залов, где есть Microsoft Teams room, которое его поддерживает.
 
--   Реализуйте изогнутые таблицы и макеты переднего плана с традиционными интерфейсными интерфейсами Microsoft Teams Room, чтобы повысить эффективность человеческих подключений в комнате, сохраняя непрерывность взаимодействия во всех пространствах собраний.
+- Реализуйте изогнутые таблицы и макеты переднего плана с традиционными интерфейсными интерфейсами Microsoft Teams Room, чтобы повысить эффективность человеческих подключений в комнате, сохраняя непрерывность взаимодействия во всех пространствах собраний.
 
 ## <a name="when-should-you-deploy-this-room-type"></a>Когда следует развертывать этот тип комнаты?
 
@@ -198,13 +199,13 @@ ms.locfileid: "65635377"
 
 Комнаты Microsoft Teams будет продолжать предоставлять возможности гибридных собраний, ориентированные на людей, которые доступны через обновления программного обеспечения. Однако существуют аппаратные технологии и рекомендации по настройке помещений, которые играют ключевую роль в оптимизации некоторых расширенных возможностей. Это сочетание этих компонентов, составляющих расширенный Microsoft Teams Room. При оценке количества Комнаты Microsoft Teams, которые вы хотите совершенствовать до расширенного Microsoft Teams Room, учитывайте следующее:
 
--   Какие обновления оборудования и (или) инвестиции необходимо выполнить.
+- Какие обновления оборудования и (или) инвестиции необходимо выполнить.
 
--   Большинство конференц-залов предназначены для максимального увеличения полезного квадратного изображения с тесной связью между размером комнаты и емкостью комнаты. Улучшенный Microsoft Teams комнаты определяет приоритеты при работе с собраниями над максимальной квадратной площадью. Не каждая организация может определить этот способ для каждого пространства для собраний, так как это может уменьшить количество комнат для собраний, которые они могут иметь.
+- Большинство конференц-залов предназначены для максимального увеличения полезного квадратного изображения с тесной связью между размером комнаты и емкостью комнаты. Улучшенный Microsoft Teams комнаты определяет приоритеты при работе с собраниями над максимальной квадратной площадью. Не каждая организация может определить этот способ для каждого пространства для собраний, так как это может уменьшить количество комнат для собраний, которые они могут иметь.
 
-### <a name="understanding-this-space"></a>Основные сведения об этом пространстве 
+### <a name="understanding-this-space"></a>Основные сведения об этом пространстве
 
-*Балансировка гибридной гибкости с включением*
+*Балансировка гибридной гибкости с включением*:
 
 В корпорации Майкрософт наши гибкие рекомендации по работе приоритизовать приоритеты, предоставляя сотрудникам возможность выбора и гибкости в том, где и когда работать. Этот фундаментальный сдвиг в политике позволяет нам переосмыслить развитие наших пространств собраний и технологий.
 
@@ -222,7 +223,7 @@ ms.locfileid: "65635377"
 
 Макет содержит изогнутую таблицу для личных контактов и ориентации для удаленных участников со всеми оголевами, которые отображаются на экране, чтобы участники могли следовать за этим.
 
-### <a name="how-does-the-audio-work"></a>Как работает звук? 
+### <a name="how-does-the-audio-work"></a>Как работает звук?
 
 Используя звуковые решения, сертифицированные для Комнаты Microsoft Teams, люди могут четко слышать и слышать.
 
@@ -236,9 +237,9 @@ ms.locfileid: "65635377"
 
 ![Отрисовка расширенной комнаты для собраний из представления накладных расходов.](media/emr5.png)
 
-### <a name="how-do-the-front-of-room-displays-work"></a>Как работает внешний интерфейс комнаты? 
+### <a name="how-do-the-front-of-room-displays-work"></a>Как работает внешний интерфейс комнаты?
 
-Эта комната оптимизирована для макета Комнаты Microsoft Teams, называемого front row, и отображается через специализированный проектор с коротким разрешением, создавая иммерсивный интерфейс, предназначенный специально для Teams собраний. 
+Эта комната оптимизирована для макета Комнаты Microsoft Teams, называемого front row, и отображается через специализированный проектор с коротким разрешением, создавая иммерсивный интерфейс, предназначенный специально для Teams собраний.
 
 ### <a name="what-is-front-row"></a>Что такое строка переднего плана?
 
@@ -254,9 +255,9 @@ ms.locfileid: "65635377"
 
 ## <a name="enhanced-microsoft-teams-room-design-guidance"></a>Рекомендации по Microsoft Teams комнаты
 
-Этот раздел предназначен для создания комнаты с нуля. 
+Этот раздел предназначен для создания комнаты с нуля.
 
-### <a name="room-layout"></a>Макет комнаты 
+### <a name="room-layout"></a>Макет комнаты
 
 #### <a name="room-size"></a>Размер комнаты
 
@@ -264,9 +265,9 @@ ms.locfileid: "65635377"
 
 25 ft x 14 ft
 
-#### <a name="room-capacity"></a>Емкость комнаты 
+#### <a name="room-capacity"></a>Емкость комнаты
 
-Этот расширенный Microsoft Teams Room оптимизирован для 6–8 человек. 
+Этот расширенный Microsoft Teams Room оптимизирован для 6–8 человек.
 
 #### <a name="room-furniture"></a>Комнатная комната
 
@@ -290,7 +291,7 @@ ms.locfileid: "65635377"
 
 Хотя многие участники могут предоставлять общий доступ к содержимому в конференц-зале этого типа путем присоединения к собранию Teams с помощью личного устройства к вызову Teams, в таблице также должна быть доступна локальная видео презентация.
 
-## <a name="infrastructure"></a>Инфраструктуры 
+## <a name="infrastructure"></a>Инфраструктуры
 
 ### <a name="infrastructure-power"></a>Питание инфраструктуры
 
@@ -312,11 +313,11 @@ ms.locfileid: "65635377"
 
 Этаж в комнате этого типа должен быть замесан или иным образом обработан акустически, чтобы предотвратить проблемы с эхо-шумом и внешним шумом во время собраний.
 
-### <a name="lighting"></a>Освещения 
+### <a name="lighting"></a>Освещения
 
 Для равномерного освещения пространства следует использовать дополнительные источники освещения, при этом участники комнаты для собраний не отображаются в темном пространстве или не находятся в темном пространстве. Чтобы избежать появления блики, необходимо свести к минимуму прямое освещение на дисплеях переднего плана, совместном создании устройств или других отражающие поверхности в пространстве.
 
-## <a name="technology-guidance"></a>Руководство по технологиям 
+## <a name="technology-guidance"></a>Руководство по технологиям
 
 ### <a name="microsoft-teams-rooms-solution"></a>Комнаты Microsoft Teams решения
 
@@ -362,21 +363,21 @@ ms.locfileid: "65635377"
 
 Примеры типов отображения:
 
--   Лазерная проекторы
+- Лазерная проекторы
 
--   Светодиодные стены видео
+- Светодиодные стены видео
 
--   Специализированная ЖК или плоская панель OLED
+- Специализированная ЖК или плоская панель OLED
 
 #### <a name="display-functions"></a>Функции отображения
 
 Расширенные Комнаты Microsoft Teams, как и все другие решения Комнаты Microsoft Teams, требуют использования дисплеев, которые могут вместить следующие функции для правильной работы:
 
--   Спящий режим и быстрое пробуждение из спящего режима на основе синхронизации HDMI.
+- Спящий режим и быстрое пробуждение из спящего режима на основе синхронизации HDMI.
 
-    -   Для проекторов периоды автоматической прогрев и охлаждения должны поддерживаться без вмешательства пользователя.
+  - Для проекторов периоды автоматической прогрев и охлаждения должны поддерживаться без вмешательства пользователя.
 
--   Дисплеи должны поддерживать соответствующие идентификаторы EDID и разрешения, необходимые для Комнаты Microsoft Teams разработки.
+- Дисплеи должны поддерживать соответствующие идентификаторы EDID и разрешения, необходимые для Комнаты Microsoft Teams разработки.
 
 #### <a name="display-placement"></a>Размещение дисплея
 
@@ -396,7 +397,7 @@ ms.locfileid: "65635377"
 
 Все Комнаты Teams могут воспользоваться преимуществами Доска (Майкрософт) с помощью интерактивного устройства для совместной работы, такого как Microsoft Surface Hub, сенсорный экран переднего плана комнаты, а также через сопутствующие устройства, такие как компьютер, телефон или планшет.
 
-#### <a name="traditional-whiteboard"></a>Традиционная доска 
+#### <a name="traditional-whiteboard"></a>Традиционная доска
 
 Все Комнаты Teams на Windows могут использовать традиционные доски в собрании Teams с помощью функции интеллектуального захвата и дополнительной камеры содержимого.
 
@@ -404,7 +405,7 @@ ms.locfileid: "65635377"
 
 ### <a name="microsoft-teams-room-console-and-compute"></a>Microsoft Teams и вычислительные ресурсы комнаты
 
--   Решение Windows на основе Комнаты Microsoft Teams.
+- Решение Windows на основе Комнаты Microsoft Teams.
 
 Как показано ниже:
 
@@ -412,17 +413,17 @@ ms.locfileid: "65635377"
 
 Другие параметры:
 
--   [Lenovo ThinkSmart Core + Controller](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/lenovo-thinksmart-core-controller/948)
+- [Lenovo ThinkSmart Core + Controller](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/lenovo-thinksmart-core-controller/948)
 
--   [Настраиваемая система конференций с возможностью настройки Настройка Flex](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/crestron-flex-customizable-conference-system/849)
+- [Настраиваемая система конференций с возможностью настройки Настройка Flex](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/crestron-flex-customizable-conference-system/849)
 
--   [Настраиваемая конференц-система с возможностью гибкой конференции с помощью Программы "Дополнительно" в Скайлроне Flex](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/crestron-flex-customizable-conference-system/849)
+- [Настраиваемая конференц-система с возможностью гибкой конференции с помощью Программы "Дополнительно" в Скайлроне Flex](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/crestron-flex-customizable-conference-system/849)
 
--   [Poly G10-T](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/poly-g10-t/564)
+- [Poly G10-T](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/poly-g10-t/564)
 
 ### <a name="camera"></a>Камера
 
--   Камера ценовой категории "Ультра" с интеллектуальным кадрированием.
+- Камера ценовой категории "Ультра" с интеллектуальным кадрированием.
 
 Как показано ниже:
 
@@ -430,27 +431,27 @@ ms.locfileid: "65635377"
 
 Другие параметры:
 
--   [Jabra PanaCast](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/jabra-panacast/353)
+- [Jabra PanaCast](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/jabra-panacast/353)
 
--   [Yealink UVC30](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/yealink-uvc30-room/409)
+- [Yealink UVC30](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/yealink-uvc30-room/409)
 
--   [Yealink UVC40](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/yealink-uvc40/648)
+- [Yealink UVC40](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/yealink-uvc40/648)
 
--   [Bose Videobar VB1](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/bose-videobar-vb1/809)
+- [Bose Videobar VB1](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/bose-videobar-vb1/809)
 
--   [Poly Studio](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/poly-studio/206)
+- [Poly Studio](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/poly-studio/206)
 
--   Poly Studio E70
+- Poly Studio E70
 
--   [Logitech Rally](https://www.logitech.com/product/rally-ultra-hd-conferencecam)
+- [Logitech Rally](https://www.logitech.com/product/rally-ultra-hd-conferencecam)
 
--   [Logitech Rally Bar](https://www.logitech.com/products/video-conferencing/room-solutions/rallybar.960-001308.html)
+- [Logitech Rally Bar](https://www.logitech.com/products/video-conferencing/room-solutions/rallybar.960-001308.html)
 
--   [Logitech Rally Bar Mini](https://www.logitech.com/products/video-conferencing/room-solutions/rallybarmini.960-001336.html)
+- [Logitech Rally Bar Mini](https://www.logitech.com/products/video-conferencing/room-solutions/rallybarmini.960-001336.html)
 
 ### <a name="microphone"></a>Микрофон
 
--   Сертифицированное решение для микрофона, в котором будут четко записаны все участники собрания в комнате.
+- Сертифицированное решение для микрофона, в котором будут четко записаны все участники собрания в комнате.
 
 Как показано ниже:
 
@@ -458,45 +459,45 @@ ms.locfileid: "65635377"
 
 Другие параметры:
 
--   [Yealink UVC40](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/yealink-uvc40/648)
+- [Yealink UVC40](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/yealink-uvc40/648)
 
--   [Bose Videobar VB1](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/bose-videobar-vb1/809)
+- [Bose Videobar VB1](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/bose-videobar-vb1/809)
 
--   [Poly Studio](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/poly-studio/206)
+- [Poly Studio](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/poly-studio/206)
 
--   [Lenovo ThinkSmart Bar](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/lenovo-thinksmart-bar/949)
+- [Lenovo ThinkSmart Bar](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/lenovo-thinksmart-bar/949)
 
--   [Lenovo ThinkSmart Bar XL](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/lenovo-thinksmart-bar/949)
+- [Lenovo ThinkSmart Bar XL](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/lenovo-thinksmart-bar/949)
 
--   [Центр конференц-зала Biamp Devio с микрофоном Parle Ceiling](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-devio-conference-room-hubs/920)
+- [Центр конференц-зала Biamp Devio с микрофоном Parle Ceiling](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-devio-conference-room-hubs/920)
 
--   [Центр конференц-зала Biamp Devio с табличным микрофоном Parle](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-devio-conference-room-hubs/920)
+- [Центр конференц-зала Biamp Devio с табличным микрофоном Parle](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-devio-conference-room-hubs/920)
 
--   [Звуковая система Shure MXA710-4FT wall-mount](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/shure-mxa710-audio-systems/967)
+- [Звуковая система Shure MXA710-4FT wall-mount](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/shure-mxa710-audio-systems/967)
 
--   [Система аудиоконференций Nureva HDL300](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/nureva-hdl300-audio-conferencing-system/739)
+- [Система аудиоконференций Nureva HDL300](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/nureva-hdl300-audio-conferencing-system/739)
 
--   [Звук комнаты собраний QSC: в--ceiling динамиках](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/qsc-meeting-room-audio-in-ceiling-speakers/700)
+- [Звук комнаты собраний QSC: в--ceiling динамиках](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/qsc-meeting-room-audio-in-ceiling-speakers/700)
 
--   [QSC Directional Audio — ceiling audio](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/qsc-directional-audio/704)
+- [QSC Directional Audio — ceiling audio](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/qsc-directional-audio/704)
 
--   [QSC Meeting room audio: pendant speakers](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/qsc-meeting-room-audio-pendant-speakers/711)
+- [QSC Meeting room audio: pendant speakers](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/qsc-meeting-room-audio-pendant-speakers/711)
 
--   [Biamp audio with Parlé ceiling mic](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-complete-room-audio-with-parle-ceiling-mic/613)
+- [Biamp audio with Parlé ceiling mic](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-complete-room-audio-with-parle-ceiling-mic/613)
 
--   [Biamp audio with Parlé tabletop mics](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-complete-room-audio-with-parle-ceiling-mic/613)
+- [Biamp audio with Parlé tabletop mics](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-complete-room-audio-with-parle-ceiling-mic/613)
 
--   [Звуковое решение Bose DS4 с верхним пределом](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/bose-ds4-ceiling-audio-solution/694)
+- [Звуковое решение Bose DS4 с верхним пределом](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/bose-ds4-ceiling-audio-solution/694)
 
--   [Звуковое решение Bose ES1 с верхним пределом](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/bose-es1-ceiling-audio-solution/506)
+- [Звуковое решение Bose ES1 с верхним пределом](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/bose-es1-ceiling-audio-solution/506)
 
--   [Shure Microflex Advance MXA910 + IntelliMix P300](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/shure-microflex-advance-mxa910-intellimix-p300/429)
+- [Shure Microflex Advance MXA910 + IntelliMix P300](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/shure-microflex-advance-mxa910-intellimix-p300/429)
 
--   [Biamp Tesira DSP & Sennheiser TeamConnect Ceiling 2](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-tesira-dsp-sennheiser-teamconnect-ceiling-2/359)
+- [Biamp Tesira DSP & Sennheiser TeamConnect Ceiling 2](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-tesira-dsp-sennheiser-teamconnect-ceiling-2/359)
 
 ### <a name="speakers"></a>Динамики
 
--   Сертифицированное решение для докладчиков, которое предоставляет четкий и понятный звук всем участникам собрания в комнате.
+- Сертифицированное решение для докладчиков, которое предоставляет четкий и понятный звук всем участникам собрания в комнате.
 
 Как показано ниже:
 
@@ -504,47 +505,47 @@ ms.locfileid: "65635377"
 
 Другие параметры:
 
--   [Yealink UVC40](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/yealink-uvc40/648)
+- [Yealink UVC40](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/yealink-uvc40/648)
 
--   [Bose Videobar VB1](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/bose-videobar-vb1/809)
+- [Bose Videobar VB1](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/bose-videobar-vb1/809)
 
--   [Poly Studio](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/poly-studio/206)
+- [Poly Studio](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/poly-studio/206)
 
--   [Lenovo ThinkSmart Bar](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/lenovo-thinksmart-bar/949)
+- [Lenovo ThinkSmart Bar](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/lenovo-thinksmart-bar/949)
 
--   [Lenovo ThinkSmart Bar XL](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/lenovo-thinksmart-bar/949)
+- [Lenovo ThinkSmart Bar XL](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/lenovo-thinksmart-bar/949)
 
--   [Центр конференц-зала Biamp Devio с микрофоном Parle Ceiling](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-devio-conference-room-hubs/920)
+- [Центр конференц-зала Biamp Devio с микрофоном Parle Ceiling](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-devio-conference-room-hubs/920)
 
--   [Центр конференц-зала Biamp Devio с табличным микрофоном Parle](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-devio-conference-room-hubs/920)
+- [Центр конференц-зала Biamp Devio с табличным микрофоном Parle](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-devio-conference-room-hubs/920)
 
--   [Звуковая система Shure MXA710-4FT wall-mount](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/shure-mxa710-audio-systems/967)
+- [Звуковая система Shure MXA710-4FT wall-mount](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/shure-mxa710-audio-systems/967)
 
--   [Система аудиоконференций Nureva HDL300](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/nureva-hdl300-audio-conferencing-system/739)
+- [Система аудиоконференций Nureva HDL300](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/nureva-hdl300-audio-conferencing-system/739)
 
--   [Звук комнаты собраний QSC: в--ceiling динамиках](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/qsc-meeting-room-audio-in-ceiling-speakers/700)
+- [Звук комнаты собраний QSC: в--ceiling динамиках](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/qsc-meeting-room-audio-in-ceiling-speakers/700)
 
--   [QSC Directional Audio — ceiling audio](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/qsc-directional-audio/704)
+- [QSC Directional Audio — ceiling audio](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/qsc-directional-audio/704)
 
--   [QSC Meeting room audio: pendant speakers](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/qsc-meeting-room-audio-pendant-speakers/711)
+- [QSC Meeting room audio: pendant speakers](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/qsc-meeting-room-audio-pendant-speakers/711)
 
--   [Biamp audio with Parlé ceiling mic](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-complete-room-audio-with-parle-ceiling-mic/613)
+- [Biamp audio with Parlé ceiling mic](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-complete-room-audio-with-parle-ceiling-mic/613)
 
--   [Biamp audio with Parlé tabletop mics](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-complete-room-audio-with-parle-ceiling-mic/613)
+- [Biamp audio with Parlé tabletop mics](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-complete-room-audio-with-parle-ceiling-mic/613)
 
--   [Звуковое решение Bose DS4 с верхним пределом](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/bose-ds4-ceiling-audio-solution/694)
+- [Звуковое решение Bose DS4 с верхним пределом](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/bose-ds4-ceiling-audio-solution/694)
 
--   [Звуковое решение Bose ES1 с верхним пределом](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/bose-es1-ceiling-audio-solution/506)
+- [Звуковое решение Bose ES1 с верхним пределом](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/bose-es1-ceiling-audio-solution/506)
 
--   [Shure Microflex Advance MXA910 + IntelliMix P300](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/shure-microflex-advance-mxa910-intellimix-p300/429)
+- [Shure Microflex Advance MXA910 + IntelliMix P300](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/shure-microflex-advance-mxa910-intellimix-p300/429)
 
--   [Biamp Tesira DSP & Sennheiser TeamConnect Ceiling 2](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-tesira-dsp-sennheiser-teamconnect-ceiling-2/359)
+- [Biamp Tesira DSP & Sennheiser TeamConnect Ceiling 2](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-tesira-dsp-sennheiser-teamconnect-ceiling-2/359)
 
 ### <a name="displays"></a>Отображает
 
 - Короткое или сверхскоорное исключение, высокое разрешение и высокой яркости лазерного проектора с автоматическим пробуждением при синхронизации и охлаждением во время работы спящего режима. Экран проецатора с низкими значениями при отклоняемом внешнем освещении обеспечит наилучшее качество рисунка в ярком помещении.
 
-Как показано ниже: 
+Как показано ниже:
 
 - [Epson EB-PU1007 Projector with ELPLX01S Ultra Short Throw lens](https://epson.com/For-Work/Projectors/Large-Venue/EB-PU1007B-WUXGA-3LCD-Laser-Projector-with-4K-Enhancement/p/V11HA34820)
 - [Экран контура Da-Lite UTB | Hd Progressive 0.6 Screen | 138" По диагонали](https://www.legrandav.com/products/da-lite/screens/fixed_frame_screens/utb_contour)
@@ -555,9 +556,9 @@ ms.locfileid: "65635377"
 
 ### <a name="co-create-options"></a>Параметры совместного создания
 
--   Аналоговая доска с камерой содержимого ИЛИ
+- Аналоговая доска с камерой содержимого ИЛИ
 
--   Совместимый интерактивный сенсорный экран.
+- Совместимый интерактивный сенсорный экран.
 
 Как показано ниже:
 
@@ -567,11 +568,11 @@ ms.locfileid: "65635377"
 
 Камеры содержимого:
 
--   [Камера содержимого Yealink UVC30](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/yealink-uvc30-content-camera/647)
+- [Камера содержимого Yealink UVC30](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/yealink-uvc30-content-camera/647)
 
--   [Huddly Canvas](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/huddly-canvas/568)
+- [Huddly Canvas](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/huddly-canvas/568)
 
--   [Logitech BRIO Content Камера Kit](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/logitech-brio-content-camera-kit/349)
+- [Logitech BRIO Content Камера Kit](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/logitech-brio-content-camera-kit/349)
 
 Интерактивные сенсорные устройства:
 

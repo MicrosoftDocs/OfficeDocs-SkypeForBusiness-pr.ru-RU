@@ -1,5 +1,5 @@
 ---
-title: Подключение Microsoft Teams базовый (AAD identity) в существующую систему электронной почты с календарем
+title: Подключение Microsoft Teams базовый (удостоверение AAD) в существующую систему электронной почты с календарем
 author: adjoseph
 ms.author: adjoseph
 ms.reviewer: jimmyw
@@ -10,7 +10,7 @@ ms.service: msteams
 searchScope:
 - Microsoft Teams
 search.appverid: MET150
-description: Узнайте, как подключить Microsoft Teams базовый (AAD Identity) к существующей почтовой системе с помощью календаря, например Google Workspace
+description: Узнайте, как подключить Microsoft Teams базовый (удостоверение AAD) к существующей почтовой системе с помощью календаря, например Google Workspace
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
@@ -18,18 +18,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3b05fb30b6e7e4a3f3725ca8e591cc5caf56fdde
-ms.sourcegitcommit: bf0071417188b33fc23e2a420187da5024d4bd40
+ms.openlocfilehash: 8bc388f533d39d6e1bc0140bcd975d6354898d5a
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/20/2022
-ms.locfileid: "62279247"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674911"
 ---
-# <a name="connect-microsoft-teams-essentials-aad-identity-to-an-existing-email-system-with-calendar"></a>Подключение Microsoft Teams базовый (AAD identity) в существующую систему электронной почты с календарем
+# <a name="connect-microsoft-teams-essentials-aad-identity-to-an-existing-email-system-with-calendar"></a>Подключение Microsoft Teams базовый (удостоверение AAD) в существующую систему электронной почты с календарем
 
-В этом руководстве приведены шаги по настройке подключения Microsoft Teams базовый (AAD Identity) к существующей почтовой системе с календарем.
+В этом руководстве описаны этапы настройки для подключения Microsoft Teams базовый (удостоверение AAD) к существующей почтовой системе с календарем.
 
-Microsoft Teams базовый (AAD Identity) объединяет лучшие Teams с собраниями, чатом, звонками и совместной работой. Teams Essentials (удостоверение AAD) может подключаться к существующей почтовой системе, чтобы обеспечить интеграцию, например наличие всех уведомлений Teams в существующем почтовом ящике, всех событий календаря в Teams и возможность входа в Teams с помощью существующего адреса электронной почты.
+Microsoft Teams базовый (удостоверение AAD) объединяет лучшие Teams с собраниями, чатом, звонками и совместной работой. Teams Essentials (удостоверение AAD) может подключаться к существующей почтовой системе, чтобы обеспечить интеграцию, например наличие всех уведомлений Teams в существующем почтовом ящике, всех событий календаря в Teams и возможность входа в Teams с помощью существующего адреса электронной почты.
 
 После подключения вы сможете просматривать ответы на запланированные собрания и приглашения для совместной работы в почтовом ящике и Microsoft Teams. Вы также можете просматривать входящие собрания из календаря и взаимодействовать с ними с помощью Teams и стороннего программного обеспечения для собраний, например Google Workspace.
 
@@ -40,7 +40,7 @@ Microsoft Teams базовый (AAD Identity) объединяет лучшие 
 Чтобы включить автоматическую пересылку:
 
 1. Перейдите на портал Microsoft 365 Defender по адресу<https://security.microsoft.com/>
-2. В меню навигации слева перейдите в раздел **email &** **collaborationPolicies** >  & **RulesThreat** >  **policiesAnti-spam** >  в разделе "Политики"
+2. В меню навигации  >  слева перейдите к разделу "Политики совместной & электронной почты **&** >  >  политики защиты от нежелательной почты в разделе "Политики"
 3. На странице **"Политики защиты от нежелательной почты**" выберите в списке политику для исходящего трафика (по умолчанию **)**
 4. Во всплывающем окне сведений о политике выберите **"** Изменить параметры защиты", чтобы изменить правило автоматической переадресации.
 5. В **разделе "Правила переадресации**" измените условие автоматической пересылки на **"** Включено" — переадресация включена и сохраните изменения.
@@ -51,9 +51,9 @@ Microsoft Teams базовый (AAD Identity) объединяет лучшие 
 
 ## <a name="connect-teams-essentials-to-exchange-online-with-exchange-on-premises"></a>Подключение Teams essentials для Exchange Online с Exchange локальной средой
 
-Вы можете воспользоваться всеми преимуществами Teams Essentials (AAD), используя гибридный подход для настройки подключения между Microsoft Teams и Exchange Online с Exchange локально.
+Вы можете воспользоваться всеми преимуществами Teams Essentials (AAD), используя гибридный подход для настройки подключения между Microsoft Teams и Exchange Online с Exchange локальной средой.
 
-Чтобы сделать доступ к календарю рабочим для локальных почтовых ящиков, следуйте указаниям, приведенным в руководстве по настройке доступа к календарю Teams для локальных почтовых ящиков [Exchange — Microsoft Tech Community](https://techcommunity.microsoft.com/t5/exchange-team-blog/configuring-teams-calendar-access-for-exchange-on-premises/ba-p/1484009)
+Чтобы сделать доступ к календарю рабочим для локальных почтовых ящиков, следуйте указаниям, приведенным в разделе "Настройка доступа к календарю Teams для локальных почтовых ящиков[Exchange — Microsoft Tech Community](https://techcommunity.microsoft.com/t5/exchange-team-blog/configuring-teams-calendar-access-for-exchange-on-premises/ba-p/1484009)
 
 Чтобы развернуть Комнаты Microsoft Teams в гибридной среде с локальной Exchange, посетите [веб-сайт Комнаты Microsoft Teams с Exchange локальной средой — Microsoft Teams | Документация Майкрософт](rooms/with-exchange-on-premises.md)
 
@@ -71,11 +71,11 @@ Microsoft Teams базовый (AAD Identity) объединяет лучшие 
 
 В этих примерах используется командлет [Подключение ExchangeOnline](/powershell/module/exchange/connect-exchangeonline?view=exchange-ps&preserve-view=true) PowerShell, который является частью модуля [Exchange Online PowerShell версии 2](/powershell/exchange/exchange-online-powershell-v2&preserve-view=true). Если при запуске Подключение ExchangeOnline возникает ошибка, убедитесь, что вы выполнили рекомендуемые инструкции по установке модуля с помощью установки модуля [EXO версии 2](/powershell/exchange/exchange-online-powershell-v2?view=exchange-ps&preserve-view=true). При Connect-ExchangeOnline запроса учетных данных обязательно используйте учетную запись администратора клиента.
 
-**Шаг 1. Настройка нового домена Microsoft 365 клиента**
+#### <a name="step-one-set-up-a-new-microsoft-365-tenant-domain"></a>Шаг 1. Настройка нового домена Microsoft 365 клиента
 
 1. Перейдите в Центр администрирования по адресу <https://admin.microsoft.com>.
 
-2. Перейдите **к разделу "Настройка** >  **доменов**" и выберите **"Добавить домен**", чтобы добавить существующий домен. Если вы не добавите домен, пользователи вашей организации будут использовать его onmicrosoft.com для своих адресов электронной почты, пока вы не выполните это. Не забудьте добавить домен перед добавлением пользователей, поэтому вам не нужно настраивать их дважды.
+2. Перейдите **к разделу "Настройка** > **доменов**  " и выберите **"Добавить домен** ", чтобы добавить существующий домен. Если вы не добавите домен, пользователи вашей организации будут использовать его onmicrosoft.com для своих адресов электронной почты, пока вы не выполните это. Не забудьте добавить домен перед добавлением пользователей, поэтому вам не нужно настраивать их дважды.
 
 3. Проверьте домен с помощью записи TXT, выполнив действия, описанные в разделе ["Проверка с помощью записи TXT"](/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider?view=o365-worldwide&preserve-view=true).
 
@@ -89,7 +89,7 @@ Microsoft Teams базовый (AAD Identity) объединяет лучшие 
 
 8. Войдите в Центр администрирования Microsoft 365, <https://admin.microsoft.com/AdminPortal/> чтобы включить DKIM
 
-9. На панели навигации слева выберите **SetupDomains**  > 
+9. На панели навигации слева выберите " **Домены установки** > **"**
 
 10. С помощью флажка выберите существующий домен, отличный от Майкрософт (например, TomislavK@thephone-company.com) из текущих списков доменов.
 
@@ -102,11 +102,11 @@ Microsoft Teams базовый (AAD Identity) объединяет лучшие 
 
     Дополнительные рекомендации по добавлению домена в Microsoft 365 см. в разделе "Добавление домена [Microsoft 365"](https://support.office.com/article/add-a-domain-to-office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611?ui=en-US&rs=en-US&ad=US).
 
-**Шаг 2. Добавление пользователей и назначение Teams Essentials**
+#### <a name="step-two-add-users-and-assign-teams-essentials-licenses"></a>Шаг 2. Добавление пользователей и назначение Teams Essentials
 
 1. Перейдите в Центр администрирования, чтобы <https://admin.microsoft.com> добавить отдельного пользователя
 
-2. Перейдите **к пользователям** **UsersActive** >  и выберите **"Добавить пользователя"**
+2. Перейдите в **раздел "** > **Активные пользователи**" и выберите **"Добавить пользователя"**.
 
 3. В области **"Настройка основных сведений** " введите основные сведения о пользователе, а затем нажмите кнопку **"Далее"**.
     - **Имя:** Введите имя и фамилию, отображаемое имя и имя пользователя.
@@ -121,7 +121,7 @@ Microsoft Teams базовый (AAD Identity) объединяет лучшие 
 
 Чтобы одновременно добавить нескольких пользователей, выполните действия по добавлению пользователей и назначению лицензий Microsoft 365 [администратора | Документация Майкрософт](/microsoft-365/admin/add-users/add-users?view=o365-worldwide&preserve-view=true)
 
-**Шаг 3. Настройка google Workspace**
+#### <a name="step-three-configure-google-workspace"></a>Шаг 3. Настройка google Workspace
 
 ***Настройте двойную доставку электронной почты для Microsoft 365 и чередующихся вложений:***
 
@@ -129,7 +129,7 @@ Microsoft Teams базовый (AAD Identity) объединяет лучшие 
 
 2. Добавление маршрута для Office 365
 
-    - Перейдите в консоль администрирования Google по адресу <https://admin.google.com>)
+    - Перейдите в консоль Google Администратор по адресу <https://admin.google.com>)
     - Перейдите к приложениям > Google Workspace > Gmail > Hosts.
     - Введите имя маршрута. (Например, Microsoft 365)
     - Выберите "Один хост" и введите запись MX, указанную для домена в Microsoft 365 (например, ContosoLandscaping2-m365master-com.mail.protection.outlook.com)
@@ -142,9 +142,9 @@ Microsoft Teams базовый (AAD Identity) объединяет лучшие 
 
 3. Настройка маршрута для Office 365
 
-    - Откройте консоль **администрирования Google по адресу**<https://admin.google.com>
+    - Откройте консоль **Google Администратор по адресу**<https://admin.google.com>
 
-    - Перейти к **AppsGoogle** >  **WorkspaceGmailRouting** >  > 
+    - Перейти к **google** > **workspace** > **Gmail Routing** > 
 
     - На **вкладке "Маршрутизация** " выберите **"Настройка"**
 
@@ -170,9 +170,9 @@ Microsoft Teams базовый (AAD Identity) объединяет лучшие 
 
   Далее вы создадите правила переадресации Microsoft 365 почтовых ящиков в поддомен. Выберите поддомен, который будет использовать в Google Workspace для получения электронной почты от Microsoft 365 (например, g.contosolandscaping2.m365master.com)
 
-1. Начните с **консоли администрирования Google** (admin.google.com)
+1. Начните с **консоли Google Администратор** (по адресу admin.google.com)
 
-2. Перейти к **доменам AccountDomainsManage** >  > 
+2. Перейти к **доменам** > **управления доменами** > **учетной записи**
 
 3. Выбор **параметра "Добавить домен"**
 
@@ -198,9 +198,9 @@ Microsoft Teams базовый (AAD Identity) объединяет лучшие 
 
 3. Выберите заголовок электронной почты, который однозначно идентифицирует почту, поступающие из Microsoft 365 клиента. (Например, X-MS-Exchange-CrossTenant-id: 92f60fc7-eab3-403b-9d7d-9d683bf0a4b5)
 
-4. Перейдите в **консоль администрирования Google по адресу**<https://admin.google.com>
+4. Перейдите в **консоль Google Администратор по адресу**<https://admin.google.com>
 
-5. Перейти к **AppsGoogle** >  **WorkspaceGmailCompliance** >  > 
+5. Перейти к **приложениям** > **google Workspace** > **Gmail** > **Compliance**
 
 6. Перейдите к **разделу "Соответствие контенту** " и выберите **"Настроить"**
 
@@ -224,15 +224,15 @@ Microsoft Teams базовый (AAD Identity) объединяет лучшие 
 
 16. Нажмите **кнопку "Сохранить"**
 
-**Шаг 4. Настройка Microsoft 365 параметров интеграции**
+#### <a name="step-four-configure-microsoft-365-settings-for-the-integration"></a>Шаг 4. Настройка Microsoft 365 параметров интеграции
 
 *Настройте соединитель для маршрутизации почты из Microsoft 365 в Gmail:*
 
-1. Перейдите в **Центр администрирования Майкрософт по адресу**<https://admin.microsoft.com/AdminPortal>
+1. Перейдите в **Центр Администратор Майкрософт по адресу**<https://admin.microsoft.com/AdminPortal>
 
 2. Выберите **"Показать все"** в меню навигации слева.
 
-3. В **центрах администрирования** выберите **Exchange**, чтобы открыть центр администрирования Exchange на новой вкладке
+3. В **Администратор центрах** выберите **Exchange**, чтобы открыть центр администрирования Exchange на новой вкладке.
 
 4. В меню **Exchange** >  навигации центра администрирования слева выберите "Соединители потока почты **", откройте** меню переполнения (...) и выберите "Добавить соединитель".
 
@@ -256,7 +256,7 @@ Microsoft Teams базовый (AAD Identity) объединяет лучшие 
 
 14. Когда вы увидите уведомление, созданное соединителем, нажмите кнопку **"Готово"**
 
-*Пересылка почты Microsoft 365 почтовых ящиков в Gmail*
+*Переадресация почты Microsoft 365 почтовых ящиков в Gmail:*
 
 1. Используйте центр **Microsoft 365 Admin для** обновления каждого почтового ящика или скрипт **PowerShell**, например:
 
@@ -265,29 +265,29 @@ Microsoft Teams базовый (AAD Identity) объединяет лучшие 
     Connect-ExchangeOnline
     $Mailboxes = Get-Mailbox -ResultSize Unlimited -Filter {RecipientTypeDetails -eq "UserMailbox"}
     Foreach ($mbx in $mailboxes) {
-    
+
     Set-Mailbox $mbx.Identity -DeliverToMailboxAndForward $true -ForwardingSMTPAddress $($mbx.Alias,$forwardingDomain -join "@")
-    } 
+    }
     ```
 
     **Устранение неполадок Подключение ExchangeOnline:**
 
-    Возникает ли ошибка при запуске Подключение ExchangeOnline? Это может быть результатом правила автоматической пересылки электронной почты вашей организации. По умолчанию автоматическая пересылка отключена. Чтобы подключить Teams Essentials к Google Workspace, необходимо включить правило.  
+    Возникает ли ошибка при запуске Подключение ExchangeOnline? Это может быть результатом правила автоматической пересылки электронной почты вашей организации. По умолчанию автоматическая пересылка отключена. Чтобы подключить Teams Essentials к Google Workspace, необходимо включить правило.
 
     Введите следующий скрипт:
 
    ```powershell
-    Set-ExecutionPolicy Unrestricted 
+    Set-ExecutionPolicy Unrestricted
      ```
 
     Затем выполните следующие команды:
 
     ```powershell
-    Enable-OrganizationCustomization 
+    Enable-OrganizationCustomization
     Get-HostOutboundSpamFilterPolicy | set-HostedOutboundSpamFilterPolicy -AutoForwardingMode On
     ```
 
-*Настройка Exchange Online в правило транспорта календаря*
+*Настройте Exchange Online к правилу транспорта календаря:*
 
 1. Настройка этого параметра автоматически принимает приглашения календаря, чтобы они отображались Teams календаре без необходимости взаимодействия пользователей с приглашением в Outlook Web App.
 
@@ -297,14 +297,14 @@ Microsoft Teams базовый (AAD Identity) объединяет лучшие 
     Connect-ExchangeOnline
     New-TransportRule -Name "Direct to Calendar" -MessageTypeMatches Calendaring -SetHeaderName "X-MS-Exchange-Organization-CalendarBooking-Response" -SetHeaderValue Tentative
     New-TransportRule -Name "Direct to Calendar triage action" -MessageTypeMatches Calendaring -SetHeaderName "X-MS-Exchange-Organization-CalendarBooking-TriageAction" -SetHeaderValue MoveToDeletedItems
-    
+
     ```
 
-*Отключение Outlook в Интернете почтовых ящиков*
+*Отключите Outlook в Интернете для почтовых ящиков:*
 
 1. Следуйте инструкциям по включению или [Outlook в Интернете](/exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-outlook-web-app) для почтового ящика в Exchange Online, чтобы Outlook в Интернете для почтовых ящиков.
 
-2. Вы можете отключить Outlook в Интернете с помощью Exchange **Admin Center** или **PowerShell**. Вы можете использовать следующий пример PowerShell, чтобы отключить Outlook в Интернете для всех почтовых ящиков:
+2. Вы можете отключить Outlook в Интернете с помощью Exchange Администратор **Центра или** **PowerShell**. Вы можете использовать следующий пример PowerShell, чтобы отключить Outlook в Интернете для всех почтовых ящиков:
 
     ```powershell
     Connect-ExchangeOnline
@@ -314,15 +314,15 @@ Microsoft Teams базовый (AAD Identity) объединяет лучшие 
     }
     ```
 
-**Шаг 5. Настройка Exchange Online для внутреннего ретранслятора**
+#### <a name="step-five-configure-exchange-online-domain-for-internal-relay"></a>Шаг 5. Настройка Exchange Online для внутреннего ретранслятора
 
 Этот шаг гарантирует, что электронная почта отправляется в стороннюю систему для окончательного разрешения.
 
-1. Перейдите в **Центр администрирования Майкрософт по адресу**<https://admin.microsoft.com/AdminPortal>
+1. Перейдите в **Центр Администратор Майкрософт по адресу**<https://admin.microsoft.com/AdminPortal>
 
 2. В области навигации слева выберите " **Показать все"**
 
-3. В **разделе "Центры** администрирования **" выберите Exchange**, чтобы открыть Exchange центра администрирования на новой вкладке
+3. В **Администратор Центрах** выберите **Exchange**, чтобы открыть Exchange центра администрирования на новой вкладке
 
 4. В **Exchange администрирования** **выберите поток** почты в меню навигации слева, а затем выберите **"Принятые домены"**.
 
@@ -334,35 +334,34 @@ Microsoft Teams базовый (AAD Identity) объединяет лучшие 
 
     :::image type="content" source="media/essentials-internalrelay2.png" alt-text="Изображение, показывающее действие сохранения параметра внутреннего ретранслятора.":::
 
-**Шаг 6. Создание правила для удаления всех входящих сообщений Exchange Online кроме календаря**
+#### <a name="step-six-create-a-rule-to-delete-all-inbound-mail-to-exchange-online-except-for-calendaring"></a>Шаг 6. Создание правила для удаления всех входящих сообщений Exchange Online кроме календаря
 
-1. Это правило можно настроить в Exchange **Admin Center** или **PowerShell**. Для создания правила можно использовать следующий пример **PowerShell** :
+1. Это правило можно настроить в Exchange Администратор **Или** **PowerShell**. Для создания правила можно использовать следующий пример **PowerShell** :
 
     ```powershell
     Connect-ExchangeOnline
-    New-TransportRule -Name "Delete all except Calendaring" -ExceptIfMessageTypeMatches Calendaring -FromScope NotInOrganization -DeleteMessage:$true 
-    
+    New-TransportRule -Name "Delete all except Calendaring" -ExceptIfMessageTypeMatches Calendaring -FromScope NotInOrganization -DeleteMessage:$true
     ```
 
 ### <a name="connect-teams-essentials-to-third-party-email-not-using-vanity-domain-gmail-example"></a>Подключение Teams essentials для сообщений электронной почты сторонних производителей, не использующих личный домен (пример Gmail)
 
-Вы можете запланировать собрание Teams и присоединиться к собранию непосредственно из Google Workspace, подключив учетную запись Gmail потребителя к Teams Essentials с основным зависимостьм от надстройки [G Suite Teams G Suite](https://support.microsoft.com/en-us/office/install-the-teams-meeting-add-on-for-google-workspace-bba2dfbe-0b2b-4ee7-be10-261ad80ddb60). Это позволяет запланировать видео- и аудиоконференции с демонстрацией экрана, чатом собрания, цифровыми досками и т. д.
+Вы можете запланировать собрание Teams и присоединиться к собранию непосредственно из Google Workspace, подключив учетную запись Gmail потребителя к Teams Essentials с основным зависимостьм от надстройки [G Suite Teams G Suite](https://support.microsoft.com/office/install-the-teams-meeting-add-on-for-google-workspace-bba2dfbe-0b2b-4ee7-be10-261ad80ddb60). Это позволяет запланировать видео- и аудиоконференции с демонстрацией экрана, чатом собрания, цифровыми досками и т. д.
 
 Вы настроите Gmail для извлечения электронной почты из Exchange Online, чтобы убедиться, что почта, созданная в Microsoft 365 и Teams успешно поступает в Gmail. Для этого подключения может потребоваться отключить параметры безопасности по умолчанию, что делает использование строгого уникального пароля обязательным. Пользовательский домен не требуется для этого сценария, но его можно настроить в Microsoft 365 для использования в Gmail, если вы хотите его использовать.
 
 :::image type="content" source="media/essentials-gmail.png" alt-text="Изображение, которое отключит поток обработки почты между Teams Essentials и Gmail":::
 
-**Убедитесь, что у вас настроена учетная запись Gmail.**
+#### <a name="1-ensure-that-you-have-a-gmail-account-set-up"></a>1. Убедитесь, что у вас настроена учетная запись Gmail
 
 Если у вас уже есть учетная запись, можно перейти к следующему шагу. В противном случае перейдите [к разделу "Создание новой учетной записи Google](https://accounts.google.com/SignUp?hl=en) ", чтобы настроить новую учетную запись Gmail.
 
-**2. Настройка Microsoft 365 клиента**
+#### <a name="2-set-up-your-microsoft-365-tenant"></a>2. Настройка Microsoft 365 клиента
 
-*Настройка Teams AAD пользователей*
+*Настройте Teams AAD:*
 
-1. Следуйте указаниям в разделе "[ПользователиAdd" и назначьте лицензии](/microsoft-365/admin/add-users/add-users?view=o365-worldwide&preserve-view=true) для добавления нескольких пользователей
+1. Следуйте указаниям в разделе["Добавление пользователей" и назначьте лицензии](/microsoft-365/admin/add-users/add-users?view=o365-worldwide&preserve-view=true) для добавления нескольких пользователей.
 
-*Настройка защиты идентификации*
+*Настройка защиты идентификации:*
 
 1. Отключите параметры безопасности по умолчанию, если они активны.
 
@@ -370,7 +369,7 @@ Microsoft Teams базовый (AAD Identity) объединяет лучшие 
 
 3. При использовании условного доступа не забудьте сделать исключение для доступа POP к почтовому ящику.
 
-*Добавление домена в Microsoft 365 Admin Center (необязательно)*
+*Добавление домена в Microsoft 365 Admin Center (необязательно):*
 
 1. В области навигации выберите Параметры > Домен, а затем — "Добавить домен".
 
@@ -386,9 +385,9 @@ Microsoft Teams базовый (AAD Identity) объединяет лучшие 
 
 7. Выполните инструкции по настройке записей TXT DKIM для Microsoft 365
 
-8. Убедитесь, что DKIM включен, выйдя из системы и вернувшись в Центр администрирования.
+8. Убедитесь, что DKIM включен, выйдя из системы и вернувшись в центр Администратор.
 
-**3. Настройка Gmail**
+#### <a name="3-configure-gmail"></a>3. Настройка Gmail
 
 1. Настройка Gmail для извлечения Exchange Online почты в систему
 

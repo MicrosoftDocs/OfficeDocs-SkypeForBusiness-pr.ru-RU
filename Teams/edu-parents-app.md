@@ -1,5 +1,5 @@
 ---
-title: Настройка родительских элементов в Teams для образования
+title: Администратор родительских элементов в Teams для образования
 author: DaniEASmith
 ms.author: danismith
 manager: serdars
@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1f08ddd68d036d18e4ea18073dd0711e32e0c91e
-ms.sourcegitcommit: 0c7d199b2f7580dbfa8ce755eda97ec70bc86978
+ms.openlocfilehash: ccc69a07d523b046298643ad387e31e25138096f
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2022
-ms.locfileid: "65393873"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65676131"
 ---
 # <a name="set-up-parent-connection-in-microsoft-teams-for-education"></a>Настройка родительского подключения в Microsoft Teams для образования
 
@@ -102,8 +102,8 @@ ms.locfileid: "65393873"
 
 Владелец класса может:
 
-1. Откройте карточку профиля защиты, нажмите кнопку с многоточием и **заблокировать пользователя**. 
-2. Затем удалите защитника из чата. 
+1. Откройте карточку профиля защиты, нажмите кнопку с многоточием и **заблокировать пользователя**.
+2. Затем удалите защитника из чата.
 
 Заблокированный пользователь не сможет начать дополнительные чаты с владельцем класса.
 

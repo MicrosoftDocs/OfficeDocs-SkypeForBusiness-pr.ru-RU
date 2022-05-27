@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 90395ab4bd9563a6bd9ad12ae6d9c1d164ddc89b
-ms.sourcegitcommit: 745d707ec63685ce7f973785e7056628472b9c45
+ms.openlocfilehash: acdb924476ca9239b4298700d7f3186d7e80106a
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "64910875"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675021"
 ---
 # <a name="overview-of-third-party-apps-in-microsoft-teams"></a>Обзор сторонних приложений в Microsoft Teams
 
@@ -37,6 +37,6 @@ ms.locfileid: "64910875"
 
 1. Программа соответствия приложений Microsoft требованиям
 
-   * [Проверка издателя](overview-of-app-certification.md#publisher-verification)
-   * [Аттестация издателя](overview-of-app-certification.md#publisher-attestation)
-   * [Сертификация Microsoft 365](overview-of-app-certification.md#microsoft-365-certification)
+   - [Проверка издателя](overview-of-app-certification.md#publisher-verification)
+   - [Аттестация издателя](overview-of-app-certification.md#publisher-attestation)
+   - [Сертификация Microsoft 365](overview-of-app-certification.md#microsoft-365-certification)

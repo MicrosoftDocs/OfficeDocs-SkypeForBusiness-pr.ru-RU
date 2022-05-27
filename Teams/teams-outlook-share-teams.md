@@ -1,5 +1,5 @@
 ---
-title: Поделиться с Teams
+title: Предоставление общего доступа Teams
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -9,49 +9,49 @@ ms.service: msteams
 ms.reviewer: kblevens
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Узнайте о функции "Поделиться Teams", которая позволяет пользователям делиться электронной почтой и вложениями из Outlook в любой чат или канал Teams.
+description: Сведения о функции "Общий доступ Teams", которая позволяет пользователям делиться электронными письмами и вложениями электронной почты из Outlook в любой чат или канал в Teams.
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cb13db7a7ebb5728913b58fb712ad86d851d469a
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: 2a768424033ff300a079fc0b505d1e9ce32a970e
+ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62409832"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65682030"
 ---
-# <a name="share-to-teams-from-outlook"></a>Поделиться с Teams из Outlook
+# <a name="share-to-teams-from-outlook"></a>Предоставление общего доступа Teams из Outlook
 
-Отправка Teams из Outlook (Поделиться в Teams) позволяет пользователям делиться электронной почтой, включая вложения, от Outlook до любого чата или канала в Teams.
+Предоставление общего доступа Teams из Outlook (общий доступ к Teams) позволяет пользователям делиться электронными письмами, включая вложения, от Outlook до любого чата или канала в Teams.
 
-## <a name="outlook-add-in-for-share-to-teams"></a>Outlook надстройки для share to Teams 
+## <a name="outlook-add-in-for-share-to-teams"></a>Outlook надстройки для общего доступа Teams 
 
-Для Teams "Поделиться" требуется надстройка для Outlook. Эта надстройка устанавливается автоматически при входе пользователя в веб-приложение Teams или Teams клиенте.
-
-> [!NOTE]
-> Обязательно просмотрите надстройки для Outlook в [Exchange Online](/exchange/clients-and-mobile-in-exchange-online/add-ins-for-outlook/add-ins-for-outlook) и Правила клиентского доступа в [Exchange Online](/exchange/clients-and-mobile-in-exchange-online/client-access-rules/client-access-rules), чтобы убедиться, что надстройки для Outlook работают правильно. Кроме того, отключение подключенных опытом может помешать правильной работе надстройок Outlook для других пользователей. [Дополнительные сведения см](https://support.microsoft.com/topic/connected-experiences-in-office-8d2c04f7-6428-4e6e-ac58-5828d4da5b7c). в Office Подключенные Office.  
-
-Для отправки Teams используется тот же механизм транспорта, что и при отправке сообщений в канал. Для общего доступа к чатам сообщения электронной почты (включая вложения) копируется в OneDrive. Для общего доступа к каналам сообщения электронной почты и вложения копируется  в папку Сообщения электронной почты в SharePoint.
-
-Надстройка Outlook для share to Teams использует набор требований 1.7, как описано в документации надстройок [Outlook](/exchange/clients-and-mobile-in-exchange-online/add-ins-for-outlook/add-ins-for-outlook), в которой подробно описаны надстройки Outlook, требования к среде для надстройок Outlook и конкретные клиенты Outlook, которые поддерживаются с набором требований 1.7.
-
-## <a name="enabling-or-disabling-share-to-teams"></a>Включение и отключение share to Teams
-
-Надстройка Outlook share to Teams может быть выборочно отключена или включена для каждого пользователя с помощью следующих cmdlets PowerShell:
+Для использования Teams общего доступа требуется надстройка для Outlook. Эта надстройка устанавливается автоматически при каждом входе пользователя в веб-приложение Teams или Teams настольного клиента.
 
 > [!NOTE]
-> Отключить надстройку можно только после ее установки. Если вы хотите принудительно отключить всех пользователей в клиенте, периодически запускайте сценарий.
+> Обязательно просмотрите надстройки для Outlook в [Exchange Online](/exchange/clients-and-mobile-in-exchange-online/add-ins-for-outlook/add-ins-for-outlook) и правилах доступа клиентов в [Exchange Online](/exchange/clients-and-mobile-in-exchange-online/client-access-rules/client-access-rules), чтобы убедиться, что надстройки для Outlook работают правильно. Кроме того, отключение подключенных функций может помешать правильной Outlook надстроек. [Дополнительные сведения см. в Office](https://support.microsoft.com/topic/connected-experiences-in-office-8d2c04f7-6428-4e6e-ac58-5828d4da5b7c) подключенных интерфейсах.  
 
-Чтобы отключить надстройку для Outlook share to Teams, запустите [найденный здесь cmdlet](/powershell/module/exchange/disable-app?view=exchange-ps). 
+Совместное использование Teams использует тот же механизм транспорта, что и при отправке пользователем сообщения по электронной почте каналу. Для предоставления общего доступа к чатам сообщения электронной почты (включая вложения электронной почты) копируются в OneDrive. Для общего доступа к каналам сообщения электронной почты и вложения копируются  в папку сообщений электронной почты в SharePoint.
 
-Чтобы включить надстройку для Outlook share to Teams, запустите [найденный здесь cmdlet](/powershell/module/exchange/enable-app?view=exchange-ps).
+Надстройка Outlook для share to Teams использует набор обязательных элементов 1.7, как описано в документации [по надстройки Outlook](/exchange/clients-and-mobile-in-exchange-online/add-ins-for-outlook/add-ins-for-outlook), которая содержит сведения о надстройки Outlook, требования к среде для надстроек Outlook и конкретные клиенты Outlook, поддерживаемые с набором обязательных элементов 1.7.
+
+## <a name="enabling-or-disabling-share-to-teams"></a>Включение или отключение общего доступа к Teams
+
+Надстройку Outlook share to Teams можно выборочно отключить или включить для каждого пользователя с помощью следующих командлетов PowerShell.
+
+> [!NOTE]
+> Отключение надстройки возможно только после ее установки. Если вы хотите принудительно отключить всех пользователей в клиенте, периодически запускайте сценарий.
+
+Чтобы отключить надстройку для Outlook share для Teams, выполните [командлет, найденный здесь](/powershell/module/exchange/disable-app).
+
+Чтобы включить надстройку для Outlook share для Teams, выполните [командлет, найденный здесь](/powershell/module/exchange/enable-app).
 
 ## <a name="browsers-and-single-sign-on"></a>Браузеры и единый вход
 
-Совместное Teams, Outlook в Интернете и Outlook классических клиентах использует браузер WebView. [Дополнительные сведения о том, какие клиенты используют конкретные браузеры,](/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins) см. в Office, используемых Office надстройки. 
+Общий доступ Teams, как в Outlook в Интернете, так и Outlook классических клиентах, зависит от браузера WebView. [Дополнительные сведения о том,](/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins) какие клиенты используют конкретные браузеры, см. в Office браузерах. 
 
 > [!IMPORTANT]
-> Для Teams пользователей должны быть включены как сторонние файлы cookie, так и доступ к локальному хранилищу.
+> Общий доступ Teams требует включения сторонних файлов cookie и доступа к локальному хранилищу для браузеров пользователей.
 
-Предоставление Teams с помощью единого входа (SSO), то есть пользователям не нужно предоставлять свои учетные данные при использовании надстройки через share to Teams. SSO для Outlook в Интернете по https://outlook.office365.com/owa/extSSO.aspx https://outlook.office.com/owa/extSSO.aspx умолчанию поддерживает URL-адреса и ответы на них. Для именных доменов администраторам необходимо добавить соответствующий url-Azure Active Directory ответа.
+Общий доступ к Teams использует единый вход (SSO), что означает, что пользователям не нужно предоставлять свои учетные данные при использовании надстройки через share для Teams. Единый вход для Outlook в Интернете поддерживает <https://outlook.office365.com/owa/extSSO.aspx> URL-адреса ответа <https://outlook.office.com/owa/extSSO.aspx> и по умолчанию. Для личных доменов администраторам необходимо добавить соответствующий URL-адрес Azure Active Directory ответа.

@@ -15,12 +15,12 @@ appliesto:
 ms.localizationpriority: medium
 ms.custom: ''
 description: Узнайте, как управлять функцией "Музыка при удержании" в телефонная система.
-ms.openlocfilehash: 4899ffd2a3b6bfda80164ca2df4a5460a2b005e2
-ms.sourcegitcommit: 4435ac0efcb95e4e5e1f21289e46761e79482ab5
+ms.openlocfilehash: 3f5121e72436966a82b38917453bcd21d8efa10f
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2022
-ms.locfileid: "65624243"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674421"
 ---
 # <a name="music-on-hold"></a>Музыка на удержании
 
@@ -36,11 +36,11 @@ ms.locfileid: "65624243"
 
 Чтобы настроить музыку при удержании:
 
-1.  В левой области навигации центра администрирования Teams перейдите к политикам голосовых **> вызовов**.
+1. В левой области навигации центра администрирования Teams перейдите к политикам голосовых **> вызовов**.
 
-2.  На **вкладке "Управление политиками** " выберите одну из существующих политик или создайте новую.
+2. На **вкладке "Управление политиками** " выберите одну из существующих политик или создайте новую.
 
-3.  В поле **"Музыка при удержании" для** вызывающих абонентов ТСОП выберите "Включено **" в** раскрывающемся меню.
+3. В поле **"Музыка при удержании" для** вызывающих абонентов ТСОП выберите "Включено **" в** раскрывающемся меню.
 
 Вы также можете настроить музыку при удержании с помощью Teams PowerShell. В TeamsCallingPolicy измените параметр MusicOnHoldEnabledType на "Включено", а затем предоставьте этот экземпляр политики одному или нескольким пользователям.
 
@@ -57,7 +57,6 @@ ms.locfileid: "65624243"
 Чтобы настроить пользовательскую музыку при удержании, используйте командлеты PowerShell New/Get/Set/Grant/Remove-CsTeamsCallHoldPolicy и Import/Get/Remove/Export-CsOnlineAudioFile в модуле Teams PowerShell 3.0.0 или более поздней версии.
 
 Поддерживаемые форматы звука и максимальный размер файла см. в [разделе Import-CsOnlineAudioFile](/powershell/module/skype/import-csonlineaudiofile)
-
 
 1. Убедитесь, что Teams на удержании пользователя "Музыка" для вызывающих абонентов ТСОП установлено значение "Включено" Teams политики звонков. 
 
@@ -104,8 +103,7 @@ C:\> Grant-CsTeamsCallHoldPolicy -PolicyName "CustomMoH1" -Identity user1@contos
 
 В следующей таблице показано, какие функции, на которых клиенты и устройства поддерживают музыку при удержании и пользовательскую музыку при удержании. Корпорация Майкрософт продолжает добавлять поддержку функций, поэтому часто проверяйте наличие дополнительной доступности.
 
-
-| Компонент | Рабочие журналы <br> Windows/Mac OS | Браузер | Мобильный <br> iOS | Мобильный <br> Android | Teams Телефон |
+| Функция | Рабочие журналы <br> Windows/Mac OS | Браузер | Мобильный <br> iOS | Мобильный <br> Android | Teams Телефон |
 | :------------| :------- | :------- | :------- | :------- | :------- |
 | Удержание при вызове ТСОП 1:1 | -Музыка при удержании<br>-Custom Music on Hold | -Музыка при удержании<br>-Custom Music on Hold | -Музыка при удержании<br>-Custom Music on Hold | -Музыка при удержании<br>-Custom Music on Hold | -Музыка при удержании<br>-Custom Music on Hold |
 | Удержание при вызове Teams 1:1 | -Музыка при удержании<br>-Custom Music on Hold | -Музыка при удержании<br>-Custom Music on Hold | -Музыка при удержании<br>-Custom Music on Hold | -Музыка при удержании<br>-Custom Music on Hold | -Музыка при удержании<br>-Custom Music on Hold |
@@ -147,4 +145,3 @@ C:\> Grant-CsTeamsCallHoldPolicy -PolicyName "CustomMoH1" -Identity user1@contos
 - [Grant-CsTeamsCallHoldPolicy](/powershell/module/skype/grant-csteamscallholdpolicy)
 
 - [Remove-CsTeamsCallHoldPolicy](/powershell/module/skype/remove-csteamscallholdpolicy)
-

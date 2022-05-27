@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d17409a09cbadc535e3b7971d6224b4e2fcb678b
-ms.sourcegitcommit: 9bee7cb9433bfc687387647a102f814dc52c8591
+ms.openlocfilehash: 5df52ff5de4db994cb049db1dde2b27c2465dce5
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "64839040"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675761"
 ---
 # <a name="it-admin-guide-to-reflect-in-microsoft-teams"></a>Руководство для ИТ-администраторов по Reflect в Microsoft Teams
 
@@ -69,7 +69,7 @@ ms.locfileid: "64839040"
 > Дополнительные сведения можно найти в статье о том, [как разрешить приложение или добавить его в команду класса](manage-apps.md#allow-and-block-apps).
 
 ## <a name="where-do-educators-find-reflect"></a>Где преподаватели берут Reflect?
-После включения Reflect преподаватели могут перейти в класс и выбрать **Новая беседа**. Затем нужно выбрать **...**, чтобы появились доступные расширения для обмена сообщениями, и ввести **Reflect** в панели поиска. Диалоговое окно предоставляет пошаговые инструкции, помогающие сформулировать вопрос и определить, кто из пользователей что может увидеть.
+После включения Reflect преподаватели могут перейти в класс и выбрать **Новая беседа**. Затем нужно выбрать "**…**", чтобы появились доступные расширения для обмена сообщениями, и ввести **Reflect** в панели поиска. Диалоговое окно предоставляет пошаговые инструкции, помогающие сформулировать вопрос и определить, кто из пользователей что может увидеть.
 
 :::image type="content" source="media/reflect-add-app.png" alt-text="Добавление Reflect в команду класса.":::
 

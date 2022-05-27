@@ -22,12 +22,12 @@ appliesto:
 ms.reviewer: ''
 description: Узнайте, как настроить политику безопасного обмена сообщениями для Microsoft Teams, которая позволяет включить уведомления о прочтении и уведомления о приоритетном статусе.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ededfabcca1ab61ec822f201502658f4d8ac498a
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+ms.openlocfilehash: c450bb298e0a0e01440442d0813708048005a652
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60045526"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674871"
 ---
 # <a name="secure-messaging-for-healthcare-organizations"></a>Безопасный обмен сообщениями для организаций здравоохранения
 
@@ -37,7 +37,7 @@ ms.locfileid: "60045526"
 
 Политиками можно легко управлять в [Центре администрирования Microsoft Teams](https://admin.teams.microsoft.com). Для этого нужно войти в систему с учетными данными администратора и выбрать **Политики обмена сообщениями** в области навигации слева.
 
- :::image type="content" source="../../media/hc-messaging-policy-admin-center-new.png" alt-text="Снимок экрана: страница политик обмена сообщениями." lightbox="../../media/hc-messaging-policy-admin-center-new.png":::
+ :::image type="content" source="../../media/hc-messaging-policy-admin-center-new.png" alt-text="Снимок экрана: страница &quot;Политики обмена сообщениями&quot;." lightbox="../../media/hc-messaging-policy-admin-center-new.png":::
  
  Чтобы изменить существующую политику обмена сообщениями по умолчанию для вашей организации, нажмите **Глобальная (по умолчанию для всей организации)** и внесите изменения. Чтобы создать новую настраиваемую политику обмена сообщениями, нажмите **Добавить** и выберите необходимые параметры. Когда все будет готово, нажмите **Сохранить**.
 

@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3c80b93ef457048d006fb7a7eb6085b3ed5d8eb4
-ms.sourcegitcommit: 8cda22925ccddb612f91351a7593b521eee10f0e
+ms.openlocfilehash: 46624ff1e1eeeede5066cf6972cc92469cf8979c
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "62864032"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675051"
 ---
 # <a name="microsoft-teams-essentials-quickstart-guide-for-small-businesses"></a>Руководство по быстрому запуску Microsoft Teams базовый для малого бизнеса
 
@@ -29,7 +29,7 @@ Microsoft Teams базовый — это отдельная подписка Te
 
 ### <a name="before-you-continue"></a>Прежде чем продолжить
 
-Microsoft Teams базовый можно приобрести напрямую на веб-сайте корпорации Майкрософт и у избранных партнеров Microsoft Cloud Partners. Подписки напрямую и через партнеров немного различаются, так как в них используются разные системы удостоверений. Дополнительные сведения см. в таблице этой статьи: [Планы Microsoft Teams базовый](#how-does-microsoft-teams-essentials-compare-to-other-microsoft-teams-plans).
+Microsoft Teams базовый можно приобрести напрямую на веб-сайте Майкрософт и у избранных партнеров Microsoft Cloud Partner. Подписки напрямую и через партнеров немного различаются, так как в них используются разные системы удостоверений. Дополнительные сведения см. в таблице этой статьи: [Планы Microsoft Teams базовый](#how-does-microsoft-teams-essentials-compare-to-other-microsoft-teams-plans).
 
 В подписке, приобретенной напрямую через веб-сайт Майкрософт, используется удостоверение учетной записи Майкрософт, которое позволяет применять для регистрации существующий адрес электронной почты, например PavelB@outlook.com, PavelB@gmail.com или PavelB@ContosoLandscaping.com.
 
@@ -37,7 +37,7 @@ Microsoft Teams базовый можно приобрести напрямую 
 
 ## <a name="what-microsoft-teams-essentials-subscription-do-i-have"></a>Какая у меня подписка Microsoft Teams базовый?  
 
-Если вы приобрели Teams базовый через веб-сайт Майкрософт (без торговых посредников), вы владеете подпиской **Microsoft Teams базовый**.
+Если вы приобрели Teams базовый напрямую через веб-сайт Майкрософт, вы владеете подпиской **Microsoft Teams базовый**.
 
 Если вы приобрели Teams базовый у сертифицированного партнера Майкрософт, вы владеете подпиской **Microsoft Teams базовый (удостоверение AAD)**.
 
@@ -153,7 +153,7 @@ Microsoft Teams базовый можно приобрести напрямую 
 
 #### <a name="how-do-i-upgrade-my-organization"></a>Как выполнить переход в организации?
 
-Чтобы перейти на версию Microsoft Teams базовый, выберите **...** в верхнем меню навигации. Затем нажмите кнопку **Обновить**  в нижней части раскрывающегося меню.   :::image type="content" source="media/teams-free-upgrade-essentials.png" alt-text="снимок экрана: кнопка &quot;Обновить&quot;"::: 
+Чтобы перейти на версию Microsoft Teams базовый, выберите **…** в верхнем меню навигации. Затем нажмите кнопку **Обновить** в нижней части раскрывающегося меню.   :::image type="content" source="media/teams-free-upgrade-essentials.png" alt-text="снимок экрана: кнопка &quot;Обновить&quot;"::: 
 
 После нажатия кнопки **Обновить** в Teams вы будете направлены на страницу [Microsoft Teams для малого бизнеса](https://www.microsoft.com/microsoft-teams/upgrade-teams).
 
@@ -164,9 +164,9 @@ Microsoft Teams базовый можно приобрести напрямую 
 
 Нет. Teams базовый с удостоверением AAD доступен только через избранных партнеров Microsoft Cloud Partners. Если вы хотите работать с партнером, посетите веб-сайт [Поиск партнера-поставщика облачных решений (Майкрософт)](https://partner.microsoft.com/membership/cloud-solution-provider/find-a-provider).
 
-### <a name="can-i-use-an-existing-email-system-with-microsoft-teams-essentials"></a>Можно ли использовать существующую почтовую систему с Microsoft Teams базовый?  
+### <a name="can-i-use-an-existing-email-system-with-microsoft-teams-essentials"></a>Можно ли использовать существующую почтовую систему с Microsoft Teams базовый?  
 
-Да. Вы можете сохранить существующую систему обмена сообщениями и использовать Teams Essentials для встреч, общения и совместной работы.  
+Да. Вы можете сохранить существующую систему обмена сообщениями и использовать Teams Essentials для встреч, общения и совместной работы.  
 
 ### <a name="can-i-connect-my-existing-calendar-solution-with-teams-essentials"></a>Можно ли подключить существующее решение календаря к Teams базовый?
 Да. Вы можете синхронизировать существующие календари из Outlook.com и Google с Teams Essentials.

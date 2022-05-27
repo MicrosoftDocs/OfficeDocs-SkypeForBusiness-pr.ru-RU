@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: ''
 description: Узнайте, как использовать приложение Bookings в Microsoft Teams для планирования, управления и проведения виртуальных встреч.
-ms.openlocfilehash: 3fb6b28b9e9e1b7581ef80d9830bce97f6a7070d
-ms.sourcegitcommit: 02fcd6686a2f7a59c0ad67430c2b85f809c1b662
+ms.openlocfilehash: 7579c524a28ee51c622a805d1ea945c33596cb56
+ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "65534384"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65682140"
 ---
 # <a name="help-your-clients-and-customers-use-virtual-appointments"></a>Помощь клиентам и клиентам в использовании виртуальных встреч
 
@@ -76,7 +76,7 @@ ms.locfileid: "65534384"
 
 **Кто можно ли создать встречу?**
 
-Убедитесь, что ваши клиенты могут поддерживать связи с предпочтительными поставщиками, совместно используя общий доступ к сотрудникам, которые при их наличии выполняются исключительно виртуально или лично.
+Убедитесь, что клиенты могут поддерживать связи с предпочтительными поставщиками, совместно используя общий доступ к сотрудникам, которые при их наличии выполняются исключительно виртуально или лично.
 
 **Разделы справки отменять или перепланировать виртуальную встречу?**
 
@@ -110,10 +110,10 @@ ms.locfileid: "65534384"
 
 | Графический                | Описание и ссылки              |
 | :------------------- | -------------------: |
-| [![Изображение инфографики финансовых услуг](../media/vv-finserv-thumbnail.png)](//download.microsoft.com/download/8/5/7/85784cd8-6945-4fcc-a3c3-972bd88d3fef/VirtualVisit_Financial_Infographic.pdf) | Настраиваемая инфографика для организации финансовых услуг <br> [Скачивание в формате PDF](//download.microsoft.com/download/8/5/7/85784cd8-6945-4fcc-a3c3-972bd88d3fef/VirtualVisit_Financial_Infographic.pdf) <br> [Скачать как PowerPoint](//download.microsoft.com/download/8/5/7/85784cd8-6945-4fcc-a3c3-972bd88d3fef/VirtualVisit_Financial_Infographic.pptx)
-| [![Изображение инфографики розничной торговли](../media/vv-retail-thumbnail.png)](//download.microsoft.com/download/a/b/5/ab5c07d9-cf7a-47b3-ba54-05a8a0a2a1bd/VirtualVisit_Retail_Infographic.pdf) | Настраиваемая инфографика для вашей розничной организации <br> [Скачивание в формате PDF](//download.microsoft.com/download/a/b/5/ab5c07d9-cf7a-47b3-ba54-05a8a0a2a1bd/VirtualVisit_Retail_Infographic.pdf) <br> [Скачать как PowerPoint](//download.microsoft.com/download/a/b/5/ab5c07d9-cf7a-47b3-ba54-05a8a0a2a1bd/VirtualVisit_Retail_Infographic.pptx) |
-| [![Изображение медицинской инфографики](../media/vv-healthcare-thumbnail.png)](//download.microsoft.com/download/4/d/3/4d3d9c53-0304-4aea-a56a-60a16402c58f/VirtualVisit_Healthcare_Infographic.pdf) | Настраиваемая инфографика для вашей медицинской организации <br> [Скачивание в формате PDF](//download.microsoft.com/download/4/d/3/4d3d9c53-0304-4aea-a56a-60a16402c58f/VirtualVisit_Healthcare_Infographic.pdf) <br> [Скачать как PowerPoint](//download.microsoft.com/download/4/d/3/4d3d9c53-0304-4aea-a56a-60a16402c58f/VirtualVisit_Healthcare_Infographic.pptx) |
-| [![Изображение инфографики, которая не является отраслевой.](../media/va-generic-thumb.png)](//download.microsoft.com/download/c/6/9/c69d3f29-a8f5-462b-a645-79119beab406/VirtualVisit_Generic_Infographic.pdf) | Настраиваемая инфографика, не относянаяся к определенной отрасли <br> [Скачивание в формате PDF](//download.microsoft.com/download/c/6/9/c69d3f29-a8f5-462b-a645-79119beab406/VirtualVisit_Generic_Infographic.pdf) <br> [Скачать как PowerPoint](//download.microsoft.com/download/c/6/9/c69d3f29-a8f5-462b-a645-79119beab406/VirtualVisit_Generic_Infographic.pptx) |
+| [![Изображение инфографики финансовых услуг](../media/vv-finserv-thumbnail.png)](https://go.microsoft.com/fwlink/?linkid=2196520&clcid=0x409) | Настраиваемая инфографика для организации финансовых услуг <br> [Скачивание в формате PDF](https://go.microsoft.com/fwlink/?linkid=2196520&clcid=0x409) <br> [Скачать как PowerPoint](https://go.microsoft.com/fwlink/?linkid=2196449&clcid=0x409)
+| [![Изображение инфографики розничной торговли](../media/vv-retail-thumbnail.png)](https://go.microsoft.com/fwlink/?linkid=2196452&clcid=0x409) | Настраиваемая инфографика для вашей розничной организации <br> [Скачивание в формате PDF](https://go.microsoft.com/fwlink/?linkid=2196452&clcid=0x409) <br> [Скачать как PowerPoint](https://go.microsoft.com/fwlink/?linkid=2196451&clcid=0x409) |
+| [![Изображение медицинской инфографики](../media/vv-healthcare-thumbnail.png)](https://go.microsoft.com/fwlink/?linkid=2196357&clcid=0x409) | Настраиваемая инфографика для вашей медицинской организации <br> [Скачивание в формате PDF](https://go.microsoft.com/fwlink/?linkid=2196357&clcid=0x409) <br> [Скачать как PowerPoint](https://go.microsoft.com/fwlink/?linkid=2196450&clcid=0x409) |
+| [![Изображение инфографики, которая не является отраслевой.](../media/va-generic-thumb.png)](https://go.microsoft.com/fwlink/?linkid=2196355&clcid=0x409) | Настраиваемая инфографика, не относянаяся к определенной отрасли <br> [Скачивание в формате PDF](https://go.microsoft.com/fwlink/?linkid=2196355&clcid=0x409) <br> [Скачать как PowerPoint](https://go.microsoft.com/fwlink/?linkid=2196356&clcid=0x409) |
 
 ### <a name="customize-your-infographic"></a>Настройка инфографики
 

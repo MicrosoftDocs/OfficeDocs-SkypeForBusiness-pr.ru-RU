@@ -1,5 +1,5 @@
 ---
-title: Поддержка использования функций SEFAUtil в PowerShell в Skype для бизнеса Server 2019 г.
+title: Поддержка использования функций SEFAUtil в Skype PowerShell в Skype для бизнеса Server 2019 г.
 ms.reviewer: rogupta
 ms.author: heidip
 author: MicrosoftHeidi
@@ -12,98 +12,132 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
-description: Сводка. Узнайте, как использовать PowerShell для получения функций SEFAUtil в Skype для бизнеса Server 2019 г. после установки накопительного обновления 1.
-ms.openlocfilehash: 88e62543f41d9a497b9b0ca28c55322fbe5f5be7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Сводка. Узнайте, как использовать PowerShell для получения функциональных возможностей SEFAUtil в Skype для бизнеса Server 2019 после установки накопительного пакета обновления 1.
+ms.openlocfilehash: 07d05ef1687fa9ca14f7e90108ae8b5c0e7e3bb9
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58578183"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65676541"
 ---
-# <a name="using-sefautil-functionality-via-powershell-in-skype-for-business-server-2019"></a>Использование функций SEFAUtil через PowerShell в Skype для бизнеса Server 2019 г.
+# <a name="using-sefautil-functionality-via-powershell-in-skype-for-business-server-2019"></a>Использование функций SEFAUtil с помощью PowerShell в Skype для бизнеса Server 2019 г.
 
-SEFAUtil (Активация дополнительных функций расширения) позволяет администраторам Skype для бизнеса Server и агентам helpdesk настраивать параметры делегирования, переададации вызовов и группового вызова от имени Skype для бизнеса Server пользователя. Этот инструмент также позволяет администраторам запрашивать параметры маршрутивки вызовов, опубликованные для конкретного пользователя. После установки накопительного обновления Skype для бизнеса Server июля 2019 г. следующие функции, которые в настоящее время можно управлять только с помощью SEFAUtil, также будут управляться с помощью PowerShell:
+SEFAUtil (активация дополнительных функций расширения) позволяет администраторам Skype для бизнеса Server и агентам службы технической поддержки настраивать параметры делегирования, переадресации  вызовов и группового вызова от имени Skype для бизнеса Server пользователей. SEFAUtil также позволяет администраторам запрашивать параметры маршрутизации вызовов для определенного пользователя.
 
-- [Параметры переададки вызовов](#call-forwarding-settings)
+После установки накопительного Skype для бизнеса Server за июль 2019 г. следующие функции, доступные только через SEFAUtil, также будут доступны в Skype PowerShell:
+
+- [Параметры переадресации  вызовов](#call-forwarding-settings)
 - [Параметры делегирования](#delegation-settings)
-- [Члены группы и связанные с ними параметры](#team-members-and-related-settings)
+- [Участники команды и связанные параметры](#team-members-and-related-settings)
 
-## <a name="call-forwarding-settings"></a>Параметры переададки вызовов
+## <a name="call-forwarding-settings"></a>Параметры переадресации  вызовов
 
-Администраторы могут изменять параметры переадправления вызовов, используя следующий cmdlet в PowerShell:
+Администраторы могут изменить параметры переадресации  вызовов с помощью следующих команд в PowerShell:
 
-- `Get-CsUserCallForwardingSettings -Identity <UserIdParameter>`
+```powershell
+Get-CsUserCallForwardingSettings -Identity <UserIdParameter>
+```
 
-Этот комдлет возвращает указанные параметры переададки вызовов пользователя в качестве объекта и отображает то же самое на экране.
+Эта команда возвращает параметры переадресации вызовов указанного пользователя в качестве объекта и отображает то же самое на экране.
 
-- `Set-CsUserCallForwardingSettings -Identity <UserIdParameter> [Param1 <Value>] [Param2 <Value>]…`
+```powershell
+Set-CsUserCallForwardingSettings -Identity <UserIdParameter> [Param1 <Value>] [Param2 <Value>]...
+```
 
-Этот cmdlet изменяет параметры переададции вызовов указанного пользователя. Этот комдлет возвращает указанные параметры переададки зовов пользователя в качестве объекта и отображает то же самое на экране в случае успеха. В случае сбоя будет показано соответствующее сообщение об ошибке.
+Эта команда изменяет параметры переадресации вызовов указанного пользователя. Эта команда возвращает параметры переадресации вызовов указанного пользователя в качестве объекта и отображает то же самое на экране. Если команда не выполнена успешно, отобразится соответствующее сообщение об ошибке.
 
-- `Set-CsUserCallForwardingSettings [-Identity] <UserIdParameter> -DisableForwarding  [-UnansweredToVoicemail] [-UnansweredWaitTime <TimeSpan>] [-SettingsActiveWorkHours]`
-- `Set-CsUserCallForwardingSettings [-Identity] <UserIdParameter> -DisableForwarding  [-UnansweredToOther <String>] [-UnansweredWaitTime <TimeSpan>] [-SettingsActiveWorkHours]`
+```powershell
+Set-CsUserCallForwardingSettings [-Identity] <UserIdParameter> -DisableForwarding  [-UnansweredToVoicemail] [-UnansweredWaitTime <TimeSpan>] [-SettingsActiveWorkHours]
+```
 
-Этот кодлет отключает параметры переададки вызовов пользователя (здесь мы покажем два разных примера параметров).
+```powershell
+Set-CsUserCallForwardingSettings [-Identity] <UserIdParameter> -DisableForwarding  [-UnansweredToOther <String>] [-UnansweredWaitTime <TimeSpan>] [-SettingsActiveWorkHours]
+```
 
-- `Set-CsUserCallForwardingSettings [-Identity] <UserIdParameter> -EnableForwarding <String> [-Delegates <PSListModifier>] [-DelegateRingWaitTime <TimeSpan>] [-SettingsActiveWorkHours]`
+Эта команда отключает параметры переадресации  вызовов пользователя (здесь показаны два разных примера параметров).
 
-Этот кодлет изменяет параметры переададции вызовов пользователя.
+```powershell
+Set-CsUserCallForwardingSettings [-Identity] <UserIdParameter> -EnableForwarding <String> [-Delegates <PSListModifier>] [-DelegateRingWaitTime <TimeSpan>] [-SettingsActiveWorkHours]
+```
 
-- `Set-CsUserCallForwardingSettings [-Identity] <UserIdParameter> -EnableSimulRing <String> [-UnansweredToVoicemail]  [-UnansweredWaitTime <TimeSpan>] [-Delegates <PSListModifier>] [-Team <PSListModifier>] [-TeamDelegateRingWaitTime <TimeSpan>] [-SettingsActiveWorkHours]`
-- `Set-CsUserCallForwardingSettings [-Identity] <UserIdParameter> -EnableSimulRing <String> [-UnansweredToOther <String>] [-UnansweredWaitTime <TimeSpan>] [-Delegates <PSListModifier>]  [-Team <PSListModifier>]  [-TeamDelegateRingWaitTime <TimeSpan>]  [-SettingsActiveWorkHours]`
+Эта команда изменяет параметры переадресации  вызовов пользователя.
 
-Этот cmdlet изменяет параметры одновременных параметров кольца (опять же, с двумя примерами параметров, один для голосовой почты без ответа, а второй без ответа на другие).
+```powershell
+Set-CsUserCallForwardingSettings [-Identity] <UserIdParameter> -EnableSimulRing <String> [-UnansweredToVoicemail]  [-UnansweredWaitTime <TimeSpan>] [-Delegates <PSListModifier>] [-Team <PSListModifier>] [-TeamDelegateRingWaitTime <TimeSpan>] [-SettingsActiveWorkHours]
+```
+
+```powershell
+Set-CsUserCallForwardingSettings [-Identity] <UserIdParameter> -EnableSimulRing <String> [-UnansweredToOther <String>] [-UnansweredWaitTime <TimeSpan>] [-Delegates <PSListModifier>]  [-Team <PSListModifier>]  [-TeamDelegateRingWaitTime <TimeSpan>]  [-SettingsActiveWorkHours]
+```
+
+Эта команда изменяет параметры одновременного звонка (опять же, с двумя примерами параметров: один для голосовой почты, а второй — для другого).
 
 ## <a name="delegation-settings"></a>Параметры делегирования
 
-Администраторы могут изменять параметры делегирования, используя следующий cmdlet в PowerShell:
+Администраторы могут изменять параметры делегирования с помощью следующей команды в PowerShell:
 
-- `Get-CsuserDelegates -Identity <UserIdParameter>`
+```powershell
+Get-CsuserDelegates -Identity <UserIdParameter>
+```
 
-Этот комлет возвращает объект списка делегатов и отображает указанный список делегатов пользователя в случае успеха. В случае сбоя будет показано соответствующее сообщение об ошибке.
+Эта команда возвращает объект списка делегатов и отображает список делегатов указанного пользователя. Если команда не выполнена успешно, отобразится соответствующее сообщение об ошибке.
 
-- `Set-CsUserDelegates -Identity <UserIdParameter> [-Delegates <PSListModifier>]`
+```powershell
+Set-CsUserDelegates -Identity <UserIdParameter> [-Delegates <PSListModifier>]
+```
 
-Этот кодлет изменяет параметры делегирования указанного пользователя, возвращает объект списка делегатов и отображает список делегатов в случае успеха. В случае сбоя будет показано соответствующее сообщение об ошибке. 
+Эта команда изменяет параметры делегирования указанного пользователя, возвращает объект списка делегатов и отображает список делегатов. Если команда не выполнена успешно, отобразится соответствующее сообщение об ошибке.
 
-- `Set-CsUserDelegates -Identity <UserIdParameter> [-Delegates @{add=[list]}] [-Delegates @{remove=[list]}]`
+```powershell
+Set-CsUserDelegates -Identity <UserIdParameter> [-Delegates @{add=[list]}] [-Delegates @{remove=[list]}]
+```
 
-Этот кодлет добавляет или удаляет делегата.
+Эта команда добавляет или удаляет делегат.
 
-- `Set-CsUserDelegates -Identity <UserIdParameter> [-Delegates @{replace=[list]}]`
+```powershell
+Set-CsUserDelegates -Identity <UserIdParameter> [-Delegates @{replace=[list]}]
+```
 
-Этот список задает список делегатов определенным делегатам.
+Эта команда задает список делегатов для определенных делегатов.
 
-## <a name="team-members-and-related-settings"></a>Члены группы и связанные с ними параметры
+## <a name="team-members-and-related-settings"></a>Участники команды и связанные параметры
 
-Администраторы могут изменять членов группы и связанные с ними параметры, используя следующий командлет в PowerShell:
+Администраторы могут изменять членов команды и связанные параметры с помощью следующей команды в PowerShell:
 
-- `Get-CsUserTeamMembers -Identity <UserIdParameter>`
+```powershell
+Get-CsUserTeamMembers -Identity <UserIdParameter>
+```
 
-Этот командлет возвращает объект, содержащий список членов группы, и отображает объект на экране в случае успеха. В случае сбоя будет показано соответствующее сообщение об ошибке.
+Эта команда возвращает объект, содержащий список участников команды, и отображает объект на экране. Если команда не выполнена успешно, отобразится соответствующее сообщение об ошибке.
 
-- `Set-CsUserTeamMembers -Identity <UserIdParameter> [-Team <PSListModifier>]`
+```powershell
+Set-CsUserTeamMembers -Identity <UserIdParameter> [-Team <PSListModifier>]
+```
 
-Этот командлет изменяет список членов команды указанного пользователя, возвращает объект, содержащий список членов группы, и отображает объект на экране в случае успеха. В случае сбоя будет показано соответствующее сообщение об ошибке.
+Эта команда изменяет список участников команды указанного пользователя, возвращает объект, содержащий список участников группы, и отображает объект на экране. Если команда не выполнена успешно, отобразится соответствующее сообщение об ошибке.
 
-- `Set-CsUserTeamMembers -Identity <UserIdParameter> [-Team @{add=[list]}] [-Team @{remove=[list]}]`
+```powershell
+Set-CsUserTeamMembers -Identity <UserIdParameter> [-Team @{add=[list]}] [-Team @{remove=[list]}]
+```
 
-Этот командлет добавляет или удаляет членов группы.
+Эта команда добавляет или удаляет участников команды.
 
-- `Set-CsUserTeamMembers -Identity <UserIdParameter> [-Team @{replace=[list]}]`
+```powershell
+Set-CsUserTeamMembers -Identity <UserIdParameter> [-Team @{replace=[list]}]
+```
 
-Этот командлет задает список команд определенным участникам.
+Эта команда задает список команд для определенных участников.
 
-## <a name="more-information"></a>Дополнительные сведения
+## <a name="more-information"></a>Дополнительная информация
 
-Для локального развертывания команды, введенные в эту функцию, могут запускаться только членами следующих групп на уровне доступа, указанном ниже:
+Для локальных развертываний командлеты, представленные в этой функции, могут выполняться только членами следующих групп в соответствии с уровнем доступа, указанным ниже:
 
-- CsAdministrator — get and Set for all cmdlets
-- CsVoiceAdministrator — get and Set for all cmdlets
-- CsHelpDesk — get for all cmdlets
+- CsAdministrator — получение и установка для всех командлетов
+- CsVoiceAdministrator — получение и установка для всех командлетов
+- CsHelpDesk — получение для всех командлетов
 
-Дополнительные сведения об этих ролях администратора см. в [Skype для бизнеса Server Администраторы панели управления.](../SfbServer/help-topics/help-depwiz/create-skype-for-business-server-control-panel-administrators.md) Администратор может получить доступ к этим комлетам, непосредственно или удаленно войдя на серверный компьютер.
-Для гибридного развертывания Skype для бизнеса администраторы должны иметь возможность вызывать get and Set для всех cmdlets. Дополнительные сведения о полном списке ролей см. в дополнительных [сведениях о ролях администратора.](/microsoft-365/admin/add-users/about-admin-roles)
+Дополнительные сведения об этих ролях администраторов см. в [разделе "Создание Skype для бизнеса Server панель управления администраторов"](../SfbServer/help-topics/help-depwiz/create-skype-for-business-server-control-panel-administrators.md). Администратор может получить доступ к этим командлетам, напрямую или удаленно войдите на серверный компьютер.
+Для гибридного развертывания Skype для бизнеса администраторы должны иметь возможность вызывать Get и Set для всех командлетов. Дополнительные сведения о полном списке ролей см. в разделе ["О ролях администратора"](/microsoft-365/admin/add-users/about-admin-roles).
 
 > [!NOTE]
-> Необходимо включить автоматическое обнаружение сервера. Дополнительные требования к лицензированию для использования этих кодлетов не будут введены.
+> Необходимо включить автоматическое обнаружение сервера. Дополнительные требования к лицензированию для использования командлетов не будут применяться.

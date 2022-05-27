@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4f717672c4cb297d7f3d2e95ceaa038eeceaa2ee
-ms.sourcegitcommit: ad8447b683381bc07f993bf843a93a4bdb77d840
+ms.openlocfilehash: b59753e1ad1e5a0be36ed8a0d924d7fa6d6658a2
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "65187125"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675521"
 ---
 # <a name="tailor-teams-apps-for-your-frontline-workers"></a>Настройка приложений Teams для сотрудников без компьютеров
 
@@ -37,7 +37,7 @@ Teams закрепляет приложения на основе лицензи
 
 ## <a name="tailored-frontline-app-experience"></a>Специализированное интерфейсное приложение
 
-Приложения закрепляются на панели приложений, которая является панелью в нижней части Teams мобильных клиентов (iOS и Android) и на стороне Teams настольного клиента. Следующие приложения закреплены для пользователей с лицензией [F](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt):
+Приложения закрепляются на панели приложений, которая находится на панели в нижней части мобильных клиентов Teams (iOS и Android) и в Teams настольном клиенте. Следующие приложения закреплены для пользователей с лицензией [F](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt):
 
 - [Действие](https://support.microsoft.com/office/explore-the-activity-feed-in-teams-91c635a1-644a-4c60-9c98-233db3e13a56)
 - [Чат](https://support.microsoft.com/office/get-started-with-chat-0b506ce2-eb6d-4fca-9668-e56980ba755e)
@@ -55,7 +55,7 @@ Teams закрепляет приложения на основе лицензи
 
 :::image type="content" source="media/tailored-teams-apps-desktop.png" alt-text="Специализированное интерфейсное приложение на Teams компьютере" lightbox="media/tailored-teams-apps-desktop.png"::: 
 
-## <a name="admin-controls"></a>Элементы управления администратора
+## <a name="admin-controls"></a>Администратор элементов управления
 
 > [!NOTE]
 > Чтобы **эта функция** вступает в силу, параметр закрепления пользователя должен быть включен в глобальной [](teams-app-setup-policies.md) политике настройки приложения (по умолчанию для всей организации).
@@ -66,7 +66,7 @@ Teams закрепляет приложения на основе лицензи
 
 По умолчанию эта функция включена. Тем не менее, если вы не хотите, чтобы интерфейсное приложение было предоставлено корпорацией Майкрософт, вы можете отключить эту функцию. Чтобы отключить или включить эту функцию:
 
-1. В левой области навигации центра администрирования Microsoft Teams перейдите к Teams **appsManage** > , а затем выберите параметры приложения для **всей организации**.
+1. В левой области навигации центра администрирования Microsoft Teams перейдите к Teams **приложениям** >  "Управление приложениями **", а** затем выберите параметры приложений **для всей организации**.
 2. В **разделе "Специализированные приложения**" переключите переключатель **"** Показать специализированные приложения" на **"Выкл** ." или **"Вкл."**.
 
     :::image type="content" source="media/tailored-teams-apps-admin-center.png" alt-text="Снимок экрана: параметр &quot;Показать специализированные приложения&quot; на странице &quot;Управление приложениями&quot; Teams администрирования" lightbox="media/tailored-teams-apps-admin-center.png":::

@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams, поддерживаемые в очереди вызовов
+title: Microsoft Teams поддерживаемые языки очереди вызовов
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -20,17 +20,17 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: Microsoft Teams, поддерживаемые в очереди вызовов
-ms.openlocfilehash: 54d9a49dc3671a2b7148ba964c20dcb50def0622
-ms.sourcegitcommit: e7f6125d348b6f14eeba28e09d5f1975ad4fde69
+description: Microsoft Teams поддерживаемые языки очереди вызовов
+ms.openlocfilehash: c33745aaa5a1b0ddbfb3c7438fdc8bf72c8af592
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2021
-ms.locfileid: "60249551"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674721"
 ---
-# <a name="microsoft-teams-call-queue-supported-languages"></a>Microsoft Teams, поддерживаемые в очереди вызовов
+# <a name="microsoft-teams-call-queue-supported-languages"></a>Microsoft Teams поддерживаемые языки очереди вызовов
 
-Очередь зовов поддерживает следующие языки для текста в речь (TTS):
+Очередь вызовов поддерживает следующие языки для преобразования текста в речь (TTS):
 
 |Язык                                |
 |:---------------------------------------|

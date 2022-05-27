@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Узнайте, как управлять шаблонами команд в Центре администрирования
-ms.openlocfilehash: c753a92205844ebade9a713a8442837039232339
-ms.sourcegitcommit: 140c34f20f9cd48d7180ff03fddd60f5d1d3459f
+ms.openlocfilehash: 46b59d42ae464a5f09e9f24ecc91378bd6464034
+ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "65248941"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65681400"
 ---
 # <a name="manage-team-templates-in-the-admin-center"></a>Управление шаблонами команд в Центре администрирования
 
@@ -106,7 +106,7 @@ New-CsBatchPolicyAssignmentOperation -OperationName <Any operation name> -Policy
 
 Ответ. Да.
 
-1. В центре Teams перейдите к **пользователям** **UsersManage** > .
+1. В центре Teams перейдите в раздел **"Управление пользователями** > **"**.
 1. В списке пользователей выберите пользователей, которых вы хотите назначить политике шаблонов.
 1. Выберите **"Изменить параметры**", а затем в разделе **"Политика шаблонов**" выберите политику, которую нужно назначить.
 1. Нажмите **кнопку "Применить"**.
@@ -117,7 +117,7 @@ New-CsBatchPolicyAssignmentOperation -OperationName <Any operation name> -Policy
 
 О. В Teams администрирования:
 
-1. Перейдите к **пользователям** **UsersManage** > .
+1. Перейдите к **разделу "Управление** > **пользователями"**.
 2. Выберите **фильтр**, задайте фильтр для политики шаблонов и нажмите кнопку "Применить **"**.
 
     ![Политика выбранных шаблонов и просмотр пользователей.](media/template-policies-5.png)
