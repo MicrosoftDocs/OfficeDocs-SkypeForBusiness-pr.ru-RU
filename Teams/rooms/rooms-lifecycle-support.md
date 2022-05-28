@@ -1,7 +1,7 @@
 ---
 title: Комнаты Microsoft Teams версии приложения
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -14,12 +14,12 @@ f1.keywords:
 ms.localizationpriority: medium
 description: Сведения о поддержке жизненного цикла для Комнаты Microsoft Teams, включая динамическую структуру поддержки и ее этапы.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c0353dc1a52dbc16d42d7c7e2f974675bb5098aa
-ms.sourcegitcommit: cd4464fe9bf0f38ed4c3ca058a51bcd29578eef9
+ms.openlocfilehash: 8348db0129b31920335351f2ebde4ed5db8a3d36
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "65316515"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65761071"
 ---
 # <a name="microsoft-teams-rooms-app-version-support"></a>Комнаты Microsoft Teams версии приложения
  

@@ -1,7 +1,7 @@
 ---
 title: Заметки о выпуске Комнаты Microsoft Teams (Windows)
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: Администратор можно прочитать заметки о выпуске Комнаты Microsoft Teams, в которых  перечислено совокупное улучшение Комнаты Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: eadeea6648da5ef2a5b5210b45bb3c884a1cabe8
-ms.sourcegitcommit: 55926815f13efce42fb45f63d95515a5765e0d40
+ms.openlocfilehash: cbf840eb8abc60cbdc53325e41b3d9f95e6b4713
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 05/27/2022
-ms.locfileid: "65753062"
+ms.locfileid: "65761111"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>Заметки о выпуске Комнаты Microsoft Teams
 
@@ -95,8 +95,8 @@ Teams обновления веб-клиента происходят через
 ### <a name="4121380-5262022"></a>4.12.138.0 (5/26/2022)
 
 Представлено в этом обновлении:
-- Исправление ошибки для Jabra Panacast 50
-- Исправление ошибки для присоединения к анонимному собранию между облаками
+- Исправление ошибки для нескольких одновременных видеопотоков из Jabra Panacast 50 (видео о собрании, видео с камеры содержимого)
+- На собраниях в разных облаках теперь можно использовать звуковое устройство для конференц-связи по умолчанию
 - Исправления качества и надежности
 
 ### <a name="4121260-4272022"></a>4.12.126.0 (4/27/2022)

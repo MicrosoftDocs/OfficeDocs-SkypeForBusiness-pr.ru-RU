@@ -23,12 +23,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ansantam
 description: Узнайте, как интегрировать соединитель Teams EHR, чтобы разрешить поставщикам услуг здравоохранения в вашей организации проводить виртуальные встречи с пациентов или другими поставщиками в Teams непосредственно из системы EHR Epic.
-ms.openlocfilehash: abe826b1e71c37e0932404233c234282ec90b7f9
-ms.sourcegitcommit: 3cb40132e36717dfbdc6dfe83e7ea319f3ec9347
+ms.openlocfilehash: c34c8fbb32d78c1380267ce6876e947b877ce383
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "65465440"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65760951"
 ---
 # <a name="virtual-appointments-with-teams---integration-into-epic-ehr"></a>Виртуальные встречи с Teams — интеграция в EHR для ситуаций
 
@@ -62,7 +62,7 @@ ms.locfileid: "65465440"
 
 Вам потребуется запросить доступ к Teams приложения.
 
-1. Запрос на скачивание приложения Teams в [Marketplace Epic App Marketplace](https://apporchard.epic.com/Gallery?id=6153). Это инициирует запрос от Epic к команде соединителя Microsoft EHR.
+1. Запрос на скачивание приложения Teams в [Marketplace Epic App Marketplace](https://apporchard.epic.com/Gallery?id=16793). Это инициирует запрос от Epic к команде соединителя Microsoft EHR.
 1. После выполнения запроса отправьте сообщение электронной почты [](mailto:teamsforhealthcare@service.microsoft.com) TeamsForHealthcare@service.microsoft.com с именем организации, идентификатором клиента и адресом электронной почты технического контакта Epic.
 1. Команда соединителя Microsoft EHR ответит на ваше сообщение электронной почты с подтверждением включения.
 

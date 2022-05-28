@@ -1,7 +1,7 @@
 ---
 title: Teams для сравнения функций общих пространств между Windows и Android
-author: cazawideh
-ms.author: czawideh
+author: dstrome
+ms.author: dstrome
 manager: jsarrasin
 ms.date: 10/07/2021
 ms.topic: conceptual
@@ -20,12 +20,12 @@ f1.keywords:
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 30e1bc6043d48ff222963c2794ad5099af9308ca
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: de089e5c87615f039e91832d95310faa8ff41ac6
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65676301"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65761081"
 ---
 # <a name="teams-devices-for-shared-spaces-feature-comparison-between-windows-and-android"></a>Teams для сравнения функций общих пространств между Windows и Android 
 Комнаты Microsoft Teams интерфейсы разработаны с учетом клиентов. У каждого клиента есть уникальные потребности, поэтому корпорация Майкрософт предлагает широкий спектр вариантов, включая Комнаты Teams на Windows и Android. 

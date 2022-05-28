@@ -1,7 +1,7 @@
 ---
 title: Проверка подлинности в Комнаты Microsoft Teams
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -14,18 +14,18 @@ ms.assetid: ''
 ms.collection:
 - M365-collaboration
 description: Узнайте, как настроить современную проверку подлинности для Комнаты Microsoft Teams
-ms.openlocfilehash: de1487cce0c8a79d2a6c672f5cb729e247966c50
-ms.sourcegitcommit: 0967f725aad0a7b9c430b2e30a37ea333007558a
+ms.openlocfilehash: 5667b4bc2ab356ff9776282a6142a22abd33caa1
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "65106304"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65760881"
 ---
 # <a name="authentication-in-microsoft-teams-rooms"></a>Проверка подлинности в Комнаты Microsoft Teams
 
 Управление учетными записями Комнаты Microsoft Teams выполняется на уровне приложения. Приложение подключается к Microsoft Teams, Skype для бизнеса и Exchange, чтобы получить ресурсы для учетной записи ресурса для звонков и собраний. Комнаты Teams использует выделенную учетную запись ресурса, чтобы обеспечить постоянное использование возможностей, сценарии вызовов (для устройств, настроенных с тарифным планом) и пользовательские механизмы блокировки. Это означает, что проверка подлинности Комнаты Teams происходит не так, как для устройств конечных пользователей.  
 
-Современная проверка подлинности рекомендуется для всех клиентов, использующих Комнаты Microsoft Teams с Microsoft 365 или Office 365. Если у вас есть локальное развертывание сервера Exchange или сервера Skype для бизнеса, настройте гибридную современную проверку подлинности [](/office365/enterprise/hybrid-modern-auth-overview) с помощью Azure Active Directory (Azure AD), чтобы включить современную проверку подлинности.
+Современная проверка подлинности рекомендуется для всех клиентов, использующих Комнаты Microsoft Teams с Microsoft 365 или Office 365. Если у вас есть локальное развертывание сервера Exchange или Skype для бизнеса, настройте гибридную современную проверку подлинности [](/office365/enterprise/hybrid-modern-auth-overview) с помощью Azure Active Directory (Azure AD), чтобы включить современную проверку подлинности.
 
 Современная проверка подлинности поддерживается Комнаты Microsoft Teams версии 4.4.25.0 и более поздних.
 
@@ -106,7 +106,7 @@ ms.locfileid: "65106304"
 
 Если программа установки не поддерживает гибридную современную проверку подлинности или вам нужно удалить или отключить гибридную современную проверку подлинности для Exchange или Skype для бизнеса, см. раздел "Удаление или отключение гибридной современной проверки подлинности в Skype для бизнеса [и Exchange](/Office365/Enterprise/remove-or-disable-hybrid-modern-authentication-from-skype-for-business-and-excha)".
 
-### <a name="azure-ad-conditional-access"></a>Условный доступ Azure AD
+### <a name="azure-ad-conditional-access"></a>Azure AD условного доступа
 
 Вы можете настроить учетную запись ресурса, используемую Комнаты Microsoft Teams для доступа по IP-адресу или расположению. Дополнительные сведения см. [в разделе "Условный доступ: блокировка доступа по расположению"](/azure/active-directory/conditional-access/howto-conditional-access-policy-location).
 
