@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 4872cb6222d8841bb2efe6be0e19fa17d3557e33
-ms.sourcegitcommit: b8098d6ea36f10ee3a630a230ebd84bc2d96e37a
+ms.openlocfilehash: 20993aea7665893d71be1fd1094df9f0d1acdc91
+ms.sourcegitcommit: e8a78c24fda7e56c7b217a843a8a5f1c30aa95f6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 05/31/2022
-ms.locfileid: "65780645"
+ms.locfileid: "65785959"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>Управление политиками разрешений для приложений в Microsoft Teams
 
@@ -55,7 +55,7 @@ ms.locfileid: "65780645"
 1. На панели слева перейдите к Teams **приложений** > **.**
 1. Нажмите **Добавить**.
 
-    ![Снимок экрана: новая политика разрешений приложения.](media/app-permission-policies-new-policy.png)
+   ![Снимок экрана: новая политика разрешений приложения.](media/app-permission-policies-new-policy.png)
 
 1. Укажите имя и описание политики.
 1. В разделе **Приложения Microsoft**, **Сторонние приложения** и **Настраиваемые приложения** выберите один из следующих вариантов:
@@ -102,7 +102,7 @@ ms.locfileid: "65780645"
 
 1. На странице **"Управление приложениями** " выберите **параметры приложения для всей организации**. Затем можно настроить необходимые параметры на панели.
 
-  ![Снимок экрана: параметры приложения для всей организации в GCC.](media/app-permission-policies-gcc-org-wide.png)
+   ![Снимок экрана: параметры приложения для всей организации в GCC.](media/app-permission-policies-gcc-org-wide.png)
 
 1. В разделе **Сторонние приложения**, отключите и включите эти параметры для управления доступом к сторонним программам:
 
@@ -119,7 +119,7 @@ ms.locfileid: "65780645"
 
 1. На странице **Политики разрешений** выберите **Параметры приложения в пределах организации**. Затем можно настроить необходимые параметры на панели.
 
-  ![Снимок экрана: параметры приложения для всей организации в GCCH и DoD.](media/app-permission-policies-gcch-dod-org-wide.png)
+   ![Снимок экрана: параметры приложения для всей организации в GCCH и DoD.](media/app-permission-policies-gcch-dod-org-wide.png)
 
 1. В разделе **Заблокированные приложения** добавьте приложения, которые необходимо заблокировать в организации. В Microsoft 365 для государственных организаций — GCCH и DoD Teams все сторонние приложения добавляются в этот список по умолчанию. При блокировке приложения на уровне организации приложение автоматически блокируется для всех пользователей независимо от того, разрешено ли оно в политиках разрешений приложения.
 1. Нажмите **кнопку "** Сохранить", чтобы параметры приложения для всей организации вступает в силу.
