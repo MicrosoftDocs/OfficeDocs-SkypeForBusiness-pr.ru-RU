@@ -987,7 +987,7 @@ items:
             href: network-roaming-policy.md
       - name: Экстренные вызовы
         items:
-          - name: Общие сведения
+          - name: Обзор
             href: what-are-emergency-locations-addresses-and-call-routing.md
           - name: Настройка динамических экстренных вызовов
             href: configure-dynamic-emergency-calling.md
@@ -1155,7 +1155,7 @@ items:
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md
           - name: Ограничения и запреты для бесплатных номеров
             items:
-              - name: Общие сведения
+              - name: Обзор
                 href: toll-free-dialing-limitations-and-restrictions.md
               - name: Аргентина
                 href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-argentina.md
@@ -1495,7 +1495,9 @@ items:
             href: approval-admin.md
           - name: Управление приложением "Смены"
             href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
-      - name: Администрирование сторонних приложений
+          - name: Управление приложением обновления
+            href: manage-updates-app.md
+      - name: Управление сторонними приложениями
         items:
           - name: Распознавание сторонних приложений
             href: overview-third-party-apps.md
@@ -1511,7 +1513,7 @@ items:
         href: /microsoftteams/platform/samples/app-templates?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fMicrosoftTeams%2ftoc.json
       - name: Управление пользовательскими бизнес-приложениями
         items:
-          - name: Управление приложениями Power Platform в Центре администрирования Microsoft Teams
+          - name: Управление приложениями Power Platform в центре администрирования Teams
             href: manage-power-platform-apps.md
           - name: Публикация пользовательских приложений в магазине вашей организации
             href: submit-approve-custom-apps.md
@@ -1521,7 +1523,7 @@ items:
             href: customize-apps.md
           - name: Настройка фирменного стиля магазина приложений вашей организации
             href: customize-your-app-store.md
-      - name: Элементы управления для администраторов и управление приложениями
+      - name: Элементы управления администратора для управления приложениями
         items:
           - name: Обзор управления приложениями для администраторов
             href: manage-apps.md
@@ -1537,11 +1539,11 @@ items:
                 href: teams-custom-app-policies-and-settings.md
           - name: Настройка приложения Teams для сотрудников без компьютеров
             href: pin-teams-apps-based-on-license.md
-          - name: Обзор разрешений приложений Azure AD и предоставление согласия администратора
+          - name: О разрешениях Azure AD и согласии администратора
             href: app-permissions-admin-center.md
           - name: Управление связанным с конкретными ресурсами согласием для вашей организации
             href: resource-specific-consent.md
-          - name: Информация о разрешениях приложений и доступе к ресурсам
+          - name: Сведения о разрешениях приложений и доступе к ресурсам
             href: app-permissions.md
           - name: Поведение приложений в зависимости от типов пользователей
             href: non-standard-users.md
