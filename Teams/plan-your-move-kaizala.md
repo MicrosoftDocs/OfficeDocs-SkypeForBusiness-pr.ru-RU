@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 search.appverid: ''
 ms.collection: ''
 ms.custom: ''
-ms.openlocfilehash: 4416fa65f38ad3489d05312382cce55b4a21898f
-ms.sourcegitcommit: d425748a50964ebc78e5d38fce564a444a449f43
+ms.openlocfilehash: c65b51b34de54f419db341d5e1328a93746f0984
+ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65635397"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65823314"
 ---
 # <a name="planning-for-a-successful-transition-from-kaizala-to-microsoft-teams"></a>Планирование успешного перехода с Kaizala на Microsoft Teams
 
@@ -70,7 +70,7 @@ ms.locfileid: "65635397"
 
 ### <a name="get-ready"></a>Приготовиться
 
- 1. Убедитесь, что Teams лицензий для всех пользователей. Ознакомьтесь с [планами Teams](/microsoft-teams/compare-microsoft-teams-options?rtc=1) и [описанием услуг Microsoft Teams](/office365/servicedescriptions/teams-service-description).
+ 1. Убедитесь, что Teams лицензий для всех пользователей. Ознакомьтесь с [планами Teams](https://www.microsoft.com/microsoft-teams/compare-microsoft-teams-options?activetab=pivot%3aprimaryr1) и [описанием услуг Microsoft Teams](/office365/servicedescriptions/teams-service-description).
 
  2. Используйте [Microsoft Teams по внедрению](https://adoption.microsoft.com/microsoft-teams/#get-started) для развертывания Teams организации.
 
@@ -78,7 +78,7 @@ ms.locfileid: "65635397"
 
  4. Используйте эти обучающие ресурсы, чтобы помочь пользователям в организации учиться и эффективно использовать Teams:
 
-    - Сведения о готовности ИТ-администратора см. в [учебных ресурсах для администраторов](/microsoftteams/itadmin-readiness).
+    - Сведения о Администратор ИТ-служб [см. Администратор обучающих ресурсов](/microsoftteams/itadmin-readiness).
 
     - Сведения об обучении под руководством инструктора см. в статье об обучении [под руководством инструктора для Microsoft Teams](/microsoftteams/instructor-led-training-teams-landing-page).
   

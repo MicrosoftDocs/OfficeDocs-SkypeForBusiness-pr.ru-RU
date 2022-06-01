@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Узнайте, какие стационарные и конференции сертифицированы для Microsoft Teams для получения наилучших результатов.
-ms.openlocfilehash: 7ad570697609c8e2f6d2cd13cb26c0e147822afa
-ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
+ms.openlocfilehash: 2daf43e3166c70c0947706d3d8f9ce8166fc1e91
+ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "65760941"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65823028"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams сертифицированных Android устройств
 
@@ -245,6 +245,8 @@ ms.locfileid: "65760941"
 
 | Модель устройства  | Версия встроенного ПО | Включенный выпуск продукта |
 |:--------------|:-----------------|:-------------------------|
+| Poly Studio X30 | `3.11.0.364021`          | Обновление 1 за 2022 г.    |
+| Poly Studio X50 | `3.11.0.364021`          | Обновление 1 за 2022 г.    |
 | Logi Вайс |   `1.6.290`   | Обновление 1 за 2022 г.    |
 | Logi Rallybar Mini   |   `1.6.272`   | Обновление 1 за 2022 г.  |
 | Logi Rallybar    |   `1.6.272`   | Обновление 1 за 2022 г.   |

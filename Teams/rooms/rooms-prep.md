@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Узнайте, как подготовить инфраструктуру к развертыванию Комнаты Microsoft Teams, чтобы воспользоваться всеми возможностями.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4e479a3bc51cdab49a742d9084601505f13020d8
-ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
+ms.openlocfilehash: 0bedb70ade23f92424a14e4bea3f1462fc2cbccf
+ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "65761251"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65823058"
 ---
 # <a name="prepare-your-environment"></a>Подготовка среды
 
@@ -32,8 +32,8 @@ ms.locfileid: "65761251"
   
 3. Корпорация Майкрософт осуществляет сбор данных с целью улучшения своих продуктов. Чтобы разрешить корпорации Майкрософт собирать данные, разрешите следующие сайты:
 
-   - Конечная точка клиента телеметрии: https://vortex.data.microsoft.com/
-   - Конечная точка параметров телеметрии: https://settings.data.microsoft.com/
+   - Конечная точка клиента телеметрии: `https://vortex.data.microsoft.com/`
+   - Конечная точка параметров телеметрии:` https://settings.data.microsoft.com/`
     
 ### <a name="create-and-test-a-resource-account"></a>Создание и тестирование учетной записи ресурса
 
@@ -144,9 +144,9 @@ ms.locfileid: "65761251"
 
 Как и Windows устройства,  \> имя компьютера можно переименовать, щелкнув правой кнопкой мыши в Параметры **"О** \> **переименовании компьютера"**.
   
-Если вы хотите переименовать компьютер после присоединения к домену, используйте команду [Rename-Computer](/powershell/module/microsoft.powershell.management/rename-computer?view=powershell-7.2), команду PowerShell, а затем новое имя компьютера.
+Если вы хотите переименовать компьютер после присоединения к домену, используйте команду [Rename-Computer](/powershell/module/microsoft.powershell.management/rename-computer), команду PowerShell, а затем новое имя компьютера.
   
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
 [Планирование Комнаты Microsoft Teams](rooms-plan.md)
 

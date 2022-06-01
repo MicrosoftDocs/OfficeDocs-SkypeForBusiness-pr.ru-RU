@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8bc388f533d39d6e1bc0140bcd975d6354898d5a
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: dcea261be727c01382d55c4a2861541291fcb343
+ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674911"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65823590"
 ---
 # <a name="connect-microsoft-teams-essentials-aad-identity-to-an-existing-email-system-with-calendar"></a>Подключение Microsoft Teams базовый (удостоверение AAD) в существующую систему электронной почты с календарем
 
@@ -69,7 +69,7 @@ Microsoft Teams базовый (удостоверение AAD) объединя
 
 :::image type="content" source="media/essentials-googleworkspace.png" alt-text="Изображение, на котором показана схема потока обработки почты между EXO и Gmail":::
 
-В этих примерах используется командлет [Подключение ExchangeOnline](/powershell/module/exchange/connect-exchangeonline?view=exchange-ps&preserve-view=true) PowerShell, который является частью модуля [Exchange Online PowerShell версии 2](/powershell/exchange/exchange-online-powershell-v2&preserve-view=true). Если при запуске Подключение ExchangeOnline возникает ошибка, убедитесь, что вы выполнили рекомендуемые инструкции по установке модуля с помощью установки модуля [EXO версии 2](/powershell/exchange/exchange-online-powershell-v2?view=exchange-ps&preserve-view=true). При Connect-ExchangeOnline запроса учетных данных обязательно используйте учетную запись администратора клиента.
+В этих примерах используется командлет [Подключение ExchangeOnline](/powershell/module/exchange/connect-exchangeonline) PowerShell, который является частью модуля [Exchange Online PowerShell версии 2](/powershell/exchange/exchange-online-powershell-v2?preserve-view=true&view=exchange-ps). Если при запуске Подключение ExchangeOnline возникает ошибка, убедитесь, что вы выполнили рекомендуемые инструкции по установке модуля с помощью установки модуля [EXO версии 2](/powershell/exchange/exchange-online-powershell-v2#install-and-maintain-EXO-v2-module). При Connect-ExchangeOnline запроса учетных данных обязательно используйте учетную запись администратора клиента.
 
 #### <a name="step-one-set-up-a-new-microsoft-365-tenant-domain"></a>Шаг 1. Настройка нового домена Microsoft 365 клиента
 

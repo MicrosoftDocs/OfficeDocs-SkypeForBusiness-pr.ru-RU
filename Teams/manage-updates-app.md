@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: 8c538a4de417bcc6b19e579162357e56c444abdb
-ms.sourcegitcommit: b8098d6ea36f10ee3a630a230ebd84bc2d96e37a
+ms.openlocfilehash: 39b0e358e57a8780918c6969a562b28d9e3fe49d
+ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2022
-ms.locfileid: "65781064"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65823730"
 ---
 # <a name="manage-the-updates-app-for-your-organization-in-microsoft-teams"></a>Управление приложением "Обновления" для организации в Microsoft Teams
 
@@ -53,6 +53,8 @@ ms.locfileid: "65781064"
 ![Изображение шаблона пошагового руководства по еженедельной безопасности на мобильном устройстве.](media/updates-mobile.png)
 
 В то же время команда удаленных сотрудников обновляет веб-сайт магазина. Они распределены по часовным поясам, поэтому ежедневные резервные собрания не являются удобными. Вместо этого каждый из участников команды отправляет ежедневные отчеты об обновлениях о ходе их выполнения лидеру команды.
+
+[Скачайте lookbook updates,](https://go.microsoft.com/fwlink/?linkid=2197649&clcid=0x409) чтобы просмотреть дополнительные примеры того, что можно сделать с обновлениями.
 
 ## <a name="required-permissions-and-licenses"></a>Необходимые разрешения и лицензии
 

@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 search.appverid: ''
 ms.collection: ''
 ms.custom: ''
-ms.openlocfilehash: 2455d386e9bdf297995880f679e5db74b299e64d
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: cbea53abb94bc3cb591d98781187ac2f4cb68dfd
+ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674841"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65823464"
 ---
 # <a name="navigate-microsoft-teams"></a>Навигация Microsoft Teams
 
@@ -259,7 +259,7 @@ Quiz — это пользовательское [Teams](/microsoftteams/platfor
 
 [Используйте шаблон приложения "](/microsoftteams/platform/samples/app-templates#staff-check-ins)Контрольные флажки персонала", чтобы сотрудники переднего плана могли легко предоставлять критически важные сведения о времени и обновления состояния на запланированной или нерегламентированной основе непосредственно из Teams. Приложение поддерживает расположение в режиме реального времени, фотографии, заметки, уведомления о напоминаниях и автоматизированные рабочие процессы.
 
-Используйте Teams, чтобы упростить обучение в организации. Обучение — это пользовательское [приложение Teams](/microsoftteams/platform/what-are-messaging-extensions) обмена сообщениями, которое позволяет пользователям публиковать обучение в чате или канале для автономного обмена знаниями и обучения. Приложение поддерживается в нескольких клиентах Teams платформы, таких как настольный компьютер, браузер, iOS и Android. Это приложение готово к развертыванию в рамках вашей Microsoft 365 подписки.
+Используйте Teams, чтобы упростить обучение в организации. Обучение — это пользовательское [приложение Teams](/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions?tabs=dotnet) обмена сообщениями, которое позволяет пользователям публиковать обучение в чате или канале для автономного обмена знаниями и обучения. Приложение поддерживается в нескольких клиентах Teams платформы, таких как настольный компьютер, браузер, iOS и Android. Это приложение готово к развертыванию в рамках вашей Microsoft 365 подписки.
 
 [Получить его на GitHub](https://github.com/OfficeDev/microsoft-teams-apps-training)
 

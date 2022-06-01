@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Узнайте, как настроить один пограничный контроллер сеансов (SBC) для обслуживания нескольких клиентов для партнеров Майкрософт и (или) операторов ТСОП.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7a465945a55482c84b9d6373240bc89850b80e3a
-ms.sourcegitcommit: 3f046142c40b3b776165e964f2b8718e2fe55df3
+ms.openlocfilehash: be75743752f34024baf7b2fd017557c2f0044ba6
+ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2022
-ms.locfileid: "65661680"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65823690"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Настройка множества клиентов в пограничном контроллере сеансов
 
@@ -52,7 +52,7 @@ ms.locfileid: "65661680"
 2. Активируйте имя поддомена.
 3. Настройте магистраль от оператора до клиента клиента и подготовите пользователей.
 
-*Убедитесь, что вы понимаете основы DNS и управление доменным именем в Microsoft 365. Прежде чем продолжить, ознакомьтесь с [справкой по Microsoft 365 доменов](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef).*
+*Убедитесь, что вы понимаете основы DNS и управление доменным именем в Microsoft 365. Прежде чем продолжить, ознакомьтесь с [справкой по Microsoft 365 доменов](/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider).*
 
 ## <a name="deploy-and-configure-the-sbc"></a>Развертывание и настройка SBC
 
@@ -83,7 +83,7 @@ ms.locfileid: "65661680"
 
 Когда в интерфейс прямой маршрутизации Microsoft 365 поступает вызов, интерфейс использует заголовок Contact, чтобы найти клиент, в котором нужно найти пользователя. Прямая маршрутизация не использует поиск номеров телефонов в приглашении, так как у некоторых клиентов могут быть номера, отличные от DID, которые могут перекрываться в нескольких клиентах. Таким образом, полное доменное имя в заголовке контакта требуется для идентификации точного клиента для поиска пользователя по номеру телефона.
 
-*Дополнительные сведения о создании доменных имен в организациях Microsoft 365 см. в справке по [Microsoft 365 доменам](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef).*
+*Дополнительные сведения о создании доменных имен в организациях Microsoft 365 см. в справке по [Microsoft 365 доменам](/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider).*
 
 На следующей схеме перечислены требования к базовому домену, поддоменам и заголовку contact.
 
@@ -139,7 +139,7 @@ ms.locfileid: "65661680"
 > [!NOTE]
 > Клиент оператора должен сохранить по крайней мере одну телефонная система лицензию, назначенную клиенту, чтобы избежать удаления Skype для бизнеса конфигурации. 
 
-*Дополнительные сведения о добавлении пользователей Microsoft 365 организаций см. в справке [по Microsoft 365 доменам](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef).*
+*Дополнительные сведения о добавлении пользователей Microsoft 365 организаций см. в справке [по Microsoft 365 доменам](/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider).*
 
 Например, test@customers.adatum.biz
 
@@ -196,7 +196,7 @@ ms.locfileid: "65661680"
 
 После регистрации доменного имени необходимо активировать его, добавив по крайней мере одного пользователя и назначив SIP-адрес с частью полного доменного имени SIP-адреса, соответствующей созданному поддомену в клиенте клиента. 
 
-*Дополнительные сведения о добавлении пользователей в Microsoft 365 организаций см. в [разделе "Справка по Microsoft 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef)".*
+*Дополнительные сведения о добавлении пользователей в Microsoft 365 организаций см. в [разделе "Справка по Microsoft 365](/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider)".*
 
 Например, test@sbc1.customers.adatum.biz
 

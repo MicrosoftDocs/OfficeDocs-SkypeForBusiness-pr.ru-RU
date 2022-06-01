@@ -228,7 +228,7 @@ items:
                   - name: Отключение гибридной среды для завершения миграции в режим "Только Teams"
                     href: /SkypeForBusiness//hybrid/cloud-consolidation-disabling-hybrid
                   - name: Обновление записей DNS
-                    href: /SkypeForBusiness//hybrid/decommission-manage-dns-entries.md
+                    href: /SkypeForBusiness//hybrid/decommission-manage-dns-entries
                   - name: 'Выберите, как управлять атрибутами после списания'
                     href: /SkypeForBusiness//hybrid/cloud-consolidation-managing-attributes
               - name: Перемещение конечных точек приложений в облако
@@ -1838,7 +1838,7 @@ items:
           - name: Переход с соединителя Skype для бизнеса Online на модуль Teams PowerShell
             href: teams-powershell-move-from-sfbo.md
           - name: Справочник по командлетам для Teams
-            href: /powershell/module/teams/?view=teams-ps
+            href: /powershell/module/teams
       - name: Документация разработчиков для Teams
         href: /microsoftteams/platform
       - name: Обновления контента Teams
