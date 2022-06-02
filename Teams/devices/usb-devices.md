@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: Узнайте, какие USB-периферийные устройства (например, гарнитуры, динамики, веб-камеры и мониторы) сертифицированы для Microsoft Teams.
-ms.openlocfilehash: 912d6d3481ba6f9885a79e0600f74c9ecd031c8c
-ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
+ms.openlocfilehash: ac06ca93423039714de87a5bce036b18becedb27
+ms.sourcegitcommit: 18a26d07a335184dbcda71908452e82a6ddc3158
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "65760901"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65840971"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>USB-аудио- и видеоустройства, сертифицированные для Microsoft Teams
 
@@ -74,13 +74,14 @@ ms.locfileid: "65760901"
 
 ## <a name="certified-devices"></a>Сертифицированные устройства
 
-*Таблица обновлена за май 2022 г.*
+*Таблица обновлена в июне 2022 г.*
 
 > [!NOTE]
 > Формат даты — MMDDYYYY.
 
 | Производитель        | Модели                                                     | Квалифицированных      | Сертифицированная программа                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|ЭПОС                 |Гарнитуры серии C10/C20/C50                                |5/31/2022       |Сертифицировано для Microsoft Teams                           |
 |Поли                 |Монитор Studio P21                                         |5/12/2022       |Сертифицировано для Microsoft Teams                           |
 |Yealink              |ГАРНИТУРА 38                                               |5/2/2022        |Сертифицировано для Microsoft Teams                           |   
 |Yealink              |Гарнитура BH72                                               |5/2/2022        |Сертифицировано для Microsoft Teams                           |
@@ -146,8 +147,8 @@ ms.locfileid: "65760901"
 |Lenovo               |Pro проводной стерео гарнитуры VoIP                              |12/21/2020      |Skype для бизнеса обновления до Microsoft Teams      |
 |Поли                 |Savi Office 7320                                           |12/18/2020      |Сертифицировано для Microsoft Teams                           |
 |Поли                 |Savi Office 7310                                           |12/18/2020      |Сертифицировано для Microsoft Teams                           |
-|Jabra                |Развитие гарнитуры 75e                                         |12/16/2020      |Skype для бизнеса обновления до Microsoft Teams      |
-|Jabra                |Развитие гарнитуры 65e                                         |12/16/2020      |Skype для бизнеса обновления до Microsoft Teams      |
+|Jabra                |Evolve 75e / SE Headset                                         |12/16/2020      |Skype для бизнеса обновления до Microsoft Teams      |
+|Jabra                |Evolve 65e / SE Headset                                         |12/16/2020      |Skype для бизнеса обновления до Microsoft Teams      |
 |Dell                 |Монитор C3422WE                                            |12/11/2020      |Сертифицировано для Microsoft Teams                           |
 |Dell                 |Монитор C2722DE                                            |12/11/2020      |Сертифицировано для Microsoft Teams                           |
 |Dell                 |Монитор C2422HE                                            |12/11/2020      |Сертифицировано для Microsoft Teams                           |
