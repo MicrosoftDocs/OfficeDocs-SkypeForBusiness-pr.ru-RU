@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Узнайте, как использовать общие каналы в Microsoft Teams и управлять ими.
-ms.openlocfilehash: afaae423b09b36845b0eeadd9276de1356d0fca0
-ms.sourcegitcommit: e8a78c24fda7e56c7b217a843a8a5f1c30aa95f6
+ms.openlocfilehash: 72701d71712a553c9a02cf9ab41ce0ced0597c3a
+ms.sourcegitcommit: c74c83fdb3fdbf1a5ebc9398bf0379d33f888d1b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2022
-ms.locfileid: "65785989"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65795641"
 ---
 # <a name="shared-channels-in-microsoft-teams"></a>Общие каналы в Microsoft Teams
 
@@ -155,6 +155,73 @@ Teams управляет жизненным циклом сайта общего
 - При создании команды из существующей команды общие каналы не копируются из существующей команды в новую.
 
 - Уведомления общих каналов не включаются в сообщения электронной почте о пропущенных действиях.
+
+## <a name="supported-apps-in-shared-channels"></a>Поддерживаемые приложения в общих каналах
+
+Сведения о том, как подготовить приложение для общих каналов, см. в статье [Как открыть приложение для совместной работы в Microsoft Teams Связи](https://mybuild.microsoft.com/sessions/4d84d73c-08de-4f56-990b-2a73b2037df1).
+
+Следующие приложения поддерживаются для использования в общих каналах. 
+
+- Действие
+- Adobe Acrobat Sign
+- Asana
+- Календарь
+- Календарь Pro
+- Звонки
+- Чат
+- Code by Vivani
+- Conceptboard
+- Excel
+- FileBrowser
+- Файлы
+- Flipgrid
+- Freehand by InVision
+- HeyTaco
+- Jira Cloud
+- Kahoot!
+- Списки
+- Lucidchart
+- Lumio
+- MeisterTask
+- Mindmeister
+- Mindomo
+- Miro
+- Monday.com
+- MURAL
+- Nearpod
+- OneNote
+- PDF
+- Pear Deck
+- PowerPoint
+- Priority Matrix
+- Quicklinks
+- Quizlet
+- Saved
+- Scrum-Poker
+- Поиск
+- SharePoint
+- SharePoint Pages
+- Slido
+- Smartsheet
+- SurveyMonkey
+- Tasks in a Box
+- Teams
+- Teams Manager
+- Teamviewer
+- Командная работа
+- Testportal
+- TrackingTime
+- Trello
+- Vevox
+- Visio
+- VSTS
+- Wakelet
+- Интернет
+- Wooclap
+- Word
+- YouTube
+- Zendesk
+- Zoho Projects
 
 ## <a name="related-topics"></a>См. также
 
