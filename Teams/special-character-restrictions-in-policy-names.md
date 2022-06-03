@@ -21,31 +21,31 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.policies.naming.error
 - seo-marvel-mar2020
-description: Узнайте о проблемах со специальными знаками в именах политик и о том, как их устранить.
-ms.openlocfilehash: c06c5053452c1c55c9e8de09d6b18dd5e97deaca
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Узнайте о проблемах со специальными символами в именах политик и о том, что можно сделать для их устранения.
+ms.openlocfilehash: c304e292aa10508e7c8b02fe2825b83897f22e38
+ms.sourcegitcommit: 1788f852508208a01f230f6f68a5a81ec8594c47
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58589611"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65860082"
 ---
 # <a name="what-are-the-special-character-restrictions-in-teams-policies"></a>Каковы ограничения для специальных знаков в политиках Teams?
 
-Создать или изменить политики (для сообщений, собраний и т. **д.),** которые имеют специальный знак в имени в центре администрирования Microsoft Teams, нельзя. 
+**Вы не можете** создавать или изменять политики (для обмена сообщениями, собраний и т. д.), которые имеют специальный символ в имени в Microsoft Teams администрирования. 
 
-Если имя политики содержит специальные символы, управление этими политиками будет ограничено в центре Microsoft Teams администрирования. Поэтому мы настоятельно рекомендуем не использовать специальные символы в **именах политик.** 
+Если имя политики содержит специальные символы, вы будете ограничены в управлении этими политиками в Microsoft Teams администрирования. **Поэтому мы настоятельно рекомендуем** не включать специальные символы в имена политик. 
 
 Имена политик, созданные с помощью PowerShell для собраний и обмена сообщениями в Teams могут иметь специальные символы, такие как @,#,$. Однако если вы хотите внести изменения в политику в центре Microsoft Teams администрирования, вы не сможете этого сделать. 
 
-Если у вас есть политика со специальными знаками, вам потребуется изменить ее с помощью Windows PowerShell (навсегда) или создать новую политику в Центре администрирования Microsoft Teams с тем же параметром, что и для старой политики, и назначить ее той же группе пользователей.
+Если у вас есть политика со специальными символами, вам потребуется либо изменить политику с помощью Windows PowerShell (навсегда), либо создать новую политику в центре администрирования Microsoft Teams с тем же параметром, что и старая политика, и назначить ее той же группе пользователей.
 
-## <a name="to-remove-special-characters"></a>Удаление специальных знаков
+## <a name="to-remove-special-characters"></a>Удаление специальных символов
 
-**Шаг 1. Удаленное подключение с помощью PowerShell.**
+**Шаг 1. Создание удаленного подключения с помощью PowerShell.**
 > [!NOTE]
-> Skype для бизнеса В настоящее время Online Connector является частью последней версии Teams PowerShell.
+> Skype для бизнеса Online Connector в настоящее время является частью последней версии Teams PowerShell.
 >
-> Если вы используете последний общедоступный [выпуск Teams PowerShell,](https://www.powershellgallery.com/packages/MicrosoftTeams/)вам не нужно устанавливать Skype для бизнеса Online Connector.
+> Если вы используете последнюю версию [Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/), устанавливать соединитель Skype для бизнеса Online не требуется.
 
 ```powershell
   # When using Teams PowerShell Module
@@ -56,10 +56,10 @@ ms.locfileid: "58589611"
 ```
 
 
-**Шаг 2. Получите параметры старой политики и зафиксировать выходные данные.**
+**Шаг 2. Получение параметров старой политики и запись выходных данных.**
 
 > [!NOTE]
-> Этот пример для политики [обмена сообщениями.](/powershell/module/skype/get-csteamsmessagingpolicy?view=skype-ps)  Действия будут одинаковыми для других типов политик, но необходимо использовать правильный cmdlet. 
+> Этот пример предназначен для политики [обмена сообщениями](/powershell/module/skype/get-csteamsmessagingpolicy) .  Эти действия будут одинаковыми для других типов политик, но необходимо использовать правильный командлет. 
 
   ```PowerShell
   Get-CsTeamsMessagingPolicy -id <old_policy_name>
@@ -68,9 +68,9 @@ ms.locfileid: "58589611"
 
 **Шаг 3. Создание новой политики.**
 
-Вы можете создать новую политику с тем же параметром, используя Microsoft Teams или PowerShell.
+Вы можете создать новую политику с тем же параметром с помощью Microsoft Teams центра администрирования или PowerShell.
 
-При запуске этой функции будет создана новая политика, но вам потребуется добавить правильные параметры, нажав [Set-CsTeamsMessagingPolicy](/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) и задав ее:
+При выполнении этой команды будет создаваться новая политика, но вам потребуется добавить правильные параметры, просмотрев [Set-CsTeamsMessagingPolicy](/powershell/module/skype/set-csteamsmessagingpolicy) и запустив ее:
 
   ```PowerShell
   Set-CsTeamsMessagingPolicy -id <new_policy_name>
@@ -79,30 +79,30 @@ ms.locfileid: "58589611"
  ```PowerShell
 Grant-CsTeamsMessagingPolicy -Policy <new_policy_name>
  ```
-Дополнительные сведения об этом cmdlet см. в оке [Grant-CsTeamsMessagingPolicy.](/powershell/module/skype/grant-csteamsmessagingpolicy?view=skype-ps)
+Дополнительные [сведения об этом командлете см. в разделе Grant-CsTeamsMessagingPolicy](/powershell/module/skype/grant-csteamsmessagingpolicy) .
 
 **Шаг 5. Удаление старой политики.**
 
-При этом будет удалена старая политика со специальными знаками.
+При этом будет удалена старая политика со специальными символами.
   ```PowerShell
   Remove-CsTeamsMessagingPolicy -identity <old_policy_name>
   ```
-Дополнительные сведения об этом cmdlet см. в поле [Remove-CsTeamsMessagingPolicy.](/powershell/module/skype/remove-csteamsmessagingpolicy?view=skype-ps)
+Дополнительные [сведения об этом командлете см. в разделе Remove-CsTeamsMessagingPolicy](/powershell/module/skype/remove-csteamsmessagingpolicy) .
 
-Если эта команда будет успешной, все готово. Если вышеуказанная команда возвращает ошибку, это значит, что пользователям назначена старая политика, поэтому вам нужно выполнить ее, чтобы удалить из нее всех пользователей:
+Если эта команда выполнена успешно, все готово. Если приведенная выше команда возвращает ошибку, это вызвано тем, что старая политика назначена пользователям, поэтому необходимо выполнить команду, чтобы удалить всех назначенных пользователей из политики:
 
 ```PowerShell
 Grant-CsMessagingPolicy -Policy <old_policy_name> $null
 ```
 ### <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Сведения по управлению с помощью Windows PowerShell
 
-Windows PowerShell is all about managing users and what users are allowed or not allowed to do. С Windows PowerShell вы можете управлять Microsoft 365 или Office 365 с помощью единого администрирования, который упростит выполнение повседневных задач. Для начала работы с Windows PowerShell ознакомьтесь с приведенными ниже разделами.
+Windows PowerShell is all about managing users and what users are allowed or not allowed to do. С Windows PowerShell вы можете управлять Microsoft 365 или Office 365 с помощью единой точки администрирования, которая может упростить вашу ежедневную работу при наличии нескольких задач. Для начала работы с Windows PowerShell ознакомьтесь с приведенными ниже разделами.
     
-  - [Зачем нужна Office 365 PowerShell?](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+  - [Почему необходимо использовать Office 365 PowerShell?](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [Лучшие способы управления Microsoft 365 или Office 365 с помощью Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [Лучшие способы управления Microsoft 365 Office 365 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-- Windows PowerShell имеет множество преимуществ в скорости, простоте и эффективности работы по сравнению с использованием только Центр администрирования Microsoft 365, например при внесении изменений для множества пользователей одновременно. Подробнее об этих преимуществах можно узнать в следующих разделах:
+- Windows PowerShell имеет множество преимуществ в скорости, простоте и производительности по сравнению с использованием только Центр администрирования Microsoft 365, например при одновременном изменении параметров для многих пользователей. Подробнее об этих преимуществах можно узнать в следующих разделах:
     
   - [Введение в Windows PowerShell и Skype для бизнеса Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
     
@@ -111,4 +111,4 @@ Windows PowerShell is all about managing users and what users are allowed or not
   - [Использование возможностей Windows PowerShell для выполнения стандартных задач управления средой Skype для бизнеса Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
     
     > [!NOTE]
-    > Модуль Windows PowerShell для Skype для бизнеса Online позволяет создавать удаленные сеансы Windows PowerShell подключения к Skype для бизнеса Online и Microsoft Teams. Этот модуль для 64-разрядных систем можно загрузить из Центра загрузки Microsoft здесь: [Модуль Windows PowerShell для Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=294688).
+    > Модуль Windows PowerShell для Skype для бизнеса Online позволяет создать удаленный сеанс Windows PowerShell, который подключается к Skype для бизнеса Online и Microsoft Teams. Этот модуль для 64-разрядных систем можно загрузить из Центра загрузки Microsoft здесь: [Модуль Windows PowerShell для Skype для бизнеса Online](/skypeforbusiness/set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector).
