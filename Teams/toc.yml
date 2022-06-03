@@ -1693,7 +1693,7 @@ items:
                 href: expand-teams-across-your-org/healthcare/ehr-admin-cerner.md
               - name: Виртуальные встречи с помощью Teams — интеграция с электронными медицинскими картами Epic
                 href: expand-teams-across-your-org/healthcare/ehr-admin.md
-              - name: Отчеты администратора электронных медицинских карт
+              - name: Отчет о виртуальных встречах соединителя EHR
                 href: expand-teams-across-your-org/healthcare/ehr-admin-reports.md
               - name: Виртуальные встречи с помощью Teams и Bookings
                 href: expand-teams-across-your-org/bookings-virtual-visits.md
