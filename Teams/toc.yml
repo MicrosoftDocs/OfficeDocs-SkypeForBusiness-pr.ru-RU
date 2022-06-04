@@ -455,6 +455,8 @@ items:
             href: teams-analytics-and-reports/information-protection-license-report.md
           - name: Отчет об использовании виртуальных визитов Teams
             href: teams-analytics-and-reports/virtual-visits-usage-report.md
+          - name: Отчет о виртуальных встречах соединителя EHR Teams
+            href: expand-teams-across-your-org/healthcare/ehr-admin-reports.md
       - name: 'Файлы журнала, работоспособность служб и поддержка'
         items:
           - name: Использование файлов журнала для мониторинга и устранения неполадок в Teams
@@ -1693,7 +1695,7 @@ items:
                 href: expand-teams-across-your-org/healthcare/ehr-admin-cerner.md
               - name: Виртуальные встречи с помощью Teams — интеграция с электронными медицинскими картами Epic
                 href: expand-teams-across-your-org/healthcare/ehr-admin.md
-              - name: Отчет о виртуальных встречах соединителя EHR
+              - name: Отчет о виртуальных встречах соединителя EHR Teams
                 href: expand-teams-across-your-org/healthcare/ehr-admin-reports.md
               - name: Виртуальные встречи с помощью Teams и Bookings
                 href: expand-teams-across-your-org/bookings-virtual-visits.md
