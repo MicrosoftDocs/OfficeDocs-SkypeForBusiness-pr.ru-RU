@@ -1,7 +1,7 @@
 ---
 title: Настройка Microsoft Teams в компаниях малого бизнеса
-author: dstrome
-ms.author: dstrome
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 audience: admin
@@ -18,19 +18,19 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: bdf55403f807ddb8929da71d082adffcbcb7877d
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: c3afa62cfaca28c0c428c15b44868e7237973955
+ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61767152"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66045448"
 ---
 # <a name="set-up-microsoft-teams-in-your-small-business"></a>Настройка Microsoft Teams в компаниях малого бизнеса
 
 Можно настроить Teams в соответствии с вашими предпочтениями. В следующих разделах показано, как настроить все рабочие нагрузки Teams: **чаты, команды и каналы**; **собрания и конференции** и **решения для голосовой связи**. Вы сами можете выбрать порядок настройки каждой нагрузки. В первую очередь рекомендуется настроить чаты, команды и каналы, но вы можете начать с собраний и конференций или даже с облачных решений для голосовой связи. Решайте сами.
 
 > [!NOTE]
-> Если это еще не сделано, настоятельно рекомендуем начать развертывание Teams с пилотного проекта. Пилотный проект позволит вам и нескольким ранним последователям ознакомиться с приложением Teams и его функциями до планирования и конечного развертывания. Дополнительные сведения о запуске пилотного проекта см. в статье [Начало работы с Microsoft Teams](get-started-with-teams-quick-start.md).
+> Если вы еще не сделали этого, настоятельно рекомендуем начать развертывание Teams с пилотного проекта. Пилотный проект позволит вам и нескольким энтузиастам ознакомиться с приложением Teams и его функциями до планирования и развертывания. Дополнительные сведения о запуске пилотного проекта см. в статье [Начало работы с Microsoft Teams](get-started-with-teams-quick-start.md).
 
 Перед общим развертыванием Teams убедитесь в готовности своей организации, проверив пункты из раздела [Проверка готовности](get-started-with-teams-quick-start.md#make-sure-youre-ready).
 
@@ -86,7 +86,7 @@ ms.locfileid: "61767152"
 
 ## <a name="deploy-clients"></a>Развертывание клиентов
 
-Когда ваши пользователи будут готовы к использованию Teams, они смогут установить клиент Teams на своих компьютерах с Windows, Mac или Linux, а также на устройствах с Android или iOS. Пользователи могут скачать клиент Teams непосредственно с сайта <https://teams.microsoft.com/downloads>.
+Когда ваши пользователи будут готовы к использованию Teams, они могут установить клиент Teams на компьютерах с Windows, Mac или Linux, а также на устройствах с Android или iOS. Пользователи могут скачать клиент Teams непосредственно с сайта <https://teams.microsoft.com/downloads>.
 
 Убедитесь в наличии лицензии Teams у всех пользователей Teams. Дополнительные сведения о назначении лицензии Teams см. в статье [Управление доступом пользователей к Teams](user-access.md#using-the-microsoft-365-admin-center).
 

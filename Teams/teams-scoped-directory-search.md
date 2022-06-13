@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8b073cdd67d89de7d934990abc33cb0586d0fc76
-ms.sourcegitcommit: 5fe5516f6118ce3fa0449ab194a6fe87bf48c664
+ms.openlocfilehash: c20c5acdafff69e5a43f02093b515b456daa8ff7
+ms.sourcegitcommit: 193aec6f3f6b6ac14b07e778b3485eed813f5e99
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/08/2022
-ms.locfileid: "64732227"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66046431"
 ---
 # <a name="limit-who-users-can-see-when-searching-the-directory-in-teams"></a>Ограничьте пользователей, которые могут видеть при поиске в каталоге в Teams
 
@@ -50,3 +50,5 @@ Microsoft Teams позволяет организациям предоставл
 
 > [!Note]
 > Чтобы это изменение вступает в силу, может потребоваться несколько часов.
+> 
+> Включение поиска по имени скрывает поле "Команды  поиска" и список общедоступных команд в  разделе "Присоединение" или создание команды в Teams. Он также отключит присоединение к `/join` команде, введя в командной строке в верхней части Teams.

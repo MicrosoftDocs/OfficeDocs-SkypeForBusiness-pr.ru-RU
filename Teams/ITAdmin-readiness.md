@@ -1,8 +1,8 @@
 ---
-title: Администратор обучения — Microsoft Teams
+title: Учебные ресурсы администратора — Microsoft Teams
 ms.reviewer: jhwang
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -19,12 +19,12 @@ ms.custom:
 description: Обучающие видео, PowerPoint презентации, учебники и другие ресурсы для администраторов о планировании, развертывании и запуске Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0bc4841e67606f467bc13940755a7de77038d7b6
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 3cda81a54bce9310454cd6b0607e943eb7c2bb37
+ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65675591"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66045858"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Начало работы с обучением администраторов для Microsoft Teams
 
@@ -96,13 +96,13 @@ ms.locfileid: "65675591"
 | Название                                                                       | Абстрактный                                                                                                                                                                                                               |  Ссылка на руководство                             |
 |-----------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------|
 | Идентификация, управление доступом & защиты от угроз для Teams                   | Узнайте, как использовать Центры администрирования Майкрософт и PowerShell для настройки политик доступа и удостоверений и включения Office 365 Advanced Threat Protection для Teams                                                            | [Teams безопасности](https://aka.ms/teamsesecurityinteractiveguide)         |
-| Microsoft Purview защиты от потери данных (DLP) для Microsoft Teams                     | Узнайте, как Microsoft Teams в существующую политику защиты от потери данных и как создать новую политику на основе шаблона или полностью настроенной в соответствии с потребностями защиты данных вашей организации.                        | [Teams DLP](https://aka.ms/teamsdlpguide)         |
+| Политики защиты от потери данных (DLP) Microsoft Purview для Microsoft Teams                     | Узнайте, как Microsoft Teams в существующую политику защиты от потери данных и как создать новую политику на основе шаблона или полностью настроенной в соответствии с потребностями защиты данных вашей организации.                        | [Teams DLP](https://aka.ms/teamsdlpguide)         |
 | Управление соответствием в Teams                                                | Используйте центры администрирования Microsoft 365 security, Microsoft 365 compliance и Microsoft Teams, а также Windows PowerShell для управления и настройки политик Office 365 организации Microsoft Teams. и параметры. | [Руководство по управлению соответствием Teams](https://aka.ms/complianceinteamsinteractiveguide)      |
 | Teams Помощник: развертывание чатов, команд, каналов и приложений в Microsoft Teams | Узнайте, как использовать помощник Teams для оценки среды и создания плана развертывания чатов, команд, каналов и приложений.                                                                                         |  [Teams Помощник руководства](https://aka.ms/MicrosoftTeamsAdvisorInteractiveguide)  |
 | Упрощение Teams с помощью PowerShell и динамических групп        | Преобразуйте Office 365 из статического членства в динамическое и используйте Windows PowerShell для назначения новой политики разрешений приложения всем участникам.                                                                         |  [Упрощение Teams администрирования](https://aka.ms/StreamliningTeamsadminInteractiveGuide) |
 | Управление Teams и гостевым доступом в центре Microsoft Teams администрирования         | Узнайте, как настроить Microsoft Teams и гостевой доступ для вашей организации и управлять ими.                                                                                                                              | [Руководство по управлению Teams гостевого доступа](https://aka.ms/TeamsandGuestAccessInteractiveGuide)    |
 | Настройка Teams телефонная система: очередь вызовов & автосекретаря                   | Пошаговое руководство по созданию и развертыванию очереди звонков и автосекретаря в Microsoft Teams с помощью Microsoft Teams центра администрирования.                                                          |  [Руководство по настройке Teams телефонной системы](https://aka.ms/TeamsPhoneInteractiveGuide)             |
-| Настройка прямой маршрутизации: подключение SBC и голосовая маршрутизация                 | Используйте Телефонная система Microsoft Teams прямой маршрутизации системы для интеграции с существующей инфраструктурой телефонии.                                                                                                              | [Руководство по настройке прямой маршрутизации](https://aka.ms/DirectRoutingInteractiveGuide)          |
+| Настройка прямой маршрутизации: подключение SBC и голосовая маршрутизация                 | Используйте Microsoft Teams телефонная система прямой маршрутизации для интеграции с существующей инфраструктурой телефонии.                                                                                                              | [Руководство по настройке прямой маршрутизации](https://aka.ms/DirectRoutingInteractiveGuide)          |
 | Настройка системы управления в Microsoft Teams                                     | Узнайте, как создать политику хранения Teams сообщений для организации, а также как архивировать, удалять и восстанавливать отдельные Teams                                                                                   |  [Настройка системы управления в Microsoft Teams руководства](https://aka.ms/TeamsGovernanceInteractiveGuide)        |
 | Настройка и развертывание Microsoft Teams собраний                          | Пошаговое развертывание рабочей нагрузки собраний для Microsoft Teams.                                                                                                                                       |  [Руководство по настройке и развертыванию Microsoft Teams собраний](https://aka.ms/TeamsMeetingsInteractiveGuide)          |
 | Настройка Аудиоконференции для Microsoft Teams                            | Узнайте о возможностях Аудиоконференции в Teams и узнайте, как назначать мосты конференций и номера телефонов с телефонным подключением.                                                                                          |  [Руководство по настройке аудиоконференций для Microsoft Teams](https://aka.ms/AudioConferencingInteractiveGuide)      |

@@ -1,7 +1,7 @@
 ---
 title: Обзор развертывания корпоративного выпуска Microsoft Teams
-author: dstrome
-ms.author: dstrome
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -16,19 +16,19 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f6e6a2835df6f00bc9103594b1cfe5ae011c6960
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fae55eb230c3c0a450a95eb00e50861888bbe3f1
+ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617425"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66045578"
 ---
 # <a name="teams-enterprise-deployment-overview"></a>Обзор развертывания корпоративного выпуска Teams
 
 Если вы представитель среднего или крупного бизнеса, вам приходится заботиться о том, как запустить для пользователей новую службу, как развернуть для них клиент Microsoft Teams, как ваша сеть может затронуть качество общения в реальном времени и так далее. Ознакомьтесь со следующими разделами со ссылками на статьи, которые помогут вам спланировать внедрение Teams в вашей организации.
 
 > [!NOTE]
-> Если вы еще не сделали этого, настоятельно рекомендуем начать развертывание Teams с пилотного проекта. Пилотный проект позволит вам и нескольким первым пользователям ознакомиться с приложением Teams и его функциями до планирования и конечного развертывания. Дополнительные сведения о запуске пилотного проекта см. в статье [Начало работы с Microsoft Teams](get-started-with-teams-quick-start.md).
+> Если вы еще не сделали этого, настоятельно рекомендуем начать развертывание Teams с пилотного проекта. Пилотный проект позволит вам и нескольким энтузиастам ознакомиться с приложением Teams и его функциями до планирования и развертывания. Дополнительные сведения о запуске пилотного проекта см. в статье [Начало работы с Microsoft Teams](get-started-with-teams-quick-start.md).
 
 Прочитав разделы ниже, вы будете готовы начать развертывание Teams в вашей организации. См. статью [Настройка Microsoft Teams в организации](deploy-enterprise-setup.md).
 

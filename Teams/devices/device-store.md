@@ -16,12 +16,12 @@ search.appverid: MET150
 f1.keywords:
 - CSH
 description: Узнайте, как просматривать и приобретать устройства в хранилище Teams центра администрирования
-ms.openlocfilehash: da520b6396fa7e47288f4fdaa6b9f028ba16b3dd
-ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
+ms.openlocfilehash: e5cedb84d50111d90d90d47802f667fb6fdbc106
+ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "65761451"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66045648"
 ---
 # <a name="purchase-devices-in-the-teams-device-store"></a>Приобретение устройств в хранилище Teams устройств
 
@@ -34,7 +34,7 @@ ms.locfileid: "65761451"
 
 ## <a name="requirements"></a>Требования
 
-Чтобы использовать хранилище устройств, необходимо быть глобальным администратором, администратором Teams или администратором Teams устройства.
+Чтобы использовать хранилище устройств, необходимо быть глобальным администратором или администратором Teams устройства.
 
 ## <a name="browse-the-store"></a>Обзор магазина
 

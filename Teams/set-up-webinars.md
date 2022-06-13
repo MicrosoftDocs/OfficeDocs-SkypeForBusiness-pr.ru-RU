@@ -1,7 +1,7 @@
 ---
 title: Подготовка к вебинарам в Microsoft Teams
-author: mkbond007
-ms.author: mabond
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: sachung, emryan
 ms.topic: article
@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: Узнайте, как управлять политиками вебинаров для Teams собраний.
-ms.openlocfilehash: 2cf3af39b64506fc8802eafd1e2c45f35b7a4d00
-ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
+ms.openlocfilehash: 247d5c560075dfd0498ea76b476d5515d0fc6f07
+ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65646248"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66045708"
 ---
 # <a name="set-up-for-webinars-in-microsoft-teams"></a>Подготовка к вебинарам в Microsoft Teams
 
@@ -41,7 +41,7 @@ ms.locfileid: "65646248"
 
 ## <a name="allow-users-to-schedule-webinars-in-the-teams-admin-center"></a>Разрешить пользователям планировать вебинары в Teams администрирования
 
-Вы можете использовать центр администрирования Teams, чтобы настроить вебинары для организации. Политики для настройки вебинары можно найти в центре администрирования Teams в разделе **"Политики MeetingsMeeting** > **"**.
+Вы можете использовать центр администрирования Teams, чтобы настроить вебинары для организации. Политики для настройки вебинары можно найти в центре администрирования Teams в разделе **"Политики** > **собраний"**.
 
 ### <a name="meeting-registration"></a>Регистрация собрания
 
