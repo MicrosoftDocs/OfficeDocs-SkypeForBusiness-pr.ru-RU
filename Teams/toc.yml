@@ -1033,6 +1033,8 @@ items:
         items:
           - name: Руководство по телефонной системе
             href: business-voice/whats-business-voice.md
+          - name: Переход с лицензий Business Voice на лицензии телефонной системы Microsoft Teams
+            href: business-voice-to-teams-phone-licenses.md
           - name: Доступность в странах и регионах
             href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
           - name: Проверка подключения к Интернету
@@ -1405,6 +1407,8 @@ items:
             href: rooms/standards-and-room-planner.md
           - name: 'Инциденты, о которых сообщил клиент'
             href: rooms/customer-reported-incidents.md
+          - name: Использование мобильного приложения "Комнаты Teams"
+            href: rooms/extended-mobile-app.md
       - name: Устройства
         items:
           - name: Магазин устройств Teams
