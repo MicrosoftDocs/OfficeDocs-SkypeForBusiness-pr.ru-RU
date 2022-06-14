@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Узнайте о журналах отладки, мультимедиа и рабочего стола, созданных Microsoft Teams, где их можно найти, а также о том, как они могут помочь в мониторинге и устранении неполадок.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4d8e3ab079498ecfca11a7d2ba48736aaf457329
-ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
+ms.openlocfilehash: 178e89ff91de4638f6a9ff56a4dcb935d18f6f91
+ms.sourcegitcommit: e38776625a3623216b0d5f092fffaff67519b1a6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2022
-ms.locfileid: "65059110"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66056949"
 ---
 # <a name="use-log-files-to-monitor-and-troubleshoot-microsoft-teams"></a>Использование файлов журналов для мониторинга и устранения неполадок Microsoft Teams
 
@@ -95,12 +95,16 @@ ms.locfileid: "65059110"
 -   Звонок/беседа
 
 Чтобы собрать журналы для Linux, выполните следующее.
-- Сочетание клавиш: <kbd>CtrlAltShift1</kbd> + <kbd></kbd> + <kbd></kbd> + <kbd></kbd>  
+- Сочетание клавиш: <kbd>CTRL ALT</kbd> + <kbd></kbd> + <kbd>SHIFT</kbd> + <kbd>1</kbd>  
 - Файлы будут доступны в `~/Downloads`
 
 Чтобы собрать журналы для браузера и Windows:
-- Сочетание клавиш: <kbd>CtrlAltShift1</kbd> + <kbd></kbd> + <kbd></kbd> + <kbd></kbd>  
+- Сочетание клавиш: <kbd>CTRL ALT</kbd> + <kbd></kbd> + <kbd>SHIFT</kbd> + <kbd>1</kbd>  
 - Файлы будут доступны в `%userprofile%\Downloads`
+
+Чтобы собрать журналы для Mac, выполните следующее.
+- Сочетание клавиш: <kbd>option</kbd> + <kbd>COMMAND</kbd> + <kbd>SHIFT</kbd> + <kbd>1</kbd>  
+- Файлы будут доступны в `~/Downloads`
 
 ## <a name="media-logs"></a>Журналы мультимедиа
 
@@ -153,7 +157,11 @@ ms.locfileid: "65059110"
 Чтобы собрать журналы для Linux, выполните следующее.
 - Щелкните значок Microsoft Teams в области уведомлений и выберите команду **"Получить журналы"**.
 - Файлы будут доступны в `~/.config/Microsoft/Microsoft Teams/logs.txt`.
-  
+
+Чтобы собрать журналы для Mac, выполните следующее.
+- Щелкните меню "Справка" Microsoft Teams и выберите "**Сбор файлов поддержки"**.
+- Файл `logs.txt` будет находится в папке "Рабочий стол" в папке _журнала диагностики MSTeams \<local date and time>_ .
+
 Чтобы собрать журналы для Windows:
 - Щелкните значок Microsoft Teams в области уведомлений и выберите "**Сбор файлов поддержки"**.
 - Файл `logs.txt` будет открыт в Блокнот автоматически.
