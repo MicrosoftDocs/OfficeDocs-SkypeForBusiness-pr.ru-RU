@@ -13,12 +13,12 @@ ms.collection:
 description: Узнайте о последних изменениях в Teams PowerShell.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 55b942cb3bf57c169d0f278a90e94d9792c315eb
-ms.sourcegitcommit: e8a78c24fda7e56c7b217a843a8a5f1c30aa95f6
+ms.openlocfilehash: 87f3a65821b243372dcf990071b3bf1a2eb3b484
+ms.sourcegitcommit: 39fc58109da6b4628ffb658f2c6b94099e0ab604
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2022
-ms.locfileid: "65785999"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "66103226"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Microsoft Teams о выпуске PowerShell
 
@@ -31,6 +31,7 @@ ms.locfileid: "65785999"
 
 | Дата | Версия | Обновления |
 |------- | -------------------- | ------------------------------ |
+| Июнь 2022 г. | [4.4.3-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/4.4.3-preview) |<li>Поддерживает параметр IncludeResources для Get-CsAutoAttendantStatus командлета.</li><li>Поддерживает параметр SoftDeletedUsers для Get-CsOnlineUser командлета.</li><li>Выпуски командлетов [Get\|Grant]-CsTeamsMediaLoggingPolicy.</li><li>Поддерживает необязательный параметр AuthorizedUsers для командлетов [New\|Set]-CsAutoAttendant & [New\|Set]-CsCallQueue.</li><li>Исправляет параметры командной строки для общей голосовой почты, в которых не удалось переключить тип запроса после того, как они были заданы для Set-CsCallQueue командлета.</li><li> Исправления командлетов [New\|Set]-CsOnlineSchedule для работы в формате даты и времени в Европе.</li>
 | Май 2022 г. | [4.4.1](https://www.powershellgallery.com/packages/MicrosoftTeams/4.4.1) |<li>Улучшения размера модуля.</li><li>Параметры, не поддерживаемые в обновленной версии всех командлетов, будут привести к ошибке.</li><li>Исправлена обработка ошибок для командлетов [Get\|Set]-CsOnlineDialInConferencingUser, Get-CsOnlineDialInConferencingBridge, [Get\|Set\|Register\|Unregister]-CsOnlineDialInConferencingServiceNumber & Get-CsOnlineDialInConferencingLanguagesSupported.</li><li>Не рекомендуется использовать Test-CsOnlineLisCivicAddress командлета.</li><li>Имя участника-пользователя (UPN) & GUID теперь можно использовать в качестве удостоверения в современных командлетах [Get\|Remove]-CsOnlineApplicationInstanceAssociation.</li><li> [КРИТИЧЕСКОЕ ИЗМЕНЕНИЕ] Get-CsOnlineUser- Атрибуты политики в выходных данных теперь будут иметь значение NULL, если пользователю не назначена эта политика. Эти атрибуты раньше были пустыми объектами UserPolicyDefinition в более ранних версиях (с 3.0.0 по 4.3.1).</li><li>Исправление Set-CsCallQueue разрешить значения NULL или пустого массива во входных параметрах.</li><li>Get-CsPhoneNumberAssignment — & атрибуты IsoSubdivision добавляются в выходные данные.</li>
 | Май 2022 г. | [4.3.1-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/4.3.1-preview) |<li>Улучшения размера модуля.</li><li>Параметры, не поддерживаемые в обновленной версии всех командлетов, будут привести к ошибке.</li><li>Исправлена обработка ошибок для командлетов [Get\|Set]-CsOnlineDialInConferencingUser, Get-CsOnlineDialInConferencingBridge, [Get\|Set\|Register\|Unregister]-CsOnlineDialInConferencingServiceNumber & Get-CsOnlineDialInConferencingLanguagesSupported.</li><li>Выпуск командлетов развертывания в масштабе в предварительной версии — New-CsBatchTeamsDeployment & Get-CsBatchTeamsDeploymentStatus.</li><li>Имя участника-пользователя (UPN) & GUID теперь можно использовать в качестве удостоверения в современных командлетах [Get\|Remove]-CsOnlineApplicationInstanceAssociation.</li>
 | Май 2022 г. | [4.3.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.3.0) |<li>Исправляет обработку ошибок для командлетов [Set\|Remove]-CsPhoneNumberAssignment.</li><li>[Получить\| Set\|Remove]-CsOnlineLisSubnet — исправления для параметра подсети в современных командлетах.</li><li>[Получить\| Set]-CsOnlineLisLocation & [Get\|Set]-CsOnlineLisCivicAddress — исправления поддерживаемых параметров в современных командлетах (дополнительные сведения см. в соответствующих общедоступных документациях).</li>
@@ -70,7 +71,7 @@ ms.locfileid: "65785999"
 | Март 2020 г. | [1.0.5](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.5) |<li>Добавлены New-CsBatchPolicyAssignmentOperation</li> |
 | Февраль 2020 г. | [1.0.4](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.4) | <li>Get-Team оптимизации</li>  |
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
 [Обзор PowerShell в Teams](teams-powershell-overview.md)
 
