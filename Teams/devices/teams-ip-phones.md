@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Узнайте, какие стационарные и конференции сертифицированы для Microsoft Teams для получения наилучших результатов.
-ms.openlocfilehash: a5ebc44e3fb7f4f49f97efe61cec59828b6b5e7c
-ms.sourcegitcommit: e99471689ff60f9ab1095bc075f8b4c5569c9634
+ms.openlocfilehash: 20edc2195d09d802d2812e207c7d6052195a9945
+ms.sourcegitcommit: 07abd8fdb653e57a839ded72620d0179049f25dc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/02/2022
-ms.locfileid: "65860750"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "66088555"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams сертифицированных Android устройств
 
@@ -245,6 +245,15 @@ ms.locfileid: "65860750"
 
 | Модель устройства  | Версия встроенного ПО | Включенный выпуск продукта |
 |:--------------|:-----------------|:-------------------------|
+| Logi Rallybar    | `1.6.552`         | Обновление 2 за 2022 г.    |
+| Logi Rallybar Mini | `1.6.552`       | Обновление 2 за 2022 г.   |
+| Пряная панель | `NFB1.20220512.2200` | Обновление 2 за 2022 г. |
+| Консоль сенсорного ввода с аккуратной панелью | `NFA1.20220512.2158`  |  Обновление 2 за 2022 г. |
+| Хламная доска | `NFC1.20220512.2200` |  Обновление 2 за 2022 г. |
+| Yealink MeetingBar A20 | `133.15.0.95 `   | Обновление 2 за 2022 г.  |
+| Yealink MeetingBar A30 | `133.15.0.95 `   | Обновление 2 за 2022 г.  |
+| Yealink CTP18 | `137.15.0.53`     | Обновление 2 за 2022 г.    |
+| Yealink VC210 + VC210 | `118.15.0.69`     | Обновление 2 за 2022 г.    |
 | Logi Tap Device  |  `1.5.705`   | Обновление 1 за 2022 г.    |
 | Poly Studio X30 | `3.11.0.364021`          | Обновление 1 за 2022 г.    |
 | Poly Studio X50 | `3.11.0.364021`          | Обновление 1 за 2022 г.    |
