@@ -1,79 +1,85 @@
 ### YamlMime:Hub
-title: Microsoft 365 Teams телефонная система с документацией по плану звонков
-summary: 'Узнайте, как планировать, настроить и использовать Microsoft Teams телефонная система с планом звонков в организации. Teams телефонная система с помощью плана звонков небольшие и средние организации могут легко настроить мощные и гибкие телефонные системы без затрат и сложности решений.'
+title: Microsoft 365 Teams телефонная система документации по плану звонков
+summary: Узнайте, как спланировать, настроить и использовать Телефонная система Microsoft Teams System с тарифным планом в организации. Teams телефонная система с тарифным планом позволяет небольшим и средним организациям легко настроить мощную и гибкую телефонную систему без затрат и сложности внутренних решений.
 metadata:
-  title: Microsoft Teams телефонная система с документацией по плану звонков
-  description: 'Узнайте, как планировать, развертывать и использовать Microsoft Teams телефонная система с планом звонков.'
+  title: Телефонная система Microsoft Teams system with Calling Plan documentation
+  description: Узнайте, как планировать, развертывать и использовать Телефонная система Microsoft Teams System с тарифным планом.
   ms.topic: hub-page
   author: dstrome
   ms.author: dstrome
   ms.date: 06/17/2020
+  ms.openlocfilehash: 3ddbe9ac2d6882cef72f9aa3b3bc7a5a2525e0d2
+  ms.sourcegitcommit: e38dc23e3968f55625e90c8883884045f80d22ee
+  ms.translationtype: MT
+  ms.contentlocale: ru-RU
+  ms.lasthandoff: 06/16/2022
+  ms.locfileid: "66124154"
 productDirectory:
   items:
-    - title: Обзор
-      imageSrc: 'https://docs.microsoft.com/office/media/icons/blocks-blue.svg'
-      links:
-        - url: whats-business-voice.md
-          text: Teams телефонная система с помощью руководства по плану звонков для малого и среднего бизнеса
-        - url: 'https://www.microsoft.com/microsoft-teams/microsoft-teams-phone'
-          text: Microsoft Teams Телефон
-        - url: /office365/servicedescriptions/teams-service-description
-          text: Teams описание службы
-    - title: Настройка
-      imageSrc: 'https://docs.microsoft.com/office/media/icons/deploy-blue.svg'
-      links:
-        - url: ./whats-business-voice.md#purchase-teams-phone-with-calling-plan-bundle-licenses
-          text: Как получить Teams телефонная система с помощью плана звонков
-        - url: get-ready-internet.md
-          text: Проверка подключения к Интернету
-        - url: prepare-users.md
-          text: Подготовка пользователей
-        - url: set-up-overview.md
-          text: Настройка Teams телефонная система с помощью плана звонков
-    - title: Настройка установки
-      imageSrc: 'https://docs.microsoft.com/office/media/icons/migration-blue.svg'
-      links:
-        - url: port-phone-numbers.md
-          text: Перенос существующих телефонных номеров
-        - url: ./create-a-phone-system-auto-attendant-smb.md
-          text: Настройка автосекретарей
-        - url: set-up-policies.md
-          text: Настройка политик
-        - url: ./create-a-phone-system-call-queue-smb.md
-          text: Настройка очередей звонков
-    - title: Использование
-      imageSrc: 'https://docs.microsoft.com/office/media/icons/get-started-blue.svg'
-      links:
-        - url: create-users.md
-          text: Создание дополнительных пользователей
-        - url: manage-devices.md
-          text: Управление устройствами
-        - url: monitor-quality.md
-          text: Отслеживание качества звонка
-        - url: analytics-dashboard.md
-          text: Панель мониторинга качества аналитики звонков
-    - title: Ресурсы для партнеров
-      imageSrc: 'https://docs.microsoft.com/office/media/icons/success-blue.svg'
-      links:
-        - url: /partner-center/
-          text: Получение Microsoft 365 бизнес в Центре партнеров
-        - url: 'https://cloudpartners.transform.microsoft.com/products/m365-business-voice-partner-playbook'
-          text: Microsoft 365 Teams телефонная система с книгой партнера по плану звонков
-    - title: Нужна помощь?
-      imageSrc: 'https://docs.microsoft.com/office/media/icons/users-people.svg'
-      links:
-        - url: 'https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b'
-          text: Обращение в службу поддержки Microsoft 365 или Office 365
-        - url: 'https://techcommunity.microsoft.com/t5/Small-and-Medium-Businesses/ct-p/SMB'
-          text: Техническое сообщество для малого и среднего бизнеса
-    - title: Справочная документация
-      imageSrc: 'https://docs.microsoft.com/office/media/icons/chat.svg'
-      links:
-        - url: ../cloud-voice-landing-page.md
-          text: Документы для администраторов Microsoft Teams
-        - url: 'https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472'
-          text: Microsoft Teams обратной связи
-        - url: 'https://support.office.com/teams'
-          text: Документы по клиентам Microsoft Teams
-        - url: /office365/admin/
-          text: Документы для администратора Microsoft 365 и Office 365
+  - title: Обзор
+    imageSrc: https://docs.microsoft.com/office/media/icons/blocks-blue.svg
+    links:
+    - url: whats-business-voice.md
+      text: Teams телефонная система с рекомендациями по тарифным планам для малого и среднего бизнеса
+    - url: https://www.microsoft.com/microsoft-teams/microsoft-teams-phone
+      text: Телефонная система Microsoft Teams
+    - url: /office365/servicedescriptions/teams-service-description
+      text: Teams службы
+  - title: Настройка
+    imageSrc: https://docs.microsoft.com/office/media/icons/deploy-blue.svg
+    links:
+    - url: ./whats-business-voice.md#how-do-i-purchase-teams-phone-with-calling-plan-bundle-licenses
+      text: Как получить Teams телефонная система с тарифным планом
+    - url: get-ready-internet.md
+      text: Проверка подключения к Интернету
+    - url: prepare-users.md
+      text: Подготовка пользователей
+    - url: set-up-overview.md
+      text: Настройка Teams телефонная система с тарифным планом
+  - title: Настройка установки
+    imageSrc: https://docs.microsoft.com/office/media/icons/migration-blue.svg
+    links:
+    - url: port-phone-numbers.md
+      text: Перенос существующих телефонных номеров
+    - url: ./set-up-auto-attendant.md
+      text: Настройка автосекретарей
+    - url: set-up-policies.md
+      text: Настройка политик
+    - url: ./create-a-phone-system-call-queue-smb.md
+      text: Настройка очередей звонков
+  - title: Использование
+    imageSrc: https://docs.microsoft.com/office/media/icons/get-started-blue.svg
+    links:
+    - url: create-users.md
+      text: Создание дополнительных пользователей
+    - url: manage-devices.md
+      text: Управление устройствами
+    - url: monitor-quality.md
+      text: Отслеживание качества звонка
+    - url: analytics-dashboard.md
+      text: Панель мониторинга качества аналитики звонков
+  - title: Ресурсы для партнеров
+    imageSrc: https://docs.microsoft.com/office/media/icons/success-blue.svg
+    links:
+    - url: /partner-center/
+      text: Получение Microsoft 365 бизнес в Центре партнеров
+    - url: https://cloudpartners.transform.microsoft.com/products/m365-business-voice-partner-playbook
+      text: Microsoft 365 Teams телефонная система с сборником схем партнера плана звонков
+  - title: Нужна помощь?
+    imageSrc: https://docs.microsoft.com/office/media/icons/users-people.svg
+    links:
+    - url: https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b
+      text: Обращение в службу поддержки Microsoft 365 или Office 365
+    - url: https://techcommunity.microsoft.com/t5/Small-and-Medium-Businesses/ct-p/SMB
+      text: Техническое сообщество для малого и среднего бизнеса
+  - title: Справочная документация
+    imageSrc: https://docs.microsoft.com/office/media/icons/chat.svg
+    links:
+    - url: ../cloud-voice-landing-page.md
+      text: Документы для администраторов Microsoft Teams
+    - url: https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472
+      text: Microsoft Teams обратной связи
+    - url: https://support.office.com/teams
+      text: Документы по клиентам Microsoft Teams
+    - url: /office365/admin/
+      text: Документы для администратора Microsoft 365 и Office 365
