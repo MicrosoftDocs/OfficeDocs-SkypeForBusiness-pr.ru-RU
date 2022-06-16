@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 03a2501236cd8dfa708790e49719d8103a187783
-ms.sourcegitcommit: 5640e8264b61c1f8cf8eb212315eeba1a794e494
+ms.openlocfilehash: 1b7ae345e3d3d94d93bb7ccc0eeb5f284296c2d5
+ms.sourcegitcommit: 39fc58109da6b4628ffb658f2c6b94099e0ab604
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/07/2022
-ms.locfileid: "65928832"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "66103266"
 ---
 # <a name="use-the-teams-meeting-add-in-in-outlook"></a>Использование надстройки "Собрание Teams" в Outlook
 
@@ -46,7 +46,7 @@ ms.locfileid: "65928832"
 > - Разрешение пользователя на выполнение файла Regsvr32.exe является минимальным требованием для установки надстройки Совещания групп на компьютере.
 > - Если надстройка "Собрание Teams" не отображается, попросите пользователей закрыть Outlook и Microsoft Teams, затем перезапустить клиент Microsoft Teams, войти в него и перезапустить клиент Outlook (именно в таком порядке).
 > - Если вы используете установку Office Outlook из Microsoft Store, надстройка Совещания команд не поддерживается. Пользователям, которым требуется эта надстройка, рекомендуется установить версию Office "нажми и работай", как описано в статье [Office для Windows 10 в режиме S](https://support.office.com/article/faq-office-on-windows-10-in-s-mode-717193b5-ff9f-4388-84c0-277ddf07fe3f).
-> - Для надстройки Teams Meeting, встроенных параметров собрания потребуется установка [Webview2](/microsoft-edge/webview2/concepts/distribution). Если WebView2 не установлен, пользователи будут перенаправлены в браузер, что может привести к ухудшению работы, особенно во время создания собрания.
+> - Установка [Webview2](/microsoft-edge/webview2/concepts/distribution) и .Net 4.8 необходима, чтобы избежать снижения производительности надстройки Teams Meeting.
 
 ## <a name="teams-meeting-add-in-in-outlook-for-mac"></a>Надстройка "Собрание Teams" в Outlook для Mac
 
