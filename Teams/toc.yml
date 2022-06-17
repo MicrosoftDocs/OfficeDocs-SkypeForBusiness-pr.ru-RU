@@ -805,11 +805,13 @@ items:
                 href: more-about-calling-line-id-and-calling-party-name.md
           - name: Автосекретари и очереди вызовов
             items:
-              - name: Планирование
+              - name: Планирование автосекретарей и очередей звонков
                 href: plan-auto-attendant-call-queue.md
-              - name: Настройка автосекретаря
+              - name: Планирование потока маршрутизации звонков
+                href: plan-your-call-routing-flow.md
+              - name: Настроить автосекретарей
                 href: create-a-phone-system-auto-attendant.md
-              - name: Настройка очереди вызовов
+              - name: Настроить очереди вызовов
                 href: create-a-phone-system-call-queue.md
               - name: Управление учетными записями ресурсов Teams
                 href: manage-resource-accounts.md
@@ -819,6 +821,8 @@ items:
                 href: answer-auto-attendant-and-call-queue-calls.md
               - name: Отчеты
                 href: aa-cq-cqd-historical-reports.md
+              - name: Справочник по cmdlet PowerShell для автосекретарей и очередей звонков
+                href: call-queue-auto-attendant-cmdlets.md
               - name: Справочник набора номера и голосовых вызовов
                 href: dial-voice-reference.md
           - name: Блокировка входящих звонков
@@ -1056,7 +1060,7 @@ items:
               - name: Шаг 5. Назначение номеров телефонов пользователям
                 href: business-voice/set-up-assign-numbers.md
               - name: Шаг 6. Настройка автосекретаря
-                href: business-voice/set-up-auto-attendant.md
+                href: create-a-phone-system-auto-attendant.md
               - name: Шаг 7. Перенос номеров телефонов (необязательно)
                 href: business-voice/port-phone-numbers.md
               - name: Ресурсы после настройки
@@ -1072,13 +1076,9 @@ items:
               - name: Создание дополнительных пользователей
                 href: business-voice/create-users.md
               - name: Настройка очереди вызовов
-                href: business-voice/create-a-phone-system-call-queue-smb.md
-              - name: Настройка автосекретаря
-                href: business-voice/create-a-phone-system-auto-attendant-smb.md
+                href: create-a-phone-system-call-queue.md
           - name: Управление настройкой телефонной системы
             items:
-              - name: Создание одного или нескольких пользователей
-                href: business-voice/create-users.md
               - name: Управление устройствами
                 href: business-voice/manage-devices.md
               - name: Отслеживание качества звонка
@@ -1793,7 +1793,7 @@ items:
             href: teams-add-on-licensing/advanced-communications.md
           - name: Лицензирование политик обмена сообщениями
             href: teams-add-on-licensing/pri-message.md
-          - name: Телефонная система Microsoft 365 — лицензия виртуального пользователя
+          - name: Лицензия "Телефонная система Microsoft Teams — виртуальный пользователь"
             href: teams-add-on-licensing/virtual-user.md
           - name: Начало работы с Teams базовый
             href: get-started-with-teams-essentials.md
