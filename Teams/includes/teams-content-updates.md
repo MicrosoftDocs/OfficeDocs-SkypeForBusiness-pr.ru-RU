@@ -3,13 +3,45 @@
 
 
 
+## <a name="week-of-june-13-2022"></a>Неделя с 13 июня 2022 г.
+
+
+| Дата публикации |Название статьи | Изменение |
+|------|------------|--------|
+| 6/13/2022 | [Создание очереди вызовов в Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | Изменено |
+| 6/13/2022 | [Используйте Power BI для анализа данных CQD для Microsoft Teams](/MicrosoftTeams/cqd-power-bi-query-templates) | Изменено |
+| 6/13/2022 | [Переход с корпоративной голосовой связи на Teams Телефон лицензий](/MicrosoftTeams/business-voice-to-teams-phone-licenses) | Изменено |
+| 6/13/2022 | [Использование файлов журналов для устранения неполадок в Microsoft Teams](/MicrosoftTeams/log-files) | Изменено |
+| 6/13/2022 | [Данные и сведения о конфиденциальности](/MicrosoftTeams/rooms/data-and-privacy-info) | Изменено |
+| 6/13/2022 | [Комнаты Microsoft Teams обновления](/MicrosoftTeams/rooms/update-management) | Изменено |
+| 6/15/2022 | [Teams PowerShell — поддерживаемые версии](/MicrosoftTeams/teams-powershell-supported-versions) | Изменено |
+| 6/16/2022 | [Справочник по командлетам PowerShell для автосекретарей и очередей звонков](/MicrosoftTeams/call-queue-auto-attendant-cmdlets) | Добавлено |
+| 6/16/2022 | [Планирование потока маршрутизации звонков для Microsoft Teams](/MicrosoftTeams/plan-your-call-routing-flow) | Добавлено |
+| 6/16/2022 | [Разрешения и рекомендации для приложений Microsoft Teams](/MicrosoftTeams/app-permissions) | Изменено |
+| 6/16/2022 | [Назначение, изменение и удаление номера телефона пользователя](/MicrosoftTeams/assign-change-or-remove-a-phone-number-for-a-user) | Изменено |
+| 6/16/2022 | Руководство по настройке автосекретаря для Microsoft Teams для малого бизнеса | Удалено |
+| 6/16/2022 | Создание очереди вызовов в Телефонная система Microsoft Teams — руководство по малому бизнесу | Удалено |
+| 6/16/2022 | [Назначение Teams телефонная система номеров телефонов пользователям](/MicrosoftTeams/business-voice/set-up-assign-numbers) | Изменено |
+| 6/16/2022 | Настройка автосекретаря для основного номера телефона вашей компании | Удалено |
+| 6/16/2022 | [Настройка учетной записи Телефонная система Microsoft Teams system](/MicrosoftTeams/business-voice/set-up-resource-account) | Изменено |
+| 6/16/2022 | [Teams телефонная система для малого и среднего бизнеса](/MicrosoftTeams/business-voice/whats-business-voice) | Изменено |
+| 6/16/2022 | [Настройка автосекретаря для Microsoft Teams](/MicrosoftTeams/create-a-phone-system-auto-attendant) | Изменено |
+| 6/16/2022 | [Создание очереди вызовов в Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | Изменено |
+| 6/16/2022 | [Изменение внешнего вида приложений в магазине Teams организации](/MicrosoftTeams/customize-apps) | Изменено |
+| 6/16/2022 | [Справочник по автосекретарю и очереди звонков и распознаванию речи](/MicrosoftTeams/dial-voice-reference) | Изменено |
+| 6/16/2022 | [Управление учетными записями ресурсов в Teams](/MicrosoftTeams/manage-resource-accounts) | Изменено |
+| 6/16/2022 | [Планирование Teams автосекретарей и очередей звонков](/MicrosoftTeams/plan-auto-attendant-call-queue) | Изменено |
+| 6/16/2022 | [Отправка пользовательских приложений в Microsoft Teams администрирования](/MicrosoftTeams/upload-custom-apps) | Изменено |
+| 6/16/2022 | [Управление политиками собраний для участников и гостей](/MicrosoftTeams/meeting-policies-participants-and-guests) | Изменено |
+
+
 ## <a name="week-of-june-06-2022"></a>Неделя с 6 июня 2022 г.
 
 
 | Дата публикации |Название статьи | Изменение |
 |------|------------|--------|
 | 6/6/2022 | [Управление доступом к Teams приложениям в Microsoft 365](/MicrosoftTeams/manage-third-party-teams-apps) | Изменено |
-| 6/7/2022 | [Управление приложением "Обновления" для организации](/MicrosoftTeams/manage-updates-app) | Изменено |
+| 6/7/2022 | [Управление приложением Актуальные данные для организации](/MicrosoftTeams/manage-updates-app) | Изменено |
 | 6/7/2022 | [Развертывание команд в большом масштабе для сотрудников без компьютеров в Microsoft Teams](/MicrosoftTeams/deploy-teams-at-scale) | Добавлено |
 | 6/8/2022 | [Включение Комнаты Teams устройств для присоединения к сторонним собраниям](/MicrosoftTeams/rooms/third-party-join) | Изменено |
 | 6/9/2022 | [Teams приложения на основе типов пользователей](/MicrosoftTeams/non-standard-users) | Изменено |
@@ -27,7 +59,7 @@
 
 | Дата публикации |Название статьи | Изменение |
 |------|------------|--------|
-| 5/31/2022 | [Управление приложением "Обновления" для организации](/MicrosoftTeams/manage-updates-app) | Добавлено |
+| 5/31/2022 | [Управление приложением Актуальные данные для организации](/MicrosoftTeams/manage-updates-app) | Добавлено |
 | 5/31/2022 | [Настройка магазина приложений в Teams](/MicrosoftTeams/customize-your-app-store) | Изменено |
 | 5/31/2022 | [Управление политиками разрешений для приложений в Microsoft Teams](/MicrosoftTeams/teams-app-permission-policies) | Изменено |
 | 5/31/2022 | [Общие каналы в Microsoft Teams](/MicrosoftTeams/shared-channels) | Изменено |
@@ -37,7 +69,7 @@
 | 6/1/2022 | [Создание очереди вызовов в Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | Изменено |
 | 6/2/2022 | [Требования к оборудованию для Microsoft Teams](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | Изменено |
 | 6/2/2022 | [Ограничения для специальных знаков в политиках Teams](/MicrosoftTeams/special-character-restrictions-in-policy-names) | Изменено |
-| 6/2/2022 | [Настройка родительских элементов в Teams для образования](/MicrosoftTeams/edu-parents-app) | Изменено |
+| 6/2/2022 | [Администратор родительских элементов в Teams для образования](/MicrosoftTeams/edu-parents-app) | Изменено |
 | 6/3/2022 | [Microsoft Teams отчете о виртуальных Встречи соединителя EHR](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin-reports) | Изменено |
 
 
@@ -77,7 +109,7 @@
 | 5/25/2022 | [Учетные записи пользователей в гибридной среде с ТСОП](/MicrosoftTeams/direct-routing-user-accounts-in-a-hybrid-environment) | Изменено |
 | 5/25/2022 | [Проведение исследования содержимого при обнаружении электронных данных](/MicrosoftTeams/ediscovery-investigation) | Изменено |
 | 5/25/2022 | [Teams для образования политики для простого применения политик для безопасного обучения](/MicrosoftTeams/easy-policy-setup-edu) | Изменено |
-| 5/25/2022 | [Настройка родительских элементов в Teams для образования](/MicrosoftTeams/edu-parents-app) | Изменено |
+| 5/25/2022 | [Администратор родительских элементов в Teams для образования](/MicrosoftTeams/edu-parents-app) | Изменено |
 | 5/25/2022 | [Синхронизация сведений системы данных об учащихся (SIS) с помощью Insights для образования](/MicrosoftTeams/education-insights-sis-data-sync) | Изменено |
 | 5/25/2022 | [Задания в Teams](/MicrosoftTeams/expand-teams-across-your-org/assignments-in-teams) | Изменено |
 | 5/25/2022 | [Подключение shifts к Blue Yonder Workforce Management с помощью PowerShell](/MicrosoftTeams/expand-teams-across-your-org/shifts/shifts-connector-blue-yonder-powershell-setup) | Изменено |
@@ -153,22 +185,3 @@
 | 5/20/2022 | [Управление политиками маршрутизации экстренных вызовов для прямой маршрутизации](/MicrosoftTeams/manage-emergency-call-routing-policies) | Изменено |
 | 5/20/2022 | [Управление политиками экстренных вызовов в Microsoft Teams](/MicrosoftTeams/manage-emergency-calling-policies) | Изменено |
 | 5/20/2022 | [Microsoft Teams о выпуске PowerShell](/MicrosoftTeams/teams-powershell-release-notes) | Изменено |
-
-
-## <a name="week-of-may-09-2022"></a>Неделя с 9 мая 2022 г.
-
-
-| Дата публикации |Название статьи | Изменение |
-|------|------------|--------|
-| 5/9/2022 | [Включение прямой маршрутизации для пользователей](/MicrosoftTeams/direct-routing-enable-users) | Изменено |
-| 5/9/2022 | [Настройка Operator Connect](/MicrosoftTeams/operator-connect-configure) | Изменено |
-| 5/9/2022 | [Назначение политик в Teams](/MicrosoftTeams/policy-assignment-overview) | Изменено |
-| 5/9/2022 | [Отчет об & очереди вызовов автосекретаря](/MicrosoftTeams/aa-cq-cqd-historical-reports) | Изменено |
-| 5/10/2022 | [Планирование маршрутизации на основе расположения для прямой маршрутизации](/MicrosoftTeams/location-based-routing-plan) | Изменено |
-| 5/10/2022 | [Политики звонков в Microsoft Teams: функции звонков и переадресации звонков](/MicrosoftTeams/teams-calling-policy) | Изменено |
-| 5/10/2022 | [Комнаты Microsoft Teams версии приложения](/MicrosoftTeams/rooms/rooms-lifecycle-support) | Изменено |
-| 5/12/2022 | [Управление политиками голосовой почты](/MicrosoftTeams/manage-voicemail-policies) | Изменено |
-| 5/12/2022 | [Настройка шлюза SIP](/MicrosoftTeams/sip-gateway-configure) | Изменено |
-| 5/12/2022 | [Настройка родительских элементов в Teams для образования](/MicrosoftTeams/edu-parents-app) | Изменено |
-| 5/13/2022 | [Приложение "Рация" в Microsoft Teams](/MicrosoftTeams/walkie-talkie) | Изменено |
-| 5/13/2022 | [Требования к комнатам Microsoft Teams](/MicrosoftTeams/rooms/requirements) | Изменено |
