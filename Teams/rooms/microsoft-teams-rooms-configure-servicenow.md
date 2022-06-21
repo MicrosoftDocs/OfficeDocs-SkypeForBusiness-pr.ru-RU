@@ -1,9 +1,9 @@
 ---
 title: Настройка ServiceNow для Комнаты Teams
-author: dstrome
-ms.author: dstrome
+author: donnah007
+ms.author: v-donnahill
 manager: serdars
-ms.reviewer: ''
+ms.reviewer: ronmart
 ms.topic: article
 ms.service: msteams
 audience: Admin
@@ -12,18 +12,21 @@ appliesto:
 localization_priority: Normal
 description: Сведения о настройке ServiceNow на Комнаты Teams Premium портале
 f1keywords: ''
-ms.openlocfilehash: c11a4e3cf4f128c8043ad2451f7d0a7a2ffe1c2e
-ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
+ms.openlocfilehash: 6362d0bed4263ce374c1fb5cfd05d4d8815044c2
+ms.sourcegitcommit: 5bb00d639828c744951a39705fefe81ed6698efe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "65761501"
+ms.lasthandoff: 06/20/2022
+ms.locfileid: "66167313"
 ---
 # <a name="configure-servicenow-for-teams-rooms"></a>Настройка ServiceNow для Комнаты Teams
 
 В этой статье описываются предварительные требования и действия по настройке среды ServiceNow на Комнаты Teams Premium портале.
 
-## <a name="before-you-begin"></a>Подготовка к работе
+## <a name="watch-microsoft-teams-rooms--managed-services-service-now-integration"></a>Контрольные значения: Комнаты Microsoft Teams — интеграция управляемой службы
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4ZK4B]
+
 
 ### <a name="teams-rooms-prerequisites"></a>Комнаты Teams предварительные требования
 
@@ -31,7 +34,7 @@ ms.locfileid: "65761501"
 
 ### <a name="servicenow-prerequisites"></a>Предварительные требования ServiceNow
 
-- Вход с обычной авторизацией или [вход OAuth](https://docs.servicenow.com/bundle/rome-platform-administration/page/administer/security/concept/c_OAuthApplications.html). Дополнительные сведения см. [в разделе "Создание учетных данных](https://developer.servicenow.com/dev.do#!/learn/learning-plans/rome/servicenow_application_developer/app_store_learnv2_rest_rome_creating_credentials) в ServiceNow".
+- Вход с обычной авторизацией или [вход OAuth](https://docs.servicenow.com/bundle/rome-platform-administration/page/administer/security/concept/c_OAuthApplications.html) . Дополнительные сведения см. [в разделе "Создание учетных данных](https://developer.servicenow.com/dev.do#!/learn/learning-plans/rome/servicenow_application_developer/app_store_learnv2_rest_rome_creating_credentials) в ServiceNow".
 - Экземпляр ServiceNow, имя узла экземпляра и URI API
 - Роль incident_manager выше
 - Версия программного обеспечения ServiceNow, которая поддерживает API таблиц
@@ -74,7 +77,7 @@ ms.locfileid: "65761501"
 
 - **описание**: поле описания в ServiceNow — это первое значение в журнале беседы об инциденте ServiceNow. Описание эквивалентно первому сообщению на Комнаты Teams Premium портале.
 
-- **assignment_group**. Поле группы назначений в ServiceNow используется для организации инцидентов. Группа назначений эквивалентна группам комнат на Комнаты Teams Premium портале. По умолчанию существует одна группа помещений, и можно добавить еще несколько комнат. Вы решаете, сколько групп существует и как группировать инциденты. Например, можно упорядочить инциденты по расположению.
+- **assignment_group**. Поле группы назначений в ServiceNow используется для организации инцидентов. Группы назначений эквивалентны группам комнат на Комнаты Teams Premium портале. По умолчанию существует одна группа помещений, и можно добавить еще несколько комнат. Вы решаете, сколько групп существует и как группировать инциденты. Например, можно упорядочить инциденты по расположению.
 
 - **серьезность**. Поле серьезности в ServiceNow используется для упорядочения инцидентов по приоритету. Значения, которые обозначают приоритет, можно настраивать. Серьезность эквивалентна полю "Круг" на Комнаты Teams Premium портале. Чтобы настроить круги на Комнаты Teams Premium портале, перейдите к **разделу "** Обновления" в меню навигации слева. Затем перейдите на вкладку **"Круги** " и выберите " **Добавить кольцо"**.
 
