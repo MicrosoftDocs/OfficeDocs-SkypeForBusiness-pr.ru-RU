@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Узнайте, как отправить пользовательские приложения в магазин приложений вашей организации в Microsoft Teams администрирования.
-ms.openlocfilehash: 33f2a1234c041029b44f63f42f224784cc487fdc
-ms.sourcegitcommit: e38dc23e3968f55625e90c8883884045f80d22ee
+ms.openlocfilehash: 01a74422ef5bc1f9c63c6ea1c7ecf2e05cc377a4
+ms.sourcegitcommit: 9946c6c1faa78617ccd7bdf115457090ebce5619
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/16/2022
-ms.locfileid: "66124354"
+ms.lasthandoff: 06/21/2022
+ms.locfileid: "66190359"
 ---
 # <a name="publish-a-custom-app-by-uploading-an-app-package"></a>Публикация пользовательского приложения путем отправки пакета приложения
 
@@ -41,7 +41,7 @@ ms.locfileid: "66124354"
 
 ### <a name="get-the-app-package"></a>Получение пакета приложения
 
-Когда приложение будет готово к использованию в рабочей среде, разработчик создаст пакет приложения. Для этого они [могут использовать App Studio](/microsoftteams/platform/concepts/build-and-test/app-studio-overview) . Они отправит вам файл в .zip формате.
+Когда приложение будет готово к использованию в рабочей среде, разработчик должен создать пакет приложения. Они могут использовать [App Studio](/microsoftteams/platform/concepts/build-and-test/app-studio-overview). Они отправит вам файл в .zip формате.
 
 Все приложения в Teams store проходят обязательную проверку приложения в [](overview-of-app-validation.md) соответствии со стандартами качества и безопасности глобального Teams приложений. Кроме того, корпорация Майкрософт настоятельно рекомендует разработчикам приложений участвовать в необязательной программе соответствия [](overview-of-app-certification.md) требованиям приложений, которая указывает на расширенные средства контроля соответствия требованиям, безопасности и конфиденциальности. Дополнительные сведения см[. в Teams руководств по проверке приложений](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/teams-store-validation-guidelines).
 

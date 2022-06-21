@@ -13,16 +13,16 @@ ms.reviewer: vaibhava
 search.appverid: MET150
 f1keywords:
 - ms.teamsadmincenter.manageapps.overview
-description: Узнайте, как управлять приложениями Teams на странице "Управление приложениями" Microsoft Teams центра администрирования.
+description: Узнайте, как управлять Teams приложениями. Узнайте, как разрешить или заблокировать приложения, проверить состояние и свойства приложения на уровне организации, отправить пользовательские приложения и управлять параметрами приложения.
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: b73041f85abceeaa7eb6817fea040bd1912ba961
-ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
+ms.openlocfilehash: 8ff77c528f51fa1c3cf21e0fce636a664291d3ce
+ms.sourcegitcommit: 9946c6c1faa78617ccd7bdf115457090ebce5619
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66045978"
+ms.lasthandoff: 06/21/2022
+ms.locfileid: "66190520"
 ---
 # <a name="manage-teams-apps-in-the-microsoft-teams-admin-center"></a>Управление Teams приложениями в Microsoft Teams администрирования
 

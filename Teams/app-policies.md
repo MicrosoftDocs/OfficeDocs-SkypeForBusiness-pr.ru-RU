@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: ''
 search.appverid: ''
-description: Сведения о политиках в Teams приложения.
+description: Сведения о политиках разрешений приложений, политиках установки приложений и настраиваемых политиках приложений, используемых для управления приложениями в Microsoft Teams.
 audience: admin
 ms.localizationpriority: medium
 MS.collection:
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 95adb8d95f003dc85596a55b16af594be828a1c2
-ms.sourcegitcommit: 06d1c50c9b55b062d61844a856676d9837fd5abe
+ms.openlocfilehash: bea917ef962d0ba6af80a04c375a95d70bf0dec7
+ms.sourcegitcommit: 9946c6c1faa78617ccd7bdf115457090ebce5619
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "65030885"
+ms.lasthandoff: 06/21/2022
+ms.locfileid: "66190339"
 ---
 # <a name="overview-of-app-policies-used-to-manage-apps-in-microsoft-teams"></a>Общие сведения о политиках приложений, используемых для управления приложениями в Microsoft Teams
 

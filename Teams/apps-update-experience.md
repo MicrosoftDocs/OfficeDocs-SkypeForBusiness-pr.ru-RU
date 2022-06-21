@@ -17,13 +17,13 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Узнайте, как обновлять приложения в Microsoft Teams.
-ms.openlocfilehash: 7139fb1f1788ff0e9fe093a17fbe08842f47bfd9
-ms.sourcegitcommit: b8098d6ea36f10ee3a630a230ebd84bc2d96e37a
+description: Из этой статьи вы узнаете, как обновляются приложения Майкрософт, пользовательские приложения и сторонние приложения в Microsoft Teams приложениях.
+ms.openlocfilehash: cf4a062cd035feb0850a64c49a4c2363de0badce
+ms.sourcegitcommit: 9946c6c1faa78617ccd7bdf115457090ebce5619
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2022
-ms.locfileid: "65780615"
+ms.lasthandoff: 06/21/2022
+ms.locfileid: "66190319"
 ---
 # <a name="update-apps-in-microsoft-teams"></a>Обновление приложений в Microsoft Teams
 
