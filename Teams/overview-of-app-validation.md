@@ -1,7 +1,7 @@
 ---
 title: Общие сведения о проверке и тестировании приложений корпорацией Майкрософт
 ms.reviewer: ''
-description: Сведения о проверках качества и проверке приложений, выполняемых для приложений Teams.
+description: Сведения о рекомендациях по проверке приложений Teams на основе политик сертификации Marketplace. Способы обеспечения соответствия высоким стандартам конфиденциальности и безопасности приложений Teams корпорацией Майкрософт.
 ms.topic: article
 author: guptaashish
 ms.author: guptaashish
@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a916d6bdd57c2956c076461d7f36df64d5c503d9
-ms.sourcegitcommit: 745d707ec63685ce7f973785e7056628472b9c45
+ms.openlocfilehash: 8172db3e67ad895427e90ed3821e1c6fb61f5df9
+ms.sourcegitcommit: 9946c6c1faa78617ccd7bdf115457090ebce5619
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "64910905"
+ms.lasthandoff: 06/21/2022
+ms.locfileid: "66190488"
 ---
 # <a name="validation-performed-by-microsoft-for-all-teams-apps"></a>Проверка, выполняемая корпорацией Майкрософт для всех приложений Teams
 
