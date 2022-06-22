@@ -1487,7 +1487,7 @@ items:
             href: rooms/with-skype-for-business-server-2015.md
   - name: Управление приложениями
     items:
-      - name: Обзор
+      - name: Общие сведения о приложениях в Teams
         href: deploy-apps-microsoft-teams-landing-page.md
       - name: 'Управление приложениями, предоставленными корпорацией Майкрософт'
         items:
@@ -1513,7 +1513,7 @@ items:
             href: overview-of-app-validation.md
           - name: 'Безопасность, соответствие требованиям и конфиденциальность сторонних приложений'
             href: overview-of-app-certification.md
-          - name: Использование Microsoft 365 или Office 365 и настраиваемых соединителей
+          - name: Управление Microsoft 365 и настраиваемыми соединителями
             href: Office-365-custom-connectors.md
           - name: Приобретение сторонних приложений для Teams
             href: purchase-third-party-apps.md
@@ -1533,7 +1533,7 @@ items:
             href: customize-your-app-store.md
       - name: Элементы управления администратора для управления приложениями
         items:
-          - name: Обзор управления приложениями для администраторов
+          - name: Обзор управления приложениями
             href: manage-apps.md
           - name: Политики приложений
             items:
@@ -1547,7 +1547,7 @@ items:
                 href: teams-custom-app-policies-and-settings.md
           - name: Настройка приложения Teams для сотрудников без компьютеров
             href: pin-teams-apps-based-on-license.md
-          - name: О разрешениях Azure AD и согласии администратора
+          - name: Разрешения Graph и согласие администратора в Azure AD
             href: app-permissions-admin-center.md
           - name: Управление связанным с конкретными ресурсами согласием для вашей организации
             href: resource-specific-consent.md
@@ -1555,11 +1555,11 @@ items:
             href: app-permissions.md
           - name: Поведение приложений в зависимости от типов пользователей
             href: non-standard-users.md
-          - name: 'Обновление приложений до новых версий, выполняемое конечными пользователями'
+          - name: Обновления приложений и роль администратора
             href: apps-update-experience.md
           - name: Управление доступом к приложениям Teams в Microsoft 365
             href: manage-third-party-teams-apps.md
-      - name: Отчет об использовании приложения
+      - name: Отчет об использовании приложения и аналитика
         href: teams-analytics-and-reports/app-usage-report.md
   - name: Руководство для отраслей и государственных организаций
     items:
