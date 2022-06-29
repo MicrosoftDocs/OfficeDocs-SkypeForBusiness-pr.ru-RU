@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Узнайте о требованиях к поддержке Комнаты Microsoft Teams, включая выбор соответствующего устройства, микрофонов, динамиков, камер и дисплеев.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f3bdfc24344f481a2846790ae13b6c964c69d4c2
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: 3b725dc6a39ac777e7f15e3fbf2e4389b5f4333b
+ms.sourcegitcommit: bdb919a6f53556f76dd4a71759412023e6e18fbb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 06/29/2022
-ms.locfileid: "66241028"
+ms.locfileid: "66529721"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Требования к комнатам Microsoft Teams
 
@@ -90,6 +90,8 @@ ms.locfileid: "66241028"
   |Консоль Logitech TAP с Lenovo Core Compute |Core i5|8 ГБ|128 ГБ|
   |[Logitech Tap и Lenovo ThinkSmart Tiny](https://www.logitech.com/video-collaboration/partners/lenovo.html)|Core i5|8 ГБ |128 ГБ|
   |[Poly G10-T с Lenovo ThinkSmart Tiny](https://www.poly.com/us/en/products/video-conferencing/g/g10) |Core i5| 8 ГБ | 128 ГБ|
+  |[Poly G40-T Kit с Poly Studio USB и Lenovo](https://www.poly.com/us/en/support/products/video-conferencing/poly-room-solutions/g40) |Core i5| 8 ГБ | 128 ГБ|
+  |[Poly G85-T Kit с Poly Quantum Eye Director II и Lenovo](https://www.poly.com/us/en/support/products/video-conferencing/poly-room-solutions/g85) |Core i5| 8 ГБ | 128 ГБ|
   |Консоль Poly GC8 с Lenovo Thinksmart Core|Core i5|8 ГБ|128 ГБ|
   |Консоль Poly GC8 с Dell Optiplex 7080|Core i5|8 ГБ|128 ГБ|
   |[Yealink MVC300 с Intel NUC](https://www.yealink.com/products_154.html)|Core i5|8 ГБ |128 ГБ |
