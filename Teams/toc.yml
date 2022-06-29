@@ -637,6 +637,8 @@ items:
                 href: set-up-the-call-me-feature-for-your-users.md
               - name: Получение отчета о присутствии на собрании
                 href: teams-analytics-and-reports/meeting-attendance-report.md
+              - name: Управление сеансами вопросов и ответов на собрания Teams
+                href: manage-qna-for-teams.md
               - name: Управление Доской в Teams
                 href: manage-whiteboard.md
               - name: Настройка надстройки "Собрание Teams" для рабочей области Google
@@ -785,10 +787,12 @@ items:
             href: set-up-common-area-phones.md
           - name: Голосовая почта
             items:
-              - name: Настройка облачной голосовой почты
+              - name: Управление облачной голосовой почтой
                 href: set-up-phone-system-voicemail.md
               - name: Управление политиками голосовой почты
                 href: manage-voicemail-policies.md
+              - name: Управление параметрами голосовой почты
+                href: manage-voicemail-settings.md
               - name: Изменение языка по умолчанию для голосовой почты
                 href: change-the-default-language-for-greetings-and-emails.md
               - name: Языки для приветствий и сообщений голосовой почты
@@ -1618,7 +1622,7 @@ items:
             href: easy-policy-setup-edu.md
           - name: Связь с родителями в Teams для образования
             href: edu-parents-app.md
-          - name: Приложение "Профконсультант" в Teams для образования
+          - name: '"Профконсультант" в Teams для образования'
             href: career-coach.md
           - name: Контроль чатов в Teams
             href: supervise-chats-edu.md
@@ -1658,8 +1662,8 @@ items:
             href: flw-quickstart.yml
           - name: Мастер подключения сотрудников без компьютеров
             href: flw-onboarding-wizard.md
-          - name: Развертывание с помощью скрипта для сотрудников без компьютеров
-            href: flw-scripted-deployment.md
+          - name: 'Крупномасштабное развертывание Teams для сотрудников, работающих с клиентами'
+            href: deploy-teams-at-scale.md
           - name: Настройка приложения Teams для сотрудников без компьютеров
             href: pin-teams-apps-based-on-license.md
           - name: Управление приложением "Смены"
@@ -1743,8 +1747,8 @@ items:
             href: get-started-with-retail-teams-templates.md
           - name: Мастер подключения сотрудников без компьютеров
             href: flw-onboarding-wizard.md
-          - name: Развертывание с помощью скрипта для сотрудников без компьютеров
-            href: flw-scripted-deployment.md
+          - name: 'Крупномасштабное развертывание Teams для сотрудников, работающих с клиентами'
+            href: deploy-teams-at-scale.md
           - name: '"Смены" для Teams'
             items:
               - name: '"Смены" для Teams'
