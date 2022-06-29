@@ -13,31 +13,31 @@ ms.localizationpriority: medium
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection:
 - M365-collaboration
-description: Узнайте о требованиях для поддержки комнат Microsoft Teams, включая выбор соответствующего устройства, микрофонов, динамиков, камер и дисплеев.
+description: Узнайте о требованиях к поддержке Комнаты Microsoft Teams, включая выбор соответствующего устройства, микрофонов, динамиков, камер и дисплеев.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e2f8ae10f19d59d9eefdc5f4f5fcf0eac4085eb0
-ms.sourcegitcommit: e3931446943684db155bb3edf7d7e52d41775013
+ms.openlocfilehash: f3bdfc24344f481a2846790ae13b6c964c69d4c2
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2022
-ms.locfileid: "65886656"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66241028"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Требования к комнатам Microsoft Teams
 
-Комнаты Microsoft Teams масштабируются до разных размеров комнат. Комнаты Teams используют широкий спектр сертифицированных аудио- и видео периферийных устройств в зависимости от размера и использования комнаты. Выбрав правильное основное устройство и консоль в сочетании с микрофонами, динамиками, камерами и дисплеем, подходящими для пространства, вы можете развернуть Комнаты Microsoft Teams в пространствах любого размера от небольших пространств huddle до больших конференц-залов и конференц-залов.  Полный набор доступных сертифицированных периферийных аудио и видео устройств, которые можно использовать для настройки комнаты, см. в статье [Демонстрация устройств](https://products.office.com/microsoft-teams/across-devices).
+Комнаты Microsoft Teams масштаб до разных размеров помещений. Комнаты Teams использовать широкий спектр сертифицированных аудио- и видео периферийных устройств в зависимости от размера и использования комнаты. Выбрав правильное основное устройство и консоль в сочетании с микрофонами, динамиками, камерами и дисплеем, подходящими для пространства, вы можете развернуть Комнаты Microsoft Teams в пространствах любого размера от небольших пространств huddle вверх до больших конференц-залов и конференц-залов.  Полный набор доступных сертифицированных периферийных аудио и видео устройств, которые можно использовать для настройки комнаты, см. в статье [Демонстрация устройств](https://products.office.com/microsoft-teams/across-devices).
 
 В этой статье представлены общие требования к развертыванию и конфигурации устройств для поддержки комнат Microsoft Teams.
 
-Развертывание включает создание учетной записи ресурса и настройку комнат Teams, как описано в разделе ["Развертывание комнат Microsoft Teams"](rooms-deploy.md).
+Развертывание включает создание и настройку учетной записи ресурса Комнаты Teams, как описано в статье [Комнаты Microsoft Teams](rooms-deploy.md).
 
 Дополнительные сведения см. в статье:
 
 - [Параметры лицензии с учетом плана: Комнаты Microsoft Teams](rooms-licensing.md)
 
 > [!NOTE]
-> Комнаты Microsoft Teams войдите в Microsoft Teams, Skype для бизнеса Server 2019 или Skype для бизнеса Server 2015 и могут присоединяться к собраниям, размещенным в любой из этих служб.
+> Комнаты Microsoft Teams microsoft Teams, Skype для бизнеса Server 2019 или Skype для бизнеса Server 2015 и может присоединиться к собраниям, размещенным в любой из этих служб.
 >
-> Такие приложения, как Lync Server 2013, не поддерживаются в Комнатах Microsoft Teams. Комнаты Microsoft Teams не поддерживаются в Microsoft 365 или Office 365 под управлением 21Vianet или сред DoD.
+> Такие приложения, как Lync Server 2013, не поддерживаются в Комнатах Microsoft Teams. Комнаты Microsoft Teams не поддерживается в Microsoft 365 или Office 365 под управлением 21Vianet или сред DoD.
 >
 > Если вы используете локальный Exchange server, в комнатах Microsoft Teams необходимо использовать Exchange Server 2013 SP1 или более позднюю версию.
 
@@ -121,7 +121,7 @@ ms.locfileid: "65886656"
   |Surface Pro </br>(fifth Gen) |Core i5 |8 ГБ или 4 ГБ |128 ГБ или больше |
   |Surface Pro 4 |Core i5 |8 ГБ или 4 ГБ |128 ГБ или больше |
 
-- Для устройств Surface Pro требуется один из следующих параметров док-станции:
+- Surface Pro устройствам требуется один из следующих параметров док-станции:
 
   - [Logitech SmartDock](https://www.logitech.com/product/smartdock)
   - [Crestron SR](https://www.crestron.com/products/line/sr-for-skype-for-business-room-system )
@@ -182,6 +182,7 @@ ms.locfileid: "65886656"
 |[Poly Многоайтовая C60](https://www.poly.com/us/en/products/phones/trio/trio-c60)  |5.9.5.3066|
 |[Видео панель Poly Studio P15](https://www.poly.com/us/en/products/video-conferencing/studio-p/studio-p15)|1.2.0.000287 |
 |[Камера Poly Studio E70](https://www.poly.com/us/en/products/video-conferencing/studio/studio-e70)|1.1|
+|[Poly Studio R30](https://www.poly.com/us/en/products/video-conferencing/studio/studio-r30)|2.0.0.001096|
 |[EPOS SP 220 MS](http://no-no.sennheiser.com/dual-speakerphones-sp-220-ms-uc)   |2.0.12.0   |
 |[EPOS SP20](https://www.eposaudio.com/en/us/enterprise/products/sp-20-ml-142ee5ca-speakerphone-1000226)   |1.2.15   |
 |[EPOS SP30](https://www.eposaudio.com/en/us/enterprise/products/sp-30-78c0cecc-bluetooth-speakerphone-1000223)   |2.1.52  |

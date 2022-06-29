@@ -20,12 +20,12 @@ ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 330faa00c2ba14f03e5219642fa274fc24eb8765
-ms.sourcegitcommit: 1ac37cc27d4ccb3e1dae20ca1929214e17be2075
+ms.openlocfilehash: f33ab77f2b615bcdd08f14512585b653027c38e8
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/07/2022
-ms.locfileid: "65913427"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66240978"
 ---
 # <a name="meetings-webinars-and-live-events"></a>Собрания, вебинары и трансляции 
 
@@ -176,6 +176,8 @@ ms.locfileid: "65913427"
 ### <a name="guidelines-for-your-end-users"></a>Рекомендации для конечных пользователей
 
 Организаторы и докладчики должны выполнить следующие рекомендации:
+
+- Для собраний с более чем 10 участниками используйте [Вопросы и ответы](/MicrosoftTeams/manage-qna-for-teams), чтобы участники могли официально задавать вопросы и получать ответы на них, а также участвовать в структурированных обсуждениях.
 
 - Чтобы собрание прошло гладко, организаторы собраний могут назначить предварительно определенных докладчиков. После начала собрания докладчики также могут назначить роль докладчика другим участникам.
 
