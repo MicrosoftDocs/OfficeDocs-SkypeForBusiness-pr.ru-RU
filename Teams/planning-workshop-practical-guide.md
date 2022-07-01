@@ -1,7 +1,7 @@
 ---
-title: Инструменты & семинаров — планирование, доставка и & принятие Teams
-author: SerdarSoysal
-ms.author: serdars
+title: Инструменты & семинаров. Планирование, доставка, & внедрение Teams
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -15,12 +15,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 159ff348fcc519b2ddc837021263f5c6851214d1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 24e48a99d4c9b6cc63da517fb8efb7dd4e5fab51
+ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58636673"
+ms.lasthandoff: 06/30/2022
+ms.locfileid: "66563757"
 ---
 # <a name="tools-and-workshops-plan-deliver-and-adopt-microsoft-teams"></a>Инструменты и семинары. Планирование, развертывание и внедрение Microsoft Teams
 
@@ -29,24 +29,24 @@ ms.locfileid: "58636673"
 
 - [Комплект для успешной работы клиентов Microsoft Teams](https://aka.ms/TeamsCustomerSuccess)
 
-    Этот набор содержит множество презентаций, шаблонов сообщений электронной почты, советов & рекомендаций и плакатов, которые можно использовать для распространения и внедрения Teams в организации. Она содержит два кратких руководства для администраторов и руководителей групп, а также примеры использования примеров для каждого отдела. Используйте эти ресурсы, чтобы использовать все Teams различных функций в организации, таких как маркетинг, продажи, финансы, отдел кадров, ИТ,проектирование и Project управление.
+    Этот набор содержит широкий спектр презентаций, шаблонов электронной почты, советов & и плакатов, которые можно использовать для развертывания и внедрения Teams в организации. Она включает два кратких руководства для администраторов и руководителей команд, а также примеры вариантов использования для каждого отдела. Используйте эти ресурсы, чтобы максимально эффективно использовать Teams для различных функций в организации, включая маркетинг, продажи, финансы, отдел кадров, ИТ, проектирование и управление проектами.
 
 - [Как выполнить развертывание Teams](./deploy-overview.md)
 
-    Следуйте нашим рекомендациям по развертыванию Teams.
+    Следуйте рекомендациям по развертывании Teams.
 
 
-- [Обучение Teams технической подготовке](itadmin-readiness.md)
+- [Получение технического обучения Teams](itadmin-readiness.md)
 
-    Воспользуйтесь этими техническими ресурсами, чтобы обучить себя, обучить других или проводить семинары.
+    Используйте эти ресурсы технического обучения для обучения, обучения других пользователей или проведения семинаров.
 
-- [Office 365 для государственных организаций Клиентов](plan-for-government-gcc.md)
+- [Office 365 для государственных организаций клиентов](plan-for-government-gcc.md)
 
-   Ваше путешествие к Teams похоже на опыт наших корпоративных клиентов. Поскольку Teams становится общедоступной для ваших клиентов, мы рекомендуем [](plan-for-government-gcc.md) вам начать с статьи План развертывания Microsoft 365 для государственных GCC развертывания и краткое руководство для [администраторов.](https://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx) Обзор [системы безопасности и](security-compliance-overview.md) соответствия требованиям поможет вам быть уверенным в безопасности Teams вашей среде.
+   Ваш путь к Teams во многом напоминает работу наших корпоративных клиентов. По мере того как Teams становится общедоступной для ваших клиентов, мы рекомендуем начать с статьи "Планирование развертывания [Microsoft 365](plan-for-government-gcc.md) для государственных организаций — GCC" Администратор руководства по началу [работы](https://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx). Наш [обзор безопасности и соответствия](security-compliance-overview.md) требованиям поможет вам быть уверенными в работе Teams в вашей среде.
 
-- [Teams для образования — краткое начало для администраторов](./teams-quick-start-edu.yml)
+- [Teams для образования — краткое руководство для администраторов](./teams-quick-start-edu.yml)
 
-    Из этого учебника вы сможете найти Teams для вашей организации в сфере образования.
+    В этом руководстве описано, как развернуть Teams для вашей образовательной организации.
 
 ### <a name="see-also"></a>См. также
 
@@ -54,9 +54,9 @@ ms.locfileid: "58636673"
 
 [Подготовка ИТ-администратора к использованию Teams](ITAdmin-readiness.md)
 
-[Инструменты для внедрения](adopt-tools-and-downloads.md)
+[Средства для внедрения](adopt-tools-and-downloads.md)
 
-[Skype для бизнеса Teams по планированию обновления](https://www.microsoft.com/microsoft-365/partners/intelligentcommunications/skype-for-business-teams)
+[Skype для бизнеса на семинар по планированию обновления Teams](https://www.microsoft.com/microsoft-365/partners/intelligentcommunications/skype-for-business-teams)
 
 [Перемещение пользователей из локальной среды в Teams](/skypeforbusiness/hybrid/move-users-from-on-premises-to-teams)
 

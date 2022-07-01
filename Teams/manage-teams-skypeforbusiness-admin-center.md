@@ -1,14 +1,14 @@
 ---
-title: Управление Teams переходом на новый Teams администрирования
-author: SerdarSoysal
-ms.author: serdars
+title: Управление переходом Teams в новый Центр администрирования Teams
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 audience: admin
 ms.service: msteams
 ms.reviewer: ''
 ROBOTS: NOINDEX, NOFOLLOW
-description: Узнайте, как управлять параметрами клиента и пользователей для Teams во время перехода Teams в Центр администрирования Microsoft 365 к новому Teams центра администрирования.
+description: Узнайте, как управлять параметрами клиента и пользователя для Teams во время перехода с Teams Центр администрирования Microsoft 365 в новый Центр администрирования Teams.
 ms.localizationpriority: medium
 f1.keywords:
 - CSH
@@ -21,32 +21,32 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: 83b65724099aa46bfe1f1719430e70d8da86ce33
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 39566c490a5de37adc699c39c049717525bd5821
+ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65675091"
+ms.lasthandoff: 06/30/2022
+ms.locfileid: "66563957"
 ---
 # <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>Управление Teams при переходе на новую версию Центра администрирования Microsoft Teams
 
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-## <a name="what-is-the-new-microsoft-teams-admin-center"></a>Что такое новый Microsoft Teams центра администрирования  
+## <a name="what-is-the-new-microsoft-teams-admin-center"></a>Что такое новый Центр администрирования Microsoft Teams  
 
-Новый интерфейс Центра администрирования предоставляет единый интерфейс для управления как Teams, так и Skype для бизнеса. Мы предоставляем дополнительные функциональные возможности, сквозную аналитику и возможность управления Teams параметрами на уровне пользователя.
+Новый интерфейс Центра администрирования предоставляет единый интерфейс для управления Teams и Skype для бизнеса. Мы предоставляет дополнительные функциональные возможности, сквозную аналитику и возможность управления параметрами Teams на уровне пользователя.
 
-![Снимок экрана: Microsoft Teams центра администрирования.](media/manage-teams-skype-for-business-admin-center-portal.png)
+![Снимок экрана: Центр администрирования Microsoft Teams.](media/manage-teams-skype-for-business-admin-center-portal.png)
 
-## <a name="settings-migrated-to-the-new-microsoft-teams-admin-center"></a>Параметры в новый центр администрирования Microsoft Teams
+## <a name="settings-migrated-to-the-new-microsoft-teams-admin-center"></a>Параметры, перенесенные в новый Центр администрирования Microsoft Teams
 
-В следующей таблице указаны разделы перенесенного Teams и показана связь между текущими параметрами и политиками на новом портале администрирования.
+В следующей таблице указаны разделы перенесенного интерфейса Teams и показана связь между текущими параметрами и политиками на новом портале администрирования.
 
-|Раздел Teams в Центр администрирования Microsoft 365  |Имя параметра (уровень клиента)  |Microsoft Teams центра администрирования   |Уровень: клиент или пользователь   |
+|Раздел Teams в Центр администрирования Microsoft 365  |Имя параметра (уровень клиента)  |Политика Центра администрирования Microsoft Teams   |Уровень: клиент или пользователь   |
 |---------|---------|---------|---------|
-|Общие     |Отображение организационной диаграммы в личном профиле        |  [TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration)       |  Арендатор       |
-|Общие     |Используйте Skype для бизнеса для получателей, у которых нет Teams         |[TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration)         |Арендатор         |
+|Общий     |Отображение организационной диаграммы в личном профиле        |  [TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration)       |  Арендатор       |
+|Общий     |Используйте Skype для бизнеса для получателей, у которых нет Teams         |[TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration)         |Арендатор         |
 |Интеграция электронной почты     |Разрешить пользователям отправлять сообщения электронной почты в каналы         |[TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration)         |Арендатор         |
 |Интеграция электронной почты     |Разрешить список отправителей         |[TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration)        |Арендатор         |
 |Настраиваемое облачное хранилище     |Коробка         |[TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration)         |Арендатор         |
@@ -54,8 +54,8 @@ ms.locfileid: "65675091"
 |Настраиваемое облачное хранилище     |Egnyte        |[TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration)         |Арендатор         |
 |Настраиваемое облачное хранилище     |Google Диск        |[TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration)         |Арендатор         |
 |Настраиваемое облачное хранилище     |Sharefile        |[TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration)         |Арендатор         |
-|Параметры по типу пользователя или лицензии     |Включение Microsoft Teams отключение для всех пользователей          |Не рекомендуется<sup>1</sup>        |         |
-|Команды и каналы     |         |Перенаправляет в Azure Active Directory групп (как и в текущем интерфейсе).              |Пользователь         |
+|Параметры по типу пользователя или лицензии     |Включение и отключение Microsoft Teams для всех пользователей          |Не рекомендуется<sup>1</sup>        |         |
+|Команды и каналы     |         |Перенаправление на управление группой Azure Active Directory (то же, что и в текущем интерфейсе).              |Пользователь         |
 |Команды и каналы     |         |Перенаправление на управление группой AAD (то же, что и в текущем интерфейсе).             |Пользователь          |
 |Приложения|Включение новых внешних приложений по умолчанию|Параметры приложения для всей организации|Арендатор|
 |Приложения|Разрешить внешние приложения|Параметры приложения для всей организации|Арендатор|
@@ -77,7 +77,7 @@ ms.locfileid: "65675091"
 |Обмен сообщениями     |Разрешение пользователям удалять собственные сообщения         |[TeamsMessagingPolicy](/powershell/module/skype/set-csteamsmessagingpolicy)         |Пользователь         |
 |Обмен сообщениями     |Позволяет пользователям общаться в частном чате         |[TeamsMessagingPolicy](/powershell/module/skype/set-csteamsmessagingpolicy)         |Пользователь         |
 
-<sup>1</sup> Не рекомендуется к использованию для гостевой учетной записи. Включением и отключением гостевой службы теперь можно управлять в Microsoft Teams администрирования. Включение и отключение Teams для бизнеса Enterprise, Edu Student и Edu Faculty скоро будет прекращено. Для этого следует назначить лицензии в Центр администрирования Microsoft 365. См[. раздел "Управление доступом пользователей к Microsoft Teams](user-access.md)".
+<sup>1</sup> Не рекомендуется к использованию для гостевой учетной записи. Теперь включением и отключением гостевой функции можно управлять в Центре администрирования Microsoft Teams. Включение и отключение Teams для бизнеса Enterprise, Edu Student и Edu Faculty скоро будет прекращено. Для этого следует назначить лицензии в Центр администрирования Microsoft 365. См [. раздел "Управление доступом пользователей к Microsoft Teams"](user-access.md).
 <br><br>
 <sup>2 Загрузка</sup> неопубликованных приложений разделяется следующим образом:
 
@@ -87,7 +87,7 @@ ms.locfileid: "65675091"
 <sup>3</sup> . Приложения по умолчанию и внешние приложения можно включить и отключить на уровне пользователя в TeamsAppPermissionPolicy. Кроме того, приложения могут быть заблокированы на уровне клиента в параметрах приложения на уровне организации, что переопределяет любые параметры на уровне пользователя и клиента.
 
 > [!NOTE]
-> Вы продолжите использовать панель мониторинга "Группы" в Центр администрирования Microsoft 365 для настройки, связанной с Teams и каналами. Параметры для приложений останутся в Teams области Центр администрирования Microsoft 365 и будут перенесены позже.
+> Вы продолжите использовать панель мониторинга "Группы" в Центр администрирования Microsoft 365 для настройки, связанной с Teams и каналами. Параметры приложений останутся в области Teams Центр администрирования Microsoft 365 будут перенесены позже.
 
 ## <a name="manage-settings-during-the-migration"></a>Управление параметрами во время миграции
 
@@ -95,23 +95,23 @@ ms.locfileid: "65675091"
 
 В следующей таблице показано, где можно управлять функциями во время миграции.
 
-|Функция  |Microsoft Teams центра администрирования                      |Skype для бизнеса центра администрирования (устаревшая версия)  |Центр администрирования Microsoft 365  |
+|Функция  |Центр администрирования Microsoft Teams                      |Skype для бизнеса центра администрирования (устаревшая версия)  |Центр администрирования Microsoft 365  |
 |---------|:---------:|:---------:|:---------:|
-|Teams сообщений, собраний и трансляций     |     X    |         |         |
-|Teams обновления     |    X     |         |         |
+|Политики обмена сообщениями, собраний и трансляций в Teams     |     X    |         |         |
+|Политика обновления Teams     |    X     |         |         |
 |Параметры гостя для обмена сообщениями, собраний и голосовой связи     |   X      |         |         |
-|Teams управления жизненным циклом   |    X    |      |       |
-|Teams Параметры   |    X    |      |       |
+|Управление жизненным циклом Teams   |    X    |      |       |
+|Параметры Teams   |    X    |      |       |
 |Параметры внешнего доступа     |    X    |      |       |
 |Управление пользователями    |         |         |    X     |
 |Аудиоконференции     |    X     |    X     |         |
 |Планы звонков     |    X    |    X     |         |
 |Телефонная система    |    X    |     X    |         |
-|Телефон управления номерами     |    X    |   X      |         |
+|Управление номерами телефонов     |    X    |   X      |         |
 |Лицензирование облачных голосовых функций     |         |         |    X     |
 |Автосекретари     |    X    |          |         |
 |Очередь звонков     |    X    |          |         |
 
 ## <a name="manage-settings-after-the-migration"></a>Управление параметрами после миграции
 
-После переноса этих параметров мы отключим их в Центр администрирования Microsoft 365 и Центре администрирования Skype для бизнеса, а затем их можно будет управлять в новом Microsoft Teams центре администрирования.
+После завершения переноса этих параметров мы отключим их в Центр администрирования Microsoft 365 и центре администрирования Skype для бизнеса, а затем их можно будет управлять в новом Центре администрирования Microsoft Teams.
