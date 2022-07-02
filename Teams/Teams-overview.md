@@ -1,7 +1,7 @@
 ---
 title: Знакомство с Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -20,12 +20,12 @@ ms.custom:
 - intro-overview
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 57ec8ab827eae0d0c6334e11fa75b068544f8505
-ms.sourcegitcommit: 3b5ae6ebf4384166c628f66a4f17e6fe4455b708
+ms.openlocfilehash: 9b91bff459d93dee392a428e1a141622c8937c70
+ms.sourcegitcommit: 79ada2140b110239deff96e4854ebd5dd9b77881
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/29/2021
-ms.locfileid: "61625930"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "66606248"
 ---
 # <a name="welcome-to-microsoft-teams"></a>Знакомство с Microsoft Teams
 Эта статья предназначена для администраторов Microsoft Teams в вашей организации. Когда вы будете готовы приступить к работе с Teams, начните со статьи [Как развернуть Teams](./deploy-overview.md) и [Настройка безопасной совместной работы с помощью Microsoft 365 и Microsoft Teams](/microsoft-365/solutions/setup-secure-collaboration-with-teams).
@@ -34,7 +34,7 @@ ms.locfileid: "61625930"
 
 Не пропустите наше видео "Добро пожаловать в Teams" для администраторов Teams (чуть больше 3 минут):
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4vAJL]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE47cdp]
 
 Если вы ищете справку по Teams для пользователей, щелкните **Справка** в левой части приложения или перейдите в [Справочный центр Microsoft Teams](https://support.office.com/teams). Для обучения перейдите в раздел [Обучение работе с Microsoft Teams](training-microsoft-teams-landing-page.md). 
 

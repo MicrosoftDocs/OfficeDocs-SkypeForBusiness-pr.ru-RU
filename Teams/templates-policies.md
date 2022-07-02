@@ -1,7 +1,7 @@
 ---
 title: Управление шаблонами команд в Центре администрирования
-author: serdars
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: yinchang
 ms.topic: article
@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Узнайте, как управлять шаблонами команд в Центре администрирования
-ms.openlocfilehash: 46b59d42ae464a5f09e9f24ecc91378bd6464034
-ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
+ms.openlocfilehash: 9f2044f059414f9afe1ff335f8204cd26861164b
+ms.sourcegitcommit: 79ada2140b110239deff96e4854ebd5dd9b77881
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65681400"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "66605908"
 ---
 # <a name="manage-team-templates-in-the-admin-center"></a>Управление шаблонами команд в Центре администрирования
 
@@ -38,7 +38,7 @@ ms.locfileid: "65681400"
 
 1. Войдите в Центр администрирования Teams.
 
-2. Перейдите **к Teams** >  **Templates**.
+2. Перейдите к **политикам шаблонов** **Teams** > .
 
 3. Choose **Add**.
 
@@ -70,11 +70,11 @@ ms.locfileid: "65681400"
 > [!Note]
 > В настоящее время назначение политик шаблонов пользователям на основе членства в группе, например для всех пользователей в группе безопасности, не поддерживается. Эта возможность будет доступна в будущем.
 
-Общие сведения о способах назначения политик в Teams см. в [Teams.](policy-assignment-overview.md)
+Общие сведения о способах назначения политик в Teams см. в статье ["Назначение политик в Teams"](policy-assignment-overview.md).
 
 ### <a name="assign-a-templates-policy-to-individual-users"></a>Назначение политики шаблонов отдельным пользователям
 
-Вы можете использовать центр администрирования Teams или PowerShell для назначения политики шаблонов отдельному пользователю или небольшому количеству пользователей одновременно. Дополнительные сведения см. в [статье "Назначение политики отдельным пользователям"](assign-policies-users-and-groups.md#assign-a-policy-to-individual-users).
+Вы можете использовать Центр администрирования Teams или PowerShell для назначения политики шаблонов отдельному пользователю или небольшому числу пользователей одновременно. Дополнительные сведения см. в [статье "Назначение политики отдельным пользователям"](assign-policies-users-and-groups.md#assign-a-policy-to-individual-users).
 
 ### <a name="assign-a-templates-policy-to-a-batch-of-users"></a>Назначение политики шаблонов пакету пользователей
 
@@ -102,11 +102,11 @@ New-CsBatchPolicyAssignmentOperation -OperationName <Any operation name> -Policy
 
 О. Все удаленные шаблоны больше не будут присутствовать в политиках шаблонов.
 
-**Вопрос. Можно ли назначить несколько пользователей политике шаблонов в Teams администрирования?**
+**Вопрос. Можно ли назначить несколько пользователей политике шаблонов в Центре администрирования Teams?**
 
 Ответ. Да.
 
-1. В центре Teams перейдите в раздел **"Управление пользователями** > **"**.
+1. В Центре администрирования Teams перейдите к разделу **"Управление пользователями** > **"**.
 1. В списке пользователей выберите пользователей, которых вы хотите назначить политике шаблонов.
 1. Выберите **"Изменить параметры**", а затем в разделе **"Политика шаблонов**" выберите политику, которую нужно назначить.
 1. Нажмите **кнопку "Применить"**.
@@ -115,7 +115,7 @@ New-CsBatchPolicyAssignmentOperation -OperationName <Any operation name> -Policy
 
 **Вопрос. Разделы справки просмотреть всех пользователей, назначенных определенной политике?**
 
-О. В Teams администрирования:
+О. В Центре администрирования Teams:
 
 1. Перейдите к **разделу "Управление** > **пользователями"**.
 2. Выберите **фильтр**, задайте фильтр для политики шаблонов и нажмите кнопку "Применить **"**.
@@ -132,7 +132,7 @@ New-CsBatchPolicyAssignmentOperation -OperationName <Any operation name> -Policy
 
 ## <a name="related-articles"></a>Статьи по теме
 
-- [начало работы с шаблонами команд в Центре администрирования](./get-started-with-teams-templates-in-the-admin-console.md)
+- [Начало работы с шаблонами команд в Центре администрирования](./get-started-with-teams-templates-in-the-admin-console.md)
 
 - [Создание настраиваемого шаблона команды](./create-a-team-template.md)
 

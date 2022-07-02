@@ -1,24 +1,30 @@
 ---
 title: Обучение администраторов Microsoft Teams
-ms.reviewer: null
-description: 'Используйте эти ресурсы обучения для пользователей и администраторов, а также учебные курсы с инструкторами и учебные видео, чтобы применять Microsoft Teams в своей организации максимально эффективно.'
+ms.reviewer: ''
+description: Используйте эти ресурсы обучения для пользователей и администраторов, а также учебные курсы с инструкторами и учебные видео, чтобы применять Microsoft Teams в своей организации максимально эффективно.
 ms.topic: overview
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 audience: admin
 manager: serdars
 ms.service: msteams
 ms.localizationpriority: high
 ms.collection:
-  - M365-collaboration
-  - Teams_ITAdmin_RemoteWorkers
-  - remotework
+- M365-collaboration
+- Teams_ITAdmin_RemoteWorkers
+- remotework
 search.appverid: MET150
 f1.keywords:
-  - NOCSH
+- NOCSH
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
 ms.custom: seo-marvel-may2020
+ms.openlocfilehash: badd5df4e48892bbb22264f23072618c6c2f1eb8
+ms.sourcegitcommit: 79ada2140b110239deff96e4854ebd5dd9b77881
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "66606088"
 ---
 # <a name="microsoft-teams-training"></a>Обучение работе с Microsoft Teams
 

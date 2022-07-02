@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: Узнайте, какие USB-периферийные устройства (например, гарнитуры, динамики, веб-камеры и мониторы) сертифицированы для Microsoft Teams.
-ms.openlocfilehash: 93e0832b73ef0f62a00cfdf454b1fbcffb715542
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: a2f106b71cc6494594ad34b9aa8dbfb61789a67a
+ms.sourcegitcommit: 79ada2140b110239deff96e4854ebd5dd9b77881
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66494346"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "66605708"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>USB-аудио- и видеоустройства, сертифицированные для Microsoft Teams
 
@@ -81,6 +81,7 @@ ms.locfileid: "66494346"
 
 | Производитель        | Модели                                                     | Квалифицированных      | Сертифицированная программа                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Dell                 |Камера WB5023                                              |6/29/2022       |Сертифицировано для Microsoft Teams                           |
 |ЭПОС                 |Гарнитура ADAPT 560 II                                       |6/22/2022       |Сертифицировано для Microsoft Teams                           |
 |ЭПОС                 |Гарнитуры серии C10/C20/C50                                |5/31/2022       |Сертифицировано для Microsoft Teams                           |
 |Поли                 |Монитор Studio P21                                         |5/12/2022       |Сертифицировано для Microsoft Teams                           |
