@@ -1,7 +1,7 @@
 ---
-title: Доступность в Бермудских островах
-author: SerdarSoysal
-ms.author: serdars
+title: Доступность в Базе данных SQL Azure
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже ются Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Мумерса.
-ms.openlocfilehash: 095e4d63c0902d2349778f9d15577497a4b7bc06
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+description: Ниже приведены службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Государственных служб.
+ms.openlocfilehash: e430b6acf27042c769ed09235efd215c9091b1c6
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62400123"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66615965"
 ---
-# <a name="availability-in-bermuda"></a>Доступность в Бермудских островах
+# <a name="availability-in-bermuda"></a>Доступность в Базе данных SQL Azure
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже  находятся Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Нее.
+Ниже приведены службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Государственных служб.
   
 ## <a name="audio-conferencing"></a>Аудиоконференция
 
@@ -62,7 +62,7 @@ ms.locfileid: "62400123"
 |Доступные минуты для планов звонков  <br/> |Неприменимо  <br/> |
 |Кому можно делать исходящие звонки?  <br/> |Неприменимо  <br/> |
 
-Если планы звонков недоступны для приобретения, см. параметры подключения через ПСС [для всех](../pstn-connectivity.md) доступных параметров.
+Если планы звонков недоступны для покупки, ознакомьтесь [](../pstn-connectivity.md) со всеми доступными вариантами подключения по ТСОП.
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Платные и бесплатные номера для служб
 
@@ -72,7 +72,7 @@ ms.locfileid: "62400123"
 |Доступны ли платные номера?  <br/> |Нет <br/> |
 |Доступны ли бесплатные номера?  <br/> |Да  <br/> |
    
- Если вы хотите получить платные и бесплатные номера телефонов для аудиоконференций, автослужб и очередей звонков, см. получение номеров телефонов служб для Skype для бизнеса и [Microsoft Teams](../getting-service-phone-numbers.md).
+ Если вы хотите получить платные и бесплатные номера телефонов для аудиоконференций, автосекретарей и очередей звонков, см. раздел "Получение номеров телефонов службы для Skype для бизнеса [и Microsoft Teams"](../getting-service-phone-numbers.md).
   
 ## <a name="communications-credits"></a>Кредиты на связь
 

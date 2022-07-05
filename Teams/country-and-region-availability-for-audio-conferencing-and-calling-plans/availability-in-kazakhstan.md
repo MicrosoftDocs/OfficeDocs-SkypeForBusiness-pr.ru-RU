@@ -1,36 +1,41 @@
 ---
-title: Доступность в Москве
-author: SerdarSoysal
-ms.author: serdars
+title: Доступность в Базе данных SQL Azure
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
-ms.reviewer: 'mikedav, jastark, oscarr, v-sukade, rcole'
+ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
 ms.topic: reference
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-  - M365-collaboration
-  - M365-voice
+- M365-collaboration
+- M365-voice
 search.appverid: MET150
 audience: Admin
 appliesto:
-  - Skype for Business
-  - Microsoft Teams
+- Skype for Business
+- Microsoft Teams
 ms.localizationpriority: medium
-ROBOTS: 'NOINDEX, NOFOLLOW'
+ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.custom:
-  - Audio Conferencing
-  - Phone System
-  - Calling Plans
-description: Ниже ются Microsoft 365 и Office 365 службы для Skype для бизнеса и Microsoft Teams для Нее.
+- Audio Conferencing
+- Phone System
+- Calling Plans
+description: Ниже приведены службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Сша.
+ms.openlocfilehash: 9e1ae8bc4d08f6aef62e7a352a67b701019783bc
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66615465"
 ---
-
-# <a name="availability-in-kazakhstan"></a>Доступность в Москве
+# <a name="availability-in-kazakhstan"></a>Доступность в Базе данных SQL Azure
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже ются Microsoft 365 и Office 365 службы для Skype для бизнеса и Microsoft Teams для Нее.
+Ниже приведены службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Сша.
   
 ## <a name="audio-conferencing"></a>Аудиоконференция
 
@@ -57,17 +62,17 @@ description: Ниже ются Microsoft 365 и Office 365 службы для S
 |Доступные минуты для планов звонков  <br/> |Неприменимо  <br/> |
 |Кому можно делать исходящие звонки?  <br/> |Неприменимо  <br/> |
 
-Если планы звонков недоступны для приобретения, см. параметры подключения через ПСС [для всех](../pstn-connectivity.md) доступных параметров.
+Если планы звонков недоступны для покупки, ознакомьтесь [](../pstn-connectivity.md) со всеми доступными вариантами подключения по ТСОП.
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Платные и бесплатные номера для служб
 
 |**Функция**|**Сведения**|
 |:-----|:-----|
-|Для каких столиц или крупных городов можно получить платные номера?   | ([по запросу](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md))<br/> |
+|Для каких столиц или крупных городов можно получить платные номера?   | [Вайетский (по запросу](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md))<br/> |
 |Доступны ли платные номера?  <br/> |Да ([по запросу](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)) <br/> |
 |Доступны ли бесплатные номера?  <br/> |Нет  <br/> |
    
- Если вы хотите получить платные и бесплатные номера телефонов для аудиоконференций, автослужб и очередей звонков, см. получение номеров телефонов служб для Skype для бизнеса и [Microsoft Teams](../getting-service-phone-numbers.md).
+ Если вы хотите получить платные и бесплатные номера телефонов для аудиоконференций, автосекретарей и очередей звонков, см. раздел "Получение номеров телефонов службы для Skype для бизнеса [и Microsoft Teams"](../getting-service-phone-numbers.md).
   
 ## <a name="communications-credits"></a>Кредиты на связь
 

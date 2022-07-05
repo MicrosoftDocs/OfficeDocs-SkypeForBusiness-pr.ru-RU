@@ -6,6 +6,7 @@ ms.reviewer: ''
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
+ms.subservice: teams-chat
 audience: admin
 search.appverid: MET150
 description: Сведения о различных командах, каналах и приложениях, адаптированных под самые разнообразные направления деятельности, например финансы, планирование мероприятий, продажи и многое другое.
@@ -18,16 +19,17 @@ ms.custom:
 - ms.teamsadmincenter.teamschannel.overview
 - ms.teamsadmincenter.teamssettings.overview
 - okr_smb
+- intro-overview
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4bd98159e9e209cba855e1a0f2d0ee853b3ba889
-ms.sourcegitcommit: b70f01d7eae2e3e6f7495c685518a2037aaece31
+ms.openlocfilehash: 74f4580eee7ee7ee935b405cfe51c4a3e49ef98c
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/11/2022
-ms.locfileid: "64756895"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66616285"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Обзор команд и каналов в Microsoft Teams
 

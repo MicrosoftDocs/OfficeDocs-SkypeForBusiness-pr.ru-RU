@@ -6,6 +6,7 @@ author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
+ms.subservice: teams-chat
 audience: admin
 search.appverid: MET150
 description: В этой статье содержатся пошаговые инструкции по настройке параметров Teams для чата, команд, приложений и каналов в Microsoft Teams.
@@ -17,16 +18,17 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.quickstartteamsadmin
+- intro-get-started
 appliesto:
 - Microsoft Teams
 - seo-marvel-apr2020
 - seo-marvel-may2020
-ms.openlocfilehash: 0db8dcbd0e1b2cfc8725a0a18aa717d8f5181c7d
-ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
+ms.openlocfilehash: 86a63a47a47d438225046174104f79914f051c71
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66562248"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66615645"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Чат, команды, каналы и приложения в Microsoft Teams
 

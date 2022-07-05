@@ -1,36 +1,41 @@
 ---
-title: Доступность в Антигуа и Барбуде
-author: SerdarSoysal
-ms.author: serdars
+title: Доступность в Антигуа и Баргуа
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
-ms.reviewer: 'mikedav, jastark, oscarr, v-sukade, rcole, fafan'
+ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-  - M365-collaboration
-  - M365-voice
+- M365-collaboration
+- M365-voice
 search.appverid: MET150
 audience: Admin
 appliesto:
-  - Skype for Business
-  - Microsoft Teams
+- Skype for Business
+- Microsoft Teams
 ms.localizationpriority: medium
-ROBOTS: 'NOINDEX, NOFOLLOW'
+ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.custom:
-  - Audio Conferencing
-  - Phone System
-  - Calling Plans
-description: Ниже  находятся Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Антигуа и Барбуды.
+- Audio Conferencing
+- Phone System
+- Calling Plans
+description: Ниже приведены службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Антигуа и Баргуа.
+ms.openlocfilehash: 5e6b19226cefde5e7a13e809d02767c03a03d52c
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66616375"
 ---
+# <a name="availability-in-antigua-and-barbuda"></a>Доступность в Антигуа и Баргуа
 
-# <a name="availability-in-antigua-and-barbuda"></a>Доступность в Антигуа и Барбуде
+[Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности аудиоконференций и планов звонков.
 
-[Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности страны и региона для аудиоконференций и планов звонков.
-
-Ниже  находятся Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Антигуа и Барбуды.
+Ниже приведены службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Антигуа и Баргуа.
   
 ## <a name="audio-conferencing"></a>Аудиоконференция
 
@@ -57,7 +62,7 @@ description: Ниже  находятся Microsoft 365 и Office 365 для Sky
 |Доступные минуты для планов звонков  <br/> |Неприменимо  <br/> |
 |Кому можно делать исходящие звонки?  <br/> |Неприменимо  <br/> |
 
-Если планы звонков недоступны для приобретения, см. параметры подключения через ПСС [для всех](../pstn-connectivity.md) доступных параметров.
+Если планы звонков недоступны для покупки, ознакомьтесь [](../pstn-connectivity.md) со всеми доступными вариантами подключения по ТСОП.
 
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Платные и бесплатные номера для служб
@@ -68,7 +73,7 @@ description: Ниже  находятся Microsoft 365 и Office 365 для Sky
 |Доступны ли платные номера?  <br/> |Нет <br/> |
 |Доступны ли бесплатные номера?  <br/> |Да  <br/> |
    
- Если вы хотите получить платные и бесплатные номера телефонов для аудиоконференций, автослужб и очередей звонков, см. получение номеров телефонов служб для Skype для бизнеса и [Microsoft Teams](../getting-service-phone-numbers.md).
+ Если вы хотите получить платные и бесплатные номера телефонов для аудиоконференций, автосекретарей и очередей звонков, см. раздел "Получение номеров телефонов службы для Skype для бизнеса [и Microsoft Teams"](../getting-service-phone-numbers.md).
   
 ## <a name="communications-credits"></a>Кредиты на связь
 

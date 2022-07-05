@@ -20,12 +20,12 @@ ms.localizationpriority: medium
 ms.custom:
 - Phone System
 description: Узнайте, как настроить автосекретарей и управлять ими в Microsoft Teams.
-ms.openlocfilehash: 37326ec03c22c91de5f4c4edb94aaad67f52bde5
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: 384c7aae5e11c938a6bf8ab5f82924d0379a83aa
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66240948"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66616115"
 ---
 # <a name="set-up-an-auto-attendant"></a>Настройка автосекретаря
 
@@ -57,9 +57,9 @@ ms.locfileid: "66240948"
 
 ## <a name="follow-these-steps-to-set-up-your-auto-attendant"></a>Выполните следующие действия, чтобы настроить автосекретаря
 
-# <a name="step-1---general-info"></a>[Шаг 1. Общие сведения](#tab/general-info)
+# <a name="step-1-general-info"></a>[Шаг 1. Общие сведения](#tab/general-info)
 
-## <a name="step-1---set-the-auto-attendants-general-information"></a>Шаг 1. Настройка общих сведений автосекретаря
+## <a name="step-1-set-the-auto-attendants-general-information"></a>Шаг 1. Настройка общих сведений автосекретаря
 
 Чтобы настроить автосекретаря, в Центре администрирования [Teams](https://go.microsoft.com/fwlink/p/?linkid=2066851) разверните узел **"** Голосовая связь", выберите "Автосекретари **" и** нажмите кнопку **"Добавить"**.
 
@@ -78,10 +78,9 @@ ms.locfileid: "66240948"
 
 После настройки общих сведений автосекретаря нажмите кнопку " **Далее"**.
 
+# <a name="step-2-basic-call-flow"></a>[Шаг 2. Базовый поток вызовов](#tab/call-flow)
 
-# <a name="step-2---basic-call-flow"></a>[Шаг 2. Базовый поток вызовов](#tab/call-flow)
-
-## <a name="step-2---set-up-the-basic-call-flow"></a>Шаг 2. Настройка базового потока вызовов
+## <a name="step-2-set-up-the-basic-call-flow"></a>Шаг 2. Настройка базового потока вызовов
 
 ### <a name="set-a-greeting"></a>Установка приветствия
 
@@ -131,9 +130,9 @@ ms.locfileid: "66240948"
 
 Настроив основные параметры потока вызовов, нажмите кнопку **"Далее"**.
 
-# <a name="step-3---after-hours-call-flow"></a>[Шаг 3. Поток вызовов в нерабочее время](#tab/after-hours)
+# <a name="step-3-after-hours-call-flow"></a>[Шаг 3. Поток вызовов в нерабочее время](#tab/after-hours)
 
-## <a name="step-3---set-up-call-flow-for-after-hours-optional"></a>Шаг 3. Настройка потока вызовов в нерабочее время (необязательно)
+## <a name="step-3-set-up-call-flow-for-after-hours-optional"></a>Шаг 3. Настройка потока вызовов в нерабочее время (необязательно)
 
 Для каждого автосекретаря можно задать рабочее время.
 
@@ -151,9 +150,9 @@ ms.locfileid: "66240948"
 
 После добавления потока вызовов в нерабочее время нажмите кнопку **"Далее"**.
 
-# <a name="step-4---holiday-call-flow"></a>[Шаг 4. Поток вызовов праздников](#tab/holidays)
+# <a name="step-4-holiday-call-flow"></a>[Шаг 4. Поток вызовов праздников](#tab/holidays)
 
-## <a name="step-4---set-up-call-flows-for-holidays-optional"></a>Шаг 4. Настройка потоков вызовов для праздников (необязательно)
+## <a name="step-4-set-up-call-flows-for-holidays-optional"></a>Шаг 4. Настройка потоков вызовов для праздников (необязательно)
 
 У вашего автосекретаря может быть поток звонков для каждого [настроенного вами выходного](set-up-holidays-in-teams.md). Вы можете добавить до 20 запланированных выходных для каждого автосекретаря.
 
@@ -176,9 +175,9 @@ ms.locfileid: "66240948"
 
 После добавления всех часов праздников нажмите кнопку " **Далее"**.
 
-# <a name="step-5---dial-scope"></a>[Шаг 5. Область набора номера](#tab/dial-scope)
+# <a name="step-5-dial-scope"></a>[Шаг 5. Область набора номера](#tab/dial-scope)
 
-## <a name="step-5---set-up-dial-scope-optional"></a>Шаг 5. Настройка области набора номера (необязательно)
+## <a name="step-5-set-up-dial-scope-optional"></a>Шаг 5. Настройка области набора номера (необязательно)
 
 *Область набора* определяет, какие пользователи доступны в каталоге, если вызывающий абонент использует функцию набора по имени или набора по дополнительному номеру. Значение по умолчанию **Все пользователи в сети** включает всех пользователей вашей организации, которые находятся в сети или в локальной среде с использованием Skype для бизнеса Server.
 
@@ -191,9 +190,9 @@ ms.locfileid: "66240948"
 
 Выбрав параметры области набора, нажмите  кнопку "**Далее"**.
 
-# <a name="step-6---resource-accounts"></a>[Шаг 6. Учетные записи ресурсов](#tab/resource-accounts)
+# <a name="step-6-resource-accounts"></a>[Шаг 6. Учетные записи ресурсов](#tab/resource-accounts)
 
-## <a name="step-6---set-up-resource-accounts-optional"></a>Шаг 6. Настройка учетных записей ресурсов (необязательно)
+## <a name="step-6-set-up-resource-accounts-optional"></a>Шаг 6. Настройка учетных записей ресурсов (необязательно)
 
 У всех автосекретарей должны быть связанные учетные записи ресурса.  У автосекретарей первого уровня должна быть как минимум одна учетная запись ресурса со связанным служебным номером. При желании вы можете назначить автосекретарю несколько учетных записей ресурсов, у каждой из которых будет отдельный служебный номер.
 
@@ -203,9 +202,9 @@ ms.locfileid: "66240948"
 
 [Дополнительные сведения см. в](manage-resource-accounts.md) разделе "Управление учетными записями ресурсов Teams".
 
-# <a name="additional-resources"></a>[Дополнительные ресурсы](#tab/additional-resources)
+---
 
-## <a name="resources-for-more-complex-scenarios"></a>Ресурсы для более сложных сценариев
+## <a name="resources-for-complex-scenarios"></a>Ресурсы для сложных сценариев
 
 ### <a name="external-phone-number-transfers---technical-details"></a>Передача внешних номеров телефонов — технические сведения
 
@@ -236,8 +235,6 @@ ms.locfileid: "66240948"
 2. В области "Запуск диагностики" введите учетную запись ресурса в поле **"** Имя пользователя" или "Адрес электронной почты", а затем выберите " **Выполнить тесты"**.
 
 3. В тестах будут определены конфигурации клиента, политики или учетной записи ресурсов, которые не позволяют автосекретарю получать вызовы, и будут перечислены действия по устранению выявленных проблем.
-
----
 
 ### <a name="related-topics"></a>Статьи по теме
 

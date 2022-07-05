@@ -5,6 +5,8 @@ ms.author: guptaashish
 manager: prkosh
 ms.topic: article
 ms.service: msteams
+ms.subservice: teams-apps
+ms.custom: intro-get-started
 audience: admin
 ms.collection:
 - Teams_ITAdmin_Help
@@ -17,18 +19,18 @@ description: Узнайте, как управлять приложениями 
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 25e540a7709ab12b73a97cc94b1350630c302197
-ms.sourcegitcommit: bdb919a6f53556f76dd4a71759412023e6e18fbb
+ms.openlocfilehash: 82ab9372f925e40beac41d4075b49b34118f8851
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66529731"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66616055"
 ---
 # <a name="manage-teams-apps-in-the-microsoft-teams-admin-center"></a>Управление приложениями Teams в Центре администрирования Microsoft Teams
 
 Вы управляете приложениями для своей организации на странице **приложений Teams** на портале Центра администрирования Teams. Страница "Управление приложениями" используется для просмотра всех приложений Teams в каталоге приложений вашей организации и управления ими.
 
-![Снимок экрана: страница "Управление приложениями".](media/manage-apps.png)
+:::image type="content" source="media/manage-apps.png" alt-text="Снимок экрана: страница &quot;Управление приложениями&quot;." lightbox="media/manage-apps.png":::
 
 Чтобы использовать Центр администрирования Teams, необходимо иметь роль глобального администратора Администратор или администратора Teams. Дополнительные сведения см. в следующих статьях справки:
 
@@ -156,7 +158,7 @@ ms.locfileid: "66529731"
 1. Найдите приложение по его имени и выберите приложение. Не открывайте страницу сведений о приложении.
 1. Выберите **"Добавить в команду"**.
 
-   :::image type="content" source="media/manage-apps-add-app-team-trimmed.png" alt-text="Снимок экрана: параметр &quot;Добавить в команду&quot; для приложения, которое можно добавить в область группы." lightbox="media/manage-apps-add-app-team.png":::
+   :::image type="content" source="media/manage-apps-add-app-team-trimmed.png" alt-text="Снимок экрана: параметр &quot;Добавить в команду&quot; для приложения, которое можно добавить в область группы.":::
 
 1. На панели "Добавить в **группу** " найдите команду, в которую вы хотите добавить приложение, выберите команду и нажмите кнопку "Применить **"**.
 
