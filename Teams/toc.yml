@@ -1797,7 +1797,7 @@ items:
             href: teams-add-on-licensing/advanced-communications.md
           - name: Лицензирование политик обмена сообщениями
             href: teams-add-on-licensing/pri-message.md
-          - name: Лицензия "Телефонная система Microsoft Teams — виртуальный пользователь"
+          - name: Лицензия на учетную запись ресурса телефонной системы Microsoft Teams
             href: teams-add-on-licensing/virtual-user.md
           - name: Начало работы с Teams базовый
             href: get-started-with-teams-essentials.md
