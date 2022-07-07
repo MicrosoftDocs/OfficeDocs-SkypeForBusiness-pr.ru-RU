@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Узнайте, как настроить и подключить SBC к прямой маршрутизации телефонной системы Teams.
-ms.openlocfilehash: e33f9538fdf69696e0a87da84dc5aec8e8d304af
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: 0423c374e903aab2e283ee45bcabf9ceb31ef869
+ms.sourcegitcommit: d87991ed2d3e4d70edb048378763a17ff689b710
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66241108"
+ms.lasthandoff: 07/07/2022
+ms.locfileid: "66682668"
 ---
 # <a name="connect-your-session-border-controller-sbc-to-direct-routing"></a>Подключение пограничного контроллера сеанса (SBC) к прямой маршрутизации
 
@@ -95,6 +95,8 @@ New-CsOnlinePSTNGateway -Fqdn <SBC FQDN> -SipSignalingPort <SBC SIP Port> -MaxCo
   > Помимо домена, зарегистрированного в клиенте, важно иметь пользователя с этим доменом и назначенную лицензию E3 или E5. В противном случае вы получите следующую ошибку:<br/>
   `Can not use the "sbc.contoso.com" domain as it was not configured for this tenant`.
   > 3. Несколько IP-адресов, сопоставленных с одним и тем же FQDN на стороне SBC, не поддерживаются.
+  > 4. Чтобы обеспечить лучшее в классе шифрование для наших клиентов, корпорация Майкрософт принудительно принудит использование TLS1.2 для интерфейса SIP прямой маршрутизации.
+  > Чтобы избежать влияния на службу, убедитесь, что ваши контроллеры безопасности настроены на поддержку TLS1.2 и могут подключаться с помощью одного из следующих наборов шифров: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 т. е. ECDHE-RSA-AES256-GCM-SHA384 TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 т. е. ECDHE-RSA-AES128-GCM-SHA256 TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384 т. е. ECDHE-RSA-AES256-SHA384 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256 т. е. ECDHE-RSA-AES128-SHA256
 
 Ниже приводится пример.
 

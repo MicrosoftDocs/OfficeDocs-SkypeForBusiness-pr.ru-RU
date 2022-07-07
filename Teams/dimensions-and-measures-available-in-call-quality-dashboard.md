@@ -22,12 +22,12 @@ ms.custom:
 - Reporting
 - seo-marvel-mar2020
 description: Получите подробные сведения об измерениях и измерениях, используемых панелью мониторинга качества звонков (CQD) для Microsoft Teams и Skype для бизнеса Online.
-ms.openlocfilehash: 27b7800efd8835254c5f093781881296b4db2464
-ms.sourcegitcommit: b383b309dbdf9caac7ad7e4a94df8d89016dc485
+ms.openlocfilehash: bc2289f06641e206f3188c865b936962e5f1b1f5
+ms.sourcegitcommit: d87991ed2d3e4d70edb048378763a17ff689b710
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66551226"
+ms.lasthandoff: 07/07/2022
+ms.locfileid: "66682538"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard-cqd"></a>Измерения и измерения, доступные на панели мониторинга качества вызовов (CQD)
 
@@ -551,6 +551,9 @@ ms.locfileid: "66551226"
 |Задействована ли очередь вызовов|Boolean|Если значение равно True, то очередь вызовов была задействована в указанном вызове или потоке. ||
 |**Собрание**||||
 |Идентификатор исходного приложения планирования|String |AppID первого или стороннего клиента планирования, который запланировать собрание.|Клиент планирования не предоставил этот параметр через свои данные телеметрии.|
+|**Общие**||||
+| Первый идентификатор ресурса ACS |String |Неизменяемый идентификатор ресурса Службы коммуникации Azure, связанной с первой конечной точкой. <br/> **Пример:** 00000000-0000-0000-0000-0000000000000 | Конечная точка не использует Службы коммуникации Azure API|
+| Второй идентификатор ресурса ACS |String |Неизменяемый идентификатор ресурса Службы коммуникации Azure, связанной со второй конечной точкой. <br/> **Пример:** 00000000-0000-0000-0000-0000000000000 | Конечная точка не использует Службы коммуникации Azure API|
 |**Datapair**||||
 | Network Connection Detail Pair  | Перечисленная пара <br/>**Возможные значения:** <br/> wifi : wifi <br/> wifi : wired <br/> Wired : wifi <br/> Wired : Wired <br/> MobileBB : MobileBB <br/> MobileBB : Other <br/> MobileBB : Tunnel <br/> MobileBB : wifi <br/> MobileBB : Wired <br/> Other : Other <br/> Other : wifi <br/> Other : Wired <br/> Tunnel : Tunnel <br/> Tunnel : wifi <br/> Tunnel : Wired <br/> : MobileBB <br/> : Other <br/> : Tunnel <br/> : wifi <br/> : Wired <br/> :  | Парные сведения о сетевом подключении для первой и второй конечной точки.  | &bull; Тип сетевого подключения конечной точки неизвестен. Это может произойти, если не удалось установить связь.   |
 | User Agent Category Pair  | Перечисленная пара  | Парная категория агента пользователя для первой и второй конечной точек. <br/> **Пример значения:** AV-MCU: OC  | &bull; Агент пользователя конечной точки не был известным типом  |
