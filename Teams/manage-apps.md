@@ -19,12 +19,12 @@ description: Узнайте, как управлять приложениями 
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 82ab9372f925e40beac41d4075b49b34118f8851
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+ms.openlocfilehash: 92f7c6d69fbc9f680c204f0210aaa80742dd6384
+ms.sourcegitcommit: 90f03a841f8ca33092dce65c543357c7c2f7b82a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66616055"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "66647751"
 ---
 # <a name="manage-teams-apps-in-the-microsoft-teams-admin-center"></a>Управление приложениями Teams в Центре администрирования Microsoft Teams
 
@@ -62,7 +62,7 @@ ms.locfileid: "66616055"
 | Политики обновления используются для управления пользователями Предварительной версии Teams и Office, которые будут видеть функции предварительной или предварительной версии в приложении Teams.  | [Политики обновления Teams](https://admin.teams.microsoft.com/policies/updatemanagement) | [Общедоступная предварительная версия Teams](public-preview-doc-updates.md) |
 | **За пределами Центра администрирования Teams** | | |
 | Управление лицензиями и подписками сторонних приложений в Центр администрирования Microsoft 365 | [Центр администрирования Microsoft 365](https://admin.microsoft.com/#/licenses) | [Управление подписками сторонних приложений](/microsoft-365/commerce/manage-saas-apps) |
-| Аудит событий приложений Teams на Портал соответствия требованиям Microsoft Purview. | [Аудита](https://compliance.microsoft.com/auditlogsearch?viewid=Async%20Search) | [Действия Teams](audit-log-events.md#teams-activities) |
+| Аудит событий приложений Teams на Портал соответствия требованиям Microsoft Purview. | [Аудита](https://compliance.microsoft.com/auditlogsearch?viewid=Async%20Search) | [Действия Teams](audit-app-management-activities.md) |
 | Приложениям могут быть предоставлены разрешения для организации и ее данных тремя способами: администратор дает согласие на приложение для всех пользователей, пользователь предоставляет согласие приложению или администратор, интегрировав приложение и включив самостоятельный доступ или назначая пользователей непосредственно приложению. Проверьте разрешения Graph для приложений. Проверьте разрешения, предоставленные пользователями или делегированные администраторами. | [Azure AD портале](https://aad.portal.azure.com/) | [Просмотр разрешений, предоставленных приложениям](/azure/active-directory/manage-apps/manage-application-permissions) |
 
 <!---

@@ -1,5 +1,5 @@
 ---
-title: Управление подключением Shifts к Blue Yonder Workforce Management с помощью PowerShell
+title: Использование PowerShell для управления подключением Shifts к Blue Yonder Workforce Management
 author: LanaChin
 ms.author: v-lanachin
 ms.reviewer: ''
@@ -15,18 +15,18 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a102001c9c35b3d93467a9955329ce9d314532d0
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: c4edf815a3ce21a820fa292a06d41275c97d78a5
+ms.sourcegitcommit: 90f03a841f8ca33092dce65c543357c7c2f7b82a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65675371"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "66647819"
 ---
-# <a name="use-powershell-to-manage-your-shifts-connection-to-blue-yonder-workforce-management"></a>Управление подключением Shifts к Blue Yonder Workforce Management с помощью PowerShell
+# <a name="use-powershell-to-manage-your-shifts-connection-to-blue-yonder-workforce-management"></a>Использование PowerShell для управления подключением Shifts к Blue Yonder Workforce Management
 
 ## <a name="overview"></a>Обзор
 
-[Соединитель Microsoft Teams Shifts для Blue Yonder](shifts-connectors.md#microsoft-teams-shifts-connector-for-blue-yonder) позволяет интегрировать приложение Shifts в Microsoft Teams с Blue Yonder Workforce Management (Blue Yonder WFM). После настройки подключения сотрудники переднего плана могут без проблем просматривать свои расписания в Blue Yonder WFM и управлять ими в shifts.
+[Соединитель Смен Microsoft Teams для Blue Yonder](shifts-connectors.md#microsoft-teams-shifts-connector-for-blue-yonder) позволяет интегрировать приложение Shifts в Microsoft Teams с Blue Yonder Workforce Management (Blue Yonder WFM). После настройки подключения ваши сотрудники переднего плана могут легко просматривать свои расписания и управлять ими в Blue Yonder WFM в shifts.
 
 Для настройки подключения можно использовать мастер соединителя [shifts](shifts-connector-wizard.md) в Центр администрирования Microsoft 365 [или PowerShell](shifts-connector-blue-yonder-powershell-setup.md). После настройки подключения вы управляете этим подключением с помощью командлетов [PowerShell соединителя Shifts](#shifts-connector-cmdlets).
 
@@ -53,7 +53,7 @@ ms.locfileid: "65675371"
 
 [!INCLUDE [shifts-connector-set-up-environment](../../includes/shifts-connector-set-up-environment.md)]
 
-7. Подключение Teams.
+7. Подключитесь к Teams.
 
     ```powershell
     Connect-MicrosoftTeams
@@ -101,7 +101,7 @@ ms.locfileid: "65675371"
 
 ### <a name="user-mapping-errors"></a>Ошибки сопоставления пользователей
 
-Ошибки сопоставления пользователей могут возникать, если один или несколько пользователей на сайте Blue Yonder WFM не является членом сопоставленной команды в Teams. Чтобы устранить эту проблему, убедитесь, что пользователи в сопоставленной команде соответствуют пользователям на сайте Blue Yonder WFM.
+Ошибки сопоставления пользователей могут возникать, если один или несколько пользователей в экземпляре Blue Yonder WFM не является членом сопоставленной команды в Teams. Чтобы устранить эту проблему, убедитесь, что пользователи в сопоставленной команде соответствуют пользователям в экземпляре Blue Yonder WFM.
 
 Чтобы просмотреть сведения о несопоставленных пользователях [, установите](#set-up-your-environment) среду (если вы еще не сделали этого), а затем выполните следующий сценарий.
 
@@ -151,19 +151,19 @@ ForEach ($mapping in $mappings){
 
 ### <a name="account-authorization-errors"></a>Ошибки авторизации учетной записи
 
-Ошибки авторизации учетной записи могут возникать, если учетная запись службы WFM Blue Yonder или Microsoft 365 учетные данные системной учетной записи неверны или не имеют необходимых разрешений.
+Ошибки авторизации учетной записи могут возникать, если учетная запись WFM Blue Yonder или учетные данные системной учетной записи Microsoft 365 неверны или не имеют необходимых разрешений.
 
-Чтобы изменить учетную запись службы WFM Blue Yonder или учетные данные системной учетной записи Microsoft 365 для подключения, можно запустить командлет [Set-CsTeamsShiftsConnectionInstance](/powershell/module/teams/set-csteamsshiftsconnectioninstance) или использовать сценарий PowerShell в [](#change-connection-settings) разделе "Изменение параметров подключения" этой статьи.
+Чтобы изменить учетную запись службы Blue Yonder WFM или учетные данные системной учетной записи Microsoft 365 для подключения, можно запустить командлет [Set-CsTeamsShiftsConnectionInstance](/powershell/module/teams/set-csteamsshiftsconnectioninstance) или использовать сценарий PowerShell в разделе "[](#change-connection-settings)Изменение параметров подключения" этой статьи.
 
 ## <a name="change-connection-settings"></a>Изменение параметров подключения
 <a name="change_settings"> </a>
 
-Используйте этот сценарий для изменения параметров подключения. Параметры, которые можно изменить, включите учетную запись службы WFM Blue Yonder и пароль, Microsoft 365 системную учетную запись, сопоставления команд и параметры синхронизации.
+Используйте этот сценарий для изменения параметров подключения. К параметрам, которые можно изменить, относятся учетная запись и пароль службы Blue Yonder WFM, системная учетная запись Microsoft 365, сопоставления команд и параметры синхронизации.
 
-Параметры синхронизации включают частоту синхронизации (в минутах) и данные расписания, синхронизированные между Blue Yonder WFM и Shifts. Данные расписания определяются в следующих параметрах, которые можно просмотреть с помощью [командлета Get-CsTeamsShiftsConnectionConnector](/powershell/module/teams/get-csteamsshiftsconnectionconnector).
+Параметры синхронизации включают частоту синхронизации (в минутах) и данные расписания, синхронизированные между blue Yonder WFM shifts. Данные расписания определяются в следующих параметрах, которые можно просмотреть с помощью [командлета Get-CsTeamsShiftsConnectionConnector](/powershell/module/teams/get-csteamsshiftsconnectionconnector).
 
-- Параметр **enabledConnectorScenarios** определяет данные, синхронизированные из Blue Yonder WFM в shifts. Параметры: `Shift`, `SwapRequest`, `UserShiftPreferences`, `OpenShift`, `OpenShiftRequest`, `TimeOffRequest``TimeOff`.
-- Параметр **enabledWfiScenarios** определяет данные, синхронизированные из shifts в Blue Yonder WFM. Параметры: `SwapRequest`, `OpenShiftRequest`, `TimeOffRequest`. `UserShiftPreferences`
+- Параметр **enabledConnectorScenarios** определяет данные, синхронизированные с Blue Yonder WFM shifts. Параметры: `Shift`, `SwapRequest`, `UserShiftPreferences`, `OpenShift`, `OpenShiftRequest`, `TimeOffRequest``TimeOff`.
+- Параметр **enabledWfiScenarios** определяет данные, синхронизированные из shifts в blue Yonder WFM. Параметры: `SwapRequest`, `OpenShiftRequest`, `TimeOffRequest`. `UserShiftPreferences`
 
     > [!NOTE]
     > Если вы решили не синхронизировать открытые смены, открытые запросы на смену, запросы на переключение или запросы на отгулы между shifts и Blue Yonder WFM, необходимо сделать еще один шаг, чтобы скрыть возможность в shifts. После выполнения этого сценария убедитесь, что вы выполните действия, описанные в разделе "Отключение открытых смен", "Запросы на открытие смен" [,](#disable-open-shifts-open-shifts-requests-swap-requests-and-time-off-requests) "Запросы на переключение" и "Запросы на отгулы" далее в этой статье.
@@ -275,18 +275,18 @@ Write-Host "Success"
 > [!IMPORTANT]
 > Выполните следующие действия, только если вы решили отключить открытые смены, открытые запросы на смену, запросы на переключение или запросы на [](#change-connection-settings) отгулы с помощью скрипта в разделе "Изменение параметров подключения" ранее в этой статье или с помощью командлета [Set-CsTeamsShiftsConnectionInstance](/powershell/module/teams/set-csteamsshiftsconnectioninstance). Выполнение этого шага скрывает возможность в shifts. Без этого второго шага пользователи по-прежнему будут видеть возможность в shifts и будут получать сообщение об ошибке "неподдерживаемая операция", если они попытаются использовать ее.
 
-Чтобы скрыть открытые смены, запросы на переключение и запросы на отгулы в shifts, используйте [](/graph/api/resources/schedule) тип ресурса API Graph ```false``` расписания, чтобы задать следующие параметры для каждой команды, сопоставленной с сайтом WFM Blue Yonder:
+Чтобы скрыть открытые смены, запросы на переключение и запросы на отгулы в shifts, используйте [](/graph/api/resources/schedule) тип ресурса расписания API Graph```false```, чтобы задать следующие параметры для каждой команды, сопоставленной с экземпляром Blue Yonder WFM:
 
 - Открытые смены: ```openShiftsEnabled```
 - Запросы на переключение:  ```swapShiftsRequestsEnabled```
 - Запросы на отгулы: ```timeOffRequestsEnabled```
 
-Чтобы скрыть запросы на открытые смены в **shifts**, перейдите Параметры в shifts, а затем отключите параметр **"Открыть смены**".
+Чтобы скрыть запросы на открытые смены в сменах,  перейдите к разделу "Параметры в сменах" и отключите параметр **"Открыть смены**".
 
 ## <a name="unmap-a-team-from-one-connection-and-map-it-to-another-connection"></a>Отмена сопоставления команды из одного подключения и сопоставление ее с другим подключением
 
 > [!NOTE]
-> Системная Microsoft 365 должна быть одинаковой для обоих подключений. Если это не так, вы получите сообщение об ошибке "Этот профиль назначенного субъекта не имеет прав владения командой".
+> Системная учетная запись Microsoft 365 должна быть одинаковой для обоих подключений. Если это не так, вы получите сообщение об ошибке "Этот профиль назначенного субъекта не имеет прав владения командой".
 
 Если вы хотите отменить сопоставление команды из одного подключения и сопоставить ее с другим подключением:
 
@@ -313,7 +313,7 @@ Write-Host "Success"
 
 ## <a name="disable-sync-for-a-connection"></a>Отключение синхронизации для подключения
 
-Используйте этот сценарий, чтобы отключить синхронизацию для подключения. Помните, что этот сценарий не удаляет или не удаляет подключение. Он отключает синхронизацию, чтобы не синхронизировать данные между shifts и Blue Yonder WFM для указанного подключения.
+Используйте этот сценарий, чтобы отключить синхронизацию для подключения. Помните, что этот сценарий не удаляет или не удаляет подключение. Он отключает синхронизацию, чтобы данные не синхронизируются между shifts и Blue Yonder WFM для указанного подключения.
 
 [Настроите среду](#set-up-your-environment) (если вы еще этого не сделали), а затем выполните следующий сценарий.
 
@@ -372,7 +372,7 @@ else {
 
 ## <a name="shifts-connector-cmdlets"></a>Командлеты соединителя Shifts
 
-Чтобы получить справку по командлетам соединителя Shifts, выполните поиск **CsTeamsShiftsConnection** в справочнике Teams [командлета PowerShell](/powershell/teams/intro). Ниже приведены ссылки на некоторые часто используемые командлеты.
+Чтобы получить справку по командлетам соединителя Shifts, найдите **CsTeamsShiftsConnection** в справочнике по [командлетам Teams PowerShell](/powershell/teams/intro). Ниже приведены ссылки на некоторые часто используемые командлеты.
 
 - [Get-CsTeamsShiftsConnectionOperation](/powershell/module/teams/get-csteamsshiftsconnectionoperation)
 - [New-CsTeamsShiftsConnectionInstance](/powershell/module/teams/new-csteamsshiftsconnectioninstance)
@@ -393,7 +393,7 @@ else {
 ## <a name="related-articles"></a>Статьи по теме
 
 - [Соединители shifts](shifts-connectors.md)
-- [Использование мастера соединителя Shifts для подключения shifts к Blue Yonder Workforce Management](shifts-connector-wizard.md)
-- [Подключение shifts к Blue Yonder Workforce Management с помощью PowerShell](shifts-connector-blue-yonder-powershell-setup.md)
+- [Используйте мастер соединителя shifts для подключения shifts к blue Yonder Workforce Management](shifts-connector-wizard.md)
+- [Подключение shifts к blue Yonder с помощью PowerShell Workforce Management](shifts-connector-blue-yonder-powershell-setup.md)
 - [Управление приложением "Смены"](manage-the-shifts-app-for-your-organization-in-teams.md)
 - [Обзор PowerShell в Teams](../../teams-powershell-overview.md)

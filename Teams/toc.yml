@@ -997,7 +997,7 @@ items:
             href: network-roaming-policy.md
       - name: Экстренные вызовы
         items:
-          - name: Обзор
+          - name: Общие сведения
             href: what-are-emergency-locations-addresses-and-call-routing.md
           - name: Настройка динамических экстренных вызовов
             href: configure-dynamic-emergency-calling.md
@@ -1163,7 +1163,7 @@ items:
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md
           - name: Ограничения и запреты для бесплатных номеров
             items:
-              - name: Обзор
+              - name: Общие сведения
                 href: toll-free-dialing-limitations-and-restrictions.md
               - name: Аргентина
                 href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-argentina.md
@@ -1561,9 +1561,9 @@ items:
             href: non-standard-users.md
           - name: Обновления приложений и роль администратора
             href: apps-update-experience.md
-          - name: Управление доступом к приложениям Teams в Microsoft 365
+          - name: Управление доступом к приложениям в Microsoft 365
             href: manage-third-party-teams-apps.md
-          - name: Аудит действий и событий управления приложениями
+          - name: Аудит действий управления приложениями
             href: audit-app-management-activities.md
       - name: Отчет об использовании приложения и аналитика
         href: teams-analytics-and-reports/app-usage-report.md

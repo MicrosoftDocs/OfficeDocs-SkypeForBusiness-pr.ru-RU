@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: Узнайте, какие USB-периферийные устройства (например, гарнитуры, динамики, веб-камеры и мониторы) сертифицированы для Microsoft Teams.
-ms.openlocfilehash: a2f106b71cc6494594ad34b9aa8dbfb61789a67a
-ms.sourcegitcommit: 79ada2140b110239deff96e4854ebd5dd9b77881
+ms.openlocfilehash: 7df6ca32a359931a62935d68257583c4d499aa93
+ms.sourcegitcommit: 90f03a841f8ca33092dce65c543357c7c2f7b82a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "66605708"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "66647661"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>USB-аудио- и видеоустройства, сертифицированные для Microsoft Teams
 
@@ -149,8 +149,8 @@ ms.locfileid: "66605708"
 |Lenovo               |Pro Wired VoIP Stereo Headset                              |12/21/2020      |Skype для бизнеса с обновлением до Microsoft Teams      |
 |Поли                 |Savi Office 7320                                           |12/18/2020      |Сертифицировано для Microsoft Teams                           |
 |Поли                 |Savi Office 7310                                           |12/18/2020      |Сертифицировано для Microsoft Teams                           |
-|Jabra                |Evolve 75e / SE Headset                                         |12/16/2020      |Skype для бизнеса с обновлением до Microsoft Teams      |
-|Jabra                |Evolve 65e / SE Headset                                         |12/16/2020      |Skype для бизнеса с обновлением до Microsoft Teams      |
+|Jabra                |Развитие гарнитуры 75e                                         |12/16/2020      |Skype для бизнеса с обновлением до Microsoft Teams      |
+|Jabra                |Развитие гарнитуры 65e                                         |12/16/2020      |Skype для бизнеса с обновлением до Microsoft Teams      |
 |Dell                 |Монитор C3422WE                                            |12/11/2020      |Сертифицировано для Microsoft Teams                           |
 |Dell                 |Монитор C2722DE                                            |12/11/2020      |Сертифицировано для Microsoft Teams                           |
 |Dell                 |Монитор C2422HE                                            |12/11/2020      |Сертифицировано для Microsoft Teams                           |
@@ -167,8 +167,8 @@ ms.locfileid: "66605708"
 |EPOS/Sennheiser      |Влияние SC 660 с соединителем USB-ED CC 01 MS               |8/20/2020       |Skype для бизнеса с обновлением до Microsoft Teams      |
 |EPOS/Sennheiser      |Влияние SC 630 на соединитель USB-ED CC 01 MS               |8/20/2020       |Skype для бизнеса с обновлением до Microsoft Teams      |
 |EPOS/Sennheiser      |Влияние SC 260 на соединитель USB-ED CC 01 MS               |8/20/2020       |Skype для бизнеса с обновлением до Microsoft Teams      |
-|Jabra                |Гарнитура Evolve 75                                          |7/31/2020       |Skype для бизнеса с обновлением до Microsoft Teams      |
-|Jabra                |Гарнитура Evolve 65                                          |7/31/2020       |Skype для бизнеса с обновлением до Microsoft Teams      |
+|Jabra                |Гарнитура Evolve 75/SE                                          |7/31/2020       |Skype для бизнеса с обновлением до Microsoft Teams      |
+|Jabra                |Гарнитура Evolve 65/SE                                          |7/31/2020       |Skype для бизнеса с обновлением до Microsoft Teams      |
 |Jabra                |Привлечение гарнитуры 50                                          |7/31/2020       |Skype для бизнеса с обновлением до Microsoft Teams      |
 |Avocor               |WCD— AVW-6555                                              |7/30/2020       |Сертифицировано для Microsoft Teams                           |
 |Jabra                |Гарнитура Evolve2 85                                         |7/17/2020       |Сертифицировано для Microsoft Teams                           |
