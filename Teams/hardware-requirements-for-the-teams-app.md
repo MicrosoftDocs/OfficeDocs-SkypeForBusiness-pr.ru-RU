@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 39025c0ccd9cb3b7bc02de85719f98f4ec7f3090
-ms.sourcegitcommit: 1788f852508208a01f230f6f68a5a81ec8594c47
+ms.openlocfilehash: 449f706b5df8431fae6dda45d0e1412f34a4bd46
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/02/2022
-ms.locfileid: "65860072"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66615435"
 ---
 # <a name="hardware-requirements-for-microsoft-teams"></a>Требования к оборудованию для Microsoft Teams
 
@@ -40,7 +40,7 @@ ms.locfileid: "65860072"
 |Жесткий диск    | 3,0 ГБ свободного пространства на жестком диске        |
 |Отображение    |   Разрешение экрана 1024 x 768 |
 |Графическое оборудование |  ОС Windows: для аппаратного ускорения графики требуется DirectX 9 или более поздняя версия, с WDDM 2.0 или более поздней версии для Windows 10 (или WDDM 1.3 или более поздняя версия для Windows 10 Fall Creators Update)
-|Операционная система  |    Windows 11, Windows 10 (кроме Windows 10 LTSC), Windows 10 на ARM, Windows 8.1, Windows Server 2019, Windows Server 2016, Windows Server 2012 R2. Примечание. Рекомендуем использовать последнюю версию Windows и доступные исправления для системы безопасности.|
+|Операционная система  |    Windows 11, Windows 10 (кроме Windows 10 LTSC для классического приложения Teams), Windows 10 на ARM, Windows 8.1, Windows Server 2019, Windows Server 2016, Windows Server 2012 R2. Примечание. Рекомендуем использовать последнюю версию Windows и доступные исправления для системы безопасности.|
 |Версия .NET    |  Требуется .NET 4.5 CLR или более поздняя версия       |
 |Видео    |  Видеокамера USB 2.0       |
 |Устройства    |   Стандартная камера ноутбука, микрофон и динамики    |
