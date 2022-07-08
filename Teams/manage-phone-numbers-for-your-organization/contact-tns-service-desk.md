@@ -23,12 +23,12 @@ ms.custom:
 - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
 description: При появлении номеров телефонов или номеров портов (передачи) для вашей организации может потребоваться получить справку и поддержку в службе технической поддержки TNS.
-ms.openlocfilehash: bd12ac951e6a0f23ffeebf7a9d2e7655ce73d906
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: 8fd5bb73ebdf5aba4cbadeb885404e1a6a6b4fca
+ms.sourcegitcommit: 9175c6d542dd825ce965d0cb7c67264f22315202
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66240736"
+ms.lasthandoff: 07/07/2022
+ms.locfileid: "66687875"
 ---
 # <a name="telephone-number-services-tns---service-desk"></a>Службы телефонных номеров (TNS) — Service Desk
 
@@ -43,7 +43,7 @@ ms.locfileid: "66240736"
 
 2. В области слева выберите " **Голосовая связь**", а затем " **Номера телефонов"**.
 
-3. В правом верхнем углу страницы щелкните **"Действия**", а затем выберите "Получить **поддержку номера телефона"**. Вы будете переведены в Центр **обслуживания номеров** телефонов (Service Desk Portal).
+3. В правом верхнем углу страницы щелкните **"Действия**", а затем выберите "Получить **поддержку номера телефона"**. Вы будете переведены в Центр [обслуживания номеров телефонов](https://pstnsd.powerappsportals.com/)
 
 > [!NOTE]
 > Создание дела разрешено только пользователю из одного клиента. Например, пользователь из @fabrikam.com не может создать дело от имени @contoso.com.
