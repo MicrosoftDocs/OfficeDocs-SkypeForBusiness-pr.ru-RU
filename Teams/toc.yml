@@ -997,7 +997,7 @@ items:
             href: network-roaming-policy.md
       - name: Экстренные вызовы
         items:
-          - name: Общие сведения
+          - name: Обзор
             href: what-are-emergency-locations-addresses-and-call-routing.md
           - name: Настройка динамических экстренных вызовов
             href: configure-dynamic-emergency-calling.md
@@ -1163,7 +1163,7 @@ items:
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md
           - name: Ограничения и запреты для бесплатных номеров
             items:
-              - name: Общие сведения
+              - name: Обзор
                 href: toll-free-dialing-limitations-and-restrictions.md
               - name: Аргентина
                 href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-argentina.md
@@ -1489,7 +1489,7 @@ items:
             href: devices/plan-device-deployment.md
           - name: Учетные записи ресурсов для Skype для бизнеса Server
             href: rooms/with-skype-for-business-server-2015.md
-  - name: Управление приложениями
+  - name: Управление приложениями в Teams
     items:
       - name: Общие сведения о приложениях в Teams
         href: deploy-apps-microsoft-teams-landing-page.md
@@ -1517,10 +1517,10 @@ items:
             href: overview-of-app-validation.md
           - name: 'Безопасность, соответствие требованиям и конфиденциальность сторонних приложений'
             href: overview-of-app-certification.md
-          - name: Управление Microsoft 365 и настраиваемыми соединителями
-            href: Office-365-custom-connectors.md
           - name: Приобретение сторонних приложений для Teams
             href: purchase-third-party-apps.md
+          - name: Управление Microsoft 365 и настраиваемыми соединителями
+            href: Office-365-custom-connectors.md
       - name: Шаблоны приложений для Teams
         href: /microsoftteams/platform/samples/app-templates?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fMicrosoftTeams%2ftoc.json
       - name: Управление пользовательскими бизнес-приложениями
@@ -1531,7 +1531,7 @@ items:
             href: submit-approve-custom-apps.md
           - name: Публикация настраиваемого приложения путем отправки пакета приложений
             href: upload-custom-apps.md
-          - name: Настройка параметров в Teams
+          - name: Настройка внешнего вида и метаданных приложений
             href: customize-apps.md
           - name: Настройка фирменного стиля магазина приложений вашей организации
             href: customize-your-app-store.md
@@ -1541,13 +1541,13 @@ items:
             href: manage-apps.md
           - name: Политики приложений
             items:
-              - name: Управление политиками приложений в Teams
+              - name: Политики приложений
                 href: app-policies.md
-              - name: Управление политиками разрешений для приложений в Teams
+              - name: управлять политиками разрешений для приложений;
                 href: teams-app-permission-policies.md
-              - name: Управление политиками настройки приложений в Teams
+              - name: Управление политиками настройки приложений
                 href: teams-app-setup-policies.md
-              - name: Управление пользовательскими политиками и параметрами приложений в Teams
+              - name: управлять настраиваемыми политиками и параметрами приложений
                 href: teams-custom-app-policies-and-settings.md
           - name: Настройка приложения Teams для сотрудников без компьютеров
             href: pin-teams-apps-based-on-license.md
@@ -1557,16 +1557,16 @@ items:
             href: resource-specific-consent.md
           - name: Сведения о разрешениях приложений и доступе к ресурсам
             href: app-permissions.md
-          - name: Поведение приложений в зависимости от типов пользователей
-            href: non-standard-users.md
-          - name: Обновления приложений и роль администратора
-            href: apps-update-experience.md
           - name: Управление доступом к приложениям в Microsoft 365
             href: manage-third-party-teams-apps.md
           - name: Аудит действий управления приложениями
             href: audit-app-management-activities.md
-      - name: Отчет об использовании приложения и аналитика
-        href: teams-analytics-and-reports/app-usage-report.md
+          - name: Отчет об использовании приложения и аналитика
+            href: teams-analytics-and-reports/app-usage-report.md
+          - name: Поведение приложений в зависимости от типов пользователей
+            href: non-standard-users.md
+          - name: Обновления приложений и роль администратора
+            href: apps-update-experience.md
   - name: Руководство для отраслей и государственных организаций
     items:
       - name: Обзор
