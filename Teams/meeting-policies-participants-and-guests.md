@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Узнайте, как управлять параметрами политики собраний в Teams для участников и гостей.
-ms.openlocfilehash: 5770c4d998a28edf2b8fc8131650b98420e826f9
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: 7f9cb76e12671425ee2b7b0543263195796e04d5
+ms.sourcegitcommit: 8d7a926758971bee491d24f23b1ad14f5e5c6f7f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66241138"
+ms.lasthandoff: 07/11/2022
+ms.locfileid: "66713357"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>Параметры политик собраний — участники и гости
 
@@ -112,9 +112,11 @@ ms.locfileid: "66241138"
 
 ## <a name="qa-in-meetings"></a>Q&A на собраниях
 
-Это политика для организатора. Этот параметр определяет, могут ли организаторы добавлять Q&A в свои собрания. По умолчанию этот параметр отключен. Дополнительные сведения о Q&A см. [здесь](/manage-qna-for-meetings). 
+Это политика для организатора. Этот параметр позволяет администраторам клиента Microsoft 365 включить или отключить функцию ответов & вопросов (Q&A).
 
-Чтобы параметр QnAEngagementMode управляет этой политикой в PowerShell и Q&A, также можно настроить на портале администрирования.
+Этот параметр применяется при создании или обновлении собрания организаторами. По умолчанию этот параметр отключен. Дополнительные сведения о Q&A см. [здесь](/manage-qna-for-meetings).
+
+Параметр QnAEngagementMode управляет этой политикой в PowerShell. Q&A также можно настроить на портале администрирования.
 
 |Значение параметра |Поведение  |
 |---------|---------|
