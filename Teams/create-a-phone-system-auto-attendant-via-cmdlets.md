@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Узнайте, как настроить автосекретарей с помощью командлетов
-ms.openlocfilehash: a3f669a6540e42cd0ff4a016da0215ca79f3bd22
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 4dccd4e5026d78dada222cedf98659cdcd5ce6e5
+ms.sourcegitcommit: 6fb15729b2ff5ca142cb90605f3c98112cb36804
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65676620"
+ms.lasthandoff: 07/12/2022
+ms.locfileid: "66744325"
 ---
 # <a name="create-an-auto-attendant-via-cmdlets"></a>Создание автосекретаря с помощью командлетов
 
@@ -52,7 +52,7 @@ ms.locfileid: "65676620"
 3. Вы приобрели Телефонная система Microsoft Teams
 4. Очереди вызовов, указанные ниже, уже настроены в руководстве по созданию очередей вызовов с помощью [командлетов PowerShell](create-a-phone-system-call-queue-via-cmdlets.md) .
 
-**Примечание**. Некоторые командлеты, на которые ссылаются ниже, могут быть частью общедоступной предварительной версии Teams PowerShell. Дополнительные сведения см. в Teams [powerShell](teams-powershell-install.md), а также в Microsoft Teams [выпуске PowerShell](teams-powershell-release-notes.md).
+**Примечание**. Некоторые командлеты, на которые ссылаются ниже, могут быть частью общедоступной предварительной версии модуля Teams PowerShell. Дополнительные сведения см. в [разделе "Установка Teams PowerShell](teams-powershell-install.md) общедоступной предварительной версии", а также в заметках о выпуске [Microsoft Teams PowerShell](teams-powershell-release-notes.md).
 
 Пользователи, у которых уже установлен модуль MicrosoftTeams `Update-Module MicrosoftTeams` , должны убедиться, что установлена самая последняя версия.
 
@@ -85,7 +85,7 @@ ms.locfileid: "65676620"
 
 ## <a name="login"></a>Вход
 
-Вам будет предложено ввести учетные данные Teams администратора.
+Вам будет предложено ввести учетные данные администратора Teams.
 
 ```PowerShell
 $credential = Get-Credential
@@ -113,7 +113,7 @@ Get-MsolAccountSku
 
 ### <a name="create-and-assign-resource-account"></a>Создание и назначение учетной записи ресурса
 
-**Примечание**. Телефон номер не требуется, так как очередь вызовов заканчивается автосекретарем
+**Примечание**. Номер телефона здесь не требуется, так как очередь звонков заканчивается автосекретарем
 
 - ApplicationID
   - Автосекретарь: ce933385-9390-45d1-9512-c8d228074e07
@@ -211,7 +211,7 @@ $dialbynameAAMenuOption3 = New-CsAutoAttendantMenuOption -Action TransferCallToT
 $afterHoursMenuOption4 = New-CsAutoAttendantMenuOption -Action Announcement -DtmfResponse Tone4 -Prompt $addressPrompt
 ```
 
-### <a name="create-after-hours-menu-and-call-flow"></a>Создание меню "Нерабочее время" и вызов Flow
+### <a name="create-after-hours-menu-and-call-flow"></a>Создание меню "Нерабочее время" и потока вызовов
 
 ```PowerShell
 $afterHoursMenu = New-CsAutoAttendantMenu -Name "After Hours Menu" -MenuOptions @($afterHoursMenuOption1, $afterHoursMenuOption2, $dialbynameAAMenuOption3, $afterHoursMenuOption4) -Prompt $afterHoursMenuPrompt
@@ -288,7 +288,7 @@ New-CsOnlineApplicationInstanceAssociation -Identities @($applicationInstanceID)
 ### <a name="get-list-of-unassigned-service-numbers"></a>Получение списка неназначенных номеров служб
 
 ```PowerShell
-Get-CsOnlineTelephoneNumber -IsNotAssigned -InventoryType Service
+Get-CsPhoneNumberAssignment -PstnAssignmentStatus Unassigned -CapabilitiesContain VoiceApplicationAssignment
 ```
 
 #### <a name="assign-available-phone-number"></a>Назначение доступного номера телефона
