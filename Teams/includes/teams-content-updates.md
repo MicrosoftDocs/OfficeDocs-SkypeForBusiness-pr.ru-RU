@@ -3,6 +3,30 @@
 
 
 
+## <a name="week-of-july-04-2022"></a>Неделя с 4 июля 2022 г.
+
+
+| Дата публикации |Название статьи | Изменение |
+|------|------------|--------|
+| 7/5/2022 | [Справочник по командлетам PowerShell для автосекретарей и очередей звонков](/MicrosoftTeams/call-queue-auto-attendant-cmdlets) | Изменено |
+| 7/5/2022 | [Настройка автосекретаря для Microsoft Teams](/MicrosoftTeams/create-a-phone-system-auto-attendant) | Изменено |
+| 7/5/2022 | [Создание очереди звонков в Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | Изменено |
+| 7/5/2022 | [Собрания и конференции в Microsoft Teams](/MicrosoftTeams/deploy-meetings-microsoft-teams-landing-page) | Изменено |
+| 7/5/2022 | [Настройка пограничного контроллера сеанса — несколько клиентов](/MicrosoftTeams/direct-routing-sbc-multiple-tenants) | Изменено |
+| 7/5/2022 | [Планирование автосекретарей и очередей звонков Teams](/MicrosoftTeams/plan-auto-attendant-call-queue) | Изменено |
+| 7/5/2022 | [Собрания, вебинары и трансляции](/MicrosoftTeams/quick-start-meetings-live-events) | Изменено |
+| 7/5/2022 | [Телефонная система Microsoft Teams учетной записи ресурса](/MicrosoftTeams/teams-add-on-licensing/virtual-user) | Изменено |
+| 7/5/2022 | [Пример использования голосовой связи Teams в Contoso: автосекретари и очереди звонков](/MicrosoftTeams/voice-case-study-call-queues) | Изменено |
+| 7/5/2022 | [Поиск событий управления приложениями в журналах аудита](/MicrosoftTeams/audit-app-management-activities) | Добавлено |
+| 7/6/2022 | [Руководство для ИТ-администраторов по Insights в Microsoft Teams для образования](/MicrosoftTeams/class-insights) | Изменено |
+| 7/6/2022 | [Подключение shifts к blue Yonder с помощью PowerShell Workforce Management](/MicrosoftTeams/expand-teams-across-your-org/shifts/shifts-connector-blue-yonder-powershell-setup) | Изменено |
+| 7/6/2022 | [Используйте мастер соединителя shifts для подключения shifts к blue Yonder Workforce Management](/MicrosoftTeams/expand-teams-across-your-org/shifts/shifts-connector-wizard) | Изменено |
+| 7/6/2022 | [Как можно использовать идентификатор звонящего в организации](/MicrosoftTeams/how-can-caller-id-be-used-in-your-organization) | Изменено |
+| 7/7/2022 | Общие сведения о звонках в Microsoft Teams | Удалено |
+| 7/7/2022 | [Планы звонков для Microsoft 365](/MicrosoftTeams/calling-plans-for-office-365) | Изменено |
+| 7/8/2022 | [Виртуальные встречи с помощью Microsoft Teams и приложения Bookings](/MicrosoftTeams/expand-teams-across-your-org/bookings-virtual-visits) | Изменено |
+
+
 ## <a name="week-of-june-27-2022"></a>Неделя с 27 июня 2022 г.
 
 
@@ -85,22 +109,3 @@
 | 6/10/2022 | [Развертывание команд в большом масштабе для сотрудников без компьютеров в Microsoft Teams](/MicrosoftTeams/deploy-teams-at-scale) | Изменено |
 | 6/10/2022 | [Переход с корпоративной голосовой связи на лицензии Teams Phone](/MicrosoftTeams/business-voice-to-teams-phone-licenses) | Добавлено |
 | 6/10/2022 | [Включение Комнаты Teams устройств для присоединения к сторонним собраниям](/MicrosoftTeams/rooms/third-party-join) | Изменено |
-
-
-## <a name="week-of-may-30-2022"></a>Неделя с 30 мая 2022 г.
-
-
-| Дата публикации |Название статьи | Изменение |
-|------|------------|--------|
-| 5/31/2022 | [Управление приложением Обновления для организации](/MicrosoftTeams/manage-updates-app) | Добавлено |
-| 5/31/2022 | [Настройка магазина приложений в Teams](/MicrosoftTeams/customize-your-app-store) | Изменено |
-| 5/31/2022 | [Управление политиками разрешений для приложений в Microsoft Teams](/MicrosoftTeams/teams-app-permission-policies) | Изменено |
-| 5/31/2022 | [Общие каналы в Microsoft Teams](/MicrosoftTeams/shared-channels) | Изменено |
-| 5/31/2022 | [Управление политиками настройки приложений в Microsoft Teams](/MicrosoftTeams/teams-app-setup-policies) | Изменено |
-| 6/1/2022 | [Пограничные контроллеры сеансов, сертифицированные для прямой маршрутизации](/MicrosoftTeams/direct-routing-border-controllers) | Изменено |
-| 6/1/2022 | [Адреса для экстренного реагирования для удаленных расположений](/MicrosoftTeams/emergency-calling-dispatchable-location) | Изменено |
-| 6/1/2022 | [Создание очереди звонков в Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | Изменено |
-| 6/2/2022 | [Требования к оборудованию для Microsoft Teams](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | Изменено |
-| 6/2/2022 | [Ограничения для специальных знаков в политиках Teams](/MicrosoftTeams/special-character-restrictions-in-policy-names) | Изменено |
-| 6/2/2022 | [Администратор родительских элементов в Teams для образования](/MicrosoftTeams/edu-parents-app) | Изменено |
-| 6/3/2022 | [Отчет о Виртуальные встречи соединителя Microsoft Teams EHR](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin-reports) | Изменено |
