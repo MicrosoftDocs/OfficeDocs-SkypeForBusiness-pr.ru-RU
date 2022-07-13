@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Узнайте, какие стационарные и конференции сертифицированы для Microsoft Teams для достижения наилучших результатов.
-ms.openlocfilehash: ad6db1f1766173b8d1e167b912555d85115087e3
-ms.sourcegitcommit: f608811288c82a6348a6af1671246a93ed06e578
+ms.openlocfilehash: f0cfd75ed37937abc988f7f865a1357aec352b3c
+ms.sourcegitcommit: 8fc2d6a824e1e119f54ea2347bc5c10cc076956d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/07/2022
-ms.locfileid: "66660975"
+ms.lasthandoff: 07/13/2022
+ms.locfileid: "66773698"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Сертифицированные устройства Android в Microsoft Teams
 
@@ -72,6 +72,7 @@ ms.locfileid: "66660975"
 
 | Модель устройства | Версия встроенного ПО | Текущая дата окончания сертификации | Размер комнаты                                        |  Версия ОС Android    |
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|-----------------------------------|
+| Yealink MeetingBoard 65" | `155.15.0.6 `   | 3 сентября 2024 г. | Комната среднего размера (4,5 м x 6 м) | 10|
 | Yealink MeetingBar A20 | `133.15.0.108  `   | 3 сентября 2024 г. | Небольшая комната для собраний (4,5 м x 4,5 м)| 10|
 | Yealink MeetingBar A30 | `133.15.0.108  `   | 3 сентября 2024 г. | Комната среднего размера (4,5 м x 6 м) | 10|
 | Logitech Tap IP VR0029     | `1.6.762`  |   3 сентября 2024 г.  | Совместимо с Logitech Rally Bar и Rally Bar Mini | 10 |
