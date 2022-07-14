@@ -1,7 +1,7 @@
 ---
-title: Телефон управления номерами для Швеции
-author: SerdarSoysal
-ms.author: serdars
+title: Управление номерами телефонов для Швеции
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: davlick,krkilaru
 ms.topic: reference
@@ -18,29 +18,29 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: В этой таблице вы найдете сведения о получении номеров телефонов в Швеции и управлении Microsoft Teams.
-ms.openlocfilehash: 00cd34d6e0285c6fee48349eb050fb015050148f
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+description: Эта таблица содержит сведения о получении номеров телефонов в Швеции для Microsoft Teams и управлении ими.
+ms.openlocfilehash: 2d12ffba91c439b073264616c594a41125ff107a
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62394511"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66790004"
 ---
-# <a name="phone-number-management-for-sweden"></a>Телефон управления номерами для Швеции
+# <a name="phone-number-management-for-sweden"></a>Управление номерами телефонов для Швеции
 
-В этой таблице вы найдете сведения о получении номеров телефонов в Швеции и управлении Microsoft Teams.
+Эта таблица содержит сведения о получении номеров телефонов в Швеции для Microsoft Teams и управлении ими.
   
 Дополнительные сведения см. в статье [Управление номерами телефонов для организации](manage-phone-numbers-for-your-organization.md).
   
 |**Требуемое действие**|**Скачайте подходящие формы и отправьте их нам**|
 |:-----|:-----|
-|Получите новые номера телефонов пользователей или служб, которые не указаны в Microsoft Teams центре администрирования.   <br/> |Скачайте одну из этих форм. <br/>  [Новый запрос номера телефона для Швеции (v.5.0) (sv-se)](https://download.microsoft.com/download/5/e/3/5e3b17c3-9cc3-4098-8b03-4235dd42e724/new-phone-number-request-for-sweden-(v.5.0)-(sv-se).pdf) <br/>  [Новый номер телефона для Швеции (v.5.0) (en-us)](https://download.microsoft.com/download/a/3/0/a30b10be-42db-458d-bda2-adb320f2e2f3/new-phone-number-request-for-sweden-(v.5.0)-(en-us).pdf)<br/>  <br/>Заполните его и [обратитесь за инструкциями в службу TNS Service Desk](contact-tns-service-desk.md).|
-Перенаправь нам номера телефонов.  <br/> |Скачайте эту форму. <br/>[Док-досье (LOA) для Швеции (все номера) (v.5.0) (sv-se)](https://download.microsoft.com/download/b/d/0/bd030c0c-67c5-40fb-a148-d12a4675aa79/letter-of-authorization-(loa)-for-sweden-(all-numbers)-(v.5.0)-(sv-se).pdf)<br/><br/> Заполните его и [обратитесь за инструкциями в службу TNS Service Desk](contact-tns-service-desk.md). <br/> |
-|Публикация и публикация номеров телефонов в национальном телефонном каталоге.  <br/> |[Чтобы получить инструкции по](contact-tns-service-desk.md) списку номеров телефонов, которые вы хотите опубликовать или от публикации, обратитесь в службу TNS Service Desk.      <br/> |
-|Измените номер пользователя на номер службы.  <br/> |[Чтобы получить инструкции по](contact-tns-service-desk.md) списку пользовательских номеров, которые вы хотите преобразовать в номера служб, обратитесь в службу TNS Service Desk. <br/> |
-|Обновление службы каталогов для номеров очереди  вызовов и номеров автослужб|Чтобы добавить или изменить номера очереди вызовов или автозавода, обратитесь за [инструкциями в службу TNS Service Desk](contact-tns-service-desk.md). |
+|Получение новых номеров телефонов пользователей или служб, которые не указаны в Центре администрирования Microsoft Teams.   <br/> |Скачайте одну из этих форм. <br/>  [Новый запрос на номер телефона для Швеции (версия 5.0) (sv-se)](https://download.microsoft.com/download/5/e/3/5e3b17c3-9cc3-4098-8b03-4235dd42e724/new-phone-number-request-for-sweden-(v.5.0)-(sv-se).pdf) <br/>  [Новый запрос на номер телефона для Швеции (версия 5.0) (en-us)](https://download.microsoft.com/download/a/3/0/a30b10be-42db-458d-bda2-adb320f2e2f3/new-phone-number-request-for-sweden-(v.5.0)-(en-us).pdf)<br/>  <br/>Заполните его и [обратитесь к Service Desk TNS.](contact-tns-service-desk.md)|
+Получение номеров телефонов, переданных нам.  <br/> |Скачайте эту форму. <br/>[Буква авторизации (LOA) для Швеции (все цифры) (версия 5.0) (sv-se)](https://download.microsoft.com/download/b/d/0/bd030c0c-67c5-40fb-a148-d12a4675aa79/letter-of-authorization-(loa)-for-sweden-(all-numbers)-(v.5.0)-(sv-se).pdf)<br/><br/> Заполните его и [обратитесь к Service Desk TNS.](contact-tns-service-desk.md) <br/> |
+|Публикация и отмена публикации номеров телефонов в каталоге национальных телефонов.  <br/> |[Обратитесь к Service Desk TNS](contact-tns-service-desk.md), чтобы получить инструкции по списку номеров телефонов, которые вы хотите опубликовать или отменить.      <br/> |
+|Измените номер пользователя на номер службы.  <br/> |[Обратитесь к Service Desk TNS](contact-tns-service-desk.md), чтобы получить инструкции по списку номеров пользователей, которые требуется преобразовать в номера служб. <br/> |
+|Обновление службы каталогов для номеров очереди звонков или автосекретаря|Чтобы добавить или изменить номера очереди звонков или автосекретаря, обратитесь к [Service Desk TNS](contact-tns-service-desk.md). |
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
 [Типы номеров телефонов, используемые в планах звонков](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
@@ -48,4 +48,4 @@ ms.locfileid: "62394511"
 
 [Условия и положения, распространяющиеся на экстренные вызовы](../emergency-calling-terms-and-conditions.md)
   
-[Заявление об отказе от ответственности экстренных вызовов](https://download.microsoft.com/download/a/8/0/a807c43d-2177-4fe0-8732-86b3784ae6e5/emergency-calling-label-(en-us)-(v.1.0).zip)
+[Метка заявления об отказе от экстренных вызовов](https://download.microsoft.com/download/a/8/0/a807c43d-2177-4fe0-8732-86b3784ae6e5/emergency-calling-label-(en-us)-(v.1.0).zip)

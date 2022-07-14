@@ -1,7 +1,7 @@
 ---
-title: Телефон управления номерами для Новой Зеландии
-author: SerdarSoysal
-ms.author: serdars
+title: Управление номерами телефонов для Новой Зеландии
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: chandra.kilaru, kristen.kutser
 ms.topic: reference
@@ -19,31 +19,31 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: Эта таблица содержит сведения о получении номеров телефонов в Новой Зеландии и управлении ими для Microsoft Teams.
-ms.openlocfilehash: d1508eebf4e81c61738bfa60b0b28d97720e9efb
-ms.sourcegitcommit: e38dc23e3968f55625e90c8883884045f80d22ee
+description: Эта таблица содержит сведения о получении номеров телефонов в Новой Зеландии для Microsoft Teams и управлении ими.
+ms.openlocfilehash: e359fa8fe26324cf2ba607b638e3e379549b471c
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/16/2022
-ms.locfileid: "66124204"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66789174"
 ---
-# <a name="phone-number-management-for-new-zealand"></a>Телефон управления номерами для Новой Зеландии
+# <a name="phone-number-management-for-new-zealand"></a>Управление номерами телефонов для Новой Зеландии
 
 [!INCLUDE [preview-feature](../includes/preview-feature.md)]
 
-Эта таблица содержит сведения о получении номеров телефонов в Новой Зеландии и управлении ими для Microsoft Teams.
+Эта таблица содержит сведения о получении номеров телефонов в Новой Зеландии для Microsoft Teams и управлении ими.
   
 Дополнительные сведения см. в статье [Управление номерами телефонов для организации](manage-phone-numbers-for-your-organization.md).
   
 |**Требуемое действие**|**Загрузка подходящих форм**|
 |:-----|:-----|
-|Получение новых номеров телефонов пользователей или служб, которые не указаны в Microsoft Teams центре администрирования.|В Новой Зеландии вы можете получить номера телефонов для своей организации с помощью Microsoft Teams центра администрирования. Вы также можете отправить новый запрос на номер телефона, скачав форму и обратитесь к [Service Desk TNS](contact-tns-service-desk.md).<br/><br/>[Новый запрос на номер телефона для Новой Зеландии (en-nz)](https://download.microsoft.com/download/e/6/7/e67f46ef-e1cd-4e70-a5cc-f53fd74285aa/LNS-EN-NZ-TN.pdf). <br/><br/>[Новый запрос на номер телефона для Новой Зеландии (ми-nz)](https://download.microsoft.com/download/4/a/a/4aa04212-a13d-46bf-b09e-1efbcbb2e622/new-phone-number-request-for-new-zealand-(v1.0)-(mi-NZ).pdf). <br/><br/> Прежде чем назначать вам номера телефонов, необходимо скачать форму "Знать клиента", завершить ее полностью и связаться с Service Desk [TNS](contact-tns-service-desk.md).<br/><br/>Для заполнения новых заказов на этот рынок может потребоваться от двух до трех недель.  |
+|Получение новых номеров телефонов пользователей или служб, которые не указаны в Центре администрирования Microsoft Teams.|В Новой Зеландии вы можете получить номера телефонов для своей организации с помощью Центра администрирования Microsoft Teams. Вы также можете отправить новый запрос на номер телефона, скачав форму и обратитесь к [Service Desk TNS](contact-tns-service-desk.md).<br/><br/>[Новый запрос на номер телефона для Новой Зеландии (en-nz)](https://download.microsoft.com/download/e/6/7/e67f46ef-e1cd-4e70-a5cc-f53fd74285aa/LNS-EN-NZ-TN.pdf). <br/><br/>[Новый запрос на номер телефона для Новой Зеландии (ми-nz)](https://download.microsoft.com/download/4/a/a/4aa04212-a13d-46bf-b09e-1efbcbb2e622/new-phone-number-request-for-new-zealand-(v1.0)-(mi-NZ).pdf). <br/><br/> Прежде чем назначать вам номера телефонов, необходимо скачать форму "Знать клиента", завершить ее полностью и связаться с Service Desk [TNS](contact-tns-service-desk.md).<br/><br/>Для заполнения новых заказов на этот рынок может потребоваться от двух до трех недель.  |
 |Получение номеров телефонов, переданных нам.  <br/> | Скачайте эту форму. <br/>[Доверенность (LOA) для Новой Зеландии (номера пользователей и служб) (версия 1.0) (en-nz)](https://download.microsoft.com/download/e/6/7/e67f46ef-e1cd-4e70-a5cc-f53fd74285aa/LOA-NZ-GEO-EN.pdf) <br/> <br/>Заполните его и [обратитесь к Service Desk TNS.](contact-tns-service-desk.md) <br/><br>Перенос номеров на этом рынке может занять от одной до шести недель в зависимости от сложности порта.<br/><br/>Географические номера можно перенести в качестве типа номера службы (для очередей вызовов & автосекретаря, так как эти номера в данный момент нельзя использовать для конференц-связи) или типа номера подписчика. Обратите внимание, что служба переноса для бесплатного номера (0800) в настоящее время не поддерживается. |
 |Публикация и отмена публикации номеров телефонов в каталоге национальных телефонов.  <br/> |[Обратитесь к Service Desk TNS](contact-tns-service-desk.md), чтобы получить инструкции по списку номеров телефонов, которые вы хотите опубликовать или отменить. <br/> |
 |Измените номер пользователя на номер службы.  <br/> |[Обратитесь к Service Desk TNS](contact-tns-service-desk.md), чтобы получить инструкции по списку номеров пользователей, которые требуется преобразовать в номера служб. <br/> |
 |Обновление службы каталогов для номеров очереди звонков или автосекретаря|Чтобы добавить или изменить номера очереди звонков или автосекретаря, обратитесь к [Service Desk TNS](contact-tns-service-desk.md).|
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
 [Типы номеров телефонов, используемые в планах звонков](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 

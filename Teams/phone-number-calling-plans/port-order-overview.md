@@ -1,7 +1,7 @@
 ---
 title: Что такое заказ на перенос номера?
-ms.author: serdars
-author: SerdarSoysal
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.voice.phonenumbers.porting.overview
 - Calling Plans
 description: Ознакомьтесь с общими сведениями о заказах на порты и способах передачи номеров телефонов от поставщика услуг в Teams.
-ms.openlocfilehash: a4062d6a5c63b590502d5afebc547bd319e2adda
-ms.sourcegitcommit: 9175c6d542dd825ce965d0cb7c67264f22315202
+ms.openlocfilehash: 21a91833956e5d24f0bb6e5895232517f39d8c6a
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/07/2022
-ms.locfileid: "66687835"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66789404"
 ---
 # <a name="whats-a-port-order"></a>Что такое заказ на перенос номера?
 
@@ -174,7 +174,7 @@ ms.locfileid: "66687835"
 
 - Убедитесь, что служба активна. Блокировка учетной записи предотвращает изменение операторов связи в учетной записи. Пользователь, авторизованный на внесение изменений в учетную запись, должен отправить заказ текущему оператору, чтобы снять зависание. Этот процесс может занять от одной до трех недель в зависимости от оператора.
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
 - [Каково состояние ваших заказов на перенос номеров?](port-order-status.md)
 - [Различные типы телефонных номеров, используемые для планов звонков](../different-kinds-of-phone-numbers-used-for-calling-plans.md)

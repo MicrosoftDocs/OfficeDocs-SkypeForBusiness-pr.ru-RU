@@ -1,7 +1,7 @@
 ---
 title: Справочник по SKU для образовательных учреждений
-author: SerdarSoysal
-ms.author: serdars
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.reviewer: karsmith
 ms.topic: article
@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Список планов лицензирования для преподавателей и учащихся и идентификаторов номеров SKU для образовательных учреждений.
 f1keywords: ''
-ms.openlocfilehash: f91896a23cf69d09ab5ba922d8b893a496737037
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: c6fe915950189dfe3ee46acc6187636fbe34da5a
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66494506"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66790174"
 ---
 # <a name="education-sku-reference"></a>Справочник по SKU для образовательных учреждений
 
@@ -69,6 +69,6 @@ ms.locfileid: "66494506"
 |Office 365 A1 для учащихся (для устройства)     |STANDARDWOFFPACK_STUDENT_DEVICE         |160d609e-ab08-4fce-bc1c-ea13321942ac         |
 |Office 365 A1 "Плюс" для учащихся     |STANDARDWOFFPACK_IW_STUDENT         |e82ae690-a2d5-4d76-8d30-7c6e01e6022e         |
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
 - [Назначение политик большим наборам пользователей в учебном заведении](batch-group-policy-assignment-edu.md)

@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 90e577f9d6ef7567387fbc7a26a944d20e976f66
-ms.sourcegitcommit: 8fc2d6a824e1e119f54ea2347bc5c10cc076956d
+ms.openlocfilehash: 1e557e0901293c26d48e30ed163883f9cd97f12e
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/13/2022
-ms.locfileid: "66773708"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66790354"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams для инфраструктуры виртуальных рабочих столов
 
@@ -171,8 +171,8 @@ Teams также добавляется в существующие устано
 
 1. Скачайте пакет MSI Teams, соответствующий операционной системе виртуальной машины VDI, по одной из следующих ссылок:
 
-    - [32-разрядная версия](https://statics.teams.cdn.office.net/production-windows/1.5.00.11865/Teams_windows.msi)
-    - [64-разрядная версия](https://statics.teams.cdn.office.net/production-windows-x64/1.5.00.11865/Teams_windows_x64.msi)
+    - [32-разрядная версия](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)
+    - [64-разрядная версия](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)
 
     > [!NOTE]
     > Ссылки для скачивания MSI-файлов см. в статье "Массовая установка Teams с помощью [установщика Windows (MSI](msi-deployment.md) )".
@@ -538,7 +538,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Citrix\CtxHook\AppInit_Dlls\SfrHook\Teams.exe
 
 Затем перезапустите VDA. Дополнительные сведения см. в этой статье о поддержке Citrix, в статье об устранении неполадок с оптимизацией [HDX для Microsoft Teams](https://support.citrix.com/article/CTX253754).
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
 - [Массовая установка Teams с помощью установщика Windows (MSI)](msi-deployment.md)
 - [Обзор PowerShell в Teams](teams-powershell-overview.md)

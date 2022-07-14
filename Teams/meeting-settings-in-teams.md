@@ -1,7 +1,7 @@
 ---
 title: Управление параметрами собраний
-author: SerdarSoysal
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: sonua
 ms.topic: article
@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: Узнайте, как управлять настройками собраний команд, которые пользователи планируют в своей организации.
-ms.openlocfilehash: 10afbcc30404122e9e4d497570bf0b69e4ef6fa7
-ms.sourcegitcommit: 2ce3e95401ac06c0370a54862372a94ec6291d01
-ms.translationtype: MT
+ms.openlocfilehash: c76267ae5cd9a19cae272d995a24077a58a7ec6f
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/05/2022
-ms.locfileid: "64642923"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66789794"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Управление настройками собраний в Microsoft Teams
 
@@ -70,7 +70,7 @@ ms.locfileid: "64642923"
 
 Любое другое сочетание значений не позволит анонимным пользователям присоединяться к собраниям.
 > [!NOTE]
-> Дополнительные информацию об управлении политиками собраний см. в этой [Microsoft Teams.](/microsoftteams/meeting-policies-overview)
+> Дополнительные сведения об управлении политиками собраний можно найти в статье [Управление политиками собраний в Microsoft Teams.](/microsoftteams/meeting-policies-overview).
 
 ### <a name="blocking-anonymous-join-for-specific-client-types"></a>Блокирование анонимного присоединения для определенных типов клиентов
 
@@ -179,7 +179,7 @@ ms.locfileid: "64642923"
 |:---             |:---                         |:---    |:---      |:---      |
 |Звук            | 50,000–50,019               |TCP/UDP |46        |Беспрепятственная переадресация (EF)|
 |Видео            | 50,020–50,039               |TCP/UDP |34        |Гарантированная переадресация (AF41)|
-|Приложение / Разделение экрана| 50,040–50,059      |TCP/UDP |18        |Гарантированная пересылка (AF21)|
+|Приложение / Разделение экрана| 50,040–50,059      |TCP/UDP |18         |Гарантированная пересылка (AF21)|
 | | | | |
 
 \* Диапазоны портов, которые вы назначаете, не могут перекрываться и должны быть смежными.

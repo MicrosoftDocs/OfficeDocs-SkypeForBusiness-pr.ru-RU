@@ -1,8 +1,8 @@
 ---
 title: Настройка приложения "Собрания Skype" для работы с Teams
 ms.reviewer: ''
-author: SerdarSoysal
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.date: 06/21/2019
 ms.topic: article
@@ -11,38 +11,38 @@ audience: admin
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Администраторы могут использовать центр администрирования Microsoft Teams для настройки приложения Skype "Собрания" для работы с Teams
+description: Администраторы могут использовать Центр администрирования Microsoft Teams для настройки приложения "Собрания Skype" для работы с Teams
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 90e14b79c53bf37772c7c5b4c655c293b91d5c2a
-ms.sourcegitcommit: 867e8b4120e81c93c029c0c1b9cb69c161fc87a4
+ms.openlocfilehash: 9423d6e3ace2a0926478760c45812b4ff0103936
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/26/2022
-ms.locfileid: "64480651"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66789594"
 ---
 # <a name="configure-the-skype-meetings-app-to-work-with-teams"></a>Настройка приложения "Собрания Skype" для работы с Teams
 
-После обновления пользователя до Microsoft Teams администраторы могут использовать центр администрирования Microsoft Teams для указания предпочитаемого приложения, которое будет применяться для Skype для бизнеса собраний.
+После обновления пользователя до Microsoft Teams администраторы могут использовать Центр администрирования Microsoft Teams, чтобы указать предпочтительное приложение, которое пользователи будут использовать для присоединения Skype для бизнеса собраний.
 
-Чтобы указать Skype приложения для собраний в качестве предпочтительного приложения:
+Чтобы указать приложение Skype для собраний в качестве предпочтительного приложения:
 
 1. Войдите в Центр администрирования Microsoft Teams.
-2. В левой области **в Teams выберите** Teams **параметры обновления**.
-3. На странице Teams обновления в списке Параметры приложения выберите Skype **"** Собрания" в списке Предпочитаемый, чтобы пользователи Skype для бизнеса  собрания.
+2. В области слева в **разделе Teams** выберите **параметры обновления Teams**.
+3. На странице обновления Teams **в разделе** "Параметры приложения" выберите приложение "Собрания **Skype**" в предпочитаемом приложении, чтобы пользователи присоединялись к Skype для бизнеса собраниям.
 
-    ![Выберите Предпочитаемая приложение для пользователей, чтобы присоединиться Skype для бизнеса собрания.](media/teams-configure-skype-meetings-app-to-work-with-teams-image1.png)
+    ![Выберите предпочитаемое приложение, чтобы пользователи присоединялись Skype для бизнеса собраниям.](media/teams-configure-skype-meetings-app-to-work-with-teams-image1.png)
 
 ## <a name="known-limitations"></a>Известные ограничения
 
-На пользователей, которые используют приложение Skype "Собрания Teams", налагаются следующие ограничения:
+На пользователей, использующих приложение "Собрания Skype" с Teams, распространяются следующие ограничения:
 
-- У пользователей нет возможности изменить свое видео устройство.
-- После обновления пользователя до Teams, если он находится на собрании с помощью приложения "Собрания Skype" и принимает звонок на Teams, собрание в приложении "Собрания Skype" не помещается на удержание. Вместо этого пользователь подключен к обоим звонкам.
+- У пользователей нет возможности изменить свое видеоустройство.
+- После обновления пользователя до Teams, если пользователь находится на собрании с помощью приложения "Собрания Skype", а затем получает звонок в Teams, собрание в приложении "Собрания Skype" не помещается на удержание. Вместо этого пользователь подключен к обоим вызовам.
 
 ## <a name="more-information"></a>Дополнительные сведения
 
-- [Что такое Skype "Собрания" (Skype для бизнеса Web App)](https://support.office.microsoft.com/article/what-is-skype-meetings-app-skype-for-business-web-app-1ff3d412-718a-4982-8ff2-a4992608cdb5)
+- [Что такое приложение "Собрания Skype" (Skype для бизнеса Web App)](https://support.office.microsoft.com/article/what-is-skype-meetings-app-skype-for-business-web-app-1ff3d412-718a-4982-8ff2-a4992608cdb5)
 - [Минимальные требования к сети для приложения "Собрания Skype"](/previous-versions/office/communications/mt845808(v=ocs.16))

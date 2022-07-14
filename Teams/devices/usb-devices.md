@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: Узнайте, какие USB-периферийные устройства (например, гарнитуры, динамики, веб-камеры и мониторы) сертифицированы для Microsoft Teams.
-ms.openlocfilehash: 7df6ca32a359931a62935d68257583c4d499aa93
-ms.sourcegitcommit: 90f03a841f8ca33092dce65c543357c7c2f7b82a
+ms.openlocfilehash: c56b6c50ff9873aa2eace6a790f484065697f855
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "66647661"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66789164"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>USB-аудио- и видеоустройства, сертифицированные для Microsoft Teams
 
@@ -84,6 +84,9 @@ ms.locfileid: "66647661"
 |Dell                 |Камера WB5023                                              |6/29/2022       |Сертифицировано для Microsoft Teams                           |
 |ЭПОС                 |Гарнитура ADAPT 560 II                                       |6/22/2022       |Сертифицировано для Microsoft Teams                           |
 |ЭПОС                 |Гарнитуры серии C10/C20/C50                                |5/31/2022       |Сертифицировано для Microsoft Teams                           |
+|Jabra                |Гарнитура Engage55 Mono или Стерео гарнитура                               |5/25/2022       |Сертифицировано для Microsoft Teams                           |
+|ЭПОС                 |EXPAND 40T Speakerphone                                    |5/24/2022       |Сертифицировано для Microsoft Teams                           | 
+|Dell                 |Монитор U3223QZ                                            |5/24/2022       |Сертифицировано для Microsoft Teams                           |
 |Поли                 |Монитор Studio P21                                         |5/12/2022       |Сертифицировано для Microsoft Teams                           |
 |Yealink              |ГАРНИТУРА 38                                               |5/2/2022        |Сертифицировано для Microsoft Teams                           |   
 |Yealink              |Гарнитура BH72                                               |5/2/2022        |Сертифицировано для Microsoft Teams                           |

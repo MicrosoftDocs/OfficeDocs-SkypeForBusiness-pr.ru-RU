@@ -1,7 +1,7 @@
 ---
-title: Доступность в островах Теркс и Кайкос
-author: SerdarSoysal
-ms.author: serdars
+title: Доступность в островах Мумерс и Кэйкос
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: fafan
 ms.topic: reference
@@ -23,25 +23,25 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже  находятся Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для островов Теркс и Кайкос.
-ms.openlocfilehash: 26d95fd94887cdfb7574c2d18f602d8b087b2d5a
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+description: Ниже приведены службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Островов Химки и Кэйкос.
+ms.openlocfilehash: f1a0a06d19ca89a8f1ed07be1b89d387bcad9a42
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62409862"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66789734"
 ---
-# <a name="availability-in-turks-and-caicos-islands"></a>Доступность в островах Теркс и Кайкос
+# <a name="availability-in-turks-and-caicos-islands"></a>Доступность в островах Мумерс и Кэйкос
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже  находятся Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для островов Теркс и Кайкос.
+Ниже приведены службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Островов Химки и Кэйкос.
   
 ## <a name="audio-conferencing"></a>Аудиоконференция
 
 |**Функция**|**Сведения**|
 |:-----|:-----|
-|Доступно ли приобретение аудиоконференций?  <br/> |Да. Только оплата за минуту. <br/> |
+|Доступно ли приобретение аудиоконференций?  <br/> |Да. Только с оплатой поминутно. <br/> |
 |Назначаются ли номера телефонов для аудиоконференций автоматически?  <br/> | Нет |
 |Возможность дозвона с помощью функции «Позвони мне»  <br/> | Требуются кредиты связи <br/> |
    
@@ -62,7 +62,7 @@ ms.locfileid: "62409862"
 |Доступные минуты для планов звонков  <br/> |Неприменимо  <br/> |
 |Кому можно делать исходящие звонки?  <br/> |Неприменимо  <br/> |
 
-Если планы звонков недоступны для приобретения, см. параметры подключения через ПСС [для всех](../pstn-connectivity.md) доступных параметров.
+Если планы звонков недоступны для покупки, ознакомьтесь [](../pstn-connectivity.md) со всеми доступными вариантами подключения по ТСОП.
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Платные и бесплатные номера для служб
 
@@ -72,7 +72,7 @@ ms.locfileid: "62409862"
 |Доступны ли платные номера?  <br/> |Нет<br/> |
 |Доступны ли бесплатные номера?  <br/> |Да  <br/> |
    
- Если вы хотите получить платные и бесплатные номера телефонов для аудиоконференций, автослужб и очередей звонков, см. получение номеров телефонов служб для Skype для бизнеса и [Microsoft Teams](../getting-service-phone-numbers.md).
+ Если вы хотите получить платные и бесплатные номера телефонов для аудиоконференций, автосекретарей и очередей звонков, см. раздел "Получение номеров телефонов службы для Skype для бизнеса [и Microsoft Teams"](../getting-service-phone-numbers.md).
   
 ## <a name="communications-credits"></a>Кредиты на связь
 
