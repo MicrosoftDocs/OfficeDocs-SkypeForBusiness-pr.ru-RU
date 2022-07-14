@@ -1,14 +1,14 @@
 ---
-title: Шаблоны уведомлений пользователей для сетевой телефонной системы
-author: SerdarSoysal
-ms.author: serdars
+title: Шаблоны электронной почты для уведомлений пользователей для развертывания телефонной системы в Сети
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.date: 03/31/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 audience: admin
-description: Используйте шаблоны для отправки сообщений электронной почты пользователям при внедрении облачных голосовых возможностей Teams или Skype для бизнеса.
+description: Используйте шаблоны для отправки сообщений электронной почты пользователям при реализации возможностей облачной голосовой связи в Teams или Skype для бизнеса.
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
@@ -16,20 +16,20 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: d709dbbf52746c5eb3a264f6423133ac26b3c744
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: 515dcd3438db958eb09554671ad1fd28195c720d
+ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62393477"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66794577"
 ---
-# <a name="facilitate-user-adoption-of-your-new-online-phone-system"></a>Упрощение внедрения новой телефонной системы через Интернет
+# <a name="facilitate-user-adoption-of-your-new-online-phone-system"></a>Упростите внедрение новой телефонной системы в Интернете
 
-Телефон может быть жизненной линией пользователя. Переключение с традиционной телефонной системы на телефонную систему в Сети представляет собой существенное изменение способа работы пользователей и может отрицательно сказаться на производительности. За время, необходимое для информирования, руководства и поддержки пользователей с помощью этого изменения, можно обеспечить положительное впечатление пользователей и максимально увеличить доход от инвестиций.
+Телефон может быть жизненным циклом пользователя. Переход с традиционной телефонной системы на телефонную систему в сети представляет собой значительное изменение в работе пользователей и может негативно повлиять на производительность. У вас есть время на информирование, руководство и поддержку пользователей с помощью этого изменения, чтобы обеспечить положительное взаимодействие с пользователем и максимально повысить рентабельность инвестиций.
 
-Эта статья содержит настраиваемые шаблоны сообщений электронной почты, которые помогут пользователям сообщить пользователям о новой телефонной системе. Настройте и отправьте сообщения электронной почты, соответствующие вашему развертыванию голосовой связи. Мы использовали квадратные скобки, чтобы указать разделы для удобной персонализации, но мы рекомендуем добавить сообщения для конкретной организации, чтобы сделать объявление наиболее релевантным для пользователей. Если применимо для развертывания, замените все ссылки на Teams "Skype для бизнеса".
+В этой статье содержатся настраиваемые шаблоны электронной почты, помогающие информировать пользователей о новой телефонной системе. Настройте и отправьте соответствующие сообщения электронной почты в соответствии с конкретным развертыванием голосовой связи. Мы использовали квадратные скобки, чтобы указать разделы для упрощения персонализации, но мы рекомендуем добавить сообщения для конкретной организации, чтобы сделать объявление наиболее релевантным для пользователей. Если это применимо для развертывания, замените все ссылки на Teams на "Skype для бизнеса".
 
-## <a name="email-number-1-send-three-weeks-before-launch"></a>Номер электронной почты 1. Отправка за три недели до запуска
+## <a name="email-number-1-send-three-weeks-before-launch"></a>Email 1: отправить за три недели до запуска
 
 Строка темы:
 
@@ -37,7 +37,7 @@ ms.locfileid: "62393477"
 IMPORTANT ANNOUNCEMENT about your office desk phone
 ```
 
-Тело сообщения электронной почты:
+Текст сообщения электронной почты:
 
 ```
 Instant messaging and online meetings have become a common way to communicate
@@ -94,7 +94,7 @@ If you have questions concerning this change, contact <INSERT NAME/EMAIL>.
 <INSERT NAME OF EXECUTIVE SPONSOR>
 ```
 
-## <a name="email-number-2-send-one-week-before-launch"></a>Номер электронной почты 2. Отправка за неделю до запуска
+## <a name="email-number-2-send-one-week-before-launch"></a>Email 2. Отправка за неделю до запуска
 
 Строка темы:
 
@@ -102,7 +102,7 @@ If you have questions concerning this change, contact <INSERT NAME/EMAIL>.
 ACTION REQUESTED: Are you ready for your new phone system?
 ```
 
-Тело сообщения электронной почты:
+Текст сообщения электронной почты:
 
 ```
 Your new phone calling capabilities are almost here. As explained in our initial
@@ -138,7 +138,7 @@ Regards,
 <INSERT NAME OF DEPARTMENT MANAGER>
 ```
 
-## <a name="email-number-3-send-on-launch-day"></a>Номер электронной почты 3. Отправка в день запуска
+## <a name="email-number-3-send-on-launch-day"></a>Email 3. Отправка в день запуска
 
 Строка темы:
 
@@ -146,7 +146,7 @@ Regards,
 IMPORTANT NOTICE: Your new phone system is live
 ```
 
-Тело сообщения электронной почты:
+Текст сообщения электронной почты:
 
 ```
 Welcome to your new phone system. Your Microsoft Teams application
@@ -175,7 +175,7 @@ Regards,
 <INSERT NAME OF DEPARTMENT MANAGER OR EXECUTIVE SPONSOR>
 ```
 
-## <a name="email-number-4-send-two-weeks-after-launch"></a>Номер электронной почты 4. Отправка через две недели после запуска
+## <a name="email-number-4-send-two-weeks-after-launch"></a>Email 4. Отправка через две недели после запуска
 
 Строка темы:
 
@@ -183,7 +183,7 @@ Regards,
 FEEDBACK REQUESTED: Your new phone system
 ```
 
-Тело сообщения электронной почты:
+Текст сообщения электронной почты:
 
 ```
 It's been a few weeks since you started using Microsoft Teams to

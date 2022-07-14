@@ -1,8 +1,9 @@
 ---
 title: Обучение ИТ-администратора для работы с Microsoft Teams
 ms.reviewer: ''
-description: Получите обучение и поддержку для администраторов, необходимых для Microsoft Teams организации.
-author: SerdarSoysal
+description: Получите обучение администратора и поддержку, необходимые для управления Microsoft Teams в организации.
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 audience: admin
 ms.date: 01/22/2018
@@ -19,17 +20,16 @@ f1.keywords:
 - NOCSH
 search.appverid: MET150
 ms.topic: landing-page
-ms.author: serdars
-ms.openlocfilehash: f784fa8c171a204c58f33a11eda2e48ce234cbf9
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: 83185e267f1a3aa44158c5e6252e5b964868af5f
+ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62387497"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66794287"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Обучение ИТ-администратора для работы с Microsoft Teams
 
-Узнайте, как управлять Teams для своей организации.
+Узнайте, как управлять Teams в организации.
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -43,7 +43,7 @@ ms.locfileid: "62387497"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>NEW: обучение с инструктором по Teams</h3>
+                        <h3>НОВОЕ. Обучение под руководством инструктора для Teams</h3>
                     </div>
                 </div>
             </div>

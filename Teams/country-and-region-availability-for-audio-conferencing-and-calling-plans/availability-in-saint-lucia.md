@@ -1,36 +1,41 @@
 ---
-title: Доступность в Сент-Лусии
-author: SerdarSoysal
-ms.author: serdars
+title: Доступность в Сент-Lucia
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
-ms.reviewer: 'mikedav, jastark, oscarr, v-sukade, rcole, fafan'
+ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-  - M365-collaboration
-  - M365-voice
+- M365-collaboration
+- M365-voice
 search.appverid: MET150
 audience: Admin
 appliesto:
-  - Skype for Business
-  - Microsoft Teams
+- Skype for Business
+- Microsoft Teams
 ms.localizationpriority: medium
-ROBOTS: 'NOINDEX, NOFOLLOW'
+ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.custom:
-  - Audio Conferencing
-  - Phone System
-  - Calling Plans
-description: Ниже  находятся Microsoft 365 и Office 365 службы для Skype для бизнеса и Microsoft Teams для Сент-Лусии.
+- Audio Conferencing
+- Phone System
+- Calling Plans
+description: Ниже приведены службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Сан-Lucia.
+ms.openlocfilehash: c9f26fbd15a3f627c054d23de29cb606c50b0348
+ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66794337"
 ---
-
-# <a name="availability-in-saint-lucia"></a>Доступность в Сент-Лусии
+# <a name="availability-in-saint-lucia"></a>Доступность в Сент-Lucia
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже  находятся Microsoft 365 и Office 365 службы для Skype для бизнеса и Microsoft Teams для Сент-Лусии.
+Ниже приведены службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Сан-Lucia.
   
 ## <a name="audio-conferencing"></a>Аудиоконференция
 
@@ -57,7 +62,7 @@ description: Ниже  находятся Microsoft 365 и Office 365 служб
 |Доступные минуты для планов звонков  <br/> |Неприменимо  <br/> |
 |Кому можно делать исходящие звонки?  <br/> |Неприменимо  <br/> |
 
-Если планы звонков недоступны для приобретения, см. параметры подключения через ПСС [для всех](../pstn-connectivity.md) доступных параметров.
+Если планы звонков недоступны для покупки, ознакомьтесь [](../pstn-connectivity.md) со всеми доступными вариантами подключения по ТСОП.
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Платные и бесплатные номера для служб
 
@@ -67,7 +72,7 @@ description: Ниже  находятся Microsoft 365 и Office 365 служб
 |Доступны ли платные номера?  <br/> |Нет <br/> |
 |Доступны ли бесплатные номера?  <br/> |Да  <br/> |
    
- Если вы хотите получить платные и бесплатные номера телефонов для аудиоконференций, автослужб и очередей звонков, см. получение номеров телефонов служб для Skype для бизнеса и [Microsoft Teams](../getting-service-phone-numbers.md).
+ Если вы хотите получить платные и бесплатные номера телефонов для аудиоконференций, автосекретарей и очередей звонков, см. раздел "Получение номеров телефонов службы для Skype для бизнеса [и Microsoft Teams"](../getting-service-phone-numbers.md).
   
 ## <a name="communications-credits"></a>Кредиты на связь
 

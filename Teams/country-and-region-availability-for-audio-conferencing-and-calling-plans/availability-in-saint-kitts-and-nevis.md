@@ -1,7 +1,7 @@
 ---
-title: Доступность в Сент-Китс и Невис
-author: SerdarSoysal
-ms.author: serdars
+title: Доступность в Сент-Кито и Невисе
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже крощены Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Сент-Китс и Невис.
-ms.openlocfilehash: 94a70a117cf2cbd592a88de859eaea46e94cfac3
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+description: Ниже приведены службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Сент-Кетс и Невис.
+ms.openlocfilehash: 3e61918d2c5676566c4d756265bd6238b0ee864c
+ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62394631"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66794487"
 ---
-# <a name="availability-in-saint-kitts-and-nevis"></a>Доступность в Сент-Китс и Невис
+# <a name="availability-in-saint-kitts-and-nevis"></a>Доступность в Сент-Кито и Невисе
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже крощены Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Сент-Китс и Невис.
+Ниже приведены службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Сент-Кетс и Невис.
   
 ## <a name="audio-conferencing"></a>Аудиоконференция
 
@@ -62,7 +62,7 @@ ms.locfileid: "62394631"
 |Доступные минуты для планов звонков  <br/> |Неприменимо  <br/> |
 |Кому можно делать исходящие звонки?  <br/> |Неприменимо  <br/> |
 
-Если планы звонков недоступны для приобретения, см. параметры подключения через ПСС [для всех](../pstn-connectivity.md) доступных параметров.
+Если планы звонков недоступны для покупки, ознакомьтесь [](../pstn-connectivity.md) со всеми доступными вариантами подключения по ТСОП.
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Платные и бесплатные номера для служб
 
@@ -72,7 +72,7 @@ ms.locfileid: "62394631"
 |Доступны ли платные номера?  <br/> |Нет <br/> |
 |Доступны ли бесплатные номера?  <br/> |Да  <br/> |
    
- Если вы хотите получить платные и бесплатные номера телефонов для аудиоконференций, автослужб и очередей звонков, см. получение номеров телефонов служб для Skype для бизнеса и [Microsoft Teams](../getting-service-phone-numbers.md).
+ Если вы хотите получить платные и бесплатные номера телефонов для аудиоконференций, автосекретарей и очередей звонков, см. раздел "Получение номеров телефонов службы для Skype для бизнеса [и Microsoft Teams"](../getting-service-phone-numbers.md).
   
 ## <a name="communications-credits"></a>Кредиты на связь
 
