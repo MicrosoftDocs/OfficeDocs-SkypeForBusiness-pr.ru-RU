@@ -18,18 +18,18 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3e311fb94996e1c51bb5f73190539cd0e1f9f127
-ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
+ms.openlocfilehash: bfd87dbd6b8cc96377c8163294a3fda41934d801
+ms.sourcegitcommit: c4ec82b7d8a820362b6b0276470b0dea95a628df
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65681900"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66819264"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Приложение "Рация" в Microsoft Teams
 
 Приложение Walkie Talkie в Teams обеспечивает мгновенное взаимодействие с пользователем (PTT) и теперь доступно в Android & iOS. С помощью рации пользователи в команде могут общаться друг с другом, используя те же каналы, в которых они участвуют. Только пользователи, которые подключились к рации в канале, становятся участниками разговора и могут говорить друг с другом по очереди.
 
-С помощью рации в Teams сотрудники переднего плана теперь могут безопасно взаимодействовать с привычным интерфейсом PTT, не перенося массовые радио, а рация работает в любом месте с подключением через Wi-Fi или мобильный Интернет.
+С помощью рации в Teams сотрудники переднего плана теперь могут безопасно взаимодействовать с привычным интерфейсом PTT, не перенося массовые радио, а рация работает в любом месте с подключением к Wi-Fi или мобильному Интернету.
 
 > [!NOTE]
 > Рация в настоящее время недоступна в Китае.
@@ -38,21 +38,21 @@ ms.locfileid: "65681900"
 
 ### <a name="deploying-walkie-talkie"></a>Развертывание рации
 
-Рация поддерживается на Android устройствах с Google мобильные службы (GMS) и iOS устройствах.
+Рация поддерживается на устройствах Android с мобильными службами Google (GMS) и устройствами iOS.
 
 ### <a name="pin-walkie-talkie-to-teams"></a>Закрепление рации в Teams
 
-#### <a name="use-the-tailored-frontline-app-experience-to-pin-walkie-talkie-and-other-apps-to-teams"></a>Использование специализированного интерфейсного приложения для закрепления рации и других приложений для Teams
+#### <a name="use-the-tailored-frontline-app-experience-to-pin-walkie-talkie-and-other-apps-to-teams"></a>Использование специализированного интерфейсного приложения для закрепления рации и других приложений в Teams
 
-Специализированное интерфейсное приложение в Teams закрепляет наиболее релевантные приложения в Teams для пользователей с [лицензией F](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt). Закрепленные приложения включают рация, смены, задачи и Утверждения. По умолчанию эта функция включена, предоставляя сотрудникам без компьютеров встроенный интерфейс, соответствующий их потребностям.
+Специализированное интерфейсное приложение в Teams закрепляет наиболее релевантные приложения в Teams для пользователей с [лицензией F](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt). Закрепленные приложения включают рация, смены, задачи и утверждения. По умолчанию эта функция включена, предоставляя сотрудникам без компьютеров встроенный интерфейс, соответствующий их потребностям.
 
-Приложения закреплены на панели приложения — на панели в Teams клиенте и в нижней части Teams мобильных клиентов, где пользователи могут быстро и легко получить к ним доступ.
+Приложения закрепляются на панели приложений ( на панели сбоку от настольного клиента Teams и в нижней части мобильных клиентов Teams), где пользователи могут быстро и легко получить к ним доступ.
 
-Дополнительные сведения, в том числе о том, как работает взаимодействие с задаваемой вами политиками приложений, см. в статье "Настройка Teams [приложений для сотрудников без компьютеров"](pin-teams-apps-based-on-license.md).
+Дополнительные сведения, в том числе о работе с задаваемых политиками приложений, см. в статье "Настройка приложений [Teams для сотрудников без компьютеров"](/microsoft-365/frontline/pin-teams-apps-based-on-license?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json).
 
-#### <a name="use-an-app-setup-policy-to-pin-walkie-talkie-to-teams"></a>Использование политики установки приложения для закрепления рации в Teams
+#### <a name="use-an-app-setup-policy-to-pin-walkie-talkie-to-teams"></a>Использование политики настройки приложения для закрепления рации в Teams
 
-Политики установки приложений позволяют настраивать Teams для закрепления приложений, которые наиболее важны для пользователей в ваших пользователях.
+Политики установки приложений позволяют настроить Teams для закрепления приложений, которые наиболее важны для пользователей в ваших пользователях.
 
 Чтобы закрепить приложение Walkie Talkie для пользователей, можно изменить глобальную политику (по умолчанию для всей организации) или создать и назначить настраиваемую политику установки приложения. Дополнительные сведения см. в статье [Управление политиками и параметрами пользовательских приложений в Teams](teams-app-setup-policies.md).
 
@@ -83,14 +83,14 @@ ms.locfileid: "65681900"
 - **Гарнитуры**
   - Беспроводные гарнитуры (iOS & Android)
     - [BlueParrott](https://www.blueparrott.com/microsoft-teams-walkie-talkie)
-  - Проводные гарнитуры (только Android)
+  - Проводные гарнитуры (только для Android)
     - [Электронная почта](https://www.kleinelectronics.com/poc-accessories/mtwt/)
-- **Защищенные Android телефонов**
+- **Защищенные телефоны Android**
   - Samsung [Galaxy XCover Pro](https://www.samsung.com/us/business/products/mobile/phones/galaxy-xcover-pro/), [Galaxy XCover 5](https://www.samsung.com/de/smartphones/others/galaxy-xcover-5-black-64gb-sm-g525fzkdeeb/buy), [Galaxy Tab Active 3](https://www.samsung.com/us/business/tablets/galaxy-tab-active/buy/)
-    - Настройка вручную. Teams установлен, перейдите к разделу Параметры > advanced Features > XCover/Active Key. Включите "Control XCover key with app" (Управление ключом XCover с помощью приложения) и выберите "Teams"
+    - Настройка вручную. После установки Teams перейдите к разделу "Параметры > расширенные компоненты > XCover/Active Key". Включите "Control XCover key with app" (Управление ключом XCover с приложением) и выберите "Teams"
     - [Настройка MDM](https://docs.samsungknox.com/admin/knox-service-plugin/intune-teams.htm)
   - Zebra [TC5x](https://www.zebra.com/us/en/products/mobile-computers/handheld/tc52-tc57-series-touch-computer.html), [TC7x](https://www.zebra.com/us/en/products/mobile-computers/handheld/tc72-tc77-series-touch-computer.html), [TC2x](https://www.zebra.com/us/en/products/mobile-computers/handheld/tc21-tc26.html), [EC5x](https://www.zebra.com/us/en/products/mobile-computers/handheld/ec50-ec55.html), [EC30](https://www.zebra.com/us/en/products/mobile-computers/handheld/ec30.html), [MC3300](https://www.zebra.com/us/en/products/mobile-computers/handheld/mc3300.html), [MC9300](https://www.zebra.com/us/en/products/mobile-computers/handheld/mc9300.html) 
-    - Настройка вручную. Teams установлена, выделенная кнопка PTT (LEFT_TRIGGER_2) по умолчанию работает с рациями.
+    - Настройка вручную. При установке Teams выделенная кнопка PTT (LEFT_TRIGGER_2) по умолчанию работает с рациями
     
 > [!NOTE]
 > Эти устройства не сертифицированы для Teams. Они прошли проверку на работу с рацией Teams.
@@ -102,7 +102,7 @@ ms.locfileid: "65681900"
 ## <a name="further-information"></a>Дополнительные сведения
 
 - ИТ-администраторы могут контролировать, кто использует Рация с помощью политик приложений.
-- Если ваш сотрудник переднего плана использует мобильные данные для обмена данными Teams, Walkie Talkie будет использовать тот же метод.
+- Если ваш сотрудник переднего плана использует мобильные данные для обмена данными через Teams, Walkie Talkie будет использовать тот же метод.
 - Рация хорошо работает в ситуациях с малой пропускной способностью или в ситуациях, когда смартфон подключен и работает. Рация не будет работать, если нет подключения.
 
 Дополнительно о работе конечных пользователей можно прочитать в статьях
