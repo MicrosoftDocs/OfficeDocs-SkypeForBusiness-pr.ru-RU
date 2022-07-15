@@ -1,7 +1,7 @@
 ---
-title: Пример скрипта PowerShell— диспетчеры экспорта и их подчиненные
-author: SerdarSoysal
-ms.author: serdars
+title: Пример скрипта PowerShell— диспетчеры экспорта и их прямые отчеты
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.reviewer: brandber
@@ -16,16 +16,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 436f9566031a2cd9bc3b06a23df7b3b7346d3bec
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: fbd1758c0de6d0cb7751b4a447e21ab386f823ba
+ms.sourcegitcommit: 4c4f2f220832cae3efb3f6f3c74795300d661295
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674181"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66825673"
 ---
-# <a name="powershell-script-sample---export-managers-and-their-directs"></a>Пример скрипта PowerShell— диспетчеры экспорта и их подчиненные
+# <a name="powershell-script-sample---export-managers-and-their-direct-reports"></a>Пример скрипта PowerShell— диспетчеры экспорта и их прямые отчеты
 
-Используйте этот сценарий PowerShell, чтобы экспортировать список руководителей и их подчиненных для вашей организации. Используйте этот сценарий для подготовки к созданию команды диспетчера людей для каждого руководителя с прямыми отчетами в качестве участников команды.
+Используйте этот сценарий PowerShell для экспорта списка руководителей и их прямых отчетов для вашей организации. Используйте этот сценарий для подготовки к созданию команды диспетчера людей для каждого руководителя с прямыми отчетами в качестве участников команды.
 
 Дополнительные сведения об этом сценарии PowerShell см. в статье ["Создание групп руководителей людей"](../create-manager-directs-teams.md).
 

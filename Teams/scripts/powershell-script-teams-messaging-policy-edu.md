@@ -1,7 +1,7 @@
 ---
 title: Пример сценария PowerShell. Создание & политики обмена сообщениями
-author: serdars
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.reviewer: ritikag
@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 09254f9ed85f69551ee825dbeb8ae063a010f780
-ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
+ms.openlocfilehash: 764de690bbf743991536416c7fed08d0b88e7e97
+ms.sourcegitcommit: 4c4f2f220832cae3efb3f6f3c74795300d661295
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/01/2022
-ms.locfileid: "65823710"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66825893"
 ---
 # <a name="powershell-script-sample---create-and-assign-a-messaging-policy"></a>Пример сценария PowerShell — создание и назначение политики обмена сообщениями
 
@@ -30,7 +30,7 @@ ms.locfileid: "65823710"
 
 Дополнительные сведения об использовании этого скрипта PowerShell см. в [кратком руководстве по Teams для образования](../teams-quick-start-edu.yml).
 
-Этот сценарий использует [командлет Grant-CsTeamsMessagingPolicy](/powershell/module/skype/grant-csteamsmessagingpolicy), который находится в Skype для бизнеса PowerShell Online. [Дополнительные Teams powerShell](../teams-powershell-overview.md) см. в Teams powerShell.
+Этот сценарий использует [командлет Grant-CsTeamsMessagingPolicy](/powershell/module/skype/grant-csteamsmessagingpolicy), который находится в Skype для бизнеса PowerShell Online. Дополнительные сведения об управлении Teams с помощью [PowerShell](../teams-powershell-overview.md) см. в обзоре Teams PowerShell.
 
 
 ## <a name="before-you-start"></a>Перед началом работы
@@ -61,4 +61,4 @@ $dataSetFilePath = "<csv file with user ids for newly provisioned students> "
 ```
 
 > [!NOTE]
-> Вы также можете назначить политику обмена сообщениями непосредственно пользователям в большом масштабе с помощью назначения пакетной политики или группе, в которую являются пользователи. Дополнительные [сведения см.](../batch-group-policy-assignment-edu.md) в статье "Назначение политик большим наборам пользователей в учебном заведении" и "[Назначение](../policy-assignment-overview.md) политик пользователям в Teams".
+> Вы также можете назначить политику обмена сообщениями непосредственно пользователям в большом масштабе с помощью назначения пакетной политики или группе, в которую являются пользователи. Дополнительные сведения см. в статье ["](../batch-group-policy-assignment-edu.md) Назначение политик большим наборам пользователей в учебном заведении" и "Назначение политик [пользователям в Teams"](../policy-assignment-overview.md).

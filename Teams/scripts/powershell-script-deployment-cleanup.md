@@ -1,27 +1,32 @@
 ---
-title: Пример сценария PowerShell— Teams очистки развертывания
-author: SerdarSoysal
-ms.author: serdars
+title: Пример сценария PowerShell. Очистка развертывания Teams
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.reviewer: amitsri
 ms.service: msteams
 audience: admin
-description: 'Используйте этот сценарий PowerShell, чтобы удалить Teams и удалить Teams папку для пользователей.'
+description: Используйте этот сценарий PowerShell для удаления Teams и удаления папки Teams для пользователей.
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.localizationpriority: medium
 search.appverid: MET150
-ROBOTS: 'NOINDEX, NOFOLLOW'
+ROBOTS: NOINDEX, NOFOLLOW
 ms.collection:
-  - M365-collaboration
+- M365-collaboration
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
+ms.openlocfilehash: d7875cb01b928567d5883f36e21eb2f0de0bccf6
+ms.sourcegitcommit: 4c4f2f220832cae3efb3f6f3c74795300d661295
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66825693"
 ---
+# <a name="powershell-script-sample---teams-deployment-clean-up"></a>Пример сценария PowerShell. Очистка развертывания Teams
 
-# <a name="powershell-script-sample---teams-deployment-clean-up"></a>Пример сценария PowerShell: очистка Teams развертывания
-
-Используйте этот сценарий для удаления Teams. Этот сценарий удаляет Teams и удаляет Teams папку пользователя. Запустите этот сценарий для каждого профиля пользователя, в Teams был установлен на компьютере.
+Используйте этот сценарий для удаления Teams. Этот скрипт удаляет Teams и удаляет папку Teams для пользователя. Выполните этот сценарий для каждого профиля пользователя, в котором teams был установлен на компьютере.
 
 
 ## <a name="sample-script"></a>Пример сценария
@@ -57,7 +62,7 @@ catch
 
 ````
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
 - [Установите Microsoft Teams с помощью Microsoft Endpoint Configuration Manager](../msi-deployment.md)
-- [Развертывание Teams с помощью Приложения Microsoft 365](/deployoffice/teams-install)
+- [Развертывание Teams с Приложения Microsoft 365](/deployoffice/teams-install)

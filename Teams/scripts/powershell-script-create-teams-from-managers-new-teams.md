@@ -1,13 +1,13 @@
 ---
 title: Пример скрипта PowerShell. Создание команд менеджеров людей
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.reviewer: brandber
 ms.service: msteams
 audience: admin
-description: Используйте этот сценарий PowerShell, чтобы создать команду для каждого руководителя с его подчиненными в качестве участников команды.
+description: Используйте этот сценарий PowerShell, чтобы создать команду для каждого руководителя с прямыми отчетами в качестве участников команды.
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -16,20 +16,20 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 05f5a53974444341ecc7da8431525b69bc8f1923
-ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
+ms.openlocfilehash: 0b8eb4f60b5bf15e54821181ffedc584d9202669
+ms.sourcegitcommit: 4c4f2f220832cae3efb3f6f3c74795300d661295
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65681560"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66825663"
 ---
 # <a name="powershell-script-sample---create-new-people-manager-teams"></a>Пример скрипта PowerShell. Создание команд менеджеров людей
 
-Используйте этот сценарий PowerShell, чтобы создать команду для каждого руководителя с его подчиненными в качестве участников команды. Перед выполнением этого скрипта запустите [](powershell-script-create-teams-from-managers-export-managers.md) скрипт диспетчеров экспорта, чтобы экспортировать (из Active Directory) список руководителей и их подчиненных для вашей организации.
+Используйте этот сценарий PowerShell, чтобы создать команду для каждого руководителя с прямыми отчетами в качестве участников команды. Перед выполнением этого скрипта запустите [](powershell-script-create-teams-from-managers-export-managers.md) скрипт диспетчеров экспорта, чтобы экспортировать (из Active Directory) список руководителей и их прямые отчеты для вашей организации.
 
 Дополнительные сведения об этом сценарии PowerShell см. в статье ["Создание групп руководителей людей"](../create-manager-directs-teams.md).
 
-Если вы новичок в PowerShell и вам требуется помощь, см. раздел [Общие сведения об Azure PowerShell](/powershell/azure/overview).
+Если вы еще не знакомы с PowerShell и вам нужна помощь по началу работы, ознакомьтесь с [общими сведениями о Azure PowerShell](/powershell/azure/overview).
 
 ## <a name="create-new-people-manager-teams"></a>Создание новых команд менеджеров людей
 

@@ -1,30 +1,35 @@
 ---
-title: 'Пример сценария PowerShell: сброс параметра автозагрузки в Teams'
-author: SerdarSoysal
-ms.author: serdars
+title: Пример сценария PowerShell. Сброс параметра автозапуска в Teams
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.reviewer: amitsri
 ms.service: msteams
 audience: admin
-description: 'Используйте этот сценарий PowerShell, чтобы сбросить параметр автозагрузки в Teams для каждого пользователя.'
+description: Используйте этот сценарий PowerShell, чтобы сбросить параметр автозапуска в Teams для каждого пользователя.
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
-  - M365-collaboration
+- M365-collaboration
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
+ms.openlocfilehash: fbe75347317b625a45e2e74eb26c6ba43886df2a
+ms.sourcegitcommit: 4c4f2f220832cae3efb3f6f3c74795300d661295
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66825483"
 ---
+# <a name="powershell-script-sample---reset-the-autostart-setting-in-teams"></a>Пример сценария PowerShell. Сброс параметра автозапуска в Teams
 
-# <a name="powershell-script-sample---reset-the-autostart-setting-in-teams"></a>Пример сценария PowerShell: сброс параметра автозагрузки в Teams
+Используйте этот сценарий, чтобы сбросить параметр автозапуска Teams для каждого пользователя. Это относится к любым значениям, заданным пользователем или приложением Teams. По умолчанию Teams автоматически запускается, когда пользователь выполняет вход на свой компьютер после установки.
 
-Используйте этот сценарий для сброса Teams автозагрузки для каждого пользователя. К ним относятся все значения, задамые пользователем или приложением Teams. По умолчанию Teams запускается автоматически, когда пользователь входит в систему на своем компьютере после его установки.
+Если вы уже развернули Teams и хотите настроить автоматическое отключение автоматического запуска [Microsoft Teams](../msi-deployment.md#use-group-policy-recommended) после установки групповая политика, необходимо сначала задать для параметра групповая политика нужное значение, а затем запустить этот скрипт.
 
-Если вы уже развернули Teams и хотите настроить параметр Запретить автоматический запуск [](../msi-deployment.md#use-group-policy-recommended) Microsoft Teams после установки параметра групповой политики, чтобы отключить автоза запуска Teams, необходимо сначала установить для параметра групповой политики нужное значение, а затем запустить этот сценарий.
-
-После Teams для пользователя параметры автозаставки нельзя отключить с помощью групповой политики.
+После запуска Teams для пользователя параметры автозапуска нельзя отключить с помощью групповая политика.
 
 ## <a name="sample-script"></a>Пример сценария
 
@@ -142,7 +147,7 @@ if($null -eq $teamsProc) {
 }
 ````
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
 - [Установка Teams с помощью MSI](../msi-deployment.md)
-- [Развертывание Teams с помощью Приложения Microsoft 365 для предприятий](/deployoffice/teams-install)
+- [Развертывание Teams с Приложения Microsoft 365 для предприятий](/deployoffice/teams-install)
