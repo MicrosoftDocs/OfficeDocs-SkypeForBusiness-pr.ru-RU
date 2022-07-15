@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.users.activity.audioqualitycolumn
 - Reporting
 description: Используйте телеметрию в режиме реального времени с подробными сведениями об устройствах, сетях и подключении для устранения неполадок пользователей с запланированными собраниями Microsoft Teams.
-ms.openlocfilehash: e1f9b445917a0bfd8ba06a736444fc532aa1a0b7
-ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
+ms.openlocfilehash: 203f16d83d211a4a85f3217992d509bccba5dea3
+ms.sourcegitcommit: 2871c05e00458a0cc76d919ff822b0b354bd1f72
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66794347"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66810181"
 ---
 # <a name="use-real-time-telemetry-to-troubleshoot-poor-meeting-quality"></a>Использование телеметрии в режиме реального времени для устранения неполадок с качеством собраний
 
@@ -137,10 +137,10 @@ Real-Time Analytics отображает подробные сведения о 
 
 ## <a name="teams-devices-with-support-for-real-time-telemetry"></a>Устройства Teams с поддержкой телеметрии в режиме реального времени
 
-- MTR — Surface Hub
-- MTR — отображение Teams
-- MTR — панель совместной работы
-- Устройства IP-телефонов
+- Отображение Teams
+- Телефон Teams
+- Комнаты Teams
+- Комнаты Teams Surface Hub
 
 > [!NOTE]
 > Устройства, которые присоединились к собранию с помощью решений cloud Video Interop (CVI), не поддерживаются в Real-Time Analytics.
