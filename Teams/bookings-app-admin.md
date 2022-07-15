@@ -1,8 +1,8 @@
 ---
 title: Управление приложением Bookings в Microsoft Teams
-author: mkbond007
-ms.author: mabond
-manager: serdars
+author: LanaChin
+ms.author: v-lanachin
+manager: samanro
 audience: ITPro
 ms.topic: article
 ms.service: msteams
@@ -21,16 +21,16 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: ''
 description: Узнайте, как управлять приложением Bookings в Teams для пользователей в организации.
-ms.openlocfilehash: 45ce6c29cd7bfbaedf53c1b75178142a925157cb
-ms.sourcegitcommit: 15ec17eff4ad4c962d00b8683513f9b269d82917
+ms.openlocfilehash: f11739784dcb9897bf9a3fcbffdadc8aea00d3e0
+ms.sourcegitcommit: c4ec82b7d8a820362b6b0276470b0dea95a628df
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "66695042"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66819294"
 ---
 # <a name="manage-the-bookings-app-in-microsoft-teams"></a>Управление приложением Bookings в Microsoft Teams
 
-Приложение Bookings в Microsoft Teams предлагает простой способ планирования даты даты и времени для виртуальных встреч. Например, посещения здравоохранения, финансовые консультации, собеседования, поддержка клиентов и рабочее время для образовательных учреждений. Дополнительные сведения см [. в статье о виртуальных встречах в Teams и приложении Bookings](expand-teams-across-your-org/bookings-virtual-visits.md).
+Приложение Bookings в Microsoft Teams предлагает простой способ планирования даты даты и времени для виртуальных встреч. Например, посещения здравоохранения, финансовые консультации, собеседования, поддержка клиентов и рабочее время для образовательных учреждений. Дополнительные сведения см [. в статье о виртуальных встречах в Teams и приложении Bookings](/microsoft-365/frontline/bookings-virtual-visits).
 
 Планировщики могут управлять несколькими календарями отделов и сотрудников, а также взаимодействием с внутренними и внешними участниками в одном интерфейсе. Виртуальные встречи проводится с помощью собраний Microsoft Teams, которые предоставляют надежные возможности видеоконференций.
 
@@ -100,7 +100,7 @@ Set-Mailbox -identity business@domain.onmicrosoft.com -WindowsEmailAddress busin
 
 ## <a name="related-articles"></a>Статьи по теме
 
-[Управление взаимодействием с виртуальными встречами Teams в браузерах](expand-teams-across-your-org/browser-join.md)
+[Управление взаимодействием с виртуальными встречами Teams в браузерах](/microsoft-365/frontline/browser-join)
 
 
   [Документация по Bookings для конечных пользователей](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?ui=en-US&rs=en-US&ad=US#PickTab=Bookings)

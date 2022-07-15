@@ -22,12 +22,12 @@ appliesto:
 ms.reviewer: yinchang
 description: Узнайте, как управлять шаблонами команд для здравоохранения и использовать их в Центре администрирования Teams и с помощью Microsoft Graph для быстрого и простого создания команд для вашей организации здравоохранения.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 78269b393c384af82e48284e3ffefe8785013975
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+ms.openlocfilehash: 831e4e257277ce2fca6dc007ac5f3bfe963bca35
+ms.sourcegitcommit: c4ec82b7d8a820362b6b0276470b0dea95a628df
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60046005"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66819444"
 ---
 # <a name="use-healthcare-team-templates"></a>Использование шаблонов команд для здравоохранения
 
@@ -57,7 +57,7 @@ Teams содержит шаблоны, разработанные специал
 
 | Тип шаблона |TemplateId| Свойства этого шаблона |
 | ------------------ |---|----------------------------------------------------- |
-| Уход за пациентом |`healthcareWard` | Каналы:<ul><li>Общие</li><li>Объявления<ul><li>Бюллетени&sup1;</li></ul></li><li>Совещания<ul><li>Списки (список пациентов)&sup1;</li></ul></li><li>Обходы<ul><li>Проверка&sup1;</li></ul></li><li>Персонал</li><li>Обучение</li></ul> Приложения: <ul><li>Вики</li><li>Списки</li><li>Задачи</li><li>Утверждения</li><li>Смены</li><li>Бюллетени</li><li>Проверка</li></ul>|
+| Уход за пациентом |`healthcareWard` | Каналы:<ul><li>Общий</li><li>Объявления<ul><li>Бюллетени&sup1;</li></ul></li><li>Совещания<ul><li>Списки (список пациентов)&sup1;</li></ul></li><li>Обходы<ul><li>Проверка&sup1;</li></ul></li><li>Персонал</li><li>Обучение</li></ul> Приложения: <ul><li>Вики</li><li>Списки</li><li>Задачи</li><li>Утверждения</li><li>Смены</li><li>Бюллетени</li><li>Проверка</li></ul>|
 ||||
 
 &sup1;Приложение, добавленное в канал в виде вкладки
@@ -73,7 +73,7 @@ Teams содержит шаблоны, разработанные специал
 &sup1;Приложение, добавленное в канал в виде вкладки
 ## <a name="use-team-templates-with-microsoft-graph"></a>Использование шаблонов команд с помощью Microsoft Graph
 
-Разработчики могут использовать Microsoft Graph для создания команд на основе готовых шаблонов команд. Дополнительные сведения об использовании шаблонов команд с помощью Microsoft Graph см. в статьях [Начало работы с шаблонами команд с помощью Microsoft Graph](../../get-started-with-teams-templates.md), [Обзор API Microsoft Teams](/graph/teams-concept-overview?view=graph-rest-1.0) и [Тип ресурса teamsTemplate](/graph/api/resources/teamstemplate?view=graph-rest-1.0).
+Разработчики могут использовать Microsoft Graph для создания команд на основе готовых шаблонов команд. Дополнительные сведения об использовании шаблонов команд с помощью Microsoft Graph см. в статьях [Начало работы с шаблонами команд с помощью Microsoft Graph](../../get-started-with-teams-templates.md), [Обзор API Microsoft Teams](/graph/teams-concept-overview) и [Тип ресурса teamsTemplate](/graph/api/resources/teamstemplate).
 
 Ниже представлены готовые шаблоны команд для здравоохранения.
 ### <a name="ward"></a>Отделение
@@ -214,4 +214,4 @@ Teams содержит шаблоны, разработанные специал
 - [Создание команды на основе шаблона](https://support.microsoft.com/office/create-a-team-with-team-templates-702a2977-e662-4038-bef5-bdf8ee47b17b)
 - [Начало работы с шаблонами команд в Центре администрирования Teams](../../get-started-with-teams-templates-in-the-admin-console.md)
 - [Начало работы с шаблонами команд с помощью Microsoft Graph](../../get-started-with-teams-templates.md)
-- [Начало работы с Teams для организаций в сфере здравоохранения](teams-in-hc.md)
+- [Начало работы с Teams для организаций в сфере здравоохранения](/microsoft-365/frontline/teams-in-hc?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)
