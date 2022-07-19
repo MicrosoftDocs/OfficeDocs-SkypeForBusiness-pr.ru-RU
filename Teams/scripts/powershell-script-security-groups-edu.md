@@ -1,13 +1,13 @@
 ---
 title: Пример сценария PowerShell. Создание групп безопасности для преподавателей и учащихся в учебном заведении
-author: serdars
-ms.author: serdars
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.topic: article
 ms.reviewer: angch
 ms.service: msteams
 audience: admin
-description: Используйте этот сценарий PowerShell для создания групп безопасности, необходимых для управления политиками Teams для преподавателей и учащихся в учебном заведении.
+description: Используйте этот сценарий PowerShell, чтобы создать группы безопасности, необходимые для управления политиками Teams для преподавателей и учащихся в вашем учебном заведении.
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -17,16 +17,16 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f46bd50e47640c575489788ccd3e5db0ce778564
-ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
+ms.openlocfilehash: 99c4e10cc37513323eb3dcfb8159977b269a667d
+ms.sourcegitcommit: 791d0a341ff873145fa893ece05055729b0b8d50
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65681550"
+ms.lasthandoff: 07/18/2022
+ms.locfileid: "66838794"
 ---
 # <a name="powershell-script-sample---create-security-groups-for-educators-and-students-in-your-school"></a>Пример сценария PowerShell. Создание групп безопасности для преподавателей и учащихся в учебном заведении
 
-Используйте этот сценарий PowerShell для создания групп безопасности, необходимых для управления Microsoft Teams политиками в учебном заведении. Назначение [политики для функции](../assign-policies-users-and-groups.md#assign-a-policy-to-a-group) групп в Teams позволяет назначить политику группе пользователей, например группе безопасности. Назначение политики распространяется на участников группы в соответствии с правилами очередности. При добавлении или удалении участников группы, назначения политик для них обновляются соответствующим образом.
+Используйте этот сценарий PowerShell для создания групп безопасности, необходимых для управления политиками Microsoft Teams в учебном заведении. Назначение [политики для функции групп](../assign-policies-users-and-groups.md#assign-a-policy-to-a-group) в Teams позволяет назначить политику группе пользователей, например группе безопасности. Назначение политики распространяется на участников группы в соответствии с правилами очередности. При добавлении или удалении участников группы, назначения политик для них обновляются соответствующим образом.
 
 Этот сценарий PowerShell создает две группы безопасности: одну для сотрудников и преподавателей, а другую для учащихся в учебном заведении на основе типа лицензии. Затем можно назначить политики созданным группам безопасности. Дополнительные сведения об использовании этого скрипта см. в статье "Назначение политик большим [наборам пользователей в вашем учебном заведении"](../batch-group-policy-assignment-edu.md).
 
@@ -34,7 +34,7 @@ ms.locfileid: "65681550"
 
 - Определяет сотрудников и преподавателей, которым назначен номер SKU для преподавателей, создает группу безопасности, а затем добавляет в нее сотрудников и преподавателей.
 - Определяет учащихся, которым назначен номер SKU student, создает группу безопасности, а затем добавляет учащихся в группу.
-- Обновляет членство каждой группы безопасности, чтобы добавлять или удалять сотрудников, преподавателей и учащихся в зависимости от того, есть ли у них лицензия.
+- Обновления каждой группе безопасности, чтобы добавить или удалить сотрудников, преподавателей и учащихся в зависимости от того, есть ли у них лицензия.
 
 Этот сценарий необходимо регулярно запускать, чтобы группы безопасности были актуальными и актуальными.
 
@@ -45,7 +45,7 @@ ms.locfileid: "65681550"
 
 Скачайте и установите [Skype для бизнеса PowerShell Online](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell), а затем перезапустите компьютер при появлении соответствующего запроса.
 
-Дополнительные сведения см. в статье ["Управление Skype для бизнеса Online с помощью Office 365 PowerShell](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell) [и Teams PowerShell"](../teams-powershell-overview.md).
+Дополнительные сведения см. в статье ["Управление Skype для бизнеса Online с помощью Office 365 PowerShell](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell) и [Teams PowerShell"](../teams-powershell-overview.md).
 
 
 ## <a name="sample-script"></a>Пример сценария
@@ -273,6 +273,6 @@ else {
 Stop-Transcript
 ```
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 
 [Назначение политик пользователям в Teams](../policy-assignment-overview.md)

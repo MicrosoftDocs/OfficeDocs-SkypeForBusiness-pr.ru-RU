@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6bf8e6ab6f2a5ba7303887e9e7d7d72d22c50964
-ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
+ms.openlocfilehash: bbb03bcf092d1379065ced1d95e3aa61980febcc
+ms.sourcegitcommit: 791d0a341ff873145fa893ece05055729b0b8d50
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66794687"
+ms.lasthandoff: 07/18/2022
+ms.locfileid: "66839004"
 ---
 # <a name="plan-for-sip-gateway"></a>Планирование шлюза SIP
 
@@ -52,6 +52,9 @@ ms.locfileid: "66794687"
 ## <a name="requirements-to-use-sip-gateway"></a>Требования к использованию шлюза SIP
 
 Для использования шлюза SIP у пользователей Teams должен быть номер телефона с включенным вызовом ТСОП.
+
+> [!NOTE]
+> Шлюз SIP недоступен для государственных сред (GCC, GCC High и DoD).
 
 ### <a name="hardware-software-and-licenses"></a>Оборудование, программное обеспечение и лицензии
 

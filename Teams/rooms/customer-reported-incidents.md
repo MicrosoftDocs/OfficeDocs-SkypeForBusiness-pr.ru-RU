@@ -2,7 +2,7 @@
 title: Комнаты Microsoft Teams инциденты, о которых сообщили клиенты
 author: donnah007
 ms.author: v-donnahill
-ms.date: 06/27/2022
+ms.date: 07/08/2022
 manager: serdars
 ms.reviewer: dstrome
 ms.topic: article
@@ -17,12 +17,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Партнеры и клиенты могут вручную закрывать инциденты и обеспечивать точные отчеты о работоспособности помещений в MTRP.
-ms.openlocfilehash: 3f765627e2d18d52a6b3db8abbdd2ad59cee7019
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: f28462c6fab02a2a6b8e7db00b1f89ff30b80da1
+ms.sourcegitcommit: ea9cbb8e32b7f23c17930eadc0a1dcbd906449ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66494674"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "66842308"
 ---
 # <a name="customer-reported-incident-tickets"></a>Запросы на инциденты, о которых сообщили клиенты
 
@@ -31,6 +31,11 @@ ms.locfileid: "66494674"
 ![Снимок экрана: инцидент отчета >инцидента](../media/customer-reported-incidents-001.png)
 
 В поле "Описание" опишите как можно лучше проблему, с помощью которую вам нужна помощь корпорации Майкрософт. Вы можете добавить одну или несколько комнат.
+
+Проверьте  **высокий уровень влияния** , если инцидент приводит к значительному ухудшению работоспособности службы или критического помещения. Чтобы помочь корпорации Майкрософт правильно определить приоритеты вашего запроса, подробно опишите причину, по которой это оказывает значительное влияние.
+
+> [!NOTE]
+> Не используйте это поле для общих вопросов, комнат и (или) проблем, которые не имеют доступных мер по устранению.
 
 ![Снимок экрана: затронутые комнаты отчетов об инцидентах](../media/customer-reported-incidents-002.png)
 

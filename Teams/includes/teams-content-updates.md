@@ -3,6 +3,51 @@
 
 
 
+## <a name="week-of-july-11-2022"></a>Неделя с 11 июля 2022 г.
+
+
+| Дата публикации |Название статьи | Изменение |
+|------|------------|--------|
+| 7/13/2022 | [Музыка на удержании](/MicrosoftTeams/music-on-hold) | Изменено |
+| 7/14/2022 | [Планирование шлюза SIP](/MicrosoftTeams/sip-gateway-plan) | Изменено |
+| 7/15/2022 | [Заметки о выпуске Комнаты Microsoft Teams (Windows)](/MicrosoftTeams/rooms/rooms-release-note) | Изменено |
+| 7/15/2022 | [Пакеты политик Teams для сотрудников передней линии](/MicrosoftTeams/policy-packages-flw) | Добавлено |
+| 7/15/2022 | [Управление приложением "Утверждения" в Microsoft Teams](/MicrosoftTeams/approval-admin) | Изменено |
+| 7/15/2022 | [Управление приложением Bookings в Microsoft Teams](/MicrosoftTeams/bookings-app-admin) | Изменено |
+| 7/15/2022 | Развертывание команд в большом масштабе для сотрудников без компьютеров в Microsoft Teams | Удалено |
+| 7/15/2022 | Виртуальные встречи с помощью Microsoft Teams и приложения Bookings | Удалено |
+| 7/15/2022 | Управление взаимодействием с виртуальными встречами Teams в браузерах | Удалено |
+| 7/15/2022 | [Использование Microsoft Teams во всей организации](/MicrosoftTeams/expand-teams-across-your-org/expand-teams-across-your-organization-landing-page) | Изменено |
+| 7/15/2022 | Виртуальные встречи с Teams — интеграция с Cerner EHR | Удалено |
+| 7/15/2022 | Отчет о Виртуальные встречи соединителя Microsoft Teams EHR | Удалено |
+| 7/15/2022 | Виртуальные встречи с Teams — интеграция с Epic EHR | Удалено |
+| 7/15/2022 | Делегирование обмена сообщениями | Удалено |
+| 7/15/2022 | Безопасный обмен сообщениями для организаций здравоохранения с помощью Microsoft Teams | Удалено |
+| 7/15/2022 | Начало работы с Teams для сферы здравоохранения | Удалено |
+| 7/15/2022 | Упрощение бизнес-процессов в средах розничной торговли | Удалено |
+| 7/15/2022 | Взаимодействие команд розничной торговли | Удалено |
+| 7/15/2022 | "Смены" для Teams | Удалено |
+| 7/15/2022 | Управление доступом на основе смен для сотрудников без компьютеров в Teams | Удалено |
+| 7/15/2022 | [Управление приложением "Смены" в организации](/MicrosoftTeams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams) | Изменено |
+| 7/15/2022 | Управление владельцами расписания для управления сменами | Удалено |
+| 7/15/2022 | Подключение shifts к blue Yonder с помощью PowerShell Workforce Management | Удалено |
+| 7/15/2022 | Использование PowerShell для управления подключением Shifts к Blue Yonder Workforce Management | Удалено |
+| 7/15/2022 | Используйте мастер соединителя shifts для подключения shifts к blue Yonder Workforce Management | Удалено |
+| 7/15/2022 | Соединители shifts | Удалено |
+| 7/15/2022 | Teams для розничной торговли | Удалено |
+| 7/15/2022 | Помощь клиентам и клиентам в использовании виртуальных встреч | Удалено |
+| 7/15/2022 | [Начало работы с Teams для сотрудников без компьютеров](/MicrosoftTeams/flw-landing-page) | Изменено |
+| 7/15/2022 | Общие сведения о типах пользователей и лицензировании сотрудников без компьютеров | Удалено |
+| 7/15/2022 | Использование мастера подключения сотрудника без компьютера для подготовки персонала без компьютеров | Удалено |
+| 7/15/2022 | Краткое руководство по началу работы с frontline Worker | Удалено |
+| 7/15/2022 | Управление пробной версией frontline в Teams | Удалено |
+| 7/15/2022 | Настройка приложений Teams для сотрудников без компьютеров | Удалено |
+| 7/15/2022 | [Пакеты политик Teams для здравоохранения](/MicrosoftTeams/policy-packages-healthcare) | Изменено |
+| 7/15/2022 | Отчет об использовании виртуальных посещений Microsoft Teams | Удалено |
+| 7/15/2022 | [Пример скрипта PowerShell— диспетчеры экспорта и их прямые отчеты](/MicrosoftTeams/scripts/powershell-script-create-teams-from-managers-export-managers) | Изменено |
+| 7/15/2022 | [Пример скрипта PowerShell. Создание команд менеджеров людей](/MicrosoftTeams/scripts/powershell-script-create-teams-from-managers-new-teams) | Изменено |
+
+
 ## <a name="week-of-july-04-2022"></a>Неделя с 4 июля 2022 г.
 
 
@@ -90,22 +135,3 @@
 | 6/16/2022 | [Планирование автосекретарей и очередей звонков Teams](/MicrosoftTeams/plan-auto-attendant-call-queue) | Изменено |
 | 6/16/2022 | [Отправка пользовательских приложений в Центре администрирования Microsoft Teams](/MicrosoftTeams/upload-custom-apps) | Изменено |
 | 6/16/2022 | [Управление политиками собраний для участников и гостей](/MicrosoftTeams/meeting-policies-participants-and-guests) | Изменено |
-
-
-## <a name="week-of-june-06-2022"></a>Неделя с 6 июня 2022 г.
-
-
-| Дата публикации |Название статьи | Изменение |
-|------|------------|--------|
-| 6/6/2022 | [Управление доступом к приложениям Teams в Microsoft 365](/MicrosoftTeams/manage-third-party-teams-apps) | Изменено |
-| 6/7/2022 | [Управление приложением Обновления для организации](/MicrosoftTeams/manage-updates-app) | Изменено |
-| 6/7/2022 | [Развертывание команд в большом масштабе для сотрудников без компьютеров в Microsoft Teams](/MicrosoftTeams/deploy-teams-at-scale) | Добавлено |
-| 6/8/2022 | [Включение Комнаты Teams устройств для присоединения к сторонним собраниям](/MicrosoftTeams/rooms/third-party-join) | Изменено |
-| 6/9/2022 | [Поведение приложений Teams на основе типов пользователей](/MicrosoftTeams/non-standard-users) | Изменено |
-| 6/9/2022 | [Настройка лицензии common Area Phone](/MicrosoftTeams/set-up-common-area-phones) | Изменено |
-| 6/9/2022 | [Создание очереди звонков в Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | Изменено |
-| 6/9/2022 | [Настройка кредитов на связь для организации](/MicrosoftTeams/set-up-communications-credits-for-your-organization) | Изменено |
-| 6/10/2022 | [Расширение мобильного приложения](/MicrosoftTeams/rooms/extended-mobile-app) | Добавлено |
-| 6/10/2022 | [Развертывание команд в большом масштабе для сотрудников без компьютеров в Microsoft Teams](/MicrosoftTeams/deploy-teams-at-scale) | Изменено |
-| 6/10/2022 | [Переход с корпоративной голосовой связи на лицензии Teams Phone](/MicrosoftTeams/business-voice-to-teams-phone-licenses) | Добавлено |
-| 6/10/2022 | [Включение Комнаты Teams устройств для присоединения к сторонним собраниям](/MicrosoftTeams/rooms/third-party-join) | Изменено |
