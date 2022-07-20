@@ -21,13 +21,13 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: Выполните следующие действия, чтобы создать номер телефона по умолчанию для абонентов, которые присоединяются к Microsoft Teams собрания.
-ms.openlocfilehash: 7f22f86a020940caf663b671c81ab7958230db21
-ms.sourcegitcommit: 296fbefe0481c0b8b94aee925118474375cdf138
+description: Выполните следующие действия, чтобы создать номер телефона по умолчанию для абонентов, которые присоединяются к собранию Microsoft Teams.
+ms.openlocfilehash: f0956007d5df72c1fd6c6ae905433e73bd855a56
+ms.sourcegitcommit: 312ff79ecab91412918793ec882bfc6e0143d30a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "65016581"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "66884848"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-microsoft-teams"></a>Задание телефонных номеров, включаемых в приглашения, в Microsoft Teams
 
@@ -49,6 +49,9 @@ ms.locfileid: "65016581"
 
 Как отмечалось выше, в дополнение к номерам телефонов каждое приглашение на собрание содержит ссылку, которая открывает полный список всех номеров телефонов с телефонным подключением, которые можно использовать для присоединения к заданному собранию.
 
+> [!IMPORTANT]
+> Отображение назначенных номеров телефонов в приглашении на собрание может занять до 24 часов. Если обновленные номера не отображаются, подождите по крайней мере 24 часа, прежде чем обращаться в службу поддержки.
+
 ### <a name="new-users"></a>Новые пользователи
 
 Платные и бесплатные номера телефонов, включенные в приглашения на собрания для новых пользователей, также определяются *командой TeamsAudioconferencingPolicy* , назначенной этим пользователям. По умолчанию всем новым пользователям назначается global *TeamsAudioconferencingPolicy*. В глобальной политике не добавлены номера телефонов (если администратор клиента не изменил их). В этом случае номера телефонов, которые включаются в приглашения пользователей, включенных для аудиоконференций, определяются платным номером конференц-связи по умолчанию и бесплатным номером конференц-связи по умолчанию, указанным в параметрах каждого пользователя.
@@ -65,11 +68,11 @@ ms.locfileid: "65016581"
 
 Вы должны быть администратором службы Teams, чтобы вносить эти изменения. Сведения о получении ролей и разрешений администратора см. в статье [Управление Teams с помощью ролей администратора Teams](./using-admin-roles.md).
 
-1. Войдите в центр Microsoft Teams администрирования.
+1. Войдите в Центр администрирования Microsoft Teams.
 
 2. В области навигации слева щелкните " **Пользователи"**.
 
-    ![Показывает выбор пользователей в центре Microsoft Teams администрирования.](media/Admin-users.png)
+    ![Показывает выбор пользователей в Центре администрирования Microsoft Teams.](media/Admin-users.png)
 
 3. Щелкните имя пользователя из списка доступных пользователей.
 
@@ -91,11 +94,11 @@ Windows PowerShell is all about managing users and what users are allowed or not
 
 - [Шесть причин использовать Windows PowerShell для управления Office 365](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
 
-- [Лучшие способы управления Microsoft 365 Office 365 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+- [Лучшие способы управления Microsoft 365 или Office 365 с помощью Windows PowerShell](/previous-versions//dn568025(v=technet.10))
 
-Чтобы задать или изменить номер телефона по умолчанию для организатора или пользователя аудиоконференций с помощью [Microsoft Teams PowerShell](/powershell/module/teams/?view=teams-ps), **`ServiceNumber`** **`TollFreeServiceNumber`** задайте для командлета [Set-CsOnlineDialInConferencingUser](/powershell/module/skype/set-CsOnlineDialInConferencingUser?view=skype-ps) одно из доступных номеров.
+Чтобы задать или изменить номер телефона по умолчанию для организатора собрания или пользователя с помощью [Microsoft Teams PowerShell](/powershell/module/teams/?view=teams-ps), **`ServiceNumber`** **`TollFreeServiceNumber`** задайте для командлета [Set-CsOnlineDialInConferencingUser](/powershell/module/skype/set-CsOnlineDialInConferencingUser?view=skype-ps) одно из доступных номеров или параметры.
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 
 [Попробуйте или приобретите аудиоконференции в Microsoft 365 или Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
 

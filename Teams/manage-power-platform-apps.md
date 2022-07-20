@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Узнайте, как управлять доступом к пользовательским приложениям, созданным с помощью Microsoft Power Platform, в Центре администрирования Teams.
-ms.openlocfilehash: bf75d65f9ebc84ec836dd64839b3e6178d828867
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: 85aa9904b22dd03e1056b353bf91904909c11f59
+ms.sourcegitcommit: 89904ab4116294ad9e4fd407feba8d7e3eefef10
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66240528"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "66880263"
 ---
 # <a name="manage-microsoft-power-platform-apps-in-the-teams-admin-center"></a>Управление приложениями Microsoft Power Platform в Центре администрирования Teams
 
@@ -39,7 +39,7 @@ ms.locfileid: "66240528"
 
 При создании или совместном использовании приложения Microsoft Power Platform пользователи могут просматривать и устанавливать его на странице "Приложения", перейдя на страницу "Сборка **с помощью Power Platform"**. (Создание или совместное использование приложения может занять несколько минут.)
 
-:::image type="content" source="media/manage-power-platform-apps-apps-page.png" alt-text="Снимки экрана страницы &quot;Приложения&quot;, на которой показаны приложения Microsoft Power Platform, перечисленные в разделе &quot;Встроенные с помощью Power Platform&quot;":::
+:::image type="content" source="media/manage-power-platform-apps-apps-page.png" alt-text="Снимок экрана: страница &quot;Приложения&quot;, на которой показаны приложения Microsoft Power Platform, перечисленные в разделе &quot;Сборка с помощью Power Platform&quot;.":::
 
 Конечные пользователи видят приложение в **приложении Built with Power Platform** , если оно соответствует одному из следующих условий.
 
@@ -69,10 +69,10 @@ ms.locfileid: "66240528"
 1. В левой области Центра администрирования Microsoft Teams перейдите в раздел " **Приложения Teams" "** > **Управление приложениями"**. Для доступа к странице необходимо быть глобальным администратором или администратором служб Teams.
 2. В списке приложений выполните одно из следующих действий.
 
-    :::image type="content" source="media/manage-power-platform-apps-manage-apps.png" alt-text="Снимок экрана: страница &quot;Управление приложениями&quot; с общими приложениями Microsoft Power Platform":::
+    :::image type="content" source="media/manage-power-platform-apps-manage-apps.png" alt-text="Снимок экрана: страница &quot;Управление приложениями&quot; с общими приложениями Microsoft Power Platform.":::
 
-    - Чтобы заблокировать приложения, созданные в Power Apps или Power Virtual Agents для всех пользователей в организации, выполните поиск по запросу **"Общие приложения Power Apps** " или "Общие приложения **power Virtual Agent"**, выберите его и нажмите кнопку " **Блокировать"**.
-    - Чтобы разрешить приложения, созданные в Power Apps или Power Virtual Agents для всех пользователей в организации, выполните поиск по запросу **"Общие приложения Power Apps** " или "Общие приложения **power Virtual Agent"**, выберите его и нажмите кнопку " **Разрешить"**.
+    * Чтобы заблокировать приложения, созданные в Power Apps или Power Virtual Agents для всех пользователей в организации, выполните поиск по запросу **"Общие приложения Power Apps** " или "Общие приложения **power Virtual Agent"**, выберите его, а затем выберите " **Блокировать"**.
+    * Чтобы разрешить приложения, созданные в Power Apps или Power Virtual Agents для всех пользователей в организации, выполните поиск по запросу **"Общие приложения Power Apps** " или "Общие приложения **power Virtual Agent"**, выберите его и нажмите кнопку " **Разрешить"**.
 
 ### <a name="allow-or-block-microsoft-power-platform-apps-for-specific-users"></a>Разрешение или блокировка приложений Microsoft Power Platform для определенных пользователей
 
@@ -91,10 +91,10 @@ ms.locfileid: "66240528"
 > [!NOTE]
 > Записи аудита можно экспортировать в формате CSV, чтобы упростить фильтрацию.
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-articles"></a>Статьи по теме
 
-- [Совместное использование приложения на основе холста в Power Apps](/powerapps/maker/canvas-apps/share-app)
-- [Предоставление общего доступа к боту другим пользователям](/power-virtual-agents/admin-share-bots)
-- [Управление приложениями в Центре администрирования Microsoft Teams](manage-apps.md)
-- [Управление политиками разрешений для приложений в Teams](teams-app-permission-policies.md)
-- [Публикация пользовательского приложения, отправленного через API отправки приложений Teams](submit-approve-custom-apps.md)
+* [Совместное использование приложения на основе холста в Power Apps](/powerapps/maker/canvas-apps/share-app)
+* [Предоставление общего доступа к боту другим пользователям](/power-virtual-agents/admin-share-bots)
+* [Управление приложениями в Центре администрирования Microsoft Teams](manage-apps.md)
+* [Управление политиками разрешений для приложений в Teams](teams-app-permission-policies.md)
+* [Публикация пользовательского приложения, отправленного через API отправки приложений Teams](submit-approve-custom-apps.md)

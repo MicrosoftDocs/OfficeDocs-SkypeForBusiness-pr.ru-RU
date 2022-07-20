@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: Узнайте, какие USB-периферийные устройства (например, гарнитуры, динамики, веб-камеры и мониторы) сертифицированы для Microsoft Teams.
-ms.openlocfilehash: c56b6c50ff9873aa2eace6a790f484065697f855
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.openlocfilehash: 956034bff42cdf3694c648306caf218057bca1da
+ms.sourcegitcommit: 89904ab4116294ad9e4fd407feba8d7e3eefef10
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66789164"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "66880393"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>USB-аудио- и видеоустройства, сертифицированные для Microsoft Teams
 
@@ -74,13 +74,14 @@ ms.locfileid: "66789164"
 
 ## <a name="certified-devices"></a>Сертифицированные устройства
 
-*Таблица обновлена в июне 2022 г.*
+*Таблица обновлена в июле 2022 г.*
 
 > [!NOTE]
 > Формат даты — MMDDYYYY.
 
 | Производитель        | Модели                                                     | Квалифицированных      | Сертифицированная программа                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Logi                 |Закрепление динамика                                          |7/13/2022       |Сертифицировано для Microsoft Teams                           |
 |Dell                 |Камера WB5023                                              |6/29/2022       |Сертифицировано для Microsoft Teams                           |
 |ЭПОС                 |Гарнитура ADAPT 560 II                                       |6/22/2022       |Сертифицировано для Microsoft Teams                           |
 |ЭПОС                 |Гарнитуры серии C10/C20/C50                                |5/31/2022       |Сертифицировано для Microsoft Teams                           |
