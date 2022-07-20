@@ -15,12 +15,12 @@ description: Сведения об аудите действий пользов�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 77c7ac5d80304e82f1309e3a22b21c17d106a58c
-ms.sourcegitcommit: 90f03a841f8ca33092dce65c543357c7c2f7b82a
+ms.openlocfilehash: 54cf634fb8da78081023fad3940daf4ef33450c2
+ms.sourcegitcommit: 89904ab4116294ad9e4fd407feba8d7e3eefef10
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "66647835"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "66880403"
 ---
 # <a name="audit-for-app-management-activities-and-events"></a>Аудит действий и событий управления приложениями
 
@@ -72,6 +72,7 @@ ms.locfileid: "66647835"
 
 ## <a name="see-also"></a>См. также
 
+* [Использование журналов аудита для изучения действий установки Microsoft Power Platform](manage-power-platform-apps.md#use-audit-logs-to-investigate-microsoft-power-platform-installation-activity)
 * [Поиск подписи аудита на портале соответствия требованиям](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance).
 * [Обзор Аудита премиум Microsoft Purview](/microsoft-365/compliance/advanced-audit).
 * [Включение или отключение аудита](/microsoft-365/compliance/turn-audit-log-search-on-or-off).
