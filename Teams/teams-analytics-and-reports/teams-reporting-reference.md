@@ -18,12 +18,12 @@ description: В этой статье вы узнаете об отчетах Te
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 02acd95084b814e6f49634972eebeedfdeeb9472
-ms.sourcegitcommit: 4c4f2f220832cae3efb3f6f3c74795300d661295
+ms.openlocfilehash: bd6be2023745390a0f1225224e6ebbe9bcbde1dc
+ms.sourcegitcommit: e6f3e1e499ed1298b3e6f7a1b53f6cb8ba73c9b1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "66825863"
+ms.lasthandoff: 07/20/2022
+ms.locfileid: "66906964"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Аналитика и отчеты Microsoft Teams
 
@@ -36,7 +36,7 @@ ms.locfileid: "66825863"
 Перейдите в Центр администрирования Microsoft Teams, в области навигации слева выберите "Аналитика & отчетов", а затем в **разделе** "Просмотр отчетов **" выберите** отчет, который нужно запустить.
 
 > [!NOTE]
-> Отчеты в Центре администрирования Microsoft Teams отделены от отчетов о действиях teams, которые являются частью отчетов Microsoft 365 в Центр администрирования Microsoft 365. Дополнительные сведения об отчетах об активности в Центр администрирования Microsoft 365 см. в отчетах о действиях [Teams](../teams-activity-reports.md) в Центр администрирования Microsoft 365
+> Отчеты в Центре администрирования Microsoft Teams отделены от отчетов о действиях teams, которые являются частью отчетов Microsoft 365 в Центр администрирования Microsoft 365. Дополнительные сведения об отчетах об активности в Центр администрирования Microsoft 365 см. в [разделе "Отчеты Microsoft 365" в Центре администрирования](/microsoft-365/admin/activity-reports/activity-reports).
 
 ## <a name="teams-reporting-reference"></a>Справочник по отчетам Teams
 
