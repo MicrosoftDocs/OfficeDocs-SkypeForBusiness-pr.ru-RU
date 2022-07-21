@@ -1,7 +1,7 @@
 ---
 title: Настройка operator Connect
-author: cazawideh
-ms.author: czawideh
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.date: 09/30/2021
 ms.topic: article
@@ -15,18 +15,18 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 - ms.teamsadmincenter.directrouting.overview
-description: Дополнительные сведения о настройке Operator Connect.
+description: Mer informasjon о настройке Operator Connect.
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c37c6e52eac53e2cf3e43e45566243a6c83025a7
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: e9a773e7c8767164480374826a2410050681505a
+ms.sourcegitcommit: 5a8a077b30a0eab2342afc422869adaa682a015b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66240508"
+ms.lasthandoff: 07/20/2022
+ms.locfileid: "66915197"
 ---
 # <a name="configure-operator-connect"></a>Настройка operator Connect
 
@@ -91,18 +91,15 @@ ms.locfileid: "66240508"
 
 1. Обратитесь к оператору, чтобы перенести номера в Operator Connect. Чтобы найти веб-сайт оператора, ознакомьтесь с каталогом [Microsoft 365 Operator Connect](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory) .
 
-2. После того как оператор завершит заказ на перенос, вы можете отменить назначение телефонных номеров плана звонков пользователей и удалить лицензию на план звонков. Затем оператор может передать номера в клиент.
+2. После того как оператор завершит порядок переноса, оператор загрузит номера в клиент.
 
 3. Назначьте номера operator Connect пользователям с помощью Центра администрирования Teams или PowerShell. Дополнительные сведения см. в разделе ["Назначение чисел"](#assign-numbers).
 
 ### <a name="move-numbers-from-direct-routing-to-operator-connect"></a>Перемещение чисел из прямой маршрутизации в operator Connect
 
-Чтобы переместить числа из прямой маршрутизации в Operator Connect, существующий номер прямой маршрутизации, отправленный оператором в клиент, должен быть удален из назначенного пользователю. Затем после переноса номера в Operator Connect можно повторно назначить номер пользователю. Чтобы перейти с прямой маршрутизации на operator Connect с локальными или сетевыми номерами телефонов, выполните следующие действия.
+Чтобы перейти с прямой маршрутизации на operator Connect с локальными или сетевыми номерами телефонов, выполните следующие действия.
 
->[!IMPORTANT]
-> Номер телефона не будет работать во время миграции, поэтому перед началом работы согласуйте его с оператором Operator Connect.
-
-#### <a name="step-1---remove-existing-direct-routing-numbers"></a>Шаг 1. Удаление существующих номеров прямой маршрутизации.
+#### <a name="step-1---identify-if-the-existing-direct-routing-numbers-are-assigned-online-or-on-premises"></a>Шаг 1. Определите, назначены ли существующие номера прямой маршрутизации в сети или локально.
 
 Убедитесь, что пользователю назначен номер прямой маршрутизации, выполнив команду модуля Teams PowerShell:
 
@@ -119,9 +116,13 @@ Get-CsOnlineUser -Identity <user> | fl RegistrarPool, OnPremLineURI, LineURI
 ```
 
 Если `OnPremLineUri` указан номер телефона E.164, номер телефона был назначен локально и синхронизирован с Microsoft 365.
-    
-**Чтобы удалить номера прямой маршрутизации**, назначенные локально, выполните следующую Skype для бизнеса Server PowerShell:
-    
+
+**Чтобы перенести существующие номера прямой маршрутизации**, назначенные в режиме "в сети" в Operator Connect, обратитесь к оператору. Сведения о том, как найти веб-сайт оператора, см. в каталоге [Microsoft 365 Operator Connect](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory). В согласованные дату и время оператор переносит ваши номера из прямой маршрутизации в Operator Connect.
+
+**Чтобы перенести номера прямой** маршрутизации, назначенные локально в Operator Connect, выполните следующую команду Skype для бизнеса Server PowerShell:
+>[!IMPORTANT]
+> Номер телефона не будет работать во время миграции, поэтому перед началом работы согласуйте его с оператором Operator Connect.
+
 ```PowerShell
 Set-CsUser -Identity <user> -LineURI $null 
 ```
@@ -140,7 +141,7 @@ OnPremLineURI                        :
 LineURI                              : 
 ```
 
-<br> **Чтобы удалить существующие сетевые номера** прямой маршрутизации, назначенные в Сети, выполните следующую команду модуля Teams PowerShell:
+
 
 
 ```PowerShell
@@ -193,6 +194,6 @@ Grant-CsOnlineVoiceRoutingPolicy -Identity <user> -PolicyName $Null
 
 - Если номер телефона назначен пользователю, его необходимо отменить. Выберите **"Изменить**", а **затем "Удалить пользователя"**. После сохранения изменений выберите " **Выпуск"**.
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
 - [Планирование автосекретарей и очередей звонков Teams](plan-auto-attendant-call-queue.md)

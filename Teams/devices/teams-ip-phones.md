@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Узнайте, какие стационарные и конференции сертифицированы для Microsoft Teams для достижения наилучших результатов.
-ms.openlocfilehash: 33be6dce1359637602ee81bcefdb6b4035c22f6c
-ms.sourcegitcommit: 89904ab4116294ad9e4fd407feba8d7e3eefef10
+ms.openlocfilehash: 39806bd983bb9cd0f7c35e14bd78a93b185d5b7a
+ms.sourcegitcommit: 5a8a077b30a0eab2342afc422869adaa682a015b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/19/2022
-ms.locfileid: "66880253"
+ms.lasthandoff: 07/20/2022
+ms.locfileid: "66915207"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Сертифицированные устройства Android в Microsoft Teams
 
@@ -45,6 +45,7 @@ ms.locfileid: "66880253"
 
 |Модель устройства    | Версия встроенного ПО    | Текущая дата окончания сертификации | Версия ОС Android                               |
 |:---------------------------------------|:-----------------------------------------|:-----------------------------|-----------------------------------|
+| Poly CCX505                            | `7.3.1.0811`                                                  |  5 августа 2023 г.              | 9 |
 | AudioCodes C450HD                      | `1.17.443`                                                  |    5 августа 2023 г.              | 9 |
 | AudioCodes C448HD(Cap Mode Only)       |  `1.17.443`                                                   | 5 августа 2023 г.            | 9 |
 | Yealink CP965    | `143.15.0.7 `          | 3 сентября 2025 г.     | 11 |
@@ -375,7 +376,7 @@ ms.locfileid: "66880253"
 
 Лицензии Microsoft Teams можно приобрести в составе [microsoft 365 или Office 365 подписки](/office365/servicedescriptions/teams-service-description). Дополнительные сведения о необходимых лицензиях для использования Microsoft Teams на телефонах см. в доступных [лицензиях телефонной системы](https://products.office.com/microsoft-teams/voice-calling).
 
-Дополнительные сведения о получении Teams см. Разделы справки [доступ к Microsoft Teams?](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
+Дополнительные сведения о получении Teams см. 如何实现 [доступ к Microsoft Teams?](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 
 Если вы являетесь поставщиком, который пытается присоединиться к программе сертификации, см[](/skypeforbusiness/certification/how-to-join). статью "Присоединение к требованиям и доступным программам".
 
