@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: db4b3adabecf147f5adf9cadb9891892b5a82e5a
-ms.sourcegitcommit: 79ada2140b110239deff96e4854ebd5dd9b77881
+ms.openlocfilehash: e2ac9a38e16000829b391e77dffdd718ed349299
+ms.sourcegitcommit: f5546acf02ec644225f6d0fb41f38b1912da6adf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "66606228"
+ms.lasthandoff: 07/21/2022
+ms.locfileid: "66952763"
 ---
 # <a name="share-to-teams-from-outlook"></a>Предоставление общего доступа к Teams из Outlook
 
@@ -30,9 +30,9 @@ ms.locfileid: "66606228"
 Для использования функции "Поделиться в Teams" требуется надстройка для Outlook. Эта надстройка устанавливается автоматически при каждом входе пользователя в веб-приложение Teams или настольный клиент Teams.
 
 > [!NOTE]
-> Обязательно просмотрите надстройки [для Outlook в Exchange Online](/exchange/clients-and-mobile-in-exchange-online/add-ins-for-outlook/add-ins-for-outlook) и правилах клиентского [](/exchange/clients-and-mobile-in-exchange-online/client-access-rules/client-access-rules) доступа в Exchange Online, чтобы убедиться, что надстройки для Outlook работают правильно. Кроме того, отключение подключенных функций может помешать правильной работе надстроек Outlook. [Дополнительные сведения см. в разделе "](https://support.microsoft.com/topic/connected-experiences-in-office-8d2c04f7-6428-4e6e-ac58-5828d4da5b7c)Сетевые функции в Office".  
+> Обязательно просмотрите надстройки [для Outlook в Exchange Online](/exchange/clients-and-mobile-in-exchange-online/add-ins-for-outlook/add-ins-for-outlook) и правилах клиентского [](/exchange/clients-and-mobile-in-exchange-online/client-access-rules/client-access-rules) доступа в Exchange Online, чтобы убедиться, что надстройки для Outlook работают правильно. Кроме того, отключение подключенных функций может помешать правильной работе надстроек Outlook. [Дополнительные сведения см. в разделе "](https://support.microsoft.com/topic/connected-experiences-in-office-8d2c04f7-6428-4e6e-ac58-5828d4da5b7c)Сетевые функции в Office". Надстройка не поддерживает общие почтовые ящики. 
 
-Совместное использование в Teams использует тот же механизм транспорта, что и при отправке пользователем сообщения по электронной почте каналу. Для общего доступа к чатам сообщения электронной почты (включая вложения электронной почты) копируются в OneDrive отправителя. Для общего доступа к каналам сообщения электронной почты и вложения копируются в папку **сообщений** электронной почты в SharePoint.
+Совместное использование в Teams использует тот же механизм транспорта, что и при отправке пользователем сообщения по электронной почте каналу. Для общего доступа к чатам сообщения электронной почты (включая вложения электронной почты) копируются в OneDrive отправителя. Для общего доступа к каналам сообщения электронной почты и **вложения** копируются в папку Email сообщений в SharePoint.
 
 Надстройка Outlook для share to Teams использует набор обязательных элементов 1.7, как описано в документации по надстройки [Outlook](/exchange/clients-and-mobile-in-exchange-online/add-ins-for-outlook/add-ins-for-outlook), которая содержит сведения о надстройки Outlook, требования к среде для надстроек Outlook и конкретные клиенты Outlook, которые поддерживаются с набором обязательных элементов 1.7.
 

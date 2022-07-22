@@ -1513,6 +1513,8 @@ items:
             href: expand-teams-across-your-org/shifts/shifts-data-faq.md
           - name: Управление приложением обновления
             href: manage-updates-app.md
+          - name: Управление приложением "Рация"
+            href: walkie-talkie.md
       - name: Управление сторонними приложениями
         items:
           - name: Распознавание сторонних приложений
