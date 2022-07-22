@@ -1535,10 +1535,6 @@ items:
             href: submit-approve-custom-apps.md
           - name: Публикация настраиваемого приложения путем отправки пакета приложений
             href: upload-custom-apps.md
-          - name: Настройка внешнего вида и метаданных приложений
-            href: customize-apps.md
-          - name: Настройка фирменного стиля магазина приложений вашей организации
-            href: customize-your-app-store.md
       - name: Элементы управления администратора для управления приложениями
         items:
           - name: Обзор управления приложениями
@@ -1561,16 +1557,20 @@ items:
             href: resource-specific-consent.md
           - name: Сведения о разрешениях приложений и доступе к ресурсам
             href: app-permissions.md
+          - name: Настройка внешнего вида и метаданных приложений
+            href: customize-apps.md
+          - name: Настройка фирменного стиля магазина приложений вашей организации
+            href: customize-your-app-store.md
           - name: Управление доступом к приложениям в Microsoft 365
             href: manage-third-party-teams-apps.md
-          - name: Аудит действий управления приложениями
-            href: audit-app-management-activities.md
-          - name: Отчет об использовании приложения и аналитика
-            href: teams-analytics-and-reports/app-usage-report.md
           - name: Поведение приложений в зависимости от типов пользователей
             href: non-standard-users.md
           - name: Обновления приложений и роль администратора
             href: apps-update-experience.md
+          - name: Аудит действий управления приложениями
+            href: audit-app-management-activities.md
+          - name: Отчет об использовании приложения и аналитика
+            href: teams-analytics-and-reports/app-usage-report.md
   - name: Руководство для отраслей и государственных организаций
     items:
       - name: Обзор

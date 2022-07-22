@@ -17,29 +17,29 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Из этой статьи вы узнаете, как обновляются приложения Майкрософт, пользовательские приложения и сторонние приложения в Microsoft Teams приложениях.
-ms.openlocfilehash: cf4a062cd035feb0850a64c49a4c2363de0badce
-ms.sourcegitcommit: 9946c6c1faa78617ccd7bdf115457090ebce5619
+description: Из этой статьи вы узнаете, как обновляются приложения Майкрософт, пользовательские приложения и сторонние приложения в Microsoft Teams.
+ms.openlocfilehash: 27d51a487af918e6fcee2b7806c81d31506bd1af
+ms.sourcegitcommit: 70185cd963c5a9d539e65e302d4230018209ecae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/21/2022
-ms.locfileid: "66190319"
+ms.lasthandoff: 07/22/2022
+ms.locfileid: "66958044"
 ---
 # <a name="update-apps-in-microsoft-teams"></a>Обновление приложений в Microsoft Teams
 
-В большинстве случаев после того, как разработчики приложений опубликует обновление приложения, для пользователей автоматически появится новая версия. Однако существуют некоторые обновления манифеста [Microsoft Teams, которые](/microsoftteams/platform/resources/schema/manifest-schema) требуют принятия пользователем условий.
+В большинстве случаев после того, как разработчики приложений опубликует обновление приложения, для пользователей автоматически появится новая версия. Однако существуют некоторые обновления манифеста [Microsoft Teams](/microsoftteams/platform/resources/schema/manifest-schema) , которые требуют принятия пользователем условий.
 
-* Бот был добавлен или удален
+* Бот был добавлен или удален.
 * Изменено свойство botId существующего бота.
-* Изменено свойство isNotificationOnly существующего бота
+* Изменено свойство isNotificationOnly существующего бота.
 * Добавлены возможности SupportsCalling, SupportsVideo и SupportsFiles бота.
-* Добавлено расширение для обмена сообщениями
-* Добавлен новый соединитель
-* Добавлены или изменены разрешения внутри "Авторизация".
+* Добавлено расширение для обмена сообщениями.
+* Добавлен новый соединитель.
+* Разрешения внутри "Авторизация" были добавлены или изменены.
 
-![доступна новая версия.](media/manage-your-custom-apps-update1.png)
+:::image type="content" source="media/manage-your-custom-apps-update1.png" alt-text="Доступна новая версия." lightbox="media/manage-your-custom-apps-update1.png":::
 
-![параметр обновления для приложения.](media/manage-your-custom-apps-update2.png)
+:::image type="content" source="media/manage-your-custom-apps-update2.png" alt-text="Параметр обновления для приложения." lightbox="media/manage-your-custom-apps-update2.png":::
 
 > [!NOTE]
 > Процесс обновления применяется ко всем обновлениям приложений Майкрософт, пользовательских приложений и сторонних приложений.
