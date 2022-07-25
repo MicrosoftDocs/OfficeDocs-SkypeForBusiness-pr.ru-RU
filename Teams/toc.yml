@@ -1525,6 +1525,8 @@ items:
             href: overview-of-app-certification.md
           - name: Приобретение сторонних приложений для Teams
             href: purchase-third-party-apps.md
+          - name: Adobe Acrobat в качестве средства просмотра PDF по умолчанию в Teams
+            href: adobe-acrobat-pdf-viewer-teams.md
           - name: Управление Microsoft 365 и настраиваемыми соединителями
             href: Office-365-custom-connectors.md
       - name: Управление пользовательскими бизнес-приложениями
