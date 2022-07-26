@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Узнайте, как настроить один пограничный контроллер сеансов (SBC) для обслуживания нескольких клиентов для партнеров Майкрософт и (или) операторов ТСОП.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9221414053b0ee92b87553e0f81c23b41b23f0fb
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+ms.openlocfilehash: 8880f912ae21af3bf269e86469241f345bc33f74
+ms.sourcegitcommit: f5d784df59a8010b390691bbb20c4ea66c46280b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66616345"
+ms.lasthandoff: 07/26/2022
+ms.locfileid: "67005359"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Настройка множества клиентов в пограничном контроллере сеансов
 
@@ -60,7 +60,7 @@ ms.locfileid: "66616345"
 
 - **AudioCodes:** Сведения [о настройке](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams) сценария размещения SBC см. в примечаниях к конфигурации прямой маршрутизации, как описано в разделе "Connecting AudioCodes SBC to Microsoft Teams Direct Routing Hosting Model Note". 
 - **Oracle:** Сведения [о настройке](https://www.oracle.com/technetwork/indexes/documentation/acme-packet-2228107.html) сценария размещения SBC см. в примечаниях к конфигурации прямой маршрутизации, как описано в разделе "Майкрософт". 
-- **Связь с лентой:** Документацию по настройке [SBC Core Microsoft Teams](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe) на ленте см. в руководстве по настройке SBC Core Series на ленте. См. также рекомендации по настройке операторов прямой маршрутизации [Microsoft Teams для SBC Edge](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Direct+Routing+Carrier)
+- **Связь с лентой:** Документацию по настройке [SBC Core Microsoft Teams](https://support.sonus.net/display/ALLDOC/SBC+8.2+-+MS+Teams+Solution+Guide) на ленте см. в руководстве по настройке SBC Core Series на ленте. См. также рекомендации по настройке операторов прямой маршрутизации [Microsoft Teams для SBC Edge](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Direct+Routing+Carrier)
 - **TE-Systems (anynode):** Зарегистрируйтесь [на странице сообщества TE-Systems](https://community.te-systems.de/) для получения документации и примеров настройки anynode SBC для нескольких клиентов.
 - **Metaswitch:** Зарегистрируйтесь [на странице сообщества Metaswitch,](https://manuals.metaswitch.com/MAN39555) чтобы получить документацию по включению Perimeta SBC для нескольких клиентов.
 
