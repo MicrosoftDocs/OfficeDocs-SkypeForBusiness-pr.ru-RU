@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Узнайте, какие стационарные и конференции сертифицированы для Microsoft Teams для достижения наилучших результатов.
-ms.openlocfilehash: 39806bd983bb9cd0f7c35e14bd78a93b185d5b7a
-ms.sourcegitcommit: 5a8a077b30a0eab2342afc422869adaa682a015b
+ms.openlocfilehash: 9708efebd884684e825ecd493f9b1cb124a1a95e
+ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/20/2022
-ms.locfileid: "66915207"
+ms.lasthandoff: 07/26/2022
+ms.locfileid: "67023800"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Сертифицированные устройства Android в Microsoft Teams
 
@@ -122,6 +122,7 @@ ms.locfileid: "66915207"
 
 | Выпуск продукта | Дата выпуска  | Версия приложения Microsoft Teams | Корпоративный портал версии | Администратор версии агента |
 |:----------------|:--------------|:----------------------------|:-----------------------|:--------------------|
+| Обновление 2022 #3A  | 13 июля 2022 г.   | `1449/1.0.94.2022062103` |`5.0.5304.0` | `322` |
 | Обновление 3 за 2022 г.  | 6 июля 2022 г.   | `1449/1.0.94.2022061702` |`5.0.5304.0` | `322` |
 | Обновление 2022 #2A  | 13 апреля 2022 г.   | `1449/1.0.94.2022041102` |`5.0.5304.0` | `322` |
 | Обновление 2 за 2022 г.   | 21 марта 2022 г.   | `1449/1.0.94.2022030501` |`5.0.5304.0` | `322` |
@@ -376,7 +377,7 @@ ms.locfileid: "66915207"
 
 Лицензии Microsoft Teams можно приобрести в составе [microsoft 365 или Office 365 подписки](/office365/servicedescriptions/teams-service-description). Дополнительные сведения о необходимых лицензиях для использования Microsoft Teams на телефонах см. в доступных [лицензиях телефонной системы](https://products.office.com/microsoft-teams/voice-calling).
 
-Дополнительные сведения о получении Teams см. 如何实现 [доступ к Microsoft Teams?](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
+Дополнительные сведения о получении Teams см. Разделы справки [доступ к Microsoft Teams?](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 
 Если вы являетесь поставщиком, который пытается присоединиться к программе сертификации, см[](/skypeforbusiness/certification/how-to-join). статью "Присоединение к требованиям и доступным программам".
 

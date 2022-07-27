@@ -16,12 +16,12 @@ ms.reviewer: mikedav
 description: Узнайте, как назначать пользователям лицензии на надстройки Teams для таких возможностей, как аудиоконференции, телефонная система и планы звонков.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 380abec55466d831722c76c9e552055378ecf1df
-ms.sourcegitcommit: 791d0a341ff873145fa893ece05055729b0b8d50
+ms.openlocfilehash: 07196e26f38042b6046d6761bd60dfad64f89c7d
+ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/18/2022
-ms.locfileid: "66838824"
+ms.lasthandoff: 07/26/2022
+ms.locfileid: "67023680"
 ---
 # <a name="assign-teams-add-on-licenses-to-users"></a>Назначение пользователям лицензий на надстройки Teams
 
@@ -64,18 +64,10 @@ ms.locfileid: "66838824"
 
 Ниже приведен пример использования скрипта для назначения лицензий пользователям.
 
-1. Установите 64-разрядную версию помощника по входу [в Microsoft Online Services для ИТ-специалистов RTW](/collaborate/connect-redirect?DownloadID=59185).
-2. Установите модуль Microsoft Azure Active Directory для Windows PowerShell:
-    1. Откройте командную строку Windows PowerShell с повышенными привилегиями (выполните Windows PowerShell от имени администратора).
-    2. Выполните следующую команду.
-        ```powershell
-        Install-Module MSOnline
-        ```
-    3. Если вам будет предложено установить поставщик NuGet, введите **Y** и нажмите клавишу ВВОД.
-    4. Если вам будет предложено установить модуль из PSGallery, введите **Y** и нажмите клавишу ВВОД.
-3. В командной Windows PowerShell выполните следующий сценарий, чтобы назначить лицензии пользователям, \<CompanyName:License> где находится название вашей организации и идентификатор лицензии, которую вы хотите назначить. Например, litwareinc:MCOMEETADV.
+1. [Установите модуль Microsoft Azure Active Directory для Windows PowerShell](/powershell/azure/active-directory/install-msonlinev1).
+2. В командной Windows PowerShell выполните следующий сценарий, чтобы назначить лицензии пользователям, `CompanyName:License` где находится название вашей организации и идентификатор лицензии, которую вы хотите назначить. Например, `litwareinc:MCOMEETADV`.
 
-    Идентификатор отличается от понятного имени лицензии. Например, идентификатор для аудиоконференций — MCOMEETADV. Дополнительные сведения см. [в разделе "Названия продуктов и идентификаторы номеров SKU для лицензирования"](#product-names-and-sku-identifiers-for-licensing).
+    Идентификатор отличается от понятного имени лицензии. Например, идентификатором аудиоконференций является `MCOMEETADV`. Дополнительные сведения см. [в разделе "Названия продуктов и идентификаторы номеров SKU для лицензирования"](#product-names-and-sku-identifiers-for-licensing).
 
     ```powershell
     #Create a text file with a single column that lists the user principal names (UPNs) of users to assign licenses to. The MSOL service uses the UPN to license user accounts.

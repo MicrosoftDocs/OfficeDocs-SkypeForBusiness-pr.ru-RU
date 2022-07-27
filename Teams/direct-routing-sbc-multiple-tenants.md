@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Узнайте, как настроить один пограничный контроллер сеансов (SBC) для обслуживания нескольких клиентов для партнеров Майкрософт и (или) операторов ТСОП.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8880f912ae21af3bf269e86469241f345bc33f74
-ms.sourcegitcommit: f5d784df59a8010b390691bbb20c4ea66c46280b
+ms.openlocfilehash: 9d7ee3960f88b1c6ed4ee140b4f291162e37da30
+ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 07/26/2022
-ms.locfileid: "67005359"
+ms.locfileid: "67024022"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Настройка множества клиентов в пограничном контроллере сеансов
 
@@ -246,7 +246,7 @@ ms.locfileid: "67005359"
 Примеры:
 - Customers.adatum.biz — магистраль оператора, которую необходимо создать в арендаторе оператора.
 
-- Sbc1.customers.adatum.biz — производная магистраль в клиенте клиента. Вы можете добавить имя производной магистрали в клиенте клиента в политику маршрутизации голосовой связи в сети, не создавая ее.
+- Sbc1.customers.adatum.biz — производная магистраль в клиенте клиента. Вы можете добавить имя производной магистрали в клиенте клиента в голосовые маршруты, не создавая его.
 
 - Оператору необходимо настроить запись DNS, разрешая полное доменное имя магистрали для IP-адреса SBC оператора.
 
