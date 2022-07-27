@@ -17,12 +17,12 @@ description: Узнайте, что делать, если необходимо 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ac4aa6e8182342f36da0434aaf78123937d6d8ce
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+ms.openlocfilehash: 1d548149f978764bbfbe3d0cd3475704ad6a76c2
+ms.sourcegitcommit: 9b08e2826b5b210abd9daa2ef40d4693a5000e33
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66616415"
+ms.lasthandoff: 07/27/2022
+ms.locfileid: "67039646"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Обнаружение электронных данных в Microsoft Teams
 
@@ -69,16 +69,13 @@ ms.locfileid: "66616415"
 
 ![Беседа между участниками в Teams.](media/MeetingIMConversations.png)
 
-[!div class="mx-imgBorder"]
-
 Ниже приведен пример копии соответствия той же беседы чата, просматриваемой в средстве обнаружения электронных данных.
 
 ![Беседа между участниками в результатах поиска eDiscovery.](media/MeetingImConversation2.png)
 
 Ниже приведен пример метаданных собрания.
 
-  > [!div class="mx-imgBorder"]
-  > ![Метаданные собрания из копии соответствия.](media/conversationOption3.png)
+![Метаданные собрания из копии соответствия.](media/conversationOption3.png)
 
 Дополнительные сведения о проведении исследования обнаружения электронных данных см. в статье ["Начало работы с обнаружением электронных данных (стандартная версия)"](/microsoft-365/compliance/get-started-core-ediscovery).
 
