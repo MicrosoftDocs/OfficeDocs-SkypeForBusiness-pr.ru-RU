@@ -1600,8 +1600,16 @@ items:
             href: easy-policy-setup-edu.md
           - name: Связь с родителями в Teams для образования
             href: edu-parents-app.md
-          - name: '"Профконсультант" в Teams для образования'
-            href: career-coach.md
+          - name: Профконсультант
+            items:
+              - name: Начало работы с Профконсультантом
+                href: career-coach.md
+              - name: Установка и настройка Профконсультанта
+                href: career-coach-set-up-steps.md
+              - name: Устранение неполадок Профконсультанта
+                href: career-coach-troubleshoot.md
+              - name: Ресурсы для Профконсультанта
+                href: career-coach-resources.md
           - name: Контроль чатов в Teams
             href: supervise-chats-edu.md
           - name: Insights для образования
@@ -1998,6 +2006,8 @@ items:
             href: complaint-handling-code-for-the-united-kingdom-u-k.md
           - name: Условия для экстренных вызовов
             href: emergency-calling-terms-and-conditions.md
+      - name: Ошибки общих каналов
+        href: shared-channels-errors.md
       - name: Обновление анкеты для обнаружения
         href: upgrade-plan-journey-discovery-questionnaire.md
       - name: Заметки о выпуске для функций администрирования Teams
