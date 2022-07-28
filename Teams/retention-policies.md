@@ -19,12 +19,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 508f10c07a25bb2dc3cef7af84d7dacc62989f28
-ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
+ms.openlocfilehash: 000c279c32237fd7477a375bf9968db03ec5376d
+ms.sourcegitcommit: 644374fcad6372494e87d729de690af4c060f635
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/26/2022
-ms.locfileid: "67023690"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "67054930"
 ---
 # <a name="manage-retention-policies-for-microsoft-teams"></a>Управление политиками хранения для Microsoft Teams
 
@@ -42,7 +42,7 @@ Teams поддерживает политики хранения для сооб
 
 Дополнительные сведения о решениях для меток хранения в Microsoft 365 см. в разделе [Сведения о политиках и метках хранения](/microsoft-365/compliance/retention).
 
-У пользователей, на которых распространяется политика хранения для Teams, должна быть соответствующая лицензия, например Office 365 E3 или Office 365 A3. Другие варианты лицензирования для этих политик хранения см. в разделе [Управление информацией](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-governance) руководства [по лицензированию Microsoft 365 для обеспечения безопасности и соответствия требованиям](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-governance). Чтобы узнать больше о лицензировании для Teams, см. [Описание службы Microsoft Teams](/office365/servicedescriptions/teams-service-description).
+У пользователей, на которых распространяется политика хранения для Teams, должна быть соответствующая лицензия, например Office 365 E3 или Office 365 A3. Другие варианты лицензирования для этих политик хранения см. в разделе Управление жизненным циклом данных Microsoft Purview [](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#microsoft-purview-data-lifecycle-management) руководства по лицензированию [Microsoft 365](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-governance) для обеспечения соответствия требованиям & безопасности. Чтобы узнать больше о лицензировании для Teams, см. [Описание службы Microsoft Teams](/office365/servicedescriptions/teams-service-description).
 
 ## <a name="how-teams-retention-policies-support-retain-and-delete-actions"></a>Как политики хранения Teams поддерживают действия по хранению и удалению
 
