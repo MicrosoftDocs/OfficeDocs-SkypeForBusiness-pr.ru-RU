@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Узнайте, какие стационарные и конференции сертифицированы для Microsoft Teams для достижения наилучших результатов.
-ms.openlocfilehash: 9708efebd884684e825ecd493f9b1cb124a1a95e
-ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
+ms.openlocfilehash: 0fd39009285f411fce3719cac3b8e6f2b0673c59
+ms.sourcegitcommit: 08fe98cc6760028bdd1946ecc5d4ec61ce65e096
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/26/2022
-ms.locfileid: "67023800"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "67058930"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Сертифицированные устройства Android в Microsoft Teams
 
@@ -357,6 +357,7 @@ ms.locfileid: "67023800"
 
 | Модель устройства  | Версия встроенного ПО | Включенный выпуск продукта|
 |:--------------|:-----------------|:-------------------------|
+|Скайронный сенсорный экран TSS-1070 / TSS-770 | `2.001.0058 ` | Обновление 1 за 2022 г.|
 |Logitech Tap Scheduler | `1.6.762` |Обновление 2 за 2022 г.  |
 |Панель аккуратной панели |NFA1.20220512.2158 | Обновление 2 за 2022 г. |
 |Logitech Tap Scheduler | `1.6.215` |Обновление 2022 #1A  |
