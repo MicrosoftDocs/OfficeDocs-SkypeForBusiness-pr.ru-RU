@@ -13,12 +13,12 @@ ms.collection:
 description: Узнайте о последних изменениях в Teams PowerShell.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 96f2b119c36b26a0c8805bcce29edc2830e1568f
-ms.sourcegitcommit: 2871c05e00458a0cc76d919ff822b0b354bd1f72
+ms.openlocfilehash: 355188b2c9e3e563be7e48eb30bee6884d67b04c
+ms.sourcegitcommit: 3335cdff195be42b87f1e00348214e16cc490c7f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "66810121"
+ms.lasthandoff: 07/30/2022
+ms.locfileid: "67077634"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Заметки о выпуске Microsoft Teams PowerShell
 
@@ -31,6 +31,7 @@ ms.locfileid: "66810121"
 
 | Дата | Версия | Обновления |
 |------- | -------------------- | ------------------------------ |
+| Июль 2022 г. | [4.6.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.6.0) |<li>Освобождает параметр AccountType для Get-CsOnlineUser командлета, который позволяет выполнять запросы для определенного типа пользователей.</li><li>Атрибут AccountType добавляется в выходные Get-CsOnlineUser, указывающие тип пользователя. Возможные значения для AccountType: User (учетные записи пользователей), ResourceAccount (конечные точки приложения или учетные записи ресурсов), Guest (гостевые учетные записи) & Unknown (тип пользователя неизвестен).</li><li>Устранены проблемы с параметрами & ранжирования в командлетах Grant-Cs\<PolicyName\> .</li><li>Releases [Get\|Set\|New\|Remove\|Grant]-CsTeamsEventsPolicy Cmdlets.</li><li>Удаляет все нерекомендуемые & командлеты, не поддерживаемые. Сведения о [поддерживаемых версиях Teams PowerShell](teams-powershell-supported-versions.md#deprecated-cmdlets).</li><li>Выпуски современных версий командлетов [New\|Get]-CsCloudCallDataConnection.</li><li>Выпуски командлетов [Get\|Remove]-SharedWithTeam.</li><li>Освобождает Get-TeamAllChannel командлета.</li><li>Освобождает Get-TeamIncomingChannel командлета.</li><li>Освобождает Get-AssociatedTeam командлета.</li><li>Освобождает Get-SharedWithTeamUser командлета.</li><li>Поддерживает необязательный параметр TenantId для Add-TeamChannelUser командлета.</li><li>Выпуски Get-TeamTargetingHierarchyStatus & [Remove\|Set]-TeamTargetingHierarchy командлетов.</li>
 | Июль 2022 г. | [4.5.1-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/4.5.1-preview) |<li>Освобождает параметр AccountType для Get-CsOnlineUser командлета, который позволяет выполнять запросы для определенного типа пользователей.</li><li>Атрибут AccountType добавляется в выходные Get-CsOnlineUser, указывающие тип пользователя. Возможные значения для AccountType: User (учетные записи пользователей), ResourceAccount (конечные точки приложения или учетные записи ресурсов), Guest (гостевые учетные записи) & Unknown (тип пользователя неизвестен).</li><li>Устранены проблемы с параметрами & ранжирования в командлетах Grant-Cs\<PolicyName\> .</li>
 | Июнь 2022 г. | [4.5.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.5.0) |<li>Поддерживает параметр IncludeResources для Get-CsAutoAttendantStatus командлета.</li><li>Поддерживает параметр SoftDeletedUsers для Get-CsOnlineUser командлета.</li><li>Выпуски командлетов [Get\|Grant]-CsTeamsMediaLoggingPolicy.</li><li>Поддерживает необязательный параметр AuthorizedUsers для командлетов [New\|Set]-CsAutoAttendant & [New\|Set]-CsCallQueue.</li><li>Исправляет параметры командной строки для общей голосовой почты, в которых не удалось переключить тип запроса после того, как они были заданы для Set-CsCallQueue командлета.</li><li> Исправления командлетов [New\|Set]-CsOnlineSchedule для работы в формате даты и времени в Европе.</li><li>Releases [New\|Get\|Set\|Remove\|Grant]-CsTeamsVoiceApplicationsPolicy cmdlets.</li><li>Освобождает Get-CsHybridTelephoneNumber командлета.</li><li>Выпуски современных версий командлетов [New\|Remove]-CsHybridTelephoneNumber.</li><li>Поддерживает ToneStar и TonePound в качестве значения для параметра DtmfResponse в New-CsAutoAttendantMenuOption командлета.</li><li> Устранены проблемы с PSListModifier в параметре AllowedDomainsAsAList в Set-CsTenantFederationConfiguration командлета.</li><li> Поддерживает параметры group и Rank для всех командлетов Grant-Cs\<PolicyName\> .</li><li> Освобождает Test-CsTeamsTranslationRule командлета.</li>
 | Июнь 2022 г. | [4.4.3-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/4.4.3-preview) |<li>Поддерживает параметр IncludeResources для Get-CsAutoAttendantStatus командлета.</li><li>Поддерживает параметр SoftDeletedUsers для Get-CsOnlineUser командлета.</li><li>Выпуски командлетов [Get\|Grant]-CsTeamsMediaLoggingPolicy.</li><li>Поддерживает необязательный параметр AuthorizedUsers для командлетов [New\|Set]-CsAutoAttendant & [New\|Set]-CsCallQueue.</li><li>Исправляет параметры командной строки для общей голосовой почты, в которых не удалось переключить тип запроса после того, как они были заданы для Set-CsCallQueue командлета.</li><li> Исправления командлетов [New\|Set]-CsOnlineSchedule для работы в формате даты и времени в Европе.</li>
@@ -73,7 +74,7 @@ ms.locfileid: "66810121"
 | Март 2020 г. | [1.0.5](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.5) |<li>Добавлены New-CsBatchPolicyAssignmentOperation</li> |
 | Февраль 2020 г. | [1.0.4](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.4) | <li>Get-Team оптимизации</li>  |
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 
 [Обзор PowerShell в Teams](teams-powershell-overview.md)
 
