@@ -16,12 +16,12 @@ ms.reviewer: mikedav
 description: Узнайте, как назначать пользователям лицензии на надстройки Teams для таких возможностей, как аудиоконференции, телефонная система и планы звонков.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 07196e26f38042b6046d6761bd60dfad64f89c7d
-ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
+ms.openlocfilehash: 1bef1464b94f736a10cc184a2bdb88e2cdf6df88
+ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/26/2022
-ms.locfileid: "67023680"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "67156977"
 ---
 # <a name="assign-teams-add-on-licenses-to-users"></a>Назначение пользователям лицензий на надстройки Teams
 
@@ -54,7 +54,7 @@ ms.locfileid: "67023680"
 
 Пошаговые инструкции см. в разделе ["Назначение лицензий пользователям"](/microsoft-365/admin/manage/assign-licenses-to-users).
 
-Если необходимо назначить лицензии большому количеству пользователей, например сотням или тысячам пользователей, используйте PowerShell или групповое лицензирование в [Azure Active Directory (Azure AD)](/azure/active-directory/users-groups-roles/licensing-groups-assign).
+Если необходимо назначить лицензии большому числу пользователей, например сотням или тысячам пользователей, используйте PowerShell или групповое [лицензирование в Azure Active Directory (Azure AD)](/azure/active-directory/users-groups-roles/licensing-groups-assign).
 
 ## <a name="using-powershell"></a>С помощью PowerShell
 
@@ -142,6 +142,8 @@ ms.locfileid: "67023680"
 | План внутренних звонков (120 минут на пользователя в месяц для каждой страны) </br>*Этот план недоступен в США.* | MCOPSTN5 |
 | План внутренних звонков (240 минут на пользователя в месяц для каждой страны) </br>*Этот план недоступен в США.* | MCOPSTN6 |
 | Кредиты на связь | MCOPSTNPP |
+| Тарифные планы с оплатой по мере использования (страны зоны 1) | MCOPSTN_PAYG_1 |
+| Тарифные планы с оплатой по мере использования (страны зоны 2) | MCOPSTN_PAYG_2 |
 
 ## <a name="related-content"></a>Связанное содержимое
 
