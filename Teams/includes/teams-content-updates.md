@@ -3,6 +3,29 @@
 
 
 
+## <a name="week-of-july-25-2022"></a>Неделя с 25 июля 2022 г.
+
+
+| Дата публикации |Название статьи | Изменение |
+|------|------------|--------|
+| 7/25/2022 | [Изменения номеров телефонов и лицензирования](/MicrosoftTeams/phone-numbers-licensing-changes) | Добавлено |
+| 7/25/2022 | [Политики собраний и срок действия собраний в Microsoft Teams](/MicrosoftTeams/meeting-expiration) | Изменено |
+| 7/25/2022 | [Регистрация устройства комнаты Teams в управляемых службах](/MicrosoftTeams/rooms/enroll-a-device) | Изменено |
+| 7/25/2022 | [Журналы браузера и трассировка для Teams](/MicrosoftTeams/browser-logs-and-tracing-for-teams) | Добавлено |
+| 7/25/2022 | [Настройка файлов журналов для мониторинга и устранения неполадок в Teams](/MicrosoftTeams/log-files) | Изменено |
+| 7/26/2022 | [Ресурсы для интеграции с Career Coach в Microsoft Teams](/MicrosoftTeams/career-coach-resources) | Добавлено |
+| 7/26/2022 | [Настройка и настройка Career Coach для Microsoft Teams](/MicrosoftTeams/career-coach-set-up-steps) | Добавлено |
+| 7/26/2022 | [Устранение неполадок с карьерным тренером в Microsoft Teams](/MicrosoftTeams/career-coach-troubleshoot) | Добавлено |
+| 7/26/2022 | [Ошибки общих каналов в Microsoft Teams](/MicrosoftTeams/shared-channels-errors) | Добавлено |
+| 7/26/2022 | [Начало работы с career coach для Microsoft Teams](/MicrosoftTeams/career-coach) | Изменено |
+| 7/26/2022 | [Начало работы с career coach для Microsoft Teams](/MicrosoftTeams/cloud-recording) | Изменено |
+| 7/26/2022 | [Использование гостевого и внешнего доступа для совместной работы с людьми из-за пределов организации](/MicrosoftTeams/communicate-with-users-from-other-organizations) | Изменено |
+| 7/26/2022 | [Управление партнерами для клиентов](/MicrosoftTeams/rooms/multi-tenant-management-customer) | Изменено |
+| 7/26/2022 | [Управление клиентами с несколькими клиентами для партнеров](/MicrosoftTeams/rooms/multi-tenant-management-partner) | Изменено |
+| 7/26/2022 | [Назначение пользователям лицензий на надстройки Teams](/MicrosoftTeams/teams-add-on-licensing/assign-teams-add-on-licenses) | Изменено |
+| 7/29/2022 | [Управление номерами телефонов для организации](/MicrosoftTeams/manage-phone-numbers-landing-page) | Изменено |
+
+
 ## <a name="week-of-july-18-2022"></a>Неделя с 18 июля 2022 г.
 
 
@@ -108,20 +131,3 @@
 | 6/27/2022 | [Управление политиками собраний для участников и гостей](/MicrosoftTeams/meeting-policies-participants-and-guests) | Изменено |
 | 6/28/2022 | [Настройка пограничного контроллера сеанса — несколько клиентов](/MicrosoftTeams/direct-routing-sbc-multiple-tenants) | Изменено |
 | 6/29/2022 | [Удаленное управление Комнаты Microsoft Teams параметров устройства](/MicrosoftTeams/rooms/xml-config-file) | Изменено |
-
-
-## <a name="week-of-june-20-2022"></a>Неделя с 20 июня 2022 г.
-
-
-| Дата публикации |Название статьи | Изменение |
-|------|------------|--------|
-| 6/20/2022 | [Настройка ServiceNow для Комнаты Teams](/MicrosoftTeams/rooms/microsoft-teams-rooms-configure-servicenow) | Изменено |
-| 6/21/2022 | [Администратор родительских элементов в Teams для образования](/MicrosoftTeams/edu-parents-app) | Изменено |
-| 6/21/2022 | [Справочник по командлетам PowerShell для автосекретарей и очередей звонков](/MicrosoftTeams/call-queue-auto-attendant-cmdlets) | Изменено |
-| 6/21/2022 | [Создание очереди звонков в Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | Изменено |
-| 6/21/2022 | [Управление приложениями Microsoft Power Platform в Центре администрирования Microsoft Teams](/MicrosoftTeams/manage-power-platform-apps) | Изменено |
-| 6/22/2022 | [Использование телеметрии в режиме реального времени для устранения неполадок с качеством собраний](/MicrosoftTeams/use-real-time-telemetry-to-troubleshoot-poor-meeting-quality) | Изменено |
-| 6/23/2022 | [Управление приложениями Microsoft Power Platform в Центре администрирования Microsoft Teams](/MicrosoftTeams/manage-power-platform-apps) | Изменено |
-| 6/23/2022 | [Приобретение, настройка и включение карьерного специалиста для Microsoft Teams для образования](/MicrosoftTeams/career-coach) | Изменено |
-| 6/23/2022 | [Настройка operator Connect](/MicrosoftTeams/operator-connect-configure) | Изменено |
-| 6/24/2022 | [Управление приложениями в Центре администрирования Microsoft Teams](/MicrosoftTeams/manage-apps) | Изменено |

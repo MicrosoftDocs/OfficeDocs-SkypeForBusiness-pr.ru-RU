@@ -865,6 +865,8 @@ items:
                 href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
           - name: Operator Connect
             items:
+              - name: Новые возможности
+                href: operator-connect-whats-new.md
               - name: План для Operator Connect
                 href: operator-connect-plan.md
               - name: Настройка Operator Connect
@@ -1622,6 +1624,8 @@ items:
                 href: education-insights-manage-access.md
               - name: Начало работы с Reflect
                 href: reflect.md
+              - name: Общие сведения об аналитике для динамики техники чтения
+                href: insights-for-reading-progress.md
           - name: Задания в Teams для образования
             href: expand-teams-across-your-org/assignments-in-teams.md
           - name: Ресурсы Teams для образования (администраторы)
