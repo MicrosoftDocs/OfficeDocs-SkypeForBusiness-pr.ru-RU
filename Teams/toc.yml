@@ -117,8 +117,6 @@ items:
         items:
           - name: Обучение для администраторов Teams
             href: itadmin-readiness.md
-          - name: Сеансы Teams на Ignite
-            href: ignite-2020-landing-page.md
           - name: Обучение для конечных пользователей Teams
             href: instructor-led-training-teams-landing-page.yml
   - name: Переход со Skype для бизнеса

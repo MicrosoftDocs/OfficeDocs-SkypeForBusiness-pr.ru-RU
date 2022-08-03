@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: Узнайте, какие USB-периферийные устройства (например, гарнитуры, динамики, веб-камеры и мониторы) сертифицированы для Microsoft Teams.
-ms.openlocfilehash: 003a532331ad7a1c3e88addad3f2f73a8b5b1f61
-ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
+ms.openlocfilehash: 3df5c2e8a9b3ce27967a8b061c444daccd4cace5
+ms.sourcegitcommit: a64574da14969a33a77c7d979ffde452b5b3a531
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/02/2022
-ms.locfileid: "67156947"
+ms.locfileid: "67176093"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>USB-аудио- и видеоустройства, сертифицированные для Microsoft Teams
 
@@ -80,13 +80,15 @@ ms.locfileid: "67156947"
 
 ## <a name="certified-devices"></a>Сертифицированные устройства
 
-*Таблица обновлена в июле 2022 г.*
+*Таблица обновлена в августе 2022 г.*
 
 > [!NOTE]
 > Формат даты — MMDDYYYY.
 
 | Производитель        | Модель                                                     | Квалифицированный      | Сертифицированная программа                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Jabra                |Привлечение 50 II                                               |7/29/2022       |Сертифицировано для Microsoft Teams                           | 
+|Jabra                |Привлечение 40                                                  |7/29/2022       |Сертифицировано для Microsoft Teams                           |
 |Logi                 |Закрепление динамика                                          |7/13/2022       |Сертифицировано для Microsoft Teams                           |
 |Лощина                 |Камера WB5023                                              |6/29/2022       |Сертифицировано для Microsoft Teams                           |
 |ЭПОС                 |Гарнитура ADAPT 560 II                                       |6/22/2022       |Сертифицировано для Microsoft Teams                           |
