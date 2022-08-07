@@ -11,18 +11,18 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 search.appverid: MET150
-MS.collection:
-- M365-voice
 description: Используйте отчет о заблокированных пользователях ТСОП в Центре администрирования Microsoft Teams, чтобы получить общие сведения о пользователях Teams вашей организации, которым заблокировано выполнение звонков по ТСОП.
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d689d2696a20f51e232a581d45032d55da6deb6d
-ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
+ms.collection:
+- M365-voice
+ms.openlocfilehash: 8f723a9aca6cc57510aaf526297f60966a27bcda
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66794147"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67267384"
 ---
 # <a name="microsoft-teams-pstn-blocked-users-report"></a>Отчет о заблокированных пользователях ТСОП в Microsoft Teams
 
@@ -44,6 +44,6 @@ ms.locfileid: "66794147"
 |**4**   |Нажмите **Изменение столбцов**, чтобы добавить или удалить столбцы в таблице.|
 |**5**   |Выберите **"Полноэкранный** режим", чтобы просмотреть отчет в полноэкранном режиме.|
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 
 - [Аналитика и отчеты Teams](teams-reporting-reference.md)

@@ -10,17 +10,16 @@ search.appverid: ''
 description: Изучите политики Teams.
 audience: admin
 ms.localizationpriority: medium
-MS.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b56e617321cea25fe677b7d9a7a00afba0940b07
-ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
+ms.collection:
+- M365-collaboration
+ms.openlocfilehash: acaa1280e00ad2e86a49c2bbd8e7f4464bd0c0e7
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67156537"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268764"
 ---
 # <a name="manage-teams-with-policies"></a>Управление Teams с помощью политик
 
@@ -34,7 +33,7 @@ ms.locfileid: "67156537"
 
 Политики можно назначать несколькими способами в зависимости от того, что пытается выполнить ваша организация. Вы можете создавать и просматривать назначения в Центре администрирования Teams.
 
-![Снимок экрана: назначение групповой политики.](media/group-policy-assignment.png)
+:::image type="content" source="media/group-policy-assignment.png" alt-text="Снимок экрана: назначение групповой политики Teams." lightbox="media/group-policy-assignment.png":::
 
 Дополнительные сведения о назначении политик см. [здесь](policy-assignment-overview.md).
 
@@ -47,17 +46,17 @@ ms.locfileid: "67156537"
 
 Например, политика установки приложения позволяет разрешить пользователям отправлять пользовательские приложения, устанавливать приложения от имени пользователей и закреплять приложения на панели приложений Teams. Эти политики настраиваются в Центре администрирования Teams.
 
-![Снимок экрана: политика установки приложения.](media/app-setup-policy.png)
+:::image type="content" source="media/app-setup-policy.png" alt-text="Снимок экрана: политика установки приложения." lightbox="media/app-setup-policy.png":::
 
 Кроме того, политику собраний можно использовать для управления параметрами звука и видео в собраниях Teams, такими как транскрибирование, облачные записи и АУДИО-аудио-видео.
 
-![Снимок экрана: политика собрания.](media/engineering-meeting-policy.png)
+:::image type="content" source="media/engineering-meeting-policy.png" alt-text="Снимок экрана: политика собрания." lightbox="media/engineering-meeting-policy.png":::
 
 ### <a name="teams-for-education"></a>Teams для образовательных учреждений
 
 Вы также можете использовать мастер [политики Teams для образования](easy-policy-setup-edu.md), чтобы легко настраивать политики для среды обучения и управлять ими.
 
-![Снимок экрана: Teams для образования политики.](media/easy-policy-setup-quick-setup.png)
+:::image type="content" source="media/easy-policy-setup-quick-setup.png" alt-text="Снимок экрана: Teams для образования политики." lightbox="media/easy-policy-setup-quick-setup.png":::
 
 ## <a name="types-of-policies"></a>Типы политик
 

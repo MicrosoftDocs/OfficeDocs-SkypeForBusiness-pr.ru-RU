@@ -10,17 +10,16 @@ search.appverid: MET150
 ms.localizationpriority: medium
 ms.collection:
 - M365-voice
-- m365initiative-voice
 audience: Admin
 appliesto:
 - Microsoft Teams
 description: Сведения о том, как ИТ-администраторы могут настраивать, использовать и управлять Q&A в Teams Q&A для структурированного подхода к сбору вопросов, упорядочению обсуждений, удалению отдельных сообщений, использованию доступных языков и пониманию жизненного цикла данных, а также политик хранения и удаления данных.
-ms.openlocfilehash: 3ffdc4f48c43bef2d1d342983a63612c91bc40a9
-ms.sourcegitcommit: 89904ab4116294ad9e4fd407feba8d7e3eefef10
+ms.openlocfilehash: edcf1578b70bf39ccf330b7a328b7d0de7558263
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/19/2022
-ms.locfileid: "66880433"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268634"
 ---
 # <a name="manage-qa-in-teams-meetings"></a>Управление Q&A в собраниях Teams
 
@@ -34,6 +33,7 @@ Q&A позволяет выступающим задавать вопросы у
 - Чтобы разрешить пользователям в организации добавлять собрания Q&A в Teams, необходимо убедиться, что входы в службу Office 365 Yammer включены в Azure Active Directory. Выполните следующие действия, чтобы убедиться, что входы включены:
   - Перейдите в **центр администрирования** >  Azure AD **"Все службы** > **корпоративных** >  приложений **Office 365 Yammer** > **"**.
   - Для **параметра "Включено для входа пользователей"** **выберите "Да** ", если это необходимо.
+- Убедитесь, что вы не заблокируют приложение Q&A (Native) в [приложениях Teams.](/MicrosoftTeams/manage-apps)
 
 ## <a name="who-can-use-qa"></a>Кто может использовать Q&A
 

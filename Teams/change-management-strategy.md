@@ -15,12 +15,14 @@ description: Создайте стратегию управления измен
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 589294402d093afef8686dd7a376f0d88d7025cb
-ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
+ms.collection:
+- M365-collaboration
+ms.openlocfilehash: f9ed4b0a2ac694b13054818f53bcf64a628d4dd3
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66562378"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268790"
 ---
 # <a name="create-a-change-management-strategy-for-microsoft-teams"></a>Создание стратегии по управлению изменениями для Microsoft Teams
 
@@ -149,4 +151,4 @@ ms.locfileid: "66562378"
 
 Изменения в организации — это не разовое мероприятие, а постоянный процесс. Стартовое совещание является лишь началом для повышения эффективности совместной работы. Важно спланировать моменты в этом пути, чтобы выделить ваши успехи, ввести новые функции и подключиться к общей стратегии службы Microsoft 365 или Office 365, которую будет создавать ИТ-отдел. Сделайте так, чтобы ваши пользователи были вовлечены в процесс, а не перегружены. Это уменьшит недовольство нововведениями, поможет сотрудникам избавиться от старых привычек, например отправки писем с вложениями, и начать пользоваться чем-то новым, например хранить документы в облаке.
 
-Поделитесь вопросами о внедрении служб Teams и Microsoft 365 Office 365 сообщества по внедрению [](https://techcommunity.microsoft.com/t5/Driving-Adoption/ct-p/DrivingAdoption) на сайте Технического сообщества Майкрософт. Мы всегда рады обратной связи и обязательно окажем вам помощь по вопросам внедрения.
+Поделитесь вопросами о внедрении служб Teams и Microsoft 365 или Office 365 в сообществе по [](https://techcommunity.microsoft.com/t5/Driving-Adoption/ct-p/DrivingAdoption) внедрению Microsoft Technical Community сайте. Мы всегда рады обратной связи и обязательно окажем вам помощь по вопросам внедрения.

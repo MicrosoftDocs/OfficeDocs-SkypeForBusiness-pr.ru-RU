@@ -8,6 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.collection:
 - M365-voice
+- Teams_ITAdmin_Devices
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -15,12 +16,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: Узнайте, какие USB-периферийные устройства (например, гарнитуры, динамики, веб-камеры и мониторы) сертифицированы для Microsoft Teams.
-ms.openlocfilehash: 3df5c2e8a9b3ce27967a8b061c444daccd4cace5
-ms.sourcegitcommit: a64574da14969a33a77c7d979ffde452b5b3a531
+ms.openlocfilehash: d7bc08eedf4c70222554b7aed05c0b2a150064e0
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67176093"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268554"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>USB-аудио- и видеоустройства, сертифицированные для Microsoft Teams
 
@@ -85,17 +86,15 @@ ms.locfileid: "67176093"
 > [!NOTE]
 > Формат даты — MMDDYYYY.
 
-| Производитель        | Модель                                                     | Квалифицированный      | Сертифицированная программа                                      |
+| Производитель        | Модели                                                     | Квалифицированных      | Сертифицированная программа                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
-|Jabra                |Привлечение 50 II                                               |7/29/2022       |Сертифицировано для Microsoft Teams                           | 
-|Jabra                |Привлечение 40                                                  |7/29/2022       |Сертифицировано для Microsoft Teams                           |
 |Logi                 |Закрепление динамика                                          |7/13/2022       |Сертифицировано для Microsoft Teams                           |
-|Лощина                 |Камера WB5023                                              |6/29/2022       |Сертифицировано для Microsoft Teams                           |
+|Dell                 |Камера WB5023                                              |6/29/2022       |Сертифицировано для Microsoft Teams                           |
 |ЭПОС                 |Гарнитура ADAPT 560 II                                       |6/22/2022       |Сертифицировано для Microsoft Teams                           |
 |ЭПОС                 |Гарнитуры серии C10/C20/C50                                |5/31/2022       |Сертифицировано для Microsoft Teams                           |
 |Jabra                |Гарнитура Engage55 Mono или Стерео гарнитура                               |5/25/2022       |Сертифицировано для Microsoft Teams                           |
 |ЭПОС                 |EXPAND 40T Speakerphone                                    |5/24/2022       |Сертифицировано для Microsoft Teams                           | 
-|Лощина                 |Монитор U3223QZ                                            |5/24/2022       |Сертифицировано для Microsoft Teams                           |
+|Dell                 |Монитор U3223QZ                                            |5/24/2022       |Сертифицировано для Microsoft Teams                           |
 |Поли                 |Монитор Studio P21                                         |5/12/2022       |Сертифицировано для Microsoft Teams                           |
 |Yealink              |ГАРНИТУРА 38                                               |5/2/2022        |Сертифицировано для Microsoft Teams                           |   
 |Yealink              |Гарнитура BH72                                               |5/2/2022        |Сертифицировано для Microsoft Teams                           |
@@ -104,8 +103,8 @@ ms.locfileid: "67176093"
 |ЭПОС                 |ADAPT 661                                                  |3/11/2022       |Сертифицировано для Microsoft Teams                           |
 |ЭПОС                 |ADAPT 461T                                                 |3/11/2022       |Сертифицировано для Microsoft Teams                           |
 |ЭПОС                 |ADAPT 361                                                  |3/11/2022       |Сертифицировано для Microsoft Teams                           |
-|Лощина                 |Speakerphone SP3022                                        |2/7/2022        |Сертифицировано для Microsoft Teams                           |
-|Лощина                 |Soundbar SB522A для аудиоконференций                          |1/25/2022       |Сертифицировано для Microsoft Teams                           |
+|Dell                 |Speakerphone SP3022                                        |2/7/2022        |Сертифицировано для Microsoft Teams                           |
+|Dell                 |Soundbar SB522A для аудиоконференций                          |1/25/2022       |Сертифицировано для Microsoft Teams                           |
 |Поли                 |Синхронизация 10                                                    |1/18/2022       |Сертифицировано для Microsoft Teams                           |
 |Lenovo               |Go Wired ANC Headset                                       |1/12/2022       |Сертифицировано для Microsoft Teams                           |
 |Lenovo               |Go Wired Speakerphone                                      |1/10/2022       |Сертифицировано для Microsoft Teams                           |
@@ -125,15 +124,15 @@ ms.locfileid: "67176093"
 |Поли                 |Клавиша 4320                                               |8/6/2021        |Сертифицировано для Microsoft Teams                           |
 |Поли                 |Клавиша 4310                                               |8/6/2021        |Сертифицировано для Microsoft Teams                           |
 |EPOS/Sennheiser      |ADAPT 160T ANC                                             |6/24/2021       |Сертифицировано для Microsoft Teams                           |
-|Лощина                 |Веб-камера Ultrasharp WB7022                                   |6/16/2021       |Сертифицировано для Microsoft Teams                           |
-|NEC                  |Отображение службы совместной работы Windows WD551                        |5/21/2021       |Сертифицировано для Microsoft Teams                           |
+|Dell                 |Веб-камера Ultrasharp WB7022                                   |6/16/2021       |Сертифицировано для Microsoft Teams                           |
+|Nec                  |Отображение службы совместной работы Windows WD551                        |5/21/2021       |Сертифицировано для Microsoft Teams                           |
 |Поли                 |EncorePro 520 и DA85-M                                   |4/26/2021       |Сертифицировано для Microsoft Teams                           |
 |Поли                 |EncorePro 510 и DA85-M                                   |4/26/2021       |Сертифицировано для Microsoft Teams                           |
 |Поли                 |EncorePro 525-M                                            |4/26/2021       |Сертифицировано для Microsoft Teams                           |
 |Поли                 |EncorePro 515-M                                            |4/26/2021       |Сертифицировано для Microsoft Teams                           |
-|Лощина                 |Беспроводная гарнитура ANC WL7022 Premier                        |4/22/2021       |Сертифицировано для Microsoft Teams                           |
-|Лощина                 |Беспроводная гарнитура WL5022 Pro                                |4/22/2021       |Сертифицировано для Microsoft Teams                           |
-|Лощина                 |Проводная гарнитура WH3022 Pro                                   |4/22/2021       |Сертифицировано для Microsoft Teams                           |
+|Dell                 |Беспроводная гарнитура ANC WL7022 Premier                        |4/22/2021       |Сертифицировано для Microsoft Teams                           |
+|Dell                 |Беспроводная гарнитура WL5022 Pro                                |4/22/2021       |Сертифицировано для Microsoft Teams                           |
+|Dell                 |Проводная гарнитура WH3022 Pro                                   |4/22/2021       |Сертифицировано для Microsoft Teams                           |
 |Logitech             |Веб-камера C920e                                               |4/22/2021       |Сертифицировано для Microsoft Teams                           |
 |Поли                 |Веб-камера Studio P5                                           |4/22/2021       |Сертифицировано для Microsoft Teams                           |
 |Jabra                |Biz 2400 II                                                |4/22/2021       |Skype для бизнеса с обновлением до Microsoft Teams      |
@@ -157,16 +156,16 @@ ms.locfileid: "67176093"
 |Yealink              |Гарнитура WH63 DECT                                          |12/23/2020      |Сертифицировано для Microsoft Teams                           |
 |Yealink              |Гарнитура WH62 Dual/Mono DECT                                |12/23/2020      |Сертифицировано для Microsoft Teams                           |
 |EPOS/Sennheiser      |Адаптация гарнитур серии 100                                  |12/22/2020      |Сертифицировано для Microsoft Teams                           |
-|Лощина                 |Стерео гарнитура Pro — UC350                                 |12/21/2020      |Skype для бизнеса с обновлением до Microsoft Teams      |
-|Лощина                 |Стерео гарнитура Pro — UC150                                 |12/21/2020      |Skype для бизнеса с обновлением до Microsoft Teams      |
+|Dell                 |Стерео гарнитура Pro — UC350                                 |12/21/2020      |Skype для бизнеса с обновлением до Microsoft Teams      |
+|Dell                 |Стерео гарнитура Pro — UC150                                 |12/21/2020      |Skype для бизнеса с обновлением до Microsoft Teams      |
 |Lenovo               |Pro Wired VoIP Stereo Headset                              |12/21/2020      |Skype для бизнеса с обновлением до Microsoft Teams      |
 |Поли                 |Savi Office 7320                                           |12/18/2020      |Сертифицировано для Microsoft Teams                           |
 |Поли                 |Savi Office 7310                                           |12/18/2020      |Сертифицировано для Microsoft Teams                           |
 |Jabra                |Развитие гарнитуры 75e                                         |12/16/2020      |Skype для бизнеса с обновлением до Microsoft Teams      |
 |Jabra                |Развитие гарнитуры 65e                                         |12/16/2020      |Skype для бизнеса с обновлением до Microsoft Teams      |
-|Лощина                 |Монитор C3422WE                                            |12/11/2020      |Сертифицировано для Microsoft Teams                           |
-|Лощина                 |Монитор C2722DE                                            |12/11/2020      |Сертифицировано для Microsoft Teams                           |
-|Лощина                 |Монитор C2422HE                                            |12/11/2020      |Сертифицировано для Microsoft Teams                           |
+|Dell                 |Монитор C3422WE                                            |12/11/2020      |Сертифицировано для Microsoft Teams                           |
+|Dell                 |Монитор C2722DE                                            |12/11/2020      |Сертифицировано для Microsoft Teams                           |
+|Dell                 |Монитор C2422HE                                            |12/11/2020      |Сертифицировано для Microsoft Teams                           |
 |Поли                 |Синхронизация 20 + динамика с Poly BT600 USB Dongle          |11/9/2020       |Сертифицировано для Microsoft Teams                           |
 |Поли                 |Синхронизация 20 динамиков                                       |11/9/2020       |Сертифицировано для Microsoft Teams                           |
 |Jabra                |Гарнитура Evolve 65t                                         |10/31/2020      |Skype для бизнеса с обновлением до Microsoft Teams      |
@@ -235,9 +234,9 @@ ms.locfileid: "67176093"
 | Поли                | Blackwire 3310-M                                          | 03/05/2020     | Сертифицировано для Microsoft Teams                          |
 | Поли                | Blackwire 3315-M                                          | 03/03/2020     | Сертифицировано для Microsoft Teams                          |
 | Поли                | Blackwire 3320-M                                          | 03/05/2020     | Сертифицировано для Microsoft Teams                          |
-| поли                | Blackwire 3325-M                                          | 03/05/2020     | Сертифицировано для Microsoft Teams                          |
+| Поли                | Blackwire 3325-M                                          | 03/05/2020     | Сертифицировано для Microsoft Teams                          |
 | Поли                | Calisto 3200-M                                            | 01/27/2020     | Сертифицировано для Microsoft Teams                          |
-| Куарон            | CCS-UCA-MIC                                               | 12/18/2019     | Сертифицировано для Microsoft Teams                          |
+| Crestron            | CCS-UCA-MIC                                               | 12/18/2019     | Сертифицировано для Microsoft Teams                          |
 | Sennheiser          | SP 30T                                                    | 12/05/2019     | Сертифицировано для Microsoft Teams                          |
 | Polycom             | Элара                                                     | 11/06/2019     | Сертифицировано для Microsoft Teams                          |
 | Polycom             | Studio Soundbar                                           | 10/18/2019     | Сертифицировано для Microsoft Teams                          |

@@ -11,18 +11,18 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 search.appverid: MET150
-MS.collection:
-- M365-voice
 description: Узнайте, как использовать отчет об использовании ТСОП Teams в Центре администрирования Microsoft Teams, чтобы получить общие сведения об использовании звонков и аудиоконференций в организации.
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 15c14e05c1f283971b4882cf3f6e8d3758a2d8ba
-ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
+ms.collection:
+- M365-voice
+ms.openlocfilehash: 1539f679225334f71855300a54c4fba950ddd8f8
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/26/2022
-ms.locfileid: "67023776"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67267634"
 ---
 # <a name="microsoft-teams-pstn-usage-report"></a>Отчет об использовании ТСОП в Microsoft Teams
 
@@ -136,7 +136,7 @@ ms.locfileid: "67023776"
 > | 2 | Идентификатор конференции | `nvarchar(64)` | Идентификатор аудиоконференции |
 > | 3 | Расположение пользователя | `nvarchar(2)` | Код страны пользователя [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
 > | 4 | AAD ObjectId | `uniqueidentifier` | Вызов идентификатора пользователя в Azure Active Directory.<br/> Эта и другие сведения о пользователе будут пустыми или пустыми для типов вызовов бота (ucap_in, ucap_out) |
-> | 5 | UPN | `nvarchar(128)` | UserPrincipalName (имя входа) в Azure Active Directory.<br/>Обычно он совпадает с SIP-адресом пользователя и может совпадать с адресом электронной почты пользователя. |
+> | 5 | Upn | `nvarchar(128)` | UserPrincipalName (имя входа) в Azure Active Directory.<br/>Обычно он совпадает с SIP-адресом пользователя и может совпадать с адресом электронной почты пользователя. |
 > | 6 | Отображаемое имя пользователя | `nvarchar(128)` | Отображаемое имя пользователя |
 > | 7 | Идентификатор звонящего | `nvarchar(128)` | Номер, который получил вызов для входящих звонков, или номер, находящийся для исходящих звонков. [Формат E.164](https://en.wikipedia.org/wiki/E.164) |
 > | 8 | Тип вызова | `nvarchar(32)` | Был ли звонок исходящим или входящим вызовом ТСОП, а также типом звонка, например звонка, выполненного пользователем или аудиоконференции |
@@ -161,7 +161,7 @@ ms.locfileid: "67023776"
 > | :-: | :-: | :-: |:------------------- |
 > | 0 | Correlationid | `uniqueidentifier` | Идентификатор вызова. Несколько элементов одного вызова могут совместно использовать один и тот же correlationId. |
 > | 1 | AAD ObjectId | `uniqueidentifier` | Вызов идентификатора пользователя в Azure Active Directory.<br/> Эти и другие сведения о пользователе могут быть пустыми или пустыми для типов вызовов бота. |
-> | 2 | UPN | `nvarchar(128)` | UserPrincipalName (имя входа, Azure Active Directory) пользователя или бота, которые сделали или получили вызов.<br/>Обычно он совпадает с SIP-адресом пользователя и может совпадать с адресом электронной почты пользователя. |
+> | 2 | Upn | `nvarchar(128)` | UserPrincipalName (имя входа, Azure Active Directory) пользователя или бота, которые сделали или получили вызов.<br/>Обычно он совпадает с SIP-адресом пользователя и может совпадать с адресом электронной почты пользователя. |
 > | 3 | Отображаемое имя | `nvarchar(128)` | Имя пользователя или вызывающего бота (например, очередь вызовов или автосекретарь), как задано в Центр администрирования Microsoft 365 |
 > | 4 | Страна пользователя | `nvarchar(2)` | Код страны пользователя [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
 > | 5 | Время приглашения | `datetimeoffset` | Когда начальное приглашение отправляется исходящим вызовом пользователя или бота Teams в SBC или получается при входящем вызове Teams или бота компонентом прокси-сервера SIP прямой маршрутизации из SBC |
@@ -183,7 +183,7 @@ ms.locfileid: "67023776"
 > | 21 | Идентификатор общей корреляции | `uniqueidentifier` | Указывает, что два или более вызовов связаны |
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 
 - [Аналитика и отчеты Teams](teams-reporting-reference.md)
 - [Отчет о звонках по ТСОП в Microsoft Graph](/graph/api/callrecords-callrecord-getpstncalls?view=graph-rest-1.0&tabs=http)

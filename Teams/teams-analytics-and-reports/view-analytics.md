@@ -11,17 +11,17 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 search.appverid: MET150
-MS.collection:
-- M365-collaboration
 description: Узнайте о кросс-командной аналитике, аналитике для каждой команды и аналитике по каналам в Teams, которая позволяет пользователям просматривать данные об использовании для команд или каналов, в которые они входит.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 28a80c28738c837d163b9148bc46734d67bdcaef
-ms.sourcegitcommit: 4c4f2f220832cae3efb3f6f3c74795300d661295
+ms.collection:
+- M365-collaboration
+ms.openlocfilehash: 9755eca1c6f6f1afb57b615dfa7e96fd0cbefe64
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "66825463"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67267394"
 ---
 # <a name="view-analytics-in-teams"></a>Просмотр аналитики в Teams
 
@@ -89,7 +89,7 @@ ms.locfileid: "66825463"
 > [!NOTE]
 > Мы определяем активных пользователей как пользователей, которые выполняют намеренное действие в настольном клиенте, мобильном клиенте и веб-клиенте. Примерами намеренного действия могут быть запуск чата, размещение звонка, общий доступ к файлу, редактирование документа в командах, участие в собрании и т. д. Мы удаляем пассивные действия, такие как автоматическая загрузка, минимизация экрана или закрытие приложения. Мы также отменяем дублирование всех действий по одному идентификатору пользователя.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 
 - [Просмотр аналитики для команд](https://support.office.com/article/view-analytics-for-your-teams-5b8ad4b1-af34-4217-aff4-cd11a820b56b)
 - [Аналитика и отчеты Teams](teams-reporting-reference.md)

@@ -17,12 +17,14 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Список поддерживаемых центров скорости и покрытия для тарифных планов.
-ms.openlocfilehash: cd991c55c62eeba620d7a8d7f9f75cb7344507a9
-ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
+ms.collection:
+- M365-voice
+ms.openlocfilehash: eb40c3adf77aed6d88363986f3ab01fc7191b9f2
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66794107"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270864"
 ---
 # <a name="supported-rate-centers-and-coverage-for-calling-plans"></a>Поддерживаемые центры скорости и покрытие для тарифных планов
 
@@ -33,7 +35,7 @@ ms.locfileid: "66794107"
 
 Если вы получаете новые номера, а у нас нет номеров, которые вы запрашивали, мы предложим вам номера из того же центра обработки.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 
 - [Управление номерами телефонов для организации](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 - [Различные типы телефонных номеров, используемые для планов звонков](../different-kinds-of-phone-numbers-used-for-calling-plans.md)

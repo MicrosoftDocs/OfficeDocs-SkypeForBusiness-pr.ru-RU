@@ -11,7 +11,6 @@ search.appverid: MET150
 ms.collection:
 - M365-voice
 - M365-collaboration
-- m365initiative-meetings
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -20,13 +19,13 @@ f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
-description: 'Узнайте, как настроить аудиоконференции в малом или среднем бизнесе для людей, которым необходимо использовать телефон для звонков на собрания. '
-ms.openlocfilehash: b7b5fbc958c67aa966619c961e011cda9450faf3
-ms.sourcegitcommit: 312ff79ecab91412918793ec882bfc6e0143d30a
+description: Узнайте, как настроить аудиоконференции в малом или среднем бизнесе для людей, которым необходимо использовать телефон для звонков на собрания.
+ms.openlocfilehash: b3b3514e2d33abe53da940759ddacefea29b961a
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/19/2022
-ms.locfileid: "66884828"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270664"
 ---
 # <a name="set-up-audio-conferencing-for-small-and-medium-businesses"></a>Настройка аудиоконференций для компаний малого и среднего бизнеса
 
@@ -119,7 +118,7 @@ ms.locfileid: "66884828"
 > [!NOTE]
 > Вы также можете задать номера телефонов, добавив их в *политику TeamsAudioconferencingpolicy* и назначив политику пользователям. Платные и бесплатные телефонные номера, добавленные в политику, имеют приоритет над номерами телефонов, заданные отдельно для пользователей через панель параметров аудиоконференций. Если в *Teamsaudioconferencingpolicy* не добавляются номера телефонов, номер телефона, заданный отдельно для пользователей с помощью области параметров аудиоконференций, будет отображаться в приглашениях на собрания Microsoft Teams. [Дополнительные сведения см. в](audio-conferencing-toll-free-numbers-policy.md) параметрах политики аудиоконференций для платных и бесплатных номеров.
 
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Статьи по теме
 
 - [Аудиоконференции](audio-conferencing-in-office-365.md)
 - [Настройка аудиоконференций для Teams](set-up-audio-conferencing-in-teams.md)

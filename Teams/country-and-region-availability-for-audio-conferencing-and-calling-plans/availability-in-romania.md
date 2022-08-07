@@ -24,21 +24,21 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Вот службы для Skype для бизнеса и Microsoft Teams для Румынии.
-ms.openlocfilehash: 101b240bd79aa7ef867e4dd5a26452a28676759d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Ниже приведены службы для Skype для бизнеса Microsoft Teams, доступные для Сербии.
+ms.openlocfilehash: 52528dbc23ddf0d0970099dc024a94d459059a65
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618605"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67269974"
 ---
 # <a name="availability-in-romania"></a>Доступность в Румынии
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже ы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Румынии.
+Ниже приведены службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Сербии.
   
-## <a name="audio-conferencing"></a>Аудиоконференции
+## <a name="audio-conferencing"></a>Аудиоконференция
 
 |**Функция**|**Сведения**|
 |:-----|:-----|
@@ -59,9 +59,9 @@ ms.locfileid: "58618605"
 
 |**Функция**|**Сведения**|
 |:-----|:-----|
-|Доступно ли приобретение планов звонков?  <br/> |Да  <br/> |
-|Минуты, доступные для планов звонков. |В календарный месяц доступны четыре варианта плана: <ul><li>План внутренних звонков на 120 минут </li><li>240 минут для внутренних звонков</li></li><li>План внутренних звонков на 1200 минут </li></li><li>План внутренних и международных звонков: 1200 минут внутренних или 600 минут международных звонков (в зависимости от того, какое количество звонков достигается первым в календарном месяце)</li></li></ul>Поддержка специальными Microsoft Teams [для Microsoft Teams prezentare general. accesibilitate a Microsoft Teams - Asisten качестве Office](https://support.microsoft.com/ro-ro/office/prezentare-general%C4%83-accesibilitate-a-microsoft-teams-2d4009e7-1300-4766-87e8-7a217496c3d5?ui=ro-RO&rs=ro-RO&ad=RO)<br>[MicrosoftOnlineServicesTerms(WW)(Румынский)(февраль 2021 г.)](https://www.microsoft.com/licensing/terms/productoffering/AudioServices/EAEAS#GeneralServiceTerms)|
-|Могут ли исходящие звонки на номера премиум-класса?  <br/> | В настоящее время поддержка не поддерживается. <br/> |
+|Доступно ли приобретение планов звонков?  |Да          |   
+|Минуты, доступные для планов звонков.    |В календарный месяц доступно пять параметров плана: <ul><li>Тарифный план с оплатой по мере использования </li><li> План внутренних звонков за 120 минут </li><li> План внутренних звонков на 240 минут </li><li> План внутренних звонков на 1200 минут </li><li> План международных звонков: 1200 минут внутренних или 600 минут международных звонков (в зависимости от того, что достигнуто первым в календарный месяц)</li></ul> Поддержка специальных возможностей для Microsoft Teams [Prezentare generală accesibilitate a Microsoft Teams — Asistenăă Office](https://support.microsoft.com/ro-ro/office/prezentare-general%C4%83-accesibilitate-a-microsoft-teams-2d4009e7-1300-4766-87e8-7a217496c3d5?ui=ro-RO&rs=ro-RO&ad=RO)<br>[MicrosoftOnlineServicesTerms(WW)(Вьетнам)(февраль 2021 г.)](https://www.microsoft.com/licensing/terms/productoffering/AudioServices/EAEAS#GeneralServiceTerms)|
+|Можно ли выполнять исходящие вызовы к номерам уровня "Премиум"?  <br/> | В настоящее время не поддерживается. <br/> |
 |Кому можно делать исходящие звонки?  <br/> | В 196 стран мира, в том числе [следующие](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Платные и бесплатные номера служб

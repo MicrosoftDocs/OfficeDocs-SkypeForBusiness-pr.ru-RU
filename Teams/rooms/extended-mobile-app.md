@@ -3,27 +3,27 @@ title: Расширение мобильного приложения
 author: donnah007
 ms.author: v-donnahill
 manager: serdars
-ms.date: 06/02/2022
+ms.date: 07/25/2022
 ms.reviewer: dstrome
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 ms.collection:
-- MTMR-collaboration
-- MTMRinitiative-meetings
+- M365-collaboration
+- Teams_ITAdmin_MTRP
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Расширение мобильного приложения для Комнаты Teams
 f1keywords: Microsoft Teams Rooms Managed Service mobile app extension
-ms.openlocfilehash: 939ac7d5bd61f51a229400b2c1aee1bd38047369
-ms.sourcegitcommit: ea9cbb8e32b7f23c17930eadc0a1dcbd906449ae
+ms.openlocfilehash: e0e3839c1d2e801d8cb34ca251056f386fd2ce41
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/19/2022
-ms.locfileid: "66842325"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270934"
 ---
 # <a name="teams-rooms-mobile-client-application-features"></a>Комнаты Teams мобильных клиентских приложений
 
@@ -31,12 +31,24 @@ ms.locfileid: "66842325"
 ## <a name="before-you-begin"></a>Подготовка к работе
 
 Чтобы использовать мобильное приложение, необходимо быть администратором в организации Microsoft 36 Комнаты Teams 5.
-Скачайте Комнаты Teams мобильного приложения из [приложения Apple App Store](https://apps.apple.com/app/apple-store/id761397963?pt=80423&ct=docsaboutadminapp&mt=8) [или Google Play Маркет.](https://play.google.com/store/search?q=Microsoft%20Teams%20Rooms&c=apps)
+Скачайте Комнаты Teams мобильного приложения из [Apple App Store](https://apps.apple.com/app/apple-store/id761397963?pt=80423&ct=docsaboutadminapp&mt=8) или [Google Play Store](https://play.google.com/store/search?q=Microsoft%20Teams%20Rooms&c=apps).
+
+Мобильный клиент предлагает как создание билетов, так и управление возможностями инцидентов в организации.
+
+## <a name="next-steps"></a>Дальнейшие действия
 
 **Получение мобильного приложения MTMS**
 
 1. Найдите Комнаты Teams Управляемые службы в магазине приложений для своего устройства и установите его.
 2. Войдите с помощью адреса электронной почты глобального администратора и просмотрите панель мониторинга, чтобы просмотреть сведения о работоспособности службы, отслеживать лицензии пользователей и просматривать сообщения и запросы на обслуживание.
+
+**Использование мобильного Комнаты Teams приложения**
+
+1. Скачайте приложение из [Apple App Store]() или [Google Play Store]().
+1. Убедитесь, что у вас есть действительная подписка на Microsoft 365.
+1. Используйте рабочие учетные данные, которые используются для доступа к Комнаты Teams настольного приложения.
+
+
 ## <a name="managing-incidents"></a>Управление инцидентами
 
 Ниже приведены некоторые возможности мобильного приложения для управления инцидентами.
@@ -48,84 +60,47 @@ ms.locfileid: "66842325"
 - Просмотр вложений и файлов билета.
 - Выход с панели пользователя (уведомления и сообщения отключаются при выходе).
 
-### <a name="incidents-page"></a>Страница инцидентов
-
 На странице "Инциденты" показаны типы открытых инцидентов.
 
 ![Экран страницы инцидентов мобильного приложения MTMS](../media/mtms-extended-app-001.png)
 
-## <a name="managing-tickets"></a>Управление билетами
+### <a name="report-an-incident"></a>Сообщение об инциденте
+
+![Снимок экрана: инцидент отчета мобильного приложения MTMS.](../media/mtms-extended-app-012.png)
+### <a name="view-an-incident-by-category"></a>Просмотр инцидента по категориям
+
+![Снимок экрана: экран проблем с комнатами мобильных приложений MTMS.](../media/mtms-extended-app-001.png)
+
+### <a name="managing-tickets"></a>Управление билетами
 Ниже приведены некоторые возможности мобильного приложения для управления билетами.
 
 - Подтвердить инцидент (пометить как прочитано).
 - Чтение, публикация и ответ на сообщения в запросе.
 - Переключитесь в темный режим.
 - Добавление вложения (создание и отправка изображений).
-- Отчет об инциденте (создание запроса).
+- Создайте запрос, чтобы сообщить об инциденте.
+- Управляемая безопасность и взаимодействие с экспертами с помощью Microsoft Defender
 
-### <a name="ticket-messages"></a>Сообщения о билетах
-
-![Сообщения о билетах мобильного приложения MTMS](../media/mtms-extended-app-003.png)
-
-![Вложения билета мобильного приложения MTMS](../media/mtms-extended-app-007.png)
-
-
-### <a name="ticket-details"></a>Сведения о билете
+Приложение отображает сведения о билете, сообщения и файлы на отдельных вкладах.
 
 ![Сведения о билете мобильного приложения MTMS 01 ](../media/mtms-extended-app-002.png)
 
-![Сведения о билете мобильного приложения MTMS 02](../media/mtms-extended-app-004.png)
-
-![Сведения о билете мобильного приложения MTMS 03](../media/mtms-extended-app-009.png)
+![Снимок экрана: сообщения о билетах мобильного приложения MTMS.](../media/mtms-extended-app-003.png)
 
 
-### <a name="report-an-incident"></a>Сообщение об инциденте
+<!--![Screenshot that shows MTMS mobile application ticket details 02.](../media/mtms-extended-app-004.png)
 
-![Инцидент с отчетом о мобильном приложении MTMS](../media/mtms-extended-app-012.png)
-### <a name="view-an-incident-by-category"></a>Просмотр инцидента по категориям
+![Screenshot that shows MTMS mobile application ticket details 03.](../media/mtms-extended-app-009.png)
 
-![Экран проблем с комнатами мобильных приложений MTMS](../media/mtms-extended-app-001.png)<!--Управленный образMicrosoft для каждого author.>
-### <a name="managed-security-with-microsoft-defender"></a>Управляемая безопасность с помощью Microsoft Defender
+![MTMS mobile application managed security screen](../media/mtms-extended-app-009.png)
+![MTMS mobile application Messages screen](../media/mtms-extended-app-008.png)
+### Sign out
 
-![Экран безопасности, управляемый мобильным приложением MTMS](../media/mtms-extended-app-009.png)
-### <a name="communication-with-experts"></a>Взаимодействие с экспертами
-![Экран сообщений мобильного приложения MTMS](../media/mtms-extended-app-008.png)
-### <a name="sign-out"></a>Выйти
+![Screenshot that shows the MTMS mobile application signout page.](../media/mtms-extended-app-011.png)-->
 
-![Страница выхода мобильного приложения MTMS](../media/mtms-extended-app-011.png)<!--Управленный образMicrosoft для каждого author.>
-## <a name="frequently-asked-questions"></a>Вопросы и ответы
-
-Ниже приведены ответы на часто задаваемые вопросы.
-
-**Что нужно сделать, чтобы иметь возможность использовать приложение?**
-
-Чтобы использовать приложение, необходимо иметь разрешения администратора и действительная подписка на Microsoft 365.
-
-
-**Какие языки поддерживаются приложением?**
-
-
-**Как поделиться инцидентами и сообщениями с остальной частью моей организации?**
-
-
-**Можно ли использовать это приложение с несколькими учетными записями или клиентами?**
-
-
-**Я не могу войти в систему, или мое приложение работает. Что можно сделать для устранения или устранения проблемы?**
+## <a name="troubleshooting"></a>Устранение неполадок
 
 Вы можете попробовать некоторые распространенные действия по устранению неполадок в мобильном приложении:
 - Закройте и снова откройте приложение.
 - Удалите и переустановите приложение. Убедитесь, что вы используете последнюю версию приложения.
 - Если на вашем устройстве установлен Microsoft Authenticator или приложение корпоративного портала, попробуйте переустановить его или обновить до последней версии. Если это не поможет, вы можете отправить нам сообщение по электронной feedback365@microsoft.com, чтобы мы узнали об этом.
-
-**Что делать, если на мой вопрос не был задан ответ?**
-
-## <a name="next-steps"></a>Дальнейшие действия
-
-Мобильный клиент предлагает как создание билетов, так и управление возможностями инцидентов в организации.
-
-**Использование мобильного Комнаты Teams приложения**
-
-1. Скачайте приложение из приложения [Apple App Store]() или [Google Play Маркет]()
-1. Убедитесь, что у вас есть действительная подписка на Microsoft 365.
-1. Используйте рабочие учетные данные, которые используются для доступа к Комнаты Teams настольного приложения.

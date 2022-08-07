@@ -1,5 +1,5 @@
 ---
-title: Пример сценария — Microsoft Teams брандмауэра PowerShell
+title: Пример скрипта — сценарий PowerShell брандмауэра Microsoft Teams
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -8,23 +8,22 @@ ms.topic: article
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- m365initiative-deployteams
 ms.reviewer: harij, rafarhi
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Пример сценария, который можно использовать для настройки Windows разрешить Teams с помощью Windows брандмауэра.
+description: Пример скрипта, который можно использовать для настройки Windows для разрешения подключений Teams через брандмауэр Windows.
 f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1131868af2b81b1d786bd760518f56633ec8aa83
-ms.sourcegitcommit: a9a056b93b4add3a4d978bb341ea4b66a042b4d0
+ms.openlocfilehash: b15c8e141f8a3cd5cde1915901d3dbcd9e29b23a
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/18/2022
-ms.locfileid: "62893766"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67269412"
 ---
-# <a name="sample-script---microsoft-teams-firewall-powershell-script"></a>Пример сценария — Microsoft Teams брандмауэра PowerShell
+# <a name="sample-script---microsoft-teams-firewall-powershell-script"></a>Пример скрипта — сценарий PowerShell брандмауэра Microsoft Teams
 
 Этот пример скрипта, который нужно запускать на клиентских компьютерах в контексте учетной записи администратора с повышенными правами, создает правило входящих подключений брандмауэра для каждой папки пользователя, находящейся в c:\users. Если Teams обнаруживает это правило, блокируется запрос для пользователей на создание правил брандмауэра, когда пользователи выполняют первый звонок из Teams.
 

@@ -12,7 +12,6 @@ search.appverid: MET150
 ms.collection:
 - M365-voice
 - M365-collaboration
-- m365initiative-meetings
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -22,17 +21,17 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: См. Microsoft Teams по назначению пользователю лицензии на конференц-связь с телефонным подключением и идентификатора конференции, а также многих других параметров конференц-связи с телефонным подключением.
-ms.openlocfilehash: 6d8270d21c90d363ebb74089ce0b37e6c558ecb1
-ms.sourcegitcommit: 0967f725aad0a7b9c430b2e30a37ea333007558a
+description: См. инструкции Microsoft Teams по назначению пользователю лицензии на конференц-связь с телефонным подключением и идентификатора конференции, а также многих других параметров конференц-связи с телефонным подключением.
+ms.openlocfilehash: 4bfb813b6e7b472ad7a9ab58e6403b92f60fd039
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "65106334"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67271224"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-your-organization-in-microsoft-teams"></a>Управление настройками аудиоконференций для организации в Microsoft Teams
 
-Может быть проще просмотреть все параметры аудиоконференций для Microsoft Teams в одном месте.
+Возможно, вам будет проще просмотреть все параметры аудиоконференций для Microsoft Teams в одном месте.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
@@ -40,27 +39,27 @@ ms.locfileid: "65106334"
 ## <a name="assign-an-audio-conferencing-license"></a>Назначение лицензии на аудиоконференцию
 
 > [!NOTE]
-> Вы не можете назначать лицензии с помощью Teams. Необходимо использовать Центр администрирования Microsoft 365. См[. Microsoft Teams лицензии на надстройки](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+> Вы не можете назначать лицензии с помощью Teams. Необходимо использовать Центр администрирования Microsoft 365. См [. раздел "Назначение лицензий на надстройки Microsoft Teams"](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
 ### <a name="to-assign-a-license-for-a-user"></a>To assign a license for a user
 
 1. Войдите в Microsoft 365 с помощью рабочей или учебной учетной записи.
 
-2. В левой области навигации **Центр администрирования Microsoft 365 перейдите** к пользователям **UsersActive** > , а затем выберите пользователя или пользователей из списка доступных пользователей.
+2. В левой области навигации **Центр администрирования Microsoft 365 перейдите** >  к активным пользователям **пользователей, а** затем выберите пользователя или пользователей из списка доступных пользователей.
 
     > [!NOTE]
     > При одновременном назначении лицензий до 20 пользователям можно использовать раскрывающийся список "Выбор представления", а  затем выбрать один из параметров или создать собственное представление. Нажмите на кнопку **Редактировать**, после чего, дважды нажмите на кнопку **Далее**, выделите лицензию и нажмите **Отправить**.  
   
 3. На панели действий в разделе **Лицензии на продукты** нажмите **Изменить**.
 
-4. На странице **Лицензии на продукты** включите функцию **Аудиконференции**, а затем нажмите **Сохранить**. Дополнительные сведения о лицензировании см[. Microsoft Teams лицензировании надстроек](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+4. На странице **Лицензии на продукты** включите функцию **Аудиконференции**, а затем нажмите **Сохранить**. Дополнительные сведения о лицензировании см. в статье о лицензировании [надстроек Microsoft Teams](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
    > [!NOTE]
    > После назначения лицензии корпорация Майкрософт может не отображаться в списке в качестве поставщика аудиоконференций. В этом случае выйдите из Центра администрирования или нажмите клавиши CTRL+F5, чтобы обновить окно браузера.
   
 ## <a name="enable-or-disable-emails-sent-to-audio-conferencing-users"></a>Включение и отключение сообщений электронной почты, отправляемых пользователям аудиоконференций
 
-### <a name="enable-or-disable-using-the-microsoft-teams-admin-center"></a>Включение или отключение с помощью Microsoft Teams центра администрирования
+### <a name="enable-or-disable-using-the-microsoft-teams-admin-center"></a>Включение или отключение с помощью Центра администрирования Microsoft Teams
 
 1. На панели навигации слева перейдите в раздел **Собрания** > **Мосты конференц-связи**.
 
@@ -72,11 +71,11 @@ ms.locfileid: "65106334"
 
 ### <a name="enable-or-disable-using-windows-powershell"></a>Включение или отключение с помощью Windows PowerShell
 
-Дополнительные [сведения см. в Microsoft Teams PowerShell](/powershell/module/teams/?view=teams-ps).
+Дополнительные сведения см. в справочнике [по Microsoft Teams PowerShell](/powershell/module/teams/?view=teams-ps) .
   
 ## <a name="reset-the-meeting-conference-id"></a>Войдите в Office 365 под своей учебной или рабочей учетной записью.
 
-### <a name="reset-the-meeting-conference-id-using-the-microsoft-teams-admin-center"></a>Сброс идентификатора конференции собрания с помощью Microsoft Teams центра администрирования
+### <a name="reset-the-meeting-conference-id-using-the-microsoft-teams-admin-center"></a>Сброс идентификатора конференции собрания с помощью Центра администрирования Microsoft Teams
 
 1. В области навигации слева **щелкните "** Пользователи", а затем выберите пользователя из списка доступных пользователей.
 
@@ -90,7 +89,7 @@ See [Reset a conference ID for a user](reset-a-conference-id-for-a-user-in-teams
 
 Каждому собранию, запланированному пользователем, будет назначен уникальный идентификатор конференции. Хотя идентификатор конференции будет автоматически создан и назначен пользователю, иногда пользователь не хочет использовать его и вы хотите задать для него определенное число, или пользователи не могут запомнить или потерять свой идентификатор конференции.
 
-### <a name="reset-a-conference-organizers-pin-using-the-microsoft-teams-admin-center"></a>Сброс ПИН-кода организатора конференции с помощью Microsoft Teams центра администрирования
+### <a name="reset-a-conference-organizers-pin-using-the-microsoft-teams-admin-center"></a>Сброс ПИН-кода организатора конференции с помощью Центра администрирования Microsoft Teams
 
 1. В области навигации слева **щелкните "** Пользователи", а затем выберите пользователя из списка доступных пользователей.
 
@@ -102,7 +101,7 @@ See [Reset a conference ID for a user](reset-a-conference-id-for-a-user-in-teams
   
 ## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>Отправка пользователю сообщения электронной почты со сведениями о аудиоконференции
 
-### <a name="send-an-email-using-the-microsoft-teams-admin-center"></a>Отправка сообщения электронной почты с помощью Microsoft Teams центра администрирования
+### <a name="send-an-email-using-the-microsoft-teams-admin-center"></a>Отправка сообщения электронной почты с помощью Центра администрирования Microsoft Teams
 
 1. В области навигации слева **щелкните "** Пользователи", а затем выберите пользователя из списка доступных пользователей.
 
@@ -115,16 +114,16 @@ See [Send an email to a user with their Audio Conferencing information](send-an-
   
 ## <a name="set-the-phone-numbers-included-on-invites"></a>Указание номеров телефонов, которые можно включать в приглашения
 
-### <a name="set-invite-phone-numbers-using-the-microsoft-teams-admin-center"></a>Настройка номеров телефонов для приглашения с помощью Microsoft Teams центра администрирования
+### <a name="set-invite-phone-numbers-using-the-microsoft-teams-admin-center"></a>Настройка номеров телефонов для приглашения с помощью Центра администрирования Microsoft Teams
 
-Сведения о [настройке номеров телефонов, включенных в приглашения в Microsoft Teams](set-the-phone-numbers-included-on-invites-in-teams.md).
+Сведения о [настройке номеров телефонов, включенных в приглашения в Microsoft Teams, см. здесь](set-the-phone-numbers-included-on-invites-in-teams.md).
 
 > [!NOTE]
-> Вы также можете задать номера телефонов, добавив их в *политику TeamsAudioconferencingpolicy* и назначив политику пользователям. Платные и бесплатные телефонные номера, добавленные в политику, имеют приоритет над номерами телефонов, заданные отдельно для пользователей через панель параметров аудиоконференций. Если в *Teamsaudioconferencingpolicy* не добавляются номера телефонов, номер телефона, заданный отдельно для пользователей с помощью области параметров аудиоконференций, будет отображаться в Microsoft Teams приглашениях на собрания. [Дополнительные сведения см. в](audio-conferencing-toll-free-numbers-policy.md) параметрах политики аудиоконференций для платных и бесплатных номеров.
+> Вы также можете задать номера телефонов, добавив их в *политику TeamsAudioconferencingpolicy* и назначив политику пользователям. Платные и бесплатные телефонные номера, добавленные в политику, имеют приоритет над номерами телефонов, заданные отдельно для пользователей через панель параметров аудиоконференций. Если в *Teamsaudioconferencingpolicy* не добавляются номера телефонов, номер телефона, заданный отдельно для пользователей с помощью области параметров аудиоконференций, будет отображаться в приглашениях на собрания Microsoft Teams. [Дополнительные сведения см. в](audio-conferencing-toll-free-numbers-policy.md) параметрах политики аудиоконференций для платных и бесплатных номеров.
 
 ## <a name="choose-audio-conferencing-bridge-settings"></a>Выбор параметров моста аудиоконференций
 
-### <a name="set-the-meeting-experience-when-callers-join-a-meeting-using-the-microsoft-teams-admin-center"></a>Настройка взаимодействия с собранием, когда вызывающие абоненты присоединяются к собранию с помощью Microsoft Teams центра администрирования
+### <a name="set-the-meeting-experience-when-callers-join-a-meeting-using-the-microsoft-teams-admin-center"></a>Настройка взаимодействия с собранием при присоединении абонентов к собранию с помощью Центра администрирования Microsoft Teams
 
 1. На панели навигации слева перейдите в раздел **Собрания** > **Мосты конференц-связи**.
 
@@ -173,7 +172,7 @@ See [Send an email to a user with their Audio Conferencing information](send-an-
 
 ## <a name="see-and-set-the-primary-default-and-secondary-alternate-languages-on-an-audio-conferencing-bridge"></a>Просмотр и установка основного (по умолчанию) и дополнительного (альтернативного) языка на мосте аудиоконференций
 
-### <a name="see-primary-and-secondary-languages-using-the-microsoft-teams-admin-center"></a>Просмотр основного и дополнительного языков с помощью Microsoft Teams администрирования
+### <a name="see-primary-and-secondary-languages-using-the-microsoft-teams-admin-center"></a>Просмотр основных и дополнительных языков с помощью Центра администрирования Microsoft Teams
 
 1. На панели навигации слева перейдите в раздел **Собрания** > **Мосты конференц-связи**.
 
@@ -185,7 +184,7 @@ See [Send an email to a user with their Audio Conferencing information](send-an-
 
 See [Set auto attendant languages for Audio Conferencing](set-auto-attendant-languages-for-audio-conferencing-in-teams.md).
   
-## <a name="see-audio-conferencing-dial-in-numbers-using-the-microsoft-teams-admin-center"></a>Просмотр номеров телефонного подключения для аудиоконференций с помощью Microsoft Teams центра администрирования
+## <a name="see-audio-conferencing-dial-in-numbers-using-the-microsoft-teams-admin-center"></a>Просмотр номеров телефонного подключения для аудиоконференций с помощью Центра администрирования Microsoft Teams
 
 1. На панели навигации слева перейдите в раздел **Собрания** > **Мосты конференц-связи**.
 
@@ -201,9 +200,9 @@ See [Set auto attendant languages for Audio Conferencing](set-auto-attendant-lan
 
 Windows PowerShell is all about managing users and what users are allowed or not allowed to do. С Windows PowerShell вы можете управлять Microsoft 365 или Office 365 с помощью единой точки администрирования, которая может упростить вашу ежедневную работу при наличии нескольких задач. Для начала работы с Windows PowerShell ознакомьтесь с приведенными ниже разделами.
 
-- [Почему необходимо использовать Microsoft 365 или Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+- [Зачем использовать Microsoft 365 или Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
 
-- [Лучшие способы управления Microsoft 365 Office 365 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+- [Лучшие способы управления Microsoft 365 или Office 365 с помощью Windows PowerShell](/previous-versions//dn568025(v=technet.10))
 
 Дополнительные сведения о Windows PowerShell см. в [справочнике по Microsoft Teams PowerShell](/powershell/module/teams/?view=teams-ps).
 

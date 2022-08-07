@@ -1,5 +1,5 @@
 ---
-title: Назначение Microsoft Teams Телефон с помощью пакетных лицензий плана звонков
+title: Назначение Телефонная система Microsoft Teams с тарифным планом пакетов
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -9,31 +9,30 @@ audience: admin
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
-MS.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
-- Teams_Business_Voice
 search.appverid: MET150
-description: Узнайте, как назначить пользователям Microsoft Teams Телефон с пакетом лицензий на план звонков.
+description: Узнайте, как назначить Телефонная система Microsoft Teams с тарифным планом пакетов пользователям.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6883b757c6302265db183550463710000a0b8baf
-ms.sourcegitcommit: e86e3824c300c24e022d5cb1848338278a5a96a8
+ms.collection:
+- M365-voice
+- M365initiative-voice
+ms.openlocfilehash: 952ea1c952a0877e81a654c299e064ba001da07d
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2022
-ms.locfileid: "63053108"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67269244"
 ---
-# <a name="step-3-assign-teams-phone-with-calling-plan-bundle-licenses"></a>Шаг 3. Назначение Teams Телефон с помощью пакетных лицензий на план звонков
+# <a name="step-3-assign-teams-phone-with-calling-plan-bundle-licenses"></a>Шаг 3. Назначение телефона Teams с лицензиями пакета плана звонков
 
-Каждому пользователю, которому требуется Microsoft Teams телефонная система с пакетом плана звонков, необходимо на Teams Телефон **с пакетной** лицензией на план звонков.
+Каждому пользователю, которому требуется Телефонная система Microsoft Teams system with Calling Plan bundle, необходимо назначить **телефон Teams с** лицензией на пакет плана звонков.
 
-1. Откройте Центр администрирования Microsoft 365 и войдите с пользователем, который является глобальным администратором. Обычно это учетная запись, которая использовалась для регистрации в Microsoft 365.
-1. В области навигации слева перейдите в <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">**billingLicenses** > </a>.
-1. Выберите **Microsoft Teams Телефон с планом звонков**.
-1. На странице сведений о продукте выберите **Назначить лицензии**.
-1. В области **Назначение лицензий пользователям** начните вводить имя, а затем выберите его в результатах, чтобы добавить его в список. Вы можете добавить до 20 пользователей одновременно.
+1. Откройте Центр администрирования Microsoft 365 и войдите с пользователем, который является глобальным администратором. Обычно это учетная запись, которую вы использовали для регистрации в Microsoft 365.
+1. В области навигации слева перейдите к <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">**лицензиям на выставление** > **счетов**</a>.
+1. Выберите **Телефонная система Microsoft Teams с тарифным планом**.
+1. На странице сведений о продукте выберите **"Назначить лицензии"**.
+1. В области **"Назначение лицензий** пользователям" начните вводить имя, а затем выберите его из результатов, чтобы добавить его в список. Вы можете добавить до 20 пользователей одновременно.
 1. После завершения нажмите **Назначить**, а затем — **Закрыть**.
 
 > [!div class="nextstepaction"]
-> [Следующий шаг: настройка Teams ресурса](set-up-resource-account.md)
+> [Следующий шаг. Настройка учетной записи ресурса Teams](set-up-resource-account.md)

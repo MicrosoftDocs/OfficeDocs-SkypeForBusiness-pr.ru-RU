@@ -13,14 +13,15 @@ ms.localizationpriority: medium
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection:
 - M365-collaboration
+- Teams_ITAdmin_Rooms
 description: Узнайте о требованиях к поддержке Комнаты Microsoft Teams, включая выбор соответствующего устройства, микрофонов, динамиков, камер и дисплеев.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 271e75787c9659dc453eeb1d6f3260aa7bd0dd3b
-ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
+ms.openlocfilehash: 4222f0fa1b0e52634e0e12cede50d3d9c5d0bba8
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67156817"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268354"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Требования к комнатам Microsoft Teams
 
@@ -30,7 +31,7 @@ ms.locfileid: "67156817"
 
 Развертывание включает создание и настройку учетной записи ресурса Комнаты Teams, как описано в статье [Комнаты Microsoft Teams](rooms-deploy.md).
 
-См:
+Дополнительные сведения см. в статье:
 
 - [Параметры лицензии с учетом плана: Комнаты Microsoft Teams](rooms-licensing.md)
 

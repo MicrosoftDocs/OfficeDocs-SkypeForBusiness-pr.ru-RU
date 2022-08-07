@@ -15,12 +15,14 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Сведения о защищенных чатах в собраниях Microsoft Teams.
-ms.openlocfilehash: c355730424ec164c2853d4f4dc55956fb7554ce2
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.collection:
+- M365-collaboration
+ms.openlocfilehash: 5cee0678e48a0fcdeb340b90e95981c3b1759f83
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66789984"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67271474"
 ---
 # <a name="supervised-chats-in-microsoft-teams"></a>Защищенные чаты в Microsoft Teams
 
@@ -84,6 +86,6 @@ ms.locfileid: "66789984"
 
 - Если пользователь с полными разрешениями покидает клиент или удаляется из клиента, чаты, которые он контролирует, будут оставлены автоматически. Перед удалением исходного пользователя убедитесь, что к этим беседам добавлен другой пользователь с полными разрешениями, чтобы чат был защищен. После удаления исходного супервизора новые участники не могут быть добавлены в беседу, но текущие участники могут продолжать общение.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 
 [Защищенные чаты для Teams в образовательных учреждениях](https://support.microsoft.com/topic/supervised-chats-in-microsoft-teams-for-education-ad3aaafc-c85a-416f-95f9-d691f419cbb8?storagetype=live)

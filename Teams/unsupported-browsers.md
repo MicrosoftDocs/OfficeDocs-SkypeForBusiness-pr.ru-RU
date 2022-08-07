@@ -6,8 +6,6 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
-MS.collection:
-- M365-collaboration
 ms.reviewer: nakulm
 f1.keywords:
 - NOCSH
@@ -16,12 +14,14 @@ search.appverid: MET150
 description: Узнайте, как Teams поддерживает звук и видео в неподдерживаемых браузерах.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 134700ad29dac89174e5c05db697dd46911a86f9
-ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
+ms.collection:
+- M365-collaboration
+ms.openlocfilehash: 71fb02fae88f2f61d2d6435e126e20093a5a3baf
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66794127"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67267830"
 ---
 # <a name="microsoft-teams-meetings-on-unsupported-browsers"></a>Собрания Microsoft Teams в неподдерживаемых браузерах
 
@@ -48,6 +48,6 @@ ms.locfileid: "66794127"
 
 Дополнительные сведения о поддержке браузеров в Teams см. в разделе ["Ограничения и спецификации для Teams"](./limits-specifications-teams.md#browsers).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 
 - [Присоединение к собранию Teams в неподдерживаемом браузере](https://support.office.com/article/daafdd3c-ac7a-4855-871b-9113bad15907)

@@ -11,13 +11,14 @@ f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
+- Teams_ITAdmin_Rooms
 description: Узнайте о рекомендуемых политиках условного доступа и Intune соответствия устройств и рекомендациях по Комнаты Microsoft Teams.
-ms.openlocfilehash: 1221060121f47154549c6c6fc926415f4feabbe5
-ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
+ms.openlocfilehash: a1d86b002a4960e58541650643574428a2c3ede5
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "65761311"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67271034"
 ---
 # <a name="conditional-access-and-intune-compliance-for-microsoft-teams-rooms"></a>Условный доступ и Intune для Комнаты Microsoft Teams
 
@@ -25,17 +26,17 @@ ms.locfileid: "65761311"
 
 ## <a name="requirements"></a>Требования
 
-Комнаты Teams уже должны быть развернуты на устройствах, которым необходимо назначить политики условного доступа. Если вы еще не развернули Комнаты Teams, см. дополнительные сведения [](with-office-365.md) о создании учетных записей ресурсов для комнат и общих Teams устройств и развертывании Комнаты Microsoft Teams на [Android](../devices/collab-bar-deploy.md).
+Комнаты Teams уже должны быть развернуты на устройствах, которым необходимо назначить политики условного доступа. Если вы еще не развернули Комнаты Teams, см. дополнительные сведения о создании учетных записей ресурсов для комнат и общих устройств [Teams](with-office-365.md) и развертывании Комнаты Microsoft Teams [в Android](../devices/collab-bar-deploy.md).
 
-Для использования условного доступа требуется Azure Active Directory плана обслуживания P1. Он входит в лицензию Комнаты Microsoft Teams лицензии.
+Для использования условного доступа требуется план обслуживания Azure Active Directory P1. Он входит в лицензию Комнаты Microsoft Teams лицензии.
 
 ## <a name="teams-rooms-conditional-access-best-practices"></a>Комнаты Teams условного доступа
 
-Политики условного доступа могут защитить процесс входа на устройствах, которые находятся в общих пространствах и используются несколькими пользователями. Общие сведения об условном доступе в Azure Active Directory (Azure AD) см. в статье "Что такое условный [доступ в Azure Active Directory?](/azure/active-directory/conditional-access/overview)".
+Политики условного доступа могут защитить процесс входа на устройствах, которые находятся в общих пространствах и используются несколькими пользователями. Общие сведения об условном доступе в Azure Active Directory (Azure AD) см. в статье "Что такое условный доступ [в Azure Active Directory?"](/azure/active-directory/conditional-access/overview).
 
 При использовании условного доступа для защиты Комнаты Teams учитывайте следующие рекомендации.
 
--   Чтобы упростить развертывание и управление, включите все учетные записи Microsoft 365 помещений, связанные с Комнаты Teams в одну группу пользователей.
+-   Чтобы упростить развертывание и управление, включите все учетные записи ресурсов комнаты Microsoft 365, связанные с Комнаты Teams в одну группу пользователей.
 
 -   У вас есть стандарт именования для всех учетных записей Комнаты Teams ресурсов. Например, имена учетных записей mtr-room1@contoso.com и mtr-room2@contoso.com начинаются с префикса mtr-.
     При стандартизации имен учетных записей можно использовать динамические группы в Azure AD для автоматического применения политик условного доступа ко всем этим учетным записям одновременно. [Дополнительные сведения о динамических группах](/azure/active-directory/enterprise-users/groups-dynamic-membership) см. в разделе "Правила для динамического членства в группах".
@@ -50,11 +51,11 @@ ms.locfileid: "65761311"
 
 2.  Учетная запись, которая выполняет вход, должна пытаться получить доступ только к Exchange Online, Microsoft Teams или SharePoint Online. Попытки входа в любое другое клиентское приложение будут отклонены.
 
-3.  Учетная запись ресурса должна выполнять вход на платформе Windows устройства.
+3.  Учетная запись ресурса должна выполнять вход на платформе устройств Windows.
 
 4.  Учетная запись ресурса также должна войти из известного надежного расположения.
 
-Если эти условия выполняются успешно и пользователь вводит правильное имя пользователя и пароль, учетная запись ресурса выполнит вход Teams.
+Если эти условия выполняются успешно и пользователь вводит правильное имя пользователя и пароль, учетная запись ресурса выполнит вход в Teams.
 
 ## <a name="conditional-access-with-microsoft-intune-compliance-for-teams-rooms"></a>Условный доступ с Microsoft Intune для Комнаты Teams
 
@@ -62,16 +63,16 @@ ms.locfileid: "65761311"
 
 Список поддерживаемых политик соответствия Intune для Комнаты Teams см. в разделе "Поддерживаемые [политики соответствия устройств"](supported-ca-and-compliance-policies.md#supported-device-compliance-policies).
 
-Дополнительные сведения о настройке Intune устройств Teams Android см. в Intune для регистрации Teams Android [устройств](../devices/phones-displays-deploy.md#configure-intune-to-enroll-teams-android-based-devices).
+Дополнительные сведения о настройке Intune с устройствами Android в Teams см. в Intune для регистрации устройств [На основе Teams android](../devices/phones-displays-deploy.md#configure-intune-to-enroll-teams-android-based-devices).
 
-## <a name="example-windows-only-conditional-access-with-intune-device-compliance"></a>Пример (только Windows): условный доступ с Intune устройства
+## <a name="example-windows-only-conditional-access-with-intune-device-compliance"></a>Пример (только для Windows): условный доступ с Intune устройства
 
 В этом примере для Комнаты Teams Windows
 
-1. Требуется, чтобы брандмауэр Комнаты Teams на Windows.
+1. Требуется, чтобы брандмауэр был запущен на Комнаты Teams Windows.
 
 2. Требовать, чтобы Microsoft Defender был запущен на Комнаты Teams.
 
-3. Если Teams Room не соответствует ни одному из этих требований, она не будет помечена как совместимая и устройства не будут входить в систему.
+3. Если комната Teams не соответствует ни одному из этих требований, она не будет помечена как совместимая и устройства не будут входить в систему.
 
-Эта политика соответствия требованиям применяется ко всем пользователям, а не Teams учетным записям ресурсов.
+Эта политика соответствия требованиям применяется ко всем пользователям, а не только к учетным записям ресурсов Teams.

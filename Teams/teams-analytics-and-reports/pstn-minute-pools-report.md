@@ -11,18 +11,18 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 search.appverid: MET150
-MS.collection:
-- M365-voice
 description: Как использовать отчет по минутным пулам ТСОП Teams в Центре администрирования Microsoft Teams для просмотра минут, использованных в организации за текущий месяц.
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3aafc45cebab24f5524a4d3120dd0c03083d0c6c
-ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
+ms.collection:
+- M365-voice
+ms.openlocfilehash: d3e2b4d7d0aba44929b7094c4146f9f69db0e8eb
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66794357"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67267374"
 ---
 # <a name="microsoft-teams-pstn-minute-pools-report"></a>Отчет о минутных пулах ТСОП в Microsoft Teams
 
@@ -46,6 +46,6 @@ ms.locfileid: "66794357"
 |**6**   |Нажмите **Изменение столбцов**, чтобы добавить или удалить столбцы в таблице.|
 |**7**   |Выберите **"Полноэкранный** режим", чтобы просмотреть отчет в полноэкранном режиме.|
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 
 - [Аналитика и отчеты Teams](teams-reporting-reference.md)

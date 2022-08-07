@@ -1,5 +1,5 @@
 ---
-title: Удаленная подготовка и вход для Teams Android устройств
+title: Удаленная подготовка и вход для устройств Android в Teams
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -9,58 +9,58 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
+- Teams_ITAdmin_Devices
 f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Сведения об удаленной подготовке и входе для Teams Android устройств
-ms.openlocfilehash: 5a746e3255ce8af9bcf59f8dfcae12854b222a1f
-ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
+description: Сведения об удаленной подготовке и входе для устройств Android в Teams
+ms.openlocfilehash: 566f7428d03a16082a37ff7a8896cffbb27b85ec
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "65761291"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67267794"
 ---
-# <a name="remote-provisioning-and-sign-in-for-teams-android-devices"></a>Удаленная подготовка и вход для Teams Android устройств
+# <a name="remote-provisioning-and-sign-in-for-teams-android-devices"></a>Удаленная подготовка и вход для устройств Android в Teams
 
-ИТ-администраторы могут удаленно подготавливать и входить на Teams Android устройства. Чтобы подготовить устройство удаленно, администратору необходимо передать MAC-идентификаторы подготавливаемых устройств и создать код проверки. Весь процесс можно завершить удаленно из центра Teams администрирования.
+ИТ-администраторы могут удаленно подготавливать и входить на устройство Teams Android. Чтобы подготовить устройство удаленно, администратору необходимо передать MAC-идентификаторы подготавливаемых устройств и создать код проверки. Весь процесс можно завершить удаленно из Центра администрирования Teams.
 
 ## <a name="review-the-supported-devices"></a>Просмотр поддерживаемых устройств
 
-В следующем списке показаны требования Android встроенного ПО устройства.
+В следующем списке показаны требования к встроенномУ ПО устройства Android.
 
 |Категория устройства|Модель устройства|Версия встроенного ПО|
 |---|---|---|
-|Teams телефонов|Yealink T55/T56/T58|58.15.0.124|
-|Teams телефонов|Yealink VP59|91.15.0.58|
-|Teams телефонов|Yealink CP960|73.15.0.117|
-|Teams телефонов|Yealink MP56/MP54/MP58|122.15.0.36|
-|Teams телефонов|UC-2 в КХЛ|1.0.3.52|
-|Teams телефонов|Poly Многоайтовая C60|7.0.2.1071|
-|Teams телефонов|CCX400/CCX500/CCX600 |7.0.2.1072|
-|Teams телефонов|Аудиозаписи C448HD/C450HD/C470HD|1.10.120|
-|Teams панели|770.07.1070|1.004.0115|
-|Комнаты Teams на Android|Logitech Rally Bar Mini|1.2.982|
-|Комнаты Teams на Android|Logitech Rally Bar|1.2.982|
-|Комнаты Teams на Android|AudioCodes RXV80|1.13.361|
-|Комнаты Teams на Android|EPOS EXPAND Vision 3T|1.2.2.21182.10|
-|Комнаты Teams на Android|Yealink MeetingBar A30|133.15.0.60|
-|Комнаты Teams на Android|Yealink MeetingBar A20|133.15.0.60|
-|Комнаты Teams на Android|Сенсорная консоль Yealink CTP18|137.15.0.37|
-|Комнаты Teams на Android|Poly Studio X30|3.5.0.344025|
-|Комнаты Teams на Android|Poly Studio X50|3.5.0.344025|
-|Комнаты Teams на Android|Сенсорная консоль Poly TC8 |3.5.0.210489|
-|Комнаты Teams на Android|Yealink VC210|118.15.0.54|
+|Телефоны Teams|Yealink T55/T56/T58|58.15.0.124|
+|Телефоны Teams|Yealink VP59|91.15.0.58|
+|Телефоны Teams|Yealink CP960|73.15.0.117|
+|Телефоны Teams|Yealink MP56/MP54/MP58|122.15.0.36|
+|Телефоны Teams|UC-2 в КХЛ|1.0.3.52|
+|Телефоны Teams|Poly Многоайтовая C60|7.0.2.1071|
+|Телефоны Teams|CCX400/CCX500/CCX600 |7.0.2.1072|
+|Телефоны Teams|Аудиозаписи C448HD/C450HD/C470HD|1.10.120|
+|Панели Teams|770.07.1070|1.004.0115|
+|Комнаты Teams Android|Logitech Rally Bar Mini|1.2.982|
+|Комнаты Teams Android|Logitech Rally Bar|1.2.982|
+|Комнаты Teams Android|AudioCodes RXV80|1.13.361|
+|Комнаты Teams Android|EPOS EXPAND Vision 3T|1.2.2.21182.10|
+|Комнаты Teams Android|Yealink MeetingBar A30|133.15.0.60|
+|Комнаты Teams Android|Yealink MeetingBar A20|133.15.0.60|
+|Комнаты Teams Android|Сенсорная консоль Yealink CTP18|137.15.0.37|
+|Комнаты Teams Android|Poly Studio X30|3.5.0.344025|
+|Комнаты Teams Android|Poly Studio X50|3.5.0.344025|
+|Комнаты Teams Android|Сенсорная консоль Poly TC8 |3.5.0.210489|
+|Комнаты Teams Android|Yealink VC210|118.15.0.54|
 
 ## <a name="add-a-device-mac-address"></a>Добавление MAC-адреса устройства
 
 Выполните следующие действия, чтобы подготовить новое устройство.
 
 1. Войдите в Центр администрирования Teams.
-2. **Разверните Teams устройств**.
+2. **Разверните устройства Teams**.
 3. Выберите **"Подготовка нового устройства" на** **вкладке "Действия** ".
 
 В **окне "** Подготовка новых устройств" можно добавить MAC-адрес вручную или отправить файл.
@@ -93,9 +93,9 @@ ms.locfileid: "65761291"
 
 ## <a name="provision-the-device"></a>Подготовка устройства
 
-Когда устройство включено и подключено к сети, технический специалист подготавливает устройство. Эти действия выполняются на Teams устройстве.
+Когда устройство включено и подключено к сети, технический специалист подготавливает устройство. Эти действия выполняются на устройстве Teams.
 
-1. Технический специалист выбирает **подготовку устройства** **из Параметры.**  
+1. Технический специалист выбирает **"Подготовка устройства** " в **разделе "Параметры"**.  
 
    ![Подготовка нового устройства на вкладке "Действия".](../media/provision-device1.png)
   
@@ -123,4 +123,4 @@ ms.locfileid: "65761291"
 
 - [Управление устройствами в Teams](device-management.md)
 - [Удаленный вход и выход](remote-sign-in-and-sign-out.md)
-- [Удаленное обновление Teams устройств](remote-update.md)
+- [Удаленное обновление устройств Teams](remote-update.md)

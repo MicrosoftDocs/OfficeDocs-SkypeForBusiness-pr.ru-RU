@@ -9,25 +9,24 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-voice
-- Teams_ITAdmin_RemoteWorkers
 search.appverid: MET150
 audience: Admin
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 description: Используйте отчеты Power BI об использовании Teams для доступа к данным панели мониторинга качества звонков (CQD) Microsoft Teams для отслеживания использования Microsoft Teams в организации.
-ms.openlocfilehash: 6e96f9dd06f872f2907d04aa335e2af2d7a75f2b
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.openlocfilehash: bd579fa3f57c6e3b50a363eb77523f577c750efb
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66790344"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270694"
 ---
 # <a name="view-microsoft-teams-utilization-in-power-bi-using-cqd-data"></a>Просмотр использования Microsoft Teams в Power BI с помощью данных CQD
 
-В марте 2020 г. мы добавили отчет об использовании Teams в загружаемые шаблоны запросов [Power BI для CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). 
+Отчет об использовании Teams доступен как часть загружаемых шаблонов [запросов Power BI для CQD](https://www.microsoft.com/download/details.aspx?id=102291). 
 
-Эти новые отчеты об использовании Teams позволяют узнать, как (и сколько) пользователи используют Microsoft Teams, используя данные панели мониторинга качества звонков (CQD) Teams. Эти отчеты предназначены для централизованного размещения, в которое администраторы и руководители компаний могут быстро перейти к этим данным.
+Этот отчет позволяет узнать, как (и сколько) пользователи используют Microsoft Teams, используя данные панели мониторинга качества звонков (CQD) Teams. Эти отчеты предназначены для централизованного размещения, в которое администраторы и руководители компаний могут быстро перейти к этим данным. Обратите внимание, что мы [не рекомендуем полагаться на эти данные для конкретных номеров из-за](CQD-frequently-asked-questions.md#im-trying-to-use-cqd-for-usage-type-reports-and-find-that-some-of-the-data-is-incomplete----why-is-that) характера телеметрии качества звонков.
 
 Отчет Power BI об использовании Teams состоит из двух основных отчетов **[: "](#call-count-summary-report)** Сводка по счетчику звонков" и " **[Сводка по звуковым минутам"](#audio-minutes-summary-report)**. [Отчеты о](#daily-usage) ежедневном [использовании,](#regional-audio-details) региональных аудиозаписях[,](#conference-details) сведениях о конференции и списке пользователей вступает в действие, когда пользователь использует детализированное описание, указанное в описании ниже.[](#user-list)
 
@@ -157,7 +156,7 @@ ms.locfileid: "66790344"
 В нижней таблице приведены подробные сведения о сеансах, в которых участвовал каждый пользователь в течение этого часа. Столбец "Тип сбоя" полезен для определения причины удаления вызова. Столбцы устройства захвата и отрисовки полезны для определения причин, по которым вызов был передан с низким качеством.
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 
 [Измерения и меры на панели мониторинга качества звонков](dimensions-and-measures-available-in-call-quality-dashboard.md)
 

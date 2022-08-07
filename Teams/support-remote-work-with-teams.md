@@ -8,7 +8,6 @@ ms.topic: article
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_RemoteWorkers
 - remotework
 ms.reviewer: dansteve, anmich
 ms.localizationpriority: high
@@ -16,12 +15,12 @@ search.appverid: MET150
 description: Используйте эти инструкции для того, чтобы помочь удаленно работающим сотрудникам вашей организации эффективно трудиться с применением Microsoft Teams, особенно если они работают дома в связи со вспышкой эпидемии COVID-19 (коронавируса).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ca27b85007c110a61150f89efcc457ab1fdebad0
-ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
+ms.openlocfilehash: bce0a5c6c153f116ce1430e72db5c685a925260d
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66045618"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67272084"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>Поддержка удаленных сотрудников с помощью Microsoft Teams
 

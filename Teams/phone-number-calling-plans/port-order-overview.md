@@ -18,12 +18,15 @@ ms.custom:
 - ms.teamsadmincenter.voice.phonenumbers.porting.overview
 - Calling Plans
 description: Ознакомьтесь с общими сведениями о заказах на порты и способах передачи номеров телефонов от поставщика услуг в Teams.
-ms.openlocfilehash: 21a91833956e5d24f0bb6e5895232517f39d8c6a
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.collection:
+- M365-voice
+- m365initiative-voice
+ms.openlocfilehash: e9f267bfdb56558245fecefe240f2c09c07d4783
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66789404"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270874"
 ---
 # <a name="whats-a-port-order"></a>Что такое заказ на перенос номера?
 
@@ -174,7 +177,7 @@ ms.locfileid: "66789404"
 
 - Убедитесь, что служба активна. Блокировка учетной записи предотвращает изменение операторов связи в учетной записи. Пользователь, авторизованный на внесение изменений в учетную запись, должен отправить заказ текущему оператору, чтобы снять зависание. Этот процесс может занять от одной до трех недель в зависимости от оператора.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 
 - [Каково состояние ваших заказов на перенос номеров?](port-order-status.md)
 - [Различные типы телефонных номеров, используемые для планов звонков](../different-kinds-of-phone-numbers-used-for-calling-plans.md)

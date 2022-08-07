@@ -1,5 +1,5 @@
 ---
-title: Удаленный вход и выход для Teams Android устройств
+title: Удаленный вход и выход для устройств Android в Teams
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -10,28 +10,28 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
+- Teams_ITAdmin_Devices
 f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Узнайте, как удаленно войти и выйти из Teams Android устройств
-ms.openlocfilehash: 5688ed8b7edf49e3048cb8b36b7e033030c09d5b
-ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
+description: Сведения об удаленном входе и выходе с устройств Android в Teams
+ms.openlocfilehash: 9da10d25c0dfccff3917dfa949966b5e460ea2a3
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "65761431"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67271584"
 ---
-# <a name="remote-sign-in-and-sign-out-for-teams-android-devices"></a>Удаленный вход и выход для Teams Android устройств
+# <a name="remote-sign-in-and-sign-out-for-teams-android-devices"></a>Удаленный вход и выход для устройств Android в Teams
 
-В этой статье описывается, как выполнить удаленный вход и Teams Android устройств из Teams администрирования. Если вы еще не подготовили устройство или оно подготовлено, но не было выполнено вход, см. раздел "Удаленная подготовка и вход [для Teams Android устройств"](remote-provision-remote-login.md).
+В этой статье описывается, как удаленно войти и выйти из Центра администрирования Teams на устройствах Android Teams. Если вы еще не подготовили устройство или оно подготовлено, но не было выполнено вход, см. статью "Удаленная подготовка и вход для устройств [Android в Teams"](remote-provision-remote-login.md).
 
 ## <a name="remote-sign-in"></a>Удаленный вход
 
-После первого подготовки и входа устройства оно появится на соответствующей странице в узле Teams устройств центра администрирования Teams устройств.
+После первого подготовки и входа устройства оно появится на соответствующей странице в узле устройств **Teams** Центра администрирования Teams.
 
 Чтобы войти на устройство, которое было выписано, перейдите на соответствующую страницу устройства.
 
@@ -47,6 +47,6 @@ ms.locfileid: "65761431"
 
 ## <a name="related-articles"></a>Статьи по теме
 
-- [Удаленная подготовка и вход для Teams Android устройств](remote-provision-remote-login.md)
+- [Удаленная подготовка и вход для устройств Android в Teams](remote-provision-remote-login.md)
 - [Управление устройствами в Teams](device-management.md)
-- [Удаленное обновление Teams устройств](remote-update.md)
+- [Удаленное обновление устройств Teams](remote-update.md)

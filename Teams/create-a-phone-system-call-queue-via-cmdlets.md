@@ -11,7 +11,6 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - M365-voice
-- m365initiative-voice
 audience: Admin
 appliesto:
 - Skype for Business
@@ -20,16 +19,16 @@ ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
-- ms.teamsadmincenter.callqueues.overview"
+- ms.teamsadmincenter.callqueues.overview
 - Phone System
 - seo-marvel-apr2020
 description: Узнайте, как настроить очереди вызовов с помощью командлетов
-ms.openlocfilehash: 8d62d3648d35cc302e333c2efa552bb2094cb14d
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: b2439bf6b71fc7381494030c326db88660fa5eaf
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674581"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268804"
 ---
 # <a name="create-a-call-queue-via-cmdlets"></a>Создание очереди вызовов с помощью командлетов
 
@@ -51,9 +50,9 @@ ms.locfileid: "65674581"
 
 2. У вас есть права на администрирование клиента
 3. Вы приобрели Телефонная система Microsoft Teams
-4. Агенты, списки рассылки и Teams, указанные ниже, уже созданы.
+4. Агенты, списки рассылки и каналы Teams, указанные ниже, уже созданы
 
-Примечание. Командлет Teams Channel, используемый ниже, является частью общедоступной предварительной версии модуля Teams PowerShell.  Дополнительные сведения см. в Teams [powerShell](teams-powershell-install.md), а также в Microsoft Teams [выпуске PowerShell](teams-powershell-release-notes.md).
+Примечание. Командлет канала Teams, используемый ниже, является частью общедоступной предварительной версии модуля Teams PowerShell.  Дополнительные сведения см. в [разделе "Установка Teams PowerShell](teams-powershell-install.md) общедоступной предварительной версии", а также в заметках о выпуске [Microsoft Teams PowerShell](teams-powershell-release-notes.md).
 
 Пользователи, у которых уже установлен модуль MicrosoftTeams `Update-Module MicrosoftTeams` , должны убедиться, что установлена самая последняя версия.
 
@@ -129,7 +128,7 @@ ms.locfileid: "65674581"
 
 ## <a name="login"></a>Вход
 
-Вам будет предложено ввести учетные данные Teams администратора.
+Вам будет предложено ввести учетные данные администратора Teams.
 
 ```powershell
 $credential = Get-Credential
@@ -176,7 +175,7 @@ Get-MsolAccountSku
 
 ### <a name="create-and-assign-resource-account"></a>Создание и назначение учетной записи ресурса
 
-Примечание. Телефон номер не требуется, так как очередь вызовов заканчивается автосекретарем
+Примечание. Номер телефона здесь не требуется, так как очередь звонков заканчивается автосекретарем
 
 - ApplicationID
   - Автосекретарь: ce933385-9390-45d1-9512-c8d228074e07
@@ -240,7 +239,7 @@ Get-MsolAccountSku
 
 ### <a name="create-and-assign-resource-account"></a>Создание и назначение учетной записи ресурса
 
-Примечание. Телефон номер не требуется, так как очередь вызовов является интерфейсной для автосекретаря
+Примечание. Номер телефона здесь не требуется, так как очередь вызовов является интерфейсной для автосекретаря
 
 - ApplicationID
   - Автосекретарь: ce933385-9390-45d1-9512-c8d228074e07
@@ -308,7 +307,7 @@ Get-MsolAccountSku
 
 ### <a name="create-and-assign-resource-account"></a>Создание и назначение учетной записи ресурса
 
-**Примечание**. Телефон номер не требуется, так как очередь вызовов является интерфейсной для автосекретаря
+**Примечание**. Номер телефона здесь не требуется, так как очередь вызовов является интерфейсной для автосекретаря
 
 - ApplicationID
   - Автосекретарь: ce933385-9390-45d1-9512-c8d228074e07
