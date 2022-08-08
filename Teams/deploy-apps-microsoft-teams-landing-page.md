@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
-ms.openlocfilehash: 8fa6763641edf1b4eff29e16fb7ecdeaa4111edf
-ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
+ms.openlocfilehash: 77d33fc464ab67945c8d3c588c4ce47366c2ba2d
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67156687"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270264"
 ---
 # <a name="understand-microsoft-teams-apps"></a>Общие сведения о приложениях Microsoft Teams
 
@@ -43,7 +43,7 @@ ms.locfileid: "67156687"
 
 ## <a name="core-apps"></a>Основные приложения
 
-Некоторые функции Teams, такие как веб-канал действий, каналы, чат, календарь и вызовы, доступны по умолчанию и закреплены по умолчанию для простоты доступа для конечных пользователей. Как администратор, вы можете изменить это поведение по умолчанию с помощью [политики установки](/microsoftteams/teams-app-setup-policies).
+Некоторые функции Teams, такие как лента, команды, чат, календарь, вызовы, файлы и задания (клиенты образования), доступны и закреплены по умолчанию для удобного доступа для конечных пользователей. Для сотрудников без компьютеров доступны и закреплены только действия, смены, чат и звонки. Как администратор, вы можете изменить это поведение по умолчанию с помощью [политики установки](/microsoftteams/teams-app-setup-policies).
 
 :::image type="content" source="media/core-apps-pinned1.png" alt-text="Основные приложения — это приложения, закрепленные в Teams по умолчанию." lightbox="media/core-apps-pinned2.png":::
 
