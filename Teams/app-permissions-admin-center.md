@@ -1,24 +1,23 @@
 ---
 title: Просмотр разрешений для приложений и предоставление согласия администратора в Центре администрирования Microsoft Teams
-author: guptaashish
+author: ashishguptaiitb
 ms.author: guptaashish
-ms.reviewer: vaibhava
 manager: prkosh
 ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: Узнайте, как просмотреть разрешения, запрашиваемые приложениями, и предоставить согласие администратора приложениям на странице "Управление приложениями" Центра администрирования Microsoft Teams.
-ms.localizationpriority: high
+ms.localizationpriority: medium
 ms.collection: M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1e3d7ca4f86660080cb387a9d4cd80927f296040
-ms.sourcegitcommit: a64574da14969a33a77c7d979ffde452b5b3a531
+ms.openlocfilehash: f5bd84ce2fa19fc7a9aa823250fa77f1980055f0
+ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67175653"
+ms.lasthandoff: 08/10/2022
+ms.locfileid: "67299058"
 ---
 # <a name="view-app-permissions-and-grant-admin-consent-in-the-microsoft-teams-admin-center"></a>Просмотр разрешений для приложений и предоставление согласия администратора в Центре администрирования Microsoft Teams
 
@@ -86,9 +85,9 @@ ms.locfileid: "67175653"
 
 ### <a name="the-view-details-link-isnt-displayed-in-the-permissions-column-for-some-third-party-apps-that-request-permissions"></a>Ссылка "Просмотр сведений" не отображается в столбце "Разрешения" для некоторых сторонних приложений, запрашивающих разрешения
 
-В настоящее время возможность проверять разрешения и предоставлять согласие доступна не всем сторонним приложениям, которые зарегистрированы в Azure AD и запрашивают разрешения. Вместо ссылки **Просмотр сведений** вы увидите **--** в столбце **Разрешения**. Мы работаем с независимыми поставщиками программного обеспечения, чтобы включить эту функцию в их приложениях.
+Возможность просмотра разрешений и предоставления согласия доступна не для всех сторонних приложений. Как правило, сторонние приложения регистрируются в Azure Active Directory при запросе разрешения. Вместо ссылки **Просмотр сведений** вы увидите `--` в столбце **Разрешения**.
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-articles"></a>Статьи по теме
 
 * [Управление приложениями в Центре администрирования Microsoft Teams](manage-apps.md)
 * [Разрешения и согласие в конечной точке платформы удостоверений Майкрософт](/azure/active-directory/develop/v2-permissions-and-consent)

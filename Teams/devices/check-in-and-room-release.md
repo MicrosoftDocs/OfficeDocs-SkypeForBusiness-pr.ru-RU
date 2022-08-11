@@ -16,12 +16,12 @@ ms.collection:
 ms.topic: reference
 search.appverid: MET150
 description: В этой статье приводятся рекомендации по включению устройств с панелями Teams для регистрации и выпуска помещений.
-ms.openlocfilehash: 5f411979c9fb121bb80c999b102332b0208efb81
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 31cdab94ddb6a5c6fdc017b537f446e58aa1c2c5
+ms.sourcegitcommit: 6e677c7d0dfe9e380d70adaca748eea88ca95705
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268224"
+ms.lasthandoff: 08/09/2022
+ms.locfileid: "67298329"
 ---
 # <a name="check-in-and-room-release-on-microsoft-teams-panels"></a>Возврат и выпуск комнаты на панелях Microsoft Teams
 
@@ -29,7 +29,9 @@ ms.locfileid: "67268224"
 
 ## <a name="requirements"></a>Требования 
 
-Эту функцию можно использовать в автономном Панель Teams развертывания. Вы также можете связать панели Teams с Комнаты Teams в Android с приложением версии 1449/1.0.96.2022011305 или более поздней для получения дополнительных функций, таких как уведомления о возврате.  
+Эту функцию можно использовать в автономном Панель Teams развертывания. Вы также можете связать панели Teams с Комнаты Teams в Android с приложением версии 1449/1.0.96.2022011305 или более поздней для получения дополнительных функций, таких как уведомления о возврате.
+
+Общий почтовый ящик, связанный с Панель Teams, должен иметь правильный часовой пояс для правильной работы этой функции. Сведения о настройке часового пояса для общих почтовых ящиков см. в разделе "Параметры часового пояса" для общих почтовых [ящиков в Outlook в Интернете](/exchange/troubleshoot/outlook-on-the-web-issues/shared-mailboxes-time-zone-setting).
 
 ## <a name="enable-check-in-and-room-release"></a>Включение возвратов и выпуск помещений 
 
@@ -60,7 +62,7 @@ ms.locfileid: "67268224"
 
 3. Перейдите **к разделу "Возврат"** и включите отправку **уведомления о возврате**.
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
 - [Использование панелей Microsoft Teams](use-teams-panels.md)
 

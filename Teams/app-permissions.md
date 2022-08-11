@@ -1,9 +1,8 @@
 ---
 title: Разрешения и рекомендации для приложений Microsoft Teams
-author: guptaashish
+author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
-ms.date: 06/27/2019
 ms.topic: conceptual
 audience: admin
 ms.service: msteams
@@ -15,16 +14,16 @@ ms.reviewer: rowille
 description: Администраторы могут узнать, какие данные и разрешения приложения Microsoft Teams запрашивают у их организации.
 f1.keywords:
 - NOCSH
-ms.localizationpriority: high
+ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2cb641bb8756802820cf6ec6a311e3328c3887ca
-ms.sourcegitcommit: a64574da14969a33a77c7d979ffde452b5b3a531
+ms.openlocfilehash: 05be32bff1069d11ea26d28e6eb5377ec04e65e9
+ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67175673"
+ms.lasthandoff: 08/10/2022
+ms.locfileid: "67299068"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Разрешения и рекомендации для приложений Microsoft Teams
 
@@ -191,7 +190,7 @@ RECEIVE_MESSAGE, REPLYTO_MESSAGE. Может получать сообщения
 
 * Исходящие веб-перехватчики похожи на ботов, но имеют меньше привилегий. Они должны быть явно упомянуты, как и боты.
 
-* При регистрации исходящего веб-перехватчика создается секрет, позволяющий исходящему веб-перехватчику проверить, что отправителем является Microsoft Teams, а не злоумышленник. Этот секрет должен оставаться секретом; любой, у кого есть к нему доступ, может выдавать себя за Microsoft Teams. Если секрет скомпрометирован, исходящий веб-перехватчик можно удалить и создать заново, при этом будет сгенерирован новый секрет.
+* При регистрации исходящего веб-перехватчика создается секрет, позволяющий исходящему веб-перехватчику проверить, что отправителем является Microsoft Teams, а не злоумышленник. Этот секрет должен оставаться секретом; любой, у кого есть к нему доступ, может выдавать себя за Microsoft Teams. Если секрет скомпрометирован, удалите и повторно создайте исходящий веб-перехватчик, чтобы создать новый секрет.
 
 * Несмотря на то, что можно создать исходящий веб-перехватчик, не проверяющий секрет, мы рекомендуем не использовать его.
 

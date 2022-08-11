@@ -16,12 +16,12 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 description: Узнайте о требованиях к поддержке Комнаты Microsoft Teams, включая выбор соответствующего устройства, микрофонов, динамиков, камер и дисплеев.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4222f0fa1b0e52634e0e12cede50d3d9c5d0bba8
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 1a6d04787c05642dd329626bab605566d90ffc12
+ms.sourcegitcommit: 976d49c8c1104282c205ac533ed10450a5371950
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268354"
+ms.lasthandoff: 08/10/2022
+ms.locfileid: "67304088"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Требования к комнатам Microsoft Teams
 
@@ -83,8 +83,8 @@ ms.locfileid: "67268354"
   |[HP Elite Slice для Meeting Rooms G2](https://www8.hp.com/us/en/elite-family/elite-slice-for-meetings.html) |Core i5 |8 ГБ |128 ГБ |
   |[HP Elite Slice G2 с готовым аудио для комнат Microsoft Teams](https://store.hp.com/us/en/pdp/hp-elite-slice-for-meeting-rooms-g2-skype-room-systems-audio-ready?jumpid=cp_r12131_us/en/psg/elite_slice_for_meetings/product/shop-now-eliteslicemeeting-g2-audio) |Core i5 |8 ГБ |128 ГБ |
   |[Партнер по срезам HP готов к работе с Logitech TAP]( https://www.logitech.com/video-collaboration/partners/hp.html)|Core i5|8 ГБ|128 ГБ| 
-  |[Решение hp Presence Small Space с Комнаты Microsoft Teams](https://www.hp.com/us-en/solutions/presence.html)|Core i5|8 ГБ|128 ГБ|
-  |[Hp Presence Small Space Solution Plus AI Camera with Комнаты Microsoft Teams](https://www.hp.com/us-en/solutions/presence.html)|Core i5|8 ГБ|128 ГБ|
+  |[Решение hp Presence Small Space с Комнаты Microsoft Teams](https://www.hp.com/us-en/solutions/presence.html)|Core i5/i7|8 ГБ/16 ГБ|256 ГБ|
+  |[Hp Presence Small Space Solution Plus AI Camera with Комнаты Microsoft Teams](https://www.hp.com/us-en/solutions/presence.html)|Core i5/i7|8 ГБ/16 ГБ|256 ГБ|
   | Lenovo ThinkSmart Hub 500 |Core i5 |8 ГБ |128 ГБ |
   |[Lenovo ThinkSmart Hub](https://news.lenovo.com/pressroom/press-releases/new-thinksmart-hub-collaboration-solution-from-lenovo-helps-organizations-embrace-hybrid-working-model/) |Core i5 |8 ГБ |128 ГБ|
   |Lenovo ThinkSmart Core Kit |Core i5|8 ГБ|128 ГБ|
