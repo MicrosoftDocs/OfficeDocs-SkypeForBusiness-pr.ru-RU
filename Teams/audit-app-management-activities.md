@@ -1,6 +1,6 @@
 ---
 title: Поиск событий управления приложениями в журналах аудита
-author: guptaashish
+author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
 ms.topic: article
@@ -13,13 +13,13 @@ f1keywords: ''
 description: Сведения об аудите действий пользователей и администраторов в приложении Teams в организации.
 appliesto:
 - Microsoft Teams
-ms.localizationpriority: high
-ms.openlocfilehash: 0ad20fc8d5efd6c243ce29c3255b787bae322994
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.localizationpriority: medium
+ms.openlocfilehash: 5eb1ffe4a637c61efc8e64e970f25474933914a7
+ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269724"
+ms.lasthandoff: 08/10/2022
+ms.locfileid: "67299258"
 ---
 # <a name="audit-for-app-management-activities-and-events"></a>Аудит действий и событий управления приложениями
 
@@ -69,7 +69,7 @@ ms.locfileid: "67269724"
 > [!NOTE]
 > Когда одно из указанных выше действий выполняется пользователем или администратором, Teams создает и сохраняет запись аудита. При использовании Аудита (стандарт) записи хранятся 90 дней, что означает, что вы можете искать действия, совершенные за последние три месяца.
 
-## <a name="see-also"></a>См. также
+## <a name="related-articles"></a>Статьи по теме
 
 * [Использование журналов аудита для изучения действий установки Microsoft Power Platform](manage-power-platform-apps.md#use-audit-logs-to-investigate-microsoft-power-platform-installation-activity)
 * [Поиск подписи аудита на портале соответствия требованиям](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance).

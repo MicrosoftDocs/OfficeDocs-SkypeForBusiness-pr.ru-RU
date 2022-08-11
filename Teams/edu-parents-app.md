@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b547990a05d6c4ff0bd7a3bd36fdf3fbe431202e
-ms.sourcegitcommit: 70185cd963c5a9d539e65e302d4230018209ecae
+ms.openlocfilehash: 73f11abed8101031361e92d008c4edbd89b9a31c
+ms.sourcegitcommit: 903abff4ce79c10bf1fb936b8ad71f6315a43c18
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/22/2022
-ms.locfileid: "66958144"
+ms.lasthandoff: 08/08/2022
+ms.locfileid: "67278773"
 ---
 # <a name="set-up-parent-connection-in-microsoft-teams-for-education"></a>Настройка родительского подключения в Microsoft Teams для образования
 
@@ -181,7 +181,7 @@ ms.locfileid: "66958144"
 
 ## <a name="turn-on-the-parents-app-in-the-teams-admin-center"></a>Включение приложения "Родители" в Центре администрирования Teams
 
-Приложение "Родители" по умолчанию отключено, поэтому владельцы групп классов не будут видеть его в своих командах класса, пока это не будет разрешено через Центр администрирования Teams. Приложение "Родители" включено в Центре администрирования Teams с помощью разрешения [приложений, заблокированных издателями](manage-apps.md#allow-the-apps-that-are-blocked-by-the-developers).
+Приложение "Родители" по умолчанию отключено, поэтому владельцы групп классов не будут видеть его в своих командах класса, пока это не будет разрешено через Центр администрирования Teams. Приложение "Родители" включено в Центре администрирования Teams с помощью разрешения [приложений, заблокированных разработчиками](manage-apps.md#allow-the-apps-that-are-blocked-by-the-developers).
 
 В любое время приложение можно отключить на уровне клиента с помощью функции "Разрешить [и блокировать приложения](manage-apps.md#allow-and-block-apps) " в Центре администрирования Teams. Если она отключена на уровне клиента, она будет заблокирована для всех пользователей, даже если разрешения на уровне пользователя включены.
 
