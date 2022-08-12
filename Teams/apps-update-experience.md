@@ -1,9 +1,8 @@
 ---
 title: Интерфейс обновления приложений в Microsoft Teams
-author: guptaashish
+author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
-ms.reviewer: v-tbasra
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -14,31 +13,33 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.localizationpriority: high
+ms.localizationpriority: medium
 search.appverid: MET150
-description: Из этой статьи вы узнаете, как обновляются приложения Майкрософт, пользовательские приложения и сторонние приложения в Microsoft Teams.
-ms.openlocfilehash: bcd06b9814b03d917014d8136f51a280e30007d1
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+description: Из этой статьи вы узнаете, как обновляются приложения Майкрософт, пользовательские приложения и сторонние приложения в Microsoft Teams и как администраторы способствуют этому.
+ms.openlocfilehash: ed91ad441b773833838796d9ea8c71038c842b88
+ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67272064"
+ms.lasthandoff: 08/10/2022
+ms.locfileid: "67299048"
 ---
 # <a name="update-apps-in-microsoft-teams"></a>Обновление приложений в Microsoft Teams
 
-В большинстве случаев после публикации обновления приложения разработчиками новая версия автоматически отображается для пользователей. Однако существуют некоторые обновления [манифеста Microsoft Teams](/microsoftteams/platform/resources/schema/manifest-schema), для которых требуется согласие пользователя:
+В большинстве случаев после появления новой версии приложения в магазине Teams оно автоматически обновляется для пользователей. Однако некоторые конкретные изменения в новой версии приложения требуют согласия пользователя для обновления приложения. Согласие пользователя обеспечивает осведомленность об изменениях, таких как функциональность или доступ. Если разработчики приложений внести следующие изменения в приложения Microsoft Teams, конечные пользователи должны одобрить обновление приложения:
 
-* Добавлен или удален бот.
-* Изменено свойство "botId" существующего бота.
-* Изменено свойство "isNotificationOnly" существующего бота.
-* Добавлены возможности SupportsCalling, SupportsVideo и SupportsFiles бота.
+* Бот добавлен.
+* Изменено свойство `botId` или свойство `isNotificationOnly` существующего бота.
+* Добавлены возможности бота `SupportsCalling`, `SupportsVideo` и `SupportsFiles`.
 * Добавлено расширение для обмена сообщениями.
-* Добавлен новый соединитель.
 * Добавлены или изменены разрешения внутри "Авторизации".
+* `Id` или `ApplicationPermissionsHash`, или и то и другое изменены в `webApplicationInfo`.
 
-:::image type="content" source="media/manage-your-custom-apps-update1.png" alt-text="Доступна новая версия." lightbox="media/manage-your-custom-apps-update1.png":::
+<!--- image update
+:::image type="content" source="media/manage-your-custom-apps-update1.png" alt-text="New version available." lightbox="media/manage-your-custom-apps-update1.png":::
 
-:::image type="content" source="media/manage-your-custom-apps-update2.png" alt-text="Параметр обновления для приложения." lightbox="media/manage-your-custom-apps-update2.png":::
+:::image type="content" source="media/manage-your-custom-apps-update2.png" alt-text="Upgrade option for an app." lightbox="media/manage-your-custom-apps-update2.png":::
+--->
 
-> [!NOTE]
-> Процесс обновления действует для всех обновлений приложений Майкрософт, пользовательских приложений и сторонних приложений.
+## <a name="related-articles"></a>Статьи по теме
+
+* [Базовые сведения о схеме манифеста для обновлений, выполненных в приложениях.](/microsoftteams/platform/resources/schema/manifest-schema).
