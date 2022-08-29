@@ -16,12 +16,12 @@ description: Узнайте, как настроить Adobe Acrobat в каче
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 9e8860c10e74d5dc06f73632b33b6c94ea792a09
-ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
-ms.translationtype: HT
+ms.openlocfilehash: b1c5654791dde3def8ec622880e26b07f693633f
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67299248"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396710"
 ---
 # <a name="adobe-acrobat-as-a-default-pdf-viewer-in-microsoft-teams"></a>Adobe Acrobat в качестве средства просмотра PDF по умолчанию в Microsoft Teams
 
@@ -39,11 +39,11 @@ ms.locfileid: "67299248"
 
 Прежде чем настраивать приложение, убедитесь, что вы разрешаете использование приложений в своем клиенте, что вы специально разрешили приложение Adobe Acrobat, а политики разрешений приложений это позволяют. Чтобы настроить Adobe Acrobat в качестве приложения по умолчанию для PDF-файлов, выполните следующие действия.
 
-1. Войдите в Центр администрирования Teams и перейдите в **приложение Teams** > **[Управление приложениями](https://admin.teams.microsoft.com/policies/manage-apps)**.
+1. Войдите в Центр администрирования Teams и получите доступ к **приложениям teams app** > **[Manage](https://admin.teams.microsoft.com/policies/manage-apps)**.
 
-1. Найдите приложение Adobe Acrobat и выберите его.
+1. Найдите приложение Adobe Acrobat и выберите его. Откроется страница сведений о приложении.
 
-1. На вкладке **Разрешения** выберите **Разрешить проверку**.
+1. Перейдите **на вкладку "** Разрешения", а затем выберите разрешение **"Проверка"**.
 
    :::image type="content" source="media/permission-policy.png" alt-text="Снимок экрана разрешения приложения в центре администрирования Teams." lightbox="media/teams-app-adobe-acrobat-permission.png":::
 

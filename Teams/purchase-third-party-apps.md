@@ -1,6 +1,6 @@
 ---
 title: Приобретение сторонних приложений для Teams
-author: guptaashish
+author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
 ms.topic: article
@@ -15,12 +15,12 @@ description: Узнайте, как приобрести сторонние пр
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 41882a241a911e7c482a2a9a16c9fa9cfd649e9d
-ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
-ms.translationtype: HT
+ms.openlocfilehash: 680f48fd75c85b219a4c1ed5b18289962637401b
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67299198"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396310"
 ---
 # <a name="purchase-third-party-apps-for-teams"></a>Приобретение сторонних приложений для Teams
 
@@ -34,9 +34,9 @@ ms.locfileid: "67299198"
 
 ## <a name="purchase-apps-in-the-teams-admin-center"></a>Приобретение приложений в Центре администрирования Teams
 
-Чтобы приобрести приложения в Центре администрирования Teams, сделайте следующее: 
+Чтобы приобрести приложения в Центре администрирования Teams, сделайте следующее:
 
-1. В левой панели навигации Центра администрирования Microsoft Teams выберите **Приложения Teams** > **[Управление приложениями](https://admin.teams.microsoft.com/policies/manage-apps)**. Для доступа к этой странице вы должны быть глобальным администратором или администратором службы Teams.
+1. Войдите в Центр администрирования Teams и получите доступ к **приложениям Teams Для управления** > **[приложениями](https://admin.teams.microsoft.com/policies/manage-apps)**. Для доступа к этой странице вы должны быть глобальным администратором или администратором службы Teams.
 
 1. Найдите нужное приложение по его имени. Чтобы определить приложения с платной подпиской SaaS, просмотрите столбец **Лицензии**. Каждое приложение содержит одно из следующих значений.
     * **Покупка**. Приложение предлагает подписку SaaS и доступно для покупки.  

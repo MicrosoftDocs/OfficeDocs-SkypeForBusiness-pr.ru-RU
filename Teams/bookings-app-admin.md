@@ -19,14 +19,15 @@ ms.collection:
 - microsoftcloud-retail
 - m365solution-healthcare
 - m365solution-scenario
+- m365-frontline
 ms.reviewer: ''
 description: Узнайте, как управлять приложением Bookings в Teams для пользователей в организации.
-ms.openlocfilehash: e7b8cbabd7c013c47d0d3d75982eb879ccc23e98
-ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
+ms.openlocfilehash: 9182345603ba55b26a5a6af3960de7ceb84ffd3e
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/26/2022
-ms.locfileid: "67023790"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396790"
 ---
 # <a name="manage-the-bookings-app-in-microsoft-teams"></a>Управление приложением Bookings в Microsoft Teams
 

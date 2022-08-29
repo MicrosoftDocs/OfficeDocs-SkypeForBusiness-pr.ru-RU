@@ -17,12 +17,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9918c1ce81464f2fbe9a0c16bc0373e54858d79b
-ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
-ms.translationtype: HT
+ms.openlocfilehash: d1fb640e6bf43d4a91eb1c672244cdf33cefd059
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67299088"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396440"
 ---
 # <a name="microsoft-365-app-compliance-program-for-security-compliance-and-privacy-of-third-party-apps"></a>Программа соответствия требованиям для обеспечения безопасности приложений и конфиденциальности приложений Microsoft 365 и сторонних приложений
 
@@ -112,7 +112,7 @@ ms.locfileid: "67299088"
 
 Для доступа к сведениям MCAS для приложения:
 
-1. В Центре администрирования Teams выберите **Приложения Teams** > **[Управление приложениями](https://admin.teams.microsoft.com/policies/manage-apps)**.
+1. Войдите в Центр администрирования Teams и получите доступ к **приложениям Teams Для управления** > **[приложениями](https://admin.teams.microsoft.com/policies/manage-apps)**.
 
 1. Выберите **Сертификация**, чтобы отсортировать приложения и поместить все приложения, сертифицированные для Microsoft 365, в начало таблицы.
 

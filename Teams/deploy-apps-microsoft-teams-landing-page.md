@@ -7,11 +7,11 @@ author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
 audience: admin
-ms.date: 04/05/2022
 ms.service: msteams
 ms.subservice: teams-apps
 ms.collection:
 - M365-collaboration
+- m365-frontline
 f1.keywords:
 - NOCSH
 ms.localizationpriority: high
@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
-ms.openlocfilehash: b7e95c04a2a8632fbda566c322e474809703de03
-ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
-ms.translationtype: HT
+ms.openlocfilehash: 78f0f0857884f70d5e758b1c52e13341c15faa0e
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67298918"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67397200"
 ---
 # <a name="understand-microsoft-teams-apps"></a>Общие сведения о приложениях Microsoft Teams
 
@@ -73,13 +73,13 @@ Teams предоставляется с набором встроенных пр
 
 ## <a name="about-app-templates"></a>Сведения о шаблонах приложений
 
-Шаблоны приложений для Teams — это функциональные и готовые к рабочей среде примеры приложений, созданные корпорацией Майкрософт для достижения следующих целей.
+Используя методы разработки приложений, корпорация Майкрософт создает и предоставляет функциональные и готовые к работе примеры приложений. В совокупности эти приложения называются шаблонами приложений для Teams и предоставляются в следующих службах:
 
-* Иллюстрация распространенных вариантов использования.
-* Демонстрация рекомендаций по разработке приложений.
-* Предоставление приложений с открытым исходным кодом, которые разработчики могут расширить для создания пользовательских приложений.
+* Иллюстрирует несколько вариантов использования совместной работы в Teams.
+* Демонстрация рекомендаций и методов разработки приложений.
+* Предоставьте приложения с открытым кодом, которые разработчики могут расширить для создания собственных приложений.
 
-Разработчики вашей организации настраивают шаблоны приложений, внося простые изменения в код, доступный в GitHub. Вы предоставляете эти приложения в качестве пользовательских приложений для конечных пользователей в соответствии с любыми потребностями организации.
+Разработчики вашей организации настраивают шаблоны приложений, внося простые изменения в предоставленный исходный код. Вы предоставляете эти приложения в качестве пользовательских приложений для конечных пользователей в соответствии с любыми потребностями организации.
 
 Дополнительные сведения см. в разделе [Шаблоны приложений Microsoft Teams](https://adoption.microsoft.com/microsoft-teams/app-templates/).
 
@@ -167,3 +167,7 @@ You can use activity reports to see how users in your organization are using Tea
 | Who needs to see the activity reports, and do they have the correct permissions to view them? |<ul><li>If you don't want to assign an admin role to a user, you can [assign the Reports reader role](teams-activity-reports.md#reports-reader-role).</li><li>See [Roles and permissions](/azure/active-directory/users-groups-roles/directory-assign-admin-roles) and [View and assign roles](/azure/active-directory/users-groups-roles/directory-manage-roles-portal) for information about assigning admin roles in Azure Active Directory.</li></ul> |
 
 --->
+
+## <a name="related-articles"></a>Статьи по теме
+
+* [Дополнительные сведения о шаблонах приложений для Teams](/microsoftteams/platform/samples/app-templates).

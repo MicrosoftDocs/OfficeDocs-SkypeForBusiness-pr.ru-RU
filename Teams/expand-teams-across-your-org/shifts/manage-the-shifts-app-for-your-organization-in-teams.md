@@ -20,15 +20,16 @@ ms.collection:
 - M365-collaboration
 - microsoftcloud-healthcare
 - microsoftcloud-retail
+- m365-frontline
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ec51237ff9a3b0dff1894581364756afbfd6f5cf
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 759e0cb846b6bca404276e50ca00a1ff28d5725c
+ms.sourcegitcommit: 17f4baf85e1ac6a2af5f5c6ea2d5aae763efd917
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269014"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "67405141"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Управление приложением "Смены" для вашей организации в Microsoft Teams
 
@@ -89,6 +90,17 @@ ms.locfileid: "67269014"
 Пакет [политики в](../../manage-policy-packages.md) Teams — это набор стандартных политик и параметров политики, которые можно назначить пользователям с аналогичными ролями в вашей организации. Набор политик в пакетах политик frontline Worker и Frontline Manager включает политику установки приложения, которая закрепляет приложение Shifts и другие приложения, поддерживающие взаимодействие и совместную работу для этой роли.
 
 Мы рекомендуем использовать пакеты политик frontline Worker и Frontline Manager, так как они упрощают, упрощают и помогают обеспечить согласованность при управлении политиками для сотрудников без компьютеров.
+
+### <a name="enable-shift-based-tags-in-teams"></a>Включение тегов на основе смен в Teams
+
+[Теги](https://support.microsoft.com/office/using-tags-in-teams-667bd56f-32b8-4118-9a0b-56807c96d91e) в Teams позволяют пользователям легко подключаться к подмножество людей в команде. С помощью тегов на основе смен пользователям автоматически назначаются теги, соответствующие их расписанию и имени группы смен в shifts. Тег можно использовать в @mentions в строке **"** К" в чате или в записи на любом стандартном канале команды.
+
+Теги на основе смен позволяют пользователям обращаться к людям, которые находятся на смене в режиме реального времени. Уведомления отправляются только тем людям, которые находятся в режиме смены во время использования тега в чате или записи канала. Например:
+
+- Менеджер магазина использует тег @Cashiers для публикации объявления в канал для всех средств, которые используют смену.
+- Она использует тег @CardiologistsOnCall, чтобы начать чат со всеми абонентами по вызову.
+
+Вы можете включить или отключить эту функцию в Центре администрирования Microsoft Teams. Дополнительные сведения см. в статье [Управление тегами в Teams](../../manage-tags.md).
 
 ## <a name="search-the-audit-log-for-shifts-events"></a>Поиск событий Смен в журнале аудита
 

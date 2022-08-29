@@ -12,12 +12,12 @@ ms.collection:
 description: Сведения о версиях, поддерживаемых модулем Teams PowerShell, используемым для администрирования Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 175d9785cd32d18db7eebd363d08840538baa0df
-ms.sourcegitcommit: c4ec82b7d8a820362b6b0276470b0dea95a628df
+ms.openlocfilehash: 5ae244a16e934b70085b2193bee3ef21a277f7ed
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "66819554"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67397290"
 ---
 # <a name="teams-powershell-module---supported-versions"></a>Модуль Teams PowerShell — поддерживаемые версии
 
@@ -48,6 +48,8 @@ ms.locfileid: "66819554"
   - Изменения параметров в Get-CsTenant — дополнительные сведения в [Get-CsTenant](/powershell/module/skype/get-cstenant) (сообщение центра сообщений — MC365397).
   
   - Если в скриптах используются командлеты New/Set of Policy или Configuration с параметрами типа PSListModifier, рекомендуется использовать последнюю версию (4.2.0 или более позднюю). Запись центра сообщений для справки — MC397428.
+
+  - [Новое| Командлеты Get]-CsCloudCallDataConnection теперь поддерживаются в версиях 4.6.0 или более поздней (публикация центра сообщений — MC408993).
 
 - При использовании TPM 4.x.x или более поздней версии не рекомендуется использовать ни один из нерекомендуемых или неподдерживаемых командлетов, упомянутых [ниже](#deprecated-cmdlets).
 

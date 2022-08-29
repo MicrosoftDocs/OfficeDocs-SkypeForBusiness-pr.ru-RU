@@ -14,14 +14,17 @@ search.appverid: ''
 ms.collection:
 - M365-collaboration
 ms.custom: ''
-ms.openlocfilehash: b74ce30621f415417859fc5f6d95a23a2e5db89d
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 0e9c9920826a664aaa948a6b6c9d5470a4dd3298
+ms.sourcegitcommit: 850038f2248c1ea412f7b5daca26c0598baffa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269634"
+ms.lasthandoff: 08/26/2022
+ms.locfileid: "67443456"
 ---
 # <a name="planning-for-a-successful-transition-from-kaizala-to-microsoft-teams"></a>Планирование успешного перехода с Kaizala на Microsoft Teams
+
+> [!Important]
+> Microsoft Kaizala прекратит использование 31 августа 2023 г. Мы рекомендуем выполнить обновление до Microsoft Teams, чтобы продолжить подключение, общий доступ и совместную работу. После даты прекращения поддержки Kaizala доступ и поддержка будут прекращены.
 
 По мере перехода с Kaizala на Microsoft Teams важно запланировать успешный переход.[](/microsoftteams/deploy-enterprise-setup?tabs=ChatTeamsChannels#plan-your-deployment) Надежный план перехода дает структуру для вашего перемещения и гарантирует, что все заинтересованные лица будут работать над общей целью. Использование проверенной платформы для реализации изменений поможет вам приступить к переходу уже сегодня.
 

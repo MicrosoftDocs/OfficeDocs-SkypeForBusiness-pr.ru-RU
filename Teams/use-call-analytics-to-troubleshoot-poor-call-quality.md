@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.users.activity.audioqualitycolumn
 - Reporting
 description: Используйте сведения аналитики звонков для отдельных пользователей об устройствах, сетях и подключении для устранения неполадок пользователей с звонками и собраниями Microsoft Teams.
-ms.openlocfilehash: 38636d911be55648ec17628bcec7d4cee21358c5
-ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
+ms.openlocfilehash: c83ecbad418dc471f1db2c9c71b88fa621fe4a11
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66794317"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67397100"
 ---
 # <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>Использование аналитики звонков для устранения проблем с качеством звонка
 
@@ -54,6 +54,10 @@ ms.locfileid: "66794317"
 Чтобы получить дополнительные сведения о заданных сеансах, включая подробную статистику мультимедиа и сети, щелкните сеанс, чтобы просмотреть подробные сведения.
 
 ![Снимок экрана: данные сеанса пользователя аналитики звонков.](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image2.png)
+
+В этом видео показано, как просмотреть собрания пользователя и сведения о звонках.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE53x2e?autoplay=false]
 
 ## <a name="what-does-each-teams-support-role-do"></a>Что делает каждая роль поддержки Teams?
 

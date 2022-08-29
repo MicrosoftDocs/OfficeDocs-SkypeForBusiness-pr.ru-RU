@@ -16,12 +16,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Узнайте, как управлять доступом к пользовательским приложениям, созданным с помощью Microsoft Power Platform, в Центре администрирования Teams.
-ms.openlocfilehash: fd1d6d3d190d22995ab72966510871868b7ba401
-ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
-ms.translationtype: HT
+ms.openlocfilehash: 78ca37b95b98ad1668264f13539626cbb2b9b56b
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67298858"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67397020"
 ---
 # <a name="manage-microsoft-power-platform-apps-in-the-teams-admin-center"></a>Управление приложениями Microsoft Power Platform в Центре администрирования Teams
 
@@ -65,15 +65,15 @@ ms.locfileid: "67298858"
 
 По умолчанию **Общие приложения Power** и **Общие приложения Power Virtual Agent** разрешены для всех пользователей Teams в вашей организации. Вы можете блокировать или разрешать их на уровне организации на странице [Управление приложениями](manage-apps.md) в Центре администрирования Microsoft Teams.  
 
-1. В левой панели навигации Центра администрирования Microsoft Teams выберите **Приложения Teams** > **Управление приложениями**. Вы должны быть глобальным администратором или администратором службы Teams для доступа к этой странице.
-2. В списке приложений выполните одно из следующих действий:
+1. Войдите в Центр администрирования Teams и получите доступ к приложениям **Teams** > **["](https://admin.teams.microsoft.com/policies/manage-apps)** Управление приложениями". Для доступа к странице необходимо быть глобальным администратором или администратором служб Teams.
+1. В списке приложений выполните одно из следующих действий:
 
     :::image type="content" source="media/manage-power-platform-apps-manage-apps.png" alt-text="Снимок экрана страницы &quot;Управление приложениями&quot; с общими приложениями Microsoft Power Platform.":::
 
     * Чтобы заблокировать приложения, созданные в Power Apps или Power Virtual Agents для всех пользователей в организации, выполните поиск по запросу **Общие приложения Power Apps** или **Общие приложения Power Virtual Agent**, выберите приложение, а затем выберите пункт **Блокировать**.
     * Чтобы разрешить приложения, созданные в Power Apps или Power Virtual Agents для всех пользователей в организации, выполните поиск по запросу **Общие приложения Power Apps** или **Общие приложения Power Virtual Agent**, выберите приложение, а затем выберите пункт **Разрешить**.
 
-### <a name="allow-or-block-microsoft-power-platform-apps-for-specific-users"></a>Разрешение или блокировка приложений Microsoft Power Platform для определенных пользователей
+### <a name="allow-microsoft-power-platform-apps-for-specific-users"></a>Разрешить приложения Microsoft Power Platform для определенных пользователей
 
 Чтобы разрешить или запретить определенным пользователям в организации доступ к приложениям, созданным в Power Apps или Power Virtual Agents, создайте и назначьте одну или несколько настраиваемых [политик разрешений для приложений](teams-app-permission-policies.md).
 

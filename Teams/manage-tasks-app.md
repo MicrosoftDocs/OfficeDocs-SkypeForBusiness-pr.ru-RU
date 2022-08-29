@@ -18,12 +18,13 @@ appliesto:
 - Microsoft Teams
 ms.collection:
 - M365-collaboration
-ms.openlocfilehash: 5eeea688d2fcaa67b2125ff67e15d80b981a03df
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+- m365-frontline
+ms.openlocfilehash: 23c75051268de176cc14a9b8df426e8d67f5a2d3
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67267854"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396500"
 ---
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>Управление приложением "Задачи" для вашей организации в Microsoft Teams
 
@@ -59,7 +60,7 @@ ms.locfileid: "67267854"
 
 По умолчанию приложение "Задачи" включено для всех пользователей Teams в организации. Вы можете отключить или включить приложение на уровне организации на странице [Управление приложениями](manage-apps.md) в Центре администрирования Microsoft Teams.
 
-1. В левой области Центра администрирования Microsoft Teams перейдите в раздел " **Приложения Teams" "** > **Управление приложениями"**.
+1. В левой панели навигации Центра администрирования Microsoft Teams выберите **Приложения Teams** > **Управление приложениями**.
 2. В списке приложений выполните одно из следующих действий.
 
     - Чтобы отключить задачу для организации, найдите приложение "Задачи", выберите его и нажмите кнопку **"Блокировать"**.

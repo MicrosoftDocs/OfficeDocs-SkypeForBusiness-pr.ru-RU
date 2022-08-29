@@ -24,12 +24,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 74f4580eee7ee7ee935b405cfe51c4a3e49ef98c
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
-ms.translationtype: HT
+ms.openlocfilehash: 28a816dee54d8f5ac2aead0deeb6aedf3f8076f7
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66616285"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396930"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Обзор команд и каналов в Microsoft Teams
 
@@ -85,6 +85,10 @@ ms.locfileid: "66616285"
 > Когда вы создаете новую команду или частный либо общий канал в Teams, автоматически создается сайт команды в SharePoint. Чтобы изменить описание сайта или классификацию для этого сайта команды, перейдите в раздел [параметров в Microsoft Teams](https://support.microsoft.com/office/bf39798f-90d2-44fb-a750-55fa05a56f1d) для соответствующего канала.
 >
 > Узнайте больше об управлении [сайтами команд, подключенных к Microsoft Teams](/SharePoint/teams-connected-sites).
+
+В этом видео показаны действия по просмотру членства пользователя в команде и управлению ими.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE53x1L?autoplay=false]
 
 ## <a name="channel-feature-comparison"></a>Сравнение возможностей каналов
 

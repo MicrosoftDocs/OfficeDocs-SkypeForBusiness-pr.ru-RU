@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Узнайте, как получить новые, перенести или перенести существующие номера для Teams, а также как отобразить изменения для пользователей.
-ms.openlocfilehash: b0ed990cd16a7e4878c2819a95fac29f46a9d770
-ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
+ms.openlocfilehash: 4f3c06986943be42d6a39c22101645e1ff1b0058
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67156547"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396340"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>Получение телефонных номеров для пользователей
 
@@ -89,6 +89,10 @@ ms.locfileid: "67156547"
 
 > [!NOTE]
 > Если вам нужно получить больше номеров телефонов, обратитесь в службу поддержки по вопросам продуктов для бизнеса [Администратор справку](/microsoft-365/admin/contact-support-for-business-products).
+
+В этом видео показано, как назначить пользователю номер телефона.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE54mbS?autoplay=false]
 
 ## <a name="related-articles"></a>Статьи по теме
 

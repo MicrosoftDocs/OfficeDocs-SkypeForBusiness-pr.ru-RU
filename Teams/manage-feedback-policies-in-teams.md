@@ -17,12 +17,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Узнайте, как использовать политики обратной связи для контроля того, могут ли пользователи Teams в вашей организации отправлять отзывы о Teams в корпорацию Майкрософт.
-ms.openlocfilehash: f9d001fba9503f6d5f2e482a437bc8f38c8ffc7d
-ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
+ms.openlocfilehash: 933c6971058c107ab881cb48bb0f2a9dbd74900d
+ms.sourcegitcommit: 44fd07d8e6e5fcbe5051de2300e180f295eaaad3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67156527"
+ms.lasthandoff: 08/15/2022
+ms.locfileid: "67339803"
 ---
 # <a name="manage-feedback-policies-in-microsoft-teams"></a>Управление политиками обратной связи в Microsoft Teams
 
@@ -68,6 +68,7 @@ ms.locfileid: "67156527"
 
  - **Опросы**. Установите параметр **receiveSurveysMode**, чтобы  разрешить пользователям, которым назначена политика, получать опрос. Чтобы пользователи получили опрос и могли отказаться от участия, задайте для параметра **значение enabledUserOverride**. В Teams пользователи могут перейти к разделу **"Конфиденциальность** >  параметров" и выбрать, будут ли они участвовать в опросах. Отключение **параметра** отключает функцию, и пользователи, которым назначена политика, не получат опрос.
 
+ - **Снимки экрана**: использование **флага AllowScreenshotCollection** для добавления сбора снимков экрана для пользователей.
  - **Email**: используйте флаг **AllowEmailCollection**, чтобы добавить поле электронной почты.
  - **Сбор журналов**: используйте флаг **AllowLogCollection** , чтобы добавить согласие на сбор журналов для пользователей. Сбор журналов в настоящее время включен только на мобильных устройствах. Дополнительные сведения о том, какие данные совместно используются через журналы, [см. в дополнительных сведениях](https://go.microsoft.com/fwlink/?linkid=2168178).
 
@@ -89,7 +90,7 @@ New-CsTeamsFeedbackPolicy -identity "New Hire Feedback Policy" -userInitiatedMod
 Grant-CsTeamsFeedbackPolicy -Identity user1@contoso.com -PolicyName "New Hire Feedback Policy"
 ```
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
 - [Обзор PowerShell в Teams](teams-powershell-overview.md)
 - [Назначение политик пользователям в Teams](policy-assignment-overview.md)

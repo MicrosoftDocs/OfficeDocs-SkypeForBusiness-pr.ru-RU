@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-edu
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 02a425d325721dc732e0bd06aa3aee8fd3973dda
-ms.sourcegitcommit: f5546acf02ec644225f6d0fb41f38b1912da6adf
-ms.translationtype: HT
+ms.openlocfilehash: 1f95f9c1a3ad6a65dbefa4d48c0c5277e01b65f2
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/21/2022
-ms.locfileid: "66952783"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67397276"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Руководство для ИТ-администраторов по Insights в Microsoft Teams для образования
 
@@ -256,13 +256,15 @@ Insights выводит обучение и цифровые занятия уч
 1. Перейдите в раздел **Параметры** > **Управление Insights для образования**.
 1. Включите или отключите переключатель **Собирать данные о действиях для Insights**.
 
-![Снимок экрана: переключатели в Центре администрирования SDS для включения и отключения Insights](media/manage-insights-toggles.png)
+![Снимок экрана: переключатели Центра администрирования SDS для включения и отключения аналитики.](media/manage-insights-toggles.png)
 
 #### <a name="turn-on-and-off-insights-from-the-teams-client"></a>Включение и отключение Insights в клиенте Teams
 
 1. Если личное приложение *Insights для образования* не закреплено, следуйте [этим инструкциям](class-insights.md#education-leaders), чтобы добавить его.
 1. Используя учетную запись администратора Microsoft 365, откройте страницу **Параметры администратора**, щелкнув значок в виде многоточия в правом верхнем углу окна *Insights для образования*.
 1. Включите или отключите переключатель **Собирать данные о действиях для Insights**.
+
+![Снимок экрана: переключатели клиента Teams для включения и выключения Аналитики.](media/admin-settings-main-screen.png)
 
 > [!NOTE]
 > Если вы отключили Аналитику, собранные данные будут удалены. Удаленные данные при отказе невозможно восстановить позже, даже если служба Insights будет повторно включена.

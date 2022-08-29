@@ -16,16 +16,18 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Список планов лицензирования для преподавателей и учащихся и идентификаторов номеров SKU для образовательных учреждений.
 f1keywords: ''
-ms.openlocfilehash: c6fe915950189dfe3ee46acc6187636fbe34da5a
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.openlocfilehash: f0b1f51b18ba7c43b4cb5eed9b7626100e9a950f
+ms.sourcegitcommit: c19ac3be42cc4b8409c8d512bbe3156736af0309
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66790174"
+ms.lasthandoff: 08/24/2022
+ms.locfileid: "67426866"
 ---
 # <a name="education-sku-reference"></a>Справочник по SKU для образовательных учреждений
 
-В этой статье перечислены планы лицензирования для преподавателей и учащихся и идентификаторы SKU для образовательных учреждений, которые можно использовать в качестве справки при использовании PowerShell для идентификации пользователей в организации по типу лицензии.
+В этой статье перечислены планы лицензирования для преподавателей и учащихся ( SKU) и идентификаторы SKU.
+
+Используйте эту ссылку при использовании PowerShell для идентификации пользователей в организации по типу лицензии.
 
 ## <a name="faculty-licenses"></a>Лицензии преподавателей
 

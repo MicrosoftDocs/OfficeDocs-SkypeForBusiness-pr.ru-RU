@@ -20,12 +20,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Узнайте, как настроить пользовательские параметры для переадресации и делегирования вызовов.
-ms.openlocfilehash: 64907043448f44ff861ede026d0a4343899ad98b
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: c9d085027ed1b365e8aa47b5908c946c4234e5ca
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67272234"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67397360"
 ---
 # <a name="configure-call-settings-for-your-users"></a>Настройка параметров зова для пользователей
 
@@ -56,6 +56,10 @@ ms.locfileid: "67272234"
 Чтобы настроить неотвеченные параметры, на той же странице выберите соответствующий параметр в раскрывающемся списке **"Если без** ответа". В **круге за это много секунд перед** перенаправлением раскрывающегося списка укажите время ожидания в секундах.
 
 Конфигурация делегирования вызовов и группового ответа на вызовы интегрируются в параметры переадресации вызовов и неотвеченные параметры, выбрав соответствующий тип. Например, чтобы настроить, что вызовы также должны звонить делегатам пользователя, на той же странице выберите "Делегирование вызовов **" в** разделе **"Также разрешить"**. Затем добавьте соответствующих делегатов, нажав кнопку **"** Добавить людей" и нажав кнопку **"Сохранить"**.
+
+В этом видео показано, как просмотреть и изменить параметры голосовой связи для пользователя.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE546F7?autoplay=false]
 
 ## <a name="use-powershell"></a>Использование PowerShell
 
@@ -149,7 +153,7 @@ Set-CsUserCallingDelegate -Identity user1@contoso.com -Delegate user2@contoso.co
 Remove-CsUserCallingDelegate -Identity user1@contoso.com -Delegate user2@contoso.com
 ```
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
 - [Get-CsUserCallingSettings](/powershell/module/teams/get-csusercallingsettings)
 - [Set-CsUserCallingSettings](/powershell/module/teams/set-csusercallingsettings)

@@ -16,12 +16,12 @@ description: Сведения о возможностях оповещений �
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: c4acbbb085bbf47339b0b0b2bcb7000466953b70
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+ms.openlocfilehash: 452bcbebeffa3936b9d05270626e11923caf5cda
+ms.sourcegitcommit: 72b6f7ab2a44dec395622bfe64119a48094960bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66616295"
+ms.lasthandoff: 08/08/2022
+ms.locfileid: "67283090"
 ---
 # <a name="microsoft-teams-monitoring-and-alerting"></a>Мониторинг и оповещения Microsoft Teams
 
@@ -32,6 +32,9 @@ ms.locfileid: "66616295"
 - Автоматическое управление возможностями Teams
 - Будьте оповещены, если они отображают что-то непредвиденное.
 - Выполните действия по исправлению, чтобы вернуть все в нужное состояние.
+
+> [!NOTE]
+> Функциональные возможности оповещений в Центре администрирования Teams недоступны в средах GCC/GCC-High.
 
 ## <a name="how-to-manage-monitoring-and-alerting"></a>Управление мониторингом и оповещениями
 
