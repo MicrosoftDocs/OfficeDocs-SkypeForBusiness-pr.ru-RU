@@ -14,14 +14,17 @@ search.appverid: ''
 ms.collection:
 - M365-collaboration
 ms.custom: ''
-ms.openlocfilehash: 7256d91a8a306f88e7f40b728158747971497262
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 73376cbc26708cc5ec810e13b710e057ba603a44
+ms.sourcegitcommit: 850038f2248c1ea412f7b5daca26c0598baffa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271424"
+ms.lasthandoff: 08/26/2022
+ms.locfileid: "67443476"
 ---
 # <a name="charting-your-kaizala-to-teams-journey"></a>Создание диаграммы между Kaizala и Teams
+
+> [!Important]
+> Microsoft Kaizala прекратит использование 31 августа 2023 г. Мы рекомендуем выполнить обновление до Microsoft Teams, чтобы продолжить подключение, общий доступ и совместную работу. После даты прекращения поддержки Kaizala доступ и поддержка будут прекращены.
 
 Вы решили перейти с Kaizala на Microsoft Teams.
 

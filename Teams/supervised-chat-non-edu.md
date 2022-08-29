@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Сведения о защищенных чатах для клиентов, не учиваемых по образовательным материалам, на собраниях Microsoft Teams.
 ms.collection:
 - M365-collaboration
-ms.openlocfilehash: 8b587dbc7537c612d2b48f5b202cd94e55e4d8f6
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 6f499845f77ededf47fa907961624081197b65b1
+ms.sourcegitcommit: 2d873e774c1a1182326e22e5de6ee5df4d50f41e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270464"
+ms.lasthandoff: 08/27/2022
+ms.locfileid: "67446772"
 ---
 # <a name="supervised-chats-for-non-educational-tenants"></a>Защищенные чаты для клиентов, не для образовательных учреждений
 
@@ -56,7 +56,7 @@ ms.locfileid: "67270464"
 
 ## <a name="allow-supervised-chat"></a>Разрешить защищенный чат
 
-Защищенный чат отключен по умолчанию для вашего клиента.  \> После настройки ролей разрешений чата для пользователей вы можете включить защищенный чат в клиенте, перейдя в параметры **Teams** на уровне организации и задав для политики  разрешений чата на основе ролей значение **"В сети"**. Чтобы включить защищенный чат, можно также использовать PowerShell, заключив для AllowRoleBasedChatPermissions значение True. Этот командлет находится в разделе [CsTeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration).
+Защищенный чат отключен по умолчанию для вашего клиента. После настройки ролей разрешений чата для пользователей вы можете включить защищенный чат в клиенте, перейдя в параметры **Teams** \> **Teams** и установив для политики  разрешений чата на основе ролей значение **"В сети"**. Чтобы включить защищенный чат, можно также использовать PowerShell, заключив для AllowRoleBasedChatPermissions значение True. Этот командлет находится в разделе [CsTeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration).
 
 Защищенный чат должен быть включен для всех пользователей в клиенте и не может быть включен только для части пользователей.
 

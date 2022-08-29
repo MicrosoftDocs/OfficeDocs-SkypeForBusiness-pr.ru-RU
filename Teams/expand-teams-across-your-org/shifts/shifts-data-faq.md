@@ -18,15 +18,16 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 - microsoftcloud-healthcare
+- m365-frontline
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f05ba56086a9c9dd3cbad046c1cfad34733ee2ee
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: f7132f79936616ba66565cd133e5ab8616541254
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268194"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396860"
 ---
 # <a name="shifts-data-faq"></a>Часто задаваемые вопросы о сменах данных
 
@@ -96,7 +97,7 @@ ms.locfileid: "67268194"
 
 API Graph shifts позволяют интегрировать данные Shifts с системами управления внешними сотрудниками (WFM). Дополнительные сведения см. в статье [об API Graph shifts](/graph/api/resources/shift).
 
-Мы также предлагаем управляемые соединители shifts и соединители shifts с открытым кодом. С помощью этих соединителей вы можете интегрировать WFM непосредственно со сменами. Дополнительные сведения о соединителях Shifts и поддерживаемых WFM системах см. в разделе ["Соединители shifts"](shifts-connectors.md).
+Мы также предлагаем управляемые соединители shifts. С помощью этих соединителей вы можете интегрировать WFM непосредственно со сменами. Дополнительные сведения о соединителях Shifts и поддерживаемых WFM системах см. в разделе ["Соединители shifts"](/microsoft-365/frontline/shifts-connectors).
 
 ## <a name="can-shifts-data-be-deleted-permanently-after-a-specified-period-of-time"></a>Можно ли удалить данные shifts без возможности восстановления по истечении указанного периода времени?
 
