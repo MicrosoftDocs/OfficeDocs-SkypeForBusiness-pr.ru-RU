@@ -11,6 +11,7 @@ ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
+- m365-frontline
 description: Сведения о шаблонах команд и управлении ими в Центре администрирования Microsoft Teams.
 f1.keywords:
 - CSH
@@ -18,12 +19,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0bff3c2c63b94df4c1e19a748d3e9e9912574faa
-ms.sourcegitcommit: c4ec82b7d8a820362b6b0276470b0dea95a628df
+ms.openlocfilehash: e4fb9c538335a50271bd0ae15249ec8aec7af95b
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "66819360"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396730"
 ---
 # <a name="get-started-with-team-templates-in-the-teams-admin-center"></a>Начало работы с шаблонами команд в Центре администрирования Teams
 
@@ -43,7 +44,7 @@ ms.locfileid: "66819360"
 В этой статье приводятся общие сведения о работе с шаблонами команд в Центре администрирования Teams. Вы узнаете о свойствах, которые поддерживаются в шаблонах, предварительно созданных шаблонах, которые мы предоставляем, ограничениях размера шаблонов, о создании шаблонов и управлении ими и т. д.
 
 > [!NOTE]
-> Пользователи могут [создавать команды на основе предварительно созданных или настраиваемых](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c) шаблонов команд в приложении Teams. Разработчики также могут программно создавать команды на основе предварительно созданных шаблонов команд с помощью Microsoft Graph. Дополнительные сведения см. в [статье "Начало работы с шаблонами групп с помощью Microsoft Graph"](get-started-with-teams-templates.md).
+> Пользователи могут [создавать команды на основе предварительно созданных или настраиваемых](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c) шаблонов команд в приложении Teams. Разработчики также могут программно создавать команды на основе предварительно созданных или настраиваемых шаблонов команд с помощью Microsoft Graph. Дополнительные сведения см. в [статье "Начало работы с шаблонами групп с помощью Microsoft Graph"](get-started-with-teams-templates.md).
 
 ## <a name="team-template-capabilities"></a>Возможности шаблона команды
 
