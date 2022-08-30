@@ -3,6 +3,36 @@
 
 
 
+## <a name="week-of-august-22-2022"></a>Неделя с 22 августа 2022 г.
+
+
+| Дата публикации |Название статьи | Изменение |
+|------|------------|--------|
+| 8/22/2022 | [Управление приложением "Смены" в организации](/MicrosoftTeams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams) | Изменено |
+| 8/22/2022 | [Управление тегами в Microsoft Teams](/MicrosoftTeams/manage-tags) | Изменено |
+| 8/22/2022 | [Создание учетных записей ресурсов для комнат и общих устройств Teams](/MicrosoftTeams/rooms/with-office-365) | Изменено |
+| 8/23/2022 | [Использование гостевого и внешнего доступа для совместной работы с людьми из-за пределов организации](/MicrosoftTeams/communicate-with-users-from-other-organizations) | Изменено |
+| 8/23/2022 | [Управление политиками собраний для общего доступа к содержимому](/MicrosoftTeams/meeting-policies-content-sharing) | Изменено |
+| 8/23/2022 | [Teams: управление политиками собраний](/MicrosoftTeams/meeting-policies-in-teams) | Изменено |
+| 8/24/2022 | [Краткое руководство. Настройка Microsoft Teams для образования](/MicrosoftTeams/teams-quick-start-guide-edu) | Добавлено |
+| 8/24/2022 | Краткое руководство для администраторов — Teams для образовательных учреждений | Удалено |
+| 8/24/2022 | [Устранение неполадок в сценариях с низкой пропускной способностью для Teams](/MicrosoftTeams/edu-remote-low-bandwidth) | Изменено |
+| 8/24/2022 | [Teams для сферы образования](/MicrosoftTeams/expand-teams-across-your-org/teams-for-education-landing-page) | Изменено |
+| 8/24/2022 | [Вопросы и ответы по Microsoft Education для ИТ-администраторов](/MicrosoftTeams/plan-teams-governance-edu) | Изменено |
+| 8/24/2022 | [Управление политиками и пакетами политик Microsoft Teams для образовательных учреждений](/MicrosoftTeams/policy-packages-edu) | Изменено |
+| 8/24/2022 | [Начните с Microsoft Teams для дистанционного обучения](/MicrosoftTeams/remote-learning-edu) | Изменено |
+| 8/24/2022 | [Совместное использование ресурсов по внедрению Teams](/MicrosoftTeams/resources-teams-edu) | Изменено |
+| 8/24/2022 | [Назначение лицензий Microsoft Teams для образовательных учреждений](/MicrosoftTeams/teams-edu-licensing) | Изменено |
+| 8/24/2022 | [Управление использованием номера телефона](/MicrosoftTeams/manage-the-usage-of-a-phone-number) | Добавлено |
+| 8/25/2022 | [Администратор учебных ресурсов — Microsoft Teams](/MicrosoftTeams/itadmin-readiness) | Изменено |
+| 8/26/2022 | [Отчет об & очереди вызовов автосекретаря](/MicrosoftTeams/aa-cq-cqd-historical-reports) | Изменено |
+| 8/26/2022 | [Настройка автосекретаря для Microsoft Teams](/MicrosoftTeams/create-a-phone-system-auto-attendant-smb) | Изменено |
+| 8/26/2022 | [Настройка автосекретаря для Microsoft Teams](/MicrosoftTeams/create-a-phone-system-auto-attendant) | Изменено |
+| 8/26/2022 | [Создание очереди звонков в Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue-smb) | Изменено |
+| 8/26/2022 | [Создание очереди звонков в Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | Изменено |
+| 8/26/2022 | [Планирование автосекретарей и очередей звонков Teams](/MicrosoftTeams/plan-auto-attendant-call-queue) | Изменено |
+
+
 ## <a name="week-of-august-15-2022"></a>Неделя с 15 августа 2022 г.
 
 
@@ -194,25 +224,3 @@
 | 7/26/2022 | [Управление клиентами с несколькими клиентами для партнеров](/MicrosoftTeams/rooms/multi-tenant-management-partner) | Изменено |
 | 7/26/2022 | [Назначение пользователям лицензий на надстройки Teams](/MicrosoftTeams/teams-add-on-licensing/assign-teams-add-on-licenses) | Изменено |
 | 7/29/2022 | [Управление номерами телефонов для организации](/MicrosoftTeams/manage-phone-numbers-landing-page) | Изменено |
-
-
-## <a name="week-of-july-18-2022"></a>Неделя с 18 июля 2022 г.
-
-
-| Дата публикации |Название статьи | Изменение |
-|------|------------|--------|
-| 7/18/2022 | [Сведения о приложениях в Microsoft Teams](/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page) | Изменено |
-| 7/18/2022 | [Управление политиками настройки приложений в Microsoft Teams](/MicrosoftTeams/teams-app-setup-policies) | Изменено |
-| 7/18/2022 | Подготовка Microsoft Teams в масштабе для сотрудников без компьютеров | Удалено |
-| 7/19/2022 | [Управление Microsoft 365 и настраиваемыми соединителями](/MicrosoftTeams/office-365-custom-connectors) | Изменено |
-| 7/19/2022 | [Сведения о приложениях в Microsoft Teams](/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page) | Изменено |
-| 7/19/2022 | [Управление приложениями Microsoft Power Platform в Центре администрирования Microsoft Teams](/MicrosoftTeams/manage-power-platform-apps) | Изменено |
-| 7/19/2022 | [Управление Q&A в собраниях Teams](/MicrosoftTeams/manage-qna-for-teams) | Изменено |
-| 7/19/2022 | [Обзор сертификации приложений от корпорации Майкрософт](/MicrosoftTeams/overview-of-app-certification) | Изменено |
-| 7/19/2022 | [Приобретение сторонних приложений для Teams](/MicrosoftTeams/purchase-third-party-apps) | Изменено |
-| 7/20/2022 | [Настройка operator Connect](/MicrosoftTeams/operator-connect-configure) | Изменено |
-| 7/21/2022 | [Руководство для ИТ-администраторов по Insights в Microsoft Teams для образования](/MicrosoftTeams/class-insights) | Изменено |
-| 7/21/2022 | [Интерфейс обновления приложений в Microsoft Teams](/MicrosoftTeams/apps-update-experience) | Изменено |
-| 7/21/2022 | [Управление приложениями в Центре администрирования Microsoft Teams](/MicrosoftTeams/manage-apps) | Изменено |
-| 7/21/2022 | [Отправка и утверждение пользовательских приложений с помощью API отправки приложений Teams](/MicrosoftTeams/submit-approve-custom-apps) | Изменено |
-| 7/21/2022 | [Отправка пользовательских приложений в Центре администрирования Microsoft Teams](/MicrosoftTeams/upload-custom-apps) | Изменено |
