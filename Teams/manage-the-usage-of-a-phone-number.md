@@ -20,16 +20,18 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Узнайте, как изменить использование номера телефона для использования в качестве номера службы или номера пользователя.
-ms.openlocfilehash: f2db1b3bd0b0e437d02bf1fbfe9a92690877b2eb
-ms.sourcegitcommit: dcf4664ea8ceb6ed40d0a406e7f4467e14d6817b
+ms.openlocfilehash: e07255420cf9b480aa28e25a635b799eed94bd0f
+ms.sourcegitcommit: d0cbc23e10219dd2889011421010215a5d246031
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/24/2022
-ms.locfileid: "67432127"
+ms.lasthandoff: 08/30/2022
+ms.locfileid: "67460702"
 ---
 # <a name="manage-the-usage-of-a-phone-number"></a>Управление использованием номера телефона
 
 Может потребоваться изменить использование номера телефона после его приобретения или переноса в вашу организацию. Использование номеров телефонов можно изменить с помощью Центра администрирования Teams, будь то служба или номер пользователя.
+
+## <a name="how-to-manage-the-usage-of-a-phone-number"></a>Управление использованием номера телефона
 
 Чтобы изменить использование номера телефона с помощью Центра администрирования Teams:
 
