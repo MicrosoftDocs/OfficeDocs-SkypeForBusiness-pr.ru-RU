@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9052812a669a808536cbd0179d6c16b9228296c4
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 29a048ccc02082ec019bb64dca9e89b7f265ff83
+ms.sourcegitcommit: 7a1fb6e15c21368afa34cd212865437781f721e2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270044"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67465977"
 ---
 # <a name="manage-voice-recognition-technology-controls-for-an-intelligent-speaker"></a>Управление элементами управления технологиями распознавания речи для интеллектуального динамика
 
@@ -71,12 +71,12 @@ ms.locfileid: "67270044"
 
    ![Настройка интеллектуального динамика с подключением динамика непосредственно к консоли.](../media/intelligent-speakers2.png)
 
-> [!Note]
+> [!NOTE]
 > Устройства EPOS и Yealink должны иметь префикс EPOS или Yealink и содержать "UAC2_RENDER" в имени говорящего и "UAC2_TEAMS" в имени микрофона. Если вы не найдете эти имена микрофона и динамика в раскрывающемся меню, перезапустите устройство intelligent Speaker.
 
 ## <a name="enable-an-intelligent-speaker-user-recognition"></a>Включение распознавания пользователей интеллектуального говорящего
 
-Данные профиля голосовой связи можно использовать в любом собрании с интеллектуальным докладчиком. Сведения [о параметрах](../meetings-policies-recording-and-transcription.md#allow-transcription) собрания см. в политиках собраний Teams и командлетах [собраний PowerShell](/powershell/module/skype/set-csteamsmeetingpolicy) .
+Данные профиля голосовой связи можно использовать в любом собрании с интеллектуальным докладчиком. Сведения [о параметрах](../meetings-policies-recording-and-transcription.md#transcription) собрания см. в политиках собраний Teams и командлетах [собраний PowerShell](/powershell/module/skype/set-csteamsmeetingpolicy) .
 
 Данные голосового профиля пользователя создаются, когда политика настроена для различения или во время собрания выполняется пошаговое руководство по приглашению, не являющееся приглашением на собрание. Данные голосового профиля будут закрыты в конце собрания.
 
@@ -161,6 +161,6 @@ ms.locfileid: "67270044"
 |Испанский  <br/> |Мексика  <br/> |es-MX  <br/> |
 |Испанский  <br/> |Испания  <br/> |es-ES  <br/> |
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
-[Статья о поддержке. Использование интеллектуальных докладчиков для идентификации участников в комнате ](https://support.microsoft.com/office/use-teams-intelligent-speakers-to-identify-in-room-participants-in-meeting-transcription-a075d6c0-30b3-44b9-b218-556a87fadc00)
+[Статья о поддержке. Использование интеллектуальных докладчиков для идентификации участников в комнате](https://support.microsoft.com/office/use-teams-intelligent-speakers-to-identify-in-room-participants-in-meeting-transcription-a075d6c0-30b3-44b9-b218-556a87fadc00)

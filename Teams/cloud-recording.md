@@ -19,12 +19,12 @@ description: Практическое руководство по разверт
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7a1f8aa97f43e70e2ec17e64cfa2a618b7a61af7
-ms.sourcegitcommit: a64574da14969a33a77c7d979ffde452b5b3a531
-ms.translationtype: HT
+ms.openlocfilehash: f1ec379a7f8d30738fc71b66d840752137ce72bf
+ms.sourcegitcommit: 7a1fb6e15c21368afa34cd212865437781f721e2
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67175713"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67466017"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Запись облачного собрания в Teams
 
@@ -39,7 +39,7 @@ ms.locfileid: "67175713"
 - добавление в различные списки файлов в Microsoft 365: "Мне предоставлен доступ", office.com, "Рекомендуемые", "Недавние";
 - индексация для поиска Microsoft 365.
 
-Связанные: [документация конечного пользователя записи собрания Teams](https://support.microsoft.com/en-us/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24)
+Связанные: [документация конечного пользователя записи собрания Teams](https://support.microsoft.com/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24)
 
 >[!Note]
 > Замена классической версии Microsoft Stream на OneDrive и SharePoint в качестве инструмента для записи собраний произойдет автоматически в августе 2021 года. Подробнее: Использование [OneDrive и SharePoint или Stream для записи собраний](tmr-meeting-recording-change.md).
@@ -79,7 +79,7 @@ ms.locfileid: "67175713"
 
 Вы можете использовать центр администрирования Microsoft Teams или PowerShell, чтобы установить политику собраний команд, чтобы контролировать возможность записи собраний пользователей.
 
-В Центре администрирования Microsoft Teams включите или выключите параметр **Запись в облаке** в политике собраний. Подробнее: [Параметры политики собраний для аудио- и видеофайлов](meetings-policies-recording-and-transcription.md#allow-cloud-recording).
+В Центре администрирования Microsoft Teams включите или выключите параметр **Запись в облаке** в политике собраний. Подробнее: [Параметры политики собраний для аудио- и видеофайлов](meetings-policies-recording-and-transcription.md#cloud-recording).
 
 Используя PowerShell, вы настраиваете параметр AllowCloudRecording в TeamsMeetingPolicy. Чтобы узнать больше, см. [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy)и [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy).
 
@@ -107,8 +107,8 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $true
 | Я хочу, чтобы запись была отключена на 100 %. | <ol><li>Убедитесь, что параметр AllowCloudRecording глобальной политики CsTeamsMeetingPolicy имеет значение False.<li>Всем пользователям была предоставлена глобальная политика CsTeamsMeetingPolicy ИЛИ одна из политик CsTeamsMeetingPolicy с AllowCloudRecording = False. |
 | Я хочу, чтобы запись была отключена для большинства пользователей, но выборочно разрешить запись определенным пользователям. | <ol><li>Убедитесь, что параметр AllowCloudRecording глобальной политики CsTeamsMeetingPolicy имеет значение False.<li>Большинству пользователей была предоставлена глобальная политика CsTeamsMeetingPolicy ИЛИ одна из политик CsTeamsMeetingPolicy с AllowCloudRecording = False.<li>Всем другим пользователям была предоставлена одна из политик CsTeamsMeetingPolicy с AllowCloudRecording = True. <ol> |
 
-
 <a name="bd-channel"></a>
+
 ### <a name="block-or-allow-download-of-channel-meeting-recordings"></a>Как запретить или разрешить скачивание записей собраний канала
 
 Этот параметр определяет, сохраняются ли собрания канала в папке "Recordings" или в папке "Recordings\View only" в канале. Этот параметр применяется к политике пользователя, который выбирает запись для собрания канала.
@@ -143,17 +143,17 @@ Set-CsTeamsMeetingPolicy -Identity Global -ChannelRecordingDownload Block
 >```
 
 ### <a name="turn-on-or-turn-off-recording-transcription"></a>Включить или отключить запись транскрипции
+
 Этот параметр определяет, доступны ли функции субтитров и транскрипции во время воспроизведения записей собрания. Этот параметр должен быть включен у пользователя, который начал запись, чтобы эти функции поддерживались в его записи.
   
 При включении этого параметра создается копия расшифровки, которая хранится с записью собрания, что включает функции **поиска**, **копии** и **расшифровки** для записи собрания.
-
 
 > [!NOTE]
 > Эта расшифровка записанных собраний сейчас поддерживается только для английского (США), английского (Канада), английского (Индия), английского (Соединенное Королевство), английского (Австралия), английского (Новая Зеландия), арабского (ОАЭ), арабского (Саудовская Аравия), китайского (упрощенное письмо, Китай), китайского (традиционное письмо, Гонконг (САР)) китайского (традиционное письмо, Тайвань), чешского (Чехия), датского (Дания), голландского (Бельгия), голландского (Нидерланды), французского (Канада), французского (Франция), финский (Финляндия), немецкого ( Германия), греческого (Греция), иврита (Израиль), хинди (Индия), венгерского (Венгрия), итальянского (Италия), японского (Япония), корейского (Корея), норвежского (Норвегия), польского (Польша), португальского (Бразилия), португальского (Португалия), румынского (Румыния), русского (Россия), словацкого (Словакия), испанского (Мексика), испанского (Испания), шведского (Швеция), тайского (Таиланд), турецкого (Турция), украинского (Украина), вьетнамского (Вьетнам). Они хранятся вместе с записями собраний в облачном хранилище OneDrive и SharePoint.
 
 Вы можете использовать центр администрирования Microsoft Teams или PowerShell, чтобы установить политику собраний Teams, чтобы контролировать, получает ли инициатор записи возможность транскрибировать запись собрания.
 
-В Центре администрирования Microsoft Teams включите или отключите параметр **Разрешить транскрипцию** в политике собрания. Подробнее: [Параметры политики собраний для аудио- и видеофайлов](meetings-policies-recording-and-transcription.md#allow-transcription).
+В Центре администрирования Microsoft Teams включите или отключите параметр **Разрешить транскрипцию** в политике собрания. Подробнее: [Параметры политики собраний для аудио- и видеофайлов](meetings-policies-recording-and-transcription.md#transcription).
 
 Используя PowerShell, вы настраиваете параметр AllowTranscription в TeamsMeetingPolicy. Чтобы узнать больше, см. [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy)и [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy).
 
@@ -171,9 +171,6 @@ Grant-CsTeamsMeetingPolicy -Identity {user} -PolicyName $null -Verbose
 Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 ```
 
-</br>
-</br>
-
 |Сценарий|Действия |
 |---|---|
 |Я хочу, чтобы все пользователи в моей компании могли транскрибировать записи собраний. |<ol><li>Убедитесь, что параметр AllowTranscription глобальной политики CsTeamsMeetingPolicy имеет значение True. <li>Все пользователи имеют глобальную политику csTeamsMeetingPolicy ИЛИ одну из политик CsTeamsMeetingPolicy со значением AllowTranscription = True. </ol>|
@@ -182,6 +179,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 |Я хочу, чтобы транскрибирование было отключено для большинства пользователей, но выборочно разрешить транскрибирование определенным пользователям. |<ol><li>Убедитесь, что параметр AllowCloudRecording глобальной политики CsTeamsMeetingPolicy имеет значение False. <li>Большинству пользователей была предоставлена глобальная политика CsTeamsMeetingPolicy ИЛИ одна из политик CsTeamsMeetingPolicy с AllowCloudRecording = False. <li>Всем другим пользователям была предоставлена одна из политик CsTeamsMeetingPolicy с AllowCloudRecording = True. </ol>|
 
 ### <a name="terms-of-use-acceptance"></a>Принятие условий использования
+
 Если в вашей организации действует политика записи собраний, которую пользователи должны принять перед записью какого-либо собрания, используйте функцию [условий использования Azure Active Directory](/azure/active-directory/conditional-access/terms-of-use). Эта функция позволяет пользователям принимать условия пользовательской политики вашей организации перед получением доступа к Microsoft Teams. Эта функция относится не только к нажатию кнопки записи, но и к использованию Teams и других приложений Microsoft 365 в целом. Мы рекомендуем добавить информацию о записи собраний в общие условия использования Teams или Microsoft 365.
 
 ### <a name="set-a-custom-privacy-policy-url"></a>Настройка пользовательского URL-адреса политики конфиденциальности
@@ -208,7 +206,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 
 - Запись хранится в папке **Записи** в OneDrive пользователя, запустившего запись. 
 
-  Пример: <i>OneDrive средства записи</i>/**Записи**
+  Пример *записи в OneDrive***для записи в записи**/ в записи
 
 - Всем приглашенным на собрание, за исключением внешних участников, автоматически будет предоставлено разрешение на доступ к файлу записи без возможности скачивания.
 
@@ -220,7 +218,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 
 - Запись хранится в библиотеке документации сайта Teams в папке **Recordings**.
 
-  Пример: <i>Название Teams - Название канала</i>/**Documents**/**Recordings**
+  Пример. *Имя Teams — название канала*/**"Записи документов**/**"**
 
 - Участник, запустивший запись, имеет права на редактирование записи.
 
@@ -230,7 +228,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 
 - Запись хранится в библиотеке документации сайта Teams в папке **Recordings/View only**. 
 
-  Пример: <i>Название Teams - Название канала</i>/**Documents/Recordings/View only**
+  Пример: *имя Teams — только имя канала*/**Documents/Recordings/View**
 
 - Владельцы канала будут иметь полные права на редактирование и скачивание записей в этой папке.
 
@@ -252,6 +250,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 |Собрание канала                            |Участник канала         |Расположение Teams в SharePoint для этого канала                   |Если для параметра Set-CsTeamsMeetingPolicy -ChannelRecordingDownload задано значение Allow (по умолчанию), участник, запустивший запись, имеет права на редактирование записи. Разрешения остальных участников основаны на разрешениях SharePoint канала.<Br><Br>Если для параметра Set-CsTeamsMeetingPolicy -ChannelRecordingDownload задано значение Block, у владельцев канала будут полные права на запись, а у участников — доступ для чтения без возможности скачивания.|
 
 <a name="temp-storage"></a>
+
 ### <a name="temporary-storage-when-unable-to-upload-to-onedrive-and-sharepoint"></a>Временное хранилище, если отправка в OneDrive и SharePoint невозможна
 
 Если запись собрания не удается отправить в OneDrive и SharePoint, она будет временно доступна для скачивания из Teams в течение 21 дня, а затем удалена. В этом случае администратор не может ни управлять записями, ни удалять их.
@@ -271,21 +270,14 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 ### <a name="planning-for-storage"></a>Планирование хранения
 
 Размер 1-часовой записи составляет 400 МБ. Определите емкость, необходимую для записанных файлов, и убедитесь, что в OneDrive и SharePoint достаточно места для хранения.  О базовом объеме, включенном в подписку, и приобретении дополнительного объема читайте в статьях [Настройка стандартного размера хранилища OneDrive](/onedrive/set-default-storage-space) и [Управление ограничениями хранилища для сайтов SharePoint](/sharepoint/manage-site-collection-storage-limits).
-
- <a name="auto-expiration"></a>
-### <a name="auto-expiration-of-teams-meeting-recordings"></a>Автоматическое окончание срока действия записей собраний Teams
-
-Ознакомьтесь с часто задаваемыми вопросами для администраторов и конечных пользователей, чтобы получить представление о том, как будет работать автоматическое истечение срока действия записей собраний Teams, какие действия можно предпринять сейчас и какие действия можно предпринять после запуска функции.
-  
-Дополнительные сведения об изменениях, касающихся администратора, можно получить [здесь](meeting-expiration.md#changes-to-meeting-expiration).
-
-Дополнительные сведения о том, как конечные пользователи могут управлять сроком действия собраний, см. [здесь](https://support.microsoft.com/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24#bkmk_view_change_expiration_date).
   
 ## <a name="manage-meeting-recordings"></a>Управление записями собраний
 
 Записи собраний хранятся в виде видеофайлов в OneDrive и SharePoint, поэтому для управления ими используются процессы, доступные на этих платформах. Дополнительные сведения см. в статье [Общие сведения об управлении в SharePoint](/sharepoint/governance-overview).
 
 Записи собраний без канала хранятся в OneDrive записывающего сотрудника, поэтому к правам владельца и хранению после его увольнения применяются действующие в [OneDrive и SharePoint правила](/onedrive/retention-and-deletion#the-onedrive-deletion-process).
+
+Срок действия записей собраний по умолчанию — 120 дней. Вы можете отключить параметр "Собрания" автоматически истечением срока действия или изменить срок действия по умолчанию. Дополнительные сведения об [автоматическом истечении срока действия записей собраний](meetings-policies-recording-and-transcription.md#meetings-automatically-expire).
 
 ## <a name="closed-captions-for-recordings"></a>Субтитры для записей
 
@@ -324,11 +316,12 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 Дополнительные сведения о DLP см. в [этой статье](/microsoft-365/compliance/dlp-learn-about-dlp)
 
 ## <a name="meeting-recording-diagnostic-tools"></a>Средства диагностики записей собраний
-  ### <a name="user-cannot-record-meetings"></a>Пользователь не может записывать собрания
+
+### <a name="user-cannot-record-meetings"></a>Пользователь не может записывать собрания
 
 Если вы администратор, вы можете использовать следующее средство диагностики, чтобы проверить, правильно ли настроен пользователь для записи собрания в Teams:
 
-1. Выберите **Выполнить тесты** ниже, чтобы заполнить диагностику в Центре администрирования Microsoft 365. 
+1. Выберите **Выполнить тесты** ниже, чтобы заполнить диагностику в Центре администрирования Microsoft 365.
 
    > [!div class="nextstepaction"]
    > [Выполнение тестов: запись собрания](https://aka.ms/MeetingRecordingDiag)
@@ -337,16 +330,16 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 
 3. Тесты возвращают наилучшие дальнейшие действия с любыми конфигурациями клиента или политики, чтобы проверить, правильно ли настроен пользователь для записи собрания в Teams.
   
-  ### <a name="meeting-record-is-missing"></a>Отсутствует запись собрания
+### <a name="meeting-record-is-missing"></a>Отсутствует запись собрания
 
 Если вы администратор, вы можете использовать следующее средство диагностики для проверки успешного завершения записи собрания и ее отправки в Stream или OneDrive на основе ИД собрания и времени начала записи:
 
-1. Выберите **Выполнить тесты** ниже, чтобы заполнить диагностику в Центре администрирования Microsoft 365. 
+1. Выберите **Выполнить тесты** ниже, чтобы заполнить диагностику в Центре администрирования Microsoft 365.
 
    > [!div class="nextstepaction"]
    > [Выполнение тестов: отсутствует запись собрания](https://aka.ms/MissingRecordingDiag)
 
-2. В области диагностики "Выполнить" введите URL-адрес собрания в поле **URL-адрес записанного собрания** (обычно находится в приглашении на собрание), а также дату собрания в поле **Когда собрание было записано?** и выберите **Выполнить тесты**.
+2. В области "Запуск диагностики" введите URL-адрес собрания в **url-адрес** записанного поля собрания (обычно найденного в приглашении на собрание), а также дату собрания в поле "Когда было записано собрание **?"**, а затем выберите "Выполнить тесты **".**
 
 3. В тестах будет проверено, успешно ли завершена запись собрания и была ли она загружена в Stream или OneDrive.
 

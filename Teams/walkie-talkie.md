@@ -19,12 +19,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 815d3c6b1e97ea75eaa7ae4e35d3e41dd3c6e9e4
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: e309fa03e73dc13bff8bd1a90708c688bb0f5350
+ms.sourcegitcommit: 7a1fb6e15c21368afa34cd212865437781f721e2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396450"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67465997"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Приложение "Рация" в Microsoft Teams
 
@@ -48,7 +48,7 @@ ms.locfileid: "67396450"
 
 ### <a name="enable-or-disable-walkie-talkie-for-specific-users-in-your-organization"></a>Включение или отключение рации для определенных пользователей в организации
 
-Чтобы разрешить или заблокировать использование Walkie Talkie для определенных пользователей в вашей организации, убедитесь, что для вашей организации включена функция Walkie Talkie на странице "Управление [приложениями](manage-apps.md) ". Затем создайте настраиваемую политику разрешений приложения и назначьте ее этим пользователям. Дополнительные сведения см. в статье [Управление политиками и параметрами пользовательских приложений в Teams](teams-app-permission-policies.md).
+Чтобы разрешить или заблокировать использование Walkie Talkie для определенных пользователей в вашей организации, убедитесь, что для вашей организации включена функция Walkie Talkie на странице "Управление [приложениями](manage-apps.md) ". Затем создайте настраиваемую политику разрешений приложения, добавьте ее в политику установки приложения и назначьте ее этим пользователям. Дополнительные сведения см. в статье "Управление политиками [разрешений приложений в Teams](teams-app-permission-policies.md) и управление политиками установки приложений [в Microsoft Teams"](teams-app-setup-policies.md).
 
 ### <a name="pin-walkie-talkie-to-teams"></a>Закрепление рации в Teams
 
