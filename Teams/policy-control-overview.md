@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: majaisin
 description: Общие сведения об элементах управления политикой в Microsoft Teams.
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ed0e5aa3a39147238bf0ade57df509a31f0f13e8
-ms.sourcegitcommit: 7579dda8018691eb1a724cb0311b53333dc3ae5a
-ms.translationtype: HT
+ms.openlocfilehash: 13b807d98b92deaac54ad8b755295b73e90c6548
+ms.sourcegitcommit: b4bc3b4c1d167a075a25180818f61758eb56cd6b
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2021
-ms.locfileid: "53142815"
+ms.lasthandoff: 11/16/2021
+ms.locfileid: "61041261"
 ---
 # <a name="policy-control-overview-for-microsoft-teams"></a>Общие сведения об управлении политикой в Microsoft Teams
 
@@ -87,9 +87,6 @@ ms.locfileid: "53142815"
 Эти диагностические данные не включают имена пользователей, их адреса электронной почты и другое содержимое пользователя, например файлы Office, к которым предоставлен общий доступ в Teams, сообщение чата, отправленное в Teams, или текст записи, опубликованной в канале Teams. Наша система создает уникальный идентификатор, который соотносится с диагностическими данными пользователя. Когда мы получаем диагностические данные, демонстрирующие, что в приложении Teams 100 раз произошел сбой, этот уникальный идентификатор позволяет определить, произошел ли этот сбой 100 раз у одного пользователя или это были 100 разных пользователей, столкнувшихся со сбоем по одному разу. Мы не используем этот уникальный идентификатор для определения конкретного пользователя.
 
 Чтобы узнать, какие диагностические данные отправляются в корпорацию Майкрософт, вы можете использовать бесплатное средство просмотра диагностических данных, которое можно скачать и установить из магазина Microsoft Store. Дополнительные сведения см. в статье [Использование средства просмотра диагностических данных в Office](https://support.microsoft.com/topic/cf761ce9-d805-4c60-a339-4e07f3182855).
-
-> [!NOTE]
-> Просмотр диагностических данных поддерживается для Teams на устройствах под управлением Android. Ведется работа над обеспечением поддержки для Teams на устройствах под управлением Windows, macOS или iOS.
 
 ## <a name="required-service-data-for-connected-experiences"></a>Обязательные данные служб для сетевых функций
 
