@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System - seo-marvel-apr2020
 description: Узнайте, как настроить очереди звонков в Microsoft Teams. Очереди вызовов предоставляют приветствие, музыку, перенаправление звонков и другие функции.
-ms.openlocfilehash: f14c0644c7a4be2a63e74ae59705bb7e3bc0cb76
-ms.sourcegitcommit: 850038f2248c1ea412f7b5daca26c0598baffa3c
+ms.openlocfilehash: eaf165759e2310402fdec6147ba2153ec0ce792b
+ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2022
-ms.locfileid: "67443336"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67486764"
 ---
 # <a name="create-a-call-queue"></a>Создание очереди вызовов
 
@@ -361,11 +361,11 @@ Teams предоставляет абонентам музыку по умолч
 |`Round Robin`                    |Да                         |Да         |Да               |Да    |Да         |Да                     |Да                         |*Рекомендуемые* |
 |`Serial`                         |Да                         |Да         |Да               |Да    |Да         |Y<sup>4</sup>         |Y<sup>4</sup>             |   |
 |**Параметры маршрутизации агента**        |                          |          |                |     |          |                      |                          |   |
-|`Presence Based Routing`<sup>3</sup>|Да                      |Да         |Да               |Нет    |Да         |Да                     |Да                         |*Рекомендуемые* |
+|`Presence Based Routing`<sup>3</sup>|Да                      |Да         |Да               |Нет    |Да         |Да                     |Да                         |*По умолчанию*. |
 |`Agents can Opt-out`               |Да                       |Да         |Да               |Y<sup>7</sup>|Y<sup>7</sup>|Да          |Да                         |*По умолчанию*.     |
 |**Режимы передачи**               |                          |          |                |     |          |                      |                          |   |
-|`Conference Mode`<sup>5</sup>    |Да                         |Да         |Да               |Нет    |Y<sup>6</sup>|Да                  |Да                         |*Рекомендуемые* |
-|`Transfer Mode`                  |Да                         |Да         |Да               |Да    |Да         |Да                     |Да                         |*По умолчанию*.              |
+|`Conference Mode`<sup>5</sup>    |Да                         |Да         |Да               |Нет    |Y<sup>6</sup>|Да                  |Да                         |*По умолчанию*. |
+|`Transfer Mode`                  |Да                         |Да         |Да               |Да    |Да         |Да                     |Да                         |   |
 |**Совместные звонки**        |                          |          |                |     |          |                      |                          |   |
 |`Channel Based Queues`             |Да                       |Нет         |Нет               |Нет    |Нет         |n/a                   |Y<sup>8</sup>             |   |
 |**Динамический идентификатор вызывающего объекта**            |                          |          |                |     |          |                      |                          |   |

@@ -1,6 +1,6 @@
 ---
 title: Изменение оформления приложений в магазине Teams вашей организации
-author: guptaashish
+author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
 ms.topic: article
@@ -16,16 +16,16 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Узнайте, как изменить оформление приложения и придать ему новый вид, отредактировав сведения о приложении и метаданные.
-ms.openlocfilehash: 304aa0b5d8becae641f69b0c389ca41160ad2e2f
-ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
-ms.translationtype: HT
+ms.openlocfilehash: 444cf5cda737b9d4b4c3dc7f4032b7eb0877f4aa
+ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67298888"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67486924"
 ---
 # <a name="customize-appearance-of-apps-in-your-organizations-teams-store"></a>Настройка внешнего вида приложений в магазине Teams вашей организации
 
-Microsoft Teams позволяет администраторам настраивать приложение Teams, чтобы улучшить возможности магазина и использовать фирменную символику своей организации. Разработчик приложения может разрешить администратору Teams настраивать свое приложение. Затем можно обновить свойства приложения в соответствии с потребностями организации на странице "Управление приложениями" в Центре администрирования Teams. Можно настроить следующие элементы:
+Microsoft Teams позволяет администраторам настраивать приложение Teams, чтобы улучшить работу магазина и соответствовать фирменной символике организации. Разработчик приложения может разрешить администратору Teams настраивать свое приложение. Затем можно обновить свойства приложения в соответствии с потребностями организации на странице "Управление приложениями" в Центре администрирования Teams. Можно настроить следующие элементы:
 
 * Короткое имя
 * Краткое описание

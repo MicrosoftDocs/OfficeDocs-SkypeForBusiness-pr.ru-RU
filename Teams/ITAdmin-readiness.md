@@ -18,12 +18,12 @@ ms.custom:
 description: Обучающие видео, презентации PowerPoint, учебники и другие ресурсы для администраторов по планированию, развертыванию и запуску Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cc931e442b5777c129482ad22e7698b9446e5695
-ms.sourcegitcommit: 10bb44fdd23d0b42a81229028d1b86515f88e7bb
+ms.openlocfilehash: 133369477a9e633e3e7ccb6309d8cae037f86f90
+ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/25/2022
-ms.locfileid: "67435295"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67486904"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Начало работы с обучением администраторов для Microsoft Teams
 
@@ -65,18 +65,18 @@ ms.locfileid: "67435295"
 
 <p>В следующей таблице приведены ссылки на комплексное обучение видео с сопутствующими презентациями PowerPoint (в формате PDF) на Комнаты Microsoft Teams.  
 
-| Модуль | Видео | Колода PowerPoint (PDF)  |
-| ------------ | -------------------- | -------------------- |
-| Модуль 1. Введение в Комнаты Microsoft Teams (18:29 мин) | [Палубе](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-1-introduction-to-microsoft-teams-rooms.pdf?raw=true) |
-| Модуль 2. Сеть Microsoft Teams (34:10 мин) | [Палубе](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-2-network-readiness.pdf?raw=true) |
-| Модуль 3. Выбор правильного устройства для нужного пространства (18:45 мин) | [Палубе](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-3-choosing-the-right-device.pdf?live=true) |
-| Модуль 4. Развертывание Комнаты Microsoft Teams (56:36 мин) | [Палубе](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-4-deployment.pdf?raw=true) |
-| Модуль 5. Настройка и запуск Комнаты Microsoft Teams (32:27 мин) | [Палубе](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-5-starting-and-configuring-teams-rooms.pdf?raw=true) |
-| Модуль 6. Управление Комнаты Microsoft Teams, часть 1 (18:31 мин) | [Палубе](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-6-managing-teams-rooms-part-1.pdf?raw=true) |
-| Модуль 7. Управление Комнаты Microsoft Teams, часть 2 (41:06 мин) | [Палубе](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-7-managing-teams-rooms-part-2.pdf?raw=true) |
-| Модуль 8. Комнаты Microsoft Teams-- Советы, рекомендации и устранение неполадок (18:14 мин)| [Палубе](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8a-tips-tricks-troubleshooting.pdf?raw=true)|
-| Инструкции по присоединению одним касанием |  | [Палубе](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8b-one-touch-join-instructions.pdf?raw=true)  |
-| Введение в Комнаты Microsoft Teams управляемых служб |  | [Палубе](https://download.microsoft.com/download/c/e/a/cead2658-d64d-43b7-a728-b4512b325fb8/module-7b-Teams-Managed-Rooms-intro.pdf)  |
+| Модуль | Колода PowerPoint (PDF)  |
+| ------------ | -------------------- |
+| Модуль 1. Введение в Комнаты Microsoft Teams  | [Палубе](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-1-introduction-to-microsoft-teams-rooms.pdf?raw=true) |
+| Модуль 2. Сети Microsoft Teams  | [Палубе](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-2-network-readiness.pdf?raw=true) |
+| Модуль 3. Выбор правильного устройства для нужного пространства  | [Палубе](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-3-choosing-the-right-device.pdf?live=true) |
+| Модуль 4. Развертывание Комнаты Microsoft Teams  | [Палубе](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-4-deployment.pdf?raw=true) |
+| Модуль 5. Настройка и запуск Комнаты Microsoft Teams  | [Палубе](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-5-starting-and-configuring-teams-rooms.pdf?raw=true) |
+| Модуль 6. Управление Комнаты Microsoft Teams, часть 1  | [Палубе](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-6-managing-teams-rooms-part-1.pdf?raw=true) |
+| Модуль 7. Управление Комнаты Microsoft Teams, часть 2  | [Палубе](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-7-managing-teams-rooms-part-2.pdf?raw=true) |
+| Модуль 8. Комнаты Microsoft Teams-- Советы, рекомендации и устранение неполадок | [Палубе](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8a-tips-tricks-troubleshooting.pdf?raw=true)|
+| Инструкции по присоединению одним касанием |  [Палубе](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8b-one-touch-join-instructions.pdf?raw=true)  |
+| Введение в Комнаты Microsoft Teams управляемых служб | [Палубе](https://download.microsoft.com/download/c/e/a/cead2658-d64d-43b7-a728-b4512b325fb8/module-7b-Teams-Managed-Rooms-intro.pdf)  |
 
 <h2>Устройства с Android в Teams</h2>
 
