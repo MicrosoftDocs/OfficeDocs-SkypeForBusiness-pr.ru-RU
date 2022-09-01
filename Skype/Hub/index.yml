@@ -1,23 +1,23 @@
 ### YamlMime:Hub
 title: Skype для бизнеса
-summary: Техническая документация по Skype для бизнеса
+summary: Skype для бизнеса технической документации
 brand: m365
 metadata:
   title: Skype для бизнеса
-  description: Техническая документация по Skype для бизнеса
+  description: Skype для бизнеса технической документации
   ms.service: skype-for-business-online
   ms.topic: hub-page
   audience: ITPro
   author: samanro
   ms.author: samanro
   ms.date: 07/03/2019
-  localization_priority: Priority
-  ms.openlocfilehash: 4fddbad88364a26bee8c8217175080b80380ed60
-  ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
-  ms.translationtype: HT
+  ms.localizationpriority: high
+  ms.openlocfilehash: 35f0728c28765ccfeaffd2b2716280b9d20dfbb3
+  ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+  ms.translationtype: MT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 03/23/2021
-  ms.locfileid: "51119038"
+  ms.lasthandoff: 08/26/2021
+  ms.locfileid: "58592993"
 additionalContent:
   sections:
   - title: Для ИТ-специалистов
@@ -46,14 +46,14 @@ additionalContent:
     - title: Программа сертификации Skype для бизнеса
       summary: Узнайте о сертифицированных решениях и устройствах.
       url: ../SfbPartnerCertification/certification/overview.md
-    - title: Устранение неполадок
-      summary: Ресурсы по устранению неполадок и поддержке для ИТ-специалистов и администраторов.
+    - title: Поиск и устранение неполадок
+      summary: Поиск ресурсов по устранению неполадок и поддержке для ИТ-специалистов и администраторов.
       url: /office/troubleshoot
-  - title: Другие аудитории
+  - title: Для других аудиторий
     items:
     - title: Разработчики
-      summary: Рекомендации по разработке решений для Skype для бизнеса.
+      summary: Руководство по разработке решений для Skype для бизнеса.
       url: /skype-sdk/
-    - title: Конечные пользователи
+    - title: Пользователи
       summary: Справка, обучение и техническая поддержка для пользователей Skype для бизнеса на сайте support.office.com.
       url: https://support.office.com/skype-for-business

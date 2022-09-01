@@ -607,8 +607,8 @@ items:
                     href: meeting-policies-participants-and-guests.md
                   - name: Удаление политики собраний RestrictedAnonymousAccess для пользователей
                     href: meeting-policies-restricted-anonymous-access.md
-          - name: Политики собраний и окончание срока действия собрания
-            href: meeting-expiration.md
+          - name: 'Управление пользователями, которые могут начинать и планировать собрания'
+            href: manage-who-can-schedule-meetings.md
           - name: Управление параметрами собраний
             href: meeting-settings-in-teams.md
           - name: 'Электронные письма, отправляемые пользователям при изменении параметров'
@@ -863,8 +863,6 @@ items:
                 href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
           - name: Operator Connect
             items:
-              - name: Новые возможности
-                href: operator-connect-whats-new.md
               - name: План для Operator Connect
                 href: operator-connect-plan.md
               - name: Настройка Operator Connect
@@ -953,6 +951,8 @@ items:
             href: search-for-phone-numbers-for-users.md
           - name: 'Назначение, изменение и удаление номера телефона пользователя'
             href: assign-change-or-remove-a-phone-number-for-a-user.md
+          - name: Управление использованием номера телефона
+            href: manage-the-usage-of-a-phone-number.md
           - name: Просмотр списка телефонных номеров в организации
             href: see-a-list-of-phone-numbers-in-your-organization.md
           - name: Управление номерами телефонов для тарифного плана
@@ -1068,7 +1068,7 @@ items:
               - name: Шаг 5. Назначение номеров телефонов пользователям
                 href: business-voice/set-up-assign-numbers.md
               - name: Шаг 6. Настройка автосекретаря
-                href: create-a-phone-system-auto-attendant.md
+                href: create-a-phone-system-auto-attendant-smb.md
               - name: Шаг 7. Перенос номеров телефонов (необязательно)
                 href: business-voice/port-phone-numbers.md
               - name: Ресурсы после настройки
@@ -1084,7 +1084,7 @@ items:
               - name: Создание дополнительных пользователей
                 href: business-voice/create-users.md
               - name: Настройка очереди вызовов
-                href: create-a-phone-system-call-queue.md
+                href: create-a-phone-system-call-queue-smb.md
           - name: Управление настройкой телефонной системы
             items:
               - name: Управление устройствами
@@ -1135,6 +1135,8 @@ items:
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-lithuania.md
               - name: Управление номерами телефонов в Люксембурге
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-luxembourg.md
+              - name: Управление номерами телефонов для Мексика
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-mexico.md
               - name: Управление номерами телефонов в Новой Зеландии
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-new-zealand.md
               - name: Управление номерами телефонов в Норвегии
@@ -1579,44 +1581,65 @@ items:
             href: apps-update-experience.md
           - name: Аудит действий управления приложениями
             href: audit-app-management-activities.md
-          - name: Отчет об использовании приложения и аналитика
+          - name: Просмотр отчета об использовании приложений и аналитики
             href: teams-analytics-and-reports/app-usage-report.md
   - name: Руководство для отраслей и государственных организаций
     items:
       - name: Обзор
         href: expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md
       - name: Teams для образования
-        href: expand-teams-across-your-org/teams-for-education-landing-page.md
         items:
-          - name: Краткое руководство для администраторов — Teams для образования
-            href: teams-quick-start-edu.yml
-          - name: Начало работы с удаленным обучением
-            href: remote-learning-edu.md
-          - name: Политики и пакеты политик для Teams EDU
-            href: policy-packages-edu.md
-          - name: Назначение политик для крупных наборов пользователей
-            href: batch-group-policy-assignment-edu.md
-          - name: Сценарий PowerShell для создания групп безопасности для преподавателей и учащихся
-            href: scripts/powershell-script-security-groups-edu.md
-          - name: Инструкции по низкой пропускной способности для администраторов образовательных учреждений
-            href: edu-remote-low-bandwidth.md
-          - name: Мастер политики Teams для образования
-            href: easy-policy-setup-edu.md
-          - name: Связь с родителями в Teams для образования
-            href: edu-parents-app.md
-          - name: Профконсультант
+          - name: Общие сведения о Teams для образования
+            href: expand-teams-across-your-org/teams-for-education-landing-page.md
+          - name: Начало работы с Teams для образования
             items:
-              - name: Начало работы с Профконсультантом
-                href: career-coach.md
-              - name: Установка и настройка Профконсультанта
-                href: career-coach-set-up-steps.md
-              - name: Устранение неполадок Профконсультанта
-                href: career-coach-troubleshoot.md
-              - name: Ресурсы для Профконсультанта
-                href: career-coach-resources.md
-          - name: Контроль чатов в Teams
-            href: supervise-chats-edu.md
-          - name: Insights для образования
+              - name: Краткое руководство. Настройка Teams для образования
+                href: teams-quick-start-guide-edu.md
+              - name: Начало работы с удаленным обучением
+                href: remote-learning-edu.md
+              - name: Устранение неполадок в сценариях с низкой пропускной способностью
+                href: edu-remote-low-bandwidth.md
+              - name: Назначение лицензий Teams для образовательных учреждений
+                href: teams-edu-licensing.md
+              - name: Вопросы и ответы по Microsoft Education для ИТ-администраторов
+                href: plan-teams-governance-edu.md
+              - name: Совместное использование ресурсов по внедрению Teams
+                href: resources-teams-edu.md
+              - name: Справочник по SKU для образования
+                href: sku-reference-edu.md
+          - name: Политики Teams для образовательных учреждений
+            items:
+              - name: Управление политиками и пакетами политик Teams
+                href: policy-packages-edu.md
+              - name: Быстрая настройка политик для пользователей
+                href: easy-policy-setup-edu.md
+              - name: Назначение политик для крупных наборов пользователей
+                href: batch-group-policy-assignment-edu.md
+              - name: Создание групп безопасности для преподавателей и учащихся
+                href: scripts/powershell-script-security-groups-edu.md
+          - name: Настройка функций для преподавателей
+            items:
+              - name: Настройка защищенных чатов в Teams
+                href: supervise-chats-edu.md
+              - name: Настройка назначений в Teams
+                href: expand-teams-across-your-org/assignments-in-teams.md
+              - name: Настройка родительского подключения в Teams
+                href: edu-parents-app.md
+              - name: Профконсультант
+                items:
+                  - name: Начало работы с Профконсультантом
+                    href: career-coach.md
+                  - name: Установка и настройка Профконсультанта
+                    href: career-coach-set-up-steps.md
+                  - name: Устранение неполадок Профконсультанта
+                    href: career-coach-troubleshoot.md
+                  - name: Ресурсы для Профконсультанта
+                    href: career-coach-resources.md
+          - name: Интеграция LMS и LTI
+            items:
+              - name: Установка интеграции Moodle LMS
+                href: install-moodle-integration.md
+          - name: Сведения о учащихся с Insights для образования
             items:
               - name: Начало работы с Insights
                 href: class-insights.md
@@ -1624,23 +1647,11 @@ items:
                 href: education-insights-sis-data-sync.md
               - name: Управление доступом пользователей к Insights
                 href: education-insights-manage-access.md
-              - name: Начало работы с Reflect
+              - name: Настройка Reflect для анализа эмоций
                 href: reflect.md
               - name: Общие сведения об аналитике для динамики техники чтения
                 href: insights-for-reading-progress.md
-          - name: Задания в Teams для образования
-            href: expand-teams-across-your-org/assignments-in-teams.md
-          - name: Ресурсы Teams для образования (администраторы)
-            href: resources-teams-edu.md
-          - name: 'Управление решениями Майкрософт для образования: вопросы и ответы для администраторов'
-            href: plan-teams-governance-edu.md
-          - name: Установка интеграции Moodle
-            href: install-moodle-integration.md
-          - name: Лицензирование Teams для образования
-            href: teams-edu-licensing.md
-          - name: Справочник по SKU для образования
-            href: sku-reference-edu.md
-          - name: Устройства Teams для образования
+          - name: Поиск устройств Teams для образовательных учреждений
             href: devices-for-education.md
       - name: Teams для сотрудников без компьютеров
         items:
@@ -1720,13 +1731,13 @@ items:
             href: get-started-with-teams-essentials.md
           - name: Подключение Teams базовый (удостоверение AAD) к электронной почте
             href: connect-teams-essentials-to-email.md
-      - name: Переход с Kaizala
+      - name: Перемещение из Kaizala
         items:
           - name: Начало работы
             href: get-started-kaizala-teams.md
-          - name: Подготовка к обновлению
+          - name: Подготовка к перемещению
             href: prepare-for-teams-kaizala.md
-          - name: Планирование процедуры обновления
+          - name: Планирование перехода на Kaizala
             href: plan-your-move-kaizala.md
           - name: Обзор Microsoft Teams
             href: navigate-teams.md
