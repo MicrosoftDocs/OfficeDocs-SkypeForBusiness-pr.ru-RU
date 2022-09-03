@@ -22,12 +22,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Узнайте, какие стационарные и конференции сертифицированы для Microsoft Teams для достижения наилучших результатов.
-ms.openlocfilehash: 74f8a25955d112548b5bbd311a0e51d110c4944d
-ms.sourcegitcommit: c19ac3be42cc4b8409c8d512bbe3156736af0309
+ms.openlocfilehash: 4070bdb567556422c5ec2a3db78c3d3670e1dda9
+ms.sourcegitcommit: 9a9168d5c40bbb0cceaf3ffd11eb104c137f26b3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/24/2022
-ms.locfileid: "67426846"
+ms.lasthandoff: 09/03/2022
+ms.locfileid: "67590196"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Сертифицированные устройства Android в Microsoft Teams
 
@@ -267,6 +267,12 @@ ms.locfileid: "67426846"
 
 | Модель устройства  | Версия встроенного ПО | Включенный выпуск продукта |
 |:--------------|:-----------------|:-------------------------|
+| Poly Studio X30 | `3.13.0.368067` | Обновление 2022 #2A   |
+| Poly Studio X50 | `3.13.0.368067` | Обновление 2022 #2A |
+| Poly TC8        | `3.13.0.210799`          | Обновление 2022 #2A   |
+| Yealink MeetingBar A20 | `133.310.0.25 `   | Обновление 2022 #2A  |
+| Yealink MeetingBar A30 | `133.310.0.25 `   | Обновление 2022 #2A  |
+| Yealink CTP18 | `137.15.0.80`   | Обновление 2022 #2A  |
 | AudioCodes RXV80 | `1.16.191` | Обновление 2022 #2A   |
 | Poly Studio X30 | `3.12.0.366027` | Обновление 1 за 2022 г.   |
 | Poly Studio X50 | `3.12.0.366027` | Обновление 1 за 2022 г.  |
@@ -396,7 +402,7 @@ ms.locfileid: "67426846"
 
 Лицензии Microsoft Teams можно приобрести в составе [microsoft 365 или Office 365 подписки](/office365/servicedescriptions/teams-service-description). Дополнительные сведения о необходимых лицензиях для использования Microsoft Teams на телефонах см. в доступных [лицензиях телефонной системы](https://products.office.com/microsoft-teams/voice-calling).
 
-Дополнительные сведения о получении Teams см. Разделы справки [доступ к Microsoft Teams?](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
+Дополнительные сведения о получении Teams см. 如何实现 [доступ к Microsoft Teams?](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 
 Если вы являетесь поставщиком, который пытается присоединиться к программе сертификации, см[](/skypeforbusiness/certification/how-to-join). статью "Присоединение к требованиям и доступным программам".
 

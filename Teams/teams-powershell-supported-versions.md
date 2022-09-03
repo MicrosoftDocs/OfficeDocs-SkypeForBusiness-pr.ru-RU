@@ -12,16 +12,16 @@ ms.collection:
 description: Сведения о версиях, поддерживаемых модулем Teams PowerShell, используемым для администрирования Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5ae244a16e934b70085b2193bee3ef21a277f7ed
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: d28e16c248957518ca16eb3eff7e082ebe6bd9bd
+ms.sourcegitcommit: 9a9168d5c40bbb0cceaf3ffd11eb104c137f26b3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67397290"
+ms.lasthandoff: 09/03/2022
+ms.locfileid: "67590326"
 ---
 # <a name="teams-powershell-module---supported-versions"></a>Модуль Teams PowerShell — поддерживаемые версии
 
-Сейчас поддерживаются только версии модуля Microsoft Teams PowerShell (TPM) серии 4.x.x или более поздней версии. Все предыдущие версии полностью прекращены с 15 июня 2022 г. & перестанут работать (сообщение центра сообщений для справки — MC350371). 
+Сейчас поддерживаются только версии модуля Microsoft Teams PowerShell (TPM) серии 4.x.x или более поздней версии. Все более ранние версии полностью прекращены в коммерческих средах с 15 июня 2022 г. & перестанут работать (публикация центра сообщений для справки — MC350371). 
 
 Рекомендуется выполнить обновление до последней версии модуля Teams PowerShell.
 
