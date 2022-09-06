@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 description: Администратор можно прочитать заметки о выпуске Комнаты Microsoft Teams, в которых  перечислено совокупное улучшение Комнаты Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4905c22f974e464ed0079bad572623c83782cfda
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: cb76ac9da50a55dbf8a5df10ddab4f65cfdebcc7
+ms.sourcegitcommit: 2ecf98862aae607d0675418a6177be91f56af1f0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606238"
+ms.locfileid: "67607622"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>Заметки о выпуске Комнаты Microsoft Teams
 
@@ -102,13 +102,13 @@ ms.locfileid: "67606238"
 
 - Интерфейс макета передней строки с <sup>обновлением 1</sup> 
 - Закрепление и скрытие видео <sup>комнаты 1</sup> 
-- Конфигурация администратора для отключения разделенной коллекции в двухэкранном режиме Комнаты Teams <sup>1</sup>
-- Двухэкранные Комнаты Teams теперь могут отображать до 18 видеопотоков <sup>участников 2</sup>
-- Поддержка лицензий Комнаты Microsoft Teams Pro и Microsoft Teams Room Basic <sup>2</sup>
+- Конфигурация администратора для отключения разделенной коллекции в двухэкранном режиме Комнаты Teams <sup>2</sup>
+- Двухэкранные Комнаты Teams теперь могут отображать до 18 видеопотоков участников <sup>1</sup>
+- Поддержка лицензий Комнаты Microsoft Teams Pro и Microsoft Teams Room Basic <sup>1</sup>
 
-<sup>1 Конфигурацию</sup> администратора для отключения разделенной коллекции с помощью XML можно найти в разделе "Удаленное управление параметрами консоли Комнаты Microsoft Teams с помощью [XML-файла конфигурации"](../rooms/xml-config-file.md).
+<sup>1</sup> Эта функция развертывается в веб-клиенте Teams и займет около двух недель с даты выпуска этого обновления. Дополнительные сведения см. в [разделе "Обновления Teams"](../teams-client-update.md).
 
-<sup>2</sup> . Эта функция развертывается в веб-клиенте Teams и займет около двух недель с даты выпуска этого обновления. Дополнительные сведения см. в [разделе "Обновления Teams"](../teams-client-update.md).
+<sup>2. Конфигурацию</sup> администратора для отключения разделенной коллекции с помощью XML можно найти в разделе "Удаленное управление параметрами консоли Комнаты Microsoft Teams с помощью [XML-файла конфигурации"](../rooms/xml-config-file.md).
 
 ### <a name="4131320-822022"></a>4.13.132.0 (8/2/2022)
 
