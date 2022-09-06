@@ -19,12 +19,12 @@ f1.keywords:
 - NOCSH
 description: Узнайте, как добавить, изменить или удалить место для экстренного реагирования в вашей организации.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 1f142d7053a8254446d76dfab276baf9f6f12363
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 37ccf72868819c515a2f7320b112f81f31f65a34
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269282"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606718"
 ---
 # <a name="add-change-or-remove-a-place-for-an-emergency-location-in-your-organization"></a>Добавление, изменение и удаление места для расположения для экстренного реагирования для организации
 
@@ -34,7 +34,7 @@ ms.locfileid: "67269282"
 
 В этой статье описывается, как добавить, изменить или удалить место  для экстренного размещения в вашей организации.
 
-Эта статья относится к планам звонков Майкрософт, Operator Connect и прямой маршрутизации.
+Эта статья относится к планам звонков Майкрософт, Operator Connect, Operator Connect Mobile (общедоступная предварительная версия) и прямой маршрутизации.
 
 Вы управляете расположениями для экстренного реагирования для своей организации в Центре администрирования Microsoft Teams или с помощью PowerShell.
   
@@ -76,7 +76,7 @@ ms.locfileid: "67269282"
 
 См [. раздел Remove-CsOnlineLisLocation](/powershell/module/skype/remove-csonlinelislocation).
     
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
 - [Управление экстренными звонками](what-are-emergency-locations-addresses-and-call-routing.md)
 - [Добавление, изменение и удаление расположения для экстренного реагирования для организации](add-change-remove-emergency-location-organization.md)

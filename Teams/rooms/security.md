@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Rooms
 description: Узнайте, как защитить Комнаты Microsoft Teams устройств.
-ms.openlocfilehash: 4814bd5930bd311bf79fc749a1e736d1c3645165
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 231039324e15afb7b24f194623e54455d51e85c2
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270054"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606218"
 ---
 # <a name="microsoft-teams-rooms-security"></a>Комнаты Microsoft Teams безопасности
 
@@ -79,7 +79,7 @@ ms.locfileid: "67270054"
 Учетная Администратор не требуется для правильной работы Комнаты Teams и может быть переименована или даже удалена. Однако перед удалением учетной записи Администратор убедитесь, что вы настроили альтернативную учетную запись локального администратора, настроенную перед удалением учетной записи, которая поставляется с Комнаты Teams устройствами. Дополнительные сведения об изменении пароля для локальной учетной записи Windows с помощью встроенных средств Windows или PowerShell см. в следующих статьях:
 
 - [Изменение или сброс пароля Windows](https://support.microsoft.com/windows/change-or-reset-your-windows-password-8271d17c-9f9e-443f-835a-8318c8f68b9c)
-- [Set-LocalUser](/powershell/module/microsoft.powershell.localaccounts/set-localuser?view=powershell-5.1#example-2--change-the-password-on-an-account)
+- [Set-LocalUser](/powershell/module/microsoft.powershell.localaccounts/set-localuser#example-2--change-the-password-on-an-account)
 
 Вы также можете импортировать учетные записи домена в локальную группу администраторов Windows. Это можно сделать для Azure AD учетных записей с помощью Intune. Дополнительные сведения см. в [разделе Policy CSP – RestrictedGroups.](/windows/client-management/mdm/policy-csp-restrictedgroups)
 
@@ -101,12 +101,12 @@ ms.locfileid: "67270054"
 
 Как правило, Комнаты Teams требования к сети те же, что и у любого клиента Microsoft Teams. Доступ через брандмауэры и другие устройства безопасности для Комнаты Teams так же, как и для любого другого клиента Microsoft Teams. Для Комнаты Teams, категории, перечисленные как обязательные для Teams, должны быть открыты в брандмауэре. Комнаты Teams также требуется доступ к клиентский компонент Центра обновления Windows, Microsoft Store и Microsoft Intune (если вы используете Microsoft Intune для управления устройствами). Полный список IP-адресов и URL-адресов, необходимых для Комнаты Microsoft Teams, см. в следующих статьях:
 
-- **URL-адреса** Office 365 Microsoft Teams [и диапазоны IP-адресов](/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide#skype-for-business-online-and-microsoft-teams)
+- **URL-адреса** Office 365 Microsoft Teams [и диапазоны IP-адресов](/microsoft-365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams)
 - **клиентский компонент Центра обновления Windows** [WSUS](/windows-server/administration/windows-server-update-services/deploy/2-configure-wsus#211-connection-from-the-wsus-server-to-the-internet)
 - **Предварительные требования Microsoft Store** [для Microsoft Store для бизнеса и образования](/microsoft-store/prerequisites-microsoft-store-for-business#proxy-configuration)
 - **Microsoft Intune** [сетевых конечных точек для Microsoft Intune](/mem/intune/fundamentals/intune-endpoints)
 
-Если вы используете компонент Комнаты Microsoft Teams управляемых служб Комнаты Microsoft Teams премиум, необходимо также убедиться, что Комнаты Teams могут получить доступ к следующим URL-адресам:
+Если вы используете компонент Комнаты Microsoft Teams управляемых служб Комнаты Microsoft Teams Pro, необходимо также убедиться, что Комнаты Teams имеет доступ к следующим URL-адресам:
 
 - agent.rooms.microsoft.com
 - global.azure-devices-provisioning.net
@@ -120,11 +120,13 @@ ms.locfileid: "67270054"
 - mmrprodnoamiot.azure-devices.net
 - mmrprodnoamstor.blob.core.windows.net
 
-Комнаты Teams настроено на автоматическое исправление последних обновлений Windows, включая обновления для системы безопасности. Комнаты Teams устанавливает все ожидающие обновления каждый день, начиная с 02:00, с помощью предварительно задающей локальной политики. Нет необходимости использовать дополнительные средства для развертывания и применения Windows Обновления. Использование дополнительных средств для развертывания и применения обновлений может задержать установку исправлений Windows и, следовательно, привести к менее безопасному развертыванию. Приложение Комнаты Teams развертывается с помощью Microsoft Store. Если ваши устройства лицензированы с Комнаты Microsoft Teams стандартный, все новые версии приложения устанавливаются автоматически во время ночного процесса исправления. Если ваши устройства лицензируются с Комнаты Microsoft Teams премиум и зарегистрированы в управляемой службе Майкрософт, новые версии приложения Комнаты Teams устанавливаются в соответствии с определенным планом развертывания.
+Комнаты Teams настроено на автоматическое исправление последних обновлений Windows, включая обновления для системы безопасности. Комнаты Teams устанавливает все ожидающие обновления каждый день, начиная с 02:00, с помощью предварительно задающей локальной политики. Нет необходимости использовать дополнительные средства для развертывания и применения Windows Обновления. Использование дополнительных средств для развертывания и применения обновлений может задержать установку исправлений Windows и, следовательно, привести к менее безопасному развертыванию. Приложение Комнаты Teams развертывается с помощью Microsoft Store.
+
+<!-- LICENSE-REVIEW If your devices are licensed with Microsoft Teams Rooms Standard, any new versions of the app are automatically installed during the nightly patching process. If your devices are licensed with Microsoft Teams Rooms Premium and enrolled in the Microsoft Managed Service, new versions of the Teams Rooms app are installed per your defined rollout plan. -->
 
 Комнаты Teams устройства работают с большинством протоколов безопасности 802.1X или другими сетевыми протоколами безопасности. Однако мы не можем протестировать Комнаты Teams всех возможных конфигураций безопасности сети. Таким образом, если возникают проблемы с производительностью, которые можно отслеживать по проблемам с производительностью сети, может потребоваться отключить эти протоколы, если они настроены в вашей организации.
 
-Для оптимальной производительности мультимедиа в режиме реального времени настоятельно рекомендуется настроить трафик мультимедиа Teams для обхода прокси-серверов и других устройств безопасности сети. Мультимедиа в режиме реального времени очень чувствительны к задержкам, а прокси-серверы и устройства безопасности сети могут значительно снизить качество видео и звука пользователей. Кроме того, так как носитель Teams уже зашифрован, нет никакой реальной выгоды от передачи трафика через прокси-сервер. Дополнительные сведения см. в статье "Сеть ( в облако[)](/microsoft-365/solutions/networking-design-principles?view=o365-worldwide) — точка зрения одного архитектора, в которой рассматриваются рекомендации по сети для повышения производительности мультимедиа с помощью Microsoft Teams и Комнаты Microsoft Teams.
+Для оптимальной производительности мультимедиа в режиме реального времени настоятельно рекомендуется настроить трафик мультимедиа Teams для обхода прокси-серверов и других устройств безопасности сети. Мультимедиа в режиме реального времени очень чувствительны к задержкам, а прокси-серверы и устройства безопасности сети могут значительно снизить качество видео и звука пользователей. Кроме того, так как носитель Teams уже зашифрован, нет никакой реальной выгоды от передачи трафика через прокси-сервер. Дополнительные сведения см. в статье "Сеть ( в облако[)](/microsoft-365/solutions/networking-design-principles) — точка зрения одного архитектора, в которой рассматриваются рекомендации по сети для повышения производительности мультимедиа с помощью Microsoft Teams и Комнаты Microsoft Teams.
 
 > [!IMPORTANT]
 > Комнаты Teams не поддерживает прокси-серверы, прошедшие проверку подлинности.

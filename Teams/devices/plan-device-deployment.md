@@ -1,7 +1,7 @@
 ---
 title: Планирование развертывания для телефонных устройств и дисплеев Teams
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 manager: serdars
 ms.reviewer: tony.woodruff
 ms.topic: reference
@@ -12,16 +12,16 @@ appliesto:
 f1.keywords:
 - NOCSH
 search.appverid: MET150
-description: В этой статье описаны задачи и действия по развертыванию телефонов и дисплеев Teams в вашей организации.
+description: В этой статье приводятся общие сведения о задачах и действиях по развертыванию телефонов и дисплеев Teams в организации.
 ms.collection:
 - M365-voice
 - Teams_ITAdmin_Devices
-ms.openlocfilehash: 5172d230823088141c58e3d2b58e1c3b579268b3
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: fb9b560f56ece49ddae9f15899a118596a31c38f
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67272394"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606848"
 ---
 # <a name="plan-your-deployment-for-teams-phone-devices-and-displays"></a>Планирование развертывания для телефонных устройств и дисплеев Teams
 
@@ -41,7 +41,7 @@ ms.locfileid: "67272394"
 - Личные устройства
 - Устройства с общим пространством
 
-Личные и общие устройства имеют разные роли и функции использования. 
+Личные и общие устройства имеют разные роли и используются. 
 
 **Личные устройства:** 
 
@@ -68,17 +68,17 @@ ms.locfileid: "67272394"
 - Сколько помещений или пространств требуются общие устройства? Будет ли каждое пространство иметь один и тот же тип устройства? 
 - Будут ли устройства соответствовать определенным требованиям?
     - Например, размер экрана, форм-фактор, производитель или модель? Список сертифицированных телефонов и дисплеев см. на странице [сертифицированных устройств Microsoft Teams](teams-ip-phones.md).
--  Вам нужны телефоны Teams или дисплеи Teams? Список функций, поддерживаемых телефонами Teams, см. в разделе "Телефоны для [Microsoft Teams](phones-for-teams.md#features-supported-by-teams-phones) ", а список функций, поддерживаемых дисплеем Teams, см. в [разделе "Отображение Microsoft Teams"](teams-displays.md#features-supported-by-teams-displays).
+-  Вам нужны телефоны Teams или дисплеи Teams? Список функций, поддерживаемых телефонами Teams, см. в [разделе "Телефоны для Microsoft Teams"](phones-for-teams.md#features-supported-by-teams-phones). Список функций, поддерживаемых в Teams, см. в [разделе "Отображение Microsoft Teams"](teams-displays.md#features-supported-by-teams-displays).
 - Достаточно ли устройств для новых пользователей или процесс для новых заказов и доставки?
-- Будут ли доступны запасные устройства для обслуживания или в случае проблем с оборудованием? Возможность быстро менять устройство предотвращает сбои в работе пользователей.
+- Будут ли доступны запасные устройства для обслуживания или если на устройстве возникает проблема с оборудованием? Возможность быстро менять устройство предотвращает сбои в работе пользователей.
 
 ## <a name="task-2-what-are-your-licensing-requirements"></a>Задача 2. Каковы требования к лицензированию? 
 
 Теперь, когда вы знаете, сколько устройств вам нужно, следующим шагом является определение количества необходимых лицензий. Для доступа к Microsoft Teams и Microsoft 365 на телефонах и дисплеях Teams требуются лицензии.
 
-Для общих и личных устройств потребуется другое лицензирование. Для личных устройств можно использовать лицензии, назначенные учетным записям пользователей. Общим устройствам требуются лицензии, относящиеся к их функции. Для телефонов и дисплеев применимыми лицензиями являются лицензия [common Area Phone для Microsoft Teams](../set-up-common-area-phones.md#step-1---buy-the-licenses) и Комнаты Microsoft Teams стандартный [лицензия](../rooms/rooms-licensing.md#licensing-solutions-for-shared-communication-devices).
+Для общих и личных устройств требуется другое лицензирование. Для личных устройств можно использовать лицензии, назначенные учетным записям пользователей. Общим устройствам требуются лицензии, относящиеся к их функции. Для телефонов и дисплеев применимыми лицензиями являются лицензия [common Area Phone для Microsoft Teams](../set-up-common-area-phones.md#step-1---buy-the-licenses) и [Комнаты Microsoft Teams лицензия](../rooms/rooms-licensing.md).
 
-Дополнительные сведения и сравнение вариантов лицензирования см. в [планах лицензирования Microsoft 365](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=1). 
+Дополнительные сведения и сравнение вариантов лицензирования см. в [планах лицензирования Microsoft 365](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=1).
 
 ## <a name="task-3-what-are-your-dependencies"></a>Задача 3. Каковы ваши зависимости? 
 

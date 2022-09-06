@@ -15,12 +15,12 @@ ms.reviewer: mikedav
 description: Узнайте, как назначать пользователям лицензии на надстройки Teams для таких возможностей, как аудиоконференции, телефонная система и планы звонков.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3b482781ee29094986c310158fe74f02662f790d
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 6c10ba390d906681434ae56272e4f112911bfcff
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268174"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606058"
 ---
 # <a name="assign-teams-add-on-licenses-to-users"></a>Назначение пользователям лицензий на надстройки Teams
 
@@ -143,6 +143,10 @@ ms.locfileid: "67268174"
 | Кредиты на связь | MCOPSTNPP |
 | Тарифные планы с оплатой по мере использования (страны зоны 1) | MCOPSTN_PAYG_1 |
 | Тарифные планы с оплатой по мере использования (страны зоны 2) | MCOPSTN_PAYG_2 |
+| Комнаты Microsoft Teams Basic | Microsoft_Teams_Rooms_Basic |
+| Комнаты Microsoft Teams basic без аудиоконференций | Microsoft_Teams_Rooms_Basic_without_Audio_Conferencing |
+| Комнаты Microsoft Teams Pro | Microsoft_Teams_Rooms_Pro |
+| Комнаты Microsoft Teams Pro без аудиоконференций | Microsoft_Teams_Rooms_Pro_without_Audio_Conferencing |
 
 ## <a name="related-content"></a>Связанное содержимое
 

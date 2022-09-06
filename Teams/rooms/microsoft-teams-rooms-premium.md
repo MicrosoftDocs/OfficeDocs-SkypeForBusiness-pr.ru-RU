@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Сведения об управляемой Комнаты Microsoft Teams службе.
 f1keywords: ''
-ms.openlocfilehash: 322e67a0bc6e03db7960e64d2cd5e7a97b930dbc
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 5e59312d3febe2dc6b4178874bae21fc27fe77d2
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269584"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606288"
 ---
 # <a name="microsoft-teams-rooms-managed-service"></a>Комнаты Microsoft Teams управляемой службы
 
@@ -110,11 +110,11 @@ ms.locfileid: "67269584"
 
 ## <a name="supported-regions"></a>Поддерживаемые регионы
 
-Лицензия Комнаты Microsoft Teams премиум доступна в следующих странах с аудиоконференций:
+Лицензия Комнаты Microsoft Teams Pro доступна в следующих странах с аудиоконференций:
 
 - Австралия, Бельгия, Бразилия, Бразилия, Канада, Сербия, Сербия, Чешская Республика, Норвегия, Германия, Франция, Германия, Германия, Гонконг (САР), Гонконг, Ирландия, Ирландия, Япония, Сербия, Мексика, Мексика, Нидерланды, Новая Зеландия, Норвегия, Норвегия, Португалия, Россия, Сингапур, Япония, Южная Африка, Испания, Швеция, Швейцария, Тайвань, Соединенное Королевство, США.
 
-Лицензия Комнаты Microsoft Teams премиум доступна в следующих странах без аудиоконференций:
+Лицензия Комнаты Microsoft Teams Pro доступна в следующих странах без аудиоконференций:
 
 - Andorra,Vetvet Island, Christmas Island, Cocos (Keeling) Islands, Cook Islands, Faroe Islands, Веб-сайт, Бук, Greenland, Heard Islands and Mc Islands, India, India, Kiribati, Lesotho, Liechtenho, Macao SAR, Marshall Islands, Micronesia, Nauru, Niue, Norfolk Island, Norfolk Islands, Norfolk Islands, Palau,Кау, Pitcairn Islands, Islands Pitcairn, Saint Url and Miquelon, Samoa, San Marino, Islands, Swaziland, Tokelau, Tonga, Tuvalu,  Vanuatu, Vatican City, Wallis and Futuna.
 
@@ -144,6 +144,6 @@ ms.locfileid: "67269584"
 
 Собранные данные относятся только к учетной записи комнаты, а не к отдельному пользователю. Случайные ссылки на отдельного пользователя могут присутствовать в журнале действий во время использования устройства. Собранные данные обрабатываются корпорацией Майкрософт в соответствии с заявлением [о конфиденциальности Майкрософт](https://aka.ms/privacy).  
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
 - [Комнаты Microsoft Teams управляемой службы](https://rooms.microsoft.com)

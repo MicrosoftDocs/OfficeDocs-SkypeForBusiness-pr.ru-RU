@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: В этой статье содержатся сведения о создании учетных записей ресурсов для комнат и общих устройств, включая Комнаты Microsoft Teams, Комнаты Teams Surface Hub и функции "Горячее обслуживание" в Teams.
-ms.openlocfilehash: 45cd61b476f10f673150653144bdb79a47604962
-ms.sourcegitcommit: 17f4baf85e1ac6a2af5f5c6ea2d5aae763efd917
+ms.openlocfilehash: e9e7b2724c5c1d8fd85aff956affe96dadf9aaae
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "67405161"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606228"
 ---
 # <a name="create-and-configure-resource-accounts-for-rooms-and-shared-teams-devices"></a>Создание и настройка учетных записей ресурсов для комнат и общих устройств Teams
 
@@ -266,7 +266,7 @@ Set-AzureADUser -ObjectID ConferenceRoom01@contoso.com -PasswordPolicies Disable
        Connect-MsolService
        ```
 
-       Дополнительные сведения об Active Directory см. [в статье Об Azure Active Directory (MSOnline).](/powershell/azure/active-directory/overview?view=azureadps-1.0)
+       Дополнительные сведения об Active Directory см. [в статье Об Azure Active Directory (MSOnline).](/powershell/azure/active-directory/overview?view=azureadps-1.0&preserve-view=true)
 
 2. Задайте для пароля значение "Никогда не истекает", используя следующий синтаксис:
 
@@ -309,7 +309,7 @@ Set-AzureADUser -ObjectID ConferenceRoom01@contoso.com -PasswordPolicies Disable
 Учетной записи ресурса требуется лицензия Microsoft 365 или Office 365 для входа в Microsoft Teams.
 
 > [!NOTE]
-> Комнаты Microsoft Teams стандартный и Комнаты Microsoft Teams премиум доступны два номера SKU для общих устройств конференц-залов, включая Комнаты Teams. Для дисплеев Teams с горячим обслуживанием требуется лицензия на конференц-зал. Дополнительные сведения см. в статье [о лицензировании комнат собраний Teams](rooms-licensing.md).
+> Комнаты Microsoft Teams Basic и Комнаты Microsoft Teams Pro — это два доступных номера SKU для общих устройств конференц-залов, включая Комнаты Teams. Для дисплеев Teams с горячим обслуживанием требуется лицензия на конференц-зал. Дополнительные сведения см[. в Комнаты Microsoft Teams лицензий](rooms-licensing.md).
 
 Сведения о назначении лицензий с Центр администрирования Microsoft 365 см. в статье ["Назначение лицензий пользователям"](/microsoft-365/admin/manage/assign-licenses-to-users). Чтобы назначить лицензии с Azure AD, перейдите на одну из следующих вкладок:
 
@@ -322,7 +322,7 @@ Set-AzureADUser -ObjectID ConferenceRoom01@contoso.com -PasswordPolicies Disable
     Connect-AzureAD
     ```
 
-     Дополнительные сведения об Active Directory см. [в Azure Active Directory PowerShell для Graph](/powershell/azure/active-directory/overview?view=azureadps-2.0).
+     Дополнительные сведения об Active Directory см. [в Azure Active Directory PowerShell для Graph](/powershell/azure/active-directory/overview?view=azureadps-2.0&preserve-view=true).
     
 2. Назначьте расположение использования для учетной записи ресурса с помощью `Set-AzureADUser` командлета. Это определяет, какие номера SKU лицензий доступны.
 
@@ -363,7 +363,7 @@ Set-AzureADUser -ObjectID ConferenceRoom01@contoso.com -PasswordPolicies Disable
    Connect-MsolService
    ```
 
-    Дополнительные сведения об Active Directory см. [в разделе Azure Active Directory (MSOnline).](/powershell/azure/active-directory/overview?view=azureadps-1.0)
+    Дополнительные сведения об Active Directory см. [в разделе Azure Active Directory (MSOnline).](/powershell/azure/active-directory/overview?view=azureadps-1.0&preserve-view=true)
 
 2.  Назначьте расположение использования для учетной записи ресурса с помощью `Set-MsolUser` командлета. Это определяет, какие номера SKU лицензий доступны.
 
@@ -402,7 +402,7 @@ Set-AzureADUser -ObjectID ConferenceRoom01@contoso.com -PasswordPolicies Disable
 
 ### <a name="configure-distribution-groups-for-teams-calendar"></a>Настройка групп рассылки для календаря Teams
 
-Чтобы упорядочить расположения конференц-залов, можно добавить учетные записи ресурсов устройств в группы рассылки Exchange. Например, если у вас есть офисы в трех разных географических расположениях, можно создать три группы рассылки и добавить соответствующие учетные записи ресурсов в каждое расположение. Дополнительные сведения см. в [разделе "Создание списка комнат"](/exchange/recipients/room-mailboxes?view=exchserver-2019#create-a-room-list).
+Чтобы упорядочить расположения конференц-залов, можно добавить учетные записи ресурсов устройств в группы рассылки Exchange. Например, если у вас есть офисы в трех разных географических расположениях, можно создать три группы рассылки и добавить соответствующие учетные записи ресурсов в каждое расположение. Дополнительные сведения см. в [разделе "Создание списка комнат"](/exchange/recipients/room-mailboxes?view=exchserver-2019&preserve-view=true#create-a-room-list).
 
 ### <a name="configure-places-for-outlook-calendar"></a>Настройка мест для Календарь Outlook
 Чтобы расположения комнат собраний отображались в Outlook Room Finder, необходимо использовать Set-Place Exchange PowerShell. Не только Set-Place в Outlook, но и позволяет добавлять дополнительные метаданные, такие как емкость комнаты или этаж здания комнаты. Дополнительные сведения см. в [разделе Set-Place](/powershell/module/exchange/set-place).

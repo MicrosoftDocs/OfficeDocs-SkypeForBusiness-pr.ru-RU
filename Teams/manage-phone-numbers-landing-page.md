@@ -27,12 +27,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: Узнайте, как получать номера телефонов пользователей (подписчиков) и служб (платных и бесплатных) для Microsoft Teams для вашей организации и управлять ими.
-ms.openlocfilehash: 15caaa7b5d21ae86d0b0079aeb743690294fd85b
-ms.sourcegitcommit: 3f6ae7946b64e857f6358019be2f0fdf19a207ad
+ms.openlocfilehash: 613a3f5f287615c6e18024d1afba1d94d0fea67c
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/29/2022
-ms.locfileid: "67074677"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606748"
 ---
 # <a name="manage-telephone-numbers-for-your-organization"></a>Управление телефонными номерами для организации
 
@@ -54,7 +54,11 @@ ms.locfileid: "67074677"
 
 - Сведения об управлении телефонными номерами для operator Connect см. в разделе ["Настройка телефонных номеров с помощью оператора Connect"](operator-connect-configure.md#set-up-phone-numbers).
 
+- Сведения об управлении номерами телефонов для Operator Connect Mobile (общедоступная предварительная версия) см. в разделе "Настройка телефонных номеров [с помощью](operator-connect-mobile-configure.md#set-up-phone-numbers) Operator Connect Mobile".
+
 - Сведения об управлении телефонными номерами для прямой маршрутизации см. в разделе "Настройка номера телефона [и включение корпоративной голосовой связи"](direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice).
+
+
 
 
 > [!NOTE]

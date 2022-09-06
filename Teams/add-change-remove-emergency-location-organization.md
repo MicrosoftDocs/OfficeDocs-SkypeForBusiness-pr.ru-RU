@@ -19,22 +19,22 @@ f1.keywords:
 - NOCSH
 description: Сведения о добавлении, изменении или удалении местоположения для экстренного реагирования в организации.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: bcbe811ecdb7ac9377e4798a2cdcb7334188aa1e
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: c0a195a221bff5b008f5754592450f4f2b1e42e6
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67267604"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606638"
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>Добавление, изменение и удаление местоположения организации для экстренного реагирования
 
-Независимо от [варианта подключения по ТСОП](pstn-connectivity.md)&mdash;, вы можете связать с номером телефона планы звонков Майкрософт, operator Connect или direct Routing&mdash;emergency locations.
+Независимо от варианта подключения [по ТСОП](pstn-connectivity.md)&mdash;, с номером телефона можно связать планы звонков Майкрософт, operator Connect, Operator Connect Mobile (общедоступная предварительная версия)&mdash;или расположения для прямой маршрутизации.
 
 Однако в зависимости от варианта подключения к ТСОП способ управления местоположениями для экстренного реагирования и требованиями к расположению может отличаться. Дополнительные сведения см. в разделе ["Управление экстренными звонками"](what-are-emergency-locations-addresses-and-call-routing.md).
 
 В этой статье описывается добавление, изменение или удаление местоположения для экстренного реагирования в вашей организации. 
 
-Эта статья относится к планам звонков Майкрософт, Operator Connect и прямой маршрутизации.
+Эта статья относится к планам звонков Майкрософт, Operator Connect, Operator Connect Mobile (общедоступная предварительная версия) и прямой маршрутизации.
 
 Вы управляете расположениями для экстренного реагирования для своей организации в Центре администрирования Microsoft Teams или с помощью PowerShell.
 
@@ -86,7 +86,7 @@ ms.locfileid: "67267604"
 
 См [. раздел Remove-CsOnlineLisCivicAddress](/powershell/module/skype/remove-csonlineliscivicaddress).
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
 - [Управление экстренными звонками](what-are-emergency-locations-addresses-and-call-routing.md)
 - [Добавление, изменение и удаление места для расположения для экстренного реагирования для организации](add-change-remove-emergency-place-organization.md)

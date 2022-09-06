@@ -24,12 +24,12 @@ search.appverid: MET150
 description: Узнайте больше о функциях облачной голосовой связи Microsoft Teams и о решениях по развертыванию, которые вы будете принимать для своей организации.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2b1f4b0756e640d9b93e235b2724ce7841b4f44f
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: 40f2a4f56b9d1c174696265300226263eb41a9de
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66240828"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606068"
 ---
 # <a name="plan-your-teams-voice-solution"></a>Планирование голосового решения Teams
 
@@ -49,6 +49,7 @@ ms.locfileid: "66240828"
 
 - Телефонная система с планом звонков
 - Телефонная система с собственным оператором ТСОП с operator Connect
+- Телефонная система с собственным мобильным оператором ТСОП с Operator Connect Mobile (общедоступная предварительная версия)
 - Телефонная система с собственным оператором ТСОП с прямой маршрутиза службой
 - Комбинированное решение, использующее телефонную систему с планом звонков, телефонную систему с оператором Connect и (или) телефонную систему с прямой маршрутиза службой.
 
@@ -111,7 +112,7 @@ ms.locfileid: "66240828"
 - [Настройка телефонной системы в организации](setting-up-your-phone-system.md)<br>
   В этой статье описывается, как приобрести и назначить лицензии на телефонную систему, управлять номерами телефонов и настроить кредиты на связь для бесплатных номеров. 
 
-Сведения об управлении поддерживаемыми устройствами см. в статье "Управление устройствами [в Microsoft Teams](devices/device-management.md) [и Teams Marketplace"](https://www.microsoft.com/microsoft-365/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1).
+Сведения об управлении поддерживаемыми устройствами см. в статье "Управление устройствами [в Microsoft Teams](devices/device-management.md) и [Teams Marketplace"](https://www.microsoft.com/microsoft-365/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1).
 
 
 ### <a name="auto-attendants-and-call-queues"></a>Автосекретари и очереди вызовов
@@ -150,9 +151,12 @@ ms.locfileid: "66240828"
 
 - [**Телефонная система с тарифным планом**](pstn-connectivity.md#phone-system-with-calling-plan). Облачное решение с Корпорацией Майкрософт в качестве оператора ТСОП.
 
-- [**Телефонная система с собственным оператором ТСОП с помощью Operator Connect**](operator-connect-plan.md). Если оператор Operator Connect участвует в программе Microsoft Operator Connect, он может управлять службой для вызова ТСОП в Teams. Сведения о преимуществах и требованиях Operator Connect см. в [разделе Plan Operator Connect](operator-connect-plan.md).
+- [**Телефонная система с собственным оператором ТСОП с помощью Operator Connect**](operator-connect-plan.md). Если оператор Operator Connect участвует в программе Microsoft Operator Connect, он может управлять службой для вызова ТСОП в Teams. 
+
+- [**Телефонная система с собственным мобильным оператором ТСОП с Operator Connect Mobile**](operator-connect-mobile-plan.md) **общедоступной проверки**. С Operator Connect Mobile, если существующий оператор участвует в программе Microsoft Operator Connect Mobile, он может управлять службой для использования номеров мобильных телефонов с поддержкой SIM-карты в Teams. 
 
 - [**Телефонная система с собственным оператором ТСОП с помощью прямой**](pstn-connectivity.md#phone-system-with-direct-routing) маршрутизации для подключения локальной среды к Teams.
+
 
 Вы можете выбрать сочетание параметров, которое позволяет проектировать решение для сложной среды или управлять многошаговой миграцией. Дополнительные сведения о миграции вы узнаете позже.
 

@@ -16,16 +16,18 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 description: В этой статье описывается, как Комнаты Microsoft Teams устройства с помощью Azure Monitor.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2f0878e7553e2d151f781c3f522a9b533b4b56d8
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 53cc9c571657591c43aa35944802fd02dcf6bd4c
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268974"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606408"
 ---
 # <a name="monitor-microsoft-teams-rooms-devices-with-azure-monitor"></a>Мониторинг Комнаты Microsoft Teams устройств с помощью Azure Monitor
 
 В этой статье описывается, как Комнаты Microsoft Teams с помощью Azure Monitor.
+
+[!INCLUDE [teams-pro-license-requirement](../includes/teams-pro-license-requirement.md)]
 
 Вы можете настроить Azure Monitor для предоставления базовых данных телеметрии, которые помогут отслеживать устройства комнат собраний Microsoft Teams. [Дополнительные сведения см. в статье Комнаты Microsoft Teams](azure-monitor-plan.md) управления планами с помощью Azure Monitor [и развертывания Комнаты Microsoft Teams с помощью Azure Monitor](azure-monitor-deploy.md). По мере развития решения для мониторинга можно использовать другие возможности мониторинга и данных, чтобы получить более подробное представление о производительности устройства.
 
@@ -45,7 +47,7 @@ ms.locfileid: "67268974"
 | 3001  <br> Событие ошибки  | Событие, свидетельствующее об ошибке оборудования. В Комнаты Microsoft Teams есть процесс, который каждые 5 минут проверяет работоспособность подключенных аппаратных компонентов (перед комнатой, микрофоном, динамиком, камерой). Если один или несколько компонентов неработоспособны, он записывает EventID 3001 в журнал событий. Это событие записывается каждые 5 минут, пока проблема с устройством не будет устранена.   | `{"Description":" Front of Room Display status : Unhealthy. Configured display count is 2. Real display count is 0. Conference Microphone status : Unhealthy. Conference Speaker status : Healthy. Default Speaker status : Healthy. Camera status : Healthy.", "ResourceState":"Unhealthy", "OperationName":"HardwareCheckEngine", "OperationResult":"Fail", "OS":"Windows 10", "OSVersion":"10.0.14393.1198", "Alias":"alias<span></span>@contoso.com", "DisplayName":"Yosemite conference room", "AppVersion":"2.0.58.0", "IPv4Address":"10.10.10.10", "IPv6Address":"IPv6Address", "IPv4Address2":"10.10.10.10"}` <br><br>   В параметрах, соответствующих периферийным компонентам оборудования, может отображаться значение "Healthy" (Работоспособно) или "Unhealthy" (Неработоспособно).  <br> В этом примере настроены два  дисплея переднего плана комнаты, и в настоящее время ни один из них не доступен. Состояние _микрофона конференции_ _неработоспособно_, что может иметь несколько возможных причин. Так как не все компоненты прошли проверку, в параметре "ResourceState" (Состояние ресурса) содержится значение "Unhealthy" (Неработоспособно). В этом случае необходимо обратиться к техническому специалисту для дальнейшего анализа причин неполадок. |
 | 4000  <br> Информация  <br> | Событие, свидетельствующее о перезапуске приложения. Записывается в журнал событий Windows при каждом перезапуске приложения.  <br> | `{"Description":"App restarts.", "ResourceState":"Healthy", "OperationName":"Restart", "OperationResult":"Pass", "OS":"Windows 10", "OSVersion":"10.0.14393.693", "Alias":"alias<span></span>@domain.com", "DisplayName":"Display Name", "AppVersion":"1.0.38.0", "IPv4Address":"10.10.10.10", "IPv6Address":"ip v6 address"}` <br><br> Приложение может быть перезапущено по различным причинам. Сравните частоту перезапуска устройств в одном и том же здании и в разных зданиях. Помните об известных проблемах, таких как колебания мощности и сбои, так как это может оказаться подсказкой для проблем инфраструктуры.|
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
  
 
 [Планирование Комнаты Microsoft Teams мониторинга с помощью Azure Monitor](azure-monitor-plan.md)

@@ -16,12 +16,12 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 description: В этой статье рассматриваются вопросы планирования использования Azure Monitor для отслеживания Комнаты Microsoft Teams в реализации Skype для бизнеса Teams.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ac3ac3af4e4f162238af0e9bf38c45569302fdfb
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 5640fd63ac413403105be7d5f23e413b2f19ebdf
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269574"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606398"
 ---
 # <a name="plan-microsoft-teams-rooms-monitoring-with-azure-monitor"></a>Планирование Комнаты Microsoft Teams мониторинга с помощью Azure Monitor
  
@@ -29,6 +29,8 @@ ms.locfileid: "67269574"
 
 > [!NOTE]
 > Вы также можете [настроить мониторинг работоспособности Комнаты Teams с помощью](../alerts/device-health-status.md) Центра администрирования Teams.
+
+[!INCLUDE [teams-pro-license-requirement](../includes/teams-pro-license-requirement.md)]
 
 [Azure Monitor](/azure/azure-monitor/overview) — это набор служб мониторинга, которые были разработаны в облаке с начала. Вместо развертывания локальных ресурсов и управления ими компоненты Azure Monitor полностью размещаются в Azure. Конфигурация минимальна, и вы можете быть запущены в течение нескольких минут. С помощью некоторых настроек это может помочь в мониторинге Комнаты Microsoft Teams путем предоставления уведомлений о работоспособности системы или сбоях для отдельных систем помещений, а также может масштабироваться до управления тысячами Комнаты Microsoft Teams.
   

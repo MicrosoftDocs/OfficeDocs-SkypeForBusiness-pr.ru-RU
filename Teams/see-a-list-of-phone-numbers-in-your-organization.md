@@ -23,18 +23,18 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: Узнайте, как использовать Центр администрирования Microsoft Teams, чтобы просмотреть список всех телефонных номеров в организации и всех номеров, назначенных пользователям или не назначенных.
-ms.openlocfilehash: 84162b3971b1730df114482d30820dcf7e86a684
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: ac7c63515b34b8c199f8050933b6c3ccbc6f8d33
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66494466"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606078"
 ---
 # <a name="see-a-list-of-telephone-numbers"></a>Просмотр списка телефонных номеров 
 
 Существуют различные типы телефонных номеров, которые можно назначить пользователям или голосовым приложениям, таким как аудиоконференции [или](deploy-audio-conferencing-teams-landing-page.md) [очереди звонков](plan-auto-attendant-call-queue.md). Дополнительные сведения см. в разделе ["Управление телефонными номерами для вашей организации"](/microsoftteams/manage-phone-numbers-landing-page).
 
-Эта статья относится к тарифным планам и оператору Connect. Сведения о прямой маршрутизации см. в разделе ["Настройка номера телефона и включение корпоративной голосовой связи"](direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice).
+Эта статья относится к тарифным планам, operator Connect и Operator Connect Mobile (общедоступная предварительная версия). Сведения о прямой маршрутизации см. в разделе ["Настройка номера телефона и включение корпоративной голосовой связи"](direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice).
   
 ## <a name="to-see-all-telephone-numbers-in-your-organization"></a>Просмотр всех телефонных номеров в организации
 
@@ -108,7 +108,7 @@ Get-CsPhoneNumberAssignment | ft TelephoneNumber,ActivationState,NumberType
 Get-CsOnlineUser | Where-Object  { $_.LineURI -notlike $null } | ft DisplayName,UserPrincipalName,LineURI
 ```
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
 [Управление телефонными номерами для организации](manage-phone-numbers-landing-page.md)
 

@@ -16,16 +16,18 @@ ms.collection:
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: В этой статье описывается, как развернуть мониторинг Комнаты Microsoft Teams интегрированным и сквозным способом с помощью Azure Monitor.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 2b6d1931b0a1818b5146f6ac0e02c225fea3af52
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 5dbea45008024762f30d9555f4762c4377d2ed1f
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67267454"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606418"
 ---
 # <a name="deploy-no-loc-textmicrosoft-teams-rooms-monitoring-with-no-loc-textazure-monitor"></a>Развертывание :::no-loc text="Microsoft Teams Rooms"::: мониторинга с помощью :::no-loc text="Azure Monitor":::
 
 В этой статье описывается, как настроить и развернуть :::no-loc text="Microsoft Teams Rooms"::: интегрированный сквозной мониторинг устройств с помощью :::no-loc text="Azure Monitor":::.
+
+[!INCLUDE [teams-pro-license-requirement](../includes/teams-pro-license-requirement.md)]
 
 Вы можете настроить в :::no-loc text="Log Analytics"::: пределах для :::no-loc text="Azure Monitor"::: предоставления базовой телеметрии и оповещений, которые помогут вам управлять :::no-loc text="Microsoft Teams Rooms":::. По мере развития решения для управления вы можете развернуть дополнительные возможности управления данными и данными, чтобы получить более подробное представление о доступности и производительности устройств.
 
@@ -180,7 +182,7 @@ ms.locfileid: "67267454"
 5.  Определите **вторую плитку**:<br>
     **Легенда:** Активные устройства, отправив пульс за последний час<br>
     **Запроса:** ```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" and TimeGenerated > ago(1h) | summarize TotalSRSDevices = dcount(Computer)```
-6.  Нажмите **кнопку "Применить"**.
+6.  Нажмите **Применить**.
 
 ### <a name="create-a-tile-that-displays-active-devices"></a>Создание плитки, отображаемой на активных устройствах
 
