@@ -3,6 +3,29 @@
 
 
 
+## <a name="week-of-august-29-2022"></a>Неделя с 29 августа 2022 г.
+
+
+| Дата публикации |Название статьи | Изменение |
+|------|------------|--------|
+| 8/29/2022 | [Отработка отказа канала связи при исходящих звонках](/MicrosoftTeams/direct-routing-trunk-failover-on-outbound-call) | Изменено |
+| 8/29/2022 | [Планирование успешного перехода с Kaizala на Microsoft Teams](/MicrosoftTeams/plan-your-move-kaizala) | Изменено |
+| 8/29/2022 | [Управление номерами телефонов для Мексика](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-mexico) | Добавлено |
+| 8/30/2022 | [Хранилище устройств Teams](/MicrosoftTeams/devices/device-store) | Изменено |
+| 8/30/2022 | [Телефонная система Microsoft Teams учетной записи ресурса](/MicrosoftTeams/teams-add-on-licensing/virtual-user) | Изменено |
+| 8/30/2022 | [Управление пользователями, которые могут начинать мгновенные собрания и планировать собрания](/MicrosoftTeams/manage-who-can-schedule-meetings) | Добавлено |
+| 8/30/2022 | [Запись собрания Teams в облаке](/MicrosoftTeams/cloud-recording) | Изменено |
+| 8/30/2022 | Политики собраний и срок действия собраний в Microsoft Teams | Удалено |
+| 8/30/2022 | [Управление политиками собраний для записи и транскрибирования](/MicrosoftTeams/meetings-policies-recording-and-transcription) | Изменено |
+| 8/30/2022 | [Использование OneDrive для бизнеса и SharePoint для записей собраний](/MicrosoftTeams/tmr-meeting-recording-change) | Изменено |
+| 8/31/2022 | [Администратор учебных ресурсов — Microsoft Teams](/MicrosoftTeams/itadmin-readiness) | Изменено |
+| 8/31/2022 | [Ресурсы для интеграции с Career Coach в Microsoft Teams](/MicrosoftTeams/career-coach-resources) | Изменено |
+| 8/31/2022 | [Настройка магазина приложений в Teams](/MicrosoftTeams/customize-your-app-store) | Изменено |
+| 9/1/2022 | [Управление Microsoft 365 для организации с помощью Администратор в Microsoft Teams](/MicrosoftTeams/manage-admin-app) | Добавлено |
+| 9/2/2022 | [Заметки о выпуске Комнаты Microsoft Teams (Windows)](/MicrosoftTeams/rooms/rooms-release-note) | Изменено |
+| 9/2/2022 | [Удаленное управление Комнаты Microsoft Teams параметров устройства](/MicrosoftTeams/rooms/xml-config-file) | Изменено |
+
+
 ## <a name="week-of-august-22-2022"></a>Неделя с 22 августа 2022 г.
 
 
@@ -201,26 +224,3 @@
 | 8/4/2022 | [Расширение мобильного приложения](/MicrosoftTeams/rooms/extended-mobile-app) | Изменено |
 | 8/5/2022 | [Управление тегами в Microsoft Teams](/MicrosoftTeams/manage-tags) | Изменено |
 | 8/5/2022 | [Планирование шлюза SIP](/MicrosoftTeams/sip-gateway-plan) | Изменено |
-
-
-## <a name="week-of-july-25-2022"></a>Неделя с 25 июля 2022 г.
-
-
-| Дата публикации |Название статьи | Изменение |
-|------|------------|--------|
-| 7/25/2022 | [Изменения номеров телефонов и лицензирования](/MicrosoftTeams/phone-numbers-licensing-changes) | Добавлено |
-| 7/25/2022 | [Политики собраний и срок действия собраний в Microsoft Teams](/MicrosoftTeams/meeting-expiration) | Изменено |
-| 7/25/2022 | [Регистрация устройства комнаты Teams в управляемых службах](/MicrosoftTeams/rooms/enroll-a-device) | Изменено |
-| 7/25/2022 | [Журналы браузера и трассировка для Teams](/MicrosoftTeams/browser-logs-and-tracing-for-teams) | Добавлено |
-| 7/25/2022 | [Настройка файлов журналов для мониторинга и устранения неполадок в Teams](/MicrosoftTeams/log-files) | Изменено |
-| 7/26/2022 | [Ресурсы для интеграции с Career Coach в Microsoft Teams](/MicrosoftTeams/career-coach-resources) | Добавлено |
-| 7/26/2022 | [Настройка и настройка Career Coach для Microsoft Teams](/MicrosoftTeams/career-coach-set-up-steps) | Добавлено |
-| 7/26/2022 | [Устранение неполадок с карьерным тренером в Microsoft Teams](/MicrosoftTeams/career-coach-troubleshoot) | Добавлено |
-| 7/26/2022 | [Ошибки общих каналов в Microsoft Teams](/MicrosoftTeams/shared-channels-errors) | Добавлено |
-| 7/26/2022 | [Начало работы с career coach для Microsoft Teams](/MicrosoftTeams/career-coach) | Изменено |
-| 7/26/2022 | [Начало работы с career coach для Microsoft Teams](/MicrosoftTeams/cloud-recording) | Изменено |
-| 7/26/2022 | [Использование гостевого и внешнего доступа для совместной работы с людьми из-за пределов организации](/MicrosoftTeams/communicate-with-users-from-other-organizations) | Изменено |
-| 7/26/2022 | [Управление партнерами для клиентов](/MicrosoftTeams/rooms/multi-tenant-management-customer) | Изменено |
-| 7/26/2022 | [Управление клиентами с несколькими клиентами для партнеров](/MicrosoftTeams/rooms/multi-tenant-management-partner) | Изменено |
-| 7/26/2022 | [Назначение пользователям лицензий на надстройки Teams](/MicrosoftTeams/teams-add-on-licensing/assign-teams-add-on-licenses) | Изменено |
-| 7/29/2022 | [Управление номерами телефонов для организации](/MicrosoftTeams/manage-phone-numbers-landing-page) | Изменено |
