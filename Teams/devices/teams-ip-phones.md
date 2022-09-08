@@ -22,12 +22,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Узнайте, какие стационарные и конференции сертифицированы для Microsoft Teams для достижения наилучших результатов.
-ms.openlocfilehash: 4070bdb567556422c5ec2a3db78c3d3670e1dda9
-ms.sourcegitcommit: 9a9168d5c40bbb0cceaf3ffd11eb104c137f26b3
+ms.openlocfilehash: 5294b011ee8fbe852e2a82e2d700fbd212c0f4e8
+ms.sourcegitcommit: 8b33cc2c2e8f43e6ab4b17715d6a42692351ccad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/03/2022
-ms.locfileid: "67590196"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "67624309"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Сертифицированные устройства Android в Microsoft Teams
 
@@ -74,6 +74,7 @@ ms.locfileid: "67590196"
 
 | Модель устройства | Версия встроенного ПО | Текущая дата окончания сертификации | Размер комнаты                                        |  Версия ОС Android    |
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|-----------------------------------|
+| Logitech Tap IP (VR0029) с RoomMate (VR0030) | `1.6.565`  |   3 сентября 2024 г.  | Большая комната для собраний (4,5 м x 8,5 м) | 10 |
 | Yealink MeetingBoard 65" | `155.15.0.6 `   | 3 сентября 2024 г. | Комната среднего размера (4,5 м x 6 м) | 10|
 | Yealink MeetingBar A20 | `133.15.0.108  `   | 3 сентября 2024 г. | Небольшая комната для собраний (4,5 м x 4,5 м)| 10|
 | Yealink MeetingBar A30 | `133.15.0.108  `   | 3 сентября 2024 г. | Комната среднего размера (4,5 м x 6 м) | 10|
@@ -402,7 +403,7 @@ ms.locfileid: "67590196"
 
 Лицензии Microsoft Teams можно приобрести в составе [microsoft 365 или Office 365 подписки](/office365/servicedescriptions/teams-service-description). Дополнительные сведения о необходимых лицензиях для использования Microsoft Teams на телефонах см. в доступных [лицензиях телефонной системы](https://products.office.com/microsoft-teams/voice-calling).
 
-Дополнительные сведения о получении Teams см. 如何实现 [доступ к Microsoft Teams?](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
+Дополнительные сведения о получении Teams см. Разделы справки [доступ к Microsoft Teams?](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 
 Если вы являетесь поставщиком, который пытается присоединиться к программе сертификации, см[](/skypeforbusiness/certification/how-to-join). статью "Присоединение к требованиям и доступным программам".
 
