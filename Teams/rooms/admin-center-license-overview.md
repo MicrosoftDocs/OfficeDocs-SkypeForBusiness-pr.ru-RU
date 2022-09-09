@@ -22,12 +22,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: Узнайте о лицензировании Комнаты Teams и доступности функций в Центре администрирования Teams и сравните их.
-ms.openlocfilehash: f880f2878c98e739c0367faafed252f93f4cd3d5
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: d88e7a0c0a6c17fb22f1cc94fcd4de65a3ff79a2
+ms.sourcegitcommit: 732a7f3e120cfa221d42b4e8af2cf9ff623488a1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606893"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "67633639"
 ---
 # <a name="microsoft-teams-rooms-license-overview-in-teams-admin-center"></a>Комнаты Microsoft Teams лицензии в Центре администрирования Teams
 
@@ -37,11 +37,11 @@ ms.locfileid: "67606893"
 
 ## <a name="see-which-licenses-are-assigned-to-teams-rooms-devices"></a>Просмотр лицензий, назначенных Комнаты Teams устройств
 
-Чтобы узнать, какая у устройства лицензия, перейдите на устройства Teams в Центре администрирования **Teams** , а затем выберите категорию устройства, которую вы хотите просмотреть. Например, если выбрать устройства **Teams** >  **Комнаты Teams в Windows**, вы увидите примерно следующее изображение. В **столбце "** Лицензия" отображается Комнаты Teams лицензии, назначенной каждому устройству.
+Чтобы узнать, какая лицензия у ваших устройств, перейдите на устройства Teams в Центре администрирования Teams, а затем выберите категорию устройств (Комнаты Teams в Windows, Комнаты Teams Android и Surface Hub), которую вы хотите просмотреть. Например, если выбрать устройства **Teams** >  **Комнаты Teams в Windows**, вы увидите примерно следующее изображение. В **столбце "** Лицензия" отображается Комнаты Teams лицензии, назначенной каждому устройству.
 
 :::image type="content" source="../media/mtr-device-inventory-license-focus.png" alt-text="Комнаты Teams инвентаризации с фокусом на лицензиях Standard, Pro и Pro (пробная версия).":::
 
-Устройства с **лицензиями Pro** **или Pro (пробная версия)** могут получить доступ ко всем функциям Центра администрирования Teams. Устройства с другими лицензиями могут получить доступ к подмножество этих функций. Какие функции доступны для каждой лицензии, можно узнать в Комнаты Teams [по лицензии](#comparison-of-teams-rooms-feature-availability-by-license).
+Устройства с **лицензией Pro** могут получить доступ ко всем функциям Центра администрирования Teams. Устройства с другими лицензиями могут получить доступ к подмножество этих функций. Какие функции доступны для каждой лицензии, можно узнать в Комнаты Teams [по лицензии](#comparison-of-teams-rooms-feature-availability-by-license).
 
 > [!IMPORTANT]
 > Если выбрано несколько устройств, включающее лицензии Комнаты Microsoft Teams Basic и Комнаты Microsoft Teams Pro, действия, для которых требуется лицензия Комнаты Microsoft Teams Pro, будут выполняться только на устройствах, которым назначена эта лицензия. Действие не будет выполняться на устройствах, назначенных лицензии Комнаты Microsoft Teams Basic.
