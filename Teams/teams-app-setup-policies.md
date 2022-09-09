@@ -18,12 +18,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 67a6424d6fcde396ebdbb41b3c00fc4186e8e475
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: cfcd041fd755016ec04832f42c497e2b0ad51469
+ms.sourcegitcommit: ebffec34c050421dc8d09a16907644657ce323f4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396700"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "67637012"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Управление политиками настройки приложений в Microsoft Teams
 
@@ -92,7 +92,7 @@ ms.locfileid: "67396700"
 * Установите приложения для конечных пользователей в личной среде Teams.
 * Установите приложения для конечных пользователей в качестве [расширений для обмена сообщениями](/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions).
 
-Конечные пользователи могут устанавливать приложения самостоятельно, если это разрешено [](teams-app-permission-policies.md) политикой разрешений приложения и разрешено администратором Teams. Вместо этого, если приложение заблокировано для пользователя или организации, конечные пользователи могут запрашивать [утверждение администратора](manage-apps.md#manage-user-requests-to-allow-apps).
+Конечные пользователи могут устанавливать приложения самостоятельно, если это разрешено [](teams-app-permission-policies.md) политикой разрешений приложения и разрешено администратором Teams. Вместо этого, если приложение заблокировано для пользователя или организации, конечные пользователи могут запрашивать [утверждение администратора](user-requests-approve-apps.md).
 
 Чтобы установить приложения с помощью политики установки приложений, выполните следующие действия.
 
