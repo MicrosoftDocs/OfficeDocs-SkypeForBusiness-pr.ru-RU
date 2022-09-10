@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Выполните следующие действия, чтобы создать номер телефона по умолчанию для абонентов, которые присоединяются к собранию Microsoft Teams.
-ms.openlocfilehash: f0956007d5df72c1fd6c6ae905433e73bd855a56
-ms.sourcegitcommit: 312ff79ecab91412918793ec882bfc6e0143d30a
+ms.openlocfilehash: 27ff7040b27d2265bcdc5ab30f48cb919746471b
+ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/19/2022
-ms.locfileid: "66884848"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "67642070"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-microsoft-teams"></a>Задание телефонных номеров, включаемых в приглашения, в Microsoft Teams
 
@@ -98,8 +98,8 @@ Windows PowerShell is all about managing users and what users are allowed or not
 
 Чтобы задать или изменить номер телефона по умолчанию для организатора собрания или пользователя с помощью [Microsoft Teams PowerShell](/powershell/module/teams/?view=teams-ps), **`ServiceNumber`** **`TollFreeServiceNumber`** задайте для командлета [Set-CsOnlineDialInConferencingUser](/powershell/module/skype/set-CsOnlineDialInConferencingUser?view=skype-ps) одно из доступных номеров или параметры.
 
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>См. также
 
-[Попробуйте или приобретите аудиоконференции в Microsoft 365 или Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[Попробуйте или приобретите аудиоконференции в Microsoft 365 для Microsoft Teams](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
 
 [Изменение номеров телефонов для моста аудиоконференций](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)

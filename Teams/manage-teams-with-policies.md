@@ -14,12 +14,12 @@ appliesto:
 - Microsoft Teams
 ms.collection:
 - M365-collaboration
-ms.openlocfilehash: acaa1280e00ad2e86a49c2bbd8e7f4464bd0c0e7
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: e369403e17136aaec6341e46b4851d18fb778a89
+ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268764"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "67641870"
 ---
 # <a name="manage-teams-with-policies"></a>Управление Teams с помощью политик
 
@@ -70,7 +70,7 @@ ms.locfileid: "67268764"
 [Политики приложений](app-policies.md)| Политики приложений используются для управления приложениями в Microsoft Teams. Администраторы могут разрешить или заблокировать приложения, которые пользователи могут устанавливать, закреплять приложения на панели приложений Teams пользователя и устанавливать приложения от имени пользователей.
 [Политики обмена сообщениями](messaging-policies-in-teams.md)| Политики обмена сообщениями могут управлять доступностью функций чата и каналов.
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
 * [Назначение политик в Teams — начало работы](policy-assignment-overview.md)
 * [Управление политиками обратной связи в Microsoft Teams](manage-feedback-policies-in-teams.md)

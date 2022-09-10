@@ -23,12 +23,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: 'Сведения о том, как настроить конференц-связь или аудиоконференцию для тех участников вашего бизнеса, которым нужно присоединиться к конференции, используя телефон. '
-ms.openlocfilehash: 701c1b4826a52400d91d18d4aa26f11aac07d266
-ms.sourcegitcommit: 312ff79ecab91412918793ec882bfc6e0143d30a
+ms.openlocfilehash: 04c29b6eaf13d12bee1395d913519c971c7a25d1
+ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/19/2022
-ms.locfileid: "66884838"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "67642130"
 ---
 # <a name="set-up-audio-conferencing-for-microsoft-teams"></a>Настройка аудиоконференций для Microsoft Teams
 
@@ -105,8 +105,6 @@ ms.locfileid: "66884838"
 ## <a name="step-7-assign-dial-in-phone-numbers-for-users-who-lead-meetings"></a>Шаг 7. Назначение телефонных номеров для пользователей, которые проводят собрания
 
 Сведения о [настройке номеров телефонов, включенных в приглашения в Microsoft Teams, см. здесь](set-the-phone-numbers-included-on-invites-in-teams.md).
-
-Подробнее см. в разделе [Назначение Майкрософт в качестве поставщика услуг аудиоконференций](/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider).
 
 > [!NOTE]
 > Вы также можете задать номера телефонов, добавив их в *политику TeamsAudioconferencingpolicy* и назначив политику пользователям. Платные и бесплатные телефонные номера, добавленные в политику, имеют приоритет над номерами телефонов, заданные отдельно для пользователей через панель параметров аудиоконференций. Если в *Teamsaudioconferencingpolicy* не добавляются номера телефонов, номер телефона, заданный отдельно для пользователей с помощью области параметров аудиоконференций, будет отображаться в приглашениях на собрания Microsoft Teams. [Дополнительные сведения см. в](audio-conferencing-toll-free-numbers-policy.md) параметрах политики аудиоконференций для платных и бесплатных номеров.

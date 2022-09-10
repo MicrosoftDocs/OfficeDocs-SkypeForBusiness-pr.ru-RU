@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Ниже описывается подключение к сети для аудиоконференций.
-ms.openlocfilehash: 222a89df39f1fe6b2decb21431f3475a148a1a6c
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 56e2addc3b924d7d73df7475ad217a999dc0aca0
+ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67267594"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "67641880"
 ---
 # <a name="on-network-conferencing-for-audio-conferencing"></a>Конференц-связь по сети для аудиоконференций
 
@@ -54,7 +54,7 @@ ms.locfileid: "67267594"
 
 Необходимо настроить телефонное оборудование ваших сайтов для маршрутизации вызовов на любой номер службы моста конференций вашей организации через магистраль прямой маршрутизации.
 
-Номера служб можно найти в Центре администрирования Teams в разделе "Собрания **— >** Мосты конференц-связи" или с помощью командлета PowerShell Skype для бизнеса Online Get-CsOnlineDialInConferencingBridge. Дополнительные сведения см. в списке номеров аудиоконференций [в Microsoft Teams](see-a-list-of-audio-conferencing-numbers-in-teams.md).
+Номера служб можно найти в Центре администрирования Teams в разделе "Собрания **>** Мосты конференц-связи" или с помощью командлета Teams PowerShell Get-CsOnlineDialInConferencingBridge. Дополнительные сведения см. в списке номеров аудиоконференций [в Microsoft Teams](see-a-list-of-audio-conferencing-numbers-in-teams.md).
 
 > [!NOTE]
 > Эта функция недоступна пользователям с лицензией на аудиоконференции с оплатой поминутной оплаты.
@@ -148,4 +148,4 @@ Grant-CsOnlineAudioConferencingRoutingPolicy -Identity "<User Identity>" -Policy
 
 Если вы хотите включить набор номеров на основе расширений с помощью конференц-связи по сети, можно настроить абонентские группы, соответствующие шаблону набора расширений диапазонам номеров телефонов в организации. Сведения о настройке абонентской группы см. в статье ["Создание абонентской группы и управление ими"](create-and-manage-dial-plans.md).
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также

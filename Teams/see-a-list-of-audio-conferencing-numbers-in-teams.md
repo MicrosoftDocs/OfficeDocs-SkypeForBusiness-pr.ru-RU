@@ -22,17 +22,17 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: Узнайте, как найти номера конференц-связи с телефонным подключением, доступные для аудиоконференций в Microsoft Teams.
-ms.openlocfilehash: 33beda34a5c7079c5df910492264061216fb7072
-ms.sourcegitcommit: d0cbc23e10219dd2889011421010215a5d246031
+ms.openlocfilehash: de03b3a1b12cc6bdcef9326e80e970ece2bdc378
+ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2022
-ms.locfileid: "67460632"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "67641890"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-microsoft-teams"></a>Просмотр списка номеров для аудиоконференций в Microsoft Teams
 
 При настройке аудиоконференций для пользователей Microsoft Teams можно просмотреть номера телефонов, доступные для аудиоконференций. Этот список будет содержать все номера телефонов для аудиоконференций, доступные вашей организации.
-   
+
 **Ищете цены?** Просмотрите **раздел "Тарифы** аудиоконференций" [в разделе "Аудиоконференции"](https://www.microsoft.com/microsoft-teams/audio-conferencing).
   
 Если в вашей организации доступен только один телефонный номер, он будет использоваться по умолчанию для всех пользователей. Если доступно несколько номеров телефонов, для каждого пользователя можно выбрать номер телефона по умолчанию. Этот номер по умолчанию будет включен в приглашения на собрания Microsoft Teams.
@@ -61,6 +61,3 @@ Windows PowerShell is all about managing users and what users are allowed or not
 
 Дополнительные сведения о Windows PowerShell см. в [справочнике по Microsoft Teams PowerShell](/powershell/module/teams/?view=teams-ps).
   
-## <a name="related-topics"></a>Связанные разделы
-
-[Попробуйте или приобретите аудиоконференции в Microsoft 365 или Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
