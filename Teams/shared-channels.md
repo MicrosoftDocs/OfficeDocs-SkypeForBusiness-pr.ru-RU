@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Узнайте, как использовать общие каналы в Microsoft Teams и управлять ими.
-ms.openlocfilehash: dd9edbe18a01ffc1a46a8cab76a383aed0bef5a4
-ms.sourcegitcommit: 09b77e83bc41914007606468e322d4ea47e2e8a4
+ms.openlocfilehash: 323d20c152af9595b6a738f917103a59ab4142ef
+ms.sourcegitcommit: 41a75f1ba5ceb09f8db7d468aa41b63a89ab9c30
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "67630459"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "67647553"
 ---
 # <a name="shared-channels-in-microsoft-teams"></a>Общие каналы в Microsoft Teams
 
@@ -118,7 +118,7 @@ Teams управляет жизненным циклом сайта общего
 
 ## <a name="considerations-around-file-access-in-shared-channels"></a>Доступ к файлам в общих каналах
 
-Используя [стандартный общий доступ к файлам SharePoint](https://support.microsoft.com/office/1fe37332-0f9a-4719-970e-d2578da4941c), можно предоставлять доступ к файлам, папкам и записным книжкам OneNote в общем канале для пользователей, находящихся вне канала.
+Файлы, папки и записные книжки OneNote в общем канале могут совместно использоваться пользователями за пределами канала (но не за пределами организации) с помощью стандартного общего доступа [к файлам SharePoint](https://support.microsoft.com/office/1fe37332-0f9a-4719-970e-d2578da4941c).
 
 Если пользователю предоставлен доступ к файлу, папке или записной книжке в общем канале с помощью SharePoint, то при удалении этого пользователя из команды или из общего канала доступ этого пользователя файлу, папке или записной книжке сохранится.
 

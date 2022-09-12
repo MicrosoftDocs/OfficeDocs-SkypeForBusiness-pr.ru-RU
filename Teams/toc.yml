@@ -1545,6 +1545,10 @@ items:
             href: adobe-acrobat-pdf-viewer-teams.md
           - name: Управление Microsoft 365 и настраиваемыми соединителями
             href: Office-365-custom-connectors.md
+          - name: Настройка фирменной символики приложения с помощью настройки приложения
+            href: customize-apps.md
+          - name: Управление доступом к приложениям в Microsoft 365
+            href: manage-third-party-teams-apps.md
       - name: Управление настраиваемыми приложениями
         items:
           - name: Управление пользовательскими и загруженными неопубликованными приложениями
@@ -1579,13 +1583,11 @@ items:
             href: resource-specific-consent.md
           - name: Сведения о разрешениях приложений и доступе к ресурсам
             href: app-permissions.md
-          - name: Настройка внешнего вида и метаданных приложений
-            href: customize-apps.md
           - name: Настройка фирменного стиля магазина приложений вашей организации
             href: customize-your-app-store.md
           - name: Управление доступом к приложениям в Microsoft 365
             href: manage-third-party-teams-apps.md
-          - name: Поведение приложения для внешних пользователей
+          - name: Использование приложений в качестве внешних или гостевых пользователей
             href: non-standard-users.md
           - name: Управление запросами пользователей для разрешения приложений
             href: user-requests-approve-apps.md
