@@ -3,6 +3,41 @@
 
 
 
+## <a name="week-of-september-05-2022"></a>Неделя с 5 сентября 2022 г.
+
+
+| Дата публикации |Название статьи | Изменение |
+|------|------------|--------|
+| 9/6/2022 | [Назначение, изменение и удаление номера телефона пользователя](/MicrosoftTeams/assign-change-or-remove-a-phone-number-for-a-user) | Изменено |
+| 9/6/2022 | [Настройка динамических экстренных вызовов](/MicrosoftTeams/configure-dynamic-emergency-calling) | Изменено |
+| 9/6/2022 | [Планирование развертывания для телефонных устройств и дисплеев Teams](/MicrosoftTeams/devices/plan-device-deployment) | Изменено |
+| 9/6/2022 | [Отображение Microsoft Teams](/MicrosoftTeams/devices/teams-displays) | Изменено |
+| 9/6/2022 | [Управление политиками экстренных вызовов в Microsoft Teams](/MicrosoftTeams/manage-emergency-calling-policies) | Изменено |
+| 9/6/2022 | [Настройка operator Connect](/MicrosoftTeams/operator-connect-configure) | Изменено |
+| 9/6/2022 | [Настройка Operator Connect Mobile](/MicrosoftTeams/operator-connect-mobile-configure) | Добавлено |
+| 9/6/2022 | [Планирование Operator Connect Mobile](/MicrosoftTeams/operator-connect-mobile-plan) | Добавлено |
+| 9/6/2022 | [Планирование подключения оператора](/MicrosoftTeams/operator-connect-plan) | Изменено |
+| 9/6/2022 | [Параметры подключения ТСОП](/MicrosoftTeams/pstn-connectivity) | Изменено |
+| 9/6/2022 | [Комнаты Microsoft Teams лицензии в Центре администрирования Teams](/MicrosoftTeams/rooms/admin-center-license-overview) | Добавлено |
+| 9/6/2022 | [Лицензии комнаты Microsoft Teams](/MicrosoftTeams/rooms/rooms-licensing) | Изменено |
+| 9/6/2022 | [Планирование комнат Microsoft Teams](/MicrosoftTeams/rooms/rooms-plan) | Изменено |
+| 9/6/2022 | [Комнаты Microsoft Teams безопасности](/MicrosoftTeams/rooms/security) | Изменено |
+| 9/6/2022 | [Создание учетных записей ресурсов для комнат и общих устройств Teams](/MicrosoftTeams/rooms/with-office-365) | Изменено |
+| 9/6/2022 | [Планирование экстренных вызовов и управление ими](/MicrosoftTeams/what-are-emergency-locations-addresses-and-call-routing) | Изменено |
+| 9/6/2022 | [Интерфейс обновления приложений в Microsoft Teams](/MicrosoftTeams/apps-update-experience) | Изменено |
+| 9/6/2022 | [Заметки о выпуске Комнаты Microsoft Teams (Windows)](/MicrosoftTeams/rooms/rooms-release-note) | Изменено |
+| 9/9/2022 | [Запросы пользователей для администраторов на разрешение приложений](/MicrosoftTeams/user-requests-approve-apps) | Добавлено |
+| 9/9/2022 | [Управление приложениями в Центре администрирования Microsoft Teams](/MicrosoftTeams/manage-apps) | Изменено |
+| 9/9/2022 | [Общие вопросы об аудиоконференциях](/MicrosoftTeams/audio-conferencing-common-questions) | Изменено |
+| 9/9/2022 | [Аудиоконференции в Microsoft 365](/MicrosoftTeams/audio-conferencing-in-office-365) | Изменено |
+| 9/9/2022 | [Поддерживаемые языки аудиоконференций](/MicrosoftTeams/audio-conferencing-supported-languages) | Изменено |
+| 9/9/2022 | [Аудиоконференции с прямой маршрутизаций, GCCH и DoD](/MicrosoftTeams/audio-conferencing-with-direct-routing-for-gcch-and-dod) | Изменено |
+| 9/9/2022 | [Изменение настроек для моста аудиоконференций](/MicrosoftTeams/change-the-settings-for-an-audio-conferencing-bridge) | Изменено |
+| 9/9/2022 | [Льготный период обратных звонков](/MicrosoftTeams/complimentary-dial-out-period) | Изменено |
+| 9/9/2022 | [Доступность по странам и регионам — аудиоконференции, планы звонков](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans) | Изменено |
+| 9/9/2022 | Использование переговорных комнат в Teams | Удалено |
+
+
 ## <a name="week-of-august-29-2022"></a>Неделя с 29 августа 2022 г.
 
 
@@ -125,102 +160,3 @@
 | 8/12/2022 | [Настройка автосекретаря для Microsoft Teams](/MicrosoftTeams/create-a-phone-system-auto-attendant-smb) | Добавлено |
 | 8/12/2022 | [Создание очереди звонков в Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue-smb) | Добавлено |
 | 8/12/2022 | [Приложение "Рация" в Microsoft Teams](/MicrosoftTeams/walkie-talkie) | Изменено |
-
-
-## <a name="week-of-august-01-2022"></a>Неделя с 1 августа 2022 г.
-
-
-| Дата публикации |Название статьи | Изменение |
-|------|------------|--------|
-| 8/1/2022 | [Adobe Acrobat в качестве средства просмотра PDF по умолчанию в Teams](/MicrosoftTeams/adobe-acrobat-pdf-viewer-teams) | Изменено |
-| 8/1/2022 | [Назначение политик пользователям и группам](/MicrosoftTeams/assign-policies-users-and-groups) | Изменено |
-| 8/1/2022 | [Планы звонков в Microsoft Teams](/MicrosoftTeams/calling-plan-landing-page) | Изменено |
-| 8/1/2022 | [Планы звонков для Microsoft 365](/MicrosoftTeams/calling-plans-for-office-365) | Изменено |
-| 8/1/2022 | [Сведения о приложениях в Microsoft Teams](/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page) | Изменено |
-| 8/1/2022 | [Получение номеров телефонов для пользователей](/MicrosoftTeams/getting-phone-numbers-for-your-users) | Изменено |
-| 8/1/2022 | [Настройка планов звонков](/MicrosoftTeams/set-up-calling-plans) | Изменено |
-| 8/1/2022 | [Настройка кредитов на связь для организации](/MicrosoftTeams/set-up-communications-credits-for-your-organization) | Изменено |
-| 8/1/2022 | [Отчет об использовании приложений Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/app-usage-report) | Изменено |
-| 8/1/2022 | [Что такое кредиты на связь?](/MicrosoftTeams/what-are-communications-credits) | Изменено |
-| 8/1/2022 | [Общие сведения о рекомендациях по чтению сведений о ходе выполнения](/MicrosoftTeams/insights-for-reading-progress) | Добавлено |
-| 8/1/2022 | [Новые возможности — Подключение оператора](/MicrosoftTeams/operator-connect-whats-new) | Добавлено |
-| 8/2/2022 | [Заметки о выпуске Комнаты Microsoft Teams (Windows)](/MicrosoftTeams/rooms/rooms-release-note) | Изменено |
-| 8/3/2022 | [Добавление, изменение и удаление расположений для экстренного реагирования](/MicrosoftTeams/add-change-remove-emergency-location-organization) | Изменено |
-| 8/3/2022 | [Добавление, изменение и удаление мест для расположений для экстренного реагирования](/MicrosoftTeams/add-change-remove-emergency-place-organization) | Изменено |
-| 8/3/2022 | [Поддержка приложений Microsoft Teams и бизнес-приложений на панелях Teams](/MicrosoftTeams/app-support-on-teams-panels) | Изменено |
-| 8/3/2022 | [Конференц-связь по сети для аудиоконференций](/MicrosoftTeams/audio-conferencing-on-network) | Изменено |
-| 8/3/2022 | [Панель мониторинга качества звонков](/MicrosoftTeams/business-voice/analytics-dashboard) | Изменено |
-| 8/3/2022 | [В чем разница между Business Voice и Enterprise Voice?](/MicrosoftTeams/business-voice/business-enterprise-comparison) | Изменено |
-| 8/3/2022 | [Создание пользователей Microsoft 365, добавление Teams Phone с лицензиями на пакет плана звонков и назначение номеров телефонов](/MicrosoftTeams/business-voice/create-users) | Изменено |
-| 8/3/2022 | [Настройка Телефонная система Microsoft Teams с планом звонков в Microsoft Teams](/MicrosoftTeams/business-voice/customize-business-voice) | Изменено |
-| 8/3/2022 | [Проверка подключения к Интернету для телефонной системы Teams](/MicrosoftTeams/business-voice/get-ready-internet) | Изменено |
-| 8/3/2022 | [Управление устройствами](/MicrosoftTeams/business-voice/manage-devices) | Изменено |
-| 8/3/2022 | [Отслеживание качества звонка](/MicrosoftTeams/business-voice/monitor-quality) | Изменено |
-| 8/3/2022 | [Управление пакетами политик](/MicrosoftTeams/business-voice/policy-packages) | Изменено |
-| 8/3/2022 | [Перенос номеров телефонов в телефонную систему Teams с помощью плана звонков](/MicrosoftTeams/business-voice/port-phone-numbers) | Изменено |
-| 8/3/2022 | [Обратитесь за помощью к реселлеру или партнеру Microsoft.](/MicrosoftTeams/business-voice/reseller-partner-support) | Изменено |
-| 8/3/2022 | [Назначение телефонных номеров телефонной системы Teams пользователям](/MicrosoftTeams/business-voice/set-up-assign-numbers) | Изменено |
-| 8/3/2022 | [Настройка системы Телефонная система Microsoft Teams с аварийными расположениями плана звонков](/MicrosoftTeams/business-voice/set-up-emergency-locations) | Изменено |
-| 8/3/2022 | [Готовая телефонная система Teams с настройкой плана звонков](/MicrosoftTeams/business-voice/set-up-finish) | Изменено |
-| 8/3/2022 | [Назначение Телефонная система Microsoft Teams с тарифным планом пакетов](/MicrosoftTeams/business-voice/set-up-licenses) | Изменено |
-| 8/3/2022 | [Настройка Телефонная система Microsoft Teams с тарифным планом для малого и среднего бизнеса](/MicrosoftTeams/business-voice/set-up-overview) | Изменено |
-| 8/3/2022 | [Настройка Телефонная система Microsoft Teams с телефонными номерами плана звонков](/MicrosoftTeams/business-voice/set-up-phone-numbers) | Изменено |
-| 8/3/2022 | [Настройка политик](/MicrosoftTeams/business-voice/set-up-policies) | Изменено |
-| 8/3/2022 | [Настройка учетной записи Телефонная система Microsoft Teams system](/MicrosoftTeams/business-voice/set-up-resource-account) | Изменено |
-| 8/3/2022 | [Что следует попробовать после настройки корпоративной голосовой связи](/MicrosoftTeams/business-voice/things-to-try) | Изменено |
-| 8/3/2022 | [Администратор разрешения, необходимые для приобретения Голосовая связь Microsoft 365 бизнес](/MicrosoftTeams/business-voice/ui/admin-perms-needed) | Изменено |
-| 8/3/2022 | [Руководство по телефонной системе Teams для малого и среднего бизнеса](/MicrosoftTeams/business-voice/whats-business-voice) | Изменено |
-| 8/3/2022 | [Создание автосекретаря с помощью командлетов](/MicrosoftTeams/create-a-phone-system-auto-attendant-via-cmdlets) | Изменено |
-| 8/3/2022 | [Устройства Teams для образовательных учреждений](/MicrosoftTeams/devices-for-education) | Изменено |
-| 8/3/2022 | [Рекомендации по проверке подлинности для управления общими устройствами Microsoft Teams на устройствах Android.](/MicrosoftTeams/devices/authentication-best-practices-for-android-devices) | Изменено |
-| 8/3/2022 | [Удаленная подготовка и вход для устройств Android в Teams](/MicrosoftTeams/devices/remote-provision-remote-login) | Изменено |
-| 8/3/2022 | [Удаленный вход и выход для устройств Android в Teams](/MicrosoftTeams/devices/remote-sign-in-and-sign-out) | Изменено |
-| 8/3/2022 | [Телефоны и устройства для Microsoft Teams](/MicrosoftTeams/devices/usb-devices) | Изменено |
-| 8/3/2022 | [Управление уведомлениями о звонках для прямой маршрутизации](/MicrosoftTeams/direct-routing-call-notifications) | Изменено |
-| 8/3/2022 | [Прямая маршрутизация](/MicrosoftTeams/direct-routing-landing-page) | Изменено |
-| 8/3/2022 | [Общие сведения о прямой маршрутизации телефонной системы](/MicrosoftTeams/direct-routing-protocols-media) | Изменено |
-| 8/3/2022 | [Прямая маршрутизация телефонной системы](/MicrosoftTeams/direct-routing-protocols-sip) | Изменено |
-| 8/3/2022 | [Прямая маршрутизация телефонной системы Teams: определения и стандарты RFC](/MicrosoftTeams/direct-routing-protocols) | Изменено |
-| 8/3/2022 | [SBA прямой маршрутизации](/MicrosoftTeams/direct-routing-survivable-branch-appliance) | Изменено |
-| 8/3/2022 | [Новые возможности прямой маршрутизации](/MicrosoftTeams/direct-routing-whats-new) | Изменено |
-| 8/3/2022 | [Внедрение Из Kaizala в Microsoft Teams для сотрудников без компьютеров](/MicrosoftTeams/drive-adoption-optimize-kaizala) | Изменено |
-| 8/3/2022 | [Адреса для экстренного реагирования для удаленных расположений](/MicrosoftTeams/emergency-calling-dispatchable-location) | Изменено |
-| 8/3/2022 | [Использование шаблонов команд для здравоохранения](/MicrosoftTeams/expand-teams-across-your-org/healthcare/healthcare-templates-admin-console) | Изменено |
-| 8/3/2022 | [Kaizala и Microsoft Teams](/MicrosoftTeams/get-started-kaizala-teams) | Изменено |
-| 8/3/2022 | [Перенос данных из Slack в Microsoft Teams](/MicrosoftTeams/migrate-slack-to-teams) | Изменено |
-| 8/3/2022 | [Навигация по Microsoft Teams](/MicrosoftTeams/navigate-teams) | Изменено |
-| 8/3/2022 | [Что такое заказ на перенос номера?](/MicrosoftTeams/phone-number-calling-plans/port-order-overview) | Изменено |
-| 8/3/2022 | [Каково состояние ваших заказов на перенос номеров?](/MicrosoftTeams/phone-number-calling-plans/port-order-status) | Изменено |
-| 8/3/2022 | [Поддерживаемые центры скорости и покрытие для тарифных планов](/MicrosoftTeams/phone-number-calling-plans/supported-rate-centers-coverage-matrix) | Изменено |
-| 8/3/2022 | [Планирование успешного перехода с Kaizala на Microsoft Teams](/MicrosoftTeams/plan-your-move-kaizala) | Изменено |
-| 8/3/2022 | [Политики и пакеты политик Microsoft Teams для администраторов образовательных учреждений](/MicrosoftTeams/policy-packages-edu) | Изменено |
-| 8/3/2022 | [Создание диаграммы между Kaizala и Teams](/MicrosoftTeams/prepare-for-teams-kaizala) | Изменено |
-| 8/3/2022 | [Частные каналы в Microsoft Teams](/MicrosoftTeams/private-channels) | Изменено |
-| 8/3/2022 | [Маскировка номеров телефонов на собраниях Microsoft Teams](/MicrosoftTeams/ptsn-mask-phone-numbers) | Изменено |
-| 8/3/2022 | [Функция «поднимите руку» на собраниях Teams](/MicrosoftTeams/raise-hand-meetings) | Изменено |
-| 8/3/2022 | [Регистрация устройства комнаты Teams в управляемых службах](/MicrosoftTeams/rooms/enroll-a-device) | Изменено |
-| 8/3/2022 | [Комнаты Microsoft Teams](/MicrosoftTeams/rooms/index) | Изменено |
-| 8/3/2022 | [Проверка подлинности в Комнаты Microsoft Teams](/MicrosoftTeams/rooms/rooms-authentication) | Изменено |
-| 8/3/2022 | [Планирование комнат Microsoft Teams](/MicrosoftTeams/rooms/rooms-plan) | Изменено |
-| 8/3/2022 | [Сравнение функций устройств Teams для общих пространств между Windows и Android](/MicrosoftTeams/rooms/teams-devices-feature-comparison) | Изменено |
-| 8/3/2022 | [Общие каналы в Microsoft Teams](/MicrosoftTeams/shared-channels) | Изменено |
-| 8/3/2022 | [Управление Skype для бизнеса параметров в Центре администрирования Microsoft Teams](/MicrosoftTeams/skype-for-business-settings) | Изменено |
-| 8/3/2022 | [Использование защищенных чатов](/MicrosoftTeams/supervise-chats-edu) | Изменено |
-| 8/3/2022 | [Использование защищенных чатов для клиентов, не использующих образовательные учреждения](/MicrosoftTeams/supervised-chat-non-edu) | Изменено |
-| 8/3/2022 | [Отчет о заблокированных пользователях ТСОП в Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/pstn-blocked-users-report) | Изменено |
-| 8/3/2022 | [Отчет о минутных пулах ТСОП в Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/pstn-minute-pools-report) | Изменено |
-| 8/3/2022 | [Отчет об использовании ТСОП в Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/pstn-usage-report) | Изменено |
-| 8/3/2022 | [Просмотр аналитики в Teams](/MicrosoftTeams/teams-analytics-and-reports/view-analytics) | Изменено |
-| 8/3/2022 | [Руководство по конференц-залу для Teams](/MicrosoftTeams/teams-meeting-room-guidance) | Изменено |
-| 8/3/2022 | [Собрания Microsoft Teams в неподдерживаемых браузерах](/MicrosoftTeams/unsupported-browsers) | Изменено |
-| 8/3/2022 | [Использование помощника для Teams для развертывания Microsoft Teams](/MicrosoftTeams/use-advisor-teams-roll-out) | Изменено |
-| 8/3/2022 | [Настройка параметров зова для пользователей](/MicrosoftTeams/user-call-settings) | Изменено |
-| 8/3/2022 | [Общие сведения о компонентах цикла в Teams](/MicrosoftTeams/loop-components-in-teams) | Изменено |
-| 8/4/2022 | [Назначение пакетов политик пользователям и группам](/MicrosoftTeams/assign-policy-packages) | Изменено |
-| 8/4/2022 | [Управление пакетами политик в Microsoft Teams](/MicrosoftTeams/manage-policy-packages) | Изменено |
-| 8/4/2022 | [Руководство для ИТ-администраторов по Reflect в Microsoft Teams](/MicrosoftTeams/reflect) | Изменено |
-| 8/4/2022 | [Анализ данных CQD для Microsoft Teams с помощью Power BI](/MicrosoftTeams/cqd-power-bi-query-templates) | Изменено |
-| 8/4/2022 | [Управление Microsoft 365 и настраиваемыми соединителями](/MicrosoftTeams/office-365-custom-connectors) | Изменено |
-| 8/4/2022 | [Расширение мобильного приложения](/MicrosoftTeams/rooms/extended-mobile-app) | Изменено |
-| 8/5/2022 | [Управление тегами в Microsoft Teams](/MicrosoftTeams/manage-tags) | Изменено |
-| 8/5/2022 | [Планирование шлюза SIP](/MicrosoftTeams/sip-gateway-plan) | Изменено |
