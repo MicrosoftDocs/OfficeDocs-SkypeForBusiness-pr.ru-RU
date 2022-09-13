@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Узнайте, как изменить использование номера телефона для использования в качестве номера службы или номера пользователя.
-ms.openlocfilehash: e07255420cf9b480aa28e25a635b799eed94bd0f
-ms.sourcegitcommit: d0cbc23e10219dd2889011421010215a5d246031
+ms.openlocfilehash: 5fb8e65a1a04a28cd69314d2919cefa7f2d988c4
+ms.sourcegitcommit: 087254ba68d75ea4f9205a972f1d8d554d9176c7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2022
-ms.locfileid: "67460702"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "67650891"
 ---
 # <a name="manage-the-usage-of-a-phone-number"></a>Управление использованием номера телефона
 
@@ -53,7 +53,7 @@ ms.locfileid: "67460702"
 
 ## <a name="still-need-assistance"></a>По-прежнему нужна помощь?
 
-Если вам нужна помощь, обратитесь в [службу технической поддержки TNS](/contact-tns-service-desk.md).
+Если вам нужна помощь, обратитесь в [службу технической поддержки TNS](/MicrosoftTeams/manage-phone-numbers-for-your-organization/contact-tns-service-desk).
 
 ## <a name="related-topics"></a>См. также
 
