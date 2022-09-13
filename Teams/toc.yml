@@ -923,7 +923,7 @@ items:
                     href: direct-routing-media-optimization.md
                   - name: Настройка оптимизации локальных файлов мультимедиа
                     href: direct-routing-media-optimization-configure.md
-              - name: Отслеживание и устранение неполадок прямой маршрутизации
+              - name: Мониторинг прямой маршрутизации
                 items:
                   - name: Обзор
                     href: direct-routing-monitor-and-troubleshoot.md
@@ -1589,7 +1589,7 @@ items:
             href: manage-third-party-teams-apps.md
           - name: Использование приложений в качестве внешних или гостевых пользователей
             href: non-standard-users.md
-          - name: Управление запросами пользователей для разрешения приложений
+          - name: Управление запросами пользователей
             href: user-requests-approve-apps.md
           - name: Обновления приложений и роль администратора
             href: apps-update-experience.md

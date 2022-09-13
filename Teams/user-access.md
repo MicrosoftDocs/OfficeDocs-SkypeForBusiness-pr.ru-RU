@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8e78d5905eaed7d9302ffdbf071c3dcf93f00fea
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+ms.openlocfilehash: 9affb1fc93bf79cd7f583f0e74b02bd06f604f0d
+ms.sourcegitcommit: 9de6b0b03f433e71fe239d292387eed33c11b531
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66616265"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "67657259"
 ---
 # <a name="manage-user-access-to-teams"></a>Управление доступом пользователей к Teams
 
@@ -40,7 +40,7 @@ ms.locfileid: "66616265"
 
 ## <a name="using-the-microsoft-365-admin-center"></a>Использование Центр администрирования Microsoft 365
 
-Управление лицензиями на уровне пользователей Teams осуществляется непосредственно через Центр администрирования Microsoft 365 интерфейсов управления пользователями. Администратор может назначать лицензии для новых пользователей при создании их учетных записей, а также для пользователей с существующими учетными записями. 
+Управление лицензиями на уровне пользователей Teams осуществляется непосредственно через Центр администрирования Microsoft 365 интерфейсов управления пользователями. Администратор может назначать лицензии для новых пользователей при создании их учетных записей, а также для пользователей с существующими учетными записями.
 
 > [!IMPORTANT]
 > Администратор должен иметь права глобального администратора или администратора управления пользователями для управления лицензиями Microsoft Teams.
@@ -110,7 +110,7 @@ $x = New-MsolLicenseOptions -AccountSkuId $acctSKU -DisabledPlans "TEAMS1"
 Get-MsolUser | Where-Object {$_.licenses[0].AccountSku.SkuPartNumber -eq  ($acctSKU).Substring($acctSKU.IndexOf(":")+1,  $acctSKU.Length-$acctSKU.IndexOf(":")-1) -and $_.IsLicensed -eq $True} |  Set-MsolUserLicense -LicenseOptions $x
 ```
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
 - [Лицензии на надстройки Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 - [Назначение лицензий на надстройки Teams](teams-add-on-licensing/assign-teams-add-on-licenses.md)
