@@ -21,12 +21,12 @@ description: Ознакомьтесь с общими сведениями о з
 ms.collection:
 - M365-voice
 - m365initiative-voice
-ms.openlocfilehash: e9f267bfdb56558245fecefe240f2c09c07d4783
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: c5c8b68cfd97c8a39f0b4866fb7670473a9ecef3
+ms.sourcegitcommit: 46b5dc0519d487e264b1386e5074085c2d090e9a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270874"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67674380"
 ---
 # <a name="whats-a-port-order"></a>Что такое заказ на перенос номера?
 
@@ -140,7 +140,7 @@ ms.locfileid: "67270874"
 ## <a name="can-user-subscriber-phone-numbers-be-converted-to-service-numbers"></a>Можно ли преобразовать номера телефонов пользователей (подписчиков) в номера служб?
 <a name="bkmk_type_1"> </a>
 
-Да, они могут. Все, что вам нужно сделать, — отправить запрос на обслуживание, содержащий GUID клиента вашей организации и номера телефонов, которые вы хотите преобразовать. Для этого см. раздел ["Управление номерами телефонов для организации"](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+Да, они могут. Для этого см. [раздел "Управление использованием номера телефона"](../manage-the-usage-of-a-phone-number.md).
 
 ## <a name="can-i-port-out-my-numbers-from-teams-to-a-different-phone-service-provider-or-carrier"></a>Можно ли перенести номера из Teams другому поставщику услуг телефонной связи или оператору связи?
 
@@ -177,7 +177,7 @@ ms.locfileid: "67270874"
 
 - Убедитесь, что служба активна. Блокировка учетной записи предотвращает изменение операторов связи в учетной записи. Пользователь, авторизованный на внесение изменений в учетную запись, должен отправить заказ текущему оператору, чтобы снять зависание. Этот процесс может занять от одной до трех недель в зависимости от оператора.
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
 - [Каково состояние ваших заказов на перенос номеров?](port-order-status.md)
 - [Различные типы телефонных номеров, используемые для планов звонков](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
