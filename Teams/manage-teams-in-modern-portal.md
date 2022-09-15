@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fca16f3b09fc153717b24161eb8717f419171677
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: df00f6324d1f9a50adc42c8e8c5c4dfd2ff9bd14
+ms.sourcegitcommit: 44d9f15f7f7c00b3651a11ff1e8b37dda1716a52
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396330"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "67732298"
 ---
 # <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Управление командами в Центре администрирования Microsoft Teams
 
@@ -149,3 +149,4 @@ ms.locfileid: "67396330"
 - [Справочник по командлетам Teams](/powershell/teams/)  
 - [Управление Teams с помощью ролей администраторов](using-admin-roles.md)
 - [Планирование управления жизненным циклом в Teams](plan-teams-lifecycle.md)
+- [Общие сведения о Центр администрирования Microsoft 365](/microsoft-365/admin/admin-overview/admin-center-overview)

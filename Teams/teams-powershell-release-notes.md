@@ -13,12 +13,12 @@ ms.collection:
 description: Узнайте о последних изменениях в Teams PowerShell.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c83627143718f003675d8fbe1992dace9c864b5a
-ms.sourcegitcommit: 479e236aa8a9a91df4894ed3cce4c287a1354d80
+ms.openlocfilehash: 5d488fbc8274b5b4e14a29e336b5ef0563872d56
+ms.sourcegitcommit: 44d9f15f7f7c00b3651a11ff1e8b37dda1716a52
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/02/2022
-ms.locfileid: "67572059"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "67732308"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Заметки о выпуске Microsoft Teams PowerShell
 
@@ -31,6 +31,7 @@ ms.locfileid: "67572059"
 
 | Дата | Версия | Обновления |
 |------- | -------------------- | ------------------------------ |
+| Сентябрь 2022 г. | [4.7.1-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/4.7.1-preview) |<li>Выпуск поддержки проверки подлинности на основе приложений в Connect-MicrosoftTeams предварительной версии. Поддерживаемые командлеты развертываются постепенно. Дополнительные сведения о проверке подлинности на основе приложений см. в [модуле Teams PowerShell](teams-powershell-application-authentication.md).</li><li>Выпуски командлетов [Get\|Set]-CsTeamsEducationConfiguration в закрытой предварительной версии.</li><li>[Получить\| New]-CsTeamsShiftsConnectionTeamMap — добавлен атрибут TimeZone.</li><li>Удаляет входные параметры SendEmailFromAddress и SendEmailFromDisplayName из Set-CsOnlineDialinConferencingUser.</li><li>Удаляет параметры AllowAllAcsResources и BlockedAcsResources из Set-TeamsAcsFederationConfiguration.</li>
 | Сентябрь 2022 г. | [4.7.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.7.0) |<li>Устранены проблемы с очисткой процесса при использовании модуля в PS ISE и приложениях dotnet.</li><li>Выпуски командлетов [Get\|New]-CsBatchTeamsDeployment в общедоступной версии.</li><li>Выпуски [New\|Set]-CSTeamsShiftsConnectionInstance, Test-CsTeamsShiftsConnectionValidate поддержки измерений UKG.</li><li>Устранены проблемы с неправильным получением маркера при выборе между несколькими учетными записями с помощью параметра AccountId в Connect-MicrosoftTeams.</li><li>Значения режима конференции по умолчанию & режиме присутствия изменяются с false на true для New-CsCallQueue командлета.</li>
 | Август 2022 г. | [4.6.1-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/4.6.1-preview) |<li>Устранены проблемы с очисткой процесса при использовании модуля в PS ISE и приложениях dotnet.</li>
 | Июль 2022 г. | [4.6.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.6.0) |<li>Освобождает параметр AccountType для Get-CsOnlineUser командлета, который позволяет выполнять запросы для определенного типа пользователей.</li><li>Атрибут AccountType добавляется в выходные Get-CsOnlineUser, указывающие тип пользователя. Возможные значения для AccountType: User (учетные записи пользователей), ResourceAccount (конечные точки приложения или учетные записи ресурсов), Guest (гостевые учетные записи) & Unknown (тип пользователя неизвестен).</li><li>Устранены проблемы с параметрами & ранжирования в командлетах Grant-Cs\<PolicyName\> .</li><li>Releases [Get\|Set\|New\|Remove\|Grant]-CsTeamsEventsPolicy Cmdlets.</li><li>Удаляет все нерекомендуемые & командлеты, не поддерживаемые. Сведения о [поддерживаемых версиях Teams PowerShell](teams-powershell-supported-versions.md#deprecated-cmdlets).</li><li>Выпуски современных версий командлетов [New\|Get]-CsCloudCallDataConnection.</li><li>Выпуски командлетов [Get\|Remove]-SharedWithTeam.</li><li>Освобождает Get-TeamAllChannel командлета.</li><li>Освобождает Get-TeamIncomingChannel командлета.</li><li>Освобождает Get-AssociatedTeam командлета.</li><li>Освобождает Get-SharedWithTeamUser командлета.</li><li>Поддерживает необязательный параметр TenantId для Add-TeamChannelUser командлета.</li><li>Выпуски Get-TeamTargetingHierarchyStatus & [Remove\|Set]-TeamTargetingHierarchy командлетов.</li>

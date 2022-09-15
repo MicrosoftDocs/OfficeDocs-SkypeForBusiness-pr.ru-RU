@@ -1789,6 +1789,8 @@ items:
             href: teams-powershell-release-notes.md
           - name: Поддерживаемые версии PowerShell в Teams
             href: teams-powershell-supported-versions.md
+          - name: Проверка подлинности на основе приложений в модуле Teams PowerShell
+            href: teams-powershell-application-authentication.md
           - name: Переход с соединителя Skype для бизнеса Online на модуль Teams PowerShell
             href: teams-powershell-move-from-sfbo.md
           - name: Справочник по командлетам для Teams

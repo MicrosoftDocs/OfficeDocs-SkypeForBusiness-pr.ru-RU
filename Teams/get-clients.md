@@ -17,12 +17,12 @@ f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3ec6958c481cf8d16477aeb7728b82b76de8f78b
-ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
+ms.openlocfilehash: f53dd50f78afa2d85c4858e2d98170b3dc044f55
+ms.sourcegitcommit: 44d9f15f7f7c00b3651a11ff1e8b37dda1716a52
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67706716"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "67732318"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Работа с клиентами для Microsoft Teams
 
@@ -198,6 +198,9 @@ sudo zypper install teams
 - **Huawei** <https://aka.ms/TeamsHuawei>
 - **Oppo** Выполните поиск по запросу "Teams" в магазине Oppo
 - **Baidu** <https://aka.ms/teams_baidu_direct_dl>
+
+> [!NOTE]
+> Когда пользователи устанавливают Teams из одного из магазинов приложений Android для Китая и включают push-уведомления для Teams, корпорация Майкрософт будет предоставлять push-уведомления Teams через службу push-уведомлений для Китая.
 
 ## <a name="browser-client"></a>Клиент-браузер
 
