@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7e540200f42af23ff4382db7ed4ff528971501b9
-ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
+ms.openlocfilehash: 92d46cacd510f448943deba86a6ed25d4f4360ab
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 09/14/2022
-ms.locfileid: "67706018"
+ms.locfileid: "67706516"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams для инфраструктуры виртуальных рабочих столов
 
@@ -169,11 +169,9 @@ Teams также добавляется в существующие устано
 
 ### <a name="deploy-the-teams-desktop-app-to-the-vm"></a>Развертывание классических приложений Teams на виртуальной машине
 
-1. Скачайте пакет MSI Teams, соответствующий операционной системе виртуальной машины VDI, по одной из следующих ссылок:
-
+⁠1. Скачайте пакет MSI Teams, соответствующий операционной системе виртуальной машины VDI, по одной из следующих ссылок:
     - [32-разрядная версия](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)
     - [64-разрядная версия](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)
-
     > [!NOTE]
     > Ссылки для скачивания MSI-файлов см. в статье "Массовая установка Teams с помощью [установщика Windows (MSI](msi-deployment.md) )".
 
