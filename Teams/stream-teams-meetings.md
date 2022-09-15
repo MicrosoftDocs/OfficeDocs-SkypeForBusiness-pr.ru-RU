@@ -1,7 +1,7 @@
 ---
 title: Потоковая передача собраний Teams
-author: mkbond007
-ms.author: mabond
+author: MicrosoftHeidi
+ms.author: heidip
 manager: serdars
 ms.reviewer: suchakr
 ms.topic: article
@@ -18,12 +18,12 @@ ms.custom: ''
 ms.collection:
 - M365-collaboration
 description: Узнайте, как настроить потоковую передачу для собраний Teams и управлять ими.
-ms.openlocfilehash: 5e1e84fc3b0b4ed2f81b3f3a8c84450dc3cee56c
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: b8394abfe66ecde6813e383e0473bcdca2a0ad9f
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270184"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67707006"
 ---
 # <a name="stream-teams-meetings"></a>Потоковая передача собраний Teams
 
@@ -53,7 +53,7 @@ ms.locfileid: "67270184"
 
 Дополнительные сведения о назначении политик с помощью PowerShell см. в разделе ["Назначение политик в Teams"](policy-assignment-overview.md).
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
 - [Назначение политик в Teams](policy-assignment-overview.md)
 - [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)

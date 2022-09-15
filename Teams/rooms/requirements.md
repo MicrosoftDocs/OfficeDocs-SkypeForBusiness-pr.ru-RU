@@ -16,12 +16,12 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 description: Узнайте о требованиях к поддержке Комнаты Microsoft Teams, включая выбор соответствующего устройства, микрофонов, динамиков, камер и дисплеев.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 84566f8dea2f687d2981d56c837bb0d92241d254
-ms.sourcegitcommit: 0592f9d2696fe8c840a4ed3e7f99e55ca0c9c3e6
+ms.openlocfilehash: bd4376a8d34be2c0184844b015531c7b496c94c4
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "67418478"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706686"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Требования к комнатам Microsoft Teams
 
@@ -43,11 +43,11 @@ ms.locfileid: "67418478"
 > Если вы используете локальный Exchange server, в комнатах Microsoft Teams необходимо использовать Exchange Server 2013 SP1 или более позднюю версию.
 
 ## <a name="hardware-requirements"></a>Требования к оборудованию
-В развертывание оборудования входит выбор системы комнат Microsoft Teams, вместе с сертифицированными периферийными аудио и видео устройствами, и кабели для объединения этих устройств.  Эти параметры описаны ниже.
+Развертывание оборудования включает в себя выбор Комнаты Microsoft Teams в сочетании с сертифицированными периферийными устройствами для аудио- и видеосвязи и решение для интеграции этих устройств.  Эти параметры описаны ниже.
 
-**Поддерживаемые системы комнат Microsoft Teams**
+**Поддерживаемые Комнаты Microsoft Teams систем**
 
-Все текущие устройства и пакеты комнат Microsoft Teams можно найти в статье [Демонстрация продуктов систем комнат](https://products.office.com/microsoft-teams/across-devices/devices/category?devicetype=20&page=1&filterIds=).
+Все текущие Комнаты Microsoft Teams и пакеты доступны в Комнаты Teams [продукта](https://products.office.com/microsoft-teams/across-devices/devices/category?devicetype=20&page=1&filterIds=).
 
   |Консоль|Процессор|ОЗУ|Диск|
   |:-----|:-----|:-----|:-----|
@@ -142,6 +142,7 @@ ms.locfileid: "67418478"
 |[Aver VC520 PRO2 Conferencing System](https://www.averusa.com/products/conference-camera/vc520pro2) | 00.0.7200.79 |
 |[Aver VB342+ Звуковая панель камеры](https://www.averusa.com/products/conference-camera/vb342plus) | Soundbar: 0.0.0000.97|
 |[Aver CAM 540](https://www.averusa.com/products/conference-camera/cam540) |0.0.6002.83 |
+|[Aver CAM 550](https://www.averusa.com/products/conference-camera/cam550) |0.0.8000.51 |
 |[Aver CAM 520 Pro](https://www.averusa.com/products/conference-camera/cam520pro) |0.0.1000.73 |
 |[Aver CAM 520 Pro 2](https://www.averusa.com/products/conference-camera/cam520pro2) |0.0.7200.3 |
 |[Aver CAM 130](https://www.averusa.com/products/conference-camera/cam130) |0.0.7450.02 | &#x2714; |
@@ -220,6 +221,7 @@ ms.locfileid: "67418478"
 |[Микрофон линейного массива стены Shure MXA 710 4ft](https://www.shure.com/products/microphones/mxa710) + </br>[Shure Intellimix P300 Audio Conferencing Processor](https://www.shure.com/products/mixers/p300) +</br>[Динамик верхнего предела MXN5-C](https://www.shure.com/en-US/products/loudspeakers/mxn5)| MXA710 4ft Wall Linear Array Mic: 1.2.0 </br> P300 DSP: 4.4.8 </br> Динамик MXN5-C: 1.1.1 |
 |[Shure MXA 910 с микрофоном intellimix Ceiling Array](https://www.shure.com/products/microphones/mxa910) + </br> [Shure Intellimix Room Software](https://www.shure.com/products/software/intellimix_room) +</br> [Uc-C100-T ( UC-C100-T)](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T)| Shure Intellimix Room Software: 3.0.4.14 </br> Shure MXA 910 с микрофоном Intellimix Ceiling Array: 4.4.11 </br> Докладчики Shure MXN5-C: 1.2.1 </br> Uc-C100-T с вычислительными ресурсами ASUS Tek Computer INC 9934 | 
 |[Shure MXA 910 с микрофоном intellimix Ceiling Array](https://www.shure.com/products/microphones/mxa910) + </br> [Shure Intellimix Room Software](https://www.shure.com/products/software/intellimix_room) +</br>Lenovo ThinkSmart Core | Shure Intellimix Room Software: 3.2.0.52 </br> Shure MXA 910 с микрофоном Intellimix Ceiling Array: 4.4.11 </br> Докладчики Shure MXN5-C: 1.2.1 |
+|[Микрофон массива кругового верхнего предела Shure MXA920XXX-R](https://www.shure.com/en-US/products/microphones/mxa920?variant=MXA920AL-R) + </br> [Процессор P300](https://www.shure.com/en-US/products/mixers/p300?variant=P300-IMX) + </br> [Докладчики MXN5](https://www.shure.com/en-US/products/loudspeakers/mxn5) | MXA920XX-R: 1.1.56 </br> Процессор P300: 4.7.7 </br> Докладчики MXN5: 1.5.6 |
 |[Shure MXA 910 с микрофоном intellimix Ceiling Array](https://www.shure.com/products/microphones/mxa910) + </br> [Shure Intellimix Room Software](https://www.shure.com/products/software/intellimix_room) +</br>Dell Optiplex 7080 | Shure Intellimix Room Software: 3.2.0.52 </br> Shure MXA 910 с микрофоном Intellimix Ceiling Array: 4.4.11 </br> Докладчики Shure MXN5-C: 1.2.1 |
 |[Sennheiser TeamConnect Intelligent Speaker/TC ISP (T-Rock)](https://en-us.sennheiser.com/tcisp)|1.0.2|
 |[Biamp Tesira Fore AVB VT4 Fixed audio DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ &Dagger;</br>[Sennheiser TeamConnect Ceiling 2 Microphone](https://sennheiser.com/tcc2)+ &Dagger;</br>[Tesira EX-UBT](https://www.biamp.com/products/tesira/tesira-expanders) &Dagger; |  Biamp DSP: 3.12.0.15 </br> TCC2: 1.3.3 </br>EX-UBT: 3.12.0.15 |

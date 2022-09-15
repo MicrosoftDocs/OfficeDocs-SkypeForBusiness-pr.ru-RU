@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: adcaee64e2a95d41229afe580624c6798547cb85
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: fd4b50052483c9f6e5221f3555a962adfe2444d3
+ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271704"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706008"
 ---
 # <a name="plan-for-sip-gateway"></a>Планирование шлюза SIP
 
@@ -61,7 +61,7 @@ ms.locfileid: "67271704"
 
 Если у вас есть устройство 3PIP или SIP, вам потребуется:
 
-- Лицензия для телефонной системы (через E5 или автономную лицензию)
+- Лицензия на Microsoft Teams, Skype для бизнеса Online (план 2) и телефонную систему Microsoft 365 (через E5 или автономные лицензии).
 - Включение ТСОП (например, номер телефона) через план звонков Microsoft Teams, прямую маршрутизацию или подключение оператора
 - Лицензия common Area Phone для любых устройств общего содержимого
 

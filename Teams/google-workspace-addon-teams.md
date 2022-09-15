@@ -1,7 +1,7 @@
 ---
 title: Настройка надстройки для собраний Microsoft Teams для Google Workspace
-author: CarolynRowe
-ms.author: crowe
+ms.author: mabond
+author: mkbond007
 ms.reviewer: aravin
 manager: serdars
 ms.topic: article
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 020fdd048b25dc015036e49d00858c106cf9a7af
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.openlocfilehash: 0bd6897b770215af75862438996a365acd463c96
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66789190"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706646"
 ---
 # <a name="set-up-microsoft-teams-meeting-add-on-for-google-workspace"></a>Настройка надстройки для собраний Microsoft Teams для Google Workspace
 
@@ -77,7 +77,7 @@ if ($servicePrincipal) {
 
 ## <a name="delete-the-microsoft-teams-meeting-add-on-for-google-workspace"></a>Удаление надстройки собрания Microsoft Teams для Google Workspace
 
-Инструкции см. в документации [Google по Marketplace Google Workspace](https://support.google.com/a/answer/6216211?hl=en).
+Инструкции см. в документации [Google По удалите приложение Google Workspace Marketplace](https://support.google.com/a/answer/6216211?hl=en) .
 
 ## <a name="create-the-microsoft-teams-meeting-add-on-for-google-workspace-using-powershell"></a>Создание надстройки для собраний Microsoft Teams для Google Workspace с помощью PowerShell
 

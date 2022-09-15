@@ -17,12 +17,12 @@ f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b5b67137aa581aae5a27ccc18935f621f51d5093
-ms.sourcegitcommit: 9bee7cb9433bfc687387647a102f814dc52c8591
-ms.translationtype: HT
+ms.openlocfilehash: 3ec6958c481cf8d16477aeb7728b82b76de8f78b
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "64839020"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706716"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Работа с клиентами для Microsoft Teams
 
@@ -63,7 +63,7 @@ Microsoft Teams можно установить на ПК, компьютеры 
 
 Teams для Windows предоставляет скачиваемые установщики MSI в [32-разрядной](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true), [64-разрядной](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true) архитектуре и в архитектуре [ARM64](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=arm64&managedInstaller=true&download=true). Архитектура x86 Microsoft Teams (32- или 64-разрядная) не зависит от архитектуры Windows или установленного набора Office. Рекомендуется использовать 64-разрядную версию Teams в 64-разрядных системах.
 
-Для Teams требуется .NET Framework 4.5 или более поздней версии. Если платформа .NET Framework 4.5 или более поздней версии не установлена, установщик Teams предложит установить ее.
+Для Teams требуется .NET Framework 4.5 или более поздней версии. Если .NET Framework или более поздняя версия не установлены, установщик Teams предложит установить платформу.
 
 Клиент Windows развертывается в папке AppData внутри профиля пользователя. Развертывание в локальный профиль пользователя позволяет установить клиент без повышенного уровня разрешений. Клиент Windows использует следующие расположения:
 
@@ -138,9 +138,9 @@ Teams для Windows предоставляет скачиваемые уста�
 Установите вручную в дистрибутивах Debian и Ubuntu:
 
 ```bash
-curl https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
+curl https://packages.microsoft.com/keys/microsoft.asc | sudo gpg --dearmor -o /usr/share/keyrings/microsoft-archive-keyring.gpg
 
-sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/ms-teams stable main" > /etc/apt/sources.list.d/teams.list'
+sudo sh -c 'echo "deb [arch=amd64 signed-by=/usr/share/keyrings/microsoft-archive-keyring.gpg] https://packages.microsoft.com/repos/ms-teams stable main" > /etc/apt/sources.list.d/teams.list'
 
 sudo apt update
 sudo apt install teams

@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: Узнайте, какие USB-периферийные устройства (например, гарнитуры, динамики, веб-камеры и мониторы) сертифицированы для Microsoft Teams.
-ms.openlocfilehash: d7bc08eedf4c70222554b7aed05c0b2a150064e0
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: ad020877a9d6d8ba3a0af3b87e2307b69e7510c8
+ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268554"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706068"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>USB-аудио- и видеоустройства, сертифицированные для Microsoft Teams
 
@@ -175,7 +175,7 @@ ms.locfileid: "67268554"
 |Jabra                |Развитие гарнитуры 40                                          |8/23/2020       |Skype для бизнеса с обновлением до Microsoft Teams      |
 |Jabra                |Гарнитура Evolve 30 II                                       |8/23/2020       |Skype для бизнеса с обновлением до Microsoft Teams      |
 |Jabra                |Гарнитура Evolve 20                                          |8/23/2020       |Skype для бизнеса с обновлением до Microsoft Teams      |
-|EPOS/Sennhesier      |COMMAND 260 USB PTT                                        |8/20/2020       |Skype для бизнеса с обновлением до Microsoft Teams      |
+|EPOS/Sennheiser      |COMMAND 260 USB PTT                                        |8/20/2020       |Skype для бизнеса с обновлением до Microsoft Teams      |
 |EPOS/Sennheiser      |Влияние SC 660 с соединителем USB-ED CC 01 MS               |8/20/2020       |Skype для бизнеса с обновлением до Microsoft Teams      |
 |EPOS/Sennheiser      |Влияние SC 630 на соединитель USB-ED CC 01 MS               |8/20/2020       |Skype для бизнеса с обновлением до Microsoft Teams      |
 |EPOS/Sennheiser      |Влияние SC 260 на соединитель USB-ED CC 01 MS               |8/20/2020       |Skype для бизнеса с обновлением до Microsoft Teams      |

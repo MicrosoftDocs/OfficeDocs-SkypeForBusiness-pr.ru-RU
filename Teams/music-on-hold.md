@@ -15,12 +15,12 @@ appliesto:
 ms.localizationpriority: medium
 ms.custom: ''
 description: Узнайте, как управлять функцией "Музыка при удержании" в телефонной системе.
-ms.openlocfilehash: 9d8fa247ffdc982c5d41777c68f6b620a92644e3
-ms.sourcegitcommit: 8fc2d6a824e1e119f54ea2347bc5c10cc076956d
+ms.openlocfilehash: e218de46e56c2e2f85ed2b19cea21cbc4d4679be
+ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/13/2022
-ms.locfileid: "66773758"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706178"
 ---
 # <a name="music-on-hold"></a>Музыка на удержании
 
@@ -69,7 +69,7 @@ ms.locfileid: "66773758"
 
 4. Выберите **"Отправить файл** ", чтобы отправить пользовательский звуковой файл музыки.
 
-5. Нажмите **кнопку "Применить"**.
+5. Нажмите **Применить**.
 
 ### <a name="assign-a-custom-call-hold-policy-to-users"></a>Назначение пользовательской политики удержания  вызовов пользователям
 
@@ -125,10 +125,12 @@ C:\> Grant-CsTeamsCallHoldPolicy -PolicyName "CustomMoH1" -Identity user1@contos
 
 В следующей таблице показано, какие функции, на которых клиенты и устройства поддерживают музыку при удержании и пользовательскую музыку при удержании. Корпорация Майкрософт продолжает добавлять поддержку функций, поэтому часто проверяйте наличие дополнительной доступности.
 
-| Компонент | Рабочие журналы <br> Ос Windows или Mac | Браузер | Мобильный <br> iOS | Мобильный <br> Android | Телефон Teams |
+| Функция | Рабочие журналы <br> Ос Windows или Mac | Браузер | Мобильный <br> iOS | Мобильный <br> Android | Телефон Teams |
 | :------------| :------- | :------- | :------- | :------- | :------- |
 | Удержание при вызове ТСОП 1:1 | -Музыка при удержании<br>-Custom Music on Hold | -Музыка при удержании<br>-Custom Music on Hold | -Музыка при удержании<br>-Custom Music on Hold | -Музыка при удержании<br>-Custom Music on Hold | -Музыка при удержании<br>-Custom Music on Hold |
 | Удержание при вызове Teams 1:1 | -Музыка при удержании<br>-Custom Music on Hold | -Музыка при удержании<br>-Custom Music on Hold | -Музыка при удержании<br>-Custom Music on Hold | -Музыка при удержании<br>-Custom Music on Hold | -Музыка при удержании<br>-Custom Music on Hold |
+| Удержание при передаче при вызове ТСОП 1:1 | -Музыка при удержании<br>-Custom Music on Hold | -Музыка при удержании<br>-Custom Music on Hold | | |
+| Удержание при передаче при вызове Teams 1:1 | -Музыка при удержании<br>-Custom Music on Hold | -Музыка при удержании<br>-Custom Music on Hold| | | |
 | Удержание на консультации при вызове ТСОП 1:1 |-Музыка при удержании<br>-Custom Music on Hold || -Музыка при удержании<br>-Custom Music on Hold | -Музыка при удержании<br>-Custom Music on Hold | -Музыка при удержании<br>-Custom Music on Hold |
 | Удержание на консультации при вызове Teams 1:1 |-Музыка при удержании<br>-Custom Music on Hold || -Музыка при удержании<br>-Custom Music on Hold | -Музыка при удержании<br>-Custom Music on Hold | -Музыка при удержании<br>-Custom Music on Hold |
 
@@ -144,7 +146,7 @@ C:\> Grant-CsTeamsCallHoldPolicy -PolicyName "CustomMoH1" -Identity user1@contos
 
 - В некоторых сценариях вызов обхода сервера-посредника прямой маршрутизации будет преобразован в обход без носителя для воспроизведения музыки при удержании, а вызов будет оставаться обходом без носителя до завершения вызова.
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
 - [Назначение политик пользователям](policy-assignment-overview.md)
 

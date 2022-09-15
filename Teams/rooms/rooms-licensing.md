@@ -22,12 +22,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: Узнайте о доступных лицензиях для различных типов функций звонков и собраний в Комнаты Microsoft Teams.
-ms.openlocfilehash: f2815dd99cb2b1882ec0783fc834d58db60c1b0d
-ms.sourcegitcommit: 087254ba68d75ea4f9205a972f1d8d554d9176c7
+ms.openlocfilehash: df84e94ebda02020e88d8bfc19fa42c86561b07d
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/13/2022
-ms.locfileid: "67650821"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706676"
 ---
 # <a name="microsoft-teams-rooms-licenses"></a>Лицензии комнаты Microsoft Teams
 
@@ -80,7 +80,7 @@ ms.locfileid: "67650821"
 
 <sup>*</sup>С 1 октября 2022 г. инженеры службы Майкрософт больше не будут выступать в качестве посредников для реагирования на инциденты.
 
-## <a name="teams-rooms-console-and-teams-client-feature-comparison"></a>Комнаты Teams консоль и сравнение функций клиента Teams
+## <a name="teams-rooms-basic-and-teams-rooms-pro-feature-comparison"></a>Комнаты Teams basic и Комнаты Teams Pro
 
 В следующих таблицах сравниваются лицензии Комнаты Teams Basic и Комнаты Teams Pro, а также показано, какие функции доступны для каждой из них. Если функция недоступна для лицензии, ее нельзя использовать на Комнаты Teams, которым назначена эта лицензия. Чтобы использовать функцию на устройстве Комнаты Teams, назначьте лицензию, в которой эта функция доступна для этого устройства.
 

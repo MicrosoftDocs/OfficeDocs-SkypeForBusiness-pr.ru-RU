@@ -22,12 +22,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Узнайте, какие стационарные и конференции сертифицированы для Microsoft Teams для достижения наилучших результатов.
-ms.openlocfilehash: b42ded686588d26bdd647adab136b4f0dba98cdb
-ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
+ms.openlocfilehash: b35fbf4572c9db1a1fba5bf0ae341c596b9166b2
+ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2022
-ms.locfileid: "67642100"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706028"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Сертифицированные устройства Android в Microsoft Teams
 
@@ -110,6 +110,7 @@ ms.locfileid: "67642100"
 
 | Модель устройства| Версия встроенного ПО | Текущая дата окончания сертификации | Версия ОС Android |                                         
 |:------------------------|:-----------------|:--------------|-----------------------|
+|Развертывание EPOS панель управления   | `1.2.22206.03` | 3 сентября 2024 г. | 10 |
 |Панель аккуратной панели    | `NFA1.20220211.1400` | 5 августа 2023 г. | 9 |
 |Crestron TSS-770 | `2.001.0058` |3 сентября 2024 г.  | 10 |
 |Crestron TSS-1070 | `2.001.0058`|3 сентября 2024 г. | 10 |
@@ -266,6 +267,7 @@ ms.locfileid: "67642100"
 
 | Модель устройства  | Версия встроенного ПО | Включенный выпуск продукта |
 |:--------------|:-----------------|:-------------------------|
+| Yealink MeetingBoard 65" | `155.15.0.10 `   | Обновление 2022 #2A  |
 | Poly Studio X30 | `3.13.0.368067` | Обновление 2022 #2A   |
 | Poly Studio X50 | `3.13.0.368067` | Обновление 2022 #2A |
 | Poly TC8        | `3.13.0.210799`          | Обновление 2022 #2A   |

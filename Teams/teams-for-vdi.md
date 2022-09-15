@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1e557e0901293c26d48e30ed163883f9cd97f12e
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.openlocfilehash: 7e540200f42af23ff4382db7ed4ff528971501b9
+ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66790354"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706018"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams для инфраструктуры виртуальных рабочих столов
 
@@ -202,7 +202,7 @@ Teams также добавляется в существующие устано
         msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSER=1 ALLUSERS=1
         ```
 
-        Этот процесс устанавливает Teams в `%ProgramFiles(x86)%` папку в 64-разрядной `%ProgramFiles%` операционной системе и в папку в 32-разрядной операционной системе. На этом этапе завершается установка "золотого образа".
+        Этот процесс устанавливает Teams в `%ProgramFiles(x86)%` папку в 32-разрядной `%ProgramFiles%` операционной системе и в папку в 64-разрядной операционной системе. На этом этапе завершается установка "золотого образа".
 
         > [!IMPORTANT]
         >  Установка Teams на компьютере необходима для постоянных настроек.
@@ -403,20 +403,12 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOn -Identity "user email id"
 > [!NOTE]
 > Это применимо только к не оптимизированным средам.
 
-### <a name="update-a-module-name"></a>Обновление имени модуля
+### <a name="connect-to-microsoft-teams-powershell"></a>Подключение к Microsoft Teams PowerShell
+
+Следуйте инструкциям в разделе ["Установка модуля Microsoft Teams PowerShell](/Teams/teams-powershell-install.md) ", чтобы подключиться к модульу Microsoft Teams PowerShell. Затем выполните следующую команду, чтобы убедиться, что все командлеты VDI доступны:
 
 ```PowerShell
-Update-Module -Name MicrosoftTeams -AllowPrerelease
-
-<# Import and connect to online (CSOnline runs the policies) #>
-Import-Module microsoftTeams
-if( -not $sess){
-    $session = New-CsOnlineSession
-    $pss = Import-PSSession $session
-}
-<# Check out the commands #>
 Get-Command -Noun *VDI*
-<#
 ```
 
 ### <a name="set-policies-to-limit-calling-features"></a>Настройка политик для ограничения функций вызова
@@ -486,7 +478,7 @@ if($cleanup){
 - При установке на компьютер Teams в VDI не обновляется автоматически так, как клиенты Teams, отличные от VDI. Чтобы обновить образ виртуальной машины, установите новый MSI, как описано в разделе "Установка или обновление рабочего приложения [Teams в VDI](#install-or-update-the-teams-desktop-app-on-vdi) ". Необходимо удалить текущую версию, чтобы обновиться до новой версии.
 - В средах Citrix, если пользователь отключается от виртуальной машины во время работы Teams, обновления Teams могут привести к не оптимизированной работе пользователя для av при повторном подключении. Мы рекомендуем пользователям выйти из Teams перед отключением от виртуальной машины Citrix, чтобы избежать этого сценария.
 - Teams следует развертывать как для каждого пользователя, так и для каждого компьютера. Развертывание Teams для одновременных операций на пользователя и на компьютер не поддерживается. Чтобы перейти с компьютера или пользователя на один из этих режимов, выполните процедуру удаления и повторно разверните его в любом режиме.
-- В настоящее время Виртуальный рабочий стол Azure не поддерживает клиенты macOS и Linux.
+- В настоящее время Виртуальный рабочий стол Azure не поддерживает клиенты под управлением Linux.
 - Быстрый переключение клиента может привести к ошибкам, связанным с вызовами в VDI, таким как недоступное совместное использование экрана. Перезапуск клиента устраните эти проблемы.
 
 ### <a name="notifications"></a>Уведомления

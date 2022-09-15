@@ -17,20 +17,20 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 624d91cc7b8518417b45a787f2beae7cb75a7747
-ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
+ms.openlocfilehash: 7c67c10b967aeddd8ed170c65d169585dc06733d
+ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "67486954"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706198"
 ---
 # <a name="microsoft-365-app-compliance-program-for-security-compliance-and-privacy-of-third-party-apps"></a>Программа соответствия требованиям для обеспечения безопасности приложений и конфиденциальности приложений Microsoft 365 и сторонних приложений
 
 Программа соответствия требованиям Майкрософт проверяет приложение на соответствие средствам контроля, полученным из ведущих отраслевых платформ. Программа демонстрирует наличие надежных методов обеспечения безопасности и соответствия требованиям для защиты данных клиентов. Программа состоит из следующих этапов.
 
-* Проверка издателя
-* Аттестация издателя
-* Сертификация Microsoft 365
+* [Проверка издателя](#publisher-verification).
+* [Аттестация издателя](#publisher-attestation).
+* [Сертификация Microsoft 365](#microsoft-365-certification).
 
 ## <a name="publisher-verification"></a>Проверка издателя
 

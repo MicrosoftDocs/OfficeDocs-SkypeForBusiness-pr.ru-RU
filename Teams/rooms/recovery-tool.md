@@ -14,12 +14,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: В этой статье описывается, как использовать средство восстановления для Комнаты Microsoft Teams, которое будет использоваться для перевода системы из устарелого состояния в поддерживаемое состояние.
-ms.openlocfilehash: c50b59ff4ed1ee997b990b0776ef4a7ee0ac29c2
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 70b2d199c4fe13138e2f46fd0b49e95efbd18e9c
+ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271164"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706168"
 ---
 # <a name="use-the-microsoft-teams-rooms-recovery-tool"></a>Используйте средство восстановления приложения "Комнаты Microsoft Teams"
 
@@ -30,7 +30,7 @@ ms.locfileid: "67271164"
 Скачайте последнюю [версию Комнаты Microsoft Teams](https://go.microsoft.com/fwlink/?linkid=851168) установки и извлеките ее на USB-накопитель памяти или в сетевую папку, доступную для Комнаты Microsoft Teams.
 
 > [!NOTE]
-> Извлечение файлов из MSI можно выполнить различными способами. Любой механизм, который извлекает все файлы и сохраняет их структуру каталогов, приемлем. Один из `msiexec /a PathToMsi /qb TARGETDIR=PathToTarget` `PathToMsi` таких способов — использовать команду, которая представляет полный путь к пакету установки комнаты Microsoft Teams и полный путь к папке, `PathToTarget` в которую вы хотите извлечь файлы.
+> Извлечение файлов из MSI можно выполнить различными способами. Любой механизм, который извлекает все файлы и сохраняет их структуру каталогов, приемлем. Один из `msiexec /a PathToMsi /qb TARGETDIR=PathToTarget` `PathToMsi` таких способов — использовать команду, в которой представлен полный путь к пакету установки Комнаты Microsoft Teams и полный путь к папке, `PathToTarget` в которую вы хотите извлечь файлы.
 
 ## <a name="running-the-tool"></a>Запуск средства
 

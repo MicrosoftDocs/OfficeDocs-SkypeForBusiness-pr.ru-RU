@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Узнайте о журналах отладки, мультимедиа и компьютеров, созданных в Microsoft Teams, где их можно найти, а также о том, как они могут помочь в мониторинге и устранении неполадок.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2ab00f7a1eedf2b1341819c7ec1c67abeb5f6e38
-ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
+ms.openlocfilehash: 2edddca64bf0cb50dc29758fd60bc397cbc00f8b
+ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "67486894"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67705818"
 ---
 # <a name="configure-log-files-for-monitoring-and-troubleshooting-in-teams"></a>Настройка файлов журналов для мониторинга и устранения неполадок в Teams
 
@@ -34,6 +34,8 @@ ms.locfileid: "67486894"
 -   [Рабочие журналы](#desktop-logs)
 
 В этой статье описываются эти журналы и способы их использования. Сведения об устранении конкретных неполадок см. в разделе "Устранение [неполадок Teams"](/MicrosoftTeams/troubleshoot/teams). 
+
+Сведения о сборе журналов с Комнаты Microsoft Teams устройств см. в разделе "[Загрузка журналов устройств"](/microsoftteams/rooms/rooms-manage#download-device-logs).
 
 Сведения о том, как обратиться в службу поддержки, см. в [разделе "Получение поддержки"](/microsoft-365/business-video/get-help-support).
 

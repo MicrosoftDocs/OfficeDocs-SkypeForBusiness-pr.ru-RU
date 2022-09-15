@@ -1,5 +1,5 @@
 ---
-title: Проверка подлинности в Комнаты Microsoft Teams
+title: Проверка подлинности в Комнаты Microsoft Teams Windows
 ms.author: dstrome
 author: dstrome
 ms.reviewer: sohailta
@@ -14,15 +14,15 @@ ms.assetid: ''
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Rooms
-description: Узнайте, как настроить современную проверку подлинности для Комнаты Microsoft Teams
-ms.openlocfilehash: ef576c2d785f3e3fb16afd42e6136b607711c28b
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+description: Узнайте, как настроить современную проверку подлинности для Комнаты Microsoft Teams Windows
+ms.openlocfilehash: 23e08b48c5d161caf8091068abc4c9cda0061122
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268244"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706436"
 ---
-# <a name="authentication-in-microsoft-teams-rooms"></a>Проверка подлинности в Комнаты Microsoft Teams
+# <a name="authentication-in-microsoft-teams-rooms-on-windows"></a>Проверка подлинности в Комнаты Microsoft Teams Windows
 
 Управление учетными записями Комнаты Microsoft Teams выполняется на уровне приложения. Приложение подключается к Microsoft Teams, Skype для бизнеса и Exchange, чтобы получить ресурсы для учетной записи ресурса для звонков и собраний. Комнаты Teams использует выделенную учетную запись ресурса, чтобы обеспечить постоянное использование возможностей, сценарии вызовов (для устройств, настроенных с тарифным планом) и пользовательские механизмы блокировки. Это означает, что проверка подлинности Комнаты Teams происходит не так, как для устройств конечных пользователей.  
 
