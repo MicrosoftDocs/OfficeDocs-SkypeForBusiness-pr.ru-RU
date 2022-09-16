@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: Узнайте, какие USB-периферийные устройства (например, гарнитуры, динамики, веб-камеры и мониторы) сертифицированы для Microsoft Teams.
-ms.openlocfilehash: ad020877a9d6d8ba3a0af3b87e2307b69e7510c8
-ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
+ms.openlocfilehash: 481c145d5206789c5603ab46334127b6bb724c13
+ms.sourcegitcommit: 0181a62c8d5a3f5b28fbb5a15645f0e82a1b8f35
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67706068"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "67734603"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>USB-аудио- и видеоустройства, сертифицированные для Microsoft Teams
 
@@ -81,13 +81,14 @@ ms.locfileid: "67706068"
 
 ## <a name="certified-devices"></a>Сертифицированные устройства
 
-*Таблица обновлена в августе 2022 г.*
+*Таблица обновлена за сентябрь 2022 г.*
 
 > [!NOTE]
 > Формат даты — MMDDYYYY.
 
 | Производитель        | Модели                                                     | Квалифицированных      | Сертифицированная программа                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Logi                 |Камеры Brio 500/505                                       |9/14/2022       |Сертифицировано для Microsoft Teams                           | 
 |Logi                 |Закрепление динамика                                          |7/13/2022       |Сертифицировано для Microsoft Teams                           |
 |Dell                 |Камера WB5023                                              |6/29/2022       |Сертифицировано для Microsoft Teams                           |
 |ЭПОС                 |Гарнитура ADAPT 560 II                                       |6/22/2022       |Сертифицировано для Microsoft Teams                           |
