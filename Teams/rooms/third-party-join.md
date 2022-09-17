@@ -14,12 +14,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: В этой статье описывается, как настроить организацию и Комнаты Teams устройства для поддержки присоединения сторонних собраний к Cisco Webex и Zoom.
-ms.openlocfilehash: 1cbcd54983c9122467fbf133cc97b2c189857c96
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 70d2cf03dea3fcfef3d08c07f4f771bd8a2ea70e
+ms.sourcegitcommit: 89e3681a88f06a9c6860d9eaea598e57b928b68a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268204"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "67794998"
 ---
 # <a name="enable-teams-rooms-devices-to-join-third-party-meetings"></a>Включение Комнаты Teams устройств для присоединения к сторонним собраниям
 
@@ -27,12 +27,15 @@ ms.locfileid: "67268204"
 
 Поддерживаемые устройства и службы:
 
-- MTR в Windows, все сертифицированные модели — Zoom, Cisco Webex
+- Комнаты Teams Windows, все сертифицированные модели — Zoom, Cisco Webex
 
-- MTR в сертифицированных моделях Android, Poly, Yealink и Logitech — Zoom
+- Комнаты Teams Android, все сертифицированные модели — Zoom, Cisco Webex
+
+    > [!NOTE]
+    > Корпорация Майкрософт регулярно выпускает новые функции Комнаты Teams android. Однако между выпуском компонентов и их доступностью на устройстве может быть задержка. Если функция недоступна на вашем устройстве, обратитесь к производителю устройства, чтобы узнать, когда она может стать доступной.
 
 > [!NOTE]
-> Чтобы присоединиться к собранию Cisco Webex с устройства Комнаты Teams, собрание Cisco должно быть размещено в Webex Meetings Pro с помощью веб-приложения Cisco Webex версии 40.7 или более поздней. 
+> Чтобы присоединиться к собранию Cisco Webex с устройства Комнаты Teams, собрание Cisco должно быть размещено в Webex Meetings Pro с помощью веб-приложения Cisco Webex версии 40.7 или более поздней.
 
 Прежде чем присоединяться к сторонним собраниям из Комнаты Teams, необходимо выполнить следующие действия:
 

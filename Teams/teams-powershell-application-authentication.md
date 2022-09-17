@@ -12,12 +12,12 @@ ms.collection:
 description: Сведения о проверке подлинности на основе приложений в модуле Teams PowerShell, используемом для администрирования Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ea836225658292c312490704305261210ba0991c
-ms.sourcegitcommit: 44d9f15f7f7c00b3651a11ff1e8b37dda1716a52
+ms.openlocfilehash: 479dd64d6eece46335545e79e8f618b797e85f77
+ms.sourcegitcommit: 89e3681a88f06a9c6860d9eaea598e57b928b68a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/15/2022
-ms.locfileid: "67732790"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "67795068"
 ---
 # <a name="application-based-authentication-in-teams-powershell-module"></a>Проверка подлинности на основе приложений в модуле Teams PowerShell
 
@@ -80,10 +80,14 @@ ms.locfileid: "67732790"
 Для проверки подлинности с помощью объектов приложения требуется начальное подключение. Приложение и субъект-служба используются взаимозаменяемо, но приложение похоже на объект класса, а субъект-служба — как экземпляр класса. Дополнительные сведения об этих объектах см. в [разделе "Объекты приложения и субъекта-службы" в Azure Active Directory](/azure/active-directory/develop/app-objects-and-service-principals).
 
 Ниже приведены общие шаги по созданию приложений в Azure AD. Подробные инструкции см. в этой [статье](/azure/active-directory/develop/howto-create-service-principal-portal).
-  1. Регистрация приложения в Azure AD
-  2. Создание самозаверяющего сертификата
-  3. Присоединение сертификата к Azure AD приложения
-  4. Назначение Azure AD ролей приложению
+
+1. Регистрация приложения в Azure AD
+2. Назначение разрешений API приложению
+   - Для \*командлетов -Cs разрешения API не требуются.
+   - Для командлетов\*, отличных от CS, необходимые разрешения microsoft API Graph: `User.Read.All`, `Group.ReadWrite.All`, `AppCatalog.ReadWrite.All`, `TeamSettings.ReadWrite.All`, , `Channel.Delete.All``ChannelSettings.ReadWrite.All`. `ChannelMember.ReadWrite.All`  
+3. Создание самозаверяющего сертификата
+4. Присоединение сертификата к Azure AD приложения
+5. Назначение Azure AD ролей приложению
 
 Приложению должны быть назначены соответствующие роли RBAC. Так как приложения подготавливаются в Azure AD, можно использовать любую из поддерживаемых встроенных ролей.
  
