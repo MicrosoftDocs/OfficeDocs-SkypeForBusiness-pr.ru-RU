@@ -3,6 +3,29 @@
 
 
 
+## <a name="week-of-september-12-2022"></a>Неделя с 12 сентября 2022 г.
+
+
+| Дата публикации |Название статьи | Изменение |
+|------|------------|--------|
+| 9/12/2022 | [Использование настройки приложения для фирменной символики приложений в соответствии с потребностями организации](/MicrosoftTeams/customize-apps) | Изменено |
+| 9/12/2022 | [Запросы пользователей для администраторов на разрешение приложений](/MicrosoftTeams/user-requests-approve-apps) | Изменено |
+| 9/13/2022 | [Мониторинг прямой маршрутизации](/MicrosoftTeams/direct-routing-monitor-and-troubleshoot) | Изменено |
+| 9/13/2022 | [Запросы пользователей для администраторов](/MicrosoftTeams/user-requests-approve-apps) | Изменено |
+| 9/13/2022 | [Перенос номеров телефонов в телефонную систему Teams с помощью плана звонков](/MicrosoftTeams/business-voice/port-phone-numbers) | Изменено |
+| 9/13/2022 | [Обратитесь в службу телефонных номеров](/MicrosoftTeams/manage-phone-numbers-for-your-organization/contact-tns-service-desk) | Изменено |
+| 9/14/2022 | [Устройства Teams для образовательных учреждений](/MicrosoftTeams/devices-for-education) | Изменено |
+| 9/14/2022 | [Прекращение поддержки Skype для бизнеса Online](/MicrosoftTeams/skype-for-business-online-retirement) | Изменено |
+| 9/14/2022 | [Общие сведения о Microsoft Teams и Skype для бизнеса сосуществовании и взаимодействии](/MicrosoftTeams/teams-and-skypeforbusiness-coexistence-and-interoperability) | Изменено |
+| 9/14/2022 | [Teams для инфраструктуры виртуальных рабочих столов](/MicrosoftTeams/teams-for-vdi) | Изменено |
+| 9/14/2022 | [Комнаты Microsoft Teams портала](/MicrosoftTeams/rooms/managed-meeting-rooms-portal) | Изменено |
+| 9/14/2022 | [Управление комнатами Microsoft Teams](/MicrosoftTeams/rooms/rooms-manage) | Изменено |
+| 9/14/2022 | [Комнаты Microsoft Teams обслуживания и операций](/MicrosoftTeams/rooms/rooms-operations) | Изменено |
+| 9/15/2022 | [Проверка подлинности на основе приложений в модуле Teams PowerShell](/MicrosoftTeams/teams-powershell-application-authentication) | Добавлено |
+| 9/15/2022 | [Влияние различных технологий на вход в Microsoft Teams, включая ограничение входа и поведение входа.](/MicrosoftTeams/sign-in-teams) | Изменено |
+| 9/16/2022 | [Проверка подлинности на основе приложений в модуле Teams PowerShell](/MicrosoftTeams/teams-powershell-application-authentication) | Изменено |
+
+
 ## <a name="week-of-september-05-2022"></a>Неделя с 5 сентября 2022 г.
 
 
@@ -128,35 +151,3 @@
 | 8/20/2022 | [Настройка параметров трансляции в Microsoft Teams](/MicrosoftTeams/teams-live-events/configure-teams-live-events) | Изменено |
 | 8/20/2022 | [Подготовка к трансляциям в Microsoft Teams](/MicrosoftTeams/teams-live-events/set-up-for-teams-live-events) | Изменено |
 | 8/20/2022 | [Настройка подтверждения набора номера для пользователей в Microsoft Teams](/MicrosoftTeams/set-up-meeting-dial-out-confirmation) | Изменено |
-
-
-## <a name="week-of-august-08-2022"></a>Неделя с 8 августа 2022 г.
-
-
-| Дата публикации |Название статьи | Изменение |
-|------|------------|--------|
-| 8/8/2022 | [Интерфейс обновления приложений в Microsoft Teams](/MicrosoftTeams/apps-update-experience) | Изменено |
-| 8/8/2022 | [Управление приложениями в Центре администрирования Microsoft Teams](/MicrosoftTeams/manage-apps) | Изменено |
-| 8/8/2022 | [Проведение исследования содержимого при обнаружении электронных данных](/MicrosoftTeams/ediscovery-investigation) | Изменено |
-| 8/9/2022 | [Обзор политик приложений для управления приложениями в Teams](/MicrosoftTeams/app-policies) | Изменено |
-| 8/9/2022 | Координация по развертыванию облачной голосовой связи | Удалено |
-| 8/9/2022 | Контрольный список подключения . Настройка облачных голосовых рабочих нагрузок — Microsoft Teams | Удалено |
-| 8/9/2022 | Контрольный список подключения . Настройка прямой маршрутизации — Microsoft Teams | Удалено |
-| 8/9/2022 | Контрольный список по подключению — настройка основных возможностей — Microsoft Teams | Удалено |
-| 8/9/2022 | Контрольный список подключения. Включение службы Microsoft 365 или Office 365 | Удалено |
-| 8/9/2022 | Комнаты Microsoft Teams справочнике | Удалено |
-| 8/9/2022 | [Управление пользовательскими и неопубликованными приложениями](/MicrosoftTeams/custom-app-overview) | Добавлено |
-| 8/9/2022 | [Сведения о приложениях в Microsoft Teams](/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page) | Изменено |
-| 8/9/2022 | [Общие сведения о проверке и тестировании приложений корпорацией Майкрософт](/MicrosoftTeams/overview-of-app-validation) | Изменено |
-| 8/9/2022 | [Сведения о сторонних приложениях в Microsoft Teams](/MicrosoftTeams/overview-third-party-apps) | Изменено |
-| 8/9/2022 | [Приобретение сторонних приложений для Teams](/MicrosoftTeams/purchase-third-party-apps) | Изменено |
-| 8/9/2022 | [Управление политиками разрешений для приложений в Microsoft Teams](/MicrosoftTeams/teams-app-permission-policies) | Изменено |
-| 8/9/2022 | [Управление политиками настройки приложений в Microsoft Teams](/MicrosoftTeams/teams-app-setup-policies) | Изменено |
-| 8/9/2022 | [Управление настраиваемыми политиками и параметрами приложений](/MicrosoftTeams/teams-custom-app-policies-and-settings) | Изменено |
-| 8/10/2022 | Прямая маршрутизация | Удалено |
-| 8/11/2022 | [Сведения о приложениях в Microsoft Teams](/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page) | Изменено |
-| 8/11/2022 | [Управление приложениями в Центре администрирования Microsoft Teams](/MicrosoftTeams/manage-apps) | Изменено |
-| 8/11/2022 | [Управление политиками настройки приложений в Microsoft Teams](/MicrosoftTeams/teams-app-setup-policies) | Изменено |
-| 8/12/2022 | [Настройка автосекретаря для Microsoft Teams](/MicrosoftTeams/create-a-phone-system-auto-attendant-smb) | Добавлено |
-| 8/12/2022 | [Создание очереди звонков в Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue-smb) | Добавлено |
-| 8/12/2022 | [Приложение "Рация" в Microsoft Teams](/MicrosoftTeams/walkie-talkie) | Изменено |
