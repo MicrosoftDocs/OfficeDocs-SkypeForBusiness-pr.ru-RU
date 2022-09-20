@@ -12,21 +12,21 @@ ms.collection:
 description: Сведения о проверке подлинности на основе приложений в модуле Teams PowerShell, используемом для администрирования Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 479dd64d6eece46335545e79e8f618b797e85f77
-ms.sourcegitcommit: 89e3681a88f06a9c6860d9eaea598e57b928b68a
+ms.openlocfilehash: b18c8505a255e0f937c077e1f905d721eb597889
+ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2022
-ms.locfileid: "67795068"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "67837669"
 ---
 # <a name="application-based-authentication-in-teams-powershell-module"></a>Проверка подлинности на основе приложений в модуле Teams PowerShell
 
-Проверка подлинности на основе приложений теперь поддерживается в модуле Teams PowerShell для ограниченного набора командлетов в предварительной версии с версией 4.7.1 или более поздней. В настоящее время этот режим проверки подлинности поддерживается только в коммерческих средах. Он не поддерживается для клиентов, которые ранее или ранее были включены для собраний, размещенных в регионе, в Skype для бизнеса Online.
+Проверка подлинности на основе приложений теперь поддерживается в модуле Teams PowerShell для ограниченного набора командлетов в предварительной версии с версией 4.7.1 или более поздней. В настоящее время этот режим проверки подлинности поддерживается только в коммерческих средах.
 
 
 ## <a name="cmdlets-supported"></a>Поддерживаемые командлеты
 
-Все командлеты \*, отличные от CS (например, Get-Team), Get-CsTenant, Get-CsOnlineUser & Get-CsOnlineVoiceUser уже поддерживаются. Другие командлеты будут постепенно развертываться. 
+\*Все командлеты\*, отличные от CS (например, Get-Team), Get-CsTenant, Get-CsOnlineUser, Get-CsOnlineVoiceUser & -CsOnlineSipDomain, уже поддерживаются. Другие командлеты будут постепенно развертываться. 
 
 
 ## <a name="examples"></a>Примеры

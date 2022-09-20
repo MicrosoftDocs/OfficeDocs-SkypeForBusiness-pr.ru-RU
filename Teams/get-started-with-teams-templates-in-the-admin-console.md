@@ -19,12 +19,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e4fb9c538335a50271bd0ae15249ec8aec7af95b
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: 41267db383d39c40ee18a67ee96538f205df52e4
+ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396730"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "67837559"
 ---
 # <a name="get-started-with-team-templates-in-the-teams-admin-center"></a>Начало работы с шаблонами команд в Центре администрирования Teams
 
@@ -70,30 +70,35 @@ ms.locfileid: "67396730"
 
 Вы можете дублировать предварительно созданные шаблоны, но не можете редактировать их. Если вы хотите изменить свойства в предварительно созданном шаблоне, можно создать новый шаблон из существующего, а затем добавить или удалить нужные свойства. Помните, что некоторые свойства в некоторых шаблонах нельзя изменить.
 
-| Тип шаблона | TemplateId | Свойства этого шаблона |
-| ------------------ | -------------- | ----------------------------------------------------- |
-| Внедрение Office 365 |`com.microsoft.teams.template.AdoptOffice365`|  Каналы: <ul><li>Общий</li> <li>Объявления</li> <li>Угловая кнопка "Лидеры"</li> <li>Формы группы</li><li>Календарь</li></ul> Приложения: <ul><li>Вики</li>  <li>Календарь канала</li> <li>Вехи</li><li>Бюллетени</li></ul>|
-| Управление проектом |`com.microsoft.teams.template.ManageAProject`| Каналы: <ul><li>Общий</li> <li>Объявления</li> <li>Ресурсы</li> <li>Планирование</li></ul> Приложения:<ul><li>Вики</li><li>OneNote</li><li>Задачи</li><li>Списки</li><li>Power Automate</li></ul> |
-| Управление событием|`com.microsoft.teams.template.ManageAnEvent` | Каналы: <ul><li>Общий</li> <li>Объявления</li> <li>Бюджет</li> <li>Содержимое</li><li>Логистика</li> <li>Планирование</li> <li> Маркетинг и запрос на вытягивание</li></ul> Приложения:<ul><li>Вики</li><li>Веб-сайт</li> <li>YouTube</li> <li>Задачи</li> <li>OneNote</li> <li>Идеи сотрудников</li> <li>Сообщающий о проблеме</li><li>Power Automate</li><li>Бюллетени</li><li>Вехи</li></ul> |
-|Подключение сотрудников|`com.microsoft.teams.template.OnboardEmployees` | Каналы: <ul><li>Общий</li> <li>Объявления</li> <li>Чат сотрудников</li> <li>Учебный курс</li></ul>Приложения:<ul><li>Вики</li><li>Общин</li><li>Задачи</li><li>Идеи сотрудников</li><li>Power Automate</li><li>Бюллетени</li><li>Вехи</li></ul>|
-|Упорядочение службы технической поддержки| `com.microsoft.teams.template.OrganizeHelpDesk`|Каналы:<ul><li>Общий</li><li>Объявления</li><li>Вопросы и ответы</li></ul>Приложения:<ul><li>Вики</li><li>OneNote</li><li>Задачи </li><li>Благодарность</li><li>Сообщающий о проблеме</li><li>Power Automate</li><li>Бюллетени</li></ul> |
-| Уход за пациентом| `com.microsoft.teams.template.healthcareWard`| Каналы:<ul><li>Общий</li><li>Объявления</li><li>Совещания</li><li>Обходы</li><li>Персонал</li><li>Обучение</li></ul> Приложения: <ul><li>Вики</li><li>Списки  </li><li>Утверждения</li><li>Бюллетени</li><li>Проверка</li></ul>|
-| Антикризисный обмен данными |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent`| Каналы: <ul><li>Общий<li>Объявления</li><li>Новости о мире</li><li>Внутренние запятые</li><li>Внешние запятые</li><li>Запрос на утверждение</li><li>Эскалация клиентов</li><li>Обновление руководства</li><li>Планирование</li><li>Логистика</li></ul>Приложения: <ul><li>Веб-сайт</li><li>Задачи</li><li>Сообщающий о проблеме</li><li>Утверждения</li><li>Бюллетени</li><li>OneNote</li><li>Power Automate</li><li>SharePoint</li></ul>|
-|Банковский филиал| `com.microsoft.teams.template.CollaborateWithinABankBranch`|Каналы: <ul><li>Общий<li>Объявления</li><li>Совещания</li><li>Встречи с клиентами</li><li>Запрос на утверждение </li><li>Обучение</li><li>Развитие навыков</li><li>Обработка кредитных заявок</li><li>Жалобы клиентов</li><li>Поздравления</li><li>Развлечения</li><li>Соответствие требованиям</li></ul>Приложения:<ul><li>Благодарность </li><li>Сообщающий о проблеме</li><li>Вики</li><li>Календарь</li><li>Утверждения</li><li>Бюллетени</li><li>Идеи</li></ul>|
+> [!NOTE]
+> Звездочка (*) указывает, что шаблон является подключенным *шаблоном Microsoft 365*. Когда пользователи создают команду с помощью шаблона, подключенный шаблон SharePoint применяется к сайту и команде. Компоненты SharePoint, такие как страницы, списки и интеграции Power Platform, автоматически добавляются и закрепляются в качестве вкладок в канале "Общие" в команде. Пользователи могут редактировать эти страницы и списки прямо из Teams.
+>
+> Дополнительные сведения о шаблонах SharePoint см. в статье "Применение и настройка шаблонов [сайтов SharePoint"](https://support.microsoft.com/office/apply-and-customize-sharepoint-site-templates-39382463-0e45-4d1b-be27-0e96aeec8398#ID0EDBJ=Team_site_templates).
+
+>[!div class="mx-tdBreakAll"]
+>| Тип шаблона | TemplateId | Свойства этого шаблона |
+>| ------------------ | -------------- | ----------------------------------------------------- |
+>| Управление проектом* |`com.microsoft.teams.template.ManageAProject`| Каналы: <ul><li>Общий</li> <li>Объявления</li> <li>Ресурсы</li> <li>Планирование</li></ul> Приложения:<ul><li>Утверждения</li><li>Бюллетени</li><li>Списки<ul><li>Отслеживание проектов</li><li>Отслеживание проблем</li></ul></li><li>Вехи</li><li>OneNote</li><li>Power Automate</li><li>SharePoint Pages<ul><li>Наш сайт</li></ul></li><li>Задачи по Планировщику и Задачам</li><li>Вики</li></ul> |
+| Управление событием*|`com.microsoft.teams.template.ManageAnEvent` | Каналы: <ul><li>Общий</li> <li>Объявления</li> <li>Бюджет</li> <li>Содержимое</li><li>Логистика</li> <li>Планирование</li> <li> Маркетинг и запрос на вытягивание</li></ul> Приложения:<ul><li>Утверждения</li><li>Бюллетени</li> <li>Идеи сотрудников</li><li>Списки<ul><li>Планировщик содержимого</li></ul></li><li>Вехи</li> <li>OneNote</li> <li>Power Automate</li> <li>SharePoint Pages<ul><li>Наш сайт</li><li>О нашем событии</li></ul><li>Задачи по Планировщику и Задачам</li><li>Вики</li> |
+|Подключение сотрудников*|`com.microsoft.teams.template.OnboardEmployees` | Каналы: <ul><li>Общий</li> <li>Объявления</li> <li>Чат сотрудников</li> <li>Учебный курс</li></ul>Приложения:<ul><li>Бюллетени</li><li>Идеи сотрудников</li><li>Списки<ul><li>Контрольный список подключения</li></ul></li><li>Вехи</li><li>Power Automate</li> <li>SharePoint Pages<ul><li>Начало работы</li><li>Учебный курс</li></ul><li>Задачи по Планировщику и Задачам</li><li>Viva Взаимодействие</li><li>Вики</li></ul>|
+| Внедрение Office 365 |`com.microsoft.teams.template.AdoptOffice365`|  Каналы: <ul><li>Общий</li> <li>Объявления</li> <li>Угловая кнопка "Лидеры"</li> <li>Team Forms</li><li>Календарь</li></ul> Приложения: <ul><li>Вики</li>  <li>Календарь канала</li> <li>Вехи</li><li>Бюллетени</li></ul>
+|Упорядочение службы технической поддержки*| `com.microsoft.teams.template.OrganizeHelpDesk`|Каналы:<ul><li>Общий</li><li>Объявления</li><li>Вопросы и ответы</li></ul>Приложения:<ul><li>Отчеты о проблемах</li><li>Списки<ul><li>Устройства</li><li>Tix</li></ul></li><li>OneNote</li><li>Power Automate</li><li>SharePoint Pages<ul><li>Наш сайт</li><li>Вопросы и ответы</li></ul></li><li>Задачи по Планировщику и Задачам</li><li>Вики</li></ul> |
 |Реагирование на инциденты| `com.microsoft.teams.template.CoordinateIncidentResponse`|Каналы: <ul><li>Общий<li>Объявления</li><li>Логистика</li><li>Планирование</li><li>Восстановления</li><li>Срочно</li></ul> Приложения: <ul><li>Вики</li><li>Excel</li><li>OneNote</li><li>SharePoint</li><li>Задачи</li> <li>Утверждения</li> <li>Проверка</li> <li>Power Automate</li><li>Бюллетени</li><li>Вехи</li></ul>|
+| Антикризисные коммуникации* |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent`| Каналы: <ul><li>Общий<li>Объявления</li><li>Обновление руководства</li><li>Планирование</li><li>Логистика</li></ul>Приложения: <ul><li>Утверждения</li><li>Отчеты о проблемах</li><li>Списки<ul><li>Планировщик содержимого</li><li>План проекта</li></ul></li><li>OneNote</li><li>Power Automate</li><li>SharePoint Pages<ul><li>Наш сайт</li><li>Последнее обновление</li></ul><li>Задачи по Планировщику и Задачам</li>|
+| Управление магазином*| `com.microsoft.teams.template.retailStore` |Каналы: <ul><li>Общий<li>Смена передачи</li><li>Готовность к хранимой операции</li><li>Обучение</li></ul> Приложения: <ul><li>Утверждения</li><li>Проверка</li><li>Списки<ul><li>Список инвентаризации</li></ul></li><li>SharePoint Pages<ul><li>Наш магазин</li></ul></li><li>Смены</li><li>Задачи по Планировщику и Задачам</li><li>Вики</li></ul>|
+|Банковский филиал| `com.microsoft.teams.template.CollaborateWithinABankBranch`|Каналы: <ul><li>Общий<li>Объявления</li><li>Совещания</li><li>Встречи с клиентами</li><li>Запрос на утверждение </li><li>Обучение</li><li>Разработка навыков</li><li>Обработка кредита</li><li>Жалобы клиентов</li><li>Поздравления</li><li>Интересные материалы</li><li>Соответствие требованиям</li></ul>Приложения:<ul><li>Благодарность </li><li>Сообщающий о проблеме</li><li>Вики</li><li>Календарь</li><li>Утверждения</li><li>Бюллетени</li><li>Идеи</li></ul>|
+| Уход за пациентом| `com.microsoft.teams.template.healthcareWard`| Каналы:<ul><li>Общий</li><li>Объявления</li><li>Совещания</li><li>Обходы</li><li>Персонал</li><li>Обучение</li></ul> Приложения: <ul><li>Вики</li><li>Списки  </li><li>Утверждения</li><li>Бюллетени</li><li>Проверка</li></ul>|
 |Больница| `com.microsoft.teams.template.healthcareHospital` |Каналы: <ul><li>Общий</li><li>Объявления</li><li>Соответствие требованиям</li><li>Госпитализация</li><li>Кадры</li><li>Аптека</li></ul> Приложения: <ul><li>Вики</li><li>Списки</li><li>Задачи</li><li>Утверждения</li><li>Смены</li><li>Бюллетени</li><li>Проверка</li><li>Идеи</li></ul>|
-|Организация магазина| `com.microsoft.teams.template.retailStore` |Каналы: <ul><li>Общий<li>Передача смены</li><li>Готовность магазина</li><li>Обучение</li></ul> Приложения: <ul><li>Вики</li><li>Задачи</li><li>Смены</li><li>Проверка</li></ul>|
-|Розница для руководителей| `com.microsoft.teams.template.retailManagerCollaboration` |Каналы: <ul><li>Общий<li>Операции</li><li>Обучение</li></ul> Приложения: <ul><li>Вики</li><li>Задачи</li><li>Проверка</li></ul>|
-|Качество и безопасность |`com.microsoft.teams.template.QualitySafety`|Каналы: <ul><li>Общий<li>Объявления</li><li>Руководство</li><li>Обслуживания</li><li>Рабочая линия 1</li><li>Рабочая линия 2</li><li>Рабочая линия 3</li><li>Работоспособность и безопасность</li><li>Учебный курс</li><li>Развлечения</li></ul> Приложения: <ul><li>Вики</li><li>Задачи</li> <li>Сообщающий о проблеме</li> <li>Проверка</li> </ul>|
-|Управление волонтерами| `com.microsoft.teams.template.ManageVolunteers` |Каналы: <ul><li>Общий<li>Объявления</li><li>Отчётность</li><li>Управление волонтерами</li><li>Возможности взаимодействия</li><li>Подключение волонтеров</li></ul> Приложения: <ul><li>Веб-сайт</li><li>YouTube</li><li>Power BI</li><li>Power Apps</li><li>Задачи</li><li>SharePoint</li><li>OneNote</li></ul>|
-||||
+|Качество и безопасность |`com.microsoft.teams.template.QualitySafety`|Каналы: <ul><li>Общий<li>Объявления</li><li>Руководство</li><li>Обслуживания</li><li>Рабочая линия 1</li><li>Рабочая линия 2</li><li>Рабочая линия 3</li><li>Работоспособность и безопасность</li><li>Учебный курс</li><li>Интересные материалы</li></ul> Приложения: <ul><li>Вики</li><li>Задачи</li> <li>Сообщающий о проблеме</li> <li>Проверка</li> </ul>|
+|Розничная торговля для менеджеров*| `com.microsoft.teams.template.retailManagerCollaboration` |Каналы: <ul><li>Общий<li>Операции</li><li>Обучение</li></ul> Приложения: <ul><li>Утверждения</li><li>Проверка</li><li>SharePoint Pages<ul><li>Наш магазин</li></ul></li><li>Задачи по Планировщику и Задачам</li><li>Вики</li></ul>|
+|Управление "Волонтами"| `com.microsoft.teams.template.ManageVolunteers` |Каналы: <ul><li>Общий<li>Объявления</li><li>Отчётность</li><li>Управление волонтерами</li><li>Возможности взаимодействия</li><li>Подключение волонтеров</li></ul> Приложения: <ul><li>Веб-сайт</li><li>YouTube</li><li>Power BI</li><li>Power Apps</li><li>Задачи</li><li>SharePoint</li><li>OneNote</li></ul>|
 
 ### <a name="team-templates-by-category-and-industry"></a>Шаблоны команд по категориям и отрасли
 
 Дополнительные сведения о способах использования предварительно созданных шаблонов в отрасли см. в следующих статьях:
 
-- [Шаблоны финансовых команд](financial-teams-templates-in-the-admin-console.md)
 - [Общие шаблоны команд](general-teams-templates-in-the-admin-console.md)
+- [Шаблоны финансовых команд](financial-teams-templates-in-the-admin-console.md)
 - [Шаблоны команд для государственных организаций](government-teams-templates-in-the-admin-console.md)
 - [Шаблоны медицинских команд](expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md)
 - [Шаблоны производственной группы](manufacturing-teams-templates-in-the-admin-console.md)
@@ -112,7 +117,6 @@ ms.locfileid: "67396730"
 |Каналы для каждого шаблона | 15 |
 |Вкладки на канал в шаблоне | 20 |
 |Приложения для каждого шаблона | 50|
-|||
 
 Дополнительные сведения см. [в разделе "Ограничения и спецификации Teams"](limits-specifications-teams.md).
 
@@ -151,3 +155,4 @@ ms.locfileid: "67396730"
 - [Создание команды на основе шаблона](https://support.microsoft.com/office/create-a-team-with-team-templates-702a2977-e662-4038-bef5-bdf8ee47b17b)
 - [Начало работы с шаблонами команд с помощью Microsoft Graph](get-started-with-teams-templates.md)
 - [Клонирование команды](/graph/api/team-clone)
+- [Общие сведения об интеграции Teams и SharePoint](/sharepoint/teams-connected-sites)

@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
-ms.openlocfilehash: 0a6bfa577df36eba83b4764aa4eb819d1085432a
-ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
+ms.openlocfilehash: 67c50eefdd1d0e20e10b9542912f0e2c4f412815
+ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "67486914"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "67837649"
 ---
 # <a name="understand-microsoft-teams-apps"></a>Общие сведения о приложениях Microsoft Teams
 
@@ -95,7 +95,7 @@ Teams предоставляется с набором встроенных пр
 
 Расширения для сообщений помогают быстро вставить содержимое приложения или выполнить операцию с сообщением. При этом пользователям не нужно выходить из беседы. Расширения для сообщений могут использовать поисковые команды для конечных пользователей, чтобы быстро находить внешнее содержимое и вставлять его в сообщения или команды действий.
 
-Чтобы просмотреть распространенные варианты использования, сопоставленные с возможностями Teams, см. статью [Сопоставление вариантов использования с возможностями приложения Teams](/microsoftteams/platform/concepts/design/map-use-cases).
+Чтобы просмотреть распространенные варианты использования, сопоставленные с возможностями Teams, см. статью "Сопоставление вариантов использования с возможностями [приложений Teams"](/microsoftteams/platform/concepts/design/map-use-cases).
 
 <!--- TBD: Admins do many considerations and decisions around app adoption and app governance. These are to be covered in a separate article. Commenting the below content for now as part of this article revamp.
 
