@@ -1,7 +1,7 @@
 ---
 title: Поиск контента в Microsoft Teams
-author: v-tophillips
-ms.author: v-tophillips
+author: robmazz
+ms.author: robmazz
 manager: laurawi
 ms.topic: article
 audience: admin
@@ -16,12 +16,12 @@ ms.custom: seo-marvel-mar2020
 description: Сведения об использовании поиска контента в Портал соответствия требованиям Microsoft Purview для поиска содержимого Microsoft Teams, хранимого в Exchange Online, SharePoint Online, OneDrive для бизнеса и OneNote.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a069478dc65fcafb5e1354796360c994aa2f0d36
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: b976c5e3c6467a6c71bb51eb1ff3ef720813584b
+ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67267444"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "67808240"
 ---
 # <a name="use-content-search-in-microsoft-teams"></a>Использование поиска контента в Microsoft Teams
 
@@ -88,6 +88,6 @@ Teams не поддерживает поиск контента одного к�
     ```
 3. Включите почтовые ящики всех участников из каждого закрытого канала в команду в качестве части запроса на поиск контента.
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
 - [Дела обнаружения электронных данных в Портал соответствия требованиям Microsoft Purview](/Office365/SecurityCompliance/ediscovery-cases)

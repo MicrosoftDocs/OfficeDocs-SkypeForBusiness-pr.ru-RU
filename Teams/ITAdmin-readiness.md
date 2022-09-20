@@ -18,12 +18,12 @@ ms.custom:
 description: Обучающие видео, презентации PowerPoint, учебники и другие ресурсы для администраторов по планированию, развертыванию и запуску Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 133369477a9e633e3e7ccb6309d8cae037f86f90
-ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
+ms.openlocfilehash: 384f6f34a689e0337489d08e4956df425b497d5d
+ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "67486904"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "67808380"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Начало работы с обучением администраторов для Microsoft Teams
 
@@ -39,8 +39,8 @@ ms.locfileid: "67486904"
 
 |&nbsp; |&nbsp; |&nbsp;  |
 |---------|---------|---------|
-|[**В серии видеороликов**](https://aka.ms/MicrosoftTeamsforIT) Microsoft Mechanics "Teams for IT" (Microsoft Mechanics for IT) показано, как развертывать, настраивать и управлять Teams, а также управлять ими.     |[**Поддержка удаленных сотрудников с помощью Microsoft Teams**](support-remote-work-with-teams.md#support-remote-workers-using-microsoft-teams) . Получите необходимые рекомендации, включая ссылки на учебные материалы, для поддержки пользователей, работающих дома.         |[**Управление командной совместной работой для ИТ-отдела**](/learn/paths/m365-manage-team-collaboration) . Узнайте, как использовать Teams для упрощения командной работы и обмена данными в организации между приложениями и устройствами.         |
-|[**Сертификация специалиста по внедрению служб .**](/learn/paths/m365-service-adoption) Курс сертификации специалиста по внедрению служб Майкрософт включает Teams. Узнайте, как внедрять службы Майкрософт в своей организации.     |[**Общие сведения о командной работы в Microsoft 365. Курс**](/learn/modules/intro-to-teamwork-in-m365/index) сертификации специалиста по внедрению служб Майкрософт включает Teams. Узнайте, как внедрять службы Майкрософт в своей организации.        |[**Microsoft 365 Certified: Teamwork Administrator Associate**](/learn/certifications/m365-teamwork-administrator) — Microsoft 365 Teamwork Administrators configure, deploy and manage Microsoft 365 or Office 365 workloads, such as SharePoint (online, on-premises, and hybrid), OneDrive, and Teams.        |
+|[**В серии видеороликов**](https://aka.ms/MicrosoftTeamsforIT) Microsoft Mechanics "Teams for IT" (Microsoft Mechanics for IT) показано, как развертывать, настраивать и управлять Teams, а также управлять ими.     |[**Поддержка удаленных сотрудников с помощью Microsoft Teams**](support-remote-work-with-teams.md#support-remote-workers-using-microsoft-teams) . Получите необходимые рекомендации, включая ссылки на учебные материалы, для поддержки пользователей, работающих дома.         |[**Управление командной совместной работой для ИТ-отдела**](/training/paths/m365-manage-team-collaboration) . Узнайте, как использовать Teams для упрощения командной работы и обмена данными в организации между приложениями и устройствами.         |
+|[**Сертификация специалиста по внедрению служб .**](/training/paths/m365-service-adoption) Курс сертификации специалиста по внедрению служб Майкрософт включает Teams. Узнайте, как внедрять службы Майкрософт в своей организации.     |[**Общие сведения о командной работы в Microsoft 365. Курс**](/training/modules/intro-to-teamwork-in-m365/index) сертификации специалиста по внедрению служб Майкрософт включает Teams. Узнайте, как внедрять службы Майкрософт в своей организации.        |[**Microsoft 365 Certified: Teamwork Administrator Associate**](/certifications/m365-teamwork-administrator) — Microsoft 365 Teamwork Administrators configure, deploy and manage Microsoft 365 or Office 365 workloads, such as SharePoint (online, on-premises, and hybrid), OneDrive, and Teams.        |
 
 <h2>Техническое обучение</h2>
 

@@ -18,12 +18,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-may2020
-ms.openlocfilehash: b67c1b9500ad5df959831e17a183cb61ca3ed8a1
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
-ms.translationtype: HT
+ms.openlocfilehash: d6f2cc6685d6d9d80c2282cdfd1751a7d7f1916d
+ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271454"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "67808470"
 ---
 # <a name="microsoft-teams-training"></a>Обучение работе с Microsoft Teams
 
@@ -51,7 +51,7 @@ ms.locfileid: "67271454"
    :::column-end:::
 
    :::column:::
-   **[Управление совместной работой команды для ИТ](/learn/paths/m365-manage-team-collaboration)** </br>
+   **[Управление совместной работой команды для ИТ](/training/paths/m365-manage-team-collaboration)** </br>
    Курс. Узнайте, как использовать Teams для упрощения командной работы и общения в организации в разных приложениях и устройствах.
 
    :::column-end:::
@@ -60,12 +60,12 @@ ms.locfileid: "67271454"
 
 :::row:::
    :::column:::
-   **[Сертификация специалистов по внедрению](/learn/paths/m365-service-adoption/)** </br> Курс по сертификации специалистов по внедрению служб Майкрософт с Teams в качестве примера. Узнайте, как управлять внедрением служб Майкрософт в своей организации.
+   **[Сертификация специалистов по внедрению](/training/paths/m365-service-adoption/)** </br> Курс по сертификации специалистов по внедрению служб Майкрософт с Teams в качестве примера. Узнайте, как управлять внедрением служб Майкрософт в своей организации.
 
    :::column-end:::
 
    :::column:::
-   **[Общие сведения о командной работе в Microsoft 365](/learn/modules/intro-to-teamwork-in-m365/index)** </br>
+   **[Общие сведения о командной работе в Microsoft 365](/training/modules/intro-to-teamwork-in-m365/index)** </br>
    Узнайте об инструментах Microsoft 365, повышающих эффективность командной работы всех сотрудников независимо от того, где они находятся и как подключаются к вашей организации.
 
    :::column-end:::

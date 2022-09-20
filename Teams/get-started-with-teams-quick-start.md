@@ -21,12 +21,12 @@ appliesto:
 ms.custom:
 - seo-marvel-mar2020
 - intro-get-started
-ms.openlocfilehash: 54fcf3942d13fa0b759e796e5486808a5f5a40bb
-ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
-ms.translationtype: HT
+ms.openlocfilehash: ff5fce999adffc38e28d6daf787d6175deaa683a
+ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66045848"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "67808810"
 ---
 # <a name="get-started-with-microsoft-teams"></a>Начало работы с Microsoft Teams
 
@@ -66,7 +66,7 @@ ms.locfileid: "66045848"
 Если вы новичок, лучший способ познакомиться с Teams — сразу же начать использование. Одно из преимуществ Teams заключается в том, что настройка, которую вы выполните сейчас, не будет мешать никаким обновлениям или миграциям, которые могут потребоваться позже.
 
 > [!TIP]
-> Больше учебных материалов и модулей доступно в [Microsoft Learn для Teams](/learn/teams/). Здесь можно ознакомиться с [центром администрирования Teams](/learn/modules/m365-teams-navigate-admin-portal/), узнать, как [настроить вашу сеть для использования Teams](/learn/modules/m365-teams-connectivity/), получить идеи для [подключения пользователей к Teams](/learn/modules/m365-teams-onboard-users/) и многое другое!
+> Больше учебных материалов и модулей доступно в [Microsoft Learn для Teams](/training/teams/). Здесь можно ознакомиться с [центром администрирования Teams](/training/modules/m365-teams-navigate-admin-portal/), узнать, как [настроить вашу сеть для использования Teams](/training/modules/m365-teams-connectivity/), получить идеи для [подключения пользователей к Teams](/training/modules/m365-teams-onboard-users/) и многое другое!
 
 Следуйте приведенным ниже инструкциям, чтобы создать несколько команд и подключить первых пользователей для знакомства с Teams.
 

@@ -21,19 +21,19 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 22f778158965134cec673a97373a83d7fe95544d
-ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
-ms.translationtype: HT
+ms.openlocfilehash: 751263d9f5afddc6f73afd89458a5e004ce428f4
+ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66045838"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "67808800"
 ---
 # <a name="start-your-organization-wide-rollout-of-microsoft-teams"></a>Начните развертывание Microsoft Teams в масштабе всей организации
 
 После того, как вы успешно создали и настроили первые команды и подключили нескольких пользователей, можно начать развертывание Teams для всей организации.
 
 > [!TIP]
-> Перед началом развертывания Teams мы рекомендуем завершить модуль Microsoft Learn [Подготовка к развертыванию Teams с помощью Microsoft 365](/learn/modules/m365-teams-collab-prepare-deployment/). Этот 30-минутный модуль поможет вам лучше понять работу Teams и расскажет о ключевых решениях, которые вам нужно будет принять в процессе развертывания Teams.
+> Перед началом развертывания Teams мы рекомендуем завершить модуль Microsoft Learn [Подготовка к развертыванию Teams с помощью Microsoft 365](/training/modules/m365-teams-collab-prepare-deployment/). Этот 30-минутный модуль поможет вам лучше понять работу Teams и расскажет о ключевых решениях, которые вам нужно будет принять в процессе развертывания Teams.
 >
 > Больше учебных материалов и модулей, доступных для Teams, можно найти в разделе [Microsoft Learn для Teams](/learn/teams/).
 

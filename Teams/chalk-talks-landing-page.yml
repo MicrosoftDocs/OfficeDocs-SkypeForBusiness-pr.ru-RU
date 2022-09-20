@@ -25,37 +25,37 @@ metadata:
   search.appverid: MET150
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 75ccc3c0953df013b2e13868f960a13d10ac13f0
-  ms.sourcegitcommit: 791d0a341ff873145fa893ece05055729b0b8d50
+  ms.openlocfilehash: 2ebea73a5311798aca39697fa14a698eedb0e1bb
+  ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
   ms.translationtype: MT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 07/18/2022
-  ms.locfileid: "66838894"
+  ms.lasthandoff: 09/19/2022
+  ms.locfileid: "67808541"
 productDirectory:
   summary: Щелкните название семинара, чтобы зарегистрировать записи по запросу или получить доступ к ним.
   items:
   - title: Контроль качества звука и видео в Teams
-    imageSrc: https://docs.microsoft.com/office/media/icons/health-teams.svg
+    imageSrc: https://learn.microsoft.com/office/media/icons/health-teams.svg
     summary: Хотите обеспечить оптимальное взаимодействие пользователей с собраниями и возможностями голосовой связи? Мы обсудим средства, отчеты и рекомендации по управлению качеством обслуживания — от создания упреждающего стратегии до решения распространенных проблем.
     url: https://aka.ms/ChalkTalkAVQuality
   - title: Сооо... Вы хотите совершать звонки с помощью Teams?
-    imageSrc: https://docs.microsoft.com/office/media/icons/headset-teams.svg
+    imageSrc: https://learn.microsoft.com/office/media/icons/headset-teams.svg
     summary: Присоединяйтесь к нам, чтобы получить подробные сведения о добавлении возможностей звонков по ТСОП в развертывание Teams. Вместе мы рассмотрим терминологию вызовов, основные понятия и конфигурации.
     url: https://aka.ms/ChalkTalkCalling
   - title: Energize your Live Events with Microsoft Teams (Energize your Live Events with Microsoft Teams)
-    imageSrc: https://docs.microsoft.com/office/media/icons/presenter-teams.svg
+    imageSrc: https://learn.microsoft.com/office/media/icons/presenter-teams.svg
     summary: Вовлечение и расширение аудитории большими виртуальными событиями в Интернете с помощью Microsoft Teams. Ознакомьтесь с рекомендациями по обеспечению успешности события.
     url: https://aka.ms/ChalkTalksVirtualEvents
   - title: Приложения в teams Fundamentals
-    imageSrc: https://docs.microsoft.com/office/media/icons/blocks-teams.svg
+    imageSrc: https://learn.microsoft.com/office/media/icons/blocks-teams.svg
     summary: В этом базовом сеансе описываются основные возможности, включая управление приложениями и безопасность. Узнайте, как интегрировать рабочие процессы, приложения для повышения производительности и службы, которые вы используете каждый день, в единый единый интерфейс.
     url: https://aka.ms/ChalkTalkApps
   - title: Рабочие процессы ключа надстройки с приложениями в Teams
-    imageSrc: https://docs.microsoft.com/office/media/icons/bandwidth-efficiency-teams.svg
+    imageSrc: https://learn.microsoft.com/office/media/icons/bandwidth-efficiency-teams.svg
     summary: Подключите системы, увеличьте автоматизацию и создайте улучшенные возможности для пользователей, включив приложения, от которых зависит ваша организация, в Teams.
     url: https://aka.ms/ChalkTalkKeyApps
   - title: Предоставление сотрудникам frontline возможностей для выполнения дополнительных задач с помощью Teams
-    imageSrc: https://docs.microsoft.com/office/media/icons/devices-2-teams.svg
+    imageSrc: https://learn.microsoft.com/office/media/icons/devices-2-teams.svg
     summary: Ознакомьтесь с рекомендациями по планированию и внедрению упрощенного интерфейса для продуктивной беседы, обмена информацией и планирования управления для сотрудников без компьютеров.
     url: https://aka.ms/TeamsFLW
 additionalContent:

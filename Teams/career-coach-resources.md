@@ -15,12 +15,12 @@ ms.collection:
 - m365initiative-edu
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4e8f8a069b35bcd1b5a1b1216946d4734a5ec52a
-ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
+ms.openlocfilehash: 92e02822dbd4533f151d9551bb25aad1905184fc
+ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "67486944"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "67808420"
 ---
 # <a name="resources-for-career-coach-in-microsoft-teams"></a>Ресурсы для карьерного специалиста в Microsoft Teams
 
@@ -77,4 +77,4 @@ ms.locfileid: "67486944"
 | [Bookings со мной в Outlook](/microsoft-365/bookings/bookings-in-outlook) | Руководство преподавателя по планированию встреч на 1:1, таких как сеансы службы карьеры и рабочее время. |
 | [Microsoft Bookings](/microsoft-365/bookings/bookings-overview) | Руководство ИТ-администратора по настройке Microsoft Bookings для управления лично и виртуальными встречами для сотрудников и учащихся, таких как сеансы службы карьеры и часы работы. |
 | [Поддержка собраний Microsoft Teams](https://www.microsoft.com/videoplayer/embed/RE4rxIX?pid=ocpVideo0-innerdiv-oneplayer&postJsllMsg=true&maskLevel=20&market=en-us) | Видео пошаговое руководство для учащихся о том, как они могут использовать собрания Teams. |
-| [Доставка привлекательных и доступных виртуальных событий](/learn/paths/m365-virtual-events-fundamentals/) | Онлайн-курс для преподавателей о том, как предоставлять привлекательные и доступные виртуальные мероприятия с помощью Microsoft Teams и Microsoft 365. |
+| [Доставка привлекательных и доступных виртуальных событий](/training/paths/m365-virtual-events-fundamentals/) | Онлайн-курс для преподавателей о том, как предоставлять привлекательные и доступные виртуальные мероприятия с помощью Microsoft Teams и Microsoft 365. |

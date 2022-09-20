@@ -24,20 +24,20 @@ metadata:
   search.appverid: MET150
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: fe5104d2047f734a0ae6df839bb980052ca2607e
-  ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
+  ms.openlocfilehash: 6ae30ce1693944d10048ca1172657329202d7c0c
+  ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
   ms.translationtype: MT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 07/14/2022
-  ms.locfileid: "66794527"
+  ms.lasthandoff: 09/19/2022
+  ms.locfileid: "67808660"
 productDirectory:
   items:
   - title: Планирование перехода (начните отсюда!)
-    imageSrc: https://docs.microsoft.com/office/media/icons/get-started-teams.svg
+    imageSrc: https://learn.microsoft.com/office/media/icons/get-started-teams.svg
     summary: Независимо от того, выполняете ли вы обновление до Teams до прекращения использования Skype для бизнеса Online (31 июля 2021 г.) или переноса сценариев из локальной среды Skype для бизнеса в Teams, успешный переход решает как техническую, так и пользовательальную готовность. Ознакомьтесь с проверенной платформой, рекомендациями и ресурсами, которые помогут вам успешно перейти на Teams с Skype для бизнеса Online, Skype для бизнеса Server или гибридной среды. Аудитория — все (спонсоры для бизнеса, ИТ-администраторы, готовность пользователей или руководитель изменений, руководитель проекта)
     url: https://aka.ms/SfBtoTeamsPlan
   - title: Реализация обновления Teams
-    imageSrc: https://docs.microsoft.com/office/media/icons/hybrid-teams.svg
+    imageSrc: https://learn.microsoft.com/office/media/icons/hybrid-teams.svg
     summary: Присоединяйтесь к нам, чтобы определить и подготовиться к выполнению наилучшего технического подхода для перемещения всех рабочих нагрузок в Teams на основе ваших целей и текущей Skype для бизнеса среды. Большинство клиентов, которые завершили успешные переходы, включили Teams вместе с их текущей Skype для бизнеса Online, Skype для бизнеса Server или гибридной реализации. В этом сеансе будут делиться ключевыми рекомендациями и ценными ресурсами, которые помогут вам определить оптимальную стратегию миграции для вашей организации. Аудитория — ИТ-администраторы
     url: https://aka.ms/SfBtoTeamsImplement
 additionalContent:

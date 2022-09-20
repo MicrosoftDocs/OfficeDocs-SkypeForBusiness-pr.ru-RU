@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fae55eb230c3c0a450a95eb00e50861888bbe3f1
-ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
-ms.translationtype: HT
+ms.openlocfilehash: 083f2f9ae041f88e0b92c51af297adbf04b5c770
+ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66045578"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "67808580"
 ---
 # <a name="teams-enterprise-deployment-overview"></a>Обзор развертывания корпоративного выпуска Teams
 
@@ -75,7 +75,7 @@ Teams тесно интегрирован с Microsoft 365 и используе
 Помощник для Teams — это решение Teams, которое помогает объединить команды, каналы, общий доступ к файлам и планировщик для создания проекта развертывания в вашей организации. Помощник для Teams создает план проекта для выбранной рабочей нагрузки (например, чат, команды и каналы), содержащий рекомендуемые задачи, которые необходимо выполнить во время развертывания. В каждой задаче предусмотрен набор инструкций, предложений и ссылок на соответствующие статьи, чтобы помочь вам в ходе развертывания. Задачи можно назначить другим лицам с указанием сроков начала и окончания.
 
 > [!TIP]
-> Узнайте, как воспользоваться помощником для Teams и спланировать развертывание Teams, завершив модуль [Развертывание с помощником для Teams](/learn/modules/m365-teams-rollout-using-advisor/) в Microsoft Learn.
+> Узнайте, как воспользоваться помощником для Teams и спланировать развертывание Teams, завершив модуль [Развертывание с помощником для Teams](/training/modules/m365-teams-rollout-using-advisor/) в Microsoft Learn.
 
 > [!div class="nextstepaction"]
 > [Перейти к помощнику для Teams](https://admin.teams.microsoft.com/teams-deployment)
