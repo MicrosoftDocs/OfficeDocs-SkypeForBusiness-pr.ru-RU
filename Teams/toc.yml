@@ -667,6 +667,40 @@ items:
                 href: teams-live-events/configure-teams-live-events.md
               - name: Политики записи трансляций
                 href: teams-live-events/live-events-recording-policies.md
+          - name: Создание гибридного собрания Teams
+            items:
+              - name: Обзор
+                href: hybrid-meetings-overview.md
+              - name: Принципы гибридного собрания
+                href: hybrid-meetings-principles.md
+              - name: Шаг 1. Знакомство с функциями собраний Teams
+                href: hybrid-meetings-features.md
+              - name: Шаг 2. Рекомендации по использованию собраний
+                href: hybrid-meetings-educate-participants.md
+              - name: Шаг 3. Проектирование и создание пространства для собраний
+                href: hybrid-meetings-room-design.md
+              - name: Шаг 4. Выбор устройств комнаты
+                href: hybrid-meetings-device-select.md
+              - name: Шаг 5. Настройка устройств
+                items:
+                  - name: Обзор
+                    href: hybrid-meetings-device-config-intro.md
+                  - name: Шаг 1. Приобретение Комнаты Teams лицензии
+                    href: hybrid-meetings-device-config-license.md
+                  - name: Шаг 2. Создание учетной записи ресурса
+                    href: hybrid-meetings-device-config-account.md
+                  - name: Шаг 3. Назначение лицензии на конференц-зал
+                    href: hybrid-meetings-device-config-assign.md
+                  - name: Шаг 4. Настройка свойств почтового ящика
+                    href: hybrid-meetings-device-config-mailbox.md
+                  - name: Шаг 5. Отключение срока действия пароля
+                    href: hybrid-meetings-device-config-password.md
+                  - name: Шаг 6. Настройка политик собраний
+                    href: hybrid-meetings-device-config-policies.md
+                  - name: Шаг 7. Настройка параметров календаря
+                    href: hybrid-meetings-device-config-calendar.md
+              - name: Шаг 6. Управление комнатами и собраниями и их мониторинг
+                href: hybrid-meetings-manage.md
       - name: Аудиоконференции
         items:
           - name: Аудиоконференции в M365
