@@ -1569,7 +1569,7 @@ items:
         items:
           - name: Распознавание сторонних приложений
             href: overview-third-party-apps.md
-          - name: Распознавание проверки приложений корпорацией Майкрософт
+          - name: 'Проверки, тестирование и проверка приложений, выполняемые корпорацией Майкрософт'
             href: overview-of-app-validation.md
           - name: 'Безопасность, соответствие требованиям и конфиденциальность сторонних приложений'
             href: overview-of-app-certification.md
@@ -1591,9 +1591,9 @@ items:
             href: teams-custom-app-policies-and-settings.md
           - name: 'Публикация пользовательских приложений, отправленных с помощью API'
             href: submit-approve-custom-apps.md
-          - name: 'Публикация пользовательского приложения, отправленного в качестве пакета'
+          - name: 'Публикация пользовательского приложения, отправленного в виде пакета'
             href: upload-custom-apps.md
-          - name: Управление приложениями Power Platform в центре администрирования Teams
+          - name: 'Управление пользовательскими приложениями, созданными с помощью Power Platform'
             href: manage-power-platform-apps.md
       - name: Элементы управления администратора для управления приложениями
         items:
