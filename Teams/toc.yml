@@ -1429,15 +1429,13 @@ items:
                 href: rooms/xml-config-file.md
               - name: Использование средства восстановления
                 href: rooms/recovery-tool.md
-      - name: Управляемая служба "Комнаты Microsoft Teams"
+      - name: Комнаты Microsoft Teams Pro Management
         items:
           - name: Обзор
             href: rooms/microsoft-teams-rooms-premium.md
-          - name: Получение и назначение лицензии
-            href: rooms/obtaining-assigning-license.md
-          - name: Регистрация в управляемой службе MTRP
+          - name: Доступ к порталу управления Pro
             href: rooms/enrolling-mtrp-managed-service.md
-          - name: Регистрация устройства в управляемой службе
+          - name: Регистрация устройства в управлении Pro
             href: rooms/enroll-a-device.md
           - name: Управление доступом на основе ролей
             href: rooms/microsoft-teams-rooms-premium-rbac.md
@@ -1445,7 +1443,7 @@ items:
             href: rooms/managed-meeting-rooms-portal.md
           - name: Управляемые обновления
             href: rooms/update-management.md
-          - name: Настройка ServiceNow для Комнат Teams
+          - name: Настройка ServiceNow
             href: rooms/microsoft-teams-rooms-configure-servicenow.md
           - name: Управление несколькими клиентами для партнеров
             href: rooms/multi-tenant-management-partner.md
@@ -1457,12 +1455,10 @@ items:
             href: rooms/health-and-usage-reports.md
           - name: Планировщик стандартов и помещений
             href: rooms/standards-and-room-planner.md
-          - name: 'Инциденты, о которых сообщил клиент'
+          - name: Запись проблемы
             href: rooms/customer-reported-incidents.md
           - name: Сведения о данных и конфиденциальности
             href: rooms/data-and-privacy-info.md
-          - name: Использование мобильного приложения "Комнаты Teams"
-            href: rooms/extended-mobile-app.md
       - name: Устройства
         items:
           - name: Магазин устройств Teams
