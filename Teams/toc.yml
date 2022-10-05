@@ -1367,6 +1367,8 @@ items:
                 href: rooms/rooms-licensing.md
               - name: Комнаты Teams центра администрирования
                 href: rooms/admin-center-license-overview.md
+              - name: Комнаты Teams устаревших лицензий
+                href: rooms/rooms-legacy-licensing.md
               - name: Сравнение функций устройств Teams между Windows и Android
                 href: rooms/teams-devices-feature-comparison.md
               - name: Руководство по комнате собраний для Teams
