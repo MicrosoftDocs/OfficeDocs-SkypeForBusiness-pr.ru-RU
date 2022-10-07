@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Узнайте, как маршрутизировать вызовы на неназначенных номерах в организации.
-ms.openlocfilehash: 3f3d0b9e6962cce7abdb91efa8539dd559c38956
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 28f1ca3c60728c4a7a2153d7462afc8c7e78b366
+ms.sourcegitcommit: fc87f4300f53abf7a049936944abb21d0cade0d9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67272304"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "68480719"
 ---
 # <a name="routing-calls-to-unassigned-numbers"></a>Маршрутизация вызовов неназначенных номеров
 
@@ -53,7 +53,7 @@ New-CsTeamsUnassignedNumberTreatment -Identity MainAA -Pattern "^\+15552223333$"
 В следующем примере указывается, что все вызовы в диапазоне номеров +1 (555) от 333-0000 до +1 (555) 333-9999 будут направляться в службу объявлений, которая будет воспроизводить звуковой файл MainAnnouncement.wav вызывающей стороне.
 
 ```PowerShell
-$Content = Get-Content "C:\Media\MainAnnoucement.wav" -Encoding byte -ReadCount 0
+$Content = [System.IO.File]::ReadAllBytes('C:\Media\MainAnnouncement.wav')
 
 $AudioFile = Import-CsOnlineAudioFile -FileName "MainAnnouncement.wav" -Content $Content
 
@@ -76,7 +76,7 @@ New-CsTeamsUnassignedNumberTreatment -Identity TR1 -Pattern "^\+1555333\d{4}$" -
 
 - Если указанный шаблон или диапазон содержит номера телефонов, назначенные пользователю или учетной записи ресурса в клиенте, вызовы этих телефонных номеров будут направляться в соответствующий целевой объект, а не на указанную обработку неназначенных номеров. Другие проверки чисел в диапазоне отсутствуют. Если диапазон содержит допустимый внешний номер телефона, исходящие звонки из Microsoft Teams на этот номер будут направляться в соответствии с процедурой.
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
 - [Get-CsTeamsUnassignedNumberTreatment](/powershell/module/teams/get-csteamsunassignednumbertreatment)
 

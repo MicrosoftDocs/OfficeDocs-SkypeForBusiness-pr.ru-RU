@@ -1,6 +1,6 @@
 ---
 title: Информационные барьеры и общие каналы (предварительная версия)
-description: В этой статье объясняется, как информационные барьеры в Microsoft Teams поддерживают общие каналы.
+description: В этой статье объясняется, как информационные барьеры в Microsoft Teams поддерживают общие каналы
 author: robmazz
 ms.author: robmazz
 manager: laurawi
@@ -9,6 +9,8 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
+- tier2
+- purview-compliance
 - M365-collaboration
 search.appverid: MET150
 f1.keywords:
@@ -16,16 +18,16 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: information-barriers
-ms.openlocfilehash: 6ee178252c00ec4c73dfaa036f17377cef401d30
-ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
+ms.openlocfilehash: 5b214a4c60df7b50f508fec7985c6f38b65985e6
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64922840"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68047219"
 ---
 # <a name="information-barriers-and-shared-channels-preview"></a>Информационные барьеры и общие каналы (предварительная версия)
 
-[Общие каналы в](shared-channels.md) Microsoft Teams создают пространства для совместной работы, где можно приглашать людей, которые не являются участниками команды. [Информационные барьеры Microsoft Purview](/microsoft-365/compliance/information-barriers) — это политики, которые можно реализовать, чтобы ограничить и запретить пользователям и группам взаимодействовать друг с другом внутри организации и за ее пределами.
+[Общие каналы](shared-channels.md) в Microsoft Teams создают пространства для совместной работы, где можно приглашать людей, которые не являются участниками команды. [Информационные барьеры Microsoft Purview](/microsoft-365/compliance/information-barriers) — это политики, которые можно реализовать, чтобы ограничить и запретить пользователям и группам взаимодействовать друг с другом внутри организации и за ее пределами.
 
 Общие каналы включены по умолчанию в Teams. Создав политику каналов, можно определить: могут ли пользователи создавать общие каналы; могут ли пользователи предоставлять доступ к каналам для пользователей вне организации; могут ли пользователи участвовать во внешних общих каналах. Если в вашей организации настроены политики информационных барьеров, при настройке общих каналов выполняются проверки того, что ни один из существующих участников канала и новых пользователей, добавленных в общий канал, не нарушает условия политики информационных барьеров.
 

@@ -8,6 +8,7 @@ manager: prkosh
 audience: admin
 ms.subservice: teams-apps
 ms.service: msteams
+ms.date: 09/22/2022
 ms.collection:
 - M365-collaboration
 f1.keywords:
@@ -17,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 713f30d148517f080c1799f71461d52e69d855ac
-ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
+ms.openlocfilehash: 992b557e72aaa855008f1bfec8073d800b65badf
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "67837659"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68377547"
 ---
 # <a name="microsoft-365-app-compliance-program-for-security-compliance-and-privacy-of-third-party-apps"></a>Программа соответствия требованиям для обеспечения безопасности приложений и конфиденциальности приложений Microsoft 365 и сторонних приложений
 
@@ -56,7 +57,7 @@ ms.locfileid: "67837659"
 
   :::image type="content" source="media/attested-app-tac1.png" alt-text="В центре администрирования Teams значок аттестации издателя отображается во всех аттестованных приложениях.":::
 
-* При [предоставлении разрешений приложению](app-permissions-admin-center.md) в Центре администрирования Teams синяя галочка перед именем приложения указывает, что это приложение аттестованного издателя при приложение, сертифицированное для Microsoft 365.
+* Перед предоставлением приложению разрешений [](app-permissions-admin-center.md)в Центре администрирования Teams синяя галочка перед именем приложения указывает, что это приложение, аттестуемое издателем. Все приложения Microsoft 365 также проходит аттестацию издателя, поэтому для приложений Microsoft 365 также отображается синий флажок.
 
    :::image type="content" source="media/attested-app-tac2.png" alt-text="В Центре администрирования Teams в диалоговом окне предоставления разрешений синяя галочка указывает на приложение с аттестацией издателя.":::
 
@@ -89,7 +90,7 @@ ms.locfileid: "67837659"
 
   :::image type="content" source="media/m365cert-app-details-banner.png" alt-text="Просмотрите сведения о сертификации Microsoft 365 на баннере приложения при управлении определенным приложением в Центре администрирования Teams":::
 
-* При [предоставлении разрешений приложению](app-permissions-admin-center.md) в Центре администрирования Teams синяя галочка перед именем приложения указывает, что это приложение аттестованного издателя при приложение, сертифицированное для Microsoft 365.
+* Перед предоставлением приложению разрешений [](app-permissions-admin-center.md)в Центре администрирования Teams синяя галочка перед именем приложения указывает, что это приложение, аттестуемое издателем. Все приложения Microsoft 365 также проходит аттестацию издателя, поэтому для приложений Microsoft 365 также отображается синий флажок.
 
    :::image type="content" source="media/attested-app-tac2.png" alt-text="В центре администрирования Teams в диалоговом окне для предоставления разрешений администраторы могут установить синюю галочку, чтобы убедиться, что приложение сертифицировано Microsoft 365":::
 

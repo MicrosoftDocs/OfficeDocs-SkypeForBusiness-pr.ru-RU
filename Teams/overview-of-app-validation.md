@@ -8,6 +8,7 @@ manager: prkosh
 audience: admin
 ms.subservice: teams-apps
 ms.service: msteams
+ms.date: 08/11/2022
 ms.collection:
 - M365-collaboration
 f1.keywords:
@@ -17,14 +18,14 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ac48aaccfab94d3a0e54bd51dbc0db2dc4c3d6fa
-ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
+ms.openlocfilehash: eeb0c49dcf560b858b8723f813cc86b6b51c1daa
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "67837489"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68377557"
 ---
-# <a name="validation-performed-by-microsoft-for-all-teams-apps"></a>Проверка, выполняемая корпорацией Майкрософт для всех приложений Teams
+# <a name="testing-and-validation-done-by-microsoft-for-all-teams-apps"></a>Тестирование и проверка, выполняемая корпорацией Майкрософт для всех приложений Teams
 
 В соответствии с требованиями корпорации Майкрософт все приложения должны пройти обязательную проверку, прежде чем они будут представлены в магазине для конечного использования. Это относится ко всем приложениям (за исключением пользовательских), опубликованным в магазине приложений Teams. Кроме того, корпорация Майкрософт настоятельно рекомендует разработчикам приложений участвовать в необязательной сертификации приложений, которая указывает на расширенные средства контроля соответствия требованиям, безопасности и конфиденциальности.
 

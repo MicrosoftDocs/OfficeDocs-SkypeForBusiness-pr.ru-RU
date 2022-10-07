@@ -15,12 +15,12 @@ appliesto:
 ms.localizationpriority: medium
 ms.custom: ''
 description: Узнайте, как управлять функцией "Музыка при удержании" в телефонной системе.
-ms.openlocfilehash: e218de46e56c2e2f85ed2b19cea21cbc4d4679be
-ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
+ms.openlocfilehash: 9e2a2aa352a1fd65955b35d4175b831653c694cb
+ms.sourcegitcommit: 52450514880fe72af0d0b2fab1419eadfc3a583f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67706178"
+ms.lasthandoff: 10/07/2022
+ms.locfileid: "68499453"
 ---
 # <a name="music-on-hold"></a>Музыка на удержании
 
@@ -93,7 +93,7 @@ ms.locfileid: "67706178"
 Ниже приведен пример отправки звукового файла MP3 с Windows PowerShell 5.1. Другие примеры см. в [разделе Import-CsOnlineAudioFile](/powershell/module/skype/import-csonlineaudiofile).
 
 ```PowerShell
-C:\> $content = Get-Content "C:\tmp\customMoH1.mp3" -Encoding byte -ReadCount 0
+C:\> $content = [System.IO.File]::ReadAllBytes('C:\tmp\customMoH1.mp3')
 C:\> $AudioFile = Import-CsOnlineAudioFile -FileName "customMoH1.mp3" -Content $content
 C:\> $AudioFile
 Id            : 56a56961f2794f098a359885ec1454a1
@@ -125,7 +125,7 @@ C:\> Grant-CsTeamsCallHoldPolicy -PolicyName "CustomMoH1" -Identity user1@contos
 
 В следующей таблице показано, какие функции, на которых клиенты и устройства поддерживают музыку при удержании и пользовательскую музыку при удержании. Корпорация Майкрософт продолжает добавлять поддержку функций, поэтому часто проверяйте наличие дополнительной доступности.
 
-| Функция | Рабочие журналы <br> Ос Windows или Mac | Браузер | Мобильный <br> iOS | Мобильный <br> Android | Телефон Teams |
+| Компонент | Рабочие журналы <br> Ос Windows или Mac | Браузер | Мобильный <br> iOS | Мобильный <br> Android | Телефон Teams |
 | :------------| :------- | :------- | :------- | :------- | :------- |
 | Удержание при вызове ТСОП 1:1 | -Музыка при удержании<br>-Custom Music on Hold | -Музыка при удержании<br>-Custom Music on Hold | -Музыка при удержании<br>-Custom Music on Hold | -Музыка при удержании<br>-Custom Music on Hold | -Музыка при удержании<br>-Custom Music on Hold |
 | Удержание при вызове Teams 1:1 | -Музыка при удержании<br>-Custom Music on Hold | -Музыка при удержании<br>-Custom Music on Hold | -Музыка при удержании<br>-Custom Music on Hold | -Музыка при удержании<br>-Custom Music on Hold | -Музыка при удержании<br>-Custom Music on Hold |
@@ -140,7 +140,7 @@ C:\> Grant-CsTeamsCallHoldPolicy -PolicyName "CustomMoH1" -Identity user1@contos
 
 - Музыка при удержании доступна только в том случае, если пользователь находится в режиме TeamsOnly.
 
-- Если для вызываемого пользователя Teams включена Location-Based маршрутизации, звук при удержании не может воспроизводиться вызываемой стороне.
+- Если вызываемый пользователь Teams включен для Location-Based маршрутизации, вызываемой воспроизводится только стандартная музыка при удержании.
 
 - Пользовательская музыка при удержании недоступна для пользователей, настроенных для общего вида строки (делегирование) и при использовании парковки вызовов. Будет воспроизводиться стандартная музыка на удержании.
 

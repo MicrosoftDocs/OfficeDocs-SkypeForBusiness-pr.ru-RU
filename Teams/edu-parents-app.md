@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 37de74db112dcbd5466659b385f1bb94d7c134aa
-ms.sourcegitcommit: 0592f9d2696fe8c840a4ed3e7f99e55ca0c9c3e6
+ms.openlocfilehash: 5edde0613c9092a7ed48d57a4a22761e56eee142
+ms.sourcegitcommit: d3eb876e58c9e4a0a11a21b9292d3a6177508d81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "67418628"
+ms.lasthandoff: 10/03/2022
+ms.locfileid: "68329063"
 ---
 # <a name="set-up-parent-connection-in-microsoft-teams-for-education"></a>Настройка родительского подключения в Microsoft Teams для образования
 
@@ -89,6 +89,7 @@ ms.locfileid: "67418628"
   - Извлеките два заполненных [родительских файла](/schooldatasync/parent-contact-sync-file-format) с пустыми остальными файлами версии 1 (только заголовками).
     - User.csv
     - Guardianrelationship.csv
+      - Значение *роли* должно быть завершено для каждого родителя и опекуна, чтобы указать, являются ли они родительскими *или* *опекунами*.
   - Чтобы просмотреть пример набора CSV-файлов версии 1, ознакомьтесь с файлами [GitHub](https://github.com/OfficeDev/O365-EDU-Tools/tree/master/CSV%20Samples/SDS%20Format/Min%20Required%20Attributes) с минимальными обязательными атрибутами.
   - Если вы хотите автоматизировать извлечение CSV-файлов после начальной синхронизации, ознакомьтесь с документом Синхронизация файлов [службы автоматизации](/schooldatasync/csv-file-sync-automation).
   - Чтобы получить помощь в настройке синхронизации данных SDS, обратитесь [](https://www.microsoft.com/fasttrack?rtc=1) в службу поддержки клиентов или [откройте запрос в службу поддержки](https://edusupport.microsoft.com/support?product_id=data_sync).

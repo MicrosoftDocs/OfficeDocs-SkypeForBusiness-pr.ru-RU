@@ -1,9 +1,9 @@
 ---
-title: Аудит с несколькими клиентами
-author: donnah007
-ms.author: v-donnahill
+title: Ведение журнала аудита на портале MTR Pro
+author: altsou
+ms.author: altsou
 manager: serdars
-ms.reviewer: dstrome
+ms.reviewer: altsou
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -15,21 +15,21 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Ведение журнала аудита для TRM.
+description: Ведение журнала аудита для портала MTR Pro.
 f1keywords: ''
-ms.openlocfilehash: de7f01a3c93dc31ff10c9e00cb3d0f3ef5806cb3
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 0436618e257128deb38d890cb92813ae13921e7d
+ms.sourcegitcommit: 64c01699022b47fdfec8dc6e2ca279e57eae3baa
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269112"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "68243920"
 ---
-# <a name="audit-logging-in-the-teams-rooms-managed-service"></a>Ведение журнала аудита в управляемой Комнаты Teams службе
+# <a name="audit-logging-in-the-mtr-pro-portal"></a>Ведение журнала аудита на портале MTR Pro
 
-Аудит в Комнаты Teams управляемой службы (TRM) позволяет искать записи аудита для действий, выполняемых на портале пользователями и администраторами. Эта функция включена по умолчанию. Только администратор управляемой службы имеет разрешение на экспорт и просмотр журналов.
+Журналы аудита на портале MTR Pro позволяют искать записи аудита для действий, выполняемых пользователями и администраторами. Эта функция включена по умолчанию. Только администратор управляемой службы имеет разрешение на экспорт и просмотр журналов.
 
 > [!NOTE]
-> Действия, выполняемые в службе TRM, не регистрируются в Microsoft 365 или Office 365 аудите 
+> Действия, выполняемые на портале MTR Pro, не регистрируются в Microsoft 365 или Office 365 аудите 
 
 ## <a name="exporting-logs"></a>Экспорт журналов
 

@@ -7,9 +7,11 @@ ms.topic: article
 ms.service: msteams
 ms.subservice: teams-apps
 audience: admin
+ms.date: 09/20/2022
 ms.collection:
 - M365-collaboration
 - m365-frontline
+- highpri
 ms.reviewer: mhayrapetyan
 search.appverid: MET150
 f1keywords:
@@ -18,12 +20,12 @@ description: Узнайте, как управлять запросами пол
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 0967aec80bb88dff12141040fead94af9aae0616
-ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
+ms.openlocfilehash: 382d3923d008f0bf70b2d9b9a4f3364709b4f2e1
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67706228"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68377607"
 ---
 # <a name="manage-user-requests"></a>Управление запросами пользователей
 
@@ -33,7 +35,7 @@ ms.locfileid: "67706228"
 
 Вы сохраняете полный контроль над приложениями, которые разрешены или заблокированы для пользователей. Если вы решили разрешить приложение, элементы управления и пользовательский интерфейс для управления приложениями останутся неизменными.
 
-* Параметр по умолчанию отправляет запросы пользователей в Центр администрирования Teams, где можно просматривать запросы пользователей и [разрешать запрашиваемые приложения](#view-user-requests-in-teams-admin-center).
+* Параметр по умолчанию отправляет запросы пользователей в Центр администрирования Teams, где можно просматривать запросы пользователей и [разрешать запрашиваемые приложения](#view-and-act-on-user-requests-in-teams-admin-center).
 
    :::image type="content" source="media/user-request-blocked-apps.png" alt-text="Снимок экрана: параметр запроса администратора на утверждение заблокированного приложения.":::
 
@@ -41,7 +43,7 @@ ms.locfileid: "67706228"
 
    :::image type="content" source="media/user-request-blocked-apps-redirected.png" alt-text="Снимок экрана: взаимодействие с пользователем для приложений в Магазине, когда администратор перенаправляет URL-адрес запроса на разрешение приложения на URL-адрес организации.":::
 
-## <a name="view-user-requests-in-teams-admin-center"></a>Просмотр запросов пользователей в Центре администрирования Teams
+## <a name="view-and-act-on-user-requests-in-teams-admin-center"></a>Просмотр запросов пользователей и их обработка в Центре администрирования Teams
 
 Запросы конечных пользователей, полученные методом по умолчанию, отображаются в Центре администрирования Teams. Вы можете легко просматривать запросы и управлять ими. Мы рекомендуем регулярно проверять запросы пользователей. Чтобы просмотреть и разрешить приложения, выполните следующие действия.
 
@@ -90,7 +92,7 @@ Teams предоставляет сообщение по умолчанию дл
 
 ## <a name="dismiss-user-requests"></a>Отклонение запросов пользователей
 
-Чтобы закрыть запросы к приложению allow, выполните следующие действия.
+Чтобы закрыть запросы, выполните следующие действия.
 
 1. Выберите имя приложения, для которого требуется отклонить запросы пользователей.
 1. Выберите **"Управление запросами"**.

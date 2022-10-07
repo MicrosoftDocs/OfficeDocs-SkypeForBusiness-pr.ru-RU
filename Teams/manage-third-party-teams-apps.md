@@ -8,6 +8,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.subservice: teams-apps
 audience: Admin
+ms.date: 09/29/2022
 ms.collection:
 - M365-collaboration
 f1.keywords:
@@ -17,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Узнайте, как управлять доступом к приложениям Teams в Microsoft 365.
-ms.openlocfilehash: e57e4ffb7e2b8ee347ee42588ed7b926ac345020
-ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
+ms.openlocfilehash: 291fd315f9fd5f171edfebaec1bcc0adbcb8edf4
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "67837479"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68377587"
 ---
 # <a name="manage-access-to-teams-apps-across-microsoft-365"></a>Управление доступом к приложениям Teams в Microsoft 365
 
@@ -49,7 +50,7 @@ ms.locfileid: "67837479"
 | Параметры управления доступом |Портал|Глобальный администратор|Администратор Teams|
 |--|---|---|--|
 | Только конечные пользователи в целевом выпуске могут получить доступ к новому приложению. Перемещение пользователей в стандартный выпуск. См. раздел [Настройка параметров стандартных или целевых выпусков](/microsoft-365/admin/manage/release-options-in-office-365?view=o365-worldwide&preserve-view=true) | Центр администрирования Microsoft 365 | Да | Нет |
-| Управление доступом к новому приложению для определенных конечных пользователей. См. раздел [Добавление настраиваемой политики разрешений](teams-app-permission-policies.md#create-a-custom-app-permission-policy) и [назначение настраиваемой политики пользователю](policy-assignment-overview.md). | Центр администрирования Teams | Да | Да |
+| Управление доступом к новому приложению для определенных конечных пользователей. См. раздел [Добавление настраиваемой политики разрешений](teams-app-permission-policies.md#create-an-app-permission-policy) и [назначение настраиваемой политики пользователю](policy-assignment-overview.md). | Центр администрирования Teams | Да | Да |
 | Управление доступом к новым приложениям для всех конечных пользователей в организации. См. раздел [Разрешение или блокировка приложений](manage-apps.md#allow-and-block-apps). | Центр администрирования Teams | Да | Да |
 
 > [!NOTE]
@@ -58,7 +59,7 @@ ms.locfileid: "67837479"
 > [!NOTE]
 > Пользователи, установившие существующие надстройки того же приложения в Outlook и Office, продолжат использовать это приложение. Надстройки не являются приложениями Teams, и администраторы Teams не могут управлять доступом.
 
-## <a name="see-also"></a>См. также
+## <a name="related-articles"></a>Статьи по теме
 
 * [Приложения Microsoft Teams, предназначенные для Microsoft 365, доступны в предварительной версии для Outlook и Office.com](https://techcommunity.microsoft.com/t5/microsoft-365-blog/microsoft-teams-apps-designed-for-microsoft-365-coming-in/ba-p/3269538)
 * [Общие сведения о ролях администраторов в Microsoft 365](/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide&preserve-view=true)  

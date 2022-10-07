@@ -3,6 +3,23 @@
 
 
 
+## <a name="week-of-september-19-2022"></a>Неделя с 19 сентября 2022 г.
+
+
+| Дата публикации |Название статьи | Изменение |
+|------|------------|--------|
+| 9/19/2022 | [Телефонная система Microsoft 365 Teams с документацией по плану звонков # < 60 знаков](/MicrosoftTeams/business-voice/index) | Изменено |
+| 9/19/2022 | [Беседы с Олком в Microsoft Teams](/MicrosoftTeams/chalk-talks-landing-page) | Изменено |
+| 9/19/2022 | [Документация администратора Microsoft Teams # < 60 знаков](/MicrosoftTeams/index) | Изменено |
+| 9/19/2022 | [Обучение пользователей microsoft Teams # < 60 символов](/MicrosoftTeams/instructor-led-training-teams-landing-page) | Изменено |
+| 9/19/2022 | [Обучение администратора для работы с Microsoft Teams](/MicrosoftTeams/teams-admin-training-landing-page) | Изменено |
+| 9/19/2022 | [Планирование обновления с Skype для бизнеса до Microsoft Teams](/MicrosoftTeams/upgrade-skype-teams) | Изменено |
+| 9/20/2022 | [Использование настройки приложения для фирменной символики приложений в соответствии с потребностями организации](/MicrosoftTeams/customize-apps) | Изменено |
+| 9/20/2022 | [Использование общих шаблонов команд в Центре администрирования](/MicrosoftTeams/general-teams-templates-in-the-admin-console) | Изменено |
+| 9/20/2022 | [Использование шаблонов команд розничной торговли](/MicrosoftTeams/get-started-with-retail-teams-templates) | Изменено |
+| 9/20/2022 | [Начало работы с шаблонами команд в Центре администрирования Teams](/MicrosoftTeams/get-started-with-teams-templates-in-the-admin-console) | Изменено |
+
+
 ## <a name="week-of-september-12-2022"></a>Неделя с 12 сентября 2022 г.
 
 
@@ -101,7 +118,7 @@
 | 8/24/2022 | [Teams для сферы образования](/MicrosoftTeams/expand-teams-across-your-org/teams-for-education-landing-page) | Изменено |
 | 8/24/2022 | [Вопросы и ответы по Microsoft Education для ИТ-администраторов](/MicrosoftTeams/plan-teams-governance-edu) | Изменено |
 | 8/24/2022 | [Управление политиками и пакетами политик Microsoft Teams для образовательных учреждений](/MicrosoftTeams/policy-packages-edu) | Изменено |
-| 8/24/2022 | [Начните с Microsoft Teams для дистанционного обучения](/MicrosoftTeams/remote-learning-edu) | Изменено |
+| 8/24/2022 | [Начало работы с Microsoft Teams для дистанционного обучения](/MicrosoftTeams/remote-learning-edu) | Изменено |
 | 8/24/2022 | [Совместное использование ресурсов по внедрению Teams](/MicrosoftTeams/resources-teams-edu) | Изменено |
 | 8/24/2022 | [Назначение лицензий Microsoft Teams для образовательных учреждений](/MicrosoftTeams/teams-edu-licensing) | Изменено |
 | 8/24/2022 | [Управление использованием номера телефона](/MicrosoftTeams/manage-the-usage-of-a-phone-number) | Добавлено |
@@ -112,42 +129,3 @@
 | 8/26/2022 | [Создание очереди звонков в Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue-smb) | Изменено |
 | 8/26/2022 | [Создание очереди звонков в Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | Изменено |
 | 8/26/2022 | [Планирование автосекретарей и очередей звонков Teams](/MicrosoftTeams/plan-auto-attendant-call-queue) | Изменено |
-
-
-## <a name="week-of-august-15-2022"></a>Неделя с 15 августа 2022 г.
-
-
-| Дата публикации |Название статьи | Изменение |
-|------|------------|--------|
-| 8/15/2022 | [Пограничные контроллеры сеансов, сертифицированные для прямой маршрутизации](/MicrosoftTeams/direct-routing-border-controllers) | Изменено |
-| 8/16/2022 | [Планы звонков для Microsoft Teams](/MicrosoftTeams/calling-plans-for-office-365) | Изменено |
-| 8/17/2022 | [Настройка магазина приложений в Teams](/MicrosoftTeams/customize-your-app-store) | Изменено |
-| 8/17/2022 | [Устройства для Teams](/MicrosoftTeams/devices/teams-ip-phones) | Изменено |
-| 8/17/2022 | [Согласие для конкретных ресурсов в Microsoft Teams](/MicrosoftTeams/resource-specific-consent) | Изменено |
-| 8/17/2022 | [Управление политиками разрешений для приложений в Microsoft Teams](/MicrosoftTeams/teams-app-permission-policies) | Изменено |
-| 8/17/2022 | [Управление настраиваемыми политиками и параметрами приложений](/MicrosoftTeams/teams-custom-app-policies-and-settings) | Изменено |
-| 8/17/2022 | [Отправка пользовательских приложений в Центре администрирования Microsoft Teams](/MicrosoftTeams/upload-custom-apps) | Изменено |
-| 8/18/2022 | [Просмотр разрешений для приложений и предоставление согласия администратора в Центре администрирования Microsoft Teams](/MicrosoftTeams/app-permissions-admin-center) | Изменено |
-| 8/18/2022 | Новые возможности — Подключение оператора | Удалено |
-| 8/18/2022 | [Отправка пользовательских приложений в Центре администрирования Microsoft Teams](/MicrosoftTeams/upload-custom-apps) | Изменено |
-| 8/19/2022 | [Управление командами в Центре администрирования Microsoft Teams](/MicrosoftTeams/manage-teams-in-modern-portal) | Изменено |
-| 8/19/2022 | [Управление политиками собраний для участников и гостей](/MicrosoftTeams/meeting-policies-participants-and-guests) | Изменено |
-| 8/19/2022 | [Необязательные сетевые функции Teams](/MicrosoftTeams/teams-privacy-oce-overview) | Изменено |
-| 8/20/2022 | [Планирование обхода сервера-посредника с прямой маршрутизацией](/MicrosoftTeams/direct-routing-plan-media-bypass) | Изменено |
-| 8/20/2022 | [Подготовка сети организации к использованию Teams](/MicrosoftTeams/prepare-network) | Изменено |
-| 8/20/2022 | [Телефоны и устройства для Microsoft Teams](/MicrosoftTeams/devices/usb-devices) | Изменено |
-| 8/20/2022 | [Использование шаблонов Teams в Центре администрирования](/MicrosoftTeams/get-started-with-teams-templates-in-the-admin-console) | Изменено |
-| 8/20/2022 | [Приобретение сторонних приложений для Teams](/MicrosoftTeams/purchase-third-party-apps) | Изменено |
-| 8/20/2022 | [Обзор команд и каналов в Microsoft Teams](/MicrosoftTeams/teams-channels-overview) | Изменено |
-| 8/20/2022 | [Обновление Skype для бизнеса локально до Microsoft Teams](/MicrosoftTeams/upgrade-to-teams-execute-skypeforbusinesshybridonprem) | Изменено |
-| 8/20/2022 | [Управление политиками голосовой почты](/MicrosoftTeams/manage-voicemail-policies) | Добавлено |
-| 8/20/2022 | [Назначение, изменение и удаление номера телефона пользователя](/MicrosoftTeams/assign-change-or-remove-a-phone-number-for-a-user) | Изменено |
-| 8/20/2022 | [Удаленная подготовка и вход для устройств Android в Teams](/MicrosoftTeams/devices/remote-provision-remote-login) | Изменено |
-| 8/20/2022 | [Управление приложением "Смены" в организации](/MicrosoftTeams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams) | Изменено |
-| 8/20/2022 | [Настройка operator Connect](/MicrosoftTeams/operator-connect-configure) | Изменено |
-| 8/20/2022 | [Передача данных между операторами и Корпорацией Майкрософт для Operator Connect](/MicrosoftTeams/operator-connect-data-transfer) | Изменено |
-| 8/20/2022 | [Operator Connect](/MicrosoftTeams/operator-connect-plan) | Изменено |
-| 8/20/2022 | [Поиск номеров телефонов для пользователей](/MicrosoftTeams/search-for-phone-numbers-for-users) | Изменено |
-| 8/20/2022 | [Настройка параметров трансляции в Microsoft Teams](/MicrosoftTeams/teams-live-events/configure-teams-live-events) | Изменено |
-| 8/20/2022 | [Подготовка к трансляциям в Microsoft Teams](/MicrosoftTeams/teams-live-events/set-up-for-teams-live-events) | Изменено |
-| 8/20/2022 | [Настройка подтверждения набора номера для пользователей в Microsoft Teams](/MicrosoftTeams/set-up-meeting-dial-out-confirmation) | Изменено |

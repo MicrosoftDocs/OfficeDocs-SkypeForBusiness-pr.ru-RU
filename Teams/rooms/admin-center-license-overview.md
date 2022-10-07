@@ -22,18 +22,21 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: Узнайте о лицензировании Комнаты Teams и доступности функций в Центре администрирования Teams и сравните их.
-ms.openlocfilehash: d88e7a0c0a6c17fb22f1cc94fcd4de65a3ff79a2
-ms.sourcegitcommit: 732a7f3e120cfa221d42b4e8af2cf9ff623488a1
+ms.openlocfilehash: 0e4a3d4fc15f5e978731254e3344ee6e413ff682
+ms.sourcegitcommit: 401cee68d4f6f9470d614dda12b9cb023f382ff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "67633639"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "67999634"
 ---
 # <a name="microsoft-teams-rooms-license-overview-in-teams-admin-center"></a>Комнаты Microsoft Teams лицензии в Центре администрирования Teams
 
 Центр администрирования Teams позволяет просматривать устройства и периферийные устройства Комнаты Teams управлять ими из центрального расположения. В этой [статье показано](#comparison-of-teams-rooms-feature-availability-by-license), какие возможности управления у вас есть в зависимости от того, Комнаты Teams устройству назначена лицензия Комнаты Microsoft Teams Basic или Комнаты Microsoft Teams Pro.
 
 Дополнительные сведения о Комнаты Microsoft Teams лицензиях см[. Комнаты Microsoft Teams лицензиях](rooms-licensing.md).
+
+> [!NOTE]
+> Если у вас уже Комнаты Teams лицензии уровня "Стандартный" или Комнаты Teams "Премиум", вам потребуется перейти на Комнаты Teams Pro по истечении срока действия устаревших лицензий. Если у вас есть Соглашение Enterprise, необходимо переключиться на лицензии Комнаты Teams Pro в следующий период продления. Дополнительные сведения см. в [статье "Переход с Комнаты Teams уровня "Стандартный" и Комнаты Teams "Премиум"](rooms-licensing.md#switching-from-teams-rooms-standard-and-teams-rooms-premium).
 
 ## <a name="see-which-licenses-are-assigned-to-teams-rooms-devices"></a>Просмотр лицензий, назначенных Комнаты Teams устройств
 
@@ -73,7 +76,6 @@ ms.locfileid: "67633639"
 | **Сведения о работоспособности устройства**                     |                             | &#x2714;                  |
 | **Теги устройств**                               |                             | &#x2714;                  |
 | **API graph**                                |                             | &#x2714;                  |
-| **Обновления устройств вручную**                     |                             | &#x2714;                  |
 | **Удаленный перезапуск**                            |                             | &#x2714;                  |
 | **Управление периферийными устройствами Windows**     |                             | &#x2714;                  |
 | **Параметры устройства Windows**                   |                             | &#x2714;                  |

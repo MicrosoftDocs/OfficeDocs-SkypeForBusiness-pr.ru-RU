@@ -7,6 +7,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.subservice: teams-apps
+ms.date: 09/25/2022
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
@@ -17,12 +18,12 @@ description: Узнайте, как настроить Adobe Acrobat в каче
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 3c9279c791a7f0e00d1b4a55161651c90b6b9763
-ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
+ms.openlocfilehash: 4051b09febdcadfdeb62bf9301823717e1b35fe4
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "67837709"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68377577"
 ---
 # <a name="adobe-acrobat-as-a-default-pdf-viewer-in-microsoft-teams"></a>Adobe Acrobat в качестве средства просмотра PDF по умолчанию в Microsoft Teams
 
@@ -74,10 +75,10 @@ ms.locfileid: "67837709"
 
 Узнайте нижеследующую информацию об этой функции:
 
-* После настройки политики обычно требуется [несколько часов](teams-app-setup-policies.md), чтобы приложение стало доступно пользователям.
+* После настройки политики обычно требуется несколько часов, чтобы приложение [](teams-app-setup-policies.md#considerations-and-limitations) было доступно пользователям.
 * Просмотр PDF-файлов, закрепленных в каналах как вкладка, и просмотр PDF-файлов в приложении "Назначения" по-прежнему поддерживается собственным интерфейсом Teams.
 * Adobe Acrobat в качестве средства просмотра PDF-файлов по умолчанию в Teams работает только на настольных компьютерах и веб-клиентах. Не поддерживается в мобильном клиенте.
 * Пользователям требуется план Adobe Acrobat для использования таких премиум-средств, как "Экспорт PDF", "Упорядочивание страниц", "Объединение файлов", "Сжатие PDF" и "Защита PDF".
 * Чтобы удалить приложение, конечные пользователи могут удалить его из клиента Teams. Администратор может удалить приложение Adobe Acrobat с помощью политики установки.
 * Если вы блокируете приложение Adobe Acrobat, удалите его из политики установки. Это гарантирует, что конечный пользователь вернется к использованию собственного средства просмотра файлов PDF.
-* Если у вас возникли проблемы при входе в приложение Adobe Acrobat в настольном клиенте Teams, используйте для входа Teams в браузере.
+* Если при входе в приложение Adobe Acrobat в настольном клиенте Teams возникнут какие-либо проблемы, используйте [Teams](https://teams.microsoft.com/) в браузере для входа.

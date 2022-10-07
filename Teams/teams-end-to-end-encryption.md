@@ -15,16 +15,17 @@ f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
+- purview-compliance
 ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e090c465b46370367d96a782e12f38161465ce33
-ms.sourcegitcommit: 479e236aa8a9a91df4894ed3cce4c287a1354d80
+ms.openlocfilehash: 2e11a0d89c7c49e27dd4237e67a67be93db2bcb6
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/02/2022
-ms.locfileid: "67572089"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68046749"
 ---
 # <a name="use-end-to-end-encryption-for-one-to-one-microsoft-teams-calls"></a>Сквозное шифрование для звонков Microsoft Teams
 
@@ -111,7 +112,7 @@ ms.locfileid: "67572089"
 
 #### <a name="to-enable-end-to-end-encryption-for-your-entire-tenant-using-the-global-policy"></a>Чтобы включить сквозное шифрование для всего клиента с помощью глобальной политики
 
-Сквозное шифрование выключено по умолчанию. Чтобы включить сквозное шифрование для всего клиента, настроив глобальную политику по умолчанию, выполните командлет [Set-CsTeamsEnhancedEncryptionPolicy](/powershell/module/teams/Set-CsTeamsEnhancedEncryptionPolicy) следующим образом.
+By default, end-to-end encryption is disabled. To enable end-to-end encryption for the entire tenant by setting the default global policy, run the [Set-CsTeamsEnhancedEncryptionPolicy](/powershell/module/teams/Set-CsTeamsEnhancedEncryptionPolicy) cmdlet as follows.
 
 ```powershell
 Set-CsTeamsEnhancedEncryptionPolicy -Identity Global -CallingEndtoEndEncryptionEnabledType DisabledUserOverride
@@ -125,7 +126,7 @@ Set-CsTeamsEnhancedEncryptionPolicy -Identity Global -CallingEndtoEndEncryptionE
 
 #### <a name="to-disable-end-to-end-encryption-for-your-entire-tenant-using-the-global-policy"></a>Отключение сквозного шифрования для всего клиента с помощью глобальной политики
 
-Сквозное шифрование выключено по умолчанию. Если вы внесли изменения в глобальную политику, можно вернуть этот параметр, выполнив командлет [Grant-CsTeamsEnhancedEncryptionPolicy.](/powershell/module/teams/Grant-CsTeamsEnhancedEncryptionPolicy) следующим образом.
+By default, end-to-end encryption is disabled. If you've made changes to the global policy, you can change the setting back by running the [Grant-CsTeamsEnhancedEncryptionPolicy](/powershell/module/teams/Grant-CsTeamsEnhancedEncryptionPolicy) cmdlet as follows.
 
 ```powershell
 Grant-CsTeamsEnhancedEncryptionPolicy -Identity Global -CallingEndtoEndEncryptionEnabledType Disabled
@@ -151,7 +152,7 @@ Grant-CsTeamsEnhancedEncryptionPolicy -Identity "username" -PolicyName "policyna
 
 - *`policyname`* — имя, которое вы хотите использовать для политики. Имена политик не могут содержать пробелы, например ContosoE2EEUserPolicy.
 
-Пользователям по-прежнему необходимо включить сквозное шифрование вызовов в параметрах Teams, прежде чем они смогут совершить зашифрованный звонок. Инструкции см. в статье [Использование сквозного шифрования для вызовов в Teams](https://support.microsoft.com/office/1274b4d2-b5c5-4b24-a376-606fa6728a90).
+Users still need to switch on end-to-end encrypted calling in their Teams settings before they can make an end-to-end encrypted call. For instructions, see [Use end-to-end encryption for Teams calls](https://support.microsoft.com/office/1274b4d2-b5c5-4b24-a376-606fa6728a90).
 
 Например:
 
