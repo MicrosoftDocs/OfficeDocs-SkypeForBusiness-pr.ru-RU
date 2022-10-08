@@ -1,7 +1,7 @@
 ---
 title: Настройка Телефонная система Microsoft Teams с тарифным планом для малого и среднего бизнеса
-author: dstrome
-ms.author: dstrome
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -17,12 +17,12 @@ appliesto:
 ms.collection:
 - M365-voice
 - M365initiative-voice
-ms.openlocfilehash: 7a4e8a58e9a96b40df209aa61ed873f9a24fc452
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: d74b5a8cc3511c38001c9719c84f1f0b9db5051f
+ms.sourcegitcommit: fc87f4300f53abf7a049936944abb21d0cade0d9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271854"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "68480879"
 ---
 # <a name="set-up-the-teams-phone-system-with-calling-plan-bundle-for-small-to-medium-businesses"></a>Настройка телефонной системы Teams с пакетом плана звонков для малого и среднего бизнеса
 
