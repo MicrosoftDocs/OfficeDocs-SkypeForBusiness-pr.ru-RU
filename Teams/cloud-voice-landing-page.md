@@ -13,6 +13,7 @@ ms.collection:
 - m365initiative-voice
 - m365solution-voice
 - m365solution-scenario
+- highpri
 ms.reviewer: crowe
 f1.keywords:
 - CSH
@@ -24,12 +25,12 @@ search.appverid: MET150
 description: Узнайте больше о функциях облачной голосовой связи Microsoft Teams и о решениях по развертыванию, которые вы будете принимать для своей организации.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 40f2a4f56b9d1c174696265300226263eb41a9de
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: f1ba61d1ccbaeda26834b31a321aebfccbe23243
+ms.sourcegitcommit: 401cee68d4f6f9470d614dda12b9cb023f382ff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606068"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "67999354"
 ---
 # <a name="plan-your-teams-voice-solution"></a>Планирование голосового решения Teams
 

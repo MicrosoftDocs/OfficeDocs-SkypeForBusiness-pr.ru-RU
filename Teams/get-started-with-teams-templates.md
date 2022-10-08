@@ -12,6 +12,7 @@ search.appverid: MET150
 ms.collection:
 - M365-collaboration
 - m365-frontline
+- highpri
 description: Узнайте о шаблонах команд, доступных только в Microsoft Graph.
 f1.keywords:
 - CSH
@@ -20,12 +21,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c4251aa0293665b6fd41c66e352ca9c595378259
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: ca21b61f1d1889c101208c8b9617efb4a9c19795
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67397240"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68046869"
 ---
 # <a name="get-started-with-team-templates-using-microsoft-graph"></a>Начало работы с шаблонами команд с помощью Microsoft Graph
 
@@ -66,9 +67,9 @@ ms.locfileid: "67397240"
 | Тип шаблона | TemplateId | Свойства этого шаблона |
 | ------------------ | -------------- | ----------------------------------------------------- |
 | Standard | `https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('standard')` | Нет дополнительных приложений и свойств |
-| Для образовательных учреждений —<br>Группа классов | `https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('educationClass')` | Приложения:<ul><li>Записная книжка oneNote для занятий (закреплена на **вкладке "Общие** ") </li><li>Приложение "Назначения" (закреплено на **вкладке "Общие** ")</li></ul> Свойства команды:<ul><li>Для видимости команды задано **значение HiddenMembership** (не может быть переопределено)</li></ul> |
-| Для образовательных учреждений —<br>Группа персонала | `https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('educationStaff')` | Приложения:<ul><li>Записная книжка OneNote для преподавателей (закреплена на **вкладке "Общие** ")</li></ul> |
-|Для образовательных учреждений —<br>Команда PLC |`https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('educationProfessionalLearningCommunity')` | Приложения:<ul><li>Записная книжка OneNote PLC (закреплена на **вкладке "Общие** ")</ul></li>|
+| Образования-<br>Группа классов | `https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('educationClass')` | Приложения:<ul><li>Записная книжка oneNote для занятий (закреплена на **вкладке "Общие** ") </li><li>Приложение "Назначения" (закреплено на **вкладке "Общие** ")</li></ul> Свойства команды:<ul><li>Для видимости команды задано **значение HiddenMembership** (не может быть переопределено)</li></ul> |
+| Образования-<br>Группа персонала | `https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('educationStaff')` | Приложения:<ul><li>Записная книжка OneNote для преподавателей (закреплена на **вкладке "Общие** ")</li></ul> |
+|Образования-<br>Команда PLC |`https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('educationProfessionalLearningCommunity')` | Приложения:<ul><li>Записная книжка OneNote PLC (закреплена на **вкладке "Общие** ")</ul></li>|
 
 > [!NOTE]
 > Список предварительно созданных шаблонов, которые можно использовать в клиенте Teams и в Microsoft Graph, см. в статье "Начало работы с шаблонами групп" в [Центре администрирования Teams](get-started-with-teams-templates-in-the-admin-console.md).

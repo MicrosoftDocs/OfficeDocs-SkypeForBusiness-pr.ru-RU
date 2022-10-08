@@ -1,7 +1,7 @@
 ---
 title: Обновление Бесплатная версия Microsoft Teams (классическая) до подписки
-ms.author: mikeplum
-author: MikePlumleyMSFT
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 123cb6343886f269a847d431b87f154855086d9b
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+ms.openlocfilehash: de9862f9c6d5fff84e7fa6e763f0dee219a8c183
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66615745"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68377347"
 ---
 # <a name="upgrade-microsoft-teams-free-classic-to-subscription-version"></a>Обновление Бесплатная версия Microsoft Teams (классическая) до версии подписки
 
@@ -55,7 +55,7 @@ ms.locfileid: "66615745"
 - 1 ТБ хранилища на пользователя
 - Запланированные собрания
 - Аудиоконференции
-- Расширенные функции безопасности и соответствия требованиям, включая многофакторную проверку подлинности, единый вход и аудит (Premium) и создание отчетов
+- Расширенные функции безопасности и соответствия требованиям, включая многофакторную проверку подлинности, единый вход и аудит (Премиум) и отчеты
 - Административные элементы управления и функции поддержки, включая телефонную и веб-поддержку 24 x 7, средства администрирования для управления пользователями и приложениями, отчеты об использовании для служб Microsoft 365 или Office 365, соглашение об уровне обслуживания, настраиваемые параметры и политики пользователей
 
 Подробное сравнение функций Teams Free (классической) и Teams см. в статье ["Сравнение планов Teams"](https://products.office.com/microsoft-teams/free).

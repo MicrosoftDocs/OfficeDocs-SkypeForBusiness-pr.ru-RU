@@ -13,12 +13,12 @@ ms.collection:
 description: Узнайте, как управлять Microsoft Teams с помощью Teams PowerShell.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 66f873b163222d3d9745e68881da2b8071f60eec
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: a14658039f4edeb8e70ec195f036bf8321453c2c
+ms.sourcegitcommit: fcedb958bf555d870215ae84fb83752304944716
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396530"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "68486579"
 ---
 # <a name="manage-teams-with-microsoft-teams-powershell"></a>Управление Teams с помощью Microsoft Teams PowerShell
 
@@ -69,8 +69,8 @@ Cloud Shell является интерактивной оболочкой с п
 ## <a name="manage-policies-via-powershell"></a>Управление политиками с помощью PowerShell
 
 > [!NOTE]
-> - Skype для бизнеса Соединитель Online консолидирован в Teams PowerShell. В настоящее время он доступен в общедоступной предварительной версии. Со временем Skype для бизнеса Online, применимые к Teams, будут изначально доступны в модуле Teams PowerShell. Инструкции по установке см. в статье ["Установка Teams PowerShell](teams-powershell-install.md) ".
-> - Командлеты будут доступны в сеансе PowerShell после подключения к Skype для бизнеса Online. Дополнительные сведения см. в разделе ["Управление Skype для бизнеса Online с помощью Office 365 PowerShell"](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell).
+> - Skype для бизнеса Online Connector объединяется в Teams PowerShell. Skype для бизнеса Командлеты Online, применимые к Teams, изначально доступны в модуле Teams PowerShell. Инструкции по установке см. в статье ["Установка Teams PowerShell](teams-powershell-install.md) ".
+> - Командлеты будут доступны в сеансе PowerShell после подключения к Teams. Дополнительные сведения см. в разделе ["Управление Skype для бизнеса Online с помощью Office 365 PowerShell"](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell).
 
 Найдите командлеты для управления политиками в Skype для бизнеса [командлета](/powershell/module/teams).
 

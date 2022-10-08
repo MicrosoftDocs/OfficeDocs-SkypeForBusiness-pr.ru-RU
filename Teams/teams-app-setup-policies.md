@@ -8,6 +8,7 @@ ms.tgt.pltfrm: cloud
 ms.subservice: teams-apps
 ms.service: msteams
 audience: Admin
+ms.date: 09/26/2022
 ms.collection:
 - M365-collaboration
 appliesto:
@@ -19,12 +20,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: d192bffdc83510da021914627c65b03f190c6c63
-ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
+ms.openlocfilehash: dc84bc7be43182194af3a072edb875a6a257a9d5
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "67837179"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68377337"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Управление политиками настройки приложений в Microsoft Teams
 
@@ -51,7 +52,7 @@ ms.locfileid: "67837179"
 
 |Классический клиент Teams  |Мобильный клиент Teams |
 |---------|---------|
-|![Панель приложений в настольном клиенте Teams.](media/app-setup-policies-desktop-app-bar.png).  |   ![Панель приложений в мобильном клиенте Teams.](media/mobile-app-ui.png)      |
+|![Снимок экрана: панель приложения в настольном клиенте Teams.](media/app-setup-policies-desktop-app-bar.png).  |   ![Снимок экрана: панель приложения в мобильном клиенте Teams.](media/mobile-app-ui.png)      |
 
 Расширения для обмена сообщениями доступны в нижней части области создания сообщений.
 
@@ -112,7 +113,7 @@ ms.locfileid: "67837179"
 
 Вы редактируете параметры глобальной политики, чтобы включить нужные приложения. Чтобы настроить Teams для разных групп пользователей в вашей организации, создайте и назначьте одну или несколько настраиваемых политик.
 
-![Страница политик установки приложений для управления политиками или добавления новых политик.](media/app-setup-policies-update.png)
+:::image type="content" source="media/app-setup-policies-update.png" alt-text="Снимок экрана: страница &quot;Политики установки приложения&quot; с параметрами управления политиками или добавления новых политик.":::
 
 ### <a name="edit-an-app-setup-policy"></a>Изменение политики установки приложения
 
@@ -161,7 +162,7 @@ ms.locfileid: "67837179"
 |Классический клиент Teams |Мобильный клиент Teams |
 |---------|---------|
 |На панели приложения на стороне Teams выберите **... Другие приложения**.| На панели приложения в нижней части Teams проведите пальцем вверх.|
-|![Дополнительные приложения в настольном клиенте Teams.](media/app-setup-policies-desktop-more-apps.png)   |![другие приложения в мобильном клиенте Teams](media/app-setup-policies-mobile-more-apps.png)  
+|![Снимок экрана: более закрепленные приложения в настольном клиенте Teams.](media/app-setup-policies-desktop-more-apps.png)   |![Снимок экрана: более закрепленные приложения в мобильном клиенте Teams](media/app-setup-policies-mobile-more-apps.png)  
 
 #### <a name="what-do-i-need-to-know-about-the-teams-mobile-experience"></a>Что мне нужно знать о мобильном интерфейсе Teams
 

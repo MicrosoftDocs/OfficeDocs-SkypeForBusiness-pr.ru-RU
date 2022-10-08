@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 29a048ccc02082ec019bb64dca9e89b7f265ff83
-ms.sourcegitcommit: 7a1fb6e15c21368afa34cd212865437781f721e2
+ms.openlocfilehash: d7b74ecb85f6081533f5139b6f8f083b8958d47f
+ms.sourcegitcommit: 31fe510550ac1f5f8e53b2395014cb909a6eb723
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "67465977"
+ms.lasthandoff: 10/03/2022
+ms.locfileid: "68350752"
 ---
 # <a name="manage-voice-recognition-technology-controls-for-an-intelligent-speaker"></a>Управление элементами управления технологиями распознавания речи для интеллектуального динамика
 
@@ -130,13 +130,29 @@ ms.locfileid: "67465977"
 
 |**Язык**|**Страна или регион**|**Идентификатор языка и региональных параметров**|
 |:-----|:-----|:-----|
+|Арабский  <br/> |Саудовская Аравия <br/> |ar-SA  <br/> |
+|Китайский  <br/> |Китай <br/> |zh-CN  <br/> |
+|Китайский  <br/> |Тайвань <br/> |zh-TW  <br/> |
+|Датский  <br/> |Дания <br/> |da-DK  <br/> |
+|Нидерландский  <br/> |Нидерланды <br/> |nl-NL  <br/> |
 |Английский  <br/> |Австралия <br/> |en-AU  <br/> |
 |Английский  <br/> |Канада  <br/> |en-CA <br/> |
 |Английский  <br/> |Индия  <br/> |en-IN  <br/> |
 |Английский  <br/> |Новая Зеландия  <br/> |en-NZ  <br/> |
 |Английский  <br/> |Соединенное Королевство  <br/> |en-GB  <br/> |
 |Английский  <br/> |США  <br/> |en-US  <br/> |
-
+|Финский  <br/> |Финляндия  <br/> |Fi-FI  <br/> |
+|Французский  <br/> |Канада <br/> |fr-CA  <br/> |
+|Французский  <br/> |Франция <br/> |fr-FR  <br/> |
+|Итальянский  <br/> |Италия <br/> |it-IT  <br/> |
+|Японский  <br/> |Япония <br/> |ja-JP  <br/> |
+|Норвежский  <br/> |Норвегия <br/> |nb-NO  <br/> |
+|Польский  <br/> |Польша <br/> |pl-PL  <br/> |
+|Португальский      <br/> |Бразилия <br/> |pt-BR  <br/> |
+|Русский  <br/> |Россия <br/> |ru-RU  <br/> |
+|Шведский  <br/> |Швеция <br/> |sv-SE  <br/> |
+|Испанский  <br/> |Мексика  <br/> |es-MX  <br/> |
+|Испанский  <br/> |Испания  <br/> |es-ES  <br/> |
 
 ### <a name="in-meeting-transcription-locales"></a>Языковые стандарты транскрибирования в собрании
 

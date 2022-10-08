@@ -19,12 +19,13 @@ appliesto:
 ms.collection:
 - M365-collaboration
 - m365-frontline
-ms.openlocfilehash: 23c75051268de176cc14a9b8df426e8d67f5a2d3
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+- highpri
+ms.openlocfilehash: 74b67a71f8b93f5f0ed898ef186beede056ec31a
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396500"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68047119"
 ---
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>Управление приложением "Задачи" для вашей организации в Microsoft Teams
 
@@ -132,7 +133,7 @@ Contoso выполняет развертывание новой акции по
 
 ## <a name="power-automate-and-graph-api"></a>Power Automate и API Graph
 
-Задачи поддерживают Power Automate для To-Do и API Graph для Планировщика. Дополнительные сведения:
+Задачи поддерживают Power Automate для To-Do и API Graph для Планировщика. Дополнительные сведения см. в статьях
 
 - [Обзор API планов и задач Планировщика](/graph/planner-concept-overview)
 - [Использование Microsoft To-Do с Power Automate](https://support.office.com/article/using-microsoft-to-do-with-power-automate-526e8f75-217b-46e0-9e06-44780b72c295)

@@ -1,7 +1,7 @@
 ---
 title: Управление бесплатной пробной версией Office 365 G1 для государственных учреждений США
-ms.author: mikeplum
-author: MikePlumleyMSFT
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.topic: article
 audience: Admin
@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aeb7a13db3358c03f40f878b8aa88f27497e4706
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
-ms.translationtype: HT
+ms.openlocfilehash: d45869d015dc5486d3971bff5795cb0cc791dd5c
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67267964"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68377327"
 ---
 # <a name="manage-the-office-365-g1-trial-for-us-government"></a>Управление пробной версией Office 365 G1 для государственных учреждений США 
 
@@ -33,7 +33,7 @@ ms.locfileid: "67267964"
 
 После активации пробной версии Office 365 G1 включите лицензию для всех пользователей, которым она требуется. Сведения о том, как это сделать, см. в статье [Управление доступом пользователей к Teams](user-access.md).
 
-После включения пробной версии G1 для пользователей, которым она требуется, вы сможете управлять ими так же, как управляете пользователями с платной лицензией. Дополнительные сведения см. в статье [Управление параметрами Teams в организации](enable-features-office-365.md).
+Once you've turned on the G1 Trial for the users who need it, you'll manage these users just like you manage users who have a paid license. For more information, see [Manage Teams settings for your organization](enable-features-office-365.md).
 
 ### <a name="upgrade-users-from-the-office-365-g1-trial-license"></a>Переход пользователей с пробной лицензии Office 365 G1
 
@@ -48,7 +48,7 @@ ms.locfileid: "67267964"
 Дополнительные сведения см. в статье [Teams для государственных учреждений](expand-teams-across-your-org/teams-for-government-landing-page.md).
 
 > [!NOTE]
-> Если срок действия пробной лицензии G1 истек, а пользователь сразу не обновился до подписки, включающей Teams, пользовательские данные не удаляются. Пользователь по-прежнему существует в Azure Active Directory, а все данные в Teams сохраняются. Содержимое продолжит существовать, чтобы повторно включить функции Teams после назначения новой лицензии пользователю.
+> If the G1 Trial license ends and a user is not immediately upgraded to a subscription that includes Teams, the user data is not removed. The user still exists in Azure Active Directory and all data within Teams still remains. Once a new license is assigned to the user to enable Teams functionality again, all content will still exist.
 > 
 ### <a name="remove-an-office-365-g1-trial-license"></a>Удаление лицензии на пробную версию Office 365 G1
 

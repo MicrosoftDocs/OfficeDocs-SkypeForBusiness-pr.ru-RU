@@ -1,7 +1,7 @@
 ---
 title: Переход с пробной версии Teams Exploratory
-author: cazawideh
-ms.author: czawideh
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.topic: reference
 audience: Admin
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7137114ffd47e19faaf8ba74f0d0625f74bc6d89
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
-ms.translationtype: HT
+ms.openlocfilehash: 00faa3cf3840409ecd2fd0a6ccbfa58418547b94
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269544"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68376977"
 ---
 # <a name="upgrade-users-from-the-teams-exploratory-trial"></a>Перевод пользователей с пробной версии Teams Exploratory
 
@@ -36,7 +36,7 @@ ms.locfileid: "67269544"
 
 ## <a name="step-1-when-to-upgrade"></a>Этап 1. Время перехода  
 
-Для проверки срока действия пробной версии Teams Exploratory вашей организации и количества активных пользователей, перейдите в раздел **Выставление счетов >** <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank"><b>Ваши продукты</b></a> в центре администрирования Microsoft 365. Кроме того, вы получите уведомление о приближающемся окончании срока действия пробной версии Teams Exploratory.
+To check when your organization’s Teams Exploratory trial is expiring and how many active users it has, go to **Billing >** <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank"><b>Your products</b></a> in the Microsoft 365 admin center. You’ll also be notified before the Teams Exploratory trial expires.
 
 > [!IMPORTANT]
 > Чтобы пользователи не потеряли доступ к Teams, необходимо составить план перевода пользователей на платные лицензии до прекращения действия пробной версии.
@@ -69,7 +69,7 @@ ms.locfileid: "67269544"
 
 ### <a name="auto-claim-policies"></a>Политики автоматического запроса
 
-При следующем обновлении используйте политики автоматического запроса, чтобы создать в организации политики для автоматического назначения лицензий из платных подписок новым пользователям, которые не приобрели лицензию Teams. Дополнительные сведения см. в разделе <a href="/microsoft-365/commerce/licenses/manage-auto-claim-policies?view=o365-worldwide" target="_blank">Управление политиками автоматического запроса</a>.
+Next time you upgrade, use auto-claim policies to create policies for your organization to automatically assign licenses from paid subscriptions to new users who haven’t acquired a Teams license. For more information, see <a href="/microsoft-365/commerce/licenses/manage-auto-claim-policies?view=o365-worldwide" target="_blank">Manage auto-claim policies</a>.
 
 ## <a name="related-topics"></a>Статьи по теме
 

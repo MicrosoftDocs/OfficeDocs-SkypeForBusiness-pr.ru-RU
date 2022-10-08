@@ -1,5 +1,5 @@
 ---
-title: Управление Microsoft 365 и настраиваемыми соединителями
+title: Управление соединителями и пользовательскими соединителями Microsoft 365
 author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
@@ -7,25 +7,26 @@ ms.topic: article
 ms.service: msteams
 ms.subservice: teams-apps
 audience: admin
+ms.date: 09/01/2022
 ms.collection:
 - M365-collaboration
 ms.reviewer: lucarras
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Узнайте, как соединители поддерживают вашу команду в курсе событий, регулярно доставляя содержимое и обновления непосредственно в канал Teams для используемых вами служб.
+description: Узнайте, как соединители обновляют вашу команду, часто доставляя содержимое и обновления непосредственно в канал Teams для используемых служб.
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 5e61a6705f470ee93c7169effdd56f35ca0dd6f4
-ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
+ms.openlocfilehash: fb65e7c91aa7ac0de7c8dade3a442f457d72657f
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "67837359"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68377007"
 ---
-# <a name="manage-microsoft-365-and-custom-connectors"></a>Управление Microsoft 365 и настраиваемыми соединителями
+# <a name="manage-microsoft-365-connectors-and-custom-connectors"></a>Управление соединителями и пользовательскими соединителями Microsoft 365
 
 Чтобы держать вашу команду в курсе, соединители доставляют часто используемый контент и обновления служб непосредственно в канал Teams. Благодаря соединителям пользователи Teams могут получать обновления из популярных служб, таких как Trello, Wunderlist, GitHub и Azure DevOps Services. Обновления будут публиковаться непосредственно в потоке чата в команде.
 
