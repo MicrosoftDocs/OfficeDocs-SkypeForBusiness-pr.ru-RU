@@ -1,7 +1,7 @@
 ---
 title: Управление предложением Microsoft Teams Exploratory
-ms.author: mikeplum
-author: MikePlumleyMSFT
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.topic: reference
 audience: Admin
@@ -17,16 +17,16 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0a9069a0ab86c043749f24b5c7b19d2e4ff6280b
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
-ms.translationtype: HT
+ms.openlocfilehash: a5124c36b48c4cd8d6d2a466cbdc46c962b9aa11
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268844"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68376847"
 ---
 # <a name="manage-the-microsoft-teams-exploratory-license"></a>Управление лицензией на Microsoft Teams Exploratory
 
-Предложение Microsoft Teams Exploratory позволяет пользователям в вашей организации, у которых есть лицензия на Azure Active Directory (Azure AD), но нет лицензии на Teams, оформить ознакомительную лицензию на Teams. Администраторы могут включать и отключать эту функцию для пользователей в организации.
+The Microsoft Teams Exploratory experience lets users in your organization who have Azure Active Directory (Azure AD) and aren't licensed for Teams initiate an exploratory experience of Teams. Admins can switch this feature on or off for users in their organization.
 
 ## <a name="whats-in-the-teams-exploratory-experience"></a>Что включает предложение Teams Exploratory
 
@@ -51,7 +51,7 @@ ms.locfileid: "67268844"
 - Доска (план 1)
 - Yammer корпоративный
 
-  <sup>1</sup> Переход от использования Microsoft Stream к [OneDrive для бизнеса и SharePoint для записи собраний](tmr-meeting-recording-change.md) будет поэтапным. При запуске вы сможете согласиться на использование этого интерфейса. В ноябре потребуется отказаться от использования, если вы хотите продолжить использование Stream. В начале 2021 года мы сделаем использование OneDrive для бизнеса и SharePoint для новых записей собраний обязательным для всех пользователей.
+  <sup>1</sup> The change from using Microsoft Stream to [OneDrive for Business and SharePoint for meeting recordings](tmr-meeting-recording-change.md) will be a phased approach. At launch, you'll be able to opt in to this experience. In November, you'll have to opt out if you want to continue using Stream. Sometime in early 2021, we'll require all customers to use OneDrive for Business and SharePoint for new meeting recordings.
 
 ## <a name="whos-eligible"></a>Кто имеет право на использование
 
@@ -62,7 +62,7 @@ ms.locfileid: "67268844"
 - У вас нет действующей лицензии на Microsoft Teams.
 - Не в клиенте, где была создана политика назначения лицензии.
 
-У пользователей есть возможность зарегистрироваться для получения приложений и пробных версий (в Центре администрирования Microsoft 365). Дополнительные сведения см. в разделе [Управление предложением Teams Exploratory](#manage-the-teams-exploratory-experience) далее в этой статье.
+Users must be enabled to sign up for apps and trials (in the Microsoft 365 admin center). For more information, see [Manage the Teams Exploratory experience](#manage-the-teams-exploratory-experience), later in this article.
 
 ## <a name="who-isnt-eligible"></a>Кто не имеет права на использование
 
@@ -81,7 +81,7 @@ ms.locfileid: "67268844"
 
 Предложение Teams Exploratory предназначено для активации отдельными пользователями, и вы не можете активировать его от имени сотрудников, являющихся конечными пользователями.
 
-Предложение Teams Exploratory включает лицензию на Exchange Online, но она должна быть назначена пользователю администратором. Если у пользователя нет лицензии на Exchange, а администратор еще не назначил лицензию на Exchange Online, пользователь не сможет планировать собрания в Teams и использовать другие функции Teams.
+The Teams Exploratory experience comes with an Exchange Online license, but it won't be assigned to the user until the admin assigns it. If the user doesn't have an Exchange license already, and the admin has yet to assign the Exchange Online license, the user won't be able to schedule meetings in Teams and might be missing other Teams functionality.
 
 Администраторы могут отключить возможность использования Teams Exploratory для пользователей в своей организации с помощью переключателя **Пробные версии приложений и служб**.
 
@@ -102,7 +102,7 @@ ms.locfileid: "67268844"
 
 ### <a name="manage-availability-for-a-user-with-a-license-that-includes-teams"></a>Управление доступностью для пользователя с лицензией, включающей Teams
 
-Пользователь, которому назначена лицензия, включающая Teams, не имеет права на использование Teams Exploratory. Если план обслуживания Teams включен, пользователь может выполнить вход в систему и использовать Teams. Если план обслуживания отключен, пользователь не может выполнить вход в систему и возможности Teams Exploratory ему недоступны. У вас должны быть права администратора.
+A user who is assigned a license that includes Teams isn't eligible for the Teams Exploratory experience. When the Teams service plan is turned on, the user can sign in and use Teams. If the service plan is disabled, the user can't sign in and the Teams Exploratory experience isn't available. You must have admin privileges.
 
 Отключение доступа к Teams:
 
@@ -118,7 +118,7 @@ ms.locfileid: "67268844"
 
 ### <a name="manage-teams-availability-for-users-who-are-already-using-the-teams-exploratory-experience"></a>Управление доступностью Teams для пользователей, уже использующих Teams Exploratory
 
-Если пользователь использует предложение Teams Exploratory, вы можете отключить его, удалив лицензию или план обслуживания. У вас должны быть права администратора.
+If a user is running the Teams Exploratory experience, you can turn it off by removing the license or service plan. You must have admin privileges.
 
 Чтобы отключить лицензию на Teams Exploratory, выполните указанные ниже действия.
 
@@ -135,14 +135,14 @@ ms.locfileid: "67268844"
 
 ### <a name="manage-teams-for-users-who-have-the-teams-exploratory-license"></a>Управление Teams для пользователей с лицензией на Teams Exploratory
 
-Управление пользователями, у которых есть лицензия Teams Exploratory, аналогично управлению пользователями с обычной платной лицензией. Дополнительные сведения см. в разделе [Управление параметрами Teams в организации](enable-features-office-365.md).
+You can manage users who have the Teams Exploratory license just like you manage users who have a regular paid license. For more information, see [Manage Teams settings for your organization](enable-features-office-365.md).
 
 ### <a name="upgrade-users-from-teams-exploratory"></a>Перевод пользователей с Teams Exploratory
 
 Чтобы перевести пользователей с Teams Exploratory, у вас должны быть права администратора. Дополнительные сведения см. в разделе [Перевод пользователей с пробной версии Teams Exploratory](upgrade-from-teams-exploratory.md).
 
 > [!NOTE]
-> Если срок действия лицензии на Teams Exploratory закончится и пользователь сразу не перейдет на подписку, включающую Teams, он потеряет доступ к Teams после 30 дней льготного периода. Еще через 30 дней данные удаляются. Пользователь по-прежнему будет существовать в Azure Active Directory. После назначения новой лицензии пользователю, чтобы повторно включить функции Teams, содержимое продолжит существовать, если пользователь будет добавлен в течение льготного периода.
+> If the Teams Exploratory license ends and a user isn't immediately upgraded to a subscription that includes Teams, they lose access to Teams after a 30-days grace period. Another 30 days after which, the data is deleted. The user still exists in Azure Active Directory. Once a new license is assigned to the user to enable Teams functionality again, all content will still exist if the user is added within the grace period time frame.
 
 ### <a name="remove-a-teams-exploratory-license"></a>Удаление лицензии на Teams Exploratory
 

@@ -1,7 +1,7 @@
 ---
 title: Руководство по быстрому запуску Microsoft Teams базовый для малого бизнеса
-author: adeejoseph
-ms.author: adjoseph
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 46624ff1e1eeeede5066cf6972cc92469cf8979c
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
-ms.translationtype: HT
+ms.openlocfilehash: ba285480bc1316d33ea6a5708ec7ef7e6d7451f9
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65675051"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68377627"
 ---
 # <a name="microsoft-teams-essentials-quickstart-guide-for-small-businesses"></a>Руководство по быстрому запуску Microsoft Teams базовый для малого бизнеса
 
@@ -97,7 +97,7 @@ Microsoft Teams базовый можно приобрести напрямую 
 
 
 > [!IMPORTANT] 
-> Чтобы воспользоваться улучшенным администрированием и полным набором функций Teams, вам необходимо перейти на полную версию Teams, купив для своих пользователей соответствующий [ план подписки на Microsoft 365 или Office 365](https://www.microsoft.com/en-us/microsoft-teams/compare-microsoft-teams-options). Мы рекомендуем это, потому что у вас будет больше гибкости для управления совместной работой вашей организации.
+> To get enhanced administration and entire full set of Teams features, you'll need to upgrade to the full version of Teams by purchasing an appropriate [Microsoft 365 or Office 365 subscription plan](https://www.microsoft.com/en-us/microsoft-teams/compare-microsoft-teams-options) for your users. We recommend this as you'll have more flexibility to manage the way your organization collaborates.
 
 ## <a name="administration-limits-and-specifications-for-microsoft-teams-essentials"></a>Ограничения и спецификации администрирования для Microsoft Teams базовый
 
@@ -109,9 +109,9 @@ Microsoft Teams базовый можно приобрести напрямую 
 
 Чтобы начать работу с Teams базовый, выполните следующие действия.
 
-1. **Приобретите подписку.** Перейдите в раздел [Microsoft Teams Essentials для малого бизнеса](https://www.microsoft.com/microsoft-teams/compare-microsoft-teams-options) и выберите **Купить сейчас** в разделе Microsoft Teams Essentials.
+1. **Приобретите подписку.** Перейдите на страницу [Microsoft Teams базовый для малого бизнеса](https://www.microsoft.com/microsoft-teams/compare-microsoft-teams-options) и выберите **Купить** в разделе Microsoft Teams базовый.
 2. **Зарегистрируйтесь с помощью существующего адреса электронной почты.** Используйте существующий адрес электронной почты и следуйте инструкциям по приобретению пользовательских лицензий.
-3. **Ознакомьтесь с описанием службы Teams.** Посетите [описание службы Microsoft Teams](/office365/servicedescriptions/teams-service-description), чтобы узнать больше о Microsoft Teams.
+3. **Просмотрите описание службы Teams.** Дополнительные сведения о Microsoft Teams см. в [описании службы Microsoft Teams](/office365/servicedescriptions/teams-service-description).
 
 После выполнения этих задач вы можете планировать, развертывать и использовать приложения Teams.
 
@@ -166,10 +166,10 @@ Microsoft Teams базовый можно приобрести напрямую 
 
 ### <a name="can-i-use-an-existing-email-system-with-microsoft-teams-essentials"></a>Можно ли использовать существующую почтовую систему с Microsoft Teams базовый?  
 
-Да. Вы можете сохранить существующую систему обмена сообщениями и использовать Teams Essentials для встреч, общения и совместной работы.  
+Yes. You can keep your existing email system and leverage Teams Essentials to meet, chat and collaborate.  
 
 ### <a name="can-i-connect-my-existing-calendar-solution-with-teams-essentials"></a>Можно ли подключить существующее решение календаря к Teams базовый?
-Да. Вы можете синхронизировать существующие календари из Outlook.com и Google с Teams Essentials.
+Yes. You can sync existing calendars from Outlook.com and Google with Teams Essentials.
 
 Чтобы подключить существующее решение календаря к Teams базовый (удостоверение AAD), следуйте инструкциям ниже в этой статье.
 

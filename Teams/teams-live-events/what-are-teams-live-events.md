@@ -1,7 +1,7 @@
 ---
 title: Что такое трансляции Microsoft Teams?
-author: CarolynRowe
-ms.author: crowe
+author: MicrosoftHeidi
+ms.author: heidip
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -10,6 +10,7 @@ ms.collection:
 - m365initiative-meetings
 - m365solution-spcomms
 - m365solution-scenario
+- highpri
 ms.reviewer: sonua
 audience: admin
 search.appverid: MET150
@@ -22,12 +23,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: ec79ec6d230359a43c910336a53a462c5f80fc6d
-ms.sourcegitcommit: 4c4f2f220832cae3efb3f6f3c74795300d661295
-ms.translationtype: HT
+ms.openlocfilehash: fab22ca4bda45f1f534055a5f43d64358dea8cec
+ms.sourcegitcommit: fcedb958bf555d870215ae84fb83752304944716
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "66825703"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "68486599"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Что такое трансляции Microsoft Teams
 
@@ -41,7 +42,7 @@ Teams обеспечивает совместную работу в чате, з
 
 Трансляции Teams считаются следующей версией Трансляции собраний Skype и в конечном итоге заменят возможности, предоставляемые в рамках Трансляции собраний Skype. На этом этапе Microsoft продолжит осуществлять поддержку Трансляции собраний Skype для пользователей, использующих Skype для бизнеса в своих организациях, без прерывания работы службы для новых или будущих событий. Тем не менее, мы рекомендуем вам попробовать трансляции Teams, чтобы использовать все новые интересные функции, включая демонстрацию экрана и поддержку внешних аппаратных или программных кодировщиков.
 
-Давайте приступим. Сначала обратите внимание на следующую схему, на которой показаны компоненты высокого уровня, использующиеся в трансляциях Microsoft 365, и способы их подключения.
+So, let's get started. First, take a look at the following diagram that shows high level components involved in Microsoft 365 live events and how they're connected.
 
 ![Ключевые компоненты трансляций.](../media/live-events-flow-diagram.png  "Ключевые компоненты трансляций, планирование, производство, платформа Stream, сертифицированные сторонние поставщики eCDN")
 
@@ -85,7 +86,7 @@ Teams обеспечивает совместную работу в чате, з
     ![трансляция, проводимая с помощью внешнего приложения или устройства.](../media/teams-live-events-external-encoder.png "Снимок экрана, показывающий трансляцию, созданную с помощью метода производства внешнего приложения или устройства")
 
 >[!Note]
-> Переход с использования Microsoft Stream на [OneDrive для бизнеса и SharePoint для записей собраний](../tmr-meeting-recording-change.md) будет поэтапным процессом. При запуске вы сможете согласиться на использование этого интерфейса. В ноябре потребуется отказаться от использования, если вы хотите продолжить использование Stream. В начале 2021 г. мы сделаем использование OneDrive для бизнеса и SharePoint для новых записей собраний обязательным для всех пользователей.
+> The change from using Microsoft Stream to [OneDrive for Business and SharePoint for meeting recordings](../tmr-meeting-recording-change.md) will be a phased approach. At launch you'll be able to opt-in to this experience, in November you'll have to opt-out if you want to continue using Stream, and some time in early 2021 we'll require all customers to use OneDrive for Business and SharePoint for new meeting recordings.
 
 ### <a name="streaming-platform"></a>Платформа потоковой передачи
 

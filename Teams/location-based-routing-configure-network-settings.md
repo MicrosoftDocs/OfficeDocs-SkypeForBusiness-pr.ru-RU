@@ -1,7 +1,7 @@
 ---
 title: Настройка параметров сети — маршрутизация на основе расположения
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.topic: article
 ms.reviewer: roykuntz
@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 75aa7b4968ca2a549c35edbccdf6d87bd7df3106
-ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
+ms.openlocfilehash: 9a7c02a7299029ec267011f962880884d1d9f4d7
+ms.sourcegitcommit: 401cee68d4f6f9470d614dda12b9cb023f382ff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66562618"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "67999334"
 ---
 # <a name="configure-network-settings-for-location-based-routing"></a>Настройка параметров сети для маршрутизации на основе расположения
 
@@ -56,6 +56,6 @@ ms.locfileid: "66562618"
 
 Перейдите [к разделу Location-Based для прямой маршрутизации](location-based-routing-enable.md).
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
 - [Параметры сети для функций облачной голосовой связи в Teams](cloud-voice-network-settings.md)

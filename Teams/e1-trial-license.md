@@ -1,7 +1,7 @@
 ---
 title: Управление бесплатной пробной версией Office 365 E1
-ms.author: mikeplum
-author: MikePlumleyMSFT
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.topic: article
 audience: Admin
@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9982f85ee8ff3262a246ec2df7f9ed3511c1c20c
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
-ms.translationtype: HT
+ms.openlocfilehash: b920d004fde707a399ee4b0383d7dcba985f6d3c
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270244"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68377357"
 ---
 # <a name="manage-the-office-365-e1-trial"></a>Управление пробной версией Office 365 E1
 
@@ -36,7 +36,7 @@ ms.locfileid: "67270244"
 После активации пробной версии Office 365 E1 включите лицензию для всех пользователей, которым она требуется. Сведения о том, как это сделать, см. в статье [Управление доступом пользователей к Teams](user-access.md).
 
 
-После включения пробной версии E1 для пользователей, которым она требуется, вы сможете управлять ими так же, как управляете пользователями с платной лицензией. Дополнительные сведения см. в статье [Управление параметрами Teams в организации](enable-features-office-365.md).
+Once you've turned on the E1 Trial for the users who need it, you'll manage these users just like you manage users who have a paid license. For more information, see [Manage Teams settings for your organization](enable-features-office-365.md).
 
 
 
@@ -53,7 +53,7 @@ ms.locfileid: "67270244"
 Для получения дополнительной информации см. [Описание службы Microsoft Teams](/office365/servicedescriptions/teams-service-description).
 
 > [!NOTE]
-> Если срок действия пробной лицензии E1 истек, а пользователь сразу не обновился до подписки, включающей Teams, пользовательские данные не удаляются. Пользователь по-прежнему существует в Azure Active Directory, а все данные в Teams сохраняются. Содержимое продолжит существовать, чтобы повторно включить функции Teams после назначения новой лицензии пользователю. 
+> If the E1 Trial license ends and a user is not immediately upgraded to a subscription that includes Teams, the user data is not removed. The user still exists in Azure Active Directory and all data within Teams still remains. Once a new license is assigned to the user to enable Teams functionality again, all content will still exist. 
 
 ### <a name="remove-an-office-365-e1-trial-license"></a>Удаление лицензии на пробную версию Office 365 E1
 

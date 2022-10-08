@@ -22,15 +22,16 @@ ms.collection:
 - microsoftcloud-retail
 - m365initiative-lists
 - m365-frontline
+- highpri
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: 39d44feb46fa20cb27755792e7f2236ed16b051f
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: 9ea4e8cb49166c116d69c12d795659b55c93c556
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396280"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68047049"
 ---
 # <a name="manage-the-lists-app-for-your-organization-in-microsoft-teams"></a>Управление приложением Lists для организации в Microsoft Teams
 
@@ -84,7 +85,7 @@ ms.locfileid: "67396280"
 
 С приложением Lists пользователи получают возможность работать на компьютере, в Интернете и на мобильных устройствах. Важно знать, что пользователи не могут создавать новые списки и закреплять существующие с помощью приложения Lists в мобильном клиенте Teams. Чтобы просмотреть или изменить список в мобильном клиенте Teams, сначала нужно создать или добавить его с помощью Lists в классической версии Teams или в веб-клиенте.
 
-Гости не могут создать или удалить список. Они могут добавлять элементы в существующие списки, начинать новые беседы об элементах списка и отвечать на существующие беседы о них.
+Guests can't create or delete a list. They can add list items to existing lists, start new conversations about list items, and reply to existing conversations about list items.
 
 ### <a name="lists-and-the-sharepoint-app"></a>Lists и приложение SharePoint
 

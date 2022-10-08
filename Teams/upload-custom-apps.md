@@ -8,6 +8,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.subservice: teams-apps
 audience: Admin
+ms.date: 09/26/2022
 ms.collection:
 - M365-collaboration
 appliesto:
@@ -17,12 +18,12 @@ f1.keywords:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Узнайте, как отправить пользовательские приложения в магазин приложений вашей организации в Центре администрирования Microsoft Teams.
-ms.openlocfilehash: 60bb4c2ce41830dd789bd70763c8f3eb6ab8cde7
-ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
+ms.openlocfilehash: 51ea4bdc31ff59a34bdf28a991617fff0f4e7381
+ms.sourcegitcommit: d6e180791134426445a35fd485dcca18bde2006b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "67837319"
+ms.lasthandoff: 10/07/2022
+ms.locfileid: "68494612"
 ---
 # <a name="publish-a-custom-app-by-uploading-an-app-package"></a>Публикация пользовательского приложения путем отправки пакета приложения
 
@@ -31,7 +32,7 @@ ms.locfileid: "67837319"
 
 Эта статья содержит подробные рекомендации по продвижению приложения Teams от разработки к развертыванию и обнаружению. Это руководство посвящено аспектам приложения, связанным с Teams, и предназначено для администраторов и ИТ-специалистов. Подробнее о разработке приложений Teams см. в [документации разработчика Teams](/microsoftteams/platform/).
 
-![Обзор приложения от разработки до развертывания.](media/upload-custom-apps.png)
+:::image type="content" source="media/upload-custom-apps.png" alt-text="Обзор приложения от разработки до развертывания.":::
 
 ## <a name="create-your-app"></a>Создание приложения
 
@@ -84,7 +85,7 @@ ms.locfileid: "67837319"
 
 1. Нажмите **кнопку "** Отправить", **выберите** "Отправить", выберите пакет приложения, полученный от разработчика, и нажмите кнопку **"Открыть"**.
 
-   ![Снимок экрана: отправка пользовательского приложения в Центре администрирования.](media/manage-your-lob-apps-upload-new-app.png)
+   :::image type="content" source="media/manage-your-lob-apps-upload-new-app.png" alt-text="Снимок экрана: отправка пользовательского приложения в Центре администрирования.":::
 
 ## <a name="set-up-and-manage"></a>Настройка и управление
 
@@ -134,6 +135,6 @@ ms.locfileid: "67837319"
 
 * [Публикация пользовательского приложения, отправленного с помощью API отправки приложений Teams](submit-approve-custom-apps.md)
 * [Управление приложениями в Центре администрирования Microsoft Teams](manage-apps.md)
-* [Управление пользовательскими политиками и параметрами приложений в Teams](teams-custom-app-policies-and-settings.md)
+* [Управление политиками и параметрами для пользовательских приложений](teams-custom-app-policies-and-settings.md)
 * [Управление политиками разрешений для приложений в Teams](teams-app-permission-policies.md)
 * [Управление политиками настройки приложений в Teams](teams-app-setup-policies.md)

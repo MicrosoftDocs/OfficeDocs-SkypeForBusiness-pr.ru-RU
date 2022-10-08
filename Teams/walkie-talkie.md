@@ -7,7 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: ''
-description: Как настроить приложение "Рация" в Microsoft Teams с точки зрения ИТ-администратора.
+description: Настройка приложения Walkie Talkie в Microsoft Teams с точки зрения ИТ-администратора.
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
@@ -15,16 +15,17 @@ f1.keywords:
 ms.collection:
 - M365-collaboration
 - m365-frontline
+- highpri
 ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e309fa03e73dc13bff8bd1a90708c688bb0f5350
-ms.sourcegitcommit: 7a1fb6e15c21368afa34cd212865437781f721e2
+ms.openlocfilehash: cbce17ad584fdd4910f11129d2b246e4644e1583
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "67465997"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68377307"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Приложение "Рация" в Microsoft Teams
 
@@ -35,9 +36,16 @@ ms.locfileid: "67465997"
 > [!NOTE]
 > Рация в настоящее время недоступна в Китае.
 
+## <a name="license-requirements"></a>Требования к лицензиям
+
+Рация включается во все платные лицензии Teams в [Microsoft 365 и Office 365 подписки](/office365/servicedescriptions/teams-service-description). Дополнительные сведения о получении Teams см. Разделы справки [доступ к Microsoft Teams](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)?
+
 ## <a name="deploying-walkie-talkie"></a>Развертывание рации
 
 Рация поддерживается на устройствах Android с мобильными службами Google (GMS) и устройствами iOS.
+
+> [!NOTE]
+> Если пользователи используют аксессуары Bluetooth, убедитесь, что решение для управления мобильными устройствами (MDM) не блокирует устройства Bluetooth.
 
 ### <a name="enable-or-disable-walkie-talkie-in-your-organization"></a>Включение или отключение рации в организации
 
@@ -113,10 +121,6 @@ ms.locfileid: "67465997"
 
 > [!NOTE]
 > Эти устройства не сертифицированы для Teams. Они прошли проверку на работу с рацией Teams.
-
-## <a name="license-requirements"></a>Требования к лицензиям
-
-Приложение "Рация" включено во все платные лицензии Teams в [подписках на Office 365](/office365/servicedescriptions/teams-service-description). Дополнительные сведения о получении Teams см. Разделы справки [доступ к Microsoft Teams](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)?
 
 ## <a name="more-information"></a>Дополнительные сведения
 

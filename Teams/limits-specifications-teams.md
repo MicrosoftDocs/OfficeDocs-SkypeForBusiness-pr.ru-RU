@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 168bddd1b4a7ad2ffa1f4d1c5eceb0967a18ea43
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
-ms.translationtype: HT
+ms.openlocfilehash: b34f22d5ef038eff44b5488588902d1a99af8676
+ms.sourcegitcommit: fcedb958bf555d870215ae84fb83752304944716
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269704"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "68486619"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Ограничения и спецификации для Microsoft Teams
 
@@ -48,13 +48,13 @@ ms.locfileid: "67269704"
 |Максимальное количество участников в группе Microsoft 365, которое можно преобразовать в команду    |10,000<sup>6</sup>     |
 |Размер записи в беседе канала | Около 28 КБ на каждую запись<sup>5</sup> |
 
-<sup>1</sup> Любой объект каталога в Azure Active Directory учитывается в этом ограничении. Исключение делается для глобальных администраторов, а также приложений, вызывающих Microsoft Graph с помощью [разрешений для приложений](/graph/permissions-reference).
+<sup>1</sup> Any directory object in Azure Active Directory counts towards this limit. Global admins are exempt from this limit, as are apps calling Microsoft Graph using [application permissions](/graph/permissions-reference).
 
 <sup>2</sup> Это ограничение включает архивированные команды. 
 
-<sup>3</sup> Если вам нужно создать больше команд, чем позволяют ограничения, обратитесь в службу поддержки Майкрософт и запросите дальнейшее увеличение числа объектов Azure Active Directory в клиенте. Увеличение возможно только в реальных производственных сценариях.
+<sup>3</sup> To further increase the number of teams, you must contact Microsoft support and request further increase to the number of Azure Active Directory objects in your tenant. Increase is only made for real-life production scenarios.
 
-<sup>4</sup> Удаленные каналы можно восстановить в течение 30 дней. В течение этих 30 дней удаленный канал продолжает учитываться в ограничении 200 каналов или 30 закрытых каналов на команду. После 30 дней удаленный канал и его содержимое безвозвратно удаляются, и канал больше не учитывается в ограничении количества каналов на команду.
+<sup>4</sup> Deleted channels can be restored within 30 days. During these 30 days, a deleted channel continues to be counted towards the 200 channel or 30 private channel per team limit. After 30 days, a deleted channel and its content are permanently deleted and the channel no longer counts towards the per team limit.
 
 <sup>5</sup> 28 КБ — это приблизительное ограничение, так как сюда входит само сообщение (текст, ссылки на изображения и т. д.), @-упоминания, число соединителей и реакции.
 
@@ -67,7 +67,7 @@ ms.locfileid: "67269704"
 
 ### <a name="chat"></a>Чат
 
-Чтобы администратор мог выполнять поиск по беседам, входящим в список чатов в Teams, участники таких бесед должны иметь почтовый ящик Exchange Online (облачный). Это вызвано тем, что беседы, входящие в список чатов, хранятся именно в облачных почтовых ящиках участников. Если у участника чата нет почтового ящика Exchange Online, администратор не сможет искать беседы или помещать их на удержание. Например, при гибридном развертывании Exchange пользователи с локальными почтовыми ящиками могут участвовать в беседах, входящих в список чатов в Teams. Но в этом случае контент этих бесед нельзя найти и нельзя поместить на удержание, так как у пользователей нет облачных почтовых ящиков. (Дополнительные сведения см. в статье [Взаимодействие Exchange и Microsoft Teams](exchange-teams-interact.md).)
+Users who participate in conversations that are part of the chat list in Teams must have an Exchange Online (cloud-based) mailbox for an admin to search chat conversations. That's because conversations that are part of the chat list are stored in the cloud-based mailboxes of the chat participants. If a chat participant doesn't have an Exchange Online mailbox, the admin won't be able to search or place a hold on chat conversations. For example, in an Exchange hybrid deployment, users with on-premises mailboxes might be able to participate in conversations that are part of the chat list in Teams. However, in this case, content from these conversations isn't searchable and can't be placed on hold because the users don't have cloud-based mailboxes. (For more, see [How Exchange and Microsoft Teams interact](exchange-teams-interact.md).)
 
 
 |Компонент  | Максимальный предел  |
@@ -77,9 +77,9 @@ ms.locfileid: "67269704"
 |Количество вложенных файлов<sup>3</sup>  |10     |
 |Размер чата | Около 28 КБ на запись<sup>4</sup> |
 
-<sup>1</sup>Если в чате участвует больше 20 пользователей, отключены следующие функции чата: автоматические ответы Outlook и подписи к статусу Teams, индикатор ввода, голосовые и видеозвонки, общий доступ, уведомления о прочтении. Кнопка "Задать параметры доставки" (!) также удаляется, если чаты в закрытой группе содержат более 20 участников.
+<sup>1</sup> If you have more than 20 people in a chat, the following chat features are turned off: Outlook automatic replies and Teams status messages; typing indicator; video and audio calling; sharing; read receipts. The "Set Delivery Options" button (!) is also removed when private group chats contain more than 20 members.
 
-<sup>2</sup> Одновременно в групповой чат можно добавить не более 200 участников. [Дополнительные сведения см. в этой статье](/microsoftteams/troubleshoot/teams-administration/unable-send-message-group-chat).
+<sup>2</sup> Only 200 members at a time can be added to a group chat. [See this article for more information](/microsoftteams/troubleshoot/teams-administration/unable-send-message-group-chat).
 
 <sup>3</sup>Если число вложений превышает это ограничение, появится сообщение об ошибке.
 
@@ -87,9 +87,9 @@ ms.locfileid: "67269704"
 
 ### <a name="emailing-a-channel"></a>Отправка сообщения электронной почты в канал
 
- Если пользователям нужно отправить сообщение электронной почты в канал Teams, они используют адрес электронной почты канала. Если сообщение электронной почты является частью канала, любой пользователь может ответить на него, чтобы начать беседу. Ниже перечислены некоторые ограничения, применяемые при отправке сообщений электронной почты в канал.
+ If users want to send an email to a channel in Teams, they use the channel email address. When an email is part of a channel, anyone can reply to it to start a conversation. Here are some of the applicable limits for sending email to a channel.
 
-|Компонент  | Максимальный предел  |
+|Функция  | Максимальный предел  |
 |---------|---------|
 |Размер сообщения<sup>1<sup> | 24 КБ |
 |Количество вложенных файлов<sup>2</sup>  |20     |
@@ -105,7 +105,7 @@ ms.locfileid: "67269704"
 Дополнительные сведения см. в статье [Ограничения Exchange Online](/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits).
 
 > [!NOTE]
-> Ограничения для размера сообщения, вложенных файлов и встроенных изображений одинаковы во всех лицензиях на Microsoft 365 и Office 365. Отправка по электронной почте в канал недоступна в Teams для организаций Office GCC, GCCH и DOD.
+> Message size, file attachments, and inline images limits are the same across all Microsoft 365 and Office 365 licenses. Emailing a channel is not available in Teams for Office GCC/GCCH/DOD organizations.
 
 ## <a name="channel-names"></a>Названия каналов
 
@@ -139,7 +139,7 @@ ms.locfileid: "67269704"
 ### <a name="meeting-expiration"></a>Окончание срока действия собрания
 
 > [!NOTE]
-> URL-адрес собрания никогда не перестает работать. Срок действия относится только к номерам ТСОП для подключения, координатам CVI и/или к базовым политикам и настройкам собраний.
+> A meeting URL will never stop working. The expiry only relates to any PSTN dial-in numbers, CVI coordinates, and/or underlying meeting policies and settings.
 
 |Тип собрания  |Срок действия собрания  |При каждом начале или обновлении собрания срок действия продлевается на указанный период  |
 |---------|---------|---------|
@@ -160,9 +160,9 @@ ms.locfileid: "67269704"
 |Длительность мероприятия | 4 часа |
 |Одновременные трансляции в организации Microsoft 365 или Office 365 <sup>1</sup> | 15 |
 
-<sup>1</sup> Вы можете запланировать любое количество трансляций, но одновременно проводить можно только 15 трансляций. Сразу после присоединения организатора к трансляции она считается запущенной. Организатор, пытающийся присоединить шестнадцатую трансляцию, получит сообщение об ошибке.
+<sup>1</sup> You can schedule as many Live Events as you want, but you can only run 15 at a time. As soon as the producer joins a live event, it's considered to be running. The producer who attempts to join the 16th live event gets an error.
 
-Дополнительные сведения о трансляциях и сравнение трансляций Teams с Трансляцией собраний Skype см. в статье [Трансляции Teams и Трансляция собраний Skype](teams-live-events/plan-for-teams-live-events.md#teams-live-events-and-skype-meeting-broadcast). См. также [Планирование трансляции Teams](https://support.microsoft.com/office/schedule-a-teams-live-event-7a9ce97c-e1cd-470f-acaf-e6dfc179a0e2).
+Дополнительные сведения о трансляциях см. в [статье "Трансляции Teams"](teams-live-events/plan-for-teams-live-events.md#teams-live-events). См. также [Планирование трансляции Teams](https://support.microsoft.com/office/schedule-a-teams-live-event-7a9ce97c-e1cd-470f-acaf-e6dfc179a0e2).
 
 > [!IMPORTANT]
 > **Повышение предельных значений для трансляций Microsoft 365**
@@ -173,24 +173,24 @@ ms.locfileid: "67269704"
 >- 50 одновременных трансляций в клиенте
 >- Длительность события — 16 часов на трансляцию
 >
-> Кроме того, с помощью программы поддержки Microsoft 365 можно планировать трансляции с участием до 100 000 человек. Команда оценивает каждый запрос и взаимодействует с вами, чтобы определить доступные варианты. [Подробнее](https://aka.ms/Stream/Blog/LiveEventOptions).
+> Additionally, Live Events with up to 100,000 attendees can be planned through the Microsoft 365 assistance program. The team will assess each request and work with you to determine options that may be available. [Learn more](https://aka.ms/Stream/Blog/LiveEventOptions).
 
 ## <a name="presence-in-outlook"></a>Присутствие в Outlook
 
-Присутствие Teams в Outlook поддерживается в классическом приложении Outlook 2013 и более поздних версиях. Дополнительные сведения о функции присутствия в Teams см. в статье [Присутствие пользователей в Teams](presence-admins.md).
+Teams presence in Outlook is supported on the Outlook 2013 desktop app and later. To learn more about presence in Teams, see [User presence in Teams](presence-admins.md).
 
 ## <a name="storage"></a>Хранилище
 
-Каждая команда в Microsoft Teams имеет свой сайт в SharePoint Online, а каждому каналу в команде назначается папка в библиотеке документов по умолчанию на этом сайте. Файлы, совместно используемые во время беседы, автоматически добавляются в библиотеку документов, а заданные в SharePoint разрешения и параметры безопасности файлов автоматически переносятся в Teams.
+Each team in Microsoft Teams has a team site in SharePoint Online, and each channel in a team gets a folder within the default team site document library. Files shared within a conversation are automatically added to the document library, and permissions and file security options set in SharePoint are automatically reflected within Teams.
 
 > [!NOTE]
 > У каждого [закрытого канала](./private-channels.md) есть собственный сайт SharePoint (предыдущее название "семейство веб-сайтов").
 
-Если в вашем клиенте не активировано решение SharePoint Online, пользователи Microsoft Teams не смогут постоянно обмениваться файлами в командах. Участники закрытых чатов также не смогут обмениваться файлами, так как для этой функции требуется служба OneDrive для бизнеса (привязанная к лицензии SharePoint).
+If you don't have SharePoint Online enabled in your tenant, Microsoft Teams users cannot always share files in teams. Users in private chat also cannot share files because OneDrive for Business (which is tied to the SharePoint license) is required for that functionality.
 
-При сохранении файлов в библиотеке документов SharePoint Online и OneDrive для бизнеса выполняются все требования по обеспечению соответствия, заданные на уровне клиента. (Дополнительные сведения см. в статье [Взаимодействие SharePoint Online и OneDrive для бизнеса с Microsoft Teams](sharepoint-onedrive-interact.md).)
+By storing the files in the SharePoint Online document library and OneDrive for Business, all compliance rules configured at the tenant level will be followed. (For more, see [How SharePoint Online and OneDrive for Business interact with Microsoft Teams](sharepoint-onedrive-interact.md).)
 
-Так как Teams работает на внутреннем сервере SharePoint Online для обмена файлами, ограничения SharePoint применяются к разделу "Файлы" в команде. Ниже указаны применяемые ограничения хранилища для SharePoint Online.
+Because Teams runs on a SharePoint Online backend for file sharing, SharePoint limitations apply to the Files section within a Team. Here are the applicable storage limits for SharePoint Online.
 
 |Компонент                 |Microsoft 365 бизнес базовый  |Microsoft 365 бизнес стандарт   |Office 365 для предприятий E1  |Office 365 корпоративный E3  |Office 365 корпоративный E5  |Office 365 корпоративный F1  |
 |------------------------|---------|---------|---------|---------|---------|---------|
@@ -204,7 +204,7 @@ ms.locfileid: "67269704"
 
 ## <a name="class-teams"></a>Команды классов
 
-Microsoft Teams для образования предоставляет шаблоны, предназначенные для уникальных сценариев образования, например для обучения в классе. Дополнительные сведения о типах команд, включая команды классов, доступны в статье [Выбор типа команды для совместной работы в Microsoft Teams](https://support.microsoft.com/office/choose-a-team-type-to-collaborate-in-microsoft-teams-0a971053-d640-4555-9fd7-f785c2b99e67).
+Microsoft Teams for Education provides templates designed for unique education scenarios, such as classroom teaching. More information about team types, including class teams, is available in [Choose a team type to collaborate in Microsoft Teams](https://support.microsoft.com/office/choose-a-team-type-to-collaborate-in-microsoft-teams-0a971053-d640-4555-9fd7-f785c2b99e67).
 
 Команда класса — это тип шаблона с дополнительными приложениями и ограничениями по количеству участников команды.
 
@@ -219,7 +219,7 @@ Microsoft Teams для образования предоставляет шаб�
 |Количество участников для использования заданий в команде класса    | 300        |
 |Количество участников для использования записной книжки OneNote для занятий в команде класса     |300         |
 
-Команда класса может поддерживать более 300 участников. Но если вы планируете использовать в своей команде приложение "Задания" или "Записная книжка для занятий", количество участников не должно превышать максимальное ограничение, указанное выше.
+A class team can support more than 300 members. However, if you plan to use either the Assignments app or Class Notebook app within your team, you will need to keep the number of members below the maximum limits above.
 
 ## <a name="tags"></a>Теги
 

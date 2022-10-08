@@ -17,17 +17,18 @@ ms.collection:
 - M365-collaboration
 - microsoftcloud-healthcare
 - m365-frontline
+- highpri
 appliesto:
 - Microsoft Teams
 ms.reviewer: yinchang
 description: Узнайте, как управлять шаблонами команд для здравоохранения и использовать их в Центре администрирования Teams и с помощью Microsoft Graph для быстрого и простого создания команд для вашей организации здравоохранения.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 4f3aa9d42ef86dde75acf8cbd559b6e50059a428
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: bdbb3e52f471e735b1b6c96a1502880c030ed89d
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396920"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68046489"
 ---
 # <a name="use-healthcare-team-templates"></a>Использование шаблонов команд для здравоохранения
 
@@ -41,7 +42,7 @@ Teams содержит шаблоны, разработанные специал
 
 |Если вы: | Вы можете: |
 | ---- | --------- |
-| Администратор или ИТ-специалист |[Управление шаблонами команд в центре администрирования Teams](#manage-team-templates-in-the-teams-admin-center). Просмотр шаблонов команд и применение политик шаблонов для управления тем, какие шаблоны ваши сотрудники могут использовать в Teams для создания команд. |
+| Администратор или ИТ-специалист |[Manage team templates in the Teams admin center](#manage-team-templates-in-the-teams-admin-center). View team templates and apply templates policies to control which templates your staff can use in Teams for creating teams. |
 | Разработчик | [Использовать Microsoft Graph](#use-team-templates-with-microsoft-graph) для создания команд из шаблонов. |
 
 ## <a name="manage-team-templates-in-the-teams-admin-center"></a>Управление шаблонами команд в Центре администрирования Teams
@@ -73,7 +74,7 @@ Teams содержит шаблоны, разработанные специал
 &sup1;Приложение, добавленное в канал в виде вкладки
 ## <a name="use-team-templates-with-microsoft-graph"></a>Использование шаблонов команд с помощью Microsoft Graph
 
-Разработчики могут использовать Microsoft Graph для создания команд на основе готовых шаблонов команд. Дополнительные сведения об использовании шаблонов команд с помощью Microsoft Graph см. в статьях [Начало работы с шаблонами команд с помощью Microsoft Graph](../../get-started-with-teams-templates.md), [Обзор API Microsoft Teams](/graph/teams-concept-overview) и [Тип ресурса teamsTemplate](/graph/api/resources/teamstemplate).
+Developers can use Microsoft Graph to create teams from pre-built team templates. To learn more about using team templates with Microsoft Graph, see [Get started with team templates using Microsoft Graph](../../get-started-with-teams-templates.md), [Microsoft Teams API overview](/graph/teams-concept-overview), and [teamsTemplate resource type](/graph/api/resources/teamstemplate).
 
 Ниже представлены готовые шаблоны команд для здравоохранения.
 ### <a name="ward"></a>Отделение

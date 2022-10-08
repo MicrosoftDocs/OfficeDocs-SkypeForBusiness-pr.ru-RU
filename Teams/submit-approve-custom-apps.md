@@ -8,6 +8,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.subservice: teams-apps
 audience: Admin
+ms.date: 09/19/2022
 ms.collection:
 - M365-collaboration
 appliesto:
@@ -17,12 +18,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Узнайте, как утвердить пользовательские приложения, отправляемые с помощью API отправки приложений Teams в Microsoft Teams.
-ms.openlocfilehash: 644e4afd28dbec27385516ce3e0676eb9ea27ef1
-ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
+ms.openlocfilehash: 63493041d834c99f5ffa93ba2fb580130afa0e29
+ms.sourcegitcommit: d6e180791134426445a35fd485dcca18bde2006b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "67837529"
+ms.lasthandoff: 10/07/2022
+ms.locfileid: "68494622"
 ---
 # <a name="publish-a-custom-app-submitted-using-the-teams-app-submission-api"></a>Публикация пользовательского приложения, отправленного с помощью API отправки приложений Teams
 
@@ -164,7 +165,7 @@ API отправки приложений Teams, [созданный на осн
 
 * [Публикация пользовательского приложения путем отправки пакета приложения](upload-custom-apps.md)
 * [Управление приложениями в Центре администрирования Microsoft Teams](manage-apps.md)
-* [Управление пользовательскими политиками и параметрами приложений в Teams](teams-custom-app-policies-and-settings.md)
+* [Управление политиками и параметрами для пользовательских приложений](teams-custom-app-policies-and-settings.md)
 * [Управление политиками разрешений для приложений в Teams](teams-app-permission-policies.md)
 * [Управление политиками настройки приложений в Teams](teams-app-setup-policies.md)
 * [Мониторинг и оповещения Teams](alerts/teams-admin-alerts.md)

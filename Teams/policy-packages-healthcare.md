@@ -12,6 +12,7 @@ ms.collection:
 - M365-collaboration
 - microsoftcloud-healthcare
 - m365-frontline
+- highpri
 appliesto:
 - Microsoft Teams
 f1.keywords: ''
@@ -22,12 +23,12 @@ searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
 description: Узнайте, как использовать пакеты политик Teams для своей медицинской организации и управлять ими.
-ms.openlocfilehash: 29192cfeec6545cdbbb5528eeabc1298146e4577
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: 9bd4d78a02bf32be68cb13ac85daff886986876d
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67397260"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68046939"
 ---
 # <a name="teams-policy-packages-for-healthcare"></a>Пакеты политик Teams для здравоохранения
 
@@ -85,7 +86,7 @@ ms.locfileid: "67397260"
 
 ### <a name="assign"></a>Назначение
 
-Назначение пакета политики пользователям. Если пользователю с назначенной политикой назначается другая, приоритет будет иметь самое последнее назначение.
+Assign the policy package to users. If a user has a policy assigned, and then later you assign a different policy, the most recent assignment will take priority.
 
 > [!NOTE]
 > Для получения назначенного пользовательского пакета политик каждому пользователю будет необходима надстройка Advanced Communications. Дополнительные сведения см. в статье [Надстройка Advanced Communications для Microsoft Teams](/microsoftteams/teams-add-on-licensing/advanced-communications).

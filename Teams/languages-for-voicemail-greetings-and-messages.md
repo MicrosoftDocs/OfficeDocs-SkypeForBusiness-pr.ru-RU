@@ -1,7 +1,7 @@
 ---
-title: Teams для приветствий и сообщений голосовой почты
-author: dstrome
-ms.author: dstrome
+title: Языки Teams для приветствий и сообщений голосовой почты
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: colongma
 ms.topic: article
@@ -21,14 +21,14 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Узнайте, какие языки можно задать в Skype для бизнеса для системных сообщений по умолчанию и приветствий голосовой почты.
-ms.openlocfilehash: 2a9b33e26bde9017be29412bb96086c708a150c1
-ms.sourcegitcommit: 4435ac0efcb95e4e5e1f21289e46761e79482ab5
+ms.openlocfilehash: 71f7df5a074ad0d3b87bc4111a3f150eccb29dac
+ms.sourcegitcommit: fc87f4300f53abf7a049936944abb21d0cade0d9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2022
-ms.locfileid: "65624143"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "68481151"
 ---
-# <a name="teams-languages-for-voicemail-greetings-and-messages"></a>Teams для приветствий и сообщений голосовой почты
+# <a name="teams-languages-for-voicemail-greetings-and-messages"></a>Языки Teams для приветствий и сообщений голосовой почты
 
 Teams поддерживает следующие языки для приветствий голосовой почты.
   

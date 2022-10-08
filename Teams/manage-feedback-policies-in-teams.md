@@ -17,12 +17,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Узнайте, как использовать политики обратной связи для контроля того, могут ли пользователи Teams в вашей организации отправлять отзывы о Teams в корпорацию Майкрософт.
-ms.openlocfilehash: 933c6971058c107ab881cb48bb0f2a9dbd74900d
-ms.sourcegitcommit: 44fd07d8e6e5fcbe5051de2300e180f295eaaad3
+ms.openlocfilehash: 9510a94a60a79a36292011fdcdad6afa97e6f56f
+ms.sourcegitcommit: d6e180791134426445a35fd485dcca18bde2006b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/15/2022
-ms.locfileid: "67339803"
+ms.lasthandoff: 10/07/2022
+ms.locfileid: "68494662"
 ---
 # <a name="manage-feedback-policies-in-microsoft-teams"></a>Управление политиками обратной связи в Microsoft Teams
 
@@ -71,6 +71,7 @@ ms.locfileid: "67339803"
  - **Снимки экрана**: использование **флага AllowScreenshotCollection** для добавления сбора снимков экрана для пользователей.
  - **Email**: используйте флаг **AllowEmailCollection**, чтобы добавить поле электронной почты.
  - **Сбор журналов**: используйте флаг **AllowLogCollection** , чтобы добавить согласие на сбор журналов для пользователей. Сбор журналов в настоящее время включен только на мобильных устройствах. Дополнительные сведения о том, какие данные совместно используются через журналы, [см. в дополнительных сведениях](https://go.microsoft.com/fwlink/?linkid=2168178).
+ - **Предложите функцию**: задайте для параметра **EnableFeatureSuggestions** значение True, чтобы разрешить пользователям, которым назначена политика, предлагать функцию. Отключение параметра отключает функцию, и пользователи, которым назначена политика, не могут оставить отзыв. Параметр по умолчанию взят из параметра политики необязательных подключенных интерфейсов Microsoft 365. Дополнительные сведения об этом параметре см. в [статье "Обзор необязательных сетевых функций в Office"](/deployoffice/privacy/optional-connected-experiences).
 
 ## <a name="create-a-custom-feedback-policy"></a>Создание настраиваемой политики обратной связи
 

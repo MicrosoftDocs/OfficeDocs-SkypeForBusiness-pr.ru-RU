@@ -8,6 +8,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.subservice: teams-apps
 audience: Admin
+ms.date: 09/20/2022
 ms.collection:
 - M365-collaboration
 f1.keywords:
@@ -17,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Узнайте, как изменить метаданные и внешний вид приложения, чтобы изменить его для лучшего внедрения в организации.
-ms.openlocfilehash: 6903d6bcd190869046c6f2e1a134c43cde3a1f07
-ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
+ms.openlocfilehash: 7e2fe4545858980e3fc9d9784aea7b44256d52db
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "67837699"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68377477"
 ---
 # <a name="use-app-customization-to-update-branding-of-apps-in-your-organizations-teams-store"></a>Использование настройки приложения для обновления фирменной символики приложений в магазине Teams вашей организации
 

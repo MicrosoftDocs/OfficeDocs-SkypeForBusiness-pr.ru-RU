@@ -19,16 +19,16 @@ ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 42044bf8f74c99b27db724e87ee35e700491aa8e
-ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
+ms.openlocfilehash: 64e63b4df818d792f722aed5b61315828a79bf76
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "67837199"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68377137"
 ---
-# <a name="microsoft-teams-apps-permissions-and-considerations"></a>Разрешения и рекомендации для приложений Microsoft Teams
+# <a name="information-accessed-and-actions-performed-by-teams-apps-and-admin-considerations"></a>Доступ к информации и действия, выполняемые приложениями Teams и рекомендациями администратора
 
-Приложения Microsoft Teams — это способ объединения одной или нескольких возможностей в приложения, которые можно установить, обновить или удалить. К возможностям приложений относятся:
+Приложения Microsoft Teams объединяют одну или несколько возможностей в приложения, которые можно установить, обновить и удалить. К возможностям приложений относятся:
 
 * Боты
 * расширения для обмена сообщениями;

@@ -1,7 +1,7 @@
 ---
 title: Назначение Телефонная система Microsoft Teams с тарифным планом пакетов
-author: dstrome
-ms.author: dstrome
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -16,12 +16,12 @@ appliesto:
 ms.collection:
 - M365-voice
 - M365initiative-voice
-ms.openlocfilehash: 952ea1c952a0877e81a654c299e064ba001da07d
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 8acf4064f294c4fa28a48413a270f0814e0e3ccb
+ms.sourcegitcommit: fc87f4300f53abf7a049936944abb21d0cade0d9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269244"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "68481105"
 ---
 # <a name="step-3-assign-teams-phone-with-calling-plan-bundle-licenses"></a>Шаг 3. Назначение телефона Teams с лицензиями пакета плана звонков
 
