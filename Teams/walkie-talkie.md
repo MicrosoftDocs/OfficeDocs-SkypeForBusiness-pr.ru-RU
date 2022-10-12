@@ -20,12 +20,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cbce17ad584fdd4910f11129d2b246e4644e1583
-ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.openlocfilehash: 0475fd161d3b53a8fc60d3a1419d20e3de2bfada
+ms.sourcegitcommit: bb428cd5805151736f0a6786d737f67f2b3fc918
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "68377307"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68557482"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Приложение "Рация" в Microsoft Teams
 
@@ -111,6 +111,8 @@ ms.locfileid: "68377307"
   - Настройка вручную. После установки Teams перейдите к **кнопкам "Параметры** > **"**. На выделенной кнопке (1 или 2) нажмите клавишу **Long** и выберите **приложение PTT**. Щелкните синее колесико рядом с **пунктом "Пользовательский**" и выберите **Teams**.
 - Kyocera [DuraForce Ultra 5G](https://kyoceramobile.com/duraforce-ultra-5g/) и [DuraSport 5G](https://kyoceramobile.com/durasport-5g/)
   - Настройка вручную. После установки Teams перейдите к **разделу "Параметры** > **программируемых ключей"**. Выберите **клавишу PTT или** **нажмите и удерживайте** (в зависимости от устройства) и выберите **Teams**.
+- Honeywell [CT30 XP](https://sps.honeywell.com/us/en/products/productivity/mobile-computers/handheld-computers/ct30-xp-handheld-computer), [CT30 XP HC](https://sps.honeywell.com/us/en/products/productivity/mobile-computers/handheld-computers/ct30-xp-hc-mobile-computer), [CT45 XP](https://sps.honeywell.com/us/en/products/productivity/mobile-computers/handheld-computers/ct45-ct45-xp), [EDA51](https://sps.honeywell.com/us/en/products/productivity/mobile-computers/handheld-computers/scanpal-eda51-handheld-computer), [EDA52](https://sps.honeywell.com/us/en/products/productivity/mobile-computers/handheld-computers/eda52-handheld-computer), [EDA52 HC](https://sps.honeywell.com/gb/en/products/productivity/mobile-computers/healthcare-computers/scanpal-eda52-healthcare-mobile-computer), 
+  - Настройка вручную. При установке Teams выделенная кнопка PTT по умолчанию работает с рациями.
 - Samsung [Galaxy XCover Pro](https://www.samsung.com/us/business/products/mobile/phones/galaxy-xcover-pro/), [Galaxy XCover 5](https://www.samsung.com/de/smartphones/others/galaxy-xcover-5-black-64gb-sm-g525fzkdeeb/buy), [Galaxy Tab Active 3](https://www.samsung.com/us/business/tablets/galaxy-tab-active/buy/)
   - Настройка вручную. После установки Teams перейдите  >  к разделу "**Параметры расширенных функций** > **" XCover/Active Key**. Включите **ключ control XCover с приложением и** выберите **Teams**.
   - [Настройка MDM](https://docs.samsungknox.com/admin/knox-service-plugin/intune-teams.htm)
