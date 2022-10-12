@@ -20,20 +20,20 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Узнайте, как назначать, изменять или удалять рабочий номер телефона для пользователей Teams, чтобы внешние компании и клиенты могли выполнять звонки.
-ms.openlocfilehash: 1a959fd61200e7718cf1e14586d0060fb0e996ec
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: d26df14f2f75e205c1824b66c9b8f2f394972d43
+ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606648"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68551663"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>Назначение, изменение и удаление номера телефона пользователя
 
-При настройке планов звонков, operator Connect или Operator Connect Mobile (общедоступная предварительная версия) пользователям назначаются номера телефонов. В Microsoft Teams номер телефона, который вы назначаете, отображается при нажатии пользователем кнопки "Звонки **"**.
+При настройке планов звонков, Operator Connect или Teams Phone Mobile пользователям назначаются номера телефонов. В Microsoft Teams номер телефона, который вы назначаете, отображается при нажатии пользователем кнопки "Звонки **"**.
 
-Эта статья относится к тарифным планам, operator Connect и Operator Connect Mobile (общедоступная предварительная версия). Сведения о назначении, изменении или удалении номера телефона пользователя в сценарии прямой маршрутизации см. в разделе "Включение прямой маршрутизации, голосовой почты и [голосовой](./direct-routing-enable-users.md) почты для пользователей".
+Эта статья относится к тарифным планам, Operator Connect и Teams Phone Mobile. Сведения о назначении, изменении или удалении номера телефона пользователя в сценарии прямой маршрутизации см. в разделе "Включение прямой маршрутизации, голосовой почты и [голосовой](./direct-routing-enable-users.md) почты для пользователей".
 
-Прежде чем назначать номер для тарифного плана, оператора Connect или Operator Connect Mobile пользователя, необходимо получить номера для пользователей. Дополнительные сведения см. в статьях "Получение номеров для пользователей плана звонков[", "](getting-phone-numbers-for-your-users.md)Настройка номеров для пользователей [Operator Connect](operator-connect-configure.md#set-up-phone-numbers)" или "Настройка номеров для Operator Connect Mobile [пользователей"](operator-connect-mobile-configure.md).
+Перед назначением номера для тарифного плана, оператора Connect или мобильного пользователя Teams Phone необходимо получить номера для пользователей. Дополнительные сведения см. в статьях "Получение номеров для пользователей плана звонков [", "](getting-phone-numbers-for-your-users.md)Настройка номеров для пользователей [Operator Connect](operator-connect-configure.md#set-up-phone-numbers)" или "Настройка номеров для [пользователей Teams Phone Mobile"](operator-connect-mobile-configure.md).
 
 > [!NOTE]
 > Чтобы узнать, назначена ли пользователю лицензия, перейдите в Центр администрирования Microsoft Teams > **Users**. Если лицензия назначена, она будет указана на странице.  Вы также можете использовать Центр администрирования Microsoft 365.
@@ -64,7 +64,7 @@ Set-CsPhoneNumberAssignment -Identity <user> -PhoneNumber <phone number> -PhoneN
 Set-CsPhoneNumberAssignment -Identity <user> -PhoneNumber <phone number> -PhoneNumberType OperatorConnect
 ```
 
-Для Operator Connect Mobile:
+Для мобильных номеров телефонов Teams:
 
 ```PowerShell
 Set-CsPhoneNumberAssignment -Identity <user> -PhoneNumber <phone number> -PhoneNumberType OCMobile
@@ -108,7 +108,7 @@ Set-CsPhoneNumberAssignment -Identity jack@contoso.com -PhoneNumber "+1425555010
 8. Чтобы назначить или изменить связанное местоположение для экстренного реагирования, в разделе "Местоположение для экстренного **реагирования**" найдите и выберите расположение.
 
       > [!NOTE]
-      > Если вы изменяете номера для пользователей Operator Connect или Operator Connect Mobile, вы можете или не сможете назначить или изменить связанное местоположение для экстренного реагирования. Эта функция будет зависеть от оператора. Для получения дополнительных сведений обратитесь к оператору.
+      > Если вы изменяете номера для пользователей Operator Connect или Teams Phone Mobile, вы можете или не сможете назначить или изменить связанное местоположение для экстренного реагирования. Эта функция будет зависеть от оператора. Для получения дополнительных сведений обратитесь к оператору.
 
 9. Нажмите кнопку **Сохранить**.
 

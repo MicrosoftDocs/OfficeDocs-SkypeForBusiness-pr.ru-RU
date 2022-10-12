@@ -22,12 +22,12 @@ ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dc99785bf5d0450e99022f230af7564693c6da7f
-ms.sourcegitcommit: 8dd36e1e30a47316c15c99e964d0464715bcd742
+ms.openlocfilehash: 2321b4c16938b045cfe281d4cf25d7882d449d9b
+ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 10/12/2022
-ms.locfileid: "68532249"
+ms.locfileid: "68551863"
 ---
 # <a name="meetings-webinars-and-live-events"></a>Собрания, вебинары и трансляции
 
@@ -54,7 +54,7 @@ ms.locfileid: "68532249"
 Note that NDI is fully supported in meetings, webinars, and live events, allowing you to produce the broadcast by using tools such as OBS and Wirecast. For more information, see [Use NDI® technology in Microsoft Teams](use-ndi-in-meetings.md).
 
 > [!NOTE]
-> Дополнительные сведения и рекомендации по роли для доставки онлайн-событий с помощью Microsoft Teams см. в сборнике схем [виртуальных событий](https://adoption.microsoft.com/virtual-event-guidance/). Вы также можете присоединиться к [форуму виртуальных](https://aka.ms/VirtualEventForum) событий на Microsoft Tech Community.
+> Дополнительные сведения и рекомендации по роли для доставки онлайн-событий с помощью Microsoft Teams см. в сборнике схем [виртуальных событий](https://aka.ms/VirtualEventPlaybook). Вы также можете присоединиться к [форуму виртуальных](https://aka.ms/VirtualEventForum) событий на Microsoft Tech Community.
 
 > [!NOTE]
 > Подробные сведения о быстрой настройке собраний и событий Teams на разных платформах см. в статье [Возможности Teams на разных платформах](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).

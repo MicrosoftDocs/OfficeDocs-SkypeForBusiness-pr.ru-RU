@@ -19,12 +19,12 @@ f1.keywords:
 - NOCSH
 description: Узнайте, как добавить, изменить или удалить место для экстренного реагирования в вашей организации.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 37ccf72868819c515a2f7320b112f81f31f65a34
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: 5ddaaf2e6c173b6546d337ebfc9f23464a52233c
+ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606718"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68551503"
 ---
 # <a name="add-change-or-remove-a-place-for-an-emergency-location-in-your-organization"></a>Добавление, изменение и удаление места для расположения для экстренного реагирования для организации
 
@@ -34,7 +34,7 @@ ms.locfileid: "67606718"
 
 В этой статье описывается, как добавить, изменить или удалить место  для экстренного размещения в вашей организации.
 
-Эта статья относится к планам звонков Майкрософт, Operator Connect, Operator Connect Mobile (общедоступная предварительная версия) и прямой маршрутизации.
+Эта статья относится к планам звонков Майкрософт, Operator Connect, Teams Phone Mobile и прямой маршрутизации.
 
 Вы управляете расположениями для экстренного реагирования для своей организации в Центре администрирования Microsoft Teams или с помощью PowerShell.
   

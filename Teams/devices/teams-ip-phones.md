@@ -22,12 +22,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Узнайте, какие стационарные и конференции сертифицированы для Microsoft Teams для достижения наилучших результатов.
-ms.openlocfilehash: 2ba2b46bb4f6544a6b2c4c4455634aca4c0feef5
-ms.sourcegitcommit: 75a988ce64e3b6668dde3475e5cbf1f26de961ba
+ms.openlocfilehash: c113bdb4cba7193f5e82d7e993c9146f1563f869
+ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 10/12/2022
-ms.locfileid: "68539658"
+ms.locfileid: "68551473"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Сертифицированные устройства Android в Microsoft Teams
 
@@ -160,6 +160,8 @@ ms.locfileid: "68539658"
 
 | Модель устройства  | Версия встроенного ПО  | Включенный выпуск продукта  |
 |:----------------|:--------------|:----------------------------|
+|Crestron UC-P8/I/C/CI     | `1.0.5.20`    | Обновление 2022 #3A |
+|Подмайрон UC-P10/I/C/CI | `1.0.5.20`    | Обновление 2022 #3A |
 |Audiocodes C435HD/C448HD/C450HD/C455HD/C470HD | `1.17.764` | Обновление 2022 #3A    |
 |Audiocodes C435HD/C455HD/C470HD | `1.17.741` | Обновление 2022 #3A    |
 |Poly Многоайтовая C60 | `7.3.2.0174` | Обновление 2022 #3A |
@@ -371,6 +373,8 @@ ms.locfileid: "68539658"
 
 | Модель устройства  | Версия встроенного ПО | Включенный выпуск продукта|
 |:--------------|:-----------------|:-------------------------|
+|Crestron UC-P10-TD     |1.0.0.57 |Обновление 2022 #3A|
+|Сафрон UC-P8-TD     |1.0.0.57 |Обновление 2022 #3A|
 |Представление Lenovo ThinkSmart| `CD-18781Y.211116.114` |Обновление 3 за 2021 г.  |
 |Представление Lenovo ThinkSmart| `CD-18781Y.210507.111` |Обновление No 2 за 2021 г. |
 |Представление Lenovo ThinkSmart| `CD-18781Y.210228.109` |Обновление 1 за 2021 г. |

@@ -23,18 +23,18 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: Узнайте, как использовать Центр администрирования Microsoft Teams, чтобы просмотреть список всех телефонных номеров в организации и всех номеров, назначенных пользователям или не назначенных.
-ms.openlocfilehash: ac7c63515b34b8c199f8050933b6c3ccbc6f8d33
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: a0c5bf59d4ebf2d760ae6c8b4abb6c70e3e3ebb7
+ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606078"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68551853"
 ---
 # <a name="see-a-list-of-telephone-numbers"></a>Просмотр списка телефонных номеров 
 
 Существуют различные типы телефонных номеров, которые можно назначить пользователям или голосовым приложениям, таким как аудиоконференции [или](deploy-audio-conferencing-teams-landing-page.md) [очереди звонков](plan-auto-attendant-call-queue.md). Дополнительные сведения см. в разделе ["Управление телефонными номерами для вашей организации"](/microsoftteams/manage-phone-numbers-landing-page).
 
-Эта статья относится к тарифным планам, operator Connect и Operator Connect Mobile (общедоступная предварительная версия). Сведения о прямой маршрутизации см. в разделе ["Настройка номера телефона и включение корпоративной голосовой связи"](direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice).
+Эта статья относится к тарифным планам, Operator Connect и Teams Phone Mobile. Сведения о прямой маршрутизации см. в разделе ["Настройка номера телефона и включение корпоративной голосовой связи"](direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice).
   
 ## <a name="to-see-all-telephone-numbers-in-your-organization"></a>Просмотр всех телефонных номеров в организации
 

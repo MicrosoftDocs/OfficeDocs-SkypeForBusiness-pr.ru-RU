@@ -17,18 +17,18 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 keywords: ''
-ms.openlocfilehash: 33b55bfbff72cb2ddcd79b9620b2051ae0bd52fb
-ms.sourcegitcommit: 957502f999512a32794a9f99e292588d66ed8a33
+ms.openlocfilehash: dec612dd21ba72f984251db3e479040d41070ddc
+ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2022
-ms.locfileid: "67885623"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68551813"
 ---
 # <a name="step-4---select-devices-that-enable-your-space-for-hybrid-meetings"></a>Шаг 4. Выбор устройств, которые позволяют использовать пространство для гибридных собраний
 
 :::image type="content" source="media/hybrid-audience-audiovisual-small.png" alt-text="Аудитория ИТ-специалистов" border="false"::: :::image type="content" source="media/hybrid-audience-itpro-small.png" alt-text="по визуальным визуальным элементам" border="false"::: :::image type="content" source="media/hybrid-audience-facilities-small.png" alt-text="&quot; border=&quot;false":::
 
-Устройства, которые вы выбираете для Комнаты Teams места, зависят от структуры и бюджета комнаты. Эта статья поможет вам понять, какие устройства вам нужны для создания пространства Комнаты Teams, рекомендации по выбору того, что вам нужно, и примеры устройств, чтобы вы могли видеть доступные варианты.
+Устройства, которые вы выбираете для традиционных Комнаты Microsoft Teams или Комнаты Microsoft Teams подписи, зависят от структуры и бюджета комнаты. Эта статья поможет вам понять, какие устройства вам нужны для создания пространства Комнаты Teams, рекомендации по выбору того, что вам нужно, и примеры устройств, чтобы вы могли видеть доступные варианты.
 
 Как минимум, вам потребуется каждое из следующих значений:
 
@@ -164,9 +164,9 @@ ms.locfileid: "67885623"
 - [Проводное табличное решение ADECIA](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/yamaha-adecia-wired-tabletop-solution/1049)
 - [Звук средней комнаты Biamp с микрофоном parlé ceiling](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/biamp-medium-room-audio-with-parle-ceiling-mic/584)
 
-# <a name="hybrid-optimized"></a>[Оптимизированная для гибридного использования](#tab/hybrid)
+# <a name="signature-teams-rooms"></a>[Подпись Комнаты Teams](#tab/signature)
 
-## <a name="touchscreen-console-and-compute-module"></a>Консоль сенсорного экрана и вычислительный модуль
+## <a name="signature-teams-rooms-touchscreen-consoles-and-compute-modules"></a>Подписи Комнаты Teams сенсорных экранов и вычислительных модулей
 
 Консоль сенсорного экрана — это устройство, с которым пользователи взаимодействуют при присоединении к собранию и управлении ним. Вычислительный модуль — это мозг комнаты Teams, который запускается Windows 10 Корпоративная Интернета вещей.
 
@@ -183,11 +183,11 @@ ms.locfileid: "67885623"
 - [Lenovo ThinkSmart Core + Controller](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/lenovo-thinksmart-core-controller/948)
 - [Logitech Tap](https://www.logitech.com/products/video-conferencing/room-solutions/tap.939-001950.html)
 
-## <a name="hybrid-optimized-displays"></a>Оптимизированные для гибридной среды дисплеи
+## <a name="signature-teams-rooms-displays"></a>Отображаемые Комнаты Teams подписи
 
 Отображает содержимое и может быть большим телевизором с плоским экраном или проектором, который проецирует на экран. Вы можете использовать один дисплей, содержащий содержимое и видеопотоки, или настроить двойные дисплеи с содержимым на одном дисплее и видеопотоках на другом. На одном из дисплеев можно даже включить сенсорный ввод для интерактивного рукописного ввода.
 
-:::image type="content" source="media/hybrid-optimized-display.png" alt-text="Комнаты Teams строку, чат и заметки.":::
+:::image type="content" source="media/signature-teams-rooms-display.png" alt-text="В Комнаты Teams отображается строка, чат и заметки.":::
 
 
 ### <a name="display-type"></a>Тип отображения
@@ -202,15 +202,15 @@ ms.locfileid: "67885623"
 
 ### <a name="display-functions"></a>Функции отображения
 
-Оптимизированные для гибридного Комнаты Microsoft Teams, как и все Комнаты Microsoft Teams решения, требуют использования дисплеев, которые могут вместить следующие функции для правильной работы:
+Для Комнаты Teams, как и для всех Комнаты Microsoft Teams других решений, требуется использовать дисплеи, которые могут вместить следующие функции для правильной работы:
 
 - Спящий режим и быстрое пробуждение из спящего режима на основе синхронизации HDMI.
-  - Для проекторов периоды автоматической прогрев и охлаждения должны поддерживаться без вмешательства пользователя.
+  - Для проекторов периоды автоматической прогревки и охлаждения должны поддерживаться без вмешательства пользователя.
 - Дисплеи должны поддерживать соответствующие идентификаторы EDID и разрешения, необходимые для Комнаты Microsoft Teams разработки.
 
 ### <a name="display-placement"></a>Размещение дисплея
 
-Для помещения, оптимизированного для гибридного использования, требуется, чтобы отображение размещались перед всеми участниками собрания в комнате непосредственно напротив таблицы.
+Для Комнаты Teams необходимо, чтобы отображение было размещено перед всеми участниками собрания в комнате непосредственно напротив таблицы.
 
 Горизонтальная центрная линия дисплея должна быть по центру на той же центральной линии, что и таблица.
 
@@ -218,11 +218,11 @@ ms.locfileid: "67885623"
 
 ### <a name="display-count"></a>Число дисплеев
 
-Для помещения, оптимизированного для гибридного использования, требуется, чтобы отображение было либо одним дисплеем с широкими аспектами, либо смешанным сочетанием дисплеев, которое может добиться эффекта единого отображения, когда его видят участники собрания в комнате.
+Для Комнаты Teams подписи требуется, чтобы отображение отображались либо с одним соотношением ширины, либо смешанным сочетанием дисплеев, которое может привести к одному отображению, когда его видят участники собрания в комнате.
 
 ### <a name="display-options"></a>Параметры отображения
 
-Ниже приведены примеры дисплеев для оптимизированных для гибридной среды Комнаты Teams.
+Ниже приведены примеры дисплеев для подписи Комнаты Teams.
 
 - [Epson EB-PU1007 Projector with ELPLX01S Ultra Short Throw lens](https://epson.com/For-Work/Projectors/Large-Venue/EB-PU1007B-WUXGA-3LCD-Laser-Projector-with-4K-Enhancement/p/V11HA34820)
 - [Экран контура Da-Lite UTB | Hd Progressive 0.6 Screen | 138" По диагонали](https://www.legrandav.com/products/da-lite/screens/fixed_frame_screens/utb_contour)
@@ -233,7 +233,7 @@ ms.locfileid: "67885623"
 
 Камеру следует разместить в передней части комнаты под проекцией переднего плана комнаты, но над верхней частью таблицы, чтобы захватить всех участников конференц-зала на уровне глаз как можно ближе к глазу.
 
-Ниже приведены примеры основных камер для оптимизированных для гибридной среды Комнаты Teams.
+Ниже приведены примеры основных камер для подписи Комнаты Teams.
 
 - [Jabra Panacast 50](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/jabra-panacast-50-series/922)
 - [Logitech Rally](https://www.logitech.com/product/rally-ultra-hd-conferencecam)
@@ -269,7 +269,7 @@ ms.locfileid: "67885623"
 
 Докладчики должны быть настроены, чтобы обеспечить охват всех участников конференц-залов в пределах сертифицированного диапазона используемых устройств или устройств.
 
-Ниже приведены примеры микрофонов и динамиков для оптимизированных для гибридной среды Комнаты Teams.
+Ниже приведены примеры микрофонов и динамиков для подписи Комнаты Teams.
 
 - [Lenovo ThinkSmart Bar](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/lenovo-thinksmart-bar/949)
 - [Центр конференц-зала Biamp Devio с микрофоном Parle Ceiling](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/biamp-devio-conference-room-hubs/920)

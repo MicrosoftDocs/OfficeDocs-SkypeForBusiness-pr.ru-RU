@@ -25,12 +25,12 @@ search.appverid: MET150
 description: Узнайте больше о функциях облачной голосовой связи Microsoft Teams и о решениях по развертыванию, которые вы будете принимать для своей организации.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f1ba61d1ccbaeda26834b31a321aebfccbe23243
-ms.sourcegitcommit: 401cee68d4f6f9470d614dda12b9cb023f382ff2
+ms.openlocfilehash: a159a6e2c5f532205c8e0cdadf744a2e6e6f3c0a
+ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "67999354"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68551673"
 ---
 # <a name="plan-your-teams-voice-solution"></a>Планирование голосового решения Teams
 
@@ -50,7 +50,7 @@ ms.locfileid: "67999354"
 
 - Телефонная система с планом звонков
 - Телефонная система с собственным оператором ТСОП с operator Connect
-- Телефонная система с собственным мобильным оператором ТСОП с Operator Connect Mobile (общедоступная предварительная версия)
+- Телефонная система с собственным мобильным оператором ТСОП с Teams Phone Mobile 
 - Телефонная система с собственным оператором ТСОП с прямой маршрутиза службой
 - Комбинированное решение, использующее телефонную систему с планом звонков, телефонную систему с оператором Connect и (или) телефонную систему с прямой маршрутиза службой.
 
@@ -154,7 +154,7 @@ ms.locfileid: "67999354"
 
 - [**Телефонная система с собственным оператором ТСОП с помощью Operator Connect**](operator-connect-plan.md). Если оператор Operator Connect участвует в программе Microsoft Operator Connect, он может управлять службой для вызова ТСОП в Teams. 
 
-- [**Телефонная система с собственным мобильным оператором ТСОП с Operator Connect Mobile**](operator-connect-mobile-plan.md) **общедоступной проверки**. С Operator Connect Mobile, если существующий оператор участвует в программе Microsoft Operator Connect Mobile, он может управлять службой для использования номеров мобильных телефонов с поддержкой SIM-карты в Teams. 
+- [**Телефонная система с собственным мобильным оператором ТСОП с помощью Teams Phone Mobile**](operator-connect-mobile-plan.md). С помощью Teams Phone Mobile, если существующий оператор участвует в программе Телефонная система Microsoft Teams Mobile, он может управлять службой для использования номеров мобильных телефонов с поддержкой SIM-карты в Teams. 
 
 - [**Телефонная система с собственным оператором ТСОП с помощью прямой**](pstn-connectivity.md#phone-system-with-direct-routing) маршрутизации для подключения локальной среды к Teams.
 

@@ -18,22 +18,22 @@ f1.keywords:
 - NOCSH
 description: Из этой статьи вы узнаете, как назначить или изменить расположение для экстренного реагирования для пользователей в организации.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 749093e532dec92f8bf9788cc43fd0f052c461a4
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: 60bd471e42eb6e8c2404eef47636da2c9894268c
+ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606598"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68551643"
 ---
 # <a name="assign-or-change-the-place-for-an-emergency-location-for-a-user"></a>Назначение или изменение расположения для экстренного реагирования для пользователя
 
-Независимо от варианта подключения [по ТСОП](pstn-connectivity.md)&mdash;, необходимо назначить каждому номеру телефона или пользователю пункт "Планы звонков Майкрософт", "Подключение оператора", Operator Connect Mobile (&mdash;общедоступная предварительная версия) или прямую маршрутизацию местоположения для экстренного реагирования.
+Независимо от варианта подключения [по ТСОП](pstn-connectivity.md)&mdash;, необходимо назначить каждому номеру телефона или пользователю тарифный план Microsoft Calling Plans, Operator Connect, Teams Phone Mobile&mdash;или прямую маршрутизацию местоположения для экстренного реагирования.
 
 Однако в зависимости от варианта подключения к ТСОП способ управления и назначения местоположения для экстренного реагирования для пользователя может отличаться. Дополнительные сведения см. в разделе ["Управление экстренными звонками"](what-are-emergency-locations-addresses-and-call-routing.md).
 
 В этой статье описывается, как назначить или  изменить расположение для экстренного реагирования для пользователя в Центре администрирования Microsoft Teams или с помощью PowerShell.
 
-Эта статья относится к тарифным планам, operator Connect и Operator Connect Mobile (общедоступная предварительная версия).
+Эта статья относится к тарифным планам, Operator Connect и Teams Phone Mobile.
 
 ## <a name="using-the-microsoft-teams-admin-center"></a>С помощью Центра администрирования Microsoft Teams
 

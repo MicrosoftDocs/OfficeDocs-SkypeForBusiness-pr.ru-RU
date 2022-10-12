@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Узнайте, как искать телефонные номера, которые можно назначить пользователям, по стране или региону и городу, а также указать необходимое количество номеров.
-ms.openlocfilehash: b13e2365a3d0fb50e7fef5c7dc6a174d1b7376ff
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: fce7c59ba1d680ca6e364713f611833773111648
+ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606198"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68551513"
 ---
 # <a name="search-for-telephone-numbers-for-users"></a>Поиск номеров телефонов для пользователей
 
@@ -36,9 +36,9 @@ ms.locfileid: "67606198"
 
 Если в качестве оператора выбрана корпорация Майкрософт, вы можете получить номера из Центра администрирования Teams, введя необходимое количество телефонных номеров для пользователей. Эта страница будет автоматически ограничивать количество в зависимости от того, сколько у вас по-прежнему доступно для получения. Если выбрать оператор Operator Connect, вы будете перенаправлены на целевую страницу выбранного оператора, чтобы завершить порядок номеров.
 
-Способ получения телефонных номеров и управления ими зависит от варианта подключения к ТСОП: Планы звонков Майкрософт, подключение оператора, Operator Connect Mobile (общедоступная предварительная версия) или прямая маршрутизация.
+Способ получения телефонных номеров и управления ими зависит от варианта подключения к ТСОП: Microsoft Calling Plans, Operator Connect, Teams Phone Mobile или прямая маршрутизация.
 
-Эта статья относится к [планам звонков Майкрософт](#search-for-telephone-numbers-for-microsoft-calling-plans), [Operator Connect](#search-for-telephone-numbers-for-operator-connect-or-operator-connect-mobile) [и Operator Connect Mobile](#search-for-telephone-numbers-for-operator-connect-or-operator-connect-mobile). Дополнительные сведения обо всех вариантах см. в разделе ["Управление телефонными номерами для вашей организации"](/microsoftteams/manage-phone-numbers-landing-page).
+Эта статья относится к [планам звонков Майкрософт](#search-for-telephone-numbers-for-microsoft-calling-plans), [Operator Connect](#search-for-telephone-numbers-for-operator-connect-or-teams-phone-mobile) и [Teams Phone Mobile](#search-for-telephone-numbers-for-operator-connect-or-teams-phone-mobile). Дополнительные сведения обо всех вариантах см. в разделе ["Управление телефонными номерами для вашей организации"](/microsoftteams/manage-phone-numbers-landing-page).
 
 ## <a name="search-for-telephone-numbers-for-microsoft-calling-plans"></a>Поиск телефонных номеров для планов звонков Майкрософт
 
@@ -71,7 +71,7 @@ ms.locfileid: "67606198"
 
 9. При возврате на страницу **"Номера** телефонов" выберите номер телефона или номера, которые вы хотите назначить,  а затем нажмите кнопку "Изменить", чтобы назначить его пользователю.
 
-## <a name="search-for-telephone-numbers-for-operator-connect-or-operator-connect-mobile"></a>Поиск номеров телефонов для оператора Connect или Operator Connect Mobile
+## <a name="search-for-telephone-numbers-for-operator-connect-or-teams-phone-mobile"></a>Поиск номеров телефонов для Operator Connect или Teams Phone Mobile
 
 1. Перейдите в **Центр администрирования Microsoft Teams**.
 

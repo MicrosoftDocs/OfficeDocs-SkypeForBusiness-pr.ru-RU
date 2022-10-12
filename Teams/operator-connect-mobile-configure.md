@@ -1,5 +1,5 @@
 ---
-title: Настройка Operator Connect Mobile
+title: Настройка Teams Phone Mobile
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -12,24 +12,24 @@ ms.collection:
 - m365initiative-voice
 ms.reviewer: crowe
 search.appverid: MET150
-description: Дополнительные сведения о настройке Operator Connect Mobile.
+description: Дополнительные сведения о настройке Teams Phone Mobile.
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9ca49ac8cb74bcb61cd8c1d8fc2056c69a89d715
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: e3e0e5c349610e9f8ad73b9b7a50b4c219304ea4
+ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606903"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68551683"
 ---
-# <a name="configure-operator-connect-mobile"></a>Настройка Operator Connect Mobile
+# <a name="configure-teams-phone-mobile"></a>Настройка Teams Phone Mobile
 
-**Operator Connect Mobile является общедоступной предварительной версией.** Список операторов, участвующих в программе Microsoft Operator Connect Mobile и странах или регионах, в которых доступна их служба, см. в [разделе Microsoft 365 Operator Connect Mobile](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/connect-mobile).
+Список операторов, участвующих в программе Телефонная система Microsoft Teams Mobile, а также странах или регионах, в которых доступна их служба, см. в [разделе Microsoft 365 Teams Phone Mobile](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/connect-mobile).
 
-В этой статье описывается, как настроить Operator Connect Mobile. Перед настройкой Operator Connect Mobile обязательно ознакомьтесь с Operator Connect Mobile сведения о преимуществах, предварительных требованиях и лицензировании.[](operator-connect-mobile-plan.md)
+В этой статье описывается настройка Teams Phone Mobile. Перед настройкой Teams Phone Mobile обязательно ознакомьтесь с plan [for Teams Phone Mobile](operator-connect-mobile-plan.md) , чтобы получить сведения о преимуществах, предварительных требованиях и лицензировании.
 
 ## <a name="enable-an-operator"></a>Включение оператора
 
@@ -37,11 +37,11 @@ ms.locfileid: "67606903"
 
 Чтобы включить оператор:
 
-1. Выберите оператор, который поддерживает Operator Connect Mobile. На **вкладке "Все операторы**" отфильтруйте доступные операторы по регионам или службам, чтобы найти правильный оператор, поддерживающий Operator Connect Mobile. Затем выберите оператор, который необходимо включить.
+1. Выберите оператора, который поддерживает Teams Phone Mobile. На **вкладке "Все операторы** " отфильтруйте доступные операторы по регионам или службам, чтобы найти нужного оператора, поддерживающий Teams Phone Mobile. Затем выберите оператор, который необходимо включить.
 
 2. В **разделе "Параметры оператора**" выберите страны, которые вы хотите включить с помощью выбранного оператора.
 
-3. **Укажите контактные данные.** Ваши контактные данные, включая полное имя и адрес электронной почты, будут автоматически предоставлены оператору. Эти сведения можно изменить позже. Кроме того, необходимо указать размер компании, а также указать номер телефона. Операторы будут использовать эти сведения, чтобы связаться с вами с дополнительными сведениями о Operator Connect Mobile.
+3. **Укажите контактные данные.** Ваши контактные данные, включая полное имя и адрес электронной почты, будут автоматически предоставлены оператору. Эти сведения можно изменить позже. Кроме того, необходимо указать размер компании, а также указать номер телефона. Операторы будут использовать эти сведения, чтобы связаться с вами с дополнительными сведениями о Teams Phone Mobile.
 
 4. Примите уведомление о передаче данных.
 
@@ -49,9 +49,9 @@ ms.locfileid: "67606903"
 
 ## <a name="set-up-phone-numbers"></a>Настройка номеров телефонов
 
-Если вы хотите добавить в Teams существующие платные номера телефонов с поддержкой SIM-карты, обратитесь к оператору, чтобы убедиться, что у вас есть Operator Connect Mobile подписка, и он может отправить ваши номера в Teams. После завершения заказа оператор может назначить эти номера пользователям. 
+Если вы хотите добавить в Teams существующие платные номера телефонов с поддержкой SIM-карты, обратитесь к оператору, чтобы убедиться, что у вас есть доступная подписка на Teams Phone Mobile, и он может отправить ваши номера в Teams. После завершения заказа оператор может назначить эти номера пользователям. 
 
-Чтобы найти веб-сайт оператора, ознакомьтесь с [каталогом Microsoft 365 Operator Connect](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory).
+Чтобы найти веб-сайт оператора, перейдите в [каталог Microsoft 365 Teams Phone Mobile](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory).
 
 Необходимо указать идентификатор клиента. Если вы не знаете свой идентификатор клиента, см. раздел ["Поиск идентификатора клиента Microsoft 365"](/onedrive/find-your-office-365-tenant-id.md). Вы можете перенести существующий стационарный номер телефона или телефонный номер в беспроводную голосовую подписку, если она поддерживается в вашем регионе и вашим оператором. 
 
@@ -59,11 +59,11 @@ ms.locfileid: "67606903"
 
 - [Получение номеров для новых пользователей Teams](#acquire-numbers-for-new-teams-users).  
 
-- [Перемещение номеров из планов звонков в Operator Connect Mobile](#move-numbers-from-calling-plans-to-operator-connect-mobile).  
+- [Перемещение номеров из планов звонков в Teams Phone Mobile](#move-numbers-from-calling-plans-to-teams-phone-mobile).  
 
-- [Перемещение чисел из operator Connect в Operator Connect Mobile](#move-numbers-from-operator-connect-to-operator-connect-mobile).  
+- [Перемещение номеров из Operator Connect в Teams Phone Mobile](#move-numbers-from-operator-connect-to-teams-phone-mobile).  
 
-- [Перемещение чисел из прямой маршрутизации в Operator Connect Mobile](#move-numbers-from-direct-routing-to-operator-connect-mobile).  
+- [Перемещение номеров из прямой маршрутизации в Teams Phone Mobile](#move-numbers-from-direct-routing-to-teams-phone-mobile).  
 
 
 ### <a name="assign-numbers-to-emergency-addresses"></a>Назначение номеров адресам для экстренного реагирования
@@ -86,45 +86,45 @@ ms.locfileid: "67606903"
 
 Чтобы получить номера для новых пользователей Teams, выполните следующие действия.
 
-1. **Назначьте лицензию на телефонную систему и Operator Connect Mobile надстройку.** Вы можете назначить лицензию телефонной системы и надстройку Operator Connect Mobile пользователям из Центр администрирования Microsoft 365 или с помощью PowerShell. Дополнительные сведения см. в статье "Назначение пользователям лицензий на [надстройки Teams"](teams-add-on-licensing/assign-teams-add-on-licenses.md).
+1. **Назначьте лицензию на телефонную систему и лицензию на надстройку Teams Phone Mobile.** Вы можете назначить лицензию телефонной системы и лицензию на надстройку Teams Phone Mobile пользователям из Центр администрирования Microsoft 365 или с помощью PowerShell. Дополнительные сведения см. в статье "Назначение пользователям лицензий на [надстройки Teams"](teams-add-on-licensing/assign-teams-add-on-licenses.md).
 
-2. **Пользователи, которым будут назначены номера телефонов, полученные Operator Connect Mobile, должны быть в режиме TeamsOnly.** Если ваша организация находится в режиме TeamsOnly, все пользователи находятся в режиме TeamsOnly. 
+2. **Пользователи, которым будут назначены номера телефонов, полученные с помощью Teams Phone Mobile, должны быть в режиме TeamsOnly.** Если ваша организация находится в режиме TeamsOnly, все пользователи находятся в режиме TeamsOnly. 
 
-   Чтобы проверить, в Центре администрирования Teams перейдите к **параметрам обновления Teams > Teams**. Если ваша организация находится в режиме Islands, проверьте, находятся ли определенные пользователи в режиме TeamsOnly. Перейдите **к разделу "** Пользователи" и выберите учетную запись пользователя. На **вкладке "** Учетная запись" в разделе обновления **Teams** для режима сосуществования должно быть задано значение "TeamsOnly".
+   Чтобы проверить, в Центре администрирования Teams перейдите к **параметрам обновления Teams > Teams**. Если ваша организация находится в режиме Islands, проверьте, находятся ли определенные пользователи в режиме TeamsOnly. Перейдите **к разделу "** Пользователи" и выберите учетную запись пользователя. На **вкладке "** Учетная запись" в разделе обновления **Teams** для режима сосуществования должно быть установлено значение TeamsOnly.
 
-3. **Получение чисел.** Перейдите на веб-сайт оператора или свяжитесь с ним, чтобы заказать и приобрести номера телефонов с поддержкой SIM-карты с Operator Connect Mobile службой. 
+3. **Получение чисел.** Перейдите на веб-сайт оператора или свяжитесь с ним, чтобы заказать и приобрести номера телефонов с поддержкой SIM-карты с включенной мобильной службой Teams Phone. 
 
    После того как оператор завершит заказ, он загрузит в клиент мобильные номера с поддержкой SIM-карты. Вы можете просмотреть номера и поставщика в Центре администрирования Teams, перейдя **> номера телефонов**. 
 
 4. **Назначение чисел.** Номера можно назначать пользователям из Центра администрирования Teams или с помощью PowerShell. Дополнительные сведения см. в разделе ["Назначение чисел"](assign-change-or-remove-a-phone-number-for-a-user.md).
 
-### <a name="move-numbers-from-calling-plans-to-operator-connect-mobile"></a>Перемещение номеров из планов звонков в Operator Connect Mobile
+### <a name="move-numbers-from-calling-plans-to-teams-phone-mobile"></a>Перемещение номеров из планов звонков в Teams Phone Mobile
 
-1. Убедитесь, что у вас есть соответствующие подписки Microsoft 365 для Operator Connect Mobile и Operator Connect Mobile надстройки. Необходимо удалить [номер телефона, который необходимо переместить для соответствующих пользователей](assign-change-or-remove-a-phone-number-for-a-user.md#remove-a-phone-number-from-a-user). 
+1. Убедитесь, что у вас есть соответствующие подписки Microsoft 365 на Teams Phone Mobile и лицензию на надстройку Teams Phone Mobile. Необходимо удалить [номер телефона, который необходимо переместить для соответствующих пользователей](assign-change-or-remove-a-phone-number-for-a-user.md#remove-a-phone-number-from-a-user). 
 
-2. Обратитесь к оператору, чтобы перенести номера Operator Connect Mobile по подходящему беспроводному голосовому плану с поддержкой SIM-карты. 
+2. Обратитесь к оператору, чтобы перенести номера в Teams Phone Mobile по подходящему беспроводному голосовому плану с поддержкой SIM-карты. 
 
 3. После того как оператор завершит порядок переноса, оператор загрузит номера в клиент.  Вы можете просмотреть номера и поставщика в Центре администрирования Teams, перейдя **> номера телефонов**. 
 
 4. Номера можно назначать пользователям с помощью Центра администрирования Teams или PowerShell. Дополнительные сведения см. в разделе ["Назначение чисел"](assign-change-or-remove-a-phone-number-for-a-user.md).
 
-### <a name="move-numbers-from-operator-connect-to-operator-connect-mobile"></a>Перемещение чисел из operator Connect в Operator Connect Mobile
+### <a name="move-numbers-from-operator-connect-to-teams-phone-mobile"></a>Перемещение номеров из operator Connect в Teams Phone Mobile
 
-1. Убедитесь, что у вас есть соответствующие подписки Microsoft 365 для Operator Connect Mobile и лицензия на надстройку Operator Connect. Необходимо удалить [номер телефона, который необходимо переместить для соответствующих пользователей](assign-change-or-remove-a-phone-number-for-a-user.md#remove-a-phone-number-from-a-user). Чтобы удалить номера телефонов из клиента, обратитесь к существующему поставщику Operator Connect.
+1. Убедитесь, что у вас есть соответствующие подписки Microsoft 365 на Teams Phone Mobile и лицензию на надстройку Teams Phone Mobile. Необходимо удалить [номер телефона, который необходимо переместить для соответствующих пользователей](assign-change-or-remove-a-phone-number-for-a-user.md#remove-a-phone-number-from-a-user). Чтобы удалить номера телефонов из клиента, обратитесь к существующему поставщику Operator Connect.
 
-2. Обратитесь к оператору, чтобы перенести номера Operator Connect Mobile по подходящему беспроводному голосовому плану с поддержкой SIM-карты. 
+2. Обратитесь к оператору, чтобы перенести номера в Teams Phone Mobile по подходящему беспроводному голосовому плану с поддержкой SIM-карты. 
 
 3. После того как оператор завершит порядок переноса, оператор загрузит номера в клиент. Вы можете просмотреть номера и поставщика в Центре администрирования Teams, перейдя **> номера телефонов**. 
 
 4. Номера можно назначать пользователям с помощью Центра администрирования Teams или PowerShell. Дополнительные сведения см. в разделе ["Назначение чисел"](assign-change-or-remove-a-phone-number-for-a-user.md).
 
-### <a name="move-numbers-from-direct-routing-to-operator-connect-mobile"></a>Перемещение чисел из прямой маршрутизации в Operator Connect Mobile   
+### <a name="move-numbers-from-direct-routing-to-teams-phone-mobile"></a>Перемещение номеров из прямой маршрутизации в Teams Phone Mobile   
 
-Чтобы переместить числа из прямой маршрутизации в Operator Connect Mobile, вам потребуется выполнить следующие действия:
+Чтобы переместить номера из прямой маршрутизации в Teams Phone Mobile, необходимо выполнить следующие действия:
 
 1. [Определите, назначены ли](#determine-if-the-existing-direct-routing-numbers-are-assigned-online-or-on-premises) существующие номера прямой маршрутизации в сети или локально.
 
-2. [Перенос чисел из прямой маршрутизации в Operator Connect Mobile](#migrate-the-numbers-from-direct-routing-to-operator-connect-mobile).
+2. [Перенос номеров из прямой маршрутизации в Teams Phone Mobile](#migrate-the-numbers-from-direct-routing-to-teams-phone-mobile).
 
 2. [Удалите политику маршрутизации голосовой связи в Сети, связанную с пользователем](#remove-the-online-voice-routing-policy-associated-with-your-user).
 
@@ -152,16 +152,16 @@ ms.locfileid: "67606903"
 
    Если onPremLineUri заполняется номером телефона E.164, номер телефона был назначен локально и синхронизирован с Microsoft 365.
 
-#### <a name="migrate-the-numbers-from-direct-routing-to-operator-connect-mobile"></a>Перенос чисел из прямой маршрутизации в Operator Connect Mobile
+#### <a name="migrate-the-numbers-from-direct-routing-to-teams-phone-mobile"></a>Перенос номеров из прямой маршрутизации в Teams Phone Mobile
 
 Чтобы перенести числа, выполните приведенные ниже действия.  
 
 > [!Important]
-> Во время миграции номер телефона не будет работать. Перед началом миграции согласуйте с оператором Operator Connect.
+> Во время миграции номер телефона не будет работать. Перед началом миграции согласуйте с оператором Teams Phone Mobile.
 
-- **Чтобы перенести существующие номера прямой маршрутизации**, назначенные Operator Connect Mobile, обратитесь к оператору. Сведения о том, как найти веб-сайт оператора, см. в каталоге [Microsoft 365 Operator Connect](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory). В согласованные дату и время оператор переносит ваши номера из прямой маршрутизации в Operator Connect Mobile. Для этого может потребоваться удалить номер телефона, переносимый из клиента, и снова добавить его в качестве нового номера телефона, связанного с Operator Connect Mobile.
+- **Чтобы перенести существующие номера прямой маршрутизации**, назначенные через Интернет, в Teams Phone Mobile, обратитесь к оператору. Чтобы найти веб-сайт оператора, ознакомьтесь с [каталогом Microsoft 365 Teams Phone Mobile](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory). В согласованные дату и время оператор переносит ваши номера из прямой маршрутизации в Teams Phone Mobile. Для этого может потребоваться удалить номер телефона, переносимый из клиента, и снова добавить его в качестве нового номера телефона, связанного с Teams Phone Mobile.
 
-- **Чтобы перенести номера прямой** маршрутизации, назначенные локально в Operator Connect Mobile, выполните следующую Skype для бизнеса Server PowerShell:
+- **Чтобы перенести номера прямой маршрутизации**, назначенные локально в Teams Phone Mobile, выполните следующую Skype для бизнеса Server PowerShell:
 
    ```PowerShell
    Set-CsUser -Identity <user> -LineURI $null 
@@ -200,13 +200,13 @@ Grant-CsOnlineVoiceRoutingPolicy -Identity <user> -PolicyName $Null
 
 #### <a name="acquire-phone-numbers"></a>Получите номера телефонов
 
-Обратитесь к оператору, чтобы перенести номера Operator Connect Mobile по подходящему беспроводному голосовому плану с поддержкой SIM-карты.
+Обратитесь к оператору, чтобы перенести номера в Teams Phone Mobile по подходящему беспроводному голосовому плану с поддержкой SIM-карты.
 
 После того как оператор завершит заказ, он загрузит номера в клиент. Вы можете просмотреть номера и поставщика в Центре администрирования Teams, перейдя **> номера телефонов**. 
 
 #### <a name="assign-phone-numbers"></a>Назначение номеров телефонов
 
-Номера operator Connect можно назначать пользователям с помощью Центра администрирования Teams или PowerShell. Дополнительные сведения см. в разделе ["Назначение чисел"](assign-change-or-remove-a-phone-number-for-a-user.md).
+Мобильные номера Teams Phone можно назначать пользователям с помощью Центра администрирования Teams или PowerShell. Дополнительные сведения см. в разделе ["Назначение чисел"](assign-change-or-remove-a-phone-number-for-a-user.md).
 
 
 ## <a name="manage-your-operators"></a>Управление операторами
@@ -230,7 +230,7 @@ Grant-CsOnlineVoiceRoutingPolicy -Identity <user> -PolicyName $Null
 
 ## <a name="manage-user-incoming-calling-policies"></a>Управление политиками входящих звонков пользователей
 
-Вы можете управлять политиками входящих звонков пользователя с помощью Центра администрирования Teams или PowerShell. По умолчанию входящие вызовы Operator Connect Mobile будут сначала звонить в приложение Teams на мобильном устройстве с поддержкой SIM-карты пользователя. 
+Вы можете управлять политиками входящих звонков пользователя с помощью Центра администрирования Teams или PowerShell. По умолчанию входящие звонки для пользователей Teams Phone Mobile сначала будут звонить в приложение Teams на мобильном устройстве с поддержкой SIM-карты пользователя. 
 
 - Если для входящего вызова пользователя задано приложение Teams, все входящие вызовы будут вызывать приложение Teams на смартфоне с поддержкой SIM-карты и любых других конечных точках Teams на других устройствах одновременно. 
 

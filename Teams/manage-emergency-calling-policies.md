@@ -20,16 +20,16 @@ description: Узнайте, как использовать политики э
 ms.custom:
 - seo-marvel-apr2020
 - ms.teamsadmincenter.voice.emergencycallingpolicies.overview
-ms.openlocfilehash: 658e7191a821069d3fa9b13e02cc7cbcdfb29413
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: a6fa08808c9ef5fc258236735cc043e4bde366b1
+ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606558"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68551523"
 ---
 # <a name="manage-emergency-calling-policies-in-microsoft-teams"></a>Управление политиками экстренных вызовов в Microsoft Teams
 
-Если в вашей организации в качестве варианта подключения к ТСОП используются планы звонков Майкрософт, Operator Connect, Operator Connect Mobile (общедоступная предварительная версия) или прямая маршрутизация[, вы](pstn-connectivity.md) можете использовать политики экстренных вызовов в Microsoft Teams, чтобы определить, что происходит, когда пользователь Teams в вашей организации совершает экстренный вызов.
+Если в вашей организации в качестве варианта подключения к ТСОП используются планы звонков Майкрософт, Operator Connect, Teams Phone Mobile или прямая маршрутизация [, вы](pstn-connectivity.md) можете использовать политики экстренных вызовов в Microsoft Teams, чтобы определить, что происходит, когда пользователь Teams в вашей организации совершает экстренный вызов.
 
 Вы можете указать, кому и как получать уведомления, когда пользователь, которому назначена политика, вызывает экстренные службы. Например, можно настроить параметры политики для автоматического уведомления службы безопасности организации и их прослушивания в экстренных вызовах.  
 
