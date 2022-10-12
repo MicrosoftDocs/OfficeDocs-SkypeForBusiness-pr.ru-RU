@@ -12,12 +12,12 @@ ms.collection:
 description: Сведения о проверке подлинности на основе приложений в модуле Teams PowerShell, используемом для администрирования Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7dab0f32a6547db5522f00d4750f7eff26ea5995
-ms.sourcegitcommit: 43db97b84ca70b1e6accfa7214d4106e4177a642
+ms.openlocfilehash: 8dd4b230f7f22feb574463a96d4a4447bcf0cfb0
+ms.sourcegitcommit: 8dd36e1e30a47316c15c99e964d0464715bcd742
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/29/2022
-ms.locfileid: "68218093"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68532499"
 ---
 # <a name="application-based-authentication-in-teams-powershell-module"></a>Проверка подлинности на основе приложений в модуле Teams PowerShell
 
@@ -95,7 +95,7 @@ ms.locfileid: "68218093"
 
 Для проверки подлинности с помощью объектов приложения требуется начальное подключение. Приложение и субъект-служба используются взаимозаменяемо, но приложение похоже на объект класса, а субъект-служба — как экземпляр класса. Дополнительные сведения об этих объектах см. в [разделе "Объекты приложения и субъекта-службы" в Azure Active Directory](/azure/active-directory/develop/app-objects-and-service-principals).
 
-Ниже приведены общие шаги по созданию приложений в Azure AD. Подробные инструкции см. в этой [статье](/azure/active-directory/develop/howto-create-service-principal-portal).
+Ниже приведены примеры действий по созданию приложений в Azure AD. Подробные инструкции см. в этой [статье](/azure/active-directory/develop/howto-create-service-principal-portal).
 
 1. Регистрация приложения в Azure AD
 2. Назначение разрешений API приложению
@@ -103,7 +103,7 @@ ms.locfileid: "68218093"
    - Для командлетов\*, отличных от CS, необходимые разрешения microsoft API Graph: `User.Read.All`, `Group.ReadWrite.All`, `AppCatalog.ReadWrite.All`, `TeamSettings.ReadWrite.All`, , `Channel.Delete.All``ChannelSettings.ReadWrite.All`. `ChannelMember.ReadWrite.All`  
 3. Создание самозаверяющего сертификата
 4. Присоединение сертификата к Azure AD приложения
-5. Назначение Azure AD ролей приложению
+5. Назначение [Azure AD ролей](/microsoftteams/using-admin-roles#teams-roles-and-capabilities) приложению
 
 Приложению должны быть назначены соответствующие роли RBAC. Так как приложения подготавливаются в Azure AD, можно использовать любую из поддерживаемых встроенных ролей.
  

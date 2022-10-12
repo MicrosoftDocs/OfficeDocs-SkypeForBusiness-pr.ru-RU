@@ -13,12 +13,12 @@ ms.collection:
 description: Узнайте о последних изменениях в Teams PowerShell.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5d488fbc8274b5b4e14a29e336b5ef0563872d56
-ms.sourcegitcommit: 44d9f15f7f7c00b3651a11ff1e8b37dda1716a52
+ms.openlocfilehash: 2472f7ec0156e5dcd3ac245dfecdf25a58423ed9
+ms.sourcegitcommit: 8dd36e1e30a47316c15c99e964d0464715bcd742
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/15/2022
-ms.locfileid: "67732308"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68532239"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Заметки о выпуске Microsoft Teams PowerShell
 
@@ -31,6 +31,7 @@ ms.locfileid: "67732308"
 
 | Дата | Версия | Обновления |
 |------- | -------------------- | ------------------------------ |
+| Октябрь 2022 г. | [4.8.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.8.0) |<li>[Получить\| New]-CsTeamsShiftsConnectionTeamMap — добавлен атрибут TimeZone.</li><li>Удаляет входные параметры SendEmailFromAddress и SendEmailFromDisplayName из Set-CsOnlineDialinConferencingUser.</li><li>Удаляет параметры AllowAllAcsResources и BlockedAcsResources из Set-TeamsAcsFederationConfiguration.</li><li>Добавляет параметр ForceListenMenuEnabled в параметры callflow в New-CsAutoAttendantCallFlow, New-CsAutoAttendant и Set-CsAutoAutoAttendant. Этот параметр позволяет клиенту игнорировать входные данные DTMF/speech при воспроизведении параметров приветствия или меню.</li>
 | Сентябрь 2022 г. | [4.7.1-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/4.7.1-preview) |<li>Выпуск поддержки проверки подлинности на основе приложений в Connect-MicrosoftTeams предварительной версии. Поддерживаемые командлеты развертываются постепенно. Дополнительные сведения о проверке подлинности на основе приложений см. в [модуле Teams PowerShell](teams-powershell-application-authentication.md).</li><li>Выпуски командлетов [Get\|Set]-CsTeamsEducationConfiguration в закрытой предварительной версии.</li><li>[Получить\| New]-CsTeamsShiftsConnectionTeamMap — добавлен атрибут TimeZone.</li><li>Удаляет входные параметры SendEmailFromAddress и SendEmailFromDisplayName из Set-CsOnlineDialinConferencingUser.</li><li>Удаляет параметры AllowAllAcsResources и BlockedAcsResources из Set-TeamsAcsFederationConfiguration.</li>
 | Сентябрь 2022 г. | [4.7.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.7.0) |<li>Устранены проблемы с очисткой процесса при использовании модуля в PS ISE и приложениях dotnet.</li><li>Выпуски командлетов [Get\|New]-CsBatchTeamsDeployment в общедоступной версии.</li><li>Выпуски [New\|Set]-CSTeamsShiftsConnectionInstance, Test-CsTeamsShiftsConnectionValidate поддержки измерений UKG.</li><li>Устранены проблемы с неправильным получением маркера при выборе между несколькими учетными записями с помощью параметра AccountId в Connect-MicrosoftTeams.</li><li>Значения режима конференции по умолчанию & режиме присутствия изменяются с false на true для New-CsCallQueue командлета.</li>
 | Август 2022 г. | [4.6.1-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/4.6.1-preview) |<li>Устранены проблемы с очисткой процесса при использовании модуля в PS ISE и приложениях dotnet.</li>

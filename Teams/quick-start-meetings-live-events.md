@@ -22,12 +22,12 @@ ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d4e28437d6251156e16c2568c9adf9a708e412bd
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
-ms.translationtype: HT
+ms.openlocfilehash: dc99785bf5d0450e99022f230af7564693c6da7f
+ms.sourcegitcommit: 8dd36e1e30a47316c15c99e964d0464715bcd742
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66615675"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68532249"
 ---
 # <a name="meetings-webinars-and-live-events"></a>Собрания, вебинары и трансляции
 
@@ -35,10 +35,7 @@ ms.locfileid: "66615675"
 
 В этой статье, предназначенной для администраторов и ИТ-специалистов, описаны различия между собраниями, вебинарами и трансляциями. Она содержит ссылки на информацию, которая нужна для быстрого развертывания этих функций для пользователей.
 
-> [!NOTE]
-> Подробные сведения о быстрой настройке собраний и событий Teams на разных платформах см. в статье [Возможности Teams на разных платформах](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
-
-[Собрания](#meetings), [вебинары](#webinars) и [трансляции](#live-events) — это типы собраний, но вебинары и трансляции предоставляют организатору дополнительный контроль над беседой и участниками. Вебинары обеспечивают двухстороннее взаимодействие, а трансляции — управление вопросами и ответами. 
+[Meetings](#meetings), [webinars](#webinars), and [live events](#live-events) are all types of meetings, but webinars and live events provide additional control for the organizer over the conversation and participants. Webinars provide two-way interaction while live events provide a managed Q&A experience. 
 
 Различные типы собраний также имеют разные ограничения в отношении количества и возможностей участников. 
 
@@ -54,7 +51,13 @@ ms.locfileid: "66615675"
 
 **Обычное число участников (10 000) увеличено до 20 000 до 31 декабря 2022 г. Трансляции в Yammer и/или Microsoft Stream позволяют запланировать даже большее число участников. Подробнее см. в статье [Трансляции в Microsoft 365](/stream/live-event-m365). Обратите внимание, что для событий с количеством участников более 20 000 необходима [Программа поддержки трансляций](/stream/live-events-assistance).
 
-Обратите внимание, что на собраниях, вебинарах и трансляциях полностью поддерживается стандарт NDI, что позволяет использовать для трансляций такие инструменты, как OBS и Wirecast. Дополнительные сведения см. в статье [Использование технологии NDI® в Microsoft Teams](use-ndi-in-meetings.md).
+Note that NDI is fully supported in meetings, webinars, and live events, allowing you to produce the broadcast by using tools such as OBS and Wirecast. For more information, see [Use NDI® technology in Microsoft Teams](use-ndi-in-meetings.md).
+
+> [!NOTE]
+> Дополнительные сведения и рекомендации по роли для доставки онлайн-событий с помощью Microsoft Teams см. в сборнике схем [виртуальных событий](https://adoption.microsoft.com/virtual-event-guidance/). Вы также можете присоединиться к [форуму виртуальных](https://aka.ms/VirtualEventForum) событий на Microsoft Tech Community.
+
+> [!NOTE]
+> Подробные сведения о быстрой настройке собраний и событий Teams на разных платформах см. в статье [Возможности Teams на разных платформах](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
 ## <a name="meetings"></a>Собрания
 
@@ -131,7 +134,7 @@ ms.locfileid: "66615675"
 
 ## <a name="apps-for-meetings"></a>Приложения для собраний
 
-Майкрософт позволяет расширить возможности собраний с помощью интеграции и использования приложений для собраний. Например, интеграция доски на собраниях Teams на платформе веб-приложения "Доска" позволяет участникам собраний Teams рисовать, делать наброски и писать вместе на общем цифровом холсте.
+Microsoft enables you to enhance meeting experiences by integrating and using meeting apps. For example, whiteboard integration in Teams meetings is powered by the Whiteboard web app, which lets Teams meeting participants draw, sketch, and write together on a shared digital canvas.
 
 Вы можете добавлять приложения для собраний при развертывании Teams, используя приложения, предоставляемые с Teams, сертифицированные сторонние приложения и шаблоны, а также создавая собственные приложения.
 
@@ -215,4 +218,3 @@ ms.locfileid: "66615675"
 
 [Ограничения и спецификации для Teams](limits-specifications-teams.md)
 
-[Техническое сообщество Майкрософт: трансляции в Microsoft 365](https://resources.techcommunity.microsoft.com/live-events/)

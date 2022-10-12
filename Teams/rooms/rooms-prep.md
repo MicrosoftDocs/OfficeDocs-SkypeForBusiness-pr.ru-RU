@@ -16,12 +16,12 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 description: Узнайте, как подготовить инфраструктуру к развертыванию Комнаты Microsoft Teams, чтобы воспользоваться всеми возможностями.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3f0224ebf0c6c8e0f21fe669bb8a92ff345b928b
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 7006f560c5d0991b74c14fc5eb0b13e829b642d9
+ms.sourcegitcommit: 8dd36e1e30a47316c15c99e964d0464715bcd742
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268954"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68532229"
 ---
 # <a name="prepare-your-environment"></a>Подготовка среды
 
@@ -115,7 +115,7 @@ ms.locfileid: "67268954"
     
 11. Вернувшись на экран входа, выберите пользователя **Skype**. Если все предыдущие шаги были выполнены успешно, Комнаты Microsoft Teams устройство успешно выполнит вход.
     
-Подробные [сведения о](./security.md#network-security) полных доменных именах, портах и диапазонах IP-адресов, необходимых для Комнаты Microsoft Teams, см. в статье "Безопасность сети".
+Подробные [сведения о](./security-windows.md#network-security) полных доменных именах, портах и диапазонах IP-адресов, необходимых для Комнаты Microsoft Teams, см. в статье "Безопасность сети".
   
 ### <a name="admin-group-management"></a>Управление группой администраторов
 
@@ -128,7 +128,7 @@ ms.locfileid: "67268954"
 
 ### <a name="microsoft-teams-rooms-local-user-account"></a>Комнаты Microsoft Teams учетной записи локального пользователя
 
-Комнаты Teams включает локальную учетную запись Без пароля с именем Skype. Эта учетная запись используется для входа в Windows для запуска Комнаты Teams приложения. Применение пароля к этой учетной записи не поддерживается. [Дополнительные сведения см. Комнаты Microsoft Teams security](security.md).
+Комнаты Teams включает локальную учетную запись Без пароля с именем Skype. Эта учетная запись используется для входа в Windows для запуска Комнаты Teams приложения. Применение пароля к этой учетной записи не поддерживается. [Дополнительные сведения см. Комнаты Microsoft Teams security](security-windows.md).
   
 ### <a name="admin---local-administrator-account"></a>Admin — учетная запись локального администратора
 
@@ -139,7 +139,7 @@ ms.locfileid: "67268954"
   
 Пароль локального администратора нельзя выбрать во время настройки.
 
-Дополнительные сведения об учетной записи Администратор см. в Комнаты Microsoft Teams [security](security.md).
+Дополнительные сведения об учетной записи Администратор см. в Комнаты Microsoft Teams [security](security-windows.md).
   
 ### <a name="machine-account"></a>Учетная запись компьютера
 
@@ -147,7 +147,7 @@ ms.locfileid: "67268954"
   
 Если вы хотите переименовать компьютер после присоединения к домену, используйте команду [Rename-Computer](/powershell/module/microsoft.powershell.management/rename-computer), команду PowerShell, а затем новое имя компьютера.
   
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
 [Планирование Комнаты Microsoft Teams](rooms-plan.md)
 

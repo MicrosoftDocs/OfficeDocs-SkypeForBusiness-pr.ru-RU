@@ -18,12 +18,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Данные и сведения о конфиденциальности
 f1keywords: Microsoft Teams Rooms Managed Service Data and Privacy Information
-ms.openlocfilehash: 5799288005a5d30152a6f810c0aa40d451198390
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 50806ffce468ac9add956d6942c2b3b2e5885125
+ms.sourcegitcommit: 8dd36e1e30a47316c15c99e964d0464715bcd742
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270304"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68532469"
 ---
 # <a name="approach"></a>Подход
 
@@ -48,8 +48,6 @@ ms.locfileid: "67270304"
 ## <a name="data-handling"></a>Обработка данных
 
 Корпорация Майкрософт регулируется строгими стандартами передачи, хранения, использования и хранения данных. Корпорация Майкрософт имеет стандартные политики обработки данных, которые определяют порядок обработки данных на основе классификации данных.
-
-
 
 ## <a name="technology-description"></a>Описание технологии
 
@@ -100,4 +98,8 @@ ms.locfileid: "67270304"
 
 ## <a name="more-resources"></a>Дополнительные ресурсы
 
-Комнаты Microsoft Teams безопасности:/microsoftteams/rooms/security Microsoft Privacy Statement: https://aka.ms/privacy Управление данными в Корпорации Майкрософт: https://www.microsoft.com/trust-center/privacy/data-management описание службы управляемых служб: [управляемая служба комнат Microsoft Teams](microsoft-teams-rooms-premium.md)
+Комнаты Microsoft Teams безопасности Windows: [[Microsoft Teams для windows security](/microsoftteams/rooms/security-windows) \
+Комнаты Microsoft Teams безопасности Android: [безопасность Microsoft Teams для Android](/microsoftteams/rooms/security-android) \
+Заявление о конфиденциальности Майкрософт: https://aka.ms/privacy \
+Управление данными в Корпорации Майкрософт: https://www.microsoft.com/trust-center/privacy/data-management \
+Описание службы управляемых служб: [управляемая служба комнат Microsoft Teams](microsoft-teams-rooms-premium.md)

@@ -17,18 +17,21 @@ ms.collection:
 ms.custom:
 - seo-marvel-mar2020
 description: Удаленное управление параметрами по умолчанию, используемыми устройством Комнаты Microsoft Teams, включая применение пользовательской темы и создание файла основных параметров.
-ms.openlocfilehash: e09501d4b39ddbb83e914d53fe61bfb97d1a4fa8
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: f0e563935725bf68ebf087d8a58a199683bac70f
+ms.sourcegitcommit: 8dd36e1e30a47316c15c99e964d0464715bcd742
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606208"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68532259"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>Удаленное управление Комнаты Microsoft Teams консоли с помощью XML-файла конфигурации
 
 В этой статье рассматривается удаленное управление параметрами по умолчанию, используемыми устройством Комнаты Microsoft Teams, включая применение пользовательской темы. В нем описывается создание файла основных параметров и приводятся ссылки на обсуждения их размещения в Комнаты Teams.
   
-Вы можете изменить параметры Комнаты Teams по умолчанию, обновив главный XML-файл и отправив копии на удаленные Комнаты Teams устройства. 
+Вы можете изменить параметры Комнаты Teams по умолчанию, обновив главный XML-файл и отправив копии на удаленные Комнаты Teams устройства.
+
+> [!NOTE]
+> Некоторые функции доступны только на Комнаты Teams устройствах, которым назначена лицензия Комнаты Microsoft Teams Pro. Сведения о том, какие функции Комнаты Microsoft Teams Pro, [см. Комнаты Microsoft Teams лицензиях](rooms-licensing.md).
   
 ## <a name="create-an-xml-configuration-file"></a>Создание XML-файла конфигурации
 

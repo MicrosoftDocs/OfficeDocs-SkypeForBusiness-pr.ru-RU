@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Сведения об управлении Комнаты Microsoft Teams Pro.
 f1keywords: ''
-ms.openlocfilehash: 275906a47b2f86368256e7e09f42b2cf5c653ee8
-ms.sourcegitcommit: b2692b3f6c60d8df5ba0677c68ff9c90a75a0d72
+ms.openlocfilehash: d6644308f5c9de9b92c3d25df2595a036c232c7b
+ms.sourcegitcommit: 8dd36e1e30a47316c15c99e964d0464715bcd742
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2022
-ms.locfileid: "68033777"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68532409"
 ---
 # <a name="microsoft-teams-rooms-pro-management"></a>Комнаты Microsoft Teams Pro Management
 
@@ -37,11 +37,9 @@ ms.locfileid: "68033777"
 
    Программное обеспечение и машинное обучение, которое автоматизирует обновления, обнаружение проблем, разрешение проблем для Комнаты Microsoft Teams.  
 
-- Выделенные эксперты  
+- Управление обновлениями  
 
-   Группа экспертов, которая предоставляет операции службы 24x7, многоуровневую поддержку и помощь по устранению инцидентов.  
-
-
+   Автоматическая оркестрация приложений для собраний и обновлений Windows на основе кругов развертывания, настраиваемых клиентом.
 
 - Расширенные аналитические сведения  
 

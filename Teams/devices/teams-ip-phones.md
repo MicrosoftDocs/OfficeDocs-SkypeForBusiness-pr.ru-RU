@@ -22,12 +22,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Узнайте, какие стационарные и конференции сертифицированы для Microsoft Teams для достижения наилучших результатов.
-ms.openlocfilehash: a13551627b0bd4d41d44e64988452fae59dc7090
-ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.openlocfilehash: 2ba2b46bb4f6544a6b2c4c4455634aca4c0feef5
+ms.sourcegitcommit: 75a988ce64e3b6668dde3475e5cbf1f26de961ba
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "68376867"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68539658"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Сертифицированные устройства Android в Microsoft Teams
 
@@ -84,6 +84,7 @@ ms.locfileid: "68376867"
 | Yealink MeetingBar A20 | `133.15.0.108  `   | 3 сентября 2024 г. | Небольшая комната для собраний (4,5 м x 4,5 м)| 10|
 | Yealink MeetingBar A30 | `133.15.0.108  `   | 3 сентября 2024 г. | Комната среднего размера (4,5 м x 6 м) | 10|
 | Logitech Tap IP VR0029     | `1.6.762`  |   3 сентября 2024 г.  | Совместимо с Logitech Rally Bar и Rally Bar Mini | 10 |
+| Аккуратное линейчатая pro   | `NFD1.20220914.1210 ` | 3 сентября 2024 г.  |  Комната среднего размера (4,5 м x 6 м) | 10|
 | Пряная панель | `NFB1.20220211.1400` |3 сентября 2024 г.|    Небольшая комната для собраний (4,5 м x 4,5 м) | 10 |
 | Консоль сенсорного ввода с аккуратной панелью | `NFA1.20220211.1400`  | 5 августа 2023 г. |  Совместимость только с аккуратной панелью | 9 |
 | Хламная доска | `NFC1.20220211.1400 ` | 3 сентября 2024 г. |    Небольшая комната для собраний (4,5 м x 4,5 м) | 10 |
