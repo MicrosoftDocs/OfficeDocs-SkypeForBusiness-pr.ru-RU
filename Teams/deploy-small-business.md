@@ -18,19 +18,19 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 32b55c026daad08aab22f1621190e2768e0b26e5
-ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
+ms.openlocfilehash: 94c03224f25f1cd72c7e283411b0b1de6c38580e
+ms.sourcegitcommit: 2dab123ad74fcad4db5390e9b745f72497a05882
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "67808670"
+ms.lasthandoff: 10/13/2022
+ms.locfileid: "68560259"
 ---
 # <a name="set-up-microsoft-teams-in-your-small-business"></a>Настройка Microsoft Teams в компаниях малого бизнеса
 
 Можно настроить Teams в соответствии с вашими предпочтениями. В следующих разделах показано, как настроить все рабочие нагрузки Teams: **чаты, команды и каналы**; **собрания и конференции** и **решения для голосовой связи**. Вы сами можете выбрать порядок настройки каждой нагрузки. В первую очередь рекомендуется настроить чаты, команды и каналы, но вы можете начать с собраний и конференций или даже с облачных решений для голосовой связи. Решайте сами.
 
 > [!NOTE]
-> Если вы еще не сделали этого, настоятельно рекомендуем начать развертывание Teams с пилотного проекта. Пилотный проект позволит вам и нескольким энтузиастам ознакомиться с приложением Teams и его функциями до планирования и развертывания. Дополнительные сведения о запуске пилотного проекта см. в статье [Начало работы с Microsoft Teams](get-started-with-teams-quick-start.md).
+> If you haven't done so already, we strongly suggest that you begin your Teams deployment with a pilot. A pilot will allow you and a few early adopters to get familiar with Teams and its features before your planning and eventual roll out. For more information about how to start your pilot, check out [Get started with Microsoft Teams](get-started-with-teams-quick-start.md).
 
 Перед общим развертыванием Teams убедитесь в готовности своей организации, проверив пункты из раздела [Проверка готовности](get-started-with-teams-quick-start.md#make-sure-youre-ready).
 
@@ -73,10 +73,9 @@ ms.locfileid: "67808670"
 > [!TIP]
 > Узнайте больше о собраниях и событиях, завершив модуль [Управление собраниями, конференциями и событиями в Microsoft Teams](/training/modules/m365-teams-collab-manage-meetings) в Microsoft Learn.
 
-Собрания по умолчанию включены в Teams, но вы можете управлять возможностями участия в собраниях для организаторов и для участников. С помощью политик можно настраивать действия, разрешенные и запрещенные для пользователей до и во время собраний. Дополнительные сведения см. в следующих статьях:
+Собрания по умолчанию включены в Teams, но вы можете управлять возможностями участия в собраниях для организаторов и для участников. С помощью политик можно настраивать действия, разрешенные и запрещенные для пользователей до и во время собраний. Дополнительные сведения см. в следующей статье:
 
 - [Краткое руководство для администраторов: собрания и трансляции в Microsoft Teams](quick-start-meetings-live-events.md)
-- [Настройка аудиоконференций для компаний малого и среднего бизнеса](audio-conferencing-smb.md)
 
 ### <a name="teams-phone-with-calling-plan"></a>Телефонная система Teams с тарифным планом
 
@@ -86,7 +85,7 @@ ms.locfileid: "67808670"
 
 ## <a name="deploy-clients"></a>Развертывание клиентов
 
-Когда ваши пользователи будут готовы к использованию Teams, они могут установить клиент Teams на компьютерах с Windows, Mac или Linux, а также на устройствах с Android или iOS. Пользователи могут скачать клиент Teams непосредственно с сайта <https://teams.microsoft.com/downloads>.
+When you're ready for your users to start using Teams, they can install the Teams client on their Windows, Mac, or Linux PC, or on their Android or iOS device. Users can download the Teams client directly from <https://teams.microsoft.com/downloads>.
 
 Убедитесь в наличии лицензии Teams у всех пользователей Teams. Дополнительные сведения о назначении лицензии Teams см. в статье [Управление доступом пользователей к Teams](user-access.md#using-the-microsoft-365-admin-center).
 
