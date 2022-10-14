@@ -18,16 +18,16 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 90af338ca5896a9e11ed4ea2537080237885c71c
-ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
+ms.openlocfilehash: 07a7a7652f5b634d9cc4c5bf7adfa14dfdcb3d3d
+ms.sourcegitcommit: 50ae550b738424b35df1636590831e6c124ca0c1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "68551723"
+ms.lasthandoff: 10/14/2022
+ms.locfileid: "68576596"
 ---
 # <a name="plan-for-teams-phone-mobile"></a>Планирование teams Phone Mobile
 
-Список операторов, участвующих в программе Телефонная система Microsoft Teams Mobile, а также странах или регионах, в которых доступна их служба, см. в [разделе Microsoft 365 Teams Phone Mobile](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/connect-mobile).
+Список операторов, участвующих в программе Телефонная система Microsoft Teams Mobile, а также странах или регионах, в которых доступна их служба, см. в [разделе Microsoft 365 Teams Phone Mobile](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/teams-phone-mobile).
 
 Teams Phone Mobile — это еще один вариант для обеспечения подключения к телефонной сети общего пользования (ТСОП) с помощью Microsoft Teams и телефонной системы. В Teams Phone Mobile номер телефона пользователя с поддержкой SIM-карты также является номером телефона Teams. Пользователи могут использовать один номер телефона в Microsoft Teams как в мобильных службах, так и в стационарных линиях, а также легко переключаться между сетями и устройствами.
 
