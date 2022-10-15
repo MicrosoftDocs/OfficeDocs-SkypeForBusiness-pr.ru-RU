@@ -24,12 +24,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 28a816dee54d8f5ac2aead0deeb6aedf3f8076f7
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: e5ff54577dcfd4e3845758a7ce943231cbd38d48
+ms.sourcegitcommit: 50ae550b738424b35df1636590831e6c124ca0c1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396930"
+ms.lasthandoff: 10/14/2022
+ms.locfileid: "68576555"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Обзор команд и каналов в Microsoft Teams
 
@@ -45,7 +45,7 @@ ms.locfileid: "67396930"
 - **Каналы** — это выделенные разделы внутри команды, помогающие упорядочивать беседы по определенным темам, проектам, дисциплинам и т. п. Файлы, отправленные в канал (на вкладке "Файлы"), хранятся в SharePoint. Дополнительные сведения см. в статье [Взаимодействие SharePoint Online и OneDrive для бизнеса с Teams](SharePoint-OneDrive-interact.md).
 
     - Каналы - это места, где происходят разговоры и где фактически выполняется работа. Каналы могут быть открытыми для всех участников команды (стандартные каналы), ее избранных участников ([частные каналы](private-channels.md)) либо избранных пользователей как внутри, так и вне команды ([общие каналы](shared-channels.md)).
-    - Каналы приносят максимальную пользу при добавлении в них приложений, включающих вкладки, соединители и боты, которые дают участникам команды дополнительные возможности. Подробнее см. в статье [Приложения, боты и соединители в Teams](deploy-apps-microsoft-teams-landing-page.md).
+    - Каналы приносят максимальную пользу при добавлении в них приложений, включающих вкладки, соединители и боты, которые дают участникам дополнительные возможности. Дополнительные сведения см [. в разделе "Обзор приложений Teams"](deploy-apps-microsoft-teams-landing-page.md).
     
 За помощью в использовании команд и каналов обращайтесь к [Teams и каналам](https://support.office.com/article/df38ae23-8f85-46d3-b071-cb11b9de5499).
 
@@ -73,7 +73,7 @@ ms.locfileid: "67396930"
 
 **Параметры команды** 
 
-Владельцы команд могут управлять настройками всей команды непосредственно в Teams. Настройки включают в себя возможность добавлять изображение команды, устанавливать разрешения для участников команды с целью создания стандартных, частных и общих каналов, добавления вкладок и соединителей, @упоминания всей команды или канала, а также использования GIF-файлов, наклеек и мемов.
+Team owners can manage team-wide settings directly in Teams. Settings include the ability to add a team picture, set permissions across team members for creating standard, private, and shared channels, adding tabs and connectors, @mentioning the entire team or channel, and the usage of GIFs, stickers, and memes.
 
 Администраторы Teams в Microsoft 365 имеют доступ к глобальным параметрам системы в Центре администрирования Teams. Они могут затрагивать настройки и значения по умолчанию, которые владельцы видят у себя в параметрах команды. Например, вы можете включить по умолчанию "Общий" канал для объявлений, обсуждений и ресурсов, которые будут видны всем командам.
 
