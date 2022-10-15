@@ -22,12 +22,12 @@ ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2321b4c16938b045cfe281d4cf25d7882d449d9b
-ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
+ms.openlocfilehash: 5961e05ac1ec927fbaca31dc24279eca27ce0f9d
+ms.sourcegitcommit: 50ae550b738424b35df1636590831e6c124ca0c1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "68551863"
+ms.lasthandoff: 10/14/2022
+ms.locfileid: "68576415"
 ---
 # <a name="meetings-webinars-and-live-events"></a>Собрания, вебинары и трансляции
 
@@ -142,7 +142,7 @@ Microsoft enables you to enhance meeting experiences by integrating and using me
 
 | Статья | Описание |
 |----------|--------|
-| [Приложения, боты и соединители](deploy-apps-microsoft-teams-landing-page.md) | Введение в приложения и сведения о развертывании приложений для организации. |
+| [Общие сведения о приложениях Teams](deploy-apps-microsoft-teams-landing-page.md) | Введение в приложения и сведения о развертывании приложений для организации. |
 | [Приложения для собраний Teams](/microsoftteams/platform/apps-in-teams-meetings/teams-apps-in-meetings) | Обзор расширяемости приложений для собраний, справочных материалов по API и действий по включению и настройке приложений для собраний. |
 | [Управление Доской в Teams](manage-whiteboard.md) | Описание функций Доски и действий по ее включению и отключению для организации. |
 
