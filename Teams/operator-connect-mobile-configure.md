@@ -18,16 +18,16 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e3e0e5c349610e9f8ad73b9b7a50b4c219304ea4
-ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
+ms.openlocfilehash: e0ffdc63200289f6f77dccb5214e8b2e3c3b344f
+ms.sourcegitcommit: 50ae550b738424b35df1636590831e6c124ca0c1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "68551683"
+ms.lasthandoff: 10/14/2022
+ms.locfileid: "68576604"
 ---
 # <a name="configure-teams-phone-mobile"></a>Настройка Teams Phone Mobile
 
-Список операторов, участвующих в программе Телефонная система Microsoft Teams Mobile, а также странах или регионах, в которых доступна их служба, см. в [разделе Microsoft 365 Teams Phone Mobile](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/connect-mobile).
+Список операторов, участвующих в программе Телефонная система Microsoft Teams Mobile, а также странах или регионах, в которых доступна их служба, см. в [разделе Microsoft 365 Teams Phone Mobile](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/teams-phone-mobile).
 
 В этой статье описывается настройка Teams Phone Mobile. Перед настройкой Teams Phone Mobile обязательно ознакомьтесь с plan [for Teams Phone Mobile](operator-connect-mobile-plan.md) , чтобы получить сведения о преимуществах, предварительных требованиях и лицензировании.
 

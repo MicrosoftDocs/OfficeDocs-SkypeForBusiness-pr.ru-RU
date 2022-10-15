@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 313c570cfcded3b5a896a773577863f7a8817fa8
-ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
+ms.openlocfilehash: 06fc3d0bdf0e4741918e380d13acd1b7391bd6ef
+ms.sourcegitcommit: 50ae550b738424b35df1636590831e6c124ca0c1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66562408"
+ms.lasthandoff: 10/14/2022
+ms.locfileid: "68576405"
 ---
 # <a name="manage-large-teams-in-microsoft-teams---best-practices"></a>Управление большими командами в Microsoft Teams — рекомендации
 
@@ -76,7 +76,7 @@ Microsoft Teams одинаково эффективно поддерживает
 
 ![Изображение экрана, на котором показан раздел "Разрешения для участников" на панели "Параметры".](media/disable-bots-connectors.png "Изображение экрана, на котором показан раздел разрешений &quot;Участник&quot; на панели &quot;Параметры&quot;. Параметры, позволяющие участникам добавлять приложения или соединители, не флажок снят.")
 
-[Ознакомьтесь с приложениями, ботами и & соединителями](deploy-apps-microsoft-teams-landing-page.md).
+[Ознакомьтесь с общими сведениями о приложениях Teams](deploy-apps-microsoft-teams-landing-page.md).
 
 ## <a name="regulate-team-and-channel-mentions"></a>Регулирование упоминаний в командах и каналах
 
@@ -88,7 +88,7 @@ Microsoft Teams одинаково эффективно поддерживает
 
 Владельцы команд могут включить модерацию для канала, чтобы контролировать, кто может создавать новые сообщения и отвечать на сообщения в этом канале. Когда вы настраиваете модерацию, вы можете выбрать одного или нескольких членов команды в качестве модераторов. Владельцы команд по умолчанию являются модераторами. Дополнительные сведения см. в разделе ["Настройка модерации каналов и управление ими"](manage-channel-moderation-in-teams.md).
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
 - [Рекомендации по организации Teams](best-practices-organizing.md)
 - [Создание команды для всей организации](create-an-org-wide-team.md)

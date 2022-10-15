@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System - seo-marvel-apr2020
 description: Узнайте, как настроить очереди звонков в Microsoft Teams. Очереди вызовов предоставляют приветствие, музыку, перенаправление звонков и другие функции.
-ms.openlocfilehash: 7ddf3364420244e800827915c9232430ffc336c1
-ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
+ms.openlocfilehash: 0b1c5950ce419e3ae828afa13fa32b61117734bf
+ms.sourcegitcommit: 50ae550b738424b35df1636590831e6c124ca0c1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2022
-ms.locfileid: "68046859"
+ms.lasthandoff: 10/14/2022
+ms.locfileid: "68576465"
 ---
 # <a name="create-a-call-queue"></a>Создание очереди вызовов
 
@@ -365,7 +365,7 @@ Teams предоставляет абонентам музыку по умолч
 |`Serial`                         |Да                         |Да         |Да               |Да    |Да         |Y<sup>4</sup>         |Y<sup>4</sup>             |   |
 |**Параметры маршрутизации агента**        |                          |          |                |     |          |                      |                          |   |
 |`Presence Based Routing`<sup>3</sup>|Да                      |Да         |Да               |Нет    |Да         |Да                     |Да                         |*По умолчанию*. |
-|`Agents can Opt-out`               |Да                       |Да         |Да               |Y<sup>7</sup>|Y<sup>7</sup>|Да          |Да                         |*По умолчанию*.     |
+|`Agents can Opt-out`<sup>10</sup> |Да                       |Да         |Да               |Y<sup>7</sup>|Y<sup>7</sup>|Да          |Да                         |*По умолчанию*.     |
 |**Режимы передачи**               |                          |          |                |     |          |                      |                          |   |
 |`Conference Mode`<sup>5</sup>    |Да                         |Да         |Да               |Нет    |Y<sup>6</sup>|Да                  |Да                         |*По умолчанию*. |
 |`Transfer Mode`                  |Да                         |Да         |Да               |Да    |Да         |Да                     |Да                         |   |
@@ -390,10 +390,11 @@ Teams предоставляет абонентам музыку по умолч
 5. Режим конференции не поддерживается, если телефонные звонки направляются в очередь из шлюза прямой маршрутизации, который включен для маршрутизации на основе расположения.
 6. Телефонная система Microsoft Teams только.
 7. На странице портала параметров пользователя по адресу [https://aka.ms/vmsettings](https://aka.ms/vmsettings).
-- GCCH: [https://dialin.cpc.gov.teams.microsoft.us/usp](https://dialin.cpc.gov.teams.microsoft.us/usp)
-- DOD: [https://dialin.cpc.dod.teams.microsoft.us/usp](https://dialin.cpc.dod.teams.microsoft.us/usp)
 8. Поддерживаются только общедоступные каналы.
 9. Автосекретари и очереди вызовов не могут передавать вызовы между методами подключения ТСОП.
+10. Для GCCH или DOD доступно только на портале параметров пользователя по адресу:
+- GCCH: [https://dialin.cpc.gov.teams.microsoft.us/usp](https://dialin.cpc.gov.teams.microsoft.us/usp)
+- DOD: [https://dialin.cpc.dod.teams.microsoft.us/usp](https://dialin.cpc.dod.teams.microsoft.us/usp)
 
 ### <a name="supported-clients"></a>Поддерживаемые клиенты
 
