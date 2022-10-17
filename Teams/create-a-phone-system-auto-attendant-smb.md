@@ -12,6 +12,7 @@ search.appverid: MET150
 ms.collection:
 - M365-voice
 - m365initiative-voice
+- highpri
 audience: Admin
 appliesto:
 - Skype for Business
@@ -20,12 +21,12 @@ ms.localizationpriority: medium
 ms.custom:
 - Phone System
 description: Узнайте, как настроить автосекретарей и управлять ими в Microsoft Teams.
-ms.openlocfilehash: 18ff00dc72a69ea5aed85a3531a100e28f2891d1
-ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
+ms.openlocfilehash: de39728b255956a7fd2dbf476497a4173e34a216
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2022
-ms.locfileid: "68046689"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68584461"
 ---
 # <a name="set-up-an-auto-attendant"></a>Настройка автосекретаря
 
@@ -231,7 +232,7 @@ ms.locfileid: "68046689"
 
 - Для учетной записи ресурса [](calling-plans-for-office-365.md) с лицензией на план звонков или номером оператора [Connect](operator-connect-plan.md) внешний номер телефона для передачи должен быть указан в формате E.164 (+[код страны][код области][номер телефона]).
 
-- Для учетной записи ресурса с лицензией Телефонная система Microsoft Teams и политикой маршрутизации голосовой связи в сети прямой маршрутизации внешний формат номера телефона для передачи зависит от параметров пограничного контроллера сеансов [(SBC](direct-routing-connect-the-sbc.md)).
+- Для учетной записи ресурса с лицензией Microsoft Teams 电话 и политикой маршрутизации голосовой связи по сети прямой маршрутизации внешний формат номера телефона для передачи зависит от параметров пограничного контроллера сеансов [(SBC](direct-routing-connect-the-sbc.md)).
 
 Отображаемый исходящий номер телефона определяется следующим образом.
 
