@@ -16,13 +16,14 @@ ms.custom: ''
 ms.collection:
 - M365-collaboration
 - m365initiative-meetings
+- highpri
 description: Узнайте, как управлять настройками политики сетевого роуминга Teams.
-ms.openlocfilehash: c26cdec0fc41e40a9c3eac7d0324050740cf05ef
-ms.sourcegitcommit: 68162a8c9dee9a27af596353baabeda9b8fa64f3
-ms.translationtype: HT
+ms.openlocfilehash: f8b1d78754c5f608aa76d9261b2164abc4de9194
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "64853240"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68585070"
 ---
 # <a name="manage-video-and-media-settings-with-the-network-roaming-policy"></a>Управление настройками видео и мультимедиа с помощью политики сетевого роуминга
 
@@ -60,7 +61,7 @@ TeamsNetworkRoamingPolicy содержит указанные ниже пара�
  Set-CsTenantNetworkSite -Identity Burlington -NetworkRoamingPolicy $null
  ```
 
-Чтобы включить политику сетевого роуминга для пользователей, у которых не включена корпоративная голосовая связь, необходимо также включить параметр AllowNetworkConfigurationSettingsLookup в TeamsMeetingPolicy. Этот параметр отключен по умолчанию.
+To enable the network roaming policy for users who are not enterprise voice enabled, you must also enable the AllowNetworkConfigurationSettingsLookup setting in TeamsMeetingPolicy. This setting is off by default.
 
 Дополнительные сведения о создании сетевых сайтов см. в статье [Параметры сети для облачных функций голосовой связи](cloud-voice-network-settings.md). 
 
