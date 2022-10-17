@@ -12,6 +12,7 @@ search.appverid: MET150
 ms.collection:
 - M365-voice
 - m365initiative-voice
+- highpri
 audience: Admin
 appliesto:
 - Skype for Business
@@ -22,22 +23,22 @@ f1.keywords:
 ms.custom:
 - Licensing
 description: 'Learn what Communication Credits (PSTN Consumption) billing, how to find rates, and what services you get. '
-ms.openlocfilehash: ad3e3bcbe46850ae6540539159662f0afb6d6ddf
-ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
+ms.openlocfilehash: 75a1f3702140543f08d963a2572841bdca79c9b1
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67156737"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68584210"
 ---
 # <a name="what-are-communications-credits"></a>Что такое кредиты на связь?
 
-[] С помощью кредитов на связь удобно оплачивать минуты аудиоконференций и плана звонков. При своевременной оплате вашим пользователям всегда будут доступны следующие возможности.
+Communications Credits are a convenient way to pay for Audio Conferencing and Calling Plan minutes. It helps ensure you and your users are never caught without being able to:
   
-- Добавление бесплатных номеров для аудиоконференций, автосекретарей и очередей звонков. Бесплатные звонки оплачиваются на поминутной основе и требуют положительного остатка на счете кредитов на связь.
+- Add toll-free numbers to use with Audio Conferencing meetings, auto attendants, or call queues. Toll-free calls are billed per minute and require a positive Communications Credits balance.
 
 - Исходящие вызовы из аудиоконференции, позволяющие добавить к конференции других пользователей из любой точки мира.
 
-- Подключение с собрания аудиоконференции на мобильный телефон с помощью приложения Microsoft Teams или Skype для бизнеса, установленного в места назначения, которые еще не включены в вашу подписку.
+- Подключение с собрания аудиоконференции на мобильный телефон с помощью приложения Microsoft Teams или Skype for Business в места назначения, которые еще не включены в вашу подписку.
 
 - Звонки на любые международные телефонные номера при наличии подписки на **план внутренних звонков**.
 
@@ -51,7 +52,7 @@ ms.locfileid: "67156737"
 > Исходящие вызовы к некоторым местам назначения могут быть включены в вашу подписку на аудиоконференции. Дополнительные сведения см. в сведениях о подписке.
   
 > [!NOTE]
-> Если регион, в котором находится клиент, не совпадает с адресом выставления счетов, указанным в вашем корпоративном соглашении (EA), возможно, вы не сможете приобрести кредиты на связь. Если вам не удается приобрести кредиты на связь, откройте обращение в службу поддержки на портале. Наши специалисты будут работать с вами, чтобы устранить эту проблему, пока не будет найдено постоянное решение.
+> If your organization is located in a different region than the billing address of your Enterprise Agreement (EA), you might not be able to purchase Communications Credits. If you are unable to acquire Communications Credits, open a support incident from the portal and we will work with you to mitigate this issue until a permanent solution is in place.
   
 ## <a name="what-are-the-communications-credits-rates"></a>Тарифы по кредитам на связь
 
@@ -66,7 +67,7 @@ ms.locfileid: "67156737"
   
 Рекомендуется тщательно оценить использование службы ТСОП в организации, чтобы понять оптимальную настройку кредитов на связь. Дополнительные сведения о службах ТСОП можно узнать, прочитав часто задаваемые вопросы о телефонной системе, планах [звонков и аудиоконференции](Audio-Conferencing-common-questions.md).[](calling-plan-landing-page.md)
   
-В услуге выставления счетов можно задать **Единовременный платеж** для формирования баланса **ИЛИ** включить функцию **Автопополнение** ( **рекомендуется** ), которая будет пополнять баланс на заданную сумму при достижении установленного минимального баланса. Вначале рекомендуется выбрать вариант с автопополнением, который позволит отслеживать фактическое использование и определить подходящие пороги автопополнения, соответствующие вашим потребностям и моделям использования. Следует провести мониторинг использования кредитов на связь за достаточный отрезок времени, а затем скорректировать минимальный баланс и сумму пополнения в соответствии с потребностями организации.
+You can set up consumption billing using a **one-time funding** of the pre-paid balance **OR** by setting up an **auto-recharge** ( **recommended** ) amount with a minimum balance that will trigger a purchase for that recharge amount. Initially, it's suggested that you set up auto recharge amounts that allow you to monitor actual usage and find the right auto recharge thresholds that meet your needs and usage patterns. Communications Credits should be monitored over time and then adjust the minimum balance and recharge amounts as needed to be tailored for each organization's needs.
   
 > [!NOTE]
 > Вы можете просмотреть планы и цены >  > , [](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) войдя в Центр администрирования Microsoft 365 и перейдя к подпискам на выставление счетов с добавлением **подписок**.
@@ -85,7 +86,7 @@ ms.locfileid: "67156737"
 Важные уведомления, связанные с балансом кредитов на связь в вашей организации, будут отправляться следующим администраторам:
 
 - Администратор выставления счетов
-- Skype для бизнеса администратора
+- Skype for Business администратора
 - Администратор компании
 - Администратор учетной записи пользователя
 - Администратор службы технической поддержки
