@@ -10,6 +10,7 @@ audience: admin
 ms.collection:
 - M365-voice
 - m365initiative-voice
+- highpri
 ms.reviewer: crowe
 search.appverid: MET150
 f1.keywords:
@@ -21,12 +22,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 862b7f05efe4818a7778e979ecd725225806aacc
-ms.sourcegitcommit: ffc7532a4bb1f1f6b3031025b493a5ad20ba4366
+ms.openlocfilehash: e5a153fee6504f5098659d85a16281ed23e8729d
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2022
-ms.locfileid: "68570391"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68583990"
 ---
 # <a name="plan-for-operator-connect"></a>Планирование подключения оператора
 
@@ -61,7 +62,7 @@ Operator Connect может быть правильным решением дл�
 Чтобы включить назначения номеров телефонов с помощью Operator Connect, убедитесь, что пользователи:
 
 - Teams Phone с лицензией. Дополнительные сведения см. в статьях "Что такое [телефонная система"](what-is-phone-system-in-office-365.md) и "Назначение пользователям лицензий на надстройки [Teams"](teams-add-on-licensing/assign-teams-add-on-licenses.md).
-- В режиме TeamsOnly. Обратите внимание, что пользователь должен находиться в режиме TeamsOnly, а вся организация — нет. Дополнительные сведения см. в статье ["Общие сведения о Microsoft Teams и Skype для бизнеса сосуществование и взаимодействие"](teams-and-skypeforbusiness-coexistence-and-interoperability.md).
+- В режиме TeamsOnly. Обратите внимание, что пользователь должен находиться в режиме TeamsOnly, а вся организация — нет. Дополнительные сведения см. в статье "Общие [сведения о Microsoft Teams и Skype for Business сосуществование и взаимодействие"](teams-and-skypeforbusiness-coexistence-and-interoperability.md).
 
 Список операторов, участвующих в программе Microsoft Operator Connect Program, а также стран или регионов, в которых доступна их служба, см. в каталоге [Microsoft 365 Operator Connect](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory).
 

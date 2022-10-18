@@ -13,18 +13,19 @@ f1.keywords:
 ms.collection:
 - M365-voice
 - m365initiative-voice
+- highpri
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Узнайте, как использовать мастер переноса для передачи номера телефона от текущего поставщика услуг в Microsoft Teams.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 98580a16f7d5165bef6bdd177de37a1e80bfb32f
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.openlocfilehash: 4dd814f81bb7c48c331ebaa1178f8f3069f7b156
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66790104"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68584170"
 ---
 # <a name="transfer-phone-numbers-to-microsoft-teams"></a>Передача номеров телефонов в Microsoft Teams
 
@@ -88,13 +89,13 @@ ms.locfileid: "66790104"
 
 ## <a name="what-happens-next"></a>Что дальше?
 
-Когда мы получаем ваш заказ на перенос, вы получите сообщение электронной почты, которое проверяет ваш запрос. Ваш запрос проверяется и обновляется ежедневно, и вы будете получать уведомления о ходе его выполнения и состоянии по электронной почте. Если проиграв оператор отклоняет ваш запрос на перенос, обратитесь в [службу TNS Service Desk](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md).
+Когда мы получаем ваш заказ на перенос, вы получите сообщение электронной почты, которое проверяет ваш запрос. Ваш запрос проверяется и обновляется ежедневно, и вы будете получать уведомления о ходе его выполнения и состоянии по электронной почте. Если проигравшей оператор отклоняет ваш запрос на перенос, обратитесь в [службу технической поддержки TNS](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md).
 
 Чтобы просмотреть состояние заказа на перенос, в левой области навигации Центра администрирования Microsoft Teams перейдите в раздел > **голосовых** >  портов **и** щелкните "**Журнал заказов"**. Каждое состояние заказа порта отображается в **столбце "Состояние** ". Дополнительные сведения см. в разделе о [состоянии заказов на порты?](port-order-status.md)
 
 
 ## <a name="reporting-telephone-number-issues"></a>Сообщаете о проблемах с номерами телефонов?
-Если вы заметили какие-либо проблемы с переносимными номерами в течение первых 24–48 часов после завершения работы порта, обратитесь в [службу TNS Service Desk](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md). Для устранения любой проблемы, которая превышает 48 часов, обратитесь в служба поддержки Майкрософт группы.
+Если вы заметили какие-либо проблемы с номерами, переносимые в течение первых 24–48 часов после завершения порта, обратитесь в [службу технической поддержки TNS](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md). Для устранения любой проблемы, которая превышает 48 часов, обратитесь в служба поддержки Майкрософт группы.
 
 ## <a name="related-topics"></a>См. также
 

@@ -12,6 +12,7 @@ search.appverid: MET150
 ms.collection:
 - M365-voice
 - m365initiative-voice
+- highpri
 audience: Admin
 appliesto:
 - Skype for Business
@@ -27,16 +28,16 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization.
-ms.openlocfilehash: eb10b681b867461122fe6b5e89f6f0a519d60ae7
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: 1cc4e1427b227c49fabb89a46e0ffe2af280271a
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396850"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68584910"
 ---
 # <a name="calling-plans-for-microsoft-teams"></a>Планы звонков для Microsoft Teams
 
-Звонки другим Skype для бизнеса и пользователям Microsoft Teams бесплатны, но если вы хотите, чтобы пользователи могли совершать обычные телефоны и у вас еще нет поставщика услуг для голосовых звонков, необходимо приобрести план звонков. Дополнительные сведения см. в [разделе "Телефонная система и планы звонков"](calling-plan-landing-page.md).
+Звонки другим Skype for Business и пользователям Microsoft Teams бесплатны, но если вы хотите, чтобы пользователи могли совершать обычные телефоны и у вас еще нет поставщика услуг для голосовых звонков, необходимо приобрести план звонков. Дополнительные сведения см. в [разделе "Телефонная система и планы звонков"](calling-plan-landing-page.md).
   
 Ниже приведены параметры планов звонков.
   
@@ -79,7 +80,7 @@ ms.locfileid: "67396850"
   
 ## <a name="do-you-have-a-service-provider-that-provides-on-premises-pstn-connectivity-for-hybrid-users"></a>У вас есть поставщик услуг, предоставляющий локальное подключение по ТСОП для гибридных пользователей?
 
-В этом случае вам не нужно приобретать план звонков. Office 365 корпоративный E5 включает **надстройку телефонной** системы, поэтому вы можете перейти к извлечению.
+В этом случае вам не нужно приобретать план звонков. Office 365 Enterprise E5 включает надстройку **телефонной** системы, поэтому вы можете перейти к извлечению.
   
 Затем назначьте лицензии на надстройки "Корпоративный E5" или "Телефонная система" пользователям в Центр администрирования Microsoft 365. Дополнительные сведения см. в [статье "Назначение лицензий на надстройки Microsoft Teams"](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   

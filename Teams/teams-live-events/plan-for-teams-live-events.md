@@ -15,17 +15,18 @@ ms.collection:
 - m365initiative-meetings
 - m365initiative-meetings-enabler
 - enabler-strategic
+- highpri
 search.appverid: MET150
 description: В этой статье вы ознакомитесь с факторами, которые следует учитывать перед настройкой трансляций в Microsoft Teams.
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6c5b0865c5b3c466fe37b41422453ee0cc6f0c9b
-ms.sourcegitcommit: d6e180791134426445a35fd485dcca18bde2006b
+ms.openlocfilehash: 086a8bda521827ac048b8ea9928bd3a0c5e3b81f
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/07/2022
-ms.locfileid: "68494642"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68584390"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Планирование трансляций в Microsoft Teams
 

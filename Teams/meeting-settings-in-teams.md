@@ -21,13 +21,14 @@ ms.custom:
 ms.collection:
 - M365-collaboration
 - m365initiative-meetings
+- highpri
 description: Узнайте, как управлять настройками собраний команд, которые пользователи планируют в своей организации.
-ms.openlocfilehash: c25405dd305a8556309559d4941dd731331e6d75
-ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
+ms.openlocfilehash: 3faff1779830539470ae3d04cc73e58da65a637c
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67706506"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68583880"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Управление настройками собраний в Microsoft Teams
 
@@ -103,7 +104,7 @@ ms.locfileid: "67706506"
 
 ## <a name="customize-meeting-invitations"></a>Настройка приглашений на собрания
 
-Вы можете настроить приглашения на собрания Teams в соответствии с потребностями вашей организации. Вы можете добавить логотип своей организации и включить полезную информацию, например ссылки на ваш сайт поддержки и юридический отказ от ответственности, а также текстовый нижний колонтитул.
+You can customize Teams meeting invitations to meet your organization's needs. You can add your organization's logo and include helpful information, such as links to your support website and legal disclaimer, and a text-only footer.
 
 ### <a name="tips-for-creating-a-logo-for-meeting-invitations"></a>Советы по созданию логотипа для приглашения на встречу  
 
@@ -111,7 +112,7 @@ ms.locfileid: "67706506"
 2. Сохраните изображение в формате JPG или PNG.
 3. Храните изображение в месте, доступном для всех, кто получает приглашение, например на общедоступном веб-сайте.
 
-    Теперь вы можете добавить его в свои приглашения на собрания. См. следующие шаги.
+    Now you can add it to your meeting invitations. See the next steps.
 
 ### <a name="customize-your-meeting-invitations"></a>Настройте приглашения на встречи
 
@@ -162,9 +163,9 @@ ms.locfileid: "67706506"
         
         > [!NOTE]
         > Как правило, маркировка DSCP осуществляется через исходные порты, а UDP-трафик по умолчанию перенаправляется на транспортный ретранслятор с портом назначения 3478. Если вашей организации требуется применение маркировки в портах назначения, обратитесь в службу поддержки, чтобы включить связь с транспортным ретранслятором с UDP-портами 3479 (звук), 3480 (видео) и 3481 (общий доступ).
-    - Чтобы указать диапазоны портов, в разделе **Выберите диапазон портов для каждого типа медиатрафика реального времени** выберите **Указать диапазоны портов**, а затем введите начальный и конечный порты для звука, видео и демонстрации экрана. Выбор этого параметра необходим для реализации QoS. 
+    - To specify port ranges, next to **Select a port range for each type of real-time media traffic**, select  **Specify port ranges**, and then enter the starting and ending ports for audio, video, and screen sharing. Selecting this option is required to implement QoS. 
         > [!Note]
-        > Если **маркеры качества обслуживания (QoS) для медиатрафика реального времени** включены, потребуется настройка параметров портов. Их настройка не выполняется автоматически.
+        > If **Quality of Service (QoS) markers for real-time media traffic** is on, then you have to manage your port settings. They aren't managed automatically.
         
         > [!IMPORTANT]
         > Если вы выберете **Автоматически использовать любые доступные порты**, будут использоваться доступные порты между 1024 и 65535. Используйте эту опцию, только если не реализуете QoS.
@@ -184,4 +185,4 @@ ms.locfileid: "67706506"
 
 \* Диапазоны портов, которые вы назначаете, не могут перекрываться и должны быть смежными.
 
-После некоторого использования QoS вы можете по запросу получить информацию о применении каждой из этих трех рабочих нагрузок, а также можете выбрать, какие изменения внести в зависимости от ваших конкретных потребностей. В этом вам поможет [Панель мониторинга качества звонка](turning-on-and-using-call-quality-dashboard.md).
+After QoS has been in use for a while, you'll have usage information on the demand for each of these three workloads, and you can choose what changes to make based on your specific needs. [Call Quality Dashboard](turning-on-and-using-call-quality-dashboard.md) will be helpful with that.
