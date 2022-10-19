@@ -13,6 +13,7 @@ ms.collection:
 - M365-voice
 - M365-collaboration
 - m365initiative-meetings
+- highpri
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -23,12 +24,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: 'Сведения о том, как настроить конференц-связь или аудиоконференцию для тех участников вашего бизнеса, которым нужно присоединиться к конференции, используя телефон. '
-ms.openlocfilehash: 04c29b6eaf13d12bee1395d913519c971c7a25d1
-ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
+ms.openlocfilehash: 5f9912b005061461aa2309fb0faa54b4455214ea
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2022
-ms.locfileid: "67642130"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68584160"
 ---
 # <a name="set-up-audio-conferencing-for-microsoft-teams"></a>Настройка аудиоконференций для Microsoft Teams
 

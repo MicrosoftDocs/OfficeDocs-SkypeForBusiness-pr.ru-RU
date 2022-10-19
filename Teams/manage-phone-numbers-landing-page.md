@@ -12,6 +12,7 @@ search.appverid: MET150
 ms.collection:
 - M365-voice
 - m365initiative-voice
+- highpri
 audience: Admin
 appliesto:
 - Skype for Business
@@ -27,12 +28,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: Узнайте, как получать номера телефонов пользователей (подписчиков) и служб (платных и бесплатных) для Microsoft Teams для вашей организации и управлять ими.
-ms.openlocfilehash: 053d886a97591a6685582f0db0ca194eaa312896
-ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
+ms.openlocfilehash: 52069029e7dca69f5df9520ad1491464bf6b9aa9
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "68551893"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68584234"
 ---
 # <a name="manage-telephone-numbers-for-your-organization"></a>Управление телефонными номерами для организации
 
@@ -121,7 +122,7 @@ ms.locfileid: "68551893"
 
 ### <a name="change-where-direct-routing-phone-numbers-are-managed"></a>Изменение места управления номерами телефонов прямой маршрутизации
 
-Чтобы изменить место управления номером телефона прямой маршрутизации, необходимо удалить номер телефона из атрибута msRTCSIP-Line пользователя или учетной записи повторного локальная служба Active Directory.   
+Чтобы изменить место управления номером телефона прямой маршрутизации, необходимо удалить номер телефона из атрибута msRTCSIP-Line в учетной записи пользователя или ресурса в локальная служба Active Directory.   
 
 Дополнительные сведения см. в Skype для бизнеса Атрибуты Clear Skype для бизнеса для всех локальных [пользователей в Active Directory](/skypeforbusiness/hybrid/cloud-consolidation-managing-attributes#method-2---clear-skype-for-business-attributes-for-all-on-premises-users-in-active-directory.md). Обратите внимание, что номер телефона необходимо переназначить пользователю или учетной записи ресурса в Microsoft 365.
 

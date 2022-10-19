@@ -16,16 +16,17 @@ ms.collection:
 - m365initiative-meetings
 - m365initiative-meetings-enabler
 - enabler-strategic
+- highpri
 description: Настройка трансляций в Teams, включая настройку сети, назначение лицензий, включение функций трансляций и планирование, а также решения для распространения видео.
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 6f47e142dc7d445e76c6047bfdd4e7300501f6fa
-ms.sourcegitcommit: fcedb958bf555d870215ae84fb83752304944716
+ms.openlocfilehash: 65c9766350327ff64874c2ee242a7fdbace9f13a
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/06/2022
-ms.locfileid: "68486609"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68584440"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Подготовка к трансляциям в Microsoft Teams
 

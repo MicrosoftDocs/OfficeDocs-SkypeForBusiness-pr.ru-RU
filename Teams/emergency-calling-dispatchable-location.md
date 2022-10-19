@@ -11,6 +11,7 @@ search.appverid: MET150
 ms.collection:
 - M365-voice
 - m365initiative-voice
+- highpri
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -19,12 +20,12 @@ f1.keywords:
 - NOCSH
 description: Узнайте, как корпорация Майкрософт поддерживает сведения о расположении с возможностью диспетчеризации для поддержки экстренных вызовов.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 9efa5f6e9ad5b5f2434efb95265f58c9a603fdd5
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: d7fd3111991c4a2e5e0d16e5d46aba411b1553c3
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67272074"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68584576"
 ---
 # <a name="emergency-addresses-for-remote-locations"></a>Адреса для экстренного реагирования для удаленных расположений
 
@@ -87,7 +88,7 @@ ms.locfileid: "67272074"
 2. Нажмите **Добавить**.
 3. Введите имя политики экстренных вызовов, например E911WFH.
 4. **Включите режим поиска внешних расположений**.
-5. Нажмите **кнопку "Применить"**.
+5. Нажмите **Применить**.
 
 #### <a name="assign-a-custom-emergency-calling-policy-to-users"></a>Назначение пользовательской политики экстренных вызовов пользователям
 
@@ -127,7 +128,7 @@ Grant-CsTeamsEmergencyCallingPolicy -PolicyName E911WFH -Identity user@contoso.c
 - Параметры конфиденциальности могут конфликтовать с автоматическим обнаружением расположения. Управление устройствами мобильные системы.
 
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
 - [Управление экстренными звонками](what-are-emergency-locations-addresses-and-call-routing.md)
 
