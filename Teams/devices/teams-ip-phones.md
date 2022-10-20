@@ -22,12 +22,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Узнайте, какие стационарные и конференции сертифицированы для Microsoft Teams для достижения наилучших результатов.
-ms.openlocfilehash: 6e90268b777c1db3806d8e77bc29e131a705c1f2
-ms.sourcegitcommit: 2dab123ad74fcad4db5390e9b745f72497a05882
+ms.openlocfilehash: 2625840f27edec527a55f48fbd70e8bbfed2dd24
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2022
-ms.locfileid: "68560269"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68614442"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Сертифицированные устройства Android в Microsoft Teams
 
@@ -107,6 +107,7 @@ ms.locfileid: "68560269"
 
 | Модель устройства | Версия встроенного ПО | Текущая дата окончания сертификации  | Версия ОС Android |
 |:------------------------|:-----------------|:--------------|----------------------------------|
+| Обтекаемая рамка nf21f1 | `NFF1.20220914.1210` | 3 сентября 2024 г. | 10 |
 | Сафрон UC-P8-TD |`1.0.0.42`| 5 августа 2023 г. |  9  |
 | Crestron UC-P10-TD |`1.0.0.42`| 5 августа 2023 г. |  9  |
 |Представление Lenovo ThinkSmart|`CD-18781Y.201006.099`| 5 декабря 2022 г. |  8.1  |

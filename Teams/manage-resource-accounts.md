@@ -1,7 +1,7 @@
 ---
 title: Управление учетными записями ресурсов в Teams
-author: CarolynRowe
-ms.author: crowe
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.reviewer: jastark, wasseemh
 ms.topic: article
@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 - seo-marvel-apr2020
 description: В этой статье вы узнаете, как создавать, изменять учетные записи ресурсов и управлять ими в Microsoft Teams.
-ms.openlocfilehash: ac3eb35894fa765dc44f46fcb489399b06adfa74
-ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
+ms.openlocfilehash: cc4705f91260c0ef58b876ef4a606d96ce397929
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2022
-ms.locfileid: "68584030"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68614392"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Управление учетными записями ресурсов в Microsoft Teams
 
@@ -46,10 +46,10 @@ ms.locfileid: "68584030"
 
 ## <a name="change-an-existing-resource-account-to-use-a-teams-phone-resource-account-license"></a>Изменение существующей учетной записи ресурса для использования лицензии на учетную запись ресурса телефона Teams
 
-Если вы решили переключить лицензии на существующую учетную запись ресурса с лицензии **Телефонная система стандартная Teams** на лицензию учетной записи ресурса **Microsoft Teams 电话**, вам потребуется получить бесплатную лицензию **учетной** записи телефонного ресурса Teams, а затем выполнить действия, описанные в разделе Центр администрирования Microsoft 365 [переместить пользователей в другую подписку](/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription).
+Если вы решили переключить лицензии на существующую учетную запись ресурса с лицензии **Телефонная система стандартная Teams** на лицензию учетной записи ресурса **Телефонная система Microsoft Teams**, вам потребуется получить бесплатную лицензию на учетную запись ресурса **телефона Teams**, а затем выполнить действия, описанные в разделе Центр администрирования Microsoft 365 [переместить пользователей в другую подписку](/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription).
 
 > [!WARNING]
-> Всегда удаляйте полную лицензию Телефонная система стандартная Teams и назначайте лицензию Microsoft Teams 电话 **resource Account** в одной лицензии. Если удалить старую лицензию, сохранить изменения учетной записи, добавить новую лицензию, а затем снова сохранить параметры учетной записи, учетная запись ресурса может работать не так, как ожидалось. В этом случае рекомендуется создать учетную запись ресурса для лицензии Microsoft Teams 电话 ресурса  и удалить неработающую учетную запись ресурса.
+> Всегда удаляйте полную лицензию Телефонная система стандартная Teams и назначайте лицензию Телефонная система Microsoft Teams **resource Account** в одной лицензии. Если удалить старую лицензию, сохранить изменения учетной записи, добавить новую лицензию, а затем снова сохранить параметры учетной записи, учетная запись ресурса может работать не так, как ожидалось. В этом случае рекомендуется создать учетную запись ресурса для лицензии Телефонная система Microsoft Teams ресурса  и удалить неработающую учетную запись ресурса.
 
 ## <a name="skype-for-business-server-2019"></a>Skype для бизнеса Server 2019
 

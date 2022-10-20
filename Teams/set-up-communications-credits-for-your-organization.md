@@ -12,6 +12,7 @@ search.appverid: MET150
 ms.collection:
 - M365-voice
 - m365initiative-voice
+- highpri
 audience: Admin
 appliesto:
 - Skype for Business
@@ -23,12 +24,12 @@ ms.custom:
 - Licensing
 - seo-marvel-apr2020
 description: Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization.
-ms.openlocfilehash: 8093b10d4918793c669f42b839999239d381a24a
-ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
+ms.openlocfilehash: 4ad3b6702d31f59c237bf7867aadd0e8d1c05abf
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67156577"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68613841"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>Настройка кредитов на связь для организации
 
@@ -86,14 +87,14 @@ ms.locfileid: "67156577"
 
    - **Сумма пополнения**. В поле **Enter the amount in the (Пополнять счет с)** введите сумму, на которую требуется пополнить счет, когда остаток на нем достигает указанной ниже пороговой суммы.
 
-   - **Пороговая сумма**. В поле **When the balance falls below (Когда баланс меньше)** введите сумму, которая будет использоваться для " *активации*  " функции автоматического пополнения счета. Когда остаток на счете опускается ниже этого значения, на ваш счет автоматически добавляется сумма, указанная в поле "Сумма пополнения".
+   - **Trigger amount** Enter the amount in **When the balance falls below** box that will be used to ' *trigger*  ' the auto-recharge. Once your balance falls below this amount, the recharge amount will be added automatically to your account.
 
       > [!NOTE]
-     > Средства будут расходоваться только на оплату кредитов на связь по опубликованным корпорацией Майкрософт тарифам при использовании служб. Средства, не израсходованные за 12 месяцев с даты приобретения, списываются и не могут использоваться для оплаты.
+     > Funds will be applied only to Communications Credits at Microsoft published rates when the services are used. Any funds not used within 12 months of the purchase date will expire and be forfeited.
      >
      > При использовании функции автоматического пополнение счета за кредиты на связь создаются, когда достигается сумма триггера и обрабатывается транзакция пополнение. Кредиты на связь используются в первую очередь. Чтобы узнать, как проверить ежемесячное использование, ознакомьтесь с отчетом [об использовании ТСОП в Microsoft Teams](/microsoftteams/teams-analytics-and-reports/pstn-usage-report).
 
-6. Выберите **"Разместить заказ"**.
+6. Нажмите **Разместить заказ**.‎
 
     >[!IMPORTANT]
     >Если вы клиент корпоративного лицензирования, вы можете использовать корпоративное соглашение для оплаты. Если у вас несколько корпоративных номеров соглашений, вы сможете выбрать соглашение enterprise, которое вы хотите использовать для оплаты. Вам также будет предоставлена возможность указать номер заказа на покупку для связи с номером корпоративного соглашения (если применимо), когда служба поддержки включит это.

@@ -10,6 +10,7 @@ search.appverid: MET150
 ms.collection:
 - M365-voice
 - m365initiative-voice
+- highpri
 audience: Admin
 appliesto:
 - Skype for Business
@@ -19,12 +20,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: Узнайте, как изменения лицензирования могут повлиять на управление номерами телефонов.
-ms.openlocfilehash: 58821f950baf68474a637a8d76acaab9a088f31e
-ms.sourcegitcommit: f5d784df59a8010b390691bbb20c4ea66c46280b
+ms.openlocfilehash: e023c1606157a5beeafedfa358e470555ba7f653
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/26/2022
-ms.locfileid: "67005486"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68614322"
 ---
 # <a name="how-licensing-affects-phone-number-management"></a>Влияние лицензирования на управление номерами телефонов
 

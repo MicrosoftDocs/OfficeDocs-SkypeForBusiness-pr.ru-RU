@@ -17,13 +17,13 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: high
 search.appverid: MET150
-description: Узнайте, как отправить пользовательские приложения в магазин приложений вашей организации в Центре администрирования Microsoft Teams.
-ms.openlocfilehash: 51ea4bdc31ff59a34bdf28a991617fff0f4e7381
-ms.sourcegitcommit: d6e180791134426445a35fd485dcca18bde2006b
+description: Узнайте, как отправлять пользовательские приложения в магазин приложений Teams вашей организации.
+ms.openlocfilehash: 0b48061ab005e64d6fb6385fabb48f3b49ff87f0
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/07/2022
-ms.locfileid: "68494612"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68614592"
 ---
 # <a name="publish-a-custom-app-by-uploading-an-app-package"></a>Публикация пользовательского приложения путем отправки пакета приложения
 
@@ -40,11 +40,11 @@ ms.locfileid: "68494612"
 
 ## <a name="validate"></a>Проверить
 
-### <a name="get-the-app-package"></a>Получить пакет приложения
+### <a name="receive-the-app-package"></a>Получение пакета приложения
 
-Когда приложение будет готово к использованию в рабочей среде, разработчик должен создать пакет приложения. Они могут использовать [App Studio](/microsoftteams/platform/concepts/build-and-test/app-studio-overview). Они отправят вам файл в формате .zip.
+Когда приложение будет готово к использованию в рабочей среде, разработчик создает пакет приложения с помощью [портала разработчика](/microsoftteams/platform/concepts/build-and-test/manage-your-apps-in-developer-portal). Разработчик предоставляет общий доступ к пакету приложения .zip с вами.
 
-Все приложения в Магазине Teams проходят обязательную [проверку приложений](overview-of-app-validation.md) на соответствие стандартам качества и безопасности глобального магазина приложений Teams. Кроме того, корпорация Майкрософт настоятельно рекомендует разработчикам приложений участвовать в дополнительной [программе соответствия приложений](overview-of-app-certification.md), предусматривающей расширенные средства контроля соответствия, безопасности и конфиденциальности. Подробнее см. в [рекомендациях по проверке приложений Teams](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/teams-store-validation-guidelines).
+Все приложения в Магазине Teams проходят обязательную проверку приложения в соответствии со стандартами качества и безопасности приложений Магазина приложений Teams.[](overview-of-app-validation.md) Кроме того, корпорация Майкрософт настоятельно рекомендует разработчикам приложений участвовать в дополнительной [программе соответствия приложений](overview-of-app-certification.md), предусматривающей расширенные средства контроля соответствия, безопасности и конфиденциальности. Подробнее см. в [рекомендациях по проверке приложений Teams](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/teams-store-validation-guidelines).
 
 ### <a name="allow-trusted-users-to-upload-custom-apps"></a>Разрешить доверенным пользователям отправлять пользовательские приложения
 
@@ -119,7 +119,7 @@ ms.locfileid: "68494612"
 
 ### <a name="end-user-update-experience"></a>Обновление для конечных пользователей
 
-В большинстве случаев после завершения обновления приложения новая версия автоматически отображается для конечных пользователей. Подробнее см. в статье[Обновлении для конечных пользователей](apps-update-experience.md).
+В большинстве случаев после публикации новой версии приложения она автоматически обновляется для конечных пользователей. Дополнительные сведения см. [в статье об обновлении приложений конечными пользователями](apps-update-experience.md).
 
 ## <a name="remove-a-custom-app-from-your-organizations-store"></a>Удаление пользовательского приложения из магазина организации
 
