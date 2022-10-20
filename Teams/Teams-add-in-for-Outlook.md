@@ -17,14 +17,15 @@ ms.custom:
 ms.collection:
 - M365-collaboration
 - m365initiative-meetings
+- highpri
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 499beaae2514942e70f4d633a25ca3e544bdf994
-ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
-ms.translationtype: HT
+ms.openlocfilehash: 52b057119bddd52c37984a9355311843b7b57ce7
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66564157"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68614031"
 ---
 # <a name="use-the-teams-meeting-add-in-in-outlook"></a>Использование надстройки "Собрание Teams" в Outlook
 
@@ -34,7 +35,7 @@ ms.locfileid: "66564157"
 
 ## <a name="teams-meeting-add-in-in-outlook-for-windows"></a>Надстройка "Собрание Teams" в Outlook для Windows
 
-Надстройка "Собрание Teams" автоматически устанавливается для пользователей Windows, на компьютерах которых есть Microsoft Teams и Office 2013, Office 2016, Office 2019 или Office 2021. Надстройка "Собрание Teams" отображается для пользователей на ленте календаря Outlook.
+The Teams Meeting add-in is automatically installed for users who have Microsoft Teams and either Office 2013, Office 2016, Office 2019 or Office 2021 installed on their Windows PC. Users will see the Teams Meeting add-in on the Outlook Calendar ribbon.
 
 ![Снимок экрана с надстройкой "Собрание Teams" на ленте Outlook.](media/Teams-add-in-for-Outlook.png)
 
@@ -105,7 +106,7 @@ ms.locfileid: "66564157"
 
 Если пользователи в режиме островов планируют собрание в Outlook, обычно предполагается выбор между планированием собрания Skype для бизнеса и Teams. В Outlook в Интернете, Outlook для Windows и Outlook для Mac пользователи в режиме островов по умолчанию видят как надстройку Skype для бизнеса, так и надстройку Teams. Вы можете настроить параметр политики собраний Teams, чтобы указать, могут ли пользователи в режиме островов использовать только надстройку "Собрание Teams" или обе надстройки "Собрание Teams" и "Собрание Skype для бизнеса".
 
-Из-за определенных ограничений в первоначальном выпуске Outlook Mobile поддерживает создание только собраний Skype для бизнеса **или** Teams. Подробные сведения приведены в следующей таблице.
+Due to certain limitations in the initial release, Outlook mobile can only support creating Skype for Business **or** Teams meetings. See the following table for details.
 
 | Режим сосуществования в Центре администрирования Teams | Поставщик службы собраний по умолчанию в Outlook Mobile |
 | --------------------------------------|---------------------------------------------|

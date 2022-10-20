@@ -16,12 +16,12 @@ f1.keywords:
 description: Прямая маршрутизация hHw поддерживает обход сервера-посредника с включенным пограничным контроллером сеанса для ICE Lite.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 59ea283069c6fc37590d6329aeac46e40484f8ca
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: e6f9715ee410116a66c572522a910cd16ef27154
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67267764"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68614422"
 ---
 # <a name="overview"></a>Обзор
 
@@ -55,7 +55,7 @@ ms.locfileid: "67267764"
 
 ### <a name="candidate-gathering"></a>Сбор кандидатов
 
-SBC должен предлагать только один кандидат, который является общедоступным. В настоящее время поддерживаются только кандидаты IPV4.
+SBC должен предлагать только один кандидат. В настоящее время поддерживаются только кандидаты IPV4.
 
 
 #### <a name="connectivity-checks"></a>Проверки подключения
