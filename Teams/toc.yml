@@ -719,8 +719,6 @@ items:
             items:
               - name: Настройка аудиоконференций
                 href: set-up-audio-conferencing-in-teams.md
-              - name: Настройка аудиоконференций — краткое руководство для малых и средних предприятий
-                href: audio-conferencing-smb.md
           - name: Управление
             items:
               - name: Управление вашей службой аудиоконференций
@@ -901,11 +899,11 @@ items:
                 href: operator-connect-plan.md
               - name: Настройка Operator Connect
                 href: operator-connect-configure.md
-          - name: Operator Connect Mobile
+          - name: Teams Phone Mobile
             items:
-              - name: Планирование Operator Connect Mobile
+              - name: Планирование teams Phone Mobile
                 href: operator-connect-mobile-plan.md
-              - name: Настройка Operator Connect Mobile
+              - name: Настройка Teams Phone Mobile
                 href: operator-connect-mobile-configure.md
           - name: Прямая маршрутизация
             items:
@@ -1017,7 +1015,7 @@ items:
                 href: phone-number-calling-plans/supported-rate-centers-coverage-matrix.md
           - name: Управление номерами телефонов для Operator Connect
             href: operator-connect-configure.md#set-up-phone-numbers
-          - name: Управление номерами телефонов для Operator Connect Mobile
+          - name: Управление номерами телефонов для Teams Phone Mobile
             href: operator-connect-mobile-configure.md#set-up-phone-numbers
           - name: Управление номерами телефонов для прямой маршрутизации
             href: direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice
@@ -1381,8 +1379,10 @@ items:
                 href: rooms/rooms-prep.md
               - name: Требования
                 href: rooms/requirements.md
-              - name: Безопасность
-                href: rooms/security.md
+              - name: Безопасность Windows
+                href: rooms/security-windows.md
+              - name: Безопасность Android
+                href: rooms/security-android.md
               - name: Планирование управления с помощью Azure Monitor
                 href: rooms/azure-monitor-plan.md
           - name: Развертывание
@@ -1431,7 +1431,7 @@ items:
                 href: rooms/xml-config-file.md
               - name: Использование средства восстановления
                 href: rooms/recovery-tool.md
-      - name: Комнаты Microsoft Teams Pro Management
+      - name: Комнаты Microsoft Teams Pro управления
         items:
           - name: Обзор
             href: rooms/microsoft-teams-rooms-premium.md
@@ -1585,7 +1585,7 @@ items:
         items:
           - name: Управление пользовательскими и загруженными неопубликованными приложениями
             href: custom-app-overview.md
-          - name: управлять настраиваемыми политиками и параметрами приложений
+          - name: Управление политиками и параметрами для пользовательских приложений
             href: teams-custom-app-policies-and-settings.md
           - name: 'Публикация пользовательских приложений, отправленных с помощью API'
             href: submit-approve-custom-apps.md
@@ -1615,7 +1615,7 @@ items:
             href: app-permissions.md
           - name: Настройка фирменного стиля магазина приложений вашей организации
             href: customize-your-app-store.md
-          - name: Использование приложений в качестве внешних или гостевых пользователей
+          - name: Использование приложений в качестве внешнего пользователя или гостя
             href: non-standard-users.md
           - name: Управление запросами пользователей
             href: user-requests-approve-apps.md
@@ -2057,6 +2057,8 @@ items:
             href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-vietnam.md
       - name: Специальные возможности и соответствие требованиям
         items:
+          - name: Руководство по специальным возможностям для Teams
+            href: accessibility-guide-admin.md
           - name: Объявление о соответствии требованиям в отношении специальных возможностей во Франции для Microsoft Teams
             href: accessibility-declaration-of-conformance-in-france-for-teams.md
           - name: Решения со специальными возможностями для Skype для бизнеса Online и Microsoft Teams
@@ -2065,6 +2067,10 @@ items:
             href: code-of-practice-for-the-united-kingdom-u-k.md
           - name: Планы звонков в Microsoft 365 — процедура подачи претензий для Великобритании
             href: complaint-handling-code-for-the-united-kingdom-u-k.md
+          - name: IP-ретрансляция в Канаде — регистрация
+            href: ip-relay-canada-email-signup.md
+          - name: IP-ретрансляция в Канаде — руководство пользователя
+            href: ip-relay-canada-user-guide.md
           - name: Условия для экстренных вызовов
             href: emergency-calling-terms-and-conditions.md
       - name: Ошибки общих каналов
