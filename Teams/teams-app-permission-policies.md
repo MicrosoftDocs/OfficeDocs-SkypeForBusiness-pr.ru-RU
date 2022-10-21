@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 24c4b85bb1c4b97597bad6a38e6a67c35dc1abb0
-ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.openlocfilehash: 5797486fb0993aa8630a8dedde131ad7751e7e5f
+ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "68377047"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68656025"
 ---
 # <a name="manage-access-to-teams-apps-using-app-permission-policies"></a>Управление доступом к приложениям Teams с помощью политик разрешений приложений
 
@@ -81,7 +81,7 @@ ms.locfileid: "68377047"
 1. Внесите изменения, чтобы разрешить или заблокировать определенные приложения в каждой из трех категорий.
 1. Нажмите **Сохранить**.
 
-## <a name="assign-a-custom-app-permission-policy-to-users"></a>Назначение настраиваемой политики разрешений для приложений пользователям
+## <a name="assign-a-custom-policy-for-app-permissions-to-users"></a>Назначение пользовательской политики для разрешений приложения пользователям
 
 Политики разрешений приложений вступает в силу только при применении политики к пользователю или группе пользователей. Ознакомьтесь с различными способами [назначения политики пользователям](policy-assignment-overview.md#ways-to-assign-policies).
 

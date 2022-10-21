@@ -18,12 +18,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Узнайте, как управлять доступом к пользовательским приложениям, созданным с помощью Microsoft Power Platform, в Центре администрирования Teams.
-ms.openlocfilehash: 93801bb30d0445d13de25976ab23668fde251466
-ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.openlocfilehash: 3a81d1db3de7cf4fa82b80526ffdb206bfbe8da6
+ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "68377207"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68656041"
 ---
 # <a name="manage-microsoft-power-platform-apps-in-the-teams-admin-center"></a>Управление приложениями Microsoft Power Platform в Центре администрирования Teams
 
@@ -79,9 +79,9 @@ ms.locfileid: "68377207"
 
 Чтобы разрешить или запретить определенным пользователям в организации доступ к приложениям, созданным в Power Apps или Power Virtual Agents, создайте и назначьте одну или несколько настраиваемых [политик разрешений для приложений](teams-app-permission-policies.md).
 
-Например, чтобы запретить определенным пользователям доступ к приложениям, созданным в Power Apps, создайте настраиваемую политику разрешений для приложений, чтобы заблокировать **Общие приложения Power Apps**, а затем назначьте эту политику этим пользователям.
+Например, чтобы запретить определенным пользователям доступ к приложениям, созданным в Power Apps, создайте настраиваемую политику для разрешений приложений, чтобы заблокировать **общие приложения Power Apps**, а затем назначьте политику этим пользователям.
 
-:::image type="content" source="media/manage-power-platform-apps-app-permission-policy.png" alt-text="Снимок экрана: пример настраиваемой политики разрешений для приложений с заблокированными общими приложениями Power Apps.":::
+:::image type="content" source="media/manage-power-platform-apps-app-permission-policy.png" alt-text="Снимок экрана: пример настраиваемой политики для разрешений приложения с заблокированными общими приложениями Power Apps.":::
 
 ### <a name="use-audit-logs-to-investigate-microsoft-power-platform-installation-activity"></a>Использование журналов аудита для изучения действий установки Microsoft Power Platform
 

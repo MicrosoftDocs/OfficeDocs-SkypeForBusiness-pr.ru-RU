@@ -26,12 +26,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: 9ea4e8cb49166c116d69c12d795659b55c93c556
-ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
+ms.openlocfilehash: ce10e758352396dd1ac8e6334e54c4e298df9a0f
+ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2022
-ms.locfileid: "68047049"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68655855"
 ---
 # <a name="manage-the-lists-app-for-your-organization-in-microsoft-teams"></a>Управление приложением Lists для организации в Microsoft Teams
 
@@ -105,7 +105,7 @@ Guests can't create or delete a list. They can add list items to existing lists,
 
 ### <a name="enable-or-disable-lists-for-specific-users-in-your-organization"></a>Включение и отключение Lists для определенных пользователей в организации
 
-Чтобы разрешить или запретить определенным пользователям в организации использовать Lists, убедитесь в том, что приложение Lists включено в вашей организации на странице [Управление приложениями](manage-apps.md), а затем создайте настраиваемую политику разрешений приложения и назначьте ее пользователям. Подробнее см. в статье [Управление политиками разрешений приложений в Teams](teams-app-permission-policies.md).
+Чтобы разрешить или запретить определенным пользователям в организации использовать списки, убедитесь, что списки включены для вашей организации на [](manage-apps.md) странице "Управление приложениями", а затем создайте настраиваемую политику для разрешений приложений и назначьте ее этим пользователям. Дополнительные сведения см. в статье [Управление политиками и параметрами пользовательских приложений в Teams](teams-app-permission-policies.md).
 
 ## <a name="search-the-audit-log-for-list-events"></a>Поиск событий списка в журнале аудита
 

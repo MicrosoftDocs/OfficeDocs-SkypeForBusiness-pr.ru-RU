@@ -20,12 +20,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: dc84bc7be43182194af3a072edb875a6a257a9d5
-ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.openlocfilehash: c741bb8a1b6ab7e27ec064dc0f22226f69bc6e10
+ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "68377337"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68655895"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Управление политиками настройки приложений в Microsoft Teams
 
@@ -126,7 +126,7 @@ ms.locfileid: "68377337"
 
 1. Нажмите **Сохранить**.
 
-### <a name="assign-a-custom-app-setup-policy-to-users-and-groups"></a>Назначение настраиваемой политики установки приложения пользователям и группам
+### <a name="assign-a-custom-policy-in-app-setup-policy-to-users-and-groups"></a>Назначение настраиваемой политики в политике установки приложения пользователям и группам
 
 Сведения о том, как назначать политики конечным пользователям и группам, см. в статье [Как назначать политики пользователям и группам](assign-policies-users-and-groups.md).
 
@@ -151,7 +151,7 @@ ms.locfileid: "68377337"
 
 #### <a name="im-a-teams-for-education-admin-what-do-i-need-to-know-about-app-setup-policies-in-teams-for-education"></a>Я администратор Teams для образования. Что мне нужно знать о политиках настройки приложений в Teams для образования
 
-Приложение для звонков недоступно в Teams для образования. При создании новой пользовательской политики настройки приложения вызывающее приложение отображается в списке приложений. Однако приложение не закреплено в клиентах Teams, а пользователи Teams для образования не увидят приложение "Звонки" в Teams.
+Приложение для звонков недоступно в Teams для образования. При создании новой настраиваемой политики в политике установки приложения вызывающее приложение отображается в списке приложений. Однако приложение не закреплено в клиентах Teams, а пользователи Teams для образования не увидят приложение "Звонки" в Teams.
 
 ### <a name="user-experience"></a>Впечатления от использования
 

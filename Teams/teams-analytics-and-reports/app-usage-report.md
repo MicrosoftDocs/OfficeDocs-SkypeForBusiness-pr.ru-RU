@@ -14,16 +14,16 @@ ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-description: Узнайте, как использовать отчет об использовании приложений Teams в Центре администрирования Microsoft Teams.
+description: Узнайте, как использовать отчет об использовании приложений Teams в Центре администрирования Teams для получения сведений об активных командах и пользователях приложения.
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c437676df215ead9b588091f2cb58c19d1e136fd
-ms.sourcegitcommit: 8dd36e1e30a47316c15c99e964d0464715bcd742
+ms.openlocfilehash: c907dc44ff7b76b3df94843d6e33f4a711b37721
+ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "68532269"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68655885"
 ---
 # <a name="microsoft-teams-app-usage-report"></a>Отчет об использовании приложений Microsoft Teams
 

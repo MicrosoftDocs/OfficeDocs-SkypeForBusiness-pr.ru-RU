@@ -21,12 +21,12 @@ description: Узнайте, как управлять приложениями 
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 3d49d3e44e848b1d51388b148416fb897c335758
-ms.sourcegitcommit: d6e180791134426445a35fd485dcca18bde2006b
+ms.openlocfilehash: dc7dbf1a4866fa85551d6ec46f7ea54c164ba655
+ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/07/2022
-ms.locfileid: "68494672"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68656055"
 ---
 # <a name="overview-of-app-management-and-governance-in-teams-admin-center"></a>Общие сведения об управлении приложениями и управлении ими в Центре администрирования Teams
 
@@ -40,8 +40,6 @@ ms.locfileid: "68494672"
 
 > [!NOTE]
 > Страница «Управление приложениями» недоступна в развертываниях Teams в Microsoft 365 для облака сообщества для государственных организаций с высоким уровнем защиты (GCCH) или Министерства обороны (DoD).
-
-Во время создания приложения разработчики создают и добавляют идентификатор приложения в файл манифеста. Этот идентификатор внешнего приложения можно узнать на странице «Управление приложениями» после включения соответствующего столбца `External app ID` из параметров столбцов. Его также можно узнать на странице сведений о пользовательском приложении. Идентификатор применим только к пользовательским приложениям.
 
 ## <a name="app-management-use-cases-and-the-available-interfaces"></a>Сценарии управления приложениями и доступные интерфейсы
 
