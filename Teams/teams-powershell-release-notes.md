@@ -13,12 +13,12 @@ ms.collection:
 description: Узнайте о последних изменениях в Teams PowerShell.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2472f7ec0156e5dcd3ac245dfecdf25a58423ed9
-ms.sourcegitcommit: 8dd36e1e30a47316c15c99e964d0464715bcd742
+ms.openlocfilehash: 50d5520233ab60d5837c2d7fdc1e9372d92d32da
+ms.sourcegitcommit: a4307c1d1ee2dcf3a0c0b31e6c2473abf52b7097
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "68532239"
+ms.lasthandoff: 10/21/2022
+ms.locfileid: "68669701"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Заметки о выпуске Microsoft Teams PowerShell
 
@@ -31,6 +31,7 @@ ms.locfileid: "68532239"
 
 | Дата | Версия | Обновления |
 |------- | -------------------- | ------------------------------ |
+| Октябрь 2022 г. | [4.8.1-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/4.8.1-preview) |<li>Содержит новую реализацию [New Get Set Remove]-CsTeamsMessagingPolicy, [New\|Get\|Set\|Remove]-CsTeamsMeetingPolicy и [New\|Get\|Set\|Remove]-CsOnlineVoicemailPolicy.\|\|\| ПРИМЕЧАНИЕ. В настоящее время эти командлеты работают только с powershell.exe. Они не работают для pwsh.exe. Это будет исправлено в следующем общедоступном выпуске.</li><li>Добавляет параметры ExplicitRecordingConsent, ForceStreamingAttendeeMode в TeamsMeetingPolicy.</li><li>Добавляет параметры Description, PreambleAudioFile, PostambleAudioFile, PreamblePostambleMandatory в OnlineVoicemailPolicy.</li><li>Добавляет параметры AllowChatWithGroup и EnableFeatureSuggestions в TeamsMessagingPolicy.</li><li>Освобождает Update-CsTeamsShiftsConnectionInstance командлета.</li>
 | Октябрь 2022 г. | [4.8.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.8.0) |<li>[Получить\| New]-CsTeamsShiftsConnectionTeamMap — добавлен атрибут TimeZone.</li><li>Удаляет входные параметры SendEmailFromAddress и SendEmailFromDisplayName из Set-CsOnlineDialinConferencingUser.</li><li>Удаляет параметры AllowAllAcsResources и BlockedAcsResources из Set-TeamsAcsFederationConfiguration.</li><li>Добавляет параметр ForceListenMenuEnabled в параметры callflow в New-CsAutoAttendantCallFlow, New-CsAutoAttendant и Set-CsAutoAutoAttendant. Этот параметр позволяет клиенту игнорировать входные данные DTMF/speech при воспроизведении параметров приветствия или меню.</li>
 | Сентябрь 2022 г. | [4.7.1-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/4.7.1-preview) |<li>Выпуск поддержки проверки подлинности на основе приложений в Connect-MicrosoftTeams предварительной версии. Поддерживаемые командлеты развертываются постепенно. Дополнительные сведения о проверке подлинности на основе приложений см. в [модуле Teams PowerShell](teams-powershell-application-authentication.md).</li><li>Выпуски командлетов [Get\|Set]-CsTeamsEducationConfiguration в закрытой предварительной версии.</li><li>[Получить\| New]-CsTeamsShiftsConnectionTeamMap — добавлен атрибут TimeZone.</li><li>Удаляет входные параметры SendEmailFromAddress и SendEmailFromDisplayName из Set-CsOnlineDialinConferencingUser.</li><li>Удаляет параметры AllowAllAcsResources и BlockedAcsResources из Set-TeamsAcsFederationConfiguration.</li>
 | Сентябрь 2022 г. | [4.7.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.7.0) |<li>Устранены проблемы с очисткой процесса при использовании модуля в PS ISE и приложениях dotnet.</li><li>Выпуски командлетов [Get\|New]-CsBatchTeamsDeployment в общедоступной версии.</li><li>Выпуски [New\|Set]-CSTeamsShiftsConnectionInstance, Test-CsTeamsShiftsConnectionValidate поддержки измерений UKG.</li><li>Устранены проблемы с неправильным получением маркера при выборе между несколькими учетными записями с помощью параметра AccountId в Connect-MicrosoftTeams.</li><li>Значения режима конференции по умолчанию & режиме присутствия изменяются с false на true для New-CsCallQueue командлета.</li>
