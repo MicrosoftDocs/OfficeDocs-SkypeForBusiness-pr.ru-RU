@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Узнайте, какие пограничные контроллеры сеансов (SCS) были сертифицированы для прямой маршрутизации.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4c64e5302b68e515d72cddc11a77cb85dea10fe3
-ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
+ms.openlocfilehash: c1908fc1dbfdecc978444d7fc004979c940f8b2a
+ms.sourcegitcommit: 3b2e8ec8c104863208f49f282ab0ffa619ff5057
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "68614021"
+ms.lasthandoff: 10/26/2022
+ms.locfileid: "68697358"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>Пограничные контроллеры сеансов, сертифицированные для прямой маршрутизации
 
@@ -70,9 +70,9 @@ ms.locfileid: "68614021"
 ||SBC 5400|&#10004;|&#10004;|Поддерживается во всех версиях 10.1, 9.2, 8.2 и 7.2 (рекомендуется последняя версия 10.1))|&#10004;||
 ||SBC 7000|&#10004;|&#10004;|Поддерживается во всех версиях 10.1, 9.2, 8.2 и 7.2 (рекомендуется последняя версия 10.1)|&#10004;||
 ||Все варианты SBC SWe, включая размещенные предложения|&#10004;|&#10004;|Поддерживается во всех версиях 10.1, 9.2, 8.2 и 7.2 (рекомендуется последняя версия 10.1)|&#10004;||
-||SBC 1000|&#10004;|&#10004;|8.x или 9.x|&#10004;|&#10004;|
-||SBC 2000|&#10004;|&#10004;|8.x или 9.x|&#10004;|&#10004;|
-||SBC SWe Lite|&#10004;|&#10004;|8.x или 9.x|&#10004;|&#10004;|
+||SBC 1000|&#10004;|&#10004;|8.x, 9.x или 11.x|&#10004;|&#10004;|
+||SBC 2000|&#10004;|&#10004;|8.x, 9.x или 11.x|&#10004;|&#10004;|
+||SBC SWe Edge (ранее SWe Lite)|&#10004;|&#10004;|8.x, 9.x или 11.x|&#10004;|&#10004;|
 ||Серия EdgeMarc|&#10004;|&#10004;|16.3.2||
 |[Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)|Think 365 SBC|&#10004;||1.4|||
 |[Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)|AP 1100|&#10004;|&#10004;|Поддерживается: 8.3.0.0.1 &  Рекомендуется: 8.4.x и 9.x|&#10004;|&#10004;|
@@ -101,9 +101,9 @@ ms.locfileid: "68614021"
 |[Сети Enghouse](https://www.enghousenetworks.com/portfolio/network-infrastructure/cloud-native-session-border-controller-sbc/)|Пограничный контроллер сеансов Dialogic BorderNet|&#10004;|&#10004;|3.9.x|||
 |[Patton Electronics Co.](https://www.patton.com/microsoft/)|Patton SmartNode eSBC|&#10004;||3.19.x|||
 |[M5 Technologies (прежнее название — Media5 Corporation)](https://www.m5t.com/solutions/sentinel-sbc-ms-teams-certified/)|Серия Mediatrix Sentinel|&#10004;||DGW 48.0.2340 (рекомендуется DGW 48.1.2503)|||
-|[Ekinops](https://www.ekinops.com/solutions/voice-data-access/microsoft-direct-routing-sbc)|Ekinops Session Border Controller (ONeSBC)|&#10004;|&#10004;|Поддерживаемая версия 6.8.x (рекомендуется 6.9.x)|||
+|[Ekinops](https://www.ekinops.com/solutions/voice-data-access/microsoft-direct-routing-sbc)|Ekinops Session Border Controller (ONeSBC)|&#10004;|&#10004;|Поддерживается 6.8.x (рекомендуется 6.9.x)|||
 ||Ekinops Virtual Session Border Controller (ONEvSBC)|&#10004;|&#10004;|Поддерживаемая версия 6.6.1m5ha1 (Рекомендуется 6.8.x)|||
-|[46 Labs LLC](https://46labs.atlassian.net/wiki/spaces/peeredge/pages/61603842/Microsoft+Teams+Implementation+Guide+v1.0)|Оркестратор пирингов|&#10004;|&#10004;|1.0.6|||
+|[46 Labs LLC](https://46labs.atlassian.net/wiki/spaces/peeredge/pages/61603842/Microsoft+Teams+Implementation+Guide+v1.0)|Пиринговая оркестратор|&#10004;|&#10004;|1.0.6|||
 |[Frafos](https://www.frafos.com/ms-teams-abc-sbc)|ABC SBC|&#10004;||4.6|||
 
 <br/>
