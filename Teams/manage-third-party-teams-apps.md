@@ -18,18 +18,18 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Узнайте, как управлять доступом к приложениям Teams в Microsoft 365.
-ms.openlocfilehash: ae11a72324bb4382012c751150a254773c9145b7
-ms.sourcegitcommit: c627bd1df17aefdc353bc4da6db169dfe169031e
+ms.openlocfilehash: 01aee1ebd59b52f05db36303d60358b86b95cf84
+ms.sourcegitcommit: c2d8c7f779f4f938f8355632ecfbfc9147b53bb2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/24/2022
-ms.locfileid: "68680560"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "68738805"
 ---
 # <a name="manage-access-to-teams-apps-across-microsoft-365"></a>Управление доступом к приложениям Teams в Microsoft 365
 
 Разработчики приложений могут улучшить свои приложения Microsoft Teams для работы в Outlook и на Office.com в дополнение к приложению, которое работает в Teams. После улучшения конечные пользователи могут использовать улучшенные приложения в Teams, Microsoft Outlook и на Microsoft Office.com. В настоящее время только конечные пользователи в [целевом выпуске](/microsoft-365/admin/manage/release-options-in-office-365?view=o365-worldwide&preserve-view=true) могут просматривать и использовать эти приложения в Teams, Outlook и Office.com. Уведомление об этом изменении доступно в [центре сообщений](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter/:/messages/MC334280).
 
-## <a name="manage-the-enhanced-apps-access-microsoft-365"></a>Управление доступом к расширенным приложениям Microsoft 365
+## <a name="manage-users-access-to-the-enhanced-apps"></a>Управление доступом пользователей к расширенным приложениям
 
 Существующий интерфейс администратора Teams применяется для управления доступом к этим приложениям. Администраторы Teams используют Центр администрирования Teams для управления доступом к приложениям. Как администратор Teams, вы можете разрешить определенным конечным пользователям использовать улучшенные приложения или управлять их доступом к улучшенным приложениям в Teams, Outlook и Office.com.
 

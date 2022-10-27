@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: Узнайте, какие периферийные устройства и устройства USB (например, гарнитуры, динамики, веб-камеры и мониторы) сертифицированы для Microsoft Teams.
-ms.openlocfilehash: ec1fd0583da04c3e93912843526d32803428c40e
-ms.sourcegitcommit: e8c7a5ddc3399492485680e9a6f2593658cecca3
+ms.openlocfilehash: 8a6fdacd8f4599c81e4c915ac178a9d07debb43b
+ms.sourcegitcommit: c2d8c7f779f4f938f8355632ecfbfc9147b53bb2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/24/2022
-ms.locfileid: "68686067"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "68738625"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Аудио- и видеоустройства USB, сертифицированные для Microsoft Teams
 
@@ -84,10 +84,11 @@ ms.locfileid: "68686067"
 *Таблица обновлена за октябрь 2022 г.*
 
 > [!NOTE]
-> Формат даты — ММДДГГГГ.
+> Формат даты — ММ/ДД/ГГГГ.
 
 | Производитель        | Модели                                                     | Квалифицированных      | Сертифицированная программа                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Jabra                |Evolve2 Buds                                               |10/17/2022      |Сертифицировано для Microsoft Teams                           |
 |Cisco                |Настольной камеры 4K                                             |10/15/2022      |Сертифицировано для Microsoft Teams                           |
 |ЭПОС                 |EXPAND Vision 1/S6                                         |10/13/2022      |Сертифицировано для Microsoft Teams                           |
 |Lenovo               |Go USB-C ANC In-Ear Headphones                             |9/20/2022       |Сертифицировано для Microsoft Teams                           |
