@@ -20,29 +20,29 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: Эта таблица используется для поиска сведений о получении номеров телефонов в Нидерландых и управлении Microsoft Teams.
-ms.openlocfilehash: 97ecbfba8d5a50d49acf3e470c18f723e2f9e1d2
-ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
+description: Используйте эту таблицу, чтобы найти сведения о получении номеров телефонов и управлении ими в Нидерландах для Microsoft Teams.
+ms.openlocfilehash: 2381a9f1c6820e2bca787d706a6f692dcaaefbbf
+ms.sourcegitcommit: 61987bc3ff8367baf251ba516fa6608812134777
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60732900"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "68765977"
 ---
 # <a name="phone-number-management-for-the-netherlands"></a>Управление номерами телефонов в Нидерландах
 
-Эта таблица используется для поиска сведений о получении номеров телефонов в Нидерландых и управлении Microsoft Teams.
+Используйте эту таблицу, чтобы найти сведения о получении номеров телефонов и управлении ими в Нидерландах для Microsoft Teams.
   
 Дополнительные сведения см. в статье [Управление номерами телефонов для организации](manage-phone-numbers-for-your-organization.md).
   
 |**Требуемое действие**|**Загрузка подходящих форм**|
 |:-----|:-----|
-|Получите новые номера пользователей или номеров телефонов служб, которые не указаны в Microsoft Teams центре администрирования.   <br/> | Скачайте одну из этих форм.</br> [Новый номер телефона для Нидерландов (v.5.0) (nl-nl)](https://download.microsoft.com/download/d/5/9/d5937e19-e9f7-4a08-9631-e5d456068726/new-phone-number-request-for-the-netherlands-(v.5.0)-(nl-nl).pdf) <br/>  [Новый номер телефона для Нидерландов (v.5.0) (en-us)](https://download.microsoft.com/download/9/f/4/9f42be90-1977-4ba7-887a-3772757e12fa/new-phone-number-request-for-the-netherlands-(v.5.0)-(en-us).pdf)<br/><br/>  Заполните его и [обратитесь за инструкциями в службу TNS Service Desk.](contact-tns-service-desk.md)  <br/> |
-|Перенаправь нам номера телефонов.  <br/> |Скачайте одну из следующих форм:. <br/> [Док-досье (LOA) для Нидерландов (все номера) (v.6.0) (nl-nl)](https://download.microsoft.com/download/c/7/0/c70c4dcd-f23a-4935-aa31-fc13aba33ee5/letter-of-authorization-(loa)-for-the-netherlands-(all-numbers)-(v.6.0)-(nl-nl).pdf) <br/> <br/>  Заполните его и [обратитесь за инструкциями в службу TNS Service Desk.](contact-tns-service-desk.md)  <br/> |
-|Публикация и публикация номеров телефонов в национальном телефонном каталоге.  <br/> |[Чтобы получить инструкции по](contact-tns-service-desk.md) списку номеров телефонов, которые вы хотите опубликовать или отоблести, обратитесь в службу TNS Service Desk. <br/> |
-|Измените номер пользователя на номер службы.  <br/> |[Чтобы получить инструкции по](contact-tns-service-desk.md) списку пользовательских номеров, которые вы хотите преобразовать в номера служб, обратитесь в службу TNS Service Desk. <br/> |
-|Обновление службы каталогов для номеров очереди вызовов и номеров автослужб|Чтобы добавить или изменить номера очереди вызовов или автозавода, обратитесь за инструкциями в [службу TNS Service Desk.](contact-tns-service-desk.md) |
+|Получение новых номеров телефонов пользователей или служб, которые не указаны в Центре администрирования Microsoft Teams.   <br/> | Скачайте одну из этих форм.</br> [Запрос нового номера телефона для Нидерландов (версия 5.0) (nl-nl)](https://download.microsoft.com/download/d/5/9/d5937e19-e9f7-4a08-9631-e5d456068726/new-phone-number-request-for-the-netherlands-(v.5.0)-(nl-nl).pdf) <br/>  [Запрос нового номера телефона для Нидерландов (версия 5.0) (en-us)](https://download.microsoft.com/download/9/f/4/9f42be90-1977-4ba7-887a-3772757e12fa/new-phone-number-request-for-the-netherlands-(v.5.0)-(en-us).pdf)<br/><br/>  Заполните его и [обратитесь в службу технической поддержки TNS для получения инструкций](contact-tns-service-desk.md).  <br/> |
+|Получение номеров телефонов, переданных нам.  <br/> |Скачайте одну из следующих форм:. <br/> [Письмо о авторизации (LOA) для Нидерландов (все номера) (v.6.0) (nl-nl)](https://download.microsoft.com/download/c/7/0/c70c4dcd-f23a-4935-aa31-fc13aba33ee5/LOA-NL-GEO-NL.pdf) <br/> <br/> [Письмо о авторизации (LOA) для Нидерландов (все номера) (v.6.0) (en-en)](https://download.microsoft.com/download/c/7/0/c70c4dcd-f23a-4935-aa31-fc13aba33ee5/LOA-NL-GEO-EN.pdf) <br/> <br/> [Письмо о досрочном прекращении действия (LOA) для Нидерландов (все номера) (v.6.0) (nl-nl)](https://download.microsoft.com/download/c/7/0/c70c4dcd-f23a-4935-aa31-fc13aba33ee5/LOA-NL-ERT-NL.pdf) <br/> <br/> [Письмо о досрочном прекращении действия (LOA) для Нидерландов (все номера) (v.6.0) (en-en)](https://download.microsoft.com/download/c/7/0/c70c4dcd-f23a-4935-aa31-fc13aba33ee5/LOA-NL-ERT-EN.pdf) <br/><br/>  Заполните его и [обратитесь в службу технической поддержки TNS для получения инструкций](contact-tns-service-desk.md).  <br/> |
+|Опубликуйте или отмените публикацию номеров телефонов в национальном каталоге телефонов.  <br/> |[Обратитесь в службу технической поддержки TNS, чтобы получить инструкции](contact-tns-service-desk.md) по списку номеров телефонов, которые вы хотите опубликовать или отменить публикацию. <br/> |
+|Измените номер пользователя на номер службы.  <br/> |[Обратитесь в службу технической поддержки TNS, чтобы получить инструкции](contact-tns-service-desk.md) по списку номеров пользователей, которые вы хотите преобразовать в номера служб. <br/> |
+|Обновление службы каталогов для очередей вызовов или номеров автосекретаря|Чтобы добавить или изменить номера очередей вызовов или автосекретаря, обратитесь [в службу технической поддержки TNS за инструкциями](contact-tns-service-desk.md). |
 
-## <a name="related-topics"></a>См. также:
+## <a name="related-topics"></a>См. также
 
 [Типы номеров телефонов, используемые в планах звонков](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
@@ -50,4 +50,4 @@ ms.locfileid: "60732900"
 
 [Условия и положения, распространяющиеся на экстренные вызовы](../emergency-calling-terms-and-conditions.md)
   
-[Заявление об отказе от ответственности экстренных вызовов](https://download.microsoft.com/download/a/8/0/a807c43d-2177-4fe0-8732-86b3784ae6e5/emergency-calling-label-(en-us)-(v.1.0).zip)
+[Метка заявления об отказе от ответственности для экстренных вызовов](https://download.microsoft.com/download/a/8/0/a807c43d-2177-4fe0-8732-86b3784ae6e5/emergency-calling-label-(en-us)-(v.1.0).zip)
