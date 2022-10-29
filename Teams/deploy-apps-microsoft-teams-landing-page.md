@@ -2,7 +2,7 @@
 title: Сведения о приложениях в Microsoft Teams
 ms.reviewer: ''
 description: Узнайте о приложениях и решите, какие приложения разрешить в Teams, на основе профиля и бизнес-требований вашей организации.
-ms.topic: article
+ms.topic: conceptual
 author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
@@ -21,12 +21,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
-ms.openlocfilehash: 1868b4e5e84803e24eacc812d638a961d6639606
-ms.sourcegitcommit: c2d8c7f779f4f938f8355632ecfbfc9147b53bb2
+ms.openlocfilehash: 1ff0095ef804f7e58dcbc81c45639228b0264da4
+ms.sourcegitcommit: e6182aa3b15346dc955333a2bc571565ef463a57
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/27/2022
-ms.locfileid: "68738575"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "68784204"
 ---
 # <a name="understand-microsoft-teams-apps"></a>Общие сведения о приложениях Microsoft Teams
 

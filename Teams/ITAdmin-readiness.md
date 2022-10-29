@@ -18,12 +18,12 @@ ms.custom:
 description: Обучающие видео, презентации PowerPoint, учебники и другие ресурсы для администраторов по планированию, развертыванию и запуску Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 50c3a4a3eaed8eea383d8e0856cfcd6a07b9772e
-ms.sourcegitcommit: c2d8c7f779f4f938f8355632ecfbfc9147b53bb2
+ms.openlocfilehash: 0f8d251499ef55ef1b7621e63367f746d19c70e5
+ms.sourcegitcommit: e6182aa3b15346dc955333a2bc571565ef463a57
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/27/2022
-ms.locfileid: "68738595"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "68784354"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Начало работы с обучением администраторов для Microsoft Teams
 
@@ -67,14 +67,14 @@ ms.locfileid: "68738595"
 
 | Модуль | Презентация PowerPoint (PDF)  |
 | ------------ | -------------------- |
-| Модуль 1. Введение в Комнаты Microsoft Teams  | [Палубе](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-1-introduction-to-microsoft-teams-rooms.pdf?raw=true) |
-| Модуль 2. Сеть Microsoft Teams  | [Палубе](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-2-network-readiness.pdf?raw=true) |
-| Модуль 3. Выбор подходящего устройства для правильного пространства  | [Палубе](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-3-choosing-the-right-device.pdf?live=true) |
-| Модуль 4. Развертывание Комнаты Microsoft Teams  | [Палубе](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-4-deployment.pdf?raw=true) |
-| Модуль 5. Настройка и запуск Комнаты Microsoft Teams  | [Палубе](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-5-starting-and-configuring-teams-rooms.pdf?raw=true) |
-| Модуль 6. Управление Комнаты Microsoft Teams, часть 1  | [Палубе](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-6-managing-teams-rooms-part-1.pdf?raw=true) |
-| Модуль 7. Управление Комнаты Microsoft Teams, часть 2  | [Палубе](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-7-managing-teams-rooms-part-2.pdf?raw=true) |
-| Модуль 8. Комнаты Microsoft Teams советы, рекомендации и устранение неполадок | [Палубе](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8a-tips-tricks-troubleshooting.pdf?raw=true)|
+| Модуль 1. Введение в Комнаты Microsoft Teams  | [Палубе](https://aka.ms/TeamsRoomsModule1) |
+| Модуль 2. Готовность сети  | [Палубе](https://aka.ms/TeamsRoomsModule2) |
+| Модуль 3. Дизайн помещений и компоненты  | [Палубе](https://aka.ms/TeamsRoomsModule3) |
+| Модуль 4. Учетная запись ресурса  | [Палубе](https://aka.ms/TeamsRoomsModule4) |
+| Модуль 5. Запуск и настройка Комнаты Microsoft Teams  | [Палубе](https://aka.ms/TeamsRoomsModule5) |
+| Модуль 6. Управление Комнаты Microsoft Teams, часть 1  | [Палубе](https://aka.ms/TeamsRoomsModule6) |
+| Модуль 7. Управление Комнаты Microsoft Teams, часть 2  | [Палубе](https://aka.ms/TeamsRoomsModule7) |
+| Модуль 8. Функции, внедрение и устранение неполадок | [Палубе](https://aka.ms/TeamsRoomsModule8)|
 | Инструкции по присоединению одним касанием |  [Палубе](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8b-one-touch-join-instructions.pdf?raw=true)  |
 | Общие сведения об управляемых службах Комнаты Microsoft Teams | [Палубе](https://download.microsoft.com/download/c/e/a/cead2658-d64d-43b7-a728-b4512b325fb8/module-7b-Teams-Managed-Rooms-intro.pdf)  |
 
@@ -84,11 +84,12 @@ ms.locfileid: "68738595"
 
 | Модуль | Презентация PowerPoint (PDF)  |
 | ------------| -------------------- |
-| Модуль 1. Введение в устройства Microsoft Teams Android  |[Палубе](https://download.microsoft.com/download/8/0/2/8020c233-8989-4def-b3ea-fb06365c663a/%281%29%20Introduction%20to%20Microsoft%20Teams%20Android%20Devices.pdf) |
-| Модуль 2. Планирование устройств Microsoft Teams Android|[Палубе](https://download.microsoft.com/download/f/8/f/f8f94605-9545-449b-b5d3-f24efc55f966/Planning%20Microsoft%20Teams%20Android%20Devices.pdf) |
-|Модуль 3. Функции устройств Microsoft Teams Android |[Палубе](https://download.microsoft.com/download/c/9/9/c9922544-7e27-40af-bf19-dbdc8516f0c1/Module%203-%20Features%20of%20Microsoft%20Teams%20Android%20Devices.pdf)|
-|Модуль 4. Управление устройствами Microsoft Teams Android|[Палубе](https://download.microsoft.com/download/c/e/b/ceb686ff-9be2-495c-9e2e-80047765e5b4/(4)%20Managing%20Microsoft%20Teams%20Android%20Devices.pdf)|
-|Модуль 5. Устройства Microsoft Teams Android — устранение неполадок |[Палубе](https://download.microsoft.com/download/d/3/7/d3728209-5caa-4bfb-b46a-3b840e80142a/Microsoft%20Teams%20Android%20Devices%20-%20Troubleshooting.pdf)|
+| Модуль 1. Введение в устройства Microsoft Teams Android  |[Палубе](https://aka.ms/TeamsAndroidModule1) |
+| Модуль 2. Планирование устройств Microsoft Teams Android|[Палубе](https://aka.ms/TeamsAndroidModule2) |
+| Модуль 3. Управление устройствами Microsoft Teams Android |[Палубе](https://aka.ms/TeamsAndroidModule3)|
+| Модуль 4. Телефоны Microsoft Teams и дисплеи Microsoft Teams |[Палубе](https://aka.ms/TeamsAndroidModule4)|
+| Модуль 5. Панели Комнаты Microsoft Teams и Microsoft Teams |[Палубе](https://aka.ms/TeamsAndroidModule5)|
+| Модуль 6. Внедрение и устранение неполадок |[Палубе](https://aka.ms/TeamsAndroidModule6)|
 
 <h2>Интерактивные руководства</h2>
 
