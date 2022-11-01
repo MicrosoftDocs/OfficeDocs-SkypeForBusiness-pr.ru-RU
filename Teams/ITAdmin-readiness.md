@@ -18,12 +18,12 @@ ms.custom:
 description: Обучающие видео, презентации PowerPoint, учебники и другие ресурсы для администраторов по планированию, развертыванию и запуску Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b456bd4e9887c5d8d2f8ff61667c75ef14a6588a
-ms.sourcegitcommit: 57616ad45eaa8be7f78dd0126d324c8777c5a367
+ms.openlocfilehash: 0dab76cd8cdca4270555a7f15b8f92f353f7afc5
+ms.sourcegitcommit: ffcc4c7d5688fee28f5fdc8bb8e6b78afb1ee626
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 10/31/2022
-ms.locfileid: "68792818"
+ms.locfileid: "68795451"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Начало работы с обучением администраторов для Microsoft Teams
 
@@ -80,9 +80,9 @@ ms.locfileid: "68792818"
 
 <h2>Устройства Teams Android</h2>
 
-<p>В следующей таблице содержатся ссылки на комплексные учебные материалы с помощью презентаций PowerPoint (в формате PDF) на устройствах Microsoft Teams с Android, включая дисплеи Teams, телефоны Teams, Комнаты Teams для Android и панели Teams.  
+<p>В следующей таблице содержатся ссылки на комплексные учебные презентации в PowerPoint на устройствах Microsoft Teams Android, включая дисплеи Teams, телефоны Teams, Комнаты Teams для Android и панели Teams.  
 
-| Модуль | Презентация PowerPoint (PDF)  |
+| Модуль | Презентация PowerPoint  |
 | ------------| -------------------- |
 | Модуль 1. Введение в устройства Microsoft Teams Android  |[Палубе](https://aka.ms/TeamsAndroidModule1) |
 | Модуль 2. Планирование устройств Microsoft Teams Android|[Палубе](https://aka.ms/TeamsAndroidModule2) |
