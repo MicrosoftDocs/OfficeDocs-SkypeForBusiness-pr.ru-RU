@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Узнайте, какие пограничные контроллеры сеансов (SCS) были сертифицированы для прямой маршрутизации.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c1908fc1dbfdecc978444d7fc004979c940f8b2a
-ms.sourcegitcommit: 3b2e8ec8c104863208f49f282ab0ffa619ff5057
+ms.openlocfilehash: 4eb53a81fbdddbf4f04d57be7f893ca3fbb6d88f
+ms.sourcegitcommit: b535a70df5bc842f597889582df3eb86371f8139
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/26/2022
-ms.locfileid: "68697358"
+ms.lasthandoff: 11/07/2022
+ms.locfileid: "68869574"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>Пограничные контроллеры сеансов, сертифицированные для прямой маршрутизации
 
@@ -129,14 +129,14 @@ ms.locfileid: "68697358"
 ||Mediant 9000 SBC|Поддерживается 7.20A.258 (рекомендуется 7.40A.100)|
 ||Mediant Virtual Edition SBC|Поддерживается 7.20A.258 (рекомендуется 7.40A.100)|
 ||Mediant Cloud Edition SBC|Поддерживается 7.20A.258 (рекомендуется 7.40A.100)|
-|[Ribbon SBC Core](https://support.sonus.net/display/ALLDOC/SBC+8.2+-+Configure+Local+Media+Optimization)|SBC 5110|8.2|
-||SBC 5210|8.2|
-||SBC 5400|8.2|
-||SBC 7000|8.2|
-||SBC SWe|8.2|
-|[Ribbon SBC Edge](https://support.sonus.net/display/UXDOC81/Best+Practice+-+Configuring+Microsoft+Teams+Local+Media+Optimization)|SBC SWe Lite|8.1.5|
-||SBC 1000|8.1.5|
-||SBC 2000|8.1.5|
+|[Ribbon SBC Core](https://support.sonus.net/display/ALLDOC/SBC+8.2+-+Configure+Local+Media+Optimization)|SBC 5110|8.2 или более поздняя версия SW|
+||SBC 5210|8.2 или более поздняя версия SW|
+||SBC 5400|8.2 или более поздняя версия SW|
+||SBC 7000|8.2 или более поздняя версия SW |
+||SBC SWe|8.2 или более поздняя версия SW|
+|[Ribbon SBC Edge](https://support.sonus.net/display/UXDOC81/Best+Practice+-+Configuring+Microsoft+Teams+Local+Media+Optimization)|SBC SWe Edge (ранее SWe Lite)|8.1.5 или более поздней версии SW|
+||SBC 1000|8.1.5 или более поздней версии SW|
+||SBC 2000|8.1.5 или более поздней версии SW|
 |[TE-SYSTEMS](https://www.anynode.de/local_media_optimization/)|anynode|4.0.1+|
 |[Oracle](https://www.oracle.com/industries/communications/enterprise-communications/session-border-controller/microsoft.html)|AP 1100|8.4.0.0.0|
 ||AP 3900|8.4.0.0.1 и 9.x|
@@ -165,14 +165,14 @@ ms.locfileid: "68697358"
 |[Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html)|Поддерживаемая версия программного обеспечения VME: 8.3.0.1.2. Рекомендуется: 8.4.x или 9.x|&#10004;|
 |[Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html)|Поддерживаемая версия программного обеспечения AP 3950: 9.x|&#10004;|
 |[Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html)|Поддерживаемая версия программного обеспечения AP 4900: 9.x|&#10004;|
-|[Лента](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions)|[SBC 1000. Версия программного обеспечения: 8.1.1 (сборка 527)](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Analog+Devices)|&#10004;|
-|[Лента](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions)|[SBC 2000. Версия программного обеспечения: 8.1.1 (сборка 527)](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Analog+Devices)|&#10004;|
-|[Лента](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions)|[EdgeMarc 302. Версия программного обеспечения: 16.1.1](https://ribboncommunications.com/products/service-provider-products/cloud-and-edge/session-border-controllers/session-border-controllers-edge-appliances)|&#10004;|
-|[Лента](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions)|[EdgeMarc 304. Версия программного обеспечения: 16.1.1](https://ribboncommunications.com/products/service-provider-products/cloud-and-edge/session-border-controllers/session-border-controllers-edge-appliances)|&#10004;|
-|[Лента](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions)|[EdgeMarc 2900A. Версия программного обеспечения: 16.1.1](https://ribboncommunications.com/products/service-provider-products/cloud-and-edge/session-border-controllers/session-border-controllers-edge-appliances)|&#10004;|
-|[Лента](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions)|[EdgeMarc 4806. Версия программного обеспечения: 16.1.1](https://ribboncommunications.com/products/service-provider-products/cloud-and-edge/session-border-controllers/session-border-controllers-edge-appliances)|&#10004;|
-|[Лента](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions)|[EdgeMarc 4808. Версия программного обеспечения: 16.1.1](https://ribboncommunications.com/products/service-provider-products/cloud-and-edge/session-border-controllers/session-border-controllers-edge-appliances)|&#10004;|
-|[Лента](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions)|[EdgeMarc 6000. Версия программного обеспечения: 16.1.1](https://ribboncommunications.com/products/service-provider-products/cloud-and-edge/session-border-controllers/session-border-controllers-edge-appliances)|&#10004;|
+|[Лента](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions)|[SBC 1000. Версия программного обеспечения: 8.1.1 (сборка 527) или более поздняя версия SW](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Analog+Devices)|&#10004;|
+|[Лента](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions)|[SBC 2000. Версия программного обеспечения: 8.1.1 (сборка 527) или более поздняя версия SW](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Analog+Devices)|&#10004;|
+|[Лента](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions)|[EdgeMarc 302. Версия программного обеспечения: 16.1.1 или более поздняя версия SW](https://ribboncommunications.com/products/service-provider-products/cloud-and-edge/session-border-controllers/session-border-controllers-edge-appliances)|&#10004;|
+|[Лента](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions)|[EdgeMarc 304. Версия программного обеспечения: 16.1.1 или более поздняя версия SW](https://ribboncommunications.com/products/service-provider-products/cloud-and-edge/session-border-controllers/session-border-controllers-edge-appliances)|&#10004;|
+|[Лента](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions)|[EdgeMarc 2900A. Версия программного обеспечения: 16.1.1 или более поздняя версия SW](https://ribboncommunications.com/products/service-provider-products/cloud-and-edge/session-border-controllers/session-border-controllers-edge-appliances)|&#10004;|
+|[Лента](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions)|[EdgeMarc 4806. Версия программного обеспечения: 16.1.1 или более поздняя версия SW](https://ribboncommunications.com/products/service-provider-products/cloud-and-edge/session-border-controllers/session-border-controllers-edge-appliances)|&#10004;|
+|[Лента](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions)|[EdgeMarc 4808. Версия программного обеспечения: 16.1.1 или более поздняя версия SW](https://ribboncommunications.com/products/service-provider-products/cloud-and-edge/session-border-controllers/session-border-controllers-edge-appliances)|&#10004;|
+|[Лента](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions)|[EdgeMarc 6000. Версия программного обеспечения: 16.1.1 или более поздняя версия SW](https://ribboncommunications.com/products/service-provider-products/cloud-and-edge/session-border-controllers/session-border-controllers-edge-appliances)|&#10004;|
 |[TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)|anynode с Grandstream GXW42xx (V1.0.7.10)|&#10004;|
 
 Обратите внимание на сертификат, предоставленный основной версии. Это означает, что поддерживается прошивка с любым номером во встроенном ПО пограничного контроллера сеансов, следующим за основной версией.
