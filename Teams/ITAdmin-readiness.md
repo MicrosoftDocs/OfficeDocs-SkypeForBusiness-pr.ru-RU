@@ -18,12 +18,12 @@ ms.custom:
 description: Обучающие видео, презентации PowerPoint, учебники и другие ресурсы для администраторов по планированию, развертыванию и запуску Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0dab76cd8cdca4270555a7f15b8f92f353f7afc5
-ms.sourcegitcommit: ffcc4c7d5688fee28f5fdc8bb8e6b78afb1ee626
+ms.openlocfilehash: dbba9535bed24c52578f8c01f37557774bbfa5e3
+ms.sourcegitcommit: e5f5a1a164576b317e89340e233c9b67f082d19c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2022
-ms.locfileid: "68795451"
+ms.lasthandoff: 11/09/2022
+ms.locfileid: "68890068"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Начало работы с обучением администраторов для Microsoft Teams
 
@@ -48,10 +48,11 @@ ms.locfileid: "68795451"
 | ------------ | -------------------- | -------------------- |
 | [Microsoft Mechanics - Канал Teams Essentials для ИТ на YouTube](https://aka.ms/MicrosoftTeamsforIT) | [Видео: Teams Essentials for IT](https://www.youtube.com/watch?v=MfDB7VenWuA&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn) (10:13 мин)<br>[Видео: Развертывание & настройка Teams — введение](https://www.youtube.com/watch?v=o2mlsUubIO4&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn&index=2) (8:22 мин)  <br>[Видео: Безопасность и соответствие требованиям](https://youtu.be/91lHNKVVvQ4) (12:42 мин)<br>[Видео: Элементы управления Teams для обеспечения безопасности и соответствия требованиям](https://www.youtube.com/watch?v=Km4T4hMM__k) (10:54 мин)||
 | Основы — основные компоненты | [Видео](https://aka.ms/teams-foundations) | [Палубе](https://aka.ms/teams-foundations-deck) |
+| Аудиоконференция |  | [Палубе](https://aka.ms/teams-audio-conferencing-deck) |
+| Обзор качества звонков | | [Палубе](https://aka.ms/teams-quality-deck) |
 | Классический клиент Windows | [Видео](https://aka.ms/teams-clients) | [Палубе](https://aka.ms/teams-clients-deck) |
 | Управление, управление и жизненный цикл | [Видео](https://aka.ms/teams-governance) | [Палубе](https://aka.ms/teams-governance-deck) |
 | Соответствие требованиям & безопасности | [Видео](https://aka.ms/teams-security-compliance) | [Палубе](https://aka.ms/teams-security-compliance-deck) |
-| Обзор качества звонков | | [Палубе](https://aka.ms/teams-quality-deck) |
 | Общие сведения о собраниях | [Видео](https://aka.ms/teams-meetings-intro) | [Палубе](https://aka.ms/teams-meetings-intro-deck) |
 | Мультимедиа— почему собрания просты|[Видео](https://aka.ms/media-in-teams)  | [Палубе](https://aka.ms/media-in-teams-deck)|
 | Мультимедиа — поток мультимедиа | [Видео](https://aka.ms/teams-media-flows) | [Палубе](https://aka.ms/teams-media-flows-deck)  |
