@@ -1,5 +1,5 @@
 ---
-title: Проверка подлинности на основе приложений в модуле Teams PowerShell
+title: Проверка подлинности на основе приложений в модуле PowerShell Teams
 author: pbafna03
 ms.author: pbafna
 ms.reviewer: pbafna
@@ -12,45 +12,36 @@ ms.collection:
 description: Сведения о проверке подлинности на основе приложений в модуле Teams PowerShell, используемом для администрирования Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d017f5e23685df6aa6c7ae0630724ad5d13d0425
-ms.sourcegitcommit: ffc7532a4bb1f1f6b3031025b493a5ad20ba4366
+ms.openlocfilehash: 89af4494a6cf20aab512c0430a6e16db622e53a2
+ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2022
-ms.locfileid: "68570422"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "68912648"
 ---
-# <a name="application-based-authentication-in-teams-powershell-module"></a>Проверка подлинности на основе приложений в модуле Teams PowerShell
+# <a name="application-based-authentication-in-teams-powershell-module"></a>Проверка подлинности на основе приложений в модуле PowerShell Teams
 
-Проверка подлинности на основе приложений теперь поддерживается в модуле Teams PowerShell для ограниченного набора командлетов в предварительной версии с версией 4.7.1 или более поздней. В настоящее время этот режим проверки подлинности поддерживается только в коммерческих средах.
+Проверка подлинности на основе приложений теперь поддерживается в модуле Teams PowerShell в предварительной версии версии 4.7.1-preview или более поздней. В настоящее время этот режим проверки подлинности поддерживается только в коммерческих средах.
 
 
 ## <a name="cmdlets-supported"></a>Поддерживаемые командлеты
 
-Приведенные ниже командлеты уже поддерживаются, другие командлеты будут постепенно развернуты. 
+Сейчас поддерживаются все командлеты, за исключением командлетов, упомянутых ниже. 
 
-  - Командлеты \*, отличные от CS (за исключением Командной группы)
-  - Get-CsTenant
-  - Get-CsOnlineUser, Get-CsOnlineVoiceUser
-  - \*-CsOnlineSipDomain 
-  - \*-CsPhoneNumberAssignment
-  - \*-CsOnlineTelephoneNumberOrder, Get-CsOnlineTelephoneNumberType, Get-CsOnlineTelephoneNumberCountry
-  - \*-CsCallQueue
-  - \*-CsAutoAttendant, \*-CsAutoAttendant\*
-  - \*-CsOnlineVoicemailUserSettings
-  - Find-CsOnlineApplicationInstance, \*-CsOnlineApplicationInstanceAssociation, Get-CsOnlineApplicationInstanceAssociationStatus
-  - \*-CsOnlineSchedule, New-CsOnlineTimeRange, New-CsOnlineDateTimeRange
-  - \*-CsOnlineAudioFile
-  - Find-CsGroup
-  - \*-CsOnlineDialInConferencingUser, \*-CsOnlineDialInConferencingServiceNumber, \*-CsOnlineDialInConferencingBridge, Get-CsOnlineDialInConferencingLanguagesSupported, Set-CsOnlineDialInConferencingUserDefaultNumber
-  - \*-CsOnlineLisLocation, \*-CsOnlineLisCivicAddress, \*-CsOnlineLisWirelessAccessPoint, \*-CsOnlineLisPort, \*-CsOnlineLisSubnet, \*-CsOnlineEnhancedEmergencyServiceDisclaimer, \*-CsOnlineLisSwitch
-  - \*-CsCloudCallDataConnection
+  - New-Team
+  - [Get| Задать| Новое| Sync]-CsOnlineApplicationInstance
+  - \*-CsUserCallingSettings
+  - \*-CsUserCallingDelegate
+  - \*PolicyPackage\*
+  - \*-CsTeamsShiftsConnection\*
+  - \*-CsBatchTeamsDeployment\*
 
 
 ## <a name="examples"></a>Примеры
 
-В следующих примерах показано, как использовать модуль Teams PowerShell Azure AD проверку подлинности на основе приложения. 
+В следующих примерах показано, как использовать модуль Teams PowerShell с Azure AD проверки подлинности на основе приложения. 
 
-- Подключитесь с помощью отпечатка сертификата:
+- Подключение с помощью отпечатка сертификата:
 
   ```powershell
   Connect-MicrosoftTeams -CertificateThumbprint "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" -ApplicationId "00000000-0000-0000-0000-000000000000" -TenantId "YYYYYYYY-YYYY-YYYY-YYYY-YYYYYYYYYYYY"
@@ -59,7 +50,7 @@ ms.locfileid: "68570422"
   
 - Подключение с помощью маркеров доступа:
   
-  Маркеры доступа можно получить с помощью login.microsoftonline.com конечной точки. Для этого требуются два маркера доступа : "MS Graph" и "Skype и Teams Tenant Администратор API".
+  Маркеры доступа можно получить через конечную точку login.microsoftonline.com. Для этого требуются два маркера доступа — ресурсы MS Graph и API клиента Skype и Teams Администратор.
 
   ```powershell
   $ClientSecret   = "…"
@@ -89,22 +80,22 @@ ms.locfileid: "68570422"
   
 ## <a name="how-does-it-work"></a>Как это работает?
 
-Модуль Teams PowerShell извлекает маркер на основе приложения, используя идентификатор приложения, идентификатор клиента и отпечаток сертификата. Объект приложения, подготовленный в Azure AD имеет назначенную роль каталога, которая возвращается в маркере доступа. Управление доступом на основе ролей сеанса (RBAC) настраивается с помощью сведений о роли каталога, доступных в маркере.
+Модуль PowerShell Teams извлекает маркер на основе приложения, используя идентификатор приложения, идентификатор клиента и отпечаток сертификата. Объекту приложения, подготовленному внутри Azure AD, назначена роль каталога, которая возвращается в маркере доступа. Управление доступом на основе ролей (RBAC) сеанса настраивается с помощью сведений о роли каталога, доступных в маркере.
 
 
 ## <a name="setup-application-based-authentication"></a>Настройка проверки подлинности на основе приложений
 
-Для проверки подлинности с помощью объектов приложения требуется начальное подключение. Приложение и субъект-служба используются взаимозаменяемо, но приложение похоже на объект класса, а субъект-служба — как экземпляр класса. Дополнительные сведения об этих объектах см. в [разделе "Объекты приложения и субъекта-службы" в Azure Active Directory](/azure/active-directory/develop/app-objects-and-service-principals).
+Для проверки подлинности с помощью объектов приложения требуется начальное подключение. Приложение и субъект-служба используются взаимозаменяемо, но приложение похоже на объект класса, а субъект-служба — как экземпляр класса . Дополнительные сведения об этих объектах см. [в статье Объекты приложения и субъекта-службы в Azure Active Directory](/azure/active-directory/develop/app-objects-and-service-principals).
 
-Ниже приведены примеры действий по созданию приложений в Azure AD. Подробные инструкции см. в этой [статье](/azure/active-directory/develop/howto-create-service-principal-portal).
+Примеры действий по созданию приложений в Azure Ad приведены ниже. Подробные инструкции см. в этой [статье](/azure/active-directory/develop/howto-create-service-principal-portal).
 
 1. Регистрация приложения в Azure AD
-2. Назначение разрешений API приложению
+2. Назначение приложению разрешений API
    - Для \*командлетов -Cs разрешения API не требуются.
-   - Для командлетов\*, отличных от CS, необходимые разрешения microsoft API Graph: `User.Read.All`, `Group.ReadWrite.All`, `AppCatalog.ReadWrite.All`, `TeamSettings.ReadWrite.All`, , `Channel.Delete.All``ChannelSettings.ReadWrite.All`. `ChannelMember.ReadWrite.All`  
+   - Для командлетов, отличных \*от Cs, требуются `User.Read.All`разрешения Microsoft API Graph: , `Group.ReadWrite.All`, `AppCatalog.ReadWrite.All`, `TeamSettings.ReadWrite.All`, `Channel.Delete.All`, `ChannelSettings.ReadWrite.All`, . `ChannelMember.ReadWrite.All`  
 3. Создание самозаверяющего сертификата
-4. Присоединение сертификата к Azure AD приложения
+4. Присоединение сертификата к приложению Azure AD
 5. Назначение [Azure AD ролей](/microsoftteams/using-admin-roles#teams-roles-and-capabilities) приложению
 
-Приложению должны быть назначены соответствующие роли RBAC. Так как приложения подготавливаются в Azure AD, можно использовать любую из поддерживаемых встроенных ролей.
+Приложению должны быть назначены соответствующие роли RBAC. Так как приложения подготовлены в Azure AD, вы можете использовать любую из поддерживаемых встроенных ролей.
  

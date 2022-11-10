@@ -1,5 +1,5 @@
 ---
-title: Приобретение лицензий для сторонних приложений Teams
+title: Приобретение сторонних приложений и управление подписками
 author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
@@ -10,21 +10,21 @@ audience: admin
 ms.date: 10/04/2022
 ms.collection:
 - M365-collaboration
-ms.reviewer: chhavib, vaibhava, nsuter
+ms.reviewer: chhavib, nsuter
 search.appverid: MET150
 f1keywords: ''
-description: Узнайте, как приобретать лицензии сторонних приложений в магазине Teams с помощью кредитной карты, дебетовой карты или выставления счетов.
+description: Узнайте, как приобрести платные лицензии на приложения в магазине Teams с помощью кредитной карты, дебетовой карты или выставления счетов.
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 73f16f3b8bdb11971f4cd7602c4262250e9fe068
-ms.sourcegitcommit: c2d8c7f779f4f938f8355632ecfbfc9147b53bb2
+ms.openlocfilehash: 82364d5659009e067a6884551266c6fabf93dc04
+ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/27/2022
-ms.locfileid: "68738555"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "68912428"
 ---
-# <a name="purchase-licenses-for-third-party-teams-apps"></a>Приобретение лицензий для сторонних приложений Teams
+# <a name="purchase-third-party-teams-apps-and-manage-subscriptions"></a>Приобретение сторонних приложений Teams и управление подписками
 
 Для некоторых приложений Teams может потребоваться приобретение подписки на службу, чтобы использовать полную функциональность и область приложения. Эти подписки на службы называются предложениями SaaS (программное обеспечение как услуга). Лицензию можно приобрести в [AppSource](https://appsource.microsoft.com/) и [в Центре администрирования Microsoft Teams](https://admin.teams.microsoft.com).
 
@@ -40,7 +40,7 @@ ms.locfileid: "68738555"
 
 1. Войдите в Центр администрирования Teams и получите доступ к **приложениям** >  Teams **[Управление приложениями](https://admin.teams.microsoft.com/policies/manage-apps)**. Для доступа к этой странице вы должны быть глобальным администратором или администратором службы Teams.
 
-1. Найдите нужное приложение по его имени. Сведения о том, предлагают ли приложения платную подписку SaaS, см. в столбце **Лицензии** . Каждое приложение содержит одно из следующих значений.
+1. Найдите нужное приложение по его имени. Чтобы проверить, предлагает ли приложение платную подписку SaaS, см. столбец **Лицензии** . Каждое приложение содержит одно из следующих значений.
     * **Покупка**. Приложение предлагает подписку SaaS и доступно для покупки.
     * **Приобретено**. Приложение предлагает подписку SaaS, и вы приобрели лицензии для нее.
     * **- -**. Приложение не предлагает подписку SaaS.
